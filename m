@@ -1,7 +1,7 @@
 From: Gitolite Activity Feed <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 01 Nov 2020 12:44:54 -0000
-Message-Id: <160424087883.25765.10395767032186434698@gitolite.kernel.org>
+Date: Sun, 01 Nov 2020 12:52:05 -0000
+Message-Id: <160424087886.25765.3325454569069678801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -13,13 +13,11 @@ user: saeed
 repo: pub/scm/linux/kernel/git/saeed/linux
 changes:
   - ref: refs/heads/net-next
-    old: 390c0fcd68c331e8e7df240f0597f9f70469d2b2
-    new: bc5d8ed67ff326e189abc76a96b11e471bf04bed
+    old: bc5d8ed67ff326e189abc76a96b11e471bf04bed
+    new: 6bd8da4b921202f4ebcf6ccd6d1e9181bcc8bf94
     log: |
-         c0dbc58e60d81fecff2b10845e628d587a3afee8 mm/page_alloc.c: Set ppc->high fraction default to 512
-         b5078acdfd0cf7889b202222fe51db8512ae6483 net/mlx4: Remove unused #define MAX_MSIX_P_PORT
-         3a19204a40489da053430d4f07cffe6aa518f30b Merge branch 'net-next-mlx4' into net-next
-         26eebfd6d3ae42404950440149aa2774916b3600 Merge branch 'mlx5-vdpa' into net-next
-         381e93bc884e906158ce608bcaf38ba013abce9c Merge branch 'net-next-mlx5' into net-next
-         bc5d8ed67ff326e189abc76a96b11e471bf04bed Merge branch 'net-mlx5' into net-next
+         bad26f49ada5a25cb93b8b43a2b7ec1d8788e661 Merge branch 'net-next-mlx4' into net-next
+         7d21158536f1edd5ebc5fccd1276f0f145e62c76 Merge branch 'mlx5-vdpa' into net-next
+         a6fad7791059eaee68c6f791555d95ea7931a731 Merge branch 'net-next-mlx5' into net-next
+         6bd8da4b921202f4ebcf6ccd6d1e9181bcc8bf94 Merge branch 'net-mlx5' into net-next
          
