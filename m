@@ -1,22 +1,20 @@
 From: Gitolite Activity Feed <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse
-Date: Sun, 01 Nov 2020 06:18:17 -0000
-Message-Id: <160424087676.25765.3002457782464657981@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 01 Nov 2020 06:54:10 -0000
+Message-Id: <160424087678.25765.11005055376159713963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-remote_ip: JeIx9fhXGaNEjJEyE7aVDiMm7NE=
-user: lucvoo
-repo: pub/scm/devel/sparse/sparse
+remote_ip: 8ySW21RtOUyAT+wUrqJfJiiwrSg=
+user: mtk
+repo: pub/scm/docs/man-pages/man-pages
 changes:
   - ref: refs/heads/master
-    old: 0c7b00977c8826b1cd172f7e90ad14e980190467
-    new: f680124b794b246c8a20f2cb54b2fc7ff989625d
+    old: e9c09849cc7e8af8f663170d14a4740949a4de12
+    new: 2e3356328451f2eaa4a7a5273741e2be3c1f7487
     log: |
-         594c7389969f79919f1170693c970fb25b8bfe4d eval_insn: add testcases for incorrect type in OP_SET_*
-         226b62bc2ee4779447ce788d83aa0b409e384ec8 eval_insn: give an explicit type to compare's operands
-         f680124b794b246c8a20f2cb54b2fc7ff989625d Merge branch 'typed-cmp'
+         2e3356328451f2eaa4a7a5273741e2be3c1f7487 statx.2: ffix
          
