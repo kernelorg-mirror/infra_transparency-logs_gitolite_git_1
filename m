@@ -1,19 +1,19 @@
 From: Gitolite Activity Feed <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 01 Nov 2020 16:30:39 -0000
-Message-Id: <160424823904.22885.10971180720793112090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
+Date: Sun, 01 Nov 2020 16:38:33 -0000
+Message-Id: <160424871337.26836.13197413345626025640@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: eguan
-remote_ip: VKD6QkFuJDfAwJYtA+Qd2uRsXfk=
+repo: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
+user: ebiggers
+remote_ip: 7mdgl0XrXVkAUNv490xLPPgQ7j0=
 changes:
   - ref: refs/heads/master
-    old: 31f6949f385aad3aa3f1f68c8b03fa0ab3469e69
+    old: fa41b753e9eebdddd316525bbd95984d68411f79
     new: b09ba3318ebb2373df2ee516ee99aae4da24a8a3
     log: |
          f81829d98ca672a87e9ac3dbd747d0046a0ff5ca common/repair: filter unknown block state properly
