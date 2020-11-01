@@ -1,23 +1,23 @@
 From: Gitolite Activity Feed <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 01 Nov 2020 12:14:34 -0000
-Message-Id: <160424087852.25765.62603984172566187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sun, 01 Nov 2020 12:17:28 -0000
+Message-Id: <160424087854.25765.11098365889525408306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-remote_ip: 7tsIW5IFFzj/gfkErFb7zLHFGU8=
-user: maz
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
+remote_ip: wnIW8Gliy0FMMns/NRLBouU7Jeg=
+user: saeed
+repo: pub/scm/linux/kernel/git/saeed/linux
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: a7480c5d725c4ecfc627e70960f249c34f5d13e8
-    new: d95bdca75b3fb41bf185efe164e05aed820081a5
+  - ref: refs/heads/net-next
+    old: 2d769aa03da38a222e39107fe3c226feb79b4961
+    new: 2c4b144ef7efe06cb84b7b2253be787644ebe466
     log: |
-         f9ac7bbd6e4540dcc6df621b9c9b6eb2e26ded1d irqchip/sifive-plic: Fix chip_data access within a hierarchy
-         b388bdf2bac7aedac9bde5ab63eaf7646f29fc00 irqchip/renesas-intc-irqpin: Merge irlm_bit and needs_irlm
-         bb2bd7c7f3d0946acc2104db31df228d10f7b598 dt-bindings: irqchip: ti, sci-inta: Update for unmapped event handling
-         d95bdca75b3fb41bf185efe164e05aed820081a5 irqchip/ti-sci-inta: Add support for unmapped event handling
+         b56400841383ae115158cd19e7b25ca422e4040c Merge branch 'net-next-mlx4' into net-next
+         0322251447a14d61e49f9aea7544a845de3150e8 Merge branch 'mlx5-vdpa' into net-next
+         e0cc288d9e91ada387620dd1ea5c9f4a373d6e4c Merge branch 'net-next-mlx5' into net-next
+         2c4b144ef7efe06cb84b7b2253be787644ebe466 Merge branch 'net-mlx5' into net-next
          
