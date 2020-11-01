@@ -1,7 +1,7 @@
 From: Gitolite Activity Feed <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 01 Nov 2020 12:17:28 -0000
-Message-Id: <160424087854.25765.11098365889525408306@gitolite.kernel.org>
+Date: Sun, 01 Nov 2020 12:30:52 -0000
+Message-Id: <160424087857.25765.12625019734576689920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -13,11 +13,11 @@ user: saeed
 repo: pub/scm/linux/kernel/git/saeed/linux
 changes:
   - ref: refs/heads/net-next
-    old: 2d769aa03da38a222e39107fe3c226feb79b4961
-    new: 2c4b144ef7efe06cb84b7b2253be787644ebe466
+    old: 2c4b144ef7efe06cb84b7b2253be787644ebe466
+    new: 390c0fcd68c331e8e7df240f0597f9f70469d2b2
     log: |
-         b56400841383ae115158cd19e7b25ca422e4040c Merge branch 'net-next-mlx4' into net-next
-         0322251447a14d61e49f9aea7544a845de3150e8 Merge branch 'mlx5-vdpa' into net-next
-         e0cc288d9e91ada387620dd1ea5c9f4a373d6e4c Merge branch 'net-next-mlx5' into net-next
-         2c4b144ef7efe06cb84b7b2253be787644ebe466 Merge branch 'net-mlx5' into net-next
+         eefddabd357e80116ea9bc1735e3985d0686c107 Merge branch 'net-next-mlx4' into net-next
+         762a02633342dcc36e3b57c9f13050ad8f9edd5e Merge branch 'mlx5-vdpa' into net-next
+         d102d9b6816564c7fb50b5c14d1b3ca80e84cdfc Merge branch 'net-next-mlx5' into net-next
+         390c0fcd68c331e8e7df240f0597f9f70469d2b2 Merge branch 'net-mlx5' into net-next
          
