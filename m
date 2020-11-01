@@ -1,23 +1,20 @@
 From: Gitolite Activity Feed <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 01 Nov 2020 22:47:01 -0000
-Message-Id: <160427082163.17269.15648154282912460562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Sun, 01 Nov 2020 23:06:35 -0000
+Message-Id: <160427199548.31353.4825664295787469553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
-remote_ip: mR68FdIPlxkeE22iCXrEbL0v0uQ=
+repo: pub/scm/libs/libcap/libcap
+user: morgan
+remote_ip: qtXFvAsXAjh3/6h16N9J6Vvolao=
 changes:
   - ref: refs/heads/master
-    old: 7b56fbd83e261484da43f04090bce07570bd117f
-    new: 3cea11cd5e3b00d91caf0b4730194039b45c5891
+    old: 9d8eaab7f74cf1d925910901e5181173ab11d14d
+    new: f025e2fb7a2b075005847eb9a82d2f4bfbd42566
     log: |
-         3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
+         f025e2fb7a2b075005847eb9a82d2f4bfbd42566 Some distributions can't support shared libraries
          
-  - ref: refs/tags/v5.10-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 27598e7e73260ed0b2917eb02d4a515ebb578313
