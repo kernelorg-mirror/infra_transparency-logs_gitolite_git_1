@@ -1,7 +1,7 @@
 From: Gitolite Activity Feed <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse-dev
-Date: Sun, 01 Nov 2020 05:31:37 -0000
-Message-Id: <160424087656.25765.1796794384525784855@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse
+Date: Sun, 01 Nov 2020 05:31:42 -0000
+Message-Id: <160424087659.25765.11238101273197500423@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -10,7 +10,7 @@ Content-Transfer-Encoding: 7bit
 service: git-receive-pack
 remote_ip: JeIx9fhXGaNEjJEyE7aVDiMm7NE=
 user: lucvoo
-repo: pub/scm/devel/sparse/sparse-dev
+repo: pub/scm/devel/sparse/sparse
 changes:
   - ref: refs/heads/master
     old: 49c98aa3ed1b315ed2f4fbe44271ecd5bdd9cbc7
