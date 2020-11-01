@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9217803944560399953=="
+Content-Type: multipart/mixed; boundary="===============2867815015118348078=="
 MIME-Version: 1.0
 From: Gitolite Activity Feed <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 01 Nov 2020 10:40:14 -0000
-Message-Id: <160424087718.25765.16455724225310488777@gitolite.kernel.org>
+Date: Sun, 01 Nov 2020 10:42:23 -0000
+Message-Id: <160424087730.25765.2737356831047947130@gitolite.kernel.org>
 
---===============9217803944560399953==
+--===============2867815015118348078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,332 +17,338 @@ user: bot-stable-queue
 repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 changes:
   - ref: refs/heads/queue/4.14
-    old: 71e1d642b82cc97d0ad35e725f4f7eb81b98aee5
-    new: ed53c9239ef01a5a7b6a273ca7de68b7c82e6049
-    log: revlist-71e1d642b82c-ed53c9239ef0.txt
+    old: ed53c9239ef01a5a7b6a273ca7de68b7c82e6049
+    new: 00b72bea6b4e0537fd394b15ae4d05245d403238
+    log: revlist-ed53c9239ef0-00b72bea6b4e.txt
   - ref: refs/heads/queue/4.19
-    old: 47b72bf466fda415b28f85e9f57d5fa8f8695a6f
-    new: 5c93ccc0deaaac250b0e43266da06ece9f0a5f2c
-    log: revlist-47b72bf466fd-5c93ccc0deaa.txt
+    old: 5c93ccc0deaaac250b0e43266da06ece9f0a5f2c
+    new: eb41ad80c3909a9a8207b3e1c73da87e35a4dbc3
+    log: revlist-5c93ccc0deaa-eb41ad80c390.txt
   - ref: refs/heads/queue/4.4
-    old: 01107438582d98247ad90766b9c8e21ea21c8b7b
-    new: a422c4e3da5bee09bc56f415b4649c2988b35b05
+    old: a422c4e3da5bee09bc56f415b4649c2988b35b05
+    new: 01f66711e1bd4913672ec60ea639e2947c97a79c
     log: |
-         5163053b7b9dcd9d9cc83bae1cad7272ce3232b8 SUNRPC: ECONNREFUSED should cause a rebind.
-         05f8dbe79bf835af5bbc9938316eea932815423a scripts/setlocalversion: make git describe output more reliable
-         4d449c56691a13f03c2da1781376980ac9c687f9 powerpc/powernv/opal-dump : Use IRQ_HANDLED instead of numbers in interrupt handler
-         ec3d9218fc97a3a67ac41267e14079626d7c5dc2 efivarfs: Replace invalid slashes with exclamation marks in dentries.
-         6cf29933f0872bfc150cb8bc4874bdf04ae3590f ravb: Fix bit fields checking in ravb_hwtstamp_get()
-         fb333bf5f900724605062911e9329d76ecc59f3c tipc: fix memory leak caused by tipc_buf_append()
-         9bc58cbbabb3641de4c07fe6c217eec54585b8f1 mtd: lpddr: Fix bad logic in print_drs_error
-         4d5bcdc521be152b59a4c62a7cd6296b2ab26107 ata: sata_rcar: Fix DMA boundary mask
-         343a21c7c4b1f5abaf5bad07b68942bf16d8fffc fscrypt: return -EXDEV for incompatible rename or link into encrypted dir
-         a422c4e3da5bee09bc56f415b4649c2988b35b05 f2fs crypto: avoid unneeded memory allocation in ->readdir
+         651720f2e326617567f7bb0651b2f4f6412506bc SUNRPC: ECONNREFUSED should cause a rebind.
+         f900438a0c99bf632459bc6fea8d0dc2e8389a48 scripts/setlocalversion: make git describe output more reliable
+         e30b348d3ad74c9e87338e820e03aa06a01121b9 powerpc/powernv/opal-dump : Use IRQ_HANDLED instead of numbers in interrupt handler
+         8fedc02852a92e77e5ed4e0cf22e6dbd0faf79ad efivarfs: Replace invalid slashes with exclamation marks in dentries.
+         2c680878a09855a37f80c8eca31eb13740fd4390 ravb: Fix bit fields checking in ravb_hwtstamp_get()
+         51c4df2714b267808834f0c344cb715238de10d4 tipc: fix memory leak caused by tipc_buf_append()
+         5dab02002e67d79f6df8e8d52a0fb5fc5a45057d mtd: lpddr: Fix bad logic in print_drs_error
+         aaff28c9ddeda22929d574b5148ed6a14b45b1c7 ata: sata_rcar: Fix DMA boundary mask
+         c4c9d554cf0105aae0a7a56d87d1edd910d7fde5 fscrypt: return -EXDEV for incompatible rename or link into encrypted dir
+         01f66711e1bd4913672ec60ea639e2947c97a79c f2fs crypto: avoid unneeded memory allocation in ->readdir
          
   - ref: refs/heads/queue/4.9
-    old: a158774b57df3a51a64ad82e46ee84839db1f3cf
-    new: 574439c6c937cda010a8b5b0e56582c2ce958506
-    log: revlist-a158774b57df-574439c6c937.txt
+    old: 574439c6c937cda010a8b5b0e56582c2ce958506
+    new: 8c75cebaa7b055a9d097e839e61867a95eeb316e
+    log: revlist-574439c6c937-8c75cebaa7b0.txt
   - ref: refs/heads/queue/5.4
-    old: 049096fa2fbcd4443ed92338f7d33f05a71c2d00
-    new: 615435752f64f1bb474332ffb1ec5cbf8b587d9a
-    log: revlist-049096fa2fbc-615435752f64.txt
+    old: 615435752f64f1bb474332ffb1ec5cbf8b587d9a
+    new: 5b8762c2dbb2d1e1066e8e04b4d4216d332f8767
+    log: revlist-615435752f64-5b8762c2dbb2.txt
   - ref: refs/heads/queue/5.8
-    old: b554b28375e3b4a6a764a836714185439fee0a9d
-    new: 3491fd4b6535f90e8b6a523a009a6a06a478a54d
-    log: revlist-b554b28375e3-3491fd4b6535.txt
+    old: 3491fd4b6535f90e8b6a523a009a6a06a478a54d
+    new: 0560602ec5644ba12064a78d31f682a83ced250f
+    log: revlist-3491fd4b6535-0560602ec564.txt
   - ref: refs/heads/queue/5.9
-    old: d16e52af722a1bbf564fd47400df19e15e190923
-    new: d4f6ec57c47cbfdbf170941a24d66587cf3cdf25
-    log: revlist-d16e52af722a-d4f6ec57c47c.txt
+    old: d4f6ec57c47cbfdbf170941a24d66587cf3cdf25
+    new: 2ff32696e9043772ea806ff6379c02240debbb42
+    log: revlist-d4f6ec57c47c-2ff32696e904.txt
 
---===============9217803944560399953==
+--===============2867815015118348078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71e1d642b82c-ed53c9239ef0.txt
+Content-Disposition: attachment; filename=revlist-ed53c9239ef0-00b72bea6b4e.txt
 
-aa0d42e59a3acd0d5503d44417ca304d46de05d0 scripts/setlocalversion: make git describe output more reliable
-52cd97696a636d8ce7bef8103e584b02b6d83d56 arm64: link with -z norelro regardless of CONFIG_RELOCATABLE
-8f36031c84d0ffa78bcd9d8bb676c6cc87d18e69 efivarfs: Replace invalid slashes with exclamation marks in dentries.
-f25d455aaa444a23a063bb7d6d441f281622703f gtp: fix an use-before-init in gtp_newlink()
-001cb15e6b03b07b4449aec32fa3a8d3843930e4 ravb: Fix bit fields checking in ravb_hwtstamp_get()
-6217d5bccc4bc2c45d37ba37f362b5f0abf3bfea tipc: fix memory leak caused by tipc_buf_append()
-7f0f10996e9c88037aa4127d755ef25b791b4208 arch/x86/amd/ibs: Fix re-arming IBS Fetch
-a8924a3bd3525e8d7ace4667ba73f8f4e18d6177 x86/xen: disable Firmware First mode for correctable memory errors
-846f7f103b6596778c387858e93356999870b26b fuse: fix page dereference after free
-f9b71889195464b5dd5cd6a945f8a41bfa0ef101 p54: avoid accessing the data mapped to streaming DMA
-aa11a022a314711c4e1f24b6febe3bb0cb6d1ea6 mtd: lpddr: Fix bad logic in print_drs_error
-69fe264e0f151cc0642b438a3cbe237e75c0f32c ata: sata_rcar: Fix DMA boundary mask
-ed53c9239ef01a5a7b6a273ca7de68b7c82e6049 fscrypt: return -EXDEV for incompatible rename or link into encrypted dir
+8a82a598fb7a1ad17e8f9f54d045a622fe866ef2 scripts/setlocalversion: make git describe output more reliable
+dd65b247bcc23e742dfba74661cd382eaf7757cf arm64: link with -z norelro regardless of CONFIG_RELOCATABLE
+543d70bc4520cc6c3a5e92daf55281e65f7d956f efivarfs: Replace invalid slashes with exclamation marks in dentries.
+be1bc0d8e3272bbb6b9d181855b9762a6f40e095 gtp: fix an use-before-init in gtp_newlink()
+2848013e92d3d83b5a91d96a5184d7cecc6a9536 ravb: Fix bit fields checking in ravb_hwtstamp_get()
+5598ff67de58d35a23e3bcde6ee474d93a7e323d tipc: fix memory leak caused by tipc_buf_append()
+cd986388ccfee74e43b969c746372cfc23faee20 arch/x86/amd/ibs: Fix re-arming IBS Fetch
+d1636c0cc3e5b21b73c2e5f28f3d08452cccd1cc x86/xen: disable Firmware First mode for correctable memory errors
+185fbed5112492eaaeb0cd2be349b82b5a234978 fuse: fix page dereference after free
+2a1a4994b7cd1c53f2d3a11186d93d52079f3b9f p54: avoid accessing the data mapped to streaming DMA
+d06da2cc9b36bf891f8e8295dd90c3d210c5420a mtd: lpddr: Fix bad logic in print_drs_error
+2664214f849be0ca72c4c0a71bcc22d3e179b9bb ata: sata_rcar: Fix DMA boundary mask
+00b72bea6b4e0537fd394b15ae4d05245d403238 fscrypt: return -EXDEV for incompatible rename or link into encrypted dir
 
---===============9217803944560399953==
+--===============2867815015118348078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47b72bf466fd-5c93ccc0deaa.txt
+Content-Disposition: attachment; filename=revlist-5c93ccc0deaa-eb41ad80c390.txt
 
-acb5614ab1669c4b5a3f423c5d282232f624687e objtool: Support Clang non-section symbols in ORC generation
-4e4227e61e07b7f9fae67218f8b3b7b7cd6ea9cd scripts/setlocalversion: make git describe output more reliable
-1e6a5a6ff5653fdce5dcd60fcc3bdf439dcce7d4 arm64: Run ARCH_WORKAROUND_1 enabling code on all CPUs
-492359ab452d05584a4f465e0f5b84787952c360 arm64: link with -z norelro regardless of CONFIG_RELOCATABLE
-f5ac7e726443c47c248080f0d1eb5ee5c9bfecdd x86/PCI: Fix intel_mid_pci.c build error when ACPI is not enabled
-33cb60c1f0da1e40b27424daf6b41d888e7f6e4d efivarfs: Replace invalid slashes with exclamation marks in dentries.
-ccbee7cff70e9b8ac838dcf743783f6d6b9245e7 chelsio/chtls: fix deadlock issue
-d590b8c920e692b90c0ec686c8d1b4c422723048 chelsio/chtls: fix memory leaks in CPL handlers
-7eb4044f01d45fce4ec91b8bbaa9bd694cb0ce7e chelsio/chtls: fix tls record info to user
-8f23c8ff337dabc034f38258482403a591032808 gtp: fix an use-before-init in gtp_newlink()
-e063e0ac68c73cf1a84ac84cd13cb0e17d8bdd6c mlxsw: core: Fix memory leak on module removal
-36cd061fd67b63b03c1b70156cf5effb3765d284 netem: fix zero division in tabledist
-c4a72b43f23873612ad9072dea6de9b174af58bb ravb: Fix bit fields checking in ravb_hwtstamp_get()
-089f1ee8042cf3ac3ee3c24172889211c201d4bc tcp: Prevent low rmem stalls with SO_RCVLOWAT.
-a754aa1a861b574dce56504c3992631e94f6e0c9 tipc: fix memory leak caused by tipc_buf_append()
-50b09e4dd847ee37c4ac8997c322aaa42d7ff363 r8169: fix issue with forced threading in combination with shared interrupts
-b3ecdd81cdd62ed1e81b1d2d81c15b0942e7422f cxgb4: set up filter action after rewrites
-82ac0b9cc74f842cbd9128ef383dee84a822481d arch/x86/amd/ibs: Fix re-arming IBS Fetch
-6944ae6f810f234ebdc43bd9fc29650208cc7c0e x86/xen: disable Firmware First mode for correctable memory errors
-fbbf1fb0eb0a8ae0672ac1db48784172823bb38e fuse: fix page dereference after free
-1dcd29ba4691d3975308e33e40037c123401758d bpf: Fix comment for helper bpf_current_task_under_cgroup()
-f05943a185d51e4a5ebb8cfe46aef8267ea8881a evm: Check size of security.evm before using it
-bfe0fda749e0ef89a623f8a3ba7fce59893dc9bf p54: avoid accessing the data mapped to streaming DMA
-fcf6219d9c3f7d06cb9a1245f871fd416f046ccd cxl: Rework error message for incompatible slots
-8118717264ae85d8f1c1d27aebb45b1ddaf1b109 RDMA/addr: Fix race with netevent_callback()/rdma_addr_cancel()
-a84d17999f8deeb99500922f17ab2c4b67d0c2f7 mtd: lpddr: Fix bad logic in print_drs_error
-63057af86713621f75ea0136988fa7da22453616 serial: pl011: Fix lockdep splat when handling magic-sysrq interrupt
-5c93ccc0deaaac250b0e43266da06ece9f0a5f2c ata: sata_rcar: Fix DMA boundary mask
+72cf37da57e535f4e2e695f1ef988cd51dd0b1ab objtool: Support Clang non-section symbols in ORC generation
+936b75551f8f0f046257aa84fe528c8e15f773a1 scripts/setlocalversion: make git describe output more reliable
+e53c6240e278ac1e3db5f059e7cd692f9425974f arm64: Run ARCH_WORKAROUND_1 enabling code on all CPUs
+94f6485f0f86ad7a2337d8258b66e006bf810ac0 arm64: link with -z norelro regardless of CONFIG_RELOCATABLE
+dab038ed1bfa6246c677a8d520cff8fa7b8a9fcb x86/PCI: Fix intel_mid_pci.c build error when ACPI is not enabled
+98e4bf9702e29ccad233a499aca0e6f0aedf3e4c efivarfs: Replace invalid slashes with exclamation marks in dentries.
+05231449433e4813a8edc3596b36b0795096c5fc chelsio/chtls: fix deadlock issue
+6d0ffda717384667d5adaf8a2e52daf0ab592710 chelsio/chtls: fix memory leaks in CPL handlers
+c992ea0f0e21316a934569d57a7175ce7c200d18 chelsio/chtls: fix tls record info to user
+1dab190adb01ff4b6d7c510703c3a7451a970409 gtp: fix an use-before-init in gtp_newlink()
+9e7d84f5c1ead4c2edf634d59a3877d3d4d7a8eb mlxsw: core: Fix memory leak on module removal
+070556ae22e19b1d261e6345f025dc72c91b8e17 netem: fix zero division in tabledist
+db4a2ea7a361159feccfeed1a8ef24f76052e6a6 ravb: Fix bit fields checking in ravb_hwtstamp_get()
+0307b695edc5e5012c1195b24529abf6abf2826d tcp: Prevent low rmem stalls with SO_RCVLOWAT.
+40b37ad670caa8acb5b012cf81efd20539bab5d0 tipc: fix memory leak caused by tipc_buf_append()
+d9b3068e569a0c54429bf113010a6cf7a6f006eb r8169: fix issue with forced threading in combination with shared interrupts
+170efc082791a8fd7f0f5c9718656ed3d6ef0040 cxgb4: set up filter action after rewrites
+b0efbb2b3f01fcba581b8e68e93f235f99eaa835 arch/x86/amd/ibs: Fix re-arming IBS Fetch
+546b94256d66422dbd8601976acd54f07a7aaf10 x86/xen: disable Firmware First mode for correctable memory errors
+3444cf4c8878589372e150c3ca8627ad9ca6fe43 fuse: fix page dereference after free
+fbeb78b3cbbc89eaf67807d9feec7e033b012976 bpf: Fix comment for helper bpf_current_task_under_cgroup()
+70c842c4c58485233cf30b5da71caa225bb20510 evm: Check size of security.evm before using it
+1de2030bb5db1cb99982c4c8d377be37fe0e4807 p54: avoid accessing the data mapped to streaming DMA
+6e2881546bbd53b1a7e1d4a37d5ba50975633d27 cxl: Rework error message for incompatible slots
+50077ebf596e6fd9da37be60e0d9576c5c0a4b11 RDMA/addr: Fix race with netevent_callback()/rdma_addr_cancel()
+0c27959483ea50424d478221e2a894fdcc189599 mtd: lpddr: Fix bad logic in print_drs_error
+0595765b276952d7c33b133a5b725106a4a75f1a serial: pl011: Fix lockdep splat when handling magic-sysrq interrupt
+39c825c2fd0479fd4954c979b7192b3c0ef7db4e ata: sata_rcar: Fix DMA boundary mask
+75746c532675e929595c83f077555a9ab4201129 fscrypt: return -EXDEV for incompatible rename or link into encrypted dir
+84bcbe278078ef76dd146c37d009003ff72703b1 fscrypt: clean up and improve dentry revalidation
+70cbba85edccc85e6c92e91e2255feca201bdd11 fscrypt: fix race allowing rename() and link() of ciphertext dentries
+4070f2cae7c707bb9c2cfb5f42a92e4a2d4e0e72 fs, fscrypt: clear DCACHE_ENCRYPTED_NAME when unaliasing directory
+6d02600095ccd3c428310a3456430bdb0347f7e1 fscrypt: only set dentry_operations on ciphertext dentries
+eb41ad80c3909a9a8207b3e1c73da87e35a4dbc3 fscrypt: fix race where ->lookup() marks plaintext dentry as ciphertext
 
---===============9217803944560399953==
+--===============2867815015118348078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a158774b57df-574439c6c937.txt
+Content-Disposition: attachment; filename=revlist-574439c6c937-8c75cebaa7b0.txt
 
-333f71eef49ca4e3a25745fd4c610ba71283b3f6 SUNRPC: ECONNREFUSED should cause a rebind.
-054dbfe476b6d1872ae8da96a69d81b5c4e2101d scripts/setlocalversion: make git describe output more reliable
-12df86926d06ccfbe592bedf6287edf96b8c5e5e powerpc/powernv/opal-dump : Use IRQ_HANDLED instead of numbers in interrupt handler
-05ab078d3d438592d5e6bef0f9d8543ed6250135 efivarfs: Replace invalid slashes with exclamation marks in dentries.
-6da00c02c1aaef66ad037a338d87139201ac44b8 ravb: Fix bit fields checking in ravb_hwtstamp_get()
-64e89c4b56b2714075b86b13d7b49657831a7c97 tipc: fix memory leak caused by tipc_buf_append()
-84dc4984db130d05474cd8b7f724e8037c346033 arch/x86/amd/ibs: Fix re-arming IBS Fetch
-1873f14063f27c32fca13677eba87502ab30222e fuse: fix page dereference after free
-8e4a05b93dba9ed936042e7c1f7fcaef5c2db728 p54: avoid accessing the data mapped to streaming DMA
-90377bf4297853bc33fd031b6e7a9a78b96f1aef mtd: lpddr: Fix bad logic in print_drs_error
-1379ab2d1081631a10bff4984a95fd94fe01ab7d ata: sata_rcar: Fix DMA boundary mask
-4fbaf343937714d25764cdab326a5e20c976bef4 fscrypt: return -EXDEV for incompatible rename or link into encrypted dir
-a80d05da7dad0bed29dc56dd6eabf233f7af55ab fscrypto: move ioctl processing more fully into common code
-574439c6c937cda010a8b5b0e56582c2ce958506 fscrypt: use EEXIST when file already uses different policy
+ffe5b6aa31b8c57bc736ebbb468b84c9f4072d40 SUNRPC: ECONNREFUSED should cause a rebind.
+732c8919c5f3de6ca437c98a15c87078a3d09b05 scripts/setlocalversion: make git describe output more reliable
+cb85a562e79160e6c4a323d8118c6f526a2ac73a powerpc/powernv/opal-dump : Use IRQ_HANDLED instead of numbers in interrupt handler
+1a330f610a8b24e2d13882a8fd3bd9af4db17dca efivarfs: Replace invalid slashes with exclamation marks in dentries.
+56972abdfc4f9d78bc3b23a3c2761844a8a4b052 ravb: Fix bit fields checking in ravb_hwtstamp_get()
+7cdd8b835d987e139fde248fcc35f5f17632d535 tipc: fix memory leak caused by tipc_buf_append()
+145033c85167189ca3cd3ac117dac68cbdaf923f arch/x86/amd/ibs: Fix re-arming IBS Fetch
+714eb549ded931a88c910b359873f4db07c53aa4 fuse: fix page dereference after free
+97a36f607dc22b9b1337f3297d25bd629d3ff6d2 p54: avoid accessing the data mapped to streaming DMA
+2469df2ccb6a99b4d5aa2fd01d14e46b86efaf30 mtd: lpddr: Fix bad logic in print_drs_error
+d31590982b5d15ad6490995d105cf939871d91dc ata: sata_rcar: Fix DMA boundary mask
+30e33ade03a4a129e5650f5b1460d409a677f31c fscrypt: return -EXDEV for incompatible rename or link into encrypted dir
+69e51d1723d6b6cf3012a4a27d07548fda617b8e fscrypto: move ioctl processing more fully into common code
+8c75cebaa7b055a9d097e839e61867a95eeb316e fscrypt: use EEXIST when file already uses different policy
 
---===============9217803944560399953==
+--===============2867815015118348078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-049096fa2fbc-615435752f64.txt
+Content-Disposition: attachment; filename=revlist-615435752f64-5b8762c2dbb2.txt
 
-140b2148bff200fab783482968e8ab8342deb47b netfilter: nftables_offload: KASAN slab-out-of-bounds Read in nft_flow_rule_create
-2e4eb6c3ff1981abf9c8665a68eaeee1c233cc88 socket: don't clear SOCK_TSTAMP_NEW when SO_TIMESTAMPNS is disabled
-21f07e1be8094bcb1f9ff113d1faea8bf0c84ad7 objtool: Support Clang non-section symbols in ORC generation
-5f6c4bf7bd2e1160f9a19bed19970e790c568a08 scripts/setlocalversion: make git describe output more reliable
-b6447fa26bc262518224b4d51de11ec512ab6940 arm64: Run ARCH_WORKAROUND_1 enabling code on all CPUs
-839b2c89a57cadbcc40cc12c0ffcc9e7b93cf7bb arm64: Run ARCH_WORKAROUND_2 enabling code on all CPUs
-e67a6f35d49e3fd56535267eca99855d32b93ef4 arm64: link with -z norelro regardless of CONFIG_RELOCATABLE
-d0e25f2ad39a5b507a8ee2689436dc1b07d5d398 x86/PCI: Fix intel_mid_pci.c build error when ACPI is not enabled
-e12ec42707789593f3a2f1b3eadc74978379af17 efivarfs: Replace invalid slashes with exclamation marks in dentries.
-69cd89cc72c6e665d80f2660f7e0fba955b595e0 bnxt_en: Check abort error state in bnxt_open_nic().
-8b377a65f44e77fe25c5ee8ad5c4bc29ecdc2593 bnxt_en: Send HWRM_FUNC_RESET fw command unconditionally.
-abc6eaf627503471555983d9dd152ffa9a693d22 chelsio/chtls: fix deadlock issue
-9be76ead02f2d5a34839f1ce71826b0f440760ab chelsio/chtls: fix memory leaks in CPL handlers
-7a22e8b59e70c9d4ee87511f85bbe2ad87f2ecb9 chelsio/chtls: fix tls record info to user
-46929a3e53583286eed8cafdd60280adfe7a4968 cxgb4: set up filter action after rewrites
-d93f6d411fc1148b91400cba825ec6d61eb2f65c gtp: fix an use-before-init in gtp_newlink()
-e2241a6b03a01cfc9b0de90189d144ae58196935 ibmvnic: fix ibmvnic_set_mac
-b1d7e3b780a995258aea4084de4a554f0763bca1 mlxsw: core: Fix memory leak on module removal
-8c2f5c05b8e1f0c88757813f2e465d247ef066dd netem: fix zero division in tabledist
-9a05cdf0a8c3bd47a7edecacd826b3621b257830 net/sched: act_mpls: Add softdep on mpls_gso.ko
-3e8cfcc1722768aee8759b5c447158d2aff47766 r8169: fix issue with forced threading in combination with shared interrupts
-34c832c21a12f6dfb20868aec3b6f50d04a5f075 ravb: Fix bit fields checking in ravb_hwtstamp_get()
-d9c2daae9665a74194b99fa49b27ff7a6a5e3c9e tcp: Prevent low rmem stalls with SO_RCVLOWAT.
-25d55a442ead82bd662d31a37ef3b82ee84d53c3 tipc: fix memory leak caused by tipc_buf_append()
-b49c271beaa1c6cc77ca5a0deefffe7675ed3b5b net: hns3: Clear the CMDQ registers before unmapping BAR region
-de83f7a06e3d3c41aeff175d1429403de36dea07 bnxt_en: Re-write PCI BARs after PCI fatal error.
-28937a24598e89ff32ece028b97dd364fe7b0c49 bnxt_en: Fix regression in workqueue cleanup logic in bnxt_remove_one().
-b664e51b84fc012155c82edb285dc89ad8983c3f bnxt_en: Invoke cancel_delayed_work_sync() for PFs also.
-533510cc5cdc53d9711a0fc87bc572afe2e7ef71 erofs: avoid duplicated permission check for "trusted." xattrs
-664dc71fe895f606d9ee4d234f2398ca6d57da9a arch/x86/amd/ibs: Fix re-arming IBS Fetch
-7102f182b10973591251eca43a72e8abd47a8d60 x86/xen: disable Firmware First mode for correctable memory errors
-55895cf0924df16af9988a6e672ca1f7e4533525 ata: ahci: mvebu: Make SATA PHY optional for Armada 3720
-601e3d7867903d680ed1da992237e000df59e13c fuse: fix page dereference after free
-97eb0c1757227f7f0fb756c9e541e112ded5fd7b bpf: Fix comment for helper bpf_current_task_under_cgroup()
-f10a71217a88ab624b549e26f10c44fb3b260915 evm: Check size of security.evm before using it
-568114560e6f5acfae16a75d59c8b87f975fffff p54: avoid accessing the data mapped to streaming DMA
-eeca8193a59fccd937658ef6620f592341c5fdd4 cxl: Rework error message for incompatible slots
-312573888888702adb2bc95f30e558139ceddf4a RDMA/addr: Fix race with netevent_callback()/rdma_addr_cancel()
-3e2b6e25cb70aaec0b975e2e1ee6280daf4b6e7d mtd: lpddr: Fix bad logic in print_drs_error
-2904fa389b9d3cc1dbec8900c316057ceb710678 serial: qcom_geni_serial: To correct QUP Version detection logic
-ce4980dd9da8470421d7577842abfcd172682de5 serial: pl011: Fix lockdep splat when handling magic-sysrq interrupt
-5b7a379e8137fe38031cbed491cfebdfca7a5228 PM: runtime: Fix timer_expires data type on 32-bit arches
-136f2141620247bce62f4071e09d0076c61db980 ata: sata_rcar: Fix DMA boundary mask
-ad4706dab09f4cca64074524f17efcaec87dab16 xen/gntdev.c: Mark pages as dirty
-87f7ef265033767b87e81ba676cf4e3a97b2dc70 crypto: x86/crc32c - fix building with clang ias
-162161d04d07ea59d01d36418e3898aafed08092 openrisc: Fix issue with get_user for 64-bit values
-2940635cb30c13b91623a5e7a454668a98351674 misc: rtsx: do not setting OC_POWER_DOWN reg in rtsx_pci_init_ocp()
-615435752f64f1bb474332ffb1ec5cbf8b587d9a phy: marvell: comphy: Convert internal SMCC firmware return codes to errno
+51e64d1d352571336fa7249cf8f8e77c54005c3b netfilter: nftables_offload: KASAN slab-out-of-bounds Read in nft_flow_rule_create
+e9e3ef31bd4592fd31b15093bdff0b0b430f1986 socket: don't clear SOCK_TSTAMP_NEW when SO_TIMESTAMPNS is disabled
+e71ec4b3f1eb83ff114806f523f2f2fbba175e1b objtool: Support Clang non-section symbols in ORC generation
+72d18f57489fde90175d5cc0834cf5fda7b2f8ee scripts/setlocalversion: make git describe output more reliable
+35ca215b9b3084b4b74d7dac7da4017d0469884d arm64: Run ARCH_WORKAROUND_1 enabling code on all CPUs
+ae7987e37005a134f962557160177959ef2faeaf arm64: Run ARCH_WORKAROUND_2 enabling code on all CPUs
+696f76ad81b55ba6ce99a04bbeab6d016b0f23bf arm64: link with -z norelro regardless of CONFIG_RELOCATABLE
+dcd6d87e2003d76519caadf96020653cd0431a0b x86/PCI: Fix intel_mid_pci.c build error when ACPI is not enabled
+963020a3b9776c694b168caef607918b468f99e1 efivarfs: Replace invalid slashes with exclamation marks in dentries.
+357b01fd8421035e871ec42b3c6b315d686d7258 bnxt_en: Check abort error state in bnxt_open_nic().
+5a29a2c2767f8326211d89893802157ff49fbc74 bnxt_en: Send HWRM_FUNC_RESET fw command unconditionally.
+bb492184a04c3d894d8b6b3c158dd0fc560e3d1e chelsio/chtls: fix deadlock issue
+29785bdaf4f59f2d26f923f8fc89b9a0ac4b55de chelsio/chtls: fix memory leaks in CPL handlers
+c34c318c4264f5c4ef016c8636fa65d5991c5fad chelsio/chtls: fix tls record info to user
+eb6fe6e6e191761489e0366e0a9bf70b0420f0f8 cxgb4: set up filter action after rewrites
+47901b12725afeabb87e8cb956de7816cce60f33 gtp: fix an use-before-init in gtp_newlink()
+e38cd10c2b308d5fad4e19f7755468a44db152e4 ibmvnic: fix ibmvnic_set_mac
+b12fb888ec4f08d7a57b9dafad182ea0a572c0a6 mlxsw: core: Fix memory leak on module removal
+a0e898af729411159d9bfd40d41b2095abf4cd11 netem: fix zero division in tabledist
+a61cb195363f99dd43b52c40860eba5d6bfc2fd2 net/sched: act_mpls: Add softdep on mpls_gso.ko
+5dfa6b32d1e5a0a5016e1824cb7f4d527b5e4a87 r8169: fix issue with forced threading in combination with shared interrupts
+784e90ae8206a579893a20256c29ec9738922499 ravb: Fix bit fields checking in ravb_hwtstamp_get()
+e577381bf579cc5bda9bb5d21945d101aec439fa tcp: Prevent low rmem stalls with SO_RCVLOWAT.
+b2fbefcd7967a5b6909cae9065959f80ed6a2cda tipc: fix memory leak caused by tipc_buf_append()
+6bc1b0f532f0eb7609554e96e36e032ae20c7f8c net: hns3: Clear the CMDQ registers before unmapping BAR region
+6af4e9135f88f72b28538656684f5c05661f332d bnxt_en: Re-write PCI BARs after PCI fatal error.
+04d1853b887a61209a63dbb8b78d75cd9ce17ec9 bnxt_en: Fix regression in workqueue cleanup logic in bnxt_remove_one().
+3c2d03eec07a81514b1d0caf972bb00eb5077ff6 bnxt_en: Invoke cancel_delayed_work_sync() for PFs also.
+bf3a000571f0761f3bd1a8ba3d93a514ecca4ab9 erofs: avoid duplicated permission check for "trusted." xattrs
+6ca57bf492e02f7ad5b0af38b3e9de9a00d03553 arch/x86/amd/ibs: Fix re-arming IBS Fetch
+f774a8285da7d3d487ca83c5ab81f85574e5a04f x86/xen: disable Firmware First mode for correctable memory errors
+49ea5f39e8f529ed346d643c82795d604182d4a7 ata: ahci: mvebu: Make SATA PHY optional for Armada 3720
+e542bcca6cbe787ac32003471a4348c68493e400 fuse: fix page dereference after free
+c3f584830ebb54d32aa91fa544f37f8f892d985c bpf: Fix comment for helper bpf_current_task_under_cgroup()
+edf952a3f0f7ae4bd743c757980cf99fa0878e22 evm: Check size of security.evm before using it
+6235b7aba99ce6c040d48b475527bfb0ad6160aa p54: avoid accessing the data mapped to streaming DMA
+ccabdecc90f3e93cd97b1d27ca34d87379af459c cxl: Rework error message for incompatible slots
+991ed961da03e065a725cc6cc3f733785d072db1 RDMA/addr: Fix race with netevent_callback()/rdma_addr_cancel()
+942875799e3a6cb66a9d5847ae483cce95f02283 mtd: lpddr: Fix bad logic in print_drs_error
+e20cd2d315262aaca037b9530fab1daaeb66ff4a serial: qcom_geni_serial: To correct QUP Version detection logic
+2de4928c26376c7dd33ce62e7bc19717f5154d32 serial: pl011: Fix lockdep splat when handling magic-sysrq interrupt
+5cf945827b981302982016a80b3e9db9b0976767 PM: runtime: Fix timer_expires data type on 32-bit arches
+6adb6d0f0c66d124b5a899cd4df2a86a115c8c5b ata: sata_rcar: Fix DMA boundary mask
+2877c4e08626ababce5234da5109783d5e22ca16 xen/gntdev.c: Mark pages as dirty
+a476395b7d8ab9e25172ad5ae710598c8a262a64 crypto: x86/crc32c - fix building with clang ias
+8dc694fa45f8fc7fcff62ea632cc98465c87274b openrisc: Fix issue with get_user for 64-bit values
+f596306e1bfa928f0fd67272a45a23993b430fe0 misc: rtsx: do not setting OC_POWER_DOWN reg in rtsx_pci_init_ocp()
+5b8762c2dbb2d1e1066e8e04b4d4216d332f8767 phy: marvell: comphy: Convert internal SMCC firmware return codes to errno
 
---===============9217803944560399953==
+--===============2867815015118348078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b554b28375e3-3491fd4b6535.txt
+Content-Disposition: attachment; filename=revlist-3491fd4b6535-0560602ec564.txt
 
-13ae2414c069a1751937891fa7ad443b242cabe1 netfilter: nftables_offload: KASAN slab-out-of-bounds Read in nft_flow_rule_create
-27fedd3c431717ac38cb41f78ae5c5f51c0ede45 io_uring: don't run task work on an exiting task
-149fa5d2a432c5ff935f9fd4187f6536f031698b io_uring: allow timeout/poll/files killing to take task into account
-a5d26971679f83807465aa257ab2817cdf26f162 io_uring: move dropping of files into separate helper
-c7aab58a68ead6252b9c9fdace6f44fd359e3709 io_uring: stash ctx task reference for SQPOLL
-cf7a54681d12aaeb88ee6d4af539e20e75465e4e io_uring: unconditionally grab req->task
-08392aef7fdcfa98aac2cfc5658e7ec5df0cfc75 io_uring: return cancelation status from poll/timeout/files handlers
-7eb4aebe5ebeeaedcf644c6dc67fe82bfcdeae0b io_uring: enable task/files specific overflow flushing
-3bdd307ebe923812d2727858f8837621a31619da io_uring: don't rely on weak ->files references
-bb87a97541942fb8cc095072dc9a5308b8ceb155 io_uring: reference ->nsproxy for file table commands
-866836a2467586989009a3f0b1524aea4dbbf76b io_wq: Make io_wqe::lock a raw_spinlock_t
-da74d65d906278a33c1602499c1505e9adae2251 io-wq: fix use-after-free in io_wq_worker_running
-a97fd3b426ac5ce9dce241c62503f9cc8932f20f io_uring: no need to call xa_destroy() on empty xarray
-47237191cb1bbd067fcb0110624d25b267c71fce io_uring: Fix use of XArray in __io_uring_files_cancel
-7560b13766867b5a485a353d2a1dcd7114485008 io_uring: Fix XArray usage in io_uring_add_task_file
-ab49256070559781add09c27ff85404de01691e7 io_uring: Convert advanced XArray uses to the normal API
-35283f4a03dffda55928d5bd832c8b936e57c6a8 scripts/setlocalversion: make git describe output more reliable
-3e1482801fbb74317c14fe48de17b10bbbae5acf efi/arm64: libstub: Deal gracefully with EFI_RNG_PROTOCOL failure
-2f42ed462417ee97375ae62611edaf216f22d24c fs/kernel_read_file: Remove FIRMWARE_EFI_EMBEDDED enum
-7b60a049714bd982f1c24ece7f7fcc0dc6093c72 arm64: Run ARCH_WORKAROUND_1 enabling code on all CPUs
-2fab77d45ffa3ba5565bcc4d51317e9d2fe1385c arm64: Run ARCH_WORKAROUND_2 enabling code on all CPUs
-c428224c092fcafaaa1d37ed01374c61b090fa4b arm64: link with -z norelro regardless of CONFIG_RELOCATABLE
-c7ec504acc673856009340fe55a5910871a34e1c x86/PCI: Fix intel_mid_pci.c build error when ACPI is not enabled
-2f812b7616560619bd7a0de3c8413ec0acc58c2e x86, powerpc: Rename memcpy_mcsafe() to copy_mc_to_{user, kernel}()
-542686b8dd69c371ecf0ed529b1327f20b8fdf19 x86/copy_mc: Introduce copy_mc_enhanced_fast_string()
-4d7ebb9f9bc840c0daf042d9b085e4e30a50e468 efivarfs: Replace invalid slashes with exclamation marks in dentries.
-d578d726821ce47ddb34ee1c3c84c7d700ff243d bnxt_en: Check abort error state in bnxt_open_nic().
-d01c85d5123429ccf8fe0a6acdc81cfc1663c9e5 bnxt_en: Fix regression in workqueue cleanup logic in bnxt_remove_one().
-3c848ac306de6f908d9a846fe30e53afe57c8e8e bnxt_en: Invoke cancel_delayed_work_sync() for PFs also.
-f023e9f4b75a63caa42ef10d70d7cf0a7682cac3 bnxt_en: Re-write PCI BARs after PCI fatal error.
-33fe7b88c0ce6349a3b8b4b96766397d0d8d42e4 bnxt_en: Send HWRM_FUNC_RESET fw command unconditionally.
-91beda3af45c8a3a1b90a89bc4a627b9a4124e4d chelsio/chtls: fix deadlock issue
-b9a5baad31bffed7d1704e04bbfad5dd1c6e6e16 chelsio/chtls: fix memory leaks in CPL handlers
-d6ec0f6288c503cb2e8a0cbc7b1b4c3cec33a223 chelsio/chtls: fix tls record info to user
-ffea0e7ceaa2ecfc8118e78f531bfa567c4f497e cxgb4: set up filter action after rewrites
-e45ad8158c5483351863f3fb00b19f1a2e19a487 gtp: fix an use-before-init in gtp_newlink()
-cc3abe7bde509a42c9d1dbbfabbf875f004c0719 ibmveth: Fix use of ibmveth in a bridge.
-74a0a6e95298f840f08514a4ad6969fd8b3fce99 ibmvnic: fix ibmvnic_set_mac
-d7afc20442abc3a1499bbc0ba929bfb6d724ed0f mlxsw: core: Fix memory leak on module removal
-431e16b93aa6ccfccf962f6244659c8042212cf2 netem: fix zero division in tabledist
-63613f85369c2ebe43c32f62fabdb916d313de1a net: hns3: Clear the CMDQ registers before unmapping BAR region
-99db9fb60b30c51f6f6a5c290393d254de899870 net: ipa: command payloads already mapped
-a33227818d6a5cc17e5c6e8ae8cefa4b143008de net/sched: act_mpls: Add softdep on mpls_gso.ko
-e7317218a1b830f2429bed9e6f180643fa40642d r8169: fix issue with forced threading in combination with shared interrupts
-82f3b859bd813bbc9bf181303a9fd64d8ab481ba ravb: Fix bit fields checking in ravb_hwtstamp_get()
-fa1e497a606bd3fff405cb373d3afcfccae71387 tcp: Prevent low rmem stalls with SO_RCVLOWAT.
-ca93d49d1da853a99638b4f19e938c79bd24eaa5 tipc: fix memory leak caused by tipc_buf_append()
-6c403bd9b7a34f83e3f35e2b68a11adbe15e38e9 net: protect tcf_block_unbind with block lock
-be8e4817761d072858e2bf38c1a33ab384b5e9de erofs: avoid duplicated permission check for "trusted." xattrs
-9dfd53d30874c03a102e49958cbe0cedd821cd3b arch/x86/amd/ibs: Fix re-arming IBS Fetch
-16c4dd793e2a4a934846e7808f9b6e6c807d0cfd x86/traps: Fix #DE Oops message regression
-289e30d12d0ec77da8ca29adf59276d26b1006f7 x86/xen: disable Firmware First mode for correctable memory errors
-be420ddc1ecea5e20daeff39334ec4df9b0e8757 PCI: aardvark: Fix initialization with old Marvell's Arm Trusted Firmware
-a43092880b096176a4dbd0d41aab4f7c520cfd11 ata: ahci: mvebu: Make SATA PHY optional for Armada 3720
-7fb404fa298c77147d73c29b19c57bcaed9e893f fuse: fix page dereference after free
-c45059e5fdaed9f7284ff8b75d0e24d9b4eb07c2 bpf: Fix comment for helper bpf_current_task_under_cgroup()
-2fd0551b5a4842d4fb753dcf7df32ddda30a84b3 evm: Check size of security.evm before using it
-04618456943001beda436f25feba2ddcd9d97e50 p54: avoid accessing the data mapped to streaming DMA
-9d7e2c2f39d415a7283bccdd8083a81516f8b52e cxl: Rework error message for incompatible slots
-99186a89f2d9976bedf42af59a26d902accc0e9c RDMA/addr: Fix race with netevent_callback()/rdma_addr_cancel()
-7e218851756068b6df9ed2bb1a73713254b8e12f mtd: lpddr: Fix bad logic in print_drs_error
-de19f0df3a44c180b546ff5a03d169441978ac31 drm/i915/gem: Serialise debugfs i915_gem_objects with ctx->mutex
-b161bec75f4f75984b3cdb32b8f45ede12dc71e4 serial: qcom_geni_serial: To correct QUP Version detection logic
-2c35e2a3b1cd864b081c0e036d23b0cded938e81 serial: pl011: Fix lockdep splat when handling magic-sysrq interrupt
-92aeb98712848825d468029cf06131c643696293 PM: runtime: Fix timer_expires data type on 32-bit arches
-f649f2af94ae9fe301ec5baaa028fcb3d70a07c2 ata: sata_rcar: Fix DMA boundary mask
-85f9e5618186048d1c161fd0602d801a895ea2d0 xen/gntdev.c: Mark pages as dirty
-80155c713dc64307d5451d6fd96c95c51e6554d3 openrisc: Fix issue with get_user for 64-bit values
-2db100ae50e199aa5c78dd6241d4bed7a26e6125 misc: rtsx: do not setting OC_POWER_DOWN reg in rtsx_pci_init_ocp()
-3491fd4b6535f90e8b6a523a009a6a06a478a54d phy: marvell: comphy: Convert internal SMCC firmware return codes to errno
+64975595956c35b71b40be5d5a610f5dd1ba8030 netfilter: nftables_offload: KASAN slab-out-of-bounds Read in nft_flow_rule_create
+b39758460f9b3d38739a27cf5dcde70c55a06288 io_uring: don't run task work on an exiting task
+d8ff07c6169853ca333ea4fdbf9312810eed2bef io_uring: allow timeout/poll/files killing to take task into account
+aa63d40e3dbedf3166f959301ae781313c072909 io_uring: move dropping of files into separate helper
+e98ac05cb70739b5731d76e4b29d090bae30177a io_uring: stash ctx task reference for SQPOLL
+43546603aac9192012d2c7596e4122462a4789a0 io_uring: unconditionally grab req->task
+74ef73f8294a5dc1134f1114e5a632916826fb17 io_uring: return cancelation status from poll/timeout/files handlers
+3dbe06621e7442912aa1f3f394e46d68c54b0c1e io_uring: enable task/files specific overflow flushing
+46b8ecc8a385c13e920f4cfb2eddbd679e045ac5 io_uring: don't rely on weak ->files references
+cf4b9ba11c61e4bffdff5708b74671ae2f6c6a43 io_uring: reference ->nsproxy for file table commands
+c19907842453f03a3b67c635d122bc41f72b1961 io_wq: Make io_wqe::lock a raw_spinlock_t
+9a81e0f0b6738aed47406ff25d47866164e59b0f io-wq: fix use-after-free in io_wq_worker_running
+f6481b212720477a6df5c7900c5b63f19ba0e401 io_uring: no need to call xa_destroy() on empty xarray
+20f7d980458c3713f47cf36e1b3739c0979b44f4 io_uring: Fix use of XArray in __io_uring_files_cancel
+f17a42d003753eeaa7cdacc69d3118e976cc606e io_uring: Fix XArray usage in io_uring_add_task_file
+3fcbaed1530eaa646a8f53b3f3bc8e44ec327bfd io_uring: Convert advanced XArray uses to the normal API
+a2095286f76f86777ac45ffff04ff4c0d6166d4e scripts/setlocalversion: make git describe output more reliable
+97ab864251268a202b2f803a7f4e8f2698a74c62 efi/arm64: libstub: Deal gracefully with EFI_RNG_PROTOCOL failure
+520a80cb1b00038a4de87acf518166ea70577568 fs/kernel_read_file: Remove FIRMWARE_EFI_EMBEDDED enum
+f22ccb0efb9a5c6e37afb3b9f1739c1a94d0ddb9 arm64: Run ARCH_WORKAROUND_1 enabling code on all CPUs
+09f747e891eba982cfb2fedef6dd26cc21a59c9f arm64: Run ARCH_WORKAROUND_2 enabling code on all CPUs
+f7ac794bd1f3f173c4deda821109ba93e3f52045 arm64: link with -z norelro regardless of CONFIG_RELOCATABLE
+7dfcc4325b74b6b442de588f373fe976eb6dc47d x86/PCI: Fix intel_mid_pci.c build error when ACPI is not enabled
+b2ffd10617b84b266d2410131fb4d9fee8307c7a x86, powerpc: Rename memcpy_mcsafe() to copy_mc_to_{user, kernel}()
+c504502b68271c56cb1558f03e5be89f3fc6c6bc x86/copy_mc: Introduce copy_mc_enhanced_fast_string()
+b9172303e086ec1c054dcead170387e8d8b4ba78 efivarfs: Replace invalid slashes with exclamation marks in dentries.
+f2cbdb6c1fb9fd9724df6f68e43cb1789929f975 bnxt_en: Check abort error state in bnxt_open_nic().
+d7f9cece78ed805892deb25131f3e8e5d425388f bnxt_en: Fix regression in workqueue cleanup logic in bnxt_remove_one().
+a3589b98047be5ee62a38077c86a174eedea7835 bnxt_en: Invoke cancel_delayed_work_sync() for PFs also.
+423a7a37f4c609f8f801a0eba98c447efe6d9eec bnxt_en: Re-write PCI BARs after PCI fatal error.
+99ec58548d6f43134c2a6176e692f7e6b9955465 bnxt_en: Send HWRM_FUNC_RESET fw command unconditionally.
+3e886ece009a6e1bb4142ea95fbd3ac70145ea52 chelsio/chtls: fix deadlock issue
+f0037445f9f75a210f80726adebbce43fe714e47 chelsio/chtls: fix memory leaks in CPL handlers
+8e2a5f76681a8b9a2ee4754b0f768df06ac360bb chelsio/chtls: fix tls record info to user
+082804198aa97f11b596308b2f9554cfa8c51962 cxgb4: set up filter action after rewrites
+08917a2703e8437d481a5cf7035284c4a12c00e7 gtp: fix an use-before-init in gtp_newlink()
+68152fb2296ba8a911a35cf64277da0cb9f664a9 ibmveth: Fix use of ibmveth in a bridge.
+7fb689d92d601886d6e8cf891158097af3ebb199 ibmvnic: fix ibmvnic_set_mac
+809929b80824eece2dc590b9814022a5ab829273 mlxsw: core: Fix memory leak on module removal
+606cb84b251393b7b0b7aa58064b5345882335e7 netem: fix zero division in tabledist
+0ba8f5caddc0ac8b930e4eba5d8fe68a1d1f08f2 net: hns3: Clear the CMDQ registers before unmapping BAR region
+e6dd2d12b4165a7dd5924d4d3bc8f1206935dd65 net: ipa: command payloads already mapped
+cd074d644702fcf89c3ef772ed0cbb9e62a4c618 net/sched: act_mpls: Add softdep on mpls_gso.ko
+16bdcfb63bad073bbe344548be6612896b473e35 r8169: fix issue with forced threading in combination with shared interrupts
+3248f44dd6db968c788fe63b566ac76f321abec5 ravb: Fix bit fields checking in ravb_hwtstamp_get()
+726df4be18ab3c6327b81139be50dac192ad2b32 tcp: Prevent low rmem stalls with SO_RCVLOWAT.
+530413a4846e9bbbfa3c7d2b6843214b564abce3 tipc: fix memory leak caused by tipc_buf_append()
+1c5562093c9033d9cbc4e5a4191fea625ed38df1 net: protect tcf_block_unbind with block lock
+98e03000c5f7d33307c8723b8faef68a73d6e2e1 erofs: avoid duplicated permission check for "trusted." xattrs
+acb68d1462c323a83734b1e64b25ad032e60d5fc arch/x86/amd/ibs: Fix re-arming IBS Fetch
+921cda1376b3d8e359066e10704f3e805b199c0c x86/traps: Fix #DE Oops message regression
+e57c55fe4bc513db8d4719ea59e90d8ae4eb002f x86/xen: disable Firmware First mode for correctable memory errors
+bb34ebfd5d3d226ed4bd04e56c4b2b9e3bf904ef PCI: aardvark: Fix initialization with old Marvell's Arm Trusted Firmware
+f922d35a2bc13af1ddc9805f729bb2e9187c2770 ata: ahci: mvebu: Make SATA PHY optional for Armada 3720
+d0d08a6aa3cb681c057693e0679b46e6e082cadc fuse: fix page dereference after free
+7c43ebd112e2b544ae071ecab7c6d9df40ab67c6 bpf: Fix comment for helper bpf_current_task_under_cgroup()
+0e312476c7cc817977ebbf1d99c291b4bcd72a7a evm: Check size of security.evm before using it
+c8e3b54f0db4825e88f92f1096ed479b84dc084b p54: avoid accessing the data mapped to streaming DMA
+ddc5fac4ce10f23ba8a6df5add6bc20393a0b15b cxl: Rework error message for incompatible slots
+89309a56a6bb0138e94d90cdc03ca0e38a25373f RDMA/addr: Fix race with netevent_callback()/rdma_addr_cancel()
+804cb905fbb81439e3b3a79327938ede8cd6edf7 mtd: lpddr: Fix bad logic in print_drs_error
+7b3ccf01422d72111ad1a0ce2a4f131e1ecd22e2 drm/i915/gem: Serialise debugfs i915_gem_objects with ctx->mutex
+9ed182b43564af82837782504f7ac5a4c259c3a1 serial: qcom_geni_serial: To correct QUP Version detection logic
+b0f66e23e932340417ca842167c6512e8c09f73a serial: pl011: Fix lockdep splat when handling magic-sysrq interrupt
+15ae4dcd710f7f138d3154f1662ced92942badba PM: runtime: Fix timer_expires data type on 32-bit arches
+47e1a3715f1189b0eab645d6ba15b8f9fc9b8e61 ata: sata_rcar: Fix DMA boundary mask
+362b2acac28c2b16e9563df64d0bb79aeaf83b98 xen/gntdev.c: Mark pages as dirty
+c2cd1b8b4ec4b75255ad444def80a65c9d5c774d openrisc: Fix issue with get_user for 64-bit values
+958db69ed7cbe2ffc9ead7b7bd343b531a60e580 misc: rtsx: do not setting OC_POWER_DOWN reg in rtsx_pci_init_ocp()
+0560602ec5644ba12064a78d31f682a83ced250f phy: marvell: comphy: Convert internal SMCC firmware return codes to errno
 
---===============9217803944560399953==
+--===============2867815015118348078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d16e52af722a-d4f6ec57c47c.txt
+Content-Disposition: attachment; filename=revlist-d4f6ec57c47c-2ff32696e904.txt
 
-73d0011f11e24048134755e918753034a9a85bd1 cpufreq: Improve code around unlisted freq check
-f27ebbd6bf2453ebe8f9a7449330879b12303e33 netfilter: nftables_offload: KASAN slab-out-of-bounds Read in nft_flow_rule_create
-b9368e271a1c84813f41e027de0a34e61d0fc92a io_uring: allow timeout/poll/files killing to take task into account
-0e361805cacdc596eb7fec7c7d82cdd5d6ea462b io_uring: move dropping of files into separate helper
-82de1ee2610fbc6a4f556d73f6bbd781cfc575bd io_uring: stash ctx task reference for SQPOLL
-3f3288e819359459f14374de50ef670deb32092e io_uring: unconditionally grab req->task
-18f2983a050ef6317dfb9d79fae04659c1d24783 io_uring: return cancelation status from poll/timeout/files handlers
-845f0490a88f43a16e2aec4265a3e1cd9742eb2f io_uring: enable task/files specific overflow flushing
-276a6dd8dfac7ed8d66ee6aec122d3e5e84712b4 io_uring: don't rely on weak ->files references
-5abf92670515ac59c383f868dea10992e4f034b0 io_uring: reference ->nsproxy for file table commands
-ee9cdd4487c28c5fa3ff1005a8ddcd19668ab8b8 io_wq: Make io_wqe::lock a raw_spinlock_t
-47c010964310856398c8779ebe4d595ad9e4a09a io-wq: fix use-after-free in io_wq_worker_running
-9f8afbc001c4289477860b229bd974f8a263046b io_uring: no need to call xa_destroy() on empty xarray
-fe6d88c84e8d9e8551a574e0d51ce721831c89a1 io_uring: Fix use of XArray in __io_uring_files_cancel
-b0a073817da7068b47b85757801f92dfe40d9053 io_uring: Fix XArray usage in io_uring_add_task_file
-e00f4d797bb665ee9bfcd182ebef2fbd5e84b2cc io_uring: Convert advanced XArray uses to the normal API
-59eeadf525aed4956736b8523ab58578bafddee4 scripts/setlocalversion: make git describe output more reliable
-0b18226a412823cc5be62355986995f061265ca3 efi/arm64: libstub: Deal gracefully with EFI_RNG_PROTOCOL failure
-8bcfdaef0d62e0453f44ec2e24985f5ec88c2271 fs/kernel_read_file: Remove FIRMWARE_EFI_EMBEDDED enum
-b3ed809e764c284ab900a8826c745e264fa41d1a arm64: Run ARCH_WORKAROUND_1 enabling code on all CPUs
-a8aa2a3bfad9acd76f5016d273b43f1c29eb5a9d arm64: Run ARCH_WORKAROUND_2 enabling code on all CPUs
-72dbeab386ed33210c26ddc0e8c0e598b3f99a5b arm64: link with -z norelro regardless of CONFIG_RELOCATABLE
-da3b66989fc82d13d7d0e461bbbda471089a68f5 x86/PCI: Fix intel_mid_pci.c build error when ACPI is not enabled
-1c183784769a62f814c968392d09758592b406ed x86, powerpc: Rename memcpy_mcsafe() to copy_mc_to_{user, kernel}()
-d11dacd58d020e94b7f2f90b8eb518af25de52bc x86/copy_mc: Introduce copy_mc_enhanced_fast_string()
-76daa24c65929ca8042c41d50b397e594d174b72 efivarfs: Replace invalid slashes with exclamation marks in dentries.
-42581c3473370a27541b88237f2c556d0ddaa12a bnxt_en: Check abort error state in bnxt_open_nic().
-b2c84a1ec624a074d6ee2b4b2588325ace147393 bnxt_en: Fix regression in workqueue cleanup logic in bnxt_remove_one().
-f578c53c5f57afb29357aa9f3816db1fa5262c74 bnxt_en: Invoke cancel_delayed_work_sync() for PFs also.
-4d4e7f40cc98433857eed4157df45ced63b04a20 bnxt_en: Re-write PCI BARs after PCI fatal error.
-279d3bf6c4f7886a23b3167be65cca73e3a737fc bnxt_en: Send HWRM_FUNC_RESET fw command unconditionally.
-24ab733b4a87b676cac945bfb8e62bc232981004 chelsio/chtls: fix deadlock issue
-d5004f664934dbffa15b4276624018c4ab16612d chelsio/chtls: fix memory leaks in CPL handlers
-61af0459ef2cd192a285147a427b5f713b9e2887 chelsio/chtls: fix tls record info to user
-2e7a11154a675238e1a4bc8f2f9a53824e57b39a cxgb4: set up filter action after rewrites
-b2a6828be60e356a6950dcfb4ae5faed5e729fe0 gtp: fix an use-before-init in gtp_newlink()
-556b37d60b10d8fd2aa78c9505d9507e11a50800 ibmveth: Fix use of ibmveth in a bridge.
-e14c0de1b9494c11c6ab0184b93ca4b947211b16 ibmvnic: fix ibmvnic_set_mac
-dfa356fffb4cca37add5a2fce19088c8f0643333 mlxsw: core: Fix memory leak on module removal
-0bf614c95c63b318a543cb26e2c82476b113819f mlxsw: Only advertise link modes supported by both driver and device
-caf63b9a030316dae74ee315c701d3260cd29ce1 netem: fix zero division in tabledist
-4260c0489ec187ec8ecb3cae4bb329d309454ba6 net: hns3: Clear the CMDQ registers before unmapping BAR region
-bdcfad626584fc7810352e813722632a587b21f5 net: ipa: command payloads already mapped
-67e5730b85f7bf9a78d6781ad2e57b297a375f2f net/sched: act_mpls: Add softdep on mpls_gso.ko
-86b5a98d34c5207400b87612acd0349099ceeace r8169: fix issue with forced threading in combination with shared interrupts
-5624aea1aef1e2d01a0c1cb0d3ade8d1ab5b0be4 ravb: Fix bit fields checking in ravb_hwtstamp_get()
-9ab40919ac6b104eac93665d38cb61958e611ca2 tcp: Prevent low rmem stalls with SO_RCVLOWAT.
-66f96d9aa5898076e1a3b3d290706cf3df930440 tipc: fix memory leak caused by tipc_buf_append()
-b49e5549fd4b1653db6fc257c62710940b64846a net/smc: fix invalid return code in smcd_new_buf_create()
-1843cf38b0a3b131c05200fbbcbf0f2a48e45a76 net/smc: fix suppressed return code
-29f43c27a3cb04a17f1dfc522e3f0b8a7ec3a0a9 net: protect tcf_block_unbind with block lock
-6d940f013c7505ddb6be7b2162cc781021b368c4 erofs: avoid duplicated permission check for "trusted." xattrs
-554e910d379c3bdaa9446a54ad9386c18968ec52 arch/x86/amd/ibs: Fix re-arming IBS Fetch
-86e6d1aa453de93b66665d596d7d923b83230e01 x86/traps: Fix #DE Oops message regression
-62a5356b7fa3c238446112af91d3fbedbebc8977 x86/xen: disable Firmware First mode for correctable memory errors
-8ab0a8fc598f78a8d3695393547d4026ff3405ae PCI: aardvark: Fix initialization with old Marvell's Arm Trusted Firmware
-93366362c2734aba6f111dbaa7acb5168c59cbe7 ata: ahci: mvebu: Make SATA PHY optional for Armada 3720
-6180c8f85012e33f82664fb08995dea4d0178b54 fuse: fix page dereference after free
-34532b3fb9a6a885ccac00e11abb21f2e4084bb0 bpf: Fix comment for helper bpf_current_task_under_cgroup()
-41f63ae1dbfcc5ca453f757e5759ac871f664c37 evm: Check size of security.evm before using it
-520628acd8b2542b4639b51abeb92dcb8d8d8991 p54: avoid accessing the data mapped to streaming DMA
-975f23d21de81656d4ca28ec4472076363b762e2 cxl: Rework error message for incompatible slots
-1223258e5ffee43da3bad5c4e8827f3e73627a42 RDMA/addr: Fix race with netevent_callback()/rdma_addr_cancel()
-7410b1c506fb119892ea735b311064e278eb6044 mtd: lpddr: Fix bad logic in print_drs_error
-c8dad3fa10dca17becef2d72da17fd90387915ed drm/i915/gem: Serialise debugfs i915_gem_objects with ctx->mutex
-550c9329947ee76cd6aa6be0f590a6a7694ce86a serial: qcom_geni_serial: To correct QUP Version detection logic
-43bd20f95f1beb3c8977998c7c2ad0602ddc8e0e serial: pl011: Fix lockdep splat when handling magic-sysrq interrupt
-50b8c6a0f11b29d9db562e4c200aa64a01be9794 PM: runtime: Fix timer_expires data type on 32-bit arches
-5e185115582fd34ffd3d6034c9c254e5a81773bb ata: sata_rcar: Fix DMA boundary mask
-bce9b1dc7110e43153750cd5b275a27b7fa0c48b mm: mark async iocb read as NOWAIT once some data has been copied
-0b19d29bd6238e721d27a3e24d8642ac656b27a5 xen/gntdev.c: Mark pages as dirty
-44a5ba30492fe87515d993622cd4b003c2838e2b io_uring: don't reuse linked_timeout
-6cadadd2a4dec84e3861ec6bc468564e2f949ea9 misc: rtsx: do not setting OC_POWER_DOWN reg in rtsx_pci_init_ocp()
-d4f6ec57c47cbfdbf170941a24d66587cf3cdf25 phy: marvell: comphy: Convert internal SMCC firmware return codes to errno
+a8d4fb74a3c5a4b34efc65f84ea0c6e449d1bd66 cpufreq: Improve code around unlisted freq check
+b8844235ec15cb2fc50696dac519bca000303f98 netfilter: nftables_offload: KASAN slab-out-of-bounds Read in nft_flow_rule_create
+b8874c92a9970a940d03cc08b2a718e6f3dbd848 io_uring: allow timeout/poll/files killing to take task into account
+0ec09f430573cb55cd39de47e0565528ad93b160 io_uring: move dropping of files into separate helper
+8f8e46be0448aca923245a453637289341868d91 io_uring: stash ctx task reference for SQPOLL
+aaebb1876e4caee6744c0e690a6e295b48480b67 io_uring: unconditionally grab req->task
+3ab1d19a283bcbbb264b4d4d136205e58899253e io_uring: return cancelation status from poll/timeout/files handlers
+037e50e27d8678ca7b7fc0620a67b5497c83f1fc io_uring: enable task/files specific overflow flushing
+a828b345f76460ebfedfa784493a3072f6b08f1a io_uring: don't rely on weak ->files references
+b5642973a772be76de30e2b166b766736d774987 io_uring: reference ->nsproxy for file table commands
+a6cc9c74a6cc62901093c3051bd13db350233ef4 io_wq: Make io_wqe::lock a raw_spinlock_t
+9fcba76b6f200a900f6aaa1e6d72f79b43389b86 io-wq: fix use-after-free in io_wq_worker_running
+7e5bbdeea5ac7b1761aa8b45b8ea9fe91550c8bf io_uring: no need to call xa_destroy() on empty xarray
+e2df004346eff644a93adc0b39d9e51892539570 io_uring: Fix use of XArray in __io_uring_files_cancel
+573860a0b6a717651a29618335585bf59fffe99b io_uring: Fix XArray usage in io_uring_add_task_file
+ed7f01141d5d090d883a410892cc457af31855ba io_uring: Convert advanced XArray uses to the normal API
+59953ce28198e5d6040e2034c597586e9fa97aa9 scripts/setlocalversion: make git describe output more reliable
+3aa7a720f8412ca1b0ec906dd7201beb697036b1 efi/arm64: libstub: Deal gracefully with EFI_RNG_PROTOCOL failure
+1c821013f29fe945624f209242bc0b8856bb8eb2 fs/kernel_read_file: Remove FIRMWARE_EFI_EMBEDDED enum
+8e176c4f93979fd6bbd7c4cc31ea76f3607dc87e arm64: Run ARCH_WORKAROUND_1 enabling code on all CPUs
+ea3699bb90c431c9f89d81aa4c001a694f385cc4 arm64: Run ARCH_WORKAROUND_2 enabling code on all CPUs
+6b7d9f721f651d697f003a6d3204a08269eba903 arm64: link with -z norelro regardless of CONFIG_RELOCATABLE
+4bf27b4be7072abcda8e1081b72a70fe24603ef8 x86/PCI: Fix intel_mid_pci.c build error when ACPI is not enabled
+7b3daf123ce8d9c53d450bbe76a2efe0964d19d9 x86, powerpc: Rename memcpy_mcsafe() to copy_mc_to_{user, kernel}()
+93eea0725996870ed70518aa2458ed05912f3ea7 x86/copy_mc: Introduce copy_mc_enhanced_fast_string()
+770e4e9a8095e3d8fc43c02909faaea7c0dc0349 efivarfs: Replace invalid slashes with exclamation marks in dentries.
+6af3a91b7e96a99338440323773212d783e75a8e bnxt_en: Check abort error state in bnxt_open_nic().
+7ccfe4b3aa0c30668879e32eaf613f61a233559d bnxt_en: Fix regression in workqueue cleanup logic in bnxt_remove_one().
+b9dc8c27d26bfd48107c65cc73d11e78d193c493 bnxt_en: Invoke cancel_delayed_work_sync() for PFs also.
+c3398c6aaf81f67f2fa43bd96cec68b867e6589a bnxt_en: Re-write PCI BARs after PCI fatal error.
+807a36b1b7a0c110cc3ff491984691488d472bbb bnxt_en: Send HWRM_FUNC_RESET fw command unconditionally.
+e39ab3c823d6dabc3dc6222a52e36c792d9b3d7c chelsio/chtls: fix deadlock issue
+44c7019d58295810cd6f9b1d71d0537289f17ece chelsio/chtls: fix memory leaks in CPL handlers
+a7beb0cb1f3ceb5096712283f3110f22ceef3536 chelsio/chtls: fix tls record info to user
+cc07f84167663ea96b7a1bc1b593346c6cb62689 cxgb4: set up filter action after rewrites
+12d2a49a227e6c6c68816448e2cef512549d68ce gtp: fix an use-before-init in gtp_newlink()
+1f3967814b5c463afbca7d0546f17505d9f5db51 ibmveth: Fix use of ibmveth in a bridge.
+304af59fb6966cbcb7e2c0a954110f6a63661da0 ibmvnic: fix ibmvnic_set_mac
+9875f71fe53151eafc2fa273d37c15a6713b61d6 mlxsw: core: Fix memory leak on module removal
+5383555692c111a3fac10bdcea1010fbe4923b51 mlxsw: Only advertise link modes supported by both driver and device
+d37d7398a1689e9e67448f0cbb35459a48543ebe netem: fix zero division in tabledist
+f2239b1e6a7a6210f940836291142f2ed5cc9d1b net: hns3: Clear the CMDQ registers before unmapping BAR region
+b1c88b1f5f4b29def4085fb0cc68a402d26f509b net: ipa: command payloads already mapped
+dff48010b795186319cf8a2d5d1c809a4a09e5ea net/sched: act_mpls: Add softdep on mpls_gso.ko
+b024e1a2e118bb9ed5cde44d811b9544d23663d0 r8169: fix issue with forced threading in combination with shared interrupts
+2242afee0a6ec237abf0a223630a52687c30bc37 ravb: Fix bit fields checking in ravb_hwtstamp_get()
+4fdc9e787235dba0354d1335ddf8fac39eacae09 tcp: Prevent low rmem stalls with SO_RCVLOWAT.
+41f1ac78bee44a3286ab031335c0da32a90f31e9 tipc: fix memory leak caused by tipc_buf_append()
+f84fee06e4c39e80699469786c9b7198eca53246 net/smc: fix invalid return code in smcd_new_buf_create()
+c8369b904be44f7bfa15761ccdb671bbbfad4e76 net/smc: fix suppressed return code
+d653356245519bdfbb1a90915604047332da5d2c net: protect tcf_block_unbind with block lock
+fcfdbde72dd00dacec449ddbd79a2f6476b77516 erofs: avoid duplicated permission check for "trusted." xattrs
+8b19d22dbb6696b47c32e8a85f29a8d6dd9bf22b arch/x86/amd/ibs: Fix re-arming IBS Fetch
+c44634e9ccfbc9cc2092d6370a78ec4314179226 x86/traps: Fix #DE Oops message regression
+99b61830a3c5cbc9fed1f1974869c511fab336e0 x86/xen: disable Firmware First mode for correctable memory errors
+57a094c810e1971cc76ff1bffb1a531e8a13b45d PCI: aardvark: Fix initialization with old Marvell's Arm Trusted Firmware
+c948b24032f689ee7538136691308784822fe22d ata: ahci: mvebu: Make SATA PHY optional for Armada 3720
+bf075f19229c3be3106ee8055f908615bd059cec fuse: fix page dereference after free
+041ac3f10e6b2f1bcdc15b92fd0bc0854b6e68fb bpf: Fix comment for helper bpf_current_task_under_cgroup()
+5080ddcfa4879bb07169cccb218b54a06dfc923c evm: Check size of security.evm before using it
+8231aa967ff47e17f60c3dc198a7585faa58e17a p54: avoid accessing the data mapped to streaming DMA
+6bfcb1508987798999b793d5fb918c251db0030a cxl: Rework error message for incompatible slots
+6e1f4acddbc517fa868378dee8250737c80f7cf2 RDMA/addr: Fix race with netevent_callback()/rdma_addr_cancel()
+6e5907646570b3f8b5f14e7af089f20baa5731b5 mtd: lpddr: Fix bad logic in print_drs_error
+a23e2edcd7988c1db7fe1564e9bb47b448a23dc8 drm/i915/gem: Serialise debugfs i915_gem_objects with ctx->mutex
+2c4aa9758994fa0368477767a66c36b0d72e05f4 serial: qcom_geni_serial: To correct QUP Version detection logic
+de14541e1b263504c04cf3c88806b2bb9a611c95 serial: pl011: Fix lockdep splat when handling magic-sysrq interrupt
+854055e2c526b54d08f84fee5747572e153aa68d PM: runtime: Fix timer_expires data type on 32-bit arches
+0c296956d2e56beda533c58f186a408127d9c64f ata: sata_rcar: Fix DMA boundary mask
+7cbc63b1257825c4e393c145d0d4b9e6f1d2214b mm: mark async iocb read as NOWAIT once some data has been copied
+67ca28a08a9445354e374327d0ff90e9ed0a7c06 xen/gntdev.c: Mark pages as dirty
+55fff3e5d8a5b5d5908f1c79bb39978e9a8d4bdb io_uring: don't reuse linked_timeout
+fd57399a8d6e1d1a606574cabbeb9cbf569b92d1 misc: rtsx: do not setting OC_POWER_DOWN reg in rtsx_pci_init_ocp()
+2ff32696e9043772ea806ff6379c02240debbb42 phy: marvell: comphy: Convert internal SMCC firmware return codes to errno
 
---===============9217803944560399953==--
+--===============2867815015118348078==--
