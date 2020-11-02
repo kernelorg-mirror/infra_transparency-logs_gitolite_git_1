@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6429891944017174978=="
+Content-Type: multipart/mixed; boundary="===============8943630987963017565=="
 MIME-Version: 1.0
 From: Gitolite Activity Feed <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 02 Nov 2020 09:04:16 -0000
-Message-Id: <160430785629.28950.17691402814595526608@gitolite.kernel.org>
+Date: Mon, 02 Nov 2020 09:04:30 -0000
+Message-Id: <160430787038.29110.3764651061696392356@gitolite.kernel.org>
 
---===============6429891944017174978==
+--===============8943630987963017565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,46 @@ user: gregkh
 remote_ip: 1XMa7445gsRC0vWc1rFf1XnBwZ4=
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 00c27a1df8ff5e99b383e2b4cbf947a4926fb534
-    new: 3cea11cd5e3b00d91caf0b4730194039b45c5891
-    log: revlist-00c27a1df8ff-3cea11cd5e3b.txt
+  - ref: refs/heads/usb-next
+    old: aee9ddb1d3718d3ba05b50c51622d7792ae749c9
+    new: 8fba56b4cd53d6c588641db46d74a13d3c0d8602
+    log: revlist-aee9ddb1d371-8fba56b4cd53.txt
 
---===============6429891944017174978==
+--===============8943630987963017565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604307909 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604307922 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1604307850-9b8658ccbc54c572fffde18a700657d0e746fc94
+nonce 1604307863-c5829c5bcd196168968409ba4973dc91ed8b6ab7
 
-00c27a1df8ff5e99b383e2b4cbf947a4926fb534 3cea11cd5e3b00d91caf0b4730194039b45c5891 refs/heads/usb-linus
+aee9ddb1d3718d3ba05b50c51622d7792ae749c9 8fba56b4cd53d6c588641db46d74a13d3c0d8602 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+fy8UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jIMQAMPcrICoVkUXlChF9/me
-pjzPdebc9ZKwIvhjzcbbqcB5E/Hwydmptr3dN5j/EDeyesotbR5cjx/Ddhp1Jbvt
-a80eUPuRGCmfYjKxc69XmTfs30Ig5Mec5F3rtt1Z9BXkRDPGjqlW+Ygnarc8OyzA
-CpEhKRksfpMj6wpImpf6zz1CuXjVAuFW6fwrr/OJ6J8TxzoYCEqzoNFOBltj7h/M
-EzS5ZsDySsPB/Xx0UdUhDxhDzy3rG1cwsjRxNPD8GqTFmUQHwoPqG1GpQLZtd9nl
-Vq5DwOUyYqsTAkBi0abnKghxsmVAo/kA+60wDk00wQ2jOWZvKEMdauPtmQ096NBw
-JR2kshvF6iGpu8oH2HOkcoYJ++PPIQRghGBtbFaR63TdnXeJejs5Y4lwFNOL4xPd
-1udJL4JVfky5VVdtIisYKc3ZC+yEOSAGizTwTHaPu73FdBE8LqJdcKBCyRpfisV/
-MFx45uLAdcva1CbGfco0pReY0reKEbHUTZWvR1nYR4lAm5Xrx05sLxAdhT7/9qjc
-xsrgk2740kPKRxS6zcZbaW32X5Zeyw3rsXDt7AZOt7ryQrckZxxuE7vY/rg+uYrT
-GNlwxp0HhXVZJ0MNDgxo2D4DUqsvgU7Tr0aclWAM3GOGTNqoZuOJzf+JeVaB7n/L
-Hdez8ijEQOcwgahDPe0/PMbM
-=aC3C
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+fy9IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RIkP/3tbfZMjQjunAqYO8lbe
+b8ju/tC/Ukd72x05OobMoh2o55+DljlD548T1WqQGVx1dtsTzyus/AWQI7eH+04Q
+VOjpbpqwJ6/4cmYsF5DtfZ2QN/AnX0UXGECWU4vFOW7xK3Zq1o9NVRCA70gFa8DX
+V5eQ+mEb4eLM4g9r/tkUi6ePXJ5RNG8waD+HjdF4v/LQ/ZIC8jmL7iaryU20os6g
+HZXFZ8vr16PvZKyjsMhYGwhJ7QUhVD28J4HMLOk0cjypmhbh0jsa25JxknOYdF0g
+OHQGUiGEhypYf1OYsIFR0Cnm6K1Wj/tKl71kThY4ukR6IHDWm4CPbvsAQBEdcud+
+pWIv5yCzDcvw7RuapyT6s2E7Y9OLpoUeYf7iohhFVvGEdu/GitSEvpDCi6h2A92G
+kofJcizNwiMDY/oExpKAB3aos5gNWn61iJagducJBsSCyLSOLHbLJQCHqSoTe1gm
++dZIErImtIRr+64G4wYY1+QUvFf6UQp3YSVzShlXptjb50qfDsymu1S2VOxF5F94
+v1c+njvUaGT76jzP1WgS00afHT7b5ABZHguikgw0LQA34dk3EHMPJSmHoIJPPMAV
+KVcAZAn+soDJZAOssy4iJVuqWENMypNEP7l+m4fS3tA4Z7f/lJ86U2j9SBdzRBFF
+P5GSYywfVvnTlPl6ZQ9HsCDw
+=h2xq
 -----END PGP SIGNATURE-----
 
---===============6429891944017174978==
+--===============8943630987963017565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-00c27a1df8ff-3cea11cd5e3b.txt
+Content-Disposition: attachment; filename=revlist-aee9ddb1d371-8fba56b4cd53.txt
 
 b64d814257b027e29a474bcd660f6372490138c7 arm64: dts: marvell: espressobin: Add ethernet switch aliases
 0b58725fb9a446890c1fd28fc6c9e393ce21acb7 ARM: mvebu: drop pointless check for coherency_base
@@ -267,10 +267,20 @@ cb05143bdf428f280a5d519c82abf196d7871c11 x86/debug: Fix DR_STEP vs ptrace_get_de
 2ac8af0967aaa2b67cb382727e784900d2f4d0da ibmveth: Fix use of ibmveth in a bridge.
 d6535dca28859d8d9ef80894eb287b2ac35a32e8 net: protect tcf_block_unbind with block lock
 35bc10b2eafbb701064b94f283b77c54d3304842 null_blk: synchronization fix for zoned device
+defe40af1a7143a0538d7c3e87224459eea0a877 usb: cdns3: Variable 'length' set but not used
 011fde48394b7dc8dfd6660d1013b26a00157b80 mmc: sdhci-of-esdhc: make sure delay chain locked for HS400
 1de111b51b829bcf01d2e57971f8fd07a665fa3f KVM: arm64: ARM_SMCCC_ARCH_WORKAROUND_1 doesn't return SMCCC_RET_NOT_REQUIRED
 f49a51bfdc8ea717c97ccd4cc98b7e6daaa5553a drm/shme-helpers: Fix dma_buf_mmap forwarding bug
+063a3d67693ecde7f24ca00d4a131883edab1e73 usb: typec: stusb160x: fix some signedness bugs
 071ba4cc559de47160761b9500b72e8fa09d923d RDMA: Add rdma_connect_locked()
+cbdc0f54560f94c2205ddbebb5464d65868af0d8 usb: fix kernel-doc markups
+3cd54a618834430a26a648d880dd83d740f2ae30 usb: host: fsl-mph-dr-of: check return of dma_set_mask()
+38203b8385bf6283537162bde7d499f830964711 usb: cdc-acm: fix cooldown mechanism
+2d9c6442a9c81f4f8dee678d0b3c183173ab1e2d usb: typec: tcpm: reset hard_reset_count for any disconnect
+b9c6f782150c9992308f4474f920586eaaca4cf1 usb: typec: stusb160x: fix an IS_ERR() vs NULL check in probe
+32d174d2d5eb318c34ff36771adefabdf227c186 usb: host: ehci-tegra: Fix error handling in tegra_ehci_probe()
+0942d59b0af46511d59dbf5bd69ec4a64d1a854c usbcore: Check both id_table and match() when both available
+0cb686692fd200db12dcfb8231e793c1c98aec41 USB: apple-mfi-fastcharge: don't probe unhandled devices
 82776f6c75a90e1d2103e689b84a689de8f1aa02 tty: serial: 21285: fix lockup on open
 c97f2a6fb3dfbfbbc88edc8ea62ef2b944e18849 tty: serial: fsl_lpuart: LS1021A has a FIFO size of 16 words, like LS1028A
 6ca03f90527e499dd5e32d6522909e2ad390896b vt: keyboard, simplify vt_kdgkbsent
@@ -309,9 +319,15 @@ ef5dd6a0c828b6fbd9d595e5772fcb51ff86697e arm64: mte: Document that user PSTATE.T
 5a169bf04cd2bfdbac967d12eb5b70915b29d7ee x86/kvm: Reserve KVM_FEATURE_MSI_EXT_DEST_ID
 80ade22c06ca115b81dd168e99479c8e09843513 misc: mic: remove the MIC drivers
 23859ae44402f4d935b9ee548135dd1e65e2cbf4 Merge tag 'trace-v5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+f27891abb7930d7a92bee2a47648a4a8708652d3 usb: typec: add missing MODULE_DEVICE_TABLE() to stusb160x
+befa1c2d65c639a7aefa793d36d7229732f14642 usb: typec: stusb160x: fix signedness comparison issue with enum variables
+a75e2d604da8219d928be010bde37c3ab0ebd466 xhci: Fix sizeof() mismatch
+2a632815683d2d34df52b701a36fe5ac6654e719 usb: xhci: Workaround for S3 issue on AMD SNPS 3.0 xHC
+712da5fc4a66fbb1f144742e1b808498e932009b xhci: Don't create stream debugfs files with spinlock held.
 0f5cef2b2904b8d41d34ecb6c5d5bf2f00562b1b coresight: add module license
 a3a0ded3ed38f4eafa86cef61799d50250da4dbe drm/vc4: hdmi: Add a name to the codec DAI component
 5066f42c7d3c7766c16ba6e73da514af04d43ff7 drm/vc4: Rework the structure conversion functions
+5fca3f062879f8e5214c56f3e3e2be6727900f5d usb: cdns3: gadget: suspicious implicit sign extension
 8a6b88e66233f5f1779b0a1342aa9dc030dddcd5 arm64: Add part number for Arm Cortex-A77
 96d389ca10110d7eefb46feb6af9a0c6832f78f5 arm64: Add workaround for Arm Cortex-A77 erratum 1508412
 a62f68f5ca53ab61cba2f0a410d0add7a6d54a52 cpufreq: Introduce cpufreq_driver_test_flags()
@@ -377,6 +393,8 @@ d7787cc04e0a1f2043264d1550465081096bd065 drm/nouveau/kms/nv50-: Fix clock checki
 671d27996feef4afdc2ef47b0721f5cdf400c3b4 Merge tag 'drm-misc-fixes-2020-10-29' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 a7ece18c5d9cf69a6f0b862365c5c9475d87e2b8 Merge branch 'linux-5.10' of git://github.com/skeggsb/linux into drm-fixes
 7babd126327b8b5a3904d2f8f01c95235801af2a Merge tag 'drm-intel-fixes-2020-10-29' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+52d3967704aea6cb316d419a33a5e1d56d33a3c1 usb: cdns3: Fix on-chip memory overflow issue
+e11d2bf271589e70ea80a2ee3e116c40fcac62c2 usb: cdns3: gadget: own the lock wrongly at the suspend routine
 0d519cbf38eed4f895aed197d4b135fa7f60f7c2 debugfs: remove return value of debugfs_create_devm_seqfile()
 7922460e33c81f41e0d2421417228b32e6fdbe94 vhost_vdpa: Return -EFAULT if copy_from_user() fails
 7ba08e81cb4aec9724ab7674a5de49e7a341062c vdpa/mlx5: Fix error return in map_direct_mr()
@@ -390,6 +408,7 @@ ec9d78070de986ecf581ea204fd322af4d2477ec arm64: Change .weak to SYM_FUNC_START_W
 e9a33caec90e05673e2f7fb7c80f172031964d25 KVM: arm64: Factor out is_{vhe,nvhe}_hyp_code()
 dfc4e3f08903ed8fe0b66cc25b64524a82654166 arm64: cpufeature: reorder cpus_have_{const, final}_cap()
 d86de40decaa14e6613af1b2783bf4d589d0f38b arm64: cpufeature: upgrade hyp caps to final
+00c27a1df8ff5e99b383e2b4cbf947a4926fb534 Merge tag 'usb-v5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
 11ce90a45d380f09213f128b76d68bb525186ad8 scripts: get_abi.pl: change script to allow parsing in ReST mode
 e9bca8918e3d409f3b575d8db5591e422506c1ea scripts: get_abi.pl: fix parsing on ReST mode
 61439c4ada9fd0e4ce73aca81a71344380a3053b scripts: get_abi.pl: Allow optionally record from where a line came from
@@ -477,5 +496,6 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 4312e0e8d3eab027d9506db091eb10e6a9ff25d3 Merge tag 'timers-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
+8fba56b4cd53d6c588641db46d74a13d3c0d8602 Merge 5.10-rc2 into usb-next
 
---===============6429891944017174978==--
+--===============8943630987963017565==--
