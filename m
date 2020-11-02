@@ -1,31 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============4779898568991095887=="
+Content-Type: multipart/mixed; boundary="===============1798179273325682766=="
 MIME-Version: 1.0
 From: Gitolite Activity Feed <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 02 Nov 2020 09:03:15 -0000
-Message-Id: <160430779536.13372.15700522327575611498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 02 Nov 2020 09:03:20 -0000
+Message-Id: <160430780066.19167.7363914387995639597@gitolite.kernel.org>
 
---===============4779898568991095887==
+--===============1798179273325682766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
-remote_ip: jwIJQzvZyWtF6tli5rKsi7teWVE=
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+remote_ip: 1XMa7445gsRC0vWc1rFf1XnBwZ4=
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
+  - ref: refs/heads/staging-linus
+    old: 7e97e4cbf30026b49b0145c3bfe06087958382c5
     new: 3cea11cd5e3b00d91caf0b4730194039b45c5891
-    log: revlist-3650b228f83a-3cea11cd5e3b.txt
+    log: revlist-7e97e4cbf300-3cea11cd5e3b.txt
 
---===============4779898568991095887==
+--===============1798179273325682766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3650b228f83a-3cea11cd5e3b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604307853 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1604307794-fc6a3ec88ae514e284cc620fe882828695900e9d
+
+7e97e4cbf30026b49b0145c3bfe06087958382c5 3cea11cd5e3b00d91caf0b4730194039b45c5891 refs/heads/staging-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+fy40bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p6wP/20S05M0tgOcQfV2Nivy
+xUYZY6Wq1kWu4MplMpqrQRTngrwPjTxbGEMKuxBFmYeveJObBal6PCMhwgj12rAi
+YvtcZ990g2bTqPV74tMIXi6Fc7aBxvCpik0sgCuYP6cGPuHCQY3ovHpAVKKOEnte
+AYxrdDnO7ZuWGTStTpNA7UFQC7/SQoFckB1ejyg7dFH/uPaCWVnPynGPyxblQU9u
+gRsLITIXVuncX4u9bHAtKo8n4eA9w8xqeVKarVRfHdN8jN7f4/YLOQHHfEP/WgeP
+J0C5+5JfBPasbqWBHrcNHRD6coOPDznibMRLAMIcECMRqBr9E5r9QsrTsArtYjWZ
+Jfpzqn4cbCV6mLnNpDiP784LADP18HZTRLlfl+G4Hxyp2RV3OJ3BRUyQ3b5eXjog
+zmUxPBCkHcC54nJhVUdnX6FngPTXoSPr9k5bJsgv+VfTNKe0ZY8k2DAlFBjbEubx
+5WAMuuo93Lec8JkyLk+JyOZC+SYjbtY3rltttmxAt62cROjasXVIjQihY200VlDk
+Cm6lVFFRI4pVW8uRlVomY4mveZBApzGzFX8mUurmbyf8h00qoqYYpq0w9wcCfiO3
+sduDcv7HW3d1Bduq+UPzAeMYrQ6/NUVYKErzP/zlCWLrhnRAeFbbu3NA9gTNGw/f
+eArh3sOgISwUGtBqD9vDCXt5
+=Z2M/
+-----END PGP SIGNATURE-----
+
+--===============1798179273325682766==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7e97e4cbf300-3cea11cd5e3b.txt
 
 b64d814257b027e29a474bcd660f6372490138c7 arm64: dts: marvell: espressobin: Add ethernet switch aliases
 0b58725fb9a446890c1fd28fc6c9e393ce21acb7 ARM: mvebu: drop pointless check for coherency_base
@@ -185,13 +216,6 @@ e5a329790409408aeecd278d0c1efbeccd87598b Merge tag 'imx-fixes-5.10-2' of git://g
 7811a339da2e3b741dc19de50bad5a7728b6ef22 drm: kernel-doc: add description for a new function parameter
 38a8b32f467a9389ff413574968baa8777c77355 drm: kernel-doc: drm_dp_helper.h: fix a typo
 b52817e9de06a3af4ebefd6d244c9c750903d79c drm: drm_print.h: fix kernel-doc markups
-179f5dc36b0a1aa31538d7d8823deb65c39847b3 staging: octeon: repair "fixed-link" support
-49d28ebdf1e30d806410eefc7de0a7a1ca5d747c staging: octeon: Drop on uncorrectable alignment or FCS error
-647a6002cb41d358d9ac5de101a8a6dc74748a59 staging: comedi: cb_pcidas: Allow 2-channel commands for AO subdevice
-b6ae84d648954fae096d94faea1ddb6518b27841 staging: mmal-vchiq: Fix memory leak for vchiq_instance
-d3a85737521a8570adf3a8171b4b3e42216686ec staging: wfx: fix use of uninitialized pointer
-df5fbca677c916d1959f814b41b841b65e450027 staging: wfx: fix test on return value of gpiod_get_value()
-7e97e4cbf30026b49b0145c3bfe06087958382c5 staging: fieldbus: anybuss: jump to correct label in an error path
 761a8c58db6bc884994b28cd6d9707b467d680c1 tracing, synthetic events: Replace buggy strcat() with seq_buf operations
 fce52ad3483281930dc9215a68d69837f219f889 interconnect: qcom: use icc_sync state for sm8[12]50
 0425e7badbdcb6e47109bfdfe494d86217e29009 btrfs: don't fallback to buffered read if we don't need to
@@ -466,4 +490,4 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
 
---===============4779898568991095887==--
+--===============1798179273325682766==--
