@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 02 Nov 2020 20:27:41 -0000
-Message-Id: <160434886167.11349.6722652522064719448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Mon, 02 Nov 2020 20:36:28 -0000
+Message-Id: <160434938848.12503.11055800821407399747@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/master
-    old: c43fd36f7fec6c227c5e8a8ddd7d3fe97472182f
-    new: 760b3d61fb4e4db512f4c4b7ac30c7ec3452f74a
+  - ref: refs/heads/for-next
+    old: c5c68724696e7d2f8db58a5fce3673208d35c485
+    new: 6bd1c7bd4ee7b17980cdc347522dcb76feac9b98
     log: |
-         760b3d61fb4e4db512f4c4b7ac30c7ec3452f74a net: 9p: Fix kerneldoc warnings of missing parameters etc
+         6bd1c7bd4ee7b17980cdc347522dcb76feac9b98 gfs2: Don't call cancel_delayed_work_sync from within delete work function
          
