@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8762725621341959933=="
+Content-Type: multipart/mixed; boundary="===============1768905287895980133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 02 Nov 2020 16:32:58 -0000
-Message-Id: <160433477846.26355.7417725778373823954@gitolite.kernel.org>
+Date: Mon, 02 Nov 2020 16:33:08 -0000
+Message-Id: <160433478844.27039.4700821585513495524@gitolite.kernel.org>
 
---===============8762725621341959933==
+--===============1768905287895980133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: d76913908102044f14381df865bb74df17a538cb
-    new: 3cea11cd5e3b00d91caf0b4730194039b45c5891
-    log: revlist-master-d76913908102-3cea11cd5e3b.txt
+  - ref: refs/heads/dev
+    old: ce04838c7cf1a55c4b99da214e7ee6d6224515d3
+    new: 3281ed2c116edf23d852ab9b13e2267a3127be0d
+    log: revlist-dev-ce04838c7cf1-3281ed2c116e.txt
 
---===============8762725621341959933==
+--===============1768905287895980133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-master-d76913908102-3cea11cd5e3b.txt
+Content-Disposition: attachment; filename=revlist-dev-ce04838c7cf1-3281ed2c116e.txt
 
 44a0a3c17919db1498cebb02ecf3cf4abc1ade7b NTB: hw: amd: fix an issue about leak system resources
 dbb8df5c2d27610a87b0168a8acc89d73fbfde94 ntb: intel: Fix memleak in intel_ntb_pci_probe
@@ -512,5 +512,10 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 4312e0e8d3eab027d9506db091eb10e6a9ff25d3 Merge tag 'timers-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
+3acc4522d89e0a326db69e9d0afaad8cf763a54c f2fs: call f2fs_get_meta_page_retry for nat page
+7a6e59d719ef0ec9b3d765cba3ba98ee585cbde3 f2fs: fix to seek incorrect data offset in inline data file
+fa4320cefb8537a70cc28c55d311a1f569697cd3 f2fs: move ioctl interface definitions to separated file
+63d18d4913e5ad684fe43f393a9e98a590a49a3a f2fs: add F2FS_IOC_GET_COMPRESS_OPTION ioctl
+3281ed2c116edf23d852ab9b13e2267a3127be0d f2fs: add F2FS_IOC_SET_COMPRESS_OPTION ioctl
 
---===============8762725621341959933==--
+--===============1768905287895980133==--
