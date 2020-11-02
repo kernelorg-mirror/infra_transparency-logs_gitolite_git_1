@@ -1,62 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1562095159028734195=="
+Content-Type: multipart/mixed; boundary="===============5698187443899958088=="
 MIME-Version: 1.0
 From: Gitolite Activity Feed <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 02 Nov 2020 09:03:49 -0000
-Message-Id: <160430782993.19330.12215587325209113294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 02 Nov 2020 09:04:01 -0000
+Message-Id: <160430784137.28609.12910393617950277784@gitolite.kernel.org>
 
---===============1562095159028734195==
+--===============5698187443899958088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-remote_ip: 1XMa7445gsRC0vWc1rFf1XnBwZ4=
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
+remote_ip: jwIJQzvZyWtF6tli5rKsi7teWVE=
 changes:
-  - ref: refs/heads/staging-testing
-    old: c699e02d83c9877a552ef2d4a89f804fb025112e
-    new: 83e63b2cc416904b50895eeee8d8e0d7ea0418fe
-    log: revlist-c699e02d83c9-83e63b2cc416.txt
+  - ref: refs/heads/for-linux-next
+    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
+    new: 3cea11cd5e3b00d91caf0b4730194039b45c5891
+    log: revlist-3650b228f83a-3cea11cd5e3b.txt
 
---===============1562095159028734195==
+--===============5698187443899958088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604307882 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1604307824-b10ebfe0251aa6b91b8ce30ea3749306a697a92e
-
-c699e02d83c9877a552ef2d4a89f804fb025112e 83e63b2cc416904b50895eeee8d8e0d7ea0418fe refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+fy6obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EjoP/2Z6pfCTFjdRNivFDUcH
-V5hXg8ODUWFCq+iGHP/T5l72ITgG38Zp9rfte+j7hCT0d9uynas9JstNlal2dBP3
-InI5V+jIv1lEecBCWwVZFWf5TGKDblT6j7OLyLgQxW+7nzYK4nECB2T44hUWnvw2
-bdx33RFZ90Zv3UpI9SpoNz+8t6FUHpofb+5aI2uq0NBdhK68WtINsduocPvqYGvm
-uF8qjIUXcIHAgH10rE256Dk4Q+QBiUzWb8OAIHLDCRXoETncgFQaWKCN8oAL9C+b
-U8YByfpqR8TP/4y+Q57Hlv/VfrlnuDgeXM0gr4xe9nOZ+seGo5qf1NOrTbjNkWRA
-Vr3L23Yw6T5cMVfFFnzRTkY7R/wfwGQI2zzbo1udsICIS8thfl6cUDe8PEURxI5S
-QvMLD8S9MPQ1GBh2o8BnuI9SeFxNRLXIFhlj+farditFOWvJsMBiSwq0U4n3JAgy
-rJ1FnMHbAfm6elNfUl1cFwERjwQ+FBbJUQfzOtmNzMmtik/DlRL+r9ywQuN2b6MB
-kCMt4OxkB77KDJhipAUGA/QoyYE1mQxAoiJ21+TikSdjsuOhZ+ZM7vU3t0/p7p/D
-V5EhYGMmHEz5iBs6GeyNBKrNSxuqM8u/StEOktxUQApOB1ixaDUXcFYKavky3oqr
-QNieNRqip3Hvqp6Jc5GzLkZE
-=sGCB
------END PGP SIGNATURE-----
-
---===============1562095159028734195==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c699e02d83c9-83e63b2cc416.txt
+Content-Disposition: attachment; filename=revlist-3650b228f83a-3cea11cd5e3b.txt
 
 b64d814257b027e29a474bcd660f6372490138c7 arm64: dts: marvell: espressobin: Add ethernet switch aliases
 0b58725fb9a446890c1fd28fc6c9e393ce21acb7 ARM: mvebu: drop pointless check for coherency_base
@@ -496,6 +465,5 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 4312e0e8d3eab027d9506db091eb10e6a9ff25d3 Merge tag 'timers-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
-83e63b2cc416904b50895eeee8d8e0d7ea0418fe Merge 5.10-rc2 into staging-next
 
---===============1562095159028734195==--
+--===============5698187443899958088==--
