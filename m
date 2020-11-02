@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2472687380490424718=="
+Content-Type: multipart/mixed; boundary="===============0439009383836915746=="
 MIME-Version: 1.0
 From: Gitolite Activity Feed <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jwboyer/fedora
-Date: Mon, 02 Nov 2020 13:41:05 -0000
-Message-Id: <160432446542.3878.5797238788796781296@gitolite.kernel.org>
+Date: Mon, 02 Nov 2020 13:43:00 -0000
+Message-Id: <160432458084.11181.6605089451526357982@gitolite.kernel.org>
 
---===============2472687380490424718==
+--===============0439009383836915746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,19 +16,19 @@ repo: pub/scm/linux/kernel/git/jwboyer/fedora
 user: jwboyer
 remote_ip: oOE7crjUDADLxE/FnofIPfaNn7c=
 changes:
-  - ref: refs/heads/f32
-    old: 5f4bae9ce3a4fbc871dfe7d40fd82622fb4366b8
-    new: 00135c10fe07ad110dab98b15780643d19bf23d1
-    log: revlist-5f4bae9ce3a4-00135c10fe07.txt
-  - ref: refs/tags/kernel-5.8.17-200.fc32
+  - ref: refs/heads/f31
+    old: ce6613bfbb0d546e2bee13a5829ea17ca791e953
+    new: 35adcd3d1e9038f8f87ec4b17b9152955eb6bd62
+    log: revlist-ce6613bfbb0d-35adcd3d1e90.txt
+  - ref: refs/tags/kernel-5.8.17-100.fc31
     old: 0000000000000000000000000000000000000000
-    new: 00135c10fe07ad110dab98b15780643d19bf23d1
+    new: 35adcd3d1e9038f8f87ec4b17b9152955eb6bd62
 
---===============2472687380490424718==
+--===============0439009383836915746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f4bae9ce3a4-00135c10fe07.txt
+Content-Disposition: attachment; filename=revlist-ce6613bfbb0d-35adcd3d1e90.txt
 
 68e3dec3c3e49894fdfc5947719b1c4bb5d628a7 xgb4: handle 4-tuple PEDIT to NAT mode translation
 d673d278f59f8559a20c5b41f6f9d5444f89041e ibmveth: Switch order of ibmveth_helper calls.
@@ -663,88 +663,86 @@ d33abbe3b327172f70024ff526de5bbded491fd5 usb: cdns3: gadget: free interrupt afte
 5a30d4a5afcc3eaa9a8d35f23d2174b98e3d830e eeprom: at25: set minimum read/write access stride to 1
 05981710aa5e27d46f34db69d32525e16ceeb524 usb: gadget: f_ncm: allow using NCM in SuperSpeed Plus gadgets.
 33156ccb29d933783595deaab64b13ec5303a22a Linux 5.8.17
-679501c8c21ae588f36d07fb771d78174bcb3e5b ACPI: APEI: arm64: Ignore broken HPE moonshot APEI support
-cd231e087ec158ab98e78e20e53a2fe8c73388ca ACPI / irq: Workaround firmware issue on X-Gene based m400
-247374ba1ca2c0ec9dadbf2f9488eae70fc53e2a aarch64: acpi scan: Fix regression related to X-Gene UARTs
-f3a55153ce2b1e4e979bcc1bc4e345f558596b23 kdump: round up the total memory size to 128M for crashkernel reservation
-cae1a291a97e785a7c698431121834c47365a45e kdump: add support for crashkernel=auto
-e3cf0e511ae25032dcfa62515739aad9ffa61e47 kdump: fix a grammar issue in a kernel message
-57f42991103317c1413e5c1446e61845ce74edcb Vulcan: AHCI PCI bar fix for Broadcom Vulcan early silicon
-603be0542a106464178a0e1647a55c0816adbced ahci: thunderx2: Fix for errata that affects stop engine
-7d21c735dbda4471661235e77aa4bca8c34649a5 scsi: smartpqi: add inspur advantech ids
-60c8b49667f82a9812e4194c30b643b3d20d0710 ipmi: do not configure ipmi for HPE m400
-a51e96a30c06bad00151c4338a5f290a445ea05b iommu/arm-smmu: workaround DMA mode issues
-9130fa06546786c74238fb4c17fa157c7597a683 arm: aarch64: Drop the EXPERT setting from ARM64_FORCE_52BIT
-a9b93e323d9abe3d6892cc2428f22b7cb1da31bb Add efi_status_to_str() and rework efi_status_to_err().
-127fca4d9d52a658cdca4dc90cc8fc9e13a4c2c5 Make get_cert_list() use efi_status_to_str() to print error messages.
-fd7729a472bf00df43bf2d027ad4b2be46c48e71 security: lockdown: expose a hook to lock the kernel down
-54aa4dbdc4bad261b9dbe710e92efd728468e6b3 efi: Add an EFI_SECURE_BOOT flag to indicate secure boot mode
-e0ec24bafdb41e595370c6b30c3465c76faba544 efi: Lock down the kernel if booted in secure boot mode
-34b504fcfc021c7354579d74ad5286919629db57 s390: Lock down the kernel when the IPL secure flag is set
-c30b1e774ec645e5a54087dfa1dfea9bd59965b8 Add option of 13 for FORCE_MAX_ZONEORDER
-edd92e7a6c8a711581aed1597d330923eabe20d9 arm: make CONFIG_HIGHPTE optional without CONFIG_EXPERT
-c694504f66a7f8bc40d441d2466ec7f0ae710eb0 ARM: tegra: usb no reset
-8fcb2c9a803f2ec27fcca605579f39ad7eba4120 Input: rmi4 - remove the need for artificial IRQ in case of HID
-dd5f5c386fb7d643135007aa174c6068b2381586 Drop that for now
-39a976530fb71db5c106e73bfd0db837d845d888 KEYS: Make use of platform keyring for module signature verify
-918f39ae9b84bbab6d808bda14f6e06c45ce707d mm/kmemleak: skip late_init if not skip disable
-160e1a2df23e0e26ced064276622164c04192713 ARM: fix __get_user_check() in case uaccess_* calls are not inlined
-9d5d6d63f97d6ae93e1ac25fef054878b032cd9b dt-bindings: panel: add binding for Xingbangda XBD599 panel
-59dcd2a6aa777811876afb2b16965b286c033c96 drm: panel: add Xingbangda XBD599 panel
-c14c1eb6acf1113bc37f3134a5d386ebcec4e547 drm/sun4i: sun6i_mipi_dsi: fix horizontal timing calculation
-40ea6224a972bd1a0a35c7abeb44fe07bcd2f54a arm64: allwinner: dts: a64: add LCD-related device nodes for PinePhone
-6b38ded0967c0aaf595b982b102276e2fbeaea8d e1000e: bump up timeout to wait when ME un-configure ULP mode
-085f51dd052b4b5748fb122932f7eb370afb0ad4 virt: vbox: Rename guest_caps struct members to set_guest_caps
-4969fa5b33e4e501d95940068a84ddef0447e667 virt: vbox: Add vbg_set_host_capabilities() helper function
-05e895f3ea02f8bd73791455c675e1b542d0fc12 virt: vbox: Add support for the new VBG_IOCTL_ACQUIRE_GUEST_CAPABILITIES ioctl
-6e99bd4454e19359783170f423ad59071c41e801 virt: vbox: Add a few new vmmdev request types to the userspace whitelist
-df5c0e332f5ba484253661f7d70d29cbcaba1cd1 virt: vbox: Log unknown ioctl requests as error
-722e7c3097740defd27ac0099a90c38107bd7f19 selinux: allow reading labels before policy is loaded
-b122d24fb299219d2e7e1c1a3e3a128e8851c604 Revert "dt-bindings: panel: add binding for Xingbangda XBD599 panel"
-bb4dfcf9b71d98296bcb185a3754c3bc0e53ed61 Revert "drm: panel: add Xingbangda XBD599 panel"
-7c0523f4278f72e7afa347a6066d716ee1e3a921 Revert "drm/sun4i: sun6i_mipi_dsi: fix horizontal timing calculation"
-279a22b0d799497fcc8a58b6a7f2161ba301fcd7 Revert "arm64: allwinner: dts: a64: add LCD-related device nodes for PinePhone"
-6d64516b17d9ca05a8310545395a914f4c2071f7 dt-bindings: vendor-prefixes: Add Xingbangda
-c0bc2984a2284b3dc5d9ce5b4241b4abe0f54ead dt-bindings: panel: Convert rocktech, jh057n00900 to yaml
-fe996e5d888d8feb74cd254b3ab6928775c02724 dt-bindings: panel: Add compatible for Xingbangda XBD599 panel
-f08d595bda15e0451b71d742b361fd58e300a4c5 drm/panel: rocktech-jh057n00900: Rename the driver to st7703
-1d77088041f91aa092f71bb125adebb8b39b94b1 drm/panel: st7703: Rename functions from jh057n prefix to st7703
-28a2b9202cc5cf92a44afc67e68c8df87744ba48 drm/panel: st7703: Prepare for supporting multiple panels
-352441b205bf073206da6142048ea9768b9cb7b1 drm/panel: st7703: Move code specific to jh057n closer together
-dc9af3e9c2cf5d82edf558174f6db5f14b7080a3 drm/panel: st7703: Move generic part of init sequence to enable callback
-da791ef764bfdfabf090a4698cd478820a85bd36 drm/panel: st7703: Add support for Xingbangda XBD599
-1fb575d83737c210f00407b96f3dd3681b8c3fa7 drm/panel: st7703: Enter sleep after display off
-4b147c7218c25f917a915fb69e5b5a8b3fd3498d drm/panel: st7703: Assert reset prior to powering down the regulators
-9c7a75ddd13bc507d2b57431894a000014387271 arm64: dts: sun50i-a64-pinephone: Enable LCD support on PinePhone
-4fd037c0118c2bebf85812b241da2804d1ac871a arm64: dts: sun50i-a64-pinephone: Add touchscreen support
-42e0bbab82b58577b281c00d1835e8ea323b96c1 Work around for gcc bug https://gcc.gnu.org/bugzilla/show_bug.cgi?id=96377
-093b8754811a0c976e7cc455f2efea02fd1ec418 PCI: Add MCFG quirks for Tegra194 host controllers
-ede8be95b3b7cdd4da4794963eb88a0ae94a5415 arm64: tegra: Re-order PCIe aperture mappings to support ACPI boot
-9de1fc1b893743d26ba4d507ff2583a4ac2ad57a arm64: tegra: Use valid PWM period for VDD_GPU on Tegra210
-174a6e3c01b4011f9601ed75d0a048ba961a621b platform/x86: thinkpad_acpi: lap or desk mode interface
-e630a2bcd0e62db88641b9dffac7beea91e5f376 memory: tegra: Remove GPU from DRM IOMMU group
-d4fc2758e71a47181e9dbce6e0de74887d838e09 arm64: dts: rockchip: disable USB type-c DisplayPort
-536a92ac60d860095bfe9f3880b01816e77964a9 arm64: dts: rockchip: add fuel gauge to Pinebook Pro dts
-865daf3ce1354b229272ec67295732855ecf91bc dccp: ccid: move timers to struct dccp_sock
-f431ec2284fac3b64f1eff4bb8188ab9152e0d0a Revert "dccp: don't free ccid2_hc_tx_sock struct in dccp_disconnect()"
-4d8265b373c411c61d4ac3cd94e0bc33fd6c6445 update phy on pine64 a64 devices
-da38ee91ac77ba68b7bed9ff2dd4e7ac2c50ec53 Revert "arm: sun8i: orangepi-pc-plus: Set EMAC activity LEDs to active high"
-37ef1f4c2d0f1a55ceab577312512b0c625c9cce ARM: dts: sun6i: a31-hummingbird: Enable RGMII RX/TX delay on Ethernet PHY
-1057bd06b8b67e021ac4a67bb8a04ca34022895d ARM: dts: sun7i: cubietruck: Enable RGMII RX/TX delay on Ethernet PHY
-fc24cf4c43dfadf38ea2fabb6f20f53992a3308e ARM: dts: sun7i: bananapi-m1-plus: Enable RGMII RX/TX delay on Ethernet PHY
-a34d6135f22b79765de178759f08d402424c9750 ARM: dts: sun8i: h3: orangepi-plus2e: Enable RGMII RX/TX delay on Ethernet PHY
-7b735d4bc4d2a038a6cf5472dfb931f23ee8479a ARM: dts: sun8i: a83t: Enable both RGMII RX/TX delay on Ethernet PHY
-297513f08bec684e452bc4592d3113369074f8c0 ARM: dts: sun9i: Enable both RGMII RX/TX delay on Ethernet PHY
-0fb2cb89de55e5ca9b65c47c42bde226c3dd8c19 ARM: dts: sunxi: bananapi-m2-plus: Enable RGMII RX/TX delay on Ethernet PHY
-9f6801e819825e1d1b512235f2475832773c1138 arm64: dts: allwinner: h5: libretech-all-h5-cc: Enable RGMII RX/TX delay on PHY
-12461cd234c2efec9af8be76f05c34dfd6a3cdac arm64: dts: allwinner: a64: bananapi-m64: Enable RGMII RX/TX delay on PHY
-6472a7a062361800c5b6e6f945398cf9965340eb ARM: dts: sun7i: pcduino3-nano: enable RGMII RX/TX delay on PHY
-03f8fc4265d3c3a9bab22e6e9c916128d68029d7 ARM: dts: sun8i: r40: bananapi-m2-ultra: Fix ethernet node
-100c18ad50106ede34e04ea2a78ebf087caa40df arm64: dts: allwinner: a64: OrangePi Win: Fix ethernet node
-e65022513ca2d8acbce8201416e52729d3c3d36c arm64: dts: allwinner: h5: OrangePi Prime: Fix ethernet node
-7202cddd83033943cd510985dc852a4b38c4e643 arm64: dts: allwinner: h5: OrangePi PC2: Fix ethernet node
-33085f06974c828a732f0bb27cde3edcbd6e8b3b arm64: dts: allwinner: h6: Pine H64: Fix ethernet node
-9d94dbdd4e72dddc7bbe16e67d4cf9d6e43249b7 xen/events: avoid removing an event channel while handling it
-00135c10fe07ad110dab98b15780643d19bf23d1 kernel-5.8.17-200.fc32 configs
+5859f34a24de4c9bf5affcb9b16de58cb4c0efea ACPI: APEI: arm64: Ignore broken HPE moonshot APEI support
+08ad1fabc5d18526c74a35eb41c7a8be64ab7c3c ACPI / irq: Workaround firmware issue on X-Gene based m400
+ff928eebb694bda24fd85e7ca77e9103d8c23f5f aarch64: acpi scan: Fix regression related to X-Gene UARTs
+a3e2300aa5ed5215273ab694c1f6da55e9957aee kdump: round up the total memory size to 128M for crashkernel reservation
+b0a826da998e69b91b70caebb7e321ca5d99b776 kdump: add support for crashkernel=auto
+3153976793cad7328feacb130a2ca30ffc92c17b kdump: fix a grammar issue in a kernel message
+80f29cf8891edfc00df6fe7423d3f911683b70f4 Vulcan: AHCI PCI bar fix for Broadcom Vulcan early silicon
+8f633e0f77af6d8cf611696b2463dab8425bcc9b ahci: thunderx2: Fix for errata that affects stop engine
+535b5ca400fab50469094d03d3c296ffc8d65b94 scsi: smartpqi: add inspur advantech ids
+38c9f72624433a8d498439c5de15304f253fe054 ipmi: do not configure ipmi for HPE m400
+5ad87e9a6c21136252dbd10c5a92f3ece3730694 iommu/arm-smmu: workaround DMA mode issues
+9a58c4571f628100bf135aa779b478a61d4d895b arm: aarch64: Drop the EXPERT setting from ARM64_FORCE_52BIT
+d585ddee57a10f19907a4ea349fe1bdbbf390c2c Add efi_status_to_str() and rework efi_status_to_err().
+08bd3b7e3f7a34adaeb3d0384ae9559a16ebf179 Make get_cert_list() use efi_status_to_str() to print error messages.
+6576a8b4b75272d776e33d88f8163fd034d19bab security: lockdown: expose a hook to lock the kernel down
+d7078bef0c7f7222e91df30fcb4a5bae30f3ea50 efi: Add an EFI_SECURE_BOOT flag to indicate secure boot mode
+8b330d9922b8ddb11b476fed5816846689057f5c efi: Lock down the kernel if booted in secure boot mode
+9fbd7e696a66524a8e7ab0fbabf0abc3a09ccc19 s390: Lock down the kernel when the IPL secure flag is set
+e42cba9f557ca14c80ca3d98d90f847b901d220f Add option of 13 for FORCE_MAX_ZONEORDER
+ac02a6b8367d749acf6554b41565ca8188563887 arm: make CONFIG_HIGHPTE optional without CONFIG_EXPERT
+b400851326711b21b83809ff1ce7ef8b7245d8dc ARM: tegra: usb no reset
+4ed29dc1054230ed86196069d9d76500fb6559f5 Input: rmi4 - remove the need for artificial IRQ in case of HID
+32734763719eb47082d500c50c128a594cbbe90c Drop that for now
+a1fc56ffe0472c32c995b1ef10d211cfc0425d07 KEYS: Make use of platform keyring for module signature verify
+ae8674a7ea88184fe8b21a65b40c6bd8a375c5e1 mm/kmemleak: skip late_init if not skip disable
+c5661611570d4bb7c4cbb53451e4011ed860619c ARM: fix __get_user_check() in case uaccess_* calls are not inlined
+ba6d4d321a3587545ce981b8813c962dad20026c dt-bindings: panel: add binding for Xingbangda XBD599 panel
+a75d37f765c27a936d2dff90473619a6702975fa drm: panel: add Xingbangda XBD599 panel
+eadf57989b4a0bff48f592c994f30f202e765ec5 drm/sun4i: sun6i_mipi_dsi: fix horizontal timing calculation
+27cd6f0edb927a0fa6d174eae510dee6dd6b2085 arm64: allwinner: dts: a64: add LCD-related device nodes for PinePhone
+b478fd00af73e2979fd4644b6ab90092b0024829 e1000e: bump up timeout to wait when ME un-configure ULP mode
+9c953a0635934f8a0eda1e621cb37a2bb63f7e2b virt: vbox: Rename guest_caps struct members to set_guest_caps
+ca37faa2f4b87d6810afc0757eba39f18b2df9a0 virt: vbox: Add vbg_set_host_capabilities() helper function
+8c663bb7a860593312517ed5803d18eaea5878b6 virt: vbox: Add support for the new VBG_IOCTL_ACQUIRE_GUEST_CAPABILITIES ioctl
+b7cc6a89106641d4bf7e31c440a784d1e5c89d9f virt: vbox: Add a few new vmmdev request types to the userspace whitelist
+a100bda965c98312d49bc0a94baf68bbd9d09737 virt: vbox: Log unknown ioctl requests as error
+edf3aaa1b51b05b699493344b640fc52823fee73 selinux: allow reading labels before policy is loaded
+cdee68f47136ab216a9445c084aee3efe1270472 Revert "dt-bindings: panel: add binding for Xingbangda XBD599 panel"
+6b9e7b00682f00481ed1ff67c516bbff39b443b3 Revert "drm: panel: add Xingbangda XBD599 panel"
+3f5f88b7d91fe123b0a1c6051df00a5bb85e394f Revert "drm/sun4i: sun6i_mipi_dsi: fix horizontal timing calculation"
+e9980291214a9ea83ee5c10cab9660c36281e79d Revert "arm64: allwinner: dts: a64: add LCD-related device nodes for PinePhone"
+0ce64b89b304fdfb3cc5b4bfbfaaef8a0b2ce7bc dt-bindings: vendor-prefixes: Add Xingbangda
+9fe5acfc7c200ced4bf062b12cb69b88594ff65d dt-bindings: panel: Convert rocktech, jh057n00900 to yaml
+d438d5bcfd47e5c495c9e108775290b4b584cec1 dt-bindings: panel: Add compatible for Xingbangda XBD599 panel
+089547d8ffe99b80fcc6f4518c5a51af85443f8d drm/panel: rocktech-jh057n00900: Rename the driver to st7703
+addfb9a6fad696986843c7919f6e8d5671644107 drm/panel: st7703: Rename functions from jh057n prefix to st7703
+865f951a7fdecd63488fddcaf6fcd31bca8d2ba0 drm/panel: st7703: Prepare for supporting multiple panels
+645b0af40018cdd06f9acc48b5bced44ff09414c drm/panel: st7703: Move code specific to jh057n closer together
+e442e31a1dbddbb1524250828db29777a4346960 drm/panel: st7703: Move generic part of init sequence to enable callback
+710906619cbd748828681f54976a5ceaf22915c8 drm/panel: st7703: Add support for Xingbangda XBD599
+e8ca7111d59dc3cd60b8641cd5db040d0ac4eb19 drm/panel: st7703: Enter sleep after display off
+91725996e80ed0dd10e8c89078f13c8778ac9222 drm/panel: st7703: Assert reset prior to powering down the regulators
+7a549fa5c15197bd840add7f109a858dccf13284 arm64: dts: sun50i-a64-pinephone: Enable LCD support on PinePhone
+95d75861e5ca8656d150f0c03428c1b67ca039b9 arm64: dts: sun50i-a64-pinephone: Add touchscreen support
+a6413774879d24af5d8340f20676318f64c978b4 Work around for gcc bug https://gcc.gnu.org/bugzilla/show_bug.cgi?id=96377
+0eab876722f2515cc393062008ece284ffacfe75 PCI: Add MCFG quirks for Tegra194 host controllers
+8b3f9885480abc9ba9e6ded475409057fda1540d arm64: tegra: Re-order PCIe aperture mappings to support ACPI boot
+f24c4da82b7c87a82f11d54257c73a7f78ce43fa arm64: tegra: Use valid PWM period for VDD_GPU on Tegra210
+90cf4bb9892825b0742473fe3e17b740f1c6c230 platform/x86: thinkpad_acpi: lap or desk mode interface
+1b45dc65dc82bdd65eeaeadff8040b895968b871 memory: tegra: Remove GPU from DRM IOMMU group
+e0bb0ac62319687a292fcb339dbaa89bcf3f9478 dccp: ccid: move timers to struct dccp_sock
+5a3c32386923f9a2f9c56419d534e7c23056bfae Revert "dccp: don't free ccid2_hc_tx_sock struct in dccp_disconnect()"
+02ba4b9fbf30beabc2efffbb66fff095cf5ad3eb update phy on pine64 a64 devices
+7d1f3db1bc9fa424f1ff5e3310104ebd6b5ebfcc Revert "arm: sun8i: orangepi-pc-plus: Set EMAC activity LEDs to active high"
+da9212f57d2452f7518c21737c5b55b2c041a914 ARM: dts: sun6i: a31-hummingbird: Enable RGMII RX/TX delay on Ethernet PHY
+6a6cdea26f75186a4621ac25f29046154c83f80f ARM: dts: sun7i: cubietruck: Enable RGMII RX/TX delay on Ethernet PHY
+4eb4a9accbfa91a6c8bd9a4178857271b5cb04f8 ARM: dts: sun7i: bananapi-m1-plus: Enable RGMII RX/TX delay on Ethernet PHY
+8328040bbe4549bed703ff0d388abfc9617393c0 ARM: dts: sun8i: h3: orangepi-plus2e: Enable RGMII RX/TX delay on Ethernet PHY
+0028da74da4889006bd8ec58968e2347e338b729 ARM: dts: sun8i: a83t: Enable both RGMII RX/TX delay on Ethernet PHY
+61274451b21df4b558083365ae7ba72eccca24cc ARM: dts: sun9i: Enable both RGMII RX/TX delay on Ethernet PHY
+c91e195e6875d55ceeb7ee5b98de653960b58be5 ARM: dts: sunxi: bananapi-m2-plus: Enable RGMII RX/TX delay on Ethernet PHY
+3aa18f7d1f98db64095fa962c80132677cf0b41d arm64: dts: allwinner: h5: libretech-all-h5-cc: Enable RGMII RX/TX delay on PHY
+30d38eabfb87e440a813076b4bbfe23b7e579ba6 arm64: dts: allwinner: a64: bananapi-m64: Enable RGMII RX/TX delay on PHY
+a239dca00bd488c8ac46e6ae5a02b4d4a1c2a82e ARM: dts: sun7i: pcduino3-nano: enable RGMII RX/TX delay on PHY
+0e7e2caf65c082b960365d2a6df4dab9e4acf9c3 ARM: dts: sun8i: r40: bananapi-m2-ultra: Fix ethernet node
+89b267437d6fb210f30d2f94f1a95be229a272c4 arm64: dts: allwinner: a64: OrangePi Win: Fix ethernet node
+8ef6d1dd4a6256d12d9f46f727333da90400ea6c arm64: dts: allwinner: h5: OrangePi Prime: Fix ethernet node
+3b474852d42f6a0c6422e9ca638fbd7bb5b5949f arm64: dts: allwinner: h5: OrangePi PC2: Fix ethernet node
+5510c8ad3e0f5b2dbb8541d1a840e1acc3979066 arm64: dts: allwinner: h6: Pine H64: Fix ethernet node
+51fe4c5f816bc39520d3287a5ffaa85c1fc63c76 xen/events: avoid removing an event channel while handling it
+35adcd3d1e9038f8f87ec4b17b9152955eb6bd62 kernel-5.8.17-100.fc31 configs
 
---===============2472687380490424718==--
+--===============0439009383836915746==--
