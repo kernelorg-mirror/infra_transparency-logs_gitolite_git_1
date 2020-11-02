@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 02 Nov 2020 16:16:39 -0000
-Message-Id: <160433379960.26086.3887203727295132910@gitolite.kernel.org>
+Date: Mon, 02 Nov 2020 16:16:41 -0000
+Message-Id: <160433380155.26277.7567450176839124869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/ci-next
+  - ref: refs/heads/for-next
     old: 6bf920418f6c1dccb99b044242a8dc152bc89d84
     new: 923bb4f70cebce213c842a94e6aff388884a21c9
     log: |
