@@ -1,62 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============2109093739571125061=="
+Content-Type: multipart/mixed; boundary="===============6772283728229349772=="
 MIME-Version: 1.0
 From: Gitolite Activity Feed <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Mon, 02 Nov 2020 09:00:41 -0000
-Message-Id: <160430764185.10697.1097878567298213527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 02 Nov 2020 09:00:51 -0000
+Message-Id: <160430765128.10801.1838337667270664905@gitolite.kernel.org>
 
---===============2109093739571125061==
+--===============6772283728229349772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 remote_ip: 1XMa7445gsRC0vWc1rFf1XnBwZ4=
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
+  - ref: refs/heads/debugfs_cleanup
+    old: eb27f3832891c8db753d3acb3a2a02d9930ef911
     new: 3cea11cd5e3b00d91caf0b4730194039b45c5891
-    log: revlist-3650b228f83a-3cea11cd5e3b.txt
+    log: revlist-eb27f3832891-3cea11cd5e3b.txt
 
---===============2109093739571125061==
+--===============6772283728229349772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604307692 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1604307633-79233df39914b7447aabf398e51891d6874ed637
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604307704 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1604307644-d603a13ee034fa1ee90b647ece2390276fc3a4c9
 
-3650b228f83adda7e5ee532e2b90429c03f7b9ec 3cea11cd5e3b00d91caf0b4730194039b45c5891 refs/heads/main
+eb27f3832891c8db753d3acb3a2a02d9930ef911 3cea11cd5e3b00d91caf0b4730194039b45c5891 refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+fyuwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L/EQAJa7nz+pU/ZpRDUjWF9D
-Yhixlcod+s1CulxFSA3BlyP9i1Fz4s7flTLyTn+Ops2NWlFFtPDjQ+p6hdsBWykr
-n9bc8qSf0mPR5fUFTLfYf+fcaXWbHX7LD02XNkHNVFUanjHRKip9NHpfYsotBcJ2
-xJHDKHheHgb60nx0DScXFp+9/z2NODfHjVKppWywEiw3K8AO5kfE7I92LPB4YjjU
-4VCRGxL52SxYWPt6gWp7AYl+LIXaOz96MSu3wzgm8fb6Vi61GUF4nsWQKO6zjjOH
-Q/G8udyVoXAWonxMbsqbjoUizNRR+k0C5I77xCJgyjdGFktA8VYCvAwLClz+mzsh
-dy9ar7Qi21KADEP8VbdH0pcsP3Oj39t9MWlX/x/Qzm6APNonqBtZPDY4hrqs13nt
-oSWL5CrnGeWkoklQLGUK8iIZ5xYyTLrw8QRfFUABUjiEeLZ0dvN1fXlJBHOvDnFA
-ma9SyYOSdyGeYenm57DB1Ch+PI7vjR9jCgC7CMPbJJT0rhP3aWTLDMDz/JhZUsWP
-LM4wtbeR+V6PxfgdZY9UTXjHnojrcOkrHPSLD2oKmIaZ+Q6vqarPg7bKye37X8IT
-0D2uSpRRqV/CI5hJVY3fcZgc5JVlIopubow0BNxZwwFEe18jE1u7SDBgoHFxuito
-0euQUdAJ3N+B5/SL5v+eWA31
-=hISk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+fyvgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YOEQAM7vODUc6rmr+XXKSYOT
+t95vVz7EHiipuub0f3ujG8Dv4E81lSwVn/AXJLKfu6vut+RoV+VVbPsWPpjG1//p
+lxYnnkR4wUVxPGysnp7xCFqWgSV1JwpU0lRLMPswWlbaDoyAd5VSX1gZalrAZE3h
+whV/HsEpGbhph65mKjMmnrFf9jXh6sblhajSQNnB+z7A8jDtV+dTiVkvTWtfjMTg
+pHNpXVsXN1Zh8/Ed4f/Ldv/f2cQhMGxmeJTEirOko9U6XfLJXRCZLmUM6XzAgCSs
+mkwLOgTOIoAaFcf8ghG4bNmA8ZZ4AzbbXBbp7RSDTTBGjXGWVGpp7ba3SDHumK98
+5wzae893/ty+Izo2Q1TPYb0LGTPgdw8pMtDJlbnXqZAHaLABRuUOWTCg7R3ki3JX
+uR2zWt22eyvcAbjuuImxvrUqvlieV4qDffKh9cQ+lQHXh/bk2/T0lkn9M+LmfyN9
+J9vmUnVwSNZbXGZU0tlza7TtaxN5X2bIyStv3dKrBejzdsyNLiUh4toLQOjYEwxr
+3L7A8touPBczEni4ONSEuEh7wvtqcdh3dNIwvH2TwVCNkoyaUczj6E56Y8dM5Zkg
+M7r9crhdY/GLdcxIH94/LdiPahgwBiGJ6G4fBUG4Qgk7exGMWc8NTC0y+A9TUmjz
+0Jy/RWZjfqzb3wPwbQ0ym10j
+=invl
 -----END PGP SIGNATURE-----
 
---===============2109093739571125061==
+--===============6772283728229349772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3650b228f83a-3cea11cd5e3b.txt
+Content-Disposition: attachment; filename=revlist-eb27f3832891-3cea11cd5e3b.txt
 
 b64d814257b027e29a474bcd660f6372490138c7 arm64: dts: marvell: espressobin: Add ethernet switch aliases
 0b58725fb9a446890c1fd28fc6c9e393ce21acb7 ARM: mvebu: drop pointless check for coherency_base
@@ -497,4 +497,4 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
 
---===============2109093739571125061==--
+--===============6772283728229349772==--
