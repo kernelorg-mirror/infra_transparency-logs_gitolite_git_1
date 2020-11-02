@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9212691210226739039=="
+Content-Type: multipart/mixed; boundary="===============0387320812832550052=="
 MIME-Version: 1.0
 From: Gitolite Activity Feed <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 02 Nov 2020 08:58:52 -0000
-Message-Id: <160430753271.8343.7664120480466869441@gitolite.kernel.org>
+Date: Mon, 02 Nov 2020 08:59:06 -0000
+Message-Id: <160430754620.8497.14590346217011044105@gitolite.kernel.org>
 
---===============9212691210226739039==
+--===============0387320812832550052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,46 @@ user: gregkh
 remote_ip: 1XMa7445gsRC0vWc1rFf1XnBwZ4=
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 2fcce37a3d2f2f3d7fa36aad2b71cbaca135ffd4
+  - ref: refs/heads/driver-core-next
+    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
     new: 3cea11cd5e3b00d91caf0b4730194039b45c5891
-    log: revlist-2fcce37a3d2f-3cea11cd5e3b.txt
+    log: revlist-3650b228f83a-3cea11cd5e3b.txt
 
---===============9212691210226739039==
+--===============0387320812832550052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604307585 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604307599 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1604307525-7b97380110233e8d40c1a3840b39f8ad5137514d
+nonce 1604307539-4d41cc70a45ac8f18098874e39a039079443c39a
 
-2fcce37a3d2f2f3d7fa36aad2b71cbaca135ffd4 3cea11cd5e3b00d91caf0b4730194039b45c5891 refs/heads/driver-core-linus
+3650b228f83adda7e5ee532e2b90429c03f7b9ec 3cea11cd5e3b00d91caf0b4730194039b45c5891 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+fyoEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zCsP/01mFEHKee1PZohMHOXd
-ZpBch+SQmpeDSK+NbOuT3npWVXd0bIwJ52f6O+xJBaWSgELXpC3lX7iWwSb9sho2
-HHN89cSrzrlfDcRu4RMuIsC6SvmTUe63upWpUABEYD8Oy/bOsv8Y2VW0jdfwLCeP
-sHACHZ8I4zlG7NHvGCqiEXRpcTQ3w16fJERKxw/qSZn84Zfor1BTD5yPoPsult+J
-d7PaSaqbasrXmPNI6jz5QhY3pEUTXxl3NA03q4/kSYlasUH2HgG7S012vM84KQ0/
-56HLg8pvkrEkxZzIlg1N0FLWjP6Oj5XfdR89n6beoCULnkXWbqWmt2d2qr4P/dK7
-7KTPkirGJ7bJ57u3Hio2fARAem7Ib33EtJRrmwEUbLbpKxn+ZLnuBimiA1TNcxdC
-+Wwpz82eFjNg7mh0/a9byj6VC2axri7497RDWkfqnKEUpoiM178W361hSqNr9/oW
-UuKEtUnoQuVQ3bqZ1zG175dwN8bNIpuj3N8Nq9iWws0agsUKMndQpHARJk7TdhIU
-pc0LsqTMSWBY1O+460+d/fXc7Sx7v4h5Mum18dlCVU4LUP9fMqlC/9cTS6LCrXJG
-gvnxL7po0+d7h7EKbeypwULLxA74wwY5glgOTcmyGRJJEkJ3WMpj+yJlgmbi+oz7
-6lLLiknyOfdvo5WHuYLbzwl2
-=cI8R
+iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+fyo8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GWUP9RA0e1y0i54+m0sbIfP6
+0uHp7XL+51izr5hK+4li3sYbZVV7w8pfnkV5HVpsIjmlhXPfxF5CG3tCJL51nxHv
+1cUXGQMTi3ZRKHmpo0cuAeXGsowE2vZ5inQ9g4ZJjCwVHblWV0WsQncehySdjvXs
+Bk2Ik5r1TAXnUurnWPvahgmykFNToTSVlpwceRBRiC1VtljbIpsjJsvBssTgEykJ
+d3MUvACAIym7lqvQXx2qfA3/mredEP0DgM2wZkvlhTpSzMSp4KRmkyzCacCqGhq9
+UJUSL7arJ8uHWf1B8q6ne+hQoh8xt9g3c4lacvgWWEg3RO+oQfP2bjnQ1uKjqXtU
+9o9m7d4OyHsw5Jmjr2Fuu8rI05qb/UUoYM/psFKrRdIUfJYRXVzGfDvQ3P4tLRfM
+AxlLM1TLHeL2ATs57mw2h7mXSsbFhjO7QzAsoZHypmDlFIh0K/snB7KIQMsX9bUI
+Wsf7bUm8ut2j+bi83PRVPUDh3LAF6ZOvOuDPCXC4uLjf5ui0Rr5Bi20yKHSGMMma
+Nd5ikWjoxTQhyQm9TafWe5WRj6Q8s3+7YZYrSG2y8nrakhK2UEhXcr7umD0Ix8wT
+F3vAcxa0BRqibB+Xiup26HPA7MI2Jg2oyZSy6tu4p2RRx+qf0tmdu6D+SAirICCA
+N09LY7/dBc+KdZRVIOkAtJY=
+=QKWp
 -----END PGP SIGNATURE-----
 
---===============9212691210226739039==
+--===============0387320812832550052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2fcce37a3d2f-3cea11cd5e3b.txt
+Content-Disposition: attachment; filename=revlist-3650b228f83a-3cea11cd5e3b.txt
 
 b64d814257b027e29a474bcd660f6372490138c7 arm64: dts: marvell: espressobin: Add ethernet switch aliases
 0b58725fb9a446890c1fd28fc6c9e393ce21acb7 ARM: mvebu: drop pointless check for coherency_base
@@ -395,6 +395,7 @@ a7ece18c5d9cf69a6f0b862365c5c9475d87e2b8 Merge branch 'linux-5.10' of git://gith
 7babd126327b8b5a3904d2f8f01c95235801af2a Merge tag 'drm-intel-fixes-2020-10-29' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 52d3967704aea6cb316d419a33a5e1d56d33a3c1 usb: cdns3: Fix on-chip memory overflow issue
 e11d2bf271589e70ea80a2ee3e116c40fcac62c2 usb: cdns3: gadget: own the lock wrongly at the suspend routine
+0d519cbf38eed4f895aed197d4b135fa7f60f7c2 debugfs: remove return value of debugfs_create_devm_seqfile()
 7922460e33c81f41e0d2421417228b32e6fdbe94 vhost_vdpa: Return -EFAULT if copy_from_user() fails
 7ba08e81cb4aec9724ab7674a5de49e7a341062c vdpa/mlx5: Fix error return in map_direct_mr()
 5e1a3149eec8675c2767cc465903f5e4829de5b0 Revert "vhost-vdpa: fix page pinning leakage in error path"
@@ -408,6 +409,45 @@ e9a33caec90e05673e2f7fb7c80f172031964d25 KVM: arm64: Factor out is_{vhe,nvhe}_hy
 dfc4e3f08903ed8fe0b66cc25b64524a82654166 arm64: cpufeature: reorder cpus_have_{const, final}_cap()
 d86de40decaa14e6613af1b2783bf4d589d0f38b arm64: cpufeature: upgrade hyp caps to final
 00c27a1df8ff5e99b383e2b4cbf947a4926fb534 Merge tag 'usb-v5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
+11ce90a45d380f09213f128b76d68bb525186ad8 scripts: get_abi.pl: change script to allow parsing in ReST mode
+e9bca8918e3d409f3b575d8db5591e422506c1ea scripts: get_abi.pl: fix parsing on ReST mode
+61439c4ada9fd0e4ce73aca81a71344380a3053b scripts: get_abi.pl: Allow optionally record from where a line came from
+f82a8a74ea81df22b1641ee56cf7195cc2a1bd0b scripts: get_abi.pl: improve its parser to better catch up indentation
+234948bf3d27e473ac8043d20dacda146beeb0cb scripts: get_abi.pl: cleanup ABI cross-reference logic
+c7ba333426bcf4d7330d3a0a768e8048a82e4cc7 scripts: get_abi.pl: detect duplicated ABI definitions
+a16ab14eb7a92bfebf71a8a9185c749de86851f4 scripts: get_abi.pl: output users in ReST format
+a4ea67bc65a15dadcda747c7f9d7b0e76e7c842a scripts: get_abi.pl: prevent duplicated file names
+c01d62d3fecb27f4c76a0e14b7e5afc15497a74b scripts: get_abi.pl: use bold font for ABI definitions
+55e5414f2f8e31a8abbd95c43c24b69e83560a20 scripts: get_abi.pl: auto-generate cross references
+678a63f9888c28150e08cf6cb5fec9fbaf2bf81c docs: kernellog.py: add support for info()
+9ca876f96323934b8ace04b123531f05e3bed029 docs: kernel_abi.py: add a script to parse ABI documentation
+823830d4065bfb115b948c9f21e713a15d8d95ef docs: kernel_abi.py: fix UTF-8 support
+c830fa9a4d363caacc4ba3f63c06b9e967ad13a4 docs: kernel_abi.py: make it compatible with Sphinx 1.7+
+997b7c8b4a95681dc75e6b720ad6f0ea705368c3 docs: kernel_abi.py: use --enable-lineno for get_abi.pl
+3c543d29891a42b23c1f9a3a4788ae37fb94cce2 docs: kernel_abi.py: Handle with a lazy Sphinx parser
+a7ee04b3ef0d2b2514730928a04a112f04ffe7df docs: add ABI documentation to the admin-guide book
+c7e45ea429c93139e85ddf3e0a8500a997f0f745 docs: ABI: README: specify that files should be ReST compatible
+98913408c5465ac477f80da7affe347b413edaa4 docs: ABI: stable: make files ReST compatible
+34433332841de2787f903fcf7de8dc3e06780f4a docs: ABI: testing: make the files compatible with ReST output
+906e4af9359dff0e24aeaf3b92226847cb5c8185 docs: ABI: sysfs-uevent: make it compatible with ReST output
+642514df1bc1c6a9318b537670fdb55a6ee38e45 docs: ABI: make it parse ABI/stable as ReST-compatible files
+c12759ff2dd029ce74b026e6b6bc62060383a5a7 docs: ABI: create a 2-depth index for ABI
+7832dea738dc3ea4a40860dc8b9f83ca1e092ab9 docs: ABI: don't escape ReST-incompatible chars from obsolete and removed
+50865d041eead18b110e589674ff91ffcd243e7e docs: abi-testing.rst: enable --rst-sources when building docs
+75442fb0ccaacddf1654a5304401a9f556c61004 docs: Kconfig/Makefile: add a check for broken ABI files
+b1faa368bb202649259fd8afed78bcc31e58e293 docs: ABI: convert testing/configfs-acpi to ReST
+002a9c2f99c77677635d2ab2e906fc6ba3f7ab67 docs: ABI: fix syntax to be parsed using ReST notation
+97f26cab455e1868edb0b74ce714dcb52444b63b docs: ABI: vdso: use the right format for ABI
+ed8c39d43983d19f181ff47af0374c4e252f84bd docs: ABI: sysfs-bus-nvdimm: use the right format for ABI
+54a19b4d3fe0fa0a31b46cd60951e8177cac25fa docs: ABI: cleanup several ABI documents
+4119f0dfbd27722216352a7349930a4b54032fe5 docs: ABI: change read/write attributes
+637ae1fb5dca38649eed31f943114486bacce416 docs: ABI: stable: remove a duplicated documentation
+edef2fa29739172643dbe9f44fb38d23793816d6 docs: ABI: unify /sys/class/leds/<led>/brightness documentation
+9e0b29adfb3323ffd250b74373c68209e291b8e5 docs: ABI: sysfs-class-power: unify duplicated properties
+1b3023ef54d4fc8e8a034d2178ef80bddd7ba206 docs: ABI: sysfs-c2port: remove a duplicated entry
+bd6e8441c2fc4d653d115516f55b1700284bc42d docs: ABI: sysfs-class-backlight: unify ABI documentation
+26a07553041eb728678348a2bb0cd703ccd11083 docs: ABI: sysfs-class-led-trigger-pattern: remove hw_pattern duplication
+2fcce37a3d2f2f3d7fa36aad2b71cbaca135ffd4 scripts: get_abi.pl: assume ReST format by default
 d1b35d66f48f926062dc81134ebd8ab93d71e61d Merge tag 'icc-5.10-rc2' of https://git.linaro.org/people/georgi.djakov/linux into char-misc-linus
 65ff5cd04551daf2c11c7928e48fc3483391c900 blk-mq: mark flush request as IDLE in flush_end_io()
 dea47cf45a7f9bb94684830c47d4b259d5f8d6af Merge branches 'pm-cpuidle' and 'pm-sleep'
@@ -457,4 +497,4 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
 
---===============9212691210226739039==--
+--===============0387320812832550052==--
