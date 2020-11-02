@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8751704168683583175=="
+Content-Type: multipart/mixed; boundary="===============3290667133984430226=="
 MIME-Version: 1.0
 From: Gitolite Activity Feed <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 02 Nov 2020 07:35:40 -0000
-Message-Id: <160430254084.30415.12811592942094832048@gitolite.kernel.org>
+Date: Mon, 02 Nov 2020 07:35:59 -0000
+Message-Id: <160430255903.30581.2050706900352681794@gitolite.kernel.org>
 
---===============8751704168683583175==
+--===============3290667133984430226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,46 @@ user: gregkh
 remote_ip: 1XMa7445gsRC0vWc1rFf1XnBwZ4=
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
+  - ref: refs/heads/char-misc-linus
+    old: d1b35d66f48f926062dc81134ebd8ab93d71e61d
     new: 3cea11cd5e3b00d91caf0b4730194039b45c5891
-    log: revlist-3650b228f83a-3cea11cd5e3b.txt
+    log: revlist-d1b35d66f48f-3cea11cd5e3b.txt
 
---===============8751704168683583175==
+--===============3290667133984430226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604302586 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604302612 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1604302527-5bcfa8026ff09e265e52d812011c18dc70d1a2be
+nonce 1604302553-fe04b52dd0ed70d6dea4e0dbd55f9428bb12678c
 
-3650b228f83adda7e5ee532e2b90429c03f7b9ec 3cea11cd5e3b00d91caf0b4730194039b45c5891 refs/heads/main
+d1b35d66f48f926062dc81134ebd8ab93d71e61d 3cea11cd5e3b00d91caf0b4730194039b45c5891 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+ftvobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RM4P/1vSYxeK2ZPYMdCTy7S8
-1VAdm6q1bXomybq6BtlfSWT4bdGwPXiK8u1MpCWLuAB0sO8R6IEmAFzjFz07hTS5
-HimG0kk15eVmQV8MMjn69UkUvk3YLoxso+oIp4tRey+ylDGPXpD2bBmtJtuHaumH
-x27KoP3XAe2VcOqzSANZBgjr1Ch5JVCrAnvYO83o2jtW9+6ZWZexL3PhemYfGJSv
-eUy7FUk7OZ2DFGrG7ZeV0tklHrMAWG7cyjOauS7j74LD0/1qE/8d16k2mjtnHjHH
-+KSepF0x/l8K+S+mogGqGZkpMZ1o+INMjbhbRfmdqV/ZGqghlfA8Tgv6kUsXHfy0
-DclH5LsIHlpPVpq6LtkWnrbNX7XUvYG6haGJcDDo1nlubAJ5O+KTzcH77VzU3qGp
-BUMPEGc811iYNpYLuj0DS8gso5+pMS7Jm2RqZ8+rZiSPe6tf2x75cICQ/56snapV
-RyzelNqgqp1vxkjZW4Q6FWQL3L0OBYL8sdpYxLyp+e0Tz4DtaCLP6qGxbYUFl15G
-I76S0a7SLYrN8qwHpdmOXxrz2s2hO0P2h6DAo5CgEle6PdGmtQKEwpF0ai3im9WK
-MDGRnvSKraH5gQkRrdRew0gy/N1sAwtUtHtRKC3AYDxPUkcVDDgu+KV+DP4ZwX6n
-egLojGUkRdM+Cn45uCDS1Pjx
-=S6lG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+ftxQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/jMP/jTvKZjafclJ6b0FWAfW
+q/A/CXKYYiwjOSqTvTufYfrwxwmQcimarp7vrU/ayYHE4yFevkfHEvf3mWtKPuXk
+Id3jR4ixZQq5EIcPSVpHmNfWSg8EMQD3cumn48fnFuScfoMiY4h3i7pEhMwltLdH
+Q42bQbiWzAfFfwSiSXlWd1CdJfFesqLCPX04ZfeJvDrA709vXI3Scr7zoGwfI85F
+aZpGW98ZyBekmbvSMq93XW+aEgcSZLWcGUE4CCWrohlhOKJhqKmaiAdN+9yq8+CH
+G4m0Sn2ir19taRxV/c97pLRdYNq+23EhXQuPR4i9/XM0fyqGHQ5mO+4y5+kwI4R8
+sbOgkBvUvR1fDAMHJQzLKUDn9hVLPdLbiR9+Hbot2Fxwa9WrmRluFv3WN1RtD2g3
+82pPuL9KzSRXbzkev6vXSdzuIRb8kkMOWezN99iIzF6oLjJndgqDXbLmSMTEK2uw
+Bqjr8yVIDhUloQn2w7LdrV5Ka8bDeECex/8jyh3qWvRMcgYEPSNa9Tc35GltSt9C
+kN7TdGFDbZedARxUUQU5y2N5qXdwaxK25gf8F9rxi3RYOaSiVqIbVE9w5DcACNWz
+gnlLp9RF8FeZSHYERTFtAjXjpPn612Qn2BhhwRI0GE2KcEzvtRSt6vRFKw1ua5VG
+acTY1t0OPeaVG1HzY6J6gTIs
+=oO4t
 -----END PGP SIGNATURE-----
 
---===============8751704168683583175==
+--===============3290667133984430226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3650b228f83a-3cea11cd5e3b.txt
+Content-Disposition: attachment; filename=revlist-d1b35d66f48f-3cea11cd5e3b.txt
 
 b64d814257b027e29a474bcd660f6372490138c7 arm64: dts: marvell: espressobin: Add ethernet switch aliases
 0b58725fb9a446890c1fd28fc6c9e393ce21acb7 ARM: mvebu: drop pointless check for coherency_base
@@ -75,14 +75,9 @@ f2ac57a4c49d40409c21c82d23b5706df9b438af x86/unwind/orc: Fix inactive tasks with
 c7821c2d9c0dda0adf2bcf88e79b02a19a430be4 firmware: arm_scmi: Fix locking in notifications
 b9ceca6be43233845be70792be9b5ab315d2e010 firmware: arm_scmi: Fix duplicate workqueue name
 c3b484c439b0bab7a698495f33ef16286a1000c4 x86/syscalls: Document the fact that syscalls 512-547 are a legacy mistake
-5be1805dc3961ce0465bcb0beab85fe8580af08d interconnect: qcom: sdm845: Enable keepalive for the MM1 BCM
-d3703b3e255f56d543aac183f8aafdbfd7096559 interconnect: Aggregate before setting initial bandwidth
-0f221a729049ab727c87b0fe47e309b952d879ce interconnect: qcom: sdm845: Init BCMs before creating the nodes
-599809540f173f572c32a35d712accdc14d6357c interconnect: qcom: sc7180: Init BCMs before creating the nodes
 b3e1ea16fb39fb6e1a1cf1dbdd6738531de3dc7d mmc: sdhci: Use Auto CMD Auto Select only when v4_mode is true
 1afc708dcae41bc538fda0f85d4f0ecf276fa505 btrfs: fix relocation failure due to race with fallocate
 f3362f0c18174a1f334a419ab7d567a36bd1b3f3 arm64: dts: amlogic: add missing ethernet reset ID
-266cd33b59138501579c64648f54b93eab2e5adf interconnect: qcom: Ensure that the floor bandwidth value is enforced
 f8e48a3dca060e80f672d398d181db1298fbc86c lockdep: Fix preemption WARN for spurious IRQ-enable
 abee7c494d8c41bb388839bccc47e06247f0d7de x86/alternative: Don't call text_poke() in lazy TLB mode
 938f324e7df25e89226c6fe137028af73cd6160b drm/panel: mantix: Don't dereference NULL mode
@@ -224,7 +219,6 @@ d3a85737521a8570adf3a8171b4b3e42216686ec staging: wfx: fix use of uninitialized 
 df5fbca677c916d1959f814b41b841b65e450027 staging: wfx: fix test on return value of gpiod_get_value()
 7e97e4cbf30026b49b0145c3bfe06087958382c5 staging: fieldbus: anybuss: jump to correct label in an error path
 761a8c58db6bc884994b28cd6d9707b467d680c1 tracing, synthetic events: Replace buggy strcat() with seq_buf operations
-fce52ad3483281930dc9215a68d69837f219f889 interconnect: qcom: use icc_sync state for sm8[12]50
 0425e7badbdcb6e47109bfdfe494d86217e29009 btrfs: don't fallback to buffered read if we don't need to
 d5c8238849e7bae6063dfc16c08ed62cee7ee688 btrfs: convert data_seqcount to seqcount_mutex_t
 9ce0af3e9573fb84c4c807183d13ea2a68271e4b drm/vc4: drv: Add error handding for bind
@@ -317,14 +311,12 @@ f8f4acb6cded4e455b2d390ce2221391fc3f09ee ext4: use generic casefolding support
 6694875ef8045cdb1e6712ee9b68fe08763507d8 ext4: indicate that fast_commit is available via /sys/fs/ext4/feature/...
 ef5dd6a0c828b6fbd9d595e5772fcb51ff86697e arm64: mte: Document that user PSTATE.TCO is ignored by kernel uaccess
 5a169bf04cd2bfdbac967d12eb5b70915b29d7ee x86/kvm: Reserve KVM_FEATURE_MSI_EXT_DEST_ID
-80ade22c06ca115b81dd168e99479c8e09843513 misc: mic: remove the MIC drivers
 23859ae44402f4d935b9ee548135dd1e65e2cbf4 Merge tag 'trace-v5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 f27891abb7930d7a92bee2a47648a4a8708652d3 usb: typec: add missing MODULE_DEVICE_TABLE() to stusb160x
 befa1c2d65c639a7aefa793d36d7229732f14642 usb: typec: stusb160x: fix signedness comparison issue with enum variables
 a75e2d604da8219d928be010bde37c3ab0ebd466 xhci: Fix sizeof() mismatch
 2a632815683d2d34df52b701a36fe5ac6654e719 usb: xhci: Workaround for S3 issue on AMD SNPS 3.0 xHC
 712da5fc4a66fbb1f144742e1b808498e932009b xhci: Don't create stream debugfs files with spinlock held.
-0f5cef2b2904b8d41d34ecb6c5d5bf2f00562b1b coresight: add module license
 a3a0ded3ed38f4eafa86cef61799d50250da4dbe drm/vc4: hdmi: Add a name to the codec DAI component
 5066f42c7d3c7766c16ba6e73da514af04d43ff7 drm/vc4: Rework the structure conversion functions
 5fca3f062879f8e5214c56f3e3e2be6727900f5d usb: cdns3: gadget: suspicious implicit sign extension
@@ -359,8 +351,6 @@ ceb1eb2fb609c88363e06618b8d4bbf7815a4e03 tipc: fix memory leak caused by tipc_bu
 eadd1befdd778a1eca57fad058782bd22b4db804 netem: fix zero division in tabledist
 2734a24e6e5d18522fbf599135c59b82ec9b2c9e r8169: fix issue with forced threading in combination with shared interrupts
 b9c0f4bd5b8114ee1773734e07cda921b6e8248b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-39a7661dcf655c8198fd5d72412f5030a8e58444 coresight: Fix uninitialised pointer bug in etm_setup_aux()
-80624263fa289b3416f7ca309491f1b75e579477 coresight: cti: Initialize dynamic sysfs attributes
 28e81c6270b3d0e9faadd565f314ad9ac8256620 KVM: arm64: Don't corrupt tpidr_el2 on failed HVC call
 b6d6db4de86f5b1be9bbe59c73302538301915c7 KVM: arm64: Remove leftover kern_hyp_va() in nVHE TLB invalidation
 d2782505fbe3055f983c772a448ac5cb419f9df7 KVM: arm64: Drop useless PAN setting on host EL1 to EL2 transition
@@ -448,7 +438,6 @@ edef2fa29739172643dbe9f44fb38d23793816d6 docs: ABI: unify /sys/class/leds/<led>/
 bd6e8441c2fc4d653d115516f55b1700284bc42d docs: ABI: sysfs-class-backlight: unify ABI documentation
 26a07553041eb728678348a2bb0cd703ccd11083 docs: ABI: sysfs-class-led-trigger-pattern: remove hw_pattern duplication
 2fcce37a3d2f2f3d7fa36aad2b71cbaca135ffd4 scripts: get_abi.pl: assume ReST format by default
-d1b35d66f48f926062dc81134ebd8ab93d71e61d Merge tag 'icc-5.10-rc2' of https://git.linaro.org/people/georgi.djakov/linux into char-misc-linus
 65ff5cd04551daf2c11c7928e48fc3483391c900 blk-mq: mark flush request as IDLE in flush_end_io()
 dea47cf45a7f9bb94684830c47d4b259d5f8d6af Merge branches 'pm-cpuidle' and 'pm-sleep'
 8f7304bb9113c95b256d3aa79a884b4c60a806e1 Merge branches 'acpi-button' and 'acpi-dock'
@@ -497,4 +486,4 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
 
---===============8751704168683583175==--
+--===============3290667133984430226==--
