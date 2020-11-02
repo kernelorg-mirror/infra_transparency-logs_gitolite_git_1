@@ -1,58 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============6788145934760013544=="
+Content-Type: multipart/mixed; boundary="===============4779898568991095887=="
 MIME-Version: 1.0
 From: Gitolite Activity Feed <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 02 Nov 2020 09:03:07 -0000
-Message-Id: <160430778714.4862.3656397606919055252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 02 Nov 2020 09:03:15 -0000
+Message-Id: <160430779536.13372.15700522327575611498@gitolite.kernel.org>
 
---===============6788145934760013544==
+--===============4779898568991095887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-remote_ip: 1XMa7445gsRC0vWc1rFf1XnBwZ4=
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
+remote_ip: jwIJQzvZyWtF6tli5rKsi7teWVE=
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
     new: 3cea11cd5e3b00d91caf0b4730194039b45c5891
     log: revlist-3650b228f83a-3cea11cd5e3b.txt
 
---===============6788145934760013544==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604307833 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1604307774-8e99059d3aab8050c514a150271daede819e55b6
-
-3650b228f83adda7e5ee532e2b90429c03f7b9ec 3cea11cd5e3b00d91caf0b4730194039b45c5891 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+fy3kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WswQALXlbBTNC1bj9y6hTTEv
-9PNm5cUB9SgIR5t9GSd69nzj94T+JkEKifCAmWIScA3gyzAXuAWkpETOjGQzwrHH
-6fIJXRRO6YPycc5evD9/fj/IWg2DQyHuKoBvVmutj1KpAsld3LKZeX4/ehaTBiQv
-o83s1T5vyuDbgz7Pz9zxjvGRvjPi/o0vvC8XekDUvQe8iEOaI9Jmg0eC1FTI872O
-xEDc4TuvQX7i1gxOzRSvxv4UiAmENWM4Ic6LEvMnQ9frrhrm66CfBHS1pHfRmOXV
-udEgDObLm8Xlcm2LccHcSZRM1HYqJ0pj+VNlQrmxU/fMa2TbGBjppPeLIwCGELxJ
-h/U+FyGDYS5kPA1PFbkUWDTqDKC/od5kgpc12PogWf4O360uCVk2gksI9SLLZSDt
-Ce7vlBi3YNH4d0h7MKZ43IpUi5MC5l+n8Hngs/iKLkB1gjNlnntuxB2T9cSg17lw
-oUqbqfqiQkI5Qu9bis72URVY/bAORVHYXzcPMLQKkwG1V1EZFTa8k8uc7p7UiITJ
-CVk8VJHVHqhzANVaXFgzb3GSIZxjCRS2cxw/4OEKqWogG4zfbTEalBkU+C8NOGKw
-MYsV/aH886n4y3Rn7h5tDYAx9HZs2/lP87TiP09iS1Ls8IgvIWx8f193FBQp02Hd
-mtRDLZR4uZiGvyJhA3GSj/Ck
-=9vMp
------END PGP SIGNATURE-----
-
---===============6788145934760013544==
+--===============4779898568991095887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -497,4 +466,4 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
 
---===============6788145934760013544==--
+--===============4779898568991095887==--
