@@ -1,63 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6547748535869795407=="
+Content-Type: multipart/mixed; boundary="===============7342219691017549527=="
 MIME-Version: 1.0
 From: Gitolite Activity Feed <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 02 Nov 2020 12:36:04 -0000
-Message-Id: <160432056460.13082.3768912800192380597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 02 Nov 2020 12:45:25 -0000
+Message-Id: <160432112526.18954.5400392227616440550@gitolite.kernel.org>
 
---===============6547748535869795407==
+--===============7342219691017549527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 remote_ip: 1XMa7445gsRC0vWc1rFf1XnBwZ4=
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
+  - ref: refs/heads/driver-core-linus
     old: 3cea11cd5e3b00d91caf0b4730194039b45c5891
-    new: 58d51f330e76cd7536d1f7e6ef46dd241a7b38ef
+    new: 9d4fdda3344611ec53ededccc0c13cb149ba4375
     log: |
-         1384ab4fee12c4c4f8bd37bc9f8686881587b286 usb: dwc3: pci: add support for the Intel Alder Lake-S
-         0d66e04875c5aae876cf3d4f4be7978fa2b00523 usb: gadget: goku_udc: fix potential crashes in probe
-         48e7bbbbb261b007fe78aa14ae62df01d236497e usb: gadget: fsl: fix null pointer checking
-         fa27e2f6c5e674f3f1225f9ca7a7821faaf393bb usb: dwc3: ep0: Fix delay status handling
-         190bb01b72d2d5c3654a03c42fb1ad0dc6114c79 usb: dwc2: Avoid leaving the error_debugfs label unused
-         129aa9734559a17990ee933351c7b6956f1dba62 usb: raw-gadget: fix memory leak in gadget_setup
-         58d51f330e76cd7536d1f7e6ef46dd241a7b38ef Merge tag 'fixes-for-v5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/balbi/usb into usb-linus
+         92ca318e11d76562bb9448295a4fd96b6580954f docs: ABI: sysfs-driver-dma-ioatdma: what starts with /sys
+         1088ee2230ac5e1c889d5ba020f37c09000ee3af docs: ABI: sysfs-class-net: fix a typo
+         e186d80e2b85ab3e69de941d069ab9e11018ddf4 docs: leds: index.rst: add a missing file
+         daaaf58a2b7fd59951bd090eddee131f26422e20 scripts: get_abi.pl: Don't let ABI files to create subtitles
+         9d4fdda3344611ec53ededccc0c13cb149ba4375 scripts: get_api.pl: Add sub-titles to ABI output
          
 
---===============6547748535869795407==
+--===============7342219691017549527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604320612 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1604320552-3ee6fdfcdb0c66f67eb3b54340f9f4ce2ae25094
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604321177 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1604321118-75bc27f81ae13695396a1b0a425ec4c9e1ebe729
 
-3cea11cd5e3b00d91caf0b4730194039b45c5891 58d51f330e76cd7536d1f7e6ef46dd241a7b38ef refs/heads/usb-linus
+3cea11cd5e3b00d91caf0b4730194039b45c5891 9d4fdda3344611ec53ededccc0c13cb149ba4375 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+f/WQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TBgQAIx/tQEQ8LVWUWn+21Bu
-W4PAt9jjjGpqPsClIoEmYzPiO6kfZ2vjS1X8OVRdptZI7DrcOhgxFobqgXOIpqtm
-vCOvreAUFOIWLYKdVOCM6VvxVPaY0r8x/1B6n//6vH4VfEBBS+uD6TgZe7fnPzXF
-Cl7EV/FRvzql+ulvvqXotGUb19iChCWMHsOcecLzPdawu6vU5e+JZFFKWoYoF36I
-aAd83Pgwaisaq9sqgcSGYlgEV6vYF7uMlvls0ZI7Z7uOGY4Fiot9x1zoRjz3hazt
-Hpx8USJRWcCz+RXR56UqSTstzkKnCpjNTeymVCPG8+nmyf9meCH0cYttd8xsRzub
-frDgiXa8UbHf38dkESbKKH5zi0mlRu16UsSmbLXZR7jIV1BcmOpeS/9dZQRm7WZF
-d4p+tSbNSMeXEUf3R1VJT/Nm/jM/LwfPASNwog/Veioh4gGr3AN4myV5bx9hg2A/
-89iiqEiqaEQ9iHkCL2wSTM4FOGGmK20In3+PTt4jaX33mgwSxS5soOTWq+P3lGWB
-lxZ5X0RNSBb9yKuQ6uiwTHHM3kVTDvzpILhBy3sPbn6WqgYJHuOk5Eqgb/xkF4rH
-a4WDvKon7bGLw/DU1oZA9eKny0K0ETEVP1lpCWy/+erkxpPvgTUI9GXKmUgT9ZaM
-Tao6hwC5nuAgiu1U1M2rILrZ
-=03/y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+f/5kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IzMQAM52o9IPC9+Ge/HwaEm4
+OlTu0cCwMOWYfPKz6Qz2kQtjr1Yhdg6hVaa+/SKaSrRhHI5dL+j668lt4oFcs+wS
+tYXwBZZInmju/bWuCva03/iqVmAnLVsCMo4v3jU8hnFazHM/lZAaq/ne/Sb0jGVi
+GCWyugR92xIDm4fDTXBHllgaa2Mimm+OLThz9qnRBZx4DT2L+9eX9csuPNVgrxmL
+ocqHF9ACj1zjJ89LB2lD9Ec5OlV5X+tRPvlfkA4fJQjkOxlNSMmLrWdNcI3G5fi7
+GYyHJf6r5RHYumDCRmu8oSSwvP1IWUOL0ljmTpec7BMQ0fR7NuCLKDm914+/M2MM
+L+T6BuTFF/WiF8BKalCOy5LhdEGAd7yoIRM/NAOOL2ufeS1z0Va1bblQGk7L1oOx
+TqRAJznkuRRhiWpYUTMaoNc0pF1WwNxdssNxrLlf6UOpajx3rtGRBoVJdvSzWviK
+O0jrAB/puOcHKq/eT2XsgBzPfmHL73lO/MbX/iLaF6wTK3Px4hhdKs2N+qXmZf30
+QUr0sCONBh7sNowysbEAYQHEUBpSIJk1pxHDnBOd+vYgnuoL017DC4fTrsSnDR5E
+ZGU403yLouju+/d4jnW7ZJcv/TBSBtFoc2S+gbX4ii2cdmi5Xm3nT2hHWZV2OXfm
+AaqV8M7ha2oaJ6oRyzfvqepm
+=AXcv
 -----END PGP SIGNATURE-----
 
---===============6547748535869795407==--
+--===============7342219691017549527==--
