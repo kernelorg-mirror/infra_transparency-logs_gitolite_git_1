@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0654692905993744206=="
+Content-Type: multipart/mixed; boundary="===============6387585702727980634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 02 Nov 2020 21:06:01 -0000
-Message-Id: <160435116118.29111.6119947883566841235@gitolite.kernel.org>
+Date: Mon, 02 Nov 2020 21:06:06 -0000
+Message-Id: <160435116601.29454.1576289371817051947@gitolite.kernel.org>
 
---===============0654692905993744206==
+--===============6387585702727980634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/master
-    old: b5fc7a89e58bcc059a3d5e4db79c481fb437de59
+  - ref: refs/heads/dt/next
+    old: bd36e51d10e7c2b7d39ffa7d075aed98a8e7473c
     new: 3cea11cd5e3b00d91caf0b4730194039b45c5891
-    log: revlist-b5fc7a89e58b-3cea11cd5e3b.txt
-  - ref: refs/tags/v5.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 8ccd3b86485397172cf41d07ede9c26fc8bf9d88
-  - ref: refs/tags/v5.10-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 27598e7e73260ed0b2917eb02d4a515ebb578313
+    log: revlist-bd36e51d10e7-3cea11cd5e3b.txt
 
---===============0654692905993744206==
+--===============6387585702727980634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b5fc7a89e58b-3cea11cd5e3b.txt
+Content-Disposition: attachment; filename=revlist-bd36e51d10e7-3cea11cd5e3b.txt
 
 85094c05eeb47d195a74a25366a2db066f1c9d47 rapidio: fix the missed put_device() for rio_mport_add_riodev
 3f388f28639fd19d5bf6df7a882c94ccfbf49c2b panic: dump registers on panic_on_warn
@@ -1057,4 +1051,4 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
 
---===============0654692905993744206==--
+--===============6387585702727980634==--
