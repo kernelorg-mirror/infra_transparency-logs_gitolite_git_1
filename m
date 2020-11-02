@@ -1,20 +1,17 @@
 From: Gitolite Activity Feed <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 02 Nov 2020 11:48:07 -0000
-Message-Id: <160431768752.10705.2757094607990694407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Mon, 02 Nov 2020 11:49:46 -0000
+Message-Id: <160431778628.11360.14499704543522711996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
-remote_ip: bmFa/U7NYPHV8wLxwbHF7SmNFLg=
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
+remote_ip: 82S0/e4H1Xcv4512FniX8//csh4=
 changes:
-  - ref: refs/heads/dev-test
-    old: 684b31c3e4b0ea601369fb911ad72553639e6575
-    new: 3cfa401eafcce79aa2bab823a7e3ce3eb835b433
-    log: |
-         3cfa401eafcce79aa2bab823a7e3ce3eb835b433 erofs: derive atime instead of leaving it empty
-         
+  - ref: refs/heads/for-5.10-trivial
+    old: 0000000000000000000000000000000000000000
+    new: 8a8424bf2439b2b4705aa3d92f55b28c14bb455d
