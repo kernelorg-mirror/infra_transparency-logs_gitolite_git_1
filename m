@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 02 Nov 2020 16:27:41 -0000
-Message-Id: <160433446136.5584.12318275104215736628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Mon, 02 Nov 2020 16:31:45 -0000
+Message-Id: <160433470541.21673.6643885100463748820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/for-next
-    old: 3cb12d27ff655e57e8efe3486dca2a22f4e30578
-    new: 8aaeed81fcb917b5cf4976932c5baefa1471128b
+  - ref: refs/heads/dev
+    old: c175182a44c7c07183bd254b09eff618d7b9b579
+    new: ce04838c7cf1a55c4b99da214e7ee6d6224515d3
     log: |
-         cf83b2d2e2b64920bd6999b199dfa271d7e94cf8 bpf: Permit cond_resched for some iterators
-         c50eb518e262fa06bd334e6eec172eaf5d7a5bd9 bpf: Use separate lockdep class for each hashtab
-         20b6cc34ea74b6a84599c1f8a70f3315b56a1883 bpf: Avoid hashtab deadlock with map_locked
-         cb5dc5b062a915bc92def951ea7f33bad6d2ff1f Merge branch 'bpf: safeguard hashtab locking in NMI context'
-         8aaeed81fcb917b5cf4976932c5baefa1471128b bpf: Fix error path in htab_map_alloc()
+         975ce7746e7938496939598d4d62cec8ff4c70e5 f2fs: fix to seek incorrect data offset in inline data file
+         a990b733ce67606786bcc0c96f3e8b56599ee846 f2fs: move ioctl interface definitions to separated file
+         43a0c91b500289016703e48ba7a2cdb522e58f1d f2fs: add F2FS_IOC_GET_COMPRESS_OPTION ioctl
+         ce04838c7cf1a55c4b99da214e7ee6d6224515d3 f2fs: add F2FS_IOC_SET_COMPRESS_OPTION ioctl
          
