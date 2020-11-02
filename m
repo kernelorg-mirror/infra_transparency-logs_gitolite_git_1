@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Mon, 02 Nov 2020 19:17:28 -0000
-Message-Id: <160434464803.26473.3160735477853298544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 02 Nov 2020 19:18:50 -0000
+Message-Id: <160434473092.31512.6210132951751120049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: 48a3d90adafc9ed92d19c93d011f17ec9001cc34
-    new: 80c297997fa9cd795cc566f80aa37779f2b67152
+  - ref: refs/heads/review-andy
+    old: 6b807ad20c2a094ec0490780b6892f7316aed1c6
+    new: 95f7ba4dde621fab3b325b1098a2cd83d797640c
     log: |
-         80c297997fa9cd795cc566f80aa37779f2b67152 MAINTAINERS: update email, git repo of habanalabs driver
+         eb415e6d1ccf324dd7f055181030f4b6f5f14431 gpiolib: acpi: Take into account debounce settings
+         95f7ba4dde621fab3b325b1098a2cd83d797640c gpiolib: acpi: Convert pin_index to be u16
          
