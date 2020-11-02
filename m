@@ -1,25 +1,20 @@
 From: Gitolite Activity Feed <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 02 Nov 2020 10:56:52 -0000
-Message-Id: <160431461288.10123.5189242130507489173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 02 Nov 2020 11:14:11 -0000
+Message-Id: <160431565152.19915.14914266189043120052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
-remote_ip: dMStyE12TzaRr3dhDDO7AM2VAs0=
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
+remote_ip: Tzy65yoaLnpFrlQf3v+1TQfXgAE=
 changes:
-  - ref: refs/heads/arm64/set_fs-removal
-    old: a0ad84165b828adcc311a6470cb8be6926e3cfe0
-    new: c9633254ed89abcb24fcab5e29dd751c11535ea9
+  - ref: refs/heads/ras/core
+    old: 633cdaf29ec4aae29868320adb3a4f1c5b8c0eac
+    new: 68299a42f84288537ee3420c431ac0115ccb90b1
     log: |
-         66071278dd6456b846fdc37d33ef2a96e1f0bdfb arm64: uaccess: split user/kernel routines
-         b9af6b97b5f4dbdfe924ed13bde73f4d2d8a8c7d arm64: uaccess cleanup macro naming
-         f3b1fe28e95e1e3128c1f5070f4732060582fb39 arm64: uaccess: remove set_fs()
-         f6570c10fd7ad05e45b58fb140f2a98fb828f48b arm64: uaccess: remove addr_limit_user_check()
-         4ddd2297dada6c94b1245df7e3eec4254cac0302 arm64: uaccess: remove redundant PAN toggling
-         c9633254ed89abcb24fcab5e29dd751c11535ea9 arm64: uaccess: remove vestigal UAO support
+         68299a42f84288537ee3420c431ac0115ccb90b1 x86/mce: Enable additional error logging on certain Intel CPUs
          
