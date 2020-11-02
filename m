@@ -1,26 +1,57 @@
-From: Gitolite Activity Feed <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
-Date: Mon, 02 Nov 2020 12:49:58 -0000
-Message-Id: <160432139880.20527.13752036599328945435@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3030154764760598106=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite Activity Feed <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 02 Nov 2020 12:54:31 -0000
+Message-Id: <160432167181.25894.2193875516752532847@gitolite.kernel.org>
+
+--===============3030154764760598106==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211
-user: jberg
-remote_ip: +BAwXD9AOLZSchJlIGmSnM6oVNw=
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+remote_ip: 1XMa7445gsRC0vWc1rFf1XnBwZ4=
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 07e0887302450a62f51dba72df6afb5fabb23d1c
-    new: c2f46814521113f6699a74e0a0424cbc5b305479
+  - ref: refs/heads/staging-testing
+    old: 83e63b2cc416904b50895eeee8d8e0d7ea0418fe
+    new: 9364a2cf567187c0a075942c22d1f434c758de5d
     log: |
-         804fc6a2931e692f50e8e317fcb0c8887331b405 mac80211: fix regression where EAPOL frames were sent in plaintext
-         14f46c1e5108696ec1e5a129e838ecedf108c7bf mac80211: fix use of skb payload instead of header
-         9bdaf3b91efd229dd272b228e13df10310c80d19 cfg80211: initialize wdev data earlier
-         dcd479e10a0510522a5d88b29b8f79ea3467d501 mac80211: always wind down STA state
-         b1e8eb11fb9cf666d8ae36bbcf533233a504c921 mac80211: fix kernel-doc markups
-         db18d20d1cb0fde16d518fb5ccd38679f174bc04 cfg80211: regulatory: Fix inconsistent format argument
-         c2f46814521113f6699a74e0a0424cbc5b305479 mac80211: don't require VHT elements for HE on 2.4 GHz
+         9364a2cf567187c0a075942c22d1f434c758de5d staging: wimax: depends on NET
          
+
+--===============3030154764760598106==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604321724 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1604321663-ba4c2eb90b2e77fb6f7f73ecd3d743fd1006f87c
+
+83e63b2cc416904b50895eeee8d8e0d7ea0418fe 9364a2cf567187c0a075942c22d1f434c758de5d refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+gAbwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yhwQAKKS11SNasfSaj3EzCJr
+g4e1RKuUZU5HWxkzhxWXamClHjXPq/2b2vGPJFhSaVcf1X6nlyB3fLBPO3ZVEjKL
+q1o5YnN7JX8PfcmWkjUDDoCf71Q9ATCjcq919ZAci1g8nwr9I9UvPTgc+eKb2a2Z
+W+YGb3o5nhqZTbM/M0N/8Fm5f+D/4cCFbLJoEmz6QCWNtOnTeZ2IIR6DYHjUppn4
+Y2ATcQR0lxMjV2CFccvjIMpT9GpWKYpzDvshxcTTY/c/l2oCIawdvynRmZdgo0Xu
+iD/eNeT9jEVYeVd9y5EvSh6PJjeTcaUPmCbmN7sEEHWQgYpNR7KbU2pMNLCLFWpW
+Zgt918kBnoRPIGdjyfdLDwAzcfA5/92bDbsF0SajEFtkmAPsa02aHu5X+F3BSc5o
+Gc/CzW1FDo7Dm6WsBrXr9mGYpYqqDEChsu2+4vSov9rff+fGKiInkBhrEwkeC3jG
+8va4vE4HZx/Ge44rCx1TDCyDaob5LgQrvO6zILVIeEJzjmGeoKQDTMP4jS+YDF5M
+mOIMmflrKoPY0ZtTb71iuCiNQ7Yts6DWQDrVkqCRUoetQBBM9Lb3MaDsYG/M8AzS
+ug84Hj0Op80/y8Ul0rLn1ORsW7sAecx7ve2jm6VUzuY4svgDiZK5/6vYH5qCckZ6
+ABPIU9GJ+7y+Frw3V78G3e7s
+=IuoY
+-----END PGP SIGNATURE-----
+
+--===============3030154764760598106==--
