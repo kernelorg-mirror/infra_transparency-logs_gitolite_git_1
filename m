@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1768905287895980133=="
+Content-Type: multipart/mixed; boundary="===============1956544612253704258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 02 Nov 2020 16:33:08 -0000
-Message-Id: <160433478844.27039.4700821585513495524@gitolite.kernel.org>
+Date: Mon, 02 Nov 2020 16:33:17 -0000
+Message-Id: <160433479784.27656.76346300569759538@gitolite.kernel.org>
 
---===============1768905287895980133==
+--===============1956544612253704258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
+  - ref: refs/heads/dev-test
     old: ce04838c7cf1a55c4b99da214e7ee6d6224515d3
     new: 3281ed2c116edf23d852ab9b13e2267a3127be0d
-    log: revlist-dev-ce04838c7cf1-3281ed2c116e.txt
+    log: revlist-dev-test-ce04838c7cf1-3281ed2c116e.txt
 
---===============1768905287895980133==
+--===============1956544612253704258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dev-ce04838c7cf1-3281ed2c116e.txt
+Content-Disposition: attachment; filename=revlist-dev-test-ce04838c7cf1-3281ed2c116e.txt
 
 44a0a3c17919db1498cebb02ecf3cf4abc1ade7b NTB: hw: amd: fix an issue about leak system resources
 dbb8df5c2d27610a87b0168a8acc89d73fbfde94 ntb: intel: Fix memleak in intel_ntb_pci_probe
@@ -518,4 +518,4 @@ fa4320cefb8537a70cc28c55d311a1f569697cd3 f2fs: move ioctl interface definitions 
 63d18d4913e5ad684fe43f393a9e98a590a49a3a f2fs: add F2FS_IOC_GET_COMPRESS_OPTION ioctl
 3281ed2c116edf23d852ab9b13e2267a3127be0d f2fs: add F2FS_IOC_SET_COMPRESS_OPTION ioctl
 
---===============1768905287895980133==--
+--===============1956544612253704258==--
