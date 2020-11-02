@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Mon, 02 Nov 2020 21:14:26 -0000
-Message-Id: <160435166604.29018.11238173220389329247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 02 Nov 2020 21:43:46 -0000
+Message-Id: <160435342662.14781.5210376870963864547@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/ftrace/urgent
-    old: 2d92ccc495eab172aeca652fb5e2e7ebd2973ca4
-    new: ade931d3c4fc6efddc0917a1864408a2415308f1
+  - ref: refs/heads/kvm-arm64/ectoplasmic-residue
+    old: 2b9202538365bacc0abd01142800234ea1bc5bde
+    new: 902ad6cf67663fa6f277aa6514e94ef9ee2efb01
     log: |
-         b02414c8f045ab3b9afc816c3735bc98c5c3d262 ring-buffer: Fix recursion protection transitions between interrupt context
-         561ca66910bf597f170be5a7aa531c4e05f8e9be tracing: Make -ENOMEM the default error for parse_synth_field()
-         ade931d3c4fc6efddc0917a1864408a2415308f1 kprobes: Tell lockdep about kprobe nesting
+         fe9154aa8989911bd5b73e72a7a8447e7a8c0c3d fixup! KVM: arm64: Allow setting of ID_AA64PFR0_EL1.CSV2 from userspace
+         3ae0c8dfe5352d228fec94ab3f1ed416eef095ed KVM: arm64: Rename access_amu() to undef_access()
+         902ad6cf67663fa6f277aa6514e94ef9ee2efb01 KVM: arm64: Handle SCXTNUM_ELx traps
          
