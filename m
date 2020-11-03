@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Tue, 03 Nov 2020 09:20:53 -0000
-Message-Id: <160439525388.24353.15854979882333853643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Tue, 03 Nov 2020 09:21:21 -0000
+Message-Id: <160439528160.24620.2641745026425071354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/thermal/linux-next
-    old: 345a8af7ea63ac75a9000159d6298769d3d50f91
-    new: 703456ba76e9449b5ade6597c04a90ee3421cd94
+  - ref: refs/heads/linux-4.19.y-cip
+    old: c7954f0a6e90c886fbdffca61a97c9c5b4c38e6c
+    new: eb9b373c1614e2877512fab6a443849eab5bd810
     log: |
-         37b2539e63d6570c9ee51b1d48bdecb334df367d drivers/thermal/core: Optimize trip points check
-         4eb7d0cd590d99b6010b5b87a88804cda09a85da thermal/drivers/rcar: Replace spin_lock_irqsave by spin_lock in hard IRQ
-         07df39d03c34bd7baf4c26e41a5dd92ec56e9081 dt-bindings: thermal: mediatek: make resets property optional
-         c707f973df1706020f4a4669b5f1932e90c0f29c dt-bindings: thermal: mediatek: add documentation for MT8516 SoC
-         703456ba76e9449b5ade6597c04a90ee3421cd94 thermal: mtk_thermal: make device_reset optional
+         9b34beef09085d7c3fcf518fa781ae2f96c86819 arm64: dts: renesas: r8a774e1: Add PCIe device nodes
+         8f8f0f2f3de998d8d68f6a9dfbad7a5ae80e822a arm64: dts: renesas: r8a774e1: Add SATA controller node
+         0fb92ce38308baaf34933b2edd72b7af9dbd6b2d dt-bindings: pci: rcar-pci-ep: Document r8a774e1
+         200c1bf10773209d5919db7cb98c4983607486cc arm64: dts: renesas: r8a774e1: Add PCIe EP nodes
+         2d4e917b589ac5656ae2747cd2ee692aa0dd6f26 misc: pci_endpoint_test: Add Device ID for RZ/G2H PCIe controller
+         eb9b373c1614e2877512fab6a443849eab5bd810 arm64: dts: renesas: r8a774e1-hihope-rzg2h-ex: Enable sata
          
