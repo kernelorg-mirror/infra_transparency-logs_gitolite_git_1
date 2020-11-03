@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0956287348418545722=="
+Content-Type: multipart/mixed; boundary="===============2477403719669742927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
-Date: Tue, 03 Nov 2020 13:11:39 -0000
-Message-Id: <160440909996.24720.6721650085614474501@gitolite.kernel.org>
+Date: Tue, 03 Nov 2020 13:15:57 -0000
+Message-Id: <160440935758.27647.8567729529969344490@gitolite.kernel.org>
 
---===============0956287348418545722==
+--===============2477403719669742927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pali/linux
 user: pali
 changes:
-  - ref: refs/heads/a3720-cpufreq-issues
-    old: 9007c45e69e43125a68b858b44c0912f20b17113
-    new: 195395e46bba9df6aeb0a63ff15835413365b116
-    log: revlist-9007c45e69e4-195395e46bba.txt
+  - ref: refs/heads/master
+    old: 98d54f81e36ba3bf92172791eba5ca5bd813989b
+    new: b7cbaf59f62f8ab8f157698f9e31642bff525bd0
+    log: revlist-98d54f81e36b-b7cbaf59f62f.txt
 
---===============0956287348418545722==
+--===============2477403719669742927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9007c45e69e4-195395e46bba.txt
+Content-Disposition: attachment; filename=revlist-98d54f81e36b-b7cbaf59f62f.txt
 
+847d4287a0c6709fd1ce24002b96d404a6da8b5b Merge tag 's390-5.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+09a31a7e3723afd79022d5d3ff3634c2630c2eeb Merge tag 'mips_5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+49dc6fbce33011733601e4e81c551e066f1682fc Merge tag 'kgdb-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/danielt/linux
+8119c4332d253660e0a6b8748fe0749961cfbc97 Merge tag 'printk-for-5.10-fixup' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+75cee397ae6f1020fbb75db90aa22a51bc3318ac tipc: re-configure queue limit for broadcast link
+ec78e31852c9bb7d96b6557468fecb6f6f3b28f3 tipc: fix incorrect setting window for bcast link
+93f3d8f54a22eaa5ae4ec269615729c4f9b1cf1e Merge tag 'trace-v5.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+54a4c789ca8091ab8fcd70285caeee2c5bc62997 Merge tag 'docs/v5.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+7a3dadedc82e340f8292f64e7bfa964c525009c0 Merge tag 'f2fs-for-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
+fad70111d57e0b728b587eabc6f9f9b5240faa17 Merge tag 'afs-fixes-20201016' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
 071a0578b0ce0b0e543d1e38ee6926b9cc21c198 Merge tag 'ovl-update-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/vfs
 d88850bd5516a77c6f727e8b6cefb64e0cc929c7 xfs: fix high key handling in the rt allocator's query_range function
 894645546bb12ce008dcba0f68834d270fcd1dde xfs: fix Kconfig asking about XFS_SUPPORT_V4 when XFS_FS=n
@@ -1040,15 +1050,5 @@ f8f6ae5d077a9bdaf5cbf2ac960a5d1a04b47482 mm: always have io_remap_pfn_range() se
 afabdf3338728c3aaa9f55d127e903dcd5f4acc7 epoll: add a selftest for epoll timeout race
 3b70ae4f5c4e050bdebeeefe0c369524f37917cf kernel/hung_task.c: make type annotations consistent
 b7cbaf59f62f8ab8f157698f9e31642bff525bd0 Merge branch 'akpm' (patches from Andrew)
-2944787019b928b2159e64fdf339090e026f9926 arm64: dts: marvell: armada-37xx: fix syscon compatible to NB clk node
-567be2487091f1216a852277936044e76a7b6db9 cpufreq: armada-37xx: Fix setting TBG parent for load levels
-4dc8e40987f3a4c20b1297575a13a6c4c7ab926d clk: mvebu: armada-37xx-periph: remove .set_parent method for CPU PM clock
-106b0efffb75ee9cca5c84baa7a6b7aedc843a2e cpufreq: armada-37xx: Fix the avs value for load 1
-0256f1ddaba9c5e5bbface614af75df799888a3d clk: mvebu: armada-37xx-periph: Fix switching CPU rate from 250 Mhz to 1 GHz
-963606685b5512b80c7a39a931d4b60565117043 clk: mvebu: armada-37xx-periph: Fix workaround for switching from L1 to L0
-d942e816c87b0331b05718d6e4a6a1538ecfd7dd cpufreq: armada-37xx: Fix driver cleanup when registration failed
-7665a843a54c7f9b1a1b86e72a58edad8448b46c cpufreq: armada-37xx: Fix determining base CPU frequency
-4fc7b65cab75d9301722a3352479955c5c648359 cpufreq: armada-37xx: Remove cur_frequency variable
-195395e46bba9df6aeb0a63ff15835413365b116 cpufreq: armada-37xx: Fix unloading module
 
---===============0956287348418545722==--
+--===============2477403719669742927==--
