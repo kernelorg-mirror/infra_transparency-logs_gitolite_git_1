@@ -1,45 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2834661086950413051=="
+Content-Type: multipart/mixed; boundary="===============8743626195166567015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 03 Nov 2020 17:59:08 -0000
-Message-Id: <160442634867.7913.5234138015351279297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 03 Nov 2020 18:12:40 -0000
+Message-Id: <160442716036.16491.12411982056179696004@gitolite.kernel.org>
 
---===============2834661086950413051==
+--===============8743626195166567015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: b7cbaf59f62f8ab8f157698f9e31642bff525bd0
-    new: ce2e33ba4163c66ff89d2c0f2a9a51214a122e27
-    log: revlist-b7cbaf59f62f-ce2e33ba4163.txt
+  - ref: refs/heads/for-5.11
+    old: c1af06a28a0176ceb1fc71408b32aabf53db4470
+    new: 32c5dca18be7ad88629c33f51ba7f05ae97930fa
+    log: |
+         f4bf1f4d1385b7cb61a3fc811bb4912d49aa394a ASoC: atmel-i2s: do not warn if muxclk is missing
+         99503469bdb54868fc9566480f1897c85dddd256 ASoC: TSCS454: remove unneeded semicolon
+         19f6e424d6150b5eede2277dbc6dfd3bf42e994f ASoC: ti: davinci-mcasp: remove always zero of davinci_mcasp_get_dt_params
+         0246c6cb246f36ffcac0b843da179ab6510e139b ASoC: tegra: remove unneeded semicolon
+         3d13ea9b8db71515d8f4795ec7a044e75999bd83 ASoC: qcom: sc7180: Fix some indenting in sc7180_lpass_alloc_dma_channel()
+         32c5dca18be7ad88629c33f51ba7f05ae97930fa ASoC: TSCS42xx: remove unneeded semicolon
+         
 
---===============2834661086950413051==
+--===============8743626195166567015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7cbaf59f62f-ce2e33ba4163.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d94df02c476cbc207651d19cfd104690b079bdb4 docs: Makefile: honor V=0 for docs building
-6b80975c6308b5dc93b270a2903a314d896974c4 scripts: kernel-doc: fix typedef parsing
-7efc6c4295f5489e25eaef6d6fb6ceb6a6e238d0 scripts: kernel-doc: split typedef complex regex
-e051955977b7e26124aa8c8398278145f85f94e8 documentation: arm: sunxi: add Allwinner H6 documents
-3ad84246a4097010f3ae3d6944120c0be00e9e7a x86/boot/compressed/64: Introduce sev_status
-ed7b895f3efb5df184722f5a30f8164fcaffceb1 x86/boot/compressed/64: Sanity-check CPUID results in the early #VC handler
-86ce43f7dde81562f58b24b426cef068bd9f7595 x86/boot/compressed/64: Check SEV encryption in 64-bit boot-path
-c9f09539e16e281f92a27760fdfae71e8af036f6 x86/head/64: Check SEV encryption before switching to kernel page-table
-2411cd82112397bfb9d8f0f19cd46c3d71e0ce67 x86/sev-es: Do not support MMIO to/from encrypted memory
-90bfdeef83f1d6c696039b6a917190dcbbad3220 tty: make FONTX ioctl use the tty pointer they were actually passed
-4f3e69060dc9cc8f14ad9e172ada7120dc76445b docs: fix automarkup regression on Python 2
-c80afa1d9c3603d5eddeb8d63368823b1982f3f0 afs: Fix warning due to unadvanced marshalling pointer
-f4c79144edd8a49ffca8fa737a31d606be742a34 afs: Fix incorrect freeing of the ACL passed to the YFS ACL store op
-43c834186c185abc53b41ee985330501ccfc4f7b Merge tag 'x86_seves_for_v5.10_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ce2e33ba4163c66ff89d2c0f2a9a51214a122e27 Merge tag 'docs-5.10-3' of git://git.lwn.net/linux
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1604427152 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1604427158-407bc607f14d23f6606d21b4dc8d1a95fc878b31
 
---===============2834661086950413051==--
+c1af06a28a0176ceb1fc71408b32aabf53db4470 32c5dca18be7ad88629c33f51ba7f05ae97930fa refs/heads/for-5.11
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+hnZAACgkQJNaLcl1U
+h9DzTgf9H4UU7xPsGjAE0lPGTjk3GGUM3YsGQlfOViLn2wzF1Sev5nCjn7CJtrGx
+l853Kh4swGfDk9yywJjI1BojgxVPrwouti3ObbTqupPfTvrETfR6Ase7VRoWGlrs
+c+RR3ocXF6ihI+dOQ0qptqnmmoxeh98rx0yjRbt5hTELyvC1sMZru0HphI5UfIFx
+P32Cp67jPJ0SxbmEH+npaV6w0I6S4LMPxW8Jc4LKMoi/PNlhViERt9FrOtKBgH13
+HyYeMhTcwOyhaycf6HYa1f4NTWz98TWkIk6Obve1dxyXIZdePqjXqeVZkoiAsUjV
+ehFGNsnJ44jB99UXleNMGV9oTMCc3A==
+=BRHR
+-----END PGP SIGNATURE-----
+
+--===============8743626195166567015==--
