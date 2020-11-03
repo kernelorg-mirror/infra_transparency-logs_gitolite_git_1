@@ -1,50 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============0234057850440264124=="
+Content-Type: multipart/mixed; boundary="===============5816200898605560585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 03 Nov 2020 11:29:45 -0000
-Message-Id: <160440298526.17916.17082080928546252281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 03 Nov 2020 11:29:52 -0000
+Message-Id: <160440299274.18029.17335709248881097143@gitolite.kernel.org>
 
---===============0234057850440264124==
+--===============5816200898605560585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
     new: 3cea11cd5e3b00d91caf0b4730194039b45c5891
     log: revlist-3650b228f83a-3cea11cd5e3b.txt
-  - ref: refs/heads/rdma-next
-    old: a982eb484239f31ca96424f1fb937f72173275be
-    new: 3d143eb9220599d8a51fe0802e07395f27c97f73
-    log: revlist-a982eb484239-3d143eb92205.txt
-  - ref: refs/heads/rdma-rc
-    old: a2267f8a52eea9096861affd463f691be0f0e8c9
-    new: 00469c97ef64f6b7e3ab08c5eeb0378260baf983
-    log: revlist-a2267f8a52ee-00469c97ef64.txt
-  - ref: refs/heads/testing/rdma-next
-    old: 7c635988a88e192ea18e07d4a4aee995bbf3244c
-    new: a68c3b00200a62277449c4e5ec43318ec50dec6b
-    log: revlist-7c635988a88e-a68c3b00200a.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: a2267f8a52eea9096861affd463f691be0f0e8c9
-    new: 00469c97ef64f6b7e3ab08c5eeb0378260baf983
-    log: revlist-a2267f8a52ee-00469c97ef64.txt
-  - ref: refs/tags/mlx-next
-    old: eeed6965071bfe686c36d414d9e48926baf3e757
-    new: 32053e584e4a342be37a0932ffc1f9b13e914515
-    log: revlist-eeed6965071b-32053e584e4a.txt
-  - ref: refs/tags/mlx-rc
-    old: a2267f8a52eea9096861affd463f691be0f0e8c9
-    new: 00469c97ef64f6b7e3ab08c5eeb0378260baf983
-    log: revlist-a2267f8a52ee-00469c97ef64.txt
+  - ref: refs/heads/queue-next
+    old: 1ff19c116dc6108a387fc48c2ccfc44322273460
+    new: 3c58cb6e227be31f9593fc4f30462cc0afdae6c5
+    log: revlist-1ff19c116dc6-3c58cb6e227b.txt
+  - ref: refs/heads/queue-rc
+    old: d2bc0ed12aa3d08109a0f1f687332050ad1bab92
+    new: cf1abcb7ec2bb54b62f88c38092f8a445be15bd8
+    log: revlist-d2bc0ed12aa3-cf1abcb7ec2b.txt
 
---===============0234057850440264124==
+--===============5816200898605560585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -489,16 +473,26 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
 
---===============0234057850440264124==
+--===============5816200898605560585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a982eb484239-3d143eb92205.txt
+Content-Disposition: attachment; filename=revlist-1ff19c116dc6-3c58cb6e227b.txt
 
+f8e48a3dca060e80f672d398d181db1298fbc86c lockdep: Fix preemption WARN for spurious IRQ-enable
+4cd2bb12981165f865d2b8ed92b446b52310ef74 time/sched_clock: Mark sched_clock_read_begin/retry() as notrace
+5254cb87c0423f73c8036235795788a132e8956e hrtimer: Remove unused inline function debug_hrtimer_free()
+9010e3876e1c3f7b1c3769bee519d6a871589aca timers: Remove unused inline funtion debug_timer_free()
+cb47755725da7b90fecbb2aa82ac3b24a7adb89b time: Prevent undefined behaviour in timespec64_to_ns()
+4230e2deaa484b385aa01d598b2aea8e7f2660a6 stop_machine, rcu: Mark functions as notrace
 b898d5c50cab1f985e77d053eb5c4d2c4a7694ae RDMA/bnxt_re: Fix entry size during SRQ create
+2a9baf5ad4884108b3c6d56a50e8105ccf8a4ee7 x86/debug: Fix BTF handling
+a195f3d4528a2f88d6f986f6b1101775ad4891cf x86/debug: Only clear/set ->virtual_dr6 for userspace #DB
+cb05143bdf428f280a5d519c82abf196d7871c11 x86/debug: Fix DR_STEP vs ptrace_get_debugreg(6)
 bfb972c5e1cba88c93912f271ed5ecc114e31431 IB/verbs: avoid nested container_of()
 5333499c6014224756e97fa1a1047dfa592d76d3 RDMA/core: Fix error return in _ib_modify_qp()
 bb3ab2979fd69db23328691cb10067861df89037 RDMA/rxe: Compute PSN windows correctly
+921c7ebd1337d1a46783d7e15a850e12aed2eaa0 futex: Fix incorrect should_fail_futex() handling
 dae7a75f1f19bffb579daf148f8d8addd2726772 IB/isert: add module param to set sg_tablesize for IO cmd
 aba457ca890c6a8042ba941a71129337b858d993 RDMA/hns: Support owner mode doorbell
 2b3062e4d997f201c1ad2bbde88b7271dd9ef35f RDMA/rtrs-clt: Remove destroy_con_cq_qp in case route resolving failed
@@ -515,6 +509,16 @@ e6ab8cf50fa1c38652feba3e4921c60538236f30 RDMA/rtrs: Introduce rtrs_post_send
 3f4e3d962dfda68e024d57cf2408cacf081cd9df RDMA/rtrs-clt: Remove 'addr' from rtrs_clt_add_path_to_arr
 d6d91e46210f3adb7b6d4c667cb72bf847b5783a RDMA/hns: Add support for configuring GMV table
 32053e584e4a342be37a0932ffc1f9b13e914515 RDMA/hns: Add support for filling GMV table
+d48e3850030623e1c20785bceaaf78f916d0b1a3 locking/lockdep: Remove more raw_cpu_read() usage
+1a39340865ce505a029b37aeb47a3e4c8db5f6c6 lockdep: Fix nr_unused_locks accounting
+8d99084efcc21bb4e2bc4d818f41a27768d48f6e Merge tag 'locking-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+82423b46fc9ec699a0ede9e025a8414658cdcf48 Merge tag 'smp-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+4312e0e8d3eab027d9506db091eb10e6a9ff25d3 Merge tag 'timers-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
+683a9c7ed81769b6ecb6229afb00b6cda8e4bcfb RDMA: Fix software RDMA drivers for dma mapping error
+372a1786283e50e7cb437ab7fdb1b95597310ad7 IB/srpt: Fix memory leak in srpt_add_one
+00469c97ef64f6b7e3ab08c5eeb0378260baf983 RDMA/vmw_pvrdma: Fix the active_speed and phys_state value
 5120cf3c519d46de1266cad145a6d5f62c37d5c8 RDMA: Manual changes for sysfs_emit and neatening
 8bcf3a5bea4f5a97a05edf71112a911106a8571a RDMA: Convert various random sprintf sysfs _show uses to sysfs_emit
 5e21877e50046b3d037d4d595a12defb325b28c4 RDMA/mlx5: Remove mlx5_ib_mr->order
@@ -570,12 +574,15 @@ cf62bd7bde89f533d78b4fc02aa83c2d760eada8 vdpa/mlx5: Connect mlx5_vdpa to auxilia
 969fd7186bb3859bacb91a5f4515d0c4d42d39bb net/mlx5: Simplify eswitch mode check
 13b9af1307ccb599ad8d0cb03600fb65380438db RDMA/mlx5: Remove IB representors dead code
 3d143eb9220599d8a51fe0802e07395f27c97f73 RDMA/nldev: Return an error message on failure to turn auto mode
+a68c3b00200a62277449c4e5ec43318ec50dec6b Merge branch 'rdma-next' into testing/rdma-next
+68a246c7b54ee3b6c011020bb43d1da01f8535f0 Revert "vdpa/mlx5: Make vdpa core driver a distinct module"
+3c58cb6e227be31f9593fc4f30462cc0afdae6c5 Merge branch 'testing/rdma-next' into queue-next
 
---===============0234057850440264124==
+--===============5816200898605560585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2267f8a52ee-00469c97ef64.txt
+Content-Disposition: attachment; filename=revlist-d2bc0ed12aa3-cf1abcb7ec2b.txt
 
 b64d814257b027e29a474bcd660f6372490138c7 arm64: dts: marvell: espressobin: Add ethernet switch aliases
 0b58725fb9a446890c1fd28fc6c9e393ce21acb7 ARM: mvebu: drop pointless check for coherency_base
@@ -621,14 +628,6 @@ feaadc4fc2ebdbd53ffed1735077725855a2af53 io_uring: don't miss setting IO_WQ_WORK
 9aaf354352f1142831457492790d6bfa9c883021 io_uring: simplify nxt propagation in io_queue_sqe
 0d63c148d6d9ac57c124b618f66269bb4558553b io_uring: simplify __io_queue_sqe()
 c3a98c3ad5c0dc60a1ac66bf91147a3f39cac96b crypto: x86/poly1305 - add back a needed assignment
-df833050cced27e1b343cc8bc41f90191b289334 net: ipa: command payloads already mapped
-4f3391ce8f5a69e7e6d66d0a3fc654eb6dbdc919 chelsio/chtls: fix tls record info to user
-d701ec326a31945d1533b438a6feab753829b738 ionic: clean up sparse complaints
-43ecf7b46f2688fd37909801aee264f288b3917b ionic: no rx flush in deinit
-0c32a28e247f51b0b67b5abb6e9368542e30c136 ionic: fix mem leak in rx_empty
-0c3b7f4b812f708795fb5cc397432527421edc1b Merge branch 'ionic-memory-usage-fixes'
-dab234227cbdc6a088c6f9bce38b5dcfefe90832 net: ucc_geth: Drop extraneous parentheses in comparison
-435ccfa894e35e3d4a1799e6ac030e48a7b69ef5 tcp: Prevent low rmem stalls with SO_RCVLOWAT.
 c8b5e2600a2cfa1cdfbecf151afd67aee227381d io_uring: use type appropriate io_kiocb handler for double poll
 194810f78402128fe07676646cf9027fd3ed431c dt-bindings: leds: Update devicetree documents for ID_RGB
 f83b03fc727ab56a77e68713d6e40299698f3c9f dt-bindings: mailbox: mtk-gce: fix incorrect mbox-cells value
@@ -696,26 +695,8 @@ bcc3775dcf920b25d7123c141ed61f7f9f9bb6c3 drm/amd/display: Clean up debug macros
 fab09aaee80389a37d8ab49396afbb77fa86583a scsi: hisi_sas: Stop using queue #0 always for v2 hw
 bf9a76a470d83355200adaa5d5b55d118f229ecb arch/um: partially revert the conversion to __section() macro
 4525c8781ec0701ce824e8bd379ae1b129e26568 scsi: qla2xxx: remove incorrect sparse #ifdef
-ee7a376421dd7bc65b610d42d42c084a0d16d6fa net: hns3: clean up a return in hclge_tm_bp_setup()
-937d8420588421eaa5c7aa5c79b26b42abb288ef cxgb4: set up filter action after rewrites
-af545bb5ee53f5261db631db2ac4cde54038bdaf vsock: use ns_capable_noaudit() on socket create
-4a9baf45fd72615a804947a8495b73c4a0a4cb54 net/smc: fix null pointer dereference in smc_listen_decline()
-96d6fded958d971a3695009e0ed43aca6c598283 net/smc: fix suppressed return code
-1dc0d1cf6f3d910ce3fffa83c5ae40c564e12373 s390/ism: fix incorrect system EID
-522ee51e677112e2baf135b26c1a03a77a7b4454 Merge branch 'net-smc-fixes-2020-10-23'
 24cb90964665c1e7d322bce754623b7155528252 ARM: imx_v4_v5_defconfig: Select CONFIG_GPIO_MXC
 ccee91b568e35e87d61ae72b51fd07ddf5a3d999 ARM: multi_v5_defconfig: Select CONFIG_GPIO_MXC
-1601559be3e4213148b4cb4a1abe672b00bf4f67 mlxsw: Only advertise link modes supported by both driver and device
-adc80b6cfedff6dad8b93d46a5ea2775fd5af9ec mlxsw: core: Fix memory leak on module removal
-0daf2bf5a2dcf33d446b76360908f109816e2e21 mlxsw: core: Fix use-after-free in mlxsw_emad_trans_finish()
-19c176eb079834c5cf8574ce18c1d934ec486dd8 Merge branch 'mlxsw-various-fixes'
-21d6a11e2cadfb8446265a3efff0e2aad206e15e bnxt_en: Fix regression in workqueue cleanup logic in bnxt_remove_one().
-631ce27a3006fc0b732bfd589c6df505f62eadd9 bnxt_en: Invoke cancel_delayed_work_sync() for PFs also.
-f75d9a0aa96721d20011cd5f8c7a24eb32728589 bnxt_en: Re-write PCI BARs after PCI fatal error.
-a1301f08c5acf992d9c1fafddc84c3a822844b04 bnxt_en: Check abort error state in bnxt_open_nic().
-825741b071722f1c8ad692cead562c4b5f5eaa93 bnxt_en: Send HWRM_FUNC_RESET fw command unconditionally.
-10067b501990cdd1f9d39133d124d140726bd996 Merge branch 'bnxt_en-bug-fixes'
-e3364c5ff3ff975b943a7bf47e21a2a4bf20f3fe net: hns3: Clear the CMDQ registers before unmapping BAR region
 8685699c28d7452ff06d62b4692df985eb7301f0 nvme: ignore zone validate errors on subsequent scans
 25c1ca6ecaba3b751d3f7ff92d5cddff3b05f8d0 nvme-rdma: handle unexpected nvme completion data length
 caf1cbe3677576ef860f7bbba9074d0e6a0bcabb nvme-fc: track error_recovery while connecting
@@ -774,14 +755,6 @@ d383e346f97d6bb0d654bb3d63c44ab106d92d29 afs: Fix afs_launder_page to not clear 
 2a9baf5ad4884108b3c6d56a50e8105ccf8a4ee7 x86/debug: Fix BTF handling
 a195f3d4528a2f88d6f986f6b1101775ad4891cf x86/debug: Only clear/set ->virtual_dr6 for userspace #DB
 cb05143bdf428f280a5d519c82abf196d7871c11 x86/debug: Fix DR_STEP vs ptrace_get_debugreg(6)
-28e9dcd9172028263c8225c15c4e329e08475e89 chelsio/chtls: fix deadlock issue
-6daa1da4e262b0cd52ef0acc1989ff22b5540264 chelsio/chtls: fix memory leaks in CPL handlers
-6c211809c87f0de939f3bd60ceec05338ae6eba1 devlink: Fix some error codes
-0d8cb9464a7d9c3e6349db3f7719a80f3793347e devlink: Unlock on error in dumpit()
-68b9f0865b1ef545da180c57d54b82c94cb464a4 ravb: Fix bit fields checking in ravb_hwtstamp_get()
-501b72ae2472a15a80c0f4063ee8341870e1ef55 net/sched: act_mpls: Add softdep on mpls_gso.ko
-2ac8af0967aaa2b67cb382727e784900d2f4d0da ibmveth: Fix use of ibmveth in a bridge.
-d6535dca28859d8d9ef80894eb287b2ac35a32e8 net: protect tcf_block_unbind with block lock
 35bc10b2eafbb701064b94f283b77c54d3304842 null_blk: synchronization fix for zoned device
 defe40af1a7143a0538d7c3e87224459eea0a877 usb: cdns3: Variable 'length' set but not used
 011fde48394b7dc8dfd6660d1013b26a00157b80 mmc: sdhci-of-esdhc: make sure delay chain locked for HS400
@@ -1013,135 +986,6 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 683a9c7ed81769b6ecb6229afb00b6cda8e4bcfb RDMA: Fix software RDMA drivers for dma mapping error
 372a1786283e50e7cb437ab7fdb1b95597310ad7 IB/srpt: Fix memory leak in srpt_add_one
 00469c97ef64f6b7e3ab08c5eeb0378260baf983 RDMA/vmw_pvrdma: Fix the active_speed and phys_state value
+cf1abcb7ec2bb54b62f88c38092f8a445be15bd8 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============0234057850440264124==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c635988a88e-a68c3b00200a.txt
-
-f8e48a3dca060e80f672d398d181db1298fbc86c lockdep: Fix preemption WARN for spurious IRQ-enable
-4cd2bb12981165f865d2b8ed92b446b52310ef74 time/sched_clock: Mark sched_clock_read_begin/retry() as notrace
-5254cb87c0423f73c8036235795788a132e8956e hrtimer: Remove unused inline function debug_hrtimer_free()
-9010e3876e1c3f7b1c3769bee519d6a871589aca timers: Remove unused inline funtion debug_timer_free()
-cb47755725da7b90fecbb2aa82ac3b24a7adb89b time: Prevent undefined behaviour in timespec64_to_ns()
-4230e2deaa484b385aa01d598b2aea8e7f2660a6 stop_machine, rcu: Mark functions as notrace
-b898d5c50cab1f985e77d053eb5c4d2c4a7694ae RDMA/bnxt_re: Fix entry size during SRQ create
-2a9baf5ad4884108b3c6d56a50e8105ccf8a4ee7 x86/debug: Fix BTF handling
-a195f3d4528a2f88d6f986f6b1101775ad4891cf x86/debug: Only clear/set ->virtual_dr6 for userspace #DB
-cb05143bdf428f280a5d519c82abf196d7871c11 x86/debug: Fix DR_STEP vs ptrace_get_debugreg(6)
-bfb972c5e1cba88c93912f271ed5ecc114e31431 IB/verbs: avoid nested container_of()
-5333499c6014224756e97fa1a1047dfa592d76d3 RDMA/core: Fix error return in _ib_modify_qp()
-bb3ab2979fd69db23328691cb10067861df89037 RDMA/rxe: Compute PSN windows correctly
-921c7ebd1337d1a46783d7e15a850e12aed2eaa0 futex: Fix incorrect should_fail_futex() handling
-dae7a75f1f19bffb579daf148f8d8addd2726772 IB/isert: add module param to set sg_tablesize for IO cmd
-aba457ca890c6a8042ba941a71129337b858d993 RDMA/hns: Support owner mode doorbell
-2b3062e4d997f201c1ad2bbde88b7271dd9ef35f RDMA/rtrs-clt: Remove destroy_con_cq_qp in case route resolving failed
-73385fdbc43df2e9ba07d4a459d6e0e2110ad2d8 RDMA/rtrs-clt: Remove outdated comment in create_con_cq_qp
-fcf2959da6a74e71a85ab666e732fa1ed4da2c9a RDMA/rtrs-clt: Avoid run destroy_con_cq_qp/create_con_cq_qp in parallel
-f553e7601df9566ba7644541fc09152a3a81f793 RDMA/rtrs-clt: Missing error from rtrs_rdma_conn_established
-d715ff8acbd5876549ef2b21b755ed919f40dcc1 RDMA/rtrs-srv: Don't guard the whole __alloc_srv with srv_mutex
-3c8483f5a436ce00f122378ef84aa7c6b20066f1 RDMA/rtrs-srv: Fix typo
-8bd372ace32ec88fe3ad1421929ae1604f2a2c2c RDMA/rtrs: Remove unnecessary argument dir of rtrs_iu_free
-16101b60e71782b2a314a87114cdca8248b89cb3 RDMA/rtrs-clt: Remove duplicated switch-case handling for CM error events
-c3b16b67d12f938408172ac0c47470f09c3f39ea RDMA/rtrs-clt: Remove duplicated code
-ffea6ad1335b90be91e837aecbde730e1612087a RDMA/rtrs-srv: Kill rtrs_srv_change_state_get_old
-e6ab8cf50fa1c38652feba3e4921c60538236f30 RDMA/rtrs: Introduce rtrs_post_send
-3f4e3d962dfda68e024d57cf2408cacf081cd9df RDMA/rtrs-clt: Remove 'addr' from rtrs_clt_add_path_to_arr
-d6d91e46210f3adb7b6d4c667cb72bf847b5783a RDMA/hns: Add support for configuring GMV table
-32053e584e4a342be37a0932ffc1f9b13e914515 RDMA/hns: Add support for filling GMV table
-d48e3850030623e1c20785bceaaf78f916d0b1a3 locking/lockdep: Remove more raw_cpu_read() usage
-1a39340865ce505a029b37aeb47a3e4c8db5f6c6 lockdep: Fix nr_unused_locks accounting
-8d99084efcc21bb4e2bc4d818f41a27768d48f6e Merge tag 'locking-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-82423b46fc9ec699a0ede9e025a8414658cdcf48 Merge tag 'smp-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4312e0e8d3eab027d9506db091eb10e6a9ff25d3 Merge tag 'timers-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
-683a9c7ed81769b6ecb6229afb00b6cda8e4bcfb RDMA: Fix software RDMA drivers for dma mapping error
-372a1786283e50e7cb437ab7fdb1b95597310ad7 IB/srpt: Fix memory leak in srpt_add_one
-00469c97ef64f6b7e3ab08c5eeb0378260baf983 RDMA/vmw_pvrdma: Fix the active_speed and phys_state value
-5120cf3c519d46de1266cad145a6d5f62c37d5c8 RDMA: Manual changes for sysfs_emit and neatening
-8bcf3a5bea4f5a97a05edf71112a911106a8571a RDMA: Convert various random sprintf sysfs _show uses to sysfs_emit
-5e21877e50046b3d037d4d595a12defb325b28c4 RDMA/mlx5: Remove mlx5_ib_mr->order
-1b1c37dc1f0ff50161bb976e0baa92d42ad09a52 RDMA/mlx5: Fix corruption of reg_pages in mlx5_ib_rereg_user_mr()
-12fe213e52fdc408cee0364a7e254046cbcb467f RDMA/mlx5: Remove mlx5_ib_mr->npages
-79876504fa82cc0d48d61f745ec4e834e619196f RDMA/mlx5: Move mlx5_ib_cont_pages() to the creation of the mlx5_ib_mr
-409fe778a5374aa824d6d738812d8fa7a30e5afe RDMA/mlx5: Remove order from mlx5_ib_cont_pages()
-200b5d73649458e5200c37da282ce992e7d28f10 RDMA/mlx5: Remove ncont from mlx5_ib_cont_pages()
-374cf905098f105a805d1c6484e6234ca71c978e RDMA/mlx5: Remove npages from mlx5_ib_cont_pages()
-1c1469f6a8b6e724e37ef4e2b4bc42b27eb60c29 RDMA/mlx5: Change mlx5_ib_populate_pas() to use rdma_for_each_block()
-8f214ad82b90da062d5e7f9a391bf0892e93c7bf RDMA/mlx5: Move xlt_emergency_page_mutex into mr.c
-a6f880190ed3a78eb9439e2a2c198d2c65441c41 RDMA/mlx5: Split the WR setup out of mlx5_ib_update_xlt()
-97f77bd3ab80c72aaebf3f1148acf37c57f41375 RDMA/mlx5: Split mlx5_ib_update_xlt() into ODP and non-ODP cases
-e513d6d15fcef5de06071ad33cfa6f714d58f87a RDMA/mlx5: Use ib_umem_find_best_pgsz() for mkc's
-41564211ceb8785e00f5ac6feccf84b7b0405702 RDMA/siw: Fix typo of EAGAIN not -EAGAIN in siw_cm_work_handler()
-a9e27981963a298c7a70e6af74bd149d0377ee44 RDMA/rxe,siw: Restore uverbs_cmd_mask IB_USER_VERBS_CMD_POST_SEND
-cba7b5d46d618ac8ba3108f0e21363f1272db913 RDMA/ipoib: Add 50Gb and 100Gb link speeds to ethtool
-d999e8a99845765be31ce80aca11512bb7c0905a IB/core: Add support for NDR link speed
-7c8cad38f4525c347b6b6bb82ea0e48e9501cace IB/mlx5: Add support for NDR link speed
-b773acc752ea617012577b1d2700143c05b13f7c net/sched: Don't print dump stack in event of transmission timeout
-b56c09d0fb22409f9ce0a30ee3c9c9d1b0030142 RDMA/core: Allow drivers to disable restrack DB
-dd0c82a323e3680bc99a2cd7534a698c3168a8cb RDMA/counter: Combine allocation and bind logic
-28e4a8f8d7bfd6fddfcefff69b7ecf011c83d465 RDMA/restrack: Store all special QPs in restrack DB
-785c7712edf0dbf5cd48d50d328c4a9b505bbfbb RDMA/cma: Add missing error handling of listen_id
-c41f46b7d93979de5a1841132867e56b958741b9 RDMA/cma: Be strict with attaching to CMA device
-ff88e632383e338da4994f2e08e6f87f3ed400fa RDMA/restrack: Add error handling while adding restrack object
-fae69bb10c4f131e6f708398c6fb353d88ec2a3d RDMA/restrack: Support all QP types
-896e714efb9e6055f145388a7c6b713cc42ff6d9 RDMA/core: Track device memory MRs
-88a30d79edacd62622c5cccf05e19c30b1384f55 RDMA/restrack: Drop valid restrack field as source of ambiguity
-d3d2c31d9e99da597e20bafc623327d2c3960dce RDMA/mlx5: Add ifc bits for new pattern dm type
-c2e890daa399c9f43818bb64dc20c02803ec2ac1 net/mlx5: Add support for new pattern DM management
-b0ebeab1b5ffedf569464a4ef0b999262ef6e652 RDMA/mlx5: Support allocating modify-header pattern DM
-59c212d04d871948dec8a4c2507460566ab28970 RDMA/mlx5: Support new type of ICM memory to register by MR
-2aa34da02eaa8b0ec8f206c566c78280a1e8e405 RDMA/mlx5: Use ib_umem_find_best_pgsz() for devx
-a045989d5bac967adc1fa8306cd9522ee1b1a2ae RDMA/mlx5: Use ib_umem_find_best_pgoff() for SRQ
-cae7da06563938adaeaf6e87d35809e34d7931b0 RDMA/mlx5: Use mlx5_umem_find_best_quantized_pgoff() for WQ
-2b52ce3ccd53e3845a9788637b7a4a7672787ca9 RDMA/mlx5: Use mlx5_umem_find_best_quantized_pgoff() for QP
-c51ed6944f7e6301929c87e61d34c36ad6cc22f5 RDMA/mlx5: mlx5_umem_find_best_quantized_pgoff() for CQ
-c8404994aecad04cae5fa194c969d03b3bd1fc10 RDMA/mlx5: Lower setting the umem's PAS for SRQ
-9fbe9c01cde59f2ab435f32716b22fc928f63fe9 RDMA/core: Introduce peer memory interface
-4aeedd8249a5234539b32002436aa25c0b49fd3f RDMA/core: Postpone uobject cleanup on failure till FD close
-78490681be024b6103e2eaab5b498ff05a2ff2da RDMA/core: Make FD destroy callback void
-9692d7a315820bfb1c9e1657ba4900d0a1fc4dc5 Add auxiliary bus support
-d6dd15def122dba99a24d84c09d6c750a7ef0890 net/mlx5: Don't skip vport check
-5874f47f9b2167de06c979be2988ada12d8ba904 net/mlx5: Properly convey driver version to firmware
-f588db5773ccf20c5015dde7f675cba11aa2f7ba net/mlx5_core: Clean driver version and name
-7ff6089b98cb660d1b9c5de418f36ca97076cac2 vdpa/mlx5: Make hardware definitions visible to all mlx5 devices
-055b01f3561f745b9138becb6b3a9ab8470b1712 net/mlx5: Register mlx5 devices to auxiliary virtual bus
-cf62bd7bde89f533d78b4fc02aa83c2d760eada8 vdpa/mlx5: Connect mlx5_vdpa to auxiliary bus
-49f7378563339056254aec5524c9b7e095a67dfb net/mlx5e: Connect ethernet part to auxiliary bus
-73c9b1bf3b230cb7c326a22857847f2b0bffd9d8 RDMA/mlx5: Convert mlx5_ib to use auxiliary bus
-3e29562bde3d7256b87d6be5723cc48e44bdb360 net/mlx5: Delete custom device management logic
-969fd7186bb3859bacb91a5f4515d0c4d42d39bb net/mlx5: Simplify eswitch mode check
-13b9af1307ccb599ad8d0cb03600fb65380438db RDMA/mlx5: Remove IB representors dead code
-3d143eb9220599d8a51fe0802e07395f27c97f73 RDMA/nldev: Return an error message on failure to turn auto mode
-a68c3b00200a62277449c4e5ec43318ec50dec6b Merge branch 'rdma-next' into testing/rdma-next
-
---===============0234057850440264124==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eeed6965071b-32053e584e4a.txt
-
-b898d5c50cab1f985e77d053eb5c4d2c4a7694ae RDMA/bnxt_re: Fix entry size during SRQ create
-bfb972c5e1cba88c93912f271ed5ecc114e31431 IB/verbs: avoid nested container_of()
-5333499c6014224756e97fa1a1047dfa592d76d3 RDMA/core: Fix error return in _ib_modify_qp()
-bb3ab2979fd69db23328691cb10067861df89037 RDMA/rxe: Compute PSN windows correctly
-dae7a75f1f19bffb579daf148f8d8addd2726772 IB/isert: add module param to set sg_tablesize for IO cmd
-aba457ca890c6a8042ba941a71129337b858d993 RDMA/hns: Support owner mode doorbell
-2b3062e4d997f201c1ad2bbde88b7271dd9ef35f RDMA/rtrs-clt: Remove destroy_con_cq_qp in case route resolving failed
-73385fdbc43df2e9ba07d4a459d6e0e2110ad2d8 RDMA/rtrs-clt: Remove outdated comment in create_con_cq_qp
-fcf2959da6a74e71a85ab666e732fa1ed4da2c9a RDMA/rtrs-clt: Avoid run destroy_con_cq_qp/create_con_cq_qp in parallel
-f553e7601df9566ba7644541fc09152a3a81f793 RDMA/rtrs-clt: Missing error from rtrs_rdma_conn_established
-d715ff8acbd5876549ef2b21b755ed919f40dcc1 RDMA/rtrs-srv: Don't guard the whole __alloc_srv with srv_mutex
-3c8483f5a436ce00f122378ef84aa7c6b20066f1 RDMA/rtrs-srv: Fix typo
-8bd372ace32ec88fe3ad1421929ae1604f2a2c2c RDMA/rtrs: Remove unnecessary argument dir of rtrs_iu_free
-16101b60e71782b2a314a87114cdca8248b89cb3 RDMA/rtrs-clt: Remove duplicated switch-case handling for CM error events
-c3b16b67d12f938408172ac0c47470f09c3f39ea RDMA/rtrs-clt: Remove duplicated code
-ffea6ad1335b90be91e837aecbde730e1612087a RDMA/rtrs-srv: Kill rtrs_srv_change_state_get_old
-e6ab8cf50fa1c38652feba3e4921c60538236f30 RDMA/rtrs: Introduce rtrs_post_send
-3f4e3d962dfda68e024d57cf2408cacf081cd9df RDMA/rtrs-clt: Remove 'addr' from rtrs_clt_add_path_to_arr
-d6d91e46210f3adb7b6d4c667cb72bf847b5783a RDMA/hns: Add support for configuring GMV table
-32053e584e4a342be37a0932ffc1f9b13e914515 RDMA/hns: Add support for filling GMV table
-
---===============0234057850440264124==--
+--===============5816200898605560585==--
