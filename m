@@ -1,29 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 03 Nov 2020 17:32:10 -0000
-Message-Id: <160442473006.22141.12538477585555639954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nsaenz/linux-rpi
+Date: Tue, 03 Nov 2020 17:43:52 -0000
+Message-Id: <160442543285.28658.15060817744004170040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/nsaenz/linux-rpi
+user: nsaenz
 changes:
-  - ref: refs/heads/for-linus
-    old: 9fc149c3bce7bdbb94948a8e6bd025e3b3538603
-    new: ef9ce66fab959c66d270bbee7ca79b92ee957893
+  - ref: refs/heads/arm64-dma
+    old: cc7372e625cbd18ea318936532196cfc7244e525
+    new: 353616adecd8690f427c4ff6b6753d95718e564c
     log: |
-         158e1886b6262c1d1c96a18c85fac5219b8bf804 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
-         ef9ce66fab959c66d270bbee7ca79b92ee957893 ALSA: hda/realtek - Enable headphone for ASUS TM420
-         
-  - ref: refs/heads/master
-    old: 90b743ca9fd2f9c8af13b85b0737ff0927474cc7
-    new: 8f27d8488003a024d29fc5a806b5ad0d00f64f70
-    log: |
-         158e1886b6262c1d1c96a18c85fac5219b8bf804 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
-         27301dfaf46149dbfb07c66a593227d627890e11 Merge branch 'for-linus'
-         ef9ce66fab959c66d270bbee7ca79b92ee957893 ALSA: hda/realtek - Enable headphone for ASUS TM420
-         8f27d8488003a024d29fc5a806b5ad0d00f64f70 Merge branch 'for-linus'
+         88731a2452e957c1ff34ee1dfdc937b5515eb261 of/address: Introduce of_dma_get_max_cpu_address()
+         763cea4180eb14c5a1cb301e012fbc45b9973e44 of: unittest: Add test for of_dma_get_max_cpu_address()
+         c3c030cf6bc5f88b6e3e41f49cefd0afe8d88b5f arm64: mm: Set ZONE_DMA size based on devicetree's dma-ranges
+         39c7e1ad2d57a5eadeb1751d184d9c69056581a9 arm64: mm: Set ZONE_DMA size based on early IORT scan
+         353616adecd8690f427c4ff6b6753d95718e564c mm: Remove examples from enum zone_type comment
          
