@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4677701696046722021=="
+Content-Type: multipart/mixed; boundary="===============1225156371325844957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 03 Nov 2020 18:12:54 -0000
-Message-Id: <160442717434.16708.7420711314389254167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 03 Nov 2020 18:13:01 -0000
+Message-Id: <160442718180.16874.11129236945678531395@gitolite.kernel.org>
 
---===============4677701696046722021==
+--===============1225156371325844957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.10
+  - ref: refs/heads/regulator-5.10
     old: 43c3e148830aae5469c411a2bf951d4fe7fcea29
     new: cf1ad559a20d1930aa7b47a52f54e1f8718de301
     log: revlist-43c3e148830a-cf1ad559a20d.txt
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/regulator-5.11
     old: d73e873bcfff86b0de7dae2610131b50a2970f88
     new: 1119c59404141200125af31f775d3fbbba52c651
     log: |
@@ -28,32 +28,32 @@ changes:
          1119c59404141200125af31f775d3fbbba52c651 regulator: Add DA9121
          
 
---===============4677701696046722021==
+--===============1225156371325844957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1604427165 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1604427170-5401a446f91205a8c80c5f1ff859b0324e1ac03d
+pusher C3F436CA30F5D8EB 1604427172 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1604427178-59567b5f9e5f3db38a1282a617a1fdc1f4232a96
 
-43c3e148830aae5469c411a2bf951d4fe7fcea29 cf1ad559a20d1930aa7b47a52f54e1f8718de301 refs/heads/for-5.10
-d73e873bcfff86b0de7dae2610131b50a2970f88 1119c59404141200125af31f775d3fbbba52c651 refs/heads/for-5.11
+43c3e148830aae5469c411a2bf951d4fe7fcea29 cf1ad559a20d1930aa7b47a52f54e1f8718de301 refs/heads/regulator-5.10
+d73e873bcfff86b0de7dae2610131b50a2970f88 1119c59404141200125af31f775d3fbbba52c651 refs/heads/regulator-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+hnZ0ACgkQJNaLcl1U
-h9ACagf6A9EZXjwfDnfUoA7Nqo0CG/BUBeE8IHrK2X7R4MCLyaIjck5zrzYXw1Cy
-CD7pj3R3wzx4FVSYxguGuWEpGRZADf0nEQ+RFIJBuvxwJA5SS8HX5shekb7Zpsbi
-kFb/BFyzZ1UKF7QtovHsmIUXKL/ksXdFGRhR5PUjoQFoulJB3pVL8GuqZ3c5P3n7
-DNSztvl83sCNvk/Ut9Nua8Q9GpVwcjxYsx/7E89vusftjZY2by/KZH/6TIoioBTK
-E/c1l26gVDLEsxQ1m/9Pl+bVTAzpNzmvxuiA5b6HTLtEYFdIbfRJSbxQDrTRCCtt
-hJZQVxiTz7jm8bGEQELFfgCSfIUeLQ==
-=B7sP
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+hnaQACgkQJNaLcl1U
+h9CkZQf7BMyYIVVTYDS8NQi/zZ8A5/yBRexK6Yb2FpI8m3nGut6tgCXra92ujwQD
+G1MpC7XSWKqc5u0SH3imluZ9Icb9KKNwaBJ5EjsIjaTyAJM81TM/SHpbd986rZHz
+8igJqwqNvO9FCB2FE92pUcjD9jNFsuPkTQ1XBM1dTs6VOPL7qWoDH4JBBlE91Mk4
+XErUm1WBltY+PF+uqv3xTTBwo6msHkXRvBe3ra/1J4sfgniY2o4S92t1aaOZW6V2
+NPPPJukn1n/Z2hKu7aOxlIvbCPybEvL3KrUyU9Hg/B3a1eF9O/KC3+ieXATD2b2c
+yB/j/852SiGDFJlSsMEYG5581Wxevw==
+=I+62
 -----END PGP SIGNATURE-----
 
---===============4677701696046722021==
+--===============1225156371325844957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1084,4 +1084,4 @@ a3d1b31213f1f789cc45a7db5c721513282d225a Merge tag 'perf-urgent-2020-10-25' of g
 f59cddd8517ab880fb09bf1465b07b337e058b22 Merge tag 'v5.10-rc1' into regulator-5.10
 cf1ad559a20d1930aa7b47a52f54e1f8718de301 regulator: defer probe when trying to get voltage from unresolved supply
 
---===============4677701696046722021==--
+--===============1225156371325844957==--
