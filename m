@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============8871712124760093742=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 03 Nov 2020 09:18:50 -0000
-Message-Id: <160439513079.22295.13001686605509567317@gitolite.kernel.org>
-
---===============8871712124760093742==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Tue, 03 Nov 2020 09:20:53 -0000
+Message-Id: <160439525388.24353.15854979882333853643@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/usb-linus
-    old: 58d51f330e76cd7536d1f7e6ef46dd241a7b38ef
-    new: afaa2e745a246c5ab95103a65b1ed00101e1bc63
+  - ref: refs/heads/thermal/linux-next
+    old: 345a8af7ea63ac75a9000159d6298769d3d50f91
+    new: 703456ba76e9449b5ade6597c04a90ee3421cd94
     log: |
-         afaa2e745a246c5ab95103a65b1ed00101e1bc63 USB: Add NO_LPM quirk for Kingston flash drive
+         37b2539e63d6570c9ee51b1d48bdecb334df367d drivers/thermal/core: Optimize trip points check
+         4eb7d0cd590d99b6010b5b87a88804cda09a85da thermal/drivers/rcar: Replace spin_lock_irqsave by spin_lock in hard IRQ
+         07df39d03c34bd7baf4c26e41a5dd92ec56e9081 dt-bindings: thermal: mediatek: make resets property optional
+         c707f973df1706020f4a4669b5f1932e90c0f29c dt-bindings: thermal: mediatek: add documentation for MT8516 SoC
+         703456ba76e9449b5ade6597c04a90ee3421cd94 thermal: mtk_thermal: make device_reset optional
          
-
---===============8871712124760093742==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604395181 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1604395124-fab1ae5eb341fbc6ed13156f3dd895047b4849a3
-
-58d51f330e76cd7536d1f7e6ef46dd241a7b38ef afaa2e745a246c5ab95103a65b1ed00101e1bc63 refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+hIK0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZbkP/3oRnpNxsIZkFDl3xyX4
-CP9Pgq4NN1aZnh8/YZ2VgLNrUWUsBHQSO67bGN9feLO846XnN6yWWsNkllaOnqi9
-Uch43HS4fz7H3wXYNMByzTESDKPphQ/jxb/Xy27FHeoNTzf+STy8JGSXV18fovxD
-oKEtsQs8VkBzzQ1UlGYib6uv8LqPFvyd9fZ6cgjInWEnIhTkuByOINCTHBSte+Jf
-MCsr8NDC/VtXj1YCKTVE+k2/bnnnfgTjRjZ+tHq6FgDl4Tr2aW66J0mrLmuVXqbv
-vMmd8Lc9V2jKFxrA5JVsfAUzHxFDFw8xHertqneXUHUMfNn2NdSFO5f9i7nKsRsk
-YuaPDbzkIDy0byUh0Y7LeUz5QSs3lREBK/WAjRl4Kh70BXV1qNg2aEmksAHktbtt
-NWGvFW1t3KI95vYYdwF1yYKRkJefVzFBnWHvW2skbJIYgrYAiLBHnlEcujuq4qjF
-jnNL2z6/bfedwF1V6hulNGOx7KtWzMtPaoFs4LtRj5UeXyJaSC0FgnRhuOdBFVu8
-B6h2RbJsqmhobT8tqcpyybOdoMxSrPhhrghfa/q4ICsEz1iQC7CNfSG41eiLbaC0
-nuu/9bKrADUhhLntcO5tJ1pNtPU96Y2QRRc+3OFrjYbuScBGrRk77ZABxJq65lib
-2rcMMdT0WEc3fpP2bZhCERDL
-=pe9h
------END PGP SIGNATURE-----
-
---===============8871712124760093742==--
