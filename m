@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 03 Nov 2020 09:55:50 -0000
-Message-Id: <160439735070.18540.2656164431167702332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Tue, 03 Nov 2020 10:06:04 -0000
+Message-Id: <160439796440.24675.2576302021297992980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/tags/x86_seves_for_v5.10_rc3
+  - ref: refs/heads/time_namespace
     old: 0000000000000000000000000000000000000000
-    new: 39b82007b963da6f2ce931278a1e70034f3d95d4
+    new: 716e343f014e2b25320f332677363e884684b742
