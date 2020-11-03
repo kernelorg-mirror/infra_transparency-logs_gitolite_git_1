@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 03 Nov 2020 11:38:55 -0000
-Message-Id: <160440353583.23837.595050588204602693@gitolite.kernel.org>
+Date: Tue, 03 Nov 2020 11:40:49 -0000
+Message-Id: <160440364913.25819.6785630917604867561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/utils/util-linux/util-linux
 user: kzak
 changes:
   - ref: refs/heads/master
-    old: 9210db64a6e44ba5c6c76446835dd16606b5e79f
-    new: 364de8f4f5625d17094a4d6e9b5fb49cb19c20a4
+    old: 364de8f4f5625d17094a4d6e9b5fb49cb19c20a4
+    new: 1d6e1b62e5b8e6ffd9665076e412c22976650395
     log: |
-         364de8f4f5625d17094a4d6e9b5fb49cb19c20a4 lib/randutils: rename random_get_bytes()
+         1b10fa0ef778cb1cae84e635d72e038f06efbd06 cast NULL to char * when using execl
+         1d6e1b62e5b8e6ffd9665076e412c22976650395 Merge branch 'execl-null' of https://github.com/DankRank/util-linux
          
