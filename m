@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 03 Nov 2020 19:59:05 -0000
-Message-Id: <160443354502.27719.13984227073857989028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 03 Nov 2020 20:08:05 -0000
+Message-Id: <160443408548.964.6479445580561236251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
 changes:
   - ref: refs/heads/master
-    old: c098db18372e6b986ab5e6476cb63b5bcd307aa0
-    new: 2a6690e50d4212614e7463d31db2aa55db232898
+    old: 0bd1dc7c6cd482fbc59dafaee4d499d48db2ce15
+    new: ec6580e11fb71dfa434076f427e524b901d3e8c8
     log: |
-         acb31477c1d575f17c511d5bfbc42b66d706eadf ap: make APRanges optional
-         16698d0c9a974a8ab670f4f4910a7baa19b3c75b auto-t: fix testNetconfig hardcoded interface
-         957a8aac25c58db9d7f1c46bb03f21f262f41413 auto-t: remove /var/lib/iwd references in testKnownNetworks
-         2a6690e50d4212614e7463d31db2aa55db232898 auto-t: fix agent path timing issue
+         14d816b699c9ddbc2a15c28dcc5a3a20681b8a9e 4.9-stable patches
+         a3f7398bf6993542184569d3b2fd10a0509d3055 4.14-stable patches
+         0c7b76a924c37e284a13a18d825d06ef11de4e3d 4.19-stable patches
+         c65028803689478ceafd74f2720b31cdcf0a0600 5.4-stable patches
+         18dc5d8f04741b9e57a64e359416a889b25908ed 5.9-stable patches
+         ec6580e11fb71dfa434076f427e524b901d3e8c8 fix error in queue-5.9/kvm-x86-fix-null-dereference-at-kvm_msr_ignored_check.patch
          
