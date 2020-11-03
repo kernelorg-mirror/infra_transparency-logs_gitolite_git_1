@@ -1,20 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 03 Nov 2020 01:58:13 -0000
-Message-Id: <160436869301.30843.7702992725795679133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Tue, 03 Nov 2020 01:58:15 -0000
+Message-Id: <160436869570.30943.17142113079180806985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
-  - ref: refs/heads/fixes
-    old: af61bc1e33d2c0ec22612b46050f5b58ac56a962
-    new: 5feed64f9199ff90c4239971733f23f30aeb2484
-    log: |
-         5faf50e9e9fdc2117c61ff7e20da49cd6a29e0ca scsi: scsi_dh_alua: Avoid crash during alua_bus_detach()
-         5feed64f9199ff90c4239971733f23f30aeb2484 scsi: mpt3sas: Fix timeouts observed while reenabling IRQ
-         
+  - ref: refs/tags/cap/v0.2.45
+    old: 0000000000000000000000000000000000000000
+    new: 3f5f7004f0ca78133a4e00ab309da279f5754329
+  - ref: refs/tags/libcap-2.45
+    old: 0000000000000000000000000000000000000000
+    new: 4d78f82b3803ef6c6680a84083c64e0e9f20510d
+  - ref: refs/tags/libcap-korg-2.45
+    old: 0000000000000000000000000000000000000000
+    new: 4896c7ba6a39650d7daf5836f556e3eab6ead459
+  - ref: refs/tags/psx/v0.2.45
+    old: 0000000000000000000000000000000000000000
+    new: aded2edf3510a26867c102ca3424ee6d9ca35943
+  - ref: refs/tags/v0.2.45
+    old: 0000000000000000000000000000000000000000
+    new: 88583938c6aa5b508a13f5a59da88ce8082b27d6
