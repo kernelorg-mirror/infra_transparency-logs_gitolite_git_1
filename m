@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Tue, 03 Nov 2020 01:58:10 -0000
-Message-Id: <160436869073.30739.7432448830394337470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Tue, 03 Nov 2020 01:58:13 -0000
+Message-Id: <160436869301.30843.7702992725795679133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
 changes:
-  - ref: refs/heads/master
-    old: f025e2fb7a2b075005847eb9a82d2f4bfbd42566
-    new: cf8fb28e420d7b54e856cd30cef18ac732f24d2c
+  - ref: refs/heads/fixes
+    old: af61bc1e33d2c0ec22612b46050f5b58ac56a962
+    new: 5feed64f9199ff90c4239971733f23f30aeb2484
     log: |
-         cf8fb28e420d7b54e856cd30cef18ac732f24d2c Up the release version to 2.45
+         5faf50e9e9fdc2117c61ff7e20da49cd6a29e0ca scsi: scsi_dh_alua: Avoid crash during alua_bus_detach()
+         5feed64f9199ff90c4239971733f23f30aeb2484 scsi: mpt3sas: Fix timeouts observed while reenabling IRQ
          
