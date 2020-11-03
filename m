@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0141411208612408152=="
+Content-Type: multipart/mixed; boundary="===============8203754778984425070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkubecek/ethtool
-Date: Tue, 03 Nov 2020 21:50:53 -0000
-Message-Id: <160444025350.9266.15696835794954933892@gitolite.kernel.org>
+Date: Tue, 03 Nov 2020 21:50:59 -0000
+Message-Id: <160444025978.9395.7246141268815140275@gitolite.kernel.org>
 
---===============0141411208612408152==
+--===============8203754778984425070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mkubecek/ethtool
 user: mkubecek
 changes:
-  - ref: refs/heads/master
-    old: aef58b7ad1df812b49ef074041837a2108c62e2e
+  - ref: refs/heads/next
+    old: 13164a2786ae2cff800927da4b716f5ad7df50d3
     new: 9922adcbb4383c50eb8d0046f283873b999b40ba
-    log: revlist-aef58b7ad1df-9922adcbb438.txt
+    log: revlist-13164a2786ae-9922adcbb438.txt
 
---===============0141411208612408152==
+--===============8203754778984425070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aef58b7ad1df-9922adcbb438.txt
+Content-Disposition: attachment; filename=revlist-13164a2786ae-9922adcbb438.txt
 
+85868fcc03a7949c5743f943a01ea60424871751 add missing link modes to mode_defs[] array
+0cd0742eab2edd702306da79ddee48644ebe0c9a update UAPI header copies
+f85cb14f54cb10f219a02cab2f56b4877767be13 add 100baseFX modes to link mode tables
+aef58b7ad1df812b49ef074041837a2108c62e2e netlink: add tunnel offload format descriptions
 09c67a720a074d33f5832f03bee76180d3b24aa7 netlink: fix allocation failure handling in dump_features()
 c9d7998b1425120ea2abca8960e07a7cd5d3bd63 Release version 5.9.
 77613ca972ac37f11477539be8d2b604972e9c18 update UAPI header copies
@@ -41,4 +45,4 @@ c7fe2f38477f5f90569f73bacd6fab3a8a739f62 netlink: support u32 enumerated types i
 e88f3127a007e07d81cc30c2ac9a3e752d66c0af netlink: add descriptions for genetlink policy dumps
 9922adcbb4383c50eb8d0046f283873b999b40ba netlink: add message descriptions for pause stats
 
---===============0141411208612408152==--
+--===============8203754778984425070==--
