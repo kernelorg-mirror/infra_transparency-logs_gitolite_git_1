@@ -1,251 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0288152772476525551=="
+Content-Type: multipart/mixed; boundary="===============6178509482835977461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 03 Nov 2020 14:50:03 -0000
-Message-Id: <160441500373.3391.7833056026496374111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/grokmirror/grokmirror
+Date: Tue, 03 Nov 2020 14:50:41 -0000
+Message-Id: <160441504124.3767.12131528118387717766@gitolite.kernel.org>
 
---===============0288152772476525551==
+--===============6178509482835977461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/utils/grokmirror/grokmirror
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11/io_uring
-    old: ecc6a53aec9555d813b08a4f7f052a409a4bc3e2
-    new: cc7ff2c0de1bbdf8afe23f2ea2820bae18efe224
-    log: revlist-ecc6a53aec95-cc7ff2c0de1b.txt
-  - ref: refs/heads/for-next
-    old: 5af8cdb023c64b5eb650722c93bf9e9f7f5c3e2f
-    new: a8ad22992051c3c0fda34ce52af02e9ecd6ab071
-    log: revlist-5af8cdb023c6-a8ad22992051.txt
-  - ref: refs/heads/tif-task_work.arch
-    old: 88a8d86c538fbc95243363c71cfea1a709bcd209
-    new: f2c095bdbaa1a443281bc85ef7a129b9c68d6def
-    log: revlist-88a8d86c538f-f2c095bdbaa1.txt
+  - ref: refs/heads/master
+    old: c0c3877828c0768387ea1c56a381b8805a8d7a4f
+    new: ccf6f244970e281acad5c4375250844bdf1f578b
+    log: |
+         ccf6f244970e281acad5c4375250844bdf1f578b Up the version to 2.0.3-dev
+         
+  - ref: refs/heads/pypingou-py_modules
+    old: 0000000000000000000000000000000000000000
+    new: 084309d4af434180b485e9ff8d6ac78e78605fb0
 
---===============0288152772476525551==
+--===============6178509482835977461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ecc6a53aec95-cc7ff2c0de1b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a0c4e004e1d3fd104b7ac647d735dea86659cd46 io_uring: ensure consistent view of original task ->mm from SQPOLL
-d2afa07067b46a0a9e5110aada8e96510dbc8a98 io_uring: allow SQPOLL with CAP_SYS_NICE privileges
-0dea2f30a30078a2a40a00d7a3891d54d2c5c0eb net: provide __sys_shutdown_sock() that takes a socket
-1784721acdf8566ac0b086acb7978d9ba8fc8bd3 io_uring: add support for shutdown(2)
-b68845953da9162f31ec9f9e5eac387e9943a2b9 io_uring: allow non-fixed files with SQPOLL
-e001bab134c75b364f6340146cb1490e31191684 io_uring: enable file table usage for SQPOLL rings
-f1a2d01ad5c695dd63b55ce4b1848633169bffd3 fs: make do_renameat2() take struct filename
-4ef3dad2b4cf42adb277a1cf09b0e45fafc2e07d io_uring: add support for IORING_OP_RENAMEAT
-bd305c6b2c7b26b1711c33a7cb16644cfbc95561 io_uring: add support for IORING_OP_UNLINKAT
-2005055a22a8717a9dd9dd231cb71de4a41e3bbb io_uring: split poll and poll_remove structs
-b9bb3a64140b3441c2d8038ebf1f727aab47c8a7 io_uring: track link's head and tail during submit
-31c055222672a570b432170397187db92eef7f0b io_uring: track link timeout's master explicitly
-13064f693690ba9811c83702ca8202c094694554 io_uring: link requests with singly linked list
-dd17beea71cc91ca6408dc71119af6adc3ee4d76 io_uring: rearrange io_kiocb fields for better caching
-cc7ff2c0de1bbdf8afe23f2ea2820bae18efe224 io_uring: only plug when appropriate
+certificate version 0.1
+pusher B6C41CE35664996C! 1604415040 -0500
+pushee gitolite.kernel.org:/pub/scm/utils/grokmirror/grokmirror.git
+nonce 1604415040-8e5c41291693e49cd994f2e250508c2ab464eba9
 
---===============0288152772476525551==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5af8cdb023c6-a8ad22992051.txt
+c0c3877828c0768387ea1c56a381b8805a8d7a4f ccf6f244970e281acad5c4375250844bdf1f578b refs/heads/master
+0000000000000000000000000000000000000000 084309d4af434180b485e9ff8d6ac78e78605fb0 refs/heads/pypingou-py_modules
+-----BEGIN PGP SIGNATURE-----
 
-5be1805dc3961ce0465bcb0beab85fe8580af08d interconnect: qcom: sdm845: Enable keepalive for the MM1 BCM
-d3703b3e255f56d543aac183f8aafdbfd7096559 interconnect: Aggregate before setting initial bandwidth
-0f221a729049ab727c87b0fe47e309b952d879ce interconnect: qcom: sdm845: Init BCMs before creating the nodes
-599809540f173f572c32a35d712accdc14d6357c interconnect: qcom: sc7180: Init BCMs before creating the nodes
-266cd33b59138501579c64648f54b93eab2e5adf interconnect: qcom: Ensure that the floor bandwidth value is enforced
-f8e48a3dca060e80f672d398d181db1298fbc86c lockdep: Fix preemption WARN for spurious IRQ-enable
-4cd2bb12981165f865d2b8ed92b446b52310ef74 time/sched_clock: Mark sched_clock_read_begin/retry() as notrace
-5254cb87c0423f73c8036235795788a132e8956e hrtimer: Remove unused inline function debug_hrtimer_free()
-9010e3876e1c3f7b1c3769bee519d6a871589aca timers: Remove unused inline funtion debug_timer_free()
-cb47755725da7b90fecbb2aa82ac3b24a7adb89b time: Prevent undefined behaviour in timespec64_to_ns()
-4230e2deaa484b385aa01d598b2aea8e7f2660a6 stop_machine, rcu: Mark functions as notrace
-179f5dc36b0a1aa31538d7d8823deb65c39847b3 staging: octeon: repair "fixed-link" support
-49d28ebdf1e30d806410eefc7de0a7a1ca5d747c staging: octeon: Drop on uncorrectable alignment or FCS error
-647a6002cb41d358d9ac5de101a8a6dc74748a59 staging: comedi: cb_pcidas: Allow 2-channel commands for AO subdevice
-b6ae84d648954fae096d94faea1ddb6518b27841 staging: mmal-vchiq: Fix memory leak for vchiq_instance
-d3a85737521a8570adf3a8171b4b3e42216686ec staging: wfx: fix use of uninitialized pointer
-df5fbca677c916d1959f814b41b841b65e450027 staging: wfx: fix test on return value of gpiod_get_value()
-7e97e4cbf30026b49b0145c3bfe06087958382c5 staging: fieldbus: anybuss: jump to correct label in an error path
-fce52ad3483281930dc9215a68d69837f219f889 interconnect: qcom: use icc_sync state for sm8[12]50
-2a9baf5ad4884108b3c6d56a50e8105ccf8a4ee7 x86/debug: Fix BTF handling
-a195f3d4528a2f88d6f986f6b1101775ad4891cf x86/debug: Only clear/set ->virtual_dr6 for userspace #DB
-cb05143bdf428f280a5d519c82abf196d7871c11 x86/debug: Fix DR_STEP vs ptrace_get_debugreg(6)
-defe40af1a7143a0538d7c3e87224459eea0a877 usb: cdns3: Variable 'length' set but not used
-063a3d67693ecde7f24ca00d4a131883edab1e73 usb: typec: stusb160x: fix some signedness bugs
-cbdc0f54560f94c2205ddbebb5464d65868af0d8 usb: fix kernel-doc markups
-3cd54a618834430a26a648d880dd83d740f2ae30 usb: host: fsl-mph-dr-of: check return of dma_set_mask()
-38203b8385bf6283537162bde7d499f830964711 usb: cdc-acm: fix cooldown mechanism
-2d9c6442a9c81f4f8dee678d0b3c183173ab1e2d usb: typec: tcpm: reset hard_reset_count for any disconnect
-b9c6f782150c9992308f4474f920586eaaca4cf1 usb: typec: stusb160x: fix an IS_ERR() vs NULL check in probe
-32d174d2d5eb318c34ff36771adefabdf227c186 usb: host: ehci-tegra: Fix error handling in tegra_ehci_probe()
-0942d59b0af46511d59dbf5bd69ec4a64d1a854c usbcore: Check both id_table and match() when both available
-0cb686692fd200db12dcfb8231e793c1c98aec41 USB: apple-mfi-fastcharge: don't probe unhandled devices
-82776f6c75a90e1d2103e689b84a689de8f1aa02 tty: serial: 21285: fix lockup on open
-c97f2a6fb3dfbfbbc88edc8ea62ef2b944e18849 tty: serial: fsl_lpuart: LS1021A has a FIFO size of 16 words, like LS1028A
-6ca03f90527e499dd5e32d6522909e2ad390896b vt: keyboard, simplify vt_kdgkbsent
-82e61c3909db51d91b9d3e2071557b6435018b80 vt: keyboard, extend func_buf_lock to readers
-d54654790302ccaa72589380dce060d376ef8716 vt_ioctl: fix GIO_UNIMAP regression
-921c7ebd1337d1a46783d7e15a850e12aed2eaa0 futex: Fix incorrect should_fail_futex() handling
-5a169bf04cd2bfdbac967d12eb5b70915b29d7ee x86/kvm: Reserve KVM_FEATURE_MSI_EXT_DEST_ID
-80ade22c06ca115b81dd168e99479c8e09843513 misc: mic: remove the MIC drivers
-f27891abb7930d7a92bee2a47648a4a8708652d3 usb: typec: add missing MODULE_DEVICE_TABLE() to stusb160x
-befa1c2d65c639a7aefa793d36d7229732f14642 usb: typec: stusb160x: fix signedness comparison issue with enum variables
-a75e2d604da8219d928be010bde37c3ab0ebd466 xhci: Fix sizeof() mismatch
-2a632815683d2d34df52b701a36fe5ac6654e719 usb: xhci: Workaround for S3 issue on AMD SNPS 3.0 xHC
-712da5fc4a66fbb1f144742e1b808498e932009b xhci: Don't create stream debugfs files with spinlock held.
-0f5cef2b2904b8d41d34ecb6c5d5bf2f00562b1b coresight: add module license
-5fca3f062879f8e5214c56f3e3e2be6727900f5d usb: cdns3: gadget: suspicious implicit sign extension
-39a7661dcf655c8198fd5d72412f5030a8e58444 coresight: Fix uninitialised pointer bug in etm_setup_aux()
-80624263fa289b3416f7ca309491f1b75e579477 coresight: cti: Initialize dynamic sysfs attributes
-28e81c6270b3d0e9faadd565f314ad9ac8256620 KVM: arm64: Don't corrupt tpidr_el2 on failed HVC call
-b6d6db4de86f5b1be9bbe59c73302538301915c7 KVM: arm64: Remove leftover kern_hyp_va() in nVHE TLB invalidation
-d2782505fbe3055f983c772a448ac5cb419f9df7 KVM: arm64: Drop useless PAN setting on host EL1 to EL2 transition
-7efe8ef274024ef1d5c495c79dfcbbff38c5f366 KVM: arm64: Allocate stage-2 pgd pages with GFP_KERNEL_ACCOUNT
-4a1c2c7f63c52ccb11770b5ae25920a6b79d3548 KVM: arm64: Fix AArch32 handling of DBGD{CCINT,SCRext} and DBGVCR
-e2fc6a9f686d037cbd9b08b9fb657685b4a722d3 KVM: arm64: Fix masks in stage2_pte_cacheable()
-2f40c46021bbb3ecd5c5f05764ecccbc276bc690 KVM: arm64: Use fallback mapping sizes for contiguous huge page sizes
-91a2c34b7d6fadc9c5d9433c620ea4c32ee7cae8 KVM: arm64: Force PTE mapping on fault resulting in a device mapping
-52d3967704aea6cb316d419a33a5e1d56d33a3c1 usb: cdns3: Fix on-chip memory overflow issue
-e11d2bf271589e70ea80a2ee3e116c40fcac62c2 usb: cdns3: gadget: own the lock wrongly at the suspend routine
-0d519cbf38eed4f895aed197d4b135fa7f60f7c2 debugfs: remove return value of debugfs_create_devm_seqfile()
-e9a33caec90e05673e2f7fb7c80f172031964d25 KVM: arm64: Factor out is_{vhe,nvhe}_hyp_code()
-dfc4e3f08903ed8fe0b66cc25b64524a82654166 arm64: cpufeature: reorder cpus_have_{const, final}_cap()
-d86de40decaa14e6613af1b2783bf4d589d0f38b arm64: cpufeature: upgrade hyp caps to final
-00c27a1df8ff5e99b383e2b4cbf947a4926fb534 Merge tag 'usb-v5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
-11ce90a45d380f09213f128b76d68bb525186ad8 scripts: get_abi.pl: change script to allow parsing in ReST mode
-e9bca8918e3d409f3b575d8db5591e422506c1ea scripts: get_abi.pl: fix parsing on ReST mode
-61439c4ada9fd0e4ce73aca81a71344380a3053b scripts: get_abi.pl: Allow optionally record from where a line came from
-f82a8a74ea81df22b1641ee56cf7195cc2a1bd0b scripts: get_abi.pl: improve its parser to better catch up indentation
-234948bf3d27e473ac8043d20dacda146beeb0cb scripts: get_abi.pl: cleanup ABI cross-reference logic
-c7ba333426bcf4d7330d3a0a768e8048a82e4cc7 scripts: get_abi.pl: detect duplicated ABI definitions
-a16ab14eb7a92bfebf71a8a9185c749de86851f4 scripts: get_abi.pl: output users in ReST format
-a4ea67bc65a15dadcda747c7f9d7b0e76e7c842a scripts: get_abi.pl: prevent duplicated file names
-c01d62d3fecb27f4c76a0e14b7e5afc15497a74b scripts: get_abi.pl: use bold font for ABI definitions
-55e5414f2f8e31a8abbd95c43c24b69e83560a20 scripts: get_abi.pl: auto-generate cross references
-678a63f9888c28150e08cf6cb5fec9fbaf2bf81c docs: kernellog.py: add support for info()
-9ca876f96323934b8ace04b123531f05e3bed029 docs: kernel_abi.py: add a script to parse ABI documentation
-823830d4065bfb115b948c9f21e713a15d8d95ef docs: kernel_abi.py: fix UTF-8 support
-c830fa9a4d363caacc4ba3f63c06b9e967ad13a4 docs: kernel_abi.py: make it compatible with Sphinx 1.7+
-997b7c8b4a95681dc75e6b720ad6f0ea705368c3 docs: kernel_abi.py: use --enable-lineno for get_abi.pl
-3c543d29891a42b23c1f9a3a4788ae37fb94cce2 docs: kernel_abi.py: Handle with a lazy Sphinx parser
-a7ee04b3ef0d2b2514730928a04a112f04ffe7df docs: add ABI documentation to the admin-guide book
-c7e45ea429c93139e85ddf3e0a8500a997f0f745 docs: ABI: README: specify that files should be ReST compatible
-98913408c5465ac477f80da7affe347b413edaa4 docs: ABI: stable: make files ReST compatible
-34433332841de2787f903fcf7de8dc3e06780f4a docs: ABI: testing: make the files compatible with ReST output
-906e4af9359dff0e24aeaf3b92226847cb5c8185 docs: ABI: sysfs-uevent: make it compatible with ReST output
-642514df1bc1c6a9318b537670fdb55a6ee38e45 docs: ABI: make it parse ABI/stable as ReST-compatible files
-c12759ff2dd029ce74b026e6b6bc62060383a5a7 docs: ABI: create a 2-depth index for ABI
-7832dea738dc3ea4a40860dc8b9f83ca1e092ab9 docs: ABI: don't escape ReST-incompatible chars from obsolete and removed
-50865d041eead18b110e589674ff91ffcd243e7e docs: abi-testing.rst: enable --rst-sources when building docs
-75442fb0ccaacddf1654a5304401a9f556c61004 docs: Kconfig/Makefile: add a check for broken ABI files
-b1faa368bb202649259fd8afed78bcc31e58e293 docs: ABI: convert testing/configfs-acpi to ReST
-002a9c2f99c77677635d2ab2e906fc6ba3f7ab67 docs: ABI: fix syntax to be parsed using ReST notation
-97f26cab455e1868edb0b74ce714dcb52444b63b docs: ABI: vdso: use the right format for ABI
-ed8c39d43983d19f181ff47af0374c4e252f84bd docs: ABI: sysfs-bus-nvdimm: use the right format for ABI
-54a19b4d3fe0fa0a31b46cd60951e8177cac25fa docs: ABI: cleanup several ABI documents
-4119f0dfbd27722216352a7349930a4b54032fe5 docs: ABI: change read/write attributes
-637ae1fb5dca38649eed31f943114486bacce416 docs: ABI: stable: remove a duplicated documentation
-edef2fa29739172643dbe9f44fb38d23793816d6 docs: ABI: unify /sys/class/leds/<led>/brightness documentation
-9e0b29adfb3323ffd250b74373c68209e291b8e5 docs: ABI: sysfs-class-power: unify duplicated properties
-1b3023ef54d4fc8e8a034d2178ef80bddd7ba206 docs: ABI: sysfs-c2port: remove a duplicated entry
-bd6e8441c2fc4d653d115516f55b1700284bc42d docs: ABI: sysfs-class-backlight: unify ABI documentation
-26a07553041eb728678348a2bb0cd703ccd11083 docs: ABI: sysfs-class-led-trigger-pattern: remove hw_pattern duplication
-2fcce37a3d2f2f3d7fa36aad2b71cbaca135ffd4 scripts: get_abi.pl: assume ReST format by default
-d1b35d66f48f926062dc81134ebd8ab93d71e61d Merge tag 'icc-5.10-rc2' of https://git.linaro.org/people/georgi.djakov/linux into char-misc-linus
-22f553842b14a1289c088a79a67fb479d3fa2a4e KVM: arm64: Handle Asymmetric AArch32 systems
-d48e3850030623e1c20785bceaaf78f916d0b1a3 locking/lockdep: Remove more raw_cpu_read() usage
-1a39340865ce505a029b37aeb47a3e4c8db5f6c6 lockdep: Fix nr_unused_locks accounting
-699116c45e155925638677a74625ac9e9e046dc1 Merge tag 'kvmarm-fixes-5.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-8a967d655e406c8a63744a60b221071fad9a736b KVM: x86: replace static const variables with macros
-d383b3146d805a743658225c8973f5d38c6fedf4 KVM: x86: Fix NULL dereference at kvm_msr_ignored_check()
-97a71a5455997d72adfd74e9d575d782d7c2ab9a KVM: selftests: test behavior of unmapped L2 APIC-access address
-064eedf2c50f692088e1418c553084bf9c1432f8 KVM: VMX: eVMCS: make evmcs_sanitize_exec_ctrls() work again
-0f55b67e5ad8dcdfb9ae2aaed75dd9fbb2bd92b2 KVM: selftests: Don't require THP to run tests
-9478dec3b5e79a1431e2e2b911e32e52a11c6320 KVM: vmx: remove unused variable
-2d38c80d5bafecdd3bdb0d22b722afba8101ec1f Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-9b5ff3c93cd323d26551a026c04929e1d2c1b68b Merge tag 'usb-5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-2754a42e0dccc8db89426901bb54ca6c34969c01 Merge tag 'tty-5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
-2376cca02d73a67ab28f03aa787777b74c3b0230 Merge tag 'staging-5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
-9c75b68b91ff010d8d4c703b93954f605e2ef516 Merge tag 'driver-core-5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-31f020064f9d4da5686f8dda91787f825537ad29 Merge tag 'char-misc-5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-8d99084efcc21bb4e2bc4d818f41a27768d48f6e Merge tag 'locking-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-82423b46fc9ec699a0ede9e025a8414658cdcf48 Merge tag 'smp-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4312e0e8d3eab027d9506db091eb10e6a9ff25d3 Merge tag 'timers-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
-a0c4e004e1d3fd104b7ac647d735dea86659cd46 io_uring: ensure consistent view of original task ->mm from SQPOLL
-0eb7d372d5319970bd15f2dbc18264ea576214d4 s390: add support for TIF_NOTIFY_SIGNAL
-300597bfb0d84dd802a6bd16b2364d368ce0030f alpha: add support for TIF_NOTIFY_SIGNAL
-aa9afd65ee4c1da0a945e0cc838798ae8161785b arm: add support for TIF_NOTIFY_SIGNAL
-2515955814bfb92d7e1ebf65b5e6db6f03c3c663 c6x: add support for TIF_NOTIFY_SIGNAL
-65be8e8c7ec1a8b5a0d135cd20ccd199a4e58656 csky: add support for TIF_NOTIFY_SIGNAL
-bec96154d80a0269c57a1295d8319996cc807122 h8300: add support for TIF_NOTIFY_SIGNAL
-e04bbffbea9158ad49e76ddcd9834fdfdda5a7d7 hexagon: add support for TIF_NOTIFY_SIGNAL
-7abb44104874551e8529ee87f82188ade9454bc8 ia64: add support for TIF_NOTIFY_SIGNAL
-33e49c42e4f3e7ec3bc524646b8d0ac689df38f6 microblaze: add support for TIF_NOTIFY_SIGNAL
-f9d398e6dd8c53b04df83dc7a22985fb1871dd07 nds32: add support for TIF_NOTIFY_SIGNAL
-822381561e2a74bb18d74f99d3ad65988f0f81dc openrisc: add support for TIF_NOTIFY_SIGNAL
-5d2945bfd1ba57cf262f637b0dab72ff9f96ed69 riscv: add support for TIF_NOTIFY_SIGNAL
-608dc5d076e782076999d34d40404829bc9c6c5f sh: add support for TIF_NOTIFY_SIGNAL
-902729a6a217e45e638ebfdfe9623e783e81bff3 sparc: add support for TIF_NOTIFY_SIGNAL
-6ca0475e8a0f65ad8de7b01714bcccdc25f2b4bf um: add support for TIF_NOTIFY_SIGNAL
-f572e8951a1f50184b5299f486a0f34b9f9a56c4 xtensa: add support for TIF_NOTIFY_SIGNAL
-eae599bd490e49e1bc58f72bf18e42fe72f32f52 task_work: remove legacy TWA_SIGNAL path
-8937d8903269d545f79551fc214ab708e0b3fc2d io_uring: JOBCTL_TASK_WORK is no longer used by task_work
-ae43ef9068b336fc24a3162b7d41787da71f1705 signal: kill JOBCTL_TASK_WORK
-0c71877e809f8dc2a30b6f83132f09e629a4dffa kernel: remove checking for TIF_NOTIFY_SIGNAL
-f2c095bdbaa1a443281bc85ef7a129b9c68d6def io_uring: remove 'twa_signal_ok' deadlock work-around
-d2afa07067b46a0a9e5110aada8e96510dbc8a98 io_uring: allow SQPOLL with CAP_SYS_NICE privileges
-0dea2f30a30078a2a40a00d7a3891d54d2c5c0eb net: provide __sys_shutdown_sock() that takes a socket
-1784721acdf8566ac0b086acb7978d9ba8fc8bd3 io_uring: add support for shutdown(2)
-b68845953da9162f31ec9f9e5eac387e9943a2b9 io_uring: allow non-fixed files with SQPOLL
-e001bab134c75b364f6340146cb1490e31191684 io_uring: enable file table usage for SQPOLL rings
-f1a2d01ad5c695dd63b55ce4b1848633169bffd3 fs: make do_renameat2() take struct filename
-4ef3dad2b4cf42adb277a1cf09b0e45fafc2e07d io_uring: add support for IORING_OP_RENAMEAT
-bd305c6b2c7b26b1711c33a7cb16644cfbc95561 io_uring: add support for IORING_OP_UNLINKAT
-2005055a22a8717a9dd9dd231cb71de4a41e3bbb io_uring: split poll and poll_remove structs
-b9bb3a64140b3441c2d8038ebf1f727aab47c8a7 io_uring: track link's head and tail during submit
-31c055222672a570b432170397187db92eef7f0b io_uring: track link timeout's master explicitly
-13064f693690ba9811c83702ca8202c094694554 io_uring: link requests with singly linked list
-dd17beea71cc91ca6408dc71119af6adc3ee4d76 io_uring: rearrange io_kiocb fields for better caching
-cc7ff2c0de1bbdf8afe23f2ea2820bae18efe224 io_uring: only plug when appropriate
-ced6c4e6f8dbbb53625a7bb39c670951132ef339 Merge branch 'for-5.11/io_uring' into for-next
-a8ad22992051c3c0fda34ce52af02e9ecd6ab071 Merge branch 'tif-task_work.arch' into for-next
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX6FuQAAKCRC2xBzjVmSZ
+bNenAP9nMfzYFdpYYZOy7lWKF8AMEFSTrqN3FumatDGU/nNoMQEA8DynBBydWWP5
+qzur030V7xxY83RPv5WQ4oYVVwu+yg4=
+=Chf0
+-----END PGP SIGNATURE-----
 
---===============0288152772476525551==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88a8d86c538f-f2c095bdbaa1.txt
-
-0eb7d372d5319970bd15f2dbc18264ea576214d4 s390: add support for TIF_NOTIFY_SIGNAL
-300597bfb0d84dd802a6bd16b2364d368ce0030f alpha: add support for TIF_NOTIFY_SIGNAL
-aa9afd65ee4c1da0a945e0cc838798ae8161785b arm: add support for TIF_NOTIFY_SIGNAL
-2515955814bfb92d7e1ebf65b5e6db6f03c3c663 c6x: add support for TIF_NOTIFY_SIGNAL
-65be8e8c7ec1a8b5a0d135cd20ccd199a4e58656 csky: add support for TIF_NOTIFY_SIGNAL
-bec96154d80a0269c57a1295d8319996cc807122 h8300: add support for TIF_NOTIFY_SIGNAL
-e04bbffbea9158ad49e76ddcd9834fdfdda5a7d7 hexagon: add support for TIF_NOTIFY_SIGNAL
-7abb44104874551e8529ee87f82188ade9454bc8 ia64: add support for TIF_NOTIFY_SIGNAL
-33e49c42e4f3e7ec3bc524646b8d0ac689df38f6 microblaze: add support for TIF_NOTIFY_SIGNAL
-f9d398e6dd8c53b04df83dc7a22985fb1871dd07 nds32: add support for TIF_NOTIFY_SIGNAL
-822381561e2a74bb18d74f99d3ad65988f0f81dc openrisc: add support for TIF_NOTIFY_SIGNAL
-5d2945bfd1ba57cf262f637b0dab72ff9f96ed69 riscv: add support for TIF_NOTIFY_SIGNAL
-608dc5d076e782076999d34d40404829bc9c6c5f sh: add support for TIF_NOTIFY_SIGNAL
-902729a6a217e45e638ebfdfe9623e783e81bff3 sparc: add support for TIF_NOTIFY_SIGNAL
-6ca0475e8a0f65ad8de7b01714bcccdc25f2b4bf um: add support for TIF_NOTIFY_SIGNAL
-f572e8951a1f50184b5299f486a0f34b9f9a56c4 xtensa: add support for TIF_NOTIFY_SIGNAL
-eae599bd490e49e1bc58f72bf18e42fe72f32f52 task_work: remove legacy TWA_SIGNAL path
-8937d8903269d545f79551fc214ab708e0b3fc2d io_uring: JOBCTL_TASK_WORK is no longer used by task_work
-ae43ef9068b336fc24a3162b7d41787da71f1705 signal: kill JOBCTL_TASK_WORK
-0c71877e809f8dc2a30b6f83132f09e629a4dffa kernel: remove checking for TIF_NOTIFY_SIGNAL
-f2c095bdbaa1a443281bc85ef7a129b9c68d6def io_uring: remove 'twa_signal_ok' deadlock work-around
-
---===============0288152772476525551==--
+--===============6178509482835977461==--
