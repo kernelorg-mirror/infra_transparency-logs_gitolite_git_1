@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 03 Nov 2020 00:03:33 -0000
-Message-Id: <160436181304.7968.17743948387360481432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Tue, 03 Nov 2020 00:06:40 -0000
+Message-Id: <160436200063.10531.15243908038272919891@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/for-rc
-    old: 3cea11cd5e3b00d91caf0b4730194039b45c5891
-    new: 00469c97ef64f6b7e3ab08c5eeb0378260baf983
+  - ref: refs/heads/rewrite_invalid_context_at_stop_endpoint
+    old: cffbb7886fe63174fbdb915b130f0d590d4ad870
+    new: 9f00500116f78e3fc1c382c4a6c4728cb3704560
     log: |
-         683a9c7ed81769b6ecb6229afb00b6cda8e4bcfb RDMA: Fix software RDMA drivers for dma mapping error
-         372a1786283e50e7cb437ab7fdb1b95597310ad7 IB/srpt: Fix memory leak in srpt_add_one
-         00469c97ef64f6b7e3ab08c5eeb0378260baf983 RDMA/vmw_pvrdma: Fix the active_speed and phys_state value
+         80709c6780f9682c49f48847d634786ea80a4be1 xhci: Fix halted endpoint at stop endpoint command completion
+         7b37d6c5b029a58f8f04674a3d84d210b62cfd59 xhci: introduce a new move_dequeue_past_td() function to replace old code.
+         2147b156114227e51bb9a43b93ccd70910131d53 xhci: add debug messages to cancel/halted TD handling
+         9f00500116f78e3fc1c382c4a6c4728cb3704560 xhci, make list_for_each() entr_safe, ADD more debugging.
          
