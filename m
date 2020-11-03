@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2594415026749767576=="
+Content-Type: multipart/mixed; boundary="===============6406819901313791583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 03 Nov 2020 09:08:48 -0000
-Message-Id: <160439452843.15964.287553614210198354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 03 Nov 2020 09:08:58 -0000
+Message-Id: <160439453831.16130.5491245606929757957@gitolite.kernel.org>
 
---===============2594415026749767576==
+--===============6406819901313791583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: c62b1f97e744039f01ec789ce01dfa0a8c9a1a99
-    new: f0f753da73b386deb274486255b857d013fa6069
+  - ref: refs/heads/usb-testing
+    old: 8fba56b4cd53d6c588641db46d74a13d3c0d8602
+    new: 35ad0d901eac56ac6af2e4d726f255486c1ee36c
     log: |
-         f7a6e6c4073c1e03ab18d2229857cfef5e0f8b7b misc: mei: remove unneeded break
-         f0f753da73b386deb274486255b857d013fa6069 misc: ti-st: st_core: remove unneeded semicolon
+         35ad0d901eac56ac6af2e4d726f255486c1ee36c usb: misc: brcmstb-usb-pinmap: Fix an IS_ERR() vs NULL check
          
 
---===============2594415026749767576==
+--===============6406819901313791583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604394578 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1604394522-3fbd82c64c0e78275584dd3541b9d365d3634018
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604394589 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1604394532-7b93fde1fa2e3886e63c4c407b85553c002f2a85
 
-c62b1f97e744039f01ec789ce01dfa0a8c9a1a99 f0f753da73b386deb274486255b857d013fa6069 refs/heads/char-misc-testing
+8fba56b4cd53d6c588641db46d74a13d3c0d8602 35ad0d901eac56ac6af2e4d726f255486c1ee36c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+hHlMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4vEQAIX92AWyo8YN8NbZN5nt
-PBCOh6NPLT+K5ZCu9vlEQzhs2LkmxBTLnecOk2yju4m6e2JPaUv/vIfGFz9q/iDn
-snFtS1MUIqplAho6xi2ByTlraDv+xxrsWuNzTzS75YdOXZtO4mL/V+K6dgBgsVFs
-GJhP7Wcx1yIkUqT9Rs4WGM6OTYkdzWSmcHmYnJkjnqfecKlH6P+6Rx1SvvVpmfTb
-KxOrXX1qdReAvQLLjSVJ0y1fN3vudFGA6rXKb3dKG3YHOvxpYCVeviL4/U3aT5/Z
-oBKWdDCd2I/3pLl2IwCU85+GlsmZZ2Owy12Tp+PdPOa+t0uFpLKNPoQEwtIs1IkI
-Kf+QmQOR1ti/Wuw0szvCRFKtSBURsbAtfETwiowj1kUZJAF8pWwnt5iESEqLcbEi
-/vTg2Q/pHKE26YJXd2GEJCtWFTPH5ZA/IOqK6slJUgp2WVMCyrGRC+DZVsG9zsmb
-kKFq7E7YwpF9NbhsGM3mfwK/ml9oganeR6SOrSCKB3usm7U2ivM5tPzyS1DaPKbw
-7sW84lzmsCSrHMOdYhAzKiHK0/FVwx57j5yRZ2e6DKIITrFCEq+wrjW7WUz3PGIc
-rF5pcI2Xg3ze+dxqdPF5tBbkN3ELKDtN0v2A1nKh+SKH7+Tx1nZk5u2EjHWD8Xv2
-1zRFFRU91pvnvCTQNxezpAzl
-=6fuE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+hHl0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WKQQAIt5x+vjhDONR/f1IUx4
+msy1fj1VaJI0IdbAHUtz/Arr7g6+s1Mql5DMjdq/RDLuXxK4Jl9M/+kkdH8I9kWe
+LesFgGVJvrL/piZgnOOa9YfNJ0TyOWKaeTsmCyZSd00kUoRCX5jpJ4O8ZflY+daH
+/oIlIwU9aq5nJg79ZIKpSrfLZwDcporp0gTkhng4HUfAK7uFvdId4Nq5tVaLCazy
+fZQtfrUpsGkiAjaQtvy36V6G7QzQcwfnv3BmhO4fAa7iVbVDtafx2Ylu5vraQrvG
+DvKAcpmfsamPd3/A/WmgIXDONilBx9zXvowPyHcna49RKg3YwEeVNuk7tVETzdhb
+2zuw89U7CvTTCU+T1oaLLiC9+OZSU144ySUTUiJYVROtgG6dbW7OBpaLl2ki3fwk
+JDFIF33GgSN4764bvAJwzlWkbNgDRkGwaYtdwM4jeG3cU094nCNeaaWgH25nI7f5
+r77QSfy9wKRL+XBF4zN1e5CYQTJHlhKn4WwadyjqC6JLhXAFylgYubFS4tDCveHN
+GO7j1Ktl3baG34YWbFj9YyztS3whZZlnjnaoNDvwMUe5QemkZMelvZeYgmtYY7x5
+D0G+BEURTYlf3e/Y0MwH/bfeH+5mfOWbR+7+qFVmpIqqEpzj89YR1V4T1wwwDGKk
+OWrKgga+Ed0giom1LtRBaYsX
+=QihQ
 -----END PGP SIGNATURE-----
 
---===============2594415026749767576==--
+--===============6406819901313791583==--
