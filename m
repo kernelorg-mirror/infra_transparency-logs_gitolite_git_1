@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 03 Nov 2020 01:34:29 -0000
-Message-Id: <160436726983.13079.15534398856306084705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 03 Nov 2020 01:35:51 -0000
+Message-Id: <160436735197.14853.4972482296681711407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev-test
-    old: 3281ed2c116edf23d852ab9b13e2267a3127be0d
-    new: aabe197f7422bbf4875c05f874c5147ea289fe6f
+  - ref: refs/heads/master
+    old: 7e901ee7b6ab0b7c1a5e29b8513af23709285a29
+    new: 92f9e238c909ef9b4a138f47bdca856fc0c8b78a
     log: |
-         9e2a5f8cfb4d9371783e21e27bba4338401f1260 f2fs: add F2FS_IOC_GET_COMPRESS_OPTION ioctl
-         aabe197f7422bbf4875c05f874c5147ea289fe6f f2fs: add F2FS_IOC_SET_COMPRESS_OPTION ioctl
+         0b833eef92dec0af9ce049ecd712c39f194577d1 liquidio: cn68xx: Remove duplicated include
+         36ed77cd0535728709d38e3f676db7958188765c net: hns3: Remove duplicated include
+         92f9e238c909ef9b4a138f47bdca856fc0c8b78a openvswitch: Use IS_ERR instead of IS_ERR_OR_NULL
          
