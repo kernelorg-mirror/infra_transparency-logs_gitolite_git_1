@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/morgan/libcap
-Date: Tue, 03 Nov 2020 01:58:54 -0000
-Message-Id: <160436873489.31486.17477756761387083061@gitolite.kernel.org>
+Date: Tue, 03 Nov 2020 01:59:01 -0000
+Message-Id: <160436874107.31629.14864695737099503350@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,18 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/morgan/libcap
 user: morgan
 changes:
-  - ref: refs/heads/master
-    old: 2fa105aacc656d415ca90c33ea6fbb5ddc407b9a
-    new: cf8fb28e420d7b54e856cd30cef18ac732f24d2c
-    log: |
-         2a3beeb7a9bf2679d1e733de817346ee32248bde Clean up the libpsx.3 man page.
-         6b1d98b7d6463a1773a217423d82994fb70d2a48 Support shared library build and linkage of -lpsx
-         a614aa669d6ec0f12849f9a698f242cf89b44c6c Fix tests:sudotest for DYNAMIC=yes testing
-         481ca7b508ad0245468146343b1d3be94470a024 Demonstrate why libpsx is important for multithreaded C code.
-         1d03d736252237edd364142bd034715d743ace0b Lessen the system requirements for running make sudotest
-         68240b124cc62744a7a412a7afc85b5c56a48e14 If needed search PATH for capsh (==) self-execution.
-         24375fb114e6a78aa3ca6907399b8601d1db6f36 Support systems with no available pthreads support.
-         9d8eaab7f74cf1d925910901e5181173ab11d14d Guarantee sufficient memory for scratch pathname
-         f025e2fb7a2b075005847eb9a82d2f4bfbd42566 Some distributions can't support shared libraries
-         cf8fb28e420d7b54e856cd30cef18ac732f24d2c Up the release version to 2.45
-         
+  - ref: refs/tags/cap/v0.2.45
+    old: 0000000000000000000000000000000000000000
+    new: 3f5f7004f0ca78133a4e00ab309da279f5754329
+  - ref: refs/tags/libcap-2.45
+    old: 0000000000000000000000000000000000000000
+    new: 4d78f82b3803ef6c6680a84083c64e0e9f20510d
+  - ref: refs/tags/libcap-korg-2.45
+    old: 0000000000000000000000000000000000000000
+    new: 4896c7ba6a39650d7daf5836f556e3eab6ead459
+  - ref: refs/tags/psx/v0.2.45
+    old: 0000000000000000000000000000000000000000
+    new: aded2edf3510a26867c102ca3424ee6d9ca35943
+  - ref: refs/tags/v0.2.45
+    old: 0000000000000000000000000000000000000000
+    new: 88583938c6aa5b508a13f5a59da88ce8082b27d6
