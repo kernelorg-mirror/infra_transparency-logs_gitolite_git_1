@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6735451125975656280=="
+Content-Type: multipart/mixed; boundary="===============5092067776789120990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 03 Nov 2020 01:58:20 -0000
-Message-Id: <160436870081.31118.1728364470454955303@gitolite.kernel.org>
+Date: Tue, 03 Nov 2020 01:58:24 -0000
+Message-Id: <160436870411.31193.1346870971623990431@gitolite.kernel.org>
 
---===============6735451125975656280==
+--===============5092067776789120990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 changes:
-  - ref: refs/heads/5.11/scsi-queue
+  - ref: refs/heads/queue
     old: ae6b4e69a80de2cf89afe451424cc02f953a4a10
     new: d90196317484b69bb46b7144c6e0e1a4f581200d
     log: revlist-ae6b4e69a80d-d90196317484.txt
 
---===============6735451125975656280==
+--===============5092067776789120990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ efd321768d2e0e85083b83aefb15c949d4c8930f scsi: zfcp: Clarify & assert the stat_l
 a6c37abe6988eb33a5f301e252ee41ed22b8df8d scsi: zfcp: Process Version Change events
 d90196317484b69bb46b7144c6e0e1a4f581200d scsi: zfcp: Handle event-lost notification for Version Change events
 
---===============6735451125975656280==--
+--===============5092067776789120990==--
