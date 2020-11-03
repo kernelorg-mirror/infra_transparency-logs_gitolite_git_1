@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 03 Nov 2020 10:33:06 -0000
-Message-Id: <160439958661.10926.1371074134777169078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Tue, 03 Nov 2020 10:49:23 -0000
+Message-Id: <160440056305.20324.9242490212814009574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/for-5.11/amd-sfh-hid
-    old: 4b393f0f76c8e3ce80b3bd524dc40bd674a29101
-    new: 907286d1420d28bead47da37b9a081377c070322
-    log: |
-         907286d1420d28bead47da37b9a081377c070322 HID: SFH: Add documentation
-         
   - ref: refs/heads/for-next
-    old: 2039112f7c1c306ca66df0f3df298f1c5b487c5a
-    new: d0a19d03cbb8b178807fec3e1c568384730cae9f
+    old: 6bd1c7bd4ee7b17980cdc347522dcb76feac9b98
+    new: a375605d4edc3d5d78308e4db26740fe55dcd190
     log: |
-         907286d1420d28bead47da37b9a081377c070322 HID: SFH: Add documentation
-         d0a19d03cbb8b178807fec3e1c568384730cae9f Merge branch 'for-5.11/amd-sfh-hid' into for-next
+         a375605d4edc3d5d78308e4db26740fe55dcd190 gfs: Wake up when sd_glock_disposal becomes zero
          
