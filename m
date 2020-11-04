@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8904872804169682523=="
+Content-Type: multipart/mixed; boundary="===============3581142307568380355=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 04 Nov 2020 20:41:06 -0000
-Message-Id: <160452246605.2078.15990039618533368948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 04 Nov 2020 20:41:13 -0000
+Message-Id: <160452247317.2266.11143613965860951557@gitolite.kernel.org>
 
---===============8904872804169682523==
+--===============3581142307568380355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.10
+  - ref: refs/heads/asoc-5.10
     old: 6ec6c3693a389841d8ca952072aea8020da54ef4
     new: f9d7c6eb23f7e55e7a0ca5451da06909bdfdd0e4
     log: |
          f9d7c6eb23f7e55e7a0ca5451da06909bdfdd0e4 ASoC: mchp-spdiftx: Do not set Validity bit(s)
          
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 32c5dca18be7ad88629c33f51ba7f05ae97930fa
     new: bc3955c99cd0f9a89e22b4c66118e960f120d372
     log: revlist-32c5dca18be7-bc3955c99cd0.txt
 
---===============8904872804169682523==
+--===============3581142307568380355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1604522455 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1604522463-c5abd3df21da1e22600b5e4efd2484b084a9f9bd
+pusher C3F436CA30F5D8EB 1604522462 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1604522470-7ecb671627a4a42f388e30ea026180969853e192
 
-6ec6c3693a389841d8ca952072aea8020da54ef4 f9d7c6eb23f7e55e7a0ca5451da06909bdfdd0e4 refs/heads/for-5.10
-32c5dca18be7ad88629c33f51ba7f05ae97930fa bc3955c99cd0f9a89e22b4c66118e960f120d372 refs/heads/for-5.11
+6ec6c3693a389841d8ca952072aea8020da54ef4 f9d7c6eb23f7e55e7a0ca5451da06909bdfdd0e4 refs/heads/asoc-5.10
+32c5dca18be7ad88629c33f51ba7f05ae97930fa bc3955c99cd0f9a89e22b4c66118e960f120d372 refs/heads/asoc-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+jEdcACgkQJNaLcl1U
-h9DVHQf2ORdcYM+B8Bg2JeDS9dlt9jaOpEoYN8XheGkzjg0GQLru9vJIpJJRpwSo
-U8Zfj+oq6hYSIjWGsde1Knga61iz1pNG+zDhm/us8DGzcBPg3Ug039WRffSzXWOj
-sNINHWnu6T8BCgmQkkTxHm5g4aWctJOBZGYRU53a6d7Sv2XPsEPT2Pl8nmPLUlvI
-kVCcm7KoAZNlEguQ+/v+suux5Pz+cLQYmsDdAGy0X3MYO1F2kzqi5FjCBssRNT4P
-WCeknY6HwuSqjVP9SjFbkzrysiIxmbYAqf00YgXg2MFVdJ1Dzv7Se1YKfxHLSEpy
-pfbGM2U25tvbPuho89g1GxYcvfwj
-=LAFQ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+jEd4ACgkQJNaLcl1U
+h9DLYwf/QNQVCiDo9VW6OHsTZB6NLY32C5AIg57UkveOWKQw6rIlWDJFuQfOzVM7
+3oOITQNkX1Drksr1JyIiP+9ARulmjKG2SxzEaeWw5ERC9L5riwJfaUiz/0wB6fBn
+1PBYFvppFBgw6C++VVwixutfH/TtAFU3NT3cMukpoCaC+CmYH+oReCmhmPlx4dCd
+xz2u6+cfAU8J3ozCRPX3nOHfpNWWfmPAN9NBqQGU6qvKLMOcDhbY5z5ukH3CLChI
+hKS9+ZpXpwBg0vOnXJy9Kb7T4pXmbXtWrNIfuyQeDGYZtJHXeapvBZXzAf74KEDB
+cjJVUK8O/gqo4EvpJ7g/hEhTwzBe3Q==
+=iU20
 -----END PGP SIGNATURE-----
 
---===============8904872804169682523==
+--===============3581142307568380355==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -77,4 +77,4 @@ c63b7866011e63038d32bc37f3abd0deabbc34f6 ASoC: mediatek: mt8192: support pcm in 
 860bfa6d66ebe4206ae5fa8fd6b064fc6416b794 Merge series "ASoC: Mediatek: Add support for MT8192 SoC" from Jiaxin Yu <jiaxin.yu@mediatek.com>:
 bc3955c99cd0f9a89e22b4c66118e960f120d372 Merge series "ASoC: topology: Change to resource managed memory" from Amadeusz Sławiński<amadeuszx.slawinski@linux.intel.com>:
 
---===============8904872804169682523==--
+--===============3581142307568380355==--
