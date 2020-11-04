@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4393512355432383123=="
+Content-Type: multipart/mixed; boundary="===============9092995964107569901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 04 Nov 2020 15:40:57 -0000
-Message-Id: <160450445792.22830.2998940995947791612@gitolite.kernel.org>
+Date: Wed, 04 Nov 2020 15:41:11 -0000
+Message-Id: <160450447189.23016.2165876683280388166@gitolite.kernel.org>
 
---===============4393512355432383123==
+--===============9092995964107569901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: d54654790302ccaa72589380dce060d376ef8716
-    new: 3cea11cd5e3b00d91caf0b4730194039b45c5891
-    log: revlist-d54654790302-3cea11cd5e3b.txt
+  - ref: refs/heads/tty-next
+    old: da31de35cd2fb78f75788873e0b61e56d4bb1a90
+    new: 724ec7c190c1893ea55fd7143e7e1c8c5b61a0e7
+    log: revlist-da31de35cd2f-724ec7c190c1.txt
 
---===============4393512355432383123==
+--===============9092995964107569901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604504505 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604504519 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1604504451-65329272ff339cced55ab46032a015c2e44053ea
+nonce 1604504465-5d7b5287853f944b9c1596ab06cff89662bf8850
 
-d54654790302ccaa72589380dce060d376ef8716 3cea11cd5e3b00d91caf0b4730194039b45c5891 refs/heads/tty-linus
+da31de35cd2fb78f75788873e0b61e56d4bb1a90 724ec7c190c1893ea55fd7143e7e1c8c5b61a0e7 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+iy7obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q+YP/3T2Vvuv/h5aRLEROq4u
-KxG3aPKa3SNKjuhH2DMQUpuILzukKtIKzU6cwoM+Y2DXd7sWwZs0wdRfS02l34mR
-9ThKhY1ixl4j1bjzyoS8jUzE9OriRfZzdy2LM1fo5hTan53M1Z6tbDHL7MwiuoXz
-W0i7fzbPF/Mq2mabPvkc6g5+1RtWtT/PTUMcsNnxi/ixXA03tqCyXiid8iC3UkX8
-RiT7lZpzTeUZxeCU5k/U2T5CGzS3yUFjs3N+2gYib3oqkhdvOagAYb+0s+fstu+m
-pivFooj4gb77aM+pD1POn+rzjLszIj8lU4jje5TKDVIA/n0LV6YIRQPKUaDwOusJ
-Sm/5FGq2qZodKl3tCqhTM27KQ8rSe0m53s9BNKdvo8og2YlojIbzwuqMoR/OYqqO
-wSbMV2ReKfXr/DxweGjK63HjzBRlnBDA914fVdAEnZ7REkyP53OhRXoj/nRf66BY
-naC29EKKLt/dTrr/httjHKQIDfIpRfKHxvy2D3LB5Suo3Iz5Wl2Lv61nSIcgu+bD
-a1Xpiq/xbjMRTG3LNtqhS1dA8TwvM70M6tl/EA92rzIfp2j5Ba4rFsb0mm3chAGN
-bTTUy/vzhVnXz8bzFY5lhHM70iyryF0sKrA+8C/0jtVGVW8Q5wAebgQ1GELw0qZQ
-/BocOmYdqSF9l1EqNtF3Z1EY
-=RXLS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+iy8cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZcUP/2Zg0AZiNwQoZX1gzVFM
+Gp/st56bSNppSYtxhO8alwYrKgUdpL42JdoEayocDeNX2SJ69P72XtwhGQWQPb27
+wkdCswHGGEqOZgWJ4dD9rw0YzMFViANVjcKqiFcsBWCQBk+g/sEC/1gKoBK792v6
+uGmQu3awRNs2e1GU++X9NOPKwhKbrdcJ/Etz4dTROQiWffRjRncAo44SImKRHZ4y
+JZo32JITK+PKylLn6Xal/Gt0FLeT9WoCVr+RliSQ5P2R2z4EaqMzprvfOw52SFWj
+egpVtQKAPqW1XQ8Kk8GJ9K42uxrIj/CB/NHuibUck136Xcdc5HfVo9IpIjmA+XYM
+1FhYQvsZUflhVXUoL2NXiaXPw65F6tVWL4C1EIOCFfeFX7B3xuidnsgmSCj0z34i
+/mPCepnq+xlK69ERafks44es1AuoBdyvJC3V8UAGUfaLXbT4p66m7PtPkvqBp6b5
+K6CAfK+sHksPu1aCImPotPWQ+uw+DbDCkJF39jFviNzOOL9gdp6el1u7jufSVCMd
+k38owuSjaopuaSXWujvD2+Mdp5hAF6Ai9+CfOsd2XIZssYRgePqbHWHBaoeLRjqr
+3Hgxmzg7AHGZ5g5dp9hI+7/p2ic12mQHZoqYKl3mqocI9ITKEFIUwUkOLp33bQYJ
+wZpr9WOvy1eKgUkZEdbHVeYM
+=Ot5q
 -----END PGP SIGNATURE-----
 
---===============4393512355432383123==
+--===============9092995964107569901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d54654790302-3cea11cd5e3b.txt
+Content-Disposition: attachment; filename=revlist-da31de35cd2f-724ec7c190c1.txt
 
 b64d814257b027e29a474bcd660f6372490138c7 arm64: dts: marvell: espressobin: Add ethernet switch aliases
 0b58725fb9a446890c1fd28fc6c9e393ce21acb7 ARM: mvebu: drop pointless check for coherency_base
@@ -280,6 +280,11 @@ b9c6f782150c9992308f4474f920586eaaca4cf1 usb: typec: stusb160x: fix an IS_ERR() 
 32d174d2d5eb318c34ff36771adefabdf227c186 usb: host: ehci-tegra: Fix error handling in tegra_ehci_probe()
 0942d59b0af46511d59dbf5bd69ec4a64d1a854c usbcore: Check both id_table and match() when both available
 0cb686692fd200db12dcfb8231e793c1c98aec41 USB: apple-mfi-fastcharge: don't probe unhandled devices
+82776f6c75a90e1d2103e689b84a689de8f1aa02 tty: serial: 21285: fix lockup on open
+c97f2a6fb3dfbfbbc88edc8ea62ef2b944e18849 tty: serial: fsl_lpuart: LS1021A has a FIFO size of 16 words, like LS1028A
+6ca03f90527e499dd5e32d6522909e2ad390896b vt: keyboard, simplify vt_kdgkbsent
+82e61c3909db51d91b9d3e2071557b6435018b80 vt: keyboard, extend func_buf_lock to readers
+d54654790302ccaa72589380dce060d376ef8716 vt_ioctl: fix GIO_UNIMAP regression
 a2267f8a52eea9096861affd463f691be0f0e8c9 RDMA/qedr: Fix memory leak in iWARP CM
 136a4dfe87cd34db2153330aa84dbbc210eb36b6 ACPI: button: Drop no longer necessary Acer SW5-012 lid_init_state quirk
 332576e69a046b9b33f49bd0c3c071cc98215b60 arm64: avoid -Woverride-init warning
@@ -490,5 +495,6 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 4312e0e8d3eab027d9506db091eb10e6a9ff25d3 Merge tag 'timers-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
+724ec7c190c1893ea55fd7143e7e1c8c5b61a0e7 Merge 5.10-rc2 into tty-next
 
---===============4393512355432383123==--
+--===============9092995964107569901==--
