@@ -1,42 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============7245273365246196257=="
+Content-Type: multipart/mixed; boundary="===============5604258556533948588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Wed, 04 Nov 2020 15:36:50 -0000
-Message-Id: <160450421074.19954.3146178819264337984@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 04 Nov 2020 15:38:46 -0000
+Message-Id: <160450432652.20684.16427661189455586593@gitolite.kernel.org>
 
---===============7245273365246196257==
+--===============5604258556533948588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pci
-    old: 5676edd6d984b0696d206faa230c8da15e271044
-    new: 37959d3ddd27a71202fc0a6582653db06dd3cb74
-    log: revlist-5676edd6d984-37959d3ddd27.txt
+  - ref: refs/tags/tty-5.10-rc2
+    old: 57539b61c12fff1dd02401ac9c660507ffeb5010
+    new: 0000000000000000000000000000000000000000
 
---===============7245273365246196257==
+--===============5604258556533948588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5676edd6d984-37959d3ddd27.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-47f8fa9bb7b484eb1ab6d8c2e152bc2e9a6693ad libvhost-user: follow QEMU comment style
-4705945754ecc4eb6b4bf5892fd1b937389a6b9d configure: introduce --enable-vhost-user-blk-server
-f531f2c37f1e3f660098b6e2fa430a43f1899006 block/export: make vhost-user-blk config space little-endian
-2473e51c5412ee5a1167cb93e54291e510d9f24b block/export: fix vhost-user-blk get_config() information leak
-2d8182bf6ed36d6e7620c2fa2cd2263ee27510e6 contrib/vhost-user-blk: fix get_config() information leak
-8bfb7b1ae3746303f39724bf8ec687973487f00d test: new qTest case to test the vhost-user-blk-server
-3caa0576683a8a6e51ee2eeefe9877fc85fb1860 tests/qtest: add multi-queue test case to vhost-user-blk-test
-30ca601f6a0fafac31f53c05eabbba15edff2dba libqtest: add qtest_socket_server()
-4d73818fbcd70a7963fc3e9984fe1a7a7c4537f2 vhost-user-blk-test: rename destroy_drive() to destroy_file()
-dfb7d8ee147ffab04205e23b8db8af568a281fbb vhost-user-blk-test: close fork child file descriptors
-adc59127ada19b16f586a13cb4f380ad98cbb2ac vhost-user-blk-test: drop unused return value
-37959d3ddd27a71202fc0a6582653db06dd3cb74 vhost-user-blk-test: fix races by using fd passing
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604504376 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1604504322-2c315671397af81a53d4e36fc21c51d971007a8d
 
---===============7245273365246196257==--
+57539b61c12fff1dd02401ac9c660507ffeb5010 0000000000000000000000000000000000000000 refs/tags/tty-5.10-rc2
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+iyzgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bggP/1bA9w9U9MeLh4aSUa/t
+Uzs6UYHXSuw5nM6o787YGd+5mvnXm9M9QIZIXbVBI0kUuuWmih9o1tc6Pmt+rZlG
+7MSSTfSIlfsQMNFE9Q1tr+bMenFVK3zBO19NEOs5AhunOMCJ1f9BxfbES0FAI91H
+tVRbUgvb5RKzqaFTiLoHZ2FCmbZx7XAkv+xFfGrLVwHpbJe05E+n2esOhTgF0jO7
+L7orAh2wITHzknZes/rYJZD292r8lVk4UHmUpuRtuk3cLmhSO7EH2LT6UCcFpXrJ
+HUiQcSNDNz2HVrGmyiVzra/9UtYNe48BGjZm5oujO9MR0NSScTrkHxTTY+jVSZZM
+aoPGs2t07kF9AB/ggm6Ug46e6kFzChxzpnCdeXfWFsJPirPjIdKUvB70T/FtvIEV
+7Dn9aBEZXvYqZacHiManKX7V/eLwqwODd8EmOkqWkPr6WlnbKeOEv2T9nTalZLLl
+QtpT50BaTr96ieOIlate13nXjGOLvIvAhXKJLnOeqp8PWbtfYWXiQ2HkCrfmS4U+
+QPnc76lJGRasm0NGUSDRZ9CgesPZ5yCdQqM/0X/n1D4Dz3teBqcBbxpd/fS5tcxr
+W1k+UIVfmQuXxAPbo0GyDd7+DY2iD6bmofsfuU+efMU6CmCXV96rS+GCk54FaQtJ
+7ftE8a8C/Dgv2IESz5uLqwL7
+=T6RX
+-----END PGP SIGNATURE-----
+
+--===============5604258556533948588==--
