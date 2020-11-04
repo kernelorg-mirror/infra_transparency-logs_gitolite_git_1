@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 04 Nov 2020 20:12:05 -0000
-Message-Id: <160452072580.14355.5261163078953184912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 04 Nov 2020 20:38:30 -0000
+Message-Id: <160452231068.31889.18443917469515628252@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/usb-linus
-    old: 5f659c85f46a08118683a1903b64c5fbac12c5bf
-    new: db0362eeb22992502764e825c79b922d7467e0eb
+  - ref: refs/heads/master
+    old: 7a078d2d18801bba7bde7337a823d7342299acf7
+    new: 25cf73b9ff88fd4608699a0313f820758b4c252d
     log: |
-         db0362eeb22992502764e825c79b922d7467e0eb USB: serial: option: add Telit FN980 composition 0x1055
+         f78331f74cacb33d87cd60376dacc5bd397959e2 libbpf: Fix null dereference in xsk_socket__delete
+         25cf73b9ff88fd4608699a0313f820758b4c252d libbpf: Fix possible use after free in xsk_socket__delete
          
