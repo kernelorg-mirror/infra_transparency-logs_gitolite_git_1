@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0473058490996504858=="
+Content-Type: multipart/mixed; boundary="===============3141364610135150469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 04 Nov 2020 18:22:11 -0000
-Message-Id: <160451413153.2495.6045274367353701283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Wed, 04 Nov 2020 18:22:15 -0000
+Message-Id: <160451413560.2579.17846096369756633171@gitolite.kernel.org>
 
---===============0473058490996504858==
+--===============3141364610135150469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 27598e7e73260ed0b2917eb02d4a515ebb578313
 
---===============0473058490996504858==
+--===============3141364610135150469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -542,4 +542,4 @@ ce2e33ba4163c66ff89d2c0f2a9a51214a122e27 Merge tag 'docs-5.10-3' of git://git.lw
 e6b0bd61a73718886c2df16762f0a5dba485fc10 Merge tag 'docs-5.10-warnings' of git://git.lwn.net/linux
 4ef8451b332662d004df269d4cdeb7d9f31419b5 Merge tag 'perf-tools-for-v5.10-2020-11-03' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============0473058490996504858==--
+--===============3141364610135150469==--
