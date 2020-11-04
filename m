@@ -1,70 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============5721088254925505950=="
+Content-Type: multipart/mixed; boundary="===============5415978633260963633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Wed, 04 Nov 2020 09:46:55 -0000
-Message-Id: <160448321582.31058.18014015557793187489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
+Date: Wed, 04 Nov 2020 10:02:16 -0000
+Message-Id: <160448413660.10565.11836062612050706975@gitolite.kernel.org>
 
---===============5721088254925505950==
+--===============5415978633260963633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/jberg/mac80211
+user: jberg
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: 81e5844caed5cf0ee09d55a7db0195aa83bb9fcd
-    new: 194b4d9b90533a03e7f60dee97c443627a0efb53
-    log: revlist-81e5844caed5-194b4d9b9053.txt
+  - ref: refs/heads/master
+    old: c2f46814521113f6699a74e0a0424cbc5b305479
+    new: fea07a487c6dd422dc8837237c9d2bc7c33119af
+    log: revlist-c2f468145211-fea07a487c6d.txt
 
---===============5721088254925505950==
+--===============5415978633260963633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81e5844caed5-194b4d9b9053.txt
+Content-Disposition: attachment; filename=revlist-c2f468145211-fea07a487c6d.txt
 
-0c1b9fd408cfdc3c479533c355152bba99d71c8c scsi: lpfc: avoid double free of resource identifiers
-d3a4ad370921c3a87a25c0fce8e427bb8fe4dbb6 spi: davinci: use dma_mapping_error()
-0ce0ec017ffaf5611f885cde4849d19f4cab9203 mac80211: initialize SMPS field in HT capabilities
-47f08b76febda043323854a72fe980454c96bde4 coredump: Ensure proper size of sparse core files
-c48f5fb46faa5ad449a4cde5e71225879f41d068 swiotlb: ensure that page-sized mappings are page-aligned
-73cb5615e4abb939835ae1e445e92dfe7cbefad6 be2net: fix status check in be_cmd_pmac_add()
-d7228a856465464b242033269359daadbbdd6d14 net/mlx4_core: Eliminate warning messages for SRQ_LIMIT under SRIOV
-b1111e31f7885247fa7a9adda283c5c61a8577c8 sctp: check af before verify address in sctp_addr_id2transport
-4ef2dcd4bf64a435ed1cb3253c7fe8cba53647ee jump label: fix passing kbuild_cflags when checking for asm goto support
-7eda69c4760f824fefa051d88b11c84d13f23a2f sched/loadavg: Avoid loadavg spikes caused by delayed NO_HZ accounting
-bbd0a0add4b66360e46d65c67e21ed08ccd1ebb8 x86/mm: Fix flush_tlb_page() on Xen
-5112db1ea8955c38cde627da2cbd4f6b9b2b0314 iommu: Handle default domain attach failure
-a4375387b1009a40dca013d11261c2fbafa5ce00 fs: add a VALID_OPEN_FLAGS
-08a01d3ac3d93875d16b3a17c3d45f383c6d6bc8 fs: completely ignore unknown open flags
-15e0a0f68515eff1295ce8959d2290a3879cb4c6 mac80211_hwsim: Replace bogus hrtimer clockid
-cae38cd1b611941e0379026cb2f87520822f342c sysctl: don't print negative flag for proc_douintvec
-d1374928a5deb8ad24e20d93c624993e04aff451 sysctl: report EINVAL if value is larger than UINT_MAX for proc_douintvec
-b2d2ac40a248075af87794a64021f810983f644c pinctrl: sh-pfc: r8a7791: Fix SCIF2 pinmux data
-6f1667ae2d87f1fc15374881c1963ebdafa92a9e x86/uaccess: Optimize copy_user_enhanced_fast_string() for short strings
-e27480a716f55daae5004fd2ae420888bc633e42 tools include: Add a __fallthrough statement
-40d883b4944c499488921680b13c54291294d83e tcp: fix tcp_mark_head_lost to check skb len before fragmenting
-1ae0e12e9fa72a00b8017e991111cd956f974a0d net_sched: fix error recovery at qdisc creation
-cd5ff543d86115f22c7c7de8a2ea700a790a0558 net: sched: Fix one possible panic when no destroy callback
-482480aa35d14841cce014f07a39ef12885c73ff net: dp83640: Avoid NULL pointer dereference.
-7ebc36606510806b63d89de28970e1896cd0ab76 net: handle NAPI_GRO_FREE_STOLEN_HEAD case also in napi_frags_finish()
-8f476b708a44ff6b036324e0bc5236e42391175a arm: move ELF_ET_DYN_BASE to 4MB
-8427d6bc346e515a2f7fcbb6df79b88ddcffc6a1 arm64: move ELF_ET_DYN_BASE to 4GB / 4MB
-33667608bccf41664458ab03ed3b3f80d7c3280a Add "shutdown" to "struct class".
-f206d4a59d8b55e338b474ce3123d7b9ee7352d3 kvm: x86: Guest BNDCFGS requires guest MPX support
-c68830c18b0d0cc2f8ab9d746f5d3b0611b2d441 s5p-jpeg: don't return a random width/height
-e4e7cfdd2909f2639f52adec1e190584ad49c787 wlcore: fix 64K page support
-8b6b78b123fb7d6f3004ac45493dcd861f3808ef ipvs: SNAT packet replies only for NATed connections
-c477bff9973a3bee54650dd5a8041ed55aba4839 usb: renesas_usbhs: gadget: disable all eps when the driver stops
-0308900c070264a70c64e17f013199e484519d59 x86/xen: allow userspace access during hypercalls
-9af8074468b9a033c027cfa8c5e14ed1861a4b08 tipc: fix the skb_unshare() in tipc_buf_append()
-1111ae128e99d316c2aff2fb80b63d554b809e5f net/ipv4: always honour route mtu during forwarding
-f08b28284dc742314dbc654b9c4bcfba517ba0d0 ALSA: bebob: potential info leak in hwdep_read()
-782422429ec5e0700483eae6e929c6efda6f0ce5 fbdev, newport_con: Move FONT_EXTRA_WORDS macros into linux/font.h
-68d09bf89e1db31cf6648c154cc4714daa34586f Fonts: Support FONT_EXTRA_WORDS macros for built-in fonts
-194b4d9b90533a03e7f60dee97c443627a0efb53 Fonts: font_acorn_8x8: Replace discarded const qualifier
+dceababac29d1c53cbc1f7ddf6f688d2df01da87 netfilter: nftables: fix netlink report logic in flowtable and genid
+af8afcf1fdd5f365f70e2386c2d8c7a1abd853d7 wireguard: selftests: check that route_me_harder packets use the right sk
+46d6c5ae953cc0be38efd0e469284df7c4328cf8 netfilter: use actual socket sk rather than skb sk when routing harder
+c0391b6ab810381df632677a1dcbbbbd63d05b6d netfilter: nf_tables: missing validation from the abort path
+9e7c5b396e98eed859d3dd1ab235912a296faab5 ip6_tunnel: set inner ipproto before ip6_tnl_encap
+1e6114f51f9d4090390fcec2f5d67d8cc8dc4bfc net: fec: fix MDIO probing for some FEC hardware blocks
+d145c9031325fed963a887851d9fa42516efd52b gianfar: Replace skb_realloc_headroom with skb_cow_head for PTP
+d6a076d68c6b5d6a5800f3990a513facb7016dea gianfar: Account for Tx PTP timestamp in the skb headroom
+785ff20bce2d9f08f4a9299a5e59e2272f0ee1e9 stmmac: intel: Fix kernel panic on pci probe
+2b94f5266c8452c01291f3b0370fcad28a357746 net: stmmac: Fix channel lock initialization
+7d10e62c2ff8e084c136c94d32d9a94de4d31248 netfilter: ipset: Update byte and packet counters regardless of whether they match
+2f71e00619dcde3d8a98ba3e7f52e98282504b7d net: atm: fix update of position index in lec_seq_next
+b59e286be280fa3c2e94a0716ddcee6ba02bc8ba ICMPv6: Add ICMPv6 Parameter Problem, code 3 definition
+2efdaaaf883a143061296467913c01aa1ff4b3ce IPv6: reply ICMP error if the first fragment don't include all headers
+72a41f956ac25868d182956ca607419e621bea19 Merge branch 'ipv6-reply-icmp-error-if-fragment-doesn-t-contain-all-headers'
+403dc16796f5516acf23d94a1cd9eba564d03210 cadence: force nonlinear buffers to be cloned
+20149e9eb68c003eaa09e7c9a49023df40779552 ip_tunnel: fix over-mtu packet send fail without TUNNEL_DONT_FRAGMENT flags
+859191b234f86b5f36cbe384baca1067a2221eb7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
+04a55c944f151b3149b78beff5ff406faa84485d Merge tag 'mac80211-for-net-2020-10-30' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211
+acef159a0cb2a978d62b641e2366a33ad1d5afef dpaa_eth: update the buffer layout for non-A050385 erratum scenarios
+7834e494f42627769d3f965d5d203e9c6ddb8403 dpaa_eth: fix the RX headroom size alignment
+42172f44df77f83777d1b5004db99c23bd2df7a4 Merge branch 'dpaa_eth-buffer-layout-fixes'
+0a26ba0603d637eb6673a2ea79808cc73909ef3a net: ethernet: ti: cpsw: disable PTPv1 hw timestamping advertisement
+b6df8c81412190fbd5eaa3cec7f642142d9c16cd sctp: Fix COMM_LOST/CANT_STR_ASSOC err reporting on big-endian platforms
+99cab7107d914a71c57f5a4e6d34292425fbbb61 net: dsa: qca8k: Fix port MTU setting
+1d8504937478fdc2f3ef2174a816fd3302eca882 powerpc/vnic: Extend "failover pending" window
+9621618130bf7e83635367c13b9a6ee53935bb37 sfp: Fix error handing in sfp_probe()
+e16b874ee87aa70cd0a7145346ff5f41349b514c mptcp: token: fix unititialized variable
+5fd8477ed8ca77e64b93d44a6dae4aa70c191396 net: usb: qmi_wwan: add Telit LE910Cx 0x1230 composition
+8080b462b6aa856ae05ea010441a702599e579f2 chelsio/chtls: fix memory leaks caused by a race
+dbfe394dad33f99cf8458be50483ec40a5d29c34 chelsio/chtls: fix always leaking ctrl_skb
+fea07a487c6dd422dc8837237c9d2bc7c33119af net: openvswitch: silence suspicious RCU usage warning
 
---===============5721088254925505950==--
+--===============5415978633260963633==--
