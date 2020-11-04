@@ -1,52 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8011513161163537847=="
+Content-Type: multipart/mixed; boundary="===============0180988804589846790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Wed, 04 Nov 2020 16:14:58 -0000
-Message-Id: <160450649829.13076.6242260375976154019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Wed, 04 Nov 2020 16:15:19 -0000
+Message-Id: <160450651913.14650.10088528542711529024@gitolite.kernel.org>
 
---===============8011513161163537847==
+--===============0180988804589846790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
+repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/for-backlight-next
-    old: 97ecfda1a8ffc5ffc9681d0dfa65fd5b39839dfe
-    new: 789eb04b6c569e3e5007afd040bef5d7216d2f3a
-    log: revlist-97ecfda1a8ff-789eb04b6c56.txt
+  - ref: refs/heads/for-mfd-next
+    old: 6d81dc3c79d46b66b29712eb1ac5ad2cbe4231d2
+    new: bb6f6c10a8b01cbea278ba639cc974abd6484244
+    log: revlist-6d81dc3c79d4-bb6f6c10a8b0.txt
 
---===============8011513161163537847==
+--===============0180988804589846790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-97ecfda1a8ff-789eb04b6c56.txt
+Content-Disposition: attachment; filename=revlist-6d81dc3c79d4-bb6f6c10a8b0.txt
 
-55e0500eb5c0440a3d43074edbd8db3e95851b66 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-7fafb54c7d390e9b273a1d7d377e38d9c408046e Merge tag 'leds-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
-b4e1bce85fd8f43dc814049e2641cc6beaa8146b Merge tag 'pinctrl-v5.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-f888bdf9823c85fe945c4eb3ba353f749dec3856 Merge tag 'devicetree-for-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-1a31c12371556bfbe511edd268dab721b504d511 Merge tag 'mfd-next-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
-6448cbf662c7858c0d9eb0b135962bedd6d0b9a0 Merge tag 'backlight-next-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
-e6037a753e8e9a4146f7d94c32eb30a6717c9c70 powerpc32: don't adjust unmoved stack pointer in csum_partial_copy_generic() epilogue
-5d6c413c92a3e6fc9399141891147d0d826517c9 Merge tag 'tty-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
-fe151462bd0f7ad0e758f1cdcbeb6426e3d1ee8e Merge tag 'driver-core-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-3e4fb4346c781068610d03c12b16c0cfb0fd24a3 Merge tag 'spdx-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx
-02e83f46ebfaf9405881e290794c913d457541f0 vfs: move generic_remap_checks out of mm
-e1e84eb58eb494b77c8389fc6308b5042dcce791 ipv4/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
-272928d1cdacfc3b55f605cb0e9115832ecfb20c ipv6/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
-1a01727676a87945bd6b9796fc5ee894c24b4fe2 selftests: Add VRF route leaking tests
-f8ea4a19856070c7a4fe50a079e354300765a1e6 Merge branch 'l3mdev-icmp-error-route-lookup-fixes'
-2ef813b8f405db3f72202b6fcae40a628ab80a53 cxgb4: handle 4-tuple PEDIT to NAT mode translation
-ffd0b25ca049a477cb757e5bcf2d5e1664d12e5d Revert "powerpc/pci: unmap legacy INTx interrupts when a PHB is removed"
-5ce9ad815a296374ca21f43f3b1ab5083d202ee1 ibmveth: Switch order of ibmveth_helper calls.
-413f142cc05cb03f2d1ea83388e40c1ddc0d74e9 ibmveth: Identify ingress large send packets.
-15f0d2922dceabd9e622feae26e88a7d3b2d6ba0 Merge branch 'ibmveth-gso-fix'
-d25e2e9388eda61b6e298585024ee3355f50c493 netfilter: restore NF_INET_NUMHOOKS
 d38c8cfb057183f619dc8534030bb64b63f78043 scripts: kernel-doc: add support for typedef enum
 efa44475b8f5c692be4c5822a659e1a96f16dacb scripts: kernel-doc: make it more compatible with Sphinx 3.x
 e3ad05fe6e6ff645aa91e9a555231ff53470daba scripts: kernel-doc: use a less pedantic markup for funcs on Sphinx 3.x
@@ -1049,6 +1028,27 @@ a3d1b31213f1f789cc45a7db5c721513282d225a Merge tag 'perf-urgent-2020-10-25' of g
 986b9eacb25910865b50e5f298aa8e2df7642f1b kernel/sys.c: fix prototype of prctl_get_tid_address()
 33def8498fdde180023444b08e12b72a9efed41d treewide: Convert macro and uses of __section(foo) to __section("foo")
 3650b228f83adda7e5ee532e2b90429c03f7b9ec Linux 5.10-rc1
-789eb04b6c569e3e5007afd040bef5d7216d2f3a backlight: pwm_bl: Fix interpolation
+1dc2da5cd51f648de6d1df87e2bc6ea13f72f19c PCI: Add defines for Designated Vendor-Specific Extended Capability
+4f8217d5b0ca8ace78a27dc371b87697eedc421d mfd: Intel Platform Monitoring Technology support
+e2729113ce66d8d21f729b41bc3ed3feaf1acf69 platform/x86: Intel PMT class driver
+68fe8e6e2c4b04e2733d77834f55a4a0e172b770 platform/x86: Intel PMT Telemetry capability driver
+5ef9998c96b0c99c49c202054586967e609286d2 platform/x86: Intel PMT Crashlog capability driver
+7d9301a5829ffa356813c55e21407b660eeef02f mfd: da9xxx-core: Constify static struct resource
+a4b6ec2087fab0ea84519df817d42fa3adbf6c52 mfd: intel: Constify static struct resource
+204270b919b61fe336a8e645c736cff7d89f2695 mfd: tps65xxx: Constify static struct resource in OMAP2+ drivers
+1e7b136d29f07604361eb94cf65bbd4bdd679fcc mfd: wm8xxx-core: Constify static struct resource
+2902025f881892ccb81298e2deac19b50004b1ef mfd: lp8788: Constify static struct resource
+d9882944e229cb37212602d1318a47eea930f87f mfd: stmpe: Constify static struct resource
+1069619fa47d17d5549dbbafa3d25d851ea7abe4 mfd: sun4i-gpadc: Constify static struct resource
+2030c07b804961b673e3fe3f43a42b39faae5f7c mfd: Constify static struct resources
+7c35a6c05f36fbf5b1ff698bfb7e507aab0b4bb5 mfd: madera: Delete register field xxx_WIDTH defines
+bcf49a1cc6bb59764f556bc16c8fe021b1867ba0 mfd: qcom-spmi-pmic: Add support for PM660/PM660L
+cb9afa4d5a5c1984136df8fed1942fc029af7c4e mfd: tps65911-comparator: Use regmap accessors
+23feb2c3367c75b1a6414a989198a4f1a0a14015 mfd: tps65910: Clean up after switching to regmap
+806846ca292f4d36cd65bfa08067a3d493ee514a mfd: tps65910: Remove unused pointers
+a39a7c2d517892a632195e11085f4ab7916ca751 mfd: tps65910: Fix a bunch of alignment issues reported-by Checkpatch
+35ef62e39b59d47132658a18a3dee0e038dae472 dt-bindings: mfd: rohm,bd71837-pmic: Add common properties
+29639cbe9080ce761e5998e8a7598a3e3bff898e mfd: madera: Add reset as part of resume
+bb6f6c10a8b01cbea278ba639cc974abd6484244 mfd: madera: Add special errata reset handling for cs47l15
 
---===============8011513161163537847==--
+--===============0180988804589846790==--
