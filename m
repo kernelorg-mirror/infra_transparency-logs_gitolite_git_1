@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 04 Nov 2020 10:33:42 -0000
-Message-Id: <160448602235.31843.14417592444185636172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Wed, 04 Nov 2020 10:35:25 -0000
+Message-Id: <160448612564.1420.16417611026602592969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/review-andy
-    old: 8ef179d1818bd2cac2c77f41d88a6e4ebc7e45da
-    new: 0ddebf8580fa32b1827dcc5230a6db6260096f5e
+  - ref: refs/heads/usb-linus
+    old: 985616f0457d9f555fff417d0da56174f70cc14f
+    new: 5f659c85f46a08118683a1903b64c5fbac12c5bf
     log: |
-         c969afb4e55a2c6eec7c4195f67c5227be991393 pinctrl: intel: Add Intel Elkhart Lake pin controller support
-         e789e61f9e852a4cc31042810b34552f6de667b2 pinctrl: intel: Add Intel Alder Lake-S pin controller support
-         0ddebf8580fa32b1827dcc5230a6db6260096f5e pinctrl: lynxpoint: Unify initcall location in the code
+         489979b4aab490b6b917c11dc02d81b4b742784a USB: serial: option: add LE910Cx compositions 0x1203, 0x1230, 0x1231
+         5f659c85f46a08118683a1903b64c5fbac12c5bf USB: serial: option: add Telit FN980 composition 0x1055
          
