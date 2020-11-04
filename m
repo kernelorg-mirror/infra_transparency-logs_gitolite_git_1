@@ -1,145 +1,95 @@
-Content-Type: multipart/mixed; boundary="===============4332357216170127954=="
+Content-Type: multipart/mixed; boundary="===============8989607874098071099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 04 Nov 2020 15:07:44 -0000
-Message-Id: <160450246424.32238.3535889871034969908@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 04 Nov 2020 15:08:54 -0000
+Message-Id: <160450253413.32680.13811518448436281933@gitolite.kernel.org>
 
---===============4332357216170127954==
+--===============8989607874098071099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/rcu/next
-    old: 76b43ef30dc30f8d5f9ac91ccd562159995f5879
-    new: d77ef2684cbff728c14b3c84a356139c52ca3a5e
-    log: revlist-76b43ef30dc3-d77ef2684cbf.txt
+  - ref: refs/heads/master
+    old: b7cbaf59f62f8ab8f157698f9e31642bff525bd0
+    new: 4ef8451b332662d004df269d4cdeb7d9f31419b5
+    log: revlist-b7cbaf59f62f-4ef8451b3326.txt
 
---===============4332357216170127954==
+--===============8989607874098071099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76b43ef30dc3-d77ef2684cbf.txt
+Content-Disposition: attachment; filename=revlist-b7cbaf59f62f-4ef8451b3326.txt
 
-d70932e68be1eb49d2b089527c263ed58a187f21 lib/debug: Remove pointless ARCH_NO_PREEMPT dependencies
-dbfbb784376d867a8323d9d8e9fc2004c121b944 preempt: Make preempt count unconditional
-911a5b035db256f91fdc30a99e340c9b2d1b053c preempt: Cleanup PREEMPT_COUNT leftovers
-a2c05ee00857e8656ee920b7dee22d993f0d12b6 lockdep: Cleanup PREEMPT_COUNT leftovers
-3fc8bf8534f912b62ec3cd3347790551729b80fb mm/pagemap: Cleanup PREEMPT_COUNT leftovers
-c2743d1a8f70d161fa22015e15d6060b0e51dbe6 locking/bitspinlock: Cleanup PREEMPT_COUNT leftovers
-7cd5f4baf8080d5647f6b282fdbc64be94251b1e uaccess: Cleanup PREEMPT_COUNT leftovers
-cf6726b8d84acdc2520b37ee9ffa9379f0102c88 sched: Cleanup PREEMPT_COUNT leftovers
-4ff24745e1ad38d4e91d3162d6e88fee4ffe6c5f ARM: Cleanup PREEMPT_COUNT leftovers
-80b5756a17ad2bcd3947f48ce5cf2def5a30fb54 xtensa: Cleanup PREEMPT_COUNT leftovers
-432c9836f7e5953a0fe93d69be8967a567eb84e2 drm/i915: Cleanup PREEMPT_COUNT leftovers
-34e08d5d41e90a580673d7438ac682d313c8d890 rcutorture: Cleanup PREEMPT_COUNT leftovers
-01ad1337dc44c4e99a11903a14d9d1f077602f30 preempt: Remove PREEMPT_COUNT from Kconfig
-747e3fe58233c301a5ce4b600562798cf8f102d5 x86/cpu: Avoid cpuinfo-induced IPI pileups
-e1cc0f970d2c5081e1a21395fcb2e2e7ad735446 x86/cpu: Avoid cpuinfo-induced IPIing of idle CPUs
-86b5a7381b12b1d1d5558d8087e5bbd04b7cf702 doc: Present the role of READ_ONCE()
-cec4754003ae808be4d6ef69df7521fda5c17fff docs: Update RCU's hotplug requirements with a bit about design
-4b1c27016ebd10d5ee5eaa6ab20738305468cfd4 docs: RCU: Requirements.rst: Fix a list block
-e708102171679391b43b9d0a4a0832c03a99ff4a docs/rcu: Update the call_rcu() API
-74184907acfa7555c0ed1d781396fe654513707b rcu: Don't invoke try_invoke_on_locked_down_task() with irqs disabled
-a64a7019c3e8f24cd8af57ae32a94315c316c3ba x86/smpboot:  Move rcu_cpu_starting() earlier
-259ee6616f26fab481cbcab8c1414b013bf6778c rcu: Panic after fixed number of stalls
-e9e638312c09f1148a70a95964a9b1c7eb08bdca list.h: Update comment to explicitly note circular lists
-2daddf4b98839f510446d8b6753c32ac8d3753b5 rcu: Implement rcu_segcblist_is_offloaded() config dependent
-a03f81242f0f1613514f6ccfd2bed18af34a9cce rcu: Fix single-CPU check in rcu_blocking_is_gp()
-8cdc376092ed90f14facd132af49b1cf6b1a140c rcu: Clarify nocb kthreads naming in RCU_NOCB_CPU config
-c62e9bd1a7070d09b8df3b697159005d68ab7a48 rcu/tree: Add a warning if CPU being onlined did not report QS already
-bcb11972927babf3ad042f372ce8a8c153fc527e rcu/tree: Make struct kernel_param_ops definitions const
-20c0db46fa2cbb84f6cdaf354880fd556ced5ef1 rcu,ftrace: Fix ftrace recursion
-e91af3064cfad9cd4ac9fcd90faf74dc5c5eefce rcu/tree: nocb: Avoid raising softirq for offloaded ready-to-execute CBs
-5e5cd450cdfc4f260236d1b644a289814b4a977d rcu: Prevent lockdep-RCU splats on lock acquisition/release
-ddb411f9e780c28cf3b463381ecc0d5135b804ce rcu: Fix a typo in rcu_blocking_is_gp() header comment
-46262bfb9cc0b5674b278c7c4d58253d2d700d48 rcu: Do not report strict GPs for outgoing CPUs
-86838d5b3484f65f3508002c189f3ec909887c9f rcu/tree: Defer kvfree_rcu() allocation to a clean context
-4761612ffe3c1655e58f1ef9cf867c6f67d46fe2 kcsan: selftest: Ensure that address is at least PAGE_SIZE
-55a2346c7ac4bbf6ee6972394237bf31e29a1c05 kcsan: Never set up watchpoints on NULL pointers
-a9e2bf23a6d60acced4f30b6a9cd126815e633de kcsan: Fix encoding masks and regain address bit
-9f14cb030d987ae5e201e88cd345c6d772bcce51 sched: Un-hide lockdep_tasklist_lock_is_held() for !LOCKDEP
-891cd1f99dd94746f0caf5eea0121079178ee9bf rcu: Un-hide lockdep maps for !LOCKDEP
-d97f3bdf7a1c0346d3a272aa756d16633f0b8b3b net: Un-hide lockdep_sock_is_held() for !LOCKDEP
-a72e9d5472055ca53faed106dc9a11c6b656e66d net: sched: Remove broken definitions and un-hide for !LOCKDEP
-f505d4346f6129d4708338491cf23ca9cf1d8f2a srcu: Use a more appropriate lockdep helper
-cd539cff9470fe1dacf0bf5ab3f54f37b854d6fc lockdep: Provide dummy forward declaration of *_is_held() helpers
-65e9eb1ccfe56b41a0d8bfec651ea014968413cb rcu: Prevent RCU_LOCKDEP_WARN() from swallowing the condition
-1be6ab91e2db157faedb7f16ab0636a80745a073 srcu: Take early exit on memory-allocation failure
-e1eb075ccf3766860b7aa3f104ca29dcb8a46ed0 rcutorture: Make preemptible TRACE02 enable lockdep
-77dc174103fdb121c47621e9856d73704b7eddd2 rcu-tasks: Convert rcu_tasks_wait_gp() for-loop to while-loop
-27c0f1448389baf7f309b69e62d4b531c9395e88 rcutorture: Make grace-period kthread report match RCU flavor being tested
-7de0f68bd56cce80f68538d11b4e0115a2478e0b rcu-tasks: Make the units of ->init_fract be jiffies
-0c6d18d84db11840dd0f3f65750c6ea0bb6b8e0d refscale: Bounds-check module parameters
-08c7974293851da6a64989b5ce7a0750e58178b1 torture: Don't kill gdb sessions
-31853e4a3db79bbb4d022625c9ed002e141412f4 locktorture: Track time of last ->writeunlock()
-805cbe2e2d684b5dfcc117204d78fb18a88306f6 torture: Periodically pause in stutter_wait()
-99365bb7bda3b16d1f54999d676edd4c6b572634 torture: Make torture_stutter() use hrtimer
-ef106afe030e434e17511a9b5aa621486e8284d5 scftorture: Add an alternative IPI vector
-c7eaae0858e7ab0684e83fca93b6675c78d69e43 rcuscale: Add RCU Tasks Trace
-661b0ac7adbc60b369dd981db9ad5bb78f28bcd1 rcuscale: Avoid divide by zero
-dbd5ae2929d6def65bf63574807518f7dbf86106 torture: Exclude "NOHZ tick-stop error" from fatal errors
-9e7d3faeb4e57878d879d2ebfcae87e829586f0b rcuscale: Prevent hangs for invalid arguments
-9cbb4f8445bf14082355aa54beed0d1084b748e7 refscale: Prevent hangs for invalid arguments
-ca625fbe796c42889d361cc56f944a8fdae3244a rcutorture: Adjust scenarios SRCU-t and SRCU-u to make kconfig happy
-6d9d790d60f14348e896315a9baa399766ab97fc locktorture: Ignore nreaders_stress if no readlock support
-52a0add2289ebcacb1c690e8a31ae6a9f17833ce locktorture: Prevent hangs for invalid arguments
-ebe6d8e3bc1da64538c0cf24370d0e4106670691 torture: Prevent jitter processes from delaying failed run
-e9905e915e81517ff49fc43308e7b3ac14bc49ce rcutorture: Prevent hangs for invalid arguments
-47c5dd724228a2740c49e8ef6154de77d01862b4 torture: Force weak-hashed pointers on console log
-71f1ab11af236d221cb4ea5b37e725bf354c557d rcutorture:  Make stutter_wait() caller restore priority
-4577bada0ec27949ace2472cdb85a0e8dde6e0fc torture: Accept time units on kvm.sh --duration argument
-2e51d4fa46094bbfb06aee7aa0c474cb0220b0a9 rcutorture: Small code cleanups
-0e37f4aed11366df8a6e65f5f3d3b83d6114b4c4 torture: Allow alternative forms of kvm.sh command-line arguments
-2527038fafadf97e0377bf7979e48dea09d0d3f9 scftorture: Add full-test stutter capability
-f8e1e7acf3aff24eab22cfbf53bbd1e855e8433a locktorture: Invoke percpu_free_rwsem() to do percpu-rwsem cleanup
-475f548bdd391f3fa5b85cf533257975e34af31d rcutorture: Don't do need_resched() testing if ->sync is NULL
-8b8b20cb27e42c0fefeb1a4bc2b6613c7ca0433a rcutorture/nolibc: Fix a typo in header file
-b11b96d1b1f6f94a159c419c872fa7d93bfeacca torture: Make kvm-check-branches.sh use --allcpus
-31fd7aff5460efe7a5c55e9b4f91e1ef8f52445c tools/nolibc:  Fix a spelling error in a comment
-c8de373f375f163ee74eceb7b3c7fcea3c50ff53 tools/rcutorture: Fix BUG parsing of console.log
-5253b1fec1ba947834b691714476418c8245f898 docs/memory-barriers.txt: Fix a typo in CPU MEMORY BARRIERS section
-c732399958579116c87ee2c79616b0c1bdd1c2a3 tools/memory-model: Add a glossary of LKMM terms
-d4e85585f8a1d6d0d1b2ba08854d759dbd755227 tools/memory-model:  Document locking corner cases
-4af98e4db974d2c284ef445bc6da6e61d04ec4ff tools/memory-model: Make judgelitmus.sh note timeouts
-152756cff72150532cd401ff6a043e6811fe69e7 tools/memory-model: Make cmplitmushist.sh note timeouts
-732825c56800d9fe60fe49fabcaf1b58cd59b102 tools/memory-model: Make judgelitmus.sh identify bad macros
-bb392ecfdb72d2b2acf9badd9b8b27cb9ea91b68 tools/memory-model: Make judgelitmus.sh detect hard deadlocks
-b42e37a835ceb06bc00fdf0e0a3785be09ad4b41 tools/memory-model: Fix paulmck email address on pre-existing scripts
-93cb25dbb0a442ed275919e1732d9ff947d483ef tools/memory-model: Update parseargs.sh for hardware verification
-95f96fefabf5a952e3d8f6885f5b300be0ed10b0 tools/memory-model: Make judgelitmus.sh handle hardware verifications
-4fd5baa15d216154b13e7b4e13650156c1280ab7 tools/memory-model: Add simpletest.sh to check locking, RCU, and SRCU
-52ba4e353b6d4bdaa07100ca132e611e51621d3a tools/memory-model: Fix checkalllitmus.sh comment
-f090831b8adf55467d45cb1b9709308198127ddb tools/memory-model: Hardware checking for check{,all}litmus.sh
-7d881ba4357d57c58e6161a16801d5a7e71b573d tools/memory-model: Make judgelitmus.sh ransack .litmus.out files
-d69f5d6f45504f7634d1493f886154c792c04b23 tools/memory-model: Split runlitmus.sh out of checklitmus.sh
-c6995f75aa3fc6fddba120d78c6c7ad45e000411 tools/memory-model: Make runlitmus.sh generate .litmus.out for --hw
-6f4c732708d97b8996500eb9725bd37603ed9a2d tools/memory-model: Move from .AArch64.litmus.out to .litmus.AArch.out
-7a63ebea62ff9a77ffd843243fd69dee19a2a3f0 tools/memory-model: Keep assembly-language litmus tests
-841631d022ce62cd7707a7ebbdb8c10bcae8a87b tools/memory-model: Allow herd to deduce CPU type
-aea0ecda24833d2c673dd48c1dc9443cb63406dc tools/memory-model: Make runlitmus.sh check for jingle errors
-f86d04bd3e72b4ef635f76274b2a2818542d01b0 tools/memory-model: Add -v flag to jingle7 runs
-35ffc8414c624c043853a67669d0e22c11befd38 tools/memory-model: Implement --hw support for checkghlitmus.sh
-91bbbad93922dde0e7e2453fabdf109b85b7d36b tools/memory-model: Fix scripting --jobs argument
-622e6bef6c6c0a03c60ee636b80c89282c00390e tools/memory-model: Make checkghlitmus.sh use mselect7
-17f9675ad2f52d41dfabf0201e16366ad49543d5 tools/memory-model: Make history-check scripts use mselect7
-d8101781b440494caa1c159f9587d48fc76b5271 tools/memory-model:  Add "--" to parseargs.sh for additional arguments
-52fa005fe07473fe7ebe28e5a2da3bebcaba8e19 tools/memory-model: Repair parseargs.sh header comment
-a4c42736e725316c83a9d36ef7baf5a2b11956a9 tools/memory-model: Add checktheselitmus.sh to run specified litmus tests
-8dd8ce1e621133d71f4cb774607fdfc5e7f46072 tools/memory-model: Add data-race capabilities to judgelitmus.sh
-a52cd86fd1270e8a053195634fb24f5a6052738a tools/memory-model: Make judgelitmus.sh handle scripted Result: tag
-89b1425890c1cca29042d1101b9dd276a4d35945 tools/memory-model: Use "-unroll 0" to keep --hw runs finite
-8da4f0e0a08f446a02cea85540790ab63cf23e2f Merge branches 'cpuinfo.2020.11.02a', 'doc.2020.11.02a', 'fixes.2020.11.02a', 'lockdep.2020.11.02a', 'tasks.2020.11.02a' and 'torture.2020.11.02a' into HEAD
-1ac41618de3cc7e0141d924e75f2548f1c7daf9c Merge branch 'kcsan.2020.11.02a' into HEAD
-dd910c4680b82978314c00efb05bde63d0ef1067 Merge branch 'lkmm-dev.2020.11.02a' into HEAD
-e9e0790a1571ac717367813254f5249d6c1759ab Merge branch 'tglx-pc.2020.10.30a' into HEAD
-fe63eb935b91712ef5e5a28c003950c5453405eb rcutorture: Test runtime toggling of CPUs' callback offloading
-53a893ec3081a75d6df47efbbf1b8c17a8205d8c rcutorture: Add testing for RCU's global memory ordering
-d77ef2684cbff728c14b3c84a356139c52ca3a5e rcu/tree: Make rcu_do_batch count how many callbacks were executed
+d94df02c476cbc207651d19cfd104690b079bdb4 docs: Makefile: honor V=0 for docs building
+6b80975c6308b5dc93b270a2903a314d896974c4 scripts: kernel-doc: fix typedef parsing
+7efc6c4295f5489e25eaef6d6fb6ceb6a6e238d0 scripts: kernel-doc: split typedef complex regex
+e051955977b7e26124aa8c8398278145f85f94e8 documentation: arm: sunxi: add Allwinner H6 documents
+72b97d0b911872ba36a5742b7d790b6b165e11d8 scripts: kernel-doc: use :c:union when needed
+d29f34c098aa1b7e237ce9979eeb5cef9e5f162f sphinx: conf.py: properly handle Sphinx 4.0
+6cc6f5ad9bfb430289a356a95fc5c74fe412d5cd docs: hwmon: adm1266.rst: fix a broken reference
+2644ccef6f289c0bd545f5b79a4bfc6eb67318fe docs: admin-guide: net.rst: add a missing blank line
+32519c0326862d95186d018876a07980acf11089 docs: kasan.rst: add two missing blank lines
+97e44c4f0cb69ec4f896451454e7b54b3fe06345 docs: net: statistics.rst: remove a duplicated kernel-doc
+9d8c4f0c0170a8e63256ba257b57975f04b813ab docs: hwmon: mp2975.rst: address some html build warnings
+de39012afa7fd119fd6387c11a6ce33590717866 docs: userspace-api: add iommu.rst to the index file
+6a6223ec7779dfdabb9c2567bb42079bc300cf27 blk-mq: docs: add kernel-doc description for a new struct member
+89b422354409c275e898d26607201797cc05a932 mm: pagemap.h: fix two kernel-doc markups
+e86c6569c588a01f20e7554cc245f8fae831957b net: phy: remove kernel-doc duplication
+e930c39e098499702c23facb8cd180e35a24e9df crypto: sun8x-ce*: update entries to its documentation
+4b7560c5e4bda24fcbd54337c87056833819c73b ice: docs fix a devlink info that broke a table
+ef900cccb864d72292b6f5564850d157036905ea MAINTAINERS: fix broken doc refs due to yaml conversion
+e3e7439dbc27d99cee40674f243ec616458ddce2 docs: lockdep-design: fix some warning issues
+cf38cc9f1e71151f22584c40357afaab6609384b locking/refcount: move kernel-doc markups to the proper place
+1166eb3d5268e8445ffb9b7bac432dfb293bce1d IB/srpt: docs: add a description for cq_size member
+7c128a249c7e7697b5bd4b0ca27c1f4fe5c64f6a docs: fs: api-summary.rst: get rid of kernel-doc include
+ca766ff0c3b4a19ab2eef9a24161f77668c358c4 drm: amdgpu: kernel-doc: update some adev parameters
+cc507c435b05b23f62ae32c092de2da972a98d8e gpu: docs: amdgpu.rst: get rid of wrong kernel-doc markups
+9cd70d05132266128ccfa3d61264ef061568f049 drm: amdgpu_dm: fix a typo
+d2692abd6fa9866fda3052efa5cbd116b9fec56b selftests: kselftest_harness.h: fix kernel-doc markups
+b28d70c6a515580b29ce2be53e585bd86c8b8c8c amdgpu: fix a few kernel-doc markup issues
+afc74ce7b484da5c5698d8eb2472a58c547cbc2b docs: SafeSetID: fix a warning
+6fee9372e0af63f557ad234663d8248f3caefc37 Merge branch 'mauro-warnings' into docs-next
+3ad84246a4097010f3ae3d6944120c0be00e9e7a x86/boot/compressed/64: Introduce sev_status
+ed7b895f3efb5df184722f5a30f8164fcaffceb1 x86/boot/compressed/64: Sanity-check CPUID results in the early #VC handler
+86ce43f7dde81562f58b24b426cef068bd9f7595 x86/boot/compressed/64: Check SEV encryption in 64-bit boot-path
+c9f09539e16e281f92a27760fdfae71e8af036f6 x86/head/64: Check SEV encryption before switching to kernel page-table
+2411cd82112397bfb9d8f0f19cd46c3d71e0ce67 x86/sev-es: Do not support MMIO to/from encrypted memory
+90bfdeef83f1d6c696039b6a917190dcbbad3220 tty: make FONTX ioctl use the tty pointer they were actually passed
+b773ea650576f14442f7a546f2b15e64b10ed0eb perf tools: Remove LTO compiler options when building perl support
+e555b4b8d7b2844a9e48e06a7c3e4f9e44af847f perf tools: Update copy of libbpf's hashmap.c
+263e452eff397b370e39d464c8cbd30f6bd59fb9 tools headers UAPI: Update process_madvise affected files
+ab8bf5f2e0321f254590ad81c6e230185d88b4e5 perf tools: Fix crash with non-jited bpf progs
+a6293f36ac92ab513771a98efe486477be2f981f perf trace: Fix segfault when trying to trace events by cgroup
+0dfbe4c646bf06a85c3d70572a8b8aa6ebffe3d5 perf vendor events: Fix DRAM_BW_Use 0 issue for CLX/SKX
+9ae1e990f1ab522b98baefbfebf3cbac1a2cfac2 perf tools: Remove broken __no_tail_call attribute
+d0e7b0c71fbb653de90a7163ef46912a96f0bdaf perf scripting python: Avoid declaring function pointers with a visibility attribute
+ad6330ac2c5a38e5573cb6ae8ff75288bfd96325 tools headers UAPI: Sync prctl.h with the kernel sources
+9e228f48980635c187720c0956b39c04db5e8f56 tools headers UAPI: Sync drm/i915_drm.h with the kernel sources
+d0448d6a249b6fc4518181b214d3403dfe2c8075 tools headers UAPI: Update fscrypt.h copy
+40a6bbf5149c7302bd7515fb5e2c3d12bac462f5 tools x86 headers: Update cpufeatures.h headers copies
+8b2fc25a945b125c7ee4c36b048ad65f7c04105e tools x86 headers: Update required-features.h header from the kernel
+32b734e09ec38a0bb81d05d37056a95584d14c99 tools arch x86: Sync the msr-index.h copy with the kernel sources
+97a3863b170e38a8eefc07a72d418a81fd225216 tools UAPI: Update copy of linux/mman.h from the kernel sources
+aa04899a13078e4181146212555a1bbaa387d2c9 tools kvm headers: Update KVM headers from the kernel sources
+a9e27f5f9827eab25b76155fddcc22ddeeed58d2 tools headers UAPI: Update tools's copy of linux/perf_event.h
+42cc0e70a21faa8e7d7ea8713a3f9cd64bd3f60a tools include UAPI: Update linux/mount.h copy
+86449b12f626a65d2a2ecfada1e024488471f9e2 perf hists browser: Increase size of 'buf' in perf_evsel__hists_browse()
+6311951d4f8f28c43b554ff0719027884bedd7e3 perf tools: Initialize output buffer in build_id__sprintf
+fe01adb72356a4e2f8735e4128af85921ca98fa1 perf tools: Add missing swap for ino_generation
+2c589d933e54d183ee2a052971b730e423c62031 perf tools: Add missing swap for cgroup events
+5d020cbd86204e51da05628623a6f9729d4b04c8 tools feature: Fixup fast path feature detection
+4f3e69060dc9cc8f14ad9e172ada7120dc76445b docs: fix automarkup regression on Python 2
+c80afa1d9c3603d5eddeb8d63368823b1982f3f0 afs: Fix warning due to unadvanced marshalling pointer
+f4c79144edd8a49ffca8fa737a31d606be742a34 afs: Fix incorrect freeing of the ACL passed to the YFS ACL store op
+43c834186c185abc53b41ee985330501ccfc4f7b Merge tag 'x86_seves_for_v5.10_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+ce2e33ba4163c66ff89d2c0f2a9a51214a122e27 Merge tag 'docs-5.10-3' of git://git.lwn.net/linux
+e6b0bd61a73718886c2df16762f0a5dba485fc10 Merge tag 'docs-5.10-warnings' of git://git.lwn.net/linux
+4ef8451b332662d004df269d4cdeb7d9f31419b5 Merge tag 'perf-tools-for-v5.10-2020-11-03' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============4332357216170127954==--
+--===============8989607874098071099==--
