@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 04 Nov 2020 01:00:30 -0000
-Message-Id: <160445163097.12934.15659976741830255586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 04 Nov 2020 01:16:16 -0000
+Message-Id: <160445257601.24262.3481578705288859259@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: dbfe394dad33f99cf8458be50483ec40a5d29c34
-    new: fea07a487c6dd422dc8837237c9d2bc7c33119af
+  - ref: refs/heads/fixes
+    old: 89210981f3745d146d40f00fa17bc430e6fc3b3c
+    new: a30573b3cdc77b8533d004ece1ea7c0146b437a0
     log: |
-         fea07a487c6dd422dc8837237c9d2bc7c33119af net: openvswitch: silence suspicious RCU usage warning
+         d3938ee23e97bfcac2e0eb6b356875da73d700df erofs: derive atime instead of leaving it empty
+         a30573b3cdc77b8533d004ece1ea7c0146b437a0 erofs: fix setting up pcluster for temporary pages
          
