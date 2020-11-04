@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 04 Nov 2020 14:00:31 -0000
-Message-Id: <160449843100.15581.5861924337028048375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Wed, 04 Nov 2020 14:01:07 -0000
+Message-Id: <160449846786.15858.9666859890945449489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/for-linus
-    old: ef9ce66fab959c66d270bbee7ca79b92ee957893
-    new: 26201ddc1373c99b2a67c5774da2f0eecd749b93
+  - ref: refs/heads/fixes
+    old: db507d45f064758d2bd21792d8ba6a8b440906a6
+    new: 8045ec42d14c6f77b5e925d1421150c043dfb75d
     log: |
-         07815a2b3501adeaae6384a25b9c4a9c81dae59f ALSA: usb-audio: add usb vendor id as DSD-capable for Khadas devices
-         26201ddc1373c99b2a67c5774da2f0eecd749b93 ALSA: usb-audio: Add implicit feedback quirk for MODX
+         63fbf8013b2f6430754526ef9594f229c7219b1f pinctrl: rockchip: enable gpio pclk for rockchip_gpio_to_irq
+         8045ec42d14c6f77b5e925d1421150c043dfb75d pinctrl: rockchip: create irq mapping in gpio_to_irq
          
-  - ref: refs/heads/master
-    old: 5862276b7e049dfe1a76add81a3ba0e6fcefcd7e
-    new: 1d70af7c799e682e383984fd0ff3a54e1a0dbce1
+  - ref: refs/heads/for-next
+    old: 03dec17c36a7376423bff60edbaf42df5d91af53
+    new: 1f955a68d179cdbad083d85e0fbb6ec7360a03d1
     log: |
-         07815a2b3501adeaae6384a25b9c4a9c81dae59f ALSA: usb-audio: add usb vendor id as DSD-capable for Khadas devices
-         26201ddc1373c99b2a67c5774da2f0eecd749b93 ALSA: usb-audio: Add implicit feedback quirk for MODX
-         1d70af7c799e682e383984fd0ff3a54e1a0dbce1 Merge branch 'for-linus'
+         63fbf8013b2f6430754526ef9594f229c7219b1f pinctrl: rockchip: enable gpio pclk for rockchip_gpio_to_irq
+         8045ec42d14c6f77b5e925d1421150c043dfb75d pinctrl: rockchip: create irq mapping in gpio_to_irq
+         1f955a68d179cdbad083d85e0fbb6ec7360a03d1 Merge branch 'devel' into for-next
          
