@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3048082757718933304=="
+Content-Type: multipart/mixed; boundary="===============8918114971392150028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Wed, 04 Nov 2020 18:00:52 -0000
-Message-Id: <160451285282.22472.4830601599808155035@gitolite.kernel.org>
+Date: Wed, 04 Nov 2020 18:03:56 -0000
+Message-Id: <160451303697.23646.3115786569873609567@gitolite.kernel.org>
 
---===============3048082757718933304==
+--===============8918114971392150028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity
-    old: aa662fc04f5b290b3979332588bf8d812b189962
-    new: b000d5cb954fe25ac1ea929ae6da321033ace927
-    log: revlist-aa662fc04f5b-b000d5cb954f.txt
+  - ref: refs/heads/next-integrity-testing
+    old: f7207bedb28b74d9d2cf268bf276c5541aa1f397
+    new: 1b047b83f627c4dd6477a349550f8ae600158136
+    log: revlist-f7207bedb28b-1b047b83f627.txt
 
---===============3048082757718933304==
+--===============8918114971392150028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa662fc04f5b-b000d5cb954f.txt
+Content-Disposition: attachment; filename=revlist-f7207bedb28b-1b047b83f627.txt
 
-3f388f28639fd19d5bf6df7a882c94ccfbf49c2b panic: dump registers on panic_on_warn
-ac05b7a1b48ba9fc79937a08db4c7131dba8fc5f kernel/relay.c: drop unneeded initialization
-998ec76b920086d9f6bac8b11719ee81976743b6 scripts/gdb/proc: add struct mount & struct super_block addr in lx-mounts command
 4fbe310e44067e5f15c327483031f9564e6b1826 scripts/gdb/tasks: add headers and improve spacing format
 5cf53f3ce3b9ff5321b56f9ed9d90d59307be7d0 sched.h: drop in_ubsan field when UBSAN is in trap mode
 6a6155f664e31c9be43cd690541a9a682ba3dc22 ubsan: introduce CONFIG_UBSAN_LOCAL_BOUNDS for Clang
@@ -1050,5 +1047,8 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
 b000d5cb954fe25ac1ea929ae6da321033ace927 ima: defer arch_ima_get_secureboot() call to IMA init time
+88a3a69c1392cb2a0b23f791bf72a2889821f08a efi: generalize efi_get_secureboot
+c2f4be53520ae5a5e9738c7ae747a1edfcac7a77 ima: generalize x86/EFI arch glue for other EFI architectures
+1b047b83f627c4dd6477a349550f8ae600158136 arm64/ima: add ima_arch support
 
---===============3048082757718933304==--
+--===============8918114971392150028==--
