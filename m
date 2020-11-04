@@ -1,53 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0913255358229869626=="
+Content-Type: multipart/mixed; boundary="===============0912524660560648811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Wed, 04 Nov 2020 23:20:04 -0000
-Message-Id: <160453200447.30837.9522764612923306008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Wed, 04 Nov 2020 23:20:11 -0000
+Message-Id: <160453201126.31004.15258753704122580650@gitolite.kernel.org>
 
---===============0913255358229869626==
+--===============0912524660560648811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/numa
-    old: 9654a038f42880010bff8fe22fe84a59fd98d26d
-    new: 8a3f0ae5da9ffb9a451d5ffb7dc76180644bff06
-    log: revlist-9654a038f428-8a3f0ae5da9f.txt
+  - ref: refs/heads/next
+    old: 949b5dae730e8e99b3bdd83bc8eb2df86ea606d2
+    new: c051590300704d45b9b96071e5241825179507a5
+    log: |
+         c051590300704d45b9b96071e5241825179507a5 efi: x86/xen: switch to efi_get_secureboot_mode helper
+         
 
---===============0913255358229869626==
+--===============0912524660560648811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9654a038f428-8a3f0ae5da9f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8f7ab60e54580895a32f3882fda3b5ba31864121 x86/cpufeatures: x86/msr: Add Intel SGX hardware bits
-358d17098c4c78159fe154fac1568331667fafc0 x86/cpufeatures: x86/msr: Add Intel SGX Launch Control hardware bits
-0c64b4c0729847d84fb2fc9d909f83b44f401b5f x86/sgx: Initialize metadata for Enclave Page Cache (EPC) sections
-b0bacb54d36cf1290850e044439c060127144ffd x86/mm: x86/sgx: Signal SIGSEGV with PF_SGX
-e131efe5ba06d280a49989bc3fa847b1bcb89957 x86/cpu/intel: Detect SGX support
-5984a2ca130c2d3829bd1e3bbff53b65bb1722b0 x86/cpu/intel: Add nosgx kernel parameter
-93b27a8908aa2293a871de66e0267b6acc8a0046 x86/sgx: Add SGX page allocator functions
-fbd69fd9acf40afbcdea1c773ce87aa63dec8198 mm: Add 'mprotect' hook to struct vm_operations_struct
-681299401c91a4f32fc05cd16cfec4f78eb59c38 x86/sgx: Add SGX misc driver interface
-4235ce22235e616df2b2e795ae88d40f140a1d98 x86/sgx: Add SGX_IOC_ENCLAVE_CREATE
-6e61e843291de9b8ad13b1028456804d66afffac x86/sgx: Add SGX_IOC_ENCLAVE_ADD_PAGES
-ea9bc917c4697c6e2b347e565afb4b0bf54eed6d x86/sgx: Add SGX_IOC_ENCLAVE_INIT
-4aff9d81b2feb6dc70275557407353e132f93464 x86/sgx: Add SGX_IOC_ENCLAVE_PROVISION
-96cc520b2bc9c50c63f5f07f9348d0b6475995ce x86/vdso: Add support for exception fixup in vDSO functions
-e957c7e79dd0efa78ea920f69f92c2d49459e587 x86/fault: Add helper function to sanitize error code
-5744b02641ff9e891db644cb9e80955227e13d9f x86/traps: Attempt to fixup exceptions in vDSO before signaling
-741b631d197bb6fd67e97b16a5e0e8a86940611e x86/vdso: Implement a vDSO for Intel SGX enclave call
-94c1f778fa09f5a654074f092425f0fb1dc3a97f selftests/x86: Add a selftest for SGX
-05ce4345fb5f61a012fc7ba6b91bc48df804fba2 x86/sgx: Add a page reclaimer
-1c2e9bdab128fbd520584b16caffb90b59ab74a3 x86/sgx: Add ptrace() support for the SGX driver
-90dc0ee37f448d2b35cde8952bbca02289b6997a docs: x86/sgx: Document SGX kernel architecture
-e987eb0c95ddd1a9201e3d0d18c10af7f376159e x86/sgx: Update MAINTAINERS
-8a3f0ae5da9ffb9a451d5ffb7dc76180644bff06 x86/sgx: Allocate form local NUMA node first
+certificate version 0.1
+pusher 0x3D200E9CA6329909 1604532009 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
+nonce 1604531998-2a8f6de5e21fb16b50d13b6f9a1378da9569ef70
 
---===============0913255358229869626==--
+949b5dae730e8e99b3bdd83bc8eb2df86ea606d2 c051590300704d45b9b96071e5241825179507a5 refs/heads/next
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEnNKg2mrY9zMBdeK7wjcgfpV0+n0FAl+jNykACgkQwjcgfpV0
++n3rMwf9Hz/alSBSOlEvbJKeqj/i46a8mmvJRfYqP0UBdHnuPjiC7DVYOSuw56hN
+iVfREmMW5qKpE3sDH3gIxTdC/nZJkwabzSdoEBb/D/bxfrdYt3ssw/EBKGXeiWSP
+CSigCpTOa3wdhvyT58yu1fOtojnRPDqE5UbwJJ5AfW88ZUC66rEgWUpZ90D6D9kV
+4Ls2deIauqtr5KOmtg4dL3IbkTMQCqDrbtewJVtoDTqwXLOF5Lhy1+P/qXANhMFf
+J+JhdOlNsTJw9TLpfSDNmP/CmwQC1g7vUdSLcPM8ieg0w0ZWw8yEb2LY09al2UGs
+oUmFtz2i4PLuUWJCweaz4Eihn7IAqw==
+=9zxC
+-----END PGP SIGNATURE-----
+
+--===============0912524660560648811==--
