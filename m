@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 05 Nov 2020 00:30:06 -0000
-Message-Id: <160453620690.15160.13381464029225110917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Thu, 05 Nov 2020 00:47:58 -0000
+Message-Id: <160453727825.24902.9939613392445745668@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
+user: chanwoo
 changes:
-  - ref: refs/heads/master
-    old: 3fb6928b56f67167406daefa13ca9d2b94d48eb0
-    new: 2c24eefb2462617d264398f91e75cc0fdc978e4f
+  - ref: refs/heads/extcon-next
+    old: ca26071da1bbdb2a8c1317201e93b53b3da850c3
+    new: 54589b557a8dd21c735dbef6a8e0995ef5a11145
     log: |
-         1d0c09dee911f49e88de0ba52d1f0e57f6eb4c47 net: ipa: expose IPA version to the GSI layer
-         14dbf977dd45115a13a64ab480886598ee0ba755 net: ipa: record IPA version in GSI structure
-         56dfe8dedff977e5c20fbe7ace5e5f9ddef4b4ec net: ipa: use version in gsi_channel_init()
-         9de4a4ccddb30478b15f1dc8efbf3d06609d4066 net: ipa: use version in gsi_channel_reset()
-         ce54993d01b996cdf09e15882e77bea8c10903ca net: ipa: use version in gsi_channel_program()
-         d387c761fa8c9026cd87b8a56a3150535205be73 net: ipa: eliminate legacy arguments
-         2c24eefb2462617d264398f91e75cc0fdc978e4f Merge branch 'net-ipa-tell-gsi-the-ipa-version'
+         8f61b1b3c3d4cec27daebf8af3783791ea451b9c extcon: fsa9480: Rewrite bindings in YAML and extend
+         54589b557a8dd21c735dbef6a8e0995ef5a11145 extcon: fsa9480: Support TI TSU6111 variant
          
