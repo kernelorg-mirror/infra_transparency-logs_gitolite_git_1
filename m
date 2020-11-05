@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6322910385964033821=="
+Content-Type: multipart/mixed; boundary="===============3783579973638673215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 05 Nov 2020 06:39:22 -0000
-Message-Id: <160455836203.9223.7295299947210929733@gitolite.kernel.org>
+Date: Thu, 05 Nov 2020 06:39:28 -0000
+Message-Id: <160455836852.9373.12428644019825781559@gitolite.kernel.org>
 
---===============6322910385964033821==
+--===============3783579973638673215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,47 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc-base
-    old: 69f4ec1edb136d2d2511d1ef96f94ef0aeecefdf
-    new: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
-    log: revlist-69f4ec1edb13-3650b228f83a.txt
+  - ref: refs/heads/misc
+    old: 1ef16a407f544408d3559e4de2ed05591df4da75
+    new: d90196317484b69bb46b7144c6e0e1a4f581200d
+    log: revlist-1ef16a407f54-d90196317484.txt
 
---===============6322910385964033821==
+--===============3783579973638673215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-69f4ec1edb13-3650b228f83a.txt
+Content-Disposition: attachment; filename=revlist-1ef16a407f54-d90196317484.txt
 
-4815519ed0af833884ce9c288183bf1ae3cb9caa Merge tag 'for-5.10/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-55e0500eb5c0440a3d43074edbd8db3e95851b66 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-7fafb54c7d390e9b273a1d7d377e38d9c408046e Merge tag 'leds-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
-b4e1bce85fd8f43dc814049e2641cc6beaa8146b Merge tag 'pinctrl-v5.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-f888bdf9823c85fe945c4eb3ba353f749dec3856 Merge tag 'devicetree-for-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-1a31c12371556bfbe511edd268dab721b504d511 Merge tag 'mfd-next-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
-6448cbf662c7858c0d9eb0b135962bedd6d0b9a0 Merge tag 'backlight-next-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
-e6037a753e8e9a4146f7d94c32eb30a6717c9c70 powerpc32: don't adjust unmoved stack pointer in csum_partial_copy_generic() epilogue
-5d6c413c92a3e6fc9399141891147d0d826517c9 Merge tag 'tty-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
-fe151462bd0f7ad0e758f1cdcbeb6426e3d1ee8e Merge tag 'driver-core-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-3e4fb4346c781068610d03c12b16c0cfb0fd24a3 Merge tag 'spdx-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx
-02e83f46ebfaf9405881e290794c913d457541f0 vfs: move generic_remap_checks out of mm
-e1e84eb58eb494b77c8389fc6308b5042dcce791 ipv4/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
-272928d1cdacfc3b55f605cb0e9115832ecfb20c ipv6/icmp: l3mdev: Perform icmp error route lookup on source device routing table (v2)
-1a01727676a87945bd6b9796fc5ee894c24b4fe2 selftests: Add VRF route leaking tests
-f8ea4a19856070c7a4fe50a079e354300765a1e6 Merge branch 'l3mdev-icmp-error-route-lookup-fixes'
-2ef813b8f405db3f72202b6fcae40a628ab80a53 cxgb4: handle 4-tuple PEDIT to NAT mode translation
-ffd0b25ca049a477cb757e5bcf2d5e1664d12e5d Revert "powerpc/pci: unmap legacy INTx interrupts when a PHB is removed"
-5ce9ad815a296374ca21f43f3b1ab5083d202ee1 ibmveth: Switch order of ibmveth_helper calls.
-413f142cc05cb03f2d1ea83388e40c1ddc0d74e9 ibmveth: Identify ingress large send packets.
-15f0d2922dceabd9e622feae26e88a7d3b2d6ba0 Merge branch 'ibmveth-gso-fix'
-d25e2e9388eda61b6e298585024ee3355f50c493 netfilter: restore NF_INET_NUMHOOKS
-d38c8cfb057183f619dc8534030bb64b63f78043 scripts: kernel-doc: add support for typedef enum
-efa44475b8f5c692be4c5822a659e1a96f16dacb scripts: kernel-doc: make it more compatible with Sphinx 3.x
-e3ad05fe6e6ff645aa91e9a555231ff53470daba scripts: kernel-doc: use a less pedantic markup for funcs on Sphinx 3.x
-dbe8ba00e5adc7573b8a91855f28a383c9728991 scripts: kernel-doc: fix troubles with line counts
-eab795ddd84ffdb1c67250062d01a81be20bb208 scripts: kernel-doc: reimplement -nofunction argument
-47bcacfd2b00e3795eac3faf47eb854eb9675a4f scripts: kernel-doc: fix typedef identification
-ed8348e23abce79780f3b679c74a48bcdc47c947 scripts: kernel-doc: don't mangle with parameter list
-93351d4196802b3ee01074d96df47b73716984ba scripts: kernel-doc: allow passing desired Sphinx C domain dialect
 5ef09c96d48b41a55121df1b57404f68d7e4e5f1 scripts: kernel-doc: fix line number handling
 6e9e415854c15dbf920481eb1d245988e405bbc0 scripts: kernel-doc: try to use c:function if possible
 71e552aebf260239463d348ecb75b972bee0804b docs: cdomain.py: add support for a new Sphinx 3.1+ tag
@@ -1050,5 +1020,35 @@ a3d1b31213f1f789cc45a7db5c721513282d225a Merge tag 'perf-urgent-2020-10-25' of g
 986b9eacb25910865b50e5f298aa8e2df7642f1b kernel/sys.c: fix prototype of prctl_get_tid_address()
 33def8498fdde180023444b08e12b72a9efed41d treewide: Convert macro and uses of __section(foo) to __section("foo")
 3650b228f83adda7e5ee532e2b90429c03f7b9ec Linux 5.10-rc1
+874163aab75a6cd7422e71f1fbc6db12977fcf1d scsi: fc: Update formal FPIN descriptor definitions
+547aab51a914e1f18394d8238ef9fb4f76d5b491 scsi: fc: Add FPIN statistics to fc_host and fc_rport objects
+3dcfe0de5a9752e646a61f4ce513ac059960c7c3 scsi: fc: Parse FPIN packets and update statistics
+846101960fdbe312efac13ae4843410f516ff599 scsi: fc: Add mechanism to update FPIN signal statistics
+434ee425195097865acc42744cfd0d73f5395cef scsi: fc: Update documentation of sysfs nodes for FPIN stats
+170b7d2de29e6239b8dbc63a88de1fa9789b0d8d scsi: Remove unneeded break statements
+b9dd44fd79a1ed7ee8e7c7644ddbd803b6acfd9c scsi: message: fusion: Remove unneeded break
+c8ed1ff88c02e55bf9fa3244624e431f4f374077 scsi: target: tcmu: scatter_/gather_data_area() rework
+62e3a931db60daf94fdb3159d685a5bc6ad4d0cf scsi: lpfc: Fix invalid sleeping context in lpfc_sli4_nvmet_alloc()
+e7dab164a9aa457f89d4528452bdfc3e15ac98b6 scsi: lpfc: Fix scheduling call while in softirq context in lpfc_unreg_rpi
+e5785d3ec32f5f44dd88cd7b398e496742630469 scsi: lpfc: Re-fix use after free in lpfc_rq_buf_free()
+7cbef585a12a098e694d34e94c140b18fe0e9735 scsi: lpfc: Removed unused macros in lpfc_attr.c
+f5201f87ccafd8d80283c87490bbdf78f8a026bf scsi: lpfc: Fix duplicate wq_create_version check
+7c30bb62ed5db15cdb59f5722122fbed7421641c scsi: lpfc: Enlarge max_sectors in scsi host templates
+8aaa7bcf07a2eea5ffb6d4ee776379c0e0154f6d scsi: lpfc: Add FDMI Vendor MIB support
+b67b5944328219f8ac1e0496ae0f4e45f6d43855 scsi: lpfc: Reject CT request for MIB commands
+56ae4919f9eddf1ed60dac1e13caa1720ebf67b5 scsi: lpfc: Update lpfc version to 12.8.0.5
+ae6b4e69a80de2cf89afe451424cc02f953a4a10 scsi: doc: Fix some kernel-doc markups
+e31ac898ac298b7a0451b0406769a024bd286e4d scsi: libfc: Move scsi/fc_encode.h to libfc
+8fd9efca86d083bb6fe8676ed4edd1c626d19367 scsi: libfc: Work around -Warray-bounds warning
+3fb52041a832a253f708c845dff081a0c4fef35e scsi: libfc: Fix enum-conversion warning
+dd7143e27cb7dee8927d3ede59aff588c57bc224 scsi: ufs: Put HBA into LPM during clk gating
+61906fd465c0dba963485a138626bde82dbc6f7e scsi: ufs: qcom: Enable aggressive power collapse for ufs HBA
+4f1826b8e56ffb5c0b7243a7b573bb521b919dfb scsi: arcmsr: Configure the default command timeout value
+eb3b956d2c9bfd86ca38ea5ce6343efcbacff641 scsi: arcmsr: Ensure getting a free ccb is done under the spin_lock
+0b524abc2dd13c95a4427f91406c5a69ccca2ccb scsi: zfcp: Lift Input Queue tasklet from qdio
+84e7b4169f949f8185a5adf0f0bfb893030d0fda scsi: zfcp: Remove orphaned function declarations
+efd321768d2e0e85083b83aefb15c949d4c8930f scsi: zfcp: Clarify & assert the stat_lock locking in zfcp_qdio_send()
+a6c37abe6988eb33a5f301e252ee41ed22b8df8d scsi: zfcp: Process Version Change events
+d90196317484b69bb46b7144c6e0e1a4f581200d scsi: zfcp: Handle event-lost notification for Version Change events
 
---===============6322910385964033821==--
+--===============3783579973638673215==--
