@@ -1,55 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5356891898345706378=="
+Content-Type: multipart/mixed; boundary="===============8409576005904430904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 05 Nov 2020 15:43:48 -0000
-Message-Id: <160459102865.2210.2100857031680735952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 05 Nov 2020 15:54:23 -0000
+Message-Id: <160459166356.10856.13019966779347894244@gitolite.kernel.org>
 
---===============5356891898345706378==
+--===============8409576005904430904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-rc
-    old: 00469c97ef64f6b7e3ab08c5eeb0378260baf983
-    new: 21fcdeec09ff461b2f9a9ef4fcc3a136249e58a1
+  - ref: refs/heads/master
+    old: 4e31aa2e749700f6ece4c9454732166e7ffa7407
+    new: a49df2c36300535e8fedf0c5e2c9767cb2cda798
     log: |
-         21fcdeec09ff461b2f9a9ef4fcc3a136249e58a1 RDMA/srpt: Fix typo in srpt_unregister_mad_agent docstring
+         a49df2c36300535e8fedf0c5e2c9767cb2cda798 5.4-stable patches
          
 
---===============5356891898345706378==
+--===============8409576005904430904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher F08647C27728D5D2EB7A5F5AA5F46BDD553C74FA 1604591016 -0400
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-nonce 1604591016-4c11d893e3c8d2b8838eee79fe64ea6b75b53912
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604591713 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1604591658-8db618d3fadb3b5322267469cc7a1186690d260a
 
-00469c97ef64f6b7e3ab08c5eeb0378260baf983 21fcdeec09ff461b2f9a9ef4fcc3a136249e58a1 refs/heads/for-rc
+4e31aa2e749700f6ece4c9454732166e7ffa7407 a49df2c36300535e8fedf0c5e2c9767cb2cda798 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEfB7FMLh+8QxL+6i3OG33FX4gmxoFAl+kHagACgkQOG33FX4g
-mxp8mQ/+JjE7MTQSoVldRTWDBRSsy+bprA2GPBeUp8TZTuxh+YE69PBcX0U579aJ
-St0JUHZ3dOejbMLqK61m4GzSOvgP0l4nUtbStyG1/SLaet1Bjm5haJnHDjF/Chqy
-0sFrwlpL7bsAohKSwDPDFlMRhpKEU8sFU/qNaxLlVpGEvSveLVjF0Nhn7uxvXDc9
-mUjr8k+WmeLwwX0VN/uCLbnSC5v89zKApYX3IRfKfMxamu/F1EW8tUKCHNYxe6Rb
-bUYibKRqLN/+StSAzaKFlE7v2HTdS6AsILc+XS65Mjm6403KdOOt1o7kOPgudsMc
-DGUphMwKnLx0NZdL2X06NcSI4ADuOjCM719Y/kWvvtpghAoo8H52YhvmFIkwwz+C
-5VH5/UZOvH59alGeKJ61G69QvOYaukXXjAdM9JrkHGt38zOnH7C8Mw0q0bHqXjew
-NpKElJ6Z58wWorMPxZBZl2EQgQEnO86LM3gjNVcpvq0TW0WBVQ3lD6ZrvDQICflH
-GC+S3f9ZtIv2bNcYXeVXr9savEuw86zVDdcXMM5F3Uqeq3UaqYysx3kR7iJcWwRu
-w4sq6s/X2jvFm2rz2E2NkNWEKQEQmZNcZzk8MdLhyFRWzncuUUvZ8i7GPbHqXN6H
-ptcTaSB8ww5SX/miTvmp6SXHvPTUL+AtzZF00t4/+DAczaYACiw=
-=/Do4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+kIGEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rMAP/3BEUmfCQZMHZtBB5tty
+ja19qE5sffhbDvdGDRq9zOoVOo4UKCGL56cipX/xSuSX9qaiB8eoN7uheTBAdXwY
+pW8t19H6fsHjtGoMvo4EedShSS6Ian+W/JA2K6h2mzHJaaaGCxNJGLX8rLupPhIK
+RoVwJPc3nUIBc9VkaTYzunYtQTuzPXb3xpqogMEz6ppDlBFoo2I1719Q8GPH8ejE
+sFL1fHh471KSqIisbW64usT7+fD4HaU8KlNfuiN4QxH6zqH2bn1C3fzl50bZ07Hw
+0/5FniMVukNAoH2rlIHPmeT060S1UMQK73fs7UjxvHeeqtK9SPMHw8S7aLXnph8B
+MmRN9Tptn+I6D+eFYAlWHs4Uu+6R2CJ3pkCAd+DfOv+raNHpRYwBZ/Wwgr+aSQkN
+cy5hwaH8P8nHLYYrXPtvNKZxEHrlUEXyGOGONjD1BVgEAwclgxJbc/bAqtN7h6tH
+OISShpSsOEm9BHv5F02BX6BD49A1UW4fDVO+3ymv0ni8ISQO2aSUdr/TCFlPHqqY
+8omNj3Cl9ZoCYO0RMsdy4BPTKu4t/QrXPIFzjzxmkFw3CVNZSzJ62zsfkfzqnQCX
+7qipHB91kYJJjiNAzKb/8v28tXNw2NXb/TlNbgGmI/kTW8kHUZe45iRxZ2o1TgtH
+n4zsfP9FnPNAeOtDeloSa2+r
+=RWm4
 -----END PGP SIGNATURE-----
 
---===============5356891898345706378==--
+--===============8409576005904430904==--
