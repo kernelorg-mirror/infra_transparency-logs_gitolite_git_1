@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4477281976660000059=="
+Content-Type: multipart/mixed; boundary="===============2859533479740318491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 05 Nov 2020 16:49:46 -0000
-Message-Id: <160459498642.16421.17662841034347614227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 05 Nov 2020 16:49:54 -0000
+Message-Id: <160459499432.16523.3635196111092744172@gitolite.kernel.org>
 
---===============4477281976660000059==
+--===============2859533479740318491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.9.6
-    old: 0000000000000000000000000000000000000000
-    new: fc021c89865d2165b76f40eaedabfea8ba700b0d
+  - ref: refs/heads/linux-5.9.y
+    old: 85b047c685fcb60f9d3538d3cf57dcd9cdda5bbc
+    new: 2d182f2dc3b7d38fb1f2a74aabab50a3e0d27c3d
+    log: |
+         689d2a4996d2b503daba1809ca534623e395429c ASOC: SOF: Intel: hda-codec: move unused label to correct position
+         2d182f2dc3b7d38fb1f2a74aabab50a3e0d27c3d Linux 5.9.6
+         
 
---===============4477281976660000059==
+--===============2859533479740318491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604595036 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1604594982-d8ed51ed5dc6a0c9beb8b3973cba7ad9436d1b84
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604595044 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1604594990-c9a98662327d7d113935d147c5252f808f83da09
 
-0000000000000000000000000000000000000000 fc021c89865d2165b76f40eaedabfea8ba700b0d refs/tags/v5.9.6
+85b047c685fcb60f9d3538d3cf57dcd9cdda5bbc 2d182f2dc3b7d38fb1f2a74aabab50a3e0d27c3d refs/heads/linux-5.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+kLVwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XUQQANBPhmHX2YLPbGkDusKs
-YErkkHPiHKRtJKs4CE2blYEmKMG9Bw6exWA2DrNfFdORLlhmHNpXFbavvNKoH3w2
-Mlv1Hg0SvQ1XKooRs7nXx94Q8VZWar+3ptRAeGB5unYgIAhN6uHtNFE0SNikD0ZF
-oxbBVY1iKEK4e94ujjzxjyT4COHMX4JIvjnsu24vBXcsKDMxyKp0HFG7Z0hezLic
-aAGBEHGPJXse8PrWffmXnXIKyxGztVZWNEjgpAXuYZwDcARtVd1yRhx4iExujoFS
-CtB7K5azUVcUIIbPYgAQ+OVWAbO6ArvKieQ8o71qTFp82X0gf3su2Z33j2aASOJ1
-vwhlME1MSVwD3uFD7994wKGesTquxKw9uXslh9fNu8Ye4JeluxQlLYUaeifC7xvE
-bAPLfLi/+OUOe/2YFN+dmqVgel/q4O1MfntMYnKaZfiLju4Ch//o5hxNnRPDbPUK
-MB/4I9xmi/eXjqw3Z0gGxTiOTlW8m180+dQR/yrhO5BrZEK3CrxSXWs9CgTQyNLp
-d8uIAnpGELRA/M+Y24bm4wd7GQnBoP7wujLkSpRv1vqC6tbjBYh7DnHLg9AxU18N
-0I+R+3KD0RLeO2lnBya5NZkL23zY1HWszqd17uUCxSxXp4fIA4tFHZGwntXtijYc
-KiTo518QuRJQ68RyDGCcyuaq
-=WXT6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+kLWQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6cYQAKubmYRkDASen/U1n5aN
+k+vbIqtW2DRbVDAc8W3IaPuxMspx1nghaMbu5KG0Tmm60nErMF4xX5lJJiy3xgg9
+4oUnJZ2vwwr1GmITSrYCdKrrEodOIu8icaQkB1+TtcrRKB7OuqD5EBEQLqV91Ls5
+/np/kAvapIKC5zjVMM7UPXuJRSob6sZHAmkkBdiR32qRZKYlhe9IWeRrL6o7nFlj
+UzupANzksAC7ecpvwY+cD4nDtY7NBQ3+v/JABPllSxN/kTCZvu8DlZzKMKauSsm8
+5eYECwXmod0AsnBlzWlnzLFgia3BJoAg8R0uigrqHma3Zn65Zf470FSZuJbax0vB
+SpKwIDzoOBjKqgreYIj/Du1Y9dU0R8d0M0WgFEcq6lEwHbXkM+OGJpHqn92PD9lI
+N3hcgr1hY6Ln/uktkBxRP+v2zC1yuf9sQeM/N1fNTIkdH2BH/aqxymXETfqBgRSh
+do/jCQUgCNBcH35FVLGwWJkQMFl+e4cUpWpsXd6MnZGQ03OnMjF3S1p730xnRz+f
+C4y3+N8icmWeJhyTkIrV4jdVR234CjNDgeyzQ095E0eWujtztfHlrmFKuRSTYKNY
+kmAL/bdFSAIZGBMoqPBJgDn2AOYSmeJ3vpZjPyxED4h7Y5XgKICyRvephILWNuSC
+pjJRorkXO1u6U8eHi9A1e3lU
+=pqSu
 -----END PGP SIGNATURE-----
 
---===============4477281976660000059==--
+--===============2859533479740318491==--
