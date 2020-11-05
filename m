@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 05 Nov 2020 10:19:38 -0000
-Message-Id: <160457157854.29859.15312998239642972345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Thu, 05 Nov 2020 10:35:28 -0000
+Message-Id: <160457252808.10451.10120261409647384342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/tags/gfs2-v5.10-rc1-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 92f0b0ff97ea4783204f578e42a078a0604d2c6a
+  - ref: refs/heads/fixes
+    old: 7342ca34d931a357d408aaa25fadd031e46af137
+    new: f8fa2c2e63c76e5d73526f38bdde59fdcfbea166
+    log: |
+         a663e0df4a374b8537562a44d1cecafb472cd65b thunderbolt: Fix memory leak if ida_simple_get() fails in enumerate_services()
+         77455129fb5b2a8749330b2b40d0c8750b6bf076 thunderbolt: Add uaccess dependency to debugfs interface
+         f8fa2c2e63c76e5d73526f38bdde59fdcfbea166 thunderbolt: Only configure USB4 wake for lane 0 adapters
+         
