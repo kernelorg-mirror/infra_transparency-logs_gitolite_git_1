@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Thu, 05 Nov 2020 08:30:29 -0000
-Message-Id: <160456502920.21080.9692557671643853769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Thu, 05 Nov 2020 08:31:06 -0000
+Message-Id: <160456506624.21340.7506151057816320503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: wagi
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/master
-    old: 168d159dbcdf0d58742b7749a47a88c51c1ccb1d
-    new: 9d05df8734db61cea1031b76a4a8269362560d2b
+  - ref: refs/heads/usb-next
+    old: 179dfb954790410f65605f1c479c029c2cd73c55
+    new: 975323ab8f116667676c30ca3502a6757bd89e8d
     log: |
-         9d05df8734db61cea1031b76a4a8269362560d2b vpn-provider: Emit connection created signal if loading from keyfile
+         975323ab8f116667676c30ca3502a6757bd89e8d USB: serial: mos7720: fix parallel-port state restore
          
