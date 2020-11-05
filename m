@@ -1,69 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6252765745241752623=="
+Content-Type: multipart/mixed; boundary="===============5581828334767063856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 05 Nov 2020 15:05:59 -0000
-Message-Id: <160458875988.9902.9378198660442091279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 05 Nov 2020 15:06:01 -0000
+Message-Id: <160458876144.9984.8293733362397952743@gitolite.kernel.org>
 
---===============6252765745241752623==
+--===============5581828334767063856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v4.14.204
-    old: 0000000000000000000000000000000000000000
-    new: c9573126ab9e5bc7b8e241aa2995006e0ffd9fce
-  - ref: refs/tags/v4.19.155
-    old: 0000000000000000000000000000000000000000
-    new: 323903110ceab1a8625ee4dd112f4aaf16bff43e
-  - ref: refs/tags/v5.4.75
-    old: 0000000000000000000000000000000000000000
-    new: 5d7ed0b17abae3986059fffa3e821f584f80b609
-  - ref: refs/tags/v5.9.4
-    old: 0000000000000000000000000000000000000000
-    new: 1f5284c71320d8e27413da4eab8d41bbf92bd48c
-  - ref: refs/tags/v5.9.5
-    old: 0000000000000000000000000000000000000000
-    new: 78cd718795ad5b3fa4a40c0354788d984f9335f8
+  - ref: refs/heads/master
+    old: 7b2d654517e1669fd08af26e620ef8da640fe8d6
+    new: 63deebeb53db8ce6b66114799aec1b287e323957
+    log: |
+         63deebeb53db8ce6b66114799aec1b287e323957 4.14-stable patches
+         
 
---===============6252765745241752623==
+--===============5581828334767063856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604588809 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1604588754-58cad98fdb79b1122310d9d8d3385324b041d14c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604588811 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1604588758-c5b5548e19a66e8d37788921d94a15758c6c5781
 
-0000000000000000000000000000000000000000 c9573126ab9e5bc7b8e241aa2995006e0ffd9fce refs/tags/v4.14.204
-0000000000000000000000000000000000000000 323903110ceab1a8625ee4dd112f4aaf16bff43e refs/tags/v4.19.155
-0000000000000000000000000000000000000000 5d7ed0b17abae3986059fffa3e821f584f80b609 refs/tags/v5.4.75
-0000000000000000000000000000000000000000 1f5284c71320d8e27413da4eab8d41bbf92bd48c refs/tags/v5.9.4
-0000000000000000000000000000000000000000 78cd718795ad5b3fa4a40c0354788d984f9335f8 refs/tags/v5.9.5
+7b2d654517e1669fd08af26e620ef8da640fe8d6 63deebeb53db8ce6b66114799aec1b287e323957 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+kFQkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xd8QAMlCLBKlapUjlnKLnfBy
-kIInBwFdnpqS1YLGWacKdHm38veNQpeRcEYv0r8shGJZU9LEH0u+Cofj56TlXqRd
-hxTAO8HzecR0oloGnsnXs4wQ9+KL3dFcec6pMQ3E/Yrm9dbtUqF/j0oHWfxcIcZS
-hH9PyyL5PRt0QG54BTXk7HYBi+xiXIi/5GO0eLkmYrYLtomuxQpp8fFbP+lzLn6Q
-pQyAlGV7wOuTsaiSJvyX/fc2HCcMLB0M99R+RuQGtLHYEEr5kcL7txCTxNEOBuWO
-wTplth/9p/C5FKBM+urLeC1OkNv37iYaOu/4y5U8LX3urYsONyr3N3fNSsVGbKYD
-SCLi1p9q+LP2MYsDThoaPt31gsybifeZtPy3lKvdjBHrp9sLRH3enf8rQpD1NGKn
-rP+McZDqzv3h0xAjPjJYFt0zupk+A+D44WC95Qf8T9jblY02wALHzv/7Gk1SuY9d
-YIBkiaQKDkqLzvwQ4jASoL9VN2Rg/rMI+NqJ2HYMSYZ0arp1zlUoLpLyY3bZbzdB
-3iJAGVkFxNC76ZWC3zROpyKpuQmrnug3MXQCPW31RGAasG7i9YwfjIv6Q1XhE8PO
-wvOVSd5zXdA0P0QkJe3u33kgo2TCowkDS9GsD9mIQQ12E5zwU8LXiGLMzS7bq9+3
-HEQomSlfI7GohUX72Yj1YmN0
-=BoAn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+kFQsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CR8QAKvmleWERoUhRtfs/ZCR
+ycj4KNiSExK82OI6b0FfslbCfMTGCuaI/k/pZLfWK2ZANrAedULXWVPKoHaoypfD
+LfJIl8ZRDy7c/Kg5T273YUMIgqunhLaB59XBotM42P5RA0HeVpM8H8Hf/lZP/wcm
+e0Ptbmd/ZAuOgxIn82l/4gHXIdSuAIE9PZ1KnTSiK3yHtGInR9VDCQQ6/MWGuFvV
+h7ON3UXtqVGgG0S52g/QJqDu0xyLGm9LAbCBl2e4lAg4dRq93WDI0SCS2XOakVVj
+c3fWVpOjl9Nr4mVw1EseF342Fb/OMTrkbAEBrmxRi/rFFKLcbh/gpRsXzPLSamo8
+erpLBmpANWPv6o0puXS+wT2bXKQ6LI4fUCZDYJChLhSMr9Qp72aKN+I5WTsukosQ
+YlrXXNunI0X8HcPk3YIfK15yiovVjFdRs5+8W4fpEgekMQs0lhSUrmgFok5sMjbv
+rJ5edW8r42p67navkcXdgSI5GNUJnOCqEdgmsOrx9REvVrxcSUVY5nH8NImZPAXH
+6rwyp12mt5e5ZYE8ESoP0yWatlr+MBZHJh3NyKWoyLlMtnWEEM9JnBcXwICTNk/M
+wzoWH2JdDVZ3iKYZL3cPmBpYSYsezGBpsPvMXQB/6ud+PObkuHD2BWgk91Atc8+i
+FwHpRFzf+NMBG5X30e7NhIKN
+=gcw3
 -----END PGP SIGNATURE-----
 
---===============6252765745241752623==--
+--===============5581828334767063856==--
