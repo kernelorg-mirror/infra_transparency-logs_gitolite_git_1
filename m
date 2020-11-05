@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5136113381360577259=="
+Content-Type: multipart/mixed; boundary="===============7159678832307080329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Thu, 05 Nov 2020 23:40:26 -0000
-Message-Id: <160461962643.12358.8448817831911952511@gitolite.kernel.org>
+Date: Thu, 05 Nov 2020 23:40:39 -0000
+Message-Id: <160461963977.12523.9426036882170796601@gitolite.kernel.org>
 
---===============5136113381360577259==
+--===============7159678832307080329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
-  - ref: refs/heads/for-next
-    old: 4393916840fccc0bb996a68d4fe086b1e9aa7739
-    new: 5271e5c05ae63512a27b286262b2434d77e828b5
-    log: revlist-4393916840fc-5271e5c05ae6.txt
+  - ref: refs/heads/v5.11/integ
+    old: 1b6fe940f03dd75653badb5756b879ee33c729a2
+    new: 43ab9ca6295566ae5f60a918ce8294386094a27c
+    log: revlist-1b6fe940f03d-43ab9ca62955.txt
 
---===============5136113381360577259==
+--===============7159678832307080329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4393916840fc-5271e5c05ae6.txt
+Content-Disposition: attachment; filename=revlist-1b6fe940f03d-43ab9ca62955.txt
 
 b64d814257b027e29a474bcd660f6372490138c7 arm64: dts: marvell: espressobin: Add ethernet switch aliases
 0b58725fb9a446890c1fd28fc6c9e393ce21acb7 ARM: mvebu: drop pointless check for coherency_base
@@ -115,6 +115,9 @@ dff61e683e744675ee5ad83f23ff71701c830d45 Merge tag 'imx-fixes-5.10' of git://git
 9480b4e75b7108ee68ecf5bc6b4bd68e8031c521 cachefiles: Handle readpage error correctly
 41ba50b0572e90ed3d24fe4def54567e9050bc47 Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 831e3405c2a344018a18fcc2665acc5a38c3a707 scsi: core: Don't start concurrent async scan on same host
+5835331fd9c84ba7e9d60ea98f75c0ccd72400b7 clk: avoid devm_clk_release name clash
+378f154dc3f05409b5c9a22fffcfcbfcd31f9408 clk: add api to get clk consumer from clk_hw
+ef9dc3bfbb5c5cedf7acc91edc0458697bafb914 clk: meson: g12: drop use of __clk_lookup()
 98f9d33c5d0d779e6c96a4a8ac995085b11924f0 scsi: qla2xxx: Return EBUSY on fcport deletion
 4a434abc40d2a0c15032f88e30aeb7ad271ba795 firmware: meson-sm: enable build as module
 2f4843b172c2c0360ee7792ad98025fae7baefde scsi: mptfusion: Fix null pointer dereferences in mptscsih_remove()
@@ -460,7 +463,11 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
 8e9c052a483db5f9ae098d9b686ed80e2e98a8c5 arm64: dts: meson: remove empty lines from aml-s905x-cc v2 dts
 7bd5175918eb4b294c0979c75056f20fd90a50bf arm64: dts: meson: add watchdog to g12-common dtsi
+8e8b65293374247d81c01488a7f5752a6d423cfb pinctrl/meson: enable building as modules
+697fa7a8811e00066fb811f33c12db6dbd100784 mmc: meson-mx-sdio: replace spin_lock_irqsave by spin_lock in hard IRQ
 b0e0b3b31ee05f7089246e11158f6973e9ae9d9a Merge branch 'v5.11/dt64' into tmp/aml-rebuild
 5271e5c05ae63512a27b286262b2434d77e828b5 Merge branch 'v5.11/drivers' into tmp/aml-rebuild
+2a8df06cb1b1685c7b2d6d62a285e16b60bb52b7 Merge remote-tracking branch 'clk-meson/v5.11/drivers' into tmp/aml-rebuild
+43ab9ca6295566ae5f60a918ce8294386094a27c Merge branch 'v5.11/testing' into tmp/aml-rebuild
 
---===============5136113381360577259==--
+--===============7159678832307080329==--
