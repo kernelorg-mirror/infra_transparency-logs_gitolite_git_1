@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 05 Nov 2020 18:02:21 -0000
-Message-Id: <160459934171.7063.7370316599675928091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 05 Nov 2020 18:07:44 -0000
+Message-Id: <160459966448.10221.14838613978185301825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 2aaf09a0e7842b3ac7be6e0b8fb1888b3daeb3b3
-    new: 2bcbf42add911ef63a6d90e92001dc2bcb053e68
+  - ref: refs/heads/fixes
+    old: 9d750c75bd2c3fcf20a3c15378d1bc6b2d4ec31f
+    new: 1bd14a66ee5200d6a24419cbd2e0a0fccd4da36f
     log: |
-         2bcbf42add911ef63a6d90e92001dc2bcb053e68 ionic: check port ptr before use
+         1bd14a66ee5200d6a24419cbd2e0a0fccd4da36f RISC-V: Remove any memblock representing unusable memory area
          
