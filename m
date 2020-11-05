@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 05 Nov 2020 08:46:50 -0000
-Message-Id: <160456601010.30603.4804249525789880764@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 05 Nov 2020 09:02:03 -0000
+Message-Id: <160456692365.11755.13343110457986850943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/sched/cpufreq-cooilng
-    old: d601d17eb53e92b6988a4ca816350b68cc5c9c43
-    new: 3461254d6e7fda93ec2ccbb1670f6babdb8ea2e8
+  - ref: refs/heads/for-linus
+    old: 26201ddc1373c99b2a67c5774da2f0eecd749b93
+    new: 0938ecae432e7ac8b01080c35dd81d50a1e43033
     log: |
-         7a5dcf4ce7f1f925dc57d30ecc86e6da312f535f sched/core: Rename and move schedutil_cpu_util() to core.c
-         3461254d6e7fda93ec2ccbb1670f6babdb8ea2e8 thermal: cpufreq_cooling: Reuse sched_cpu_util() for SMP platforms
+         0938ecae432e7ac8b01080c35dd81d50a1e43033 ALSA: usb-audio: Add implicit feedback quirk for Qu-16
+         
+  - ref: refs/heads/master
+    old: 1d70af7c799e682e383984fd0ff3a54e1a0dbce1
+    new: 88a8d08fd73c73d50ed568177067dc82546b9953
+    log: |
+         0938ecae432e7ac8b01080c35dd81d50a1e43033 ALSA: usb-audio: Add implicit feedback quirk for Qu-16
+         88a8d08fd73c73d50ed568177067dc82546b9953 Merge branch 'for-linus'
          
