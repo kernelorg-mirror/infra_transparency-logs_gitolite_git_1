@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5167442057910670161=="
+Content-Type: multipart/mixed; boundary="===============4606850227843565808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 06 Nov 2020 23:24:11 -0000
-Message-Id: <160470505171.9454.2342774579358413254@gitolite.kernel.org>
+Date: Fri, 06 Nov 2020 23:24:47 -0000
+Message-Id: <160470508720.9822.8111847192657454598@gitolite.kernel.org>
 
---===============5167442057910670161==
+--===============4606850227843565808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 8d1b3a507a8cd363340285bd11b0f8d65dc1fcda
     new: fd7f30cb4e48afa8ebb8703c77532a4023580df9
     log: revlist-8d1b3a507a8c-fd7f30cb4e48.txt
 
---===============5167442057910670161==
+--===============4606850227843565808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ d7029e4549691ecaf1ead536d3322a00bda85659 highmem: Get rid of kmap_types.h
 13f876ba77ebd5125799bb042201f22cf73df154 highmem: High implementation details and document API
 fd7f30cb4e48afa8ebb8703c77532a4023580df9 Merge branch 'core/mm'
 
---===============5167442057910670161==--
+--===============4606850227843565808==--
