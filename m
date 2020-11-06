@@ -1,42 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1558466804914235568=="
+Content-Type: multipart/mixed; boundary="===============2044542992223597310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 06 Nov 2020 02:48:13 -0000
-Message-Id: <160463089388.29827.13756893195725195187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 06 Nov 2020 02:50:03 -0000
+Message-Id: <160463100396.31777.9994110427258390291@gitolite.kernel.org>
 
---===============1558466804914235568==
+--===============2044542992223597310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: d0b3d2d7e50de5ce121f77a16df4c17e91b09421
-    new: b6b466a81f84e02f5d57a641db16ee3f24388923
-    log: revlist-d0b3d2d7e50d-b6b466a81f84.txt
+  - ref: refs/heads/io_uring-5.10
+    old: 6b47ab81c9a9b56a94882815e9949d40e4207c92
+    new: 9a472ef7a3690ac0b77ebfb04c88fa795de2adea
+    log: |
+         9a472ef7a3690ac0b77ebfb04c88fa795de2adea io_uring: fix link lookup racing with link timeout
+         
+  - ref: refs/heads/tif-task_work.arch
+    old: c635583f22c024c2d203831467aed8edcbba8e6f
+    new: e34682c6accc49bf7508c3014402ba7e9afc2830
+    log: revlist-c635583f22c0-e34682c6accc.txt
 
---===============1558466804914235568==
+--===============2044542992223597310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0b3d2d7e50d-b6b466a81f84.txt
+Content-Disposition: attachment; filename=revlist-c635583f22c0-e34682c6accc.txt
 
-c81ed6d81e0560713ceb94917ff1981848d0614e libbpf: Factor out common operations in BTF writing APIs
-d9448f94962bd28554df7d9a342d37c7f13d6232 selftest/bpf: Relax btf_dedup test checks
-88a82c2a9ab5b2ce533c3de3f4517853c2f67f53 libbpf: Unify and speed up BTF string deduplication
-ba451366bf44498f22dd16c31a792083bd6f2ae1 libbpf: Implement basic split BTF support
-197389da2fbfbc3cefb229268c32d858d9575c96 selftests/bpf: Add split BTF basic test
-1306c980cf892bc17e7296d3e9ab8e9082f893a1 selftests/bpf: Add checking of raw type dump in BTF writer APIs selftests
-d8123624506cd62730c9cd9c7672c698e462703d libbpf: Fix BTF data layout checks and allow empty BTF
-f86524efcf9e3f3a7cf75ebcd82cf8f58ec716cc libbpf: Support BTF dedup of split BTFs
-6b6e6b1d09aa20c351a1fce0ea6402da436624a4 libbpf: Accomodate DWARF/compiler bug with duplicated identical arrays
-232338fa2fb47726ab7c459419115a6ab6bfb3e3 selftests/bpf: Add split BTF dedup selftests
-75fa1777694c245c1e59ac774cb1d58a15ecefeb tools/bpftool: Add bpftool support for split BTF
-b6b466a81f84e02f5d57a641db16ee3f24388923 Merge branch 'libbpf: split BTF support'
+d33bc1f684d5353ebe75ae9b24358ebf497f0c0d openrisc: add support for TIF_NOTIFY_SIGNAL
+9bfac9c5613265fe544ee9d032abed1f4fda4eb1 csky: add support for TIF_NOTIFY_SIGNAL
+f07c66680c4416c4e4e22525d1e2a91b641fc0e5 alpha: add support for TIF_NOTIFY_SIGNAL
+e6531c5cd9ffb0b80930b4bb28c4e5ace97fef7b arm: add support for TIF_NOTIFY_SIGNAL
+3b0fbde257a71210be5766563d85002ae2836702 c6x: add support for TIF_NOTIFY_SIGNAL
+c612a313abbc81b9585549d03d8bb5b7f4c96407 h8300: add support for TIF_NOTIFY_SIGNAL
+d2068f40c82b9e3ddf73cc9fb8080c9d8125dd83 hexagon: add support for TIF_NOTIFY_SIGNAL
+1c0c3de14b857f849e7bf1e968d9a811ec97ee0d ia64: add support for TIF_NOTIFY_SIGNAL
+13d7f083b662b1aa04242873ae59eae2d7f5e3b1 microblaze: add support for TIF_NOTIFY_SIGNAL
+c232ef57e16ed3b69f46d8945071630c917cbe86 nds32: add support for TIF_NOTIFY_SIGNAL
+c08cab2eb923ee03b564c0f2f330eccb8f67fc11 riscv: add support for TIF_NOTIFY_SIGNAL
+18a05b87eba8f73953a92f548c823d5b189d9ed2 sh: add support for TIF_NOTIFY_SIGNAL
+8e97e626089b2bdb3f4862b09d802647f760df79 sparc: add support for TIF_NOTIFY_SIGNAL
+82da20e573dc496f6ec3750012a4eaf7d9e6901f xtensa: add support for TIF_NOTIFY_SIGNAL
+5bf1339308a51d99423e85a85b3391b7b62b253f task_work: remove legacy TWA_SIGNAL path
+7718ff565daf5d21c856bcf5f99963f7c0eb3931 io_uring: JOBCTL_TASK_WORK is no longer used by task_work
+8837ee406afade078743be7f62c7fc0349772674 signal: kill JOBCTL_TASK_WORK
+3d66d3a5d6a532ade9865523ec24001225ec459a kernel: remove checking for TIF_NOTIFY_SIGNAL
+e34682c6accc49bf7508c3014402ba7e9afc2830 io_uring: remove 'twa_signal_ok' deadlock work-around
 
---===============1558466804914235568==--
+--===============2044542992223597310==--
