@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1581069856529800484=="
+Content-Type: multipart/mixed; boundary="===============8745727117880480494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 06 Nov 2020 10:02:27 -0000
-Message-Id: <160465694740.4678.3678477028895037132@gitolite.kernel.org>
+Date: Fri, 06 Nov 2020 10:04:25 -0000
+Message-Id: <160465706595.5423.5171241546753579916@gitolite.kernel.org>
 
---===============1581069856529800484==
+--===============8745727117880480494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 16b37e7ba6fdcedbfb957408a884d3bb44013842
-    new: eb27cf085cc8a487ea8a35b7cbdd2f7697c52274
+    old: eb27cf085cc8a487ea8a35b7cbdd2f7697c52274
+    new: bbda3ac4f24e8cae41ec2418de8344012f0e3ca5
     log: |
-         d1e7550ad081fa5e9260f636dd51e1c496e0fd5f staging: ks7010: fix missing destroy_workqueue() on error in ks7010_sdio_probe
-         071dc1787a2f8bb636f864c1f306280deea3b1d5 staging: rtl8192u: fix wrong judgement in rtl8192_rx_isr
-         92576c84c8c608d65f0454ef19d7af66fb4bdebd Staging: rtl8723bs: core: rtw_cmd: Fixed four if-statement coding style issues
-         096f64905f0c5ab82918a0bdc42d503ef1bad98c drivers: staging: rtl8188eu: Fix spelling in two comments i.e defalut to default
-         eb27cf085cc8a487ea8a35b7cbdd2f7697c52274 drivers: staging: most: use swabXX functions of kernel
+         99c1fdae1a7f6ac09d2c2eb6cf145edd40e5de9f Staging: mt7621-pci: Fix alignment warnings
+         773cfe0684a35f73068421999011f3806de8593a staging: mt7621-dma: fix alignment warnings
+         bbda3ac4f24e8cae41ec2418de8344012f0e3ca5 staging: rtl8723bs: remove MAC_FMT macro
          
 
---===============1581069856529800484==
+--===============8745727117880480494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604656990 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604657107 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1604656940-389e4cb07c5ea70a6d972a789866af2b3d216126
+nonce 1604657056-90005be695b9d9aafc9dedbfb8b9b9e83f254b47
 
-16b37e7ba6fdcedbfb957408a884d3bb44013842 eb27cf085cc8a487ea8a35b7cbdd2f7697c52274 refs/heads/staging-testing
+eb27cf085cc8a487ea8a35b7cbdd2f7697c52274 bbda3ac4f24e8cae41ec2418de8344012f0e3ca5 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+lH14bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5usP/jvcnzUCz+XQ/WBvqY+O
-ADCW4modAU8l916tKQnTaKLv3LIG3PnwW3sOmA4c1940iJdPnTKx75g8Winf2IMV
-dcNdCZiySSVsIjWEqw967UQz27gX5jDkdriAVN2CYSUJKdzfIQVMMRlWZRfTBgur
-c4v4FJYFice1nm4Ws8c0g9TYxJZdvx4smskQyvvulJrEf0fakIbSzsURh2pyWLHt
-pozTPzZeCBX2IZNishKj0Ef3vhi41Kg2BQoIJ4c+Xf0lCuUCKMrO5pHszihaIIzv
-U3ky9j7tS5SCvXkBT9Jltc5/5X7Mt3cPfx3Zw7kau/m6/sXnS2oVvQwlBfAHfkS4
-Sca1f5hEwKdsQBU9v0j16SI2j/1t3HgCxLE8VRM8SmXnTY44TDLgECwOQ9PbIAU/
-HYgx1jVJc44gGvxRM8SWsyMD5Usf0+Xbbv5kg0WyRqK7agyU8SanxaUc53BMgRDB
-64IPuwR/9NcFxAYbiT4gI6HqEc3BMjxoyDUfumbUlQrUirJvhO1w1J76ouh6JAd4
-uacp1ZCpYLc+mJkfBWIF4NVrKIUZg+rhWgQxI1XMMR72txGXih8IGAJmpD/+EClx
-tjlm6htGoU2iRC0MExQ8Pm/I5TOO/Iy+OyQPFMWODIHpfEaa/Lymi63NdoT/M6Qs
-+CQTLEjCZr78tgXDsgNanSII
-=MQSm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+lH9MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bYUP/jf50K7wMuKpPLAl+13J
+OW4lSH16X5ig//AE2HNipJaDUdw/hgq/uFOSOfyHODOQhCYm8/uClX/f/WRGQcdx
+CTG2mlWg65Z5DgnyxB+3Ver4aZX4WA9twSJJXgylb0zBdvismCgH7/uw0V2f/Lvo
+ldaC90nLmIrKlafX+zeZAUIAnwMBfuzurrchm1VkV9J4ICKh9S3wd/OKaLJmLkZJ
+P0X6rJ2MvwwHfZz86/pxfskBhhYPdxibbh0R3lGYMsnh6e5OLsQUBXkUaDQId9F4
+gyLnIh8vP/OeAgKCHOsilkjPjv7WGqnAVwdU1tq9uVlpmUsC+GvzXgUQhpNn762m
+XdJBWb4ZpE+dPQvJthXguxAlq51tjhk1cUb+ZA6V1k/8rrZrfc5fa49nfT5yh5uy
+c7FdzR/bVwDOtPt9xrOHn1JBqVn3ICiOlbSupc7Di6enCQnq05X82eZC8ELofkYg
+MA7ZGkFAcjLPlGUSQtjl64uY8pzIjNw9QCSkvReQU74yGr/auIEKSlkyP1j3DKTM
+/N/JFwdYz5+roI4jtzMvPZQRy5V8CKa3h7YYttKRAHwNfjphzcKyPtkWMZrRAVn1
+jtT+349KrfrpFdJ3bToIkNl9n93F/bDQIGhEcQtbK7mZD3I/WvRh48m7yE0ypOA8
+jhfXyw18yRsGt1+KVkFXORi2
+=DBPN
 -----END PGP SIGNATURE-----
 
---===============1581069856529800484==--
+--===============8745727117880480494==--
