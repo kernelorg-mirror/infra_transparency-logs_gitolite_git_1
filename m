@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 06 Nov 2020 16:21:36 -0000
-Message-Id: <160467969686.8929.17573237491444801955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
+Date: Fri, 06 Nov 2020 16:21:38 -0000
+Message-Id: <160467969868.8993.6966602809476155263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/joro/iommu
+user: joro
 changes:
-  - ref: refs/heads/next
-    old: bd0fe3dae5541bfc4746dcb7f536393015a5e963
-    new: 8ffd778aff45be760292225049e0141255d4ad6e
-    log: |
-         b154ce11ead925de6a94feb3b0317fafeefa0ebc tpm_tis: Disable interrupts on ThinkPad T490s
-         8ffd778aff45be760292225049e0141255d4ad6e tpm: efi: Don't create binary_bios_measurements file for an empty log
-         
+  - ref: refs/tags/iommu-fixes-v5.10-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 44def23e182ba0c238845b23abbd7fa8bd7d7359
