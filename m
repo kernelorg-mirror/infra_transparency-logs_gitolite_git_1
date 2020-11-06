@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============4855830424682662917=="
+Content-Type: multipart/mixed; boundary="===============0725126408173534990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 06 Nov 2020 10:12:23 -0000
-Message-Id: <160465754352.10836.17674977897266389026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
+Date: Fri, 06 Nov 2020 10:27:01 -0000
+Message-Id: <160465842122.21991.8086680615576668027@gitolite.kernel.org>
 
---===============4855830424682662917==
+--===============0725126408173534990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jberg/mac80211-next
+user: jberg
 changes:
-  - ref: refs/heads/staging-linus
-    old: e2b2e4386cb7a5e935dff388cf8961317daf39ce
-    new: 06ea594051707c6b8834ef5b24e9b0730edd391b
-    log: |
-         06ea594051707c6b8834ef5b24e9b0730edd391b staging: ralink-gdma: fix kconfig dependency bug for DMA_RALINK
-         
+  - ref: refs/heads/master
+    old: c9448e828d113cd7eafe77c414127e877ca88b20
+    new: 70c5e40ca959ad48e932a343116a76dd78859e5e
+    log: revlist-c9448e828d11-70c5e40ca959.txt
 
---===============4855830424682662917==
+--===============0725126408173534990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c9448e828d11-70c5e40ca959.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604657587 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1604657535-b9acab649f9cab8796ea7f96e28da887f927b5a3
+c7287cb8c686f1f9eb1a5e557e9b5ff9b360ddae mac80211: use semicolons rather than commas to separate statements
+8280c07e0762ba753876c427584a792e86f3f7e7 ieee80211: Add definition for WFA DPP
+9f0ffa418483938d25a15f6ad3891389f333bc59 cfg80211: Add support to configure SAE PWE value to drivers
+9c97c88d2f4b221d99491c3196da42004c195fb5 cfg80211: Add support to calculate and report 4096-QAM HE rates
+ba5c25236bc3d399df82ebe923490ea8d2d35cf2 nl80211/cfg80211: fix potential infinite loop
+857b34c4fb104cecc95cd5c5fea5052628758a0f nl80211: fix beacon tx rate mask validation
+c4a30446a92a222d2f368254dcc4ab2fda0ba924 cfg80211: add support to configure HE MCS for beacon rate
+70debba3ab7d1009e97310268339cee1d5c7d949 mac80211: save HE oper info in BSS config for mesh
+30df81301c63643fe1c3b9f05a57059c35a6a953 mac80211: add radiotap flag to assure frames are not reordered
+66d06c84730c8b148d93909ffbddf074fd771a48 mac80211: adhere to Tx control flag that prevents frame reordering
+527d675969a1dff17baa270d4447ac1c87058299 mac80211: don't overwrite QoS TID of injected frames
+70c5e40ca959ad48e932a343116a76dd78859e5e mac80211: assure that certain drivers adhere to DONT_REORDER flag
 
-e2b2e4386cb7a5e935dff388cf8961317daf39ce 06ea594051707c6b8834ef5b24e9b0730edd391b refs/heads/staging-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+lIbMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1ZAQAJ3TxqGEQVtdMlAaKxDa
-isdTANbn84f/c2HzOXs6LnYohRQXfZHM4BdsyrjyYpXkQ0ADSB5VT6VdAoGtigK3
-SIfaG3n1CpzOIlEO4GNXLZtIjVpqbaVobzRKVY02fa51u0wAPDjgysc45jBXuWpV
-3BD1bZ85symAkQVVd53F2qC2epF90gf0OZ8tndeMJ8c35j2b0GqMauN3BmXiteDr
-KfhXbUkQr6xcTydi8E3vAgh2ydsJMnqNJgQPSRyGZRSLhQWo45kUmVVL3zRwCQal
-jPhhBExE9hbWzLte68wO3kBth8YXuA9CTbJF1e4LMdtuSxQ8rGdCgZW4cGnBoROW
-sT/idadMfu4e9d138vnJtKKMrzKhdHRGTw/tHJ7EKK3xbbe0mGKrysj8T08z+LeO
-3YtNcmWjbi8QfhAFN3X0oqk0OHcnco0zcDUYjwB3+YFYjShSWqSkjSx3rYqCCbE7
-WKP7obn06JPBu/KQzlzlkcqwd4pYVFx4Fyr31g5aV0LNLiJ1yXmrpmSEzBLe1Syx
-ob8w2pQs4zZLUIRN6RvOSjRCDV2AXk+XZNvwQLCEXrqHiW7AQE/857Tv497V3G0F
-sAV8NElKLfh8GT/UyE6mAe0iYQ/DV38whqem/5m7JsuBwRaPSJxArKcJQtqBnrLy
-eonenmpgdKyNbedNapGM7yMF
-=qe7w
------END PGP SIGNATURE-----
-
---===============4855830424682662917==--
+--===============0725126408173534990==--
