@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 06 Nov 2020 01:34:23 -0000
-Message-Id: <160462646379.13844.12923459849138672230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 06 Nov 2020 02:25:59 -0000
+Message-Id: <160462955949.17262.9916692864205250492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/fixes
-    old: 1bd14a66ee5200d6a24419cbd2e0a0fccd4da36f
-    new: 79605f1394261995c2b955c906a5a20fb27cdc84
+  - ref: refs/heads/master
+    old: 25cf73b9ff88fd4608699a0313f820758b4c252d
+    new: f9b7ff0d7f7a466a920424246e7ddc2b84c87e52
     log: |
-         79605f1394261995c2b955c906a5a20fb27cdc84 riscv: Set text_offset correctly for M-Mode
+         f9b7ff0d7f7a466a920424246e7ddc2b84c87e52 tools/bpftool: Fix attaching flow dissector
          
