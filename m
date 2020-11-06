@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Fri, 06 Nov 2020 08:50:10 -0000
-Message-Id: <160465261005.3979.17129300991320111724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/iw
+Date: Fri, 06 Nov 2020 08:53:13 -0000
+Message-Id: <160465279382.5368.9548465118341342524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/jberg/iw
+user: jberg
 changes:
-  - ref: refs/heads/kasan
-    old: fda12cf0cac9b317d7e72e336a2216239dd4085c
-    new: 03849807ad51ee8884d2b8dc4d0b3b7c19af335e
+  - ref: refs/heads/master
+    old: f8ade75e5e350d52ba39ea6cabc76763a00e6a3d
+    new: 7ba90935edd4f5b3690de55910aebeadc4898856
     log: |
-         03849807ad51ee8884d2b8dc4d0b3b7c19af335e mm: kasan: Index page hierarchy as an array
+         5ec60ed9aa7bf06f31d40028c6e1c42c8ea09a50 iw: Add 'coloc' and 'flush' options to sched_scan
+         7ba90935edd4f5b3690de55910aebeadc4898856 iw: scan: add flag for scanning colocated ap
          
