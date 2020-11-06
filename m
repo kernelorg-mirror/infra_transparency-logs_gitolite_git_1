@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5084426995582464996=="
+Content-Type: multipart/mixed; boundary="===============1535490646787585644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 06 Nov 2020 17:53:09 -0000
-Message-Id: <160468518962.6081.701300361924839815@gitolite.kernel.org>
+Date: Fri, 06 Nov 2020 17:53:24 -0000
+Message-Id: <160468520415.6399.17584674623502015180@gitolite.kernel.org>
 
---===============5084426995582464996==
+--===============1535490646787585644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/random-pending
-    old: 993bc80987bfb9568bf5cbeef9fea38fe18fe4d0
-    new: 870ef42a4af91dbcefeb47f4fc6fb74cbd07ef6b
-    log: revlist-993bc80987bf-870ef42a4af9.txt
+  - ref: refs/heads/vfs-pending
+    old: 2b87f93c4ef0eed3bbf50eb0c1fa9f22358ced6e
+    new: c796fde9c8174c2d3ddf745fad327896eaa1f202
+    log: revlist-2b87f93c4ef0-c796fde9c817.txt
 
---===============5084426995582464996==
+--===============1535490646787585644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-993bc80987bf-870ef42a4af9.txt
+Content-Disposition: attachment; filename=revlist-2b87f93c4ef0-c796fde9c817.txt
 
 b64d814257b027e29a474bcd660f6372490138c7 arm64: dts: marvell: espressobin: Add ethernet switch aliases
 0b58725fb9a446890c1fd28fc6c9e393ce21acb7 ARM: mvebu: drop pointless check for coherency_base
@@ -464,9 +464,7 @@ c2dc4c073fb71b50904493657a7622b481b346e3 Merge tag 'for_linus' of git://git.kern
 4312e0e8d3eab027d9506db091eb10e6a9ff25d3 Merge tag 'timers-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7b56fbd83e261484da43f04090bce07570bd117f Merge tag 'x86-urgent-2020-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cea11cd5e3b00d91caf0b4730194039b45c5891 Linux 5.10-rc2
-3fac347c11745d6122aee36d442d5a891257db4a random: fix the RNDRESEEDCRNG ioctl
-dd0f2c127dd823e1f85dbde17ae8301ba5786b02 random: remove dead code left over from blocking pool
-411b3cd50db2195eee236471e236ebf4f2631c5b random: initialize ChaCha20 constants with correct endianness
-870ef42a4af91dbcefeb47f4fc6fb74cbd07ef6b random: use correct memory barriers for crng_node_pool
+9e654fd9392ebd7d37e7e3fd98d070a420dd9e3a vfs: don't unnecessarily clone write access for writable fds
+c796fde9c8174c2d3ddf745fad327896eaa1f202 fs/namespace.c: WARN if mnt_count has become negative
 
---===============5084426995582464996==--
+--===============1535490646787585644==--
