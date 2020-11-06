@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4253115512378802288=="
+Content-Type: multipart/mixed; boundary="===============4855830424682662917=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 06 Nov 2020 10:10:58 -0000
-Message-Id: <160465745895.10301.5719346563104627947@gitolite.kernel.org>
+Date: Fri, 06 Nov 2020 10:12:23 -0000
+Message-Id: <160465754352.10836.17674977897266389026@gitolite.kernel.org>
 
---===============4253115512378802288==
+--===============4855830424682662917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-linus
-    old: 3cea11cd5e3b00d91caf0b4730194039b45c5891
-    new: e2b2e4386cb7a5e935dff388cf8961317daf39ce
+    old: e2b2e4386cb7a5e935dff388cf8961317daf39ce
+    new: 06ea594051707c6b8834ef5b24e9b0730edd391b
     log: |
-         e2b2e4386cb7a5e935dff388cf8961317daf39ce staging: mt7621-pci: avoid to request pci bus resources
+         06ea594051707c6b8834ef5b24e9b0730edd391b staging: ralink-gdma: fix kconfig dependency bug for DMA_RALINK
          
 
---===============4253115512378802288==
+--===============4855830424682662917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604657503 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604657587 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1604657452-fff86a8949b769678cd664c0be851bafa3a2ae43
+nonce 1604657535-b9acab649f9cab8796ea7f96e28da887f927b5a3
 
-3cea11cd5e3b00d91caf0b4730194039b45c5891 e2b2e4386cb7a5e935dff388cf8961317daf39ce refs/heads/staging-linus
+e2b2e4386cb7a5e935dff388cf8961317daf39ce 06ea594051707c6b8834ef5b24e9b0730edd391b refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+lIV8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fj0P/1e+T0lCYHUTvDg002zj
-c54lCHxTOjjae4G6tCV78UyaZh4C2+h06ZdN9bypCBAnuZZTvYD3AyAIYyMER6sY
-U3o1EVYP9kgU6rebAAgVW+7Tm3Uszqb4Tqv7a29MQJl7J7h51MKzJMrU3ih/jcEc
-TVvpilScQD52vOyGbk/iyhRAPJi0ZHOg4EqYqN6hMXjA0MvQw8PzcmkRI+KnUUGZ
-OX11bA+Anufvm4P1yFvizOPHjKJo6AzmbNUTVkSHTl4VwH0DNOFbQ/TMOy3i0cjb
-KVCTda6n9tUxH2106gBYijh5n65rsDLD3xkeexj6atj79OKvBwyExJcQcANE1zBH
-iP56qf1x+PsiWBFeITn0J3lEOEgDu1loTewmK0jEIkOr5Xt3+Iwiw4yjY54Qa8Ow
-gKON/BQYaOyPIVAmFUgjECMN3pfxqeepZnXai780G1me5QvCNYkOfa1U3s8V7Znq
-92s9xibDr5FBqU3Zh87tMkIzmY5ADR0gDVyj9det9RjvZNSKO0WD473lgTrvh71T
-LnQFnCKeETUacGJ28c6iNWbqzeicLjLAJTQpuFmr+lelkvZi/AH8GFE5zncnufa9
-9qG4oXwpKEfLh1/4p4+rs6Jau6Mc8j6xiv02X/8nvGWykMIFopEGo4NwUZJuWBd/
-7RK6CHwDGrN+alsbe9HeNxqR
-=sru4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+lIbMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1ZAQAJ3TxqGEQVtdMlAaKxDa
+isdTANbn84f/c2HzOXs6LnYohRQXfZHM4BdsyrjyYpXkQ0ADSB5VT6VdAoGtigK3
+SIfaG3n1CpzOIlEO4GNXLZtIjVpqbaVobzRKVY02fa51u0wAPDjgysc45jBXuWpV
+3BD1bZ85symAkQVVd53F2qC2epF90gf0OZ8tndeMJ8c35j2b0GqMauN3BmXiteDr
+KfhXbUkQr6xcTydi8E3vAgh2ydsJMnqNJgQPSRyGZRSLhQWo45kUmVVL3zRwCQal
+jPhhBExE9hbWzLte68wO3kBth8YXuA9CTbJF1e4LMdtuSxQ8rGdCgZW4cGnBoROW
+sT/idadMfu4e9d138vnJtKKMrzKhdHRGTw/tHJ7EKK3xbbe0mGKrysj8T08z+LeO
+3YtNcmWjbi8QfhAFN3X0oqk0OHcnco0zcDUYjwB3+YFYjShSWqSkjSx3rYqCCbE7
+WKP7obn06JPBu/KQzlzlkcqwd4pYVFx4Fyr31g5aV0LNLiJ1yXmrpmSEzBLe1Syx
+ob8w2pQs4zZLUIRN6RvOSjRCDV2AXk+XZNvwQLCEXrqHiW7AQE/857Tv497V3G0F
+sAV8NElKLfh8GT/UyE6mAe0iYQ/DV38whqem/5m7JsuBwRaPSJxArKcJQtqBnrLy
+eonenmpgdKyNbedNapGM7yMF
+=qe7w
 -----END PGP SIGNATURE-----
 
---===============4253115512378802288==--
+--===============4855830424682662917==--
