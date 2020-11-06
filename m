@@ -1,57 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============2860236786043503724=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 06 Nov 2020 16:17:51 -0000
-Message-Id: <160467947194.6078.14443407719272507552@gitolite.kernel.org>
-
---===============2860236786043503724==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 06 Nov 2020 16:19:46 -0000
+Message-Id: <160467958649.6804.11610677593961962813@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/tty-testing
-    old: 439c7183e5b97952bba1747f5ffc4dea45a6a18b
-    new: 441494ec2a302830357d0aa59f3b907e319a8b26
+  - ref: refs/heads/master
+    old: c6bde958a62b8ca5ee8d2c1fe429aec4ad54efad
+    new: 4170bc6baa5446e1d85e0b7647ea54ba72aa85c4
     log: |
-         0d66442dfdbd45019c60bb6aeaf2d5eb45534606 tty: serial: msm_serial: Constify msm_uart_pops
-         441494ec2a302830357d0aa59f3b907e319a8b26 dt-bindings: serial: 8250_omap: Add compatible for UART controller on AM64 SoC
+         9e7a4d9831e836eb03dedab89902277ee94eb7a6 bpf: Allow LSM programs to use bpf spin locks
+         4cf1bc1f10452065a29d576fc5693fc4fab5b919 bpf: Implement task local storage
+         8885274d225985807deeb95de74642073c3b97bb libbpf: Add support for task local storage
+         864ab0616dccf14e51618a24acc7cf23ddd2b98a bpftool: Add support for task local storage
+         3ca1032ab7ab010eccb107aa515598788f7d93bb bpf: Implement get_current_task_btf and RET_PTR_TO_BTF_ID
+         f0e5ba0bc481df77cf0afac2b33e420b33eeb463 bpf: Fix tests for local_storage
+         a367efa71b3f5a53281ca9772f8bf43166dfdf5f bpf: Update selftests for local_storage to use vmlinux.h
+         9cde3beeadb311d4b435a7d28d5ab72bcc5de65d bpf: Add tests for task_local_storage
+         4170bc6baa5446e1d85e0b7647ea54ba72aa85c4 bpf: Exercise syscall operations for inode and sk storage
          
-
---===============2860236786043503724==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604679515 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1604679465-783206ff333a4a3515d1f1de42062b615891bf46
-
-439c7183e5b97952bba1747f5ffc4dea45a6a18b 441494ec2a302830357d0aa59f3b907e319a8b26 refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+ld1sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Cu4P/jUps92Bu9vzu9dx2Ahe
-FKw5ECjrrsOjIDpwhdktUanlLZCKEPRMTzXS1qc3e1Czwv7DhRqSnGC+OVdeGgnu
-dMazutrH6pY2GaY2qI0wo5UohU6TxJ0fdaORj/a0CcQYk/An20mlVl0puwCmEiVT
-Ruxx+JSgEkcIffT+A4MNbiEK0gSEmryRq1mdoBFaIAWq5oMT9UpvOUH/OYw3uOk7
-WqYZ5ETaGiC7DaM6Q3hBiD1ZR7gzF7uzehnD16M4oRgOOsheYgDtRmVcoGY00wJB
-cRiGZOi7JgWaApSL9MJ78fjtVEVR4ue1j+j8PwA+nzk18Mgsl/g2dKFexQMZ3LTh
-1ALJX+PIAbd2NgTafRxfEuwVhxfOfTjAlLVduRjaRmPHYKvDpB4G/0FHWJRLQhLD
-8tXIM6TCNQqfiYbLJTNsvRYGUHX6j2ITTISdfQJLZ9ctdfai9DMXkAC6uZrvsVyI
-vxi63pmCeRZvy6HwkNGB0eDpBqRbFNKg6RhD6oo927uqeOCdnqQlsls+PtWT83K8
-n1GAA87Zhso8AgGR+aTCWAhpNECn2b3AD+gp5Aw3yaii74QOiV41lZT59kleA3GN
-HUck9qUI1KNe6icpa6FgWh2zY1VmoT0NXFLHaZvMiNbtZtS/egRJ+HrwcMObwibT
-i6mTazE/Ne6bjVO/kL2jYRi5
-=bRYz
------END PGP SIGNATURE-----
-
---===============2860236786043503724==--
