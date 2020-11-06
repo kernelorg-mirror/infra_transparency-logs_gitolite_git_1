@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8556790565923931222=="
+Content-Type: multipart/mixed; boundary="===============6930844347441592290=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 06 Nov 2020 16:06:49 -0000
-Message-Id: <160467880929.31521.7066055802488445372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 06 Nov 2020 16:09:15 -0000
+Message-Id: <160467895594.32462.11825613842323570524@gitolite.kernel.org>
 
---===============8556790565923931222==
+--===============6930844347441592290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 06ea594051707c6b8834ef5b24e9b0730edd391b
-    new: aee9dccc5b64e878cf1b18207436e73f66d74157
+  - ref: refs/heads/tty-testing
+    old: 88b8138b240b43d5215bf7cb422692cd8db51f6f
+    new: a1f714b44e342dc143dc4c6b909bf516f18fe412
     log: |
-         aee9dccc5b64e878cf1b18207436e73f66d74157 staging: rtl8723bs: Add 024c:0627 to the list of SDIO device-ids
+         a1f714b44e342dc143dc4c6b909bf516f18fe412 tty: Remove redundant synclink driver
          
 
---===============8556790565923931222==
+--===============6930844347441592290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604678852 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1604678803-61082def469ff8c58faeb39226b5eb83a2106fdd
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604678999 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1604678949-bdea6f6e269a9dae94b7f1a963379dcd322df5a6
 
-06ea594051707c6b8834ef5b24e9b0730edd391b aee9dccc5b64e878cf1b18207436e73f66d74157 refs/heads/staging-linus
+88b8138b240b43d5215bf7cb422692cd8db51f6f a1f714b44e342dc143dc4c6b909bf516f18fe412 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+ldMQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M6IQAJ68zrzB//GJ+1miBzh/
-ZnbTCvWX7uD3mBv905I1LvU6SCEOI7T/BE6wPgYwhJqZrPR/mKe6VZoGgQZgonPa
-8nSGhh8ZLxfB0dT7dgYfSw507YAW6b7DiXpo+UCwitZzMpRV3oOSJ2iq5df7dS9U
-x81NjUA1og3uTgBVZ41iDZLufMYrFzQ2g+uU3hkGERLtoGSTPaFDF4PHmPnz/QEL
-/QnJeSOZrq8HY5fVa8rSfLwg0Ehy6fVltqpzgrPUkdKFd0e7uuJJ62HUueySeFk4
-sBEBmQs+93+Wz5zLiR3meWpHn9pyrnAD20C7Ek5Wa4FKOv8J5NxJCn+A1kur7m4B
-cQgA7RY8snoRO3WOAJq8fTyC9YWFpLD8too2N2SiMErt/fac3Z4zQjLjX6+LUvIW
-uBfZOs1J08BYt1xajFRDjhLrOkhnNN9P+57x+jfivt5+J38aUwQ4LWORyVTzpLsJ
-icd2LsDxufZ90sg0R7IyIzjbQumlrRv3fDEUj21/hFtrtq80NVPksCxgpqvGMsZr
-5U1w3ijVQpiGV39e0EoWyC9pJVWlyzV/uiPWf9cnkVUPLS6qP4KvWpLtzsqwlf3A
-u3+yioxO20rEF93JPk+n/OvEJnesZnTgtiDv8qFGNPcplqxAeGBQVp5ECaESSQDZ
-qAFJPZmhalSUiIyX96vIrg/O
-=6A9m
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+ldVcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2sEQAMfDwSzqHZrlNQnxNfhM
+Mf/bOCWPz0VGKf71jtJjyKP+MERMExFpreuQdMbsBb4m3QnNvi6E/UJI8TNys9GA
+JE8I+fztBYnRFseMAG9cuYahvF5zD/3WjsokDnAEYSnQlhfHKZMc7QBzqo0fnQWf
+P83q4kQLLZKRW3oOyrmr3r9Fwx/rl678OEfa+n83m9IoTEZNIuZmYOvQhHM0hP4h
+cWQeGNh9VHIFvxN/1r9p/lZu2cApBHUaPAtvtHcyzhsgcZ8PmKEQI/3IzuLOZz2o
+53S365uQp+TclVqWfYsUtNhFV70k6FWfP9Mty10F1dYVUMMDDe4s2BmyKI6C6o/U
+G1eVGimmfydfdJqkSDd8VnU0PELZXK3gozgKMe95SSdYwOhiuJwLLIIU9YiSoWOS
+2GyyRV7UhhcrVSGMoDUvrwdVIVl3N99MeNW2Yr6r4pTv1TgIcRaBlWJfQTgZSEX5
+OZQyEC0R7HCeC/jEiHXep3ln6Vf7+X6xW14tKdD84qu2BCoT20iuJkoO/pINwovP
+MmLO29FXtCwoqSANnFiIjwd2x8E/Dn0FW30w/dnr9rF+iXLb5jsWw+AKpeKDYBBa
+67HhAz8Dp21shP9Yb6X97MXAbHmYRITztNOeBgbPc47pAlULMqtEYSEPgSnEvj7A
+/rSt5hNjnpxSSryLYPplykfb
+=C9+d
 -----END PGP SIGNATURE-----
 
---===============8556790565923931222==--
+--===============6930844347441592290==--
