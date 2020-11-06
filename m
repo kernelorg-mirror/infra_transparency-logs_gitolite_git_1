@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Fri, 06 Nov 2020 07:51:01 -0000
-Message-Id: <160464906179.27537.5030049768532965046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 06 Nov 2020 07:59:39 -0000
+Message-Id: <160464957961.2103.9615253280266775498@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
-user: chanwoo
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/devfreq-next
-    old: 09d56d92ad25b58113f4ec677e9b1ac1e2c3072b
-    new: 9b38a4f6b6643a256295b5b6d04c1c728fcb2e57
+  - ref: refs/heads/fixes
+    old: 81be0cba68d65011681173f2b1ee37c5fa66dd10
+    new: 8ce2e6de9918c773b0264e4250d6f7996732dbac
     log: |
-         9b38a4f6b6643a256295b5b6d04c1c728fcb2e57 PM / devfreq: passive: Update frequency when start governor
+         8ce2e6de9918c773b0264e4250d6f7996732dbac RISC-V: Use non-PGD mappings for early DTB access
          
