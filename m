@@ -1,57 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============0729790925808163582=="
+Content-Type: multipart/mixed; boundary="===============3400891483219634725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 06 Nov 2020 11:53:00 -0000
-Message-Id: <160466358091.15799.3302811592877549101@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 06 Nov 2020 11:53:35 -0000
+Message-Id: <160466361548.17702.5708925776819329274@gitolite.kernel.org>
 
---===============0729790925808163582==
+--===============3400891483219634725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.10
-    old: 9bd77a9ce31dd242fece27219d14fbee5068dd85
-    new: bc7f2cd7559c5595dc38b909ae9a8d43e0215994
+  - ref: refs/heads/for-linus
+    old: 39f192539fb361396e7962ef6804db4cc309a2aa
+    new: e12790cadfdd5ec2b35da9b22ecf3302c9f47501
     log: |
-         bc7f2cd7559c5595dc38b909ae9a8d43e0215994 spi: bcm2835: remove use of uninitialized gpio flags variable
+         93bd813c17763177cf87e96c2313bd4dd747d234 ASoC: rt1015: add delay to fix pop noise from speaker
+         625af65fdb81226d3b62c637ecfdd57552dbe14c Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
+         e12790cadfdd5ec2b35da9b22ecf3302c9f47501 Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
          
-  - ref: refs/heads/spi-5.11
-    old: c02bb16b0e826bf0e19aa42c3ae60ea339f32cf5
-    new: 900ccdcb79bb61471df1566a70b2b39687a628d5
-    log: |
-         900ccdcb79bb61471df1566a70b2b39687a628d5 spi: stm32: fix reference leak in stm32_spi_resume
-         
+  - ref: refs/heads/for-next
+    old: 80bac27b5794cd24afa388eb8f3a5bbc9a48ef3c
+    new: 45fb2838a4e34fd33a826499cbe7d8f2ac19434c
+    log: revlist-80bac27b5794-45fb2838a4e3.txt
 
---===============0729790925808163582==
+--===============3400891483219634725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-80bac27b5794-45fb2838a4e3.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1604663569 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1604663578-ec984e85649d49201c87e3c17afe7f4f45964358
+40f4c56d08f2a95f4f3b036987f171dde69ddd36 ASoC: dt-bindings: fsl_aud2htx: Add binding doc for aud2htx module
+8a24c834c053ef1b0cdefbd9c5bcb487cbc5068f ASoC: fsl_aud2htx: Add aud2htx module driver
+93bd813c17763177cf87e96c2313bd4dd747d234 ASoC: rt1015: add delay to fix pop noise from speaker
+97198614f6c3b019299b1189106478ffb58481c9 ASoC: audio-graph-card: switch to yaml base Documentation
+2d8fc973646c8ae87b668e30730becc8b1a57a06 ASoC: renesas, rsnd: switch to yaml base Documentation
+8d96ec9ba9e7bd606d5d0fead9f91f0c5a3366a0 ASoC: renesas,rsnd: Add r8a77961 support
+8ca199309f3c96e390bd6bf583a053ce200c6148 Merge series "ASoC: dt-bindings: audio-graph-card: switch to yaml base Documentation" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
+625af65fdb81226d3b62c637ecfdd57552dbe14c Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
+e12790cadfdd5ec2b35da9b22ecf3302c9f47501 Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
+45fb2838a4e34fd33a826499cbe7d8f2ac19434c Merge remote-tracking branch 'asoc/for-5.11' into asoc-next
 
-9bd77a9ce31dd242fece27219d14fbee5068dd85 bc7f2cd7559c5595dc38b909ae9a8d43e0215994 refs/heads/spi-5.10
-c02bb16b0e826bf0e19aa42c3ae60ea339f32cf5 900ccdcb79bb61471df1566a70b2b39687a628d5 refs/heads/spi-5.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+lOREACgkQJNaLcl1U
-h9CfAgf/eNI4K26IYTUXN6ASjDp9nu68pWo/p4Jw8wD0PnuKVf3ucq4DhN/xQqAL
-0Vs0CuksP2NsyIKOEMSJ6QzjUodFG6vkq7ngBX9ngQ5kQW+eq2jrkdSOCMYpiUeW
-lK/NQZ+jX+Nw5/NegB52wmB9CSa+YlfaoKDIr1TSd8nTIc2jJ0UBqpz5a3QS7mej
-gOW5Rcu6qcD0R1OOJO9rLqdwCQSy8sZPJOF4MgnmTxCXtKPxJ20sDp/6gNkDZ6vB
-WqNu60WBeVdymzDGuvypDje2syvG8K+IBBqxlzArWtjQ5AJzgywDQli5cRZfYBD0
-EydCkyja03NKtNh9jTC77P/oRWKKIA==
-=Q0vV
------END PGP SIGNATURE-----
-
---===============0729790925808163582==--
+--===============3400891483219634725==--
