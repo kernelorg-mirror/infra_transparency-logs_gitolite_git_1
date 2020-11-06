@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5851689376470452280=="
+Content-Type: multipart/mixed; boundary="===============4478179031878410588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/grokmirror/grokmirror
-Date: Fri, 06 Nov 2020 19:03:04 -0000
-Message-Id: <160468938433.22716.12016634314268520059@gitolite.kernel.org>
+Date: Fri, 06 Nov 2020 19:03:58 -0000
+Message-Id: <160468943815.23132.4130051523599667898@gitolite.kernel.org>
 
---===============5851689376470452280==
+--===============4478179031878410588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,31 @@ repo: pub/scm/utils/grokmirror/grokmirror
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: ab953ca5093746a21872756118df2228904d0d28
-    new: 0462cafad016af6623b28d0a85b23727675e16fd
+  - ref: refs/notes/signatures/tar
+    old: d468722c5025d061b3dc579cb76ce974bdd75d76
+    new: eb209c7a66016e4223e9b09282df51c435cc8387
     log: |
-         0462cafad016af6623b28d0a85b23727675e16fd Release 2.0.4
+         eb209c7a66016e4223e9b09282df51c435cc8387 Notes added by 'git notes add'
          
-  - ref: refs/tags/v2.0.4
-    old: 0000000000000000000000000000000000000000
-    new: 0100116c4e4c3246fcabcbc9b2cf23bb193722f5
 
---===============5851689376470452280==
+--===============4478179031878410588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1604689383 -0500
+pusher B6C41CE35664996C! 1604689437 -0500
 pushee gitolite.kernel.org:/pub/scm/utils/grokmirror/grokmirror.git
-nonce 1604689383-2191ae2708d3a938786ebe8fa7a38d8c1c671112
+nonce 1604689437-bf0e2278251c5313c33025f7e08bff90b89d03f7
 
-ab953ca5093746a21872756118df2228904d0d28 0462cafad016af6623b28d0a85b23727675e16fd refs/heads/master
-0000000000000000000000000000000000000000 0100116c4e4c3246fcabcbc9b2cf23bb193722f5 refs/tags/v2.0.4
+d468722c5025d061b3dc579cb76ce974bdd75d76 eb209c7a66016e4223e9b09282df51c435cc8387 refs/notes/signatures/tar
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX6Wd5wAKCRC2xBzjVmSZ
-bAlVAQDOfEPQnziJvcsoy22FFHDy1fOVHygwLGPswP8XGVL0ogD+IJryl+IomIQM
-CuJZSgikzfcRpH+fFXnTsmSivqH19gE=
-=BOTB
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX6WeHQAKCRC2xBzjVmSZ
+bGXzAQCHj1pWCOJ9bQLBJvm47V0Pv1t71egfu/358ZgFWU3jigD+MEq9pm2kocVb
+PI37XvfCoO6Cc1SOlQkYGBoz8DmiWgg=
+=cI2o
 -----END PGP SIGNATURE-----
 
---===============5851689376470452280==--
+--===============4478179031878410588==--
