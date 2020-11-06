@@ -1,27 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Fri, 06 Nov 2020 10:42:16 -0000
-Message-Id: <160465933628.31472.6707780940285663696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Fri, 06 Nov 2020 10:44:39 -0000
+Message-Id: <160465947953.32329.3842636576093945650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: b0d9dda8d34c801f025d2fb993317fe30b737058
-    new: 6aff825d2bdfb650eb91db40535e04609e57e8ee
+  - ref: refs/heads/mips-next
+    old: ab7cffb8d2367e5b088c7c14452724e719a10eba
+    new: c424dc4cd1809e181a161723f770b7bc1e0f9927
     log: |
-         586f351d39f7a687148005dd10f4a33ec11512e8 opp: Don't create an OPP table from dev_pm_opp_get_opp_table()
-         9c4707a708249ea7bc0c865dc8f349bf4e0e78f7 opp: Allow dev_pm_opp_put_*() APIs to accept NULL opp_table
-         d44aca126b0320b469739b3d1bac50b8eabdea09 cpufreq: dt: dev_pm_opp_put_regulators() accepts NULL argument
-         e314e1b520cdd5eae33416f424ec6ce3ab3398b8 cpufreq: qcom-cpufreq-nvmem: dev_pm_opp_put_*() accepts NULL argument
-         a2256ba4a0bf8c50f8ba00744ca539915a26f613 PM / devfreq: exynos: dev_pm_opp_put_*() accepts NULL argument
-         41751fb9c6ee67f1a816460818c5bf5a795f4330 drm/lima: dev_pm_opp_put_*() accepts NULL argument
-         533aa8cd061a54444d945e1b7039edda09c2fa29 drm/panfrost: dev_pm_opp_put_*() accepts NULL argument
-         62bb5130bc69ec31a772a81bce9c421ab093cec4 media: venus: dev_pm_opp_put_*() accepts NULL argument
-         6aff825d2bdfb650eb91db40535e04609e57e8ee drm/lima: Unconditionally call dev_pm_opp_of_remove_table()
+         d2e850e961835825492f37346ae76670bf4758f5 MIPS: zboot: put appended dtb into a section
+         18ff14c87d904f7968a143a6202740c27b4d8e7f MIPS: Kconfig: fix a few trivial spelling mistakes
+         5a5aa912f687204d50455d0db36f94dd8de601c2 mips: ar7: add missing iounmap() on error in ar7_gpio_init
+         2673ecf9586551c5bcee499c1cc1949f6f7cc9a1 mips: cm: add missing iounmap() on error in mips_cm_probe()
+         c424dc4cd1809e181a161723f770b7bc1e0f9927 mips: Vr41xx: add missing iounmap() on error in vr41xx_pciu_init()
          
