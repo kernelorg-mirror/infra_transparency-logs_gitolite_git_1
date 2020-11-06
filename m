@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 06 Nov 2020 02:51:18 -0000
-Message-Id: <160463107873.32321.24458263233550191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Fri, 06 Nov 2020 03:13:22 -0000
+Message-Id: <160463240247.14853.7218521751288626568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/master
-    old: f9b7ff0d7f7a466a920424246e7ddc2b84c87e52
-    new: 7c0afcad7507636529e6a5a2a5eef5482619a449
+  - ref: refs/heads/md-next
+    old: 5510f7c147da5f2b2e90b325e275db5e8d975d40
+    new: e7f1456b5ee4e97934ae724e7015d95f88984df0
     log: |
-         7c0afcad7507636529e6a5a2a5eef5482619a449 bpf: BPF_PRELOAD depends on BPF_SYSCALL
+         e7f1456b5ee4e97934ae724e7015d95f88984df0 md: fix a warning caused by a race between concurrent md_ioctl()s
          
