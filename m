@@ -1,115 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3624605674146363424=="
+Content-Type: multipart/mixed; boundary="===============1620319966131433245=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sat, 07 Nov 2020 19:37:33 -0000
-Message-Id: <160477785383.26232.10674488069466155034@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 07 Nov 2020 19:42:33 -0000
+Message-Id: <160477815302.29254.7141109887410643591@gitolite.kernel.org>
 
---===============3624605674146363424==
+--===============1620319966131433245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/dev
-    old: fb882ac7268a17e4dc48c54b8adc792a191c60e1
-    new: ad6dcb7c338ad322ddeeb75594bc77dcdbeb43de
-    log: |
-         ad6dcb7c338ad322ddeeb75594bc77dcdbeb43de locking: Remove duplicate include of percpu-rwsem.h
-         
-  - ref: refs/heads/rcu/next
-    old: 5a33ec6d55458d140534fd5e715b533e348b7225
-    new: fb882ac7268a17e4dc48c54b8adc792a191c60e1
-    log: revlist-5a33ec6d5545-fb882ac7268a.txt
+  - ref: refs/heads/master
+    old: 659caaf65dc9c7150aa3e80225ec6e66b25ab3ce
+    new: af6e7de0c7d1338c3e4224c764fbcb7e28064df9
+    log: revlist-659caaf65dc9-af6e7de0c7d1.txt
 
---===============3624605674146363424==
+--===============1620319966131433245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a33ec6d5545-fb882ac7268a.txt
+Content-Disposition: attachment; filename=revlist-659caaf65dc9-af6e7de0c7d1.txt
 
-f4deaf90212c18d4b6d0687f0cba4c22d90b3391 x86/cpu: Avoid cpuinfo-induced IPI pileups
-3fcd6a230fa7d03bffcb831a81b40435c146c12b x86/cpu: Avoid cpuinfo-induced IPIing of idle CPUs
-a043260740d5d6ec5be59c3fb595c719890a0b0b docs: Update RCU's hotplug requirements with a bit about design
-a1b9dbb72b7f39eeaa2fb5bd5cc619679985876e docs: RCU: Requirements.rst: Fix a list block
-c386e29d43728778ddd642fa73cc582bee684171 docs/rcu: Update the call_rcu() API
-3480d6774f07341e3e1cf3114f58bef98ea58ae0 locktorture: Track time of last ->writeunlock()
-19012b786ecccb29a9fa20c4ec0a67e2cdfbc010 torture: Periodically pause in stutter_wait()
-fda5ba9ed254727ac5761b81455d8e93c78eba4a torture: Make torture_stutter() use hrtimer
-1ac78b49d61d4a095ef8b861542549eef1823f36 scftorture: Add an alternative IPI vector
-899f317e4886f916ed21027177177c11b577cea1 rcuscale: Add RCU Tasks Trace
-45c7b962014da36c2ac1aee6e5014b644ba37a84 rcuscale: Avoid divide by zero
-8d68e68a781db80606c8e8f3e4383be6974878fd torture: Exclude "NOHZ tick-stop error" from fatal errors
-2f2214d43ccd27ac6d124287107c136a0f7c6053 rcuscale: Prevent hangs for invalid arguments
-bc80d353b3f565138cda7e95ed4020e6e69360b2 refscale: Prevent hangs for invalid arguments
-6f26d010e678249367cc00b5a827c3731c8138f3 rcutorture: Adjust scenarios SRCU-t and SRCU-u to make kconfig happy
-e5ace37d83af459bd491847df570b6763c602344 locktorture: Ignore nreaders_stress if no readlock support
-6b74fa0a776e3715d385b23d29db469179c825b0 locktorture: Prevent hangs for invalid arguments
-c64659ef29e3901be0900ec6fb0485fa3dbdcfd8 torture: Prevent jitter processes from delaying failed run
-4994684ce10924a0302567c315c91b0a64eeef46 rcutorture: Prevent hangs for invalid arguments
-c1e06287583e5ec496e4c02bf5b319e5e41a1fd2 torture: Force weak-hashed pointers on console log
-ab1b7880dec86bbdacd31a4c5cf104de4cf903f2 rcutorture:  Make stutter_wait() caller restore priority
-7de1ca35269ee20e40c35666c810cbaea528c719 torture: Accept time units on kvm.sh --duration argument
-293b93d66f149a9bd124aae195f048268e11870c rcutorture: Small code cleanups
-a5136f4ffb44f8c1a80406c5bfd4d233433398e6 torture: Allow alternative forms of kvm.sh command-line arguments
-85558182d545fe9c0583a39dbb6359ee954e35d5 scftorture: Add full-test stutter capability
-0d7202876bcb968a68f5608b9ff7a824fbc7e94d locktorture: Invoke percpu_free_rwsem() to do percpu-rwsem cleanup
-a7eb937b67b64b8b4645f1ebca3ac2079c6de81b rcutorture: Don't do need_resched() testing if ->sync is NULL
-6c5b9de2c63b2f513a580c6c80d455350012e99b rcutorture/nolibc: Fix a typo in header file
-5be7d80deb80ceef50a6bd86d83c8fd62264778a torture: Make kvm-check-branches.sh use --allcpus
-06dc8d4591b8d8ce0ece94474718b53f0a5c5de3 tools/nolibc:  Fix a spelling error in a comment
-01f9e708d9eae6335ae9ff25ab09893c20727a55 tools/rcutorture: Fix BUG parsing of console.log
-75dc2da5ecd65bdcbfc4d59b9d9b7342c61fe374 rcu-tasks: Make the units of ->init_fract be jiffies
-1d094cefc37e5ed4dec44a41841c8628f6b548a2 kcsan: Fix encoding masks and regain address bit
-ebb477cb2fb7a44ff600e0a7393bad906a0ecd80 tools/memory-model: Document categories of ordering primitives
-d8566f15da9b1e51fd35f24321ec133095e02d06 docs/memory-barriers.txt: Fix a typo in CPU MEMORY BARRIERS section
-0a27ce6b6968866fa8e3bd70371d67752db7718f tools/memory-model: Add a glossary of LKMM terms
-1947bfcf81a905e84a58b423063e81034a90efed tools/memory-model: Add types to litmus tests
-acc4bdc55dcb7d7fe0be736999572a55e121873f tools/memory-model: Use "buf" and "flag" for message-passing tests
-b6ff30849ca723b78306514246b98ca5645d92f5 tools/memory-model: Label MP tests' producers and consumers
-765b512bb3d639bfad7dd43c288ee085236c7267 Merge branches 'cpuinfo.2020.11.06a', 'doc.2020.11.06a', 'fixes.2020.11.02a', 'lockdep.2020.11.02a', 'tasks.2020.11.06a' and 'torture.2020.11.06a' into HEAD
-914986d22e3b9ccb3a60371ca3ce88cddf1badef Merge branch 'kcsan.2020.11.06a' into HEAD
-764f605ec4ecce5bf43d58d65d8ed765c9e083e0 tools/memory-model:  Document locking corner cases
-fcb3bd91eb1cbac326dd23e92b951125335166e8 tools/memory-model: Make judgelitmus.sh note timeouts
-1622426cd6f94bfa67bb054a1f485f8b5e96f86d tools/memory-model: Make cmplitmushist.sh note timeouts
-3daed1a4130617471bd7472dc41c2aed9f78ecd8 tools/memory-model: Make judgelitmus.sh identify bad macros
-117cc2bbf2b3a7bf5b5c29aecc5dcd2d0392f0a4 tools/memory-model: Make judgelitmus.sh detect hard deadlocks
-870bb3c29e90151e8d5c23ce8b59d592d1c691a3 tools/memory-model: Fix paulmck email address on pre-existing scripts
-2488a59ef06c59ba2f2ff31357978789bc9c2ca2 tools/memory-model: Update parseargs.sh for hardware verification
-84bf66378236616ea76019fbf93c034d2b6131d3 tools/memory-model: Make judgelitmus.sh handle hardware verifications
-2f3ed276ad47c07132c9aec46063cc6022030418 tools/memory-model: Add simpletest.sh to check locking, RCU, and SRCU
-01a6e0e9b544a9f9ad5ce3342d3ab7e097d82dfe tools/memory-model: Fix checkalllitmus.sh comment
-1937a58b7e353439e55b40e24ee8137ed797cf89 tools/memory-model: Hardware checking for check{,all}litmus.sh
-b910daf5f1924b412b79bd3159ab12e090e917d6 tools/memory-model: Make judgelitmus.sh ransack .litmus.out files
-d6053d1fe7db507054c6271fce785a1b47865e16 tools/memory-model: Split runlitmus.sh out of checklitmus.sh
-f133cae39788edb25cd19d43166a63fc09df8986 tools/memory-model: Make runlitmus.sh generate .litmus.out for --hw
-2ecbecf2039ce6d849c6dbf0dd0e84aef8af637e tools/memory-model: Move from .AArch64.litmus.out to .litmus.AArch.out
-57a59e67f43556140cd1936b770ad380f134f944 tools/memory-model: Keep assembly-language litmus tests
-2cffde403beccd244bbc76e8383d544013d1f95f tools/memory-model: Allow herd to deduce CPU type
-6c98ae64639dc1b6077709eecb3a43406e4e29d5 tools/memory-model: Make runlitmus.sh check for jingle errors
-3b7f251ec3c1227ed0fcff06541f2e556996ae4b tools/memory-model: Add -v flag to jingle7 runs
-c63fe5d55a5c3ef771ee4f8dd33120ee0f858083 tools/memory-model: Implement --hw support for checkghlitmus.sh
-e9a0d98458c0447c17a93a7bb556fe212127dc1c tools/memory-model: Fix scripting --jobs argument
-30312d191456874e52cf897d09afb37935accdbb tools/memory-model: Make checkghlitmus.sh use mselect7
-0ce7d16d7e82e617d0b6c05c5711a2fb3f0718dc tools/memory-model: Make history-check scripts use mselect7
-d09f429a98ce612f121db969762b7768a3b2cc24 tools/memory-model:  Add "--" to parseargs.sh for additional arguments
-1e29a687ba684e51b25cec780668212d040c86bc tools/memory-model: Repair parseargs.sh header comment
-c93751a9de6bbcfa29a58e6f703a6912544e54a6 tools/memory-model: Add checktheselitmus.sh to run specified litmus tests
-535e725dde3fa2af9bdaadff9203765bd4034b7b tools/memory-model: Add data-race capabilities to judgelitmus.sh
-7e1d99c3fa5903f90f70397696b55c67195e628c tools/memory-model: Make judgelitmus.sh handle scripted Result: tag
-eb48201421b13607a90c1d802789e2e99a254a62 tools/memory-model: Use "-unroll 0" to keep --hw runs finite
-f87d28a372970e5c0a2dcf262b5e27165e0b839f Merge branch 'lkmm-dev.2020.11.06a' into HEAD
-b790e3afead9357195b6d1e1b6cd9b3521503ad2 Merge branch 'tglx-pc.2020.10.30a' into HEAD
-356ecefc669ae91d07f6b0d514b0d466c56a387f rcutorture: Test runtime toggling of CPUs' callback offloading
-5068ab7dcb6a526a401054ebe0d416f979efb3e1 rcutorture: Add testing for RCU's global memory ordering
-b4c6266be6f50cd79ef586a8a3a27097e4556404 rcu/tree: Make rcu_do_batch count how many callbacks were executed
-bea68a13bbbdc575a2c868dabd7b454c2eddc618 rcu/segcblist: Add additional comments to explain smp_mb()
-c293fb8f7de6c2fce11cb01a0218d668df326bcd torture: Make --kcsan specify lockdep
-1a4aebf9ab32ebd8ca56a5a180e6fa36f4e7f48e tools/memory-model: Tie acquire loads to reads-from
-fb882ac7268a17e4dc48c54b8adc792a191c60e1 rcu: Mark obtuse portion of stall warning as internal debug
+aafced673c06b7c77040c1df42e2e965be5d0376 i2c: mediatek: move dma reset before i2c reset
+9d750c75bd2c3fcf20a3c15378d1bc6b2d4ec31f risc-v: kernel: ftrace: Fixes improper SPDX comment style
+1bd14a66ee5200d6a24419cbd2e0a0fccd4da36f RISC-V: Remove any memblock representing unusable memory area
+79605f1394261995c2b955c906a5a20fb27cdc84 riscv: Set text_offset correctly for M-Mode
+bcacf5f6f239a9e60287680514f392748cb4ec39 riscv: fix pfn_to_virt err in do_page_fault().
+635e3f3e47f24b2506bc9daf91d70ddf3cd024a9 riscv: uaccess: fix __put_kernel_nofault()
+1074dd44c5ba377f90e2d0d99a784f73dbea6ff7 RISC-V: Use non-PGD mappings for early DTB access
+c2c81bb2f69138f902e1a58d3bef6ad97fb8a92c RISC-V: Fix the VDSO symbol generaton for binutils-2.35+
+a49cc1fe9d64a2dc4e19b599204f403e5d25f44b i2c: sh_mobile: implement atomic transfers
+ed01ddc618fc356bbc7b702823c87ed3ada198a6 i2c: mlxbf: Add CONFIG_ACPI to guard ACPI function call
+08e019e27a9ed0d6c410176cab4e029e3d233cb8 i2c: mlxbf: Fix resrticted cast warning of sparse
+4b19d806ac5272bb9f64d78ca6832867870eb45d i2c: mlxbf: Remove unecessary wrapper functions
+67ee9fda6ed4958f4caf8f1a3a5102a2c27ddf7b i2c: mlxbf: Update reference clock frequency
+54b9c3d0cea53f84024eed11ff8b6807e2ec81bf i2c: mlxbf: Update author and maintainer email info
+9890923be3a6d5e606cf4ae4f4e632a5e38cb37c i2c: mlxbf: I2C_MLXBF should depend on MELLANOX_PLATFORM
+66b92313e2ca9208b5f3ebf5d86e9a818299d8fa i2c: designware: call i2c_dw_read_clear_intrbits_slave() once
+3b5f7f10ff6e6b66f553e12cc50d9bb751ce60ad i2c: designware: slave should do WRITE_REQUESTED before WRITE_RECEIVED
+4b1d362db99d9233406cb7cfe35fc698ef92be25 Merge tag 'riscv-for-linus-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+af6e7de0c7d1338c3e4224c764fbcb7e28064df9 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 
---===============3624605674146363424==--
+--===============1620319966131433245==--
