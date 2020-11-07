@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 07 Nov 2020 20:50:06 -0000
-Message-Id: <160478220631.12214.1068999810295604334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 07 Nov 2020 21:07:16 -0000
+Message-Id: <160478323664.24223.11717439041767207495@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/tags/block-5.10-2020-11-07
-    old: 0000000000000000000000000000000000000000
-    new: e780d8f9f2583a433930a27364629f2e152f643a
-  - ref: refs/tags/io_uring-5.10-2020-11-07
-    old: 0000000000000000000000000000000000000000
-    new: 2b31936cab2c1b2b79d7ff77bdc353273338e4c2
+  - ref: refs/heads/locking/urgent
+    old: 63c1b4db662a0967dd7839a2fbaa5300e553901d
+    new: 9f5d1c336a10c0d24e83e40b4c1b9539f7dba627
+    log: |
+         9f5d1c336a10c0d24e83e40b4c1b9539f7dba627 futex: Handle transient "ownerless" rtmutex state correctly
+         
