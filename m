@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9105465659917852585=="
+Content-Type: multipart/mixed; boundary="===============6226314577264983599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Sat, 07 Nov 2020 12:52:06 -0000
-Message-Id: <160475352636.6344.16682747033722185470@gitolite.kernel.org>
+Date: Sat, 07 Nov 2020 12:56:14 -0000
+Message-Id: <160475377415.11560.14000411505486669097@gitolite.kernel.org>
 
---===============9105465659917852585==
+--===============6226314577264983599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/efi/efi
 user: ardb
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/efi-urgent-for-v5.10-rc2
+  - ref: refs/tags/efi-next-for-v5.11
     old: 0000000000000000000000000000000000000000
-    new: 02d231b1578efdd7a4e39ad3ebae96e55cb76f49
+    new: 856dbecf32d070a406a3001f8ca017cc10a44630
 
---===============9105465659917852585==
+--===============6226314577264983599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 0x3D200E9CA6329909 1604753524 +0100
+pusher 0x3D200E9CA6329909 1604753772 +0100
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-nonce 1604753525-17c8f68b914bc0da6fdf95758418f410868fe991
+nonce 1604753773-d5b75f86c21bdc7d985960f08d30a6a7bd7cf578
 
-0000000000000000000000000000000000000000 02d231b1578efdd7a4e39ad3ebae96e55cb76f49 refs/tags/efi-urgent-for-v5.10-rc2
+0000000000000000000000000000000000000000 856dbecf32d070a406a3001f8ca017cc10a44630 refs/tags/efi-next-for-v5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEnNKg2mrY9zMBdeK7wjcgfpV0+n0FAl+mmHQACgkQwjcgfpV0
-+n077Af+JVnLEMkCWiOZepgKTpeRosDSVbKtzVZZuRNcA8hoHRdDYrh13E89kMCh
-8NbkMZEiFnpGYl6HRz0xZBjt2jm0LJTVd72Ntx7VSytiVk7dNwqgNe27rMHeAxUA
-UmtQs0Uroh6velNFHHa4VU102qEXdNes4iMrncRgHUwz9Jr5sXVPKnHgBPqnQhkU
-jEIGQCCpzA2KwEOeYlJMbk2m1uuJSi/UOf0lvURdoNQiQ0PgFSipjOzMePIP5YMX
-8lUmq4j3BjbPKYIuMTsfPxxY34wWVjqRkVseeGBriwCmN6/5u17ADwAE/VASasiY
-MYDrxRDqdfejlFgIAetnTO3yKzbxLg==
-=5+dJ
+iQEzBAABCgAdFiEEnNKg2mrY9zMBdeK7wjcgfpV0+n0FAl+mmWwACgkQwjcgfpV0
++n0Dewf/dEpzsvwedJ8kdest90Y69xlhQ4ehsymZTqs6Va3b9bxSsYcP/oELZZUf
+yCLFvDRgpjxy1wA1LBIeZoKmNfIh4Tx/uQaFNj+c61li08ONfOq4mGza1+1iF+wG
+0L7ovAi5ioAGoI+rEzr+g51MlWcZZxQ6kwaVTDj6SBbxFA6SWCCuN/pNhVxkKGWf
+6kGH49gAJ5VEpSFTJeKn33ykZP4Whs9Y7i8gZvtokW+tAwlBDEU0xKg7KouiriTL
+7OWTjThaF6yy3L8uKlWOLUUQRcLL66hLu3zZRtLb8UZEU/NKZCaQWuIUWYk6bg1m
+J2IhW5z/Bbf2bHprbsHm7m91T/0ikg==
+=mOQw
 -----END PGP SIGNATURE-----
 
---===============9105465659917852585==--
+--===============6226314577264983599==--
