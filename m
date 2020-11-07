@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1096297367476494753=="
+Content-Type: multipart/mixed; boundary="===============8941056286331846122=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 07 Nov 2020 20:30:29 -0000
-Message-Id: <160478102924.32309.3661407704700973726@gitolite.kernel.org>
+Date: Sat, 07 Nov 2020 20:30:30 -0000
+Message-Id: <160478103044.32376.2660316032766947829@gitolite.kernel.org>
 
---===============1096297367476494753==
+--===============8941056286331846122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,81 +16,88 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: bcc3f7c85f439f560f43b76ab957a4919b143b72
-    new: 1ee437936e224a0e6b85ee87e14a1dd3b2d92f8b
-    log: revlist-bcc3f7c85f43-1ee437936e22.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 12a60ae9b8bc8b0abe6d6eed959c1e0b6853d4c6
+    new: 97cf958a4cd1e200b3a44858b81aca085d788d30
+    log: revlist-12a60ae9b8bc-97cf958a4cd1.txt
 
---===============1096297367476494753==
+--===============8941056286331846122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604781090 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604781091 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1604781026-a26e64398a588a505df06f9e18755d3618530344
+nonce 1604781027-856aaccba21608fc923c8553022fdde1c9a6b38a
 
-bcc3f7c85f439f560f43b76ab957a4919b143b72 1ee437936e224a0e6b85ee87e14a1dd3b2d92f8b refs/heads/linux-5.4.y
+12a60ae9b8bc8b0abe6d6eed959c1e0b6853d4c6 97cf958a4cd1e200b3a44858b81aca085d788d30 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+nBCIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+swoP/3wlkMYe1PxgDv12htbj
-YLbLKG1mk516S5bWrAOwqSaeVTu8awQA4v6sdTiSGGOfXCLxk3Uj76nbKTvzl1YM
-+8uNheSIo6X8pwPqa0VIxl/8nUItmTzv6STmwPhbptqk55zgBoBpE521j69Dn8Ze
-m+tLY6jN29rQfKJay7GCNswLADv0n2k2x/LwbQr6abKwDUVz/rGg05+JwqpyotgD
-fQavn6tOLmSivib0oaXW7GXsSksvP7GwPXqIrFPNa+fcu9UNI1VxJnywAtNoS+b0
-T2FQ5PrJcflCHKCvSw0ifU0q4RMMVVcFLl/AtXmSk43BGu1QYEGEn0O9foI4i5qt
-l9bMnpQPLQphJ216VBqW4NndLkl2D34iI74Q9iYSM4X8eXXeBH9d4dprcEYltc8O
-lB852rPMqy+0+GK21l33jpvdgOoF2NQ2XY1Yl5oWJuaJN2sxqyuhyz1QaLeacidr
-c9PD5qv584hcUJRHs4JpJnM8ndfCVPZ6Qkm649HFMDYoLTUObyV6e+EaaPAKHpMm
-8cV78Kmklo3GpurogpyHCuqqZI8rKFUHoeLOfv+slk6L7EyKR3WJXMjrwN1H4UJt
-+25o9Rz9orSJ/dD9Z2l7jaUy7rcFLRaTOoHLiU7MVDy/uAnYCD7TVGuGmobUDRyD
-yeATUJkYEI6UEkCCc9Bb4J1T
-=IDit
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+nBCQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iTIQAJNJusq8kfRimn3joLPI
+SdDdia86k8naiF6d+DsgSF+wMEGl/E4PMi4uOEdYSWY6fkKRHuGKl0/MMjhxpF00
+p2Cgl4C2P0BHYarIyn+aubHWDuxu2hFPMMZutzArHv/F6S2svMOnyWUgIWfuaItv
+J8bbcO62h4lNDvh212ViqyPTflmzH+C2DGguqPBSHQuZdQG/z+a7WMRgxBsnEZh1
+WRkHqvcJXCgkonap9OjOYcvMUXdZfp5D73fte5ssga2Wj+gSci+qS8opwDDtI7cy
+2Sv3wN1goxxd18VXpSdUKI9ev4Mfvf0qKg23gZqKZ/fP58HJjNqIY9aauvU3c3Jc
+oJVB3mu4jts/kJEBJquuoOypSAmIGCs4POIE04gOPTjKKHk9Zz3dGzQwm5yEcN3/
+64y1/6SvNlyTuO02eqtf3HY/DaDAo/6PR/6yB050bAp7pUlqvI38+ZrVA6na7dzk
+CL/m37NfXD8uzSTjiRw5jcbtewRHNxpCvvoKqPdgI4jfTL6/vC1qnchAuwXraory
+ZT6QOaqAyvKiqKpRsIHJVuDJYxZvcm0gkg8JsZyVlEqCTnkuwZBAIcQgKPs9ajG7
+zGsVR4zTOVYZh9Ur/egFiLTPR7hyAX/ABwAjv7R5601o0KphBX4/1QPbRM6PTSKa
+mkldeDVWcnBxpfw/WhEb5Hnt
+=gDlW
 -----END PGP SIGNATURE-----
 
---===============1096297367476494753==
+--===============8941056286331846122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcc3f7c85f43-1ee437936e22.txt
+Content-Disposition: attachment; filename=revlist-12a60ae9b8bc-97cf958a4cd1.txt
 
-cd86510e2a3ffdef849e315b46122920281c9840 drm/i915: Break up error capture compression loops with cond_resched()
-48c069e6c51c0d2cf425e3960d4f70f28b36e39e drm/i915/gt: Delay execlist processing for tgl
-22e738504f50f3fa6e24782059309805f2d8056a drm/i915: Drop runtime-pm assert from vgpu io accessors
-0822096b0b50c25739e6bc25f4a15af976b6bd9f ASoC: Intel: Skylake: Add alternative topology binary name
-5aaf0d16a6e7797759960c3b56064e5d81fe778f linkage: Introduce new macros for assembler symbols
-c10e06fef99f142588b4d6c550cde1dc433a965c arm64: asm: Add new-style position independent function annotations
-89cbceb9c63657a37a2e4283a5bc4710be787756 arm64: lib: Use modern annotations for assembly functions
-a95cc71c15c5d39a6515257078f2a00d4da46482 arm64: Change .weak to SYM_FUNC_START_WEAK_PI for arch/arm64/lib/mem*.S
-f5ed1d1808401ebb8728029e0369846d4e6d996b tipc: fix use-after-free in tipc_bcast_get_mode
-41822d69d26013c817f92c1a6fd23d683bdcc882 ptrace: fix task_join_group_stop() for the case when current is traced
-1d5cbe0bbcaf2bd3186841091f30bbecf3810235 cadence: force nonlinear buffers to be cloned
-09542eb0114443268c7081f71771b0f8e05bb324 chelsio/chtls: fix memory leaks caused by a race
-cca79438c3c639667d3856ee8e317f6f574932c3 chelsio/chtls: fix always leaking ctrl_skb
-1126ca6312d620362fedcc49d94b8c1025aef6e3 gianfar: Replace skb_realloc_headroom with skb_cow_head for PTP
-4a2e878230511d1410c1a9312980304844bd7a8f gianfar: Account for Tx PTP timestamp in the skb headroom
-1e85f5c415a40aea762eab2e754b32c997797fd9 ionic: check port ptr before use
-67df447af0857845027b5784235d52c8c054728a ip_tunnel: fix over-mtu packet send fail without TUNNEL_DONT_FRAGMENT flags
-00d2863d183ce36c90480de3fc60126d6e7faaf5 net: usb: qmi_wwan: add Telit LE910Cx 0x1230 composition
-8a1dfda7adffed73461723b7e4f87fda472b7ea2 powerpc/vnic: Extend "failover pending" window
-8a983edf518caf64db6a2ca704dfbecb6e7b9288 sctp: Fix COMM_LOST/CANT_STR_ASSOC err reporting on big-endian platforms
-e2a7e41c272ee8660c75b4732818a18ce6b6125e sfp: Fix error handing in sfp_probe()
-cd1cc186f64d24f417f00f9d7022b3b57acd59db Fonts: Replace discarded const qualifier
-466c8d2b0fdb299582c3c8645eae95dd4541dc12 ALSA: hda/realtek - Fixed HP headset Mic can't be detected
-ab1b716abda9fed86e9211f572b5e6e1099b3b5d ALSA: hda/realtek - Enable headphone for ASUS TM420
-97d2cb672091eb713dce67bd2aec5dd55afd32f8 ALSA: usb-audio: Add implicit feedback quirk for Zoom UAC-2
-550e1c77e6be20fa9fb718eaf6236f95a8f759e3 ALSA: usb-audio: add usb vendor id as DSD-capable for Khadas devices
-2c2659ae775c700739ddbc88d4d87c36ac54dae6 ALSA: usb-audio: Add implicit feedback quirk for Qu-16
-903cb3f7d1e991c3b42f0886ec10789358081546 ALSA: usb-audio: Add implicit feedback quirk for MODX
-6168eef73c3cde4a77da5ef004f08b32985d3185 mm: mempolicy: fix potential pte_unmap_unlock pte error
-ad66fa459c6d8efdc5f4e1fcf53322715b33f706 lib/crc32test: remove extra local_irq_disable/enable
-8d9d35dcb88122726f9b75211ec3b741f43a5f8f kthread_worker: prevent queuing delayed work from timer_fn when it is being canceled
-4975e4f79b42c22130b7ffb1f86be87011eb08d0 mm: always have io_remap_pfn_range() set pgprot_decrypted()
-48ee50efe74b2b8d7ecc2d863022f9cd221e109d gfs2: Wake up when sd_glock_disposal becomes zero
-2c70dada691dbddec1d97d597d7e9dfb7072b757 ring-buffer: Fix recursion protection transitions between interrupt context
-1ee437936e224a0e6b85ee87e14a1dd3b2d92f8b Linux 5.4.76-rc1
+fd0c9f8e4e309bb875b6e7869501686ff67f03e6 drm/i915: Break up error capture compression loops with cond_resched()
+42f8ec718ed2b789f632c3eb18358d1f8602a191 tipc: fix use-after-free in tipc_bcast_get_mode
+24ee7e6c7c8fd3f1e8d44d36d5ae6f18eada7f2a ptrace: fix task_join_group_stop() for the case when current is traced
+9facf3a3f4d78b73f83e601bf53e6727287b4532 cadence: force nonlinear buffers to be cloned
+f1f09572f6f756bfb5879d1e171067f3404cc112 chelsio/chtls: fix memory leaks caused by a race
+d8a0e8ffdbe8b792d96b0cee9a182de06fe0b406 chelsio/chtls: fix always leaking ctrl_skb
+329ff66911477a02f40746c8a81bde18a9b021e6 gianfar: Replace skb_realloc_headroom with skb_cow_head for PTP
+7d6f17df5c71f6294b64a940158bbb414eb23075 gianfar: Account for Tx PTP timestamp in the skb headroom
+69dc7c8006103e3094945877af741b3fee070456 net: usb: qmi_wwan: add Telit LE910Cx 0x1230 composition
+4fbddbb1989a745eb751b69e5a172a5b8a9eae3a sctp: Fix COMM_LOST/CANT_STR_ASSOC err reporting on big-endian platforms
+166c8932c95ccecdf422a0129e3157ae7d233e5e sfp: Fix error handing in sfp_probe()
+c780069034405548e74bec98779d95f7602c1c51 blktrace: fix debugfs use after free
+a75c167cb1a71214756b94d0186f4b014b625bee btrfs: extent_io: Kill the forward declaration of flush_write_bio
+e65bfb0e7b4bbd161eecb257a86395da9aa55ed2 btrfs: extent_io: Move the BUG_ON() in flush_write_bio() one level up
+c038ce091f36e5b7419466cc2885c65d90cb07ba Revert "btrfs: flush write bio if we loop in extent_write_cache_pages"
+9f02c7f2ec290a70ded8f181764cf6d24ca337f9 btrfs: flush write bio if we loop in extent_write_cache_pages
+bff31ba279500be60dfd42337efa3774c584d50f btrfs: extent_io: Handle errors better in extent_write_full_page()
+dc90ae1a34f0ea2fa320c3f7447fa40647067628 btrfs: extent_io: Handle errors better in btree_write_cache_pages()
+33cbd108fa35bf77d6ed948d3192e94f688552df btrfs: extent_io: add proper error handling to lock_extent_buffer_for_io()
+43f2b361dc7f69e3a2a9d7b1be3d42ac762b1da9 Btrfs: fix unwritten extent buffers and hangs on future writeback attempts
+89589e21cb4cefb0b11dfd92cb6be736d337bd52 btrfs: Don't submit any btree write bio if the fs has errors
+22eef38bb2e9870d3bd15dea91ad8866a81fdd14 btrfs: Move btrfs_check_chunk_valid() to tree-check.[ch] and export it
+0c93fc9e4c34ea6146498c4b4322fe2751683a79 btrfs: tree-checker: Make chunk item checker messages more readable
+843c21dd81301429244e64bea1d5d174994c4ac4 btrfs: tree-checker: Make btrfs_check_chunk_valid() return EUCLEAN instead of EIO
+560af72c070802164bff4774c5bbd0026edb0c89 btrfs: tree-checker: Check chunk item at tree block read time
+fa536f855422d918296dc34cd7f64f9f33c5cc7d btrfs: tree-checker: Verify dev item
+50303f30b24a1a260b2e7240bb4ed790a9b14ed6 btrfs: tree-checker: Fix wrong check on max devid
+79df49108d11102c47baf041f9c969bfc7da3f98 btrfs: tree-checker: Enhance chunk checker to validate chunk profile
+2e5aa6d1830fb51b29acc9324fe2667186333818 btrfs: tree-checker: Verify inode item
+808411b08a4ddfd5ad14797073988253a570deb5 btrfs: tree-checker: fix the error message for transid error
+6837f40b2ea50e24bbb50f9d51ae65d64b31cae1 Fonts: Replace discarded const qualifier
+e997f9d975be334a451a4ffa0839b7dbb4b5746e ALSA: usb-audio: Add implicit feedback quirk for Zoom UAC-2
+7342d1fccd3ce2d1657d63bee67428d0452b94d9 ALSA: usb-audio: add usb vendor id as DSD-capable for Khadas devices
+fea86f6a6634e6386cf2ef6476303125e23937bc ALSA: usb-audio: Add implicit feedback quirk for Qu-16
+1399dd426764aeb0c2d4d44cf492a49033723e22 ALSA: usb-audio: Add implicit feedback quirk for MODX
+426020ce6ddf7a90a1350e2520b237d064c63bbf mm: mempolicy: fix potential pte_unmap_unlock pte error
+d0e4660dc968c4a5593f1dff00853addcd2039a8 lib/crc32test: remove extra local_irq_disable/enable
+c790bb64f72f235d7171aac6369b19bde6a8ba05 kthread_worker: prevent queuing delayed work from timer_fn when it is being canceled
+123a719b226229f60c0e56cbcaca16da1fa340f8 mm: always have io_remap_pfn_range() set pgprot_decrypted()
+8e587858296ab92109c5f75be37ba4240873c5a6 gfs2: Wake up when sd_glock_disposal becomes zero
+463aba8f4fa08579750dd73538d98cd7d77ca634 ring-buffer: Fix recursion protection transitions between interrupt context
+97cf958a4cd1e200b3a44858b81aca085d788d30 Linux 4.19.156-rc1
 
---===============1096297367476494753==--
+--===============8941056286331846122==--
