@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 07 Nov 2020 09:47:02 -0000
-Message-Id: <160474242273.25216.14977535198017988744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 07 Nov 2020 10:17:55 -0000
+Message-Id: <160474427527.13441.16336906043424858786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-linus
-    old: a6c96672a64f4f0e1bac9f37b5bb57d8ab551b4b
-    new: 446b8185f0c39ac3faadbcd8ac156c50f2fd4ffe
+  - ref: refs/heads/x86/urgent
+    old: 1978b3a53a74e3230cd46932b149c6e62e832e9a
+    new: 801284f9737883a2b2639bd494455a72c82fdedf
     log: |
-         446b8185f0c39ac3faadbcd8ac156c50f2fd4ffe ALSA: hda/realtek - Add supported for Lenovo ThinkPad Headset Button
-         
-  - ref: refs/heads/master
-    old: 1ca41e14c39bc2ccb926d0bd0682156a73e34f66
-    new: b8b9af218f617664d9f58246f774659518592f2b
-    log: |
-         446b8185f0c39ac3faadbcd8ac156c50f2fd4ffe ALSA: hda/realtek - Add supported for Lenovo ThinkPad Headset Button
-         b8b9af218f617664d9f58246f774659518592f2b Merge branch 'for-linus'
+         1aec69ae56be28b5fd3c9daead5f3840c30153c8 x86/platform/uv: Fix missing OEM_TABLE_ID
+         1aee505e0171fc38fd5ed70c7f0dcbb7398c759f x86/platform/uv: Remove spaces from OEM IDs
+         801284f9737883a2b2639bd494455a72c82fdedf x86/platform/uv: Recognize UV5 hubless system identifier
          
