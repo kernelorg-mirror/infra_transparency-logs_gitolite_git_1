@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 07 Nov 2020 20:13:54 -0000
-Message-Id: <160478003430.18365.6537775150983898428@gitolite.kernel.org>
+Date: Sat, 07 Nov 2020 20:17:03 -0000
+Message-Id: <160478022326.20839.1520988953774370388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 86bbf01977b4fdfffc8cab46e398ff279380b194
-    new: cc6528bc9a0c901c83b8220a2e2617f3354d6dd9
+    old: cc6528bc9a0c901c83b8220a2e2617f3354d6dd9
+    new: 847f0a2bfd2fe16d6afa537816b313b71f32e139
     log: |
-         cc6528bc9a0c901c83b8220a2e2617f3354d6dd9 r8169: fix potential skb double free in an error path
+         847f0a2bfd2fe16d6afa537816b313b71f32e139 r8169: disable hw csum for short packets on all chip versions
          
