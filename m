@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============4892602185127374271=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 08 Nov 2020 18:59:24 -0000
-Message-Id: <160486196426.15224.4087140387859221395@gitolite.kernel.org>
-
---===============4892602185127374271==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
+Date: Sun, 08 Nov 2020 19:03:03 -0000
+Message-Id: <160486218343.17976.1719410358245831592@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
+user: ebiggers
 changes:
   - ref: refs/heads/master
-    old: 882ebb2e3167c21737e978604c79411c12164362
-    new: 4afc3a707e17f226bec8c60b27aae8f229891802
+    old: c8acd5e96cefd7e9fc292eb9af37c8210fadc4d9
+    new: 60d9b58605fdbab5fe616f95351cd76fa5905fa2
     log: |
-         4afc3a707e17f226bec8c60b27aae8f229891802 5.9-stable patches
+         1de2b58b8e299c9e46f2db66158fd054703b814c tests/ceph: add Makefile
+         a0bcdb6cbf4227068258c6d1338f7121f803ac80 btrfs/220: fix how we tests for mount options
+         e71ecb8f1c1e10803ee07499455a7ed06b396440 src/append_reader.c: print more info when it reads bad data
+         043e5bb164a64fcaaa316bcbdcd9ee1df6967088 generic: test number of blocks used by a file after mwrite into a hole
+         9062902a59815861a69d77122cb721555c37197e xfs/520: disable external devices
+         826016f2261eb5de28e032e3c8579aae263612be xfs/341: fix test when rextsize > 1
+         b951bb5cef511eb49cf2ec846ddb63259f106555 various: replace _get_block_size with _get_file_block_size when needed
+         f3d639b1cc72029a07ceb488c523daa278dfff4c xfs/327: fix inode reflink flag checking
+         e97f96e55f2dc620039e8201dab2d5bc5a2cf1e6 xfs/27[26]: force realtime on or off as needed
+         60d9b58605fdbab5fe616f95351cd76fa5905fa2 xfs/030: hide the btree levels check errors
          
-
---===============4892602185127374271==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604862027 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1604861961-2626d09d2514a10038407afc625b9ff88784b2c4
-
-882ebb2e3167c21737e978604c79411c12164362 4afc3a707e17f226bec8c60b27aae8f229891802 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+oQEsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uhcP/2H6b9j+oRMPqspVupK2
-AT4hI8ORH72y4F7Lj1sNJrqN84w/2hyXp2E34m/t0D8zgPTKM0fF4wmZPEDGnidp
-eQZavYMNW2nBd2N+2gmnt4UYqOcBMugK7MhikyRm620WSxBGkFHNWntF/iPrBrKh
-wbqCyWpsSG+UGi63DcXzxq7Az1VKWSvAKsAIEw6UZ98XMmMlQtN0v/h16UhX/ZHi
-unYPy805Bc2GN39GAehocbW2cSCt4oOnsRKxYc1rMvjsVAfhAIzCH71a49yo013X
-YUvfxMl9If/VeKPPrjtC8KL0E7s+wZeV9M8T2O7IHLCscOtG+xjs1EDrD3HxJDip
-rRjIMUsbhEQcpy4QCPTnIdDOzuB+RtpJ8vqsFVe/LafUrVK+Rmzm/uNJXEEnXRKI
-BVvWxjQqEeK5b2hh2r5yHPu2Tzo7sXABNIFYXJvfa5mDRnoi1oI8HIa/5hSMhhJQ
-qzhbtSU5vEj7+Eg/jFQcvHmF4paIB4LGZkHWzANko54gUFzm73GVq5h4mj5Fmsrp
-UFnqYYSwrNQwInpSKkPS2FewLejfGDJZONVNY8VDDEi/E0YjRJ3pwt3ymtp8M898
-Zo+HDusXEJ7q536aV4MYcAwlfuXEoKcoa+tUEQe4ipen8NO2t6S4PCf+98LgE3jK
-AAaUdLGp55DBN31tg0cjJOQo
-=yZSv
------END PGP SIGNATURE-----
-
---===============4892602185127374271==--
