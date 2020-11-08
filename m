@@ -1,38 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sun, 08 Nov 2020 23:12:55 -0000
-Message-Id: <160487717524.8963.2660215171395145876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 08 Nov 2020 23:17:01 -0000
+Message-Id: <160487742136.11740.12903638889306750041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 9e4e570567afb7fbfa8ddace74c7dfb14dea618d
-    new: 6d84cf53a456b65acc03e4d774210ed0f80ca0e5
+  - ref: refs/heads/master
+    old: 969a1db0c46f6cc9a1d438c25497acb5b8f35acc
+    new: 57862c92b2a550d616f20d161ac9e4f56ac12030
     log: |
-         f36296e4ddfc003932c435cb16ca26fc87e43001 dt-bindings: arm: rockchip: Add Engicam PX30.Core EDIMM2.2 Starter Kit
-         7a180f56e01443be526061bd8ec8cf6e2c4f988d arm64: dts: rockchip: Add Engicam EDIMM2.2 Starter Kit
-         d92a7c331f53ccf6da4e0cb6b49470444cb150ce arm64: dts: rockchip: Add Engicam PX30.Core SOM
-         0935d7e9b1b26230e01dc5f0ed8d2af3771ced57 arm64: dts: rockchip: Add Engicam PX30.Core EDIMM2.2 Starter Kit
-         5fccec0cf423aaf90c9c0125ef5af56c9455ba64 dt-bindings: arm: rockchip: Add Engicam PX30.Core C.TOUCH 2.0
-         746c750a8bc4994638d014834389205c3e3bcc14 arm64: dts: rockchip: Add Engicam C.TOUCH 2.0
-         e786f756d52707f3c36ca0efe949407a8b978493 arm64: dts: rockchip: Add Engicam PX30.Core C.TOUCH 2.0
-         6d84cf53a456b65acc03e4d774210ed0f80ca0e5 Merge branch 'v5.11-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v5.11-armsoc/dts64
-    old: c20e6dd9a953d62f14399dabf457dce61dd5611f
-    new: e786f756d52707f3c36ca0efe949407a8b978493
-    log: |
-         f36296e4ddfc003932c435cb16ca26fc87e43001 dt-bindings: arm: rockchip: Add Engicam PX30.Core EDIMM2.2 Starter Kit
-         7a180f56e01443be526061bd8ec8cf6e2c4f988d arm64: dts: rockchip: Add Engicam EDIMM2.2 Starter Kit
-         d92a7c331f53ccf6da4e0cb6b49470444cb150ce arm64: dts: rockchip: Add Engicam PX30.Core SOM
-         0935d7e9b1b26230e01dc5f0ed8d2af3771ced57 arm64: dts: rockchip: Add Engicam PX30.Core EDIMM2.2 Starter Kit
-         5fccec0cf423aaf90c9c0125ef5af56c9455ba64 dt-bindings: arm: rockchip: Add Engicam PX30.Core C.TOUCH 2.0
-         746c750a8bc4994638d014834389205c3e3bcc14 arm64: dts: rockchip: Add Engicam C.TOUCH 2.0
-         e786f756d52707f3c36ca0efe949407a8b978493 arm64: dts: rockchip: Add Engicam PX30.Core C.TOUCH 2.0
+         d9b497915cdd6cb8e81e374c27929884447968bd Fixes for 5.9
+         26d1f20b8a8ddb60a28d0f2aa9802f3856b12780 Fixes for 5.8
+         fd449cec476020fb65b4c5b75dce8388ad48dfd9 Fixes for 5.4
+         24b43413965af25e4ee4acc5dadcee4bf22e46ec Fixes for 4.19
+         57778476840be657263f4ff7f2339af6cb401bfb Fixes for 4.14
+         835cf7b17cfe8f5c03e6b32d42c9f27ffbc90be3 Fixes for 4.9
+         57862c92b2a550d616f20d161ac9e4f56ac12030 Fixes for 4.4
          
