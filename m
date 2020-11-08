@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 08 Nov 2020 16:23:39 -0000
-Message-Id: <160485261923.8558.15043105351727467328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Sun, 08 Nov 2020 16:52:08 -0000
+Message-Id: <160485432816.25602.4052143527426752815@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/testing
-    old: a3c089b9cf277304497522f231c2c03f7f8bb2fd
-    new: 1f4877218f7e2c2b914aeb69a8a0f47d59c74717
+  - ref: refs/heads/habanalabs-next
+    old: 0cba7073021ea6399ed9b180da89b34f6f63377f
+    new: 48612a89d3f00321bc3eea1f7222f664d8ca62a6
     log: |
-         397f45ed26c5dad70426ab372c250c8b903c996d MAINTAINERS: Fix 'W:' prefix in Invensense IMU entry
-         1d4ef9b39ebecca827642b8897d2d79ea2026682 iio: core: Add optional symbolic label to a device channel
-         3079188f821cfbdbb0b12f668335931a87eb14c6 iio:Documentation: Add documentation for label channel attribute
-         75ed0be7200def4015654d896bc3c8e3b22ccefa iio: adc: ad7768-1: Add channel labels.
-         7d4156ddf1b838b100a037d02d4bf15ccb3ccd26 dt-bindings:iio:adc:adi,ad7768-1: Add documentation for channel label
-         7f79711533a96b02e1e24e2e36a29b08734e36e2 dt-bindings:iio:adc:adc.txt: Add documentation for channel label attribute
-         499da8bdb868ad4ca611beae98d9c6419731c572 iio: adc: stm32-adc: dma transfers cleanup
-         396cd5092caf8daaa72139c81f16d4aa1ecd560d dt-bindings: iio: adc: add bindings doc for MT6360 ADC
-         d4686c52a20b51f539d8a5d09807441af490602b Documentation: ABI: testing: mt6360: Add ADC sysfs guideline
-         1f4877218f7e2c2b914aeb69a8a0f47d59c74717 iio: adc: mt6360: Add ADC driver for MT6360
+         fd6e4ad98bd96fb344b2a0202af7c5da05a52e4f habanalabs: refactor mmu va_range db structure
+         84e74c83ff782cec373199cb600b917e385e84f8 habanalabs: Rename hw_queues_mirror to cs_mirror
+         48612a89d3f00321bc3eea1f7222f664d8ca62a6 habanalabs: improve hard reset procedure
          
