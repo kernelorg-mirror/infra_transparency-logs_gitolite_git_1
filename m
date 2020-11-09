@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3304519440403961263=="
+Content-Type: multipart/mixed; boundary="===============9194392721440001542=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 09 Nov 2020 09:37:32 -0000
-Message-Id: <160491465264.13573.5901207174439669933@gitolite.kernel.org>
+Date: Mon, 09 Nov 2020 09:37:48 -0000
+Message-Id: <160491466840.13712.11676593719445582409@gitolite.kernel.org>
 
---===============3304519440403961263==
+--===============9194392721440001542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 3cea11cd5e3b00d91caf0b4730194039b45c5891
+  - ref: refs/heads/tty-linus
+    old: 3c4e0dff2095c579b142d5a0693257f1c58b4804
     new: f8394f232b1eab649ce2df5c5f15b0e528c92091
-    log: revlist-3cea11cd5e3b-f8394f232b1e.txt
+    log: revlist-3c4e0dff2095-f8394f232b1e.txt
 
---===============3304519440403961263==
+--===============9194392721440001542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604914703 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604914725 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1604914639-d6d1ba3e24fa9a12ac43d7cb74a1d39437862c67
+nonce 1604914661-6a148debb05bac241fde07b25617aa9305323750
 
-3cea11cd5e3b00d91caf0b4730194039b45c5891 f8394f232b1eab649ce2df5c5f15b0e528c92091 refs/heads/main
+3c4e0dff2095c579b142d5a0693257f1c58b4804 f8394f232b1eab649ce2df5c5f15b0e528c92091 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+pDhAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UpcQALPQbHsTxNMVRCCaMztq
-+nrkLepYCiK8tKoFntBMoZnoAyEg+r4ADZ19otrqA7/Su2j5Fa/iJPxyDLfaVkGc
-0w7ZcNXiovzJdZnEbtBbtbYqo/Y26LayRtO5kTPW+SAY4qUhM0B8Swvf/yjrLKfK
-XeaadiwHo/nktvH2JU0q/jMQtHv9fDvvfBPYpGRXsB5cg0RKalDvfw7szZhourjm
-/tXsGShY8Kn8ajQ+s7GLDQ4G1qkvyM0keQMEXPRulzs2A+XGtrD+wJbVm6l+GZxv
-AJZfC/mny/fWvlkvQd1dx/19+2rfcdIFH+yVxmzgFc0CnhTMYwvp8ZHDoLDtSv21
-bHuchRdIPbCgggLib4BxX70BLuL4KKH9BPzM+7FBODTZhk4yYYH2D/zA03Ac9gKQ
-6taAfZkAwtZDAqDiNLB3qaSd1sz+b1ufpOjPEyqQXiAib0n7ug3y0aJxWejjMdSN
-UiaY7g6jagRGIEdcsZPaK08C52D5IF65lf8Nz3tvgBQhA5kndtsbF8zjMm0EAhSB
-2DnqS2ONBzTccBvNaT/pxI3SzU31O9rBAV8/DH1Nt9lnoG2xKBJ3Ag1stlwDD/dq
-5XyZ0ao0E4q+EKQxMEqhER5HqvI5zcyPz2S4Bh7bCnV2lGadU1OuQHZEaaVMAma1
-Th6+t8bBkx3PuhV+NEmIAEiW
-=4uVY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+pDiUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ypEQAIi9kaE1Cug2FWpY2mFh
+SmU2J2MuL9d2s00FWG0zbVvO0fDxKMbyBp/2IsAfpJ6d8DzvR1ppfKwntfpAYJCX
+8zK3R6E47EFj3nDK3Zs7HSAI/9zbfLRCqPMZjxXMFEACb8aKD7WhV/tRPu/ZDxB4
+WpcC2ZE/v8Wt+5J2pog5uy7Gxtwx5kxE9CYVSn4amgYevB+2JAL2KUBKdIVmaloT
+QWxveZtFROd2YVGenQ1t+ESV3WuRhtoK1H97v2WhTzt+j2jnuLptKlK2y8++D1Nx
+RlMlAkdFXOMDBdCfM6WsUMX6X5Pno3mr8gyWJne4IWAZ1prIu4cGdYxofAf+UkNH
+NqSn1eoGxUmlN9x8AUBk/SWtMMf5FVXtFhaB20pq7QEG17eCJBNh+stMrbCXQIiM
++2FgsylKq6Q0rM3dibB4RfU9uhKGAYwjqf4mJJieo/EvBEQtowpEQWVI6DC8TZ2p
+koe7ksHK5KPJxQPuG6mYJg2+WZJx7sh7Ubv7hHNkrmVsBG1pWmHdIpv20VyTtYNi
+NjWAQimLrQiadlhrNNB05Z55XwAu2zCI1kmBFCVoRCREF3F5NqWl5v5kF2zFpyhZ
++3AzNwOyMlmE1kO5M2j0Goj3souNa690Dl8xkkT8gKKHjQ/3oW+vqtYGqmSHxCFU
+n0yNeTTP8zR4Om6VVKb+Pkt7
+=tz1W
 -----END PGP SIGNATURE-----
 
---===============3304519440403961263==
+--===============9194392721440001542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3cea11cd5e3b-f8394f232b1e.txt
+Content-Disposition: attachment; filename=revlist-3c4e0dff2095-f8394f232b1e.txt
 
 7fe94612dd4cfcd35fe0ec87745fb31ad2be71f8 xfrm: interface: fix the priorities for ipip and ipv6 tunnels
 9fe9efd6924c9a62ebb759025bb8927e398f51f7 ASoC: Intel: kbl_rt5663_max98927: Fix kabylake_ssp_fixup function
@@ -491,10 +491,6 @@ ed01ddc618fc356bbc7b702823c87ed3ada198a6 i2c: mlxbf: Add CONFIG_ACPI to guard AC
 3b5f7f10ff6e6b66f553e12cc50d9bb751ce60ad i2c: designware: slave should do WRITE_REQUESTED before WRITE_RECEIVED
 b154ce11ead925de6a94feb3b0317fafeefa0ebc tpm_tis: Disable interrupts on ThinkPad T490s
 8ffd778aff45be760292225049e0141255d4ad6e tpm: efi: Don't create binary_bios_measurements file for an empty log
-912ab37c798770f21b182d656937072b58553378 serial: 8250_mtk: Fix uart_get_baud_rate warning
-427627a23c3e86e31113f9db9bfdca41698a0ee5 tty: serial: imx: enable earlycon by default if IMX_SERIAL_CONSOLE is enabled
-0c5fc92622ed5531ff324b20f014e9e3092f0187 serial: txx9: add missing platform_driver_unregister() on error in serial_txx9_init
-4466d6d2f80c1193e0845d110277c56da77a6418 tty: fix crash in release_tty if tty->port is not set
 e1777d099728a76a8f8090f89649aac961e7e530 null_blk: Fix scheduling in atomic with zoned mode
 d4d50710a8b46082224376ef119a4dbb75b25c56 seq_file: add seq_read_iter
 fe33850ff798eb8d57eea88cc14090770013bb73 proc: wire up generic_file_splice_read for iter ops
@@ -534,11 +530,10 @@ aaaaa7ecdc0b46fe56e8192545321ce44d85236e Merge tag 'locking-urgent-2020-11-08' o
 40be821d627c61ee5beb51d265af372ab29804e4 Merge tag 'x86-urgent-2020-11-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6b2c4d52fd38e676fc9ab5d9241a056de565eb1a Merge branch 'hch' (patches from Christoph)
 9dbc1c03eeb534b82647cccb059aca0685d449a7 Merge tag 'xfs-5.10-fixes-3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-3c4e0dff2095c579b142d5a0693257f1c58b4804 vt: Disable KD_FONT_OP_COPY
 b4e00444cab4c3f3fec876dc0cccc8cbb0d1a948 fork: fix copy_process(CLONE_PARENT) race with the exiting ->real_parent
 df53b815c799cab8c6e04816b5005810a57ea6a3 Merge tag 'usb-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 bbc821849eba179e62bbe2adba19a87c7686c27b Merge tag 'tty-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 15f5d201c1773297b38a11a0064be76a224d073d Merge tag 'driver-core-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 f8394f232b1eab649ce2df5c5f15b0e528c92091 Linux 5.10-rc3
 
---===============3304519440403961263==--
+--===============9194392721440001542==--
