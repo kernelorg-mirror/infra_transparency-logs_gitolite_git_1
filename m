@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Mon, 09 Nov 2020 16:29:13 -0000
-Message-Id: <160493935374.16587.8377419090809349158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 09 Nov 2020 16:44:30 -0000
+Message-Id: <160494027005.25450.12973541740692864021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 4e0396c59559264442963b349ab71f66e471f84d
-    new: d18b184127dedad485469f6d774976d48a5e559d
-    log: |
-         baca7f1c1c1e91c4ada934e36a900666d13a6d30 lib, strncpy_from_user: Don't overcopy bytes after NUL terminator
-         d18b184127dedad485469f6d774976d48a5e559d selftest/bpf: Test bpf_probe_read_user_str() strips trailing bytes after NUL
-         
+  - ref: refs/heads/test/usb-hacks
+    old: 0000000000000000000000000000000000000000
+    new: 2adedc89c82670019ee3b016d2a2237176768e3a
