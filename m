@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5933040454607640540=="
+Content-Type: multipart/mixed; boundary="===============3705227657138827396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 09 Nov 2020 16:48:34 -0000
-Message-Id: <160494051411.28417.17380809356361392819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 09 Nov 2020 16:48:39 -0000
+Message-Id: <160494051909.28501.16920232708675439516@gitolite.kernel.org>
 
---===============5933040454607640540==
+--===============3705227657138827396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 4d3d761b5b27bb33a731e8df51b7fb6a6c565804
 
---===============5933040454607640540==
+--===============3705227657138827396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -432,4 +432,4 @@ bbc821849eba179e62bbe2adba19a87c7686c27b Merge tag 'tty-5.10-rc3' of git://git.k
 15f5d201c1773297b38a11a0064be76a224d073d Merge tag 'driver-core-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 f8394f232b1eab649ce2df5c5f15b0e528c92091 Linux 5.10-rc3
 
---===============5933040454607640540==--
+--===============3705227657138827396==--
