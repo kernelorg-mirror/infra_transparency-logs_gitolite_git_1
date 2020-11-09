@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0742924805710583912=="
+Content-Type: multipart/mixed; boundary="===============9213289350217192786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Mon, 09 Nov 2020 00:26:49 -0000
-Message-Id: <160488160981.27833.4024074085057333735@gitolite.kernel.org>
+Date: Mon, 09 Nov 2020 00:53:30 -0000
+Message-Id: <160488321075.11698.4588803656464726292@gitolite.kernel.org>
 
---===============0742924805710583912==
+--===============9213289350217192786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,87 +15,93 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
+  - ref: refs/heads/queue-4.14
+    old: d8ff8744775a10afa7a2e3bee3ab3711b7e28577
+    new: 229dee0b6dfa12b11c414492df9b56fc90d3a928
+    log: revlist-d8ff8744775a-229dee0b6dfa.txt
   - ref: refs/heads/queue-4.19
-    old: abc83e1be0bffbd3449ea10b3859541f99c676f3
-    new: f2603e4f47603ebd2e38eab5a0fa85b796ad3044
+    old: f2603e4f47603ebd2e38eab5a0fa85b796ad3044
+    new: 5a3a881fe700c4ced1ab93be6c973852b08e3b66
+    log: revlist-f2603e4f4760-5a3a881fe700.txt
+  - ref: refs/heads/queue-4.4
+    old: 96b42d8ec0850ba4cfff1dde10c33456298d81a0
+    new: 1d87f3e58e0bc467e7128f9a6f4cf74a3fd3d34f
     log: |
-         226c3cc9c2123a8a0fd05aa3ded5820082adcc9b ASoC: Intel: kbl_rt5663_max98927: Fix kabylake_ssp_fixup function
-         f70a96b5fec3398fd99e9e0afd4205e70d5e52bf genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
-         f2603e4f47603ebd2e38eab5a0fa85b796ad3044 hv_balloon: disable warning when floor reached
+         2f51b6998d52fef1e00811d628b07c6c017eb1b9 net: xfrm: fix a race condition during allocing spi
+         e2caab95e93c133e0636cb69585fc1e7c62cd942 perf tools: Add missing swap for ino_generation
+         66918056f8cfd68f176e664e59b73af8cc584db7 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
+         b3f9cbcf4122cf5c757c512198e2229dbe78a5b0 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
+         9438c805743c9e647bc7ea59f758117866595621 can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
+         1e98d10849a83805cf066a4c9021365e6b244ddf can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
+         90ae8050646e7f839306d0e7dca59867cd3dcd2a can: peak_usb: add range checking in decode operations
+         1d87f3e58e0bc467e7128f9a6f4cf74a3fd3d34f can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
          
-  - ref: refs/heads/queue-5.4
-    old: 4d51800e0c7c10957a780f53c1545b8aefdf81d0
-    new: 573ba9c14e2c80a83c2da18beed2b2fe8023a2ec
-    log: revlist-4d51800e0c7c-573ba9c14e2c.txt
-  - ref: refs/heads/queue-5.8
-    old: 83209e0a6c324a49169162f40f9a7004c4590b52
-    new: 5c31789fbc0222f4ad78a6dec624a24635f3a5de
-    log: revlist-83209e0a6c32-5c31789fbc02.txt
+  - ref: refs/heads/queue-4.9
+    old: d2b1019ed327d7b20d81eaa9907ca04bff3f32d2
+    new: 2e9b30920f9dbd2a9897e596d91a4251eb1d5312
+    log: revlist-d2b1019ed327-2e9b30920f9d.txt
 
---===============0742924805710583912==
+--===============9213289350217192786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d51800e0c7c-573ba9c14e2c.txt
+Content-Disposition: attachment; filename=revlist-d8ff8744775a-229dee0b6dfa.txt
 
-b28abe8ea721c2e168fba78b8a7259dddcee7ec2 ASoC: Intel: kbl_rt5663_max98927: Fix kabylake_ssp_fixup function
-43103eee79c438212dc6178c4f401748df59e3e9 genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
-cba8be69a9f239b56ec46133a00e6eda38430f82 hv_balloon: disable warning when floor reached
-95fff156c50a5e07c6d8a3820812569da2b40a73 net: xfrm: fix a race condition during allocing spi
-cb1a8ed3d7b83975808cce116cce4b90b33e6b16 ASoC: codecs: wcd9335: Set digital gain range correctly
-db5da7db3b0079ca1dd6d8eb898431ee89492cb5 xfs: set xefi_discard when creating a deferred agfl free log intent item
-388837f2fd0cb469e2fb0401f2ab37d8ac7a2ccd netfilter: use actual socket sk rather than skb sk when routing harder
-040d18b476d19a1ac9724cbe2ec373cc8d13563b netfilter: nf_tables: missing validation from the abort path
-9c3ffe1db3258c1dfbebc895fbb209264c660361 netfilter: ipset: Update byte and packet counters regardless of whether they match
-a6fb6cf0c94043bcbd65626ed6c4c6072101c78e powerpc/eeh_cache: Fix a possible debugfs deadlock
-244d0a347f95a50f49408b921262c225a8633e0e drm/vc4: bo: Add a managed action to cleanup the cache
-b4be7f7a8d31653415b17505531b87e32bbd2016 perf trace: Fix segfault when trying to trace events by cgroup
-24913830a2a8ed33d1e7ead4ca32f75d46148ad1 perf tools: Add missing swap for ino_generation
-1d3686da647b2f668c4aa11b8975e0b177b1cdc3 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
-e172ea99a3dfbf6ae119da7aeeb504c8eb7d6ec7 iommu/vt-d: Fix a bug for PDP check in prq_event_thread
-3b1ae1b63a04f0d4bce955b527b856bf9d0277cb afs: Fix warning due to unadvanced marshalling pointer
-5d625e5fd7cef98ecfb30a836cfcac4b63cba627 can: rx-offload: don't call kfree_skb() from IRQ context
-6f022eeb56f3e3937dd41d61fc2b352c589fe462 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
-d183163c57e583322a6ede4fec7ef7357f765f1a can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
-5421e34658fe5fc74337e181a04910214d71e3cd can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
-dc68f3de2979f3fde8dd411c751562c413e0f61f can: j1939: swap addr and pgn in the send example
-843fbf7da7e21a61e74c09701d7b862b7e842a33 can: j1939: j1939_sk_bind(): return failure if netdev is down
-92d52811010094668a7646c15272612a17072b83 can: ti_hecc: ti_hecc_probe(): add missed clk_disable_unprepare() in error path
-16e18ab90c78a2117f0e3f333e8c0cbca8cf068f can: xilinx_can: handle failure cases of pm_runtime_get_sync
-268053a006efe1b3cb3cd0cf58b238fe67793326 can: peak_usb: add range checking in decode operations
-907f7b54c5fc031822cf9296e36976864f5f1a39 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
-6b92e7223aff06d19f1ce1b90fcebd0bbce7bbd1 can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
-78de5ed88bad33f341cc805d0ca19260272f477e can: flexcan: remove FLEXCAN_QUIRK_DISABLE_MECR quirk for LS1021A
-ce74d8760cc792f99d261f4f376ac3de46641cc9 can: flexcan: add ECC initialization for VF610
-97cdb61ec2af299f55ac3f7d60ccdfa2dda7d4e2 can: flexcan: flexcan_remove(): disable wakeup completely
-4bc4b04049c346bd528051753c2a1cb5ec85cccb xfs: flush new eof page on truncate to avoid post-eof corruption
-758ef82bd4591d2c17968c677af10ff594ab11da xfs: fix scrub flagging rtinherit even if there is no rt device
-237b5d1010d03e4b11658fa8cc0a4c5011fb0150 tpm: efi: Don't create binary_bios_measurements file for an empty log
-573ba9c14e2c80a83c2da18beed2b2fe8023a2ec perf/core: Fix a memory leak in perf_event_parse_addr_filter()
+e7c0e0a7c9ffb9cf197f7d46f4c483075880c89b genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
+e5cfc70ad5f9f5c42a8a377de02a869161e55ba8 hv_balloon: disable warning when floor reached
+210f4bce932d43c56172ccae995d964df27a96b9 net: xfrm: fix a race condition during allocing spi
+5bc4c00d7a7efeaec42de0691aa6d2ebf3293a52 perf tools: Add missing swap for ino_generation
+a7ef859489e9d387a45bd119295de908c8ceb76b ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
+7b35ac037de3cf5c16841aba3229caa951a075bd can: rx-offload: don't call kfree_skb() from IRQ context
+9f820ffa565ec35de032dc8f780889b3a5e8b7aa can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
+6bcdab312e2518b373b9790ed1dfa4fc20b56b01 can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
+73f901041c9938b0d0128b21d08b1ad60a33687a can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
+392a50802d891058de5007e9f7e10a2323faf7d2 can: peak_usb: add range checking in decode operations
+3db7427a55b42cb12d2c9cb04fd30426facd3669 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
+76c8077277d2f9f149e3d4e1a510d059f481d155 can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
+1982ea7f774112a95744c512c24df56aeb46e2e5 can: flexcan: add ECC initialization for VF610
+229dee0b6dfa12b11c414492df9b56fc90d3a928 xfs: flush new eof page on truncate to avoid post-eof corruption
 
---===============0742924805710583912==
+--===============9213289350217192786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83209e0a6c32-5c31789fbc02.txt
+Content-Disposition: attachment; filename=revlist-f2603e4f4760-5a3a881fe700.txt
 
-55c9ce5cf591aba02d3b7f7461646b276172b4b9 can: j1939: swap addr and pgn in the send example
-782595221e81808a7cdf55a2416e45d0ce08e7cd can: j1939: j1939_sk_bind(): return failure if netdev is down
-d303ee640504d94924e417e6ed14231a6a9e356d can: ti_hecc: ti_hecc_probe(): add missed clk_disable_unprepare() in error path
-6ec9464bff47ab395e3833995b0c95b6b2eb07ab can: xilinx_can: handle failure cases of pm_runtime_get_sync
-42475725a53deaf21326fde0c4c993d4969bb360 can: peak_usb: add range checking in decode operations
-b25b8708bb08ee47bae879dbc11b5f0d79e201a6 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
-a45e2c448c1ce37fdecc23068fdf990d73dcee88 can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
-f1e14e8b3adef6ea3f4ef231e7cb94db55fd1809 can: flexcan: remove FLEXCAN_QUIRK_DISABLE_MECR quirk for LS1021A
-3b53c51ca7576fba7a3727c4622117eead93a97b can: flexcan: add ECC initialization for VF610
-a10ae175983c77a2ca0c59d8fb603a7c705a4a74 can: flexcan: flexcan_remove(): disable wakeup completely
-8d2448fac224dabf6002f090a6cf5428f2cf66df xfs: flush new eof page on truncate to avoid post-eof corruption
-a9795186d170f563c03431fd1411552d497e1bde xfs: fix missing CoW blocks writeback conversion retry
-0930a99f567128158e0e61ebe34ddc3370be216d xfs: fix scrub flagging rtinherit even if there is no rt device
-9be4f77c8473080b6ff14662ff4b44f92c5f5597 kbuild: explicitly specify the build id style
-0d63047b154dbbf25c9dcf53f14880ddac5ed9bb RISC-V: Fix the VDSO symbol generaton for binutils-2.35+
-7be4c8dd7fc1062f2a0ebe1c0e1f5a6b72e4071d USB: apple-mfi-fastcharge: fix reference leak in apple_mfi_fc_set_property
-0b3cebe275ed0ae95ec054492b438db9d48ad939 tpm: efi: Don't create binary_bios_measurements file for an empty log
-5c31789fbc0222f4ad78a6dec624a24635f3a5de perf/core: Fix a memory leak in perf_event_parse_addr_filter()
+a66e9103bc3875cfde66838a7186e84263ca6c36 net: xfrm: fix a race condition during allocing spi
+abe456a8f38937a2d5679e155487b7eaa36a3d4b xfs: set xefi_discard when creating a deferred agfl free log intent item
+3745716bea32e9193ff719f622594d47c30875b5 netfilter: ipset: Update byte and packet counters regardless of whether they match
+b6fb752db67a2bcd0e74dcd7669993defad6424d perf tools: Add missing swap for ino_generation
+0f9dff5b130fa8e3c681ddc83037a47b5e30b177 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
+4d9c3a806beb0395d5e78ae4c4cf7e3a65f9ba25 can: rx-offload: don't call kfree_skb() from IRQ context
+9e942a20d63db915998ec0980a67aa1dbe6d6755 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
+f3fadfdbb9d2d5fe8b8b92766fa2a4b9b7b74b67 can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
+0cb913bfc95d734a23192774eb8df652914f4a27 can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
+3df400ed4ac3b8f3bd41d5b3f7c26b427444d550 can: peak_usb: add range checking in decode operations
+d69e97a399a8bb6e950d3bfcdef7e93b799e2577 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
+6687ed20e307ce995bd0a03e7d640bf2726fceef can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
+f1ecb33388f88e9eb5226b940a3fbc7abce85549 can: flexcan: remove FLEXCAN_QUIRK_DISABLE_MECR quirk for LS1021A
+9eb3936d2c1d9212d7a1c8a9c0e722b241cb4bf3 can: flexcan: add ECC initialization for VF610
+3d2bf8ef08113a6712c4ac0f7621ec2b0e1cfd69 xfs: flush new eof page on truncate to avoid post-eof corruption
+b514ddcfe9cdba0ce73c072700f2ac07076e0a8b xfs: fix scrub flagging rtinherit even if there is no rt device
+f5a4a035657976e03233ac3bceacd18071931552 tpm: efi: Don't create binary_bios_measurements file for an empty log
+5a3a881fe700c4ced1ab93be6c973852b08e3b66 perf/core: Fix a memory leak in perf_event_parse_addr_filter()
 
---===============0742924805710583912==--
+--===============9213289350217192786==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d2b1019ed327-2e9b30920f9d.txt
+
+c05573d8984c57377ce97c620c73357560dccab4 genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
+f8e3c4ec1040bf9d5a4a0cebb01883cb79a2fda3 net: xfrm: fix a race condition during allocing spi
+fe6908644ac7f9399a68dabad55f22717445dc45 perf tools: Add missing swap for ino_generation
+df30eeaa679edcf6c3f42b7e2c746239207f10fe ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
+3619ec50ff2483e4d7bba4782e8f24116b887d35 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
+b89b8800cc004b99be4d8a8785677630009d390c can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
+0b45535cc25e67881a7cb2d59d1c7ae5dfbdcb9a can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
+1aada15c3447a4bdfe183a6267502ed5ccc3c2ab can: peak_usb: add range checking in decode operations
+f3342ac92dc54d6e99adadde3a39fa2d73ead125 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
+2e9b30920f9dbd2a9897e596d91a4251eb1d5312 xfs: flush new eof page on truncate to avoid post-eof corruption
+
+--===============9213289350217192786==--
