@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0280730778963592454=="
+Content-Type: multipart/mixed; boundary="===============5457659671658045865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 09 Nov 2020 09:34:58 -0000
-Message-Id: <160491449880.25998.11032066338245253870@gitolite.kernel.org>
+Date: Mon, 09 Nov 2020 09:35:11 -0000
+Message-Id: <160491451194.31866.10769177858756497962@gitolite.kernel.org>
 
---===============0280730778963592454==
+--===============5457659671658045865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 3cea11cd5e3b00d91caf0b4730194039b45c5891
+  - ref: refs/heads/usb-linus
+    old: db388a6cb7ed986077d3a275712bfc2e28082760
     new: f8394f232b1eab649ce2df5c5f15b0e528c92091
-    log: revlist-3cea11cd5e3b-f8394f232b1e.txt
+    log: revlist-db388a6cb7ed-f8394f232b1e.txt
 
---===============0280730778963592454==
+--===============5457659671658045865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604914552 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604914569 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1604914489-4eeb015f8c57e3564773212ee76171fc492b9e5a
+nonce 1604914505-5ef0171967ade3dd6b30b547872b770bf5e88639
 
-3cea11cd5e3b00d91caf0b4730194039b45c5891 f8394f232b1eab649ce2df5c5f15b0e528c92091 refs/heads/main
+db388a6cb7ed986077d3a275712bfc2e28082760 f8394f232b1eab649ce2df5c5f15b0e528c92091 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+pDXgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uScP/1g8tKphnDC+aYcuQNn6
-ekIFQDMGPIPOpSNWjnkKHh6pJf9go1VnLH5dtFNQIwkvKz8hgKULJjY8wn5k2n6q
-H218NJadmd9U9+Ubs3ho6ph54oFLd4Dl3eUNNnXp2Uu9I+MHFi0UunjuMKv2ivTx
-A8iqN9w+p8hjLLDYFs/k1eUWv867vMfJ+Zz355MT6OA/IRcuMcQmZ39nBI52kcpk
-I9+XdctIBOseyXWCquNqQUzIdtAQ3+aprNHHA2LVHkh4iyQITonqZtFDr6p6nGTz
-sUjGGpI/bKIlkG/SUvVceqwc8YgoKlZNORwubD2pZiFrzOjHbozlMvVkb+DfFdW9
-GYVt3fUUScDLBzrf5MAIM3VbjdNEZPWEjdWgQDg/WF8pwjfI+UnyXXVPWxE13G6F
-X7pmg8IKa4baNJ+jihj+m8kfrELlyuqs3e8w8cD71polFABhjseq9E5L0MGArC0J
-jkIstRh6h9saKaW8nSOJl4JbZ/Fb2HnhxtRgRG0ibCJTSfbpCvaAPe+0R830oQEK
-GYp4JM9cMe0eb4r2WRiQfufU48ZvtMfSghmN7kC/bjhnThGY2V8YBGxLeq6V35dS
-7qF27jh5H7Xw+cm/tyw3R4CP0qON2c+HDl06s4chL6QesOU3cvgC2QVOJxgu064P
-d5U2Ey5Zsi5ca+loObn6oECR
-=eHy2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+pDYkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rxUQAL97cnaybUb6kl98MWff
+gIf+u4C1pEQ+BkrFCq7XWoR1KClPOevsp9XkkXWhqCha1/Gs0FOjvBqCxMikY8XP
+x/h/EhL7kyV9+5AU+N64L0mg6RLvzd/np+FqGodjPW+3dyWDvurFJ71807ID9xcN
+2eFXJTrV9/8EQR8UnaXpOzZKjqkU9gNVgZfwEoemNj3JoxmH1WOMtqw9fvhoI87V
+0HAmXJyjuOYY41TrHvK/MKOX+jXl7YIEih0Dj2NKZDSpp6+UdgslErZCGUFReaD9
+906Mm/VtgzrYKQtnoOBsUPCnngVyfYt3HfYcsaKUSWTMSa5qhrAOzqVTNgVeWz5u
+OHgWkTI+f6n04F0Y0dGVHrgsNF4kNrU2UOX6FXhP9di6b0eENdXFsEBBzTsi60wv
+2Q9RNwgbAUnxhMvZEgEBsGXiU97BQUiFuSwoY7MKMDVFlpncxUXmQcLwe5jxClfA
+yLYoNRfYN7SKMlianpKmubrDKzgmjDm1qUhMoHgF+UvzdJKn6YrbNU0AJabx90Xz
+8YgEu5lMyGgaK31D0edB98z+M3tOr7VVplASd1aDFFwPc3ac8ftWn5hd+gA56GPm
+SM8V6TF5LolvboV7+BA94YHd8taD61AZmlcWvQ+2Du8A5AfvTZsI8fS+y02RWKWI
+DY/S2ORZ3F1cPOYjsngX2fLl
+=gV/8
 -----END PGP SIGNATURE-----
 
---===============0280730778963592454==
+--===============5457659671658045865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3cea11cd5e3b-f8394f232b1e.txt
+Content-Disposition: attachment; filename=revlist-db388a6cb7ed-f8394f232b1e.txt
 
 7fe94612dd4cfcd35fe0ec87745fb31ad2be71f8 xfrm: interface: fix the priorities for ipip and ipv6 tunnels
 9fe9efd6924c9a62ebb759025bb8927e398f51f7 ASoC: Intel: kbl_rt5663_max98927: Fix kabylake_ssp_fixup function
@@ -98,19 +98,13 @@ f0b62039bf7f998fb3f1369ac70dbe571c74f9d8 Documentation: kunit: Update Kconfig pa
 2a6eca16f376f6b83aaf73c57f0b6547907a5ed3 ALSA: make snd_kcontrol_new name a normal string
 1f6620f87006dc02c608466cd990778aaadf386a opp: Don't always remove static OPPs in _of_add_opp_table_v1()
 47efcbcb340cca5d3b3d515964f09e1fec599a29 opp: Fix early exit from dev_pm_opp_register_set_opp_helper()
-1384ab4fee12c4c4f8bd37bc9f8686881587b286 usb: dwc3: pci: add support for the Intel Alder Lake-S
 f15cfca818d756dd1c9492530091dfd583359db3 ALSA: usb-audio: Add implicit feedback quirk for Zoom UAC-2
 e0df59de670b48a923246fae1f972317b84b2764 opp: Reduce the size of critical section in _opp_table_kref_release()
-0d66e04875c5aae876cf3d4f4be7978fa2b00523 usb: gadget: goku_udc: fix potential crashes in probe
-48e7bbbbb261b007fe78aa14ae62df01d236497e usb: gadget: fsl: fix null pointer checking
 754e0b5803e4d915a6f6d8a4154491564c5ea17c drm/imx: imx-ldb: reduce scope of edid_len
 5f2ca76d564509a92c000180441b0f33073be674 drm/imx: parallel-display: fix edid memory leak
 f433ff4d293867060f5bfea4e932f6a5b104f236 drm/imx: parallel-display: remove unused function enc_to_imxpd()
 acbb7f1436624819f728742f781c7d5f10ba267d drm/imx: parallel-display: reduce scope of edid_len
 36fba366cf9fa386e5905976e68380061feabd2e drm/imx: tve remove extraneous type qualifier
-fa27e2f6c5e674f3f1225f9ca7a7821faaf393bb usb: dwc3: ep0: Fix delay status handling
-190bb01b72d2d5c3654a03c42fb1ad0dc6114c79 usb: dwc2: Avoid leaving the error_debugfs label unused
-129aa9734559a17990ee933351c7b6956f1dba62 usb: raw-gadget: fix memory leak in gadget_setup
 e213cd8f175c811034bc766ac37bcb5b3cf83a22 Merge branch 'opp/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 dc6bf4da825aa0301a46f55fec7c0bb706af2aad selftests/ftrace: Use $FUNCTION_FORK to reference kernel fork function
 e3e40312567087fbe6880f316cb2b0e1f3d8a82c selftests/ftrace: check for do_sys_openat2 in user-memory test
@@ -121,7 +115,6 @@ ef7086347c82c53a6c5238bd2cf31379f6acadde selftests/harness: prettify SKIP messag
 b5ec9fe5be5e02e7db9e79aaa9a1ea7a3419d0b5 selftests: pidfd: skip test on kcmp() ENOSYS
 90da74af349e8a476e1d357da735b8f35b56d4e6 selftests: pidfd: add CONFIG_CHECKPOINT_RESTORE=y to config
 7b9621d4593199aa0268e56081fe730b71c053e6 selftests: pidfd: drop needless linux/kcmp.h inclusion in pidfd_setns_test.c
-a46b973bced1ba57420752bf38426acd9f6cbfa6 USB: serial: option: add Quectel EC200T module support
 8a8de09cb2adc119104f35044d1a840dd47aa9d8 ALSA: hda/realtek - Fixed HP headset Mic can't be detected
 215a22ed31a1332075866eca07744d442367c04b ALSA: hda: Refactor codec PM to use direct-complete optimization
 f5dac54d9d93826a776dffc848df76746f7135bb ALSA: hda: Separate runtime and system suspend
@@ -230,7 +223,6 @@ e46e5330d13de67de5b614c5021730e9709de975 drm/vc4: drv: Use managed drm_mode_conf
 88e085896aa67ac250943b117a9016801011c624 drm/vc4: Use the helper to retrieve vc4_dev when needed
 84d7d4720c21320c0e4f9369d6a82fc112b63d8c drm/vc4: Use devm_drm_dev_alloc
 dcda7c28bff2662a44c0adaf87c08031bebeb7d8 drm/vc4: kms: Add functions to create the state objects
-58d51f330e76cd7536d1f7e6ef46dd241a7b38ef Merge tag 'fixes-for-v5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/balbi/usb into usb-linus
 92ca318e11d76562bb9448295a4fd96b6580954f docs: ABI: sysfs-driver-dma-ioatdma: what starts with /sys
 1088ee2230ac5e1c889d5ba020f37c09000ee3af docs: ABI: sysfs-class-net: fix a typo
 e186d80e2b85ab3e69de941d069ab9e11018ddf4 docs: leds: index.rst: add a missing file
@@ -289,7 +281,6 @@ b6df8c81412190fbd5eaa3cec7f642142d9c16cd sctp: Fix COMM_LOST/CANT_STR_ASSOC err 
 7d2d6d01293e6d9b42a6cb410be4158571f7fe9d drm/panfrost: Fix a deadlock between the shrinker and madvise path
 876b15d2c88d8c005f1aebeaa23f1e448d834757 drm/panfrost: Fix module unload
 077aa5c8dd6e2b9c721e8cb3d98a3aa8ecb0e2ef drm/vc4: drv: Remove unused variable
-afaa2e745a246c5ab95103a65b1ed00101e1bc63 USB: Add NO_LPM quirk for Kingston flash drive
 04800fbff4764ab7b32c49d19628605a5d4cb85c nvme: introduce nvme_sync_io_queues
 3017013dcc82a4862bd1e140f8b762cfc594008d nvme-rdma: avoid race between time out and tear down
 d6f66210f4b1aa2f5944f0e34e0f8db44f499f92 nvme-tcp: avoid race between time out and tear down
@@ -397,8 +388,6 @@ a2404fd4823053db08d82582f4361e0978a98a24 drm/amdgpu: update golden setting for s
 2e3a57f4905b4fa6d9b66e9a675c288093c93bf0 amdkfd: Check kvmalloc return before memcpy
 26f4fd6d87cbf72376ee4f6a9dca1c95a3143563 drm/amdgpu: resolved ASD loading issue on sienna
 b9bc36704cca500e2b41be4c5bf615c1d7ddc3ce ARM, xtensa: highmem: avoid clobbering non-page aligned memory reservations
-985616f0457d9f555fff417d0da56174f70cc14f USB: serial: cyberjack: fix write-URB completion race
-489979b4aab490b6b917c11dc02d81b4b742784a USB: serial: option: add LE910Cx compositions 0x1203, 0x1230, 0x1231
 d181bfe36715a1834958cf2d62253b624adfae51 Documentation: remove mic/index from misc-devices/index.rst
 4d6ffa27b8e5116c0abb318790fd01d4e12d75e6 x86/lib: Change .weak to SYM_FUNC_START_WEAK for arch/x86/lib/mem*_64.S
 7be89985c4152b6d9628f5007eb074a8aea7fa11 drm/amdgpu: add Green_Sardine APU flag
@@ -432,7 +421,6 @@ ac6f929d74bad5e9e352aec936aeba0638bf560c Merge tag 'linux-can-fixes-for-5.10-202
 9fff3256f93da6eb2b806eeaec8c1dc6e9a87194 PCI: dwc: Restore ATU memory resource setup to use last entry
 832ea234277a2465ec6602fa6a4db5cd9ee87ae3 PCI: mvebu: Fix duplicate resource requests
 62575e270f661aba64778cbc5f354511cf9abb21 ceph: check session state after bumping session->s_seq
-db0362eeb22992502764e825c79b922d7467e0eb USB: serial: option: add Telit FN980 composition 0x1055
 9d750c75bd2c3fcf20a3c15378d1bc6b2d4ec31f risc-v: kernel: ftrace: Fixes improper SPDX comment style
 1344a232016dbb0492be81f8517c4bf8fc1c6610 powerpc: Use asm_goto_volatile for put_user()
 2aaf09a0e7842b3ac7be6e0b8fb1888b3daeb3b3 r8169: work around short packet hw bug on RTL8125
@@ -477,8 +465,6 @@ bcacf5f6f239a9e60287680514f392748cb4ec39 riscv: fix pfn_to_virt err in do_page_f
 635e3f3e47f24b2506bc9daf91d70ddf3cd024a9 riscv: uaccess: fix __put_kernel_nofault()
 1074dd44c5ba377f90e2d0d99a784f73dbea6ff7 RISC-V: Use non-PGD mappings for early DTB access
 c2c81bb2f69138f902e1a58d3bef6ad97fb8a92c RISC-V: Fix the VDSO symbol generaton for binutils-2.35+
-20914919ad31849ee2b9cfe0428f4a20335c9e2a usb: mtu3: fix panic in mtu3_gadget_stop()
-00bd6bca3fb1e98190a24eda2583062803c9e8b5 USB: apple-mfi-fastcharge: fix reference leak in apple_mfi_fc_set_property
 bc7f2cd7559c5595dc38b909ae9a8d43e0215994 spi: bcm2835: remove use of uninitialized gpio flags variable
 a49cc1fe9d64a2dc4e19b599204f403e5d25f44b i2c: sh_mobile: implement atomic transfers
 ed01ddc618fc356bbc7b702823c87ed3ada198a6 i2c: mlxbf: Add CONFIG_ACPI to guard ACPI function call
@@ -520,7 +506,6 @@ d4fc96832f0131c8f2fb067fb01c3007df6d4c9f Merge tag 'scsi-fixes' of git://git.ker
 1aee505e0171fc38fd5ed70c7f0dcbb7398c759f x86/platform/uv: Remove spaces from OEM IDs
 801284f9737883a2b2639bd494455a72c82fdedf x86/platform/uv: Recognize UV5 hubless system identifier
 7bdb157cdebbf95a1cd94ed2e01b338714075d00 perf/core: Fix a memory leak in perf_event_parse_addr_filter()
-db388a6cb7ed986077d3a275712bfc2e28082760 Merge tag 'usb-serial-5.10-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 4b1d362db99d9233406cb7cfe35fc698ef92be25 Merge tag 'riscv-for-linus-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 af6e7de0c7d1338c3e4224c764fbcb7e28064df9 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 9f5d1c336a10c0d24e83e40b4c1b9539f7dba627 futex: Handle transient "ownerless" rtmutex state correctly
@@ -541,4 +526,4 @@ bbc821849eba179e62bbe2adba19a87c7686c27b Merge tag 'tty-5.10-rc3' of git://git.k
 15f5d201c1773297b38a11a0064be76a224d073d Merge tag 'driver-core-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 f8394f232b1eab649ce2df5c5f15b0e528c92091 Linux 5.10-rc3
 
---===============0280730778963592454==--
+--===============5457659671658045865==--
