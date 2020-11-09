@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6886223178096303235=="
+Content-Type: multipart/mixed; boundary="===============4540258872000551129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 09 Nov 2020 06:27:54 -0000
-Message-Id: <160490327428.14032.17898818307449384650@gitolite.kernel.org>
+Date: Mon, 09 Nov 2020 06:28:33 -0000
+Message-Id: <160490331346.14343.16790969430863941498@gitolite.kernel.org>
 
---===============6886223178096303235==
+--===============4540258872000551129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: a779d91314ca7208b7feb3ad817b62904397c56d
     new: 4e0396c59559264442963b349ab71f66e471f84d
     log: revlist-a779d91314ca-4e0396c59559.txt
 
---===============6886223178096303235==
+--===============4540258872000551129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cc6528bc9a0c901c83b8220a2e2617f3354d6dd9 r8169: fix potential skb double free in
 ee661a4abdf457cc3712725fb4f15113df7588e3 Merge tag 'mlx5-fixes-2020-11-03' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 4e0396c59559264442963b349ab71f66e471f84d net: marvell: prestera: fix compilation with CONFIG_BRIDGE=m
 
---===============6886223178096303235==--
+--===============4540258872000551129==--
