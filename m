@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1094705138320210339=="
+Content-Type: multipart/mixed; boundary="===============4185090385689242291=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 09 Nov 2020 19:45:29 -0000
-Message-Id: <160495112934.22619.16175424242496371349@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 09 Nov 2020 19:45:35 -0000
+Message-Id: <160495113554.22710.547164849846837408@gitolite.kernel.org>
 
---===============1094705138320210339==
+--===============4185090385689242291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 8ca199309f3c96e390bd6bf583a053ce200c6148
     new: 354e592a506cf565dd5ece755150f50d52b69050
     log: |
@@ -30,28 +30,28 @@ changes:
          354e592a506cf565dd5ece755150f50d52b69050 Merge series "ASoC: ti: davinci-mcasp: Handle incomplete DT node gracefully" from Peter Ujfalusi <peter.ujfalusi@ti.com>:
          
 
---===============1094705138320210339==
+--===============4185090385689242291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1604951116 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1604951127-25302dbaa2725aae61956e92cb5ca890a64df56a
+pusher C3F436CA30F5D8EB 1604951122 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1604951133-cb75ea22ad353ad2d43b51f93ea48105cff442d5
 
-8ca199309f3c96e390bd6bf583a053ce200c6148 354e592a506cf565dd5ece755150f50d52b69050 refs/heads/for-5.11
+8ca199309f3c96e390bd6bf583a053ce200c6148 354e592a506cf565dd5ece755150f50d52b69050 refs/heads/asoc-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+pnEwACgkQJNaLcl1U
-h9AInwf/bg8hwo1GJa6u4un5lcV6aEpfDok9mM17zYMghK6Ke5DfTc1GzwhK97Jl
-e9QqLj1NL5451K1Sf8EOeYVDkTGOPTrOyIHJamptgj1CGB0R+76SmegN1JE1zOPy
-zRhAErOV3wSG8b0Sbj1iMv3MFVXODG8LJBHHZgsOe9yShW9Gdo2flSxgci6sq0ze
-D3yYkxxre6jooWWTano+UPDjVSlNoN4Z+RzvSUg+8GQc6l1hfxmkpBU2mOTZU3ZQ
-aLihDCBFO+ut+ur9Su9SnUI/Lr4kD5AK5oAd6LxuDTdiqAn0uZtJwem1XLNMTJa6
-GlLAzEXnaEHLjJlZTJPuuuIlmtvioA==
-=ajxU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+pnFIACgkQJNaLcl1U
+h9DGlgf+Jox5ygqNEKgn+eS5ufvqkci2o/Uswn24Lub9t8igEHHeWy1GKi2Gyqdg
+WvNWqi6RZOsLQWATyvLfRr3xNzTaOGk5dMlfmDI5mlVDcdl7Vt2nAoZsM4Dldeaz
+mMe5rirF+jibg3e3WktXe2SYzR41cJgpv7aO91mlj7SftVcO1coZUQ9L74xt92MS
+oF+iVxPGofv0mpIH0apgtZiCwebpoMXobfsWvbSFlHNjdM6fWVh2+bOGoViGu5jc
+I5+N3eGPZTbcknlVJKiXqtJukfXVS92HVxGI2OZFQZvD6ihdZAuiytyEYbDMZVpP
+NKxlulfRzCoPpf+GKBs9qbSaIqObig==
+=X8VI
 -----END PGP SIGNATURE-----
 
---===============1094705138320210339==--
+--===============4185090385689242291==--
