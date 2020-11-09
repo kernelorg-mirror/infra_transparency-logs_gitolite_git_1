@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3070436130021435782=="
+Content-Type: multipart/mixed; boundary="===============2847898145097297561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 09 Nov 2020 17:01:41 -0000
-Message-Id: <160494130143.7064.317611404116493503@gitolite.kernel.org>
+Date: Mon, 09 Nov 2020 17:03:29 -0000
+Message-Id: <160494140945.7725.1526177161652080740@gitolite.kernel.org>
 
---===============3070436130021435782==
+--===============2847898145097297561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: c2192bbc3c507b33dda5858049e0493c073d29fb
-    new: 552c08a8e03f09ee7f44950d0f6d9bd4599ff1f6
+  - ref: refs/heads/char-misc-linus
+    old: a8643626d84b8f2b56cc72b804b5e78a5d1b9672
+    new: 9d516aa82b7d4fbe7f6303348697960ba03a530b
     log: |
-         061e5379f327c77647b6a16beaf898b1ee71d731 char: lp: remove unneeded break
-         b61fe3b5963db935dad5bae8f9ced3bed695bb62 char: mwave: remove unneeded break
-         6a80467a21ca4268f1d97daa1f43b66b86fe3887 vme: remove unneeded break
-         552c08a8e03f09ee7f44950d0f6d9bd4599ff1f6 ipack: iopctal: remove unneeded break
+         9d516aa82b7d4fbe7f6303348697960ba03a530b virtio: virtio_console: fix DMA memory allocation for rproc serial
          
 
---===============3070436130021435782==
+--===============2847898145097297561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604941356 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604941465 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1604941294-39c76168af0a79151e8a775a04dce5913f21ed18
+nonce 1604941403-3074084e6e7995a9b62684a7de06d72116daa634
 
-c2192bbc3c507b33dda5858049e0493c073d29fb 552c08a8e03f09ee7f44950d0f6d9bd4599ff1f6 refs/heads/char-misc-testing
+a8643626d84b8f2b56cc72b804b5e78a5d1b9672 9d516aa82b7d4fbe7f6303348697960ba03a530b refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+pdiwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fKQP/jZf0pHaOlTEiCeJC/7U
-lh4CaAiEQZQvX0NQy7io/8pxflAY7u1ULapDuhH8Ts7Q2tx7bWBmfCQ50mZW8OW7
-jmPzecNMSBO3SJlUV6DqGykS5ryx88yzMac0kdBuf3Gd3F4SEeI6/Hy6bAMae+Uw
-GsHtlEcif3xKdxVHt43PmdVseqSwC075Rkb96SHtcp3lZtbSeGQuPXxYU8/7lncg
-A1UIyWgu6GxYf2/Bt5y0i869KMVqAVsxs9RuC5THEehu12D6JOS30riwnzNv2wQ+
-7m7HqCG2Byy5DU5rnvHGloV/u62qvgmJQH5czKKnnsPaXGgJOV7nemsoPLQheEWl
-oWjUzRQWzDvqazQQ2+IMxWKJbZspYptRaVtDD9fmp1m4bhVpC9GyKzH0MT6MreGO
-sSUFWhcdc+EsVVN35iZkhXOWiFoxwjtUNHk1BT3/c7YZJuHmDWtVQ7HARhQjusOX
-hJrzOhSxVXploIU4A8c7oFBeoM1/Fyilp5+P7Va6YJsx2NGqbiScm4Xtsy07vgMO
-GwReIhNs4TLJqvZX9eL8kTV5XPMw0ox+zS3Z2yy8SSQAY6jy+EuTdWC3RhTfnoaL
-mnxMPvvlr5nd8Vehll9xurpJ/itZgYN6A7LEY2sVXTaMWZeFFYVJvPaHFYqtvQWL
-udPTqoXZrYn4tdzF5S5Gglpv
-=hK3p
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+pdpkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SZQQAMfeUGvlB8pwfNcOFykm
+S9O0yCGdxF9avCNMMMTJJh378ESGlceSJ6+TpRih+RT/l9grMCrQpXAnIq+KX7Wo
+d9z5XE0MHMbcoiSq0+LVVkv4ZloHW3ZuwEsUXovW8uaX6ZnJjgFKm5P5vy7b6SBH
+HRiksII1m2Km3ZHMB0i0umrL30r1nVWkD+B0rv7nkGx7XQwAZXys9f046nRZ2vwT
+Yquh4NtyOZVJoGRnNpRVCcqJ84aInhrdHsfNJyRmOv2aP3hdl2kNRFa6+77ZL/oA
+A5p+VUZZG4nJ2htBnJCetm2N71fYLuEUMveeuY1ISrqLgjq6J9gXV2feQ4F7aH0W
+jA4imxTYkEvoqACIBUHueojwHtWa1FIcE4QyOUfV0pj8Ng2ZKcgm/k29vsPuaIWw
+sMGW4RGUUmbsgv4ldRHvBFGFt1o9LwHcnGOlqaPsB1yZVYjHzzwwno3MIFKg1RAC
+UQZmzpl4l1G9nUQoRKcU/UPZhZdtYbbvFjBl1CD1dLh+ZmBIL0XgcVzwm/cEdr0s
+AFhXf2mBguR/R1nYJRpDVrbW4HmycQ6aSh7bme9todGs5bzkoJun7eEtyUSjkn2X
+BeQJb2EnG0W3aw9bOH/zXECenPsZxQQDIR9RYsscgadwDqBSfiVIo5kRMTKLHplR
+uoXp4ThbQqopUq5E+RivOB75
+=5hw7
 -----END PGP SIGNATURE-----
 
---===============3070436130021435782==--
+--===============2847898145097297561==--
