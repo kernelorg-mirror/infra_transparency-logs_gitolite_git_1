@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6475958058448501631=="
+Content-Type: multipart/mixed; boundary="===============4523043893659678276=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 09 Nov 2020 09:38:02 -0000
-Message-Id: <160491468212.13948.12323354404725497859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 09 Nov 2020 09:38:10 -0000
+Message-Id: <160491469057.14129.10788761957451687006@gitolite.kernel.org>
 
---===============6475958058448501631==
+--===============4523043893659678276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 441494ec2a302830357d0aa59f3b907e319a8b26
-    new: 9b085d6e889076928d307f05cabf76e35db1e63b
-    log: revlist-441494ec2a30-9b085d6e8890.txt
+  - ref: refs/heads/main
+    old: 3cea11cd5e3b00d91caf0b4730194039b45c5891
+    new: f8394f232b1eab649ce2df5c5f15b0e528c92091
+    log: revlist-3cea11cd5e3b-f8394f232b1e.txt
 
---===============6475958058448501631==
+--===============4523043893659678276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604914738 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1604914675-5af8a35771f02bf8759ee8d368f3b3d2d00518ac
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604914745 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1604914681-61ef16dbcdaae782db379c2d06d223ec67db350e
 
-441494ec2a302830357d0aa59f3b907e319a8b26 9b085d6e889076928d307f05cabf76e35db1e63b refs/heads/tty-next
+3cea11cd5e3b00d91caf0b4730194039b45c5891 f8394f232b1eab649ce2df5c5f15b0e528c92091 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+pDjIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VWoP/RTh7FR+GwGq9Z5AWjbY
-0iwje5+6WUopKqtQLBFssOLJ+R4WrbBU5E4QWTH3ecJmRewUsY/GLlPLm8aiwQT0
-Vua9jY7158x0+JKu+PKQkKuhbzE7Z1HaYTnKlxT1wYG13l78zIwLcIdvTwi2Y92Z
-Dt63MPT3rAqGvsBMy6vvlsaTRP0PucASdmKhWfhPMv6fCzsKv59vUAbJvW6SrwnV
-g5Zf/+dS+Fs+oJhhyEy6azDdUqIQXYUwb5xTVO04/+wUDROtG2cs4Q3VSc47G69u
-X46tobYAvfyPscDwruCq2ioMCCcexn/jGG5v4Fiz0CVXZ9fRs5Qq9Upbe6H/vp8V
-vxGPvitFt3OdCFTjhOGWK1is4mztgLlU7/Go2Wk637SAjZbus5eB4/Uc8vkH4kbo
-rAOZfNsM2NwwttKbal/DVV67XmbSsnUfYhGh5lqzPDR6w3oIJgnDeyyypVYMkCRf
-1qOuWPz9qbWaUOo/ia0uaL0n4Rh+UjIYspovaEXcUQU7UxdGaW2k9dH65qTprkSq
-SgbCwIrzFjmlLqQ8AU+TvbMQGp3D8lLPeYuKOFfwOpMJA+W9uJz9oFXJCjdRUCsh
-u5ujXxPwUGNmbh7t1p22Aue7E/W9Koy3+PSfy+Qsw0mS1KImO3rQ0AW4OoSRjgEP
-IiJybJCWsISoZ81hfrVTWr3c
-=h1Q+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+pDjkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r5oP/3nf+T8QM92+jTC3OqHe
+pyniZaQwXv0OvVTnlXiWIZLNkUsHU5lwp4AfUFaO3oBI42xLv1BUsq+bmvKDHUgC
+FJYy6LnGPNayuS871bs24vJecJ6SEY14MTZDd2Bl2UWRYzcwArkwNlxN7X0cnQMC
+GYuf273ADTAhZ4KGskUaF2sbvaiyaOhiLWIEpDx59UaQDLlKXJ4HpkTGG6wSgMH9
+uwMRNtvmRDiPaaA5L8ijjHMJNn1TnYODHxE2HIaPo7siOYZGc6nljN42+XrvWtZP
+69UfzyXt8VZGBB+ydBjeYQriDYPI0WFP8lDBq5Om6HtoV/jWnm7a2JjWboPeba7A
+CWZq+wmPmY8BP9jsoYEoYdSHUQy8/TGUFfkmjznCEIZWb3dWAm8iByg8QnNBsxlK
+cCvYDdeZcnjWpxZ+yf5cbS9zl93laiLiuVg9uf7T0tfU/LyU3O+Wk3Y9S/1kV8yf
+zKJ0yszIpNFBwd1AnT6DfEBxrsRNoQQPOosme8RjsSvIG0eLOriLJ8JCBdgdIe+S
+drkS+mxCGOkiTAZLCHh92/9KP6DappiV/b1Dsd0LZkAwUZYfLADIHexzjuiXoyX0
+U2ROl2CagpUu6KUSg17JPFoVca057FecNQXNrLeCxFee94BH/LoxOr7BzwWERLEq
+oIqnXSURnIeLfuuIWqVnqVRZ
+=GTcV
 -----END PGP SIGNATURE-----
 
---===============6475958058448501631==
+--===============4523043893659678276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-441494ec2a30-9b085d6e8890.txt
+Content-Disposition: attachment; filename=revlist-3cea11cd5e3b-f8394f232b1e.txt
 
 7fe94612dd4cfcd35fe0ec87745fb31ad2be71f8 xfrm: interface: fix the priorities for ipip and ipv6 tunnels
 9fe9efd6924c9a62ebb759025bb8927e398f51f7 ASoC: Intel: kbl_rt5663_max98927: Fix kabylake_ssp_fixup function
@@ -540,6 +540,5 @@ df53b815c799cab8c6e04816b5005810a57ea6a3 Merge tag 'usb-5.10-rc3' of git://git.k
 bbc821849eba179e62bbe2adba19a87c7686c27b Merge tag 'tty-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 15f5d201c1773297b38a11a0064be76a224d073d Merge tag 'driver-core-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 f8394f232b1eab649ce2df5c5f15b0e528c92091 Linux 5.10-rc3
-9b085d6e889076928d307f05cabf76e35db1e63b Merge 5.10-rc3 into tty-next
 
---===============6475958058448501631==--
+--===============4523043893659678276==--
