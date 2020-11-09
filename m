@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7693817830605241662=="
+Content-Type: multipart/mixed; boundary="===============8485004181287623366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 09 Nov 2020 09:57:54 -0000
-Message-Id: <160491587405.28894.2431308909312567924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
+Date: Mon, 09 Nov 2020 09:59:37 -0000
+Message-Id: <160491597776.29587.5547438635262726660@gitolite.kernel.org>
 
---===============7693817830605241662==
+--===============8485004181287623366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jirislaby/linux
+user: jirislaby
 changes:
-  - ref: refs/heads/master
-    old: 57862c92b2a550d616f20d161ac9e4f56ac12030
-    new: b1901cbd7b02246c1bc9c90c8ac4517883bc2e39
-    log: |
-         b1901cbd7b02246c1bc9c90c8ac4517883bc2e39 5.9-stable patches
-         
+  - ref: refs/heads/devel
+    old: ee4602fe2acc52b7c6dc35957ab7fa9052247da0
+    new: 38e63c8369502e5277acf629ede9d9117610e9fa
+    log: revlist-ee4602fe2acc-38e63c836950.txt
 
---===============7693817830605241662==
+--===============8485004181287623366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ee4602fe2acc-38e63c836950.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604915935 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1604915871-b5c8dee42ba0f2ba1ba5f72e0faed24e694170e8
+566ace2ac892c14ff5784ae4d66b1cd78bf7b18f x86/platform/uv: drop last traces of uv_flush_tlb_others
+94925eedd297585dd82ef5bc43b1624053edb437 ??? vt: selection, add might_sleep to clear_selection
+39ce49507f50cb3b22a65c13ad496fe5bd518e3f include condition in the BUG_ON/WARN_ON output
+5187e815e11047060248260839b9682cd9dbf625 TTY: serial-tegra, remove unneeded tty_port_tty_get
+c2d7ba1c501c95d59481eea3dabe5d63b502bc52 TTY: serial, use refcounting in uart core functions
+3107403bcb73a5072595471936e57b00c2016f9d TTY: serial, use tty_port_hangup
+f619efda0b5a581cd2f557374b6e8b02d5180646 TTY: con3215, remove tasklet for tty_wakeup
+7d016d6621cd2ca29091febe5acdb9bb691aade9 TTY: serial/jsm_tty, use tty refcounting
+061415491f6cc217b07ee4f409fbf940ec1638ad TTY: move hw_stopped to tty_port
+284dcbc4ce5510bf189cca97da23b40c15830597 tty: vt, let vc_pos be a pointer
+ebdee63fa61e95819943333ca4a7c6dd22650e8a tty: vt, make vc_screenbuf u16 *
+12e5696ec97175891f9c85a8c4988f9566ebadd3 tty: vt, con_getxy works with u16 *
+b9c13cd01e5988c7ccd3781a8e31f9f6f73e083d tty: vt, update_region works with u16 *
+5897e88c684ed0d4c977016c7b1d52424d1bd6a6 tty: speakupm prepare for vc_origin to be u16 *
+d1aa98777d0aa8fd7b6e32f594edbbe549614a04 tty: sisusb_con, make sisusb->scrbuf u16 *
+4576760a363f8f5935af6902b3a5359116af6c6e vgacon: prepare vgacon_scroll for u16 * switch
+e6bd0ac4b187a395ca974ad72cff3cf3cfe1837d vgacon: make vga_vram_base and vga_vram_end u16 *
+9814caabdc6b6be3a781a6f443dfde2875feffcf tty: vt, make vc_origin u16 *
+dbcaca9ab28b34238f5cd77b703fc891c9f0f627 tty: vt, make vc_visible_origin u16 *
+7af135f52878e6d1b91fd5c07e204b62b7ed66c0 make VGA_MAP_MEM return pointer
+e7641a64c6814f8f772fcc9c1deb28857286364f tty: vt, make vc_scr_end u16 *
+1af88468151f265ebec2922c4d9a0104fed58170 tty: vt, comment on vga_rolled_over
+b7a33d75929f205a48409dfda9db426aa7ad2638 linkage: perform symbol pair checking (per group)
+569b309a33558d067f179f3388cf9d1e35ac220a export: mark labels as OBJECT
+ee643b9b42ec053474b7495f468aa4c66b3af0d8 NATIVE LABEL
+38e63c8369502e5277acf629ede9d9117610e9fa test_dwarf: add
 
-57862c92b2a550d616f20d161ac9e4f56ac12030 b1901cbd7b02246c1bc9c90c8ac4517883bc2e39 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+pEt8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+63UP/02FtJ/6CCDGGvW8RBbp
-NBzQfvGzoDix24PF/wr1Ew78u0yJIruvxDuwFz2CzfE9jxNFBldizJx47Kp+msXh
-Z9Akwb/5NO3ExuJOnUW68AP479QidOLMmFqyhY5F6Y+GJr3TsV5aLA67qADS7i70
-NEUaCryfwfeJbvcS34nN1dOr8rWq3GXChOeVaNtehYi7dkOEJQyHbmer4ie0tjZ8
-0YKnBNX1Xift8A3/Pw+Lnd4q422ttnnRm3xg+hx7b3+9Me3qv8x3I1509vwz2Q+3
-MPI5P3TA/W1LESW5/8xa6Gfj4pPREKAPn1rUu4pvTJfHkYOWlSanT+Vyu6sePjxZ
-FsDoxT/RpdRPW0NG+vOEh6bxgae978Ym5UqMMF5b0+jKGHxyWf/54iNiqQ+uO1RV
-aP23unALZuR97ODGceuU8A6gINSnYSgI/2HwFt2pVCnY2hLfUg9AhgVuHs2nrJvz
-O/iJDirNkgozZZocYUGayfX9NDJdUh2UVU7cukjdgntCW0CjhDACXJf0qS9LwcI2
-eLFWK/bC24E/3lrUjOaHAQh5QhfIvE/++QP2j4KEkXI4mbK5PbXgjyLxp3lZiCUj
-KOD0K3n8sfUOzLIFrNFjPW7GVw01+7FTGf07VUKaNy3LaiSLltS2sy+dmTDSy+Cb
-6AckWns2aCSg2+7QF1wJnvfc
-=36em
------END PGP SIGNATURE-----
-
---===============7693817830605241662==--
+--===============8485004181287623366==--
