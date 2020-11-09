@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Mon, 09 Nov 2020 13:30:23 -0000
-Message-Id: <160492862363.20345.7501611043498154951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 09 Nov 2020 13:30:24 -0000
+Message-Id: <160492862493.20406.545699936180972681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/stm32-dt-for-v5.10-fixes
-    old: 1f3d7fc279b1a299bb8b1b225d80309a2062ab8a
-    new: eda5424539f66c09d58d6550c168346aa88dc2c6
-    log: |
-         eda5424539f66c09d58d6550c168346aa88dc2c6 ARM: dts: stm32: Enable thermal sensor support on stm32mp15xx-dhcor
-         
+  - ref: refs/tags/v5.10-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 27598e7e73260ed0b2917eb02d4a515ebb578313
+  - ref: refs/tags/v5.10-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 4d3d761b5b27bb33a731e8df51b7fb6a6c565804
