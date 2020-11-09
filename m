@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Mon, 09 Nov 2020 21:12:03 -0000
-Message-Id: <160495632365.20044.10709595960811406073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Mon, 09 Nov 2020 21:17:06 -0000
+Message-Id: <160495662651.23084.16694450119473330635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/tags/v5.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 4d3d761b5b27bb33a731e8df51b7fb6a6c565804
+  - ref: refs/heads/master
+    old: 4e0396c59559264442963b349ab71f66e471f84d
+    new: 197afc631413d96dc60acfc7970bdd4125d38cd3
+    log: |
+         197afc631413d96dc60acfc7970bdd4125d38cd3 libbpf: Don't attempt to load unused subprog as an entry-point BPF program
+         
