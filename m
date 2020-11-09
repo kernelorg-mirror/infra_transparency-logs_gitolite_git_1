@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Mon, 09 Nov 2020 05:53:54 -0000
-Message-Id: <160490123437.23643.11725020956254395648@gitolite.kernel.org>
+Date: Mon, 09 Nov 2020 06:02:32 -0000
+Message-Id: <160490175284.29295.7985631878978554956@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dtor/input
 user: dtor
 changes:
-  - ref: refs/heads/master
-    old: af5689fb5c1c0b5ad8d6bfd79ea7d018b4c16f1d
-    new: 3fe781f4fab2cfad993807e2f14fa26dec6b9172
+  - ref: refs/heads/for-linus
+    old: b1884583fcd17d6a1b1bba94bbb5826e6b5c6e17
+    new: 77e70d351db7de07a46ac49b87a6c3c7a60fca7e
     log: |
-         3fe781f4fab2cfad993807e2f14fa26dec6b9172 Input: ads7846 - use kobj_to_dev() API
-         
-  - ref: refs/heads/next
-    old: af5689fb5c1c0b5ad8d6bfd79ea7d018b4c16f1d
-    new: 3fe781f4fab2cfad993807e2f14fa26dec6b9172
-    log: |
-         3fe781f4fab2cfad993807e2f14fa26dec6b9172 Input: ads7846 - use kobj_to_dev() API
+         77e70d351db7de07a46ac49b87a6c3c7a60fca7e Input: sunkbd - avoid use-after-free in teardown paths
          
