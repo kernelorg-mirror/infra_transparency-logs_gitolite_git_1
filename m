@@ -1,53 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============8164129283265379393=="
+Content-Type: multipart/mixed; boundary="===============1003659745562738131=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Tue, 10 Nov 2020 07:52:29 -0000
-Message-Id: <160499474955.13107.15674246870896464505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 10 Nov 2020 07:53:33 -0000
+Message-Id: <160499481376.15356.9684218509265649472@gitolite.kernel.org>
 
---===============8164129283265379393==
+--===============1003659745562738131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 573c678200c4ac9993acd870cdd22e1d4b7f89c7
-    new: 4bf5eeef3e845686378459a5a5002b61dd1c7e2b
-    log: revlist-573c678200c4-4bf5eeef3e84.txt
+  - ref: refs/heads/char-misc-next
+    old: c2192bbc3c507b33dda5858049e0493c073d29fb
+    new: 17adb469bf1ef3c62e9356ab84449df6cad28ed5
+    log: revlist-c2192bbc3c50-17adb469bf1e.txt
 
---===============8164129283265379393==
+--===============1003659745562738131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-573c678200c4-4bf5eeef3e84.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-42ecb5b20080e31df7d0b7379a37ce681e9f6a9a x86/sgx: Add wrappers for ENCLS functions
-7f492db5f269032289372faf72392a00d41bb0e3 x86/cpufeatures: x86/msr: Add Intel SGX hardware bits
-71b15bc97555013b0aa5d82e64427ee9af04ef8b x86/cpufeatures: x86/msr: Add Intel SGX Launch Control hardware bits
-337196d283030b96e9e662f6f21dee6f1d2df238 x86/sgx: Initialize metadata for Enclave Page Cache (EPC) sections
-d65fb3f6b02a2882a2954c8de7bafe74eeb2e0f7 x86/mm: x86/sgx: Signal SIGSEGV with PF_SGX
-f813f0f7327bd64fa16548c1efd22d6801511900 x86/cpu/intel: Detect SGX support
-957a54dae7bc94c3152f590d30eb88ca33a55304 x86/cpu/intel: Add nosgx kernel parameter
-0c2643417bc4c267fadd9a0e91c5aa23f5f90700 x86/sgx: Add SGX page allocator functions
-686269227ee296885be83950833d8d9884193941 mm: Add 'mprotect' hook to struct vm_operations_struct
-a8e6869e4aefce93d8a783130218cee5d3b815a2 x86/sgx: Add SGX misc driver interface
-111dc89af3e8f0020508d3d310350b65ae2f87a6 x86/sgx: Add SGX_IOC_ENCLAVE_CREATE
-ec8259d2d5c4aad52c02609445ead30608aa4346 x86/sgx: Add SGX_IOC_ENCLAVE_ADD_PAGES
-c512c36fce662424286f7ca6e1321896e92595f7 x86/sgx: Add SGX_IOC_ENCLAVE_INIT
-4ffca44b018fea10308ff9ac078ac1cbc98100e0 x86/sgx: Add SGX_IOC_ENCLAVE_PROVISION
-7a376664d76e2ccc5ca5f662bed086d6c15b6684 x86/vdso: Add support for exception fixup in vDSO functions
-69c0284e6f7be08dc79c6841a8adc866abfd4fde x86/fault: Add helper function to sanitize error code
-014aba44037657d04c3bf0b737f864b677a041ec x86/traps: Attempt to fixup exceptions in vDSO before signaling
-98b13c1cbd97e8ff336428b2a0c737c54086d990 x86/vdso: Implement a vDSO for Intel SGX enclave call
-0c9d253aa199fee6c3a1a205f0b3a7b40e60ab7f selftests/x86: Add a selftest for SGX
-b40085d21373ea5aacc59e9ef24db90710f3a9c9 x86/sgx: Add a page reclaimer
-1b4594dd15bea7d621d04566d5d08aa004d2691e x86/sgx: Add ptrace() support for the SGX driver
-39507375e1420d6e5bdccb9177e4858ac88164fd docs: x86/sgx: Document SGX kernel architecture
-4bf5eeef3e845686378459a5a5002b61dd1c7e2b x86/sgx: Update MAINTAINERS
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1604994868 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1604994807-98119e2e0896e80e4ee778ce5bb0cfd346d51e10
 
---===============8164129283265379393==--
+c2192bbc3c507b33dda5858049e0493c073d29fb 17adb469bf1ef3c62e9356ab84449df6cad28ed5 refs/heads/char-misc-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+qRzQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7awP/2IkdgnHTPnkMVoDGw8P
+hR36CHlkaDviysa58mjaL/pfr+aOvQjOMEWyCUgsyYUDgC38jdsh/S9r5mJE7vq1
+sZFYDh2Jl33JCGSWTuRLhueD053GSJN39kBXdIxOdavNqe1VShHEYGCj4rOhZmkA
+JgqNYeRxwvlWWDJetgp7Kvxx1K5OyaxxIKu6ckVJdkis0l4qNZ4aM7U9M6xTTN2H
+TaFZ2qYz0R/GhuEVNYkr1wzvbpVrwsqnDFTznFZSX3LDwbd6oxzN75PTapREeJnQ
+OQuAz2tMAWfiDI5N67ajg455QdfR7aJ6apjiy2Jg0t+FYQZrUHzAA4MOHfpy/Wyp
+Og0J2swSGjBHHI5crAEmZOF5DWslliG7PqTqJIG1GbdHefVrwgF1Gp24fZXdefJ1
+I9HKqrPB/Uu/P1j//BMOSIYj/uVcdmbri6jYLXnYw3HQnmAXcg+397xtoths06pM
+t89Dww/p+nafVuG8fD4HA8ds2Mhd5VUO0ZKUS28rv9hREpsgqokv1HP8SkQiLgQO
++I0v3Wb/JXvjdfnNDUWDTnDaG0pUivW+hsOwGtCSeH4plBnMTTSNAO9rh0SAmoAw
+bOC/vaVJamVxbFPKFQbiwiiDdQ0TJyqNmBbeBVK7tqqR7pkKGf9LF6xsv/6Bd+uv
+Ht15XhHNgmlQaABway2JqIrS
+=xyOl
+-----END PGP SIGNATURE-----
+
+--===============1003659745562738131==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c2192bbc3c50-17adb469bf1e.txt
+
+061e5379f327c77647b6a16beaf898b1ee71d731 char: lp: remove unneeded break
+b61fe3b5963db935dad5bae8f9ced3bed695bb62 char: mwave: remove unneeded break
+6a80467a21ca4268f1d97daa1f43b66b86fe3887 vme: remove unneeded break
+552c08a8e03f09ee7f44950d0f6d9bd4599ff1f6 ipack: iopctal: remove unneeded break
+a79db45fa54e2420c9fe977a6a5835c466888b5a speakup_dummy: log about characters received by the dummy driver
+508155944752f6e51dbc0a7273d933e954e4ed64 speakup: document the usage of enum values
+f96a15c7698ede0e60bf5b4b9b5d0c7d0a0b505f speakup: Document read_all_doc shortcut
+7bbd2584ead19a8fdd72c19b1fdf25369954aee6 mei: bus: fix a kernel-doc markup
+9f38abefd37af8726d59706b9b84530630b6b620 uio: fix some kernel-doc markups
+8bd160690a6c064fd4459d006e50ba7cc7a7669c vme: fix two kernel-doc markups
+a67c43ac37f80b5e7e1876e8f5f7df62027445c8 uacce: delete some redundant code.
+385997dc17ab4927bad332c1283dc461a973ab1d uacce: modify the module author information.
+6c20032c22d9823f35cd673b7f69ce73a49582b0 Android: binder: added a missing blank line after declaration
+88f6c77927e4aee04e0193fd94e13a55753a72b0 binder: change error code from postive to negative in binder_transaction
+17adb469bf1ef3c62e9356ab84449df6cad28ed5 firmware: gsmi: Drop the use of dma_pool_* API functions
+
+--===============1003659745562738131==--
