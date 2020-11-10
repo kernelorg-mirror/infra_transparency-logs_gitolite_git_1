@@ -1,45 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0090538716993507642=="
+Content-Type: multipart/mixed; boundary="===============7752738234263351578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Tue, 10 Nov 2020 19:47:13 -0000
-Message-Id: <160503763361.12080.10554769668894583597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 10 Nov 2020 19:49:09 -0000
+Message-Id: <160503774997.12780.13063620741967211496@gitolite.kernel.org>
 
---===============0090538716993507642==
+--===============7752738234263351578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 380f448640181b4f8a56e39960aafa5af6e8ec02
-    new: 3338fd9fa15fab7e66ac2657f56d3db0bf0a6714
-    log: revlist-380f44864018-3338fd9fa15f.txt
+  - ref: refs/heads/testing/net-next
+    old: 340711267abd0221c4aee79d2e0fc8f97ad6b0a4
+    new: eb7b42212aa26baa4c9190e5db0b8f27fec3c108
+    log: revlist-340711267abd-eb7b42212aa2.txt
 
---===============0090538716993507642==
+--===============7752738234263351578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-380f44864018-3338fd9fa15f.txt
+Content-Disposition: attachment; filename=revlist-340711267abd-eb7b42212aa2.txt
 
-64d4ccd58b8fe4f820a1700a12874dd0e23e30ca mm: Add 'mprotect' hook to struct vm_operations_struct
-9565bd6ed1edb885fce660177b0b553cf2ed7457 x86/sgx: Add SGX misc driver interface
-b3c0bc88a51260031f5b29708446316f31a240fc x86/sgx: Add SGX_IOC_ENCLAVE_CREATE
-ad3a8867881a35fb43da07e78dc006de8bbdc3f1 x86/sgx: Add SGX_IOC_ENCLAVE_ADD_PAGES
-2cf331b163721ec7d1936f3355f018d69ce277e0 x86/sgx: Add SGX_IOC_ENCLAVE_INIT
-90c661a2372944ce9e38629e188e32ef01fb7b45 x86/sgx: Add SGX_IOC_ENCLAVE_PROVISION
-578d4f39ab7fb274884cac5e676d42ba394dad5e x86/vdso: Add support for exception fixup in vDSO functions
-c377ad4dedf95560a7d33d111a1aeadf89894a4c x86/fault: Add helper function to sanitize error code
-8edd4601cfb640a7cbb9f9055645efa9da9a04f6 x86/traps: Attempt to fixup exceptions in vDSO before signaling
-b29584a88f94c3bab9fa7bfd436133ea89008a89 x86/vdso: Implement a vDSO for Intel SGX enclave call
-dc58a84e09074ccceca6a89fb2968dc7318564f2 selftests/x86: Add a selftest for SGX
-192bb88627c8870f11f7088b08e6018d4c027e63 x86/sgx: Add a page reclaimer
-f274f5e3ec09aa70ddc9f649e597148a557e3f40 x86/sgx: Add ptrace() support for the SGX driver
-79a6db6c579cffd8ae429c4b07218ee7f805c0c9 docs: x86/sgx: Document SGX kernel architecture
-3338fd9fa15fab7e66ac2657f56d3db0bf0a6714 x86/sgx: Update MAINTAINERS
+05aa843172c639acc84acf676b158ad1db6c5e30 Add auxiliary bus support
+fe9343937d80382649cea17f0991951643cd4e09 net/mlx5: Don't skip vport check
+b2393fb73f60f98c075594774cba5576084a377d net/mlx5: Properly convey driver version to firmware
+8830fa2b33eec7e17cd5c8ae58ffd697b5b6aeb2 net/mlx5_core: Clean driver version and name
+39d094abd57dc9db32d70d07f9955d70383cc1e0 vdpa/mlx5: Make hardware definitions visible to all mlx5 devices
+f251e47630ab24afb974f27d3418048f8b458618 net/mlx5: Register mlx5 devices to auxiliary virtual bus
+d2574bae3e60f698609bdf876fffc94f81e85188 vdpa/mlx5: Connect mlx5_vdpa to auxiliary bus
+fd1ed6f0d08532726ed1d35502e042edd830ddc2 net/mlx5e: Connect ethernet part to auxiliary bus
+065254747b067f387762b28b7bbcc464f5b902db RDMA/mlx5: Convert mlx5_ib to use auxiliary bus
+aa1746afb1feb905dd4378d0b3e176710a4b7dda net/mlx5: Delete custom device management logic
+eacba186ba2cd78cb993c870402c2c09b71ae396 net/mlx5: Simplify eswitch mode check
+2cf8282642f927f412ed2cf0a454f81e6a8cd048 RDMA/mlx5: Remove IB representors dead code
+c68c822cc48714d43ebcdbd2857a17cd71d3e8ab fixup! net/mlx5: Properly convey driver version to firmware
+639203d43a2dc6027026e4cb93b933d2a04c6754 net/mlx5: Remove impossible checks of interface state
+8d4256658a9078b18c3986f9fad3dfe760ad0177 net/mlx5: Separate probe vs. reload flows
+7d00c6a1648d90389b12e3dd48ae4c08ab903c88 net/mlx5: Remove second FW tracer check
+af2afc80a33224ab1f28abf82e03b89a8f5d6ba7 net/mlx5: Don't rely on interface state bit
+d87280d845b56da28707a572ea0b49121603c32a net/mlx5: Check returned value from health recover sequence
+7fc490a19bae20eb4a09ce1ae515f8282b909fdb net/mlx5: Fix devlink reload LOCKDEP warning
+eb7b42212aa26baa4c9190e5db0b8f27fec3c108 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
 
---===============0090538716993507642==--
+--===============7752738234263351578==--
