@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4508769780699882192=="
+Content-Type: multipart/mixed; boundary="===============4615885008210310560=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 10 Nov 2020 21:36:47 -0000
-Message-Id: <160504420754.1266.2919208412004239721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 10 Nov 2020 21:36:54 -0000
+Message-Id: <160504421401.1378.11824667453133484641@gitolite.kernel.org>
 
---===============4508769780699882192==
+--===============4615885008210310560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.10
+  - ref: refs/heads/regulator-5.10
     old: cf1ad559a20d1930aa7b47a52f54e1f8718de301
     new: c088a4985e5f6f6c2cbe5a6953357dfc30b7c57e
     log: |
          c088a4985e5f6f6c2cbe5a6953357dfc30b7c57e regulator: core: don't disable regulator if is_enabled return error.
          
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/regulator-5.11
     old: 285654130d5c1bed000be6b94cd43b5110d16090
     new: 51c0a0c63fd0cf1953086cd6ec7d6f068418441a
     log: revlist-285654130d5c-51c0a0c63fd0.txt
 
---===============4508769780699882192==
+--===============4615885008210310560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1605044194 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1605044205-d9a0e51da65a5f0c3ed0952c7e744eabca28432c
+pusher C3F436CA30F5D8EB 1605044200 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1605044211-60c60b85026f19561f8c8ce3db98dfa88f38f9c4
 
-cf1ad559a20d1930aa7b47a52f54e1f8718de301 c088a4985e5f6f6c2cbe5a6953357dfc30b7c57e refs/heads/for-5.10
-285654130d5c1bed000be6b94cd43b5110d16090 51c0a0c63fd0cf1953086cd6ec7d6f068418441a refs/heads/for-5.11
+cf1ad559a20d1930aa7b47a52f54e1f8718de301 c088a4985e5f6f6c2cbe5a6953357dfc30b7c57e refs/heads/regulator-5.10
+285654130d5c1bed000be6b94cd43b5110d16090 51c0a0c63fd0cf1953086cd6ec7d6f068418441a refs/heads/regulator-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+rB+IACgkQJNaLcl1U
-h9Darwf/afDu14AfUN6rbHq9eDU7A8PmlVd3P6COKpCvikwNyLtyqlJDxfTEFgWu
-DhFePRIje4EyYQVPX3FR0YpH4ZJV8f47NmlqDF3Vl4lVgsBM5uVIBd8fOoM46/Nd
-THVyyJLDJkE2L9KE9EuyxDjJODrQR+1NjR2pdLHGB0ohC4XJXcG4rGRAXcwQr4q8
-85v7j3+UOpMc50t10NUMt0xuziI72B4GakvuX5DZmDDe7FzDt5M9goiqAeiHSwNW
-cOpRnBstIv3/YfMNfUfyDI94BL19KyRA02AFKGFoneNAaBH1IlRZA4Vp0oI3iJsA
-kM4op14oNOS7QB22TLQ9TGRVRG68fg==
-=688h
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+rB+gACgkQJNaLcl1U
+h9Ab+Qf/f0gOuvkbDmDwTNlkxVJ+AxSHdUi37WA0Dyr+dIsmcflwFB4V/PXHWAgm
+Mmmy22CMs/7XuK6hKOt7N3Yp0Gi5z0nszAqkrZAC8SDKW/I3bB0gxC66lOSEi3DQ
+oKTASC+muprQBf4G/g0uCeQQzhgApcq7AGwPnrHJskgEvzBQ0iMVTiA6IOqVtYhy
+uZRIobiaV3RuUhdrp1Zs2H33E72FUAGAtJhqVbUPLP2wIuQeecNnE3YPg90M9l2L
+eXTomTtDHxkfWiTRiVyk4o3g+zI12iVCvuF0Esv4lSMRp18FaBJfhNhua9nxdyoQ
+oLAdOmjNc31j74bw5RjhMAOiuyRNHg==
+=wyY6
 -----END PGP SIGNATURE-----
 
---===============4508769780699882192==
+--===============4615885008210310560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -501,4 +501,4 @@ b54a27d8109fc8f18cec3e0663f8e81ea727e3c6 regulator: BD71847 support commonly use
 d2ad981151b3a812e961c8ee0ffd7e349b4027d6 regulator: bd718x7: Support external connection to scale voltages
 51c0a0c63fd0cf1953086cd6ec7d6f068418441a Merge series "regulator: bd718x7: support voltage scaling" from Matti Vaittinen <matti.vaittinen@fi.rohmeurope.com>:
 
---===============4508769780699882192==--
+--===============4615885008210310560==--
