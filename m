@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 10 Nov 2020 00:00:12 -0000
-Message-Id: <160496641245.10024.14327120941428711013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Tue, 10 Nov 2020 00:03:25 -0000
+Message-Id: <160496660557.11180.5356577139933043723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
+user: khilman
 changes:
-  - ref: refs/heads/master
-    old: 8ef9ba4d666614497a057d09b0a6eafc1e34eadf
-    new: 77a2d673d5c9d1d359b5652ff75043273c5dea28
+  - ref: refs/heads/v5.11/testing
+    old: 697fa7a8811e00066fb811f33c12db6dbd100784
+    new: 3129cb14d1e99d7f80b25108281da37287c141fb
     log: |
-         77a2d673d5c9d1d359b5652ff75043273c5dea28 tunnels: Fix off-by-one in lower MTU bounds for ICMP/ICMPv6 replies
+         3129cb14d1e99d7f80b25108281da37287c141fb reset: meson: make it possible to build as a module
          
