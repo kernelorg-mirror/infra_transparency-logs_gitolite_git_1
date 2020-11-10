@@ -1,49 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============8699615564613147950=="
+Content-Type: multipart/mixed; boundary="===============1808432767832576103=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 10 Nov 2020 19:35:05 -0000
-Message-Id: <160503690583.4776.2703613846740746505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 10 Nov 2020 19:40:55 -0000
+Message-Id: <160503725534.8097.3760126281760164384@gitolite.kernel.org>
 
---===============8699615564613147950==
+--===============1808432767832576103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx5-next
-    old: 8d4bd7f81dc6a59561278c27f6da0f2f9547c216
-    new: 4c96899f4358197770ec0db7195c914d5968745b
-    log: revlist-8d4bd7f81dc6-4c96899f4358.txt
+  - ref: refs/heads/leon/mlx5-next
+    old: 4c96899f4358197770ec0db7195c914d5968745b
+    new: 7fc490a19bae20eb4a09ce1ae515f8282b909fdb
+    log: revlist-4c96899f4358-7fc490a19bae.txt
 
---===============8699615564613147950==
+--===============1808432767832576103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d4bd7f81dc6-4c96899f4358.txt
+Content-Disposition: attachment; filename=revlist-4c96899f4358-7fc490a19bae.txt
 
-de5890dcab2e41b66ab16c2d2682a70177ea8076 Add auxiliary bus support
-cf6fde4eed25484940918ebead462d1ada0ba1d3 net/mlx5: Don't skip vport check
-2d8814027cddd6f405ae978ca5815fab4e8c048c net/mlx5: Properly convey driver version to firmware
-74f6480beb03d00c36ad6b12a8743053316bbafc net/mlx5_core: Clean driver version and name
-994ae3080cb314de51327f5888382c0642f12085 vdpa/mlx5: Make hardware definitions visible to all mlx5 devices
-bbaa081b0f905ae55b9c97ccc38c7361fc5c7c59 net/mlx5: Register mlx5 devices to auxiliary virtual bus
-37468fc4cccc77a58310594ee4ec9ea570fc7977 vdpa/mlx5: Connect mlx5_vdpa to auxiliary bus
-a7baabf86bbeb4dcfb589a1cf8928b51302f8e38 net/mlx5e: Connect ethernet part to auxiliary bus
-614c5ad959eaf74cd1e36548778b065964b25445 RDMA/mlx5: Convert mlx5_ib to use auxiliary bus
-0aa459e01c68b970d3b287034e38252bb34e384a net/mlx5: Delete custom device management logic
-91131a6efe6b1e55df75764e95d37cabebe4530a net/mlx5: Simplify eswitch mode check
-ce74c37c8b8e1804ea17ac394f112972acb8483b RDMA/mlx5: Remove IB representors dead code
-0228389dbb18d523604f49353ffb67004e31dc29 fixup! net/mlx5: Properly convey driver version to firmware
-e8a98531f7c26043e17a2583a9299427abddb794 net/mlx5: Remove impossible checks of interface state
-ee87b41a5689baf36844a8c0569cf25feb11d2c2 net/mlx5: Separate probe vs. reload flows
-77a4502872fa6caaa37b9244a4143a467a4b6e5b net/mlx5: Remove second FW tracer check
-33da570785aaa4962d77cb6b268ecb388bf15543 net/mlx5: Don't rely on interface state bit
-b181e1c4e1994cdadb47fa809b4fefa7585ac5a2 net/mlx5: Check returned value from health recover sequence
-4c96899f4358197770ec0db7195c914d5968745b net/mlx5: Fix devlink reload LOCKDEP warning
+05aa843172c639acc84acf676b158ad1db6c5e30 Add auxiliary bus support
+fe9343937d80382649cea17f0991951643cd4e09 net/mlx5: Don't skip vport check
+b2393fb73f60f98c075594774cba5576084a377d net/mlx5: Properly convey driver version to firmware
+8830fa2b33eec7e17cd5c8ae58ffd697b5b6aeb2 net/mlx5_core: Clean driver version and name
+39d094abd57dc9db32d70d07f9955d70383cc1e0 vdpa/mlx5: Make hardware definitions visible to all mlx5 devices
+f251e47630ab24afb974f27d3418048f8b458618 net/mlx5: Register mlx5 devices to auxiliary virtual bus
+d2574bae3e60f698609bdf876fffc94f81e85188 vdpa/mlx5: Connect mlx5_vdpa to auxiliary bus
+fd1ed6f0d08532726ed1d35502e042edd830ddc2 net/mlx5e: Connect ethernet part to auxiliary bus
+065254747b067f387762b28b7bbcc464f5b902db RDMA/mlx5: Convert mlx5_ib to use auxiliary bus
+aa1746afb1feb905dd4378d0b3e176710a4b7dda net/mlx5: Delete custom device management logic
+eacba186ba2cd78cb993c870402c2c09b71ae396 net/mlx5: Simplify eswitch mode check
+2cf8282642f927f412ed2cf0a454f81e6a8cd048 RDMA/mlx5: Remove IB representors dead code
+c68c822cc48714d43ebcdbd2857a17cd71d3e8ab fixup! net/mlx5: Properly convey driver version to firmware
+639203d43a2dc6027026e4cb93b933d2a04c6754 net/mlx5: Remove impossible checks of interface state
+8d4256658a9078b18c3986f9fad3dfe760ad0177 net/mlx5: Separate probe vs. reload flows
+7d00c6a1648d90389b12e3dd48ae4c08ab903c88 net/mlx5: Remove second FW tracer check
+af2afc80a33224ab1f28abf82e03b89a8f5d6ba7 net/mlx5: Don't rely on interface state bit
+d87280d845b56da28707a572ea0b49121603c32a net/mlx5: Check returned value from health recover sequence
+7fc490a19bae20eb4a09ce1ae515f8282b909fdb net/mlx5: Fix devlink reload LOCKDEP warning
 
---===============8699615564613147950==--
+--===============1808432767832576103==--
