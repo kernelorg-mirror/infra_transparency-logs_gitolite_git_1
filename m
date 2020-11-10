@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Tue, 10 Nov 2020 16:38:54 -0000
-Message-Id: <160502633468.3698.10597003976097787635@gitolite.kernel.org>
+Date: Tue, 10 Nov 2020 16:41:43 -0000
+Message-Id: <160502650394.6006.382479620077538736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/lenb/linux
 user: lenb
 changes:
   - ref: refs/heads/turbostat
-    old: 7f7317206859b67e90ab975440b609b6236bf47b
-    new: 36001948aac50894aeb60b6de98ad875fc2e25e2
+    old: 36001948aac50894aeb60b6de98ad875fc2e25e2
+    new: 3e9fa9983b9297407c2448114d6d27782d5e2ef2
     log: |
-         084759dfed02b632c434c5be58c2b63c6112a74a powercap: restrict energy meter to root access
-         36001948aac50894aeb60b6de98ad875fc2e25e2 tools/power turbostat: update version number
+         949dd0104c496fa7c14991a23c03c62e44637e71 powercap: restrict energy meter to root access
+         3e9fa9983b9297407c2448114d6d27782d5e2ef2 tools/power turbostat: update version number
          
