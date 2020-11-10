@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7818125063931848337=="
+Content-Type: multipart/mixed; boundary="===============8137035792418037419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 10 Nov 2020 16:00:50 -0000
-Message-Id: <160502405000.11033.12159596164096016044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 10 Nov 2020 16:00:56 -0000
+Message-Id: <160502405648.11168.3046668186379194817@gitolite.kernel.org>
 
---===============7818125063931848337==
+--===============8137035792418037419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 354e592a506cf565dd5ece755150f50d52b69050
     new: 513e22f384f04f205c9501372d04ece070cfc1b4
     log: revlist-354e592a506c-513e22f384f0.txt
 
---===============7818125063931848337==
+--===============8137035792418037419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1605024036 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1605024047-b2226b381ccd0bbb99dd1084404254e6cd7cbbfe
+pusher C3F436CA30F5D8EB 1605024043 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1605024054-d3a68b515d07a64ce353e032a503924603a77430
 
-354e592a506cf565dd5ece755150f50d52b69050 513e22f384f04f205c9501372d04ece070cfc1b4 refs/heads/for-5.11
+354e592a506cf565dd5ece755150f50d52b69050 513e22f384f04f205c9501372d04ece070cfc1b4 refs/heads/asoc-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+quSQACgkQJNaLcl1U
-h9A1Owf8DFDt4+RRPFaOtq9OuilmMYLeqCNcxLIx+YIuu0ZpFKFxOhJNh/Fz7w7t
-mJRvFgkq1xWSK6mCPEdqYKPBSJMrsuI7y/meAD5ZCQKr3ir0Xge1sJICpjBLHRNk
-f+luz/WEB26CFVChIgJBONWZ1LhjJr5wfGNF2L8t5s6Tzp7DRFcFY9W5kJTwhdwJ
-y2kNPvNDk03rJSbdzy1LEYQ9kt2yUIGQJWlr7Kde9Nl4Y+8/UlO+lfNvY3NPqG1h
-BkWJeABljweVBCWP264u0w8SHDd9dQCvzhOnKPrtT/K2CFB5a+RwvkLwB/cWAI8j
-rhuI+VzzRFqcwykpgvdW/+vNC5IIpA==
-=jTni
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+quSsACgkQJNaLcl1U
+h9AULgf+LL9M+cq9zWsQMTXfXnMPg9wCM1BjjgcMsbKH80gsvA/QAKE11Y04J6t3
+/5mKKMf0IRcyPzJFwGEjrKCtOLQETi7TKNRTJjAwwsGvmP+JyJU3ZTMi6XI4neAg
+g+J6KKiCEu2Moq5I6VSNmj9lKAEm+9V/8284rLQ73e6oCHSMtS9sZ+OYEm46n7XD
+RE8+MpRIdYMWmFKmgsfSNMcmq36KQ94xmHT2O//KYAnOqDCjoNIda04R8joFXieY
+NkPk88kSp0gfFZkKr0azZxOzkxo0rxCsp5k79vSQO+lYXi3H3KmHS84P5IrxbThD
+HSLycr1nP73pJ6nbo1ifIba93zykeg==
+=4HOV
 -----END PGP SIGNATURE-----
 
---===============7818125063931848337==
+--===============8137035792418037419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ eb84959ab8c0ca2897e69575110bdaaf2d532eb7 ASoC: soc-compress: tidyup STREAM vs CO
 50dc5f5c735807abf04012ee5ad6149eef64508a Merge series "Fix vaud18 power leakage of mt6359" from Shane Chien <shane.chien@mediatek.com> "Shane.Chien" <shane.chien@mediatek.com>:
 513e22f384f04f205c9501372d04ece070cfc1b4 Merge series "Modify documentation and machine driver for SC7180 sound card" from Ajye Huang <ajye.huang@gmail.com>:
 
---===============7818125063931848337==--
+--===============8137035792418037419==--
