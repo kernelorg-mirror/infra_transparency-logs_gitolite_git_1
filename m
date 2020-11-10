@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2120448767251895404=="
+Content-Type: multipart/mixed; boundary="===============3209249506566019286=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Tue, 10 Nov 2020 07:21:16 -0000
-Message-Id: <160499287632.23498.14813941472841799480@gitolite.kernel.org>
+Date: Tue, 10 Nov 2020 07:23:06 -0000
+Message-Id: <160499298614.24397.7089020696527408546@gitolite.kernel.org>
 
---===============2120448767251895404==
+--===============3209249506566019286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,39 +16,39 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: be6a301b069e0459b0c0c6981701a4b9595eb817
-    new: 295f4533bd87864b6d67dfaae5ef2b0e7b1f61f1
-    log: revlist-be6a301b069e-295f4533bd87.txt
+    old: 295f4533bd87864b6d67dfaae5ef2b0e7b1f61f1
+    new: 7ccc1260eb234f88a51f7e4499ae96eceb697614
+    log: revlist-295f4533bd87-7ccc1260eb23.txt
 
---===============2120448767251895404==
+--===============3209249506566019286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be6a301b069e-295f4533bd87.txt
+Content-Disposition: attachment; filename=revlist-295f4533bd87-7ccc1260eb23.txt
 
-bf48fbe828ebd9de1831250963c7e2c095158f8f x86/sgx: Add SGX architectural data structures
-280c5d302608aa41f25dd341f5283498c2cb4499 x86/sgx: Add wrappers for ENCLS functions
-8c7d8f8294aaa8e11fbd295c95e6cdd58d232578 x86/cpufeatures: x86/msr: Add Intel SGX hardware bits
-a933667a0cf702d4dd0098359a370ab92cc2b897 x86/cpufeatures: x86/msr: Add Intel SGX Launch Control hardware bits
-639bcdb6577ced208802fe54d32841e28adedb6a x86/sgx: Initialize metadata for Enclave Page Cache (EPC) sections
-ae8397aa799b21ed171fc4e20901cbcc83bc0565 x86/mm: x86/sgx: Signal SIGSEGV with PF_SGX
-0976d55b3367a505d957e74c9db605d2ab9d2582 x86/cpu/intel: Detect SGX support
-ccda72651cf0e9b5a26d7f3f775d445170c4e02f x86/cpu/intel: Add nosgx kernel parameter
-2792f6754e339ff53f10a875509e8f084ac9048e x86/sgx: Add SGX page allocator functions
-2583b4e1dc11747e148165a78505df9d8f3b0f27 mm: Add 'mprotect' hook to struct vm_operations_struct
-78baeecf16dd6ec128d94543322f3c171686f709 x86/sgx: Add SGX misc driver interface
-8baf0fa77b531a27cd7f6082f225b5f5c7ce4bc1 x86/sgx: Add SGX_IOC_ENCLAVE_CREATE
-89755de3936cd1cadd15782d1ff694b62f09c62e x86/sgx: Add SGX_IOC_ENCLAVE_ADD_PAGES
-44b0327849476e1d80fb7b5d8ef0f64275b762d1 x86/sgx: Add SGX_IOC_ENCLAVE_INIT
-3dc510676f68dfceeb8c949ff5255259b060b6c0 x86/sgx: Add SGX_IOC_ENCLAVE_PROVISION
-7d849ab3895a4e0aae9ebea9d8c71a7858568aa8 x86/vdso: Add support for exception fixup in vDSO functions
-6c66ca7f97860e0d61ebb211c1a24639332d4c6e x86/fault: Add helper function to sanitize error code
-98431ab1dc088b19c93794b6a44f0705c1d2573e x86/traps: Attempt to fixup exceptions in vDSO before signaling
-75c5be2c95388ab0e88001c54009cd5bd3b0096e x86/vdso: Implement a vDSO for Intel SGX enclave call
-95b8ac5f064510b18e7c4e7b2380b2e4104bc577 selftests/x86: Add a selftest for SGX
-2cd52133ef6a9156b4df508f6656b9d3c57f7305 x86/sgx: Add a page reclaimer
-6b095766058b972833802b8baf7efea07322a683 x86/sgx: Add ptrace() support for the SGX driver
-ab672d25b98c7b52dd8c004f4ad93f821d4b5a0c docs: x86/sgx: Document SGX kernel architecture
-295f4533bd87864b6d67dfaae5ef2b0e7b1f61f1 x86/sgx: Update MAINTAINERS
+33ea4234596447908c3573fe86f422ecee981a5b x86/sgx: Add SGX architectural data structures
+a1374d5bafe06019a67c9cfb11d27323ac1459bf x86/sgx: Add wrappers for ENCLS functions
+09cd4bf524cd25846964e5e6e2b9f35f55bb2c7c x86/cpufeatures: x86/msr: Add Intel SGX hardware bits
+711324825a7bbae32536fa5c4a62d2a0eb6b6ee3 x86/cpufeatures: x86/msr: Add Intel SGX Launch Control hardware bits
+5394b86809f914639d1177c48dcf36d3aebd25e9 x86/sgx: Initialize metadata for Enclave Page Cache (EPC) sections
+19223c45468c6e759ba682932cb9b1aa43e5b758 x86/mm: x86/sgx: Signal SIGSEGV with PF_SGX
+e89bd549d1a43b04b5df78d539b7ef4b9a7a62d3 x86/cpu/intel: Detect SGX support
+306618c155032571b9d7c1c772f5143c66b1683c x86/cpu/intel: Add nosgx kernel parameter
+85efdce2f1ca3891cc6a466adf2200765332593a x86/sgx: Add SGX page allocator functions
+918842eb7af21f6aa1c2c34ca356dfdfc1be4b0a mm: Add 'mprotect' hook to struct vm_operations_struct
+17a021770a692d1c9b3ffe2ae124adaa36a23297 x86/sgx: Add SGX misc driver interface
+6860504a521473cb76c14682090f57a3f422da7a x86/sgx: Add SGX_IOC_ENCLAVE_CREATE
+22b4d6d536ab5f33312a1f3b7a6956fc151a58be x86/sgx: Add SGX_IOC_ENCLAVE_ADD_PAGES
+7c30ed5daf1e45ee44123a8a6aeeb71e97d8da1c x86/sgx: Add SGX_IOC_ENCLAVE_INIT
+7fc5c58c19827c9bf39e2854b9970d31b3a0a938 x86/sgx: Add SGX_IOC_ENCLAVE_PROVISION
+e586519df81d29cb62c596cbeb3f4b81d5260f11 x86/vdso: Add support for exception fixup in vDSO functions
+327e348080c3723d2a3cbba43b8793bd965f7b4a x86/fault: Add helper function to sanitize error code
+8d445c509a7c88e9945f608e41e093e166f5203a x86/traps: Attempt to fixup exceptions in vDSO before signaling
+856fab15c74f1ff99c68c725447f3174473938b0 x86/vdso: Implement a vDSO for Intel SGX enclave call
+c0f4575d1659c314e580975908ac628ee7e14010 selftests/x86: Add a selftest for SGX
+322d796d90aea2faec3978b1aca13ea08f1ae09d x86/sgx: Add a page reclaimer
+e6377d42757e24b6fe581f1cdef3c961fb164e1f x86/sgx: Add ptrace() support for the SGX driver
+78b9a124d64c4e0b11677af1c50617712bfb13a2 docs: x86/sgx: Document SGX kernel architecture
+7ccc1260eb234f88a51f7e4499ae96eceb697614 x86/sgx: Update MAINTAINERS
 
---===============2120448767251895404==--
+--===============3209249506566019286==--
