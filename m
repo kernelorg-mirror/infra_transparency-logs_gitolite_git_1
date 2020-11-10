@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 10 Nov 2020 22:15:10 -0000
-Message-Id: <160504651009.28161.14401387545174965442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Tue, 10 Nov 2020 22:15:28 -0000
+Message-Id: <160504652879.28356.5735220677686085508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/net-next
-    old: 7d5cb8c2990e16ddf2eda96fe6e9a518e846389b
-    new: 734224dc6fda803dbc49dde86cffa4bf38961d1e
+  - ref: refs/heads/asym32
+    old: b93aedf695173f6a6b729a719c7f860523baaf66
+    new: 8fcdff224e61e9788d785088728ff6ade59c17e1
     log: |
-         5c8993de2eeaf1ce72b113f90bf2cfbdd8d0c342 Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-         2dc69e52518a4b0ea9a6364ac1d60cded4b4a8ab Merge commit 'refs/changes/08/347108/7' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-         2898bc0c9633be95a7782e207775de9d5d333012 Merge commit 'refs/changes/48/344848/6' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-         2439b5ac21fa4e799df008b245389e5838ca9b9e Merge branch 'net-next-mlx4' into net-next
-         ca41d7fb5f8648fbd0d524bbbaade97a43a79c46 Merge branch 'mlx5-vdpa' into net-next
-         7414671686b4b2cbdb05df2cb4620c6b9f7d4bb3 Merge branch 'net-next-mlx5' into net-next
-         e2e51dbbdb2886e8e0bd8b2cd5bdaa6a67af890f Merge branch 'net-mlx5' into net-next
-         734224dc6fda803dbc49dde86cffa4bf38961d1e Merge branch 'net-next-test' into net-next
+         5a46313f7117476d84a37a7e9fcbbc73fc497456 sched: Introduce restrict_cpus_allowed_ptr() to limit task CPU affinity
+         f73f9e7e8bddb269b948a04bc2d3eeef721c273b arm64: exec: Adjust affinity for compat tasks with mismatched 32-bit EL0
+         51a0ff03579c33ecaa18a9ab97ade779a10d0804 Hack for testing mismatched 32-bit support at EL0
+         749f2e57c87241911fd8ff05e37c5b841c21c48e cpuset: Don't use the cpu_possible_mask as a last resort for cgroup v1
+         7d475c8ba149206c3efae57943a4381fc9098a3e sched: Introduce arch_fallback_affinity_mask() for fallback affinity mask
+         8fcdff224e61e9788d785088728ff6ade59c17e1 arm64: Prefer 32-bit capable CPUs when forcing migration of compat tasks
          
