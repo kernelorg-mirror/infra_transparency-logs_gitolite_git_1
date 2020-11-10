@@ -1,31 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============2080413836000125524=="
+Content-Type: multipart/mixed; boundary="===============6759172360132681478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Tue, 10 Nov 2020 13:48:30 -0000
-Message-Id: <160501611076.21401.10595904248840802207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
+Date: Tue, 10 Nov 2020 13:48:47 -0000
+Message-Id: <160501612718.21576.7878288299153431552@gitolite.kernel.org>
 
---===============2080413836000125524==
+--===============6759172360132681478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/tmlind/linux-omap
+user: tmlind
 changes:
-  - ref: refs/tags/arm-smmu-updates
-    old: 251e9d06fed3e8a7a4650d169f54340c5d54e88f
-    new: 940335b2f4770d99ada907307cef566afddada4c
-    log: revlist-251e9d06fed3-940335b2f477.txt
+  - ref: refs/heads/fixes
+    old: 8f04aea048d56f3e39a7e543939450246542a6fc
+    new: 030464198f9d4ac837f84ac77ca3a25b73b0617a
+    log: revlist-8f04aea048d5-030464198f9d.txt
 
---===============2080413836000125524==
+--===============6759172360132681478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-251e9d06fed3-940335b2f477.txt
+Content-Disposition: attachment; filename=revlist-8f04aea048d5-030464198f9d.txt
 
+7fafb54c7d390e9b273a1d7d377e38d9c408046e Merge tag 'leds-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
+b4e1bce85fd8f43dc814049e2641cc6beaa8146b Merge tag 'pinctrl-v5.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+f888bdf9823c85fe945c4eb3ba353f749dec3856 Merge tag 'devicetree-for-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+1a31c12371556bfbe511edd268dab721b504d511 Merge tag 'mfd-next-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
+6448cbf662c7858c0d9eb0b135962bedd6d0b9a0 Merge tag 'backlight-next-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
+e6037a753e8e9a4146f7d94c32eb30a6717c9c70 powerpc32: don't adjust unmoved stack pointer in csum_partial_copy_generic() epilogue
 5d6c413c92a3e6fc9399141891147d0d826517c9 Merge tag 'tty-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 fe151462bd0f7ad0e758f1cdcbeb6426e3d1ee8e Merge tag 'driver-core-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 3e4fb4346c781068610d03c12b16c0cfb0fd24a3 Merge tag 'spdx-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx
@@ -1042,13 +1048,7 @@ a3d1b31213f1f789cc45a7db5c721513282d225a Merge tag 'perf-urgent-2020-10-25' of g
 986b9eacb25910865b50e5f298aa8e2df7642f1b kernel/sys.c: fix prototype of prctl_get_tid_address()
 33def8498fdde180023444b08e12b72a9efed41d treewide: Convert macro and uses of __section(foo) to __section("foo")
 3650b228f83adda7e5ee532e2b90429c03f7b9ec Linux 5.10-rc1
-56b75b51ed6d5e7bffda59440404409bca2dff00 iommu/arm-smmu: Allow implementation specific write_s2cr
-07a7f2caaa5a2619934491bab3c47b261c554fb0 iommu/arm-smmu-qcom: Read back stream mappings
-f9081b8ff5934b8d69c748d0200e844cadd2c667 iommu/arm-smmu-qcom: Implement S2CR quirk
-af9da91493e5ff6179c2ecbfafa05ef203b25b5f iommu/arm-smmu: Use new devm_krealloc()
-3045fe45abbcba2ae4c3ce9b3c610523651be1c7 iommu/arm-smmu-v3: Assign boolean values to a bool variable
-5c7469c66f953a2eb223468d7aa40062af9c14ab iommu/arm-smmu-qcom: Add implementation for the adreno GPU SMMU
-bffb2eaf0ba2c0bdd7fc2c4e194dab6783f5d8c1 iommu/arm-smmu: Add a way for implementations to influence SCTLR
-a29bbb0861f487a5e144dc997a9f71a36c7a2404 dt-bindings: arm-smmu: Add compatible string for Adreno GPU SMMU
+e4b5575da2676cee8b44e8fe5b6e98d079dc80f6 ARM: OMAP2+: Manage MPU state properly for omap_enter_idle_coupled()
+030464198f9d4ac837f84ac77ca3a25b73b0617a ARM: dts: am437x-l4: fix compatible for cpsw switch dt node
 
---===============2080413836000125524==--
+--===============6759172360132681478==--
