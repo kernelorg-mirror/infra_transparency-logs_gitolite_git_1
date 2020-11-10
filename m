@@ -1,54 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============7087034342428041901=="
+Content-Type: multipart/mixed; boundary="===============0871124182223515314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Tue, 10 Nov 2020 08:00:35 -0000
-Message-Id: <160499523530.21318.12537431058440625671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 10 Nov 2020 08:02:46 -0000
+Message-Id: <160499536657.22184.11049612429255536302@gitolite.kernel.org>
 
---===============7087034342428041901==
+--===============0871124182223515314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 4bf5eeef3e845686378459a5a5002b61dd1c7e2b
-    new: 3d2f23fba141417d41db8cd3052ccc86a5edbe1f
-    log: revlist-4bf5eeef3e84-3d2f23fba141.txt
+  - ref: refs/heads/net-next-mlx5
+    old: 190f99838f840a83df432f106e2df20c8bb2547f
+    new: b2d8016268abeb3c8406efe56b96d86c8dcea421
+    log: revlist-190f99838f84-b2d8016268ab.txt
 
---===============7087034342428041901==
+--===============0871124182223515314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4bf5eeef3e84-3d2f23fba141.txt
+Content-Disposition: attachment; filename=revlist-190f99838f84-b2d8016268ab.txt
 
-c7c8501c1a68d34c0c92d4cb9828b7e714778321 x86/sgx: Add SGX architectural data structures
-f4363117af56295d5fdc93d957378fda5bc8a5d8 x86/sgx: Add wrappers for ENCLS functions
-73faaea2f1b2766fb2c9f1253ca9e64337f166e7 x86/cpufeatures: x86/msr: Add Intel SGX hardware bits
-c7dd9815e102ad8965e58a6f1d47e517da34792e x86/cpufeatures: x86/msr: Add Intel SGX Launch Control hardware bits
-b7ef10057bd1bcad4c2cc87d17186014f34bbc6d x86/sgx: Initialize metadata for Enclave Page Cache (EPC) sections
-8182797c722d6a7d3a270c17483aa80d0b212add x86/mm: x86/sgx: Signal SIGSEGV with PF_SGX
-6eb58700fb115e202d46a85f03c572bd8fe3534e x86/cpu/intel: Detect SGX support
-9e606b9f7324200d5c5a63179db0983c9f7aec42 x86/cpu/intel: Add nosgx kernel parameter
-ca84d09c50c713b5adda6796545b3e2db8e9c664 x86/sgx: Add SGX page allocator functions
-b3aac64c0d9c712be6280fd3bf7743996b73f0e0 mm: Add 'mprotect' hook to struct vm_operations_struct
-6a2caeeae67534db99c2b561047b39494fe9fa02 x86/sgx: Add SGX misc driver interface
-29012a9079c7f99e64e5d02745ec264a5bd4a2bb x86/sgx: Add SGX_IOC_ENCLAVE_CREATE
-a4766814fd970b7626ea77d4b3a773ac83af73b3 x86/sgx: Add SGX_IOC_ENCLAVE_ADD_PAGES
-91ef3f4b2fe0c3e1d6bd99fdcd8bd05ab7cfd9fb x86/sgx: Add SGX_IOC_ENCLAVE_INIT
-f14fea3567c3d292c0eb9c9965f5793f3ef4cf7c x86/sgx: Add SGX_IOC_ENCLAVE_PROVISION
-5083627d9f0835fb1f0c6cc7b2e6ea0c89a598d4 x86/vdso: Add support for exception fixup in vDSO functions
-05414202f482f4612625e9446a0e82d3bcd9ea57 x86/fault: Add helper function to sanitize error code
-599c048925a7257aa0963bf56bf08eec2181118d x86/traps: Attempt to fixup exceptions in vDSO before signaling
-09089648e64159f551355a3d106e3aa63895d7a9 x86/vdso: Implement a vDSO for Intel SGX enclave call
-e3e850c64a3813169f4ae59c0420e72bd5897d7d selftests/x86: Add a selftest for SGX
-fc3b8a26971d0d66da756999caf536dba1c3795d x86/sgx: Add a page reclaimer
-80f501e69a99b4d90046be37a77860395f4d65de x86/sgx: Add ptrace() support for the SGX driver
-314031ac88d1e535661417c0114b883d5b3a4795 docs: x86/sgx: Document SGX kernel architecture
-3d2f23fba141417d41db8cd3052ccc86a5edbe1f x86/sgx: Update MAINTAINERS
+173e4e78c00ab339299b07d53215358b7ca1033e net/mlx5: Add sample offload hardware bits and structures
+0673d4a32096644341e76b64b1f5832c10759b3e net/mlx5: Add sampler destination type
+b5b92469d8be034345381885c3b53ca4c5243a66 net/mlx5: Check dr mask size against mlx5_match_param size
+cad2548999bd8d617de44751419163982feab0da net/mlx5: Add misc4 to mlx5_ifc_fte_match_param_bits
+a6d0d873bfab53d52769176633ca454cacad9b02 net/mlx5: Add ts_cqe_to_dest_cqn related bits
+a6ffe01cb2097c632fc4fd887f1d7bff220d1c06 net/mlx5e: Allow RQ outside of channel context
+26703016df3e84075c3736c99ff39f91769a5a84 net/mlx5e: Allow SQ outside of channel context
+cbb4ed324d82c1a91471a3308eec1e762706cc88 net/mlx5e: Allow CQ outside of channel context
+a2d10f20f05c9a1609a04abecfa3befaa0d5cd51 net/mlx5e: Change skb fifo push/pop API to be used without SQ
+3281d4703e36647292c5ada8c5bc9078450ca7f8 net/mlx5e: Split SW group counters update function
+e0bb70ec7999a25588aba5f863da5cd5d1eebcdb net/mlx5e: Move MLX5E_RX_ERR_CQE macro
+de270990e0cc3feb5216f0e229a428a9af7d96b1 net/mlx5e: Add TX PTP port object support
+9df319ffd97b1d67d3baae9280bc056f7d8e3ac3 net/mlx5e: Add TX port timestamp support
+ee751cd4f2c9857bee1403c2ae8e264f578a81c0 fixup! net/mlx5e: Allow RQ outside of channel context
+d053ff8f86126607b73130ab864c1e661a4d0d57 fixup! net/mlx5e: Add TX PTP port object support
+f5e4ba3856c618b4d1a7929df52318c3b15b43f6 net/mlx5e: remove unnecessary memset
+3cbd4c77b87dbacd87eb5f4cb88d89e2b5a9d513 net/mlx5e: Remove duplicated include
+eb91fd75b3989148da28994a1bc91b2abf1e7c12 net/mlx5e: remove redundant eswitch manager check
+b2d8016268abeb3c8406efe56b96d86c8dcea421 net/mlx5: Avoid exposing driver internal command helpers
 
---===============7087034342428041901==--
+--===============0871124182223515314==--
