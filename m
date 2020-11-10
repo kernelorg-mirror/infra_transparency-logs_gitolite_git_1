@@ -1,28 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 10 Nov 2020 14:38:38 -0000
-Message-Id: <160501911879.28807.11065950239881414229@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3401794686000374132=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Tue, 10 Nov 2020 14:50:05 -0000
+Message-Id: <160501980571.4286.867270595802347438@gitolite.kernel.org>
+
+--===============3401794686000374132==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/test/usb-hacks
-    old: 6ea3466d305de6604b7d2837da60a81bb4581b24
-    new: 34097b53fabec7e91f3eb8337e164ee0f169aeda
+  - ref: refs/heads/devel
+    old: 634e859e6bf06db0e5cc0567e04909e2e28e9901
+    new: ac43c44a7a375ae0f0e96e10e227e226f2f2cb70
+    log: revlist-634e859e6bf0-ac43c44a7a37.txt
+  - ref: refs/heads/fixes
+    old: 9b92f5c51e9a41352d665f6f956bd95085a56a83
+    new: dadfab0fbf0173da6e24c8322b69083fef03033d
     log: |
-         e258a13cc97a85e43bd0b16fc66d4256a7551ea7 ALSA: usb-audio: Don't call usb_set_interface() at trigger callback
-         c94db9b753f896843bc10e6654fae1bfd1cf422d ALSA: usb-audio: Add snd_usb_get_endpoint() helper
-         3bb3843dfcabe4798a00f6fd6455cb6fc14aa56b ALSA: usb-audio: Set and clear sync EP link properly
-         781f5d25f4ebb1ad4b4741050a37314e93674700 ALSA: usb-audio: Improve some debug prints
-         b0306faad2cae409034112e5db2956b7440a1b92 ALSA: usb-audio: Track implicit fb sync endpoint in audioformat list
-         9a9430ed9dc7cce452c1f3a70a26ecae6d5ccc18 ALSA: usb-audio: Move snd_usb_autoresume() call out of setup_hw_info()
-         1961688e5a9b76f10e64b5781fa84627fe3ba9ad ALSA: usb-audio: Add hw constraint for implicit fb sync
-         5a3525245b87723c93266366300785bcd1bac785 ALSA: usb-audio: Add fake capture sync EP for BOSS GT-001
-         41929033682c6aede4b6cf4d8be1971aeb2a055f ALSA: usb-audio: Simplify hw_params rules
-         34097b53fabec7e91f3eb8337e164ee0f169aeda ALSA: usb-audio: Drop debug.h
+         dd26209bc56886cacdbd828571e54a6bca251e55 pinctrl: intel: Fix 2 kOhm bias which is 833 Ohm
+         f3c75e7a9349d1d33eb53ddc1b31640994969f73 pinctrl: intel: Set default bias in case no particular value given
+         06abe8291bc31839950f7d0362d9979edc88a666 pinctrl: amd: fix incorrect way to disable debounce filter
+         c64a6a0d4a928c63e5bc3b485552a8903a506c36 pinctrl: amd: use higher precision for 512 RtcClk
+         71266d9d39366c9b24b866d811b3facaf837f13f pinctrl: qcom: Move clearing pending IRQ to .irq_request_resources callback
+         b41efeed507addecb92e83dd444d86c1fbe38ae0 pinctrl: qcom: sm8250: Specify PDC map
+         dadfab0fbf0173da6e24c8322b69083fef03033d Merge tag 'intel-pinctrl-v5.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/intel into fixes
          
+
+--===============3401794686000374132==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-634e859e6bf0-ac43c44a7a37.txt
+
+0e74abf3a0a3a711145f11f3a782432a2df5f744 pinctrl: qcom: add pinctrl driver for msm8953
+3d417196e2447811f9c73b0efe7ba02f5cb20fff dt-bindings: pinctrl: qcom: add msm8953 pinctrl bindings
+57972641810a97566ffd13e4be3f6a66d61eb3b5 pinctrl: mt7622: drop pwm ch7 as mt7622 only has 6 channels
+bb42b59310ebc33ab73dddd9a075d24003d1adac pinctrl: ingenic: Get rid of repetitive data
+016e054d6926390a583a6422f3193e222be62eb9 pinctrl: ingenic: Add lcd-8bit group for JZ4770
+39cc1d3397053f340776c99e55b733a063fa2c69 pinctrl: amd: print debounce filter info in debugfs
+be117ca32261c3331b614f440c737650791a6998 pinctrl: qcom: Kconfig: Rework PINCTRL_MSM to be a depenency rather then a selected config
+38e86f5c2645f3c16f698fa7e66b4eb23da5369c pinctrl: qcom: Allow pinctrl-msm code to be loadable as a module
+d0511b5496c03cdbcda55a9b57c32cdd751920ed firmware: QCOM_SCM: Allow qcom_scm driver to be loadable as a permenent module
+54515257ca3acc99e26117727874a7566148e64b pinctrl: ocelot: Remove unnecessary conversion to bool
+ad3b508c90ad20c63ac4fcd076e22b9f0294124d dt-bindings: pinctrl: ocelot: Add Luton SoC support
+e1822384d6d680a31724872b3134ce03eb6a27bc dt-bindings: pinctrl: ocelot: Add Serval SoC support
+8f27440decb75cc92ab37ce3140c73198689feaf pinctrl: ocelot: Add support for Luton platforms
+6e6347e2daf52123127a60e92d808f6a3d674b4b pinctrl: ocelot: Add support for Serval platforms
+c82d4776a1ddf8cb16b7683ad1fe6844bf396ac8 dt-bindings: pinctrl: qcom: Add SDX55 pinctrl bindings
+ac43c44a7a375ae0f0e96e10e227e226f2f2cb70 pinctrl: qcom: Add SDX55 pincontrol driver
+
+--===============3401794686000374132==--
