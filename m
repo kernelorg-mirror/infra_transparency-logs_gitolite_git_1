@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Tue, 10 Nov 2020 08:03:53 -0000
-Message-Id: <160499543380.22699.4922294389115325425@gitolite.kernel.org>
+Date: Tue, 10 Nov 2020 08:05:04 -0000
+Message-Id: <160499550454.24436.8659707338021602983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,11 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 3d2f23fba141417d41db8cd3052ccc86a5edbe1f
-    new: 08c5afdc25f0758d56325a0452ea14b62be5a9c2
+    old: 08c5afdc25f0758d56325a0452ea14b62be5a9c2
+    new: 4cc346579b3b23add8e540aecb6af16e442a93ea
     log: |
-         87353e13f787a8cf786fc2df47bbaf91d2f3aa0c docs: x86/sgx: Document SGX kernel architecture
-         08c5afdc25f0758d56325a0452ea14b62be5a9c2 x86/sgx: Update MAINTAINERS
+         2b2c4f15e5afc6522164e97cfe012b596a8db8a4 x86/sgx: Add a page reclaimer
+         42d581d189686bf026f86ec132332b69b5ee42e9 x86/sgx: Add ptrace() support for the SGX driver
+         ff349310c17ef0a0c22c7f00801f60345ad1c2b4 docs: x86/sgx: Document SGX kernel architecture
+         4cc346579b3b23add8e540aecb6af16e442a93ea x86/sgx: Update MAINTAINERS
          
