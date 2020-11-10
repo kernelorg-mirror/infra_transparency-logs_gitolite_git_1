@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 10 Nov 2020 18:23:12 -0000
-Message-Id: <160503259220.16245.12908225477477144445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 10 Nov 2020 18:23:13 -0000
+Message-Id: <160503259381.16322.17843075045831232308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/ath-next
-    old: fa7572c2cfe081dff82f884fa05f1b067d4beaaa
-    new: c134d1f8c436d96b3f62896c630278e3ec001280
+  - ref: refs/heads/ci-next
+    old: 25d25c5f83b191bd8e69cac476e126cc85d3bb2c
+    new: 3cb05aa12aaefa695ba3fb11946e5a1b21b44c58
     log: |
-         b96fab4e36023ee37ed1aad331ddd11b77c46c42 ath9k: work around false-positive gcc warning
-         c134d1f8c436d96b3f62896c630278e3ec001280 ath11k: Handle errors if peer creation fails
-         
-  - ref: refs/heads/ath-qca
-    old: 5251a22077a7292a132d597eed995d32a3f5e753
-    new: d421ae2c434c688405032dbdb007ecd51bd6cef6
-    log: |
-         b96fab4e36023ee37ed1aad331ddd11b77c46c42 ath9k: work around false-positive gcc warning
-         c134d1f8c436d96b3f62896c630278e3ec001280 ath11k: Handle errors if peer creation fails
-         d421ae2c434c688405032dbdb007ecd51bd6cef6 Merge branch 'ath-next' into ath-qca
+         7e5258b0b79d8be916abd064b5f4aa2715580478 arm: dts: qcom: sm845: Set the compatible string for the GPU SMMU
+         c42c3f05faa072d7833fc37b92f3c117128ca98a arm: dts: qcom: sc7180: Set the compatible string for the GPU SMMU
+         3cb05aa12aaefa695ba3fb11946e5a1b21b44c58 Merge branches 'arm64-for-5.11', 'drivers-for-5.11' and 'dts-for-5.11' into for-next
          
