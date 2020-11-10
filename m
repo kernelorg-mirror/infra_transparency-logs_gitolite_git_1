@@ -1,61 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============5336117003401836274=="
+Content-Type: multipart/mixed; boundary="===============5490298514127210246=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 10 Nov 2020 19:54:06 -0000
-Message-Id: <160503804688.19148.2552153003168029152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 10 Nov 2020 19:55:43 -0000
+Message-Id: <160503814320.21198.11295073415399336681@gitolite.kernel.org>
 
---===============5336117003401836274==
+--===============5490298514127210246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/net-next
-    old: 684cd153e8fa133598bcf8460f8b22728a60c38a
-    new: 440f8c3c5a964cbb227a01a909bed88640167731
-    log: revlist-684cd153e8fa-440f8c3c5a96.txt
+  - ref: refs/heads/master
+    old: 407ab579637ced6dc32cfb2295afb7259cca4b22
+    new: eccc876724927ff3b9ff91f36f7b6b159e948f0c
+    log: revlist-407ab579637c-eccc87672492.txt
 
---===============5336117003401836274==
+--===============5490298514127210246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-684cd153e8fa-440f8c3c5a96.txt
+Content-Disposition: attachment; filename=revlist-407ab579637c-eccc87672492.txt
 
-340711267abd0221c4aee79d2e0fc8f97ad6b0a4 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
-83e3d688eea9361b1f4d65193b334999cbe7a620 net/mlx5: Add sample offload hardware bits and structures
-b1f95db1c52430d6ce70ce5e7982a3173a8193fa net/mlx5: Add sampler destination type
-9d402bc685b317380ad71d1b646503da5439f257 net/mlx5: Check dr mask size against mlx5_match_param size
-6852513e463c58913999088ba44fe53bc0d22c9a net/mlx5: Add misc4 to mlx5_ifc_fte_match_param_bits
-e6ded0369d9a963724d902ba3d275b1a90ff703a net/mlx5: Add ts_cqe_to_dest_cqn related bits
-0822861e2033609e698021f1a7bfb15bd198affe net/mlx5e: Free drop RQ in a dedicated function
-07c5894ec93f1519ca5e69285a5579143357561a net/mlx5e: Allow CQ outside of channel context
-1e5556a12860c9b34649d8ef6a4c58754de8494f net/mlx5e: Allow RQ outside of channel context
-e471d211b0a3f0fac3b1fb4c06823cdba73980a4 net/mlx5e: Allow SQ outside of channel context
-f046fe7cfc4660e7cbc0dd8a33fd7cdba8123eb8 net/mlx5e: Change skb fifo push/pop API to be used without SQ
-d687099522c8971b95e9a7ff344772871dec0971 net/mlx5e: Split SW group counters update function
-409eabacb98a2a0171839d3a5e472cf44d18c421 net/mlx5e: Move MLX5E_RX_ERR_CQE macro
-8a3d354e91294e8e4f1cf175bbfcb21947a81f0d net/mlx5e: Add TX PTP port object support
-06fadb81b6d1f869dfbc7f9cb27defa3b6c72099 net/mlx5e: Add TX port timestamp support
-6e65fbd46c51afe6dac8b3bfa80312479a8d10d4 net/mlx5e: remove unnecessary memset
-8df4b84c4315d97163f6ff534b0621e84bd8fb8a net/mlx5e: Remove duplicated include
-627b118054e039612691f599559acda4b7e07025 net/mlx5: Avoid exposing driver internal command helpers
-ff4048341c7c5c816f323c0fce2c6595597f4a6b net/mlx5: Update the list of the PCI supported devices
-8bad1196354b66c27ae6c3179f7fe4d2a46c9f45 bond: Add TLS TX offload support
-a61565e58fca29fdfa290c9c20fba0406dda02ac net/mlx5e: kTLS, Check also real_dev in TLS context
-540d15cd2836dd81e44510b6938c3d2305dd08c9 fixup! net/mlx5e: Add TX PTP port object support
-e69cef58f1c3ddc88c0579045773d6c2ba82c82f net/mlx5: Arm only EQs with EQEs
-59277374fb7da8a13bf9082e9ed0de18f5fce91c Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-2f496286e3faa9c31921d342211d52fd6d430d7f Merge commit 'refs/changes/08/347108/7' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-1034cf0686990560b029bfb81ea431fd7f959232 Merge commit 'refs/changes/48/344848/6' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-1f0550066d3d9dd475df33cafd678e9273d2e59e Merge branch 'net-next-mlx4' into net-next
-a84f50f767126de2801b0bb3fd66467fc64618ea Merge branch 'mlx5-vdpa' into net-next
-058baaaf49d98964e399d2506e0fef96dc55e94e Merge branch 'net-next-mlx5' into net-next
-64bc9b460001443a2d0888918403ec69de8b69ac Merge branch 'net-mlx5' into net-next
-440f8c3c5a964cbb227a01a909bed88640167731 Merge branch 'net-next-test' into net-next
+d76bb7a09bb3b8711077912f3e80cfcf39cd9d0b tools/power turbostat: Print /dev/cpu_dma_latency
+9aefc2cda6353f48708415d9adc5dff4deb73412 tools/power turbostat: Always print idle in the system configuration header
+7c2ccc507bd44d17227930181f937b2066565349 tools/power turbostat: Make the energy variable to be 64 bit
+87e15da95775a2ffb8c444e84f08ca982b758364 tools/power turbostat: Introduce functions to accumulate RAPL consumption
+9972d5d84d76982606806b2ce887f70c2f8ba60a tools/power turbostat: Enable accumulate RAPL display
+8201a0285789fade1c5b031914577e2b27a64f05 tools/power turbostat: Use sched_getcpu() instead of hardcoded cpu 0
+b88cad57d4d32bb5c53cd8e0ce3a1971062142af tools/power turbostat: Replace HTTP links with HTTPS ones: TURBOSTAT UTILITY
+fecb3bc839df64761cc63c9ee9b45c1cad36aee8 tools/power turbostat: Fix output formatting for ACPI CST enumeration
+e7af1ed3fa4756e8df8270a8635d852a94266061 tools/power turbostat: Support additional CPU model numbers
+c315a09b1b0f491c27d46e9d05f397023a44fb81 tools/power turbostat: Skip pc8, pc9, pc10 columns, if they are disabled
+0936cdfbb527a4fa2559292069ebff2e8cf2c843 tools/power x86_energy_perf_policy: Input/output error in a VM
+b4b9156953fea108a9540c262e48eafeeff99ab0 tools/power turbostat: Add a new GFXAMHz column that exposes gt_act_freq_mhz.
+20de0dab238849414d33c81bc96e2db68cc61467 tools/power turbostat: Remove empty columns for Jacobsville
+33eb82251af9be47a625ca1578f44e596a3a0ca9 tools/power turbostat: Support AMD Family 19h
+4be61e6b769fc3f97b58870aa4258e27968f07e1 tools/power turbostat: Build with _FILE_OFFSET_BITS=64
+6ff7cb371c4bea3dba03a56d774da925e78a5087 tools/power turbostat: adjust for temperature offset
+3d7772ea5602b88c7c7f0a50d512171a2eed6659 tools/power turbostat: harden against cpu hotplug
+77f6ab8b7768cf5e6bdd0e72499270a0671506ee don't dump the threads that had been already exiting when zapped.
+a1fbc6750e212c5675a4e48d7f51d44607eb8756 btrfs: fix potential overflow in cluster_pages_for_defrag on 32bit arch
+e38fdb716702879a942017c85e84c0a3a9e4af96 btrfs: print the block rsv type when we fail our reservation
+fca3a45d08782a2bb85e048fb8e3128b1388d7b7 btrfs: fix min reserved size calculation in merge_reloc_root
+f07728d541ebefcf3d2ec7bc99a3bffd052d9f90 btrfs: clean up NULL checks in qgroup_unreserve_range()
+a4852cf268b5ae487ba18f2b24e44094afce0675 btrfs: scrub: update message regarding read-only status
+cf89af146b7e62af55470cf5f3ec3c56ec144a5e btrfs: dev-replace: fail mount if we don't have replace item with target device
+468600c6ec28613b756193c5f780aac062f1acdf btrfs: ref-verify: fix memory leak in btrfs_ref_tree_mod
+92cfcd030e4b1de11a6b1edb0840e55c26332d31 fscrypt: remove reachable WARN in fscrypt_setup_iv_ino_lblk_32_key()
+949dd0104c496fa7c14991a23c03c62e44637e71 powercap: restrict energy meter to root access
+3e9fa9983b9297407c2448114d6d27782d5e2ef2 tools/power turbostat: update version number
+8bff39bfdc30c9bd6e152eb88a0bd6dd35bdd760 Merge branch 'turbostat' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
+52d1998d09af92d44ffce7454637dd3fd1afdc7d Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt
+e2f0c565ec70eb9e4d3b98deb5892af62de8b98d Merge tag 'for-5.10-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+eccc876724927ff3b9ff91f36f7b6b159e948f0c Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 
---===============5336117003401836274==--
+--===============5490298514127210246==--
