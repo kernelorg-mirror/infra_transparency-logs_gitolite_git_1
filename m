@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3313096260733810759=="
+Content-Type: multipart/mixed; boundary="===============4215227544828596716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 10 Nov 2020 15:10:03 -0000
-Message-Id: <160502100331.20514.10675496336811949283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Tue, 10 Nov 2020 15:12:45 -0000
+Message-Id: <160502116576.21588.17903985024987919569@gitolite.kernel.org>
 
---===============3313096260733810759==
+--===============4215227544828596716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/queue/4.14
-    old: ce9303263e1175dbbf2cbf9e8c99d5ab19dbe5b8
-    new: bada43740f62a7a4f2970b54726836370ad0b961
-    log: revlist-ce9303263e11-bada43740f62.txt
-  - ref: refs/heads/queue/4.19
-    old: f085febade758516e98b6231ac0a63c42c4fe3cb
-    new: ab694acc0287c2cf21c3a4cd77565dff7d747387
-    log: revlist-f085febade75-ab694acc0287.txt
-  - ref: refs/heads/queue/4.4
-    old: deb6172daf90cce44f2f5c8d8940b02e8cd359eb
-    new: 94dc572d0effeaffcf63ba3beea6ff66bc2709bd
-    log: revlist-deb6172daf90-94dc572d0eff.txt
-  - ref: refs/heads/queue/4.9
-    old: 8542c9d7c48244c97eca85f6acc39ef07ad78d9f
-    new: 936228ad67d2d9fced6271ac58ef1542a350356c
-    log: revlist-8542c9d7c482-936228ad67d2.txt
-  - ref: refs/heads/queue/5.4
-    old: a124c798ed9a238e1b363ba704d4ebefb3fe6348
-    new: ff04a0ae6a97ad98e04f80ff9c0594f9dc72406d
-    log: revlist-a124c798ed9a-ff04a0ae6a97.txt
-  - ref: refs/heads/queue/5.9
-    old: 461b89cf49c129c33cbf9371701afd289e05a3b3
-    new: a140457cf8fd32838f63d60e928a0116f2af5c12
-    log: revlist-461b89cf49c1-a140457cf8fd.txt
+  - ref: refs/heads/queue-4.14
+    old: b128533a26053bea05b866a52d2e556eab65f72e
+    new: 0ad1cc4f9f79b26956ea3f675d6a2868403a7b0d
+    log: revlist-b128533a2605-0ad1cc4f9f79.txt
+  - ref: refs/heads/queue-4.19
+    old: 3b6029b9d257c321b41aefbc87c5caa266582509
+    new: 015be5fd62018ad6039078e3349a82df28808a57
+    log: revlist-3b6029b9d257-015be5fd6201.txt
+  - ref: refs/heads/queue-4.4
+    old: bfc58a053beb8324aca400637858f86a267d07cb
+    new: 3bf5b562eeedb67590bebba04c1efc92439f1da4
+    log: revlist-bfc58a053beb-3bf5b562eeed.txt
+  - ref: refs/heads/queue-4.9
+    old: d2733c53aba7a718cff6c563608fd7518c9548b9
+    new: a8a60e1eee8daa4747040e6dd5dd96726d958f6a
+    log: revlist-d2733c53aba7-a8a60e1eee8d.txt
+  - ref: refs/heads/queue-5.4
+    old: 076498592f0be93fb4261122bc59eefe802990f3
+    new: 6bae50f8e1cd2fd5df15329ffe40984eea2153e1
+    log: revlist-076498592f0b-6bae50f8e1cd.txt
+  - ref: refs/heads/queue-5.9
+    old: 5a54b90e1cbfc695a5ce1af9257c2d1662447e7f
+    new: 558310d399b3b86e56aed221dd933dd4c799383f
+    log: revlist-5a54b90e1cbf-558310d399b3.txt
 
---===============3313096260733810759==
+--===============4215227544828596716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce9303263e11-bada43740f62.txt
+Content-Disposition: attachment; filename=revlist-b128533a2605-0ad1cc4f9f79.txt
 
 9be7583938fdc279ed1f826d90857155f2cd45b6 drm/i915: Break up error capture compression loops with cond_resched()
 776bce2df0bdcbe83e1c85398646745a50f1d8f4 xen/events: don't use chip_data for legacy IRQs
@@ -95,32 +95,32 @@ c3479f5c38a52bc880a94ea6a0ec2f537eab5bf5 ARC: stack unwinding: avoid indefinite 
 50e050fb05ceaabb68064a11da44af52b6c423cd PM: runtime: Resume the device earlier in __device_release_driver()
 45a861d60d1edc8011a4a8c2c26149119aeeb3a6 arm64: dts: marvell: espressobin: add ethernet alias
 e98f3c4269fda898b913259a7d9b60fb38269869 Linux 4.14.205
-cac8238e959a6cb524c6cba4b450a5be8efe2fef regulator: defer probe when trying to get voltage from unresolved supply
-a98b29ce156080861a686a02f50819899d16c98a ring-buffer: Fix recursion protection transitions between interrupt context
-0749b5e4b57fb4c5cfb6e6d31edc7208874bc269 mm: mempolicy: fix potential pte_unmap_unlock pte error
-628152b543ddcc8ab44ff435e7baa8987e446c71 time: Prevent undefined behaviour in timespec64_to_ns()
-dbfc79d67e267eb2d61cacfaa2458bd6c2bada76 nbd: don't update block size after device is started
-4a9d3bbb53b1686067b0a28fb1674cc624506ff7 btrfs: sysfs: init devices outside of the chunk_mutex
-cb6e51dd1818b4838436d05681d7525706733ea9 btrfs: reschedule when cloning lots of extents
-7817eac2c3710231e6546367bc67e333e727ac8e genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
-ea1c3330de9ab6cc2931fa9ba496080bdb02185b hv_balloon: disable warning when floor reached
-e4075f9836cb615c6ad859063a771faa1296cb2d net: xfrm: fix a race condition during allocing spi
-53003ce1a9ded35cf94dd5bf14f6ee6a2046bebf perf tools: Add missing swap for ino_generation
-dca8101d37d98b0614ce7e360aaab154d86f7d65 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
-500f0f2ad3a5b813bd554f61e52746dbf59bea00 can: rx-offload: don't call kfree_skb() from IRQ context
-0b64450ea056bf47fcbcfdbe156e0f4b398e73d8 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
-39b458060d85c119ca86f324580cdb48220822dd can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
-b0535901e82c9af99aa3e36dfb9d692884144a15 can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
-07d70bd1fad67bf4075031ec487187ba89c96a9d can: peak_usb: add range checking in decode operations
-545b452950a565f5c61756a65b81230c272b992c can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
-cebfef88dfbaf411b60fed7ea09a5b44c7dc5c6e can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
-bada43740f62a7a4f2970b54726836370ad0b961 xfs: flush new eof page on truncate to avoid post-eof corruption
+4a381083b963952379a8a3ccb24a86e9ded78c3a regulator: defer probe when trying to get voltage from unresolved supply
+96b6e3e31b8600d1c9544f8e0cfdfe205c2db54f ring-buffer: Fix recursion protection transitions between interrupt context
+b32a0c718ee130eca136e8de8a4fe13cdfd11620 mm: mempolicy: fix potential pte_unmap_unlock pte error
+ae09d834e1a1f6bcf81d2507d522c0fea38e718b time: Prevent undefined behaviour in timespec64_to_ns()
+d514650b78a6196ce3e6f622f049b7955b8b751c nbd: don't update block size after device is started
+dfd65c34f343bfc44a0a219b9160c66d7d5046b8 btrfs: sysfs: init devices outside of the chunk_mutex
+c8eb89fa79dfef433d17f786c1c6463be6285b39 btrfs: reschedule when cloning lots of extents
+93f51412dab2d4651855012f08834146bdf2f8c3 genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
+296c2c6af7ef006b13317f9675b5896d6ceac586 hv_balloon: disable warning when floor reached
+907c74a122be5847dfdcbbba005a2998269ca537 net: xfrm: fix a race condition during allocing spi
+ceec8ed4337a33348f5c75ea7414f3900e0b86e0 perf tools: Add missing swap for ino_generation
+f9c9bf9b5afc1b4f2549936c06417538f655cbed ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
+cea67590119c77b580b6597153585b11decb73aa can: rx-offload: don't call kfree_skb() from IRQ context
+5bbfe4816dc34b52dd43d65d5db7f352ff68f2d6 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
+156b509661f8d531c8597ef3126bca02d3bb5382 can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
+f3510eec712bf6c9cb2d1ddeeb9886fc7b4584d0 can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
+c3d07fa8907de861ab7d0b427c5395f1a88f22da can: peak_usb: add range checking in decode operations
+93cea2e49a3bd7f8e3fdf36915688b64c7f2d88f can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
+561a34c8c66e3e89083118868cc987e565efce7a can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
+0ad1cc4f9f79b26956ea3f675d6a2868403a7b0d xfs: flush new eof page on truncate to avoid post-eof corruption
 
---===============3313096260733810759==
+--===============4215227544828596716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f085febade75-ab694acc0287.txt
+Content-Disposition: attachment; filename=revlist-3b6029b9d257-015be5fd6201.txt
 
 4141168704e40509b376d0c32822eccc29e00627 drm/i915: Break up error capture compression loops with cond_resched()
 604ac10d9d1e9a85787d53acbba541f420b9cc9e tipc: fix use-after-free in tipc_bcast_get_mode
@@ -194,37 +194,37 @@ a7443bebdecaa474900ee5eec5da69de63686c24 ARC: stack unwinding: avoid indefinite 
 8069a08d35b72e16486a6a81eb06f964b2e1432b net: dsa: read mac address from DT for slave device
 779d3e303977edbe43c4f0017d1553b4306d8d9e arm64: dts: marvell: espressobin: Add ethernet switch aliases
 53fff24aaf01dcb09cbfabbe060f42db8e61ab01 Linux 4.19.156
-255beb52ace780af36baad9afdd3f31d307f5865 regulator: defer probe when trying to get voltage from unresolved supply
-3c7ffbaa11f6e21cc82fec499a2fbc3a82a86d8a time: Prevent undefined behaviour in timespec64_to_ns()
-0558f2ece72008e162cdc2c2d2323f904f9ff690 nbd: don't update block size after device is started
-b3d9739fca8580eca6a7d00b0a87616788215bb1 usb: dwc3: gadget: Continue to process pending requests
-91d1b5370f5263d0196070e9b15199b06d4834f0 usb: dwc3: gadget: Reclaim extra TRBs after request completion
-c62bae2d18bce8d158d27575b1b62a72f129e02b btrfs: sysfs: init devices outside of the chunk_mutex
-63d4a773c5801cbf66258ced9b21498a90cb9a05 btrfs: reschedule when cloning lots of extents
-c75799b5e7150ab73424fff664d5b3234efcd90a genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
-edef5a34fc5cf231b44d94a9fa553f941b374248 hv_balloon: disable warning when floor reached
-2bd65dfcf4ee28988e01b160fc45bfadad0de7d4 net: xfrm: fix a race condition during allocing spi
-d3e73ab4331106951c016e3a2c224e2180c126ae xfs: set xefi_discard when creating a deferred agfl free log intent item
-4bec4b683c3951ac59d9f90a11676f482d9151ad netfilter: ipset: Update byte and packet counters regardless of whether they match
-cf6430eaa49b2564583ee3313eade95ccb127124 perf tools: Add missing swap for ino_generation
-abaaecff6d838cfc2ca382e5b89809f6d07ce8bb ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
-a068f5ff58a70dd70d7dc74d3e2760453c4c5540 can: rx-offload: don't call kfree_skb() from IRQ context
-59c95e807d973cb8ab948a3f9ff2f6aa21b2da98 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
-d9d5a6462a7c6bc0f0df5d2457af04e52b3325ee can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
-4bfa6928ace8d975df61cbd810db87acbedae828 can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
-74536096a8ddf7e3aa4d43ad86b1af84261302c9 can: peak_usb: add range checking in decode operations
-835467978d54c03dff100db53ee4c1d52f72a715 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
-3d4e96d4c729dbf6d5d3aff07beb6c8b22f4aba9 can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
-f6c0b2e4dfae988556a8069ae03e92ca8659e730 can: flexcan: remove FLEXCAN_QUIRK_DISABLE_MECR quirk for LS1021A
-bee9ce8565e7eb7d5976cdd511a4b8696634ac5c xfs: flush new eof page on truncate to avoid post-eof corruption
-84a40467d6d244f1bc6eb49e77fd7c0fdc68f48d xfs: fix scrub flagging rtinherit even if there is no rt device
-ab694acc0287c2cf21c3a4cd77565dff7d747387 tpm: efi: Don't create binary_bios_measurements file for an empty log
+fdd0594c99c2cff43762d3ade9f31c6bb18297e6 regulator: defer probe when trying to get voltage from unresolved supply
+c5021b2547ad5b6ca573c6675d78c0930f32eb9e time: Prevent undefined behaviour in timespec64_to_ns()
+337382e09a38ac79003ca41d5d7c36aaf252ad7b nbd: don't update block size after device is started
+7c6204f43e20e0018b8186fbff1a1350ed5bde4a usb: dwc3: gadget: Continue to process pending requests
+12c4654fc2a90b57274113dfa075ad2f7326428b usb: dwc3: gadget: Reclaim extra TRBs after request completion
+dc15963d8d2d6d878e6785834a1c1312af55b520 btrfs: sysfs: init devices outside of the chunk_mutex
+761614cd2b2dc39adfc813f7090ee2fdcec17c9b btrfs: reschedule when cloning lots of extents
+068f48c709ffb8927085f97929ca6b82cdb9f898 genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
+6546a5b96b1f9bce697645481cee93bfb754ef71 hv_balloon: disable warning when floor reached
+7a90690515a123c280238b3e8558c43d14270e38 net: xfrm: fix a race condition during allocing spi
+83f6f6142407850fcb48ad9b05260cb6196fd288 xfs: set xefi_discard when creating a deferred agfl free log intent item
+dd6671647c6016df7ac1f6174e53500cd45180d3 netfilter: ipset: Update byte and packet counters regardless of whether they match
+01ed5fd2b5731853f038dadf67d349475c452eed perf tools: Add missing swap for ino_generation
+1ad80c1dd2467d38b63740dbfcd6f1b7c4f6575f ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
+ed791d697e66a7fc4fa8a754d2d762c3be0faf23 can: rx-offload: don't call kfree_skb() from IRQ context
+644047adc0e717115dae8e2fa527e1c3bb4dffb7 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
+4c924ae8369d487b38eb391be944312c993c31c5 can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
+37acaa3cc6be3ff4d1b93b5913d48b48897d4bbd can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
+f5008e5d4b0c40f205f6ebb5877efccac3a4913b can: peak_usb: add range checking in decode operations
+11d60aba857b1e8092cee383736b3827b6f8459b can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
+28054bf7735d1d7e8832e7722d6649a97d9437a5 can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
+935b3dc53446713bae9b03c7ee5b59a909619263 can: flexcan: remove FLEXCAN_QUIRK_DISABLE_MECR quirk for LS1021A
+a19a70a73c7a94e78709d3e5b0d1e075528f1955 xfs: flush new eof page on truncate to avoid post-eof corruption
+f14146345d00e69e3be2060e4c6bce836ea15875 xfs: fix scrub flagging rtinherit even if there is no rt device
+015be5fd62018ad6039078e3349a82df28808a57 tpm: efi: Don't create binary_bios_measurements file for an empty log
 
---===============3313096260733810759==
+--===============4215227544828596716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-deb6172daf90-94dc572d0eff.txt
+Content-Disposition: attachment; filename=revlist-bfc58a053beb-3bf5b562eeed.txt
 
 1bda44d10745ebce82172468ad2d8cd9c1cf48d5 SUNRPC: ECONNREFUSED should cause a rebind.
 0ca3565a06136cb2979376e6bb6ef54f66253992 scripts/setlocalversion: make git describe output more reliable
@@ -313,26 +313,26 @@ fc3fcc09ee09fce82c9893d7d96cd5243b54740e USB: Add NO_LPM quirk for Kingston flas
 949dcf04df95e5c4bddea51733b53a8a4ab2114a ARC: stack unwinding: avoid indefinite looping
 f529a9a58f7edc578210e92cb32c602493d0ad84 Revert "ARC: entry: fix potential EFA clobber when TIF_SYSCALL_TRACE"
 ad5e80d0d772cea9c08eceaceda3b30131cdaaac Linux 4.4.242
-69b945ac08d473be4fe9d31af546140de982fbb5 ring-buffer: Fix recursion protection transitions between interrupt context
-fce8da41110794132558cac8c19b389d0f9e0ce8 gfs2: Wake up when sd_glock_disposal becomes zero
-484cb4758467dc5d5599330584d6f83412f571c7 mm: mempolicy: fix potential pte_unmap_unlock pte error
-4c90d73f1f81d239163acb562fa10312813cb417 time: Prevent undefined behaviour in timespec64_to_ns()
-a9906bbda0431b2a9ac423951ad642c93e4b92db btrfs: sysfs: init devices outside of the chunk_mutex
-7cfad80816fa8b0be2b72b24c925d08e9fd14a9d btrfs: reschedule when cloning lots of extents
-fa62e7afc05f8bde819d92ace759c1b3fd27bfb9 net: xfrm: fix a race condition during allocing spi
-23d127f600d14434b3fb445cef5ebae8a7ca6869 perf tools: Add missing swap for ino_generation
-2446376f39199522209f3c4436790af137ec6e86 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
-917398276d304fa98d0f11b8a30d23df6b3a44d9 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
-b1d1a44a66105c4df391c7c78ab3e570642be46f can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
-19ae3afc38c7ad0e33dbb0393a8c807643e3b6f1 can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
-33c0a4cafd9b4fb6cba676b2a1fafa00fb223f20 can: peak_usb: add range checking in decode operations
-94dc572d0effeaffcf63ba3beea6ff66bc2709bd can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
+4880cafaee93d3806cb9da94ccf82068dea5a1aa ring-buffer: Fix recursion protection transitions between interrupt context
+8285c075f894d7e5d4d7060fd0d33a66f3505ee4 gfs2: Wake up when sd_glock_disposal becomes zero
+2c73fb0ec342fdc80ca8a08b61939368236d4059 mm: mempolicy: fix potential pte_unmap_unlock pte error
+a18e30d645cb402cae10eaf2fc083b1c128ebf80 time: Prevent undefined behaviour in timespec64_to_ns()
+e2d53eb591babe0b3896752488497407c943ddcb btrfs: sysfs: init devices outside of the chunk_mutex
+61c5c0f504182051687e6546aa4f3b945821d8b1 btrfs: reschedule when cloning lots of extents
+7a847b2bd52ca354a40e6748089d8ce75c3551c6 net: xfrm: fix a race condition during allocing spi
+0bcef6793c5fbc5c02e662ba3e1413aa9c60d99a perf tools: Add missing swap for ino_generation
+306f873c5b9bac002683ad719062eb6dd848596b ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
+9aece6f67af9059b4101bb91cfd20c65ba08d202 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
+b3bfe27fb90d545d3b0d20e1c01ed583d4e3589d can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
+42874a32208f832caa6a362b672de9839b46451a can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
+e7df99092b2d84d878c6db72561cb4be39d3904c can: peak_usb: add range checking in decode operations
+3bf5b562eeedb67590bebba04c1efc92439f1da4 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
 
---===============3313096260733810759==
+--===============4215227544828596716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8542c9d7c482-936228ad67d2.txt
+Content-Disposition: attachment; filename=revlist-d2733c53aba7-a8a60e1eee8d.txt
 
 433cf1eda478e103543352e1b651379221948b65 SUNRPC: ECONNREFUSED should cause a rebind.
 861c5ce033f3baea5512fa2aa0b787a30ffbbace scripts/setlocalversion: make git describe output more reliable
@@ -452,29 +452,29 @@ c382e1a5d346190a224139ce90ecedcfb7497111 USB: Add NO_LPM quirk for Kingston flas
 6ffed409b0a0629012e34280cae319400bf8ab16 ARC: stack unwinding: avoid indefinite looping
 fc6220f23dc22b5f0d94f394ec8052f07cc77b74 Revert "ARC: entry: fix potential EFA clobber when TIF_SYSCALL_TRACE"
 206734eadd3c89d2ed4a03bc570cf35584657410 Linux 4.9.242
-783e68abdacac6c293b7ac03eeee38010a2a8463 regulator: defer probe when trying to get voltage from unresolved supply
-e01ee0b51fae9e77d9936faafc102737ec78b8c8 ring-buffer: Fix recursion protection transitions between interrupt context
-a4d061f923fa60b38f4abba224632b5d3999b069 gfs2: Wake up when sd_glock_disposal becomes zero
-b6578b456261c7c8582f8c7c3d3ed347c431dff7 mm: mempolicy: fix potential pte_unmap_unlock pte error
-1597904272da2b7306b7f4b91867a541411fd5a6 time: Prevent undefined behaviour in timespec64_to_ns()
-95fa71ae037cc2d459e242c8e25413463118c4b0 btrfs: sysfs: init devices outside of the chunk_mutex
-a575558abe2fe6cd2046440cc665a7f6ef2f7563 btrfs: reschedule when cloning lots of extents
-26c9e805635b22ef0c0f04bd9595593219d89dca genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
-2cebe011a394efb69ea02ffe30b014625a73c7b2 net: xfrm: fix a race condition during allocing spi
-91822a8703c7629fddced667e56cf6986e2c7f04 perf tools: Add missing swap for ino_generation
-34b301a0310fa05481a5720afb78211a6087c9a8 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
-f79739156092120920cc3d6b8ba450a43f2a4518 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
-df3bf385ccf3a3ebe609a672ccd35ca2ef039ffd can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
-57248c1f3aa37731f002b2eec7380992514fd82f can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
-f14c3a658435ef62f394ef96944a07a2c80184b3 can: peak_usb: add range checking in decode operations
-f2db6ebcb84c801fa2f43b46c8d39ad5a2896706 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
-936228ad67d2d9fced6271ac58ef1542a350356c xfs: flush new eof page on truncate to avoid post-eof corruption
+dc3de59a16a47f376ed42255deb9b06c4ef32417 regulator: defer probe when trying to get voltage from unresolved supply
+485529432128dddadf79e4ceb17d2c9b11a94c27 ring-buffer: Fix recursion protection transitions between interrupt context
+bcf2329e3d2cb07ec6ef7355dd07b32fa00178c1 gfs2: Wake up when sd_glock_disposal becomes zero
+96e7deb0a438672dc1ad9ef1d86e43d3ebd30126 mm: mempolicy: fix potential pte_unmap_unlock pte error
+1352df9b2a0d6898ff7777618c1fc1b7284958bf time: Prevent undefined behaviour in timespec64_to_ns()
+af859eca833c6eb04908ddd3bb232731f8c6cb3a btrfs: sysfs: init devices outside of the chunk_mutex
+d021b0ca798d44f45f4377a1120ea6a3a9ee2ebf btrfs: reschedule when cloning lots of extents
+a934424c7b0a0ff8782e435f26c944a53a2b97ef genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
+cb457f51b18f48e226ab3701d5d507383ab2e2c9 net: xfrm: fix a race condition during allocing spi
+a7e6a07cd2426880a60fe78f90059292dd54273d perf tools: Add missing swap for ino_generation
+45b673adb012c0e7669c555540e1d9bd40805a71 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
+1c1f66058cf76240b374c6d0d6c77bec7e0a38ae can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
+e0be8a352fdb30df35547909136e2ce7ec21caa5 can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
+a613b860c1bb953b039ddfe313f03fffc64aedb1 can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
+a2e39bc3dd0ccdc1358d1b941e93b090c316dab7 can: peak_usb: add range checking in decode operations
+ab3b057ca307fc3bfae115aac0e84b38420500a0 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
+a8a60e1eee8daa4747040e6dd5dd96726d958f6a xfs: flush new eof page on truncate to avoid post-eof corruption
 
---===============3313096260733810759==
+--===============4215227544828596716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a124c798ed9a-ff04a0ae6a97.txt
+Content-Disposition: attachment; filename=revlist-076498592f0b-6bae50f8e1cd.txt
 
 5bcd18bf80827702243d868314068be7a50128ea drm/i915: Break up error capture compression loops with cond_resched()
 d321f127eb51ac533b473e56a21b6c65fc9a974a drm/i915/gt: Delay execlist processing for tgl
@@ -562,54 +562,54 @@ fbfca92c7840db5f4a980b111789ab0a7af745ef ARC: stack unwinding: avoid indefinite 
 b7f7474b392194530d1ec07203c8668e81b7fdb9 perf/core: Fix a memory leak in perf_event_parse_addr_filter()
 c3d60c695712781268addd7c6bbdb953744c98a9 arm64: dts: marvell: espressobin: Add ethernet switch aliases
 ec9c6b417e271ee76d1430d2b197794858238d3b Linux 5.4.76
-fbe602bb3a5ac49913b6956ba7f514e805b6b47e drm/i915/gem: Flush coherency domains on first set-domain-ioctl
-633e4fc1ae01552f7e1752d45133ffc15fa0ebc6 time: Prevent undefined behaviour in timespec64_to_ns()
-301973c1d997a86a914be97e5071fdd7886a1e2b nbd: don't update block size after device is started
-0e36b771e19cc673fac177529d5c8dcce7a467fd KVM: arm64: Force PTE mapping on fault resulting in a device mapping
-c49802b2898f8a2fe9f46c34859742939ff8d7b3 PCI: qcom: Make sure PCIe is reset before init for rev 2.1.0
-f1f80390fb191f0e562fdf4c88397f2debc1a632 usb: dwc3: gadget: Continue to process pending requests
-323c3389ea7cda975bab8bb4ad4cc33fef0aa940 usb: dwc3: gadget: Reclaim extra TRBs after request completion
-33118d8a17bf0a41fbe7c67bc1d79e0cb1f71444 dm raid: fix discard limits for raid1 and raid10
-307f18bea68cade6148318a08cc330d5737dfd0e btrfs: tracepoints: output proper root owner for trace_find_free_extent()
-11aac36dd3e3ca9c0d06bfbfecc22c1ef08d607c btrfs: sysfs: init devices outside of the chunk_mutex
-516086416e3fe4f015441e173c5a649b56daab29 btrfs: reschedule when cloning lots of extents
-af649549c4b586b470453b6b5ff1b2761990b8c9 ASoC: Intel: kbl_rt5663_max98927: Fix kabylake_ssp_fixup function
-dd3036f942b788f9f50305fb969fe321710b0dde genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
-8a74f0bbcc032de094577a77bf0f3f289b78204e hv_balloon: disable warning when floor reached
-58aeaf046b3fdd86674090972b5ed45ccf438706 net: xfrm: fix a race condition during allocing spi
-bf15f89e5092cc34a8020c0a2b91e80d51a6ecac ASoC: codecs: wcd9335: Set digital gain range correctly
-ba4c587d2668cbb8b8abff3bbf7a3a10b1f02fff xfs: set xefi_discard when creating a deferred agfl free log intent item
-0e47dd0c24c12f14bdaef5caf4c75bed899636b2 netfilter: use actual socket sk rather than skb sk when routing harder
-c217a2d5436315c4ad3e6e195b91aba1d220060e netfilter: nf_tables: missing validation from the abort path
-74bbab091e19040b45524af409a9ebdffe0f88b5 netfilter: ipset: Update byte and packet counters regardless of whether they match
-eba7bf004deb166fff70847b9f04c858269d2a23 powerpc/eeh_cache: Fix a possible debugfs deadlock
-ed9eeb5928f5e92174b604fc67c755f1eccf2d15 perf trace: Fix segfault when trying to trace events by cgroup
-8cae2b6371b8e77ab2287a263ce68bd03b554f0d perf tools: Add missing swap for ino_generation
-937770a9bbd6b527cb5688cfaf953413ba6df626 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
-14eb56a4925c1427db36d226dd9a299d99bec085 iommu/vt-d: Fix a bug for PDP check in prq_event_thread
-9c2fe11ce8fe2a6b697097360f3fa89cde9f7cd5 afs: Fix warning due to unadvanced marshalling pointer
-41e785c0602d5d887332f1feb7dfc42aae4e563c can: rx-offload: don't call kfree_skb() from IRQ context
-ca56647e1ad0946aef7fce0c6cc8ee8d5ee3c89a can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
-ca23c36d243f321265e9f2cd8eae5c9da80ff23a can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
-14b4e66f4d83d833c3a3679c32577460bc1556fb can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
-6b7c230d0431e9ca1405867a02594be632be6541 can: j1939: swap addr and pgn in the send example
-a5deb81bc1116f2fcbe5ce042ae4ea9d0773db1f can: j1939: j1939_sk_bind(): return failure if netdev is down
-b383e02049e1288c9525807262e5ca6c62d8d5e0 can: ti_hecc: ti_hecc_probe(): add missed clk_disable_unprepare() in error path
-f6b24fefcba92178505c7c85ab14a3c341ddaa96 can: xilinx_can: handle failure cases of pm_runtime_get_sync
-b9ae161b1428039e8322165bd3426d4c59cdeca0 can: peak_usb: add range checking in decode operations
-6da6e8412703a25c3b4fb5720a93a460fdabf398 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
-ba80e18eb4efb3f15009df180a6a4f1f91d6a1e2 can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
-dc5af8cfab4dc68b7072116e6971ba5e3b60e373 can: flexcan: remove FLEXCAN_QUIRK_DISABLE_MECR quirk for LS1021A
-7e8ab173f4bf7abb4b15e911e91b8fe1a99655de can: flexcan: flexcan_remove(): disable wakeup completely
-3cef91c461566857154f333268e869fb61bcfb70 xfs: flush new eof page on truncate to avoid post-eof corruption
-8685171c0ac2e6e034f877c2d662932314e2ddbb xfs: fix scrub flagging rtinherit even if there is no rt device
-ff04a0ae6a97ad98e04f80ff9c0594f9dc72406d tpm: efi: Don't create binary_bios_measurements file for an empty log
+842a88888277085ed518b314ab018fea6fc9213d drm/i915/gem: Flush coherency domains on first set-domain-ioctl
+1576034634512ab27c2c2fefccd454a66ef4b9c1 time: Prevent undefined behaviour in timespec64_to_ns()
+ce99de2d056efce2b5937e16173f5f10067a7980 nbd: don't update block size after device is started
+0a9202aa2e43c69b0f2e02a3363f64010361932b KVM: arm64: Force PTE mapping on fault resulting in a device mapping
+3dab0318bccd31f394f4a3a8561d3f062e7f6dd7 PCI: qcom: Make sure PCIe is reset before init for rev 2.1.0
+de92803f50c2a5a42003f6314bad570e6961b678 usb: dwc3: gadget: Continue to process pending requests
+875874ddf331f4a609adacc8da0b5f028e638e2c usb: dwc3: gadget: Reclaim extra TRBs after request completion
+3ab5d0d953229c59c52f8ed94bc9b1a85c5bcf6b dm raid: fix discard limits for raid1 and raid10
+8774930cf30f217de1e57c6f2aff373ef5af9f55 btrfs: tracepoints: output proper root owner for trace_find_free_extent()
+cf7e4ad88d8cb110a445e430d5f97eff65a368fe btrfs: sysfs: init devices outside of the chunk_mutex
+a534dd68c9f8de231e6a25033d47c91ca524038a btrfs: reschedule when cloning lots of extents
+60de5283b79e12af7c8f072af34f14ee2aa08ec1 ASoC: Intel: kbl_rt5663_max98927: Fix kabylake_ssp_fixup function
+0032092e457da4d7161feeb9b84309b7c1829386 genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
+bcb84dfd166196016ec4fb751d7ce9e535296803 hv_balloon: disable warning when floor reached
+ffac45d361075df325a71fde4c1d8052f4267c7c net: xfrm: fix a race condition during allocing spi
+9d17cc8dd6ef8128d7bbe2986a11d4bfd00eba10 ASoC: codecs: wcd9335: Set digital gain range correctly
+123ac6b6a79bf52de8e118b0dfc15bde12f97368 xfs: set xefi_discard when creating a deferred agfl free log intent item
+31116e2cc4380003461e8e9f6703e157b7bc79d4 netfilter: use actual socket sk rather than skb sk when routing harder
+7930377d1b249b4365c04a410c4ec520375ea7a2 netfilter: nf_tables: missing validation from the abort path
+57a78d3d928c7e5fc23bf388dff3e33386359d5c netfilter: ipset: Update byte and packet counters regardless of whether they match
+cea09430544155f302f5044971eceac4f2a629a1 powerpc/eeh_cache: Fix a possible debugfs deadlock
+1eac0dd9995ad2cca4634e2e0de15821622baf5b perf trace: Fix segfault when trying to trace events by cgroup
+8a5714cddb7cd14a2e44616afe62f2948e68771e perf tools: Add missing swap for ino_generation
+8d908395c4e841f09230599e2946d9e5ab668c19 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
+60c4f423ad0cbe03a285a5c0b6be04ce26e87a26 iommu/vt-d: Fix a bug for PDP check in prq_event_thread
+6a1cdf298ca7e03f036321ffc8debb13eacdc317 afs: Fix warning due to unadvanced marshalling pointer
+5acd31695b9af7125529ba547a63b187295db049 can: rx-offload: don't call kfree_skb() from IRQ context
+075eb6332098d6a8b0d01af1ae5a99487b8b71ae can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
+8c26159ce080a722710d017eb64ca79484173be4 can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
+83e11e8e47d80c66831394f786167de7a55a54f7 can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
+b2dd0f142b6623109f07a346632f1de8470ce607 can: j1939: swap addr and pgn in the send example
+c0f3f01e29cf2a07bf7fd78c441100782c31a8be can: j1939: j1939_sk_bind(): return failure if netdev is down
+0ccab5e0d9b824e2df387c27a3be9178d23a19d0 can: ti_hecc: ti_hecc_probe(): add missed clk_disable_unprepare() in error path
+b5e82439a905b750ab50899c8635836f6d42facc can: xilinx_can: handle failure cases of pm_runtime_get_sync
+8302d2990a1172bb218bd6a598050d831c161225 can: peak_usb: add range checking in decode operations
+0da98b96d8b2cf72fe72e7602749b85ff4e8d817 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
+42385733e016a884c740e7822becee60a070ed87 can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
+b9ce406423461f726c3c05f2e09faf987a4bdb77 can: flexcan: remove FLEXCAN_QUIRK_DISABLE_MECR quirk for LS1021A
+eba5c632e77d47a792a00a8fc29b2525d909148c can: flexcan: flexcan_remove(): disable wakeup completely
+bca5edaa0b8e8e351369f6d093fd02b23dfae0d8 xfs: flush new eof page on truncate to avoid post-eof corruption
+5d94d239674b9dc20dfb18e358abb101b64bc8db xfs: fix scrub flagging rtinherit even if there is no rt device
+6bae50f8e1cd2fd5df15329ffe40984eea2153e1 tpm: efi: Don't create binary_bios_measurements file for an empty log
 
---===============3313096260733810759==
+--===============4215227544828596716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-461b89cf49c1-a140457cf8fd.txt
+Content-Disposition: attachment; filename=revlist-5a54b90e1cbf-558310d399b3.txt
 
 73a97c51a0dcaff972cd5057b4fcf4e7df0bc189 net: core: use list_del_init() instead of list_del() in netdev_run_todo()
 e240d9ca8801050d7bf74d1ddb190f55906b54f8 tipc: fix use-after-free in tipc_bcast_get_mode
@@ -745,79 +745,79 @@ d44362506d6d5f157d6233bb8d1e89684fcda198 mac80211: fix regression where EAPOL fr
 7ce3877c1e933456fcd7439e3780fd136334cba6 drm/i915/gt: Use the local HWSP offset during submission
 85669bd0f0641edf3e8afd90256a3f34bde7bb70 perf/core: Fix a memory leak in perf_event_parse_addr_filter()
 839e9e06c834ab488744eaa91f092c8b1ea0a139 Linux 5.9.7
-40395b0b7fafaa6cfbfd5010292c3aef3fb7a869 drm/i915: Hold onto an explicit ref to i915_vma_work.pinned
-7b54a9e5544b03490562e9494217d016b8eb4ee5 drm/i915/gem: Flush coherency domains on first set-domain-ioctl
-5fea8243da8fdbdcace7b2f638645f341de0210f mm: memcg: link page counters to root if use_hierarchy is false
-6a2ec3c882add1fb36232ce2d7073f384993cb08 RDMA/ucma: Fix error cases around ucma_alloc_ctx()
-c6361dae307e12544ae2805212aa3bc09048ba5b nbd: don't update block size after device is started
-9d2b35b80622609e00dca795ec57b1a22c0e3289 KVM: arm64: Force PTE mapping on fault resulting in a device mapping
-68a3396caba8f9747ce0ebdcd1ad215abb289ca7 dm raid: fix discard limits for raid1 and raid10
-e06d47aef1b742d05d38d19cb897b77084384342 xfrm: interface: fix the priorities for ipip and ipv6 tunnels
-6c6307a0ead46b1321ba97378841bf28da1f911a ASoC: Intel: kbl_rt5663_max98927: Fix kabylake_ssp_fixup function
-13e5ff9f5cce888a1c8297b78d34072aa3f02cd7 genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
-8582a5091f6ddf5d1d30e937126799baa732005f hv_balloon: disable warning when floor reached
-08a9507a65e9daa2cf0b4b0acbf1e60ecfa4f7c5 net: xfrm: fix a race condition during allocing spi
-7f3b9fafcf316b026be4e20475deb500852d6f89 ASoC: codecs: wsa881x: add missing stream rates and format
-4c826e8428909536392a1fe38d9c00db2021d9f9 spi: imx: fix runtime pm support for !CONFIG_PM
-fc50677230459a862eb847454a6bc8148e1a79b2 irqchip/sifive-plic: Fix broken irq_set_affinity() callback
-4d69a5cc1724de3d27559f83f9e3c98611b48c8c kunit: Fix kunit.py --raw_output option
-bb4cf081dd59ce40dd6da9689ae0c958a8f8a45b kunit: Don't fail test suites if one of them is empty
-97ff0445d2850c02f2b27aa3f16e15e79f8d3172 usb: gadget: fsl: fix null pointer checking
-25a4671cb2f2f5402d0b7d166bec49074f6cfb3f selftests: filter kselftest headers from command in lib.mk
-5ee09db5df3fad828a5023657729f545d734e823 ASoC: codecs: wcd934x: Set digital gain range correctly
-658703a487d08124d23adb65cca410b0fc1004a1 ASoC: codecs: wcd9335: Set digital gain range correctly
-354ab9ddb2743676848454582c85ebf2b57bafa1 mtd: spi-nor: Fix address width on flash chips > 16MB
-11828ead9e339e395bfcbb31ef4cd71f79774474 xfs: set xefi_discard when creating a deferred agfl free log intent item
-1976b6037acef63adb91a6497ec24b155b91d700 mac80211: don't require VHT elements for HE on 2.4 GHz
-b55be922e506b2444b80f7927196877b78643812 netfilter: nftables: fix netlink report logic in flowtable and genid
-ff74f90e653ba25745b2a5ddea2f3dc0edd70b36 netfilter: use actual socket sk rather than skb sk when routing harder
-c44c3be942f9d6c4d02a5a1cd1c7a92a9a5eed13 netfilter: nf_tables: missing validation from the abort path
-b1300e7c3447c2c99dc0f50ee3587f6ef395526a PCI: Always enable ACS even if no ACS Capability
-9d4d089441430ffcd515a758bc80c6d09b8ebcac netfilter: ipset: Update byte and packet counters regardless of whether they match
-d9b10d2dbf4df745213b2e3676a247a5d2737002 irqchip/sifive-plic: Fix chip_data access within a hierarchy
-e3af58f5d751b07199c6d8a5c78b93c0e4da53ac powerpc/eeh_cache: Fix a possible debugfs deadlock
-c81f5f2625b9f42a9acdfcb13354b6a602b73199 drm/vc4: bo: Add a managed action to cleanup the cache
-941945835012db7c01eb17dc43835904bdbbaef2 IB/srpt: Fix memory leak in srpt_add_one
-a452e156b4c24cdb185cc3d15bc8b55bcb57ea5d mm: memcontrol: correct the NR_ANON_THPS counter of hierarchical memcg
-a0f966e4f2839b768a924b1544f1224645155adc drm/panfrost: rename error labels in device_init
-808da80fd0752c02084700888c350caa1f070da9 drm/panfrost: move devfreq_init()/fini() in device
-e7ecfe92530886c6fbd7281518baf7f918b165fb drm/panfrost: Fix module unload
-31806388078bff85f155ce6f9cf0c022ad2ce6bd perf trace: Fix segfault when trying to trace events by cgroup
-f3ac9cfa03f03c5fa2f3ef09cfcd15c193f7f324 perf tools: Add missing swap for ino_generation
-3f019841bc7182ae66f0f268cdbade0fd7a9f44f perf tools: Add missing swap for cgroup events
-be4a2766cd005cec34b031803cae0d3a119332c0 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
-7484dc1e9da419fc23580636d0563101c0db6ccb iommu/vt-d: Fix sid not set issue in intel_svm_bind_gpasid()
-b1a69caa045980bc1c8339542b8ebe54ef21598c iommu/vt-d: Fix a bug for PDP check in prq_event_thread
-af34a650d1af8d692eaa18568bbed44fbf4367ac afs: Fix warning due to unadvanced marshalling pointer
-d1359e553e82182f085972b211fbecab19d2e1f1 afs: Fix incorrect freeing of the ACL passed to the YFS ACL store op
-86802d6c0b726f258c52e8fa1db079aa3fc1ba6a vfio/pci: Implement ioeventfd thread handler for contended memory lock
-23bbe86b9189a1be7020d414fc85ec6f304ba4e3 can: rx-offload: don't call kfree_skb() from IRQ context
-ca33c6711f221a5e21b6619daa0a57204baf39fa can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
-71cba5d5ac2d887a44e54502bc8d1ae00f521a2b can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
-a5c77cb589ed6ccef5a4df07b5d984bcea728af8 can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
-1d92d39650a54a3cd4331d552b1d5e346cc894de can: j1939: swap addr and pgn in the send example
-7ba5b6e266aa079b6efaee5a4b0fd9475a91da14 can: j1939: j1939_sk_bind(): return failure if netdev is down
-9e881f56da4c6fc8e6ff4d697849a8cc32a5dea8 can: ti_hecc: ti_hecc_probe(): add missed clk_disable_unprepare() in error path
-e41503aecbd4ef5be323319b9c517490e5ca62b5 can: xilinx_can: handle failure cases of pm_runtime_get_sync
-047d968ace52d044ed5e61bf0d66b28b26015d93 can: peak_usb: add range checking in decode operations
-ade23e64cbccbe1cb3ff3c1d408e9e33649aa60c can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
-33ea67d757ec517187b51baa6e2857ba8dd65c89 can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
-73cb7b108c34ede17689851e24a1509f4154ecf0 can: flexcan: remove FLEXCAN_QUIRK_DISABLE_MECR quirk for LS1021A
-09cf356ad057ea47e6f505a5b9be7366583ee2c5 can: flexcan: flexcan_remove(): disable wakeup completely
-b179f77d0a832d08d8d864d1f42032a6f0a60114 xfs: flush new eof page on truncate to avoid post-eof corruption
-1ecb0ee08c66610f5d9bb3c0fdeed042055c42c3 xfs: fix missing CoW blocks writeback conversion retry
-b84de9798b5528668ddde748e008f3bd67505ac1 xfs: fix scrub flagging rtinherit even if there is no rt device
-854d4cfe1cea737a3e04df1264dea2ea963d38f1 io_uring: ensure consistent view of original task ->mm from SQPOLL
-317c36f8df36b18b2eee4704d1d2d97a354d89d0 spi: fsl-dspi: fix wrong pointer in suspend/resume
-62ec9d0a8e5bc863a33a4ca1ad37c47c9b9ed719 PCI: mvebu: Fix duplicate resource requests
-af4e72ac455c84fc23c7ebc3c44e6897546dc6b7 ceph: check session state after bumping session->s_seq
-6a7f20b51eabbd7e155fe30dea3ad7bcb5c2b2bc selftests: core: use SKIP instead of XFAIL in close_range_test.c
-a5d77f74b8d80f6cc439fbfc2a75c5ad7abef7c7 selftests: clone3: use SKIP instead of XFAIL
-24e563726c3e2e9663537274a304abccfb5f095e selftests: binderfs: use SKIP instead of XFAIL
-39be89150fc29dc187cf107e716f16d59e3211d2 x86/speculation: Allow IBPB to be conditionally enabled on CPUs with always-on STIBP
-b45b7beb116cb65545f5314f8ba58ce7c1b34e80 kbuild: explicitly specify the build id style
-2060a7aec71712e0ce032afc8c2a17f524ad3338 RISC-V: Fix the VDSO symbol generaton for binutils-2.35+
-99d99788c99e02d2a42b7424eb8f9a9aa4aeeb89 USB: apple-mfi-fastcharge: fix reference leak in apple_mfi_fc_set_property
-a140457cf8fd32838f63d60e928a0116f2af5c12 tpm: efi: Don't create binary_bios_measurements file for an empty log
+933bb75072aac04a8d2c6eb8b870c89e5eebcc84 drm/i915: Hold onto an explicit ref to i915_vma_work.pinned
+796f969672c3ccafe78d092aef05be6de0fac156 drm/i915/gem: Flush coherency domains on first set-domain-ioctl
+77f999a460d1455d7f0513e20c01c52605b5577a mm: memcg: link page counters to root if use_hierarchy is false
+7cf00d16fe4cffcc645be7118f502d812d59d44a RDMA/ucma: Fix error cases around ucma_alloc_ctx()
+80d138ac02a0858d064a435d9e552a87c179d710 nbd: don't update block size after device is started
+9839f6b9a91436708dc4912c681327bc1a7d5427 KVM: arm64: Force PTE mapping on fault resulting in a device mapping
+ba4db06d47008d44d789bd54bf849665577a6468 dm raid: fix discard limits for raid1 and raid10
+8c18562e3e4a54a66866e3ac13bd111616864af2 xfrm: interface: fix the priorities for ipip and ipv6 tunnels
+f4cde55b1fbee0ed2dd3f352464b0dff920b6bce ASoC: Intel: kbl_rt5663_max98927: Fix kabylake_ssp_fixup function
+422eb8bc1382ef82fb9bd7acc415e825583e041e genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
+2b7944f307e1f27b334f656ab15277d741f2cb6c hv_balloon: disable warning when floor reached
+b542aa3f9477cb620eb6a301b92412cc96fdeca4 net: xfrm: fix a race condition during allocing spi
+ce14b5717cde677ab9006043a9f6a6f07a2fcfa3 ASoC: codecs: wsa881x: add missing stream rates and format
+ebf9fb3dbbbcf9b66cd578ab8da5cc2992fa15a4 spi: imx: fix runtime pm support for !CONFIG_PM
+f4a8ef6867bf285e1c0a26f11388a90f7b958f49 irqchip/sifive-plic: Fix broken irq_set_affinity() callback
+c30ba428ac8ffcf752527d283f2beb484a11eef1 kunit: Fix kunit.py --raw_output option
+c6267c8d4eaae58ccc94a9beb113d17438b39d6b kunit: Don't fail test suites if one of them is empty
+90648ddb3f7f59eb7dcbc1330221759cc8782258 usb: gadget: fsl: fix null pointer checking
+3892606be20bea6f1144b0c81836e9c555f0b53b selftests: filter kselftest headers from command in lib.mk
+20fa86e74ab809216024bdcc16ee84e2eb77adfd ASoC: codecs: wcd934x: Set digital gain range correctly
+f153716d460e7163a3a99b1592515fedabc2a1d7 ASoC: codecs: wcd9335: Set digital gain range correctly
+8438202b95b0fa25e2ed0f8eb044476494ee61a1 mtd: spi-nor: Fix address width on flash chips > 16MB
+7d092328e4b3c551753675b00f7c910c3636f577 xfs: set xefi_discard when creating a deferred agfl free log intent item
+6db73e4b05335fe318b2d00d97b6291ee17532e8 mac80211: don't require VHT elements for HE on 2.4 GHz
+a6576bc2267b0911403d3d2c2c5a480200ae80bc netfilter: nftables: fix netlink report logic in flowtable and genid
+83ee66e525b133e3c0b7a6beb0a373cbd7264fa3 netfilter: use actual socket sk rather than skb sk when routing harder
+d6dad3d8cc56f69645aadd6204af0f1b39258f04 netfilter: nf_tables: missing validation from the abort path
+75e57ebf1fdc934806624492fbc27c2a2848baf3 PCI: Always enable ACS even if no ACS Capability
+7dfaef808151e6a502d4fef8beb3a013f5bb2bf5 netfilter: ipset: Update byte and packet counters regardless of whether they match
+c10f2dab0f055acbb1e163d207859a47f600f811 irqchip/sifive-plic: Fix chip_data access within a hierarchy
+0311b13aa594f40bbc05ccadaac241fdec20726c powerpc/eeh_cache: Fix a possible debugfs deadlock
+7e21d1e98be880d8552099b0f0b7c7332843a7a9 drm/vc4: bo: Add a managed action to cleanup the cache
+6a24226663e79dcf79a0035b3cb02ba9030f8862 IB/srpt: Fix memory leak in srpt_add_one
+d12f5cc12212b466bb5612e7a826a94bb12d1451 mm: memcontrol: correct the NR_ANON_THPS counter of hierarchical memcg
+0dc5248217e94653466fe3a4bb23fa8bf76f3f7a drm/panfrost: rename error labels in device_init
+6ad41a41c6f760cc18a411a3ce534e177d895c09 drm/panfrost: move devfreq_init()/fini() in device
+04412c80432c7d657050cc38e488089690229778 drm/panfrost: Fix module unload
+ce447a3b1adf6d52d377fc6b565ded78f4b31739 perf trace: Fix segfault when trying to trace events by cgroup
+633de747c6939e97205a83d2bf48316490394449 perf tools: Add missing swap for ino_generation
+77ecb2e3e0c0074fae6ea060b032dc3e4866b3cf perf tools: Add missing swap for cgroup events
+0149302a30bc1010922510e171470f9e07683d36 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
+7f11f1c050fab9d379f8e2f23bb5af51e651b0b0 iommu/vt-d: Fix sid not set issue in intel_svm_bind_gpasid()
+b0aaf97350602138d182daa076a416b4c324caa7 iommu/vt-d: Fix a bug for PDP check in prq_event_thread
+0dc642a8ddb13c450c95d681e2001a090abd9b2d afs: Fix warning due to unadvanced marshalling pointer
+e9eb47d199f56aa893dff7ffe8194fce632b4131 afs: Fix incorrect freeing of the ACL passed to the YFS ACL store op
+ef3bbb2d3a2ef48c5d4280b619a63bf796d613f7 vfio/pci: Implement ioeventfd thread handler for contended memory lock
+91a796aa525b3cd36419526bd7385b4e40b6815a can: rx-offload: don't call kfree_skb() from IRQ context
+c94de5b05217edda78d390cbd1b411e088adf8d6 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
+852196da891535003d3192dfbf57584c046a6f3c can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
+569c1356bc39fee1ebf16f4f58734451a7fb795f can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
+3502972a770226abf7ccb42324c7755ee1da8a13 can: j1939: swap addr and pgn in the send example
+eae4ba757e4d408654ab56aa86354eeb90eefcf9 can: j1939: j1939_sk_bind(): return failure if netdev is down
+64e42151eb0cdfe0e71d89c906b52775f46b8140 can: ti_hecc: ti_hecc_probe(): add missed clk_disable_unprepare() in error path
+2ca6b2767c36bc9ee62a79cb26cae7231b896c0f can: xilinx_can: handle failure cases of pm_runtime_get_sync
+3123c58a778c43d5d161b3c3d3e5755f1cc14e59 can: peak_usb: add range checking in decode operations
+5a1e9ceca163ffd944ea01f6efbade9c33f353f4 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
+403a89e2f717c3540f88ffb933a9ad942331ffe9 can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
+d4c641dae7d15e5f0dc7425aa18b2d6e35c81d07 can: flexcan: remove FLEXCAN_QUIRK_DISABLE_MECR quirk for LS1021A
+8ea425f85d44db83e6aad6821baeb0d91a959046 can: flexcan: flexcan_remove(): disable wakeup completely
+2a8a108c4f863fe03c8766595dd25627ef1c5f4b xfs: flush new eof page on truncate to avoid post-eof corruption
+2eb13dd8159ae8a5ccdfbccb9c353f3920a9057a xfs: fix missing CoW blocks writeback conversion retry
+23097d9884840590461d8c241aa35e83c26f3254 xfs: fix scrub flagging rtinherit even if there is no rt device
+be8046cd68b521f8e5e2744b4e226e4ab10854b5 io_uring: ensure consistent view of original task ->mm from SQPOLL
+5a682944eeb3f1c606aa5c5b93da13f61d4602f2 spi: fsl-dspi: fix wrong pointer in suspend/resume
+4877125f37ee1cfbab0066b38332b3667229cbee PCI: mvebu: Fix duplicate resource requests
+137b1125848af6a44ce33ca52c9c684998b3d99b ceph: check session state after bumping session->s_seq
+46825b77cbae15b2f59d28e4a5b05d2a9ae4c989 selftests: core: use SKIP instead of XFAIL in close_range_test.c
+88a10f8f8a2afb68a6aa4939d84b53b301194952 selftests: clone3: use SKIP instead of XFAIL
+136e5e1c303e14f5b19bfa1093692f08e0166f34 selftests: binderfs: use SKIP instead of XFAIL
+9fa98c9d7b16c30f06d59f4a782052e49db8aec9 x86/speculation: Allow IBPB to be conditionally enabled on CPUs with always-on STIBP
+c64a75c279af31423368be8bbbfb3d0423efbd0f kbuild: explicitly specify the build id style
+466d696117db97802e4c2b2745f7af9c259ac92a RISC-V: Fix the VDSO symbol generaton for binutils-2.35+
+6641a47aee2349af02dbc8501f62519b2de15ada USB: apple-mfi-fastcharge: fix reference leak in apple_mfi_fc_set_property
+558310d399b3b86e56aed221dd933dd4c799383f tpm: efi: Don't create binary_bios_measurements file for an empty log
 
---===============3313096260733810759==--
+--===============4215227544828596716==--
