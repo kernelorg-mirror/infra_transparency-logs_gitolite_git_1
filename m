@@ -1,23 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 10 Nov 2020 09:53:40 -0000
-Message-Id: <160500202021.22247.15517838941262461129@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0825119405924407808=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 10 Nov 2020 09:57:22 -0000
+Message-Id: <160500224289.24954.3359413598577513742@gitolite.kernel.org>
+
+--===============0825119405924407808==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/test/usb-hacks
-    old: 7f60debf87b935ceaa1072d2aa6ddd5f7451eaab
-    new: bc193fd7058317fe6d7e535a99ca49dc30cc93d9
-    log: |
-         17eec9c0938975c6f2384a832ada9cf4761c9961 ALSA: usb-audio: Set and clear sync EP link properly
-         acf1581dd52507fe77d41f8b01af0fc020955ad4 ALSA: usb-audio: Track implicit fb sync endpoint in audioformat list
-         d0708e2b7c54c32a721df8beb4681336ba6c4dfc ALSA: usb-audio: Move snd_usb_autoresume() call out of setup_hw_info()
-         7c747227600b48d46e6556374c4d2e3fc54df3b2 ALSA: usb-audio: Add hw constraint for implicit fb sync
-         bc193fd7058317fe6d7e535a99ca49dc30cc93d9 ALSA: usb-audio: Add fake capture sync EP for BOSS GT-001
-         
+  - ref: refs/heads/net-next-mlx5
+    old: c96ea8c8f4131414516dc77584c7a3296b4dc40e
+    new: 1f983b4a258f2fe6ada708623ad8655b8620e710
+    log: revlist-c96ea8c8f413-1f983b4a258f.txt
+
+--===============0825119405924407808==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c96ea8c8f413-1f983b4a258f.txt
+
+173e4e78c00ab339299b07d53215358b7ca1033e net/mlx5: Add sample offload hardware bits and structures
+0673d4a32096644341e76b64b1f5832c10759b3e net/mlx5: Add sampler destination type
+b5b92469d8be034345381885c3b53ca4c5243a66 net/mlx5: Check dr mask size against mlx5_match_param size
+cad2548999bd8d617de44751419163982feab0da net/mlx5: Add misc4 to mlx5_ifc_fte_match_param_bits
+a6d0d873bfab53d52769176633ca454cacad9b02 net/mlx5: Add ts_cqe_to_dest_cqn related bits
+a6ffe01cb2097c632fc4fd887f1d7bff220d1c06 net/mlx5e: Allow RQ outside of channel context
+26703016df3e84075c3736c99ff39f91769a5a84 net/mlx5e: Allow SQ outside of channel context
+cbb4ed324d82c1a91471a3308eec1e762706cc88 net/mlx5e: Allow CQ outside of channel context
+a2d10f20f05c9a1609a04abecfa3befaa0d5cd51 net/mlx5e: Change skb fifo push/pop API to be used without SQ
+3281d4703e36647292c5ada8c5bc9078450ca7f8 net/mlx5e: Split SW group counters update function
+e0bb70ec7999a25588aba5f863da5cd5d1eebcdb net/mlx5e: Move MLX5E_RX_ERR_CQE macro
+de270990e0cc3feb5216f0e229a428a9af7d96b1 net/mlx5e: Add TX PTP port object support
+9df319ffd97b1d67d3baae9280bc056f7d8e3ac3 net/mlx5e: Add TX port timestamp support
+ee751cd4f2c9857bee1403c2ae8e264f578a81c0 fixup! net/mlx5e: Allow RQ outside of channel context
+d053ff8f86126607b73130ab864c1e661a4d0d57 fixup! net/mlx5e: Add TX PTP port object support
+f5e4ba3856c618b4d1a7929df52318c3b15b43f6 net/mlx5e: remove unnecessary memset
+3cbd4c77b87dbacd87eb5f4cb88d89e2b5a9d513 net/mlx5e: Remove duplicated include
+1f983b4a258f2fe6ada708623ad8655b8620e710 net/mlx5: Avoid exposing driver internal command helpers
+
+--===============0825119405924407808==--
