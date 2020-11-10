@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 09 Nov 2020 23:44:14 -0000
-Message-Id: <160496545496.29247.9356888175124316952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 10 Nov 2020 00:00:12 -0000
+Message-Id: <160496641245.10024.14327120941428711013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/todo
-    old: a729dda74fd376e6c9a3d09902ac1c9d438f5aba
-    new: a238093465ff2eccd8262eaf4cdaec4ee7b738aa
+  - ref: refs/heads/master
+    old: 8ef9ba4d666614497a057d09b0a6eafc1e34eadf
+    new: 77a2d673d5c9d1d359b5652ff75043273c5dea28
     log: |
-         f83453f9c9540a24a1e9e30d97acfd3403ecbf5e Meta/Dothem: use sparse
-         a238093465ff2eccd8262eaf4cdaec4ee7b738aa What's cooking (2020/11 #02)
+         77a2d673d5c9d1d359b5652ff75043273c5dea28 tunnels: Fix off-by-one in lower MTU bounds for ICMP/ICMPv6 replies
          
