@@ -1,58 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============3401794686000374132=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Tue, 10 Nov 2020 14:50:05 -0000
-Message-Id: <160501980571.4286.867270595802347438@gitolite.kernel.org>
-
---===============3401794686000374132==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-gpio
+Date: Tue, 10 Nov 2020 14:50:27 -0000
+Message-Id: <160501982779.4543.1904906330651892215@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+repo: pub/scm/linux/kernel/git/linusw/linux-gpio
 user: linusw
 changes:
   - ref: refs/heads/devel
-    old: 634e859e6bf06db0e5cc0567e04909e2e28e9901
-    new: ac43c44a7a375ae0f0e96e10e227e226f2f2cb70
-    log: revlist-634e859e6bf0-ac43c44a7a37.txt
-  - ref: refs/heads/fixes
-    old: 9b92f5c51e9a41352d665f6f956bd95085a56a83
-    new: dadfab0fbf0173da6e24c8322b69083fef03033d
+    old: b9bf97105f4b9adc32604d24072147b242564fb3
+    new: ff0e46434147ca330e03a68bb34ba1f446e5c763
     log: |
-         dd26209bc56886cacdbd828571e54a6bca251e55 pinctrl: intel: Fix 2 kOhm bias which is 833 Ohm
-         f3c75e7a9349d1d33eb53ddc1b31640994969f73 pinctrl: intel: Set default bias in case no particular value given
-         06abe8291bc31839950f7d0362d9979edc88a666 pinctrl: amd: fix incorrect way to disable debounce filter
-         c64a6a0d4a928c63e5bc3b485552a8903a506c36 pinctrl: amd: use higher precision for 512 RtcClk
-         71266d9d39366c9b24b866d811b3facaf837f13f pinctrl: qcom: Move clearing pending IRQ to .irq_request_resources callback
-         b41efeed507addecb92e83dd444d86c1fbe38ae0 pinctrl: qcom: sm8250: Specify PDC map
-         dadfab0fbf0173da6e24c8322b69083fef03033d Merge tag 'intel-pinctrl-v5.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/intel into fixes
+         ff0e46434147ca330e03a68bb34ba1f446e5c763 gpio: sifive: Fix SiFive gpio probe
          
-
---===============3401794686000374132==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-634e859e6bf0-ac43c44a7a37.txt
-
-0e74abf3a0a3a711145f11f3a782432a2df5f744 pinctrl: qcom: add pinctrl driver for msm8953
-3d417196e2447811f9c73b0efe7ba02f5cb20fff dt-bindings: pinctrl: qcom: add msm8953 pinctrl bindings
-57972641810a97566ffd13e4be3f6a66d61eb3b5 pinctrl: mt7622: drop pwm ch7 as mt7622 only has 6 channels
-bb42b59310ebc33ab73dddd9a075d24003d1adac pinctrl: ingenic: Get rid of repetitive data
-016e054d6926390a583a6422f3193e222be62eb9 pinctrl: ingenic: Add lcd-8bit group for JZ4770
-39cc1d3397053f340776c99e55b733a063fa2c69 pinctrl: amd: print debounce filter info in debugfs
-be117ca32261c3331b614f440c737650791a6998 pinctrl: qcom: Kconfig: Rework PINCTRL_MSM to be a depenency rather then a selected config
-38e86f5c2645f3c16f698fa7e66b4eb23da5369c pinctrl: qcom: Allow pinctrl-msm code to be loadable as a module
-d0511b5496c03cdbcda55a9b57c32cdd751920ed firmware: QCOM_SCM: Allow qcom_scm driver to be loadable as a permenent module
-54515257ca3acc99e26117727874a7566148e64b pinctrl: ocelot: Remove unnecessary conversion to bool
-ad3b508c90ad20c63ac4fcd076e22b9f0294124d dt-bindings: pinctrl: ocelot: Add Luton SoC support
-e1822384d6d680a31724872b3134ce03eb6a27bc dt-bindings: pinctrl: ocelot: Add Serval SoC support
-8f27440decb75cc92ab37ce3140c73198689feaf pinctrl: ocelot: Add support for Luton platforms
-6e6347e2daf52123127a60e92d808f6a3d674b4b pinctrl: ocelot: Add support for Serval platforms
-c82d4776a1ddf8cb16b7683ad1fe6844bf396ac8 dt-bindings: pinctrl: qcom: Add SDX55 pinctrl bindings
-ac43c44a7a375ae0f0e96e10e227e226f2f2cb70 pinctrl: qcom: Add SDX55 pincontrol driver
-
---===============3401794686000374132==--
+  - ref: refs/heads/fixes
+    old: 7ffa08169849be898eed6f3694aab8c425497749
+    new: 45fe0b539bc9cf6a6832d0d60cb6eab1e5f56bd9
+    log: |
+         3fe37204c9a233d1bd852b98bca43ec61854ba78 gpio: dwapb: Fix missing conversion to GPIO-lib-based IRQ-chip
+         560b6ac37a87fcb78d580437e3e0bc2b6b5b0295 gpio: aspeed: fix ast2600 bank properties
+         1f5eb8b17f02d216703ee56e4c3115f592b060fb gpiolib: fix sysfs when cdev is not selected
+         d8f270efeac850c569c305dc0baa42ac3d607988 gpio: pcie-idio-24: Fix irq mask when masking
+         23a7fdc06ebcc334fa667f0550676b035510b70b gpio: pcie-idio-24: Fix IRQ Enable Register value
+         10a2f11d3c9e48363c729419e0f0530dea76e4fe gpio: pcie-idio-24: Enable PEX8311 interrupts
+         45fe0b539bc9cf6a6832d0d60cb6eab1e5f56bd9 Merge tag 'gpio-fixes-for-v5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into fixes
+         
+  - ref: refs/heads/discourage-sysfs
+    old: 0000000000000000000000000000000000000000
+    new: dec53bb0d67db8acbe8178f2646a8604771a4b28
