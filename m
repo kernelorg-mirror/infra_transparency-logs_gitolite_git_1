@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0511931582503101041=="
+Content-Type: multipart/mixed; boundary="===============7165745861394259678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Tue, 10 Nov 2020 00:04:31 -0000
-Message-Id: <160496667173.11677.12755559506750816446@gitolite.kernel.org>
+Date: Tue, 10 Nov 2020 00:04:35 -0000
+Message-Id: <160496667587.11759.10436580452740998532@gitolite.kernel.org>
 
---===============0511931582503101041==
+--===============7165745861394259678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
-  - ref: refs/heads/v5.11/integ
+  - ref: refs/heads/integ
     old: 43ab9ca6295566ae5f60a918ce8294386094a27c
     new: c9789a5e7b823f3ce709bcc681b2132478fa731c
     log: revlist-43ab9ca62955-c9789a5e7b82.txt
 
---===============0511931582503101041==
+--===============7165745861394259678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -515,4 +515,4 @@ f8394f232b1eab649ce2df5c5f15b0e528c92091 Linux 5.10-rc3
 c25a9d76ec6d135e762f0d265684d7d59922184b Merge remote-tracking branch 'clk-meson/v5.11/drivers' into tmp/aml-rebuild
 c9789a5e7b823f3ce709bcc681b2132478fa731c Merge branch 'v5.11/testing' into tmp/aml-rebuild
 
---===============0511931582503101041==--
+--===============7165745861394259678==--
