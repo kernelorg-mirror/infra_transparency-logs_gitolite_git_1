@@ -1,73 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============8319380530424762205=="
+Content-Type: multipart/mixed; boundary="===============7367369061505984076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 10 Nov 2020 20:19:35 -0000
-Message-Id: <160503957595.25724.13035475246397841150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Tue, 10 Nov 2020 20:20:37 -0000
+Message-Id: <160503963747.26254.4342161645256842590@gitolite.kernel.org>
 
---===============8319380530424762205==
+--===============7367369061505984076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/tags/v4.14.206
-    old: 0000000000000000000000000000000000000000
-    new: 5b15e1cc2210d9d4f3f0f1cdd5ee5dedde7de96a
-  - ref: refs/tags/v4.19.157
-    old: 0000000000000000000000000000000000000000
-    new: 41253ef51cea7d4a36fd4c4ffcabadb76be59856
-  - ref: refs/tags/v4.4.243
-    old: 0000000000000000000000000000000000000000
-    new: 6e9a06f7e71b7c10d9785cdd981a48cb1a94463a
-  - ref: refs/tags/v4.9.243
-    old: 0000000000000000000000000000000000000000
-    new: 99591eea5a35f7c2783c0b2c074ddb7574d8ccde
-  - ref: refs/tags/v5.4.77
-    old: 0000000000000000000000000000000000000000
-    new: 2d8f7b2f97482306fb15460d1a702feb26c9d6a7
-  - ref: refs/tags/v5.9.8
-    old: 0000000000000000000000000000000000000000
-    new: 0e0f25b9c44ece61aa195ada3501fbf40212e117
+  - ref: refs/heads/master
+    old: 521683434b1e40074be2288a3896fce2fa825e8c
+    new: 6a8cc78372d93dbf373367f719eaca90972865e6
+    log: revlist-521683434b1e-6a8cc78372d9.txt
 
---===============8319380530424762205==
+--===============7367369061505984076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-521683434b1e-6a8cc78372d9.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605039639 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1605039573-0961a059490213f60bdc9f2f570d1f5f97d72203
+629dc5450e03db4a68d7ecd1603580a283217eb1 x86/sgx: Add SGX page allocator functions
+ae9534964eda2a30bcab91042d69796cbef3a2ab mm: Add 'mprotect' hook to struct vm_operations_struct
+dba11a11bc33ae33e0e8c0f597aa453684e8a197 x86/sgx: Add SGX misc driver interface
+8227b1f925c390c1f66683e1da84070392c5b544 x86/sgx: Add SGX_IOC_ENCLAVE_CREATE
+94e8f6df4eff1dd22686604cdb53aa015c7bbd08 x86/sgx: Add SGX_IOC_ENCLAVE_ADD_PAGES
+706e0a9c096731d7329a9a271df564e12c81bd3c x86/sgx: Add SGX_IOC_ENCLAVE_INIT
+8819f87f66de9ee1e04fbc52fb111d1d1970b0b2 x86/sgx: Add SGX_IOC_ENCLAVE_PROVISION
+a95215360db54cc5580a8ce12f7f3d5a24a08822 x86/vdso: Add support for exception fixup in vDSO functions
+3bae7e151f0c32b7ed91f4abc89b27cc9f712cbb x86/fault: Add helper function to sanitize error code
+facec2c15bb67632c7c383647cdaebe41f875b35 x86/traps: Attempt to fixup exceptions in vDSO before signaling
+96cb399d82de02ccb9ce362fe1527708016ed859 x86/vdso: Implement a vDSO for Intel SGX enclave call
+dc08ab50b99e0ae97e7502012f6eae6039383a4a selftests/x86: Add a selftest for SGX
+31079df22768d449f0a3cdff98587e8b9546f8f7 x86/sgx: Add a page reclaimer
+73da0bc97578d6709631cdc1acfa3abd7b4b0f03 x86/sgx: Add ptrace() support for the SGX driver
+729dc82566d956330ed669ce0284093c39c78318 docs: x86/sgx: Document SGX kernel architecture
+6a8cc78372d93dbf373367f719eaca90972865e6 x86/sgx: Update MAINTAINERS
 
-0000000000000000000000000000000000000000 5b15e1cc2210d9d4f3f0f1cdd5ee5dedde7de96a refs/tags/v4.14.206
-0000000000000000000000000000000000000000 41253ef51cea7d4a36fd4c4ffcabadb76be59856 refs/tags/v4.19.157
-0000000000000000000000000000000000000000 6e9a06f7e71b7c10d9785cdd981a48cb1a94463a refs/tags/v4.4.243
-0000000000000000000000000000000000000000 99591eea5a35f7c2783c0b2c074ddb7574d8ccde refs/tags/v4.9.243
-0000000000000000000000000000000000000000 2d8f7b2f97482306fb15460d1a702feb26c9d6a7 refs/tags/v5.4.77
-0000000000000000000000000000000000000000 0e0f25b9c44ece61aa195ada3501fbf40212e117 refs/tags/v5.9.8
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+q9hcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NgIP/Aglkt/OPwVasb1reoDM
-32jwSZwR5WLeJJrH3c0BJFJqUQd0mivwuc5ozfZQM7JbL/YchPi7ZECxl9ZED31u
-F+GVtS+ACrzkNY0kzAnOk7K2QRPHeu8MfvmAEupIQR3KKdKcAyQaortwdSzM++gZ
-KhBUFwaOmXGdiuraGMwadPLxAD/sJq2pCjUgRaFF7H3MsYp6H8Z8FCUk+b05OBrV
-ochevU77CDKfLC7yKA//FO41MdNkCuQEnMdlIFegr+bANxS6OY0+12ehIlr7fp2W
-Eq150lbjVeJ7gywlSIHqmeLfKRp3+dtpoNWiq5viFsFWYv2gjvwj+/hghPnyqn0x
-beI205Pg6yUVJ8HrFHEWhc0LZE/zYhppS5VWBHm3l6N4eHi/Jml3OqTSBl9pcnYe
-g7UBCOGP9HhYztLXBobUFvWBR3TII2InRGBXu62GSqdXK4gdo15jPDIsHEq936SV
-FDx6YwMoJt4s34ueJqNJ1Cu1ws/cxzqeQet4S8E0E7aNcM2SRh0a8Ixb86gvhXms
-L0M95kTWsxIdGh11+wo6pYcCu6svcxA/vX5k94oVJsJzi9KM6ITdvn9FXtkTyX0n
-eJXvYuRUwn7MKoopWtyonS23etBO1s3o1MSA6fr6Zk4kbX+c3E6mkTtStSCQZQhP
-+A9xQ++z4jVooIHcpsTKJn5b
-=Cwdh
------END PGP SIGNATURE-----
-
---===============8319380530424762205==--
+--===============7367369061505984076==--
