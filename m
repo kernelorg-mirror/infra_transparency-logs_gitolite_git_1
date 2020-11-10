@@ -1,46 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7367369061505984076=="
+Content-Type: multipart/mixed; boundary="===============2278205007280808506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Tue, 10 Nov 2020 20:20:37 -0000
-Message-Id: <160503963747.26254.4342161645256842590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Tue, 10 Nov 2020 20:23:04 -0000
+Message-Id: <160503978417.27743.28036620181927979@gitolite.kernel.org>
 
---===============7367369061505984076==
+--===============2278205007280808506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 521683434b1e40074be2288a3896fce2fa825e8c
-    new: 6a8cc78372d93dbf373367f719eaca90972865e6
-    log: revlist-521683434b1e-6a8cc78372d9.txt
+  - ref: refs/heads/linux-rolling-stable
+    old: 8043df4f7e4e53ce7b58dd7d99e2826fd4d27e1e
+    new: 1a0a2468b53b198138f2a530a66e687a920303ab
+    log: |
+         b72aaa9506b38e68f3476a642d0e42b3071f82bb powercap: restrict energy meter to root access
+         951cbbc386ff01b50da4f46387e994e81d9ab431 Linux 5.9.8
+         1a0a2468b53b198138f2a530a66e687a920303ab Merge v5.9.8
+         
 
---===============7367369061505984076==
+--===============2278205007280808506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-521683434b1e-6a8cc78372d9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-629dc5450e03db4a68d7ecd1603580a283217eb1 x86/sgx: Add SGX page allocator functions
-ae9534964eda2a30bcab91042d69796cbef3a2ab mm: Add 'mprotect' hook to struct vm_operations_struct
-dba11a11bc33ae33e0e8c0f597aa453684e8a197 x86/sgx: Add SGX misc driver interface
-8227b1f925c390c1f66683e1da84070392c5b544 x86/sgx: Add SGX_IOC_ENCLAVE_CREATE
-94e8f6df4eff1dd22686604cdb53aa015c7bbd08 x86/sgx: Add SGX_IOC_ENCLAVE_ADD_PAGES
-706e0a9c096731d7329a9a271df564e12c81bd3c x86/sgx: Add SGX_IOC_ENCLAVE_INIT
-8819f87f66de9ee1e04fbc52fb111d1d1970b0b2 x86/sgx: Add SGX_IOC_ENCLAVE_PROVISION
-a95215360db54cc5580a8ce12f7f3d5a24a08822 x86/vdso: Add support for exception fixup in vDSO functions
-3bae7e151f0c32b7ed91f4abc89b27cc9f712cbb x86/fault: Add helper function to sanitize error code
-facec2c15bb67632c7c383647cdaebe41f875b35 x86/traps: Attempt to fixup exceptions in vDSO before signaling
-96cb399d82de02ccb9ce362fe1527708016ed859 x86/vdso: Implement a vDSO for Intel SGX enclave call
-dc08ab50b99e0ae97e7502012f6eae6039383a4a selftests/x86: Add a selftest for SGX
-31079df22768d449f0a3cdff98587e8b9546f8f7 x86/sgx: Add a page reclaimer
-73da0bc97578d6709631cdc1acfa3abd7b4b0f03 x86/sgx: Add ptrace() support for the SGX driver
-729dc82566d956330ed669ce0284093c39c78318 docs: x86/sgx: Document SGX kernel architecture
-6a8cc78372d93dbf373367f719eaca90972865e6 x86/sgx: Update MAINTAINERS
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605039848 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1605039781-8c3e2dd24536275661103381477aae3aca72c1ee
 
---===============7367369061505984076==--
+8043df4f7e4e53ce7b58dd7d99e2826fd4d27e1e 1a0a2468b53b198138f2a530a66e687a920303ab refs/heads/linux-rolling-stable
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+q9ugbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iBwQAIv1SxnL43XInh2UEYUO
+2OYg9Lbs0iyybVPczRW9ZqhljKJgv+Qpt1ECzAPKu8nOzPfQ52FaglB4+50Vg+7t
+eQNJj7YHDoZh5/aMdS7evwD/USZVgznMpv4cbu+bBLaBTzLXnY+2awaHxG+oX0it
++Yg1vagZAaqyvz98J4YMs+5PPZKsBRG/SkvgygqO2s/KQTmLiJblq8OkmKCTtx/g
+J3O4ozNjG1c9t3UqSwlzC43hAVoXkptuDq42F+Ol8382vdDj4Zi0TRgb3k6l3nm6
+Rv+t47Pqwl8uDbDEz/sHOrg+O/RUWBrHU0YBseLxeSrBP2boXflGWhpTaJUomI2A
+J7rvVpxoIQXBbyluhUbfQKRy7Ri2z0an7iBGd1Yn+KTteb8VKrqqMUYM2vAoAQF4
+FZbd29IuAf7iEsdNA8lhd8BiLT0qKHq3l7ThPJS5UzaFH4mXDYJNN7AmGQQAvm3L
+9GllD1HoXlcx9vG27+JUGD1Dyjd0ZRjwpa1WjC/L3oB9+aeeopCBMUeVWg1XEChK
+5CM3/AEuzGAETGFjm4/nqS6A3Q8xf7bgDEsv9O5hX/flilklvU5nBlvHb2rpg/50
+5LMfmzSDhMv5rTuPwr7GXiVgp4pe6TxOrtqPEyrzkd0h23w6cb1kMIA60QXcufsl
+QECCIjk39gme9jeMFwK70qgD
+=PtsY
+-----END PGP SIGNATURE-----
+
+--===============2278205007280808506==--
