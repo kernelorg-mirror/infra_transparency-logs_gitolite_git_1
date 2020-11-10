@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0871124182223515314=="
+Content-Type: multipart/mixed; boundary="===============3456092777927019325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 10 Nov 2020 08:02:46 -0000
-Message-Id: <160499536657.22184.11049612429255536302@gitolite.kernel.org>
+Date: Tue, 10 Nov 2020 08:02:54 -0000
+Message-Id: <160499537420.22266.14891267268928729805@gitolite.kernel.org>
 
---===============0871124182223515314==
+--===============3456092777927019325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 190f99838f840a83df432f106e2df20c8bb2547f
-    new: b2d8016268abeb3c8406efe56b96d86c8dcea421
-    log: revlist-190f99838f84-b2d8016268ab.txt
+  - ref: refs/heads/net-next
+    old: 9e46e93472eaa2deb3c8d779e862f6972b1e8c37
+    new: 8fcf2a07d9185ee81bf7a70957845b544b5c16cf
+    log: revlist-9e46e93472ea-8fcf2a07d918.txt
 
---===============0871124182223515314==
+--===============3456092777927019325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-190f99838f84-b2d8016268ab.txt
+Content-Disposition: attachment; filename=revlist-9e46e93472ea-8fcf2a07d918.txt
 
 173e4e78c00ab339299b07d53215358b7ca1033e net/mlx5: Add sample offload hardware bits and structures
 0673d4a32096644341e76b64b1f5832c10759b3e net/mlx5: Add sampler destination type
@@ -45,5 +45,13 @@ f5e4ba3856c618b4d1a7929df52318c3b15b43f6 net/mlx5e: remove unnecessary memset
 3cbd4c77b87dbacd87eb5f4cb88d89e2b5a9d513 net/mlx5e: Remove duplicated include
 eb91fd75b3989148da28994a1bc91b2abf1e7c12 net/mlx5e: remove redundant eswitch manager check
 b2d8016268abeb3c8406efe56b96d86c8dcea421 net/mlx5: Avoid exposing driver internal command helpers
+151bfbe075ffdeff0174516afc23ab658c81f905 Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+ba2931a25c6d2722fef14227da54d0acfc7ff860 Merge commit 'refs/changes/08/347108/7' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+c1bcf9f9e6619df34086ca19729e2a6da4567f54 Merge commit 'refs/changes/48/344848/6' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+b0fa70309c3a8a7eb5362358acc8af4b1a8b11e6 Merge branch 'net-next-mlx4' into net-next
+2940b977334b171e799e69fa3e5cfe4f05f44e6a Merge branch 'mlx5-vdpa' into net-next
+ae17fbe83cabccee050ed8e913e4ea7891bfd725 Merge branch 'net-next-mlx5' into net-next
+369c0efa7a0ee58e7aa01a08c7754f4928f134c8 Merge branch 'net-mlx5' into net-next
+8fcf2a07d9185ee81bf7a70957845b544b5c16cf Merge branch 'net-next-test' into net-next
 
---===============0871124182223515314==--
+--===============3456092777927019325==--
