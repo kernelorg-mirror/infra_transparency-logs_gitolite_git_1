@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7992843119549929055=="
+Content-Type: multipart/mixed; boundary="===============4515716696037952212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Tue, 10 Nov 2020 08:07:04 -0000
-Message-Id: <160499562406.25176.18377728358645630200@gitolite.kernel.org>
+Date: Tue, 10 Nov 2020 08:08:14 -0000
+Message-Id: <160499569460.25714.5801172778263175120@gitolite.kernel.org>
 
---===============7992843119549929055==
+--===============4515716696037952212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,30 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 4cc346579b3b23add8e540aecb6af16e442a93ea
-    new: d8f2972947762dc08ec66789ee352a2001c51215
-    log: revlist-4cc346579b3b-d8f297294776.txt
+    old: d8f2972947762dc08ec66789ee352a2001c51215
+    new: 6333f22c7004f606cc29e07d8d441782c8db55d7
+    log: revlist-d8f297294776-6333f22c7004.txt
 
---===============7992843119549929055==
+--===============4515716696037952212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4cc346579b3b-d8f297294776.txt
+Content-Disposition: attachment; filename=revlist-d8f297294776-6333f22c7004.txt
 
-7200d87604ba478772dd0f08661c7d3cd2231412 x86/sgx: Add SGX_IOC_ENCLAVE_CREATE
-d29bc5bdf616d03d8acca0167ffb208ab6c34d6a x86/sgx: Add SGX_IOC_ENCLAVE_ADD_PAGES
-87214b2c6e3760e5d51428c0c7cfd9830f215bae x86/sgx: Add SGX_IOC_ENCLAVE_INIT
-5df809d19eff8ad9a4b56bfcbfec2c8a67c01a77 x86/sgx: Add SGX_IOC_ENCLAVE_PROVISION
-60e7a2acc80c6c4da5e331fc401df9e6d05c7d4b x86/vdso: Add support for exception fixup in vDSO functions
-8c810e736e6b9318b1c4554e24edfc280411ee55 x86/fault: Add helper function to sanitize error code
-760bf805427a500402c4711eff0ed7ce4ee338d9 x86/traps: Attempt to fixup exceptions in vDSO before signaling
-7ebc20f3f7c080957a8bb20dabc77a5f3b7e220b x86/vdso: Implement a vDSO for Intel SGX enclave call
-c21eb7e4009b7a3dc3ee17614c54f643803bacdc selftests/x86: Add a selftest for SGX
-98c3f18ebb1e6a44a46075e5e36ad90fc9b180b7 x86/sgx: Add a page reclaimer
-070b0918aa855a03e3f9da7662e6df4c3224ebc1 x86/sgx: Add ptrace() support for the SGX driver
-e2b9321186ba482f421518f8b1fa687b4d88f316 docs: x86/sgx: Document SGX kernel architecture
-d8f2972947762dc08ec66789ee352a2001c51215 x86/sgx: Update MAINTAINERS
+c366bfc8465940a9e0833b536a541151b4a92def mm: Add 'mprotect' hook to struct vm_operations_struct
+0f3db6a6cf1318381d5a11a5f2b01ca9c684723d x86/sgx: Add SGX misc driver interface
+b0f11ac440c5168dda9a522254cc0f43c5811c1e x86/sgx: Add SGX_IOC_ENCLAVE_CREATE
+ab52bebf6827aa48a1971ea2ae3ddc362484942a x86/sgx: Add SGX_IOC_ENCLAVE_ADD_PAGES
+632e50c730726696e107c83a9401c978fa54b338 x86/sgx: Add SGX_IOC_ENCLAVE_INIT
+a5189d03a717c30a5330b76a83b452748859ff55 x86/sgx: Add SGX_IOC_ENCLAVE_PROVISION
+eb7678baaae8b6b326b5f43c37bcc2ec47b6946c x86/vdso: Add support for exception fixup in vDSO functions
+36f114bcebf9f01213b9a5113a6f2c1bde1e4062 x86/fault: Add helper function to sanitize error code
+5e09795f6d7e902660275940f08b8896cd65c8d0 x86/traps: Attempt to fixup exceptions in vDSO before signaling
+69c8c082c6792d3393f9181cd2359133222114ff x86/vdso: Implement a vDSO for Intel SGX enclave call
+0741a7b9fd15662d46139bf62e90e2b50515837f selftests/x86: Add a selftest for SGX
+67a13e479c5961e5deb26ecf85da39671f87b36b x86/sgx: Add a page reclaimer
+b32c8bea77bf30407214b3efd8f267cbefbc9ffd x86/sgx: Add ptrace() support for the SGX driver
+021a781ba914442f71e428e83d7f0dd33e504bd1 docs: x86/sgx: Document SGX kernel architecture
+6333f22c7004f606cc29e07d8d441782c8db55d7 x86/sgx: Update MAINTAINERS
 
---===============7992843119549929055==--
+--===============4515716696037952212==--
