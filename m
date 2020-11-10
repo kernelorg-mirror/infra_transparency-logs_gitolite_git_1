@@ -1,100 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============5404101495487148781=="
+Content-Type: multipart/mixed; boundary="===============0631971774273333754=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Tue, 10 Nov 2020 04:33:15 -0000
-Message-Id: <160498279550.7177.1383724478194076017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Tue, 10 Nov 2020 04:37:59 -0000
+Message-Id: <160498307994.10080.12096808737913430762@gitolite.kernel.org>
 
---===============5404101495487148781==
+--===============0631971774273333754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/queue-5.9
-    old: f89420159a7a740fa9fd2fee096a66e83501a558
-    new: 5a54b90e1cbfc695a5ce1af9257c2d1662447e7f
-    log: revlist-f89420159a7a-5a54b90e1cbf.txt
+  - ref: refs/heads/for-next
+    old: 5f8fb90aea46dc37438ec7b2b948fedfe5c702f5
+    new: c37ca3890c0cc3c0ca3edb6e7b7ecd39d4ec46ad
+    log: revlist-5f8fb90aea46-c37ca3890c0c.txt
 
---===============5404101495487148781==
+--===============0631971774273333754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f89420159a7a-5a54b90e1cbf.txt
+Content-Disposition: attachment; filename=revlist-5f8fb90aea46-c37ca3890c0c.txt
 
-80db594d50b5df5b635e73246e7a004fdb3bac3c nbd: don't update block size after device is started
-a25f6f927c9b6211bfe48fd1c37068faef22de9d KVM: arm64: Force PTE mapping on fault resulting in a device mapping
-77243719b7d1031fbdba4c49265f2ae174beef6f dm raid: fix discard limits for raid1 and raid10
-dda4f61a626c1625622432a86beba2a0d9f13025 xfrm: interface: fix the priorities for ipip and ipv6 tunnels
-df866e3d6b0a3caa62ff698f5be36a82ba75d2a0 ASoC: Intel: kbl_rt5663_max98927: Fix kabylake_ssp_fixup function
-fe7b651e533831c1fc2c6eac48d2853e5fcad2b4 genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
-906179895330c6c6515c8309966bb9e6a84c2d88 hv_balloon: disable warning when floor reached
-b3cafac6752705a9faafe172c8ed8391311f7162 net: xfrm: fix a race condition during allocing spi
-d70ae9af6d1e7b7eee428d91a3ee3353fefe3a90 ASoC: codecs: wsa881x: add missing stream rates and format
-00c261b08eb618f58f5305e1a8d62b8709c2480e spi: imx: fix runtime pm support for !CONFIG_PM
-3e18c024d60c8f2668cda8cc24b791197aeb719f irqchip/sifive-plic: Fix broken irq_set_affinity() callback
-cead1eedd7b3ed96b1a29931baf6ab81c8def0ea kunit: Fix kunit.py --raw_output option
-c53733def70d1916a91d292da33ea0a362da7e27 kunit: Don't fail test suites if one of them is empty
-cac4b7a476d609388b5840a7374f6f8808772839 usb: gadget: fsl: fix null pointer checking
-4ab47f9d92a644d1b96c09b623b2f303a77353e3 selftests: filter kselftest headers from command in lib.mk
-2bf4a8d113fdb87cf7729406877a5768e498dbcc ASoC: codecs: wcd934x: Set digital gain range correctly
-996898a21c6f30bfb9535a865ecd14641cf39a9f ASoC: codecs: wcd9335: Set digital gain range correctly
-b200b61feeabff8d72d2752423d59f90b9bc2be8 mtd: spi-nor: Fix address width on flash chips > 16MB
-816b803d2d085d4153fa2dcb9d36d93fb039bdae xfs: set xefi_discard when creating a deferred agfl free log intent item
-6e3a130620d94dda7a77865dcd0d169aa05a5508 mac80211: don't require VHT elements for HE on 2.4 GHz
-419c58e55f516ff452169b8ad9583363e8c8abab netfilter: nftables: fix netlink report logic in flowtable and genid
-c0805aa4904b8e50fcf85c0a4ab71706c3cd3668 netfilter: use actual socket sk rather than skb sk when routing harder
-160dfdae40d112ff16748a4afafb25b6cab05402 netfilter: nf_tables: missing validation from the abort path
-9e053dbb5c726bda4c023ac66f0584f5e0d8044e PCI: Always enable ACS even if no ACS Capability
-831e2efcd6ed384bb593a1d103cf98dbc4140eb7 netfilter: ipset: Update byte and packet counters regardless of whether they match
-94893d757134bb9d928e131a8cd470c2fef85e8c irqchip/sifive-plic: Fix chip_data access within a hierarchy
-a27dde08e6f2e7d3c7af4658d64f4459f8050299 powerpc/eeh_cache: Fix a possible debugfs deadlock
-36a0fc7067381a5280504042d8b53096c4286739 drm/vc4: bo: Add a managed action to cleanup the cache
-219f277b0a094fa9ec68fbd0a2ad0a96f7946cd5 IB/srpt: Fix memory leak in srpt_add_one
-12a7acbbf53df80a3cccd1282d6d7c3ff4d69002 mm: memcontrol: correct the NR_ANON_THPS counter of hierarchical memcg
-2a440b06a0628cc6fc2932d2cf115f33cfb47927 drm/panfrost: rename error labels in device_init
-bf26e28ed777a94d156e02bb1781be1b3b74ba75 drm/panfrost: move devfreq_init()/fini() in device
-404f739f4a007976bd66c3335800064453d20ee0 drm/panfrost: Fix module unload
-7f6eb2654a7f6b0a2c5f3b400bfbb5ae357e6f67 perf trace: Fix segfault when trying to trace events by cgroup
-d52784461c1a5b39f7cdef768e848b7de99e295f perf tools: Add missing swap for ino_generation
-b5c6f2cc8748ac65cfdd08b18183b6c17667c39f perf tools: Add missing swap for cgroup events
-497b8c7f7c58b8fa251140f7c7c765c1be2da1d5 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
-f1066da82461e3a0cea7c0e52c7ae4b2995dc01f iommu/vt-d: Fix sid not set issue in intel_svm_bind_gpasid()
-06bcde11f5bbd14e00142e7c5bad477510761e76 iommu/vt-d: Fix a bug for PDP check in prq_event_thread
-44c2235e53bc4f180693d79e2c040575b8bd4c59 afs: Fix warning due to unadvanced marshalling pointer
-4f4667ed6eeccc26f7b91522d9086802494c1005 afs: Fix incorrect freeing of the ACL passed to the YFS ACL store op
-7bdeef01ae7b35b38505c080b6b0421e86f10c79 vfio/pci: Implement ioeventfd thread handler for contended memory lock
-441149638d207a240cfa530884b10542e2d66117 can: rx-offload: don't call kfree_skb() from IRQ context
-2ee950747f5db3904868c729fa400a8d09781f62 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
-022a00d6e4a4bb4329918154b15a333dda34728a can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
-74f5f5d3d636cfdda4861ae0a46fafac57cdcb16 can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
-f8c03cb6fe42fd21f147d028486e193042d58030 can: j1939: swap addr and pgn in the send example
-c5b453d8e0a5db326b1bfbdeec6f5ebd92468cae can: j1939: j1939_sk_bind(): return failure if netdev is down
-03f7c5d32c67a419891c79862e0dfc9da0095186 can: ti_hecc: ti_hecc_probe(): add missed clk_disable_unprepare() in error path
-b1634c8f32b6c3e3585b407e8167e6c2322b3ffa can: xilinx_can: handle failure cases of pm_runtime_get_sync
-7b2d1586b1b85a660e9c21f2662e1785294c9a3c can: peak_usb: add range checking in decode operations
-45714de95e8e4217b7e84bdc1c27e7c6de67c85c can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
-23686aa1649658fc5f957fa6181f922c8b74dc7a can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
-2848dc442a0d893d056ae85c55f9b37a87cb6bbc can: flexcan: remove FLEXCAN_QUIRK_DISABLE_MECR quirk for LS1021A
-b66c6c538986580de8164165fa502b83cca332e9 can: flexcan: flexcan_remove(): disable wakeup completely
-4f5dd5a7c24b5ff6e9f4cf9d5adcc69ce451f4c1 xfs: flush new eof page on truncate to avoid post-eof corruption
-077dee4853ed4e5c5fb42b64644420523d091db8 xfs: fix missing CoW blocks writeback conversion retry
-d62d52078f9ebe7eaf63d80bef39552320f19c01 xfs: fix scrub flagging rtinherit even if there is no rt device
-5efb4b429ec5aab64ad8926f9c13e79439b7f435 io_uring: ensure consistent view of original task ->mm from SQPOLL
-40cd7ba5e965d703c9fc1593ed00d214bcae73a8 spi: fsl-dspi: fix wrong pointer in suspend/resume
-54b70b30551f43f9da1e93c33a2c00d5583e784b PCI: mvebu: Fix duplicate resource requests
-771e1aa2b5fb99b219122d4dca4da33b4d075fa5 ceph: check session state after bumping session->s_seq
-43bfd3ceb25ee7c819e3ec409ab0c394361726ee selftests: core: use SKIP instead of XFAIL in close_range_test.c
-95ec32c65c1144009346475ee7a925557270e205 selftests: clone3: use SKIP instead of XFAIL
-d51f9529e66bc540e0d685ee1e09ce7cd8c77627 selftests: binderfs: use SKIP instead of XFAIL
-56ea41cad4ca8be49ffd65be1f705758d0f2352a x86/speculation: Allow IBPB to be conditionally enabled on CPUs with always-on STIBP
-e3a6fc60131acc2a08b1dc66a068af9b00f5aafd kbuild: explicitly specify the build id style
-fbd4d83f48e5fd61f3c10d5e42be84bbf75ee9ef RISC-V: Fix the VDSO symbol generaton for binutils-2.35+
-9b64ca08b88f39d6c1f7b052dd46d86f6006ddb9 USB: apple-mfi-fastcharge: fix reference leak in apple_mfi_fc_set_property
-5a54b90e1cbfc695a5ce1af9257c2d1662447e7f tpm: efi: Don't create binary_bios_measurements file for an empty log
+895387231e54e83bd0779afdea125df4d79c91a4 ARM: dts: imx50-kobo-aura: Add 'grp' suffix to pinctrl node names
+f4d0fea16ad771f1f3c930251af90f8b33d9fa66 ARM: dts: imx6ul: segin: Add phyBOARD-Segin with eMMC phyCORE-i.MX6UL
+6d4e1ff5281996efe6a2b9bc58cdcdd446bb52a4 ARM: dts: imx6ul: phytec: Add support for optional PEB-AV-02 LCD adapter
+93c0289c11b08467c0c998d35f050e6664bbf99c ARM: dts: imx6ul: segin: peb-av-02: Mark stmpe touch as wakeup-source
+7fc6622c1a8d0f69be0783245fe38fed17ad8d18 dt-bindings: vendor-prefixes: Add an entry for Altus-Escon-Company
+cd49dccbde912ae7e6ee4d4f94f71740c690b520 dt-bindings: arm: fsl: add Altesco I6P board
+df0852c234d9a73ad2469cd0562ba212a422c374 ARM: dts: add Altesco I6P board
+186ea7e90c7ce37fb3910fb03e63778e94b44aca arm64: dts: imx8mp-evk: add CAN support
+85f5cf013ad64a72964e1fbd86f9668655109a11 arm64: dts: imx8mq-evk: add linux,autosuspend-period property for IR
+4dfb0ee602766912eaf261429798cee120f2d1ac arm64: dts: imx8mm-evk: add IR support
+7ae9777d35a9e2af7ed094b61ab21556104e7f6a arm64: dts: imx8mn-evk: add IR support
+236d454b27c7c17152663426613be274effc19fc dt-bindings: arm: fsl: add Van der Laan LANMCU board
+d1f1858f51be4d7900fe2bac6394c8dfc641f2c4 ARM: dts: add Van der Laan LANMCU board
+f2bd43f1c97f0ef6612cde87aa941248a91c59c6 clk: imx: gate2: Remove unused variable ret
+bdb08940236c2096ac60c99854ff8b8fdc4d8d02 clk: imx8mm: drop of_match_ptr from of_device_id table
+8f8a3230929f4ddcd3a5adb659e4b3cf52d9d38e clk: imx8mn: drop of_match_ptr from of_device_id table
+f32e42f09270a5298653ed6d8079fa7fddb6b393 clk: imx8mp: drop of_match_ptr from of_device_id table
+00cb754ac62253c84ea969c8d0d48884111ad909 clk: imx8mq: drop of_match_ptr from of_device_id table
+7544bfc0866f56326e47f8ec8b3f68c6db496125 ARM: imx: imx7ulp: Add a comment explaining the B2 silicon version
+550b562a153f84282c60fc3cb0d98f4e5609f0b4 clk: imx: scu: Make pd_np with static keyword
+53cc6bc69e536efe6c1cef98edfb7b3f0a14fabe ARM: imx: mach-imx6q: correctly identify i.MX6QP SoCs
+d19d2152ca055baf20339cfacbf039c2cfb8d936 arm64: dts: imx8mm: fix voltage for 1.6GHz CPU operating point
+5fc865f8bfd2cd3b12f5fef3a57f73fcb67e1544 dt-bindings: arm: fsl: document LS1012A FRWY board
+608f000f8a32e598ce3d7487889a499c5b5582cb dt-bindings: arm: fsl: document SolidRun LX2160A boards
+33d0d843872c5ddbe28457a92fc6f2487315fb9f ARM: dts: imx50-evk: Fix the chip select 1 IOMUX
+889e0fb16e36d35bac443dede3ad203be97e042d arm64: dts: imx: Fix imx8mm-kontron-n801x-s.dtb target
+ea555a53d41572008758a97a8b669121349b478d Merge branch 'clk/imx' into for-next
+4c94b81de18e8083c49e8767badee92304d29aa7 Merge branch 'imx/drivers' into for-next
+c03b510e27b6c79b7ccba4a9fb86c7328f232029 Merge branch 'imx/soc' into for-next
+a36c6f0a686ddff7a5b4fa9765d9ea20eb75ff1b Merge branch 'imx/bindings' into for-next
+b2552c02c27261aca3989c63d04c5d288b7c767b Merge branch 'imx/dt' into for-next
+95644de087cfd84a21487a8ea96cc659b09929e7 Merge branch 'imx/dt64' into for-next
+c37ca3890c0cc3c0ca3edb6e7b7ecd39d4ec46ad Merge branch 'imx/defconfig' into for-next
 
---===============5404101495487148781==--
+--===============0631971774273333754==--
