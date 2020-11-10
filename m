@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7945195790353798286=="
+Content-Type: multipart/mixed; boundary="===============0981330747288284159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 10 Nov 2020 18:54:44 -0000
-Message-Id: <160503448494.8052.18419880825275769867@gitolite.kernel.org>
+Date: Tue, 10 Nov 2020 18:54:52 -0000
+Message-Id: <160503449251.8136.16765706208699430506@gitolite.kernel.org>
 
---===============7945195790353798286==
+--===============0981330747288284159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 7c7c0673d27d177c50d6637cfedf70756e22966c
-    new: d00690a5d58b89403f53e7795d24f255ad1cc043
-    log: revlist-7c7c0673d27d-d00690a5d58b.txt
+  - ref: refs/heads/net-next
+    old: 3a96d0440e7258c11779b8ad91e072e9330ffffd
+    new: 684cd153e8fa133598bcf8460f8b22728a60c38a
+    log: revlist-3a96d0440e72-684cd153e8fa.txt
 
---===============7945195790353798286==
+--===============0981330747288284159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c7c0673d27d-d00690a5d58b.txt
+Content-Disposition: attachment; filename=revlist-3a96d0440e72-684cd153e8fa.txt
 
 f3cd094ae0d5b0a1933e49aebdebf07f6d336bbc Add auxiliary bus support
 4d900931e2a8517043783de97dc74a4d374f2798 net/mlx5: Don't skip vport check
@@ -62,5 +62,13 @@ f3a233d622d58f0a4a4eb8f7213343127531101c net/mlx5: Update the list of the PCI su
 7cca88e182de234fccc49f8a0c6882f7571e8973 net/mlx5e: kTLS, Check also real_dev in TLS context
 6b778af525aca09bd3cf188b26ae4221d6b383b4 fixup! net/mlx5e: Add TX PTP port object support
 d00690a5d58b89403f53e7795d24f255ad1cc043 net/mlx5: Arm only EQs with EQEs
+10aa5c47c9362534913c1b814a4be1c5cfa91f3d Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+5f27f07069fe48a2b2e0bd4ffb7451aed2c1a279 Merge commit 'refs/changes/08/347108/7' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+3942fa2e3c8bc123f65a1fa06fc0b7bbea2da008 Merge commit 'refs/changes/48/344848/6' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+88ab5114248a59bdf30b6722558de848e43ce008 Merge branch 'net-next-mlx4' into net-next
+716f5a9cc1873c5be479c7cff33e6cf62c968378 Merge branch 'mlx5-vdpa' into net-next
+74dd7d8f9f434cd157897fff86870c9b7b0eb0b6 Merge branch 'net-next-mlx5' into net-next
+ef85fc34beae4503e6dd604369ee7c39b809b910 Merge branch 'net-mlx5' into net-next
+684cd153e8fa133598bcf8460f8b22728a60c38a Merge branch 'net-next-test' into net-next
 
---===============7945195790353798286==--
+--===============0981330747288284159==--
