@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 10 Nov 2020 17:43:54 -0000
-Message-Id: <160503023481.19348.11350731590662674381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 10 Nov 2020 17:44:58 -0000
+Message-Id: <160503029898.19819.15756899042480628259@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/x86/apic
-    old: f36a74b9345aebaf5d325380df87a54720229d18
-    new: aec8da04e4d71afdd4ab3025ea34a6517435f363
-    log: |
-         aec8da04e4d71afdd4ab3025ea34a6517435f363 x86/ioapic: Correct the PCI/ISA trigger type selection
-         
+  - ref: refs/heads/100GbE
+    old: 0000000000000000000000000000000000000000
+    new: fe7f47535238b55e303490813fd4173124866a4f
