@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/website
-Date: Tue, 10 Nov 2020 14:53:30 -0000
-Message-Id: <160502001081.6383.1792568178918909343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 10 Nov 2020 15:00:26 -0000
+Message-Id: <160502042638.13204.6294820718114202530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/website
-user: mtk
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: aa0756159b526f426f8214cbc62419e54473c925
-    new: 50cc3a6b40fe9df2b00553d3f8376b1993d62ef9
+  - ref: refs/heads/sched/urgent
+    old: a73f863af4ce9730795eab7097fb2102e6854365
+    new: ac8ca18c1ee7a52e48e3a261eb8d4d247d9df81f
     log: |
-         d461589a7b6cf5f435b327566aa2797784b31413 maintaining.html: Update Wikipedia link for Linux libc history
-         74f5751dff3f7b6c229674e5e1792d8d4c09caa3 maintaining.html: Remove a few unnecesary sentences
-         50cc3a6b40fe9df2b00553d3f8376b1993d62ef9 maintaining.html: Note more explicitly when Linux libc started going away
+         ac8ca18c1ee7a52e48e3a261eb8d4d247d9df81f sched/fair: Ensure tasks spreading in LLC during LB
          
