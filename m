@@ -1,44 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0924525979652138660=="
+Content-Type: multipart/mixed; boundary="===============6417413058741138617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 10 Nov 2020 16:01:34 -0000
-Message-Id: <160502409433.11720.14740733186839346265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 10 Nov 2020 16:01:42 -0000
+Message-Id: <160502410285.11863.17740552928755609350@gitolite.kernel.org>
 
---===============0924525979652138660==
+--===============6417413058741138617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/net-next
-    old: 000321502531bbe21af72f8ae3e195ab16c8ebc8
-    new: 3a96d0440e7258c11779b8ad91e072e9330ffffd
-    log: revlist-000321502531-3a96d0440e72.txt
+  - ref: refs/heads/for-linus
+    old: 9ade6faf77a657ded6b040e87e3a95616710cf20
+    new: 02050db88364c5fe7671b89369d054dbff608e2d
+    log: |
+         f84e566ac5e5f778695bf69f0af5854ff4adb527 Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
+         02050db88364c5fe7671b89369d054dbff608e2d Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 9c1ab7a9c985c1f0977738a00e3fa0706c3ceb81
+    new: 9980150e93d013d7c03fb8c5f22fdd15646502cd
+    log: revlist-9c1ab7a9c985-9980150e93d0.txt
 
---===============0924525979652138660==
+--===============6417413058741138617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-000321502531-3a96d0440e72.txt
+Content-Disposition: attachment; filename=revlist-9c1ab7a9c985-9980150e93d0.txt
 
-e03e9a0b4f23c7465edae0468e8b98705be3b0fe net/mlx5e: Fix modify header actions memory leak
-0243c756111f671d85dad2545834bf68924cd165 net/mlx5e: Protect encap route dev from concurrent release
-5cbd9fdca9f33957a6ddfadaaea8c3d1df3c009c fixup! net/mlx5e: Fix modify header actions memory leak
-49ddce2648c93c8f74cee8f888a8ca77c3f91e72 netdevice.h: Fix unintentional disable of ALL_FOR_ALL features on upper device
-7eb5d2bf18b637944ac9138655ce4266e3519229 net: Disable NETIF_F_HW_TLS_TX when HW_CSUM is disabled
-d44822a4dac5ed541281557a31c8dba19b01a3ab net/tls: Fix wrong record sn in async mode of device resync
-3e2f15330cab57c7548d2111d41609a3a96b2723 Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-a18c8de33dca9351406a4153a149b29566599076 Merge commit 'refs/changes/08/347108/7' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-000cdb0e1f21758aa8208b6fd2658b4a8cd53c76 Merge commit 'refs/changes/48/344848/6' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-59633d6a30ad8e7feca095df092beb4fe5cbf0a6 Merge branch 'net-next-mlx4' into net-next
-37d81c1af5a6b3c2e78c2996d7cceb242e0d52b7 Merge branch 'mlx5-vdpa' into net-next
-b4a1e25c65785eaaf2bbff301247790283cf0536 Merge branch 'net-next-mlx5' into net-next
-0a2d7f5a75f82010130853528b75efc6a1243778 Merge branch 'net-mlx5' into net-next
-3a96d0440e7258c11779b8ad91e072e9330ffffd Merge branch 'net-next-test' into net-next
+64a70744b77898a15d7a5b2b4dc0fa9523a75cde ASoC: Fix vaud18 power leakage of mt6359
+08651373808e16b01d3b12207f52504c17b6774c dt-bindings: mediatek: mt6359: Add new property for mt6359
+0e38d93493c7b11bc250113dd5b7b9d17ba8c54d ASoC: google: dt-bindings: modify machine bindings for two MICs case
+3cfbf07c6d2779d24a6f5b999a91f400256b1d4e ASoC: qcom: sc7180: Modify machine driver for 2mic
+eb84959ab8c0ca2897e69575110bdaaf2d532eb7 ASoC: soc-compress: tidyup STREAM vs COMPRESS
+7428d8c8bd7936840b4615df674cee5fce1eb385 ASoC: soc-compress: assume SNDRV_PCM_STREAM_xxx and SND_COMPRESS_xxx are same
+4d1a9952dda649284413e6ff12b81db3a2bc4115 ASoC: nau8315: add codec driver
+9352d45a6e4588b8c7ddded871e08d89e0e6b79f ASoC: nau8315: revise the power event of EN_PIN dapm widget for symmetry
+068904bdb562cf4f426f85f90d0e191dea0d33b7 Merge series "ASoC: soc-compress: tidyup STREAM vs COMPRESS" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
+50dc5f5c735807abf04012ee5ad6149eef64508a Merge series "Fix vaud18 power leakage of mt6359" from Shane Chien <shane.chien@mediatek.com> "Shane.Chien" <shane.chien@mediatek.com>:
+513e22f384f04f205c9501372d04ece070cfc1b4 Merge series "Modify documentation and machine driver for SC7180 sound card" from Ajye Huang <ajye.huang@gmail.com>:
+f84e566ac5e5f778695bf69f0af5854ff4adb527 Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
+02050db88364c5fe7671b89369d054dbff608e2d Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
+9980150e93d013d7c03fb8c5f22fdd15646502cd Merge remote-tracking branch 'asoc/for-5.11' into asoc-next
 
---===============0924525979652138660==--
+--===============6417413058741138617==--
