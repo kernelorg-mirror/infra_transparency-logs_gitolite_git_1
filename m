@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 10 Nov 2020 20:13:10 -0000
-Message-Id: <160503919092.3663.8713858233469845107@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2928947269589019405=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 10 Nov 2020 20:14:36 -0000
+Message-Id: <160503927660.4217.17706170400525719962@gitolite.kernel.org>
+
+--===============2928947269589019405==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/net-next
-    old: 440f8c3c5a964cbb227a01a909bed88640167731
-    new: 62eaa18d8afcdeaab27e1b9a69292b55b2402fdd
+  - ref: refs/heads/master
+    old: 095f2a1d71428985660d0566b11406d63b4a6670
+    new: 218554c9bd268562c3538bb1800ac86136e6d52a
     log: |
-         64147ea640ed984fbeaeaf3c01ef7323865b01f0 Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-         6ff7b24c79da92bcdd5ed71d53b447e0af04ab0c Merge commit 'refs/changes/08/347108/7' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-         5d85a4e3e00c8ba393a6d571af8e0f19b23e1210 Merge commit 'refs/changes/48/344848/6' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-         0813d68ca2875d81db14623fb247c0e17bbfeff7 Merge branch 'net-next-mlx4' into net-next
-         9f465ba176f5f8ceb14c36d45a3e12366e898608 Merge branch 'mlx5-vdpa' into net-next
-         98f641202036371e6f18a561fd09795d437068f9 Merge branch 'net-next-mlx5' into net-next
-         281807688bd07a370ac646651fbf1adf9cf53a5f Merge branch 'net-mlx5' into net-next
-         62eaa18d8afcdeaab27e1b9a69292b55b2402fdd Merge branch 'net-next-test' into net-next
+         218554c9bd268562c3538bb1800ac86136e6d52a Linux 5.4.77
          
+
+--===============2928947269589019405==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605039340 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1605039274-849606e1ee4e1b5c56937e4ead5ac0aecc1cf8a9
+
+095f2a1d71428985660d0566b11406d63b4a6670 218554c9bd268562c3538bb1800ac86136e6d52a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+q9OwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+khIP/RuIxUOzhMxyK0qfamQp
+wwERBq5bm4AyMOpQjIP4zeV3taqbetZAUu1fbe5Nj13JeiINhkypa9bXyhOU+SMX
+K/qkb2cL6rBl7n2qmYo6imQTf4VQtDEw1ldBrgfFL/2V49cI8e2WOrrnlkmdJaE6
+cEzn+MKw5RFHzK77cYGZOSjc/QeRgbdPZQTRGrCVPXFraOk5P9QfRq8Y9tcPA6U+
+DyfAfLUeQimx4hn6smFLeMA8Mma8VIGFbKaRPF0cWJfASSPM9Mnik5r2SMzTVAXM
++NCA8HoFTWmsRHAY2zwBZpur8A29V/CxS5qK0+rmDA8bd3rET9EHqJ7y8aRyZOeC
+U3+EAsCa89YcMZKqReEEnxHG6NW+qeJCNPA+lZsiXyx78x+i76gkV7X7R5NvgNGQ
+gx8sGyWFZLHqUNstC1HA5B9a0dYqz+Xf61IEOYDOE7eIl+nx6z+0fjtKEH2BI/2a
+E5DWmUSljzHSt2snELFJg5lwdm+2fM6jARopyoXnmi6ssS5HX+zu2nmCMdKaCnu5
+XwGb5JEBK7AowfTFGz/N8ynVyCsOxXktKf2gQSk/BlJheZfdphEm6bEZek4kq2ps
+buKj2BeSPWYWWJ1Z6q7HoCS/RFRfk9R+rOB8QekXpLspSVU8QsG7NSSV5RaudnJY
+R44gN3vULUEzsgj13J5fCqGZ
+=kztX
+-----END PGP SIGNATURE-----
+
+--===============2928947269589019405==--
