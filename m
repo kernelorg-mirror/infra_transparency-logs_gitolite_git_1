@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============9203745601211648059=="
+Content-Type: multipart/mixed; boundary="===============5059201990210141115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 10 Nov 2020 20:14:39 -0000
-Message-Id: <160503927926.4284.3793578656013099920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Tue, 10 Nov 2020 20:14:49 -0000
+Message-Id: <160503928977.4433.9059291991123465735@gitolite.kernel.org>
 
---===============9203745601211648059==
+--===============5059201990210141115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.4.77
-    old: 0000000000000000000000000000000000000000
-    new: 47d94a094ea968741a7be178bd4e8ed1047a4320
+  - ref: refs/heads/linux-5.4.y
+    old: ec9c6b417e271ee76d1430d2b197794858238d3b
+    new: 2544d06afd8d060f35b159809274e4b7477e63e8
+    log: |
+         19f6d91bdad42200aac557a683c17b1f65ee6c94 powercap: restrict energy meter to root access
+         2544d06afd8d060f35b159809274e4b7477e63e8 Linux 5.4.77
+         
 
---===============9203745601211648059==
+--===============5059201990210141115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605039343 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1605039277-cd9819290bda9def86b2695fe35081ddde7e8f56
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605039353 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1605039287-71754da5add837e09c0e762925ef759ad5c6b135
 
-0000000000000000000000000000000000000000 47d94a094ea968741a7be178bd4e8ed1047a4320 refs/tags/v5.4.77
+ec9c6b417e271ee76d1430d2b197794858238d3b 2544d06afd8d060f35b159809274e4b7477e63e8 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+q9O8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W+sP/jjnGUjGbI6+qYBe5liY
-oteXRegfR6y6tBOz250Dqgu91TfoP/0wwXJ7gMoxD3VbeDED+v7Nzn6jlctLiNxU
-Dcklqi7P1hjPqREmLtVqjyzT7JSEzzBeSXMdvsYLQc/hlkTi6QFQSwmQcJyTuN61
-Lg9ZD1ns9+1pGY9TQ43Y/KedzF1/PR37aHs3yYzkA/SCGS/yXEjbut8opTWGblsy
-v8KQ1Cn3fE6ZQv2vwW9LLEqJejnoeWUm06jR80ou/I43VQBWjHqvZhX4g5q6vmyV
-vudnlh2L+arfwKiyBHQ30fpn7F+yMO2ElrOOkOTWVReS/Z3k4+1tusQWpn78Bxs/
-gDfI+/bwP9DyBUL0bT56NQeMe6LwKCltFtdJYELeDLzyuZrZ2yhbzOAG5B/I1A2j
-f9wUK4PB1fBiGfuUAG+ePwZq6O6JLDBQHED9xW23dgfZCfgton1PPI580GwwV2kN
-QyhQ6jhE+fwVZUHRTZeJzRCFFL1NUSWQ5Sqw+MdCXQIR2mtgT7HlFhohSqpmgIiG
-dmiQlYMQqSeq2kLWjcFEV14FclUs/CmFcxPBz5gnq0jYeDKgOMJhNwEUX3f8EMPr
-uAYbnL2aCc2g1xghm71tEXonbgLcBxwA/BQcGlRl9cBzwSjvobl4EHtKR49R/Psg
-tY1XOKNc0CgiSjbuhKKYYGLv
-=lKPQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+q9PkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QxkP/i9rhSOQe0fTn1k3iHhC
+IU4wdCQiACF+4RhGLw5JQIISR4StpAyLzCQidFRn4jCi9TD7XPSMza5neoLZlrQu
+ir0G97faWju0YbfYJgrUEB8+qSnKRvpc/Nffoxi8Eo+4BvUP2m0LokD+dEayIE0N
+0MiVZBbtZELc297zW+ixxjDielBpAQykwQkrx8sCJQasMaEUP/wGG8dwdMnyoS+G
+BqhPwbuW02uSq6MzrLa+Zh90+w7xzwg9ilcrUGq9esZ6mg8KOlnesOBAsuM/+EPK
+QmgMMx1OEoeXEdNzwv0+gjzyHT1xVH8clA4j1E8fZGAaTYUgVhgyWGiNCtNcMLkU
+lnuVuLZqv7DAvaYFL18Q4xC+xSRS3E7Uzt1d/w0/0Euu0wEwV1mtrczoTFRvcDlN
+LujBxUVW1yR9wD6Yv8dmEc+dCeIFgPagtxzZNdAabK2RoZvBbgtB8dQ8zAXpZ943
+sOhkLgbZZtr1QYFVCWkwTZrY98XlIxkUvVK/ktCQtLmbvlwTqAygPM91IqtICgoh
+NuFCOhNfrWOQZI0Gn8Dl7VD9ar+u2ToyIDHU11J4FkB3D3DGCdptDV6RQ3PkSQEe
+6YaW8bIfgJ1rg+zuZa7MA6qniIrW5b83CfKfIpHrf0Ye62KUwLUUkgQost5RwAoO
+y+Et3iv6eSBjOOwMCedwv1ZI
+=upj8
 -----END PGP SIGNATURE-----
 
---===============9203745601211648059==--
+--===============5059201990210141115==--
