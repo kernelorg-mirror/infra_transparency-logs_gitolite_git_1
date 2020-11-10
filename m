@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2842081896634116803=="
+Content-Type: multipart/mixed; boundary="===============1718053548820268514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 10 Nov 2020 20:09:48 -0000
-Message-Id: <160503898889.14848.9039133426701750540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Tue, 10 Nov 2020 20:09:59 -0000
+Message-Id: <160503899910.15000.8122093205162961195@gitolite.kernel.org>
 
---===============2842081896634116803==
+--===============1718053548820268514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v4.14.206
-    old: 0000000000000000000000000000000000000000
-    new: 9aa16ae87070e59951c7737aca683796f0d0f6e5
+  - ref: refs/heads/linux-4.14.y
+    old: e98f3c4269fda898b913259a7d9b60fb38269869
+    new: 27ce4f2a6817e38ca74c643d47a96359f6cc0c1c
+    log: |
+         bab6310b64994ee6ca679d86c90ca24111783516 powercap: restrict energy meter to root access
+         27ce4f2a6817e38ca74c643d47a96359f6cc0c1c Linux 4.14.206
+         
 
---===============2842081896634116803==
+--===============1718053548820268514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605039053 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1605038987-30b288f93ecc79e0915afac49ba9d4d168310528
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605039063 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1605038996-1cef29285be4f073fd053c869a150c9b54df0e31
 
-0000000000000000000000000000000000000000 9aa16ae87070e59951c7737aca683796f0d0f6e5 refs/tags/v4.14.206
+e98f3c4269fda898b913259a7d9b60fb38269869 27ce4f2a6817e38ca74c643d47a96359f6cc0c1c refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+q880bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KvsP/AmIo4KE8NgZ8fh+2NIb
-EYRmqfCuAWbB5FD5CvhaaRUMua/M5h7sXWzZMYmvwx3QodYZI6ik1Yjnx8IjQeBn
-l2KOc9I+4BAzVPaTMJPtFx0Aqp4qYC68Ritz4KhC0Z4FwWyyQg6DhLv7F0C1speh
-hXXe2HOidRgWWWM4xViAimF/1RtXr10vmbX6m/SCwGwQFkinuFYrl7Xt9g+25LRQ
-LEXvyN1vST5puwfGEqh/Uxy++vgEmVjpohRqBgFjMd8S8TWswhZR1VZw8ZOVnWE0
-P4D9nfE8UICL8BaxF2wQC1nV8BLdHfnH6eLedTxmiENadOpuZKooIijMcWNv2Brq
-LswWTlb5se9RUxilmrrkG1h0xlzo9Zhg6fCDdQxNaN+FPWBfp0VKfQRABTq5+efl
-qI8CAM5sKB3g0RucmrZb1qYQmFQ73R5WK+Ha0+QuS8JU8pDNbEP2o73SWjzyntiM
-DnkDp/6g+xhFh4F8Ry4TYYhFsZ5wuILmMdgBZ9l+uG5gRE2rJDuPiPEmYrqZzm6K
-H9AGqZl/Ydw9gTrXhssubVgAKuHs+ItVVpl/Kjt9fAq6S0O5NXt2zV+Gsvnwodgg
-Eu0qIlmwe6zD844gNFKPryqg9lywJTLURzW3oPLrX1xEw18eOcMPiM8Ha1BzK4Sy
-evceAw1+Ok0rcoHYU2W5Z+c8
-=WiW1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+q89cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iKUQAI/OJfZmTSqmobUNhurP
+ImFkV/bPPZMxmzIAKEGH+7JOf2cmfLCA/F2qmZu7Lnp0OrLHDnhloahUUlMI6ZH1
+7LIqrVZN/2LN5Nzs/lxKJVVVA+izE+hu8vLNGVTGPN5x9UvYAuCaQNzY4ICZh7D8
+1PJSjIAbVAUWguvC7bho5i4mNZV/nCzEkoTX4EeqDI7uVTMU+FTXwCF1K703TsNI
+HM8mhoB9sevmk+lCL2hTUuTMhPStA9ZBUC1bbjXmzQv2EhzjL9DC2xXLKIrmPrqX
+PP7iu4EJWB9aHFAnj6IaLDyk7ZQ8E5JimdTo2WuE0DW6S8NrW5Db2bhKlNdAUmJ1
+8LaDdNUrX8A76GUK41dbD1sDVTO/rBUK9o5RutAZ8vFsvwsIs6ekAfxYRgvOvbPh
+qgBYFl7gpqBmEZVl6ykHwefl0qvS5ET6lXGWwGXexkkszUX0hhAudw2Xu05MktpC
+vLdqJIWleDeDMO+UpHmzrXKscpKHmThPs7S0sJw6vZFpe2DxjLqIwM5gxNMc4vWY
+8j3XkvFPo/MWwxN0j/p2dZw8o0g4LzEKBq0SlxkPsllLcsJru1j5VrZCQaMSUYZX
+jCPnHtbDDVzO6KDcBdZr6OrvMR7H3puZvN87Lk0G900L6Av1zTVeLThL//TvcElT
+x8IbIfvbtp8iKUQ1o7XzVQK3
+=UqRS
 -----END PGP SIGNATURE-----
 
---===============2842081896634116803==--
+--===============1718053548820268514==--
