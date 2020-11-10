@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9166282631884385644=="
+Content-Type: multipart/mixed; boundary="===============5099833786692370075=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Tue, 10 Nov 2020 20:54:13 -0000
-Message-Id: <160504165304.4210.14119883579801153216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 10 Nov 2020 20:59:30 -0000
+Message-Id: <160504197048.7482.7683861119119569292@gitolite.kernel.org>
 
---===============9166282631884385644==
+--===============5099833786692370075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 76012c2bc85131cb01520b06e6b301c08aee623a
-    new: a6f716dd71976fc8db18eab3c463f1af7de09fa1
-    log: revlist-76012c2bc851-a6f716dd7197.txt
+    old: e7d17441ba034203fb6bb77663acfa7635038b37
+    new: ff3b23236e463504e026e8f23afef88376bbe037
+    log: |
+         ff3b23236e463504e026e8f23afef88376bbe037 move everything back in place.
+         
 
---===============9166282631884385644==
+--===============5099833786692370075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76012c2bc851-a6f716dd7197.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f343b0e3ce495a9442f3bd270c94922a28412b99 mm: Add 'mprotect' hook to struct vm_operations_struct
-f6a5254ab894a6c27860e13857cbf70e866c875b x86/sgx: Add SGX misc driver interface
-fefe9499549d4f6602bdbfe580878a815b9c814b x86/sgx: Add SGX_IOC_ENCLAVE_CREATE
-3cce7c8e65a7b1ed6de9ed6fc2a0e3e50bcdf4a0 x86/sgx: Add SGX_IOC_ENCLAVE_ADD_PAGES
-329ba46df79c8c23a8b71cc30c73ec2eac03b5db x86/sgx: Add SGX_IOC_ENCLAVE_INIT
-cae554355ad0bd3da60f36368c5d486a0ab4e422 x86/sgx: Add SGX_IOC_ENCLAVE_PROVISION
-7747cc9f45b17f88f2c4002f5591db5141d59c92 x86/vdso: Add support for exception fixup in vDSO functions
-cb3c18baf25f36e57f080ceaa63ab7bde0ad26ca x86/fault: Add helper function to sanitize error code
-3746f18de98fdab72f8696ec387a67f76eee5e1c x86/traps: Attempt to fixup exceptions in vDSO before signaling
-fe9f9fcfa5360ef6da5db037188a705952975fb1 x86/vdso: Implement a vDSO for Intel SGX enclave call
-28a26aacb65aa921c2188e9e5fc2946841b36d79 selftests/x86: Add a selftest for SGX
-9d2cfcc990dcb94b418d588e23a86da55cd6df4a x86/sgx: Add a page reclaimer
-0123d2af58ec7462bcf5306cc9d277ffd00fc869 x86/sgx: Add ptrace() support for the SGX driver
-245f729bd1919f5d1098027e1378178bee4459da docs: x86/sgx: Document SGX kernel architecture
-a6f716dd71976fc8db18eab3c463f1af7de09fa1 x86/sgx: Update MAINTAINERS
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605042030 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1605041963-adf7fc02138594a7a3f06b97d2b5c4275ed9f38e
 
---===============9166282631884385644==--
+e7d17441ba034203fb6bb77663acfa7635038b37 ff3b23236e463504e026e8f23afef88376bbe037 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+q/24bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PwQP/1xN0zUamYS2sYWWQch9
+qaW+g0486eYOrYFA5LgCmod9f1gqL8XJxLwawPBn12ipjeLa4SGT6W83MCKN10iu
+mHZsv0R4a5Ba5I5Zts7T3wsgRdHq55sNqhQraEVNhQw7c3aIBve2npt7Djt1t+f2
+pKZQZQ09meERhRDP2Rtj8cf26GhJPI4ClVt8EMDlFZlz4Q/Dqi78wVflRkpXy9MT
+6ehpVPjxEW/dSmfzQs7HpAt9Y2E3LFl16jdFWw1XtuXNh6ekpzWzseX3acr0dBQW
+DsJoi5jDdZe2YlK1Ny2uRaTHRYKoj56rbFEYiL2DXaqVxoEBqnWXl77aOsB9ZiXn
+SBG3H9xUu5wIiyvyWCTNSGBAQ7TkGYhKGVqpZyble6TRp5oxRKj26PiJaAkqeJtK
+U9TFFN3ckU2p1YYtjRWJKwzwEnWQWszU7EwPW7nvyw/ermxDENxBex/YpDd8S7cr
+lzSr77VQWujZGzNu6QkLzpCm+Qe51LBDKuX8pRWs9at9rd4i6jUJqCslvpWddsPB
+n85qf+g9vQOvIth5XI4FXZeuoDomRwOCWstfY0S84XzJ46Vi13Enw5EwEPI1sGdv
+/6SYZP+cHDWM604hkNCbP9V+Ev90ouzUcUXlgZfnhjrtxolDFuzRxXWcfLdwMHr3
+x5Iwr32DQMnsIE/H9LYBrwtR
+=vQAw
+-----END PGP SIGNATURE-----
+
+--===============5099833786692370075==--
