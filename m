@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============2250774675055492452=="
+Content-Type: multipart/mixed; boundary="===============3711298770027859659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 10 Nov 2020 09:29:23 -0000
-Message-Id: <160500056374.19123.2001096537298027110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 10 Nov 2020 09:29:41 -0000
+Message-Id: <160500058159.19358.11403344308647771090@gitolite.kernel.org>
 
---===============2250774675055492452==
+--===============3711298770027859659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 31881b6f257f855d71cb51f45d16229c104e0c54
-    new: a986fdde17d6ec5a0a15a4ce6b5186a36d318cc9
-    log: |
-         a986fdde17d6ec5a0a15a4ce6b5186a36d318cc9 Notes added by 'git notes add'
-         
+  - ref: refs/heads/net-next
+    old: 78625aec6d51188c779f108bcf4598402b2f345b
+    new: 3a933d121e81626afdc8501c98cb5928370ffd40
+    log: revlist-78625aec6d51-3a933d121e81.txt
 
---===============2250774675055492452==
+--===============3711298770027859659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-78625aec6d51-3a933d121e81.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605000623 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1605000561-b8b4e544669f1b96625abdd219a457ed78270452
+848c93a1b9dd4990e08543a972396a2eed8b61d8 net/mlx5: Add sample offload hardware bits and structures
+2d1f4c827246c77c612a01464ffdc98cd5658990 net/mlx5: Add sampler destination type
+2fc0375ea5bc16ab73205e548249434110b38cbb net/mlx5: Check dr mask size against mlx5_match_param size
+c32faf13cb67cd0f7f7ef6f00a6af77cef1589dd net/mlx5: Add misc4 to mlx5_ifc_fte_match_param_bits
+8f1f5423f065cf30707b0fbe0296867e39e3a3c8 net/mlx5: Add ts_cqe_to_dest_cqn related bits
+c813238c02d5a0306553e6a4fa40753ecac516d1 net/mlx5e: Allow RQ outside of channel context
+020e1c780bf414de82cbb1f26ab71e0368b74b4d net/mlx5e: Allow SQ outside of channel context
+a65035cdc7b34bd1014649ea8776f8b6c8d92b3f net/mlx5e: Allow CQ outside of channel context
+6dd5c5ebb4bb26f08985b2a3ceab1b3338cac371 net/mlx5e: Change skb fifo push/pop API to be used without SQ
+d46a802b47934ef18f57013150c3173a06dd5b42 net/mlx5e: Split SW group counters update function
+8845a60be6f462a980ab978137a6676c296dad9f net/mlx5e: Move MLX5E_RX_ERR_CQE macro
+4edbe5ab11c6a9c95d087b6ef2911f909ec574bd net/mlx5e: Add TX PTP port object support
+32db6620ac221d754f2e3cf8df7b7cce590b5688 net/mlx5e: Add TX port timestamp support
+0bd5e0b1dffca84c342225039f5679aca3c479d9 fixup! net/mlx5e: Allow RQ outside of channel context
+190f99838f840a83df432f106e2df20c8bb2547f fixup! net/mlx5e: Add TX PTP port object support
+baae03177032aeca7cd92c32a0291c48c85a0ee1 ethtool: Add CMIS 4.0 module type to UAPI
+d2d0431e4ed9b483962749729c2448ebac2eb420 net/mlx5e: Add DSFP EEPROM dump support to ethtool
+4091e710754b484fad3761c3e3fb6bbf9ba3ef23 Merge commit 'refs/changes/83/331183/14' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+ef101640929a2b44e0a6edb5f69f8866d86495ee Merge branch 'net-next-mlx4' into net-next
+1ca5a747da9d6bc802b6f82d863558f27ba27224 Merge branch 'mlx5-vdpa' into net-next
+91c5f299e8774fe0ae94baffb735427dd1972e4b Merge branch 'net-next-mlx5' into net-next
+254a0ce7b90127a0af44f5e7b54af1eb533fad07 Merge branch 'net-mlx5' into net-next
+3a933d121e81626afdc8501c98cb5928370ffd40 Merge branch 'net-next-test' into net-next
 
-31881b6f257f855d71cb51f45d16229c104e0c54 a986fdde17d6ec5a0a15a4ce6b5186a36d318cc9 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+qXa8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wLEQAK4ROal6tVZhNkuJH8kL
-BJ7ynNQ5uxGmX3Vi5jz0iOP6Qr43KbY3XFzlzDu/yns97Xw4UBjB6vO7IhEvapBB
-uZgYX8sEvzCXVwavyVkwB7Cx1boOjKINOzbNkqc8+qCl2pImw8i7H8Ad3+fJca9Q
-gcO9S48GrbV64bxOBlkwB3OVd3jEb8b5flHPb5N5CG8CIDAAjPabIgIRsnEOZV5l
-49g8uzGNeJRkbqq7qJzJJlvMjZRl7RkCnW3SAf72p6wLitKgAD14p0uHoQENb8hJ
-lb6404k8pk48ex4ZnsC0YmIupYlxgK9hDuNK0GeUFKUbpfZKwXYZS5iei0Cj3bIB
-PCTD63hzNMlxWJzX07McXGDPAxYy7b2pMQyxlSBFk+gjbi8IoaRgIpAILcVazbWd
-8eF5IW20WGE59VsrhiaAcv8eYBfP5nM6erCKzhHz+TLU7qEc6IbfYmpbqGOEWUPc
-9tI24PoOEF2i2NhGPzHvdVAe3JitfF5S1SQtd+GWe4Qk4SG8qnEcrYx04ee0w8sJ
-CDryWnUCfglsAvq65SgxoQ663C2cuA7pc+H7yylI/SoirJPbh3ReoB65gZa3n3BC
-p3A04ZIXy7+vvK1iPy9U91G5T++DoJpCyv6atHsEVKMFvbEwtDhUnIUIWmOXJ9Un
-oh2W47dQdz3NIojcz22dvlWi
-=MAfQ
------END PGP SIGNATURE-----
-
---===============2250774675055492452==--
+--===============3711298770027859659==--
