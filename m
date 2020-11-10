@@ -1,51 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============8659271583980691197=="
+Content-Type: multipart/mixed; boundary="===============0924525979652138660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 10 Nov 2020 16:01:08 -0000
-Message-Id: <160502406893.11418.2108010488369973843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 10 Nov 2020 16:01:34 -0000
+Message-Id: <160502409433.11720.14740733186839346265@gitolite.kernel.org>
 
---===============8659271583980691197==
+--===============0924525979652138660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/spi-5.11
-    old: 9bb9ef2b3e5d9d012876e7e2d7757eb30e865bee
-    new: 1dcbdd944824369d4569959f8130336fe6fe5f39
-    log: |
-         0e685017c7ba1a2fe9f6f1e7a9302890747d934c spi: atmel-quadspi: Disable clock in probe error path
-         1dcbdd944824369d4569959f8130336fe6fe5f39 spi: imx: fix reference leak in two imx operations
-         
+  - ref: refs/heads/net-next
+    old: 000321502531bbe21af72f8ae3e195ab16c8ebc8
+    new: 3a96d0440e7258c11779b8ad91e072e9330ffffd
+    log: revlist-000321502531-3a96d0440e72.txt
 
---===============8659271583980691197==
+--===============0924525979652138660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-000321502531-3a96d0440e72.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1605024055 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1605024067-fad20dc384a194e7ed72ad7abf15e8153357c97d
+e03e9a0b4f23c7465edae0468e8b98705be3b0fe net/mlx5e: Fix modify header actions memory leak
+0243c756111f671d85dad2545834bf68924cd165 net/mlx5e: Protect encap route dev from concurrent release
+5cbd9fdca9f33957a6ddfadaaea8c3d1df3c009c fixup! net/mlx5e: Fix modify header actions memory leak
+49ddce2648c93c8f74cee8f888a8ca77c3f91e72 netdevice.h: Fix unintentional disable of ALL_FOR_ALL features on upper device
+7eb5d2bf18b637944ac9138655ce4266e3519229 net: Disable NETIF_F_HW_TLS_TX when HW_CSUM is disabled
+d44822a4dac5ed541281557a31c8dba19b01a3ab net/tls: Fix wrong record sn in async mode of device resync
+3e2f15330cab57c7548d2111d41609a3a96b2723 Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+a18c8de33dca9351406a4153a149b29566599076 Merge commit 'refs/changes/08/347108/7' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+000cdb0e1f21758aa8208b6fd2658b4a8cd53c76 Merge commit 'refs/changes/48/344848/6' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+59633d6a30ad8e7feca095df092beb4fe5cbf0a6 Merge branch 'net-next-mlx4' into net-next
+37d81c1af5a6b3c2e78c2996d7cceb242e0d52b7 Merge branch 'mlx5-vdpa' into net-next
+b4a1e25c65785eaaf2bbff301247790283cf0536 Merge branch 'net-next-mlx5' into net-next
+0a2d7f5a75f82010130853528b75efc6a1243778 Merge branch 'net-mlx5' into net-next
+3a96d0440e7258c11779b8ad91e072e9330ffffd Merge branch 'net-next-test' into net-next
 
-9bb9ef2b3e5d9d012876e7e2d7757eb30e865bee 1dcbdd944824369d4569959f8130336fe6fe5f39 refs/heads/spi-5.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+quTcACgkQJNaLcl1U
-h9A7uQf/QrAPLvIB4Ko27Px/CWLdK+VEyX6huhTpQXXc6JlD1kdwV22EnN7+BWjj
-va+97o5vSICRgVY04e98xozCoZMTf7huPGlg6qt97vIqAz9Klf2g8lW2pY1CceBL
-nBgO6iq+swP7AP8jFw/iRdWCzIVaW/g7N7RNNi8Gr63m47BkQFXoWz8Udg6K4/7h
-wPLWn/hQCzRuyOb07de5AukNqCdG6u7gZnbhVKQsVE5dj06fwALJ7C4Xcn31xKwE
-zqFiA4+usEkiJrdT3/nx7wuk0lQBzex/473v3gtw1CcHzEUm9UXIXJGOfaWb7n7l
-+XtU2O/PzZHmhhnmOnyIxA7+jMPIPA==
-=/LYk
------END PGP SIGNATURE-----
-
---===============8659271583980691197==--
+--===============0924525979652138660==--
