@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6357616600926724934=="
+Content-Type: multipart/mixed; boundary="===============0511931582503101041=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Tue, 10 Nov 2020 00:04:26 -0000
-Message-Id: <160496666649.11597.8003520770577285201@gitolite.kernel.org>
+Date: Tue, 10 Nov 2020 00:04:31 -0000
+Message-Id: <160496667173.11677.12755559506750816446@gitolite.kernel.org>
 
---===============6357616600926724934==
+--===============0511931582503101041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
-  - ref: refs/heads/for-next
-    old: 5271e5c05ae63512a27b286262b2434d77e828b5
-    new: 2e365215868e3d0ab7cedd96d82a67b13a3b37ac
-    log: revlist-5271e5c05ae6-2e365215868e.txt
+  - ref: refs/heads/v5.11/integ
+    old: 43ab9ca6295566ae5f60a918ce8294386094a27c
+    new: c9789a5e7b823f3ce709bcc681b2132478fa731c
+    log: revlist-43ab9ca62955-c9789a5e7b82.txt
 
---===============6357616600926724934==
+--===============0511931582503101041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5271e5c05ae6-2e365215868e.txt
+Content-Disposition: attachment; filename=revlist-43ab9ca62955-c9789a5e7b82.txt
 
 7fe94612dd4cfcd35fe0ec87745fb31ad2be71f8 xfrm: interface: fix the priorities for ipip and ipv6 tunnels
 9fe9efd6924c9a62ebb759025bb8927e398f51f7 ASoC: Intel: kbl_rt5663_max98927: Fix kabylake_ssp_fixup function
@@ -509,7 +509,10 @@ df53b815c799cab8c6e04816b5005810a57ea6a3 Merge tag 'usb-5.10-rc3' of git://git.k
 bbc821849eba179e62bbe2adba19a87c7686c27b Merge tag 'tty-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 15f5d201c1773297b38a11a0064be76a224d073d Merge tag 'driver-core-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 f8394f232b1eab649ce2df5c5f15b0e528c92091 Linux 5.10-rc3
+3129cb14d1e99d7f80b25108281da37287c141fb reset: meson: make it possible to build as a module
 56fe771331ad3ff28038d17a1f799bcf2be31e08 Merge branch 'v5.11/dt64' into tmp/aml-rebuild
 2e365215868e3d0ab7cedd96d82a67b13a3b37ac Merge branch 'v5.11/drivers' into tmp/aml-rebuild
+c25a9d76ec6d135e762f0d265684d7d59922184b Merge remote-tracking branch 'clk-meson/v5.11/drivers' into tmp/aml-rebuild
+c9789a5e7b823f3ce709bcc681b2132478fa731c Merge branch 'v5.11/testing' into tmp/aml-rebuild
 
---===============6357616600926724934==--
+--===============0511931582503101041==--
