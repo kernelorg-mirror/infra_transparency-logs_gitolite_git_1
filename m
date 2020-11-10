@@ -1,60 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0684959211831212703=="
+Content-Type: multipart/mixed; boundary="===============5356821180015361549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 10 Nov 2020 18:08:41 -0000
-Message-Id: <160503172160.5931.16423405912020679393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 10 Nov 2020 18:09:03 -0000
+Message-Id: <160503174387.6130.14521008572335369447@gitolite.kernel.org>
 
---===============0684959211831212703==
+--===============5356821180015361549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 407ab579637ced6dc32cfb2295afb7259cca4b22
-    new: e2f0c565ec70eb9e4d3b98deb5892af62de8b98d
-    log: revlist-407ab579637c-e2f0c565ec70.txt
+    old: e2906e5dcabb5b22556c5a55f2228b7f3c90bad4
+    new: f23ac67e23d8d1e407618c9275e4e79c01489c89
+    log: |
+         f23ac67e23d8d1e407618c9275e4e79c01489c89 drop 2 5.9 patches
+         
 
---===============0684959211831212703==
+--===============5356821180015361549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-407ab579637c-e2f0c565ec70.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d76bb7a09bb3b8711077912f3e80cfcf39cd9d0b tools/power turbostat: Print /dev/cpu_dma_latency
-9aefc2cda6353f48708415d9adc5dff4deb73412 tools/power turbostat: Always print idle in the system configuration header
-7c2ccc507bd44d17227930181f937b2066565349 tools/power turbostat: Make the energy variable to be 64 bit
-87e15da95775a2ffb8c444e84f08ca982b758364 tools/power turbostat: Introduce functions to accumulate RAPL consumption
-9972d5d84d76982606806b2ce887f70c2f8ba60a tools/power turbostat: Enable accumulate RAPL display
-8201a0285789fade1c5b031914577e2b27a64f05 tools/power turbostat: Use sched_getcpu() instead of hardcoded cpu 0
-b88cad57d4d32bb5c53cd8e0ce3a1971062142af tools/power turbostat: Replace HTTP links with HTTPS ones: TURBOSTAT UTILITY
-fecb3bc839df64761cc63c9ee9b45c1cad36aee8 tools/power turbostat: Fix output formatting for ACPI CST enumeration
-e7af1ed3fa4756e8df8270a8635d852a94266061 tools/power turbostat: Support additional CPU model numbers
-c315a09b1b0f491c27d46e9d05f397023a44fb81 tools/power turbostat: Skip pc8, pc9, pc10 columns, if they are disabled
-0936cdfbb527a4fa2559292069ebff2e8cf2c843 tools/power x86_energy_perf_policy: Input/output error in a VM
-b4b9156953fea108a9540c262e48eafeeff99ab0 tools/power turbostat: Add a new GFXAMHz column that exposes gt_act_freq_mhz.
-20de0dab238849414d33c81bc96e2db68cc61467 tools/power turbostat: Remove empty columns for Jacobsville
-33eb82251af9be47a625ca1578f44e596a3a0ca9 tools/power turbostat: Support AMD Family 19h
-4be61e6b769fc3f97b58870aa4258e27968f07e1 tools/power turbostat: Build with _FILE_OFFSET_BITS=64
-6ff7cb371c4bea3dba03a56d774da925e78a5087 tools/power turbostat: adjust for temperature offset
-3d7772ea5602b88c7c7f0a50d512171a2eed6659 tools/power turbostat: harden against cpu hotplug
-a1fbc6750e212c5675a4e48d7f51d44607eb8756 btrfs: fix potential overflow in cluster_pages_for_defrag on 32bit arch
-e38fdb716702879a942017c85e84c0a3a9e4af96 btrfs: print the block rsv type when we fail our reservation
-fca3a45d08782a2bb85e048fb8e3128b1388d7b7 btrfs: fix min reserved size calculation in merge_reloc_root
-f07728d541ebefcf3d2ec7bc99a3bffd052d9f90 btrfs: clean up NULL checks in qgroup_unreserve_range()
-a4852cf268b5ae487ba18f2b24e44094afce0675 btrfs: scrub: update message regarding read-only status
-cf89af146b7e62af55470cf5f3ec3c56ec144a5e btrfs: dev-replace: fail mount if we don't have replace item with target device
-468600c6ec28613b756193c5f780aac062f1acdf btrfs: ref-verify: fix memory leak in btrfs_ref_tree_mod
-92cfcd030e4b1de11a6b1edb0840e55c26332d31 fscrypt: remove reachable WARN in fscrypt_setup_iv_ino_lblk_32_key()
-949dd0104c496fa7c14991a23c03c62e44637e71 powercap: restrict energy meter to root access
-3e9fa9983b9297407c2448114d6d27782d5e2ef2 tools/power turbostat: update version number
-8bff39bfdc30c9bd6e152eb88a0bd6dd35bdd760 Merge branch 'turbostat' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
-52d1998d09af92d44ffce7454637dd3fd1afdc7d Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt
-e2f0c565ec70eb9e4d3b98deb5892af62de8b98d Merge tag 'for-5.10-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605031804 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1605031738-6334bf1c4b5ed8e397d253697b65cbf2095d5e47
 
---===============0684959211831212703==--
+e2906e5dcabb5b22556c5a55f2228b7f3c90bad4 f23ac67e23d8d1e407618c9275e4e79c01489c89 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+q13wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+maEQAMdnQ21nB58VBQtOXK1q
+qqpRa2IweVd//LJbKw2P97gIfDcuTmTgAOkv8peeFeuhwErHlX2ERVo7y+UapWbn
+ZKI3+Y0i8FYdFyBDzC5tGo4/Hokanj/qWd99qm3gZN2M2c+XyhohM0uRYxCU0scs
+rKc6OJahRhj0Jzodbayc0bVav137kdufvwMFaE7TjuSgyjCaWrB3qcnywraKLGJA
+8BDrMdHkFKZ9uI8Tuxo/BsYY4mE/UiZ2LTMLB8S5zT/CQ1W6uMZtSNsCljboLbgy
+9FTGyUlXSrJXi2C1dT6pj4GTplsJ6MFbNBV67CZzVU5FKg2d9NkzYumH7YoemUuq
+vwlbie1uX1FKAQdsOuRwSKaU1YJ8xuprboj06MRVFwRNh6ybkjKAM6tphAvd+EMY
+0E6n+bbfPLi+x1hJVsFqj8sETmJQyoyNSk6A7CAg05DgWinyc3doScS0VP5PBXDI
+2Tx7yz8tnomjK5RbigeX0EeMvydXX8E6wQKHQb4EIRWV5h94oktxEfOAR19A8co+
+/w9SxDRKOcGzB7jOiRspZG568MZBz/JWnAk/fSj7m9GJcn6ENpfxio0CFaDYRUJ5
+FPp6/Fphn1g50yDdZu8pZj1WikRiDKFAyEwmGBE6+GB0joWwbN4d4tdXoQ+H2psh
+Z+HyZE8O1NxsTJNM7PLaAXBQ
+=ty8d
+-----END PGP SIGNATURE-----
+
+--===============5356821180015361549==--
