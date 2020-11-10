@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0696886653453463200=="
+Content-Type: multipart/mixed; boundary="===============3415504907293860704=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Tue, 10 Nov 2020 09:39:35 -0000
-Message-Id: <160500117528.11041.5615942088410114590@gitolite.kernel.org>
+Date: Tue, 10 Nov 2020 09:40:12 -0000
+Message-Id: <160500121240.12636.18012693620407736303@gitolite.kernel.org>
 
---===============0696886653453463200==
+--===============3415504907293860704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 68bb4665a2ce1338a74867e71bd5182f5b214a91
     new: 8be33ecfc1ffd2da20cc29e957e4cb6eb99310cb
     log: revlist-68bb4665a2ce-8be33ecfc1ff.txt
 
---===============0696886653453463200==
+--===============3415504907293860704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1018,4 +1018,4 @@ b220a4a79ce576149a412c030fdb703144a07832 net: switch to dev_get_tstats64
 52643b7832d8dca9df647a6ce181e3faf86dc99f Merge branch 'net-add-and-use-dev_get_tstats64'
 8be33ecfc1ffd2da20cc29e957e4cb6eb99310cb net: skb_vlan_untag(): don't reset transport offset if set by GRO layer
 
---===============0696886653453463200==--
+--===============3415504907293860704==--
