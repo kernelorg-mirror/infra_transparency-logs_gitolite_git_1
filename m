@@ -1,23 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 10 Nov 2020 12:37:42 -0000
-Message-Id: <160501186282.6705.3981786006150365282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 10 Nov 2020 12:41:08 -0000
+Message-Id: <160501206852.9212.3862966918521692303@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: ab5d18e973fdfaa802a5486b72b55c139c69bd42
-    new: 32d81aff5beb53354d0235d4e378698f6770465a
+  - ref: refs/heads/perf/urgent
+    old: 7bdb157cdebbf95a1cd94ed2e01b338714075d00
+    new: cadbaa039b99a6d5c26ce1c7f2fc0325943e605a
     log: |
-         02162731c1899613bce2aafc825acc7baa3cc99a libblkid: fix memory leak in config parser
-         8f22adaaf30e9fd3bf83da0213b4a6525c9305cd libblkid: allow a lot of mac partitions
-         3fbeb9eeb86a04283e38ee9272a7726e7fbb8de9 libblkid: fix time_t handling
-         c70b4f2a5b99876d230b8f4f413c3bb3ee6647f1 libblkid: limit amount of parsed partitions
-         32d81aff5beb53354d0235d4e378698f6770465a Merge branch 'libblkid' of https://github.com/ferivoz/util-linux
+         267fb27352b6fc9fdbad753127a239f75618ecbc perf: Reduce stack usage of perf_output_begin()
+         9dfa9a5c9bae3417b87824e7ac73b00c10b6a874 perf/x86: Reduce stack usage for x86_pmu::drain_pebs()
+         ce0f17fc93f63ee91428af10b7b2ddef38cd19e5 perf: Fix get_recursion_context()
+         09da9c81253dd8e43e0d2d7cea02de6f9f19499d perf: Optimize get_recursion_context()
+         76a4efa80900fc40e0fdf243b42aec9fb8c35d24 perf/arch: Remove perf_sample_data::regs_user_copy
+         e506d1dac0edb2df82f2aa0582e814f9cd9aa07d perf/x86: Make dummy_iregs static
+         8c7855d82933bab7fa5e96f0e568fc125c2e1ab4 perf: Simplify group_sched_out()
+         251ff2d49347793d348babcff745289b11910e96 perf: Simplify group_sched_in()
+         2714c3962f304d031d5016c963c4b459337b0749 perf: Fix event multiplexing for exclusive groups
+         1908dc911792067287458fdb0800f036f4f4e0f6 perf: Tweak perf_event_attr::exclusive semantics
+         cadbaa039b99a6d5c26ce1c7f2fc0325943e605a perf/x86/intel: Make anythread filter support conditional
          
