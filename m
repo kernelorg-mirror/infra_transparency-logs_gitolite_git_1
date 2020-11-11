@@ -1,48 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============3674838803331818557=="
+Content-Type: multipart/mixed; boundary="===============8787046116336787779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Wed, 11 Nov 2020 07:02:23 -0000
-Message-Id: <160507814394.7958.362981183589030980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Wed, 11 Nov 2020 07:22:08 -0000
+Message-Id: <160507932815.19524.5521305101494397577@gitolite.kernel.org>
 
---===============3674838803331818557==
+--===============8787046116336787779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/leon/mlx5-next
-    old: cc6d3609a3d54e1f327893dc1389592bd8aaf33a
-    new: 2b794246b675a2d48318798933b81ad8c32d640c
-    log: revlist-cc6d3609a3d5-2b794246b675.txt
+  - ref: refs/heads/next
+    old: f8394f232b1eab649ce2df5c5f15b0e528c92091
+    new: 4e58171aa93fe8caf4f6e5e9972b7abe117c0014
+    log: revlist-f8394f232b1e-4e58171aa93f.txt
 
---===============3674838803331818557==
+--===============8787046116336787779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc6d3609a3d5-2b794246b675.txt
+Content-Disposition: attachment; filename=revlist-f8394f232b1e-4e58171aa93f.txt
 
-b2393fb73f60f98c075594774cba5576084a377d net/mlx5: Properly convey driver version to firmware
-8830fa2b33eec7e17cd5c8ae58ffd697b5b6aeb2 net/mlx5_core: Clean driver version and name
-39d094abd57dc9db32d70d07f9955d70383cc1e0 vdpa/mlx5: Make hardware definitions visible to all mlx5 devices
-f251e47630ab24afb974f27d3418048f8b458618 net/mlx5: Register mlx5 devices to auxiliary virtual bus
-d2574bae3e60f698609bdf876fffc94f81e85188 vdpa/mlx5: Connect mlx5_vdpa to auxiliary bus
-fd1ed6f0d08532726ed1d35502e042edd830ddc2 net/mlx5e: Connect ethernet part to auxiliary bus
-065254747b067f387762b28b7bbcc464f5b902db RDMA/mlx5: Convert mlx5_ib to use auxiliary bus
-aa1746afb1feb905dd4378d0b3e176710a4b7dda net/mlx5: Delete custom device management logic
-eacba186ba2cd78cb993c870402c2c09b71ae396 net/mlx5: Simplify eswitch mode check
-2cf8282642f927f412ed2cf0a454f81e6a8cd048 RDMA/mlx5: Remove IB representors dead code
-c68c822cc48714d43ebcdbd2857a17cd71d3e8ab fixup! net/mlx5: Properly convey driver version to firmware
-639203d43a2dc6027026e4cb93b933d2a04c6754 net/mlx5: Remove impossible checks of interface state
-8d4256658a9078b18c3986f9fad3dfe760ad0177 net/mlx5: Separate probe vs. reload flows
-7d00c6a1648d90389b12e3dd48ae4c08ab903c88 net/mlx5: Remove second FW tracer check
-af2afc80a33224ab1f28abf82e03b89a8f5d6ba7 net/mlx5: Don't rely on interface state bit
-d87280d845b56da28707a572ea0b49121603c32a net/mlx5: Check returned value from health recover sequence
-7fc490a19bae20eb4a09ce1ae515f8282b909fdb net/mlx5: Fix devlink reload LOCKDEP warning
-2b794246b675a2d48318798933b81ad8c32d640c fixup! vdpa/mlx5: Make hardware definitions visible to all mlx5 devices
+81816f5048bac5f4b202ed1443e9788dfc31a18c thunderbolt: Do not clear USB4 router protocol adapter IFC and ISE bits
+d67274bacb8a2bc2a6cfd2a0cef4963379e3eb26 thunderbolt: Find XDomain by route instead of UUID
+47844ecb8cec2916abaad9c1d1b801f49ed6265d thunderbolt: Create XDomain devices for loops back to the host
+4210d50f0b3e423e10a7a254b2a67f5c5318868e thunderbolt: Add link_speed and link_width to XDomain
+5cc0df9ce10a860aaeac53f8df1cc8754c5c7b03 thunderbolt: Add functions for enabling and disabling lane bonding on XDomain
+407ac931aefda91ac90498c6b6e6893982173613 thunderbolt: Create debugfs directory automatically for services
+5bf722df5d37e82fd252b1d3e37cde4eab355c1c thunderbolt: Make it possible to allocate one directional DMA tunnel
+afe704a2d0618ebdb559b5ddb059f6cdbfc78783 thunderbolt: Add support for end-to-end flow control
+edc0f494ed966e39e5619be7cdaeb9873e1f4fe1 thunderbolt: Add DMA traffic test driver
+4e58171aa93fe8caf4f6e5e9972b7abe117c0014 MAINTAINERS: Add Isaac as maintainer of Thunderbolt DMA traffic test driver
 
---===============3674838803331818557==--
+--===============8787046116336787779==--
