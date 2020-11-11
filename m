@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6615758873414478077=="
+Content-Type: multipart/mixed; boundary="===============4188467479111437047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 11 Nov 2020 06:36:48 -0000
-Message-Id: <160507660888.22205.2123186244119945676@gitolite.kernel.org>
+Date: Wed, 11 Nov 2020 06:37:15 -0000
+Message-Id: <160507663554.22479.11698215146632383764@gitolite.kernel.org>
 
---===============6615758873414478077==
+--===============4188467479111437047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: d90196317484b69bb46b7144c6e0e1a4f581200d
-    new: 151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98
-    log: revlist-d90196317484-151f1b664ffb.txt
+  - ref: refs/heads/for-next
+    old: d63f64446ef46078932b6787c0beaa43e2c5370f
+    new: 9cdcab394724bc629a94331ff61eb5db35de9f0a
+    log: revlist-d63f64446ef4-9cdcab394724.txt
 
---===============6615758873414478077==
+--===============4188467479111437047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d90196317484-151f1b664ffb.txt
+Content-Disposition: attachment; filename=revlist-d63f64446ef4-9cdcab394724.txt
 
 b22a0fac8c056e88fc72f7241fa9077b804634a6 scsi: mpt3sas: Define hba_port structure
 e238e71b6cb2b7b06224b31eb31892d1acb75f1d scsi: mpt3sas: Allocate memory for hba_port objects
@@ -63,5 +63,10 @@ a2b5d6f975a499bd50919a409c6a7c4cbf9d8a58 scsi: target: Fix LUN ref count handlin
 1f889b58716a5f5e3e4fe0e6742c1a4472f29ac1 scsi: pm80xx: Fix pm8001_mpi_get_nvmd_resp() race condition
 fe1d4c2ebcae994dffe8673cc3cba10102d15d11 scsi: ufs: Add DeepSleep feature
 151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98 scsi: ufs: Allow an error return value from ->device_reset()
+da3fecb0040324c08f1587e5bff1f15f36be1872 scsi: ufs: Fix unbalanced scsi_block_reqs_cnt caused by ufshcd_hold()
+0f52fcb99ea2738a0a0f28e12cf4dd427069dd2a scsi: ufs: Try to save power mode change and UIC cmd completion timeout
+2e6f11a797a24d1e2141a214a6dd6dfbe709f55d scsi: ufshcd: Fix missing destroy_workqueue()
+ceaf621bb62775dee99e206e8273cd8ed52ec860 Merge branch 'fixes' into for-next
+9cdcab394724bc629a94331ff61eb5db35de9f0a Merge branch 'misc' into for-next
 
---===============6615758873414478077==--
+--===============4188467479111437047==--
