@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3304121326919336785=="
+Content-Type: multipart/mixed; boundary="===============4315370930558965612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 11 Nov 2020 04:24:41 -0000
-Message-Id: <160506868107.30323.5668162226419883211@gitolite.kernel.org>
+Date: Wed, 11 Nov 2020 04:24:45 -0000
+Message-Id: <160506868576.30403.13293804780210993479@gitolite.kernel.org>
 
---===============3304121326919336785==
+--===============4315370930558965612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,82 +16,78 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: d90196317484b69bb46b7144c6e0e1a4f581200d
-    new: 151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98
-    log: revlist-d90196317484-151f1b664ffb.txt
+  - ref: refs/heads/for-next
+    old: 151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98
+    new: cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5
+    log: revlist-151f1b664ffb-cb2b4e8f5ea6.txt
 
---===============3304121326919336785==
+--===============4315370930558965612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1605068679 -0500
+pusher 75C5DE3D 1605068683 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1605068679-70d71aa4890d3ae526f25e4ba453fc233d17744e
+nonce 1605068683-df21bf346499971e4f26bbbbfa4846ac11e5aa6c
 
-d90196317484b69bb46b7144c6e0e1a4f581200d 151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98 refs/heads/queue
+151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98 cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+rZ4cACgkQ7ulgGnXF
-3j1IPQ//bf9ZEzEeM/veGOgJOQ7U196+KMGL3bKho/sAJZBS1QcinNnIlTF3Gvmz
-0X/tgniqU2qDWajn+wf9j+JX6Gvxxu2h9Y9qyE5OPofEicNT+3Rcc/tfpph3oPjB
-Q0uNtiU3Yev4xCXpZAvE1f2tRJEv2oQYB+g49D/dCDAy88me8eHZfwoIkz2y9rVa
-gxcAGHl4HCoKz3enx1Wz4HgMAUDxWWR/ylkZWRb4uHt9qwzOkdSko+Hte6yY5kq3
-xsdU3ahePxqTIoFUFT/IU/AWp1oi7B9A52VN7kPW2A+UWnTDVN+OkGeiYF/KljKi
-I3+0x8zFKjxFWvQw1o8f4vfGysJkHUsMK8sjIHJKcNw6Gd2iGUp/r0QnHOjg1ccd
-bgI+9Lb+JDhJ7yrQE44TiaV7GK/8xpObzGfRzOSIP5+RlFTQEKK7oeBtVCdTAMRQ
-M7JCJ5JNmqgw9aB6jPQmoy1QZ+6vuJK1v2iktCoTxCgxQJYltY1pKebKL/U6vw5u
-EAjY3Lw0feeVC6hglNNkGmRJ4w8gSzFVqvRFz2vvY+3TXRs5r0VRPrhO3jqyI6hq
-ym1xtgCI3VMEWqANYQPzRkKk9Il1WcL4vUCsX44MWo+3jBPaB0BAOCIvpWbJ/zsw
-809FWrMk4Y/JC4efPyEGgzIhUsjIZuNwA1Q9Jgh4pMvT0FcQg38=
-=gu8d
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+rZ4sACgkQ7ulgGnXF
+3j3CghAAqVb9fsFJgXjPP7lx4EcuyvuwgiaVa45Qe3B3OUUnVhZfJBGWDn5J2v7k
+D69uE6gUOIUX97LMfegdgox8ifkQF8zq61wm76xXLKFX+7PqJVdTfEbFCoCsUtXp
+icXwqxOJn+16rq3FqGbq6dYGuOPS0QHaiaL/Q1af6qxLZhv95r7cqoJpid7kTpgU
+zczDsSo/o/FnUXP8nfP4Vud9C597Y7chAYb7WmPFmJec0CVBSzY1hCBPY2x1XnOC
+iY1wiYmQOcQNeEaXCgWBeD5/NpP7JgVZ6dd/DkfDLfT6NAxVtLvUOJ/Gh6uOPbUS
+A7A2Dk8tPJBxC+PUsuqHxLZ7ts74v2F5ANU3vkrDgc6qDxn6iEPCQGpOvVD6CoBe
+yBZcq1OCN4GidLhbWf+Z8mQIAuPVT3iRElW0nrvhYYIAyMe5GPRb6ORRkIOLUXc4
+wCy7BtERyx9KVtV1k4bsMBSnQhfUmpYafBR0MbuuYyMnpDSCYxjNP2opdG5WOi5u
+rdC3WXRPFgtko6eVXohsoppW+Iv64G7+OLCHm8fdAcuPOOelKP1Cen7TxW9Q2Hrn
+PtUxO4bKXO9C7L2UxnlZeUt+hCOjS4ml3iuTt70GNc4DVnAK/XpK6+qNb45+gILB
+v2nxctfsegjTrNMrglXY50qXyP36p9sGOoU5TeYM+WXlvRq9Xg8=
+=jt4N
 -----END PGP SIGNATURE-----
 
---===============3304121326919336785==
+--===============4315370930558965612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d90196317484-151f1b664ffb.txt
+Content-Disposition: attachment; filename=revlist-151f1b664ffb-cb2b4e8f5ea6.txt
 
-b22a0fac8c056e88fc72f7241fa9077b804634a6 scsi: mpt3sas: Define hba_port structure
-e238e71b6cb2b7b06224b31eb31892d1acb75f1d scsi: mpt3sas: Allocate memory for hba_port objects
-78ca700342a5df21d80515a36ba17c4962efb35b scsi: mpt3sas: Rearrange _scsih_mark_responding_sas_device()
-e2f0cdf7525353d87ed4f51ea69ca7986070ddd5 scsi: mpt3sas: Update hba_port's sas_address & phy_mask
-7d310f241001e090cf1ec0f3ae836b38d8c6ebec scsi: mpt3sas: Get device objects using sas_address & portID
-c71ccf93c00c0cef062c2371e9a614526fee9adb scsi: mpt3sas: Rename transport_del_phy_from_an_existing_port()
-6df6be9168f50369ba843f2a12fe8537effbaff1 scsi: mpt3sas: Get sas_device objects using device's rphy
-a5e99fda017218516d3c66bec5ed346283ae722b scsi: mpt3sas: Update hba_port objects after host reset
-9d0348a9d8e35142b809d0b92534312a22f6fd78 scsi: mpt3sas: Set valid PhysicalPort in SMPPassThrough
-ccc59923ba8d44ecf7cb60135e9934bbb619da10 scsi: mpt3sas: Handling HBA vSES device
-34b0a78532f61e6059a26c0252fbc28c73761384 scsi: mpt3sas: Add bypass_dirty_port_flag parameter
-ffa381d6373b10e83dbdac425fb72affc64084f3 scsi: mpt3sas: Handle vSES vphy object during HBA reset
-324c122fc0a41d258239c853854eefd186ae1290 scsi: mpt3sas: Add module parameter multipath_on_hba
-2030745877bdd2ecbeb43ff1846242d004482587 scsi: mpt3sas: Bump driver version to 35.101.00.00
-077054215a7f787e389a807ece8a39247abbbc1e scsi: aacraid: Improve compat_ioctl handlers
-381d34e376e3d9d27730fda8a0e870600e6c8196 scsi: megaraid_sas: Check user-provided offsets
-bba84aeccafb57f3f175bbab0658a7facd611d18 scsi: megaraid_sas: Simplify compat_ioctl handling
-b455233dcc403e3eb955a642dd69b6676e12b245 scsi: target: Rename struct sense_info to sense_detail
-8dd992fb67f33a0777fb4bee1e22a5ee5530f024 scsi: target: Rename cmd.bad_sector to cmd.sense_info
-ab628b9fc8c231655e52ed2b4a50758a633a2c63 scsi: target: Split out COMPARE AND WRITE memcmp into helper
-749c226cf56ed47ae76c57b2f7f6b8f01b5797c4 scsi: target: Return COMPARE AND WRITE miscompare offsets
-4a9435b7b04ed8bb39e2c563d93b522bc226b16f scsi: bnx2fc: Remove unneeded semicolon
-00c00807a11002f56ca5d87463ac892c794f122f scsi: fcoe: Remove unneeded semicolon
-a2b5d6f975a499bd50919a409c6a7c4cbf9d8a58 scsi: target: Fix LUN ref count handling
-02dd4914b0bcb8fd8f8cad9817f5715a17466261 scsi: target: Fix cmd_count ref leak
-8f394da36a361cbe0e1e8b1d4213e5598c8095ac scsi: qla2xxx: Drop TARGET_SCF_LOOKUP_LUN_FROM_TAG
-27b0efd15d5247ada0c2ed9cbc77fd3fb3b1f26d scsi: target: Remove TARGET_SCF_LOOKUP_LUN_FROM_TAG
-605e74025f953b995a3a241ead43bde71c1c99b5 scsi: qla2xxx: Move sess cmd list/lock to driver
-6f55b06f9b0722607cbac2140875d790395435f2 scsi: target: Drop sess_cmd_lock from I/O path
-1526d9f10c6184031e42afad0adbdde1213e8ad1 scsi: target: Make state_list per CPU
-94a0dfcf7d33ea96bf3eb0c33e4239942a4ff087 scsi: tcm_loop: Allow queues, can_queue and cmd_per_lun to be settable
-7640e1eb8c5de33dafa6c68fd4389214ff9ec1f9 scsi: pm80xx: Make mpi_build_cmd locking consistent
-4a2efd4b89fcaa6e9a7b4ce49a441afaacba00ea scsi: pm80xx: Make running_req atomic
-48cd6b38eb4f2874f091c4776ea1c26e7e4f967e scsi: pm80xx: Avoid busywait in FW ready check
-1f889b58716a5f5e3e4fe0e6742c1a4472f29ac1 scsi: pm80xx: Fix pm8001_mpi_get_nvmd_resp() race condition
-fe1d4c2ebcae994dffe8673cc3cba10102d15d11 scsi: ufs: Add DeepSleep feature
-151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98 scsi: ufs: Allow an error return value from ->device_reset()
+d2a2f3794cbcb2c6051f907fbe207ecf3c69702e scsi: arcmsr: Stop __builtin_strncpy complaining about a lack of space for NUL
+412b51ffda3c8023cc017f951e864588f157a988 scsi: pm8001: pm8001_sas: Fix strncpy() warning when space is not left for NUL
+b2ed1babfefb072fac732d10553d290126175911 scsi: aic7xxx: aic79xx_osm: Remove unused variable 'saved_scsiid'
+e330c96968680b2b72f73636f00321886792eb71 scsi: mpt3sas: mpt3sas_scsih: Fix function documentation formatting
+eceee00e41565523a0010c8828a2330d04f64878 scsi: lpfc: lpfc_scsi: Fix a whole host of kernel-doc issues
+9176ad27acac13c3254ef45581ffd4a41795a9b5 scsi: lpfc: lpfc_attr: Demote kernel-doc format for redefined functions
+a738bd9bbe53c1a9b5134845af16e0fedf9ab2f8 scsi: lpfc: lpfc_attr: Fix-up a bunch of kernel-doc misdemeanours
+e61e07409cf7dbdc532aeb39706f4de04f0aee2e scsi: lpfc: lpfc_debugfs: Fix a couple of function documentation issues
+ea085dab6b9f220f0455f27e64af00deed102976 scsi: lpfc: lpfc_bsg: Provide correct documentation for a bunch of functions
+9a5cf98d7ee69e7705705b40b5d947a252c134ac scsi: esas2r: esas2r_disc: Place brackets around a potentially empty if()
+433e07e08c638827e99923192e91c9be8912b5e0 scsi: esas2r: esas2r_init: Place brackets around a potentially empty if()
+74d1f928162a217f5dc034b98deff78490300479 scsi: lpfc: lpfc_nvme: Remove unused variable 'phba'
+d23ec0b610e5cdf55853472157768d4412b3d13b scsi: ufs: ufshcd: Fix some function doc-rot
+3e7491701a3323659d2579f785cda5240351d6f3 scsi: lpfc: lpfc_nvme: Fix some kernel-doc related issues
+6abf98de6f8ad4f078f4845589e8d7f024a851bf scsi: esas2r: esas2r_int: Add brackets around potentially empty if()s
+d3cb79fcf943040394073de14d989a3547974d7f scsi: lpfc: lpfc_nvmet: Fix-up some formatting and doc-rot issues
+bf7e38aa0ee1f06130fb3019f42d59b767da73a9 scsi: esas2r: esas2r_main: Demote non-conformant kernel-doc header
+90ab11234d7995530dfa2a2b072150fd6e5fc1d2 scsi: advansys: Relocate or remove unused variables
+67056d90f13547558a3d7661fd69acd1463146de scsi: dc395x: Remove a few unused variables
+6c22079e9f369e513d8195f96db99a4fbb1525a8 scsi: dc395x: Mark 's_stat2' as __maybe_unused
+e9326b5a6f5b434af1889a7efa64dd9a738ef90e scsi: MAINTAINERS: Make Bodo target_core_user maintainer
+e21ee5a6b9c9d30fd07ce5bd3e4a5668a03af6d9 scsi: block: Return status code in blk_mq_end_request()
+268940b80fa4096397fd0a28e6ad807e64120215 scsi: scsi_dh_alua: Return BLK_STS_AGAIN for ALUA transitioning state
+fb908850ece3bc93a9d276f6dd8505d824b2789c scsi: scsi_dh_alua: Set 'transitioning' state on Unit Attention
+0d88232010d5f40a8a31ff7b454e3f2594fd047f scsi: core: Return BLK_STS_AGAIN for ALUA transitioning
+a004147a33199c660bbb203f11a82703459bf9f9 scsi: ufs-mediatek: Assign arguments with correct type
+cf137b3ea49a04e0c843b12674afa4b1d23e827f scsi: ufs-mediatek: Support VA09 regulator operations
+ac8c2459091cd0e2bf226278d7b332e81c4c855a scsi: ufs-mediatek: Decouple features from platform bindings
+bf8fab86ab791cd24572eaf05f23af9b99dad43c scsi: ufs-mediatek: Support option to disable auto-hibern8
+801909ac97530062c3de6bfdb1d7e08f3c7de8ce scsi: ufs: Add enums for UniPro version higher than 1.6
+638e6271cac2d6eba8d5d6cfd6a6ae77715a8cf6 scsi: ufs-mediatek: Add HS-G4 support
+44ff81f2995794982daf7b89a923c6335d57c469 scsi: isci: Don't use PCI helper functions
+cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5 scsi: bnx2fc: Fix comparison to bool warning
 
---===============3304121326919336785==--
+--===============4315370930558965612==--
