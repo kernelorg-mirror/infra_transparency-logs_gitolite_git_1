@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 11 Nov 2020 09:56:32 -0000
-Message-Id: <160508859293.14551.16347310675407958914@gitolite.kernel.org>
+Date: Wed, 11 Nov 2020 09:58:31 -0000
+Message-Id: <160508871113.15273.5000078435792230985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 99719449a4a6e4a86e741f8636723e811b843efc
-    new: f496297e76a69db7b52257898570bd38b8b9c92b
+    old: f496297e76a69db7b52257898570bd38b8b9c92b
+    new: 844c79bd5995185cf1ab56e4eae9dd9e50204aeb
     log: |
-         f496297e76a69db7b52257898570bd38b8b9c92b Bluetooth: btusb: Add support for 1358:c123 Realtek 8822CE device
+         844c79bd5995185cf1ab56e4eae9dd9e50204aeb Bluetooth: hci_ll: add a small delay for wl1271 enable bt_en
          
