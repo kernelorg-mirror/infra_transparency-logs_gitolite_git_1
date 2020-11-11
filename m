@@ -1,57 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============6517044901786966289=="
+Content-Type: multipart/mixed; boundary="===============4363274477101854271=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse
-Date: Wed, 11 Nov 2020 00:38:22 -0000
-Message-Id: <160505510248.30631.5171231256316062909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 11 Nov 2020 00:50:03 -0000
+Message-Id: <160505580397.6064.12247026501867998131@gitolite.kernel.org>
 
---===============6517044901786966289==
+--===============4363274477101854271==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse
-user: lucvoo
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: f680124b794b246c8a20f2cb54b2fc7ff989625d
-    new: 98469166098170fc67d3eb043656c3e79190b31f
-    log: revlist-f680124b794b-984691660981.txt
+    old: 407ab579637ced6dc32cfb2295afb7259cca4b22
+    new: eccc876724927ff3b9ff91f36f7b6b159e948f0c
+    log: revlist-407ab579637c-eccc87672492.txt
 
---===============6517044901786966289==
+--===============4363274477101854271==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f680124b794b-984691660981.txt
+Content-Disposition: attachment; filename=revlist-407ab579637c-eccc87672492.txt
 
-ee854cb92c46b4194f2014332dc856efa2cf250f cmp: adapt testcase for compares' canonicalization
-17c0dc05248364ea9b64aa4d997c49a516208d6d cmp: add testcases for the simplification of compares
-e58ddb5678f2fb1843c6871399509eacf9cc1371 select: add some testcases for select simplification
-7ccaa8a6e88a02e05cb37adc2658071947e9331c select: simplify SEL(SEL(x, C, 0), y, z) --> SEL(x, y, z) and its dual
-93bb38fdbfb16f8382954db1e02a6ff1731bd60f select: simplify SEL(SEL(x, C, 0), C, 0) --> SEL(x, C, 0) == cond
-84bf7462ebc80b350b0d2b35156bae04b8d5feb1 select: simplify SEL(SEL(x, C1, C2), y, z) --> y (with C1, C2 != 0)
-c25293e689b0b408c6228676536e928e4f042dfe select: simplify handling of constant cond or src1 == src2
-467fce3048571227e49beee068f783fb1c76a1e7 simplify SEL(x == y, x, y) and friends
-bbcc6abac7af8ac614489b676064d4c3050fd882 cmp: add signed/unsigned to opcode table
-452ea1741e587b3bfd495e6ac35b47e7659abc70 cmp: move some code in a separate function: simplify_compare_constant()
-85c234ab3cde86b2f06e7e148b741d2673928473 cmp: use a few helpers for the simplification of compares
-c355e5ac5dce35f3d95c30cd5e2e9a5074c38437 cmp: canonicalize unsigned (x {<,>=} C) --> (x {<=,>} C-1)
-4146aecb9917aaad05c560280089e2557f113126 cmp: simplify unsigned (x {<=,>} UMAX) into {1,0}
-2680e82101a685cca986bf619bb1dd21e0573af8 cmp: canonicalize unsigned compare with UMAX or UMAX-1
-983964c2ff72392fb7a373990f55cfcb2ba832a0 cmp: canonicalize unsigned (x {<=,>} SMAX)
-36329f5318dc9a7017207e93445ac9100904183f cmp: simplify sext(x) cmp C --> x cmp C
-89b98b682930e5d4efe97f0ba3b412c23c6721e3 cmp: simplify zext(x) cmp C --> x cmp C
-a1c1b9236d5d4af1681a45ced26f8350bd7721c2 cmp: simplify sext(x) cmps {SMAX,SMIN}
-4a5f616407e26efb67013f8267adef2d6e093bf1 cmp: canonicalize sext(x) cmpu C (with C >= SMAX)
-74d99ae4bd80d6b2064ca539ba4dffe24aaec362 cmp: simplify zext(x) cmps C
-cae6fa2f2d5a99927c26f063d10b6ecfeb81b403 cmp: simplify zext(x) cmpu C
-c60237251a55984b1fcf6302d25650d35533dc2a cmp: simplify compares and sign/zero extend
-29c405153720add05185351a13dcc68a5f39d3ff select: simplify handling of select(x, 0, x) --> 0
-b5bbdc9c3835b62c1e67bbd1b69017bb07f57823 select: simplify select(x, x, 0) --> x
-94dbf5cc3a0789876c8c5acd937fca6c7f89900d fix linear_isdigit()'s itype
-55d44f307c12fe0241d0a12e1dfe0320a54510af Merge branch 'optim-sel' into next
-98469166098170fc67d3eb043656c3e79190b31f Merge branch 'optim-cmp' into next
+d76bb7a09bb3b8711077912f3e80cfcf39cd9d0b tools/power turbostat: Print /dev/cpu_dma_latency
+9aefc2cda6353f48708415d9adc5dff4deb73412 tools/power turbostat: Always print idle in the system configuration header
+7c2ccc507bd44d17227930181f937b2066565349 tools/power turbostat: Make the energy variable to be 64 bit
+87e15da95775a2ffb8c444e84f08ca982b758364 tools/power turbostat: Introduce functions to accumulate RAPL consumption
+9972d5d84d76982606806b2ce887f70c2f8ba60a tools/power turbostat: Enable accumulate RAPL display
+8201a0285789fade1c5b031914577e2b27a64f05 tools/power turbostat: Use sched_getcpu() instead of hardcoded cpu 0
+b88cad57d4d32bb5c53cd8e0ce3a1971062142af tools/power turbostat: Replace HTTP links with HTTPS ones: TURBOSTAT UTILITY
+fecb3bc839df64761cc63c9ee9b45c1cad36aee8 tools/power turbostat: Fix output formatting for ACPI CST enumeration
+e7af1ed3fa4756e8df8270a8635d852a94266061 tools/power turbostat: Support additional CPU model numbers
+c315a09b1b0f491c27d46e9d05f397023a44fb81 tools/power turbostat: Skip pc8, pc9, pc10 columns, if they are disabled
+0936cdfbb527a4fa2559292069ebff2e8cf2c843 tools/power x86_energy_perf_policy: Input/output error in a VM
+b4b9156953fea108a9540c262e48eafeeff99ab0 tools/power turbostat: Add a new GFXAMHz column that exposes gt_act_freq_mhz.
+20de0dab238849414d33c81bc96e2db68cc61467 tools/power turbostat: Remove empty columns for Jacobsville
+33eb82251af9be47a625ca1578f44e596a3a0ca9 tools/power turbostat: Support AMD Family 19h
+4be61e6b769fc3f97b58870aa4258e27968f07e1 tools/power turbostat: Build with _FILE_OFFSET_BITS=64
+6ff7cb371c4bea3dba03a56d774da925e78a5087 tools/power turbostat: adjust for temperature offset
+3d7772ea5602b88c7c7f0a50d512171a2eed6659 tools/power turbostat: harden against cpu hotplug
+77f6ab8b7768cf5e6bdd0e72499270a0671506ee don't dump the threads that had been already exiting when zapped.
+a1fbc6750e212c5675a4e48d7f51d44607eb8756 btrfs: fix potential overflow in cluster_pages_for_defrag on 32bit arch
+e38fdb716702879a942017c85e84c0a3a9e4af96 btrfs: print the block rsv type when we fail our reservation
+fca3a45d08782a2bb85e048fb8e3128b1388d7b7 btrfs: fix min reserved size calculation in merge_reloc_root
+f07728d541ebefcf3d2ec7bc99a3bffd052d9f90 btrfs: clean up NULL checks in qgroup_unreserve_range()
+a4852cf268b5ae487ba18f2b24e44094afce0675 btrfs: scrub: update message regarding read-only status
+cf89af146b7e62af55470cf5f3ec3c56ec144a5e btrfs: dev-replace: fail mount if we don't have replace item with target device
+468600c6ec28613b756193c5f780aac062f1acdf btrfs: ref-verify: fix memory leak in btrfs_ref_tree_mod
+92cfcd030e4b1de11a6b1edb0840e55c26332d31 fscrypt: remove reachable WARN in fscrypt_setup_iv_ino_lblk_32_key()
+949dd0104c496fa7c14991a23c03c62e44637e71 powercap: restrict energy meter to root access
+3e9fa9983b9297407c2448114d6d27782d5e2ef2 tools/power turbostat: update version number
+8bff39bfdc30c9bd6e152eb88a0bd6dd35bdd760 Merge branch 'turbostat' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
+52d1998d09af92d44ffce7454637dd3fd1afdc7d Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt
+e2f0c565ec70eb9e4d3b98deb5892af62de8b98d Merge tag 'for-5.10-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+eccc876724927ff3b9ff91f36f7b6b159e948f0c Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 
---===============6517044901786966289==--
+--===============4363274477101854271==--
