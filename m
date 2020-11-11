@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1763502735451352299=="
+Content-Type: multipart/mixed; boundary="===============6699657532189013541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 11 Nov 2020 00:28:05 -0000
-Message-Id: <160505448502.24077.2234400025004209530@gitolite.kernel.org>
+Date: Wed, 11 Nov 2020 00:29:18 -0000
+Message-Id: <160505455892.24582.5408597709576260477@gitolite.kernel.org>
 
---===============1763502735451352299==
+--===============6699657532189013541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 3cea11cd5e3b00d91caf0b4730194039b45c5891
-    new: 989ef49bdf100cc772b3a8737089df36b1ab1e30
-    log: revlist-3cea11cd5e3b-989ef49bdf10.txt
+  - ref: refs/heads/net-mlx5
+    old: a723783481308dd5086860a45c20f472c50951c5
+    new: ed4706daa89067631ee39859989094e8bef045dd
+    log: revlist-a72378348130-ed4706daa890.txt
 
---===============1763502735451352299==
+--===============6699657532189013541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3cea11cd5e3b-989ef49bdf10.txt
+Content-Disposition: attachment; filename=revlist-a72378348130-ed4706daa890.txt
 
 7fe94612dd4cfcd35fe0ec87745fb31ad2be71f8 xfrm: interface: fix the priorities for ipip and ipv6 tunnels
 9fe9efd6924c9a62ebb759025bb8927e398f51f7 ASoC: Intel: kbl_rt5663_max98927: Fix kabylake_ssp_fixup function
@@ -403,5 +403,8 @@ ee661a4abdf457cc3712725fb4f15113df7588e3 Merge tag 'mlx5-fixes-2020-11-03' of gi
 413691384a37fe27f43460226c4160e33140e638 ethtool: netlink: add missing netdev_features_change() call
 16eb0eb835c77c5e8824b8aa90b11b00ddc5c122 docs: networking: phy: s/2.5 times faster/2.5 times as fast/
 989ef49bdf100cc772b3a8737089df36b1ab1e30 mptcp: provide rmem[0] limit
+2eb4a6fa158e3bd6cb0b693b52cecb1a63610b80 net/mlx5e: Fix refcount leak on kTLS RX resync
+50e99c1053090bed91b716dab0ed9e91676fdc02 net/tls: Protect from calling tls_dev_del for TLS RX twice
+ed4706daa89067631ee39859989094e8bef045dd net/mlx5e: E-Switch, Offload all chain 0 priorities when modify header and forward action is not supported
 
---===============1763502735451352299==--
+--===============6699657532189013541==--
