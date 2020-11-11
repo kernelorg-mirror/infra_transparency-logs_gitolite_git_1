@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1498192791329792366=="
+Content-Type: multipart/mixed; boundary="===============2974983588384446927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Wed, 11 Nov 2020 13:11:59 -0000
-Message-Id: <160510031998.1779.4490137920109775142@gitolite.kernel.org>
+Date: Wed, 11 Nov 2020 13:12:37 -0000
+Message-Id: <160510035741.2044.6520392035875158519@gitolite.kernel.org>
 
---===============1498192791329792366==
+--===============2974983588384446927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/mcp25xxfd-rpi-msperl
-    old: fd8ac04797c74ba32d62de9173d05aefdb7a3859
+  - ref: refs/heads/flexcan
+    old: 9b725f331377dc22a10b0ae4dfdfd7db856fe74f
     new: 0000000000000000000000000000000000000000
 
---===============1498192791329792366==
+--===============2974983588384446927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1605100317 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1605100354 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1605100316-59e885de308b8269ce3817b42a21938a0ce58a4f
+nonce 1605100354-08e8d90df25a66f4a68827aa4266e98fc35b654f
 
-fd8ac04797c74ba32d62de9173d05aefdb7a3859 0000000000000000000000000000000000000000 refs/heads/mcp25xxfd-rpi-msperl
+9b725f331377dc22a10b0ae4dfdfd7db856fe74f 0000000000000000000000000000000000000000 refs/heads/flexcan
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl+r4x0THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqbq3B/4vFY+IKgvKidxrvPoHQ5+SiD1dkqBi
-Rf2ikoH28d4s748kYjX5nlYmot5BRbo6Hz/dvSG3NuFZoub4I0jA0D2KCIsLnc1z
-UVA4BV/MiAmW5OAvXNRZe/uzRhwWV3miOsQMVjfRKjfoskG/va3c2eCagcPUcHzB
-OQKg/TIVu0pBMJG2x5c8i46iXJqEWuBRmKOGm8CTs/hdwtDWi/wyHxa5uxJAg5Jd
-XQWcBpnCh1GZtM3w4W3u3+aOtUVNbjzj6uRDrgqkw3abe4hUSiFiwoPq/fafjtnN
-XvDdHpv+cdKFlD1qIl+MN9KRZixyWM++KTjCY2RNVWPxuM0A/xLKjPRD
-=hMwb
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl+r40ITHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqdRsB/sGKu3oZj6lz9bqvBJeHkM39pMJTL0V
+rwhtrPDD0viuvE59cXI1H3gY4CPlGq2rd6gfRPhR23w+Psfw88YpdibbO8lRp3Bp
+qLtaU4wvrujFfEozMnmQOvQXKDHtYZTRow7wwKS3eGXA3ix02uLgELzAOXKlIOav
+b+RU8GooGJyhUz+OB0PL0fmYmhOBJLQHPRzc+F85bDhiSysKC9qw73UH/A1XIw9c
+BmrtVAo8Bd7h5O0xM2IZpblI9q1qh5jPTlV0hYCbgGuSJLsbTRCm788i1WaCQeCr
+QgxR4H1d1Q/eYpebvSMivkgUKATePeFRjMVLQLYtqyGa4ybCDBh7sFlZ
+=ctvy
 -----END PGP SIGNATURE-----
 
---===============1498192791329792366==--
+--===============2974983588384446927==--
