@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Wed, 11 Nov 2020 19:59:41 -0000
-Message-Id: <160512478113.20992.10561707321424428315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 11 Nov 2020 20:04:38 -0000
+Message-Id: <160512507803.24089.11737749230911565976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: b2ec1cb13acf5f60f65b46f0c19ecf85eeebe1e1
-    new: f2b33bc3d54f772104079d41587f44cabb4f0612
-    log: |
-         3c2c3f1b038db664738dd4d48cfe5adb0e90064d habanalabs: fetch hard reset capability from FW
-         9745efe6145084d7f6055338131abc464ceca218 habanalabs/gaudi: fetch HBM ecc info from FW
-         f2b33bc3d54f772104079d41587f44cabb4f0612 habanalabs: print message with correct device
-         
+  - ref: refs/heads/master
+    old: 3f6ccdf8798eaedce3834bcd29ff25cd13315b78
+    new: f16e631333a8f12ae8128826e695db4b2a528407
