@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6721596327148090468=="
+Content-Type: multipart/mixed; boundary="===============8541720151896958439=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Wed, 11 Nov 2020 13:09:31 -0000
-Message-Id: <160510017111.31642.17824666997282996916@gitolite.kernel.org>
+Date: Wed, 11 Nov 2020 13:09:42 -0000
+Message-Id: <160510018265.31776.6052847806532826357@gitolite.kernel.org>
 
---===============6721596327148090468==
+--===============8541720151896958439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 742e77d649c2f427fc35c33e73d44a783b331773
-    new: 23d9fb5fbaab018e7ffafadbf12cf1fafea6aafd
-    log: revlist-742e77d649c2-23d9fb5fbaab.txt
+  - ref: refs/heads/master
+    old: 9621618130bf7e83635367c13b9a6ee53935bb37
+    new: e87d24fce924bfcef9714bbaeb1514162420052e
+    log: revlist-9621618130bf-e87d24fce924.txt
 
---===============6721596327148090468==
+--===============8541720151896958439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1605100162 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1605100177 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1605100161-d00cc0b3ee90ff924b1608658994ef0b5de37507
+nonce 1605100176-adc60880620d98c58e242a681c20d01ad261ebb8
 
-742e77d649c2f427fc35c33e73d44a783b331773 23d9fb5fbaab018e7ffafadbf12cf1fafea6aafd refs/heads/testing
+9621618130bf7e83635367c13b9a6ee53935bb37 e87d24fce924bfcef9714bbaeb1514162420052e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl+r4oITHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqUwBB/4l7uVjRw+VKhIXSG4MiktccTshw9N8
-jmyfTKhUwGRn6UruiUwNT7sOwAJx68Um+tDrNXCvMz49BmVJRxig6J5+2VZd8C7x
-ilqx91ymgVUNvLJM0+KPecaM66gjePak6S81dMBo8noFxM5zfnAMCAy2nYUeWHwc
-8bPmHXk2qnWZ7Fu1S0OMuzN4Z8I2jAwwN971oy1OBNkqqfgfNrhlwwisUPy2Z0RQ
-qFeqFSrPrqci268ra/IxLwfBlmnoCuOD42CeBtwf6oYSll7wqtLdrYz5+Ua1+LKf
-F5gV6RCy7Gw8ejMgzw4Wj3GKEb6MB0do7gnoAh6wDjg0kJ/f23E3UsqK
-=WcR8
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl+r4pETHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqR5NCACIR4W34UJZIZLwVc6R629gwRg3lAPV
+qbEFBiGM4Vf5mtQbl1dPvvU2ZcvIaVCLrMOAgRbfVj/Q5U9wqm/LPxtZSFrV1lJm
+2+gZKHDeSMp/AuY1JGaM1fjIu/YXaWhdiOxu5CpZyj3em9zKlRF143c/l/zKNw9n
+D+mdjix2YTRKazO1jyIpQLxc5PBPppJFkUa0POskkUYrjGaGlFgKMOqm5syvFmKw
+afad9waMyrtVoWv9Yga/f/eygFsOvnHkNVIZQIMzgvS/K8AhzENf1ESLTtc3SdFL
+3FWW4bBVhZo9KbbyvUI4OW3wNMY82DQVPNpReYjnmfQ/ATBYxcxIGFm7
+=Pq6U
 -----END PGP SIGNATURE-----
 
---===============6721596327148090468==
+--===============8541720151896958439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-742e77d649c2-23d9fb5fbaab.txt
+Content-Disposition: attachment; filename=revlist-9621618130bf-e87d24fce924.txt
 
 b64d814257b027e29a474bcd660f6372490138c7 arm64: dts: marvell: espressobin: Add ethernet switch aliases
 0b58725fb9a446890c1fd28fc6c9e393ce21acb7 ARM: mvebu: drop pointless check for coherency_base
@@ -609,7 +609,34 @@ e4eccb853664de7bcf9518fb658f35e748bf1f68 vfio/pci: Bypass IGD init in case of -E
 e16b874ee87aa70cd0a7145346ff5f41349b514c mptcp: token: fix unititialized variable
 e6b0bd61a73718886c2df16762f0a5dba485fc10 Merge tag 'docs-5.10-warnings' of git://git.lwn.net/linux
 5fd8477ed8ca77e64b93d44a6dae4aa70c191396 net: usb: qmi_wwan: add Telit LE910Cx 0x1230 composition
+1f9234401ce0aa7a05857db43c5aef290d5177e2 dt-bindings: can: add can-controller.yaml
+e5ab9aa7e49b39c34d110d6303b917c14a277200 dt-bindings: can: flexcan: convert fsl,*flexcan bindings to yaml
+3accbfdc36130282f5ae9e6eecfdf820169fedce can: proc: can_remove_proc(): silence remove_proc_entry warning
+2ddd6bfe7bdbb6c661835c3ff9cab8e0769940a6 can: rx-offload: don't call kfree_skb() from IRQ context
+2283f79b22684d2812e5c76fc2280aae00390365 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
 4ef8451b332662d004df269d4cdeb7d9f31419b5 Merge tag 'perf-tools-for-v5.10-2020-11-03' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+ed3320cec279407a86bc4c72edc4a39eb49165ec can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
+286228d382ba6320f04fa2e7c6fc8d4d92e428f4 can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
+429efa6e148635c8b4fdc8db8ab6a8dae896ac17 can: j1939: rename jacd tool
+864a2756d369861af15327b6ff62bb6fe984dbc8 can: j1939: fix syntax and spelling
+ea780d39b1888ed5afc243c29b23d9bdb3828c7a can: j1939: swap addr and pgn in the send example
+a39372c2c597d8ab0b53d953d9c4fc9ba2ed7dd6 can: j1939: use backquotes for code samples
+08c487d8d807535f509ed80c6a10ad90e6872139 can: j1939: j1939_sk_bind(): return failure if netdev is down
+5a7de2408fa59be2a92b3ed4a5614fbb6942893d can: isotp: Explain PDU in CAN_ISOTP help text
+78656ea235191c8cf8475f8335860ca4192243a4 can: isotp: isotp_rcv_cf(): enable RX timeout handling in listen-only mode
+c3ddac4b0c9a280d4d5b670b4d39c50fee88579e can: isotp: padlen(): make const array static, makes object smaller
+e002103b36a695f7cb6048b96da73e66c86ddffb can: ti_hecc: ti_hecc_probe(): add missed clk_disable_unprepare() in error path
+79c43333bdd5a7026a5aab606b53053b643585e7 can: xilinx_can: handle failure cases of pm_runtime_get_sync
+a6921dd524fe31d1f460c161d3526a407533b6db can: peak_usb: add range checking in decode operations
+ecc7b4187dd388549544195fb13a11b4ea8e6a84 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
+93ef65e5a6357cc7381f85fcec9283fe29970045 can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
+b4728920aefaf6cd10e3d9330805f7d2354c342f can: mcp251xfd: mcp251xfd_regmap_crc_read(): increase severity of CRC read error messages
+da623840d8237ba6f4ec8f427e85bffb8fd4c3ec can: mcp251xfd: mcp251xfd_regmap_nocrc_read(): fix semicolon.cocci warnings
+78db1aa8b552d2b99e9cbcaf461a5976a1d0d442 can: mcp251xfd: remove unneeded break
+018799649071a1638c0c130526af36747df4355a can: flexcan: remove FLEXCAN_QUIRK_DISABLE_MECR quirk for LS1021A
+91a22bfe928fe2ef975580cbcc75e233bc4fe0d0 can: flexcan: add ECC initialization for LX2160A
+5fdf04a9fdc27fc6cd37bb2ae44a84a282323773 can: flexcan: add ECC initialization for VF610
+ab07ff1c92fa60f29438e655a1b4abab860ed0b6 can: flexcan: flexcan_remove(): disable wakeup completely
 8080b462b6aa856ae05ea010441a702599e579f2 chelsio/chtls: fix memory leaks caused by a race
 dbfe394dad33f99cf8458be50483ec40a5d29c34 chelsio/chtls: fix always leaking ctrl_skb
 0dccdba51e852271a3dbc9358375f4c882b863f2 Merge tag 'gvt-fixes-2020-10-30' of https://github.com/intel/gvt-linux into drm-intel-fixes
@@ -713,9 +740,5 @@ f3037c5a31b58a73b32a36e938ad0560085acadd net: phy: realtek: support paged operat
 4031eeafa71eaf22ae40a15606a134ae86345daf net/af_iucv: fix null pointer dereference on shutdown
 4711497ae85d90de903671989daf5145054c123e MAINTAINERS: remove Ursula Braun as s390 network maintainer
 e87d24fce924bfcef9714bbaeb1514162420052e Merge branch 'net-iucv-fixes-2020-11-09'
-10c550fe5610338dc18ea32eb0656e21903ed7a5 ARM: dts: imx: fix can fsl,stop-mode
-d60abdc8f8a51ee7296682f29b2cac9f80529d4f ARM: dts: imx: Change flexcan node name to "can"
-5def01d99661e3193851d99b73e58d7cd672bb8c dt-bindings: can: fsl,flexcan.yaml: fix compatible for i.MX35 and i.MX53
-23d9fb5fbaab018e7ffafadbf12cf1fafea6aafd dt-bindings: can: fsl,flexcan.yaml: fix fsl,stop-mode
 
---===============6721596327148090468==--
+--===============8541720151896958439==--
