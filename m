@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7798283067807251622=="
+Content-Type: multipart/mixed; boundary="===============0967771276984083901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 11 Nov 2020 05:26:11 -0000
-Message-Id: <160507237162.7693.3693187899489229499@gitolite.kernel.org>
+Date: Wed, 11 Nov 2020 05:33:05 -0000
+Message-Id: <160507278559.11349.10714325292092614944@gitolite.kernel.org>
 
---===============7798283067807251622==
+--===============0967771276984083901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/ci-next
-    old: 3cb05aa12aaefa695ba3fb11946e5a1b21b44c58
-    new: 5e6cb9811a9cfd288e5d5457cddfa3336b3b8c0e
-    log: revlist-3cb05aa12aae-5e6cb9811a9c.txt
+  - ref: refs/heads/arm64-for-5.11
+    old: c42c3f05faa072d7833fc37b92f3c117128ca98a
+    new: b7fbf46cb81c2bb432d648f52e4cd591a09593bc
+    log: revlist-c42c3f05faa0-b7fbf46cb81c.txt
 
---===============7798283067807251622==
+--===============0967771276984083901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3cb05aa12aae-5e6cb9811a9c.txt
+Content-Disposition: attachment; filename=revlist-c42c3f05faa0-b7fbf46cb81c.txt
 
 876553576f27506760b44fbd7bb18a9cee650706 arm64: dts: sc7180: Add camera clock controller node
 ef9a5d188d663753e73a3c8e8910ceab8e9305c4 arm64: dts: qcom: sc7180-trogdor: Fixup modem memory region
@@ -51,17 +51,5 @@ b5af3036e84c801416b699930b2b578fbe755cd1 arm64: dts: msm8996: Fix dma node name
 94ed1811aff0c4027d877d2ecf66da0d62369d99 arm64: dts: msm8998: Fix dma node name
 58acbcdcdc33c9c7b8601b5057a272009e4fe2f6 arm64: dts: ipq6018: Fix dma node name
 b7fbf46cb81c2bb432d648f52e4cd591a09593bc arm64: dts: ipq8074: Fix dma node name
-54f8ebda0dde59ae313bc6c87d307b0225d38fc5 soc: qcom: qcom_aoss: Remove set but unused variable 'tlen'
-96ec310d5d946372292f9abfc019a45012606c11 soc: qcom: qcom_aoss: Add missing description for 'cooling_devs'
-08ad7061e4d4e7eace8a2993c8df53b0bd4fdf19 soc: qcom: qcom-geni-se: Fix misnamed function parameter 'rx_rfr'
-fc3699c69857abbdb690d7a34eba0181e93c903e soc: qcom: smem: Fix formatting and missing documentation issues
-fac312df31ab39aeb1400eac7d3bb13a740c48fd soc: qcom: smsm: Fix some kernel-doc formatting and naming problems
-f5c805b1f188fe1498011a57a4ee2db4238f53c8 soc: qcom: wcnss_ctrl: Demote non-conformant struct header and fix function headers
-1f8933c25f9e9f33b147b596ccd9f446a00e9862 soc: qcom: smp2p: Remove unused struct attribute provide another
-171c03171a4cdf23a07a6d3a63eb446b714fe45f soc: qcom: llcc-qcom: Fix expected kernel-doc formatting
-5d16af6a921f5a4e7038671be5478cba4b7cfe81 soc: qcom: rpmhpd: Provide some missing struct member descriptions
-9401f8dcf1ee4d18bc23a29f26c76910ab852757 soc: qcom: kryo-l2-accessors: Fix misnaming of 'val'
-1894b78ee6ff2d50e4afa4b80244d060c3773bfc soc: qcom: rpmh: Fix possible doc-rot in rpmh_write()'s header
-5e6cb9811a9cfd288e5d5457cddfa3336b3b8c0e Merge branches 'arm64-for-5.11', 'drivers-for-5.11' and 'dts-for-5.11' into for-next
 
---===============7798283067807251622==--
+--===============0967771276984083901==--
