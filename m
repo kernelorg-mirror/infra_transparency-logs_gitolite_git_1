@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 11 Nov 2020 09:51:07 -0000
-Message-Id: <160508826785.8684.3312284019161782852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 11 Nov 2020 09:52:47 -0000
+Message-Id: <160508836780.9318.13144617767601976952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
   - ref: refs/heads/master
-    old: abbaa433de07076fb8ef524b77ce55d94bad5fc5
-    new: f16e631333a8f12ae8128826e695db4b2a528407
+    old: 0d484db60fc0c5f8848939a61004c6fa01fad61a
+    new: 288c06973daae4637f25a0d1bdaf65fdbf8455f9
     log: |
-         f16e631333a8f12ae8128826e695db4b2a528407 bpf: Fix unsigned 'datasec_id' compared with zero in check_pseudo_btf_id
+         288c06973daae4637f25a0d1bdaf65fdbf8455f9 Bluetooth: Enforce key size of 16 bytes on FIPS level
          
