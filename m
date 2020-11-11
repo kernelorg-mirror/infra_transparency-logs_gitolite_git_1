@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 11 Nov 2020 11:14:43 -0000
-Message-Id: <160509328318.18183.12055826812728722099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 11 Nov 2020 11:36:51 -0000
+Message-Id: <160509461101.2026.4075991732351748449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 3ae1dc756f48ba33428c7f958e9f19fa8244672c
-    new: 22fbcfc54705213fa358bcc1349db8bbdf398ddc
+  - ref: refs/heads/testing/rdma-next
+    old: cc8b929e2835f26ffb06616bc0a446d9a9163178
+    new: 1cacdab3fb9f777c7b081838a8b4d9b74dcd0d92
     log: |
-         22fbcfc54705213fa358bcc1349db8bbdf398ddc Bluetooth: Replace BT_DBG with bt_dev_dbg in HCI request
+         1cacdab3fb9f777c7b081838a8b4d9b74dcd0d92 Merge branch 'rdma-next' into testing/rdma-next
          
