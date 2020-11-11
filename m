@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0305052244733021695=="
+Content-Type: multipart/mixed; boundary="===============3485465729349578331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 11 Nov 2020 04:24:32 -0000
-Message-Id: <160506867273.30104.11395244808318186245@gitolite.kernel.org>
+Date: Wed, 11 Nov 2020 04:24:36 -0000
+Message-Id: <160506867693.30194.13982779468932312331@gitolite.kernel.org>
 
---===============0305052244733021695==
+--===============3485465729349578331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: fd4a3776bcf4ffd4260daf094229e034920a7a56
-    new: 6a7fb491f15d9da8588d3e58d35d815599aa6205
-    log: revlist-fd4a3776bcf4-6a7fb491f15d.txt
+  - ref: refs/heads/5.11/scsi-queue
+    old: d90196317484b69bb46b7144c6e0e1a4f581200d
+    new: 151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98
+    log: revlist-d90196317484-151f1b664ffb.txt
 
---===============0305052244733021695==
+--===============3485465729349578331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1605068671 -0500
+pusher 75C5DE3D 1605068675 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1605068671-07502a8161a3ad79c13a691f5455499504f35802
+nonce 1605068675-9494884a0d5896b384ebfe71debf4f89f13476b7
 
-fd4a3776bcf4ffd4260daf094229e034920a7a56 6a7fb491f15d9da8588d3e58d35d815599aa6205 refs/tags/mkp-scsi-queue
+d90196317484b69bb46b7144c6e0e1a4f581200d 151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98 refs/heads/5.11/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+rZ38ACgkQ7ulgGnXF
-3j04ARAApY3tkgzbD0vxupXG5eARWgoDwBEaz+jAFSESpamWuHstNCbSaGcPYGKq
-gWU4fZYekhaJlBQJ+RTgz30CRoBzqmdQ++p+vLbHBXjq8yu9eFgwwjBap2iu647f
-ZMf7J7Cr0Ebl1MKd9Nuh1qkDMnmYUppwHv5dDThE3g1uILhA8SDKpYQtptxdsp9C
-qNmzh+HvOZqcPYRUmKUZ23A6dg3txgIfX4e+77fiiDHGWVhAEPf+cZ4xGUdKDHt1
-rb/Z+1T/uceybHxkG02iUQ1nParvr1xsMcHUiJF8JCQNVdD2dmr2CDFe8lmJvkQK
-/LmNOL9+3NOoj4ooCJcvPXqgQ90Np9IWC989bt8tcg6QoVdEcDmc6iWLJlyrqXHH
-7Tj0MVZq+NxzH9RbIp1IKGEKQQpQdMez3FBjRaZTicNcpPc8Gk4T3nGk/+D3/Eho
-cDOSI3cT+BGv7NP3jC3laDjScBDPbT8G5OawWP7m6LSjDstmcV8fHF5a2UVeIZuP
-p5Qc5Ss5mpJb2XXwkNL17gYfnQH8+2MJhzLtr/KxqTwPtkjg2tdgeHMeEe08LgeQ
-UbSvcrWzw4JfCLrNaHR8LTYBObI6AO5LPYJFSplJjtpGw59d9REeQP21ZM4qdxHb
-8PB9tgI/XMb3irbMuJBj9zbuVV9g3gES3n1ESFMbh1VDdWmtdJI=
-=u3tf
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+rZ4MACgkQ7ulgGnXF
+3j070g/9Fgcu7WCwFCPNtU0BRCSQGFvPEsc7nK/XpS8lVNS93pnAkNeF3pdHqlv5
+Um777wcNAm4t0tdM25xR+pwEU8zPH//Iqn6a6rrAp528Ik6poMJyfrl8ECp8286L
+BIIxtuuabPFMRrMLa7Oav+WuB1nbW8vU5cC34KhlKY6vEpj6cF0Rb/QxWNhzd6aV
+XVky8bUyCze/bk9caTbPO9q9rVx2DIQCG+sB4K32VuO+kd+X4X3R6UUmrI9UF12E
+0d+XxQkrbyFPqklQJN6YAWCoXOlUZn7EHp6vyfIPXYavr+OV1sbQ83MCFQXrwTwD
+pL5GnWZDey+eQQcoqO/dFSCJrbNhy1iace+Gb4P9iSeEP7GtrsBq7AqVua6IMvT5
+toP9kJzFyOOYdH98s1L0co2eKonXVkGcu8rPbMirNmQi1K9j/Oyg0HjG1XuNNapJ
+Ss5+1CbV303hGFWAWghc/tzCkL0Rgi/lApNBFlWXkDFdMOPQC02L+S8Yk8+98IiV
+Tsc9M/hl0DFYJsvmGiBj12ia57EL2E8FcYXssL9O1UXLB3SLaPquRi8YqW27FPB5
+NVDeEfYfA7wsxy8RNLIBNUcXZmjLNoJN1gvyEWhE0ynZyHqWfPL0xrZhuV4lX8Hl
+DTznP0Q0QsfnR9KKkwCVSXAmCz3MV/nKS5LYdgY2U/y1gwkxNHQ=
+=wDLq
 -----END PGP SIGNATURE-----
 
---===============0305052244733021695==
+--===============3485465729349578331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd4a3776bcf4-6a7fb491f15d.txt
+Content-Disposition: attachment; filename=revlist-d90196317484-151f1b664ffb.txt
 
 b22a0fac8c056e88fc72f7241fa9077b804634a6 scsi: mpt3sas: Define hba_port structure
 e238e71b6cb2b7b06224b31eb31892d1acb75f1d scsi: mpt3sas: Allocate memory for hba_port objects
@@ -94,4 +94,4 @@ a2b5d6f975a499bd50919a409c6a7c4cbf9d8a58 scsi: target: Fix LUN ref count handlin
 fe1d4c2ebcae994dffe8673cc3cba10102d15d11 scsi: ufs: Add DeepSleep feature
 151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98 scsi: ufs: Allow an error return value from ->device_reset()
 
---===============0305052244733021695==--
+--===============3485465729349578331==--
