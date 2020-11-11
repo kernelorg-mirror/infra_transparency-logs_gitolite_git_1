@@ -1,26 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 11 Nov 2020 20:33:24 -0000
-Message-Id: <160512680439.11725.15469805644164378104@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3083408327745825027=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/infra/patchwork/procmail
+Date: Wed, 11 Nov 2020 20:52:01 -0000
+Message-Id: <160512792192.23226.13629109627760390379@gitolite.kernel.org>
+
+--===============3083408327745825027==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/infra/patchwork/procmail
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 7112d127984bd7b0c8ded7973b358829f16735f5
-    new: 8378788cfe746d6d7222ded06d400377a3fc93e5
+  - ref: refs/heads/master
+    old: cf5b59ada6d7c16fff323779f090b2feba725179
+    new: fa99e58db23c74e443e37f1d76cb80cf660c3961
     log: |
-         c8a950d0d3b926a02c7b2e713850d38217cec3d1 tools: Factor HOSTCC, HOSTLD, HOSTAR definitions
-         9e8929fdbb9c9026bd3a732e9ac7dc9617c86309 tools/bpftool: Force clean of out-of-tree build
-         8859b0da5aac28e4e9651c8971e7af344f8ffec1 tools/bpftool: Fix cross-build
-         3290996e713315dfc9589e2c340a4c4997d90be8 tools/runqslower: Use Makefile.include
-         85e59344d0790379e063bf3cd3dd0fe91ce3b505 tools/runqslower: Enable out-of-tree build
-         2d9393fefb506fb8c8a483e5dc9bbd7774657b89 tools/runqslower: Build bpftool using HOSTCC
-         0639e5e97ad9c58dd15dcf6f6ccf677cfba39f98 tools/bpftool: Fix build slowdown
-         8378788cfe746d6d7222ded06d400377a3fc93e5 Merge branch 'tools/bpftool: Some build fixes'
+         fa99e58db23c74e443e37f1d76cb80cf660c3961 Add iproute2 delegation
          
+
+--===============3083408327745825027==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1605127921 -0500
+pushee gitolite.kernel.org:pub/scm/infra/patchwork/procmail
+nonce 1605127921-2ab01d13460c8a39c56bbe07ecdbe16a646c87e6
+
+cf5b59ada6d7c16fff323779f090b2feba725179 fa99e58db23c74e443e37f1d76cb80cf660c3961 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX6xO8QAKCRC2xBzjVmSZ
+bFe4AP4vC+3tlrDGBJxwtib5me8gxFVIOzofwD87ehsOl+ViYwD/QTg4Hc2b1Gbc
+gmPpJJo+vPtAivRCYqE9BTqPP1PYSAI=
+=jXnJ
+-----END PGP SIGNATURE-----
+
+--===============3083408327745825027==--
