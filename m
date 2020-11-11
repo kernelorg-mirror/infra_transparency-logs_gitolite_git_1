@@ -1,69 +1,93 @@
-Content-Type: multipart/mixed; boundary="===============2333191019135809587=="
+Content-Type: multipart/mixed; boundary="===============8506867381842107689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 11 Nov 2020 21:37:30 -0000
-Message-Id: <160513065002.24859.17065023679366046889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
+Date: Wed, 11 Nov 2020 21:44:40 -0000
+Message-Id: <160513108056.28625.15861230754124066110@gitolite.kernel.org>
 
---===============2333191019135809587==
+--===============8506867381842107689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/next/linux-next
+user: sfr
 changes:
-  - ref: refs/heads/coresched
-    old: dc49b01ea0ac8559d5539a807e4950af276b913a
-    new: 6207c806c4396df23890f09e1dfde283949968a7
-    log: revlist-dc49b01ea0ac-6207c806c439.txt
+  - ref: refs/heads/pending-fixes
+    old: 3c8bf35b825484117189bf15702deea14bd8b7b2
+    new: e83d2e1f2d190ff1cfe6f218c9392804411a45e2
+    log: revlist-3c8bf35b8254-e83d2e1f2d19.txt
 
---===============2333191019135809587==
+--===============8506867381842107689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc49b01ea0ac-6207c806c439.txt
+Content-Disposition: attachment; filename=revlist-3c8bf35b8254-e83d2e1f2d19.txt
 
-17a409fcab8a118a7c9d6156a2587a660509ca5c COVER
-6c548451692488f957ca70ad505e8d571d374085 sched: Wrap rq::lock access
-e4617bf4a8892276fd5d4a59d8ac56eb2bcf604a sched: Introduce sched_class::pick_task()
-054fd32dafb7ceb644581d21796256420d758079 sched/fair: Fix pick_task_fair crashes due to empty rbtree
-1daec0586c8b1f8e4cccd935e3e81bf807220aa3 sched: Core-wide rq->lock
-e1ecfca1f72371334786bba901d25be0b0700ce0 sched/fair: Add a few assertions
-2a11a0a05e6f702e4f8dd2ad188b292ff108d225 sched: Basic tracking of matching tasks
-3f994e1b6baf1b7c3cda54299a6ce6a36cf933a2 sched: Add core wide task selection and scheduling.
-4c65f619b7797caca272c219eb7f27945c39e61d sched/fair: Fix forced idle sibling starvation corner case
-c59006b44002c363805e825b9342fb498fdb20cd sched/fair: Snapshot the min_vruntime of CPUs on force idle
-b2efff69b7285c6941b99182d08a1872c9b4e6b4 sched: Fix priority inversion of cookied task with sibling
-717b5cd1a18b7c09a084d9ef51173e105adecd5e sched: Enqueue task into core queue only after vruntime is updated
-f25aafaa6466bd12f5194dc1567b492cda45890d sched: Simplify the core pick loop for optimized case
-233cfa1b675a2223eb01c90c40bd8a94e10bb111 sched: Trivial forced-newidle balancer
-deb10582d4b6f6ff9bf57adbeec5a7bfd8d31b35 sched: migration changes for core scheduling
-d2fc9fc003fe3c1da298073fe8c1d73b5d795f1d sched: Make snapshotting of min_vruntime more CGroup-friendly
-0a3bb03713d1c0fa6ba3c8b0cdfea8e2bd97b3e8 irq_work: Cleanup
-2ef2870ff184752af6ba3015fc982f43a34fc3c8 arch/x86: Add a new TIF flag for untrusted tasks
-682b78e00b4d5e3443963c47df339ad41df400e9 kernel/entry: Add support for core-wide protection of kernel-mode
-a89741b68867fe44df3f8a5cf7b689bd7b096b69 FIXUP: kernel/entry: Add support for core-wide protection of kernel-mode
-82b4183dd27867dc563a4bafcb90d113a43969cc FIXUP: kernel/entry: Add support for core-wide protection of kernel-mode
-3201dfb6f214d4f401302429eb6c5385c6def09f entry/idle: Enter and exit kernel protection during idle entry and exit
-7263ded346ff4666aba85754076a333e531dcf7b entry/kvm: Protect the kernel when entering from guest
-2eeb161771ec44efc9570d814f70d02f2b8f2b61 sched: CGroup tagging interface for core scheduling
-c88a1bb96f4979a0593ac8c027cc32c482078a56 sched: Split the cookie and setup per-task cookie on fork
-201224980edebecfd37d79fabdca728e878198d0 sched: Add a per-thread core scheduling interface
-93e980889c1acb0ec5da197b8292b62d81a86d5f sched: Release references to the per-task cookie on exit
-0bc13b818b3e7b60330f2093f7170ebaa39f8a0c sched: Refactor core cookie into struct
-182f1bfcb0afc2e109643677db140bce95eec151 sched: Add a second-level tag for nested CGroup usecase
-bfc786adbc5c72622b668aee5bbd5428714125b2 sched/debug: Add CGroup node for printing group cookie if SCHED_DEBUG
-54e4c4a24e1656d80b9efdd886d9f1bb8e00c8cf kselftest: Add tests for core-sched interface
-e1e52c0c7cfb57c012afce7996d84d6084211595 sched: Move core-scheduler interfacing code to a new file
-fab1f2858d7a516b7c899c26ce3a4499136962a2 Documentation: Add core scheduling documentation
-c52bbc75d990b6d47f81e2a1eef19a2131bd6d56 FIXUP: sched: Add a per-thread core scheduling interface
-061123a3f8f32c621ce9376dca3861556b0d0e15 sched: Debug bits...
-f6f1a17105351bba98e0e131219ba90a8551df21 FIXUP: FIXUP: sched: Add a per-thread core scheduling interface
-6e7b5ac1f4b58dc056306d30e99dcbaef51d58e0 FIXUP: sched: Add core wide task selection and scheduling.
-f9edd021eafd251432be2c9cf672972598c7497d NEW: x86/bugs: Disable coresched on hardware that does not need it
-6207c806c4396df23890f09e1dfde283949968a7 NEW: sched/debug: Add debug information about whether coresched is enabled
+294a3317bef52b189139c813b50dd14d344fa9ec ARM: OMAP2+: Manage MPU state properly for omap_enter_idle_coupled()
+97adb13dc9ba08ecd4758bc59efc0205f5cbf377 selftest: fix flower terse dump tests
+a6c40b8032b845f132abfcbcbed6bddebbcc3b4a drm/mcde: Fix unbalanced regulator
+866358ec331f8faa394995fb4b511af1db0247c8 netlabel: fix our progress tracking in netlbl_unlabel_staticlist()
+902a66e08ceaadb9a7a1ab3a4f3af611cd1d8cba lan743x: correctly handle chips with internal PHY
+f3037c5a31b58a73b32a36e938ad0560085acadd net: phy: realtek: support paged operations on RTL8201CP
+909172a149749242990a6e64cb55d55460d4e417 net: Update window_clamp if SOCK_RCVBUF is set
+2bae900b9419db3f3e43bbda3194657235fee096 net: dsa: mv88e6xxx: Fix memleak in mv88e6xxx_region_atu_snapshot
+2b52a4b65bc8f14520fe6e996ea7fb3f7e400761 lan743x: fix "BUG: invalid wait context" when setting rx mode
+4031eeafa71eaf22ae40a15606a134ae86345daf net/af_iucv: fix null pointer dereference on shutdown
+4711497ae85d90de903671989daf5145054c123e MAINTAINERS: remove Ursula Braun as s390 network maintainer
+e87d24fce924bfcef9714bbaeb1514162420052e Merge branch 'net-iucv-fixes-2020-11-09'
+2e6f11a797a24d1e2141a214a6dd6dfbe709f55d scsi: ufshcd: Fix missing destroy_workqueue()
+99fba3205cd499255a36fd87f1d6064adc622a5b ARM: dts: am437x-l4: fix compatible for cpsw switch dt node
+b5acfe152abaa2721c9ca8aa67f941d7de55d24e ALSA: hda/realtek: Add some Clove SSID in the ALC293(ALC1220)
+1ed576a20cd5c93295f57d6b7400357bd8d01b21 KVM: s390: pv: Mark mm as protected after the set secure parameters and improve cleanup
+6cbf1e960fa52e4c63a6dfa4cda8736375b34ccc KVM: s390: remove diag318 reset code
+f16e631333a8f12ae8128826e695db4b2a528407 bpf: Fix unsigned 'datasec_id' compared with zero in check_pseudo_btf_id
+92e4dc8b05663d6539b1b8375f3b1cf7b204cfe9 Drivers: hv: vmbus: Allow cleanup of VMBUS_CONNECT_CPU if disconnected
+365ec8b61689bd64d6a61e129e0319bf71336407 regulator: pfuze100: limit pfuze-support-disable-sw to pfuze{100,200}
+766c6b63aa044e84b045803b40b14754d69a2a1d spi: fix client driver breakages when using GPIO descriptors
+ee4ad5d06509b3aea79b6a77bebd09ef891bed8d spi: fsi: Fix transfer returning without finalizing message
+f51ac5aa53651a2c81b12eb2ac9c362e06c3521d Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
+3317433d50916c9ef893cfe7237dd9f0ea07907b Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
+df3e930de5881cf098f9626fc6cc8c2fa2ab65ff Merge remote-tracking branch 'spi/for-5.9' into spi-linus
+8e2ba731d15343a8fed661b6ae7ab895416935fe Merge remote-tracking branch 'spi/for-5.10' into spi-linus
+4cbe798796d7a302988afdef08999299d08eeee4 Merge remote-tracking branch 'kbuild-current/fixes' into master
+0a3e5df4aa75a8db5ac3864acb27a07b69bfe1ce Merge remote-tracking branch 'arm-current/fixes' into master
+223aede6f87e657a27f21e9851073c8c0b33150b Merge remote-tracking branch 'arm64-fixes/for-next/fixes' into master
+c2d58ebda03899a3c69a91aa06d22277e7df5685 Merge remote-tracking branch 'powerpc-fixes/fixes' into master
+668b4f78d14a4738dd4bc65c15a918c9f44ce3a3 Merge remote-tracking branch 's390-fixes/fixes' into master
+037b99bf66f3362247d176fcb658ec3561c91b80 Merge remote-tracking branch 'sparc/master' into master
+80cab82398ba131c0749cd1419ccc00ebc9b2c31 Merge remote-tracking branch 'net/master' into master
+6f099d241ab9f64dc7edb44c01978526be379fe4 Merge remote-tracking branch 'bpf/master' into master
+48b94ee17d892171b6a07b18a264d39f614157fa Merge remote-tracking branch 'ipsec/master' into master
+6314cfc1d148e039f85d55b488f9ff97331fbece Merge remote-tracking branch 'wireless-drivers/master' into master
+77b41fc1c14d6e617504e685fc0ede6bf9b721b6 Merge remote-tracking branch 'sound-current/for-linus' into master
+4d73ab430c8f2ebca5c9facb9212558feddf4222 Merge remote-tracking branch 'sound-asoc-fixes/for-linus' into master
+11e9c348e2c4ee503cdffafcb834e7ea7469c8ae Merge remote-tracking branch 'regmap-fixes/for-linus' into master
+c0a106e92472f8ce68e49934a1824989f9a165f9 Merge remote-tracking branch 'regulator-fixes/for-linus' into master
+80830debf5aa1aa8501ff4507bb483fc9e562aa5 Merge remote-tracking branch 'spi-fixes/for-linus' into master
+0f6322d59f51e59d990e8e20d4aa2fa8c1764908 Merge remote-tracking branch 'usb.current/usb-linus' into master
+60bfd8ce00bcf9c37f73dcc270a6a4e4440e951f Merge remote-tracking branch 'phy/fixes' into master
+31b3001254dbd8f6c481f25da5757d73f6f2755e Merge remote-tracking branch 'staging.current/staging-linus' into master
+d6635b8731e3566b99280b6c19555404eb8cf26a Merge remote-tracking branch 'char-misc.current/char-misc-linus' into master
+de4f2c33256c67c437d90b9198a74ea1fd6f3a33 Merge remote-tracking branch 'input-current/for-linus' into master
+0bb4635e895ff2367fd9ebb3bb51901ead12f79f Merge remote-tracking branch 'ide/master' into master
+5c85c4588156fbd23657e2a7f9c206b33e7e7b55 Merge remote-tracking branch 'dmaengine-fixes/fixes' into master
+8890e2d1209e93a8458b6a5e465c5a2aacb4ff90 Merge remote-tracking branch 'v4l-dvb-fixes/fixes' into master
+ee20679da0c6726477a4e5ed579cba2026856093 Merge remote-tracking branch 'mips-fixes/mips-fixes' into master
+9c53276802253614f6acbc0d6e91687f93619164 Merge remote-tracking branch 'omap-fixes/fixes' into master
+4e8b665198b9eb882b66b82d3f3b6259899fd3b0 Merge remote-tracking branch 'kvms390-fixes/master' into master
+4e6d6fa2c38d095e05da093e56e411842f127131 Merge remote-tracking branch 'hwmon-fixes/hwmon' into master
+692d9ec778b23ef6b764bcaca08e1e089c2a5f85 Merge remote-tracking branch 'btrfs-fixes/next-fixes' into master
+602814a13446e49db70ce086dfb6b1f49d61d152 Merge remote-tracking branch 'samsung-krzk-fixes/fixes' into master
+b123dcf90e4aa1b7c3401dd5831dd2e92279cd50 Merge remote-tracking branch 'scsi-fixes/fixes' into master
+202d21816384ef7b5641b6a08a81b5ba1dc3bd46 Merge remote-tracking branch 'drm-intel-fixes/for-linux-next-fixes' into master
+8b8437bb9bcbfeae54df7ef488c39bb52488b0a6 Merge remote-tracking branch 'mmc-fixes/fixes' into master
+cb072f9b73b06c3829a7a975c86736bb003218fa Merge remote-tracking branch 'hyperv-fixes/hyperv-fixes' into master
+11173cb7f79144bfc900f0125e945e6a00f43564 Merge remote-tracking branch 'pidfd-fixes/fixes' into master
+7c21e1398dbb141d1538792136b6f8721d429d3f Merge remote-tracking branch 'pinctrl-intel-fixes/fixes' into master
+224039f8a12027155c39fd19bec4e8c29e186fc9 Merge remote-tracking branch 'kunit-fixes/kunit-fixes' into master
+e83d2e1f2d190ff1cfe6f218c9392804411a45e2 Merge remote-tracking branch 'drm-misc-fixes/for-linux-next-fixes' into master
 
---===============2333191019135809587==--
+--===============8506867381842107689==--
