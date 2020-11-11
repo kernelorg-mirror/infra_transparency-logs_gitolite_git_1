@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 11 Nov 2020 01:51:55 -0000
-Message-Id: <160505951543.20725.1861502109491357964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Wed, 11 Nov 2020 01:53:13 -0000
+Message-Id: <160505959353.21501.13117332261482627670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 909172a149749242990a6e64cb55d55460d4e417
-    new: 2bae900b9419db3f3e43bbda3194657235fee096
+  - ref: refs/heads/fscrypt-pending
+    old: 616d48a6b2647fd2874c6ace4de39d97bd78f8df
+    new: eec6d09c1d311f766915a805c5b4d8f20d9faad2
     log: |
-         2bae900b9419db3f3e43bbda3194657235fee096 net: dsa: mv88e6xxx: Fix memleak in mv88e6xxx_region_atu_snapshot
+         540944a35e611e29569b336e410e171f71e30296 fscrypt: fix inline encryption not used on new files
+         fbe73c4628c830bd1b814727be95ddae11389bf7 fscrypt: remove kernel-internal constants from UAPI header
+         eec6d09c1d311f766915a805c5b4d8f20d9faad2 fs/inode.c: make inode_init_always() initialize i_ino to 0
          
