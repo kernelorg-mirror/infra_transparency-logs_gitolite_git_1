@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 11 Nov 2020 08:01:34 -0000
-Message-Id: <160508169485.16868.909292228585914981@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 11 Nov 2020 08:18:52 -0000
+Message-Id: <160508273244.26391.17719429912770200616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/for-linus
-    old: 446b8185f0c39ac3faadbcd8ac156c50f2fd4ffe
-    new: b5acfe152abaa2721c9ca8aa67f941d7de55d24e
+  - ref: refs/heads/sched/urgent
+    old: a73f863af4ce9730795eab7097fb2102e6854365
+    new: 8d4d9c7b4333abccb3bf310d76ef7ea2edb9828f
     log: |
-         b5acfe152abaa2721c9ca8aa67f941d7de55d24e ALSA: hda/realtek: Add some Clove SSID in the ALC293(ALC1220)
-         
-  - ref: refs/heads/master
-    old: d2398f3432b944f95903a09346a6d03051257251
-    new: 097825ef09f47d374b1258c5e4d9bd395ba82992
-    log: |
-         b5acfe152abaa2721c9ca8aa67f941d7de55d24e ALSA: hda/realtek: Add some Clove SSID in the ALC293(ALC1220)
-         097825ef09f47d374b1258c5e4d9bd395ba82992 Merge branch 'for-linus'
+         16b0a7a1a0af9db6e008fecd195fe4d6cb366d83 sched/fair: Ensure tasks spreading in LLC during LB
+         b4c9c9f15649c98a5b45408919d1ff4fd7f5531c sched/fair: Prefer prev cpu in asymmetric wakeup path
+         8d4d9c7b4333abccb3bf310d76ef7ea2edb9828f sched/debug: Fix memory corruption caused by multiple small reads of flags
          
