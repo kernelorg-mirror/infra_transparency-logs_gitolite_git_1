@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5985255755070687576=="
+Content-Type: multipart/mixed; boundary="===============6517044901786966289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse-dev
-Date: Wed, 11 Nov 2020 00:38:14 -0000
-Message-Id: <160505509485.30554.14662872064953633210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse
+Date: Wed, 11 Nov 2020 00:38:22 -0000
+Message-Id: <160505510248.30631.5171231256316062909@gitolite.kernel.org>
 
---===============5985255755070687576==
+--===============6517044901786966289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse-dev
+repo: pub/scm/devel/sparse/sparse
 user: lucvoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 98469166098170fc67d3eb043656c3e79190b31f
     log: revlist-f680124b794b-984691660981.txt
 
---===============5985255755070687576==
+--===============6517044901786966289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ b5bbdc9c3835b62c1e67bbd1b69017bb07f57823 select: simplify select(x, x, 0) --> x
 55d44f307c12fe0241d0a12e1dfe0320a54510af Merge branch 'optim-sel' into next
 98469166098170fc67d3eb043656c3e79190b31f Merge branch 'optim-cmp' into next
 
---===============5985255755070687576==--
+--===============6517044901786966289==--
