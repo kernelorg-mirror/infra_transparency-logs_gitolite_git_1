@@ -1,93 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============5876933202889768267=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 11 Nov 2020 04:24:49 -0000
-Message-Id: <160506868990.30482.6193835159355310798@gitolite.kernel.org>
-
---===============5876933202889768267==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Wed, 11 Nov 2020 04:54:01 -0000
+Message-Id: <160507044171.17845.11852857548980132905@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
-  - ref: refs/heads/staging
-    old: 151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98
-    new: cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5
-    log: revlist-151f1b664ffb-cb2b4e8f5ea6.txt
-
---===============5876933202889768267==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1605068688 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1605068688-f963c8e0ae1b32f514846bb8a31a3a76eb9afc16
-
-151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98 cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5 refs/heads/staging
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+rZ5AACgkQ7ulgGnXF
-3j14JA/9EebmgJXe9aHdAXPUdoVb2Lp8iFhdaKtKi5f9AuSj366TPIWBx7J432nr
-AREOxxK0kQ5iinCYSVtNeYp8Gg5OxYqm/7bopkiYzBpxW7nZFG9ry+/QRswMwLB+
-3sWFEkEFk5lYnwh4vQ8ss6ok65PyX/2aS8TbpFe7r049356Hj15daX+gNkoIyMJ3
-qw+EivgyH8RZdQgQQRU9Zs9AJ768LovkmHqXtLKkBxVfkeYVfaDEsBkC5CuBFo1a
-9P3qtB7rE0TbDomuW/sNKhAuu0YPBd0zYcsWzLQ9axhikEmt40GVepiWYi2SBqzb
-6PBWUMiL1bBnO+tp1saRneYieJNoxDbmcH5m5RgQ3TrRBpPWlyivgxPrmKMNYnNt
-9nTO+SIH5SbSo8NVOd4KwUXcIhVkRNN7t6LN6zDCB2iphNlUhjkytelqlfNM4E3G
-BthISV5bnKeDVvFFL6216Iwm2opbcLpuHO4IPE5NJMqKAGiji8dGNaUXmBWi9YVe
-/dcwgU7cKwxtd9VY6I0UPdlNGqFhNhokn13ok2hLLYadk+Au5SYizOV4Y6Itn5dO
-xwRGADADu9tiHkSvBmiu73HiIml2K5tUyh9/25VJ+79XPa2CX6mSOdHStPeE+VuC
-crzM8BBINr1hHOMFSUVijylE+acbMDjG0WDI/88bkf/Xpjoe5hk=
-=tXUp
------END PGP SIGNATURE-----
-
---===============5876933202889768267==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-151f1b664ffb-cb2b4e8f5ea6.txt
-
-d2a2f3794cbcb2c6051f907fbe207ecf3c69702e scsi: arcmsr: Stop __builtin_strncpy complaining about a lack of space for NUL
-412b51ffda3c8023cc017f951e864588f157a988 scsi: pm8001: pm8001_sas: Fix strncpy() warning when space is not left for NUL
-b2ed1babfefb072fac732d10553d290126175911 scsi: aic7xxx: aic79xx_osm: Remove unused variable 'saved_scsiid'
-e330c96968680b2b72f73636f00321886792eb71 scsi: mpt3sas: mpt3sas_scsih: Fix function documentation formatting
-eceee00e41565523a0010c8828a2330d04f64878 scsi: lpfc: lpfc_scsi: Fix a whole host of kernel-doc issues
-9176ad27acac13c3254ef45581ffd4a41795a9b5 scsi: lpfc: lpfc_attr: Demote kernel-doc format for redefined functions
-a738bd9bbe53c1a9b5134845af16e0fedf9ab2f8 scsi: lpfc: lpfc_attr: Fix-up a bunch of kernel-doc misdemeanours
-e61e07409cf7dbdc532aeb39706f4de04f0aee2e scsi: lpfc: lpfc_debugfs: Fix a couple of function documentation issues
-ea085dab6b9f220f0455f27e64af00deed102976 scsi: lpfc: lpfc_bsg: Provide correct documentation for a bunch of functions
-9a5cf98d7ee69e7705705b40b5d947a252c134ac scsi: esas2r: esas2r_disc: Place brackets around a potentially empty if()
-433e07e08c638827e99923192e91c9be8912b5e0 scsi: esas2r: esas2r_init: Place brackets around a potentially empty if()
-74d1f928162a217f5dc034b98deff78490300479 scsi: lpfc: lpfc_nvme: Remove unused variable 'phba'
-d23ec0b610e5cdf55853472157768d4412b3d13b scsi: ufs: ufshcd: Fix some function doc-rot
-3e7491701a3323659d2579f785cda5240351d6f3 scsi: lpfc: lpfc_nvme: Fix some kernel-doc related issues
-6abf98de6f8ad4f078f4845589e8d7f024a851bf scsi: esas2r: esas2r_int: Add brackets around potentially empty if()s
-d3cb79fcf943040394073de14d989a3547974d7f scsi: lpfc: lpfc_nvmet: Fix-up some formatting and doc-rot issues
-bf7e38aa0ee1f06130fb3019f42d59b767da73a9 scsi: esas2r: esas2r_main: Demote non-conformant kernel-doc header
-90ab11234d7995530dfa2a2b072150fd6e5fc1d2 scsi: advansys: Relocate or remove unused variables
-67056d90f13547558a3d7661fd69acd1463146de scsi: dc395x: Remove a few unused variables
-6c22079e9f369e513d8195f96db99a4fbb1525a8 scsi: dc395x: Mark 's_stat2' as __maybe_unused
-e9326b5a6f5b434af1889a7efa64dd9a738ef90e scsi: MAINTAINERS: Make Bodo target_core_user maintainer
-e21ee5a6b9c9d30fd07ce5bd3e4a5668a03af6d9 scsi: block: Return status code in blk_mq_end_request()
-268940b80fa4096397fd0a28e6ad807e64120215 scsi: scsi_dh_alua: Return BLK_STS_AGAIN for ALUA transitioning state
-fb908850ece3bc93a9d276f6dd8505d824b2789c scsi: scsi_dh_alua: Set 'transitioning' state on Unit Attention
-0d88232010d5f40a8a31ff7b454e3f2594fd047f scsi: core: Return BLK_STS_AGAIN for ALUA transitioning
-a004147a33199c660bbb203f11a82703459bf9f9 scsi: ufs-mediatek: Assign arguments with correct type
-cf137b3ea49a04e0c843b12674afa4b1d23e827f scsi: ufs-mediatek: Support VA09 regulator operations
-ac8c2459091cd0e2bf226278d7b332e81c4c855a scsi: ufs-mediatek: Decouple features from platform bindings
-bf8fab86ab791cd24572eaf05f23af9b99dad43c scsi: ufs-mediatek: Support option to disable auto-hibern8
-801909ac97530062c3de6bfdb1d7e08f3c7de8ce scsi: ufs: Add enums for UniPro version higher than 1.6
-638e6271cac2d6eba8d5d6cfd6a6ae77715a8cf6 scsi: ufs-mediatek: Add HS-G4 support
-44ff81f2995794982daf7b89a923c6335d57c469 scsi: isci: Don't use PCI helper functions
-cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5 scsi: bnx2fc: Fix comparison to bool warning
-
---===============5876933202889768267==--
+  - ref: refs/heads/master
+    old: edd329dbcda3e25a8d21636c2d69a102fb1eb65a
+    new: 9b1c003748d4df78416d50fce139f0875224440b
+    log: |
+         9b1c003748d4df78416d50fce139f0875224440b Migrate building progs/tcapsh-static to sudotest
+         
