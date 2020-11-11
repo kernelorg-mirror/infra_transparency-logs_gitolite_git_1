@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6699657532189013541=="
+Content-Type: multipart/mixed; boundary="===============8813135203024110087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 11 Nov 2020 00:29:18 -0000
-Message-Id: <160505455892.24582.5408597709576260477@gitolite.kernel.org>
+Date: Wed, 11 Nov 2020 00:31:23 -0000
+Message-Id: <160505468393.26688.16201845092377686613@gitolite.kernel.org>
 
---===============6699657532189013541==
+--===============8813135203024110087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: a723783481308dd5086860a45c20f472c50951c5
-    new: ed4706daa89067631ee39859989094e8bef045dd
-    log: revlist-a72378348130-ed4706daa890.txt
+  - ref: refs/heads/net-rc
+    old: 0f3aaca0d97ec85079015cd9628732472ee502d4
+    new: eac51c0166b36f44158ecc2370d79613cdc1e23e
+    log: revlist-0f3aaca0d97e-eac51c0166b3.txt
 
---===============6699657532189013541==
+--===============8813135203024110087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a72378348130-ed4706daa890.txt
+Content-Disposition: attachment; filename=revlist-0f3aaca0d97e-eac51c0166b3.txt
 
 7fe94612dd4cfcd35fe0ec87745fb31ad2be71f8 xfrm: interface: fix the priorities for ipip and ipv6 tunnels
 9fe9efd6924c9a62ebb759025bb8927e398f51f7 ASoC: Intel: kbl_rt5663_max98927: Fix kabylake_ssp_fixup function
@@ -406,5 +406,10 @@ ee661a4abdf457cc3712725fb4f15113df7588e3 Merge tag 'mlx5-fixes-2020-11-03' of gi
 2eb4a6fa158e3bd6cb0b693b52cecb1a63610b80 net/mlx5e: Fix refcount leak on kTLS RX resync
 50e99c1053090bed91b716dab0ed9e91676fdc02 net/tls: Protect from calling tls_dev_del for TLS RX twice
 ed4706daa89067631ee39859989094e8bef045dd net/mlx5e: E-Switch, Offload all chain 0 priorities when modify header and forward action is not supported
+cb865c35b27e1b7b2d49b4d567a4cdac350a4797 Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
+19dd716b2185f1732649d1a4bca9bda80998be16 Merge commit 'refs/changes/08/347108/7' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
+fb8fa2bd7c4f1d4d64c74fb4a3852169c525476b Merge commit 'refs/changes/48/344848/6' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
+9f5fc7a66d3900104ea5ef7a2cc8799c4f4b7b5f Merge branch 'net-mlx5' into net-rc
+eac51c0166b36f44158ecc2370d79613cdc1e23e Merge branch 'net-mlx5-test' into net-rc
 
---===============6699657532189013541==--
+--===============8813135203024110087==--
