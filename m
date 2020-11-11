@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 11 Nov 2020 11:13:26 -0000
-Message-Id: <160509320649.17688.5372851282817077025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 11 Nov 2020 11:14:43 -0000
+Message-Id: <160509328318.18183.12055826812728722099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
   - ref: refs/heads/master
-    old: f16e631333a8f12ae8128826e695db4b2a528407
-    new: 3f6ccdf8798eaedce3834bcd29ff25cd13315b78
+    old: 3ae1dc756f48ba33428c7f958e9f19fa8244672c
+    new: 22fbcfc54705213fa358bcc1349db8bbdf398ddc
     log: |
-         3f6ccdf8798eaedce3834bcd29ff25cd13315b78 bpf: Move iterator functions into special init section
+         22fbcfc54705213fa358bcc1349db8bbdf398ddc Bluetooth: Replace BT_DBG with bt_dev_dbg in HCI request
          
