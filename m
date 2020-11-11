@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Wed, 11 Nov 2020 09:18:26 -0000
-Message-Id: <160508630637.18300.1807285079612728736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 11 Nov 2020 09:34:35 -0000
+Message-Id: <160508727514.29905.4757105398630309006@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tmlind/linux-omap
-user: tmlind
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
-  - ref: refs/heads/for-next
-    old: 71b51fb777453f00b377866f05a3e47413339281
-    new: 2565feb3ad188d65510bffc6c1b8f29d162d22d7
+  - ref: refs/heads/master
+    old: 886888470f5bbb411f72fcc7efab7bd2e8ffce5e
+    new: 0807d1b387297ed58e498c15bddd899278104b3d
     log: |
-         294a3317bef52b189139c813b50dd14d344fa9ec ARM: OMAP2+: Manage MPU state properly for omap_enter_idle_coupled()
-         99fba3205cd499255a36fd87f1d6064adc622a5b ARM: dts: am437x-l4: fix compatible for cpsw switch dt node
-         7045d808685efff5061601a8836b4f7fc7bc7977 Merge branch 'fixes' into for-next
-         2565feb3ad188d65510bffc6c1b8f29d162d22d7 Merge branch 'omap-for-v5.11/dt' into for-next
+         9b71be4f0b27daf3edc9ce41f13d07e305802994 signal.2: wfix: Make the warning against the use of signal() even more obvious
+         0807d1b387297ed58e498c15bddd899278104b3d timer_getoverrun.2: timer_getoverrun() now clamps the overrun count to DELAYTIMER_MAX
          
