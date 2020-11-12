@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Thu, 12 Nov 2020 13:11:11 -0000
-Message-Id: <160518667115.23832.8423273442513041262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Thu, 12 Nov 2020 13:16:10 -0000
+Message-Id: <160518697022.26939.16681652859739023523@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/kvm/vectors
-    old: 6d5dc7872df2f7eab16b94b72a31ccd748719ee8
-    new: 93b537a05ad3420cdeff965e80750600c43ae297
+  - ref: refs/heads/thermal/linux-next
+    old: ef63b043ac8645d2540d7b50dd3e09c53db3d504
+    new: ce7c01557465e920f5bccc5878b8dec165eeb80b
     log: |
-         345d101921ce69ac5a99b2af6f9afd5b21a9fd1f KVM: arm64: Allocate hyp vectors statically
-         9db3c277cfdc1bc550a352a05366e341a75374fc arm64: spectre: Rename ARM64_HARDEN_EL2_VECTORS to ARM64_SPECTRE_V3A
-         ac451c0c0c37bdcba7356ff5ca7c9865525b0f95 arm64: spectre: Consolidate spectre-v3a detection
-         93b537a05ad3420cdeff965e80750600c43ae297 KVM: arm64: Remove redundant hyp vectors entry
+         e01aac535353e013f9a5c9675232458906b895da thermal: sun8i: Use bitmap API instead of open code
+         030a48b0f6ce393d78b8d33debb1e2043b8cc156 thermal/drivers/hwmon: Cleanup coding style a bit
+         236761f19a4f373354f1dcf399b57753f1f4b871 thermal/drivers/cpufreq_cooling: Update cpufreq_state only if state has changed
+         7cfa9770f485c03c877db4a66bbfda96df367b98 dt-bindings: thermal: rcar-thermal: Improve schema validation
+         ce7c01557465e920f5bccc5878b8dec165eeb80b docs: thermal: time_in_state is displayed in msec and not usertime
          
