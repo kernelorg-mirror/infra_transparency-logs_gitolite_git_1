@@ -1,55 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============2787649378795345993=="
+Content-Type: multipart/mixed; boundary="===============6665295739056052746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Thu, 12 Nov 2020 16:50:46 -0000
-Message-Id: <160519984666.19279.8479182288397068650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Thu, 12 Nov 2020 16:51:59 -0000
+Message-Id: <160519991930.19800.1780911101262623029@gitolite.kernel.org>
 
---===============2787649378795345993==
+--===============6665295739056052746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/numa
-    old: cc3da316a662ea2f3599100528c1bd66f60b260b
-    new: 9458e5b7b907e21040bc09ea5e49020931635f65
-    log: revlist-cc3da316a662-9458e5b7b907.txt
+  - ref: refs/heads/coresched
+    old: 6207c806c4396df23890f09e1dfde283949968a7
+    new: 2e8591a330ff4097eef61ca2d3d1d19d7590a82b
+    log: revlist-6207c806c439-2e8591a330ff.txt
 
---===============2787649378795345993==
+--===============6665295739056052746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc3da316a662-9458e5b7b907.txt
+Content-Disposition: attachment; filename=revlist-6207c806c439-2e8591a330ff.txt
 
-e5c23a882a71167ab51a197fc9b990a50fe91512 x86/sgx: Add SGX architectural data structures
-25769e4130f9211c7c665fb6509804b4be334b2e x86/sgx: Add wrappers for ENCLS functions
-e1c2cc199cd901594d080b21aa9a3ad00c6892fd x86/cpufeatures: x86/msr: Add Intel SGX hardware bits
-68d57a2d71b5be97e429fcf167452e13a89224b7 x86/cpufeatures: x86/msr: Add Intel SGX Launch Control hardware bits
-724b00bfa266dbeeb6182a0622ff4d6b14f3af49 x86/sgx: Initialize metadata for Enclave Page Cache (EPC) sections
-ae687577db1b5023288b641b655ef1368a300230 x86/mm: x86/sgx: Signal SIGSEGV with PF_SGX
-bc96d8ff08a57fd68eaea30ca2fde76da079da21 x86/cpu/intel: Detect SGX support
-6d435e494bcae047eb8cb73e7b7063d2b14febc5 x86/cpu/intel: Add nosgx kernel parameter
-aa746488e504fc93ec9bb6f63d37cec097aff120 x86/sgx: Add SGX page allocator functions
-e139f8685f9adc13b039a11ac8b04e316daed213 mm: Add 'mprotect' hook to struct vm_operations_struct
-d80cf93795c4f4c0709287bbb709cbdc64661fe7 x86/sgx: Add SGX misc driver interface
-fce36c9e7fd3c7e8d6bf7c94ef64652ab950ee35 x86/sgx: Add SGX_IOC_ENCLAVE_CREATE
-2a0a6146e90ce459f8f0db5c81315db37339a811 x86/sgx: Add SGX_IOC_ENCLAVE_ADD_PAGES
-1445706766271b2be3857f763437f04696087948 x86/sgx: Add SGX_IOC_ENCLAVE_INIT
-aca4908b803bd225d86a9825e11c01140a2fb4f7 x86/sgx: Add SGX_IOC_ENCLAVE_PROVISION
-9aaa321c52ecb439baad3899b5fb4def26a4b1fb x86/vdso: Add support for exception fixup in vDSO functions
-f480ceec969e36efd7e49e2c228705bf946a9728 x86/fault: Add helper function to sanitize error code
-19a55561b5939bd0304a148edb67063d8ed9e67c x86/traps: Attempt to fixup exceptions in vDSO before signaling
-e0462d1a07ed0d25c08e2889e7d8a1f09b271a68 x86/vdso: Implement a vDSO for Intel SGX enclave call
-0b2a93ac83b21a987b452e5ea7af99aedcf83cb1 selftests/x86: Add a selftest for SGX
-1a921f81e2ffcc51a4dbb7d820f4f9158d66dd52 x86/sgx: Add a page reclaimer
-5877d684a41a15c792ba3018a8a60228e7e9a622 x86/sgx: Add ptrace() support for the SGX driver
-7fb3c4c290ae9ea2cb7ccd1a11a1f0db6ad7198d docs: x86/sgx: Document SGX kernel architecture
-09d911950c45dfd3bec40e16d8c8b871da03f0b9 x86/sgx: Update MAINTAINERS
-9458e5b7b907e21040bc09ea5e49020931635f65 x86/sgx: Allocate form local NUMA node first
+f09dc5c23958053bb098b5f2edb2e3c549628673 sched: Make snapshotting of min_vruntime more CGroup-friendly
+1b3c0218ac4696bc4e50713342d44fb1b3157ac5 irq_work: Cleanup
+6fdc98f435693f0c6ce0734756ed7a40863d0549 arch/x86: Add a new TIF flag for untrusted tasks
+ebeaa2fad543b938d0a28a33aa4b05705abbdff6 kernel/entry: Add support for core-wide protection of kernel-mode
+8ac6e70c0ca5e5857e7196bb1104550f99760c07 FIXUP: kernel/entry: Add support for core-wide protection of kernel-mode
+f23d933beb3ceba1f8d141be9fa5cfff60ed4327 FIXUP: kernel/entry: Add support for core-wide protection of kernel-mode
+6f48953188f2a46c13268c2776bcaa1d2ea37071 entry/idle: Enter and exit kernel protection during idle entry and exit
+da70cd1d98506b3b80e798e13a82b454443a092d entry/kvm: Protect the kernel when entering from guest
+89e8a1e626200cd22360b68594c8a47fc37554ec sched: CGroup tagging interface for core scheduling
+43e45354cfe62e622e3b52792485bf2f39e98887 sched: Split the cookie and setup per-task cookie on fork
+20fb7fe1bf97401672dbbbe309868c9480c5da78 sched: Add a per-thread core scheduling interface
+bb3032c337180485d8b818f0ff28bdf57b48d498 sched: Release references to the per-task cookie on exit
+9ddaf758e22a5304421599f76c2d05cdc9e917e8 sched: Refactor core cookie into struct
+4dcbeb1da598abd68a3fba0ba5273ad05ba7d7d4 sched: Add a second-level tag for nested CGroup usecase
+c59ca87dd3551eac0644866dc6a62fbcfd91fef2 sched/debug: Add CGroup node for printing group cookie if SCHED_DEBUG
+44a368a891c7cc332c5b838137e274354434958d kselftest: Add tests for core-sched interface
+019798184cd820796e4d0a7d27e7a9070545bbfd sched: Move core-scheduler interfacing code to a new file
+4de715288818b2db2c35fb6b2bdb46a2b2f9b53a Documentation: Add core scheduling documentation
+8ea80de3495b68cfdc2078e02c8ab7745b570f44 FIXUP: sched: Add a per-thread core scheduling interface
+e23313654af5a1c9a0d007009b0e8529ac59d6c8 sched: Debug bits...
+e1ea3fb09969ea2cf03e6508fa2f3499f8480aef FIXUP: FIXUP: sched: Add a per-thread core scheduling interface
+f0c4db691494a57fb08d4372bf4c8f1b1eed0d5c FIXUP: sched: Add core wide task selection and scheduling.
+2e8591a330ff4097eef61ca2d3d1d19d7590a82b NEW: sched: Add a coresched command line option
 
---===============2787649378795345993==--
+--===============6665295739056052746==--
