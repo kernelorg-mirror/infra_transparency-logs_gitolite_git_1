@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 12 Nov 2020 11:18:36 -0000
-Message-Id: <160517991611.10047.12690460820937360762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Thu, 12 Nov 2020 11:22:44 -0000
+Message-Id: <160518016468.12832.4534220694486885518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/for-next
-    old: 191f15485624e141b3dc1bfeaf8c713aabc4bcfd
-    new: 94192be7c0ce324a60ba3c249007c0b331b8b893
+  - ref: refs/heads/master
+    old: eff4da95a16bdabb22eaef67a6a841943ce266f6
+    new: fea3a76c38afff7a7ff7fb30e4ff811679b78c59
     log: |
-         966e7ea434484a006700c144bca629a14f93530c s390: update defconfigs
-         78d732e1f326f74f240d416af9484928303d9951 s390/cpum_sf.c: fix file permission for cpum_sfb_size
-         ab177c5d00cda2655fd814356ea034aaf179cf05 s390/mm: remove unused clear_user_asce()
-         9f3234f97b672ab425aec6dcb9bad3300a5f2015 Merge branch 'fixes' into for-next
-         94192be7c0ce324a60ba3c249007c0b331b8b893 Merge branch 'features' into for-next
+         04566703280df834029adaf674928376236ae4ee Update cryptsetup.8
+         b444d1ecd7944d6ac12417481519c6ad579e3144 Update cryptsetup.8
+         5a44d14d97d0b446fddf16d88ff285987e0e79fc bitlk: Allow running bitlk_metadata_free with NULL
+         7a1df1c323c6003d59c79c5027f6cdd0d42f0337 bitlk: Fix key sizes for BITLK encryption types
+         406d2d8b0a1f7cca7edb74ee7c742b796c8c8bec bitlk: Allow dumping BitLocker master key (FVEK) using --dump-master-key
+         652081426bc8df06b975435919985c84884daf58 bitlk: Add support for activating BITLK devices using volume key
+         3a7f03bae6a39d4a8d0d436832a15d321026bcaa bitlk: Add test for dumping master key and opening using it
+         fea3a76c38afff7a7ff7fb30e4ff811679b78c59 bitlk: Update BITLK man page section
          
