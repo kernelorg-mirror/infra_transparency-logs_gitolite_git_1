@@ -1,47 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============6995974482052943234=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 12 Nov 2020 14:25:36 -0000
-Message-Id: <160519113697.15096.12841778861998057047@gitolite.kernel.org>
-
---===============6995974482052943234==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Thu, 12 Nov 2020 15:01:54 -0000
+Message-Id: <160519331459.6318.11035347603128556215@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/tags/efi-urgent-for-v5.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 53c1e4bf928e7b140151c3cd583f5b86ba1e6eca
-
---===============6995974482052943234==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x3D200E9CA6329909 1605191134 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-nonce 1605191135-2b2ec2a4b15024f230210597ea4fb1bd37bb3578
-
-0000000000000000000000000000000000000000 53c1e4bf928e7b140151c3cd583f5b86ba1e6eca refs/tags/efi-urgent-for-v5.10-rc3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEnNKg2mrY9zMBdeK7wjcgfpV0+n0FAl+tRd4ACgkQwjcgfpV0
-+n1Q6AgArWkoYYn4ZVkdSxobECcP/AgEGpTsJe0+ERvvH01yswWWa6YwwSJeLjU5
-UYkY1bOFsxnCVI6CmQvY0Msm4K7FUc671PeILodfPqzKlDlOAf3CLA1Vds2cGtLn
-GGD7kmSkgP2kBKb2A2Gt8hpn/9kleHU1nN7W8oGUgIKa1JRVRGAxxQMcTCeNm2Ud
-jVXHNH9wR+djlb10AbaBxSnpqcuiUGuq/Wmr6T0MHpv5Lr00+5CRowiMQYgrypVa
-3X5xNMcrpPqHB3iWXUbheKBjqkBjBNr7/H81SbEbEms2A7ltSAUdH5gHXkhipONy
-wI9vYLdpHRakZxiryW/tg0K4rOFgEQ==
-=SKMM
------END PGP SIGNATURE-----
-
---===============6995974482052943234==--
+  - ref: refs/heads/ci-next
+    old: 18edfd4ef0d4e11b25d6f1fa3550f7b6efd4b2bd
+    new: 8adcc9cbf2234823743beddbbf7864c2a0a2cecb
+    log: |
+         a60406787e0b757becbf36014fb1b55aadffa76f arm64: defconfig: Enable Qualcomm Command DB driver
+         8adcc9cbf2234823743beddbbf7864c2a0a2cecb Merge branches 'arm64-for-5.11', 'arm64-defconfig-for-5.11', 'drivers-for-5.11' and 'dts-for-5.11' into for-next
+         
