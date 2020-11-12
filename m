@@ -1,46 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============0176509255664166015=="
+Content-Type: multipart/mixed; boundary="===============8349623549824602375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 12 Nov 2020 14:10:48 -0000
-Message-Id: <160519024837.3319.6658648479867141222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 12 Nov 2020 14:12:30 -0000
+Message-Id: <160519035038.4012.7576562884975897154@gitolite.kernel.org>
 
---===============0176509255664166015==
+--===============8349623549824602375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ceph-fscache-iter-experimental
-    old: 014edf03d1136d0be97ed04b03fbd64734c0be6d
-    new: 50ab63cbcf17b2f6978d92dad5fa7f63ae25f7f8
-    log: revlist-014edf03d113-50ab63cbcf17.txt
+  - ref: refs/heads/arc4-removal-v2
+    old: 9d1255013faa230c897e135a83737368496f502c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm-adrl-replacement
+    old: aaac3733171fca948c4fb66b78257620e3885339
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm-dt-mapping
+    old: 71956278b6cb263ea5f05fb6b75db6edb7469194
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm-kasan-v11
+    old: 5f7cd58300445d561a9a3efbc349f9946ab6ba42
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm-p2v-v2
+    old: 9443076e4330a14ae2c6114307668b98a8293b77
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm64-v4.14-backport++
+    old: 5bea94c013babf104ed0af166c9cc31b3a718e9d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm64-v4.14-backport++-v2
+    old: 18a6bc4944eb4fde1eded9cb5fc2c56bdf363562
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/efi-riscv-rework
+    old: e58a138c58338f8664a687bd02d2f848705ef5c2
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/riscv-tmp
+    old: 986ef94ba992d772967441fec3f985773e17898a
+    new: 0000000000000000000000000000000000000000
 
---===============0176509255664166015==
+--===============8349623549824602375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-014edf03d113-50ab63cbcf17.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-1a0b1c17dbb193dfb8b5ec88439008a52e2e53d2 ceph: fix race in concurrent __ceph_remove_cap invocations
-f3e8891e48af88669228f09d6538aceba1d88eff ceph: downgrade warning from mdsmap decode to debug
-8fa9a0483416d20cd5c392c89670092509e1d6a6 Merge branch 'ceph-testing'
-9a1177a336d9555a285665d39b87a0b14dfb18d5 HACK: work around bpf horkage
-a3ca28f6f6297617d9559fbb28c9d64ba4255595 fscache: Fix warn-ons
-170dfd729d350d5ccc39076fe6a6a94d68c5e095 fscache: remove another warning
-0af72f064cbcd5f0720c7ff62e196457c9969209 netfs: optimize away some reads
-3ba02c2e1727de2e17b7571a6c1108601a859e3d ceph: conversion to new fscache API
-04e2254a67f34479e8ea683e8af8224f2195f2d6 ceph: convert readpage to fscache read helper
-4879130ceb130fdb62658f90f89db0e8e923999f ceph: plug write_begin into read helper
-c97e85cd8de8dc6b4edac8cf6e80a9c5e84a29bc ceph: convert from readpages to readahead
-d8eed33b5bde24257556e2ca60eb3ce384702008 ceph: add fscache writeback support
-3c4dac9b6c866a64c79200ed7731484322344958 ceph: reenable fscache
-8238cdd53123d78b56a9157bac5727cb7c8b4e34 cachefiles: print inode number and mode when we can't set xattr
-a739125c465cbb0e4697bbfd33b08fcef0dabad6 cachefiles: override creds when setting xattr on object
-50ab63cbcf17b2f6978d92dad5fa7f63ae25f7f8 ceph: don't wait on PG_fscache in releasepage
+certificate version 0.1
+pusher 0x3D200E9CA6329909 1605190347 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ardb/linux.git
+nonce 1605190348-754eab13234eacdbf88b17f2abc81a8c4376b301
 
---===============0176509255664166015==--
+9d1255013faa230c897e135a83737368496f502c 0000000000000000000000000000000000000000 refs/heads/arc4-removal-v2
+aaac3733171fca948c4fb66b78257620e3885339 0000000000000000000000000000000000000000 refs/heads/arm-adrl-replacement
+71956278b6cb263ea5f05fb6b75db6edb7469194 0000000000000000000000000000000000000000 refs/heads/arm-dt-mapping
+5f7cd58300445d561a9a3efbc349f9946ab6ba42 0000000000000000000000000000000000000000 refs/heads/arm-kasan-v11
+9443076e4330a14ae2c6114307668b98a8293b77 0000000000000000000000000000000000000000 refs/heads/arm-p2v-v2
+5bea94c013babf104ed0af166c9cc31b3a718e9d 0000000000000000000000000000000000000000 refs/heads/arm64-v4.14-backport++
+18a6bc4944eb4fde1eded9cb5fc2c56bdf363562 0000000000000000000000000000000000000000 refs/heads/arm64-v4.14-backport++-v2
+e58a138c58338f8664a687bd02d2f848705ef5c2 0000000000000000000000000000000000000000 refs/heads/efi-riscv-rework
+986ef94ba992d772967441fec3f985773e17898a 0000000000000000000000000000000000000000 refs/heads/riscv-tmp
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEnNKg2mrY9zMBdeK7wjcgfpV0+n0FAl+tQssACgkQwjcgfpV0
++n1rwggAiGfq4T998tpY3R1P6Pl3LV/IHhxPYosKEpCrY1e663dvf4JlDsn7Wsnb
+DaTIg7iiTqGwb23uZ/32dDwt8AkbCE30cpmue4woawD9TYEKa/iAFU3eQ0NUb8eG
+lm4AwpUFhbHc1YimCLybBoB59t9o7pcXM3+/mL4C/KFDAqldY+R5e0tGsGHWzbum
+aMQonSjSTl1U7tRZkDxgeHOsy5VPl1EWzIVuENWBhTrb5EDePSTvlyqzixT7q5oo
+4NkxmU1Fdh6ccP0FHKhF0nht32DOiAMjsJObe2taOEDHj0w/hp9deWy45p6x3Oh1
+unQK0vM8PjZyUNCy1MJY8ouF7p6U2w==
+=Oh4Q
+-----END PGP SIGNATURE-----
+
+--===============8349623549824602375==--
