@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 12 Nov 2020 01:45:19 -0000
-Message-Id: <160514551972.8464.18190449782287964248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Thu, 12 Nov 2020 01:52:01 -0000
+Message-Id: <160514592178.12124.14207905339292810540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/master
-    old: 2492ae6bee24d0b7d2f51e5d0b87ec4f968a74b3
-    new: 0575bedd6a1575e3f585b5dd5621cdcd26978054
+  - ref: refs/heads/for-linus
+    old: 77e70d351db7de07a46ac49b87a6c3c7a60fca7e
+    new: 676650d007e06fddcf3fe38238251d71bd179641
     log: |
-         0575bedd6a1575e3f585b5dd5621cdcd26978054 drivers: net: sky2: Fix -Wstringop-truncation with W=1
+         676650d007e06fddcf3fe38238251d71bd179641 Input: resistive-adc-touch - fix kconfig dependency on IIO_BUFFER
          
