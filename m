@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Thu, 12 Nov 2020 01:52:01 -0000
-Message-Id: <160514592178.12124.14207905339292810540@gitolite.kernel.org>
+Date: Thu, 12 Nov 2020 01:55:53 -0000
+Message-Id: <160514615307.17205.14658499752570078959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dtor/input
 user: dtor
 changes:
-  - ref: refs/heads/for-linus
-    old: 77e70d351db7de07a46ac49b87a6c3c7a60fca7e
-    new: 676650d007e06fddcf3fe38238251d71bd179641
+  - ref: refs/heads/master
+    old: 7e90989141613e68ad8fceae63c1623954c96519
+    new: 3a54a215410b1650798dc09d051806b1f900142d
     log: |
-         676650d007e06fddcf3fe38238251d71bd179641 Input: resistive-adc-touch - fix kconfig dependency on IIO_BUFFER
+         3a54a215410b1650798dc09d051806b1f900142d Input: st1232 - add support resolution reading
+         
+  - ref: refs/heads/next
+    old: 7e90989141613e68ad8fceae63c1623954c96519
+    new: 3a54a215410b1650798dc09d051806b1f900142d
+    log: |
+         3a54a215410b1650798dc09d051806b1f900142d Input: st1232 - add support resolution reading
          
