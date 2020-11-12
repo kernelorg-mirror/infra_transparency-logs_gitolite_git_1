@@ -1,26 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 12 Nov 2020 15:26:01 -0000
-Message-Id: <160519476122.23755.8157214380949188852@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5101228171916399837=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mripard/linux
+Date: Thu, 12 Nov 2020 15:28:09 -0000
+Message-Id: <160519488909.24591.1179616070927690027@gitolite.kernel.org>
+
+--===============5101228171916399837==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/mripard/linux
+user: mripard
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-5.11/amd-sfh-hid
-    old: 907286d1420d28bead47da37b9a081377c070322
-    new: 6e6eae04f5123b7b2f4265f7a702b5200fa5863b
-    log: |
-         6e6eae04f5123b7b2f4265f7a702b5200fa5863b SFH: fix error return check for -ERESTARTSYS
-         
-  - ref: refs/heads/for-next
-    old: 42e584ce112d07375cf9c4e8c2b62abe694f929b
-    new: bdc26d79348135b053782aac103e039fb40ea3a5
-    log: |
-         6e6eae04f5123b7b2f4265f7a702b5200fa5863b SFH: fix error return check for -ERESTARTSYS
-         bdc26d79348135b053782aac103e039fb40ea3a5 Merge branch 'for-5.11/amd-sfh-hid' into for-next
-         
+  - ref: refs/heads/vc4/rework-helpers
+    old: 0000000000000000000000000000000000000000
+    new: 0b08b344d2e1241f8135321b3e0421d95d855bc6
+
+--===============5101228171916399837==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1605194742 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mripard/linux.git
+nonce 1605194742-700673cd4f37e8e2afc7e89750737f20b6277ff3
+
+0000000000000000000000000000000000000000 0b08b344d2e1241f8135321b3e0421d95d855bc6 refs/heads/vc4/rework-helpers
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCX61T9gAKCRDj7w1vZxhR
+xQMfAP9j6IkwgIcop9OtAhrvlt/M/8Jea/iYuPE1PmBaski1JQEA9AWqLq0ndRwT
+h63GepBDwH79EGasL7wEuaLiBTcWSwQ=
+=yu+F
+-----END PGP SIGNATURE-----
+
+--===============5101228171916399837==--
