@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1973718560122879608=="
+Content-Type: multipart/mixed; boundary="===============7051625662859412330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 12 Nov 2020 19:36:46 -0000
-Message-Id: <160520980638.21481.13606202498103087561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 12 Nov 2020 19:36:52 -0000
+Message-Id: <160520981297.21576.13125640418539891848@gitolite.kernel.org>
 
---===============1973718560122879608==
+--===============7051625662859412330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.10
+  - ref: refs/heads/spi-5.10
     old: ee4ad5d06509b3aea79b6a77bebd09ef891bed8d
     new: c371dcf51cef4ae53d00090a148d004b113217f0
     log: |
@@ -27,7 +27,7 @@ changes:
          4def49da620c84a682d9361d6bef0a97eed46fe0 spi: lpspi: Fix use-after-free on unbind
          c371dcf51cef4ae53d00090a148d004b113217f0 Merge series "Use-after-free be gone" from Lukas Wunner <lukas@wunner.de>:
          
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/spi-5.11
     old: 10a58c3a308af20d4fecc99cd81ef37599890c25
     new: 376ccca853fdb9959f7ac5185a428a9f91e71e86
     log: |
@@ -37,29 +37,29 @@ changes:
          376ccca853fdb9959f7ac5185a428a9f91e71e86 Input: ads7846: do not overwrite spi->mode flags set by spi framework
          
 
---===============1973718560122879608==
+--===============7051625662859412330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1605209791 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1605209803-738e300fac9f253cedbcabfa38223f491ddf6e95
+pusher C3F436CA30F5D8EB 1605209797 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1605209810-8b7e47170813e15feea78cff660277400e8e6d83
 
-ee4ad5d06509b3aea79b6a77bebd09ef891bed8d c371dcf51cef4ae53d00090a148d004b113217f0 refs/heads/for-5.10
-10a58c3a308af20d4fecc99cd81ef37599890c25 376ccca853fdb9959f7ac5185a428a9f91e71e86 refs/heads/for-5.11
+ee4ad5d06509b3aea79b6a77bebd09ef891bed8d c371dcf51cef4ae53d00090a148d004b113217f0 refs/heads/spi-5.10
+10a58c3a308af20d4fecc99cd81ef37599890c25 376ccca853fdb9959f7ac5185a428a9f91e71e86 refs/heads/spi-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+tjr8ACgkQJNaLcl1U
-h9B/3gf+J6Q7l2pAcHNiJsG7g3oPUDZU03R/bCqkGYtwbOlD9WXNss0UvpkIxEno
-jpd932OdeUAD+frVY2JQeBic45+/eOTTmz28A8wuR+YzytNt4Tk4mfTr/Q+f+dN8
-Me8F3f3aw6LrQ44CCaaeYFpcIcu9kEqP43sQK0ZhLDy65ZrNBvkYq4a/+TRBIavg
-M8ed+GopZgmnkUGmqzI80r0AN7nMgIFCeTq3z7lFDU51HjaZbMw19MxdbXoMHu68
-gj4RN87lF+DwH20NNfoe+ntlmUtwrvtBMItL0MkPS9wr2XMCgkGQrPkMK1fSx82s
-TY73J3HHuSAStcCZTnsJj6gQFNN2ww==
-=sPNB
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+tjsUACgkQJNaLcl1U
+h9DrvAf+MFoIsEl8nydwwqYOOKJmKbWnD9sztnBxg1aUz/3kfIpJeq9D8nxOCEt4
+VOYwXL05e++m9AOcF0ceKFBnPFtaumM1iijtHCXl5wwcwo1Pt+HWow/34Hxks22E
+thxOqetpNs4pB17MknzXXcZU42/QI3JInx8PfMo4zWVEqtzmMTdNjumUemVeQ5Vi
+irHRA4xiC8t+9+rBSxdkbyh17DPXgcDnpVdMtgcuIylEblzm8v61T7hSb+3c++YP
+NWGEzOI4FOcwMu52LKwHveqB3IrlW/xUhGr3AQxg1mX7zsQrigXGBW0M8J/uIPAi
+383JpZ5D7dEbPRttE6gUGpLGdmouaw==
+=bU8b
 -----END PGP SIGNATURE-----
 
---===============1973718560122879608==--
+--===============7051625662859412330==--
