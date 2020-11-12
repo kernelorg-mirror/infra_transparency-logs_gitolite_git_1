@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1140044054329656029=="
+Content-Type: multipart/mixed; boundary="===============3038078750958359726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 12 Nov 2020 08:40:32 -0000
-Message-Id: <160517043227.16903.5273868701046689015@gitolite.kernel.org>
+Date: Thu, 12 Nov 2020 08:42:17 -0000
+Message-Id: <160517053770.17595.2354832196418546214@gitolite.kernel.org>
 
---===============1140044054329656029==
+--===============3038078750958359726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: e67c139c488e84e7eae6c333231e791f0e89b3fb
-    new: 425af483523b76bc78e14674a430579d38b2a593
+  - ref: refs/heads/tty-testing
+    old: 9b085d6e889076928d307f05cabf76e35db1e63b
+    new: 6f991850412963381017cfb0d691cbd4d6a551dc
     log: |
-         425af483523b76bc78e14674a430579d38b2a593 serial: ar933x_uart: disable clk on error handling path in probe
+         d4548b14dd7e5c698f81ce23ce7b69a896373b45 serial: 8250: 8250_omap: Fix possible array out of bounds access
+         6f991850412963381017cfb0d691cbd4d6a551dc serial: 8250: 8250_omap: Fix unused variable warning
          
 
---===============1140044054329656029==
+--===============3038078750958359726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605170488 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605170593 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1605170424-601252b22a52135d881f93fa35d50282461a600e
+nonce 1605170531-184fd2052aa282a504ff795002b3500535ef0f3e
 
-e67c139c488e84e7eae6c333231e791f0e89b3fb 425af483523b76bc78e14674a430579d38b2a593 refs/heads/tty-linus
+9b085d6e889076928d307f05cabf76e35db1e63b 6f991850412963381017cfb0d691cbd4d6a551dc refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+s9TgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OIcP/RYSZLenC/D+7GoN48Mh
-zapF4mCZY2CxQ9e2/9u89SdkFte0egbQLcjR5KSaDHHyipN0yA/Il2pEa7QThiOg
-248lNHMg7pS7z90eGacQ9cpMv003MUWkwWjHng9P3orRy8CnAFbAHTYGJkVTu8BL
-gTVoSNVZ62FM4Q8TgsTC0AEjov1LedWrG8+8ZIzqYrHRPxo0rSIxLmUbRxhtR3P+
-FDuYywuW2ME9CqaJ7NasqADtj4jT/CfrHvFeEdaDTu1PbJwNh0qjEgdrUzVRZ/ro
-oCD9LeBOQ4jm7if/2ASnoGXTdzsO8E9hHNPCwYdDZaQ/+hUvLIA6hHbBVlqo8Csj
-xFZ2aZLno+h2fasgY4uLDySStlMaABTtOcB0659e/4YsYY+wsLeclx/764LWXqad
-qzZFtGfWt35M66P/49saq4lHDMcdEoqXWByWc/b1YxJ0cYncAGRv9k9gcb8CyA/G
-Ehrk0qqHtTEV8Q7B5e416QF1e6nH/tHYDXzze3hZINcwUssCZJ6+DJWhl78kydAs
-Y+IGOrAZm3CZ8xrpziZEFDqTOjerxdze4v+vrWdlOyxhT9eaHhsWBpAPN6Y9rDU0
-BPNjt19JtgmNCI2AfG3NNnzZT5H6fC2HwLJxHa1iF0GPk2MwDhPjeD66Pe3RSF7B
-uwZn0NWcLBmFDCbveMWBhQSc
-=yH+3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+s9aEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BUwP/2UKMtumc7bwNPEYtBgJ
+2S5dOPHhJQGOZ/Rm8qYhxfM4utOnqLDzKQVRkKu60VuKu9X+48QUjjoXKl6+JoPk
+ZJ4ORe53j6j3MlygKbY6GNIfivZdQtem7spaAory79cQeD3GiiNHRw76sdYsrjsI
+O2Nf5NE9GNs7Ui520f8EZdy0uanBo0Z40sbvCKKygOixvGTZlfufNIsKW9ERroUG
+NMoJ6mKHU5yqpI4dDhUsalqDuZx3MpKfEladQVo7bITtI3hrR2XbYkcBfHdldy7l
+83Fx8M7eBCj/48j+D5t/MKUQnzfNd4Aduprbfigk2JdFLxVak/8a8eFLjzJUVA/w
+zyX1BCatSe96jc6zGGok62/9C1NJlf4LD1ziL++2Qv6raUxNRm7veBcx11yqt7kW
+Ah1mAhaK4ex5A6u+sFq6Lz2J+Wvco/GRUBljHeS28i9JxvrQjqor2q3wq7xnIQ4j
+FMIwqRCTpd6iTSwiEOKU1HHghIpevQRh+jA7pZU2or3IKHdq4d1XQ9oMNxvTzsAZ
+3gGtB/cGFb7l27j7JXUOU95K3mDLQfi1oVdGuu0+HjihpNJoWsqI/iSZc4gHKkDC
+OPYLO80FW4hwg6ztgPxHLjJUdja2kbwnLzkUbVxQjbGru/Tbs6M5QtVWeX69v7GC
+ejN7WHpsWlI4EfMUYWkqJHa/
+=VlLz
 -----END PGP SIGNATURE-----
 
---===============1140044054329656029==--
+--===============3038078750958359726==--
