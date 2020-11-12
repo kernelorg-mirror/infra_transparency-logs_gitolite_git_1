@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7963057596397939801=="
+Content-Type: multipart/mixed; boundary="===============6775490919277952699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 12 Nov 2020 17:46:41 -0000
-Message-Id: <160520320136.7626.1405169453265846711@gitolite.kernel.org>
+Date: Thu, 12 Nov 2020 17:47:25 -0000
+Message-Id: <160520324516.8010.1966697297071441525@gitolite.kernel.org>
 
---===============7963057596397939801==
+--===============6775490919277952699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,45 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: jgg
 git_push_cert_status: G
 changes:
+  - ref: refs/heads/wip/jgg-for-rc
+    old: eb73060b971aa04e4f7421b8c9c0363918608b72
+    new: b1e678bf290db5a76f1b6a9f7c381310e03440d6
+    log: |
+         d035c3f6cdb8e5d5a17adcbb79d7453417a6077d RDMA/pvrdma: Fix missing kfree() in pvrdma_register_device()
+         b1e678bf290db5a76f1b6a9f7c381310e03440d6 RMDA/sw: Don't allow drivers using dma_virt_ops on highmem configs
+         
   - ref: refs/heads/wip/jgg-for-next
-    old: fefe6cdbb12ac1750837e43a4bc1f0e65d36653d
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 7af80c02c7b3cf7ac580a33f15d155730574769f
 
---===============7963057596397939801==
+--===============6775490919277952699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher F08647C27728D5D2EB7A5F5AA5F46BDD553C74FA 1605203197 -0400
+pusher F08647C27728D5D2EB7A5F5AA5F46BDD553C74FA 1605203235 -0400
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-nonce 1605203196-2eb1160977e38d4751570ae2322ea250382a401b
+nonce 1605203235-4e9ab5318dad8e7ccecca1fec0cd884163f1268e
 
-fefe6cdbb12ac1750837e43a4bc1f0e65d36653d 0000000000000000000000000000000000000000 refs/heads/wip/jgg-for-next
+eb73060b971aa04e4f7421b8c9c0363918608b72 b1e678bf290db5a76f1b6a9f7c381310e03440d6 refs/heads/wip/jgg-for-rc
+0000000000000000000000000000000000000000 7af80c02c7b3cf7ac580a33f15d155730574769f refs/heads/wip/jgg-for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEfB7FMLh+8QxL+6i3OG33FX4gmxoFAl+tdP0ACgkQOG33FX4g
-mxq2hRAAifzvepGtwgclOluy4/Gn/oqA3mE3H1ptoqUwb2nMYOWpdgPRf7FTOXcK
-MFq12hAAO43UMVtxYWEjfY7oFEOeN7kvRMm+0b8caIfFvLV0Ffbgn7vcKODLIysq
-mMr+2YPASoI4LtuIPxOr3l0o9vJ0tPma8syOoYd+IsgcPNGBf3ARKMdC2LE7Fe9b
-CkmOcRY6GMGF/RzV0yXtGUX1Fy5vH9Fyy+SJ+7llhyv5jzzCvjfmfHIr65/aCLoG
-OpTjLbvk27gTcY8bvlanPP9qVN9kNra4d4cTM/n3VnATk5rL6OtIIobo+24/s4or
-PsTIrEKzTKLAxvI7Ou8EPc6PVUWUNdmY0DVPcNwD484qLtStFwCpIL4ISkzIzySD
-q6FI02Yoxz7ZcKf4OC3Xf58QJthOPhuxCUbJ9RJ4R159qFUO6kfJvG5VfGBXV+YY
-PCsot+gA1JeVCvBEVHKGDr1ecoE+f/7pH5lAOoDPSpDADr4Unnncc1Oy1feYyr2E
-a9omNKOKUBkeYeZ929QZPkSQtFFpT4HCen3U3m02KcAUYcTOaFWE2zKkP/1PbcVX
-uzOvWQ+MG//X3p5sF1BCotxecyz8Xb16ER/gkO6TEgDUrGKPwYrNBtzwz8uNtomx
-TlbSMMk0X6WaJ0FYgKB/VfEeHjablVMSMihKSTU4Mvnl8zMNj6g=
-=IIko
+iQIzBAABCgAdFiEEfB7FMLh+8QxL+6i3OG33FX4gmxoFAl+tdSMACgkQOG33FX4g
+mxp3Aw/+KKkb+Gi8lsrPc+g8vJNc7jFp/jdaukFyZr+DbGezBHVxbvMNsAYJX8lm
+4l0DqwtsGujg5iBjJeg2mQxhFyyOGsKaPgLzC4n6HD596AhCK76SbcFQCekr1Q4q
+cwCe77sYxzc5rvhwTvIhB8f6aexjMja09URykqB4J2TyCeQC+SxAYJHXmfFv7vF3
++WgcKFXAIqJ9jD3WqL+qWG4uVgcRZnLVbJ9YZGCrZugmbs354kx8LDa/V4iF2PJq
+Oq6EUs7meuF0aqQFxMHVppfSAnbwftQLOogV7E5h1LQ3Erv20NVIZH9tHmW1Xk63
+IsKVolMostfXuT6JTIbXiUyoSPlDjkr069iUDbAXFi0Aq0zSiMKftJtI1wG4bjIT
+iCGaIm4m1UcgMCeb2c9tUsI2FvD/j0kp2UJojLZSL7Y8kptAwrzFXMscrbT9Nl1r
+IV8KBrL6mI3Q/RizGdjudMzaoU+doF+zJpRFoWpoAqmsRKNmzz0nmkepTIa2vZqQ
+Ujne9LuowQgDV+GHMZaRwt2ic3LMUkos0jhQsbaLiL/ZRbmSAM7yqjAxvu9NwTPm
+w67Iod/JXPH4Lv0fm8Gq2UH/ZGIwYJeuPtlK7+T3f17BCxCklLeA5s97GjX0XCbi
+JXMekiQyZ8BP2fBCJdZYSe3Hd+LD4+gC6kH7hYsF1zWXDu9pX38=
+=q2JR
 -----END PGP SIGNATURE-----
 
---===============7963057596397939801==--
+--===============6775490919277952699==--
