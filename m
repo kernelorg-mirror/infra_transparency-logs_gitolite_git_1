@@ -1,58 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============3841928402885151179=="
+Content-Type: multipart/mixed; boundary="===============2774387383672713784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Thu, 12 Nov 2020 19:36:32 -0000
-Message-Id: <160520979238.21209.5549185828200827785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 12 Nov 2020 19:36:39 -0000
+Message-Id: <160520979959.21328.1576345844222334697@gitolite.kernel.org>
 
---===============3841928402885151179==
+--===============2774387383672713784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.10
+  - ref: refs/heads/regmap-5.10
     old: 3a6f0fb7b8eb5ef0447da1332225b8c87ee207d0
     new: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
     log: revlist-3a6f0fb7b8eb-3650b228f83a.txt
-  - ref: refs/heads/for-5.11
-    old: 6e1e90ec027509a7e8d4efbd77a65b32b5a8b3ec
+  - ref: refs/heads/regmap-5.11
+    old: 0000000000000000000000000000000000000000
     new: f7d01359b0d96331fce7bd4051d3b68a4bb5ea83
-    log: |
-         f7d01359b0d96331fce7bd4051d3b68a4bb5ea83 regmap: Fix order of regmap write log
-         
 
---===============3841928402885151179==
+--===============2774387383672713784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1605209777 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1605209789-ec4bf85562bffb8c6bbb9ad0cfaa2f28587df473
+pusher C3F436CA30F5D8EB 1605209784 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1605209796-f7b95837735b94cdbd36a74176dc0999284de40b
 
-3a6f0fb7b8eb5ef0447da1332225b8c87ee207d0 3650b228f83adda7e5ee532e2b90429c03f7b9ec refs/heads/for-5.10
-6e1e90ec027509a7e8d4efbd77a65b32b5a8b3ec f7d01359b0d96331fce7bd4051d3b68a4bb5ea83 refs/heads/for-5.11
+3a6f0fb7b8eb5ef0447da1332225b8c87ee207d0 3650b228f83adda7e5ee532e2b90429c03f7b9ec refs/heads/regmap-5.10
+0000000000000000000000000000000000000000 f7d01359b0d96331fce7bd4051d3b68a4bb5ea83 refs/heads/regmap-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+tjrEACgkQJNaLcl1U
-h9Bl/ggAhauJbVyXkCVtLg2SvkZ22+xcjJ3FAPyY/lkY03dljOtApX5aWbTuB54Z
-3EcBUzSmGcTxGyXtSuJb72SoMmc1mCmfigcCBCnE0yV76dKXxJkz79D8i10gZYhC
-y5/iw3V6tdiLx2fhb8rQQ49wHUrPmjRMBkB4/65DTjqonFSKVtjOhZA1sHq0ubWG
-vRdQ5R/KdgZi8WBF/T4hoiBPDEjLpKAu1F4lrBM9ZLbkw0UAiIqUDo4obO8h1ql1
-vZ808ffyfHPtW+UDxibds/cZUDg0WerX5MMZntblSUEFrhUkhk/+l4F7YzYwWTvM
-wNw2hucJnItiPW0/daYXo/lHkeUFnA==
-=5rWB
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+tjrgACgkQJNaLcl1U
+h9CswAf+OHyJGGGvIEXbFwFT377gJXYfbVBwRighCoAtBW6WMDfg1BhX3XSOetaE
++7BZ8wFGWBo1HYJciwumO/59nPweZzq2Xm9bjBq+EXfbIUHLN3TwC9GgDizswYGu
+HxAohYAVdxJggWq1K3NW+XE3O1ZqdIteBKzE0Z+CozWmRKUvxbKDq/APyyEKwmiO
++cLb5HKT+z5m8ic76WvoJt+pPs0CH2Qu6DXxT2V8WDASZyJgDIK3yjwRp/vKPElv
+nuyeA0t3hiFFGeyC2rxrX13me3YwJA5hesInSdoMbgAj+L8KB4Gcs6J6FKRDOKY8
++jYJRLemdaEdNI/I8OI5E6veo/hQ6g==
+=X5Kz
 -----END PGP SIGNATURE-----
 
---===============3841928402885151179==
+--===============2774387383672713784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1083,4 +1080,4 @@ a3d1b31213f1f789cc45a7db5c721513282d225a Merge tag 'perf-urgent-2020-10-25' of g
 33def8498fdde180023444b08e12b72a9efed41d treewide: Convert macro and uses of __section(foo) to __section("foo")
 3650b228f83adda7e5ee532e2b90429c03f7b9ec Linux 5.10-rc1
 
---===============3841928402885151179==--
+--===============2774387383672713784==--
