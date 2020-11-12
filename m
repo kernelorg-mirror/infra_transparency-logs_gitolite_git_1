@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2033665397941762605=="
+Content-Type: multipart/mixed; boundary="===============2787649378795345993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Thu, 12 Nov 2020 16:50:07 -0000
-Message-Id: <160519980728.18964.8084113360710604721@gitolite.kernel.org>
+Date: Thu, 12 Nov 2020 16:50:46 -0000
+Message-Id: <160519984666.19279.8479182288397068650@gitolite.kernel.org>
 
---===============2033665397941762605==
+--===============2787649378795345993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: a083a29918ea17e58e489d6207dfb67dd1838732
-    new: 09d911950c45dfd3bec40e16d8c8b871da03f0b9
-    log: revlist-a083a29918ea-09d911950c45.txt
+  - ref: refs/heads/numa
+    old: cc3da316a662ea2f3599100528c1bd66f60b260b
+    new: 9458e5b7b907e21040bc09ea5e49020931635f65
+    log: revlist-cc3da316a662-9458e5b7b907.txt
 
---===============2033665397941762605==
+--===============2787649378795345993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a083a29918ea-09d911950c45.txt
+Content-Disposition: attachment; filename=revlist-cc3da316a662-9458e5b7b907.txt
 
 e5c23a882a71167ab51a197fc9b990a50fe91512 x86/sgx: Add SGX architectural data structures
 25769e4130f9211c7c665fb6509804b4be334b2e x86/sgx: Add wrappers for ENCLS functions
@@ -50,5 +50,6 @@ e0462d1a07ed0d25c08e2889e7d8a1f09b271a68 x86/vdso: Implement a vDSO for Intel SG
 5877d684a41a15c792ba3018a8a60228e7e9a622 x86/sgx: Add ptrace() support for the SGX driver
 7fb3c4c290ae9ea2cb7ccd1a11a1f0db6ad7198d docs: x86/sgx: Document SGX kernel architecture
 09d911950c45dfd3bec40e16d8c8b871da03f0b9 x86/sgx: Update MAINTAINERS
+9458e5b7b907e21040bc09ea5e49020931635f65 x86/sgx: Allocate form local NUMA node first
 
---===============2033665397941762605==--
+--===============2787649378795345993==--
