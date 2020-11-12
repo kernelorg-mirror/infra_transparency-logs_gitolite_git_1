@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 12 Nov 2020 22:57:50 -0000
-Message-Id: <160522187091.6517.15514127716912024259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 12 Nov 2020 23:00:43 -0000
+Message-Id: <160522204344.9020.1999476950091051254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 203cb737fbe09cc6b57d4bd46be7977e72d49281
-    new: c9f64d1fc101c64ea2be1b2e562b4395127befc9
+  - ref: refs/heads/x86/urgent
+    old: b2896458b850ec7cb69b054b195b4b399f7e1f22
+    new: 77c7e1bc060deab6430f1dff5922ccd3093d9776
     log: |
-         c9f64d1fc101c64ea2be1b2e562b4395127befc9 net: ipconfig: Avoid spurious blank lines in boot log
+         77c7e1bc060deab6430f1dff5922ccd3093d9776 x86/platform/uv: Fix copied UV5 output archtype
          
