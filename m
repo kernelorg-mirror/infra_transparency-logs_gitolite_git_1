@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2332914363828044373=="
+Content-Type: multipart/mixed; boundary="===============0310399601152228076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 12 Nov 2020 19:36:18 -0000
-Message-Id: <160520977834.20957.14710227446039385526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 12 Nov 2020 19:36:25 -0000
+Message-Id: <160520978512.21103.5560991821177326784@gitolite.kernel.org>
 
---===============2332914363828044373==
+--===============0310399601152228076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: c5abd7770df4645bae55051a3cc4a8797d851537
     new: a5a8ac3ca0000edee1270d1a9c8af7b415b4e618
     log: revlist-c5abd7770df4-a5a8ac3ca000.txt
 
---===============2332914363828044373==
+--===============0310399601152228076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1605209763 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1605209776-46b8cd95c091094a813ca13a010728225b9e9353
+pusher C3F436CA30F5D8EB 1605209770 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1605209782-c15934ebc4ed9dbc50f48d574c5d071168eb86a2
 
-c5abd7770df4645bae55051a3cc4a8797d851537 a5a8ac3ca0000edee1270d1a9c8af7b415b4e618 refs/heads/for-5.11
+c5abd7770df4645bae55051a3cc4a8797d851537 a5a8ac3ca0000edee1270d1a9c8af7b415b4e618 refs/heads/asoc-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+tjqMACgkQJNaLcl1U
-h9AJjAf7BFrpJlw/nqx/GzD/3WGikHF3AtefvngmHtkxjPd7+sCb4GcCzstbMqoX
-dW1XukJv4O4ruGgYjBS3OPKmG0J+7hurJ3mdVkukqyvYJJx1gJSqMsTAl0CdT2/i
-RNnabdyE75kIQVkltm/LfNeyzAeafZ+BrP+g0bZTF+0xDEFjI2j+JoQ0y6b4Kjs+
-9kJL5dpiUDSYlinxR7vD4s06j/tusrYj5weh1/ErvwKc2J7wRn7epEdtgvVgYdyq
-iz4KVM+Hn81OLCY6VhN6ICfvCnW5+s03nZxIqkykMWjcKj8KzsDz5CWHJ3Zfm46C
-Khl1lXojRfyL6XF40eETyFzQAJrdKw==
-=/M6J
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+tjqoACgkQJNaLcl1U
+h9B1Pwf9GTRYVHx4Z9Zl2cL1fBdIvV9NR98ZJTpPhRgUmmZdH5DkM13/NLGCyCHo
+9VpWTl6KDwY7aVqjEvxn8jQQUDU+8T02MCQdlxeA5D89piPClP9P5xBixqFtSLTF
+gB7BlRW0bEMGasjlX2M+U43gLxoj/iFwUWX3YBS13lLNEKNoHU2mJLs0rwz4lpYz
+XepEWlOzcYMqjdaQT1LQzJBCkTgTHhttbhXIJynLruZd5nb5hqcejyWmT7ZJTtgd
+KIgkHiH4rfk/u6Rid6OaySltDL0niMyXubPViCcrvxG2Dx6StXpbmt5ALjD41MeA
+6QAqRYNIX9Ks/2hoKhmRhrNz+AjFOw==
+=laSg
 -----END PGP SIGNATURE-----
 
---===============2332914363828044373==
+--===============0310399601152228076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ c31da0b196f99c7d95c69bab96e709b72a30f509 ASoC: imx-ssi: Remove unused driver
 9c2368e353853db600b7701a44182b84e8ab3eb0 Merge series "Support SC7180 sound card variation without headset" from xuyuqing <xuyuqing@huaqin.corp-partner.google.com>:
 a5a8ac3ca0000edee1270d1a9c8af7b415b4e618 Merge series "ASoC: SOF: Kconfig corrections" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 
---===============2332914363828044373==--
+--===============0310399601152228076==--
