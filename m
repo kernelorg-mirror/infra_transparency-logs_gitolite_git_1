@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 12 Nov 2020 17:14:23 -0000
-Message-Id: <160520126311.17102.2411493688513017757@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 12 Nov 2020 17:14:34 -0000
+Message-Id: <160520127400.17270.10903730860091244662@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: f16e631333a8f12ae8128826e695db4b2a528407
-    new: fd63729cc0a6872bdabd393ee933a969642e4076
+  - ref: refs/heads/for-next
+    old: 28784347451fdbf4671ba97018f816041ba2306a
+    new: 060dd45ac30e482c4698dc226dc7103c75d51db5
     log: |
-         fd63729cc0a6872bdabd393ee933a969642e4076 selftests/bpf: Fix unused attribute usage in subprogs_unused test
+         72911270d6ac70df2daab639130d8cda039cb538 dm mpath: add IO affinity path selector
+         751fde56c3587960de7083db007c33f5da657821 dm: rename multipath path selector source files to have "dm-ps" prefix
+         060dd45ac30e482c4698dc226dc7103c75d51db5 Revert "dm cache: fix arm link errors with inline"
          
