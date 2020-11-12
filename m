@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Thu, 12 Nov 2020 12:59:07 -0000
-Message-Id: <160518594760.15767.1518524743551971388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Thu, 12 Nov 2020 13:11:11 -0000
+Message-Id: <160518667115.23832.8423273442513041262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: b1b8cd18347e9bdb73e74156c50795dff8b51bf7
-    new: 394a569203fcdb1653a24c1ce858de3d4b9e399b
+  - ref: refs/heads/kvm/vectors
+    old: 6d5dc7872df2f7eab16b94b72a31ccd748719ee8
+    new: 93b537a05ad3420cdeff965e80750600c43ae297
     log: |
-         2f3174484edeb0839e6222f7b80d2ed2dbe2e266 mfd: at91-usart: Do not use compatible to register child devices
-         394a569203fcdb1653a24c1ce858de3d4b9e399b mfd: htc-i2cpld: Add the missed i2c_put_adapter() in htcpld_register_chip_i2c()
+         345d101921ce69ac5a99b2af6f9afd5b21a9fd1f KVM: arm64: Allocate hyp vectors statically
+         9db3c277cfdc1bc550a352a05366e341a75374fc arm64: spectre: Rename ARM64_HARDEN_EL2_VECTORS to ARM64_SPECTRE_V3A
+         ac451c0c0c37bdcba7356ff5ca7c9865525b0f95 arm64: spectre: Consolidate spectre-v3a detection
+         93b537a05ad3420cdeff965e80750600c43ae297 KVM: arm64: Remove redundant hyp vectors entry
          
