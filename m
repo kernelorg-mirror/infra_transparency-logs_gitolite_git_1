@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7916588517835935273=="
+Content-Type: multipart/mixed; boundary="===============1787278362328123810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 13 Nov 2020 14:24:51 -0000
-Message-Id: <160527749138.7386.223379864446947446@gitolite.kernel.org>
+Date: Fri, 13 Nov 2020 14:25:37 -0000
+Message-Id: <160527753720.9034.5859348729111000723@gitolite.kernel.org>
 
---===============7916588517835935273==
+--===============1787278362328123810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 76255470ffa2795a44032e8b3c1ced11d81aa2db
-    new: 0e6371fbfba3a4f76489e6e97c1c7f8386ad5fd2
+    old: 0e6371fbfba3a4f76489e6e97c1c7f8386ad5fd2
+    new: 4df694a477685a3df7b561bfe6393db073bf476c
     log: |
-         0e6371fbfba3a4f76489e6e97c1c7f8386ad5fd2 usb: typec: ucsi: Report power supply changes
+         4df694a477685a3df7b561bfe6393db073bf476c MAINTAINERS: add usb raw gadget entry
          
 
---===============7916588517835935273==
+--===============1787278362328123810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605277545 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605277589 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1605277485-732e15b5afc478e3185e7e0f24139e673d6d8926
+nonce 1605277529-ea02ec4382149f908d46755e3879312bcb28557a
 
-76255470ffa2795a44032e8b3c1ced11d81aa2db 0e6371fbfba3a4f76489e6e97c1c7f8386ad5fd2 refs/heads/usb-linus
+0e6371fbfba3a4f76489e6e97c1c7f8386ad5fd2 4df694a477685a3df7b561bfe6393db073bf476c refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+ul2kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UrIP/i7LEM5FkRLSalt9eNR0
-8nNsOXuBuoJvZQOBAtmA9vRQF5wH8nueYxcrsyQywShOFfoCP/6mgAZWX/2/CRse
-GpPQZEyZQmIkC3cTK9Yy7lRV9u6K7q8V0d0RbSaatNwN1itJDVX/3TJomWZu9z7K
-be/etZkve2w2Un0D681p/ef7Ygu8NUcJOLiBdh0afNUwWSkzaoRosG53rmKQYZS+
-A+tn5x4dJonkE+GzBJ0HPxNfX5gIVEZK7R1KDDIhcxJOUqRyxlHAziDSuYmHizb1
-+OXDrBYg2/LvNlXDCsQBsEKjqeUmRH1G3mT7P+oj5aUE9y/QLI/ZvUpom2TfHZLp
-SSJ8FBbvn95IL0Co3lu1GWSo6GvNs0XUZ8AdAprb/hRFXIxIgUb/uhOwBprwSQYc
-uh5EnTCesPuVuo1iYDvihmNsqhdEWQfB8WiPYJi1zZmU/wHNSwbND0JADzJPtc94
-9x8+cwhjlIqXwnmgm9FeWm7wJC4h1iDpHN3kcsKNggRn4oal68jDwVTiMPXGp5/u
-xTFO6RBKLSFBslB8poIO84tKkJTxukM5nz1zki4iBXJBRL+wkNi1KzrpdLzDhJMG
-39pLnhP9lvcan8hIxXxPNiQtluG4XfdU+GhQ7qeXaX5sH+YxRTWblppoLu0aH04U
-Lhgh3l6eLH1BZH1EwqEIDpk6
-=ZmWy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+ul5UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3XEP/2j7xLH6XvoBK0UBg5F2
+J4FP9QFpFePeDG4ma37DwO0/EV9NL3QpJ1QIxa3b0URHDb4kZGpHQeJPRdzcpEeF
+Fqq+QxgOeE/AqnfgXPL6kS4jhRsStvUqYQRySQZZOAMb9vyjDIxIyGBF2uDtsz2d
+/6aUN8Gr9JyFh5k7K35BxmposIQjF3cR1Qa8jVKfi8WMds2Qe34nIJ9lI+4yiVSl
+0/wGjTjwd8/STQF4OIwnCdFbVazl0QM9DT1iGc7YqdDgu/NWuaxTQ8rUHKqAqqtq
+J2V3PFyTi+GNAX3Ivr45AyjvK7ykhGF0arFfbXp/9R3YmDA9l/nm6aOd7c84pXYE
+aiRcLiiyOu/r5uVUDHmLWDNTuMuwrOGiRk6wZa+Kaiyk0Zi//oHC1DxGv+jCAwee
+WSws60emHzNhk8YOs8MdMpqQ7NUjSqZoU24M7605/2vu0HNoVrMMrwFHGIsrxJ7t
+gRkh+w661bLttO2k4+1vYAxqfEO83xHqNEKg2z/COcsNNMOnSvxHI1G1MIPG9A07
+mpqqo3WMnhCWSj8dO89xjf3GMKyfbVhudlwWgy782Pb1LjTIY5s/pHfzsrhm+UDt
+ycSOEFFoaqLvK248vNoHM+ZtF45cIq/jNYfnkVvzYuhA8a/C7SWLDbFsjT2lJQMP
+vGQO0kpW4AlcQCsn5BSpahRu
+=2e2m
 -----END PGP SIGNATURE-----
 
---===============7916588517835935273==--
+--===============1787278362328123810==--
