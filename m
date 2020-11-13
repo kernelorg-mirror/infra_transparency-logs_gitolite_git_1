@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Fri, 13 Nov 2020 22:57:42 -0000
-Message-Id: <160530826214.10524.13864699783854713876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 13 Nov 2020 23:07:53 -0000
+Message-Id: <160530887302.16530.11845657294150967862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/selinux-pr-20201113
-    old: 0000000000000000000000000000000000000000
-    new: 9c1a6fb72edaaa5aa0213c8e426ff2cad4ef9318
+  - ref: refs/heads/master
+    old: 2b5668733050fca85f0ab458c5b91732f9496a38
+    new: 8cf8821e15cd553339a5b48ee555a0439c2b2742
+    log: |
+         8cf8821e15cd553339a5b48ee555a0439c2b2742 net: Exempt multicast addresses from five-second neighbor lifetime
+         
