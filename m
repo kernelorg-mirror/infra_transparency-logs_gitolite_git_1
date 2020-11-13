@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 13 Nov 2020 16:46:29 -0000
-Message-Id: <160528598967.11606.14769083157888479977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dborkman/pw
+Date: Fri, 13 Nov 2020 16:46:48 -0000
+Message-Id: <160528600824.11854.16022925683094313841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/dborkman/pw
+user: dborkman
 changes:
-  - ref: refs/heads/ci-next
-    old: 8adcc9cbf2234823743beddbbf7864c2a0a2cecb
-    new: 64a915bfae477b3f1d7dd02ab8887c0084f00f98
+  - ref: refs/heads/master
+    old: e3b0c435d06c8a245c34a8c316374da1da38e52f
+    new: 7d4c8853661a71e8fcc3205a009335bc0c0bf41e
     log: |
-         3fccd03a527fa1c9490e528a369d1c9d9c622b01 arm64: defconfig: Enable Qualcomm OSM L3 driver
-         64a915bfae477b3f1d7dd02ab8887c0084f00f98 Merge branches 'arm64-for-5.11', 'arm64-defconfig-for-5.11', 'drivers-for-5.11' and 'dts-for-5.11' into for-next
+         7d4c8853661a71e8fcc3205a009335bc0c0bf41e pw-apply: fix infinite loop on passing -3
          
