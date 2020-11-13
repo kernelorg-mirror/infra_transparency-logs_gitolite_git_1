@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8874855689694996340=="
+Content-Type: multipart/mixed; boundary="===============2681837885237794480=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 13 Nov 2020 23:23:24 -0000
-Message-Id: <160530980450.26358.3718879487411827666@gitolite.kernel.org>
+Date: Fri, 13 Nov 2020 23:24:22 -0000
+Message-Id: <160530986275.28733.3326545855864912146@gitolite.kernel.org>
 
---===============8874855689694996340==
+--===============2681837885237794480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: cfd3443e2d32a655871a445b3509e5df96fa7581
-    new: 60aa8782d2bf93379beffc0525e0e7496d578851
+    old: 60aa8782d2bf93379beffc0525e0e7496d578851
+    new: 3e51236aec00d8ad5279aef97414c03e8057ad17
     log: |
-         60aa8782d2bf93379beffc0525e0e7496d578851 firmware: fix spelling typo of 'wtih'
+         667aef00f3f32eb10b959cb7f3bbd28e87049a4f eeprom: at25: Add example part numbers
+         ef84928cff589c6b42e16b3ef7d2d95469128c80 uio/uio_pci_generic: use device-managed function equivalents
+         3e51236aec00d8ad5279aef97414c03e8057ad17 drivers: rtc: retire RTC_DRV_GOLDFISH
          
 
---===============8874855689694996340==
+--===============2681837885237794480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605309857 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605309914 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1605309798-e801b3b8eeb4a3fd7d9e85795da2e54e9cbc5b30
+nonce 1605309855-4514d2e52133c8c88600abc6491fa3626b7135f1
 
-cfd3443e2d32a655871a445b3509e5df96fa7581 60aa8782d2bf93379beffc0525e0e7496d578851 refs/heads/char-misc-testing
+60aa8782d2bf93379beffc0525e0e7496d578851 3e51236aec00d8ad5279aef97414c03e8057ad17 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+vFaEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MfUQAJebzKDjVYXl3dvHQFgV
-gLr6rZTXLu8jZS4TDUs1OAtqDopQBC2no2i2RSDqls2aNSy6aDWwenT7E7RcVAiA
-Av19Do6wqftOd9uX5uzyYR8golCOKJwpvomCfITrHTaxKb4R3WY5ETzpLHW/evVg
-z0imviIzR1HUTUmJM5zJvDul3KhXXM3IouWZKZ+V96j//myruJdiufEe1oU5DuR+
-+O0Qi39rkgXLG0co4OSwtE8ChAU8vW7YaEDbR6u4k846OwnlO96rQvAER2FDWDuf
-whPI0hAsvVIWo8Gob6f22SS4nx6hsFwO0t1ZnQAGYEzqWcMTMNl7LCFV93NS/v91
-HM30QPdMpf9/KY1D7/xOmNsi8dB0Osk1+A41hjj9V3wgNEq7D9KwJi/Chv9n7iMi
-nebAsJykbqoJZD3+uhx7Gi/fg8iZZ4c7xK15SB76048W4JrddsvpVtwgGVghvzoT
-QpDVOEoN+klI27ntcWaENJ5nSkF3ahkZF9n5YSen0cHVvHDOuBeejJKAN/9W91ba
-Aj2fEHdKJfR0Uvij1+eeoLg6+jgHtnLFM/M69urSxUmWuL0JqG2G97GQS0GI266f
-M82ILS22rbm90DHPM69LI8byANCowM0JJ8RF538jkpyWbNU4isCZvos+GU398wFl
-opioltBx9uyCb2mfyuSbUCMZ
-=BV7z
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+vFdsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EJAQAI0qjIMLbqA+8StD6PR9
+oMqitZTyIg8aiDfz29KJ/1H8OXXOdZkFtR10+o0F+6mr/Rrv5Pk6kRXuWPfu6nI2
+JUuCioqCuJQTMfPQa7yveUwiB5+L85OWuOL74OioEAQdFzNQa/gEYxfCyWLgNKdL
+Gj+2fqC8zhONSSjDZcx1vy6I2pxgJAOpIG/nPH+QT08hMD6clCsN+20gOeO5NU8i
+c8rkepjfiQ0S+nL/0zvR4dFhNSTs7ybf4RJvoDnAmy6gGPYvpdP3CPxKYYMTeGXr
+uIYifFiCs1zYpnSKAHajkXCbGRX7IFQwIe12m5A30CAW3/gcdlJM29krY33NTrob
+zV+bHtEMR/at830oWXCnWxCzbjl3Pm+h73p/EFHzXJfWQHekcaLpbuOc6UHdiWyM
++bajmgRO/fPC/NAskM41PpJGrM03IvHTNmleNBTkYCTLprWr1ElK1ZMIveAdHlNv
+fFA+VhyuLRqALK1b75Nj61RL9stCUOZsUr3wlwhVHf3KHDmYoBq5F0k+4SK5KrL5
+dJlphMnS8z3qu09gpBNR0WlW6XFHLhcUxC8FeFCo89WAi5nIohLnjDn9Ul8fWYJY
+hGzssZBdcQLjAPnEjYxJWj/wxAuWbDaLEdXg83xVTN3l7ivOortiyWAmmaCOCrwG
+s6upWmR0s4vLA5qkeojAaG1P
+=0c9K
 -----END PGP SIGNATURE-----
 
---===============8874855689694996340==--
+--===============2681837885237794480==--
