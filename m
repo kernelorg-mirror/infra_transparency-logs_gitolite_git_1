@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Fri, 13 Nov 2020 18:43:34 -0000
-Message-Id: <160529301480.28413.12343792972119940139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 13 Nov 2020 18:50:38 -0000
+Message-Id: <160529343810.1075.3123034902088340094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/coresched
-    old: 286f10138a137d74daaab0f21d9098a92a099bb1
-    new: 680ec43dead6f0f84db19ef07fc0f5ea44e9f2b3
+  - ref: refs/heads/dm-5.11
+    old: 98d2720eb186b575693acc0e00ab3b4e3649d29b
+    new: 530313c2fffa26d451b1ab18d22b0e46b1cda722
     log: |
-         eb4e1676190f00122aed937a88e111722bd87bb8 Documentation: Add core scheduling documentation
-         994a6b77fb80c6865ec8ab94766c38cd63adb468 FIXUP: sched: Add a per-thread core scheduling interface
-         e87906a691aec91161e50c330d0843843785fec2 sched: Debug bits...
-         dad39872cd2013afd145e67bec341419bb55019b FIXUP: FIXUP: sched: Add a per-thread core scheduling interface
-         1ad2f56bed2b68cc6a3ceb642d232eb742d1493f FIXUP: sched: Add core wide task selection and scheduling.
-         680ec43dead6f0f84db19ef07fc0f5ea44e9f2b3 NEW: sched: Add a coresched command line option
+         530313c2fffa26d451b1ab18d22b0e46b1cda722 dm table: Remove BUG_ON(in_interrupt())
          
