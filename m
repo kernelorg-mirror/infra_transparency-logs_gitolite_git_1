@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 13 Nov 2020 01:22:53 -0000
-Message-Id: <160523057329.12950.10756225179997921670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Fri, 13 Nov 2020 01:40:37 -0000
+Message-Id: <160523163718.26406.12467011862999813796@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 1922a46b8c18cb09d33e06a6cc2e43844ac1b9d0
-    new: e8aa6d520b448efc88670a98eccd196713639f2f
+  - ref: refs/heads/ftrace/urgent
+    old: 645f224e7ba2f4200bf163153d384ceb0de5462e
+    new: 50b8a742850fce7293bed45753152c425f7e931b
     log: |
-         e8aa6d520b448efc88670a98eccd196713639f2f net: ethernet: mtk-star-emac: return ok when xmit drops
+         50b8a742850fce7293bed45753152c425f7e931b bootconfig: Extend the magic check range to the preceding 3 bytes
          
