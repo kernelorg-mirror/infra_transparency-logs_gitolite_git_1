@@ -1,48 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6633657219519813687=="
+Content-Type: multipart/mixed; boundary="===============5380480389874303189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 13 Nov 2020 14:47:09 -0000
-Message-Id: <160527882923.22317.2123735573098468639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 13 Nov 2020 14:50:19 -0000
+Message-Id: <160527901935.24755.7086970623570537279@gitolite.kernel.org>
 
---===============6633657219519813687==
+--===============5380480389874303189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/hwmon
-    old: 4d64bb4ba5ecf4831448cdb2fe16d0ae91b2b40b
-    new: 60268b0e8258fdea9a3c9f4b51e161c123571db3
+  - ref: refs/heads/staging-testing
+    old: 8b5b1b81935d88673e23ddb633f02dc6c842829b
+    new: 383313b8c41e5f89e45d6077e5bc6805206eb612
     log: |
-         60268b0e8258fdea9a3c9f4b51e161c123571db3 hwmon: (amd_energy) modify the visibility of the counters
+         ab5b769a23af12a675b9f3d7dd529250c527f5ac staging: gasket: interrupt: fix the missed eventfd_ctx_put() in gasket_interrupt.c
+         383313b8c41e5f89e45d6077e5bc6805206eb612 staging: greybus: Fixed issues with alignment to open parenthesis.
          
-  - ref: refs/heads/hwmon-next
-    old: d7e445a92e1bea606ba0e8a9fdb31ca7831efb81
-    new: 414920a4a5d5613e4aa77c89944f9c1dc86b06c4
-    log: revlist-d7e445a92e1b-414920a4a5d5.txt
 
---===============6633657219519813687==
+--===============5380480389874303189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7e445a92e1b-414920a4a5d5.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-60268b0e8258fdea9a3c9f4b51e161c123571db3 hwmon: (amd_energy) modify the visibility of the counters
-d4e76e409cf990494966e03eae54fdf96e5d889e hwmon: (acpi_power_meter) clean up freeing code
-08feee68cc0ed5ae0f41b8a4fd2c887ab6cf7988 hwmon: (pmbus/max20730) delete some dead code
-57287bc91e1c48f156664edc8d706e558a7e8768 hwmon: (adt7470) Create functions for updating readings and limits
-383b0f2cfd57cd9e97eef1fe61a606bcd67790f3 hwmon: (pmbus) shrink code and remove pmbus_do_remove()
-7f8be7307d36644533350362b705b4845869e35c hwmon: add Corsair PSU HID controller driver
-9b1d50ebe77891f64dad0acac8561905bc13dee0 hwmon: (corsair-psu) fix unintentional sign extension issue
-40a0b88a5fbe509aba5c837f2645061c602c88b2 hwmon: (adm1266) Fix link in documentation
-1d3ba0bc320f23f6bd9dccc31c2a292403f4fe89 hwmon: (adm1177) Fix kerneldoc attribute formatting
-d88134d88715b41c592fe0569ebf6e82ff5a991d hwmon: (ina3221) Demote seemingly unintentional kerneldoc header
-8816a86faccc448a8ac9e8838f19cb4bed79d0a0 hwmon: (ibmpowernv) Silence strncpy() warning
-414920a4a5d5613e4aa77c89944f9c1dc86b06c4 hwmon: (corsair-psu) Fix fan rpm calculation
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605279070 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1605279010-19567f6c580bf14a6c70aaecb96c076f70212874
 
---===============6633657219519813687==--
+8b5b1b81935d88673e23ddb633f02dc6c842829b 383313b8c41e5f89e45d6077e5bc6805206eb612 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+unV4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6yEP/3epDiaXSrqFv5WyHyck
+ifnv39PGFgcwHkeM4u+/Iq1zXKWRAtam/1YyaJXcsfkxfHVMytiXs2dn4aI/AGhJ
+jo+QGKmGTXmcVol52ctmEINyg+6teD1A0RmYkKwQHJwVjYGKYkC2oPOaXCtV7YOM
+ugBy7r0xO6vEd4sUvljI7ixen1kw7cN9GoIDM1sRkzRkQTEVCymGUHVEF/dv9bvJ
+DmBz1ahNTW5JnCCBuj3kh1rV3k94dAD7n7vHPqEZUmsEkboOpwT6QXDZGIKGqZrZ
+/AYzAj55I3I1EJdtEvRPrfWlLyDZaZ7J/9RKxRxonySlsZtzv6J4qvBXKDBS982W
+v0SeWnKgKRmzxTt/+am6jI0KWOUpo8AfdLddcZAtXvajdPqjGWL+CR8+D396kbFr
+GfrVcqE70jTAjtdF4VJeKh7uZn08ir99V6UAqKoakexqRqgpu4j1p6pO+H/RVxw1
+djso4m4iTZXxKf1nr+VOT0wW6MimgPqstDjJKjKnBG6nb3mNFPCqwLH3B6yHKbIi
+scYqyRBi7IZEc1vxu4JgEu2kIi6HZKn0FSEDbxaxyaC1fAq3ZB+uOh8ljsdXeYLd
+KL8kYkF78qf2NmZOq1tCJuJK8sgO5r0TESa8El+luBf+r+pRwZma8p6Ov2glTBd5
+kwZ1I7CMdUmQ55zbJQuAWtag
+=OH6e
+-----END PGP SIGNATURE-----
+
+--===============5380480389874303189==--
