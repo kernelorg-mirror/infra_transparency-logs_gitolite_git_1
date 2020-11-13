@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 13 Nov 2020 18:51:45 -0000
-Message-Id: <160529350563.1679.2437518782124874844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 13 Nov 2020 18:57:38 -0000
+Message-Id: <160529385878.7382.5452281378447526533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-next
-    old: 98d2720eb186b575693acc0e00ab3b4e3649d29b
-    new: 530313c2fffa26d451b1ab18d22b0e46b1cda722
-    log: |
-         530313c2fffa26d451b1ab18d22b0e46b1cda722 dm table: Remove BUG_ON(in_interrupt())
-         
+  - ref: refs/tags/hwmon-for-v5.10-rc4
+    old: 0000000000000000000000000000000000000000
+    new: de401b62513e0383ae0487958e68ead58afc33c5
