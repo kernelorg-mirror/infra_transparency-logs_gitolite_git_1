@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4040382426355201193=="
+Content-Type: multipart/mixed; boundary="===============8829334381781315255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 13 Nov 2020 13:30:36 -0000
-Message-Id: <160527423655.31356.6312444125440162949@gitolite.kernel.org>
+Date: Fri, 13 Nov 2020 13:32:13 -0000
+Message-Id: <160527433380.32019.18048778862366456217@gitolite.kernel.org>
 
---===============4040382426355201193==
+--===============8829334381781315255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 368183029cc4055c571ed19ceaa49c35de996611
-    new: ffa13d2d94029882eca22a565551783787f121e5
+    old: ffa13d2d94029882eca22a565551783787f121e5
+    new: 76255470ffa2795a44032e8b3c1ced11d81aa2db
     log: |
-         ffa13d2d94029882eca22a565551783787f121e5 Revert "usb: musb: convert to devm_platform_ioremap_resource_byname"
+         76255470ffa2795a44032e8b3c1ced11d81aa2db xhci: hisilicon: fix refercence leak in xhci_histb_probe
          
 
---===============4040382426355201193==
+--===============8829334381781315255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605274289 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605274387 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1605274230-7925a456c7082f2a1de12de6c11b47cdc36a43d2
+nonce 1605274327-b8bd12bd1c3bb952340746a85bcc1f735bb99322
 
-368183029cc4055c571ed19ceaa49c35de996611 ffa13d2d94029882eca22a565551783787f121e5 refs/heads/usb-linus
+ffa13d2d94029882eca22a565551783787f121e5 76255470ffa2795a44032e8b3c1ced11d81aa2db refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+uirEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o7oQAJopG9JNTGHZtlYXa4DQ
-jRfheDyNIAR0XQQoxfr7xYLG1LWRcpmJZiUcFpgBRYeiDF9BHepS5k2Iqn6ooBHH
-X8MumgApEU9+sRzNszeQYRe3zSkfyv4Crje9IHp7aNndYGOC0AFOU6PwkEZp4tl4
-QUH7IoknoyoIN2Ag5KlJyxIhFM7nnT8posHJB0cCi6LPZ1WXoEa+rGvioDyqpw0D
-Wr6qtys/SopviKK3Tqse6Hc+F/3fkHkPc5ykeYDhbqdq+o1ZDKj8ShlZDH4+jCeU
-iBjWJTPQT4ZpiGbB5YdrylcspnycYPqdbOc2z5m8gnHREWnb5klqvNp+Iymql0pA
-PxJKI3YRVa3RrqK67eL/DM/G3d6i/evxzskBEir6ry/X6kDjLVbGPvgDacbAYuVU
-Aspu3c9c2kVVRLgIyKJFEmyjofMKO8dDi+yoVsP3gPHF1952WkWjlW3fPz0jvXeP
-Stezfkbm5MLvR/4eVM1hO++F97a1m/PF+m2BtEfuklO3G/NXKToWLNl0PliSLpmo
-3IGxjUKhvRQ5JrYVdH82Ic2m6NJOfTRhKlo5n3ZCflbMT+FHrtKttDityluJTXvS
-QlhgrqR2SRo9uE0+onTuBBjZ7HuPOJ9C3gpAkxRTKLXtZiMVzesTk1FMg9CCjugG
-hfcDTiodmVqdfIDQnJ+FZRdJ
-=JgFf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+uixMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VekP/i2DpcTdr5YKobooPBna
+OSjHiaeSBfp7uZZQaqkCZGFueay9EtOrVRFxzIebzy1RFVNxVnoem5533bPGcphz
+4bfDJTMOe0tybLiZt6sgdyhYEmzh3Cal0rj5sh/JTvEV7HMxjGJ335LUzzb26som
+LtP3XIslUlhpGVGvCkcaKxsY8Y4zTUgKy2h/4qkKFwf7nAAO++PzlWSW4xSmzC2c
+sFwrNetwkGPuFJ/f9kWnrzB+dUDbjcHK94E2JB8d2Gd4jE5f1zj5dFhe8cO2GQZS
+xnTafOlNJVO5xMtvZY34/l88/O2+GqBabVzxdvj5WqwwPy25jPw+VBpwqiJheonN
+IanBAYDshY66bQArinNRLoxqICaUtsRYlnJXhA0K37uM6RmWsQGMKEM9Gx2amCYn
+Sn+vN+G8GTQfEJubjCDUlS+2x8zowzRAFCEK+2HQQ2CGfY3LNwkn4rYAuKKXYC67
+PHMiPca5TlDo9YyIU6LRLykFQ+mIL5ueqq/BIRB8jVhn1GrOmYP6sboh2x1muFhT
+5yJmrJQ9iCOs4cn2hSRjJ0KCHPZIVdg8vuGs2ToK4+7BeQDIWWD/ujMp/KIGufFY
+9Jcj+e1t4r2DcEM5AbnWRn7HheLah327zaWaamGKrnjCatlL4Al+iLMmMVvWLS66
+rpocCKol562G2mEm2wBK/njc
+=nhhf
 -----END PGP SIGNATURE-----
 
---===============4040382426355201193==--
+--===============8829334381781315255==--
