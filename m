@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8627121584845648742=="
+Content-Type: multipart/mixed; boundary="===============9161999131476063016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 13 Nov 2020 14:27:53 -0000
-Message-Id: <160527767380.9956.13117261886512929467@gitolite.kernel.org>
+Date: Fri, 13 Nov 2020 14:28:25 -0000
+Message-Id: <160527770526.10273.11095095810148380192@gitolite.kernel.org>
 
---===============8627121584845648742==
+--===============9161999131476063016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 1f78ae99790812481b7944cf40008aed5fd2ef18
-    new: 59105f9cf6e28c51ed8c93cbc44f278caa3b2b4e
+    old: 59105f9cf6e28c51ed8c93cbc44f278caa3b2b4e
+    new: bc0468ee4922b04e529da4734bfcd3f19152db8e
     log: |
-         a609c58086e381c13bdad1ba97e6510a13d465e7 tty: serial: 8250: 8250_port: Move prototypes to shared location
-         59105f9cf6e28c51ed8c93cbc44f278caa3b2b4e tty: serial: pmac_zilog: Remove unused disposable variable 'garbage'
+         bc0468ee4922b04e529da4734bfcd3f19152db8e dt-bindings: serial: renesas,scif: Document r8a779a0 bindings
          
 
---===============8627121584845648742==
+--===============9161999131476063016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605277726 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605277758 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1605277667-bf09b7129e99c84d76baeabe4fd0842e87193ea1
+nonce 1605277698-5babb649d6ba8c8cadfb48eb94566607dfa17f02
 
-1f78ae99790812481b7944cf40008aed5fd2ef18 59105f9cf6e28c51ed8c93cbc44f278caa3b2b4e refs/heads/tty-testing
+59105f9cf6e28c51ed8c93cbc44f278caa3b2b4e bc0468ee4922b04e529da4734bfcd3f19152db8e refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+umB4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hHsP/2QiJT2VGj2Wl2XRS95C
-acvN9W7RUgpW1EbQKJAdUlcXUBkTu9H4LqaMt2FxsaV1BHtBxieUlMXs9XVaHMQs
-h97nddZg+moF/lEJ/mEJ2/ThapbKdd/vm0iNOjfHKfhKWq/HpvqP0/wtpx9+r71R
-PzKR0IbKz9C1Y8DcWfASuyjm4dxd8hypy1LAhcsGqrK1pj7yeXOfBcdwED5mjhn9
-Xy8HcnYywS7A0Xfub7IPwwmJXSpgNJvUuvdJsla1/U5eVvY7/DVPqLuNwuLGkFBE
-EVJsFZXwhhYwSdIzSmML83Ayg8O3NPMTN2+pvjf4q/0BiMX3f64lpRt8N9U05QzE
-MtEtZEmrC3W/lojKm2RrgsRzAOhO4FgIxJD32itBrhsjar/BEqaPEvlJddWIyneQ
-4/Ac1tLHI6QQrWsLKT+CeEI08HfRz/wRU8VSKKeuRxONKlqaOIC+0z5QnoDwbTnq
-19FelrVLdcRMz8lAQw1gvWsVTrVeA7vS8WxmliLj8xqnBynpmXFQeb7fJaOvwrdK
-jg82+44grdQKGke6m8TCeO5Er9pKbmS41F+TKvLi2Sgorpomh9oUNgjpAeFePcsV
-kF4hJdpvX7lblWh7IVsvjlarX2R5Rv7r7buJUEXEmbU+G6IizTPDztPK4shaxDM9
-PFw1FHPAKME3xpEVq+N0tkqb
-=Pc2i
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+umD4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DwcQANF0JYGAeMxHV3on+dgY
+s4XDrEY+suMF9QKRrTTNO+T5xJVsQhge8Kz7SoeJrocEfnvJNbZM5VaZdduX6FeC
+ukvnrPq9CSFYTNaSQAPdAoAiueyFqy6ekgo8UoXdQczg+V2y6LsCEfDcVXSm4rFJ
+DzoRV848+mfdE+iagf4y93H8MkVuR1Ug4i6174Ut72WEhK7PdkgYCvE+LdB1+UgZ
+wDMa5NSp404rMTrx99jOSpRYxNH9AQ9OCW+fC2tggCJchj/ZWFAat052boCgH2/Q
+DLVN3dabIJ/vW7heuQAP4HMlx6H5O1k38Mkh0j+0dCARD4Za7yHKLrTc/U8Eh63L
+Zt9kefjjGcEfVbe/KyVd9UP5VInLt/zhrXdnKyD0iJiVu2trV6+4OFtqlizWzPxQ
+va2rJtGeHqAocp4SGuQTgQl1cycSI4dSvrysTxQCpFTxMyP7mKQrg/EYM4kogggQ
+aAvTGqjvLsYObMemv++vqZpxv9oyOQGUzpPxWlB17MG1Bc8yenyMs3one5+T+VFZ
+hQlq5POBcrUWY/nF40W1XigKREZ0cljGIYvfAVFYmCWeIUceV8UV3+c6WKj07gnj
+k/6jxQasB2QqbRlayQprGCd7m1kmWglLxyJSxGwxdtmIgCsdoczco+eAYPgzUa0N
+btU/UgdlmEmE9Ney4Zqgw5KR
+=lslI
 -----END PGP SIGNATURE-----
 
---===============8627121584845648742==--
+--===============9161999131476063016==--
