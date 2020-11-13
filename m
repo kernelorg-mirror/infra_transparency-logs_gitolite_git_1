@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1787278362328123810=="
+Content-Type: multipart/mixed; boundary="===============0362906145934169238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 13 Nov 2020 14:25:37 -0000
-Message-Id: <160527753720.9034.5859348729111000723@gitolite.kernel.org>
+Date: Fri, 13 Nov 2020 14:26:17 -0000
+Message-Id: <160527757712.9374.17026259735959574201@gitolite.kernel.org>
 
---===============1787278362328123810==
+--===============0362906145934169238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 0e6371fbfba3a4f76489e6e97c1c7f8386ad5fd2
-    new: 4df694a477685a3df7b561bfe6393db073bf476c
+    old: 4df694a477685a3df7b561bfe6393db073bf476c
+    new: 6d853c9e4104b4fc8d55dc9cd3b99712aa347174
     log: |
-         4df694a477685a3df7b561bfe6393db073bf476c MAINTAINERS: add usb raw gadget entry
+         6d853c9e4104b4fc8d55dc9cd3b99712aa347174 usb: cdc-acm: Add DISABLE_ECHO for Renesas USB Download mode
          
 
---===============1787278362328123810==
+--===============0362906145934169238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605277589 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605277630 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1605277529-ea02ec4382149f908d46755e3879312bcb28557a
+nonce 1605277570-7598c206bde3d5db69c4d1790753d80cccf05b07
 
-0e6371fbfba3a4f76489e6e97c1c7f8386ad5fd2 4df694a477685a3df7b561bfe6393db073bf476c refs/heads/usb-linus
+4df694a477685a3df7b561bfe6393db073bf476c 6d853c9e4104b4fc8d55dc9cd3b99712aa347174 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+ul5UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3XEP/2j7xLH6XvoBK0UBg5F2
-J4FP9QFpFePeDG4ma37DwO0/EV9NL3QpJ1QIxa3b0URHDb4kZGpHQeJPRdzcpEeF
-Fqq+QxgOeE/AqnfgXPL6kS4jhRsStvUqYQRySQZZOAMb9vyjDIxIyGBF2uDtsz2d
-/6aUN8Gr9JyFh5k7K35BxmposIQjF3cR1Qa8jVKfi8WMds2Qe34nIJ9lI+4yiVSl
-0/wGjTjwd8/STQF4OIwnCdFbVazl0QM9DT1iGc7YqdDgu/NWuaxTQ8rUHKqAqqtq
-J2V3PFyTi+GNAX3Ivr45AyjvK7ykhGF0arFfbXp/9R3YmDA9l/nm6aOd7c84pXYE
-aiRcLiiyOu/r5uVUDHmLWDNTuMuwrOGiRk6wZa+Kaiyk0Zi//oHC1DxGv+jCAwee
-WSws60emHzNhk8YOs8MdMpqQ7NUjSqZoU24M7605/2vu0HNoVrMMrwFHGIsrxJ7t
-gRkh+w661bLttO2k4+1vYAxqfEO83xHqNEKg2z/COcsNNMOnSvxHI1G1MIPG9A07
-mpqqo3WMnhCWSj8dO89xjf3GMKyfbVhudlwWgy782Pb1LjTIY5s/pHfzsrhm+UDt
-ycSOEFFoaqLvK248vNoHM+ZtF45cIq/jNYfnkVvzYuhA8a/C7SWLDbFsjT2lJQMP
-vGQO0kpW4AlcQCsn5BSpahRu
-=2e2m
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+ul74bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GnoP/3t6E946O/M1WNl7SnXQ
+n7Fq58lVynIpKj2sEDRZroafeROmEY35+CEM1ofHb0RLe4udrg9cl5l0dqehWpAe
+h5XlrVSz9U3zvyA+dgWiZ8nd0dxJaWeWhAxCTCTZqiNaviUaueBwnReIBhDuwyPx
+eyPWY0e2ZQ1+AqHPkpWrGpkr6y+V8J1QM0uMtGyvxOlC+BaeF2vUaA7eq+qjueYU
+8hRyCNibQxWYav7MULdfEosOqc085j+hfLgDCeCgqPimOh5txQEBppmmY9R/4hob
+t62l6ME4HzLhgdhQfCho2yxm7hXhMWfjrZt7RKs8djvjAtMsja486NIk+2fKPsaR
+wgwAGJnaAT3RgtjdpV9sy1jBUOKOddQACkKTrNZkWffc+bd77dNUEsbgPRXk6NE/
+Rma+NrPb5KoRP+s7b+RVHaZpGTa92dYrvObiECIH4HoaBWuK/g0KxkoXRxL8s9Fx
+7gsroMv3rpdGWI1DK5m0j5tyc2/JO9dsNPeBY6Frxvi0sPHslW8yex5Nqw9RR/cB
+sRIYuSAvvTU7ZNbdDRbJ1xh55ORql/xxhTRBnssN/4ji+PNOg8NWO5wIL4PneLMZ
+D0FCm6uAk0sb8byNJEMCt8fnve7SRrwfrMUpN7MbF6raBCZH68TmzBlCSbx9hFDA
+CuGyB0YW6v7cB1SGqbuIBrM7
+=SAH2
 -----END PGP SIGNATURE-----
 
---===============1787278362328123810==--
+--===============0362906145934169238==--
