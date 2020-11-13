@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0708153479292263780=="
+Content-Type: multipart/mixed; boundary="===============2319928560703593639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Fri, 13 Nov 2020 15:36:41 -0000
-Message-Id: <160528180184.27904.294208905085744977@gitolite.kernel.org>
+Date: Fri, 13 Nov 2020 15:37:12 -0000
+Message-Id: <160528183235.28177.10403917687941888348@gitolite.kernel.org>
 
---===============0708153479292263780==
+--===============2319928560703593639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arnd/asm-generic
 user: arnd
 changes:
-  - ref: refs/heads/master
-    old: 78d127fd689200ff1d62d1f24f6be8dd68250764
-    new: 129eb82bd5f2cc251d9581e18d7541e74b5dd8e8
-    log: revlist-78d127fd6892-129eb82bd5f2.txt
+  - ref: refs/heads/asm-generic-cleanup
+    old: caabdd0f59a9771ed095efe3ad5a08867b976ab2
+    new: 8d0dd23c6c78d140ed2132f523592ddb4cea839f
+    log: |
+         8d0dd23c6c78d140ed2132f523592ddb4cea839f syscalls: Fix file comments for syscalls implemented in kernel/sys.c
+         
+  - ref: refs/heads/asm-generic-fixes
+    old: 0bcd0a2be8c9ef39d84d167ff85359a49f7be175
+    new: 562a2b4039a046130daf3eeda0db96e23980ca36
+    log: revlist-0bcd0a2be8c9-562a2b4039a0.txt
 
---===============0708153479292263780==
+--===============2319928560703593639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78d127fd6892-129eb82bd5f2.txt
+Content-Disposition: attachment; filename=revlist-0bcd0a2be8c9-562a2b4039a0.txt
 
 b64d814257b027e29a474bcd660f6372490138c7 arm64: dts: marvell: espressobin: Add ethernet switch aliases
 0b58725fb9a446890c1fd28fc6c9e393ce21acb7 ARM: mvebu: drop pointless check for coherency_base
@@ -946,9 +952,6 @@ df53b815c799cab8c6e04816b5005810a57ea6a3 Merge tag 'usb-5.10-rc3' of git://git.k
 bbc821849eba179e62bbe2adba19a87c7686c27b Merge tag 'tty-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 15f5d201c1773297b38a11a0064be76a224d073d Merge tag 'driver-core-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 f8394f232b1eab649ce2df5c5f15b0e528c92091 Linux 5.10-rc3
-8d0dd23c6c78d140ed2132f523592ddb4cea839f syscalls: Fix file comments for syscalls implemented in kernel/sys.c
-b012526edb0d8f790dca82270b51facad01717a6 Merge branch 'asm-generic-cleanup' into asm-generic
 562a2b4039a046130daf3eeda0db96e23980ca36 arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
-129eb82bd5f2cc251d9581e18d7541e74b5dd8e8 Merge branch 'asm-generic-fixes' into asm-generic
 
---===============0708153479292263780==--
+--===============2319928560703593639==--
