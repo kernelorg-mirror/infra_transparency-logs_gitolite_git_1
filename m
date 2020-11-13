@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1419642068378612331=="
+Content-Type: multipart/mixed; boundary="===============3893057346769125132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 13 Nov 2020 16:56:54 -0000
-Message-Id: <160528661448.20511.14940332852860323974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Fri, 13 Nov 2020 16:56:58 -0000
+Message-Id: <160528661891.20649.16782830719974752162@gitolite.kernel.org>
 
---===============1419642068378612331==
+--===============3893057346769125132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 585e5b17b92dead8a3aca4e3c9876fbca5f7e0ba
     log: revlist-407ab579637c-585e5b17b92d.txt
 
---===============1419642068378612331==
+--===============3893057346769125132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -162,4 +162,4 @@ db7c953555388571a96ed8783ff6c5745ba18ab9 Merge tag 'net-5.10-rc4' of git://git.k
 20ca21dfccb6dd6ae4d1d22b91c3c7514f4a712c Merge tag 'gfs2-v5.10-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 585e5b17b92dead8a3aca4e3c9876fbca5f7e0ba Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt
 
---===============1419642068378612331==--
+--===============3893057346769125132==--
