@@ -1,45 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============1768947903149737760=="
+Content-Type: multipart/mixed; boundary="===============6633657219519813687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Fri, 13 Nov 2020 14:40:57 -0000
-Message-Id: <160527845735.18876.6433411580792089218@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 13 Nov 2020 14:47:09 -0000
+Message-Id: <160527882923.22317.2123735573098468639@gitolite.kernel.org>
 
---===============1768947903149737760==
+--===============6633657219519813687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/tags/renesas-pinctrl-for-v5.11-tag1
-    old: 5713ec093f9cfc7a949c036695e27d42bf667120
-    new: 9e72618ddedd52dbc01f72a49cd9c77aeeb9a547
-    log: revlist-5713ec093f9c-9e72618ddedd.txt
+  - ref: refs/heads/hwmon
+    old: 4d64bb4ba5ecf4831448cdb2fe16d0ae91b2b40b
+    new: 60268b0e8258fdea9a3c9f4b51e161c123571db3
+    log: |
+         60268b0e8258fdea9a3c9f4b51e161c123571db3 hwmon: (amd_energy) modify the visibility of the counters
+         
+  - ref: refs/heads/hwmon-next
+    old: d7e445a92e1bea606ba0e8a9fdb31ca7831efb81
+    new: 414920a4a5d5613e4aa77c89944f9c1dc86b06c4
+    log: revlist-d7e445a92e1b-414920a4a5d5.txt
 
---===============1768947903149737760==
+--===============6633657219519813687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5713ec093f9c-9e72618ddedd.txt
+Content-Disposition: attachment; filename=revlist-d7e445a92e1b-414920a4a5d5.txt
 
-b8029394efccf48687d9a7fae6c4747b81e35261 pinctrl: renesas: r8a77951: Optimize pinctrl image size for R8A774E1
-74ce7a8044b07268817828af2d6268801ddc012b pinctrl: renesas: r8a7796: Optimize pinctrl image size for R8A774A1
-74c5fdc5b87a9435d6afbdd7d22c874c160bafc6 pinctrl: renesas: r8a77965: Optimize pinctrl image size for R8A774B1
-03522a59a9e7e5f464735e907891cd235aa68b1d pinctrl: renesas: r8a77990: Optimize pinctrl image size for R8A774C0
-529b8eecb5c3b61cc53a21b72a12304a03e83c9f pinctrl: renesas: r8a7790: Optimize pinctrl image size for R8A7742
-8d3b2e3d5b1b27054c62a61bc1191131533166e5 pinctrl: renesas: r8a7791: Optimize pinctrl image size for R8A774[34]
-b5bd0becfd42e6d007ad559c9068b80ef3ff84b8 pinctrl: renesas: Remove superfluous goto in sh_pfc_gpio_set_direction()
-b589f241d8715803c11b6975b6322731b664b5ef pinctrl: renesas: Singular/plural grammar fixes
-eb9d673f94fb186702c4933ef72d190232c26ce9 pinctrl: renesas: Reorder struct sh_pfc_pin to remove hole
-8019938a85d0f7e5ed06cd9bf0824e5edae9be2b pinctrl: renesas: Optimize sh_pfc_pin_config
-27e768a4e7fa8b2b727a05e2eabf000ac7119f5d pinctrl: renesas: Factor out common R-Car Gen3 bias handling
-2d341cc3da8a0aef8b505ea7d2de39075e181088 pinctrl: renesas: r8a7778: Use physical addresses for PUPR regs
-a3ee0a246df1755af04d79cd6cd53939aeb6a0db pinctrl: renesas: r8a7778: Use common R-Car bias handling
-7b1425f08f5620bde28aced29820004bc8c28962 pinctrl: renesas: Protect GPIO leftovers by CONFIG_PINCTRL_SH_FUNC_GPIO
-d4aac7d439c2d9307cb5137fc285464a36978107 pinctrl: renesas: Constify sh73a0_vccq_mc0_ops
+60268b0e8258fdea9a3c9f4b51e161c123571db3 hwmon: (amd_energy) modify the visibility of the counters
+d4e76e409cf990494966e03eae54fdf96e5d889e hwmon: (acpi_power_meter) clean up freeing code
+08feee68cc0ed5ae0f41b8a4fd2c887ab6cf7988 hwmon: (pmbus/max20730) delete some dead code
+57287bc91e1c48f156664edc8d706e558a7e8768 hwmon: (adt7470) Create functions for updating readings and limits
+383b0f2cfd57cd9e97eef1fe61a606bcd67790f3 hwmon: (pmbus) shrink code and remove pmbus_do_remove()
+7f8be7307d36644533350362b705b4845869e35c hwmon: add Corsair PSU HID controller driver
+9b1d50ebe77891f64dad0acac8561905bc13dee0 hwmon: (corsair-psu) fix unintentional sign extension issue
+40a0b88a5fbe509aba5c837f2645061c602c88b2 hwmon: (adm1266) Fix link in documentation
+1d3ba0bc320f23f6bd9dccc31c2a292403f4fe89 hwmon: (adm1177) Fix kerneldoc attribute formatting
+d88134d88715b41c592fe0569ebf6e82ff5a991d hwmon: (ina3221) Demote seemingly unintentional kerneldoc header
+8816a86faccc448a8ac9e8838f19cb4bed79d0a0 hwmon: (ibmpowernv) Silence strncpy() warning
+414920a4a5d5613e4aa77c89944f9c1dc86b06c4 hwmon: (corsair-psu) Fix fan rpm calculation
 
---===============1768947903149737760==--
+--===============6633657219519813687==--
