@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3366824423889431454=="
+Content-Type: multipart/mixed; boundary="===============7916588517835935273=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 13 Nov 2020 14:22:17 -0000
-Message-Id: <160527733747.4061.2945021443718757939@gitolite.kernel.org>
+Date: Fri, 13 Nov 2020 14:24:51 -0000
+Message-Id: <160527749138.7386.223379864446947446@gitolite.kernel.org>
 
---===============3366824423889431454==
+--===============7916588517835935273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 6a6516c024bb90058f835364b28ee8e1fee8037d
-    new: e625f3dede4a2df6df914b4a0fb3e49379676dfc
+  - ref: refs/heads/usb-linus
+    old: 76255470ffa2795a44032e8b3c1ced11d81aa2db
+    new: 0e6371fbfba3a4f76489e6e97c1c7f8386ad5fd2
     log: |
-         e625f3dede4a2df6df914b4a0fb3e49379676dfc usb: host: imx21-hcd: Remove the driver
+         0e6371fbfba3a4f76489e6e97c1c7f8386ad5fd2 usb: typec: ucsi: Report power supply changes
          
 
---===============3366824423889431454==
+--===============7916588517835935273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605277390 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605277545 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1605277331-006b0e33c5c10b17d06cd5c4f298db88f26d7aef
+nonce 1605277485-732e15b5afc478e3185e7e0f24139e673d6d8926
 
-6a6516c024bb90058f835364b28ee8e1fee8037d e625f3dede4a2df6df914b4a0fb3e49379676dfc refs/heads/usb-testing
+76255470ffa2795a44032e8b3c1ced11d81aa2db 0e6371fbfba3a4f76489e6e97c1c7f8386ad5fd2 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+uls4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i1sP/Rx03DMp7EM9ErjtQb3G
-JJgET7GyCY16Y/QtmwnPVhoV2yya1xBS5UbsfLM4drt9vOzMk80IRSdmKET5n6p7
-TaxgkFgq/y1sZx8F0ViBu06QhGaWm4NfXz4xF6LgOXbNbOuqGkahmVNa4RPfgulB
-LXGHCOVAPuffo4l7PuQVHrbaNrrHvFqmBURAP/IxsRt3jAwKIwF7KqUQNE1w7POn
-TnaWyWsL7+1x7LpSWNZB0bhB1KXLc2l9fRPATZIYItTwTGci+vZzO5RoCxUJekHd
-J61j1UF5Zr/rgk1yoZuOVSDiU+1XMAdk+T9g8R7pktt2Mw7ZYRuXhsl4oD8xRHbC
-LUNk2n727kzMUXsVlH6U2J2mqa0i5RWeJSdylLA9SDiWsFo7Uo4UMeN/UtBnCdw7
-JeEVTHDdCSUf+O96/pZ05ye1H0hOm3rcYDrILVu5iUn+VwnnMYlAq+ACoa+P6aIe
-H3PKTHONANt3W7eVWXGZL3nlf/jVn4rOYxwu8FsJhEa+T8hBxBa1dnDMblzfSPZ8
-AQ3eZFBjsW+Qx1c729kgHH/RCdYqudtVGDY4ir4sRdSTYm8dVwolY6OpY1ow5y5x
-EUgiso2pY1dr/IafBaSuPcsXckksrfkoUpBuJKLfVHvRLCmllshAHENbjkAY6e6N
-dgiId2SnsB+K35AaT5u2YPO1
-=QxwY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+ul2kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UrIP/i7LEM5FkRLSalt9eNR0
+8nNsOXuBuoJvZQOBAtmA9vRQF5wH8nueYxcrsyQywShOFfoCP/6mgAZWX/2/CRse
+GpPQZEyZQmIkC3cTK9Yy7lRV9u6K7q8V0d0RbSaatNwN1itJDVX/3TJomWZu9z7K
+be/etZkve2w2Un0D681p/ef7Ygu8NUcJOLiBdh0afNUwWSkzaoRosG53rmKQYZS+
+A+tn5x4dJonkE+GzBJ0HPxNfX5gIVEZK7R1KDDIhcxJOUqRyxlHAziDSuYmHizb1
++OXDrBYg2/LvNlXDCsQBsEKjqeUmRH1G3mT7P+oj5aUE9y/QLI/ZvUpom2TfHZLp
+SSJ8FBbvn95IL0Co3lu1GWSo6GvNs0XUZ8AdAprb/hRFXIxIgUb/uhOwBprwSQYc
+uh5EnTCesPuVuo1iYDvihmNsqhdEWQfB8WiPYJi1zZmU/wHNSwbND0JADzJPtc94
+9x8+cwhjlIqXwnmgm9FeWm7wJC4h1iDpHN3kcsKNggRn4oal68jDwVTiMPXGp5/u
+xTFO6RBKLSFBslB8poIO84tKkJTxukM5nz1zki4iBXJBRL+wkNi1KzrpdLzDhJMG
+39pLnhP9lvcan8hIxXxPNiQtluG4XfdU+GhQ7qeXaX5sH+YxRTWblppoLu0aH04U
+Lhgh3l6eLH1BZH1EwqEIDpk6
+=ZmWy
 -----END PGP SIGNATURE-----
 
---===============3366824423889431454==--
+--===============7916588517835935273==--
