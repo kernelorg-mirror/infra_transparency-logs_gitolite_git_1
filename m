@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2551900400726680240=="
+Content-Type: multipart/mixed; boundary="===============1365417644747771646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 13 Nov 2020 17:13:09 -0000
-Message-Id: <160528758908.30107.1801265596397202148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 13 Nov 2020 17:13:15 -0000
+Message-Id: <160528759514.30252.10267318397959740064@gitolite.kernel.org>
 
---===============2551900400726680240==
+--===============1365417644747771646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/regulator-5.11
     old: 811c732f468833fea8619fe06c2bb71368d6984a
     new: 2f595d08614691a2443987496995c24ff397abf9
     log: |
@@ -29,28 +29,28 @@ changes:
          2f595d08614691a2443987496995c24ff397abf9 Merge series "regulator: mcp16502: add support for ramp delay" from Claudiu Beznea <claudiu.beznea@microchip.com>:
          
 
---===============2551900400726680240==
+--===============1365417644747771646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1605287573 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1605287587-1838aa73b321c6903b3a6ab62f0f03b16891f7c1
+pusher C3F436CA30F5D8EB 1605287579 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1605287593-ce30dc06180109f823203b6e84d67234d7fb368e
 
-811c732f468833fea8619fe06c2bb71368d6984a 2f595d08614691a2443987496995c24ff397abf9 refs/heads/for-5.11
+811c732f468833fea8619fe06c2bb71368d6984a 2f595d08614691a2443987496995c24ff397abf9 refs/heads/regulator-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+uvpUACgkQJNaLcl1U
-h9CRfAf/ai5rF95sdziZUZQuKheijzWmvhV2+VCeANZTUgSFZNYlWpAcKTPPv/PU
-wrUAHWi7Afsn4DM0EsccZ4V1FgQF/fa+th2am01hBYQQtdYtbl+akIidZUKlO5fO
-y3jZwdmpUFqDY/nNQj+dtyRAVxRXyza1CDzavvX9lSYsEhVAMkKihUX/mkDjfy1t
-T0W3Jag3fpJ4XnZtkcmkDwPbpk9U6XDi/D6xAUlzOvnLzrq7bkx3rXaUnUxtGwfQ
-3cBIwp5qZQQFqfVdSVSRdWgvoDXyORmQu/7dn2YZu68ENGRhGadKn/VgjUwNwZF3
-rXU132J/kTXmtako8RlE+yWGVPnj0Q==
-=gJfz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+uvpsACgkQJNaLcl1U
+h9DqnQf9FZudGJX1W041oAGjdHYWxnFmkH7Pv9KNqS1bV3/cQzXU5SJYcTl+B2+Y
+72uDAxuLEgkc94PQIofz8RvbRn4rJRAfYQS9YpBDf3dTm+OBt+D4/VR7HyfsB2yp
+lRs2105IEzrj4iJ2Zp8kowNwQIWgkxVNDzX07BC8nu1H2mNK2sRE4P2aK3r1I1qq
+h7lrPj2o9sesqmGZXWN4WSch5u6QKRH01KlnvjFX6BtbpanA+ToQ4TJexKp/TNSq
+5aszYFNGsW5SGAhOafnjcm/frVpzFGXuKz7NcCM19MrC8EjwrQR1VzEIn9wvmoIG
+FE1p5gKg9QE9RGp07+9qcWzFYcOUxA==
+=VcDJ
 -----END PGP SIGNATURE-----
 
---===============2551900400726680240==--
+--===============1365417644747771646==--
