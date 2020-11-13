@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Fri, 13 Nov 2020 18:03:19 -0000
-Message-Id: <160529059927.1139.2999368180978406078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 13 Nov 2020 18:04:37 -0000
+Message-Id: <160529067766.1738.16548823820215086806@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/coresched
-    old: ca2e59bd68b5eef3251003b5b6089b145b842dd1
-    new: 286f10138a137d74daaab0f21d9098a92a099bb1
+  - ref: refs/heads/kvm-arm64/pmu-fixes-5.11
+    old: cda7299259d2fb252f3e8afb5c92767462c90d72
+    new: b1253d5575f62d738350feeceda2c178d67e5c10
     log: |
-         414accebd5c88f43356d305d886130d496faa815 sched: Move core-scheduler interfacing code to a new file
-         73bf62732d55bf0b6c0222447b40f4b5ddfbcb07 Documentation: Add core scheduling documentation
-         ef16f784ebe2486c24e8da9c41ed9dbdd870a284 FIXUP: sched: Add a per-thread core scheduling interface
-         dd117a5858b867252ab9602d612fd87277c5a329 sched: Debug bits...
-         fd72dfb67fac6ae7d22b966091e77632f39e0d1a FIXUP: FIXUP: sched: Add a per-thread core scheduling interface
-         841796e65d463f389d044a5b8d00af7544278e4d FIXUP: sched: Add core wide task selection and scheduling.
-         286f10138a137d74daaab0f21d9098a92a099bb1 NEW: sched: Add a coresched command line option
+         eb8347b56c5d9c4a4acf808b7d180de45a38b2fb KVM: arm64: Add kvm_vcpu_has_pmu() helper
+         3607f01f55e6b661dee01263f87f29e8e24fb6af KVM: arm64: Set ID_AA64DFR0_EL1.PMUVer to 0 when no PMU support
+         efdc1e1449e6ffb40449b2a0b67324d602b6170f KVM: arm64: Refuse illegal KVM_ARM_VCPU_PMU_V3 at reset time
+         c917bb4549419bc261f8fd6a5cf67714114f38a7 KVM: arm64: Inject UNDEF on PMU access when no PMU configured
+         67027bef5aa6b13b6c8418b30bd1f1ba9c4f5093 KVM: arm64: Remove PMU RAZ/WI handling
+         1451df384f4590c12377b85d2e0d877faca59011 KVM: arm64: Remove dead PMU sysreg decoding code
+         bb6871c770d8f38729cfc23f8675fb4d96fb1591 KVM: arm64: Gate kvm_pmu_update_state() on the PMU feature
+         b1253d5575f62d738350feeceda2c178d67e5c10 KVM: arm64: Get rid of the PMU ready state
          
