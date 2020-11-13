@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 13 Nov 2020 23:09:01 -0000
-Message-Id: <160530894196.17025.6756393685868730282@gitolite.kernel.org>
+Date: Fri, 13 Nov 2020 23:11:33 -0000
+Message-Id: <160530909360.19234.13333837035653072432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 8cf8821e15cd553339a5b48ee555a0439c2b2742
-    new: aa6306a8481e0223f3783d24045daea80897238e
+    old: aa6306a8481e0223f3783d24045daea80897238e
+    new: 8c07205aea36ccebe9fc5f97287a8bc416cea197
     log: |
-         aa6306a8481e0223f3783d24045daea80897238e net: phy: mscc: remove non-MACSec compatible phy
+         8c07205aea36ccebe9fc5f97287a8bc416cea197 net: marvell: prestera: fix error return code in prestera_pci_probe()
          
