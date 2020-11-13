@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 13 Nov 2020 00:30:08 -0000
-Message-Id: <160522740814.5780.16360481845128109984@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 13 Nov 2020 00:43:30 -0000
+Message-Id: <160522821003.12928.5482490553851388989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/net-rc
-    old: 44acb881ee8767ca07780d08b51a393bc0b4a6de
-    new: d4bb573b9f59ca6bd7391482517248c31dfc281e
+  - ref: refs/heads/master
+    old: db7c953555388571a96ed8783ff6c5745ba18ab9
+    new: 585e5b17b92dead8a3aca4e3c9876fbca5f7e0ba
     log: |
-         3e6492c1f3f8adaaabc38047758e1204ef4c2ec8 net/mlx5: Clear bw_share upon VF disable
-         9a288101f6e0e6c3b3b5de43626c21380160769f net/mlx5: Disable QoS when min_rates on all VFs are zero
-         f567033ff59975e21e1088ee01f649dbfd330748 net: Call skb destructor on NAPI_GRO_FREE_STOLEN_HEAD
-         ff377714043dd9d0fea285016664304ee8005f41 net/mlx5: E-Switch, Fail mlx5_esw_modify_vport_rate if qos disabled
-         1e106bac5fb5e6884678272dcdec62faa399214c Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
-         4f254d34c54da99a618654e79246672d83515538 Merge commit 'refs/changes/48/344848/6' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
-         16a7a31a345149fb3921b4bf370dd548aae686f4 Merge branch 'net-mlx5' into net-rc
-         d4bb573b9f59ca6bd7391482517248c31dfc281e Merge branch 'net-mlx5-test' into net-rc
+         d19d8d345eecd9247cbe6cbf27aef271bd88aba7 fscrypt: fix inline encryption not used on new files
+         bc923818b190c8b63c91a47702969c8053574f5b gfs2: fix possible reference leak in gfs2_check_blk_type
+         d3039c0615c3f80eaf735e581ed11242c0064299 Revert "gfs2: Ignore journal log writes for jdata holes"
+         4e79e3f08e576acd51dffb4520037188703238b3 gfs2: Fix case in which ail writes are done to jdata holes
+         20ca21dfccb6dd6ae4d1d22b91c3c7514f4a712c Merge tag 'gfs2-v5.10-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
+         585e5b17b92dead8a3aca4e3c9876fbca5f7e0ba Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt
          
