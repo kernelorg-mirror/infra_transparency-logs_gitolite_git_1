@@ -1,59 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============6440216091397332056=="
+Content-Type: multipart/mixed; boundary="===============8116776983920707394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 14 Nov 2020 20:40:22 -0000
-Message-Id: <160538642232.27983.12994842236748804071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 14 Nov 2020 20:50:57 -0000
+Message-Id: <160538705735.1932.2767193167724136645@gitolite.kernel.org>
 
---===============6440216091397332056==
+--===============8116776983920707394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/test/usb-hacks-wip
-    old: 332c595be4700623ce0537acf9c4ad759e9ae0d8
-    new: 463ffa53986af80d2f424ec10f66bea414c715b0
-    log: revlist-332c595be470-463ffa53986a.txt
+  - ref: refs/heads/master
+    old: f01c30de86f1047e9bae1b1b1417b0ce8dcd15b1
+    new: e28c0d7c92c89016c12a677616668957351e7542
+    log: revlist-f01c30de86f1-e28c0d7c92c8.txt
 
---===============6440216091397332056==
+--===============8116776983920707394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-332c595be470-463ffa53986a.txt
+Content-Disposition: attachment; filename=revlist-f01c30de86f1-e28c0d7c92c8.txt
 
-9d6a5cbc865947a170540045b373d26d737d18ae ALSA: usb-audio: Check valid altsetting at parsing rates for UAC2/3
-68be2d4f395da3cc492d1af8a7f188f4e190d5e3 ALSA: usb-audio: Check implicit feedback EP generically for UAC2
-8144430c011828c3ab88e1aff0dd3ed2e4dbd018 ALSA: usb-audio: Add snd_usb_get_endpoint() helper
-efc48c045786f40a2ad07cb4c5d9f849f4bc3d30 ALSA: usb-audio: Set and clear sync EP link properly
-5dac13e18efdbf47322cc0ecd29d51630760dd5a ALSA: usb-audio: Improve some debug prints
-bb5e6b522f200bc001c85ed356d79e66c0b0854a ALSA: usb-audio: Track implicit fb sync endpoint in audioformat list
-4e4e2129683b80bbfed0200923482ace10583a89 ALSA: usb-audio: Move snd_usb_autoresume() call out of setup_hw_info()
-2cb0203afb9b172d44f01982b538be859f14dd22 ALSA: usb-audio: Add hw constraint for implicit fb sync
-6064c5847167f926968c83fd2fb9cb7a93fd4e35 ALSA: usb-audio: Simplify hw_params rules
-7120dc57c0af8852fe0c3b6a8524eed327959e95 ALSA: usb-audio: Drop debug.h
-78c7b372353a52f7dc6d95810dcd5a42bd3fe7f3 ALSA: usb-audio: Avoid doubly initialization for implicit fb
-3987a1f3a7cab4a2934a766bb354576e4cf59e36 ALSA: usb-audio: Create endpoint objects at parsing phase
-0ea6c472516f3d7f1a6e4ac99155cd5b3fe49414 ALSA: usb-audio: Drop keep_interface flag again
-90fc8843a4796187b57c790939b28075926398d5 ALSA: usb-audio: Add snd_usb_get_host_interface() helper
-8267d1d7557f229751f45e102e7c500ef3d4fc41 ALSA: usb-audio: Don't set altsetting before initializing sample rate
-4be61398db0ae70c077bac75b08670e428d46e7a ALSA: usb-audio: Pass snd_usb_audio object to quirk functions
-25344eb3be9d563692af861e29ea677d33b6dee4 ALSA: usb-audio: Simplify snd_usb_init_sample_rate() arguments
-2852e5f69afc6678a74bb5a4dbb4bec36324a466 ALSA: usb-audio: Simplify snd_usb_init_pitch() arguments
-a428393b732a7366fe3cd5dbfca42931c4dd3ee7 ALSA: usb-audio: Stop both endpoints properly at error
-323d141307d6c6a04f3e385c5f9f06d4b7fd9244 ALSA: usb-audio: Set callbacks via snd_usb_endpoint_set_callback()
-b816fa3e1d7db63599b0b53ea4c806692198ee9b ALSA: usb-audio: Always set up the parameters after resume
-232a61d88fad2ec1fbe749c3dcd6ef4cafdb4e12 ALSA: usb-audio: Refactor endpoint management
-348c542a57ea829986d7e860478f3ffe1e742d10 ALSA: usb-audio: Fix possible stall of implicit fb packet ring-buffer
-8debde7d2e6d7d2c5dc48182d70359b21a2b9d4e ALSA: usb-audio: Constify audioformat pointer references
-1e76dfcdc4b42174075753968c6163a3cae3e4a3 ALSA: usb-audio: Use atomic_t for endpoint use_count
-c8ba16a092b717a9dc39727516f1b19585afc8aa ALSA: usb-audio: Refactoring endpoint URB deactivation
-c990d5b438f738268138bda19d81f34d3c88e0e7 ALSA: usb-audio: Drop unneeded snd_usb_substream fields
-a01e9e6b20389563556f9daa8c1ccc93cf3c28ef ALSA: usb-audio: Unify the code for the next packet size calculation
-463ffa53986af80d2f424ec10f66bea414c715b0 ALSA: usb-audio: Add fake capture sync EP for BOSS GT-001
+402dab548d0da38b260f3843225cdfd37d91f512 hwmon: (pmbus/max20730) use scnprintf() instead of snprintf()
+8d8c3131248d7e9c6c8ab448e1c6cb6bd7755e9c clk: define to_clk_regmap() as inline function
+18e8db7f6526928858dfa99b49d831497f0f8df8 hwmon: (pmbus) Add mutex locking for sysfs reads
+c277ca155d2f0028a5c79708426d3f79b54a5fc1 clk: imx8m: fix bus critical clk registration
+da3fecb0040324c08f1587e5bff1f15f36be1872 scsi: ufs: Fix unbalanced scsi_block_reqs_cnt caused by ufshcd_hold()
+0f52fcb99ea2738a0a0f28e12cf4dd427069dd2a scsi: ufs: Try to save power mode change and UIC cmd completion timeout
+9a5085b3fad5d5d6019a3d160cdd70357d35c8b1 um: Call pgtable_pmd_page_dtor() in __pmd_free_tlb()
+2e6f11a797a24d1e2141a214a6dd6dfbe709f55d scsi: ufshcd: Fix missing destroy_workqueue()
+fd8feec665fef840277515a5c2b9b7c3e3970fad hwmon: (pwm-fan) Fix RPM calculation
+4d64bb4ba5ecf4831448cdb2fe16d0ae91b2b40b hwmon: (applesmc) Re-work SMC comms
+c350f8bea271782e2733419bd2ab9bf4ec2051ef selinux: Fix error return code in sel_ib_pkey_sid_slow()
+60268b0e8258fdea9a3c9f4b51e161c123571db3 hwmon: (amd_energy) modify the visibility of the counters
+38935861d85a4d9a353d1dd5a156c97700e2765d mm/compaction: count pages and stop correctly during page isolation
+d20bdd571ee5c9966191568527ecdb1bd4b52368 mm/compaction: stop isolation if too many pages are isolated and we have pages to migrate
+2da9f6305f306ffbbb44790675799328fb73119d mm/vmscan: fix NR_ISOLATED_FILE corruption on 64-bit
+044747e971ace469064e68a0e8b3666011f0f3bd mailmap: fix entry for Dmitry Baryshkov/Eremin-Solenikov
+22e4663e916321b72972c69ca0c6b962f529bd78 mm/slub: fix panic in slab_alloc_node()
+96e1fac162cc0086c50b2b14062112adb2ba640e mm/gup: use unpin_user_pages() in __gup_longterm_locked()
+3347acc6fcd4ee71ad18a9ff9d9dac176b517329 compiler.h: fix barrier_data() on clang
+8b92c4ff4423aa9900cf838d3294fcade4dbda35 Revert "kernel/reboot.c: convert simple_strtoul to kstrtoint"
+df5b0ab3e08a156701b537809914b339b0daa526 reboot: fix overflow parsing reboot cpu number
+e7e046155af04cdca5e1157f28b07e1651eb317b kernel/watchdog: fix watchdog_allowed_mask not used warning
+8b21ca0218d29cc6bb7028125c7e5a10dfb4730c mm: memcontrol: fix missing wakeup polling thread
+336bf30eb76580b579dc711ded5d599d905c0217 hugetlbfs: fix anon huge page migration race
+2f31ad64a9cce8b2409d2d4563482adfb8664082 panic: don't dump stack twice on warn
+f5785283dd64867a711ca1fb1f5bb172f252ecdf ocfs2: initialize ip_next_orphan
+3ad216ee73abc554ed8f13f4f8b70845a7bef6da afs: Fix afs_write_end() when called with copied == 0 [ver #3]
+4aea779d35120d5062647d288817678decb28c10 Merge tag 'for-linus-5.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
+30636a59f4c1a40720156079cabcad60351949f2 Merge tag 'selinux-pr-20201113' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+0c0451112b629946c93ed2102b7ae47d4d1dc0bc Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+7e908b7461ec395293335852485a183c16765303 Merge tag 'hwmon-for-v5.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+31908a604ced3c047022c2cc9f178d3287f06dfe Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+e28c0d7c92c89016c12a677616668957351e7542 Merge branch 'akpm' (patches from Andrew)
 
---===============6440216091397332056==--
+--===============8116776983920707394==--
