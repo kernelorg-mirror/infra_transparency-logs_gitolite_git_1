@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0368199594429295158=="
+Content-Type: multipart/mixed; boundary="===============8427583780188957462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sat, 14 Nov 2020 10:56:36 -0000
-Message-Id: <160535139608.17938.14550752642417838870@gitolite.kernel.org>
+Message-Id: <160535139611.17946.7266980423132188197@gitolite.kernel.org>
 
---===============0368199594429295158==
+--===============8427583780188957462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: a8e7fec1fea1308f8e88229035715fa5ab2611fc
-    new: 82f022326e5b8029d8733bfe774609e12e9ad637
-    log: revlist-a8e7fec1fea1-82f022326e5b.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 9c24315b745a0864977865b7cc1353d382573574
+    new: 7b603f689c1ca091cb68f85afed913ada6c098a1
+    log: revlist-9c24315b745a-7b603f689c1c.txt
 
---===============0368199594429295158==
+--===============8427583780188957462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,59 +32,56 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605351452 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1605351394-f4eb7ce2956fc18dc0be27fb48c08d17f4eff94b
 
-a8e7fec1fea1308f8e88229035715fa5ab2611fc 82f022326e5b8029d8733bfe774609e12e9ad637 refs/heads/linux-4.19.y
+9c24315b745a0864977865b7cc1353d382573574 7b603f689c1ca091cb68f85afed913ada6c098a1 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+vuBwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lHMP/jR2r51SiZCt2cmxcWKB
-7Lud7VtMiN47omuEyMa5adxb68lXelyF2a4MtwOu9ydLpBQ9lN90LigpJNFeFd44
-frjKnLKqFtV30C/D6OoZGhiT1MeMI83eiDMXPOoPETlHnKX5C5fTAb5f9bh2KWsO
-RZfk78XfEVeKT5D0eW3nbn0rOOBSZlb1trApggS5CugLW9yUOLq75e0Ki84IkGz3
-Xp7S7MwOKrkfJ9X00kKfkAb8MJVep7AeUyVSxjqJPI7409F7zkTYzSMVlcVZLron
-DfwpRkvSz2pSusXoSPjcHwQ2LQZOAyTryGP5F5tBD0N1XRTQvMdgDXcY/dbPtME5
-MNsZc/Oq+hGWVctCf2/SIQh0GAT+qCEjx0MSjmFLOPvgzaxXMamliOknhFA84vvo
-1nq+NzvmMcMhGPXsMhTYEluyDBKHl/rgfL+n96e5cwUEMzGmeOrZJ/aQzInFbryv
-3fVjzagJprF7tpEx3Ui8yFde5nDq1eExfoqM4OzDy05sTE2aGbqXGD0jgJ5jAibI
-Qwc83dlKKe/nuJwKdGXibEHjVF0u2zagAgcsdAq/ofxn0fbFMsR4xWYOGZagAbw7
-4dVsT686xRio74+dEMR/F45/E2SmTzvRiY61iafyr5AW5MQr/mciBDkULD1NXlrg
-wZVahuMS0X1AmQ/i7TdblD+z
-=kyle
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xG0P+wTHB5pJaN6VBw6iPLJx
+Cc6I2adV81ZFsMcgKVsp6ighuwrid33L6n/IUx56aVN5RwNEpqqVrC5KXwacDidq
+gMrtu5i6fJQlLY+U/4G5EUu8XP0SNbYs6TL8FKZWkbgG2hvMZG9qGvYZaV8Yt+FK
+ee8q/7AxN+6uQUvcyNjGa/9jspIvmg6oSmLfiGyOkWBPnUN/ZaBPwOz1Ve3092Mz
+Hh5XPNsEkRMGvwECRNF3nWyD6WxHU9uzom5MBALLsHO6Hlv74RaDpG9eF9QIDXh6
+FE2GMUNL1W/FEV6mP9URSg7NmkgJjPYG8PIoqrV+mswvAbnQfGL1woXV35G6iWm0
++ecyiWzOSeZopV2ePmXyv1kUSLcyJaFzrNN8bzxm+cOOoOeGTHlkFZ89o3SQPEJm
+CJx48YFKZBs3H8KdUtJgbw8+kf3DTwifvUixHqftkyH7dAmxXXH6tYvqazHlyDsK
+kCi38QKvbetzyYabp/LoXaPpZD37NZiCDebioKCCHnhRJBd6hHH+4QEiHE6xL9yZ
+7P4LyvCxVcvtJI2HC5HJ73gmqEDl5+E3LynbwyaVJt8J8spG35ZqQIc0lHlI/wRV
+BlRn+BSzNbzSih5iC7Zl+UpV5RiiiBwmDXZiPQE6E7P1mqeQrQ9vT6Y0hDA2U8S0
+Q1aIXJKBSLPFyZIEc8iFMrTl
+=UIUH
 -----END PGP SIGNATURE-----
 
---===============0368199594429295158==
+--===============8427583780188957462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8e7fec1fea1-82f022326e5b.txt
+Content-Disposition: attachment; filename=revlist-9c24315b745a-7b603f689c1c.txt
 
-e0f536a960ae62d78c40867e22241bff529e8500 regulator: defer probe when trying to get voltage from unresolved supply
-17920ab2349c17f61cc5566c386f6825ad52aa87 time: Prevent undefined behaviour in timespec64_to_ns()
-6821767ad81a4bac56ffaf7aecde1e67edb70c78 nbd: don't update block size after device is started
-548fb57bb4937d60e8df2f65d54ddec0992fdfc4 usb: dwc3: gadget: Continue to process pending requests
-bc511eeeb69cacbcb167b1b9e2a7e1d686eafe77 usb: dwc3: gadget: Reclaim extra TRBs after request completion
-6c731b7d9ac8a37d5005f9d59ef72857e36f0894 btrfs: sysfs: init devices outside of the chunk_mutex
-cea6201f6fbcb40b6330640ba0153af0762465e6 btrfs: reschedule when cloning lots of extents
-0d8621c981478882fe1a435dd781f6061779ed3a genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
-4c9d65fed20d4c33b88fd33a4db595d49de31490 hv_balloon: disable warning when floor reached
-57ed9e878a759769896578f9f774b8b22b484841 net: xfrm: fix a race condition during allocing spi
-a257514486b5122100e2ca6a3df9d3369e97f13d xfs: set xefi_discard when creating a deferred agfl free log intent item
-2c563a374c6afded26ba53b30b48ed1e7263d48e netfilter: ipset: Update byte and packet counters regardless of whether they match
-39ebaa696e0b612b3dd2c6d9022ec14c0596f93c perf tools: Add missing swap for ino_generation
-0b2a0244b73e2ac8d278d9ac48bf04a71355c992 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
-40c2347353a5ca7cfbf67caab62a91c81c0470c6 can: rx-offload: don't call kfree_skb() from IRQ context
-672276f3140a54c64417155e1f5be3f527c9c071 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
-5b323892cd08e0380c4969add2f85540ee7b8e17 can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
-22bd6d9e11b8c76f953d5e577d1b86d1c80714d0 can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
-ddfe848304e41572e35e177dd51a266c4a047e16 can: peak_usb: add range checking in decode operations
-f0675e659ee1fe36f4a259d575143aa6d80dd768 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
-4564c6f25e2304eaa2fb32cc0996f8dfb61a68d8 can: peak_canfd: pucan_handle_can_rx(): fix echo management when loopback is on
-80cdf55d03367b9f2c502ba0ea260cd802b3bf09 can: flexcan: remove FLEXCAN_QUIRK_DISABLE_MECR quirk for LS1021A
-899b06c919a72e9c330f26213da0aa14eea9e9d9 xfs: flush new eof page on truncate to avoid post-eof corruption
-c01b907fce2e4fa3a175ab0ccedc49a3f02406c8 xfs: fix scrub flagging rtinherit even if there is no rt device
-66cb43069bf9fff28c3521d8b50be0b38cac97a5 tpm: efi: Don't create binary_bios_measurements file for an empty log
-3b1ec58f0ccc156b4d36c79117cc447ca4c9326c Btrfs: fix missing error return if writeback for extent buffer never started
-001c8cbd642ef9967456017f5adbfaf463e9135b ath9k_htc: Use appropriate rs_datalen type
-82800233595fb37262c984a4e6e6dc521dd511ea netfilter: use actual socket sk rather than skb sk when routing harder
-82f022326e5b8029d8733bfe774609e12e9ad637 Linux 4.19.158-rc1
+81d63edfedbc6c4d4403b7a69631d0b2996ee19c regulator: defer probe when trying to get voltage from unresolved supply
+fb7242e31d99f7755a2d549617e7d726da99537d ring-buffer: Fix recursion protection transitions between interrupt context
+d8a152e9f0c4e48933e645e8321daffaabd95844 gfs2: Wake up when sd_glock_disposal becomes zero
+958e6bd507a3de65c81faf5c1d1df74c0c75417a mm: mempolicy: fix potential pte_unmap_unlock pte error
+db2e6885674d5b0ead0c63eb86998976720f4854 time: Prevent undefined behaviour in timespec64_to_ns()
+609af51d6f78863ff29e07a7f6abdd280709e281 btrfs: reschedule when cloning lots of extents
+dbee8be5990b51d176932c386581cf9d5769dbc3 genirq: Let GENERIC_IRQ_IPI select IRQ_DOMAIN_HIERARCHY
+e9bad4186f4d47d35f10595e69a1bc488477b204 net: xfrm: fix a race condition during allocing spi
+29e7e099c2507b8e7ba9f3f359f2121ed7d1cdd6 perf tools: Add missing swap for ino_generation
+21387c20aea2d319debb28a6e5e4171698be4272 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
+6e184dd0d16c5a940b15f09870f3e9d8de519ec2 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
+844371d5aab14c10aa45b5ec861a90b6dae8bc91 can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
+3177ed8720a562e3e6be93d817aceaf25ad7d517 can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
+c21aea2c96cdf236363b2b07016194734dd1f28b can: peak_usb: add range checking in decode operations
+1fd487146afe1de9ca8af201d702813bf7d386bb can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
+f0b641a4237f1f9eb359548146bf6d96ae7f1e13 xfs: flush new eof page on truncate to avoid post-eof corruption
+a75353e71319b474a19bfc1dcb5b291aff733a4d Btrfs: fix missing error return if writeback for extent buffer never started
+253405d32e611ac84b6da3142946e3054a35cc1a pinctrl: devicetree: Avoid taking direct reference to device name string
+8770b54d8435340e89b30d12e9b898c9ad0f4386 i40e: Fix a potential NULL pointer dereference
+9409e0a167ee30e8e1b48699c4e96298f46b1750 i40e: add num_vectors checker in iwarp handler
+2fa726f2f0a7c07ac931223258f798ef9827f2df i40e: Wrong truncation from u16 to u8
+928ad2abe0933d70acff106051843716c15630b8 i40e: Fix of memory leak and integer truncation in i40e_virtchnl.c
+b76c71fbce0674fc3f63ffa714f23926a981e18e i40e: Memory leak in i40e_config_iwarp_qvlist
+c89c30311cf6aaaf93d93f2399c6b2c931624686 geneve: add transport ports in route lookup for geneve
+52cb1701185dae055a95db6e8e3d38436fdf4e31 ath9k_htc: Use appropriate rs_datalen type
+7b603f689c1ca091cb68f85afed913ada6c098a1 Linux 4.9.244-rc1
 
---===============0368199594429295158==--
+--===============8427583780188957462==--
