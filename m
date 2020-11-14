@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8056331181681050240=="
+Content-Type: multipart/mixed; boundary="===============8510649671875460831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Sat, 14 Nov 2020 16:53:49 -0000
-Message-Id: <160537282913.3732.5847831395217131026@gitolite.kernel.org>
+Date: Sat, 14 Nov 2020 16:53:59 -0000
+Message-Id: <160537283993.3898.5499040099657676135@gitolite.kernel.org>
 
---===============8056331181681050240==
+--===============8510649671875460831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: e87d24fce924bfcef9714bbaeb1514162420052e
-    new: ceb736e1d45c253f5e86b185ca9b497cdd43063f
-    log: revlist-e87d24fce924-ceb736e1d45c.txt
+  - ref: refs/heads/testing
+    old: 52f5c81b99e273c1f874c6d53614ededd95f5f7b
+    new: ee967af7e273f4fe9f88848a56cd611836c4d361
+    log: revlist-52f5c81b99e2-ee967af7e273.txt
 
---===============8056331181681050240==
+--===============8510649671875460831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1605372824 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1605372835 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1605372823-49f0d158aca82037371f3462c38bfa15a7150afb
+nonce 1605372834-da15f4c8dc0f916bf303da1a6df6b754b1497509
 
-e87d24fce924bfcef9714bbaeb1514162420052e ceb736e1d45c253f5e86b185ca9b497cdd43063f refs/heads/master
+52f5c81b99e273c1f874c6d53614ededd95f5f7b ee967af7e273f4fe9f88848a56cd611836c4d361 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl+wC5gTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqR5VB/45LPf7cQz3Q/2JZl8VCT6xZ9GnFrCM
-nycBnR1EwnqALyEoFrfjRnc/wp+24l3BAFTeqzrDN2fOXRZsUaCdv5MWUCf4+opP
-Lw3sOf88Qd5vyDWM7B6QwBKosscQEf26s5Nu4O95XY7mMAif60qIL2D62wWamyOB
-WtPSSWU6G8IBjLTanpxYac5rHtU4fH2rZs1VPgvIhRNCX8Q7DnnsDhb1z5IY1YPg
-ZJk0kJrEfeK7aBobSxhxZayvYcuBl03PGWlLuXcUhTw+HE40DqeXtWf/F0ZXGSZx
-9a2TYFWYYpUslNVeKYs1a19QTHo8K6ufZwBv5wCOQNaz9wGfkwiU8B2F
-=EAh6
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl+wC6MTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqeS/CACcEFOAhyEOyrZzy7bkbb8KCLQCprns
+vNuZnCMvW3KOKsxxAIi+rxc2QFm3zgFk/NWjv/gXZxCWddjmdAOa+bi9zaQhTflm
+wnxpKWDMTQfVMJ54dcrYHCFHT2b3fQS34hxla+gHhgfXvomFZuqehTNai9E9mr6f
+qXMlzjgGi2GIxfDpNB0bcYLyDl/pTLCVwBN+nSwsZlRvlR1RWW0ABtpGxVLGI2ED
+upmv2B2DvT4LABKABy8ehtbQMyEU8v+ye8FIGqbR9XP1AgUXVUIjh4umyE4gWSc3
+I9L5UZwe9Wv/3xrwIVpbF+tssIMR9YIZ39rYuawHN5Ssq+ctS+MvmF+H
+=QsuF
 -----END PGP SIGNATURE-----
 
---===============8056331181681050240==
+--===============8510649671875460831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e87d24fce924-ceb736e1d45c.txt
+Content-Disposition: attachment; filename=revlist-52f5c81b99e2-ee967af7e273.txt
 
 d76bb7a09bb3b8711077912f3e80cfcf39cd9d0b tools/power turbostat: Print /dev/cpu_dma_latency
 9aefc2cda6353f48708415d9adc5dff4deb73412 tools/power turbostat: Always print idle in the system configuration header
@@ -365,5 +365,21 @@ aa6306a8481e0223f3783d24045daea80897238e net: phy: mscc: remove non-MACSec compa
 81e329e93b860b31c216b40eb5e1373db0ffe0ba net: ethernet: ti: am65-cpts: update ret when ptp_clock is ERROR
 9c2e14b48119b39446031d29d994044ae958d8fc ip_tunnels: Set tunnel option flag when tunnel metadata is present
 ceb736e1d45c253f5e86b185ca9b497cdd43063f ipv6: Fix error path to cancel the meseage
+25002e8da181444441bd4152ded7cc73e04cc9d5 can: af_can: prevent potential access of uninitialized member in can_rcv()
+8311048e343af36e3d2bdbf311c820ac4f5d88e3 can: af_can: prevent potential access of uninitialized member in canfd_rcv()
+f2ca5382ead1287489014bfb6b2e4e454b804c09 can: j1939: add tables for the CAN identifier and its fields
+5856ca266340b544681fe65b2b71cf87958d899d can: dev: can_restart(): post buffer from the right context
+e7cd72e4458bba4b767873c5009faab9e4646c9b can: ti_hecc: Fix memleak in ti_hecc_probe
+33474520d3c47b12b248c11fe186bf11554eaa49 can: mcba_usb: mcba_usb_start_xmit(): first fill skb, then pass to can_put_echo_skb()
+2020f5fa6379ba7e1414d65e0488ef475d544f54 can: peak_usb: fix potential integer overflow on shift of a int
+d08aff8c0e47e7f53189461f82e782185e8a0234 can: flexcan: flexcan_setup_stop_mode(): add missing "req_bit" to stop mode property comment
+3314182b8772832b945ecfc0b28dedc96a87ecbc can: flexcan: fix reference count leak in flexcan ops
+f3b21c02a169893fad6cdfc575feb6e740b8a83f can: tcan4x5x: replace depends on REGMAP_SPI with depends on SPI
+596f6e18cbe208493b88e2dab6df1eaaab5b6ebf can: tcan4x5x: tcan4x5x_can_probe(): add missing error checking for devm_regmap_init()
+487cfb67691ceaf12d93abaf885ca34d27fa7212 can: tcan4x5x: tcan4x5x_can_remove(): fix order of deregistration
+43bbc4e07d4e88252a97304cab19151aacb9baed can: m_can: m_can_handle_state_change(): fix state change
+ffd6331f75fd50dc91ef96a91a51a36da6f76672 can: m_can: m_can_class_free_dev(): introduce new function
+99ccf24b512054b54f3eebd0ac8f31a56a385b31 can: m_can: Fix freeing of can device from peripherials
+ee967af7e273f4fe9f88848a56cd611836c4d361 can: m_can: m_can_stop(): set device to software init mode before closing
 
---===============8056331181681050240==--
+--===============8510649671875460831==--
