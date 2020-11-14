@@ -1,56 +1,145 @@
-Content-Type: multipart/mixed; boundary="===============7561754224030555529=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 14 Nov 2020 10:24:39 -0000
-Message-Id: <160534947924.27598.8225987287483328810@gitolite.kernel.org>
-
---===============7561754224030555529==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rui/linux
+Date: Sat, 14 Nov 2020 10:53:01 -0000
+Message-Id: <160535118176.12952.16867424786268633282@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rui/linux
+user: rui
 changes:
-  - ref: refs/heads/usb-testing
-    old: e7018751d2e603381ae6028ba4dd21ec45ce38bb
-    new: 56c62080d5b57dac2c2cdd4a83571450e38ca763
-    log: |
-         56c62080d5b57dac2c2cdd4a83571450e38ca763 usb: hcd.h: Remove RUN_CONTEXT
-         
-
---===============7561754224030555529==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605349531 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1605349471-9e6713e5474ffcd361b7a018d1eb440663bb4b4e
-
-e7018751d2e603381ae6028ba4dd21ec45ce38bb 56c62080d5b57dac2c2cdd4a83571450e38ca763 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+vsJsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yZMP/3p/EDNTvuLy0Cdv7MHL
-t9DylAXlUZA03n8Ny/bJS8VlAxx+VGDJ9s5zS8aRHm8k/QDJx2vx172tVu918JNx
-m9mP2xOzN4c7sxoLIX2gz0spUHuoh7FiipJ0z4NhjAAsv7Be04t4VJYKHr+EeExG
-gIMGibNpDkyEJiHbqjocJoi11QQPD3cgmNLVkk0XdvgfgAuotd8O7rqHwc0WZfNx
-aaBbFl0IYnlON7FuSY6SIQtZhzJgivkDl/cKuDTnFjlKmsxd1IboaOVjA0OfoN7H
-EUCi3YXOJYPhdI/iSd6MSYrKpJzGxCIdmtQkhhlJtUg5tfc30tO2McQLdfxTVqW5
-G17xX57MHF63q8EzPGdxBFoDa1cWoHycduQw8McMIA1hNHPJjmEpClLodgwYkGPe
-EQDUJLkagaE1k81SwMz7Cx07O59BeCUybcLvYYfRJSsBW0uJXeImnIJ38qesLwr7
-M5JQdXBEAFH4OxLjC4If6AX8ZeOokRQMaPILiUyyYo3auj//cnu90PU+0eH7mCR1
-SaTcZW5aie/u0RMFEpRWdsQKaixn6BYMfoniXepCmmzNX4zPOuduocr0cMbMW2mw
-lTDAs/xWqF2HlbdgPYkZUP2olpXjLcfPTw3xSUAWoljC6PMCYxZzSwNxZDD0G8Yh
-/cZ+ejNy9XqGnZcWOPSAKuiZ
-=U2+7
------END PGP SIGNATURE-----
-
---===============7561754224030555529==--
+  - ref: refs/tags/v5.10-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 4d3d761b5b27bb33a731e8df51b7fb6a6c565804
+  - ref: refs/tags/v5.4
+    old: 0000000000000000000000000000000000000000
+    new: 6e815efe19a99a33b16cc720c3d3a727565a4fa1
+  - ref: refs/tags/v5.4-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 368e906473dfe965c421677be67b4b1297eed6c9
+  - ref: refs/tags/v5.4-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 9b2a6e34b876d9c71fd0feec0e7ee07031bc1902
+  - ref: refs/tags/v5.5
+    old: 0000000000000000000000000000000000000000
+    new: 4e3112a240ba9986cc3f67a6880da6529a955006
+  - ref: refs/tags/v5.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 3e4fa608e7227f8bde448547589146f40dd46081
+  - ref: refs/tags/v5.5-rc2
+    old: 0000000000000000000000000000000000000000
+    new: ff88a16e78d46895b4ccb535462233fe99b17d21
+  - ref: refs/tags/v5.5-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 3da0952890f1bb3898c72abdafbf2d58ae15193d
+  - ref: refs/tags/v5.5-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 31724e5503a9ffd71c440c31a1e3d6a50bd50186
+  - ref: refs/tags/v5.5-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a6e9f2d278c7f7a7a7870f9ac7bc9662df8aa551
+  - ref: refs/tags/v5.5-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e321afedf55565f8e6e4e2069c4046e5905a4b29
+  - ref: refs/tags/v5.5-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 2bf590c16af975a0132e4a90967807d538cdc7de
+  - ref: refs/tags/v5.6
+    old: 0000000000000000000000000000000000000000
+    new: 0ad2c0e5fc7bd5c5a60f88be1174271410254e32
+  - ref: refs/tags/v5.6-rc1
+    old: 0000000000000000000000000000000000000000
+    new: ec001be2a91bfa61dba0347677856410f82df0b4
+  - ref: refs/tags/v5.6-rc2
+    old: 0000000000000000000000000000000000000000
+    new: f955178516c014cb4e40b6ce10f227fa0a6c2ae2
+  - ref: refs/tags/v5.6-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 7ac2ca549c3b362873332019d4f62e71b0deab4a
+  - ref: refs/tags/v5.6-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 2d43e16f5cfa0628825a884f732e18b2e789262c
+  - ref: refs/tags/v5.6-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f63824d61a49150788a0cc3f8376b48d717bed3e
+  - ref: refs/tags/v5.6-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 5ec385dc02674cffa933f3f4ede6b060f085e273
+  - ref: refs/tags/v5.6-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 94a1322324e41cee460d20c465f712a4fe8f436a
+  - ref: refs/tags/v5.7
+    old: 0000000000000000000000000000000000000000
+    new: 6499c53216d11948deb2e39ccc9ca9824b8f38ab
+  - ref: refs/tags/v5.7-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 424aeb7bac4af3be0964d0b578a385efb0b82930
+  - ref: refs/tags/v5.7-rc2
+    old: 0000000000000000000000000000000000000000
+    new: a288422dfe80c0cd6612c9057f64242c6e0b7511
+  - ref: refs/tags/v5.7-rc3
+    old: 0000000000000000000000000000000000000000
+    new: d0709bb6da2ab6d49b11643e98abdf79b1a2817f
+  - ref: refs/tags/v5.7-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 6142b53a0b14856e032da7f14178ae7b63b2a09d
+  - ref: refs/tags/v5.7-rc5
+    old: 0000000000000000000000000000000000000000
+    new: b80e93f86a3e9938c9c46c4456d0d6d83c07974e
+  - ref: refs/tags/v5.7-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 191ae8df7494029b5cc540b17fc4526e64ae7c38
+  - ref: refs/tags/v5.7-rc7
+    old: 0000000000000000000000000000000000000000
+    new: effde58ab3a6dc1211e9395066beba7e2c59d762
+  - ref: refs/tags/v5.8
+    old: 0000000000000000000000000000000000000000
+    new: 6ae53c863e5a0dd2621bb9ad6f94102fc1bb3376
+  - ref: refs/tags/v5.8-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 1eca23c384437f4208ccd940846c2920f69b731f
+  - ref: refs/tags/v5.8-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 770e1f41c77abae9307e63a70739ba1904b85044
+  - ref: refs/tags/v5.8-rc3
+    old: 0000000000000000000000000000000000000000
+    new: b47cc0b6f2e3c7bb58280670e8fe4b250066c8a1
+  - ref: refs/tags/v5.8-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 5d6c002b4f4bf2220e1bbf297571062c4deff969
+  - ref: refs/tags/v5.8-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 11a2b71ea939c343764c1acd733e10e455cb51e9
+  - ref: refs/tags/v5.8-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e00a63f888eae9670eb3091a98e62a87caa64e1d
+  - ref: refs/tags/v5.8-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 629727c85a175b5dd28ce5fd9ae40ff3f5c0fcd6
+  - ref: refs/tags/v5.9-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 2ce39e75455d7770efdf27acd4ff3346719cdfcd
+  - ref: refs/tags/v5.9-rc2
+    old: 0000000000000000000000000000000000000000
+    new: a7b66aa9df187c132a48990f82665b9d23ef64d5
+  - ref: refs/tags/v5.9-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 02d49d0a468efe1cd14a85b15501daf9bb4143ea
+  - ref: refs/tags/v5.9-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 58c26e62f075825dc598345e31f0afbcb1da48ef
+  - ref: refs/tags/v5.9-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 43b10d5a9053d0111bb547ea09abe5e102355d06
+  - ref: refs/tags/v5.9-rc6
+    old: 0000000000000000000000000000000000000000
+    new: df38e3687160a8a22016c8e41b481de779945364
+  - ref: refs/tags/v5.9-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 050e12cdf1da07b944898cf2e27472c3e8d1d185
+  - ref: refs/tags/v5.9-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 11c2a51a0844833eee4356f86cf4555eafaf010b
