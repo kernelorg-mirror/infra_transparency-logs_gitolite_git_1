@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6997662087575082689=="
+Content-Type: multipart/mixed; boundary="===============3078819989696296458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 14 Nov 2020 23:41:24 -0000
-Message-Id: <160539728490.19302.11274071598761647576@gitolite.kernel.org>
+Date: Sat, 14 Nov 2020 23:41:58 -0000
+Message-Id: <160539731808.19585.18191326926124322407@gitolite.kernel.org>
 
---===============6997662087575082689==
+--===============3078819989696296458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
-    old: c14d61fca0d10498bf267c0ab1f381dd0b35d96b
+  - ref: refs/heads/for-next
+    old: 6f100640ca5b2a2ff67b001c9fd3de21f7b12cf2
     new: 2d38c5802f4626e85d280b68481c3f3ca4853ecb
-    log: revlist-c14d61fca0d1-2d38c5802f46.txt
-  - ref: refs/tags/v5.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 8ccd3b86485397172cf41d07ede9c26fc8bf9d88
-  - ref: refs/tags/v5.10-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 27598e7e73260ed0b2917eb02d4a515ebb578313
-  - ref: refs/tags/v5.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 4d3d761b5b27bb33a731e8df51b7fb6a6c565804
+    log: revlist-6f100640ca5b-2d38c5802f46.txt
 
---===============6997662087575082689==
+--===============3078819989696296458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c14d61fca0d1-2d38c5802f46.txt
+Content-Disposition: attachment; filename=revlist-6f100640ca5b-2d38c5802f46.txt
 
-8da1f442d32112e09541cf279b757ded28bea8a9 net: ipv6: calipso: Fix kerneldoc warnings
-8843f40550dd9f11ff39b6fee37d167516dc2158 Merge tag 'pm-5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-ee176906dc882ba6223d834ae61790e7550515fd Merge tag 'acpi-5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-a5a16050d78dd4a8a5a2a6614e64f76d59ef8a2e Merge tag 'devprop-5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-d2c4d6e8acc6548a3ddae0f2e8d8120ead09ad80 Merge tag 'pnp-5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-65b55d4c85e59e0cc946c1ac171ff59bc6e1d7f9 Merge tag 'arm-soc-fixes-v5.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 11ad2a73de10bbebb71199f29abdfc1c2e70d231 Merge tag 'asm-generic-fixes-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
 09b5678c778f389d911a8ca80c42ca4dcd349043 tipc: remove dead code in tipc_net and relatives
 aab6bf505a8ea63ab3301c42d819e2e2b70cce7d Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
@@ -1046,6 +1031,12 @@ c5122cf584128f9d42655189e69fda7151c1f275 sfc: support GRE TSO on EF100
 95f3c5458dfa5856bb110e31d156e00d894d0134 r8169: use READ_ONCE in rtl_tx_slots_avail
 ca1ab89cd2d654661f559bd83ad9fc7323cb6c86 r8169: improve rtl_tx
 bb3222f71b57caa2ba80db2dce4677f84ba4bd37 net: stmmac: platform: use optional clk/reset get APIs
+8965398713d831f6b893805880c249e62e9059ae net: xdp: Introduce bulking for xdp tx return path
+7886244736a4dbb49987f330772842130493e050 net: page_pool: Add bulk support for ptr_ring
+2f9d09394d138be99050ad9eabe4d3ff13f79da4 net: mvneta: Add xdp tx return bulking support
+dbef19ccde5d83dd16646532f091b54a67c73cd1 net: mvpp2: Add xdp tx return bulking support
+b87c57ae12dbecd50471b437e09e3f7dc916d8bc net: mlx5: Add xdp tx return bulking support
+c14d61fca0d10498bf267c0ab1f381dd0b35d96b Merge branch 'xdp-redirect-bulk'
 774626fa440e4c01bcbe5213cd5220dea545c9f7 net: phy: mscc: Add PTP support for 2 more VSC PHYs
 07cbce2e466cabb46b7c2317bd456584aa4ceacc Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 2e793878aece73260f56e84b62e62ef066a0e1fb ipv6: remove unused function ipv6_skb_idev()
@@ -1060,4 +1051,4 @@ e94f76bb206333efcd0c02da5dbb142518c941a2 ionic: flatten calls to ionic_lif_rx_mo
 7c8d008cc0685b4a66d4d1f4470bb1c3fbd6c710 ionic: useful names for booleans
 2d38c5802f4626e85d280b68481c3f3ca4853ecb Merge branch 'ionic-updates'
 
---===============6997662087575082689==--
+--===============3078819989696296458==--
