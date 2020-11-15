@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7308292878448944070=="
+Content-Type: multipart/mixed; boundary="===============0322821310750108537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Sun, 15 Nov 2020 15:05:44 -0000
-Message-Id: <160545274423.31556.4213970922969013000@gitolite.kernel.org>
+Date: Sun, 15 Nov 2020 15:06:11 -0000
+Message-Id: <160545277117.31812.15851592753208660015@gitolite.kernel.org>
 
---===============7308292878448944070==
+--===============0322821310750108537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 6d6a18fdde8b86b919b740ad629153de432d12a8
-    new: c887c9b9ca62c051d339b1c7b796edf2724029ed
-    log: revlist-6d6a18fdde8b-c887c9b9ca62.txt
+  - ref: refs/tags/for-linus
+    old: a2a6be83c033fe4bec46559928d16b7aab3472f7
+    new: 6d4d2ec3d993d365d7adcdf0cab1c047c3ac56df
+    log: revlist-a2a6be83c033-6d4d2ec3d993.txt
 
---===============7308292878448944070==
+--===============0322821310750108537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1605452742 -0500
+pusher Paolo Bonzini <pbonzini@redhat.com> 1605452769 -0500
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1605452741-d90b2f87ff66299b7c195b95f7580342eb70c671
+nonce 1605452769-fbb885a8b9a12125e51cf23b11ead02f0ff2dda3
 
-6d6a18fdde8b86b919b740ad629153de432d12a8 c887c9b9ca62c051d339b1c7b796edf2724029ed refs/heads/master
+a2a6be83c033fe4bec46559928d16b7aab3472f7 6d4d2ec3d993d365d7adcdf0cab1c047c3ac56df refs/tags/for-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAl+xQ8YUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroMC8QgApbGXwBmXVCaZUMfNqlr2tHRb/7xG
-qFRRl4Vpcn0P9uXC4lufp56BzlcuiL9uWRXI/imhHDH11c+kCP+RyEapqlMccZv6
-1x5I3UDU9WNE8Zr4OwhNqeHAqQsq5l8AQGDKJUXFl18sdul2ArJevj4iq4vgsuuq
-Fkdy3yEHBkx9ffXFj9i1yel7j4eUi27KUlHEtHEVecdwEF4noQqarBLEZ0B7wyfG
-8wnxmf01pmecJ7iQvA5+qbPiNLEFF4iKOB+YSQcKA75me8mi4rj1ee5DSbVIU+1y
-Z0ic70n4PfkZWv3AFVfGXMgIWJBbSjiNm9cMUxkmPZTq7rz2kiwEakPDmg==
-=H2R/
+iQFHBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAl+xQ+EUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroPQEAf42IkCw5FOWb/9ku6Oj3b7UEGK7cCX
+uAtqmK+W94uilZBY1pxYj5bL/AdcreCXMH4hGT6rUm5pI4kcMjCDLBuXnFiF5B3O
+8CSwIxC1GxN3pRn501RBGJLNs7i712Qx6utWgUDROvPV0/VjmRFBUhXLLhthc4xB
+KqZuFoH9Zo3brqoEZTf+6Vn+5NPPGDqmt+3jvw1B8eA7U/SL6sLK8cuCgJc3zWg/
+FpbOSOXIkXFlB5aY5Qv151L9yagNT3HlMS/wVrsmGgPWGUDRy5IqTQ60EtpTeCG3
+Wg3WsL9ui5Bex2crrdJOqVLjEIFKUjY9UFAn4ZyUxAwh/h3G5kNhdeQY
+=JrpR
 -----END PGP SIGNATURE-----
 
---===============7308292878448944070==
+--===============0322821310750108537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d6a18fdde8b-c887c9b9ca62.txt
+Content-Disposition: attachment; filename=revlist-a2a6be83c033-6d4d2ec3d993.txt
 
 1b48dc03e575a872404f33b04cd237953c5d7498 vhost: vdpa: report iova range
 70a62fce262854c4aabaa47e46e82fce9f3f3938 vdpa_sim: implement get_iova_range()
@@ -1076,4 +1076,4 @@ db7c953555388571a96ed8783ff6c5745ba18ab9 Merge tag 'net-5.10-rc4' of git://git.k
 96308b066184d6dcdb677890e620e68290ae98ae KVM: SVM: Update cr3_lm_rsvd_bits for AMD SEV guests
 c887c9b9ca62c051d339b1c7b796edf2724029ed kvm: mmu: fix is_tdp_mmu_check when the TDP MMU is not in use
 
---===============7308292878448944070==--
+--===============0322821310750108537==--
