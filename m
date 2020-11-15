@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 15 Nov 2020 20:08:29 -0000
-Message-Id: <160547090978.9131.4566023279219202800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sun, 15 Nov 2020 20:39:27 -0000
+Message-Id: <160547276768.13890.5058757374683081456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/testing
-    old: 8dedcc3eee3aceb37832176f0a1b03d5687acda3
-    new: 24b284984e2d14aedc11b2f0211660df54e3b338
+  - ref: refs/heads/master
+    old: 55ca838e4d95de410c97c021246986d3f6319d2e
+    new: 810da77e1c66ad543e34a10b197aa9e629c7dc8f
     log: |
-         89d1f72570027aa9724f00454f51885e27221413 iio: adc: stm32-adc: adapt clock duty cycle for proper operation
-         24b284984e2d14aedc11b2f0211660df54e3b338 iio: adc: ad7887: convert probe to device-managed functions
+         c710e85f324db13707672d1d2cd0d8411c3df260 CodeSamples/defer: Adjust rcuscale.sh to allow for renaming
+         8d73660b47d4d5e8d34f56d635db3b578bc1baae CodeSamples/formal/litmus: Remove redundant initialization
+         810da77e1c66ad543e34a10b197aa9e629c7dc8f CodeSamples/formal: Use '{}' for empty init blocks in litmus tests
          
