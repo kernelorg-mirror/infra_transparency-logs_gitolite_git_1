@@ -1,27 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
-Date: Sun, 15 Nov 2020 15:11:42 -0000
-Message-Id: <160545310239.2693.1471941470526246102@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8505234763539450234=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 15 Nov 2020 15:18:50 -0000
+Message-Id: <160545353084.6411.354268102133272489@gitolite.kernel.org>
+
+--===============8505234763539450234==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
-user: ebiggers
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: c59a5856d77a1a042f4fba7dbf6ffcfdc4a52bca
-    new: ac23422a8c7d7307287ddb3d97b8818fcb8f8eab
+    old: 045a933310a3bd9b3128df82427b0c7536b84309
+    new: 657948a5662d4414a2c4abb363e46e51d78b3456
     log: |
-         bd3353b0d4d966c2da33d8f5147927092c650c2e generic/426: Remove unused opt variable in create_test_files()
-         4f8a21fa8d3241db5a97c7f07b676c5c804c20ad fsx: fix strncpy usage error
-         808f39a416c9627cecaf9e155feb3ab8dcf21ac0 fsstress: stop using attr_set
-         0743230c36029be5f686e278cbd154ae263b44b6 fsstress: remove attr_remove
-         609bb3562241f9fc877aff7309d62af6cb10795d fscrypt-crypt-util: fix maximum IV size
-         7a327ad2f4daab3f6aa253fc1c07ffcbecec637b generic: test for non-zero used blocks while writing into a file
-         6f87118198dd512b4251e8bd441d98ef3573423f src/feature: add IO_URING feature checking
-         c3eb99947700cbb69a9cfa0ea88ea3a6cdae6475 generic: fsx IO_URING soak tests
-         ac23422a8c7d7307287ddb3d97b8818fcb8f8eab generic: fsx IO_URING direct-IO soak tests
+         bdbf6139a39b020c807ccda0cfc1796e84342fab 5.9-stable patches
+         657948a5662d4414a2c4abb363e46e51d78b3456 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
          
+
+--===============8505234763539450234==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605453585 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1605453529-cd8d626fdc550e169a841403fa7724b70c050fc5
+
+045a933310a3bd9b3128df82427b0c7536b84309 657948a5662d4414a2c4abb363e46e51d78b3456 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+xRxEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HToP/3jsfUV9qguk5mMelgs8
+gTfD24MFoS395dh5BGOg4oTKITQ5watqp75CRhepMBh00IqbN8PKG7ZXgwHIBNqX
+JQIKZNeue5JtRyC+oQ1PHcMGRicT94QpgTY6YqI1RdH+dxIC2fzhS/3fTHlDt3H/
+TWj+qtd3jp+h5o3pQkt+idgMi7NpnEYSO3d6A5DH6g2pIK6MK6qJwayyEr3JipHY
+GjhPJ++XXxGl34YUln4uzrFaG5Yi+6S7HdHpuyf0A7qq/8MYE9E5IwUyvP6h/9aB
+ytOrfBgO8OYXVvs4EQg6ae5kmBpPGU/dwqsSI2hSFBzCC6H6fXIAL712G7VpXYj5
+pyzZ6402ziJw33D5by9OnHAMD62ZaMw3xfk2xBUKBDmNGhP2SyAZO1e44/2Vnkhu
+Fa6MMfltVa+Mtm7lcb4IpbOoVfgrNgH/WppOoRgZmDwzue30rSoTgYKEX/aSfJum
+Dx/DUS3wkwYRm/UnPQ8Pe+vgHEoOPmfUsEAiK0SDjeP++CAocfadxfVgl/OjoMeI
+2tPEBIdcbzGHuVC8VukwLg1TVVpInoOA8E4zbpdZUy0MyUlNE8sUElE0yMOk0cjy
+85m26dcbsda6FHBpPDMcIRBTzDKXVXMA/9rmjj62ASSTCxyx7zU0p0jogyreTd0o
+yxdrIPv8bK58We8erhRpR6xH
+=nzEH
+-----END PGP SIGNATURE-----
+
+--===============8505234763539450234==--
