@@ -1,51 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7596252869436852309=="
+Content-Type: multipart/mixed; boundary="===============1164468936567048049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Sun, 15 Nov 2020 18:02:20 -0000
-Message-Id: <160546334022.22096.11450319525521388634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 15 Nov 2020 18:26:20 -0000
+Message-Id: <160546478045.6374.5268961510914423215@gitolite.kernel.org>
 
---===============7596252869436852309==
+--===============1164468936567048049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/testing
-    old: a584e9bc1b7e88f24f8504886eafbe6c73d8a97c
-    new: 8e2b3a58cb79fb97ee38d239c880c2ea470813ba
+  - ref: refs/heads/wip/jgg-for-next
+    old: 7af80c02c7b3cf7ac580a33f15d155730574769f
+    new: e96ea81cacb1f8c6c87062ab0822e1f2e0e65068
     log: |
-         58be391bb5faefa82f78eb4703b6519b79658611 can: kvaser_pciefd: Fix KCAN bittiming limits
-         8e2b3a58cb79fb97ee38d239c880c2ea470813ba can: kvaser_usb: kvaser_usb_hydra: Fix KCAN bittiming limits
+         cb8d955794c7be12869b798819dcedb7fcf7b313 RDMA/counter: Combine allocation and bind logic
+         011e6e820030751e210583728f852be86d1c1ce5 RDMA/restrack: Store all special QPs in restrack DB
+         e96ea81cacb1f8c6c87062ab0822e1f2e0e65068 RDMA/cma: Add missing error handling of listen_id
          
 
---===============7596252869436852309==
+--===============1164468936567048049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1605463336 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1605463336-4e7afa2d76b487199d603aeee9eb8da48e248296
+pusher F08647C27728D5D2EB7A5F5AA5F46BDD553C74FA 1605464765 -0400
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
+nonce 1605464765-8c9d6e2980b40dec27c4050abf1da5f839e278e8
 
-a584e9bc1b7e88f24f8504886eafbe6c73d8a97c 8e2b3a58cb79fb97ee38d239c880c2ea470813ba refs/heads/testing
+7af80c02c7b3cf7ac580a33f15d155730574769f e96ea81cacb1f8c6c87062ab0822e1f2e0e65068 refs/heads/wip/jgg-for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl+xbSkTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqV/8CACkPvFXLaQuHxkq9ZW17gtVsw7GNgP0
-yZb2QpdJ4KL+eAwI13CD9zfNoK/JG7VKgHDzJgANJu0VmZs27cUPGpTmVthJdr+s
-0+C1CgVzY+MZi/XBqNkwoQ+XFQZ5yApqQu+81xOClO/gwynSgZoDO9e30utiz+2G
-3yQyrlsMW6b687yfX6p5dOxysLuEFWt+TK6ypVJMr5waQuYtYCotHfcPr5DAIOuS
-lkR15r0Dceeaaxivu2IYZcb2ctPYkD5YdtnVoY8KorVP8+u7GCJtD/DX5P11+vZb
-q2ouBRm0eekbEiPr63ei+wxOAGpjbmIw3SBvP9vW3Xit44B3cWyuRSgr
-=rqLc
+iQIzBAABCgAdFiEEfB7FMLh+8QxL+6i3OG33FX4gmxoFAl+xcr0ACgkQOG33FX4g
+mxqk/Q/8CdkWHb2bvVkeHQTzodLRkDKWyVWlCEFETsNevR24OGTT0cfOgJStgAeo
+ftpYhr/TQC565riC1klD7nTJnu8KjNSCg5rEOf/FoAOMWs+gUpgLsgAiL3/dkJXo
+TgHPW/yfaZeml2cQMBKSyS/lGJOm9wPExAdizK7RRL62tYRD4El8izmKs8biZktj
+XkQuXnK7MPHkklmSPy3EhqqXSjVaJJaeGpaH9/YSSwTWb0To8E+G5ChO6OXE+Dq5
+tHXkLctnRMHeutyGFOgrTQkhNe6RzyGC/Vl7SdbEG0CQTsDsTEiumBmIYlsjw+eZ
+A19pQQrgp9POZR4WqFSRNTV/Tjeot6R2iFeiEnpTdd9rKBypqEd8YHpogveQ13DC
+JTggkWAyAnetGDTfPZz/Mxo05tNXcp/3AU84nxoxLvbcACbmd0xkCodKKULjBx7W
+RKwJRKrixZ3cx85hnn7JMOdIx88l+cncx4Qby3/UYy7qmBlz4vUsj3MHus0eUn+F
+pNheV22Oa+SQY1AUqtcd696GMMJfdOd4qIdFo+6H0sBBZD6F7kqn3TqlJFQtJ4oS
+QL6Szw0y3UySMvV+maOF1wCLIYens753vXxxB9QfQwUCXEsgasdYvD6w7h0tTX+Q
+7tg05aph9X64ZaFUVnnIv9f75h1xnLkSbAsSlIdcpcvZvKCNw5Y=
+=7ec/
 -----END PGP SIGNATURE-----
 
---===============7596252869436852309==--
+--===============1164468936567048049==--
