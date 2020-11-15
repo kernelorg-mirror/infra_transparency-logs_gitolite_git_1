@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 15 Nov 2020 22:33:50 -0000
-Message-Id: <160547963008.27889.4795260798974231681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mdf/linux-fpga
+Date: Sun, 15 Nov 2020 22:45:56 -0000
+Message-Id: <160548035668.3593.3337966254974882339@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/mdf/linux-fpga
+user: mdf
 changes:
-  - ref: refs/heads/master
-    old: 3fd7a10d909c30af183877323e11496f2a147384
-    new: 7a92eea0de2635a7e5612642913fad6add12a4ce
+  - ref: refs/heads/for-next
+    old: cbadbf5a53b5ca892132ca91dc60b24c80dc6fa8
+    new: aaf8fe39c9521bfb42a6bd7da419186627c32e17
     log: |
-         14d43d30059e1074b9fc0e68cf4ceb0538579646 locale.5, ipv6.7: ffix
-         d556548bf4907040c4c65705fc43f80de895afcf getent.1, fanotify_mark.2, fcntl.2, futex.2, membarrier.2, mmap.2, mount.2, msgctl.2, readv.2, semctl.2, set_mempolicy.2, shmctl.2, syscalls.2, abs.3, bstring.3, btree.3, ctime.3, drand48.3, fgetc.3, fopen.3, gethostbyname.3, getnetent.3, getprotoent.3, getservent.3, INFINITY.3, __ppc_set_ppr_med.3, inet.3, j0.3, makecontext.3, printf.3, puts.3, resolver.3, sigsetops.3, elf.5, nscd.conf.5, proc.5, inotify.7, ipv6.7, spufs.7, system_data_types.7: Use Oxford comma
-         2ec12d3f32868426211a55bfcf4a6f8cfa499462 getutent.3: srcfix
-         678f71707ef8a50a6c1c652bfd3fe4dcfe9b2147 uname.2, feature_test_macros.7: ffix
-         7a92eea0de2635a7e5612642913fad6add12a4ce chroot.2, memfd_create.2, tailq.3: Fix unbalanced .nf/.fi
+         dd57ca7ddec5ddafe9c1dbf8504106f93df7a17d Revert "fpga: dfl: move dfl bus related APIs to include/linux/dfl.h"
+         3ae706b58b0b05dd8756155e84b0e15eab907416 Revert "fpga: dfl: add dfl bus support to MODULE_DEVICE_TABLE()"
+         9922e71f43ace877a9ba747d094e57f120943c7f Revert "fpga: dfl: move dfl_device_id to mod_devicetable.h"
+         aaf8fe39c9521bfb42a6bd7da419186627c32e17 Revert "fpga: dfl: fix the definitions of type & feature_id for dfl devices"
          
