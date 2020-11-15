@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sun, 15 Nov 2020 16:18:44 -0000
-Message-Id: <160545712447.14782.7843154681475302714@gitolite.kernel.org>
+Date: Sun, 15 Nov 2020 16:19:33 -0000
+Message-Id: <160545717399.15142.16715723714855769398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
-  - ref: refs/heads/test/usb-hacks
+  - ref: refs/heads/test/usb-hacks-wip
     old: 186d18af98938cae7acbed1920d7ac2510eec8e8
     new: 8d9dd7caccc6daebab8b2a1a7bbd09e605b83fba
     log: |
