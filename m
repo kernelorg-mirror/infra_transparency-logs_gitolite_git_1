@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sat, 14 Nov 2020 23:51:53 -0000
-Message-Id: <160539791310.25497.9687261051299535185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 15 Nov 2020 00:05:32 -0000
+Message-Id: <160539873207.4171.8479767048571117856@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/rtc-next
-    old: 9844484eac2bff09ba3fcdebcf5a41d94df6b6c1
-    new: 767fbb7102c69bedb8dca5a877c4eae4bbf8cf9b
+  - ref: refs/heads/master
+    old: 796a2665ca3e91ebaba7222f76fd9a035714e2d8
+    new: 56311a315da7ebc668dbcc2f1c99689cc10796c4
     log: |
-         767fbb7102c69bedb8dca5a877c4eae4bbf8cf9b rtc: rv3032: fix nvram nvmem priv pointer
+         56311a315da7ebc668dbcc2f1c99689cc10796c4 net: stmmac: dwmac_lib: enlarge dma reset timeout
          
