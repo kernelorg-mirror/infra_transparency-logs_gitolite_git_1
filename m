@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4024795531491121314=="
+Content-Type: multipart/mixed; boundary="===============7308292878448944070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Sun, 15 Nov 2020 14:56:57 -0000
-Message-Id: <160545221718.25811.15209586975722620382@gitolite.kernel.org>
+Date: Sun, 15 Nov 2020 15:05:44 -0000
+Message-Id: <160545274423.31556.4213970922969013000@gitolite.kernel.org>
 
---===============4024795531491121314==
+--===============7308292878448944070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,76 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 3539292abae0518a1d5bee996174d88014865134
-    new: 0a59d24b139a98ad0a2d778205fca6619014633f
-    log: revlist-3539292abae0-0a59d24b139a.txt
+  - ref: refs/heads/master
+    old: 6d6a18fdde8b86b919b740ad629153de432d12a8
+    new: c887c9b9ca62c051d339b1c7b796edf2724029ed
+    log: revlist-6d6a18fdde8b-c887c9b9ca62.txt
 
---===============4024795531491121314==
+--===============7308292878448944070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1605452214 -0500
+pusher Paolo Bonzini <pbonzini@redhat.com> 1605452742 -0500
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1605452213-d026a9c38841ed282c8024b0b0a7aae9e59b539f
+nonce 1605452741-d90b2f87ff66299b7c195b95f7580342eb70c671
 
-3539292abae0518a1d5bee996174d88014865134 0a59d24b139a98ad0a2d778205fca6619014633f refs/heads/queue
+6d6a18fdde8b86b919b740ad629153de432d12a8 c887c9b9ca62c051d339b1c7b796edf2724029ed refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAl+xQbYUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroMqPwgAhcad7C5Agv6Yy6fcM3X55H3hmlFX
-3sRqjebsIZzk8VP19Sg/6e/+H8lJQ39VO9FipsgOg5U1vypmN44aLv2xb8e9Voci
-Y6C/7q23K46MGVGpIDOiW5HDEeWr2v+WjG35jJTJlcjaO7G9jIMfDp/pFsjrGCQ6
-jiTT2ya3D2VujmRb9BGMhkznqofVzDU5MYFbt7Ffpwjl2vFil61JVFolsNFdMxgn
-X2Fp9Jj+vMLgxZw5qYbJpbRBbWHxPwvint6uaQFupXz6uBtkXS93iOM6eteGzudW
-1zaY0NZjx6jjYT4RNr1sYu0B4VRSguZiLqhNP1B5Ju4HdQ6kBPqIMDOzQw==
-=mt36
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAl+xQ8YUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroMC8QgApbGXwBmXVCaZUMfNqlr2tHRb/7xG
+qFRRl4Vpcn0P9uXC4lufp56BzlcuiL9uWRXI/imhHDH11c+kCP+RyEapqlMccZv6
+1x5I3UDU9WNE8Zr4OwhNqeHAqQsq5l8AQGDKJUXFl18sdul2ArJevj4iq4vgsuuq
+Fkdy3yEHBkx9ffXFj9i1yel7j4eUi27KUlHEtHEVecdwEF4noQqarBLEZ0B7wyfG
+8wnxmf01pmecJ7iQvA5+qbPiNLEFF4iKOB+YSQcKA75me8mi4rj1ee5DSbVIU+1y
+Z0ic70n4PfkZWv3AFVfGXMgIWJBbSjiNm9cMUxkmPZTq7rz2kiwEakPDmg==
+=H2R/
 -----END PGP SIGNATURE-----
 
---===============4024795531491121314==
+--===============7308292878448944070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3539292abae0-0a59d24b139a.txt
+Content-Disposition: attachment; filename=revlist-6d6a18fdde8b-c887c9b9ca62.txt
 
+1b48dc03e575a872404f33b04cd237953c5d7498 vhost: vdpa: report iova range
+70a62fce262854c4aabaa47e46e82fce9f3f3938 vdpa_sim: implement get_iova_range()
+f47d0742515748162d3fc35f04331c5b81c0ed47 ASoC: codecs: wsa881x: add missing stream rates and format
+3f48b6eba15ea342ef4cb420b580f5ed6605669f ASoC: qcom: sdm845: set driver name correctly
+20afe581c9b980848ad097c4d54dde9bec7593ef ASoC: cs42l51: manage mclk shutdown delay
+6e5329c6e6032cd997400b43b8299f607a61883e ASoC: SOF: loader: handle all SOF_IPC_EXT types
+43b6bf406cd0319e522638f97c9086b7beebaeaa spi: imx: fix runtime pm support for !CONFIG_PM
+930eae9d3dd474ca1d5de63ea05d73075405cf6a ARM: dts: meson8: remove two invalid interrupt lines from the GPU node
+f7d933388f11f66e5af9e5663a17f26523fddd07 arm64: dts: meson: odroid-n2 plus: fix vddcpu_a pwm
+e08102d507f34e6591de521a4c2587c6f02c7996 io_uring: remove opcode check on ltimeout kill
+ac877d2edd094e161801d72b49cfb56c5fc860fb io_uring: don't adjust LINK_HEAD in cancel ltimeout
+cdfcc3ee04599ce51e5c84432c177163637dd0e0 io_uring: always clear LINK_TIMEOUT after cancel
+c9abd7ad832b9eef06d887f4971894af5de617fd io_uring: don't defer put of cancelled ltimeout
+feaadc4fc2ebdbd53ffed1735077725855a2af53 io_uring: don't miss setting IO_WQ_WORK_CONCURRENT
+9aaf354352f1142831457492790d6bfa9c883021 io_uring: simplify nxt propagation in io_queue_sqe
+0d63c148d6d9ac57c124b618f66269bb4558553b io_uring: simplify __io_queue_sqe()
+6ff7cb371c4bea3dba03a56d774da925e78a5087 tools/power turbostat: adjust for temperature offset
+3d7772ea5602b88c7c7f0a50d512171a2eed6659 tools/power turbostat: harden against cpu hotplug
+c3a98c3ad5c0dc60a1ac66bf91147a3f39cac96b crypto: x86/poly1305 - add back a needed assignment
+df833050cced27e1b343cc8bc41f90191b289334 net: ipa: command payloads already mapped
+4f3391ce8f5a69e7e6d66d0a3fc654eb6dbdc919 chelsio/chtls: fix tls record info to user
+d701ec326a31945d1533b438a6feab753829b738 ionic: clean up sparse complaints
+43ecf7b46f2688fd37909801aee264f288b3917b ionic: no rx flush in deinit
+0c32a28e247f51b0b67b5abb6e9368542e30c136 ionic: fix mem leak in rx_empty
+0c3b7f4b812f708795fb5cc397432527421edc1b Merge branch 'ionic-memory-usage-fixes'
+dab234227cbdc6a088c6f9bce38b5dcfefe90832 net: ucc_geth: Drop extraneous parentheses in comparison
+435ccfa894e35e3d4a1799e6ac030e48a7b69ef5 tcp: Prevent low rmem stalls with SO_RCVLOWAT.
+57733e009f0c7e0526e10a18be12f56996c5460e irqchip/bcm2836: Fix missing __init annotation
+a00e85b581fd5ee47e770b6b8d2038dbebbe81f9 irqchip/stm32-exti: Add all LP timer exti direct events support
+a7480c5d725c4ecfc627e70960f249c34f5d13e8 irqchip/sifive-plic: Fix broken irq_set_affinity() callback
+c8b5e2600a2cfa1cdfbecf151afd67aee227381d io_uring: use type appropriate io_kiocb handler for double poll
+194810f78402128fe07676646cf9027fd3ed431c dt-bindings: leds: Update devicetree documents for ID_RGB
+f83b03fc727ab56a77e68713d6e40299698f3c9f dt-bindings: mailbox: mtk-gce: fix incorrect mbox-cells value
+ca05f33316559a04867295dd49f85aeedbfd6bfd of: Fix reserved-memory overlap detection
+c8fa942bd3fbd5b05351aff04649064f5d59f0d2 arm64: defconfig: Build in CONFIG_GPIO_MXC by default
 f06dd1d41949018e050d18ec1058f16b388b96cf ARM: imx_v6_v7_defconfig: Build in CONFIG_GPIO_MXC by default
 d6820bc6508c0cefd6e407cf5be50d9efda6c85c ARM: multi_v7_defconfig: Build in CONFIG_GPIO_MXC by default
 6d7fe8aa45037776d5871c20f47a90901c841e4e MAINTAINERS: step down as maintainer of UniPhier SoCs and Denali driver
@@ -948,7 +983,6 @@ bbc821849eba179e62bbe2adba19a87c7686c27b Merge tag 'tty-5.10-rc3' of git://git.k
 15f5d201c1773297b38a11a0064be76a224d073d Merge tag 'driver-core-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 ae2975046dbc65855c217fe6fbd5b33140c5ff18 net/sunrpc: fix useless comparison in proc_do_xprt()
 f8394f232b1eab649ce2df5c5f15b0e528c92091 Linux 5.10-rc3
-6d6a18fdde8b86b919b740ad629153de432d12a8 KVM: selftests: allow two iterations of dirty_log_perf_test
 1bd3387979bff49cb3115c497895d78ffd5092e3 Documentation: firmware-guide: gpio-properties: Fix factual mistakes
 0d6c41cf801fd56b92f4359374667061d27a6472 Documentation: firmware-guide: gpio-properties: active_low only for GpioIo()
 8b31e972f9872e5a6a3348506b5b84353fecef58 Documentation: firmware-guide: gpio-properties: Clarify initial output state
@@ -1041,39 +1075,5 @@ db7c953555388571a96ed8783ff6c5745ba18ab9 Merge tag 'net-5.10-rc4' of git://git.k
 0107973a80adad5b73232d3fbcd26f710ab1f851 KVM: x86: Introduce cr3_lm_rsvd_bits in kvm_vcpu_arch
 96308b066184d6dcdb677890e620e68290ae98ae KVM: SVM: Update cr3_lm_rsvd_bits for AMD SEV guests
 c887c9b9ca62c051d339b1c7b796edf2724029ed kvm: mmu: fix is_tdp_mmu_check when the TDP MMU is not in use
-d3a9e4146a6f79f19430bca3f2a4d6ebaaffe36b KVM: VMX: Drop guest CPUID check for VMXE in vmx_set_cr4()
-a447e38a7fadb2e554c3942dda183e55cccd5df0 KVM: VMX: Drop explicit 'nested' check from vmx_set_cr4()
-311a06593b9a3944a63ed176b95cb8d857f7c83b KVM: SVM: Drop VMXE check from svm_set_cr4()
-c2fe3cd4604ac87c587db05d41843d667dc43815 KVM: x86: Move vendor CR4 validity check to dedicated kvm_x86_ops hook
-ee69c92bac61f4379e97f40b259a1c1257e5987f KVM: x86: Return bool instead of int for CR4 and SREGS validity checks
-7a873e4555679a0e749422db071c142b57f80be9 KVM: selftests: Verify supported CR4 bits can be set before KVM_SET_CPUID2
-1c96dcceaeb3a99aaf0d548eef2223e0b02a7e40 KVM: x86: fix apic_accept_events vs check_nested_events
-bf0cd88ce363a2de3684baaa48d3f194acdc516c KVM: x86: emulate wait-for-SIPI and SIPI-VMExit
-c4d51a52c67a1e3a0fa3006e5ec21cdc07649cd6 sched/wait: Add add_wait_queue_priority()
-e8dbf19508a112d125190df77ee0464b7ba56192 kvm/eventfd: Use priority waitqueue to catch events before userspace
-28f1326710555bbe666f64452d08f2d7dd657cae eventfd: Export eventfd_ctx_do_read()
-b1b397aeef8177f4f7bd91a0d5fa708f4752a499 vfio/virqfd: Drain events from eventfd in virqfd_wakeup()
-b59e00dd8cda75fc8303c9f6847ac720b10664e3 kvm/eventfd: Drain events from eventfd in irqfd_wakeup()
-c21d54f0307ff42a346294899107b570b98c47b5 KVM: x86: hyper-v: allow KVM_GET_SUPPORTED_HV_CPUID as a system ioctl
-8b460692fee46a47cebd66d70df88dc9aa6d6b8b KVM: selftests: test KVM_GET_SUPPORTED_HV_CPUID as a system ioctl
-ff5a983cbb3746d371de2cc95ea7dcfd982b4084 KVM: X86: Don't track dirty for KVM_SET_[TSS_ADDR|IDENTITY_MAP_ADDR]
-2f5414423ef577e9e8bdb227f32d0abdd34e4274 KVM: remove kvm_clear_guest_page
-28bd726aa404c0da8fd6852fe69bb4538a103b71 KVM: Pass in kvm pointer into mark_page_dirty_in_slot()
-fb04a1eddb1a65b6588a021bdc132270d5ae48bb KVM: X86: Implement ring-based dirty memory tracking
-b2cc64c4f3829c25b618f23f472a493668d9cb80 KVM: Make dirty ring exclusive to dirty bitmap log
-044c59c409b7fd753707dc437890e94d2b0bd819 KVM: Don't allocate dirty bitmap if dirty ring is enabled
-60f644fb519831edff38c79755f7970c475e2ece KVM: selftests: Introduce after_vcpu_run hook for dirty log test
-84292e565951cecfe2718e43905a6103c9e8ac29 KVM: selftests: Add dirty ring buffer test
-019d321a68ea07efcfcbc308443251644ff3e71c KVM: selftests: Run dirty ring test asynchronously
-edd3de6fc3d57deddb5cc7c7f1d8316ad26ac4e4 KVM: selftests: Add "-c" parameter to dirty log test
-8aa426e854c475504033c176a66d038259bf64ea selftests: kvm: keep .gitignore add to date
-2259c17f01887666220a35619c44c576aeed2a30 kvm: x86: Sink cpuid update into vendor-specific set_cr4 functions
-f63f0b68c864edea801de678bed279a3d7674f1a KVM: selftests: always use manual clear in dirty_log_perf_test
-ec2f18bb4783648041498b06d4bff222821efed1 KVM: selftests: Make vm_create_default common
-0aa9ec45d42779af711c7a209b5780ff7391b5bd KVM: selftests: Introduce vm_create_[default_]_with_vcpus
-87c5f35e5c958278174979f13a9e40d3c9962c0f KVM: selftests: Also build dirty_log_perf_test on AArch64
-46031e425985a408a6fdfd4f75d51d4863817e83 KVM: selftests: x86: Set supported CPUIDs on default VM
-a7cc0c5aa28dc3cf5eb68071edd4da3322012544 KVM: selftests: Make test skipping consistent
-0a59d24b139a98ad0a2d778205fca6619014633f x86/kvm: remove unused macro HV_CLOCK_SIZE
 
---===============4024795531491121314==--
+--===============7308292878448944070==--
