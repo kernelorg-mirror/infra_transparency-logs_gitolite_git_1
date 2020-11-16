@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2979562004274108438=="
+Content-Type: multipart/mixed; boundary="===============7403310976380159274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 16 Nov 2020 23:31:16 -0000
-Message-Id: <160556947656.1756.12531614517942403604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 16 Nov 2020 23:31:23 -0000
+Message-Id: <160556948308.1871.10032657476659969643@gitolite.kernel.org>
 
---===============2979562004274108438==
+--===============7403310976380159274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.10
+  - ref: refs/heads/asoc-5.10
     old: 106e6d8df4842d816dae23076c501ae48386afcb
     new: 63fa58d99a7bc07f2d70ccc7a50aba86dba652c0
     log: |
@@ -26,37 +26,37 @@ changes:
          1072460a1aabacf6ececda98acd3b5ecaad23fd2 ASoC: Intel: catpt: Correct clock selection for dai trigger
          63fa58d99a7bc07f2d70ccc7a50aba86dba652c0 Merge Intel catpt DSP fixes into asoc-5.10
          
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 85288b3bf1dbe6d03ca2597791ef97507597532d
     new: 4fb87241e5192caf9226fd4ca96ce2fd861503c1
     log: revlist-85288b3bf1db-4fb87241e519.txt
 
---===============2979562004274108438==
+--===============7403310976380159274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1605569458 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1605569474-776d879029d6a828409551130e68aeb593f50963
+pusher C3F436CA30F5D8EB 1605569464 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1605569480-6efa2081b17a5072849e12593f72b943e82b085f
 
-106e6d8df4842d816dae23076c501ae48386afcb 63fa58d99a7bc07f2d70ccc7a50aba86dba652c0 refs/heads/for-5.10
-85288b3bf1dbe6d03ca2597791ef97507597532d 4fb87241e5192caf9226fd4ca96ce2fd861503c1 refs/heads/for-5.11
+106e6d8df4842d816dae23076c501ae48386afcb 63fa58d99a7bc07f2d70ccc7a50aba86dba652c0 refs/heads/asoc-5.10
+85288b3bf1dbe6d03ca2597791ef97507597532d 4fb87241e5192caf9226fd4ca96ce2fd861503c1 refs/heads/asoc-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+zC7IACgkQJNaLcl1U
-h9C2zwf+MrtChEZ+K1KMW3bn9GHDMA+H3aIEWvmRZ1nVQGeVTewIahFdNvyt2JQ5
-klPYY4PInGNmwztXrXu4QXTAIgUmd7UW0u5omQOxOGPWfu7nqriiav2Jph0JnhvM
-Q5EVUz5Pc8d4xND/mtvxX0POP3bGPYuft7gleYzGdHdcMzygFVfsdQxs8k3dbOno
-0GEqfEaxVod0eFIE2NzI1fAgx8frakC3RDeZp+S9xviKj7LuQQ/Npv97tjgSTOgT
-WDrZ73UN82Ri3ugpZ67rUC07XOcf+zh7ijD+58IkHfi+xuK0xV+mg1VOzB7tIFzN
-Dl0qkCOQeCq9FL9zc1tdYr814c67Kg==
-=9Uv/
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+zC7gACgkQJNaLcl1U
+h9DZWQf/SAuLtcghJ9ef+Eqm3y6wAhHX4ePofPgXYrdMMRnFDmmFt5xhu6d8qF16
+RtgdJqz1SMir0qWVwYDoTm/lqjgvaIDCpAUUHVCxj0ci/rbc8LmKGSfv4+mAlLvn
+Lwq1yJc2y4QjLUyjXeOWvc7nC7FigcoC9XvCNses4DZgSz0hA/mcwS+HiAsHfjnL
+FWvrzXafsvK6VqSd5iEH7Y6AkmtalfhXLPJRvNWfJqZKL0AI6WnKZsGvYO31XF95
+e01eqB+NP/M08LiHh8ZrgFL6grstT7sPVAdW7dWwi220zHbvYfmCG8h4+zuFPPV1
+zWKs5TN3XQXvD1wBOz4mtMztFOEwWw==
+=pCWc
 -----END PGP SIGNATURE-----
 
---===============2979562004274108438==
+--===============7403310976380159274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -79,4 +79,4 @@ c440c72474e12fcf79bbe716d4796d16b7201031 ASoC: Intel: catpt: Streamline power ro
 47f667afe716113ace014691bfdc134ce9045d18 Merge series "ASoC: pcm512x: Patch series to set fmt from `set_fmt()`" from Kirill Marinushkin <kmarinushkin@birdec.com>:
 4fb87241e5192caf9226fd4ca96ce2fd861503c1 Merge series "ASoC: Intel: catpt: Offload fixes and code optimization" from Cezary Rojewski <cezary.rojewski@intel.com>:
 
---===============2979562004274108438==--
+--===============7403310976380159274==--
