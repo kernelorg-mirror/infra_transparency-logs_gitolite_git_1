@@ -1,31 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============2957178438165228752=="
+Content-Type: multipart/mixed; boundary="===============3953022106376142138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 16 Nov 2020 15:18:26 -0000
-Message-Id: <160553990614.11543.515731762728127624@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 16 Nov 2020 15:20:27 -0000
+Message-Id: <160554002738.13578.3059405587369226467@gitolite.kernel.org>
 
---===============2957178438165228752==
+--===============3953022106376142138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/dev-test
-    old: 3cfa401eafcce79aa2bab823a7e3ce3eb835b433
-    new: f1e19bfbb15cad74ff9246248585e14802540112
-    log: revlist-3cfa401eafcc-f1e19bfbb15c.txt
+  - ref: refs/heads/upstream
+    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
+    new: 09162bc32c880a791c6c0668ce0745cf7958f576
+    log: revlist-3650b228f83a-09162bc32c88.txt
 
---===============2957178438165228752==
+--===============3953022106376142138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3cfa401eafcc-f1e19bfbb15c.txt
+Content-Disposition: attachment; filename=revlist-3650b228f83a-09162bc32c88.txt
 
+6c211809c87f0de939f3bd60ceec05338ae6eba1 devlink: Fix some error codes
+0d8cb9464a7d9c3e6349db3f7719a80f3793347e devlink: Unlock on error in dumpit()
+68b9f0865b1ef545da180c57d54b82c94cb464a4 ravb: Fix bit fields checking in ravb_hwtstamp_get()
+501b72ae2472a15a80c0f4063ee8341870e1ef55 net/sched: act_mpls: Add softdep on mpls_gso.ko
 2ac8af0967aaa2b67cb382727e784900d2f4d0da ibmveth: Fix use of ibmveth in a bridge.
 d6535dca28859d8d9ef80894eb287b2ac35a32e8 net: protect tcf_block_unbind with block lock
 35bc10b2eafbb701064b94f283b77c54d3304842 null_blk: synchronization fix for zoned device
@@ -1046,9 +1050,5 @@ d0a37fd57fbae32adffb56ae9852d551376b7c9b Merge tag 'sched-urgent-2020-11-15' of 
 8f598d15ee6577a56d6617d9e4151591db34d8fa Merge branch 'linux-5.10' of git://github.com/skeggsb/linux into drm-fixes
 a6af8718b98e1cd37a9ea9a02269c79577fc9138 Merge tag 'drm-fixes-2020-11-16' of git://anongit.freedesktop.org/drm/drm
 09162bc32c880a791c6c0668ce0745cf7958f576 Linux 5.10-rc4
-1b2b66d55670675a96b533cf1076fc38fa8646c2 erofs: remove a void EROFS_VERSION macro set in Makefile
-67884b702a6624f33dd89b2e04da65b19cbe7d35 erofs: get rid of magical Z_EROFS_MAPPING_STAGING
-95da9e333099ba28fd3d90e8b4e6a46db2a3db2f erofs: insert to managed cache after adding to pcl
-f1e19bfbb15cad74ff9246248585e14802540112 erofs: complete a missing case for inplace I/O
 
---===============2957178438165228752==--
+--===============3953022106376142138==--
