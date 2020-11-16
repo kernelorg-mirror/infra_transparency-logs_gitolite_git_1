@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 16 Nov 2020 14:17:07 -0000
-Message-Id: <160553622729.1159.13886928487037143192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 16 Nov 2020 14:20:24 -0000
+Message-Id: <160553642466.3683.11421350310005511534@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/wip/experimental_fuse
-    old: baec22e02cece5170041792f5bf455768c266976
-    new: ab08b8211e3b2144388f70bed1deb9365c5ac082
+  - ref: refs/heads/timers/core
+    old: 6e5a91901c2dff3a0f2eb9f10e427dce2b0488fc
+    new: 66981c37b3199d293c58f84cf2366e86a06e1a3d
     log: |
-         ab08b8211e3b2144388f70bed1deb9365c5ac082 erofs-utils: fuse: add compressed file support
+         cc947f2b9c04113d84eeef67cc7c6326e1982019 timers: Make run_local_timers() static
+         66981c37b3199d293c58f84cf2366e86a06e1a3d hrtimer: Fix kernel-doc markups
          
