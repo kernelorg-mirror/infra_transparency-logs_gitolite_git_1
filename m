@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 16 Nov 2020 09:31:32 -0000
-Message-Id: <160551909280.28389.1850909250946541894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
+Date: Mon, 16 Nov 2020 09:37:08 -0000
+Message-Id: <160551942820.31551.17855506298582342033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/mhiramat/linux
+user: mhiramat
 changes:
-  - ref: refs/heads/kvm-arm64/fixes-5.10
+  - ref: refs/heads/bootconfig/fixes
     old: 0000000000000000000000000000000000000000
-    new: 7bab16a6075b7b94999666355ab532c3dabb94f9
+    new: 48d695da63f86551ecd8b5fdacb84652862cc3e5
