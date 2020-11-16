@@ -1,82 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7403310976380159274=="
+Content-Type: multipart/mixed; boundary="===============4478207728250459313=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 16 Nov 2020 23:31:23 -0000
-Message-Id: <160556948308.1871.10032657476659969643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 16 Nov 2020 23:31:29 -0000
+Message-Id: <160556948980.2004.18266122937123260315@gitolite.kernel.org>
 
---===============7403310976380159274==
+--===============4478207728250459313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.10
-    old: 106e6d8df4842d816dae23076c501ae48386afcb
-    new: 63fa58d99a7bc07f2d70ccc7a50aba86dba652c0
+  - ref: refs/heads/for-5.10
+    old: d853b3406903a7dc5b14eb5bada3e8cd677f66a2
+    new: ac9978fcad3c5abc43cdd225441ce9459c36e16b
     log: |
-         1bd7b0fc0165694897b7d2fb39751a07b98f6bf1 ASoC: Intel: KMB: Fix S24_LE configuration
-         bd6327fda2f3ded85b69b3c3125c99aaa51c7881 ASoC: qcom: lpass-platform: Fix memory leak
-         aa9e3fa4992d83acb7311fc86d11d0d53e7ffb8e ASoC: Intel: catpt: Skip position update for unprepared streams
-         1072460a1aabacf6ececda98acd3b5ecaad23fd2 ASoC: Intel: catpt: Correct clock selection for dai trigger
-         63fa58d99a7bc07f2d70ccc7a50aba86dba652c0 Merge Intel catpt DSP fixes into asoc-5.10
+         ac9978fcad3c5abc43cdd225441ce9459c36e16b spi: cadence-quadspi: Fix error return code in cqspi_probe
          
-  - ref: refs/heads/asoc-5.11
-    old: 85288b3bf1dbe6d03ca2597791ef97507597532d
-    new: 4fb87241e5192caf9226fd4ca96ce2fd861503c1
-    log: revlist-85288b3bf1db-4fb87241e519.txt
+  - ref: refs/heads/for-5.11
+    old: 376ccca853fdb9959f7ac5185a428a9f91e71e86
+    new: d73cf07a094fef0ecee57be72f3e1ed5d0560c78
+    log: |
+         f32cce8483f18a098ae50b524f926ef0f2bd2e12 spi: spi-mtk-nor: add axi clock control for MT8192 spi-nor
+         1241f0787578136ab58f49adc52f2dcd2bbc4bf2 spi: dw: fix build error by selecting MULTIPLEXER
+         d73cf07a094fef0ecee57be72f3e1ed5d0560c78 Merge series "add axi clock control for MT8192 spi-nor" from Bayi Cheng <bayi.cheng@mediatek.com>:
+         
 
---===============7403310976380159274==
+--===============4478207728250459313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1605569464 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1605569480-6efa2081b17a5072849e12593f72b943e82b085f
+pusher C3F436CA30F5D8EB 1605569471 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1605569487-9620ef498fd6b7c18f80f03e49274b83d968f353
 
-106e6d8df4842d816dae23076c501ae48386afcb 63fa58d99a7bc07f2d70ccc7a50aba86dba652c0 refs/heads/asoc-5.10
-85288b3bf1dbe6d03ca2597791ef97507597532d 4fb87241e5192caf9226fd4ca96ce2fd861503c1 refs/heads/asoc-5.11
+d853b3406903a7dc5b14eb5bada3e8cd677f66a2 ac9978fcad3c5abc43cdd225441ce9459c36e16b refs/heads/for-5.10
+376ccca853fdb9959f7ac5185a428a9f91e71e86 d73cf07a094fef0ecee57be72f3e1ed5d0560c78 refs/heads/for-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+zC7gACgkQJNaLcl1U
-h9DZWQf/SAuLtcghJ9ef+Eqm3y6wAhHX4ePofPgXYrdMMRnFDmmFt5xhu6d8qF16
-RtgdJqz1SMir0qWVwYDoTm/lqjgvaIDCpAUUHVCxj0ci/rbc8LmKGSfv4+mAlLvn
-Lwq1yJc2y4QjLUyjXeOWvc7nC7FigcoC9XvCNses4DZgSz0hA/mcwS+HiAsHfjnL
-FWvrzXafsvK6VqSd5iEH7Y6AkmtalfhXLPJRvNWfJqZKL0AI6WnKZsGvYO31XF95
-e01eqB+NP/M08LiHh8ZrgFL6grstT7sPVAdW7dWwi220zHbvYfmCG8h4+zuFPPV1
-zWKs5TN3XQXvD1wBOz4mtMztFOEwWw==
-=pCWc
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+zC78ACgkQJNaLcl1U
+h9BHvAf9G9ioVWQP4mWPcx3/zws4YPBn6mJC7ZIxJxqHLPYQp4KW8iW2L/VgkiNU
+AO+Qp3vPKDCuNb+l7mMsOwoJXnKsGRZTrBTmS0HD1qdxzheKVC5XFia61pstYFq9
+97v4AiOkOol8++x4v89VqcDimKeCzjkmW4Y/RD5n4glOZcMhCjnHqoaKx+q9j+FS
+5rzsfrUVdBf7rbS5bC3LJAHV5R5z96aQ4ytId/G6uRyRyQD6QQ4cRhrB7WBO75cz
+waVfpjIwxOL3kV/bOn2zbIgNZBRGutZeUVxV1LpyFl1U7AqLB8eg4rE9bf1S7RmZ
+81qo1JBdp0n37OgXuanjgvuEW4aUAQ==
+=lQvW
 -----END PGP SIGNATURE-----
 
---===============7403310976380159274==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85288b3bf1db-4fb87241e519.txt
-
-6feaaa7c19bde25595e03bf883953f85711e4ac8 ASoC: pcm512x: Fix not setting word length if DAIFMT_CBS_CFS
-798714b6121d833c8abe4161761a94fdd1e73a90 ASoC: pcm512x: Rearrange operations in `hw_params()`
-26b97d95a05d0346e1ad6096deedac3f24a4607b ASoC: pcm512x: Move format check into `set_fmt()`
-25d27c4f68d2040c4772d586be3e02ee99eb71af ASoC: pcm512x: Add support for more data formats
-aa9e3fa4992d83acb7311fc86d11d0d53e7ffb8e ASoC: Intel: catpt: Skip position update for unprepared streams
-1072460a1aabacf6ececda98acd3b5ecaad23fd2 ASoC: Intel: catpt: Correct clock selection for dai trigger
-768a3a3b327da88c2fa6856806d32852a90e75d5 ASoC: Intel: catpt: Optimize applying user settings
-c440c72474e12fcf79bbe716d4796d16b7201031 ASoC: Intel: catpt: Streamline power routines across LPT and WPT
-3d32489838bbf3119bb1ea59cdbed0077d7dbf3c ASoC: Intel: catpt: Cleanup after power routines streamlining
-7141f25f14e03a0b049ffb2010b12abf652a10f3 ASoC: qcom: sc7180: initialize the "no_headphone" variable
-299fe9937dbd1a4d9a1da6a2b6f222298534ca57 ASoC: meson: fix COMPILE_TEST error
-6c2b6bb0d34319ea8390dc8b46465332b1dae025 ASoC: SOF: Intel: initial support for Alderlake-S
-313ebec48dedcac351557b5a84b8b2239951c238 ASoC: qcom: lpass-sc7180: Add 32 bit format support for capture
-60a973862f3c41bc8d4b7a74bd45eda220e248e8 ASoC: qcom: sc7180: Register shutdown handler for lpass platform
-47f667afe716113ace014691bfdc134ce9045d18 Merge series "ASoC: pcm512x: Patch series to set fmt from `set_fmt()`" from Kirill Marinushkin <kmarinushkin@birdec.com>:
-4fb87241e5192caf9226fd4ca96ce2fd861503c1 Merge series "ASoC: Intel: catpt: Offload fixes and code optimization" from Cezary Rojewski <cezary.rojewski@intel.com>:
-
---===============7403310976380159274==--
+--===============4478207728250459313==--
