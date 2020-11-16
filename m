@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0839347011142559362=="
+Content-Type: multipart/mixed; boundary="===============1265165066349641873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 16 Nov 2020 19:25:38 -0000
-Message-Id: <160555473888.24840.8983341148597660282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 16 Nov 2020 19:25:53 -0000
+Message-Id: <160555475384.25063.1121636484140110433@gitolite.kernel.org>
 
---===============0839347011142559362==
+--===============1265165066349641873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: c0a645a7f94409043b5b1d577590bee9b2ce5333
-    new: 72308ecbf33b145641aba61071be31a85ebfd92c
-    log: revlist-c0a645a7f944-72308ecbf33b.txt
+    old: 2f9403baf1fde3c6c42507e4c21f80823ab4009e
+    new: 507055803404287cccfec3eb99a9e119c6024cf1
+    log: |
+         507055803404287cccfec3eb99a9e119c6024cf1 4.9-stable patches
+         
 
---===============0839347011142559362==
+--===============1265165066349641873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c0a645a7f944-72308ecbf33b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b796d04bd014fd24e60ab4a6c604b258ac947825 tcp: factor out tcp_build_frag()
-e2223995a2872c0e23ed44e1dbb493817b567666 mptcp: use tcp_build_frag()
-77c3c95637526f1e4330cc9a4b2065f668c2c4fe tcp: factor out __tcp_close() helper
-ba8f48f7a4d79352b764ace585b5f602ef940be0 mptcp: introduce mptcp_schedule_work
-caf971df01b86f33f151bcfa61b4385cf5e43822 mptcp: reduce the arguments of mptcp_sendmsg_frag
-f0e6a4cf11f16425ccdc69f4410e4fe59719a9ea mptcp: add accounting for pending data
-eaa2ffabfc35580da3fb1d31897fb696c514ea7a mptcp: introduce MPTCP snd_nxt
-e16163b6e2b720fb74e5af758546f6dad27e6c9e mptcp: refactor shutdown and close
-d9ca1de8c0cd7a8ca2a0506e1741418741848e53 mptcp: move page frag allocation in mptcp_sendmsg()
-813e0a683d4cacb668622bc9a1693cb82b5f8ff8 mptcp: try to push pending data on snd una updates
-8edf08649eede6e5a3e39a3d38c63f30039a0c1e mptcp: rework poll+nospace handling
-6f8a612a33e426d473f7161d1950dc00a613494b mptcp: keep track of advertised windows right edge
-7ed90803a213736290bdcf971764ddb8ff3fa44f mptcp: send explicit ack on delayed ack_seq incr
-72308ecbf33b145641aba61071be31a85ebfd92c Merge branch 'mptcp-improve-multiple-xmit-streams-support'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605554805 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1605554752-fc6f70db60e0c1b04f8ecfdd5e282d936b637ba8
 
---===============0839347011142559362==--
+2f9403baf1fde3c6c42507e4c21f80823ab4009e 507055803404287cccfec3eb99a9e119c6024cf1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+y0nUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZWkQALqzpkft2N3Ef2cl0whv
+/zisQMLipErKH88jAjPqmgR5rU2RhLV6tgDGrHTB2ZxsT5nIh0fhOEQOvDCVzUFK
+X7c4vGS4ZB7cVFAz4btWFZdCVLWbiGrHMDlhi5hpPDPBwJ7VPc4i/S/8DC1Ac1om
+mAs0Q3SSTUzdztQw+qhW7H+E4uq9hyTNzl3vcKnn1V8rIlVYacRrysG6c4ZVJEGT
+ACwYckhQSlaPQJXv+qGs/g5odQhzpv23j0how+th/iUFeX2C930lEwmrF3mmNpcp
+wk/m2KzupsJFg2FoiJWH5uZzkaU5cWw6qduWcApAzsdtUhVJQ6h12XTksJSDalLS
+OUlUFdA7uzNqmjs/3ts6+VlGRwBY4u4b4bpkjMWdzdhRDSlHLvYLE+bmpcZ/fJcK
+f+SY2jVF9dKlIrHNxE2jlgRG3sDoeOTM7cZc087T4+pPTDjT+ydhJN7kwzmn1+dZ
+iox0rIf2fT2+4aK0lVpYwaBuRuAvzWIc8AcgX5WjRNAZSojFBEZp8tkkMzEqMmZD
+30C1xil45/ISthT31X6Eb3mL834VVvX/5SG4LVA9EWXIRrAvizB3Lb270ZzgLbDV
+JuefES0cQn8MLsBu3rUFNcSWInMnyrsoPjgf1IL3PU8cbKZ5okStRj9WrQFwntAn
+nUUrxmNYvYgBHTgHZ2P+Aknd
+=ElRH
+-----END PGP SIGNATURE-----
+
+--===============1265165066349641873==--
