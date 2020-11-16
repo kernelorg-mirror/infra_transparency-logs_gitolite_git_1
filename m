@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6281915808497312033=="
+Content-Type: multipart/mixed; boundary="===============8984030212281115632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 16 Nov 2020 08:19:17 -0000
-Message-Id: <160551475750.23600.6839868348142243435@gitolite.kernel.org>
+Date: Mon, 16 Nov 2020 08:19:37 -0000
+Message-Id: <160551477774.23769.13116045458663295745@gitolite.kernel.org>
 
---===============6281915808497312033==
+--===============8984030212281115632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 092561f06702dd4fdd7fb74dd3a838f1818529b7
-    new: 09162bc32c880a791c6c0668ce0745cf7958f576
-    log: revlist-092561f06702-09162bc32c88.txt
+  - ref: refs/heads/char-misc-next
+    old: ef84928cff589c6b42e16b3ef7d2d95469128c80
+    new: 93c69b2d17372463ae33b79b3002c22a208945b3
+    log: revlist-ef84928cff58-93c69b2d1737.txt
 
---===============6281915808497312033==
+--===============8984030212281115632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605514800 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605514824 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1605514745-b40a699a0286e2d748f99078e03cfa222c9940c9
+nonce 1605514770-659abbbc73b29823f10590f42092c27542a08e06
 
-092561f06702dd4fdd7fb74dd3a838f1818529b7 09162bc32c880a791c6c0668ce0745cf7958f576 refs/heads/char-misc-linus
+ef84928cff589c6b42e16b3ef7d2d95469128c80 93c69b2d17372463ae33b79b3002c22a208945b3 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+yNjAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xMYP/15ZOnpuMF+KT8b7ampo
-hRkufhJt82D7t6uPdboOJahvad2hy5l1F0OawLTL/Jjt0fS8+F9Urbzzio47jeZM
-hJ8iZILCzbzZNKqXTcVr0N2jo9ic5Tgpb4qRMjdd9/3hsTSxui3lVyE3p8a6KIj6
-tpw1OTwk0va66xSdtf4FXeg/Bfh7f+CKKvIguKPEoTwe7LVFxk9wD42/CuqTOJhU
-u1Ptkk9jjFW3gFBJYtf6eqdpRGEy++g1WPQf2ixaPRu1OLBc9nz7OFtTqripf0JC
-PGtoxdZ7ZDG2SUYAYJq3BScfoRqZmIExKo+rubKXQe7hHODHzM+ri512KfYKujAG
-nm3JT5wgXpTgZbkqW4/E9Vxb8dlAG2rDfJPgy9/JqZBhpfPdWhJ6/29d7BIyE0xL
-jFi2j7hVZI1gdeEEz4TsTYOlT2wclrVjNyQOafD1+dRz5Q+SIAtC/rRMd2qzziSW
-pEqTyEnUFvaj9GH+9IciKSKpaJQNuemamlzQvzYpJTabyBG8jHuIxY8DyUiUfrEz
-+GwgQuBYfWZaK39Vzpddn3LnYWqOJuZU7eOXScMCP35Tvf51um2oRM+yUK1TKg3C
-QdC3XTe/rpgCIVXZq6+8DPzTNlmuA22+RFMaFmVtEpbZrXU+KDdtUGuIuKNjirSZ
-xSH2lj3Rs+PUUkCi4YGgctVX
-=asp+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+yNkgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++24P/RJaIOtgFTUJGwUqqeIT
+AWQCrGQ6fIuKhRzaARsYiFdolm8Qod6/y8uaGpGwhtQs2Onp8S+XyZ9aIBtz6d6l
+7H/yKsZoekRle0TFnwtLwYR4E90jESCgfWAJPbdfQaa8tZED/Gb7giFROY0pHecA
+fs3LIxoslR2p2F4B84Re0NwSXx37CKBnMctAR8tM8vUuXyIIR3kkNvWztlx+vcUn
+awC1LV+WGVdO0vMXYm61bkKSBn86cBxLho3DGftJUHR/beqmM8wn+Jiku1tRd6ZO
+lNqUFdz+BoLRCzq0blJ6IM+zRw3cTwYk2c2purn6MFko3bC2AtSH43S3yYHeF9S+
+dll3crZDOPAMtNGKR+xL5FFyoz74Itoi8sUVPPIjX16y0D4+ky0tvTFPvrxUyFu9
+5ZGH+yjVAyxWzwQZar7kaNyrDH7NDut4Jv3QBKh9oQkIG5IsF2kEUU4A12D+gxu7
+amXiU+lTWUPfOay/WRDCYxfsbclMHB9gS96KpZr47vRnT+l8JVZ3bYFMENP+DtKb
+MZoWKamRjviY2JKXk2ExZpElP5epOrtrhW7k5OAn56+wEBWSbs7a0kxuMuTLv6ui
+IOAuNVKMJSrKd3wznySiVoWf6IiqcqaOXk6ni6QfDb4QYq9OZK7Kf+o9KLMIAdty
+JMfDUv/Lb+vz1q4Ap8O6Bju0
+=BNYi
 -----END PGP SIGNATURE-----
 
---===============6281915808497312033==
+--===============8984030212281115632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-092561f06702-09162bc32c88.txt
+Content-Disposition: attachment; filename=revlist-ef84928cff58-93c69b2d1737.txt
 
 d76bb7a09bb3b8711077912f3e80cfcf39cd9d0b tools/power turbostat: Print /dev/cpu_dma_latency
 9aefc2cda6353f48708415d9adc5dff4deb73412 tools/power turbostat: Always print idle in the system configuration header
@@ -336,6 +336,7 @@ b6df8c81412190fbd5eaa3cec7f642142d9c16cd sctp: Fix COMM_LOST/CANT_STR_ASSOC err 
 7d2d6d01293e6d9b42a6cb410be4158571f7fe9d drm/panfrost: Fix a deadlock between the shrinker and madvise path
 876b15d2c88d8c005f1aebeaa23f1e448d834757 drm/panfrost: Fix module unload
 077aa5c8dd6e2b9c721e8cb3d98a3aa8ecb0e2ef drm/vc4: drv: Remove unused variable
+bcbc0b2e275f0a797de11a10eff495b4571863fc mei: protect mei_cl_mtu from null dereference
 afaa2e745a246c5ab95103a65b1ed00101e1bc63 USB: Add NO_LPM quirk for Kingston flash drive
 04800fbff4764ab7b32c49d19628605a5d4cb85c nvme: introduce nvme_sync_io_queues
 3017013dcc82a4862bd1e140f8b762cfc594008d nvme-rdma: avoid race between time out and tear down
@@ -446,7 +447,11 @@ a2404fd4823053db08d82582f4361e0978a98a24 drm/amdgpu: update golden setting for s
 2e3a57f4905b4fa6d9b66e9a675c288093c93bf0 amdkfd: Check kvmalloc return before memcpy
 26f4fd6d87cbf72376ee4f6a9dca1c95a3143563 drm/amdgpu: resolved ASD loading issue on sienna
 18e8db7f6526928858dfa99b49d831497f0f8df8 hwmon: (pmbus) Add mutex locking for sysfs reads
+82948e6e1d88d2383b82bd3f95c4241a674cd3d9 habanalabs: fix kernel pointer type
+1137e1ead98c0c75f7c5a9a12f0285c5155f20e2 habanalabs/gaudi: move coresight mmu config
+f83f3a31b2972ddc907fbb286c6446dd9db6e198 habanalabs/gaudi: mask WDT error in QMAN
 b9bc36704cca500e2b41be4c5bf615c1d7ddc3ce ARM, xtensa: highmem: avoid clobbering non-page aligned memory reservations
+a8643626d84b8f2b56cc72b804b5e78a5d1b9672 Merge tag 'misc-habanalabs-fixes-2020-11-04' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-next
 985616f0457d9f555fff417d0da56174f70cc14f USB: serial: cyberjack: fix write-URB completion race
 489979b4aab490b6b917c11dc02d81b4b742784a USB: serial: option: add LE910Cx compositions 0x1203, 0x1230, 0x1231
 d181bfe36715a1834958cf2d62253b624adfae51 Documentation: remove mic/index from misc-devices/index.rst
@@ -704,6 +709,7 @@ f8394f232b1eab649ce2df5c5f15b0e528c92091 Linux 5.10-rc3
 06ad8d339524bf94b89859047822c31df6ace239 drm/gma500: Fix out-of-bounds access to struct drm_device.vblank[]
 6d6a18fdde8b86b919b740ad629153de432d12a8 KVM: selftests: allow two iterations of dirty_log_perf_test
 65c5a055b0d567b7e7639d942c0605da9cc54c5e nvme: fix incorrect behavior when BLKROSET is called by the user
+9d516aa82b7d4fbe7f6303348697960ba03a530b virtio: virtio_console: fix DMA memory allocation for rproc serial
 267fb27352b6fc9fdbad753127a239f75618ecbc perf: Reduce stack usage of perf_output_begin()
 9dfa9a5c9bae3417b87824e7ac73b00c10b6a874 perf/x86: Reduce stack usage for x86_pmu::drain_pebs()
 ce0f17fc93f63ee91428af10b7b2ddef38cd19e5 perf: Fix get_recursion_context()
@@ -715,6 +721,12 @@ e506d1dac0edb2df82f2aa0582e814f9cd9aa07d perf/x86: Make dummy_iregs static
 2714c3962f304d031d5016c963c4b459337b0749 perf: Fix event multiplexing for exclusive groups
 1908dc911792067287458fdb0800f036f4f4e0f6 perf: Tweak perf_event_attr::exclusive semantics
 cadbaa039b99a6d5c26ce1c7f2fc0325943e605a perf/x86/intel: Make anythread filter support conditional
+d7012df3c9aecdcfb50f7a2ebad766952fd1410e speakup: Fix var_id_t values and thus keymap
+640969a69ca4dd2ac025fe873c6bf25eba8f11b3 speakup: Fix clearing selection in safe context
+3ed1cfb2cee4355ddef49489897bfe474daeeaec speakup ttyio: Do not schedule() in ttyio_in_nowait
+d9109fe0f30a1fba66b8623837fc3d3c1a031090 nitro_enclaves: Fixup type and simplify logic of the poll mask setup
+f3217d6f2f7a76b36a3326ad58c8897f4d5fbe31 firmware: xilinx: fix out-of-bounds access
+092561f06702dd4fdd7fb74dd3a838f1818529b7 uio: Fix use-after-free in uio_unregister_device()
 1bd3387979bff49cb3115c497895d78ffd5092e3 Documentation: firmware-guide: gpio-properties: Fix factual mistakes
 0d6c41cf801fd56b92f4359374667061d27a6472 Documentation: firmware-guide: gpio-properties: active_low only for GpioIo()
 8b31e972f9872e5a6a3348506b5b84353fecef58 Documentation: firmware-guide: gpio-properties: Clarify initial output state
@@ -925,5 +937,6 @@ d0a37fd57fbae32adffb56ae9852d551376b7c9b Merge tag 'sched-urgent-2020-11-15' of 
 8f598d15ee6577a56d6617d9e4151591db34d8fa Merge branch 'linux-5.10' of git://github.com/skeggsb/linux into drm-fixes
 a6af8718b98e1cd37a9ea9a02269c79577fc9138 Merge tag 'drm-fixes-2020-11-16' of git://anongit.freedesktop.org/drm/drm
 09162bc32c880a791c6c0668ce0745cf7958f576 Linux 5.10-rc4
+93c69b2d17372463ae33b79b3002c22a208945b3 Merge 5.10-rc4 into char-misc-next
 
---===============6281915808497312033==--
+--===============8984030212281115632==--
