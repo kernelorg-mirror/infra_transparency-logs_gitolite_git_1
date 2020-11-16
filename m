@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 16 Nov 2020 14:33:36 -0000
-Message-Id: <160553721615.13547.6230164226666159466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Mon, 16 Nov 2020 14:42:16 -0000
+Message-Id: <160553773677.19068.1342539032113495087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/experimental
-    old: 61f7a18574a4b6dc9bbaaf42358e0529a4d41f09
-    new: 359a81dd85f9e7a085a7ea0a83156a2faa011d2f
+  - ref: refs/heads/for-next
+    old: 58954b3be8b7a8a0ebf1ced6fbbab808e8ccc4b6
+    new: b111545d26c0d66dd9aae668d9373669e752b075
     log: |
-         359a81dd85f9e7a085a7ea0a83156a2faa011d2f erofs-utils: update README
+         d19ad0775dcd64b49eecf4fa79c17959ebfbd26b ftrace: Have the callbacks receive a struct ftrace_regs instead of pt_regs
+         02a474ca266a47ea8f4d5a11f4ffa120f83730ad ftrace/x86: Allow for arguments to be passed in to ftrace_regs by default
+         2860cd8a235375df3c8ec8039d9fe5eb2f658b86 livepatch: Use the default ftrace_ops instead of REGS when ARGS is available
+         b111545d26c0d66dd9aae668d9373669e752b075 tracing: Remove the useless value assignment in test_create_synth_event()
          
