@@ -1,59 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============8194259137078889721=="
+Content-Type: multipart/mixed; boundary="===============7788311084826476696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 16 Nov 2020 23:31:36 -0000
-Message-Id: <160556949624.2116.13873268337182559298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 16 Nov 2020 23:32:11 -0000
+Message-Id: <160556953143.2448.17118540884924974673@gitolite.kernel.org>
 
---===============8194259137078889721==
+--===============7788311084826476696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.10
-    old: d853b3406903a7dc5b14eb5bada3e8cd677f66a2
-    new: ac9978fcad3c5abc43cdd225441ce9459c36e16b
+  - ref: refs/heads/for-linus
+    old: ee57a9cf54389a500d25541f9d10713f45cd78f0
+    new: 98a0b972f57fc049fab7713e70b227c574845522
     log: |
-         ac9978fcad3c5abc43cdd225441ce9459c36e16b spi: cadence-quadspi: Fix error return code in cqspi_probe
+         1bd7b0fc0165694897b7d2fb39751a07b98f6bf1 ASoC: Intel: KMB: Fix S24_LE configuration
+         bd6327fda2f3ded85b69b3c3125c99aaa51c7881 ASoC: qcom: lpass-platform: Fix memory leak
+         aa9e3fa4992d83acb7311fc86d11d0d53e7ffb8e ASoC: Intel: catpt: Skip position update for unprepared streams
+         1072460a1aabacf6ececda98acd3b5ecaad23fd2 ASoC: Intel: catpt: Correct clock selection for dai trigger
+         63fa58d99a7bc07f2d70ccc7a50aba86dba652c0 Merge Intel catpt DSP fixes into asoc-5.10
+         89c015b1fd09270f167c22f88d5c18b5b73ce7ef Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
+         98a0b972f57fc049fab7713e70b227c574845522 Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
          
-  - ref: refs/heads/spi-5.11
-    old: 376ccca853fdb9959f7ac5185a428a9f91e71e86
-    new: d73cf07a094fef0ecee57be72f3e1ed5d0560c78
-    log: |
-         f32cce8483f18a098ae50b524f926ef0f2bd2e12 spi: spi-mtk-nor: add axi clock control for MT8192 spi-nor
-         1241f0787578136ab58f49adc52f2dcd2bbc4bf2 spi: dw: fix build error by selecting MULTIPLEXER
-         d73cf07a094fef0ecee57be72f3e1ed5d0560c78 Merge series "add axi clock control for MT8192 spi-nor" from Bayi Cheng <bayi.cheng@mediatek.com>:
-         
+  - ref: refs/heads/for-next
+    old: 6f3ff1ddee0f8b0127cadf26781ee60604900a40
+    new: 3e8bbff3a61461a590b4c10222e933b281f2aec6
+    log: revlist-6f3ff1ddee0f-3e8bbff3a614.txt
 
---===============8194259137078889721==
+--===============7788311084826476696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6f3ff1ddee0f-3e8bbff3a614.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1605569477 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1605569494-25fbc7adbe198a7b1bbda036a14b0e68b9c1e77b
+1bd7b0fc0165694897b7d2fb39751a07b98f6bf1 ASoC: Intel: KMB: Fix S24_LE configuration
+bd6327fda2f3ded85b69b3c3125c99aaa51c7881 ASoC: qcom: lpass-platform: Fix memory leak
+6feaaa7c19bde25595e03bf883953f85711e4ac8 ASoC: pcm512x: Fix not setting word length if DAIFMT_CBS_CFS
+798714b6121d833c8abe4161761a94fdd1e73a90 ASoC: pcm512x: Rearrange operations in `hw_params()`
+26b97d95a05d0346e1ad6096deedac3f24a4607b ASoC: pcm512x: Move format check into `set_fmt()`
+25d27c4f68d2040c4772d586be3e02ee99eb71af ASoC: pcm512x: Add support for more data formats
+aa9e3fa4992d83acb7311fc86d11d0d53e7ffb8e ASoC: Intel: catpt: Skip position update for unprepared streams
+1072460a1aabacf6ececda98acd3b5ecaad23fd2 ASoC: Intel: catpt: Correct clock selection for dai trigger
+768a3a3b327da88c2fa6856806d32852a90e75d5 ASoC: Intel: catpt: Optimize applying user settings
+c440c72474e12fcf79bbe716d4796d16b7201031 ASoC: Intel: catpt: Streamline power routines across LPT and WPT
+3d32489838bbf3119bb1ea59cdbed0077d7dbf3c ASoC: Intel: catpt: Cleanup after power routines streamlining
+7141f25f14e03a0b049ffb2010b12abf652a10f3 ASoC: qcom: sc7180: initialize the "no_headphone" variable
+299fe9937dbd1a4d9a1da6a2b6f222298534ca57 ASoC: meson: fix COMPILE_TEST error
+6c2b6bb0d34319ea8390dc8b46465332b1dae025 ASoC: SOF: Intel: initial support for Alderlake-S
+313ebec48dedcac351557b5a84b8b2239951c238 ASoC: qcom: lpass-sc7180: Add 32 bit format support for capture
+60a973862f3c41bc8d4b7a74bd45eda220e248e8 ASoC: qcom: sc7180: Register shutdown handler for lpass platform
+47f667afe716113ace014691bfdc134ce9045d18 Merge series "ASoC: pcm512x: Patch series to set fmt from `set_fmt()`" from Kirill Marinushkin <kmarinushkin@birdec.com>:
+4fb87241e5192caf9226fd4ca96ce2fd861503c1 Merge series "ASoC: Intel: catpt: Offload fixes and code optimization" from Cezary Rojewski <cezary.rojewski@intel.com>:
+63fa58d99a7bc07f2d70ccc7a50aba86dba652c0 Merge Intel catpt DSP fixes into asoc-5.10
+89c015b1fd09270f167c22f88d5c18b5b73ce7ef Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
+98a0b972f57fc049fab7713e70b227c574845522 Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
+3e8bbff3a61461a590b4c10222e933b281f2aec6 Merge remote-tracking branch 'asoc/for-5.11' into asoc-next
 
-d853b3406903a7dc5b14eb5bada3e8cd677f66a2 ac9978fcad3c5abc43cdd225441ce9459c36e16b refs/heads/spi-5.10
-376ccca853fdb9959f7ac5185a428a9f91e71e86 d73cf07a094fef0ecee57be72f3e1ed5d0560c78 refs/heads/spi-5.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+zC8YACgkQJNaLcl1U
-h9AbQAf/WEKr1NvtGoQAL56DATDg3Nb8SzTj/nNYCinU6SsNG+5LEzFZNpMdT1qS
-FCuHk5xNYPdvGtkOGkqzXjzghqjwE5RxVOrW8xl3oArLR3VnTpm/8zePBYUfGO1P
-iVjVi9nRLfbOG4hLZc4nv5iQE2r6n18B0ELQ6AgJ4aF74Lxks7cjR2rIdrdfetG+
-RohRZ7fYjiKC+SbDY/KXULW0ooeIWSPcFBX8QyDv5t7KrBV0Afr1krGqlLPss82e
-3a6wzu0t1S4eRfT16jVqv5ANr4JkxRAxXNrTSr7vT9sVU9y6AhB4TbILrmVFjJ5U
-Rtk/7ZTZea0/7+wiHA6ixUhQYH90PQ==
-=rqgG
------END PGP SIGNATURE-----
-
---===============8194259137078889721==--
+--===============7788311084826476696==--
