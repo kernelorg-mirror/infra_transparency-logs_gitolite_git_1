@@ -1,19 +1,82 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 16 Nov 2020 23:26:17 -0000
-Message-Id: <160556917708.30922.11931620112702966531@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2979562004274108438=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 16 Nov 2020 23:31:16 -0000
+Message-Id: <160556947656.1756.12531614517942403604@gitolite.kernel.org>
+
+--===============2979562004274108438==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 794e442ca39e6c8d46003c430559bdb67a73690c
-    new: cfbaa8b33e022aca62a3f2815ffbc02874d4cb8b
+  - ref: refs/heads/for-5.10
+    old: 106e6d8df4842d816dae23076c501ae48386afcb
+    new: 63fa58d99a7bc07f2d70ccc7a50aba86dba652c0
     log: |
-         cfbaa8b33e022aca62a3f2815ffbc02874d4cb8b cx82310_eth: fix error return code in cx82310_bind()
+         1bd7b0fc0165694897b7d2fb39751a07b98f6bf1 ASoC: Intel: KMB: Fix S24_LE configuration
+         bd6327fda2f3ded85b69b3c3125c99aaa51c7881 ASoC: qcom: lpass-platform: Fix memory leak
+         aa9e3fa4992d83acb7311fc86d11d0d53e7ffb8e ASoC: Intel: catpt: Skip position update for unprepared streams
+         1072460a1aabacf6ececda98acd3b5ecaad23fd2 ASoC: Intel: catpt: Correct clock selection for dai trigger
+         63fa58d99a7bc07f2d70ccc7a50aba86dba652c0 Merge Intel catpt DSP fixes into asoc-5.10
          
+  - ref: refs/heads/for-5.11
+    old: 85288b3bf1dbe6d03ca2597791ef97507597532d
+    new: 4fb87241e5192caf9226fd4ca96ce2fd861503c1
+    log: revlist-85288b3bf1db-4fb87241e519.txt
+
+--===============2979562004274108438==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1605569458 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1605569474-776d879029d6a828409551130e68aeb593f50963
+
+106e6d8df4842d816dae23076c501ae48386afcb 63fa58d99a7bc07f2d70ccc7a50aba86dba652c0 refs/heads/for-5.10
+85288b3bf1dbe6d03ca2597791ef97507597532d 4fb87241e5192caf9226fd4ca96ce2fd861503c1 refs/heads/for-5.11
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+zC7IACgkQJNaLcl1U
+h9C2zwf+MrtChEZ+K1KMW3bn9GHDMA+H3aIEWvmRZ1nVQGeVTewIahFdNvyt2JQ5
+klPYY4PInGNmwztXrXu4QXTAIgUmd7UW0u5omQOxOGPWfu7nqriiav2Jph0JnhvM
+Q5EVUz5Pc8d4xND/mtvxX0POP3bGPYuft7gleYzGdHdcMzygFVfsdQxs8k3dbOno
+0GEqfEaxVod0eFIE2NzI1fAgx8frakC3RDeZp+S9xviKj7LuQQ/Npv97tjgSTOgT
+WDrZ73UN82Ri3ugpZ67rUC07XOcf+zh7ijD+58IkHfi+xuK0xV+mg1VOzB7tIFzN
+Dl0qkCOQeCq9FL9zc1tdYr814c67Kg==
+=9Uv/
+-----END PGP SIGNATURE-----
+
+--===============2979562004274108438==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-85288b3bf1db-4fb87241e519.txt
+
+6feaaa7c19bde25595e03bf883953f85711e4ac8 ASoC: pcm512x: Fix not setting word length if DAIFMT_CBS_CFS
+798714b6121d833c8abe4161761a94fdd1e73a90 ASoC: pcm512x: Rearrange operations in `hw_params()`
+26b97d95a05d0346e1ad6096deedac3f24a4607b ASoC: pcm512x: Move format check into `set_fmt()`
+25d27c4f68d2040c4772d586be3e02ee99eb71af ASoC: pcm512x: Add support for more data formats
+aa9e3fa4992d83acb7311fc86d11d0d53e7ffb8e ASoC: Intel: catpt: Skip position update for unprepared streams
+1072460a1aabacf6ececda98acd3b5ecaad23fd2 ASoC: Intel: catpt: Correct clock selection for dai trigger
+768a3a3b327da88c2fa6856806d32852a90e75d5 ASoC: Intel: catpt: Optimize applying user settings
+c440c72474e12fcf79bbe716d4796d16b7201031 ASoC: Intel: catpt: Streamline power routines across LPT and WPT
+3d32489838bbf3119bb1ea59cdbed0077d7dbf3c ASoC: Intel: catpt: Cleanup after power routines streamlining
+7141f25f14e03a0b049ffb2010b12abf652a10f3 ASoC: qcom: sc7180: initialize the "no_headphone" variable
+299fe9937dbd1a4d9a1da6a2b6f222298534ca57 ASoC: meson: fix COMPILE_TEST error
+6c2b6bb0d34319ea8390dc8b46465332b1dae025 ASoC: SOF: Intel: initial support for Alderlake-S
+313ebec48dedcac351557b5a84b8b2239951c238 ASoC: qcom: lpass-sc7180: Add 32 bit format support for capture
+60a973862f3c41bc8d4b7a74bd45eda220e248e8 ASoC: qcom: sc7180: Register shutdown handler for lpass platform
+47f667afe716113ace014691bfdc134ce9045d18 Merge series "ASoC: pcm512x: Patch series to set fmt from `set_fmt()`" from Kirill Marinushkin <kmarinushkin@birdec.com>:
+4fb87241e5192caf9226fd4ca96ce2fd861503c1 Merge series "ASoC: Intel: catpt: Offload fixes and code optimization" from Cezary Rojewski <cezary.rojewski@intel.com>:
+
+--===============2979562004274108438==--
