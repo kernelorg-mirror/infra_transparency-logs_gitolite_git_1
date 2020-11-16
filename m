@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4444491840689215820=="
+Content-Type: multipart/mixed; boundary="===============2786479828068570654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 16 Nov 2020 09:59:29 -0000
-Message-Id: <160552076921.14454.7002202942521857849@gitolite.kernel.org>
+Date: Mon, 16 Nov 2020 09:59:34 -0000
+Message-Id: <160552077410.14536.13915010839496653994@gitolite.kernel.org>
 
---===============4444491840689215820==
+--===============2786479828068570654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 1fe9bacab2ac5cca29b360e1032e6f7533fbdc78
-    new: 8ae0b65ac7e5b7a93b8d6abc520351ca11d91867
-    log: |
-         95526cccc4863ea93c29917faa8bf4bc4d19d199 m68k: defconfig: Update defconfigs for v5.10-rc1
-         8ae0b65ac7e5b7a93b8d6abc520351ca11d91867 m68k: defconfig: Enable KUnit tests
-         
-  - ref: refs/heads/for-v5.11
-    old: 1fe9bacab2ac5cca29b360e1032e6f7533fbdc78
-    new: 8ae0b65ac7e5b7a93b8d6abc520351ca11d91867
-    log: |
-         95526cccc4863ea93c29917faa8bf4bc4d19d199 m68k: defconfig: Update defconfigs for v5.10-rc1
-         8ae0b65ac7e5b7a93b8d6abc520351ca11d91867 m68k: defconfig: Enable KUnit tests
-         
-  - ref: refs/heads/master
-    old: 5cd4b463cbad1cb3138649e9805788a69446379b
-    new: 9006915d53a2cbba04b1b440a0a42009131b7451
-    log: revlist-5cd4b463cbad-9006915d53a2.txt
+  - ref: refs/heads/m68k-queue
+    old: f6fe5896baa12b580f4b700d97c6ba03dc2e4104
+    new: 6473df0aff63e810323978dfb589a1c635fc4176
+    log: revlist-f6fe5896baa1-6473df0aff63.txt
 
---===============4444491840689215820==
+--===============2786479828068570654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cd4b463cbad-9006915d53a2.txt
+Content-Disposition: attachment; filename=revlist-f6fe5896baa1-6473df0aff63.txt
 
 d76bb7a09bb3b8711077912f3e80cfcf39cd9d0b tools/power turbostat: Print /dev/cpu_dma_latency
 9aefc2cda6353f48708415d9adc5dff4deb73412 tools/power turbostat: Always print idle in the system configuration header
@@ -437,6 +423,10 @@ d0a37fd57fbae32adffb56ae9852d551376b7c9b Merge tag 'sched-urgent-2020-11-15' of 
 8f598d15ee6577a56d6617d9e4151591db34d8fa Merge branch 'linux-5.10' of git://github.com/skeggsb/linux into drm-fixes
 a6af8718b98e1cd37a9ea9a02269c79577fc9138 Merge tag 'drm-fixes-2020-11-16' of git://anongit.freedesktop.org/drm/drm
 09162bc32c880a791c6c0668ce0745cf7958f576 Linux 5.10-rc4
-9006915d53a2cbba04b1b440a0a42009131b7451 Merge tag 'v5.10-rc4'
+267480d48736073b66f40427f3e39f08bd860fa8 m68k: Avoid xchg() warning
+88b04437e43e137a7a3fdde52af3a43aedc99d4a m68k: Remove unused mach_max_dma_address
+c18ed7ee6d00e8604ab6773c92bda5360f9d4467 m68k: atari: usb: Add ISP1160 USB host controller support
+9c65b0ac0a8cded6d44750d8120395c62e3a6008 m68k: atari: Update Kconfig.bus help text
+6473df0aff63e810323978dfb589a1c635fc4176 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4444491840689215820==--
+--===============2786479828068570654==--
