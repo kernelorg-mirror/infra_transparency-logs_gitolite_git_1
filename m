@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Mon, 16 Nov 2020 00:18:06 -0000
-Message-Id: <160548588628.32577.14024952425073999581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 16 Nov 2020 00:47:24 -0000
+Message-Id: <160548764437.20103.893360266506449388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/dev
-    old: d5cb218362f6804ef1810d6a1696dcd9c1afff30
-    new: d770b37bea624948621ec91ae5d4d1b84908ce53
+  - ref: refs/heads/master
+    old: a6af8718b98e1cd37a9ea9a02269c79577fc9138
+    new: 09162bc32c880a791c6c0668ce0745cf7958f576
     log: |
-         8f34675e688eb25ad676ed54d4d2e2a16650e19c squash! srcu: Provide polling interfaces for Tree SRCU grace periods
-         d770b37bea624948621ec91ae5d4d1b84908ce53 squash! srcu: Provide polling interfaces for Tiny SRCU grace periods
+         09162bc32c880a791c6c0668ce0745cf7958f576 Linux 5.10-rc4
          
+  - ref: refs/tags/v5.10-rc4
+    old: 0000000000000000000000000000000000000000
+    new: a93711503472d4c89977ce2c80dcd4b75e36cc45
