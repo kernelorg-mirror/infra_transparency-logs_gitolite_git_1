@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 16 Nov 2020 16:28:45 -0000
-Message-Id: <160554412537.30496.17151725364308607935@gitolite.kernel.org>
+Date: Mon, 16 Nov 2020 16:31:31 -0000
+Message-Id: <160554429123.399.15507061617783967905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,13 @@ repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
   - ref: refs/heads/cp210x-termios
-    old: 37a2489ab5aa80faa672ef41f31128c14ceed269
-    new: 81afa851ae96c8d1931dcfe022658bb33e764c01
+    old: 81afa851ae96c8d1931dcfe022658bb33e764c01
+    new: e3390dcf03d865e06b25dd63abc08b707beb86c9
     log: |
-         101b650412b7f9975a386ffdd1c968753f571f78 USB: serial: cp210x: return early on unchanged termios
-         1aebe1a5c0ec03910a1472e33109cc25f6c7069e USB: serial: cp210x: clean up line-control handling
-         9b7b162e8e5a8262044d3662e19a383a74734c19 USB: serial: cp210x: set terminal settings on open
-         f579ea407d67412c9c0c000e5f9d86310b190c07 USB: serial: cp210x: drop flow-control debugging
-         ef6ded5755aae08740c28cc02d005937660ef27e USB: serial: cp210x: refactor flow-control handling
-         81afa851ae96c8d1931dcfe022658bb33e764c01 USB: serial: cp210x: clean up dts_rts
+         e597da6b39a9debdb9a0f46bddae0993eb8164ec USB: serial: cp210x: return early on unchanged termios
+         eaa86e96b2b5e2d8fd189d7f4f132192111241b3 USB: serial: cp210x: clean up line-control handling
+         45d99fbf8626a81e028770dd8607de91aac9e364 USB: serial: cp210x: set terminal settings on open
+         5056eb77639fe3698bed426eeaed872745969e58 USB: serial: cp210x: drop flow-control debugging
+         95f9cfc42d16b0b85b7f1655ae22daac049f371e USB: serial: cp210x: refactor flow-control handling
+         e3390dcf03d865e06b25dd63abc08b707beb86c9 USB: serial: cp210x: clean up dts_rts
          
