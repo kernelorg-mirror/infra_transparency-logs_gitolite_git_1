@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============7417521794528106728=="
+Content-Type: multipart/mixed; boundary="===============0839347011142559362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 16 Nov 2020 19:25:37 -0000
-Message-Id: <160555473798.24776.4456010783335961469@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 16 Nov 2020 19:25:38 -0000
+Message-Id: <160555473888.24840.8983341148597660282@gitolite.kernel.org>
 
---===============7417521794528106728==
+--===============0839347011142559362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 98d3c19a53d3c070d8e03ed34e76a7b893a88d86
-    new: 2f9403baf1fde3c6c42507e4c21f80823ab4009e
-    log: |
-         2f9403baf1fde3c6c42507e4c21f80823ab4009e 4.4-stable patches
-         
+    old: c0a645a7f94409043b5b1d577590bee9b2ce5333
+    new: 72308ecbf33b145641aba61071be31a85ebfd92c
+    log: revlist-c0a645a7f944-72308ecbf33b.txt
 
---===============7417521794528106728==
+--===============0839347011142559362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c0a645a7f944-72308ecbf33b.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605554789 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1605554735-b3c9b7f4ac8099576b67c8da2b06238c27ac8e87
+b796d04bd014fd24e60ab4a6c604b258ac947825 tcp: factor out tcp_build_frag()
+e2223995a2872c0e23ed44e1dbb493817b567666 mptcp: use tcp_build_frag()
+77c3c95637526f1e4330cc9a4b2065f668c2c4fe tcp: factor out __tcp_close() helper
+ba8f48f7a4d79352b764ace585b5f602ef940be0 mptcp: introduce mptcp_schedule_work
+caf971df01b86f33f151bcfa61b4385cf5e43822 mptcp: reduce the arguments of mptcp_sendmsg_frag
+f0e6a4cf11f16425ccdc69f4410e4fe59719a9ea mptcp: add accounting for pending data
+eaa2ffabfc35580da3fb1d31897fb696c514ea7a mptcp: introduce MPTCP snd_nxt
+e16163b6e2b720fb74e5af758546f6dad27e6c9e mptcp: refactor shutdown and close
+d9ca1de8c0cd7a8ca2a0506e1741418741848e53 mptcp: move page frag allocation in mptcp_sendmsg()
+813e0a683d4cacb668622bc9a1693cb82b5f8ff8 mptcp: try to push pending data on snd una updates
+8edf08649eede6e5a3e39a3d38c63f30039a0c1e mptcp: rework poll+nospace handling
+6f8a612a33e426d473f7161d1950dc00a613494b mptcp: keep track of advertised windows right edge
+7ed90803a213736290bdcf971764ddb8ff3fa44f mptcp: send explicit ack on delayed ack_seq incr
+72308ecbf33b145641aba61071be31a85ebfd92c Merge branch 'mptcp-improve-multiple-xmit-streams-support'
 
-98d3c19a53d3c070d8e03ed34e76a7b893a88d86 2f9403baf1fde3c6c42507e4c21f80823ab4009e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+y0mUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kpcQAIMcfghEV6bvjokzQ0LV
-CF3/9YtaGd1WExe9SJeCXOWp6aL5mwiSz/mlNZUHXAr9LSqVnxaDGYTt11gHjvT3
-UK3YxV4PoLHTDNkiUU+zLQDbX9ORiDf4i2IpND4fDLsjF64d33fBp+pJPino5SdS
-Q3dku6PpybnN6Y7kM+AGw+O6OjbaPeqnFiHKZY4a0AezBz6+ht1KgLWSH5XKpCfm
-4ZtMZoeMuLaNBHKd1S7SChdW16r3cuDyRdZUL/UJTtXyAzP7OfkqydOsp1rYH0EG
-Tm72FHttbOcVMwuomSyhLR6WIRd+ViKXwHZzMqgLiOWYuS5tErSUrFeNZ5vdtvQw
-Q+46PTcQ4xoYWnrt1AWZA6aMcHq2kRPPswHfndz4HjFTTZAf/3ZzJB0cXtX7RQbp
-jmawF264OkDli9F9wcPdJyuIXHXuKI8WkMfsBt3TD4d/XNHkZN2zfi+FmOI4dKib
-9VEjsze5sJ2Gz/KJE2D163YFo9/zW9JYpXfuCdXd+HBobo73UOaLLl7a8SaxBYew
-NOSVGxWwD4IW1I/AU00teum/ym2YeDmHi0a8gD7YIQpogh754bm6nlezrTxFvsna
-edv2u8fCJA+YU5Xln9hNi8M9XBXz/9j2MngA2/xgdMrxr3KfcMJNXlcXml+qRtHH
-6V++uFdf17+kFYsbDt8Xmdks
-=GNj+
------END PGP SIGNATURE-----
-
---===============7417521794528106728==--
+--===============0839347011142559362==--
