@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4677723566813103795=="
+Content-Type: multipart/mixed; boundary="===============1204572691642347313=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 16 Nov 2020 08:17:03 -0000
-Message-Id: <160551462309.22319.9114891729953751088@gitolite.kernel.org>
+Date: Mon, 16 Nov 2020 08:17:16 -0000
+Message-Id: <160551463644.22461.802484620186749403@gitolite.kernel.org>
 
---===============4677723566813103795==
+--===============1204572691642347313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: f8394f232b1eab649ce2df5c5f15b0e528c92091
+  - ref: refs/heads/usb-linus
+    old: 6d853c9e4104b4fc8d55dc9cd3b99712aa347174
     new: 09162bc32c880a791c6c0668ce0745cf7958f576
-    log: revlist-f8394f232b1e-09162bc32c88.txt
+    log: revlist-6d853c9e4104-09162bc32c88.txt
 
---===============4677723566813103795==
+--===============1204572691642347313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605514671 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605514684 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1605514616-815d1e5675e1a31c3bdc1a38547a4f1a3a51a1f7
+nonce 1605514630-4481e920b728e2f55c9db5368d120c4bae7ade3b
 
-f8394f232b1eab649ce2df5c5f15b0e528c92091 09162bc32c880a791c6c0668ce0745cf7958f576 refs/heads/main
+6d853c9e4104b4fc8d55dc9cd3b99712aa347174 09162bc32c880a791c6c0668ce0745cf7958f576 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+yNa8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CHsP/3PZ/nMOCFJ4N7jVsHaI
-1sCFVhNGbOUNQVxPwuxm9Fwvmf+SWdg3CmU8yNOLllgfxjP/rdy7fEVrJHPEaM6k
-xkvEds/IQdoTZkM+g7HWQ8LkfZPn7OoPjtvwbQvaxcU2w5V1rTzvuBqWdTs3yYRM
-PRA797A/ut2x+LsAYGz2HXPR0aDOvT3DuBeBaYBAKkRSne5eRQEm3b2VJ2FzpsNa
-DleXx6RiSMEZsgQx7/Z+v7a6UVf8AFesk7/cNNUCTxGRfB6+UkjutPT4FYDgY46t
-3T7hfgVL7Cchx4qPrDTlBnYmvIWZTFrsSZsC1pT4SzjN2fviZkvUv8mZpuYmR8qI
-39MbeIsC+N3KXqqnQEsWq6u9bJ9Q/y/5BjSb6hosPpnJQU8GCQp1jhF5X/3PMEj1
-iiIM125NO9FZ7pOMpTCxjadHiTUE9gibAzISU+NpD37gLnDjEEzUbvo2bJV3Do6J
-Vca5j3AFl3lXB7SEovUx7PRWs/c0SH3YyJp3TWVrrpc3DJBu0iZSTJAw7H40kejk
-zOXS2yjPi9UnwnVskW77nhm2uJCiLxagBBKlgBNNbALZKofHvvsQD90a9QHlNnoZ
-amN15wjDrwpa9UEZXqPAfULHu3NgzLLHedohjU2UnmblQSK30X+EyXS6d3Hjjn2W
-9b0ZzDkr0Ucwz/7ofLS5Hc5A
-=U8oN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+yNbwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7rEQAMELJ6R3VRl99u/JaN8c
+pXkClmMyfExCkpS9BBXETd4Ehzxb7GJj6p+jbAKqthZcQZN1+ZUHe4CXJ33vGAH3
+50xFUtEqbdQ+UZx7Obab7Qa0RVx/VOvVQ1IQfvknqTWYloSGeuqYzmZYhTruNciS
+mxJWrsElbWYHUb+8VZcKqv8HITJd5uAAutJA9goKF1NF+33vISLzLWPcNAnlGYpa
+teZaHOaVS94ZC9+ovpgBPI7hPaZfisHuT+3Rcv0RScTTee/NKT7eQjAcnKRSWx8u
+qiOUa1O72SzAJmGgLlAO9vhVPX73EHzv8gDKrKHD9eb2INI03yA5BiWynBaRtIux
+sCsf4gne1z/B+6xvBE7KlwqLV09w8FmBOs5styfUCh8yPZ06RqCLkkUz6quXO4u6
+zVEiyWGMMQeAhG0brV0A6GxnTONB4TwLDY5xI2aCmfcxG/KbQgtJvJB2KcIFbs5A
+6Ptz+7kivcxx/h+Lj8kU/hfJcflthiLDU+Fcnj8JOpT52ZOS6QWy3K2fxV3YG1DS
+e/865jU/h/T1csjDkwjxIlZRIo7TeE92gMhmY6gFTvgjMcZnZ5WMVVZVr3qrJdcC
+183hbx4rQN2LNPxnf2nXc1SeCeSQ3UY/cE6K903lYgilju4sApAigd6p21GW9G/q
+UYXW9gSun4sLuq23WaaJrdON
+=3XcL
 -----END PGP SIGNATURE-----
 
---===============4677723566813103795==
+--===============1204572691642347313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8394f232b1e-09162bc32c88.txt
+Content-Disposition: attachment; filename=revlist-6d853c9e4104-09162bc32c88.txt
 
 d76bb7a09bb3b8711077912f3e80cfcf39cd9d0b tools/power turbostat: Print /dev/cpu_dma_latency
 9aefc2cda6353f48708415d9adc5dff4deb73412 tools/power turbostat: Always print idle in the system configuration header
@@ -79,7 +79,6 @@ f3c75e7a9349d1d33eb53ddc1b31640994969f73 pinctrl: intel: Set default bias in cas
 3fe37204c9a233d1bd852b98bca43ec61854ba78 gpio: dwapb: Fix missing conversion to GPIO-lib-based IRQ-chip
 560b6ac37a87fcb78d580437e3e0bc2b6b5b0295 gpio: aspeed: fix ast2600 bank properties
 402dab548d0da38b260f3843225cdfd37d91f512 hwmon: (pmbus/max20730) use scnprintf() instead of snprintf()
-7342ca34d931a357d408aaa25fadd031e46af137 thunderbolt: Add the missed ida_simple_remove() in ring_request_msix()
 472547778de24e2764ab325268dd5b77e6923939 selftest/bpf: Fix profiler test using CO-RE relocation for enums
 29813a2297910d5c4be08c7b390054f23dd794a5 asm-generic: percpu: avoid Wshadow warning
 9fa2e7af3d53a4b769136eccc32c02e128a4ee51 ARM: 9019/1: kprobes: Avoid fortify_panic() when copying optprobe template
@@ -121,9 +120,6 @@ da3fecb0040324c08f1587e5bff1f15f36be1872 scsi: ufs: Fix unbalanced scsi_block_re
 0f52fcb99ea2738a0a0f28e12cf4dd427069dd2a scsi: ufs: Try to save power mode change and UIC cmd completion timeout
 2b12c13637134897ba320bd8906a8d918ee7069b pinctrl: mcp23s08: Use full chunk of memory for regmap configuration
 a835d3a114ab0dc2f0d8c6963c3f53734b1c5965 pinctrl: mcp23s08: Print error message when regmap init fails
-a663e0df4a374b8537562a44d1cecafb472cd65b thunderbolt: Fix memory leak if ida_simple_get() fails in enumerate_services()
-77455129fb5b2a8749330b2b40d0c8750b6bf076 thunderbolt: Add uaccess dependency to debugfs interface
-f8fa2c2e63c76e5d73526f38bdde59fdcfbea166 thunderbolt: Only configure USB4 wake for lane 0 adapters
 a1fbc6750e212c5675a4e48d7f51d44607eb8756 btrfs: fix potential overflow in cluster_pages_for_defrag on 32bit arch
 e38fdb716702879a942017c85e84c0a3a9e4af96 btrfs: print the block rsv type when we fail our reservation
 fca3a45d08782a2bb85e048fb8e3128b1388d7b7 btrfs: fix min reserved size calculation in merge_reloc_root
@@ -149,7 +145,6 @@ a422490a595600659664901b609aacccdbba4a5f drm/amd/display: Add missing pflip irq
 f9b7ff0d7f7a466a920424246e7ddc2b84c87e52 tools/bpftool: Fix attaching flow dissector
 7c0afcad7507636529e6a5a2a5eef5482619a449 bpf: BPF_PRELOAD depends on BPF_SYSCALL
 d3bec0138bfbe58606fc1d6f57a4cdc1a20218db bpf: Zero-fill re-used per-cpu map element
-f6439c531d52193f890807958aaec52905bc0f2e thunderbolt: Add support for Intel Tiger Lake-H
 d8f270efeac850c569c305dc0baa42ac3d607988 gpio: pcie-idio-24: Fix irq mask when masking
 23a7fdc06ebcc334fa667f0550676b035510b70b gpio: pcie-idio-24: Fix IRQ Enable Register value
 10a2f11d3c9e48363c729419e0f0530dea76e4fe gpio: pcie-idio-24: Enable PEX8311 interrupts
@@ -260,7 +255,6 @@ df3319a548cdb3f3bcbaf03bbd02822e39a136c6 Merge tag 'erofs-for-5.10-rc4-fixes' of
 413691384a37fe27f43460226c4160e33140e638 ethtool: netlink: add missing netdev_features_change() call
 16eb0eb835c77c5e8824b8aa90b11b00ddc5c122 docs: networking: phy: s/2.5 times faster/2.5 times as fast/
 989ef49bdf100cc772b3a8737089df36b1ab1e30 mptcp: provide rmem[0] limit
-368183029cc4055c571ed19ceaa49c35de996611 Merge tag 'thunderbolt-for-v5.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 e8973201d9b281375b5a8c66093de5679423021a mmc: renesas_sdhi_core: Add missing tmio_mmc_host_free() at remove
 71b053276a87ddfa40c8f236315d81543219bfb9 mmc: sdhci-of-esdhc: Handle pulse width detection erratum for more SoCs
 1023e290ba567af0640f9a5bd878207a5dff6ed2 mmc: tmio: when resetting, reset DMA controller, too
@@ -397,11 +391,6 @@ ff828729be446b86957f7c294068758231cd2183 iommu/vt-d: Cure VF irqdomain hickup
 51b958e5aeb1e18c00332e0b37c5d4e95a3eff84 KVM: x86: clflushopt should be treated as a no-op by emulation
 0107973a80adad5b73232d3fbcd26f710ab1f851 KVM: x86: Introduce cr3_lm_rsvd_bits in kvm_vcpu_arch
 96308b066184d6dcdb677890e620e68290ae98ae KVM: SVM: Update cr3_lm_rsvd_bits for AMD SEV guests
-ffa13d2d94029882eca22a565551783787f121e5 Revert "usb: musb: convert to devm_platform_ioremap_resource_byname"
-76255470ffa2795a44032e8b3c1ced11d81aa2db xhci: hisilicon: fix refercence leak in xhci_histb_probe
-0e6371fbfba3a4f76489e6e97c1c7f8386ad5fd2 usb: typec: ucsi: Report power supply changes
-4df694a477685a3df7b561bfe6393db073bf476c MAINTAINERS: add usb raw gadget entry
-6d853c9e4104b4fc8d55dc9cd3b99712aa347174 usb: cdc-acm: Add DISABLE_ECHO for Renesas USB Download mode
 60268b0e8258fdea9a3c9f4b51e161c123571db3 hwmon: (amd_energy) modify the visibility of the counters
 3bbb73f8e60f505aced2ae820436cdacdbb19bca dt-bindings: can: fsl,flexcan.yaml: fix compatible for i.MX35 and i.MX53
 bdac39a3bd28891fb0ded91c9152459c57773462 dt-bindings: clock: imx5: fix example
@@ -455,4 +444,4 @@ d0a37fd57fbae32adffb56ae9852d551376b7c9b Merge tag 'sched-urgent-2020-11-15' of 
 a6af8718b98e1cd37a9ea9a02269c79577fc9138 Merge tag 'drm-fixes-2020-11-16' of git://anongit.freedesktop.org/drm/drm
 09162bc32c880a791c6c0668ce0745cf7958f576 Linux 5.10-rc4
 
---===============4677723566813103795==--
+--===============1204572691642347313==--
