@@ -1,57 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============7318607092355418841=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 16 Nov 2020 08:20:05 -0000
-Message-Id: <160551480506.25390.13524107478802221460@gitolite.kernel.org>
-
---===============7318607092355418841==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 16 Nov 2020 08:20:24 -0000
+Message-Id: <160551482425.25591.12377771969499867623@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/tags/v5.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 4d3d761b5b27bb33a731e8df51b7fb6a6c565804
-  - ref: refs/tags/v5.10-rc4
-    old: 0000000000000000000000000000000000000000
-    new: a93711503472d4c89977ce2c80dcd4b75e36cc45
-
---===============7318607092355418841==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605514853 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1605514798-b61cfca7c2fb561bb554fef75ae6ac93bea06f48
-
-0000000000000000000000000000000000000000 4d3d761b5b27bb33a731e8df51b7fb6a6c565804 refs/tags/v5.10-rc3
-0000000000000000000000000000000000000000 a93711503472d4c89977ce2c80dcd4b75e36cc45 refs/tags/v5.10-rc4
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+yNmUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3hwQAJwXEVNjbTuGItqHwSHE
-DhWEIEHiYyW+NcrYfUUJy/s/YTNLFOlNjaErlZMUobLXFCxpYljMEFkZMFslXvf5
-1cNFzDl49CTYHHX/rPoiTeUZeTNNBjMbxxJMBIyA4ruwE01W4RVUJJSx5HPmZ+rs
-ZFvN8eiPYPo0ftrwyf5oHRfhlwt0k50Hj7LxoLZVrfk+bEGXvp9wDOyiIhD5ov82
-1Teu2hUjGZTvwz9Y+Nz2wYLx2eqyWH8cjvutNxmzbInCAvMy8SLPOrJ8C6LmmlPe
-0tClpLu6hQ4a8gvxwNKM9mgvXdoC+eL2FWFwsjZA35fQpn2JporP1kksmI9gU6MH
-pmB6C+6be/CukER4FJWcYOo6sWwd3ELtMEpOOqNWSB3xjmc2lWAwzveQblxGZave
-BEC3QDkYT61YLEEGOhtESmM98iFAXlyIygdF5plSHYnUn3IsyFxLpaXeNd22rWrl
-ugLtO67v0ZN4IEbx3vgMY7zCO1IfHuZd/8GeRI2dIJAKMZQ32DCQJiBkhjUIB/6s
-rxL2zhc1/vSXLP41BKUYLE/AQtAwVM92JDY7HSLMUlFbxOu+DQhC6qszxG4w403e
-/Y2jbwmdC06egVPAsMj4y1WQQeuCR87+896hMNvc6lZ6EsvRwvC1uR04EfqoVdlY
-kq2gK1EnSJIqaWYAPlAHdSV4
-=q8c8
------END PGP SIGNATURE-----
-
---===============7318607092355418841==--
+  - ref: refs/heads/net-next
+    old: 01433955676b9e2535eaa516e11448c80cad986a
+    new: afc9db0965849d0fcea25e946bf788f945d8cb3f
+    log: |
+         53a0f60bb63cfebce65f55aa75e920b83c136a25 Merge commit 'refs/changes/83/331183/15' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+         efe6da922538f2647d1a05076fb5e39d48fe16d4 Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+         77c5eaf3ca55711abff53104e435df5794c34897 Merge commit 'refs/changes/48/344848/6' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+         59884f4441af3137dc848a9dd78fa6db8537721e Merge branch 'net-next-mlx4' into net-next
+         57d35af4120adc6d7735cd812bf687e49dbe26ca Merge branch 'mlx5-vdpa' into net-next
+         94456375097ed98360a095c432a11918b7968a00 Merge branch 'net-next-mlx5' into net-next
+         8a936c50519bc318611220d2ef59888871658814 Merge branch 'net-mlx4' into net-next
+         f42fae828a6ddf2b3eb1469956e71653ff19f86e Merge branch 'net-mlx5' into net-next
+         afc9db0965849d0fcea25e946bf788f945d8cb3f Merge branch 'net-next-test' into net-next
+         
