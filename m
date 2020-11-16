@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Mon, 16 Nov 2020 21:44:23 -0000
-Message-Id: <160556306397.23194.1484729455006382598@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Mon, 16 Nov 2020 21:49:14 -0000
+Message-Id: <160556335456.26252.11750027210668991141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/queue-rc
-    old: 7d665986cb16358a1a45e14719a4aa594bc25d72
-    new: b7d33236818938b9988846bc824a332c93e8d4a5
+  - ref: refs/heads/memfd-secret/v9
+    old: ed527ce1efccc73fed9a8d0dc94105456188dbb3
+    new: 26e18e91d34320f4c8ec19039774d52efd8cd07e
     log: |
-         8c3455d19ff5e7c2c57218adeaba8aea0df4f0b3 net/mlx5: fix error return code in mlx5e_tc_nic_init()
-         769940c45a8f4634a2905616cb6f14bc68ac9ff7 Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
-         55a938716b43689ab89b383da6b553eb48ef23e6 Merge commit 'refs/changes/48/344848/6' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
-         7bf11a8581553635cd6137a5b38a67f977d30423 Merge branch 'net-mlx4' into net-rc
-         3dff65c585650e9c306758af20fc6624527577e5 Merge branch 'net-mlx5' into net-rc
-         90cd9108be7e76c439afeb4cadfb398ac7391597 Merge branch 'net-mlx5-test' into net-rc
-         1fbc322a2c333b4d4f68cb8d56daf3d662ed167a Merge branch 'net-rc' into queue-rc
-         b7d33236818938b9988846bc824a332c93e8d4a5 Merge branch 'testing/rdma-rc' into queue-rc
+         af034f05cd5c0272abdd1496af24ec94840ba599 mm: introduce memfd_secret system call to create "secret" memory areas
+         b0f48a7c3d760e364331d2c470a89a7026f98880 secretmem: use PMD-size pages to amortize direct map fragmentation
+         1d76aea094b322951294c52a7f31065fcb817f16 secretmem: add memcg accounting
+         5aab9500f09b225b44b7f99d631574b559d71ec8 PM: hibernate: disable when there are active secretmem users
+         73f524af58c4d45b217a5507a4467b42050e3402 arch, mm: wire up memfd_secret system call were relevant
+         26e18e91d34320f4c8ec19039774d52efd8cd07e secretmem: test: add basic selftest for memfd_secret(2)
          
