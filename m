@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 16 Nov 2020 23:50:44 -0000
-Message-Id: <160557064401.14550.99904737064047587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 17 Nov 2020 00:10:25 -0000
+Message-Id: <160557182570.28696.16822596207746803752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 35f735c665114840dcd3142f41148d07870f51f7
-    new: 7a30ecc9237681bb125cbd30eee92bef7e86293d
+  - ref: refs/heads/wip/experimental_fuse
+    old: 00531ba9f2997b7bbedf3697dd886d9a946899e5
+    new: 3b53590f6116849b9451d42c95607b69374b79a9
     log: |
-         7a30ecc9237681bb125cbd30eee92bef7e86293d net: bridge: add missing counters to ndo_get_stats64 callback
+         f25ba56efeedbddf648aae5263607205dc0806c7 erofs-utils: introduce fuse implementation
+         a124acdf53e298c13d38e1944809f7f29a0cfec1 erofs-utils: fuse: support symlink & special inode
+         3b53590f6116849b9451d42c95607b69374b79a9 erofs-utils: fuse: add compressed file support
          
