@@ -1,58 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============0685091326083424015=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 17 Nov 2020 22:36:33 -0000
-Message-Id: <160565259321.22384.919420664151228951@gitolite.kernel.org>
-
---===============0685091326083424015==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 17 Nov 2020 22:37:05 -0000
+Message-Id: <160565262541.22670.12364292977340575067@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.10
-    old: ac9978fcad3c5abc43cdd225441ce9459c36e16b
-    new: 04a9cd51d3f3308a98cbc6adc07acb12fbade011
+  - ref: refs/heads/for-linus
+    old: 98a0b972f57fc049fab7713e70b227c574845522
+    new: 2f1d1021e756f4a29a242ccc2eaf8a74f4bf1de0
     log: |
-         a41b0ad07bfa081584218431cb0cd7e7ecc71210 spi: dw: Set transfer handler before unmasking the IRQs
-         04a9cd51d3f3308a98cbc6adc07acb12fbade011 spi: npcm-fiu: Don't leak SPI master in probe error path
+         e8f84e5ff2b9b2eceba32a9772ef8c4481e5f665 Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
+         2f1d1021e756f4a29a242ccc2eaf8a74f4bf1de0 Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
          
-  - ref: refs/heads/spi-5.11
-    old: d73cf07a094fef0ecee57be72f3e1ed5d0560c78
-    new: 6e3dbfcb3c8a1ef8cc73a8637f778673f5c6e91c
+  - ref: refs/heads/for-next
+    old: 3e8bbff3a61461a590b4c10222e933b281f2aec6
+    new: fa0ac85f2d8d09addeb58d1cb0a9b7268e7023b6
     log: |
-         6e3dbfcb3c8a1ef8cc73a8637f778673f5c6e91c spi: imx: Remove unused .id_table support
+         f077770b2675feb2ea2188ef7109d5a41545e7a9 ASoC: adau1977: convert text binding to yaml format
+         e1ade4c55ae3559b082faf9f5207cc6caba1c546 ASoc: adi: Kconfig: Remove depends on for ADI reference designs
+         674226db62ec758c4575bcdb933a2410f1a29bbf ASoC: fsl: SND_SOC_FSL_AUD2HTX should depend on ARCH_MXC
+         9a207228bdf0a4933b794c944d7111564353ea94 ASoC: intel: SND_SOC_INTEL_KEEMBAY should depend on ARCH_KEEMBAY
+         5268e0bf7123c422892fec362f5be2bcae9bbb95 ASoC: Fix 7/8 spaces indentation in Kconfig
+         e8f84e5ff2b9b2eceba32a9772ef8c4481e5f665 Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
+         2f1d1021e756f4a29a242ccc2eaf8a74f4bf1de0 Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
+         fa0ac85f2d8d09addeb58d1cb0a9b7268e7023b6 Merge remote-tracking branch 'asoc/for-5.11' into asoc-next
          
-
---===============0685091326083424015==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1605652574 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1605652590-73e5936c5ec76908a39bde8d8c760d588cd19158
-
-ac9978fcad3c5abc43cdd225441ce9459c36e16b 04a9cd51d3f3308a98cbc6adc07acb12fbade011 refs/heads/spi-5.10
-d73cf07a094fef0ecee57be72f3e1ed5d0560c78 6e3dbfcb3c8a1ef8cc73a8637f778673f5c6e91c refs/heads/spi-5.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+0UF4ACgkQJNaLcl1U
-h9DNdAf/V4e0nGzB0zxNOeZecACerXb+ZRZ3mNNiefPW4YtJWMPmFMJZk7WSm8xt
-RBiNbL9SoSj1PZcongXybIdQKdQoiJgOq0eiIzPn6yaXCi/VOM7ms6hQ/4tpiWlW
-77XkL7ukredtp9/DgR259D6bP6ED2l+E7voA7fWaXC+z8HaWDuLkx6Qdd+xosgT3
-nhL5Ii6ss4MoPUOZKscLyUqgL7VB8FzmpVIp1SA8varr/pgCe3uH3wRUZLnkuU6M
-5WbCq5vqvre+ds0jgkUmFktmo5k6TEcLBAT3bXWNQugtgDSCVkYn/gFUYlfNYgJ3
-RRGKOwfKxON3D2wL9uDzj7nqRM6gCw==
-=4SqN
------END PGP SIGNATURE-----
-
---===============0685091326083424015==--
