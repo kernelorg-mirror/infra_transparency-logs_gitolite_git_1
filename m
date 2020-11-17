@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 17 Nov 2020 12:18:02 -0000
-Message-Id: <160561548204.2557.11275467609288732855@gitolite.kernel.org>
+Date: Tue, 17 Nov 2020 12:18:11 -0000
+Message-Id: <160561549172.2727.1034188947042150533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: dc824eb898534cd8e34582874dae3bb7cf2fa008
-    new: afe424bc6724ff0c808c0fcd21d166957e9f9a1a
+  - ref: refs/heads/locking/core
+    old: 932f8c64d38bb08f69c8c26a2216ba0c36c6daa8
+    new: 7c6d58b59f2acd791040643a5545e3b7a41c575f
     log: |
-         8098de594e02273fff8e73ce0123e0c108dc5f2d sched/core: Add missing completion for affine_move_task() waiters
-         81dd903820d7550fd32ff916b09d7e5638972ad9 sched: Fix migration_cpu_stop() WARN
-         ba8d0c3053fb124ef442e3e2d5cc99b5e45f9c33 cpuset: fix race between hotplug work and later CPU offline
-         5e231a21640a0fb1abeae1c5ccee9061e0297d4e sched/topology: Warn when NUMA diameter > 2
-         404f5d762b66d1de646a7351222dce369dbe4f7a Documentation: scheduler: fix information on arch SD flags, sched_domain and sched_debug
-         6f9d5320370cc9de6f5fba528a7afcd72f71ef9a sched/core: Fix typos in comments
-         afe424bc6724ff0c808c0fcd21d166957e9f9a1a sched/uclamp: Allow to reset a task uclamp constraint value
+         b9a1c9f3a8e2004b6a254dd627f73bd37ca63381 seqlock: avoid -Wshadow warnings
+         b0ce55e7649486e099a8a498e7e49c5d5a728cc5 lockdep/selftests: Fix PROVE_RAW_LOCK_NESTING
+         bb9bf5e9ba8f4d31a9bd464572b4069c4d9d7f63 lockdep/selftest: Add spin_nest_lock test
+         61df757322ad0c37d7cb3ee6948bf04250e928b1 seqlock: Rename __seqprop() users
+         6b1d8ca4e81d1d36568647d93c45066a3dec600d atomic: Delete obsolute documentation
+         7c6d58b59f2acd791040643a5545e3b7a41c575f atomic: Update MAINTAINERS
          
