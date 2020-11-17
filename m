@@ -1,105 +1,126 @@
-Content-Type: multipart/mixed; boundary="===============5790384382396890663=="
+Content-Type: multipart/mixed; boundary="===============6973433357707803784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 17 Nov 2020 12:20:01 -0000
-Message-Id: <160561560143.4616.1732781830105493332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Tue, 17 Nov 2020 12:20:23 -0000
+Message-Id: <160561562325.6126.997785134004651478@gitolite.kernel.org>
 
---===============5790384382396890663==
+--===============6973433357707803784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: fe4adf6f92c4fc0e29775f35d22d83edaabde539
-    new: 3d8c1e050aa5dbd035a9811b339223d73c2eca02
-    log: revlist-fe4adf6f92c4-3d8c1e050aa5.txt
+  - ref: refs/heads/linux-4.4.y
+    old: dc83df3f797ebd842035f7c6800bdf7ae8e66689
+    new: 5c64a4febafe0af1834cf497df8985d917a94b05
+    log: revlist-dc83df3f797e-5c64a4febafe.txt
 
---===============5790384382396890663==
+--===============6973433357707803784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe4adf6f92c4-3d8c1e050aa5.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8e1ac4299a6e8726de42310d9c1379f188140c71 sched/fair: Fix overutilized update in enqueue_task_fair()
-f97bb5272d9e95d400d6c8643ebb146b3e3e7842 sched: Fix data-race in wakeup
-ec618b84f6e15281cc3660664d34cd0dd2f2579e sched: Fix rq->nr_iowait ordering
-2279f540ea7d05f22d2f0c4224319330228586bc sched/deadline: Fix priority inheritance with multiple scheduling classes
-43be4388e94b915799a24f0eaf664bf95b85231f lockdep: Put graph lock/unlock under lock_recursion protection
-ebd19fc372e3e78bf165f230e7c084e304441c08 perf/x86: fix sysfs type mismatches
-8098de594e02273fff8e73ce0123e0c108dc5f2d sched/core: Add missing completion for affine_move_task() waiters
-81dd903820d7550fd32ff916b09d7e5638972ad9 sched: Fix migration_cpu_stop() WARN
-ba8d0c3053fb124ef442e3e2d5cc99b5e45f9c33 cpuset: fix race between hotplug work and later CPU offline
-5e231a21640a0fb1abeae1c5ccee9061e0297d4e sched/topology: Warn when NUMA diameter > 2
-404f5d762b66d1de646a7351222dce369dbe4f7a Documentation: scheduler: fix information on arch SD flags, sched_domain and sched_debug
-6f9d5320370cc9de6f5fba528a7afcd72f71ef9a sched/core: Fix typos in comments
-afe424bc6724ff0c808c0fcd21d166957e9f9a1a sched/uclamp: Allow to reset a task uclamp constraint value
-b9a1c9f3a8e2004b6a254dd627f73bd37ca63381 seqlock: avoid -Wshadow warnings
-b0ce55e7649486e099a8a498e7e49c5d5a728cc5 lockdep/selftests: Fix PROVE_RAW_LOCK_NESTING
-bb9bf5e9ba8f4d31a9bd464572b4069c4d9d7f63 lockdep/selftest: Add spin_nest_lock test
-61df757322ad0c37d7cb3ee6948bf04250e928b1 seqlock: Rename __seqprop() users
-6b1d8ca4e81d1d36568647d93c45066a3dec600d atomic: Delete obsolute documentation
-7c6d58b59f2acd791040643a5545e3b7a41c575f atomic: Update MAINTAINERS
-524680ce47a1ea221755058b6cc44cded85b5a7a mm/gup: Provide gup_get_pte() more generic
-44a35d6937d21340dd1d4a15ad2064226878bd93 mm: Introduce pXX_leaf_size()
-2f1e2f091ad0ea159bc7e6f3df996839cf0a6c06 perf/core: Fix arch_perf_get_page_size()
-7649e44aacdd7ab11c9487663759c14d85d81374 arm64/mm: Implement pXX_leaf_size() support
-1df1ae7e262c01bc22cf3a8b2eb7145c03e881f6 sparc64/mm: Implement pXX_leaf_size() support
-39158b76c2ab8784b5f9053a4eb0d2aebd8a0d87 perf/intel: Remove Perfmon-v4 counter_freezing support
-f77797cc8221fc71a6bd6ed97b7c52193c0f46a1 Merge branch 'sched/core'
-354f128e99851b686ba77b5e6627816bd0ba72fc irq_work: Cleanup
-159eb3a6d4fc8587d5c42804012808cd6dd7144f smp: Cleanup smp_call_function*()
-622b465a538e689b1f480fbf5192ced46030f322 irq_work: Optimize irq_work_single()
-c064210c14e63bcbacea5e43e5a01d49949afbfb irq_work: Unconditionally build on SMP
-316c15b9bb32a2761729ef04aa7c763a44ab5011 irq_work: Provide irq_work_queue_remote()
-71b3abeab372d28dcf05c1f32e6fb7c1f50b79ec rcu/tree: Use irq_work_queue_remote()
-150a1af5860d14c6e36a333a78a7e74c349faac2 ilog2 vs. GCC inlining heuristics
-34ad734a818732357b6466aa0c4f5a0bc086837c coccinelle: Remove broken check
-a273b4977abe113075041aa641b53f00b8972fcb asm-generic/tlb: Fix MMU_GATHER_TABLE_FREE
-3b2f89bc04f55ae35a39caeb974431ca0f5e0a00 sh/tlb: Fix __pmd_free_tlb()
-7d6e91fcca2c0c3dbb978f7cbcb267c9a550a669 sparc32/tlb: Fix __p*_free_tlb()
-11b2f32848c0240505149abb5ae508ddb6fea94e parisc/tlb: Fix __p*_free_tlb()
-7590e8764ad48aa9b34fe4674a66e66bdfa7809c mips/tlb: Fix __p*_free_tlb()
-731e1c1356246cb67de42e8285a61161ccb20d3c ia64/tlb: Fix __p*_free_tlb()
-591da218337c14e3e1431a66541ff2c71abee95a alpha/tlb: Fix __p*_free_tlb()
-bf84b6e740b9fc8fae8e756b178e3eb609d9a0c3 nds32/tlb: Fix __p*_free_tlb()
-e927f8e591b18496652def609aa2fc449c3ebb78 riscv/tlb: Fix __p*_free_tlb()
-910d0616b8e5d7fdeca5f7e146c3526667e478ee m68k/tlb: Fix __p*_free_tlb()
-0dcb9f252c13e37cead418e5c7d68de39c12a30a rbtree: Add generic add and find helpers
-8659e5ed6f92480c4e051def1cfb58866bbb51c8 rbtree, sched/fair: Use rb_add_cached()
-794376981df9d698349568fc37082e74bb0d3bc9 rbtree, sched/deadline: Use rb_add_cached()
-3b7bfe8776a1219b410b169a184347088bdd912a rbtree, perf: Use new rbtree helpers
-a52f9e0e75faf2c98829fb5e29acf2559b61bf3b rbtree, uprobes: Use rbtree helpers
-19d3ee82b06f02d30291d30d7c764869731173b1 rbtree, rtmutex: Use rb_add_cached()
-7b0413845db60c44bbe34a2adc62359f5e57e89a rbtree, timerqueue: Use rb_add_cached()
-08513c45b39cf4f7d111a257a829dc74bdaf5ae9 module: Expose load_info to arch module loader code
-51a06dafd96dcd63bed18bcf24c8026b2668bfc0 module: Convert module_finalize() to load_info
-f3528f9ff317c545b7d4ad9303fafed1be8dfb04 x86,module: Detect VMX vs SLD conflicts
-ef76bb557c6956d23a29a07c6d307a0610ac0825 x86,module: Detect CRn and DRn manipulation
-a9d5e0b40681d8e0aaac1dc4c08739c7cb8195d4 x86,module: Disallow many CPL0 instructions
-5da953f527e895d6c4e73a8068a3dd85da3053d3 x86: insn: Add insn_is_fpu()
-02610cd0bd9ada981d6fd62ae54d437a0d7e79a4 objtool,x86: Add FPU context validation
-7a93920a1cb98bf39bb3c120b43c99b56c0fe141 amdgpu/dc: Annotate __fpu
-b29d0d9807fac5f31bc39b30b3c2b559f9e7d6f1 locking/qspinlock: Rename mcs lock/unlock macros and make them more generic
-20370bb389876de226c0a7ff8f37d07322759fe4 locking/qspinlock: Refactor the qspinlock slow path
-c5a72df3f14503a064c483e9198cf38076be599b locking/qspinlock: Introduce CNA into the slow path of qspinlock
-59dcd74fdcda679527816a77304bc81fdb955966 Merge branch 'sched/urgent'
-1271f952934dc55e0f8c3c20d0cb4cbd076177c6 Merge branch 'locking/urgent'
-29cbfe71b705b8501700e2828dd300345d2b0250 Merge branch 'perf/urgent'
-44fba268b67076ced20700af0e48f26046d3e60e Merge branch 'sched/core'
-7c97604d03173bc38a90f27537c51a48c47967c0 Merge branch 'locking/core'
-cf46eae015a2ad98559a89363d0c24ae305dda47 Merge branch 'perf/core'
-6fb64d516b4ffde30a634744a2bd5cbb113428f4 Merge branch 'sched/cleanup'
-69f13f5ddb378f92a3ac7443b491e030508e3354 Merge branch 'core/core'
-9cf454a107709d20df4b7ded1c0f19b7b84891af Merge branch 'mm/tlb'
-0f07538382b65987134ec035e84e20f9f9160a3b Merge branch 'sched/rbtree'
-31dd124b47270850f4c477dd02ea4a199c43ffa1 Merge branch 'x86/module'
-9f7cf93f3b26be014ee17e241b93e8cfa2dc0f11 Merge branch 'x86/fpu'
-3d8c1e050aa5dbd035a9811b339223d73c2eca02 Merge branch 'locking/wip-cna'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605615672 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1605615619-304945bdf8ce24462a19a1bee199eaf1e18a3046
 
---===============5790384382396890663==--
+dc83df3f797ebd842035f7c6800bdf7ae8e66689 5c64a4febafe0af1834cf497df8985d917a94b05 refs/heads/linux-4.4.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+zwDgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DaEQANTCJdeqsdbdoEh5kyj6
+nG50qKIkAvfnpx2/7N+5qO+OIL7gDjeg/kkpGNgY0szc71KzZX+CHoKBIo5I880n
+8qdwlYZDSuiiAomIgmugyR436SGQPJU40U1P6pv3kqbNfSRzbo/SLJCi/ssV0lGH
+i1urbvPrOEfWi7VIK+N/ZcfNwIocd6p2syrccJ3JT7yMyYcVNdzZeyO4jMnq3ygM
+1ArZpzNiu8Yvkii6q3xsBg0Se+PsRcrcvdPVlnyVc9tl2VzaqihLssr1OA76euLy
+KcONKfAQpE9pEcanF0Xq9bCYy3ISAHTDeLmDyjU7EQtJ2Bbj7R96gCoCsGZu40Cx
+VGN2SMicottGz/taDeoKj5RisMlc1YwABx2dtqTXhYY689L5XnaxZ/VAm85XOc20
+5ZbZ9mcbjSORejoTCtEDIMwiGzGW9ktoKnNk8SlsQdkaQ/zf1clvgIKSPvta54tB
+lxhBPfyc5pp1WhX8+w/mjQIOm//DcnMNpkgv42OdxHfsyyALxi0snTEVx1e7Xq5k
+JRLHNKr5gMYZ+4btK/0jcMWgXV54LYKuCja5SR0qrL+ym9W6Lc/sPeD495dzs/Yb
+zyB8poAgoBihtGwiPEjGodPHS1763r8VjFt7XrR13l6BiDYKkZJJpgQKKLhZdc4C
+N0oZK308WaJadCj5y75jfV+e
+=xeN3
+-----END PGP SIGNATURE-----
+
+--===============6973433357707803784==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-dc83df3f797e-5c64a4febafe.txt
+
+0a8240a4912b13d84c2862588de5329bcb0793b9 ring-buffer: Fix recursion protection transitions between interrupt context
+cdc8081da54e432b3b920cbd07da0c90f8434d8e gfs2: Wake up when sd_glock_disposal becomes zero
+96ca3131f07b358ee469ffa015ffd810481759e0 mm: mempolicy: fix potential pte_unmap_unlock pte error
+2e696eec35110d95d4413422fd25b5cfcee9a536 time: Prevent undefined behaviour in timespec64_to_ns()
+7a32b53ff4e2af3daec63e273d853a51d1bab1d4 btrfs: reschedule when cloning lots of extents
+0fe533dcd07b2fff0392e7a25f25583f97009988 net: xfrm: fix a race condition during allocing spi
+a2a6c78ff816083404bfe57686d7f04511f34a9e perf tools: Add missing swap for ino_generation
+2ff71abf6f55dcb8234b7608d94a9bbdc8529dc2 ALSA: hda: prevent undefined shift in snd_hdac_ext_bus_get_link()
+dc01730a467c6351404530a1ea3eabe9530b2981 can: dev: can_get_echo_skb(): prevent call to kfree_skb() in hard IRQ context
+37c26873512487fe1fa9993ddc68950753619824 can: dev: __can_get_echo_skb(): fix real payload length return value for RTR frames
+7f1bb2015564375ef750139a9c0366c5d62885d4 can: can_create_echo_skb(): fix echo skb generation: always use skb_clone()
+4291636d7c81a5f233257d0c05a2166ad74370f2 can: peak_usb: add range checking in decode operations
+696984423e6e34b73f94fbfd6e94b8161cf28890 can: peak_usb: peak_usb_get_ts_time(): fix timestamp wrapping
+44469c3a0cf5c68be62f7d0d7f781d7f34991705 Btrfs: fix missing error return if writeback for extent buffer never started
+0b82bd591b5dbc74138dfb1d217528bca1f45110 pinctrl: devicetree: Avoid taking direct reference to device name string
+c6f5d483b13bb1798c79c7b816d8a4f74eb96ac4 i40e: Wrong truncation from u16 to u8
+dafa255763acd2080a63caf20ca714d7d385abf4 i40e: Fix of memory leak and integer truncation in i40e_virtchnl.c
+6ecfe543a560f3a6826ccc4d5bc7c199086c2e2e geneve: add transport ports in route lookup for geneve
+f63740516e950ec37edcfa8090ef25e1ea1e1afb ath9k_htc: Use appropriate rs_datalen type
+bd8d46b58385b8d9198ddf45b3aa0bdad1378cab usb: gadget: goku_udc: fix potential crashes in probe
+e59a4514a82585af85cc323bbc77dce3ed76b668 gfs2: Free rd_bits later in gfs2_clear_rgrpd to fix use-after-free
+663305d9fa57e3295e589f1154dfb43572ac2a06 gfs2: check for live vs. read-only file system in gfs2_fitrim
+d3e852aaacec7516c75f9a3820f25815a0d364f8 drm/amdgpu: perform srbm soft reset always on SDMA resume
+7e84c7601b248eadfdaccffc74fff09a63e18f17 mac80211: fix use of skb payload instead of header
+54af92831f306332474f30af5b21c1844ce8cf21 mac80211: always wind down STA state
+f544eee9dd169fcbb1caf86d6f0d6eb62b1d3a8e cfg80211: regulatory: Fix inconsistent format argument
+39e69f10c87ffb4f1786c0861b04726f773a969a iommu/amd: Increase interrupt remapping table limit to 512 entries
+40fc3419f1138627f68f94aa7973b9d248ee86af xfs: fix a missing unlock on error in xfs_fs_map_blocks
+f5ac35b0511668e9ec60fdcf1aeabad1c4ecc9fc of/address: Fix of_node memory leak in of_dma_is_coherent
+611477ce99d2ed74dc08e5a878d41b232cff954f cosa: Add missing kfree in error path of cosa_write
+5dc45b969ea23e9950bb55e0f61e51f5264541ce perf: Fix get_recursion_context()
+bb715bb99c409512147b8dc4e28d69682a20c7b2 ext4: correctly report "not supported" for {usr,grp}jquota when !CONFIG_QUOTA
+c43603fc80c57014687cf0918dc0b70e6ebf520d ext4: unlock xattr_sem properly in ext4_inline_data_truncate()
+0e4e4a3652b186b82f375bea938abd2cb61e177e usb: cdc-acm: Add DISABLE_ECHO for Renesas USB Download mode
+2b6b1684f862f98a6d7afc9821690d8ec5eaa62b mei: protect mei_cl_mtu from null dereference
+c3608b4ad4a67d26df31fa51528c0f4d23c63146 ocfs2: initialize ip_next_orphan
+7c15ff3635b90596a42e30684f8798e22753cb84 don't dump the threads that had been already exiting when zapped.
+86f6f1bccd385784bd45e7118029817a57c14d01 drm/gma500: Fix out-of-bounds access to struct drm_device.vblank[]
+c701b614657dd426cd088deb269313ee37d7fe6d pinctrl: amd: use higher precision for 512 RtcClk
+c42ab613f073161e6d137c340a632d82449ccd9b pinctrl: amd: fix incorrect way to disable debounce filter
+d572481a8489bd79e222abbdf1601889912df79d swiotlb: fix "x86: Don't panic if can not alloc buffer for swiotlb"
+dbe64bbcd273900cb6f07c5dcb2f5b2ceb76f77d IPv6: Set SIT tunnel hard_header_len to zero
+713593f6e7a12b7aa0a79d81ed3ec1ddca5e70fb net/af_iucv: fix null pointer dereference on shutdown
+09de484c8a40c23de7a2debb15733fdf90be83aa net/x25: Fix null-ptr-deref in x25_connect
+b8eb746446d055c13335c4cca821bc23bb01c386 net: Update window_clamp if SOCK_RCVBUF is set
+f2dd4d27ea5901668daba2614f8f4be32511df77 random32: make prandom_u32() output unpredictable
+ca8847203ae963e4a8e67dfa2ab03adc2d0f68ae x86/speculation: Allow IBPB to be conditionally enabled on CPUs with always-on STIBP
+cc80e7f9f1bcb3013f7ae8b235bf454fef0b301e xen/events: avoid removing an event channel while handling it
+fb97a4aba567f1247bc259f27948fcd0247f5c4b xen/events: add a proper barrier to 2-level uevent unmasking
+aef6b9b77887f8d89e5d89460bc8c2def85e208f xen/events: fix race in evtchn_fifo_unmask()
+3b024093c638620b8883d099884f7ab949139fa5 xen/events: add a new "late EOI" evtchn framework
+dfe4c0ac1f45bff318540dea3f863fe3a7b4b7fd xen/blkback: use lateeoi irq binding
+8ef0b45fc0a04738973404b747a146ac9795477b xen/netback: use lateeoi irq binding
+93d7a371f18a7f6b22a986517742e33f2db760b2 xen/scsiback: use lateeoi irq binding
+5c8d874b73bbe6343f21d91408afe284e8f07937 xen/pciback: use lateeoi irq binding
+fd8286451148b1693e495ab3fd9a5301f61e0292 xen/events: switch user event channels to lateeoi model
+d58abc4895f3afca601d6d39d28963232cb872bf xen/events: use a common cpu hotplug hook for event channels
+a23095c837440cfa9351bd93ccbed39c8c682cb4 xen/events: defer eoi in case of excessive number of events
+46c17c7e279a248fe31c6a7efad5ec700c78a798 xen/events: block rogue events for some time
+5322a63112b8a888b7cf14093a46052a47e40f4c perf/core: Fix race in the perf_mmap_close() function
+159d976213f9bb72c9ed7504b8621bd6c2b8af6d Revert "kernel/reboot.c: convert simple_strtoul to kstrtoint"
+f2f59167d7cb391994d90bf7be69061ca6c10dda reboot: fix overflow parsing reboot cpu number
+b56312b60b309181b4ea38ce057b1bf11aa8f061 ext4: fix leaking sysfs kobject after failed mount
+c7188e9de0f129403d9607717679add82c5ece97 Convert trailing spaces and periods in path components
+5c64a4febafe0af1834cf497df8985d917a94b05 Linux 4.4.244-rc1
+
+--===============6973433357707803784==--
