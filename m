@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4351185932239226441=="
+Content-Type: multipart/mixed; boundary="===============4358842113982487919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 17 Nov 2020 06:06:02 -0000
-Message-Id: <160559316273.18292.10857471576295601650@gitolite.kernel.org>
+Date: Tue, 17 Nov 2020 06:06:07 -0000
+Message-Id: <160559316755.18374.2002429844600949174@gitolite.kernel.org>
 
---===============4351185932239226441==
+--===============4358842113982487919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,78 +16,83 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98
-    new: cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5
-    log: revlist-151f1b664ffb-cb2b4e8f5ea6.txt
+  - ref: refs/heads/for-next
+    old: cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5
+    new: cf4d4d8ebdb838ee996e09e3ee18deb9a7737dea
+    log: revlist-cb2b4e8f5ea6-cf4d4d8ebdb8.txt
 
---===============4351185932239226441==
+--===============4358842113982487919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1605593161 -0500
+pusher 75C5DE3D 1605593165 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1605593161-d0dc3cd69823c07dd854ecc1008d04aa13fa97c7
+nonce 1605593165-1f8055e32fdd4b7cd7744afc22288acaa4194781
 
-151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98 cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5 refs/heads/queue
+cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5 cf4d4d8ebdb838ee996e09e3ee18deb9a7737dea refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+zaEkACgkQ7ulgGnXF
-3j3QKQ//eFMP8bgahDfRkBhk0mtYg4NOwrzXfglsMdfxRdjY3jRXvKU1xUZN28HR
-x7j29LITzmY8zx95vpE47aXtF6GxI3deqgYt+ev8+O00PF7kT1NiJQz4WDn4iHsE
-0PJ/kRPFd6VCF35AUL6AF1UYE9FfWq5w/Ke8o43nzR/UVNv+4Gwwwzm6rKH98udC
-xgKrQWMhHRDm1zBL2tJBb/YkKd4MIAJtuDrvX8dKW3oD1HHEVctlCQcBfJq9fOCS
-J3nihxkjA1OBV2xuKyN3lYQToTjjvgDHNfBJKIHtGGFVFl860hbzTVywXK+Zfykb
-wEziRqwJEgxHKl50bdEhVKOLpgr/OA4C2Mrr9vj1BP0SbSyjiwQN8OI+d5XSv6t1
-lS6u5Ny+xbHPqwK8ZHOfiSHb4e+PZ4Nea5tlM7+gqZefxFZoJ2WdF6+Hf124WL8H
-YtDR/UZnFwzQ72L9MbxunI44n/O3s08cksjO5xUPUieG6YWF/O1ZvdWKGv7kyyoy
-d0WW/zgIz5dJFfarL3A5G2wnq26438+Y9Ir+phq4DXyC55ar8ZN0hHHWd/vgidfu
-8YF4E/5KAdBtlYxFRszT8MXmUWnS4I7X74p3rML+YhYsaRzO0471jz1uVw7SKRKp
-q50ZmhDsYWHkDD3p81O82sldoCAw/lO0Bn3EtGhTK1Ewtc9FXOg=
-=1Y9z
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+zaE0ACgkQ7ulgGnXF
+3j2xDRAAsPPz8hvmC2SM/ar9u9Zdu5JtmK3Fw/HP6Cf8I87XfwQoWwvOppUBABZT
+qhTRsZJ9Ag/tQIuwsm9I5iBuS/80ZK+7S7xhH+PqbGKjU+yiPwbTmtFqcqWut5Ks
+Qc0K7WTgkkDB+TJKM3iGekXGVe2mKvOFlJQoRDHbNcvtWO9ax1ZIEjrbreCi3Zd+
+ntDw2fxCx7GVPuEI6l1O3G0NnXwSmGcZK8UNPCZojaGwKOBCQH+ht+95VgwddpOA
+/YyYTiIzCUPpkZAc2MBlrVmIioMSP3IWLc9duprwgm3mQyrc6AW7dhfit3oUsZAF
+O7O7uIzlVMJsCFYKWApM6BDhMALgUf2KzmbDUEe2sOk1rSPi8SholPXdt2ZVLrBu
+3mIsAwAJos7Vu1R9iyUZC+DoGDCCazJ2DoWlswyIb05vOQ+CQ9Dqp7ybI+Wqy0xG
+N0eZ+mgSGzlu4hw9nZntQJKpq7TxknjmqDxDa/2RjjzhiW6Gj3nJdUw16hf7+8Ew
+4qAtpQ0KsaVadnFQeevhO2XYESohg5R8i26Mr9JmFKgCyEZxhEvgIccPyMnQo30W
+MBu1AntQAyVMO84ysr7KJT1AlWIHknxac1QDzFfKssft8WAKKjOl0P+pQ6GPieqb
+5bC6SSohqbGQVhyoUqtX0OA/Cu5hDo0ZqQRXoSU4n2QR3SSaLVU=
+=ln0/
 -----END PGP SIGNATURE-----
 
---===============4351185932239226441==
+--===============4358842113982487919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-151f1b664ffb-cb2b4e8f5ea6.txt
+Content-Disposition: attachment; filename=revlist-cb2b4e8f5ea6-cf4d4d8ebdb8.txt
 
-d2a2f3794cbcb2c6051f907fbe207ecf3c69702e scsi: arcmsr: Stop __builtin_strncpy complaining about a lack of space for NUL
-412b51ffda3c8023cc017f951e864588f157a988 scsi: pm8001: pm8001_sas: Fix strncpy() warning when space is not left for NUL
-b2ed1babfefb072fac732d10553d290126175911 scsi: aic7xxx: aic79xx_osm: Remove unused variable 'saved_scsiid'
-e330c96968680b2b72f73636f00321886792eb71 scsi: mpt3sas: mpt3sas_scsih: Fix function documentation formatting
-eceee00e41565523a0010c8828a2330d04f64878 scsi: lpfc: lpfc_scsi: Fix a whole host of kernel-doc issues
-9176ad27acac13c3254ef45581ffd4a41795a9b5 scsi: lpfc: lpfc_attr: Demote kernel-doc format for redefined functions
-a738bd9bbe53c1a9b5134845af16e0fedf9ab2f8 scsi: lpfc: lpfc_attr: Fix-up a bunch of kernel-doc misdemeanours
-e61e07409cf7dbdc532aeb39706f4de04f0aee2e scsi: lpfc: lpfc_debugfs: Fix a couple of function documentation issues
-ea085dab6b9f220f0455f27e64af00deed102976 scsi: lpfc: lpfc_bsg: Provide correct documentation for a bunch of functions
-9a5cf98d7ee69e7705705b40b5d947a252c134ac scsi: esas2r: esas2r_disc: Place brackets around a potentially empty if()
-433e07e08c638827e99923192e91c9be8912b5e0 scsi: esas2r: esas2r_init: Place brackets around a potentially empty if()
-74d1f928162a217f5dc034b98deff78490300479 scsi: lpfc: lpfc_nvme: Remove unused variable 'phba'
-d23ec0b610e5cdf55853472157768d4412b3d13b scsi: ufs: ufshcd: Fix some function doc-rot
-3e7491701a3323659d2579f785cda5240351d6f3 scsi: lpfc: lpfc_nvme: Fix some kernel-doc related issues
-6abf98de6f8ad4f078f4845589e8d7f024a851bf scsi: esas2r: esas2r_int: Add brackets around potentially empty if()s
-d3cb79fcf943040394073de14d989a3547974d7f scsi: lpfc: lpfc_nvmet: Fix-up some formatting and doc-rot issues
-bf7e38aa0ee1f06130fb3019f42d59b767da73a9 scsi: esas2r: esas2r_main: Demote non-conformant kernel-doc header
-90ab11234d7995530dfa2a2b072150fd6e5fc1d2 scsi: advansys: Relocate or remove unused variables
-67056d90f13547558a3d7661fd69acd1463146de scsi: dc395x: Remove a few unused variables
-6c22079e9f369e513d8195f96db99a4fbb1525a8 scsi: dc395x: Mark 's_stat2' as __maybe_unused
-e9326b5a6f5b434af1889a7efa64dd9a738ef90e scsi: MAINTAINERS: Make Bodo target_core_user maintainer
-e21ee5a6b9c9d30fd07ce5bd3e4a5668a03af6d9 scsi: block: Return status code in blk_mq_end_request()
-268940b80fa4096397fd0a28e6ad807e64120215 scsi: scsi_dh_alua: Return BLK_STS_AGAIN for ALUA transitioning state
-fb908850ece3bc93a9d276f6dd8505d824b2789c scsi: scsi_dh_alua: Set 'transitioning' state on Unit Attention
-0d88232010d5f40a8a31ff7b454e3f2594fd047f scsi: core: Return BLK_STS_AGAIN for ALUA transitioning
-a004147a33199c660bbb203f11a82703459bf9f9 scsi: ufs-mediatek: Assign arguments with correct type
-cf137b3ea49a04e0c843b12674afa4b1d23e827f scsi: ufs-mediatek: Support VA09 regulator operations
-ac8c2459091cd0e2bf226278d7b332e81c4c855a scsi: ufs-mediatek: Decouple features from platform bindings
-bf8fab86ab791cd24572eaf05f23af9b99dad43c scsi: ufs-mediatek: Support option to disable auto-hibern8
-801909ac97530062c3de6bfdb1d7e08f3c7de8ce scsi: ufs: Add enums for UniPro version higher than 1.6
-638e6271cac2d6eba8d5d6cfd6a6ae77715a8cf6 scsi: ufs-mediatek: Add HS-G4 support
-44ff81f2995794982daf7b89a923c6335d57c469 scsi: isci: Don't use PCI helper functions
-cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5 scsi: bnx2fc: Fix comparison to bool warning
+2e4209b3806cda9b89c30fd5e7bfecb7044ec78b scsi: core: Fix VPD LUN ID designator priorities
+16d6317ea438b10c5747f5d4a972ea0e68d1a6ae scsi: core: Replace while-loop by for-loop in scsi_vpd_lun_id()
+883928201b00928df0b2000be37ee7a8e975be26 scsi: core: Fix -Wformat for scsi_host
+a364a3ea32da6de55a9a7c75db311bd908fcfbb4 scsi: pm8001: Remove unused variable 'value'
+1bdf6e9343877030640336d93da08321719bca43 scsi: smartpqi: Correct driver removal with HBA disks
+408bdd7e5845d8f3e0dac0dcc18f358835175801 scsi: smartpqi: Correct pqi_sas_smp_handler busy condition
+5443bdc4cc777f3629f02e934fef418e9d921809 scsi: smartpqi: Update version to 1.2.16-012
+6081b12ceb7d6e58346ce359282cdc1ed8282b76 scsi: ufs: Add retry flow for failed HBA enabling
+1fc6591951308c9923311913811717d46400100d scsi: hpsa: Strip out a bunch of set but unused variables
+6ac63216a7af03e8281758d7cd32a09718531eb2 scsi: ufs-qcom: Only select QCOM_SCM if SCSI_UFS_CRYPTO
+4ab2990a5ce15e6a689f349ba6ab1e6e23df57df scsi: be2iscsi: Mark beiscsi_attrs with static keyword
+307e338097dc320afb9f62493a325c7b9208d574 scsi: lpfc: Rework remote port ref counting and node freeing
+4430f7fd09ecb037570119e0aacbf0c17b8f98b2 scsi: lpfc: Rework locations of ndlp reference taking
+95f0ef8a8368b2195ca9b8b4eca9a3ec8d132a75 scsi: lpfc: Fix removal of SCSI transport device get and put on dev structure
+e9b1108316b9b5beee03f731c7c9c7c874e537fa scsi: lpfc: Fix refcounting around SCSI and NVMe transport APIs
+c6adba150191762a7e58644f9e522d9d6d945e1c scsi: lpfc: Rework remote port lock handling
+52edb2caf675684acf2140a125de4774c691fecd scsi: lpfc: Remove ndlp when a PLOGI/ADISC/PRLI/REG_RPI ultimately fails
+9d76d46751594264a91387583fef49af334ccea6 scsi: lpfc: Unsolicited ELS leaves node in incorrect state while dropping it
+b3f2e67cc2dd59fffeffd35b1526a081bbec9490 scsi: lpfc: Fix NPIV discovery and Fabric Node detection
+a70e63eee1c14257f73ce9ec6d0c9db28f77f9ad scsi: lpfc: Fix NPIV Fabric Node reference counting
+b101eb27fde072866c6f5bdbcc2c28a6bf2c9bf7 scsi: lpfc: Refactor WQE structure definitions for common use
+840a470181c72f82f8bc9453b47ac0d2e79f6b4a scsi: lpfc: Enable common wqe_template support for both SCSI and NVMe
+47ff4c510f029360667eb4a61506ef9bfba5581d scsi: lpfc: Enable common send_io interface for SCSI and NVMe
+da255e2e7cc889e10820bc89752466322426571f scsi: lpfc: Convert SCSI path to use common I/O submission path
+96e209be6ecb7b96dfb56f2737401adce33aef8e scsi: lpfc: Convert SCSI I/O completions to SLI-3 and SLI-4 handlers
+db7531d2b3775c662466e4eeda774986472c6d18 scsi: lpfc: Convert abort handling to SLI-3 and SLI-4 handlers
+ab4dfa4dd5a121681e06b791f9a5dc81afa5e192 scsi: lpfc: Update lpfc version to 12.8.0.6
+983f761cd5c5741f228c7b5dc437678899e3a64c scsi: lpfc: Update changed file copyrights for 2020
+54770cbebe2caa89423a13ff32fa0d497c392214 scsi: ufs: ufs-mediatek: Refactor performance scaling functions
+65858014ee20c842eaff65514e75d2c640c70007 scsi: ufs: Introduce device parameter initialization function
+a4b537ea656e9f48b2cbcd7b8883f21b3fc5cef9 scsi: ufs: ufs-mediatek: Use device parameter initialization function
+8beef54716e652fb08ac6ab45c2ce239ec3f5856 scsi: ufs: ufs-qcom: Use device parameter initialization function
+5b3573d68d9ac45c904af6d6e9bc415af45ccc41 scsi: ufs: ufs-exynos: Use device parameter initialization function
+85d6d3c18953b9653d0934c087fe73ff02e43c79 scsi: ufs: ufs-hisi: Use device parameter initialization function
+fc85a74e28fe087dceb80eb69f37307ec97b6b47 scsi: ufs: Refactor ADAPT configuration function
+e1e25d1b89967035059cf8e098270cc3300b5bd9 scsi: ufs: ufs-mediatek: Use common ADAPT configuration function
+d9fa1e731e243525861517ba256b179072070c1d scsi: ufs: ufs-qcom: Use common ADAPT configuration function
+cf4d4d8ebdb838ee996e09e3ee18deb9a7737dea scsi: qla4xxx: Remove redundant assignment to variable rval
 
---===============4351185932239226441==--
+--===============4358842113982487919==--
