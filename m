@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3014569506443100011=="
+Content-Type: multipart/mixed; boundary="===============4265875225246667779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 17 Nov 2020 11:49:02 -0000
-Message-Id: <160561374251.11973.409860367965651949@gitolite.kernel.org>
+Date: Tue, 17 Nov 2020 11:49:34 -0000
+Message-Id: <160561377437.12259.4196352601345946677@gitolite.kernel.org>
 
---===============3014569506443100011==
+--===============4265875225246667779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 03d80e042a8e3248163a38f74b43809f8079d652
-    new: d06d60d52ec0b0eef702dd3e7b4699f0b589ad0f
-    log: revlist-03d80e042a8e-d06d60d52ec0.txt
-  - ref: refs/tags/v5.10-rc4
-    old: 0000000000000000000000000000000000000000
-    new: a93711503472d4c89977ce2c80dcd4b75e36cc45
+  - ref: refs/heads/next
+    old: fc69b6a3113a33fd0da0455b7c8b915bd836459d
+    new: 506f43994d4fe7a78637c4cf258e6877e18cef16
+    log: revlist-fc69b6a3113a-506f43994d4f.txt
 
---===============3014569506443100011==
+--===============4265875225246667779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03d80e042a8e-d06d60d52ec0.txt
+Content-Disposition: attachment; filename=revlist-fc69b6a3113a-506f43994d4f.txt
 
 d76bb7a09bb3b8711077912f3e80cfcf39cd9d0b tools/power turbostat: Print /dev/cpu_dma_latency
 9aefc2cda6353f48708415d9adc5dff4deb73412 tools/power turbostat: Always print idle in the system configuration header
@@ -421,9 +418,56 @@ d0a37fd57fbae32adffb56ae9852d551376b7c9b Merge tag 'sched-urgent-2020-11-15' of 
 8f598d15ee6577a56d6617d9e4151591db34d8fa Merge branch 'linux-5.10' of git://github.com/skeggsb/linux into drm-fixes
 a6af8718b98e1cd37a9ea9a02269c79577fc9138 Merge tag 'drm-fixes-2020-11-16' of git://anongit.freedesktop.org/drm/drm
 09162bc32c880a791c6c0668ce0745cf7958f576 Linux 5.10-rc4
+1dc575490bff8b1c491d6b723b772ab6f02865a5 mmc: s3cmci: include GPIO descriptor consumer header
+1b0e4a2141c7bf6a122f1e04cbc1690b835707cf mmc: s3cmci: enable compile testing
+b733775fb68f2a179dd28e6b41ff189fbcd3e95b mmc: sunxi: drop of_match_ptr from of_device_id table
+e10f480902da770db895b6a1d2f10b11d80fe5d8 mmc: sdhci-acpi: AMDI0040: Allow changing HS200/HS400 driver strength
+c626695ecd8b8a5f66982519d07207423107c077 dt-bindings: mmc: Convert mtk-sd to json-schema
+59a23395d8aa2662725ec9f162b9d3b0f34d56ce dt-bindings: mmc: Add support for MT8192 SoC
+f5eccd94b63f6abf74b890770f268bfc8f59a9bb mmc: mediatek: Add subsys clock control for MT8192 msdc
+9baf7c5e3ab364c038070a3b396de3b8a10016cd mmc: mediatek: Replace spin_lock_irqsave by spin_lock in hard IRQ
+ead49373d2916080509f51fc6a4ee8f9bc021b9b mmc: core: Initial support for SD express card/host
+5afe802132f242f5520d2acac09ea05d31e3c7cf misc: rtsx: Add SD Express mode support for RTS5261
+9ff43c7be9b417ed712de0f6a0918974f60beacf mmc: rtsx_pci: Add SD Express mode support for RTS5261
+fb8298631b11ba81e4326f8a8e54505e8439d28d memstick: jmb38x_ms: remove unneeded semicolon
+8c3c0aca1a0cef20ac739b63f26971849b0f453a memstick: mspro_block: remove unneeded semicolon
+a85344d347284cc3d81e8fc230788d3f82b9bb45 memstick: tifm: remove unneeded semicolon
+86d9bf50af08ab696c3f29a30cfb0b04cc59a78c mmc: davinci: remove unneeded semicolon
+120ae805fbb96424ecf28bda3a0316faa3361a3e mmc: moxart: replace spin_lock_irqsave by spin_lock in hard IRQ
+291a81c3b0610c5dc4689d13e94b8557069788fe mmc: meson-mx-sdio: replace spin_lock_irqsave by spin_lock in hard IRQ
+fa4c9a497c2cdc6d398cbde146c1358d006f6608 mmc: owl-mmc: replace spin_lock_irqsave by spin_lock in hard IRQ
+13b4e1e92411d4f375c7ffe1b72abb162369ab53 mmc: mediatek: add HS400 enhanced strobe support
+6b7b58f425c3359787483479d73c0bb98ffc65b8 mmc: rtsx: Add test mode for RTS5261
+c28e3fb28f87cc0dba915f1303f4d018686363b8 misc: rtsx: Fix OCP function for RTS5261
+0a3bbf92df7faf8b30c8e4560db5021bbf07766d misc: rtsx: Fix aspm for RTS5261
+6f61dd284475a82e8224b16f4376a118e01e303b misc: rtsx: Fix PAD driving for RTS5261
+5b0f429ede5af1e6da80d60a0b164346008e30ec misc: rtsx: Check mmc support for RTS5261
+1da3c51512ce01dec42ad763421ab24c3dc1e3dd misc: rtsx: Add CD & WP reverse support for RTS5261
+1672617d512880f31d1d43ca0eb0d13d50b8c680 misc: rtsx: Add hardware auto power off for RTS5261
+5eefe22d223573a32afb9be7e53bff2acff6423a misc: rtsx: Fix clock timing for RTS5261
+e2c01e9192758d0d011df1f4ed20eac2bdca2a3b mmc: meson-gx: drop of_match_ptr from of_device_id table
+9f7d4c916c42ec310d17dc0ea8f4ebf64aa1bbf1 mmc: dw_mmc: replace spin_lock_irqsave by spin_lock in hard IRQ
+c24aa7b160f558c5ca4f05168dfab021987601c9 mmc: sdhci-pic32: Make pic32_sdhci_probe_platform() void
+1f71b0bf4ef8992ae7749f917b6593fd902ec476 mmc: owl-mmc: use true and false for bool variables
+45bffc371fefd8537804b001080a47c6b69d5efa mmc: renesas_sdhi: only reset SCC when its pointer is populated
+b161d87dfd3d9f3fb064a089a9e521d0e5d3e38f mmc: renesas_sdhi: probe into TMIO after SCC parameters have been setup
+d14ac691bb6f6ebaa7eeec21ca04dd47300ff5b6 mmc: renesas_sdhi: populate SCC pointer at the proper place
+9f809065d86dec2070263acedaa5758f8c9e95a9 mmc: renesas_sdhi: simplify reset routine a little
+183edc060e6969a3afe83f663b534f6324fb7e3a mmc: renesas_sdhi: clear TAPEN when resetting, too
+80d0be81102405f1172f9b017feef323e5931959 mmc: renesas_sdhi: merge the SCC reset functions
+8c8310a6c2a6b86edadf15d511f4c1b332516b21 mmc: renesas_sdhi: remove superfluous SCLKEN
+4533c3eb893d8d6881f792a855fa5e11d5ddf0c2 mmc: renesas_sdhi: improve HOST_MODE usage
+0e08a411585214360938022ca3f50a9f1cd91753 mmc: renesas_sdhi: don't hardcode SDIF values
+ab07a1356043f07142ba351253904ef8c42ecd4f mmc: renesas_sdhi: sort includes
+bbba85fae44134e00c493705bd5604fd63958315 mmc: mediatek: fix mem leak in msdc_drv_probe
 60d53566100abde4acc5504b524bc97f89015690 mmc: sdhci-pci: Prefer SDR25 timing for High Speed mode for BYT-based Intel controllers
+8ffbfe43e903775832484c3ca9773ae07845d478 mmc: sdhci-msm: detect if tassadar_dll is used by using core version
+fde71a3eeda2d285cfb7e09acb74f7b7964ab210 mmc: host: Kconfig: fix spelling mistake "hardare" -> "hardware"
 9e9534329306fcd7ea1b84f14860a3c04ebe7f1a mmc: sdhci-of-arasan: Allow configuring zero tap values
 d338c6d01dc614cad253d6c042501fa0eb242d5c mmc: sdhci-of-arasan: Use Mask writes for Tap delays
 d06d60d52ec0b0eef702dd3e7b4699f0b589ad0f mmc: sdhci-of-arasan: Issue DLL reset explicitly
+fcc541fea394d67ad607ee41acfa891e79fe17a2 mmc: sdhci: tegra: fix wrong unit with busy_timeout
+ade8e9d3fb9232ddfb87a4bc641b35b988d9757b mmc: tmio: do not print real IOMEM pointer
+506f43994d4fe7a78637c4cf258e6877e18cef16 Merge branch 'fixes' into next
 
---===============3014569506443100011==--
+--===============4265875225246667779==--
