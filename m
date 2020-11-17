@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lkundrak/linux-mmp
-Date: Tue, 17 Nov 2020 19:30:01 -0000
-Message-Id: <160564140138.18136.14787580655228391141@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Tue, 17 Nov 2020 19:31:48 -0000
+Message-Id: <160564150844.20145.14122625465721369757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lkundrak/linux-mmp
-user: lkundrak
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/lr/letux/jz4730-v4
-    old: 9454eb75078c529a933129a160a88e653ecb2754
-    new: e48e53151c0ad6b74723fe1e7172f08e1fecb5af
+  - ref: refs/heads/rtc-next
+    old: 698fffc2705cc48804cc31021cdb2ae4290927be
+    new: afa819c2c6bf0d6b99d3e41217a2c7d3b3b53228
     log: |
-         ffab2546f0e6acea7bfabd62b72e36c1afa0bca3 fixup! Add clock driver for the JZ4730
-         5c60d154ee603d803cb06ae49dc5090a06ba3000 fixup! Added missing, fixed JZ4730 DT file.
-         c95cac3d70c8ebe9da892c9bbfbeba50751af46a fixup! Added missing, fixed JZ4730 DT file.
-         0ca787f382632adc2a18c7416989e7fa44b3222f fixup! Added missing, fixed JZ4730 DT file.
-         bdedd4a6b1e85bcd7766aefc2a1bbfe909468d82 fixup! Added missing, fixed JZ4730 DT file.
-         03a0891a9709c9699a498c633b3bc282714c2cb0 MIPS: DTS: ingenic/jz4730: Add EMC node
-         e48e53151c0ad6b74723fe1e7172f08e1fecb5af MIPS: DTS: ingenic/jz4730: Add Ethernet node
+         7e6066ca1f1fa5c79915dfb4720ca20c5e62edcc rtc: Kconfig: Fix typo in help message of rx 6110
+         afa819c2c6bf0d6b99d3e41217a2c7d3b3b53228 rtc: rx6110: add i2c support
          
