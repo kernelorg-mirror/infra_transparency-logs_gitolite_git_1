@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 17 Nov 2020 18:52:27 -0000
-Message-Id: <160563914782.22827.4408730921165381015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 17 Nov 2020 18:52:42 -0000
+Message-Id: <160563916286.22995.2756412333145358545@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/kvm-arm64/fixes-5.10
-    old: 7bab16a6075b7b94999666355ab532c3dabb94f9
-    new: 23bde34771f1ea92fb5e6682c0d8c04304d34b3b
+  - ref: refs/heads/master
+    old: cb47d16ea21045c66eebbf5ed792e74a8537e27a
+    new: 7b027c249da54f492699c43e26cba486cfd48035
     log: |
-         23bde34771f1ea92fb5e6682c0d8c04304d34b3b KVM: arm64: vgic-v3: Drop the reporting of GICR_TYPER.Last for userspace
+         7b027c249da54f492699c43e26cba486cfd48035 net: b44: fix error return code in b44_init_one()
          
