@@ -1,69 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============0663197653442322464=="
+Content-Type: multipart/mixed; boundary="===============5902497114317085090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Tue, 17 Nov 2020 19:09:55 -0000
-Message-Id: <160564019598.3401.3479355374493961221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 17 Nov 2020 19:12:24 -0000
+Message-Id: <160564034492.5593.12649323341258471557@gitolite.kernel.org>
 
---===============0663197653442322464==
+--===============5902497114317085090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/crypto-pending
-    old: c8a6b17a61da3f173409b34a0d6cfcb1235f0291
-    new: c5074a24305d9d41982296ed6094c6f9054a2238
-    log: revlist-c8a6b17a61da-c5074a24305d.txt
+  - ref: refs/heads/for-next
+    old: f946e45f59ef01ff54ffb3b1eba3a8e7915e7326
+    new: 8a7904a672a1d33c848e5129f886ee69e0773a2e
+    log: revlist-f946e45f59ef-8a7904a672a1.txt
 
---===============0663197653442322464==
+--===============5902497114317085090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8a6b17a61da-c5074a24305d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-6569e3097f1c4a490bdf2b23d326855e04942dfd crypto: Kconfig - CRYPTO_MANAGER_EXTRA_TESTS requires the manager
-ec3c5b32fccc537e7184dcf39387b2e57d12f517 crypto: qat - remove cast for mailbox CSR
-86cd97ec4b943af35562a74688bc4e909b32c3d1 crypto: arm/chacha-neon - optimize for non-block size multiples
-802c6c3ef3bc3eeca95d3ad55642fb7a973d185a crypto: qat - replace pci with PCI in comments
-cd078cb6a0f2e360b073b34f78a53b9410fa3e7a crypto: cavium/nitrox - Fix sparse warnings
-f21406b0511d53f9370d9de8713dea7c09f9f248 crypto: qat - support for mof format in fw loader
-3b5c130fb2e4c045369791c33c83b59f6e84f7d6 crypto: qat - fix status check in qat_hal_put_rel_rd_xfer()
-49a6cccec4f89777a0ffd2a6d4c3b1af33636b3a crypto: qat - fix CSR access
-ed8fc0c1b9c72f016130244b6a46483576fe8e5a crypto: qat - fix error message
-8ec0bee5d43e8582e6320dd9907d01c58844d3d3 crypto: qat - remove unnecessary parenthesis
-54fa5d4bf71246906efc3cd85ebddbc961af3498 crypto: qat - introduce additional parenthesis
-ee103cf1f5af03ae300dcfdbe0f51ae12ce35dec crypto: qat - rename qat_uclo_del_uof_obj()
-72b67d9507b954b5b5f4cecb74bcefff61a28d8c crypto: qat - add support for relative FW ucode loading
-fe278bf35c59bbc9bc695dac58bfa7120ba125ba crypto: qat - change type for ctx_mask
-82b3230658a90e60c36b426b4ca8d176c4d7ebc8 crypto: qat - change micro word data mask
-10fb050caef99d75895bf0978188090d3ed676c2 crypto: qat - refactor AE start
-8f87b6271ec85c09af6406665324c74bb79e3216 crypto: qat - remove global CSRs helpers
-97b9840195307a9af1c47bed69a63880a13bbb0d crypto: qat - move defines to header files
-ecb917ad0fc2bcc6c9f9e3db005c08f6e2d22f88 crypto: qat - refactor qat_uclo_set_ae_mode()
-58c173b9cb84aa40111c971d957980e4418a1c5e crypto: qat - refactor long expressions
-fc5f3f86e5afb4008c6dea054fe4df302edd84df crypto: qat - introduce chip info structure
-49c1327328ad2245bf06bffc2591d3eb99b51c60 crypto: qat - replace check based on DID
-d25cf2c7a057d6c01e44d4696fde1d05bfec11bb crypto: qat - add next neighbor to chip_info
-8b487ae26ad58abd602ab2d0cda6988306a6da20 crypto: qat - add support for lm2 and lm3
-4f07195d638e82a1a1f17f55d7aa8a74dacabfe9 crypto: qat - add local memory size to chip info
-cb439361a39bb8dcdd0856e9182e29678c8327af crypto: qat - add reset CSR and mask to chip info
-767358119fca655056eb7340eb8a0ec4652bc888 crypto: qat - add clock enable CSR to chip info
-c4909d327cc3b001583de29fde988a22856a5b38 crypto: qat - add wake up event to chip info
-4f1e941560e1c29299c3b1b9f90f4aea790d12dc crypto: qat - add misc control CSR to chip info
-912eebeb72b499de3b25cda9e2b9e3f5e91bed12 crypto: qat - add check for null pointer
-bf8313c71c887c3c8676c23a20b6f8eb1d56bd4f crypto: qat - use ae_mask
-9e0f74b717e41811921e647e7a6121cc55987f41 crypto: qat - add CSS3K support
-d707d3f23e69181da71877b2a687560fdad81ad0 crypto: qat - add FCU CSRs to chip info
-244f572cebec71f7a79a94706eded4d2213a4f1b crypto: qat - allow to target specific AEs
-bd684d83c789dd4882a539075e45d46011a95bdf crypto: qat - add support for shared ustore
-2778d64cf3f5517642555781df5628488e7d8186 crypto: qat - add support for broadcasting mode
-9c0cef2364750c00ab380cc8902dbbc91e230183 crypto: qat - add gen4 firmware loader
-c4fc6328d6c67690a7e6e03f43a5a976a13120ef crypto: arm64/chacha - simplify tail block handling
-c5074a24305d9d41982296ed6094c6f9054a2238 crypto: sha - split sha.h into sha1.h and sha2.h
+certificate version 0.1
+pusher F08647C27728D5D2EB7A5F5AA5F46BDD553C74FA 1605640333 -0400
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
+nonce 1605640332-429ad285383e9b2f5dfbba219eceb39fef454aca
 
---===============0663197653442322464==--
+f946e45f59ef01ff54ffb3b1eba3a8e7915e7326 8a7904a672a1d33c848e5129f886ee69e0773a2e refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEfB7FMLh+8QxL+6i3OG33FX4gmxoFAl+0II0ACgkQOG33FX4g
+mxqC1Q//SERQS62jAEclE8Eu4TnT2bJUdfMEnP7s4JdGFVI7u4Z5WzgMGHPwstpk
+L0vC4mSiCmarNZ1REH5mzKU0pZiXfnsk5CkKP5wXnLv7/4WsZaaH1en2fw76cN/h
+k6eZEmIqG8IF2oUjnP6R5LKFjREuugb681FSdGar+s2Z7r8Zo6n6yhG8d8jSF/vM
+u6I4AnihAJJXM3CreKyIpPnt65EoXRmiMvOjkbprfTbO4thWLU3ZWqjY4YBAOLgk
+gF733dX7AuXR4KULEp5c/BGgX0nNesqvKQtUdKAyLfjDj8oVHdaDx/0QBqH114Xi
+6/yn4syPAOS4rQCbgiplfE8q/y0xjdWUjNr4Y/PHHGyCo8aQI6gFzlfwF5tsYlel
+qJvh7V3gVhro90/U4CRgFbEnZpwtnVij1P3l2SweachKDzIEkVDZ9eknHOGnNvjd
+ySUWireMoV/W5qWt5j/haaFjFO8oecMzcAc1/RMB150Ksd5JMM1YG+Th9aSwdY11
+RRg/TfL/UQnCjri7ksgc8wbU9w1PgG/urtjmHiUIXndeAw/2loBY/qcfW+c/GS4o
+woNu9Y5ileUcaY6sfRkE+EtllBKZI8Me1kBowDF99UxmLsw56ta8L66IOd3VQ8og
+5pV76CoEqH2/lhq5kq8Eu4IU2WRsymJgiVqm7/2fYg/XhOwS6AM=
+=y9lB
+-----END PGP SIGNATURE-----
+
+--===============5902497114317085090==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f946e45f59ef-8a7904a672a1.txt
+
+b2d2440430c0fdd5e0cad3efd6d1c9e3d3d02e5b RDMA/rxe: Remove VLAN code leftovers from RXE
+f7a95c902b020c7fe6781f0814187c2e2266a689 IB/isert: Do not excplicitly check == false for bool
+efa968ee20248ebf8da8542f21d5d2811e86392f RDMA/core: Postpone uobject cleanup on failure till FD close
+c5633a72a1b8a2740bdb1495eab010f1124fd5ee RDMA/core: Make FD destroy callback void
+fbb7dc5db6dee553b5a07c27e86364a5223e244c RDMa/mthca: Work around -Wenum-conversion warning
+b116c702791a9834e6485f67ca6267d9fdf59b87 RDMA/umem: Use ib_dma_max_seg_size instead of dma_get_max_seg_size
+2af29468e3b3793b49f6c4385d2cabcea43fe076 RDMA/core: Remove ib_dma_{alloc,free}_coherent
+8ecfca68dc4cbee1272a0161e3f2fb9387dc6930 RDMA: Lift ibdev_to_node from rds to common code
+22dd4c707673129ed17e803b4bf68a567b2731db nvme-rdma: Use ibdev_to_node instead of dereferencing ->dma_device
+7af80c02c7b3cf7ac580a33f15d155730574769f RDMA/hns: Fix double free of the pointer to TSQ/TPQ
+8bc205eff3056a9ed3850937cdd2192f05e6d3cb RDMA/counter: Combine allocation and bind logic
+0413755c95e76972451ac8433151bc368a065a3f RDMA/restrack: Store all special QPs in restrack DB
+c80a0c52d85c49a910d0dc0e342e8d8898677dc0 RDMA/cma: Add missing error handling of listen_id
+31e2daa17ed9684e73a1e8e5080b70b0230bf59a RDMA/hns: Add new PCI device ID matching for HIP09
+8c030d780ad279d710dc912050e593aea32f5514 RDMA/efa: Remove .create_ah callback assignment
+b045db62f6f61c2f0f993696abe620379db34163 RDMA/mlx5: Use ib_umem_find_best_pgoff() for SRQ
+ad480ea5d6ea605bf63d23f5f91447d5cac3c95e RDMA/mlx5: Use mlx5_umem_find_best_quantized_pgoff() for WQ
+7579dcdf737d76a28243add75dc78babf09e29fa RDMA/mlx5: Directly compute the PAS list for raw QP RQ's
+a59b7b05efc827929c2aa46fc2fe561982bd19fc RDMA/mlx5: Use mlx5_umem_find_best_quantized_pgoff() for QP
+c08fbdc57741026a440d01593e09e11b60b3e210 RDMA/mlx5: mlx5_umem_find_best_quantized_pgoff() for CQ
+878f7b31c3a7f3e48c6601ea373b8688e7e308e0 RDMA/mlx5: Use ib_umem_find_best_pgsz() for devx
+8a7904a672a1d33c848e5129f886ee69e0773a2e RDMA/mlx5: Lower setting the umem's PAS for SRQ
+
+--===============5902497114317085090==--
