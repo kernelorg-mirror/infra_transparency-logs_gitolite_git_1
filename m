@@ -1,41 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Tue, 17 Nov 2020 09:17:31 -0000
-Message-Id: <160560465122.1367.15282887380447706567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 17 Nov 2020 09:25:01 -0000
+Message-Id: <160560510132.7746.15821847983784179065@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/pci
-    old: fe8d9946228d4df6c020f2cb38b6ac08981727cf
-    new: 91010f0407a07caeacb11037bb5b493bab7ce203
+  - ref: refs/heads/stm32-next
+    old: 6857935dce184bab3aa5162ff21f5dae6d387173
+    new: 96959aaf053e5d08900e2bccb08f11bfbd51c017
     log: |
-         5fd6921cccdbc1428c888d451026ee4fd152c936 contrib/libvhost-user: Fix bad printf format specifiers
-         91010f0407a07caeacb11037bb5b493bab7ce203 vhost-user-blk/scsi: Fix broken error handling for socket call
-         
-  - ref: refs/tags/for_autotest
-    old: af5ffa7952799a4bafb077ef7ab6f0c70c1a8c6a
-    new: e8d89d7ec2de922516cca5f89f9e209f324563b1
-    log: |
-         5fd6921cccdbc1428c888d451026ee4fd152c936 contrib/libvhost-user: Fix bad printf format specifiers
-         91010f0407a07caeacb11037bb5b493bab7ce203 vhost-user-blk/scsi: Fix broken error handling for socket call
-         
-  - ref: refs/tags/for_autotest_next
-    old: af5ffa7952799a4bafb077ef7ab6f0c70c1a8c6a
-    new: e8d89d7ec2de922516cca5f89f9e209f324563b1
-    log: |
-         5fd6921cccdbc1428c888d451026ee4fd152c936 contrib/libvhost-user: Fix bad printf format specifiers
-         91010f0407a07caeacb11037bb5b493bab7ce203 vhost-user-blk/scsi: Fix broken error handling for socket call
-         
-  - ref: refs/tags/for_upstream
-    old: af5ffa7952799a4bafb077ef7ab6f0c70c1a8c6a
-    new: e8d89d7ec2de922516cca5f89f9e209f324563b1
-    log: |
-         5fd6921cccdbc1428c888d451026ee4fd152c936 contrib/libvhost-user: Fix bad printf format specifiers
-         91010f0407a07caeacb11037bb5b493bab7ce203 vhost-user-blk/scsi: Fix broken error handling for socket call
+         934dce0ca71390ac0e07039cf705bc127e84145b dt-bindings: connector: add typec-power-opmode property to usb-connector
+         933f73124ac834f420c026fa089d45f251d13645 dt-bindings: usb: Add DT bindings for STUSB160x Type-C controller
+         1fb08996372adcb3a257bb4a1c4b24a3e774ffd7 ARM: dts: stm32: add STUSB1600 Type-C using I2C4 on stm32mp15xx-dkx
+         96959aaf053e5d08900e2bccb08f11bfbd51c017 ARM: multi_v7_defconfig: enable STUSB160X Type-C port controller support
          
