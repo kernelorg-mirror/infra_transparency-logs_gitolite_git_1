@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8437275157425612040=="
+Content-Type: multipart/mixed; boundary="===============3519659584333545087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 17 Nov 2020 07:01:13 -0000
-Message-Id: <160559647324.23654.4183724318794802194@gitolite.kernel.org>
+Date: Tue, 17 Nov 2020 07:01:40 -0000
+Message-Id: <160559650023.23914.3612521193251427491@gitolite.kernel.org>
 
---===============8437275157425612040==
+--===============3519659584333545087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 151f1b664ffbb847c7fbbce5a5b8580f1b9b1d98
-    new: cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5
-    log: revlist-151f1b664ffb-cb2b4e8f5ea6.txt
+  - ref: refs/heads/for-next
+    old: 9cdcab394724bc629a94331ff61eb5db35de9f0a
+    new: 1257441d027d253e18c66c3352ba943bdeb87f4d
+    log: revlist-9cdcab394724-1257441d027d.txt
 
---===============8437275157425612040==
+--===============3519659584333545087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-151f1b664ffb-cb2b4e8f5ea6.txt
+Content-Disposition: attachment; filename=revlist-9cdcab394724-1257441d027d.txt
 
 d2a2f3794cbcb2c6051f907fbe207ecf3c69702e scsi: arcmsr: Stop __builtin_strncpy complaining about a lack of space for NUL
 412b51ffda3c8023cc017f951e864588f157a988 scsi: pm8001: pm8001_sas: Fix strncpy() warning when space is not left for NUL
@@ -59,5 +59,9 @@ bf8fab86ab791cd24572eaf05f23af9b99dad43c scsi: ufs-mediatek: Support option to d
 638e6271cac2d6eba8d5d6cfd6a6ae77715a8cf6 scsi: ufs-mediatek: Add HS-G4 support
 44ff81f2995794982daf7b89a923c6335d57c469 scsi: isci: Don't use PCI helper functions
 cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5 scsi: bnx2fc: Fix comparison to bool warning
+fe0a8a95e7134d0b44cd407bc0085b9ba8d8fe31 scsi: libiscsi: Fix NOP race condition
+f36199355c64a39fe82cfddc7623d827c7e050da scsi: target: iscsi: Fix cmd abort fabric stop race
+2d9dabe5078df0d61e67c4086ef8eabf60bc10e5 Merge branch 'fixes' into for-next
+1257441d027d253e18c66c3352ba943bdeb87f4d Merge branch 'misc' into for-next
 
---===============8437275157425612040==--
+--===============3519659584333545087==--
