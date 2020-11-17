@@ -1,42 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============8829910120722870682=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 17 Nov 2020 09:09:32 -0000
-Message-Id: <160560417210.28405.13117313240730151711@gitolite.kernel.org>
-
---===============8829910120722870682==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/virt/kvm/mst/qemu
+Date: Tue, 17 Nov 2020 09:17:31 -0000
+Message-Id: <160560465122.1367.15282887380447706567@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/virt/kvm/mst/qemu
+user: mst
 changes:
-  - ref: refs/heads/test/usb-hacks
-    old: ee1fc429a98a9e2c2fc425b1c51d493ab18aa231
-    new: 8b20a98f3fca70ad3b72c04b1bbad85a0a77ba3a
-    log: revlist-ee1fc429a98a-8b20a98f3fca.txt
-
---===============8829910120722870682==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee1fc429a98a-8b20a98f3fca.txt
-
-2c3f14ef5e52aa9c1c825175f3f0f67176f97b66 ALSA: usb-audio: Refactor endpoint management
-2ef934b64336ae824f89914b96e60cde4e1fd2a9 ALSA: usb-audio: Fix possible stall of implicit fb packet ring-buffer
-2bd2413d0590133da8fae478bf015246a9b84a55 ALSA: usb-audio: Constify audioformat pointer references
-194102a2e3cdcd61aed226f51ff88559090b7e57 ALSA: usb-audio: Use atomic_t for endpoint use_count
-f0fad6d1ec0f0dd2f4b46b7173655e687e7ac80b ALSA: usb-audio: Refactoring endpoint URB deactivation
-695c1f28f6cc8f7d1efbd65fe991428d59ddeb56 ALSA: usb-audio: Drop unneeded snd_usb_substream fields
-e85e4bbf1a0d07e574ee050c5be3690dbf8b065a ALSA: usb-audio: Unify the code for the next packet size calculation
-5a3fbb30dda9570d4128ea41c23c50bb34e80af0 ALSA: usb-audio: Simplify rate_min/max and rates set up
-d0da558c0e12c87e52f842e2e4ce4216b784b152 ALSA: usb-audio: Replace slave/master terms
-ab0d9a2d410f093a7246c3ca711490ca735db856 ALSA: usb-audio: Use unsigned char for iface and altsettings fields
-1fad2376588faff56d24bbf0cafdb6de156e1cee ALSA: usb-audio: Show sync endpoint information in proc outputs
-8b20a98f3fca70ad3b72c04b1bbad85a0a77ba3a ALSA: usb-audio: Add fake capture sync EP for BOSS GT-001
-
---===============8829910120722870682==--
+  - ref: refs/heads/pci
+    old: fe8d9946228d4df6c020f2cb38b6ac08981727cf
+    new: 91010f0407a07caeacb11037bb5b493bab7ce203
+    log: |
+         5fd6921cccdbc1428c888d451026ee4fd152c936 contrib/libvhost-user: Fix bad printf format specifiers
+         91010f0407a07caeacb11037bb5b493bab7ce203 vhost-user-blk/scsi: Fix broken error handling for socket call
+         
+  - ref: refs/tags/for_autotest
+    old: af5ffa7952799a4bafb077ef7ab6f0c70c1a8c6a
+    new: e8d89d7ec2de922516cca5f89f9e209f324563b1
+    log: |
+         5fd6921cccdbc1428c888d451026ee4fd152c936 contrib/libvhost-user: Fix bad printf format specifiers
+         91010f0407a07caeacb11037bb5b493bab7ce203 vhost-user-blk/scsi: Fix broken error handling for socket call
+         
+  - ref: refs/tags/for_autotest_next
+    old: af5ffa7952799a4bafb077ef7ab6f0c70c1a8c6a
+    new: e8d89d7ec2de922516cca5f89f9e209f324563b1
+    log: |
+         5fd6921cccdbc1428c888d451026ee4fd152c936 contrib/libvhost-user: Fix bad printf format specifiers
+         91010f0407a07caeacb11037bb5b493bab7ce203 vhost-user-blk/scsi: Fix broken error handling for socket call
+         
+  - ref: refs/tags/for_upstream
+    old: af5ffa7952799a4bafb077ef7ab6f0c70c1a8c6a
+    new: e8d89d7ec2de922516cca5f89f9e209f324563b1
+    log: |
+         5fd6921cccdbc1428c888d451026ee4fd152c936 contrib/libvhost-user: Fix bad printf format specifiers
+         91010f0407a07caeacb11037bb5b493bab7ce203 vhost-user-blk/scsi: Fix broken error handling for socket call
+         
