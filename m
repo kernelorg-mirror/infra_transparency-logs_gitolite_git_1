@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 17 Nov 2020 18:34:54 -0000
-Message-Id: <160563809482.11247.7203821210284184723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Tue, 17 Nov 2020 18:36:20 -0000
+Message-Id: <160563818003.13102.5811908083730629209@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 83c317d7b36bb3858cf1cb86d2635ec3f3bd6ea3
-    new: a98cabdb8cb8941965721ee8d4edfaa3c7d427d4
+  - ref: refs/heads/dev
+    old: a945d4f0d38cf6e9a85c98161f53e916fe4be889
+    new: 99a1a68d2adf0711a48d5da4d2eb746321de7b79
     log: |
-         a98cabdb8cb8941965721ee8d4edfaa3c7d427d4 net: phy: don't duplicate driver name in phy_attached_print
+         86cd6df5b2040838381d5f6cb43dcc31d5235d55 f2fs: avoid race condition for shinker count
+         8bf0dfa8b3109341a20880eb0d6168a4cfcb3689 f2fs: fix double free of unicode map
+         1ce071c0ce6430684dfa6330698b9470bbfab787 libfs: Add generic function for setting dentry_ops
+         98ecd23a7ed5c947b0bef99e791c80c270ede520 fscrypt: Have filesystems handle their d_ops
+         d084768cf90e387a1b549c00ef104da2cad227ce f2fs: Handle casefolding with Encryption
+         99a1a68d2adf0711a48d5da4d2eb746321de7b79 f2fs: add disable_auto_compr mount option
          
