@@ -1,24 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse
-Date: Tue, 17 Nov 2020 01:21:49 -0000
-Message-Id: <160557610906.16873.12905458538093647998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 17 Nov 2020 01:25:40 -0000
+Message-Id: <160557634081.21946.5472364871624956092@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse
-user: lucvoo
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: af3512a6c585c68ba8ef2e19d4e4d8a9830679df
-    new: 90be5636395a90152fe5df439f3a862a286d05d1
-    log: |
-         34bd9955394acc6edc769873db62474c12b2345a doc: Sphinx's option ':noindex:' have been renamed into ':noindexentry:'
-         a2bff1c35c6d4c8c2b4f9aacef1c28c5049e9745 doc: add some doc about using NULL or VOID in ptrlists
-         efecd58e8d152d7dc13b3a88d025332bf874abfa doc: fix extracted autodoc when short description ends with a ?
-         cd5f1d0e1a08fccab633c584afc8c611c7eeed71 doc: add some doc to flowgraph.h
-         a6cb714a3903aa8f965d533254cab8b25f8ccf6a doc: add header for optimization related documentation
-         90be5636395a90152fe5df439f3a862a286d05d1 doc: add header for flow simplification related documentation
-         
+  - ref: refs/tags/coresched-nov-18-8pm-est
+    old: 0000000000000000000000000000000000000000
+    new: e4c45e335107b208e27bba93704c93a500fc3667
