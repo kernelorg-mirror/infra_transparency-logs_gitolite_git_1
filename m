@@ -1,54 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7007732838332209871=="
+Content-Type: multipart/mixed; boundary="===============1093797241334646089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 17 Nov 2020 22:36:19 -0000
-Message-Id: <160565257967.22130.4221886818450502454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 17 Nov 2020 22:36:26 -0000
+Message-Id: <160565258674.22280.13089720163973670445@gitolite.kernel.org>
 
---===============7007732838332209871==
+--===============1093797241334646089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.11
-    old: 4fb87241e5192caf9226fd4ca96ce2fd861503c1
-    new: 5268e0bf7123c422892fec362f5be2bcae9bbb95
+  - ref: refs/heads/for-5.10
+    old: ac9978fcad3c5abc43cdd225441ce9459c36e16b
+    new: 04a9cd51d3f3308a98cbc6adc07acb12fbade011
     log: |
-         f077770b2675feb2ea2188ef7109d5a41545e7a9 ASoC: adau1977: convert text binding to yaml format
-         e1ade4c55ae3559b082faf9f5207cc6caba1c546 ASoc: adi: Kconfig: Remove depends on for ADI reference designs
-         674226db62ec758c4575bcdb933a2410f1a29bbf ASoC: fsl: SND_SOC_FSL_AUD2HTX should depend on ARCH_MXC
-         9a207228bdf0a4933b794c944d7111564353ea94 ASoC: intel: SND_SOC_INTEL_KEEMBAY should depend on ARCH_KEEMBAY
-         5268e0bf7123c422892fec362f5be2bcae9bbb95 ASoC: Fix 7/8 spaces indentation in Kconfig
+         a41b0ad07bfa081584218431cb0cd7e7ecc71210 spi: dw: Set transfer handler before unmasking the IRQs
+         04a9cd51d3f3308a98cbc6adc07acb12fbade011 spi: npcm-fiu: Don't leak SPI master in probe error path
+         
+  - ref: refs/heads/for-5.11
+    old: d73cf07a094fef0ecee57be72f3e1ed5d0560c78
+    new: 6e3dbfcb3c8a1ef8cc73a8637f778673f5c6e91c
+    log: |
+         6e3dbfcb3c8a1ef8cc73a8637f778673f5c6e91c spi: imx: Remove unused .id_table support
          
 
---===============7007732838332209871==
+--===============1093797241334646089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1605652561 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1605652577-a177d8d1e35f307c692bc2f7034b54667096ff81
+pusher C3F436CA30F5D8EB 1605652567 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1605652584-8d4d0220ef9c24fcb54f8140954372b2261217e0
 
-4fb87241e5192caf9226fd4ca96ce2fd861503c1 5268e0bf7123c422892fec362f5be2bcae9bbb95 refs/heads/asoc-5.11
+ac9978fcad3c5abc43cdd225441ce9459c36e16b 04a9cd51d3f3308a98cbc6adc07acb12fbade011 refs/heads/for-5.10
+d73cf07a094fef0ecee57be72f3e1ed5d0560c78 6e3dbfcb3c8a1ef8cc73a8637f778673f5c6e91c refs/heads/for-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+0UFEACgkQJNaLcl1U
-h9AcIQf/bTMzJeGNM5BOPDbLwZSmnhZdL6sUF1lfHpIFwZI9hEUSFH+u2g7zt1Lw
-Eaok658DJAUhlSUvFVdbjB1UOWJhpngoQ/tbWsA3oSepIkYqior5treY5fEfIs73
-B4EOreCyK3vyKwUugxBbaAvxgp7YVzATtXen04Dra3TStzIHS57AxfB9RBYvpty+
-fvXesT5xpAVrwEHedG0JGonZBpysnxtMijPoQCvcxDd0yi5+Heu7QOyyOqT4aUbt
-+CGaD7HJIJzhK6sg2V3T1RivlzH6Jrw02beUR8WSPuSJ6/pz12K7cnc0uGL0t94U
-9nYAr6cnfj6wYW12vDQozSG3dCup/g==
-=CPf/
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+0UFcACgkQJNaLcl1U
+h9D2Uwf/VAL7S7v/ItuG3f+ZQqAajhjElBT00ZG4UfV6E4dkg1S+4k/MUp0Yd5GT
+ew7m/l5slWG/69xoxmpH0goIMZnVKCwhsgJ8t/SHMferZbcvjnhQcnK3n+Db1Dv+
+gfPTnk1z3EpYjThdsdM4YHa2PPIWu7ATBQS3cEB6WwnQkPZiL3mB/mcmQbaCPqre
+O/lpwZD1IaWwQmAufjsZV2UxLGFxqhsoyulSuedDeHTWbKBZpjBOiZBCPvyfJzgc
+2G/fvFMd+odSbt6+XsEB0M3vdrzdaerc1hbLjEM5XvR/e0v6WNVHihIbMFDqUXwl
+44Vis4xulCBo2sxKwiTyvGkqtxQePg==
+=mfYc
 -----END PGP SIGNATURE-----
 
---===============7007732838332209871==--
+--===============1093797241334646089==--
