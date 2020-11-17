@@ -1,48 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 17 Nov 2020 14:17:49 -0000
-Message-Id: <160562266970.26709.8385937372003003103@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 17 Nov 2020 14:26:46 -0000
+Message-Id: <160562320649.2410.7289248436857671063@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: b098fbf94c5d6f1d30a3820ac4c9859d0b0abf0b
-    new: 91565ced86999f0d538b19d4d8cff8050aff8a8f
+  - ref: refs/heads/stm32-next
+    old: d833b42b944adf0b40861e3448fc3257972005f7
+    new: 1926d571a413f9cc07fdd1c02b8ca266a596692a
     log: |
-         4697958b056b112063e968857cefa7173ad5c732 Documentation: ACPI: explain how to use gpio-line-names
-         e010d1d25e47642fb91023479a4965000cf934a8 cpufreq: tegra186: Fix get frequency callback
-         8410e7f3b31e53bfa7a34c282b4313e79ed7ff8d cpufreq: scmi: Fix OPP addition failure with a dummy clock provider
-         14c620cf2ee81349527491110a47a157ac6d511c Merge branch 'cpufreq/arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-         3bef4fa71afdf3e470616388002aaf7620ed55dd Merge branch 'pm-cpufreq-fixes' into linux-next
-         91565ced86999f0d538b19d4d8cff8050aff8a8f Merge branches 'acpi-fan' and 'acpi-docs' into linux-next
-         
-  - ref: refs/heads/linux-next
-    old: 4e4b3acab7814c0bf772778e208132cb8bfd7f85
-    new: 91565ced86999f0d538b19d4d8cff8050aff8a8f
-    log: |
-         7dc7a8b04f3da8aa3c3be514e155e2fa094e976f ACPI: fan: Initialize performance state sysfs attribute
-         4697958b056b112063e968857cefa7173ad5c732 Documentation: ACPI: explain how to use gpio-line-names
-         e010d1d25e47642fb91023479a4965000cf934a8 cpufreq: tegra186: Fix get frequency callback
-         8410e7f3b31e53bfa7a34c282b4313e79ed7ff8d cpufreq: scmi: Fix OPP addition failure with a dummy clock provider
-         14c620cf2ee81349527491110a47a157ac6d511c Merge branch 'cpufreq/arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-         3bef4fa71afdf3e470616388002aaf7620ed55dd Merge branch 'pm-cpufreq-fixes' into linux-next
-         91565ced86999f0d538b19d4d8cff8050aff8a8f Merge branches 'acpi-fan' and 'acpi-docs' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 4e4b3acab7814c0bf772778e208132cb8bfd7f85
-    new: 91565ced86999f0d538b19d4d8cff8050aff8a8f
-    log: |
-         7dc7a8b04f3da8aa3c3be514e155e2fa094e976f ACPI: fan: Initialize performance state sysfs attribute
-         4697958b056b112063e968857cefa7173ad5c732 Documentation: ACPI: explain how to use gpio-line-names
-         e010d1d25e47642fb91023479a4965000cf934a8 cpufreq: tegra186: Fix get frequency callback
-         8410e7f3b31e53bfa7a34c282b4313e79ed7ff8d cpufreq: scmi: Fix OPP addition failure with a dummy clock provider
-         14c620cf2ee81349527491110a47a157ac6d511c Merge branch 'cpufreq/arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-         3bef4fa71afdf3e470616388002aaf7620ed55dd Merge branch 'pm-cpufreq-fixes' into linux-next
-         91565ced86999f0d538b19d4d8cff8050aff8a8f Merge branches 'acpi-fan' and 'acpi-docs' into linux-next
+         235a8368ae939c74c540b9d0805df5d63bad34a4 dt-bindings: vendor-prefixes: document Octavo Systems oct prefix
+         d27a52d51454aa71ba1c8fa8b9beeca529f780c3 dt-bindings: arm: stm32: add extra SiP compatible for lxa,stm32mp157c-mc1
+         1926d571a413f9cc07fdd1c02b8ca266a596692a ARM: dts: stm32: lxa-mc1: add OSD32MP15x to list of compatibles
          
