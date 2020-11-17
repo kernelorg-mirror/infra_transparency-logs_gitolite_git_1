@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 17 Nov 2020 07:00:31 -0000
-Message-Id: <160559643151.23211.7017588964415162885@gitolite.kernel.org>
+Date: Tue, 17 Nov 2020 07:00:37 -0000
+Message-Id: <160559643715.23295.5862854336193946579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes-base
-    old: 5feed64f9199ff90c4239971733f23f30aeb2484
-    new: 2e6f11a797a24d1e2141a214a6dd6dfbe709f55d
+  - ref: refs/heads/fixes
+    old: 2e6f11a797a24d1e2141a214a6dd6dfbe709f55d
+    new: f36199355c64a39fe82cfddc7623d827c7e050da
     log: |
-         da3fecb0040324c08f1587e5bff1f15f36be1872 scsi: ufs: Fix unbalanced scsi_block_reqs_cnt caused by ufshcd_hold()
-         0f52fcb99ea2738a0a0f28e12cf4dd427069dd2a scsi: ufs: Try to save power mode change and UIC cmd completion timeout
-         2e6f11a797a24d1e2141a214a6dd6dfbe709f55d scsi: ufshcd: Fix missing destroy_workqueue()
+         fe0a8a95e7134d0b44cd407bc0085b9ba8d8fe31 scsi: libiscsi: Fix NOP race condition
+         f36199355c64a39fe82cfddc7623d827c7e050da scsi: target: iscsi: Fix cmd abort fabric stop race
          
