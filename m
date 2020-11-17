@@ -1,46 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============3707892375630278829=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/infra/patchwork/procmail
-Date: Tue, 17 Nov 2020 14:17:04 -0000
-Message-Id: <160562262438.26343.9032522190403336000@gitolite.kernel.org>
-
---===============3707892375630278829==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 17 Nov 2020 14:17:49 -0000
+Message-Id: <160562266970.26709.8385937372003003103@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/infra/patchwork/procmail
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: f0761b5cafc2f2faf1a918a6a0ab8531b172ed2a
-    new: 6ee6f9fae14189b133d93d6f49881fbe6508c3f8
+  - ref: refs/heads/bleeding-edge
+    old: b098fbf94c5d6f1d30a3820ac4c9859d0b0abf0b
+    new: 91565ced86999f0d538b19d4d8cff8050aff8a8f
     log: |
-         6ee6f9fae14189b133d93d6f49881fbe6508c3f8 Log message-id of each message as well
+         4697958b056b112063e968857cefa7173ad5c732 Documentation: ACPI: explain how to use gpio-line-names
+         e010d1d25e47642fb91023479a4965000cf934a8 cpufreq: tegra186: Fix get frequency callback
+         8410e7f3b31e53bfa7a34c282b4313e79ed7ff8d cpufreq: scmi: Fix OPP addition failure with a dummy clock provider
+         14c620cf2ee81349527491110a47a157ac6d511c Merge branch 'cpufreq/arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+         3bef4fa71afdf3e470616388002aaf7620ed55dd Merge branch 'pm-cpufreq-fixes' into linux-next
+         91565ced86999f0d538b19d4d8cff8050aff8a8f Merge branches 'acpi-fan' and 'acpi-docs' into linux-next
          
-
---===============3707892375630278829==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1605622624 -0500
-pushee gitolite.kernel.org:pub/scm/infra/patchwork/procmail
-nonce 1605622623-294343b5b76b0e51564844b91512e9052e3c9707
-
-f0761b5cafc2f2faf1a918a6a0ab8531b172ed2a 6ee6f9fae14189b133d93d6f49881fbe6508c3f8 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX7PbYAAKCRC2xBzjVmSZ
-bMAiAPwMSugB3IvMPCO9/7KYptpnL09OOgw6keZmdzWdat//5gD/a1q7V4K7RR0a
-/QSkEkMnSzxKNfHewQLwqwD9BDZonQM=
-=QizU
------END PGP SIGNATURE-----
-
---===============3707892375630278829==--
+  - ref: refs/heads/linux-next
+    old: 4e4b3acab7814c0bf772778e208132cb8bfd7f85
+    new: 91565ced86999f0d538b19d4d8cff8050aff8a8f
+    log: |
+         7dc7a8b04f3da8aa3c3be514e155e2fa094e976f ACPI: fan: Initialize performance state sysfs attribute
+         4697958b056b112063e968857cefa7173ad5c732 Documentation: ACPI: explain how to use gpio-line-names
+         e010d1d25e47642fb91023479a4965000cf934a8 cpufreq: tegra186: Fix get frequency callback
+         8410e7f3b31e53bfa7a34c282b4313e79ed7ff8d cpufreq: scmi: Fix OPP addition failure with a dummy clock provider
+         14c620cf2ee81349527491110a47a157ac6d511c Merge branch 'cpufreq/arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+         3bef4fa71afdf3e470616388002aaf7620ed55dd Merge branch 'pm-cpufreq-fixes' into linux-next
+         91565ced86999f0d538b19d4d8cff8050aff8a8f Merge branches 'acpi-fan' and 'acpi-docs' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 4e4b3acab7814c0bf772778e208132cb8bfd7f85
+    new: 91565ced86999f0d538b19d4d8cff8050aff8a8f
+    log: |
+         7dc7a8b04f3da8aa3c3be514e155e2fa094e976f ACPI: fan: Initialize performance state sysfs attribute
+         4697958b056b112063e968857cefa7173ad5c732 Documentation: ACPI: explain how to use gpio-line-names
+         e010d1d25e47642fb91023479a4965000cf934a8 cpufreq: tegra186: Fix get frequency callback
+         8410e7f3b31e53bfa7a34c282b4313e79ed7ff8d cpufreq: scmi: Fix OPP addition failure with a dummy clock provider
+         14c620cf2ee81349527491110a47a157ac6d511c Merge branch 'cpufreq/arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+         3bef4fa71afdf3e470616388002aaf7620ed55dd Merge branch 'pm-cpufreq-fixes' into linux-next
+         91565ced86999f0d538b19d4d8cff8050aff8a8f Merge branches 'acpi-fan' and 'acpi-docs' into linux-next
+         
