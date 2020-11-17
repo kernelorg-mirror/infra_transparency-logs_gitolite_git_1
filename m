@@ -1,98 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============1506484350917025806=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 17 Nov 2020 06:06:11 -0000
-Message-Id: <160559317170.18503.16765587935999853091@gitolite.kernel.org>
-
---===============1506484350917025806==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Tue, 17 Nov 2020 07:00:31 -0000
+Message-Id: <160559643151.23211.7017588964415162885@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/staging
-    old: cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5
-    new: cf4d4d8ebdb838ee996e09e3ee18deb9a7737dea
-    log: revlist-cb2b4e8f5ea6-cf4d4d8ebdb8.txt
-
---===============1506484350917025806==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1605593170 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1605593170-0b0939da8ec05d8aebf630237483325a0b323cee
-
-cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5 cf4d4d8ebdb838ee996e09e3ee18deb9a7737dea refs/heads/staging
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+zaFIACgkQ7ulgGnXF
-3j3PkRAAjC4dIoC6Jz1zvSprQ+wtjNo4fi3F6P5QVgocUTYRzmw9q9waIByNz7KE
-Yr9e2w/U7miYrHmWrX5dFT5ZQdhI03b8xVyE1xboimL0yaqLaa/R5S2C62UhTKgP
-nne3bZVymB4f3vOBWNTpycZ+P7S+QPHzuYYme4O3e3xrrXy5XZjAMg0Zt+7lbvwM
-6mMGsr5JgaWbOW0Yuohux/scra+C1L3ZHxma0v0jhnILWfJpqrq4m1MiNKwSaIfy
-TViE6KEUGANrabTiZXX1a+wbfCpnfa8NOehaik0EV+O/G4oykXrWIU/pxx394bKy
-7WPu28oqIN7wlZzrCajXrUE/dlfT8GnOSQcvkjNuxGO6B48cZRlrloN9C24WIFPQ
-ylqwqo96F9G2RkZp8Qog2tmaBYZ4aiHnOOd9T29taZl0MsRwVgQNNitpmvtvi0Vv
-VBWbk+GHJ2CkvDgKsHFBtPVvg4bmqrPkice4ZpX3QKN95t97qHsXM5xQAlAm4Gos
-1htA5PyEoinXEiePxF+Elc1yhAcYphTy90AU5MOlywlbXrKH335kfkWeSgmlVAlE
-GuLFUsHhGnPZ7cLtqdweagqAO+oFmhQ74WMCmzjqmxKk9MGfbfoSoPGPisu//Z38
-SPJL5hfg5VgmgkUNsdhL4N13m5hrlQ6a1iUeb/w8nhYe7TE5Qvc=
-=FztP
------END PGP SIGNATURE-----
-
---===============1506484350917025806==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb2b4e8f5ea6-cf4d4d8ebdb8.txt
-
-2e4209b3806cda9b89c30fd5e7bfecb7044ec78b scsi: core: Fix VPD LUN ID designator priorities
-16d6317ea438b10c5747f5d4a972ea0e68d1a6ae scsi: core: Replace while-loop by for-loop in scsi_vpd_lun_id()
-883928201b00928df0b2000be37ee7a8e975be26 scsi: core: Fix -Wformat for scsi_host
-a364a3ea32da6de55a9a7c75db311bd908fcfbb4 scsi: pm8001: Remove unused variable 'value'
-1bdf6e9343877030640336d93da08321719bca43 scsi: smartpqi: Correct driver removal with HBA disks
-408bdd7e5845d8f3e0dac0dcc18f358835175801 scsi: smartpqi: Correct pqi_sas_smp_handler busy condition
-5443bdc4cc777f3629f02e934fef418e9d921809 scsi: smartpqi: Update version to 1.2.16-012
-6081b12ceb7d6e58346ce359282cdc1ed8282b76 scsi: ufs: Add retry flow for failed HBA enabling
-1fc6591951308c9923311913811717d46400100d scsi: hpsa: Strip out a bunch of set but unused variables
-6ac63216a7af03e8281758d7cd32a09718531eb2 scsi: ufs-qcom: Only select QCOM_SCM if SCSI_UFS_CRYPTO
-4ab2990a5ce15e6a689f349ba6ab1e6e23df57df scsi: be2iscsi: Mark beiscsi_attrs with static keyword
-307e338097dc320afb9f62493a325c7b9208d574 scsi: lpfc: Rework remote port ref counting and node freeing
-4430f7fd09ecb037570119e0aacbf0c17b8f98b2 scsi: lpfc: Rework locations of ndlp reference taking
-95f0ef8a8368b2195ca9b8b4eca9a3ec8d132a75 scsi: lpfc: Fix removal of SCSI transport device get and put on dev structure
-e9b1108316b9b5beee03f731c7c9c7c874e537fa scsi: lpfc: Fix refcounting around SCSI and NVMe transport APIs
-c6adba150191762a7e58644f9e522d9d6d945e1c scsi: lpfc: Rework remote port lock handling
-52edb2caf675684acf2140a125de4774c691fecd scsi: lpfc: Remove ndlp when a PLOGI/ADISC/PRLI/REG_RPI ultimately fails
-9d76d46751594264a91387583fef49af334ccea6 scsi: lpfc: Unsolicited ELS leaves node in incorrect state while dropping it
-b3f2e67cc2dd59fffeffd35b1526a081bbec9490 scsi: lpfc: Fix NPIV discovery and Fabric Node detection
-a70e63eee1c14257f73ce9ec6d0c9db28f77f9ad scsi: lpfc: Fix NPIV Fabric Node reference counting
-b101eb27fde072866c6f5bdbcc2c28a6bf2c9bf7 scsi: lpfc: Refactor WQE structure definitions for common use
-840a470181c72f82f8bc9453b47ac0d2e79f6b4a scsi: lpfc: Enable common wqe_template support for both SCSI and NVMe
-47ff4c510f029360667eb4a61506ef9bfba5581d scsi: lpfc: Enable common send_io interface for SCSI and NVMe
-da255e2e7cc889e10820bc89752466322426571f scsi: lpfc: Convert SCSI path to use common I/O submission path
-96e209be6ecb7b96dfb56f2737401adce33aef8e scsi: lpfc: Convert SCSI I/O completions to SLI-3 and SLI-4 handlers
-db7531d2b3775c662466e4eeda774986472c6d18 scsi: lpfc: Convert abort handling to SLI-3 and SLI-4 handlers
-ab4dfa4dd5a121681e06b791f9a5dc81afa5e192 scsi: lpfc: Update lpfc version to 12.8.0.6
-983f761cd5c5741f228c7b5dc437678899e3a64c scsi: lpfc: Update changed file copyrights for 2020
-54770cbebe2caa89423a13ff32fa0d497c392214 scsi: ufs: ufs-mediatek: Refactor performance scaling functions
-65858014ee20c842eaff65514e75d2c640c70007 scsi: ufs: Introduce device parameter initialization function
-a4b537ea656e9f48b2cbcd7b8883f21b3fc5cef9 scsi: ufs: ufs-mediatek: Use device parameter initialization function
-8beef54716e652fb08ac6ab45c2ce239ec3f5856 scsi: ufs: ufs-qcom: Use device parameter initialization function
-5b3573d68d9ac45c904af6d6e9bc415af45ccc41 scsi: ufs: ufs-exynos: Use device parameter initialization function
-85d6d3c18953b9653d0934c087fe73ff02e43c79 scsi: ufs: ufs-hisi: Use device parameter initialization function
-fc85a74e28fe087dceb80eb69f37307ec97b6b47 scsi: ufs: Refactor ADAPT configuration function
-e1e25d1b89967035059cf8e098270cc3300b5bd9 scsi: ufs: ufs-mediatek: Use common ADAPT configuration function
-d9fa1e731e243525861517ba256b179072070c1d scsi: ufs: ufs-qcom: Use common ADAPT configuration function
-cf4d4d8ebdb838ee996e09e3ee18deb9a7737dea scsi: qla4xxx: Remove redundant assignment to variable rval
-
---===============1506484350917025806==--
+  - ref: refs/heads/fixes-base
+    old: 5feed64f9199ff90c4239971733f23f30aeb2484
+    new: 2e6f11a797a24d1e2141a214a6dd6dfbe709f55d
+    log: |
+         da3fecb0040324c08f1587e5bff1f15f36be1872 scsi: ufs: Fix unbalanced scsi_block_reqs_cnt caused by ufshcd_hold()
+         0f52fcb99ea2738a0a0f28e12cf4dd427069dd2a scsi: ufs: Try to save power mode change and UIC cmd completion timeout
+         2e6f11a797a24d1e2141a214a6dd6dfbe709f55d scsi: ufshcd: Fix missing destroy_workqueue()
+         
