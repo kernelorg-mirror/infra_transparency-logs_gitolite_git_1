@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3600691439763613284=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 17 Nov 2020 12:18:00 -0000
-Message-Id: <160561548069.2495.16697024805732986252@gitolite.kernel.org>
-
---===============3600691439763613284==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 17 Nov 2020 12:18:02 -0000
+Message-Id: <160561548204.2557.11275467609288732855@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 1a336ecf12ef86ee3cdfd1a04278501b1f65256e
-    new: a86bafff026fb011dc17c25fbc71c07c606169cc
+  - ref: refs/heads/sched/core
+    old: dc824eb898534cd8e34582874dae3bb7cf2fa008
+    new: afe424bc6724ff0c808c0fcd21d166957e9f9a1a
     log: |
-         a86bafff026fb011dc17c25fbc71c07c606169cc 4.9-stable patches
+         8098de594e02273fff8e73ce0123e0c108dc5f2d sched/core: Add missing completion for affine_move_task() waiters
+         81dd903820d7550fd32ff916b09d7e5638972ad9 sched: Fix migration_cpu_stop() WARN
+         ba8d0c3053fb124ef442e3e2d5cc99b5e45f9c33 cpuset: fix race between hotplug work and later CPU offline
+         5e231a21640a0fb1abeae1c5ccee9061e0297d4e sched/topology: Warn when NUMA diameter > 2
+         404f5d762b66d1de646a7351222dce369dbe4f7a Documentation: scheduler: fix information on arch SD flags, sched_domain and sched_debug
+         6f9d5320370cc9de6f5fba528a7afcd72f71ef9a sched/core: Fix typos in comments
+         afe424bc6724ff0c808c0fcd21d166957e9f9a1a sched/uclamp: Allow to reset a task uclamp constraint value
          
-
---===============3600691439763613284==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605615531 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1605615478-f37dd35f2e979528076e6e2a678d72162c4b12c9
-
-1a336ecf12ef86ee3cdfd1a04278501b1f65256e a86bafff026fb011dc17c25fbc71c07c606169cc refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+zv6sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2P8P/2HNMYupZy7+4vV8eICP
-wxxrP5Wsl9Yk5PuE7qekpF0eNbWMueZVZzw0g+hZM2aPI190b2sqhxVF47rxpEva
-B4LaHlm3uOrY15BDKTu+l+nOTX91VszN8Q2kiJS8XoDTmhx87IrRp8PuHBrUuSeQ
-oWwrHNeuZcsAVYdM/Q3naGcad5lkX95bZVtoH8cOHs+/m7A7/wYxna5OAhPrst/Q
-fYQLfi8P+GJtG5hrrQcG4stBGmj0vMrys16Wa4GVbymKKbW0WiwB7l0xD0MVHfCG
-ABu+MNoh8XWJelSWuW7ZiSCdtbodHnEidL1sZ+m0fZJacEMs4rkPPNr5eu0bA1EF
-RvsRopjZycWjZXCH55H9Vsq0eSRnvWYhJGo5SU5AXkjbBs4cxjfhhMvZ538KKOtJ
-llR4xA/h27yj+BhMKEZbUVWDQO2C/H1gV7j76BudbuC3F4yPbdsFwi/Q05XcxXI4
-GTwwUgN6m67KBKhK0D+B4m41V3mfLQzAN86sKPnHQMzI3bLj556jBiCVptnXTQ9t
-dRame6Dw4tHtZEqY/ybUkhJ9LnQFVp715kZy6PkukPGW4RG40pqG3s20m9FE4gsU
-RibU+6EUTCfbd4sDp/kOVa9naGOFwahrFsLbKSKmDysRMGt1JemYLnAgehJuqjBg
-Mst59Y+qZv+QWhll27ciYuC4
-=O6jQ
------END PGP SIGNATURE-----
-
---===============3600691439763613284==--
