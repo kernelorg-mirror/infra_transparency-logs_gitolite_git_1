@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0932298008752340424=="
+Content-Type: multipart/mixed; boundary="===============8829910120722870682=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 17 Nov 2020 09:07:24 -0000
-Message-Id: <160560404480.27559.5770265641801008490@gitolite.kernel.org>
+Date: Tue, 17 Nov 2020 09:09:32 -0000
+Message-Id: <160560417210.28405.13117313240730151711@gitolite.kernel.org>
 
---===============0932298008752340424==
+--===============8829910120722870682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
-  - ref: refs/heads/test/usb-hacks-wip
+  - ref: refs/heads/test/usb-hacks
     old: ee1fc429a98a9e2c2fc425b1c51d493ab18aa231
     new: 8b20a98f3fca70ad3b72c04b1bbad85a0a77ba3a
     log: revlist-ee1fc429a98a-8b20a98f3fca.txt
 
---===============0932298008752340424==
+--===============8829910120722870682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ ab0d9a2d410f093a7246c3ca711490ca735db856 ALSA: usb-audio: Use unsigned char for 
 1fad2376588faff56d24bbf0cafdb6de156e1cee ALSA: usb-audio: Show sync endpoint information in proc outputs
 8b20a98f3fca70ad3b72c04b1bbad85a0a77ba3a ALSA: usb-audio: Add fake capture sync EP for BOSS GT-001
 
---===============0932298008752340424==--
+--===============8829910120722870682==--
