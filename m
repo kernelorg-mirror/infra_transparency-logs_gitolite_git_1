@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8963923711517268253=="
+Content-Type: multipart/mixed; boundary="===============7627028492746505077=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 18 Nov 2020 20:57:20 -0000
-Message-Id: <160573304082.9705.13640528468268553726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 18 Nov 2020 20:57:28 -0000
+Message-Id: <160573304801.9865.14601897912447474649@gitolite.kernel.org>
 
---===============8963923711517268253==
+--===============7627028492746505077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.10
-    old: f5c042b23f7429e5c2ac987b01a31c69059a978b
-    new: 2ba546ebe0ce2af47833d8912ced9b4a579f13cb
+  - ref: refs/heads/for-5.11
+    old: 6e3dbfcb3c8a1ef8cc73a8637f778673f5c6e91c
+    new: 03fc41afaa6549baa2dab7a84e1afaf5cadb5b18
     log: |
-         2ba546ebe0ce2af47833d8912ced9b4a579f13cb regulator: ti-abb: Fix array out of bound read access on the first transition
+         03fc41afaa6549baa2dab7a84e1afaf5cadb5b18 spi: mxs: fix reference leak in mxs_spi_probe
          
 
---===============8963923711517268253==
+--===============7627028492746505077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1605733021 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1605733038-edcb15997e4f7ad8dc2ff9e4c9b9b308c3284132
+pusher C3F436CA30F5D8EB 1605733028 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1605733045-bd8330565d743ecf06f1ec747a805884bd51eeb1
 
-f5c042b23f7429e5c2ac987b01a31c69059a978b 2ba546ebe0ce2af47833d8912ced9b4a579f13cb refs/heads/regulator-5.10
+6e3dbfcb3c8a1ef8cc73a8637f778673f5c6e91c 03fc41afaa6549baa2dab7a84e1afaf5cadb5b18 refs/heads/for-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+1ip0ACgkQJNaLcl1U
-h9BrYgf/duzuB8ELtjuoiqPloWS0XEFKDIdwIBtokbrG00Xjsgt2NHt9zkqzwWZo
-M9d5LV2b7v+UsmZYYcmHrryPgQ6Wf4sI7HfP6Na3Lj73qzVKkP/ELupjGH06CFOj
-GYnfPiJp0n+NsSaTjosjP3MrCfJ1V7kHT00DEnXAQgDJ4KKBcU3h6rY3oo5+LbP4
-uhz+yUJCnHXGIcJGg0fXe8Tqk1wNj0OoBIYfAkrtWMYSx9wpA7U6ZoZtRXy4v5We
-aUKwN/ZhjEuoIe5YNrugAsAW+iSUOPkM4/I3SJHtdmdhj9DI/0R2yev0F3E5uSGg
-y/+uCV7i0hj630ZO1P+oNiSLW1xL6w==
-=7SQC
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+1iqQACgkQJNaLcl1U
+h9BI0Qf9HaifCH+U++VsC2pkqw6szyJsgRXzmXaEkaC430C6QsuG0nq8S8agiUsW
+NTzoraZrHR8A9KBP7Bh5mbyVUjZhIyPTn/fPOGXLcnMayXoQcxlEgpVrl3kpjgvx
+YIHHU6zCdQfLPeNFV726tVWzWBFvwaYIXgaBq/+C0nouo/sPhkEiT6an72o2Ggko
+KKGs3QJMt01ULF2jWJBeW+kDZXi1TwlsDl7oLVuGr2q85jLB7exK0kVkm5sVu6X/
+DBZErIvZyuq7j5zWlS4krpkUPC4tJOG2iwZtamI4azq2g/Yc1hdDpnQgik5i6NX0
+dZBahWKT5ImWM/dTqVsy2wOYT8VM+w==
+=5FvY
 -----END PGP SIGNATURE-----
 
---===============8963923711517268253==--
+--===============7627028492746505077==--
