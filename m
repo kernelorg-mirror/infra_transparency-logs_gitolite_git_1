@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2145039348009440905=="
+Content-Type: multipart/mixed; boundary="===============6777506000748427156=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mripard/linux
-Date: Wed, 18 Nov 2020 09:01:22 -0000
-Message-Id: <160569008238.2846.6878841801760522133@gitolite.kernel.org>
+Date: Wed, 18 Nov 2020 09:09:11 -0000
+Message-Id: <160569055181.22472.8905220205157596456@gitolite.kernel.org>
 
---===============2145039348009440905==
+--===============6777506000748427156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,28 @@ repo: pub/scm/linux/kernel/git/mripard/linux
 user: mripard
 git_push_cert_status: E
 changes:
-  - ref: refs/tags/drm/sun4i-dma-fix-pull-request
+  - ref: refs/tags/sunxi-rework-mbus
     old: 0000000000000000000000000000000000000000
-    new: 28084c6aae71584056cf782cef2aff3cc34cee58
+    new: 353e9abb55416468222eea9829cca2536c6a8f66
 
---===============2145039348009440905==
+--===============6777506000748427156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1605690081 +0100
+pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1605690551 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mripard/linux.git
-nonce 1605690081-8ec648a458cb8d7243fcdd08f357a8112c22dbcf
+nonce 1605690550-fac307bc333cf2dd1577cd34a0ca11517af30a4d
 
-0000000000000000000000000000000000000000 28084c6aae71584056cf782cef2aff3cc34cee58 refs/tags/drm/sun4i-dma-fix-pull-request
+0000000000000000000000000000000000000000 353e9abb55416468222eea9829cca2536c6a8f66 refs/tags/sunxi-rework-mbus
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCX7Ti4QAKCRDj7w1vZxhR
-xXNDAP4j9+5dcawYbv0I0lsf6++5jIUR5L2q6R9m8BjoDHhpigD9HxSkPkUKxE5Q
-yS4e6nyF7Te5kM1cXUiiQGWjpaI2SAg=
-=HSqK
+iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCX7TktwAKCRDj7w1vZxhR
+xRtRAQD+InAB8praIuet7QtXgNBoVW1pOQlUmMfbfDo0geBwRAD/Y9FhTjMQYU6L
+0hUryiPjSBU0cDOlWB/EgY+fUi01uAo=
+=BrZu
 -----END PGP SIGNATURE-----
 
---===============2145039348009440905==--
+--===============6777506000748427156==--
