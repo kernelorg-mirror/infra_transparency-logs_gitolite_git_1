@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 18 Nov 2020 00:38:39 -0000
-Message-Id: <160565991912.9402.5708010149576686883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 18 Nov 2020 00:38:44 -0000
+Message-Id: <160565992474.9536.386344313143601641@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/master
-    old: e33de7c5317e2827b2ba6fd120a505e9eb727b05
-    new: 93be52612431e71ee8cb980ef11468997857e4c4
+  - ref: refs/heads/for-next
+    old: cbf398d76534427877e5824dd61611514cf284b3
+    new: ea87ae85c9b31303a2e9d4c769d9f3ee8a3a60d1
     log: |
-         93be52612431e71ee8cb980ef11468997857e4c4 qed: fix ILT configuration of SRC block
+         3f6719c7b62f0327c9091e26d0da10e65668229e bpf: Add bpf_bprm_opts_set helper
+         ea87ae85c9b31303a2e9d4c769d9f3ee8a3a60d1 bpf: Add tests for bpf_bprm_opts_set helper
          
