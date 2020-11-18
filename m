@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0389486372667431134=="
+Content-Type: multipart/mixed; boundary="===============3026047493558718563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 18 Nov 2020 20:57:00 -0000
-Message-Id: <160573302046.9353.7492775294807183424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 18 Nov 2020 20:57:07 -0000
+Message-Id: <160573302701.9456.7337869002028512185@gitolite.kernel.org>
 
---===============0389486372667431134==
+--===============3026047493558718563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.10
+  - ref: refs/heads/asoc-5.10
     old: 63fa58d99a7bc07f2d70ccc7a50aba86dba652c0
     new: 879ee8b6f2bae0cc4a25536f8841db1dbc969523
     log: |
          879ee8b6f2bae0cc4a25536f8841db1dbc969523 ASOC: Intel: kbl_rt5663_rt5514_max98927: Do not try to disable disabled clock
          
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 5268e0bf7123c422892fec362f5be2bcae9bbb95
     new: 1482304db126551c867434c5cc3fadf089beb417
     log: revlist-5268e0bf7123-1482304db126.txt
 
---===============0389486372667431134==
+--===============3026047493558718563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1605733000 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1605733018-57c6eaf7a5fe5ffd461033b27b976e69f0cbe4e4
+pusher C3F436CA30F5D8EB 1605733007 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1605733024-11a2ebc49a428fa18a1dd00a02a770ed4248a145
 
-63fa58d99a7bc07f2d70ccc7a50aba86dba652c0 879ee8b6f2bae0cc4a25536f8841db1dbc969523 refs/heads/for-5.10
-5268e0bf7123c422892fec362f5be2bcae9bbb95 1482304db126551c867434c5cc3fadf089beb417 refs/heads/for-5.11
+63fa58d99a7bc07f2d70ccc7a50aba86dba652c0 879ee8b6f2bae0cc4a25536f8841db1dbc969523 refs/heads/asoc-5.10
+5268e0bf7123c422892fec362f5be2bcae9bbb95 1482304db126551c867434c5cc3fadf089beb417 refs/heads/asoc-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+1iogACgkQJNaLcl1U
-h9Dt7wf/UuaiAPVzLGK890gso1ejRHA7Q/IVYrMxpwt5xGiKhYC9wbqP+sBiDV65
-N+pQSnlnuDTSoU5W6NFZTitMn44VGjnMVpLJfjyptuXL39HXZKumHCIsO+/K7TM/
-GrlSAxa2G7tEiQh46+Sx3B6HxoIyECF86EXVuf4jupfJshWdhNreccS9Efg2Kg86
-Wbl8STjQzpTi08joyU/vI/oo/oXM3iHXalyEc6HhaQugA05ZbWrte5RJGWvkjZkP
-yTqFHUgxZMqs6fwAZY3b0I6JwMfIGTLBdQ0DFksx9dp5U06BPFMpVIKsn3eCrLQ3
-5vpqkH3v7a51Nq1z5EGRiaeynxL7hQ==
-=JAX/
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+1io8ACgkQJNaLcl1U
+h9CKBQf+KQxiJamR1DA4wbH3DnP3ik36gS+Xovdms2KfQuq5iTMS1bn/rYDObbNu
+TF8WOdNrDRKd4289zmMc0N+bN5zTtpdYRtEMEHZFlnDbP/vyPfrWG2tYda2SKWEQ
+BhNysG0e9JfbX+yE/x2Cp+7kzUNFD7j71xGOdxQsXy2QqzHqo91T3W2m6g81Q6e4
+8rXNAfsbNDkJPPSw8cDfgtaXxVfIRJbupAYI9Q2eDHF3zdIojJ62qAeY9GJmLiwa
+mUHQeqX0HYM25vvyoEhcTjaMzpQ1gKbXi+vbPoamh6HnrdJN3eR1xH/2knlMQBkj
++GNArfNUk2+3cAuRjIZFG76CdoqiDw==
+=mV5H
 -----END PGP SIGNATURE-----
 
---===============0389486372667431134==
+--===============3026047493558718563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -80,4 +80,4 @@ b88b31f4fa0abcd698045362d4aefcddc50cba59 ASoC: mmp-sspa: clear transmit phase bi
 de3de881db8e072a5c35b702e0a14ac971fffcb1 Merge series "ASoC: graph card schema rework" from Rob Herring <robh@kernel.org>:
 1482304db126551c867434c5cc3fadf089beb417 Merge series "ASoC: soc-component: add snd_soc_component_xxx()" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 
---===============0389486372667431134==--
+--===============3026047493558718563==--
