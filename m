@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 18 Nov 2020 14:17:13 -0000
-Message-Id: <160570903392.12428.18171694256732368185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
+Date: Wed, 18 Nov 2020 14:28:04 -0000
+Message-Id: <160570968460.22879.11715117574390949059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/andersson/remoteproc
+user: andersson
 changes:
-  - ref: refs/heads/for-next/iommu/core
-    old: 2ad196394a490a66171351fb75860ae83f9b13d5
-    new: c7e881b457c02e0c708828550a9f694f7624e124
+  - ref: refs/heads/rproc-fixes
+    old: 2b9de1272fbd2c26a115b466166bc53a7f777365
+    new: 9b3b3c9531e8711eace759cafedd80e8d4d7a519
     log: |
-         68dd9d89eaf56dfab8d46bf25610aa4650247617 iommu/vt-d: include conditionally on CONFIG_INTEL_IOMMU_SVM
-         4e89dce725213d3d0b0475211b500eda4ef4bf2f iommu/iova: Retry from last rb tree node if iova search fails
-         6fa3525b455ae1fde5b424907141b33651f137b0 iommu/iova: Free global iova rcache on iova alloc failure
-         6243f572a18db99607f29517b2d6b4209356b9fa iommu: Modify the description of iommu_sva_unbind_device
-         4d213e76a359e540ca786ee937da7f35faa8e5f8 iommu/vt-d: Avoid panic if iommu init fails in tboot system
-         c7e881b457c02e0c708828550a9f694f7624e124 Merge branches 'for-next/iommu/arm-smmu', 'for-next/iommu/fixes', 'for-next/iommu/iova', 'for-next/iommu/misc' and 'for-next/iommu/vt-d' into for-next/iommu/core
+         9b3b3c9531e8711eace759cafedd80e8d4d7a519 remoteproc: k3-dsp: Fix return value check in k3_dsp_rproc_of_get_memories()
          
