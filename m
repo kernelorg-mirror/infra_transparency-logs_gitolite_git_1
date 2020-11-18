@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8135904041403971580=="
+Content-Type: multipart/mixed; boundary="===============7244614066985866115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Wed, 18 Nov 2020 15:11:04 -0000
-Message-Id: <160571226445.19487.10102889368326661334@gitolite.kernel.org>
+Date: Wed, 18 Nov 2020 15:11:12 -0000
+Message-Id: <160571227286.19635.18085966014423215902@gitolite.kernel.org>
 
---===============8135904041403971580==
+--===============7244614066985866115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 8e2b3a58cb79fb97ee38d239c880c2ea470813ba
-    new: cd9f13c59461351d7a5fd07924264fb49b287359
-    log: revlist-8e2b3a58cb79-cd9f13c59461.txt
+  - ref: refs/heads/master
+    old: ceb736e1d45c253f5e86b185ca9b497cdd43063f
+    new: c09c8a27b9baa417864b9adc3228b10ae5eeec93
+    log: revlist-ceb736e1d45c-c09c8a27b9ba.txt
 
---===============8135904041403971580==
+--===============7244614066985866115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1605712260 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1605712269 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1605712259-fe0931983a31572af552087e9160f587af845202
+nonce 1605712269-61c1ada4d8461e008fa264f7cbecb25c026a2ad7
 
-8e2b3a58cb79fb97ee38d239c880c2ea470813ba cd9f13c59461351d7a5fd07924264fb49b287359 refs/heads/testing
+ceb736e1d45c253f5e86b185ca9b497cdd43063f c09c8a27b9baa417864b9adc3228b10ae5eeec93 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl+1OYQTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqZESB/0THQj83tpLg9xFKmQ3+bsplSh+wFDf
-5qqHo6D40vb3YauIIqT4J3tbe75NSqPexL5LhaGJU+oC7lkil84scnAGRn9ZZn2Y
-JRTlm+HeRiYrxkrnp/ICu4FbyXruZwOz0DvJGJpCG/+fPOKK0XUhifPho9HSZ74c
-mMXnU9aT8E1CqX2Zm46pvmvAAsHBcdk3Bia9J+gaA550rAL2yFcFzrNfHsPKQ8WV
-Tg9RMFTD7nLi102LxWV+UVAMX0874IR7NmaWZvlHO+tYf2Lz2fr5U97ZT/EiRc69
-SAK9WIrg7+k5WvjiM2I2KNIxPw773adjWkOqAPkW3UNuHE04Kd38no9C
-=wd02
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl+1OY0THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqTrXCACfIaPViiJDZ8cJvay35jHcCdnNzaiG
+cVax9xywtdCmmqvNyEdNua4zpTcP72IrZ1bAUIRgKSThO3aGn0xAH3Z77omKRtC7
+sjmku9sYW2D2vT6lwH/xCEYv2bgsMswJ7bacZ8A6FpCQEFZX0HXwbbak0a30v//T
+MJzAddgIpjMTXTc0AIrIqesq3s1mxdeBpA4JA85hM1uvx7PH+nBlVGQp/5Rs7ijX
+3hHWZO2HX7FpJGYGxt4W4QbVyBxpnb49Y3VBhErsPgPKgoU4oh48m9HjHZ8XaLMG
+/KFS7NE2Pszg6KEtUv6rxovUJvDlGYExv1R8jLkhX8yc0WQjWmC9DlnJ
+=/AtS
 -----END PGP SIGNATURE-----
 
---===============8135904041403971580==
+--===============7244614066985866115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e2b3a58cb79-cd9f13c59461.txt
+Content-Disposition: attachment; filename=revlist-ceb736e1d45c-c09c8a27b9ba.txt
 
 37344718bd7032639a02053e06b51697f90154ce net: phy: smsc: add missed clk_disable_unprepare in smsc_phy_probe()
 92307069a96c07d9b6e74b96b79390e7cd7d2111 net: dsa: mv88e6xxx: Avoid VTU corruption on 6097
@@ -60,6 +60,21 @@ e35df62e04cc6fc4b9d90d054732f138349ff9b1 lan743x: fix issue causing intermittent
 796a2665ca3e91ebaba7222f76fd9a035714e2d8 lan743x: prevent entire kernel HANG on open, for some platforms
 56311a315da7ebc668dbcc2f1c99689cc10796c4 net: stmmac: dwmac_lib: enlarge dma reset timeout
 849920c703392957f94023f77ec89ca6cf119d43 devlink: Add missing genlmsg_cancel() in devlink_nl_sb_port_pool_fill()
+c8c958a58fc67f353289986850a0edf553435702 can: af_can: prevent potential access of uninitialized member in can_rcv()
+9aa9379d8f868e91719333a7f063ccccc0579acc can: af_can: prevent potential access of uninitialized member in canfd_rcv()
+a1e654070a60d5d4f7cce59c38f4ca790bb79121 can: dev: can_restart(): post buffer from the right context
+7968c7c79d3be8987feb8021f0c46e6866831408 can: ti_hecc: Fix memleak in ti_hecc_probe
+81c9c8e0adef3285336b942f93287c554c89e6c6 can: mcba_usb: mcba_usb_start_xmit(): first fill skb, then pass to can_put_echo_skb()
+8a68cc0d690c9e5730d676b764c6f059343b842c can: peak_usb: fix potential integer overflow on shift of a int
+499aa923c56769274f81e60414b8de4912864b8d can: flexcan: flexcan_setup_stop_mode(): add missing "req_bit" to stop mode property comment
+b7ee5bc3e1006433601a058a6a7c24c5272635f4 can: flexcan: fix failure handling of pm_runtime_get_sync()
+3fcce133f0d9a50d3a23f8e2bc950197b4e03900 can: tcan4x5x: replace depends on REGMAP_SPI with depends on SPI
+1ff203badbbf1738027c8395d5b40b0d462b6e4d can: tcan4x5x: tcan4x5x_can_probe(): add missing error checking for devm_regmap_init()
+c81d0b6ca665477c761f227807010762630b089f can: tcan4x5x: tcan4x5x_can_remove(): fix order of deregistration
+cd0d83eab2e0c26fe87a10debfedbb23901853c1 can: m_can: m_can_handle_state_change(): fix state change
+a8c22f5b0c689a29f45ef4a110d09fd391debcbc can: m_can: m_can_class_free_dev(): introduce new function
+85816aba460ceebed0047381395615891df68c8f can: m_can: Fix freeing of can device from peripherials
+a584e9bc1b7e88f24f8504886eafbe6c73d8a97c can: m_can: m_can_stop(): set device to software init mode before closing
 e2142ef266c8a25e635ae4319254d7c01c84deb7 Merge tag 'linux-can-fixes-for-5.10-20201115' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 dd8088d5a8969dc2b42f71d7bc01c25c61a78066 PM: runtime: Add pm_runtime_resume_and_get to deal with usage counter
 da875fa5040b0f951cb4bf7efbf59f6dcff44d3c net: fec: Fix reference count leak in fec series ops
@@ -93,8 +108,5 @@ a5bbcbf29089a1252c201b1a7fd38151de355db9 netdevsim: set .owner to THIS_MODULE
 e33de7c5317e2827b2ba6fd120a505e9eb727b05 inet_diag: Fix error path to cancel the meseage in inet_req_diag_fill()
 93be52612431e71ee8cb980ef11468997857e4c4 qed: fix ILT configuration of SRC block
 c09c8a27b9baa417864b9adc3228b10ae5eeec93 ipv4: use IS_ENABLED instead of ifdef
-470e14c00c63752466ac44de392f584dfdddd82e can: kvaser_pciefd: Fix KCAN bittiming limits
-d003868d7f8579838ed58b6429af91844039b6f8 can: kvaser_usb: kvaser_usb_hydra: Fix KCAN bittiming limits
-cd9f13c59461351d7a5fd07924264fb49b287359 can: flexcan: flexcan_chip_start(): fix erroneous flexcan_transceiver_enable() during bus-off recovery
 
---===============8135904041403971580==--
+--===============7244614066985866115==--
