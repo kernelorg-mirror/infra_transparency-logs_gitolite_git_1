@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2472235059245276742=="
+Content-Type: multipart/mixed; boundary="===============7328207496130847000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 18 Nov 2020 11:55:20 -0000
-Message-Id: <160570052050.9233.7510621194147961769@gitolite.kernel.org>
+Date: Wed, 18 Nov 2020 11:56:35 -0000
+Message-Id: <160570059594.9719.10224992890800331825@gitolite.kernel.org>
 
---===============2472235059245276742==
+--===============7328207496130847000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: b0eec52fbe63fd8c3cffb8ef8d442c6fafb909b0
-    new: a0ccdc4a77a1b36b682ae60361879eca0a0f88d6
+    old: a0ccdc4a77a1b36b682ae60361879eca0a0f88d6
+    new: a57d253fc0582d223464705a5103cfb1930a06cd
     log: |
-         8a5ca78f603977d6b9b2d7dcb3b1b6ef601d3cc7 usb: pd: Add captive Type C cable type
-         a0ccdc4a77a1b36b682ae60361879eca0a0f88d6 usb: typec: Add number of altmodes partner attr
+         8115240c4fbd1c2705d1369f66168ec77fa2a7e4 usb: typec: tcpm: Refactor logic for new-source-frs-typec-current
+         a30a00e37ceb094f949e4d96c2c586e6503b5d1d usb: typec: tcpm: frs sourcing vbus callback
+         a57d253fc0582d223464705a5103cfb1930a06cd usb: typec: tcpci: frs sourcing vbus callback
          
 
---===============2472235059245276742==
+--===============7328207496130847000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605700563 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605700638 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1605700513-92d83fabd2a52bc2f912520be0f1449216579740
+nonce 1605700589-3a7e7ee1f210dd69f6954b9c930c66dddeda9852
 
-b0eec52fbe63fd8c3cffb8ef8d442c6fafb909b0 a0ccdc4a77a1b36b682ae60361879eca0a0f88d6 refs/heads/usb-testing
+a0ccdc4a77a1b36b682ae60361879eca0a0f88d6 a57d253fc0582d223464705a5103cfb1930a06cd refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+1C9MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jUQP/jJy5RDpvpBnniJfWvKh
-sPfDyXxW/+hxcXd/9/w1gbppD31er1TAl6F751XLvZ+SDAXyLRz+c3daZ8YYRhEB
-4lnQZ28R/SrJDhtOHYJRrsRMd3sa7qBP9Cu//8zd0vI/iNezYwcY9G7vTzZXwYp9
-LKFTj5MSUA/msyoMUek0dlCIIMGa/pKNMD7jqRpAZ2k7ElqhGpIyau52bPTpocJm
-tLCatRLTcE2Fl8S4jqo3KIY/IZBR3O1BKZ0SyZTvbIwaqbmI9P0tIgvL0nh21/s9
-oJRmPMSVOvODq0knLdIkIz0K2q7bT68wI0KvEbnXF3G8pK1xZ9QpJV36z+Lfb7xG
-VoQQSTx8biLfY4vDQcrblZojND3i3oNSboqK81p7d5JtSqg4v8FrKUyhcgWUd41W
-mQEtpfD2/itdQe80exvL7kQzaKuQawYMhb5duOvlJ82b/Ty4eXLy8ouXk9qgQSJ6
-g1u9fpte9vjjfLJjAv+NxOCYt9K2A74w9to6DpYohsbCnweOjz4pBY8dfi/queA0
-AvaeIdsFZQ6uLF/jqTd2iGWxa1w+OUEr7WEBZNeNmS0a+HAi75ogulrY0XqZltnn
-ISGDUXGx95fq3DP8PVTuTmToEZiJsHkNIZSqUq2LHd/eEcO3KyX60VGnmvbUZb/K
-bwXBbpA6a3321IVjDm8aAGHe
-=m7Um
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+1DB4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zIYQAK0o1AYyBLQJBnpWuK7s
+PdWXshntoROfK9giyDLJXCNUQRtcJyVhafqhk60Zf0u+DihsqnfR76/ratA/Lhv9
+Mc5ZfdxwCHlG4HfksPzOWn+IUkOJclZNjs+ABKzBaSWWXv0hc/YmLCkwcoapqAmp
+8UWxS2kziY1BIUxg/e/tjavsUNJihZAoz8hVVGgqefUCbeIzcD8TjdjjFj/UzP4k
+qPmxfrX9sULBm2iOhqi3Gdfbwd1plm3lvv59DoMbBJiDK9Pu3qh2h1K36UXPvxgb
+Bd0EVkPtymetgsR/9kSU4jO7YTVVuAuvbwfTAGIECNVYvEOQFmRwUCWnPfxghz8L
+Uz/e7JKe10LfZ6WMgjuKlROoUAYFpQofeX5mOVLeJKWwEDaPz5Adi5+JE5avppVP
+iCNHLGANcexjYMX96hkSALUh2B/JbSxIiBNbL0t+Q1BdQHC2x2zc9qQ2xdPTYUcj
+X5Ui7SNOmy5eRHD14Fi7f64vftc9wGwj4mH6N9zwAnHwwzLfERPc6wHjwJCyGOwx
+4CMxkcT/foN5IfaaUjL5/LbILjGRqwLu05DH0gsJM0cXncteZR1MyNk/t9Q4g9YZ
+aTk9LJAf+GNQ0ILIhnWDgvZJPqB8ppuSkK2Zn6fzymhAcAbuZdp0Y9yao/a/zJEz
+cr/zrfxqJNaQhjs5Xukj2mNY
+=nrQ6
 -----END PGP SIGNATURE-----
 
---===============2472235059245276742==--
+--===============7328207496130847000==--
