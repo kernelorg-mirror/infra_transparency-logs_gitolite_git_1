@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============7036009122549637399=="
+Content-Type: multipart/mixed; boundary="===============8662478650125362597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 18 Nov 2020 17:27:02 -0000
-Message-Id: <160572042240.19829.860164049142819679@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Wed, 18 Nov 2020 17:28:14 -0000
+Message-Id: <160572049431.20385.359807435033067409@gitolite.kernel.org>
 
---===============7036009122549637399==
+--===============8662478650125362597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 6f4a5e443107f56ba8f7e828fe54a7c30402ffa2
-    new: af35cd09747217fb9b43e5d1be4e1df31f51e187
-    log: |
-         af35cd09747217fb9b43e5d1be4e1df31f51e187 Notes added by 'git notes add'
-         
+  - ref: refs/heads/ath11k-qca6390-bringup
+    old: 7e59070d6cb32e6e80ddf84e7f146f36ef2cc558
+    new: d801e319b3635aeb5a7b517029c63197a500991e
+    log: revlist-7e59070d6cb3-d801e319b363.txt
+  - ref: refs/tags/ath11k-qca6390-bringup-202011181727
+    old: 0000000000000000000000000000000000000000
+    new: d801e319b3635aeb5a7b517029c63197a500991e
 
---===============7036009122549637399==
+--===============8662478650125362597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7e59070d6cb3-d801e319b363.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605720470 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1605720419-ba0954355147ce2bed0adc18d82a5960e493e47f
+065c9528cc508cfbf6e3399582df29f76f56163c ath11k: add 64bit check before reading msi high addr
+59c6d022df8efb450f82d33dd6a6812935bd022f ath11k: pci: support platforms with one MSI vector
+0d8b0aff6b77ea5a8d715ba5d0089f9dffbabf21 ath11k: try to allocate big block of dma memory firstly
+fa4eea695afb286ae38beb30dabf251335cb4a62 ath11k: dp_rx: fix monitor status dma unmap direction
+762fe5bc2dd1e43ef307a375861b1a8c414b14e3 ath11k: hook mhi suspend and resume
+2f164833bcca14e8aec0b2566eae4b5a7d09ee6f ath11k: implement hif suspend and resume functions.
+6afab932ece78fedc1538c20c2aefdd13aa6c9d0 ath11k: read select_window register to ensure write is finished
+69ab2835b82c176e793195243e1400d4f8db3647 ath11k: implement htc suspend related callbacks
+68023bee4d61ea2b02af49bba00adabba51d8b6b ath11k: put target to suspend when system enters suspend state
+23dcef9436560a033703164c4daff9e36e640969 ath11k: pci: print a warning if firmware crashed
+d801e319b3635aeb5a7b517029c63197a500991e ath11k: qmi: print allocated memory segment addresses and sizes
 
-6f4a5e443107f56ba8f7e828fe54a7c30402ffa2 af35cd09747217fb9b43e5d1be4e1df31f51e187 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+1WZYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j2IP/1ce7YekONiuBys99AhW
-0IRTwYAwdVJTDK/89l2HslfM58PEfz5qrBdvGXGDRE6F5H8MA5VNzJuPTVKVh0JV
-GS/hAjmIe+Zr/eE+Ur3xbthAs7LQc9CWjWti0roTYiGpvPEx6fRIYW+1Ej2UQkN/
-T86nqWIyZHLCxq2QxEOyQO2nRuzXeVScAUfiPLJMlVmFsdY1QqgRlmgP8e04t9w2
-XoxPuzVkNotMvgr+Y8bwS2X1wNaZqPcxQTOfn25YUS0BQ2bJ9h7T1SwlwH9bHoL5
-a8mv6SLSaeqLbihQvk8fms6kJWw6QGtPXwB1QvQXxHbmOjm8Ete0WkKDK17Xo6c5
-R51De6i8wUzAAsaaL0Xpb2mw/C61lcyxvZAJINidFTrStL7fQn1V0L+joaqYh8Qp
-UkwNBUN6sU47YMpKAde7XTy+ZN6dOdFWr5SKoMgvqtnxiUIdsPNWTWjkqcWztahc
-ADB/TRi9ayWVUP7UuLC1BSZUdO57oJFIt0oPEBpLyjqVyR8CPfQ6MzHhUykWewl/
-LJkKpvtBUYnyJhwvgdQAZYHqpL1XU2i/eg08PLGIx8pN1FAc7QmFwfDj9hO5eLyL
-iPjbbIcz3OlPQnNA5hUzAGJohMPxjm8ITfNAVICoFEm31zDNB225QXLiHbpLwo3W
-5Q/uSfoSaiiQuXdpe1+tPj1L
-=M6Ln
------END PGP SIGNATURE-----
-
---===============7036009122549637399==--
+--===============8662478650125362597==--
