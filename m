@@ -1,43 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6777506000748427156=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mripard/linux
-Date: Wed, 18 Nov 2020 09:09:11 -0000
-Message-Id: <160569055181.22472.8905220205157596456@gitolite.kernel.org>
-
---===============6777506000748427156==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Wed, 18 Nov 2020 09:13:52 -0000
+Message-Id: <160569083267.25392.15832252010730318929@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mripard/linux
-user: mripard
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/tags/sunxi-rework-mbus
-    old: 0000000000000000000000000000000000000000
-    new: 353e9abb55416468222eea9829cca2536c6a8f66
-
---===============6777506000748427156==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1605690551 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mripard/linux.git
-nonce 1605690550-fac307bc333cf2dd1577cd34a0ca11517af30a4d
-
-0000000000000000000000000000000000000000 353e9abb55416468222eea9829cca2536c6a8f66 refs/tags/sunxi-rework-mbus
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCX7TktwAKCRDj7w1vZxhR
-xRtRAQD+InAB8praIuet7QtXgNBoVW1pOQlUmMfbfDo0geBwRAD/Y9FhTjMQYU6L
-0hUryiPjSBU0cDOlWB/EgY+fUi01uAo=
-=BrZu
------END PGP SIGNATURE-----
-
---===============6777506000748427156==--
+  - ref: refs/heads/master
+    old: bea4298205b9bb3b5da3b8b6a551c76121e401af
+    new: b1a64a5a94a98d01fb498dea655db95f09e4fb70
+    log: |
+         0f9a44a5262dc10e5c2f7fee5ed1cc6ea12dca25 arm64: dts: fsl-ls1028a-kontron-sl28: specify in-band mode for ENETC
+         5d14e90726164aa02f0091e3474628da18191082 dt-bindings: can: fsl,flexcan.yaml: fix fsl,stop-mode
+         e17448e57dacba05a2d98df6267afa30d22bb91a Merge tag 'net-5.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+         4d09363bf12e12870ac2f74e364ce0c13c126e81 dt-bindings: can: fsl,flexcan.yaml: fix compatible for i.MX35 and i.MX53
+         b38b366ffdaf01de408d770720030905933356ed dt-bindings: clock: imx5: fix example
+         b1be05dc24eff67826526b238253be37f3b94c4b Merge tag 'devicetree-fixes-for-5.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+         b1a64a5a94a98d01fb498dea655db95f09e4fb70 Merge tag 'v5.10-rc4-dts-raw' into master
+         
