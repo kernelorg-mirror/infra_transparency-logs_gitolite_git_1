@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5484412804598274496=="
+Content-Type: multipart/mixed; boundary="===============0638838733148864025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 18 Nov 2020 07:55:53 -0000
-Message-Id: <160568615308.21001.6357688405351622790@gitolite.kernel.org>
+Date: Wed, 18 Nov 2020 07:56:01 -0000
+Message-Id: <160568616173.21170.2846412481735269905@gitolite.kernel.org>
 
---===============5484412804598274496==
+--===============0638838733148864025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: f6972cb9386608c43f8ff6a2e99107c24e3b2e9d
-    new: 646643130931d3e380bdd3e9b8041b212317772b
-    log: revlist-f6972cb93866-646643130931.txt
+  - ref: refs/heads/net-next
+    old: 1d7544327f8b3cce65164da8d7df6c043ad57033
+    new: 00104986c50252e004dff31f024bd53e37124d57
+    log: revlist-1d7544327f8b-00104986c502.txt
 
---===============5484412804598274496==
+--===============0638838733148864025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6972cb93866-646643130931.txt
+Content-Disposition: attachment; filename=revlist-1d7544327f8b-00104986c502.txt
 
 88527f6429485b153df8dab6156e4c5bebab3eb2 net/mlx5: Remove impossible checks of interface state
 7341d4ff98fbaa271b728d2e815d138c32a79363 net/mlx5: Separate probe vs. reload flows
@@ -68,5 +68,10 @@ f34e7f2ace8db40078d1b51c5cb798c46051ef96 net/mlx5: Add VDPA priority to NIC RX n
 9fb1b75332ef4da2a433c6eb1fc5d3c55a0acb6d net/mlx5: Export steering related functions
 6db6522df007a3d2fb739607fba5746853f1394b net/mlx5: E-Switch, use new cap as condition for mpls over udp
 646643130931d3e380bdd3e9b8041b212317772b net/mlx5e: E-Switch, Offload all chain 0 priorities when modify header and forward action is not supported
+b4f1a3a21fddeae4cb35259b4268aa96bfb4eb1c Merge branch 'net-next-mlx4' into net-next
+a4928f6ed010cf2ab1628c95fd8512d1b0d37861 Merge branch 'mlx5-vdpa' into net-next
+b828c3a02bd0c72b68a8d3d7b62d9cac8571044f Merge branch 'net-next-mlx5' into net-next
+51d1c62ead85f7c1212c04144ebce1818d1cdb7d Merge branch 'net-mlx4' into net-next
+00104986c50252e004dff31f024bd53e37124d57 Merge branch 'net-mlx5' into net-next
 
---===============5484412804598274496==--
+--===============0638838733148864025==--
