@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Wed, 18 Nov 2020 09:29:08 -0000
-Message-Id: <160569174846.4918.16884385780537144083@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Wed, 18 Nov 2020 09:31:30 -0000
+Message-Id: <160569189096.7172.8835693946127590049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/mhi-next
-    old: b6e58c083f2b10beaad7cacc1e747bfd3a354e89
-    new: c74ce17bd7bb4b46af5f850507764f967745e4a5
+  - ref: refs/heads/hyperv-fixes
+    old: 92e4dc8b05663d6539b1b8375f3b1cf7b204cfe9
+    new: 325073ae3485b90d8c334db991efd716b3592494
     log: |
-         ed5298c7d500abaf34ed7783969e953a1f028e5b bus: mhi: Remove auto-start option
-         a2e2cc0dbb1121dfa875da1c04f3dff966fec162 net: qrtr: Start MHI channels during init
-         c74ce17bd7bb4b46af5f850507764f967745e4a5 Merge branch 'mhi-ath11k-immutable' into mhi-next
+         325073ae3485b90d8c334db991efd716b3592494 video: hyperv_fb: Fix the cache type when mapping the VRAM
          
