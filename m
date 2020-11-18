@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Wed, 18 Nov 2020 16:20:25 -0000
-Message-Id: <160571642587.2591.15851215102049416403@gitolite.kernel.org>
+Date: Wed, 18 Nov 2020 16:23:00 -0000
+Message-Id: <160571658065.3789.9737059892939647925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: acb817166fea0ba5870313241e04f4d12a2cacd3
-    new: ba83eb7b6bc1c5cc0d7f68111bd80a7d94f98bc9
+    old: ba83eb7b6bc1c5cc0d7f68111bd80a7d94f98bc9
+    new: af66973382ff6a5ef4176ae783c56670da0906ea
     log: |
-         12596dedac975e108911da80f5a3d5d6b12ad56f selftests/x86: Fix malformed src_offset initialization
-         ba83eb7b6bc1c5cc0d7f68111bd80a7d94f98bc9 selftests/sgx: Use a static 3072-bit RSA key.
+         af66973382ff6a5ef4176ae783c56670da0906ea selftests/sgx: Use a static 3072-bit RSA key.
          
