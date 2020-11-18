@@ -1,139 +1,251 @@
-Content-Type: multipart/mixed; boundary="===============8407736087916172655=="
+Content-Type: multipart/mixed; boundary="===============7127884311783837580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Wed, 18 Nov 2020 21:57:19 -0000
-Message-Id: <160573663997.18928.8440255311783973716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 18 Nov 2020 22:19:15 -0000
+Message-Id: <160573795533.31345.8653394390509038213@gitolite.kernel.org>
 
---===============8407736087916172655==
+--===============7127884311783837580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: e099612b3425013170faaa59ebabf0293ce89f4e
-    new: 38f14dd13211eb195fbc4c50aea7c422f2f9aede
-    log: revlist-e099612b3425-38f14dd13211.txt
+  - ref: refs/heads/master
+    old: e31aba42fb12bdeb0f850829e008e1e3f43af500
+    new: faefdd61ec7c7f6f3c8c9907891465ac9a2a1475
+    log: revlist-e31aba42fb12-faefdd61ec7c.txt
+  - ref: refs/heads/next
+    old: aff20da3a209088e7f8f3632077fa11b86453d67
+    new: a2da47d1e79cec4039891908c8aeda3dca04d00a
+    log: revlist-aff20da3a209-a2da47d1e79c.txt
+  - ref: refs/heads/seen
+    old: beb86f9b20683f32dd63d6e05b2fb8f85fb21ec8
+    new: a553941de023c92edef0a7f2497926b54f2d1d98
+    log: revlist-beb86f9b2068-a553941de023.txt
 
---===============8407736087916172655==
-Content-Type: text/plain; charset="utf-8"
+--===============7127884311783837580==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e099612b3425-38f14dd13211.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e31aba42fb12-faefdd61ec7c.txt
 
-fdc24d722f353610b6aad23d99147632a19a6138 MAINTAINERS: Add Jernej Škrabec as a reviewer for Allwinner SoCs support
-a2089ac7f8dc682ef52ed74b52997d36cde76d05 arm64: dts: allwinner: pinetab: Drop unnecessary address/size-cells information
-97a38c1c213b162aa577299de698f39c18ba696b arm64: dts: allwinner: beelink-gs1: Enable both RGMII RX/TX delay
-419c65f5000a6c25597ea52488528d75b287cbd0 arm64: dts: allwinner: Pine H64: Enable both RGMII RX/TX delay
-d7cdff444579e6659459b2fe04340ebb27628d5e arm64: dts: allwinner: a64: OrangePi Win: Fix ethernet node
-927f42fcc1b4f7d04a2ac5cf02f25612aa8923a4 arm64: dts: allwinner: a64: Pine64 Plus: Fix ethernet node
-b34bf9f6a623ddb82600a5ed5c644224122395e1 arm64: dts: allwinner: h5: OrangePi PC2: Fix ethernet node
-b3eec3212e66ece33f69be0de98d54e67834e798 ARM: dts: sun8i: r40: bananapi-m2-ultra: Fix ethernet node
-8d80e2f00a42ef10b54e1b2d9e97314f8fd046c0 Revert "arm: sun8i: orangepi-pc-plus: Set EMAC activity LEDs to active high"
-e76724153f5b4539802cc21b2c6131058668a1c6 ARM: dts: sun6i: a31-hummingbird: Enable RGMII RX/TX delay on Ethernet PHY
-353c3de1303fc93032164402c0eb8550ecd6f154 ARM: dts: sun7i: cubietruck: Enable RGMII RX/TX delay on Ethernet PHY
-f94f78bd93f567c022f594589dbeecdf59931365 ARM: dts: sun7i: bananapi-m1-plus: Enable RGMII RX/TX delay on Ethernet PHY
-e080ab31a0aa126b0a7e4f67f2b01b371b852c88 ARM: dts: sun8i: h3: orangepi-plus2e: Enable RGMII RX/TX delay on Ethernet PHY
-57dbe558457bf4042169bc1f334e3b53a8480a1c ARM: dts: sun8i: a83t: Enable both RGMII RX/TX delay on Ethernet PHY
-b1064037e8ecf09d587b7b4966eebe0c362908e5 ARM: dts: sun9i: Enable both RGMII RX/TX delay on Ethernet PHY
-3914160ffc0bf762d6d605d4b27036b7b89367ea ARM: dts: sunxi: bananapi-m2-plus: Enable RGMII RX/TX delay on Ethernet PHY
-2bd8570d20c88909b8be3251727a26476b02652c arm64: dts: allwinner: h5: libretech-all-h5-cc: Enable RGMII RX/TX delay on PHY
-1a9a8910b2153cd3c4f3f2f8defcb853ead3b1fd arm64: dts: allwinner: a64: bananapi-m64: Enable RGMII RX/TX delay on PHY
-33b6c39e747c552fa770eecebd1776f1f4a222b1 Input: adxl34x - clean up a data type in adxl34x_probe()
-b1884583fcd17d6a1b1bba94bbb5826e6b5c6e17 Input: i8042 - allow insmod to succeed on devices without an i8042 controller
-31b4d8e172f614adc53ddecb4b6b2f6411a49b84 MIPS: export has_transparent_hugepage() for modules
-424f5ca7c8515a4b6e3b0812899ddda082f42fd5 MAINTAINERS: move Kamil Debski to credits
-215f06d7efc263d4e8150e0b97c49dd9914b59d7 MAINTAINERS: move Kyungmin Park to credits
-d5a69b6ba186d01cb036074d337e5171d27e9c72 MAINTAINERS: remove Jeongtae Park from Samsung MFC entry
-cd12e4f14f7cca7d04fbcf0da2dc116070d7f26f CREDITS: remove trailing white spaces
-107954afc5df667da438644aa4982606663f9b17 arm64: dts: allwinner: h5: OrangePi Prime: Fix ethernet node
-00203737867c8b63ca247e71ada1b32bb0b0dd3d arm64: dts: imx8mm-var-som: fix missing PMIC's interrupt line pull-up
-0710e4385c9c978952333393396061ed1672d145 arm64: dts: imx8mm-beacon-som: fix missing PMIC's interrupt line pull-up
-ce6fc31f388d45b9f7135169f911cd27f4d21126 arm64: dts: imx8mm-evk: fix missing PMIC's interrupt line pull-up
-34a1c5e39b670fd7a324b5620c9ad4ac80c2f018 arm64: dts: imx8mn-var-som: fix missing PMIC's interrupt line pull-up
-4d20fa1dac2e3cf5aa0cd317b3436f4fda680b04 arm64: dts: imx8mn-ddr4-evk: fix missing PMIC's interrupt line pull-up
-6efb099a1da4e954409e241b47257a637120e5c2 arm64: dts: imx8mn-evk: fix missing PMIC's interrupt line pull-up
-d92454287ee25d78f1caac3734a1864f8a5a5275 arm64: dts: fsl: fix endianness issue of rcpm
-054b5d97448714ae4a0bcd6f36b0515ac7aed21e arm64: dts: fsl: DPAA FMan DMA operations are coherent
-587258edd94c305077923ec458e04c032fca83e6 arm64: dts: imx8mm-beacon-som: Fix Choppy BT audio
-cf5abb0132193767c07c83e06f91b777d22ba495 arm64: dts imx8mn: Remove non-existent USB OTG2
-7dd8f0ba88fce98e2953267a66af74c6f4792a56 arm: dts: imx6qdl-udoo: fix rgmii phy-mode for ksz9031 phy
-f8b5a33707c9a19ec905d2826be0acd151997a09 ARM: dts: vf610-zii-dev-rev-b: Fix MDIO over clocking
-e402599e5e5e0b2758d7766fd9f6d7953d4ccd85 ARM: dts: imx6q-prti6q: fix PHY address
-f51778db088b2407ec177f2f4da0f6290602aa3f swiotlb: using SIZE_MAX needs limits.h included
-f126b6702e7354d6247a36f20b9172457af5c15a arm64: dts: agilex/stratix10: Fix qspi node compatible
-77e70d351db7de07a46ac49b87a6c3c7a60fca7e Input: sunkbd - avoid use-after-free in teardown paths
-ff1f855804cdbbb6db7b9b6df6cab783d1a40d66 tee: amdtee: fix memory leak due to reset of global shm list
-be353be27874f40837327d9a39e3ad2149ab66d3 tee: amdtee: synchronize access to shm list
-ce9dfafe29bed86fe3cda330ac6072ce84e1ff81 s390: fix system call exit path
-7de8bfaa095fcbc2db2952d4b561be102a41c2a6 arm64: dts: renesas: r8a774e1: Add missing audio_clk_b
-52d9edbe6efc5042cf57fae6a25d07572ddf398b ARM: dts: stm32: Fix TA3-GPIO-C key on STM32MP1 DHCOM PDK2
-7e5f3155dcbb4d724386b30cc232002d9b9d81f5 ARM: dts: stm32: Fix LED5 on STM32MP1 DHCOM PDK2
-1f3d7fc279b1a299bb8b1b225d80309a2062ab8a ARM: dts: stm32: Define VIO regulator supply on DHCOM
-e5ace7f62695656ef8a66ad5a4c3edd055894876 ARM: dts: stm32: Enable thermal sensor support on stm32mp15xx-dhcor
-f4c7fa39415da6db1fa0bc26162ac23a0fbae8bb ARM: dts: stm32: Keep VDDA LDO1 always on on DHCOM
-d19d2152ca055baf20339cfacbf039c2cfb8d936 arm64: dts: imx8mm: fix voltage for 1.6GHz CPU operating point
-33d0d843872c5ddbe28457a92fc6f2487315fb9f ARM: dts: imx50-evk: Fix the chip select 1 IOMUX
-c335b4f1f65012713832d988ec06512c7bda5c04 kunit: tool: unmark test_data as binary blobs
-3959d0a63b3202ea2aa12b3f6effd5400d773d31 kunit: Fix kunit.py parse subcommand (use null build_dir)
-b7e0b983ff13714d261883e89910b0755eb12169 kunit: tool: fix pre-existing python type annotation errors
-fcdb0bc08ced274078f371e1e0fe6421a97fa9f2 kunit: Do not pollute source directory with generated files (.kunitconfig)
-128dc4bcc8c0c7c3bab4a3818a1ec608cccb017a kunit: Do not pollute source directory with generated files (test.log)
-f7766424cf15fd6e03e8230fb17d5612c5b76dbe KUnit: Docs: fix a wording typo
-1f4dde57125b3d91b900e82ac33a196312be5c8e KUnit: Docs: style: fix some Kconfig example issues
-873ddeb881e055fb0c4e371cc3a006bfd9388f00 KUnit: Docs: usage: wording fixes
-390881448b1ff1e9d82896abbbda7cdb8e0be27c kunit: tool: print out stderr from make (like build warnings)
-060352e141e4c71ce147a2737f6d30a97f2ec317 kunit: tool: fix extra trailing \n in raw + parsed test output
-3084db0e0d5076cd48408274ab0911cd3ccdae88 kunit: fix display of failed expectations for strings
-c583bcb8f5edd48c1798798e341f78afb9bf4f6f rcu: Don't invoke try_invoke_on_locked_down_task() with irqs disabled
-92e4dc8b05663d6539b1b8375f3b1cf7b204cfe9 Drivers: hv: vmbus: Allow cleanup of VMBUS_CONNECT_CPU if disconnected
-676650d007e06fddcf3fe38238251d71bd179641 Input: resistive-adc-touch - fix kconfig dependency on IIO_BUFFER
-ae3d6083acf60116d4f409677452399547ed2009 Input: elan_i2c - fix firmware update on newer ICs
-966e7ea434484a006700c144bca629a14f93530c s390: update defconfigs
-78d732e1f326f74f240d416af9484928303d9951 s390/cpum_sf.c: fix file permission for cpum_sfb_size
-e24a87b54ef3e39261f1d859b7f78416349dfb14 perf lock: Correct field name "flags"
-b0e5a05cc9e37763c7f19366d94b1a6160c755bc perf lock: Don't free "lock_seq_stat" if read_count isn't zero
-db1a8b97a0a36155171dbb805fbcb276e07559f6 tools arch: Update arch/x86/lib/mem{cpy,set}_64.S copies used in 'perf bench mem memcpy'
-db2ac2e49e564c2b219c4b33d9903aa383334256 perf test: Fix a typo in cs-etm testing
-dd94ac807a5e10e0b25b68397c473276905cca73 perf test: Update branch sample pattern for cs-etm
-c3213d260a23e263ef85ba21ac68c9e7578020b5 SUNRPC: Fix oops in the rpc_xdr_buf event class
-47cd1eac336cea6cd37cb27de2ed49b4113c6116 Merge tag 'imx-fixes-5.10-3' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
-e57523fa64d6166de6e70227a3d4395233015bc8 Merge tag 'samsung-fixes-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/fixes
-53bbff2668801638566151c8d393484ba7997cca Merge tag 'socfpga_fix_for_v5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into arm/fixes
-53bf2776e31376f0b6a1fd7c9e1abc61241825a2 ARM: dts: exynos: revert "add input clock to CMU in Exynos4412 Odroid"
-0461a1ae98bc3045492333bebf6e79d4e859d3a1 Merge tag 'amdtee-fixes-for-5.10' of git://git.linaro.org:/people/jens.wiklander/linux-tee into arm/fixes
-7e47a750116d2e1dfdd60008a7fd480a2806a0dd Merge tag 'stm32-dt-for-v5.10-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/atorgue/stm32 into arm/fixes
-b57d5437e3740bffed60ceedf74f881ab5bd6122 Merge tag 'sunxi-fixes-for-5.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
-a312db697cb05dfa781848afe8585a1e1f2a5a99 vdpasim: fix "mac_pton" undefined error
-6bcf34224ac1e94103797fd68b9836061762f2b2 vhost: add helper to check if a vq has been setup
-25b98b64e28423b0769313dcaf96423836b1f93d vhost scsi: alloc cmds per vq instead of session
-47a3565e8bb14ec48a75b48daf57aa830e2691f8 vhost scsi: fix cmd completion race
-18f1becb6948cd411fd01968a0a54af63732e73c vhost scsi: add lun parser helper
-efd838fec17bd8756da852a435800a7e6281bfbc vhost scsi: Add support for LUN resets.
-39c8d39c04bb821beaa81aeda4839475313727d7 Merge tag 'renesas-fixes-for-v5.10-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
-cc05af8e2e91339bee6181a1001384d519d59ec5 Merge tag 'imx-fixes-5.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
-1c756cd429d8f3da33d31f2a970284b9d5260534 perf inject: Fix file corruption due to event deletion
-568beb27959b0515d325ea1c6cf211eed2d66740 perf test: Avoid an msan warning in a copied stack.
-a08f4523243c86fe35dec8c81c5ec50f721004ce Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-a5698b3835f5990deef30fa5397cae563af3c68a Merge tag 'hyperv-fixes-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-9c87c9f41245baa3fc4716cf39141439cf405b01 Merge tag 'arm-soc-fixes-v5.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-61a2f1aecf6052f7bcf900829ca2b9d74437ec07 MIPS: kernel: Fix for_each_memblock conversion
-ac3b57adf87ad9bac7e33ca26bbbb13fae1ed62b MIPS: Alchemy: Fix memleak in alchemy_clk_setup_cpu
-9dacf44c3837b7f1cf460de904f352714e7cd107 Merge branch 'urgent-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-be1dd6692adbdb1d70da47da124ac8376bba5ad5 Merge tag 'perf-tools-fixes-for-v5.10-2020-11-17' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-ed129cd75ac1073f32d04d0f2012ede40e86fb77 Merge tag 'mips_fixes_5.10_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
-111e91a6df505e532a3809ead372787a01e23e0c Merge tag 's390-5.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-0fa8ee0d9ab95c9350b8b84574824d9a384a9f7d Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-20b329129009caf1c646152abe09b697227e1c37 gfs2: Fix regression in freeze_go_sync
-f86fee1845eec29bed735e7120e6993ad8c4e295 Merge tag 'linux-kselftest-kunit-fixes-5.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-ce228d45942492580968d698b0216d3356d75226 Merge tag 'nfsd-5.10-2' of git://linux-nfs.org/~bfields/linux
-c2e7554e1b85935d962127efa3c2a76483b0b3b6 Merge tag 'gfs2-v5.10-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
-67ea97ff1001b3a7d61bc51cd6affc43f06e7988 Documentation: Update filesystems/gfs2.rst
-38f14dd13211eb195fbc4c50aea7c422f2f9aede MAINTAINERS: Add gfs2 bug tracker link
+1942d48380fec53f76361e9adebef15b5db9628a maintenance: optionally skip --auto process
+b08ff1fee000230ad22fee823aabff2613bd4e62 maintenance: add --schedule option and config
+4950b2a2b5c4731e4c9d5b803739a6979b23fed6 for-each-repo: run subcommands on configured repos
+0c18b700810ab2e2a4fac0d5b54a817141198a27 maintenance: add [un]register subcommands
+2fec604f8df51fcf47551723e68a3447915b9eb9 maintenance: add start/stop subcommands
+a4cb1a2339c1aa4ba71ebc6d2b07d537e1071124 maintenance: create maintenance.strategy config
+61f7a383d3b9a7306f1fd44a8dfa070deacc0752 maintenance: use 'incremental' strategy by default
+0016b618182f642771dc589cf0090289f9fe1b4f maintenance: add troubleshooting guide to docs
+f06481f12732e846c0572a0109e2c5b5684f508a t/: new helper for tests that pass with ort but fail with recursive
+ef527787089ce9a5c137ffde24701dfb7fda841c merge tests: expect improved directory/file conflict handling in ort
+489c85ff43b292cc22ae2e003fad74c75f7ae190 t6416: correct expectation for rename/rename(1to2) + directory/file
+727c75b23f25f752810f412e936d420f5c7fee04 t6404, t6423: expect improved rename/delete handling in ort backend
+c12d1f2ac227cbec44be27de83ef07d135f243c2 t6423: expect improved conflict markers labels in the ort backend
+c8c35f6a02f3841d4383a5ce4c9d8e426776d151 merge tests: expect slight differences in output for recursive vs. ort
+23bef2e33c3290ae308c2ce37e290a25eb5b97bc t6423, t6436: note improved ort handling with dirty files
+fd15863ec8a90a4c2b4429f5f5de370c8599e700 t6423: note improved ort handling with untracked files
+848a856b136c6aaeb2b7944add318485c6c6d6ae t6423: add more details about direct resolution of directories
+bb7cc7e754d1d7dc5d68977bcb565dd78f4592d5 t/perf/fsmonitor: separate one time repo initialization
+0288b9322d37b2b1644fd11afb9929ce75f32af5 t/perf/fsmonitor: move watchman setup to one-time-repo-setup
+33226af42b8fbdc7551a56753123385a5ee079fa t/perf/fsmonitor: improve error message if typoing hook name
+3d53ebcd10b9fedb6d2aadaf613f4af17e0a4ef3 t/perf/fsmonitor: factor description out for readability
+dd79c1674655506a015820e38a8860327f5d3686 t/perf/fsmonitor: shorten DESC to basename
+78ff8b32362056b414e78e4fbb4e375f57e6afb0 t/perf/fsmonitor: silence initial git commit
+a05b71ab91502db5e1234bc7aaf837bf49564c90 t/perf/fsmonitor: factor setup for fsmonitor into function
+6cba4234a5b668ea21715b4a6914695888fd41ae t/perf/fsmonitor: initialize test with git reset
+a948864ae70cef857cc9150a5a89641f52fd32d3 t/perf/fsmonitor: perf comparison of multiple fsmonitor integrations
+1c6833c800ad98adecd85815db103cfd4d06c50a t/perf/fsmonitor: add benchmark for dirty status
+17e5574b0446836af08136ae269b30767c05b1d7 merge-ort: barebones API of new merge strategy with empty implementation
+47b1e890e3f7ba57e8c5bc364dcb04d8b2dc1c58 merge-ort-wrappers: new convience wrappers to mimic the old merge API
+fe1a21d5267cae88d4312e3595909720717eb31c fast-rebase: demonstrate merge-ort's API via new test-tool command
+fb3d1a083f776f02caa514cad8b232d8b974641f upload-pack: allow stateless client EOF just prior to haves
+521dc56270d6b4e3258175b6c521e16842acccf7 Makefile: enable -Wsparse-error for DEVELOPER build
+4f44c5659bfb6e80fe76e68ec775859915d5f94a stash: simplify reflog emptiness check
+f9c8d8cbbea9cc55d26058a1de767731600ded44 doc: log, gitk: move '-L' description to 'line-range-options.txt'
+fd5c74e7818a478fac66d821c38c4c2275c77da6 doc: line-range: improve formatting
+a4514a46d9c85278ae4a350442dd4a160ff1f3cf blame-options.txt: also mention 'funcname' in '-L' description
+0cce88f1e4b0ccbdc804db8b522aeb11b0f2b199 doc: add more pointers to gitattributes(5) for userdiff
+180d641d7d71ba45a140e9c83777d30be59c4274 line-log: mention both modes in 'blame' and 'log' short help
+9466e3809d2b5f9605918c56d63f21b17e98e230 blame: enable funcname blaming with userdiff driver
+88894aaeeae92e8cb41143cc2e045f50289dc790 blame: simplify 'setup_scoreboard' interface
+3af31e87868d46363359148db5243f46d49029e8 blame: simplify 'setup_blame_bloom_data' interface
+14c4586c2dfa94d86d71a60481dd20bc5b56e562 merge,rebase,revert: select ort or recursive by config or environment
+62e7daa0bb6153e0b521b9393d238ae894df8aa4 t5515: use `main` as the name of the main branch for testing (part 1)
+384e08ddf32700060d90a8b720b4a9088d9546de t5515: use `main` as the name of the main branch for testing (part 2)
+70bc132c96846a2fe96b9674055338892d71bbb5 t5515: use `main` as the name of the main branch for testing (part 3)
+f74e3f79c5559b20ad1e6cde6ed2f021bbc64c55 t5515: use `main` as the name of the main branch for testing (conclusion)
+39664cb0aca42f240468ddf84fe75df4172ab63f log: diagnose -L used with pathspec as an error
+4c6f781f9c7ee7029c3f2fd20ddd76ce8b476bca format-patch: refactor output selection
+1e1693b2bbaa9613f3a39a35196fc219c25f7677 format-patch: tie file-opening logic to output_directory
+dc1672dd10dbd7dbc16aa00fe51551295cc51fdc format-patch: support --output option
+e100bea48102dca7e21359993085e89c7f154f9d rebase -i: stop overwriting ORIG_HEAD buffer
+f3e27a02d598084a0ef5c8dd6b410bd6a5c5299f rebase -i: use struct object_id rather than looking up commit
+a2bb10d06db8a90920f1f518705a0bb9d39aa1db rebase -i: use struct object_id when writing state
+8843302307bb7d652f5adde759cd6a3c1a7fb1ea rebase -i: simplify get_revision_ranges()
+cde8ea9c66e46ed6427499e0bc049d1d5c55379a archive: support compression levels beyond 9
+1af265f0a01bba0daac8865ad38075f0cb124743 compat/bswap.h: simplify MSVC endianness detection
+c714d0587567d67e1c3702e44221c1b46dc969ff blame: silently ignore invalid ignore file objects
+0c038fc65a2c2792de3fbe71f85ace4c0292d71c compat/bswap.h: don't assume MSVC is little-endian
+d1169be31a6d7b48471c624326296f4faf740548 Merge branch 'dd/upload-pack-stateless-eof'
+2ad1f930d2b698e6dd485581fbf8879767657de7 Merge branch 'js/default-branch-name-adjust-t5515'
+66c62eaec66bb585caabf560a5e1e49cd64e7a1f Merge branch 'en/merge-tests'
+a643735c176798fbcfd1c885349c5471c3c57a08 Merge branch 'nk/perf-fsmonitor'
+30f5257611f80dc36bc6f15bdd6228ec094c2087 Merge branch 'rs/empty-reflog-check-fix'
+f8a1cee7b38ef3125ce69dad24af41746a0722a0 Merge branch 'jc/line-log-takes-no-pathspec'
+5edc8bdc06db3893ceea52a48edd9b2c34fb64e6 Merge branch 'jk/format-patch-output'
+890bc959affb6a7fdbad2552c0adf34d32da00b5 Merge branch 'dg/bswap-msvc'
+ede4d63a2dbd4ed5477ce34872a808e99226230c Merge branch 'rs/archive-high-compression'
+c042c455d4ffb9b5ed0c280301b5661f3efad572 Merge branch 'pw/rebase-i-orig-head'
+7660da161821ab79b8ecd5019c28843ed7e770a6 Merge branch 'ds/maintenance-part-3'
+a1f95951efc55c97477e32287b06e204553be5c2 Merge branch 'en/merge-ort-api-null-impl'
+3f6dc9c36693c2ba6dd5fb61fbad6b72cc08e3d1 Merge branch 'pb/blame-funcname-range-userdiff'
+dfbc63da03f584fd4f281dfaffc1cec50e076289 Merge branch 'jc/sparse-error-for-developer-build'
+b4e245a17adc1b336269f7350e88eede6e713157 Merge branch 'jc/blame-ignore-fix'
+faefdd61ec7c7f6f3c8c9907891465ac9a2a1475 Sixth batch
 
---===============8407736087916172655==--
+--===============7127884311783837580==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-aff20da3a209-a2da47d1e79c.txt
+
+cf3d868f353c4a5a9ecf4fbc2a44960671ba59cb t5411: new helper filter_out_user_friendly_and_stable_output
+f65003b4c4abea49a00cc9f3d87b9f37db6b48f1 receive-pack: gently write messages to proc-receive
+80ffeb94f4c9eae4e099fec47e39105fc1e19132 receive-pack: use default version 0 for proc-receive
+0afcea70b18b0edc38e2e1b89d36737c9e93d6a3 bisect: loosen halfway() check for a large number of commits
+54273d1042b7a7e9a5635ccf15363eec819cb951 csum-file: add hashwrite_be64()
+ef1b853c15d443b057e5a6306c89b869168a8270 midx: use hashwrite_be64()
+970909c2a7803564f82ab1d3660d77ad6a44b68f pack-write: use hashwrite_be64()
+1b7ac4e6d4d490b224f5206af7418ed74e490608 submodules: fix of regression on fetching of non-init subsub-repo
+1c1518071c7fa79de13b8c599d8dbb371950b033 submodule: use "fetch" logic instead of custom remote discovery
+e63f7b0acba326a47282036afffb83e2b3eb023d submodule: remove sh function in favor of helper
+a89a2fbfccd88bc8a3c8cce8d7bc03de3830ea25 parse-remote: remove this now-unused library
+f86f769550ef7fb5162a9cd4be5e2be7981d063b compute pack .idx byte offsets using size_t
+a9bc372ef8210e60d924ec6c0b46624c6d0a4033 use size_t to store pack .idx byte offsets
+33bbc59fed34848215f8ce1ef71ff26b821ccd12 fsck: correctly compute checksums on idx files larger than 4GB
+9bb4542b8c1b91189126cf0fc42e2689fc9224c6 block-sha1: take a size_t length parameter
+81c4c5cf2e18d2b562639596385e49c3c48677de packfile: detect overflow in .idx file size checks
+5a923bb1f0f1ba01f8845dd7dc78bb354e8c79bc list-objects-filter-options: fix function name in BUG
+e4c75edb52acab8c90520ceedab4326b972cc0af completion: bash: improve alias loop detection
+d1169be31a6d7b48471c624326296f4faf740548 Merge branch 'dd/upload-pack-stateless-eof'
+2ad1f930d2b698e6dd485581fbf8879767657de7 Merge branch 'js/default-branch-name-adjust-t5515'
+66c62eaec66bb585caabf560a5e1e49cd64e7a1f Merge branch 'en/merge-tests'
+a643735c176798fbcfd1c885349c5471c3c57a08 Merge branch 'nk/perf-fsmonitor'
+30f5257611f80dc36bc6f15bdd6228ec094c2087 Merge branch 'rs/empty-reflog-check-fix'
+f8a1cee7b38ef3125ce69dad24af41746a0722a0 Merge branch 'jc/line-log-takes-no-pathspec'
+5edc8bdc06db3893ceea52a48edd9b2c34fb64e6 Merge branch 'jk/format-patch-output'
+890bc959affb6a7fdbad2552c0adf34d32da00b5 Merge branch 'dg/bswap-msvc'
+ede4d63a2dbd4ed5477ce34872a808e99226230c Merge branch 'rs/archive-high-compression'
+c042c455d4ffb9b5ed0c280301b5661f3efad572 Merge branch 'pw/rebase-i-orig-head'
+7660da161821ab79b8ecd5019c28843ed7e770a6 Merge branch 'ds/maintenance-part-3'
+a1f95951efc55c97477e32287b06e204553be5c2 Merge branch 'en/merge-ort-api-null-impl'
+3f6dc9c36693c2ba6dd5fb61fbad6b72cc08e3d1 Merge branch 'pb/blame-funcname-range-userdiff'
+dfbc63da03f584fd4f281dfaffc1cec50e076289 Merge branch 'jc/sparse-error-for-developer-build'
+b4e245a17adc1b336269f7350e88eede6e713157 Merge branch 'jc/blame-ignore-fix'
+faefdd61ec7c7f6f3c8c9907891465ac9a2a1475 Sixth batch
+4241203041ffd3e744044f800f085d1352f94f67 Merge branch 'fc/bash-completion-alias-of-alias' into next
+b13026a0f3560bf4bdc1687eea91ad51cd0d7193 Merge branch 'sg/bisect-approximately-halfway' into next
+60385c6fa1cc767a15303303d4d6f5712feb60d9 Merge branch 'rs/hashwrite-be64' into next
+badb1fefe58e59df41ca74e28461b7dc3b957efc Merge branch 'jx/t5411-flake-fix' into next
+2f99b73bdaf96b327858a3c94af44dbd8305b402 Merge branch 'jk/4gb-idx' into next
+80d4d8290c71f3c7120020839c0e490bdfc75727 Merge branch 'ab/retire-parse-remote' into next
+bdd3b21b7ca1fd94d0c75e3635d2616a91143974 Merge branch 'pk/subsub-fetch-fix' into next
+7cf396ee8138960093d099ec38829814389f9623 Merge branch 'ma/list-object-filter-opt-msgfix' into next
+a2da47d1e79cec4039891908c8aeda3dca04d00a Sync with master
+
+--===============7127884311783837580==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-beb86f9b2068-a553941de023.txt
+
+e075ed02503a0b700af0759d79d792c995b3d2ab help.c: allow help.autocorrect to say "do not even compute suggestions"
+367e0d3a760b8aa777344ba1e2ab51fbec28c96c "init" doc: mention the configurability more clearly
+a900999d7cd74f878686933a6341e3852726165d t2106: adjust style to the current conventions
+bce46b1adc57945c26dea91829dfa7315f9292e7 t2106: make test independent of the current main branch name
+b6e2a4f07c238e179e4d358e84a7f9e3a5c07005 t2106: ensure that the checkout fails for the expected reason
+53ff3b96a87f34c66ffe4a784841c31cf9feb262 tests: make sure nested lazy prereqs work reliably
+7f9c59ddb12377b787b9a0d4b79b68755541cf7f tests: fix description of 'test_set_prereq'
+38f9912ff91acac14fa7e0f00cd974b245d63562 t3040: remove stale note
+6d467d7309670ca8243214fa0312cd3f40c147d1 t4015: let the test pass with any default branch name
+d1169be31a6d7b48471c624326296f4faf740548 Merge branch 'dd/upload-pack-stateless-eof'
+2ad1f930d2b698e6dd485581fbf8879767657de7 Merge branch 'js/default-branch-name-adjust-t5515'
+66c62eaec66bb585caabf560a5e1e49cd64e7a1f Merge branch 'en/merge-tests'
+a643735c176798fbcfd1c885349c5471c3c57a08 Merge branch 'nk/perf-fsmonitor'
+30f5257611f80dc36bc6f15bdd6228ec094c2087 Merge branch 'rs/empty-reflog-check-fix'
+f8a1cee7b38ef3125ce69dad24af41746a0722a0 Merge branch 'jc/line-log-takes-no-pathspec'
+5edc8bdc06db3893ceea52a48edd9b2c34fb64e6 Merge branch 'jk/format-patch-output'
+890bc959affb6a7fdbad2552c0adf34d32da00b5 Merge branch 'dg/bswap-msvc'
+ede4d63a2dbd4ed5477ce34872a808e99226230c Merge branch 'rs/archive-high-compression'
+c042c455d4ffb9b5ed0c280301b5661f3efad572 Merge branch 'pw/rebase-i-orig-head'
+7660da161821ab79b8ecd5019c28843ed7e770a6 Merge branch 'ds/maintenance-part-3'
+a1f95951efc55c97477e32287b06e204553be5c2 Merge branch 'en/merge-ort-api-null-impl'
+3f6dc9c36693c2ba6dd5fb61fbad6b72cc08e3d1 Merge branch 'pb/blame-funcname-range-userdiff'
+dfbc63da03f584fd4f281dfaffc1cec50e076289 Merge branch 'jc/sparse-error-for-developer-build'
+b4e245a17adc1b336269f7350e88eede6e713157 Merge branch 'jc/blame-ignore-fix'
+faefdd61ec7c7f6f3c8c9907891465ac9a2a1475 Sixth batch
+af1ba071d368bc946deca6e609d0b39c26d4fb26 Merge branch 'jc/format-patch-name-max' into jch
+0bf88b17fbf030f4e976dea59443ccbf9d65a672 Merge branch 'jk/rev-parse-end-of-options' into jch
+d7b4c49047d34d277cc1da2f908ae83e5edd348f Merge branch 'jk/diff-release-filespec-fix' into jch
+8b4a8be4ccb2f08bd756cde2d3e9a12709850b65 Merge branch 'en/strmap' into jch
+7446b29f22c7f3860a22332543c9040969319b63 Merge branch 'jk/symlinked-dotgitx-files' into jch
+53daa84fa78b06ed12db148dba1a215e61617748 Merge branch 'fc/bash-completion-alias-of-alias' into jch
+c98f7a8efe00346477a630f3ec9c911a178a810e Merge branch 'ab/config-mak-uname-simplify' into jch
+b83352738cee735d91e7821053277592d0d6efc9 Merge branch 'pd/mergetool-nvimdiff' into jch
+e0111ddc5709713832eb04a6c7f5f5ac3097af5b Merge branch 'sg/bisect-approximately-halfway' into jch
+62cbc2587a032669d0c1c1bc679c930a470faff0 Merge branch 'rs/hashwrite-be64' into jch
+f2ac80cb629d5d248c42ffd906dde41175546952 Merge branch 'jx/t5411-flake-fix' into jch
+78c92f192a38630be274bf0f0b4e0d403e6a639c Merge branch 'jk/4gb-idx' into jch
+b73a3c11d032112ac3f23c26285ff340c0bca9a4 Merge branch 'ab/retire-parse-remote' into jch
+eb9e6306103b12aa9807d3b00ced00d79f8d385a Merge branch 'pk/subsub-fetch-fix' into jch
+195e265db00f3fcf9bb839da67c0c772a8b52707 Merge branch 'ma/list-object-filter-opt-msgfix' into jch
+d437fe69c1492debc30f0456282bb23c33ecadcb ### match next
+8e439eb765fb1f9a8dfcde927e519f201f81e779 Merge branch 'ew/decline-core-abbrev' into jch
+3284e25bd467d846151db66789ffa31b5a0b9283 Merge branch 'bc/rev-parse-path-format' into jch
+14e53e3e78811faae65008703d684d8ad65874d0 Merge branch 'av/fsmonitor-cleanup' into jch
+a8c17e014846887936366e2030266ae1e73c6d54 Merge branch 'so/log-diff-merge' into jch
+bfd3ea9c1df91f4a68f32bf72736cef280838cb2 Merge branch 'ps/update-ref-multi-transaction' into jch
+4f517f41152fde01a8f884a4d3fe23f36f8c2d3a Merge branch 'js/add-i-color-fix' into jch
+4d9471fd7ab2c8cf26b243d5b3b22507a32633fb Merge branch 'rs/archive-plug-leak-refname' into jch
+450c901cfcd9d332da781974f2c2dd8125338079 Merge branch 'rs/chdir-notify-unleak' into jch
+929e4632bd6e1e7d78463ba99afb6a6a07dc7b7c Merge branch 'rs/plug-diff-cache-leak' into jch
+e3bafba8285c1e02d3a21d12b6da98e3a8db1261 Merge branch 'sg/t5310-jgit-wants-sha1' into jch
+0bf42c1808b851e5454f936e0a421252ea18e971 Merge branch 'jc/ci-github-set-env' into jch
+4371cd144e2831000bc4773696e093a8d9929902 Merge branch 'dd/help-autocorrect-never' into jch
+28ba48a29ce6feff958a4af0b49e27eb08e0a119 Merge branch 'jc/init-doc-default-branch' into jch
+cb34740bb6ce997a5f42cb30c5ddc60bbb32cfd8 Merge branch 'js/t2106-cleanup' into jch
+94bb140c4dd9a9cd12d42e92a75caef35c64cbc7 Merge branch 'js/t3040-cleanup' into jch
+9a4d5d0fa5ceedfe0f860b127a42827f5fd2b08f Merge branch 'js/t4015-wo-master' into jch
+583438a4dead492d4d55f9f81fbc5d4e07ab61b8 Merge branch 'sg/tests-prereq' into jch
+04c0d02f91e35925b3884b4332db4c69afe81589 Merge branch 'tb/repack-simplify' into seen
+db8a4f44a74cf79fed02cf0d6ec939e891ddb8d7 Merge branch 'pb/pull-rebase-recurse-submodules' into seen
+8543419572c453af0df3543e82c85d2e0ff731c0 Merge branch 'sm/curl-retry' into seen
+a471fa198a51ec2647d5c211c37e7db160bb3261 Merge branch 'sv/t7001-modernize' into seen
+ba0f13601faa8f874540488413599a2724c570d0 Merge branch 'ar/fetch-transfer-ipversion' into seen
+0cab1aeec813a2955588a3894cd0878337b823fb Merge branch 'dr/push-remoteref-fix' into seen
+36dae35c8026694321f17b22825c7dde07c372e1 Merge branch 'mt/grep-sparse-checkout' into seen
+278a8d230dc2a3bc9d82d441443d6fcd8d363b4a Merge branch 'mt/rm-sparse-checkout' into seen
+326d5aab669a63b467f1c73141e816141a9c09dc Merge branch 'mk/use-size-t-in-zlib' into seen
+582c82c31dd96b7cf38684a31f36a8cca2b4a70e Merge branch 'es/config-hooks' into seen
+e3ea94daa6f2ec01298e0d3c708c27e183508490 Merge branch 'jc/war-on-dashed-git' into seen
+91fac6c2e77f5f4ded00e638a00c51ea34e14943 Merge branch 'vv/send-email-with-less-secure-apps-access' into seen
+9784f011f52a96af7cb1d4a34e873eb734c35f00 Merge branch 'ak/corrected-commit-date' into seen
+7e8440663e97c9f04c9523e70637ecdfdc942cb2 Merge branch 'mt/parallel-checkout-part-1' into seen
+47ad842bc5b58cf96a447f433f5b590ca83a44ee Merge branch 'sj/untracked-files-in-submodule-directory-is-not-dirty' into seen
+3ab2096ee539998615e4b9614de98821699999f6 Merge branch 'js/trace2-session-id' into seen
+b12cd4a77166c98dddc38f6b1485e41748c0b184 Merge branch 'en/merge-ort-impl' into seen
+54951bb4886553eb8e1ca1d44e03c5247204f895 Merge branch 'ds/maintenance-part-4' into seen
+85e3f68855d8d4f7bc55f1e7b5424670065a2778 Merge branch 'fc/bash-completion-post-2.29' into seen
+827fdcaba9c8a61452c769baa2faaa0ab9996004 Merge branch 'tb/pack-bitmap' into seen
+2452d7b8238031c5ebd78bd2996883ce3b7d11a5 Merge branch 'ag/merge-strategies-in-c' into seen
+7dc2ac7a7e77da1ca41a6565f9d07dfec96c9d3a Merge branch 'js/default-branch-name-tests-final-stretch' into seen
+a1c74791d5ffaa6d723abb14cebf556499c3c4cb gc: fix cast in compare_tasks_by_selection()
+a553941de023c92edef0a7f2497926b54f2d1d98 Merge branch 'rs/gc-sort-func-cast-fix' into seen
+
+--===============7127884311783837580==--
