@@ -1,43 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============7575389716640871942=="
+Content-Type: multipart/mixed; boundary="===============3715254861737295691=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mripard/linux
-Date: Wed, 18 Nov 2020 08:48:17 -0000
-Message-Id: <160568929737.23958.3899837188667915966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Wed, 18 Nov 2020 08:50:46 -0000
+Message-Id: <160568944651.26175.13503357598701012406@gitolite.kernel.org>
 
---===============7575389716640871942==
+--===============3715254861737295691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mripard/linux
-user: mripard
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/tags/drm/sun4i-dma-fix-pull-request
-    old: 31c81ee8b51ed12fbe2aadae6768c2a06859d028
-    new: c4ad9de88383fb608a8344bb3cfa91a77049f809
+  - ref: refs/heads/mips-next
+    old: 7701f264a756d41c2b663c3b745dd81efc875515
+    new: 8c9e8b0a28225c46f2cca0a09a3a111bb043e874
+    log: revlist-7701f264a756-8c9e8b0a2822.txt
 
---===============7575389716640871942==
+--===============3715254861737295691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7701f264a756-8c9e8b0a2822.txt
 
-certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1605689296 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mripard/linux.git
-nonce 1605689296-eab6f3767495ee7a00776c2dd10f3a0de2880f50
+158c774d3c64859e84dd20e04d5fb18c8d3d318e MIPS: Ingenic: Add missing nodes for Ingenic SoCs and boards.
+e5dab78f1f3c8d6cd1f0717c27580ddab5176bc4 MIPS: Ingenic: Refresh defconfig for Ingenic SoCs based boards.
+29906e1aac11bf9907e26608216dc7970e73a70e mips: bmips: select ARCH_HAS_RESET_CONTROLLER
+10c1e714a68b45b124157aa02d80abe244a2a61a dt-bindings: reset: add BCM6345 reset controller bindings
+aac025437f14c1647dc6054b95daeebed34f6971 reset: add BCM6345 reset controller driver
+83f865d7e32e40b4903b1f83537c63fc5cdf1eb8 mips: bmips: dts: add BCM6328 reset controller support
+8079cfba4c7b8cae900c27104b4512fa5ed1f021 mips: bmips: dts: add BCM6358 reset controller support
+226383600be58dcf2e070e4ac8a371640024fe54 mips: bmips: dts: add BCM6362 reset controller support
+7acf84e87857721d66a1ba800c2c50669089f43d mips: bmips: dts: add BCM6368 reset controller support
+b7aa228813bdf014d6ad173ca3abfced30f1ed37 mips: bmips: dts: add BCM63268 reset controller support
+8c9e8b0a28225c46f2cca0a09a3a111bb043e874 mips: bmips: add BCM6318 reset controller definitions
 
-31c81ee8b51ed12fbe2aadae6768c2a06859d028 c4ad9de88383fb608a8344bb3cfa91a77049f809 refs/tags/drm/sun4i-dma-fix-pull-request
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCX7Tf0AAKCRDj7w1vZxhR
-xULDAP93lZBQWgk3CjNubicOCOsV1BUs0quAS7xFQHRlUW/0YAD+N1C14Bof/WPj
-YTX38nYbtjksB4J8+Cp65BRlaLzSGgw=
-=4rJv
------END PGP SIGNATURE-----
-
---===============7575389716640871942==--
+--===============3715254861737295691==--
