@@ -1,41 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============6759765212448008238=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 18 Nov 2020 12:19:57 -0000
-Message-Id: <160570199798.23729.3248103541439744295@gitolite.kernel.org>
-
---===============6759765212448008238==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Wed, 18 Nov 2020 12:23:03 -0000
+Message-Id: <160570218345.26356.5371635381160850817@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/for-next
-    old: 97ab4516205eedde0b6565e47175d825b88d6759
-    new: ce99a277644cc812eb22e0700731165092ac003a
-    log: revlist-97ab4516205e-ce99a277644c.txt
-
---===============6759765212448008238==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-97ab4516205e-ce99a277644c.txt
-
-19cf70546b24ff3e944f0df323774351e830e203 platform/x86: acer-wmi: add automatic keyboard background light toggle key as KEY_LIGHTS_TOGGLE
-d5a81d8e864bb1faebeafac0c79b39937701008f platform/x86: panasonic-laptop: Add support for optical driver power in Y and W series
-f1aaf914654a08f3a54ffa83f55bea23f224140c platform/x86: panasonic-laptop: Replace ACPI prints with pr_*() macros
-0119fbc0215a1843764b0d977f8aed7b2526ddb2 platform/x86: panasonic-laptop: Split MODULE_AUTHOR() by one author per macro call
-80373ad0edb53b5f044795918a5c9bdaa4e7f697 platform/x86: panasonic-laptop: Fix naming of platform files for consistency with other modules
-008563513348a5ab0324fb8976172fe56c939450 platform/x86: panasonic-laptop: Fix sticky key init bug
-e3a9afbbc309c51421d9beb3390ba42522fa6afe platform/x86: panasonic-laptop: Add write support to mute
-ed83c9171829ff16a08e29b58df6c11190a83740 platform/x86: panasonic-laptop: Resolve hotkey double trigger bug
-468f96bfa3a045450f54c96e63db786b0b5fcab2 platform/x86: panasonic-laptop: Add support for battery charging threshold (eco mode)
-25dd390c6206c3e0f9e0551fca030a5f909564eb platform/x86: panasonic-laptop: Add sysfs attributes for firmware brightness registers
-ce99a277644cc812eb22e0700731165092ac003a MAINTAINERS: new panasonic-laptop maintainer
-
---===============6759765212448008238==--
+  - ref: refs/heads/fixes
+    old: 29a25b9246f7f24203d30d59424cbe22bd905dfc
+    new: 7e4be1290a38b3dd4a77cdf4565c9ffe7e620013
+    log: |
+         8326be9f1c0bb498baf134878a8deb8a952e0135 dmaengine: idxd: fix mapping of portal size
+         4e7d4f295dee1feed96b2b0a31d80d673b5465e8 dmaengine: ioatdma: remove unused function missed during dma_v2 removal
+         e773ca7da8beeca7f17fe4c9d1284a2b66839cc1 dmaengine: pl330: _prep_dma_memcpy: Fix wrong burst size
+         7e4be1290a38b3dd4a77cdf4565c9ffe7e620013 dmaengine: fix error codes in channel_register()
+         
+  - ref: refs/heads/next
+    old: 0e15ca5fe2240e9f1e4c408a29505b60dbdfaddd
+    new: f74faa0ca3d56df7d135602bca80f6e39be9f4ad
+    log: |
+         5b7b41cbf2f9b473ccd13f69337d7c26f4d138c2 dt-bindings: dmaengine: Add JZ4775 bindings.
+         46d613fd8da84d41fb2adb2ccb97230979d38af8 dt-bindings: dmaengine: Add X2000 bindings.
+         613ff7e19c5877d62118cb6612d4e336272620e7 dt-bindings: dma: allwinner,sun50i-a64-dma: Add A100 compatible
+         07b552732edd1b09aecc0f57d479e5eccf11c295 dmaengine: sun6i: Add support for A100 DMA
+         f74faa0ca3d56df7d135602bca80f6e39be9f4ad dmaengine: imx-sdma: Remove unused .id_table support
+         
