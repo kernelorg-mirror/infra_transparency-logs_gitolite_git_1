@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Wed, 18 Nov 2020 09:20:51 -0000
-Message-Id: <160569125109.30718.8059989996718412813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Wed, 18 Nov 2020 09:29:08 -0000
+Message-Id: <160569174846.4918.16884385780537144083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/master
-    old: 7b24c1dd322e7d68d32470b6a8072df01b6565f8
-    new: d0ac42fdc4ed2e7edadcffe0d3b5e9baa5c0e31c
+  - ref: refs/heads/mhi-next
+    old: b6e58c083f2b10beaad7cacc1e747bfd3a354e89
+    new: c74ce17bd7bb4b46af5f850507764f967745e4a5
     log: |
-         d0ac42fdc4ed2e7edadcffe0d3b5e9baa5c0e31c MAINTAINERS: add uv.c also to KVM/s390
+         ed5298c7d500abaf34ed7783969e953a1f028e5b bus: mhi: Remove auto-start option
+         a2e2cc0dbb1121dfa875da1c04f3dff966fec162 net: qrtr: Start MHI channels during init
+         c74ce17bd7bb4b46af5f850507764f967745e4a5 Merge branch 'mhi-ath11k-immutable' into mhi-next
          
