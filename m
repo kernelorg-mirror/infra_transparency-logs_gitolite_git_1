@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2540135764858921328=="
+Content-Type: multipart/mixed; boundary="===============1458124670752107971=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 18 Nov 2020 18:22:02 -0000
-Message-Id: <160572372226.11806.11350831335449818932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Wed, 18 Nov 2020 18:22:08 -0000
+Message-Id: <160572372842.11901.11502676481718515237@gitolite.kernel.org>
 
---===============2540135764858921328==
+--===============1458124670752107971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: a93711503472d4c89977ce2c80dcd4b75e36cc45
 
---===============2540135764858921328==
+--===============1458124670752107971==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -311,4 +311,4 @@ ed129cd75ac1073f32d04d0f2012ede40e86fb77 Merge tag 'mips_fixes_5.10_1' of git://
 111e91a6df505e532a3809ead372787a01e23e0c Merge tag 's390-5.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 0fa8ee0d9ab95c9350b8b84574824d9a384a9f7d Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 
---===============2540135764858921328==--
+--===============1458124670752107971==--
