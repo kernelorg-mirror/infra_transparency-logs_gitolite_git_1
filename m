@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 18 Nov 2020 18:57:10 -0000
-Message-Id: <160572583072.23022.9574588331456689656@gitolite.kernel.org>
+Date: Wed, 18 Nov 2020 19:01:00 -0000
+Message-Id: <160572606080.25734.9607832198892483317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: df8d85d8c69d6837817e54dcb73c84a8b5a13877
-    new: a5ebcbdf34b65fcc07f38eaf2d60563b42619a59
+    old: a5ebcbdf34b65fcc07f38eaf2d60563b42619a59
+    new: 537a14726582c4e7bfe4dff9cb7fca19dc912cf6
     log: |
-         a5ebcbdf34b65fcc07f38eaf2d60563b42619a59 ah6: fix error return code in ah6_input()
+         537a14726582c4e7bfe4dff9cb7fca19dc912cf6 atl1c: fix error return code in atl1c_probe()
          
