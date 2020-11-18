@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
-Date: Wed, 18 Nov 2020 14:09:27 -0000
-Message-Id: <160570856762.6725.13965130930257945070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/stalld/stalld
+Date: Wed, 18 Nov 2020 14:09:51 -0000
+Message-Id: <160570859155.6968.15311970499783671732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
-user: luca
+repo: pub/scm/utils/stalld/stalld
+user: clrkwllms
 changes:
-  - ref: refs/heads/chromeos-5.4__release/core54-101
-    old: 0000000000000000000000000000000000000000
-    new: 910dd2eb4e74a459ac6a6357f6fc5b62d6ba3248
-  - ref: refs/tags/chromeos-5.4__release/core54-2020-11-18
-    old: 0000000000000000000000000000000000000000
-    new: 910dd2eb4e74a459ac6a6357f6fc5b62d6ba3248
+  - ref: refs/notes/signatures/tar
+    old: e36b1e46f5fb98b275b149b79dadf0163f16e32c
+    new: 462833faebd237d0da3fd9f6177f4c0fd439bcba
+    log: |
+         c2c6b147932a978c45a4170c84e45269bc4f5ef4 Notes removed by 'git notes remove'
+         462833faebd237d0da3fd9f6177f4c0fd439bcba Notes added by 'git notes add'
+         
