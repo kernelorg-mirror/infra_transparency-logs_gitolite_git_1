@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Wed, 18 Nov 2020 00:07:16 -0000
-Message-Id: <160565803687.20474.7427534674983290756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 18 Nov 2020 00:12:48 -0000
+Message-Id: <160565836896.23677.7265437934049742904@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/rtc-next
-    old: 27f554c580c8ec9015aec3d998510cf462534e48
-    new: b3527837a60a5dcd0c16c28804b6ec9b47f15947
+  - ref: refs/heads/master
+    old: 138559b9f99d3b6b1d5e75c78facc067a23871c6
+    new: e33de7c5317e2827b2ba6fd120a505e9eb727b05
     log: |
-         b3527837a60a5dcd0c16c28804b6ec9b47f15947 rtc: destroy mutex when releasing the device
+         e33de7c5317e2827b2ba6fd120a505e9eb727b05 inet_diag: Fix error path to cancel the meseage in inet_req_diag_fill()
          
