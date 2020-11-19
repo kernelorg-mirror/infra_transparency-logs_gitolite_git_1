@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8586938457071307296=="
+Content-Type: multipart/mixed; boundary="===============2812449335661012263=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 19 Nov 2020 10:03:50 -0000
-Message-Id: <160578023018.30698.9136106029105836595@gitolite.kernel.org>
+Date: Thu, 19 Nov 2020 10:11:53 -0000
+Message-Id: <160578071373.3679.17547005913009433634@gitolite.kernel.org>
 
---===============8586938457071307296==
+--===============2812449335661012263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,39 +17,49 @@ user: mkl
 git_push_cert_status: E
 changes:
   - ref: refs/heads/testing
-    old: e7ddd069ce17e5e8dfba51a71d78ed4b9aff8726
-    new: 5823fcd90909fca0b01dc7e2b3664fcfe5d0123f
-    log: |
-         0c402b80c749f31cdb2a9cad77c439e9fd12d27d can: flexcan: flexcan_close(): change order if commands to properly shut down the controller
-         f82957133c30f0a983ccfc9741eecd62dd9f2014 can: kvaser_usb: Add USB_{LEAF,HYDRA}_PRODUCT_ID_END defines
-         d6555a84ae5145bec09a6d11e66d02cfedacc659 can: kvaser_usb: Add new Kvaser Leaf v2 devices
-         414b43d4c517b044aa0807a1f72ac714c2e710f1 can: kvaser_usb: kvaser_usb_hydra: Add support for new device variant
-         86b0f96805862364a34a144600fc1a226e4b2144 can: kvaser_usb: Add new Kvaser hydra devices
-         5823fcd90909fca0b01dc7e2b3664fcfe5d0123f can: mcp251xfd: remove useless code in mcp251xfd_chip_softreset
-         
+    old: 5823fcd90909fca0b01dc7e2b3664fcfe5d0123f
+    new: 8f6dae9d8b49d7ad71100f475fda0fb2a63a6899
+    log: revlist-5823fcd90909-8f6dae9d8b49.txt
 
---===============8586938457071307296==
+--===============2812449335661012263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1605780225 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1605780709 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1605780225-89d781299870692fa12e10e603ddcc4ab05f761c
+nonce 1605780709-3dc8355e3410850ffae6415df144ff60d082b8eb
 
-e7ddd069ce17e5e8dfba51a71d78ed4b9aff8726 5823fcd90909fca0b01dc7e2b3664fcfe5d0123f refs/heads/testing
+5823fcd90909fca0b01dc7e2b3664fcfe5d0123f 8f6dae9d8b49d7ad71100f475fda0fb2a63a6899 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl+2QwETHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqRDTB/90T4GBvAB7xlP/35Ca28FxKtvTLwA8
-h46z/1VV69uZ2dHsZ2TH3MOqxoMqtgTGDkMa7e1fIsrZYyTe/u1Qt/3RSMyG7GcX
-a1voz4rfYotwkWWsSeDW68yKNmnq/RsApCCTjKfGhDHN20M1RtXbXRLjgTfBMfdD
-tksKzxFD7IBMS+NUBxaBQgo18YoyfXjrbPzK2YpEtvJR48Qef0iNvboTvqzIdVL7
-BFr1B4MB9poREaKYCt6Lgy4sDI9EQm7YBJEY+uIu0hGvIJx0YOepCCqAuTmKFl1F
-hHs+kNoiuMz+YRm31v4sirm4+Xq914NvCTUwpqmtEsr3MJN91MHJxauN
-=5fpY
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl+2ROUTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqX4oB/0YFo7W99CafqHGGMs3hrWEV/VYvtJg
+SFtmZ+ZELWEtbuBKdUQFfrobm9j+ODU+2jDvmTGr+xT32dompkDGr0YoTQYt04z9
+lNQ0k4spmauRvcoj3IXFiPpsg4C/wVdEzEwSuKz5YiXROEI7B+tFj3tsTC1+77oe
+tEkGogv+gJHRZ8jkhR3EQGnERWKPMe+hI/JqvSdwcyFk84qMwcVR2CEJrzj1L4Eo
+SmaSo9lmnBXCmHVLuELNl9hGvXZ6jKGzITkyydVQIKU9Qkko+h+DiopsBP+JVYos
+DJ2dbTulihaCx5Co08rW/RLKDBnwgoDWu4lshjiiFaAkkhMQNKbefSbB
+=Th3L
 -----END PGP SIGNATURE-----
 
---===============8586938457071307296==--
+--===============2812449335661012263==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5823fcd90909-8f6dae9d8b49.txt
+
+2435baa60359fb661059c9d85a87b3ae67a15fe2 can: flexcan: factor out enabling and disabling of interrupts into separate function
+9616d1b78cee231d69c108c177618dea3c74b7ae can: flexcan: move enabling/disabling of interrupts from flexcan_chip_{start,stop}() to callers
+5bd4aaceb84fe443b0b564515a594cc9721745c5 can: flexcan: flexcan_rx_offload_setup(): factor out mailbox and rx-offload setup into separate function
+2874c3ec4863add2316aa3e5dacede4a55cf103a can: flexcan: flexcan_open(): completely initialize controller before requesting IRQ
+d104e8bb00f45bb5034d48cd91ba91446ce75431 can: flexcan: flexcan_close(): change order if commands to properly shut down the controller
+fa65271b45ca444b47eb2bbd46d5c6a3756dec28 can: kvaser_usb: Add USB_{LEAF,HYDRA}_PRODUCT_ID_END defines
+e60b191abf1891356af3cf46e91b72fc3c748598 can: kvaser_usb: Add new Kvaser Leaf v2 devices
+cdb79884df83948d5114bb0185800d9247742341 can: kvaser_usb: kvaser_usb_hydra: Add support for new device variant
+d1dd4e238997e68c52b8cde7a3add8b90d096bc7 can: kvaser_usb: Add new Kvaser hydra devices
+8f6dae9d8b49d7ad71100f475fda0fb2a63a6899 can: mcp251xfd: remove useless code in mcp251xfd_chip_softreset
+
+--===============2812449335661012263==--
