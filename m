@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 19 Nov 2020 09:47:43 -0000
-Message-Id: <160577926389.18376.9425041095288304851@gitolite.kernel.org>
+Date: Thu, 19 Nov 2020 09:49:19 -0000
+Message-Id: <160577935958.18957.12136580825230155172@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,11 +9,14 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+user: peterz
 changes:
-  - ref: refs/heads/x86/misc
-    old: 18741a5251d018094536a2dffe284d269ebb07fe
-    new: b023fd5f741f34d2cd90258ccc3f245924d2eadd
+  - ref: refs/heads/sched/urgent
+    old: 8d4d9c7b4333abccb3bf310d76ef7ea2edb9828f
+    new: 2279f540ea7d05f22d2f0c4224319330228586bc
     log: |
-         b023fd5f741f34d2cd90258ccc3f245924d2eadd x86/msr: Downgrade unrecognized MSR message
+         8e1ac4299a6e8726de42310d9c1379f188140c71 sched/fair: Fix overutilized update in enqueue_task_fair()
+         f97bb5272d9e95d400d6c8643ebb146b3e3e7842 sched: Fix data-race in wakeup
+         ec618b84f6e15281cc3660664d34cd0dd2f2579e sched: Fix rq->nr_iowait ordering
+         2279f540ea7d05f22d2f0c4224319330228586bc sched/deadline: Fix priority inheritance with multiple scheduling classes
          
