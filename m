@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 19 Nov 2020 10:17:47 -0000
-Message-Id: <160578106788.7060.9566739975118605151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 19 Nov 2020 10:27:18 -0000
+Message-Id: <160578163840.15345.7724985457610386501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 95b1f7c7767659741b0ef1474bb8895f007b356f
-    new: 77a37084898d6df73783a53135a26b4c8b99bf15
+  - ref: refs/heads/core/entry
+    old: 51af3f23063946344330a77a7d1dece6fc6bb5d8
+    new: d1f250e2205eca9f1264f8e2d3a41fcf38f92d91
     log: |
-         52f730e47869ce630fafb24fd46f755dc7ffc691 libmount: don't use "symfollow" for helpers on user mounts
-         77a37084898d6df73783a53135a26b4c8b99bf15 umount: ignore --no-canonicalize,-c for non-root users
-         
-  - ref: refs/heads/stable/v2.36
-    old: 35c07c82be1ddc3b1c40f061b59008cac6405499
-    new: 76bb9b30cfcf54b59591a57a3d2a747e514469b2
-    log: |
-         76bb9b30cfcf54b59591a57a3d2a747e514469b2 libmount: don't use "symfollow" for helpers on user mounts
+         83c2da2e605c73aafcc02df04b2dbf1ccbfc24c0 context_tracking: Introduce HAVE_CONTEXT_TRACKING_OFFSTACK
+         179a9cf79212bb3b96fb69a314583189cd863c5b context_tracking: Don't implement exception_enter/exit() on CONFIG_HAVE_CONTEXT_TRACKING_OFFSTACK
+         9f68b5b74c48761bcbd7d90cf1426049bdbaabb7 sched: Detect call to schedule from critical entry code
+         6775de4984ea83ce39f19a40c09f8813d7423831 context_tracking: Only define schedule_user() on !HAVE_CONTEXT_TRACKING_OFFSTACK archs
+         d1f250e2205eca9f1264f8e2d3a41fcf38f92d91 x86: Support HAVE_CONTEXT_TRACKING_OFFSTACK
          
