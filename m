@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1391020889870083383=="
+Content-Type: multipart/mixed; boundary="===============0452843974699603583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Thu, 19 Nov 2020 08:37:44 -0000
-Message-Id: <160577506460.19781.1453301205190454796@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Thu, 19 Nov 2020 08:38:47 -0000
+Message-Id: <160577512781.20199.9965053917978851110@gitolite.kernel.org>
 
---===============1391020889870083383==
+--===============0452843974699603583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
+repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/for-backlight-fixes
-    old: 219d54332a09e8d8741c1e1982f5eae56099de85
+  - ref: refs/heads/for-mfd-fixes
+    old: 22380b65dc70f5b132c5afdf6b4011e2a84ec34a
     new: bbf5c979011a099af5dc76498918ed7df445635b
-    log: revlist-219d54332a09-bbf5c979011a.txt
+    log: revlist-22380b65dc70-bbf5c979011a.txt
 
---===============1391020889870083383==
+--===============0452843974699603583==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-219d54332a09-bbf5c979011a.txt
+Content-Disposition: attachment; filename=revlist-22380b65dc70-bbf5c979011a.txt
 
 6128763fc3244d1b4868e5f0aa401f7f987b5c4d mm/migrate: remove unnecessary is_zone_device_page() check
 3d321bf82c4be8e33261754a5775bc65fc5d2184 mm/migrate: preserve soft dirty in remove_migration_pte()
@@ -1051,4 +1051,4 @@ c120ec12e216225f7536cc1b924fe428ff64b5bd Merge tag 'x86-urgent-2020-10-11' of gi
 3dd0130f2430decf0cb001b452824515436986d2 Merge branch 'akpm' (patches from Andrew)
 bbf5c979011a099af5dc76498918ed7df445635b Linux 5.9
 
---===============1391020889870083383==--
+--===============0452843974699603583==--
