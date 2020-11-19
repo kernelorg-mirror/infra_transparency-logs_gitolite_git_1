@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 19 Nov 2020 01:00:33 -0000
-Message-Id: <160574763397.2043.11325293231058688963@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 19 Nov 2020 01:13:53 -0000
+Message-Id: <160574843385.10108.7648605582198520746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev
-    old: 5fa06308dbeda809b85e0e6ad15c869126b92060
-    new: fe82f1cae662a62bb0bfff44c8871cfe5096a2d5
+  - ref: refs/heads/master
+    old: 030946fdb99018938feb0e23a3b4f9c3831fb77d
+    new: 280bb3f98bf8ae89e377311f164dfa9ef87c3a5a
     log: |
-         c9004efccc31b53d31c77b205b809ca7953d88f5 rcu/segcblist: Add debug checks for segment lengths
-         444ef3bbd0f243b912fdfd51f326704f8ee872bf sched/core: Allow try_invoke_on_locked_down_task() with irqs disabled
-         13e78972dcc94177b52f74aa0fecd329b885a957 srcu: Document polling interfaces for Tree SRCU grace periods
-         2000a9f255614bcc0114de43cddea55d13393861 rcu: Check and report missed fqs timer wakeup on RCU stall
-         2ca7cc5a252f47952c9f7292f6a30bea92c00c55 rcu/tree: Allocate a page when caller is preemptible
-         fe82f1cae662a62bb0bfff44c8871cfe5096a2d5 rcu/tree: Use delayed work instead of hrtimer to refill the cache
+         f2bcc2fa275b913093ff5b403be5d11342fdb055 atm: nicstar: Replace in_interrupt() usage
+         2de680dea6a888271087521a9501a74af57fa076 atm: lanai: Remove in_interrupt() usage
+         280bb3f98bf8ae89e377311f164dfa9ef87c3a5a Merge branch 'atm-replace-in_interrupt-usage'
          
