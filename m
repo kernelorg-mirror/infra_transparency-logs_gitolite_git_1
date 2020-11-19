@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 19 Nov 2020 12:32:12 -0000
-Message-Id: <160578913217.5083.2260403548038640113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel/aspeed
+Date: Thu, 19 Nov 2020 12:33:33 -0000
+Message-Id: <160578921392.5671.13061891244395008288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/joel/aspeed
+user: joel
 changes:
-  - ref: refs/heads/master
-    old: c10974391ea749ec46f4d0eda359345e12a649b7
-    new: a660b3c2a895ba91275a56f7477ca0f1c60b59ed
+  - ref: refs/heads/soc-for-v5.11
+    old: 57c27e05e439d3f4b6d45dbb9e4802565e0debd1
+    new: 4da595ddc06909d9ba8fcedcce0c4e1e0a4c3244
     log: |
-         551310e7356cb8af4eb4c618961ad1e7b2f89e19 ALSA: hda/ca0132: Fix compile warning without PCI
-         a660b3c2a895ba91275a56f7477ca0f1c60b59ed Merge branch 'for-linus'
+         959b981dc7bc144e0e256f8fe34b6ce23e839525 soc: aspeed: remove unneeded semicolon
+         0f0c9c702241d839dbb1d355b77e5712a5a5793f soc: aspeed: Fix a reference leak in aspeed_socinfo_init()
+         4da595ddc06909d9ba8fcedcce0c4e1e0a4c3244 soc: aspeed: Enable drivers with ARCH_ASPEED
          
