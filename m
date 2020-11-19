@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 19 Nov 2020 11:29:34 -0000
-Message-Id: <160578537444.25992.15507293718727623177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Thu, 19 Nov 2020 11:51:25 -0000
+Message-Id: <160578668562.7621.4658832372475896159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/master
-    old: 2ea86675db1349235e9af0a9d0372b72da4db259
-    new: 54c797a694d3830ef93f349ec25e1d96d4b88102
+  - ref: refs/heads/rtc-next
+    old: b3527837a60a5dcd0c16c28804b6ec9b47f15947
+    new: 0d6d7a390b32ef23d957960d3bb8586a49d6af7c
     log: |
-         e71210fe70646ea20ba755675428961569506af4 amdgpu: update raven firmware for 20.45
-         f4edc15ddaf543b130248e6098a566a333a5dbe6 amdgpu: update raven2 firmware for 20.45
-         e889b800006b2b02cb67927153d6942acec6339e amdgpu: update navi10 firmware for 20.45
-         68ce0fb94170cfca3f81312e58fa853bc80c48cf amdgpu: update navi12 firmware for 20.45
-         3619e5742fe8a3d54dc4b14bb6e47bc66091e5b0 amdgpu: update navi14 firmware for 20.45
-         7c81cc27194671ff3f867dca4698496ab09815c6 amdgpu: update renoir firmware for 20.45
-         d683bd56f8a7997d4c71c13fdc334c63cdb468a7 amdgpu: update vega10 firmware for 20.45
-         b260c9cdb2239c2df9ac9a17e5e36f95c29d705b amdgpu: update vega12 firmware for 20.45
-         1340e9cbdfc7ee57183e610e8ff39b7bf0b608dd amdgpu: update vega20 firmware for 20.45
-         54c797a694d3830ef93f349ec25e1d96d4b88102 amdgpu: add sienna cichlid firmware for 20.45
+         7d9d4868ec0b34dbfc74b3075dc1e896cc98f783 rtc: sc27xx: Always read normal alarm
+         7c45c9741ab2063e76ed716ac7aae05f97143f9c rtc: omap: use devm_pinctrl_register()
+         4d49ffc7a20dd0b05efb82fbf5b52d7aa57e9f4b Documentation: list RTC devres helpers in devres.rst
+         25ece30561d247b2931b0d11d92e9c976a668771 rtc: nvmem: remove nvram ABI
+         3a905c2d9544a418953d6c18668f0f853fbd9be9 rtc: add devm_ prefix to rtc_nvmem_register()
+         6746bc095bbd1da719aadd9a11fe2c75a12f22e0 rtc: nvmem: emit an error message when nvmem registration fails
+         fdcfd854333be5b30377dc5daa9cd0fa1643a979 rtc: rework rtc_register_device() resource management
+         1bfc485b73579bff5326ac481fd9be7e24a5d5d1 rtc: shrink devm_rtc_allocate_device()
+         0d6d7a390b32ef23d957960d3bb8586a49d6af7c rtc: destroy mutex when releasing the device
          
