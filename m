@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3461498929396083728=="
+Content-Type: multipart/mixed; boundary="===============5714167553683769489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 19 Nov 2020 04:22:20 -0000
-Message-Id: <160575974027.9047.5977037303809254376@gitolite.kernel.org>
+Date: Thu, 19 Nov 2020 04:22:24 -0000
+Message-Id: <160575974466.9133.12019298071900076754@gitolite.kernel.org>
 
---===============3461498929396083728==
+--===============5714167553683769489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/5.10/scsi-fixes
+  - ref: refs/heads/fixes
     old: f36199355c64a39fe82cfddc7623d827c7e050da
     new: 73cc291c270248567245f084dcdf5078069af6b5
     log: |
@@ -24,33 +24,33 @@ changes:
          73cc291c270248567245f084dcdf5078069af6b5 scsi: ufs: Make sure clk scaling happens only when HBA is runtime ACTIVE
          
 
---===============3461498929396083728==
+--===============5714167553683769489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1605759738 -0500
+pusher 75C5DE3D 1605759743 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1605759738-efcde8664a295c33583a028450636ba6aebaf054
+nonce 1605759743-efaaea3b0dc26d38813f654bc9d6242da8424f2c
 
-f36199355c64a39fe82cfddc7623d827c7e050da 73cc291c270248567245f084dcdf5078069af6b5 refs/heads/5.10/scsi-fixes
+f36199355c64a39fe82cfddc7623d827c7e050da 73cc291c270248567245f084dcdf5078069af6b5 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+18voACgkQ7ulgGnXF
-3j326w/+OldRRISAk4PLwzl5S5F6jmLFqG85J57HwAwUqZlPOb3Ibwiu8NBN9+AM
-LwtKMsIH0s9+JFxwqWOLw0MVTgBHozm5Qh71L1dsUlRM13n7veNcyR9pjvXBy4rZ
-r2/3y0XpxBtthFh18i/teyAAxmK05nUkyC8EytqEZ3LO826+q+W+1EZClbDhEpHH
-WFU6Sref/ldcWvj3m3x7bAXu6EuGhvDM/+IzpR/AWLCi3vIk95RSJjisWZWwklx7
-o4e10TFwvLqmN2fah++hj1uUzaiDWZPWQ/nnIzJjMSKX8O57A3yXk9eqaz0E9v1h
-72tm+XpE9DaIuvfIzjC1AdPAK43iM5Gzrk1cO4vhfxLdFYtEaYQgRDjjFSiTLjbo
-ChTIA9VfI5qA2bljkfOVX+Mi5XP4uKxurPW8vsdyQglSBgBfg3BImjfwdSHDn7oC
-kNYbxsfU8v9FDwuB+g0A1+gjkLf6F4qXU1WKgNjNaIiUEnYWXiFvs1QaPoWCvt1r
-P+JrsdIhdUiXzTUy2px0H3xmkK4220QuyJAG612W12tKQqsegLqlb297uaLqsfN5
-UVh7dbxQ67rGKaGcoekxIXCSBWJSX44UKsK5TnOtTy7LpAZl7A3d2vvk3nta3gHz
-HZxPoVpKeWqK+LUZ/6dUavcsGPmDQhNZ9EQjYl6dm1RuVXTxas4=
-=GAk2
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+18v8ACgkQ7ulgGnXF
+3j17dhAAnLSr3OGs+cPSCthEyg0EWlsrWAqr6X92H3QSGQHFoMXj22BuoBmzkBY6
+ieh4+Bc8818iVfiv+Vs5pLd1Eh8M+JFmfLvRVHE9WF9G0/xUffU53b8+3t3TA7uB
+iruTcQ1uGeI/s+WnKgxG1CqcaFF9khYFILKtNqlJQgpnLL2CTKxMDI1PcWiDVQUd
+gtzuC0f7sYK/PZpIk3ktlL62BzhNrbJ4wdYZ8F4n6PY5Dq7r6+g7ZBCM5u5qcA8i
+tKEXO2nGNo5OP3vX4kB/m6rLNOwEFdtIVwGqyLVo8nYjzgDnmsg+EOycwSuraXDf
+kOpY9Vic+iabT0DqkpnzXwrOwPsOQIh/GgMlekBC2bcgRZqkp0nWPwZGUDnYgzzb
+zyadekkwFOTeyg6Iic10F2u2rc1E+7GT2y0Kegui1iL1Uf/SV1ztd/AeXlz1yYh0
+o+QCFxH6I+5E5LN3qVwdaUUfWtMSSVEog1JqVx+qYEz4fgq8/el2seJ0tlbbFQ2T
+fPXVo9K+CG39QXDUv8MKlQUkHwG9Li7ZpufFCY1nBQj3Z1BB8PGDsLlBXDlU77Um
+kS9jdsjIgUuyxQH2nJ3mMwG/HjSafoE0Xkp7t/C7OKcrwpvrACqKTERpVwIqHu6y
+TRxO57dC45NxALyqgTLKTkxWYq9GM7Ocn3vtCnLOhrQNKDx9ktQ=
+=6D8l
 -----END PGP SIGNATURE-----
 
---===============3461498929396083728==--
+--===============5714167553683769489==--
