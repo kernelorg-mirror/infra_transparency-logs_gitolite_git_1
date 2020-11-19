@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8735209215716458493=="
+Content-Type: multipart/mixed; boundary="===============4772168211555965581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 19 Nov 2020 22:15:17 -0000
-Message-Id: <160582411787.21897.5374796010977625228@gitolite.kernel.org>
+Date: Thu, 19 Nov 2020 22:15:26 -0000
+Message-Id: <160582412667.22049.12378406972258035945@gitolite.kernel.org>
 
---===============8735209215716458493==
+--===============4772168211555965581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 1fa7634881b0042a897cfa391b1ffc61ee4e53b3
-    new: 68222eefa4ca7d9b3771aad096a8737d29dfa110
-    log: revlist-1fa7634881b0-68222eefa4ca.txt
+  - ref: refs/heads/net-next
+    old: 82c0503537d2c480e0fbbcd1ddd2b8e99c095e28
+    new: ace4ebcb82ca3113cc1b38b40d9a1c37944e6018
+    log: revlist-82c0503537d2-ace4ebcb82ca.txt
 
---===============8735209215716458493==
+--===============4772168211555965581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fa7634881b0-68222eefa4ca.txt
+Content-Disposition: attachment; filename=revlist-82c0503537d2-ace4ebcb82ca.txt
 
 6517baacb6d4f10ba8f04b591cdacc0ab081ff6a net/mlx5: Add HW definition of reg_c_preserve
 947b6d8fbead4eecce124a6f160cdd0e50790005 net/mlx5: Remove impossible checks of interface state
@@ -62,5 +62,10 @@ d058cd3aac0fe1501644bcb16a3d843445110a11 net/mlx5e: E-Switch, Offload all chain 
 08396745020e8a6d2c5760327fd7db1498849e29 net/mlx5e: CT: Support offload of +trk+new ct rules
 3875b24c6809765b2e4e023a3d452e8e222204e0 net/mlx5: Make API mlx5_core_is_ecpf accept const pointer
 68222eefa4ca7d9b3771aad096a8737d29dfa110 net/mlx5: CT: Add support for mirroring
+f001a70fe963d31e98dd9570dcb6c9390d068f8b Merge branch 'net-next-mlx4' into net-next
+62548b9382492052d91fa8639254be564a5032cb Merge branch 'mlx5-vdpa' into net-next
+8735d9277114c399c17dd3a9c2a8f951154d5244 Merge branch 'net-next-mlx5' into net-next
+89344223480d3969c981cabe10e8d4e6745e819c Merge branch 'net-mlx4' into net-next
+ace4ebcb82ca3113cc1b38b40d9a1c37944e6018 Merge branch 'net-mlx5' into net-next
 
---===============8735209215716458493==--
+--===============4772168211555965581==--
