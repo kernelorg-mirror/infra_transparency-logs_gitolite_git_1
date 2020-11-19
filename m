@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4407154708069075185=="
+Content-Type: multipart/mixed; boundary="===============8825904199580851980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 19 Nov 2020 17:08:06 -0000
-Message-Id: <160580568678.4340.3041961554588071841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 19 Nov 2020 17:08:13 -0000
+Message-Id: <160580569365.4490.1533006164678929692@gitolite.kernel.org>
 
---===============4407154708069075185==
+--===============8825904199580851980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.10
+  - ref: refs/heads/asoc-5.10
     old: 879ee8b6f2bae0cc4a25536f8841db1dbc969523
     new: fbdae7d6d04d2db36c687723920f612e93b2cbda
     log: |
          fbdae7d6d04d2db36c687723920f612e93b2cbda ASoC: Intel: bytcr_rt5640: Fix HP Pavilion x2 Detachable quirks
          
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 1482304db126551c867434c5cc3fadf089beb417
     new: 36b90846c5d52b0bab38a3a91794187a5b64e941
     log: revlist-1482304db126-36b90846c5d5.txt
 
---===============4407154708069075185==
+--===============8825904199580851980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1605805666 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1605805684-48702ec832ac1afc5d1d21484734a2cbddbf6db8
+pusher C3F436CA30F5D8EB 1605805673 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1605805691-058301d519414f598c254e747559b977921fb23e
 
-879ee8b6f2bae0cc4a25536f8841db1dbc969523 fbdae7d6d04d2db36c687723920f612e93b2cbda refs/heads/for-5.10
-1482304db126551c867434c5cc3fadf089beb417 36b90846c5d52b0bab38a3a91794187a5b64e941 refs/heads/for-5.11
+879ee8b6f2bae0cc4a25536f8841db1dbc969523 fbdae7d6d04d2db36c687723920f612e93b2cbda refs/heads/asoc-5.10
+1482304db126551c867434c5cc3fadf089beb417 36b90846c5d52b0bab38a3a91794187a5b64e941 refs/heads/asoc-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+2pmIACgkQJNaLcl1U
-h9AwKwf/T/UxTz8ElAYAS/wjpfISXrX8NeD/GlZsRrY92qhKNTYmKeRkUxPQ8qzQ
-Gn/1dlTdurz6334xego+BW/JPDd5aNvk3vXiahWQzMyj40ZG+bE3xUpcNHuGgd9c
-3YoueW0UPHKvd+qC4t0dm9icAbGgKbx4ZkNKTxTAw0B3MfvHpHXZfz7ZVUKnKq52
-JP6QpCmakQovRjDT7rRlsKV4Sti3xpsMdlN2NkCdwygn4x10opmtcv3vt7+I7ZHU
-W+JUKU0rFnW4JXSbSjDoaJart3Pm3raCNpksJI+HJwubSqgRDujtfmr4MZfS/l7p
-Az4gg1Vzaf5fNT1C6WcLlou+nqyLpw==
-=zs9W
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+2pmkACgkQJNaLcl1U
+h9Ahbwf/enMhbxiiwLvTFMjVdkiz0iCcQ4+qlGJ5D0ee1xRhiNE7zhXT/Mqj8DAS
+VQaIjx8GNF8w5lnoeQLPYJ1Eb+bU3DprJHSM78VECrc8SEH7npbg/8sJi1alxXju
+gppB6yzSjQz9pcaDSXLKC8bGC0Xf4zamN9Ggk0cWJH3UEqFdDkiWq9HXQJp85Qcc
+iDheCM3xwYG3bmWElyLA6OCOhhIwa9gtMOtlOYQK5jiWYz0WI4LNoQIZM19Ho3mi
+qImGgwxm1zoXwCKMVkNyfNPiGi3/ZVrUDN3Y1ggO860iL9XygLRUKpG91ar67s2j
+CLD2s4/ah1xHt503S7PQVnf7S6Y8kg==
+=ro4+
 -----END PGP SIGNATURE-----
 
---===============4407154708069075185==
+--===============8825904199580851980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ caebea04b9125c677e6e747793fbc7fab077727b ASoC: SOF: Intel: add hw specific PCM c
 a27b421f1d04b201c474a15ee1591919c81fb413 ASoC: pcm: call snd_soc_dapm_stream_stop() in soc_pcm_hw_clean
 36b90846c5d52b0bab38a3a91794187a5b64e941 Merge series "ASoC: codecs: add support for LPASS Codec macros" from Srinivas Kandagatla <srinivas.kandagatla@linaro.org>:
 
---===============4407154708069075185==--
+--===============8825904199580851980==--
