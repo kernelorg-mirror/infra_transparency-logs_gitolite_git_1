@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 19 Nov 2020 14:30:50 -0000
-Message-Id: <160579625071.24879.17397813074820035904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Thu, 19 Nov 2020 14:44:46 -0000
+Message-Id: <160579708645.32013.7362914568632770229@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/test/usb-hacks-wip
-    old: bbecbf923619c0226ce06b296dfb3faf8dfcf401
-    new: 5140b8d7c9f29fed1ef91349bb3e1c5df92e1af5
+  - ref: refs/heads/fixes
+    old: 09162bc32c880a791c6c0668ce0745cf7958f576
+    new: 600c0849cf86b75d86352f59745226273290986a
     log: |
-         98d8518b00fa2f77d9b62534dc2f9c6717c0bb03 ALSA: usb-audio: Factor out the implicit feedback quirk code
-         bd67b13a28835978fe0d0c3bf2f897f836257a21 ALSA: usb-audio: Add generic implicit fb parsing
-         5140b8d7c9f29fed1ef91349bb3e1c5df92e1af5 ALSA: usb-audio: Add implicit_fb module option
+         600c0849cf86b75d86352f59745226273290986a thunderbolt: Fix use-after-free in remove_unplugged_switch()
          
