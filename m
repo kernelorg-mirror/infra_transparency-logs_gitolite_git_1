@@ -1,56 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5714167553683769489=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 19 Nov 2020 04:22:24 -0000
-Message-Id: <160575974466.9133.12019298071900076754@gitolite.kernel.org>
-
---===============5714167553683769489==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/joel/aspeed
+Date: Thu, 19 Nov 2020 05:58:30 -0000
+Message-Id: <160576551060.9586.6374847233333251866@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/joel/aspeed
+user: joel
 changes:
-  - ref: refs/heads/fixes
-    old: f36199355c64a39fe82cfddc7623d827c7e050da
-    new: 73cc291c270248567245f084dcdf5078069af6b5
+  - ref: refs/heads/dt-for-v5.11
+    old: 6ff286225d75a1bcb61cf0ff714757a579305beb
+    new: c1fc133f5bd06949037192c0a48c3dab85a140fd
     log: |
-         1699f980d87fb678a669490462cf0b9517c1fb47 scsi: ufs: Fix unexpected values from ufshcd_read_desc_param()
-         73cc291c270248567245f084dcdf5078069af6b5 scsi: ufs: Make sure clk scaling happens only when HBA is runtime ACTIVE
+         fd6a1e60a0496be1c903a7fd47482c67cdd5ccd7 ARM: dts: aspeed: rainier: Add 4U device-tree
+         cbee028da69d31cb927142e2828710de55a49f2a ARM: dts: tacoma: Fix node vs reg mismatch for flash memory
+         c7b74131c755bb73eb836bcb46fcc28fbab39717 ARM: dts: rainier: Add reserved memory for ramoops
+         c1fc133f5bd06949037192c0a48c3dab85a140fd ARM: dts: tacoma: Add reserved memory for ramoops
          
-
---===============5714167553683769489==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1605759743 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1605759743-efaaea3b0dc26d38813f654bc9d6242da8424f2c
-
-f36199355c64a39fe82cfddc7623d827c7e050da 73cc291c270248567245f084dcdf5078069af6b5 refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+18v8ACgkQ7ulgGnXF
-3j17dhAAnLSr3OGs+cPSCthEyg0EWlsrWAqr6X92H3QSGQHFoMXj22BuoBmzkBY6
-ieh4+Bc8818iVfiv+Vs5pLd1Eh8M+JFmfLvRVHE9WF9G0/xUffU53b8+3t3TA7uB
-iruTcQ1uGeI/s+WnKgxG1CqcaFF9khYFILKtNqlJQgpnLL2CTKxMDI1PcWiDVQUd
-gtzuC0f7sYK/PZpIk3ktlL62BzhNrbJ4wdYZ8F4n6PY5Dq7r6+g7ZBCM5u5qcA8i
-tKEXO2nGNo5OP3vX4kB/m6rLNOwEFdtIVwGqyLVo8nYjzgDnmsg+EOycwSuraXDf
-kOpY9Vic+iabT0DqkpnzXwrOwPsOQIh/GgMlekBC2bcgRZqkp0nWPwZGUDnYgzzb
-zyadekkwFOTeyg6Iic10F2u2rc1E+7GT2y0Kegui1iL1Uf/SV1ztd/AeXlz1yYh0
-o+QCFxH6I+5E5LN3qVwdaUUfWtMSSVEog1JqVx+qYEz4fgq8/el2seJ0tlbbFQ2T
-fPXVo9K+CG39QXDUv8MKlQUkHwG9Li7ZpufFCY1nBQj3Z1BB8PGDsLlBXDlU77Um
-kS9jdsjIgUuyxQH2nJ3mMwG/HjSafoE0Xkp7t/C7OKcrwpvrACqKTERpVwIqHu6y
-TRxO57dC45NxALyqgTLKTkxWYq9GM7Ocn3vtCnLOhrQNKDx9ktQ=
-=6D8l
------END PGP SIGNATURE-----
-
---===============5714167553683769489==--
