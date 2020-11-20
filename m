@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Fri, 20 Nov 2020 17:13:13 -0000
-Message-Id: <160589239380.5628.13170047511218739012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 20 Nov 2020 17:17:40 -0000
+Message-Id: <160589266093.8738.9323532338414742909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/pci/rcar
-    old: 7ef6161cfbca610e9ae1f6b207ff2f7ad81d0f02
-    new: 2e1bcb9010d8093b23b814c66c953064b772751c
+  - ref: refs/heads/wip/experimental_fuse
+    old: 53e6c15129a74f7fb76b769cd7d1c12932b5d989
+    new: f6311786961dce60149e04f0b3349ca060ecc3c8
     log: |
-         58e375bffca3f9bc5542a63b3894abc6a429a617 dt-bindings: PCI: rcar-pci-host: Convert bindings to json-schema
-         80db2e38644f2577f6b541cab0fc4b0775936678 dt-bindings: PCI: rcar-pci-host: Document r8a77965 bindings
-         2e1bcb9010d8093b23b814c66c953064b772751c dt-bindings: PCI: rcar-pci-host: Document r8a774e1 bindings
+         643b96a87b273d91bd3669b1dbf44abe5a4af0d7 erofs-utils: introduce fuse implementation
+         98ae37305cb144866285ee9db6be3f3fc2ab66e6 erofs-utils: fuse: support symlink & special inode
+         f6311786961dce60149e04f0b3349ca060ecc3c8 erofs-utils: fuse: add compressed file support
          
