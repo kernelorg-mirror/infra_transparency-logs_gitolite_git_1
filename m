@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 20 Nov 2020 20:24:17 -0000
-Message-Id: <160590385771.12715.7323499758440625894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Fri, 20 Nov 2020 20:27:04 -0000
+Message-Id: <160590402472.15134.10341661705460072903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: 450d060e8f752a6ce052a2bffd3f01633472e330
-    new: 91b2db27d3ff9ad29e8b3108dfbf1e2f49fe9bd3
+  - ref: refs/tags/scsi-fixes
+    old: e358786e04fa5ee18ad4946d4c9d82e441806c82
+    new: ff176d0dd439ac1114e1cffe4d4b1768d62ddc32
     log: |
-         91b2db27d3ff9ad29e8b3108dfbf1e2f49fe9bd3 bpf: Simplify task_file_seq_get_next()
+         fe0a8a95e7134d0b44cd407bc0085b9ba8d8fe31 scsi: libiscsi: Fix NOP race condition
+         f36199355c64a39fe82cfddc7623d827c7e050da scsi: target: iscsi: Fix cmd abort fabric stop race
          
