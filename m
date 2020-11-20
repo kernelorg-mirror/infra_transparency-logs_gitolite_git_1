@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4618543564318412211=="
+Content-Type: multipart/mixed; boundary="===============1168445869140677922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 20 Nov 2020 18:25:23 -0000
-Message-Id: <160589672367.26056.14704028990912124415@gitolite.kernel.org>
+Date: Fri, 20 Nov 2020 18:25:30 -0000
+Message-Id: <160589673040.26192.1952342336868140423@gitolite.kernel.org>
 
---===============4618543564318412211==
+--===============1168445869140677922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: dc3d9f209c7993b77c73ae41adf05adecff2c8db
-    new: 49736ebba632e0238802b12d8eccb76d36f51f1c
-    log: revlist-dc3d9f209c79-49736ebba632.txt
+  - ref: refs/heads/net-rc
+    old: 6774e35c0436e6058974725fa7979b544abcb7f2
+    new: fd1b4fc6e4aa030c8765f6e2adb41f8fbb349162
+    log: revlist-6774e35c0436-fd1b4fc6e4aa.txt
 
---===============4618543564318412211==
+--===============1168445869140677922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc3d9f209c79-49736ebba632.txt
+Content-Disposition: attachment; filename=revlist-6774e35c0436-fd1b4fc6e4aa.txt
 
 d76bb7a09bb3b8711077912f3e80cfcf39cd9d0b tools/power turbostat: Print /dev/cpu_dma_latency
 9aefc2cda6353f48708415d9adc5dff4deb73412 tools/power turbostat: Always print idle in the system configuration header
@@ -529,6 +529,7 @@ d0a37fd57fbae32adffb56ae9852d551376b7c9b Merge tag 'sched-urgent-2020-11-15' of 
 8f598d15ee6577a56d6617d9e4151591db34d8fa Merge branch 'linux-5.10' of git://github.com/skeggsb/linux into drm-fixes
 a6af8718b98e1cd37a9ea9a02269c79577fc9138 Merge tag 'drm-fixes-2020-11-16' of git://anongit.freedesktop.org/drm/drm
 09162bc32c880a791c6c0668ce0745cf7958f576 Linux 5.10-rc4
+1350ef3561990d8d403076692afaae2e5dc3bc99 net: Disable NETIF_F_HW_TLS_TX when HW_CSUM is disabled
 9ce874464533736fb37535eb9e8e85c14ee26075 net/mlx5e: Fix refcount leak on kTLS RX resync
 fe844d6572b720ae9789bbe9f6a4b0ccae3714eb net/tls: Protect from calling tls_dev_del for TLS RX twice
 d199812b41184f2de8ad3e0d39a1513e64036c5b net/mlx5e: E-Switch, Offload all chain 0 priorities when modify header and forward action is not supported
@@ -542,5 +543,10 @@ ecd2c50d4b8eb25d959d9c4a9d11db842a9b508e net/mlx5: Disable QoS when min_rates on
 c2c4442e811f23187dbf0e0f938a7717202d8105 net/mlx5: E-Switch, Fail mlx5_esw_modify_vport_rate if qos disabled
 66283858bf01de3ccb19c27e07cb098500246171 net/mlx5: fix error return code in mlx5e_tc_nic_init()
 49736ebba632e0238802b12d8eccb76d36f51f1c net/mlx5: Fix wrong address reclaim when command interface is down
+d443de8977494b092a32919c70ed40dd6229939f Merge commit 'refs/changes/48/344848/7' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
+473d443321d4dad768f6d3600720d1925b6ea4dc Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
+1cca1138813e49b298efec7e17aabe42e994abb3 Merge branch 'net-mlx4' into net-rc
+a6b661e1ad7a3d66f31aede563de41bc89e9b942 Merge branch 'net-mlx5' into net-rc
+fd1b4fc6e4aa030c8765f6e2adb41f8fbb349162 Merge branch 'net-mlx5-test' into net-rc
 
---===============4618543564318412211==--
+--===============1168445869140677922==--
