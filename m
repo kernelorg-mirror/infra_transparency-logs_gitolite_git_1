@@ -1,77 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============4390212209456607369=="
+Content-Type: multipart/mixed; boundary="===============7996744755951476443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 20 Nov 2020 06:45:16 -0000
-Message-Id: <160585471676.17888.6054878839132004180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 20 Nov 2020 06:55:40 -0000
+Message-Id: <160585534088.26380.17250101807802860775@gitolite.kernel.org>
 
---===============4390212209456607369==
+--===============7996744755951476443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/tags/v4.14.207
-    old: 0000000000000000000000000000000000000000
-    new: 27d46a88abf6fe2f68796b70bc5fb847f9eb8023
-  - ref: refs/tags/v4.19.158
-    old: 0000000000000000000000000000000000000000
-    new: 75047c63c00ebaf3d6a45c299a42668acc88337d
-  - ref: refs/tags/v4.4.244
-    old: 0000000000000000000000000000000000000000
-    new: 1b0f612becbadedf3d7d01ded4f61e7ceaa9c73c
-  - ref: refs/tags/v4.9.244
-    old: 0000000000000000000000000000000000000000
-    new: 0a9adaa976d7381e41eda0b2d1fc6fd1df567648
-  - ref: refs/tags/v5.10-rc4
-    old: 0000000000000000000000000000000000000000
-    new: a93711503472d4c89977ce2c80dcd4b75e36cc45
-  - ref: refs/tags/v5.4.78
-    old: 0000000000000000000000000000000000000000
-    new: 59b9881ae7bb7795afb44687759c40c788bdd546
-  - ref: refs/tags/v5.9.9
-    old: 0000000000000000000000000000000000000000
-    new: d8175990031f508b7dded2ae106ec44586057f52
+  - ref: refs/heads/master
+    old: c4fc6328d6c67690a7e6e03f43a5a976a13120ef
+    new: 732b764099f651a088fd931d7b8121b6aa84e62e
+    log: revlist-c4fc6328d6c6-732b764099f6.txt
 
---===============4390212209456607369==
+--===============7996744755951476443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c4fc6328d6c6-732b764099f6.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605854760 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1605854714-587903aeadbb2ab98cde56b20d9d020e98accf35
+5761498c4d074560b38a203000afc6e971ffaa7f crypto: hisilicon/sec2 - Fix aead authentication setting key error
+3ad99c22cebee84034bc53e42f5115dbc97490e8 crypto: arm64/gcm - move authentication tag check to SIMD domain
+0049a1329bb9569196a551bb658500394d98ed50 crypto: caam/qi - simplify error path for context allocation
+5bdad829c31a09069fd508534f03c2ea1576ac75 crypto: crypto4xx - Replace bitwise OR with logical OR in crypto4xx_build_pd
+a24d22b225ce158651378869a6b88105c4bdb887 crypto: sha - split sha.h into sha1.h and sha2.h
+1201581c57925b8bc2cba8628b61add3d16d4615 crypto: lib/curve25519 - Move selftest prototype into header file
+1dc440355e472a60a98cb4ec9aa5ec56267a96fc crypto: hisilicon/zip - add a work_queue for zip irq
+ff8107200367f4abe0e5bce66a245e8d0f2d229e crypto: omap-aes - Fix PM disable depth imbalance in omap_aes_probe
+e73916f20829be09932326ab0c9627b29df553e8 crypto: qat - target fw images to specific AEs
+6644f49e7b71e13bcc5498d9fea8862c5ce96388 crypto: qat - add hook to initialize vector routing table
+8c8268166e83425243789c5781c92e7fa33b703b crypto: qat - add qat_4xxx driver
+2e0e386af88429ec28fb9ab4531096a370578e97 crypto: kconfig - fix a couple of spelling mistakes
+732b764099f651a088fd931d7b8121b6aa84e62e crypto: sun8i-ce - fix two error path's memory leak
 
-0000000000000000000000000000000000000000 27d46a88abf6fe2f68796b70bc5fb847f9eb8023 refs/tags/v4.14.207
-0000000000000000000000000000000000000000 75047c63c00ebaf3d6a45c299a42668acc88337d refs/tags/v4.19.158
-0000000000000000000000000000000000000000 1b0f612becbadedf3d7d01ded4f61e7ceaa9c73c refs/tags/v4.4.244
-0000000000000000000000000000000000000000 0a9adaa976d7381e41eda0b2d1fc6fd1df567648 refs/tags/v4.9.244
-0000000000000000000000000000000000000000 a93711503472d4c89977ce2c80dcd4b75e36cc45 refs/tags/v5.10-rc4
-0000000000000000000000000000000000000000 59b9881ae7bb7795afb44687759c40c788bdd546 refs/tags/v5.4.78
-0000000000000000000000000000000000000000 d8175990031f508b7dded2ae106ec44586057f52 refs/tags/v5.9.9
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+3ZigbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PWoP/jJbxLZYL/9UPOIBOa2p
-4N/G0xSthm1twqj5gUOy380V1VqRXLQEDRjf6DUoJhoSZBaQ0z8QQAdCQDA75kOO
-bM9M48zKK3ApncSuQeNsM4OLpHNw2nymR453OvROEjwXBSqoYD7CoQot6hPYlG4W
-nkqQGfj+QEHuzL4DsOYFgu9kQRrP6xxJ359dPkSFuz6P5/nSlv7HXsNX2kZmWftD
-mDNyyKG5Xr6vxfDwPe1sr8++isRyInV/LY8q9fj+lwbm4SGIQVcPGLFht0CqiqFP
-U/e+qGzmQOIB6pgwA+4oS0suTfcm43YU+clTAocrORQavYvD0+GPUWcC24oFseiv
-hTgtQcBxhnuB0R9AivAaRT8nihhj0piMZePWagFKzc77aDEEvJjCH9W7tSt73gjL
-gURYMxrR1uascNPrmCkD2KWRKXbZrX6dFFlzBqXzU6G2KG8gW8X7sEfI0rzPBKdI
-2DOBgo8OgotNMGEy6y5jqGL2/bxiUSR6pKbXIHoeHZ6BtIeYMpFOEB4W0xJYFpwG
-MI9x8d6R56VI2tDKgx5q07yyJeXOkEM7mOFx26zcDFlXBUvMjML6BCyBJVYdRMob
-Sba0QgpsyeHqpDh/Yt/BjapfQxo1StJ7v+6b3UX62yXimQHbmTholhonRwMxjmSG
-ABs85xQJclpuVdZKnSjol2pW
-=xVh4
------END PGP SIGNATURE-----
-
---===============4390212209456607369==--
+--===============7996744755951476443==--
