@@ -1,25 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Fri, 20 Nov 2020 19:58:15 -0000
-Message-Id: <160590229521.26940.174502321435318662@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5831507835934893099=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 20 Nov 2020 19:58:39 -0000
+Message-Id: <160590231936.27120.4372451400656271604@gitolite.kernel.org>
+
+--===============5831507835934893099==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
-user: khilman
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/v5.11/testing
-    old: 3129cb14d1e99d7f80b25108281da37287c141fb
-    new: 5905c2e32a6d9252ec566dcfc5f74e1b69464c7e
+  - ref: refs/heads/master
+    old: e8ac2e9b40a758464b6a8e360dd840935479b953
+    new: 48c1995118741eab177cbf47d22647be87a08ea9
     log: |
-         054a4810b25da3f459d5a5d8cc17dfa27fed078f pinctrl/meson: enable building as modules
-         317f7a74e80eac681179530296916712e1d96973 mmc: meson-mx-sdio: replace spin_lock_irqsave by spin_lock in hard IRQ
-         40a98d492f9d2fd71d459c871d2d227c92abc1d8 reset: meson: make it possible to build as a module
-         41d5f2a840b4a1bf2cf08fd5d364676fceedfc2b reset: make shared pulsed reset controls re-triggerable
-         292c1c5d19aa0dd036f45e70f34edad88a741821 phy: amlogic: phy-meson-gxl-usb2: fix shared reset controller use
-         66a50f1f8a159e566cee08fa3a712a9279a621c1 usb: dwc3: meson-g12a: fix shared reset control use
-         5905c2e32a6d9252ec566dcfc5f74e1b69464c7e phy: amlogic: meson8b-usb2: fix shared reset control use
+         48c1995118741eab177cbf47d22647be87a08ea9 Add very simple dkim key caching
          
+
+--===============5831507835934893099==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1605902318 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1605902318-7bb713ce3678e45128bab9637b7491a6dbbfa80b
+
+e8ac2e9b40a758464b6a8e360dd840935479b953 48c1995118741eab177cbf47d22647be87a08ea9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX7gf7wAKCRC2xBzjVmSZ
+bGxDAPwO5RVBuoCgy9b1SzBVq+yIQrlTYaKKP32TaToiqyq5+wEA6ovDksDQH9bZ
+x9IrEwYTkBri9PLUV/Rg0uQq2sh7DA4=
+=+bER
+-----END PGP SIGNATURE-----
+
+--===============5831507835934893099==--
