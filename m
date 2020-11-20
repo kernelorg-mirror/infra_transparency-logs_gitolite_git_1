@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7996744755951476443=="
+Content-Type: multipart/mixed; boundary="===============2964642780962611017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 20 Nov 2020 06:55:40 -0000
-Message-Id: <160585534088.26380.17250101807802860775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 20 Nov 2020 06:57:31 -0000
+Message-Id: <160585545192.27073.3064241791330531518@gitolite.kernel.org>
 
---===============7996744755951476443==
+--===============2964642780962611017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: c4fc6328d6c67690a7e6e03f43a5a976a13120ef
-    new: 732b764099f651a088fd931d7b8121b6aa84e62e
-    log: revlist-c4fc6328d6c6-732b764099f6.txt
+    old: ea15eb7b9b9df5740cadfb5468e7b1702801fb8f
+    new: 887cd5ae5a632c134522853651f3c1f258acee1f
+    log: |
+         887cd5ae5a632c134522853651f3c1f258acee1f 5.9-stable patches
+         
 
---===============7996744755951476443==
+--===============2964642780962611017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4fc6328d6c6-732b764099f6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-5761498c4d074560b38a203000afc6e971ffaa7f crypto: hisilicon/sec2 - Fix aead authentication setting key error
-3ad99c22cebee84034bc53e42f5115dbc97490e8 crypto: arm64/gcm - move authentication tag check to SIMD domain
-0049a1329bb9569196a551bb658500394d98ed50 crypto: caam/qi - simplify error path for context allocation
-5bdad829c31a09069fd508534f03c2ea1576ac75 crypto: crypto4xx - Replace bitwise OR with logical OR in crypto4xx_build_pd
-a24d22b225ce158651378869a6b88105c4bdb887 crypto: sha - split sha.h into sha1.h and sha2.h
-1201581c57925b8bc2cba8628b61add3d16d4615 crypto: lib/curve25519 - Move selftest prototype into header file
-1dc440355e472a60a98cb4ec9aa5ec56267a96fc crypto: hisilicon/zip - add a work_queue for zip irq
-ff8107200367f4abe0e5bce66a245e8d0f2d229e crypto: omap-aes - Fix PM disable depth imbalance in omap_aes_probe
-e73916f20829be09932326ab0c9627b29df553e8 crypto: qat - target fw images to specific AEs
-6644f49e7b71e13bcc5498d9fea8862c5ce96388 crypto: qat - add hook to initialize vector routing table
-8c8268166e83425243789c5781c92e7fa33b703b crypto: qat - add qat_4xxx driver
-2e0e386af88429ec28fb9ab4531096a370578e97 crypto: kconfig - fix a couple of spelling mistakes
-732b764099f651a088fd931d7b8121b6aa84e62e crypto: sun8i-ce - fix two error path's memory leak
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605855496 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1605855450-890f037860975f69465e3654ac73a3fcfbd2eae2
 
---===============7996744755951476443==--
+ea15eb7b9b9df5740cadfb5468e7b1702801fb8f 887cd5ae5a632c134522853651f3c1f258acee1f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+3aQgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++wsQAKOKWlOWcqREJT181y6p
++HPKNcsax+qEE7DlgXNSzzgkUfV3eGKMI+FVUErmKiQsSpHO8C8+81M2Z55KT5ji
+/0kdXQCCLDMxcH6DJAZPG9u6OIcO+V1Q+30kbNz55n7c3voRdNAXwsvcHQKpPK4l
+Mp6kO/ZjQSkMycgvqnqiv0bXJut8gIbQFjQ+i1OQicalwY+3NCWeKqlwOhcY+Srs
+KNV6EiXfIwPhYkbW4gZuZyGkqO4yeQXyGzdbFY7g+we3Wpl/dZC1OCf97WLHXoaZ
+30lWfp66yF7pb3lQF9V/QI/psliM79CoCTqhn7BBBnOOhr9WH4TGd6pv3pC9rHpo
+B7RW68omo/2Y0pQHmEWMD/F/FB6VwpVjtTKuEGnxdhEbiSO4aSf4Si7ygVckudJZ
++/c3ciezr3h2pE6MUbmbh202QviyDKw9RcyAzHQMvVNhfZthho1zzmLYQgVhx6TQ
+p6jofy88Tf/JPFKmtxttvbc1SgwvgM8TAm+AHbo/Z3h6/kb2kMx8UiUfPZUGfkz7
+fMcT8UNvgj9XqUgRvYioeOnmBkkKRb9JRQfY7PW2+3a4ncuyEXDXp3aC4kROBU3L
+sUZxNbzD95WJq4F5g2Kx3jKyuwwRFOOz527pxcKKevZQU6oPxEnzfwjwEo6T5nWz
+9zinaeUAuyvtvc+UWa5dE1DR
+=Rv17
+-----END PGP SIGNATURE-----
+
+--===============2964642780962611017==--
