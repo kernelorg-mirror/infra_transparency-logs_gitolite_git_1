@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 20 Nov 2020 23:04:12 -0000
-Message-Id: <160591345262.27541.4732790588016952480@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Fri, 20 Nov 2020 23:15:56 -0000
+Message-Id: <160591415693.3064.15633036528829486096@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/ras/ras
+user: aegl
 changes:
-  - ref: refs/heads/master
-    old: 2ed03e5a84cacddfbf2c8e4442b18679c219bb68
-    new: 30abc9cd9c6bdd44d23fc49a9c2526a86fba4305
+  - ref: refs/heads/edac-igen6
+    old: a8a6950bea2389872616425d0e304afe1866498d
+    new: 41545aabff1ef71f83efe56dd4fec91a7fe65027
     log: |
-         30abc9cd9c6bdd44d23fc49a9c2526a86fba4305 net: dsa: avoid potential use-after-free error
+         10590a9d4f23e0a519730d79d39331df60ad2079 EDAC/igen6: Add EDAC driver for Intel client SoCs using IBECC
+         2223d8c781a0c1a8cf26b1d8f13aff84557ecbfc EDAC/igen6: Add debugfs interface for Intel client SoC EDAC driver
+         41545aabff1ef71f83efe56dd4fec91a7fe65027 MAINTAINERS: Add entry for Intel IGEN6 EDAC driver
          
