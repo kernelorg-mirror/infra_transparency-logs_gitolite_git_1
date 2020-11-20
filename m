@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7039798776823298558=="
+Content-Type: multipart/mixed; boundary="===============2272138266865850587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Fri, 20 Nov 2020 03:13:29 -0000
-Message-Id: <160584200965.591.12943796180714185055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
+Date: Fri, 20 Nov 2020 03:13:38 -0000
+Message-Id: <160584201837.697.3027918475765699171@gitolite.kernel.org>
 
---===============7039798776823298558==
+--===============2272138266865850587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
+repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
 user: rostedt
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 6a3494dbae748d4649cd21a818aa226b1073015b
     log: revlist-448b08e49550-6a3494dbae74.txt
 
---===============7039798776823298558==
+--===============2272138266865850587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ d4b5921344ed143bf2686ea9fa39cb6ea146b02f trace-cmd libtraceevent: Fix bprint '#'
 9836b7811458ae4781f76297342f544a38041237 trace-cmd: Parse command lines with spaces
 6a3494dbae748d4649cd21a818aa226b1073015b Fix `make -jN trace-cmd gui`
 
---===============7039798776823298558==--
+--===============2272138266865850587==--
