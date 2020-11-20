@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2023943723375709224=="
+Content-Type: multipart/mixed; boundary="===============0176151805976044177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 20 Nov 2020 10:45:08 -0000
-Message-Id: <160586910819.24837.7468943141702571073@gitolite.kernel.org>
+Date: Fri, 20 Nov 2020 10:45:09 -0000
+Message-Id: <160586910942.24913.742736387965916992@gitolite.kernel.org>
 
---===============2023943723375709224==
+--===============0176151805976044177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,64 +16,64 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 8961076ed318dfd22aa357b41589f07bf67e73b6
-    new: 6334af4e50696e5e03708e10c1da2015a9f37c6a
-    log: revlist-8961076ed318-6334af4e5069.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 315443293a2d0d7c183ca6dd4624d9e4f8a7054a
+    new: ea92920d046bee86876dc51ba95a34d2056cb9a0
+    log: revlist-315443293a2d-ea92920d046b.txt
 
---===============2023943723375709224==
+--===============0176151805976044177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605869151 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605869152 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1605869100-d4ed036f175ecd37121515e95c4b1a5fe9329d47
+nonce 1605869101-fe13601d1f539d3454173d8334a1edd870e3cf92
 
-8961076ed318dfd22aa357b41589f07bf67e73b6 6334af4e50696e5e03708e10c1da2015a9f37c6a refs/heads/linux-4.14.y
+315443293a2d0d7c183ca6dd4624d9e4f8a7054a ea92920d046bee86876dc51ba95a34d2056cb9a0 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+3nl8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XDcQALsO+yN+7VkBiWMNUxxw
-+moE0OYqouiDqE8OcO0tQHcir4ZG5sM5rybwmB6T8RXf9aYpxB1kNY4cj4nNk0ii
-KPb9fGuszhklWv58Sak1fXho5n+ebCuKsKFDB9chduNp4kuAEz68EJLKM8JcmFiJ
-vs9ZthjElQwBhAbVLDC1Ir7R/zjgsCDyXJsVPYK7mBoccWlsk2WFPay72ELsKOHA
-toAMpY78BpLZlr3utR5j6jahgqGmHkchtoL5BWInpztGQMpoUdNmEZwr0Jyzw5WF
-fDyYdipHduN3pnAbYhD0ERqYbE+qFph4AlOfO1KN85fYwAuPcSNUMjev2YAizFb/
-cSRUpE80I5MMGY6/uMCnINcsryWQ5jkbJA5TNhjtn8IJo+R8jMYnQeaDKee3UM2X
-hL1Ocev47jd04lVQK5iJ00do1XUPSqTZOXtVjTz8UcRHvB2pfev4gYbAsdqEwHdh
-ICpNIc+8595cVC+XyHaxpQAVr+cafqmL2NR6L+roIfibBEhRGXFReoyEtnOxChWz
-CIiDVo6ByER0bUzWy0nvbebkRwN6rUx+QpjWyWqfb+vhBS/bBfT6ySzeWgApnY/R
-ybPuem6cBFtlrQB7mQofo692ME2VGCluxsd4fVq+cBz0lYbgW0zmwSdLP3H8eJnu
-csx8JJN4oCOXajdfyfGd5yfJ
-=cjGX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+3nmAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WMUP/jOt4pLU0W98hbcy9ihP
+ywQpTIVbDHOvZ/9pbaWSXqQPrhkj6ZxApePTBzlEhxWS2CvavPcVLb2dzsUYuo0Y
+vhTvd0eVJ/8fjgOkKwYbCpKF9KWGYJVOvcmcs3WbdtvJqqu7E64fAuV0kW+31Y6L
+Ocvu0ArXSEs80tSB3SN8o50YML8o6c7IhU7s36MERgv/jO+ZzNjTaZMuNKR84ibI
+8eASky956DwHtsCcuvEVqictYmHfOIxLw/RHD0vXvCeObBHsp7voWtHADlIurJ+S
+v9tL4eCq2CnXf7no3Fj2SKxwpPif6F2s/Ilha307savJKmYJJXmLg2m5Pjz9HB6l
+cV+03a3RFHRz7IzEzaqwB1CmT0hm/VRJYUXccBmpNTNvPW7tnJ4T4R2emFCvctF2
+DyeUpBfzPZTioCaJlf+qcZH3wvMU7p18qCmmcU0OGCZwXZk7wIUyY1JsB+OmYiwx
+wSrSj/ok+LCdw2HAzU2aTrwQ36yZ/keflo1//TxIaId73WzdMfk683HtkP7ecVBm
+YpRQCSGBpE1OsW2ss+yyvFry4aPOXwFY1+sUnDwvcLrem+Q+uEmX7/gS6ypiYWJ7
+ifQTQLSyjh6cvZZWADEXcptkPjAglwJ6p04ir3BbNjMaKVJGX0FN4dJd24aB1A1s
+DBuJv7RYZ+Y/x7KaIYRe/iIM
+=twUC
 -----END PGP SIGNATURE-----
 
---===============2023943723375709224==
+--===============0176151805976044177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8961076ed318-6334af4e5069.txt
+Content-Disposition: attachment; filename=revlist-315443293a2d-ea92920d046b.txt
 
-507dab786f77b26ff0fa236844cd1664df5882bc powerpc/64s: Define MASKABLE_RELON_EXCEPTION_PSERIES_OOL
-2a7c414fcc11340fffde9367f406ad2e09ebd609 powerpc/64s: move some exception handlers out of line
-f2f678712e34d420a07504840a20e8b76d5f5ed1 powerpc/64s: flush L1D on kernel entry
-7734709fc35f62f125c91fcaed415bbbc769891d powerpc: Add a framework for user access tracking
-3f24afbda4c4663f6ef91ea3b8890bce8f518cd5 powerpc: Implement user_access_begin and friends
-3f5cc232348a29075802a9e869f613d7522e1db6 powerpc: Fix __clear_user() with KUAP enabled
-f23dfd5088fe90737d6c3ceb99bce22741d25cd3 powerpc/uaccess: Evaluate macro arguments once, before user access is allowed
-1f4d539d068a05da2415b1eeeccb57d5b7756bde powerpc/64s: flush L1D after user accesses
-92ebda414f0b1883ac9b96d4dbcb3973d7ba021c i2c: imx: use clk notifier for rate changes
-03c4a8ba5ed92eee7684d5a54c9832363bdc5059 i2c: imx: Fix external abort on interrupt in exit paths
-1573b4e7309dd927f086d323bc233425276435de gpio: mockup: fix resource leak in error path
-2b0a966d5699e6f718443c4faadca45f5009dd66 powerpc/8xx: Always fault when _PAGE_ACCESSED is not set
-a70721c0bd75a8a967e88633fb58f57e372a592c Input: sunkbd - avoid use-after-free in teardown paths
-64b20be5d9fa17f5a1bb9159c055b5cac60040c9 mac80211: always wind down STA state
-1654797c364d3f2c67f983f74e785ead06ca3f3a can: proc: can_remove_proc(): silence remove_proc_entry warning
-5335b67dfc375773b59a7579aa0c43efb81ade3c KVM: x86: clflushopt should be treated as a no-op by emulation
-33dc000353bf42b657586718ae4233532e4e4076 ACPI: GED: fix -Wformat
-6334af4e50696e5e03708e10c1da2015a9f37c6a Linux 4.14.208-rc1
+fcad1f2851bd875ea863c830dfbad93fdbb8c889 selftests/powerpc: rfi_flush: disable entry flush if present
+0cf7e4b6932b2e1d30c45b36f8ca27c2ccc34224 powerpc/64s: flush L1D on kernel entry
+37914e6ef12b43a7daed51b19562f4e304f11177 powerpc/64s: flush L1D after user accesses
+cb090c87063cfb6740e3dbc9d746d9c843f9fc32 powerpc: Only include kup-radix.h for 64-bit Book3S
+2098437c9a65b88c0a97a43712e5626f3f2de714 selftests/powerpc: entry flush test
+353af582ea3204dda08af0e96bcb2579c015bfca MIPS: PCI: Fix MIPS build
+50b4e5dd9366342b188830ee77227ec0dc275837 net/mlx5: Use async EQ setup cleanup helpers for multiple EQs
+1ea3f334f705446ba6e24306f0b6c7790a4392f0 net/mlx5: poll cmd EQ in case of command timeout
+38b8e8359d2c54eac60762f148e3e3f4f0562bcb net/mlx5: Fix a race when moving command interface to events mode
+5fe795a9426f39092b96aa34269abfea0dc433fd net/mlx5: Add retry mechanism to the command entry index allocation
+2e2f634dc42a6ba2cde01865476054624e8f7650 powerpc/8xx: Always fault when _PAGE_ACCESSED is not set
+52e146d21f185f372a5fb0b457f1ba2a6fa44ad6 net: lantiq: Add locking for TX DMA channel
+11833bafe16b37374b3063750e18373985d7c477 Input: sunkbd - avoid use-after-free in teardown paths
+4c6798b75cce2f0b6252e6ef0144a1fa3fac94a4 mac80211: always wind down STA state
+ef8be21fa4afd864892731f2df8008b8b5ebc29d can: proc: can_remove_proc(): silence remove_proc_entry warning
+2a8ba0a575fda22a86270aa0ea1644c0efc2442f KVM: x86: clflushopt should be treated as a no-op by emulation
+2087b5d047cf84496d2ed2fa9f83a359f667445d ACPI: GED: fix -Wformat
+ea92920d046bee86876dc51ba95a34d2056cb9a0 Linux 5.4.79-rc1
 
---===============2023943723375709224==--
+--===============0176151805976044177==--
