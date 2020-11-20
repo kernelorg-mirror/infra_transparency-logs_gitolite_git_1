@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sforshee/wireless-regdb
-Date: Fri, 20 Nov 2020 19:09:01 -0000
-Message-Id: <160589934189.23036.7312144045960380624@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 20 Nov 2020 19:09:12 -0000
+Message-Id: <160589935222.23185.16239674196684962255@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sforshee/wireless-regdb
-user: sforshee
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: f9dfc584fa5c88ced7686917b5bc2bcc67332ced
-    new: c19aad0867baa073e227c4513939a5b598f1d1e6
+    old: dd6028a3cb5da85d6c8ff20a593a7a70d10d650c
+    new: 76483980174c6ff80cc4d02a444f2815073d203d
     log: |
-         c19aad0867baa073e227c4513939a5b598f1d1e6 wireless-regdb: Update regulatory rules for Kazakhstan (KZ)
+         76483980174c6ff80cc4d02a444f2815073d203d octeontx2-af: Fix access of iter->entry after iter object has been kfree'd
          
