@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
-Date: Fri, 20 Nov 2020 23:22:24 -0000
-Message-Id: <160591454490.6779.3643066875899231549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 20 Nov 2020 23:22:30 -0000
+Message-Id: <160591455055.6906.729132373785586538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
-user: ebiederm
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 2dc8abdc1490b077a887cfe5bd7ea7c59fdf6c3a
-    new: f5c06bde8dd8d130b4afe6f0800efd850c6ad4f1
+  - ref: refs/heads/master
+    old: bff453921ae105a8dbbad0ed7dd5f5ce424536e7
+    new: d2624e70a2f53b6f402fdaeabe7db798148618c5
     log: |
-         f5c06bde8dd8d130b4afe6f0800efd850c6ad4f1 signal: define the SA_EXPOSE_TAGBITS bit in sa_flags
+         d2624e70a2f53b6f402fdaeabe7db798148618c5 dpaa2-eth: select XGMAC_MDIO for MDIO bus support
          
