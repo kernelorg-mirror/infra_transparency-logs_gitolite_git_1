@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1507296007810771679=="
+Content-Type: multipart/mixed; boundary="===============6742974436789125141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 20 Nov 2020 03:28:34 -0000
-Message-Id: <160584291419.12620.9481271384285972661@gitolite.kernel.org>
+Date: Fri, 20 Nov 2020 03:28:38 -0000
+Message-Id: <160584291830.12696.17867637404450634756@gitolite.kernel.org>
 
---===============1507296007810771679==
+--===============6742974436789125141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 487ea2eeee3bf90683f56fde111e8d72c7e12211
-    new: 42a90143a687d31c7029f16589e9925a4923efd9
-    log: revlist-487ea2eeee3b-42a90143a687.txt
+  - ref: refs/heads/5.11/scsi-queue
+    old: cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5
+    new: cf4d4d8ebdb838ee996e09e3ee18deb9a7737dea
+    log: revlist-cb2b4e8f5ea6-cf4d4d8ebdb8.txt
 
---===============1507296007810771679==
+--===============6742974436789125141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1605842912 -0500
+pusher 75C5DE3D 1605842916 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1605842912-ef0e302d8b1926de7207a4ccefa297bf301694c6
+nonce 1605842916-5e7af6a7453946f9bb2af2295343be3c910c924e
 
-487ea2eeee3bf90683f56fde111e8d72c7e12211 42a90143a687d31c7029f16589e9925a4923efd9 refs/tags/mkp-scsi-queue
+cb2b4e8f5ea69b6dc0a37ace8c6ffb1854c1f9e5 cf4d4d8ebdb838ee996e09e3ee18deb9a7737dea refs/heads/5.11/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+3N+AACgkQ7ulgGnXF
-3j00gRAAubpNoHRkJkI44E2TS2aK65WjwSWBoLubY/a4d04NVChHLMdHvqjOMbqU
-b3ZwqK5di/FiZCeF3Z/ZCqLR9wPqJlR18K7lBnulCXpIss+Fpk7juMdII3QWWku/
-a2sDlYg5WjBIX44tXW1iMv1/XD82o1CETX+brm3l8V5+j1ozEUm6Q6WwQT8n9ULf
-4PWKIFT79+vee0f+EMc11QO5bMtz1wHh8nbV/yWHTKEy5UTvpcS2Nkv7S49OFWJ3
-OlP2hfUrRK2bfGfzA9qNVtsGKHjoGl6i9BTfl4D4G2EpXcJZIWPZvdGb2AVsEoi9
-ZuO5jiuSqOEMsDCW8G+IruwAgtwmbpo7B/dVKOLgxLQsFwjW+neOfSeQW9JwhSPT
-biPvp9hqHsGa+iD9aPAqc6N38r0mQ0me2l6mJNq9ghQd4kf7tNBqM+zGjWTK5XJS
-M2x+jw2o7RnmNTPMxjz8iBJ4syf67trelqaYIe4Sdpkg9ylqezB5BUco3+EIsIXo
-EISLv1t6m5lSEdh8Xlw3YeGpyUmovTEQT1U2x6Rz020rHnZ0fwIRjRZzKcdLbhK0
-gv5eDpGxqxulepgMzHuP/fMLRrTWdUL3OaM167QzRbCfW5YVZpxWExKbqC4dRLji
-Jnt074ERM9L3IISWkLGpeg2V9k5aNquhV+XLKIXxF9b7sAS9PCo=
-=Jgqd
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+3N+QACgkQ7ulgGnXF
+3j2Mew//am+XN0oJ6FsHV2u5MOpOQV6bGXBlrZdvCoRD8moVOj5+knv6KJlisqU0
+qO2v226/BoMhrL3fNrKdlIqRL8Dso3yYgDrB6sFuRCT1xnAZhocRu+dQm557X59h
+N/H+KPWBNiYQBHv+AxtsI5XdqVFHpCZS7Dz88kUxJv16sxyBmCtuIwYoS5H1q1yT
+DwSTJVOEI6OeeLdrEPf/CG43s8JjMNDhKZYnUeUgA8crjCp+XV9G2Sye06VUk9XT
+GzXMF+RAYrqf6ei+tPRr7nqQBrp2Un2eW2IjSSAnKbV6OEdNWiZg37tB9DEbDFmD
+kK4rgFm/cvmgg6fScYNYgOwsbdWDYLDkZ4h8B5aaic3FrLJuivKfaAthSv9jthKy
+ojpcTGBh4NwRbdTnRKTJUHrbx+aN+182Q0ejv8cLLUYLYRFW7eRRNXaUqF0gDaLs
+pvZWX9XZJYttMVUhG5NZF4JZcVd3Xb9/iVoLKank9lRs9R8ffzf/PG2tGzi8BqpV
+4yyXAG3LiVhggEqVK3n8eBt88NiyUzQs7kbtaIRbME6AWzPkNt5oVNZWbuMxwuyf
+gfqCXkb3fvX/z6NPjoHV7begjuIV3MTe0Jz9KaSABdcx7e+t4YxWH+FIwAktZHMk
+9fkEWiqNqzNqWyWQ3J0SxilM4jNUfPr8Q02TaJVggDcWhDCiB+I=
+=5DHg
 -----END PGP SIGNATURE-----
 
---===============1507296007810771679==
+--===============6742974436789125141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-487ea2eeee3b-42a90143a687.txt
+Content-Disposition: attachment; filename=revlist-cb2b4e8f5ea6-cf4d4d8ebdb8.txt
 
 2e4209b3806cda9b89c30fd5e7bfecb7044ec78b scsi: core: Fix VPD LUN ID designator priorities
 16d6317ea438b10c5747f5d4a972ea0e68d1a6ae scsi: core: Replace while-loop by for-loop in scsi_vpd_lun_id()
@@ -95,4 +95,4 @@ e1e25d1b89967035059cf8e098270cc3300b5bd9 scsi: ufs: ufs-mediatek: Use common ADA
 d9fa1e731e243525861517ba256b179072070c1d scsi: ufs: ufs-qcom: Use common ADAPT configuration function
 cf4d4d8ebdb838ee996e09e3ee18deb9a7737dea scsi: qla4xxx: Remove redundant assignment to variable rval
 
---===============1507296007810771679==--
+--===============6742974436789125141==--
