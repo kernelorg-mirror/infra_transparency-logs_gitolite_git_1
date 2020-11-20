@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2980807222202422967=="
+Content-Type: multipart/mixed; boundary="===============2455146604851792205=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 20 Nov 2020 13:07:32 -0000
-Message-Id: <160587765275.26991.13876365266809366613@gitolite.kernel.org>
+Date: Fri, 20 Nov 2020 13:07:53 -0000
+Message-Id: <160587767356.27245.17470414965743618644@gitolite.kernel.org>
 
---===============2980807222202422967==
+--===============2455146604851792205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 5409905783d5859842826d837122cd13508dbbea
+  - ref: refs/heads/auto-latest
+    old: f946a5e7c6b812d24f80670dd999e14b15b78ef0
     new: 6d4d56573fae75bf0f878d0fcf564e5709ea117b
-    log: revlist-5409905783d5-6d4d56573fae.txt
+    log: revlist-f946a5e7c6b8-6d4d56573fae.txt
 
---===============2980807222202422967==
+--===============2455146604851792205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5409905783d5-6d4d56573fae.txt
+Content-Disposition: attachment; filename=revlist-f946a5e7c6b8-6d4d56573fae.txt
 
 83c2da2e605c73aafcc02df04b2dbf1ccbfc24c0 context_tracking: Introduce HAVE_CONTEXT_TRACKING_OFFSTACK
 179a9cf79212bb3b96fb69a314583189cd863c5b context_tracking: Don't implement exception_enter/exit() on CONFIG_HAVE_CONTEXT_TRACKING_OFFSTACK
@@ -41,7 +41,9 @@ b19a888c1e9bdf12e0d8dd9aeb887ca7de91c8a5 sched/core: Fix typos in comments
 31f6a8c0a471be7d7d05c93eac50fcb729e79b9d sched/topology,schedutil: Wrap sched domains rebuild
 ecec9e86d1a366f97c827ab4a8134ec06ccf031a arm64: Rebuild sched domains on invariance status changes
 fa50e2b452c60cff9f4000de5b372a61d6695c26 sched/topology: Condition EAS enablement on FIE support
+bab202ab87ba4da48018daf0f6810b22705a570d x86/mm: Declare 'start' variable where it is used
+5409905783d5859842826d837122cd13508dbbea Merge branch 'x86/cleanups'
 31c26f86a7a2ae592177b5726e18256d77a245e5 Merge branch 'sched/core'
 6d4d56573fae75bf0f878d0fcf564e5709ea117b Merge branch 'core/entry'
 
---===============2980807222202422967==--
+--===============2455146604851792205==--
