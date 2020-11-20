@@ -1,49 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2673074441631594064=="
+Content-Type: multipart/mixed; boundary="===============4715280037841453239=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Fri, 20 Nov 2020 19:12:19 -0000
-Message-Id: <160589953958.25823.14452580765569152784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Fri, 20 Nov 2020 19:12:28 -0000
+Message-Id: <160589954856.25986.8075574552574176696@gitolite.kernel.org>
 
---===============2673074441631594064==
+--===============4715280037841453239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/mellanox/linux
+user: saeed
 changes:
-  - ref: refs/heads/objtool-vmlinux
-    old: 7e78b3c1cd3d93bd4e3e20c440357d6b6469ba6c
-    new: 10141b99527a5239dd4cd5c352534171700d7fe4
-    log: revlist-7e78b3c1cd3d-10141b99527a.txt
+  - ref: refs/heads/queue-rc
+    old: b716f54c4bf71aa06bb3a1a5292f5bc74871a05d
+    new: 4613f3a658027e7e2548e0ba59662852d893594e
+    log: revlist-b716f54c4bf7-4613f3a65802.txt
 
---===============2673074441631594064==
+--===============4715280037841453239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e78b3c1cd3d-10141b99527a.txt
+Content-Disposition: attachment; filename=revlist-b716f54c4bf7-4613f3a65802.txt
 
-6abfd4899d886f1b02d1a06961378e9562e78479 objtool: Fix seg fault in BT_FUNC() with fake jump
-979230f459bb6f907015535997b7acb2ab5c6378 objtool: Fix error handling for STD/CLD warnings
-d0eb191eae12f46b33c536553e6591e5a9dd03cc objtool: Fix retpoline detection in asm code
-e2d4040b16c611ad20c10b44b3f8bfff062688e0 objtool: Fix ".cold" section suffix check for newer versions of GCC
-15c219c0f127f9a8baaecf643514e9c4520cab28 objtool: Support retpoline jump detection for vmlinux.o
-7a52a0a23ff3e0cee7b939d8feaf64be5fc8dcc1 x86/ftrace: Add UNWIND_HINT_FUNC annotation for ftrace_stub
-185659a3ccd252ccf9fe687f896a773aebeb0f56 objtool: Assume only ELF functions do sibling calls
-e3bc36ca1ebff20a7d762b461002480def1d2eae objtool: Add asm version of STACK_FRAME_NON_STANDARD
-e09c8a4ae72e38071087a64d5e7a0f7079f746b4 objtool: Combine UNWIND_HINT_RET_OFFSET and UNWIND_HINT_FUNC
-99d74c06194885a0794183e2e34160b5b1ed3d88 x86/ftrace: Support objtool vmlinux.o validation in ftrace_64.S
-62aa2bd985e867ceecccfedcc0d933b38f0cd62b x86/acpi: Convert indirect jump to retpoline
-24bcc1a6e432e144d8656bccbf022cfeab2082b7 x86/acpi: Support objtool validation in wakeup_64.S
-f7eb19e19c8e6951a9e8926d998afce87ecaa145 x86/power: Convert indirect jumps to retpolines
-970ec7a25e0b5584c2ff95f47dc8f147321edd66 x86/power: Move restore_registers() to top of the file
-13ce053d9a6818b993b089bd61be8ca99dd38cce x86/power: Support objtool validation in hibernate_asm_64.S
-22fc10b3ff2b989332de0c782685117ba7c9c387 x86/xen: Support objtool validation in xen-asm.S
-45e8743880c19df78ad29b0e8dabb4502707c2f1 x86/xen: Support objtool vmlinux.o validation in xen-head.S
-811a083896dbab51b1a94b452ec5d14698a0abc1 x86/xen/pvh: Convert indirect jump to retpoline
-10141b99527a5239dd4cd5c352534171700d7fe4 objtool: Add xen_start_kernel() to noreturn list
+1350ef3561990d8d403076692afaae2e5dc3bc99 net: Disable NETIF_F_HW_TLS_TX when HW_CSUM is disabled
+9ce874464533736fb37535eb9e8e85c14ee26075 net/mlx5e: Fix refcount leak on kTLS RX resync
+fe844d6572b720ae9789bbe9f6a4b0ccae3714eb net/tls: Protect from calling tls_dev_del for TLS RX twice
+d199812b41184f2de8ad3e0d39a1513e64036c5b net/mlx5e: E-Switch, Offload all chain 0 priorities when modify header and forward action is not supported
+2db6717ebb254facc15b7a68af76d9e2eb05c2ea net/mlx5e: Set IPsec WAs only in IP's non checksum partial case.
+941bbaa27f0f158d4c138da36a5b1798d1b5c9cc net/mlx5e: Fix IPsec packet drop by mlx5e_tc_update_skb
+ada23ee3cf098742428b3df7a8126bbd57848f45 net/mlx5e: Fix check if netdev is bond slave
+54fba7f11411a62e7e34f9b5aa2e8f14d6b3a6fc net/mlx5: Add handling of port type in rule deletion
+c71cec302d7c8df0fb377fa3f23d17c724d9b3ad net/mlx5: Clear bw_share upon VF disable
+ecd2c50d4b8eb25d959d9c4a9d11db842a9b508e net/mlx5: Disable QoS when min_rates on all VFs are zero
+347231f654d09f054aaf6be94fe5398b6ecd5185 net: Call skb destructor on NAPI_GRO_FREE_STOLEN_HEAD
+c2c4442e811f23187dbf0e0f938a7717202d8105 net/mlx5: E-Switch, Fail mlx5_esw_modify_vport_rate if qos disabled
+66283858bf01de3ccb19c27e07cb098500246171 net/mlx5: fix error return code in mlx5e_tc_nic_init()
+49736ebba632e0238802b12d8eccb76d36f51f1c net/mlx5: Fix wrong address reclaim when command interface is down
+d443de8977494b092a32919c70ed40dd6229939f Merge commit 'refs/changes/48/344848/7' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
+473d443321d4dad768f6d3600720d1925b6ea4dc Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
+1cca1138813e49b298efec7e17aabe42e994abb3 Merge branch 'net-mlx4' into net-rc
+a6b661e1ad7a3d66f31aede563de41bc89e9b942 Merge branch 'net-mlx5' into net-rc
+fd1b4fc6e4aa030c8765f6e2adb41f8fbb349162 Merge branch 'net-mlx5-test' into net-rc
+0c2dafb46d705b9dfbd5c10c3d26d390700f509e Merge branch 'net-rc' into queue-rc
+4613f3a658027e7e2548e0ba59662852d893594e Merge branch 'testing/rdma-rc' into queue-rc
 
---===============2673074441631594064==--
+--===============4715280037841453239==--
