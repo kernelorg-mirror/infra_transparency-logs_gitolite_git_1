@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Fri, 20 Nov 2020 12:45:35 -0000
-Message-Id: <160587633560.11981.536347145498266171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Fri, 20 Nov 2020 12:57:32 -0000
+Message-Id: <160587705234.20975.16239581596945211588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
-user: linusw
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/ux500-golden-v5.10-rc1
-    old: 81670dc537f140236bb5d36f274e8013e4d123b8
-    new: 44735a83d03333b2f553240a255dddda226961a9
+  - ref: refs/heads/testing/clang-ft/for-next
+    old: 4785df3608c3ae5eab604cc067dd1c34d2176c79
+    new: 1d2b5fb7c5e73e8bb6d4f5e8950feef98d3f28e6
     log: |
-         55b63d5d6067e3539847e48c5d54b2adbdd6f19f Input: atmel_mxt_ts - Fix up inverted RESET handler
-         4447d44b627310a99b92ef51f1aeaf541819eaca Input: atmel_mxt_ts - Convert bindings to YAML and extend
-         8e35ce2ab20dc4caa75d54be0766e3c023d5e21e Input: atmel_mxt_ts - Support regulator supplies
-         44735a83d03333b2f553240a255dddda226961a9 ARM: dts: ux500-golden: Add proper supplies to touchscreen
+         1d2b5fb7c5e73e8bb6d4f5e8950feef98d3f28e6 Input: libps2 - Fix fall-through warnings for Clang
          
