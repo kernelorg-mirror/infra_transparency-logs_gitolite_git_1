@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 20 Nov 2020 16:49:12 -0000
-Message-Id: <160589095255.20132.11627756000505390632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nsaenz/linux-rpi
+Date: Fri, 20 Nov 2020 16:49:45 -0000
+Message-Id: <160589098571.20392.18366992327344919188@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/nsaenz/linux-rpi
+user: nsaenz
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: bab202ab87ba4da48018daf0f6810b22705a570d
-    new: 61b39ad9a7d26fe14a2f5f23e5e940e7f9664d41
-    log: |
-         61b39ad9a7d26fe14a2f5f23e5e940e7f9664d41 x86/head64: Remove duplicate include
-         
+  - ref: refs/tags/bcm2835-dt-next-2020-11-20
+    old: 0000000000000000000000000000000000000000
+    new: 57d6bfb89868ab989df33bfffc90b64615048f0e
