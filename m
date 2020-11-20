@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Fri, 20 Nov 2020 16:53:07 -0000
-Message-Id: <160589118701.23394.8774210860203216719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Fri, 20 Nov 2020 16:55:35 -0000
+Message-Id: <160589133506.27733.9935890278819701094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/icc-fixes
+  - ref: refs/heads/pci/rcar
     old: 0000000000000000000000000000000000000000
-    new: 017496af28e2589c2c2cb396baba0507179d2748
+    new: 6e8e137abeaba31d48a9d385a8a425cfab4125a4
