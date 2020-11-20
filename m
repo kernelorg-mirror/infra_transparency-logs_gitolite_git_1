@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4951568633962834071=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 20 Nov 2020 10:28:59 -0000
-Message-Id: <160586813946.13170.82026182840391247@gitolite.kernel.org>
-
---===============4951568633962834071==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Fri, 20 Nov 2020 10:31:27 -0000
+Message-Id: <160586828762.15538.13645354027211050515@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: 6ab558f0acdbcd08d8121120fc9f2c61cbc5d2aa
-    new: 49ad47d3a329ee146ae3f2faec903412f4730ee7
+  - ref: refs/heads/next
+    old: 36a94760c98954e50ea621f7a9603fee3621deb7
+    new: 864788c00fd75d76c1e3183ab54fcf4fac22f3b7
     log: |
-         49ad47d3a329ee146ae3f2faec903412f4730ee7 4.19-stable patches
+         e1404d203139d871946df9091a6e042b1154bd63 dt-bindings: phy: add Amlogic AXG MIPI D-PHY bindings
+         450889074f4fafaff0ea82c2c4c7e0a93b3cd5c7 dt-bindings: phy: amlogic,meson-axg-mipi-pcie-analog: remove reg attribute
+         76aefb221146dbe0de124f566329c76d5dcf118a phy: amlogic: Add AXG MIPI D-PHY driver
+         87c3cdecb3d5150270f1529ac140e7d0c192ba9d dt-bindings: phy: amlogic,meson-axg-mipi-pcie-analog: remove phy cell parameter
+         8eff8b4e22d9885f1509a68bf9a7cc1961c5dee4 phy: amlogic: phy-meson-axg-mipi-pcie-analog: add support for MIPI DSI analog
+         864788c00fd75d76c1e3183ab54fcf4fac22f3b7 dt-bindings: phy: phy-stm32-usbphyc: convert bindings to json-schema
          
-
---===============4951568633962834071==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1605868183 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1605868136-5a2bc2cb2c1233fec0192c9b125f06b646eeb16d
-
-6ab558f0acdbcd08d8121120fc9f2c61cbc5d2aa 49ad47d3a329ee146ae3f2faec903412f4730ee7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+3mpcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kUwQAMgTWg9aTbJ1sVRoSPyo
-qhXl6QBiU1e1qDdaskNj2ZwrTTITixy0KmchStLFGiw1eC4DuhkLOIUHDVsdFCAD
-j1eHMVAsYjY96COrcVFHUOiqDDJDN2EoM+664tg5bXKwLED/TWH+n+iNGa0i6/H9
-THE78WcY32N89tPNHM/TMIMgr3TatsEn7csCHHHBr5YHNz/swN0YCpdFrKMBgN0X
-XtRd4FiX5W7RJRTDKL3BzjRNLA4jmRhDKa3lYycI3Pmfmk9Fpbv1fe1tukH24IOX
-PqAgGeut4Y1CoOgukQubsqv1Qekb+jXsD9bdL9pPE8pRd2BB0uhM6TY8Omy43P2m
-Bjh2EObAElamsxC0bp0aSRg0h9QpUyy+7wQsifsiYzKLqO63mNdRHJSWzATZsw45
-dnRMUu9rIet41nr/VSGCsS+yGHFazjzC8J6BEA56/qQHk9mo11YCHMRQl6AV5Ed9
-RjouL3Ekizv1YK7mmbnGcVUWur3MNQsQpFe2ERFZIkiNDEuwtWAi4O/O6P2Q9Hl5
-WF3zbCVEvvg/Kby7c/37LE2DeklevYK0dSY68v+oww8p+kHuhLNooEfLciMk9KfD
-OSi9XRTeZCCGUNomwjbJVEMbdxjcyWqmaL/nwOSr2I3lM8ByfOVpuyMWZbKmExZz
-ezxTPDMdHaYEJPYtNcLbXm+u
-=yYsL
------END PGP SIGNATURE-----
-
---===============4951568633962834071==--
