@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8747333627005580771=="
+Content-Type: multipart/mixed; boundary="===============5333586015487697021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 20 Nov 2020 09:22:04 -0000
-Message-Id: <160586412489.12238.13237074756360405040@gitolite.kernel.org>
+Date: Fri, 20 Nov 2020 09:23:54 -0000
+Message-Id: <160586423457.15353.17765763678340191839@gitolite.kernel.org>
 
---===============8747333627005580771==
+--===============5333586015487697021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,116 +16,127 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 79db18f085c99273419953a6557a8d2facc0a9c3
-    new: d5e9bf8253b66303c834357173d43f6ebd88271e
-    log: revlist-79db18f085c9-d5e9bf8253b6.txt
+    old: d5e9bf8253b66303c834357173d43f6ebd88271e
+    new: 4a01d9703542516d4bd3661310ca487bdaddf950
+    log: revlist-d5e9bf8253b6-4a01d9703542.txt
   - ref: refs/heads/queue/4.19
-    old: 062c323df42032143a3496f3e6237f507f31300c
-    new: f525af3782a543796bdd57bf8a6abad6b455069c
+    old: f525af3782a543796bdd57bf8a6abad6b455069c
+    new: 8995d6118c62d74cf71355227d11fc5b7461de30
     log: |
-         3816113aa20dc9686e8161df7eb8c080a997d987 powerpc/64s: move some exception handlers out of line
-         c1dbe04de35fa6c1f2c6a18f1bbe6fd8c112dd1d powerpc/64s: flush L1D on kernel entry
-         8434bf99a13bca1d502e596bf2a7aa96acd84d30 powerpc: Add a framework for user access tracking
-         5d196dfa1035fa14a3cd7944832e7a4f6ab54175 powerpc: Implement user_access_begin and friends
-         8e76c3389b5c5322e78213558f26d170bd14b3e3 powerpc: Fix __clear_user() with KUAP enabled
-         ef4dbde6aca2b197e4d5f897cef5df5de442f682 powerpc/uaccess: Evaluate macro arguments once, before user access is allowed
-         042ee5e6ec922cb18413052c686130ce8c2eb719 powerpc/64s: flush L1D after user accesses
-         67cd19c4a4c254fbfe3b946808aa4b5776fd4bad Revert "perf cs-etm: Move definition of 'traceid_list' global variable from header file"
-         7ac36061f0a78efd6bc8e5a177b268e8cac42da5 powerpc/8xx: Always fault when _PAGE_ACCESSED is not set
-         f525af3782a543796bdd57bf8a6abad6b455069c Input: sunkbd - avoid use-after-free in teardown paths
+         9318e40e65db6f166d346bd30cb120148a474a64 powerpc/64s: move some exception handlers out of line
+         ad42b0326a6727793250abb0c27e766f576e54ed powerpc/64s: flush L1D on kernel entry
+         fea4f5c0afcb988ae866ff029fa7fea40da1088d powerpc: Add a framework for user access tracking
+         d618abc4b897170a07750f0ccc5bde9d75276b15 powerpc: Implement user_access_begin and friends
+         015f24128873b834aff024dfdaf0b0f9d0a54de8 powerpc: Fix __clear_user() with KUAP enabled
+         373051f381bcc307305d8b31879d33a47c5db32a powerpc/uaccess: Evaluate macro arguments once, before user access is allowed
+         15511839428ae509b325ef1b7b200d2cd21725d3 powerpc/64s: flush L1D after user accesses
+         30df22a9cbb0eaa148c64618a4ad771aedd0c894 Revert "perf cs-etm: Move definition of 'traceid_list' global variable from header file"
+         6ea986042564875adfb816af313aa21baea12c37 powerpc/8xx: Always fault when _PAGE_ACCESSED is not set
+         8995d6118c62d74cf71355227d11fc5b7461de30 Input: sunkbd - avoid use-after-free in teardown paths
          
   - ref: refs/heads/queue/4.4
-    old: cc01a50025198d496f8b406163fff9e28417decf
-    new: 89541f1e617dfe5400d46fd6d7a930eabda91da3
-    log: revlist-cc01a5002519-89541f1e617d.txt
+    old: 89541f1e617dfe5400d46fd6d7a930eabda91da3
+    new: d19a0e464e02c7ae70d10a402144e4ac9f277a6b
+    log: revlist-89541f1e617d-d19a0e464e02.txt
   - ref: refs/heads/queue/4.9
-    old: ce22d34dacbbe7a31a5f311f594d8562e773e01b
-    new: b9cb5f94ae01008d08b0758ca7cd8a53aa412405
-    log: revlist-ce22d34dacbb-b9cb5f94ae01.txt
+    old: b9cb5f94ae01008d08b0758ca7cd8a53aa412405
+    new: 7fb6fc1e816970b858a8a10c0817816810b1d568
+    log: revlist-b9cb5f94ae01-7fb6fc1e8169.txt
   - ref: refs/heads/queue/5.4
-    old: f3b161b22bd2987f6df7ba7c0ffe6b8cd38cf280
-    new: d517d38496fb4bc92588c4dbd0739eb795784304
-    log: |
-         55cf2a36bee45a40e4ad63fae3f957a16ae20eb4 selftests/powerpc: rfi_flush: disable entry flush if present
-         cd1116d1f76b034ab6ecfa5880022e92403c9edc powerpc/64s: flush L1D on kernel entry
-         053a3b7bb91b2175a240e992430b02d3d85ea9b0 powerpc/64s: flush L1D after user accesses
-         b759bf23869b724082ce7f18bfbd0e0c9196add6 powerpc: Only include kup-radix.h for 64-bit Book3S
-         d2ad5c04a8a16d5ff4c9d3a890bd0d6d0be7e288 selftests/powerpc: entry flush test
-         41f7b32c31ee33c3f06d76cb0123a461237103c6 MIPS: PCI: Fix MIPS build
-         501c9a32fff42df67203af9942b720914037be5b net/mlx5: Use async EQ setup cleanup helpers for multiple EQs
-         cc153960910301e551c36be609a9a6944769c7d5 net/mlx5: poll cmd EQ in case of command timeout
-         83fcbb322e1210666b001f00bf1feca27d01c89b net/mlx5: Fix a race when moving command interface to events mode
-         d517d38496fb4bc92588c4dbd0739eb795784304 net/mlx5: Add retry mechanism to the command entry index allocation
-         
+    old: d517d38496fb4bc92588c4dbd0739eb795784304
+    new: 81acf0f7c6ece419fd576ecc124c7c64a2ecbc19
+    log: revlist-d517d38496fb-81acf0f7c6ec.txt
   - ref: refs/heads/queue/5.9
-    old: 6486fcd54e23fa7836ba92e2560a011afdb47268
-    new: b7ccac6d8d1fcb3e1846431af65fabc6626ea214
+    old: b7ccac6d8d1fcb3e1846431af65fabc6626ea214
+    new: cefc53bdc5c38556460cba69a2ef55abd6bd7189
     log: |
-         b93e67106e361686b8243ecdc4e362d94fb0cdbf selftests/powerpc: rfi_flush: disable entry flush if present
-         3756e5839145e44d17c7241ed19a2c2d75b65ab0 powerpc/64s: flush L1D on kernel entry
-         193892b4a1fc2de25c7c4fad6f0cc06c551c8f6d powerpc/64s: flush L1D after user accesses
-         5c1389e562414bae39a136a503c3fa7a50147114 powerpc: Only include kup-radix.h for 64-bit Book3S
-         b7ccac6d8d1fcb3e1846431af65fabc6626ea214 selftests/powerpc: entry flush test
+         40e2f337e63c7d4767b2e5be28671c3e37c02029 selftests/powerpc: rfi_flush: disable entry flush if present
+         8e10971908cc92cb3a8b46746e2023d8e0050971 powerpc/64s: flush L1D on kernel entry
+         51d76bd9ac7fc1526cb25307cb574654a1c9ccfd powerpc/64s: flush L1D after user accesses
+         3dc76cc6db7d365b82c53e3d26cf7363699f8a24 powerpc: Only include kup-radix.h for 64-bit Book3S
+         c62782247dcf38205fafce1270cecd48ab399f6f selftests/powerpc: entry flush test
+         a9ef2cb0db70a8771c25e66417791332fba7e905 leds: lm3697: Fix out-of-bound access
+         cefc53bdc5c38556460cba69a2ef55abd6bd7189 Input: sunkbd - avoid use-after-free in teardown paths
          
 
---===============8747333627005580771==
+--===============5333586015487697021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79db18f085c9-d5e9bf8253b6.txt
+Content-Disposition: attachment; filename=revlist-d5e9bf8253b6-4a01d9703542.txt
 
-2b34d1d77e4ddd3325b509aa8f8872c1408e6382 powerpc/64s: Define MASKABLE_RELON_EXCEPTION_PSERIES_OOL
-4ddb93363e18ff26106b4101a46e7abc59e720d5 powerpc/64s: move some exception handlers out of line
-090f2ab4bbba8e43c05d14326c33577a0a2dddd2 powerpc/64s: flush L1D on kernel entry
-95178b4807d7cad7ebe6c6b0d2dcd2e43cbe6201 powerpc: Add a framework for user access tracking
-36dc2620f263770f6fd0eb16a3c9aa9a17448502 powerpc: Implement user_access_begin and friends
-4f4a4ecb7bd3511b699941370fa50afea05f1535 powerpc: Fix __clear_user() with KUAP enabled
-b711d7f8b86d832a99d1e62e9a4a85e40a4d0099 powerpc/uaccess: Evaluate macro arguments once, before user access is allowed
-e21d5658b597d2653755e380743fd04bbffeb778 powerpc/64s: flush L1D after user accesses
-7c7ae484dc0db2c2fff2442cc81c9eee49254064 i2c: imx: use clk notifier for rate changes
-9da736a8fe3eca0247262a946ae7b4d234f3d18e i2c: imx: Fix external abort on interrupt in exit paths
-5a1b791135b86eff7f35ad1fa0c81ffe19a92d9f gpio: mockup: fix resource leak in error path
-f1ab6661e7deb406c8cf917d7872e50a7c568a07 powerpc/8xx: Always fault when _PAGE_ACCESSED is not set
-d5e9bf8253b66303c834357173d43f6ebd88271e Input: sunkbd - avoid use-after-free in teardown paths
+880226dc5788374c236a88ab112f08f2c6008b06 powerpc/64s: Define MASKABLE_RELON_EXCEPTION_PSERIES_OOL
+40f314290030792c8f4728df79b1e4739a96f75f powerpc/64s: move some exception handlers out of line
+a8b368708e970ed4ee9c63b39605837d10ab3572 powerpc/64s: flush L1D on kernel entry
+a3cc4ea23962e89dddaa6b24412e296258c28158 powerpc: Add a framework for user access tracking
+59c82a84190f4caa8e225c882c1298c837ba3887 powerpc: Implement user_access_begin and friends
+76dc08ddf0f6aa9f7a56e5aa3ce95951d1898f22 powerpc: Fix __clear_user() with KUAP enabled
+16aff32d6dfca4d1f65056e40742583c25863515 powerpc/uaccess: Evaluate macro arguments once, before user access is allowed
+6da00846495157e7f0fd39d1c3fb05f29b7b82a5 powerpc/64s: flush L1D after user accesses
+bab796f2089182e7fb2a81b14fe7edfc30efb4a8 i2c: imx: use clk notifier for rate changes
+ed901637ef5127da65f3b3b513d6c19afa4593b9 i2c: imx: Fix external abort on interrupt in exit paths
+9b306eb99e670199d23390d223583a46a7ac88e2 gpio: mockup: fix resource leak in error path
+f6af2f122ca1138fff2ae6c6f1ee0f55c4fa152e powerpc/8xx: Always fault when _PAGE_ACCESSED is not set
+4a01d9703542516d4bd3661310ca487bdaddf950 Input: sunkbd - avoid use-after-free in teardown paths
 
---===============8747333627005580771==
+--===============5333586015487697021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc01a5002519-89541f1e617d.txt
+Content-Disposition: attachment; filename=revlist-89541f1e617d-d19a0e464e02.txt
 
-4690e5f5dcfe9882e89a681bcf6efe4481431ae9 powerpc/64s: Define MASKABLE_RELON_EXCEPTION_PSERIES_OOL
-d957a2fe7faab7bc965eb3245f3ff99f0939369e powerpc/64s: move some exception handlers out of line
-c2ae470e6637c3570036236dc1b75eaffc5c660b powerpc/64s: flush L1D on kernel entry
-78fcee050ebfb13afd54ebf9aff32c5644f1c777 powerpc: Add a framework for user access tracking
-061be379b920e4c8f43453231d941f2ffaf40db1 powerpc: Implement user_access_begin and friends
-d41a7a1e1f32e8aa7d90ff746fb44a258a1f3153 powerpc: Fix __clear_user() with KUAP enabled
-47f7f26f63e014cbf42220465cd30f57f7ca5949 powerpc/uaccess: Evaluate macro arguments once, before user access is allowed
-45c371607b47d2648d87a7aa42ef90083babc4f3 powerpc/64s: flush L1D after user accesses
-3d23b16b9f4e84443032b71c02f843196a0997fa i2c: imx: Fix external abort on interrupt in exit paths
-0ad299293785b7250bb3195519906038b73ec59c xfs: catch inode allocation state mismatch corruption
-ef2236bbc83a2de43431651fd8cd1a53bcdfaffa xfs: validate cached inodes are free when allocated
-3416c27868fd18ea821c3a73f039ca95289c2b0d powerpc/8xx: Always fault when _PAGE_ACCESSED is not set
-89541f1e617dfe5400d46fd6d7a930eabda91da3 Input: sunkbd - avoid use-after-free in teardown paths
+1172078644109df4f212969bfc478051714427e6 powerpc/64s: Define MASKABLE_RELON_EXCEPTION_PSERIES_OOL
+f906d4eb24d3dfe79499be70a92b660193e68736 powerpc/64s: move some exception handlers out of line
+251d87943adb9652bfb89fd02e35181777c78867 powerpc/64s: flush L1D on kernel entry
+1744e5949ab6e14b801b335d9dabedc59e2fa251 powerpc: Add a framework for user access tracking
+f232f447d02986b823c6f9c35e431054f060fa6b powerpc: Implement user_access_begin and friends
+091f9775078b43e5faee9c1cdc99593641cd8b73 powerpc: Fix __clear_user() with KUAP enabled
+d79f15ff37c6c7dbe264f3688087d77352e5bd8b powerpc/uaccess: Evaluate macro arguments once, before user access is allowed
+853e72b08c6320802390507f83e916d53fe0e7c7 powerpc/64s: flush L1D after user accesses
+4c8ac5b4f02ef9d87e20c741d8476a20aa7653e3 i2c: imx: Fix external abort on interrupt in exit paths
+11cf7477e3f3fad85d128677d9ae4d56df97abc7 xfs: catch inode allocation state mismatch corruption
+f7d987b6c13ed1cbde164818f36a5954b17a4ded xfs: validate cached inodes are free when allocated
+00616bbadf8417b3df259a1f40a09b220a87f430 powerpc/8xx: Always fault when _PAGE_ACCESSED is not set
+d19a0e464e02c7ae70d10a402144e4ac9f277a6b Input: sunkbd - avoid use-after-free in teardown paths
 
---===============8747333627005580771==
+--===============5333586015487697021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce22d34dacbb-b9cb5f94ae01.txt
+Content-Disposition: attachment; filename=revlist-b9cb5f94ae01-7fb6fc1e8169.txt
 
-dff2b684d8a24782f40870ede389bdfa7c94e8fc powerpc/64s: Define MASKABLE_RELON_EXCEPTION_PSERIES_OOL
-69ab4e6bf86fedbc29e6c39caafc18e468af862a powerpc/64s: move some exception handlers out of line
-51afaa54eb4bbbe5fd3afe767b53b5d728cc4735 powerpc/64s: flush L1D on kernel entry
-9e940170efd63cdcd8e2cb0db5e37d5fe930183c powerpc: Add a framework for user access tracking
-b09739d26f255f7c5e44724909d04ffbad4bab99 powerpc: Implement user_access_begin and friends
-521af3994c58fab6e0e1f34c6ea412a15113cab6 powerpc: Fix __clear_user() with KUAP enabled
-99f10811ac1d3237051df1a8eb47ac4bd6d52d52 powerpc/uaccess: Evaluate macro arguments once, before user access is allowed
-0f70609627ac66447df0e2ef7762b5669a33be3d powerpc/64s: flush L1D after user accesses
-0b84fe4e278a9f41a35e057d04c55152d280f39f i2c: imx: use clk notifier for rate changes
-3fc81350657c5367a547a3421c6f93a6a522acd1 i2c: imx: Fix external abort on interrupt in exit paths
-71f4d2cddbfb8abce02b7d39fb4cfde68aca3588 i2c: mux: pca954x: Add missing pca9546 definition to chip_desc
-807ca041336c3eeb620fdd7dc60c26cae535e42f powerpc/8xx: Always fault when _PAGE_ACCESSED is not set
-b9cb5f94ae01008d08b0758ca7cd8a53aa412405 Input: sunkbd - avoid use-after-free in teardown paths
+f240bc5060f18fb3669dae4d47b8c3ef9261b72b powerpc/64s: Define MASKABLE_RELON_EXCEPTION_PSERIES_OOL
+3991ede0fa05e89227b0fb16c5a255236756a533 powerpc/64s: move some exception handlers out of line
+5f2215a17fe59516a82c2a8daa18ee07014d1235 powerpc/64s: flush L1D on kernel entry
+463d214551cfac82d083c343c54bb02c0a12d0d8 powerpc: Add a framework for user access tracking
+2c72e4211d4166a54c42dbf7e7d6942a8ae0271d powerpc: Implement user_access_begin and friends
+0a8bb6594c0dea043bf431c028a1333ae890f002 powerpc: Fix __clear_user() with KUAP enabled
+ac68f10d89e191c686fb21340d802b40f3bf55ea powerpc/uaccess: Evaluate macro arguments once, before user access is allowed
+cd27f6be19931e0f8cbcbd1f228575ab4afdb81b powerpc/64s: flush L1D after user accesses
+a24c9491a13dee2c80d383efd42c47d0657f9dd5 i2c: imx: use clk notifier for rate changes
+77e48b0e0d30a3d89c848341165dff85ba5b9770 i2c: imx: Fix external abort on interrupt in exit paths
+09ef645a53ca898153265dcf4fa8d76c38f4a9d7 i2c: mux: pca954x: Add missing pca9546 definition to chip_desc
+901e2ae76fbcf33e44c33d0596ae1c526c495d75 powerpc/8xx: Always fault when _PAGE_ACCESSED is not set
+7fb6fc1e816970b858a8a10c0817816810b1d568 Input: sunkbd - avoid use-after-free in teardown paths
 
---===============8747333627005580771==--
+--===============5333586015487697021==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d517d38496fb-81acf0f7c6ec.txt
+
+067fadc9782f0aff7324bb82e8df0fc4df89a09a selftests/powerpc: rfi_flush: disable entry flush if present
+e51ccea4b089e2832cba56c551866db95b22a2c3 powerpc/64s: flush L1D on kernel entry
+4de1151f60f1aa45e9d48ef14ca7bfdd81be6d87 powerpc/64s: flush L1D after user accesses
+5c590f7c77a23339f6f0c302720b6c03a1ed5d4c powerpc: Only include kup-radix.h for 64-bit Book3S
+f295fe44f072d036fb98bc1402c5d3f3f06a4310 selftests/powerpc: entry flush test
+71800b09a6dee528c6dea4d2d33eb0f52b408a37 MIPS: PCI: Fix MIPS build
+6faa6850523e9129013030cf1024635846cd823e net/mlx5: Use async EQ setup cleanup helpers for multiple EQs
+62ce8fa925c87b3ba2d8c8812ec41f96f5b91f69 net/mlx5: poll cmd EQ in case of command timeout
+aedf8f90b6afc572f13c8fec5bd2908e09b841e8 net/mlx5: Fix a race when moving command interface to events mode
+36e4411614a8cb02de9a6ba1da44aabeb4a07ba8 net/mlx5: Add retry mechanism to the command entry index allocation
+66c1d767f34faa62df3b14b14a73077235525511 powerpc/8xx: Always fault when _PAGE_ACCESSED is not set
+d1c8b62caa40f563c9f6681d64531541c5b15f9e net: lantiq: Add locking for TX DMA channel
+81acf0f7c6ece419fd576ecc124c7c64a2ecbc19 Input: sunkbd - avoid use-after-free in teardown paths
+
+--===============5333586015487697021==--
