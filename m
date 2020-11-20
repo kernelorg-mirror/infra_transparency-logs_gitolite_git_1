@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Fri, 20 Nov 2020 17:11:16 -0000
-Message-Id: <160589227655.4787.5086682389067634600@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8903623981554665297=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 20 Nov 2020 17:12:07 -0000
+Message-Id: <160589232787.5128.9234817316049098778@gitolite.kernel.org>
+
+--===============8903623981554665297==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pci/rcar
-    old: 6e8e137abeaba31d48a9d385a8a425cfab4125a4
-    new: 7ef6161cfbca610e9ae1f6b207ff2f7ad81d0f02
+  - ref: refs/heads/master
+    old: 791fb2c96794ea71a7e79b0c347b123f18defcce
+    new: e8ac2e9b40a758464b6a8e360dd840935479b953
     log: |
-         d292531727e45e63b43f4837d2aed5a6d69f43c4 dt-bindings: PCI: rcar-pci-host: Convert bindings to json-schema
-         0085a6d127960a76d33f6ea2a1ced59bbad61f88 dt-bindings: PCI: rcar-pci-host: Document r8a77965 bindings
-         7ef6161cfbca610e9ae1f6b207ff2f7ad81d0f02 dt-bindings: PCI: rcar-pci-host: Document r8a774e1 bindings
+         e8ac2e9b40a758464b6a8e360dd840935479b953 Add initial support for DKIM attestation
          
+
+--===============8903623981554665297==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1605892326 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1605892326-8b8e3a9d5f0bcdb864063719e9d4e688f002979e
+
+791fb2c96794ea71a7e79b0c347b123f18defcce e8ac2e9b40a758464b6a8e360dd840935479b953 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX7f45gAKCRC2xBzjVmSZ
+bCvxAQCxSkFLvTZpbHhhP3zyb1X07hon9BMQRHfOC6mq95xb4gEA2+j/UE6zy6av
+3DJGcSAG4nMsfRE9/WOjAyPUv4zyqAc=
+=A4gx
+-----END PGP SIGNATURE-----
+
+--===============8903623981554665297==--
