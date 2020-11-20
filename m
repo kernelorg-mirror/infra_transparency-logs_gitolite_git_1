@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0174864769265122305=="
+Content-Type: multipart/mixed; boundary="===============2390189452037837747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 20 Nov 2020 00:37:26 -0000
-Message-Id: <160583264652.20549.7244022112034521474@gitolite.kernel.org>
+Date: Fri, 20 Nov 2020 00:37:34 -0000
+Message-Id: <160583265467.20662.17034139955656918189@gitolite.kernel.org>
 
---===============0174864769265122305==
+--===============2390189452037837747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 68222eefa4ca7d9b3771aad096a8737d29dfa110
-    new: e8b0d32205cdf192e26f187118de2cc9a286d751
-    log: revlist-68222eefa4ca-e8b0d32205cd.txt
+  - ref: refs/heads/net-next
+    old: 781461fc521e71b685e9679360cf95d4ff8c0dc2
+    new: c6d6905dfb75914627bcfcdc4270a5eed46ff205
+    log: revlist-781461fc521e-c6d6905dfb75.txt
 
---===============0174864769265122305==
+--===============2390189452037837747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68222eefa4ca-e8b0d32205cd.txt
+Content-Disposition: attachment; filename=revlist-781461fc521e-c6d6905dfb75.txt
 
+1350ef3561990d8d403076692afaae2e5dc3bc99 net: Disable NETIF_F_HW_TLS_TX when HW_CSUM is disabled
 6c218e2d59912200c45afd7192479038c0401764 iommu/vt-d: Cure VF irqdomain hickup
 66655dc28b542ef10fb1efdf844e32d996cf4f20 net/mlx5: Add HW definition of reg_c_preserve
 4d96a8216342d8b768cda2051fb317915c86c945 net/mlx5: Remove impossible checks of interface state
@@ -66,5 +67,11 @@ e8dedd68cbf15c72ddf725f6f2fab31b9ed2d494 net/mlx5e: CT: Preparation for offloadi
 69b3a954642b1c81a4e72b43ac218f12b1215c15 net/mlx5: Rename peer_pf to host_pf
 fe332b085d6bb9b0416445e994bf0488a428a071 net/mlx5: Enable host PF HCA after eswitch is initialized
 e8b0d32205cdf192e26f187118de2cc9a286d751 net/mlx5: Treat host PF vport as other (non eswitch manager) vport
+60cb4f2c770c475a0069281592dafbd8a6210c3a Merge commit 'refs/changes/48/344848/7' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+7f8d07705b57f164c8ec018e579baa8efd2b9b69 Merge branch 'net-next-mlx4' into net-next
+185afea0dcfde095434d738d8593d55478259df2 Merge branch 'net-next-mlx5' into net-next
+f330450ecd8d4aa7dd40aedf7a704490a6d283c4 Merge branch 'net-mlx4' into net-next
+0debd8e01a58236f11ae75f9f69a56fe947ee18e Merge branch 'net-mlx5' into net-next
+c6d6905dfb75914627bcfcdc4270a5eed46ff205 Merge branch 'net-next-test' into net-next
 
---===============0174864769265122305==--
+--===============2390189452037837747==--
