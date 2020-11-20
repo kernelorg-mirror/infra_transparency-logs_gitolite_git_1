@@ -1,29 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 20 Nov 2020 23:42:40 -0000
-Message-Id: <160591576013.21534.6210515945698395240@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6067882631899063296=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Fri, 20 Nov 2020 23:43:01 -0000
+Message-Id: <160591578153.21765.986616159833644750@gitolite.kernel.org>
+
+--===============6067882631899063296==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/master
-    old: 3cd336c517990850897f50845270be216d2aaca8
-    new: 9e8ac63fe1bc346275b27d5d8016e465402d3c34
-    log: |
-         b2771d2419fa6e978dec9ba6ccb93c5c76106374 mptcp: drop WORKER_RUNNING status bit
-         26aa231439fef49f11284ea9d9245e074d69197a mptcp: fix state tracking for fallback socket
-         860975c6f80adae9d2c7654bde04a99dd28bc94f mptcp: skip to next candidate if subflow has unacked data
-         8b819a84d4b12c4a91cc9f91ad69ca09c3e0606d selftests: mptcp: add link failure test case
-         0397c6d85f9c6f81f6dc3a0a166331b2475b325c mptcp: keep unaccepted MPC subflow into join list
-         d91d322a72a390702376787b925711ce8338daec mptcp: change add_addr_signal type
-         84dfe3677a6f45b3d0dfdd564e55717a1a5e60cc mptcp: send out dedicated ADD_ADDR packet
-         523514ed0a998fda389b9b6f00d0f2054ba30d25 selftests: mptcp: add ADD_ADDR IPv6 test cases
-         fa3fe2b150316b294f2c662653501273ff25bba8 mptcp: track window announced to peer
-         ea4ca586b16ff2eb6157fe13969eb72d2403a3a1 mptcp: refine MPTCP-level ack scheduling
-         9e8ac63fe1bc346275b27d5d8016e465402d3c34 Merge branch 'mptcp-more-miscellaneous-mptcp-fixes'
-         
+  - ref: refs/heads/iov-ops
+    old: f1a1314d873d43870dccf3d7200855c2c179a35b
+    new: 69796ef4a4b79f7fc46d705cf1059f67a7247fa8
+    log: revlist-f1a1314d873d-69796ef4a4b7.txt
+
+--===============6067882631899063296==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f1a1314d873d-69796ef4a4b7.txt
+
+6517557adbae2974944c9c67998e8a08a4aa30ca iov_iter: Switch to using a table of operations
+7b98c32a462443d495eeb5a139f802f2354a88de iov_iter: Split copy_page_to_iter()
+d2491ebd215e1f84679ea7000d700f7c3f00ad03 iov_iter: Split iov_iter_fault_in_readable
+3351cb166c538a49569a2f5be30dfe9a846a57e4 iov_iter: Split copy_to_iter()
+7e4f75e18db0e784ffac068bc6eb2da325bacad0 iov_iter: Split copy_mc_to_iter()
+2759231fd2d861c9d64b43f8c6a24357e5cdf49d iov_iter: Split copy_from_iter()
+b43241cca4519ca3778a55ccd3980a6b1c770d13 iov: Split the iterate_all_kinds() macro
+d1d7a86541b656f9e83992dce718b02ff8e75079 iov_iter: Split copy_from_iter_full()
+13a4377c1980040e3e43fe29c7b80979692b6672 iov_iter: Split copy_from_iter_nocache()
+9dd6b2cee68db4e4552e2bec0f5d65d5f6394b3b iov_iter: Split copy_from_iter_flushcache()
+f5d72b3964074c6d2fba94034570673b23975e71 iov_iter: Split copy_from_iter_full_nocache()
+eaef27f893f96c1083285bae2bc4e1edd1e81800 iov_iter: Split copy_page_from_iter()
+f562dbcd828c9bdc5022ea6c7abc73bc7ad456b9 iov_iter: Split iov_iter_zero()
+ea6dbb7d6c4eab1d97ef848f6104613a53c7c57f iov_iter: Split copy_from_user_atomic()
+907c8695a0c0370ca04d33f4e02f27936ee5505a iov_iter: Split iov_iter_advance()
+d29870a4537622c91d57be5ce6ded4d226755212 iov_iter: Split iov_iter_revert()
+a3c567a146751701c1a9dd8dc524abb8b4d931c5 iov_iter: Split iov_iter_single_seg_count()
+e9dfa13f4ed6a048de1bb03f3f8b35c5c14870f5 iov_iter: Split iov_iter_alignment()
+cfabccbda4a84ed1c61ec7ef394598728dca24e2 iov_iter: Split iov_iter_gap_alignment()
+425cfa62b42f7035716b9fe7d7c380370cffaa5c iov_iter: Split iov_iter_get_pages()
+6f46e151de9902bd3ad2df9e2df519268e4c9b42 iov_iter: Split iov_iter_get_pages_alloc()
+0dea0689c1ca66347b334f4418d13d8df878def9 iov_iter: Split csum_and_copy_from_iter()
+1c766a49aa8fcd004b8c72ba073deb33641df54d iov_iter: Split csum_and_copy_from_iter_full()
+c2818b4835c0e9a8ee4feb7ab01bd02fb8a9de6c iov_iter: Split csum_and_copy_to_iter()
+b0b6c8447c0ab618a780c632cad0368bdb404d6c iov_iter: Split iov_iter_npages()
+17af591aed7a6d1066ea588f96f82dba6b871db8 iov_iter: Split dup_iter()
+d0fe6d110071f3382b99eb815ccaba74a91f285b iov_iter: Split iov_iter_for_each_range()
+69796ef4a4b79f7fc46d705cf1059f67a7247fa8 iov_iter: Remove iterate_all_kinds() and iterate_and_advance()
+
+--===============6067882631899063296==--
