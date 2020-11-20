@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/stalld/stalld
-Date: Fri, 20 Nov 2020 16:01:47 -0000
-Message-Id: <160588810735.21396.5548553868468523325@gitolite.kernel.org>
+Date: Fri, 20 Nov 2020 16:03:37 -0000
+Message-Id: <160588821766.22084.6852518251114501621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,72 +11,9 @@ service: git-receive-pack
 repo: pub/scm/utils/stalld/stalld
 user: clrkwllms
 changes:
-  - ref: refs/heads/clrkwllms/main
-    old: 0000000000000000000000000000000000000000
-    new: 8710a4873bc6625c7df9d8950c944b69ec9cf810
-  - ref: refs/heads/clrkwllms/new_sched_debug
-    old: 0000000000000000000000000000000000000000
-    new: 8710a4873bc6625c7df9d8950c944b69ec9cf810
-  - ref: refs/heads/clrkwllms_main
-    old: 0000000000000000000000000000000000000000
-    new: 6bfc5505296c054e46dcd485fcb5a0cc596cd7a3
-  - ref: refs/heads/docs_update
-    old: 0000000000000000000000000000000000000000
-    new: 138bef80bb35d1c33cdd7a7fb938f24d2eb349e3
-  - ref: refs/heads/dyn_fixes
-    old: 0000000000000000000000000000000000000000
-    new: 562688c0033353815e7446c7cd82676b039cc447
-  - ref: refs/heads/fifo_v1
-    old: 0000000000000000000000000000000000000000
-    new: 94114309e514299dba8fe617c8808c547d356629
-  - ref: refs/heads/fifo_v2
-    old: 0000000000000000000000000000000000000000
-    new: 5174c9920281746a9684568b9d54595f6e468d11
-  - ref: refs/heads/fifo_v3
-    old: 0000000000000000000000000000000000000000
-    new: 7138db06ae0b17ef65b6fbb1f52c2e861b30ba3d
-  - ref: refs/heads/fixes
-    old: 0000000000000000000000000000000000000000
-    new: 6c4025b9e28e4a4446b24b128849a679a1053af8
-  - ref: refs/heads/foo
-    old: 0000000000000000000000000000000000000000
-    new: fc072d1dfa8e328d82d8997cc36d0a456cb159bb
-  - ref: refs/heads/gitlab
-    old: 0000000000000000000000000000000000000000
-    new: 2a6dbc98147e8645f5b385322465c7f173df8607
-  - ref: refs/heads/handle_rt_throttling
-    old: 0000000000000000000000000000000000000000
-    new: 45edbb0bd9f6e5159a6fe064ccb72d3daf84c820
-  - ref: refs/heads/main
-    old: 0000000000000000000000000000000000000000
-    new: ab1bb1bf52ef0cc1b3ec7fbdbb678bd491d35e77
-  - ref: refs/heads/more_refactoring
-    old: 0000000000000000000000000000000000000000
-    new: 0216f01256a99aa836dac7cb85afeb70fc71c15c
-  - ref: refs/heads/new_alloc_scheme
-    old: 0000000000000000000000000000000000000000
-    new: 4dd532d2b9aac83ad4a081efaaba15dc7f71433c
-  - ref: refs/heads/new_parsing
-    old: 0000000000000000000000000000000000000000
-    new: a36fcb293ca1b5c2e6ad5cb85f6b5ba4bcd3db0c
-  - ref: refs/heads/older-sched_debug
-    old: 0000000000000000000000000000000000000000
-    new: cb7f62d90b3e3de80fff6996de22a62d81b348c5
-  - ref: refs/heads/release1.1
-    old: 0000000000000000000000000000000000000000
-    new: 6a82e77a22900b18fb3ed13e544aa4ea56db4ce4
-  - ref: refs/heads/tests
-    old: 0000000000000000000000000000000000000000
-    new: 8564f2c5bc79a17133fa73a48b8c8f036756c0d5
-  - ref: refs/heads/tests_v2
-    old: 0000000000000000000000000000000000000000
-    new: a1f413112137e04176f39887c9abaecc8ac5f720
-  - ref: refs/heads/use_deadline
-    old: 0000000000000000000000000000000000000000
-    new: cf46b34ebd0dc4a216b0edfe1353c44258d59963
-  - ref: refs/heads/version_option
-    old: 0000000000000000000000000000000000000000
-    new: 0dbae0bb2543310a449c2161b002cbbdbc61ff3a
-  - ref: refs/tags/v1.3.0
-    old: 0000000000000000000000000000000000000000
-    new: fae7818a6a330f91e8f2d96a5f4d9041bf1b1275
+  - ref: refs/notes/signatures/tar
+    old: 462833faebd237d0da3fd9f6177f4c0fd439bcba
+    new: 7efb231fa5ec21571ff1614dcf08306123b62533
+    log: |
+         7efb231fa5ec21571ff1614dcf08306123b62533 Notes added by 'git notes add'
+         
