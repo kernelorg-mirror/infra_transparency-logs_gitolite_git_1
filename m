@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 20 Nov 2020 16:14:21 -0000
-Message-Id: <160588886140.28402.16825797264932241221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 20 Nov 2020 16:34:48 -0000
+Message-Id: <160589008842.10584.7784438844357411933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/wip/experimental_fuse
-    old: 3b53590f6116849b9451d42c95607b69374b79a9
-    new: 1d457d3275df886fb59baee2e026e991a6655b8e
+  - ref: refs/heads/main
+    old: 54c797a694d3830ef93f349ec25e1d96d4b88102
+    new: bc9cd0b7b0e96038ccc041ff409948d8f176142d
     log: |
-         f9ca4490678239c917cd9ba9b0cb3aeafcbde0d5 erofs-utils: introduce fuse implementation
-         5d070ab12bfbad9d61c1800d421380a3fa8bfc25 erofs-utils: fuse: support symlink & special inode
-         1d457d3275df886fb59baee2e026e991a6655b8e erofs-utils: fuse: add compressed file support
+         bc9cd0b7b0e96038ccc041ff409948d8f176142d linux-firmware: Update AMD SEV firmware
          
