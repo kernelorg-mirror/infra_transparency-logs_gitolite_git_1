@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 20 Nov 2020 14:12:39 -0000
-Message-Id: <160588155943.9524.5584826166793984552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Fri, 20 Nov 2020 14:14:07 -0000
+Message-Id: <160588164744.10104.1123569719017132162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/dm-5.11
-    old: 72a0376337c18a0bab1ea71a32cc9f997a086bb0
-    new: 3f5dba110d1241b6e446b7693eeba34e50b73645
-    log: |
-         3f5dba110d1241b6e446b7693eeba34e50b73645 dm writecache: remove BUG() and fail gracefully instead
-         
+  - ref: refs/heads/renesas/sdhi/busy_timeout
+    old: 0000000000000000000000000000000000000000
+    new: 0a3ac64d905ae91097e3527e5677ab33cd60fa7f
