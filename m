@@ -1,58 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============6067882631899063296=="
+Content-Type: multipart/mixed; boundary="===============9079885600288582804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Fri, 20 Nov 2020 23:43:01 -0000
-Message-Id: <160591578153.21765.986616159833644750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sat, 21 Nov 2020 00:25:50 -0000
+Message-Id: <160591835018.20097.11294789755307625681@gitolite.kernel.org>
 
---===============6067882631899063296==
+--===============9079885600288582804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/iov-ops
-    old: f1a1314d873d43870dccf3d7200855c2c179a35b
-    new: 69796ef4a4b79f7fc46d705cf1059f67a7247fa8
-    log: revlist-f1a1314d873d-69796ef4a4b7.txt
+  - ref: refs/heads/dev
+    old: 3ce23b2df528877623ffc9c9cc2b6885eb3ae9db
+    new: bd5fc4f66b3e1df8fe9fb7756f408dedd4495877
+    log: revlist-3ce23b2df528-bd5fc4f66b3e.txt
+  - ref: refs/heads/dev.2020.11.19b
+    old: 0000000000000000000000000000000000000000
+    new: 81ed34a95adf97372ad0971b1e4e9e92096537c5
 
---===============6067882631899063296==
+--===============9079885600288582804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1a1314d873d-69796ef4a4b7.txt
+Content-Disposition: attachment; filename=revlist-3ce23b2df528-bd5fc4f66b3e.txt
 
-6517557adbae2974944c9c67998e8a08a4aa30ca iov_iter: Switch to using a table of operations
-7b98c32a462443d495eeb5a139f802f2354a88de iov_iter: Split copy_page_to_iter()
-d2491ebd215e1f84679ea7000d700f7c3f00ad03 iov_iter: Split iov_iter_fault_in_readable
-3351cb166c538a49569a2f5be30dfe9a846a57e4 iov_iter: Split copy_to_iter()
-7e4f75e18db0e784ffac068bc6eb2da325bacad0 iov_iter: Split copy_mc_to_iter()
-2759231fd2d861c9d64b43f8c6a24357e5cdf49d iov_iter: Split copy_from_iter()
-b43241cca4519ca3778a55ccd3980a6b1c770d13 iov: Split the iterate_all_kinds() macro
-d1d7a86541b656f9e83992dce718b02ff8e75079 iov_iter: Split copy_from_iter_full()
-13a4377c1980040e3e43fe29c7b80979692b6672 iov_iter: Split copy_from_iter_nocache()
-9dd6b2cee68db4e4552e2bec0f5d65d5f6394b3b iov_iter: Split copy_from_iter_flushcache()
-f5d72b3964074c6d2fba94034570673b23975e71 iov_iter: Split copy_from_iter_full_nocache()
-eaef27f893f96c1083285bae2bc4e1edd1e81800 iov_iter: Split copy_page_from_iter()
-f562dbcd828c9bdc5022ea6c7abc73bc7ad456b9 iov_iter: Split iov_iter_zero()
-ea6dbb7d6c4eab1d97ef848f6104613a53c7c57f iov_iter: Split copy_from_user_atomic()
-907c8695a0c0370ca04d33f4e02f27936ee5505a iov_iter: Split iov_iter_advance()
-d29870a4537622c91d57be5ce6ded4d226755212 iov_iter: Split iov_iter_revert()
-a3c567a146751701c1a9dd8dc524abb8b4d931c5 iov_iter: Split iov_iter_single_seg_count()
-e9dfa13f4ed6a048de1bb03f3f8b35c5c14870f5 iov_iter: Split iov_iter_alignment()
-cfabccbda4a84ed1c61ec7ef394598728dca24e2 iov_iter: Split iov_iter_gap_alignment()
-425cfa62b42f7035716b9fe7d7c380370cffaa5c iov_iter: Split iov_iter_get_pages()
-6f46e151de9902bd3ad2df9e2df519268e4c9b42 iov_iter: Split iov_iter_get_pages_alloc()
-0dea0689c1ca66347b334f4418d13d8df878def9 iov_iter: Split csum_and_copy_from_iter()
-1c766a49aa8fcd004b8c72ba073deb33641df54d iov_iter: Split csum_and_copy_from_iter_full()
-c2818b4835c0e9a8ee4feb7ab01bd02fb8a9de6c iov_iter: Split csum_and_copy_to_iter()
-b0b6c8447c0ab618a780c632cad0368bdb404d6c iov_iter: Split iov_iter_npages()
-17af591aed7a6d1066ea588f96f82dba6b871db8 iov_iter: Split dup_iter()
-d0fe6d110071f3382b99eb815ccaba74a91f285b iov_iter: Split iov_iter_for_each_range()
-69796ef4a4b79f7fc46d705cf1059f67a7247fa8 iov_iter: Remove iterate_all_kinds() and iterate_and_advance()
+376c244d8f29aab300edd7f1c223ba18313308ff srcu: Provide internal interface to start a Tiny SRCU grace period
+010b201cba8bf44fafa3cf04711c1246f5838a16 srcu: Provide internal interface to start a Tree SRCU grace period
+59df003b7618ac4ed036f2b0ab8487a2629b8021 srcu: Provide polling interfaces for Tiny SRCU grace periods
+c60155e580032192c343950262bc5523b20cb783 srcu: Provide polling interfaces for Tree SRCU grace periods
+900dbe01d5385d24ce20d8c8c701e7b684cd4b56 srcu: Document polling interfaces for Tree SRCU grace periods
+ee9a4e612f869bf60163a9cfcc91714f172a2612 rcutorture: Prepare for ->start_gp_poll and ->poll_gp_state
+d8048651c4116b7d6d58712b96a45be75de23103 rcutorture: Add writer-side tests of polling grace-period API
+ae258621ff10b6b84353f25192e43dd5f84bcb2e refscale: Allow summarization of verbose output
+bae7f58ad7a35320ca535122ac7322e3fd0561af rcutorture: Add reader-side tests of polling grace-period API
+14774a1e031636d7bc455c55f82fabde0c90128c srcu: Add comment explaining cookie overflow/wrap
+3e3d7337806f806d2b062a285f25e0f383174662 rcu/trace: Add tracing for how segcb list changes
+6bccab6e65c53e0660ffac6f9e7441b89cf32fc4 list: Fix a typo at the kernel-doc markup
+07331095fe87a5f47fbce7f593d2966ba71d57f0 rcutorture: Require entire stutter period be post-boot
+28b6a19aabc1558c4e76a04e1f817d3bde32ff53 rcutorture: Make synctype[] and nsynctype be static global
+196fa49f965492c70b9feec20866d7b2c58aaf9f rcutorture: Make rcu_torture_fakewriter() use blocking wait primitives
+e840d10c6243420d624fdfa7e7a376e7067de3d2 torture: Add fuzzed hrtimer-based sleep functions
+3fc3744329a8b6fc586eeceb5afba673a0cb2afb rcutorture: Use torture_hrtimeout_jiffies() to avoid busy-waits
+9d30378e3225a449b4862a80f7fbb7ef61db8875 torture: Make stutter use torture_hrtimeout_*() functions
+53068191de31cf38c6cf329effbd3d9d8eeeb91f rcutorture: Use hrtimers for reader and writer delays
+fc9a47fb7e80e0e74796150fdb9414035613352e torture: Prepare for splitting qemu execution from kvm-test-1-run.sh
+7c1e100cc198194836e7111275ca90422af9adf6 torture: Add config2csv.sh script to compare torture scenarios
+371bd72f046e1b257652eede7197a10086420936 rcu/segcblist: Add debug checks for segment lengths
+43bacd182e3c78019a8294c40c3cff6162f8f312 sched/core: Allow try_invoke_on_locked_down_task() with irqs disabled
+29775c2ea6cd51391b11fc95269ea593c7cbf5d5 rcu: Check and report missed fqs timer wakeup on RCU stall
+439e506c4b03abf5e0684f926de6556484056c5c rcu/tree: Allocate a page when caller is preemptible
+723a39107064dcb95079842633338c115b489e2c rcu/tree: Use delayed work instead of hrtimer to refill the cache
+18bb7b1da8dced8d2a539ed9f28eef4ca53f9111 rcu: Add lockdep_assert_irqs_disabled() to rcu_sched_clock_irq() and callees
+24e12b8dc3946ff1c617e5677b6f2f8f64fee5ea rcu: Add lockdep_assert_irqs_disabled() to raw_spin_unlock_rcu_node() macros
+00dc4fd2297ce5face20ab72a008efd02d053ed1 tools/rcutorture: Make identify_qemu_vcpus() independent of local language
+084409e5f198689329635ed7469025c4db0ea54b torture: Make kvm.sh "Test Summary" date be end of test
+bd5fc4f66b3e1df8fe9fb7756f408dedd4495877 rcu: Record kvfree_call_rcu() call stack for KASAN
 
---===============6067882631899063296==--
+--===============9079885600288582804==--
