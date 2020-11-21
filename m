@@ -1,29 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 21 Nov 2020 02:50:41 -0000
-Message-Id: <160592704136.19149.11551079892225309960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 21 Nov 2020 03:03:42 -0000
+Message-Id: <160592782250.28677.1647883146020933798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 0a12ad5929556195fbdf1c58a14ec8e5b01b006c
-    new: c900378316d37d3af592ec378bc28e1f6b355188
+    old: e10823c71920c6fd54ab85677f001d7978bcb3ae
+    new: 207d0bfc08f1553ac9cec4f3a2c31936319368c5
     log: |
-         dfccb8b13c0ce32666c596fbb712c60c7c0ab325 net: ipa: define clock and interconnect data
-         f08c99226458765c6a929b0a57ea79db8d67cdc4 net: ipa: populate clock and interconnect data
-         91d02f9551501fe63e2031d7821d0e7fd4ea5a21 net: ipa: use config data for clocking
-         0ee6de264b8305d2c55f32a80e00c054736b10f9 Merge branch 'net-ipa-platform-specific-clock-and-interconnect-rates'
-         f8d3bdd561a7c95269a8f908d82249e41badc2aa net: ipa: print channel/event ring number on error
-         5d28913d4ee655cf15756ba67d4075cac9204a90 net: ipa: don't reset an ALLOCATED channel
-         f849afcc8c3b27d7b50827e95b60557f24184df0 net: ipa: ignore CHANNEL_NOT_RUNNING errors
-         1136145660f3116cb92794c1a7571bf49e4a1938 net: ipa: support retries on generic GSI commands
-         7c80e83829dbc86c1e564017867a48805e459de0 net: ipa: retry modem stop if busy
-         ae1d72f9779fbd05808517c030a2dae327cb038d net: ipa: add driver shutdown callback
-         c900378316d37d3af592ec378bc28e1f6b355188 Merge branch 'net-ipa-add-a-driver-shutdown-callback'
+         0d0e2b538c13f4f698ba58485a573ce824036567 s390/qeth: Remove pnso workaround
+         34c7f50f7d0d36fa663c74aee39e25e912505320 s390/qeth: make af_iucv TX notification call more robust
+         8908f36d20d8ba610d3a7d110b3049b5853b9bb1 s390/qeth: fix af_iucv notification race
+         7ed10e16e50daf74460f54bc922e27c6863c8d61 s390/qeth: fix tear down of async TX buffers
+         207d0bfc08f1553ac9cec4f3a2c31936319368c5 Merge branch 's390-qeth-fixes-2020-11-20'
          
