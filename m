@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Sat, 21 Nov 2020 10:35:50 -0000
-Message-Id: <160595495028.31765.4143729056696982477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 21 Nov 2020 11:05:36 -0000
+Message-Id: <160595673617.19690.14640127851420451058@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/mediatek-drm-fixes
-    old: 46b97aed5484a3f44584a10f9e0691bf89d29064
-    new: 487778f8d22fcdebb6436f0a5f96484ffa237b0b
+  - ref: refs/heads/ras/core
+    old: 098416e6986127f7e4c8ce4fd6bbbd80e55b0386
+    new: c7dfa0872a467f51ad9da05e1d506e79ca9191a6
     log: |
-         487778f8d22fcdebb6436f0a5f96484ffa237b0b drm/mediatek: dsi: Modify horizontal front/back porch byte formula
+         c7dfa0872a467f51ad9da05e1d506e79ca9191a6 x86/mce, cper: Pass x86 CPER through the MCA handling chain
          
