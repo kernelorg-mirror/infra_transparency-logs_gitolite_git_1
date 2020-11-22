@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Sun, 22 Nov 2020 16:55:05 -0000
-Message-Id: <160606410565.30820.6158412649715564216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
+Date: Sun, 22 Nov 2020 17:27:52 -0000
+Message-Id: <160606607275.19307.10639515571969253774@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/geoff/ps3-linux
+user: geoff
 changes:
-  - ref: refs/heads/master
-    old: 2ee239fb084355e115cf8c2bf8051e8807c4222a
-    new: 9107a641e67f27003fa6cbe7b55b1ec6a0239197
-    log: |
-         9107a641e67f27003fa6cbe7b55b1ec6a0239197 error out if ENOSPC during file layout
-         
+  - ref: refs/heads/ps3-queue-v5.9
+    old: 0000000000000000000000000000000000000000
+    new: 65f95b054cc732a3d33ad1ce1baee3386fd14625
