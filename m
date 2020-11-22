@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3725700085547225745=="
+Content-Type: multipart/mixed; boundary="===============5480863894900080818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Sun, 22 Nov 2020 18:03:21 -0000
-Message-Id: <160606820115.10540.15560071958431089102@gitolite.kernel.org>
+Date: Sun, 22 Nov 2020 18:03:27 -0000
+Message-Id: <160606820778.10666.418265638400655492@gitolite.kernel.org>
 
---===============3725700085547225745==
+--===============5480863894900080818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-linux-next
     old: 3cea11cd5e3b00d91caf0b4730194039b45c5891
     new: a349e4c659609fd20e4beea89e5c4a4038e33a95
     log: revlist-3cea11cd5e3b-a349e4c65960.txt
 
---===============3725700085547225745==
+--===============5480863894900080818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ea0ab64306355432746bafda0364fb2d593bc9e3 Merge tag 'seccomp-v5.10-rc5' of git://
 ba911108f4ec1643b7b1d1c1db88e4f8451f201b Merge tag 'fsnotify_for_v5.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 a349e4c659609fd20e4beea89e5c4a4038e33a95 Merge tag 'xfs-5.10-fixes-7' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 
---===============3725700085547225745==--
+--===============5480863894900080818==--
