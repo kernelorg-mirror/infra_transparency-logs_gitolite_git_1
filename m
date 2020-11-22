@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4270822249194890560=="
+Content-Type: multipart/mixed; boundary="===============1397237278808781595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 22 Nov 2020 09:15:25 -0000
-Message-Id: <160603652507.29499.18402034667503432303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 22 Nov 2020 09:17:24 -0000
+Message-Id: <160603664437.1168.11922349649898139663@gitolite.kernel.org>
 
---===============4270822249194890560==
+--===============1397237278808781595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/5.9
-    old: 433a205274c94dce960cdce97059474be4d774c8
-    new: 232e65a76d701bff61df37ea4355414be26f2b56
-    log: revlist-433a205274c9-232e65a76d70.txt
+  - ref: refs/heads/master
+    old: edc29e415dc5319c99103339063c8ac78fef8596
+    new: 297743e74bead0ad401199d7a063157b4ca6589b
+    log: |
+         297743e74bead0ad401199d7a063157b4ca6589b Linux 5.9.10
+         
 
---===============4270822249194890560==
+--===============1397237278808781595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-433a205274c9-232e65a76d70.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3f7e0dab279682a766195c0089bfa35c8dd2fa17 selftests/powerpc: rfi_flush: disable entry flush if present
-ea57b27f69ca5ff4984a3674db96148af3780664 powerpc/64s: flush L1D on kernel entry
-cad0dbf7c6cec01e6df494c40489dff9428c4d48 powerpc/64s: flush L1D after user accesses
-4222ba0ea25809a718f8da115ae2733e14500e96 powerpc: Only include kup-radix.h for 64-bit Book3S
-42bc61faa956081b64e980caa7a26f1fece85457 selftests/powerpc: entry flush test
-996910255e238c0faa1c14189e1e32a7446b15ba leds: lm3697: Fix out-of-bound access
-ad2e0945eb71f42adc0c8098b535cd794158207b Input: sunkbd - avoid use-after-free in teardown paths
-239f214a8592491684cf6c3190a179cf77cfff7a mac80211: always wind down STA state
-244a6b93050706d344db99a29bc2c43031e65d51 can: proc: can_remove_proc(): silence remove_proc_entry warning
-f593a08a6e632f00b2db59f8093c28a1885c24c5 selftests/harness: prettify SKIP message whitespace again
-58bfee8dc695602bf4643ac07f4e8562dc1c9d00 powerpc/smp: Call rcu_cpu_starting() earlier
-748aa0eec31e648b828549f0dd7971ecff4bf434 perf/x86/intel/uncore: Fix Add BW copypasta
-8e43fef4dc5b78d27e913851478984deefc0f1d8 KVM: x86: clflushopt should be treated as a no-op by emulation
-232e65a76d701bff61df37ea4355414be26f2b56 ACPI: GED: fix -Wformat
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606036684 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1606036642-418be4dd149022c003e8a91a35b8e53203cc69ee
 
---===============4270822249194890560==--
+edc29e415dc5319c99103339063c8ac78fef8596 297743e74bead0ad401199d7a063157b4ca6589b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+6LMwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t6kQAKIx+BW2LO0VCHZ451yR
+SFi0C1qycJIT5p5tGthjehtQLB6DzC704W9QNBqy3rNaWJwqCbTSzz+3Up+39IEp
+v6SeNVXQnCUaRzjuEBSjEQBFuT6LVxqHuIvukwvu4KUitffEZ6pd+YAgXOo/x6Fm
+J51zLnm/ZbEwcrKWDyH6OZvqMHa4KOE8nWZGCZ/EsfpTekDvr3kq5srHjvx2mVEk
+PBw4reHobKmcTnEAeaJCU1tQfGsZe+Gz0TzN0ALshbcVjz+gg67fxBMnp2Nw7uQo
+mecdx2zSpRlzCsf1Ai2w0fsZye1VvrN1hBhQTbkPsb078yOs3/WAAhwgMrZ4tpGd
+EEpr+KuDFT/z+uDkJhKBjEQ+qEuJJ52Ws9QR50macM6tOKpeuYjzBYrmLwVY/SiG
+9xQpJQICX31ztTOQV2L7gqkEFuvwWdPq4SttRUomrm3uua+nZdR+32e5PTMxjfD3
+o6YcMxbjxubB1o2QqO8sXk5R2v6x7PVW8bDTdSwUouJrM+WniPycQWvZsadfW07a
+ZZP7I53wls2X8XXatYtxXBWVwd7aJqqN/69dKGXC0qiQEOIsijejqFCibvkUIO05
+nce3a9md2KYZQ025sVP/H8esgkjiHAhIBEJG9MU4w2g4pTVk5hMAtP9PyYbi5GMG
+oTh9PACp6H7o3NPqM6RTlaej
+=2uww
+-----END PGP SIGNATURE-----
+
+--===============1397237278808781595==--
