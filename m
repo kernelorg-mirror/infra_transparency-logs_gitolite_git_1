@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2282116183704770575=="
+Content-Type: multipart/mixed; boundary="===============4270822249194890560=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 22 Nov 2020 09:14:49 -0000
-Message-Id: <160603648966.13711.15813761624991775781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sun, 22 Nov 2020 09:15:25 -0000
+Message-Id: <160603652507.29499.18402034667503432303@gitolite.kernel.org>
 
---===============2282116183704770575==
+--===============4270822249194890560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/notes/signatures/tar
-    old: bb5440f0eefcf2ce6a18b3c169a08eb35cd4c0e9
-    new: c42e401caf49bda50de4cb2cfa2d161684a0781c
-    log: |
-         c42e401caf49bda50de4cb2cfa2d161684a0781c Notes added by 'git notes add'
-         
+  - ref: refs/heads/queue/5.9
+    old: 433a205274c94dce960cdce97059474be4d774c8
+    new: 232e65a76d701bff61df37ea4355414be26f2b56
+    log: revlist-433a205274c9-232e65a76d70.txt
 
---===============2282116183704770575==
+--===============4270822249194890560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-433a205274c9-232e65a76d70.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606036529 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1606036487-7dc7e7e4d8453ab1e4e3baebbdcffe81c8ad2625
+3f7e0dab279682a766195c0089bfa35c8dd2fa17 selftests/powerpc: rfi_flush: disable entry flush if present
+ea57b27f69ca5ff4984a3674db96148af3780664 powerpc/64s: flush L1D on kernel entry
+cad0dbf7c6cec01e6df494c40489dff9428c4d48 powerpc/64s: flush L1D after user accesses
+4222ba0ea25809a718f8da115ae2733e14500e96 powerpc: Only include kup-radix.h for 64-bit Book3S
+42bc61faa956081b64e980caa7a26f1fece85457 selftests/powerpc: entry flush test
+996910255e238c0faa1c14189e1e32a7446b15ba leds: lm3697: Fix out-of-bound access
+ad2e0945eb71f42adc0c8098b535cd794158207b Input: sunkbd - avoid use-after-free in teardown paths
+239f214a8592491684cf6c3190a179cf77cfff7a mac80211: always wind down STA state
+244a6b93050706d344db99a29bc2c43031e65d51 can: proc: can_remove_proc(): silence remove_proc_entry warning
+f593a08a6e632f00b2db59f8093c28a1885c24c5 selftests/harness: prettify SKIP message whitespace again
+58bfee8dc695602bf4643ac07f4e8562dc1c9d00 powerpc/smp: Call rcu_cpu_starting() earlier
+748aa0eec31e648b828549f0dd7971ecff4bf434 perf/x86/intel/uncore: Fix Add BW copypasta
+8e43fef4dc5b78d27e913851478984deefc0f1d8 KVM: x86: clflushopt should be treated as a no-op by emulation
+232e65a76d701bff61df37ea4355414be26f2b56 ACPI: GED: fix -Wformat
 
-bb5440f0eefcf2ce6a18b3c169a08eb35cd4c0e9 c42e401caf49bda50de4cb2cfa2d161684a0781c refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+6LDEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bksP/3clHZE+xdi8UrE3nLuH
-sMNKOZXm710KzwXiCuA2whcty22yM6qNF61WT7/5Mo0eKxsZVfjX1pQjM2tQDVEJ
-6SyjMFihTA9PBv42PhkpeKdJMtsYwmroc+ndWnaw/m4F3XVCbCzJIW4mSv5KTCMX
-7oqgIV1d7VXiuNz7HCcpXDrQ/CE6bz2xeav4bnjUt6dV0o/GDSI2wj4dONkiZVlo
-l8V2GKJOtelLakElAf7SQnNG/HddE+5m7xmjK/yL1F9uF+SFw5Yag6ALSG1cfVCO
-vQWHUQsGGaNS01nRt5iPu/rwxntuckQ/h1Q7SSAq4V54/19ShM6pQFJUOnzuuf58
-DsK2indYPIf+NVCePOI1kzAOUySTIoq5O7rYgG4MmQFzmGoT+XS5bYWeoywnb9vU
-6DKtLgyTCF/buYPnhUmcrIzWeftu8Z3FBNF0iFecMoYkehzZ7wldBdlyv4r0qRyw
-9TnP2YY6E6hL2nnMEXPJB7VB10sFvagFcHhgzCzL5K2tnWXg9evT4MzkzRrYcXx9
-baFyyQxBtNdqaiv2Fas51LCZuKWghQ7Eri/BJ+TRB6PEMZED052zG7toFtlD0r8o
-PjayKtbZ3a84WR87vvWZrXkzMJvd54YkGjv0OKhe8Rnbi6buHtsEKR+CHexQi1oH
-cWW55gVMfyOthTUX+M8XObIJ
-=bXhG
------END PGP SIGNATURE-----
-
---===============2282116183704770575==--
+--===============4270822249194890560==--
