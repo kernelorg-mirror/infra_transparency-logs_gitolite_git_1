@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7243656827906544910=="
+Content-Type: multipart/mixed; boundary="===============3147452581190790570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sun, 22 Nov 2020 22:59:35 -0000
-Message-Id: <160608597552.17944.10761248713533795883@gitolite.kernel.org>
+Date: Sun, 22 Nov 2020 23:06:58 -0000
+Message-Id: <160608641843.23131.7571005495630405465@gitolite.kernel.org>
 
---===============7243656827906544910==
+--===============3147452581190790570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,71 +15,88 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
-  - ref: refs/heads/queue-4.14
-    old: cc74e6a9df10d4d719a80a3100df061efb0fb9b8
-    new: 2c2e22bff0cf298d3a09f3f15cdd7ebccfabdffa
-    log: revlist-cc74e6a9df10-2c2e22bff0cf.txt
-  - ref: refs/heads/queue-4.19
-    old: 273f51e620f6b5bf07b526519fd2e0fb128e943f
-    new: 8f29c478fe765d11083a676d36792911e822f68f
-    log: revlist-273f51e620f6-8f29c478fe76.txt
-  - ref: refs/heads/queue-4.9
-    old: 02e4a7b95b91ccfb1764351d8676af3e6c954000
-    new: 5c968b82229b44710a313176763a3b2b5413adff
+  - ref: refs/heads/queue-4.4
+    old: b6c41bb0b10c877cab68f1c2f737edc275dd4b3c
+    new: 57a036c03c2180c8424bc80d9f0537266734db9e
     log: |
-         6a980906cd052ae79726d0502b278d2c4ea86235 Input: adxl34x - clean up a data type in adxl34x_probe()
-         6aadd17b7949da76b8958b482ea90a4ddbc01d07 MIPS: export has_transparent_hugepage() for modules
-         46ef297a17334835d9056c803cdf8280be77243b arm: dts: imx6qdl-udoo: fix rgmii phy-mode for ksz9031 phy
-         f8227998b73461ee75f3dea3c6c3c98d3a3ba688 ARM: dts: imx50-evk: Fix the chip select 1 IOMUX
-         5c968b82229b44710a313176763a3b2b5413adff perf lock: Don't free "lock_seq_stat" if read_count isn't zero
+         fafaf966b9793a1537ccf5ade9c5904d133dcc73 Input: adxl34x - clean up a data type in adxl34x_probe()
+         323cc5f70ede57240cd0a5ad08b84edbc8bc6b1d arm: dts: imx6qdl-udoo: fix rgmii phy-mode for ksz9031 phy
+         d2bcdfff2ee028a712b1a7a6b3a277aae032c9e5 ARM: dts: imx50-evk: Fix the chip select 1 IOMUX
+         fb50a7e8480f37ea28c0ed21357254401bc7a4f1 perf lock: Don't free "lock_seq_stat" if read_count isn't zero
+         a884665d7a300e9cc10d81cee15127da7645428f can: dev: can_restart(): post buffer from the right context
+         04d37605580bb6cde1feb975acd3b786ac6d0ed6 can: peak_usb: fix potential integer overflow on shift of a int
+         6744ecbcb4845e54ae6fd9dffe7f96d75dd28c6c can: m_can: m_can_handle_state_change(): fix state change
+         ae5cbb31a5ac29c66e7fae609b268350b92b1b50 MIPS: Alchemy: Fix memleak in alchemy_clk_setup_cpu
+         bd1fb222ddfc64d2bfdf8058b4d24c5e75b679c1 regulator: ti-abb: Fix array out of bound read access on the first transition
+         57a036c03c2180c8424bc80d9f0537266734db9e libfs: fix error cast of negative value in simple_attr_write()
          
+  - ref: refs/heads/queue-4.9
+    old: 5c968b82229b44710a313176763a3b2b5413adff
+    new: 89176cef91c72562507b8b73b05afc36b687eccb
+    log: |
+         142ba6ec5dbad5e2b85115255c79883a6e403c77 can: dev: can_restart(): post buffer from the right context
+         e47b4b0d40c1f365dda1513e829a5dc57e81298a can: peak_usb: fix potential integer overflow on shift of a int
+         9ef105a16a0b89f2daba1fc04c3081c755af5ab2 can: m_can: m_can_handle_state_change(): fix state change
+         9989adb16289041e0157aecb38bda3114fdd76d9 MIPS: Alchemy: Fix memleak in alchemy_clk_setup_cpu
+         3b6e7f36276fb8867f901592f13d1aae12d5a532 regulator: ti-abb: Fix array out of bound read access on the first transition
+         0f8c94863f052fc29e437bc51c9f31788c4c81b7 xfs: revert "xfs: fix rmap key and record comparison functions"
+         89176cef91c72562507b8b73b05afc36b687eccb libfs: fix error cast of negative value in simple_attr_write()
+         
+  - ref: refs/heads/queue-5.4
+    old: e2a6e4118965056a94f7ae3cfe2e89dae730f62c
+    new: c3ae1399c26f662ba5a9239d2c6bd8cf44dd9ea5
+    log: revlist-e2a6e4118965-c3ae1399c26f.txt
 
---===============7243656827906544910==
+--===============3147452581190790570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc74e6a9df10-2c2e22bff0cf.txt
+Content-Disposition: attachment; filename=revlist-e2a6e4118965-c3ae1399c26f.txt
 
-6828fe90d4e4111ed5dba4155907d5b0a17ca7ee Input: adxl34x - clean up a data type in adxl34x_probe()
-53fee7547d9fd11a62fc3801bf9754fd52313542 MIPS: export has_transparent_hugepage() for modules
-98da949d881183a60e680b17c5517078b79f2882 arm: dts: imx6qdl-udoo: fix rgmii phy-mode for ksz9031 phy
-4d39931631eb0cfd53744e1eacf1b7689ea86cab ARM: dts: imx50-evk: Fix the chip select 1 IOMUX
-2236ed0132126cbf646b552ccffdbf49bcb39e2c perf lock: Don't free "lock_seq_stat" if read_count isn't zero
-2dbbe60612269152eab650049f29a2b0be93d714 can: af_can: prevent potential access of uninitialized member in can_rcv()
-469a5332f6252531c8aba6dfb9157e8737e1146a can: af_can: prevent potential access of uninitialized member in canfd_rcv()
-09630f38f4da2e73c073e483ab058a2d231b71ad can: dev: can_restart(): post buffer from the right context
-719da69a3953b67a42d852f718dedc517a7ecc83 can: ti_hecc: Fix memleak in ti_hecc_probe
-d127bccd2d8cf68ec8c5af5818034f2deaf9685a can: mcba_usb: mcba_usb_start_xmit(): first fill skb, then pass to can_put_echo_skb()
-ca75a96b47b00ffd6b77f0c4f4ce3b998bb371dc can: peak_usb: fix potential integer overflow on shift of a int
-0dd8edc040c420a53a9ad0d73387e8e00e794743 can: m_can: m_can_handle_state_change(): fix state change
-e3d72d53806171159d14043e5cea4f43aa7c5bce can: m_can: m_can_stop(): set device to software init mode before closing
-d408c73d1723c91f457e39345872770c75406736 ASoC: qcom: lpass-platform: Fix memory leak
-76d637ccda5e8f56272cce0f2ef0f8877176619f MIPS: Alchemy: Fix memleak in alchemy_clk_setup_cpu
-fac7c637e333f7b8fc5cb427f90b60e6dfa07409 regulator: ti-abb: Fix array out of bound read access on the first transition
-7d79beb86660a1374f1482b2fd2f5de9c80bf04a xfs: revert "xfs: fix rmap key and record comparison functions"
-2c2e22bff0cf298d3a09f3f15cdd7ebccfabdffa libfs: fix error cast of negative value in simple_attr_write()
+1c2db109857a45b41273b8eb0a4c9cd402dd6376 Input: resistive-adc-touch - fix kconfig dependency on IIO_BUFFER
+30403155713c499bb667dff809c82bb77eb20a63 rfkill: Fix use-after-free in rfkill_resume()
+b0a3f65cbfd7c0c483956aa7854344edad7c5d4d RDMA/pvrdma: Fix missing kfree() in pvrdma_register_device()
+d575d2a0f7da42134564f139773d42374e3d79b4 RMDA/sw: Don't allow drivers using dma_virt_ops on highmem configs
+77d6c3223aac545040debfe658de3309613cc97c perf lock: Don't free "lock_seq_stat" if read_count isn't zero
+c1c285ab009df3f1b8cfee19b9f493cb8321cb39 tools, bpftool: Add missing close before bpftool net attach exit
+139be6e37b5b4b10534835126fa6bae397d2bd05 ip_tunnels: Set tunnel option flag when tunnel metadata is present
+9936de8c802af838cf0639a0433b85e6e4b9c3a9 can: af_can: prevent potential access of uninitialized member in can_rcv()
+e9b69db061a6e80fc562466ec9d45bd3847577f1 can: af_can: prevent potential access of uninitialized member in canfd_rcv()
+22490f074f56db158179721e6aeab1b3797373e1 can: dev: can_restart(): post buffer from the right context
+2a37a6a62c44e5a7ea25b169eb02cfc27f868dd7 can: ti_hecc: Fix memleak in ti_hecc_probe
+b9bc7bbfc14234f5309e5c8ce6109c296dc8b830 can: mcba_usb: mcba_usb_start_xmit(): first fill skb, then pass to can_put_echo_skb()
+786931df3714c45b774d8dfb808e181e8be6abd8 can: peak_usb: fix potential integer overflow on shift of a int
+e998799ed7f52213cd2e5960e3e0a0f86abd42aa can: flexcan: fix failure handling of pm_runtime_get_sync()
+df574edff98414c83e12eb9beb8284052473484e can: tcan4x5x: replace depends on REGMAP_SPI with depends on SPI
+477a6cd5bfce91f743e957fc4b1f6787d3744d67 can: tcan4x5x: tcan4x5x_can_probe(): add missing error checking for devm_regmap_init()
+47c656abb70e1d106014f0fe18f43fe4aabac90e can: tcan4x5x: tcan4x5x_can_remove(): fix order of deregistration
+b663228b9f0923ce233462b20313f040657d5329 can: m_can: m_can_handle_state_change(): fix state change
+3acfcb2cf0e9a9d50682bbe9263e57a615e1b819 can: m_can: m_can_class_free_dev(): introduce new function
+1a90d163ee8fd3a34192eb16ecf71200b379ef4b can: m_can: m_can_stop(): set device to software init mode before closing
+04d4eecccd9fc805c2a5379976d8a1d6105581f1 ASoC: qcom: lpass-platform: Fix memory leak
+fa91b3050f9d3287be4c5d74a3b43ca4bc56a0e8 selftests/bpf: Fix error return code in run_getsockopt_test()
+42a1adfbfe9bf960ca3336e7bf25168e12c303da MIPS: Alchemy: Fix memleak in alchemy_clk_setup_cpu
+4487ea000737993c07b586a718ad29886ebb357f drm/sun4i: dw-hdmi: fix error return code in sun8i_dw_hdmi_bind()
+dd686c429d8183d7e8e12d8227dbd0188a943c9f net/mlx5: E-Switch, Fail mlx5_esw_modify_vport_rate if qos disabled
+071e5c00797910205478650e744069b779407cc0 bpf, sockmap: Fix partial copy_page_to_iter so progress can still be made
+7e9757f6f68d2f636139adafbdac0faed9a45f0c bpf, sockmap: Ensure SO_RCVBUF memory is observed on ingress redirect
+0f2c22a060d9e5cc22dc3d9d7ab6f707ea441a1c can: kvaser_pciefd: Fix KCAN bittiming limits
+a4764ca7bd8e5a5d794ff4e1493a33956e81c4db can: kvaser_usb: kvaser_usb_hydra: Fix KCAN bittiming limits
+b4d398632f11f0a6d0ee0eda38a00c0f9e7c4888 iommu/vt-d: Move intel_iommu_gfx_mapped to Intel IOMMU header
+d5df3be9c4fc268d37e16de1858abafbaf760a7d iommu/vt-d: Avoid panic if iommu init fails in tboot system
+b117071bcbc907a3b09286c327e592322f048420 can: flexcan: flexcan_chip_start(): fix erroneous flexcan_transceiver_enable() during bus-off recovery
+79899e1d12ac78d9403ad46e6cfdb482f02348d1 can: m_can: process interrupt only when not runtime suspended
+8a45b87c7cacf03a6edecadcb35d8ad547ad898e xfs: fix the minrecs logic when dealing with inode root child blocks
+d0e5b29e878abc33e4ee922726aab0771fdec3b2 xfs: strengthen rmap record flags checking
+86b2bcd8ad0eae1375a4a9f23692680cddab8ece xfs: return corresponding errcode if xfs_initialize_perag() fail
+17d9088b2119e56eafdc2dac6c9574234d94925e regulator: ti-abb: Fix array out of bound read access on the first transition
+eac0e7cc5da10bbc812234781a0b7f8b7140903e fail_function: Remove a redundant mutex unlock
+ffb5b38055d38aca5773188e3831c3b7bdb91526 xfs: revert "xfs: fix rmap key and record comparison functions"
+5777af3e9a3482f18d94cc389dee6b22926f9d6e bpf, sockmap: Skb verdict SK_PASS to self already checked rmem limits
+b574b088aa19b0d5c99f15f224f2160b646eb8c4 bpf, sockmap: On receive programs try to fast track SK_PASS ingress
+d3feba5f1f010901d2ba3485b6157ef7923b33da bpf, sockmap: Use truesize with sk_rmem_schedule()
+fd9b7d8410224d8966b674fbda42cd1e223f024b bpf, sockmap: Avoid returning unneeded EAGAIN when redirecting to self
+9b0b995e3a874b17c631ac645e0e7c4a6d24e02c efi/x86: Free efi_pgd with free_pages()
+c3ae1399c26f662ba5a9239d2c6bd8cf44dd9ea5 libfs: fix error cast of negative value in simple_attr_write()
 
---===============7243656827906544910==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-273f51e620f6-8f29c478fe76.txt
-
-572524b4bdc2168d99cc7bab059dfaf3dcaca2d0 can: ti_hecc: Fix memleak in ti_hecc_probe
-fd1d487c6aa605f0232ab4b174f71ef573d74e66 can: mcba_usb: mcba_usb_start_xmit(): first fill skb, then pass to can_put_echo_skb()
-337dd9f6e316658684e2f58a3144599bf29c6ce1 can: peak_usb: fix potential integer overflow on shift of a int
-813d94986e3bfb67d10d8a59d8a8344204795cd3 can: m_can: m_can_handle_state_change(): fix state change
-3d7c144fb4e4b2eb0ad25478083df9e45e55d558 can: m_can: m_can_stop(): set device to software init mode before closing
-8af19626a22626df1cbfc13136d7fd2096f3097e ASoC: qcom: lpass-platform: Fix memory leak
-eb5518c1e0d54984960ac2c82fb10125aeadc2c1 MIPS: Alchemy: Fix memleak in alchemy_clk_setup_cpu
-7872bce360d77e5077fbdfd93f4f68801a0dd3c9 drm/sun4i: dw-hdmi: fix error return code in sun8i_dw_hdmi_bind()
-d20227dcc35cbdcaf26bb16173193705ecfe5c43 can: kvaser_usb: kvaser_usb_hydra: Fix KCAN bittiming limits
-b6ace7b63262a78711553a0a2c417430cdbf25ac xfs: fix the minrecs logic when dealing with inode root child blocks
-75db23fb0c524f7684bb40b14f023f81c9d6a577 xfs: strengthen rmap record flags checking
-2296d1a122111cfd116192ed0792e3634e8d5162 regulator: ti-abb: Fix array out of bound read access on the first transition
-fd4447b0f1a1e9b207732bd6616f13be1d4b3fbf fail_function: Remove a redundant mutex unlock
-b9550b0df9e4222e60267996abad690edce23d2d xfs: revert "xfs: fix rmap key and record comparison functions"
-3b06cb50e9ccb1889c2016d502c6191c43f3b8de efi/x86: Free efi_pgd with free_pages()
-8f29c478fe765d11083a676d36792911e822f68f libfs: fix error cast of negative value in simple_attr_write()
-
---===============7243656827906544910==--
+--===============3147452581190790570==--
