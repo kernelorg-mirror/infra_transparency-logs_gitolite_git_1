@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sun, 22 Nov 2020 23:34:13 -0000
-Message-Id: <160608805377.8771.6015372512032118854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 22 Nov 2020 23:48:22 -0000
+Message-Id: <160608890226.17273.17776164433316174562@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/queue-5.4
-    old: c3ae1399c26f662ba5a9239d2c6bd8cf44dd9ea5
-    new: 36511e515ac210ce1bdb7a3c968f58967696e338
+  - ref: refs/heads/master
+    old: d5530d82efc8631beff20480b1168b1c44294fe1
+    new: 418baf2c28f3473039f2f7377760bd8f6897ae18
     log: |
-         9474d068400ce86de9a23a1f815d6c1a30f31795 HID: logitech-hidpp: Add PID for MX Anywhere 2
-         43b359d3c21740338817c55e0b1f19c5b80c5d4d HID: logitech-dj: Handle quad/bluetooth keyboards with a builtin trackpad
-         36511e515ac210ce1bdb7a3c968f58967696e338 HID: logitech-dj: Fix Dinovo Mini when paired with a MX5x00 receiver
+         418baf2c28f3473039f2f7377760bd8f6897ae18 Linux 5.10-rc5
          
+  - ref: refs/tags/v5.10-rc5
+    old: 0000000000000000000000000000000000000000
+    new: af69a948d2ce48f8bfe9935958d12f86fb50326b
