@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2309878567096209121=="
+Content-Type: multipart/mixed; boundary="===============8958294844629514714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 22 Nov 2020 10:34:57 -0000
-Message-Id: <160604129745.7584.15905569447250290414@gitolite.kernel.org>
+Date: Sun, 22 Nov 2020 10:50:12 -0000
+Message-Id: <160604221213.17949.15565588999719628549@gitolite.kernel.org>
 
---===============2309878567096209121==
+--===============8958294844629514714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 6d4d56573fae75bf0f878d0fcf564e5709ea117b
     new: 9ea041b5e564b909207110a9edc04b287507756c
     log: revlist-6d4d56573fae-9ea041b5e564.txt
 
---===============2309878567096209121==
+--===============8958294844629514714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -134,4 +134,4 @@ bce6a8cba7bf0fe02b8e2702ecd726812e627d69 Merge branch 'linus'
 215e35de0470b3482e11c695c80eefcc1c2a001f Merge branch 'x86/cleanups'
 9ea041b5e564b909207110a9edc04b287507756c Merge branch 'ras/core'
 
---===============2309878567096209121==--
+--===============8958294844629514714==--
