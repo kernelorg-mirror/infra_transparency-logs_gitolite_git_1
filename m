@@ -1,21 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 23 Nov 2020 21:45:54 -0000
-Message-Id: <160616795422.6121.1553170263282423635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 23 Nov 2020 21:46:22 -0000
+Message-Id: <160616798289.6379.3069977196778309043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 09d18e4a5be056974a1b50a88fb8cbaffc022758
-    new: ebea02734c8b8cb2f7fec6f5888ee080eedc301b
+  - ref: refs/heads/for-linus
+    old: 03cfdb8444c063f17e0b06c3d40afc8ac859d382
+    new: a664a7e5f651e9ff9156f75be3baaee2f664a4e8
     log: |
-         e8056bf01080eeb13b0229f3fa4cb25a5a2de6a5 dt-bindings: arm: remove optional properties for SCMI Regulators
-         0fbeae70ee7ce98e18a47337cd1f205dd88589e9 regulator: add SCMI driver
-         ebea02734c8b8cb2f7fec6f5888ee080eedc301b Merge remote-tracking branch 'regulator/for-5.11' into regulator-next
+         7aca842125c48d90797c619bce84a32650b910d1 Merge remote-tracking branch 'spi/for-5.9' into spi-linus
+         a664a7e5f651e9ff9156f75be3baaee2f664a4e8 Merge remote-tracking branch 'spi/for-5.10' into spi-linus
+         
+  - ref: refs/heads/for-next
+    old: 7ebf7da39f51e2483a4b6da88c475d5ae1ec3db3
+    new: 4d97157ab2d9c9eef2880463a714ca81520adc31
+    log: |
+         2ed6e3bac15242c18bef5af12547a13b25b65ac8 spi: amd: Use devm_platform_ioremap_resource() in amd_spi_probe
+         7aca842125c48d90797c619bce84a32650b910d1 Merge remote-tracking branch 'spi/for-5.9' into spi-linus
+         a664a7e5f651e9ff9156f75be3baaee2f664a4e8 Merge remote-tracking branch 'spi/for-5.10' into spi-linus
+         4d97157ab2d9c9eef2880463a714ca81520adc31 Merge remote-tracking branch 'spi/for-5.11' into spi-next
          
