@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2892243795048718244=="
+Content-Type: multipart/mixed; boundary="===============8458599523102515702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 23 Nov 2020 20:37:32 -0000
-Message-Id: <160616385234.20576.12053696964759244146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 23 Nov 2020 20:37:38 -0000
+Message-Id: <160616385836.20688.13245090762009510886@gitolite.kernel.org>
 
---===============2892243795048718244==
+--===============8458599523102515702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/regulator-5.11
     old: ab97800e088acf34d0014845ed93605dd5c1ea2a
     new: 5d16a4f9540e5af41418adb94a1cec8805226c12
     log: |
@@ -29,28 +29,28 @@ changes:
          5d16a4f9540e5af41418adb94a1cec8805226c12 Merge series "Add support for SCMIv3.0 Voltage Domain Protocol and SCMI-Regulator" from Cristian Marussi <cristian.marussi@arm.com>:
          
 
---===============2892243795048718244==
+--===============8458599523102515702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1606163829 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1606163850-c128e4ca2668b5a2741ec17cf9313397bfb6952a
+pusher C3F436CA30F5D8EB 1606163835 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1606163856-18144f5e3333504effb7d42fa4003b81c2b88084
 
-ab97800e088acf34d0014845ed93605dd5c1ea2a 5d16a4f9540e5af41418adb94a1cec8805226c12 refs/heads/for-5.11
+ab97800e088acf34d0014845ed93605dd5c1ea2a 5d16a4f9540e5af41418adb94a1cec8805226c12 refs/heads/regulator-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+8HXUACgkQJNaLcl1U
-h9A81Qf+OZlX3CnTdWgRs2jlyLTjUDsHd+ZByfc0vojCj2Oaf0+w3w6FL6Nt5SjS
-sfxa1zQamZM4qZaSRT4cahcgDRfIVvRRD2Q2/x/IGLInY1P/s0KpYLsXny9Q6zNk
-w1j9VILy794XN1UbEklfwoSfDUcpTSQ+a/UjqxD5Jh4n7pWX4ef1hVo8OWhm8e++
-0sWwOGMxfdClExJS9zgMYVlNbuW2c59N7y65DCy8K8lZU+BOE6jHgAd9v7JZ0rL1
-1abvnNRCviaM9esV2Jc7f6wgjfx1KkNmVmddFpDExzk8CAsHb0lCgrQFLGLLoCnl
-CmWXhMuOInPPV8GfdrgUJTXgRwNBDA==
-=TSRV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+8HXsACgkQJNaLcl1U
+h9DslQf/UYTFarOza3j8pWZybr13Or1nUndTQvckhJ4HxNQEcFM9A4w8lArVFVUe
+Bmeed9TxHDVm/rjXLpCdYVzYF3klZUEo2ZTom3es3Lk9E/XzHL2sdp82AnxVmZE1
+5Wv3irGhnWAhm1Tg0CY9uTwqiaag14qvh4xMnpSuPyyX2qhnL5G0x+VTw/nsjtkg
+USEegNtJsLdGuRQZXnWKMf4dZaYG2a36Z/bwld5f7bGhJSe52zw4em9TQf5YZuhU
+78+smF8712ud0USLRNAVYs43gWhMu7HkbMa51BpKmV4aZDAe7FfgAKNO1+Ain9pW
+GARm82B7QrksE1g/CbiauMzc9RG2rw==
+=+Xud
 -----END PGP SIGNATURE-----
 
---===============2892243795048718244==--
+--===============8458599523102515702==--
