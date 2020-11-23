@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1814161852503547922=="
+Content-Type: multipart/mixed; boundary="===============8507038666734116646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 23 Nov 2020 21:44:36 -0000
-Message-Id: <160616787609.3810.14779868467406629385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 23 Nov 2020 21:44:42 -0000
+Message-Id: <160616788215.3964.7936010632236690630@gitolite.kernel.org>
 
---===============1814161852503547922==
+--===============8507038666734116646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/regulator-5.11
     old: 5d16a4f9540e5af41418adb94a1cec8805226c12
     new: 0fbeae70ee7ce98e18a47337cd1f205dd88589e9
     log: |
@@ -24,28 +24,28 @@ changes:
          0fbeae70ee7ce98e18a47337cd1f205dd88589e9 regulator: add SCMI driver
          
 
---===============1814161852503547922==
+--===============8507038666734116646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1606167853 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1606167873-aed89595da2f047c639d22abf97d9b84c1130dee
+pusher C3F436CA30F5D8EB 1606167859 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1606167880-eea5c91520f955e460176131685d366664399bd6
 
-5d16a4f9540e5af41418adb94a1cec8805226c12 0fbeae70ee7ce98e18a47337cd1f205dd88589e9 refs/heads/for-5.11
+5d16a4f9540e5af41418adb94a1cec8805226c12 0fbeae70ee7ce98e18a47337cd1f205dd88589e9 refs/heads/regulator-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+8LS0ACgkQJNaLcl1U
-h9AG0Af7BIImBiCa3vqB5QswkgARb35w4Zc7v+5K4dfoYDlySYV0xvf/ZX/agS8K
-qa8nQSnokYnfEA6flK+BUr+zf5D3mSlmR3K22dtDW/U1/HAKaBBPCVB9rCOvQSqN
-UQMYNRa7uiZMDSmjDUiQKQDezRsv8HB8wU5tDiOnzKMA9a9St9B4ubC7OjnUhKpB
-HZUCdFD0vwEhOrSxA0Z5Knp64nYfTrto5oEkSc5S+hlId9nsz6z/OT8sCxuc3Ahq
-SwSvu0efWgOTiRTixe6LDvDdSaJ9m5CJyKkT5q+q6WhSLly0n7ThLmDPRghQpgs3
-I+5/eHVBTxfKXA9A6+ewaUYweUyJzQ==
-=WrK7
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+8LTMACgkQJNaLcl1U
+h9C6fwf+JO6QX/AaB5XEh89KGOvSm0xfL2fej3Q5WIAEBit0fjrWmX9zfzkHFOj5
+Ur9/Yc39ZIh6N/GX9pVWWEcjiOWZtv3gX6qUw2oCAtHOpexRqMweuBDuipMYaQyT
+guwLAOw8EccfWY2jP1+HQYHO+I2P0RJ/cndj92v+2eYNKplZvIk4cLvKyUP9+vyx
+gLfdoC3qWPGEQz5h+rXU5Da048cXgki9OaeotQgLPss4kJBB4HkALmj+ZRj7IWbv
+CcLUQldnhdi0ZCxwWNkwRHYcYPy12Nk7N5kb5lUJcyUdb5XxJ0ECRFvmQNHyc1CW
++NVeqXxzm3aOKQTM8lH9bFBWAfvDVw==
+=M/Nh
 -----END PGP SIGNATURE-----
 
---===============1814161852503547922==--
+--===============8507038666734116646==--
