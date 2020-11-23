@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 23 Nov 2020 20:46:35 -0000
-Message-Id: <160616439572.27623.4536675940958529037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 23 Nov 2020 20:55:01 -0000
+Message-Id: <160616490101.1953.9349467125369041463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/iio-for-5.11a
+  - ref: refs/heads/samsung/drivers
     old: 0000000000000000000000000000000000000000
-    new: 8d72192642ebc5971752404e8f2d7e293b3bf3a3
+    new: 124f035310adc781d91cdf0b7c6e4fb3c7e43e23
