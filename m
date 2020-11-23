@@ -1,102 +1,150 @@
-Content-Type: multipart/mixed; boundary="===============2944995273589563606=="
+Content-Type: multipart/mixed; boundary="===============5592716174482714574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 23 Nov 2020 16:40:10 -0000
-Message-Id: <160614961014.16836.13729497765739996898@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 23 Nov 2020 16:40:11 -0000
+Message-Id: <160614961184.16904.10331634806718141598@gitolite.kernel.org>
 
---===============2944995273589563606==
+--===============5592716174482714574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 2cc9068376373e7ea828f39c64c882c44f7edcbf
-    new: 437d48b4f5da2a0d984b8afa69c1b9e64fe035bd
-    log: revlist-2cc906837637-437d48b4f5da.txt
+  - ref: refs/heads/arm/drivers
+    old: 6bc9d7391ad66cfe70d5fd4b3bc6dc31c713ec36
+    new: d4f97711b3b36e1cb1d3d4b1eea72c1185449adb
+    log: revlist-6bc9d7391ad6-d4f97711b3b3.txt
+  - ref: refs/heads/for-next
+    old: 0d4a574f4e882d761e3cc824922ad32843518770
+    new: 58f15d26574db1e9bf86be64facfced647ef4979
+    log: revlist-0d4a574f4e88-58f15d26574d.txt
+  - ref: refs/heads/arm/dt
+    old: 0000000000000000000000000000000000000000
+    new: c7cf673399144361e696be5bdf5848a7e6f1053a
+  - ref: refs/heads/arm/defconfig
+    old: 0000000000000000000000000000000000000000
+    new: 8195fceca0316c36c87db25750a5c5db84ded4e7
 
---===============2944995273589563606==
+--===============5592716174482714574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2cc906837637-437d48b4f5da.txt
+Content-Disposition: attachment; filename=revlist-6bc9d7391ad6-d4f97711b3b3.txt
 
-022fc5315b7aff69d3df2c953b892a6232642d50 HID: uclogic: Add ID for Trust Flex Design Tablet
-b59f38dbfd5d19eb7e03d8b639f0c0d385ba8cc5 HID: logitech-hidpp: Add PID for MX Anywhere 2
-3c785a06dee99501a17f8e8cf29b2b7e3f1e94ea HID: ite: Replace ABS_MISC 120/121 events with touchpad on/off keypresses
-652f3d00de523a17b0cebe7b90debccf13aa8c31 HID: cypress: Support Varmilo Keyboards' media hotkeys
-1811977cb11354aef8cbd13e35ff50db716728a4 HID: add support for Sega Saturn
-fbc81ec5b85d43a4b22e49ec0e643fa7dec2ea40 efi/arm: set HSCTLR Thumb2 bit correctly for HVC calls from HYP
-fe5186cf12e30facfe261e9be6c7904a170bd822 efivarfs: fix memory leak in efivarfs_create()
-5c7e02a896689407555b3a10d6ed87369c70916e HID: i2c-hid: Put ACPI enumerated devices in D3 on shutdown
-56e4f2dda23c6d39d327944faa89efaa4eb290d1 iio: cros_ec: Use default frequencies when EC returns invalid information
-15207a92e019803d62687455d8aa2ff9eb3dc82c iio: adc: mediatek: fix unset field
-695e2f5c289bb7f8b85351dcfa35fa236e0200a4 iio: adc: stm32-adc: fix a regression when using dma and irq
-271b339236e1c0e6448bc1cafeaedcb529324bf0 counter/ti-eqep: Fix regmap max_register
-fe0b980ffd1dd8b10c09f82385514819ba2a661d iio: imu: st_lsm6dsx: set 10ms as min shub slave timeout
-34a9fa2025d9d3177c99351c7aaf256c5f50691f HID: hid-sensor-hub: Fix issue with devices with no report ID
-567b8e9fed8add9e20885be38ecd73bb0e07406b HID: mcp2221: Fix GPIO output handling
-e2b2e4386cb7a5e935dff388cf8961317daf39ce staging: mt7621-pci: avoid to request pci bus resources
-06ea594051707c6b8834ef5b24e9b0730edd391b staging: ralink-gdma: fix kconfig dependency bug for DMA_RALINK
-aee9dccc5b64e878cf1b18207436e73f66d74157 staging: rtl8723bs: Add 024c:0627 to the list of SDIO device-ids
-c91ebcc578e09783cfa4d85c1b437790f140f29a iio/adc: ingenic: Fix battery VREF for JZ4770 SoC
-6d6aa2907d59ddd3c0ebb2b93e1ddc84e474485b iio/adc: ingenic: Fix AUX/VBAT readings when touchscreen is used
-44a146a44f656fc03d368c1b9248d29a128cd053 iio: light: fix kconfig dependency bug for VCNL4035
-f59ee399de4a8ca4d7d19cdcabb4b63e94867f09 HID: add HID_QUIRK_INCREMENT_USAGE_ON_DUPLICATE for Gamevice devices
-c2fe61d8be491ff8188edaf22e838f819999146b efi/x86: Free efi_pgd with free_pages()
-33f16855dcb973f745c51882d0e286601ff3be2b tty: serial: imx: fix potential deadlock
-d4122754442799187d5d537a9c039a49a67e57f1 speakup: Do not let the line discipline be used several times
-e67c139c488e84e7eae6c333231e791f0e89b3fb tty: serial: imx: keep console clocks always on
-425af483523b76bc78e14674a430579d38b2a593 serial: ar933x_uart: disable clk on error handling path in probe
-ee5e58418a854755201eb4952b1230d873a457d5 HID: logitech-dj: Handle quad/bluetooth keyboards with a builtin trackpad
-c27168a04a438a457c100253b1aaf0c779218aae HID: logitech-hidpp: Add HIDPP_CONSUMER_VENDOR_KEYS quirk for the Dinovo Edge
-7940fb035abd88040d56be209962feffa33b03d0 HID: Add Logitech Dinovo Edge battery quirk
-18db36a073db6377a52e22ec44eb0500f0a0ecc6 docs: ABI: testing: iio: stm32: remove re-introduced unsupported ABI
-11e94f28c3de35d5ad1ac6a242a5b30f4378991a iio: accel: kxcjk1013: Replace is_smo8500_device with an acpi_type enum
-e5b1032a656e9aa4c7a4df77cb9156a2a651a5f9 iio: accel: kxcjk1013: Add support for KIOX010A ACPI DSM for setting tablet-mode
-8986f223bd777a73119f5d593c15b4d630ff49bb iommu/vt-d: Take CONFIG_PCI_ATS into account
-1a371e67dc77125736cc56d3a0893f06b75855b6 x86/microcode/intel: Check patch signature before saving microcode for early loading
-2dde2821b57f12fa8601d35d438b5e300fcbbe1d Merge tag 'iio-fixes-for-5.10a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-linus
-8e1ac4299a6e8726de42310d9c1379f188140c71 sched/fair: Fix overutilized update in enqueue_task_fair()
-f97bb5272d9e95d400d6c8643ebb146b3e3e7842 sched: Fix data-race in wakeup
-ec618b84f6e15281cc3660664d34cd0dd2f2579e sched: Fix rq->nr_iowait ordering
-2279f540ea7d05f22d2f0c4224319330228586bc sched/deadline: Fix priority inheritance with multiple scheduling classes
-43be4388e94b915799a24f0eaf664bf95b85231f lockdep: Put graph lock/unlock under lock_recursion protection
-ebd19fc372e3e78bf165f230e7c084e304441c08 perf/x86: fix sysfs type mismatches
-860aaabac8235cfde10fe556aa82abbbe3117888 x86/dumpstack: Do not try to access user space code of other tasks
-01cf158e48d2b5ce947430de5896c10f4f7c1822 Revert "iommu/vt-d: Take CONFIG_PCI_ATS into account"
-eec231e060fb79923c349f6e89f022b286f32c1e HID: logitech-dj: Fix an error in mse_bluetooth_descriptor
-b4c00e7976636f33a4f67eab436a11666c8afd60 HID: logitech-dj: Fix Dinovo Mini when paired with a MX5x00 receiver
-704c2317cab5571da0e5763cd47ad07f8900aa76 ext4: drop fast_commit from /proc/mounts
-2bf31d94423c8ae3ff58e38a115b177df6940399 jbd2: fix kernel-doc markups
-f902b216501094495ff75834035656e8119c537f ext4: fix bogus warning in ext4_update_dx_flag()
-450677dcb0cce5cb751538360b7196c28b733f3e mm/madvise: fix memory leak from process_madvise
-bc2dc4406c463174613047d8b7946e12c8808cda compiler-clang: remove version check for BPF Tracing
-a927bd6ba952d13c52b8b385030943032f659a3e mm: fix phys_to_target_node() and memory_add_physaddr_to_nid() exports
-4349a83a3190c1d4414371161b0f4a4c3ccd3f9d mm: fix readahead_page_batch for retry entries
-8faeb1ffd79593c9cd8a2a80ecdda371e3b826cb mm: memcg/slab: fix root memcg vmstats
-bfe8cc1db02ab243c62780f17fc57f65bde0afe1 mm/userfaultfd: do not access vma->vm_mm after calling handle_userfault()
-488dac0c9237647e9b8f788b6a342595bfa40bda libfs: fix error cast of negative value in simple_attr_write()
-66383800df9cbdbf3b0c34d5a51bf35bcdb72fd2 mm: fix madvise WILLNEED performance problem
-a9e5c87ca7443d09fb530fffa4d96ce1c76dbe4d afs: Fix speculative status fetch going out of order wrt to modifications
-a7f07fc14f06f98fc5fe1208bac5f6f5bcda2c10 Merge tag 'ext4_for_linus_fixes2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-de758035702576ac0e5ac0f93e3cce77144c3bd3 Merge tag 'tty-5.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
-d27637ece80f25124e0e6871b7b6cb855e1c670c Merge tag 'staging-5.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
-4a51c60a11158961f1291c5b95ff7e4cddfb0353 Merge branch 'akpm' (patches from Andrew)
-7d53be55c9d78feb38b29fbcaf77af1343549cf1 Merge tag 'x86_urgent_for_v5.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-68d3fa235fd83ab0fd36c367c0530d16c764051b Merge tag 'efi-urgent-for-v5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-855cf1ee4726bfa2077b2226bff507babe1c8dff Merge tag 'locking-urgent-2020-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-48da33058975f3a3084390dbef6aecd9bda7db62 Merge tag 'perf-urgent-2020-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-f4b936f5d6fd0625a78a7b4b92e98739a2bdb6f7 Merge tag 'sched-urgent-2020-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d5530d82efc8631beff20480b1168b1c44294fe1 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-418baf2c28f3473039f2f7377760bd8f6897ae18 Linux 5.10-rc5
-e945927dc7c2d844b1955b2ec7ace07d2f6a6dcb firmware: arm_scmi: Remove residual _le structs naming
-f83eb664cdb45169338b9633f22eaafc23764f05 Merge tag 'scmi-voltage-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-next/scmi
-437d48b4f5da2a0d984b8afa69c1b9e64fe035bd Merge branch 'for-next/scmi' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+cf25d802e029c31efac8bdc979236927f37183bd soc: renesas: rmobile-sysc: Fix some leaks in rmobile_init_pm_domains()
+957a1ea3599210e9996777a734ea5284eaef75c7 drm/sun4i: backend: Fix probe failure with multiple backends
+b4bdc4fbf8d01227702068703ae2cd82ff25c3db soc: sunxi: Deal with the MBUS DMA offsets in a central place
+756668ba682ec50639362b081b305f3499bb180c drm/sun4i: backend: Remove the MBUS quirks
+13dd871011503e038a551e09ae004ae0da496a4c media: sun4i: Remove the MBUS quirks
+d60ab69b607ffd72df1a9642cbd451498f924bb4 media: sun6i: Remove the MBUS quirks
+c6e95daab1ccc17a6556c3c2034affbe15db8b3b media: cedrus: Remove the MBUS quirks
+5739301308fd1a4c4b7a561f9bf6c1356e5c0612 media: sun8i-di: Remove the call to of_dma_configure
+16fee29b07358293f135759d9fdbf1267da57ebd dma-mapping: remove the dma_direct_set_offset export
+ec565b0e1a9e9670052c29259b80bfb3c405427e Merge tag 'renesas-drivers-for-v5.11-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/drivers
+d4f97711b3b36e1cb1d3d4b1eea72c1185449adb Merge tag 'sunxi-rework-mbus' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mripard/linux into arm/drivers
 
---===============2944995273589563606==--
+--===============5592716174482714574==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0d4a574f4e88-58f15d26574d.txt
+
+9b533dc8f340f5e9e7f2ed610510b2191d5e447c ARM: dts: r8a7742-iwg21d-q7: Add LCD support
+e8c471588890f9939b23d628e65b7dcb3a856f7a arm64: dts: renesas: Align GPIO hog names with dtschema
+ca3b4330a5437d877e9b0093ba8b746e73695fb0 arm64: dts: renesas: r8a77961: Add MSIOF nodes
+d311d818fa8cfa791d05de9e03b0d9babfc82dd2 ARM: dts: r8a7742-iwg21d-q7-dbcm-ca: Enable VIN instances
+67d3dcf12a3d245b6fd6ca5672893f7ae4e137ed arm64: dts: renesas: hihope-rzg2-ex: Drop rxc-skew-ps from ethernet-phy node
+53e573dc39fba1834f3e4fa002cb754b61a30701 arm64: dts: renesas: cat875: Remove rxc-skew-ps from ethernet-phy node
+622007d172fbb1d7556329bafd72dc28c0baf1b8 arm64: dts: renesas: aistarvision-mipi-adapter-2.1: Add parent macro for each sensor
+05e6ae33cf9834dd2f0ff35001828ca09fe5af26 arm64: dts: renesas: Add support for MIPI Adapter V2.1 connected to HiHope RZ/G2H
+661495164934e15bc8a192f8eafa1ec9655e74f0 arm64: dts: renesas: Add support for MIPI Adapter V2.1 connected to HiHope RZ/G2M
+bdf0c8ea8c63d9e288ff06fc300e2eb8bd332d1c arm64: dts: renesas: Add support for MIPI Adapter V2.1 connected to HiHope RZ/G2N
+cf25d802e029c31efac8bdc979236927f37183bd soc: renesas: rmobile-sysc: Fix some leaks in rmobile_init_pm_domains()
+4a6dbc65f6efa76a10ae6b64ad30ea12a991d7f0 ARM: dts: exynos: Fix schema warnings for pwm-leds
+ecc1ff532b499d20304a4f682247137025814c34 ARM: dts: exynos: fix roles of USB 3.0 ports on Odroid XU
+3d992fd8f4e0f09c980726308d2f2725587b32d6 ARM: dts: exynos: fix USB 3.0 VBUS control and over-current pins on Exynos5410
+bd7e7ff56feea7810df900fb09c9741d259861d9 ARM: dts: exynos: fix USB 3.0 pins supply being turned off on Odroid XU
+4b6533c04ad97abeb6011f3028005aa62bb7737b ARM: dts: exynos: disable pull up of USB 3.0 over-current on Odroid XU
+214a7c874e266f79486f31465077d67957f18010 ARM: dts: exynos: Correct DWC USB3 compatible string
+3e667f65cdc324be140a99179041a08b33ee61f5 ARM: dts: exynos: Harmonize DWC USB3 DT nodes name
+b35f80f2e3229ddc59a616ec0f085ef73278c3bf ARM: dts: exynos: Remove interrupts from DMC controller in Exynos5422
+950d46f7c18a928e17f866a9ce5bf9c1132e5f33 ARM: dts: exynos: Remove 'opp-shared' from Exynos3 bus OPP-tables
+a23beead41a18c3be3ca409cb52f35bc02e601b9 ARM: dts: exynos: Remove 'opp-shared' from Exynos4412 bus OPP-tables
+132e900a47b89c45f760c82f0d0929903b96eb08 ARM: dts: exynos: Enable Bluetooth support for Trats board
+4e77879298541bde7271f1e735933d07fa8ae8bf ARM: dts: exynos: Enable Bluetooth support for Universal C210 board
+d35cdc833bf415d855261ebe2c4a6349f882b265 ARM: dts: exynos: Enable Bluetooth support for Midas board family
+157a5697f6f24aacf8017acd387e3fdc1f4c1950 ARM: dts: exynos: adjust node names to DT spec in Exynos3250 boards
+d918633c8acbd42afb694a6d859f449f4bf9d3bf ARM: dts: exynos: adjust node names to DT spec in Exynos4210 boards
+43552e6d5a6109df05ea038f512a20b45ca5010c ARM: dts: exynos: override GPIO keys node by label in Exynos4412 Odroid family
+108463f568135255e1bd4847f66d41a2c1665920 ARM: dts: exynos: adjust node names to DT spec in Exynos4412 boards
+2d29d03003017a7a556519d2fbcbbffcee0be319 ARM: dts: exynos: remove redundant status=okay in Exynos4412 boards
+5a1323023fb16c0b04efb24a4c85e5f2663172d8 ARM: dts: exynos: adjust node names to DT spec in Exynos5250 boards
+e5fbceb07e3e8e81226b22326756649b127aa78c ARM: dts: exynos: adjust node names to DT spec in Odroid XU
+77c91853a65f689cf4198644452fed151a83e8fd ARM: dts: exynos: adjust node names to DT spec in Exynos542x boards
+b04544ac0d1f2a51e0f3234045343aa741d64e7b ARM: dts: s5pv210: adjust node names to DT spec
+b0c0aa7aa4b919e02e0a24aa3a46dfbf2bbc34dc arm64: dts: rockchip: fix NanoPi R2S GMAC clock name
+01fe332800d0d2f94337b45c1973f4cf28ae6195 arm64: dts: rockchip: Remove system-power-controller from pmic on Odroid Go Advance
+5649789d9706e864b9a2af2c057da5b1706ff3a0 dt-bindings: arm: renesas: Add R-Car M3-W+ ULCB with Kingfisher
+007fda302d771d818347ce85043ae8681b87b6e0 ARM: dts: exynos: Enable DWC2 dual-role support on OdroidU3+ boards
+9ef3a2c5859e02afc67f71cd31ff5177771b48c1 ARM: dts: exynos: Add Ethernet interface description for Odroid XU3 Lite
+dff7ae5c50ebc69929973f948d87de6c661ef42d ARM: dts: exynos: Add Ethernet interface description for Odroid XU
+6eff260412bdf74ede126016f5e0026b7861db77 ARM: dts: exynos: Add Ethernet interface description for Odroid U3
+d9e1af3a13947742cd8bf8007ba22d977a6b170e ARM: dts: exynos: Add Ethernet interface description for Odroid X/X2
+8902a6642771616901ea3f5341926602908eaf3a ARM: dts: exynos: Add a placeholder for a MAC address
+6cbf13e3114c8477021295d338f800282ac0653a ARM: dts: ux500: Rename DSI controller nodes
+2024b130b0c8b09d6086c495910faddbd9c6be02 ARM: dts: exynos: Add Ethernet to Artik 5 board
+0011c6d182774fc781fb9e115ebe8baa356029ae arm64: dts: rockchip: Assign a fixed index to mmc devices on rk3399 boards.
+7327c8b98e2e14c47021eea14d1ab268086a6408 arm64: dts: rockchip: Reorder LED triggers from mmc devices on rk3399-roc-pc.
+c5f883d1a6f3f061eb5d1acbbe2f3cbbe985f6a3 ARM: shmobile: defconfig: Refresh for v5.10-rc1
+bc518da26e3a98d8eaa713b7e51a326eceb3b3fd arm64: defconfig: Enable R8A779A0 SoC
+92494cea405fd2136033c70abd6abf6739b12a2f arm64: dts: renesas: r8a77965: Add DRIF support
+9b81018185965a306158b471db75ba0aca90ec9f arm64: dts: renesas: rcar-gen3: Convert EtherAVB to explicit delay handling
+a5200e63af57d05ed8bf0ffd9a6ffefc40e01e89 arm64: dts: renesas: rzg2: Convert EtherAVB to explicit delay handling
+a511d8be4ea4c59b7eb2c65bd787b7bb90350893 arm64: dts: renesas: cat874: Move connector node out of hd3ss3220 device
+ca8edef172109821aa100763e38d6d8d49bcdf56 arm64: dts: renesas: beacon-renesom-baseboard: Move connector node out of hd3ss3220 device
+f8a1620cb59bbf5d2706290ab2de7021f4eece7c arm64: dts: renesas: r8a77961: Add CAN{0,1} placeholder nodes
+dd8ecc02743cc337ab56014448bacaa763c33074 arm64: dts: renesas: r8a77961: ulcb-kf: Initial device tree
+43bba65761952f58e850d918ee43b648427609bb arm64: dts: renesas: hihope-rev4: Add a comment explaining switch SW2404
+5334df3a4bc50f422684291d045aa2c821d7ff0b ARM: dts: exynos: Add interconnect properties to Exynos4412 bus nodes
+246c1a37f5ff897edec750b6d9325860143cefde ARM: dts: exynos: Add interconnects to Exynos4412 mixer
+b357e6aa41011c003b18637024243bf37a3c7369 ARM: dts: exynos: use hyphens in Exynos3250 node names
+1c6831b472f2e31c42eff579f35a5dd2b5da5435 ARM: dts: exynos: use hyphens in Exynos4 node names
+32f9abc326ee21d8fe01c9979d493c7a92dedd59 ARM: dts: exynos: use generic name for max77693 motor in Midas
+9b846ba7c1d237476267bc2e05d4920691651ca2 ARM: dts: exynos: use hyphens in Exynos5 node names
+73f882a0f3a833d589c1a0b6b83045567244e71e ARM: dts: exynos: use hyphens in MFC reserved memory node names
+e77ce5ec8b9d63bd980ca8a2ab9c28222cacb3ba ARM: dts: ux500: skomer: Pull down SDI2 FBCLK
+2013a4b684b6eb614ee5c9a3c07b0ae6f5ca96d9 arm64: dts: broadcom: clear the warnings caused by empty dma-ranges
+e3389b0a14952aac7f2998bb98f633afb21eaa92 arm64: dts: qcom: clear the warnings caused by empty dma-ranges
+c464e26f2375a5529ec7bad7b38914e1b87df1e2 MAINTAINERS: Remove myself as LPC32xx maintainers
+957a1ea3599210e9996777a734ea5284eaef75c7 drm/sun4i: backend: Fix probe failure with multiple backends
+b4bdc4fbf8d01227702068703ae2cd82ff25c3db soc: sunxi: Deal with the MBUS DMA offsets in a central place
+756668ba682ec50639362b081b305f3499bb180c drm/sun4i: backend: Remove the MBUS quirks
+13dd871011503e038a551e09ae004ae0da496a4c media: sun4i: Remove the MBUS quirks
+d60ab69b607ffd72df1a9642cbd451498f924bb4 media: sun6i: Remove the MBUS quirks
+c6e95daab1ccc17a6556c3c2034affbe15db8b3b media: cedrus: Remove the MBUS quirks
+5739301308fd1a4c4b7a561f9bf6c1356e5c0612 media: sun8i-di: Remove the call to of_dma_configure
+16fee29b07358293f135759d9fdbf1267da57ebd dma-mapping: remove the dma_direct_set_offset export
+ef5704b535194fb98ee1ceb00f6952e2f01e39a6 ARM: dts: ux500-golden: Add proper supplies to touchscreen
+4b44b61a683e7b1100559b238867e544899a97e7 Merge tag 'renesas-arm-defconfig-for-v5.11-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/defconfig
+95f595d1f005918891555818719c91e2fad9fa95 Merge tag 'renesas-arm-dt-for-v5.11-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/dt
+019d70bffd35bc721482ef8312d9dbb7c9702436 Merge tag 'renesas-dt-bindings-for-v5.11-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/dt
+1e548b67828087a29c6b8294629c1620826fba15 Merge tag 'samsung-dt-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/dt
+b2d91953b66c724eaf8d7f84f37c006d966f67ac ARM: dts: add Nuvoton NPCM730 device tree
+c7cf673399144361e696be5bdf5848a7e6f1053a Merge tag 'ux500-dts-for-v5.11-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-stericsson into arm/dt
+a65183ff1535ed15c28c526f6b69ed03c21d34b4 ARM: config: ux500: Update U8500 defconfig
+8195fceca0316c36c87db25750a5c5db84ded4e7 ARM: multi_v7_defconfig: ti: Enable networking options for nfs boot
+ec565b0e1a9e9670052c29259b80bfb3c405427e Merge tag 'renesas-drivers-for-v5.11-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/drivers
+d4f97711b3b36e1cb1d3d4b1eea72c1185449adb Merge tag 'sunxi-rework-mbus' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mripard/linux into arm/drivers
+4765df4d3a132764077a83ed0df4ee4cc7866fbb Merge tag 'v5.10-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+bcc6e3f3804df29457bb7408d152434904edddfd Merge branch 'arm/defconfig' into for-next
+1c7c276e48ad51256bfca68974ae78ee2ac0f557 Merge branch 'arm/drivers' into for-next
+1a6c2918e777548b2a5b03b38bd7ce8a7c87ac90 Merge branch 'arm/dt' into for-next
+8c77ea3e9ad75c61d0e4d7783f5b43e4a6611a1a Merge branch 'arm/fixes' into for-next
+58f15d26574db1e9bf86be64facfced647ef4979 soc: document merges
+
+--===============5592716174482714574==--
