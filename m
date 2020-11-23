@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============8163982465837344534=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 23 Nov 2020 09:21:20 -0000
-Message-Id: <160612328022.27327.1327522990738588271@gitolite.kernel.org>
-
---===============8163982465837344534==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 23 Nov 2020 09:21:55 -0000
+Message-Id: <160612331583.27712.6175091073516128820@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 1fa4d802d408691e6225f6a2af917f752668bc02
-    new: d28462a2aefe11b66afc6a032ccde6f657152368
+    old: 57b74b0dcbaf492aa854aa323cf91122739696b2
+    new: 1e416dc0b9933961e75ac67fa3aed7598273443f
     log: |
-         d28462a2aefe11b66afc6a032ccde6f657152368 4.19-stable patches
+         0eba195d9ebc8f6f69f30c6c579cfb53f194d6b2 setpriv: small clean-up.
+         93de9f687d1640fff963f26b7db474eef3746532 setpriv: allow using [-+]all for capabilities.
+         3a9a6036a4bf09b608cfbc6fabd7e6fe50f396fb libblkid: drbdmanage: use blkid_probe_strncpy_uuid instead of blkid_probe_set_id_label
+         9b9954a9c4dcf26990c3b0672193b2698d345abc Merge branch 'privfix' of https://github.com/ericonr/util-linux
+         1e416dc0b9933961e75ac67fa3aed7598273443f Merge branch 'master' of https://github.com/pali/util-linux
          
-
---===============8163982465837344534==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606123352 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1606123278-6e7b0f39c850160abf977e13007282306bb794bf
-
-1fa4d802d408691e6225f6a2af917f752668bc02 d28462a2aefe11b66afc6a032ccde6f657152368 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+7f1gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2LcQAI5TXOqRkpwrDJEaZyMZ
-m32M1MQugpAw5Gpmg6Fr2i7ZbtWFhenKkyPrNAxkKPPk4jGn5eemhdQyBZEbcx0O
-sYPuc8aRmyQHq0/8A6skfA8+pbQQGiD0CKqRpn889aTI/c6xb0UdHVhmg7wIknOG
-bgJjvs+Ax3Aybwi5/2gRGvepS5CJnNNIfycDku24a9agLjkGlZuFZFdzmR5TUo6G
-igFWSQLGmeRVSyZHpI8goy8btCje7DGOrMaJZfl6lo8rHqvGzsORkAv6/fpvLKXD
-4Q0z3DawNSpJo7AuffaHeRoNFkeYKo6fWcz8iSImpPuEJCOkDUxvJ4H1IuN6ITs7
-Xj93a6wjLj3PkgyWtd2HlwhT6w2Md2ADyNpwlCshvDGxE3DOtXlBb8F7T1pLu4Kb
-Nv6aUaBLRdr53dT1kGq52vrEDdAp9k9a5GMTw5Q+fT94SoXXgjIELl8o0eRUy/yQ
-Cbobz3b4VLzk7tn/OZffE6eoLTlHKOI7mP4l9HXXdt0oxs3ClkEF6Ju836J527Hf
-9bD4cPx2Al8Bp8eIFNNZkOfc56McEMH7VGAiJYdx+KuaPapK9EYSRSu3sfQPUfpM
-pEc1afuUY5GjjzEcQF0Elqwu8FqmEkCTdiVmwMvaD58QGeAvOxBlpBPKVFsPSQ13
-xEKJ4tXp08FZUc3HC3nXLAlz
-=mLoV
------END PGP SIGNATURE-----
-
---===============8163982465837344534==--
