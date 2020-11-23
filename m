@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 23 Nov 2020 23:32:15 -0000
-Message-Id: <160617433514.17303.11311334931274584401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 23 Nov 2020 23:34:14 -0000
+Message-Id: <160617445448.18072.11144528250651430799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: b159e86b5a2ab826b3a292756072f4cc523675ab
-    new: b2d99bcb27225fe420a8923b21861aef2bb43d9b
+  - ref: refs/heads/master
+    old: 418baf2c28f3473039f2f7377760bd8f6897ae18
+    new: d5beb3140f91b1c8a3d41b14d729aefa4dcc58bc
     log: |
-         b2d99bcb27225fe420a8923b21861aef2bb43d9b selinux: Fix fall-through warnings for Clang
+         5f1251a48c17b54939d7477305e39679a565382c video: hyperv_fb: Fix the cache type when mapping the VRAM
+         d5beb3140f91b1c8a3d41b14d729aefa4dcc58bc Merge tag 'hyperv-fixes-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
          
