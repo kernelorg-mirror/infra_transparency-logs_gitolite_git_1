@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3346460325117454632=="
+Content-Type: multipart/mixed; boundary="===============9088643307232430537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 23 Nov 2020 10:05:44 -0000
-Message-Id: <160612594450.29766.239471263797548833@gitolite.kernel.org>
+Date: Mon, 23 Nov 2020 10:05:47 -0000
+Message-Id: <160612594795.29886.13408511257112983082@gitolite.kernel.org>
 
---===============3346460325117454632==
+--===============9088643307232430537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,93 +16,107 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: ce62d3c7a552d9b1e3471a189abcccbfe5b91ac8
-    new: 3f462c48ca1ec8bdc0f8f5e6e46136b9321df36d
-    log: revlist-ce62d3c7a552-3f462c48ca1e.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 0df445b0f0daa57b57571edb1386edc622938276
+    new: 38200695397d12a3c207873a16c7b5f2bc582891
+    log: revlist-0df445b0f0da-38200695397d.txt
 
---===============3346460325117454632==
+--===============9088643307232430537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606126015 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606126018 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1606125941-cf82c15ff7703052c8f2671b83ba6521e7f787e8
+nonce 1606125944-2a5a9f5cfdce833d8cc127faf509ef46417b8d62
 
-ce62d3c7a552d9b1e3471a189abcccbfe5b91ac8 3f462c48ca1ec8bdc0f8f5e6e46136b9321df36d refs/heads/linux-4.9.y
+0df445b0f0daa57b57571edb1386edc622938276 38200695397d12a3c207873a16c7b5f2bc582891 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+7ib8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CfYP/3ux66ARmz6a4LhBh8J3
-BatBoWHLbsAGGAxUqT77e2kuwo4eqL3Gx1moeLNnQjb/F8LUtlZrYiD6iebHfvqX
-ZZyCcsvk7yqOaNWDM19sE6txvmea/6ekJRKHl/nhIqSsBJRk6im14q4o2QY0Cvuh
-wrTBWWCiV30dz331lfMcXqpFWLb5HThsSQssAlFKKx8F27zNRbfW267lFvCFfO0J
-wrw85XPzSbyIdVFbxsOPjQJquoNGsDHS63Xq1Xmyrzyl19gbz8TLmQMAMqhXX0na
-b8M9tDfDdHr7hFqvyy6TZHU+Y4gGmYNtUn/p1r4qrAx9omBS/+Qd4NMZb8Vvcj4Y
-7BVt2mwgT8mLZhvca8xmiFSstCrsV/c4sEbDTKUKYB7HY/AQlN90SiRoSTBlW5r/
-U+GjQ78Rayjp41ldsMNMvuHUNKMln/RR1m9gKRGxXwCYzUcOz9V4RXW//TABFGK6
-30kGY9liaLLgqpcOKvB2NH4Xi4w9Rd7tqItSZENKrx0x/rmJJgxIniz2NM1nQBCp
-6JOLzuuQWbnveRHPK5/F85nDxeP+Ya9h2aEiKV7GoEq8W1qjGZHnzxncovSCU8RB
-KL0JS3Yngz2iCB2yf3GKpGMpK08U2KXj4/9Lt2DFg7t6PZp+qGI5FF1liFQF4cT3
-UlFkFf2uwiFoGzUTES4FMRzz
-=u85R
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+7icIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jBgQANeVq7aZWL8RNIDhMblv
+E+8XvhjQNSzmEwr7cndb2N0PwZX5woTMddYLghJM70foKAyyvjTwCLT9QxnoVDNz
+WMUS/IGBnf+rMWXGkXxWeojyZ38q2aS9WZn/MZGDhdQzPmdI62ogA/1EgL95EFYZ
+zucZs+xk07bKjZ3OF2tJW2gJ3uzf5gWBrfK5Kr9uB0xo+8ClPvvax5/CG9DVf2HY
+J1GtP4otOJrhUGY4RZEi4+b7nNNN9X49M4IDm6SN3CuIzDLi3bEoTYnzFp+RpEdb
+PSVQ0oTXCovIxDxwU0o3SpuEl9mmppodJ1o/5yJZH79eFf5YcxbWPvrc8aTynw5L
+NOC8b/pl4eNu+BRbYIv4qEQP9cd5yZ7exOxaY8VP3ZP2crprvJXbE1i+JRtcmanm
+CSHFM+b7OVgoZYf4fN5Rd1s62RV7YZiYLoEcKKVooJNtt63tlNb6PoLw6XzVjPrV
+3H51T7hKfTi+gzai4ahtloEp2S7yAlqszK+UTWm+htqQXSsTYjRVt7Oi60H7PEUn
+jIj7Y3h9h9ZLURlM8JNZt2oeC2xQz36ZGeYqDTqfEJjTt5XEQuhBkyuyOryk80vn
+Apaduy3+liXT4fE/gXgGlSX955FBrOEbRVefFDaH5LOpmxw/0A1DNb7W2aNt54jY
+OqY2RrKz4X05jhLbot8KTnC1
+=G+oW
 -----END PGP SIGNATURE-----
 
---===============3346460325117454632==
+--===============9088643307232430537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce62d3c7a552-3f462c48ca1e.txt
+Content-Disposition: attachment; filename=revlist-0df445b0f0da-38200695397d.txt
 
-1ffbdf57c744a8b94aae75ee8eb4b12482bcd052 ah6: fix error return code in ah6_input()
-d3a879e83745e6eb9600ec5b2c4e0d3f8a45c91d atm: nicstar: Unmap DMA on send error
-19c0801cf90fc0276fdb591f1d7b4a8eaff9f955 bnxt_en: read EEPROM A2h address using page 0
-8cbf4ba4d2cb01b8fde98c2bf64bbae1a46b520b devlink: Add missing genlmsg_cancel() in devlink_nl_sb_port_pool_fill()
-a95f0159d0dc10772992b7f2a750018a2e04eab7 inet_diag: Fix error path to cancel the meseage in inet_req_diag_fill()
-ae56a5960559c34877ea1e6822c6134c85a3ae88 net: b44: fix error return code in b44_init_one()
-6ccae7ba340c61092b54fa1edb8dda495af08a09 net: bridge: add missing counters to ndo_get_stats64 callback
-5d7567f241d1dbf0464fe8d5682f6ceede5ee6d5 net: Have netpoll bring-up DSA management interface
-b4acbf212fb53b705375332788d6c6119687f239 netlabel: fix our progress tracking in netlbl_unlabel_staticlist()
-49d9976c2bfa3ed79e5a2109293347be12523566 netlabel: fix an uninitialized warning in netlbl_unlabel_staticlist()
-bfbbb105280594ed0203ab1ba5d701efe44b882f net/mlx4_core: Fix init_hca fields offset
-b2e85a7615efa9b71b39118663ea6c2ff9c2162e net: x25: Increase refcnt of "struct x25_neigh" in x25_rx_call_request
-976e853e615087dccfd39faa5f8b59de55417b33 qlcnic: fix error return code in qlcnic_83xx_restart_hw()
-94394e6e7ae5ee9af9b26fedfa0519e99d2de4db sctp: change to hold/put transport for proto_unreach_timer
-ade738f7a247f03a5d28fe94a4a0c1cab3baab8e net: usb: qmi_wwan: Set DTR quirk for MR400
-7887b10d8c70bd94edbd327a5762f3a6dab76d59 tcp: only postpone PROBE_RTT if RTT is < current min_rtt estimate
-a295c59a617ae2d6d71b93911dee582b3827bde5 net: ftgmac100: Fix crash when removing driver
-48f9fa185042cdd091bf7aca3a466fd5942a6bdd mlxsw: core: Use variable timeout for EMAD retries
-804c2fa34b02082f77a40ab651891c894c82686d pinctrl: rockchip: enable gpio pclk for rockchip_gpio_to_irq
-31262ef18c15869682725326cb47e9d2a38ca0d9 arm64: psci: Avoid printing in cpu_psci_cpu_die()
-d6deaf4d57758b2fd4a1084f59c13400c992900b vfs: remove lockdep bogosity in __sb_start_write
-a3dac3e8f3c72d5562afca32f835c8507d6cb0e2 Input: adxl34x - clean up a data type in adxl34x_probe()
-b87328b49b91e1c171bb5c98fe2eafc5d666da9c MIPS: export has_transparent_hugepage() for modules
-78150c4a30b9e725db6e1e6df9623827e8a0cc22 arm: dts: imx6qdl-udoo: fix rgmii phy-mode for ksz9031 phy
-fa099d8f4c5cc0cf2f3f9887564d21d0ba6ba695 ARM: dts: imx50-evk: Fix the chip select 1 IOMUX
-f3e0637e8eddaedc46ebc6e7094f93abdbf3c798 perf lock: Don't free "lock_seq_stat" if read_count isn't zero
-afc20b314734fb7e11cc00f30fde9f0fb9e3b3df can: dev: can_restart(): post buffer from the right context
-e557d73fcfc28516e943744d2d72024deeed2f12 can: peak_usb: fix potential integer overflow on shift of a int
-07cca418c005a5fb037c4101c70cb0d8d0406252 can: m_can: m_can_handle_state_change(): fix state change
-b0dcde6b82fbf826fe75438d8a2f785d202027ab MIPS: Alchemy: Fix memleak in alchemy_clk_setup_cpu
-e88b0efe23a93ebb4474dc3e89db6e9a1e6144c1 regulator: ti-abb: Fix array out of bound read access on the first transition
-a8840b39c76025a2ebe58eed42243dfe9b7415a9 xfs: revert "xfs: fix rmap key and record comparison functions"
-4c618b55d1d861c9a50b876bd624e39e27217f8f libfs: fix error cast of negative value in simple_attr_write()
-6714cd9069d25e535d496a5c932f29116f9cb933 powerpc/uaccess-flush: fix missing includes in kup-radix.h
-eba7a7550c3ca16235bceb770faa2f8a8edb0938 ALSA: ctl: fix error path at adding user-defined element set
-99181fc523d18acfbccc77b46f8366d96da48c7b ALSA: mixart: Fix mutex deadlock
-afa1d25357b7d6f65555f87fa105733c9d08a152 tty: serial: imx: keep console clocks always on
-e299f5a3628a965a47a9d0cb16c31b86de83550e efivarfs: fix memory leak in efivarfs_create()
-213c73f06b096810e8c71c81985d103ac3af918e ext4: fix bogus warning in ext4_update_dx_flag()
-abdc2402b7abf192f4dfee21156425c11aad175b iio: accel: kxcjk1013: Replace is_smo8500_device with an acpi_type enum
-ed4c75bad43d4b2ad7990577b5d599290a0b6574 regulator: fix memory leak with repeated set_machine_constraints()
-853280163d610ca7bdae537ed550ba039a7ffcc6 xtensa: disable preemption around cache alias management calls
-4c5b64578a69146d40fa4703cbd5534b9ab3aae2 mac80211: minstrel: remove deferred sampling code
-8eb94eb3fbec1f0c37f1b27fb3c68c80ee5d58dc mac80211: minstrel: fix tx status processing corner case
-20a8147b925e72bed0e1562d6d05a8cffd06a240 mac80211: free sta in sta_info_insert_finish() on errors
-d216b61a3891c25ebbb810185189b1d48dd4e59f s390/cpum_sf.c: fix file permission for cpum_sfb_size
-3f462c48ca1ec8bdc0f8f5e6e46136b9321df36d Linux 4.9.246-rc1
+19e54441b1f5a44013d95c1347be79b332167272 ah6: fix error return code in ah6_input()
+65c0b11e67dc892827081d154e5c47adc929944b atm: nicstar: Unmap DMA on send error
+e65ea861edce052bbf93050188aee92147aa92fb bnxt_en: read EEPROM A2h address using page 0
+ca4a47793078fdb5bfea12d6517cb9d8eb453c9b devlink: Add missing genlmsg_cancel() in devlink_nl_sb_port_pool_fill()
+4fe78208cc81f3b8dc1e7814a480f379dd02f8b8 inet_diag: Fix error path to cancel the meseage in inet_req_diag_fill()
+e4c769ae2b8b503832282f0e4c19814bc3fe806c mlxsw: core: Use variable timeout for EMAD retries
+15a258b2acf8221d5183b976e50112dc980031ae net: b44: fix error return code in b44_init_one()
+b3f47040d9a0193b58435f8bfec7207c3c2c3fc0 net: bridge: add missing counters to ndo_get_stats64 callback
+e3a25a2aea0965c96df7dfbd2945375622cbf30d net: dsa: mv88e6xxx: Avoid VTU corruption on 6097
+bf3bc5500507b3beb0f9dc1d2e8c67d642fcafdb net: Have netpoll bring-up DSA management interface
+9fe24c67b97dde7335b053467235a33bf5fc06e7 netlabel: fix our progress tracking in netlbl_unlabel_staticlist()
+55cf46448388cb2b1c8afba802a5d7404cb212b3 netlabel: fix an uninitialized warning in netlbl_unlabel_staticlist()
+dfd9c68175b85d23db4f3012d6d0c110035232be net/mlx4_core: Fix init_hca fields offset
+980ac7c8f652fdea3c4f694cc4887896c8de85ec net: x25: Increase refcnt of "struct x25_neigh" in x25_rx_call_request
+3a66234e6b4b48290b182567e6e9b9a218fd6caa qlcnic: fix error return code in qlcnic_83xx_restart_hw()
+8a4d0ba9965cae7e32797b2e1a6b83b9c6fc4808 sctp: change to hold/put transport for proto_unreach_timer
+f5cb357bea2f20b7a8095bcc814da9c88a920371 net/mlx5: Disable QoS when min_rates on all VFs are zero
+8c28fa67b26e914b6307477ca6b9d2e0d2b43cec net: usb: qmi_wwan: Set DTR quirk for MR400
+2cd32f310dc67ae9a9129bb2ea545ce326fea5d2 tcp: only postpone PROBE_RTT if RTT is < current min_rtt estimate
+ee9193b9c1b9ccd597c21e34533e3260fd9a4156 net: ftgmac100: Fix crash when removing driver
+ecfa52414545d7348dbabb0835f0588e6ada54e9 pinctrl: rockchip: enable gpio pclk for rockchip_gpio_to_irq
+b984a50d402d6e73d6c55c104179e041ff2bd44d arm64: psci: Avoid printing in cpu_psci_cpu_die()
+b26d4c1c26c9b5e0cdde782d0dbd4e644ad51984 vfs: remove lockdep bogosity in __sb_start_write
+bf80de4fa1a220a75e3600ee75f4097526d3f04c Input: adxl34x - clean up a data type in adxl34x_probe()
+83e00fd35e6846a898f02c0cfcc0f0ce931b3483 MIPS: export has_transparent_hugepage() for modules
+d403a36f8fd1d2ca27402b79f638c208a6898770 arm: dts: imx6qdl-udoo: fix rgmii phy-mode for ksz9031 phy
+61e25388995ceec3122f3ff75d5a3fca1cc20d62 ARM: dts: imx50-evk: Fix the chip select 1 IOMUX
+d07a417421f93c3d0248702c306f3fa85320b92e perf lock: Don't free "lock_seq_stat" if read_count isn't zero
+364a6a47703417d39ede69fddcc21a1a11f6dc48 can: af_can: prevent potential access of uninitialized member in can_rcv()
+b2b9559999168cfb340c27a0125e18c55d09b94c can: af_can: prevent potential access of uninitialized member in canfd_rcv()
+08ae677987db65b417027d28d3c1c093cab5e0ca can: dev: can_restart(): post buffer from the right context
+d04ea93ad049f9a6a20d42700482b9b2a862f4f2 can: ti_hecc: Fix memleak in ti_hecc_probe
+760b9157a438c4ef83bb55c241ded4259705edf2 can: mcba_usb: mcba_usb_start_xmit(): first fill skb, then pass to can_put_echo_skb()
+df6aed75555ba59a16e0abc61a8b1831c714f7c3 can: peak_usb: fix potential integer overflow on shift of a int
+39bfc47fbbc575990a05468181f239871c82c263 can: m_can: m_can_handle_state_change(): fix state change
+6a7ce51708c151f412b1eceef7bc93b00f972762 ASoC: qcom: lpass-platform: Fix memory leak
+266a17f4555ed420b44822ee8f655a783c3f88e4 MIPS: Alchemy: Fix memleak in alchemy_clk_setup_cpu
+9e08f8eec145a7393e2accdf41e1772a8bb051d9 regulator: ti-abb: Fix array out of bound read access on the first transition
+7317b38007c0d44264a19a6655c673265fb70225 xfs: revert "xfs: fix rmap key and record comparison functions"
+ea25e93d08986f77dbcedd13cc94dd051043af92 libfs: fix error cast of negative value in simple_attr_write()
+700e17c1bdaf2b28b1dbadb6090745cf2824375f powerpc/uaccess-flush: fix missing includes in kup-radix.h
+9a75b9fe73fa2167797e3358a3beeaab3f8450a5 speakup: Do not let the line discipline be used several times
+ba7caa76701ce7fa7f74c46946a229167d0e7f25 ALSA: ctl: fix error path at adding user-defined element set
+49c7221c01b8f848e43bb37293fee29ddded958c ALSA: mixart: Fix mutex deadlock
+2c1b84dfe4319dc678186d9c200bd3e4d47f9302 tty: serial: imx: keep console clocks always on
+3897d5059c28db09a2d7ce966d1be3a9657142c6 efivarfs: fix memory leak in efivarfs_create()
+f3a3efbf0131276a313f0a401df470309aa0fceb staging: rtl8723bs: Add 024c:0627 to the list of SDIO device-ids
+9b44ca124ee893030622b336f558567e54d460c0 ext4: fix bogus warning in ext4_update_dx_flag()
+1ce6cd669536b4e4724c2cd2ef25fe2573df0f29 iio: accel: kxcjk1013: Replace is_smo8500_device with an acpi_type enum
+a0d3d3cfc4f3d7105c12fd22bbe733b48557e4a2 iio: accel: kxcjk1013: Add support for KIOX010A ACPI DSM for setting tablet-mode
+5ed36bb41d9b73c29a2558e335e479f9ddad6031 regulator: fix memory leak with repeated set_machine_constraints()
+33e4189ac3260fa0acf03a86e0b6c17a486a3b06 regulator: avoid resolve_supply() infinite recursion
+ff601722df8f3730b7961fa0e8b97c78b9662cd6 regulator: workaround self-referent regulators
+1c0fba543aa8e5bc626014d2457511255097a796 xtensa: disable preemption around cache alias management calls
+df1c8d6306be224a2d8c6f3bbdc58ba35e458f19 mac80211: minstrel: remove deferred sampling code
+539926c6c0fcc54f44d783646f66c1345cd7b616 mac80211: minstrel: fix tx status processing corner case
+722e94695a30acdd46f97589a285dd5e5a8ec324 mac80211: free sta in sta_info_insert_finish() on errors
+219c18694133e7484ba21cb5a80f43ce37a3108b s390/cpum_sf.c: fix file permission for cpum_sfb_size
+f4f5bf477242dff9eaa3d1ad994feb0d79c1a73f s390/dasd: fix null pointer dereference for ERP requests
+c97089f3125b224f23b94bc98c944696e00c56e1 x86/microcode/intel: Check patch signature before saving microcode for early loading
+38200695397d12a3c207873a16c7b5f2bc582891 Linux 4.14.209-rc1
 
---===============3346460325117454632==--
+--===============9088643307232430537==--
