@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4465656108803306722=="
+Content-Type: multipart/mixed; boundary="===============8384763660034279628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 23 Nov 2020 10:28:47 -0000
-Message-Id: <160612732784.13728.15799981172261818590@gitolite.kernel.org>
+Date: Mon, 23 Nov 2020 10:28:52 -0000
+Message-Id: <160612733283.13815.4088506018907160091@gitolite.kernel.org>
 
---===============4465656108803306722==
+--===============8384763660034279628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,40 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 8ae0b65ac7e5b7a93b8d6abc520351ca11d91867
-    new: 76b94c694ff08f0f06f92e7a86d0737d3f23e96b
-    log: |
-         8bbc46570d1a241a5c6d9c66e013ae8be99b4f32 m68k/mac: Refactor iop_preinit() and iop_init()
-         394375edcc234b2052ca3e0be08474e9cce8bfbc m68k/mac: Remove dead code
-         82f3a9b0733d6619d703179f4be555bf1895f1b5 m68k/mac: Remove redundant VIA register writes
-         199350aa4c453612a7323c85fd7a471fbfe3c9c2 m68k/mac: Update Kconfig help
-         99c376837a9006f2dea7caf65dc61a10132e7fd4 m68k: Drop redundant NOTES in link script
-         49d955ee8d1f23b7391b18378185c5520be3b447 m68k: Add a missing ELF_DETAILS in link script
-         76b94c694ff08f0f06f92e7a86d0737d3f23e96b m68k: Fix WARNING splat in pmac_zilog driver
-         
-  - ref: refs/heads/for-v5.11
-    old: 8ae0b65ac7e5b7a93b8d6abc520351ca11d91867
-    new: 76b94c694ff08f0f06f92e7a86d0737d3f23e96b
-    log: |
-         8bbc46570d1a241a5c6d9c66e013ae8be99b4f32 m68k/mac: Refactor iop_preinit() and iop_init()
-         394375edcc234b2052ca3e0be08474e9cce8bfbc m68k/mac: Remove dead code
-         82f3a9b0733d6619d703179f4be555bf1895f1b5 m68k/mac: Remove redundant VIA register writes
-         199350aa4c453612a7323c85fd7a471fbfe3c9c2 m68k/mac: Update Kconfig help
-         99c376837a9006f2dea7caf65dc61a10132e7fd4 m68k: Drop redundant NOTES in link script
-         49d955ee8d1f23b7391b18378185c5520be3b447 m68k: Add a missing ELF_DETAILS in link script
-         76b94c694ff08f0f06f92e7a86d0737d3f23e96b m68k: Fix WARNING splat in pmac_zilog driver
-         
-  - ref: refs/heads/master
-    old: 9006915d53a2cbba04b1b440a0a42009131b7451
-    new: 8eacbf0c2462eb593b7fd2f20897524849869855
-    log: revlist-9006915d53a2-8eacbf0c2462.txt
+  - ref: refs/heads/m68k-queue
+    old: 6473df0aff63e810323978dfb589a1c635fc4176
+    new: 10af95b89c42f98a5994e5009f85b653b0c57003
+    log: revlist-6473df0aff63-10af95b89c42.txt
 
---===============4465656108803306722==
+--===============8384763660034279628==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9006915d53a2-8eacbf0c2462.txt
+Content-Disposition: attachment; filename=revlist-6473df0aff63-10af95b89c42.txt
 
 022fc5315b7aff69d3df2c953b892a6232642d50 HID: uclogic: Add ID for Trust Flex Design Tablet
 b59f38dbfd5d19eb7e03d8b639f0c0d385ba8cc5 HID: logitech-hidpp: Add PID for MX Anywhere 2
@@ -503,13 +479,17 @@ d27637ece80f25124e0e6871b7b6cb855e1c670c Merge tag 'staging-5.10-rc5' of git://g
 f4b936f5d6fd0625a78a7b4b92e98739a2bdb6f7 Merge tag 'sched-urgent-2020-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d5530d82efc8631beff20480b1168b1c44294fe1 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 418baf2c28f3473039f2f7377760bd8f6897ae18 Linux 5.10-rc5
-72272a9bbe65e8db14d43e4cc2982dd7bec84427 Merge tag 'v5.10-rc5'
-1fc1c1ee3a522f11c65bb82b1301d41d4904f381 m68k/mac: Refactor iop_preinit() and iop_init()
-88c135c21842fa3665182ecbf560d1b826f2c4e4 m68k/mac: Remove dead code
-7b2932e9b27bd71aecc067300a80d82d412bbbb2 m68k/mac: Remove redundant VIA register writes
-ffe49d51b392c93778a123389c52fa8f5164c07c m68k/mac: Update Kconfig help
-dcd0f3768675635bc9e6d9c08d13669cb5629de6 m68k: Drop redundant NOTES in link script
-f248ca56ee2c51339d5cd0fb1f94fad2329e0904 m68k: Add a missing ELF_DETAILS in link script
-8eacbf0c2462eb593b7fd2f20897524849869855 m68k: Fix WARNING splat in pmac_zilog driver
+3dca163f7b21b5f94a849d0b671e7e16d0bac5a1 m68k: Avoid xchg() warning
+822219907b1783ae568e094331473695f1974f4f m68k: Remove unused mach_max_dma_address
+6b3da5661d744bd45379dbc231cb49e0c753bea3 m68k/mac: Refactor iop_preinit() and iop_init()
+ec94151e3b1e152a3b17c44357d759bf89eb8d5f m68k/mac: Remove dead code
+b139e2a1072d82cc8ccba6c12d09ec17fd545a3a m68k/mac: Remove redundant VIA register writes
+a074363ba1b17dd9d8ebc82cf7f22acdbce386e4 m68k/mac: Update Kconfig help
+ab82eeb3d546d9426376f294b213d4ad9c57ace5 m68k: Drop redundant NOTES in link script
+b80ae3bea1c7050b0f557fd5c496d8a9cb60c438 m68k: Add a missing ELF_DETAILS in link script
+1af4cf2ccf35a8ebfb8dd7c57352d287d8ff8c80 m68k: Fix WARNING splat in pmac_zilog driver
+215d934b849fe6a240a081dcfd07f12785765f35 m68k: atari: usb: Add ISP1160 USB host controller support
+65415a5561682354d3f7301490844cead25305b5 m68k: atari: Update Kconfig.bus help text
+10af95b89c42f98a5994e5009f85b653b0c57003 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4465656108803306722==--
+--===============8384763660034279628==--
