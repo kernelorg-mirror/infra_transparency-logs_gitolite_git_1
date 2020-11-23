@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vgupta/arc
-Date: Mon, 23 Nov 2020 01:08:26 -0000
-Message-Id: <160609370603.10166.7395511112688437262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Mon, 23 Nov 2020 01:16:06 -0000
+Message-Id: <160609416626.16489.13754206010812254350@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vgupta/arc
-user: vgupta
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/for-curr
-    old: 3b57533b460c8dc22a432684b7e8d22571f34d2e
-    new: f737561c709667013d832316dd3198a7fe3d1260
+  - ref: refs/heads/exynos-drm-fixes
+    old: 6600f9d52213b5c3455481b5c9e61cf5e305c0e6
+    new: e2d3d2e904ad3d381753798dcd5cae03e3c47242
     log: |
-         78aec9bb1f3c79e4570eb50260d6320063f823a2 ARC: bitops: Remove unecessary operation and value
-         5f840df591a9554e4e1355ef1f8946bc2120ca9f ARC: mm: fix spelling mistakes
-         e42404fa10fd11fe72d0a0e149a321d10e577715 ARC: stack unwinding: don't assume non-current task is sleeping
-         f737561c709667013d832316dd3198a7fe3d1260 ARC: stack unwinding: reorganize how initial register state setup
+         e2d3d2e904ad3d381753798dcd5cae03e3c47242 drm/exynos: depend on COMMON_CLK to fix compile tests
          
