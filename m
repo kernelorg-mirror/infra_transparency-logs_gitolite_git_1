@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6026568527178835447=="
+Content-Type: multipart/mixed; boundary="===============0721792444511370058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 23 Nov 2020 05:39:48 -0000
-Message-Id: <160610998868.31178.14325747396681237122@gitolite.kernel.org>
+Date: Mon, 23 Nov 2020 05:43:47 -0000
+Message-Id: <160611022766.1787.1132340901776718151@gitolite.kernel.org>
 
---===============6026568527178835447==
+--===============0721792444511370058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,34 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
-    new: 418baf2c28f3473039f2f7377760bd8f6897ae18
-    log: revlist-3650b228f83a-418baf2c28f3.txt
-  - ref: refs/tags/v5.10-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 27598e7e73260ed0b2917eb02d4a515ebb578313
-  - ref: refs/tags/v5.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 4d3d761b5b27bb33a731e8df51b7fb6a6c565804
-  - ref: refs/tags/v5.10-rc4
-    old: 0000000000000000000000000000000000000000
-    new: a93711503472d4c89977ce2c80dcd4b75e36cc45
-  - ref: refs/tags/v5.10-rc5
-    old: 0000000000000000000000000000000000000000
-    new: af69a948d2ce48f8bfe9935958d12f86fb50326b
+  - ref: refs/heads/kconfig
+    old: 729e39a558eb5cde61b80941bdfa54fdc2e11d1d
+    new: 0ce21d58b7afbc2ebc65003be65b00fc2dacbe9f
+    log: revlist-729e39a558eb-0ce21d58b7af.txt
 
---===============6026568527178835447==
+--===============0721792444511370058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3650b228f83a-418baf2c28f3.txt
+Content-Disposition: attachment; filename=revlist-729e39a558eb-0ce21d58b7af.txt
 
-aa4e460f0976351fddd2f5ac6e08b74320c277a1 lib/crc32test: remove extra local_irq_disable/enable
-a77eedbc871ee3b435bffc30b123b60eecca402c mm/truncate.c: make __invalidate_mapping_pages() static
-6993d0fdbee0eb38bfac350aa016f65ad11ed3b1 kthread_worker: prevent queuing delayed work from timer_fn when it is being canceled
-66606567dedf395e0857f531976efad4cbbd39ea mm, oom: keep oom_adj under or at upper limit when printing
-f8f6ae5d077a9bdaf5cbf2ac960a5d1a04b47482 mm: always have io_remap_pfn_range() set pgprot_decrypted()
 afabdf3338728c3aaa9f55d127e903dcd5f4acc7 epoll: add a selftest for epoll timeout race
 3b70ae4f5c4e050bdebeeefe0c369524f37917cf kernel/hung_task.c: make type annotations consistent
 6bd1c7bd4ee7b17980cdc347522dcb76feac9b98 gfs2: Don't call cancel_delayed_work_sync from within delete work function
@@ -1062,5 +1045,10 @@ d27637ece80f25124e0e6871b7b6cb855e1c670c Merge tag 'staging-5.10-rc5' of git://g
 f4b936f5d6fd0625a78a7b4b92e98739a2bdb6f7 Merge tag 'sched-urgent-2020-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d5530d82efc8631beff20480b1168b1c44294fe1 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 418baf2c28f3473039f2f7377760bd8f6897ae18 Linux 5.10-rc5
+b7bd0b74ba3e2177c225d26a0a3e9050d4664a51 kconfig: qconf: drop Qt4 support
+51add7fd9d3dbe0e66837041d31e8ef005d0b6e8 kconfig: qconf: use a variable to pass packages to pkg-config
+fc44645a4f397e04359845af540ff40148ca0379 kconfig: qconf: convert to Qt5 new signal/slot connection syntax
+9da2d4e4acecc73f568254c91cef4faa93d00490 kconfig: make lkc.h self-sufficient #include-wise
+0ce21d58b7afbc2ebc65003be65b00fc2dacbe9f kconfig: qconf: show Qt version in the About dialog
 
---===============6026568527178835447==--
+--===============0721792444511370058==--
