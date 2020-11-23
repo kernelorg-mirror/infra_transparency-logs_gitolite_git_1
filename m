@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 23 Nov 2020 05:55:54 -0000
-Message-Id: <160611095465.13000.13332112479302972654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Mon, 23 Nov 2020 05:56:27 -0000
+Message-Id: <160611098723.13336.10543604601736212153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
   - ref: refs/heads/master
-    old: 5ef9b068ec4920583c62c2d0994995743a5f8e44
-    new: 62d506c7a26c76ed632289b5bec25517a21c6f31
+    old: 3aa40a1ad36717114d9a267b08d884a387489fab
+    new: 59bbf83835f591b95c3bdd09d900f3584fa227af
     log: |
-         1876c40aedc8184ac7470a1a809eac3572d01c66 lseek64.3: srcfix: Add a lore link to some background on these APIs
-         62d506c7a26c76ed632289b5bec25517a21c6f31 getnameinfo.3: tfix
+         59bbf83835f591b95c3bdd09d900f3584fa227af Input: omap4-keypad - fix runtime PM error handling
+         
+  - ref: refs/heads/next
+    old: 3aa40a1ad36717114d9a267b08d884a387489fab
+    new: 59bbf83835f591b95c3bdd09d900f3584fa227af
+    log: |
+         59bbf83835f591b95c3bdd09d900f3584fa227af Input: omap4-keypad - fix runtime PM error handling
          
