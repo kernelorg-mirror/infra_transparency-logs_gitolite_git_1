@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5451124504659956026=="
+Content-Type: multipart/mixed; boundary="===============9135889661662720220=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 23 Nov 2020 18:50:43 -0000
-Message-Id: <160615744327.9936.433695696161354039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 23 Nov 2020 18:52:47 -0000
+Message-Id: <160615756775.10764.5816629250972992155@gitolite.kernel.org>
 
---===============5451124504659956026==
+--===============9135889661662720220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 99c8ff2ae97fbbcfe0d3b977bfa7e4d3d8702712
-    new: ff5add06dbadf07a81cad191040afb9b465054a9
+  - ref: refs/heads/char-misc-linus
+    old: ef3f0caf243075ac255b69054cbf48b65eadb0d4
+    new: 4daeb2ae5cd8a7552ea9805792c86036298ed33d
     log: |
-         ff5add06dbadf07a81cad191040afb9b465054a9 drop compiler.h-fix-barrier_data-on-clang.patch from 5.4
+         652b44453ea953d3157f02a7f17e18e329952649 habanalabs/gaudi: fix missing code in ECC handling
+         4daeb2ae5cd8a7552ea9805792c86036298ed33d Merge tag 'misc-habanalabs-fixes-2020-11-23' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-linus
          
 
---===============5451124504659956026==
+--===============9135889661662720220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606157439 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1606157438-ad2962219c4b13e2a5c0ae6795647a748b22e625
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606157556 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1606157555-32a8cd1a059a42e6b2ba6f2872cf5ec145a87bd6
 
-99c8ff2ae97fbbcfe0d3b977bfa7e4d3d8702712 ff5add06dbadf07a81cad191040afb9b465054a9 refs/heads/master
+ef3f0caf243075ac255b69054cbf48b65eadb0d4 4daeb2ae5cd8a7552ea9805792c86036298ed33d refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+8BH8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zSQP/0o6iTDvxBFlfikyprKa
-DrgPcG2kDX69o+Aibgrnfe96Cz9h6EY5aub9z3w9F5ED+SLufPx6tJUD3nMcuoSk
-PicwWZK8C0EyGaF49jW1Ytxa7gWzRvfZJcKm8np4KBuHAvPhQQmSwaTt2lGdqDac
-j89woT+Q4yWta4H1igatV1t7H8OoBoB43vDafX035oQliXZYD8Ibx6Z8ODXD9BKA
-n0Q9f8QNwYrKAWtzOJLgQlNOpOxhxhBsunOUYxLuaGALudr3jgo3eevwOiazWiw8
-Cz+ZgKOu0saQ8MWW8R1MJT2sV+Tpz7iCm8Xc7w4kKtewoshR71Ayq6EFOSW+Z7az
-BUo7746w5TWBUM9pqMOgpBIL0zlZRAWfsuZyipgeOW5GeJx+um4WVWpA3OxOTuqq
-jsuOwoNuvXNsPabt9xtDxtukYfY8PlFWwSze5JZ0RhMvUJt4RxiLEkOihDstKJw0
-p6Tj0+DcDNPeCTSBXbWYKWbtNNbJOZ4QlVDxRXIjmXoLlvrus1MD8V8foovCFddV
-IWbS7owkor6Ne5LfP6mfw32hnsAqKjwxTPlHlav7kwSZAdZW7u8klqOj+c1wmZhX
-nsoPAUur8UP3kQ9K6qF0Tcv/uY1KmsrBIkzPgOwkeArlHYk0ZWLwGmpa3sWpKTVG
-CP++AP6qsXEkoBgm0sPt4uPI
-=3eoi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+8BPQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XoQQALxSxuQcmf2o/fvqF7I7
+XC6IzwSmBgbD2ytFajltD6b20y1QMwK8zP21FeLmladWS/ALgCogGQwxipFI1X92
+Ikg2JZFlL00cIzJ/x90pIfe+TbdcUicrI4w77MSXLuzbUBTz2XioLpn7MRy4auw5
+QwXBBldS3d6MtUO+TOL8uBYUXxo1sRnO0dGeheIUkumTbCGYKIhftjaGLrIU55P3
+SbFqExY7zUDj1nKksMOLpWe6kyU44Hl2eYuXVGxxEdXTdRZ1YiPirs1YIglFsf/a
+qCvtgl1hvzuUmPVXmNOQppSai1edkJ8XEc70g6tl/P+lc0C0xGSFQmI/+GBPjc9x
+KW5QE2Mo6UdPfhUJ0PgO3JhVR6DGK8Gb0RrsupNWkbLJZuE7GuhPCosmVPBU/0Mt
+djZU2jjIu5pFdIutA0/QjvjTYpgjeaEyldge/cElOUhBjKQRZAYhUWPjbUKCGcaE
++VT/jzPhMJmRemA1tWJynyIvuzE/cM28itXHt4haEodib9iqFnPu/vZmbfwddsmo
+VqeCKj4oJbyrP6r/k/vNK85lTSgk+d+wwVlii5S3udtOaZt5hUe2+sKUcGRdfGKa
+gleZEITLnwrC1Pj8FUUVxTu1/I+62YOHSM9kgsmyzJ1DGcNjT4PJrF33Dw8ME3HG
+1SZ6gcWn2kk4Lvjk+VZjrH9O
+=YBis
 -----END PGP SIGNATURE-----
 
---===============5451124504659956026==--
+--===============9135889661662720220==--
