@@ -1,53 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5597510529002892782=="
+Content-Type: multipart/mixed; boundary="===============6440815539781222607=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Mon, 23 Nov 2020 22:53:19 -0000
-Message-Id: <160617199908.21772.11202737431038404405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 23 Nov 2020 23:28:45 -0000
+Message-Id: <160617412572.14732.12587530749543572693@gitolite.kernel.org>
 
---===============5597510529002892782==
+--===============6440815539781222607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/urgent
-    old: c2fe61d8be491ff8188edaf22e838f819999146b
-    new: 03127eae7a6706f2bcdf2117d79b490b35b27c44
-    log: |
-         03127eae7a6706f2bcdf2117d79b490b35b27c44 efi/efivars: Set generic ops before loading SSDT
-         
+  - ref: refs/heads/master
+    old: f9b036532108d60925ef5d696a8463097abbc59a
+    new: 1eae77bfad7a0ded0f70d56f360ca59571a8cf4d
+    log: revlist-f9b036532108-1eae77bfad7a.txt
 
---===============5597510529002892782==
+--===============6440815539781222607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f9b036532108-1eae77bfad7a.txt
 
-certificate version 0.1
-pusher 0x3D200E9CA6329909 1606171996 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-nonce 1606171996-ce8fe3b9ae0591969efe624ed237fa453a2e4a1a
+ddcd945e556e2cc6be8f88ef0271b56927ffbe98 rtw88: fix fw_fifo_addr check
+04516706bb99889986ddfa3a769ed50d2dc7ac13 iwlwifi: pcie: limit memory read spin time
+397a973b9978533418892c6453853c52b2ad8ec6 MAINTAINERS: update Yan-Hsuan's email address
+d85b4b2bf2d4229847d76cfd81e48d5beb72f75b MAINTAINERS: update maintainers list for Cypress
+c8a2e7a29702fe4626b7aa81149b7b7164e20606 iwlwifi: sta: set max HE max A-MPDU according to HE capa
+fb8d1b6e97980057b7ebed444b8950e57f268a67 iwlwifi: mvm: use the HOT_SPOT_CMD to cancel an AUX ROC
+1cf260e3a75b87726ec609ad1b6b88f515749786 iwlwifi: mvm: properly cancel a session protection for P2P
+97cc16943f23078535fdbce4f6391b948b4ccc08 iwlwifi: mvm: write queue_sync_state only for sync
+edb625208d84aef179e3f16590c1c582fc5fdae6 iwlwifi: pcie: set LTR to avoid completion timeout
+fe56d05ee6c87f6a1a8c7267affd92c9438249cc iwlwifi: mvm: fix kernel panic in case of assert during CSA
+1eae77bfad7a0ded0f70d56f360ca59571a8cf4d Merge tag 'wireless-drivers-2020-11-23' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
 
-c2fe61d8be491ff8188edaf22e838f819999146b 03127eae7a6706f2bcdf2117d79b490b35b27c44 refs/heads/urgent
------BEGIN PGP SIGNATURE-----
-
-iQGzBAABCgAdFiEE+9lifEBpyUIVN1cpw08iOZLZjyQFAl+8PVwACgkQw08iOZLZ
-jyQ3bgv+Jt5xc1hL+F2/xSEP9ycb+g7pHWxwG9wmYp95KzTiXKKQXw0sMuWte4Bf
-CnFzlt9apOvZBvZ8gsxrWKFoBYaGK2fC0toKflH5hTytgP9YLThpNiGORhXaJF4a
-W0qYRGc9ZmRyjCGmTANQiojRgpTiYiKQ+ogV88uhf2MwRtXhv8TssfnxlonjBoz0
-gwy97ap+SvZ2oPdjDGJBPsYi8voP4IijO7iRa5MLY7rPKoYdJqmqB1/d246L8lTq
-BoGZTEAXEpqYdRmeyDnHnSHgrHIQqGEIWCDcZrk4E7BuvT2zYbsttTpaR4GEve8R
-8ZLeG2NwjqObgDov5smRf8kxiCM4eP86wAA7V+SbGoATwY9KBJ/b5VnIep50hiEE
-iK0N8xibkqgI8a32LImW5id448EqxUHHVE3vMAPxHu5m5YWsWPyrPKrSKzrtZIQW
-NXZs4FMjFLqFtxYcAmg4DeLLrDDa1G9VGteq/Ql3C6F6hB6ANlmnSai6q/bhlhBe
-P7cA3Wn1
-=FS3Y
------END PGP SIGNATURE-----
-
---===============5597510529002892782==--
+--===============6440815539781222607==--
