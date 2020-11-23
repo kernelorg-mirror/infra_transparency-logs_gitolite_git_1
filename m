@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1788969326348629125=="
+Content-Type: multipart/mixed; boundary="===============7854681870361506532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 23 Nov 2020 07:25:45 -0000
-Message-Id: <160611634541.28231.13510492732274283557@gitolite.kernel.org>
+Date: Mon, 23 Nov 2020 07:25:59 -0000
+Message-Id: <160611635938.28382.4087386431737832228@gitolite.kernel.org>
 
---===============1788969326348629125==
+--===============7854681870361506532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: f8394f232b1eab649ce2df5c5f15b0e528c92091
+  - ref: refs/heads/tty-linus
+    old: 425af483523b76bc78e14674a430579d38b2a593
     new: 418baf2c28f3473039f2f7377760bd8f6897ae18
-    log: revlist-f8394f232b1e-418baf2c28f3.txt
+    log: revlist-425af483523b-418baf2c28f3.txt
 
---===============1788969326348629125==
+--===============7854681870361506532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606116378 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606116392 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1606116339-7bff6715c11f2ac902198b7e6ed3de4357d42ca7
+nonce 1606116352-a665bccde3173ba8b37a457c9495a806e1a17dc9
 
-f8394f232b1eab649ce2df5c5f15b0e528c92091 418baf2c28f3473039f2f7377760bd8f6897ae18 refs/heads/main
+425af483523b76bc78e14674a430579d38b2a593 418baf2c28f3473039f2f7377760bd8f6897ae18 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+7ZBobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bL8QAKgg5th8H9T8P+CkYpaW
-hWX6v3TT24FieeRKyWMcGu2wr6ZSPpkdchZGcuLxyZo5IkxnxqDoBh205JI3au/Q
-MuBwuPUYrzCgHoCGWtbNzannfsTeo9L6PtizWR9RvqxOVohlty7AyOqGY9/wGID3
-kPxAW/VKJSTNM6ZtY4XDViOMVDKUofFxYtDrHPCoRdoFl3aktG5B4jin8r29Vhay
-6UOBmwA53b3060AXr1rpZtEd/CnT6mpMP5GpASn2Ww0w2HOwXG7c2rooTX4W5kwf
-Gtgbk6oiKF4OvglscsJ0xWTIltBWfBYV+Zw4f97QE2NpeLr9NW3ZRXNp9ir+NtDv
-jB1lZxdpMY+AhlKyl96XeIaFT4l6NdydPSeS0BmpXWfRmBfyYq4Sxov2/V/Mrdvp
-v4DH8+aUyEDN5nHRadd7jfPplN4CR22kyKN5cQ3j18dR4AL0ELc2OdEzHrB4KccL
-o0OYM2LN4AtVcXfhMi1pxtrCAxOIFTY2DAETbRRi8BoBhLIeJCIVqInTi/F56zNi
-SnNakoOMAJR1XxTdPzRy4yQj/pdQV3c9/0VmS0+CB719sRmrVbpF36Z8Ea11byIs
-5EVivGPZTC7r7y128sUAVClCqsPJPlPYKkPBuBUtfHBkFuDMkafkuEfDqGuPVaIe
-SLR8WEGbuOd0TAfsDY1nQgFz
-=kZtq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+7ZCgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HzsQAIczJTG30l+ztGVe9ESu
+I5/xzi8c77VjMJdwQaFb75GJov0027YKhmCPj0+kjoDBtxOtcfoCq0E9SMyXVLpg
+TB2RoVd9fAQq3W4lP7sy3pzNbA7U4n+Uuu1oHk/My0KNDRBJXe85P5tvQLg2QvFT
+pWSjLIntmMvtWlzcBSXPpetEBd1Zec0nzLO24uNV+hYOn2Vosqr+3vOZiHNFlIgS
+0Eh0TFSDlpXCMUy/pzkfLcai5VWwV1P8TySmm50uMEeArdnSokbEW8MUaytX35gD
+K0H6WVrcJkuTyart7v6uvU2xzSHBsIBpEHGsH3frmkQQuGNljyvH3FtOzytkpmG8
+B3nxBtIkReEPx3N3qDlRCpegvYZTctoc7zibnOlh0DIMnvDgELBFXwfLmwg81ibq
+8vGfA/C4rxy8qZQ20nJZsPQ+UZWY9xWDNzDyvtReL/vKuAZ9SQJzjg5mk3ycMcHs
+E/Iy5sZCSVgvjxDe6zojrLXlrjqDxf1ZxYraevv5ptpJiIVc7aIyFBkQ7RHPVPje
+wbXCSHgqDe/abGvrpTlEWWYmjIx/ZSVDAReno1F2xXWAZn4LlABq6WB9I6jmLDWa
+q9THicr/NjGQ+TQUDYh8dTuR5MHtZ5OtIGNcUgTxElq3FxkKoLX3x7mz1V8wbiFy
+FdHQzdrd1dAOTOSP+MAJJsw0
+=GaXE
 -----END PGP SIGNATURE-----
 
---===============1788969326348629125==
+--===============7854681870361506532==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f8394f232b1e-418baf2c28f3.txt
+Content-Disposition: attachment; filename=revlist-425af483523b-418baf2c28f3.txt
 
 d76bb7a09bb3b8711077912f3e80cfcf39cd9d0b tools/power turbostat: Print /dev/cpu_dma_latency
 9aefc2cda6353f48708415d9adc5dff4deb73412 tools/power turbostat: Always print idle in the system configuration header
@@ -459,10 +459,6 @@ ae3d6083acf60116d4f409677452399547ed2009 Input: elan_i2c - fix firmware update o
 d19d8d345eecd9247cbe6cbf27aef271bd88aba7 fscrypt: fix inline encryption not used on new files
 edb8d77a939c422f3ae57f557cd1d6899d9bafad drm/i915/gvt: Set ENHANCED_FRAME_CAP bit
 94e2bd0b259ed39a755fdded47e6734acf1ce464 rfkill: Fix use-after-free in rfkill_resume()
-33f16855dcb973f745c51882d0e286601ff3be2b tty: serial: imx: fix potential deadlock
-d4122754442799187d5d537a9c039a49a67e57f1 speakup: Do not let the line discipline be used several times
-e67c139c488e84e7eae6c333231e791f0e89b3fb tty: serial: imx: keep console clocks always on
-425af483523b76bc78e14674a430579d38b2a593 serial: ar933x_uart: disable clk on error handling path in probe
 1d18288555b3265f84d08f1f75582415e4ec343a mac80211: fix memory leak on filtered powersave frames
 4fe40b8e1566dad04c87fbf299049a1d0d4bd58d mac80211: minstrel: remove deferred sampling code
 b2911a84396f72149dce310a3b64d8948212c1b3 mac80211: minstrel: fix tx status processing corner case
@@ -908,4 +904,4 @@ f4b936f5d6fd0625a78a7b4b92e98739a2bdb6f7 Merge tag 'sched-urgent-2020-11-22' of 
 d5530d82efc8631beff20480b1168b1c44294fe1 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 418baf2c28f3473039f2f7377760bd8f6897ae18 Linux 5.10-rc5
 
---===============1788969326348629125==--
+--===============7854681870361506532==--
