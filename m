@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6373106177716189386=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 23 Nov 2020 20:57:03 -0000
-Message-Id: <160616502354.3954.12451923420390499527@gitolite.kernel.org>
-
---===============6373106177716189386==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Mon, 23 Nov 2020 21:01:23 -0000
+Message-Id: <160616528301.7050.407738762918526439@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 816375b5a8fb342324d3fd1cc6630f2fde7483da
-    new: 521d4712ef531d13a68760bcd666f9056a14348e
+    old: 26076cc0d92acec47faa37f9cd055d02b5c25fc6
+    new: 3d30218ee20afdf3e33aa69b01fd2434b4c6f081
     log: |
-         521d4712ef531d13a68760bcd666f9056a14348e Tweak display in softfail mode
+         724bda82ea9f20dd799d028d77c4258116b2b5ab dhcp-server: add timer for tracking expired leases
+         9242cdbb0946149e0e4a2b44dbe50da9dbfa81db dhcp-server: add private setter for max expired clients
+         681d0943cc4a5fab87b270e97ea8fc0d1d276b41 unit: add client expire checks to test-dhcp
+         226e146f54cd62d14bedabf87f685fa7ae2b4154 unit: refactor test-dhcp to reuse code for other tests
+         3d30218ee20afdf3e33aa69b01fd2434b4c6f081 unit: add DHCP expiration reuse test
          
-
---===============6373106177716189386==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1606165023 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1606165023-0194bfcd59769f0e5ed40fa1baaa57689dcf062b
-
-816375b5a8fb342324d3fd1cc6630f2fde7483da 521d4712ef531d13a68760bcd666f9056a14348e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX7wiHwAKCRC2xBzjVmSZ
-bAeLAQCRcUuac8cqTqvfnp0jTY08GDqnC/41ScADqb7oGZvM3QD/dmNUPCM4RVdR
-eRW1Bto6jS4qdiY7ub+KH85n85sgAw8=
-=ymcM
------END PGP SIGNATURE-----
-
---===============6373106177716189386==--
