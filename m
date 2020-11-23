@@ -1,30 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============7147049662585590568=="
+Content-Type: multipart/mixed; boundary="===============0815051284179213427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 23 Nov 2020 20:30:41 -0000
-Message-Id: <160616344157.16382.15158760853743470275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 23 Nov 2020 20:34:22 -0000
+Message-Id: <160616366243.17661.15123930754939207861@gitolite.kernel.org>
 
---===============7147049662585590568==
+--===============0815051284179213427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next-fixes
-    old: 46630599693a90d2915134f0b05cb82dc6ead974
-    new: 462b8e885b92459dcca35f5df9266190b89c7da1
-    log: revlist-46630599693a-462b8e885b92.txt
+  - ref: refs/heads/wip/jgg-for-next
+    old: a9d2e9ae953f0ddd0327479c81a085adaa76d903
+    new: 82101630222fc6caa21502df0d02e0153aaf25d2
+    log: |
+         6d8285e604e0221b67bd5db736921b7ddce37d00 RDMA/cxgb4: Validate the number of CQEs
+         82101630222fc6caa21502df0d02e0153aaf25d2 RDMA/i40iw: Constify ops structs
+         
+  - ref: refs/heads/wip/jgg-for-rc
+    old: ee415d73dcc24caef7f6bbf292dcc365613d2188
+    new: 6830ff853a5764c75e56750d59d0bbb6b26f1835
+    log: revlist-ee415d73dcc2-6830ff853a57.txt
 
---===============7147049662585590568==
+--===============0815051284179213427==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher F08647C27728D5D2EB7A5F5AA5F46BDD553C74FA 1606163649 -0400
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
+nonce 1606163649-93c4ec4267bde71004809ead6aa7c697d404aa97
+
+a9d2e9ae953f0ddd0327479c81a085adaa76d903 82101630222fc6caa21502df0d02e0153aaf25d2 refs/heads/wip/jgg-for-next
+ee415d73dcc24caef7f6bbf292dcc365613d2188 6830ff853a5764c75e56750d59d0bbb6b26f1835 refs/heads/wip/jgg-for-rc
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEfB7FMLh+8QxL+6i3OG33FX4gmxoFAl+8HMEACgkQOG33FX4g
+mxpoJxAAkabGygMe5rA7m6Matb3TM0C288phHM2Ik0ee69vlZJ8QYA/89XPM4VtP
+MQ3bfiO+SYzqGOixvEt7ceQzMnQBVzfaGOOvfqlxqp/6AUCmgxkN27A3BC7c/JiC
+yTT5Lr4WLwcmzP5mmFHUvDaV9MA0pNZGS2d4mk3grwhcfscY+jfkMiipBJOB+M0G
+Tn/p46o4Vzy70VtxmAoYVARIxGadD4W7e17KWkqjWYtjZ/1eVqyhifpaig/MP5BH
+djnkzI7795hbF7vOHYf17rJER8OU8nKPwRrwdF4WCkl5womTo4UvuuKBhZnTsrIW
+/M5LDOPt3QUhN+MNb6tvmnOTlZJPIUEy1cEnLKGahYGOI8MVh584QKol669MNB+k
+2s8l88C8JNebFiehKqesMDNED4nT/E5ZWSeLVlNj3lAl6WiL8CbZIclUBKuoTqTn
+h8AKrj3IP9b+l74JTaLwJ3W5jMDcGDjufdCwMiooXmQV9PuhmF3W4TY5EaOddwdk
+PtAbQQ+MtKbDoB405UIBWAVPmFkOscnHCvQ49nNdgHv93ggxr35ebhpv7Mdmy0h0
+peeMarHCY0IGxtJIIz6moOeH7jguKGslJ4axXgxYF6/00jtHR4gOz2eqpuN1dMca
+YZLF4Cej3Qq9JENh6isPcc2IRt+2IEHl96xMja+XIn/h+fcie28=
+=KEAO
+-----END PGP SIGNATURE-----
+
+--===============0815051284179213427==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-46630599693a-462b8e885b92.txt
+Content-Disposition: attachment; filename=revlist-ee415d73dcc2-6830ff853a57.txt
 
 d76bb7a09bb3b8711077912f3e80cfcf39cd9d0b tools/power turbostat: Print /dev/cpu_dma_latency
 9aefc2cda6353f48708415d9adc5dff4deb73412 tools/power turbostat: Always print idle in the system configuration header
@@ -151,6 +189,13 @@ a835d3a114ab0dc2f0d8c6963c3f53734b1c5965 pinctrl: mcp23s08: Print error message 
 a663e0df4a374b8537562a44d1cecafb472cd65b thunderbolt: Fix memory leak if ida_simple_get() fails in enumerate_services()
 77455129fb5b2a8749330b2b40d0c8750b6bf076 thunderbolt: Add uaccess dependency to debugfs interface
 f8fa2c2e63c76e5d73526f38bdde59fdcfbea166 thunderbolt: Only configure USB4 wake for lane 0 adapters
+a1fbc6750e212c5675a4e48d7f51d44607eb8756 btrfs: fix potential overflow in cluster_pages_for_defrag on 32bit arch
+e38fdb716702879a942017c85e84c0a3a9e4af96 btrfs: print the block rsv type when we fail our reservation
+fca3a45d08782a2bb85e048fb8e3128b1388d7b7 btrfs: fix min reserved size calculation in merge_reloc_root
+f07728d541ebefcf3d2ec7bc99a3bffd052d9f90 btrfs: clean up NULL checks in qgroup_unreserve_range()
+a4852cf268b5ae487ba18f2b24e44094afce0675 btrfs: scrub: update message regarding read-only status
+cf89af146b7e62af55470cf5f3ec3c56ec144a5e btrfs: dev-replace: fail mount if we don't have replace item with target device
+468600c6ec28613b756193c5f780aac062f1acdf btrfs: ref-verify: fix memory leak in btrfs_ref_tree_mod
 9b92f5c51e9a41352d665f6f956bd95085a56a83 pinctrl: aspeed: Fix GPI only function problem.
 1f5eb8b17f02d216703ee56e4c3115f592b060fb gpiolib: fix sysfs when cdev is not selected
 93bd813c17763177cf87e96c2313bd4dd747d234 ASoC: rt1015: add delay to fix pop noise from speaker
@@ -448,11 +493,8 @@ e13ee6cc4781edaf8c7321bee19217e3702ed481 spi: bcm2835aux: Fix use-after-free on 
 11decaf8127b035242cb55de2fc6946f8961f671 NFS: Remove unnecessary inode lock in nfs_fsync_dir()
 9e2b7fa2df4365e99934901da4fb4af52d81e820 vrf: Fix fast path output packet handling with async Netfilter rules
 9f73bd1c2c4c304b238051fc92b3f807326f0a89 devlink: Avoid overwriting port attributes of registered port
-eb73060b971aa04e4f7421b8c9c0363918608b72 RDMA/cm: Make the local_id_table xarray non-irq
 8a5c2906c52f4a81939b4f8536e0004a4193a154 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-d035c3f6cdb8e5d5a17adcbb79d7453417a6077d RDMA/pvrdma: Fix missing kfree() in pvrdma_register_device()
 fd63729cc0a6872bdabd393ee933a969642e4076 selftests/bpf: Fix unused attribute usage in subprogs_unused test
-b1e678bf290db5a76f1b6a9f7c381310e03440d6 RMDA/sw: Don't allow drivers using dma_virt_ops on highmem configs
 d3039c0615c3f80eaf735e581ed11242c0064299 Revert "gfs2: Ignore journal log writes for jdata holes"
 4e79e3f08e576acd51dffb4520037188703238b3 gfs2: Fix case in which ail writes are done to jdata holes
 4b1a86281cc1d0de46df3ad2cb8c1f86ac07681c net: udp: fix UDP header access on Fast/frag0 UDP GRO
@@ -532,7 +574,6 @@ f5c042b23f7429e5c2ac987b01a31c69059a978b regulator: workaround self-referent reg
 bdac39a3bd28891fb0ded91c9152459c57773462 dt-bindings: clock: imx5: fix example
 50431b45685b600fc2851a3f2b53e24643efe6d3 tools, bpftool: Add missing close before bpftool net attach exit
 18db36a073db6377a52e22ec44eb0500f0a0ecc6 docs: ABI: testing: iio: stm32: remove re-introduced unsupported ABI
-dabbd6abcdbeb1358a53ec28a244429320eb0e3a IB/hfi1: Fix error return code in hfi1_init_dd()
 d3ba7afcc11fe9146def1664c32762d5a6a47713 Merge tag 'ext4_for_linus_bugfixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 88b31f07f3f2d15a172405ae5d453fda1c12ee5f Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 e45f90fc72c8a41097a29ff53dcf983087c16c06 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
@@ -742,7 +783,6 @@ c9c89dcd872ea33327673fcb97398993a1f22736 bpf, sockmap: Fix partial copy_page_to_
 6fa9201a898983da731fca068bb4b5c941537588 bpf, sockmap: Avoid returning unneeded EAGAIN when redirecting to self
 2443ca66676d50a4eb3305c236bccd84a9828ce2 bpf, sockmap: Handle memory acct if skb_verdict prog redirects to self
 4363023d2668e621b0743db351a9555d6e6ea57e bpf, sockmap: Avoid failures from skb_to_sgvec when skb has frag_list
-ee415d73dcc24caef7f6bbf292dcc365613d2188 tools/testing/scatterlist: Fix test to compile and run
 e33de7c5317e2827b2ba6fd120a505e9eb727b05 inet_diag: Fix error path to cancel the meseage in inet_req_diag_fill()
 93be52612431e71ee8cb980ef11468997857e4c4 qed: fix ILT configuration of SRC block
 c09c8a27b9baa417864b9adc3228b10ae5eeec93 ipv4: use IS_ENABLED instead of ifdef
@@ -869,11 +909,6 @@ d27637ece80f25124e0e6871b7b6cb855e1c670c Merge tag 'staging-5.10-rc5' of git://g
 f4b936f5d6fd0625a78a7b4b92e98739a2bdb6f7 Merge tag 'sched-urgent-2020-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d5530d82efc8631beff20480b1168b1c44294fe1 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 418baf2c28f3473039f2f7377760bd8f6897ae18 Linux 5.10-rc5
-0697d9a610998b8bdee6b2390836cb2391d8fd1a btrfs: don't access possibly stale fs_info data for printing duplicate device
-6d06b0ad94d3dd7e3503d8ad39c39c4634884611 btrfs: tree-checker: add missing returns after data_ref alignment checks
-3d05cad3c357a2b749912914356072b38435edfa btrfs: fix lockdep splat when reading qgroup config on mount
-7aa6d359845a9dbf7ad90b0b1b6347ef4764621f btrfs: do nofs allocations when adding and removing qgroup relations
-a855fbe69229078cd8aecd8974fb996a5ca651e6 btrfs: fix lockdep splat when enabling and disabling qgroups
-462b8e885b92459dcca35f5df9266190b89c7da1 Merge branch 'misc-5.10' into next-fixes
+6830ff853a5764c75e56750d59d0bbb6b26f1835 IB/mthca: fix return value of error branch in mthca_init_cq()
 
---===============7147049662585590568==--
+--===============0815051284179213427==--
