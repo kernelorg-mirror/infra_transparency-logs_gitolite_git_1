@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Mon, 23 Nov 2020 15:23:26 -0000
-Message-Id: <160614500636.25768.17938047858484683180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Mon, 23 Nov 2020 15:41:12 -0000
+Message-Id: <160614607257.6525.14203450183207846222@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/for-next
-    old: 38f14dd13211eb195fbc4c50aea7c422f2f9aede
-    new: 851c679b3b88bedc73fb938d12386762a460facd
+  - ref: refs/heads/next-integrity-testing
+    old: a1f61da2dd604669d917bb008c19fca7e67fff2e
+    new: dea87d0889dd663bd32e86824a0b35cd617ae1d0
     log: |
-         a8520921e0d4361858b00ae63bc5cb40576e9277 gfs2: Fix deadlock dumping resource group glocks
-         50e1bd9ead33ac6369018f7ddd7c5c0fa772ef23 Documentation: Update filesystems/gfs2.rst
-         851c679b3b88bedc73fb938d12386762a460facd MAINTAINERS: Add gfs2 bug tracker link
+         dea87d0889dd663bd32e86824a0b35cd617ae1d0 ima: select ima-buf template for buffer measurement
          
