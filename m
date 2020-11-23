@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0721792444511370058=="
+Content-Type: multipart/mixed; boundary="===============7657866324523074903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 23 Nov 2020 05:43:47 -0000
-Message-Id: <160611022766.1787.1132340901776718151@gitolite.kernel.org>
+Date: Mon, 23 Nov 2020 05:50:42 -0000
+Message-Id: <160611064271.7206.10117961521953366229@gitolite.kernel.org>
 
---===============0721792444511370058==
+--===============7657866324523074903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kconfig
+  - ref: refs/heads/for-next
     old: 729e39a558eb5cde61b80941bdfa54fdc2e11d1d
     new: 0ce21d58b7afbc2ebc65003be65b00fc2dacbe9f
     log: revlist-729e39a558eb-0ce21d58b7af.txt
 
---===============0721792444511370058==
+--===============7657866324523074903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fc44645a4f397e04359845af540ff40148ca0379 kconfig: qconf: convert to Qt5 new sign
 9da2d4e4acecc73f568254c91cef4faa93d00490 kconfig: make lkc.h self-sufficient #include-wise
 0ce21d58b7afbc2ebc65003be65b00fc2dacbe9f kconfig: qconf: show Qt version in the About dialog
 
---===============0721792444511370058==--
+--===============7657866324523074903==--
