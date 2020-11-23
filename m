@@ -1,30 +1,40 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 23 Nov 2020 15:46:01 -0000
-Message-Id: <160614636168.10244.12340610786834096397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 23 Nov 2020 15:48:17 -0000
+Message-Id: <160614649760.11186.15430681815363217864@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-linus
-    old: df3d781dfab3b771b134d46406247406fdf67ed5
-    new: 03cfdb8444c063f17e0b06c3d40afc8ac859d382
+  - ref: refs/heads/dev
+    old: 4ccd0a90bf767fef0c9d5f0c581aabbbe840bb9a
+    new: c53a15717535d413118ca1d207ff74caf395bf82
     log: |
-         71d80563b0760a411cd90a3680536f5d887fff6b spi: spi-nxp-fspi: fix fspi panic by unexpected interrupts
-         5d69f1c8a200e601ad62e0e7b7e91e85c20b2d4c Merge remote-tracking branch 'spi/for-5.9' into spi-linus
-         03cfdb8444c063f17e0b06c3d40afc8ac859d382 Merge remote-tracking branch 'spi/for-5.10' into spi-linus
+         8f0ed2ee79ff46117ace8d1b6cd4b3a1f9ef4a38 torture: Add torture.sh torture-everything script
+         5fb39d1feb458692cbc0af1908d5157b62e69983 torture: Print run duration at end of kvm.sh execution
+         1bdd474237020198bd3cf81c35cd2b7b9643c5fb torture: Make torture.sh use common time-duration bash functions
+         c53a15717535d413118ca1d207ff74caf395bf82 torture: Remove use of "eval" in torture.sh
          
-  - ref: refs/heads/for-next
-    old: aaea98a40a13451adc4331bf909d1f7487c9df58
-    new: 7ebf7da39f51e2483a4b6da88c475d5ae1ec3db3
-    log: |
-         71d80563b0760a411cd90a3680536f5d887fff6b spi: spi-nxp-fspi: fix fspi panic by unexpected interrupts
-         5d69f1c8a200e601ad62e0e7b7e91e85c20b2d4c Merge remote-tracking branch 'spi/for-5.9' into spi-linus
-         03cfdb8444c063f17e0b06c3d40afc8ac859d382 Merge remote-tracking branch 'spi/for-5.10' into spi-linus
-         7ebf7da39f51e2483a4b6da88c475d5ae1ec3db3 Merge remote-tracking branch 'spi/for-5.11' into spi-next
-         
+  - ref: refs/tags/efi-urgent-for-v5.10-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 53c1e4bf928e7b140151c3cd583f5b86ba1e6eca
+  - ref: refs/tags/locking-urgent-2020-11-22
+    old: 0000000000000000000000000000000000000000
+    new: f06eed441e64d0574976e42e2b8cd1cb4c716816
+  - ref: refs/tags/perf-urgent-2020-11-22
+    old: 0000000000000000000000000000000000000000
+    new: 66df494294608c2f2fa2b375bc8938ef0dd5d1c0
+  - ref: refs/tags/sched-urgent-2020-11-22
+    old: 0000000000000000000000000000000000000000
+    new: 4070c0eca37d5e5c594919fdf6c696c3e96099f8
+  - ref: refs/tags/v5.10-rc5
+    old: 0000000000000000000000000000000000000000
+    new: af69a948d2ce48f8bfe9935958d12f86fb50326b
+  - ref: refs/tags/x86_urgent_for_v5.10-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 77688e5ad7088cdd01412d83fb95b5b70e30caf1
