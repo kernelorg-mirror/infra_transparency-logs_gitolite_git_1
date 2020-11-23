@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 23 Nov 2020 09:02:26 -0000
-Message-Id: <160612214649.20212.13745914109763757027@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4013981068526307301=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 23 Nov 2020 09:11:51 -0000
+Message-Id: <160612271178.21023.4232892565135688651@gitolite.kernel.org>
+
+--===============4013981068526307301==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 62d506c7a26c76ed632289b5bec25517a21c6f31
-    new: e0b19c5b50edd522a8232ef5caac1177d1564b36
+    old: 0cee07f955c68bd95f68d6e09673e41c2b0f4d30
+    new: db895db52d13e9910cb1ec1ad292705bf3d22a7d
     log: |
-         eca874e183c285b61d7707c596b4f238b0d1b272 lseek64.3: ffix
-         48a830d7c8d730d701306aa34afc94e5d711e6ad llseek.2: Note size of 'loff_t' type
-         7c1a416d65add6c7f17d6cfd607f2191cfc55cda llseek.2: Point the reader to lseek64(3) for info about llseek(3)
-         90f1c92fd3b04d4964772dc7a21fb3a4c1f9c534 lseek64.3: srcfix: add some comments to remind myself of some details
-         8369c0f73710e7b78e26ec255c75f8d9ec9c6e1c lseek64.3: Minor clarifications
-         522c24f1cb3bd25c56cbdf2d727c6e45bc1c9cd7 lseek64.3: wfix
-         50f5ae5389bf65c6d04c160b8fff16584c3cbb7b lseek64.3: Remove section numbers from interface list
-         83f0bca3b177bf032b1157a2330c4344a09d209f lseek64.3: Remove sentence saying lseek64() is an alias for llseek()
-         e0b19c5b50edd522a8232ef5caac1177d1564b36 lseek64.3: NOTES: describe the origin of lseek64() in LFS
+         db895db52d13e9910cb1ec1ad292705bf3d22a7d 4.4-stable patches
          
+
+--===============4013981068526307301==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606122783 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1606122710-7887e1d069653f7fa2489f165d37c4325e3045eb
+
+0cee07f955c68bd95f68d6e09673e41c2b0f4d30 db895db52d13e9910cb1ec1ad292705bf3d22a7d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+7fR8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Dp0P/Rks26JpcWRgnqeFqxXD
+u4e1Oqf5lxBs72dsKHx5eO5oeVd0wv6J1PI/T6McvhDCb25Vf8dsRRIuKsSDybjq
+gu7olSwcc2NtkOkXNeCmp80hrJIAHfkovI9U1md5+UTXyDqix+FxEETmww9U629L
+7Nzr3kNNRrAxfrR5AJgf8GVr7ClAPxb9EKG7F9NJSV1BCbw8NNodQH7b5JygYTqV
+UBwV0B5twi/96PcihAg7KPh944XQ4ECFVfEXpv9lEGe7GDP1P6KcABDyhTDnHVvT
+HW05dOYAqq6rjhSe2XxBKfmhxt1+2D9beJNHBCWgEUEuLuAjb9Sbi9H+2EJ4Ah8q
+hJ4Ol5iTKeakbsW6DvPioTHTVLknfcv6IKH7cms7KTcC0m6aJAfvXS+fs2kpLOE7
+JmdUSoklSAlPXRrz+/FCeSz+Fj4mWkDtnP50XfkacPp3Dd+lVg5UfRNqHkz+nxZs
+MtKnxlFZ4twzw4TEG/oGvRxt2C4pZGpsEpOWz573cjY50k4Y+KXoZ/LxQIRnMaJg
+WH2z2DRXMuDWOqAVECJ4EEKcO/ukDFbSt8pQVZ77B/nLM4SyLeFvB5Tl5DwB4fGX
+dGrWcUggzefTYbZL+3Zhwl8leC8lR1Q5XZ3JV2NnCaoNjHS1GIRjF0hMEmcxt7YN
+iZSaxRnqcvx8zFiFwhIUcQYV
+=bgrh
+-----END PGP SIGNATURE-----
+
+--===============4013981068526307301==--
