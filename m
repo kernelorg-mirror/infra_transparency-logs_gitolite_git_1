@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7502437807105825229=="
+Content-Type: multipart/mixed; boundary="===============6778060268104327130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 24 Nov 2020 03:55:21 -0000
-Message-Id: <160619012195.8046.16058786314224342627@gitolite.kernel.org>
+Date: Tue, 24 Nov 2020 03:55:26 -0000
+Message-Id: <160619012611.8176.6362406742292442009@gitolite.kernel.org>
 
---===============7502437807105825229==
+--===============6778060268104327130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 42a90143a687d31c7029f16589e9925a4923efd9
-    new: b3d65c35dbf13b714320e238d6a350cb90f51a3a
-    log: revlist-42a90143a687-b3d65c35dbf1.txt
+  - ref: refs/heads/5.11/scsi-queue
+    old: cf4d4d8ebdb838ee996e09e3ee18deb9a7737dea
+    new: 6998ff4e21619d47ebf4f5eb4cafa65c65856221
+    log: revlist-cf4d4d8ebdb8-6998ff4e2161.txt
 
---===============7502437807105825229==
+--===============6778060268104327130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1606190120 -0500
+pusher 75C5DE3D 1606190124 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1606190120-1bbc603d1196185feb1ebfb421ff221ae30b3840
+nonce 1606190124-7c1b5818e7d17dff44bff22170464b2afb470f47
 
-42a90143a687d31c7029f16589e9925a4923efd9 b3d65c35dbf13b714320e238d6a350cb90f51a3a refs/tags/mkp-scsi-queue
+cf4d4d8ebdb838ee996e09e3ee18deb9a7737dea 6998ff4e21619d47ebf4f5eb4cafa65c65856221 refs/heads/5.11/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+8hCgACgkQ7ulgGnXF
-3j2I7g/9HHFoHlrc5ahkYCL7mGqrE8oK8WwAuwOljMs2Ayv6Mdbt4ue/bRf36KQb
-bTj1YPi3oWVcsOisR2UpltIBH0wx2IyADppjGQmALwt+6hqfmlN101fuIikGB/5x
-v/THX8MvD5QHDPcSQ80YhDLo/5Ba4I3XyelxvPUGG2iDefwX4y87eOausiK0H39F
-0XPlGOzkKTffTaNB33IGNCcgD6drkoXETfD9rWn91rLGhqtdXbHGzLLsUosAgV+k
-Wof+rGXcue7EDpBsw5u6frENOqB+YTS3VuEfxBRUBCkuCVC0Uvs62qTzMwTSNKco
-Pl1UGEHCfBjB9+tD2aZgxrqFicxEwW27AfrRcq1WeGJ+1AjUi2xJImA9u2L+4yxp
-RVhQ8pBSY7Mu63OvTJF8GYbWTzLLPe8qAeSkyjyIP7zP6B6ODaiDewnmdZSYT++K
-r6mff7ffsnz5EIsJOGYW+CoWWvlNEidzTZRePZ3qD6pR7hGb8ievcY3v01WngKnI
-AWcuO2oMeeyLHoZTvWJfWaFXUznw0vHWgPD84Il++uPo3vDFAarVODMsVt2VU6Hy
-D3XLk0JyL/ZO9aSxkrBeD2NSZjG8qMYcpVQDPMFmUuMbCaaSabkg2GeJotZ8jBrh
-f5Bb8eHvOlT+09koy8CObhWvjzxQFr/2KRaJrjDu73MjW9ENolw=
-=xzDX
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+8hCwACgkQ7ulgGnXF
+3j3txg//RvZvdGK6KOAho97yypniF9r0oRNQa9hwgIUkYBzEdSFG++jqh27Y4Wi2
+393Ctg+0t9yH8QJl+P2kzk5JQkigtL1930Gk+PUCFLXkw5vshKOFqt3c//P+8pod
+i/B7bS2Jag0FmDH3KhcTR/saigDi6h0ytRftdbf1YwebL1OnbwW1Hc/FZ+7ku0Y6
+yXtRmwGoUT2zwC2q19ou22emuID9gLbFMdoXI5jUZ9PCfh0NGKLrqIToDxw7Sxyg
+6yaTrvOVDa8lMcq019HNavGmNoDDaqopcoD2lB2liJXYEsEcFg+vJYj9TQ2kZLeu
+eL7aBfdEWHBu//aD8OqNDw8wso01i/ZdknvElNLaHKlOU2/qZTTCyMrMCv3/553E
+JMeAunHNjoV1N4SA44NqThHV6Bv7tKXCFhPfPIDtOHYtJw8IWp0quF2W6GRN+edS
+jo1AblZYJNypKSLyatkrWuVzg17cFlJvSCAa9fq6QD3huRm7CUWDkYm98eRAthc3
+rPxKhMKCE3cASf4DcJeMeoPnnP+3HPmiXl1TYkU8sMsgHNgzZtiD5pjnxIfgOwZ/
+/QA5rSOkdCKRFNcNiPFCSyX15WpdzqMVrFxqtXbIrNXcSbM5Q9v5fUtfKMF/MV/M
+j8T7/8kp4FLgaBiqsM7vXo5TtTkO2laiaLEAimnVRrh2b3B5brc=
+=kQMJ
 -----END PGP SIGNATURE-----
 
---===============7502437807105825229==
+--===============6778060268104327130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42a90143a687-b3d65c35dbf1.txt
+Content-Disposition: attachment; filename=revlist-cf4d4d8ebdb8-6998ff4e2161.txt
 
 fd62de114f8c9df098dcd43b5d83c5714176dd12 scsi: ufs: Avoid to call REQ_CLKS_OFF to CLKS_OFF
 b664511297644eac34038df877b3ad7bcaa81913 scsi: ufs: Atomic update for clkgating_enable
@@ -81,4 +81,4 @@ e4af87b7079ebf1bba86c7011ef5d5df45af8f56 scsi: ibmvfc: Advertise client support 
 185d17e11e7f98e0d1f499d702d9792a4ed5ae47 scsi: lpfc: Fix missing prototype for lpfc_nvmet_prep_abort_wqe()
 6998ff4e21619d47ebf4f5eb4cafa65c65856221 scsi: lpfc: Fix variable 'vport' set but not used in lpfc_sli4_abts_err_handler()
 
---===============7502437807105825229==--
+--===============6778060268104327130==--
