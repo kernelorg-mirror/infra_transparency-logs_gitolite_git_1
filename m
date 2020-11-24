@@ -1,61 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Tue, 24 Nov 2020 02:07:52 -0000
-Message-Id: <160618367253.30790.2432040332884891274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 24 Nov 2020 02:50:10 -0000
+Message-Id: <160618621094.26595.10049675978953876099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/drm-fixes-2020-09-25
-    old: 0000000000000000000000000000000000000000
-    new: 0e27639d73b57aedc6334c049a3c99a27f83fafc
-  - ref: refs/tags/drm-fixes-2020-10-01-1
-    old: 0000000000000000000000000000000000000000
-    new: dfcb6f3938dd5b6e71ad78b65bbc5518c610a39a
-  - ref: refs/tags/drm-fixes-2020-10-06
-    old: 0000000000000000000000000000000000000000
-    new: 600e953f69898b349fffecca6a09c53116e7eaa4
-  - ref: refs/tags/drm-fixes-2020-10-06-1
-    old: 0000000000000000000000000000000000000000
-    new: a7fad346e6612544f8bb4160cf4997d4a1c5de1f
-  - ref: refs/tags/drm-fixes-2020-10-08
-    old: 0000000000000000000000000000000000000000
-    new: 5555848d2483dd544c45842ba3d844a5263efa55
-  - ref: refs/tags/drm-fixes-2020-10-09
-    old: 0000000000000000000000000000000000000000
-    new: 01521b458bcd64090de93d6dbe15247980c94f32
-  - ref: refs/tags/drm-fixes-2020-10-30
-    old: 0000000000000000000000000000000000000000
-    new: 6a6097ee3c4d47a4172bebe1e2419dc13d87fef6
-  - ref: refs/tags/drm-fixes-2020-10-30-1
-    old: 0000000000000000000000000000000000000000
-    new: 187fb63dfe8e6f27a8feb7f092fb315f61abb986
-  - ref: refs/tags/drm-fixes-2020-11-06-1
-    old: 0000000000000000000000000000000000000000
-    new: aedb355c2305a3da077796998675e1b8ca512073
-  - ref: refs/tags/drm-fixes-2020-11-13
-    old: 0000000000000000000000000000000000000000
-    new: a993c30aa2dbc4e97a34732de9e7498251ea8fcd
-  - ref: refs/tags/drm-fixes-2020-11-16
-    old: 0000000000000000000000000000000000000000
-    new: d386171c82d90063ba8270fc703abb74992762b8
-  - ref: refs/tags/drm-fixes-2020-11-20-2
-    old: 0000000000000000000000000000000000000000
-    new: bed71555b7a7bedfebed10ee3a11d342559b9070
-  - ref: refs/tags/drm-next-2020-10-15
-    old: 0000000000000000000000000000000000000000
-    new: 1ab7de94db444d4297622b1602b0c7566ee21573
-  - ref: refs/tags/drm-next-2020-10-19
-    old: 0000000000000000000000000000000000000000
-    new: 020789c700ab2bc8c37626e3cbab836e127ceb1d
-  - ref: refs/tags/drm-next-2020-10-23
-    old: 0000000000000000000000000000000000000000
-    new: 6d915084126048b56cff0a79a0ed577fc46176a5
-  - ref: refs/tags/exynos-drm-fixes-for-v5.10-rc6
-    old: 0000000000000000000000000000000000000000
-    new: ef566a82ff9d23cdc78ff6238724607d6cfbe4e0
+  - ref: refs/heads/master
+    old: 7fd6372e273e67d6d8b49a3cd8d9a00b44d92e97
+    new: 5112cf59d76d799b1c4d66af92417e2673fb1d5b
+    log: |
+         cc69837fcaf467426ca19e5790085c26146a2300 net: don't include ethtool.h from netdevice.h
+         5112cf59d76d799b1c4d66af92417e2673fb1d5b sctp: Fix some typo
+         
