@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6816878210594857463=="
+Content-Type: multipart/mixed; boundary="===============8450629641648601468=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 24 Nov 2020 03:55:30 -0000
-Message-Id: <160619013049.8259.10593851526445941273@gitolite.kernel.org>
+Date: Tue, 24 Nov 2020 03:55:35 -0000
+Message-Id: <160619013541.8333.1038998537830241810@gitolite.kernel.org>
 
---===============6816878210594857463==
+--===============8450629641648601468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,56 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: cf4d4d8ebdb838ee996e09e3ee18deb9a7737dea
-    new: 6998ff4e21619d47ebf4f5eb4cafa65c65856221
-    log: revlist-cf4d4d8ebdb8-6998ff4e2161.txt
+  - ref: refs/heads/for-next
+    old: 6998ff4e21619d47ebf4f5eb4cafa65c65856221
+    new: 3256b4682386298ec106c1d1896b064f6a291f88
+    log: revlist-6998ff4e2161-3256b4682386.txt
 
---===============6816878210594857463==
+--===============8450629641648601468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1606190129 -0500
+pusher 75C5DE3D 1606190133 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1606190128-f56fc9cbc5e59b4d494e89da2778a24a89f06c16
+nonce 1606190133-8e4cd2e1d3ee20fc4f201a17c586a9bcf78db5f9
 
-cf4d4d8ebdb838ee996e09e3ee18deb9a7737dea 6998ff4e21619d47ebf4f5eb4cafa65c65856221 refs/heads/queue
+6998ff4e21619d47ebf4f5eb4cafa65c65856221 3256b4682386298ec106c1d1896b064f6a291f88 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+8hDEACgkQ7ulgGnXF
-3j3Cjw/9Enhq8koz7p1gedLssE9PeK1R9eAptP8Tg7E4braYL9+TJRXquVRmIiAv
-UVdt4pvvNkXJGwGBgv6SuLhi4XUslx3Io8VL/mDVe2UC0Avk6lGwDhyDYPSeK2iO
-muX2/0KQue3GVGxl5IKvtKjX5wuRiRO09UDqozAoLCZqKMyZjhQi710nInQAkPvq
-B0l06sxtAYVGEJhwZY+DSC1/3oB1acJpw/PG61oxGM5MlzlExzpn+KYSWtxLW5Q0
-D4XgQv7O9pOiZYG34K6rizRNGhCBppVyqM4z75kGgtXt3rjkZdyWMchPW1TAEJjr
-tSAlRG5Vt6hW5qL1weWi8+uz/kyv8uVGBNVDTRXnLJS+X+UiEZSf0v+t6vV6+wUu
-/IufyjcEBKJxLBi0kDComgq2bbqhPFZKNOMyaxNy6hNVTnA6apGRNZlWZW0nJ4DD
-1l8cgyrWgigHQQidD4kH7sJmgs6sibbDEC1mXRcbyL5Zv8fTIRJ6dq//6GVR/Jtb
-kI5WaURCq2etpxwBX1vYOKS+76QE+zxyssQLD1kg9j3PXZHFdeSJbTNIk/OTPnh6
-pukQbMirO/LOLzL7isehYniXNSs4cVs8DST7vLi13b4GIhslONTxPyHuJXrwGYRR
-8GZffh+E0oDO75BVWtgmrbd9lLeSNtWnW1O/xhP0LQJjp3jwLjk=
-=usQW
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl+8hDUACgkQ7ulgGnXF
+3j0WXxAAjyUzMW5YhBgiFJBE9HaWYgkiip3ZjltGFAEkqgmlF+W8poU9K8TSnNyG
+igqog+8Uz8SBQlRJ9ouPsOgik9BFTIGrd/GbCdBGYUrhpcjpCHCs4mOF3ol1mEQV
+4xq0mro7tKJ/Hh2LfbNNKuCjJhGINv9gnfOHoBzEiqNp1TQ7W4Vr0o4vSO/nmkNs
+YiwGzZxhJOj1kDzEiI5Tp6AwdrjVG33xVOqTNaF9BLNKHo/uBznooG54bs9Vkoyl
+KzRQhYcoFixByc22eqovzARmz1WJktdzR4mLdWRFc84X+xjr1FeBU3Mk0BlqVMUC
+hXIOAs/6KB3q9SRSlkAlYq77aVvJ/MSavx2vxqtN58pOeZD1YNZUMAS0BbqgC3bc
+UL8gj4HgWaijNgCnnvfev4Qq7sIx4ghkNhS9Sn7UWbz898Ld+KQGmqKoRWG4VJPn
+Kxyppes4jnNevF9aXi/foe+QlTGciMOwQvqG0XmBff+qFdOEr3GcGx+WmsqOU0a3
+fQO14K1IZiP8+yGPAWr+JrNqxW/8YNjadpFfXeCwdsyTbIeIatIl5J/6z2M6tBr2
+gd4njQZw6d6IDzPUhv1wOpBTYGLgieVj/Bxf02DTI471/gJKIw8whMQgfY2y51qV
+zFh7UzbiW4O2CvPUF0fJw/1JEUqyzA4LRBzmUgD+MZWCt7zhjQI=
+=QsCi
 -----END PGP SIGNATURE-----
 
---===============6816878210594857463==
+--===============8450629641648601468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf4d4d8ebdb8-6998ff4e2161.txt
+Content-Disposition: attachment; filename=revlist-6998ff4e2161-3256b4682386.txt
 
-fd62de114f8c9df098dcd43b5d83c5714176dd12 scsi: ufs: Avoid to call REQ_CLKS_OFF to CLKS_OFF
-b664511297644eac34038df877b3ad7bcaa81913 scsi: ufs: Atomic update for clkgating_enable
-4f3e900b628226011a5f71c19e53b175c014eb58 scsi: ufs: Clear UAC for FFU and RPMB LUNs
-e93e6e49fa31989b149c48526d4098b278205c8a scsi: ufs: Use WQ_HIGHPRI for gating work
-69a314d6a155c5bfa9720b25d6456656f0b38bd1 scsi: ufs: Add more contexts in the ufs tracepoints
-8eb456be75af7e5a7ac0cd223eaa198cf7ee2ac1 scsi: ufs: Fix clkgating on/off
-3754cde8df9106bda396b2956ea6f9758e26b25e scsi: ufs: Show LBA and length for UNMAP commands
-61bdb4eec8d1efc0dc3259d8392e43e20a01deae scsi: ibmvfc: Byte swap login_buf.resp values in attribute show functions
-4e0716199ab656815c14de41740b658bb918e85e scsi: ibmvfc: Remove trailing semicolon
-2aa0102c6688306548d81a958a6293936904ca75 scsi: ibmvfc: Use correlation token to tag commands
-fad74a1be2dbeae02d71e072418eeb307ce46103 scsi: ibmvfc: Deduplicate common ibmvfc_cmd init code
-c16b8a6d8af15364e562ed4d61b05fb826151712 scsi: ibmvfc: Add new fields for version 2 of several MADs
-a318c2b71ccee720134e9a43b9b1afbea50f0578 scsi: ibmvfc: Add helper for testing capability flags
-5a9d16f71c264addd7ed6fffd8f27839b0ad8433 scsi: ibmvfc: Add FC payload retrieval routines for versioned vfcFrames
-ebc7c74bd2dcdb5b9b1aa54036a0f4e9c90ce0d4 scsi: ibmvfc: Add support for target_wwpn field in v2 MADs and vfcFrame
-e4af87b7079ebf1bba86c7011ef5d5df45af8f56 scsi: ibmvfc: Advertise client support for targetWWPN using v2 commands
-1e7dddb2e76a593627643c42f9bf57e5c0078f06 scsi: lpfc: Fix pointer defereference before it is null checked issue
-61795a5316ad8786fb4bb896198733188a60eab8 scsi: lpfc: Remove dead code on second !ndlp check
-14c1dd9504112ffe86688ff0cd64149e16d36772 scsi: lpfc: Fix memory leak on lcb_context
-809032ddf9c6c779a9eb0f0c55c21a1e8913557f scsi: lpfc: Fix missing prototype warning for lpfc_fdmi_vendor_attr_mi()
-4a119d8a4c6058d445db89c22db87ef8316c4286 scsi: lpfc: Fix set but not used warnings from Rework remote port lock handling
-09b15e35071d35947b6e6da5b1a1d0cab73c12a6 scsi: lpfc: Fix set but unused variables in lpfc_dev_loss_tmo_handler()
-185d17e11e7f98e0d1f499d702d9792a4ed5ae47 scsi: lpfc: Fix missing prototype for lpfc_nvmet_prep_abort_wqe()
-6998ff4e21619d47ebf4f5eb4cafa65c65856221 scsi: lpfc: Fix variable 'vport' set but not used in lpfc_sli4_abts_err_handler()
+66df79ccbc2f617a2bbaa7108a2b50a6869de5d4 scsi: ufs: Adjust logic in common ADAPT helper
+03fe6a640a05c5dc04b6bcdddfb981d015e84ed4 scsi: atari_scsi: Fix race condition between .queuecommand and EH
+bdd1cc0377d3ce96683d178f30714da478f6a955 scsi: NCR5380: Reduce NCR5380_maybe_release_dma_irq() call sites
+27a34943bd89c101d3fb4a895d51d41a3c35ccab scsi: pm8001: Remove typecast for pointer returned by kcalloc()
+1b5d2793283dcb97b401b3b2c02b8a94eee29af1 scsi: pm8001: Neaten debug logging macros and uses
+89eddb401080a1969f0ef67fbd19123062e64a0b scsi: pm8001: Make implicit use of pm8001_ha in pm8001_printk() explicit
+90b3a938031fd2da2000f84e58223971ad8f6df3 scsi: fnic: Change shost_printk() to FNIC_FCS_DBG()
+f9e2beb990f0836b642e5e7d1bed285bbc137c83 scsi: fnic: Avoid looping in TRANS ETH on unload
+875d4eda3bd67315418f4e6f6725a877aa1786b5 scsi: fnic: Change shost_printk() to FNIC_MAIN_DBG()
+74ae6d6a6805f9fe162e4527d8ff0f7d2f9bc0d0 scsi: fnic: Set scsi_set_resid() only for underflow
+3256b4682386298ec106c1d1896b064f6a291f88 scsi: fnic: Validate io_req before others
 
---===============6816878210594857463==--
+--===============8450629641648601468==--
