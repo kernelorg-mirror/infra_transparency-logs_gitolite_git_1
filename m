@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 24 Nov 2020 03:28:47 -0000
-Message-Id: <160618852798.21069.13544274057465047797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
+Date: Tue, 24 Nov 2020 03:32:49 -0000
+Message-Id: <160618876904.23846.17950627569579035242@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/fs/fscrypt/fscrypt
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 2980cbd4dce7b1e9bf57df3ced43a7b184986f50
-    new: d549699048b4b5c22dd710455bcdb76966e55aa3
+  - ref: refs/heads/fsverity
+    old: 3410d9296a27ea0bff35471caf26bc83199c13e0
+    new: bde493349025ca0559e2fff88592935af3b8df19
     log: |
-         d549699048b4b5c22dd710455bcdb76966e55aa3 net/packet: fix packet receive on L3 devices without visible hard header
+         bde493349025ca0559e2fff88592935af3b8df19 fs-verity: move structs needed for file signing to UAPI header
          
