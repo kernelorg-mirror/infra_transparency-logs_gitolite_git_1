@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 24 Nov 2020 22:58:34 -0000
-Message-Id: <160625871405.11688.10518391455074476438@gitolite.kernel.org>
+Date: Tue, 24 Nov 2020 23:01:56 -0000
+Message-Id: <160625891667.14300.9869742801739450107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: bc40a3691f15c0728209cd0e2dc9e8e18854187f
-    new: 078eb55cdf25e0a621d406c233cc1b4acc31c82f
+    old: 078eb55cdf25e0a621d406c233cc1b4acc31c82f
+    new: d8f0a86795c69f5b697f7d9e5274c124da93c92d
     log: |
-         078eb55cdf25e0a621d406c233cc1b4acc31c82f dpaa2-eth: Fix compile error due to missing devlink support
+         d8f0a86795c69f5b697f7d9e5274c124da93c92d nfc: s3fwrn5: use signed integer for parsing GPIO numbers
          
