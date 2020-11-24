@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vgupta/arc
-Date: Tue, 24 Nov 2020 00:49:37 -0000
-Message-Id: <160617897782.3354.3687314291896130450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 24 Nov 2020 00:58:15 -0000
+Message-Id: <160617949571.11368.12106677812252059670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vgupta/arc
-user: vgupta
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/arc-5.10-rc6
-    old: 0000000000000000000000000000000000000000
-    new: ee94c7c61292a2df53e6b94486e37388fc15123b
+  - ref: refs/heads/master
+    old: 3fe356d58efae54dade9ec94ea7c919ed20cf4db
+    new: 2980cbd4dce7b1e9bf57df3ced43a7b184986f50
+    log: |
+         2980cbd4dce7b1e9bf57df3ced43a7b184986f50 i40e: Fix removing driver while bare-metal VFs pass traffic
+         
