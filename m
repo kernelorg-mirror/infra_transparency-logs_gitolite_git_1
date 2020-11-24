@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Tue, 24 Nov 2020 15:36:20 -0000
-Message-Id: <160623218023.25557.1369127810391160479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 24 Nov 2020 15:36:46 -0000
+Message-Id: <160623220686.25834.10277084411823021672@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
-    new: e6e9354b58307c120afbdc2719a6093638c37446
+    old: 2ba546ebe0ce2af47833d8912ced9b4a579f13cb
+    new: 34c5aa2666db54c4bd330fb2759f6e4d4544ad7a
     log: |
-         e6e9354b58307c120afbdc2719a6093638c37446 regmap: Remove duplicate `type` field from regmap `regcache_sync` trace event
+         34c5aa2666db54c4bd330fb2759f6e4d4544ad7a regulator: Kconfig: Fix REGULATOR_QCOM_RPMH dependencies to avoid build error
          
   - ref: refs/heads/for-next
-    old: f7d01359b0d96331fce7bd4051d3b68a4bb5ea83
-    new: ac185479f48aa3881d0858cf902ca1306ed72416
+    old: ebea02734c8b8cb2f7fec6f5888ee080eedc301b
+    new: c2c960d49a36cc240af388601d79bbd468c164e5
     log: |
-         e6e9354b58307c120afbdc2719a6093638c37446 regmap: Remove duplicate `type` field from regmap `regcache_sync` trace event
-         ac185479f48aa3881d0858cf902ca1306ed72416 Merge remote-tracking branch 'regmap/for-5.11' into regmap-next
+         34c5aa2666db54c4bd330fb2759f6e4d4544ad7a regulator: Kconfig: Fix REGULATOR_QCOM_RPMH dependencies to avoid build error
+         c2c960d49a36cc240af388601d79bbd468c164e5 Merge remote-tracking branch 'regulator/for-5.11' into regulator-next
          
