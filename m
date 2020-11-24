@@ -1,69 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============4583079783277903986=="
+Content-Type: multipart/mixed; boundary="===============5537420098856165205=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
-Date: Tue, 24 Nov 2020 17:01:28 -0000
-Message-Id: <160623728850.22987.17328258786915200548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 24 Nov 2020 17:10:57 -0000
+Message-Id: <160623785796.28761.8788878961133629114@gitolite.kernel.org>
 
---===============4583079783277903986==
+--===============5537420098856165205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/playground
-user: arnd
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/to-build
-    old: 6467fc61678408916d64462c7cf4436f74135395
-    new: 1b5cfa5ca6a25f30425037f596a4d780b0bb8a03
-    log: revlist-6467fc616784-1b5cfa5ca6a2.txt
+  - ref: refs/heads/master
+    old: d2624e70a2f53b6f402fdaeabe7db798148618c5
+    new: d549699048b4b5c22dd710455bcdb76966e55aa3
+    log: revlist-d2624e70a2f5-d549699048b4.txt
 
---===============4583079783277903986==
+--===============5537420098856165205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6467fc616784-1b5cfa5ca6a2.txt
+Content-Disposition: attachment; filename=revlist-d2624e70a2f5-d549699048b4.txt
 
-fa1f5a748bf87d54d9851660461e527977d96cfb soc: document merges
-2f410185207f5a6c2f69ce34b22a6d5f2bb25e20 soc: document merges
-60fd6e88a0ab2d2c8da80823cf154f29c3eed666 soc: document merges
-93bb264465015985106d9eb1c6a2722191289605 soc: document merges
-c5910f05e31f84085c4ff15783b2ab1017a561f6 soc: document merges
-337e8eb267cc29c5cb01b8d172f7190796f0e1a1 ARM: omap1: innovator: pass lcd control address as pdata
-3ae970ce52bd1fdc77303fcf606bb367236b442f ARM: omap1: move lcd_dma code into omapfb driver
-eeeaa29cef2f8167eacfdcd9e148fe81a49f9128 ARM: omap1: declare a dummy omap_set_dma_priority
-a91c7c8e8412fca8dad2cf1e220839413af29f48 fbdev: omap: pass irqs as resource
-baad308b9516f77ddd13b843a8c76c00382eb78d [rework] ARM: omap1: move omap15xx local bus handling to usb.c
-0e3b9bfe26ebd3025ce20d46252d66cf68e120c4 ARM: omap1: move mach/usb.h to include/linux/soc
-d0c3a3cf5bec2998ed21d8d722074735659ee445 ARM: omap1: move some headers to include/linux/soc
-991375af48468078fc6ffc97168bb4e544ebdf8b ARM: omap1: move perseus spi pinconf to board file
-9049807b9d741b79fbee3d931783bcbd8b793589 ARM: omap1: move CF chipselect setup to board file
-42675d49e88f5889c61f5d420c62dd84126d5f6f fbdev: omap: avoid using mach/*.h files
-d33b880c118d111f349a81077f99b6fb5edeb110 usb: omap: avoid mach/*.h headers
-b5bbc811f16e3b6e77ae1feb19d1b442d6897837 clocksource: ti-dmtimer: avoid using mach/hardware.h
-7e234b19ec41ef03ae36f4ca64c90edc163e340c serial: 8250/omap1: include linux/soc/ti/omap1-soc.h
-9f09eca8c440d5e9064945d14c4f2f1ad9b89d9f input: omap: void using mach/*.h headers
-0221c7816e36c56f4efae57eadc09b14910a5679 ARM: omap1: move 32k counter from plat-omap to mach-omap1
-b06653a10e6801f9260b65369092259de7075e16 ARM: omap: remove debug-leds driver
-e0bc48066fbafff355640325298df6f76dc73121 ARM: omap: move omap_set_dma_priority to omap1
-5bbaedb5ed7dace34668f1ec8fa5a5d08ad79e52 ARM: omap: move omap_dma_running to mach-omap1/dma.c
-d1d92f5b36ef0e96fa01d9df4c886596887e69e6 ARM: omap: move platform dma portion into driver
-243f2bd98b8afcb5bfd356b9469c2e15c7d12249 ARM: omap: split up arch/arm/plat-omap/Kconfig
-8143c3b36bd7af4634f4de10a046fa48b9e69eb9 ARM: omap: un-merge plat/sram.c
-86c499725ca5abf3b05934c16dbf7607c6663113 ARM: omap: remove empty plat-omap directory
-d9251fb056d7ea73806d394ca79aa004cd9b9ca3 ARM: omap1: relocate static I/O mapping
-de80ac828731d4e7d7ee4a610800fbb0dd130d0a ARM: omap1: use pci_ioremap_io() for omap_cf
-7ff1ae13805f063c5bb94fff614bb39c1e8abee9 ARM: omap1: move mach/*.h into mach directory
-effafff4db4c2bdeefa22e549e245dabcd05e95d ARM: omap1: move clk support into a single file
-4192c6b8e1de0b87a6df4dc3cd139811f4381db7 ARM: omap1: remove some dead clock code
-eea3d5b0565fec1e2c9a9f6e0c824f49f03381f9 ARM: omap1: clk: rework 'struct clk'
-11d7ad09c247f34547c73641b40a4b15a09da320 ARM: omap1: clk: use common_clk-like callbacks
-97f9e516525a075cb51c1cdea071857ba8eccdd6 ARM: omap1: clk: use clk_init_data
-6391024286ca915476ba8f8a2db276735869f541 ARM: omap1: use common clk framework
-06fb7d6751a915bcfa64650073291cfb55e4c714 ARM: omap1: enable multiplatform
-409bd934daec9ea07eeea8d0b32767dbd1882808 ARM: omap1: initialize common clk after memory allocator
-1b5cfa5ca6a25f30425037f596a4d780b0bb8a03 ARM: omap1: fix build with no SoC selected
+ddcd945e556e2cc6be8f88ef0271b56927ffbe98 rtw88: fix fw_fifo_addr check
+04516706bb99889986ddfa3a769ed50d2dc7ac13 iwlwifi: pcie: limit memory read spin time
+397a973b9978533418892c6453853c52b2ad8ec6 MAINTAINERS: update Yan-Hsuan's email address
+d85b4b2bf2d4229847d76cfd81e48d5beb72f75b MAINTAINERS: update maintainers list for Cypress
+c8a2e7a29702fe4626b7aa81149b7b7164e20606 iwlwifi: sta: set max HE max A-MPDU according to HE capa
+fb8d1b6e97980057b7ebed444b8950e57f268a67 iwlwifi: mvm: use the HOT_SPOT_CMD to cancel an AUX ROC
+1cf260e3a75b87726ec609ad1b6b88f515749786 iwlwifi: mvm: properly cancel a session protection for P2P
+97cc16943f23078535fdbce4f6391b948b4ccc08 iwlwifi: mvm: write queue_sync_state only for sync
+edb625208d84aef179e3f16590c1c582fc5fdae6 iwlwifi: pcie: set LTR to avoid completion timeout
+fe56d05ee6c87f6a1a8c7267affd92c9438249cc iwlwifi: mvm: fix kernel panic in case of assert during CSA
+861602b57730a5c6d3e0b1e4ca7133ca9a8b8538 tcp: Allow full IP tos/IPv6 tclass to be reflected in L3 header
+55472017a4219ca965a957584affdb17549ae4a4 tcp: Set INET_ECN_xmit configuration in tcp_reinit_congestion_control
+e10823c71920c6fd54ab85677f001d7978bcb3ae Merge branch 'tcp-address-issues-with-ect0-not-being-set-in-dctcp-packets'
+0d0e2b538c13f4f698ba58485a573ce824036567 s390/qeth: Remove pnso workaround
+34c7f50f7d0d36fa663c74aee39e25e912505320 s390/qeth: make af_iucv TX notification call more robust
+8908f36d20d8ba610d3a7d110b3049b5853b9bb1 s390/qeth: fix af_iucv notification race
+7ed10e16e50daf74460f54bc922e27c6863c8d61 s390/qeth: fix tear down of async TX buffers
+207d0bfc08f1553ac9cec4f3a2c31936319368c5 Merge branch 's390-qeth-fixes-2020-11-20'
+b9ad3e9f5a7a760ab068e33e1f18d240ba32ce92 bonding: wait for sysfs kobject destruction before freeing struct slave
+659fbdcf2f147010a7624f7eac04f4282814b013 cxgb4: Fix build failure when CONFIG_TLS=m
+f33d9e2b48a34e1558b67a473a1fc1d6e793f93c usbnet: ipheth: fix connectivity with iOS 14
+c5dab0941fcdc9664eb0ec0d4d51433216d91336 net/af_iucv: set correct sk_protocol for child sockets
+5aac0390a63b8718237a61dd0d24a29201d1c94a tun: honor IOCB_NOWAIT flag
+8393597579f5250636f1cff157ea73f402b6501e ibmvnic: fix call_netdevice_notifiers in do_reset
+98025bce3a6200a0c4637272a33b5913928ba5b8 ibmvnic: notify peers when failover and migration happen
+855a631a4c11458a9cef1ab79c1530436aa95fae ibmvnic: skip tx timeout reset while in resetting
+f9b036532108d60925ef5d696a8463097abbc59a Merge branch 'ibmvnic-fixes-in-reset-path'
+1eae77bfad7a0ded0f70d56f360ca59571a8cf4d Merge tag 'wireless-drivers-2020-11-23' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
+01770a166165738a6e05c3d911fb4609cc4eb416 tcp: fix race condition when creating child sockets from syncookies
+3fe356d58efae54dade9ec94ea7c919ed20cf4db vsock/virtio: discard packets only when socket is really closed
+2980cbd4dce7b1e9bf57df3ced43a7b184986f50 i40e: Fix removing driver while bare-metal VFs pass traffic
+d549699048b4b5c22dd710455bcdb76966e55aa3 net/packet: fix packet receive on L3 devices without visible hard header
 
---===============4583079783277903986==--
+--===============5537420098856165205==--
