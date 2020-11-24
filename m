@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 24 Nov 2020 21:30:58 -0000
-Message-Id: <160625345841.16887.17921011796419521784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 24 Nov 2020 21:49:07 -0000
+Message-Id: <160625454794.26722.1094873356340475329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/dev
-    old: 7f6bc662bab6d4e9e5e652c903f92a476d434717
-    new: e2b17945eabf6f9e88f78b2e772b3cb57e4ceb53
+  - ref: refs/heads/master
+    old: 178648916e73e00de83150eb0c90c0d3a977a46a
+    new: 36ccdf85829a7dd6936dba5d02fa50138471f0d3
     log: |
-         05f76fe8ac4769b1f277234dc459981ad226fec9 torture: Auto-size SCF and scaling runs based on number of CPUs
-         e2b17945eabf6f9e88f78b2e772b3cb57e4ceb53 torture: Make kvm.sh include --kconfig arguments in CPU calculation
+         36ccdf85829a7dd6936dba5d02fa50138471f0d3 net, xsk: Avoid taking multiple skbuff references
          
