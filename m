@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Tue, 24 Nov 2020 17:45:37 -0000
-Message-Id: <160623993740.19860.5259607433240783356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 24 Nov 2020 17:50:02 -0000
+Message-Id: <160624020289.22445.13537514339631397962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/xfs/misc
-    old: 98d63f036ba332518b64f34313b6b5dd4ed01097
-    new: daa113e57e45da8d3fa505fdba63415000dab3af
+  - ref: refs/heads/master
+    old: ccf265b943edf5e51206108875cae496e730c1d5
+    new: e402a11f0635fc071f055584cb3d6c6c4f4c7098
     log: |
-         7381d16622db830d68525f19d54b8443afd1f020 xfs: convert noroom, okalloc in xfs_dialloc() to bool
-         9345dcda0377706425a071d9608978c3ad0adcbd xfs: kill ialloced in xfs_dialloc()
-         daa113e57e45da8d3fa505fdba63415000dab3af xfs: clean up xfs_dialloc() by introducing __xfs_dialloc()
+         e402a11f0635fc071f055584cb3d6c6c4f4c7098 auto-t: fix FT over DS test to wait for connected
          
