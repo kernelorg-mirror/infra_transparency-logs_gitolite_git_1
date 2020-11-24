@@ -1,55 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0471560517862876916=="
+Content-Type: multipart/mixed; boundary="===============5917208177091202867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 24 Nov 2020 15:24:01 -0000
-Message-Id: <160623144180.15975.9188833865749055488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Tue, 24 Nov 2020 15:24:45 -0000
+Message-Id: <160623148500.16503.3235987806531035245@gitolite.kernel.org>
 
---===============0471560517862876916==
+--===============5917208177091202867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/for-next
-    old: 64eeea415d1fac95f91b23f3f2f61180f131a4d0
-    new: f9123bc98a4ffb289491f8726b93f8aff7622175
-    log: revlist-64eeea415d1f-f9123bc98a4f.txt
+  - ref: refs/heads/asym32
+    old: c12a5eee02af4d51ff021f11bd60d646789b54c2
+    new: 82b0bead2744696b8d7292cceebb894a8aab19be
+    log: revlist-c12a5eee02af-82b0bead2744.txt
 
---===============0471560517862876916==
+--===============5917208177091202867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64eeea415d1f-f9123bc98a4f.txt
+Content-Disposition: attachment; filename=revlist-c12a5eee02af-82b0bead2744.txt
 
-fd62de114f8c9df098dcd43b5d83c5714176dd12 scsi: ufs: Avoid to call REQ_CLKS_OFF to CLKS_OFF
-b664511297644eac34038df877b3ad7bcaa81913 scsi: ufs: Atomic update for clkgating_enable
-4f3e900b628226011a5f71c19e53b175c014eb58 scsi: ufs: Clear UAC for FFU and RPMB LUNs
-e93e6e49fa31989b149c48526d4098b278205c8a scsi: ufs: Use WQ_HIGHPRI for gating work
-69a314d6a155c5bfa9720b25d6456656f0b38bd1 scsi: ufs: Add more contexts in the ufs tracepoints
-8eb456be75af7e5a7ac0cd223eaa198cf7ee2ac1 scsi: ufs: Fix clkgating on/off
-3754cde8df9106bda396b2956ea6f9758e26b25e scsi: ufs: Show LBA and length for UNMAP commands
-61bdb4eec8d1efc0dc3259d8392e43e20a01deae scsi: ibmvfc: Byte swap login_buf.resp values in attribute show functions
-4e0716199ab656815c14de41740b658bb918e85e scsi: ibmvfc: Remove trailing semicolon
-2aa0102c6688306548d81a958a6293936904ca75 scsi: ibmvfc: Use correlation token to tag commands
-fad74a1be2dbeae02d71e072418eeb307ce46103 scsi: ibmvfc: Deduplicate common ibmvfc_cmd init code
-c16b8a6d8af15364e562ed4d61b05fb826151712 scsi: ibmvfc: Add new fields for version 2 of several MADs
-a318c2b71ccee720134e9a43b9b1afbea50f0578 scsi: ibmvfc: Add helper for testing capability flags
-5a9d16f71c264addd7ed6fffd8f27839b0ad8433 scsi: ibmvfc: Add FC payload retrieval routines for versioned vfcFrames
-ebc7c74bd2dcdb5b9b1aa54036a0f4e9c90ce0d4 scsi: ibmvfc: Add support for target_wwpn field in v2 MADs and vfcFrame
-e4af87b7079ebf1bba86c7011ef5d5df45af8f56 scsi: ibmvfc: Advertise client support for targetWWPN using v2 commands
-1e7dddb2e76a593627643c42f9bf57e5c0078f06 scsi: lpfc: Fix pointer defereference before it is null checked issue
-61795a5316ad8786fb4bb896198733188a60eab8 scsi: lpfc: Remove dead code on second !ndlp check
-14c1dd9504112ffe86688ff0cd64149e16d36772 scsi: lpfc: Fix memory leak on lcb_context
-809032ddf9c6c779a9eb0f0c55c21a1e8913557f scsi: lpfc: Fix missing prototype warning for lpfc_fdmi_vendor_attr_mi()
-4a119d8a4c6058d445db89c22db87ef8316c4286 scsi: lpfc: Fix set but not used warnings from Rework remote port lock handling
-09b15e35071d35947b6e6da5b1a1d0cab73c12a6 scsi: lpfc: Fix set but unused variables in lpfc_dev_loss_tmo_handler()
-185d17e11e7f98e0d1f499d702d9792a4ed5ae47 scsi: lpfc: Fix missing prototype for lpfc_nvmet_prep_abort_wqe()
-6998ff4e21619d47ebf4f5eb4cafa65c65856221 scsi: lpfc: Fix variable 'vport' set but not used in lpfc_sli4_abts_err_handler()
-f9123bc98a4ffb289491f8726b93f8aff7622175 Merge branch 'misc' into for-next
+b6cff72e5ed1eb08ebca4878bb1dd88c7df0634d arm64: Allow mismatched 32-bit EL0 support
+690aaa212baa5340f9f19a181a2b3458a9e6f828 KVM: arm64: Kill 32-bit vCPUs on systems with mismatched EL0 support
+f57bd73ff7602d1797da9decfc13bd8688b9e500 arm64: Kill 32-bit applications scheduled on 64-bit-only CPUs
+71aceaf42771612a00e5d0ade184a1f41584e239 arm64: Advertise CPUs capable of running 32-bit applications in sysfs
+e52c667f09b8a06cc8352861c301217b68b0feef arm64: Hook up cmdline parameter to allow mismatched 32-bit EL0
+d90aa0a7844cd24762d6ed224ab580dc642d64b0 sched: Introduce restrict_cpus_allowed_ptr() to limit task CPU affinity
+23ff64a0f6cc56564243deb5387dd45c897309e0 arm64: exec: Adjust affinity for compat tasks with mismatched 32-bit EL0
+4d09e632acef3292d067c39f9d726f2c3c5d4e10 cpuset: Don't use the cpu_possible_mask as a last resort for cgroup v1
+1a6505c2fd508fa611d5838945e6b771a3ab50ad sched: Introduce arch_task_cpu_possible_mask() to limit fallback rq selection
+ebf5aaf96faaa2ea2108a578896ca41341ece9fc sched: Reject CPU affinity changes based on arch_task_cpu_possible_mask()
+f8e31cdc978b5d8643497add3a413fd2390f9456 arm64: Prevent offlining first CPU with 32-bit EL0 on mismatched system
+580952c120508e17739d620638159f411d57b6c8 arm64: Implement arch_task_cpu_possible_mask()
+82b0bead2744696b8d7292cceebb894a8aab19be arm64: Remove logic to kill 32-bit tasks on 64-bit-only cores
 
---===============0471560517862876916==--
+--===============5917208177091202867==--
