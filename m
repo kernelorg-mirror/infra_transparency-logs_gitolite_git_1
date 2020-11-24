@@ -1,69 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7714028268757250807=="
+Content-Type: multipart/mixed; boundary="===============1304913933807206766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Tue, 24 Nov 2020 15:03:19 -0000
-Message-Id: <160623019908.1080.18326402438219459266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mripard/linux
+Date: Tue, 24 Nov 2020 15:04:19 -0000
+Message-Id: <160623025907.1511.4349517488487763187@gitolite.kernel.org>
 
---===============7714028268757250807==
+--===============1304913933807206766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
+repo: pub/scm/linux/kernel/git/mripard/linux
 user: mripard
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/sunxi/dt-for-5.11
-    old: 9340c293ebf0687d53a52c710a8e6fe80bfd6b6b
-    new: 036b7334ee6dc10115fbaebd8b04c9e4a17eccb2
+  - ref: refs/heads/vc4/hdmi-10-12-bits
+    old: b815a5368fe199be834161f349ae075d6f577026
+    new: 5fb8ef0c03aaadf15996d8f113ed8da5ab9293e4
     log: |
-         036b7334ee6dc10115fbaebd8b04c9e4a17eccb2 ARM: dts: sun8i-h2-plus-bananapi-m2-zero: add gpio-line-names
+         f2df84e096a8254ddb18c531b185fc2a45879077 drm/vc4: kms: Store the unassigned channel list in the state
+         2820526dd5c27326d9c0d2c831a34b8f14e7c404 drm/vc4: kms: Don't disable the muxing of an active CRTC
+         1422690ff8cbfe3eb9659a8e7cf1b3825de6b0e5 drm/vc4: Pass the atomic state to encoder hooks
+         e7a5fe993e057d11e7f9e40ce5a61cde11744b40 drm/vc4: hdmi: Create a custom connector state
+         23b387847519d185d23c3c5e9d7c7f2dff5ca41f drm/vc4: hdmi: Store pixel frequency in the connector state
+         d44d7227ac59790aac9decc63e7b58863fc0bd8c drm/vc4: hdmi: Enable 10/12 bpc output
+         2445585159853945b565b4542f570efd61959deb fixup! drm/vc4: hdmi: Enable 10/12 bpc output
+         198957d03ec4d2fdb478ac789f57b9a059654b96 HACK: Force the HSM clock at 600MHz
+         865ff11cff40e0198d8bfa076b134f0aa4f315d5 HACK: Disable HSM rate clock check
+         2cb435320c881b2c20e5fc1c05e0a23bdbc163ad fixup! drm/vc4: hdmi: Enable 10/12 bpc output
+         5fb8ef0c03aaadf15996d8f113ed8da5ab9293e4 fixup! drm/vc4: hdmi: Enable 10/12 bpc output
          
-  - ref: refs/heads/sunxi/fixes-for-5.10
-    old: 8a82d91fa275aaea49be06d7f5b1407ce1c0dd4b
-    new: a7361b9c4615951f52ffd2b1afa09a1384c7b4e4
-    log: |
-         a98fd117a2553ab1a6d2fe3c7acae88c1eca4372 ARM: dts: sun8i: v3s: fix GIC node memory range
-         a7361b9c4615951f52ffd2b1afa09a1384c7b4e4 ARM: dts: sun7i: pcduino3-nano: enable RGMII RX/TX delay on PHY
-         
-  - ref: refs/heads/sunxi/for-next
-    old: 12f6c7209fc3ba613bbb58e32c318c285e641d23
-    new: 8ebd74f80194b918a68ca59e7f1081488dcf24dd
-    log: |
-         38c212c90bf172547dc7df7c11fcaacef2c78696 ARM: configs: sunxi: enable Realtek PHY
-         a98fd117a2553ab1a6d2fe3c7acae88c1eca4372 ARM: dts: sun8i: v3s: fix GIC node memory range
-         a7361b9c4615951f52ffd2b1afa09a1384c7b4e4 ARM: dts: sun7i: pcduino3-nano: enable RGMII RX/TX delay on PHY
-         036b7334ee6dc10115fbaebd8b04c9e4a17eccb2 ARM: dts: sun8i-h2-plus-bananapi-m2-zero: add gpio-line-names
-         8ebd74f80194b918a68ca59e7f1081488dcf24dd Merge branches 'sunxi/dt-for-5.11', 'sunxi/fixes-for-5.10' and 'sunxi/config-for-5.11' into sunxi/for-next
-         
-  - ref: refs/heads/sunxi/config-for-5.11
-    old: 0000000000000000000000000000000000000000
-    new: 38c212c90bf172547dc7df7c11fcaacef2c78696
 
---===============7714028268757250807==
+--===============1304913933807206766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1606230197 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sunxi/linux
-nonce 1606230197-a35d51516b8fb928d522a03d78792811ebeadc21
+pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1606230258 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mripard/linux.git
+nonce 1606230257-00af75622ba55c48bf22006dacab149ecfa5c759
 
-9340c293ebf0687d53a52c710a8e6fe80bfd6b6b 036b7334ee6dc10115fbaebd8b04c9e4a17eccb2 refs/heads/sunxi/dt-for-5.11
-8a82d91fa275aaea49be06d7f5b1407ce1c0dd4b a7361b9c4615951f52ffd2b1afa09a1384c7b4e4 refs/heads/sunxi/fixes-for-5.10
-12f6c7209fc3ba613bbb58e32c318c285e641d23 8ebd74f80194b918a68ca59e7f1081488dcf24dd refs/heads/sunxi/for-next
-0000000000000000000000000000000000000000 38c212c90bf172547dc7df7c11fcaacef2c78696 refs/heads/sunxi/config-for-5.11
+b815a5368fe199be834161f349ae075d6f577026 5fb8ef0c03aaadf15996d8f113ed8da5ab9293e4 refs/heads/vc4/hdmi-10-12-bits
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCX70gtQAKCRDj7w1vZxhR
-xbsrAQDPDE6pcqaf34vYpTmUKTV0v+W+mRAgiZifFS69qNJSKQEAsCQxi7zKWAiJ
-2Q4PgiN/6IDTSA4GyKZ8qK2RdEODKAI=
-=0b8b
+iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCX70g8gAKCRDj7w1vZxhR
+xY+GAQCWeWaJlyyMu+wohz5Pjv4mbIyNYnv/dcP/o8CPSjCgawD6AuHBunyJS4F9
+AGUPMnB+2h4YptMvBgFX8zX4TcmiBAs=
+=uffA
 -----END PGP SIGNATURE-----
 
---===============7714028268757250807==--
+--===============1304913933807206766==--
