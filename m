@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 24 Nov 2020 10:28:30 -0000
-Message-Id: <160621371007.1340.12167403621664480950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 24 Nov 2020 10:30:20 -0000
+Message-Id: <160621382076.3484.885470526978736288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/fixes
-    old: 29c31da354d18a1eea0fe445e9c33069ef96855a
-    new: a42a7ec9bb99a17869c3b9f3d365aaf2bdb1a554
+  - ref: refs/heads/x86/sgx
+    old: 14132a5b807bb5caf778fe7ae1597e630971e949
+    new: afe76eca862ccde2a0c30105fc97a46a0b59339b
     log: |
-         903a72eca4abf241293dcc1385896fd428e15fe9 mmc: mediatek: Extend recheck_sdio_irq fix to more variants
-         a42a7ec9bb99a17869c3b9f3d365aaf2bdb1a554 mmc: sdhci-of-arasan: Fix clock registration error for Keem Bay SOC
+         afe76eca862ccde2a0c30105fc97a46a0b59339b x86/sgx: Fix sgx_ioc_enclave_provision() kernel-doc comment
          
