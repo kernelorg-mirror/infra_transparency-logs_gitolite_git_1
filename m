@@ -1,58 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============8892349531723199118=="
+Content-Type: multipart/mixed; boundary="===============7992675411437883323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 24 Nov 2020 18:20:37 -0000
-Message-Id: <160624203739.12359.7904938479815732519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 24 Nov 2020 18:28:38 -0000
+Message-Id: <160624251815.18787.3213808452348028712@gitolite.kernel.org>
 
---===============8892349531723199118==
+--===============7992675411437883323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/next
-    old: 3e1f5615aa510f21ba88d2f9c804bd9ad099ac5c
-    new: 46f821a9cff21f29eec03f589d0131194c1a59f2
-    log: revlist-3e1f5615aa51-46f821a9cff2.txt
+  - ref: refs/heads/coresched
+    old: af7aaa38ee2cbac72eba4bda989dda10e1e368d8
+    new: 3a1501598c9a367ec357f9a9eba5dff99a5b722c
+    log: revlist-af7aaa38ee2c-3a1501598c9a.txt
 
---===============8892349531723199118==
+--===============7992675411437883323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e1f5615aa51-46f821a9cff2.txt
+Content-Disposition: attachment; filename=revlist-af7aaa38ee2c-3a1501598c9a.txt
 
-6e8e137abeaba31d48a9d385a8a425cfab4125a4 PCI: rcar: Drop unused members from struct rcar_pcie_host
-0d69ce3c2c63d4db06b369ef67cb6e73b06a8ad8 dt-bindings: PCI: rcar-pci-host: Convert bindings to json-schema
-2228af80935aa5440dff2e5b3a2c5d25d9d61334 dt-bindings: PCI: rcar-pci-host: Document r8a77965 bindings
-64fc0a030987eec45c5362618bacdef7227783d5 dt-bindings: PCI: rcar-pci-host: Document r8a774e1 bindings
-4a2b9125c9851b0f7894b93daeaf4900ec95606f dt-bindings: PCI: Make "cdns,max-outbound-regions" optional property
-e87d17ca6af5ba4466538de87785cfc8c20af59a PCI: cadence: Do not error if "cdns,max-outbound-regions" is not found
-341917490d7d68d2f7267a265b8820fc3f8ead1b PCI: Decode PCIe 64 GT/s link speed
-1f40704bb01b9fba9925006662a37373d514f26b PCI: Move pci_match_device() ahead of new_id_store()
-3853f9123c185eb4018f5ccd3cdda5968efb5e10 PCI: Avoid duplicate IDs in driver dynamic IDs list
-0848f8cfe9943a0b852843dfd4143c9608ec000c PCI: Fix overflow in command-line resource alignment requests
-f6b7bb847ca821a8aaa1b6da10ee65311e6f15bf PCI: vmd: Offset Client VMD MSI-X vectors
-83fbffcd1329dfd5254f020b542857b7833d227b dt-bindings: PCI: exynos: drop samsung,exynos5440-pcie binding
-eea23e4a00d479eea6d15a78b79f0c58e8ee4467 dt-bindings: PCI: exynos: add the samsung,exynos-pcie binding
-a7b4dba9a71d64e07fbc9802bbc1eaad5494f071 dt-bindings: phy: exynos: add the samsung,exynos-pcie-phy binding
-46bc965df0387539adb0aaafa27927815d918aa6 phy: samsung: phy-exynos-pcie: rework driver to support Exynos5433 PCIe PHY
-f0a6743028f938cdd34e0c3249d3f0e6bfa04073 PCI: dwc: exynos: Rework the driver to support Exynos5433 variant
-a754653d0e126570a69745538f940f5ca6500443 Merge branch 'pci/aspm'
-da78f2019a3c43d30b0ab0750a0bc81f5d09dbf7 Merge branch 'pci/enumeration'
-e66a77e2f01585cbd476f7fa6fc0dad4d35e940a Merge branch 'pci/hotplug'
-6665779363c1b5d2acac20f7ab148f4e0f06b9bb Merge branch 'pci/misc'
-d450a913e58d4b526c8e5cf41be07baec959d2af Merge branch 'pci/msi'
-a2110d4f05f8f8bdd2a26969609cafe760884fe3 Merge branch 'remotes/lorenzo/pci/brcmstb'
-db1b059221ff28ecf57c7f51f91fab5f48146fbb Merge branch 'remotes/lorenzo/pci/cadence'
-a8e9d4f4ec6b112820290cfcb39f09b734f1e056 Merge branch 'remotes/lorenzo/pci/dwc'
-aed22fec1f2219e4ee97bc08dd642ada845b766c Merge branch 'remotes/lorenzo/pci/keystone'
-bcd475b95cf31b40470d53584a0bc3b502004f6f Merge branch 'remotes/lorenzo/pci/rcar'
-fb0623ffd407914f4ef3a06ce3d118962ea7c677 Merge branch 'remotes/lorenzo/pci/vmd'
-46f821a9cff21f29eec03f589d0131194c1a59f2 Merge branch 'remotes/lorenzo/pci/misc'
+f5b571d44ab821bc54d84b4a78df771f706a27d6 COVER
+07b5845d5314f1fe07918d7d57705992189d4356 sched: Wrap rq::lock access
+02001440b0ad15731b6e7f4723527da02bc76d27 sched: Introduce sched_class::pick_task()
+c0a74a2ae91377b0648d2283978b61a0d80c6142 sched/fair: Fix pick_task_fair crashes due to empty rbtree
+9279d9b6c0d43c6f92c9583aa17f9c0218aca5ab sched: Core-wide rq->lock
+640c0bcfccd174126fcf3529ed9a0a0ab0daefdb sched/fair: Add a few assertions
+098eb85d4b0b6d95f3d30e3caac328ed4eb1e90a sched: Basic tracking of matching tasks
+10ef0d264c12df1ba03421a0e19fe9e4df48c1e2 sched: Add core wide task selection and scheduling.
+92d3ec8c4698b161a7666bbebe9b6cf4a550524e sched/fair: Fix forced idle sibling starvation corner case
+570cd4567aeabd9589c3679b14e95406d8533f45 sched/fair: Snapshot the min_vruntime of CPUs on force idle
+6dfb0b2b1fc193acf2dafab96b89643957e98eae sched: Fix priority inversion of cookied task with sibling
+7b8f9e9c802b6bba514ec08db6e5a3f67dd34207 sched: Enqueue task into core queue only after vruntime is updated
+5518fe5a403c8967e2a5cb0e9d34aea7d66a0e6d sched: Simplify the core pick loop for optimized case
+f863f71fb7274ceb788ab54777ec4c78985e4daa sched: Trivial forced-newidle balancer
+a450b9ac76f8b661f632e05b56faabf5e4928749 sched: migration changes for core scheduling
+6ec72df28a955ec67b937b13abdae87370a174cd sched: Improve snapshotting of min_vruntime for CGroups
+e6be738a2b72f911d98218601c8574e467455be6 irq_work: Cleanup
+b8e9839189dec175ee47a471069078fb5da32976 arch/x86: Add a new TIF flag for untrusted tasks
+c5d200e03a98f1f27dde56117d70a6fe243e5e49 kernel/entry: Add support for core-wide protection of kernel-mode
+937d3405311976f28180cf8aa67b5c9a43c49577 entry/idle: Enter and exit kernel protection during idle entry and exit
+36eacb656c3f3fa440924f8934175fb0550a553b entry/kvm: Protect the kernel when entering from guest
+af76e2e8637d2088c0b422e6e7deaf52f5b996f3 sched: CGroup tagging interface for core scheduling
+0b86a9906697892ba264d4e45bc791a80fc87a78 sched: Split the cookie and setup per-task cookie on fork
+06ce25023241e9de720a6ecac223faa843c9f39c sched: Add a per-thread core scheduling interface
+42018bedf34b21a561c27f7e02c522ee57660540 sched: Release references to the per-task cookie on exit
+3495514270fb36dbd7eb3bbdcfeaec9ef268ab45 sched: Refactor core cookie into struct
+6633219bba0574fca1ec9e55612f4de9348af218 sched: Add a second-level tag for nested CGroup usecase
+9ddb9aad190b60725989c6b214cb9d88359c823e sched/debug: Add CGroup node for printing group cookie if SCHED_DEBUG
+5a7cc6a65ccb8759c29288d21145763babc149b9 kselftest: Add tests for core-sched interface
+9c4ef0ce6479fe7e0300d8a2cdefbc7ccb9703de sched: Move core-scheduler interfacing code to a new file
+1dc8dcf714304de39007a9473b5b97cdfd7bb67d Documentation: Add core scheduling documentation
+ab4997ec2586294e43e8c19cad4c0d8a7845fc58 sched: Add a coresched command line option
+3a1501598c9a367ec357f9a9eba5dff99a5b722c sched: Debug bits...
 
---===============8892349531723199118==--
+--===============7992675411437883323==--
