@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 24 Nov 2020 23:28:03 -0000
-Message-Id: <160626048348.32226.14201026244704262197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 24 Nov 2020 23:28:25 -0000
+Message-Id: <160626050523.32444.1832440146258890947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/pci/misc
-    old: 0848f8cfe9943a0b852843dfd4143c9608ec000c
-    new: cb72fddc79a6a48bb6305ffff9ef5e4f26a73357
-    log: |
-         cb72fddc79a6a48bb6305ffff9ef5e4f26a73357 x86/PCI: Convert force_disable_hpet() to standard quirk
-         
+  - ref: refs/heads/fscrypt-pending
+    old: fe06d16108459028be2ee147433f2f7fedd7b669
+    new: 0000000000000000000000000000000000000000
