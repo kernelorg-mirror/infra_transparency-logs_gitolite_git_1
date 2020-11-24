@@ -1,53 +1,100 @@
-Content-Type: multipart/mixed; boundary="===============2036126077954238646=="
+Content-Type: multipart/mixed; boundary="===============3949880441284856176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 24 Nov 2020 11:50:53 -0000
-Message-Id: <160621865311.24371.4958271249237580538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Tue, 24 Nov 2020 11:51:08 -0000
+Message-Id: <160621866807.24556.6748703103472738731@gitolite.kernel.org>
 
---===============2036126077954238646==
+--===============3949880441284856176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v4.4.246
-    old: 0000000000000000000000000000000000000000
-    new: 48dde619afb36e403b309e53324c3c0c60d2263f
+  - ref: refs/heads/linux-4.4.y
+    old: 899c58731b77ce6bbf991286b016be278a23a2da
+    new: 3e452b912038d210c30591337f37e679866ac43b
+    log: revlist-899c58731b77-3e452b912038.txt
 
---===============2036126077954238646==
+--===============3949880441284856176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606218652 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1606218650-0d9f4d9e29deda70499afa9060a6a9668f5e76dc
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606218666 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1606218665-26123120c4a64ccdd7ae85bf7632aff687f0e491
 
-0000000000000000000000000000000000000000 48dde619afb36e403b309e53324c3c0c60d2263f refs/tags/v4.4.246
+899c58731b77ce6bbf991286b016be278a23a2da 3e452b912038d210c30591337f37e679866ac43b refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+885wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z+sP/3r5YtgxF8BcpwE0HLT8
-Uiy99WvLypy0hzHuIYtS6USTqjbhBYve9s9A6ZpcaEB67fUYGxGgxGsBB19Obaav
-mGZFKK8zQGrq1Lrhi2BFIOrzNfYXrsMD0aIpVswgP5KzUwcr3x5klzepNBs60pU3
-WnfpvgNBSrImouYV02x8+Jhez8xc3/mYpLxmyzjQHHbAGPYPmrNTHBF721TxxIuq
-lv+fZBMGacxF+/z8yMv7wm/FnqH4ZRyjZYTnjJbWAJjUMxONZsLTFU24o6EKsNkR
-4dEM36x4K6LvQ1DUz16n3GlCXhxLRD/Hu5PCtCpcd96yyBkNrUYj04kOPVWxvZkU
-f513fDfRb1w7mihfqmd/44FDa/9j+GHIzVSt4PWMcu7li4+KiUSyw1iyq2Majx5Y
-vuKMBfTHvj9N5eaNAWpwIr7bQ5fVU3M/kuTC5+S2cHUD72VwNWzop4jT/8dYppo1
-FpK104mr1UGYzO8qSL6jonc1BPSFByXAaExh5OwDmiYahnv13qUGD3c+mD765qrQ
-rK2KaW5WjGQlRTPD7pdR6f2z/G4VaB96qiURtgqPQi0JsrXnOGyuBQMvFkqA2ZWY
-OxY7kqemtQZXe3Wcymrkje3NEiq873/In6TAiFEcqgpGR8Cm7rzDrmURqA65U7Jr
-PgmaCntVu4UNPoBCY5LNtwCj
-=rT22
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+886obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DqwQAJfL4SP0dQ8n92g6sQXM
+sdtG2An35Dbv4MGUdI3oUARgj8XRnDkI64YzeuDnfdFMv78wWIBV/HJVDVRWKHvi
+MmTFOFzTI8FT3E1nE/sCz51xISQSAWysyiywekCL/92xe93XlCNEjhBOg9cnPZAQ
+wQEYTZzHMZBz+hQ2a9hf9BbqitzQ2rRmzw3BZFAv8ZOVSLo9a76qmVxlCNileRYj
+CBA2+sB6gt12n9hxq8U64bcwKLxOpQ0svZeUDinV/aG0FRH4jQtmsur7+F75Ag59
+q65K5i19ZoznaknO0VAQoY/5mMKmg6t3UWv3CiFK/122ttwjuGQimFu3dP5Uzrdv
+Wb/ISMX9AiFurmDEESq4EKL1VE6ts2PTH6CcHuT84ToXZgn893Rbllpx+SDm9CQ2
+sKeM7zU8MEMUDJ69tyGGsjHBrza3fmcAw29of/3v+VDweK1AFNgdykexTXVRgc0o
+7kTBSAxtnY+csoUmt5NB6AZy/R9Nna3wfdcmKfhemdG5PhZVFcwwe9Bqkg/60FCd
+UePFjaDowT+WxoOfh21LKx2MTioXyGMAks1R5NI3sk9ONmLfY1t2DInj4WugtmaX
+W6EYI3fF+rw9vDzBBR4vYpoUzq+aPwxOK/+DQPbC7Oo1oyxcQqD+E6FGJ39Xws6q
+pPx9MyB3uu+cWSgP8Fn8pFDK
+=IS51
 -----END PGP SIGNATURE-----
 
---===============2036126077954238646==--
+--===============3949880441284856176==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-899c58731b77-3e452b912038.txt
+
+59999d4e56d32469d16081b2dc5b72b1f1f5e627 ah6: fix error return code in ah6_input()
+3303659ce540263c48928cec4d8c83c2bf26a59a atm: nicstar: Unmap DMA on send error
+45a2a84369fc9896dd2addc5362f9c16686c1699 net: b44: fix error return code in b44_init_one()
+4d343cc70e4069d128067373dd4565d757dc5050 net: bridge: add missing counters to ndo_get_stats64 callback
+1e83267a669c14d31f890efabb081867ee8dc84d netlabel: fix our progress tracking in netlbl_unlabel_staticlist()
+6995aeb2a89b56c793a0944ab193a45ef84edbd7 netlabel: fix an uninitialized warning in netlbl_unlabel_staticlist()
+3862a5bbe818f87abfeef029200c7c438d2d4ab4 net/mlx4_core: Fix init_hca fields offset
+6ed36ace833a4edfef78762454addf01d1520663 net: x25: Increase refcnt of "struct x25_neigh" in x25_rx_call_request
+80b9154cde06187b1f28655131fc33fd1f5e572a qlcnic: fix error return code in qlcnic_83xx_restart_hw()
+4374c049b63a627b6dff490797e821c641204f8e sctp: change to hold/put transport for proto_unreach_timer
+df79c1208648f7c43e8d23c97963f63531664432 net: usb: qmi_wwan: Set DTR quirk for MR400
+b2892feb8aa81cc2c6eac1d441a5d8ef24d2ec0f net: Have netpoll bring-up DSA management interface
+9d6df691abe7a22b0ac16a3ad676408903dfed2e pinctrl: rockchip: enable gpio pclk for rockchip_gpio_to_irq
+e941976a28821e9c471a011eba2a958e1369c275 arm64: psci: Avoid printing in cpu_psci_cpu_die()
+622b0c1f679dc6e1b9ac2006a7c542f9a51b963e MIPS: Fix BUILD_ROLLBACK_PROLOGUE for microMIPS
+3a2a979d7bcd169e419919bbd8214495b9c8b863 Input: adxl34x - clean up a data type in adxl34x_probe()
+91bbee0481aa30ee8681b63075ce80b9495cd7c9 arm: dts: imx6qdl-udoo: fix rgmii phy-mode for ksz9031 phy
+84ee38c34aed267c53ec9d40500ca02071fa805d ARM: dts: imx50-evk: Fix the chip select 1 IOMUX
+8c1a6a13f146b7f0bbb24f8e7848e576a5ebf9ed perf lock: Don't free "lock_seq_stat" if read_count isn't zero
+48c5c20b02d8c690b419d7bc911c08033161fc0a can: dev: can_restart(): post buffer from the right context
+803ed6cc4750a3eb4e36728e18446b7ee550a923 can: peak_usb: fix potential integer overflow on shift of a int
+f949bdd2209e46e42eefb41ebbc363b55cea2fab can: m_can: m_can_handle_state_change(): fix state change
+354c6294a6393830ce7527ba33c48d88e30d3c52 MIPS: Alchemy: Fix memleak in alchemy_clk_setup_cpu
+056906faf8a664e352cfb6bc2098f00a3ea03fec regulator: ti-abb: Fix array out of bound read access on the first transition
+b960e701b478441f2ff633902e8bbdd4719935f2 libfs: fix error cast of negative value in simple_attr_write()
+ddedb548ba8501ecbe78f9f61292518745220a8d powerpc/uaccess-flush: fix corenet64_smp_defconfig build
+51b07e0fc822012e34653f99277bc4a9ecf27d31 ALSA: ctl: fix error path at adding user-defined element set
+e84018081a7dba34ca2eb4f051c13f981e24a89e ALSA: mixart: Fix mutex deadlock
+2e40a3ed43434a7e9006aec7c8d1fc9e48d575c6 tty: serial: imx: keep console clocks always on
+3096c1f7cf1f84f3732cd1121bb165fa445fec5f efivarfs: fix memory leak in efivarfs_create()
+803fe1fe48e4e88965ab1df8a6c6f2df098c96f4 ext4: fix bogus warning in ext4_update_dx_flag()
+db2c4daca0e073b0110ed7dc56f53bd404d07e88 xtensa: disable preemption around cache alias management calls
+5e542df2401bde06063e1c2782253fad80c612a0 mac80211: minstrel: remove deferred sampling code
+5eb47f33b9ed071b4bf42840bca056e6c43618bc mac80211: minstrel: fix tx status processing corner case
+fa62f066d329374f59547063a1d2999cab6904f5 mac80211: allow driver to prevent two stations w/ same address
+8bcbbbf2eb58641fdadeb7b21a2bffe3a98bfdb0 mac80211: free sta in sta_info_insert_finish() on errors
+05636ea3ba4e3a46a7b17dc9e1753107ef34bdf5 s390/cpum_sf.c: fix file permission for cpum_sfb_size
+717311aafd1131e5d3bbaf645f4edf9876f1b658 x86/microcode/intel: Check patch signature before saving microcode for early loading
+3e452b912038d210c30591337f37e679866ac43b Linux 4.4.246
+
+--===============3949880441284856176==--
