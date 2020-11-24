@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8541447221146418262=="
+Content-Type: multipart/mixed; boundary="===============3856678288972230937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse-dev
-Date: Tue, 24 Nov 2020 00:38:20 -0000
-Message-Id: <160617830027.28945.18116554387881090983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse
+Date: Tue, 24 Nov 2020 00:38:26 -0000
+Message-Id: <160617830687.29073.10353347757977784625@gitolite.kernel.org>
 
---===============8541447221146418262==
+--===============3856678288972230937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse-dev
+repo: pub/scm/devel/sparse/sparse
 user: lucvoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 540c2c4bf47f0c517c042ff689679b2900bb36a5
     log: revlist-b59dbdaf3740-540c2c4bf47f.txt
 
---===============8541447221146418262==
+--===============3856678288972230937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ a49663abcf7f1a0139b403fa23856ca998ffee28 not: simplify (~x {&,|,^} x) --> {0,~0,
 4f10206cc4dcbe28d712a82497fc582585d4d2c7 Merge branch 'cleanup' into next
 540c2c4bf47f0c517c042ff689679b2900bb36a5 Merge branch 'optim-not' into next
 
---===============8541447221146418262==--
+--===============3856678288972230937==--
