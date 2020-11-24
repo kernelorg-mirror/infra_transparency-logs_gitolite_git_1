@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 24 Nov 2020 22:44:45 -0000
-Message-Id: <160625788574.310.10829214876868717272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 24 Nov 2020 22:46:15 -0000
+Message-Id: <160625797560.2474.17946785846334399723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/core/entry
-    old: d1f250e2205eca9f1264f8e2d3a41fcf38f92d91
-    new: 0395124a2fbff5132afee5767071ebe7e05885ac
+  - ref: refs/heads/master
+    old: 5204bb683c1633e550c2124ccc2358dd645a80db
+    new: bc40a3691f15c0728209cd0e2dc9e8e18854187f
     log: |
-         0395124a2fbff5132afee5767071ebe7e05885ac entry: Fix boot for !CONFIG_GENERIC_ENTRY
+         407c85c7ddd6b84d3cbdd2275616f70c27c17913 tcp: Set ECT0 bit in tos/tclass for synack when BPF needs ECN
+         bc40a3691f15c0728209cd0e2dc9e8e18854187f MAINTAINERS: Update page pool entry
          
