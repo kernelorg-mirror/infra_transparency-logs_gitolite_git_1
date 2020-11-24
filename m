@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Tue, 24 Nov 2020 04:09:37 -0000
-Message-Id: <160619097799.16231.164172692234817723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 24 Nov 2020 04:37:44 -0000
+Message-Id: <160619266462.4920.1076622058352587546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andersson/remoteproc
+repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: e878e1baf0ca4e09bf329a5e316ad407534dd242
-    new: 8999e0d0a70e5a9aa41e55984ebc525746369572
+  - ref: refs/heads/arm64-for-5.11
+    old: 2802821a66f99955afd75ec76209064bfb678697
+    new: 872b41c9a255dc54fdd3f53d85e4736fbf843063
     log: |
-         778f2664fa34634001c51f46bc64c6e9ef91611a remoteproc/mediatek: fix sparse errors on sram power on and off
-         903635cbc75763a5ce78db60934494dd51a66778 remoteproc/mediatek: fix sparse errors on dma_alloc and dma_free
-         71ffb5a22b49ad1c6266aad237cf8f1f5b13fe9a remoteproc/mediatek: fix boundary check
-         48cb5b6829e2acb4b600153142889f879115e172 remoteproc/mediatek: skip if filesz is 0
-         dd8f52660cb1f6fac0b4cc8adb3f008edd2c14d2 remoteproc: qcom_sysmon: Constify qmi_indication_handler
-         2c78f796db0c63a835204ac036d124e1d7fa885c Merge branche 'rproc-fixes' into for-next
-         8999e0d0a70e5a9aa41e55984ebc525746369572 Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
+         872b41c9a255dc54fdd3f53d85e4736fbf843063 arm64: dts: qcom: sort sm8150 usb_2 node
          
