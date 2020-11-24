@@ -1,50 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6565579857942316703=="
+Content-Type: multipart/mixed; boundary="===============3660554625378244073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 24 Nov 2020 15:35:18 -0000
-Message-Id: <160623211874.24703.4703506774618426936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 24 Nov 2020 15:35:26 -0000
+Message-Id: <160623212617.24855.7094665153394518823@gitolite.kernel.org>
 
---===============6565579857942316703==
+--===============3660554625378244073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.10
-    old: 2ba546ebe0ce2af47833d8912ced9b4a579f13cb
-    new: 34c5aa2666db54c4bd330fb2759f6e4d4544ad7a
+  - ref: refs/heads/for-5.10
+    old: 71d80563b0760a411cd90a3680536f5d887fff6b
+    new: 7cd71202961090d8f2d2b863ec66b25ae43e1d39
     log: |
-         34c5aa2666db54c4bd330fb2759f6e4d4544ad7a regulator: Kconfig: Fix REGULATOR_QCOM_RPMH dependencies to avoid build error
+         7cd71202961090d8f2d2b863ec66b25ae43e1d39 spi: imx: fix the unbalanced spi runtime pm management
+         
+  - ref: refs/heads/for-5.11
+    old: 2ed6e3bac15242c18bef5af12547a13b25b65ac8
+    new: a6f483b2e4415bca7af90346204f93f63b90acdd
+    log: |
+         a6f483b2e4415bca7af90346204f93f63b90acdd spi: Fix potential NULL pointer dereference in spi_shutdown()
          
 
---===============6565579857942316703==
+--===============3660554625378244073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1606232096 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1606232116-55e1e62397f11015ae4f450e578b7af61439a149
+pusher C3F436CA30F5D8EB 1606232103 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1606232123-4cfccffdce0cc8228a0fcf59af80c32d4df882d3
 
-2ba546ebe0ce2af47833d8912ced9b4a579f13cb 34c5aa2666db54c4bd330fb2759f6e4d4544ad7a refs/heads/regulator-5.10
+71d80563b0760a411cd90a3680536f5d887fff6b 7cd71202961090d8f2d2b863ec66b25ae43e1d39 refs/heads/for-5.10
+2ed6e3bac15242c18bef5af12547a13b25b65ac8 a6f483b2e4415bca7af90346204f93f63b90acdd refs/heads/for-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+9KCAACgkQJNaLcl1U
-h9BMLQf/Y2rW7qPBg+cN6OoU53CxwRU/OT1gTf85lFid00gidjW8iMBshWtSVQqW
-1crzEtsmsvdf7p5HbsGlMevd2Eym9P1/kszmGuVqTCSB+kzl3BKa4DcRaEA/BHtH
-G7Rncirkxmfr/psntSmlAfDn1ZcDDkm09g0gqXWNV3aTD2+G4wwNoplE0oGhUOzw
-vDZ40HnwJIEKwLQIv5DXMMOHcs65zAZQFiQmrBNsbEVwj55Sl+JoN5DgC+YXYhzt
-aYZZiVhI4qbD2WjSTSLFbcJS3qCyjlxcd4siZr/qngbRs1EEFV/KoswRQSOaLmaS
-qNk+icV9mfPqo+z5GBYgQgOWD1MwBg==
-=Oj9q
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+9KCcACgkQJNaLcl1U
+h9Dlqgf/YSZFD9WwJKCJWiiIIRKxW+28ofEVHxfsTtRVV1cf/vr3of0PxZRIAjAg
+y7pw9pmm/Z/rIs+CRU/xpg7aQeXGsRBkaqjViHhcNBPcPvlIWfLzb11gBH/uVdSk
+rK1gRXqIirO6QYmDBzxu3YGQqLjoCqWtIU/4dDydPC3GVO59s2jZ2+0m1RKYi+FS
+S++9IpShbj0S2J3z+OY6bo8nzMHXpcM2Tqgl0KZKI3n3CyR2UQR77aQnlHeB2lER
+sNTTbHf7vcL4B5QUr+RB0dxhMHY2G3uONzsC53bDf1s6ptuTXg1tQJ4TMAKd3Dwf
+m7VKyWxjT3c7pCQHlhQU+v9hokasng==
+=pUl7
 -----END PGP SIGNATURE-----
 
---===============6565579857942316703==--
+--===============3660554625378244073==--
