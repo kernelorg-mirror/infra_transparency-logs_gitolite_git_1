@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8616207721864475540=="
+Content-Type: multipart/mixed; boundary="===============8858396300007692460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 24 Nov 2020 15:35:06 -0000
-Message-Id: <160623210674.24454.14726725508291717470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 24 Nov 2020 15:35:12 -0000
+Message-Id: <160623211285.24596.12285186075991857922@gitolite.kernel.org>
 
---===============8616207721864475540==
+--===============8858396300007692460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-5.10
-    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
-    new: e6e9354b58307c120afbdc2719a6093638c37446
+  - ref: refs/heads/for-5.10
+    old: 2ba546ebe0ce2af47833d8912ced9b4a579f13cb
+    new: 34c5aa2666db54c4bd330fb2759f6e4d4544ad7a
     log: |
-         e6e9354b58307c120afbdc2719a6093638c37446 regmap: Remove duplicate `type` field from regmap `regcache_sync` trace event
+         34c5aa2666db54c4bd330fb2759f6e4d4544ad7a regulator: Kconfig: Fix REGULATOR_QCOM_RPMH dependencies to avoid build error
          
 
---===============8616207721864475540==
+--===============8858396300007692460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1606232084 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1606232104-699c87863eaf34bd82a8f8294cb65cfdc6449d5c
+pusher C3F436CA30F5D8EB 1606232090 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1606232110-5d0a3949a1496a44bdcf706b8a2eca73f111767f
 
-3650b228f83adda7e5ee532e2b90429c03f7b9ec e6e9354b58307c120afbdc2719a6093638c37446 refs/heads/regmap-5.10
+2ba546ebe0ce2af47833d8912ced9b4a579f13cb 34c5aa2666db54c4bd330fb2759f6e4d4544ad7a refs/heads/for-5.10
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+9KBQACgkQJNaLcl1U
-h9BhBgf/ZAC4ANPn9HdxFVaWs5McsgWRfzzh1+fwjDCGNh0rHLUInhRvyD04HhDe
-dDlb5BQ744Oc9j8LT0KGE3IZZ3Qkj5smmfXTpRiSNjk3AV0SpbYu7sThHhXLxGiu
-eJKPa7ME9MwNQMhQQZhrsdR+3YojPPkN0sUKSPJ5gfhPA6OI8xaR8NmeJXi/FWXU
-lx5kmO98NTm533DdXtnQR0eSHp/Ioj/AwlcNH1p8g2XPMj9Umi5yBQ8+78/G7oXT
-3hulrQlYzcDUo7CRhpB0Jt0FVeGs2idzq0fd+Rmhpbzum8K0Zf+nSJlgmiyVVH6P
-lHG5CNom0EdewsS/8qMsqmG8n6uXYA==
-=0uXH
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl+9KBoACgkQJNaLcl1U
+h9Ccmgf/Us2U1xqzemQQCw1HIxOtuFScTQYSO1UKTd9kLc/J2wUn+OWYI/33S2/f
+r0IlgAqn7fNzfs2xa1dLdX7lnztsUQBvUC8lYZyQURZuzbalmKBHETIM1XtrSfY4
+eNsGkKJX9BlcIccYHaNc8rjAfe8VyxTF8m8WyWMpeYyGcQJ7GDc0Eyqu9Q11E6uB
+1Td68p7oOUn0ZXB6OwqCUbHIedUQJlVhNXj+QWZ/X5L1TNRTNp+T8/a+3fOK4MrX
+aQvqodJ+9VPOVymRbNUnDMxf4MuybIEMcv9nhCiISqvZG0vcrrGlo4hsHT5SACpB
+k7839st+xrD8pQtjn9mofrm8jSLCaA==
+=QPCK
 -----END PGP SIGNATURE-----
 
---===============8616207721864475540==--
+--===============8858396300007692460==--
