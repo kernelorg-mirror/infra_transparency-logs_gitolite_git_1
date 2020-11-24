@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2191955812124477914=="
+Content-Type: multipart/mixed; boundary="===============0471560517862876916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 24 Nov 2020 15:23:12 -0000
-Message-Id: <160623139201.13576.3705382894086747425@gitolite.kernel.org>
+Date: Tue, 24 Nov 2020 15:24:01 -0000
+Message-Id: <160623144180.15975.9188833865749055488@gitolite.kernel.org>
 
---===============2191955812124477914==
+--===============0471560517862876916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: cf4d4d8ebdb838ee996e09e3ee18deb9a7737dea
-    new: 6998ff4e21619d47ebf4f5eb4cafa65c65856221
-    log: revlist-cf4d4d8ebdb8-6998ff4e2161.txt
+  - ref: refs/heads/for-next
+    old: 64eeea415d1fac95f91b23f3f2f61180f131a4d0
+    new: f9123bc98a4ffb289491f8726b93f8aff7622175
+    log: revlist-64eeea415d1f-f9123bc98a4f.txt
 
---===============2191955812124477914==
+--===============0471560517862876916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf4d4d8ebdb8-6998ff4e2161.txt
+Content-Disposition: attachment; filename=revlist-64eeea415d1f-f9123bc98a4f.txt
 
 fd62de114f8c9df098dcd43b5d83c5714176dd12 scsi: ufs: Avoid to call REQ_CLKS_OFF to CLKS_OFF
 b664511297644eac34038df877b3ad7bcaa81913 scsi: ufs: Atomic update for clkgating_enable
@@ -50,5 +50,6 @@ e4af87b7079ebf1bba86c7011ef5d5df45af8f56 scsi: ibmvfc: Advertise client support 
 09b15e35071d35947b6e6da5b1a1d0cab73c12a6 scsi: lpfc: Fix set but unused variables in lpfc_dev_loss_tmo_handler()
 185d17e11e7f98e0d1f499d702d9792a4ed5ae47 scsi: lpfc: Fix missing prototype for lpfc_nvmet_prep_abort_wqe()
 6998ff4e21619d47ebf4f5eb4cafa65c65856221 scsi: lpfc: Fix variable 'vport' set but not used in lpfc_sli4_abts_err_handler()
+f9123bc98a4ffb289491f8726b93f8aff7622175 Merge branch 'misc' into for-next
 
---===============2191955812124477914==--
+--===============0471560517862876916==--
