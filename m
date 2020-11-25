@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Wed, 25 Nov 2020 22:14:33 -0000
-Message-Id: <160634247308.26668.15699719372152157058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 25 Nov 2020 22:33:23 -0000
+Message-Id: <160634360380.8285.8696644826402561568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-5.10-fixes
-    old: fc541c7075a0f3fa345f3f26de74e58a8b25b6a4
-    new: 5a7b5f32c5aa628841502d19a813c633ff6ecbe4
+  - ref: refs/heads/testing/net-next
+    old: 7766b3a6a68caf30ad57b0dcce3812fa60f5512b
+    new: f3def11dcfc068a4c6b87961bd0884744348761c
     log: |
-         58315c96651152b9f438e5e56c910994234e2c7a kernel: cgroup: Mundane spelling fixes throughout the file
-         5a7b5f32c5aa628841502d19a813c633ff6ecbe4 cgroup/cgroup.c: replace 'of->kn->priv' with of_cft()
-         
-  - ref: refs/heads/for-next
-    old: fc541c7075a0f3fa345f3f26de74e58a8b25b6a4
-    new: 5a7b5f32c5aa628841502d19a813c633ff6ecbe4
-    log: |
-         58315c96651152b9f438e5e56c910994234e2c7a kernel: cgroup: Mundane spelling fixes throughout the file
-         5a7b5f32c5aa628841502d19a813c633ff6ecbe4 cgroup/cgroup.c: replace 'of->kn->priv' with of_cft()
+         f3def11dcfc068a4c6b87961bd0884744348761c Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
          
