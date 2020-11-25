@@ -1,57 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2815756796299710120=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 25 Nov 2020 13:57:01 -0000
-Message-Id: <160631262147.1980.7540106077750273860@gitolite.kernel.org>
-
---===============2815756796299710120==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 25 Nov 2020 13:57:34 -0000
+Message-Id: <160631265445.2269.3250677421835214847@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.10
-    old: 7cd71202961090d8f2d2b863ec66b25ae43e1d39
-    new: 0abdb0fba07322ce960d32a92a64847b3009b2e2
+  - ref: refs/heads/for-linus
+    old: ef4ca4694435602e23b36a97e01bb9df48c5c749
+    new: b7c082d878f6abf2253aef597259b9240aba66cb
     log: |
-         0abdb0fba07322ce960d32a92a64847b3009b2e2 spi: dw: Fix spi registration for controllers overriding CS
+         3fba05a2832f93b4d0cd4204f771fdae0d823114 ASoC: wm_adsp: fix error return code in wm_adsp_load()
+         2f28212f4066fde37c7c9eb1147259333d2fbf93 Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
+         b7c082d878f6abf2253aef597259b9240aba66cb Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
          
-  - ref: refs/heads/spi-5.11
-    old: a6f483b2e4415bca7af90346204f93f63b90acdd
-    new: 459ea85049b01708e364c34deac24b00909c73ed
+  - ref: refs/heads/for-next
+    old: 8559388664dcb677c681e020002e968a6b58cef6
+    new: cc3d4eb503f2a439c759717cc4657620071870a3
     log: |
-         459ea85049b01708e364c34deac24b00909c73ed spi: dw: fixed missing resource_size
+         3fba05a2832f93b4d0cd4204f771fdae0d823114 ASoC: wm_adsp: fix error return code in wm_adsp_load()
+         373c2cebf42772434c8dd0deffc3b3886ea8f1eb ASoC: fsl_xcvr: fix potential resource leak
+         2f28212f4066fde37c7c9eb1147259333d2fbf93 Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
+         b7c082d878f6abf2253aef597259b9240aba66cb Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
+         cc3d4eb503f2a439c759717cc4657620071870a3 Merge remote-tracking branch 'asoc/for-5.11' into asoc-next
          
-
---===============2815756796299710120==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1606312596 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1606312619-80104ec551670e51bec70ac7bf5f0fc859f05b3a
-
-7cd71202961090d8f2d2b863ec66b25ae43e1d39 0abdb0fba07322ce960d32a92a64847b3009b2e2 refs/heads/spi-5.10
-a6f483b2e4415bca7af90346204f93f63b90acdd 459ea85049b01708e364c34deac24b00909c73ed refs/heads/spi-5.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl++YpQACgkQJNaLcl1U
-h9DHuQf/ZgtKjKt3gmwZNnqqmG+B8e83otziGXLUSPYJ1QkFB4czLB+yKrtRuMzX
-qLUNwjh6EbTSzI91Y5c2JXDDWgjYiw5Ixgbf/jeMUzOl4icA/5Nqn4p1EliAI12R
-0LVh3WwKANL/NfQ9guM2teeG4NRpB7wrPt4Yfj+p/6Fx1SNZwpPk+sMMGIVINu1i
-nS42NlwAc2TQ47we1cqM1qU1P/hUN3JLu4DSWmyd7P2oAeFyLRUXo/t8jlAZnl7k
-FnGJVdTr5+8Nl7hcKqgFElZ5PHewAxMIXOk5FUnxLt5R7FPRtN0XMt/RjNR364bJ
-qrXdH6slfL7gvXwvcfLty40qVngUkw==
-=6kDQ
------END PGP SIGNATURE-----
-
---===============2815756796299710120==--
