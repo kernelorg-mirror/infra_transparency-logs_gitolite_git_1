@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Wed, 25 Nov 2020 01:31:41 -0000
-Message-Id: <160626790141.25641.12790956699673119022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 25 Nov 2020 01:51:52 -0000
+Message-Id: <160626911249.5254.14467275926285321370@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/tags/v5.10-rc5
-    old: 0000000000000000000000000000000000000000
-    new: af69a948d2ce48f8bfe9935958d12f86fb50326b
+  - ref: refs/heads/for-linus
+    old: ae3d6083acf60116d4f409677452399547ed2009
+    new: 855b69857830f8d918d715014f05e59a3f7491a0
+    log: |
+         fa248db082270200863d254e0f39bbb29923d6b1 Input: soc_button_array - add missing include
+         855b69857830f8d918d715014f05e59a3f7491a0 Input: i8042 - fix error return code in i8042_setup_aux()
+         
