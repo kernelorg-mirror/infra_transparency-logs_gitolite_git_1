@@ -1,31 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 25 Nov 2020 13:57:34 -0000
-Message-Id: <160631265445.2269.3250677421835214847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 25 Nov 2020 13:58:08 -0000
+Message-Id: <160631268862.2584.4295952142651176184@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: ef4ca4694435602e23b36a97e01bb9df48c5c749
-    new: b7c082d878f6abf2253aef597259b9240aba66cb
+    old: 7d052ca72d86059a8bbbd75e632adee8b3bc0cde
+    new: 5ac359ce36d348c5d544087b9c594fc90b0f521c
     log: |
-         3fba05a2832f93b4d0cd4204f771fdae0d823114 ASoC: wm_adsp: fix error return code in wm_adsp_load()
-         2f28212f4066fde37c7c9eb1147259333d2fbf93 Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
-         b7c082d878f6abf2253aef597259b9240aba66cb Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
+         0abdb0fba07322ce960d32a92a64847b3009b2e2 spi: dw: Fix spi registration for controllers overriding CS
+         34495c86e92a20cae6edd3d29bba70ca27ddb1fe Merge remote-tracking branch 'spi/for-5.9' into spi-linus
+         5ac359ce36d348c5d544087b9c594fc90b0f521c Merge remote-tracking branch 'spi/for-5.10' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 8559388664dcb677c681e020002e968a6b58cef6
-    new: cc3d4eb503f2a439c759717cc4657620071870a3
+    old: 52a7b490108431b884c2809bf43e14a701bb31a2
+    new: 5a26b21f04d0fb3b6a80cfdeaeb8eb5e8cc56abc
     log: |
-         3fba05a2832f93b4d0cd4204f771fdae0d823114 ASoC: wm_adsp: fix error return code in wm_adsp_load()
-         373c2cebf42772434c8dd0deffc3b3886ea8f1eb ASoC: fsl_xcvr: fix potential resource leak
-         2f28212f4066fde37c7c9eb1147259333d2fbf93 Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
-         b7c082d878f6abf2253aef597259b9240aba66cb Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
-         cc3d4eb503f2a439c759717cc4657620071870a3 Merge remote-tracking branch 'asoc/for-5.11' into asoc-next
+         0abdb0fba07322ce960d32a92a64847b3009b2e2 spi: dw: Fix spi registration for controllers overriding CS
+         459ea85049b01708e364c34deac24b00909c73ed spi: dw: fixed missing resource_size
+         34495c86e92a20cae6edd3d29bba70ca27ddb1fe Merge remote-tracking branch 'spi/for-5.9' into spi-linus
+         5ac359ce36d348c5d544087b9c594fc90b0f521c Merge remote-tracking branch 'spi/for-5.10' into spi-linus
+         5a26b21f04d0fb3b6a80cfdeaeb8eb5e8cc56abc Merge remote-tracking branch 'spi/for-5.11' into spi-next
          
