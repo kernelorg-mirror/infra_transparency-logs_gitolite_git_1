@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 25 Nov 2020 18:34:48 -0000
-Message-Id: <160632928870.1714.11837551563828223871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 25 Nov 2020 18:35:57 -0000
+Message-Id: <160632935788.3497.8604667287363464657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 66d6c136ac591822c000d18b6123ae109df944c2
-    new: 4792bcc967710e3ebb61ab77f2dd53f5884b3952
+  - ref: refs/heads/akiyks.2020.11.24a
+    old: 61914edd8940be1f533b4d98af7b5a5df0ba6bbe
+    new: d4acd14416f6a96591cd5cf6733155064acee44b
+  - ref: refs/heads/master
+    old: 61914edd8940be1f533b4d98af7b5a5df0ba6bbe
+    new: 576425f35be2b66e395be96b1696e653f5dd6836
     log: |
-         225ef3a3e8f48154ca7a4cfe44d3b576aff2f860 ARM: multi_v7_defconfig: make Samsung Exynos EHCI driver a module
-         4792bcc967710e3ebb61ab77f2dd53f5884b3952 Merge branch 'next/defconfig' into for-next
-         
-  - ref: refs/heads/next/defconfig
-    old: 7e8af057bd9b3d76bd343794e71c20e8dd462372
-    new: 225ef3a3e8f48154ca7a4cfe44d3b576aff2f860
-    log: |
-         225ef3a3e8f48154ca7a4cfe44d3b576aff2f860 ARM: multi_v7_defconfig: make Samsung Exynos EHCI driver a module
+         5ddea88ad50418d7ee12a27315b97e8b58492b72 Add hash_bkt_qsbr to .gitignore
+         576425f35be2b66e395be96b1696e653f5dd6836 Merge branch 'akiyks.2020.11.24a' into HEAD
          
