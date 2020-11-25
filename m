@@ -1,45 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============4226814970371284673=="
+Content-Type: multipart/mixed; boundary="===============5049582752821466650=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 25 Nov 2020 14:51:05 -0000
-Message-Id: <160631586564.8590.3756178250641870858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Wed, 25 Nov 2020 14:54:50 -0000
+Message-Id: <160631609079.12376.10436114261312837711@gitolite.kernel.org>
 
---===============4226814970371284673==
+--===============5049582752821466650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 665d79e793265558bfcc3587498b603bfdb92cdb
-    new: 0e0a3b59da9a7fd313c4ddf20f24c7a708d42fc3
-    log: revlist-665d79e79326-0e0a3b59da9a.txt
+  - ref: refs/heads/hwmon
+    old: 60268b0e8258fdea9a3c9f4b51e161c123571db3
+    new: 5452ef62fbc3c5ac86f8c80ce1201a07618abc9c
+    log: |
+         5452ef62fbc3c5ac86f8c80ce1201a07618abc9c hwmon: (ina3221) Fix PM usage counter unbalance in ina3221_write_enable
+         
+  - ref: refs/heads/hwmon-next
+    old: 9e6f991ca2627acc563c2eeec2e2740066fbce0c
+    new: e6e2c18f63c62df778ce484945fccad088594533
+    log: revlist-9e6f991ca262-e6e2c18f63c6.txt
 
---===============4226814970371284673==
+--===============5049582752821466650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-665d79e79326-0e0a3b59da9a.txt
+Content-Disposition: attachment; filename=revlist-9e6f991ca262-e6e2c18f63c6.txt
 
-67719fbbda6de60c63496e62dae8617336f9ac7b libblkid: add blkid_probe_{set,get}_hint()
-ac3a0fd92e571ccc46919bc0a651d0647e7b5d36 blkid: add --hint <name>=value
-248c239b272a6bcd0deffb62ed51a83bb71a1593 libblkid: export blkid_probe_reset_hints()
-b7bca24476ba694b6e4401d1606c67c09118c162 libblkid: overwrite existing hint
-6b88a410ae0473d622454680fdf8166c8e174f8d libblkid: detect CD/DVD discs in packet writing mode
-bfd4da56283daed2af2d969530628045f57bbf57 libblkid: do size correction of optical discs also by last written sector
-427ea35512b0edc012cf1e5bac5ff6295f912a1d libblkid: detect session_offset hint for optical discs
-3e31657db5353f7b94ecb066ee9787e26b3a4a1d libblkid: allow to specify offset defined by hint for blkid_probe_get_idmag()
-b5c5b42014619358371addfd7864dc9401647745 libblkid: fix blkid_probe_get_sb() to use hint offset calculation
-cf2f10bb5929e6b28195017de99f1ec1843e0671 libblkid: iso9660: add support for multisession via session_offset hint
-6408acd9e004034cbc193ffd0ca4566be118de0a libblkid: udf: add support for multisession via session_offset hint
-8e3c0176bd4f3de626dfc8cd6946378b634f21d4 libblkid: udf: add support for unclosed sequential Write-Once media
-30e8df968f42ccf81638b9f81568a8d5298738a8 lslogins: call close() for usable FD [coverity scan]
-c175692050fc2542d911feb19d7c14e8eec2f4ec Merge remote-tracking branch 'pali/multisesssion'
-0e0a3b59da9a7fd313c4ddf20f24c7a708d42fc3 libblkid: initialize magic strings in robust way
+5452ef62fbc3c5ac86f8c80ce1201a07618abc9c hwmon: (ina3221) Fix PM usage counter unbalance in ina3221_write_enable
+0bc58c84931d8115fdab30bd07670eba0dce79aa hwmon: (acpi_power_meter) clean up freeing code
+577e11dcd0a7a13e8cd672cbc9d9d79822b49566 hwmon: (pmbus/max20730) delete some dead code
+42f29f6a5219b4b4f349069441600368cbbc12d9 hwmon: (adt7470) Create functions for updating readings and limits
+3409ab7ef7941ee8a4806f0fa6b145e76eb6ec83 hwmon: (pmbus) shrink code and remove pmbus_do_remove()
+b31ae69d5a7f11b2964bf14243d6c15cd2e600a9 hwmon: add Corsair PSU HID controller driver
+5f7f64104270fe6354007a986ad1d3bc0a76493c hwmon: (corsair-psu) fix unintentional sign extension issue
+0d8175ca2f95c9f417ce1191535b03e664cebfbf hwmon: (adm1266) Fix link in documentation
+3382162d3b7937fd91dd78badbd1a5d2bbadc545 hwmon: (adm1177) Fix kerneldoc attribute formatting
+4bcfb39948b64a8752ad6da853a448bcbb33b819 hwmon: (ina3221) Demote seemingly unintentional kerneldoc header
+18cb07e53196c37f52cb0e28081eb74819c2e6b4 hwmon: (ibmpowernv) Silence strncpy() warning
+763afd31711004ce67f84334c19aaae17deefe99 hwmon: (corsair-psu) Fix fan rpm calculation
+4273660b3e32431d0a9e64474b078c2a35709596 hwmon: (amd_energy) Add AMD family 19h model 01h x86 match
+68765dc868bd266b487068e3c1b6c8b854468fa5 docs: hwmon: (amd_energy) update documentation
+e738d5b593f1973904402019979c1ce39709e551 hwmon: drivetemp: fix typo temperatire => temperature
+7d5465f2ab4a9b325fc66a9044598b7c7d944e21 dt-bindings: hwmon: pwm-fan: Support multiple fan tachometer inputs
+00a1c160a61470fd83e3ccd2d2703e58e335deb0 hwmon: (max127) Add Maxim MAX127 hardware monitoring driver
+e6e2c18f63c62df778ce484945fccad088594533 docs: hwmon: Document max127 driver
 
---===============4226814970371284673==--
+--===============5049582752821466650==--
