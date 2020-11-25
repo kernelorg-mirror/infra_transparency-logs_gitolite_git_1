@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 25 Nov 2020 19:18:23 -0000
-Message-Id: <160633190336.31250.11837606312575331361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 25 Nov 2020 19:22:39 -0000
+Message-Id: <160633215962.3348.9854892647763767253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 758999246965eeb8b253d47e72f7bfe508804b16
-    new: 33fc379df76b4991e5ae312f07bcd6820811971e
+  - ref: refs/heads/master
+    old: 6f7a1f9c1af30f1eadc0ad9e77ec8ee95c48b2c9
+    new: e255e11e66da8281e337e4e352956e8a4999fca4
     log: |
-         33fc379df76b4991e5ae312f07bcd6820811971e x86/speculation: Fix prctl() when spectre_v2_user={seccomp,prctl},ibpb
+         e255e11e66da8281e337e4e352956e8a4999fca4 ipv6: addrlabel: fix possible memory leak in ip6addrlbl_net_init
          
