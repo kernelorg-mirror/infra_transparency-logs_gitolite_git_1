@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 25 Nov 2020 23:26:25 -0000
-Message-Id: <160634678550.13736.2918007293047379660@gitolite.kernel.org>
+Date: Wed, 25 Nov 2020 23:27:04 -0000
+Message-Id: <160634682432.14014.17906093797209533272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/master
     old: 4e585bc759cc85e7cad0828061b459bacc711de2
     new: fb3558127cb62ba2dea9e3d0efa1bb1d7e5eee2a
     log: |
