@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 25 Nov 2020 06:26:33 -0000
-Message-Id: <160628559343.32518.215687929424429711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 25 Nov 2020 06:31:20 -0000
+Message-Id: <160628588036.3267.1519762203728695043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/linux-4.4.y-cip
-    old: af594e49e03a801bae104304dc6234284317aea5
-    new: d7466739b72e93ea0f1d3040f02aa5eb19599b9c
+  - ref: refs/heads/master
+    old: 607c543f939d8ca6fed7afe90b3a8d6f6684dd17
+    new: 59e2e27d227a0a4e7ec0e22c63ca36a5ad1ab438
     log: |
-         d7466739b72e93ea0f1d3040f02aa5eb19599b9c dt-bindings: PCI: rcar: Add device tree support for r8a7742
+         59e2e27d227a0a4e7ec0e22c63ca36a5ad1ab438 bpf: Refactor check_cfg to use a structured loop.
          
