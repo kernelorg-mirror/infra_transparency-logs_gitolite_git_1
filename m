@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Wed, 25 Nov 2020 04:22:28 -0000
-Message-Id: <160627814886.10944.17580832755625987485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Wed, 25 Nov 2020 04:29:38 -0000
+Message-Id: <160627857803.17018.17450474305852423750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/fixes
-    old: f52c08ea5fc8e2057a5913b1f6bfd534e1fb7e4c
-    new: 7524e3a746a3cc0621ee6993883d583846c7c952
+  - ref: refs/heads/next
+    old: 6d915476e67d99b73a57bceb83cff1cf153d8bf6
+    new: ba59eae723857257a791618092d8022ad82efaa4
     log: |
-         7524e3a746a3cc0621ee6993883d583846c7c952 RISC-V: fix barrier() use in <vdso/processor.h>
+         ba59eae723857257a791618092d8022ad82efaa4 audit: fix macros warnings
          
