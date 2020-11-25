@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 25 Nov 2020 00:49:14 -0000
-Message-Id: <160626535414.21552.16161638252331593375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 25 Nov 2020 00:51:02 -0000
+Message-Id: <160626546219.23548.12163649654060584857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 91b2db27d3ff9ad29e8b3108dfbf1e2f49fe9bd3
-    new: 607c543f939d8ca6fed7afe90b3a8d6f6684dd17
+  - ref: refs/heads/master
+    old: 49d66ed819629b2f82ff963420746015f241dfcb
+    new: 26c8996526e8a49fb14ea8d0ae0d60bf82a25cdf
     log: |
-         05a98d7672731aeb5f9837b35cc7fe70444e70bd selftest/bpf: Fix link in readme
-         1c26ac6ab3ce47ee2e6342373681dedbb97e21a3 selftest/bpf: Fix rst formatting in readme
-         e732b538f4557cd0a856bbce3cde55d2dfef3b03 kbuild: Skip module BTF generation for out-of-tree external modules
-         607c543f939d8ca6fed7afe90b3a8d6f6684dd17 bpf: Sanitize BTF data pointer after module is loaded
+         14a2e551faea53d45bc11629a9dac88f88950ca7 batman-adv: set .owner to THIS_MODULE
+         26c8996526e8a49fb14ea8d0ae0d60bf82a25cdf Merge tag 'batadv-net-pullrequest-20201124' of git://git.open-mesh.org/linux-merge
          
