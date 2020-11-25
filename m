@@ -1,47 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 25 Nov 2020 11:52:01 -0000
-Message-Id: <160630512171.9469.6091296162850040155@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6879828774462273977=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 25 Nov 2020 11:57:37 -0000
+Message-Id: <160630545740.15092.1862082868495530174@gitolite.kernel.org>
+
+--===============6879828774462273977==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: de8f750a67f05c09b98f12f2d67eb2f0c0726c67
-    new: 42fe4b5c9fd8ea73075d866848bab4e99ca5be50
+  - ref: refs/heads/master
+    old: 4f6529cbdeb2dfb97c77a57d02284b2df56a180f
+    new: 1519dc9351fe6a60ab4b343e57bf38d5e5e3606b
     log: |
-         42fe4b5c9fd8ea73075d866848bab4e99ca5be50 perf event: Check ref_reloc_sym before using it
+         1519dc9351fe6a60ab4b343e57bf38d5e5e3606b 4.9-stable patches
          
-  - ref: refs/heads/queue/4.19
-    old: 0c88e405c97ed1828443b67891e6d4bb6e56cd4e
-    new: 60b0151c44d8b8da2ca862274acec3c25e82eb23
-    log: |
-         60b0151c44d8b8da2ca862274acec3c25e82eb23 perf event: Check ref_reloc_sym before using it
-         
-  - ref: refs/heads/queue/4.9
-    old: 7eae7724f5c54c77de05d1d20ac2a9d98aeae92b
-    new: 6b1fdc074eb40cde989d382e5a89fceca9440eb1
-    log: |
-         6b1fdc074eb40cde989d382e5a89fceca9440eb1 perf event: Check ref_reloc_sym before using it
-         
-  - ref: refs/heads/queue/5.4
-    old: 01c7c91f6a888806595f146e4e062191b5e283fd
-    new: 06ed76b28bf770d26625ee2dec867ed62ef65cf3
-    log: |
-         155c0597b05d04155fbb2e433421e40084021438 spi: bcm-qspi: Fix use-after-free on unbind
-         06ed76b28bf770d26625ee2dec867ed62ef65cf3 spi: bcm2835: Fix use-after-free on unbind
-         
-  - ref: refs/heads/queue/5.9
-    old: 693cf77bf08df670036c3e9df90e4f0cc5cd7887
-    new: 7fef7b4106f639dc63a07601089077b872fa2599
-    log: |
-         0330ba5d9296dd7d48696ebde228c51c02128a2e io_uring: get an active ref_node from files_data
-         6937a16a4840bc2c0247502c76c56f360bb53628 io_uring: order refnode recycling
-         08ecddb945030a63913d2f5e8e772aac9f2aed11 spi: bcm-qspi: Fix use-after-free on unbind
-         7fef7b4106f639dc63a07601089077b872fa2599 spi: bcm2835: Fix use-after-free on unbind
-         
+
+--===============6879828774462273977==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606305456 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1606305455-a6fe395a46822cf3623a211a7c68bb6e9015f10e
+
+4f6529cbdeb2dfb97c77a57d02284b2df56a180f 1519dc9351fe6a60ab4b343e57bf38d5e5e3606b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl++RrAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S2MQAIxFbKxfFCWXuFvq6AcE
+MmG6nOw5g2Y9eCsy44OZc9qEDZU/JK3AFWmszUrkOzwZNekUXpshm/G1dX71xnZC
+stR8m9bva+egpc17v2zfxWyDyzULb1or0jl6VlLu7U0WUyfG1tVJR+1Pe/Mhj5yT
+N9RDK4z5MY7byFxT4UyR8RpwfZJqz6JQvXFwK5lOnVkzi63aR5EcPl71zPMYYZXa
+iDOhZIkSxfPnjH2Q5fyamJxg5Allb0UTewHGpCf4e9M9cvI8FhQnojm2aSpKvlYh
+0dlK0x4YIz0zlHXoWK3KMrWPx+EC6POooVxXCQFh5dbJ2kRqHMpUnb1w6v5uD+QY
+NT3r1mMuJiGu4Xt0VKHrfpiWVC6C+MyIZ7Mp+sDq9TVDGpgmHmgzLQ/PAfT4Ma46
+GdCVaDkgfY0qKbu0QqLZVvzYcluaneRIRrb8Pxsn5l+vRW7zzI2zsP3dyGOfRa64
+9T2jlcxUFmiJzHO5IAtExiUvnTxPp/BvJuOEKBjyA2NxOOjPFByP6yOmWrrYGxjI
+szo6hyguMdTZVPCWEEFCax/Gr1t+17UmYIgdfXGfCkiWrcoMflS1+cRci+FIxOwW
+PyGpT3xmj6iIrfMbKLdBJ7C0TSEelTDkZDwRfMzlX+/dRgwMIkmK8KRTBCkwKGjH
+tmVXIX3TxIG8w5b0JVVRjBXq
+=DRFk
+-----END PGP SIGNATURE-----
+
+--===============6879828774462273977==--
