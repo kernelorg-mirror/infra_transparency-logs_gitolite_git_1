@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6339303562879859953=="
+Content-Type: multipart/mixed; boundary="===============8538394394355752878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Wed, 25 Nov 2020 08:24:03 -0000
-Message-Id: <160629264308.14661.2836991931078109028@gitolite.kernel.org>
+Date: Wed, 25 Nov 2020 09:01:22 -0000
+Message-Id: <160629488234.8453.6013799333395880811@gitolite.kernel.org>
 
---===============6339303562879859953==
+--===============8538394394355752878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,37 +17,38 @@ user: ardb
 git_push_cert_status: E
 changes:
   - ref: refs/heads/urgent
-    old: 11d83d1c6f4ce3ef05d2a747d312c7ba1ed47954
-    new: 6f2f86d82c908ceaf0b4b6b6cea7a57fdd2a391c
+    old: 6f2f86d82c908ceaf0b4b6b6cea7a57fdd2a391c
+    new: 34c6269fdc1481055deae3f01a1221d4002463c8
     log: |
-         6f2f86d82c908ceaf0b4b6b6cea7a57fdd2a391c efi: EFI_EARLYCON should depend on EFI
+         2222ceba95c28c89543fc153f37e8ebd7d500012 efivarfs: revert "fix memory leak in efivarfs_create()"
+         34c6269fdc1481055deae3f01a1221d4002463c8 efi: EFI_EARLYCON should depend on EFI
          
 
---===============6339303562879859953==
+--===============8538394394355752878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 0x3D200E9CA6329909 1606292640 +0100
+pusher 0x3D200E9CA6329909 1606294879 +0100
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-nonce 1606292632-6f0341954403aed8258637f11c93ffe15f219518
+nonce 1606294871-007984705ab15d6e7622eca6bb48f8817eb5c54b
 
-11d83d1c6f4ce3ef05d2a747d312c7ba1ed47954 6f2f86d82c908ceaf0b4b6b6cea7a57fdd2a391c refs/heads/urgent
+6f2f86d82c908ceaf0b4b6b6cea7a57fdd2a391c 34c6269fdc1481055deae3f01a1221d4002463c8 refs/heads/urgent
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAABCgAdFiEE+9lifEBpyUIVN1cpw08iOZLZjyQFAl++FKAACgkQw08iOZLZ
-jyRy0wv+O/QzgADuz3uKoVumzfNzleCdjcKiCM0W6AwIrJHcqfdCs3zFth2E2sUZ
-tDOSpV0oIXwJpTPcjL3rZuVjmeG+O8mjUlhMKg0+dpMQ/bunO35kQzf5figQqSrQ
-Wpuas/MlRrOWRVVeChLpc2SpkvgsMhqOAWjEE4lYPeLb5myYJJ6cKefc65r4yQ03
-4wfsTkA5yIfs5DRm2+j6OgnRAwRhahWJK60KOY435F23LRaxaDIJNH74y1YsP4/t
-NoyYVoVZ8o8hC/hy4ez/+UeU5OGxnUIaWlk3/H/ZPoXAA5QvwaakprN744uAwDyB
-d5waX5NyYl/CoKosC3F7zNw4OR0Od2TRnyGtQQDt7N9KEQa4a+0VTi9fyGsIw/mu
-T08Zws5WQtqyroWzm01c6BSmXm/mnhWZ+5D1qmuCCt8PMw+m7ijH0lXOUKuh/dQm
-CO5hh19n8H3xo6U3/u0hgT+eIXPy8Cbs+lEHgNAJegGpajiSnCb1i+fAtwerpqRn
-UL1qzzqZ
-=S1z9
+iQGzBAABCgAdFiEE+9lifEBpyUIVN1cpw08iOZLZjyQFAl++HV8ACgkQw08iOZLZ
+jyQIXgv+JAGzTt0EifdpQJOxVz/qXRB2PD2ty+QQgf2ok8J5hlWP9V2Acne97Miz
+5z+X/5gbFr0xvnSybVwXV2o2PT9mbZvk0InEnI2o3BIv6JQC/UkvLTqwis+T/+CL
+QJwiNmyu2C4qHYmgqWfXD1EvnwwgHOET1XQ1obRHiovi4vtfaTmq2B71M1s+Wsm8
+znKrqwUagCEx5/2Mh/QVHbIwOZ/aZTdaI7pPugMtqV7Sar1eYZk4DIKXBDfF5yXD
+jWRsniy5zO6Ag6y/eS8y8KCSjRNh1FAmDOuYMUkmMJjqLDhC1/7I8JeXemQy3uc6
+6T5km+gWnx1iWjHnDhVRc67zT5koQ2I2vNoINIi5VgQ1zulcHyPTFPQ8DYgUvTAi
+4NUtfUNDv1YilLxqwWzVzSAhJhkEsTzs8gd7sHOSVFbewZXnGoXuV40oPLPVx8W8
+ZS7U2WQW+WyB6NfjvvVDBx5KO1/HL1lNI5jH2GwaKtNmdp8xL+RZ7j0iMqB8tpNA
+3Bep9wEt
+=5Oaq
 -----END PGP SIGNATURE-----
 
---===============6339303562879859953==--
+--===============8538394394355752878==--
