@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4046934925419250507=="
+Content-Type: multipart/mixed; boundary="===============4201005778587896751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Wed, 25 Nov 2020 09:50:47 -0000
-Message-Id: <160629784756.23966.3905704753875754394@gitolite.kernel.org>
+Date: Wed, 25 Nov 2020 09:53:16 -0000
+Message-Id: <160629799647.25143.11171089891717594568@gitolite.kernel.org>
 
---===============4046934925419250507==
+--===============4201005778587896751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-urgent
-    old: 251c54ea26fa6029b01a76161a37a12fde5124e4
-    new: 143782786ef27fd3f0ff31ef29f9aea76172ce6d
-    log: revlist-251c54ea26fa-143782786ef2.txt
+  - ref: refs/heads/edac-for-next
+    old: e6b9534d9db610988eefe87c9cb373d3d33d6ece
+    new: 35d2b273876deccd41b45bda0cf3c8db9bf16914
+    log: revlist-e6b9534d9db6-35d2b273876d.txt
 
---===============4046934925419250507==
+--===============4201005778587896751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-251c54ea26fa-143782786ef2.txt
+Content-Disposition: attachment; filename=revlist-e6b9534d9db6-35d2b273876d.txt
 
-a77eedbc871ee3b435bffc30b123b60eecca402c mm/truncate.c: make __invalidate_mapping_pages() static
 6993d0fdbee0eb38bfac350aa016f65ad11ed3b1 kthread_worker: prevent queuing delayed work from timer_fn when it is being canceled
 66606567dedf395e0857f531976efad4cbbd39ea mm, oom: keep oom_adj under or at upper limit when printing
 f8f6ae5d077a9bdaf5cbf2ac960a5d1a04b47482 mm: always have io_remap_pfn_range() set pgprot_decrypted()
@@ -1050,5 +1049,6 @@ f4b936f5d6fd0625a78a7b4b92e98739a2bdb6f7 Merge tag 'sched-urgent-2020-11-22' of 
 d5530d82efc8631beff20480b1168b1c44294fe1 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 418baf2c28f3473039f2f7377760bd8f6897ae18 Linux 5.10-rc5
 143782786ef27fd3f0ff31ef29f9aea76172ce6d EDAC/amd64: Fix PCI component registration
+35d2b273876deccd41b45bda0cf3c8db9bf16914 Merge branch 'edac-urgent' into edac-for-next
 
---===============4046934925419250507==--
+--===============4201005778587896751==--
