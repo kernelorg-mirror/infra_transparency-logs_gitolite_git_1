@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7900381944887446529=="
+Content-Type: multipart/mixed; boundary="===============7026550811268361851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tobin/leaks
-Date: Wed, 25 Nov 2020 03:28:05 -0000
-Message-Id: <160627488538.7245.7525536636926701291@gitolite.kernel.org>
+Date: Wed, 25 Nov 2020 03:28:29 -0000
+Message-Id: <160627490971.7454.3660502082943208349@gitolite.kernel.org>
 
---===============7900381944887446529==
+--===============7026550811268361851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tobin/leaks
 user: tobin
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/leaks-next
     old: bcf876870b95592b52519ed4aafcf9d95999bc9c
     new: bbf5c979011a099af5dc76498918ed7df445635b
     log: revlist-bcf876870b95-bbf5c979011a.txt
 
---===============7900381944887446529==
+--===============7026550811268361851==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c120ec12e216225f7536cc1b924fe428ff64b5bd Merge tag 'x86-urgent-2020-10-11' of gi
 3dd0130f2430decf0cb001b452824515436986d2 Merge branch 'akpm' (patches from Andrew)
 bbf5c979011a099af5dc76498918ed7df445635b Linux 5.9
 
---===============7900381944887446529==--
+--===============7026550811268361851==--
