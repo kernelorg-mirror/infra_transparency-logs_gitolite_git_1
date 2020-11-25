@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1672938855061917989=="
+Content-Type: multipart/mixed; boundary="===============0672609296931858551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Wed, 25 Nov 2020 12:05:23 -0000
-Message-Id: <160630592323.21368.432937948789152878@gitolite.kernel.org>
+Date: Wed, 25 Nov 2020 12:06:23 -0000
+Message-Id: <160630598305.21776.2823980463879692677@gitolite.kernel.org>
 
---===============1672938855061917989==
+--===============0672609296931858551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/heads/fast_track
-    old: 7372e79c9eb9d7034e498721eb2861ae4fdbc618
-    new: fdeb17c70c9ecae655378761accf5a26a55a33cf
-    log: revlist-7372e79c9eb9-fdeb17c70c9e.txt
+  - ref: refs/heads/for_next
+    old: d5dc76f9bb431f28c55d3a103d82d4368f6069c8
+    new: bb5a5322a5ab4c7e1cc12fc4d780bf9d9e7f25ae
+    log: revlist-d5dc76f9bb43-bb5a5322a5ab.txt
 
---===============1672938855061917989==
+--===============0672609296931858551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7372e79c9eb9-fdeb17c70c9e.txt
+Content-Disposition: attachment; filename=revlist-d5dc76f9bb43-bb5a5322a5ab.txt
 
-90bfdeef83f1d6c696039b6a917190dcbbad3220 tty: make FONTX ioctl use the tty pointer they were actually passed
 b6df8c81412190fbd5eaa3cec7f642142d9c16cd sctp: Fix COMM_LOST/CANT_STR_ASSOC err reporting on big-endian platforms
 5faf50e9e9fdc2117c61ff7e20da49cd6a29e0ca scsi: scsi_dh_alua: Avoid crash during alua_bus_detach()
 5feed64f9199ff90c4239971733f23f30aeb2484 scsi: mpt3sas: Fix timeouts observed while reenabling IRQ
@@ -1050,5 +1049,6 @@ b1489422041ba58f224270480d8241be24f0f8dd Merge tag 'arc-5.10-rc6' of git://git.k
 073861ed77b6b957c3c8d54a11dc503f7d986ceb mm: fix VM_BUG_ON(PageTail) and BUG_ON(PageWriteback)
 127c501a03d5db8b833e953728d3bcf53c8832a9 Merge tag '5.10-rc5-smb3-fixes' of git://git.samba.org/sfrench/cifs-2.6
 fdeb17c70c9ecae655378761accf5a26a55a33cf trace: fix potenial dangerous pointer
+bb5a5322a5ab4c7e1cc12fc4d780bf9d9e7f25ae Pull writeback tracepoint fix from Hui Su.
 
---===============1672938855061917989==--
+--===============0672609296931858551==--
