@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
-Date: Wed, 25 Nov 2020 18:08:36 -0000
-Message-Id: <160632771694.13697.2590509813802914509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 25 Nov 2020 18:12:35 -0000
+Message-Id: <160632795527.18056.4599305472348844499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
-user: ebiederm
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/exec-for-v5.11
+  - ref: refs/heads/irq/hacks
     old: 0000000000000000000000000000000000000000
-    new: 4076b14c961c842439d56c387862d32a3d612923
+    new: 4145e2be7898fc8796c5821e532e8dc9a82d555d
