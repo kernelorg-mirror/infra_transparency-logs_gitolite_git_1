@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 25 Nov 2020 18:38:48 -0000
-Message-Id: <160632952867.4531.5496728904876838029@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Wed, 25 Nov 2020 18:42:10 -0000
+Message-Id: <160632973097.7045.16805070316526807378@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: 127c501a03d5db8b833e953728d3bcf53c8832a9
-    new: fa02fcd94b0c8dff6cc65714510cf25ad194b90d
-    log: |
-         46233e91fa24a91bffca0680b1c55282ba601918 media: mtk-vcodec: move firmware implementations into their own files
-         2da185d6fe969ade346ad03461c3da860c602503 media: mtk-vcodec: fix build breakage when one of VPU or SCP is enabled
-         e6fcf468c51da28c56ea447e147475a731acbdf1 media: media/platform/marvell-ccic: fix warnings when CONFIG_PM is not enabled
-         9ac924b98728c3733c91c6c59fc410827d0da49f media: cedrus: h264: Fix check for presence of scaling matrix
-         a7a20f721e812a52a62a00de20dcd0779fbb587f media: venus: venc: Fix setting of profile and level
-         9215f6bb4705ffe205885411394732bfc439dee0 media: venus: pm_helpers: Fix kernel module reload
-         fa02fcd94b0c8dff6cc65714510cf25ad194b90d Merge tag 'media/v5.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-         
+  - ref: refs/tags/memory-controller-drv-tegra-5.11
+    old: 0000000000000000000000000000000000000000
+    new: 36d9f8c636f8192722b51a9190ebb8d8d9f7648a
+  - ref: refs/tags/memory-controller-drv-5.11
+    old: 0000000000000000000000000000000000000000
+    new: 86bf9ed217b9cc2e0fdcfaabf7162cd0c1dfc6c4
