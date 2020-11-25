@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============2476737770691095146=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 25 Nov 2020 11:49:00 -0000
-Message-Id: <160630494044.6735.7056116570142906712@gitolite.kernel.org>
-
---===============2476737770691095146==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Wed, 25 Nov 2020 11:50:30 -0000
+Message-Id: <160630503073.8749.6954286025086200415@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: a3e67488a3fd69451695788d2829332bc82224e3
-    new: 4f6529cbdeb2dfb97c77a57d02284b2df56a180f
+  - ref: refs/heads/queue/4.14
+    old: 87335852c5d9ec629f80bb2257b9a9945962b719
+    new: de8f750a67f05c09b98f12f2d67eb2f0c0726c67
     log: |
-         4f6529cbdeb2dfb97c77a57d02284b2df56a180f 4.19-stable patches
+         de8f750a67f05c09b98f12f2d67eb2f0c0726c67 perf event: Check ref_reloc_sym before using it
          
-
---===============2476737770691095146==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606304939 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1606304938-573ff7592426d77a399da49ca7129a6e94916032
-
-a3e67488a3fd69451695788d2829332bc82224e3 4f6529cbdeb2dfb97c77a57d02284b2df56a180f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl++RKsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ex8P/iIEQAFWXoUs2So5o19y
-fhay2VCZe1VNG+eOb/Wlgy1WonRU2nRxrf7fSzuPnzJVrryAxpW10BDsbZUSQb2H
-VYn0b6PWI/lnnn7GAVFUrSASWcXudZP2I9SLkMqnl2ye7fQnDoFf3+jS/Awpj8qf
-yn65n9RJHWnD0LwoeYEwImJkFnXNsc/YNp6CD9GX8H2HGwe80IcmbyPJzGqf/vb0
-ysqQitULMu/gyOgptoAIOAdf1Zk2YVB3yUSvfV/FPGbZO7SubElwzi4Bs58vbGGH
-XU/HIbWj0pf8GAmgMtS1Ch0hza56PwBvNBUaK/S1UMqefHiZB3w6897xOTUh02yZ
-k9E9gjr1dljxbkU5pqDf3P3vcBfkncaKipMGN6N1r40qmMmqCOC0jUYoG2TBwyMJ
-DEUFuz8pvuoUAJ2sXRtK+FJYurdr2tQE8rUvjmE0M9IVk8rC6rg3mWcszoys35Wc
-wUaAi6dzbC7VnSYYVkTaHHH2fqTamggq/TFc2+6R20fth+dZVtjcbbcRNd8K7abO
-QVsoJXZUrdMGSOpnIhlSVhbh0LrAJ80fNAdGGgUq1cCWCU4264N18qH+efIeJKWe
-C4Kb4VSCDZS+5n/55wnnooC5B+7Zc0dhugXNtTzmB0CWBd3XiuUy3misSRfdICJJ
-9Im4SpObbvY3XXpjmAQKh2De
-=V9vz
------END PGP SIGNATURE-----
-
---===============2476737770691095146==--
+  - ref: refs/heads/queue/4.9
+    old: 6d0b08c5f94fa089b72ea8c4130521e5df4b17ef
+    new: 7eae7724f5c54c77de05d1d20ac2a9d98aeae92b
+    log: |
+         7eae7724f5c54c77de05d1d20ac2a9d98aeae92b perf event: Check ref_reloc_sym before using it
+         
+  - ref: refs/heads/queue/5.4
+    old: 916d352681d9466b896fbdebb62a29ebcc4e664a
+    new: 01c7c91f6a888806595f146e4e062191b5e283fd
+    log: |
+         ff09fc72ebc5b01030bbe8cf9a79b3e765ece727 spi: bcm-qspi: Fix use-after-free on unbind
+         01c7c91f6a888806595f146e4e062191b5e283fd spi: bcm2835: Fix use-after-free on unbind
+         
+  - ref: refs/heads/queue/5.9
+    old: 8575b8f29b0d2701abe94533424ddfbed249c311
+    new: 693cf77bf08df670036c3e9df90e4f0cc5cd7887
+    log: |
+         4c6c23fe5ca3d0fafc17ce17f5ae279fa7bf35a2 io_uring: get an active ref_node from files_data
+         52e5629c82d791690b86fd39e8a1cd4fa1586543 io_uring: order refnode recycling
+         2e84c64e9ae8ebcb61875e2c630b369406de73c7 spi: bcm-qspi: Fix use-after-free on unbind
+         693cf77bf08df670036c3e9df90e4f0cc5cd7887 spi: bcm2835: Fix use-after-free on unbind
+         
