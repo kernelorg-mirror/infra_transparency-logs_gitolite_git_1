@@ -1,28 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Thu, 26 Nov 2020 17:32:31 -0000
-Message-Id: <160641195185.28362.3838986185745880810@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2190255931348191829=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 26 Nov 2020 17:40:45 -0000
+Message-Id: <160641244536.1347.3276206515841430600@gitolite.kernel.org>
+
+--===============2190255931348191829==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andersson/remoteproc
-user: andersson
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/for-next
-    old: 708abb0951d610ce05e90c87023c8ffaf08d7d5e
-    new: 44e5a3a2c955f0b7f43e56423d34c1ff2a7b99a8
-    log: |
-         138a6428ba9023ae29e103e87a223575fbc3d2b7 remoteproc: sysmon: Ensure remote notification ordering
-         5c212aaf5457ca5bd99aba3ad29a4a17f8129939 remoteproc: sysmon: Expose the shutdown result
-         ed5da80873a792b9b2b560a6417bc60679ba5126 remoteproc: qcom: q6v5: Query sysmon before graceful shutdown
-         0ac72f909ffe37d829deb1d18d057c83bec5e3b1 remoteproc: sysmon: Improve error messages
-         4c1ad562d303526b5d9b49f5e0d72da13ef78dec remoteproc: Add a rproc_set_firmware() API
-         41e6f43f3b24920ec8d10682005d3eb4a24d6e86 dt-bindings: remoteproc: k3-r5f: Update bindings for J7200 SoCs
-         7508ea19b20da80fcdde05354c35e2c45e875b5c remoteproc: k3-r5: Extend support to R5F clusters on J7200 SoCs
-         c3c21b356505e2f4c528d22903531f7764e18998 remoteproc: k3-r5: Adjust TCM sizes in Split-mode on J7200 SoCs
-         609f87529367e370d19172e9826037c276529b64 Merge branche 'rproc-fixes' into for-next
-         44e5a3a2c955f0b7f43e56423d34c1ff2a7b99a8 Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
-         
+  - ref: refs/heads/for-kernelci
+    old: 9ca81b7f3f6d54786ab875c1fbe7633f470d64da
+    new: 9be6c84caac47c56acdd591e14f722c3045648ff
+    log: revlist-9ca81b7f3f6d-9be6c84caac4.txt
+
+--===============2190255931348191829==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9ca81b7f3f6d-9be6c84caac4.txt
+
+936563868ebec580a6ac9512752a04bf5db74f65 arm64: syscall: exit userspace before unmasking exceptions
+bb677ba0ee4dc7e7bb6c5b9239c5eda9296031c6 arm64: mark idle code as noinstr
+1b69f93c3aba617efd0687fd92ed99ade6674b3c arm64: entry: mark entry code as noinstr
+e6629144b919052bfa4aa8452bd26db9fd653cf1 arm64: entry: move enter_from_user_mode to entry-common.c
+304593c05cc6e5cd7995823d168d675811fa85f6 arm64: entry: prepare ret_to_user for function call
+95084ea6192ce5ea1fdb8f2afa27e1350d31829d arm64: entry: move el1 irq/nmi logic to C
+cb0cf4ac47c3be5ae7d36f043b3ca2cd92a1b5bc arm64: entry: fix non-NMI user<->kernel transitions
+10a9314f7dd23cee8274d786ba0d8f9128a6ce56 arm64: ptrace: prepare for EL1 irq/rcu tracking
+7d812254b9551d636acb6ae6952b44d778ae4dfe arm64: entry: fix non-NMI kernel<->kernel transitions
+85084ae4910ab01442845dc21c915c34587064b6 arm64: entry: fix NMI {user, kernel}->kernel transitions
+996444d846e35656ee8839b992c1a38e7d5b2093 arm64: entry: fix EL1 debug transitions
+32ca79c7a22db91948665a95d4c502178777e44b Force-enable some CONFIG options to tickle the entry rework
+9be6c84caac47c56acdd591e14f722c3045648ff Merge branch 'entry-tracing' into for-kernelci
+
+--===============2190255931348191829==--
