@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 26 Nov 2020 01:30:31 -0000
-Message-Id: <160635423170.7759.12010743251630576706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/fsverity-utils
+Date: Thu, 26 Nov 2020 01:42:00 -0000
+Message-Id: <160635492040.14292.16844300799211425705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ebiggers/fsverity-utils
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 3cb2e6d92be637b79d6ba0746d610a8dfcc0400b
-    new: a060133c2058bcc5bf2f82e1135ce76b4bc9865b
+  - ref: refs/heads/dev
+    old: 35e31383c3a3f1a80f67c409f8edf6957cac21bc
+    new: c7e0612deb9a8f419f76613107ed42fdba742620
     log: |
-         b187c9b4178b87954dbc94e78a7094715794714f devlink: Hold rtnl lock while reading netdev attributes
-         a7b43649507dae4e55ff0087cad4e4dd1c6d5b99 devlink: Make sure devlink instance and port are in same net namespace
-         a060133c2058bcc5bf2f82e1135ce76b4bc9865b Merge branch 'devlink-port-attribute-fixes'
+         39194220bc1f233e7c45510f19dabe81f7755dac Upgrade to latest fsverity_uapi.h
+         c7e0612deb9a8f419f76613107ed42fdba742620 Rename "file measurement" to "file digest"
          
