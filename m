@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 26 Nov 2020 00:08:10 -0000
-Message-Id: <160634929065.9110.9707770436055360362@gitolite.kernel.org>
+Date: Thu, 26 Nov 2020 00:08:12 -0000
+Message-Id: <160634929238.9176.1519299525592802892@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.11
-    old: 3c9c31c2523ecd5b609a2eecb5ad524ef4fc931c
-    new: 066c2a9448681b5fb1cfe459c5a1b9d817b017fb
+  - ref: refs/heads/arm64-defconfig-for-5.11
+    old: 91ccc45d1ec4d08851de004eb5d68c67e1232694
+    new: cc563f8f769b9fe4bbe18dcd3cbb382a49cf3585
     log: |
-         066c2a9448681b5fb1cfe459c5a1b9d817b017fb arm64: dts: qcom: sc7180-trogdor: Make pp3300_a the default supply for pp3300_hub
+         cc563f8f769b9fe4bbe18dcd3cbb382a49cf3585 arm64: defconfig: Enable Qualcomm PON driver
          
