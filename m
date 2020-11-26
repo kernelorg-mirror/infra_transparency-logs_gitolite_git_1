@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5588024602012393785=="
+Content-Type: multipart/mixed; boundary="===============8337268424852411030=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 26 Nov 2020 03:49:26 -0000
-Message-Id: <160636256627.2949.7131140235901945686@gitolite.kernel.org>
+Date: Thu, 26 Nov 2020 03:49:47 -0000
+Message-Id: <160636258785.3133.3519374823527133802@gitolite.kernel.org>
 
---===============5588024602012393785==
+--===============8337268424852411030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 8ffd778aff45be760292225049e0141255d4ad6e
     new: 1ce46c91fdfe5ebf27a6d328b108c630406d1c8c
     log: revlist-8ffd778aff45-1ce46c91fdfe.txt
 
---===============5588024602012393785==
+--===============8337268424852411030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fa02fcd94b0c8dff6cc65714510cf25ad194b90d Merge tag 'media/v5.10-2' of git://git.
 a49bdffa9db63a54a6ac56cdcdef8cc8f404f4b6 security: keys: Fix fall-through warnings for Clang
 1ce46c91fdfe5ebf27a6d328b108c630406d1c8c tpm: Fix fall-through warnings for Clang
 
---===============5588024602012393785==--
+--===============8337268424852411030==--
