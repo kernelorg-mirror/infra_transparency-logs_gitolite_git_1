@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 26 Nov 2020 19:00:22 -0000
-Message-Id: <160641722209.24325.4907797371933690044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Thu, 26 Nov 2020 19:03:40 -0000
+Message-Id: <160641742046.25560.8671113788645049726@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/fixes
-    old: f39e7d3aae2934b1cfdd209b54c508e2552e9531
-    new: 82e938bd5382b322ce81e6cb8fd030987f2da022
+  - ref: refs/heads/master
+    old: 576425f35be2b66e395be96b1696e653f5dd6836
+    new: 5beb98e248468d696afe182d7468b843db943d33
     log: |
-         82e938bd5382b322ce81e6cb8fd030987f2da022 gfs2: Upgrade shared glocks for atime updates
-         
-  - ref: refs/heads/for-next
-    old: bb3278af737e878433a91ab1fa59118ae95140cd
-    new: 4b51204cc9d592ebcba8fa8452611add9725ec8d
-    log: |
-         82e938bd5382b322ce81e6cb8fd030987f2da022 gfs2: Upgrade shared glocks for atime updates
-         20c34c5d5f1b2aad98e6065657515195940ae643 Documentation: Update filesystems/gfs2.rst
-         5c775cbdc09e58d1bca9ae092e49ce2ef0def953 MAINTAINERS: Add gfs2 bug tracker link
-         4b51204cc9d592ebcba8fa8452611add9725ec8d gfs2: Make inode_operations static
+         003fd073d8f43b6b6965d8f18f8edaca39619e15 datastruct/hash: Allocate --schroedinger zheplist in parent
+         4a2fd88e7cb183543f06fdc0b499fde691e91109 datastruct/hash: Allocate --perftest thep in parent
+         07c583609027f366c86d46772c749768d2cdb865 datastruct/hash: Abstract zoo_updater initialization
+         70624dd771f93c19c345124153e3b2ef06d87bfc datastruct/hash: Abstract perftest_updater initialization
+         d44c66a4ce873c399c0c49e4d714ebfa157e762d datastruct/hash: Move zoo_updater_init() call to parent thread
+         d4542a220f85b6f5802920a14ce185a1622af5ba datastruct/hash: Move --perftest .in_table initialization
+         8b9a9758612189068b865afd497a85ae605cae8c datastruct/hash: Move --perftest initialization to perftest_updater_init()
+         5beb98e248468d696afe182d7468b843db943d33 datastruct/hash: Move perftest_updater_init() call to parent thread
          
