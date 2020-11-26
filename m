@@ -1,43 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============2190255931348191829=="
+Content-Type: multipart/mixed; boundary="===============8711460088677830475=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Thu, 26 Nov 2020 17:40:45 -0000
-Message-Id: <160641244536.1347.3276206515841430600@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Thu, 26 Nov 2020 17:55:03 -0000
+Message-Id: <160641330347.12613.15332029747119888288@gitolite.kernel.org>
 
---===============2190255931348191829==
+--===============8711460088677830475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 9ca81b7f3f6d54786ab875c1fbe7633f470d64da
-    new: 9be6c84caac47c56acdd591e14f722c3045648ff
-    log: revlist-9ca81b7f3f6d-9be6c84caac4.txt
+  - ref: refs/heads/for-next
+    old: b17e7a4e9ce3fe501513a2f644d15682f21a95fd
+    new: 3d6613a9bd7c2ef992ac592d6b9939f540d6b847
+    log: revlist-b17e7a4e9ce3-3d6613a9bd7c.txt
+  - ref: refs/heads/for-v5.11/tegra-mc
+    old: e45b57df4b9e9f8b5df7553a9a001acd9cae1b5d
+    new: 0e1bcf2c05d0a681c04351fbd60812aea99354b6
+    log: revlist-e45b57df4b9e-0e1bcf2c05d0.txt
 
---===============2190255931348191829==
+--===============8711460088677830475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ca81b7f3f6d-9be6c84caac4.txt
+Content-Disposition: attachment; filename=revlist-b17e7a4e9ce3-3d6613a9bd7c.txt
 
-936563868ebec580a6ac9512752a04bf5db74f65 arm64: syscall: exit userspace before unmasking exceptions
-bb677ba0ee4dc7e7bb6c5b9239c5eda9296031c6 arm64: mark idle code as noinstr
-1b69f93c3aba617efd0687fd92ed99ade6674b3c arm64: entry: mark entry code as noinstr
-e6629144b919052bfa4aa8452bd26db9fd653cf1 arm64: entry: move enter_from_user_mode to entry-common.c
-304593c05cc6e5cd7995823d168d675811fa85f6 arm64: entry: prepare ret_to_user for function call
-95084ea6192ce5ea1fdb8f2afa27e1350d31829d arm64: entry: move el1 irq/nmi logic to C
-cb0cf4ac47c3be5ae7d36f043b3ca2cd92a1b5bc arm64: entry: fix non-NMI user<->kernel transitions
-10a9314f7dd23cee8274d786ba0d8f9128a6ce56 arm64: ptrace: prepare for EL1 irq/rcu tracking
-7d812254b9551d636acb6ae6952b44d778ae4dfe arm64: entry: fix non-NMI kernel<->kernel transitions
-85084ae4910ab01442845dc21c915c34587064b6 arm64: entry: fix NMI {user, kernel}->kernel transitions
-996444d846e35656ee8839b992c1a38e7d5b2093 arm64: entry: fix EL1 debug transitions
-32ca79c7a22db91948665a95d4c502178777e44b Force-enable some CONFIG options to tickle the entry rework
-9be6c84caac47c56acdd591e14f722c3045648ff Merge branch 'entry-tracing' into for-kernelci
+7f3cdaf795dbc4a270d3af304e7eb8d6234b5f07 Merge tag 'tegra-soc-clk-drivers-5.11' into for-v5.11/tegra-mc
+6c6bd2075f01f8c8ae4bc803ba5cd23a3d3db533 memory: tegra: Add and use devm_tegra_memory_controller_get()
+4e84d0a6e1206fda47395b5d3af1453e013d7b38 memory: tegra: Use devm_platform_ioremap_resource()
+162641a6e200e935cd39b26737f3ec0b5ea856fb memory: tegra: Remove superfluous error messages around platform_get_irq()
+d5ecac0afa30811901eb401067f196e688aeb73e memory: tegra: Add missing latency allowness entry for Page Table Cache
+06f079816d4c4e43d4128f394ae249934a32dffd memory: tegra-mc: Add interconnect framework
+0260979b018faaf90ff5a7bb04ac3f38e9dee6e3 memory: tegra20-emc: Make driver modular
+fa4794ff8fb4b324ae5b9f089312bcd4ce4ff6ed memory: tegra20-emc: Continue probing if timings are missing in device-tree
+d5ef16ba5fbe128873a55441d85ccde77f63c129 memory: tegra20: Support interconnect framework
+3a0b6b5abfddd0baf0a053aec7e8be59cf33b659 memory: tegra: Correct stub of devm_tegra_memory_controller_get()
+de47653bd4dd3c1bf38c9983cf19556cab4c4211 memory: tegra20-emc: Use dev_pm_opp_set_clkname()
+cba3902b0c3df42969231358a5e8b3d40212b7ad memory: tegra20-emc: Factor out clk initialization
+e09312fec1d48c090bc3a4f13c6a01cb94bd5432 memory: tegra20-emc: Remove IRQ number from error message
+dedf62d6f17fc9cf0389602b6d3d7533cc218679 memory: tegra20-emc: Add devfreq support
+1d1564aabc697d53f19ef40b06d68dc8bde36ad4 memory: tegra30: Add FIFO sizes to memory clients
+0c56eda86f8cad705d7d14e81e0e4efaeeaf4613 memory: tegra30-emc: Make driver modular
+bf25f3fceffa9e4e5b5a59ed51511ec5ba6a6036 memory: tegra30-emc: Continue probing if timings are missing in device-tree
+4a91b11c0a100532c466e07a1372d134ab0e753d memory: tegra: Complete tegra210_swgroups
+0e1bcf2c05d0a681c04351fbd60812aea99354b6 memory: tegra30-emc: Remove unnecessary of_node_put in tegra_emc_probe
+9174e7b6839c3f7ef49ed2028e780edc492219f7 Merge branch 'for-v5.11/tegra-soc-clk' into for-next
+3d6613a9bd7c2ef992ac592d6b9939f540d6b847 Merge branch 'for-v5.11/tegra-mc' into for-next
 
---===============2190255931348191829==--
+--===============8711460088677830475==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e45b57df4b9e-0e1bcf2c05d0.txt
+
+7f3cdaf795dbc4a270d3af304e7eb8d6234b5f07 Merge tag 'tegra-soc-clk-drivers-5.11' into for-v5.11/tegra-mc
+6c6bd2075f01f8c8ae4bc803ba5cd23a3d3db533 memory: tegra: Add and use devm_tegra_memory_controller_get()
+4e84d0a6e1206fda47395b5d3af1453e013d7b38 memory: tegra: Use devm_platform_ioremap_resource()
+162641a6e200e935cd39b26737f3ec0b5ea856fb memory: tegra: Remove superfluous error messages around platform_get_irq()
+d5ecac0afa30811901eb401067f196e688aeb73e memory: tegra: Add missing latency allowness entry for Page Table Cache
+06f079816d4c4e43d4128f394ae249934a32dffd memory: tegra-mc: Add interconnect framework
+0260979b018faaf90ff5a7bb04ac3f38e9dee6e3 memory: tegra20-emc: Make driver modular
+fa4794ff8fb4b324ae5b9f089312bcd4ce4ff6ed memory: tegra20-emc: Continue probing if timings are missing in device-tree
+d5ef16ba5fbe128873a55441d85ccde77f63c129 memory: tegra20: Support interconnect framework
+3a0b6b5abfddd0baf0a053aec7e8be59cf33b659 memory: tegra: Correct stub of devm_tegra_memory_controller_get()
+de47653bd4dd3c1bf38c9983cf19556cab4c4211 memory: tegra20-emc: Use dev_pm_opp_set_clkname()
+cba3902b0c3df42969231358a5e8b3d40212b7ad memory: tegra20-emc: Factor out clk initialization
+e09312fec1d48c090bc3a4f13c6a01cb94bd5432 memory: tegra20-emc: Remove IRQ number from error message
+dedf62d6f17fc9cf0389602b6d3d7533cc218679 memory: tegra20-emc: Add devfreq support
+1d1564aabc697d53f19ef40b06d68dc8bde36ad4 memory: tegra30: Add FIFO sizes to memory clients
+0c56eda86f8cad705d7d14e81e0e4efaeeaf4613 memory: tegra30-emc: Make driver modular
+bf25f3fceffa9e4e5b5a59ed51511ec5ba6a6036 memory: tegra30-emc: Continue probing if timings are missing in device-tree
+4a91b11c0a100532c466e07a1372d134ab0e753d memory: tegra: Complete tegra210_swgroups
+0e1bcf2c05d0a681c04351fbd60812aea99354b6 memory: tegra30-emc: Remove unnecessary of_node_put in tegra_emc_probe
+
+--===============8711460088677830475==--
