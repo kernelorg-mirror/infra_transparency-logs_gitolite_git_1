@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0149982366933904298=="
+Content-Type: multipart/mixed; boundary="===============1093865766345829922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 26 Nov 2020 08:19:46 -0000
-Message-Id: <160637878679.26556.8446850893796765091@gitolite.kernel.org>
+Date: Thu, 26 Nov 2020 08:21:09 -0000
+Message-Id: <160637886972.28377.13910849851257926596@gitolite.kernel.org>
 
---===============0149982366933904298==
+--===============1093865766345829922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: f3ef38160e3dacb490483eb2104b4ce05cd97058
-    new: 7656ca71b0ba04ae7437afe3d046e9134442678e
+    old: 7656ca71b0ba04ae7437afe3d046e9134442678e
+    new: 2e70c495cadebdcc6f80fde3553401bb0987b29f
     log: |
-         7656ca71b0ba04ae7437afe3d046e9134442678e usb: pd: DFP product types
+         fd2c35b2f59f3d4a92e8604c7105f001d1da503c usb: typec: Consolidate sysfs ABI documentation
+         2e70c495cadebdcc6f80fde3553401bb0987b29f usb: typec: Expose Product Type VDOs via sysfs
          
 
---===============0149982366933904298==
+--===============1093865766345829922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606378848 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606378931 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1606378780-b8b3c1633e89778e448888f02325e9162cf3b1e7
+nonce 1606378863-e7dd61d860142a346331db4e2fe2fc864bfc5a21
 
-f3ef38160e3dacb490483eb2104b4ce05cd97058 7656ca71b0ba04ae7437afe3d046e9134442678e refs/heads/usb-testing
+7656ca71b0ba04ae7437afe3d046e9134442678e 2e70c495cadebdcc6f80fde3553401bb0987b29f refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+/ZWAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q5AP/0jh4vB0PMUJ232uaELe
-tC+x+cGjqrrFW1vW0I2Q89JFe1GhgYvKxCiJ1tgSJJZRASWyfrEfv51owFtHxDDR
-s3AqzgyLquQQrjAwqPQKmu8sKH9cqsOEmeqVMxlgsaFfz7LHaPF8jQIKPaNbNNwN
-f5G3nCqBTTafYI5EHqafTWqfSZG6CFBesk0iH5xOVPNRB1st640hYdOtJka4U/Jx
-Qsu471bNitx1TyNal30+ZMJgktPuDJh1Ye5AYbt/F7cnF/dD3Ttkturxj0kn83Sa
-cRfV0hy7OleTsRNlXaOcPM2b4CYDIfN9DpXS5HPOTuz0WFWR8BWZjhPAm+0amGhD
-YA2p2Petcn6rVz7Rvciz0pz5cld0JT7MomECkAXeTUiF15TguTBvIRmQsgJvyszu
-8PiUIM2qExVX+K1C3hUlcK/sALL1oOGcoIq2l1pOWaTp0pmwDR9NPqJeBUdCReRz
-9Z8WZ9WADp1usSqLeoHPoIdoI4eV7kKpaKj3ZBdxC1n6zgY+02YfpCdnQ7YF8xgd
-ktqY7TY2x9CY0xPaYrhIMREoL/YGoZOFRL6+1zmDwKlU6TDUjBGqPgklEvZCVJoN
-edO14+ZwhMtrkyqveYmU3I4D2zQ9qYFX/JpG14Y1SYCtRbTAKSuh7av82HmZT8l0
-oSuzUhmZ4JgpClLcWF49i0CQ
-=DKMh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+/ZbMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vBsQAKPsxYBH/yMtsgz+joXm
+yBrqai95lPla/aSm99vsCVpOgsq5mPH1NZgmv2LjjjKVnrFxxhLzMcVqX5cKxdd4
+SUWEJgkZ+uhvPzTFXhqil3hcdsVvTzVeVLfXP5imFHTwfWSiVfmdm+Ff1DxCOWJs
+9xJpgbjgrXFyCEVWUKFla+1wv9zgDrq4Cq1bOwELvq2TO3/evHimD0EZ3i5Xhx3X
+PGmd9j4VGAY4GKQ2dMuUHEmc5gpZZHRQa7vW4uUTzS8Kb6/yMLUigTqImWbFwXJn
+5JF2pIzS9yAiuP06l02+yPMhbvq8aomAgr7xnPKoJH1giVOApoyGmF68YHW8cdyG
+ec3Nm1638jcsXkPfInOqRmT5CvxtZun5Mn2eOG5bk0zng/uxXdi3zO76L9cm+Ic6
+i+KoZgeRoDU36xgG1mKORE76HEBcHV+lpbxETZVnBjXjuxOAPbg5IVU5xCQLstbQ
+dLLh9ycS6CqrBxEW4/gKwhrqsIERJTv/t9jYCWlkrVZFbhIcMa4PbF1vW8CTEDdT
+aPIQOhwqGH7RvAFsE6HQBerwTx8ArEhS0DOYVJgY1dYcOYRk2v4mklq56fR3vXxi
+UskDv1NmUvkDV3sTT7LMf4m1joargTrTtFnLQS/uPP3vqZ9xUhchB46X1jAhA0wy
+Kkdj6UhfbEV2gspxx8cHBnzq
+=sD8O
 -----END PGP SIGNATURE-----
 
---===============0149982366933904298==--
+--===============1093865766345829922==--
