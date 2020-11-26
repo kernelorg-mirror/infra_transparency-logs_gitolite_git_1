@@ -1,43 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============8979414579662901499=="
+Content-Type: multipart/mixed; boundary="===============1087153374421836223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Thu, 26 Nov 2020 15:50:51 -0000
-Message-Id: <160640585125.21363.9683775012174752054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 26 Nov 2020 15:56:28 -0000
+Message-Id: <160640618864.27051.16913858122230177412@gitolite.kernel.org>
 
---===============8979414579662901499==
+--===============1087153374421836223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/perf/build_id
-    old: 5d97d3e3d715789f1da47961f276fdf3954ed834
-    new: 006fe5f9658d2e7cc2e329d9bb2145f504d4a117
-    log: revlist-5d97d3e3d715-006fe5f9658d.txt
+  - ref: refs/heads/fixes
+    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
+    new: c9aa128080cbce92f8715a9328f88d8ca3134279
+    log: revlist-3650b228f83a-c9aa128080cb.txt
 
---===============8979414579662901499==
+--===============1087153374421836223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d97d3e3d715-006fe5f9658d.txt
+Content-Disposition: attachment; filename=revlist-3650b228f83a-c9aa128080cb.txt
 
-bc2c738efc6585bbb0fcb26467ede2c0f97fd2fd perf tools: Store build id from mmap2 events
-2c9ad5823a26288f1e66076f822e9e4fb801ec70 perf tools: Allow mmap2 event to synthesize kernel image
-0c9578f7a79310e3d29e382a060115d4745b904e perf tools: Allow mmap2 event to synthesize modules
-445482d8ba3a0aedaa986593b31f042e4bc00dec perf tools: Synthesize build id for kernel/modules/tasks
-1116dba70efccc7db02ff56180d34258173f3653 perf tools: Add support to display build id for mmap2 events
-5b8a97e1aa13133ec172afe5053d6c544dcb83c9 perf tools: Use machine__for_each_dso in perf_session__cache_build_ids
-c3cab3c538fe55a2643cd5ae4ea90b180cab8b98 perf tools: Add __perf_session__cache_build_ids function
-8508029e7319f6fd1d0c598e23e56b134d2841ee perf tools: Add is_perf_data function
-181c940606dbad15372622911f15fc27b9a53fa9 perf tools: Add build_id_cache__add function
-f40fcc058e96b5af1e8536ea88ae601824dbe55e perf buildid-cache: Add support to add build ids from perf data
-b5c4c5c94acb3eca8f3366391fdecaf0e9f599a6 perf buildid-cache: Add --debuginfod option
-a98c6494f96835c52351b3bb563836329b8ec058 perf buildid-list: Add support for mmap2's buildid events
-006fe5f9658d2e7cc2e329d9bb2145f504d4a117 perf record: Add --buildid-mmap option to enable mmap's build id
+15d89c9f6f4a186ade7aefbe77e7ede9746b6c47 platform/x86: thinkpad_acpi: add P1 gen3 second fan support
+f2eae1888cf22590c38764b8fa3c989c0283870e platform/x86: thinkpad_acpi: Do not report SW_TABLET_MODE on Yoga 11e
+c986a7024916c92a775fc8d853fba3cae1d5fde4 platform/x86: thinkpad_acpi: Add BAT1 is primary battery quirk for Thinkpad Yoga 11e 4th gen
+e40cc1b476d60f22628741e53cf3446a29e6e6b9 platform/x86: thinkpad_acpi: Send tablet mode switch at wakeup time
+80a8c3185f5047dc7438ed226b72385bf93b4071 platform/x86: thinkpad_acpi: Whitelist P15 firmware for dual fan control
+9e7a005ad56aa7d6ea5830c5ffcc60bf35de380b platform/x86: acer-wmi: add automatic keyboard background light toggle key as KEY_LIGHTS_TOGGLE
+2a72c46ac4d665614faa25e267c3fb27fb729ed7 platform/x86: toshiba_acpi: Fix the wrong variable assignment
+8b205d3e1bf52ab31cdd5c55f87c87a227793d84 platform/x86: intel-vbtn: Support for tablet mode on HP Pavilion 13 x360 PC
+0f511edc6ac12f1ccf1c6c2d4412f5ed7ba426a6 platform/x86: touchscreen_dmi: Add info for the Predia Basic tablet
+c9aa128080cbce92f8715a9328f88d8ca3134279 platform/x86: touchscreen_dmi: Add info for the Irbis TW118 tablet
 
---===============8979414579662901499==--
+--===============1087153374421836223==--
