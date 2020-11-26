@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 26 Nov 2020 01:59:50 -0000
-Message-Id: <160635599092.27126.5363931204810713772@gitolite.kernel.org>
+Date: Thu, 26 Nov 2020 02:13:35 -0000
+Message-Id: <160635681581.3445.1402324680484509025@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 0f614511fa224677ec32c0e8790c3bd0aa5acc3d
-    new: 64088b2ac19d146ad54ab95a718ebe155d4c1e43
+    old: 64088b2ac19d146ad54ab95a718ebe155d4c1e43
+    new: 594e31bcebd6b8127ab8bcf37068ecef6c996459
     log: |
-         4efe766290363abc3b6d4f0ba7e48be756621788 net: dsa: mv88e6xxx: Don't force link when using in-band-status
-         f5be107c333878b09c2f682967e92f98f7fc80be net: dsa: mv88e6xxx: Support serdes ports on MV88E6097/6095/6185
-         5c19bc8b57342768087d4ca2f3b29cb69e7dcdfb net: dsa: mv88e6xxx: Add serdes interrupt support for MV88E6097
-         0fd5d79efa4a35c5b0944f7dc42b440d56af4b04 net: dsa: mv88e6xxx: Handle error in serdes_get_regs
-         64088b2ac19d146ad54ab95a718ebe155d4c1e43 Merge branch 'net-dsa-mv88e6xxx-serdes-link-without-phy'
+         088d5360d05a9e4e779fc89acd8e63379d21b8b8 i40e: remove redundant assignment
+         6ec12e1e9404acb27a7434220bbe5f75e7bb2859 i40e: report correct VF link speed when link state is set to enable
+         24453a84285ee1de9706a3308a11caf853f96334 igbvf: Refactor traces
+         594e31bcebd6b8127ab8bcf37068ecef6c996459 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
          
