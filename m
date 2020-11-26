@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Thu, 26 Nov 2020 14:33:21 -0000
-Message-Id: <160640120184.1270.7668631879996554563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 26 Nov 2020 14:40:55 -0000
+Message-Id: <160640165576.6555.169026593633784305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/testing
-    old: be133722df5168d2f304cc59b80d3d21d6ea9433
-    new: b4b19d15b843065c7bbf45089a7bb7cfe0c4bea6
+  - ref: refs/heads/review-hans
+    old: e8637dfca15e065f9326e0fad222ccf1fbed1089
+    new: 912b341585e302ee44fc5a2733f7bcf505e2c86f
     log: |
-         2e83fbfcd15c62b8fd0bcd67d227249b6b7d2c2c thermal: power allocator: change the 'k_i' coefficient estimation
-         ccef4e2511faf7d09f3ae5abdb5f41da75b233c4 thermal: power allocator: refactor sustainable power estimation
-         b4b19d15b843065c7bbf45089a7bb7cfe0c4bea6 thermal: power allocator: change the 'k_*' always in estimate_pid_constants()
+         2bf5046bdb649908df8bcc0a012c56eee931a9af platform/x86: mlx-platform: Remove PSU EEPROM from default platform configuration
+         912b341585e302ee44fc5a2733f7bcf505e2c86f platform/x86: mlx-platform: Remove PSU EEPROM from MSN274x platform configuration
          
