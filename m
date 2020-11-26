@@ -1,62 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4544620619827219464=="
+Content-Type: multipart/mixed; boundary="===============5583693972807204272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 26 Nov 2020 08:12:25 -0000
-Message-Id: <160637834516.22570.8645295055388130420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 26 Nov 2020 08:15:21 -0000
+Message-Id: <160637852190.24994.1509626310331795535@gitolite.kernel.org>
 
---===============4544620619827219464==
+--===============5583693972807204272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 749c1e1481e1d242ded9dd1bf210ddb7c0d22a4f
-    new: 1de16e38f1fdbfd9d842a06919098813ed93abf7
+  - ref: refs/heads/usb-testing
+    old: 93c747ed00c1c74316645f7761f0cdb3f3d3952d
+    new: f3ef38160e3dacb490483eb2104b4ce05cd97058
     log: |
-         0438fb09828eda30076a3e14b62f17aed95c364b staging: mt7621-pci: remove bus ranges related code
-         d7dcee38cbea6931a700bd42435bf403afee826a staging: mt7621-pci: remove 'offset' with mem and io resource sizes
-         301c7ed52263b5e3f93ea22d064291cb38f741cd staging: mt7621-pci: add comment to clarify IO resource in this driver
-         8713094e5b007a08372e609344f9fd60076e207d staging: mt7621-pci: review 'pci_host_bridge' assigned variables
-         2fc0898bf3661ba576801acf214c08acdaf75761 staging: mt7621-pci: parse and prepare resources in 'mt7621_pci_parse_request_of_pci_ranges'
-         108b2f2a9724548ffa64274731034d9723665c71 staging: mt7621-pci: convert to use 'devm_platform_ioremap_resource'
-         1de16e38f1fdbfd9d842a06919098813ed93abf7 staging: mt7621-pci: remove 'RALINK_PCI_IMBASEBAR0_ADDR' register
+         f3ef38160e3dacb490483eb2104b4ce05cd97058 usb: isp1301-omap: Convert to use GPIO descriptors
          
 
---===============4544620619827219464==
+--===============5583693972807204272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606378407 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1606378338-1609648cb558c8d8f2802106922f3726534c8284
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606378583 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1606378514-ae4d86f29109abaa7932324cf3febfdc1f41d99b
 
-749c1e1481e1d242ded9dd1bf210ddb7c0d22a4f 1de16e38f1fdbfd9d842a06919098813ed93abf7 refs/heads/staging-testing
+93c747ed00c1c74316645f7761f0cdb3f3d3952d f3ef38160e3dacb490483eb2104b4ce05cd97058 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+/Y6cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bowQAIV+rTQ3XgwCeHzdQBuS
-pjzRG2Ryzc1CFHFoAdZn1ndAx52QYcZEufMevIpo5tYKaHZU85cgVL4bJvvimSEi
-hVGjGoCo6NOJnFP0s5fIukShBP1ihE8EEEn48UxpSwqxHxntM4IKxSR/1BHOX88o
-9uUDAYZm6QIVdyK7N6zC+78gp1SuRD/F8BPJgoni4gUfx0xKRr4iPx7T4zQZAR/7
-3oIBWIuCuT97Lync1JcE0/wte9HbdIm0tK9/NxxYib7GhPxGQv1z4oyMXG17Ti+K
-ewBAFiRzvC6mVW6DNluGuy6uALjmzcLAd3IEY78wI9205A4eF/cgTRRZb59zEctJ
-ICqP0EG6R8WmeD17g1Gi6VrboM/LKCqSWupCYIic7epbM+A+lGWdfmqSRiPOHF0i
-DVQRJAp7wYgIhoVUrp5CXTwBEvfvuC76qwNUXnEnGlkpVbuS07NL7ghxaIr4Ggrk
-5UZHtgK3H1upTaz3C5wkuINQzes/6JniVK53D/5ktExhIqdCdDW7T4GwtG37WkD0
-+aalDpcweonQqhmFOAqpJ/K1/u6yNMv/focguvPuPcmXNfhJzOPsynyooEHxW0Mu
-I6vc/iDdcRW2tFLZ/zuQJEVFwvbE+JL9Ht2hqVWksNF3U9mcvco8sVTdcy1noH9R
-NJznnaO4LzFaQJEJU855mLz5
-=PYDp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+/ZFcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bd0P/jwzNdD5ITz3Os4i7J7O
+V3enSHcYUaVXTOMDkpOHT/5jEFRpAUKGLrdmMReL2/TXXDdaIOrVQOaQXzB/k9Bl
+HELvgMjECkjwDolA0SlHbQaXQzysnMvX6Jv/72ugA8Jgf5NYGzytvOe1BM+RO8wg
+O6I9LLa1yfcJW+F17g5p6fZfh9cC29XuWDWLQtk8h7sgJzzB1OAWNVWus5LsX8+O
+Z5FW8wLOg8iDEeQTtGyHnzUSx0GKgvQSAAztu5El8LCnZgmjhka0JfNr6vHx6i9p
+vjMG6mQpjNa91+RF/m5i4Uxvxmed/DL8pzNH9BRVNsWouhab+iciEgqxO9q7BWMF
+CTM5FSh35+c0FFnK9lUuz0IF+hkG1LaWK9Q2y4x95N9v9NmbGh/1NBHyHZTy3q5w
+N9msdTOB2PqZAdiexcDrLC7rgH0oHdaYesusUROCXaSjvJxAnzbGIN9Zd1mlfkt/
+EfbgY/vvsmc86OM1O8xUZJzxdubpesyE0XOtw8Va/SU8TkUX3usQND7W32oYcOV0
+vrdXYM2mDMPN2JVii16SSagijxVFVpqQfaDqChzMBuMLtJUpZt697qCMCRN4ajOP
+SsEVH7GHK4iBx22nYoMW2VajkqxmW7Vzai63Rk2vPETD/qsAgbwBjHCPZSEYNJhJ
+76c7fcR69dezIAHP+ERwtGhf
+=YCTR
 -----END PGP SIGNATURE-----
 
---===============4544620619827219464==--
+--===============5583693972807204272==--
