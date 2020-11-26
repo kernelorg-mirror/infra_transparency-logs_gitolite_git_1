@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7608032708398165318=="
+Content-Type: multipart/mixed; boundary="===============1327555619303026402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 26 Nov 2020 08:24:38 -0000
-Message-Id: <160637907841.32072.10704245386260618138@gitolite.kernel.org>
+Date: Thu, 26 Nov 2020 08:25:45 -0000
+Message-Id: <160637914557.1468.12353922240550194154@gitolite.kernel.org>
 
---===============7608032708398165318==
+--===============1327555619303026402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 2e70c495cadebdcc6f80fde3553401bb0987b29f
-    new: 733315532b90d8dccfdc2d0d2744db4559d40e80
+    old: 733315532b90d8dccfdc2d0d2744db4559d40e80
+    new: 929da7bd397d5124901d593dd487c7fbc4fa11da
     log: |
-         3f461fba1f8f07d1a93c6489136b44c7300bb016 usb: typec: tcpm: Disregard vbus off while in PR_SWAP_SNK_SRC_SOURCE_ON
-         733315532b90d8dccfdc2d0d2744db4559d40e80 usb: typec: tcpm: Stay in SNK_TRY_WAIT_DEBOUNCE_CHECK_VBUS till Rp is seen
+         c12e4a3bc846a3d31879707c8c40c5a55b977f5f USB: core: Constify static attribute_group structs
+         9c911412f7488621f47c706429fca12cc651118b usb: typec: Constify static attribute_group structs
+         929da7bd397d5124901d593dd487c7fbc4fa11da usb: common: ulpi: Constify static attribute_group struct
          
 
---===============7608032708398165318==
+--===============1327555619303026402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606379139 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606379207 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1606379070-f4fcd51bb4dcb6fa21c816d2dd6cc90400bc68de
+nonce 1606379139-e3b1f885a6afe54b7a5cb5c99c35ea8d0d02d97c
 
-2e70c495cadebdcc6f80fde3553401bb0987b29f 733315532b90d8dccfdc2d0d2744db4559d40e80 refs/heads/usb-testing
+733315532b90d8dccfdc2d0d2744db4559d40e80 929da7bd397d5124901d593dd487c7fbc4fa11da refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+/ZoMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+56IP/23XgyB8etwmLnhR7eZC
-oO44ULygJtrdOU0hxaKaVQq1zThS3uxrSDZabdhRKHlIE0PqesDwyq/iQY3B1XaH
-hQBIG38GlIbB1HZ3SCgLxFugKsN6GdKrH+EoeVVS94Wq9XZpvn2mdLeiCf4ckC3d
-PW2vchgeBtnEyt5Jz7Ta+EOP3Vosu275hdeesfCQJGmuqge3hkEIA3KPlWv6mfGS
-mFMWTOMzqdGU+4SGkq+xO0OC5AXlsFg0VfCYvnU2/Mhdc9EqbQwPByZO/e9VoK3x
-mHls2FAaXVwKjz6vZ4BDmYwR9nQxtqQHIEBmXQBMOSpLreaUNP4OXBc5RSLZPZCw
-AWgiCaRpw2mQ8XiqQy9hOhwiF7sD86MN5+LdU1A3/42rwt7cJ2Vxt7bbYJDgj1d4
-0MCSoZdfKKNOFSPww+l1Ijb+TBEhNVUHt0c8v8fMYkufy/gzr0/755kmmbXn1Gr4
-hsbsxbJceVieGgEobAPKHELMTvJUyT1SpNoOxtaq5dxXE+7G5r2dNNx/tIDv7oft
-qBogyAp170GVjvpQfrldmG8jRtTKHMQQ39w1H6CqZEKQfg4TGAmiqZSORIg48l5A
-jRhppmoxI/x/bQinfLJm4oraEBLvr599w7oGdCzgaLImKJ9DzEFiX5lfIZ5g6d3J
-HQ9of2LZJrfFUQR9yFVRZyXv
-=MXjl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+/ZscbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kxAP+wZBJRZ9g31CZpmJ4Ry8
+nawXIuzKXbgh3ns4Zv8UHEIb6QGmkmh03gk28R19pqRkzd/PB5++bv2c9sWK+dA2
+BGK7JI0GWmGfoKEgpSPV9Gofeor9cSMtzJKixoKQbG1An44vpW/1RFu1LPZ9e8Pb
+NuswOa+L1Ei9YzHABM/w7ifkE2NRtoqaeP2HkY/rh0S3Oeo5yCnVkOB0ohn5ZAVH
+gmDHte9mVEQBfPgCYhGo63gsAmRo2irQgStH84KpRg3AOMKz9b05u6cO6P4VGDKk
+V5eVcVIff9VF8KiR0HJvSQ5TUU9pRIDT/WGKh35lg3WCR9grPEEtJCveDFja+tBr
+bKO4JgDn1vDvJW//UFUIcIwkpj8EYbw0REB7CVT0wFWFCSPmUOptM+Eaovcnafuh
+ms6B9y/7Gz0tO3cKGPVRgNKuFDEh9LXoSSGsee1O18lAgtgQBHkGdjGBxcnCGfGf
+JtCeA5MCHVb4f0NvAuI2RtVxrr0FX2s/C2WHZUT3tcRDo9edkHUyISFxEuUjA8kD
+7+ki4+qPQ/EZ+fLzBNsAr7hiLzTnBfr83BAxLvXSPZJTOJPsmv7tAHUK/4/7vz4L
+a3SyIur4Yf9B6+WUVGQJlNvL4Gs87JFB1gvTqfK7PMyfY7nuRb7MyivrJbOybgIQ
+Xhs3m1/pgh4DHONfVwx6oHE2
+=D8nk
 -----END PGP SIGNATURE-----
 
---===============7608032708398165318==--
+--===============1327555619303026402==--
