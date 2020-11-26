@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5570042395918758038=="
+Content-Type: multipart/mixed; boundary="===============6041683281372664708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 26 Nov 2020 14:51:46 -0000
-Message-Id: <160640230615.13102.13344386538409702774@gitolite.kernel.org>
+Date: Thu, 26 Nov 2020 14:52:03 -0000
+Message-Id: <160640232383.13300.1390300355580381785@gitolite.kernel.org>
 
---===============5570042395918758038==
+--===============6041683281372664708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,66 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 4082c502bf9c8a6afe4268c654d4e93ab7dfeb69
-    new: 594e31bcebd6b8127ab8bcf37068ecef6c996459
-    log: revlist-4082c502bf9c-594e31bcebd6.txt
+  - ref: refs/heads/testing
+    old: 275f6010b6994ad286a859062c03be050e8073ad
+    new: 2403e42848fe6167f778429555a29cd716c36b27
+    log: revlist-275f6010b699-2403e42848fe.txt
 
---===============5570042395918758038==
+--===============6041683281372664708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1606402302 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1606402320 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1606402302-76015ac92bdc64502565733072fd52b663fe499b
+nonce 1606402320-402fc4788e6bfe21501fd0d578b329bb5ba3fac0
 
-4082c502bf9c8a6afe4268c654d4e93ab7dfeb69 594e31bcebd6b8127ab8bcf37068ecef6c996459 refs/heads/master
+275f6010b6994ad286a859062c03be050e8073ad 2403e42848fe6167f778429555a29cd716c36b27 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl+/wP4THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqUXLB/sE3pKWs3wRLZwJ/TSZ7apez2qLXUEl
-/Rfn/njpR1XJKD9SPQjXgcek0V4w1uLSzddsOkCfxzX+t/i8ysKMxygJM/1mRcjE
-DcLQl+svtT0wwVq02dMPzAyYm+KTkfxgUM4373F5cjoL9o3NWEGgrJIZAxs+Vfb2
-2innLmF7tp1XDSt5MB0yJAoHO2cg2GxL11NK1bNY9gf4qEhr8coqeBDzDz8pEi0v
-gMvpNr+15irljGuWL5L1xaYuA0ViVgEyO4ioWXPiafaB/WNee1Qs/7eSUnwtTV/o
-D3IAJwYFmU+mrDMHQFxoLZu9KoBUJfSBkkjPdsqOA0sVLXigo0ax61tN
-=gdVT
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl+/wRATHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqQ6+B/9//mRzPp3pTYwj6hpQ9+6Uj8e+akSq
+VAhOJIzP4InmuP4XHEKNrOSIjc6q+OQQ/MxCzGw4DEEo84NyUSOfj9KpWlJIzQZk
+G2DjlFsNrHPMMez1C4oMwrhUHtBqxaIousGIUoCru1NwwbXKwVe06YMfaabUAQOH
+v81mCXg4nJfrrLkl09kS94d2MNRFkxkPCKco4idJcfJ58/Kj4F+wTztxvXGlHN9M
+xEHBskOx3JqER/TRp94m6GL0GitNnhe+VjuHdyZXPxHcyKQx2QoaFz6PbPpY07Ft
+wrOj5S/eWrAKrKvzlEcfIsl1D+htEsUZV3YHsURMZ6nyVd4CAXR5FqLD
+=hP41
 -----END PGP SIGNATURE-----
 
---===============5570042395918758038==
+--===============6041683281372664708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4082c502bf9c-594e31bcebd6.txt
+Content-Disposition: attachment; filename=revlist-275f6010b699-2403e42848fe.txt
 
-b7d3c0e5930deb3c8f69d7572e17baf2f07c56db can: j1939: add tables for the CAN identifier and its fields
-ea7800565a128c1adafa1791ce80afd6016fe21c can: add optional DLC element to Classical CAN frame structure
-69d98969a0540039fc04e0f22bbe9f41b0a13d66 can: rename get_can_dlc() macro with can_cc_dlc2len()
-cd1124e76d740327be5d8f9ce3785ce1119daf4b can: remove obsolete get_canfd_dlc() macro
-c7b74967799b1af52b3045d69d4c26836b2d41de can: replace can_dlc as variable/element for payload length
-3ab4ce0d6fa8c93d41df4a74ec8d2c9198be2109 can: rename CAN FD related can_len2dlc and can_dlc2len helpers
-75191707c7f5299764f00c8d2e9996af662ac2dd can: update documentation for DLC usage in Classical CAN
-e8e73562ce0b24d691ad35df3de34b324248458f can: drivers: introduce helpers to access Classical CAN DLC values
-4c01fc87675e6974d42383eba9a043123d8e13c3 can: drivers: add len8_dlc support for various CAN adapters
-396b3cedc9cf54bf6266a89150136d72af7fcb1e can: drivers: add len8_dlc support for esd_usb2 CAN adapter
-94c23097f991cd4568388564b3d2816b0b83f924 can: gw: support modification of Classical CAN DLCs
-4e20b3a1b02eb64c10c2d2c8b7e026a679fdb1c8 dt-bindings: can: fsl,flexcan: add uint32 reference to clock-frequency property
-07b6b3e23cbd531977535b4d1bbef741d13af264 dt-bindings: can: fsl,flexcan: fix fsl,clk-source property
-cefd754d131a65756ff6c2b428b935240c7a0a10 dt-bindings: firmware: add IMX_SC_R_CAN(x) macro for CAN
-1457998a6d3a507d6e213623f915c919297c37b1 can: flexcan: rename macro FLEXCAN_QUIRK_SETUP_STOP_MODE -> FLEXCAN_QUIRK_SETUP_STOP_MODE_GPR
-1c5e6dbe4c4f83bb44735656f52a501ebbe3281a can: flexcan: factor out enabling and disabling of interrupts into separate function
-49dea0443918da38f1cce94e74e17d2972c03016 can: flexcan: move enabling/disabling of interrupts from flexcan_chip_{start,stop}() to callers
-f3f2a5466578e297f5eeff940c9eb98c4ea5f0b3 can: flexcan: flexcan_rx_offload_setup(): factor out mailbox and rx-offload setup into separate function
-648a34b1d57d65d01784ca3659558794d5c00ae1 can: flexcan: flexcan_open(): completely initialize controller before requesting IRQ
-6b6e986864fd356e7f7d442ea36e58dde058b5e7 can: flexcan: flexcan_close(): change order if commands to properly shut down the controller
-e110c8409fb6299eded1089164c830f4d59b9165 can: kvaser_usb: Add USB_{LEAF,HYDRA}_PRODUCT_ID_END defines
-8396604379e6f713bd29698b412ecbe831163e28 can: kvaser_usb: Add new Kvaser Leaf v2 devices
-1f597d418ee3b69198c9c79789e3dfea3912032d can: kvaser_usb: kvaser_usb_hydra: Add support for new device variant
-887e5a9ace74419a9797bbf665d521dd9c0bdf4b can: kvaser_usb: Add new Kvaser hydra devices
-275f6010b6994ad286a859062c03be050e8073ad can: mcp251xfd: remove useless code in mcp251xfd_chip_softreset
 e2ef5203c817a60bfb591343ffd851b6537370ff net: openvswitch: Be liberal in tcp conntrack.
 c3bc2adb051b27ad1d7fcef6ff80673915c43b0d net: netsec: add xdp tx return bulking support
 12f4bd86225e348ef3a3c8d2bb42dc23ee0f0a4c net: add annotation for sock_{lock,unlock}_fast
@@ -245,5 +220,19 @@ f5be107c333878b09c2f682967e92f98f7fc80be net: dsa: mv88e6xxx: Support serdes por
 0fd5d79efa4a35c5b0944f7dc42b440d56af4b04 net: dsa: mv88e6xxx: Handle error in serdes_get_regs
 64088b2ac19d146ad54ab95a718ebe155d4c1e43 Merge branch 'net-dsa-mv88e6xxx-serdes-link-without-phy'
 594e31bcebd6b8127ab8bcf37068ecef6c996459 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+9367cce4d2bbd5031fd403ea3f72910e60793a6e can: pcan_usb_core: fix fall-through warnings for Clang
+b49f96be28f200d6bc04a23567e79bce17d93064 can: mcp251xfd: mcp25xxfd_ring_alloc(): add define instead open coding the maximum number of RX objects
+02e185516586ee2681c285a30698cccf9fa69fd3 can: mcp25xxfd: rx-path: reduce number of SPI core requests to set UINC bit
+b0cf850f95ef5d40911a35de97f0f71d562668d0 can: mcp251xfd: struct mcp251xfd_priv::tef to array of length 1
+f966c574677d0b2bea5d898bc8b67c1c46f042bd can: mcp251xfd: move struct mcp251xfd_tef_ring definition
+f9a1695f5cd87a28677608a5bfa226582f1329ce can: mcp251xfd: tef-path: reduce number of SPI core requests to set UINC bit
+748330c36e6612db3444e7c63c52ed011f33f442 can: tcan4x5x: tcan4x5x_clear_interrupts(): remove redundant return statement
+e9c87f9cb2291035adbd780bf01f64e6bc2eeecb can: tcan4x5x: rename parse_config() function
+b1a3fcc63212cbc75da575a547e53749be41f3f6 can: tcan4x5x: move clock init to TCAN driver
+409ccffc19972f2cc2c9da56733ccf531f604133 can: m_can_platform: move clock discovery and init to platform
+ccac75e9bb262145e9442d620971af3383425a42 can: m_can: remove unused clock function from the framework
+a96ed9554af4505927e7954abdf880a13c153575 can: m_can: remove double clearing of clock stop request bit
+d475702da6a5632825cddf41b9af4567f3cf676e can: m_can: move runtime PM enable/disable to m_can_platform
+2403e42848fe6167f778429555a29cd716c36b27 can: m_can: add PCI glue driver for Intel Elkhart Lake
 
---===============5570042395918758038==--
+--===============6041683281372664708==--
