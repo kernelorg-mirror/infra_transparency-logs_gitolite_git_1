@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Thu, 26 Nov 2020 16:03:49 -0000
-Message-Id: <160640662991.31147.17780042524916065817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Thu, 26 Nov 2020 16:12:17 -0000
+Message-Id: <160640713792.4254.5311449600407366498@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/for_next
-    old: bb5a5322a5ab4c7e1cc12fc4d780bf9d9e7f25ae
-    new: d2bc88b6e0fd878e89dc5b4e2094e5e35b050023
+  - ref: refs/heads/testing
+    old: b4b19d15b843065c7bbf45089a7bb7cfe0c4bea6
+    new: 90a996544946d1d4834ec2ec8add586edd905779
     log: |
-         8fca3c8a3451514c6f20dd26d5e66e78220d16e3 ext2: Fix fall-through warnings for Clang
-         d24396c5290ba8ab04ba505176874c4e04a2d53c reiserfs: add check for an invalid ih_entry_count
-         d2bc88b6e0fd878e89dc5b4e2094e5e35b050023 Pull reiserfs disk corruption handling fix.
+         e34a7233896928e4e39d3cdb201ce605d5b258c2 thermal: power allocator: change the 'k_i' coefficient estimation
+         eda1ecfa772f11b68b0ddb8d1c3948451fcff5d6 thermal: power allocator: refactor sustainable power estimation
+         90a996544946d1d4834ec2ec8add586edd905779 thermal: power allocator: change the 'k_*' always in estimate_pid_constants()
          
