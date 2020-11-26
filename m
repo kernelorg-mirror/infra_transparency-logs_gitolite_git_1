@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============9053085155606246659=="
+Content-Type: multipart/mixed; boundary="===============2564318737215953611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 26 Nov 2020 20:03:36 -0000
-Message-Id: <160642101606.1935.8359606095380113284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 26 Nov 2020 20:03:42 -0000
+Message-Id: <160642102279.2081.1077569938346642112@gitolite.kernel.org>
 
---===============9053085155606246659==
+--===============2564318737215953611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.10
+  - ref: refs/heads/asoc-5.10
     old: 3fba05a2832f93b4d0cd4204f771fdae0d823114
     new: aa4cb898b80a28a610e26d1513e6dd42d995c225
     log: |
          aa4cb898b80a28a610e26d1513e6dd42d995c225 ASoC: rt5682: change SAR voltage threshold
          
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 373c2cebf42772434c8dd0deffc3b3886ea8f1eb
     new: 6d9b4dbf82c74e9c178e1ce2cff505f17cced23e
     log: revlist-373c2cebf427-6d9b4dbf82c7.txt
 
---===============9053085155606246659==
+--===============2564318737215953611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1606420990 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1606421013-6e64095e61e555f477d03b91c2e6a7dcf216bd7e
+pusher C3F436CA30F5D8EB 1606420997 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1606421020-39b26380e2b7545da09dda6d269b4fe27125a6f8
 
-3fba05a2832f93b4d0cd4204f771fdae0d823114 aa4cb898b80a28a610e26d1513e6dd42d995c225 refs/heads/for-5.10
-373c2cebf42772434c8dd0deffc3b3886ea8f1eb 6d9b4dbf82c74e9c178e1ce2cff505f17cced23e refs/heads/for-5.11
+3fba05a2832f93b4d0cd4204f771fdae0d823114 aa4cb898b80a28a610e26d1513e6dd42d995c225 refs/heads/asoc-5.10
+373c2cebf42772434c8dd0deffc3b3886ea8f1eb 6d9b4dbf82c74e9c178e1ce2cff505f17cced23e refs/heads/asoc-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/ACf4ACgkQJNaLcl1U
-h9AyTAf+Lrz4ct3DmlFPL3ZhBFDw+1qd1OkY2b4obHzIUBeuaJ/xHCgRFdCmDeuR
-UbnY6Z/WHYnP8hdDNUoUfGCL9m4CCoXCdnfaiqIp32nInFBnPeqvsM1o+tibRQW8
-uU5K0pS4JmKyedRDPi377MgasAXIU5LCHQOS0bYEH5olxc3q9TybOnKiBMG6p2wI
-I4QrgweByNlv3+adZVz+nHcXBE+V86F3PU0bKJWU+YJXxU8eRBUAPrZ9pI7lpF6J
-yhrOBPRNGFpb/0aI52veS19ZpT+Gt9fgawjd09dhKc0u61zbHCorKSBYkgC+y36+
-xqvwgXEemnCGoey6DWp5ZbeLwGe9JQ==
-=Ftsw
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/ACgUACgkQJNaLcl1U
+h9Dvhgf/Y7hNl/Cv4vn9AJB70C2j0QGq6uTsAtYxp+ZcleMqsf0FPy6vMvJi9lE5
+0zxC7xIhOPuiuFSnzV6s6uc1PdEAG/maeHkm2NrWYqAYtiz/0cgPu9Gk+1maFq6e
+aCisLNdpP3yrR5cHDOESwIIujwwiQfPBWtcMWOLbDMtUpBo49ciCWHTDM9CN2S/6
+1BTpxOxanXabBPNuBFJkQaoezEGbEngUEJCsrEcq2R6NqVL365rTQQbOkwRFZ/fW
+6fQ5KLvLF9KGnfMLnq/ZGvdMQM0bHvJDR7RN8x5TBOlEKNeJ/O9kXUsLVyiHLBvG
+TMFQzloSNqSsVD1VK2a8jTaibB+5Ew==
+=6A0v
 -----END PGP SIGNATURE-----
 
---===============9053085155606246659==
+--===============2564318737215953611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -107,4 +107,4 @@ cd7c7d10e8f4ab1dac0bdb2019abc0fad995a788 ASoC: soc-component: add mark for snd_s
 0858fc17b6f73f868352ed5f6cd7b655a17ff856 Merge series "ASoC: fix !OF compile test warnings" from Krzysztof Kozlowski <krzk@kernel.org>:
 6d9b4dbf82c74e9c178e1ce2cff505f17cced23e Merge series "ASoC: merge soc_compr_open() rollback and soc_compr_free()" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 
---===============9053085155606246659==--
+--===============2564318737215953611==--
