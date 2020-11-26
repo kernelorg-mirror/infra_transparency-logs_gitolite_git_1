@@ -1,22 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 26 Nov 2020 20:05:30 -0000
-Message-Id: <160642113075.4641.2778594444376667160@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8240174489094873108=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 26 Nov 2020 20:21:50 -0000
+Message-Id: <160642211019.13965.8674767172863546098@gitolite.kernel.org>
+
+--===============8240174489094873108==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: d7bf537084f25f8301d9767a9779e6f589bc3946
-    new: ec0abec390d42669794b0db01c0e6dc16cefb02d
+  - ref: refs/heads/tty-testing
+    old: 3b3e23092449a57f4ba57cd60506ab14055b1642
+    new: f35a07f92616700733636c06dd6e5b6cdc807fe4
     log: |
-         55cca73931c3a08eb74f5ad06e88304af7a292e0 regulator: core: return zero for selectors lower than linear_min_sel
-         1008521b9b4f85d80ac1d80391ac39055c89f736 regulator: dt-bindings: Add PMX55 compatibles
-         36dd70ceb4d955e6cd3ecd18e78169141aaa23b7 regulator: qcom-rpmh: Add support for SDX55
-         ec0abec390d42669794b0db01c0e6dc16cefb02d Merge remote-tracking branch 'regulator/for-5.11' into regulator-next
+         6e4e636e0e3e0b5deffc5e233adcb2cd4e68f2d0 serial: 8250-mtk: Fix reference leak in mtk8250_probe
+         5f1697fee6f6758ec1001569ae26d7a70a8bbc8e serial: mxs-auart: Remove unneeded platform_device_id
+         f35a07f92616700733636c06dd6e5b6cdc807fe4 tty: serial: bcm63xx: lower driver dependencies
          
+
+--===============8240174489094873108==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606422097 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1606422096-d1ee34788b6840550c9eb7cc33dd45a85f142a9b
+
+3b3e23092449a57f4ba57cd60506ab14055b1642 f35a07f92616700733636c06dd6e5b6cdc807fe4 refs/heads/tty-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/ADlEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9RoQAIy1EK8LTMKCe0tcs+q2
+bKQ3+LC88JIaYkk4f3xIW3D527cXq5ZWmK0YTJIbIESvfbHy8DdTrH3F0n+2UDRs
+KcQFALfYsHZQipy2N8XegEvdaSgqmHym2XDTUDe9ZmPl0Yev4o5nQkD6wUJvkdNA
+WPERo/efLP6h4VctTgmVEkd7tifzcTjQlVipNhg1Vwha3Vj+fvJUmrr6IU5dKDD5
+TTqUsidYcpdLUPlbU2XIMq/RwUqbq63tk3+YgL8ObkwaGk89ksRpqn/THGuTkYp5
+86OF2nln32/A9o56dhJ7eK8Plnaa3MV2Qh+5BXVlh4ftpYMtRECpoFylpePmajKt
+4sIaIFsW1AoME9mk91M6LL+noo+FQpvOWOC/wjY99/chUqa8xJIbidIrCgKVR1ll
+vvWpRrh5h85CXNTi4z6bEU3rBCk9T1r4gz+A95yvZzEeRhcKL+vfHvifti+KkgVM
++otLmx3jAQrihm/8avZpYLgjY6IivoM+gui/sJha7SDx5+3d1fK22QFWp9XjkKHg
++r8KAw6MeRq6gHnkUZLvo458xYFE+sehaPpXU6qdPP4p2E2LFpPwy5T49u3DeP7f
+pS1kitofgmQ+gvOwExpWj7pb58f/igDSgGvI9t9dqE0dhnF7sw5l5X+o9TxRpPMC
+WD9NYyN/XjibR6xLu6PKRhEd
+=sFja
+-----END PGP SIGNATURE-----
+
+--===============8240174489094873108==--
