@@ -1,27 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Thu, 26 Nov 2020 09:21:59 -0000
-Message-Id: <160638251923.21529.3230556490972301094@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8831646804469924345=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 26 Nov 2020 09:38:04 -0000
+Message-Id: <160638348437.1045.1796348440051315729@gitolite.kernel.org>
+
+--===============8831646804469924345==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ath11k-qca6390-bringup
-    old: a9ce8040a968bdbb5aad2d767298d390e2507b16
-    new: 6f481de563dd108bd3df616c80e60f308b7a48e3
-    log: |
-         ce8b5dfc16a0b84ac9ab2d508c2d5e66e8bf179a ath11k: put hw to DBS using WMI_PDEV_SET_HW_MODE_CMDID
-         a82a3aee7cde95d533c28cad3749e3c354011896 ath11k: fix pcie link unstable issue
-         08816aab67540e6babc558dafa973fc905a9afa1 ath11k: fix PCI L1ss clock unstable problem
-         86c5a1d6983e647a55448c80f94eb8f0aa97dfad ath11k: disable OTP write privilege
-         8bd374e3305359ca0be9fe88e8a1edc1abd537eb ath11k: disable ASPM L0sLs before downloading firmware
-         6f481de563dd108bd3df616c80e60f308b7a48e3 ath11k: purge rx pktlog when entering suspend
-         
-  - ref: refs/tags/ath11k-qca6390-bringup-202011260921
-    old: 0000000000000000000000000000000000000000
-    new: 6f481de563dd108bd3df616c80e60f308b7a48e3
+  - ref: refs/tags/tty-5.10-rc5
+    old: 39425beadebb302880742d9d0300b2ac82e6e973
+    new: 0000000000000000000000000000000000000000
+
+--===============8831646804469924345==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606383480 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1606383480-26a8c6ad0d320548088a08052a472d6d7ecff92f
+
+39425beadebb302880742d9d0300b2ac82e6e973 0000000000000000000000000000000000000000 refs/tags/tty-5.10-rc5
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl+/d3gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Fi4QAMxEMoPBnjsRwrjqtzc1
+q5FkO1/rlsgyBZvB3YuuzJfjeap2g1XjuJlFn+IclUvfzUTNkXy+mdTbc0GzcV/2
+QsApG/X00ZlmetEHrK3bD8GumeAcskxkt4/YHNxkKk49Pbk9EELMeTH+Uuk6/IsS
+/gy/wvdKPJjcKStz88aAnuJNiCZMCos7PZXkcCW22Aw//RpwIMsZvvLL1ZlQ8QsP
+dsFgnVAIf29qPJdIgm3lJv+UjnWR3AYbkEbXErqTwXtQDKtIiMzEO4z7RfjvtYsu
+kJu8liO0m7TTRHhtgt1q8XDptV7ISPPtFH8nwAQVZo1IojQ+3uYyxA/lxSnlxd9/
+1lRsVXAqVaXSCXrNADONzOUmijH5zX1xjH5DJt9uAiK8G1f+2ly3toglQxQ0vtht
+E0TeYIZHlEeENxGjq7v1UZ7Oi7+X94h/DwYa9XsP2Yjo53Yuc7DSieYtoQUtvLiC
+FQkRkH2tRMKHzvI9micaHifVoj7QjoUh8NY2UeShkyPgUkO6ZDP9s3s3+Us5aKy7
+4hP/9NmolXL/MbkQ7jB9ieDXJ6RSZu4RVCcGvLdpBepCDViuO3HEW13c4rf4cKY9
+y/4EstYQDZGV9+XYEfoGFbGIASpDSHESdUfxx++Ymj81WUc6CeOU9znbpuy3a9E1
+Rt0OSpPv0TIiA03Vfmnr53Ig
+=Pftw
+-----END PGP SIGNATURE-----
+
+--===============8831646804469924345==--
