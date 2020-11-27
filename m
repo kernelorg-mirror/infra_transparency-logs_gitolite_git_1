@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Fri, 27 Nov 2020 22:35:49 -0000
-Message-Id: <160651654900.9749.1993869765834781133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse-dev
+Date: Fri, 27 Nov 2020 22:38:48 -0000
+Message-Id: <160651672850.10844.12424958434587169520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/devel/sparse/sparse-dev
+user: lucvoo
 changes:
-  - ref: refs/heads/v5.10-next/soc
-    old: a49d5e7a89d644a5c0ddc851be4bbf08614e6015
-    new: a69dcdfc2dd21f86cb1f79f98fc94c52f96cff64
+  - ref: refs/heads/master
+    old: 540c2c4bf47f0c517c042ff689679b2900bb36a5
+    new: f50c482ebabe3572cdd8a97d8b51ca94e44aba3a
     log: |
-         a69dcdfc2dd21f86cb1f79f98fc94c52f96cff64 soc / drm: mediatek: cmdq: Remove timeout handler in helper function
+         8038d97de3e82bc29ebc9d30c39b8e03cea301c9 symaddr: give a type to OP_SYMADDR
+         1abdabb5651d65a8f816bdc22487a11393514061 Merge branch 'ir-symaddr' into next
+         fe9dbeb3d0ab6b12448e0eed96df1b8499d91c3c fix trivial_phi() when the target is before the single value
+         f50c482ebabe3572cdd8a97d8b51ca94e44aba3a Merge branch 'fix-trivial-phi' into next
          
