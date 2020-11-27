@@ -1,47 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============8605790402050046094=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Fri, 27 Nov 2020 09:50:22 -0000
-Message-Id: <160647062266.19229.14619678106959851622@gitolite.kernel.org>
-
---===============8605790402050046094==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 27 Nov 2020 09:54:15 -0000
+Message-Id: <160647085503.22997.17119818229336408868@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/linux-can-fixes-for-5.10-20201127
-    old: 0000000000000000000000000000000000000000
-    new: 9b4388ceda1cbd516b2677d8b0fd3bef232278aa
-
---===============8605790402050046094==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1606470618 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1606470617-cb91549ca6c97acd7c1a2daa0700269a61be58a3
-
-0000000000000000000000000000000000000000 9b4388ceda1cbd516b2677d8b0fd3bef232278aa refs/tags/linux-can-fixes-for-5.10-20201127
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/Ay9oTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqWNDCAC1MhWp98swhKz18wL6pi9EM2RHLf1M
-+daXX715lgRgzSO+ViheyT2IrghpdQjgqYEQAVMFudcKY+5CmsZSA6SQgiPHRNHX
-8UADKG5TODtsSmOwWGKDHJaSHq2yn7waFaawgxJo8IZDLCwB3ZuXIUlggW192qD8
-X74bNom4leWA/FRxn4qUJ5Cj4fMufRsqQw+6be6qO+2UrBgK2OlJ0ArzQfqgTIg0
-qLuqQZrD1uXWHmAFJKI25qwpQ3e3NZjrVwzgKgItqqB+jylNbKkqtNP6+zzH4c1a
-224LPMr9637VD4b7L3cpMtHbTpkyEC8MRaopuSE6LRWXFz5+KE6xcpvt
-=Atu/
------END PGP SIGNATURE-----
-
---===============8605790402050046094==--
+  - ref: refs/heads/irq/hacks
+    old: 4145e2be7898fc8796c5821e532e8dc9a82d555d
+    new: e61a4321b843cd8a4f04e72810e09950997ef000
+    log: |
+         89b28cf57455541c99d1d6c84ad948295371c627 platform-msi: Track potentially shared domain allocation
+         440bf0538c7d7cdaafced7802df7f1ea80be3fce irqchip/gic-v3-its: Tag ITS device as shared if allocating for a shared domain
+         e61a4321b843cd8a4f04e72810e09950997ef000 irqchip/gic-v3-its: Check for existing mapping when freeing LPIs
+         
