@@ -1,46 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2608171080383264040=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
-Date: Fri, 27 Nov 2020 15:58:33 -0000
-Message-Id: <160649271334.25003.12863841323090542102@gitolite.kernel.org>
-
---===============2608171080383264040==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rw/misc
+Date: Fri, 27 Nov 2020 15:59:15 -0000
+Message-Id: <160649275593.25311.2684371019072953300@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/korg-helpers
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rw/misc
+user: rw
 changes:
-  - ref: refs/heads/master
-    old: d9d9d4eee641cd007487a7f5c4defd71f2d21ee8
-    new: 3c53de2fce73baf911c3c8290791af7d5ced3f21
+  - ref: refs/heads/muse-wip
+    old: 54e59c0c7b9e8131d867d0ac4e6f51e000b2927e
+    new: 771d8004ff9313d42982fcedca5a4dc5eebaa973
     log: |
-         3c53de2fce73baf911c3c8290791af7d5ced3f21 Be more conservative assuming mbx format
+         0cf74095c6d5cb57bbca3802b1d5281c7723c7aa fuse: Export fuse_simple_request
+         7632442d545d4e0b5d660ad16b344c7e20c33a0b fuse: Export IO helpers
+         7345f9847ae0fc347fa08e32c67c96711300e5cf fuse: Make cuse_parse_one a common helper
+         389183a089ea20b451687f188ff273b4eb3fb6bd mtd: Add MTD_MUSE flag
+         79f399e1a5c8f347e6762ca0297069f637a625ee fuse: Add MUSE specific defines FUSE interface
+         cbf5a6c4fdec64257b8d4b53aecb3405fd378ab6 fuse: Implement MUSE: MTD in userspace
+         771d8004ff9313d42982fcedca5a4dc5eebaa973 MAINTAINERS: Add entry for MUSE
          
-
---===============2608171080383264040==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1606492712 -0500
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/korg-helpers
-nonce 1606492712-138793d3db3bd7c1c8567f9cd999cbe89aa513be
-
-d9d9d4eee641cd007487a7f5c4defd71f2d21ee8 3c53de2fce73baf911c3c8290791af7d5ced3f21 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX8EiKAAKCRC2xBzjVmSZ
-bK63AQCryJUL3vwdkIX66A6tylC/b4QSm/osqbDqvUYYCwj7mAEAoNmd5psBj4vC
-ShWPxKyt0sd7Od6w2Qr1n+6qSTqkOA8=
-=UwN/
------END PGP SIGNATURE-----
-
---===============2608171080383264040==--
