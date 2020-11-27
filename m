@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 27 Nov 2020 13:18:08 -0000
-Message-Id: <160648308865.2735.13765378154785633525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 27 Nov 2020 13:23:47 -0000
+Message-Id: <160648342789.8262.1945302095912960058@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 66d86e529dd58616495ea0b03cc687e5d6522b59
-    new: 7ec3df174f2b225267849d5e645d641d5f98dcd8
+  - ref: refs/heads/dev
+    old: deb8c62c351f3fb8af1a1d938c76a9ea9f002b49
+    new: 730979c061d5e75bbe60b73642dc81fbc7bccf03
     log: |
-         d0b7721c5e0d940a514fbff40b9d7bae92735f7a RDMA/mlx5: Check for ERR_PTR from uverbs_zalloc()
-         d4b2d19dc53ecb5ef4fe79cc2d4b7ae3413b2604 RDMA/mlx5: Silence the overflow warning while building offset mask
-         7ec3df174f2b225267849d5e645d641d5f98dcd8 RDMA/mlx5: Use PCI device for dma mappings
+         5e35b75ad4992ae69f3ff6adfb21f8b7ad9f6fe9 erofs-utils: introduce fuse implementation
+         73ffe6cb514f70ea6904a05564efc60d5be60ada erofs-utils: fuse: support symlink & special inode
+         730979c061d5e75bbe60b73642dc81fbc7bccf03 erofs-utils: fuse: add compressed file support
          
