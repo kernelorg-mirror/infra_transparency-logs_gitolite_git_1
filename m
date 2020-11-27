@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Fri, 27 Nov 2020 10:05:00 -0000
-Message-Id: <160647150083.30024.2246955166204363504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Fri, 27 Nov 2020 10:06:25 -0000
+Message-Id: <160647158543.31896.1576382578960130399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/mips-next
-    old: 915d8aac69d32bf4272a015bf7bf3516deeaad5e
-    new: 1dac4585f585d3aa1a5af4821128ea2642700e48
+  - ref: refs/heads/testing
+    old: 8be33ecfc1ffd2da20cc29e957e4cb6eb99310cb
+    new: c7a5899eb26e2a4d516d53f65b6dd67be2228041
     log: |
-         1dac4585f585d3aa1a5af4821128ea2642700e48 MIPS: Loongson64: Fix up reserving kernel memory range
+         c7a5899eb26e2a4d516d53f65b6dd67be2228041 xfrm: redact SA secret with lockdown confidentiality
          
