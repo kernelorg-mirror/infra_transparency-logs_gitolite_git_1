@@ -1,31 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 27 Nov 2020 16:20:20 -0000
-Message-Id: <160649402077.7199.7347745293979024439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Fri, 27 Nov 2020 16:27:56 -0000
+Message-Id: <160649447618.13533.2053268582131264329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/for-linus
-    old: 5ac359ce36d348c5d544087b9c594fc90b0f521c
-    new: 893ff790cf6a4cccc5d168f4cfc1acde9fbdfbfc
+  - ref: refs/heads/ftrace/urgent
+    old: 50b8a742850fce7293bed45753152c425f7e931b
+    new: 3acb06f76c6894367ec1a1a9e54b9f7d8559eb0e
     log: |
-         7218838109fef61cdec988ff728e902d434c9cc5 spi: dw-bt1: Fix undefined devm_mux_control_get symbol
-         6737f4141ad215dcecbd0690b5cd4fa8de9cdbc7 Merge remote-tracking branch 'spi/for-5.9' into spi-linus
-         893ff790cf6a4cccc5d168f4cfc1acde9fbdfbfc Merge remote-tracking branch 'spi/for-5.10' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 5a26b21f04d0fb3b6a80cfdeaeb8eb5e8cc56abc
-    new: 893e98cc5f631b0143262c1b2187f581e2d039a0
-    log: |
-         7218838109fef61cdec988ff728e902d434c9cc5 spi: dw-bt1: Fix undefined devm_mux_control_get symbol
-         db4a831997047809229152261a462c17cb857c84 Merge branch 'for-5.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi into spi-5.11
-         6737f4141ad215dcecbd0690b5cd4fa8de9cdbc7 Merge remote-tracking branch 'spi/for-5.9' into spi-linus
-         893ff790cf6a4cccc5d168f4cfc1acde9fbdfbfc Merge remote-tracking branch 'spi/for-5.10' into spi-linus
-         893e98cc5f631b0143262c1b2187f581e2d039a0 Merge remote-tracking branch 'spi/for-5.11' into spi-next
+         a61ea6379ae9dbb63fbf022d1456733520db6be7 tools/bootconfig: Fix errno reference after printf()
+         a995e6bc0524450adfd6181dfdcd9d0520cfaba5 tools/bootconfig: Fix to check the write failure correctly
+         e1cef2d4c379b2aab43a7dc9601f645048209090 tools/bootconfig: Align the bootconfig applied initrd image size to 4
+         fbc6e1c6e0a4b5ef402f9eb8d00880a5e1d98df3 docs: bootconfig: Update file format on initrd image
+         3acb06f76c6894367ec1a1a9e54b9f7d8559eb0e ring-buffer: Update write stamp with the correct ts
          
