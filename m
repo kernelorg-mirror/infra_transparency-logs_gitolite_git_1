@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Fri, 27 Nov 2020 07:50:18 -0000
-Message-Id: <160646341808.17653.17772755382000628783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 27 Nov 2020 07:58:16 -0000
+Message-Id: <160646389687.24093.11855700009746354442@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tmlind/linux-omap
-user: tmlind
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-next
-    old: 5092d39834883b7df6f2f1b8eb7612a92581ba90
-    new: 6a5044c84dfaf157929731176b867acc0639c08c
+  - ref: refs/heads/for-linus
+    old: eeacd80fcb29b769ea915cd06b7dd35e0bf0bc25
+    new: e5782a5d5054bf1e03cb7fbd87035037c2a22698
     log: |
-         b62168e516dab1b7cb7bb90976755b08d273cc3a ARM: OMAP2+: Fix am4 only build after genpd changes
-         6a5044c84dfaf157929731176b867acc0639c08c Merge branch 'omap-for-v5.11/genpd' into for-next
+         e5782a5d5054bf1e03cb7fbd87035037c2a22698 ALSA: hda/realtek - Add new codec supported for ALC897
+         
+  - ref: refs/heads/master
+    old: 86629fe3fa82ba3ea4b23f1f4e4b52b2a8d2884a
+    new: d12f52768158d74f1fa418e6e5cb25a63624daf8
+    log: |
+         e5782a5d5054bf1e03cb7fbd87035037c2a22698 ALSA: hda/realtek - Add new codec supported for ALC897
+         d12f52768158d74f1fa418e6e5cb25a63624daf8 Merge branch 'for-linus'
          
