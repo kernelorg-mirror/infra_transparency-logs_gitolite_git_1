@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Fri, 27 Nov 2020 09:24:15 -0000
-Message-Id: <160646905539.2159.2370400089306370337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 27 Nov 2020 09:32:02 -0000
+Message-Id: <160646952211.7555.17691789964105222739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/v5.10-next/dts64
-    old: 7f1e3823ba03a60dd61731ed752f08790806e74d
-    new: 48489980e27e091c9e871a48157ceda2db855974
-    log: |
-         48489980e27e091c9e871a48157ceda2db855974 arm64: dts: Add Mediatek SoC MT8192 and evaluation board dts and Makefile
-         
+  - ref: refs/tags/platform-drivers-x86-v5.10-2
+    old: 0000000000000000000000000000000000000000
+    new: b4ab31a52fe0e0092f027a681498670d6976002c
