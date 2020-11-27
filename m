@@ -1,65 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============7350199663097045204=="
+Content-Type: multipart/mixed; boundary="===============6256774388420321308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 27 Nov 2020 05:42:01 -0000
-Message-Id: <160645572181.10500.4925436419093732153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 27 Nov 2020 06:24:36 -0000
+Message-Id: <160645827605.7331.16162105670094452365@gitolite.kernel.org>
 
---===============7350199663097045204==
+--===============6256774388420321308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/usb-next
-    old: 93c747ed00c1c74316645f7761f0cdb3f3d3952d
-    new: ab37fa851c488be805f6568ecaabb67b13cd937c
-    log: |
-         f3ef38160e3dacb490483eb2104b4ce05cd97058 usb: isp1301-omap: Convert to use GPIO descriptors
-         7656ca71b0ba04ae7437afe3d046e9134442678e usb: pd: DFP product types
-         fd2c35b2f59f3d4a92e8604c7105f001d1da503c usb: typec: Consolidate sysfs ABI documentation
-         2e70c495cadebdcc6f80fde3553401bb0987b29f usb: typec: Expose Product Type VDOs via sysfs
-         7abc6ca5dced0b5953df179007528e39b9fc43b7 usb: typec: tcpm: Disregard vbus off while in PR_SWAP_SNK_SRC_SOURCE_ON
-         11e5e568ceed7c8c570313a14fa96c72f21dad31 usb: typec: tcpm: Stay in SNK_TRY_WAIT_DEBOUNCE_CHECK_VBUS till Rp is seen
-         4154a4f70a9488212f8731770e10eae957d33da9 USB: core: Constify static attribute_group structs
-         690756a367649a19c5622d135e00799930e7996c usb: typec: Constify static attribute_group structs
-         52170e937866b3bac1572ed48a97d370f42e52fa usb: common: ulpi: Constify static attribute_group struct
-         ab37fa851c488be805f6568ecaabb67b13cd937c usb: typec: Add type sysfs attribute file for partners
-         
+  - ref: refs/heads/master
+    old: 732b764099f651a088fd931d7b8121b6aa84e62e
+    new: 05c2a705917b77e0915cca3551583583f4eafcf8
+    log: revlist-732b764099f6-05c2a705917b.txt
 
---===============7350199663097045204==
+--===============6256774388420321308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-732b764099f6-05c2a705917b.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606455706 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1606455705-a847016b0501d436b73b113c593284d85c550661
+02685906d3afa4f7c72d86cf99242e3b08078865 crypto: aegis128 - wipe plaintext and tag if decryption fails
+ad00d41b47e6c86f4da61b9812b81cd4cd74be64 crypto: aegis128/neon - optimize tail block handling
+97b70180b7f97224762b63f211305a8052d07960 crypto: aegis128/neon - move final tag check to SIMD domain
+ac50aec41a9f9590b1d48bd4daa2251f0025052a crypto: aegis128 - expose SIMD code path as separate driver
+8cbc3448214a9d4534f8381ec23ef5add0ae8d91 crypto: qce - Enable support for crypto engine on sdm845
+1148a9654b5a69611d33e14719251c6ec20f5f2c crypto: qce - Fix SHA result buffer corruption issues
+da6d57948fa23f6d3aa7405b9f1c1de96f7e450e crypto: qat - fix excluded_middle.cocci warnings
+7c2f5537ca196ddd00639f66f0d58c9f8d265b27 crypto: mips/octeon - Fix sparse endianness warnings
+e547655238f70a7b238e14f18d968428ff6b6b93 crypto: powerpc/sha256-spe - Fix sparse endianness warning
+6cf1a144d3f5752400cad99d9142fba668cc4ddb crypto: sparc - Fix sparse endianness warnings
+4e0b858b1a8f165016d124c7c1e2baed88f6250f hwrng: hisi - remove HiSilicon TRNG driver
+56c6da16c3631f953fb20d8b7ddccdf493377ad4 crypto: hisilicon/trng - add HiSilicon TRNG driver support
+e4d9d10ef4be0366316b3114593e4becf5b98a49 crypto: hisilicon/trng - add support for PRNG
+e8a3dae6910157180c88c8b0e0dd06aee849b7fc MAINTAINERS: Move HiSilicon TRNG V2 driver
+08a7e33c083b60c1ddd330df22fb56038e4a40ad crypto: tcrypt - don't initialize at subsys_initcall time
+00ea27f11c4f96ffc9ebc147b5ea045babb02ce3 crypto: tcrypt - permit tcrypt.ko to be builtin
+ad6d66bcac77e5145eb67449f8354ed0f936258c crypto: tcrypt - include 1420 byte blocks in aead and skcipher benchmarks
+abc6146aba40ea3b8996773e6ad0e60fd70f7a3f crypto: ccree - Fix fall-through warnings for Clang
+d4f9afb23378f50e40cd3bc8aee35679bfd1d27b crypto: cavium/zip - Use dma_set_mask_and_coherent to simplify code
+7f6c383b9505f7f9ec75831b154be97e7df49cac crypto: marvell/octeontx - Use dma_set_mask_and_coherent to simplify code
+aeb4d8c0f855304c158195ebae3917e244e63e57 crypto: cavium - Use dma_set_mask_and_coherent to simplify code
+05c2a705917b77e0915cca3551583583f4eafcf8 crypto: ccree - rework cache parameters handling
 
-93c747ed00c1c74316645f7761f0cdb3f3d3952d ab37fa851c488be805f6568ecaabb67b13cd937c refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/AkZobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Sd0P/RKIKP/rsoqOOQSqh+EX
-xEJmd84w9ul3ZNkkOj+zpofVyuuKYeZmgkG6oha+edUipH/okG2wmLcpzTK0ROQy
-AQXy+RmhpgP5D/zg+lkYQdPA9UU8zNzOESKZrJZK1e8fSQhQaM+2Rt0LBLXytUaI
-T6NJm3JNhTUQ3GNXf8T4sl1NfiMmO3iOxJFVrebbdCX4d2NNhEvPczGBMzQdwVNz
-28JXgW2Uidk2rC3CI0li9maL7Z+9aK3obxalWQQPIPbQT2gUNOsSY8gystJqAR4a
-QfVidrAbKO9efm4E0vl4C/7RIzY+AdPZLa0fEIJgTHHmH32mGfQBb9Mm90RM8PjU
-9AmiHLvKo+Nr8BLyCCxsOPHlOHONdvwy6mx/+aFKRHbmOHVUmBIrgNSBdXlwhQ6M
-4xQPvsD7HiKqPUPrtVplPwi+y3nWyvAN/FcJcD5pSxkk7iam42rfTPSUp+xu8gA9
-PF3HdF/xNBhFkdcLGhs2/cq1MTOjkfhwfgEtcYiTns5dMJYsx8IxdFXnAx/qxxJv
-WoZ8zOR7o9nCu5xomfG0JpOHxeqCVM0UltR/NNDqNFZpoChe3IChfep9zNlaKejM
-gpurVq7m1dRlrZ4qyN+krXV8mHTjSE90olX2FdxyKxhZBGoGMnkk3J3lZw7pF7wr
-aToag9YHyNw2S0KPyWSrzD9P
-=jf16
------END PGP SIGNATURE-----
-
---===============7350199663097045204==--
+--===============6256774388420321308==--
