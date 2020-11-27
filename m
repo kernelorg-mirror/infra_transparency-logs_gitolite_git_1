@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 27 Nov 2020 13:26:07 -0000
-Message-Id: <160648356716.10750.2004295044357084372@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1560636071781047829=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 27 Nov 2020 13:26:16 -0000
+Message-Id: <160648357610.10907.13427119173517077559@gitolite.kernel.org>
+
+--===============1560636071781047829==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/experimental
-    old: 05e4c13e38bf1a721dbf765fea3fc4b0f89518ed
-    new: 8ddcc9493e8515fe888ad53c683ba8e8b96e5eb4
+  - ref: refs/heads/master
+    old: ab7acf39c7e80bdb50270e13c8c3cb203fd1c86e
+    new: acf5815106550aca684a67d5a12987ccd8f12856
     log: |
-         5e35b75ad4992ae69f3ff6adfb21f8b7ad9f6fe9 erofs-utils: introduce fuse implementation
-         73ffe6cb514f70ea6904a05564efc60d5be60ada erofs-utils: fuse: support symlink & special inode
-         730979c061d5e75bbe60b73642dc81fbc7bccf03 erofs-utils: fuse: add compressed file support
-         a2bb450f16f17669a30bf11671e475b81af9c67b erofs-utils: fix random data in shared xattrs
-         326f5dbf27614a0667763103647b11630e0fe922 erofs-utils: use hash_for_each_safe in erofs_cleanxattrs
-         8ddcc9493e8515fe888ad53c683ba8e8b96e5eb4 erofs-utils: fix use-after-free in closedir
+         acf5815106550aca684a67d5a12987ccd8f12856 4.19-stable patches
          
+
+--===============1560636071781047829==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606483575 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1606483574-1585a02577b84f90c9e1c6b93467a5bacd4b79ff
+
+ab7acf39c7e80bdb50270e13c8c3cb203fd1c86e acf5815106550aca684a67d5a12987ccd8f12856 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/A/ncbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c3UP/0nOhDT49UcGLgGs+/Vv
+QV/TOFQ1bbBaiDRafXzinvMgxpCXFRh6QgZ3PwkivINl700uXfkY9J75NHryJ80t
+YLLRHX1hnezc4L8jVtgHg2fvaSIsK0m45k8kKhshiaGqH+YhHFV4K5nXj268DQB9
+hexJozvTesoSgUMR7bLmjKwp+h65TaViIYoaJKeSi15VpXw8WcWgVWGrVScNPR+7
+0SMsg44sNetAqpdW1cdxPhn0tVG712t2GSN+IYiZTVkoiN98GjfG8jch7MGPVaFR
+M0lsi9CyzckljlKO8i9zKGoZFgJMfs5t4GJQODAUP0tr3C0pgwtBzruwJxJ5zJsx
+ZpkPWxRa1o+qhR0APDw/p/0spPVKlJXes6R30L+JfVyLsCH2Fta+o7jJe5Av8Xh9
+yimVIebaHdwTK8h/yz9T+pYLeXi8GD0qpeVkD3UuFj/G85y3DZowrzHPrcD20lNz
+d9xzhG4Aqijdgz2JnvGgMLnBTAj/Z5EnfJLmO7FdS+tN4up1siSv4F1QWLi7qTac
+I7FnvlY1f7LkYCBgBMaBTzqhTyPLhq96pHWQa8S+S82kXeAturvg+t3ItibSQipt
+UAcMSOObWEG+ZstRahe98CFrZ+wTCfve7oEFtZkszXmQwzc0UK0ZqRe1MsqUATgC
+sf7UpJbVSyZk0nL1HnDMPITr
+=K78V
+-----END PGP SIGNATURE-----
+
+--===============1560636071781047829==--
