@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Fri, 27 Nov 2020 16:59:25 -0000
-Message-Id: <160649636504.3646.12224826525114827570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 27 Nov 2020 17:02:36 -0000
+Message-Id: <160649655625.6224.5172007866069752489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
-user: bigeasy
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/v5.10-rc5-rt11-patches
+  - ref: refs/heads/stm32/dt
     old: 0000000000000000000000000000000000000000
-    new: 066e727ff5017437b0e2c9bb2f006cb5b04f3a0c
-  - ref: refs/tags/v5.10-rc5-rt11-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 2635a83a072fad49ad3d9e2165744d4d097f847d
+    new: 6660e2445523a57410de008a9b137d2c0a66e94a
