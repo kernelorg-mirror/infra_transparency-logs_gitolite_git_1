@@ -1,49 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============4369966563985138093=="
+Content-Type: multipart/mixed; boundary="===============0920531308835695112=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Fri, 27 Nov 2020 21:13:08 -0000
-Message-Id: <160651158848.15917.13653006086930242888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 27 Nov 2020 21:20:49 -0000
+Message-Id: <160651204921.21130.13252211627235703283@gitolite.kernel.org>
 
---===============4369966563985138093==
+--===============0920531308835695112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: 20b25af171d4bdc375c3ed09fed3dce513ed8d5d
-    new: 558fcc2a2997613badf7c86b3c72d6cab12ba153
-    log: revlist-20b25af171d4-558fcc2a2997.txt
+  - ref: refs/heads/master
+    old: 76dc2bfc2e1b40573cd33eb1c2027ef6cb7fed6c
+    new: 9223e74f9960778bd3edd39e15edd5532708b7fb
+    log: revlist-76dc2bfc2e1b-9223e74f9960.txt
 
---===============4369966563985138093==
+--===============0920531308835695112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20b25af171d4-558fcc2a2997.txt
+Content-Disposition: attachment; filename=revlist-76dc2bfc2e1b-9223e74f9960.txt
 
-430c4ee7e42afc276b2210625437602c18f4f458 ext4: unlock xattr_sem properly in ext4_inline_data_truncate()
-d44da04d71ff6438d351239326b7a63d5843693c usb: cdc-acm: Add DISABLE_ECHO for Renesas USB Download mode
-9cc0e56330b07ad943f167f9213b6f4726f3b8cc ocfs2: initialize ip_next_orphan
-3854a40b21264d23dd56c80ce7f1c4242e9e8193 don't dump the threads that had been already exiting when zapped.
-494b16cf92569fc6b35f8f2dec23bd5446327337 drm/gma500: Fix out-of-bounds access to struct drm_device.vblank[]
-5078c36c15ad481dbf1f7e8a5caebfadc458f6fc swiotlb: fix "x86: Don't panic if can not alloc buffer for swiotlb"
-0984ad1af03cf7f02ccf5798aa15452d54d2b598 IPv6: Set SIT tunnel hard_header_len to zero
-0e5e4d7bd27519429d7d082cb5de81369eedf247 net/af_iucv: fix null pointer dereference on shutdown
-fd0a8ba8470275fde3b63522f416bf32583d06df net/x25: Fix null-ptr-deref in x25_connect
-457a339acec39f0e0176406b9a85fba95a3bfee8 xen/events: avoid removing an event channel while handling it
-471ee2a59ced7c4eceb9d42340bb5c478e3aa26e xen/events: add a new "late EOI" evtchn framework
-88cff11527af485b8608973dadceb84dd8531cf8 xen/blkback: use lateeoi irq binding
-404379a38d64cf377e2a6e6798c20b22f6f2706d perf/core: Fix race in the perf_mmap_close() function
-8c01f5c4cd0841014c9e58119ee37101679db8ee Revert "kernel/reboot.c: convert simple_strtoul to kstrtoint"
-60b163ffcb5538313c194b4fce6153c0c02b51e7 reboot: fix overflow parsing reboot cpu number
-17953a1440f5b076c8367083cf477522ec0f02a0 Convert trailing spaces and periods in path components
-fc4d22dd607e848d5ca9faf86515b48e53b9ff4b i2c: imx: Fix external abort on interrupt in exit paths
-ffcc32323cc12124cdb24eda672bb8cac4fc93f4 xfs: catch inode allocation state mismatch corruption
-558fcc2a2997613badf7c86b3c72d6cab12ba153 xfs: validate cached inodes are free when allocated
+c334730988ee07908ba4eb816ce78d3fe06fecaa btrfs: fix missing delalloc new bit for new delalloc ranges
+6f23277a49e68f8a9355385c846939ad0b1261e7 btrfs: qgroup: don't commit transaction when we already hold the handle
+1a49a97df657c63a4e8ffcd1ea9b6ed95581789b btrfs: tree-checker: add missing return after error in root_item
+47a846536e1bf62626f1c0d8488f3718ce5f8296 block/keyslot-manager: prevent crash when num_slots=1
+0697d9a610998b8bdee6b2390836cb2391d8fd1a btrfs: don't access possibly stale fs_info data for printing duplicate device
+6d06b0ad94d3dd7e3503d8ad39c39c4634884611 btrfs: tree-checker: add missing returns after data_ref alignment checks
+3d05cad3c357a2b749912914356072b38435edfa btrfs: fix lockdep splat when reading qgroup config on mount
+7aa6d359845a9dbf7ad90b0b1b6347ef4764621f btrfs: do nofs allocations when adding and removing qgroup relations
+a855fbe69229078cd8aecd8974fb996a5ca651e6 btrfs: fix lockdep splat when enabling and disabling qgroups
+6830ff853a5764c75e56750d59d0bbb6b26f1835 IB/mthca: fix return value of error branch in mthca_init_cq()
+eb2667b343361863da7b79be26de641e22844ba0 io_uring: fix shift-out-of-bounds when round up cq size
+9c3a205c5ffa36e96903c2e37eb5f41c0f03c43e io_uring: fix ITER_BVEC check
+2ed381439e89fa6d1a0839ef45ccd45d99d8e915 RDMA/i40iw: Address an mmap handler exploit in i40iw
+3d2a9d642512c21a12d19b9250e7a835dcb41a79 IB/hfi1: Ensure correct mm is used at all times
+ebed7b7ca47f3aa95ebf2185a526227744616ac1 RDMA/hns: Fix wrong field of SRQ number the device supports
+ab6f7248cc446b85fe9e31091670ad7c4293d7fd RDMA/hns: Fix retry_cnt and rnr_cnt when querying QP
+17475e104dcb74217c282781817f8f52b46130d3 RDMA/hns: Bugfix for memory window mtpt configuration
+af60470347de6ac2b9f0cc3703975a543a3de075 io_uring: fix files grab/cancel race
+d41e9b22eb871a7a7060964db9ce1ceb1c6e5b57 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+a17a3ca55e96d20e25e8b1a7cd08192ce2bac3cc Merge tag 'for-5.10-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+d021c3e56d48b0a435eab3b3ec99d4e8bf8df2d1 Merge tag 'block-5.10-2020-11-27' of git://git.kernel.dk/linux-block
+9223e74f9960778bd3edd39e15edd5532708b7fb Merge tag 'io_uring-5.10-2020-11-27' of git://git.kernel.dk/linux-block
 
---===============4369966563985138093==--
+--===============0920531308835695112==--
