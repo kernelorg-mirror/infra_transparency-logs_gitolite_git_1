@@ -1,16 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 27 Nov 2020 15:17:13 -0000
-Message-Id: <160649023372.25918.18408229817515115991@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 27 Nov 2020 15:18:09 -0000
+Message-Id: <160649028993.26366.4942614754076212618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/tags/for-5.10-rc5-tag
-    old: 0000000000000000000000000000000000000000
-    new: 16645e9397f4fd21087da7b8205ce43b07fdb629
+  - ref: refs/heads/for-5.10/upstream-fixes
+    old: c961facb5b19634eee5bcdd91fc5bf3f1c545bc5
+    new: c870d50ce387d84b6438211a7044c60afbd5d60a
+    log: |
+         c870d50ce387d84b6438211a7044c60afbd5d60a HID: i2c-hid: add Vero K147 to descriptor override
+         
+  - ref: refs/heads/for-next
+    old: d180d24241542e3f35cf1c93f309afae574c53ae
+    new: cdaa1e42b4832bcc7e94994285e3c9be3f56beca
+    log: |
+         c870d50ce387d84b6438211a7044c60afbd5d60a HID: i2c-hid: add Vero K147 to descriptor override
+         cdaa1e42b4832bcc7e94994285e3c9be3f56beca Merge branch 'for-5.10/upstream-fixes' into for-next
+         
