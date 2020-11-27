@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Fri, 27 Nov 2020 08:43:32 -0000
-Message-Id: <160646661200.22026.7437567803050289127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Fri, 27 Nov 2020 08:52:46 -0000
+Message-Id: <160646716684.27767.5904364580241319400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/tags/stm32-dt-for-v5.11-1
-    old: 0000000000000000000000000000000000000000
-    new: 45146289927c195fc9761c333529f6e118abad94
+  - ref: refs/heads/habanalabs-next
+    old: ee2d1f72e078f1efb3fb57c439d034430b971985
+    new: c01683811db9e4606595c10b1da35f6c4cbb60ed
+    log: |
+         c01683811db9e4606595c10b1da35f6c4cbb60ed habanalabs/gaudi: handle reset when f/w is in preboot
+         
