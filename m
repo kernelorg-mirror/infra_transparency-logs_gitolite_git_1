@@ -1,56 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============4741264291707677720=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 27 Nov 2020 15:18:21 -0000
-Message-Id: <160649030163.26522.6984058241612656658@gitolite.kernel.org>
-
---===============4741264291707677720==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 27 Nov 2020 15:20:35 -0000
+Message-Id: <160649043537.28698.17127346852554981238@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 8aff6c9cfc4bc71c72dda461ff1573bd1063928a
-    new: 41bbc527cc027ffca402f8679038bdab7afce4ec
+  - ref: refs/heads/queue/4.14
+    old: f927a433778817364f35c3e7352d3b161a2870de
+    new: 67f3b4dca1f70dcd2184794e50edc5cf9893c46b
     log: |
-         41bbc527cc027ffca402f8679038bdab7afce4ec 4.9-stable patches
+         4077876161fdfefef1b8865466393ed85ccb2a00 perf event: Check ref_reloc_sym before using it
+         9311bed3aa8788099280c22cebdd029065e146a6 mm/userfaultfd: do not access vma->vm_mm after calling handle_userfault()
+         2d0d1dc75359be37a5e82db91b639bc50c91998a wireless: Use linux/stddef.h instead of stddef.h
+         926db7f6806cb2ad29513ad79abf348ae75a2270 PCI: Add device even if driver attach failed
+         202c3e83a55f6d3d31e4867d25f8c1e57f5e8624 btrfs: tree-checker: Enhance chunk checker to validate chunk profile
+         774b867172faf7d9abbe8b1bb22322e60dd42749 btrfs: adjust return values of btrfs_inode_by_name
+         67f3b4dca1f70dcd2184794e50edc5cf9893c46b btrfs: inode: Verify inode mode to avoid NULL pointer dereference
          
-
---===============4741264291707677720==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606490300 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1606490299-5803cdb23de5a4ed4c31ae793a3a5fabc0c1f7fb
-
-8aff6c9cfc4bc71c72dda461ff1573bd1063928a 41bbc527cc027ffca402f8679038bdab7afce4ec refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/BGLwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LCIP/0XJhvFDHmCWMIZvShYg
-8MeFzPXb/fus5cCXuDWS6F2xeHYHA7JEQbsunJZZ8jp6SvRkhGBjdFbcYTZmsBO+
-BqoBcytx9gRc7lor6+CgDFY83qrb4CRfqhd7FKWyjiCJBr4HLAnyeY0xBo9W8moB
-HiNdaN6Spj75SkcbOPFrleWrH57mvmX61e9lxGudf5aLdOe6cmw8fdq1/SJTzH8f
-RoUWCkldPJ+IaBwroJbj41bG4BAMuNezDjzFHpGb6TvzpfwK4b21FgdkNS6FDk2b
-iqKlZEUvVbjrTTlykZ5mw8gpcKQJBOdXAzjhfwmOsn9pK59nPXb2swMRTLCpzX/i
-M54Gsw5yOHsefU/grTT0qcyAr0VcLawFQima7ZmkkDxCO2Gplw+l4aFRmberbRWK
-azPHtjzloWB0UPMUx1Qu4fQWtaiVMcV5cX4nxpKOO688wYM04o+NXEbkqChPujfA
-a1jl1LkunuRcQHV/FBNSXfEqKFY4wp++G/5we73+4XkWF4P/GxtOkuZxKl3WRwN6
-ERgm2PpfyvdJ4EDmC3jmk1I3PMdzBabmOxGk4vYg7HSJ3DDOovRYCXi7qMEurvoC
-t8/aPjzbxfX7nitjcVDCo3P00Fttli+3Qie/islPxVVHSvmzjs4okTKptjU023Zm
-b9INQxFA5k3hHYy3JaltKWID
-=62oI
------END PGP SIGNATURE-----
-
---===============4741264291707677720==--
+  - ref: refs/heads/queue/4.19
+    old: b899e5704be3b7370c6b3fef499c54d3efd5e1a7
+    new: 1fc96bca22d9179d1ae112662910a0084fec7bea
+    log: |
+         0e231e65f3d3663e9859892ae266699a32ffecec perf event: Check ref_reloc_sym before using it
+         1fc96bca22d9179d1ae112662910a0084fec7bea wireless: Use linux/stddef.h instead of stddef.h
+         
+  - ref: refs/heads/queue/4.9
+    old: b721355941a3ec0d30836c96afca259cac2a56cb
+    new: cf4f22640d7dc358a3330109cc70210feee2e8a9
+    log: |
+         837a504c03749e094471f93f4d9a570546c39ea2 perf event: Check ref_reloc_sym before using it
+         e9f4edc1590c84f7bdf1df304c4c1a646018de57 mm/userfaultfd: do not access vma->vm_mm after calling handle_userfault()
+         f8a1260b99c4e584f918ffb5ae98da5ecca91bdc PCI: Add device even if driver attach failed
+         bba1166a9bbcd7b5702ed3068d8876b762423ffb btrfs: tree-checker: Enhance chunk checker to validate chunk profile
+         cf4f22640d7dc358a3330109cc70210feee2e8a9 btrfs: inode: Verify inode mode to avoid NULL pointer dereference
+         
+  - ref: refs/heads/queue/5.4
+    old: a369c75a7f3ef24230cb1f5774e748061e6c1861
+    new: 53921f5cbb9c972d9a2fd64f9ab0291fca640b07
+    log: |
+         7b69d42b70542df499055a88316bfc531df38bf3 spi: bcm-qspi: Fix use-after-free on unbind
+         6816f3b04dc747cec0dd4f572b935181669ffeb0 spi: bcm2835: Fix use-after-free on unbind
+         d7407e95d7b01004dfef992d6a1a9a8b9ff1673b ipv4: use IS_ENABLED instead of ifdef
+         53921f5cbb9c972d9a2fd64f9ab0291fca640b07 wireless: Use linux/stddef.h instead of stddef.h
+         
+  - ref: refs/heads/queue/5.9
+    old: 0e22cbce9426a72d11e178bb3ebda6ef10c90cfb
+    new: db409f6f85bbee4927825bf6b51960d0e0f25595
+    log: |
+         4bbdd4af171c90394d03e7349f088692f48bc6fb io_uring: get an active ref_node from files_data
+         ea2d7355ca5caf56066f4144b7ff8933f629fd5d io_uring: order refnode recycling
+         b3c5f170d972721ae8fe5d0a91df80700cc0c7bf spi: bcm-qspi: Fix use-after-free on unbind
+         5296e81343274ec7a23f5a3adb01c97a537c734d spi: bcm2835: Fix use-after-free on unbind
+         bc64d9278bc266993a33b35d8f07829cc75d7090 ipv4: use IS_ENABLED instead of ifdef
+         db409f6f85bbee4927825bf6b51960d0e0f25595 rtc: pcf2127: fix a bug when not specify interrupts property
+         
