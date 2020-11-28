@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 28 Nov 2020 19:57:59 -0000
-Message-Id: <160659347976.20456.9902315017825817554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 28 Nov 2020 20:19:36 -0000
+Message-Id: <160659477658.313.13331531793313821931@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 44f64f23bae2f0fad25503bc7ab86cd08d04cd47
-    new: 28d35ad0838b26038ec42aa129692e4c43663e6b
+    old: 3567e23379046a1c7fa730c2af7f5f3e53ff0039
+    new: e71d2b957ee49fe3ed35a384a4e31774de1316c1
     log: |
-         4ca23e2c2074465bff55ea14221175fecdf63c5f batman-adv: Consider fragmentation for needed_headroom
-         c5cbfc87558168ef4c3c27ce36eba6b83391db19 batman-adv: Reserve needed_*room for fragments
-         992b03b88e36254e26e9a4977ab948683e21bd9f batman-adv: Don't always reallocate the fragmentation skb head
-         28d35ad0838b26038ec42aa129692e4c43663e6b Merge tag 'batadv-net-pullrequest-20201127' of git://git.open-mesh.org/linux-merge
+         9f848198607f23626deddceb9da9307464031258 net: ipa: reverse logic on escape buffer use
+         5b6cd69e89c4ace7497609c52ca4d9aab5ae8a46 net: ipa: update IPA registers for IPA v4.5
+         1af15c2a781d938e94dcdb9a872ce4157730569d net: ipa: add new most-significant bits to registers
+         8bfc4e21d5b3fa5caeb54b2f1d7c368f218d23f2 net: ipa: add support to code for IPA v4.5
+         b0b6f0ddce853f710c67fdaa19facab142b6306f net: ipa: update gsi registers for IPA v4.5
+         cdeee49f3ef7f963567078ffac8921745f90e94d net: ipa: adjust GSI register addresses
+         e71d2b957ee49fe3ed35a384a4e31774de1316c1 Merge branch 'net-ipa-start-adding-ipa-v4-5-support'
          
