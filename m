@@ -1,60 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6339346077509987412=="
+Content-Type: multipart/mixed; boundary="===============7200158930603717048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 28 Nov 2020 18:34:47 -0000
-Message-Id: <160658848754.28044.6538373717376160587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 28 Nov 2020 18:59:56 -0000
+Message-Id: <160658999663.12978.7726170110004383360@gitolite.kernel.org>
 
---===============6339346077509987412==
+--===============7200158930603717048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: c84e1efae022071a4fcf9f1899bf71777c49943a
-    new: 67f34fa8893e6dfb0e8104c28ee6c5ce23a9e238
-    log: revlist-c84e1efae022-67f34fa8893e.txt
+  - ref: refs/heads/testing
+    old: fbea8425aae4ce4b0d4ac02da3153ce67b3ccbe0
+    new: 61913397e96bc3b17c9a563252b6970c4ee11ab0
+    log: revlist-fbea8425aae4-61913397e96b.txt
 
---===============6339346077509987412==
+--===============7200158930603717048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c84e1efae022-67f34fa8893e.txt
+Content-Disposition: attachment; filename=revlist-fbea8425aae4-61913397e96b.txt
 
-209c805835b29495cf66cc705b206da8f4a68e6e phy: usb: Fix incorrect clearing of tca_drv_sel bit in SETUP reg for 7211
-eb9c4dd9bdfdebaa13846c16a8c79b5b336066b6 phy: tegra: xusb: Fix dangling pointer on probe failure
-fcea94ac6154545dd13b17c947c07f5e0a54c121 phy: qcom-qmp: Initialize another pointer to NULL
-25d76fed7ffecca47be0249a5d5ec0a5dd92af67 phy: cpcap-usb: Use IRQF_ONESHOT
-78e91588510919a0dc9bd48916e760c1ba5797d2 usb: cdns3: gadget: initialize link_trb as NULL
-40252dd7cf7cad81c784c695c36bc475b518f0ea usb: cdns3: gadget: calculate TD_SIZE based on TD
-231655eb55b0f9899054dec9432482dbf986a9c5 phy: intel: PHY_INTEL_KEEMBAY_EMMC should depend on ARCH_KEEMBAY
-44786a26a7485e12a1d2aaad2adfb3c82f6ad171 phy: qualcomm: usb: Fix SuperSpeed PHY OF dependency
-14839107b51cc0db19579039b1f72cba7a0c8049 phy: qualcomm: Fix 28 nm Hi-Speed USB PHY OF dependency
-fb89b2544b645527b3a359176999a416e65f5ada phy: mediatek: fix spelling mistake in Kconfig "veriosn" -> "version"
-af8f9e8611cd4fef8295c8ab7574d3d3812ca17e Merge tag 'usb-fixes-v5.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
-24880a87042b3032a6ac04d79cb51892c5a7901d usb: typec: qcom-pmic-typec: fix builtin build errors
-7381e27b1e563aa8a1c6bcf74a8cadb6901c283a interconnect: qcom: msm8974: Prevent integer overflow in rate
-9caf2d956cfa254c6d89c5f4d7b3f8235d75b28f interconnect: qcom: msm8974: Don't boost the NoC rate during boot
-c497f9322af947204c28292be6f20dd2d97483dd interconnect: qcom: msm8916: Remove rpm-ids from non-RPM nodes
-7ab1e9117607485df977bb6e271be5c5ad649a4c interconnect: qcom: qcs404: Remove GPU and display RPM IDs
-017496af28e2589c2c2cb396baba0507179d2748 interconnect: fix memory trashing in of_count_icc_providers()
-7c8011dd8c541cd8b3f39eb42d00d01f33f967f2 Merge tag 'phy-fixes-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into usb-linus
-9ca57518361418ad5ae7dc38a2128fbf4855e1a2 USB: quirks: Add USB_QUIRK_DISCONNECT_SUSPEND quirk for Lenovo A630Z TIO built-in usb-audio card
-e7694cb6998379341fd9bf3bd62b48c4e6a79385 usb: gadget: f_midi: Fix memleak in f_midi_alloc
-87bed3d7d26c974948a3d6e7176f304b2d41272b usb: gadget: Fix memleak in gadgetfs_fill_super
-184eead057cc7e803558269babc1f2cfb9113ad1 USB: core: Fix regression in Hercules audio card
-f3bc432aa8a7a2bfe9ebb432502be5c5d979d7fe USB: core: Change %pK for __user pointers to %px
-ef3f0caf243075ac255b69054cbf48b65eadb0d4 Merge tag 'icc-5.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
-652b44453ea953d3157f02a7f17e18e329952649 habanalabs/gaudi: fix missing code in ECC handling
-4daeb2ae5cd8a7552ea9805792c86036298ed33d Merge tag 'misc-habanalabs-fixes-2020-11-23' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-linus
-c7acb6b9c07b4b75dffadc3b6466b1b43b3fda21 MAINTAINERS: Adding help for coresight subsystem
-484cfbe5fb61469a5f5a276258a8b3973164b56f usb: typec: stusb160x: fix power-opmode property with typec-power-opmode
-7b2c800d6695d91df9208ba416fff59c8b0fc608 Merge tag 'char-misc-5.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-67f34fa8893e6dfb0e8104c28ee6c5ce23a9e238 Merge tag 'usb-5.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+50b823380a265e7a2150df887e34383533843dfa dt-bindings:iio:qcom-spmi-vadc drop incorrect io-channel-ranges from example
+884da93ac7056f7e19944445580d9eb1216a720a dt-bindings:iio:samsung, exynos-adc: drop missuse of io-channel-ranges
+76ae76d0ce1f449c5a4474e22097ee988e3664f2 iio: core: Consolidate iio_format_avail_{list,range}()
+03491cd4a5e1a9aea8d28e171fdd5ea8ee5ebdfb iio: core: Simplify iio_format_list()
+5c762984ef7ccad930530a177b4bdd37950643b6 iio: buffer: Fix demux update
+b0534c1c6f8b58e00e740da5cb104dc7e2a2145e dt-bindings:iio:health:ti,afe4403: txt to yaml binding
+e38612eddade980f1d8083738016ee0ec9acff28 dt-bindings:iio:health:ti,afe4404: txt to yaml conversion
+89681004f87847cfa70ce7ecbedf8be747fcec5f dt-bindings:iio:adc: convert adc.txt to yaml
+a48eca70a3c440073b25e13aa12f777bb2b2594c dt-bindings:iio:adc:adi,ad7124: Use the new adc.yaml channel binding
+a7f1b9fb033de861a7f99481ca46868b4ffb80c6 dt-bindings:iio:adc:adi,ad7292: Use new adc.yaml binding for channels.
+cb616f37b9cf753bbe89e5bbcd2c5f04ee704ff3 dt-bindings:iio:iio-binding.txt Drop file as content now in dt-schema
+e9041b28fc57c76c388c688c781f08262f943695 dt-bindings:iio:dac:dpot-dac: yaml conversion.
+f7acb4786180b5d43dadfaffee9cc83fd65b3b58 dt-bindings:iio:potentiometer: give microchip,mcp4531 its own binding
+027ce03a6141caaee6adcece331d977dddd1a534 dt-bindings:iio:adc:envelope-detector: txt to yaml conversion.
+e3c83ea44c15acf67a759babe0120888d9d52f8d dt-bindings:iio:afe:current-sense-amplifier: txt to yaml conversion.
+d1af80783bcf4f76073ae7a4500228c030dac700 dt-bindings:iio:afe:current-sense-shunt: txt to yaml conversion.
+cbf16f8952634f698c2a76896c8a3d8ff05be9cd dt-bindings:iio:adc:maxim,max1027: Pull out to separate binding doc.
+e52490732b4cb0e86a96c54b7bf7c30b3410feea dt-bindings:iio:afe:voltage-divider: txt to yaml conversion
+92bbb0727a5b37c53382cdd98ed9d553fdcd59c7 dt-bindings:iio:light:capella,cm3605: txt to yaml conversion.
+61913397e96bc3b17c9a563252b6970c4ee11ab0 dt-bindings:iio:potentiostat:ti,lmp91000: txt to yaml conversion.
 
---===============6339346077509987412==--
+--===============7200158930603717048==--
