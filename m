@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 28 Nov 2020 08:44:36 -0000
-Message-Id: <160655307656.22625.6067051480426991682@gitolite.kernel.org>
+Date: Sat, 28 Nov 2020 08:49:53 -0000
+Message-Id: <160655339307.25805.11733787860318370338@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,17 @@ repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
   - ref: refs/heads/for-next
-    old: 9be9f2d3d073ef42127475f4fb6a392ab133f629
-    new: 83ab7b45a2c24997ce1831f8bc829b29e6b7c890
+    old: 83ab7b45a2c24997ce1831f8bc829b29e6b7c890
+    new: e4e1d47c7906cf108584c617c0b2ba32ed5428ed
     log: |
-         faba002e5fe91aae09ac591187be71c9e201b8f0 ALSA: hda/ca0132: Move unsol callback setups to parser
-         83ab7b45a2c24997ce1831f8bc829b29e6b7c890 ALSA: usb-audio: Add support for Pioneer DJ DDJ-RR controller
+         5c7797022fe9a95a4417c75fa59a1a2bfdc5a3be ALSA: ppc: drop if block with always false condition
+         e4e1d47c7906cf108584c617c0b2ba32ed5428ed ALSA: ppc: remove redundant checks in PS3 driver probe
          
   - ref: refs/heads/master
-    old: a6c6ed796b53b3b050e44c285c95a2223d84329e
-    new: d1fccb8be2e0c9e9e3e567184b3fcb7f20911205
+    old: d1fccb8be2e0c9e9e3e567184b3fcb7f20911205
+    new: 8a260590d3a76e993ff43bb23222a8c786073e7f
     log: |
-         faba002e5fe91aae09ac591187be71c9e201b8f0 ALSA: hda/ca0132: Move unsol callback setups to parser
-         83ab7b45a2c24997ce1831f8bc829b29e6b7c890 ALSA: usb-audio: Add support for Pioneer DJ DDJ-RR controller
-         d1fccb8be2e0c9e9e3e567184b3fcb7f20911205 Merge branch 'for-next'
+         5c7797022fe9a95a4417c75fa59a1a2bfdc5a3be ALSA: ppc: drop if block with always false condition
+         e4e1d47c7906cf108584c617c0b2ba32ed5428ed ALSA: ppc: remove redundant checks in PS3 driver probe
+         8a260590d3a76e993ff43bb23222a8c786073e7f Merge branch 'for-next'
          
