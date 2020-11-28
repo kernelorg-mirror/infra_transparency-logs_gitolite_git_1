@@ -1,34 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 28 Nov 2020 09:01:27 -0000
-Message-Id: <160655408778.4131.12742548452176710402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Sat, 28 Nov 2020 09:04:04 -0000
+Message-Id: <160655424456.15740.5815537525575904965@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/for-linus
-    old: c84bfedce60192c08455ee2d25dd13d19274a266
-    new: aeedad2504997be262c98f6e3228173225a8d868
+  - ref: refs/tags/mediatek-drm-next-5.11
+    old: 8648d3898ffc112aa485949b3c32340418b15dc4
+    new: 028b23568dc750c51019929f01850ce4d6842e4f
     log: |
-         aeedad2504997be262c98f6e3228173225a8d868 ALSA: hda/realtek: Add mute LED quirk to yet another HP x360 model
-         
-  - ref: refs/heads/for-next
-    old: e4e1d47c7906cf108584c617c0b2ba32ed5428ed
-    new: 0183a855eeb78c11b45505d72a078c145a71e6fc
-    log: |
-         0183a855eeb78c11b45505d72a078c145a71e6fc ALSA: remove trailing semicolon in macro definition
-         
-  - ref: refs/heads/master
-    old: 8a260590d3a76e993ff43bb23222a8c786073e7f
-    new: afd6f225b21a6595d47f9f74d70aa4a338a427d7
-    log: |
-         0183a855eeb78c11b45505d72a078c145a71e6fc ALSA: remove trailing semicolon in macro definition
-         c31e7e264e62327db43fec72bfd9952c7606b33a Merge branch 'for-next'
-         aeedad2504997be262c98f6e3228173225a8d868 ALSA: hda/realtek: Add mute LED quirk to yet another HP x360 model
-         afd6f225b21a6595d47f9f74d70aa4a338a427d7 Merge branch 'for-linus'
+         414562b0ef36ce658f0ffec00e7039c7911e4cdc drm/mediatek: Use correct aliases name for ovl
          
