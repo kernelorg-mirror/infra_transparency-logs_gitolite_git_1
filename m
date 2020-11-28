@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Sat, 28 Nov 2020 09:04:04 -0000
-Message-Id: <160655424456.15740.5815537525575904965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sat, 28 Nov 2020 09:05:15 -0000
+Message-Id: <160655431598.22542.4442314184565318194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
-  - ref: refs/tags/mediatek-drm-next-5.11
-    old: 8648d3898ffc112aa485949b3c32340418b15dc4
-    new: 028b23568dc750c51019929f01850ce4d6842e4f
+  - ref: refs/heads/master
+    old: c8efc05e6af8e9405f0dc7a90f5ef28c20ddda25
+    new: 45323bbef7fb06eec3fa210ee6c1651bbc57c38d
     log: |
-         414562b0ef36ce658f0ffec00e7039c7911e4cdc drm/mediatek: Use correct aliases name for ovl
+         e115d825c3ab0f53c64231bfb3710c149e2f58fc subpage_prot.2: SYNOPSIS: Fix return type: s/long/int/
+         45323bbef7fb06eec3fa210ee6c1651bbc57c38d strnlen.3: Fix a small inconsistency in the text
          
