@@ -1,45 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============4992931929815555134=="
+Content-Type: multipart/mixed; boundary="===============4050838239417455294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse
-Date: Sat, 28 Nov 2020 10:20:16 -0000
-Message-Id: <160655881643.8615.14588876926461552543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mripard/linux
+Date: Sat, 28 Nov 2020 10:20:56 -0000
+Message-Id: <160655885664.8893.5975047179462368283@gitolite.kernel.org>
 
---===============4992931929815555134==
+--===============4050838239417455294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse
-user: lucvoo
+repo: pub/scm/linux/kernel/git/mripard/linux
+user: mripard
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: f50c482ebabe3572cdd8a97d8b51ca94e44aba3a
-    new: 3bc348f6eea9b74fa93e72ea77e70b05a29b97eb
-    log: revlist-f50c482ebabe-3bc348f6eea9.txt
+  - ref: refs/tags/sunxi/config-for-5.11-pull-request
+    old: bc3f10e31204c33be6437c270c1e589fbcd793a3
+    new: bf51e1b2cfb325819a37d3cbce47ecd61a06d1cd
 
---===============4992931929815555134==
+--===============4050838239417455294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f50c482ebabe-3bc348f6eea9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-fbd81ed45d5889db28c9d60696048a97dc0ca8cb add testscases for some factorization of distributive operations
-449ab6d6e5db1cdae9e4e6becc1fa7e970694df5 reassoc: add helper can_move_to()
-c60a5e93310bbba8bf15c2a717061f41481e22d8 add helper make_insn_pair() & swap_insn()
-9e6eaf742cb4a66da9f9a15195420e43633c8fe6 add helper replace_binop()
-7e6a070827d2c21c615fb4f57acfe05e669cbf77 refactor simplify_add() to avoid code duplication (preparation)
-6661a9c4d82042bb65d1ae3bbe7f24cafafdf5e4 refactor simplify_add() to avoid code duplication
-7d385de8172a961c7a48ca974442b5227ac62f8e factorize (x OP1 z) OP2 (y OP1 z) into (x OP2 y) OP1 z
-90c1d15708d44c59046568592abcad8bdd1de126 factorize SHIFT(x, s) OP SHIFT(y, s) into SHIFT((x OP y), s)
-3aaa16eac7f07302bcf3d733aeee901d378b7e9d add testscases for 'bits translation' optimization
-2eb69efa7f912e604092b46d7b12a9bce3ea9995 factorize SEL(x, OP(y,z), y) into OP(SEL(x, z, 0), y)
-d722c87f10a965c082055d11adecf312fce367c3 add helper is_power_of_2()
-9837f19e4fb54f0782a300101910f0461854ace7 add helper is_pow2()
-2b77484ed79f2d2edb032b5922236575e57dfb5c add log base 2 function: log2_exact()
-cafabc769e77f14e47ab44866b304e51af42c44c convert SEL(x & BIT1, BIT2, 0) into SHIFT(x & BIT1, S)
-3bc348f6eea9b74fa93e72ea77e70b05a29b97eb Merge branch 'bit-trans' into next
+certificate version 0.1
+pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1606558856 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mripard/linux.git
+nonce 1606558855-034ccbc77c88cfc0c16ce87e021c5eb79e1a4835
 
---===============4992931929815555134==--
+bc3f10e31204c33be6437c270c1e589fbcd793a3 bf51e1b2cfb325819a37d3cbce47ecd61a06d1cd refs/tags/sunxi/config-for-5.11-pull-request
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCX8IkiAAKCRDj7w1vZxhR
+xRiSAQDTVRwhwcf9RK03ZqCW+ktNQkJLPpM/v5GiYW/mlip+WwD+JOJrlxec5ok9
+87ijt/l1csi4xu+VUoRxzanbn7AXkwk=
+=9A2K
+-----END PGP SIGNATURE-----
+
+--===============4050838239417455294==--
