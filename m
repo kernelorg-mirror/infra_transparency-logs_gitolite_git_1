@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 28 Nov 2020 20:19:36 -0000
-Message-Id: <160659477658.313.13331531793313821931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sat, 28 Nov 2020 20:23:38 -0000
+Message-Id: <160659501884.4803.12747582123656033848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 3567e23379046a1c7fa730c2af7f5f3e53ff0039
-    new: e71d2b957ee49fe3ed35a384a4e31774de1316c1
+  - ref: refs/heads/hwmon-next
+    old: e6e2c18f63c62df778ce484945fccad088594533
+    new: bb077c79ffcab5f044c8172825f05fa122fbe7d0
     log: |
-         9f848198607f23626deddceb9da9307464031258 net: ipa: reverse logic on escape buffer use
-         5b6cd69e89c4ace7497609c52ca4d9aab5ae8a46 net: ipa: update IPA registers for IPA v4.5
-         1af15c2a781d938e94dcdb9a872ce4157730569d net: ipa: add new most-significant bits to registers
-         8bfc4e21d5b3fa5caeb54b2f1d7c368f218d23f2 net: ipa: add support to code for IPA v4.5
-         b0b6f0ddce853f710c67fdaa19facab142b6306f net: ipa: update gsi registers for IPA v4.5
-         cdeee49f3ef7f963567078ffac8921745f90e94d net: ipa: adjust GSI register addresses
-         e71d2b957ee49fe3ed35a384a4e31774de1316c1 Merge branch 'net-ipa-start-adding-ipa-v4-5-support'
+         e83d630a063ced8d8fff1e8021dc86c6664a3ac0 hwmon: (corsair-psu) update supported devices
+         a17008993ff3ca96ba3af412ebba9c5fb45ff8c9 hwmon: (abx500) Switch to using the new API kobj_to_dev()
+         510573e8a054e3d6a6600d35074503a6e6098798 hwmon: pwm-fan: Refactor pwm_fan_probe
+         bb077c79ffcab5f044c8172825f05fa122fbe7d0 hwmon: (pwm-fan) Convert to hwmon_device_register_with_info API
          
