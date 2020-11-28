@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3168115013930752126=="
+Content-Type: multipart/mixed; boundary="===============4992931929815555134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse-dev
-Date: Sat, 28 Nov 2020 10:20:10 -0000
-Message-Id: <160655881075.8482.2492253169923743896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse
+Date: Sat, 28 Nov 2020 10:20:16 -0000
+Message-Id: <160655881643.8615.14588876926461552543@gitolite.kernel.org>
 
---===============3168115013930752126==
+--===============4992931929815555134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse-dev
+repo: pub/scm/devel/sparse/sparse
 user: lucvoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 3bc348f6eea9b74fa93e72ea77e70b05a29b97eb
     log: revlist-f50c482ebabe-3bc348f6eea9.txt
 
---===============3168115013930752126==
+--===============4992931929815555134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ d722c87f10a965c082055d11adecf312fce367c3 add helper is_power_of_2()
 cafabc769e77f14e47ab44866b304e51af42c44c convert SEL(x & BIT1, BIT2, 0) into SHIFT(x & BIT1, S)
 3bc348f6eea9b74fa93e72ea77e70b05a29b97eb Merge branch 'bit-trans' into next
 
---===============3168115013930752126==--
+--===============4992931929815555134==--
