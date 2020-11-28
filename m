@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5892503302152827908=="
+Content-Type: multipart/mixed; boundary="===============1142702942350206403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Sat, 28 Nov 2020 19:04:01 -0000
-Message-Id: <160659024102.15769.17202968389792618570@gitolite.kernel.org>
+Date: Sat, 28 Nov 2020 19:04:56 -0000
+Message-Id: <160659029645.16245.13095334909799913349@gitolite.kernel.org>
 
---===============5892503302152827908==
+--===============1142702942350206403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,43 +15,590 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: pavel
 changes:
-  - ref: refs/heads/linux-4.19.y-cip-rt-rebase
-    old: 4423cf3fb256215d3b9fbf5fed1d1f721651f8b3
-    new: 61b00bc56de975e2b5afa0b573b8064505b28aa4
-    log: revlist-4423cf3fb256-61b00bc56de9.txt
-  - ref: refs/tags/v4.19.152-rt66
+  - ref: refs/heads/linux-4.19.y-cip-rt
+    old: e8364daf8e1fe4720588c4b4e0e0b33499bf6db7
+    new: fe6e4a43439eedd3351ba9aff3eaa38dc14e9034
+    log: revlist-e8364daf8e1f-fe6e4a43439e.txt
+  - ref: refs/tags/v4.19.160-cip39-rt17
     old: 0000000000000000000000000000000000000000
-    new: 8aee67d70e2bcfff5d50e8c80675551ed15ee756
-  - ref: refs/tags/v4.19.155-rt67
-    old: 0000000000000000000000000000000000000000
-    new: 2e06010f78e329153d8a9874df2400a192face37
-  - ref: refs/tags/v4.19.158
-    old: 0000000000000000000000000000000000000000
-    new: 75047c63c00ebaf3d6a45c299a42668acc88337d
-  - ref: refs/tags/v4.19.158-rt68
-    old: 0000000000000000000000000000000000000000
-    new: 7ac7bd5384b17e31aaa71e29aa8484cb42dd1c6e
-  - ref: refs/tags/v4.19.159
-    old: 0000000000000000000000000000000000000000
-    new: c66b08551db29ddbcf9af79adb9b7491f14352b3
-  - ref: refs/tags/v4.19.160-cip39-rt17-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 4a443c821b53a81ff443bc659caa338d26064f9f
-  - ref: refs/tags/v4.19.160-rt69
-    old: 0000000000000000000000000000000000000000
-    new: 587f2b47622938ef5565cea0707a646137088c14
-  - ref: refs/tags/v4.4.244
-    old: 0000000000000000000000000000000000000000
-    new: 1b0f612becbadedf3d7d01ded4f61e7ceaa9c73c
+    new: 2b6e516d4845a9d6635a2bc18de15d83a1d9752b
 
---===============5892503302152827908==
+--===============1142702942350206403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4423cf3fb256-61b00bc56de9.txt
+Content-Disposition: attachment; filename=revlist-e8364daf8e1f-fe6e4a43439e.txt
 
+3472a36a0d3ad8b379801f4fd58d27cda76282b0 ibmveth: Switch order of ibmveth_helper calls.
+e0b6776567797433f754ca8ce70581306ddb42ed ibmveth: Identify ingress large send packets.
+1fecbf3ffd468ba0c398171ef7f6b2ed848c42f2 ipv4: Restore flowi4_oif update before call to xfrm_lookup_route
+c0cded2aa1db11246240b24234e3c4470d431635 mlx4: handle non-napi callers to napi_poll
+c068e505f229ca5f778f825f1401817ce818e917 net: fec: Fix phy_device lookup for phy_reset_after_clk_enable()
+0bffdde0bb2650df06a6f3c1b78ceed971b68482 net: fec: Fix PHY init after phy_reset_after_clk_enable()
+6b00f0321c69e28228cc3024724c679463b4e863 net: fix pos incrementment in ipv6_route_seq_next
+0cca96df3732fef913c0f7c48f7118a90db466da net/smc: fix valid DMBE buffer sizes
+be431112aaae464aa60f7616cdf6457230aa5664 net: usb: qmi_wwan: add Cellient MPL200 card
+26217e062f976fc4e2b7b8b6981a6d119435ea51 tipc: fix the skb_unshare() in tipc_buf_append()
+9db62b759161b9e75626e419d85d6944a23a2ab1 net/ipv4: always honour route mtu during forwarding
+7bf51ad6408fc39ea6b80c23f0fafcfe30f49377 r8169: fix data corruption issue on RTL8402
+b2d31640d4045d8bb7cf25d2bd53ce8d1b14fb40 net/tls: sendfile fails with ktls offload
+35cc2facc2a5ff52b9aa03f2dc81dcb000d97da3 binder: fix UAF when releasing todo list
+b7ca1a78c9c2fb53b8620d5dcb29b696cd7d1753 ALSA: bebob: potential info leak in hwdep_read()
+b82a1097b911cadc5c42337b337dcf653c89b41b chelsio/chtls: fix socket lock
+79548c70b2979c09f33c5ca8d14fee013c27578e chelsio/chtls: correct netdevice for vlan interface
+01a1e63227e978187c20f6eb9701d3fa1f28dde0 chelsio/chtls: correct function return and return type
+7d8e0e542e39e652b29c3cbe137890065b107c82 net: hdlc: In hdlc_rcv, check to make sure dev is an HDLC device
+e1313c39cb4f4050c563b79622dd0c92dabc3a96 net: hdlc_raw_eth: Clear the IFF_TX_SKB_SHARING flag after calling ether_setup
+a298ba5e7d1715d4c3a5844b6e7a5c7bd7feff87 net/sched: act_tunnel_key: fix OOB write in case of IPv6 ERSPAN tunnels
+e75f421a8d6a5aa69a65b63cf2c6348e7ea6e138 nfc: Ensure presence of NFC_ATTR_FIRMWARE_NAME attribute in nfc_genl_fw_download()
+7e1c74befe158d86c5b4e2ef3f174db5dd537000 tcp: fix to update snd_wl1 in bulk receiver fast path
+4f044e107b24e3c644ab97f996a8703994f65e20 r8169: fix operation under forced interrupt threading
+d6c552505c0d1719dda42b4af2def0618bd7bf54 icmp: randomize the global rate limiter
+c19c5ef5a6e5a4194ba8e4c02aa7f2149b62924e ALSA: hda/realtek: Enable audio jacks of ASUS D700SA with ALC887
+ab57a8aa9d6ccbee6c8b8bcc4e32a5772272cbcf cifs: remove bogus debug code
+a4f751c41a8b67770667451167bdc2ac61e077ac cifs: Return the error from crypt_message when enc/dec key not found.
+1ea11b1622e91682ad4b36f737e46bb6483ebe3e KVM: x86/mmu: Commit zap of remaining invalid pages when recovering lpages
+f61c8449cb879b3d89d7e9a996e42e7881f18c78 KVM: SVM: Initialize prev_ga_tag before use
+c470dc530c9ee6ef4b22fed19c77e20c745564e1 ima: Don't ignore errors from crypto_shash_update()
+1ba6c542786da102ad91ffae53579b2f83efba39 crypto: algif_aead - Do not set MAY_BACKLOG on the async path
+00aed0eabc551d8f4544e8788e474e2887f8cc18 EDAC/i5100: Fix error handling order in i5100_init_one()
+dc0e1c91848e0615d73d4c22aa7b52d682cb8a9d EDAC/ti: Fix handling of platform_get_irq() error
+87ab5f1415a7619983cc10fa099574512fdb9045 x86/fpu: Allow multiple bits in clearcpuid= parameter
+b2fc0a13f93fad361fa412cfa5a26374ed8c695f drivers/perf: xgene_pmu: Fix uninitialized resource struct
+a0cc22fa1ea248e48dfc354a33c0a34a70e8cfe6 x86/nmi: Fix nmi_handle() duration miscalculation
+e78c9feafb9e4399fc31d11df862afd6a7de5bfa x86/events/amd/iommu: Fix sizeof mismatch
+b0112ecef7d8e65b71ee9e30d9635788ddcbb48b crypto: algif_skcipher - EBUSY on aio should be an error
+d7b164f4d6021ed1b3eea043bc9e21b6cdbdbbf8 crypto: mediatek - Fix wrong return value in mtk_desc_ring_alloc()
+ae2de8949516aa66a81a1d9a359e2c117424158f crypto: ixp4xx - Fix the size used in a 'dma_free_coherent()' call
+90b14b4fb5b91795ebeacb066d16d92a7e65545f crypto: picoxcell - Fix potential race condition bug
+d9470165379bb518fb670d38fa3150931a225636 media: tuner-simple: fix regression in simple_set_radio_freq
+d81bfffb3c16f41b40c15a2be093e5ed3c58aa18 media: Revert "media: exynos4-is: Add missed check for pinctrl_lookup_state()"
+c1c2f8bb571eac621bc2d46544d0d0a90cc9eac1 media: m5mols: Check function pointer in m5mols_sensor_power
+6bf923f220090e9dc71e6d684803bef5741b64fe media: uvcvideo: Set media controller entity functions
+26c139c2eab3add1fd1b8802edbc4459c8bd8e46 media: uvcvideo: Silence shift-out-of-bounds warning
+7cfd9b85b72b561912a9812ff7da7cb74a8cf82a media: omap3isp: Fix memleak in isp_probe
+8a2141fb67348468f2ffa9128a6870ccd27a6c33 crypto: omap-sham - fix digcnt register handling with export/import
+189b333897b697bc4bd5bc0cc1e83b37b4c04944 hwmon: (pmbus/max34440) Fix status register reads for MAX344{51,60,61}
+97b4000637698d14dfe9bf052cc2ec4f6a071df4 cypto: mediatek - fix leaks in mtk_desc_ring_alloc
+4cf628ac27fbab58512b2b1c26d44530fa31c566 media: mx2_emmaprp: Fix memleak in emmaprp_probe
+6757a430008baf9664893ff51ffb0b5bafc157e4 media: tc358743: initialize variable
+e19d4e69cdf44ac3977b04d99d6d4117af49d41c media: tc358743: cleanup tc358743_cec_isr
+8dc9270d00140d7ac5bf4aabf5abfac6b95d4467 media: rcar-vin: Fix a reference count leak.
+8ead1800340964bbe1a884c70ca09e98101b71fb media: rockchip/rga: Fix a reference count leak.
+442bb53ffe8dff9f97289477510b611a0117246c media: platform: fcp: Fix a reference count leak.
+766fb94198edbd9c0917f948150e8c63f5bc4cd6 media: camss: Fix a reference count leak.
+815501d08cde0dd4e62fb15e007e847b1a57140b media: s5p-mfc: Fix a reference count leak
+52efde52dfc47e263c8d7fce5129878efc8737bf media: stm32-dcmi: Fix a reference count leak
+0284adc407d0c5b88f5feea1a3d1849e670acac6 media: ti-vpe: Fix a missing check and reference count leak
+3fc99e38fdbf6b693693f861aa55a50a74c2d202 regulator: resolve supply after creating regulator
+98f559201c875dcedffbb268c8308055db2dfeb8 pinctrl: bcm: fix kconfig dependency warning when !GPIOLIB
+96eb5e0dd2915a962b700ed118f1ec04bfb6b611 spi: spi-s3c64xx: swap s3c64xx_spi_set_cs() and s3c64xx_enable_datapath()
+71c611d6b2801c9d26db4a3ef7c369d73cea244c spi: spi-s3c64xx: Check return values
+41f77cc516d3f86a32c1fa46a8358ef8aefae5da ath10k: provide survey info as accumulated data
+aea63181b6fcb6b9ccde1ada9ea51be19c4015af Bluetooth: hci_uart: Cancel init work before unregistering
+5a277e5b8179117c9e2544580c1e2ebc297a699d ath6kl: prevent potential array overflow in ath6kl_add_new_sta()
+bc72a1bc52d6cee2603f149ff13a52144bc01b4e ath9k: Fix potential out of bounds in ath9k_htc_txcompletion_cb()
+fce8b6d2fce826e0a30f03157c2ba0392298d65e ath10k: Fix the size used in a 'dma_free_coherent()' call in an error handling path
+6025fe80dce405c04a5f13625bd2edd5bce7a0a2 wcn36xx: Fix reported 802.11n rx_highest rate wcn3660/wcn3680
+39676349044c80cd4376da758ff19a132bee3b89 ASoC: qcom: lpass-platform: fix memory leak
+ebbf54a8fb311af4b204ecb9a75cbd44ebb7b3e0 ASoC: qcom: lpass-cpu: fix concurrency issue
+4bb240a5dce34c6c8361a691695de86cac5c1c12 brcmfmac: check ndev pointer
+971b6d6fb1578d146678156f532078554b6ce57d mwifiex: Do not use GFP_KERNEL in atomic context
+ecb76221e5f32799879385a30d45920bed9db95e staging: rtl8192u: Do not use GFP_KERNEL in atomic context
+37bc311de317d28a7325c273cdba725b76bd685f drm/gma500: fix error check
+bff92c28da64d1561930638b58a3cbdada965bf2 scsi: qla4xxx: Fix an error handling path in 'qla4xxx_get_host_stats()'
+d6f0744313817f0447c1ebad98b9bd5420783e40 scsi: qla2xxx: Fix wrong return value in qla_nvme_register_hba()
+157a5d49c07cebc227f8e91cc7ab5573e756ff59 scsi: csiostor: Fix wrong return value in csio_hw_prep_fw()
+6621e5beab45ad7c2569fcfd1259c5b80d2a7f9e backlight: sky81452-backlight: Fix refcount imbalance on error
+0b02a43257805da6f670c1a1fe40d19499d9c741 VMCI: check return value of get_user_pages_fast() for errors
+2ee8f08ff33bf98896bcf46089f7ae7b45b30b32 tty: serial: earlycon dependency
+51ba64f0b37b2944758ae77d71ee099983ee930a tty: hvcs: Don't NULL tty->driver_data until hvcs_cleanup()
+7d3ea48901521b17d2988564d3f748d8f35829b9 pty: do tty_flip_buffer_push without port->lock in pty_write
+1bec75ab830e158a1c3da0ebff147abc29fc13ea pwm: lpss: Fix off by one error in base_unit math in pwm_lpss_prepare()
+02f420c5fd2047117312ab77e823184f63fc9568 pwm: lpss: Add range limit check for the base_unit register value
+34a5007852a16723566d3ce4943624bda1c3b279 drivers/virt/fsl_hypervisor: Fix error handling path
+32bc70b7edc0ae0f4078108eaaa9b348c3c42de1 video: fbdev: vga16fb: fix setting of pixclock because a pass-by-value error
+2422fb525b00956e8abecd04ad413e846fdf5202 video: fbdev: sis: fix null ptr dereference
+27fd3a2e53cce4072d568f69c489b17ce01d724b video: fbdev: radeon: Fix memleak in radeonfb_pci_register
+6644d1431aa0d78199408462bcf52847b472e433 HID: roccat: add bounds checking in kone_sysfs_write_settings()
+0313dc6b78e5e466627b5992575b2154efd96bd2 pinctrl: mcp23s08: Fix mcp23x17_regmap initialiser
+556ce4cb01ebb3cab50b5e3ab5b2ccf3f2c2cdd3 pinctrl: mcp23s08: Fix mcp23x17 precious range
+85c4859b4f54d4469b1dcf411104cc40243c8c05 net/mlx5: Don't call timecounter cyc2time directly from 1PPS flow
+f2b54e0fc5ef13135a801c030aa166d32a247527 net: stmmac: use netif_tx_start|stop_all_queues() function
+edf9400e13db380142306cc1b65cd353233ca476 cpufreq: armada-37xx: Add missing MODULE_DEVICE_TABLE
+67248582ccd6716627fc70ac11a37444744fdf84 net: dsa: rtl8366: Check validity of passed VLANs
+999c5c5f0665008b63206ebb4088101f5b8fdbfd net: dsa: rtl8366: Refactor VLAN/PVID init
+2a919e725ff63275102dbe97719c3ee98097acb3 net: dsa: rtl8366: Skip PVID setting if not requested
+eca79d8158e8c7f06914fa45b4dff95214272664 net: dsa: rtl8366rb: Support all 4096 VLANs
+1c4a2e9ab2599c5bf1dc02a69fa85d64c5027fea ath6kl: wmi: prevent a shift wrapping bug in ath6kl_wmi_delete_pstream_cmd()
+62c3270489d509689cac88f377cc53f8decdd6a9 misc: mic: scif: Fix error handling path
+bbd411d70b96b6d4f4fff71ca3ae39dbaa5dfbd2 ALSA: seq: oss: Avoid mutex lock for a long-time ioctl
+5577da3b9838108a02fe60fd817fb8e99e0ae16f usb: dwc2: Fix parameter type in function pointer prototype
+a114d642aff8d47ca6cf70431e1983c22a94a899 quota: clear padding in v2r1_mem2diskdqb()
+43f146dc16e5bb54fa4995600289e4b165f8bfbd slimbus: core: check get_addr before removing laddr ida
+64a4133b161e90d9c79df1753b788a3892bd4b76 slimbus: core: do not enter to clock pause mode in core
+1e375b1d6e54c490553c92677078dcd4e3626601 slimbus: qcom-ngd-ctrl: disable ngd in qmi server down callback
+8546708c182ba0080d74d8ff550350d264317163 HID: hid-input: fix stylus battery reporting
+fa0abc3eb3acac7386ab20d86729417c69b24c10 qtnfmac: fix resource leaks on unsupported iftype error return path
+d35b9ecdcb8f837f0cff36a2e6cb734055b30503 net: enic: Cure the enic api locking trainwreck
+8dbc537d702f6dbc43f7d6f3caca121c666a982e mfd: sm501: Fix leaks in probe()
+c7446c752a23db6ba5da7f6b4aa616fa1032be88 iwlwifi: mvm: split a print to avoid a WARNING in ROC
+f36c8ddaea41830ce53984dce111138097e7d62d usb: gadget: f_ncm: fix ncm_bitrate for SuperSpeed and above.
+354ace7056a916dff00f73cb3f7100e8279f59b9 usb: gadget: u_ether: enable qmult on SuperSpeed Plus as well
+60a6d2999750d04f106f4e376dc15d3c0914881f nl80211: fix non-split wiphy information
+d9796b5e2ab1878ab5e2c42fc783ab75a4949bf6 usb: dwc2: Fix INTR OUT transfers in DDMA mode.
+052daa607a16822dd243ed6b63d08f6ed0ae1d3b scsi: target: tcmu: Fix warning: 'page' may be used uninitialized
+787982f10982de6aab01a24f5650d9810028a3c2 scsi: be2iscsi: Fix a theoretical leak in beiscsi_create_eqs()
+e399ca8c4a31a264601d848f0b365012ab24f9a9 platform/x86: mlx-platform: Remove PSU EEPROM configuration
+2b3eabc104e861c21fbb4aed96b8dd64f3943b32 mwifiex: fix double free
+69a117d795ac1c79105c2284452095eed5becc6d ipvs: clear skb->tstamp in forwarding path
+dfb5034154b431518c975d593c9240a2d8ebebad net: korina: fix kfree of rx/tx descriptor array
+d74d61d90babd63b2fc953fbf0ce5f4fe2d47cf0 netfilter: nf_log: missing vlan offload tag and proto
+2761fff65fbf59cd77346fc63b76f651cf0f97d2 mm/memcg: fix device private memcg accounting
+a3d0ceee716047c5e8a2bcdd3192f885f404386d mm, oom_adj: don't loop through tasks in __set_oom_adj when not necessary
+878cb32a0f197fc8ec897ab334cf5abe449ee6c3 IB/mlx4: Fix starvation in paravirt mux/demux
+23679f7acfdb49f7c2947b608de6a10b7eadb6d3 IB/mlx4: Adjust delayed work when a dup is observed
+479d8cae79cd295fb126ad7ecda19d9d1f4a849d powerpc/pseries: Fix missing of_node_put() in rng_init()
+97ebcf056f15c285e09307fbf50c9f99bdeafb3c powerpc/icp-hv: Fix missing of_node_put() in success path
+c62998f154356a6708070538ed4221f18ff6be02 RDMA/ucma: Fix locking for ctx->events_reported
+0beef934d50822b1cb884f1e7bb115fe0a36a974 RDMA/ucma: Add missing locking around rdma_leave_multicast()
+a38f352c2aa9272a1a9d94cb8956da388e32daa4 mtd: lpddr: fix excessive stack usage with clang
+5389496b702d2bb8d71fc879391a068720d69133 powerpc/pseries: explicitly reschedule during drmem_lmb list traversal
+593a1aa514c58d4bfbdfc9b388a8d81d5afaab17 mtd: mtdoops: Don't write panic data twice
+15d07887546e717df4e801c21259be7773356a71 ARM: 9007/1: l2c: fix prefetch bits init in L2X0_AUX_CTRL using DT values
+3882d3641aff02002cc5c9570b0dd99f9685063c arc: plat-hsdk: fix kconfig dependency warning when !RESET_CONTROLLER
+56c37c5dba2ce51e67167a6c4545f230a23607b9 xfs: limit entries returned when counting fsmap records
+dffa7657483b1e640196d54061dbcbfe8769444e xfs: fix high key handling in the rt allocator's query_range function
+e9770055113e73b3afd629f83380338fd12b727b RDMA/qedr: Fix use of uninitialized field
+172fa0c25b25bd3945dd7c60b03bb1c25c94eef5 RDMA/qedr: Fix inline size returned for iWARP
+be141c42ce233121fd360cfb1694be5e872df5b1 powerpc/tau: Use appropriate temperature sample interval
+9554fc1bbf5d0ac7735188fbeb666767777b5cab powerpc/tau: Convert from timer to workqueue
+a1a4cfbd0d225cf53566cd56bb04f64c0fe24477 powerpc/tau: Remove duplicated set_thresholds() call
+79524e8c64bda80bb35ab490177d0e6813bf112c Linux 4.19.153
+8a74de1975808fc573cf0c24d4f0747d3c8e71ef dt-bindings: ata: sata_rcar: Add r8a774b1 support
+d35f0737cfc0490b94fabf730e12812dded9153e arm64: dts: renesas: r8a774b1: Add SATA controller node
+30775fb7c3998718fcba911042d7c86acd822e00 arm64: dts: renesas: r8a774b1-hihope-rzg2n-ex: Enable sata
+396f85941bbd33b298978aab6ecdec0e425e10d6 ata: sata_rcar: Fix DMA boundary mask
+df58e9b23aed06fa3a883dee5075bff2bd549854 powerpc/tau: Check processor type before enabling TAU interrupt
+69d28fa62e8e2c670d993c13c87129706b8b6832 powerpc/tau: Disable TAU between measurements
+e8122b11d18025ad825fb013671989f29d05e467 powerpc/64s/radix: Fix mm_cpumask trimming race vs kthread_use_mm
+b4612866af7a2d5fcb776dd21c58ddefe3b2718a RDMA/cma: Remove dead code for kernel rdmacm multicast
+bd2ad814f4600b7472febe75bdecae178c68e4bc RDMA/cma: Consolidate the destruction of a cma_multicast in one place
+1b4aa9313f9b9b7641763d32c8fb0d0cc5a654e4 perf intel-pt: Fix "context_switch event has no tid" error
+b0b57d37f26231e7980c11f2a61f81fe46750188 RDMA/hns: Set the unsupported wr opcode
+657441f1728e3870aee57d46cd26b78e55af6d2c RDMA/hns: Fix missing sq_sig_type when querying QP
+e8b33f91cec350fbb11679ce332e1968204075b1 kdb: Fix pager search for multi-line strings
+a04b9430d2a413ebe9b860922a80f884c421e2a1 overflow: Include header file with SIZE_MAX declaration
+eac7650040f6a86f45c716d4f860eb2efd40bf02 powerpc/perf: Exclude pmc5/6 from the irrelevant PMU group constraints
+65d73b1f219115262578f95b2763329a8fbe3579 powerpc/perf/hv-gpci: Fix starting index value
+13aeb252fdd7b34339fa890c62acd32037c42460 cpufreq: powernv: Fix frame-size-overflow in powernv_cpufreq_reboot_notifier
+d57e5a4764e801411b9cdc8a9a1f9a283e9a34e3 IB/rdmavt: Fix sizeof mismatch
+3b0503e30811dc21a76bc0f42c01ebbfb371d46a f2fs: wait for sysfs kobject removal before freeing f2fs_sb_info
+67f4d89b4efa2726eb0f04e6987dbcde3e7c24a0 lib/crc32.c: fix trivial typo in preprocessor condition
+438191cfde4257238e3dcd765ae77639e1824635 ramfs: fix nommu mmap with gaps in the page cache
+e254737939c8cfa08002333606de8c3a7744485b rapidio: fix error handling path
+ef5f040e6b7689381bf90dba4b01a20c86e59a2b rapidio: fix the missed put_device() for rio_mport_add_riodev
+8299f4bfa91500e7f648357e9e2a5ef70c0d9d26 mailbox: avoid timer start from callback
+72218b0ac1620724564c5ac46559fdbc5bb9b880 i2c: rcar: Auto select RESET_CONTROLLER
+3dcf906a97c8e3469ff2c67d60575e30bc1b45f9 PCI: iproc: Set affinity mask on MSI interrupts
+df6e89d6371b4331567a0e8aae87684eaa162611 rpmsg: smd: Fix a kobj leak in in qcom_smd_parse_edge()
+fef79803054786306d742fa6b9524d853072120a pwm: img: Fix null pointer access in probe
+206d594334dcca4c30e390514e29f43d48aff4a4 clk: rockchip: Initialize hw to error to avoid undefined behavior
+c579bc45752b8b6b447baecf7d50b064c9edc8d2 clk: at91: clk-main: update key before writing AT91_CKGR_MOR
+c4b3ab9e406d1d033c32966107969443ab8585e0 clk: bcm2835: add missing release if devm_clk_hw_register fails
+a19725131e162e85ef2aa08b457148073f5349f5 watchdog: Fix memleak in watchdog_cdev_register
+322661e7616d261e3e6dae9a088b900127d6b7c1 watchdog: Use put_device on error
+f649e6f9d6164f33b559de6613218b12881581c4 watchdog: sp5100: Fix definition of EFCH_PM_DECODEEN3
+95e7b4ee3d35c8d2bca4ad3c3365abdea0bbb71d svcrdma: fix bounce buffers for unaligned offsets and multiple pages
+3abb2ac9594b3a7a54086e05452dba25a011a78b ext4: limit entries returned when counting fsmap records
+f393f4a5fcbc38248a9a261f4cbee8ea5b1296fd vfio/pci: Clear token on bypass registration failure
+707f8d0d380d7893cca2c6f196e0281b09db6d36 vfio iommu type1: Fix memory leak in vfio_iommu_type1_pin_pages
+af74b4a25fb2070c5061c29c1e07ee6b0d12ba84 SUNRPC: fix copying of multiple pages in gss_read_proxy_verf()
+2a0ffcfe9f3b95c39434eaf6a680f11bd6767cb7 Input: imx6ul_tsc - clean up some errors in imx6ul_tsc_resume()
+aff40b67f75b3b75b96adf8ab77b7717dcf7f47e Input: stmfts - fix a & vs && typo
+b04c0ccb51fd60fd0be6a957b2c95103efd2b4fb Input: ep93xx_keypad - fix handling of platform_get_irq() error
+64c1c4f6409c4275d07bb247ed37a8c9c651d913 Input: omap4-keypad - fix handling of platform_get_irq() error
+3fdaec080f3595c305de3db9cb8e070a3b264d07 Input: twl4030_keypad - fix handling of platform_get_irq() error
+7bdbfb491fb272caa119263649527810abeca1e2 Input: sun4i-ps2 - fix handling of platform_get_irq() error
+f747f03f270a4d65cfeeeb011dcfb7ddd6ca8afb KVM: x86: emulating RDPID failure shall return #UD rather than #GP
+b221c4a1f8778923f1984092b132fe3e176677c4 netfilter: conntrack: connection timeout after re-register
+be6992b68bd05829b4fb35a2c4546d0273527a9c netfilter: nf_fwd_netdev: clear timestamp in forwarding path
+fd39a5903c2d88c29f82e61e2bf71f26a85a44fe ARM: dts: imx6sl: fix rng node
+7c6aa8c97a8df30192614cbe6d58bf4a75adc934 ARM: dts: sun8i: r40: bananapi-m2-ultra: Fix dcdc1 regulator
+a076c65bb3f6421495d0ea7905b319da3f340539 memory: omap-gpmc: Fix a couple off by ones
+7933045de9820d6549597d694768eb332dda01a1 memory: omap-gpmc: Fix build error without CONFIG_OF
+81124a34b256e6aeb4d2bd7e043657e347a8b23d memory: fsl-corenet-cf: Fix handling of platform_get_irq() error
+6646242f8a22289801842ba1e9ff519c965795b1 arm64: dts: qcom: pm8916: Remove invalid reg size from wcd_codec
+347fa5456082f11ef455308347c6652d4f3c04b0 arm64: dts: qcom: msm8916: Fix MDP/DSI interrupts
+993dcbabef6b184bdf3093e151f65ac01022b5e0 ARM: dts: owl-s500: Fix incorrect PPI interrupt specifiers
+1dd6032b19284568c2d64e62aebec43c587e33dd arm64: dts: zynqmp: Remove additional compatible string for i2c IPs
+d3df4136df0567f8d8490acedf54440d2f6023de powerpc/powernv/dump: Fix race while processing OPAL dump
+b6addb4a03beff0d74c66bb3c20cd9836a73c4db nvmet: fix uninitialized work for zero kato
+2d1fba2112ddb3fb8c906388167eb9b17fa0381c NTB: hw: amd: fix an issue about leak system resources
+2e2f41a9608cee81b02695d92f6d6debe773de65 sched/features: Fix !CONFIG_JUMP_LABEL case
+cc304126a239f2ab1a9218a977ab29f644c5b828 perf: correct SNOOPX field offset
+847fbf22ce2e1308454d793174063646f560d819 i2c: core: Restore acpi_walk_dep_device_list() getting called after registering the ACPI i2c devs
+f86b9bf6228bb334fe1addcd566a658ecbd08f7e block: ratelimit handle_bad_sector() message
+2c37decd6c5a67489c09bfd9fa46d64c1370992a crypto: ccp - fix error handling
+33adca1aadcf56b429e93f412efdc203788a55c4 media: firewire: fix memory leak
+bc405f28d0a8769509659c95d1942d4b568ba69f media: ati_remote: sanity check for both endpoints
+07e82f531e6ad1bac1f28591fa40fc558e1ac7ff media: st-delta: Fix reference count leak in delta_run_work
+bde69ac535ebacb40a610e2463872cfde24f1aad media: sti: Fix reference count leaks
+72818356f146e927b58e334d01e55610da584675 media: exynos4-is: Fix several reference count leaks due to pm_runtime_get_sync
+93705ea75c8551de6bdcf9fe7975292683e6c1ab media: exynos4-is: Fix a reference count leak due to pm_runtime_get_sync
+8e506a74112279c8fdea1fa6ed1955b82fc00497 media: exynos4-is: Fix a reference count leak
+fc71303c1fc7fc03ffd6629adcd6dc9472a9e2e9 media: vsp1: Fix runtime PM imbalance on error
+8526b2ea2f6bf86c968da84f8e7e5c9cb9a710c6 media: platform: s3c-camif: Fix runtime PM imbalance on error
+8a517a48cb16f161523a132b0d6c925203b4bc4a media: platform: sti: hva: Fix runtime PM imbalance on error
+60299cf61e1ec5d783e681d84245301deb6fef17 media: bdisp: Fix runtime PM imbalance on error
+444b54da04ffafae68571eabcdb9acf33fb2940b media: media/pci: prevent memory leak in bttv_probe
+69343448dba8a23acc26b92eef5b78748d9d51fd media: uvcvideo: Ensure all probed info is returned to v4l2
+ac91e46ccec41c96b274952ba34be1cf98777b95 mmc: sdio: Check for CISTPL_VERS_1 buffer size
+3a285c8251dbffac3ae62595c19a51d32921cf9a media: saa7134: avoid a shift overflow
+13296b64a81c74b0ec14c80d5c946ab77e4cee83 fs: dlm: fix configfs memory leak
+4b799668bea8b98ad24943658d860fea46cbc389 media: venus: core: Fix runtime PM imbalance in venus_probe
+dff5d774119537355b01e5b503d9468228d65044 ntfs: add check for mft record size in superblock
+cd3ecf114cbe4b12112cd2c175dbd1e41c70758f ip_gre: set dev->hard_header_len and dev->needed_headroom properly
+20ae51a36840a4d43614157218d5144788661853 mac80211: handle lack of sband->bitrates in rates
+e8db1c3496ae7031dc2048e927226399970a5fdb PM: hibernate: remove the bogus call to get_gendisk() in software_resume()
+7a78bc1a4a854fe97a31ac064ddded899c70c898 scsi: mvumi: Fix error return in mvumi_io_attach()
+d583c728ce8dc8c3419245f515af8050487f5e83 scsi: target: core: Add CONTROL field for trace events
+38b7ac0aa5a61a7c3c961b3beff1831d602705c6 mic: vop: copy data to kernel space then write to io memory
+424b9b83ac91f3362b6a94558942c5827de21758 misc: vop: add round_up(x,4) for vring_size to avoid kernel panic
+cedb0187b8ba929c3f76f28e6bc25804d65f8a54 usb: gadget: function: printer: fix use-after-free in __lock_acquire
+c33948e7f5295fb18797080507b2c7f2bab323f9 udf: Limit sparing table size
+c1c3e98880ef9015cab4e3f4936c923273f70331 udf: Avoid accessing uninitialized data on failed inode read
+c7f46529c5c927d33b4cb73ec8383d42b9e8603f USB: cdc-acm: handle broken union descriptors
+5ba7cf36d6ab1420efe9005ca2ef5ef43511a5fd usb: dwc3: simple: add support for Hikey 970
+03e738d32d460089f4f22512bc2166d5c2943862 can: flexcan: flexcan_chip_stop(): add error handling and propagate error value
+df4318440c1568b7dedc5f7d4e617d0e297a1313 ath9k: hif_usb: fix race condition between usb_get_urb() and usb_kill_anchored_urbs()
+bad3576faaac16e41f0db3218f25b72c0523161d misc: rtsx: Fix memory leak in rtsx_pci_probe
+7a1e074bc18d32718edcde0a0ad75fff262a4410 reiserfs: only call unlock_new_inode() if I_NEW
+e004f8f381e383a32b4df0eec60cc9813864cd92 xfs: make sure the rt allocator doesn't run off the end
+24bbdeda984b00db9682274b8987b74be7ea1919 usb: ohci: Default to per-port over-current protection
+738315384e49e4268a9c7fdeae57d59d43af3247 Bluetooth: Only mark socket zapped after unlocking
+9adcc7d4e518d8b4113c9151dce92303deaa0ae9 scsi: ibmvfc: Fix error return in ibmvfc_probe()
+a92781c83f3e08e6444227c9f7a2937516155eb3 brcmsmac: fix memory leak in wlc_phy_attach_lcnphy
+f98cea40fa21884ba2811a0be419f386322381eb rtl8xxxu: prevent potential memory leak
+18136b33e38d418c679b291a05041fa7a77ac361 Fix use after free in get_capset_info callback.
+d0260f611c0816f2dc6fbf68ff8cb8cfdb028854 scsi: qedi: Protect active command list to avoid list corruption
+565ecf536c49b568a5754560a27536e1ac5b174b scsi: qedi: Fix list_del corruption while removing active I/O
+d44117291557740591b4076e532de06ed257ccd4 tty: ipwireless: fix error handling
+796f0d39dcd58e91994f4f86525d09c9e03de293 ipvs: Fix uninit-value in do_ip_vs_set_ctl()
+7f1fabf39f739543ee7a518b5c42566a2c0d5efd reiserfs: Fix memory leak in reiserfs_parse_options()
+0484e56fefc6028d4b3e490a1552d0d198234065 mwifiex: don't call del_timer_sync() on uninitialized timer
+778e3a4e845e08f61a1ffe4779f9d4dff27934b6 brcm80211: fix possible memleak in brcmf_proto_msgbuf_attach
+923fe07f1f3ee0e37475795edf9deed1acf03efe usb: core: Solve race condition in anchor cleanup functions
+30255785272f896d1f275f095eb0b2089426b153 scsi: ufs: ufs-qcom: Fix race conditions caused by ufs_qcom_testbus_config()
+f34426b44d24f4624e49dc122526f603afc85973 ath10k: check idx validity in __ath10k_htt_rx_ring_fill_n()
+d96332f3f6cbf535b7ea7a6816b05c6a7b0a2431 net: korina: cast KSEG0 address to pointer in kfree
+5e193ce443fecc955dc3160359c4f7abbc324ef7 tty: serial: fsl_lpuart: fix lpuart32_poll_get_char
+a79a42d8d6c96b8e02812e4d65387254f2ee8ce8 usb: cdc-acm: add quirk to blacklist ETAS ES58X devices
+2223a85dec1c0a76d4193be8b84edb49acc405e1 USB: cdc-wdm: Make wdm_flush() interruptible and add wdm_fsync().
+07784c9a2a8b820617d563d0d0c3ab874f0c6377 eeprom: at25: set minimum read/write access stride to 1
+5f322f20a3a721ea0b094dc695f3b6e24bd556a0 usb: gadget: f_ncm: allow using NCM in SuperSpeed Plus gadgets.
+f5d8eef067acee3fda37137f4a08c0d3f6427a8e Linux 4.19.154
+a5125a93be0abe7601c250a43789b69e17799088 dt-bindings: pci: rcar-pci-ep: Document r8a774a1 and r8a774b1
+5d63770a26dcbf9965903c2df51f1aaf176c53f8 arm64: dts: renesas: r8a774c0: Add PCIe EP node
+b99c0f465b6398b36ed3bef6fac8ad2078cd3bfc arm64: dts: renesas: r8a774a1: Add PCIe EP nodes
+9c0fb84041f31639ecd580320f366031d0dc5ddc arm64: dts: renesas: r8a774b1: Add PCIe EP nodes
+c7954f0a6e90c886fbdffca61a97c9c5b4c38e6c misc: pci_endpoint_test: Add Device ID for RZ/G2M and RZ/G2N PCIe controllers
+9b34beef09085d7c3fcf518fa781ae2f96c86819 arm64: dts: renesas: r8a774e1: Add PCIe device nodes
+8f8f0f2f3de998d8d68f6a9dfbad7a5ae80e822a arm64: dts: renesas: r8a774e1: Add SATA controller node
+0fb92ce38308baaf34933b2edd72b7af9dbd6b2d dt-bindings: pci: rcar-pci-ep: Document r8a774e1
+200c1bf10773209d5919db7cb98c4983607486cc arm64: dts: renesas: r8a774e1: Add PCIe EP nodes
+2d4e917b589ac5656ae2747cd2ee692aa0dd6f26 misc: pci_endpoint_test: Add Device ID for RZ/G2H PCIe controller
+eb9b373c1614e2877512fab6a443849eab5bd810 arm64: dts: renesas: r8a774e1-hihope-rzg2h-ex: Enable sata
+319b324649db73987723eae30af1f9c3157ec0d2 objtool: Support Clang non-section symbols in ORC generation
+aefcff70505dc0dc2305a90d1aa525037286cb1f scripts/setlocalversion: make git describe output more reliable
+d953cd3fb149a999534ff48af323eb091fd5aa3b arm64: Run ARCH_WORKAROUND_1 enabling code on all CPUs
+e844158495b752533593e0963c9d53493197a358 arm64: link with -z norelro regardless of CONFIG_RELOCATABLE
+8d339b3470b23ef49ddf9c7ade1a60f18944e7fd x86/PCI: Fix intel_mid_pci.c build error when ACPI is not enabled
+02bb497cd6de22e9ce17396957e76fa5aa11102f efivarfs: Replace invalid slashes with exclamation marks in dentries.
+f9dcae22d40c195425cdeba16618b6c9c60886e4 chelsio/chtls: fix deadlock issue
+df2e825b3af547458df24846b00ed3e650c3610c chelsio/chtls: fix memory leaks in CPL handlers
+efea090aff4b690cb5c3175724ea69de23d9ea19 chelsio/chtls: fix tls record info to user
+601b6b5176104490d332addcbc00b1b49eb3620b gtp: fix an use-before-init in gtp_newlink()
+84013ba77c1704c1461b299fbd336d6d6b6d3a9f mlxsw: core: Fix memory leak on module removal
+95ba2236b8e69de3cb9b12e1cd6c4252a1574a19 netem: fix zero division in tabledist
+32ac9183ede9b4384c3ec1b285a46ba540b01a81 ravb: Fix bit fields checking in ravb_hwtstamp_get()
+f5a4ea7839b15d702fb9c731eddcca3e3fecf8d8 tcp: Prevent low rmem stalls with SO_RCVLOWAT.
+48ea03f8bb651ed06c29bad75fcb35b7c2a13d3e tipc: fix memory leak caused by tipc_buf_append()
+daf14c65803b1413d576cabf9092136800036db0 r8169: fix issue with forced threading in combination with shared interrupts
+d3b8171face63754448c1d0fcb40f2bf124fd2ab cxgb4: set up filter action after rewrites
+8fc2f485ea6583876553546e60f294016ec9f296 arch/x86/amd/ibs: Fix re-arming IBS Fetch
+ed63866eddecb754d41f0b15c89d56971af4d3e3 x86/xen: disable Firmware First mode for correctable memory errors
+6ef82327906270f66adb4b13517e818d3a20448e fuse: fix page dereference after free
+277d0de875a4eb1f03f213c2a4951b7487cc5185 bpf: Fix comment for helper bpf_current_task_under_cgroup()
+05f703b07727c0eb81f487143b583d5f8561d900 evm: Check size of security.evm before using it
+df605e1b5c2ccb55e42c144aecca4bbd76ff149f p54: avoid accessing the data mapped to streaming DMA
+421cbc540e0e37a9793674c6a877e4b2fd572113 cxl: Rework error message for incompatible slots
+2dda0d4e17c91ab84595468edee57f9ffab8d93c RDMA/addr: Fix race with netevent_callback()/rdma_addr_cancel()
+4a2b6dadaeb4600ec7d51cdb6490ad0c970b1687 mtd: lpddr: Fix bad logic in print_drs_error
+ad1e8fc2a51e48c6c51f6ca2236e9b9fcbe21fea serial: pl011: Fix lockdep splat when handling magic-sysrq interrupt
+888a77cd35ca8ae4cc610b6e78596ec91c390bc8 ata: sata_rcar: Fix DMA boundary mask
+705ac26aedd49372c121c91af921e7069ff1ceff fscrypt: return -EXDEV for incompatible rename or link into encrypted dir
+1ae161d27b01ebe062cc4bf228a1e5debc473310 fscrypt: clean up and improve dentry revalidation
+000d849574fa636f1764919be459827df0114185 fscrypt: fix race allowing rename() and link() of ciphertext dentries
+906242d10b0b9279e5fda9691c13500d5b1fb543 fs, fscrypt: clear DCACHE_ENCRYPTED_NAME when unaliasing directory
+f217c9685c39735f8a8080d00d17ae2e9d536823 fscrypt: only set dentry_operations on ciphertext dentries
+b699b0067c0ba01ca7068470d42d76e34eaafe84 fscrypt: fix race where ->lookup() marks plaintext dentry as ciphertext
+8dda141d0b16031e0b24d6fed46f69873e000f08 Revert "block: ratelimit handle_bad_sector() message"
+82856cd739c1dee7ea6a76d0ddc8ea2dce2a11f1 xen/events: don't use chip_data for legacy IRQs
+61d359d51a1cce8a5913843c8c3601dc878cc519 xen/events: avoid removing an event channel while handling it
+25f6b08895d579b461487291d6e48b3953a8bf65 xen/events: add a proper barrier to 2-level uevent unmasking
+c7f95d899f492c1615538cbebdb781e4a1e7b7cf xen/events: fix race in evtchn_fifo_unmask()
+dea09436da034930fbd63420b3c6a010b98e8fab xen/events: add a new "late EOI" evtchn framework
+1506109a85c894cdd1884442b3479d62a74c6f3e xen/blkback: use lateeoi irq binding
+6a052f3a6282da6861ac590fcda9a0d6b16182e6 xen/netback: use lateeoi irq binding
+fb22061b20ea20fd83da4ef25cebda18b1365a77 xen/scsiback: use lateeoi irq binding
+128b11967a26322e8d6bf98edc0406160d481105 xen/pvcallsback: use lateeoi irq binding
+4988884d53c01ca6b4f6e0b6bdcbb2d28b13c860 xen/pciback: use lateeoi irq binding
+8363670c4d0b302cdf0146ee8203401111568b6d xen/events: switch user event channels to lateeoi model
+536075098940120179416dc884e08ced37b2c02a xen/events: use a common cpu hotplug hook for event channels
+17ef715c0c88fe2df485fba68aa7c6c6cb3004f9 xen/events: defer eoi in case of excessive number of events
+c1f90a9cd988bae62273c99aa7c58bf24f9bf0c1 xen/events: block rogue events for some time
+5579d7502ff6374d0953691de5bca353e1ba6b30 x86/unwind/orc: Fix inactive tasks with stack pointer in %sp on GCC 10 compiled kernels
+30e91357e3e47c160d51decf4400603ea66b8925 mlxsw: core: Fix use-after-free in mlxsw_emad_trans_finish()
+2380b57afdcca42c3a529969c7f460cadb44892c RDMA/qedr: Fix memory leak in iWARP CM
+b19305641e3c0c4b3758606b7bf6e57256094a1f ata: sata_nv: Fix retrieving of active qcs
+ae5aa5685c7cc1def1e07e0ab562087c5b8c78e7 futex: Fix incorrect should_fail_futex() handling
+92c244538056862c19861fc2d3dabb9b0d543126 powerpc/powernv/smp: Fix spurious DBG() warning
+b664645274e922b3356115be9392a49cf3937ce2 mm: fix exec activate_mm vs TLB shootdown and lazy tlb switching race
+19da77b9014170356e30ccf5d319af3f50c8af1e powerpc: select ARCH_WANT_IRQS_OFF_ACTIVATE_MM
+4775def575a57774d320232a076933f195c171bd sparc64: remove mm_cpumask clearing to fix kthread_use_mm race
+3c09f4652f7cfa655b723ef94cdcfc74f892da2d f2fs: add trace exit in exception path
+0ca99ffc6befae0f2d90182a66182b19c0954c94 f2fs: fix uninit-value in f2fs_lookup
+f552d88c0ddd90963b6ea8546aedb09622a9d855 f2fs: fix to check segment boundary during SIT page readahead
+798f1eb12a4d3a9f38b822d4ea97c5fd24e494a5 um: change sigio_spinlock to a mutex
+2bb93af1822d392e8cce94fb7a470e5f926376dd ARM: 8997/2: hw_breakpoint: Handle inexact watchpoint addresses
+ae20c9f54daa944cd3f16e5b421049aab83a6a7c power: supply: bq27xxx: report "not charging" on all types
+bda64b43564ac3eca39202db4f1462487ca4a6bf xfs: fix realtime bitmap/summary file truncation when growing rt volume
+8c755f49ac7cdae0d704c99e8299018aaa761fbe video: fbdev: pvr2fb: initialize variables
+1a58018084f8025734c15fad1a31c888608d9e26 ath10k: start recovery process when payload length exceeds max htc length for sdio
+9d8e083bcf6b5540d404a278f9311095a4284fff ath10k: fix VHT NSS calculation when STBC is enabled
+17c4ba10aec5e2b9d20dbf5f47ad4ca0851cf1b3 drm/brige/megachips: Add checking if ge_b850v3_lvds_init() is working correctly
+df661bb764a2d54d7353c39521a4879de5bb2ebf media: videodev2.h: RGB BT2020 and HSV are always full range
+e135a0bebb7ae2023b2181a025634187b6bd9281 media: platform: Improve queue set up flow for bug fixing
+00943757170b126923ade6e705cbf532327e4989 usb: typec: tcpm: During PR_SWAP, source caps should be sent only after tSwapSourceStart
+7ed97d8cdad8ef27846b394ba0969c508cbc4cc7 media: tw5864: check status of tw5864_frameinterval_get
+4550a7f409cbc13ce220f606440457f327ba6cd7 media: imx274: fix frame interval handling
+418121257b0c4761198126c4925bc666d5ed5e8e mmc: via-sdmmc: Fix data race bug
+2c7a26926ec656bc8c9adbd515f24fce8dd3f2d6 drm/bridge/synopsys: dsi: add support for non-continuous HS clock
+f3dc5ac4011eac5a3a8b28fc13fe08b7dfb5af34 arm64: topology: Stop using MPIDR for topology information
+040b531929dae903c5b347d4a87ca969a86e6906 printk: reduce LOG_BUF_SHIFT range for H8300
+d3380de483d55d904fb94a241406b34ed2fada7d ia64: kprobes: Use generic kretprobe trampoline handler
+cbc03dedecb6e5366f2d3f0a328cfc3ef4762a25 kgdb: Make "kgdbcon" work properly with "kgdb_earlycon"
+3aff03d9b92c0553f491e36807cda5826c3dc95d media: uvcvideo: Fix dereference of out-of-bound list iterator
+5d095e529694a55815a2d2370ca151fe2fe190d6 riscv: Define AT_VECTOR_SIZE_ARCH for ARCH_DLINFO
+2de342e2b36e04dbe64fc3c9c82807956c5e6993 cpufreq: sti-cpufreq: add stih418 support
+263be4104fd40762ccad5cc69385be33d4b0b6c0 USB: adutux: fix debugging
+ed23397d1daabd47fe463a3c0d5cfdd495448ccb uio: free uio id after uio file node is freed
+37ad7b2cca29201c6e88a8621508fe81c70b31e4 usb: xhci: omit duplicate actions when suspending a runtime suspended host.
+0a2cb1eae0a70acf701600b510de04c55404bb31 arm64/mm: return cpu_all_mask when node is NUMA_NO_NODE
+451a7c74c23b2ec42410ca5a7110c1a85ebae688 xfs: don't free rt blocks when we're doing a REMAP bunmapi call
+d2828ab0a92683e56e210cae4769af1f83519197 ACPI: Add out of bounds and numa_off protections to pxm_to_node()
+59e6db9d2798c94d1d32ebdf0ed7a7bd162504a1 drivers/net/wan/hdlc_fr: Correctly handle special skb->protocol values
+9c95724b7d1ce6714b0e918bfef6781bbb32096a bus/fsl_mc: Do not rely on caller to provide non NULL mc_io
+13a1f012bd9c4c7a9ce9f38e0b99dbdc306a1e4e power: supply: test_power: add missing newlines when printing parameters by sysfs
+1c3b4b2d87c15acfcc4ea9861e071d6bca1f51de drm/amd/display: HDMI remote sink need mode validation for Linux
+c9830b1f2b4a7105541cf8796b75e5860805c6fa btrfs: fix replace of seed device
+868260482d8ab773afec2d0c6878d02cf80e1efa md/bitmap: md_bitmap_get_counter returns wrong blocks
+4896829cafca3bd45b19aa924b66480982433a25 bnxt_en: Log unknown link speed appropriately.
+fe5fe1ec36dc00cdd01e9d9cf3044349d676cfb0 rpmsg: glink: Use complete_all for open states
+1712a5d8dc9105f98bd15b78a1d996c3c113c212 clk: ti: clockdomain: fix static checker warning
+9d5fa0ad46e7882bbf89cf40d57241de3307f380 net: 9p: initialize sun_server.sun_path to have addr's value only when addr is valid
+edf786e2e4987d6defd301c62ed926bca77fe306 drivers: watchdog: rdc321x_wdt: Fix race condition bugs
+d808c88f0b88697d7df75eb233b50c235db34b24 ext4: Detect already used quota file early
+6a253f385a2dc9f6a5a1da828e0e9e07f6f9d9b9 gfs2: add validation checks for size of superblock
+80dc9c4266b5696e797bded1d0f6087446d7cf9d cifs: handle -EINTR in cifs_setattr
+06f2cb14aecf9d8a606db271d1723ee49b050c99 arm64: dts: renesas: ulcb: add full-pwr-cycle-in-suspend into eMMC nodes
+103e159f7b186c364f5c96af8680c3e0edf17d7b ARM: dts: omap4: Fix sgx clock rate for 4430
+69c0f5d0ed8284ce2a9efd5ea9557816186d3f69 memory: emif: Remove bogus debugfs error handling
+1caf36ebc2ace7d851f81b0b081b463889ff2c09 ARM: dts: s5pv210: remove DMA controller bus node name to fix dtschema warnings
+5addcbe6caa55ddcaa342d0d341f6a2e920f0672 ARM: dts: s5pv210: move PMU node out of clock controller
+c151f68411cdeac5d70b48a19758d20ab110e4cc ARM: dts: s5pv210: remove dedicated 'audio-subsystem' node
+2ef6f4bd60411934e3fc2715442c2afe70f84bf3 nbd: make the config put is called before the notifying the waiter
+e6786fd18fe2b91a4844f7d1606c50e09d4cebcf sgl_alloc_order: fix memory leak
+a2631d71e40d1d330729f42b43f6f6f159ef285a nvme-rdma: fix crash when connect rejected
+9922fa4c3b5e2c0d0d33261573f2af912808a285 md/raid5: fix oops during stripe resizing
+5ed9b5e389b6a199136ed82289db6cbeb27175df mmc: sdhci-acpi: AMDI0040: Set SDHCI_QUIRK2_PRESET_VALUE_BROKEN
+a1c59cb6a944bd0eab88af1af681a166163ac213 perf/x86/amd/ibs: Don't include randomized bits in get_ibs_op_count()
+c5a38ae89e3675a49d135aab3b68bd56ee622b93 perf/x86/amd/ibs: Fix raw sample data accumulation
+c780aac6d7c059d9dca8361e89c88f3d39789383 leds: bcm6328, bcm6358: use devres LED registering function
+0a77d44cc1bc55550bc714a60c7b0c9d7ebe0b7b media: uvcvideo: Fix uvc_ctrl_fixup_xu_info() not having any effect
+7ce2b16bad2cbfa3fa7bbc42c4448914f639ca47 fs: Don't invalidate page buffers in block_write_full_page()
+dd7992a5f7448ba33892151784c26b93fe005cfe NFS: fix nfs_path in case of a rename retry
+02e92557b3075b9d0e02dc8551ea14ac5955b996 ACPI: button: fix handling lid state changes when input device closed
+87eae0761f4d0f0ebe960b198b3e28af671f03e9 ACPI / extlog: Check for RDMSR failure
+0b7ef21ba885b5fd0a32a3873936c6bd3bd6c676 ACPI: video: use ACPI backlight for HP 635 Notebook
+2d32e60198e266723357034cae66a45c1afa4e3f ACPI: debug: don't allow debugging when ACPI is disabled
+57cbc85d3503daa5da52138ba1bc72443df1a207 acpi-cpufreq: Honor _PSD table setting on new AMD CPUs
+0bfca7315796f332dd2b441eb38e0355c109177c w1: mxc_w1: Fix timeout resolution problem leading to bus error
+2a922386c160f157e60d945b3edacfd6745f2ba0 scsi: mptfusion: Fix null pointer dereferences in mptscsih_remove()
+3216622921a22b8a96c36614e3a8e4b38b7c8173 scsi: qla2xxx: Fix crash on session cleanup with unload
+274a95ae33bc61c90f6fe1b4df55d842085f9b82 btrfs: qgroup: fix wrong qgroup metadata reserve for delayed inode
+b38695b8e35f96389fd85b86570167aadc42fcbe btrfs: improve device scanning messages
+c06d72888d13f00ff4801d7d44aa42f8122edeae btrfs: reschedule if necessary when logging directory items
+67dc9c4f0af7a04548dbba8606bee75d20627ea0 btrfs: send, recompute reference path after orphanization of a directory
+96e4fc79e90d34bfafad353c77e873a1da7a3776 btrfs: use kvzalloc() to allocate clone_roots in btrfs_ioctl_send()
+8c6990856f1bc58ee1c64b9432cda24428a4bc89 btrfs: cleanup cow block on error
+0da7b606dc286edadce490d5970fab3fa39c5883 btrfs: fix use-after-free on readahead extent after failure to create it
+9b1f935ae4daefbc6ff8929526875d55b7a53121 usb: xhci: Workaround for S3 issue on AMD SNPS 3.0 xHC
+7ba24610f39fb71f37ecb03b8981e6bc8231cafd usb: dwc3: ep0: Fix ZLP for OUT ep0 requests
+05dac708d4873058d203d41766370b47cb044234 usb: dwc3: gadget: Check MPS of the request length
+a68cbd8b95e713c07dc38970e8c0bb2bf90bbae4 usb: dwc3: core: add phy cleanup for probe error handling
+f324c9f5ba40ae617c9601743be42e1449e3c305 usb: dwc3: core: don't trigger runtime pm when remove driver
+b40d7d3bd43f8333ebe24a62b63affc6a1aac244 usb: cdc-acm: fix cooldown mechanism
+061fae52838ad8e9c59c65859088e3f6f850d5e5 usb: typec: tcpm: reset hard_reset_count for any disconnect
+51f6f0e8d3929ca0610c7fd69fb62d3a74dda372 usb: host: fsl-mph-dr-of: check return of dma_set_mask()
+d1dff15c809e93af022da03f4663b8ac93e3d1c9 drm/i915: Force VT'd workarounds when running as a guest OS
+20cf3fcdd646735346fca7bbf365b74bf0988034 vt: keyboard, simplify vt_kdgkbsent
+7e3ba72e5b9376e12839ea347c49fc4108244b0c vt: keyboard, extend func_buf_lock to readers
+d8a2bd86bf4c8138eec3224d3e70d94b2ab18371 HID: wacom: Avoid entering wacom_wac_pen_report for pad / battery
+9bbfd6578e596d3bf480e74d142e49c88102014d udf: Fix memory leak when mounting
+fd9079bdc25c2d004da5294f91ddaf844818618a dmaengine: dma-jz4780: Fix race in jz4780_dma_tx_status
+edd390613683eba9db783b5ed825af054ef0c62c iio:light:si1145: Fix timestamp alignment and prevent data leak.
+8a8900553d2c302bba3243d992a601eb3701b898 iio:adc:ti-adc0832 Fix alignment issue with timestamp
+da58185f7bc08767a438a182c27d29a6d454975e iio:adc:ti-adc12138 Fix alignment issue with timestamp
+c7975bd7fdb7bd8b5d9547acc456f6050bae02f6 iio:gyro:itg3200: Fix timestamp alignment and prevent data leak.
+77d89366bc9220195e87ba33a3dd8048990631f3 powerpc/drmem: Make lmb_size 64 bit
+9b7089ce099a5803b3d5b64a325faff195324680 s390/stp: add locking to sysfs functions
+94e8f0bbc475228c93d28b2e0f7e37303db80ffe powerpc/rtas: Restrict RTAS requests from userspace
+b035bb9573ff8d3ee89ee6019a511f2aefbbee06 powerpc: Warn about use of smt_snooze_delay
+e46550aa5a0708f10d6cd26d8028a7778c6862e5 powerpc/powernv/elog: Fix race while processing OPAL error log event.
+ed596114fd3ac2b8bb3d8ac2df4217290d1e2a70 powerpc: Fix undetected data corruption with P9N DD2.1 VSX CI load emulation
+3c040b924988be85e99819dd48c1f3130ae683cc NFSv4.2: support EXCHGID4_FLAG_SUPP_FENCE_OPS 4.2 EXCHANGE_ID flag
+88401813fcec150ff179e731364fc19af1e6632f NFSD: Add missing NFSv2 .pc_func methods
+b08433b1c5e581c8824c190f3827107bd8db05cf ubifs: dent: Fix some potential memory leaks while iterating entries
+753e8a597d54209aa97aa985342f7f98d4240be4 perf python scripting: Fix printable strings in python3 scripts
+9aa191b69a7392d5db8696c249e3a35ee64fafc7 ubi: check kthread_should_stop() after the setting of task state
+3aac1f37cefb2f9157e7b93d2114c9fd9f88a404 ia64: fix build error with !COREDUMP
+b37b5ced4dae58a17bbcd4846838901892eb5a9e i2c: imx: Fix external abort on interrupt in exit paths
+ebc8d835c23eb2365f3b9fd4d31ee5807cb8c7e0 drm/amdgpu: don't map BO in reserved region
+0ac2a7bcff3717da75acec69fff4728a22bea383 drm/amd/display: Don't invoke kgdb_breakpoint() unconditionally
+4f3b78e25a073115c52b064c9f35e6a9aa39e566 ceph: promote to unsigned long long before shifting
+416ea9783571eedcabdc9247653518e1005eca73 libceph: clear con->out_msg on Policy::stateful_server faults
+f870895527ae8dde12309583ebe3e5b0a3ecb8d2 9P: Cast to loff_t before multiplying
+57ebe9102928e835d72ffec43c7995723cfea132 ring-buffer: Return 0 on success from ring_buffer_resize()
+5b14ac3b9404f18591deb81913ab708642b2a4bd vringh: fix __vringh_iov() when riov and wiov are different
+314b5a46c65726750fa1fa3e665df9485d09551a ext4: fix leaking sysfs kobject after failed mount
+6ad22dc99cb627fa13812bc0e27a6595bba62f5e ext4: fix error handling code in add_new_gdb
+7b97149296ef752a1576d0939f629dd30e83e03d ext4: fix invalid inode checksum
+36beb0e4d553671273710890e9357aaebc996f36 drm/ttm: fix eviction valuable range check.
+90553a7466d0bf67ed67d84c5ea01bf6fc9c821a rtc: rx8010: don't modify the global rtc ops
+619e366268e0430687d07b24b48f7382fc088c9f tty: make FONTX ioctl use the tty pointer they were actually passed
+87ae7881958d090f179856a4d3fcbfbe37284724 arm64: berlin: Select DW_APB_TIMER_OF
+9f14e20c0e63e92e91607740e21b7de897dc0399 cachefiles: Handle readpage error correctly
+286d11dbf7005e3f348e95f64261ceb285d23fa0 hil/parisc: Disable HIL driver when it gets stuck
+99a1adfae331427df2c84f4be556cdf2fdd6e98d arm: dts: mt7623: add missing pause for switchport
+8ad5b2cf6cd9db71048314d893465afd7dfdd9d4 ARM: samsung: fix PM debug build with DEBUG_LL but !MMU
+87e1447dc4dea61b88a2599161f926c826a4ebcf ARM: s3c24xx: fix missing system reset
+76b712488dcfc71c158ba2e2785c23aca3ed2924 device property: Keep secondary firmware node secondary by type
+9169e2f12323994af8244dd64c036f1d974ea51d device property: Don't clear secondary pointer for shared primary firmware node
+98fe5332fa4126d66248f24db5e1078e77856976 KVM: arm64: Fix AArch32 handling of DBGD{CCINT,SCRext} and DBGVCR
+28f7c57a3ce95ca17cff98cc5af52fe7f9226f3f staging: comedi: cb_pcidas: Allow 2-channel commands for AO subdevice
+e2f30d7ff0f1efb86600cc8e388f00db16629322 staging: octeon: repair "fixed-link" support
+906fa9ac4360e3cb2703289684bc973de5f1424d staging: octeon: Drop on uncorrectable alignment or FCS error
+b94de4d19498b454645b72d08a05d32fa9074fb5 Linux 4.19.155
+4141168704e40509b376d0c32822eccc29e00627 drm/i915: Break up error capture compression loops with cond_resched()
+604ac10d9d1e9a85787d53acbba541f420b9cc9e tipc: fix use-after-free in tipc_bcast_get_mode
+caf8f9c19a93ec501d0ffca5e6767a969961baea ptrace: fix task_join_group_stop() for the case when current is traced
+d67543112dc5f39b41f9bd309e47da25be2bb14c cadence: force nonlinear buffers to be cloned
+fe478a589404287513bf4cbb074df80805db9f6f chelsio/chtls: fix memory leaks caused by a race
+75b0b05ace856333c2a94c2173c92973dd027297 chelsio/chtls: fix always leaking ctrl_skb
+63a22c7cb9d9a422e959bd7a01d4af07cfa00298 gianfar: Replace skb_realloc_headroom with skb_cow_head for PTP
+3a40f713276b2a03609749c6ef2e9efe4acdfa1a gianfar: Account for Tx PTP timestamp in the skb headroom
+1a9118379cc7b66bfd2ac030da4af3a712a9e9e2 net: usb: qmi_wwan: add Telit LE910Cx 0x1230 composition
+64752f5cfda61aa7ca12d23ca1ecc7d36e996f93 sctp: Fix COMM_LOST/CANT_STR_ASSOC err reporting on big-endian platforms
+4ff840604a45673bb02dfaaa5f30cd9bc40011e5 sfp: Fix error handing in sfp_probe()
+8a78b4c0d6292d32d76b4268b5a33ae089a5d791 blktrace: fix debugfs use after free
+7f2b9e8d42bd957332dc2af0ba6a77684fe32b1c btrfs: extent_io: Kill the forward declaration of flush_write_bio
+63ece3bb01489e3942bc15e4aa976afcb3cd864f btrfs: extent_io: Move the BUG_ON() in flush_write_bio() one level up
+aa38097b44153d7470ce8956ec4de8f1372390c6 Revert "btrfs: flush write bio if we loop in extent_write_cache_pages"
+169ae603400293e0182469f3adfd135d04a38470 btrfs: flush write bio if we loop in extent_write_cache_pages
+eeda803b77d6cc80c9f9dffcfc86cddc5a52c0fe btrfs: extent_io: Handle errors better in extent_write_full_page()
+22bb77c13fbeeef2e0d0a8506c4efdde41598d32 btrfs: extent_io: Handle errors better in btree_write_cache_pages()
+2311ea7ea04fbc15f51760d3b91f6a8381b06c9a btrfs: extent_io: add proper error handling to lock_extent_buffer_for_io()
+432bdb0d931b3a6e8c8d34ffa29a218479b5f9be Btrfs: fix unwritten extent buffers and hangs on future writeback attempts
+1527c0e0229d2dd1c8ae1e73b1579bd8d5866b5b btrfs: Don't submit any btree write bio if the fs has errors
+5d123c6335e82db8de1e2fe1c15563e003245438 btrfs: Move btrfs_check_chunk_valid() to tree-check.[ch] and export it
+c24ed5ea52165bf44f405aca10d9af0ad593ae86 btrfs: tree-checker: Make chunk item checker messages more readable
+782aa87c8f1d4472fc45697fdddbe8d47b56ebff btrfs: tree-checker: Make btrfs_check_chunk_valid() return EUCLEAN instead of EIO
+3c06c86cd08fdabe2ed20cbc3ea5010dcd7d4b29 btrfs: tree-checker: Check chunk item at tree block read time
+e23e5d2594307d1088e1e1b3621d785add2a57b8 btrfs: tree-checker: Verify dev item
+b5b2a94d846a599a0b843895d3dbd90246d8d1fc btrfs: tree-checker: Fix wrong check on max devid
+bedd9974c106fe96b518da667d49b0bfe6353590 btrfs: tree-checker: Enhance chunk checker to validate chunk profile
+3384e8d72567dc6827d53c66071da61f57c517f7 btrfs: tree-checker: Verify inode item
+cdf69f3b132c95aa255383b2d7907da5ba63221a btrfs: tree-checker: fix the error message for transid error
+11af858054baadff13eb92eb347443f93768fde7 Fonts: Replace discarded const qualifier
+0b443d1aff6d6f3706e48c93d9fe1212a569af4b ALSA: usb-audio: Add implicit feedback quirk for Zoom UAC-2
+69a7cae8656039d4420e8613448387d0ebf494f0 ALSA: usb-audio: add usb vendor id as DSD-capable for Khadas devices
+9a83c225d4b118e65957abbc75bb844f88e5162b ALSA: usb-audio: Add implicit feedback quirk for Qu-16
+df0486a4faee7277932136f2526721f07443ec95 ALSA: usb-audio: Add implicit feedback quirk for MODX
+d4fea27ffcb01bbf8ca8ae54f60479945394b83e mm: mempolicy: fix potential pte_unmap_unlock pte error
+1471e96263b6e68929e7afed28f80ab3b6bd1066 lib/crc32test: remove extra local_irq_disable/enable
+68e8b8ed787a8acafa3e987d52f6d415c5949ec6 kthread_worker: prevent queuing delayed work from timer_fn when it is being canceled
+361d82eb7c301e7473459cb7f1e0d7733cf5e7ec mm: always have io_remap_pfn_range() set pgprot_decrypted()
+fe0af0efa7b1ecb8aebb5e8f44d00db07f564c6c gfs2: Wake up when sd_glock_disposal becomes zero
+b410d07e965a039dc67073889dab9ff01cee8402 ring-buffer: Fix recursion protection transitions between interrupt context
+ee2b95c08515633da67c048beb164966224ffe9e ftrace: Fix recursion check for NMI test
+2de780dfbe1ad05c3f15f8d6f2d22dae9cf95267 ftrace: Handle tracing when switching between context
+7e4eeff7da1df5602e9af340d01b2ce1b4662d3e tracing: Fix out of bounds write in get_trace_buf
+c096a3d44ead54b53a3b65d9d210022099bdc7ef futex: Handle transient "ownerless" rtmutex state correctly
+dffce0f0e7f1c2c421ef488642764d81ff62da0f ARM: dts: sun4i-a10: fix cpu_alert temperature
+f81794c3789dcacf5dc5abe7da557f33e0c60ecf x86/kexec: Use up-to-dated screen_info copy to fill boot params
+b8f922aa95aa07759623e2adab65bdba8811e808 of: Fix reserved-memory overlap detection
+6dba51828dfd31e326e6642727ede24c054a86fe blk-cgroup: Fix memleak on error path
+239aed5d2ecbfd381ca642f0a6bcb272c98408df blk-cgroup: Pre-allocate tree node on blkg_conf_prep
+6280db912e03089b15a3e2c2882d573d3b09bd0c scsi: core: Don't start concurrent async scan on same host
+1aa82721dd74c9f08337ea0a22689eb2a94634ae vsock: use ns_capable_noaudit() on socket create
+6eecfcbcde431904e5837d285e9e99b5a5eac02c drm/vc4: drv: Add error handding for bind
+a52cdf61125b2189a8e1d85d1e61d654f7fe5d4d ACPI: NFIT: Fix comparison to '-ENXIO'
+6612b754ac0c85ca8b1181b5d3ea4461a8c1bbcb vt: Disable KD_FONT_OP_COPY
+b177d2d915cea2d0a590f0034a20299dd1ee3ef2 fork: fix copy_process(CLONE_PARENT) race with the exiting ->real_parent
+18f5757d7fd3ae455c2fcfd60efd5242ea9836f6 serial: 8250_mtk: Fix uart_get_baud_rate warning
+288609c2bae2b08a21d1c794053c7e761620a946 serial: txx9: add missing platform_driver_unregister() on error in serial_txx9_init
+202dae99e649d49355133d2bb9150244fd7695e5 USB: serial: cyberjack: fix write-URB completion race
+3411d382f62132df82fb697c79ef3c4a7b9c741b USB: serial: option: add Quectel EC200T module support
+6ea688db659c49334256d2dc69dc45f1e93f3594 USB: serial: option: add LE910Cx compositions 0x1203, 0x1230, 0x1231
+59187e8bba015683ac00a1e10895a18443249cee USB: serial: option: add Telit FN980 composition 0x1055
+327a8935379f2e9b73b1c0f7345df321d6b42c88 USB: Add NO_LPM quirk for Kingston flash drive
+83a282f990ba94103eb49be1ad69a8e4b2de4fbd usb: mtu3: fix panic in mtu3_gadget_stop()
+a7443bebdecaa474900ee5eec5da69de63686c24 ARC: stack unwinding: avoid indefinite looping
+2590411220774522fe00c598e089cc11baebe26e Revert "ARC: entry: fix potential EFA clobber when TIF_SYSCALL_TRACE"
+292e5700f4db841593141e9a3b1210e94bc8f74f PM: runtime: Resume the device earlier in __device_release_driver()
+29a975bcc107d68e379a55048813ddf3e7b120b8 perf/core: Fix a memory leak in perf_event_parse_addr_filter()
+3ab5872df9211447be82d0b01a2ec5731aa20621 tools: perf: Fix build error in v4.19.y
+8069a08d35b72e16486a6a81eb06f964b2e1432b net: dsa: read mac address from DT for slave device
+779d3e303977edbe43c4f0017d1553b4306d8d9e arm64: dts: marvell: espressobin: Add ethernet switch aliases
+53fff24aaf01dcb09cbfabbe060f42db8e61ab01 Linux 4.19.156
 900281e167f45e0c0e5df6e59fa00334b5e38133 powercap: restrict energy meter to root access
 31acccdc877486a649a86d37725a15175fcd5ed6 Linux 4.19.157
+66db9e71353e20deaaa5dd3f9a29b44dbb5a3214 arm64: dts: renesas: r8a774e1: Add FCPF and FCPV instances
+0109ae631fe841a57168563b73a5926575363359 arm64: dts: renesas: r8a774e1: Add VSP instances
+01637a5f304efec3ed2954637c37ce87f52ef25d arm64: dts: renesas: r8a774e1: Add FDP1 device nodes
+d3e70af9fc25c92e4ff690c2b0df2b2552eeec5d dt-bindings: display: renesas,du: Document r8a774e1 bindings
+a4085029e614e54772e84af98428cdcf068b3766 drm: rcar-du: Add support for R8A774E1 SoC
+48e743c1d9a9462c34bf637bc555e5598a4faf80 arm64: dts: renesas: r8a774e1: Populate DU device node
+fff8e14b7eb7e2e6bbe85e18cf20d1348db2bac5 dt-bindings: display: renesas,dw-hdmi: Add r8a774e1 support
+57c6c9854a364200d0027deaa7474dd25c3ba8af arm64: dts: renesas: r8a774e1: Populate HDMI encoder node
+c4e578e8d1c43298b080f7df686caa517ffc8686 dt-bindings: display: renesas,lvds: Document r8a774e1 bindings
+b03124df24aa2f571b4a67fad1ee59a8a30fc97a drm: rcar-du: lvds: Add support for R8A774E1 SoC
+888541d344d06ffcd3617cf8da7e88c9b311198c arm64: dts: renesas: r8a774e1: Add LVDS device node
+9143222fa9f252226c2ac00ecdce5279edac64bd arm64: dts: renesas: r8a774e1-hihope-rzg2h: Setup DU clocks
+8a2797765867efb2ec408f9026e398b5f2182165 dt-bindings: pwm: renesas,pwm-rcar: Add r8a774e1 support
+a1726ca3a0f2905ed8b8ae66716599dcc217eaf2 arm64: dts: renesas: r8a774e1: Add PWM device nodes
+77ed2ae0b7460ff740b3590e53a0f857b2be4dbb arm64: dts: renesas: Add HiHope RZ/G2H board with idk-1110wr display
+b2824067f1841c2759e78473edd7da592e75de63 dt-bindings: sound: renesas, rsnd: Document r8a774e1 bindings
+457c2de2e3bbeb2d4271ab7ac037a0fb2d620b00 dt-bindings: phy: renesas,usb2-phy: Add r8a774e1 support
+20bd1ff6123ba95e1cbafdef933a4ea43c2ccbf0 dt-bindings: phy: renesas,usb3-phy: Add r8a774e1 support
+bab36566f0d615ee6c7afefbfc085e404e64eb7c dt-bindings: dma: renesas,usb-dmac: Add binding for r8a774e1
+b2c64a6c1c116924fce13982d56368207f3b2ee1 arm64: dts: renesas: r8a774e1: Add USB2.0 phy and host (EHCI/OHCI) device nodes
+ccc5446d216fca2012a328c388b629144611ebd9 arm64: dts: renesas: r8a774e1: Add USB3.0 device nodes
+b22e79bf6e1a666e13c6932f4753d470bfef48f1 arm64: dts: renesas: r8a774e1: Add USB-DMAC and HSUSB device nodes
+6c5316cb1052d2d47c15225a37cf0071d6bd1f5f Merge tag 'v4.19.157' into linux-4.19.y-cip
+d0a2919cfb81bc30f7def0b39f5cb1e370051f7a CIP: Bump version suffix to -cip38 after merge from stable
 39e66c8161b9755f1e1fadd359920310bf720b8a mm/memcontrol: Disable preemption in __mod_memcg_lruvec_state()
 7103517ca97f4d7eeb361aec644e6ed7afce5ff3 ptrace: fix ptrace_unfreeze_traced() race with rt-lock
 7d222dce964ddb0be42ae4f2f45beb1beaee19bd regulator: defer probe when trying to get voltage from unresolved supply
@@ -170,6 +717,8 @@ f1b0b8c2b7e7f0e6c90ec09696d92b02b81d2307 powerpc/8xx: Always fault when _PAGE_AC
 509b5cf71edf59c0e8e879b7295151bc0ba1525a KVM: x86: clflushopt should be treated as a no-op by emulation
 7a74bd35c932698921c08399d8fcb2e84cff32cc ACPI: GED: fix -Wformat
 76bda503e6406539b1ad5adefe69d3df439ee97f Linux 4.19.159
+3f7f0ee25fafe541e7077255b4e884ade7d75c87 arm64: dts: renesas: r8a774e1: Add missing audio_clk_b
+1f7b79ed1826acdde3dd809d7e63e0677808a210 arm64: dts: renesas: r8a774e1: Add audio support
 f8c18eab5413d1edbfdeda8e8102780c5af8c64d ah6: fix error return code in ah6_input()
 735d1d973e6d0aae5f6875e7d9b087d2ccfed076 atm: nicstar: Unmap DMA on send error
 d05c9bcab23ecbc68632c4fc8eda9af9c89eb647 bnxt_en: read EEPROM A2h address using page 0
@@ -262,6 +811,7 @@ a1bf9efcf4a047c80662d5509806da4cf50cfaf6 s390/cpum_sf.c: fix file permission for
 526d963441acf60edb9f0d348eef2b24edfdbffe x86/microcode/intel: Check patch signature before saving microcode for early loading
 dc94f8e932b596926649fa2778eff8d90495e0ff mm/userfaultfd: do not access vma->vm_mm after calling handle_userfault()
 0c88e405c97ed1828443b67891e6d4bb6e56cd4e Linux 4.19.160
+e34b732214174c967a6221f23a976fc2aa37985c Merge tag 'v4.19.160' into linux-4.19.y-cip
 90f9b8ff7558cfda6bc76c9b35e6cfae891bd133 Merge tag 'v4.19.153' into v4.19-rt-work
 78dd4df1e40d58c565c42d6356e4136f1f8adea1 Merge tag 'v4.19.154' into v4.19-rt-work
 6ab8ad090498ab60028ab5837cf8dd708585d8b5 Merge tag 'v4.19.155' into v4.19-rt-work
@@ -273,806 +823,13 @@ aa4547e8b2216190b947542b3da4c3860d0bee02 Linux 4.19.158-rt68
 0224c63fec4c4c2f61c48159b48f07e7bdece73a Merge tag 'v4.19.159' into v4.19-rt-work
 7570a001513cd15936231a9dca6012c8603a08df Merge tag 'v4.19.160' into v4.19-rt-work
 de0586f55c33891d912bd4ce3e9f76163c4c05a3 Linux 4.19.160-rt69
-f57a31607f5e8ee968911d835e95524fc44abecc CIP: Add a number to the version suffix
-f8cbe413b30a38f409fd387e0ddd42b07e296002 dt-bindings: pinctrl: sh-pfc: Document r8a774a1 PFC support
-5b6e2888154fe152f8cc6226d7457b1de51e3a19 pinctrl: sh-pfc: r8a7796: Add R8A774A1 PFC support
-b4df09698297c16b9b4e059af4ffca3fcbfd4c5c dt-bindings: pinctrl: sh-pfc: Document r8a774c0 PFC support
-9f58110a0b8cc478b2e63477aba2dfa1a835d9af pinctrl: sh-pfc: r8a77990: Add PWM pins, groups and functions
-fa8865889a3e7f523390c0504231496a12bf263d pinctrl: sh-pfc: r8a77990: Add DU pins, groups and function
-ef4bafa986551861ebe4052decc8c4fac04936b8 pinctrl: sh-pfc: r8a77990: Add MSIOF pins, groups and functions
-43ec8ff4eea77bbd2dd7eb1ade8f0ef87df3148f pinctrl: sh-pfc: r8a77990: Add R8A774C0 PFC support
-cdcec75b066be19f55bb4117f7c563e23cef187c dt-bindings: arm: Document RZ/G2M SoC DT bindings
-b0c1265c7db071a1b7738a0627f3a986fd6af66a dt-bindings: arm: Document RZ/G2E SoC DT bindings
-9b9e5011519631c419dad49da67fe9dc5730bce5 dt-bindings: arm: Fix RZ/G2E part number
-bed35ff3ba3baf3b480025d49682495803b1b082 soc: renesas: Identify RZ/G2M
-298bf26a16a87d1db2244881fce29c5337ed76ed soc: renesas: Identify RZ/G2E
-341aa3fcee824ae22d6886e08f7717c4e9af93e1 arm64: Add Renesas R8A774A1 support
-08c11fe68422f3aa6a28ed7a4a4ad5acf3865818 arm64: Add Renesas R8A774C0 support
-c9ee314f8e35407e7a5a8ebc09d5db612b4b0c23 arm64: defconfig: enable R8A774A1 SoC
-693c94e60c7eefa6ea27a0ed43c47ffdf41b9111 arm64: defconfig: enable R8A774C0 SoC
-f946c406b6d3927ba9d50fba2612dd36fe829e61 dt-bindings: power: Add r8a774a1 SYSC power domain definitions
-105efa90c370d85de57c6b80654fe9fa6fedcaa6 dt-bindings: power: Add r8a774c0 SYSC power domain definitions
-874fa6895c73bb74e76336df33f2e69c84f0053b soc: renesas: rcar-sysc: Add r8a774a1 support
-a0a56730d26a7f47e42f9ec5a86dfd3e3072ef99 dt-bindings: power: rcar-sysc: Document r8a774c0 sysc
-c2f06f5afd9a09ac8f676b6da18c01705ff89313 soc: renesas: rcar-sysc: Add r8a774c0 support
-690d360845f5c8a0193ddfc6eeb45dc29106dd6b soc: renesas: rcar-rst: Add support for RZ/G2M
-91e390c11060ea02efff2a62ef2d8038dc30db30 dt-bindings: reset: rcar-rst: Document r8a774c0 rst
-413c7ca92f1e29230ba01f0b765b10301d873ed7 soc: renesas: rcar-rst: Add support for RZ/G2E
-c9d3830c229cb0358604923be6a379a18373214e dt-bindings: irqchip: renesas-irqc: Document r8a774c0 support
-65155553004fce9c0b5cdec3588bdef2f364d456 ARM: dts: socfpga: Rename socfpga_cyclone5_de0_{sockit, nano_soc}
-f7b6379bb93de8f1d0ac5f7589d4a45f66a86e67 dt-bindings: arm: Add si-linux cat87[45] boards
-b68932ac85299fa44aed4354b5e50e628deb8c3d arm64: dts: renesas: Initial device tree for r8a774c0
-7cdd7c12c9c3f1b0d7ec3dd461ce53b41beeecb0 arm64: dts: renesas: Add Si-Linux CAT874 board support
-2b1d3dfc8e1b89a93f54c7c12f2bc35dbd465515 arm64: dts: renesas: Add Si-Linux EK874 board support
-c9fcc8fb20514094b52a959ec89a452094626abd dmaengine: rcar-dmac: Document R8A774A1 bindings
-a1154b3874e3bf789233f0dd5d399cb9a7da51c6 dmaengine: rcar-dmac: Document R8A774C0 bindings
-ae3672856c3dcc34846a5f4e50bb3eab6263f82c arm64: dts: renesas: r8a774c0: Add SYS-DMAC controller nodes
-6789143a35e33e543cb7498132505fb4697566ae dt-bindings: serial: sh-sci: Document r8a774a1 bindings
-a0e62e43873fd9798bbd3b85928f9545426eb18c dt-bindings: serial: sh-sci: Document r8a774c0 bindings
-fb85eece83015e300e143daa6d8d612b9e6f6d55 arm64: dts: renesas: r8a774c0: Add SCIF and HSCIF nodes
-3a16257583a44bd0bc275ea1a73779eba310de55 clk: renesas: Add r8a774c0 CPG Core Clock Definitions
-850c9f2e93756efc7ee08f05c463efa669ad964f clk: renesas: Add r8a774a1 CPG Core Clock Definitions
-b5ab7afdba273dbfd8c618ff0bb9f7a863ed6322 clk: renesas: rcar-gen3: Add support for OSC EXTAL predivider
-04251011b5d84e12cd9f403d05a2d9c7f06eab30 clk: renesas: cpg-mssr: Add support for fixed rate clocks
-173e7d5af90e4055c9df1826b5a624f8f34981e6 clk: renesas: rcar-gen3: Add support for RCKSEL clock selection
-f30f2b63231c4c9b91454812d35c4b6e37cc1a20 clk: renesas: rcar-gen3: Add support for mode pin clock selection
-84e978afc482113b98b28e29ae8b6dfb91000921 clk: renesas: cpg-mssr: Add r8a774a1 support
-225b96f3c77b492becb6716ed5c2e4e63813ee79 dt-bindings: clock: renesas: cpg-mssr: Document r8a774c0
-d4b1512869636a08381cd48a80e88eaa993e7d51 clk: renesas: cpg-mssr: Add r8a774c0 support
-35fe4d67091ca5971d93d4f92c023f24ec7d22bd arm64: dts: renesas: r8a774c0: Add secondary CA53 CPU core
-76081ec89f9dfb1370601d9bb93d6f5ca9f4068a pinctrl: sh-pfc: rcar: Rename automotive-only arrays to automotive
-e2de2167c0ea3c4e348ed1012ce24c2a77586897 pinctrl: sh-pfc: r8a77990: Add INTC-EX pins, groups and function
-0bb556845b04c5bce17f8e8ce7ca4593a6592f9e arm64: dts: renesas: r8a774c0: Add INTC-EX device node
-043f22705e62847b2c4709813a449f77317ae9e1 arm64: dts: renesas: r8a774c0: Add PFC support
-edae06e09d1eacafbd04c8923c3e6fda9f359bb3 dt-bindings: gpio: rcar: Add r8a774a1 (RZ/G2M) support
-8e13a6c75a5f8465d7d72d17eeba1c1714d71b30 dt-bindings: gpio: rcar: Add r8a774c0 (RZ/G2E) support
-4f9823a98122db6cecdf499639cf81263712bd4e arm64: dts: renesas: r8a774c0: Add GPIO device nodes
-8e608ad6835bba8ee6e9c8feb7a924d24f6c6ba9 arm64: dts: renesas: r8a774c0-cat874: Add pincontrol support to scif2
-075fb943c4dde41999ee73e2f98ed43c9ba61416 pinctrl: sh-pfc: r8a77990: Add Audio clock pins, groups and functions
-b57cf54beb29e0407a743bbe1be2cebc03c961d4 pinctrl: sh-pfc: r8a77990: Add Audio SSI pins, groups and functions
-715ca0dfd6a5b09a550a41420d65b287f7f4a5cb pinctrl: sh-pfc: r8a77990: Add SDHI pins, groups and functions
-ccca38abfc6474809e3caad9a3eab7ede8976546 pinctrl: sh-pfc: r8a77990: Add voltage switch operations for SDHI
-1cdaa8301848cb9cd616ebd2a5d78bdecbb777f7 mmc: renesas_sdhi: Add r8a774a1 support
-4751dc9dea7999e1d716fc17a9e5c02aeb703aba dt-bindings: mmc: renesas_sdhi: Add r8a77470 support
-2af4299acb3a85eb2fe6b836c67ae6b68c982a52 dt-bindings: mmc: renesas_sdhi: Add r8a774c0 support
-26d72a4d2bf4e0c0c11e6431ea2fcd00337f5037 mmc: renesas_sdhi_internal_dmac: Whitelist r8a774c0
-432ffb68bbd9a6186018e8f1cd7c5c98a95b3e36 arm64: dts: renesas: r8a774c0: Add SDHI nodes
-5d594aa1de6cf5c433aae0321b4fc746f5826f51 arm64: dts: renesas: r8a774c0-cat874: Add uSD support
-dd71c480fad5cddce8947c69f3d169b7835f8ebd dt-bindings: net: ravb: Add support for r8a774c0 SoC
-7c0ccc55282bdf959e35ea4bf28287d265133efb arm64: dts: renesas: r8a774c0: Add Ethernet AVB node
-4ebef4a1177b3a67c298134ac90a899a0b081039 arm64: dts: renesas: cat875: Add ethernet support
-ea6c8973da031d563a53200c6d1616e724ffe296 dt-bindings: watchdog: renesas-wdt: Document r8a774c0 support
-c06dd6788d6cfef87ae564a8ddfb29f6f5ccc03a arm64: dts: renesas: r8a774c0: Add watchdog support
-146b0cfc4bd830299399f3078ddc1b90db8b9552 pinctrl: sh-pfc: Reduce kernel size for narrow VIN channels
-b57e3be2f67ab367718ff40b409f0febeadb7512 pinctrl: sh-pfc: Add optional arg to VIN_DATA_PIN_GROUP
-0b205273cd461ddaaee509183cb650c00769905a pinctrl: sh-pfc: r8a77990: Add VIN[4|5] groups/functions
-6d21f0d72b5f0b46b6673999c23ac24863ea0932 pinctrl: sh-pfc: r8a77990: Add HSCIF pins, groups, and functions
-451cb8ac81bf542c68f908d2e52dd923bc22c02b i2c: sh_mobile: document support for r8a77990 (R-Car E3)
-d918d5a3f1d80f59cbbd89d824eac06bfabe53cd dt-bindings: i2c: sh_mobile: Add r8a774c0 support
-8593519cebb4ed38c4b2d016c55f81a36ecb7f1a dt-bindings: i2c: rcar: Add r8a774c0 support
-69c284b5dc848cb5a1d11b9f311674c371ca4238 arm64: dts: renesas: r8a774c0: Add I2C and IIC-DVFS support
-12641cebd441d660f891c982d8c336ba0753caa7 spi: sh-msiof: Add r8a774a1 support
-f5a3440c763765e08728b79a2b00d86886684373 spi: sh-msiof: Add r8a774c0 support
-7e234f0940c5ff861a6448ad64626e22159f5950 arm64: dts: renesas: r8a774c0: Add MSIOF nodes
-f4b754a6d763930dec0fc2b9bff90fc0a403a319 dt-bindings: PCI: rcar: Add device tree support for r8a774c0
-dd9ad1f6351250a6a1473e477f99346d685cad84 arm64: dts: renesas: r8a774c0: Add PCIe device node
-df13f98d67f75e9178e37a41f5da2bf2183d2718 arm64: dts: renesas: r8a774c0-cat874: Add pciec0 support
-6cfe961c115e22db5e2eb10af07cb67ea8fcf41f arm64: dts: renesas: cat875: Enable PCIe support
-7e16ea92f9c2c80f4cd04b9e3866821a758b8fd8 pinctrl: sh-pfc: r8a77990: Add CAN pins, groups and functions
-2e7cf792fadf5750f90005a43c084b6cb7e91232 pinctrl: sh-pfc: r8a77990: Add CAN FD pins, groups and functions
-34f5caa21a68574ad33144fb459ad1bc6cd4138f pinctrl: sh-pfc: r8a77990: Fix IOCTRL reg state after s2ram on R-Car E3
-31a0058b9a983a5ee36d4172be8976f7a9341499 pinctrl: sh-pfc: r8a77990: Fix MOD_SEL0 bit3 when using TX0
-143fe24f23dbc013a949243e395c9d2b00234e80 pinctrl: sh-pfc: r8a77990: Fix MOD_SEL0 bit2 when using RX2, TX2 and SCK2
-b8bfeecb86125540dc62d2044fa5fb5c95edc6c4 pinctrl: sh-pfc: r8a77990: Fix MOD_SEL bit numbering
-a5283cea8a616c693763b4c5909bc26b561304dd pinctrl: sh-pfc: r8a77990: GP6_9 does not have pull-down capability
-8688044c2323fcfeaeb10373b982c7b99e33c488 pinctrl: sh-pfc: r8a77990: Add TMU pins, groups and functions
-30b8a7944ce64541923e747d9507916956beb4cd pinctrl: sh-pfc: r8a77990: Add DRIF pins, groups and functions
-6e7a09e67387e866c1d7d65ad35abf8166b893f7 clocksource/drivers/sh_cmt: Convert to SPDX identifiers
-61a51b4ff91956b043cb8509d5dc628b09801e01 clocksource/drivers/sh_cmt: Properly line-wrap sh_cmt_of_table[] initializer
-e8514529c94530c8741f6274774d6f193fa8a347 dt-bindings: timer: renesas: cmt: document R-Car gen3 support
-eb22236f5040ab41be2be8746a0544676ea8e53d clocksource/drivers/sh_cmt: Add R-Car gen3 support
-03ff69a1155b7dd54c19a78d9bb9863077230385 dt-bindings: timer: renesas, cmt: Document r8a774a1 CMT support
-56009fabbb050672e0c0c7ac16c36a1cbca83e13 dt-bindings: timer: renesas, cmt: Document r8a774c0 CMT support
-7da2455b7035fd20161c7ae9a9282d284da6c8c8 arm64: dts: renesas: r8a774c0: Add CMT device nodes
-5060224f3d2d41ce48a15ca35aa8eddea33eb87d clk: renesas: r8a774c0: Add missing CANFD clock
-5a9cbac42649d3f83d87bd2c7851213e8be245d0 clk: renesas: r8a774c0: Correct parent clock of DU
-76a6f52a5af1a8ecd4d5b1d31ba7dc79d947e36d clk: renesas: r8a774c0: Add TMU clock
-88b52cbb06d65a4152149954e501a34e328d19cc clk: renesas: r8a774c0: Fix LAST_DT_CORE_CLK
-f25e8fbb10377facda236fc257981220447c1632 dt-bindings: timer: renesas: tmu: Document r8a774c0 bindings
-5a4fda195cd812d141e99b622050d3195ed04385 arm64: dts: renesas: r8a774c0: Add TMU device nodes
-cd724dacf114a9def717aec3341aa21c31bd59db clocksource/drivers/sh_tmu: Convert to SPDX identifiers
-adbdf4f27fbf620df8c432f1663e0d6bf382a606 arm64: enable CMT/TMU support for Renesas SoC
-97fc20c7c28a12dffbf254ff6baba021e235a34f arm64: renesas: Enable GPIOLIB to allow GPIO driver selection
-8b3f77e4a52d24f8647d752432e88b67a030a6b1 dt-bindings: rcar-gen3-phy-usb2: Add r8a774a1 support
-ac9be0ec45c24f5f16650799475b073cdda3a4bf dt-bindings: rcar-gen3-phy-usb2: Add r8a774c0 support
-8714b2ddf9d7740b0928c54fad561cc2addbed14 arm64: dts: renesas: r8a774c0: Add USB2.0 phy and host device nodes
-c8e79681aa99e0fce13facd1295a745530c48be9 usb: renesas_usbhs: Add reset_control
-1bd6875fa2cf75a5c62b4ded67b36c08d72e4f79 usb: renesas_usbhs: Add multiple clocks management
-385cc87b37b4764238439fdcc1d882370899d468 Revert "usb: renesas_usbhs: add extcon notifier to set mode for non-otg channel"
-6c27d7904e45fa11f5f9f3ae77c5fb67206274ad dt-bindings: usb: renesas_usbhs: add clock-names property
-e9065f0c13ac6bb48ff5e2329282c3e50af41dd1 dt-bindings: usb: renesas_usbhs: Add r8a774c0 support
-c370c20abea3f97913c12cfcb78a11681382c06a dt-bindings: dmaengine: usb-dmac: Add binding for r8a774c0
-6b49caa602c00c7066556940d56143566b9d09f0 arm64: dts: renesas: r8a774c0: Add USB-DMAC and HSUSB device nodes
-c635b47e52b3119e3910c99a6873ee167e6ff8d9 usb: gadget: udc: renesas_usb3: add support for r8a77990
-c6f085181828e8f9116c7b15398ee9d29d3e4eb6 usb: gadget: udc: renesas_usb3: add support for r8a774c0
-d169173530efff30d871e28e564add888cc9df40 usb: gadget: udc: renesas_usb3: Add r8a774a1 support
-da22e425122fa7d12beaab6943c33b7d5cbf324b usb: gadget: udc: renesas_usb3: Add bindings for r8a774c0
-c4e37c3856defe35fca19257ab25677368eb3fb5 arm64: dts: renesas: r8a774c0: Add USB3.0 device nodes
-adaf51da052f46cc7a480f6ce3f4694ff5e411b5 iommu/ipmmu-vmsa: Hook up R8A774A1 DT maching code
-727cc8c2c39a9865a81b444d32f18e00fb8f3567 iommu/ipmmu-vmsa: Modify ipmmu_slave_whitelist() to check SoC revisions
-ab1a77d9945f54c7a2501ba15994dc59f7808ce2 iommu/ipmmu-vmsa: Hook up r8a774c0 DT matching code
-250311f135c9dac80bc3c741b6d45e986566ae49 dt-bindings: iommu: ipmmu-vmsa: Add r8a774a1 support
-4199d04db05d1b48057466a17861a46eaed8791d dt-bindings: iommu: ipmmu-vmsa: Add r8a774c0 support
-d9575e90ed0e943daf5a8c16c7d7ef114cb13b81 arm64: dts: renesas: r8a774c0: Add IPMMU device nodes
-260d5b35998bb106eec3a95a8de5701f30df3576 media: rcar-vin: Add support for R-Car R8A77990
-55c779cb39b965340162ce50c5a5a46a4c4ef213 media: rcar-vin: Add support for RZ/G2E
-0b08cb800161d19756e22921cc74d88a2b62c07b media: rcar-csi2: Add R8A77990 support
-fd61c4f55339a40d3696d2cc4c72f89302d1e423 media: rcar: rcar-csi2: Update V3M/E3 PHTW tables
-06f467e9a2379636c590bc286a09fab44d3db287 media: rcar-csi2: Handle per-SoC number of channels
-cc09c31d865e979f460549ca9c23233e35398309 media: rcar-csi2: Fix PHTW table values for E3/V3M
-ef51d6f309355cf439d712b3619f94719cfcbd0f media: rcar-csi2: Add support for RZ/G2E
-fe0f813d2f1775627c7ec499608641c5a8b82ecf media: dt-bindings: rcar-vin: Add R8A774C0 support
-129639be2faac6c33ae48054f34a8bd98417f252 media: dt-bindings: rcar-csi2: Add r8a774c0
-c049463794237293faeeef22035e3a3e7e791cfd arm64: dts: renesas: r8a774c0: Add VIN and CSI-2 device nodes
-7f5996a62ef1f6337bc98282f9789093bbb0249a ASoC: rsnd: Add r8a774a1 support
-b42f146d1cfe96139963dc80e610f1b6e15128cd ASoC: rsnd: Add r8a774c0 support
-9272f59b434ac8ce40e476ca6f024ac9634a4c2b arm64: dts: renesas: r8a774c0: Add audio support
-128efe89397c6ae9642f13df5a6de5e2910cd074 dt-bindings: pwm: rcar: Add r8a774a1 support
-719971a1d5f1b0b0abc121cf1be8ecc8a821b72d dt-bindings: pwm: rcar: Add r8a774c0 support
-21bbb7f6364715cb5bbe3612febe1d2164c82272 arm64: dts: renesas: r8a774c0: Add PWM support
-3d9b79eee13fecc53d8027c17c1a5eebf8d3f40e arm64: dts: renesas: r8a774c0: Connect RZ/G2E SYS-DMAC to IPMMU
-434bb08f1974da0b92ab091016def6f5d2e1cde5 arm64: dts: renesas: r8a774c0: Connect RZ/G2E AVB to IPMMU
-513e3231a6803f9e56f134ff8d2231aba32611fd arm64: dts: renesas: r8a774c0: Connect RZ/G2E Audio-DMAC to IPMMU
-b3b538691bed3bbf700d462a0bf5b63e0e97d420 thermal: rcar_thermal: add R8A774C0 support
-600fe0f6fe31fd79f3780854f26fcaaebabceb05 dt-bindings: thermal: rcar-thermal: add R8A774C0 support
-c1924c86ed8d296e349c2bd4b4619b0f2adf7d6e arm64: dts: renesas: r8a774c0: Add thermal support
-0d879ed11f50622c5709fe34ed221690deb2691c arm64: defconfig: Enable R-Car thermal driver
-29c2666cc9dac14a01adbf63952a5719d7ace260 CIP: Bump version suffix to -cip2 after Renesas patches
-6790706d51d41ba2d43df651cbea426af34ce259 dt-bindings: Add vendor prefix for Silicon Linux.
-05e539c9c23d3e79121dd85f3a8ff6fb870f163a CIP: Bump version suffix to -cip3 after merge from stable
-84ff23d6cae0cc537cb37e542bf99e0d89100c83 CIP: Bump version suffix to -cip4 after merge from stable
-c29ccc3dccc034c3d537b60121b21a9e184367a9 CIP: Bump version suffix to -cip5 after merge from stable
-6aec4c9490e024f3d4401ab5862705e21e6c764a CIP: Bump version suffix to -cip6 after merge from stable
-804e45f4a400c67a06d1795702e0571f3c2428cd Add gitlab-ci.yaml
-9833371957872b6dc46b8cb0c5c8b93be5781bef clk: renesas: r8a774a1: Add CPEX clock
-426c4b265892ee5d40f096005f301e2a168e16a1 clk: renesas: rcar-gen3: Add documentation for SD clocks
-d3fde081ea56e98c384daf2aeff4826335cba9aa clk: renesas: rcar-gen3: Add HS400 quirk for SD clock
-4f850e8f0296d275248f5f57c15fa72fe58ccbaf clk: renesas: Remove usage of CLK_IS_BASIC
-e24ebf862ec81c3cd9b5441faff2506ae1bd955a clk: renesas: r8a774a1: Add missing CANFD clock
-bf9cb2c653104e886615ca0f190a52387749c656 clk: renesas: rcar-gen3: Factor out cpg_reg_modify()
-b2c6045bc03af5dab00119c1cb3fdfffb8c2b448 clk: renesas: rcar-gen3: Add spinlock
-afe5f65c72f7561fb1d2b6f903a4461f28a48d85 clk: renesas: r8a774a1: Fix LAST_DT_CORE_CLK
-9d661f7ecbf5508f59acaf2ba57d050c8419a3bd clk: renesas: rcar-gen3: Pass name/offset to cpg_sd_clk_register()
-d8105c44b50d1d1c09e38918c0da8e73b7e18250 clk: renesas: rcar-gen3: Parameterise Z and Z2 clock fixed divisor
-77b278b9913a58d65c4ecfe2edd70b684705cbd9 clk: renesas: rcar-gen3: Parameterise Z and Z2 clock offset
-6fd7091c7c4a436a33f46e4bfd6ab4fcb64fe31c clk: renesas: rcar-gen3: Remove CLK_TYPE_GEN3_Z2
-3bc195b816a2c6a8671090da30627671d82b4117 math64: New DIV64_U64_ROUND_CLOSEST helper
-d353436a3669b5be022122a6cd2b922225b08c64 clk: renesas: rcar-gen3: Support Z and Z2 clocks with high frequency parents
-6a7710b35aea13978b2b431215e8775d67817847 clk: renesas: r8a774c0: Add Z2 clock
-931d96648971b3a04676b0d41c98b3b5a1311db9 clk: renesas: rcar-gen3: Correct parent clock of EHCI/OHCI
-c609e9ac9ba254ef6a5e480c00f17fd3e8aa4866 clk: renesas: rcar-gen3: Correct parent clock of HS-USB
-d93b7d2d6728ef93ecaabead634eacb95693dfc8 clk: renesas: rcar-gen3: Correct parent clock of SYS-DMAC
-fb63b338b81f18e8428896855962a8cd0c6b09f8 clk: renesas: rcar-gen3: Correct parent clock of Audio-DMAC
-3c8af5d042e7f844458e73b358a3327d278fb7ef clk: renesas: rcar-gen3: Fix cpg_sd_clock_round_rate() return value
-fa3814a19a5ec36fcc1f6e80388f048a222a0bdf clk: renesas: rcar-gen3: Remove unused variable
-d17b2c60690c628033ca6bab37f068c7347af481 arm64: dts: renesas: r8a774c0: Add OPPs table for cpu devices
-369108b4dbf5d5ed17053a42f537218cd3d3f203 arm64: dts: renesas: r8a774c0: Fix cpu nodes style
-cbfd976cabc2547218b981ee2530750b678b74d1 arm64: dts: renesas: r8a774c0: Add CAN nodes
-9bd85451ef6db491d496e64d90136b123f554dca arm64: dts: renesas: r8a774c0: Add clkp2 clock to CAN nodes
-024028e1a637ea4cedec163303ca2e8bb1a59c12 arm64: dts: renesas: cat875: Add CAN support
-fda29371210315fc6069d673f7fbc9d60c830b67 phy: renesas: rcar-gen3-usb2: Rename has_otg_pins to uses_otg_pins
-f34d490de69b68c4056e8986169aa033fd6ac928 phy: renesas: rcar-gen3-usb2: Check a property to use otg pins
-4594d74a1ff631c271537e96ccf39599c8746e6c phy: renesas: rcar-gen3-usb2: unify OBINTEN handling
-e0915f2e6cce9c1ee25e0663867d3cda9c451428 phy: renesas: rcar-gen3-usb2: add conditions for uses_otg_pins == false
-eb7a42b514e173b5775bdc7e1f47dbb7ffb861c2 phy: renesas: rcar-gen3-usb2: change a condition "dr_mode"
-d877b91fc77e4a209c7d232e79d06a213917d6d5 phy: renesas: rcar-gen3-usb2: add is_otg_channel to use "role" sysfs
-ecf0675e166dc5d73d16ffd6cace8a119918080e phy: renesas: rcar-gen3-usb2: follow the hardware manual procedure
-9c4f7d47a08ed26e034e260fd99667229571813e phy: rcar-gen3-usb2: Add support for r8a77470
-172cbfb86ed9e434563fa34c9757d1b7ad845898 phy: renesas: rcar-gen3-usb2: Use pdev's device pointer on dev_vdbg()
-7e7e31907ad6a23e884a54127eb44ebd94c9caca phy: renesas: rcar-gen3-usb2: enable/disable independent irqs
-ff170b8adbe973cf814c295f27392d2962a00705 arm64: dts: renesas: cat874: Add USB-HOST support
-5d22003ef8706a862026e07fbe4e178b9cf97eea rtc: nvmem: use devm_nvmem_register()
-f81249420b295b865e3fd3031f24fe4a1d8c3b5a rtc: nvmem: remove nvmem from struct rtc_device
-2572f194c44a686ec2fe91fe3072d32ddd8744eb dt-bindings: rtc: add rx8571 compatible
-4b0724ff9e792578430dcc4ba4857a50a5c2a900 rtc: rx8581: Add support for Epson rx8571 RTC
-dff8abd1b60b5088b95d35570a14b10d7d3c54c0 arm64: defconfig: enable RX-8581 config option
-af9b5ad1deb5ef1dd479308eb3b2a27431963677 arm64: dts: renesas: r8a774c0-cat874: add RTC support
-083fdbb0ca991f371a9aa23285cfd0c62d8d1ca2 arm64: dts: renesas: r8a774c0-cat874: Add LEDs support
-ecc0d7dccfd8bc46b6393cb45d3fb30b3411ed8c arm64: dts: renesas: r8a774c0-cat874: Add RWDT support
-c5aeddf0b7db2fd1964f1d069d4421bcfdfdba7e arm64: dts: renesas: r8a774c0: Enable DMA for SCIF2
-a859b078c74ea6faaa97c156b121d36842c957bc arm64: dts: renesas: r8a774c0: Fix SCIF5 DMA channels
-5eef068ea28609f8283b4262c7c70d575f624ecd arm64: dts: renesas: r8a774c0: Remove invalid compatible value for CSI40
-50cb5a63f77730db19b9cb5a79c85472a5cfa5ca arm64: dts: renesas: r8a774c0: sort subnodes of the soc node
-84996bbf0cd060d8bcf0dad3f2338c9f609b2103 CIP: Bump version suffix to -cip7 after merge from stable
-c89002ac82f1fb89c75476cea340b3ceb15dddfe Update CI to use the latest linux-cip-ci containers
-5ac92d4fc311653f7b6e2c0903db075db98c4874 Update to run all CIP arm, arm64 and x86 configs
-0e1d065920f89e83a0f6324e4dc8fa863d32e69c CIP: Bump version suffix to -cip8 after merge from stable
-dd64dc2f63f83a94f15b4a5f8b219f547f212dde staging: m57621-mmc: delete driver from the tree.
-6569e6975fdc55a22c0dad980d69732f43b331df CIP: Bump version suffix to -cip9 after merge from stable
-6ff62c35cfc7001375f87b23a5557a3428f7e32e pinctrl: sh-pfc: Print actual field width for variable-width fields
-8fda82d8637e9b0e1227fcbd62f500bdf8fbb799 pinctrl: sh-pfc: Validate pinmux tables at runtime when debugging
-919f0ea667823e40e84e7d9fa8544c5948e19e64 pinctrl: sh-pfc: Add physical pin multiplexing helper macros
-b022bbad8357554b0d56aa512efbacef738e8a9f pinctrl: sh-pfc: Validate pins/marks in pin groups at build time
-47982f9e63655fd8617b6df02c46ca24304b166c pinctrl: sh-pfc: Make pinmux_cfg_reg.var_field_width[] variable-length
-2ee8157c416a39294c23d7810911e86ff9c3d9cd pinctrl: sh-pfc: Validate fixed-size field widths at build time
-751986d682b565394cda2c95d24f822445e62142 pinctrl: sh-pfc: Absorb enum IDs in PINMUX_CFG_REG() macro
-363052995c5417f07b5eb5923016df899d4db7ba pinctrl: sh-pfc: Absorb enum IDs in PINMUX_CFG_REG_VAR() macro
-86651f4703a12135f410162a26193ce0237fce1e pinctrl: sh-pfc: Absorb enum IDs in PINMUX_DATA_REG() macro
-07cf0541fc8f33e1f37d92cf66ba54f33b08ff63 pinctrl: sh-pfc: Validate enum IDs for regs with fixed-width fields
-9f173167014e6a249e9468170314e93212499e73 pinctrl: sh-pfc: Validate enum IDs for regs with variable-width fields
-d5c3f380ef293ebce530304fdeb5797ff0f5fc41 pinctrl: sh-pfc: Improve PINMUX_IPSR_PHYS() documentation
-5f09042e8361c5a95ae9a7048e1e970e4c5c5357 pinctrl: sh-pfc: Rename 2-parameter CPU_ALL_PORT() variant
-6b9a5fe51bf200e64d580eaec6727180d5beb256 pinctrl: sh-pfc: Add SH_PFC_PIN_CFG_PULL_UP_DOWN shorthand
-df7e5eb2c265071926aecdb4ac4f65dab64b291b pinctrl: sh-pfc: Add new non-GPIO helper macros
-47b2608688db36c19cf77a6a09ccd7efaf1ec7bc pinctrl: sh-pfc: Correct printk level of group reference warning
-2b0d83fc9b095eb0c9bd217ade44e4db5870efda pinctrl: sh-pfc: Mark run-time debug code __init
-cff96dec5d759baa03c0682421b9bfaa8fe6e4d9 pinctrl: sh-pfc: Add check for empty pinmux groups/functions
-647f2fb16511f91594cdee3588132d906b8c5492 pinctrl: sh-pfc: Validate pin tables at runtime
-11ae63a43da288114fb9b52cb0e58bc18758b2de pinctrl: sh-pfc: r8a7796: Fix VIN versioned groups
-53116ab398dd4437a5f4b74a80a8dd79927a8c95 pinctrl: sh-pfc: r8a7796: Add I2C{0,3,5} pins, groups and functions
-4a0e4d8a329d95c21d3d610223bbf15a7482a8ee pinctrl: sh-pfc: r8a7796: Deduplicate VIN5 pin definitions
-cc76a78fc8825fc0ef54f52de9d52837f1be79f7 pinctrl: sh-pfc: r8a7796: Move CANFD pin groups and functions
-d2b1bf121efc2171bfffda34e11d2ac52126d31e pinctrl: sh-pfc: r8a77990: Rename IOCTRLx registers
-2064aa477091968b4f0103196060d3a53c40eaae pinctrl: sh-pfc: r8a77990: Move CANFD pin groups and functions
-b349dde2c176c33a3024ce402170b3e82c11671e pinctrl: sh-pfc: rcar-gen3: Retain TDSELCTRL register across suspend/resume
-38e567a2c17ceb613b2be9de377f780109b0e4df pinctrl: sh-pfc: Add missing #include <linux/errno.h>
-85d003fcd4b167b07640505be60364f9fa1d3586 pinctrl: sh-pfc: rcar-gen3: Remove HDMI CEC pins, groups, and functions
-9048001789d7dc9ab4a31fd3d6409199852fb46c pinctrl: sh-pfc: rcar-gen3: Remove CC5_OSCOUT pin
-1ed2aabdf0d57e5446d944a5492616e9b81db8ce pinctrl: sh-pfc: rcar-gen3: Rename SEL_ADG_{A,B,C} to SEL_ADG{A,B,C}
-b1dfa70092c9471bfdfb3ca3df04bc2faf277362 pinctrl: sh-pfc: r8a77990: Fix MOD_SEL0 bit16 when using NFALE and NFRB_N
-4a10e285f782295eff3c06eeb610f81c0845f914 pinctrl: sh-pfc: r8a77990: Fix MOD_SEL1 bit31 when using SIM0_D
-85d908e075722fbee9317eb4e13955e115a5a4bd pinctrl: sh-pfc: r8a77990: Fix MOD_SEL1 bit30 when using SSI_SCK2 and SSI_WS2
-88f13c88e505513cbb39601fc1300272df0c19fb pinctrl: sh-pfc: rcar-gen3: Rename RTS{0,1,3,4}# pin function definitions
-957d13523ff64e5f3e917622b5fca9a3e1008061 pinctrl: sh-pfc: rcar-gen3: Rename SEL_NDFC to SEL_NDF
-b7b14bb93bd1fbe89742d1573a7521288ae06feb pinctrl: sh-pfc: Add PORT_GP_27 helper macro
-d80927c5efc0964b9cdac2d252c4f36a6edf132f pinctrl: sh-pfc: Move PIN_NONE to shared header file
-ad6f93b31b083ea41632c19e6a7605053fe1ea55 pinctrl: sh-pfc: r8a77990: Use new macros for non-GPIO pins
-f9027953e5d9a813d781a873dc6b5e7917d39f7e pinctrl: sh-pfc: r8a7796: Add TPU pins, groups and functions
-f8d8359d24dac1974852210c5b16d85c14dcfb93 pinctrl: sh-pfc: r8a7796: Use new macros for non-GPIO pins
-1db84e77825995a0a8075c699034b3efa0ddd63b pinctrl: sh-pfc: r8a7796: Remove placeholder I2C pin data
-334ad3f216c3c1b36a6aecd36a7729d2b78c96a4 pinctrl: sh-pfc: r8a77995: Remove unused PINMUX_IPSR_{MSEL2,PHYS}()
-dec10d14452d28964af4fd7caf7e9608fc9f5d4a pinctrl: sh-pfc: r8a7791: Fix VIN1 versioned groups
-32135cacba3c88f9839d180be848297df3021209 pinctrl: sh-pfc: sh73a0: Use new macros for non-GPIO pins
-88f2ddacd8afbcbf0331b373e90b7f88d40aea2d dt-bindings: can: rcar_can: Add r8a774a1 support
-ac250eb8e8e3c333fd21daaac4b778aec9625566 dt-bindings: can: rcar_can: Fix RZ/G2 CAN clocks
-fc82a0b7614f056c7b2699d5ce7e3fe3b1bb27e1 dt-bindings: can: rcar_can: Add r8a774c0 support
-b3f382d4dd9766d1031606683c2c5b1f219f2492 dt-bindings: rcar-gen3-phy-usb3: Add r8a774a1 support
-92d84d59a898d941fe4fcc7635263764419fce92 dt-bindings: usb-xhci: Add r8a774a1 support
-f15ed73ef5f54ad04a285de3c48fe97d55a45abe dt-bindings: usb-xhci: Add r8a774c0 support
-b54a81c8415b0b49394083ba854f504e9c620814 dt-bindings: usb: renesas_usbhs: Add r8a774a1 support
-92958172c4811c4b7647541362429bcf154ff330 dt-bindings: thermal: rcar-gen3-thermal: Add r8a774a1 support
-34461c7d0d5da05f14399141e2855d694a8320fe dt-bindings: dmaengine: usb-dmac: Add binding for r8a774a1
-775cf08aee01195c67fec20f1ff1802f7bb55eef thermal: rcar_gen3_thermal: Add r8a774a1 support
-3fc60603893ae7f19c697677f4fac9b4430076e6 gpio: rcar: reference device instead of platform device
-5b5fa35689b4d2a2156353b3ccf0aa9071d5e68c gpio: rcar: select General Output Register to set output states
-3cc76eb040775d4443f1c3b7832ff005b7dfe27c gpio: rcar: Pedantic formatting
-6b77b819f8ee22e1ef45b253844fb5274c4701c8 clk: renesas: cpg-mssr: Use genpd of_node instead of local copy
-b344509deec18a1a8248ed76f6b1d1e518e4bbdd clk: renesas: cpg-mssr: Remove error messages on out-of-memory conditions
-4d63494499535c933201656cd377145e1f865227 soc: renesas: rcar-sysc: Remove rcar_sysc_power_{down,up}() helpers
-17b252017da3bcab08f64f640458fc7dda6c6df4 soc: renesas: rcar-sysc: Merge PM Domain registration and linking
-ad983f24bf010dcc40eee3278ee70ace540d54ae soc: renesas: rcar-sysc: Fix power domain control after system resume
-6f114b77903682dc774d0b71f0bc8a749e4280dd serial: sh-sci: Extract sci_dma_rx_chan_invalidate()
-4bba81ca60f1c191e69798cc68517afb9726b7e5 serial: sh-sci: Extract sci_dma_rx_reenable_irq()
-d73449b3765c7b63dfb81b3efe10fbb57fdba898 serial: sh-sci: Fix fallback to PIO in sci_dma_rx_complete()
-6a31f205c6a3abb996ec4eae3af95350acfb6d37 dmaengine: rcar-dmac: Update copyright information
-1e6dcab9680a4221a16f716600dd5a86c3816224 ravb: remove tx buffer addr 4byte alilgnment restriction for R-Car Gen3
-35d3db2735f3c86cb3a5494637f8d9a72d8a30c4 ravb: Avoid unsupported internal delay mode for R-Car E3/D3
-b142fffcfa810248ee2c0ede4efaf2f8efeeae40 arm64: dts: renesas: Initial r8a774a1 SoC device tree
-40be6306e06288ba8d77a4e8a77c995c43e816b2 arm64: dts: renesas: r8a774a1: Add SYS-DMAC controller nodes
-7ef22cb5db23d6c171e08ab23955282b43eebfa0 arm64: dts: renesas: r8a774a1: Add SCIF and HSCIF nodes
-ab949993b7ba1117f51c595c8e66559a7ae01c46 arm64: dts: renesas: r8a774a1: Add INTC-EX device node
-ad0daf127a1f0f021f041b59995cf86a5d1112ae arm64: dts: renesas: r8a774a1: Add Ethernet AVB node
-69ef49c8ec205e6692c6221922ce194a34f345e5 arm64: dts: renesas: r8a774a1: Add RWDT node
-03522e04a6b529f92b173b34b9c4e961d5f102f3 arm64: dts: renesas: r8a774a1: Add pinctrl device node
-80ddf76d9d9eb3efd9776c82d42f340966694c0c arm64: dts: renesas: r8a774a1: Add GPIO device nodes
-b5539ea2542f2ff217df7272ee79518a3e95383a arm64: dts: renesas: r8a774a1: Add SDHI nodes
-1adcf897562f901761fb43d7858c1363492959e6 arm64: dts: renesas: r8a774a1: Add I2C and IIC-DVFS support
-5bf55b900673451f95d6e9795678f3652f9e49d4 arm64: dts: renesas: r8a774a1: Add RZ/G2M thermal support
-1619b46a38ddedbeef1b9cecac265f754444ce04 arm64: dts: renesas: r8a774a1: Add IPMMU device nodes
-8a4d20d4701274995d0103fae0b9149ff974b3f9 arm64: dts: renesas: r8a774a1: Add all MSIOF nodes
-a47985d986c183d3214a6ac4308e29b685fa8fb4 arm64: dts: renesas: r8a774a1: Add Cortex-A53 CPU cores
-d59e656f67d4d40786f51b808c32602f3aec0c04 arm64: dts: renesas: r8a774a1: Add PWM device nodes
-e240d711f0a136742231614bdefc22e66b60639f arm64: dts: renesas: r8a774a1: Add audio support
-8c89af6ed9e0f27fe9b68f3af9897b9cf8021e34 arm64: dts: renesas: r8a774a1: Add FCPF and FCPV instances
-5d988a3dd78913ac4c22d862d7954372fcc59911 arm64: dts: renesas: r8a774a1: Add USB2.0 phy and host(EHCI/OHCI) device nodes
-fb046ffcca372e53d890bb8d2b2bea1e52d72b1c arm64: dts: renesas: r8a774a1: Add USB-DMAC and HSUSB device nodes
-541aba1534e8dee9c549f6570312234323dac659 arm64: dts: renesas: r8a774a1: Add USB3.0 device nodes
-c81fdaa473191fb455a4256a90ae53fea3812e53 arm64: dts: renesas: Fix whitespace around assignments
-e8c9666822f298e6cbcba428d0adbed650fe67a0 arm64: dts: renesas: Remove unneeded status from thermal nodes
-aa572faea69b354a73add6185e0bc62cefacc8a6 arm64: dts: renesas: r8a774a1: Add CAN nodes
-78beb0637eaebcd2f9e197c13fb7407f38f3b6da arm64: dts: renesas: r8a774a1: Replace power magic numbers
-3954840e2dec26503fd8a1d01679b2dac97f750b arm64: dts: renesas: r8a774a1: Replace clock magic numbers
-6226a0115e2576e44b4638213d4453da3a87ae27 arm64: dts: renesas: r8a774a1: Enable DMA for SCIF2
-248cd887080f05bfc1168145cae8c7f0c4e75317 arm64: dts: renesas: r8a774a1: Fix hsusb reg size
-157bc86cd6bce45aeed23f9d7b759a652e6752ce arm64: dts: Remove inconsistent use of 'arm,armv8' compatible string
-eed6058c3a8a747bbf49a756f3cf92a41650e59b arm64: dts: renesas: r8a774a1: Add clkp2 clock to CAN nodes
-d219eae4cee7de0f3765917bd8214ca3624d47ad gitlab-ci: Start testing the r8a774a1-hihope-rzg2m-ex device
-91a454c619178d62b5b7ede9025fd2c9bb76a938 dt-bindings: arm: renesas: Add HopeRun RZ/G2[M] boards
-6a40b85456619e9e864989c099e3122560503c32 dt-bindings: Add vendor prefix for HopeRun
-67727372cfe57bcdf86fe57632056af136aaca99 arm64: dts: renesas: Add HiHope RZ/G2M main board support
-8bdc3fc32c8897fbc0262b537584a442d4e387de arm64: dts: renesas: hihope-common: Add pincontrol support to scif2/scif clock
-9b853cf4043696a471f9a06fb5981077e9b59666 arm64: dts: renesas: Add HiHope RZ/G2M sub board support
-15ad3dddfd40f4ca6046750c780f0473e6a0ff05 watchdog: renesas_wdt: Fix typos
-5a3fa7676eaffeb77dde84dddd11adcabf26f913 watchdog: renesas_wdt: don't keep timer value during suspend/resume
-761fd60fc729cda17a7ae9486b2e1925c81c029b watchdog: renesas_wdt: drop superfluous glob pattern
-e8657a4bfffd83ddc24e1ce195c83eb068ac71da watchdog: renesas_wdt: Use 'dev' instead of dereferencing it repeatedly
-6fac59056eb37528b4ef2a44a6e95e7aaa8299b3 watchdog: renesas_wdt: Add a few cycles delay
-68dfb9e4624bb8660553d858e3203ba7f16700b2 arm64: dts: renesas: hihope-common: Add RWDT support
-5958ff4bbe87e63523bc6c9545b59f5c82016b66 arm64: dts: renesas: r8a774a1: Add CMT device nodes
-04adac16c87449a2dfb0554a8c1a1f62e47d1179 clk: renesas: r8a774a1: Add TMU clock
-c0dfd78b1d41c45f9bc5e720d6ce66093f96248b arm64: dts: renesas: r8a774a1: Add TMU device nodes
-3fa8d80852831b69e368718273b2e4012ff23a0a thermal: rcar_gen3_thermal: Register hwmon sysfs interface
-d379ab261fdd19fd0f8f99fd370a1df12cf4af1a thermal: rcar_gen3_thermal: Fix init value of IRQCTL register
-173d7b316c9a5e23e3deb908cead581502f78982 thermal: rcar_gen3_thermal: Fix to show correct trip points number
-0acc07c58209d9da2d378d1895eec0b216b3f421 thermal: rcar_gen3_thermal: Update value of Tj_1
-f4e193738983fd7d6cb728b9a313ade52ca4b07c thermal: rcar_gen3_thermal: Update calculation formula of IRQTEMP
-94ebdf182f8b52df7737f351e1ef768ff12ed24b thermal: rcar_gen3_thermal: Update temperature conversion method
-7a0f840b369953f10977e66960d9053cc8622e66 arm64: dts: renesas: r8a774a1: Add operating points
-f926fec86b32627017758de995d45c9d9313aae3 arm64: dts: renesas: r8a774a1: Add CPU topology on r8a774a1 SoC
-9e85255f156fd286c4e4ad5fa56afa137e2aa68a arm64: dts: renesas: r8a774a1: Add CPU capacity-dmips-mhz
-8df561fe91b720d4e013e1fcd089c9db867c540c arm64: dts: renesas: r8a774a1: Create thermal zone to support IPA
-00efe8ad4579981ff06476dc3f56c4e41994e5ec arm64: dts: renesas: r8a774a1: Add dynamic power coefficient
-e5f7f9a21e283c55caa446341031646794238ce6 mmc: renesas_sdhi: Change HW adjustment register according to speed mode
-3e8587af8830186783ef371130843b2da1af7ef0 mmc: tmio: introduce macro for max block size
-aa0a5e9ded0b39ac782ab131f36fff32bba3f03c mmc: renesas_sdhi: prevent overflow for max_req_size
-80e7ed211057b6ebc05570cd9636ee365605c539 arm64: dts: renesas: hihope-common: Add uSD and eMMC
-2dcb15cfde6672291ca3f7f74e311185b96f09bc arm64: dts: renesas: hihope-common: Add LEDs support
-4c9761d677caa6e35f72e5a16965019372888573 arm64: dts: renesas: hihope-common: Remove "label" from LEDs
-47537c7ad38b6735cde3292893d2785c2932f17d phy: renesas: rcar-gen3-usb2: fix imbalance powered flag
-53036b80251a9120d1524767b6c5fa516cd05f0b arm64: dts: renesas: r8a774a1: Fix USB 2.0 clocks
-67b3e0e5e82afd44097d42f42741cbef11a51d58 arm64: dts: renesas: hihope-common: Add USB 2.0 support
-33155e7539e357c986d4a4fad523225b45674c5c arm64: dts: renesas: hihope-common: Enable USB3.0
-f679b62387e052e81005050da79e4bdcc1b87552 CIP: Bump version suffix to -cip10 after merge from stable
-a57ebe04c313e46c4983e719315e7839a4bb8b1a dt-bindings: PCI: rcar: Add device tree support for r8a774a1
-3111e9e1f6ecd06a44de7363e3110cd0e64123fe dt-bindings: display: renesas: du: Document the r8a774a1 bindings
-47061941997312a553b829e7ae870cb5cf9b167b dt-bindings: display: renesas: lvds: Document r8a774a1 bindings
-faa0ceb9535218e9a0defe58667c94c0ad077e2c dt-bindings: display: renesas: Add r8a774a1 support
-f1ec653deeaf1a2392eb4e0e2254d35c893ec579 PCI: rcar: Replace unsigned long with u32/unsigned int in register accessors
-1d57aec6e124dbde2e05de5739adcc22190d7aeb PCI: rcar: Replace various variable types with unsigned ones for register values
-35261f74caf8b45096a1cd008f8e3cb1e1815e90 PCI: rcar: Clean up debug messages
-633ef6a5c6322d2b90f9a0fc3b8083ca6bf5b5ec PCI: rcar: Do not shadow the 'irq' variable
-6b4190006cafe631c8df4ff10c3a6a1e0619c4c2 drm: rcar-du: Add R8A774A1 support
-9b94a4c8be2ff43d7d95506930249f861781c0ac drm: rcar-du: lvds: Add r8a774a1 support
-10b2f5dd44ec04ad5f34a113a8c6a18259d94a0d drm: rcar-du: dw-hdmi: Reject modes with a too high clock frequency
-73533b1148e687ea8fbdeff139b15ef59ed9cfb5 drm: rcar-du: Refactor Feature and Quirk definitions
-bad77ee95d0fc851368c3b373ac9deb1a389b0ca drm: rcar-du: Add interlaced feature flag
-866930b65d456473a7788a6d28a3330fabb23854 drm: rcar-du: Cache DSYSR value to ensure known initial value
-210390f16f5a22f408b679947d459e80099fef10 drm: rcar-du: Don't use TV sync mode when not supported by the hardware
-7aa8c4b9bf689b2ce3bc63c53e4fb6f31b4e2be7 drm: rcar-du: Support interlaced video output through vsp1
-9c9156508e4d3bf51092b34344f32ffd131e9d96 drm: rcar-du: Rework clock configuration based on hardware limits
-aac4ef7fd665c85565c21ecaaf83bf504b5e1b4d drm: rcar-du: Rename and document dpll_ch field
-c1d2895a5d51add924b66694febc5242ff122283 drm: rcar-du: Add support for missing pixel formats
-6be2810b64961d3393b2a763446d72a114a0970a drm: rcar-du: Store V4L2 fourcc in rcar_du_format_info structure
-79763e0996160559cedcccdfeaf6a7fe2bf67fc2 drm: rcar-du: Update framebuffer pitch and alignment limits for Gen3
-91f8a2e9c91da9b0ff5eaf4e1a4526f3aa044ce9 arm64: dts: renesas: r8a774a1: Add PCIe device nodes
-5b8a64a1f0b254d0970c6e8ecb73186dd5fc9bf7 arm64: dts: renesas: hihope-common: Declare pcie bus clock
-2e296fefa9ead097bf06c340352236474a74d250 arm64: dts: renesas: hihope-rzg2-ex: Enable PCIe support
-7cb2fd977a586394074d7ec996ec7aeaf135f893 arm64: dts: renesas: r8a774a1: Add VSP instances
-3167e006e197a44832d73d46034b9c44c840fc79 arm64: dts: renesas: r8a774a1: Add DU device to DT
-76760f1c280b0015939ed368513f60cb27af61dd arm64: dts: renesas: r8a774a1: Add FDP1 instance
-5a1513af01fe22d8c519fa64a98b11fc0da04bb0 arm64: dts: renesas: r8a774a1: Tie SYS-DMAC to IPMMU-DS0/1
-2653fe3eadbbb59cc9b0cb74f46b34d5c54b957a arm64: dts: renesas: r8a774a1: Tie Audio-DMAC to IPMMU-MP
-5b8f3b204f3494e91d045345c2124552f896d3f8 arm64: dts: renesas: r8a774a1: Connect Ethernet-AVB to IPMMU-DS0
-c959b98b5dfcb019a5b076b050dc5b4cf4e92818 arm64: dts: renesas: r8a774a1: Add HDMI encoder instance
-db0f5d80e51c30603744ac0b19bd71ccd40f565f arm64: dts: renesas: hihope-common: Add HDMI support
-6220b0c295308d2c72a1e7926d4cf693b481c131 gitlab-ci: Increase test timeout to 60 minutes
-e5ea46068c55a54e050ffa97394c46c04ec3d491 gitlab-ci: Always store job artifacts
-2d931821fb002df015dccbb5bc0240585adc654c CIP: Bump version suffix to -cip11 after merge from stable
-8cedc1df69f321b1f848fb0b1722f50c6cc1d5c6 media: vsp1: Add RZ/G support
-eefb070919326fed3d07c44359d67d1f1a8848c5 media: dt-bindings: media: renesas-fcp: Add RZ/G2 support
-28988e5a780f88e70bab1e86cc695277d6e1367d dt-bindings: display: renesas: du: Document r8a774c0 bindings
-a74087cbabf4b981a1326a86879bb444bdf694fd dt-bindings: display: renesas: lvds: Add EXTAL and DU_DOTCLKIN clocks
-0b0ee57aa5b59bf9e605c2809aa113dddf2eedcb dt-bindings: display: renesas: lvds: Document r8a774c0 bindings
-c1a327a69b281038ec910fe32ee8a74a7705ceb5 drm: rcar-du: lvds: D3/E3 support
-fa69596d372456c895b5a2bfbde6a0a0f7b82d39 drm: rcar-du: Perform the initial CRTC setup from rcar_du_crtc_get()
-4b5087856cce2fc2a6cd7b1a598c8de7c64aa5b7 drm: rcar-du: Use LVDS PLL clock as dot clock when possible
-b657b02ceb5d1da83f19e3bc7d3f1a7fcce8617b drm: rcar-du: Add r8a774c0 device support
-013e66e9fd523560f283feb1bf4b580e62d3bb3b drm: rcar-du: lvds: add R8A774C0 support
-7292c0ce2870328c66f5fd4cc16b09fbbfab4a3f drm: rcar-du: Move CRTC outputs bitmask to private CRTC state
-6f4fd8b0756d021c59640e41ae3a7c0081de31e3 drm: rcar-du: Simplify encoder registration
-e38cf2324b08c1292c6b192380133c9d4b972da1 drm: rcar-du: lvds: Don't fail probe if output is not connected on D3/E3
-af8a909fa21c09f9fcfc5aa68a982bced3a2c079 drm: rcar-du: lvds: Add API to enable/disable clock output
-59cbcaef2e044c441669eda62675844acad8daa8 drm: rcar-du: Turn LVDS clock output on/off for DPAD0 output on D3/E3
-5f12b4316d1db7385692f7dca3d51e449115c175 drm: rcar-du: lvds: Fix post-DLL divider calculation
-cc72c9851922b723adf1832161f8e705c0b7b953 drm: rcar-du: lvds: Adjust operating frequency for D3 and E3
-12faf20306fe290389ade0a861687d83efe9dc07 drm: rcar-du: Improve non-DPLL clock selection
-dc7d4e50b7d495a0847a3e4afc14940ca3944c01 drm: rcar-du: Enable configurable DPAD0 routing on Gen3
-1f25933189b93208a2ac6d63badaaee676452760 drm/rcar-du: Replace drm_dev_unref with drm_dev_put
-a9bd7f523c8a6179b7f3edd8e06c21100d2de5c9 drm: rcar-du: Fix external clock error checks
-50f25fd5ae5900c4dc3f8fea9aca5f4d893da0f4 drm: rcar-du: Reject modes that fail CRTC timing requirements
-1b3f6c58d8510943b336bb245fda3156fae39fc7 drm/rcar-du: Use drm_fbdev_generic_setup()
-d3ae31ed67096d67fadc77acb378456ce20c7790 drm: rcar-du: Disable unused DPAD outputs
-ea3494c006efbdf88b93497810b85a12a59956dc drm: rcar-du: Replace EXT_CTRL_REGS feature flag with generation check
-f88e4bd7f59beabf7baa1fd0b0d30fb0a55f677d media: use strscpy() instead of strlcpy()
-a55660c0f38c574feb1c6c4836968c1c380ad1b7 arm64: dts: renesas: r8a774c0: Add display output support
-75d286d71aca8be4523eb2e178950e5c00ba9975 arm64: defconfig: Enable TDA19988
-759fa521664c659e7d2f68a5ef3fb53c67746df7 arm64: dts: renesas: cat874: Add HDMI video support
-a5bd72a0d6b878bd8c730276e46230baed7dbe69 arm64: dts: renesas: cat874: Add HDMI audio
-d4bc3b212d7a0ed85e979d8e75330b4b4c8e8014 dt-bindings: can: rcar_canfd: document r8a774c0 support
-5c6bb4d53ea251cc1e45a3730e407eb36c1e06c0 arm64: dts: renesas: r8a774c0: Add CANFD support
-b8d3a2cebd177090e4799cf8201774747fa88fc5 CIP: Bump version suffix to -cip12 after merge from stable
-0f2338926f9bccf7f42f9861da83a13f64aa7b23 arm64: dts: renesas: hihope-common: Add PCA9654 I/O expander
-63d69f516d47aa4bc2e2523a28997f0c770aafa2 arm64: dts: renesas: hihope-common: Add BT support
-939b7e0b261d1083b59673b5d1fee343dd5de508 arm64: dts: renesas: hihope-common: Add WLAN support
-bbcc75daab6e0b4b7be5d0354ca913205c9bfbed arm64: dts: renesas: cat874: Add WLAN support
-4ac096dc48f309855e8fb66d33095eae1c5ecd88 arm64: dts: renesas: cat874: Add BT support
-a73128407115d0ea97d575e4fbe592e838e90ca5 arm64: dts: renesas: r8a774a1: Use extended audio dmac registers
-a775b210f7f31dbb1a1429ac650d426396f61254 arm64: dts: renesas: hihope-common: Add HDMI audio support
-9594d240b8ec91578fcf74b8d46daaba552dcba8 dt-bindings: can: rcar_canfd: document r8a774a1 support
-afe47b2560335f44e38affe687aeba70f748c901 arm64: dts: renesas: r8a774a1: Add missing assigned-clocks for CAN[01]
-f84add067390edf8ff749bb73328333a98b0cb3b arm64: dts: renesas: r8a774a1: Add CANFD support
-d2b63c4353ae738d48076e405be7a450fa25e830 arm64: dts: renesas: hihope-rzg2-ex: Enable CAN interfaces
-af0752b58476bbeeab8597bf94d878b919b126e3 CIP: Bump version suffix to -cip13 after merge from stable
-cdc7ad0cd20f320d0af0b2ab5762da8f8c5c8c32 gitlab-ci: Split tests into separate jobs
-9b23528c67222b80d20478edfd49066eb44fa7ab gitlab-ci: Remove unofficial build configurations
-0c2c339550f25b2057da9ac69fc41e582eb68e66 gitlab-ci: Remove test timeout
-d1f39b3d605f91f51203ca0ce39b48aff50ac91b CIP: Bump version suffix to -cip14 after merge from stable
-f01150c775050056223e654004b1cfee263b5b1b ASoC: rsnd: add warning message to rsnd_kctrl_accept_runtime()
-71cdcee1c588abc22ee2d8ba37f29153052a6e60 ASoC: rsnd: add support for 16/24 bit slot widths
-8a846cd6bd369de976dfbbad5a179d2bf35e3445 ASoC: rsnd: add support for 8 bit S8 format
-fa62f7b4a21d4d2924000edea341b5e2f0d7eb0a ASoC: rsnd: remove is_play parameter from hw_rule function
-0dacbee0a4673283eecb0c5aeb9607a2fe6470b0 ASoC: rsnd: ssi: Check runtime channel number rather than hw_params
-877b68cd4aa4844a502c686fc91c3cd8ac3d3921 ASoc: rsnd: dma: Calculate dma address with consider of BUSIF
-6f7a640a16d7b6a9addc3d92214ae6ec221a8903 ASoc: rsnd: dma: Calculate PDMACHCRE with consider of BUSIF
-34c8007e2af22377c30204fb657a5bab1d9e8aee ASoC: rsnd: ssiu: Support BUSIF other than BUSIF0
-a4d876bc20ed83b99a8284502631054833d09c31 ASoC: rsnd: ssiu: Support to init different BUSIF instance
-4bca25a65a1197c4f198f26d716c72114fab1a78 ASoC: rsnd: merge .nolock_start and .prepare
-c2326e9adaca6186f476cb2d39a9bd98e8ab398d ASoC: rsnd: move .get_status under rsnd_mod_ops
-78f62a080aa286fe15e55a08dc426fb59aa77413 ASoC: rsnd: add .get_id/.get_id_sub
-a338accf292bd91c02cf784e57ae7f907b042e70 ASoC: rsnd: add SSIU BUSIF support
-58c2e23a0aeac0d93a1686d3d6fbe19759702380 arm64: dts: renesas: r8a774a1: Add SSIU support for sound
-4705c644dc992268b46c67d33be80f1a76ba67eb gitlab-ci: Use external linux-cip-pipelines repository to define CI
-6fa5cd4cf684f2db2e946d46fc7bf58df25df66c CIP: Bump version suffix to -cip15 after merge from stable
-bf5542f6e335292e7ae7e6f562cfcc8186c61736 CIP: Bump version suffix to -cip16 after merge from stable
-b4698bcf63ae6f8a24333ca34794d9319ede291a dt-bindings: arm: renesas: Document RZ/G2N SoC DT bindings
-a5bd33d54ee76486474911cb1130290f2c7afe0f dt-bindings: arm: renesas: Add HopeRun RZ/G2N boards
-0d318e16446d038e0149a44500abe65806af3e7b soc: renesas: Add Renesas R8A774B1 config option
-1c3d33287a94461503dc03c14f8a914d68ff9721 soc: renesas: Identify RZ/G2N
-a5e5dd7bd7c5c69f3b1cb256df51488bd9e43e65 dt-bindings: power: Add r8a774b1 SYSC power domain definitions
-9dce066be748a538fb2041e97a4206ff47bbe67c dt-bindings: power: rcar-sysc: Document r8a774b1 sysc
-acc8dd46568ce522078c3063cdbf16b95193ad00 soc: renesas: rcar-sysc: Prepare for fixing power request conflicts
-ce02de81a6e9044a2c15dadc8d5684f18120f610 soc: renesas: r8a7795-sysc: Fix power request conflicts
-877b6e2c66774d9009ad5a700636c144f2aff203 soc: renesas: r8a7796-sysc: Fix power request conflicts
-f95c6b2c3705324d4efb7b664833b8d616d3f439 soc: renesas: r8a77965-sysc: Fix power request conflicts
-36410f248684b8439b8fae066f3c109cad3fb993 soc: renesas: r8a77970-sysc: Fix power request conflicts
-28392157b17ec5dcb5a3595d0c1b3955092bd482 soc: renesas: r8a77980-sysc: Fix power request conflicts
-b5dd7397e6563dd61237c75a426ed0d8337b00b3 soc: renesas: r8a77990-sysc: Fix power request conflicts
-f738cfeafb4e990344e95ae6b1da3ce0732d0f6f soc: renesas: r8a774c0-sysc: Fix power request conflicts
-e9eade34c5fb2cb897633293b138196a30b33733 soc: renesas: rcar-sysc: Add r8a774b1 support
-68c7212f1576973ff4cb179bf70140642ad6ff36 dt-bindings: reset: rcar-rst: Document r8a774b1 reset module
-9f521862285a4c37870b3cef070c69471c56aae6 soc: renesas: rcar-rst: Add support for RZ/G2N
-d20269693aad4d7d3e757447faa6383d66bb9f85 dt-bindings: clk: Add r8a774b1 CPG Core Clock Definitions
-6c68420c405da31b016f1f070ed8728c28d69fe9 dt-bindings: clock: renesas: cpg-mssr: Document r8a774b1 binding
-744993ea043f3669212bcbd1e0f72ff576361a3e clk: renesas: cpg-mssr: Add r8a774b1 support
-c98ed49af0e1bed38a5bbb7118ae25054d81e876 pinctrl: sh-pfc: r8a77965: Add SATA pins, groups and functions
-77e5aeac01e7765e806c4808341a261234d46ae0 pinctrl: sh-pfc: r8a77965: Add Audio clock pin support
-ecd94b0270770103e31d17251f97d20fef7c0941 pinctrl: sh-pfc: r8a77965: Add Audio SSI pin support
-4add419d7e27d7430ac5ece367bdb71d171d3e8f pinctrl: sh-pfc: r8a77965: Add VIN[4|5] groups/functions
-a3be945792ddb30253d6f6b125a85852fc785569 pinctrl: sh-pfc: r8a77965: Add CAN pins, groups and functions
-4ac2b9e1e67ee723d3bca5a0dd46e4a20e469928 pinctrl: sh-pfc: r8a77965: Add CAN FD pins, groups and functions
-261cee9eaf9d609a19d54d313ac8f95649625d16 pinctrl: sh-pfc: r8a77965: Replace DU_DOTCLKIN2 by DU_DOTCLKIN3
-c1bd22dea9e420bb7b7486813c76fac611cf3250 pinctrl: sh-pfc: r8a77965: Add TMU pins, groups and functions
-9398f64dc865ab4c7c59d90e4e8fca395eb79dbf pinctrl: sh-pfc: r8a77965: Add DRIF pins, groups and functions
-24c106549fde378bf827f15af4da35c3552b51ad pinctrl: sh-pfc: r8a77965: Add I2C{0,3,5} pins, groups and functions
-df5f7dcb73b8ddfd388b1fd0dddef5b26a985604 pinctrl: sh-pfc: r8a77965: Add TPU pins, groups and functions
-b3964e39e74d71b60ddac2212c681bd9ea0e4cb5 pinctrl: sh-pfc: r8a77965: Use new macros for non-GPIO pins
-0710f1741ac04b05a9716bf37d01fe6381c35b9a dt-bindings: pinctrl: sh-pfc: Document r8a774b1 PFC support
-5e995407ff593bfc45d986471f7b6996c9043a97 pinctrl: sh-pfc: r8a77965: Add R8A774B1 PFC support
-891a3d428d48af6fbcb7f774f3779ce859b89db0 pinctrl: sh-pfc: pfc-r8a77965: Fix typo in pinmux macro for SCL3
-e2652653d3b379641b4ac34206665ceb6ea88996 dt-bindings: serial: sh-sci: Document r8a774b1 bindings
-f126bf4dc234b8e9b54a5a5eea69a596350d4375 arm64: dts: renesas: Initial r8a774b1 SoC device tree
-b32b9f804856f10d687e6c139aa08cbe2825d93e arm64: dts: renesas: Add HiHope RZ/G2N main board support
-bccd31201ddfe0cae4b755c8acb4bbc16056c69b arm64: defconfig: Enable R8A774B1 SoC
-e513b7258e96270e186c83c61cc85aa571ed079f CIP: Bump version suffix to -cip17 after merge from stable
-48d13583a55561cbba1ea13254748df01ed6fc81 CIP: Bump version suffix to -cip18 after merge from stable
-11c7a8d4ee254fc0d5b15abb775eec6cca523b31 dt-bindings: can: rcar_can: document r8a77965 support
-5762d63074141787adc1341869b01fb22d77538f dt-bindings: can: rcar_can: Complete documentation for RZ/G2[EM]
-4a56d4fffa4f75ecd410e62a675dd419faa1fd66 thermal: rcar_thermal: update calculation formula for R-Car Gen3 SoCs
-04b5959a70786852ccfe129cd0889b7021df4b7e arm64: dts: renesas: r8a774c0: Create thermal zone to support IPA
-42113b5fca80bb54fea68baad18d40695ee6cc7b arm64: dts: renesas: r8a774c0: Add dynamic power coefficient
-525c4d7cc587a87700618248271c30aeecc26e16 arm64: dts: renesas: r8a774c0: Clean up CPU compatibles
-3d3bda162cd064590490d356b0b465f03fcdd801 arm64: dts: renesas: r8a774c0: Add missing assigned-clocks for CAN[01]
-d9dcf459456b8d27e637c2449301ce8e29760fb1 arm64: dts: renesas: r8a774c0: Fix register range of display node
-d1989f6949fbff2accc4d90914ac7a6b3bc280c7 arm64: dts: renesas: Update 'vsps' properties for readability
-f483fa79d8508a072087ad08b4911351a012bf51 arm64: dts: renesas: r8a774c0: cat874: Add definition for 12V regulator
-d6066c1ed1a20619546beeb691c5ff70978e99f9 arm64: dts: renesas: Use ip=on for bootargs
-af179ac531dc4bd258eb31cb04b6873fe56f07b6 arm64: dts: renesas: r8a774c0: cat874: Sort nodes
-7105eecf6dedf17879be6a41d116f9bb130ba4a9 CIP: Bump version suffix to -cip19 after merge from stable
-57d36f176d4c7bdaf59dcfc1d9bbadefcee86e38 dt-bindings: dmaengine: rcar-dmac: Document R8A774B1 bindings
-8ff14301058e7192f40ab49c1c4ffa4e3ccb3032 arm64: dts: renesas: r8a774b1: Add SYS-DMAC device nodes
-e67b22b2b35e994c490f8da8fd8be80078998f2f arm64: dts: renesas: r8a774b1: Add SCIF and HSCIF nodes
-2398fe61584dc9ae07536d0f25eb6f749f066c1f dt-bindings: gpio: rcar: Add DT binding for r8a774b1
-fd13ba1fb5fdcbe8c426d182634ac89ccc2ffdce arm64: dts: renesas: r8a774b1: Add GPIO device nodes
-5a4e1c174e2641d12515b00b2f4019769fe1dec8 dt-bindings: net: ravb: Add support for r8a774b1 SoC
-7553eeec74c53467ab499edd37e324b3ed68bfe9 arm64: dts: renesas: r8a774b1: Add Ethernet AVB node
-ff91f52f786e57a40670234224d2a036755c0c61 arm64: dts: renesas: Add HiHope RZ/G2N sub board support
-2d745c2573b0410e6a2db67fe0f3540d9baf7d04 dt-bindings: spi: sh-msiof: Add r8a774b1 support
-f2c1817bfcedc5817c859fcff9bea09239bed237 dt-bindings: watchdog: Rename bindings documentation file
-6ec105657662630aac90545a991427c354837195 dt-bindings: watchdog: renesas-wdt: Document r8a774b1 support
-8e7958623ed9687339001e5704bf6ac4eb68ebea arm64: dts: renesas: r8a774b1: Add RWDT node
-1e787470351b3a77af7d6d3b56de3bec7ca1d7c9 arm64: dts: renesas: r8a774b1: Add all MSIOF nodes
-17fda769bdf5590e2b7b21b4c718dbe5e4dc747e arm64: dts: renesas: r8a774b1: Add PCIe device nodes
-475b0e4d83a0252d3b8b160b62cdc1b7ac12bea0 arm64: dts: renesas: hihope-rzg2-ex: Let the board specific DT decide about pciec1
-d761a58333ce474b91c86d7fe6962467c78f6313 arm64: dts: renesas: r8a774b1: Add INTC-EX device node
-e5fe4f7020fcfbadb373391463265e72e9ca556a dt-bindings: mmc: renesas_sdhi: Add r8a774b1 support
-144d99567b45b207d1c2c346462f47f43551a99f mmc: renesas_sdhi_internal_dmac: Add r8a774b1 support
-8b449919c7ed00b75311b1470c2e985ec7b21c17 arm64: dts: renesas: r8a774b1: Add SDHI support
-8c1e2929794fcf4afd42e93a7062d690da0526aa arm64: dts: renesas: r8a774b1-hihope-rzg2n: Enable HS400 mode
-c27823048a412934d11ca2e4c3537a203c1a4f69 dt-bindings: i2c: rcar: Rename bindings documentation file
-a592516acc9e119a66ce88bb4614b731342f1894 dt-bindings: i2c: rcar: Add r8a774b1 support
-496f0cb0fd7c57280e95fe79a3d2fd357314575d dt-bindings: i2c: sh_mobile: Rename bindings documentation file
-095ff5643f7a08259cbbbbf5734af93bd9eb09ba dt-bindings: i2c: sh_mobile: Add r8a774b1 support
-57a1881eb103b803e1f8beaa9781513a0a4e3a8b arm64: dts: renesas: r8a774b1: Add I2C and IIC-DVFS support
-8c254263d5b4092fe497e873bec073277ad1c14c arm64: dts: renesas: r8a774b1: Add OPPs table for cpu devices
-00fb94b9f46ec62bffb5607d4a690e48476f75e0 dt-bindings: thermal: rcar-gen3-thermal: Add r8a774b1 support
-f64fe1988296c0fe0f9d196b360ccc48dc410658 thermal: rcar_gen3_thermal: Add r8a774b1 support
-2272666cc69c07dd730065ea2cdd94911791cb60 arm64: dts: renesas: r8a774b1: Add RZ/G2N thermal support
-053387d18dde47847b02db125eb2d57e92f808bd dt-bindings: timer: renesas, cmt: Document r8a774b1 CMT support
-7733ccd2b2343b3f68202e70033fca1452ba02da arm64: dts: renesas: r8a774b1: Add CMT device nodes
-371a1234397b9ff65065e6dadf8750c2c2b4c15c dt-bindings: timer: renesas: tmu: Document r8a774b1 bindings
-c2e91618d110de9e8d1872fdbff52ff5a31a6c42 clk: renesas: r8a774b1: Add TMU clock
-51ab7d72c729eb7ec3c774150b22e4d658aa119d arm64: dts: renesas: r8a774b1: Add TMU device nodes
-f5c51573ca5fab4d5363689df286c886e7945105 dt-bindings: can: rcar_can: document r8a774b1 support
-8c661e692462b83103eb5733500d71f0ddd7ee22 dt-bindings: can: rcar_canfd: document r8a774b1 support
-265c6f9452dcde836d42030c5529789359b76fa3 arm64: dts: renesas: r8a774b1: Add CAN and CAN FD support
-44152673b1a6bb1c3033cb43886c191ab6a196c2 dt-bindings: iommu: ipmmu-vmsa: Add r8a774b1 support
-2f44fc2006bc7f557710a9374f8be07d470e53d3 iommu/ipmmu-vmsa: Hook up r8a774b1 DT matching code
-84577735f4e97bb7a0ac4ad409b1285ee991ff28 arm64: dts: renesas: r8a774b1: Add IPMMU device nodes
-5d8c4a58f7f33b1bc8de603bf8669c167ed2dcca arm64: dts: renesas: r8a774b1: Add FCPF and FCPV instances
-d9577ec7554bd642877c8f30cecd3c440cee92d1 arm64: dts: renesas: r8a774b1: Add VSP instances
-9288959f8282b616a59400aa3119051994dafcd5 arm64: dts: renesas: r8a774b1: Tie SYS-DMAC to IPMMU-DS0/1
-301005c5ecb48c4b716478720b3784e3abd8d481 arm64: dts: renesas: r8a774b1: Connect Ethernet-AVB to IPMMU-DS0
-c430cf8a9338cb4ac2797e5d88048f19a14f2c75 arm64: dts: renesas: hihope-common: Move du clk properties out of common dtsi
-8cca62c36efa33491ef78cb9c5854c39c89000c4 drm: rcar-du: Add R8A774B1 support
-36906c0ce8e3d20d4289f3b4b33542e18b7d5cff arm64: dts: renesas: r8a774b1: Add DU device to DT
-094a1850c0a94c005b80cd269b9bae7115731005 arm64: dts: renesas: r8a774b1: Add HDMI encoder instance
-4ebd10eeb7e55eca5ddf3eb6911cb6d986d2900a arm64: dts: renesas: r8a774b1-hihope-rzg2n: Add display clock properties
-e7d3460071cfdcfaff2a83c52fd2fee29d45c695 arm64: dts: renesas: r8a774b1: Add FDP1 device nodes
-07afdd2e60852b8ccb048773db3de7a8a4bd962e arm64: dts: renesas: r8a774b1: Add PWM device nodes
-a59600dd90e36bb1781e4e93e3650dfcdbfaab21 arm64: dts: renesas: hihope-rzg2-ex: Enable backlight
-9158231838419a9a9a5ab1b75a9cf8de1d24dbbb drm: rcar-du: lvds: Add r8a774b1 support
-2f3bc3648302c3caeb5a1927fb2fc5bb56c49d47 arm64: dts: renesas: hihope-rzg2-ex: Add LVDS support
-7d93a39f865a4666688dab9337364e5fc4a026e5 arm64: dts: renesas: Add support for Advantech idk-1110wr LVDS panel
-3c78b5585f88787a1f999bbddb8dd26f74483860 arm64: dts: renesas: r8a774a1: Remove audio port node
-159d7d0f75735a5b582d64170499539d7030d00d ASoC: rsnd: Document r8a774b1 bindings
-b48f3defd3996262b1f6af589eb578821ce13a91 arm64: dts: renesas: r8a774b1: Add Sound and Audio DMAC device nodes
-502b9a69bf5fdf7ef67647d17d88c2885a39debc dt-bindings: rcar-gen3-phy-usb2: Add r8a774b1 support
-f6d86ea0a95bd8aeb1b7c6cdf1469a74b00b8504 dt-bindings: dmaengine: usb-dmac: Add binding for r8a774b1
-8dd1c52abd2e456b5542e00f862fda2c7d651c7d dt-bindings: usb: renesas_usbhs: Rename bindings documentation file
-72062f6b6d032ef5745ff076f15bdb056c6ccc92 dt-bindings: usb: renesas_usbhs: Add r8a774b1 support
-b5aa9f4a398ac55991dda788ded703abb60c0c25 dt-bindings: rcar-gen3-phy-usb3: Add r8a774b1 support
-a9598283adb5564484e17f21dee1312c8fe71520 dt-bindings: usb-xhci: Add r8a774b1 support
-16805dde6672494a1d43224828196c99a172f8aa dt-bindings: usb: renesas_gen3: Rename bindings documentation file to reflect IP block
-7334d3b4885e32e8277e975fb583ce0d539e0c93 dt-bindings: usb: renesas_usb3: Document r8a774b1 support
-2f58d5204e9753b37e12c4db47a38a1e3d714180 arm64: dts: renesas: r8a774b1: Add USB2.0 phy and host (EHCI/OHCI) device nodes
-9b5292eed9dc3a23b8172dc41fa88dac650806af arm64: dts: renesas: r8a774b1: Add USB-DMAC and HSUSB device nodes
-e1a0118b962fa59bbfad2c682f388f51461a380f arm64: dts: renesas: r8a774b1: Add USB3.0 device nodes
-708702589b0dd28713bb2de6f4d3af125784c9b6 CIP: Bump version suffix to -cip20 after merge from stable
-263930b9093de85a3c2848b8e8985a0bcc20afd7 device connection: Add fwnode member to struct device_connection
-53a9cce54ebf56897c0baa9c2f570d07c14c29be usb: typec: mux: Find the muxes by also matching against the device node
-841a0a558092c29539c380fe24307fcbb961dbb9 usb: typec: mux: Fix unsigned comparison with less than zero
-9f0345d4fcbbac2e071cb19b0bc0a02dc22a2b5d usb: roles: Find the muxes by also matching against the device node
-22664d57b8e12289b3a4b991035841d844724135 usb: typec: Find the ports by also matching against the device node
-f38e42f05acdd2bf07caeb877c749a86a9276841 device connection: Prepare support for firmware described connections
-58ce35e637fcb8ddd258eb658c3c88b9402af331 device connection: Find device connections also from device graphs
-08a9170ecf36aca02cc5a1e3f3abf155e30915dc device property: Introduce fwnode_find_reference()
-2ef17b5bcbaeebd0de5dfa5ba2130a0bfa21421c device connection: Find connections also by checking the references
-ba9e8ff51643264c288a6104b62b58c07656e2c0 usb: roles: Introduce stubs for the exiting functions in role.h
-6291db1e1e93eaad665494a3ec21c83d10f98a6b device connection: Add fwnode_connection_find_match()
-4667de106326b0c98d2be5f1cd538de2525fa5c4 usb: roles: Add fwnode_usb_role_switch_get() function
-813b30ea367eb377b0e28d3a3c3ca8d88efa4636 dt-bindings: usb: hd3ss3220 device tree binding document
-9a8b86d0aadc81c1700e896751de4544f2195bc4 dt-bindings: usb: renesas_usb3: Document usb role switch support
-56892436e1e879d927cdd56fd403bf01fd33a589 usb: typec: driver for TI HD3SS3220 USB Type-C DRP port controller
-2262871cfb5b945c704b280c1abc7c54dbf29dac usb: typec: hd3ss3220_irq() can be static
-249d8ef2b9d442857afcfbbdf24b01114c8ef065 usb: typec: add dependency for TYPEC_HD3SS3220
-fd688e220a69808c7cf9994732fb28fa25d0f593 usb: typec: hd3ss3220: hd3ss3220_probe() warn: passing zero to 'PTR_ERR'
-46c2438823ef52ac9549d00a3a6dadfeb6415a02 usb: typec: fix an IS_ERR() vs NULL bug in hd3ss3220_probe()
-a3440ba5e132f2096bce6a2df0e789db66ad68e2 usb: gadget: udc: renesas_usb3: Enhance role switch support
-af4f2a7e419d4ac457b9d7b76111f891acd1249b arm64: dts: renesas: cat874: Enable USB3.0 host/peripheral device node
-90f7864ee22c29d9393a1959a54c55c3746ccf8c arm64: dts: renesas: cat874: Enable usb role switch support
-b2f54acb2fd502b8d4ed28452a45bdd8908bf7d0 CIP: Bump version suffix to -cip21 after merge from stable
-7b25f87b08fee504cb82ce4ab8dce39478121e78 CIP: Bump version suffix to -cip22 after merge from stable
-44bdc1058d581f512ecdac94329371db053b29cb CIP: Bump version suffix to -cip23 after merge from stable
-c4ef6e0d01c4ba0bc38dda5f83f475ac7d28889c CIP: Bump version suffix to -cip24 after merge from stable
-a3f3fc20dd93ce6895113be7e4edc431727356b2 dt-bindings: display: Add idk-1110wr binding
-72be4d15cbfdf1ca1a2e0efeb036bf0866312751 arm64: dts: renesas: Add HiHope RZ/G2M board with idk-1110wr display
-5e3fa43f3fbc4cae075725cabab8284ee030a1e4 CIP: Bump version suffix to -cip25 after merge from stable
-c2a99a53e8082632f06d7c5464e11fc7220ad816 CIP: Bump version suffix to -cip26 after merge from stable
-9ffd50e0b00d63768a0a893f20bc27c5fa7a4728 CIP: Bump version suffix to -cip27 after merge from stable
-c209ef9e8bf9a690f54021aa23f07098cdff02eb CIP: Bump version suffix to -cip28 after merge from stable
-f745a6d462c52d969a6bcf378f952489eb97f1b7 CIP: Bump version suffix to -cip29 after merge from stable
-4dcea6e49f25fd39ad2bf4d131cb7ff7967901e6 CIP: Bump version suffix to -cip30 after merge from stable
-227f272e90f49a5cb888953deb757ae360e07db6 ASoC: rsnd: fixup SSI clock during suspend/resume modes
-4d943840e686ebc65687dbd9e5ea3934f51c314c arm64: defconfig: Enable additional support for Renesas platforms
-ee2097f5fbe7a4fadbfc11bca45b1d3af74234e8 drm: rcar-du: lvds: Remove LVDS double-enable checks
-93c7f89a9a2c9fce2517277fe8afd448bc032fad drm: bridge: Add dual_link field to the drm_bridge_timings structure
-b3f0aeee58a9348e9dedde151370cb32fbfb5bea dt-bindings: display: renesas: lvds: Add renesas,companion property
-0909c86120ed692965cf2909378ad9b2a1ebda26 drm: rcar-du: lvds: Add support for dual-link mode
-2c33f69c1821ededb3b783ea68caaa49e26efa87 drm: rcar-du: Skip LVDS1 output on Gen3 when using dual-link LVDS mode
-04c0b9ccacd2f243ca01bee18a5b9bc23accb149 drm: rcar_lvds: Fix dual link mode operations
-3725903864f00075510cd28395aa5a130a035d56 drm: Add drm_atomic_get_(old|new)_connector_for_encoder() helpers
-b26262cad7633ff375002e54f5ff0f4279e26d28 drm: Add atomic variants for bridge enable/disable
-12defaacf2d8757e0bebcb732a0a53abfb5c438d drm: rcar-du: lvds: Get mode from state
-a58c5710bcd752691c0fec42033f17e875bf2bc4 drm: rcar-du: lvds: Improve identification of panels
-639430ca1b3030518c361180cb87df1e93c12f7e drm: of: Add drm_of_lvds_get_dual_link_pixel_order
-8600e7ffaa91c11380b21e0331778c956ff1b152 drm: rcar-du: lvds: Get dual link configuration from DT
-41a9d72be3181548b2848b844a989885f3b481c4 drm: rcar-du: lvds: Allow for even and odd pixels swap
-1ed5260acc7ba540b97cfb2d1fb869d2d3b05a55 arm64: dts: renesas: r8a774c0: Point LVDS0 to its companion LVDS1
-49a5770c84d7ffef8fae0fe3b11a209071b35f1d arm64: dts: renesas: rzg2: Add reset control properties for display
-853e73fe93aed4d2e3d0f46dd93e96532a0fa30e dt-bindings: display: Add idk-2121wr binding
-3889da2e3812364ef6877187333e629682ca45ca arm64: dts: renesas: Add EK874 board with idk-2121wr display support
-91d9f5b50af9bd6cbf4c8aafac02d61afc0cb71e CIP: Bump version suffix to -cip31 after merge from stable
-9faacf54679e884896d4cc0cbfb3fced7357dfa4 drm: of: Fix double-free bug
-ffdce3b990392e6502877030308a6f06ef66dae4 CIP: Bump version suffix to -cip32 after merge from stable
-cfc9a0d4db20cc7d458b28de70cbe47ebdd4203c drm: of: Fix linking when CONFIG_OF is not set
-2abf11fa1de71a13ca297d175d550b9057a5c7e1 drm: Add drm_atomic_get_old/new_private_obj_state
-3801d0fee0b3a77ed4d58018ac7503330fd1b1e4 drm: atomic helper: fix W=1 warnings
-dedf2eb5d76805ee0b150f5beb8296ceaa241b0d CIP: Bump version suffix to -cip33 after merge from stable
-0d51d6be2c5a2db532f8856964366283aedccff8 arm64: dts: renesas: r8a774a1-hihope-rzg2m[-ex/-ex-idk-1110wr]: Rename HiHope RZ/G2M boards
-d53f940d656f8b8a524c7c3b0e959428fe876401 arm64: dts: renesas: r8a774b1-hihope-rzg2n[-ex]: Rename HiHope RZ/G2N boards
-ad3e353618d09128b50faa543b57b29e79ff5368 arm64: dts: renesas: hihope-common: Separate out Rev.2.0 specific into hihope-rev2.dtsi file
-4ee03be6e712d9faaecdeacec820e634bded1b15 arm64: dts: renesas: Add HiHope RZ/G2M[N] Rev.3.0/4.0 specific into common file
-26ae6ea326f9a3846aa0eb838e22881c6b63a64e arm64: dts: renesas: Add HiHope RZ/G2M Rev.3.0/4.0 main board support
-e8eabc128c4945fa69756518d2155e1cd6165ac2 arm64: dts: renesas: Add HiHope RZ/G2M Rev.3.0/4.0 sub board support
-25afa0001c06e6b783addaf7489f6cb357bab512 arm64: dts: renesas: hihope-rzg2-ex: Separate out lvds specific nodes into common file
-1e26b5e4b612f631eab3912f9cf1efadbf4a3bf8 arm64: dts: renesas: Add HiHope RZ/G2M Rev.3.0/4.0 board with idk-1110wr display
-8dee72581440983056e4a9e8bb3849df6c6f8cdd arm64: dts: renesas: Add HiHope RZ/G2N Rev.3.0/4.0 main board support
-0b15d9818856e5ae55914018c2c3263900df0d14 arm64: dts: renesas: Add HiHope RZ/G2N Rev.3.0/4.0 sub board support
-997d11601084c4f89766c401c57615976bcb259e arm64: dts: renesas: Add HiHope RZ/G2N Rev2.0/3.0/4.0 board with idk-1110wr display
-ed89d4c1c9333839ac75da87c18e3d4aa1debb6d arm64: dts: renesas: r8a774a1: Remove audio port node
-3afa91aeefea9df581b38f00c2fd8cd83d6c4677 dt-bindings: power: Add r8a774e1 SYSC power domain definitions
-4c066afd6cab0d9aee09b565edd223b881d051b7 dt-bindings: power: renesas,rcar-sysc: Document r8a774e1 SYSC binding
-038c3537f728993fc8e0e9f6686082a30de30b75 soc: renesas: rcar-sysc: Add r8a774e1 support
-1e2af7dc254e4138b9c8e13a3eab092b76dfaaf4 soc: renesas: Add Renesas R8A774E1 config option
-b1335d4ae51607378f2ca0a3acd8e7a4f4de12f4 dt-bindings: arm: renesas: Document RZ/G2H SoC DT bindings
-f2b8ed215abcc4332574c18c39ef803e4639011a soc: renesas: Identify RZ/G2H
-327317299b412019308bc7c95067862113976785 dt-bindings: reset: rcar-rst: Document r8a774e1 reset module
-c48c96dd84c7eca9dd7515eea32076758225371a soc: renesas: rcar-rst: Add support for RZ/G2H
-ba72d11ca7d15307502a15fccf74ca9bbd18b3ff clk: renesas: rcar-gen3: Add RPC clocks
-e0305f3954bf5bc5726f2e3ac06b255cc2d45d4d clk: renesas: Add r8a774e1 CPG Core Clock Definitions
-e158e39a08146687f5218792c11a0888c27a2e9c clk: renesas: rcar-gen3: Allow changing the RPC[D2] clocks
-e7b6d5af11fffc4ecaa95583f5f5c8abb459ff16 clk: renesas: cpg-mssr: Mark clocks as critical only if on at boot
-eb04dbe77235e39ea8f49470801e153410dd93bc clk: renesas: rzg2: Mark RWDT clocks as critical
-7c2ceb42b8d2836b14005f4aa7bb33e68d402fd2 dt-bindings: clock: renesas,cpg-mssr: Document r8a774e1
-ced0ae864fba0c5399a528e3b40b141b3eedc211 clk: renesas: cpg-mssr: Add r8a774e1 support
-09ea158f6257f164f2fa804aef17ba4abe4b83c8 arm64: defconfig: Enable R8A774E1 SoC
-dcb33a6319c42d66e4025174e7ae8210891b2bbd pinctrl: sh-pfc: r8a77965: Fix DU_DOTCLKIN3 drive/bias control
-87e97dc972f73dd53e2556bc0d6125b8799bbab4 pinctrl: sh-pfc: r8a7795: Fix VIN versioned groups
-a021c8367265fb1527b3c7f868e6cf2d8f4f069b pinctrl: sh-pfc: r8a7795-es1: Add I2C{0,3,5} pins, groups and functions
-349e0d69e8f16f2c4ba937e511e68dde4a8b787b pinctrl: sh-pfc: r8a7795: Add I2C{0,3,5} pins, groups and functions
-28064d50737e94e19fedd840aa3f85bc32786447 pinctrl: sh-pfc: r8a7795: Deduplicate VIN5 pin definitions
-9ccff5f6c1717744e697af38a212f8fe856a4a4f pinctrl: sh-pfc: rcar-gen3: Retain TDSELCTRL register across suspend/resume
-846eac00808f9494b7417d979b5122ecd29d2089 pinctrl: sh-pfc: rcar-gen3: Rename RTS{0,1,3,4}# pin function definitions
-f68daac696d73ab65be6c1c3f23b027f13680dae pinctrl: sh-pfc: r8a7795-es1: Add TPU pins, groups and functions
-03deff8268fbabee942f732d8052db5f4cba2240 pinctrl: sh-pfc: r8a7795: Add TPU pins, groups and functions
-53348a660e63695d9dba5ba02d9a39c675edfb50 pinctrl: sh-pfc: r8a7795-es1: Use new macros for non-GPIO pins
-8c162684e44ddc5e141e62005ef7c7a0083880f7 pinctrl: sh-pfc: r8a7795: Use new macros for non-GPIO pins
-2ab019f3d50da2498362a9f71ea69bf7f298b526 pinctrl: sh-pfc: pfc-r8a7795-es1: Fix typo in pinmux macro for SCL3
-3ecb71c73c4ad302af87f691fd2e8a284eed2efa pinctrl: sh-pfc: pfc-r8a7795: Fix typo in pinmux macro for SCL3
-157e93469b214da557d85a7df33b53886fbb3d57 pinctrl: sh-pfc: Split R-Car H3 support in two independent drivers
-f8251f623ed853b0e97eb49438676ed3dd5f9089 dt-bindings: pinctrl: sh-pfc: Document r8a774e1 PFC support
-b1175f3fc117e01863ff69de11437bf064d08f13 pinctrl: sh-pfc: pfc-r8a77951: Add R8A774E1 PFC support
-b2b5f08b7f2f30041b880df53a66290fa536b64f arm64: dts: renesas: Initial r8a774e1 SoC device tree
-8aef4a46e1067869406bc9e7e618681650c67c4f dt-bindings: arm: renesas: Add HopeRun RZ/G2H boards
-72ad8bdb1af40dfe1a4e726ea964adbeb0627589 arm64: dts: renesas: Add HiHope RZ/G2H main board support
-1b1187a6b71e37266421961a71b1f819cb379ee3 arm64: dts: renesas: Add HiHope RZ/G2H sub board support
-045196c7cc7f71bd2317d41afd074b553c014ea5 dt-bindings: iommu: renesas,ipmmu-vmsa: Add r8a774e1 support
-2fbc2ec1fba150b768fa8a7e9a2d5a37c94dc5e9 iommu/ipmmu-vmsa: Hook up R8A774E1 DT matching code
-b150d64f2de70c523f4a00b13767981b8017dc70 arm64: dts: renesas: r8a774e1: Add IPMMU device nodes
-1edbf04ea59e7a499506082edecc6bfd00be471d dt-bindings: dma: renesas,rcar-dmac: Document R8A774E1 bindings
-ebb9293b18005321b6ba9c3ebc4efba81137db9b arm64: dts: renesas: r8a774e1: Add SYS-DMAC device nodes
-91de669a1d2ec178be14cc7e83eb5f4ca428da15 arm64: dts: renesas: r8a774e1: Add GPIO device nodes
-cbfc6d2eff520c49695d5a6a17d592320e234427 arm64: dts: renesas: r8a774e1: Add Ethernet AVB node
-04d96fac821c6a342c562c442b1262d1d56f3800 arm64: dts: renesas: r8a774e1: Add operating points
-49638149f870f8f6c48ced975201f05a894dd11f thermal: rcar_gen3_thermal: Remove temperature bound
-a2dcccc1ff9438b969de3feaeadeb730fdc79db6 thermal: rcar_gen3_thermal: Generate interrupt when temperature changes
-a69d8e6cd79ae2345f7726b228839a885cd58357 thermal/drivers/rcar_gen3: Fix undefined temperature if negative
-34d6a60326ed6b88e3c08d3989e643a602632845 thermal: rcar_gen3_thermal: Add r8a774e1 support
-74f5876855ba20dc258fd1e836e13bbd9b54c80d arm64: dts: renesas: r8a774e1: Add RZ/G2H thermal support
-dd183faa27776df1289dbb3296a180291f3dc833 arm64: dts: renesas: r8a774e1: Add CMT device nodes
-46c0d8681f58e1ff36aa0d0cab5a0f96759ec638 arm64: dts: renesas: r8a774e1: Add TMU device nodes
-bc99e3b9a5c1bcdc8f4b3b98f36429d8f665dfa8 can: rcar_can: Remove unused platform data support
-bcca7644adcae83ff286c35661ddce537d4ee904 arm64: dts: renesas: r8a774e1: Add CAN[FD] support
-e853308282e0833728ed1c8136c55a32f563275f arm64: dts: renesas: r8a774e1: Add SCIF and HSCIF nodes
-8f49300fe2b19bc652b9e60a8e4d7a290468669b mmc: renesas_sdhi_internal_dmac: Add r8a774e1 support
-60aa43210885a995a630511050a54977f349ded1 arm64: dts: renesas: r8a774e1: Add SDHI nodes
-1f9f49dd18d8f5da08bd2b7b7c11ee2a99441685 dt-bindings: i2c: renesas,i2c: Document r8a774e1 support
-58f437087fa0f4a09111c1bf15b07e0da9915cac dt-bindings: i2c: renesas,iic: Document r8a774e1 support
-c8cb0183d2a6e00d6a42391a4c256698364bf097 arm64: dts: renesas: r8a774e1: Add I2C and IIC-DVFS support
-95f1f100769ed30f0c8d6fcf8a6e56cd44721a2e spi: renesas,sh-msiof: Add r8a774e1 support
-c911115f0be475bbebbcdcb1a453348121fab1b1 arm64: dts: renesas: r8a774e1: Add MSIOF nodes
-b15622cf6aeedaa6bd93cbe42c5e0aca19cdb3d4 dt-bindings: watchdog: renesas,wdt: Document r8a774e1 support
-6179a9121aa1a7af93119eb92cecd51740a07a53 arm64: dts: renesas: r8a774e1: Add RWDT node
-d68b653adb3b49256dcaf24863d97d83ebb8dab4 arm64: dts: renesas: Fix SD Card/eMMC interface device node names
-36dd2ab404036c7e969756c15a1a3556a31468b6 CIP: Bump version suffix to -cip34 after merge from stable
-3fcce867793a6bb80b71a999ed8db05ea9610186 CIP: Bump version suffix to -cip35 after merge from stable
-3dd15bb19bf263ab52742247dd36320b9150a201 CIP: Bump version suffix to -cip36 after merge from stable with ravb fix
-38621e3e4c32c42b95ccd2603294d76eebe38d4f PCI: endpoint: Add new pci_epc_ops to get EPC features
-27bf54057fa87c8c59a34cbfa85064371741c9ad PCI: dwc: Add ->get_features() callback function to dw_pcie_ep_ops
-b48f04fcf841f17391222d416b4799fa27e6ee68 PCI: designware-plat: Populate ->get_features() dw_pcie_ep_ops
-934841f55eb57883119da063938afbd91af70cf4 PCI: pci-dra7xx: Populate ->get_features() dw_pcie_ep_ops
-98b115b1a0ee63da8d3c6ef2146d0ad0c12a5040 PCI: rockchip: Populate ->get_features() dw_pcie_ep_ops
-751614499b3fc773f832b11528dba0db721a79ee PCI: cadence: Populate ->get_features() cdns_pcie_epc_ops
-39289ceffc98e52743d37db7a4c55f602929fe8e PCI: endpoint: Add helper to get first unreserved BAR
-e1316b9381d6d31d175b19dd811526698a20e498 PCI: endpoint: Fix pci_epf_alloc_space() to set correct MEM TYPE flags
-72f8b7551c0006832861930d042b79c28a27219a PCI: pci-epf-test: Remove setting epf_bar flags in function driver
-972b29e268bbaf899b8ad024820a22283851a7e1 PCI: pci-epf-test: Do not allocate next BARs memory if current BAR is 64Bit
-41b3c717acb88ae634a6309a1052b3d1c02a64e9 PCI: pci-epf-test: Use pci_epc_get_features() to get EPC features
-33f097d0e629b5c4033cb0ec9aba6ab87d6bfd50 PCI: cadence: Remove pci_epf_linkup() from Cadence EP driver
-1a409fdb0a67da5a1f99a394730dbd3339f90fea PCI: rockchip: Remove pci_epf_linkup() from Rockchip EP driver
-ce89486de7cba7c247b704e5ef644c9c78028958 PCI: designware-plat: Remove setting epc->features in Designware plat EP driver
-9ec2331e2b9171a34c742f1c2f91e363224a8795 PCI: endpoint: Remove features member in struct pci_epc
-fa9441a75c117f227574b8c491f563fbc9280a58 PCI: endpoint: Fix a potential NULL pointer dereference
-ac1263b80267a7d46436b1fdfec2679f4b1cad87 PCI: endpoint: Add support to specify alignment for buffers allocated to BARs
-82b676bb6cb65e50900c84f1d3cc2e484ba84bf0 PCI: endpoint: Set endpoint controller pointer to NULL
-346e354202dfd51225672e001f1e25a6979e1057 PCI: endpoint: Allocate enough space for fixed size BAR
-2a0ed80ebda910e18c1e896b9a45636a70e039ee PCI: endpoint: Skip odd BAR when skipping 64bit BAR
-b0964accd942f5addc541b41f98db7819a8b37ec PCI: endpoint: Clear BAR before freeing its space
-e12ba311c7dedbaa44e8dd1e75ab39208598be24 PCI: endpoint: Cast the page number to phys_addr_t
-eabc23206bad9a36eac6aedd3ddef74df0406903 PCI: endpoint: Fix clearing start entry in configfs
-188a78985ea1f06fd32eb626ebc6fe2f8e4f55d8 PCI: dwc: Fix dw_pcie_ep_raise_msix_irq() to get correct MSI-X table address
-8717e7dc58dc736c8b9d67085fbe6193786ae59b tools: PCI: Exit with error code when test fails
-8e2cb60fee25017af71a6f2c78ebefd772646ea6 tools: PCI: Fix fd leakage
-116f06ce5dd34469be6631a371ee1605d6d82e34 PCI: endpoint: Use notification chain mechanism to notify EPC events to EPF
-7a443bb34b3f19db0aa7baf47ec6c7515d7fe7f8 PCI: endpoint: Replace spinlock with mutex
-2d26532ae421fad47dac7737dc6c2cdc45f42a31 PCI: endpoint: Protect concurrent access to pci_epf_ops with mutex
-4bc7cd05123cbf21ff63f04121ec6338e12856e5 PCI: endpoint: Assign function number for each PF in EPC core
-87f83135b8b61b874732770e9074419260f9bf01 PCI: endpoint: Add core init notifying feature
-5dccb7e0a143d348fc9d6b72b616d56f61059def PCI: endpoint: Add notification for core init completion
-8d18c4809a67b5074458455bbb0e13c1a8832f5f PCI: pci-epf-test: Add support to defer core initialization
-910dedf94ced514653ced440d234de0cef982a11 PCI: endpoint: Fix ->set_msix() to take BIR and offset as arguments
-7c16aa04243471acd04e8e9010b814a0b24f0636 PCI: endpoint: Pass page size as argument to pci_epc_mem_init()
-002184a6686915f3a513f8cb4e4a14ffa5ef2e83 PCI: endpoint: Add support to handle multiple base for mapping outbound memory
-1e299c0e6682c5827db13c96cf2e4ab967299b0b PCI: endpoint: functions/pci-epf-test: Print throughput information
-ad9727ecf1b38cab3d0f441eb7011c7076d90ce6 PCI: rcar: Rename pcie-rcar.c to pcie-rcar-host.c
-b25d16da1308619d2c1d25ad8ca1915884068248 arm64: defconfig: Enable CONFIG_PCIE_RCAR_HOST
-fbc6cf13a8c5d0c23901ab022f352d3c2e32dc4f PCI: rcar: Move shareable code to a common file
-48b7bf94a803f4300f8ff6988a81bb90f154dbcf PCI: rcar: Fix calculating mask for PCIEPAMR register
-8d2d889e033bd3ab3ac81a5eafa8d80102dc8f32 dt-bindings: PCI: rcar: Add bindings for R-Car PCIe endpoint controller
-bd76d0840361748036467dc619cb4d4399ae67e3 PCI: rcar: Add endpoint mode support
-7789a86c3634f9564ffd39ed768b2e1cd81e5802 arm64: defconfig: Enable R-Car PCIe endpoint driver
-aa4c7dfdc5aa0b826e8275e91a8ae96d3325ee1a misc: pci_endpoint_test: Add Device ID for RZ/G2E PCIe controller
-bcc76a32c02cb17e53b1d684417421cfd88bfb38 CIP: Bump version suffix to -cip37 after merge from stable
-99cff6746b64461fa247ad0e91846e48508de346 dt-bindings: ata: sata_rcar: Add r8a774b1 support
-628a31a23412c0a92f93a877add3a4815a573541 arm64: dts: renesas: r8a774b1: Add SATA controller node
-5b5b89775c4b5a360cda336e72ccd8c521778392 arm64: dts: renesas: r8a774b1-hihope-rzg2n-ex: Enable sata
-dfd1c56e5893691d37e463d68ea2c21ce9a691b8 dt-bindings: pci: rcar-pci-ep: Document r8a774a1 and r8a774b1
-822080b88ee941cf5cd16ca2584a7d033bd11723 arm64: dts: renesas: r8a774c0: Add PCIe EP node
-7472ba551dd492f7622584e96192bf73544ca09a arm64: dts: renesas: r8a774a1: Add PCIe EP nodes
-63e4b6bdf293b4a7785a0dde2ade2b1bdc44c2cc arm64: dts: renesas: r8a774b1: Add PCIe EP nodes
-f1763e1388a11386e3128a7fc6a49a1cd71f0133 misc: pci_endpoint_test: Add Device ID for RZ/G2M and RZ/G2N PCIe controllers
-fc6d9ddf45968bc61729a77bba03eb3776eb3f42 arm64: dts: renesas: r8a774e1: Add PCIe device nodes
-9dfdad7c56027e8734ac6a2412a9601bcfe337fd arm64: dts: renesas: r8a774e1: Add SATA controller node
-57927b59cc020c5f86edb7af74e05ff0590a0afb dt-bindings: pci: rcar-pci-ep: Document r8a774e1
-0d8b79a0d40aad10f9e760ca8eadf3e7f0fe9c79 arm64: dts: renesas: r8a774e1: Add PCIe EP nodes
-000525195429661a0c94fd13a22fbeb5df59ec20 misc: pci_endpoint_test: Add Device ID for RZ/G2H PCIe controller
-28af1aea4aec7990d6e7d1ac9592618949e11f08 arm64: dts: renesas: r8a774e1-hihope-rzg2h-ex: Enable sata
-f181379a5536a8b3805883b16af989ded56c9a82 arm64: dts: renesas: r8a774e1: Add FCPF and FCPV instances
-d0b3c2b17d2dd5f664f3ee719f916cb131fb96d1 arm64: dts: renesas: r8a774e1: Add VSP instances
-a39cd016195c4c3e5f7581cf4eab8c19ba233887 arm64: dts: renesas: r8a774e1: Add FDP1 device nodes
-a9a290ab3a4f2bddde462395ecdb9244b7981b0f dt-bindings: display: renesas,du: Document r8a774e1 bindings
-8749df5f8f9d34e35162b27e9c31d9e9c0631707 drm: rcar-du: Add support for R8A774E1 SoC
-ff514e721778a0e5aaf48d4c30c8d357620b6b86 arm64: dts: renesas: r8a774e1: Populate DU device node
-f3f72cb91900b35407068ed0c79c23f04f2039fd dt-bindings: display: renesas,dw-hdmi: Add r8a774e1 support
-1fa940d7d8a955b5fae525f98c5fe51747b1ed4f arm64: dts: renesas: r8a774e1: Populate HDMI encoder node
-0d8cb1595d72ba666f6256a7ced550e036468713 dt-bindings: display: renesas,lvds: Document r8a774e1 bindings
-6c03bec603a32bce2939de87ee8eb82aa61511bd drm: rcar-du: lvds: Add support for R8A774E1 SoC
-7c007fa5e97e4029e6d59b2b4dc85d5662373055 arm64: dts: renesas: r8a774e1: Add LVDS device node
-864a099b3e4c4840906cc7852db49c6dd96d5b13 arm64: dts: renesas: r8a774e1-hihope-rzg2h: Setup DU clocks
-38e41651ccb618b7ec83bd81c46f3bbb88f63a7a dt-bindings: pwm: renesas,pwm-rcar: Add r8a774e1 support
-9b44d4f62aca5060f44b8f12f17169dfa7f3302f arm64: dts: renesas: r8a774e1: Add PWM device nodes
-5318f7666cf3d7f3c5a382ec3dd0bfaa838070fd arm64: dts: renesas: Add HiHope RZ/G2H board with idk-1110wr display
-afddb3396abcb6c94ba7ef9271c0279d763fdb8b dt-bindings: sound: renesas, rsnd: Document r8a774e1 bindings
-bac782bdd36814a6861450065617ad06ef80d4b9 dt-bindings: phy: renesas,usb2-phy: Add r8a774e1 support
-51227ae581abdb153ca2b2a32c69029dafe8a689 dt-bindings: phy: renesas,usb3-phy: Add r8a774e1 support
-927c7813a5005fcdc9f1ef73cd99def11810ff9f dt-bindings: dma: renesas,usb-dmac: Add binding for r8a774e1
-5a4679426228ed8418c7dc1755bfc458af91fb5c arm64: dts: renesas: r8a774e1: Add USB2.0 phy and host (EHCI/OHCI) device nodes
-cea51fa50a8cd970338a44d59baa803671edbb9c arm64: dts: renesas: r8a774e1: Add USB3.0 device nodes
-00bc88d866f89637a58f8a3887654095eab71b5c arm64: dts: renesas: r8a774e1: Add USB-DMAC and HSUSB device nodes
-9d92902f9ad3e7f853bfcbe0c544b0f09d957adc CIP: Bump version suffix to -cip38 after merge from stable
-e17fe9cf93ab10d782ffb9a51e11bae540e61a7d arm64: dts: renesas: r8a774e1: Add missing audio_clk_b
-bbb7f4f129c061e8ae9184a92bdda518b29d697c arm64: dts: renesas: r8a774e1: Add audio support
-fed343b3dc57a2a4986a340bd36defc8b8dc3689 CIP: Bump version suffix to -cip39 after merge from stable
-61b00bc56de975e2b5afa0b573b8064505b28aa4 Rebase version of v4.19.160-cip39-rt17 (-rt69).
+53ba31d44bf6ff0a915b472797ec1af07b663751 CIP: Bump version suffix to -cip39 after merge from stable
+2ea9068a43ba52edf69d37ec16068a1ac9510af4 Merge tag 'v4.19.152-rt66' into linux-4.19.y-cip-rt
+195357b0d2cbc7b24af064c8d562daa9c4d3f1fb Merge tag 'v4.19.155-rt67' into linux-4.19.y-cip-rt
+46cae426073bd0b4c560ef403e4901de1ef3c254 Merge tag 'v4.19.157-cip38' into linux-4.19.y-cip-rt
+81785fadb9b8d96a47e30c0cd9aef305be6ab13d Merge tag 'v4.19.158-rt68' into linux-4.19.y-cip-rt
+c716e2c2dd58340c2f16f782338dea8de683c312 Merge tag 'v4.19.160-rt69' into linux-4.19.y-cip-rt
+af7aac023b69d7ce4572e69f4639d40c88541eec Merge tag 'v4.19.160-cip39' into linux-4.19.y-cip-rt
+fe6e4a43439eedd3351ba9aff3eaa38dc14e9034 Mark this as v4.19.160-cip39-rt17 (-rt69).
 
---===============5892503302152827908==--
+--===============1142702942350206403==--
