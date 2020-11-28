@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 28 Nov 2020 01:27:13 -0000
-Message-Id: <160652683330.28755.12541881756016418119@gitolite.kernel.org>
+Date: Sat, 28 Nov 2020 01:37:41 -0000
+Message-Id: <160652746189.2604.12847250874638541391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: f5d709ffde6b826133ccf9e8a104ce00fe31dbfb
-    new: fff4c74690018c4f741d1ae68c2ba2143b66844a
+    old: fff4c74690018c4f741d1ae68c2ba2143b66844a
+    new: 6375da9dac8bec05a022f22ab22300cc824ec268
     log: |
-         7eed751b3b2a6949932a6a59fa2792c584641618 net/x25: handle additional netdev events
-         a4989fa91110508b64eea7ccde63d062113988ff net/lapb: support netdev events
-         62480b992ba3fb1d7260b11293aed9d6557831c7 net/lapb: fix t1 timer handling for LAPB_STATE_0
-         d023b2b9ccc2e7ec14b83aec634b5b51f621ef3a net/x25: fix restart request/confirm handling
-         139d6eb149de0cb8726d0d8e722ab8d4ddcc60bb net/x25: remove x25_kill_by_device()
-         35c58418898b5e80eaa55f5ce861734302c6f157 Merge branch 'net-x25-netdev-event-handling'
-         fff4c74690018c4f741d1ae68c2ba2143b66844a net: phy: micrel: fix interrupt handling
+         60c102eedea0e487c897dd23cc7fefecf4449769 tipc: refactor tipc_sk_bind() function
+         5f75e0a0e92a6c6ef93d61fb4d1d2a185cdbc2f9 tipc: make node number calculation reproducible
+         b6f88d9c2faec015491a4c9936c170d7bc8539d5 tipc: update address terminology in code
+         6375da9dac8bec05a022f22ab22300cc824ec268 Merge branch 'tipc-some-minor-improvements'
          
