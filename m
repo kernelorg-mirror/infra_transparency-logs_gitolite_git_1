@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6224521832162228570=="
+Content-Type: multipart/mixed; boundary="===============1923724663290026394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Sun, 29 Nov 2020 01:03:58 -0000
-Message-Id: <160661183805.436.16678552431609522474@gitolite.kernel.org>
+Date: Sun, 29 Nov 2020 01:04:08 -0000
+Message-Id: <160661184887.531.1550798852340945216@gitolite.kernel.org>
 
---===============6224521832162228570==
+--===============1923724663290026394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/for-next
-    old: 7007fab4ae82c092cb52691c338f1b776005e32b
+  - ref: refs/heads/fixes
+    old: e3f2396b7570751a7ddba996812fb608134fd63c
     new: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
-    log: revlist-7007fab4ae82-3650b228f83a.txt
+    log: revlist-e3f2396b7570-3650b228f83a.txt
 
---===============6224521832162228570==
+--===============1923724663290026394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7007fab4ae82-3650b228f83a.txt
+Content-Disposition: attachment; filename=revlist-e3f2396b7570-3650b228f83a.txt
 
-6e4dc3d59284ea3bc7c3e40694bce84d988b01af Merge tag 'for-linus-5.10-1' of git://github.com/cminyard/linux-ipmi
 4815519ed0af833884ce9c288183bf1ae3cb9caa Merge tag 'for-5.10/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 55e0500eb5c0440a3d43074edbd8db3e95851b66 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 7fafb54c7d390e9b273a1d7d377e38d9c408046e Merge tag 'leds-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
@@ -217,6 +216,7 @@ f58423aeab28f861b67933206f322f764f05787d bpf, sockmap: Add locking annotations t
 8a3feed90e75283f15f830b1051bf048e4127c91 bpf, selftest: Fix flaky tcp_hdr_options test when adding addr to lo
 83c11c17553c0fca217105c17444c4ef5ab2403f net, sockmap: Don't call bpf_prog_put() on NULL pointer
 2ecbc1f684482b4ed52447a39903bd9b0f222898 Revert "bpfilter: Fix build error with CONFIG_BPFILTER_UMH"
+7007fab4ae82c092cb52691c338f1b776005e32b power: reset: POWER_RESET_OCELOT_RESET should depend on Ocelot or Sparx5
 2295cddf99e3f7c2be2b1160e2f5e53cc35b09be Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 105faa8742437c28815b2a3eb8314ebc5fd9288c Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 82c2d81361ecd142a54e84a9da1e287113314a4f coccinelle: iterators: Add for_each_child.cocci script
@@ -1051,4 +1051,4 @@ a3d1b31213f1f789cc45a7db5c721513282d225a Merge tag 'perf-urgent-2020-10-25' of g
 33def8498fdde180023444b08e12b72a9efed41d treewide: Convert macro and uses of __section(foo) to __section("foo")
 3650b228f83adda7e5ee532e2b90429c03f7b9ec Linux 5.10-rc1
 
---===============6224521832162228570==--
+--===============1923724663290026394==--
