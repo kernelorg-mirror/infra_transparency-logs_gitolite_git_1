@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8755727464009116647=="
+Content-Type: multipart/mixed; boundary="===============3872617381492422102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
-Date: Sun, 29 Nov 2020 00:40:42 -0000
-Message-Id: <160661044295.17358.4739935904564348083@gitolite.kernel.org>
+Date: Sun, 29 Nov 2020 00:48:59 -0000
+Message-Id: <160661093938.21472.12410904392983368698@gitolite.kernel.org>
 
---===============8755727464009116647==
+--===============3872617381492422102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-hsi
 user: sre
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/master
     old: bb6d3fb354c5ee8d6bde2d576eb7220ea09862b9
-    new: 41fff6e19bc8d6d8bca79ea388427c426e72e097
-    log: revlist-bb6d3fb354c5-41fff6e19bc8.txt
+    new: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
+    log: revlist-bb6d3fb354c5-3650b228f83a.txt
 
---===============8755727464009116647==
+--===============3872617381492422102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb6d3fb354c5-41fff6e19bc8.txt
+Content-Disposition: attachment; filename=revlist-bb6d3fb354c5-3650b228f83a.txt
 
+4815519ed0af833884ce9c288183bf1ae3cb9caa Merge tag 'for-5.10/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 55e0500eb5c0440a3d43074edbd8db3e95851b66 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 7fafb54c7d390e9b273a1d7d377e38d9c408046e Merge tag 'leds-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 b4e1bce85fd8f43dc814049e2641cc6beaa8146b Merge tag 'pinctrl-v5.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
@@ -1049,6 +1050,5 @@ a3d1b31213f1f789cc45a7db5c721513282d225a Merge tag 'perf-urgent-2020-10-25' of g
 986b9eacb25910865b50e5f298aa8e2df7642f1b kernel/sys.c: fix prototype of prctl_get_tid_address()
 33def8498fdde180023444b08e12b72a9efed41d treewide: Convert macro and uses of __section(foo) to __section("foo")
 3650b228f83adda7e5ee532e2b90429c03f7b9ec Linux 5.10-rc1
-41fff6e19bc8d6d8bca79ea388427c426e72e097 HSI: omap_ssi: Don't jump to free ID in ssi_add_controller()
 
---===============8755727464009116647==--
+--===============3872617381492422102==--
