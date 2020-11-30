@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Mon, 30 Nov 2020 15:39:40 -0000
-Message-Id: <160675078092.3262.11271752622150175972@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 30 Nov 2020 15:42:19 -0000
+Message-Id: <160675093990.5476.14102274880836300210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/thermal/linux-next
-    old: 90a996544946d1d4834ec2ec8add586edd905779
-    new: 1b57b9597c779f0a20c5837abec31f600240496b
+  - ref: refs/heads/kvm-arm64/csv3
+    old: 96e0887adb489f17dad628a3bc7daac2830b592a
+    new: fc47596a57c07b84a8b4d5d28c77d13cbea32c01
     log: |
-         f74bed6a4e0d7f51da7f624e47f6e9423920e1e0 thermal: core: Constify static attribute_group structs
-         1b57b9597c779f0a20c5837abec31f600240496b thermal: rcar_gen3_thermal: Do not use interrupts for normal operation
+         fc47596a57c07b84a8b4d5d28c77d13cbea32c01 KVM: arm64: Advertise ID_AA64PFR0_EL1.CSV3=1 if the CPUs are Meltdown-safe
          
