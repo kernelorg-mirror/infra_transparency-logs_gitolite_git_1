@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7840111058227050843=="
+Content-Type: multipart/mixed; boundary="===============2922638870299806699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 30 Nov 2020 19:35:42 -0000
-Message-Id: <160676494225.9543.5064324534399324260@gitolite.kernel.org>
+Date: Mon, 30 Nov 2020 19:35:46 -0000
+Message-Id: <160676494654.9638.5230446965531318155@gitolite.kernel.org>
 
---===============7840111058227050843==
+--===============2922638870299806699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: b3d65c35dbf13b714320e238d6a350cb90f51a3a
-    new: f37e4647edf6f07cb51920affca63c1ce30a6d04
-    log: revlist-b3d65c35dbf1-f37e4647edf6.txt
+  - ref: refs/heads/5.11/scsi-queue
+    old: 6998ff4e21619d47ebf4f5eb4cafa65c65856221
+    new: ac85cca316370d897b5af0568d224410b027b5e4
+    log: revlist-6998ff4e2161-ac85cca31637.txt
 
---===============7840111058227050843==
+--===============2922638870299806699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1606764939 -0500
+pusher 75C5DE3D 1606764945 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1606764939-de4ee29426d30678cb8b30b08e072b5b7f256266
+nonce 1606764944-3e57ef182f4eb131596a0e60ebff94347c9b8635
 
-b3d65c35dbf13b714320e238d6a350cb90f51a3a f37e4647edf6f07cb51920affca63c1ce30a6d04 refs/tags/mkp-scsi-queue
+6998ff4e21619d47ebf4f5eb4cafa65c65856221 ac85cca316370d897b5af0568d224410b027b5e4 refs/heads/5.11/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/FSYsACgkQ7ulgGnXF
-3j0FBA/+NKvGIKZf6yc6wTPwkjuFugxaaQelgh2pVlCKbGziYwaQ8rJ7HXE6W0KB
-2MlXfcAE1jpEzKnoCZtXLIFof8jybRqiB0Ak0BdKB7SKRm1agjgqEFtGKqPK6bY/
-suX2DozqC6nzFvZtb+PojCSzbVNCyXtsbyPMnBfSrzAkrJ+FGqNaEpaYMzYkwOeF
-Mwim7ZfX56sqF6/slHakU+i9/Girg/pLYFAjBytiaDHyQnRLNZRNLv9ZH5vav9zv
-A3ITsJn4qf+VVxadv6BmBQCnAHRCMDPXY+IrbiUGO9hN/POX9XfuRM4ogDWTH0JJ
-KNDeOrlvZcQ2aDaoFv8T2vwacgP8H968ytYsT8U8QP6NcuWHlqklZC28PSsr+OJn
-PYA1GFpMzcIvlPy6sErN3Iq5U4Sh0oWH3ukfXKL4aWXkC3OhoJWDV7Vx7fp5x5as
-QI5+sG0MZukAeIoh/mJW1WXQWQFmbtQon4Iv29rpxKwzP7oE8vjSWtQn1lmJuTBR
-XjAlnkrEgU2TJPJoZt7SOqnLsMHNRMYyOFEYX5xKe9VHE6kCWtxDh4MZ6YDaONuB
-tLUlk0HOTIp3s3tj+f044lTyU60yTigln7pxi4dA5OUhH79e+Fe61P78CRizmn5Y
-0nfhiRvttrSyvBs0HthRUUa1da7qqWpvT0XWJV+7oDss3Ro+IVc=
-=3RTi
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/FSZEACgkQ7ulgGnXF
+3j1y6Q//SsCetWgR8S2szcFsVrxQlxtn+TMQFuPCA8ZFb+AHwTZni0jNZdpli6q/
+RrcZF/fDOvJ0ss1N7OTqgvVbURkiAti0tm0BdeDSv7IdzD0gQH0jwYlT9Z+shsa8
+NEZJUgtlhTp9Z820T2IN7JJ7nN6SEl/qgSm9/S3Qlp5+8rvHFh3VINdYaOoowuVb
+VCFeWxRUaKXn3ii8QjadTJUI/YTIbkg4447TNZNXMKwOfs8nT9gd737OTuOxPGsQ
+YcqpMgtvBWIS0k43McRPBtY81ryX9ySp0hervzPvXDnRdzb2ymthScjZ5MJ2Z6kY
+wfkxGj2xm/1nyDF32GM1xZO+PXTpsoRN3TJqkb8gyOfo3OI+ubvgF+F90klpBJ/N
+CPW3gsA2UYJh3ByRl77qPFLpMvEn7KADMWs25orI2auot+B4oExSBsyQ9EYHkC5r
+vWSjkpEDcCPVM/aOz5JOiBYYlvEtQYf880z8MsMJ7cGbyZtvXQXn8VIQN+vN7VS9
+4NgWeB2/oAkhRSmXxkrH6l0eQ7a+UzpibxexFUauJiav8YtIoah21Vp3PmYYmHgy
+dcZn4bMFPsl1qoPbPbAwoZXX+HcQM5iZJkf1Q/7ngldy9Q0Gc1JLr8FZ5M1X+Zho
+n/MFYt8fvv8m9pWuRMBTvwlNV/deQdLkwDLQWNCyoUvI91WsmLs=
+=sb7I
 -----END PGP SIGNATURE-----
 
---===============7840111058227050843==
+--===============2922638870299806699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3d65c35dbf1-f37e4647edf6.txt
+Content-Disposition: attachment; filename=revlist-6998ff4e2161-ac85cca31637.txt
 
 66df79ccbc2f617a2bbaa7108a2b50a6869de5d4 scsi: ufs: Adjust logic in common ADAPT helper
 03fe6a640a05c5dc04b6bcdddfb981d015e84ed4 scsi: atari_scsi: Fix race condition between .queuecommand and EH
@@ -97,4 +97,4 @@ bd7463cdbe1af0e6d120defcbe9cf0e6eb0729c7 scsi: mvumi: Drop PCI Wakeup calls from
 0aea8a8f3a77d870a1e3312f561efbcf4907bcd5 scsi: pmcraid: Drop PCI Wakeup calls from .resume
 ac85cca316370d897b5af0568d224410b027b5e4 scsi: pmcraid: Use generic power management
 
---===============7840111058227050843==--
+--===============2922638870299806699==--
