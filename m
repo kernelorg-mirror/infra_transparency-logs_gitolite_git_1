@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6081080943400709972=="
+Content-Type: multipart/mixed; boundary="===============5964867972312120438=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 30 Nov 2020 07:29:06 -0000
-Message-Id: <160672134668.30734.5383180937341693546@gitolite.kernel.org>
+Date: Mon, 30 Nov 2020 07:29:20 -0000
+Message-Id: <160672136067.30901.16431716425296259301@gitolite.kernel.org>
 
---===============6081080943400709972==
+--===============5964867972312120438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 09162bc32c880a791c6c0668ce0745cf7958f576
+  - ref: refs/heads/usb-linus
+    old: 484cfbe5fb61469a5f5a276258a8b3973164b56f
     new: b65054597872ce3aefbc6a666385eabdf9e288da
-    log: revlist-09162bc32c88-b65054597872.txt
+    log: revlist-484cfbe5fb61-b65054597872.txt
 
---===============6081080943400709972==
+--===============5964867972312120438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606721407 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606721421 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1606721340-af000f2ea11041242a80e03d28cba4fcac1c4c1f
+nonce 1606721354-f134c91a1d5a85c7feb9e4b4a2b56e1e5362f941
 
-09162bc32c880a791c6c0668ce0745cf7958f576 b65054597872ce3aefbc6a666385eabdf9e288da refs/heads/main
+484cfbe5fb61469a5f5a276258a8b3973164b56f b65054597872ce3aefbc6a666385eabdf9e288da refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/En38bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pLYQANeNVz75lxxZec6KUptN
-KNvKVbOfqMinzUsqPEUrK6wwkiE18V9g8/RAO5ChCPaggjxq8SXeyy4rg0DBY7zd
-yzAjRYgO5MnuAtdnqJFc77II1yh+5bJBp7PZfWDLjiLeLgIgvj+O0kfITkGGL7WD
-p2CiwcrrJTvKIk/SNXYCtUNWsShegGtfUFbVtqWgPMmRSw41fKjj/y8Sgn2joBOm
-H9Yg3eRZx/ryaP+Xjmyq2R9f+Kk0ljyrPKh2dsAcNheu7ZsOhXyFYGGCQo/9AzO6
-ywmBbLnJYneTlEY4t5EJX+6VpRQBJm89ulPP2MBLkX7RnwT/1DWrkF7ta+AkQDCH
-U7KXNnn3Z3HfZnkexYfRg3Q9qMj56hWuaOgG+tACNhossXntIJylFeuWdTwQhHVd
-gTXQ3tEu3i13DN3ryxl4EvT60FpuLRZTEOCj0B+rwxvxMR0vP5RN0JiHuRXL9Hiz
-klT2QF0uArikyhb7xIm6bVyL/VxW4Gy1OTk9Y39ZIUs3AbUeLOkizuTyG1YnzIlW
-iYQ8Xz+SALJu5vDdINfUcj95B1TvD5CX1xdlAZYMfmBcbu9BuFhTjMlKI5uPStvd
-akw+a+adT058TitdhwtZmK7tNS7m+R5SOnEvmaZLzqHKFqkqk8iL2OGxRQeKAbP2
-EHB7tltuT1bPxW2IPb1IEcfI
-=mCmr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/En40bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OGQP/0XAsBt5m1j3Ahi8ZTue
+KiTt2hEq5MKocQyNHZuM+W1wz8bXwcxOwkyMPihi81QUmrOZV9AjEFw3QAcW2KSb
+Bgu7Mwv3Ck6oC+XBYrgTPHen9G0dpE8XZbvnic1eRR7Y1DDbD6Pg/u4PLZI9Zui3
+U9ENjkXl2skrvs1ZltZjIuYCAQ7vmV1TuZ9X0LpeclSLTQWZRkseAI0ulbTAthIJ
+KXbjTwrbV59WP/OM2DBNS5OkeZftX83FkjGfD16k75H31FCpHqY1CKFKdOpNxZ0f
+jG60itrRdDObIOcRCSF4RNJm9sqQ0OVfFJt20Wx5JFRyTKid6wLb8msz5KAaW+wC
+FZgLRyUOUdga41vrKkik06khRqkKAPGn81Sxyt/2jI2SIZEQRNq7SXXn7zlrnBic
+h4bTdbgAp7YqoqOZIrYTJXHpV+x+Qeq3qJ0ynOUIfoBK24B0n0dHlYvB6Rt57yFW
+8K/ke7h9vo8770Iv5fFIeUnlw28C13qmKt1IbhVsvl118PGPL+Eq1v7xeXkEI36S
+T6xQ/VWMz7wmNWDUQKjOp/YZQJPIBh7D3dR91nuniMtFPsyIOhRos9sdnrIL/rcV
+lwLq1pjhT8nue2hDK+fpbIxNphRz8BVzZGdTfTgOLd12Q/o9lvn4Eky+GbLh0yb5
+ZLZBr4uiAB55T0W5Y08KZ9rX
+=oJFw
 -----END PGP SIGNATURE-----
 
---===============6081080943400709972==
+--===============5964867972312120438==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-09162bc32c88-b65054597872.txt
+Content-Disposition: attachment; filename=revlist-484cfbe5fb61-b65054597872.txt
 
 022fc5315b7aff69d3df2c953b892a6232642d50 HID: uclogic: Add ID for Trust Flex Design Tablet
 b59f38dbfd5d19eb7e03d8b639f0c0d385ba8cc5 HID: logitech-hidpp: Add PID for MX Anywhere 2
@@ -92,10 +92,6 @@ b1884583fcd17d6a1b1bba94bbb5826e6b5c6e17 Input: i8042 - allow insmod to succeed 
 31b4d8e172f614adc53ddecb4b6b2f6411a49b84 MIPS: export has_transparent_hugepage() for modules
 484f910e93b48c1d8890d8330a87e34ae61f4782 dmaengine: idxd: fix wq config registers offset programming
 768664114b1ac9184f1dc6217d9c930a08ffbfa8 dmaengine: ti: k3-udma: fix -Wenum-conversion warning
-209c805835b29495cf66cc705b206da8f4a68e6e phy: usb: Fix incorrect clearing of tca_drv_sel bit in SETUP reg for 7211
-eb9c4dd9bdfdebaa13846c16a8c79b5b336066b6 phy: tegra: xusb: Fix dangling pointer on probe failure
-fcea94ac6154545dd13b17c947c07f5e0a54c121 phy: qcom-qmp: Initialize another pointer to NULL
-25d76fed7ffecca47be0249a5d5ec0a5dd92af67 phy: cpcap-usb: Use IRQF_ONESHOT
 424f5ca7c8515a4b6e3b0812899ddda082f42fd5 MAINTAINERS: move Kamil Debski to credits
 215f06d7efc263d4e8150e0b97c49dd9914b59d7 MAINTAINERS: move Kyungmin Park to credits
 d5a69b6ba186d01cb036074d337e5171d27e9c72 MAINTAINERS: remove Jeongtae Park from Samsung MFC entry
@@ -318,15 +314,7 @@ efd838fec17bd8756da852a435800a7e6281bfbc vhost scsi: Add support for LUN resets.
 de9ac0a6e9efdffc8cde18781f48fb56ca4157b7 smb3: Call cifs reconnect from demultiplex thread
 ac873aa3dc21707c47db5db6608b38981c731afe smb3: Avoid Mid pending list corruption
 1254100030b3377e8302f9c75090ab191d73ee7c smb3: Handle error case during offload read path
-78e91588510919a0dc9bd48916e760c1ba5797d2 usb: cdns3: gadget: initialize link_trb as NULL
-40252dd7cf7cad81c784c695c36bc475b518f0ea usb: cdns3: gadget: calculate TD_SIZE based on TD
-231655eb55b0f9899054dec9432482dbf986a9c5 phy: intel: PHY_INTEL_KEEMBAY_EMMC should depend on ARCH_KEEMBAY
-44786a26a7485e12a1d2aaad2adfb3c82f6ad171 phy: qualcomm: usb: Fix SuperSpeed PHY OF dependency
-14839107b51cc0db19579039b1f72cba7a0c8049 phy: qualcomm: Fix 28 nm Hi-Speed USB PHY OF dependency
-fb89b2544b645527b3a359176999a416e65f5ada phy: mediatek: fix spelling mistake in Kconfig "veriosn" -> "version"
 e5633b95dce915c2ade5ce1c90d295d555396c60 ALSA: usb-audio: Use ALC1220-VB-DT mapping for ASUS ROG Strix TRX40 mobo
-af8f9e8611cd4fef8295c8ab7574d3d3812ca17e Merge tag 'usb-fixes-v5.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
-24880a87042b3032a6ac04d79cb51892c5a7901d usb: typec: qcom-pmic-typec: fix builtin build errors
 df85429959b2a533cb969c75a5e3b588962f47f2 Merge tag 'ti-sysc-fixes' into fixes
 7bab16a6075b7b94999666355ab532c3dabb94f9 KVM: arm64: Correctly align nVHE percpu data
 481535c5b41d191b22775a6873de5ec0e1cdced1 xtensa: fix TLBTEMP area placement
@@ -592,13 +580,7 @@ b36bf0a0fe5d18561dd98eb774ef61dd396edc42 mtd: rawnand: socrates: Move the ECC in
 c497f9322af947204c28292be6f20dd2d97483dd interconnect: qcom: msm8916: Remove rpm-ids from non-RPM nodes
 7ab1e9117607485df977bb6e271be5c5ad649a4c interconnect: qcom: qcs404: Remove GPU and display RPM IDs
 017496af28e2589c2c2cb396baba0507179d2748 interconnect: fix memory trashing in of_count_icc_providers()
-7c8011dd8c541cd8b3f39eb42d00d01f33f967f2 Merge tag 'phy-fixes-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into usb-linus
-9ca57518361418ad5ae7dc38a2128fbf4855e1a2 USB: quirks: Add USB_QUIRK_DISCONNECT_SUSPEND quirk for Lenovo A630Z TIO built-in usb-audio card
-e7694cb6998379341fd9bf3bd62b48c4e6a79385 usb: gadget: f_midi: Fix memleak in f_midi_alloc
-87bed3d7d26c974948a3d6e7176f304b2d41272b usb: gadget: Fix memleak in gadgetfs_fill_super
-184eead057cc7e803558269babc1f2cfb9113ad1 USB: core: Fix regression in Hercules audio card
 c2b1209d852fef65dbe13c1eed2c6d7a8cd0d1f8 MAINTAINERS: Update email address for Sean Christopherson
-f3bc432aa8a7a2bfe9ebb432502be5c5d979d7fe USB: core: Change %pK for __user pointers to %px
 4fae3a58ab59d8a286864d61fe1846283a0316f2 spi: Take the SPI IO-mutex in the spi_setup() method
 f46e79aa1a2bea7de2885fa8d79a68d11545a5fd MAINTAINERS: Change Solarflare maintainers
 46cbc18ed85219d534b4fbb4a39058fe66766e83 Merge tag 'drm-fixes-2020-11-20-2' of git://anongit.freedesktop.org/drm/drm
@@ -838,7 +820,6 @@ d73ff9b7c4eacaba0fd956d14882bcae970f8307 can: af_can: can_rx_unregister(): remov
 4ad9921af4f18490980369f7d60f90ade0195812 printk: finalize records with trailing newlines
 454a079b381a1fea3962f89016f55761b251f4bd Merge tag 'omap-for-v5.10/fixes-rc5-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into arm/fixes
 739e7116b10bf8694795ed8365dd7cbe089b662a Merge branch 'for-5.10-pr_cont-fixup' into for-linus
-484cfbe5fb61469a5f5a276258a8b3973164b56f usb: typec: stusb160x: fix power-opmode property with typec-power-opmode
 545f63948d3a2d5ad5aa2245c5cc75d5a45c19b4 Merge tag 'kvmarm-fixes-5.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into kvm-master
 72c3bcdcda494cbd600712a32e67702cdee60c07 KVM: x86: handle !lapic_in_kernel case in kvm_cpu_*_extint
 71cc849b7093bb83af966c0e60cb11b7f35cd746 KVM: x86: Fix split-irqchip vs interrupt injection window request
@@ -885,4 +866,4 @@ aae5ab854e38151e69f261dbf0e3b7e396403178 Merge tag 'riscv-for-linus-5.10-rc6' of
 f91a3aa6bce480fe6e08df540129f4a923222419 Merge tag 'locking-urgent-2020-11-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b65054597872ce3aefbc6a666385eabdf9e288da Linux 5.10-rc6
 
---===============6081080943400709972==--
+--===============5964867972312120438==--
