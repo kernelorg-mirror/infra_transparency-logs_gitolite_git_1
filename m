@@ -1,44 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============6479122642212651315=="
+Content-Type: multipart/mixed; boundary="===============2450645820965977718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 30 Nov 2020 10:13:41 -0000
-Message-Id: <160673122140.31613.6118904418360044696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 30 Nov 2020 10:13:50 -0000
+Message-Id: <160673123044.31722.8056286908013497852@gitolite.kernel.org>
 
---===============6479122642212651315==
+--===============2450645820965977718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: 418baf2c28f3473039f2f7377760bd8f6897ae18
     new: b65054597872ce3aefbc6a666385eabdf9e288da
     log: revlist-418baf2c28f3-b65054597872.txt
-  - ref: refs/heads/rdma-next
-    old: 8e692b14d04d21a2c37ff9068289832073713af6
-    new: 5a75a8d86c1922b6ba30f153bd1d14373c7e625a
-    log: |
-         e0e10b9d53982fe7634f4f6a4f03d3fb2a0e4a62 RDMA/mlx5: Assign dev to DM MR
-         1b980b9efe204a13f0e5f35051e156db49cc954f RDMA/core: Introduce peer memory interface
-         b415024d20b5d576ec8667f66373b7be76993eec RDMA/nldev: Return an error message on failure to turn auto mode
-         f09f0d67eb078368c9d182c7353235fcfb66a42b printk: Debug patch in order to catch netconsole deadlock
-         5a75a8d86c1922b6ba30f153bd1d14373c7e625a Revert "RDMA/mlx5: Assign dev to DM MR"
-         
-  - ref: refs/heads/testing/rdma-next
-    old: 603f9de3fa33483b8c068e4c9eed770d9dabb817
-    new: 1a25a17a91bf8098f1220abe96818a84cfffcb6c
-    log: revlist-603f9de3fa33-1a25a17a91bf.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: 17475e104dcb74217c282781817f8f52b46130d3
-    new: fbb8646ba00495296844be7c83d6ca673c75bd28
-    log: revlist-17475e104dcb-fbb8646ba004.txt
+  - ref: refs/heads/queue-next
+    old: a0c0e384fe9e76e5fb5394b69df90a40a294a5df
+    new: 5a5cacb6c70aad9e71e515980fe807d8e98f351c
+    log: revlist-a0c0e384fe9e-5a5cacb6c70a.txt
+  - ref: refs/heads/queue-rc
+    old: b1ef1e4b850e415ad2b3419328d788f76d96b0ce
+    new: c4b468a49e2dc96d065ac36e18653c3ab8d862cf
+    log: revlist-b1ef1e4b850e-c4b468a49e2d.txt
 
---===============6479122642212651315==
+--===============2450645820965977718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -419,11 +409,11 @@ aae5ab854e38151e69f261dbf0e3b7e396403178 Merge tag 'riscv-for-linus-5.10-rc6' of
 f91a3aa6bce480fe6e08df540129f4a923222419 Merge tag 'locking-urgent-2020-11-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b65054597872ce3aefbc6a666385eabdf9e288da Linux 5.10-rc6
 
---===============6479122642212651315==
+--===============2450645820965977718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-603f9de3fa33-1a25a17a91bf.txt
+Content-Disposition: attachment; filename=revlist-a0c0e384fe9e-5a5cacb6c70a.txt
 
 c20782ad4eb9dfa7f41cb2d85f218d0940f7cef1 ARM: OMAP2+: Fix location for select PM_GENERIC_DOMAINS
 b69fd00120f8e3348273323099669cb058668263 ARM: OMAP2+: Fix missing select PM_GENERIC_DOMAINS_OF
@@ -800,12 +790,13 @@ f09f0d67eb078368c9d182c7353235fcfb66a42b printk: Debug patch in order to catch n
 5a75a8d86c1922b6ba30f153bd1d14373c7e625a Revert "RDMA/mlx5: Assign dev to DM MR"
 fbb8646ba00495296844be7c83d6ca673c75bd28 Merge branch 'master' into testing/rdma-rc
 1a25a17a91bf8098f1220abe96818a84cfffcb6c Merge branch 'rdma-next' into testing/rdma-next
+5a5cacb6c70aad9e71e515980fe807d8e98f351c Merge branch 'testing/rdma-next' into queue-next
 
---===============6479122642212651315==
+--===============2450645820965977718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17475e104dcb-fbb8646ba004.txt
+Content-Disposition: attachment; filename=revlist-b1ef1e4b850e-c4b468a49e2d.txt
 
 c20782ad4eb9dfa7f41cb2d85f218d0940f7cef1 ARM: OMAP2+: Fix location for select PM_GENERIC_DOMAINS
 b69fd00120f8e3348273323099669cb058668263 ARM: OMAP2+: Fix missing select PM_GENERIC_DOMAINS_OF
@@ -1176,5 +1167,6 @@ aae5ab854e38151e69f261dbf0e3b7e396403178 Merge tag 'riscv-for-linus-5.10-rc6' of
 f91a3aa6bce480fe6e08df540129f4a923222419 Merge tag 'locking-urgent-2020-11-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b65054597872ce3aefbc6a666385eabdf9e288da Linux 5.10-rc6
 fbb8646ba00495296844be7c83d6ca673c75bd28 Merge branch 'master' into testing/rdma-rc
+c4b468a49e2dc96d065ac36e18653c3ab8d862cf Merge branch 'testing/rdma-rc' into queue-rc
 
---===============6479122642212651315==--
+--===============2450645820965977718==--
