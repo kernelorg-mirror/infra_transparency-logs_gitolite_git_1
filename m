@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3334875155518099865=="
+Content-Type: multipart/mixed; boundary="===============2269738849359909499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 30 Nov 2020 16:00:46 -0000
-Message-Id: <160675204693.20187.17068303807476193793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 30 Nov 2020 16:00:53 -0000
+Message-Id: <160675205374.20289.13090054041412907245@gitolite.kernel.org>
 
---===============3334875155518099865==
+--===============2269738849359909499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.10
+  - ref: refs/heads/asoc-5.10
     old: aa4cb898b80a28a610e26d1513e6dd42d995c225
     new: f9d8ae0b91763765686833e500af0256bf769ba2
     log: |
@@ -25,37 +25,37 @@ changes:
          bbe1f69dce94089943cc407a88325ae7e851d49c ASoC: mediatek: btcvsd fix tx stream assign
          f9d8ae0b91763765686833e500af0256bf769ba2 Merge series "ASoC: amd: Minor fixes for error handling" from Takashi Iwai <tiwai@suse.de>:
          
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 7f2c63d6ae0754e5389c5942cb3bd670ea6cff40
     new: 645be01d7b553e9ab0791ceb88f381a087d691d9
     log: revlist-7f2c63d6ae07-645be01d7b55.txt
 
---===============3334875155518099865==
+--===============2269738849359909499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1606752019 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1606752044-d3d0a3a8e16cf3564f7c3664b82b6fff2e93c305
+pusher C3F436CA30F5D8EB 1606752025 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1606752051-f53666c72e65cd6ac67aabf2ac828e9517932b12
 
-aa4cb898b80a28a610e26d1513e6dd42d995c225 f9d8ae0b91763765686833e500af0256bf769ba2 refs/heads/for-5.10
-7f2c63d6ae0754e5389c5942cb3bd670ea6cff40 645be01d7b553e9ab0791ceb88f381a087d691d9 refs/heads/for-5.11
+aa4cb898b80a28a610e26d1513e6dd42d995c225 f9d8ae0b91763765686833e500af0256bf769ba2 refs/heads/asoc-5.10
+7f2c63d6ae0754e5389c5942cb3bd670ea6cff40 645be01d7b553e9ab0791ceb88f381a087d691d9 refs/heads/asoc-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/FFxMACgkQJNaLcl1U
-h9CHlAf7BRFtB9RY+VeJB4m9sSCL/DQqqKCUFof7EAA2bkdOtfrjrLJx/i2vNMKc
-S1M4K2OnPBtzeLumOlD2YHDvAxcYFjnbIGTgbbBVjCV6z0awxzpKkhkNFoZLgGie
-/O0ea+F2pzE7bahaRf8d1btnXtsYpM3aWmVUbQPzxtxYnv5Vrqii5BuFZxChYCOD
-6/96yOjloUEUwVjDrms07N7SJuHT1mJ1i32wYXEazSFOfUkK85ldI5REnWoubYZf
-vAi/X1c7iv6bLtRbGAC2rxBVN6HB1cHkt+CsSp25GZ4R7HCi0NBg+1131j/22bwL
-sYw/Dn1KhIFWoJnm+QaBoZkFVoHnDw==
-=hdDI
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/FFxkACgkQJNaLcl1U
+h9CBLAf/fDDFLYn5XDF/YNLrWtjWAuMPDerNXgWvriTNRVDCpR8nuKTHBY7+VWzs
+CyU0rbJPGJo2ncd+Ek6sQnahxcSrme9J9RvTdDYGeM21fO3DZArKz2KQ51BqVTLZ
+8KWrLdsRhqlbru/EBvYmQ8EIKNwx4dchkP/aUdSPXPJ1/k3vrHRaO3S5/uVoeu88
+5AKtrZP1o6mEjvpz1PP5yDfzan77Rfb0IDGfGr9c1IupMqUZpBR+DTv6Yncvvqsx
+dJh+es1LQ7FRGO6rPLdOqEYKLGGFur3rwN+U8hoiA3MQg5rXjABLW94F7+wqTTRX
+KZZNvF9LwEx+hiv2gquk/Ex8T/+guQ==
+=ADPs
 -----END PGP SIGNATURE-----
 
---===============3334875155518099865==
+--===============2269738849359909499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ ddfbe828f2ed13f9145c5c5fa17cb0a1b58e0bc9 ASoC: add soc-jack.h
 853c15b1249832320b625f8a803c42c162301291 Merge series "ASoC: tidyup for jack.h" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 645be01d7b553e9ab0791ceb88f381a087d691d9 Merge series "ASoC: SOF: Intel: fix ICL boot sequence" from Kai Vehmanen <kai.vehmanen@linux.intel.com>:
 
---===============3334875155518099865==--
+--===============2269738849359909499==--
