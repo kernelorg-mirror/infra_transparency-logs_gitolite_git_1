@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 30 Nov 2020 21:39:03 -0000
-Message-Id: <160677234390.29498.13094480775798646283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Mon, 30 Nov 2020 21:44:36 -0000
+Message-Id: <160677267637.32696.16745113862720278037@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/heads/dev-queue
-    old: 661b391b4a4150b09d5860bb8f5e5ea9b1f94916
-    new: aa31c45036b01bcd95cd4bdf00af4cefa1e5182b
+  - ref: refs/heads/master
+    old: 3916c1cc32be205e185a8a56de5cde1b9ec60e81
+    new: 6dfff19d4716ba216de1a3298ed0f667d7782810
     log: |
-         7f4dc08b8994437c3026893975baafc1d0aa86e7 igc: Clean up nvm_operations structure
-         aa31c45036b01bcd95cd4bdf00af4cefa1e5182b igc: Remove igc_set_fw_version method
+         6dfff19d4716ba216de1a3298ed0f667d7782810 ell: add missing include in dhcp-server.
          
