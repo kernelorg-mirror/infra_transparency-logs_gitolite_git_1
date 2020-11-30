@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3611521735701819431=="
+Content-Type: multipart/mixed; boundary="===============0661654735691520929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 30 Nov 2020 13:01:35 -0000
-Message-Id: <160674129507.20184.13161567143228101243@gitolite.kernel.org>
+Date: Mon, 30 Nov 2020 13:01:40 -0000
+Message-Id: <160674130009.20271.16501882298231791798@gitolite.kernel.org>
 
---===============3611521735701819431==
+--===============0661654735691520929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: d16b38f426963eb751cba46782c8622552a02042
-    new: 759fc5bd9fce95e30e6ef512d4d0a3506167f96e
-    log: revlist-d16b38f42696-759fc5bd9fce.txt
+  - ref: refs/heads/m68k-queue
+    old: e70bf0f0f9ac09b4dbeb2be5d7c1af54623b700a
+    new: 2b194440063003a583e66b0ec5fd866f0e0c087b
+    log: revlist-e70bf0f0f9ac-2b1944400630.txt
 
---===============3611521735701819431==
+--===============0661654735691520929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d16b38f42696-759fc5bd9fce.txt
+Content-Disposition: attachment; filename=revlist-e70bf0f0f9ac-2b1944400630.txt
 
 c20782ad4eb9dfa7f41cb2d85f218d0940f7cef1 ARM: OMAP2+: Fix location for select PM_GENERIC_DOMAINS
 b69fd00120f8e3348273323099669cb058668263 ARM: OMAP2+: Fix missing select PM_GENERIC_DOMAINS_OF
@@ -400,6 +400,17 @@ aae5ab854e38151e69f261dbf0e3b7e396403178 Merge tag 'riscv-for-linus-5.10-rc6' of
 8b7a51ba2637ee53ce90624f5f98aaf8ec9b2bcc Merge tag 'irq-urgent-2020-11-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f91a3aa6bce480fe6e08df540129f4a923222419 Merge tag 'locking-urgent-2020-11-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b65054597872ce3aefbc6a666385eabdf9e288da Linux 5.10-rc6
-759fc5bd9fce95e30e6ef512d4d0a3506167f96e Merge tag 'v5.10-rc6'
+b934cd3b8a14cd9173a6ce0e031ebde9e3946f72 m68k: Avoid xchg() warning
+1222eea26e9ef86b05e7570b171f82536397ad60 m68k: Remove unused mach_max_dma_address
+a1a20c8522e187d041e86de5cfe817d3244087a7 m68k: mac: Refactor iop_preinit() and iop_init()
+2ef3520ce9bb6968d506a424e081b3e1b8fa6475 m68k: mac: Remove dead code
+091b3ed45f304b00f56ae821e66969041a208ac6 m68k: mac: Remove redundant VIA register writes
+0837577011e51b173df8e819b4bc9062372dc8ec m68k: mac: Update Kconfig help
+ee06426046024dc6c958d0dc31dfffe1d88fc9bf m68k: Drop redundant NOTES in link script
+ac4f04bc0222d1c93cdee96d7897586a246decc3 m68k: Add a missing ELF_DETAILS in link script
+8448f2ab21f46f58a6271fadb9c827c6a6cb648f m68k: Fix WARNING splat in pmac_zilog driver
+e70c9a1776d6829b56633ef57e39864d9924adbc m68k: atari: usb: Add ISP1160 USB host controller support
+74e5ca2bc7646ef3a131e36aa014808be3f355bd m68k: atari: Update Kconfig.bus help text
+2b194440063003a583e66b0ec5fd866f0e0c087b m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3611521735701819431==--
+--===============0661654735691520929==--
