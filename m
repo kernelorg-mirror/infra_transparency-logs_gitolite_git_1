@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7429341999719472471=="
+Content-Type: multipart/mixed; boundary="===============0313803849355219067=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 30 Nov 2020 19:11:51 -0000
-Message-Id: <160676351148.24686.11055481009692291581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 30 Nov 2020 19:11:55 -0000
+Message-Id: <160676351593.24839.12738366832916661224@gitolite.kernel.org>
 
---===============7429341999719472471==
+--===============0313803849355219067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 2884f0b6b25db35053dd51e8e1839696746d8321
 
---===============7429341999719472471==
+--===============0313803849355219067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -769,4 +769,4 @@ aae5ab854e38151e69f261dbf0e3b7e396403178 Merge tag 'riscv-for-linus-5.10-rc6' of
 f91a3aa6bce480fe6e08df540129f4a923222419 Merge tag 'locking-urgent-2020-11-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b65054597872ce3aefbc6a666385eabdf9e288da Linux 5.10-rc6
 
---===============7429341999719472471==--
+--===============0313803849355219067==--
