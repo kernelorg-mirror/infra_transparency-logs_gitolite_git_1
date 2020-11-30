@@ -1,30 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============0661654735691520929=="
+Content-Type: multipart/mixed; boundary="===============3607108576089011293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 30 Nov 2020 13:01:40 -0000
-Message-Id: <160674130009.20271.16501882298231791798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 30 Nov 2020 13:06:30 -0000
+Message-Id: <160674159090.23280.14290781021155142931@gitolite.kernel.org>
 
---===============0661654735691520929==
+--===============3607108576089011293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/m68k-queue
-    old: e70bf0f0f9ac09b4dbeb2be5d7c1af54623b700a
-    new: 2b194440063003a583e66b0ec5fd866f0e0c087b
-    log: revlist-e70bf0f0f9ac-2b1944400630.txt
+  - ref: refs/heads/master
+    old: 3332d8b14e2ad9439e3452261f41a282eb2577e2
+    new: 9b01f862523844081e7700b57633784e4ebbece8
+    log: revlist-3332d8b14e2a-9b01f8625238.txt
+  - ref: refs/heads/next
+    old: d5360d3b5aeeef32ff4da8648b172ff78c6a35f9
+    new: c51a6c86347a721c328a37adf4c3f8892aa10330
+    log: |
+         8b6bed678428b6df66741cb0956e076d579e3891 soc: renesas: rmobile-sysc: Stop using __raw_*() I/O accessors
+         c51a6c86347a721c328a37adf4c3f8892aa10330 Merge branch 'renesas-drivers-for-v5.11' into renesas-next
+         
 
---===============0661654735691520929==
+--===============3607108576089011293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e70bf0f0f9ac-2b1944400630.txt
+Content-Disposition: attachment; filename=revlist-3332d8b14e2a-9b01f8625238.txt
 
 c20782ad4eb9dfa7f41cb2d85f218d0940f7cef1 ARM: OMAP2+: Fix location for select PM_GENERIC_DOMAINS
 b69fd00120f8e3348273323099669cb058668263 ARM: OMAP2+: Fix missing select PM_GENERIC_DOMAINS_OF
@@ -354,6 +361,7 @@ d73ff9b7c4eacaba0fd956d14882bcae970f8307 can: af_can: can_rx_unregister(): remov
 4ad9921af4f18490980369f7d60f90ade0195812 printk: finalize records with trailing newlines
 454a079b381a1fea3962f89016f55761b251f4bd Merge tag 'omap-for-v5.10/fixes-rc5-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into arm/fixes
 739e7116b10bf8694795ed8365dd7cbe089b662a Merge branch 'for-5.10-pr_cont-fixup' into for-linus
+8b6bed678428b6df66741cb0956e076d579e3891 soc: renesas: rmobile-sysc: Stop using __raw_*() I/O accessors
 484cfbe5fb61469a5f5a276258a8b3973164b56f usb: typec: stusb160x: fix power-opmode property with typec-power-opmode
 545f63948d3a2d5ad5aa2245c5cc75d5a45c19b4 Merge tag 'kvmarm-fixes-5.10-4' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into kvm-master
 72c3bcdcda494cbd600712a32e67702cdee60c07 KVM: x86: handle !lapic_in_kernel case in kvm_cpu_*_extint
@@ -400,17 +408,7 @@ aae5ab854e38151e69f261dbf0e3b7e396403178 Merge tag 'riscv-for-linus-5.10-rc6' of
 8b7a51ba2637ee53ce90624f5f98aaf8ec9b2bcc Merge tag 'irq-urgent-2020-11-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f91a3aa6bce480fe6e08df540129f4a923222419 Merge tag 'locking-urgent-2020-11-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b65054597872ce3aefbc6a666385eabdf9e288da Linux 5.10-rc6
-b934cd3b8a14cd9173a6ce0e031ebde9e3946f72 m68k: Avoid xchg() warning
-1222eea26e9ef86b05e7570b171f82536397ad60 m68k: Remove unused mach_max_dma_address
-a1a20c8522e187d041e86de5cfe817d3244087a7 m68k: mac: Refactor iop_preinit() and iop_init()
-2ef3520ce9bb6968d506a424e081b3e1b8fa6475 m68k: mac: Remove dead code
-091b3ed45f304b00f56ae821e66969041a208ac6 m68k: mac: Remove redundant VIA register writes
-0837577011e51b173df8e819b4bc9062372dc8ec m68k: mac: Update Kconfig help
-ee06426046024dc6c958d0dc31dfffe1d88fc9bf m68k: Drop redundant NOTES in link script
-ac4f04bc0222d1c93cdee96d7897586a246decc3 m68k: Add a missing ELF_DETAILS in link script
-8448f2ab21f46f58a6271fadb9c827c6a6cb648f m68k: Fix WARNING splat in pmac_zilog driver
-e70c9a1776d6829b56633ef57e39864d9924adbc m68k: atari: usb: Add ISP1160 USB host controller support
-74e5ca2bc7646ef3a131e36aa014808be3f355bd m68k: atari: Update Kconfig.bus help text
-2b194440063003a583e66b0ec5fd866f0e0c087b m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+c51a6c86347a721c328a37adf4c3f8892aa10330 Merge branch 'renesas-drivers-for-v5.11' into renesas-next
+9b01f862523844081e7700b57633784e4ebbece8 Merge branch 'renesas-next', tag 'v5.10-rc6' into renesas-devel
 
---===============0661654735691520929==--
+--===============3607108576089011293==--
