@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 30 Nov 2020 15:28:00 -0000
-Message-Id: <160675008092.28867.4964168480351953370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/quota/quota-tools
+Date: Mon, 30 Nov 2020 15:38:15 -0000
+Message-Id: <160675069508.2632.2899155193417705082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/utils/quota/quota-tools
+user: jack
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 10a2f11d3c9e48363c729419e0f0530dea76e4fe
-    new: a956f8969cc73135718f0a92cf336d57f5f8a757
+  - ref: refs/heads/master
+    old: 43b6e31f39edbe7de4f4feeef4d0cf6be093e021
+    new: 1959f3768a284315250acd4d17a9f5ef0b8ea189
     log: |
-         a956f8969cc73135718f0a92cf336d57f5f8a757 gpio: arizona: disable pm_runtime in case of failure
+         1959f3768a284315250acd4d17a9f5ef0b8ea189 Drop sys/cdefs.h usage
          
