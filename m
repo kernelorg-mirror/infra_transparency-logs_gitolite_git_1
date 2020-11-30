@@ -1,30 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 30 Nov 2020 16:55:20 -0000
-Message-Id: <160675532040.27497.861307088049809104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Mon, 30 Nov 2020 17:08:14 -0000
+Message-Id: <160675609475.2217.6355088884547257931@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/for-linus
-    old: 893ff790cf6a4cccc5d168f4cfc1acde9fbdfbfc
-    new: ba1cee33fd1703caa2f6499259f46a5e61d15822
+  - ref: refs/heads/next-integrity
+    old: b000d5cb954fe25ac1ea929ae6da321033ace927
+    new: 207cdd565dfc95a0a5185263a567817b7ebf5467
     log: |
-         122541f2b10897b08f7f7e6db5f1eb693e51f0a1 spi: fsl: fix use of spisel_boot signal on MPC8309
-         3efc181930a1ebe9225a6b42475ec5aad7e70108 Merge remote-tracking branch 'spi/for-5.9' into spi-linus
-         ba1cee33fd1703caa2f6499259f46a5e61d15822 Merge remote-tracking branch 'spi/for-5.10' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 893e98cc5f631b0143262c1b2187f581e2d039a0
-    new: 05178a6ded2c649e935664ea7069ebc17192b79f
-    log: |
-         122541f2b10897b08f7f7e6db5f1eb693e51f0a1 spi: fsl: fix use of spisel_boot signal on MPC8309
-         3efc181930a1ebe9225a6b42475ec5aad7e70108 Merge remote-tracking branch 'spi/for-5.9' into spi-linus
-         ba1cee33fd1703caa2f6499259f46a5e61d15822 Merge remote-tracking branch 'spi/for-5.10' into spi-linus
-         05178a6ded2c649e935664ea7069ebc17192b79f Merge remote-tracking branch 'spi/for-5.11' into spi-next
+         dea87d0889dd663bd32e86824a0b35cd617ae1d0 ima: select ima-buf template for buffer measurement
+         207cdd565dfc95a0a5185263a567817b7ebf5467 ima: Don't modify file descriptor mode on the fly
          
