@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 30 Nov 2020 21:58:30 -0000
-Message-Id: <160677351006.12147.1468990849184221674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Mon, 30 Nov 2020 22:02:01 -0000
+Message-Id: <160677372117.14714.5484840342863399351@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: bb1b25cab04324d0749f7ae22653aff58157bf83
-    new: 854055c0cf30d732b3514ce7956976f60496b1a1
+  - ref: refs/heads/master
+    old: 4d521943f76bd0d1e68ea5e02df7aadd30b2838a
+    new: ed1182dc004dbcc7cfe64fb0e8ac520b25431715
     log: |
-         854055c0cf30d732b3514ce7956976f60496b1a1 selftests/bpf: Fix flavored variants of test_ima
+         ed1182dc004dbcc7cfe64fb0e8ac520b25431715 xdp: Handle MEM_TYPE_XSK_BUFF_POOL correctly in xdp_return_buff()
          
