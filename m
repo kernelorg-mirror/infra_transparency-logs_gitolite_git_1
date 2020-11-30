@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3007529417843052196=="
+Content-Type: multipart/mixed; boundary="===============9039859252852921395=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 30 Nov 2020 07:33:08 -0000
-Message-Id: <160672158865.1725.305915488255479323@gitolite.kernel.org>
+Date: Mon, 30 Nov 2020 07:33:32 -0000
+Message-Id: <160672161214.1953.16399764788603881087@gitolite.kernel.org>
 
---===============3007529417843052196==
+--===============9039859252852921395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: c7acb6b9c07b4b75dffadc3b6466b1b43b3fda21
-    new: b65054597872ce3aefbc6a666385eabdf9e288da
-    log: revlist-c7acb6b9c07b-b65054597872.txt
+  - ref: refs/heads/char-misc-next
+    old: f80c21509984190b7fd462ed2c9ac5a294a99dc5
+    new: 3473065927a877e0a15c4d4b64f245ccaba24e3f
+    log: revlist-f80c21509984-3473065927a8.txt
 
---===============3007529417843052196==
+--===============9039859252852921395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606721649 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606721667 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1606721582-318532357e99698a5339445fb77b9975b75e7972
+nonce 1606721600-d22f7cfb63a80b119f892c87289f558f52e35ced
 
-c7acb6b9c07b4b75dffadc3b6466b1b43b3fda21 b65054597872ce3aefbc6a666385eabdf9e288da refs/heads/char-misc-linus
+f80c21509984190b7fd462ed2c9ac5a294a99dc5 3473065927a877e0a15c4d4b64f245ccaba24e3f refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/EoHEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MSsP/2A3B2uW1tHdzlPkdLOI
-MaIoA029WIoTuZ5ehSOVpmfEIQREpHdHnvA8Ji4NOMw4JJbUWa0a9kXZ0ls3wqwk
-1kgiGX8K42vufoMyBYqYMc93LzFfyxfRaj/LtjEMJi4Tt+fcybQh0nI5ScYFC2+B
-3HPwubTCi5h9V3o3JaOW2NzMnhWfenbGgEes2RLLf2urJ571lzSUAK00BsB2HBlP
-Ut+tXozDij1yt14/7ALghn84hdnroq65swhb7wxQBHcD7k255ejXIAUOL1UTzB1N
-OKRjXFgRYHAZPN56wGs80pcpBX1OwwF2uyaqk8kC2fOy0s9m0kMTtDyV1lI1R1OL
-4s0c6nY5NZkJ0FAGMfC1i9sL9TkOu0agrHhomPg0pX9YYQcjQVf7a/iGE6wXnF2/
-0xs8EPMdhkpXigUdlSp9DqMcfksHwntHninj0FU5IWFHtcdLeFeNsABTLFiXk2Q0
-CSa1CnQzS0vQQChXwJrQAlOoJRtOivsMZlIpnsvRFRyQMNKfD4sXCMuURwMWeHch
-I8tdiyopWkp1//VMdE01h+vL504kjEfQvVDEsU5RqMKkybe8Fss99BoT56gpn0FW
-jiOy21UM1j+uhprHG4xXU9i4UY7bwt11DQzHCF7szHj0wJWvXbyTbCBu4Zqi9/EP
-4QH+okZhE97Z4cWKadhooL/Y
-=HNKq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/EoIMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zz8P/0E9GbvjLiYD+ATQ14Ec
+no3HXgrshEHRkJjQqYQcTAY+JV3fIT4MoxhONbTiQFgtXwKZXJgyZzxKOaYQJzDJ
+35RoN9Q2xRxRj5ya01XWLL2UIlpk6AopJaKK57VORGbKBGzi/KvAqLBriT4IiS6L
+Scd2IOb+y37JAvy3C7gHUrSG0D8eCcoazpXZnn0huypG3qaNS+UIwtXBY+iwWpl+
+9BdBcWoc8WYEJiQz/Upwt5W/QhQWagpQd4HSKgINSy8MtvN9BIMU3wspRC8feiW0
+QKIA/Y4OVzqUFNxEVslFXH2VQCxyuElGW1rwprn50ILvZLYoOkOelqjZMnTVjtbS
+ChwIU49w2eGFBQiQ9dLDVhxWura8aNiZJdeg8lY9LRIAJyJiLbcYtkughBEQQnMz
+z3iAvH4GjerT7a4dLSIvhROH7Rdoez4SnlG2PGogS/gM9rO5FNvq2kCEhq0Fgm1T
+dn9CV2Jk8+YpvcpwhpMoRqkegA1KI/FWz5/T4KyZH5hxfG9PKbq/BMbs7WZok0XE
+ZKfw5W/KXq/440LRwASFeaBypNEQ6MiQtlKW52JTg/ra7jmDzvdw5RFJ+c2Z3bqM
+5FnGwKbvLRrWi0ldxLG0EoY42JG7KOoU+8OspKOI+/P3xhit+Jh7gwwFbn+5U8+7
+4pOOPtydUXaBfL/W4aADiG2M
+=z9Hh
 -----END PGP SIGNATURE-----
 
---===============3007529417843052196==
+--===============9039859252852921395==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c7acb6b9c07b-b65054597872.txt
+Content-Disposition: attachment; filename=revlist-f80c21509984-3473065927a8.txt
 
 022fc5315b7aff69d3df2c953b892a6232642d50 HID: uclogic: Add ID for Trust Flex Design Tablet
 b59f38dbfd5d19eb7e03d8b639f0c0d385ba8cc5 HID: logitech-hidpp: Add PID for MX Anywhere 2
@@ -443,6 +443,8 @@ cf23705244c947151179f929774fabf71e239eee ptrace: Set PF_SUPERPRIV when checking 
 fb14528e443646dd3fd02df4437fcf5265b66baa seccomp: Set PF_SUPERPRIV when checking capability
 a5bbcbf29089a1252c201b1a7fd38151de355db9 netdevsim: set .owner to THIS_MODULE
 c993df5a688975bf9ce899706ca13d2bc8d6be25 io_uring: don't double complete failed reissue request
+7381e27b1e563aa8a1c6bcf74a8cadb6901c283a interconnect: qcom: msm8974: Prevent integer overflow in rate
+9caf2d956cfa254c6d89c5f4d7b3f8235d75b28f interconnect: qcom: msm8974: Don't boost the NoC rate during boot
 138559b9f99d3b6b1d5e75c78facc067a23871c6 net/tls: Fix wrong record sn in async mode of device resync
 c9c89dcd872ea33327673fcb97398993a1f22736 bpf, sockmap: Fix partial copy_page_to_iter so progress can still be made
 36cd0e696a832a00247fca522034703566ac8885 bpf, sockmap: Ensure SO_RCVBUF memory is observed on ingress redirect
@@ -587,6 +589,9 @@ b5f796b62c98cd8c219c4b788ecb6e1218e648cb bnxt_en: fix error return code in bnxt_
 1ac6870991939c9351d4c5c49c38b52c97ee7e19 mtd: rawnand: sharpsl: Move the ECC initialization to ->attach_chip()
 b36bf0a0fe5d18561dd98eb774ef61dd396edc42 mtd: rawnand: socrates: Move the ECC initialization to ->attach_chip()
 5f1251a48c17b54939d7477305e39679a565382c video: hyperv_fb: Fix the cache type when mapping the VRAM
+c497f9322af947204c28292be6f20dd2d97483dd interconnect: qcom: msm8916: Remove rpm-ids from non-RPM nodes
+7ab1e9117607485df977bb6e271be5c5ad649a4c interconnect: qcom: qcs404: Remove GPU and display RPM IDs
+017496af28e2589c2c2cb396baba0507179d2748 interconnect: fix memory trashing in of_count_icc_providers()
 7c8011dd8c541cd8b3f39eb42d00d01f33f967f2 Merge tag 'phy-fixes-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into usb-linus
 9ca57518361418ad5ae7dc38a2128fbf4855e1a2 USB: quirks: Add USB_QUIRK_DISCONNECT_SUSPEND quirk for Lenovo A630Z TIO built-in usb-audio card
 e7694cb6998379341fd9bf3bd62b48c4e6a79385 usb: gadget: f_midi: Fix memleak in f_midi_alloc
@@ -671,8 +676,11 @@ b6b79dd53082db11070b4368d85dd6699ff0b063 powerpc/64s: Fix allnoconfig build sinc
 07509e10dcc77627f8b6a57381e878fe269958d3 arm64: pgtable: Fix pte_accessible()
 ff1712f953e27f0b0718762ec17d0adb15c9fd0b arm64: pgtable: Ensure dirty bit is preserved across pte_wrprotect()
 4765df4d3a132764077a83ed0df4ee4cc7866fbb Merge tag 'v5.10-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+ef3f0caf243075ac255b69054cbf48b65eadb0d4 Merge tag 'icc-5.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 f2df84e096a8254ddb18c531b185fc2a45879077 drm/vc4: kms: Store the unassigned channel list in the state
 2820526dd5c27326d9c0d2c831a34b8f14e7c404 drm/vc4: kms: Don't disable the muxing of an active CRTC
+652b44453ea953d3157f02a7f17e18e329952649 habanalabs/gaudi: fix missing code in ECC handling
+4daeb2ae5cd8a7552ea9805792c86036298ed33d Merge tag 'misc-habanalabs-fixes-2020-11-23' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-linus
 0697d9a610998b8bdee6b2390836cb2391d8fd1a btrfs: don't access possibly stale fs_info data for printing duplicate device
 6d06b0ad94d3dd7e3503d8ad39c39c4634884611 btrfs: tree-checker: add missing returns after data_ref alignment checks
 3d05cad3c357a2b749912914356072b38435edfa btrfs: fix lockdep splat when reading qgroup config on mount
@@ -797,6 +805,7 @@ b087982886e24dd9b50457d4263910ae671be177 media: vidtv: simplify EIT write functi
 44f28934af141149959c4e6495bb60c1903bda32 media: vidtv.rst: add kernel-doc markups
 5ead67bd540ebad55145e34c8983c2d5cf1efdf0 Merge tag 'amd-drm-fixes-5.10-2020-11-25' of git://people.freedesktop.org/~agd5f/linux into drm-fixes
 b51c2c67ce028c64a863599dc6b96c382daa0658 Merge tag 'drm-intel-fixes-2020-11-25' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+c7acb6b9c07b4b75dffadc3b6466b1b43b3fda21 MAINTAINERS: Adding help for coresight subsystem
 4ba1cb39fce4464151517a37ce0ac0a1a3f580d6 can: gs_usb: fix endianess problem with candleLight firmware
 1a1c436bad340cea1cff815dd2cbb2c4f6af8d43 can: mcp251xfd: mcp251xfd_probe(): bail out if no IRQ was given
 15d89c9f6f4a186ade7aefbe77e7ede9746b6c47 platform/x86: thinkpad_acpi: add P1 gen3 second fan support
@@ -875,5 +884,6 @@ aae5ab854e38151e69f261dbf0e3b7e396403178 Merge tag 'riscv-for-linus-5.10-rc6' of
 8b7a51ba2637ee53ce90624f5f98aaf8ec9b2bcc Merge tag 'irq-urgent-2020-11-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f91a3aa6bce480fe6e08df540129f4a923222419 Merge tag 'locking-urgent-2020-11-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b65054597872ce3aefbc6a666385eabdf9e288da Linux 5.10-rc6
+3473065927a877e0a15c4d4b64f245ccaba24e3f Merge 5.10-rc6 into char-misc-next
 
---===============3007529417843052196==--
+--===============9039859252852921395==--
