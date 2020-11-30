@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4707742244811075533=="
+Content-Type: multipart/mixed; boundary="===============6453828670875686241=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Mon, 30 Nov 2020 13:40:53 -0000
-Message-Id: <160674365374.14689.10375159181402403144@gitolite.kernel.org>
+Date: Mon, 30 Nov 2020 13:41:10 -0000
+Message-Id: <160674367099.14920.824902231895623665@gitolite.kernel.org>
 
---===============4707742244811075533==
+--===============6453828670875686241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 1acb97c91b1f461f31f17e4a0c88c6b193c1fe68
-    new: dc918bf28c383313862395cb7e072c1fdab1832c
+  - ref: refs/tags/linux-can-next-for-5.11-20201130
+    old: eb35b758e19ad77bca0c29cad770a5fbe8dc30c1
+    new: 8d07936b4f03ee6249fac4f372b825f71fd262cf
     log: |
          018a0c5845d6da8613a1448b169e96c81dce2531 can: tcan4x5x: rename parse_config() function
          c52899678fd65812a4200524aef67bcda0d20c3a can: tcan4x5x: remove mram_start and reg_offset from struct tcan4x5x_priv
@@ -29,28 +29,28 @@ changes:
          dc918bf28c383313862395cb7e072c1fdab1832c can: m_can: m_can_class_unregister(): move right after m_can_class_register()
          
 
---===============4707742244811075533==
+--===============6453828670875686241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1606743649 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1606743667 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1606743649-07fcc5bb3a831bf3eb1d5268970ed6bb1fdc59d2
+nonce 1606743667-6cc514d2accff23b32c63e06620c247f6957a989
 
-1acb97c91b1f461f31f17e4a0c88c6b193c1fe68 dc918bf28c383313862395cb7e072c1fdab1832c refs/heads/testing
+eb35b758e19ad77bca0c29cad770a5fbe8dc30c1 8d07936b4f03ee6249fac4f372b825f71fd262cf refs/tags/linux-can-next-for-5.11-20201130
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/E9mETHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqWzCB/0Qz9XpwdeuKtPNIONfIZc0cObHVkjr
-inZvlAAi4DXKwF4Nj9MqDnfITcjZsUdEWyBkcPDaBnyPDJDvXGBI41DMwiuXnewv
-usGuZAx6WZhNf5dMKpiJBVHOI/r2HuOJ4pJdu4YDtDE6+HpkiVNiVx/+ntBjyB3q
-zx1Xb6vVGPTNhatgVqiIrodc9eWqzaQi9aSJxYgOgcYochQh6kHOovBMn0vJdmMd
-Pn667+9D3Erj/HKFAcYIkS5SSHpgl+J//qigh+h2deod2ZrVS2rBJ7uHVPTahulO
-mC7CNNQcHbjzw8Ty/PgG9X1jyjXgPm8YiKompfuL59xmF1DNPXxR99F/
-=x5AZ
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/E9nMTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqUxwCACNX2KEQ52CN3E8AmlW1GF5ugxtD0YN
+lo9nOS6+Dvr7H6yHt5E5N9qcxUouFcVxYzDp6nRzjyQ7cqD9/TBugzy9geMbrNPw
+G/rgXwcaRPj8J7vE8CrPaHih7Ovw/s42QErckOt91SyM2Cs04012zPppAcVUmCpT
+88TWnnPwbRPM09j+Jvm9ZKkw2KwcDLygAs5p54shCS9TUBDGdY+6eOLQXSbgnO6M
+z7loQfC0ZvvdxzmyFBRJ2gn/o5sFXvykbH8Ls20tXTg6XcWVQJjnGT5Dc5UiO2s6
+6G68A09sJN83+werV+IZpV6Pnk6+jq+azEeRFpa5TPOIUl6XAZR9/Xcq
+=bta+
 -----END PGP SIGNATURE-----
 
---===============4707742244811075533==--
+--===============6453828670875686241==--
