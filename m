@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3178704041055435015=="
+Content-Type: multipart/mixed; boundary="===============1733576723219714538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Mon, 30 Nov 2020 13:16:45 -0000
-Message-Id: <160674220501.29723.15449426184061744916@gitolite.kernel.org>
+Date: Mon, 30 Nov 2020 13:16:54 -0000
+Message-Id: <160674221489.29812.6830312639338648984@gitolite.kernel.org>
 
---===============3178704041055435015==
+--===============1733576723219714538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 594e31bcebd6b8127ab8bcf37068ecef6c996459
-    new: e71d2b957ee49fe3ed35a384a4e31774de1316c1
-    log: revlist-594e31bcebd6-e71d2b957ee4.txt
+  - ref: refs/heads/testing
+    old: 2403e42848fe6167f778429555a29cd716c36b27
+    new: 1acb97c91b1f461f31f17e4a0c88c6b193c1fe68
+    log: revlist-2403e42848fe-1acb97c91b1f.txt
 
---===============3178704041055435015==
+--===============1733576723219714538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1606742201 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1606742211 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1606742201-72843f4bbf59ef96e480ad7d1c93897148b76175
+nonce 1606742211-f3d06aa743339d49614bdfbf54e6b0aafa5533e9
 
-594e31bcebd6b8127ab8bcf37068ecef6c996459 e71d2b957ee49fe3ed35a384a4e31774de1316c1 refs/heads/master
+2403e42848fe6167f778429555a29cd716c36b27 1acb97c91b1f461f31f17e4a0c88c6b193c1fe68 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/E8LkTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqcT8B/9o4hrsCOQSHbJBI8aQpvchltxFgTLX
-+yc9YjgTTKQQ4yagCtBv2Tn60WQlu/MwCElhNezXSRG/aKYxOOLdnVsNSaagDJFV
-IqGRhlkyC1dFL1hbdu7AqQZhXzt0C9lLPE1YKhnZtjeiRp777zxxmwri7Kiq+VXq
-lu3UWCQgYKuP44KnJKQmelKIs918sQbDV69qxRSxgzyFMvh3PFRdLcZxrPWUxsxu
-R4RSOHp7feMUzFPZa89OZmQNL/i6aWIw4Ovc/u6bkQjCJP+CmFTtFSPWYY6liXWQ
-7xj2TNEkcOwPrb55LwvtqUKKXbW6xIsW/BsejKJ4j4mDxbTFPQ0mGvK9
-=q0j+
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/E8MMTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqVoLCACvmLtLFrAnKpiLVKCe+sdZRyvPtoXE
+UAzxnHRGnpdlniZhfnvMaJbykhTVhj7HQD+lw6PIr0AfJShs4jm0Kn42ddx9dsa+
+aBkFbZb2UCU7NJSx4HtOLm9bbu+75EwhGUUtncWwjVKftkZ2bTbEL5ugSeNGB4vl
+fgOJjcNIBhvO5YtpkkLdn2mZ1ORycwukbP/jUa/iPkGbjrWWA4oywlcyLQIngDVh
+4TIgwTcfWkMksR+TdwWrHzsSHH0i7nOkDJoyH4Z9ohxEgZL00w3REgWKhiuUA21j
+qICz1XuwDMTNNFb/BV2i059uTCEeau1USTtN90kH4izE5yORdpoVSXQB
+=pYBb
 -----END PGP SIGNATURE-----
 
---===============3178704041055435015==
+--===============1733576723219714538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-594e31bcebd6-e71d2b957ee4.txt
+Content-Disposition: attachment; filename=revlist-2403e42848fe-1acb97c91b1f.txt
 
 022fc5315b7aff69d3df2c953b892a6232642d50 HID: uclogic: Add ID for Trust Flex Design Tablet
 b59f38dbfd5d19eb7e03d8b639f0c0d385ba8cc5 HID: logitech-hidpp: Add PID for MX Anywhere 2
@@ -570,5 +570,19 @@ b6f88d9c2faec015491a4c9936c170d7bc8539d5 tipc: update address terminology in cod
 b0b6f0ddce853f710c67fdaa19facab142b6306f net: ipa: update gsi registers for IPA v4.5
 cdeee49f3ef7f963567078ffac8921745f90e94d net: ipa: adjust GSI register addresses
 e71d2b957ee49fe3ed35a384a4e31774de1316c1 Merge branch 'net-ipa-start-adding-ipa-v4-5-support'
+368444dd7a2c9180bcc0f95c4d5c79a8f56aa209 can: pcan_usb_core: fix fall-through warnings for Clang
+4843ad9b613aa72258bd122d7884d311dad334e4 can: mcp251xfd: mcp25xxfd_ring_alloc(): add define instead open coding the maximum number of RX objects
+1f652bb6bae7f211f3131ddbc380bb839680068f can: mcp25xxfd: rx-path: reduce number of SPI core requests to set UINC bit
+dada6a6c7d3f1929dd530d67002d7475fec81c3d can: mcp251xfd: struct mcp251xfd_priv::tef to array of length 1
+63e70488b49acc0c3bcca354539806742ea8b888 can: mcp251xfd: move struct mcp251xfd_tef_ring definition
+68c0c1c7f9668e7a7f2e18dbf951cfee57af1c0e can: mcp251xfd: tef-path: reduce number of SPI core requests to set UINC bit
+d1390d7d55a59d39a6a113f00c6452b980d514ec can: tcan4x5x: tcan4x5x_clear_interrupts(): remove redundant return statement
+a8550e0939d3176708cb9ad44b78b95dcfac9419 can: tcan4x5x: rename parse_config() function
+d7df5df958d8060f40eb0a760097712a1652ceae can: tcan4x5x: remove mram_start and reg_offset from struct tcan4x5x_priv
+1d07568fb05e4934d7e830a11f1672c1db97b582 can: tacn4x5x: tcan4x5x_can_probe(): remove probe failed error message
+d83682f4bb50bed5d1d428913360f4d19e034637 can: m_can: Kconfig: convert the into menu
+1818969cc89c1d14683a1d4d6e8e2ec13fd77bab can: m_can: remove not used variable struct m_can_classdev::freq
+ef64e55c3c4923808216c4332d7dda10592b9419 can: m_can: m_can_plat_remove(): remove unneeded platform_set_drvdata()
+1acb97c91b1f461f31f17e4a0c88c6b193c1fe68 can: m_can: m_can_class_unregister(): move right after m_can_class_register()
 
---===============3178704041055435015==--
+--===============1733576723219714538==--
