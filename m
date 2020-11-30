@@ -1,59 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4883547707303168840=="
+Content-Type: multipart/mixed; boundary="===============3369867783593235636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 30 Nov 2020 08:10:32 -0000
-Message-Id: <160672383289.27061.2261408982169379117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 30 Nov 2020 08:15:48 -0000
+Message-Id: <160672414852.30211.16850435438785395615@gitolite.kernel.org>
 
---===============4883547707303168840==
+--===============3369867783593235636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: b65054597872ce3aefbc6a666385eabdf9e288da
-    new: 7cc01c445da868101b9080082b9c75283c261c82
+  - ref: refs/heads/master
+    old: f15d9dd7f3789e06782805b3792bec55f0748c7f
+    new: 0e103621093a4cbe3b7cfc7c76a5a95078436191
     log: |
-         6703052fe30fa0d85f1fbbf50171486cb0148d2d usb: cdns3: Fix hardware based role switch
-         24fdaeeb294c14ea743ec99ada92380c060a428a usb: cdns3: gadget: clear trb->length as zero after preparing every trb
-         6b8137517e70f6e96d0251a98930b1f29d0be161 usb: cdns3: core: fix goto label for error path
-         7cc01c445da868101b9080082b9c75283c261c82 Merge tag 'usb-fixes-v5.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
+         0e103621093a4cbe3b7cfc7c76a5a95078436191 5.4-stable patches
          
 
---===============4883547707303168840==
+--===============3369867783593235636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606723893 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1606723824-523ece30bc70e1c697d8c7299db95b338e0c5d28
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606724213 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1606724145-96cc94f74976291b6db1b2c4f37a02c7b35620d5
 
-b65054597872ce3aefbc6a666385eabdf9e288da 7cc01c445da868101b9080082b9c75283c261c82 refs/heads/usb-linus
+f15d9dd7f3789e06782805b3792bec55f0748c7f 0e103621093a4cbe3b7cfc7c76a5a95078436191 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/EqTUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MbUP/019P7MDelRfDYCXl/Z6
-G7JyajwDHNLVfdxlLL3umGwMmmWCVNn0IdE1Q6DgPTkDrnTRI8GpgkpG9NKln4gP
-mCsdMWkGV3pD297RLOvcL7UDzWJK+6dry8KqPcf6584p8JnXwrmefCxmiBTrGj1e
-Ok46L+uE43x+ftyzH8ucRMiD6A3Y9nkYzfHobkwDU17w0vHWWTW+7ZnLYSGJlAa6
-bkmYVwxq+G1L/qkJRG+ARfuKx3G/ytkNuVzAg/wHXV7fPBfy08Vz957e7K3n0HGT
-XOmKdMCf6y6ItxMTHdhOPgN13XHL+sap5oi10q/61fpTuDxkyfDrX0Zqr2yydgL0
-VlOkNvMw5S4HoQCQI2HFi3k87NpcqyXK9NIk2DAYKgVrnWMT6XQwq44mV08fVO1G
-MyofNlZgNp+aWk4qVYxOjy/vZr5MW78aK7iu3rsdsRefdSRUk89sji055P9e8ntV
-vE8m9eqnQA5vqf066SvnM4HNRPQX06OP1NihJ0P/c0Lmbmgbi7NrgSQqHvQQwSyf
-VcDpRCZje4ra1u15Lu4wesC3lSeKpigXHUFxSrHtyaQKY/erJsm1bL+ExJ7Ore90
-9DfKK/lswSF0uXYptA4XA2mDGNLXMjlg8ROsXzkr5r+sHUf5k8/Qb4gfODGfva9+
-6gfwWzahnTQrmI85i394Ilw4
-=qWa+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/EqnUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1TIP/jgUzenr5wAsBX/5dNsk
+quABTZLHgcdesGLgGomSmxc6AIXuLHzO8hPhKTgDltaAP9L145x7nSbVw0T//K+1
+1/NrJRn0Bfwx2l2Vfcu9tP5N9z3emljiRdjX1KyDJqler9iu73lSE+IPK+eYTeXg
+OUD5Uyk2bwjG67MOMv/s8/xviTh09Zh7s3t7a+siHk5/VZog9JVpN0PtNFKSvUHt
+xjG2EasaN5uCjLIglmnw9gaa3XcXXch5tnCsnejd/plD7L6x/km/H5k2ZSul35Yh
+0kHg+NydPGDd64hW17e4ZkEkuupqGBOIOJmsQfvbkgzMWo+XiUwUCtJc3Um7T4ai
+S49tu096mdVWVQWT7/b7bbKV4FJ7b0Mj0TmjyLYRirJxst/a8sxiu54nBvkJXSeL
+5k5JWwkbgOFlMsgWk1sGmyDSJd0UhM3rFA3yki534jk1rnZ6ccTjowJQoVHTiqrB
+oZfUN3cv0X1VakUiw7XZdG1hGhXS2X6g71v5uY5XiDWGCbGQRW3PAxqSfSooban0
+8q6EKAhwtgx7idyrY9VzqoDc6WX6K5sKGwT4dA8mgyGz57TLdmyTar40gup2ZLwP
+e/yr4WjjSuOPWDw9vdXz54kOJOk77x5550iGG6neOFZ7+d0Zv+Hosm5Qf5s1+AUb
+81PQEimjp2KWR1lTRCzkCIfC
+=12c0
 -----END PGP SIGNATURE-----
 
---===============4883547707303168840==--
+--===============3369867783593235636==--
