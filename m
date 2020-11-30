@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7092017122119480107=="
+Content-Type: multipart/mixed; boundary="===============6697375720878764628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 30 Nov 2020 12:16:38 -0000
-Message-Id: <160673859813.20723.17472381129248819112@gitolite.kernel.org>
+Date: Mon, 30 Nov 2020 12:16:44 -0000
+Message-Id: <160673860431.20843.6886255908651644717@gitolite.kernel.org>
 
---===============7092017122119480107==
+--===============6697375720878764628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 418baf2c28f3473039f2f7377760bd8f6897ae18
+  - ref: refs/heads/for-linux-next
+    old: d07628cb5092356bf0473856a4f252589fd313bf
     new: b65054597872ce3aefbc6a666385eabdf9e288da
-    log: revlist-418baf2c28f3-b65054597872.txt
+    log: revlist-d07628cb5092-b65054597872.txt
 
---===============7092017122119480107==
+--===============6697375720878764628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-418baf2c28f3-b65054597872.txt
+Content-Disposition: attachment; filename=revlist-d07628cb5092-b65054597872.txt
 
 c20782ad4eb9dfa7f41cb2d85f218d0940f7cef1 ARM: OMAP2+: Fix location for select PM_GENERIC_DOMAINS
 b69fd00120f8e3348273323099669cb058668263 ARM: OMAP2+: Fix missing select PM_GENERIC_DOMAINS_OF
@@ -401,4 +401,4 @@ aae5ab854e38151e69f261dbf0e3b7e396403178 Merge tag 'riscv-for-linus-5.10-rc6' of
 f91a3aa6bce480fe6e08df540129f4a923222419 Merge tag 'locking-urgent-2020-11-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b65054597872ce3aefbc6a666385eabdf9e288da Linux 5.10-rc6
 
---===============7092017122119480107==--
+--===============6697375720878764628==--
