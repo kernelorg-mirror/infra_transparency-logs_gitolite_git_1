@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Mon, 30 Nov 2020 09:42:14 -0000
-Message-Id: <160672933411.10726.4103912325080438458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Mon, 30 Nov 2020 09:52:43 -0000
+Message-Id: <160672996347.16967.2661346760270401824@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
-user: bigeasy
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/tags/v5.10-rc5-rt11
-    old: 0000000000000000000000000000000000000000
-    new: a9ce58f1056be41f17f24b3c98b33b905bde6751
+  - ref: refs/heads/master
+    old: 8be33ecfc1ffd2da20cc29e957e4cb6eb99310cb
+    new: c7a5899eb26e2a4d516d53f65b6dd67be2228041
+    log: |
+         c7a5899eb26e2a4d516d53f65b6dd67be2228041 xfrm: redact SA secret with lockdown confidentiality
+         
