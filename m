@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 01 Dec 2020 23:21:06 -0000
-Message-Id: <160686486696.18472.13495657404926547202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse-dev
+Date: Tue, 01 Dec 2020 23:25:02 -0000
+Message-Id: <160686510264.22764.14874002529300183469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/devel/sparse/sparse-dev
+user: lucvoo
 changes:
   - ref: refs/heads/master
-    old: 9e39394faef6d436f0c9900d2a5c690c13bc1cac
-    new: ac6e918554add29d004a08bd5c1102524287403c
+    old: 3bc348f6eea9b74fa93e72ea77e70b05a29b97eb
+    new: a00755aafac28395aeb8fb3b6eb9f3801574cc97
     log: |
-         4b2fe769aad9736624147882e566eeeb8dd4c187 net: hns3: add support for RX completion checksum
-         66d52f3bf385c8d969e9ca6b281ddf773c9691d7 net: hns3: add support for TX hardware checksum offload
-         57e72c121c7fab33d643f97b617a2c2bb83ea533 net: hns3: remove unsupported NETIF_F_GSO_UDP_TUNNEL_CSUM
-         3e2816219d7ccae4ab4b5ed480566e05aef9cf1a net: hns3: add udp tunnel checksum segmentation support
-         b1533ada7480237be6ffac86092495450f3de3a4 net: hns3: add more info to hns3_dbg_bd_info()
-         ade36ccef1d7d830a17bbe7eba3a6223e81cdc80 net: hns3: add a check for devcie's verion in hns3_tunnel_csum_bug()
-         d78e5b6a6764cb6e83668806b63d74566db36399 net: hns3: keep MAC pause mode when multiple TCs are enabled
-         ac6e918554add29d004a08bd5c1102524287403c Merge branch 'net-hns3-updates-for-next'
+         e1e909ac779e8c5ee099965884a99b291791b1da let replace_with_pseudo() use kill_instruction()
+         ffa1eb332ea2c51599f8e1794944cee41065cf61 make a header for simplification
+         3a3955b5ecbfb27d341e9e0903dff83cffcb3a4d make replace_with_pseudo() extern
+         d50ca778c27ebf10c75036d54b2954ad8d057083 memops: move rewrite_load_instruction() here
+         7624a18d61481b8411eff306a3dbf68209f0247b replace convert_load_instruction() by replace_with_pseudo()
+         9aa51a90505e1ba8c0c722b65756809830dcd662 fix wrong killing of stores partially dominated by a load
+         701ce0cadbd5eb0655ab0c33de5c8a337a498a34 memops: kill dead loads before phi-node conversion
+         269d7b9ec7a7d7ba6dcb5f4ca29ef888ce79f06a Merge branches 'fix-kill_dominated_stores' and 'kill-dead-loads' into next
+         a00755aafac28395aeb8fb3b6eb9f3801574cc97 Merge branch 'kill-replace' into next
          
