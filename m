@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7957900339935588498=="
+Content-Type: multipart/mixed; boundary="===============5130108293531533011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 01 Dec 2020 20:40:06 -0000
-Message-Id: <160685520686.3277.16231393004182738614@gitolite.kernel.org>
+Date: Tue, 01 Dec 2020 20:40:12 -0000
+Message-Id: <160685521213.3397.17330071192819940610@gitolite.kernel.org>
 
---===============7957900339935588498==
+--===============5130108293531533011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 9e1f61086792c86c950d988e1bf776c8b2498110
-    new: 847e59fa1d27b950ecb7e2da73437aa026082c62
-    log: revlist-9e1f61086792-847e59fa1d27.txt
+  - ref: refs/heads/net-rc
+    old: ebf583cdfde37428eb373c04ef626c0d144b41d7
+    new: 4af3ab8a9633d606d963558269b004c926eb9b04
+    log: revlist-ebf583cdfde3-4af3ab8a9633.txt
 
---===============7957900339935588498==
+--===============5130108293531533011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e1f61086792-847e59fa1d27.txt
+Content-Disposition: attachment; filename=revlist-ebf583cdfde3-4af3ab8a9633.txt
 
 368b96faac612681f74be56adf2d046739179ae2 video: hyperv_fb: Fix the cache type when mapping the VRAM
 547fe582b5486bc6036615e5806a7fa1752baf35 ARC: bitops: Remove unecessary operation and value
@@ -341,5 +341,7 @@ ade65f05a6f501b2bd47891f46087ccb24ed55b6 net/mlx5: Fix wrong address reclaim whe
 9a09af019dbf0e09ed5c0f406c0c3cc7ef7bae5d net: Disable NETIF_F_HW_TLS_TX when HW_CSUM is disabled
 d8b3c2936db9e13add3f32d7ee70de240a7d0662 net/mlx5e: kTLS, Enforce HW TX csum offload with kTLS
 847e59fa1d27b950ecb7e2da73437aa026082c62 net/mlx5: DR, Proper handling of unsupported Connect-X6DX SW steering
+a5f7d101ab379af7ee811f70480cb7d7ea6c2b93 Merge branch 'net-mlx4' into net-rc
+4af3ab8a9633d606d963558269b004c926eb9b04 Merge branch 'net-mlx5' into net-rc
 
---===============7957900339935588498==--
+--===============5130108293531533011==--
