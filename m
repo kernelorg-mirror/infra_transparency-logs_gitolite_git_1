@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Tue, 01 Dec 2020 10:20:35 -0000
-Message-Id: <160681803505.23984.7786337253791792570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Tue, 01 Dec 2020 10:21:36 -0000
+Message-Id: <160681809619.24398.13017537659706977688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/idmapped_mounts_v3
-    old: 0000000000000000000000000000000000000000
-    new: 1c69c259731cc60cb537b6bf34f784398c7f90f0
+  - ref: refs/heads/usb-linus
+    old: 6cefcb6fda595ff289918561b32df6d7cf520e22
+    new: c98fff7332dbd6e028969f8c2bda3d7bc7a024d8
+    log: |
+         c98fff7332dbd6e028969f8c2bda3d7bc7a024d8 USB: serial: option: fix Quectel BG96 matching
+         
