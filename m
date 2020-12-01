@@ -1,75 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============3525466045687626452=="
+Content-Type: multipart/mixed; boundary="===============7511853760473027341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Tue, 01 Dec 2020 14:58:39 -0000
-Message-Id: <160683471904.25691.14775133720580313994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 01 Dec 2020 14:59:31 -0000
+Message-Id: <160683477190.26163.14001600736609768941@gitolite.kernel.org>
 
---===============3525466045687626452==
+--===============7511853760473027341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
+repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/queue-next
-    old: 2d7c5b203f30feb4cad7ec2e13e64ec0a1d10236
-    new: 7916dd48158cbfeb19c51cc5d0c1fc1902340e2f
-    log: revlist-2d7c5b203f30-7916dd48158c.txt
+  - ref: refs/heads/net-next-mlx5
+    old: e9f69358dbf0e4256a20416719adcc3d10d3f7b8
+    new: c89446d1c70156a354cec6ee7fcad1396373c078
+    log: revlist-e9f69358dbf0-c89446d1c701.txt
 
---===============3525466045687626452==
+--===============7511853760473027341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d7c5b203f30-7916dd48158c.txt
+Content-Disposition: attachment; filename=revlist-e9f69358dbf0-c89446d1c701.txt
 
-374a34f68755c4c4db213d49ae2281251e3c9064 net/mlx5: Add HW definition of reg_c_preserve
-0e8bde48b5ca61cfbaf64a77b0455b018b212961 net/mlx5: Remove impossible checks of interface state
-ccfc1f2905fb21da6a5e555c8e2d73c18209b260 net/mlx5: Separate probe vs. reload flows
-1b7716a8905201af6729e8b6cbe74d847c8a65e4 net/mlx5: Remove second FW tracer check
-2b6f01fc34ae6539263ae2d6524c2411a7cd6a55 net/mlx5: Don't rely on interface state bit
-17aa067f632e1656360d49273bed36b67942136c net/mlx5: Check returned value from health recover sequence
-6c1e52ac0affd8ea6392bb4b8cbe9ea2be7d3292 net/mlx5: Fix devlink reload LOCKDEP warning
-b7ec5e6da1bf6a66ce2504226a8acd0ea98d92b4 net/mlx5e: Free drop RQ in a dedicated function
-1b84871c738133dc830b7c25fcd18c9594a2f815 net/mlx5e: Allow CQ outside of channel context
-a69a0a4ec5025165705a3d01f8527c7728ece012 net/mlx5e: Allow RQ outside of channel context
-3ed3a07565303ed2757fe27d2414451d24007292 net/mlx5e: Allow SQ outside of channel context
-634e924770e441d4d47ec60c91b1c80deccd5b5b net/mlx5e: Change skb fifo push/pop API to be used without SQ
-39c619fd6cd4c309cf38be028d912416055725e3 net/mlx5e: Split SW group counters update function
-11e6679f2f6c4955c1b6cb815998dd9afdedec1c net/mlx5e: Move MLX5E_RX_ERR_CQE macro
-bf23b005ca0e7873089cea55708f26812df7afdc net/mlx5e: Add TX PTP port object support
-2e91a95a0fae81ce7cdc9dfd4692c041e5932133 net/mlx5e: Add TX port timestamp support
-73312a0a3d41481446bcc521520e5e8fa0eb0b7c net/mlx5e: remove unnecessary memset
-18e2dd480de2f8afac01ec5830292d24f35b77d5 net/mlx5e: Remove duplicated include
-26b797c5600f40622adda758aefa120155c54787 bond: Add TLS TX offload support
-0566f01e1882b2f02cfce9d59c18b9e78d7d6bd3 net/mlx5e: kTLS, Check also real_dev in TLS context
-2e058466acaa6971029c88a0a98ff3d84b196d06 net/mlx5: Arm only EQs with EQEs
-eec06988f2f9bfd26e4a5f2cf57087090679c385 net/mlx5: Fix passing zero to 'PTR_ERR'
-4be891fd0e12a88077d9221d347bb4e7733c7cf0 devlink: Prepare code to fill multiple port function attributes
-deb0ba02c6dc3d9464defde61abd031cea9433e0 devlink: Expose port function commands to control roce
-5173b1dc9771866f6ef839109e54ce95b6b9eb36 net/mlx5: E-Switch, Implement  devlink port function cmds to control roce
-b54731868deed1ef66dd525e941163018cc87ddb net/mlx5e: Simplify condition on esw_vport_enable_qos()
-59d01efdce59b776f7f2ff2b19c8b21bb84aedcf net/mlx5e: Split between RX/TX tunnel FW support indication
-7744a2df202f6558420e54c715f963d31ee1d358 net/mlx5: E-Switch, use new cap as condition for mpls over udp
-5dad933f7192bdf50d45913b16fac930b2a0317e net/mlx5e: E-Switch, Offload all chain 0 priorities when modify header and forward action is not supported
-c66a9ad33f6aae23a682426d2c5d8d3ccd9bbfbd net/mlx5e: CT: Pass null instead of zero spec
-2695f1b511cc7c37af7da59e49951e58f32e19c3 net/mlx5e: Remove redundant initialization to null
-8b8639707a8ffdb796be62d9795d8ff4739aebc3 net/mlx5e: CT: Remove redundant usage of zone mask
-4ee016350ed74d39ce2c1989fb03bbb85e661547 net/mlx5e: CT: Preparation for offloading +trk+new ct rules
-da1e88636564644fc19ae8cf348bf445664a4983 net/mlx5e: CT: Support offload of +trk+new ct rules
-48a48c32f24167f0a9322035b5ecd36685879bec net/mlx5: CT: Add support for mirroring
-0ba841ff2bfb173442d63787196f13d361e4378b net/mlx5: E-Switch, let user to enable disable metadata
-6c0fa7b5a9d0c105a78309280d9932351c1c5dc0 net/mlx5e: CT, Avoid false lock depenency warning
-283ec8e5d257bc7f8fb91a4c8fd0b4303c560c65 net/mlx5e: Fill mlx5e_create_cq_param in a function
-e9f69358dbf0e4256a20416719adcc3d10d3f7b8 fixup! net/mlx5e: Add TX PTP port object support
-039f394980f463b94b2667760dd10314a3b4e3da Merge branch 'net-next-mlx4' into net-next
-ce2c81c19118d576e067856e92ae132a2cc32b3b Merge branch 'net-next-mlx5' into net-next
-246315d9b6e4e6d676a655e05b8ba8f3d7dd3ae2 Merge branch 'net-mlx4' into net-next
-eb3cdfa12bc0eef42addfc924d4b1ab22e4a155c Merge branch 'net-mlx5' into net-next
-c2eec4d618913723581284d11c74b394cb02d186 Merge branch 'net-next' into queue-next
-7916dd48158cbfeb19c51cc5d0c1fc1902340e2f Merge branch 'testing/rdma-next' into queue-next
+0705d126f7db04242c7847814fe82217a87f0534 net/mlx5: Add HW definition of reg_c_preserve
+d556d953e6bc919641f099e39df741aa5fb9c5c3 net/mlx5: Remove impossible checks of interface state
+25902c2028d9690df785ed4b60c781393df32821 net/mlx5: Separate probe vs. reload flows
+cbb525185d9b826703160eb146296568a634eb0c net/mlx5: Remove second FW tracer check
+8683e517b9e2d898817371841e39b5d564a2e7c1 net/mlx5: Don't rely on interface state bit
+b7b97a973a1944d35c65fa6a34ca019ee58d1b23 net/mlx5: Check returned value from health recover sequence
+18104ae1b0b76c210414213e7b5f2cde6bf8c3a8 net/mlx5: Fix devlink reload LOCKDEP warning
+adf663ea142ad9e2d63a570456360078fd621130 net/mlx5e: Free drop RQ in a dedicated function
+69b2a4f3fdbe6115190cbd78693c71636d077da8 net/mlx5e: Allow CQ outside of channel context
+053ce67cc6125570fe268b6fb96c9fbf6c931b77 net/mlx5e: Allow RQ outside of channel context
+1945d10a1ac656cbf03e85bd582bca3169df5a36 net/mlx5e: Allow SQ outside of channel context
+3e32d9c7b4ca341486ffddc3293c2826b7af5ca7 net/mlx5e: Change skb fifo push/pop API to be used without SQ
+2730c845098e29638f362b660ce07e49d91821f0 net/mlx5e: Split SW group counters update function
+358bad05bf504fddeb6a0ba74bfb0f340e068b65 net/mlx5e: Move MLX5E_RX_ERR_CQE macro
+9cfd8d60b499edbf5c446b6aba2d4b6ad86d66ef net/mlx5e: Add TX PTP port object support
+56183da69317eccdd8a9164a0259b412ec5eaf52 net/mlx5e: Add TX port timestamp support
+45ef8f0ad3d8fb0725223ca93619ef34d01d7d41 net/mlx5e: remove unnecessary memset
+af16cf4ce31072a3972f62906b462506c1402692 net/mlx5e: Remove duplicated include
+69de7256496a09eef5f062729982e5b567204e4b bond: Add TLS TX offload support
+186872e5c057df0274d08f6816e3a7aad2bf9498 net/mlx5e: kTLS, Check also real_dev in TLS context
+cf1d2823064c8d636923bf30df2f286d51ddaef8 net/mlx5: Arm only EQs with EQEs
+307372aa746830a14a2266384b89db31cc45deb9 net/mlx5: Fix passing zero to 'PTR_ERR'
+5de2cdb59322d24fee8903abf4392af3aa7a44c0 devlink: Prepare code to fill multiple port function attributes
+0105c9e02b8d4b97cd316ebfe8880a1a7af54e9c devlink: Expose port function commands to control roce
+070bc5e1d3c27433e0a7db0aa4c837880aca6ee7 net/mlx5: E-Switch, Implement  devlink port function cmds to control roce
+af1ad8f3bd7eedd86446d85017bf7c1c7cb468e7 net/mlx5e: Simplify condition on esw_vport_enable_qos()
+d263ce865fbd7ccde0b198478214401baaa7c74f net/mlx5e: Split between RX/TX tunnel FW support indication
+3633e6e99b72b96079565c298b979079780ff23e net/mlx5: E-Switch, use new cap as condition for mpls over udp
+30ed8841683dcb46b099ad73c929b826c8fae715 net/mlx5e: E-Switch, Offload all chain 0 priorities when modify header and forward action is not supported
+c8d2dab6e2178a801995c07624d351c19407a10b net/mlx5e: CT: Pass null instead of zero spec
+7f327bcf26a35b6f3bcf7be48b01630d99f3ced9 net/mlx5e: Remove redundant initialization to null
+02992bd94459bcbe9d15a5758c14e8573aae6665 net/mlx5e: CT: Remove redundant usage of zone mask
+d61feaaef212f7fff355e4637a81e527a75b856f net/mlx5e: CT: Preparation for offloading +trk+new ct rules
+d98dcd5ac7ac873c308ecb8d41277c0cb58e7a72 net/mlx5e: CT: Support offload of +trk+new ct rules
+35ec1f8b59e1367e0810168d8a5e2f2d37b04ba2 net/mlx5: CT: Add support for mirroring
+f261dee9949990ed2c67bec8846ae96fc1035de8 net/mlx5: E-Switch, let user to enable disable metadata
+961ab9af12ff558a11cabcbe1dae3fcc211ace12 net/mlx5e: CT, Avoid false lock depenency warning
+b76827efd6a6428a126821d1dcc0e6ba046cc82a net/mlx5e: Fill mlx5e_create_cq_param in a function
+c89446d1c70156a354cec6ee7fcad1396373c078 fixup! net/mlx5e: Add TX PTP port object support
 
---===============3525466045687626452==--
+--===============7511853760473027341==--
