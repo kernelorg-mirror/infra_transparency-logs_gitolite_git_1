@@ -1,53 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============4318209038757129406=="
+Content-Type: multipart/mixed; boundary="===============4814268683593177520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 01 Dec 2020 14:07:01 -0000
-Message-Id: <160683162194.21824.6367004769448211354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 01 Dec 2020 14:11:17 -0000
+Message-Id: <160683187766.24603.14916999671371615432@gitolite.kernel.org>
 
---===============4318209038757129406==
+--===============4814268683593177520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 91cc432b517edaf0aabfab645ba63c48280a8825
-    new: c1af389e9272e34d57d340c759e20f3deff5da4a
-    log: |
-         c1af389e9272e34d57d340c759e20f3deff5da4a ARM: move fixup sequences into asm subsections
-         
+  - ref: refs/heads/net-next-mlx5
+    old: 243564696f3a191c225e2529efe3819c21248bc3
+    new: e9f69358dbf0e4256a20416719adcc3d10d3f7b8
+    log: revlist-243564696f3a-e9f69358dbf0.txt
 
---===============4318209038757129406==
+--===============4814268683593177520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-243564696f3a-e9f69358dbf0.txt
 
-certificate version 0.1
-pusher 0x3D200E9CA6329909 1606831619 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ardb/linux.git
-nonce 1606831596-0c6252694c9dc3f88cd43373e8679ca12b4584b1
+374a34f68755c4c4db213d49ae2281251e3c9064 net/mlx5: Add HW definition of reg_c_preserve
+0e8bde48b5ca61cfbaf64a77b0455b018b212961 net/mlx5: Remove impossible checks of interface state
+ccfc1f2905fb21da6a5e555c8e2d73c18209b260 net/mlx5: Separate probe vs. reload flows
+1b7716a8905201af6729e8b6cbe74d847c8a65e4 net/mlx5: Remove second FW tracer check
+2b6f01fc34ae6539263ae2d6524c2411a7cd6a55 net/mlx5: Don't rely on interface state bit
+17aa067f632e1656360d49273bed36b67942136c net/mlx5: Check returned value from health recover sequence
+6c1e52ac0affd8ea6392bb4b8cbe9ea2be7d3292 net/mlx5: Fix devlink reload LOCKDEP warning
+b7ec5e6da1bf6a66ce2504226a8acd0ea98d92b4 net/mlx5e: Free drop RQ in a dedicated function
+1b84871c738133dc830b7c25fcd18c9594a2f815 net/mlx5e: Allow CQ outside of channel context
+a69a0a4ec5025165705a3d01f8527c7728ece012 net/mlx5e: Allow RQ outside of channel context
+3ed3a07565303ed2757fe27d2414451d24007292 net/mlx5e: Allow SQ outside of channel context
+634e924770e441d4d47ec60c91b1c80deccd5b5b net/mlx5e: Change skb fifo push/pop API to be used without SQ
+39c619fd6cd4c309cf38be028d912416055725e3 net/mlx5e: Split SW group counters update function
+11e6679f2f6c4955c1b6cb815998dd9afdedec1c net/mlx5e: Move MLX5E_RX_ERR_CQE macro
+bf23b005ca0e7873089cea55708f26812df7afdc net/mlx5e: Add TX PTP port object support
+2e91a95a0fae81ce7cdc9dfd4692c041e5932133 net/mlx5e: Add TX port timestamp support
+73312a0a3d41481446bcc521520e5e8fa0eb0b7c net/mlx5e: remove unnecessary memset
+18e2dd480de2f8afac01ec5830292d24f35b77d5 net/mlx5e: Remove duplicated include
+26b797c5600f40622adda758aefa120155c54787 bond: Add TLS TX offload support
+0566f01e1882b2f02cfce9d59c18b9e78d7d6bd3 net/mlx5e: kTLS, Check also real_dev in TLS context
+2e058466acaa6971029c88a0a98ff3d84b196d06 net/mlx5: Arm only EQs with EQEs
+eec06988f2f9bfd26e4a5f2cf57087090679c385 net/mlx5: Fix passing zero to 'PTR_ERR'
+4be891fd0e12a88077d9221d347bb4e7733c7cf0 devlink: Prepare code to fill multiple port function attributes
+deb0ba02c6dc3d9464defde61abd031cea9433e0 devlink: Expose port function commands to control roce
+5173b1dc9771866f6ef839109e54ce95b6b9eb36 net/mlx5: E-Switch, Implement  devlink port function cmds to control roce
+b54731868deed1ef66dd525e941163018cc87ddb net/mlx5e: Simplify condition on esw_vport_enable_qos()
+59d01efdce59b776f7f2ff2b19c8b21bb84aedcf net/mlx5e: Split between RX/TX tunnel FW support indication
+7744a2df202f6558420e54c715f963d31ee1d358 net/mlx5: E-Switch, use new cap as condition for mpls over udp
+5dad933f7192bdf50d45913b16fac930b2a0317e net/mlx5e: E-Switch, Offload all chain 0 priorities when modify header and forward action is not supported
+c66a9ad33f6aae23a682426d2c5d8d3ccd9bbfbd net/mlx5e: CT: Pass null instead of zero spec
+2695f1b511cc7c37af7da59e49951e58f32e19c3 net/mlx5e: Remove redundant initialization to null
+8b8639707a8ffdb796be62d9795d8ff4739aebc3 net/mlx5e: CT: Remove redundant usage of zone mask
+4ee016350ed74d39ce2c1989fb03bbb85e661547 net/mlx5e: CT: Preparation for offloading +trk+new ct rules
+da1e88636564644fc19ae8cf348bf445664a4983 net/mlx5e: CT: Support offload of +trk+new ct rules
+48a48c32f24167f0a9322035b5ecd36685879bec net/mlx5: CT: Add support for mirroring
+0ba841ff2bfb173442d63787196f13d361e4378b net/mlx5: E-Switch, let user to enable disable metadata
+6c0fa7b5a9d0c105a78309280d9932351c1c5dc0 net/mlx5e: CT, Avoid false lock depenency warning
+283ec8e5d257bc7f8fb91a4c8fd0b4303c560c65 net/mlx5e: Fill mlx5e_create_cq_param in a function
+e9f69358dbf0e4256a20416719adcc3d10d3f7b8 fixup! net/mlx5e: Add TX PTP port object support
 
-91cc432b517edaf0aabfab645ba63c48280a8825 c1af389e9272e34d57d340c759e20f3deff5da4a refs/heads/for-kernelci
------BEGIN PGP SIGNATURE-----
-
-iQGzBAABCgAdFiEE+9lifEBpyUIVN1cpw08iOZLZjyQFAl/GTgMACgkQw08iOZLZ
-jySupQwAkbjkBuRbLj7709xYcKDq6wA1ZAjpUpDn5PB/p0bcA7MQq/TNkA2/ZV71
-6MJIjTff/NdM5gb9J29q0kqqCGhjHewtDIl8D7LItMNgG/sid2fZ75rtBccvJ4m9
-5arVNwJoVrKStpw3PoN+ei8zMwgBt6WMTltqLop1xZnVd99Yny2oVBm+JBkbPyZ7
-zwxqjSwF2IqlHY+XdveVDnpUCtrNrl0Ju0NBGn3sE5Y1Efe4noIs6IB7Fpb7Zhn6
-Oph7VHkRctOLJEX1IOXabh6SWB+eZY2UmAZnOk7DDshZIM+2cpSJ7NIi65p797dD
-n9APQg/goAbM/HfUH+XmetrM3eLYy5rTAB+jxpijM4zTghGge4ifWfpilkJgVYzm
-J9EzlsjcBZMnWzZcthRIPebZp3gEAE3kFbwhbL0ND99iFku06WR+FVN3/FLdeVoD
-Hf+M3ssL902QhPpfEz/jjdnto/ByEKV/guI/oubUT6wyC067y4h6rbNxL99GB4Sh
-Np/UW73M
-=VKZN
------END PGP SIGNATURE-----
-
---===============4318209038757129406==--
+--===============4814268683593177520==--
