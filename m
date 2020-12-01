@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6918079214365402487=="
+Content-Type: multipart/mixed; boundary="===============4260588605765685890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Tue, 01 Dec 2020 00:17:01 -0000
-Message-Id: <160678182186.9453.17915332626447610917@gitolite.kernel.org>
+Date: Tue, 01 Dec 2020 00:17:11 -0000
+Message-Id: <160678183133.9609.12911536521317283438@gitolite.kernel.org>
 
---===============6918079214365402487==
+--===============4260588605765685890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
-  - ref: refs/heads/for-next
-    old: 5557389af533e3f86c2c23569641d29dda629644
-    new: 6e8d37e394f24593ff55a697597471aabc48dd40
-    log: revlist-5557389af533-6e8d37e394f2.txt
+  - ref: refs/heads/v5.11/integ
+    old: af4cbcef9a13c133189118be52173347694387b8
+    new: 39f047dd061aac68f8cfc190b17f10113aa6c4cd
+    log: revlist-af4cbcef9a13-39f047dd061a.txt
 
---===============6918079214365402487==
+--===============4260588605765685890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5557389af533-6e8d37e394f2.txt
+Content-Disposition: attachment; filename=revlist-af4cbcef9a13-39f047dd061a.txt
 
-b5330c565e4e481df579f602246073ecee265bc6 dt-bindings: clk: axg-clkc: add Video Clocks
-cd3caa573ebd1f32727962cf7dead43f5144d080 dt-bindings: clk: axg-clkc: add MIPI DSI Host clock binding
 e059eda7ee513347b330b607ea4f07dd1d3666e1 Merge tag 'clk-meson-v5.11-headers-1' of git://github.com/BayLibre/clk-meson into v5.11/dt64-deps
 287eb2be4037c3d8d96b5d9490fa0e695e4553b9 arm64: dts: meson: enable rtc node on Khadas VIM1/VIM2 boards
 78a6dcb52736da4d54e0b42788a4c5f13da9a8e1 arm64: dts: meson-axg: add PWRC node
@@ -44,5 +42,7 @@ b6a1c8a1eaa73b1e2ae251399308e9445d74cef7 arm64: dts: meson-sm1: fix typo in opp 
 3454f138d230c6f34fcee78042271c1903a8c914 Merge branch 'v5.11/dt64' into tmp/aml-rebuild
 6b061d420dc90394cd2c96327d40d0d4444f165d Merge branch 'v5.11/drivers' into tmp/aml-rebuild
 6e8d37e394f24593ff55a697597471aabc48dd40 Merge branch 'v5.11/soc' into tmp/aml-rebuild
+9b1f0bf6c14c3e6edb7739a43c02c8f269a45f93 Merge remote-tracking branch 'clk-meson/v5.11/drivers' into tmp/aml-rebuild
+39f047dd061aac68f8cfc190b17f10113aa6c4cd Merge branch 'v5.11/testing' into tmp/aml-rebuild
 
---===============6918079214365402487==--
+--===============4260588605765685890==--
