@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4340676226755354760=="
+Content-Type: multipart/mixed; boundary="===============1463185218453429727=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 01 Dec 2020 09:49:50 -0000
-Message-Id: <160681619030.1304.4407649925434897799@gitolite.kernel.org>
+Date: Tue, 01 Dec 2020 09:49:55 -0000
+Message-Id: <160681619592.1443.6183730458730021432@gitolite.kernel.org>
 
---===============4340676226755354760==
+--===============1463185218453429727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 3bc38bb0f3f6e319707fe3279cfc13adb9249756
-    new: fa755b600d82001eaf9f5d3e3aab3ecaf9f9e7f5
-    log: revlist-3bc38bb0f3f6-fa755b600d82.txt
+  - ref: refs/heads/net-rc
+    old: 2c6b3ee26ecfcdcb3303f2bec9d3df88c3e39a93
+    new: e8413df8c2261ed606c723995b0ccfbf7bfbaf68
+    log: revlist-2c6b3ee26ecf-e8413df8c226.txt
 
---===============4340676226755354760==
+--===============1463185218453429727==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3bc38bb0f3f6-fa755b600d82.txt
+Content-Disposition: attachment; filename=revlist-2c6b3ee26ecf-e8413df8c226.txt
 
 022fc5315b7aff69d3df2c953b892a6232642d50 HID: uclogic: Add ID for Trust Flex Design Tablet
 b59f38dbfd5d19eb7e03d8b639f0c0d385ba8cc5 HID: logitech-hidpp: Add PID for MX Anywhere 2
@@ -486,5 +486,9 @@ d028e4dc2d6fc7a51368226755058b033d841783 net: Call skb destructor on NAPI_GRO_FR
 0824a37dea9d8663f2d25725daa39f94e985b138 net: mlx5e: fix fs_tcp.c build when IPV6 is not enabled
 729da0e464403a415fb503c6239e0ffb403ad833 net: Disable NETIF_F_HW_TLS_TX when HW_CSUM is disabled
 fa755b600d82001eaf9f5d3e3aab3ecaf9f9e7f5 net/mlx5e: kTLS, Enforce HW TX csum offload with kTLS
+7255959a5e62a3506b3189e2773b5b037f2514ef Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
+fa7bf82d108f6c8c070bd475bd635ddfb5dace83 Merge branch 'net-mlx4' into net-rc
+760337d5a6cc1f83358b586da537ff87059dc279 Merge branch 'net-mlx5' into net-rc
+e8413df8c2261ed606c723995b0ccfbf7bfbaf68 Merge branch 'net-mlx5-test' into net-rc
 
---===============4340676226755354760==--
+--===============1463185218453429727==--
