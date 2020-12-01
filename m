@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0665693904305411554=="
+Content-Type: multipart/mixed; boundary="===============7468352899265306918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 01 Dec 2020 08:45:40 -0000
-Message-Id: <160681234064.6374.9486143313806936158@gitolite.kernel.org>
+Date: Tue, 01 Dec 2020 08:45:44 -0000
+Message-Id: <160681234495.6453.1773016341588426865@gitolite.kernel.org>
 
---===============0665693904305411554==
+--===============7468352899265306918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,97 +16,104 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: b8f9615dac9025d82bccbab34099b42fe6b2ea3b
-    new: 07930d77d7baeac481d5ec4b88f8b26ac810c4bd
-    log: revlist-b8f9615dac90-07930d77d7ba.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 6ab4588d6a2b06583d446f3be2db76736b0cf83d
+    new: 8d3deb1adb93c5d5ff713e5cf5026cacd87a9404
+    log: revlist-6ab4588d6a2b-8d3deb1adb93.txt
 
---===============0665693904305411554==
+--===============7468352899265306918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606812413 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606812418 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1606812336-38342fbaf29e37eead1d4ff0809ec8779c144ae1
+nonce 1606812338-97dddb15f8af92644d9b524aa237b73321fae85b
 
-b8f9615dac9025d82bccbab34099b42fe6b2ea3b 07930d77d7baeac481d5ec4b88f8b26ac810c4bd refs/heads/linux-4.14.y
+6ab4588d6a2b06583d446f3be2db76736b0cf83d 8d3deb1adb93c5d5ff713e5cf5026cacd87a9404 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/GAv0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TbMP+wfbVdsVHLcvEJQyouye
-LgrlN5+/e2PGilcRqp3yFYO1vCsawW2ofmtWzuNqrsI1hHwQO2XAcQ59jRzKLAnw
-uaqduzz2QLlIogUk1rMQ4xPBR6xdmoKQRsr0ujGK6k+BfGhL1Zt0LkYVX2zKL/Cx
-R+gKbDEuGsccjKvssUNq6y2MsZ8qi0X53dHNr/7BV08X8ds4i5OmZElhQZ0qqRl2
-PVceaTRNsI68jq8yAo80Zr3StIqQjkILc1I2vRvip0U0kecdF4+76aFurgnxlUXK
-97PDJd7wL+5F5pNd4YpuEu7R/w5BzpD7WTN7gErOQeydSVBvKJy/tx58/ze23kk8
-behx9NG6UIM5NQqiJaYJNh1mzcssFxvge7Az9YZV4sO+/PiaPxgXW4HM5J42SJhw
-Bt88sCEW91zEodC2FxXlqrJDYSq9XycuQExTAcPVOu27sy2P9Cvd5Dqd38O68Vtj
-U+RJML3QOnad12aJYD2v4SH4bocUJArpQSKivRoR0VTslvl7xrSTRy5elmwF3G8t
-ARoMA596keMmyPCitf3OimkkWe/tCrLV+FaaiJhWMzWqW/SfccPk0sNU4ZBMgexM
-6lL5bgFkfid5eKQ7qjze4jQyZ4nhdK0ARqGTggR5vepNv8yOEbIrabVCtaeEMF/i
-HtzR1cNBFMwQI/lsV3yeMAay
-=Df2z
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/GAwIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+baoP/iaDna6nbVPssMOezPcf
+pXwfRhOU3vGGFndWlCN2LX5ru5IUfMntChvD0+H9H4XWBe6d0QGwM98G5EnQDzSe
+3KOJuwy2EVdmBr7hab1WOUs53IK9X9nBjjVKgsujQ+cLXxz1SHiQakIc7G7qvU6n
+UU964zSFXUVvGprMe6RGO4qro+bWXRiBEcebgWGGJBeauZ9ynu0c5JmO/ZCb6lg9
+zJ8uoaHWeFyBMyFyPmLMSa+kcRW1+kQ+f4JcxUJaJdVOqHLO0u7E573TPn8I/qNa
+/h9PGuW9nDZZq1YTg2C5Q9aHCtUxmnDrwU8G4NafrZr7apobVw0XI7ssWwW4MZC4
++OClEQVkIRGX6TBbUjCj21ckM6vnR8WWMXR0XNXnKpXSyUde5bxlcXKmjnZgpX/+
+a1WoH0f3QGaT/Qq31hKJI6y/x5gqNmxYA61fp9LehXnDlOwITdbEsN2Mo6M2wVLy
+xRp1/iFn0cd2ZTclRJW1trvRXSVF5BciUPE7qfEbdjaCAs2O6hh7jCSmNhY0tXyZ
+tDsUfNk8e3CjNcVDfm3nm1lAnx+oPI8yM/FyD8Uf7n9pk+h02wsPmMUH23f/2U12
+DhCcAAODczE7DZE99+5npBCWJN/cnVxSpXjGzFFA7qhKWCCGNI23gzUD9MwKlvgb
+wJJ5/5+MPnwHooSKvhYB4Xrd
+=Mb9A
 -----END PGP SIGNATURE-----
 
---===============0665693904305411554==
+--===============7468352899265306918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8f9615dac90-07930d77d7ba.txt
+Content-Disposition: attachment; filename=revlist-6ab4588d6a2b-8d3deb1adb93.txt
 
-780162c258d869972e73fad4de0b92436704c176 perf event: Check ref_reloc_sym before using it
-a6603678a552ce009d2b4b378175ceaf64601304 mm/userfaultfd: do not access vma->vm_mm after calling handle_userfault()
-bc945d3fd032680489bbac308cd486f93d2949af btrfs: fix lockdep splat when reading qgroup config on mount
-a910730ffc931863ac494a58282561a30d4b75c8 wireless: Use linux/stddef.h instead of stddef.h
-eafa18766c28b3fee08d7f183335955caf2b870a PCI: Add device even if driver attach failed
-3a68d57bd697e843181a53968d0def697c4619a7 btrfs: tree-checker: Enhance chunk checker to validate chunk profile
-fbbe71b02cbd30fcb9beb46473e9a1de2435fba1 btrfs: adjust return values of btrfs_inode_by_name
-28996f8697366bba02bed3078964a7a5b6ff2819 btrfs: inode: Verify inode mode to avoid NULL pointer dereference
-c16a3077c272a952012c1ae9cb411f332c51fc51 KVM: x86: Fix split-irqchip vs interrupt injection window request
-30f2366bbd0833b6e1328bbcca5321f6b39bc269 arm64: pgtable: Fix pte_accessible()
-01fb14acba6134a558fcad6832410b6a83630d7b arm64: pgtable: Ensure dirty bit is preserved across pte_wrprotect()
-4ee39729a6119de3934d37009fd87babe4ff5ca3 ALSA: hda/hdmi: Use single mutex unlock in error paths
-093bd8635ff60b27831dd7e169d4d8af665c1e44 ALSA: hda/hdmi: fix incorrect locking in hdmi_pcm_close
-1cb4d86df0adba3d846abac27c6e32cf29b6effe HID: cypress: Support Varmilo Keyboards' media hotkeys
-6892ed79d2a623e9d9f6ae6d9b7c249db6422507 Input: i8042 - allow insmod to succeed on devices without an i8042 controller
-2c6b0af3198b7bc3d0545843ace47fd3b9afc8d2 HID: hid-sensor-hub: Fix issue with devices with no report ID
-20fba0399e7d1becefcc75e47c56e7308a2fc3f5 dmaengine: xilinx_dma: use readl_poll_timeout_atomic variant
-8be2b5832329d6ab23546cce877e7c1de40a06e3 x86/xen: don't unbind uninitialized lock_kicker_irq
-08523760ee2e22ded7d5f2783b0878bd7912edcd HID: Add Logitech Dinovo Edge battery quirk
-25e6c37d45b48c302f61f33cab44090885178046 proc: don't allow async path resolution of /proc/self components
-bc285bec47ddc71bf2431733b810eedaf6080e98 nvme: free sq/cq dbbuf pointers when dbbuf set fails
-9a30b48468250ad4c84e83d696bf48f387a48056 dmaengine: pl330: _prep_dma_memcpy: Fix wrong burst size
-eea51d57bcda3b681ab3c651ecf0d4927baa5887 scsi: libiscsi: Fix NOP race condition
-81a23d4cf4cfb3ea161771f74c5bff96860dcb2b scsi: target: iscsi: Fix cmd abort fabric stop race
-a7345729c1495a5bf4b0302a81d1ca2e37bf1ef2 perf/x86: fix sysfs type mismatches
-4658183b169052dcec418489b4a910565d90f56c phy: tegra: xusb: Fix dangling pointer on probe failure
-4e08513260f6cbf29beb5ffc91be5f2174cd5163 batman-adv: set .owner to THIS_MODULE
-e94741d0811e2d43e4bed04a20170807a3d6aae6 scsi: ufs: Fix race between shutdown and runtime resume flow
-c35ba8d4662a891e9cf5b04fb167278c1f58ae0a bnxt_en: fix error return code in bnxt_init_one()
-abe1ea0ffaf3cc8036b71b0e9a81733a07a8abf8 bnxt_en: fix error return code in bnxt_init_board()
-fdb0555f0b2c73dcf8b42f99af1a330972b6a43f video: hyperv_fb: Fix the cache type when mapping the VRAM
-b18871c67c966b4768dd512e32ecf20c8e5eaa52 bnxt_en: Release PCI regions when DMA mask setup fails during probe.
-1afec1763d3d9cf35972d568d6aa5374845612fb IB/mthca: fix return value of error branch in mthca_init_cq()
-41cbce534c5112779af6948d953c09930460c7a6 nfc: s3fwrn5: use signed integer for parsing GPIO numbers
-2eab0dbb6ee03c88c0901eb662c3409527e13396 net: ena: set initial DMA width to avoid intel iommu issue
-c7b37889a5d38af6f853f2ff42f6e7abfdfe58de ibmvnic: fix NULL pointer dereference in reset_sub_crq_queues
-2a339f11355a5effe71a83aaad6d89d1e0602076 ibmvnic: fix NULL pointer dereference in ibmvic_reset_crq
-6407b537791cea4fb5d95a5e37f4f192c1bb5407 efivarfs: revert "fix memory leak in efivarfs_create()"
-b61717cebe3182de24987bfb82626de1890f409c can: gs_usb: fix endianess problem with candleLight firmware
-dd5d70ccfebed3d5124dc85a9fd7c70b0f92bb72 platform/x86: toshiba_acpi: Fix the wrong variable assignment
-f629f1aa969dbc9479b0fa40535b5538436c7583 can: m_can: fix nominal bitiming tseg2 min for version >= 3.1
-da16c419c14b3922749f0a927e73931bd375146a perf probe: Fix to die_entrypc() returns error correctly
-8d7bae4ea81408cd686b8ae8f29ab364a086971f USB: core: Change %pK for __user pointers to %px
-eb56112b8188380ef6c19217171a3c8e32d32016 usb: gadget: f_midi: Fix memleak in f_midi_alloc
-7c57d5fe97375135ed7abc08852db7f7c277231b usb: gadget: Fix memleak in gadgetfs_fill_super
-3ad3610f8856e83be15eecbec20fad092b9e7333 x86/speculation: Fix prctl() when spectre_v2_user={seccomp,prctl},ibpb
-9e841a32e7d9b6c4127c12e09b8eb14dde069236 x86/resctrl: Remove superfluous kernfs_get() calls to prevent refcount leak
-8b0e56be1d41d088dfb83d79bcd3745d8f62a990 x86/resctrl: Add necessary kernfs_put() calls to prevent refcount leak
-ec721d7357db5d98fa81a666817d83bcdf32ee5d USB: core: add endpoint-blacklist quirk
-83dbeadfb4cbcf17694336bf0b90f0441a91637d USB: core: Fix regression in Hercules audio card
-07930d77d7baeac481d5ec4b88f8b26ac810c4bd Linux 4.14.210-rc1
+4ae1f2eebc8875c477c8d8eb3003d2d15e208fd8 perf event: Check ref_reloc_sym before using it
+d8dae7df9b706e18285e5c4347b6b35c965613d4 netfilter: clear skb->next in NF_HOOK_LIST()
+d3c2254aba8eaee6bbd636cf9271c6c9d04b7b6e btrfs: don't access possibly stale fs_info data for printing duplicate device
+c62ac39f4d8512922c031e7310ed6a4b209ac7b4 btrfs: fix lockdep splat when reading qgroup config on mount
+cb4e65e84125957503b27161459ea74bc7d91e94 wireless: Use linux/stddef.h instead of stddef.h
+bc699504c8ec3d10ec54eb889e1bebd6c7f287ad KVM: arm64: vgic-v3: Drop the reporting of GICR_TYPER.Last for userspace
+5d3ba504f3e8be698a1ac3bf813775cc7bf902e7 KVM: x86: handle !lapic_in_kernel case in kvm_cpu_*_extint
+ed0029f92bce87e8b2221db1b8437d25eda06368 KVM: x86: Fix split-irqchip vs interrupt injection window request
+21e7bfda8c6408cb1238062a37d3dd72ceaeabca arm64: pgtable: Fix pte_accessible()
+a4eeb441eb520dd23088cd671a04d82aed058879 arm64: pgtable: Ensure dirty bit is preserved across pte_wrprotect()
+803f08eb5f47e8cdfb00063e196b255dbed1c6c4 drm/atomic_helper: Stop modesets on unregistered connectors harder
+65265e0ab1e9141a2af89e9aff6b1f77c8b6bbd9 ALSA: hda/hdmi: fix incorrect locking in hdmi_pcm_close
+e0c8ca71e4d176b5268b5228cb1c7168fe705198 HID: cypress: Support Varmilo Keyboards' media hotkeys
+d95a120f9a1fc2b0b930cd9a1e94396bbf88ce44 HID: add support for Sega Saturn
+6219e50164d6b98e76e5733af7c75fcf13d801e6 Input: i8042 - allow insmod to succeed on devices without an i8042 controller
+9a31e3a2d5a1700ba35a826fbc13cba4fc3727e6 HID: hid-sensor-hub: Fix issue with devices with no report ID
+39055d77ceb32ef035d4b577ac0ebc9679ae07b7 HID: add HID_QUIRK_INCREMENT_USAGE_ON_DUPLICATE for Gamevice devices
+cdac50eacb2919b8c7559c6a6a6ed8d7ec72878b dmaengine: xilinx_dma: use readl_poll_timeout_atomic variant
+a7eeef5dff99d7354fd5eaaff421482389b27a9d x86/xen: don't unbind uninitialized lock_kicker_irq
+cbff319136de6f438819a2d8aaefc065c500fd8b HID: Add Logitech Dinovo Edge battery quirk
+f85a9d1ffeabf1bd50e8a9fcb31de04baf3b7115 proc: don't allow async path resolution of /proc/self components
+b5a4aaad255bf7099efad3c88933fb67930c0857 nvme: free sq/cq dbbuf pointers when dbbuf set fails
+9b6ed29791e61528711542cbc5a1608435a2fa8e dmaengine: pl330: _prep_dma_memcpy: Fix wrong burst size
+c3b7034fc7c2a87480369726b6fc33ed2019ca54 scsi: libiscsi: Fix NOP race condition
+65e3eb0c25333d3786e85d8ef59b891138bd83e5 scsi: target: iscsi: Fix cmd abort fabric stop race
+d32c16b9dbf6a7cf57615c499dae091cca90695e perf/x86: fix sysfs type mismatches
+77e451e6799d59ce4666e3affa0a8a0ece64e3d4 xtensa: uaccess: Add missing __user to strncpy_from_user() prototype
+f2dbe7f35d49912c48dcce46a7bcb7efbdf0348a phy: tegra: xusb: Fix dangling pointer on probe failure
+87d2b65cfcfef6d6e620cd872c62b2822739a2e4 batman-adv: set .owner to THIS_MODULE
+d773e546b418a453489d2d7a23e165e45f968392 ARM: dts: dra76x: m_can: fix order of clocks
+8ba4eacec594b1deafe2d91024df10b65b5a4e07 scsi: ufs: Fix race between shutdown and runtime resume flow
+05dbe5b389ac5e8838f335cfab10b1391dc62f93 bnxt_en: fix error return code in bnxt_init_one()
+d41ed8907afef4b3113c94ed025bbf77fc4d9f99 bnxt_en: fix error return code in bnxt_init_board()
+c63e24f3ac2d0e78203bbe3dccb60a6b1f7a7f5f video: hyperv_fb: Fix the cache type when mapping the VRAM
+1902070670924853211e9a151b277e5300ab01b7 bnxt_en: Release PCI regions when DMA mask setup fails during probe.
+4d007593d40c859e14c4ec2427aa87f902ac509d cxgb4: fix the panic caused by non smac rewrite
+cf168738d0680a2b20c44359366f71e943a65d6d s390/qeth: fix tear down of async TX buffers
+1fe281977313991d7a3f007d7b52bdd71b5fb4fd IB/mthca: fix return value of error branch in mthca_init_cq()
+1315e52246b70675111e853949122845a4cd71ab nfc: s3fwrn5: use signed integer for parsing GPIO numbers
+69b9cacd249feec4ab357badccd531aaf3603d9a net: ena: set initial DMA width to avoid intel iommu issue
+279ca41d78349cc341e5a7a492e85c0510f753e0 ibmvnic: fix NULL pointer dereference in reset_sub_crq_queues
+5b47f1eca7215eeec9f8b03850fe01c76b01366d ibmvnic: fix NULL pointer dereference in ibmvic_reset_crq
+7fe4a5ee5e35e44ac0448082423222f9327867bc optee: add writeback to valid memory type
+c3aceeaa86685a008a6075d0519966326b858a9f efivarfs: revert "fix memory leak in efivarfs_create()"
+67db111458b5f5a090630ad65251ed0a09312a1c can: gs_usb: fix endianess problem with candleLight firmware
+92c5193a23f0d13c239c09710131274b624e8926 platform/x86: thinkpad_acpi: Send tablet mode switch at wakeup time
+ecdec333b046b328a297aa1d830fb7509027fc3e platform/x86: toshiba_acpi: Fix the wrong variable assignment
+bafa62cceb8a553e77f32144c7d0e7ef2a3e054d can: m_can: fix nominal bitiming tseg2 min for version >= 3.1
+8094a4b19d5566954789ff1827c2a6bbe7482770 perf probe: Fix to die_entrypc() returns error correctly
+ffd45f7c409befccae2b2240886ced2188cf7d95 USB: core: Change %pK for __user pointers to %px
+0b34a708ddcf8bb0c9e06a12892c0242b73d669e usb: gadget: f_midi: Fix memleak in f_midi_alloc
+96dabf2592e62b4f2e826029f6d50397efc03b3e USB: quirks: Add USB_QUIRK_DISCONNECT_SUSPEND quirk for Lenovo A630Z TIO built-in usb-audio card
+4daf2bb10b07ec38671408a34dc6a1d428726a7f usb: gadget: Fix memleak in gadgetfs_fill_super
+04f5db0a764d9bec6a5ddffd72bc26c463307f03 x86/speculation: Fix prctl() when spectre_v2_user={seccomp,prctl},ibpb
+592b9d8ff90424db4d1d155ce5ec27912f7a80f5 x86/resctrl: Remove superfluous kernfs_get() calls to prevent refcount leak
+0173f84cf48a3b693b3d70c289604bef26c17549 x86/resctrl: Add necessary kernfs_put() calls to prevent refcount leak
+7a16f4cd798a2988723bfdc8375629e0ed863d5c USB: core: Fix regression in Hercules audio card
+8d3deb1adb93c5d5ff713e5cf5026cacd87a9404 Linux 4.19.161-rc1
 
---===============0665693904305411554==--
+--===============7468352899265306918==--
