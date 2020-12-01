@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3508248774882617889=="
+Content-Type: multipart/mixed; boundary="===============1982956552894606294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 01 Dec 2020 23:31:33 -0000
-Message-Id: <160686549343.27469.10467433840078162364@gitolite.kernel.org>
+Date: Tue, 01 Dec 2020 23:32:45 -0000
+Message-Id: <160686556566.27969.14043996553484890923@gitolite.kernel.org>
 
---===============3508248774882617889==
+--===============1982956552894606294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 418baf2c28f3473039f2f7377760bd8f6897ae18
-    new: 14483cbf040fcb38113497161088a1ce8ce5d713
-    log: revlist-418baf2c28f3-14483cbf040f.txt
+  - ref: refs/heads/net-mlx5
+    old: 847e59fa1d27b950ecb7e2da73437aa026082c62
+    new: 9fca74b42168ec40b8fc50424629082d2f6788bf
+    log: revlist-847e59fa1d27-9fca74b42168.txt
 
---===============3508248774882617889==
+--===============1982956552894606294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-418baf2c28f3-14483cbf040f.txt
+Content-Disposition: attachment; filename=revlist-847e59fa1d27-9fca74b42168.txt
 
 c20782ad4eb9dfa7f41cb2d85f218d0940f7cef1 ARM: OMAP2+: Fix location for select PM_GENERIC_DOMAINS
 b69fd00120f8e3348273323099669cb058668263 ARM: OMAP2+: Fix missing select PM_GENERIC_DOMAINS_OF
@@ -383,5 +383,11 @@ b71ec952234610b4f90ef17a2fdcb124d5320070 ibmvnic: Ensure that SCRQ entry reads a
 ba246c175116e2e8fa4fdfa5f8e958e086a9a818 ibmvnic: Fix TX completion error handling
 de7b3f8164cfdf99879ed7ca1d53bace25700929 Merge branch 'ibmvnic-Bug-fixes-for-queue-descriptor-processing'
 14483cbf040fcb38113497161088a1ce8ce5d713 net: broadcom CNIC: requires MMU
+4505f677c02c1e1db27662edd2677f015a9c82d1 net: Call skb destructor on NAPI_GRO_FREE_STOLEN_HEAD
+ded65fdb81586828c1a7cc93128ec77cd23414e2 net/mlx5: Fix wrong address reclaim when command interface is down
+612c4d555c7254460563d370681597d70bbe21fa net: mlx5e: fix fs_tcp.c build when IPV6 is not enabled
+c3ed1b3743a88eb489f913d45765538613f1867c net: Disable NETIF_F_HW_TLS_TX when HW_CSUM is disabled
+4a3659b1972e5d3707ccbc1cc15df52058f9fe07 net/mlx5e: kTLS, Enforce HW TX csum offload with kTLS
+9fca74b42168ec40b8fc50424629082d2f6788bf net/mlx5: DR, Proper handling of unsupported Connect-X6DX SW steering
 
---===============3508248774882617889==--
+--===============1982956552894606294==--
