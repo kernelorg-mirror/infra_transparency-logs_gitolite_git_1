@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 01 Dec 2020 00:26:46 -0000
-Message-Id: <160678240698.18525.773247337194670654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 01 Dec 2020 00:30:10 -0000
+Message-Id: <160678261048.21114.13877573767771013262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 649a9fafd676478f9cb998af0f092a3f50ba349b
-    new: 9e2fd160e119d6d3e2d8f37b254b7e72c502d437
+  - ref: refs/heads/ceph-fscache-iter
+    old: 990c475d94a783c692358409a589b5f99806e3e3
+    new: 833d2f74ab592010ddbf928b64f2839b20a65f41
     log: |
-         43ba14bdb34e972a0b72eafeb5d7273ba1fe9837 a2dp: Fix crash if setup is freed while reconfiguring
-         88f11c0be2f36607515a5f6202844357f893131d battery: Add the internal Battery API
-         aa4a295744f887030b24340af4a5d985be119c1e profiles/battery: Refactor to use battery library
-         bc6ee2073578d34835735fad48ca53c85a12702e battery: Add Source property to Battery API
-         0ba3339c5cf52521f9083f337e79e7e3223393ff doc: Add Battery Provider API doc
-         4e54b08c942eae1cca728858ee9c4b0e260e8a8e test: Add test app for Battery Provider API
-         8b61f78086cbea7ae8810c58772f0806716d3db8 adapter: Add a public function to find a device by path
-         9e2fd160e119d6d3e2d8f37b254b7e72c502d437 battery: Implement Battery Provider API
+         ddb5a51ea73d12246d8b92529b9c8a6fbebd27ca Merge branch 'ceph/testing'
+         6e00f256e8fa9f7ef8df480bfb88e119b8013cb3 ceph: conversion to new fscache API
+         030534e6ff4f7486935c369dfa585006b51690a5 ceph: convert readpage to fscache read helper
+         5baa916548ce40edbddefd99f86cb39517fea634 ceph: plug write_begin into read helper
+         8e60284d48e99689bf45f7f49a08dcdf77b4cfed ceph: convert ceph_readpages to ceph_readahead
+         8124f80b51af79ea40c6afb1e70d16f39b53622c ceph: add fscache writeback support
+         833d2f74ab592010ddbf928b64f2839b20a65f41 HACK: work around bpf horkage
          
