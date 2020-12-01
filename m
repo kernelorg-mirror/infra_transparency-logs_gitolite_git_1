@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 01 Dec 2020 18:12:17 -0000
-Message-Id: <160684633786.31389.1224497998925073938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/luto/linux
+Date: Tue, 01 Dec 2020 18:13:21 -0000
+Message-Id: <160684640109.31825.11255397602524230208@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/luto/linux
+user: luto
 changes:
-  - ref: refs/heads/master
-    old: 237f977ab920490502f5fe39af4390f26db2cd40
-    new: de7b3f8164cfdf99879ed7ca1d53bace25700929
+  - ref: refs/heads/x86/fixes
+    old: 5495e4c344dc09011ff57756c7e0a1330830eafc
+    new: 9d1e36678c9b3e2c3c4c3453cd6bcb3068b24e18
     log: |
-         b71ec952234610b4f90ef17a2fdcb124d5320070 ibmvnic: Ensure that SCRQ entry reads are correctly ordered
-         ba246c175116e2e8fa4fdfa5f8e958e086a9a818 ibmvnic: Fix TX completion error handling
-         de7b3f8164cfdf99879ed7ca1d53bace25700929 Merge branch 'ibmvnic-Bug-fixes-for-queue-descriptor-processing'
+         adc809fd026c5fcd226b493d0f92a2f70da4fece x86/membarrier: Get rid of a dubious optimization
+         72084ea504372accd9ef4a00bf0ef2f7eeb97558 membarrier: Add an actual barrier before rseq_preempt()
+         9d1e36678c9b3e2c3c4c3453cd6bcb3068b24e18 membarrier: Propagate SYNC_CORE and RSEQ actions more carefully
          
