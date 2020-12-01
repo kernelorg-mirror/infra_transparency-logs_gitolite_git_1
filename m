@@ -1,65 +1,117 @@
-Content-Type: multipart/mixed; boundary="===============5437631004428852078=="
+Content-Type: multipart/mixed; boundary="===============7321591099085919323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 01 Dec 2020 17:49:00 -0000
-Message-Id: <160684494035.14385.2434422250457402637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 01 Dec 2020 17:50:04 -0000
+Message-Id: <160684500440.16112.2681129390255866514@gitolite.kernel.org>
 
---===============5437631004428852078==
+--===============7321591099085919323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: cd5f82dbbad04418afca092e8c7c6250e6815554
-    new: 907d4ad59904a1b327c92c9fbaa990e961f9a8f2
-    log: |
-         57d9352b6c651b090179f8b223b6681275c64a4f fpga: fpga-mgr: Add devm_fpga_mgr_register() API
-         c9d754d6f71c780caa2d496b39e54f86a6622a0d fpga: fpga-mgr: altera-ps-spi: Simplify registration
-         83eb4fbdcfda8b8e9a5c74c1d27e280183f1a77b fpga: fpga-mgr: dfl-fme-mgr: Simplify registration
-         7027b7305d16f7b4db36139cc0c063e5d2fd216d fpga: fpga-mgr: ice40-spi: Simplify registration
-         a3b79b2a58f0862378817998eecc023e93ab5a46 fpga: fpga-mgr: machxo2-spi: Simplify registration
-         20e8963f4f38a9bfaffa74198efae3eb9a8bb7ed fpga: fpga-mgr: socfpga: Simplify registration
-         d6530c0a48b77c1460eb4125009ebb37e4e0d8de fpga: fpga-mgr: ts73xx: Simplify registration
-         f4ce435b732adfcca1dc70fd3050f9ffc80d9add fpga: fpga-mgr: xilinx-spi: Simplify registration
-         2630fa8d00318346b73f692d90863468d8cfe27d fpga: fpga-mgr: zynqmp: Simplify registration
-         907d4ad59904a1b327c92c9fbaa990e961f9a8f2 fpga: fpga-mgr: altera-pr-ip: Simplify registration
-         
+  - ref: refs/heads/for-5.11/io_uring
+    old: 7d5eb5f3c02b6f2f2ea5b3b71b884e157df0fc65
+    new: f80eecccbb98919c722ffe24919fec41ab9580f3
+    log: revlist-7d5eb5f3c02b-f80eecccbb98.txt
+  - ref: refs/heads/for-next
+    old: aad1e6b604e470289cad4b3099cff3737a0207bc
+    new: 3310db2271a0c113e0896cf4d4d2c4c78c4e89aa
+    log: revlist-aad1e6b604e4-3310db2271a0.txt
 
---===============5437631004428852078==
+--===============7321591099085919323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7d5eb5f3c02b-f80eecccbb98.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606845008 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1606844933-183b2e069488547ae6413b60c4c742c24cbaa5ee
+35610ad343c842ed862348eeb654f0eea93329d9 io_uring: allow non-fixed files with SQPOLL
+d24b9778948f47d6e4897ee040849c337552fce7 io_uring: enable file table usage for SQPOLL rings
+2e467110ee39176300bae4cf43453c25f5325dd8 fs: make do_renameat2() take struct filename
+425c5004e4bfcc9929311e0c5c450b990301c37e io_uring: add support for IORING_OP_RENAMEAT
+26f4ee179e901806215c032d4bdd64ad2d8ff2d2 io_uring: add support for IORING_OP_UNLINKAT
+be6f9b2ba944212de702ead6e038d7b679c0c140 io_uring: split poll and poll_remove structs
+cb32564d576bcdfb221b9618bbe1ab568d8e9e61 io_uring: track link's head and tail during submit
+238ddac7fb8f63c47d69706553c3793791d15630 io_uring: track link timeout's master explicitly
+10ab26c77f4428063cfcb8fbd4d23a8a2c4de80d io_uring: link requests with singly linked list
+e5ea1c8816dd44669cb46974dcf3a47939a84677 io_uring: rearrange io_kiocb fields for better caching
+ce059666d3def1b0f6888fed831e130e5d5b07c0 io_uring: only plug when appropriate
+96b890b33678a98f03f12555a1f271004f021bcd io_uring: add timeout support for io_uring_enter()
+a30af15a063eacef4afc6b458cb2fe358b1cb1e9 io_uring: NULL files dereference by SQPOLL
+4ed74c7c2ed4dac135808cc55d4e7287d06c912d fs/io_uring Don't use the return value from import_iovec().
+432a2a4f731a5376211dd2e1a02cbebe9525d095 io_uring: remove duplicated io_size from rw
+702b223e9a95dc73b766248a0f91b4922fe263a6 io_uring: inline io_import_iovec()
+ea2b95de29c32522e1223734e3281796a9f63f0e io_uring: simplify io_task_match()
+c3ed4378c13927fcb6371791e79cfa9fc1c84847 io_uring: add a {task,files} pair matching helper
+6544729533b59f513d31663930e0421620cb8be1 io_uring: cancel only requests of current task
+6209a336e714e465a6cf334f8477b702fc442d9e io_uring: don't iterate io_uring_cancel_files()
+9b7418d7372028e536e5dd01dde25f41e94b9b61 io_uring: pass files into kill timeouts/poll
+f2edc26dc77693938ca89d8e3964c6b3da48b70f io_uring: always batch cancel in *cancel_files()
+ee65a5ee4271d822800457a9f9f16926da7270dd io_uring: refactor io_sq_thread() handling
+47ff3be8f02b4fe60fdc4ad4e7b7a2bb79cd6303 io_uring: initialize 'timeout' properly in io_sq_thread()
+69da88d31923b7fdec7aed9f178d61f2427ffed1 io_uring: don't acquire uring_lock twice
+e97bec51bdf709251de02175c895f1c2f996c8c4 io_uring: only wake up sq thread while current task is in io worker context
+0039c202fbb98674015347be68e65c42f20c444e io_uring: don't take fs for recvmsg/sendmsg
+c1a02c0f5ece4cf0d75b8eb869b5604b1cc8518f io_uring: replace inflight_wait with tctx->wait
+26ca1ff179ba9fc4efc1b85f6375d7a451925dc6 io_uring: share fixed_file_refs b/w multiple rsrcs
+6ba00265cafb10f5498095621db5bc09bb44657b io_uring: check kthread stopped flag when sq thread is unparked
+bcbbecff7e7a1f45f9d82f30599d1f219aa0a03c io_uring: change submit file state invariant
+33438dd00494957463dd1ef73aad9a7951355eb4 io_uring: fix miscounting ios_left
+503249c34ad4cb39c2d23fcc0870f3b33f435936 io_uring: use bottom half safe lock for fixed file data
+578900bd8325534d05af3df7148c04a45faa924d io_uring: fix files cancellation
+7af9c8bd1e2c67e42ab0ccc7e80aa7204e48ca1b io_uring: restructure io_timeout_cancel()
+f80eecccbb98919c722ffe24919fec41ab9580f3 io_uring: add timeout update
 
-cd5f82dbbad04418afca092e8c7c6250e6815554 907d4ad59904a1b327c92c9fbaa990e961f9a8f2 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
+--===============7321591099085919323==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-aad1e6b604e4-3310db2271a0.txt
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/GglAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S1EP/2haQnUqTgf3uqCIMEuI
-BYVRlJRZx+brJyckH3zwnMO1XOOHQPz3QzXZ5BNMylslB8XurGY3T2uqHVxNa9x4
-gYpwT/S3TCGwpf9JP0DfTHk/E0X7ABWUKfNWBY2Qv5D2YChuiak50yZi9Yi2+ips
-hviXCSAfyF2lgWY9Hk2Oy29Kb8OgWtmZbv2alm85Qc9wJ7bheHySA+LtRYxFsNqF
-XmaXEQZq9q67eO73EYigad/rItKVdwOfqDmRUMP4lMlBFxq9v2y6cFL5Vg/Vh3IY
-Zi5DMbhtbYrIOtyRC2c7mSN6dkyvHte50hp5a1RmxBDxFzOoTiheMxVmb7RMKyof
-KaHsZh0bJWBJZyNuFEzQWekitlvevS0LnfXRBrtMN2M4zRoLWmU+0MBaa51t3n8a
-/JYDyXRHAyEqJTw34NxpI4akxX7lHhX5jiDR3MrfG2gR8U4WgaBnmkdHf2TptA42
-Hoh4LuDtpXDbvN/gfRAcAU9j4qm//Zv8prBG+eWsOa+4yB87oys9xrHc89jmj+GL
-8tQC3r2xsFpTOfotwxo46YtGRt7JMDqUcv6Z2ftK7K9O5wAuTDoI7G4veW8LeXY/
-+BJBqoMjaNa1SkJkQEZa7TIOv4SH2ws/kwducyDwLaqOLlZcn+/Vf+DiGAIZrvEy
-gzrLvom0fvArbynOgTLjlgmw
-=yPen
------END PGP SIGNATURE-----
+35610ad343c842ed862348eeb654f0eea93329d9 io_uring: allow non-fixed files with SQPOLL
+d24b9778948f47d6e4897ee040849c337552fce7 io_uring: enable file table usage for SQPOLL rings
+2e467110ee39176300bae4cf43453c25f5325dd8 fs: make do_renameat2() take struct filename
+425c5004e4bfcc9929311e0c5c450b990301c37e io_uring: add support for IORING_OP_RENAMEAT
+26f4ee179e901806215c032d4bdd64ad2d8ff2d2 io_uring: add support for IORING_OP_UNLINKAT
+be6f9b2ba944212de702ead6e038d7b679c0c140 io_uring: split poll and poll_remove structs
+cb32564d576bcdfb221b9618bbe1ab568d8e9e61 io_uring: track link's head and tail during submit
+238ddac7fb8f63c47d69706553c3793791d15630 io_uring: track link timeout's master explicitly
+10ab26c77f4428063cfcb8fbd4d23a8a2c4de80d io_uring: link requests with singly linked list
+e5ea1c8816dd44669cb46974dcf3a47939a84677 io_uring: rearrange io_kiocb fields for better caching
+ce059666d3def1b0f6888fed831e130e5d5b07c0 io_uring: only plug when appropriate
+96b890b33678a98f03f12555a1f271004f021bcd io_uring: add timeout support for io_uring_enter()
+a30af15a063eacef4afc6b458cb2fe358b1cb1e9 io_uring: NULL files dereference by SQPOLL
+4ed74c7c2ed4dac135808cc55d4e7287d06c912d fs/io_uring Don't use the return value from import_iovec().
+432a2a4f731a5376211dd2e1a02cbebe9525d095 io_uring: remove duplicated io_size from rw
+702b223e9a95dc73b766248a0f91b4922fe263a6 io_uring: inline io_import_iovec()
+ea2b95de29c32522e1223734e3281796a9f63f0e io_uring: simplify io_task_match()
+c3ed4378c13927fcb6371791e79cfa9fc1c84847 io_uring: add a {task,files} pair matching helper
+6544729533b59f513d31663930e0421620cb8be1 io_uring: cancel only requests of current task
+6209a336e714e465a6cf334f8477b702fc442d9e io_uring: don't iterate io_uring_cancel_files()
+9b7418d7372028e536e5dd01dde25f41e94b9b61 io_uring: pass files into kill timeouts/poll
+f2edc26dc77693938ca89d8e3964c6b3da48b70f io_uring: always batch cancel in *cancel_files()
+ee65a5ee4271d822800457a9f9f16926da7270dd io_uring: refactor io_sq_thread() handling
+47ff3be8f02b4fe60fdc4ad4e7b7a2bb79cd6303 io_uring: initialize 'timeout' properly in io_sq_thread()
+69da88d31923b7fdec7aed9f178d61f2427ffed1 io_uring: don't acquire uring_lock twice
+e97bec51bdf709251de02175c895f1c2f996c8c4 io_uring: only wake up sq thread while current task is in io worker context
+0039c202fbb98674015347be68e65c42f20c444e io_uring: don't take fs for recvmsg/sendmsg
+c1a02c0f5ece4cf0d75b8eb869b5604b1cc8518f io_uring: replace inflight_wait with tctx->wait
+26ca1ff179ba9fc4efc1b85f6375d7a451925dc6 io_uring: share fixed_file_refs b/w multiple rsrcs
+6ba00265cafb10f5498095621db5bc09bb44657b io_uring: check kthread stopped flag when sq thread is unparked
+bcbbecff7e7a1f45f9d82f30599d1f219aa0a03c io_uring: change submit file state invariant
+33438dd00494957463dd1ef73aad9a7951355eb4 io_uring: fix miscounting ios_left
+503249c34ad4cb39c2d23fcc0870f3b33f435936 io_uring: use bottom half safe lock for fixed file data
+578900bd8325534d05af3df7148c04a45faa924d io_uring: fix files cancellation
+7af9c8bd1e2c67e42ab0ccc7e80aa7204e48ca1b io_uring: restructure io_timeout_cancel()
+f80eecccbb98919c722ffe24919fec41ab9580f3 io_uring: add timeout update
+475aa6d9fdb410c0db093c50806ce1b66bc0aed0 Merge branch 'tif-task_work.arch' into for-next
+48788542a951b4e580e40b61fc20bfd6f7701c0e Merge branch 'for-5.11/block' into for-next
+7b8fc5f663f3564275c01bfdfc6f12933fc8784e Merge branch 'for-5.11/drivers' into for-next
+3310db2271a0c113e0896cf4d4d2c4c78c4e89aa Merge branch 'for-5.11/io_uring' into for-next
 
---===============5437631004428852078==--
+--===============7321591099085919323==--
