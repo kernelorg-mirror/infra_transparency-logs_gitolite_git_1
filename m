@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 01 Dec 2020 10:51:54 -0000
-Message-Id: <160681991406.12919.11054587629128645317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
+Date: Tue, 01 Dec 2020 11:32:39 -0000
+Message-Id: <160682235925.9256.3036740698647772222@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/legion/linux
+user: legion
 changes:
-  - ref: refs/heads/master
-    old: cd588d665308dd52d3911e1ee2768ec57ab2efc9
-    new: 8f25830c9b55a82ac549291bd75d6572b4773734
-    log: |
-         8f25830c9b55a82ac549291bd75d6572b4773734 travis: disable OSX for now
-         
+  - ref: refs/heads/patchset/per-userspace-rlimit/v2.2
+    old: 0000000000000000000000000000000000000000
+    new: 84bf2facd6385dab4e53036cd3f537abbb926a37
