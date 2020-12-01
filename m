@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2074207873944200656=="
+Content-Type: multipart/mixed; boundary="===============0810896812022358281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 01 Dec 2020 12:02:02 -0000
-Message-Id: <160682412202.30108.7912091818126763166@gitolite.kernel.org>
+Date: Tue, 01 Dec 2020 12:02:08 -0000
+Message-Id: <160682412808.30207.4861097558535841336@gitolite.kernel.org>
 
---===============2074207873944200656==
+--===============0810896812022358281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: fa755b600d82001eaf9f5d3e3aab3ecaf9f9e7f5
-    new: 9e1f61086792c86c950d988e1bf776c8b2498110
-    log: revlist-fa755b600d82-9e1f61086792.txt
+  - ref: refs/heads/net-rc
+    old: b71bcc5d5cda1739b000ced36158c670c53f569d
+    new: ebf583cdfde37428eb373c04ef626c0d144b41d7
+    log: revlist-b71bcc5d5cda-ebf583cdfde3.txt
 
---===============2074207873944200656==
+--===============0810896812022358281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa755b600d82-9e1f61086792.txt
+Content-Disposition: attachment; filename=revlist-b71bcc5d5cda-ebf583cdfde3.txt
 
 c20782ad4eb9dfa7f41cb2d85f218d0940f7cef1 ARM: OMAP2+: Fix location for select PM_GENERIC_DOMAINS
 b69fd00120f8e3348273323099669cb058668263 ARM: OMAP2+: Fix missing select PM_GENERIC_DOMAINS_OF
@@ -406,5 +406,9 @@ a33237160965bf3e157fdfd0eff34b63d935c3f1 net: Call skb destructor on NAPI_GRO_FR
 89780808cd9c864cacb3c509d7407b3b4dac4e11 net: mlx5e: fix fs_tcp.c build when IPV6 is not enabled
 3cba8c31ad1496a8ff918f87b0e2e58c7ad3e2bd net: Disable NETIF_F_HW_TLS_TX when HW_CSUM is disabled
 9e1f61086792c86c950d988e1bf776c8b2498110 net/mlx5e: kTLS, Enforce HW TX csum offload with kTLS
+5bb65a447a63705a778909ce16924f3e9652504b Merge commit 'refs/changes/56/345056/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
+c49f04a697c4cfca412348e77c5bc35d6738eb72 Merge branch 'net-mlx4' into net-rc
+68b531a39f109983e09d331a5635ec5a96b42f44 Merge branch 'net-mlx5' into net-rc
+ebf583cdfde37428eb373c04ef626c0d144b41d7 Merge branch 'net-mlx5-test' into net-rc
 
---===============2074207873944200656==--
+--===============0810896812022358281==--
