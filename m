@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7511853760473027341=="
+Content-Type: multipart/mixed; boundary="===============1175313753993831403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 01 Dec 2020 14:59:31 -0000
-Message-Id: <160683477190.26163.14001600736609768941@gitolite.kernel.org>
+Date: Tue, 01 Dec 2020 14:59:39 -0000
+Message-Id: <160683477926.26254.12202584307296026871@gitolite.kernel.org>
 
---===============7511853760473027341==
+--===============1175313753993831403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: e9f69358dbf0e4256a20416719adcc3d10d3f7b8
-    new: c89446d1c70156a354cec6ee7fcad1396373c078
-    log: revlist-e9f69358dbf0-c89446d1c701.txt
+  - ref: refs/heads/net-next
+    old: eb3cdfa12bc0eef42addfc924d4b1ab22e4a155c
+    new: 97b08dd57cf082462374ec1e9a10ac7b39303cf9
+    log: revlist-eb3cdfa12bc0-97b08dd57cf0.txt
 
---===============7511853760473027341==
+--===============1175313753993831403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9f69358dbf0-c89446d1c701.txt
+Content-Disposition: attachment; filename=revlist-eb3cdfa12bc0-97b08dd57cf0.txt
 
 0705d126f7db04242c7847814fe82217a87f0534 net/mlx5: Add HW definition of reg_c_preserve
 d556d953e6bc919641f099e39df741aa5fb9c5c3 net/mlx5: Remove impossible checks of interface state
@@ -65,5 +65,9 @@ f261dee9949990ed2c67bec8846ae96fc1035de8 net/mlx5: E-Switch, let user to enable 
 961ab9af12ff558a11cabcbe1dae3fcc211ace12 net/mlx5e: CT, Avoid false lock depenency warning
 b76827efd6a6428a126821d1dcc0e6ba046cc82a net/mlx5e: Fill mlx5e_create_cq_param in a function
 c89446d1c70156a354cec6ee7fcad1396373c078 fixup! net/mlx5e: Add TX PTP port object support
+c8185e6eb9d879fd39d2577987783c552a10bb08 Merge branch 'net-next-mlx4' into net-next
+f257fc3c250d2ece1bae887183bf2f2976f9b09b Merge branch 'net-next-mlx5' into net-next
+81a2f484058d89ea3ec2aaf9e866b03c968ae0d0 Merge branch 'net-mlx4' into net-next
+97b08dd57cf082462374ec1e9a10ac7b39303cf9 Merge branch 'net-mlx5' into net-next
 
---===============7511853760473027341==--
+--===============1175313753993831403==--
