@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
-Date: Tue, 01 Dec 2020 06:14:01 -0000
-Message-Id: <160680324151.339.8770194251717112653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
+Date: Tue, 01 Dec 2020 06:20:36 -0000
+Message-Id: <160680363607.5310.9785491450897536263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rt-tests/rt-tests
-user: jkacur
+repo: pub/scm/linux/kernel/git/tmlind/linux-omap
+user: tmlind
 changes:
-  - ref: refs/heads/v1.9-test
-    old: 6c9523912e266af5dcb185215c44aafdc5ee6616
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/omap-for-v5.11/genpd-drivers-signed
+    old: 0000000000000000000000000000000000000000
+    new: 40d33921076dfdc488eb7629e9ce0e20ab0ac128
