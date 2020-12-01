@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 01 Dec 2020 02:37:47 -0000
-Message-Id: <160679026765.14920.2217331876363975492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/usb
+Date: Tue, 01 Dec 2020 02:42:48 -0000
+Message-Id: <160679056865.17950.5505403603607002746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/peter.chen/usb
+user: peter.chen
 changes:
-  - ref: refs/heads/master
-    old: e3d5e971d2f83d8ddd4b91a50cea4517fb488383
-    new: a5e74021e84bb5eadf760aaf2c583304f02269be
+  - ref: refs/heads/for-usb-next
+    old: d75fcc0d4da2c815b2ab44357da4f48d9bf81808
+    new: 448a74a2fd5f09f8656b9b928af0fc5c654d415f
     log: |
-         0a35dc41fea67ac4495ce7584406bf9557a6e7d0 vxlan: Add needed_headroom for lower device
-         a5e74021e84bb5eadf760aaf2c583304f02269be vxlan: Copy needed_tailroom from lowerdev
+         448a74a2fd5f09f8656b9b928af0fc5c654d415f usb: chipidea: ci_hdrc_imx: Pass DISABLE_DEVICE_STREAMING flag to imx6ul
          
