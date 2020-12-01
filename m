@@ -1,77 +1,86 @@
-Content-Type: multipart/mixed; boundary="===============2802880294228397177=="
+Content-Type: multipart/mixed; boundary="===============5133788870935358811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 01 Dec 2020 23:04:45 -0000
-Message-Id: <160686388575.7208.14278968657943995825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 01 Dec 2020 23:09:14 -0000
+Message-Id: <160686415412.10126.12144855004779189821@gitolite.kernel.org>
 
---===============2802880294228397177==
+--===============5133788870935358811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-next
-    old: f9123bc98a4ffb289491f8726b93f8aff7622175
-    new: e58a3f6f4f2f9e9970892b26910c933f6be4dbb7
-    log: revlist-f9123bc98a4f-e58a3f6f4f2f.txt
+  - ref: refs/heads/net-next-mlx5
+    old: c89446d1c70156a354cec6ee7fcad1396373c078
+    new: 83747f36b46f4ba0e13cee5e5dd6d6ba9853871b
+    log: revlist-c89446d1c701-83747f36b46f.txt
 
---===============2802880294228397177==
+--===============5133788870935358811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9123bc98a4f-e58a3f6f4f2f.txt
+Content-Disposition: attachment; filename=revlist-c89446d1c701-83747f36b46f.txt
 
-66df79ccbc2f617a2bbaa7108a2b50a6869de5d4 scsi: ufs: Adjust logic in common ADAPT helper
-03fe6a640a05c5dc04b6bcdddfb981d015e84ed4 scsi: atari_scsi: Fix race condition between .queuecommand and EH
-bdd1cc0377d3ce96683d178f30714da478f6a955 scsi: NCR5380: Reduce NCR5380_maybe_release_dma_irq() call sites
-27a34943bd89c101d3fb4a895d51d41a3c35ccab scsi: pm8001: Remove typecast for pointer returned by kcalloc()
-1b5d2793283dcb97b401b3b2c02b8a94eee29af1 scsi: pm8001: Neaten debug logging macros and uses
-89eddb401080a1969f0ef67fbd19123062e64a0b scsi: pm8001: Make implicit use of pm8001_ha in pm8001_printk() explicit
-90b3a938031fd2da2000f84e58223971ad8f6df3 scsi: fnic: Change shost_printk() to FNIC_FCS_DBG()
-f9e2beb990f0836b642e5e7d1bed285bbc137c83 scsi: fnic: Avoid looping in TRANS ETH on unload
-875d4eda3bd67315418f4e6f6725a877aa1786b5 scsi: fnic: Change shost_printk() to FNIC_MAIN_DBG()
-74ae6d6a6805f9fe162e4527d8ff0f7d2f9bc0d0 scsi: fnic: Set scsi_set_resid() only for underflow
-3256b4682386298ec106c1d1896b064f6a291f88 scsi: fnic: Validate io_req before others
-8ed9d987c6d9c7f262a764c56c27d74a906475f0 scsi: megaraid_sas: Drop PCI wakeup calls from .resume
-977001df03683b0209e56324b51d96ca5362c019 scsi: megaraid_sas: Use generic power management
-498854102c1c14af20941c20d8ca996bdcf116f4 scsi: megaraid_sas: Update function description
-7dd2222180762656ccaf9e42ecc289f59fd43bc4 scsi: aacraid: Drop pci_enable_wake() from .resume
-7e380b5c27ea3bab1175584c7763d616ecd6e0c5 scsi: aacraid: Use generic power management
-6897b9a177dfe38795bb4c086dc72edff7aba779 scsi: aic7xxx: Use generic power management
-ec199a8df6989915bd2f099e868f09d6ea6b7f06 scsi: aic79xx: Use generic power management
-b7b862d75b49cc26038d03e9f723799b938d3bcf scsi: arcmsr: Drop PCI wakeup calls from .resume
-756ebbe73fc48fdcb588d38f8b8874591ed5ab90 scsi: arcmsr: Use generic power management
-996360c141a6097094ca80e50be695b61a63df3c scsi: esas2r: Drop PCI Wakeup calls from .resume
-5f2d8c365050a53042cb0199caf04b63210c3da0 scsi: esas2r: Use generic power management
-17b5e4d14837b1f16d583cb66810d8f915ffbfd8 scsi: hisi_sas_v3_hw: Drop PCI Wakeup calls from .resume
-027e508aea458719390eb6a83a297940e8ae79f1 scsi: hisi_sas_v3_hw: Don't use PCI helper functions
-71c8f15e1dbcd202f0b27d7560ce191c5a3b7286 scsi: hisi_sas_v3_hw: Remove extra function calls for runtime pm
-eaf148359d009d70aec13ae3772675b25890822e scsi: mpt3sas_scsih: Drop PCI Wakeup calls from .resume
-17287305a526fa3e3faae0d7c950f5b10df3fe9a scsi: mpt3sas_scsih: Use generic power management
-ef6fa16b5d4a9d3f6ba839737b51d1b2f47259ea scsi: lpfc: Use generic power management
-66aea31a2d264cc4a6c0470103b313b7bd1600a5 scsi: pm_8001: Drop PCI Wakeup calls from .resume
-47c37c4dbf93fb2f35b715f94baec779bd0b2500 scsi: pm_8001: Use generic power management
-e5b79ebfb854a1b17a7dff1d3b00027363209e4f scsi: hpsa: Use generic power management
-3a09951ae3661071a47fead76036d4530c91fd5e scsi: 3w-9xxx: Drop PCI Wakeup calls from .resume
-d53ae6bbeb71e1d3c1b85e8befce6379642ed2d9 scsi: 3w-9xxx: Use generic power management
-7ea03ab79e00fccd2a12c1526fb3c7703c8a7baa scsi: 3w-sas: Drop PCI Wakeup calls from .resume
-99769d8d9109878d3f3e805dd21dfbb44aad035c scsi: 3w-sas: Use generic power management
-bd7463cdbe1af0e6d120defcbe9cf0e6eb0729c7 scsi: mvumi: Drop PCI Wakeup calls from .resume
-0572edbc32c56ca8863e5849051f9dfd06fd38b9 scsi: mvumi: Use generic power management
-53fdec73c14fdf8653f90078495ac13f7c171aa3 scsi: mvumi: Update function description
-0aea8a8f3a77d870a1e3312f561efbcf4907bcd5 scsi: pmcraid: Drop PCI Wakeup calls from .resume
-ac85cca316370d897b5af0568d224410b027b5e4 scsi: pmcraid: Use generic power management
-2ee9b86d0336b893649e5b9ead5c0c19a6485a86 scsi: ses: don't attach if enclosure has no components
-6112ff4e8f393e7e297dff04eff0987f94d37fa1 scsi: storvsc: Fix error return in storvsc_probe()
-3b8c72d076c42bf27284cda7b2b2b522810686f8 scsi: storvsc: Validate length of incoming packet in storvsc_on_channel_callback()
-42f687038bcc34aa919e0e4c29b04e4cda3f6a79 scsi: mpt3sas: Fix ioctl timeout
-85dad327d9b58b4c9ce08189a2707167de392d23 scsi: mpt3sas: Increase IOCInit request timeout to 30s
-c69a73101faa0ab37118a04fbf1b9a0e9aed172d Merge branch 'fixes' into for-next
-e58a3f6f4f2f9e9970892b26910c933f6be4dbb7 Merge branch 'misc' into for-next
+436553f80c38600e191b29b48d47c68c7d8a91f0 net/mlx5: Add HW definition of reg_c_preserve
+f2597c710aab541091a07ec996abfd8fa32e9ebe net/mlx5: Remove impossible checks of interface state
+d611d4dc01f8f228993dde82392d274bed48ff63 net/mlx5: Separate probe vs. reload flows
+2f7cbebcee983c82a6b3cc668795e70774a3ffaf net/mlx5: Remove second FW tracer check
+83da671fedfca236662891efa13a031b38fd8823 net/mlx5: Don't rely on interface state bit
+dc7df9e66ec2269cd9074d9e1799747b2602208f net/mlx5: Check returned value from health recover sequence
+66aeab2cca40d47b10ca531032aa0ab0701701eb net/mlx5: Fix devlink reload LOCKDEP warning
+3967b47139f7d96f6d32afa42c9990a6745b6b6d net/mlx5e: Free drop RQ in a dedicated function
+1bc360f4b81ff2ecf7d671ab9f897895f9991c99 net/mlx5e: Allow CQ outside of channel context
+2ca1259cef05cbf6e5d8a3871109b8b74a9ff8e5 net/mlx5e: Allow RQ outside of channel context
+76da51f0a26122930cc316b9ae8a05e3e4c33a4a net/mlx5e: Allow SQ outside of channel context
+c0996c9c0ac5000743c084b68b510fafaafaf021 net/mlx5e: Change skb fifo push/pop API to be used without SQ
+aaaa2092afb5f512b8965e3f16c93f7ecd2fb957 net/mlx5e: Split SW group counters update function
+319991e104e643489eb175a6d2eb3cfb7a46902a net/mlx5e: Move MLX5E_RX_ERR_CQE macro
+4dd5100da5808452a942372eb8dbf59370280ed8 net/mlx5e: Add TX PTP port object support
+869d21027d8c3c30b5957b4767351add2b49aaa3 net/mlx5e: Add TX port timestamp support
+dfd3f0e5a43b0e408d1340e93d884ff397b86d59 net/mlx5e: remove unnecessary memset
+5f57d8825c4ed985d8bf645369604b37087396df net/mlx5e: Remove duplicated include
+3d6833fb796e6cb02b05e4c16e45d0e6f5dd51dd bond: Add TLS TX offload support
+5e937e0df29de0267e936f2ef4667a15c8cbb793 net/mlx5e: kTLS, Check also real_dev in TLS context
+ccf940ec651f7e31f2b9a2e18a0d56895d148bbb net/mlx5: Arm only EQs with EQEs
+c96b0cf5efb469ff4da5c6a3c7f24e83c2b6ee20 net/mlx5: Fix passing zero to 'PTR_ERR'
+10afaac740dce553a8f77a945eec524c0a579188 devlink: Prepare code to fill multiple port function attributes
+2df8b11242e21e34d2809c2dcfc2aba1864bf2e5 devlink: Expose port function commands to control roce
+81a1d5e164f4ebe98cc7b26f622b2baa0f675f5c net/mlx5: E-Switch, Implement  devlink port function cmds to control roce
+17eb98a823df007502a17eaf84cd8690f1a106d2 net/mlx5e: Simplify condition on esw_vport_enable_qos()
+e18fd62249f38cc2874d566960a535a128b79b8d net/mlx5e: Split between RX/TX tunnel FW support indication
+15d623267061fad0165923fe19022ddb76a97fc0 net/mlx5: E-Switch, use new cap as condition for mpls over udp
+6c68ed29f72c0ede2cf85377d34525d77c9f92f1 net/mlx5e: E-Switch, Offload all chain 0 priorities when modify header and forward action is not supported
+af40eebcaaf5d2d2a4d94ad952fe55511b5ad82b net/mlx5e: CT: Pass null instead of zero spec
+1f5916f1fccab6d1f32d142057182b59a51c3b63 net/mlx5e: Remove redundant initialization to null
+2ec5da0c4da21faf2b149e4f00b4e8fd40af7ea3 net/mlx5e: CT: Remove redundant usage of zone mask
+5c5e738d332e440b731d453325ef54597d47dcb0 net/mlx5e: CT: Preparation for offloading +trk+new ct rules
+9ba75c0f2f4e5e4c026d2d490da532f4c1f0d33e net/mlx5e: CT: Support offload of +trk+new ct rules
+4766b3d6155eab7e35d074041a21703f1ddb2b94 net/mlx5: CT: Add support for mirroring
+d785361722f44108a71c1f086cc55e5b331e8228 net/mlx5: E-Switch, let user to enable disable metadata
+b88ac66e6e92b04142ec0937a8cc42a7c8bfc7e8 net/mlx5e: CT, Avoid false lock depenency warning
+51d5ff5ec7dc360f4eccba97bd9f056e0981ad14 net/mlx5e: Fill mlx5e_create_cq_param in a function
+b99d42b2b5c8b0ae54b3d7fc062538ba5346b9d3 fixup! net/mlx5e: Add TX PTP port object support
+80e5b72fe0c6004d7f2b8dfd2f318b190ab98b43 net/mlx5: DR, Proper handling of unsupported Connect-X6DX SW steering
+e4b98542ef05860866a09666c7bb502783595fba net/mlx5: DR, Add infrastructure for supporting several steering formats
+bf2e00727bf292b3e76525eb34be63cf92edb952 net/mlx5: DR, Move macros from dr_ste.c to header
+453a3bed6706e31480f5e234de3ecd021cd760b0 net/mlx5: DR, Use the new HW specific STE infrastructure
+ce551f16a3be235c6dc8263ebf0f017b907b8638 net/mlx5: DR, Move HW STEv0 match logic to a separate file
+b6ef417307bb5bcb07c2efb8c6ef7f4b3a8882e0 net/mlx5: DR, Remove unused macro definition from dr_ste
+413fe8e3e2c0090dcc648cdbf666c8e2de4e59b3 net/mlx5: DR, Fix STEv0 source_eswitch_owner_vhca_id support
+c4a601b41e2c8783c2a039372bd629fd375309f2 net/mlx5: DR, Merge similar DR STE SET macros
+5312dbafe760f356ad4d50539a242b18b625dfd7 net/mlx5: DR, Move STEv0 look up types from mlx5_ifc_dr header
+3d0ad5dd9226e2c7c0a2ec675eeb56a9fc71c7ad net/mlx5: DR, Refactor ICMP STE builder
+7fe6cc4eeb79f8374da619c424647afccafe1d97 net/mlx5: DR, Move action apply logic to dr_ste
+6c0a72b170ff8e067f8613f75e427e5730e0f9b6 net/mlx5: DR, Add STE setters and getters per-device API
+d016555bb75b786609dc37f9a26938f8bb2fc6b5 net/mlx5: DR, Move STEv0 setters and getters
+7295128846d2e29abc1dc8c2d0d85b8a339be87d net/mlx5: DR, Add STE tx/rx actions per-device API
+884e49c20a5b5f36c9a634ef21c61d70a6a6e134 net/mlx5: DR, Move STEv0 action apply logic
+398ee58b16bb09b80fa29d07874b0fbe9006aaf0 net/mlx5: DR, Add STE modify header actions per-device API
+83747f36b46f4ba0e13cee5e5dd6d6ba9853871b net/mlx5: DR, Move STEv0 modify header logic
 
---===============2802880294228397177==--
+--===============5133788870935358811==--
