@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 02 Dec 2020 23:50:39 -0000
-Message-Id: <160695303930.15926.7112649886253043782@gitolite.kernel.org>
+Date: Wed, 02 Dec 2020 23:51:11 -0000
+Message-Id: <160695307141.16211.10210419201986302406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.11
-    old: 41dcb8f21a86edbe409b2bef9bb1df4cb9d66858
+  - ref: refs/heads/for-next
+    old: ad4ca032fe7e8009ac3d75bb71af25fca2bcd013
     new: e93902f8dae7bf8a55699a315f6c1b7185222f99
     log: |
          6bb38bcc33bf3093c08bd1b71e4f20c82bb60dd1 dm: fix IO splitting
