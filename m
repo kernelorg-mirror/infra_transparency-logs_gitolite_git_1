@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/website
-Date: Wed, 02 Dec 2020 10:31:25 -0000
-Message-Id: <160690508538.25114.10250304500135644477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 02 Dec 2020 10:31:49 -0000
+Message-Id: <160690510978.25377.14209166040585419022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/website
-user: mtk
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/tags/v2020-12-02
-    old: 0000000000000000000000000000000000000000
-    new: e24869a7d63e6e43c5643a66ed39f22da5e16ad0
+  - ref: refs/heads/locking/urgent
+    old: 6e1d2bc675bd57640f5658a4a657ae488db4c204
+    new: b32114e52e3ca2fd1dd1fb9cd48473bb6b0e98ae
+    log: |
+         b32114e52e3ca2fd1dd1fb9cd48473bb6b0e98ae intel_idle: Build fix
+         
