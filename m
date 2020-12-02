@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5332871887515817769=="
+Content-Type: multipart/mixed; boundary="===============6608071975272945662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 02 Dec 2020 17:33:39 -0000
-Message-Id: <160693041945.14265.14713670086098944964@gitolite.kernel.org>
+Date: Wed, 02 Dec 2020 17:33:49 -0000
+Message-Id: <160693042943.14438.10380980796629744374@gitolite.kernel.org>
 
---===============5332871887515817769==
+--===============6608071975272945662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/auto-latest
+  - ref: refs/heads/master
     old: 31d5667427df8a1a5aec474d119ff5627aa03fe5
     new: 202bb4a77c5e68aced750f5998f0faf5564f95a0
     log: revlist-31d5667427df-202bb4a77c5e.txt
 
---===============5332871887515817769==
+--===============6608071975272945662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ bb793562f0da7317adf6c456316bca651ff46f5d entry: Rename exit_to_user_mode()
 c6156e1da633f241e132eaea3b676d674376d770 entry: Add syscall_exit_to_user_mode_work()
 202bb4a77c5e68aced750f5998f0faf5564f95a0 Merge branch 'core/entry'
 
---===============5332871887515817769==--
+--===============6608071975272945662==--
