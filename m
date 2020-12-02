@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 02 Dec 2020 22:23:38 -0000
-Message-Id: <160694781867.21783.16130465368265415816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Wed, 02 Dec 2020 22:35:09 -0000
+Message-Id: <160694850994.30716.17856168805249885190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/heads/master
-    old: 278abc66bed46c46f7e1cb97f6d57a6ff89bbf53
-    new: 4353110684ab9b7780579575d485ed9b75bc0b64
-    log: |
-         4353110684ab9b7780579575d485ed9b75bc0b64 doc: use real example for APRanges
-         
+  - ref: refs/heads/perf/daemon_2
+    old: 0000000000000000000000000000000000000000
+    new: fb6ad25e2ad746c5a1febb9bbbc63e59ff302d46
