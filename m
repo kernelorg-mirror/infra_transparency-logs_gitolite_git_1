@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6362661966009455814=="
+Content-Type: multipart/mixed; boundary="===============1097910165361643871=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 02 Dec 2020 07:30:10 -0000
-Message-Id: <160689421047.5268.13307816384972941554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 02 Dec 2020 07:32:35 -0000
+Message-Id: <160689435583.20300.295398701365611974@gitolite.kernel.org>
 
---===============6362661966009455814==
+--===============1097910165361643871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 78a2de9b6c61bdf7ed86fd9df1306a7053d282fd
-    new: 593820a31b5283ce61b4c49d4bed8c6eda0f713e
+  - ref: refs/heads/master
+    old: 5867e50993d6cb348031d670270e7ca29d16cbf1
+    new: 469f42259e3e66dbde64376f73285cc62c1a1852
     log: |
-         593820a31b5283ce61b4c49d4bed8c6eda0f713e Notes added by 'git notes add'
+         3bbbeae8bcf8d0e8c6a0c2858c3bc2bf71c0dcdd Linux 4.4.247
+         469f42259e3e66dbde64376f73285cc62c1a1852 Linux 4.9.247
          
 
---===============6362661966009455814==
+--===============1097910165361643871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606894282 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1606894207-26f5f639467bdad985abce4a8c9a12ac28dbf13f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1606894428 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1606894352-09fada3ed395164ff664f9e393dfddb859b2d457
 
-78a2de9b6c61bdf7ed86fd9df1306a7053d282fd 593820a31b5283ce61b4c49d4bed8c6eda0f713e refs/notes/signatures/tar
+5867e50993d6cb348031d670270e7ca29d16cbf1 469f42259e3e66dbde64376f73285cc62c1a1852 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/HQsobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vRcP/2/DUMN3u6ZZJpbN6tbE
-YtQnUrMT28p9+ZmHgqRUs9SiPubA2aVCBvgJ7Yifiu9e/s3z0ZRXfZvT9YpkQd2n
-9nggZcyVgkBbyPzvhnNB6YBqA2vlfuw96WIDfPENyz5JwDV9XpX9r/FgQn/EvsGn
-EMXtLY1ISo/wXok4teJvg5fl3eWkkAAA0kxgKgjDBimJ0xNSL4kxa8w71ZjUasgE
-s8kNLcDkWPyxxIfbGZ23wU9If/9EgPLB3DxzZSRmm6lP+0Ciblau7oIhNVi6Hrvs
-jvYPXCdGqrfaMDO8/1d9odfsELRvsOGXDdfnjq0G5H+tV3K8dkQWs65y3wFdqyIC
-qCGeiBhLEK0osUHRoAtP4viezy6KTlwq9MpFcYQOj+ravFQDWYsgi45IWUPKicpG
-LEavKfStWr6nfn5OIqnSKPRwF6nbw8WLj86rYSvbJJZ0e6KvcEF7QbW/vDZ9cuq1
-zrIHqWUC9VNNvWSekZ+CejjX+06eHshLv395QGfzzd/NnjfMt3En2Eyz6mL/srMC
-zuuCiApo//qN82oyHCUCbocfvqlidDvfh1PojXi90Q/+cepBpmMT8HdYBPByQbtw
-l0VHEQE2GTH8DhpHOARYTVmmKBlmYXbvnu1whrWmqfuW7XdWQjx6FLcqfVNN1Xs0
-SfG1/OFLAkbOeQOVs58Uz98u
-=jIMN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/HQ1wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Uz8QAKz4FhxP5IdFgpiSIa/L
+3R7ELmrZQHkCajylaTwI1THjB4XurMi0HhYdrmT4Owlmqf2wZpg2I9nkjz97BWvS
+tvE3K0k19ysL/ztV/tB5FOiFCO1HZ3Ci/MzivvvjLbBfIXvi99Gi5IWcos6RGkR7
+tUKuWQWwdoshaTsbCVnbhkk846YCwghXjyo6cqE2Or69FECBuSDLfcKbfP9lHNQ0
+7s7w9vlp+S1w5Qu3LsHGnxCV8HxqPi/xPD89ugnbbNl1oNxws6BR5owoI9A/ovSQ
+f+S0KQlmxN1MN6Ph1t7VJ9TrxfjnsMvyqaC7kn5D10Gj4FoF91vrKhDx3JXZThpp
+RNYWePOq+D2bAMf1/VRWp93md0KHhJ8yMLYdIU+5lZexesXRt3Gswxq/eiI5JaaM
+OY8X8QP9BXCPuJrNGB+yW55V/G+HuPxEw5u3zMIZjW0wcw45Z23P4yBBd6+fxNxh
+866MAStKS0IK5bACixoD1kTGpWw80yglVtwwxlSmLrCF/6P/IAk5XpYhwZiHs/8P
+J1nYuQIkEBmlJLFqR/D6N4WTFUzpP4HaRNjKrqnCWD7V2eApplKchdKElYkACRyo
+ht9PZBckOVy6xodh6EMLw1hq08KZPX0WnhL2o4Vr8ruv0YrqCuTK0XOvVJsKLINy
+ZsGWL+D+eChjBqOptbYcelVD
+=dMBf
 -----END PGP SIGNATURE-----
 
---===============6362661966009455814==--
+--===============1097910165361643871==--
