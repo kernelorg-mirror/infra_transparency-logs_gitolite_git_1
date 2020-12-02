@@ -1,30 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 02 Dec 2020 17:19:36 -0000
-Message-Id: <160692957662.2795.3249009076630432540@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5275437416352987591=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 02 Dec 2020 17:24:55 -0000
+Message-Id: <160692989519.8392.16654087474293329086@gitolite.kernel.org>
+
+--===============5275437416352987591==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: ba1cee33fd1703caa2f6499259f46a5e61d15822
-    new: 4fd9cdf745a830bc98f86fff74d2ab84c6b46350
+  - ref: refs/heads/master
+    old: 1c4a327d1d9e5de475073f76a53e5257d534e8fe
+    new: 626959e89b38fc95c54fad58baac131755cce04f
     log: |
-         2c2b3ad2c4c801bab1eec7264ea6991b1e4e8f2c spi: spi-fsl-dspi: Use max_native_cs instead of num_chipselect to set SPI_MCR
-         16483c20d79ea65295ce028030fd38ac92d1f55b Merge remote-tracking branch 'spi/for-5.9' into spi-linus
-         4fd9cdf745a830bc98f86fff74d2ab84c6b46350 Merge remote-tracking branch 'spi/for-5.10' into spi-linus
+         626959e89b38fc95c54fad58baac131755cce04f Don't give up on attestation if there's no index
          
-  - ref: refs/heads/for-next
-    old: 05178a6ded2c649e935664ea7069ebc17192b79f
-    new: acb69dbfb08d5164434c26c6e527d9683e8b8b27
-    log: |
-         2c2b3ad2c4c801bab1eec7264ea6991b1e4e8f2c spi: spi-fsl-dspi: Use max_native_cs instead of num_chipselect to set SPI_MCR
-         16483c20d79ea65295ce028030fd38ac92d1f55b Merge remote-tracking branch 'spi/for-5.9' into spi-linus
-         4fd9cdf745a830bc98f86fff74d2ab84c6b46350 Merge remote-tracking branch 'spi/for-5.10' into spi-linus
-         acb69dbfb08d5164434c26c6e527d9683e8b8b27 Merge remote-tracking branch 'spi/for-5.11' into spi-next
-         
+
+--===============5275437416352987591==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1606929894 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1606929894-dfa79979780a471394ea6d14391cd68c76d432ca
+
+1c4a327d1d9e5de475073f76a53e5257d534e8fe 626959e89b38fc95c54fad58baac131755cce04f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX8fN5gAKCRC2xBzjVmSZ
+bFcSAQC4qvl1RJg+Q5VlKEfrfu5e+s+RROW2LBeoE6bHTB2hZQD/Yjyr2kn9StFT
+rZ8ssVXlHCIq0+vZWk7QUeL2Ecka0Ak=
+=HLwL
+-----END PGP SIGNATURE-----
+
+--===============5275437416352987591==--
