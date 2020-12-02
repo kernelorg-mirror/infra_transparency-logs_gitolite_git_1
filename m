@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
-Date: Wed, 02 Dec 2020 15:25:49 -0000
-Message-Id: <160692274994.24637.17437977731276421156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Wed, 02 Dec 2020 16:22:29 -0000
+Message-Id: <160692614989.27386.8658470529133940643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
-user: ebiederm
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/for-next
-    old: 5e46d6af38a31b165206bf330284e31f58f5fc93
-    new: a1142ad21375713746e6c9e13ba229a7dc31e501
+  - ref: refs/heads/habanalabs-fixes
+    old: 5555b7c56bdec7a29c789fec27f84d40f52fbdfa
+    new: 1a16af33ba88ef25e206a13366379179cae79d23
     log: |
-         c85a833e8ca24cf8437a69042646adfa8b7dfad4 coredump: Document coredump code exclusively used by cell spufs
-         e15c8a3d55acb75e425ec51d5089c3523463688f exec: Move io_uring_task_cancel after the point of no return
-         a1142ad21375713746e6c9e13ba229a7dc31e501 Merge of signal-for-v5.11, and exec-for-v5.11 for testing in linux-next
+         a71464d0b9305dc5db6b01392c7218b81480b00f Merge tag 'misc-habanalabs-fixes-2020-11-30' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-linus
+         1a16af33ba88ef25e206a13366379179cae79d23 fpga: Specify HAS_IOMEM dependency for FPGA_DFL
          
