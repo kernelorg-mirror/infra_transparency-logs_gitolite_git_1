@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5357572686339678177=="
+Content-Type: multipart/mixed; boundary="===============0809498676493196622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 02 Dec 2020 18:00:29 -0000
-Message-Id: <160693202959.1998.3079702301926276771@gitolite.kernel.org>
+Date: Wed, 02 Dec 2020 18:00:34 -0000
+Message-Id: <160693203406.2088.6325431187299730510@gitolite.kernel.org>
 
---===============5357572686339678177==
+--===============0809498676493196622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 04272f492f019d4fa6fab901f525165a598b7f1c
-    new: 0c42ca98286729a355b76edbb60fe5ebe6056548
+  - ref: refs/heads/5.11/scsi-staging
+    old: b75ef77e652f5098935ae6ee69b5c7f775d92fc6
+    new: 492096ecfa39d5b6a82a6959b848b78d0112bb09
     log: |
          995ae10f8000699b6ac8186489235bc9f0b8de34 scsi: aic7xxx: Fix fall-through warnings for Clang
          4886dd0a04b47a3da81b2d9c46c32c1035410ea2 scsi: aic94xx: Fix fall-through warnings for Clang
@@ -31,33 +31,33 @@ changes:
          492096ecfa39d5b6a82a6959b848b78d0112bb09 scsi: target: core: Fix fall-through warnings for Clang
          
 
---===============5357572686339678177==
+--===============0809498676493196622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1606932027 -0500
+pusher 75C5DE3D 1606932032 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1606932027-c718747acafb949eff5b729fd3488e66ab7c9540
+nonce 1606932032-06356672e24cd9a752210455230e2882e2faa20e
 
-04272f492f019d4fa6fab901f525165a598b7f1c 0c42ca98286729a355b76edbb60fe5ebe6056548 refs/tags/mkp-scsi-staging
+b75ef77e652f5098935ae6ee69b5c7f775d92fc6 492096ecfa39d5b6a82a6959b848b78d0112bb09 refs/heads/5.11/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/H1jsACgkQ7ulgGnXF
-3j1yww//cF4Y2KFLEwpWP9TF3X4oXq9NSYEmOq5Dwr4ChR5+Dbll0OMzCF5uY9BM
-a/iy9IhtboVQuzexpRwKftzumE4Yv/jWqi9+jHDOVU9FdDFbFERbn/FJhnDSwy7g
-hSGYq9IOPbvb6XcSRanSjKX2zEtW3HTi+L+LzM5aLs1IwRiLQ6rTlZaUmo9iKU2C
-DPbjWxqSsvVJWvKeM4wGZFeX3kWXGRz3w+4AmwesNa3u7OGNhB1KmJYd7cI4vdGj
-kjWS2Ng/e3bd0pgpKS279+jNRr2++rk7i9mEAclrEwus8Wt6AsTx73N5wYQsO7Mr
-wP7m2ifh2k1ROXmx9sqGkTZMUom9KYq5N5tIEVfV1TCZF3FZc2uLxehP49CUz+j8
-yncUXOaF0iWqn99y3I/MhTQcBEI9HJ1Tgz48dUyPj9vjmqSorLO+NpoSskmLbw5w
-VMLzwxjI2ZmvVHj0eSq3NE/2XlmHQ9FdRN6ZZyizNd6ck5A+EhVtZSFMNqEY5iuV
-clhjs/kjS6BoBGNELVuD6u/BoIdfcZ10sSZxMH4ERr5ObbTprCqPM+JF3arGJKFY
-OH8ctMPm2S5A8T0nIzrZtul7cPcahTMVbbBO8no6bmioOlzYoPUEWOFut3QkfKUM
-BVgR3KVZVQgKuVV75n+4l4hrMOrG9W4oayhdVP4si9ubvn4S9pU=
-=R/XR
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/H1kAACgkQ7ulgGnXF
+3j3gLw//Yj3h0oCf9Lfyx7AHrEQLscxFthXu0MfZeg5+Rst7fxGMviwBJxTAYFjR
+jXS6XN41m123dYbg1UVl4Cs280s3RWXd2fZIrsETC/fEtmtkGTArhY6cugGqTktm
+iCs+en+o1fqB/saG3YfGAc4zuPd26j2i5DHaEnDs8zIYz4RMRtXn5latndmgrowZ
+sszdaCObAJXnGt1JNFYQbvpetj1zTlKakulm6vR10ioIfMKOgvcWT2YSJIRI2R1y
+zjMXv7S5eR1Yhx8+OjZ1MtN6lt8UHX+r+v5JLXXb3whZ1AmMl1LUtNf/nSculIEW
+vWmjM6GKKpsVgKO4J9Cy9LlG7yLkpNFhcI26xLLJaQdcGvvothYRVc4lJhrWcmyl
+eJT0OVfJhYMhcCZrOUWlRc6/u81ma4VOLDtlBTuay1iamwg96Y4xCaoiJ+nnbHNY
+z3O/CbCTlzDvZYX4R50LR8+aXVkJdD1pusbg7ovZhykBcbe0kuTDRNBRRmLsNCDY
+eHaaGKo+bZPoDLs5B074WJItwYFg6eSVcfMLeJiEWWJL+OWSlRIkyJjA1tTu+kzw
+QFFfTmzI458IrZWRA3iKhzE3PJkGh4wG6RbZZpN828AHimFdmWXquDyFjtVmiA0H
+3goHmnqpHah6F704uY+Us5PLSsW50yiXoXQzW8QEDqsRap+8duw=
+=EtNj
 -----END PGP SIGNATURE-----
 
---===============5357572686339678177==--
+--===============0809498676493196622==--
