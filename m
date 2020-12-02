@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2917938856853089981=="
+Content-Type: multipart/mixed; boundary="===============6984529771571284274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-fixes
-Date: Wed, 02 Dec 2020 11:03:23 -0000
-Message-Id: <160690700355.15611.12554553346164590042@gitolite.kernel.org>
+Date: Wed, 02 Dec 2020 11:04:37 -0000
+Message-Id: <160690707776.16118.6241459478067904592@gitolite.kernel.org>
 
---===============2917938856853089981==
+--===============6984529771571284274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-fixes
 user: luca
 changes:
-  - ref: refs/heads/pending
-    old: 3e4ee0ad7a71bd308847ae36c619866e4e2e6f19
+  - ref: refs/heads/master
+    old: 8b2426c50f20d6f9ca4c4e42bb7afcb312daec6a
     new: fe56d05ee6c87f6a1a8c7267affd92c9438249cc
-    log: revlist-3e4ee0ad7a71-fe56d05ee6c8.txt
+    log: revlist-8b2426c50f20-fe56d05ee6c8.txt
 
---===============2917938856853089981==
+--===============6984529771571284274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e4ee0ad7a71-fe56d05ee6c8.txt
+Content-Disposition: attachment; filename=revlist-8b2426c50f20-fe56d05ee6c8.txt
 
 3e4fb4346c781068610d03c12b16c0cfb0fd24a3 Merge tag 'spdx-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx
 02e83f46ebfaf9405881e290794c913d457541f0 vfs: move generic_remap_checks out of mm
@@ -1051,4 +1051,4 @@ fb8d1b6e97980057b7ebed444b8950e57f268a67 iwlwifi: mvm: use the HOT_SPOT_CMD to c
 edb625208d84aef179e3f16590c1c582fc5fdae6 iwlwifi: pcie: set LTR to avoid completion timeout
 fe56d05ee6c87f6a1a8c7267affd92c9438249cc iwlwifi: mvm: fix kernel panic in case of assert during CSA
 
---===============2917938856853089981==--
+--===============6984529771571284274==--
