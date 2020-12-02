@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Wed, 02 Dec 2020 23:13:28 -0000
-Message-Id: <160695080806.22851.15691740860454810556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 02 Dec 2020 23:31:21 -0000
+Message-Id: <160695188111.4180.899479940790785071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/kunit
-    old: 0c7a7e1a8ff3fb6d01467b43c62760e6bf0afab3
-    new: 5f6b99d0287de2c2d0b5e7abcb0092d553ad804a
+  - ref: refs/heads/dm-5.10-rcX
+    old: eca7e0f8283781b5038eaa4711fb51d18d246d80
+    new: a314a35b636d05a0dfdd3ef004c7fdfd25fcfa97
     log: |
-         fadb08e7c7501ed42949e646c6865ba4ec5dd948 kunit: Support for Parameterized Testing
-         5f6b99d0287de2c2d0b5e7abcb0092d553ad804a fs: ext4: Modify inode-test.c to use KUnit parameterized testing feature
+         a314a35b636d05a0dfdd3ef004c7fdfd25fcfa97 dm: fix IO splitting
          
