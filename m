@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-fixes
-Date: Wed, 02 Dec 2020 11:30:43 -0000
-Message-Id: <160690864325.4016.11078839601426874294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 02 Dec 2020 11:35:04 -0000
+Message-Id: <160690890477.6743.3992852242660182970@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-fixes
-user: luca
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/pending
-    old: fe56d05ee6c87f6a1a8c7267affd92c9438249cc
-    new: a06ba75404495f57b515d06ef671cc530bbd29bd
+  - ref: refs/heads/master
+    old: 8f25830c9b55a82ac549291bd75d6572b4773734
+    new: 77d44c1e51d4a0eec29af292864067d36231534e
     log: |
-         308eab4db42c2dbafd1600f05c0523e493760cc8 iwlwifi: pcie: add one missing entry for AX210
-         375bec857ccbdd4f6d33ac6235a923b079c27e89 iwlwifi: pcie: invert values of NO_160 device config entries
-         a06ba75404495f57b515d06ef671cc530bbd29bd iwlwifi: pcie: add some missing entries for AX210
+         4d8fb3c063485fdcb005de6d3d865a4aabc62bf9 libblkid: fix some typos in function comments
+         77d44c1e51d4a0eec29af292864067d36231534e Merge branch 'dankamongmen/libblkid-manual-fix' of https://github.com/dankamongmen/util-linux
          
-  - ref: refs/tags/iwlwifi-sent-for-review-2020-12-02
-    old: 0000000000000000000000000000000000000000
-    new: a06ba75404495f57b515d06ef671cc530bbd29bd
