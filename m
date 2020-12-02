@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 02 Dec 2020 01:15:18 -0000
-Message-Id: <160687171859.4372.157776321563039896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 02 Dec 2020 01:17:19 -0000
+Message-Id: <160687183916.5287.13354941755690927850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 832913c31e2b1a5f17fb5633eb036d645f091f17
-    new: 3d2f670a87b4ef68faa34cf53f8cf2c6695f5e1a
+  - ref: refs/heads/dev
+    old: fb799fd3b53693583e7192354546d4234ddf267e
+    new: ced3545f5c5bc2d978ffad601f34da24454e3103
     log: |
-         c0c682eeb8ccb11c05c29c34820224b7556cdf19 ionic: remove some unnecessary oom messages
-         79ba55a36e64c9b69b2b41667c869f6587cc0be4 ionic: change mtu after queues are stopped
-         3d2f670a87b4ef68faa34cf53f8cf2c6695f5e1a Merge branch 'ionic-updates'
+         9d76f15f9350b4f38cd0b8a87403127c4cc4aafe mm: Add kmem_last_alloc() to return last allocation for memory block
+         ced3545f5c5bc2d978ffad601f34da24454e3103 EXP rcuscale: Crude tests for kmem_last_alloc()
          
