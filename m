@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Wed, 02 Dec 2020 22:36:41 -0000
-Message-Id: <160694860131.31367.11021594326033557139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 02 Dec 2020 22:57:20 -0000
+Message-Id: <160694984022.13387.18266651305230894456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/faultaround
-    old: cb5182f8633cde9ff29f6498d21e50d0ec9ae6aa
-    new: 6569da7c384a0c2d7ad44b7ea72e6eb27856003f
+  - ref: refs/heads/dm-5.10-rcX
+    old: f28de262ddf09b635095bdeaf0e07ff507b3c41b
+    new: eca7e0f8283781b5038eaa4711fb51d18d246d80
     log: |
-         6569da7c384a0c2d7ad44b7ea72e6eb27856003f fixup! mm: Allow architectures to request 'old' entries when prefaulting
+         eca7e0f8283781b5038eaa4711fb51d18d246d80 dm: fix IO splitting
          
