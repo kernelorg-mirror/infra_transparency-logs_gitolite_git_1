@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Wed, 02 Dec 2020 11:58:41 -0000
-Message-Id: <160691032104.22187.15820171552272512314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Wed, 02 Dec 2020 12:04:51 -0000
+Message-Id: <160691069102.25732.14402505833943689633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 206ad34d52a2f1205c84d08c12fc116aad0eb407
-    new: b0c03eff79a67aa43f17249dd42fac58e96718dc
-    log: |
-         b0c03eff79a67aa43f17249dd42fac58e96718dc drivers: hv: vmbus: Fix checkpatch SPLIT_STRING
-         
+  - ref: refs/tags/arm64-set-fs-removal-20201113
+    old: 0000000000000000000000000000000000000000
+    new: c765cd9bec3bfac8bcd535202684763b17083e5d
