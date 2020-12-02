@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1525075045883711867=="
+Content-Type: multipart/mixed; boundary="===============2462359582030649821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jwboyer/fedora
-Date: Wed, 02 Dec 2020 17:40:00 -0000
-Message-Id: <160693080065.17815.16327515833357106606@gitolite.kernel.org>
+Date: Wed, 02 Dec 2020 17:51:49 -0000
+Message-Id: <160693150902.25752.12689681302783800307@gitolite.kernel.org>
 
---===============1525075045883711867==
+--===============2462359582030649821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jwboyer/fedora
 user: jwboyer
 changes:
-  - ref: refs/heads/f33
-    old: d1061cb36ec30a1b22e4c4715b63d74bfbb52f06
-    new: 6b597caee920d12dd58c205fb40a92d81c318b51
-    log: revlist-d1061cb36ec3-6b597caee920.txt
-  - ref: refs/tags/kernel-5.9.12-200.fc33
+  - ref: refs/heads/f32
+    old: 99f246b7d339bc44b03c32d441dd6b4467afe957
+    new: dd3bbf84afee9497e3a02e4dc95470ef1f67ff21
+    log: revlist-99f246b7d339-dd3bbf84afee.txt
+  - ref: refs/tags/kernel-5.9.12-100.fc32
     old: 0000000000000000000000000000000000000000
-    new: 6b597caee920d12dd58c205fb40a92d81c318b51
+    new: dd3bbf84afee9497e3a02e4dc95470ef1f67ff21
 
---===============1525075045883711867==
+--===============2462359582030649821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1061cb36ec3-6b597caee920.txt
+Content-Disposition: attachment; filename=revlist-99f246b7d339-dd3bbf84afee.txt
 
 c5772964b583f6a04112884b1e7f0c4c1ddadec4 io_uring: get an active ref_node from files_data
 62b4ac11757dd3f7633bb1846d87ea14e145fbf6 io_uring: order refnode recycling
@@ -182,47 +182,47 @@ c30b19ac6caecbdb7d57e769cc0fc18dd468ea97 x86/mce: Do not overwrite no_way_out if
 c39c19b367cbac540247dc4bd4da573e31b45746 x86/resctrl: Add necessary kernfs_put() calls to prevent refcount leak
 e411ba93ba641189ef6f4a71504478221154046e drm/amdgpu: add rlc iram and dram firmware support
 89bb11da843beec4a6004ef7ecfa44b83a68b56c Linux 5.9.12
-48cbfcb225edabd7301a0b829d710c67115a85cf ACPI: APEI: arm64: Ignore broken HPE moonshot APEI support
-22b5ac4cc63eecefc5d6e98089ceac77a6088414 ACPI / irq: Workaround firmware issue on X-Gene based m400
-df8d1cc1427dfde4dd65061ebad88329d5650c17 aarch64: acpi scan: Fix regression related to X-Gene UARTs
-ea71d24cf4edc83f3b26a2d04611c7f36f07940d kdump: round up the total memory size to 128M for crashkernel reservation
-45d980a89af0e4f6523a07ca09d3392bdb2ff70b kdump: add support for crashkernel=auto
-8bf59987c7f7e874992d577c49aee755355cae9d kdump: fix a grammar issue in a kernel message
-fd3f56549c86a53ab9da0932b5cbb2877db48390 Vulcan: AHCI PCI bar fix for Broadcom Vulcan early silicon
-0eeeb68c7bcdd32f947e4e8f970536e54b42d7d9 ahci: thunderx2: Fix for errata that affects stop engine
-9537c40622d876bd1e7376bc17bdeb017acc5406 scsi: smartpqi: add inspur advantech ids
-98fb01d809788922944c84dc8ba4d43ba2f57291 ipmi: do not configure ipmi for HPE m400
-eeb25f8d848e17fa8f641cbfda96af133b73eb5d iommu/arm-smmu: workaround DMA mode issues
-e05b75c5bdfdb5fd81518324d221103ecccd51ee arm: aarch64: Drop the EXPERT setting from ARM64_FORCE_52BIT
-dfee0b6a5e0cd359f59b00f691ff7ead4c8bbb17 Add efi_status_to_str() and rework efi_status_to_err().
-47b3c0822f8c5da8e08183014a9d61f77d7c52ae Make get_cert_list() use efi_status_to_str() to print error messages.
-1014a7beca89d71638b9bfaf9c2a2633f2f1692f security: lockdown: expose a hook to lock the kernel down
-e84d433c95b90dafc84473b77f368b3fabc018f2 efi: Add an EFI_SECURE_BOOT flag to indicate secure boot mode
-86d9932afaff75060eea4436b5bf49ac8c429e78 efi: Lock down the kernel if booted in secure boot mode
-2b6d6297d672d458934c685f3829f9b76b0e160c s390: Lock down the kernel when the IPL secure flag is set
-86ee4381ba579307c691ffb51715739cac67126f Add option of 13 for FORCE_MAX_ZONEORDER
-a09ef6f511bac0ed0acb57346e4c4d7cb83af403 arm: make CONFIG_HIGHPTE optional without CONFIG_EXPERT
-3c71a06e252ef7ced595e89afe5fd15b70d41464 ARM: tegra: usb no reset
-9b5e487d5ceaa251c9ff12f5ce660b9f0e0c4a56 Input: rmi4 - remove the need for artificial IRQ in case of HID
-6a1116f9e1ed5a9771094ff66286090d426c78af Drop that for now
-1fb348d47e6eec4f5f33d0c8d7bc24f94eb4b233 KEYS: Make use of platform keyring for module signature verify
-49717bb16411a59849de3f284c2e8eb2b201c931 mm/kmemleak: skip late_init if not skip disable
-7e5e0699c66377ab4507d44cbb70428fb654d332 ARM: fix __get_user_check() in case uaccess_* calls are not inlined
-162d8fff1c303d61fada702f414275a0bee9b3a6 dt-bindings: panel: add binding for Xingbangda XBD599 panel
-776835db224c766016d1adefd4a92cfc906bde1e drm: panel: add Xingbangda XBD599 panel
-8b2c1a36d82f32328c8dff4c44494b3b15fe3a15 drm/sun4i: sun6i_mipi_dsi: fix horizontal timing calculation
-e93445ad69ee45f8d2d7a3d552d05f0855393d72 e1000e: bump up timeout to wait when ME un-configure ULP mode
-e9677ab266c2a39027aea79c613911832a1e11cc Work around for gcc bug https://gcc.gnu.org/bugzilla/show_bug.cgi?id=96377
-ae460495cd48a7aa35b98b56486c9834910ad5ea mmc: sdhci-iproc: Enable eMMC DDR 3.3V support for bcm2711
-881a27b9cb082f97d387245359bf0836cedbc408 brcmfmac: drop chip id from debug messages
-0ea120653af104904e47946bbf78b14db927903b brcmfmac: set F2 SDIO block size to 128 bytes for BCM4329
-27c929b514c50af50824717480150f2d7f344b6f arm64: dts: rockchip: disable USB type-c DisplayPort
-fb126cc93200e5ddb9d10fc08539419b5a53982b PCI: Add MCFG quirks for Tegra194 host controllers
-c749f357dcbfe8ceeb678013c02e6ae58eea91d4 arm64: tegra: Use valid PWM period for VDD_GPU on Tegra210
-4f9a005ffd58b9078b0674cc500dbb3d239eadc4 These two patches fix ACTIVE_TLB_LINES field setting in tegra-smmu driver for Tegra210 platforms.
-6082be19ad4506a63879a59d96d56d68126fc654 update phy on pine64 a64 devices
-aa3f6319c9e1c2bd70bb92667d4c3f3bbdfd4f79 ARM: dts: sun7i: pcduino3-nano: enable RGMII RX/TX delay on PHY
-d65e16f4bfa97ba5aede04707c934b2c6177a830 Bluetooth: Fix: LL PRivacy BLE device fails to connect
-6b597caee920d12dd58c205fb40a92d81c318b51 kernel-5.9.12-200.fc33 configs
+3e050b96fd06a80f2a1f8eba736c419ec571669c ACPI: APEI: arm64: Ignore broken HPE moonshot APEI support
+228c01eb4feda373e0b51938201dc5b2dd056e81 ACPI / irq: Workaround firmware issue on X-Gene based m400
+309c126cb90fbac27d1c3ec58096dc36b3a3b1a5 aarch64: acpi scan: Fix regression related to X-Gene UARTs
+640fb4c32b94c2c2454f1ec7bb172ef1794c34eb kdump: round up the total memory size to 128M for crashkernel reservation
+0aaf0ee48c959aa59c3b929fd6d10ea379e85539 kdump: add support for crashkernel=auto
+fffb2cc37998b47f39c3188bd1bce7ade8fbabec kdump: fix a grammar issue in a kernel message
+0377feb6f418f3157e9a3afff10691e7eedbec5e Vulcan: AHCI PCI bar fix for Broadcom Vulcan early silicon
+a7ba1eaa5f0a5569308cf7e042c8c589c5b67cef ahci: thunderx2: Fix for errata that affects stop engine
+30df93694983fd5d3a7b80e9156ac764719ca2b5 scsi: smartpqi: add inspur advantech ids
+daff8680abf5b74ad94dd804ac2409f6cc9dd624 ipmi: do not configure ipmi for HPE m400
+3152e05e924c8acb3a7f93e3b46b15be9c726558 iommu/arm-smmu: workaround DMA mode issues
+e8591c44f351232fc56325cd266ebc1f496c72d0 arm: aarch64: Drop the EXPERT setting from ARM64_FORCE_52BIT
+c41de467aa9bb2cf95c153f444b143c42cf29d68 Add efi_status_to_str() and rework efi_status_to_err().
+57548bb1e1763fd30d9fec53eb5f873a658d320c Make get_cert_list() use efi_status_to_str() to print error messages.
+16c0ff87278bfe364c572a16e0e0bc9204479156 security: lockdown: expose a hook to lock the kernel down
+544e1a9447a04585716d3b0cce35a6ad3b514e66 efi: Add an EFI_SECURE_BOOT flag to indicate secure boot mode
+c506c15904a54a1d6d4d200e046edbfe1fdf22bd efi: Lock down the kernel if booted in secure boot mode
+48404600ae90d7596f6ca8c01066d2978f380ad8 s390: Lock down the kernel when the IPL secure flag is set
+ec945de5dbdcdd3da5c27edb04ce1243df3f9cbe Add option of 13 for FORCE_MAX_ZONEORDER
+adad40dc0d396b323e10c022b91036c085c9d0f6 arm: make CONFIG_HIGHPTE optional without CONFIG_EXPERT
+90554011611795bb7547f7bd58526d6b955b6d43 ARM: tegra: usb no reset
+c3e9043a63215df62ad2f578cb09d84688300756 Input: rmi4 - remove the need for artificial IRQ in case of HID
+eb58fa8827f861b1d259f1a800f2aca40d248b2f Drop that for now
+c8d77d4834725b92a88edf00ec51fb3cee951da3 KEYS: Make use of platform keyring for module signature verify
+5cd17b1accd7bd6f8c35af5afa2fff2ed3d70b3b mm/kmemleak: skip late_init if not skip disable
+941332e8f15269a434c92b13b906523626108812 ARM: fix __get_user_check() in case uaccess_* calls are not inlined
+9b4290a0d8711eb6c4544e2ceead85c6b4a708c6 dt-bindings: panel: add binding for Xingbangda XBD599 panel
+0e4d004a730e97450a8814ee93eb762522fb128c drm: panel: add Xingbangda XBD599 panel
+eb1d793ce84b92396aea213700a677c24d22b0d3 drm/sun4i: sun6i_mipi_dsi: fix horizontal timing calculation
+b61e08a29358a92a41b3b25635651badb2537733 e1000e: bump up timeout to wait when ME un-configure ULP mode
+b3a52196a719e0c69c8c8ff221ad3c56bea4a799 Work around for gcc bug https://gcc.gnu.org/bugzilla/show_bug.cgi?id=96377
+f9264974626afaf64e9cd031b3306cd5693ee8d3 mmc: sdhci-iproc: Enable eMMC DDR 3.3V support for bcm2711
+e1da2199534a657d9f180cf0279654bcb264475f brcmfmac: drop chip id from debug messages
+cbfedfe64450eaf49e66593406a71c3d19135390 brcmfmac: set F2 SDIO block size to 128 bytes for BCM4329
+da03beb995e8ab21bf4c2034b37cffa6ae7c0c04 arm64: dts: rockchip: disable USB type-c DisplayPort
+f4df6bfe90179fafcd45d0a042da001a085ea4fc PCI: Add MCFG quirks for Tegra194 host controllers
+afddc6f84a9d50a2f5f0189da26f9e6043d5ab7c arm64: tegra: Use valid PWM period for VDD_GPU on Tegra210
+478fe94966285d9c0aa9f231cb7e21f5637f12da These two patches fix ACTIVE_TLB_LINES field setting in tegra-smmu driver for Tegra210 platforms.
+28aa21cee6ebd35e2f64ee0c9956c131f5260737 update phy on pine64 a64 devices
+4e9ff3f40497f199e0f9059dca2aec17346cb025 ARM: dts: sun7i: pcduino3-nano: enable RGMII RX/TX delay on PHY
+93ac508c8fe54daca174ead4cf811848abf451be Bluetooth: Fix: LL PRivacy BLE device fails to connect
+dd3bbf84afee9497e3a02e4dc95470ef1f67ff21 kernel-5.9.12-100.fc32 configs
 
---===============1525075045883711867==--
+--===============2462359582030649821==--
