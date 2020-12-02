@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers
-Date: Wed, 02 Dec 2020 19:09:31 -0000
-Message-Id: <160693617108.14608.1381166768325838704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 02 Dec 2020 19:17:29 -0000
+Message-Id: <160693664900.19938.16165245409915582901@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers
-user: kvalo
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: fe56d05ee6c87f6a1a8c7267affd92c9438249cc
-    new: 807982017730cfe853fce49ba26d453e31c84898
+    old: 4179b00c04d18ea7013f68d578d80f3c9d13150a
+    new: 832ba596494b2c9eac7760259eff2d8b7dcad0ee
     log: |
-         abfccc3af786bb33210e39638268ea3a7bf80e63 iwlwifi: update MAINTAINERS entry
-         5febcdef30902fa870128b9789b873199f13aff1 iwlwifi: pcie: add one missing entry for AX210
-         568d3434178b00274615190a19d29c3d235b4e6d iwlwifi: pcie: invert values of NO_160 device config entries
-         9b15596c5006d82b2f82810e8cbf80d8c6e7e7b4 iwlwifi: pcie: add some missing entries for AX210
-         807982017730cfe853fce49ba26d453e31c84898 mt76: usb: fix crash on device removal
+         832ba596494b2c9eac7760259eff2d8b7dcad0ee net: ip6_gre: set dev->hard_header_len when using header_ops
          
