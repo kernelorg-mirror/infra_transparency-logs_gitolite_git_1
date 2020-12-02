@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 02 Dec 2020 22:57:20 -0000
-Message-Id: <160694984022.13387.18266651305230894456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 02 Dec 2020 23:04:31 -0000
+Message-Id: <160695027129.17203.13403908100792325995@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/dm-5.10-rcX
-    old: f28de262ddf09b635095bdeaf0e07ff507b3c41b
-    new: eca7e0f8283781b5038eaa4711fb51d18d246d80
+  - ref: refs/heads/master
+    old: 9e83f54f532bf2e66f6808922a4646cab7123033
+    new: d4bf3ba4d1d33a506f05ea67a316a8779eb59a26
     log: |
-         eca7e0f8283781b5038eaa4711fb51d18d246d80 dm: fix IO splitting
+         56ab028af72b07f20d9490393eb885f18945f523 libbpf: Separate XDP program load with xsk socket creation
+         d6482b4367ac058b9f88f4825142c04ea42cc7fc samples/bpf: Sample application for eBPF load and socket creation split
+         d4bf3ba4d1d33a506f05ea67a316a8779eb59a26 Merge branch 'libbpf: add support for'
          
