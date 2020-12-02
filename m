@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 02 Dec 2020 20:07:33 -0000
-Message-Id: <160693965349.23372.254191497032164480@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 02 Dec 2020 20:12:06 -0000
+Message-Id: <160693992608.26269.10620517348618916834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 2ce5a30711abdb690f916d21cb524021e2368d41
-    new: 05e3ecea4a6305597a060da0a123c80df8827bf1
+  - ref: refs/heads/dev
+    old: ced3545f5c5bc2d978ffad601f34da24454e3103
+    new: 43569045fe795c5d4fe54b5f00147248a052cd0a
     log: |
-         05e3ecea4a6305597a060da0a123c80df8827bf1 mptcp: avoid potential infinite loop in mptcp_recvmsg()
+         43569045fe795c5d4fe54b5f00147248a052cd0a kvfree_rcu: Use __GFP_NOMEMALLOC for single-argument kvfree_rcu()
          
