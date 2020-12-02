@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/website
-Date: Wed, 02 Dec 2020 11:24:18 -0000
-Message-Id: <160690825829.31226.13080147709407511765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 02 Dec 2020 11:24:34 -0000
+Message-Id: <160690827402.31455.6267834138426319500@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/website
-user: mtk
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 38f293795cde2a7e32524b08c591ba612853137f
-    new: e1af4072419d64b041ab3776f8c90d1c39d9e860
+  - ref: refs/heads/experimental-test
+    old: a4aa5d57c50750961d1e22cc5ce9b46861b11722
+    new: 214b618abce7cc231119cf5188c97e6a6a502895
     log: |
-         e1af4072419d64b041ab3776f8c90d1c39d9e860 linux-api-ml.html: wfix
+         2ea0642757c3c238e4f4876cfd3c9bb44ac1243d erofs-utils: tests: add basic testcases
+         214b618abce7cc231119cf5188c97e6a6a502895 erofs-utils: tests: testcase for bad lz4 versions
          
-  - ref: refs/tags/v2020-12-02-a
-    old: 0000000000000000000000000000000000000000
-    new: c285e8ab1f6533011a3d474bc36729b85ff09ac3
