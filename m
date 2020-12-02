@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============8080089144697013739=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-Date: Wed, 02 Dec 2020 19:26:42 -0000
-Message-Id: <160693720246.28295.15129160937166194672@gitolite.kernel.org>
-
---===============8080089144697013739==
-Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 02 Dec 2020 19:40:07 -0000
+Message-Id: <160693800712.4316.16339503043743512989@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,27 +12,15 @@ repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
 user: kvalo
 changes:
   - ref: refs/heads/master
-    old: 7ec8a926188eb8e7a3cbaca43ec44f2d7146d71b
-    new: 3b52cf6242b49c86bba2b5753a43a4e5999c4171
-    log: revlist-7ec8a926188e-3b52cf6242b4.txt
-
---===============8080089144697013739==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ec8a926188e-3b52cf6242b4.txt
-
-e220332c3a1a26c3f2adc58984fb627728c2f8d2 Revert "rtl8xxxu: Add Buffalo WI-U3-866D to list of supported devices"
-1329c0dbd485a48979c386088166ee2c3e28ddb8 rtw88: coex: run coexistence when WLAN entering/leaving LPS
-1a589bd5be9260f59adf34e0a6dc21644f3cf74b rtw88: coex: add debug message
-76f631cb401fbfb5993c6958a8032db4f87881cb rtw88: coex: update the mechanism for A2DP + PAN
-4d0087e763a856e537e07e8e8677cc1e902f86f0 rtw88: coex: update AFH information while in free-run mode
-6a910a2a7d5def5179b8251374299f9c5a8dc028 rtw88: coex: change the coexistence mechanism for HID
-c404dbd4fbfc8f871158052d8554ae4fb4bcb090 rtw88: coex: change the coexistence mechanism for WLAN connected
-8e6947dcb95d7721ffefff01a988145a4faee938 rtw88: coex: add function to avoid cck lock
-79d06b20d00bda8daaefcdc8f8c78fd8a5c9376f rtw88: coex: add action for coexistence in hardware initial
-1a74daed6cef336d4afe482edb1e6cc785c65f7c rtw88: coex: upgrade coexistence A2DP mechanism
-5b2e9a35e456619f9477eefb6aa029390b763f79 rtw88: coex: add feature to enhance HID coexistence performance
-3b52cf6242b49c86bba2b5753a43a4e5999c4171 wlcore: Switch to using the new API kobj_to_dev()
-
---===============8080089144697013739==--
+    old: 3b52cf6242b49c86bba2b5753a43a4e5999c4171
+    new: fc6877b87982defcacef96934b8aafa4a31c7d83
+    log: |
+         75729e110e680687668fd5b4bdd7b25c92e9c00d brcmfmac: expose firmware config files through modinfo
+         c04fabacb780b6d8dbc2e7258b383d7a91f69ad9 wilc1000: added 'ndo_set_mac_address' callback support
+         dd460e2ac05ffa52db52a2ab9e64f82ce402eab9 wilc1000: free resource in wilc_wlan_txq_add_net_pkt() for failure path
+         66aea5d198c3ad4434e6adfb66dcb574c9a14779 wilc1000: free resource in wilc_wlan_txq_add_mgmt_pkt() for failure path
+         9c172f30b40bb2c50b357930e6a6b7950e610053 wilc1000: call complete() for failure in wilc_wlan_txq_add_cfg_pkt()
+         339754ffdb928c212658fc3a43e6050f2fd79dab wilc1000: added queue support for WMM
+         a460b0e1bab831076b42b6027b1547953c209036 airo: remove trailing semicolon in macro definition
+         fc6877b87982defcacef96934b8aafa4a31c7d83 wl1251: remove trailing semicolon in macro definition
+         
