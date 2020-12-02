@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0229042662143294202=="
+Content-Type: multipart/mixed; boundary="===============0111273375752370120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 02 Dec 2020 19:53:01 -0000
-Message-Id: <160693878139.11918.15670246961347180071@gitolite.kernel.org>
+Date: Wed, 02 Dec 2020 19:53:12 -0000
+Message-Id: <160693879270.12071.12847486478765547283@gitolite.kernel.org>
 
---===============0229042662143294202==
+--===============0111273375752370120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arm64/linux
 user: cmarinas
 changes:
-  - ref: refs/heads/for-next/core
-    old: aa8f74a6c199af7d4a4437a661e41ab4d0635000
-    new: 7ed3934e9681f527483cb162d595e1a4263133c7
-    log: revlist-aa8f74a6c199-7ed3934e9681.txt
+  - ref: refs/heads/for-next/uaccess
+    old: 7cdab4d42ac7dd870f22ae5ef5d6172d44227101
+    new: 1517c4facf2e66401394998dba1ee236fd261310
+    log: revlist-7cdab4d42ac7-1517c4facf2e.txt
+  - ref: refs/heads/for-next/zone-dma-default-32-bit
+    old: 02622f044b600212878e01401ed77e7f36a7170e
+    new: aed5041ef9a3f594ed9dc0bb5ee7e1bbccfd3366
+    log: |
+         aed5041ef9a3f594ed9dc0bb5ee7e1bbccfd3366 of: unittest: Fix build on architectures without CONFIG_OF_ADDRESS
+         
 
---===============0229042662143294202==
+--===============0111273375752370120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa8f74a6c199-7ed3934e9681.txt
+Content-Disposition: attachment; filename=revlist-7cdab4d42ac7-1517c4facf2e.txt
 
-aed5041ef9a3f594ed9dc0bb5ee7e1bbccfd3366 of: unittest: Fix build on architectures without CONFIG_OF_ADDRESS
+e2a2190a80ca0ebddd52c766caf08908d71fb949 arm64: uaccess: move uao_* alternatives to asm-uaccess.h
+7cda23da52ad793a578d290e7fcc9cdc1698bba8 arm64: alternatives: Split up alternative.h
+364a5a8ae8dc2dd457e2fefb4da3f3fd2c0ba8b1 arm64: cpufeatures: Add capability for LDAPR instruction
+5af76fb4228701bd5377880b09b0216a5fd800ef arm64: alternatives: Remove READ_ONCE() usage during patch operation
+e35123d83ee35c31f64ecfbdfabbe5142d3025b8 arm64: lto: Strengthen READ_ONCE() to acquire when CONFIG_LTO=y
 f80d034086d5bfcfd3bf4ab6f52b2df78c3ad2fa arm64: ensure ERET from kthread is illegal
 515d5c8a1374b307225e41b3e66b0aad08585f53 arm64: add C wrappers for SET_PSTATE_*()
 ecbb11ab3ebc02763ec53489c9b1f983be9dc882 arm64: head.S: rename el2_setup -> init_kernel_el
@@ -43,11 +53,5 @@ fc703d80130b1c9d6783f4cbb9516fd5fe4a750d arm64: uaccess: split user/kernel routi
 b5a5a01d8e9a44ecb18dc31d471233cad2f88291 arm64: uaccess: remove addr_limit_user_check()
 7cf283c7bd6260ae43a74cd213f5ec9d665a19b5 arm64: uaccess: remove redundant PAN toggling
 1517c4facf2e66401394998dba1ee236fd261310 arm64: uaccess: remove vestigal UAO support
-20097bc6dac455f16172c4799041b1bbdfd97682 Merge branches 'for-next/kvm-build-fix', 'for-next/va-refactor', 'for-next/lto', 'for-next/mem-hotplug', 'for-next/cppc-ffh', 'for-next/pad-image-header', 'for-next/zone-dma-default-32-bit', 'for-next/signal-tag-bits' and 'for-next/cmdline-extended' into for-next/core
-68989a69ccfcc9d2d488040ad5f8086cfc13cb5f Merge branch 'for-next/uaccess' into for-next/core
-6293782cfab31a0f671d34d4d346a02e2031b14d Merge branch 'for-next/misc' into for-next/core
-b90c37ba2d225076159701ae43495d76cb3bfabe Merge remote-tracking branch 'arm64/for-next/perf' into for-next/core
-6ca260121681ec9bf2b087afaafed4bbc2928d68 Merge remote-tracking branch 'arm64/for-next/scs' into for-next/core
-7ed3934e9681f527483cb162d595e1a4263133c7 Merge remote-tracking branch 'arm64/for-next/iommu/core' into for-next/core
 
---===============0229042662143294202==--
+--===============0111273375752370120==--
