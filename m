@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 03 Dec 2020 00:55:54 -0000
-Message-Id: <160695695485.29941.13876439563208748770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 03 Dec 2020 01:05:20 -0000
+Message-Id: <160695752031.6795.5214063436100352838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/mellanox/linux
+user: saeed
 changes:
-  - ref: refs/tags/mmc-crypto-v2
-    old: c67755d632e6841667750a7621fe53892ecac5fa
-    new: 9b1c78990291c881cc79575bda2e9195152e5f96
-    log: |
-         9b1c78990291c881cc79575bda2e9195152e5f96 mmc: sdhci-msm: add Inline Crypto Engine support
-         
+  - ref: refs/tags/mlx5-next-2020-12-02
+    old: 0000000000000000000000000000000000000000
+    new: 00553ee44a60a70309d3745807ee41c45cfb7168
