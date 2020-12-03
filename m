@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6849563855934918938=="
+Content-Type: multipart/mixed; boundary="===============9187760553912763658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 03 Dec 2020 18:12:25 -0000
-Message-Id: <160701914559.2690.3721130468151015535@gitolite.kernel.org>
+Date: Thu, 03 Dec 2020 18:12:42 -0000
+Message-Id: <160701916284.2818.8755489633388312540@gitolite.kernel.org>
 
---===============6849563855934918938==
+--===============9187760553912763658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 9e39394faef6d436f0c9900d2a5c690c13bc1cac
-    new: d4bff72c8401e6f56194ecf455db70ebc22929e2
-    log: revlist-9e39394faef6-d4bff72c8401.txt
+  - ref: refs/heads/dev-queue
+    old: 8f2bb4501f5675fa2175632693a814fe7db3d7e3
+    new: 70f5498887bf3aa27fe5c9e42fc0244cda606aae
+    log: revlist-8f2bb4501f56-70f5498887bf.txt
 
---===============6849563855934918938==
+--===============9187760553912763658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e39394faef6-d4bff72c8401.txt
+Content-Disposition: attachment; filename=revlist-8f2bb4501f56-70f5498887bf.txt
 
 2a2970891647fee7e7ea767425f895140faffaa8 net/mlx5: Add sample offload hardware bits and structures
 38730630880c6f47ad73dd90524ff52443b8bc48 net/mlx5: Add sampler destination type
@@ -129,5 +129,125 @@ b3799d592f26faaafdfe82fef3f5f91f9764da5f nfc: s3fwrn5: extract the common phy bl
 db774712596810d7808b8fcc37fa3086a682fb07 Merge branch 'nfc-s3fwrn5-support-a-uart-interface'
 cec85994c6b4fa6beb5de61dcd03e23001b9deb5 bareudp: constify device_type declaration
 d4bff72c8401e6f56194ecf455db70ebc22929e2 macvlan: Support for high multicast packet rate
+7f6c02a26f2e99be0e080d723c6630c274af63bd i40e/i40evf: cleanup i40e_update_nvm_checksum()
+57940ec3988dfec3544dbc4b4c7170e25d1af581 igc: Add UDP segmentation offload support
+b62290c9fead046428e7ac3806428dfdcecf58fc ice: remove redundant assignment to pointer vsi
+ec07f3146a1415ae7f7ccebf6173c9f051a0374f ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
+313754c54f4c174ae99a335509080a146a6d59f5 ice: report correct max number of TCs
+89ae618a92cdee0c5b7958e3b93319cb4c9d20d6 e100: switch from 'pci_' to 'dma_' API
+f5f6b99af87b2b6b58b6afbf0f87d1565115ad92 i40e: Add flow director support for IPv6
+23985824b9398e55aadc1afaeff3ba223b5ae83a i40e: VLAN field for flow director
+b2d369a97817c45ad8a717856566d27ffefc78c4 i40e: avoid premature Rx buffer reuse
+f464b456d231b82f7a3f08525b9c46136c5546ed ixgbe: avoid premature Rx buffer reuse
+a86e63e093b5d7bf815f1393d288f7c777b07a45 ice: avoid premature Rx buffer reuse
+d390877a01ca5173753bf59b42662ff218bc1186 i40e: prepare flash string in a simpler way
+1a8bd24312f9b00c98556692210dce49a8f2ea7a ice: Fix memleak in ice_set_ringparam
+f597b460dcaf913d60dd12d28bcb4037f1cc77f6 i40e: Use the ARRAY_SIZE macro for aq_to_posix
+b396a356f1a4153d16cd612a31c33bb33266e296 iavf: Use the ARRAY_SIZE macro for aq_to_posix
+f7fb9cace306d4a045a9cf968c2cef8a24b83444 i40e: Add EEE status getting & setting implementation
+f7a2d64a2da3cc1321542ef2a79484eec88f1903 i40e: Fix flow for IPv6 next header (extension header)
+5813b64cf8f08dc4ff34a35fb4589c94a4309077 e1000e: fix S0ix flow to allow S0i3.2 subset entry
+805e734497f9d46ee8191ef2dc3d5030f88dc49e ice: cleanup stack hog
+ae1496bf358de68c93924528a5ccfba5cf144d44 ice: rename shared Flow Director functions
+1b5f7d6dd3b7f59bae77fb6baccc3b721698ec40 ice: initialize ACL table
+348eb18f0367128101783b68a2471e5e18b9af09 ice: initialize ACL scenario
+12ecf0e9a5b9cc88c0d61512636b64dff5e0dcd6 ice: create flow profile
+f00dccc074ad051a0c29beeb5e9d7cce4d88399c ice: create ACL entry
+23165cc4abbabed663220f3a0d97e3f12d0b5c6a ice: program ACL entry
+1cf0e5d53b7885a1bd40adbf3fc9dfbbe2f242e8 virtchnl: Use pad byte in virtchnl_ether_addr to specify MAC type
+be182f77aceb0d996a432cea93f7d83325f662da ice: Manage VF's MAC address for both legacy and new cases
+07e0ae801afeacad5c00e39b2c54b0c43cca716d ice: Save VF's MAC across reboot
+8055a4177e33738bba953b68a76b539826884810 ice: log message when trusted VF goes in/out of promisc mode
+524c405d58cb5f14628c1930e7cd7da8fb82e65d ice: Set trusted VF as default VSI when setting allmulti on
+15be463d279c6a5ad194fa7ac6e18a1bba47eea2 ice: Account for port VLAN in VF max packet size calculation
+a83cc927669625a2bc65ab7d2337e9841b73a4dc ice: implement new LLDP filter command
+9703d211d8d475833d220763151abcb19ae82ae1 ice: don't always return an error for Get PHY Abilities AQ command
+3cfd2b89973c9a94be114a562420e39ca6f914c8 ice: Enable Support for FW Override (E82X)
+aa13a0ad6211c3e8fbc05607adac6bee1b5ef2da ice: Remove gate to OROM init
+4f902308be38ffe9814a05df10ea5ac3ffeecae5 ice: Remove vlan_ena from VSI structure
+3193e20d67c195ad36a6f53e4e845dbead43907a ice: cleanup misleading comment
+295dd3c2f8d4d3823b15e59fe4c64c24c3c18a24 ice: silence static analysis warning
+c495dafd2333b95362d509a7de99df4ac3cca83b ice: join format strings to same line as ice_debug
+d0d25123230e5ff98e758d0aa442ba23bb1abd9c ice: Add space to unknown speed
+26eea1a8d9adf08cf9f184e2193c19133d10d207 i40e: Add info trace at loading XDP program
+3e611f3d1cdb18b6f887ac6e1548126c32da7457 e1000e: allow turning s0ix flows on for systems with ME
+554622ae1f7ca0b2c0009ca89aa48916f677d51b e1000e: Add Dell's Comet Lake systems into s0ix heuristics
+6ce17a68aa959e3f885219601d44a67479c281f8 e1000e: Add more Dell CML systems into s0ix heuristics
+a7747bfb7e5d217c7a3f0fec85c192af8b899981 ixgbe: don't propagate -ENODEV from ixgbe_mii_bus_init()
+52da71fb8376ea92dd138609e0595fc167bf8c40 ice: Replace one-element array with flexible-array member
+b9f2d79563f2c3d3b09af7f443f043bb20e96804 ice: create flash_info structure and separate NVM version
+e8e7a03b45ea8fa85f7686914f9f0bdcbbe23519 ice: cache NVM module bank information
+a00e04b31c8a2a1c6933da97d254c0da4d2ba2c0 ice: read security revision to ice_nvm_info and ice_orom_info
+efdbd3ae2b6171504bbbc35edec84f205bd5e3c3 ice: add devlink parameters to read and write minimum security revision
+db3b4a6272140fdaa2a987f65c4d9cb47e7c7828 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+5b200b1a034f63d4e2324f3f792aaa32f04c84b4 i40e: Fix Error I40E_AQ_RC_EINVAL when removing VFs
+cdb08083ebbce5c975355e48c0d1bcbc5e57ed67 e1000: drop unneeded assignment in e1000_set_itr()
+664ecfe55ae8f7b9387b378d1b88b6ec765fdb2b igc: Add new device ID
+afaff60aa0e6c02f2ebcdb69f2d739527ea9b638 ice: remove dead code
+dc00ee01562d687a784eb82520fb55c1e38b4424 igc: reinit_locked() should be called with rtnl_lock
+1b646c147c81571680ec690b1c0e263b494ebbc1 e1000e: add rtnl_lock() to e1000_reset_task
+3400d45658d362081e979d53a40f519324121b02 i40e: Add hardware configuration for software based DCB
+7ddaeee35b4c8549bd98d398ca5cf0c24507ac4e i40e: Add init and default config of software based DCB
+47db5357c3240a3e6c2d57a5c7fedb872ab0f515 i40e: Add netlink callbacks support for software based DCB
+e1259d656d0ea56c783d14dfb7533035df667482 ice: Remove xsk_buff_pool from VSI structure
+aa0708d60b07d6c33c0690f20beaef9d81c8ad21 igc: Fix igc_ptp_rx_pktstamp()
+9221c244686298ff1aa03604acc7f1532547f942 igc: Remove unused argument from igc_tx_cmd_type()
+dd9fed1f59011a7302eee38ab5b87ba83743bec9 igc: Introduce igc_rx_buffer_flip() helper
+4a9ac3378ef8c300d4ec8a3964181a20c595448c igc: Introduce igc_get_rx_frame_truesize() helper
+e89c26218a5917e024d9b47725fcfa091b56cd2c igc: Refactor Rx timestamp handling
+0764b021cb70438d4b4d4f9ec42aebdc415a8d5d igc: Add set/clear large buffer helpers
+79796ae67b8847384ca22267e23556dcb2ab7e49 igc: Add initial XDP support
+db7f00989052c3358cff8e5e1da72d2d297db758 igc: Add support for XDP_TX action
+8858dd72dbd16eea9c7ac955a8b4b3059dd94c25 igc: Add support for XDP_REDIRECT action
+9e914884ba8d24df4653e7c5dc8561d330b8e3f5 i40e: Fix memory leak in i40e_probe
+0784cedcb079512b1ec59f7f2fb5119b1b4ab5b7 igb: XDP xmit back fix error code
+ddb1a9605be0e19c131af604357d920166245182 igb: take vlan double header into account
+767832664611607f57bcbbba6b742fee8f892db7 igb: XDP extack message on error
+457d956b7569a6aaec5d21450bc910b004f34993 igb: skb add metasize for xdp
+efdd6a5b10ac828368e556d047a3c5ff1cdcf6e5 igb: use xdp_do_flush
+b34bfc8c244cf3a1fae4fd8b4457984708fd2ce5 igb: avoid transmit queue timeout in xdp path
+112f6b14658824b2e69521295c2f6e1d8e0f6b33 ice: report timeout length for erasing during devlink flash
+ce2503cc5790e9ace7073f90daa3dddcc3eecdd7 ice: introduce context struct for info report
+bf74fdda5762646994f31ab6ec3a0310b8ce5a24 ice: refactor interface for ice_read_flash_module
+47c8b9d9f5a45bf98b5bce505e1895b398bff892 ice: allow reading inactive flash security revision
+a060d69210c223448943040dec59eeda33da0e8b ice: allow reading arbitrary size data with read_flash_module
+40958acf4e71c31f5396d51545c4db7cb0dc6abe ice: display some stored NVM versions via devlink info
+e797c941316f3851b1b3e858ff5c7689ac668770 ice: display stored netlist versions via devlink info
+04cf21465bd72db085f2476a4478593a957d59ed ice: display stored UNDI firmware version via devlink info
+07d59e329870d2e20ba680b0f540589da7c93ee7 ixgbe: Support external GBE SerDes PHY BCM54616s
+cf46e0ff1b73015964fd75b9b02c089081659c98 i40e: remove the useless value assignment in i40e_clean_adminq_subtask
+f6195e35bee1974cec5f944ffbbb9d3d215a0db2 i40e: Add Rx errors aggregation
+15070a5da1e20c00fea3c2b9b1697fe3bb88e293 igc: fix link speed advertising
+107cb7238308f7b7befabccf32a3056a07384e81 i40e: Add zero-initialization of AQ command structures
+f9e18f0c73f57f1d81b735a635b59c64c20dd6bc ice: fix FDir IPv6 flexbyte
+626bad2a0b81043b63acc5973f965e0614001100 ice: Implement flow for IPv6 next header (extension header)
+8b92b6eb2d9d02056ab214cc01b1c8f4434df951 ice: update the number of available RSS queues
+983e31cf6fc1ca5413f95d29544d4987e4026ab2 ice: update dev_addr in ice_set_mac_address even if HW filter exists
+d36e99ce0d4b1f1e6bf836fe9e828405308204fd ice: use correct xdp_ring with XDP_TX action
+ce3f881bb372e7826e924e596dffd588d96fb34d ice: Fix state bits on LLDP mode switch
+b298ffd131428c244403db9446899fd1b87e8934 Documentation: ice: update documentation
+e896285d837afc2014a42f435bb3c8bec08c8f86 ice: Add initial support framework for LAG
+60a44bdd0778018b9f45f8d757b5fd113ff9b237 ice: create scheduler aggregator node config and move VSIs
+a6b6ad49285085d2c6464247bd52492ba0f31d1c ice: Improve MSI-X vector enablement fallback logic
+2a941cd8b459d1725cdbbf6b7a48d15cf9e7dbbc ice: Fix AF_XDP multi queue TX scaling issue
+4b2f975ae9b65a0f3df77164924688480ac185d0 ice: Optimize AF_XDP zero-copy TX completion path
+23e962c7c276a8e1a314a6045d5c9c6136b54895 ice: improve AF_XDP single socket performance
+6b8d29a3468d21782db6f87f4398439414a1772c ice: Refactor ice_setup_rx_ctx
+f16201f8d7a9250079c817f69c173822f263acf8 ice: Use PSM clock frequency to calculate RL profiles
+2795fea570391e4d6a0fefe3decf1c63cb54e1b2 ice: fix writeback enable logic
+3b66569440c4273b6dc2a4c766b09326d2c7d94c ice: Refactor DCB related variables out of the ice_port_info struct
+e64b818fb10c68a552f9405eb6732ffb89c33da6 ice: use flex_array_size where possible
+e9435573fd08056f80a36054b8353769698a4613 ice: remove unnecessary casts
+ce8b4709d7ef390d524dab464c8f661f3f0ba59e ice: Fix trivial error message
+ce936e319c5c434da189148f0363afaff290771b i40e: Fix overwriting flow control settings during driver loading
+60bd4459604b2f4fa9c982dca2e0ccab1d00249a i40e: Fix VFs not created
+5d2a53bdbcdf78fbaf5c42f58a299c9b3fac4d1f i40e: Fix addition of RX filters after enabling FW LLDP agent
+8f3ba31ae018d9e8f194736f81639b436ca30ad9 i40e: acquire VSI pointer only after VF is initialized
+178012ab34267915416fd1d68321e70227c453fa igc: Clean up nvm_operations structure
+daaafbd99916b0ab894d5440a1dd42abbdfbe2d6 igc: Remove igc_set_fw_version method
+3fe4d688b445321a123b82f4d7a8c604b01de5f2 e1000e: remove the redundant value assignment in e1000_update_nvm_checksum_spt
+c7816dd4d781d0d341362c3368366e29fa466258 e1000e: Leverage direct_complete to speed up s2ram
+af1d31110b89af77b533bca90dc25969184fa849 e1000e: Remove the runtime suspend restriction on CNP+
+70f5498887bf3aa27fe5c9e42fc0244cda606aae iavf: fix double-release of rtnl_lock
 
---===============6849563855934918938==--
+--===============9187760553912763658==--
