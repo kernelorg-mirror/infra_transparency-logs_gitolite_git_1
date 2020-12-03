@@ -1,29 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Thu, 03 Dec 2020 03:51:27 -0000
-Message-Id: <160696748785.24053.8693819132067062800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Thu, 03 Dec 2020 03:56:20 -0000
+Message-Id: <160696778080.29455.12442033552943211650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/main
-    old: d7190d4ced59858f17da2ad7ce7e503a91ee7e44
-    new: ea130da81ee1c1b6b1e3db88927b2d50b5d0d2fc
+  - ref: refs/heads/next
+    old: ba59eae723857257a791618092d8022ad82efaa4
+    new: 6b3211842a115d697fbf78d09f3e83852200e413
     log: |
-         23683dec3208b2e361c8981bb2d518525d182ea3 Update kernel headers
-         00fffb2d7935eba3d273c89bf18cc28157fd9be6 tc: use TCA_ACT_ prefix for action flags
-         ea130da81ee1c1b6b1e3db88927b2d50b5d0d2fc tc: implement support for action terse dump
-         
-  - ref: refs/heads/master
-    old: d7190d4ced59858f17da2ad7ce7e503a91ee7e44
-    new: ea130da81ee1c1b6b1e3db88927b2d50b5d0d2fc
-    log: |
-         23683dec3208b2e361c8981bb2d518525d182ea3 Update kernel headers
-         00fffb2d7935eba3d273c89bf18cc28157fd9be6 tc: use TCA_ACT_ prefix for action flags
-         ea130da81ee1c1b6b1e3db88927b2d50b5d0d2fc tc: implement support for action terse dump
+         6b3211842a115d697fbf78d09f3e83852200e413 audit: replace atomic_add_return()
          
