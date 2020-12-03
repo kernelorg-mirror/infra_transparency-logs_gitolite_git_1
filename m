@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Thu, 03 Dec 2020 18:43:46 -0000
-Message-Id: <160702102640.22853.17402403468750820565@gitolite.kernel.org>
+Date: Thu, 03 Dec 2020 18:45:34 -0000
+Message-Id: <160702113469.24865.17767008745933909189@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,16 +12,20 @@ repo: pub/scm/linux/kernel/git/brauner/linux
 user: brauner
 changes:
   - ref: refs/heads/idmapped_mounts
-    old: 29343a63d162e3c31566a7b1b86a0d3d38aab88c
-    new: a200978b5217907bd752b906e7837d9037446475
+    old: a200978b5217907bd752b906e7837d9037446475
+    new: fce5f61adc49f202aaa05adbcb6e23634c13dac0
     log: |
-         1387a8f118df84d0fc396aafa4816c3ff2f6cff2 fs: make helpers idmap mount aware
-         bd0269afa0884d9119c8d50ca7ec5ea402d98c5a apparmor: handle idmapped mounts
-         8d05a8a1d3689b8cb9893402d05c43e69fb0e7c1 ima: handle idmapped mounts
-         9a4248923d16eb37f208e94f63654ec00c4188cf fat: handle idmapped mounts
-         12acee717d128bf5df08d293291e52e424a3e8cc ext4: support idmapped mounts
-         ae33ee706868d66ecdc7b95aa3b1649f3fa39818 ecryptfs: do not mount on top of idmapped mounts
-         99feec1e7923794d2e29b791bac536cc361b696d overlayfs: do not mount on top of idmapped mounts
-         23e8f6ae8fb7af0ae1fdd5d30cc08b59c4a10f0e fs: introduce MOUNT_ATTR_IDMAP
-         a200978b5217907bd752b906e7837d9037446475 tests: extend mount_setattr tests
+         ba0ddaa3fa6db8cc7cd3b54d33f19f9a64c91cab init: handle idmapped mounts
+         dc4904f776725984f9a42511fa157106e5566c37 ioctl: handle idmapped mounts
+         8c3aab2fa6f9b40de207ea7b6a7b8f0409d78fdb would_dump: handle idmapped mounts
+         6fe458b461e7b262021fb0750eeec777a4d55e38 exec: handle idmapped mounts
+         1206df7036f9c978493a34a45fd955a37744772d fs: make helpers idmap mount aware
+         ecdadea1bbcc71be0437197117dc89aa6ca1050c apparmor: handle idmapped mounts
+         2bf1e8210c208c20ca14c374b0b72281c7006c0b ima: handle idmapped mounts
+         cbd62044431b827a0a92697df671ada6d889640f fat: handle idmapped mounts
+         c5d7fd9257ac1d04252c7d68239b40418c129105 ext4: support idmapped mounts
+         733281dc20edebb8740c7d6bfa821774177c354f ecryptfs: do not mount on top of idmapped mounts
+         f9d7a9f50d050d3104f5d6b97ec429861300dfd1 overlayfs: do not mount on top of idmapped mounts
+         661313ddd4add044898d3d826cad164f63cde8cd fs: introduce MOUNT_ATTR_IDMAP
+         fce5f61adc49f202aaa05adbcb6e23634c13dac0 tests: extend mount_setattr tests
          
