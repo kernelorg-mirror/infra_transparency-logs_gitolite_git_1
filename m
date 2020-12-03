@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6210102177742118288=="
+Content-Type: multipart/mixed; boundary="===============6032320841962472927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 03 Dec 2020 06:13:51 -0000
-Message-Id: <160697603103.23871.8550343895420386059@gitolite.kernel.org>
+Date: Thu, 03 Dec 2020 06:14:03 -0000
+Message-Id: <160697604340.24024.9550098566503044747@gitolite.kernel.org>
 
---===============6210102177742118288==
+--===============6032320841962472927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 7f10e0b9f30f2347f80be7c908a220ceb7951187
-    new: 971163330224449d90aac90957ea38f77d494f0f
-    log: revlist-7f10e0b9f30f-971163330224.txt
+  - ref: refs/heads/dev-test
+    old: 6107ae8f266dfee6397daaf75b4b35807554fc01
+    new: d99e32fe8e8f04391394291da2e464ed0e53c9c7
+    log: revlist-6107ae8f266d-d99e32fe8e8f.txt
 
---===============6210102177742118288==
+--===============6032320841962472927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f10e0b9f30f-971163330224.txt
+Content-Disposition: attachment; filename=revlist-6107ae8f266d-d99e32fe8e8f.txt
 
 e1e8debec6564d0c355aab84c93de8e357f397bd f2fs: add F2FS_IOC_SET_COMPRESS_OPTION ioctl
 3a1b9eaf727b4ab84ebf059e09c38fc6a53e5614 f2fs: avoid unneeded data copy in f2fs_ioc_move_range()
@@ -46,5 +46,7 @@ b876f4c94c3d1688edea021d45a528571499e0b9 f2fs: remove buffer_head which has 32bi
 5335bfc6eb688344bfcd4b4133c002c0ae0d0719 f2fs: init dirty_secmap incorrectly
 db48965264110dd74d1436fc21dac328d04385d2 f2fs: Remove unnecessary unlikely()
 971163330224449d90aac90957ea38f77d494f0f f2fs: avoid race condition for shrinker count
+e6233fb0534bc6ffc3e4801aba71c7d9accbec99 f2fs: add compress_mode mount option
+d99e32fe8e8f04391394291da2e464ed0e53c9c7 f2fs: add F2FS_IOC_DECOMPRESS_FILE and F2FS_IOC_COMPRESS_FILE
 
---===============6210102177742118288==--
+--===============6032320841962472927==--
