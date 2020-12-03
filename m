@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0677237393452685935=="
+Content-Type: multipart/mixed; boundary="===============5616502879312491451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Thu, 03 Dec 2020 17:47:29 -0000
-Message-Id: <160701764907.18203.2048321650031739391@gitolite.kernel.org>
+Date: Thu, 03 Dec 2020 17:50:36 -0000
+Message-Id: <160701783692.20504.4776627288263913024@gitolite.kernel.org>
 
---===============0677237393452685935==
+--===============5616502879312491451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,39 +16,40 @@ repo: pub/scm/linux/kernel/git/brauner/linux
 user: brauner
 changes:
   - ref: refs/heads/idmapped_mounts
-    old: b8534e90c447eeb4714e8a3d62cb81d2444e42db
-    new: 8119dbb9e27b1363b543e38a7b348a25d50f37fa
-    log: revlist-b8534e90c447-8119dbb9e27b.txt
+    old: 8119dbb9e27b1363b543e38a7b348a25d50f37fa
+    new: 3c7066918729f91a3349d2492a5f8251031235ba
+    log: revlist-8119dbb9e27b-3c7066918729.txt
 
---===============0677237393452685935==
+--===============5616502879312491451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8534e90c447-8119dbb9e27b.txt
+Content-Disposition: attachment; filename=revlist-8119dbb9e27b-3c7066918729.txt
 
-e0d616b80b506d253ab0b65edfd55fa241ff30c0 commoncap: handle idmapped mounts
-f051bdb5474bb5b7575f957bb20b14e66eb12791 stat: handle idmapped mounts
-23a284742c0510712891695c6a388a4c48719294 namei: handle idmapped mounts in may_*() helpers
-7cee0010996a3170cac3bfdf7c6f61f2cfbba14f namei: introduce struct renamedata
-802ae6df6089175511c822e63f0214334583481f namei: prepare for idmapped mounts
-3474f54ac1b9807437906a4198d77e972d918975 open: handle idmapped mounts in do_truncate()
-59e75d9e685d512235b357a45717efbfb3414192 open: handle idmapped mounts
-ab28fb8a69be4b95efa5aa5ea3bdfcc541127e7f af_unix: handle idmapped mounts
-ee816687ef98857f4b347928eaebd741f1441f55 utimes: handle idmapped mounts
-07d9a7c780bd0e5c32d2d958e6a5d395b91e4c65 fcntl: handle idmapped mounts
-b465b7f5d117afc54481e41cd45966a2c24ee617 notify: handle idmapped mounts
-a5e194c372f7f7abe6224ec99708738515482339 init: handle idmapped mounts
-c15c7f5f75888998e645bdc7bf2000b6c3a7e376 ioctl: handle idmapped mounts
-e5142455f440570776613a8af2be3dc76c885222 would_dump: handle idmapped mounts
-7b5e193985b61bcd0e1e21168b1f2b2684b6956b exec: handle idmapped mounts
-eed1d3a08d084233069b8f7fd0cb0f0133fad479 fs: make helpers idmap mount aware
-8da3a4502099204c5a8e4453002ca9d47bb591f7 apparmor: handle idmapped mounts
-676ce9327e81f2c6ea56f48379f0e7d90cedc346 ima: handle idmapped mounts
-75ea929a7d8bb7a4be8db2c74611aaf705f36584 fat: handle idmapped mounts
-5bc1c8a0935f16a4b74bdd85042c9c7460a7fbd6 ext4: support idmapped mounts
-29a1e2ca0821d61760b981e1a99e098110ae3b03 ecryptfs: do not mount on top of idmapped mounts
-af47670afbb9f33d2cb0e725e7f3145c6ad31f08 overlayfs: do not mount on top of idmapped mounts
-b15d18235cdb2cec4c2314356493e05c5a3945c3 fs: introduce MOUNT_ATTR_IDMAP
-8119dbb9e27b1363b543e38a7b348a25d50f37fa tests: extend mount_setattr tests
+1fb31dc0b498de9a900ca7351cb35c41c172b369 xattr: handle idmapped mounts
+312ac31301c0c6f6ddb8dabd3dbe1098ebb3a918 commoncap: handle idmapped mounts
+cefaa19c1421eb9ee1587940e748fd7105ed4b4c stat: handle idmapped mounts
+6656eac126f85c0804700bf61e15e663b20385a8 namei: handle idmapped mounts in may_*() helpers
+76b295dcb4148fd4ebc9594f4e957c3d6fd62ef7 namei: introduce struct renamedata
+a92355c2a0ae2141151130491b066956fcbc7b34 namei: prepare for idmapped mounts
+360d1ce0046bdd61b669aac7ceb31a91a9396f34 open: handle idmapped mounts in do_truncate()
+c8b6ceba48cccf18969ccb3c8616dfde92f535a6 open: handle idmapped mounts
+814d52f01b706ceae797a1ab1cb67d57009fe1f4 af_unix: handle idmapped mounts
+d5817c41b559794d00d038a7ee40057282260da9 utimes: handle idmapped mounts
+0a556f618351a8115d3e3a16fead571c62ad8c1b fcntl: handle idmapped mounts
+45a2e3e90849959256367910e0c295999fced9bc notify: handle idmapped mounts
+77fa3fa166267965bea4945a41141cf02e6aee8f init: handle idmapped mounts
+98cfd22436eb205d21cc6b82b411829e4364291d ioctl: handle idmapped mounts
+2959637d632c140f609ce6e70b107eb04cbb4e3b would_dump: handle idmapped mounts
+3ba27fec0c692f321471bf16b938331e556559e1 exec: handle idmapped mounts
+b3e6ae047f3aa314a906e245822678ea9d6d1e29 fs: make helpers idmap mount aware
+3ed6b0b18cc4edba66c8dc2913043b6f8f2ce3c7 apparmor: handle idmapped mounts
+18e09c064b88fbae7199d41f0d069eaaae31d293 ima: handle idmapped mounts
+ee2b6fbf3a05b601b2956a17de4206364f7161c1 fat: handle idmapped mounts
+3dae8533952ba0a0bf24f6720d57176eab71b48f ext4: support idmapped mounts
+ec2cc02569d1eeb6a280b09d8454a2e53556d5da ecryptfs: do not mount on top of idmapped mounts
+cfeffcebe33abb0f0daecb5f85ee076d0831a289 overlayfs: do not mount on top of idmapped mounts
+8b63694a2e68788230c62920cec242da1946a43f fs: introduce MOUNT_ATTR_IDMAP
+3c7066918729f91a3349d2492a5f8251031235ba tests: extend mount_setattr tests
 
---===============0677237393452685935==--
+--===============5616502879312491451==--
