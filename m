@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3617486461818008499=="
+Content-Type: multipart/mixed; boundary="===============3525271809773775180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 03 Dec 2020 22:35:28 -0000
-Message-Id: <160703492819.11455.16096437679325856376@gitolite.kernel.org>
+Date: Thu, 03 Dec 2020 22:37:58 -0000
+Message-Id: <160703507851.12202.6429285040104236592@gitolite.kernel.org>
 
---===============3617486461818008499==
+--===============3525271809773775180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 14483cbf040fcb38113497161088a1ce8ce5d713
+  - ref: refs/heads/net-mlx5
+    old: 9fca74b42168ec40b8fc50424629082d2f6788bf
     new: bbe2ba04c5a92a49db8a42c850a5a2f6481e47eb
-    log: revlist-14483cbf040f-bbe2ba04c5a9.txt
+    log: revlist-9fca74b42168-bbe2ba04c5a9.txt
 
---===============3617486461818008499==
+--===============3525271809773775180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14483cbf040f-bbe2ba04c5a9.txt
+Content-Disposition: attachment; filename=revlist-9fca74b42168-bbe2ba04c5a9.txt
 
 209c805835b29495cf66cc705b206da8f4a68e6e phy: usb: Fix incorrect clearing of tca_drv_sel bit in SETUP reg for 7211
 eb9c4dd9bdfdebaa13846c16a8c79b5b336066b6 phy: tegra: xusb: Fix dangling pointer on probe failure
@@ -184,4 +184,4 @@ c82a505c007fb754af144d5157e05fa7fd858157 Merge tag '9p-for-5.10-rc7' of git://gi
 fee5be18524f961de653fe6103f927c84ebbfd38 Merge tag 's390-5.10-6' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 bbe2ba04c5a92a49db8a42c850a5a2f6481e47eb Merge tag 'net-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3617486461818008499==--
+--===============3525271809773775180==--
