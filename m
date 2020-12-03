@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============8934261351028763634=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/hook-test
-Date: Thu, 03 Dec 2020 13:36:33 -0000
-Message-Id: <160700259374.21457.17347316948148983014@gitolite.kernel.org>
-
---===============8934261351028763634==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 03 Dec 2020 13:48:24 -0000
+Message-Id: <160700330409.27380.17082675740189470391@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/hook-test
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/heads/main
-    old: 826203babfe616effb8908f4de3567104275c055
-    new: 57a028da14ecd5974f587e1b61790f6c903818da
+  - ref: refs/heads/master
+    old: e3d1bd18364a1feadc31e9c9be1e61039aedf833
+    new: cfac803aa6164fed5017283113c61d10887f447f
     log: |
-         57a028da14ecd5974f587e1b61790f6c903818da 2->3
+         a63f23c9d139377833a139b179793fea79ee198f Bluetooth: btintel: Fix endianness issue for TLV version information
+         1d9f8ea6513caf6a37ec8b02e411e69323261cde Bluetooth: btusb: Add *setup* function for new generation Intel controllers
+         4174691d1c34485a9ab45afaec4e8e4652a0c814 Bluetooth: btusb: Define a function to construct firmware filename
+         4ef6d6a242fcd356da6fe0324416208c1c2ff33a Bluetooth: btusb: Helper function to download firmware to Intel adapters
+         cfac803aa6164fed5017283113c61d10887f447f Bluetooth: btusb: Map Typhoon peak controller to BTUSB_INTEL_NEWGEN
          
-
---===============8934261351028763634==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1607002593 -0500
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/hook-test
-nonce 1607002593-e523b6bee1356e85fc4ec8f15318122ed75c695a
-
-826203babfe616effb8908f4de3567104275c055 57a028da14ecd5974f587e1b61790f6c903818da refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX8jp4QAKCRC2xBzjVmSZ
-bB7RAP9P4BZagTKDKcoHWZ1QNiow20rwgsmrGqyi0Z9sMzPRcAEAkTSbGxH3ts8h
-8hsCJQkYwCCtjZXogGNLCojaJtAIEgg=
-=l5kp
------END PGP SIGNATURE-----
-
---===============8934261351028763634==--
