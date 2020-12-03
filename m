@@ -1,27 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 03 Dec 2020 02:25:49 -0000
-Message-Id: <160696234947.332.12277394611422135568@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Thu, 03 Dec 2020 02:27:13 -0000
+Message-Id: <160696243307.953.1321568037183439419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/fscrypt-pending
-    old: ccd3f2ea3d71d3956a2ba28b1ffd8b1383b2245d
-    new: a14d0b6764917b21ee6fdfd2a8a4c2920fbefcce
+  - ref: refs/heads/linux-4.4.y-cip
+    old: d7466739b72e93ea0f1d3040f02aa5eb19599b9c
+    new: 1d9a9094c01054b624cd936e8b130a2c27e38c49
     log: |
-         65f62515e9e55056a06c14a19150c1ea7760e2af ext4: remove ext4_dir_open()
-         73114b6d28727b3f98b6a673c54c64b2c46ce4f5 f2fs: remove f2fs_dir_open()
-         a302052b9586f2fdf8c3a7d9b907e71b25d7d463 ubifs: remove ubifs_dir_open()
-         91d0d89241b4201d612bfac623199c84363286e9 ext4: don't call fscrypt_get_encryption_info() from dx_show_leaf()
-         ec0caa974cd092549ab282deb8ec7ea73b36eba0 fscrypt: introduce fscrypt_prepare_readdir()
-         7622350e5eda2cc57a72c6b27f1405d8b4f94670 fscrypt: move body of fscrypt_prepare_setattr() out-of-line
-         de3cdc6e75179a2324c23400b21483a1372c95e1 fscrypt: move fscrypt_require_key() to fscrypt_private.h
-         5b421f08801fe8247dec368b3d323958f419e769 fscrypt: unexport fscrypt_get_encryption_info()
-         a14d0b6764917b21ee6fdfd2a8a4c2920fbefcce fscrypt: allow deleting files with unsupported encryption policy
+         e8683e2955f33ae023ce1acac140d3d6dc5c289c base: soc: Early register bus when needed
+         db64746e8fd21de688ac74b7f1e52f9ffe42c4cd dt-bindings: arm: renesas: Convert 'renesas,prr' to json-schema
+         4d782a3fb76383738daa60c3afbe4c8885f0a83b soc: renesas: Identify SoC and register with the SoC bus
+         b9d71a58991741ca6e416dbd695e5221560bf168 ARM: dts: r8a7743: Add device node for PRR
+         eb18016d3cea2dae036b6a1a168a362cc85c4b8d ARM: dts: r8a7745: Add device node for PRR
+         dd6ffabd7706e422e44a1f4351526bf609b4e8d3 soc: renesas: Identify RZ/G1N
+         6fe7f51465dca3ea676757465490bae49e064fde ARM: dts: r8a7744: Add device node for PRR
+         5afec76eb42e9414664ef61bff64396c8608194c soc: renesas: Identify RZ/G1H
+         58cb5bd6ac7de7a5fb361e5088b50b7ee4dbb4b4 ARM: dts: r8a7742: Add device node for PRR
+         4528d1f7728813a6d4ead2940d147f5b28ce093a soc: renesas: Identify RZ/G1C
+         1d9a9094c01054b624cd936e8b130a2c27e38c49 ARM: dts: r8a77470: Add device node for PRR
          
