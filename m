@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/tab/tab
-Date: Thu, 03 Dec 2020 02:58:20 -0000
-Message-Id: <160696430033.21812.11858059084758298621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 03 Dec 2020 03:38:42 -0000
+Message-Id: <160696672262.15934.4899728262957671057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/tab/tab
-user: sashal
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 99bbf1dd3deca42a725d26278bcc1036dfd12bf9
-    new: 30a881faf3c58cd9700a8aff2b5060b53f58c0e6
+  - ref: refs/heads/dev
+    old: 43569045fe795c5d4fe54b5f00147248a052cd0a
+    new: 4323afbe9387c25b4fd5bfc749a6a80c8845d2e2
     log: |
-         f5d8ee9162b60c8037dac2231687079a3d01c89f Minutes - March 5th, 2020
-         9b418d863c92bab26a19c4f6992ce7a19c4e84cc Minutes - April 2nd, 2020
-         67c5ae2fad7cbe10c204f4bf8f7f0609388f11d9 Minutes - May 7th, 2020
-         27f2c8e72f06811929705503831013933f81c528 Minutes - June 4th, 2020
-         1888fe0b751e61b57bf9a040d69eb50f8acb6595 Minutes - July 2nd, 2020
-         269569619e75377a648f49765c2f024634c690c0 Minutes - August 6th, 2020
-         669158785b0a1887772941bfdfdd95d775ed9fde Minutes - September 3rd, 2020
-         30a881faf3c58cd9700a8aff2b5060b53f58c0e6 Minutes - October 1st, 2020
+         b528520d688b2a859de56bd7efc67f24c7d8f876 kvfree_rcu: Use __GFP_NOMEMALLOC for single-argument kvfree_rcu()
+         8eb8fc985028990ff8f13c16198c90cf29140725 mm: Add kmem_last_alloc() to return last allocation for memory block
+         aba815782a460f65a867885f9e2234d9b997842e mm: Add kmem_last_alloc_errstring() to provide more kmem_last_alloc() info
+         7849cc636087e4f90ed46c9709c7beb13e625a67 rcu: Make call_rcu() print allocation address of double-freed callback
+         5002ff40626caefa791ed3a26979fcae25754f6c rcutorture: Make object_debug also double call_rcu() heap object
+         e6614c254870fc3d75b7729e29f9f983cb419598 EXP rcuscale: Crude tests for kmem_last_alloc()
+         4323afbe9387c25b4fd5bfc749a6a80c8845d2e2 EXP rcuscale: Crude tests for kmem_last_alloc_errstring()
          
