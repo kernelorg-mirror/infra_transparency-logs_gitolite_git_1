@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 03 Dec 2020 16:19:06 -0000
-Message-Id: <160701234618.27401.10923313903339585089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Thu, 03 Dec 2020 16:29:00 -0000
+Message-Id: <160701294015.32584.7348172812714295962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
 user: paulmck
 changes:
-  - ref: refs/heads/dev
-    old: 4323afbe9387c25b4fd5bfc749a6a80c8845d2e2
-    new: bdb23a68a50fd88f081c8a7426d0a9f89cfde327
+  - ref: refs/heads/master
+    old: 32a0925ec9afbef1e0b98121c6c4046fbb0b4dfe
+    new: 7af3f7410e950d65d6a533d0c69e37d799624368
     log: |
-         bdb23a68a50fd88f081c8a7426d0a9f89cfde327 fixup! mm: Add kmem_last_alloc_errstring() to provide more kmem_last_alloc() info
+         7af3f7410e950d65d6a533d0c69e37d799624368 whymb: Fix description of compiler mischief
          
