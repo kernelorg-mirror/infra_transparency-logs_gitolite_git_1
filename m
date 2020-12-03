@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Thu, 03 Dec 2020 05:07:03 -0000
-Message-Id: <160697202397.12670.6269371641568390357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 03 Dec 2020 05:09:38 -0000
+Message-Id: <160697217850.13603.13698125844023619305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/work.elf-compat
-    old: e10206708cec1ddd71fe30bc06b9bf2fc9783ad9
-    new: 8af1b98eac8bafb9295b9e384b48be639a7810c4
+  - ref: refs/heads/master
+    old: a37d53db9ae7d21a8f812925303d767d3f03e597
+    new: 1eb69c3c81517e0d4ba12128b0efd4d04fa478f6
     log: |
-         cd28f4babc13b4a189d95d2208c1cd0feff74b21 [elfcore-compat][amd64] clean PRSTATUS_SIZE/SET_PR_FPVALID up properly
-         9a0ae6148210c258aae2443cd72b824d2db11898 mips binfmt_elf*32.c: use elfcore-compat.h
-         a5cff15330e496477ab3b5e04b26b48d7ddcaf68 mips: kill unused definitions in binfmt_elf[on]32.c
-         9d285f6e3cec8f544dee4b7eac22fba48a8748fe mips: KVM_GUEST makes no sense for 64bit builds...
-         c4875623fe990f513084f0eafdf3e44efc123b77 mips compat: don't bother with ELF_ET_DYN_BASE
-         b2e141af8b7754bee56129c463e621fff01cc2bf mips: don't bother with ELF_CORE_EFLAGS
-         e99e38163f76b182474db66592c26cd2255f9695 mips compat: switch to compat_binfmt_elf.c
-         8af1b98eac8bafb9295b9e384b48be639a7810c4 Kconfig: regularize selection of CONFIG_BINFMT_ELF
+         dde267ea50f7c191a6fbb23e53acedc1f6722991 adv_monitor: Register client app with app-root-path
+         fa53b7018ba08c3326a230804adce34231aeef29 client: Use correct root path for RegisterMonitor
+         1eb69c3c81517e0d4ba12128b0efd4d04fa478f6 adv_monitor: Update log messages
          
