@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 03 Dec 2020 01:53:34 -0000
-Message-Id: <160696041478.7726.12847701264676525669@gitolite.kernel.org>
+Date: Thu, 03 Dec 2020 01:53:44 -0000
+Message-Id: <160696042410.9348.1227756770733264049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/mmc-pending
+  - ref: refs/tags/mmc-crypto-v2
     old: abc4ebd2fd0e38b22da7135138df66f3a6962e8b
     new: 33c4835918a59ae53d92994a6c75c8a64f03576f
     log: |
