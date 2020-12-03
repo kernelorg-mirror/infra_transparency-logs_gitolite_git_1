@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8391855537320417626=="
+Content-Type: multipart/mixed; boundary="===============0673443931218871293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 03 Dec 2020 02:46:59 -0000
-Message-Id: <160696361988.12874.15902424177392011980@gitolite.kernel.org>
+Date: Thu, 03 Dec 2020 02:47:10 -0000
+Message-Id: <160696363030.13030.16944953809290397626@gitolite.kernel.org>
 
---===============8391855537320417626==
+--===============0673443931218871293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: d4bf3ba4d1d33a506f05ea67a316a8779eb59a26
     new: 97306be45fbe7a02461c3c2a57e666cf662b1aaf
     log: revlist-d4bf3ba4d1d3-97306be45fbe.txt
 
---===============8391855537320417626==
+--===============0673443931218871293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ ab31be378a63a8bc1868c9890d28b0206f81396e bpf: Eliminate rlimit-based memory acco
 5b0764b2d34510bc87d33a580da98f77789ac36f bpf: samples: Do not touch RLIMIT_MEMLOCK
 97306be45fbe7a02461c3c2a57e666cf662b1aaf Merge branch 'switch to memcg-based memory accounting'
 
---===============8391855537320417626==--
+--===============0673443931218871293==--
