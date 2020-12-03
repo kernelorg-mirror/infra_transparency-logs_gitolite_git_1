@@ -1,54 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============5693700362125188157=="
+Content-Type: multipart/mixed; boundary="===============6751244057570405391=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Thu, 03 Dec 2020 17:57:20 -0000
-Message-Id: <160701824091.23698.16285973341734860955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 03 Dec 2020 17:59:02 -0000
+Message-Id: <160701834249.24229.4294620719720035553@gitolite.kernel.org>
 
---===============5693700362125188157==
+--===============6751244057570405391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/idmapped_mounts
-    old: 3c7066918729f91a3349d2492a5f8251031235ba
-    new: e9ca79da898fd35698d9de761e25a4585aa505c9
-    log: revlist-3c7066918729-e9ca79da898f.txt
+  - ref: refs/heads/master
+    old: 4d521943f76bd0d1e68ea5e02df7aadd30b2838a
+    new: 832e09798c261cf58de3a68cfcc6556408c16a5a
+    log: revlist-4d521943f76b-832e09798c26.txt
 
---===============5693700362125188157==
+--===============6751244057570405391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c7066918729-e9ca79da898f.txt
+Content-Disposition: attachment; filename=revlist-4d521943f76b-832e09798c26.txt
 
-5f0cb90139582ef3db2052942de6b6b924fd0740 commoncap: handle idmapped mounts
-a3a4c065a0a416139098ff62ab575b20166f6369 stat: handle idmapped mounts
-4dc4d769356059de36d59eec125c0d1d71e1a6b8 namei: handle idmapped mounts in may_*() helpers
-1e9c3974f619e108eccbc192867b24b7e82b3cdd namei: introduce struct renamedata
-a1cf1dce7327a297cb82ce4055f5a04e342ecef4 namei: prepare for idmapped mounts
-d347491291a3cf34cea49001e6fd2aa27af1587b open: handle idmapped mounts in do_truncate()
-f05228fa1765d0c0b540dff29f5ff3fa7f4b3674 open: handle idmapped mounts
-f76eae318c3986dd0a4531e1a53e71c64f12c314 af_unix: handle idmapped mounts
-f34d606e41eed130d999ab3f33f3253c2c677250 utimes: handle idmapped mounts
-9b0c1b2c3d027fa11e17ad669e706e25c3a426ce fcntl: handle idmapped mounts
-06a14d54b78144c6f1b0fc613f73dc9336ad340a notify: handle idmapped mounts
-d578aa3a6d6a5161edaed4c7b1fc8ee29d82a2dc init: handle idmapped mounts
-a3b8d490184902581193d42dd93f35827a0750fc ioctl: handle idmapped mounts
-a69fa9873904dc3a3dd213272cf6b44771e7eff0 would_dump: handle idmapped mounts
-69cd5f3882b1dd27a32cdacc1f0f91aa0424c376 exec: handle idmapped mounts
-e63e89f35bf42b0101c2e697db013507021f30dd fs: make helpers idmap mount aware
-bd7ee250f02fc85e530b44d2fc223805f2fad876 apparmor: handle idmapped mounts
-09a5900aa41bf349509697a49d8e62fde7353259 ima: handle idmapped mounts
-e6981b2a3ee6f85674099fb6def36f163bedb02b fat: handle idmapped mounts
-314f0423b03e5b598c0e685d415dd68967b983f3 ext4: support idmapped mounts
-9dcc819469203a4a0ff7452de1e814e38489de12 ecryptfs: do not mount on top of idmapped mounts
-011ed5ea12718ab0fc98e60b7696fa7ffe003e1c overlayfs: do not mount on top of idmapped mounts
-427bd82901447a4e79dc56948387b00778f6fb1f fs: introduce MOUNT_ATTR_IDMAP
-e9ca79da898fd35698d9de761e25a4585aa505c9 tests: extend mount_setattr tests
+ad1f5e826d91d6c27ecd36a607ad7c7f4d0b0733 can: m_can: tcan4x5x_can_probe(): fix error path: remove erroneous clk_disable_unprepare()
+bd0ccb92efb09c7da5b55162b283b42a93539ed7 can: sja1000: sja1000_err(): don't count arbitration lose as an error
+c2d095eff797813461a426b97242e3ffc50e4134 can: sun4i_can: sun4i_can_err(): don't count arbitration lose as an error
+44cef0c0ffbd8d61143712ce874be68a273b7884 can: c_can: c_can_power_up(): fix error handling
+13a84cf37a4cf1155a41684236c2314eb40cd65c can: kvaser_pciefd: kvaser_pciefd_open(): fix error handling
+e3d5e971d2f83d8ddd4b91a50cea4517fb488383 chelsio/chtls: fix panic during unload reload chtls
+0a35dc41fea67ac4495ce7584406bf9557a6e7d0 vxlan: Add needed_headroom for lower device
+a5e74021e84bb5eadf760aaf2c583304f02269be vxlan: Copy needed_tailroom from lowerdev
+237f977ab920490502f5fe39af4390f26db2cd40 Merge tag 'linux-can-fixes-for-5.10-20201130' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+b71ec952234610b4f90ef17a2fdcb124d5320070 ibmvnic: Ensure that SCRQ entry reads are correctly ordered
+ba246c175116e2e8fa4fdfa5f8e958e086a9a818 ibmvnic: Fix TX completion error handling
+de7b3f8164cfdf99879ed7ca1d53bace25700929 Merge branch 'ibmvnic-Bug-fixes-for-queue-descriptor-processing'
+14483cbf040fcb38113497161088a1ce8ce5d713 net: broadcom CNIC: requires MMU
+0643334902fcdc770e2d9555811200213339a3f6 tipc: fix incompatible mtu of transmission
+2867e1eac61016f59b3d730e3f7aa488e186e917 inet_ecn: Fix endianness of checksum update when setting ECT(1)
+4179b00c04d18ea7013f68d578d80f3c9d13150a geneve: pull IP header before ECN decapsulation
+832ba596494b2c9eac7760259eff2d8b7dcad0ee net: ip6_gre: set dev->hard_header_len when using header_ops
+07500a6085806d97039ebcba8d9b8b29129f0106 dpaa_eth: copy timestamp fields to new skb in A-050385 workaround
+6ee50c8e262a0f0693dad264c3c99e30e6442a56 net/x25: prevent a couple of overflows
+ff9924897f8bfed82e61894b373ab9d2dfea5b10 cxgb3: fix error return code in t3_sge_alloc_qset()
+aba84871bd4f52c4dfcf3ad5d4501a6c9d2de90e net: pasemi: fix error return code in pasemi_mac_open()
+832e09798c261cf58de3a68cfcc6556408c16a5a vxlan: fix error return code in __vxlan_dev_create()
 
---===============5693700362125188157==--
+--===============6751244057570405391==--
