@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 03 Dec 2020 09:17:00 -0000
-Message-Id: <160698702026.22250.16603374514457802903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Thu, 03 Dec 2020 09:17:02 -0000
+Message-Id: <160698702235.22315.12731905267554523461@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/sched/rbtree
-    old: 0000000000000000000000000000000000000000
-    new: ef5ed40b02c24814c5241a7b524ae9774e1b9ee3
+  - ref: refs/heads/vfs
+    old: 440ec82ebed2495339e13440bb89d033a68ac5e9
+    new: 4e62d55d77bbdb33d821f5e16306caab38d42267
+    log: |
+         398840f8bb935d33c64df4ec4fed77a7d24c267d openat2: reject RESOLVE_BENEATH|RESOLVE_IN_ROOT
+         4e62d55d77bbdb33d821f5e16306caab38d42267 selftests: openat2: add RESOLVE_ conflict test
+         
