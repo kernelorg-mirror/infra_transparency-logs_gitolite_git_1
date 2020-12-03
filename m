@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 03 Dec 2020 09:02:35 -0000
-Message-Id: <160698615568.19647.11977389639710610458@gitolite.kernel.org>
+Date: Thu, 03 Dec 2020 09:02:45 -0000
+Message-Id: <160698616584.25776.10825534511474255610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,14 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: a787bdaff83a085288b6fc607afb4bb648da3cc9
-    new: 21bf7cbd1b100758cc82f5340576028d3d83119b
+  - ref: refs/heads/locking/core
+    old: 932f8c64d38bb08f69c8c26a2216ba0c36c6daa8
+    new: e45b38b6a4332b6cfed6f44981450835d94893ef
     log: |
-         0edb0fb35fa687e633322d23e5f44b7cfd21a5c5 x86, sched: Calculate frequency invariance for AMD systems
-         46609527577d1def0af29ca5b56cffeeea771ada x86, sched: Use midpoint of max_boost and max_P for frequency invariance on AMD EPYC
-         24f326686c925a848d603a2c22f1f6ed1b7786e2 x86: Print ratio freq_max/freq_base used in frequency invariance calculations
-         65697a12a10f2ac8ab9ed1003134cac3cfb72b48 sched: Fix kernel-doc markup
-         82b738de57d571cd366d89e75b5fd60f3060852b sched/fair: Clear SMT siblings after determining the core is not idle
-         21bf7cbd1b100758cc82f5340576028d3d83119b sched/fair: Trivial correction of the newidle_balance() comment
+         0ceba9505cc5f1ef971c9dedf8f1a11cf031449c seqlock: avoid -Wshadow warnings
+         ea9ad6c6b1342d9f58865bfea79671992de05ab9 lockdep/selftests: Fix PROVE_RAW_LOCK_NESTING
+         c41c976a58f9afc582c8b7a34e3cb3b0414cd5d6 lockdep/selftest: Add spin_nest_lock test
+         b5df34c307a10c09889b0605831d4e8594aa843c seqlock: Rename __seqprop() users
+         123dd74e5eee7d899f36dfaab59d37963c64f3c6 atomic: Delete obsolute documentation
+         4526240657553d22dd50e751460725cc21dddda0 atomic: Update MAINTAINERS
+         2514482a1cf60b8692418eb65ad0a9d7bfc91ee4 completion: Drop init_completion define
+         e45b38b6a4332b6cfed6f44981450835d94893ef refcount: Fix a kernel-doc markup
          
