@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 03 Dec 2020 14:04:36 -0000
-Message-Id: <160700427695.9387.4231790478750171629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 03 Dec 2020 14:10:51 -0000
+Message-Id: <160700465173.13734.12428592283042329150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: cfac803aa6164fed5017283113c61d10887f447f
-    new: e2e03d27190561976f2631c36337299645f7c1a2
+    old: 58b510e5805d8350c31bfb81a47bcd38ea9fdd7e
+    new: 9efa805cd7734ae0db9f9313e995ae9a99536e14
     log: |
-         e2e03d27190561976f2631c36337299645f7c1a2 Bluetooth: btusb: support download nvm with different board id for wcn6855
+         14a36f96ee671c2d3a20fa15437844a711e0b29c col: make input to tolerate invalid wide characters
+         9efa805cd7734ae0db9f9313e995ae9a99536e14 Merge branch 'col-bug1198' of https://github.com/kerolasa/util-linux
          
