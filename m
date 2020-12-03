@@ -1,21 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 03 Dec 2020 18:40:00 -0000
-Message-Id: <160702080070.20428.6666807025662526044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Thu, 03 Dec 2020 18:43:46 -0000
+Message-Id: <160702102640.22853.17402403468750820565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/for-next
-    old: 22e8ebe35a2e30ee19e02c41cacc99c2f896bc4b
-    new: 61b759480ec54d0ade53d834d550849ffdfe716a
+  - ref: refs/heads/idmapped_mounts
+    old: 29343a63d162e3c31566a7b1b86a0d3d38aab88c
+    new: a200978b5217907bd752b906e7837d9037446475
     log: |
-         e459f49b4394e2630ea55d5ac7a49402686848fe libbpf: Separate XDP program load with xsk socket creation
-         3627d9702d789804a1f4c5a52eabdae810cd9def samples/bpf: Sample application for eBPF load and socket creation split
-         61b759480ec54d0ade53d834d550849ffdfe716a Merge branch 'libbpf: add support for privileged/unprivileged control separation'
+         1387a8f118df84d0fc396aafa4816c3ff2f6cff2 fs: make helpers idmap mount aware
+         bd0269afa0884d9119c8d50ca7ec5ea402d98c5a apparmor: handle idmapped mounts
+         8d05a8a1d3689b8cb9893402d05c43e69fb0e7c1 ima: handle idmapped mounts
+         9a4248923d16eb37f208e94f63654ec00c4188cf fat: handle idmapped mounts
+         12acee717d128bf5df08d293291e52e424a3e8cc ext4: support idmapped mounts
+         ae33ee706868d66ecdc7b95aa3b1649f3fa39818 ecryptfs: do not mount on top of idmapped mounts
+         99feec1e7923794d2e29b791bac536cc361b696d overlayfs: do not mount on top of idmapped mounts
+         23e8f6ae8fb7af0ae1fdd5d30cc08b59c4a10f0e fs: introduce MOUNT_ATTR_IDMAP
+         a200978b5217907bd752b906e7837d9037446475 tests: extend mount_setattr tests
          
