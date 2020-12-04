@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs-next
-Date: Fri, 04 Dec 2020 09:24:44 -0000
-Message-Id: <160707388413.11725.18372298711297530756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 04 Dec 2020 09:46:52 -0000
+Message-Id: <160707521253.26364.16636098600036366070@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/horms/ipvs-next
-user: horms
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 988187e8810364dc02f3ceb7cab497f4a2e9003f
-    new: 04295878beac396dae47ba93141cae0d9386e7ef
+  - ref: refs/heads/at24/for-current
+    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
+    new: 4e302c3b568eaf2aeebba804c07aba5d921a8c9e
     log: |
-         0ef083d51ba1f4a2e890807d49d53ad20eee0ffd netfilter: Remove unnecessary conversion to bool
-         f7583f02a538bdb6d5191e82bacc7b85a27d4b0a netfilter: nfnl_acct: remove data from struct net
-         04295878beac396dae47ba93141cae0d9386e7ef netfilter: use actual socket sk for REJECT action
+         4e302c3b568eaf2aeebba804c07aba5d921a8c9e misc: eeprom: at24: fix NVMEM name with custom AT24 device name
          
