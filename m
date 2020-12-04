@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 04 Dec 2020 09:46:52 -0000
-Message-Id: <160707521253.26364.16636098600036366070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 04 Dec 2020 09:57:18 -0000
+Message-Id: <160707583895.31754.3772175528599044671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/heads/at24/for-current
-    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
-    new: 4e302c3b568eaf2aeebba804c07aba5d921a8c9e
+  - ref: refs/heads/master
+    old: e3f2094b96f2707ea7bfa3bee890e45343afac75
+    new: f71b680cb35f9d2ef99f9234f4c814ae221a62d2
     log: |
-         4e302c3b568eaf2aeebba804c07aba5d921a8c9e misc: eeprom: at24: fix NVMEM name with custom AT24 device name
+         f71b680cb35f9d2ef99f9234f4c814ae221a62d2 Bluetooth: Set missing suspend task bits
          
