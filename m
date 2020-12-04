@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/song/linux
-Date: Fri, 04 Dec 2020 18:26:33 -0000
-Message-Id: <160710639363.17410.5672623417484840007@gitolite.kernel.org>
+Date: Fri, 04 Dec 2020 18:27:08 -0000
+Message-Id: <160710642801.17625.4536368301428901198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/song/linux
 user: song
 changes:
   - ref: refs/heads/task-ls-for-tracing
-    old: 4a850ecec2786287cf1bd80730c0b833f30f7f83
-    new: ed22e4a168ecd1fea02fa246a2f3a806131b5c29
+    old: ed22e4a168ecd1fea02fa246a2f3a806131b5c29
+    new: 240433aba4e5c5a51ea80a7430b771c3abd7e19c
     log: |
-         ed22e4a168ecd1fea02fa246a2f3a806131b5c29 bpf: enable task local storage for tracing prog
+         240433aba4e5c5a51ea80a7430b771c3abd7e19c bpf: enable task local storage for tracing prog
          
