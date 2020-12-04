@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9039811707131966017=="
+Content-Type: multipart/mixed; boundary="===============4430824449880148361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 04 Dec 2020 18:38:41 -0000
-Message-Id: <160710712157.26076.5005992083531715040@gitolite.kernel.org>
+Date: Fri, 04 Dec 2020 18:39:17 -0000
+Message-Id: <160710715704.26317.3630270327013210775@gitolite.kernel.org>
 
---===============9039811707131966017==
+--===============4430824449880148361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: eceae70bdeaeb6b8ceb662983cf663ff352fbc96
     new: fdd8b8249ef819958decd9b0ff2c0e52f9d20ae6
     log: revlist-eceae70bdeae-fdd8b8249ef8.txt
-  - ref: refs/tags/v5.10-rc4
-    old: 0000000000000000000000000000000000000000
-    new: a93711503472d4c89977ce2c80dcd4b75e36cc45
-  - ref: refs/tags/v5.10-rc5
-    old: 0000000000000000000000000000000000000000
-    new: af69a948d2ce48f8bfe9935958d12f86fb50326b
 
---===============9039811707131966017==
+--===============4430824449880148361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1051,4 @@ bbe2ba04c5a92a49db8a42c850a5a2f6481e47eb Merge tag 'net-5.10-rc7' of git://git.k
 a1dd1d86973182458da7798a95f26cfcbea599b4 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 fdd8b8249ef819958decd9b0ff2c0e52f9d20ae6 dpaa_eth: fix build errorr in dpaa_fq_init
 
---===============9039811707131966017==--
+--===============4430824449880148361==--
