@@ -1,59 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============9012187285695067576=="
+Content-Type: multipart/mixed; boundary="===============5278483361458359597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 04 Dec 2020 23:27:59 -0000
-Message-Id: <160712447907.17791.16079202188948924055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 04 Dec 2020 23:28:04 -0000
+Message-Id: <160712448462.17927.729006664891220996@gitolite.kernel.org>
 
---===============9012187285695067576==
+--===============5278483361458359597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.10
-    old: 34c5aa2666db54c4bd330fb2759f6e4d4544ad7a
-    new: 291de1d102fafef0798cdad9666cd4f8da7da7cc
+  - ref: refs/heads/for-5.11
+    old: db4a831997047809229152261a462c17cb857c84
+    new: b8450e014214982a6df3e62a5bee6c37b94f6b98
     log: |
-         291de1d102fafef0798cdad9666cd4f8da7da7cc regulator: axp20x: Fix DLDO2 voltage control register mask for AXP22x
-         
-  - ref: refs/heads/regulator-5.11
-    old: c8dbf2f200de8c9cba3b332522fabad114cf9f53
-    new: bebb2c6d5ca23d6b7556d39564212b619e068562
-    log: |
-         b4b277760a2167ddb28a309b81363889efd5cc22 regulator: da9121: include linux/gpio/consumer.h
-         ff7f380d21d0e530c3501a007cec68da6dd4d650 regulator: dt-bindings: Add PM8350x compatibles
-         bebb2c6d5ca23d6b7556d39564212b619e068562 regulator: qcom-rpmh: Add support for PM8350/PM8350c
+         b8450e014214982a6df3e62a5bee6c37b94f6b98 spi: pxa2xx: Add support for Intel Alder Lake PCH-S
          
 
---===============9012187285695067576==
+--===============5278483361458359597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1607124476 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1607124477-ab7fb811e07a2717d5da3de1715e85c5c71e2603
+pusher C3F436CA30F5D8EB 1607124481 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1607124482-8f660e602abebd9b5c78c4cbc258ee46e9535fc6
 
-34c5aa2666db54c4bd330fb2759f6e4d4544ad7a 291de1d102fafef0798cdad9666cd4f8da7da7cc refs/heads/regulator-5.10
-c8dbf2f200de8c9cba3b332522fabad114cf9f53 bebb2c6d5ca23d6b7556d39564212b619e068562 refs/heads/regulator-5.11
+db4a831997047809229152261a462c17cb857c84 b8450e014214982a6df3e62a5bee6c37b94f6b98 refs/heads/for-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/KxfwACgkQJNaLcl1U
-h9CTkQf/QZKYHOwdOzHMbQsiH0apR9XOcwpbJ4VOKhwTDoNtineSN/yFtBlCqkq/
-JUuTH05yrxUsFqwJ4Kd6cMcasayd8Q495CyhNdiCHULCuXrcsBEWBXg+G7XmdaTV
-ukYkN2IbR0+ceHMDP3KYvEcLwIDSmQwnwoZ+6P2ryf7GwUHkqoIvnzdDALufsJ/O
-rpl4hLNm2tgS6C0iq5CvSvJDnr3coS50wNHWaxXrsX+1Ed5AM2Uc0vxHOAv+W/GO
-LbELKKP5noSBhuQGpEr1Z4tLAZTj02tl7qdUkThF6OoQc79vhnWQeUADPVmvkG4p
-owjzrT7X/z1I2tiX4wdlZK+oVZv2WA==
-=sb+z
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/KxgEACgkQJNaLcl1U
+h9CTIwf6AwUvAKPxt0MnMT1wyKBjyz3obqllRuITMgzwegb24sNkjjjYPdrHDkCw
+siQ9HeB6os2isagHiPDSj3oiqeGP8GgpAyzRuA79tYA8/1Fy7mk/uFfvnpLisejX
+dAMNaRnlvcLvviN+FW/lV91XC5rmiVseE4XVo4Psov6ImyFq9Te1NVnqzS7MbeZg
+s5q4pYBqNl2eizkWPvoKheJRs5jPNu4j5V4o4UcGBYzJHOATDH32ZeqlccV4rh9f
+zovhiEnO0dn9PW2NBv8ihc2WJgVaWAgkTTiytHh16ObjEwZ4wKdM0DGOu1tn86PN
+rEQy9FMReyqO9McJI02zJVlT7Lukmw==
+=9pow
 -----END PGP SIGNATURE-----
 
---===============9012187285695067576==--
+--===============5278483361458359597==--
