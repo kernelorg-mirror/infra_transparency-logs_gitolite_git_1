@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2672853152743568865=="
+Content-Type: multipart/mixed; boundary="===============8616295532254439969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 04 Dec 2020 01:53:42 -0000
-Message-Id: <160704682265.7108.11896156414984602000@gitolite.kernel.org>
+Date: Fri, 04 Dec 2020 01:53:53 -0000
+Message-Id: <160704683349.7250.7677271620609649064@gitolite.kernel.org>
 
---===============2672853152743568865==
+--===============8616295532254439969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: cadd64807cd83e2213dcb70f93d12d978c02b5fa
     new: 8158c5fd619d42e94a006e9fb8005fb8a4e6f4d4
     log: revlist-cadd64807cd8-8158c5fd619d.txt
 
---===============2672853152743568865==
+--===============8616295532254439969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ bc9ed69c79ae7577314a24e09c5b0d1c1c314ced selftests/bpf: Add tp_btf CO-RE reloc t
 1e38abefcfd65f3ef7b12895dfd48db80aca28da selftests/bpf: Add fentry/fexit/fmod_ret selftest for kernel module
 8158c5fd619d42e94a006e9fb8005fb8a4e6f4d4 Merge branch 'Support BTF-powered BPF tracing programs for kernel modules'
 
---===============2672853152743568865==--
+--===============8616295532254439969==--
