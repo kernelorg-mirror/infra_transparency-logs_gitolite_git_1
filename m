@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Fri, 04 Dec 2020 18:19:35 -0000
-Message-Id: <160710597591.12512.1447441314545740990@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Fri, 04 Dec 2020 18:22:51 -0000
+Message-Id: <160710617139.14830.1549623574247440828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: mjp
 changes:
-  - ref: refs/heads/pci/msi
-    old: a06fcdc6b3ae3552cdc8c6326bd265e336fae9bf
-    new: 2053230af11dc651ee3024682df12668496adad2
+  - ref: refs/heads/next
+    old: daaf30b01ed0b9e3fb7e3c399c50111e671c010c
+    new: c1276bf546cc1e6a1fc03c90fc8a118661142294
     log: |
-         cbc40d5c33af289548d2481e68a38512102cdd3e PCI/MSI: Move MSI/MSI-X init to msi.c
-         830dfe88ea37881cbb7d390e90b45611929d5943 PCI/MSI: Move MSI/MSI-X flags updaters to msi.c
-         2053230af11dc651ee3024682df12668496adad2 PCI/MSI: Set device flag indicating only 32-bit MSI support
+         c1276bf546cc1e6a1fc03c90fc8a118661142294 coresight: remove broken __exit annotations
          
