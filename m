@@ -1,59 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============5748801066558873682=="
+Content-Type: multipart/mixed; boundary="===============1235554399957480360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 04 Dec 2020 13:15:13 -0000
-Message-Id: <160708771380.26932.3630632303979453047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Fri, 04 Dec 2020 13:19:20 -0000
+Message-Id: <160708796040.28082.3688324044107482896@gitolite.kernel.org>
 
---===============5748801066558873682==
+--===============1235554399957480360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 907d4ad59904a1b327c92c9fbaa990e961f9a8f2
-    new: 9fb3b4cae4e64ed2520cf52fb6820f01185ba965
-    log: |
-         be49d5b2985bca407d130305ad78021d3c17db19 interconnect: qcom: Simplify the vcd compare function
-         2f95b9d5cf0b3d15154225e369558a3c6b40e948 interconnect: Add generic interconnect driver for Exynos SoCs
-         2a211904aca6e68b800177ba5094a0fbe0a8b522 MAINTAINERS: Add entry for Samsung interconnect drivers
-         9fb3b4cae4e64ed2520cf52fb6820f01185ba965 Merge tag 'icc-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
-         
+  - ref: refs/heads/for-mfd-next
+    old: 14639a22de657eabbb776f503a816594393cc935
+    new: 0cd3aa995740eabf8af1c794ac1d9ae314c928c3
+    log: revlist-14639a22de65-0cd3aa995740.txt
 
---===============5748801066558873682==
+--===============1235554399957480360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-14639a22de65-0cd3aa995740.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607087786 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1607087706-24142f278856865cf38c5ffda5e5708028c85d68
+d12edf9661a408d04efc9c0a4ff9a15413195d8a mfd: altera-sysmgr: Use resource_size function on resource object
+129989d5ca63884572d22a5a271d93d0eddf8a52 mfd: tps65910: Correct power-off programming sequence
+f31cc6afabed4487956118af1ebe3ac603fa92b8 mfd: kempld-core: Check for DMI definition before ACPI
+7a69a6f68da5084e7f42df18bbc3b38f3785cccf mfd: omap-usb: Depend on COMMON_CLK to fix compile tests
+b0ad7ebe30c085158925dd71672282e6480d4d65 mfd: bcm590xx: Drop of_match_ptr from of_device_id table
+62e7407349f52c35fd6479ff871f4259fea27cff mfd: da9055: Drop of_match_ptr from of_device_id table
+b62a16a51ae0bdf8fa8c360d5e993a4e24eed465 mfd: da9062: Drop of_match_ptr from of_device_id table
+5f2bf438000073aa81341ec4ff28bfa02602eced mfd: da9063: Drop of_match_ptr from of_device_id table
+98a6521c352fc764581f0317842c5520bb616c16 mfd: da9150: Drop of_match_ptr from of_device_id table
+e9063fee2beadd0483b24533965d1ec07f3b83a0 mfd: ene-kb3930: Drop of_match_ptr from of_device_id table
+130e085a3380f2df12ae9502d709187e254bde0e mfd: fsl-imx25: Drop of_match_ptr from of_device_id table
+4dfdc9a8f136b6198db4ae416c265b1875dc487c mfd: max77650: Drop of_match_ptr from of_device_id table
+4fae30103194226eb29ee118ac74e83d2a7bde6e mfd: mt6397: Drop of_match_ptr from of_device_id table
+a232bcd20108e337ba9a102c935cf3e8e96f348e mfd: rt5033: Drop of_match_ptr from of_device_id table
+a06d0dc4fe73d06cd95b771a73fc7cda291466fc mfd: stmfx: Drop of_match_ptr from of_device_id table
+608a4758575df01076e550ceb1a97fa326e19e63 mfd: max77686: Drop of_match_ptr from of_device_id table
+cc5b7ebe45f3cecf5571a30125f62709aa494a8a mfd: sun4i: Drop of_match_ptr from of_device_id table
+7b64f24595f04b3b467b1e6f3617a114cc2cb8ca mfd: wm8994: Drop of_match_ptr from of_device_id table
+06b324fc856941a487f4ae3b58157f907ceb9309 mfd: axp20x: Skip of_device_id table when !CONFIG_OF
+e73fd3f265f84a22e93476db2498a4cd4dd255c5 mfd: twl6030: Mark of_device_id table as maybe unused
+431ec7bd4d52caa2fc20fbe87744f522e3d1efad mfd: si476x-core.h: Fix "regulator" spelling in comment
+0cd3aa995740eabf8af1c794ac1d9ae314c928c3 mfd: kempld-core: Add support for additional devices
 
-907d4ad59904a1b327c92c9fbaa990e961f9a8f2 9fb3b4cae4e64ed2520cf52fb6820f01185ba965 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/KNqobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Pu8QAIYNEWwvyjSsrOOLjWVe
-blzsNyzJ23T1y8kej5UOG3wxhdbIeS/xKzc8K//RpPXUAJPKbdPRiYNbhw86MnAE
-pCzkXK3z5WPH5Oq4FYoCfgMp3MwJ+9WeDgKv7AwuCIN72nlQax3JjHrDXmnUWPz7
-SwLRDCWozFYh0GZn6HwrJYNXPw65398b4V+gAT5Wrc6Mhb+3Cb3I6qgaAUd3XKfY
-0mJ0p2LJ8oM3mJXZCKGyoDbb6SpsZOT/lgZlt8VVgTPMMhgWBMBb6GCyk8nu2VXs
-XMeFnhXceVNWOAf1e4zaudpKkXMJKpPDdUgXZK3kFO6K39M7IOjrNVvtx1hQdWpv
-TlTijuCwdOUDpgHan6wORoTfbASZKkQGVdSihvSsXBxyDjOmjrSx5BEgA1NTByp+
-BZaSg2fDqgXCgBoLBpy8ub2Tzh4vjFTpAADFChtMH6q4S/WJIGmQNv2+xUfk2HNj
-p72o/Tsi7heHRyiZRz7fkTlBA+O1t0RNxSRqge+X502Fu1uR2S5ZA+FZVVNy8H3d
-8Zlhvldk40iT/6R2noPZwG+T0vwX8OoAFgXuZx+usnwEijClXrn2YsP1ayw8gNIo
-muUGbY4NeRWtH6Pt+byKu7Ltrjk9zzJPglNev+UduxNiEyHs6z8kfrTKD72GaHBy
-SThyyZQBuQrR/Qfhqd/LSf8S
-=q1dB
------END PGP SIGNATURE-----
-
---===============5748801066558873682==--
+--===============1235554399957480360==--
