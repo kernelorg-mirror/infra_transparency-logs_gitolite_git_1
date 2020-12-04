@@ -1,45 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8616295532254439969=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 04 Dec 2020 01:53:53 -0000
-Message-Id: <160704683349.7250.7677271620609649064@gitolite.kernel.org>
-
---===============8616295532254439969==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 04 Dec 2020 01:55:58 -0000
+Message-Id: <160704695851.9222.8114714249843404100@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: cadd64807cd83e2213dcb70f93d12d978c02b5fa
-    new: 8158c5fd619d42e94a006e9fb8005fb8a4e6f4d4
-    log: revlist-cadd64807cd8-8158c5fd619d.txt
-
---===============8616295532254439969==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cadd64807cd8-8158c5fd619d.txt
-
-12cc126df82c96c89706aa207ad27c56f219047c bpf: Fix bpf_put_raw_tracepoint()'s use of __module_address()
-2fe8890848c799515a881502339a0a7b2b555988 bpf: Keep module's btf_data_size intact after load
-a19f93cfafdf85851c69bc9f677aa4f40c53610f libbpf: Add internal helper to load BTF data by FD
-0f7515ca7cddadabe04e28e20a257b1bbb6cb98a libbpf: Refactor CO-RE relocs to not assume a single BTF object
-4f33a53d56000cfa67e2e4e8a5dac08f084a979b libbpf: Add kernel module BTF support for CO-RE relocations
-9f7fa225894c7fcb014f3699a402fcc4d896cb1c selftests/bpf: Add bpf_testmod kernel module for testing
-5ed31472b9ad6373a0a24bc21186b5eac999213d selftests/bpf: Add support for marking sub-tests as skipped
-6bcd39d366b64318562785d5b47c2837e3a53ae5 selftests/bpf: Add CO-RE relocs selftest relying on kernel module BTF
-22dc4a0f5ed11b6dc8fd73a0892fa0ea1a4c3cdf bpf: Remove hard-coded btf_vmlinux assumption from BPF verifier
-290248a5b7d829871b3ea3c62578613a580a1744 bpf: Allow to specify kernel module BTFs when attaching BPF programs
-6aef10a481a3f42c8021fe410e07440c0d71a5fc libbpf: Factor out low-level BPF program loading helper
-91abb4a6d79df6c4dcd86d85632df53c8cca2dcf libbpf: Support attachment of BPF tracing programs to kernel modules
-bc9ed69c79ae7577314a24e09c5b0d1c1c314ced selftests/bpf: Add tp_btf CO-RE reloc test for modules
-1e38abefcfd65f3ef7b12895dfd48db80aca28da selftests/bpf: Add fentry/fexit/fmod_ret selftest for kernel module
-8158c5fd619d42e94a006e9fb8005fb8a4e6f4d4 Merge branch 'Support BTF-powered BPF tracing programs for kernel modules'
-
---===============8616295532254439969==--
+  - ref: refs/heads/dev
+    old: 413d9f332cbd16d951c22a41f2e5f53c1a75ae1c
+    new: d3a06e8c8ca247affc1d824bef4f1eb6b5d8b879
+    log: |
+         18cd9ef74e8dea0fa94e919b8596ecfb29ddc2b4 torture: Stop hanging on panic
+         50c5dd26a3881bd97398ef2935b86b594735aaf9 percpu_ref: Add kmem_cache_last_alloc() argument for stack trace
+         0b64f4f59ab0e39619b533dbf6983bca60eb4179 percpu_ref: Print stack trace upon reference-count underflow
+         d3a06e8c8ca247affc1d824bef4f1eb6b5d8b879 mm: Make kmem_last_alloc_stack() provide stack trace in slub
+         
