@@ -1,53 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============4086810155204784483=="
+Content-Type: multipart/mixed; boundary="===============7216915358400315821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 04 Dec 2020 12:31:54 -0000
-Message-Id: <160708511431.706.7864882698453347438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Fri, 04 Dec 2020 12:48:43 -0000
+Message-Id: <160708612351.9137.13608851707688286836@gitolite.kernel.org>
 
---===============4086810155204784483==
+--===============7216915358400315821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mellanox/linux
+user: leon
 changes:
-  - ref: refs/tags/auxbus-5.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 0b88dbf701077fd09ad74e06c73a6930a54f9f8d
+  - ref: refs/heads/mlx5-next
+    old: aeda249732b4824e8805ecb0cc97b3c78ac41e6d
+    new: 940d816e44b83c62eec0bf8a5dcd087eec6532cb
+    log: revlist-aeda249732b4-940d816e44b8.txt
 
---===============4086810155204784483==
+--===============7216915358400315821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-aeda249732b4-940d816e44b8.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607085188 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1607085108-9f3285ff469758633bf4e3b3ab364520eab8d220
+7de3697e9cbd4bd3d62bafa249d57990e1b8f294 Add auxiliary bus support
+7bbb79ff5f7499e0c5d65987458410e8099207d8 driver core: auxiliary bus: move slab.h from include file
+8142a46c50d2dd8160c42284e1044eed3bec0d18 driver core: auxiliary bus: make remove function return void
+0d2bf11a6b3e275a526b8d42d8d4a3a6067cf953 driver core: auxiliary bus: minor coding style tweaks
+354ad58b778043fbf064421ada6333e0bedb6f83 Merge tag 'auxbus-5.11-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core into mlx5-next
+907af0f0cab4ee5d5604f182ecec2c5b5119d294 net/mlx5: Properly convey driver version to firmware
+17a7612b99e66d2539341ab4f888f970c2c7f76d net/mlx5_core: Clean driver version and name
+0aae392bea4da1a2a9f2e22683c0fa751dc07333 vdpa/mlx5: Make hardware definitions visible to all mlx5 devices
+a925b5e309c9b998658a6a94dbb53154ea901299 net/mlx5: Register mlx5 devices to auxiliary virtual bus
+3faa85bae594ec57d81b17f5ed93dcb60281b652 vdpa/mlx5: Connect mlx5_vdpa to auxiliary bus
+4f8561da93e727799469f1749d343a32c23b58b4 net/mlx5e: Connect ethernet part to auxiliary bus
+8fca283855b29cfd411fc008e1feaca8c6db16d0 RDMA/mlx5: Convert mlx5_ib to use auxiliary bus
+f336ea9402d17a369115538346e2de171ae1609e net/mlx5: Delete custom device management logic
+2c9fa6cc4db326a682710eb66f14fc2dbc5d76d3 net/mlx5: Simplify eswitch mode check
+940d816e44b83c62eec0bf8a5dcd087eec6532cb RDMA/mlx5: Remove IB representors dead code
 
-0000000000000000000000000000000000000000 0b88dbf701077fd09ad74e06c73a6930a54f9f8d refs/tags/auxbus-5.11-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/KLIQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PbUQALEAAye/3P+ncIvD3Xfl
-ji+lB28BLu6ehybRNBwhId40M9EXg3Q10LsBgBy343ZFwhyHQGsZtWtCWE4mPThe
-6DDjfCrP+mqwyYptt3KUpx+0lIXHKAtInQPmiUcH7YAqRBa3AvQVRAARxvmpu42C
-3PXyFfnVxsobXTDzNHjF4xTwVv9TH+KAg76t/7LBw1gQBB/wBolCJ65nqwPT+exu
-vWk3/Gd3FmkIT3ooG3r7NnaZGufDlh17Uzvg+R5rNyfXd6+veqZnM+voAm+7b18y
-5blykW3tOx2PZxtdkiRBlDNaOhEeR9Bc85g588G5iqIGegwC2DHpD3H94W/HMnnQ
-RrHOV9dgxrcwjy6HX8cBrgjapQSaKtKexIcfRwlDFRc4hHfBh5ykukIlaCG5/EX+
-Z4SKVXgwMEPoSeo0GSbeW/mnGOGDDp5Xa5LSgxIobmaz9LZSfQ0sHqGYcQhazent
-4wLxSiv6CQiuvH6HJ2m2RFobDbKXE2+ciNuZPbynTqZWaNGOJ0VBhqWt6t6oXDE8
-EjNFXWmWBzYqzNjOXfrmQMRUC0II5RUT1CaaI9RJkEDDoNc/pUglFrGEiEz5SsRW
-P7bO6edPllFl1VqSHadzmeKFiVobsDsXkJmRbykriQaAife+9SSSHpTOhljNe0VK
-FKyXe6zjwtyB3f1Sfp+Obxt1
-=wKAX
------END PGP SIGNATURE-----
-
---===============4086810155204784483==--
+--===============7216915358400315821==--
