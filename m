@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Fri, 04 Dec 2020 14:18:07 -0000
-Message-Id: <160709148786.3383.1700874893909059059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mel/linux
+Date: Fri, 04 Dec 2020 14:19:17 -0000
+Message-Id: <160709155761.3747.13354596935183264423@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/mel/linux
+user: mel
 changes:
-  - ref: refs/heads/usb-next
-    old: 425526b481b55c96e2686cd6b94143ce3b853c58
-    new: daa919196be49815e342eb79fab81852102703c2
-    log: |
-         daa919196be49815e342eb79fab81852102703c2 USB: serial: cp210x: clean up dtr_rts()
-         
+  - ref: refs/heads/sched-sissearch-v2r5
+    old: e8f1c356dd0e244c61c074f83608ae32595d64c8
+    new: 0000000000000000000000000000000000000000
