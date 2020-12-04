@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rw/misc
-Date: Fri, 04 Dec 2020 22:47:12 -0000
-Message-Id: <160712203264.24977.268957209969578863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Fri, 04 Dec 2020 23:02:37 -0000
+Message-Id: <160712295787.3558.6269335782855182220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rw/misc
-user: rw
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/muse-wip
-    old: 13ba7dfbbe5163506d1c103bd6495a6700446dc3
-    new: 70de87ab5e1ccbcce99b53525e9eb5ca5c44ad07
+  - ref: refs/heads/master
+    old: dd15aa4b0a6421295cbb7c3913429142fef8abe0
+    new: 1e6a3fed6e52d36503e2568dea1c769637d5e4a4
     log: |
-         5e2f21999ac07c998349d0b11c0498e3fb03701e muse: Make MTD init async
-         5f52bcce951a42c584c30f672b0efb241039b61d fixup für 32 bit archs
-         70de87ab5e1ccbcce99b53525e9eb5ca5c44ad07 fixup cmdline parser
+         1e6a3fed6e52d36503e2568dea1c769637d5e4a4 rpm: Fix changelog date
          
