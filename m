@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4315111966824473603=="
+Content-Type: multipart/mixed; boundary="===============2227650667277589543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 04 Dec 2020 20:40:07 -0000
-Message-Id: <160711440750.8517.4810503020651217076@gitolite.kernel.org>
+Date: Fri, 04 Dec 2020 20:41:42 -0000
+Message-Id: <160711450216.9128.3122143872878198940@gitolite.kernel.org>
 
---===============4315111966824473603==
+--===============2227650667277589543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-5.11
-    old: 0b3355b070434f9901f641aac9000df93e2c96ad
-    new: 4ecc08b2f51d874f35185724eda769492b60a18d
-    log: revlist-0b3355b07043-4ecc08b2f51d.txt
+  - ref: refs/heads/for-next
+    old: 04885f4a7284f3bc19a1e5a2e9d9089a081fab65
+    new: 7e1cb7512d47366b218a3ace584fc26d586ef536
+    log: revlist-04885f4a7284-7e1cb7512d47.txt
 
---===============4315111966824473603==
+--===============2227650667277589543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b3355b07043-4ecc08b2f51d.txt
+Content-Disposition: attachment; filename=revlist-04885f4a7284-7e1cb7512d47.txt
 
 b64d814257b027e29a474bcd660f6372490138c7 arm64: dts: marvell: espressobin: Add ethernet switch aliases
 0b58725fb9a446890c1fd28fc6c9e393ce21acb7 ARM: mvebu: drop pointless check for coherency_base
@@ -932,10 +932,14 @@ df53b815c799cab8c6e04816b5005810a57ea6a3 Merge tag 'usb-5.10-rc3' of git://git.k
 bbc821849eba179e62bbe2adba19a87c7686c27b Merge tag 'tty-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 15f5d201c1773297b38a11a0064be76a224d073d Merge tag 'driver-core-5.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 f8394f232b1eab649ce2df5c5f15b0e528c92091 Linux 5.10-rc3
+176e6e4e25cb446486c43dd5d552b713fab6bd2a Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
+314647a9c5f62131d3b07c8b9dd9fc074d5832fb Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
+479a52bd337bb91fcffe88928e8d7fee7bf12d29 Merge remote-tracking branch 'asoc/for-5.11' into asoc-next
 7de3697e9cbd4bd3d62bafa249d57990e1b8f294 Add auxiliary bus support
 7bbb79ff5f7499e0c5d65987458410e8099207d8 driver core: auxiliary bus: move slab.h from include file
 8142a46c50d2dd8160c42284e1044eed3bec0d18 driver core: auxiliary bus: make remove function return void
 0d2bf11a6b3e275a526b8d42d8d4a3a6067cf953 driver core: auxiliary bus: minor coding style tweaks
 4ecc08b2f51d874f35185724eda769492b60a18d Merge tag 'auxbus-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core into asoc-5.11
+7e1cb7512d47366b218a3ace584fc26d586ef536 Merge remote-tracking branch 'asoc/for-5.11' into asoc-next
 
---===============4315111966824473603==--
+--===============2227650667277589543==--
