@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0901706635228789421=="
+Content-Type: multipart/mixed; boundary="===============5094993346184520736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 04 Dec 2020 19:05:38 -0000
-Message-Id: <160710873836.12197.987210744325930417@gitolite.kernel.org>
+Date: Fri, 04 Dec 2020 19:07:44 -0000
+Message-Id: <160710886459.12850.681462702750399346@gitolite.kernel.org>
 
---===============0901706635228789421==
+--===============5094993346184520736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx5-next
-    old: 9ed314dcb7a9c0d54bb4f1c1dfeebab7b0bcc481
-    new: c8f8d0b00593f9525001d21bb18729968ae90cfc
-    log: revlist-9ed314dcb7a9-c8f8d0b00593.txt
+  - ref: refs/heads/testing/net-next
+    old: 2a05c8f311652e345deb8b7a47dd857f8ccf8275
+    new: 2b651efc0604df740f460811a77c643e58fdae88
+    log: revlist-2a05c8f31165-2b651efc0604.txt
 
---===============0901706635228789421==
+--===============5094993346184520736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ed314dcb7a9-c8f8d0b00593.txt
+Content-Disposition: attachment; filename=revlist-2a05c8f31165-2b651efc0604.txt
 
 7de3697e9cbd4bd3d62bafa249d57990e1b8f294 Add auxiliary bus support
 7bbb79ff5f7499e0c5d65987458410e8099207d8 driver core: auxiliary bus: move slab.h from include file
@@ -43,5 +43,6 @@ f336ea9402d17a369115538346e2de171ae1609e net/mlx5: Delete custom device manageme
 940d816e44b83c62eec0bf8a5dcd087eec6532cb RDMA/mlx5: Remove IB representors dead code
 8008d060095f435864cc861ac88affb4032e6fe0 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
 c8f8d0b00593f9525001d21bb18729968ae90cfc net/mlx5: Add VDPA priority to NIC RX namespace
+2b651efc0604df740f460811a77c643e58fdae88 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
 
---===============0901706635228789421==--
+--===============5094993346184520736==--
