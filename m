@@ -1,29 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 04 Dec 2020 23:29:06 -0000
-Message-Id: <160712454649.18563.6931367519574299151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 04 Dec 2020 23:29:32 -0000
+Message-Id: <160712457239.19064.8535409618994372203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 34c5aa2666db54c4bd330fb2759f6e4d4544ad7a
-    new: 291de1d102fafef0798cdad9666cd4f8da7da7cc
+    old: 4fd9cdf745a830bc98f86fff74d2ab84c6b46350
+    new: 9a1cddca6c9581ff46edfd6fa3ef307dca80fdeb
     log: |
-         291de1d102fafef0798cdad9666cd4f8da7da7cc regulator: axp20x: Fix DLDO2 voltage control register mask for AXP22x
+         0130e1ed84a77da65bc34603a638fe2a59a04d4b Merge remote-tracking branch 'spi/for-5.9' into spi-linus
+         9a1cddca6c9581ff46edfd6fa3ef307dca80fdeb Merge remote-tracking branch 'spi/for-5.10' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 372e59487b98835710f6db3b940aaf0b866c7b56
-    new: 9408285b3084a1d807741bf4bef3359f5e1f04a8
+    old: acb69dbfb08d5164434c26c6e527d9683e8b8b27
+    new: 23597b99043dd35ec31b784f7d1fc993595b7936
     log: |
-         b4b277760a2167ddb28a309b81363889efd5cc22 regulator: da9121: include linux/gpio/consumer.h
-         ff7f380d21d0e530c3501a007cec68da6dd4d650 regulator: dt-bindings: Add PM8350x compatibles
-         bebb2c6d5ca23d6b7556d39564212b619e068562 regulator: qcom-rpmh: Add support for PM8350/PM8350c
-         291de1d102fafef0798cdad9666cd4f8da7da7cc regulator: axp20x: Fix DLDO2 voltage control register mask for AXP22x
-         9408285b3084a1d807741bf4bef3359f5e1f04a8 Merge remote-tracking branch 'regulator/for-5.11' into regulator-next
+         b8450e014214982a6df3e62a5bee6c37b94f6b98 spi: pxa2xx: Add support for Intel Alder Lake PCH-S
+         0130e1ed84a77da65bc34603a638fe2a59a04d4b Merge remote-tracking branch 'spi/for-5.9' into spi-linus
+         9a1cddca6c9581ff46edfd6fa3ef307dca80fdeb Merge remote-tracking branch 'spi/for-5.10' into spi-linus
+         23597b99043dd35ec31b784f7d1fc993595b7936 Merge remote-tracking branch 'spi/for-5.11' into spi-next
          
