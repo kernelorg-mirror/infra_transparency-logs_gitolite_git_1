@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5328969751663617391=="
+Content-Type: multipart/mixed; boundary="===============7649452900432687293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Fri, 04 Dec 2020 11:03:55 -0000
-Message-Id: <160707983584.9589.2637555820443650583@gitolite.kernel.org>
+Date: Fri, 04 Dec 2020 11:05:34 -0000
+Message-Id: <160707993453.11471.341216245396401856@gitolite.kernel.org>
 
---===============5328969751663617391==
+--===============7649452900432687293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/heads/queue
+  - ref: refs/heads/next
     old: b14d29ced30ee423677b1469c5eb6e649ffa2379
     new: e12a393fa5497ed79af9fb00c9f1dc03097a814d
     log: revlist-b14d29ced30e-e12a393fa549.txt
 
---===============5328969751663617391==
+--===============7649452900432687293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -78,4 +78,4 @@ f19f6644a5433cfae8a068445b149bc2247c1445 KVM: arm64: Fix EL2 mode availability c
 17f84520cb8fcaf475c96c3ee90dd97b55a63669 Merge remote-tracking branch 'origin/kvm-arm64/misc-5.11' into kvmarm-master/queue
 e12a393fa5497ed79af9fb00c9f1dc03097a814d Merge remote-tracking branch 'origin/kvm-arm64/psci-relay' into kvmarm-master/queue
 
---===============5328969751663617391==--
+--===============7649452900432687293==--
