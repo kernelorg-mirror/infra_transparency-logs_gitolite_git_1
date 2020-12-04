@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3622653892116495736=="
+Content-Type: multipart/mixed; boundary="===============8186208637205696897=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 04 Dec 2020 15:45:05 -0000
-Message-Id: <160709670503.11827.4348030068521672231@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 04 Dec 2020 15:48:19 -0000
+Message-Id: <160709689941.12760.6790963532971593290@gitolite.kernel.org>
 
---===============3622653892116495736==
+--===============8186208637205696897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 332037d4bb28ee6ca1fb6e945be425ecf15da9f8
-    new: 138f3e1265488a9163be7f379073297ba8545cca
+  - ref: refs/heads/usb-testing
+    old: ebad43260d225bccd57c7144a6eecbef3cd88f7f
+    new: e3541d5de544da54a1770e9c82c55f2a6f6b3b67
     log: |
-         138f3e1265488a9163be7f379073297ba8545cca Staging: rtl8723bs/core fix brace coding style issues in rtw_ioctl_set.c
+         cf5fbe02042e52a5a3d93223770db39002b313c6 USB: apple-mfi-fastcharge: Fix use after free in probe
+         baf7df456b3848e4b6f8648e754e3a0f77fe700e USB: core: drop short-transfer check from usb_control_msg_send()
+         9dc9c8543aa0b9ef8852330b27cd2eef337bea18 USB: core: return -EREMOTEIO on short usb_control_msg_recv()
+         e3541d5de544da54a1770e9c82c55f2a6f6b3b67 usb: mtu3: mtu3_debug: remove an unused struct member
          
 
---===============3622653892116495736==
+--===============8186208637205696897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607096778 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1607096698-0eb4c8829c957309c0b2f9377e9addbfa4dd62d5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607096972 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1607096893-a30b14b0913a424d2f893005b500efaedfee60cf
 
-332037d4bb28ee6ca1fb6e945be425ecf15da9f8 138f3e1265488a9163be7f379073297ba8545cca refs/heads/staging-testing
+ebad43260d225bccd57c7144a6eecbef3cd88f7f e3541d5de544da54a1770e9c82c55f2a6f6b3b67 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/KWcobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AUUQAMTnTnCBWL8B1ti7C9yb
-OXVB5ym5ETN5LTu7NOReAKM0Yx2qE7Vu9pJm+UXcidSchQeJGRKnmgrg3f9j2oQJ
-TfbuhC6NN10MnTFVaX5veRk4fBb8XuxSNEnwLYNWMlnVPlgGhf+4OEBdY0mVcRnL
-cjKKGKho8LwskyIt9iDoO9i8PnpwKP8GX5yxNyFTCkxglp+q/8+4SqnoSqWN8nv5
-DvKo+ZXzXpxdvftofzibpa5fradPezRX9OoJh/rnOhp6zAkQoCgn6MFyGTa//UZg
-kftXgFC5cbKtt5rEl6FOYsStWclRVXutQo/0n+3xnEiPcmKfgsHAdg95o5fcPuoQ
-PVbfniDB1PLeHjTCZFWfAWXKgO+elD61A917Ml0olQkTSMv2YvEV9AY2eBZoZNTo
-Bb37U3KdRUsdcGe0l+dq3zYU+HoinAchSMEqEHRQSx8YCybF7CG7mne3jVNSs28+
-RBBZWP7EXDuPSpASlUSv3/k/riQ6HWSa4NctXLpU/ZbFjyST0Kw5g/QRFmjwkaFn
-i3udoYS4UM/hgfylAfTCCVgLjEdtIhoYdhUtIMOYF2mJCWUTAtFhyfL9NTT8N1PW
-fGr+rr6MsnTlUMXmplcmkpcEQnUk9JgAEXp6Dj8V01xRrIR+KdVYK9ZRLrd9Rl9N
-FGWKf3qBpC3WvXAeM5fj5qG+
-=d1iY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/KWowbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BtcP/j9NyAhGypK58Q+wwqVs
+uS5iB/UF20NEtgMzzlcaGgDxNaOAi12OkO2sSa8hjkJn6kqcDZ4k/mncrjHy2iov
+tWDTLUzgxkSeVIfXkMXtXFZZJCbKpcXcg0kqGS+jsne/QH0hKr6upf7QrLswAkSE
+gV3dCNjZgzqeacc4SpD1jqi1ACjgKpwve+z5s6vP4aoD2T3+sV6qGyXT5V44VpeN
+qQzjqsf0mCEHKz9goopzUeoRa0KXNDbhOGLFpoO9zbbS1KqG1EOqmr/3659VrIgo
+DMsroLa5bx0gx3xyiuaKeEajagGUMR1ESrnFxnuu6H7jIYL2SA/h672waamSCGF1
+3qP2dOVL/S8lsPZcX9n34LyWpNlYARZflRcy1CWiS2f1ThX1cfJ3hgeTyLOR0Af+
+sMUD2JCg/SsmxS/nHdoG/lrPgrjHAEOwv83AfOC1SjhjzDiYt2PbMvKHx0U3AIVA
+gejlrAujZC4z0gq662LmSS7UUpr/jj01Eh5NmKncgi8QUT90a+0IhC1J3hDGpdUa
+pBQBFezHuEfP0EGwlfwRsePzwd69e3J5NOSPtuklYf5dnfP54Y0Nq8T2jR3/8M0G
+zKVhNL4Kpqqx6wiVLELspvnDzLSRJQn6jv/NxX4CMT01gC0jaJIbJ362K7IVzT12
+S+NaB/yq8YwUDMg18jNNvLc5
+=gSH8
 -----END PGP SIGNATURE-----
 
---===============3622653892116495736==--
+--===============8186208637205696897==--
