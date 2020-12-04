@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5278483361458359597=="
+Content-Type: multipart/mixed; boundary="===============8194417019614980039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 04 Dec 2020 23:28:04 -0000
-Message-Id: <160712448462.17927.729006664891220996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 04 Dec 2020 23:28:10 -0000
+Message-Id: <160712449012.18039.4641591891028164002@gitolite.kernel.org>
 
---===============5278483361458359597==
+--===============8194417019614980039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/spi-5.11
     old: db4a831997047809229152261a462c17cb857c84
     new: b8450e014214982a6df3e62a5bee6c37b94f6b98
     log: |
          b8450e014214982a6df3e62a5bee6c37b94f6b98 spi: pxa2xx: Add support for Intel Alder Lake PCH-S
          
 
---===============5278483361458359597==
+--===============8194417019614980039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1607124481 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1607124482-8f660e602abebd9b5c78c4cbc258ee46e9535fc6
+pusher C3F436CA30F5D8EB 1607124487 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1607124488-63e80daed8a1632bd800f29763958385a343119a
 
-db4a831997047809229152261a462c17cb857c84 b8450e014214982a6df3e62a5bee6c37b94f6b98 refs/heads/for-5.11
+db4a831997047809229152261a462c17cb857c84 b8450e014214982a6df3e62a5bee6c37b94f6b98 refs/heads/spi-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/KxgEACgkQJNaLcl1U
-h9CTIwf6AwUvAKPxt0MnMT1wyKBjyz3obqllRuITMgzwegb24sNkjjjYPdrHDkCw
-siQ9HeB6os2isagHiPDSj3oiqeGP8GgpAyzRuA79tYA8/1Fy7mk/uFfvnpLisejX
-dAMNaRnlvcLvviN+FW/lV91XC5rmiVseE4XVo4Psov6ImyFq9Te1NVnqzS7MbeZg
-s5q4pYBqNl2eizkWPvoKheJRs5jPNu4j5V4o4UcGBYzJHOATDH32ZeqlccV4rh9f
-zovhiEnO0dn9PW2NBv8ihc2WJgVaWAgkTTiytHh16ObjEwZ4wKdM0DGOu1tn86PN
-rEQy9FMReyqO9McJI02zJVlT7Lukmw==
-=9pow
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/KxgcACgkQJNaLcl1U
+h9Aaegf+M0cTzW7eAI1kI3pqn/rbOAunAr2htxLX7b1hwFf7i3qopctWKiixnPxh
+7zIgjiiuxFb+oSf20yR2rhb6bgPbe65Ei+nKTUQ8ImiIIGvzz1FzC37bWs75Xq9X
+J3TbZkqwHLzZBNeJfZqe/FzEYUX51tFtl212XFnTUIZuc5aRhoaeZiz4n1suOpHo
+Gu4Q4siJYQPzQ9XWLONzZpAYumgcBiJGzslpxBit5DVU8f5BiucVyT1pkj8L701p
+B8Upwh1mKLcOdoWvG6ceUgWColnA/xv/woSBRH39ea2M59ffkEaC6gnaCZDO+Rq4
+0LPqynrwkscrblUAeIxmpejBQYUtgQ==
+=Xx9+
 -----END PGP SIGNATURE-----
 
---===============5278483361458359597==--
+--===============8194417019614980039==--
