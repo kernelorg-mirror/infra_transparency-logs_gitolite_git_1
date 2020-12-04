@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 04 Dec 2020 22:27:11 -0000
-Message-Id: <160712083111.10722.11356135440466988263@gitolite.kernel.org>
+Date: Fri, 04 Dec 2020 22:30:01 -0000
+Message-Id: <160712100130.12087.9733538707598825927@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/testing/net-next
-    old: 2b651efc0604df740f460811a77c643e58fdae88
-    new: f68eb25854c7d2b97777d3c52846f05d37b29c6c
-    log: |
-         f68eb25854c7d2b97777d3c52846f05d37b29c6c Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
-         
+  - ref: refs/tags/mlx5-updates-2020-12-04
+    old: 0000000000000000000000000000000000000000
+    new: 30811c785669e3e7b5cda37f0684b0f58408919f
