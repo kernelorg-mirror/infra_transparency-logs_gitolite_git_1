@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Sat, 05 Dec 2020 21:46:12 -0000
-Message-Id: <160720477240.31454.6605737917007880704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 05 Dec 2020 21:47:54 -0000
+Message-Id: <160720487444.32006.10477881572388851988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: fd80924b22fef6ce0d5580724d91490347445f90
-    new: a210654b03dbd04f17984d1cf791b1fd56862f1b
+    old: 4d1be581ec6b92a338bb7ed23e1381f45ddf336f
+    new: 205704c618af0ab2366015d2281a3b0814d918a0
     log: |
-         10756b2c95ef275501d4dbda060caac072cf6973 ioengine: Add libcufile I/O engine
-         a210654b03dbd04f17984d1cf791b1fd56862f1b Merge branch 'cufile' of https://github.com/SystemFabricWorks/fio
+         205704c618af0ab2366015d2281a3b0814d918a0 vrf: packets with lladdr src needs dst at input with orig_iif when needs strict
          
