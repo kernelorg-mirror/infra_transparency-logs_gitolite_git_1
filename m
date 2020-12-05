@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 05 Dec 2020 17:32:41 -0000
-Message-Id: <160718956168.2083.14601203339117070795@gitolite.kernel.org>
+Date: Sat, 05 Dec 2020 17:32:46 -0000
+Message-Id: <160718956698.2208.1882020723045596236@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/for-next-base
-    old: e92643db514803c2c87d72caf5950b4c0a8faf4a
-    new: 85dad327d9b58b4c9ce08189a2707167de392d23
+  - ref: refs/heads/for-next
+    old: e58a3f6f4f2f9e9970892b26910c933f6be4dbb7
+    new: aa6a6ffe922bfb749229179347f86f10a24d89c9
     log: |
-         6112ff4e8f393e7e297dff04eff0987f94d37fa1 scsi: storvsc: Fix error return in storvsc_probe()
-         3b8c72d076c42bf27284cda7b2b2b522810686f8 scsi: storvsc: Validate length of incoming packet in storvsc_on_channel_callback()
-         42f687038bcc34aa919e0e4c29b04e4cda3f6a79 scsi: mpt3sas: Fix ioctl timeout
-         85dad327d9b58b4c9ce08189a2707167de392d23 scsi: mpt3sas: Increase IOCInit request timeout to 30s
+         2d586494c4a001312650f0b919d534e429dd1e09 scsi: bnx2i: Requires MMU
+         eeaf06af6f87e1dba371fbe42674e6f963220b9c scsi: be2iscsi: Revert "Fix a theoretical leak in beiscsi_create_eqs()"
+         aa6a6ffe922bfb749229179347f86f10a24d89c9 Merge branch 'fixes' into for-next
          
