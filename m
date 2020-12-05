@@ -1,56 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============5101588952858204035=="
+Content-Type: multipart/mixed; boundary="===============8469238473192935496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 05 Dec 2020 15:43:55 -0000
-Message-Id: <160718303522.29665.9805764911600246812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 05 Dec 2020 15:44:43 -0000
+Message-Id: <160718308347.29959.3504675379676228387@gitolite.kernel.org>
 
---===============5101588952858204035==
+--===============8469238473192935496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 2e37d91cada138f1c41b5706698b68355d0bafe4
-    new: 5812b32e01c6d86ba7a84110702b46d8a8531fe9
+  - ref: refs/heads/tty-next
+    old: f35a07f92616700733636c06dd6e5b6cdc807fe4
+    new: e0efb3168d34dc8c8c72718672b8902e40efff8f
     log: |
-         5812b32e01c6d86ba7a84110702b46d8a8531fe9 of: fix linker-section match-table corruption
+         62dcd9c59f324e484c1d655884e0101a988f6671 earlycon: simplify earlycon-table implementation
+         0b60525b4e88b0ae656b89733f577a76d474f07a tty: serial: uartlite: Support probe deferral
+         7af77ba42467da8a4dbfe0dfd0a467227e8fbe5f tty : serial: jsm: Fixed file by adding spacing
+         aef1b6a27970607721a618a0b990716ca8dbbf97 tty/serial/imx: Enable TXEN bit in imx_poll_init().
+         e0efb3168d34dc8c8c72718672b8902e40efff8f tty: Remove dead termiox code
          
 
---===============5101588952858204035==
+--===============8469238473192935496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607183106 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1607183028-28c4384895beeb3311b7d749b10234fb67c68fa5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607183154 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1607183077-9c3b5eafa36daf51aa291f1d38a89ce594557495
 
-2e37d91cada138f1c41b5706698b68355d0bafe4 5812b32e01c6d86ba7a84110702b46d8a8531fe9 refs/heads/driver-core-next
+f35a07f92616700733636c06dd6e5b6cdc807fe4 e0efb3168d34dc8c8c72718672b8902e40efff8f refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/LqwIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S28QANY43nGjGAQbTcQyg0G/
-yLHqS8U34NdnB6DI1Jndltv0PE8PuOB/7R4/R7Adjm0v9uukJseCvPDBsOnFSHpN
-cGdq4zVAqXj4O0A2iCGkvbUtREKEFgvo9bd8cE+Apn7Le8Ruf3YZVCyOoiF1lYbu
-cmKACQX9AVz4e2SmJ4dk8MG1xbYNRC6ey3HI4vH1Wcsk6bio4g6Rc1vO/hZLtAuy
-SjZ9MtEy900zYZCP8ko4VkqGv9sKF9AEq21IXMMZQLKXFL2URw/xnbKCaxjvKbBe
-AyPBDCZV0zVjzyVPzToYUYyX+0wB1PsSJJIgm5SaiePdTbpipT9ksR66Zkdya+uT
-J6fwKGzhtamxOgzZudsiLxrnuOrZfddGdI9vi09eaZtjpBh7HgUp0FkkR+L2yAOO
-gk/Z+Xy27/ya2PPIRcVvNkeDNt3CKhazoRUasUcT3r43oFXuLtrZfmUFFbMiIMv8
-LQGoVQljHSKapQ3WaxOE4uCsMA9OeX+oL5uQkfWUDqGj7yTfF21Kz7alYMid2FER
-v51T3AzIqlQDwdK/b1Yy35OVKpFgvf7IiljaevidZVhvGmdEfWkMLUY+ub/4dLMR
-+cWSbC/bRwdyWuknZC0u4oqXbCQLxKxpy9RQCKpmJaPz8Jz+uRnEGfZVi+0VKINH
-iPhLd4pMcWG1NoNMKVuII+QW
-=Q6gJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/LqzIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y7UP/RyzjdqRKtOnDtPcIPez
+SuajPBRhaqlDTXqqFS0Kt2qeisegUoTFAD0paUiefRdgbLg0JnNDJf4PTZoT/8fh
+3rVd4j2J3EVgfPREiiXeHNpybYkCb9OkrwtvU30Vu4N+SuUNx3X0CaKg8Z8vvCSd
+Why+BXHYwlVV80MUwNmocAjvXiYjSZxAU9BU1Mlu3T02PSNzHjixIOCJ9VT+au3P
+GLtXSLcT8DjosAvNAhv015QrON9JgjFrxw+vSRWLE887lSIQPuyZ0FHpwSBdZomA
+A7b4E/4Oq4Ye7i3F1xYilkMC19sjSGkCrt5d7glw5DKkhLbpMwYiNo39v+dlO9Fk
+RTjTKJg/1hkgLC2qIJF/lpSevIqd46ZwrGvAXosVSd/9mMcZbTODqgsTDgsxui08
+KBHxMaoZUrzINkeBC/ROzdv5MajziLsrm2KuwFZD7cw1gk6hOwpaZAp4Yy7k8bC0
+KIi0Oe0WwDHui4JH+5rET0RY/gYs9a3W8NrYopM0LfqQGJxPahfSeR2CrZ6aR2mQ
++GWkTGjpvEnBRzqyOM8VdkrkqlRWngPdgpLJFqoAdO8PYDocrLJttuCwW5GBbzcD
+OyXp+qRjSl8e6feh9RnZW8XS/v6YAHW72J0eWDMBQmX1Mgq9BJycITHZH+PUhMHv
+ek4xEkd6t9SB3A0yq6sV0Yx/
+=gPBV
 -----END PGP SIGNATURE-----
 
---===============5101588952858204035==--
+--===============8469238473192935496==--
