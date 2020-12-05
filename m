@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Sat, 05 Dec 2020 13:55:38 -0000
-Message-Id: <160717653879.23121.7654126794907902732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Sat, 05 Dec 2020 13:57:06 -0000
+Message-Id: <160717662676.23661.3553995886090411729@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/i2c/for-current
-    old: 61e6fe59ede155881a622f5901551b1cc8748f6a
-    new: 2bf9545626f8d09f552ab86d0047a415fe9a07a0
+  - ref: refs/heads/for-v5.11/tegra-mc
+    old: 0e1bcf2c05d0a681c04351fbd60812aea99354b6
+    new: d76fa3f2c252421faf326afd5f445bed5d34075f
     log: |
-         c62dac0a35bb6d351cd568e97090c5fd3e7aa532 i2c: mlxbf: select CONFIG_I2C_SLAVE
-         2bf9545626f8d09f552ab86d0047a415fe9a07a0 i2c: mlxbf: Fix the return check of devm_ioremap and ioremap
-         
-  - ref: refs/heads/i2c/for-next
-    old: a4775010c0fa27af4ae947a0663b8cc87cab2d3a
-    new: c80de4722a0171d69763f8e6793490cbff7af18c
-    log: |
-         c62dac0a35bb6d351cd568e97090c5fd3e7aa532 i2c: mlxbf: select CONFIG_I2C_SLAVE
-         2bf9545626f8d09f552ab86d0047a415fe9a07a0 i2c: mlxbf: Fix the return check of devm_ioremap and ioremap
-         c80de4722a0171d69763f8e6793490cbff7af18c Merge branch 'i2c/for-current' into i2c/for-next
+         9bd5773e02d174dfab3c336fc43d18ec15afc5a3 dt-bindings: memory: tegra20-emc: Document opp-supported-hw property
+         7e04ce2a9d3071f791a8147b5d3c8ddbb8e38989 memory: tegra20: Support hardware versioning and clean up OPP table initialization
+         d76fa3f2c252421faf326afd5f445bed5d34075f memory: tegra30: Support interconnect framework
          
