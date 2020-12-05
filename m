@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Sat, 05 Dec 2020 07:47:15 -0000
-Message-Id: <160715443566.15793.18110847604755850618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Sat, 05 Dec 2020 07:59:56 -0000
+Message-Id: <160715519631.22471.8952560727782352208@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
+repo: pub/scm/linux/kernel/git/phy/linux-phy
 user: vkoul
 changes:
   - ref: refs/heads/next
-    old: e04e60fce47e61743a8726d76b0149c1f4ad8957
-    new: 17e0da0b8979a53977f684813f5c9db817d170e2
+    old: 3eaf2da98993ecdf6e46a2b27cd31ef84a12e45f
+    new: f5f6e01f9164040ba120f30522efdb4deceb529a
     log: |
-         17e0da0b8979a53977f684813f5c9db817d170e2 soundwire: intel: fix another unused-function warning
+         ab7dd2008b29e48cff216aa984902d59b583d36d phy/rockchip: Make PHY_ROCKCHIP_INNO_HDMI depend on HAS_IOMEM to fix build error
+         f5f6e01f9164040ba120f30522efdb4deceb529a phy: mediatek: allow compile-testing the hdmi phy
          
