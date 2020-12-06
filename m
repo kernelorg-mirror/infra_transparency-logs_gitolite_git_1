@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7478466042367282522=="
+Content-Type: multipart/mixed; boundary="===============4114312031492007269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 06 Dec 2020 10:19:13 -0000
-Message-Id: <160724995368.17518.2522318134039801965@gitolite.kernel.org>
+Date: Sun, 06 Dec 2020 10:19:15 -0000
+Message-Id: <160724995561.17589.2762213712799705386@gitolite.kernel.org>
 
---===============7478466042367282522==
+--===============4114312031492007269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,79 +16,86 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: daefdc9eb24bfa11ab77a4b2a9c3923f1051fe0b
-    new: e4593a0ad2bf82318685491595c2a50e2bc1b12a
-    log: revlist-daefdc9eb24b-e4593a0ad2bf.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 42af416d71462a72b02ba6ac632c8dcb9ce729a0
+    new: ed5d9e2968244d51101f337ae7897a841bf2f4a1
+    log: revlist-42af416d7146-ed5d9e296824.txt
 
---===============7478466042367282522==
+--===============4114312031492007269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607250027 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607250029 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1607249951-6336b397d1149b2fb247141888bb082a5bde2ee4
+nonce 1607249952-5cae51c60546bb9dd1239e404551c5130c62aeb0
 
-daefdc9eb24bfa11ab77a4b2a9c3923f1051fe0b e4593a0ad2bf82318685491595c2a50e2bc1b12a refs/heads/linux-4.19.y
+42af416d71462a72b02ba6ac632c8dcb9ce729a0 ed5d9e2968244d51101f337ae7897a841bf2f4a1 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/MsGsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3qQP/0234jvK74fK2vloHLL6
-P2B/ceeasD3NxuzdgwJ9QIvBxVo39Ltra+LIZ3oXyZvAoaVIpFcZa3pN4y4KPuSc
-nyTOCi6T+hXWkcj9g4atb9D2SUVQB/XdRH4oFllSWxGsqAfbyB1x3hHGBUWOrJVu
-llpvbAk2+ZPyn97xbAP4FWXRM9qN8zdeLCpGYjWvBLuoTpb9lf+vrWjEDhh2ABfd
-ekzPJysRxcMNboU9cdSma+rWK3uWgZEce14xm6neUUImOR8ubq0tL4csShG8fR6L
-MH+ORy6vFodpWEf449699UE2Y3k3AlNSKiP4EAoOUox5Qls968D52z/+TAzMLjT7
-5mNxiHdYKkLmfJA0liLAeZObsECkcr69t7Y9AZ5W6adGe4Vt3LqTQVrpxVoYITve
-iAHkmJMgl0Vn5F10V1kjPxLlfbjOGoqJWzeT0PIC5tqkaUlqF9wYuuC4KINJFSoL
-+7rDo6JAyc5V0wujXVyPdmT/KwIEvpNyGCQIujYywobUSKnYnTce+fuOTd/bA0Bk
-0R1DaRHXvCqs7hbQLE2jcyZH2g30BCwiUB6wR2n6qGN1YiP+d7oxAIi14mk3ivVM
-XfxWufVJsuf4+YHZVAzlUDfDB/Z/KpUkQl5lfuBxsRi8WqOL1N42WRmouYVGsp3H
-vBmKM5PJW9F+VLlxs2iqy548
-=GgLV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/MsG0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9wwP/jOPVqdqpuNr3dC1iYQS
+qUvgDi72QBxT270QGqQFQvYUl+1c9Gs+0SDLoJWtUVP1coHULLYXs6nqXSOr0lLY
+KYprK661tzumqQYk1G7HoZxteiFozY6SPpoo4d4piUOJdChxPG9gWTUdxpbC6wI9
+/XQohEjxjVkeFXxnww4wIxR28FEZjokbWX+JJrPJsCNP6yoqJ0mWCrW9N9i0yqqU
+q7AvXRQLzi6NPPV2LOkr1gxeJiTnQxpELNA06s512bU2+OSPRNUYvkdP1Ly08NHT
+88b3ARn1V9Mh9H8FAq2gKiYV/E64Y+7kSqQCPF39P3v515mpQGCzRCWKFQghFoKZ
+RilqsOx0ryZNXzsbGqt0AxnsTI1ahys4ah29AbpcE1/y0IM+Y+Uk8J7zxhQ8WhnB
+4ZmNcWrqzQ3U2fj5nM7vMwG6cpXqil/Y2hEHD7mqpG/o8ZeNjaz0pMkCUE4zDLMK
+rNYl2yCIRokmKM6A1BwNNw5HwN6SInLrGXd/NybBnwotWZhWW4z6MM+8266imzea
+tRLaCX6XUdg2Tw0LMleRF1azM+HUm4ojEVbsJbQTABcNqTlGNRoElIhuwlFCW8K9
+BasO519fWixPeSgjURAC2sZjZoZVzV2aCS2rgRfZksElj4WTsN8tsiqIhUf1vu0X
+0qvvJsDgEXarXET+AcNNyk9J
+=vXRV
 -----END PGP SIGNATURE-----
 
---===============7478466042367282522==
+--===============4114312031492007269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-daefdc9eb24b-e4593a0ad2bf.txt
+Content-Disposition: attachment; filename=revlist-42af416d7146-ed5d9e296824.txt
 
-cc1b4bed16fbd1b3192034bea10b411a211c400f ipv6: addrlabel: fix possible memory leak in ip6addrlbl_net_init
-531b7677764bc62664180072b695c0a5f0bcb7b6 net/af_iucv: set correct sk_protocol for child sockets
-b4ad1acc87e878d8f54e124fcc66ac67472328eb net/tls: missing received data after fast remote close
-0390bd4cf11c00069973af72099b6ba61a57d498 rose: Fix Null pointer dereference in rose_send_frame()
-f6936aac9066e7c11632df2a07d4156f54e7c883 sock: set sk_err to ee_errno on dequeue from errq
-8e9c1cfb7eac89592df8a8527931df5f16893242 tcp: Set INET_ECN_xmit configuration in tcp_reinit_congestion_control
-6b4f8a4a9bdad258fdcd4f2c631a1519166a3745 tun: honor IOCB_NOWAIT flag
-8931d818a4d8e958f6565531bfe922d3fcdca536 usbnet: ipheth: fix connectivity with iOS 14
-3fe583a29e19c1f2fac7ecaf3b9a386e59f69c85 net/tls: Protect from calling tls_dev_del for TLS RX twice
-f491a74145549e3ad93f06b0dc5e935ad7ceb51c ibmvnic: fix call_netdevice_notifiers in do_reset
-cb617def275e2729e4e0661bf52b53b6e75e0770 ibmvnic: notify peers when failover and migration happen
-9b7a9c0f8b9206a3ce497061aa0740aa18725de6 i40e: Fix removing driver while bare-metal VFs pass traffic
-69fb593fbd4f3a877072bf277eb36c5f42246cd0 bonding: wait for sysfs kobject destruction before freeing struct slave
-dc8c31afbe5dcdbc948e5f6470bf9b118a1d4e7a netfilter: bridge: reset skb->pkt_type after NF_INET_POST_ROUTING traversal
-1e3f615380a833a8b856a8b4f4a2b51c2f8e99e9 ipv4: Fix tos mask in inet_rtm_getroute()
-9b0226e191871ae459ec5c41c3a4a577d54dfca3 ibmvnic: Ensure that SCRQ entry reads are correctly ordered
-7cadbc93765667e7cb4bc97701eed93ab8a34030 ibmvnic: Fix TX completion error handling
-f5da8776e1df7c1d1cc56145a94d4d1e92210390 geneve: pull IP header before ECN decapsulation
-f9125f0f784dbc8c5b9f21dcf0ffd24133f315ce net: ip6_gre: set dev->hard_header_len when using header_ops
-96230f651f85a82995ca3403eeb321f06acb471a net/x25: prevent a couple of overflows
-1daefd9ed127a764dd65d9484c19683482249ff3 cxgb3: fix error return code in t3_sge_alloc_qset()
-a4009de1d52c33fe36f7fb4512145cffaeb77268 net: pasemi: fix error return code in pasemi_mac_open()
-49416165b4aa6f8fb46d968a5b0d2e7a56ef84b9 chelsio/chtls: fix a double free in chtls_setkey()
-c2d0ed68bbde80acd17aadf1943b8001c87108f6 net: mvpp2: Fix error return code in mvpp2_open()
-a4674889602701621e0de7a229a8e1e50e243b84 net/mlx5: Fix wrong address reclaim when command interface is down
-fc2885fa5b99cc80076d2676638bbe2ea12544a1 chelsio/chtls: fix panic during unload reload chtls
-a7b4a6e49628c59517a8ce58d522184f1cede681 dt-bindings: net: correct interrupt flags in examples
-de3e713a1b9b2aefbce4be63fcad1863ae4a0416 ALSA: usb-audio: US16x08: fix value count for level meters
-7f7b9b8f94631e34af893d8d17b497fb71266c05 Input: xpad - support Ardwiino Controllers
-0b192b91e8d9f76fdb7ddef07a495a3d8808ecce Input: i8042 - add ByteSpeed touchpad to noloop table
-5ef1131dea2a9ba0634f8eb41f7311c2e96c2873 tracing: Remove WARN_ON in start_thread()
-e905909c90d655cbf9548ff7651f7e23f42fd9ec RDMA/i40iw: Address an mmap handler exploit in i40iw
-e4593a0ad2bf82318685491595c2a50e2bc1b12a Linux 4.19.162-rc1
+f8eb0be7db27c27046696088f7196de5131a8292 devlink: Hold rtnl lock while reading netdev attributes
+b287e74b0c749541f48a89da37545b91ea9e2fde ipv6: addrlabel: fix possible memory leak in ip6addrlbl_net_init
+fd5ab7d7731db025dc48e3972aefa85d3ac129c0 net/af_iucv: set correct sk_protocol for child sockets
+5f3c4a89f1305433cd4ff5e74087c1a5c8dbe28f net/tls: missing received data after fast remote close
+4eae7efc7168b307fdb0eb7451a2d8fe83c6c5bc net/tls: Protect from calling tls_dev_del for TLS RX twice
+34c92af02e9783f1c924aed55e0ada4812241a9f rose: Fix Null pointer dereference in rose_send_frame()
+05c28aa80cabcb4cf3c36ad2f238cc0c0444a404 sock: set sk_err to ee_errno on dequeue from errq
+741795f83418e9ce3750cbb6b5b53baed8ecc70c tcp: Set INET_ECN_xmit configuration in tcp_reinit_congestion_control
+031b676eb2c1c1d2ebaa1df03cbb901ebc8b1d8b tun: honor IOCB_NOWAIT flag
+9408c598cf9c2b137bb8243ed4824bac704e2d5f usbnet: ipheth: fix connectivity with iOS 14
+fb105979739afde6499ef4a1e95edfc4126d961b bonding: wait for sysfs kobject destruction before freeing struct slave
+fadb252dd6f204eb425a22b9df69c21f32f2e4d5 staging/octeon: fix up merge error
+856d4ae9c9e73db7df657a6ac84146854aaa39f2 ima: extend boot_aggregate with kernel measurements
+acd75c060a1c473949fd5578e30e456277b2f911 sched/fair: Fix unthrottle_cfs_rq() for leaf_cfs_rq list
+0eacf9e7701d5df5a13e14032313e65f7807e07a netfilter: bridge: reset skb->pkt_type after NF_INET_POST_ROUTING traversal
+ac58922e676b8014359d6224ebc8b117f1e208db ipv4: Fix tos mask in inet_rtm_getroute()
+febd6de492c3b8dca7aac5840a0b4a1160d9fd4f dt-bindings: net: correct interrupt flags in examples
+adcb254e2b19c5d52714980155e4f1b523268b0d chelsio/chtls: fix panic during unload reload chtls
+636220444db4a7b34164ce957469c7a8842ba83f ibmvnic: Ensure that SCRQ entry reads are correctly ordered
+ff47dcc8148d967dbb953fc1643549ed26a9e025 ibmvnic: Fix TX completion error handling
+8b14255f3736775ebb2bcd690fc1dae99bb2b8a6 inet_ecn: Fix endianness of checksum update when setting ECT(1)
+efb45a6e0c4ae993e57145c3b47e2f7147cf4c12 geneve: pull IP header before ECN decapsulation
+b974b1d65532c15a22574111f1014f7da11da60a net: ip6_gre: set dev->hard_header_len when using header_ops
+e2eb5e35926e65fb137a6ad4bf96b3642024e4d2 net/x25: prevent a couple of overflows
+144d08f00b6c08d1b101d4eb992e663a4a6541f6 cxgb3: fix error return code in t3_sge_alloc_qset()
+bb641943f6250af3e63f74c68afa85088edb09fa net: pasemi: fix error return code in pasemi_mac_open()
+fbe0c9df0115457be60a68131f0b79599844f5bd vxlan: fix error return code in __vxlan_dev_create()
+a12e87c18379a2eb9f3a477bac1e61485c554403 chelsio/chtls: fix a double free in chtls_setkey()
+37f7d31e7425c67da769531caf1212ecf80705c1 net: mvpp2: Fix error return code in mvpp2_open()
+51182ea6c5adce9f417cb695b45bbb35a54fe05a net: skbuff: ensure LSE is pullable before decrementing the MPLS ttl
+8553a8355b0897cb1edb34f7dd20579ecdfdd52d net: openvswitch: ensure LSE is pullable before reading it
+e24d6308607a25c094dcb52c162556df176b6304 net/sched: act_mpls: ensure LSE is pullable before reading it
+9d35b53e177dd64610f9d83dfa0a6653581d443a net/mlx5: DR, Proper handling of unsupported Connect-X6DX SW steering
+b2d2ddbd6e4613849271fc7db1426e4375c5624d net/mlx5: Fix wrong address reclaim when command interface is down
+dbbdcba4aa89def039e5317d8ff4984ef47fb011 ALSA: usb-audio: US16x08: fix value count for level meters
+2e7df88ba78880ce64985d4f54548772d7cf958b Input: xpad - support Ardwiino Controllers
+b830e2bea762e8f0c4366105ee08f0b41d0dd221 Input: i8042 - add ByteSpeed touchpad to noloop table
+0b2ee08cda87966a7faa486fee94608dc68afb65 tracing: Remove WARN_ON in start_thread()
+d60bc6b38e422795075282783aebc2df22da1293 RDMA/i40iw: Address an mmap handler exploit in i40iw
+ed5d9e2968244d51101f337ae7897a841bf2f4a1 Linux 5.4.82-rc1
 
---===============7478466042367282522==--
+--===============4114312031492007269==--
