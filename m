@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 06 Dec 2020 00:19:28 -0000
-Message-Id: <160721396854.30223.987314809945013313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rw/misc
+Date: Sun, 06 Dec 2020 00:20:05 -0000
+Message-Id: <160721400513.31849.15544111095796570807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/rw/misc
+user: rw
 changes:
-  - ref: refs/heads/master
-    old: 33256ce194110874d4bc90078b577c59f9076c59
-    new: 7059c2c00a2196865c2139083cbef47cd18109b6
+  - ref: refs/heads/muse-wip
+    old: 70de87ab5e1ccbcce99b53525e9eb5ca5c44ad07
+    new: 5ccb6c2fab4a0ff0c784b336e0c8121f8c963635
     log: |
-         fa248db082270200863d254e0f39bbb29923d6b1 Input: soc_button_array - add missing include
-         855b69857830f8d918d715014f05e59a3f7491a0 Input: i8042 - fix error return code in i8042_setup_aux()
-         a48491c65b513e5cdc3e7a886a4db915f848a5f5 Input: i8042 - add ByteSpeed touchpad to noloop table
-         2aab1561439032be2e98811dd0ddbeb5b2ae4c61 Input: xpad - support Ardwiino Controllers
-         8c3b55a299c325830a987de21dab6a89ecb71164 Input: atmel_mxt_ts - fix lost interrupts
-         7059c2c00a2196865c2139083cbef47cd18109b6 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+         d4aef61cde5a522ae6898c9fc435b06d5c7dea26 mtd: Allow passing a custom cmdline to cmdline line parser
+         47d3e6497d337756709338ca8f99295659f915c5 fuse: Add MUSE specific defines FUSE interface
+         6c16b3befe350a08919c6d6427754e281066a33c fuse: Implement MUSE: MTD in userspace
+         5ccb6c2fab4a0ff0c784b336e0c8121f8c963635 MAINTAINERS: Add entry for MUSE
          
