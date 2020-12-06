@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3648643781724556878=="
+Content-Type: multipart/mixed; boundary="===============9200602326490119629=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 06 Dec 2020 10:19:10 -0000
-Message-Id: <160724995041.17365.12209582291812377749@gitolite.kernel.org>
+Date: Sun, 06 Dec 2020 10:19:12 -0000
+Message-Id: <160724995224.17448.3937059392178319391@gitolite.kernel.org>
 
---===============3648643781724556878==
+--===============9200602326490119629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,63 +16,67 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 5d55c2adbefeb2d49d16891ed8ca8d03789fd31b
-    new: 4b9f1cf474b9c0eb3e3df12c1d0e601afa839182
-    log: revlist-5d55c2adbefe-4b9f1cf474b9.txt
+  - ref: refs/heads/linux-4.14.y
+    old: c196b3a9c83ae3491280b739d231d02b3cb9d041
+    new: a6f93b82e1d6291be12516c5afc5672e0a89eed3
+    log: revlist-c196b3a9c83a-a6f93b82e1d6.txt
 
---===============3648643781724556878==
+--===============9200602326490119629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607250024 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607250026 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1607249946-f493d70ed560259a9bfae1839e45b3c5d7225659
+nonce 1607249949-e1f7b481bc2afd5099979d622eca38e12bcda262
 
-5d55c2adbefeb2d49d16891ed8ca8d03789fd31b 4b9f1cf474b9c0eb3e3df12c1d0e601afa839182 refs/heads/linux-4.9.y
+c196b3a9c83ae3491280b739d231d02b3cb9d041 a6f93b82e1d6291be12516c5afc5672e0a89eed3 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/MsGgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n30P/RpkZZqxzdpp+BmB8RtL
-VbTt3RUNytrf0rL8gkI5Wg9MPdGAE6A9tQHSqLcCTNnY6S2zpvHpgKkRtbVHbRzw
-AaOMZg9Q5nZ8YT+d3pAO51nMweAHn2znl9rRMx5FHQbWnQSON7xgQuETbQHAG0Kv
-xRt7c763k5h8YYz4QG1oZem/wa6joTsSElkgp07UKbP2xp0HTsAp7xoAOZz5Cs7p
-J4er2Bc0U7gISb99yVGZmu9c4f4XFLXtzWkMT+916/CpnIyFZBwoPvKNZmJz+u4k
-r1VEQ+4qfU4Nnkz2LjdgRCAQ5trQ1CI22y/vsv9Llz00xB9wE9tZ2O6QJaEGIsMs
-CMsNc2bdEsrvTCw4u5ODXFv5IS2ZCpn94JLM0f2uNNWomZ9utXktt3rh/F+XaEzq
-c12dAtZttzaLjSWePspY8pKM4qQsy1/gsNIdKf/2bLKntGYIHaYHU5BKKLVyTkdd
-jqjm/cVl4IW/zT9ZM0wYTnZNJzJq6JrQwtOEu9T3BiA2kUbgoGg69sC66hDGtreo
-q3bI7NG2eOf3AnGcshud2U9aZTcXdcpfKuqq8Gs3xgLLPmPeCzrB27PeNk0nQOEi
-mLVuR/n36rwbDXOQMA0xca1F2TG5uXs2Gnt0Kmhc3hA/R5Y9YZr/MqvK4xHi8WW/
-WBNan+EjRZJOW6hW4Ed9PlMI
-=fee+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/MsGobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T3cQALhcttgKZUFvnoxxOvEo
+5mn8VCgdvJR6MH0RaQ5388yKAFzXT6AeRP4b7FmrS+tPZLwLfhaE05dBmoxiuoY9
+j+T74qrpJLbpvulrOrJ/Xg+K32jfjlW2OLpGRfb2B9Vtsjsy6mkxs/zzUoxFPAsf
+FQqU1d6VcGodBU/mGfNaVd/mjLO46+WPSagtgihhi6FuXRQb2qURHYD8Rl7BbGXo
+DD1xcBlD8zGM72gJ2V8iS8iZgt6xEg0hm0trE05AO51Gwubp9UW4rEPhXuZLdfQt
+gZGwc7iAnpKk67+z2QGko5pYwDz6C+T4BC8pqbQH4cfhj8fRG6oK43o0FqbkPH3D
+fZUAS0QK6WkWgOVQnZEGAPLq/PnUA48YDzwx31tIZBtmhZMsvouKA93cFneQQvUi
+NCtg5cZaBhhKwIi0Y6IRzlafcEUWlBg2AQryyJVONprmrDs2pErKGRgCyjm2oTzj
+kQ8KFvhUB8xCXmUKe5DKwgkA1RJEsAlkt6VJRil111lB1IDo2wfGV38gg24r1PnB
+FNvc8zeQnw1NC10+SuEpmdlpYBbWG1Ww8a/9aDaOaSRgmTWW4jNEGpcPbfs08eAv
+Qa2xgMXl2GUwVSC0BjoSbhilqsn5y5PcyxUgm7BDFb4oNIP8cSeyE8tPJ2TNprJr
+4R2wVc9OOP/LxeFAg1ewusDe
+=IBsS
 -----END PGP SIGNATURE-----
 
---===============3648643781724556878==
+--===============9200602326490119629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d55c2adbefe-4b9f1cf474b9.txt
+Content-Disposition: attachment; filename=revlist-c196b3a9c83a-a6f93b82e1d6.txt
 
-80d521967c262a9b5ad3fc3a7b41cb83f5020c84 net/af_iucv: set correct sk_protocol for child sockets
-64c08f8cc2c6245b5755c32b99b7a7e85c50cc42 rose: Fix Null pointer dereference in rose_send_frame()
-93ca7def299a9559484c600f4cf4c71d4810fcd6 usbnet: ipheth: fix connectivity with iOS 14
-77498c8a7fca67370b24c504517b0e6796ca6921 bonding: wait for sysfs kobject destruction before freeing struct slave
-704ebcd884807e059bfbd6da060c9fff03301d7c netfilter: bridge: reset skb->pkt_type after NF_INET_POST_ROUTING traversal
-c5d4568c9c139b73f053e6f2c55984e311def2c7 ibmvnic: Ensure that SCRQ entry reads are correctly ordered
-c870c3046a02e55485bd97daf0caf22ac830eb6a ibmvnic: Fix TX completion error handling
-126328814636f6be5aeafb170639355592e5effa net/x25: prevent a couple of overflows
-9caf97906fb54ca0025290d908b5057a3c1e8150 cxgb3: fix error return code in t3_sge_alloc_qset()
-11fbf46788514b56cff30f549db9e7aa37d74ab3 net: pasemi: fix error return code in pasemi_mac_open()
-a5946a502051b7edafc7e59b0bbc12e929c1e278 net/mlx5: Fix wrong address reclaim when command interface is down
-24051548b6a2075485393d6b42cc9cc468ffdc6e dt-bindings: net: correct interrupt flags in examples
-8894345880a39bde248eb2e9322add2a3c244645 Input: xpad - support Ardwiino Controllers
-36911215343ad2e2040fcc4e397c8745f1dbb601 Input: i8042 - add ByteSpeed touchpad to noloop table
-ef7862688da9d5ed214a24547c6d06bc5e0066d2 spi: Fix controller unregister order harder
-d1fdde999aefe6cfb7eac891794a48f73567ace3 RDMA/i40iw: Address an mmap handler exploit in i40iw
-4b9f1cf474b9c0eb3e3df12c1d0e601afa839182 Linux 4.9.248-rc1
+e5a29e423dc298bb7ea47f6c1f770399c5db1faf net/af_iucv: set correct sk_protocol for child sockets
+4eb7d0125e2a0c1fda13d932301544e9a9c4fb85 rose: Fix Null pointer dereference in rose_send_frame()
+80329d5672b254af8f9e3870196f8a8d298cec6a sock: set sk_err to ee_errno on dequeue from errq
+b4423e1d72f903f5351eea425f8ae9f0593399dd tcp: Set INET_ECN_xmit configuration in tcp_reinit_congestion_control
+11a7c79855322bdff74b66b4f08007645c53a838 tun: honor IOCB_NOWAIT flag
+fac64d0888aeb615634c62be78b9793831a34b07 usbnet: ipheth: fix connectivity with iOS 14
+843ddea3e0ca44b0a6f64b35fe77f3f0d6486fde bonding: wait for sysfs kobject destruction before freeing struct slave
+70bcbeb66061bf3be8d154059a3b469e751555ed netfilter: bridge: reset skb->pkt_type after NF_INET_POST_ROUTING traversal
+0eb860717e7002ad0da7bed03873cd06bfdd7f1b ipv4: Fix tos mask in inet_rtm_getroute()
+9203b5c63d0aa22f3d56ee1282b8df58fac012be ibmvnic: Ensure that SCRQ entry reads are correctly ordered
+70058064dfcf0fe4f689bff1419153934f922de5 ibmvnic: Fix TX completion error handling
+a0e91c7af6d56680ba0a34792bc0d3f706ec6a12 net/x25: prevent a couple of overflows
+6802df5da1636bb5df038fb26a01ecac44f18951 cxgb3: fix error return code in t3_sge_alloc_qset()
+7da36bf1b5d62da6ad6c63748235ff0429c05850 net: pasemi: fix error return code in pasemi_mac_open()
+70b22d768c8373291f47fa3f83eee204f42b57a8 net/mlx5: Fix wrong address reclaim when command interface is down
+1a65d8f9ef28fda1730084075b74b23d418d9d48 dt-bindings: net: correct interrupt flags in examples
+1498ede63ca160a464072229d5e1848826fa6bb3 ALSA: usb-audio: US16x08: fix value count for level meters
+eae0e41cde1956e5ace4f97ec9fda6b64db5d62b Input: xpad - support Ardwiino Controllers
+f665dd06ffd05be7a857ee2e3217b9ba2fa43ee2 Input: i8042 - add ByteSpeed touchpad to noloop table
+51d12e4b5b8434e1d8d9381738126110247d6374 RDMA/i40iw: Address an mmap handler exploit in i40iw
+a6f93b82e1d6291be12516c5afc5672e0a89eed3 Linux 4.14.211-rc1
 
---===============3648643781724556878==--
+--===============9200602326490119629==--
