@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sun, 06 Dec 2020 12:17:22 -0000
-Message-Id: <160725704285.29220.2163024019425643985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sun, 06 Dec 2020 12:32:23 -0000
+Message-Id: <160725794345.7533.11728952767839207248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/tags/v5.10-rc5
+  - ref: refs/tags/kbuild-fixes-v5.10-2
     old: 0000000000000000000000000000000000000000
-    new: af69a948d2ce48f8bfe9935958d12f86fb50326b
-  - ref: refs/tags/v5.10-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 2884f0b6b25db35053dd51e8e1839696746d8321
+    new: 95c2952773aaf35376586487eb4d1dde60371289
