@@ -1,42 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============9053545469385177277=="
+Content-Type: multipart/mixed; boundary="===============8750695759148831968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Sun, 06 Dec 2020 11:29:39 -0000
-Message-Id: <160725417948.30074.11119087074971428394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sun, 06 Dec 2020 11:54:10 -0000
+Message-Id: <160725565099.13201.10056939408232352683@gitolite.kernel.org>
 
---===============9053545469385177277==
+--===============8750695759148831968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: be100b6604d1e01960577b0f628d75bab6ea8c21
-    new: 9b185cd4fdcafa16d6da8224e177f807d7737bd1
-    log: revlist-be100b6604d1-9b185cd4fdca.txt
+  - ref: refs/tags/generic_lookup_helpers
+    old: 230e210761c9db43669e582b08fba23edd5578aa
+    new: 0000000000000000000000000000000000000000
 
---===============9053545469385177277==
+--===============8750695759148831968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be100b6604d1-9b185cd4fdca.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-43bb48c38e817b5f89fce340f49436a605e47e66 pinctrl: actions: pinctrl-s500: Constify s500_padinfo[]
-89cce2b3f247a434ee174ab6803698041df98014 pinctrl: falcon: add missing put_device() call in pinctrl_falcon_probe()
-517c3f5a8683c950efe17aa01e55efb3b0f2c770 pinctrl: mtk: Fix low level output voltage issue
-0a03658d222a99b192a7f84e41e8af197a87259e pinctrl: at91-pio4: Make PINCTRL_AT91PIO4 depend on HAS_IOMEM to fix build error
-d05b7691904b4b754b8469aa98a6b82523fdadad pinctrl: pinctrl-microchip-sgpio: Mark some symbols with static keyword
-47a0001436352c9853d72bf2071e85b316d688a2 pinctrl: amd: remove debounce filter setting in IRQ type setting
-c3c882898d07157a1b083aaaddf0e8346373d111 pinctrl: aspeed: Fix GPIO requests on pass-through banks
-4247e3f562619a05682b3d3d5d92d54ca46a2a43 dt-bindings: pinctrl: qcom-pmic-gpio: Add pmx55 support
-ceb58de4365fff8b503b1e6ba7d1110613adb305 pinctrl: qcom-pmic-gpio: Add support for pmx55
-700a51192d09a2f7bbd49ab9b7e7920ecdc5c1bf dt-bindings: pinctrl: qcom: Add sm8250 lpass lpi pinctrl bindings
-6e261d1090d6db0e9dd22978b6f38a2c58558a3f pinctrl: qcom: Add sm8250 lpass lpi pinctrl driver
-9b185cd4fdcafa16d6da8224e177f807d7737bd1 Merge branch 'devel' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607255722 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1607255646-7e5a51674b304fcb0b6b43266d3a87cda1ada85e
 
---===============9053545469385177277==--
+230e210761c9db43669e582b08fba23edd5578aa 0000000000000000000000000000000000000000 refs/tags/generic_lookup_helpers
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/MxqobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zg4P/1RGBlaA65YhMOnoHxF2
++q8E5F1TivQtdSp17GSnaTuCFHuJVPoSxlDdFjmE0icWS+YwLekLrLsuYa4HO4OG
+VHCBjNd3Ph4n86Z+Rs0GOpvqm6DmX7H7oyTCNeCbirIkm0FJPGwuHcyQhIRfUdJk
+itK4Bijf+h7LC2WS6+uVKJeFDm6Zmr0rviwPijDXGbv+L4OYnfdf12Y/s7m7HJ3b
+8BV4msQopWf1FAK0UjwwcJfRj6PzrgY/1GFuiFwNlNpkNrN37SrWLCQ1tfFCUL1Q
+bCQHrg4Gcj/IKgF24FGgQ+EzvqpXwVXoFv2zI+qtL4cmlHCqKHCjmB977vdN3ZrM
+xpbaUE6YsoBjKWIDmLjiR2Iz2UUXF29tU1e0C95OpnZwl2y/R5pMOQ/rLQtvyU+w
+1wQf6ZZ59gncPXH+LzX9iY5TzQImcrMAqsxfFpknB1OQSrtxgA7pq2Cu7MRRR8WO
+eGTx4FiKHqHj2mCviERhV3kSXfjs2z4rBEHGMAfp8IUEyy15M1i6dSdxI2uFPV8M
+186/sxzkIychsRupYB8r0R1/S/CO0nU1ytAePkU5pLS0Et03aRYlSUYESWp9V5cR
+SgIEIwSnRBeLSWBthJLXoxFg0O5QNjPvJRefoENjdFr1vSvQZbzjqAsWNTLJvQfA
+rqIsy2wubIKKcW6D3uKqAvp1
+=18Tj
+-----END PGP SIGNATURE-----
+
+--===============8750695759148831968==--
