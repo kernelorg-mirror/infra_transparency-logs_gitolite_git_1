@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Mon, 07 Dec 2020 20:00:03 -0000
-Message-Id: <160737120312.10634.5465999319461350323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
+Date: Mon, 07 Dec 2020 20:04:38 -0000
+Message-Id: <160737147891.14251.8211856868948927692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/andersson/remoteproc
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: 12c8a8ca117f3d734babc3fba131fdaa329d2163
-    new: e3366884b383073a7edc1bad9634412ae0a22d4e
+  - ref: refs/heads/rproc-next
+    old: c3c21b356505e2f4c528d22903531f7764e18998
+    new: d247d1855acafe14afbf4b3102cb239f9412b5da
     log: |
-         d9054a1ff585ba01029584ab730efc794603d68f lwt: Disable BH too in run_lwt_bpf()
-         e3366884b383073a7edc1bad9634412ae0a22d4e lwt_bpf: Replace preempt_disable() with migrate_disable()
+         9d7b4a40387d0f91512a74caed6654ffa23d5ce4 remoteproc: sysmon: fix shutdown_acked state
+         d247d1855acafe14afbf4b3102cb239f9412b5da remoteproc: fix spelling mistake "Peripherial" -> "Peripherial" in Kconfig
          
