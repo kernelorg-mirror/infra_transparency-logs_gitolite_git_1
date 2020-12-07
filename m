@@ -1,44 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8806217680567286569=="
+Content-Type: multipart/mixed; boundary="===============6511826455021628508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 07 Dec 2020 09:24:53 -0000
-Message-Id: <160733309355.22044.8573212993367922320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 07 Dec 2020 09:29:12 -0000
+Message-Id: <160733335246.24581.14400052806987576813@gitolite.kernel.org>
 
---===============8806217680567286569==
+--===============6511826455021628508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/experimental-tests
-    old: 9b2a081e87657527e7a2a74a1339cad8f6992732
-    new: ecc64b2b069ffacb3c1bd5f0c4a80de5a4320278
-    log: revlist-9b2a081e8765-ecc64b2b069f.txt
+  - ref: refs/heads/char-misc-testing
+    old: 6e559fe128927cc414406b63eb92ea16e673f43d
+    new: ee64ed8153abf6668d662ba451ecf539cad63017
+    log: |
+         85261c1ff156eb60fc26c378748387f2e85c6878 mei: bus: add vtag support
+         ee64ed8153abf6668d662ba451ecf539cad63017 mei: bus: enable pavp device.
+         
 
---===============8806217680567286569==
+--===============6511826455021628508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b2a081e8765-ecc64b2b069f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-50a0342aea14d9db20fb1a17c8006e2211da0a08 erofs-utils: xattr: fix OOB access due to alignment
-2293451607f7e7bcc56534fd7d96c0708bd76a64 erofs-utils: update .gitignore
-d563ce600618a13ffae54c45a1e7cb0c96ead82b erofs-utils: don't create hardlinked directories
-c4595dba777030dd967d882b0869560bb59ac922 erofs-utils: fix cross-device submounts
-657432a21deaee8f63005c8f9694d232aebd5db3 erofs-utils: update i_nlink stat for directories
-9555d9eec1ecdfdb387fa623457fd5af18452e53 erofs-utils: document erofsfuse in README
-4cfd6601941b4923979f7ad96af03089c373eecc erofs-utils: release 1.2
-1bb514668c2814dda68b0a82903ad0f73f26be9f erofs-utils: introduce a built-in test framework
-00e9e7f80ea196e23ecd8608bf4428260d0632ad erofs-utils: tests: add fssum tool
-6627f14c33b2b9aec14505535e79dc44a73c7d46 erofs-utils: tests: add basic testcases
-bca1f6ea222530225d15b2599ff4ed5130951f9d erofs-utils: tests: testcase for bad lz4 versions
-5bc53c0beb7da1264de9e4e99e4d6476601932f8 erofs-utils: tests: add test to avoid hardlinked directories
-f3225b86ae8b61af905c31b293b3e6c0e8f32e3c erofs-utils: tests: check for cross-device submounts
-ecc64b2b069ffacb3c1bd5f0c4a80de5a4320278 erofs-utils: tests: add test for # of hardlinks
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607333417 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1607333343-aa566aa2c7cb780332353dda519ad9b0cc754304
 
---===============8806217680567286569==--
+6e559fe128927cc414406b63eb92ea16e673f43d ee64ed8153abf6668d662ba451ecf539cad63017 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/N9ikbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A18QAJpf7UIAcLJIP2z33OPm
+njaGxeQcIUkAmY8GUCu836xx7VQREKuUYi1Nwa8SO1d6ptPViJ+itwsmSiUzdpqH
+w2RsBnbvWQJE8XmYlhgplZoSFso27gKY9NfYWq4ndk76hrm+dd0ukt0h77Z7+EcQ
+6AfttJBtW0aluJgW9bZW39fKEcLnOlaAEckFvqu8eCoPHivveLWkhIWSiq8x36I8
+mAZMoebqQcw3OzzcLCBLt2/qNjKgQclhqAikzMR2Vr/jPEsmvdBUh9ALLxp6pIKZ
+EaBPlfD93CW2yF9R7oy58fMyAZYiRp3N4/BR6PYiD+O8KmREpottwAITzau7zBkC
+Nwr/fpoxfaTAWcUxMrNMYGK1kAPOWRfCSaQwp6GjABLdi5gbb07ChgzGglAZYIWy
+nC9cHfXKEEjg2zAaCkH7FLmSQj8eTCj6O1u7wQRb75envOxIZLKfFcD/8xXJ5iEt
+Y7PfMxihmAk/qek7px5PEL7p2K9Dex44uRpCDHqhf0jmjhOVze3qcnxs5HzXvHQk
++JSSLBySDDgWILNcwD05q/bGDIz4wNkJmzBF4honMzSONdQbEfdd4kaCy0GXDLv5
+0hrd9EdZw9pSbisTkW4vdzdTatt2uHH6rQdMhSKURgAFtH4ELw33KDYcV09dqi+l
+2z27wChKpfWC86meP+PM+3AD
+=bsfY
+-----END PGP SIGNATURE-----
+
+--===============6511826455021628508==--
