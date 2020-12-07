@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7579633952611822325=="
+Content-Type: multipart/mixed; boundary="===============2511471114034768284=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 07 Dec 2020 09:20:57 -0000
-Message-Id: <160733285769.20039.3088851356539635618@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 09:21:33 -0000
+Message-Id: <160733289350.20323.2198107132802374074@gitolite.kernel.org>
 
---===============7579633952611822325==
+--===============2511471114034768284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: a4b98a7512f18534ce33a7e98e49115af59ffa00
-    new: 0477e92881850d44910a7e94fc2c46f96faa131f
-    log: revlist-a4b98a7512f1-0477e9288185.txt
+  - ref: refs/heads/usb-next
+    old: e3541d5de544da54a1770e9c82c55f2a6f6b3b67
+    new: 93837812a5dcde17224ad20cf2ad7be1e94482bb
+    log: revlist-e3541d5de544-93837812a5dc.txt
 
---===============7579633952611822325==
+--===============2511471114034768284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607332923 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607332949 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1607332849-9818c8f14374937374d83481b083c020d8942899
+nonce 1607332875-6c359a535fee84c374fbb2346d4ee96a93d00d84
 
-a4b98a7512f18534ce33a7e98e49115af59ffa00 0477e92881850d44910a7e94fc2c46f96faa131f refs/heads/usb-linus
+e3541d5de544da54a1770e9c82c55f2a6f6b3b67 93837812a5dcde17224ad20cf2ad7be1e94482bb refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/N9DsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9OsP/0Qa+wRjmJhpzOqbQfYr
-0nIqkVt3IpN7Sa9mTWjWGLuWN0OZrLCObsiGTdT1Jt9ZQzuVmZdFMKpfdjfI8Moe
-wxxB1Z6yESI82OUPL6MyvA10u6p22UExrje1S6D3ZUMjp0hG9rNgLRl2rmYEIldO
-gNChxXpe5+LvhrW9NIjSV7KPmuvKx8ukrLn+9YQs4X9KDwlDdN3AYyp2ksfdDOmh
-rgY3YTOmLSoXhd1fOytDAHFuQd4BAoOn/ilw9By+V/+od+TJb3WnSfzhU8RQk8sw
-9BEAOhnPgYQawJr9MWmPpjCt+Tab17GUU9nLA7lhC7JY1aBOEvzrX6iscgg7VKWe
-y55Ak9EIFiiJvMjVE6zBVZX+NzlVId6sU8Czm5VbHvl97l3Jmt0gmogHaRXhHrW4
-waqPTckIonZxOsbZasx4HKQpnetssU9D4pbop6qsNFVVghx72QF3KIfs39kA++li
-d4F3xANVxOu8UBZ+Lht9uyianM9dC+Du6cX3RXL8TlapjeNLidnsdSC8f7/M7BTL
-QNNk6a4t44O7WO907ulgrBZ9KwAOVIAckfT8fITNIpkDu9fk0PU6kQ34MoY1CUCI
-IwoTIXxz6ZJSn5U2U0KLey9fD7oheWYtGndKv63+AQ4ii95r49Tj8ZioADbu94K6
-t1kon2a6nprZHCWulqb1NmJs
-=Ba1M
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/N9FUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nekQAM+x+dCD+phPWEkbFhmJ
+VQLFsaPXRY3lnN32M7GGN8CbY+L79iqyFulRcYSfisvER5V31tZOYIaulrIFUqDD
+JujPvUtiZEZ7n0gEb1Rv3QTWLBkYhixbszGT+k1trxuZAxwTTdRvxL1u7JHl+Th2
+h/VBvkdA9ScJ62kN9KUkmWTtYc1taCMU8PxQhAwnioypF6xgpy3uZfIG2Ggp01Hk
+B48fuPZqhDaTG8t3AK7dxDZ3unuRbHKYDMYsgOsg9lNPRmu7Tv+rOL05dB2+xTaM
+zS8yvRbbDC/tKtH2vr1kgA43dWMUWUaO8b12nRajhoVm0p+i49JoCvhwq/bhAIXT
+GpzijB/kKlDAMqhYz1Aso7GgQCN+g9OuqttV3R5TOWwh/BXYe9KpWL6IcqpGzQJN
+hXFhmmYM6bIQ764mI8uVtGcxfyk59iKjhQ9TI0PVKfNzPr0qpAQZ9LOcIqvSxIB2
+NfapJKqTRTz3B+1eexw8oGghrnw8cnLnWrsGOpw2cSQKdC9iwNT34Kr3RFQpqh/p
+pSL2pejYOaD99V6AZIpWWV4HutWLifx0MISy1Hvl+PbgnF+XBHkkjGjdWDO4UPN7
+d5t4vyZOs1O29gvS0vMYSmcfqCUUbd19WcxpQ9Fa37/PWyC/W5a7jQx9JpRcMP/0
+AW7NSF3ypAwy9wK8wpZiyK8C
+=mp6z
 -----END PGP SIGNATURE-----
 
---===============7579633952611822325==
+--===============2511471114034768284==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a4b98a7512f1-0477e9288185.txt
+Content-Disposition: attachment; filename=revlist-e3541d5de544-93837812a5dc.txt
 
 cb7ff314e1d9f3d6c62fa2c392e41174721ed0b3 drm/tegra: sor: Don't warn on probe deferral
 5c1d644c09dbc13b2dc652435786e42b05ac1bb7 drm/tegra: sor: Ensure regulators are disabled on teardown
@@ -69,6 +69,8 @@ a61ea6379ae9dbb63fbf022d1456733520db6be7 tools/bootconfig: Fix errno reference a
 a995e6bc0524450adfd6181dfdcd9d0520cfaba5 tools/bootconfig: Fix to check the write failure correctly
 e1cef2d4c379b2aab43a7dc9601f645048209090 tools/bootconfig: Align the bootconfig applied initrd image size to 4
 fbc6e1c6e0a4b5ef402f9eb8d00880a5e1d98df3 docs: bootconfig: Update file format on initrd image
+600c0849cf86b75d86352f59745226273290986a thunderbolt: Fix use-after-free in remove_unplugged_switch()
+5e4d659b10fde14403adb2e215df4a3168fe8465 USB: serial: option: add Fibocom NL668 variants
 92666d45adcfd4a4a70580ff9f732309e16131f9 ALSA: hda/realtek - Fixed Dell AIO wrong sound tone
 6200d5c3831370cd0ab4b6455933d12e82ea9956 MAINTAINERS: Update XDP and AF_XDP entries
 537cf4e3cc2f6cc9088dcd6162de573f603adc29 xsk: Fix umem cleanup bug at socket destruct
@@ -107,6 +109,7 @@ bf3a3cdcad40e5928a22ea0fd200d17fd6d6308d drm/tegra: sor: Disable clocks on error
 c5cbfc87558168ef4c3c27ce36eba6b83391db19 batman-adv: Reserve needed_*room for fragments
 992b03b88e36254e26e9a4977ab948683e21bd9f batman-adv: Don't always reallocate the fragmentation skb head
 e5782a5d5054bf1e03cb7fbd87035037c2a22698 ALSA: hda/realtek - Add new codec supported for ALC897
+6d6556c04ebaeaf4e7fa8b791c97e2a7c41b38a3 USB: serial: option: add support for Thales Cinterion EXS82
 10f78fd0dabbc3856ddd67b09a46abdedb045913 powerpc/numa: Fix a regression on memoryless node 0
 4bc3c8dc9f5f1eff0d3bfa59491383ac11308b6b ipvs: fix possible memory leak in ip_vs_control_net_init
 3c78e9e0d33a27ab8050e4492c03c6a1f8d0ed6b netfilter: nftables_offload: set address type in control dissector
@@ -135,6 +138,10 @@ a86d5c682b798b2dadaa4171c1d124cf3c45a17c ibmvnic: no reset timeout for 5 seconds
 4d521943f76bd0d1e68ea5e02df7aadd30b2838a dt-bindings: net: correct interrupt flags in examples
 aec9fe892812ed10d0bffcf309d2a8fc380d8ce6 drm/rockchip: Avoid uninitialized use of endpoint id in LVDS
 7c4bada12d320d8648ba3ede6f9b6f9e10f1126a drm/panel: sony-acx565akm: Fix race condition in probe
+6703052fe30fa0d85f1fbbf50171486cb0148d2d usb: cdns3: Fix hardware based role switch
+24fdaeeb294c14ea743ec99ada92380c060a428a usb: cdns3: gadget: clear trb->length as zero after preparing every trb
+6b8137517e70f6e96d0251a98930b1f29d0be161 usb: cdns3: core: fix goto label for error path
+7cc01c445da868101b9080082b9c75283c261c82 Merge tag 'usb-fixes-v5.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
 f0992098cadb4c9c6a00703b66cafe604e178fea speakup: Reject setting the speakup line discipline outside of speakup
 c8c39fbd01d42c30454e42c16bcd69c17260b90a habanalabs: free host huge va_range if not used
 5555b7c56bdec7a29c789fec27f84d40f52fbdfa habanalabs: put devices before driver removal
@@ -158,6 +165,7 @@ da192676483232a0a9478c89cdddd412e5167470 arm64: entry: mark entry code as noinst
 7cd1ea1010acbede7eb87b6abb6198921fb36957 arm64: entry: fix non-NMI kernel<->kernel transitions
 f0cd5ac1e4c53cb691b3ed3cda1031e1c42153e2 arm64: entry: fix NMI {user, kernel}->kernel transitions
 2a9b3e6ac69a8bf177d8496a11e749e2dc72fa22 arm64: entry: fix EL1 debug transitions
+d3f31301894d1b70d3dc3e8fa5ef3165878338ff Merge tag 'thunderbolt-for-v5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 a71464d0b9305dc5db6b01392c7218b81480b00f Merge tag 'misc-habanalabs-fixes-2020-11-30' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-linus
 9e5344e0ffc33f4fee899f98b6939a0682b1d9c3 arm64: mte: Fix typo in macro definition
 2d280bc8930ba9ed1705cfd548c6c8924949eaf1 io_uring: fix recvmsg setup with compat buf-select
@@ -186,6 +194,7 @@ e86843580d1bb1ce12544bca3115cf11d51603ff tools/bootconfig: Store size and checks
 85dad327d9b58b4c9ce08189a2707167de392d23 scsi: mpt3sas: Increase IOCInit request timeout to 30s
 a48491c65b513e5cdc3e7a886a4db915f848a5f5 Input: i8042 - add ByteSpeed touchpad to noloop table
 2aab1561439032be2e98811dd0ddbeb5b2ae4c61 Input: xpad - support Ardwiino Controllers
+c98fff7332dbd6e028969f8c2bda3d7bc7a024d8 USB: serial: option: fix Quectel BG96 matching
 f54db39fbe40731c40aefdd3bc26e7d56d668c64 KVM: PPC: Book3S HV: XIVE: Fix vCPU id sanity check
 59612b24f78a0b61fe078ec9dff2e48e9cec52c0 kbuild: Hoist '--orphan-handling' into Kconfig
 d5750cd3c5486e9c0fa11100df01de8ca0c13fa7 kbuild: Disable CONFIG_LD_ORPHAN_WARN for ld.lld 10.0.1
@@ -249,6 +258,8 @@ efd6d85a18102241538dd1cc257948a0dbe6fae6 drm/amdgpu/vcn3.0: remove old DPG worka
 4d916140bf28ff027997144ea1bb4299e1536f87 intel_idle: Build fix
 5debf02131227d39988e44adf5090fb796fa8466 perf/x86/intel: Fix a warning on x86_pmu_stop() with large PEBS
 fc17db8aa4c53cbd2d5469bb0521ea0f0a6dbb27 perf/x86/intel: Check PEBS status correctly
+46ee4abb10a07bd8f8ce910ee6b4ae6a947d7f63 USB: serial: ch341: add new Product ID for CH341A
+bf193bfc12dbc3754fc8a6e0e1e3702f1af2f772 USB: serial: ch341: sort device-id entries
 74a8c816fa8fa7862df870660e9821abb56649fe rtw88: debug: Fix uninitialized memory in debugfs code
 8dcc0e19dfbd73ad6b3172924d6da8f7f3f8b3b0 x86/platform/uv: Fix UV4 hub revision adjustment
 4f134b89a24b965991e7c345b9a4591821f7c2a6 lib/syscall: fix syscall registers retrieval on 32-bit platforms
@@ -274,6 +285,13 @@ ea64370bcae126a88cd26a16f1abcc23ab2b9a55 cifs: refactor create_sd_buf() and and 
 94cfbd05e46a31cc181e7ac6bc4b32ac09f8864f Merge tag 'drm-intel-fixes-2020-12-03' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 5353219ffdff68f861684a642388d6e926547698 Merge tag 'amd-drm-fixes-5.10-2020-12-02' of git://people.freedesktop.org/~agd5f/linux into drm-fixes
 de9b485d1dc993f1fb579b5d15a8176284627f4a Merge tag 'drm-misc-fixes-2020-12-03' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
+3f203f057edfcf6bd02c6b942799262bfcf31f73 USB: serial: kl5kusb105: fix memleak on open
+b48a7e755939940136266248e79f9e4bdbe99521 Merge tag 'usb-serial-5.10-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+da881ded10a65885cdcb87ab817eea3acf23dcf9 Revert "uas: bump hw_max_sectors to 2048 blocks for SS or faster drives"
+d5c65d32dc240bf600d9e54250a8133e93ece60a Revert "uas: fix sdev->host->dma_dev"
+97ad4a77f23e30801d2c0ef0c12b59f0e5760e6e Revert "usb-storage: fix sdev->host->dma_dev"
+45c5775460f32ed8cdb7c16986ae1a2c254346b3 usb: ohci-omap: Fix descriptor conversion
+a4b98a7512f18534ce33a7e98e49115af59ffa00 usb: gadget: f_fs: Use local copy of descriptors for userspace copy
 54ffccbf053b5b6ca4f6e45094b942fab92a25fc tty: Fix ->pgrp locking in tiocspgrp()
 c8bcd9c5be24fb9e6132e97da5a35e55a83e36b9 tty: Fix ->session locking
 e87297fa080a7ed6b431873c771b3801cab573f5 Merge tag 'drm-fixes-2020-12-04' of git://anongit.freedesktop.org/drm/drm
@@ -319,5 +337,6 @@ f5226f1d20c4113922dbe7742c416f06700c1ea9 Merge tag 'usb-5.10-rc7' of git://git.k
 d49248eb25a223b238cd7687ea92b080f595a323 Merge tag 'tty-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 ab91292cb3e9f43d9c6839d7572d17b35bc21710 Merge tag 'char-misc-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 0477e92881850d44910a7e94fc2c46f96faa131f Linux 5.10-rc7
+93837812a5dcde17224ad20cf2ad7be1e94482bb Merge 5.10-rc7 into usb-next
 
---===============7579633952611822325==--
+--===============2511471114034768284==--
