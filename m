@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6268567738684579312=="
+Content-Type: multipart/mixed; boundary="===============0225237203827368433=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 07 Dec 2020 17:18:57 -0000
-Message-Id: <160736153728.6043.707974368594754015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 07 Dec 2020 17:19:03 -0000
+Message-Id: <160736154355.6194.3923443108574984507@gitolite.kernel.org>
 
---===============6268567738684579312==
+--===============0225237203827368433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.10
+  - ref: refs/heads/spi-5.10
     old: 2c2b3ad2c4c801bab1eec7264ea6991b1e4e8f2c
     new: e748edd9841306908b4e02dddd0afd1aa1f8b973
     log: |
          e748edd9841306908b4e02dddd0afd1aa1f8b973 spi: dw: Fix error return code in dw_spi_bt1_probe()
          
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/spi-5.11
     old: b8450e014214982a6df3e62a5bee6c37b94f6b98
     new: c732b7567d8698f10e988ed89fd9f107c739dbee
     log: revlist-b8450e014214-c732b7567d86.txt
 
---===============6268567738684579312==
+--===============0225237203827368433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1607361532 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1607361534-38aef192f6221fd3e2962f2cf112ab6f65944edd
+pusher C3F436CA30F5D8EB 1607361538 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1607361541-a5aeb2b52b81df0338c0628606b35486382ac65c
 
-2c2b3ad2c4c801bab1eec7264ea6991b1e4e8f2c e748edd9841306908b4e02dddd0afd1aa1f8b973 refs/heads/for-5.10
-b8450e014214982a6df3e62a5bee6c37b94f6b98 c732b7567d8698f10e988ed89fd9f107c739dbee refs/heads/for-5.11
+2c2b3ad2c4c801bab1eec7264ea6991b1e4e8f2c e748edd9841306908b4e02dddd0afd1aa1f8b973 refs/heads/spi-5.10
+b8450e014214982a6df3e62a5bee6c37b94f6b98 c732b7567d8698f10e988ed89fd9f107c739dbee refs/heads/spi-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/OY/wACgkQJNaLcl1U
-h9B/iAf+IqCsseFIcinFm6qxZwr+lFYZidehh6relbyTXaLsyGvrTtdl4wmrVwh+
-LlBfhdQqczcDBxwch+6GZaHKUl7FuUH3ui8VU+Bho9BpABsARbkc8WNxrIHNgbO0
-BYGY9wFGTJtjICy1uRaHJquDFEHFQxWYfg8ZXEMIqX/Q8eW3nSeMEAbGjbwdBk8/
-0MyK4O/EWoEnlmcfrLYQdkBEfAfNuivOMQZnc3y9/g0WeOE7857NA37fdK1PrmyH
-pMwLlknpQ8mwBAQp/uN4SHUnQEA1u86MHDv7dKIeOJ0r5D4dfJD9e3LagP/3euJP
-D2p6qv5BdQLepwheg1d1rktgTC8glw==
-=S1Bl
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/OZAIACgkQJNaLcl1U
+h9CiXAf/adiiA+6r55Xw80/vgZERVe0YAUJFegQBwZtEuwTXZkC1AgkMwn3A1Rla
+l0zaaivRNOvgXh5XKqq8Y4ecWheffDjMhKbxe7LuZ9qDeTsXbOD80OTfWvtiGlqW
+iJzQZEqbFg10EzSNi9gawPVB3ZDiZN5elnQn07MO4KP2S5vHPzl1beJSzp6Wu2HJ
+i4g79aYtHtzX+nWS9KaB0pyIZpiYsJQsQoCPjFUfaiFiSe3ridhqFz6k6EXUlvvc
+XQ5v8rEyMxbzDDlehVfKkSL3iM4XbrNdSENcmeOs416ri+wlkap0q6GHo14eNGFV
+jBSbCtEK6KiIgFz4PIPefrU6FfiyEQ==
+=rv4c
 -----END PGP SIGNATURE-----
 
---===============6268567738684579312==
+--===============0225237203827368433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -81,4 +81,4 @@ e297ddf296de35037fa97f4302782def196d350a media: netup_unidvb: Don't leak SPI mas
 c7b884561cb5b641f3dbba950094110794119a6d spi: atmel-quadspi: Fix use-after-free on unbind
 c732b7567d8698f10e988ed89fd9f107c739dbee Merge series "spi: atmel-quadspi: Fix AHB memory accesses" from Tudor Ambarus <tudor.ambarus@microchip.com>:
 
---===============6268567738684579312==--
+--===============0225237203827368433==--
