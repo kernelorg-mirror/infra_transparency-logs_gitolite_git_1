@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1268756197087335420=="
+Content-Type: multipart/mixed; boundary="===============0015362075258256288=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 07 Dec 2020 14:52:17 -0000
-Message-Id: <160735273754.8879.294911973650458334@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 14:52:31 -0000
+Message-Id: <160735275118.9018.1259686651560231251@gitolite.kernel.org>
 
---===============1268756197087335420==
+--===============0015362075258256288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: jh
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-upstream
     old: 5b6232a3ef62e929b9311cc5bd7747c2c524d3d2
     new: 9a0696cbe56903a1ae40313b561d7d2504272e46
     log: revlist-5b6232a3ef62-9a0696cbe569.txt
 
---===============1268756197087335420==
+--===============0015362075258256288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ fbec71aa376c52cf7e45ab8fad5a6f2f33b690dd Bluetooth: btusb: Fix detection of some
 de7fe4c9250ce0792656c52b268b010b6ace2a27 Bluetooth: Increment management interface revision
 9a0696cbe56903a1ae40313b561d7d2504272e46 MAINTAINERS: Update Bluetooth entries
 
---===============1268756197087335420==--
+--===============0015362075258256288==--
