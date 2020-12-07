@@ -1,64 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6037967542101704290=="
+Content-Type: multipart/mixed; boundary="===============8048014412007268854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 07 Dec 2020 17:20:17 -0000
-Message-Id: <160736161738.8045.2146050032054112205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Mon, 07 Dec 2020 17:28:57 -0000
+Message-Id: <160736213746.11634.12297374367071166684@gitolite.kernel.org>
 
---===============6037967542101704290==
+--===============8048014412007268854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/for-linus
-    old: 9a1cddca6c9581ff46edfd6fa3ef307dca80fdeb
-    new: 7119658cd62b629ba36889f12d3d729210df3ed7
-    log: |
-         e748edd9841306908b4e02dddd0afd1aa1f8b973 spi: dw: Fix error return code in dw_spi_bt1_probe()
-         2b0e0190ed42a48a59495ee10e4943e640cca81a Merge remote-tracking branch 'spi/for-5.9' into spi-linus
-         7119658cd62b629ba36889f12d3d729210df3ed7 Merge remote-tracking branch 'spi/for-5.10' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 23597b99043dd35ec31b784f7d1fc993595b7936
-    new: 56608ab4f92745b4d2f4dfffbe7e0c663b80e9b4
-    log: revlist-23597b99043d-56608ab4f927.txt
+  - ref: refs/heads/dev
+    old: f7df3c7d26f44b4ce37d68a099fde041ba2847e6
+    new: 457392a0325ab86808d8785269c9cc73745c9f8d
+    log: revlist-f7df3c7d26f4-457392a0325a.txt
 
---===============6037967542101704290==
+--===============8048014412007268854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23597b99043d-56608ab4f927.txt
+Content-Disposition: attachment; filename=revlist-f7df3c7d26f4-457392a0325a.txt
 
-e748edd9841306908b4e02dddd0afd1aa1f8b973 spi: dw: Fix error return code in dw_spi_bt1_probe()
-cac8c821059639b015586abf61623c62cc549a13 spi: atmel-quadspi: Fix AHB memory accesses
-a6ff3a784ff9975dc77676827a2f448203511d19 spi: atmel-quadspi: Drop superfluous set of QSPI_IFR_APBTFRTYP_READ
-d00364b6a60475cd75fd07e847ad6f955952638b spi: atmel-quadspi: Write QSPI_IAR only when needed
-c066efb07d1e8b801ea9d0727119958c9904e63d spi: atmel-quadspi: Move common code outside of if else
-373afef350a93519b4b8d636b0895da8650b714b spi: davinci: Fix use-after-free on unbind
-8f96c434dfbc85ffa755d6634c8c1cb2233fcf24 spi: spi-geni-qcom: Fix use-after-free on unbind
-6cfd39e212dee2e77a0227ce4e0f55fa06d79f46 spi: spi-qcom-qspi: Fix use-after-free on unbind
-e77df3eca12be4b17f13cf9f215cff248c57d98f spi: spi-sh: Fix use-after-free on unbind
-5626308bb94d9f930aa5f7c77327df4c6daa7759 spi: pxa2xx: Fix use-after-free on unbind
-393f981ca5f797b58b882d42b7621fb6e43c7f5b spi: rpc-if: Fix use-after-free on unbind
-cc53711b2191cf3b3210283ae89bf0abb98c70a3 spi: mxic: Don't leak SPI master in probe error path
-0f4ad8d59f33b24dd86739f3be23e6af1a86f5a9 spi: spi-mtk-nor: Don't leak SPI master in probe error path
-7174dc655ef0578877b0b4598e69619d2be28b4d spi: gpio: Don't leak SPI master in probe error path
-a4729c3506c3eb1a6ca5c0289f4e7cafa4115065 spi: rb4xx: Don't leak SPI master in probe error path
-5b8c88462d83331dacb48aeaec8388117fef82e0 spi: sc18is602: Don't leak SPI master in probe error path
-e297ddf296de35037fa97f4302782def196d350a media: netup_unidvb: Don't leak SPI master in probe error path
-24f7033405abe195224ec793dbc3d7a27dec0b98 spi: mt7621: Disable clock in probe error path
-46b5c4fb87ce8211e0f9b0383dbde72c3652d2ba spi: mt7621: Don't leak SPI master in probe error path
-236924ee531d6251c8d10e9177b7742a60534ed5 spi: ar934x: Don't leak SPI master in probe error path
-234266a5168bbe8220d263e3aa7aa80cf921c483 spi: npcm-fiu: Disable clock in probe error path
-c7b884561cb5b641f3dbba950094110794119a6d spi: atmel-quadspi: Fix use-after-free on unbind
-c732b7567d8698f10e988ed89fd9f107c739dbee Merge series "spi: atmel-quadspi: Fix AHB memory accesses" from Tudor Ambarus <tudor.ambarus@microchip.com>:
-2b0e0190ed42a48a59495ee10e4943e640cca81a Merge remote-tracking branch 'spi/for-5.9' into spi-linus
-7119658cd62b629ba36889f12d3d729210df3ed7 Merge remote-tracking branch 'spi/for-5.10' into spi-linus
-56608ab4f92745b4d2f4dfffbe7e0c663b80e9b4 Merge remote-tracking branch 'spi/for-5.11' into spi-next
+717d70db600fbe09354ed141977f83b50b38104a f2fs_io: change fibmap to fiemap
+1a7415a9e25a0f5bc4d79d847e31f2779d01cf2c mkfs.f2fs: add -h and --help
+8fd836f25fe268d62a630b93f0f9ece2fdba59b5 fsck: clear unexpected casefold flags
+e59bb175ac861d317601a42e6915cdedf3edefc4 mkfs.f2fs.8: document the verity feature
+1bfc17340d3276bd5ce050211cd25dad894485b3 f2fs_io: add erase option
+c954e7cc4ba79a7fedef7dd66c8993381172d78e fsck.f2fs: do xnid sanity check only during fsck
+ca0ed8a66fb43f9616def645c00f1f55f01582ec f2fs-toos: fsck.f2fs Fix bad return value
+4bd700829123e5d30603cc43c13be1aa35873340 Fix ASSERT() macro with '%' in the expression
+1d4c7e7ce572bce53043777a7f07012cbda54d1f f2fs_io: add get/set compression option
+31d30f0c49b210996dc9bfdf5623b08ff91ccd55 mkfs.f2fs: show a message when compression is enabled
+fcd5cd0b52ea46d0e2fedf7af98b396da23205c6 f2fs-tools: skipped to end on error syntax error
+d322d47fa4a395ee7dac0afc5047cf6401991e7d f2fs-tools: fix a few spelling errors in f2fs-tools
+457392a0325ab86808d8785269c9cc73745c9f8d f2fs-tools: Added #ifdef WITH_func
 
---===============6037967542101704290==--
+--===============8048014412007268854==--
