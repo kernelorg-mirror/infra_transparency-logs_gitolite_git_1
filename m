@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Mon, 07 Dec 2020 06:18:08 -0000
-Message-Id: <160732188888.31330.8244469183102132880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Mon, 07 Dec 2020 06:29:39 -0000
+Message-Id: <160732257979.4984.16298534634852086839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 4f39cb105800a721cd4c762eadf1a3f3ecab2361
-    new: 7ce8d91b8a849c4b9a010a8b773e3838a8e3d030
-  - ref: refs/heads/next
-    old: 4f39cb105800a721cd4c762eadf1a3f3ecab2361
-    new: 7ce8d91b8a849c4b9a010a8b773e3838a8e3d030
+  - ref: refs/heads/dev
+    old: daa81282dec26f4abfada065e172ac4f5f215fda
+    new: f9893351acaecf0a414baf9942b48d5bb5c688c6
