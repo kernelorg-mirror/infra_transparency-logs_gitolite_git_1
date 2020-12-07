@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2927593746117349925=="
+Content-Type: multipart/mixed; boundary="===============4403482559862521690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 07 Dec 2020 14:27:28 -0000
-Message-Id: <160735124868.24441.7330408109007165259@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 14:29:45 -0000
+Message-Id: <160735138561.25307.11250101602343140492@gitolite.kernel.org>
 
---===============2927593746117349925==
+--===============4403482559862521690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: c7721e15f434920145c376e8fe77e1c079fc3726
-    new: 10eb0b6ac63a15b80e4e9ae8b85668827a747350
+    old: 10eb0b6ac63a15b80e4e9ae8b85668827a747350
+    new: 08a02f954b0def3ada8ed6d4b2c7bcb67e885e9c
     log: |
-         e90cfa813da7a527785033a0b247594c2de93dd8 USB: dummy-hcd: Fix uninitialized array use in init()
-         3f6f6343a29d9ea7429306b83b18e66dc1331d5c usb: mtu3: fix memory corruption in mtu3_debugfs_regset()
-         ff62d08fd6242a3ef5aa0a7bcae6a0b0136a60ed usb: typec: tps6598x: Select USB_ROLE_SWITCH and REGMAP_I2C
-         10eb0b6ac63a15b80e4e9ae8b85668827a747350 usb: typec: tps6598x: Export some power supply properties
+         08a02f954b0def3ada8ed6d4b2c7bcb67e885e9c USB: add RESET_RESUME quirk for Snapscan 1212
          
 
---===============2927593746117349925==
+--===============4403482559862521690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607351313 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607351450 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1607351240-132f8e5a426aadc106eed6d7119a396241365bec
+nonce 1607351376-55451f559a9f4c7b6b4fb63cc4f330eb85f5c453
 
-c7721e15f434920145c376e8fe77e1c079fc3726 10eb0b6ac63a15b80e4e9ae8b85668827a747350 refs/heads/usb-testing
+10eb0b6ac63a15b80e4e9ae8b85668827a747350 08a02f954b0def3ada8ed6d4b2c7bcb67e885e9c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/OPBEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wxwQAMtexI8kg/TgUmMfEIbW
-i9W7UtuUsRdCzfmS6Vr+DeKwbsiqFargxnLvsl4UhuxxuP1Q2/rh2tids3bkr2+L
-pTkv1F9wGCQZ9PJ8alOdcNt7UrExuBoCKM8OSRd/FKFSCAyyNWCisVFq+ETW9U4M
-SQpOueJqs8EDsdMMOyuddMWJnVAhdx4LZ7WVfOX1kPp4RPaxvUwgjff0Nytjh/GD
-PzmoZqlaH1gm1hfqvdMuPgNkw46kMJbGFZO2HKsKaMI8fLjlv2CPU7voJhthXVXb
-+unX4s0CzTNgKycY4iOByK2TXDwl59gOdrw9tTtCszk3uCGzkSe3usvFyDRZ/wun
-UgSqcPXlXBwi4v0BN6r4c4MBHXDamNnBIdicB/bPBW6W39PFVGpTg7YawSSnGYH+
-XgI/KOyYGp2l5ZRAd8+R4zsuPrzQU4uyFwnpBoXKVnyDU3nuFMXKHyCItiWXuM68
-FZ+1NRwXSdmhtiYK4a9r8T+6eHB5ysz2cc0gOPQr13NbhKqo3SU0INV7FS+oA2jr
-E3+5vlJxGzmmDaGGYUvXE6WE+IcwRwV1btsoJ7C4+PRFKprIMYTYcGt8PshhXUpW
-voGnCXhrl4+bj2m1iEbk3XdGFlpVkrqwx043JufcdzLTkgWB5HMhKCAACcSQoAQi
-75MB6jVZ7Lc/lFdBKDNUVcjy
-=WrMI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/OPJobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SJ0QAMYQx+XCIyfmSjDRPYEU
+Mf3qyhQ17AhK/LtMZYDt0KOpB/nwYg+khU18VglgqA6uCo3wJ/OJy7+hDQZvX3wE
+8lfPT2iTvDKcV4QU/zrv9rQ8WsB8wG2QcWXoBq7ix3Xvd7Aw1fuPjdElK63Il74P
+qZ3ttLA08OMuVCOeOzl0Q1FfkKt2Ik47ljX9SXT5Ia69jPVPQ2vPudWqbEGFtOcp
+gipp9IyjFZ16wopX0+L0ITKOjLTKbEbL8iINbZcn1VCx8rDQyEr2zC/tFuDkTcNd
++1GFwEO+km7/4MG8IjW3hy4IQ5EKODfYJeG/m11C1csSum8tOl9HH651sjQ8HfWx
+t11m6FY/o1OXGD5dc8/SW4YF1+MoO03mydC4wMtoeNoQbcu8aDnPQL6hXjI/Eo+E
+2ygNowaxol6YM/cB15BFqsJcyVUImPGSwmCTxXDzNyFbEiFbk4vn6eBR5KbQsDA2
+RhzlpdSQ4MMxUnxNBgkQy8CGpb5slGsvJOKcLHJFNjdYIbc2/tp7qkSNGeRgK8ED
+KkeTj3GeG2Jg8oTKjZkye9ah3a5u+aKXGpyi2y+0sepoO+oGM48jRirm6OznbKGo
+xek8bWQFRUIeSZS3o9PofD5aXRxjeL97Uwn7pRNAJP3MCeePVtSji6gfJydx/wkk
+3zz9hLsbBt6h2oEXvzo1/P5w
+=Lu72
 -----END PGP SIGNATURE-----
 
---===============2927593746117349925==--
+--===============4403482559862521690==--
