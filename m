@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/connman/pacrunner
-Date: Mon, 07 Dec 2020 22:36:06 -0000
-Message-Id: <160738056635.15228.18267886727558433421@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 22:38:40 -0000
+Message-Id: <160738072096.15888.8240685258339955778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/connman/pacrunner
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 6f2ba9396ead9909c9f427651ee005834fbd05a8
-    new: 1000d5f3389357b0bb738b8832f62226a2bf5ae1
+    old: 1000d5f3389357b0bb738b8832f62226a2bf5ae1
+    new: 7853c2a8aed36ed5a4ecc036e69007198e6a067b
     log: |
-         1000d5f3389357b0bb738b8832f62226a2bf5ae1 duktape: Import v2.6.0
+         7853c2a8aed36ed5a4ecc036e69007198e6a067b build: Remove AC_PROG_CXX check
          
