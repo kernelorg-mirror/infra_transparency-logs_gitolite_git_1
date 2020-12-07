@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Mon, 07 Dec 2020 13:56:25 -0000
-Message-Id: <160734938544.1226.6492744634815757256@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 14:00:54 -0000
+Message-Id: <160734965461.6379.1035541839328102071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tmlind/linux-omap
 user: tmlind
 changes:
-  - ref: refs/heads/fixes
-    old: f1dc15cd7fc146107cad2a926d9c1d005f69002a
-    new: ec76c2eea903947202098090bbe07a739b5246e9
+  - ref: refs/heads/omap-for-v5.11/defconfig-take2
+    old: eaf7697b6febe2b086503f525f070d8e3ca1ea0f
+    new: 2f6fc9e08bf79f11516edef855283c6212bbe78f
     log: |
-         ec76c2eea903947202098090bbe07a739b5246e9 ARM: OMAP2+: omap_device: fix idling of devices during probe
+         665f1388bc9713c81989dda6eed5cde52d57c255 ARM: omap2plus_defconfig: drop unused POWER_AVS option
+         2f6fc9e08bf79f11516edef855283c6212bbe78f ARM: omap2plus_defconfig: enable SPI GPIO
          
