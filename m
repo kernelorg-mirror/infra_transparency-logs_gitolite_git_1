@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 07 Dec 2020 10:39:15 -0000
-Message-Id: <160733755580.6400.15162380919601756707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Mon, 07 Dec 2020 11:04:48 -0000
+Message-Id: <160733908834.22592.6092871671029413978@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/for-next
-    old: 912b341585e302ee44fc5a2733f7bcf505e2c86f
-    new: 06706da2bb5e239df31f39c7247087ac07fb039e
+  - ref: refs/heads/for-next/iommu/fixes
+    old: d76b42e92780c3587c1a998a3a943b501c137553
+    new: 4165bf015ba9454f45beaad621d16c516d5c5afe
     log: |
-         fe6000990394639ed374cb76c313be3640714f47 platform/x86: intel-vbtn: Allow switch events on Acer Switch Alpha 12
-         2425ccd30fd78ce35237350fe8baac31dc18bd45 platform/x86: dell-smbios-base: Fix error return code in dell_smbios_init
-         06706da2bb5e239df31f39c7247087ac07fb039e platform/x86: thinkpad_acpi: remove trailing semicolon in macro definition
+         4165bf015ba9454f45beaad621d16c516d5c5afe iommu/amd: Set DTE[IntTabLen] to represent 512 IRTEs
+         
+  - ref: refs/heads/for-next/iommu/misc
+    old: 058236eef606ea53ea7317afc20e9469cf3c3b91
+    new: 093b32a849b336b5b48bdde1041fc06f91ae475c
+    log: |
+         093b32a849b336b5b48bdde1041fc06f91ae475c iommu: Improve the performance for direct_mapping
          
