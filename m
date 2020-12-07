@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7098630760687944843=="
+Content-Type: multipart/mixed; boundary="===============0916100518187469052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 07 Dec 2020 09:49:43 -0000
-Message-Id: <160733458330.6447.16480474082382607888@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 09:49:48 -0000
+Message-Id: <160733458870.6596.14826261741330826300@gitolite.kernel.org>
 
---===============7098630760687944843==
+--===============0916100518187469052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: a7b5458ce73b235be027cf2658c39b19b7e58cf2
-    new: 2ae92e8b9b7eb042ccb7e9fc7ea9431f211a1bd3
-    log: |
-         2c9cfbadfa234b03473f1ef54e6f4772cc07a371 macintosh/adb-iop: Always wait for reply message from IOP
-         10199e90ee20e68859f8128331ec8d85b036d349 macintosh/adb-iop: Send correct poll command
-         2ae92e8b9b7eb042ccb7e9fc7ea9431f211a1bd3 MAINTAINERS: Update m68k Mac entry
-         
-  - ref: refs/heads/for-v5.11
-    old: a7b5458ce73b235be027cf2658c39b19b7e58cf2
-    new: 2ae92e8b9b7eb042ccb7e9fc7ea9431f211a1bd3
-    log: |
-         2c9cfbadfa234b03473f1ef54e6f4772cc07a371 macintosh/adb-iop: Always wait for reply message from IOP
-         10199e90ee20e68859f8128331ec8d85b036d349 macintosh/adb-iop: Send correct poll command
-         2ae92e8b9b7eb042ccb7e9fc7ea9431f211a1bd3 MAINTAINERS: Update m68k Mac entry
-         
-  - ref: refs/heads/master
-    old: 759fc5bd9fce95e30e6ef512d4d0a3506167f96e
-    new: dfdc20e91ca3bfc9f5fb9dde0231d8d19ddf737f
-    log: revlist-759fc5bd9fce-dfdc20e91ca3.txt
+  - ref: refs/heads/m68k-queue
+    old: 2b194440063003a583e66b0ec5fd866f0e0c087b
+    new: 7d2e82ceb1fd8fce6c3ad58d507bfead956d68a9
+    log: revlist-2b1944400630-7d2e82ceb1fd.txt
 
---===============7098630760687944843==
+--===============0916100518187469052==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-759fc5bd9fce-dfdc20e91ca3.txt
+Content-Disposition: attachment; filename=revlist-2b1944400630-7d2e82ceb1fd.txt
 
 cb7ff314e1d9f3d6c62fa2c392e41174721ed0b3 drm/tegra: sor: Don't warn on probe deferral
 5c1d644c09dbc13b2dc652435786e42b05ac1bb7 drm/tegra: sor: Ensure regulators are disabled on teardown
@@ -322,9 +306,20 @@ f5226f1d20c4113922dbe7742c416f06700c1ea9 Merge tag 'usb-5.10-rc7' of git://git.k
 d49248eb25a223b238cd7687ea92b080f595a323 Merge tag 'tty-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 ab91292cb3e9f43d9c6839d7572d17b35bc21710 Merge tag 'char-misc-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 0477e92881850d44910a7e94fc2c46f96faa131f Linux 5.10-rc7
-e576ab15d471620efcf153426436b9cfb9818af1 Merge tag 'v5.10-rc7'
-bc816bcb0f996f26388c89ee67c8af49ee6df57d macintosh/adb-iop: Always wait for reply message from IOP
-64722d0691b80b79ceb95a18f67fae171643cdb8 macintosh/adb-iop: Send correct poll command
-dfdc20e91ca3bfc9f5fb9dde0231d8d19ddf737f MAINTAINERS: Update m68k Mac entry
+6221c55a06deb16226c838204290ea8ff68b43de m68k: Avoid xchg() warning
+bb4afd47fb200365e81d88bb9f583774d1b0d35f m68k: Remove unused mach_max_dma_address
+d691e5f3ba190896f49e457bfd431039b1b687e2 m68k: mac: Refactor iop_preinit() and iop_init()
+9d4e0578d5ec17d937172b00b48421a680bc1459 m68k: mac: Remove dead code
+47adea2f6bf866e8b622a976c61d550cf4401e36 m68k: mac: Remove redundant VIA register writes
+ecdb33f638205c5fb322415a59eebeac35b5e20e m68k: mac: Update Kconfig help
+a69230c54b4c260438ac8ded7018fd03b428cb5a m68k: Drop redundant NOTES in link script
+ac7106a5504c6210042d3fd5314fafc110c6923a m68k: Add a missing ELF_DETAILS in link script
+767ec2577dc765a786fc74de5beacf40b8d397d5 m68k: Fix WARNING splat in pmac_zilog driver
+752bcedad2c9b48166a99f1c5c78d13349534a06 macintosh/adb-iop: Always wait for reply message from IOP
+8248dd9b2bf576f12f61c838e0916e995527eb3b macintosh/adb-iop: Send correct poll command
+ea66a7d19aa423f5af37e3b0bd5aa16961545f8d MAINTAINERS: Update m68k Mac entry
+c51493eeddd530a61147971c9d11c2736cde9de3 m68k: atari: usb: Add ISP1160 USB host controller support
+6c82efa3be9144cbc506f7ce2e359cbb7bdddf35 m68k: atari: Update Kconfig.bus help text
+7d2e82ceb1fd8fce6c3ad58d507bfead956d68a9 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7098630760687944843==--
+--===============0916100518187469052==--
