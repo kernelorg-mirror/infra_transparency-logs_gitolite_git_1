@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2354072844756329786=="
+Content-Type: multipart/mixed; boundary="===============8498535435081465833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 07 Dec 2020 02:38:35 -0000
-Message-Id: <160730871568.24430.94242722243686490@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 02:40:56 -0000
+Message-Id: <160730885655.26472.10186106059261558726@gitolite.kernel.org>
 
---===============2354072844756329786==
+--===============8498535435081465833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev
-    old: 1b2b66d55670675a96b533cf1076fc38fa8646c2
-    new: c8390cfaa07cb9e9ccaa946a1919b69dfb34bad1
-    log: revlist-1b2b66d55670-c8390cfaa07c.txt
+  - ref: refs/heads/dev-test
+    old: f1e19bfbb15cad74ff9246248585e14802540112
+    new: 789409aeab9842d3fbc05c4351297863346d0082
+    log: revlist-f1e19bfbb15c-789409aeab98.txt
 
---===============2354072844756329786==
+--===============8498535435081465833==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1b2b66d55670-c8390cfaa07c.txt
+Content-Disposition: attachment; filename=revlist-f1e19bfbb15c-789409aeab98.txt
 
-06ea594051707c6b8834ef5b24e9b0730edd391b staging: ralink-gdma: fix kconfig dependency bug for DMA_RALINK
-aee9dccc5b64e878cf1b18207436e73f66d74157 staging: rtl8723bs: Add 024c:0627 to the list of SDIO device-ids
-446b8185f0c39ac3faadbcd8ac156c50f2fd4ffe ALSA: hda/realtek - Add supported for Lenovo ThinkPad Headset Button
 0011c6d182774fc781fb9e115ebe8baa356029ae arm64: dts: rockchip: Assign a fixed index to mmc devices on rk3399 boards.
 7327c8b98e2e14c47021eea14d1ab268086a6408 arm64: dts: rockchip: Reorder LED triggers from mmc devices on rk3399-roc-pc.
 01776f070ffcbf336be3bf1672bd3c589548d6c4 powerpc/32s: Use relocation offset when setting early hash table
@@ -1050,5 +1047,8 @@ d49248eb25a223b238cd7687ea92b080f595a323 Merge tag 'tty-5.10-rc7' of git://git.k
 ab91292cb3e9f43d9c6839d7572d17b35bc21710 Merge tag 'char-misc-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 0477e92881850d44910a7e94fc2c46f96faa131f Linux 5.10-rc7
 c8390cfaa07cb9e9ccaa946a1919b69dfb34bad1 erofs: remove a void EROFS_VERSION macro set in Makefile
+55ac4241e54ee57a1a72250b950e4837a5d3ef84 erofs: get rid of magical Z_EROFS_MAPPING_STAGING
+edf93cb057ba3dc0b3123b10634102f7ef16ee69 erofs: insert to managed cache after adding to pcl
+789409aeab9842d3fbc05c4351297863346d0082 erofs: simplify try_to_claim_pcluster()
 
---===============2354072844756329786==--
+--===============8498535435081465833==--
