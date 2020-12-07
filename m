@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4243828939746888551=="
+Content-Type: multipart/mixed; boundary="===============4540585658603588334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 07 Dec 2020 15:57:02 -0000
-Message-Id: <160735662250.17752.1559519808207674317@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 15:57:12 -0000
+Message-Id: <160735663228.17836.11253661178679851342@gitolite.kernel.org>
 
---===============4243828939746888551==
+--===============4540585658603588334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-linux-next
     old: b65054597872ce3aefbc6a666385eabdf9e288da
     new: 0477e92881850d44910a7e94fc2c46f96faa131f
     log: revlist-b65054597872-0477e9288185.txt
 
---===============4243828939746888551==
+--===============4540585658603588334==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -307,4 +307,4 @@ d49248eb25a223b238cd7687ea92b080f595a323 Merge tag 'tty-5.10-rc7' of git://git.k
 ab91292cb3e9f43d9c6839d7572d17b35bc21710 Merge tag 'char-misc-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 0477e92881850d44910a7e94fc2c46f96faa131f Linux 5.10-rc7
 
---===============4243828939746888551==--
+--===============4540585658603588334==--
