@@ -1,84 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0225237203827368433=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 07 Dec 2020 17:19:03 -0000
-Message-Id: <160736154355.6194.3923443108574984507@gitolite.kernel.org>
-
---===============0225237203827368433==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 07 Dec 2020 17:19:41 -0000
+Message-Id: <160736158132.6435.12881941938249077494@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.10
-    old: 2c2b3ad2c4c801bab1eec7264ea6991b1e4e8f2c
-    new: e748edd9841306908b4e02dddd0afd1aa1f8b973
+  - ref: refs/heads/for-linus
+    old: 7dd105ff02c8d9d793115116b553393b3759b60c
+    new: 7ae6b1ffb066ee15a63d5cf8c50622570f75b5e4
     log: |
-         e748edd9841306908b4e02dddd0afd1aa1f8b973 spi: dw: Fix error return code in dw_spi_bt1_probe()
+         77364f1fe48f9180f484b6d5a9789faf7515f043 Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
+         7ae6b1ffb066ee15a63d5cf8c50622570f75b5e4 Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
          
-  - ref: refs/heads/spi-5.11
-    old: b8450e014214982a6df3e62a5bee6c37b94f6b98
-    new: c732b7567d8698f10e988ed89fd9f107c739dbee
-    log: revlist-b8450e014214-c732b7567d86.txt
-
---===============0225237203827368433==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1607361538 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1607361541-a5aeb2b52b81df0338c0628606b35486382ac65c
-
-2c2b3ad2c4c801bab1eec7264ea6991b1e4e8f2c e748edd9841306908b4e02dddd0afd1aa1f8b973 refs/heads/spi-5.10
-b8450e014214982a6df3e62a5bee6c37b94f6b98 c732b7567d8698f10e988ed89fd9f107c739dbee refs/heads/spi-5.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/OZAIACgkQJNaLcl1U
-h9CiXAf/adiiA+6r55Xw80/vgZERVe0YAUJFegQBwZtEuwTXZkC1AgkMwn3A1Rla
-l0zaaivRNOvgXh5XKqq8Y4ecWheffDjMhKbxe7LuZ9qDeTsXbOD80OTfWvtiGlqW
-iJzQZEqbFg10EzSNi9gawPVB3ZDiZN5elnQn07MO4KP2S5vHPzl1beJSzp6Wu2HJ
-i4g79aYtHtzX+nWS9KaB0pyIZpiYsJQsQoCPjFUfaiFiSe3ridhqFz6k6EXUlvvc
-XQ5v8rEyMxbzDDlehVfKkSL3iM4XbrNdSENcmeOs416ri+wlkap0q6GHo14eNGFV
-jBSbCtEK6KiIgFz4PIPefrU6FfiyEQ==
-=rv4c
------END PGP SIGNATURE-----
-
---===============0225237203827368433==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8450e014214-c732b7567d86.txt
-
-cac8c821059639b015586abf61623c62cc549a13 spi: atmel-quadspi: Fix AHB memory accesses
-a6ff3a784ff9975dc77676827a2f448203511d19 spi: atmel-quadspi: Drop superfluous set of QSPI_IFR_APBTFRTYP_READ
-d00364b6a60475cd75fd07e847ad6f955952638b spi: atmel-quadspi: Write QSPI_IAR only when needed
-c066efb07d1e8b801ea9d0727119958c9904e63d spi: atmel-quadspi: Move common code outside of if else
-373afef350a93519b4b8d636b0895da8650b714b spi: davinci: Fix use-after-free on unbind
-8f96c434dfbc85ffa755d6634c8c1cb2233fcf24 spi: spi-geni-qcom: Fix use-after-free on unbind
-6cfd39e212dee2e77a0227ce4e0f55fa06d79f46 spi: spi-qcom-qspi: Fix use-after-free on unbind
-e77df3eca12be4b17f13cf9f215cff248c57d98f spi: spi-sh: Fix use-after-free on unbind
-5626308bb94d9f930aa5f7c77327df4c6daa7759 spi: pxa2xx: Fix use-after-free on unbind
-393f981ca5f797b58b882d42b7621fb6e43c7f5b spi: rpc-if: Fix use-after-free on unbind
-cc53711b2191cf3b3210283ae89bf0abb98c70a3 spi: mxic: Don't leak SPI master in probe error path
-0f4ad8d59f33b24dd86739f3be23e6af1a86f5a9 spi: spi-mtk-nor: Don't leak SPI master in probe error path
-7174dc655ef0578877b0b4598e69619d2be28b4d spi: gpio: Don't leak SPI master in probe error path
-a4729c3506c3eb1a6ca5c0289f4e7cafa4115065 spi: rb4xx: Don't leak SPI master in probe error path
-5b8c88462d83331dacb48aeaec8388117fef82e0 spi: sc18is602: Don't leak SPI master in probe error path
-e297ddf296de35037fa97f4302782def196d350a media: netup_unidvb: Don't leak SPI master in probe error path
-24f7033405abe195224ec793dbc3d7a27dec0b98 spi: mt7621: Disable clock in probe error path
-46b5c4fb87ce8211e0f9b0383dbde72c3652d2ba spi: mt7621: Don't leak SPI master in probe error path
-236924ee531d6251c8d10e9177b7742a60534ed5 spi: ar934x: Don't leak SPI master in probe error path
-234266a5168bbe8220d263e3aa7aa80cf921c483 spi: npcm-fiu: Disable clock in probe error path
-c7b884561cb5b641f3dbba950094110794119a6d spi: atmel-quadspi: Fix use-after-free on unbind
-c732b7567d8698f10e988ed89fd9f107c739dbee Merge series "spi: atmel-quadspi: Fix AHB memory accesses" from Tudor Ambarus <tudor.ambarus@microchip.com>:
-
---===============0225237203827368433==--
+  - ref: refs/heads/for-next
+    old: 69701680846a3d977d23f951bde50ae3e66bbd42
+    new: 49c0a6c3d1625f6910b5f68aa0224f99c2758279
+    log: |
+         bb9dd3ce6177e1f8cf01b0d45e6bd9b93f656bd0 ASoC: pcm: send DAPM_STREAM_STOP event in dpcm_fe_dai_shutdown
+         8f6cfbb6d4272635311b4604194e39172e7719ad ASoC: SOF: trace: Add runtime trace filtering mechanism
+         77364f1fe48f9180f484b6d5a9789faf7515f043 Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
+         7ae6b1ffb066ee15a63d5cf8c50622570f75b5e4 Merge remote-tracking branch 'asoc/for-5.10' into asoc-linus
+         49c0a6c3d1625f6910b5f68aa0224f99c2758279 Merge remote-tracking branch 'asoc/for-5.11' into asoc-next
+         
