@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7395941169637768426=="
+Content-Type: multipart/mixed; boundary="===============3838110242300073327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 07 Dec 2020 09:44:47 -0000
-Message-Id: <160733428729.3457.7425378533713588227@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 09:44:54 -0000
+Message-Id: <160733429401.3615.14302974002830735775@gitolite.kernel.org>
 
---===============7395941169637768426==
+--===============3838110242300073327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 985fc9dbf86fb795b364932cd4a0c86faff0de5b
-    new: 84efce4ee9689b2de64a977059b65afae95fab00
-    log: revlist-985fc9dbf86f-84efce4ee968.txt
+  - ref: refs/heads/net-next
+    old: 487af4cb8f95e813c865589527b42136f0b277af
+    new: bd31ad689fc687fb74b416b2b032c588c5c652ba
+    log: revlist-487af4cb8f95-bd31ad689fc6.txt
 
---===============7395941169637768426==
+--===============3838110242300073327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-985fc9dbf86f-84efce4ee968.txt
+Content-Disposition: attachment; filename=revlist-487af4cb8f95-bd31ad689fc6.txt
 
 7de3697e9cbd4bd3d62bafa249d57990e1b8f294 Add auxiliary bus support
 7bbb79ff5f7499e0c5d65987458410e8099207d8 driver core: auxiliary bus: move slab.h from include file
@@ -133,5 +133,9 @@ a46aff956064c09f1dcd08939988df032bda0917 net/mlx5e: Expose RX dma info helpers
 e66db3aba7175a2478820b4c4519531f193cc2e1 net/mlx5e: Add listener to trap event
 8a383d705319bebce8a364f85a0e5c6389195fab net/mlx5e: Add listener to DMAC filter trap event
 84efce4ee9689b2de64a977059b65afae95fab00 net/mlx5e: Enable traps according to link state
+1ab3a94a69c16dd109266827dc149e1f2c2de4f4 Merge branch 'net-next-mlx4' into net-next
+16de50a27cbe6dc3f9d08dc734f57a22443dc31e Merge branch 'mlx5-vdpa' into net-next
+e8351a2a83ce2fdbf8acc9d84997c0b59e841568 Merge branch 'net-next-mlx5' into net-next
+bd31ad689fc687fb74b416b2b032c588c5c652ba Merge branch 'net-mlx4' into net-next
 
---===============7395941169637768426==--
+--===============3838110242300073327==--
