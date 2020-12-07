@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5974071896918173891=="
+Content-Type: multipart/mixed; boundary="===============8364236081235088158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 07 Dec 2020 11:21:06 -0000
-Message-Id: <160734006624.32737.5699943052410687979@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 11:21:29 -0000
+Message-Id: <160734008976.428.3615949039891367714@gitolite.kernel.org>
 
---===============5974071896918173891==
+--===============8364236081235088158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-drivers
-    old: e23a7cdeb3da8d3ca943fced1420020c1d524684
-    new: 0385979a30dc4abdef2dcebbccef818947c80cb7
-    log: revlist-e23a7cdeb3da-0385979a30dc.txt
+  - ref: refs/heads/edac-for-next
+    old: 8763e5cbb958ab54be29314dadf171673f6ed7c8
+    new: f4161dcc4e2cb700209e81eed09927bcbbfe0465
+    log: revlist-8763e5cbb958-f4161dcc4e2c.txt
 
---===============5974071896918173891==
+--===============8364236081235088158==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e23a7cdeb3da-0385979a30dc.txt
+Content-Disposition: attachment; filename=revlist-8763e5cbb958-f4161dcc4e2c.txt
 
-e24a87b54ef3e39261f1d859b7f78416349dfb14 perf lock: Correct field name "flags"
 b0e5a05cc9e37763c7f19366d94b1a6160c755bc perf lock: Don't free "lock_seq_stat" if read_count isn't zero
 db1a8b97a0a36155171dbb805fbcb276e07559f6 tools arch: Update arch/x86/lib/mem{cpy,set}_64.S copies used in 'perf bench mem memcpy'
 db2ac2e49e564c2b219c4b33d9903aa383334256 perf test: Fix a typo in cs-etm testing
@@ -1050,5 +1049,6 @@ e36a17f846bc9ebc540a6c53f38421a1b2dadfdb dt-bindings: edac: aspeed-sdram-edac: A
 aac82707fa4593b99053fa9ebb2e73d8103130ed ARM: dts: aspeed: Add AST2600 EDAC into common devicetree
 edfc2d73ca45da19fb76f9b76ecc6e885d74d093 EDAC/aspeed: Add support for AST2400 and AST2600
 0385979a30dc4abdef2dcebbccef818947c80cb7 EDAC/mv64x60: Remove orphan mv64x60 driver
+f4161dcc4e2cb700209e81eed09927bcbbfe0465 Merge branch 'edac-drivers' into edac-for-next
 
---===============5974071896918173891==--
+--===============8364236081235088158==--
