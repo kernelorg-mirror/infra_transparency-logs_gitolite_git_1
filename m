@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0034838588938861765=="
+Content-Type: multipart/mixed; boundary="===============2927593746117349925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 07 Dec 2020 14:23:56 -0000
-Message-Id: <160735103691.22098.6619695413196876405@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 14:27:28 -0000
+Message-Id: <160735124868.24441.7330408109007165259@gitolite.kernel.org>
 
---===============0034838588938861765==
+--===============2927593746117349925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 93837812a5dcde17224ad20cf2ad7be1e94482bb
-    new: c7721e15f434920145c376e8fe77e1c079fc3726
+    old: c7721e15f434920145c376e8fe77e1c079fc3726
+    new: 10eb0b6ac63a15b80e4e9ae8b85668827a747350
     log: |
-         7fe53dcbbfbd91ad953022281adcc6cbc9dbc052 USB: core: drop pipe-type check from new control-message helpers
-         c7721e15f434920145c376e8fe77e1c079fc3726 usb: chipidea: ci_hdrc_imx: Pass DISABLE_DEVICE_STREAMING flag to imx6ul
+         e90cfa813da7a527785033a0b247594c2de93dd8 USB: dummy-hcd: Fix uninitialized array use in init()
+         3f6f6343a29d9ea7429306b83b18e66dc1331d5c usb: mtu3: fix memory corruption in mtu3_debugfs_regset()
+         ff62d08fd6242a3ef5aa0a7bcae6a0b0136a60ed usb: typec: tps6598x: Select USB_ROLE_SWITCH and REGMAP_I2C
+         10eb0b6ac63a15b80e4e9ae8b85668827a747350 usb: typec: tps6598x: Export some power supply properties
          
 
---===============0034838588938861765==
+--===============2927593746117349925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607351099 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607351313 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1607351026-9c756f6e664ac90561e537c71ac2f9433e361d07
+nonce 1607351240-132f8e5a426aadc106eed6d7119a396241365bec
 
-93837812a5dcde17224ad20cf2ad7be1e94482bb c7721e15f434920145c376e8fe77e1c079fc3726 refs/heads/usb-testing
+c7721e15f434920145c376e8fe77e1c079fc3726 10eb0b6ac63a15b80e4e9ae8b85668827a747350 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/OOzsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u4AQAMVMOxRHnZPOgOcbiOgR
-BuKAxpLUZFasyChQPKj0Lm2eXcwz46yEF9kCF94hrrGZFKnmlxVRBkyY51B/sTpZ
-HsFkYiz1lYMsMiXLGvmoDxu3kW0fHZpO+/X5hAL7rZn/h9q892CeRbQpElrQ34+U
-/wTks541F+1VMQsXA0uWVmlTN+YevmiI4sgl8j74FC6mUbaIepLknM4hPknNnZB5
-HyPhNMGY33/LrkzlZy/hATeS7+6Dw5dUvI9SIg2WUeeQpFe1lA/q9s2UysXWa0Fx
-tRRwZMnKIS/EL/RZFGwn3CNhEPUiOrBkt9QBRVPthCrlCkTpjt9Dsw+SjMfL0ZBt
-AsMm7IwRFNc8Uhhec9pZuTpH5a2s+n6/AmvwhjwSx6BNw7TgKmpzY9+ER19EM3cn
-eRFzo8Zr/3UXHlC7of/n2LifBLokRRZL05m5heIh0GbXI8M3HmQk6H+DkWtsmCLZ
-I4q3qRgBFB/63h0mFmydHIntYQd8r7v9ak7Q+fO9YEse/Wt+HhSl+g1Nx6FqzW5u
-76qp3edqOXv/XoJwD5sPj/0pVqSwIQhRYBRLQdSPVmwJcCz1X2vWexVGvqoO9FTO
-nA9WF1OK+BUp3C2u7P+1JzBIv6Ux6jNFX7JuZ+kqUEpxLIzI2pKPMYaQqmjn3N8O
-KO1M6q0Yto3IPCz7bwa7Y6Qk
-=I0bZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/OPBEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wxwQAMtexI8kg/TgUmMfEIbW
+i9W7UtuUsRdCzfmS6Vr+DeKwbsiqFargxnLvsl4UhuxxuP1Q2/rh2tids3bkr2+L
+pTkv1F9wGCQZ9PJ8alOdcNt7UrExuBoCKM8OSRd/FKFSCAyyNWCisVFq+ETW9U4M
+SQpOueJqs8EDsdMMOyuddMWJnVAhdx4LZ7WVfOX1kPp4RPaxvUwgjff0Nytjh/GD
+PzmoZqlaH1gm1hfqvdMuPgNkw46kMJbGFZO2HKsKaMI8fLjlv2CPU7voJhthXVXb
++unX4s0CzTNgKycY4iOByK2TXDwl59gOdrw9tTtCszk3uCGzkSe3usvFyDRZ/wun
+UgSqcPXlXBwi4v0BN6r4c4MBHXDamNnBIdicB/bPBW6W39PFVGpTg7YawSSnGYH+
+XgI/KOyYGp2l5ZRAd8+R4zsuPrzQU4uyFwnpBoXKVnyDU3nuFMXKHyCItiWXuM68
+FZ+1NRwXSdmhtiYK4a9r8T+6eHB5ysz2cc0gOPQr13NbhKqo3SU0INV7FS+oA2jr
+E3+5vlJxGzmmDaGGYUvXE6WE+IcwRwV1btsoJ7C4+PRFKprIMYTYcGt8PshhXUpW
+voGnCXhrl4+bj2m1iEbk3XdGFlpVkrqwx043JufcdzLTkgWB5HMhKCAACcSQoAQi
+75MB6jVZ7Lc/lFdBKDNUVcjy
+=WrMI
 -----END PGP SIGNATURE-----
 
---===============0034838588938861765==--
+--===============2927593746117349925==--
