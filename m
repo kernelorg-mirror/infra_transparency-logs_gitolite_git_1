@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2227270383979767595=="
+Content-Type: multipart/mixed; boundary="===============7732046487233254506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 07 Dec 2020 18:03:39 -0000
-Message-Id: <160736421910.2880.13004881993750108098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 07 Dec 2020 18:03:43 -0000
+Message-Id: <160736422322.2962.4831663364198233274@gitolite.kernel.org>
 
---===============2227270383979767595==
+--===============7732046487233254506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: dd0039844c8b2b960d0e0175923da0135f87c392
 
---===============2227270383979767595==
+--===============7732046487233254506==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -170,4 +170,4 @@ d49248eb25a223b238cd7687ea92b080f595a323 Merge tag 'tty-5.10-rc7' of git://git.k
 ab91292cb3e9f43d9c6839d7572d17b35bc21710 Merge tag 'char-misc-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 0477e92881850d44910a7e94fc2c46f96faa131f Linux 5.10-rc7
 
---===============2227270383979767595==--
+--===============7732046487233254506==--
