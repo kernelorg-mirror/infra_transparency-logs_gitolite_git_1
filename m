@@ -1,24 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 07 Dec 2020 15:12:07 -0000
-Message-Id: <160735392733.22718.18047033369748441036@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4193002149675391390=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 07 Dec 2020 15:13:18 -0000
+Message-Id: <160735399877.23102.1234662771935591796@gitolite.kernel.org>
+
+--===============4193002149675391390==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-hans
-    old: e2f58c958a574632d846b454700ba3e669e3cf06
-    new: a4327979a19e8734ddefbd8bcbb73bd9905b69cd
+  - ref: refs/heads/master
+    old: b1599fd879ae83134362e718bb9855a34b2e05f4
+    new: fba47b040dfca978c6685b81bac60ee2f7604b4d
     log: |
-         1f7cb4665df8a25ae577a822a47fc4576f60c30f platform/x86: dell-wmi-sysman: work around for BIOS bug
-         8b105ef6ffb78d208b93e4c4b47e83dbd438cc12 acer-wireless: send an EV_SYN/SYN_REPORT between state changes
-         a552f204b050b213b1e41a5134a0d2726c9a2ec1 platform/x86: ISST: Check for unaligned mmio address
-         761f0ee0e84b4c18535c6d17890ccc9f5c617e8d platform/x86: ISST: Allow configurable offset range
-         7c88ab5715a265d5dde06e4e1b0dd4370d911372 platform/x86: ISST: Change PCI device macros
-         a4327979a19e8734ddefbd8bcbb73bd9905b69cd platform/x86: intel-vbtn: Fix SW_TABLET_MODE always reporting 1 on some HP x360 models
+         fba47b040dfca978c6685b81bac60ee2f7604b4d Silence some pycharm warnings
          
+
+--===============4193002149675391390==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1607353998 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1607353998-6f5e1027b16c5c1d44493014ed985628756820a5
+
+b1599fd879ae83134362e718bb9855a34b2e05f4 fba47b040dfca978c6685b81bac60ee2f7604b4d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX85GjgAKCRC2xBzjVmSZ
+bJyqAQCtwYJDakWRvQj3fQ+PRzRVplIjmClvUCT0l+AcUegCJQD/bxSX3UdFQRRe
+V+ZraEh7AhY6731Xh/dnblXm9S3cLAs=
+=KiG6
+-----END PGP SIGNATURE-----
+
+--===============4193002149675391390==--
