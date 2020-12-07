@@ -1,46 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4193002149675391390=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 07 Dec 2020 15:13:18 -0000
-Message-Id: <160735399877.23102.1234662771935591796@gitolite.kernel.org>
-
---===============4193002149675391390==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 07 Dec 2020 15:27:12 -0000
+Message-Id: <160735483225.31092.5489804233037043759@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: b1599fd879ae83134362e718bb9855a34b2e05f4
-    new: fba47b040dfca978c6685b81bac60ee2f7604b4d
+  - ref: refs/heads/net-next
+    old: bd31ad689fc687fb74b416b2b032c588c5c652ba
+    new: f64545f99ee87d6fc4d5c7716f24f8490ab2b862
     log: |
-         fba47b040dfca978c6685b81bac60ee2f7604b4d Silence some pycharm warnings
+         04ea30c857217eb69451f8ced5a857693666ae16 s390/qeth: don't call INIT_LIST_HEAD() on iob's list entry
+         050663129a6d70a178a8545c31bc715bfb915355 s390/ccwgroup: use bus->dev_groups for bus-based sysfs attributes
+         0b8da8110b4fa3314a060e5c5a3b35a22b81e900 s390/qeth: use dev->groups for common sysfs attributes
+         db4ffdcef7c9a842e55228c9faef7abf8b72382f s390/qeth: don't replace a fully completed async TX buffer
+         75cf3854dcdf7b5c583538cae12ffa054d237d93 s390/qeth: remove QETH_QDIO_BUF_HANDLED_DELAYED state
+         d2e46004c5cdaec4befa3c1a071bb9fa7fdbbcc5 s390/qeth: make qeth_qdio_handle_aob() more robust
+         b1f7b0983601af4054876bca42e3094bf6b034c0 Merge branch 's390-qeth-next'
+         a56e07aee231950c7a5a85f44227bb818967d366 Merge branch 'net-next-mlx4' into net-next
+         f04fcd9a274a2e3201338751938e56a9813305dd Merge branch 'mlx5-vdpa' into net-next
+         945a24b9828d9b6bc5f226cb2e5de840876e2a0b Merge branch 'net-next-mlx5' into net-next
+         f64545f99ee87d6fc4d5c7716f24f8490ab2b862 Merge branch 'net-mlx4' into net-next
          
-
---===============4193002149675391390==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1607353998 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1607353998-6f5e1027b16c5c1d44493014ed985628756820a5
-
-b1599fd879ae83134362e718bb9855a34b2e05f4 fba47b040dfca978c6685b81bac60ee2f7604b4d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX85GjgAKCRC2xBzjVmSZ
-bJyqAQCtwYJDakWRvQj3fQ+PRzRVplIjmClvUCT0l+AcUegCJQD/bxSX3UdFQRRe
-V+ZraEh7AhY6731Xh/dnblXm9S3cLAs=
-=KiG6
------END PGP SIGNATURE-----
-
---===============4193002149675391390==--
