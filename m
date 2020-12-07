@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4540585658603588334=="
+Content-Type: multipart/mixed; boundary="===============4210848248684429806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 07 Dec 2020 15:57:12 -0000
-Message-Id: <160735663228.17836.11253661178679851342@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 15:57:28 -0000
+Message-Id: <160735664876.17963.5611095087879454393@gitolite.kernel.org>
 
---===============4540585658603588334==
+--===============4210848248684429806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-linux-next
-    old: b65054597872ce3aefbc6a666385eabdf9e288da
-    new: 0477e92881850d44910a7e94fc2c46f96faa131f
-    log: revlist-b65054597872-0477e9288185.txt
+  - ref: refs/heads/v5.10/ffa
+    old: 2cfe2ac357730fed491b3432a6278d90043b387d
+    new: 37dea4fe8e076cdd6cdab913fce1b31984d19dd2
+    log: revlist-2cfe2ac35773-37dea4fe8e07.txt
 
---===============4540585658603588334==
+--===============4210848248684429806==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b65054597872-0477e9288185.txt
+Content-Disposition: attachment; filename=revlist-2cfe2ac35773-37dea4fe8e07.txt
 
 cb7ff314e1d9f3d6c62fa2c392e41174721ed0b3 drm/tegra: sor: Don't warn on probe deferral
 5c1d644c09dbc13b2dc652435786e42b05ac1bb7 drm/tegra: sor: Ensure regulators are disabled on teardown
@@ -306,5 +306,12 @@ f5226f1d20c4113922dbe7742c416f06700c1ea9 Merge tag 'usb-5.10-rc7' of git://git.k
 d49248eb25a223b238cd7687ea92b080f595a323 Merge tag 'tty-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 ab91292cb3e9f43d9c6839d7572d17b35bc21710 Merge tag 'char-misc-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 0477e92881850d44910a7e94fc2c46f96faa131f Linux 5.10-rc7
+e2d08cddfc282eea835ea2a6ce627f3ec6992856 dt-bindings: Arm: Add Firmware Framework for Armv8-A (FF-A) binding
+b230a0e7fdd8ca20518bacfc76cb46954f5d9d3e arm64: smccc: Add support for SMCCCv1.2 input/output registers
+7221a6070ad405baf2d14017a9f47d19d0e3576f firmware: arm_ffa: Add initial FFA bus support for device enumeration
+1f2b6a5bc324492c2f73e3d6ac82e23d27ec84a8 firmware: arm_ffa: Add initial Arm FFA driver support
+b04604173fb38801eaf5319133e8cf0e572db5c7 firmware: arm_ffa: Add support for SMCCC as transport to FFA driver
+36e48bda98bfd9de372f209a8db56763fd5e4fa1 firmware: arm_ffa: Setup in-kernel users of FFA partitions
+37dea4fe8e076cdd6cdab913fce1b31984d19dd2 firmware: arm_ffa: Add support for MEM_* interfaces
 
---===============4540585658603588334==--
+--===============4210848248684429806==--
