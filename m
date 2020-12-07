@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2590437044496517591=="
+Content-Type: multipart/mixed; boundary="===============7210086929162324660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-Date: Mon, 07 Dec 2020 08:59:24 -0000
-Message-Id: <160733156471.20042.1547108952237617793@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 09:07:12 -0000
+Message-Id: <160733203221.10692.15530589184019083906@gitolite.kernel.org>
 
---===============2590437044496517591==
+--===============7210086929162324660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
 user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: 9eb597c74483ad5c230a884449069adfb68285ea
-    new: af3f4a85d90218bb59315d591bd2bffa5e646466
-    log: revlist-9eb597c74483-af3f4a85d902.txt
+  - ref: refs/heads/pending
+    old: 810ca591c1046f7054aa2187351a3aefe5c70c1b
+    new: f4a243bfdb0d9afc850d35755dc0bae0b980b4ac
+    log: revlist-810ca591c104-f4a243bfdb0d.txt
 
---===============2590437044496517591==
+--===============7210086929162324660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9eb597c74483-af3f4a85d902.txt
+Content-Disposition: attachment; filename=revlist-810ca591c104-f4a243bfdb0d.txt
 
-2d8f6481c17db9fa5238b277cdbc392084060b09 ipv6: Remove dependency of ipv6_frag_thdr_truncated on ipv6 module
-d748287a28de8955e1756a454e81ab1a73d45ecf Merge tag 'regulator-fix-v5.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-aecd1fbe7784e75226682afe7a9c3a34af35aa3e Merge tag 'asoc-fix-v5.10-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 0530bd6e6a3d5a0292a1a5f33ea980ae7e8b56ca net/smc: fix matching of existing link groups
 41a0be3f8f6be893860b991eb10c47fc3ee09d7f net/smc: fix direct access to ib_gid_addr->ndev in smc_ib_determine_gid()
 90b49784814c10c0f028646f95cc2c2848696712 Merge branch 'net-smc-fixes-2020-11-18'
@@ -1011,6 +1008,8 @@ a962cb29bb608acdbf88a64368159d099671380e batman-adv: Drop legacy code for auto d
 a1dd1d86973182458da7798a95f26cfcbea599b4 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 fdd8b8249ef819958decd9b0ff2c0e52f9d20ae6 dpaa_eth: fix build errorr in dpaa_fq_init
 846c3c9cfe8a74021b246bc77a848507be225719 Merge tag 'wireless-drivers-next-2020-12-03' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+bacf5047bb44d3660fbf7f9130b4826d2d9f59d2 mt76: mt7915: fix ht mcs in mt7915_mcu_get_rx_rate()
+f12758f6f929dbcd37abdb1d91d245539eca48f8 mt76: mt7615: Fix fall-through warnings for Clang
 048939088220278b8ee5bbf3769fd2f803ca9e3e vrf: add mac header for tunneled packets when sniffer is attached
 964adce526a46f38c6a79e45336cd3732f2e8d86 seg6: improve management of behavior attributes
 0a3021f1d4e553d9f3e7fc20e994b91af0687eb4 seg6: add support for optional attributes in SRv6 behaviors
@@ -1050,5 +1049,6 @@ ed22a8ff0684f691796ba602b1dd96041b824726 r8169: make NUM_RX_DESC a signed int
 f54d3c81b763271f1533792fddd730720b0d225f mlxsw: spectrum: Bump minimum FW version to xx.2008.2018
 acde33bf731989e45c65e4e974ac1214702850b7 mlxsw: spectrum_router: Reduce mlxsw_sp_ipip_fib_entry_op_gre4()
 af3f4a85d90218bb59315d591bd2bffa5e646466 Merge branch 'mlxsw-Misc-updates' Ido Schimmel says:
+f4a243bfdb0d9afc850d35755dc0bae0b980b4ac Merge tag 'mt76-for-kvalo-2020-12-04' of https://github.com/nbd168/wireless into pending
 
---===============2590437044496517591==--
+--===============7210086929162324660==--
