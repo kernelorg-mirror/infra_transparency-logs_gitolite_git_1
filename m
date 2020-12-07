@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Mon, 07 Dec 2020 09:57:59 -0000
-Message-Id: <160733507942.11611.6412478853890345092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Mon, 07 Dec 2020 10:30:00 -0000
+Message-Id: <160733700065.31281.12162705024038730335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/for-next/core
-    old: ecc28f75f5190f81c691dff3eb0709387f26cdcf
-    new: 42a81f5719de7808f8a7dd38f5c1acb00a2007fa
+  - ref: refs/heads/mips-next
+    old: 4f1682b8a97dc24e57e8bcb62b23c216d8425266
+    new: 991838f90e9315468cd1d1daed29d27faae77a9b
     log: |
-         0d702fefd10f4cadfa6b00f87c27a121ef08e696 Merge branches 'for-next/kvm-build-fix', 'for-next/va-refactor', 'for-next/lto', 'for-next/mem-hotplug', 'for-next/cppc-ffh', 'for-next/pad-image-header', 'for-next/zone-dma-default-32-bit', 'for-next/signal-tag-bits' and 'for-next/cmdline-extended' into for-next/core
-         4738ae5603c4b8532782772a52e8b76907b7c2de Merge branch 'for-next/uaccess' into for-next/core
-         0f63576e848ab48f323e6ea98225667e2cabefcf Merge branch 'for-next/misc' into for-next/core
-         160f5e33fb0ea16330cfd34f6cf7c90840d60959 Merge remote-tracking branch 'arm64/for-next/perf' into for-next/core
-         0de60ab1d387060b0b8f2ba42f2109fd7cab1086 Merge remote-tracking branch 'arm64/for-next/scs' into for-next/core
-         b6b3b3a876bcb80e30e01048aa9668bd8f581552 Merge remote-tracking branch 'arm64/for-next/fixes' into for-next/core
-         42a81f5719de7808f8a7dd38f5c1acb00a2007fa Merge remote-tracking branch 'arm64/for-next/iommu/core' into for-next/core
+         c0aac3a51cb6364bed367ee3e1a96ed414f386b4 MIPS: KASLR: Avoid endless loop in sync_icache if synci_step is zero
+         991838f90e9315468cd1d1daed29d27faae77a9b MIPS: DTS: img: Fix schema warnings for pwm-leds
          
