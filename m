@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4841269065274972292=="
+Content-Type: multipart/mixed; boundary="===============6421015273736872221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 07 Dec 2020 09:13:45 -0000
-Message-Id: <160733242505.14441.10116781764886965659@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 09:14:03 -0000
+Message-Id: <160733244333.14656.17158139325290916936@gitolite.kernel.org>
 
---===============4841269065274972292==
+--===============6421015273736872221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 418baf2c28f3473039f2f7377760bd8f6897ae18
+  - ref: refs/heads/tty-linus
+    old: c8bcd9c5be24fb9e6132e97da5a35e55a83e36b9
     new: 0477e92881850d44910a7e94fc2c46f96faa131f
-    log: revlist-418baf2c28f3-0477e9288185.txt
+    log: revlist-c8bcd9c5be24-0477e9288185.txt
 
---===============4841269065274972292==
+--===============6421015273736872221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607332490 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607332509 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1607332416-da0a3f8ac1d6fab7cdeef8bb35c250916f255aea
+nonce 1607332434-f0b45eb16205cd3d7c5ea6b301dc669017b9976d
 
-418baf2c28f3473039f2f7377760bd8f6897ae18 0477e92881850d44910a7e94fc2c46f96faa131f refs/heads/main
+c8bcd9c5be24fb9e6132e97da5a35e55a83e36b9 0477e92881850d44910a7e94fc2c46f96faa131f refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/N8oobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GwAQAMUImIoqRkXI/XukBMgJ
-K+ZtQy1PsOvwfYQuNXW0eknQ61kJQES5elGOllcHeojBOruAa3l/hV6Se/nc6ln3
-bmqRtvuf+3QN7R77WNbbn3DGCDlWc+XV4ku4CjnmRiVjWV8hby2en1tpCKrT+hDc
-pB+F/txhH5QauTIqY7Na2yU7VNoLJl0SNO2A8CHXB4KkWGchOJA4MYFozccFEKvI
-vcjE3+vOjMKwU489HHX2xvyKDGLqofohxg3xuf1ufa9RBZi/Z34C/89xbnjfFV9k
-4hTgJYDDk8kS030Imix2kGihOm9Mw8HNaOfnNmzlVjrlhKXw+Ykwu8FqK82ZIYpj
-q/S2uhBNdnb/BqMw5l7lcJDeZUxJJJOQK0Btc1NSEnvFA1YVWLVecDjfJUGaoZ6H
-A31hg7ODq1rgvrtzlZQu4r4EurhWZyc7FV1x+JAiyxzL6cPHX0iEw1+0rD8d7F4V
-zn6i7byB0a7lnWRuHRrXIdp6LMlPtg9+fI3ANPssMdw0cpf1l+5T4kOWNcfIIK08
-8xIG1U1F2VCjQSiTlzECod9T4769eD1ZihXbRlgmu+TSRfBWo3cNPNQm8oVaMoeE
-frgfXy8EtV3nesRhny1ksDUXOb2o+RgyzoidutA/ZQBMMIKzRPc8iEdMfaJC1oCk
-6BMEGjhZRoYU/wdEjLkOlcHu
-=QiJz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/N8p0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DuMQAM1lEeEWptoW8Eh5vhVi
+A38IxykA1duSbtNpGRQPhjc9xCs2w0dFzLs0K7eNG8y87TbCViC3xj7uLDMsOir+
+4qd4Lmq64xnTgiH6XO3EABLlwQM5kkfNrHKt4zkqO4bSrI582UwmcuqW1HYGStRa
+zN8fsQ8BDGH7sMf0dZcfF8teI2R4F/9cRFHZzCslc6QYXAgiIyoxMoHv/E/JuCBs
+4wVCN6ok4Jjmfo5f13KnZemDhEO+IPexQjbl5HXdVBWyNX+kosfJB90EZysYEILX
+uwLGiVQNZVoUoZFhY8MIfb6OTVsA1IWQ3oKGQLC/wwl9eF62qmPoZ5f01M0lYvlE
+cSkjnnihEnxyRxXGzIawxPdU4y2n0G1QaueONnD4LtdNaktzgzV77boafILoiCsE
+N1cJMgL36MQ4RC8PEELAwYJPfO44KvU43G93kU83Kgy+akuHp2THuVsEGQ3XvE/6
+ACh0L9RaJtxafz1Cyl/8bNQj41r+P6iWUnujVJNb+ZrZs0xRLuzZsMri8As/kRFe
+1RtY0wR4Fo6ozMAUApj4nTeIUtp9xJQI5GDubZ0Bq7rBtWyAoVngQI4ErcEi6lms
+NLzZx/Wil/d3wOHt4ABzYc7LGedHsedjyrYQqxHj/sYCozLGyTZOfW/LgdQ2m090
+BTi7NnOfvDFGySJcjD82gZja
+=P2vd
 -----END PGP SIGNATURE-----
 
---===============4841269065274972292==
+--===============6421015273736872221==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-418baf2c28f3-0477e9288185.txt
+Content-Disposition: attachment; filename=revlist-c8bcd9c5be24-0477e9288185.txt
 
 c20782ad4eb9dfa7f41cb2d85f218d0940f7cef1 ARM: OMAP2+: Fix location for select PM_GENERIC_DOMAINS
 b69fd00120f8e3348273323099669cb058668263 ARM: OMAP2+: Fix missing select PM_GENERIC_DOMAINS_OF
@@ -666,8 +666,6 @@ d5c65d32dc240bf600d9e54250a8133e93ece60a Revert "uas: fix sdev->host->dma_dev"
 97ad4a77f23e30801d2c0ef0c12b59f0e5760e6e Revert "usb-storage: fix sdev->host->dma_dev"
 45c5775460f32ed8cdb7c16986ae1a2c254346b3 usb: ohci-omap: Fix descriptor conversion
 a4b98a7512f18534ce33a7e98e49115af59ffa00 usb: gadget: f_fs: Use local copy of descriptors for userspace copy
-54ffccbf053b5b6ca4f6e45094b942fab92a25fc tty: Fix ->pgrp locking in tiocspgrp()
-c8bcd9c5be24fb9e6132e97da5a35e55a83e36b9 tty: Fix ->session locking
 e87297fa080a7ed6b431873c771b3801cab573f5 Merge tag 'drm-fixes-2020-12-04' of git://anongit.freedesktop.org/drm/drm
 3ee16db390b42b8a21f2ad2ea2518f3469c6e532 dm: fix IO splitting
 f05c4403db5bba881d4964e731f6da35be46aabd dm: fix double RCU unlock in dm_dax_zero_page_range() error path
@@ -712,4 +710,4 @@ d49248eb25a223b238cd7687ea92b080f595a323 Merge tag 'tty-5.10-rc7' of git://git.k
 ab91292cb3e9f43d9c6839d7572d17b35bc21710 Merge tag 'char-misc-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 0477e92881850d44910a7e94fc2c46f96faa131f Linux 5.10-rc7
 
---===============4841269065274972292==--
+--===============6421015273736872221==--
