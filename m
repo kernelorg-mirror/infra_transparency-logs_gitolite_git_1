@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0327832364984856726=="
+Content-Type: multipart/mixed; boundary="===============3385538528718035777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 07 Dec 2020 09:08:45 -0000
-Message-Id: <160733212544.11129.13618818030012160169@gitolite.kernel.org>
+Date: Mon, 07 Dec 2020 09:09:03 -0000
+Message-Id: <160733214351.11346.8454534264385378702@gitolite.kernel.org>
 
---===============0327832364984856726==
+--===============3385538528718035777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: b65054597872ce3aefbc6a666385eabdf9e288da
+  - ref: refs/heads/char-misc-linus
+    old: 264f53b41946dcabb2b3304190839ab5670c7825
     new: 0477e92881850d44910a7e94fc2c46f96faa131f
-    log: revlist-b65054597872-0477e9288185.txt
+    log: revlist-264f53b41946-0477e9288185.txt
 
---===============0327832364984856726==
+--===============3385538528718035777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607332191 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607332209 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1607332116-457d72cd4ea4458c517431f626b70944366c686b
+nonce 1607332135-26e6bac02a41c06b2fb4c60cefb4e87dabce49f5
 
-b65054597872ce3aefbc6a666385eabdf9e288da 0477e92881850d44910a7e94fc2c46f96faa131f refs/heads/main
+264f53b41946dcabb2b3304190839ab5670c7825 0477e92881850d44910a7e94fc2c46f96faa131f refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/N8V8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nowP/1pfpb5G/uha30SnML4q
-kFBalAd3e59Hn86/QsJcV7pJt4BKTnsjSs+YYCS6vpG+8Ru6rUP2E06F/MIHP1Rx
-Trg0yC30KfT70le6WgI6SabDMt/fTv0RP3v5z5WM2FkugCSJ1k9gWyQlbl0cz4WP
-XoENGd4tjLpi746hcSiiw2jlhiYpXpqacCq7Me/lAgqTlQYBiszWTMFrcKnXgUsO
-6Y6LbL7FUSz6iNQKbDUWhbQo+iyOMvP/JYenWZw99YHHiVEM7ko4jQMYsLHf5c+O
-OGanM+UatyzbmLnU8acsmBlEzN7FSB3tupCD3Q01dZixBlFfGJ8U+fwrtvk75H+h
-ah+QOgBXXjF/T1FjNKEB8hhP7DgJ+JuhtyTgiQ+HH6g8q3B/5KjaSZjAjrWYLPFy
-MpDG0mcFG1PaZmh3s+QQtXOGgS7bRm/uFST97hITpSurrGuZQYouNN4yutUBJs3s
-FJD+IlaPecD83sGxyy3k6eHcm1MxNXT/PJZRgbWXdLEhn9CsixdMFaf2AbB2yL2q
-OUEFzEaYzH29EEnf6RFxNIKoZtlJtPrysuJj5Qw4qf4x8QMV5HIsoN/iQ+EYRgJQ
-w7JxfQQFMAiqWx89C4fsfOHTlSvCTiUGF0R3AFlRZnpYMdRFDgHt5WaSrg2FXEPA
-S9wS3OkdSErSOibtaTQxvGuH
-=zeJw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/N8XEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gjkP/AxmgbpuVEcT8HU1srZL
+8TID6TztZtMgmxobcJJC+hKZjqYqwpasECiGl4aqbV4T+TItFYB4iyBFBmatvM53
+qdGUdy7HjXlOt+3Ay8psp6JFrY5v7y15LVIp5uHeg7eXyzcIC9F2f7CEmrNsh62a
+uUELnVqi+5CCT0C0IjEtyHGXNXJ+f0I04vfooQjuK3zpx2EwP+S7SW9LHSQI7KW1
+2jIWnZemZ10K3bB5xPqsJuh+iTveslnjWbgEq64+/wdC2x1F6jt4rj9NLI8NycVt
++wTIkgkw5UgnJol1aCQTN2USiK3Blq0F7qsSpmIT3tZ1kMMn25xWesw5UtfMLwKc
+zF26sjzSrhhMLwG3BUwRvCEuyHuuNLqFFkkwztXmOVMtXdUnrTRpMNvDKTMufw8q
+i1q5HuLxa6AQzumpUS2qN5SkdgKGShIWe7VEG0+kXv9myIIbXx+m2FPOo9aIxjiK
+E31vtVnGHC7YA4x5YUvtumPNBtQKbyoGFqqsNcCwTnr4qDLGJtKMTujrupiIMHAv
+c8xdKgGBXX4IHcza1P5XbpBaEXfJbO89FrmuVv0ML1z2SuaQ/hu0Zrtphcbn2df9
+6Sd+m2d4p5X6jxu5BZTNUsx9PzfJ/UEoHM4JtXUl7VtLSnmSrvULc8yjhx8vEcte
+T8bej4z+/K166l9HbmCSGCWz
+=n3pn
 -----END PGP SIGNATURE-----
 
---===============0327832364984856726==
+--===============3385538528718035777==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b65054597872-0477e9288185.txt
+Content-Disposition: attachment; filename=revlist-264f53b41946-0477e9288185.txt
 
 cb7ff314e1d9f3d6c62fa2c392e41174721ed0b3 drm/tegra: sor: Don't warn on probe deferral
 5c1d644c09dbc13b2dc652435786e42b05ac1bb7 drm/tegra: sor: Ensure regulators are disabled on teardown
@@ -142,9 +142,6 @@ aec9fe892812ed10d0bffcf309d2a8fc380d8ce6 drm/rockchip: Avoid uninitialized use o
 24fdaeeb294c14ea743ec99ada92380c060a428a usb: cdns3: gadget: clear trb->length as zero after preparing every trb
 6b8137517e70f6e96d0251a98930b1f29d0be161 usb: cdns3: core: fix goto label for error path
 7cc01c445da868101b9080082b9c75283c261c82 Merge tag 'usb-fixes-v5.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
-f0992098cadb4c9c6a00703b66cafe604e178fea speakup: Reject setting the speakup line discipline outside of speakup
-c8c39fbd01d42c30454e42c16bcd69c17260b90a habanalabs: free host huge va_range if not used
-5555b7c56bdec7a29c789fec27f84d40f52fbdfa habanalabs: put devices before driver removal
 509920aee72ae23235615a009c5148cdb38794c3 MAINTAINERS: Move Jason Cooper to CREDITS
 fd4e788e971ce763e50762d7b1a0048992949dd0 drm/omap: sdi: fix bridge enable/disable
 bb4c6910c8b41623104c2e64a30615682689a54d genirq/irqdomain: Add an irq_create_mapping_affinity() function
@@ -166,7 +163,6 @@ da192676483232a0a9478c89cdddd412e5167470 arm64: entry: mark entry code as noinst
 f0cd5ac1e4c53cb691b3ed3cda1031e1c42153e2 arm64: entry: fix NMI {user, kernel}->kernel transitions
 2a9b3e6ac69a8bf177d8496a11e749e2dc72fa22 arm64: entry: fix EL1 debug transitions
 d3f31301894d1b70d3dc3e8fa5ef3165878338ff Merge tag 'thunderbolt-for-v5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
-a71464d0b9305dc5db6b01392c7218b81480b00f Merge tag 'misc-habanalabs-fixes-2020-11-30' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-linus
 9e5344e0ffc33f4fee899f98b6939a0682b1d9c3 arm64: mte: Fix typo in macro definition
 2d280bc8930ba9ed1705cfd548c6c8924949eaf1 io_uring: fix recvmsg setup with compat buf-select
 55ea4cf403800af2ce6b125bc3d853117e0c0456 ring-buffer: Update write stamp with the correct ts
@@ -200,7 +196,6 @@ f54db39fbe40731c40aefdd3bc26e7d56d668c64 KVM: PPC: Book3S HV: XIVE: Fix vCPU id 
 d5750cd3c5486e9c0fa11100df01de8ca0c13fa7 kbuild: Disable CONFIG_LD_ORPHAN_WARN for ld.lld 10.0.1
 fae3a13d2a3d49a89391889808428cf1e72afbd7 x86/resctrl: Fix AMD L3 QOS CDP enable/disable
 cf03f316ad20dac16b5adae3f6dedd7d188c7f65 fs: 9p: add generic splice_read file operations
-1a16af33ba88ef25e206a13366379179cae79d23 fpga: Specify HAS_IOMEM dependency for FPGA_DFL
 8c3b55a299c325830a987de21dab6a89ecb71164 Input: atmel_mxt_ts - fix lost interrupts
 7e7986f9d3ba69a7375a41080a1f8c8012cb0923 block: use gcd() to fix chunk_sectors limit stacking
 b71ec952234610b4f90ef17a2fdcb124d5320070 ibmvnic: Ensure that SCRQ entry reads are correctly ordered
@@ -313,7 +308,6 @@ be1515bad737ee9efe9229ab8313a236bfa03c5c Merge tag 'block-5.10-2020-12-05' of gi
 4e9a5ae8df5b3365183150f6df49e49dece80d8c x86/uprobes: Do not use prefixes.nbytes when looping over prefixes.bytes
 12cb908a11b2544b5f53e9af856e6b6a90ed5533 x86/insn-eval: Use new for_each_insn_prefix() macro to loop over prefixes bytes
 84da009f06e60cf59d5e861f8e2101d2d3885517 x86/sev-es: Use new for_each_insn_prefix() macro to loop over prefixes bytes
-264f53b41946dcabb2b3304190839ab5670c7825 Revert "mei: virtio: virtualization frontend driver"
 7d32358be8acb119dcfe39b6cf67ec6d94bf1fe7 kbuild: avoid split lines in .mod files
 11fb479ff5d9872ddff02dd533c16d60372c86b2 zlib: export S390 symbols for zlib modules
 2bf509d96d84c3336d08375e8af34d1b85ee71c8 coredump: fix core_pattern parse error
@@ -338,4 +332,4 @@ d49248eb25a223b238cd7687ea92b080f595a323 Merge tag 'tty-5.10-rc7' of git://git.k
 ab91292cb3e9f43d9c6839d7572d17b35bc21710 Merge tag 'char-misc-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 0477e92881850d44910a7e94fc2c46f96faa131f Linux 5.10-rc7
 
---===============0327832364984856726==--
+--===============3385538528718035777==--
