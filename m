@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 07 Dec 2020 11:46:28 -0000
-Message-Id: <160734158864.16882.228219464495054425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jeyu/linux
+Date: Mon, 07 Dec 2020 12:01:55 -0000
+Message-Id: <160734251505.27770.7668416418871121650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/jeyu/linux
+user: jeyu
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: 638920a66a17c8e1f4415cbab0d49dc4a344c2a7
-    new: 72ebb5ff806f9a421a2a53cdfe6c4ebbab243bd5
+  - ref: refs/heads/modules-next
+    old: 147ad605dc12c515c97136899ccb5c70e6c674e1
+    new: 2d26c716fc49f41a63e1efe8f1f772b0adeaacef
     log: |
-         72ebb5ff806f9a421a2a53cdfe6c4ebbab243bd5 x86/alternative: Update text_poke_bp() kernel-doc comment
+         2d26c716fc49f41a63e1efe8f1f772b0adeaacef module: drop semicolon from version macro
          
