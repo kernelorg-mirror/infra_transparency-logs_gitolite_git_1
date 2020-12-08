@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1747559188636738484=="
+Content-Type: multipart/mixed; boundary="===============9005291789621984654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 08 Dec 2020 14:32:07 -0000
-Message-Id: <160743792724.2246.16230327278405568145@gitolite.kernel.org>
+Date: Tue, 08 Dec 2020 14:32:20 -0000
+Message-Id: <160743794042.2406.5234892048496247092@gitolite.kernel.org>
 
---===============1747559188636738484==
+--===============9005291789621984654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: b8a9092330da2030496ff357272f342eb970d51b
-    new: 3300292095133a131651a9a1f14cc82db47aabfd
-    log: revlist-b8a9092330da-330029209513.txt
+  - ref: refs/heads/kconfig
+    old: f5037e22315cecd0a2aed8444c03162cfa0ac14d
+    new: 78cb09078352d032b12e2af7feb9b5b7f0fa794c
+    log: revlist-f5037e22315c-78cb09078352.txt
 
---===============1747559188636738484==
+--===============9005291789621984654==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b8a9092330da-330029209513.txt
+Content-Disposition: attachment; filename=revlist-f5037e22315c-78cb09078352.txt
 
 c20782ad4eb9dfa7f41cb2d85f218d0940f7cef1 ARM: OMAP2+: Fix location for select PM_GENERIC_DOMAINS
 b69fd00120f8e3348273323099669cb058668263 ARM: OMAP2+: Fix missing select PM_GENERIC_DOMAINS_OF
@@ -250,6 +250,9 @@ eb0104ee498d7f83ff98b8783181613685b8df6e drm/i915/gt: Track signaled breadcrumbs
 280ffdb6ddb5de85eddd476a3bcdc19c9a80f089 drm/i915/gt: Free stale request on destroying the virtual engine
 d661155bfca329851a27bb5120fab027db43bd23 drm/amd/display: Avoid HDCP initialization in devices without output
 60734bd54679d7998a24a257b0403f7644005572 drm/amdgpu: update golden setting for sienna_cichlid
+095fbca0a94930b58f977284ef1b759b98700f8b Makefile.extrawarn: move -Wcast-align to W=3
+a716bd7432106aed82a751409d7be851a23022ac kbuild: use -fmacro-prefix-map for .S sources
+b8a9092330da2030496ff357272f342eb970d51b Kbuild: do not emit debug info for assembly with LLVM_IAS=1
 9bd2702d292cb7b565b09e949d30288ab7a26d51 aquantia: Remove the build_skb path
 b1489422041ba58f224270480d8241be24f0f8dd Merge tag 'arc-5.10-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 80145ac2f739558e66bd8789df3414bc0e111c58 Merge tag 's390-5.10-5' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
@@ -677,17 +680,11 @@ f5226f1d20c4113922dbe7742c416f06700c1ea9 Merge tag 'usb-5.10-rc7' of git://git.k
 d49248eb25a223b238cd7687ea92b080f595a323 Merge tag 'tty-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 ab91292cb3e9f43d9c6839d7572d17b35bc21710 Merge tag 'char-misc-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 0477e92881850d44910a7e94fc2c46f96faa131f Linux 5.10-rc7
-c25ce589dca10d64dde139ae093abc258a32869c tweewide: Fix most Shebang lines
-c93e4aeed1be5b99715a9127f5b38d6b4ab9e5d7 Makefile.extrawarn: remove -Wnested-externs warning
-b6f77c705822d9f490f1d44571a0daceae9bda5c kbuild: enforce -Werror=unused-result
-f1ce29a6fcf93d7b5e145636dceb946ec3c17f54 kbuild: doc: update the description about kbuild Makefiles
-663e29430e12b4d9625dc822393531e626380af6 kbuild: doc: replace arch/$(ARCH)/ with arch/$(SRCARCH)/
-a617ccb7db0c8d2454b4a243f633eacc3d2397e5 kbuild: doc: fix 'List directories to visit when descending' section
-78f2d8b6cfcea8a7f63a9e8369f582931d11e934 kbuild: doc: merge 'Special Rules' and 'Custom kbuild commands' sections
-1c0de41581c1dc12c772f7160b0aaf19896fdb04 kbuild: doc: split if_changed explanation to a separate section
-7e2f1f94bf4e3a3e5c6d921be72218264f900faf kbuild: doc: clarify the difference between extra-y and always-y
-c9a43525e0b699a461148f0daf7ab88fd8864b6e kbuild: doc: document subdir-y syntax
-ece07536629457451b6331da9b57433746155267 ld-version: use /usr/bin/env awk for shebank
-3300292095133a131651a9a1f14cc82db47aabfd kbuild: don't hardcode depmod path
+7b675649be2217786847dee13597a0ab8502cc40 kconfig: qconf: drop Qt4 support
+7cd0158703a4828252f10a4c4519778fa069ffdf kconfig: qconf: use a variable to pass packages to pkg-config
+a2574c12df0d77eef293d2f388d7e05df33b6155 kconfig: qconf: convert to Qt5 new signal/slot connection syntax
+98ebea7ba891569c3678c5cd2fd1960098e84f4e kconfig: make lkc.h self-sufficient #include-wise
+f463269fb940d2a4259169b1e87aab8d259a9ec4 kconfig: qconf: show Qt version in the About dialog
+78cb09078352d032b12e2af7feb9b5b7f0fa794c kconfig: clean up header inclusion
 
---===============1747559188636738484==--
+--===============9005291789621984654==--
