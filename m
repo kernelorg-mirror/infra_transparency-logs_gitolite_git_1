@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 08 Dec 2020 20:57:42 -0000
-Message-Id: <160746106244.23909.9133358873718571892@gitolite.kernel.org>
+Date: Tue, 08 Dec 2020 20:57:46 -0000
+Message-Id: <160746106661.24030.6532105672605924120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/master
-    old: 0477e92881850d44910a7e94fc2c46f96faa131f
-    new: cd796ed3345030aa1bb332fe5c793b3dddaf56e7
+  - ref: refs/heads/dt/next
+    old: d89886eb76f601b6cd78f96a1cebee073d12bf58
+    new: e5dddbedfe09df69ca819eb98f6dcccb006c6bc9
     log: |
-         bcee5278958802b40ee8b26679155a6d9231783e tracing: Fix userstacktrace option for instances
-         cd796ed3345030aa1bb332fe5c793b3dddaf56e7 Merge tag 'trace-v5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+         e5dddbedfe09df69ca819eb98f6dcccb006c6bc9 dt-bindings: add ADP5585/ADP5589 entries to trivial-devices
          
