@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 08 Dec 2020 17:50:11 -0000
-Message-Id: <160744981175.2180.2067323209429728074@gitolite.kernel.org>
+Date: Tue, 08 Dec 2020 17:50:23 -0000
+Message-Id: <160744982385.2362.4058902922732896277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,17 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: d55863db1dfec8845067f5625f1b0ab18c8948be
-    new: dbbd52d0e41a4585abd0b59c1038a5192646d8dc
+  - ref: refs/heads/sched/core
+    old: 21bf7cbd1b100758cc82f5340576028d3d83119b
+    new: 08befee616ef3916c7f88a9812c666ff789f2dae
     log: |
-         e8c06c1c0aed31901130f54efd3dcb7c1e262fb5 powerpc/8xx: Implement pXX_leaf_size() support
-         4be06fec930a6ce63d4eb97d8df271f94aec90fc sparc64/mm: Implement pXX_leaf_size() support
-         7f4dd2c6bac2fb049cbd5a4553168445dd95fb86 perf: Break deadlock involving exec_update_mutex
-         ec21dfe4485d2a8e7f8956fbb01dd83e237b934f x86/kprobes: Restore BTF if the single-stepping is cancelled
-         2edc6b0ebeee5a3ac972a96f59e2c8edbec2b742 perf/x86/intel: Fix rtm_abort_event encoding on Ice Lake
-         2c7b23f9d96f71112d36b26f3e7130ad766d1c2c perf/x86/intel/lbr: Fix the return type of get_lbr_cycles()
-         295643f797212bf49f71fbfe680ce45b006f54b8 kprobes/x86: Fix fall-through warnings for Clang
-         e64d83eb337f984a785f9f7b0f96895395fb6ecd perf/x86: Fix fall-through warnings for Clang
-         dbbd52d0e41a4585abd0b59c1038a5192646d8dc uprobes/x86: Fix fall-through warnings for Clang
+         e1b6054fcb9cfbaae72df223898787cda870b152 x86/membarrier: Get rid of a dubious optimization
+         39ad87c47d23c34c0620ee4f2af416f753942718 membarrier: Add an actual barrier before rseq_preempt()
+         facdc63bf15035914ba160746d339ed60af8f811 membarrier: Explicitly sync remote cores when SYNC_CORE is requested
+         08befee616ef3916c7f88a9812c666ff789f2dae membarrier: Execute SYNC_CORE on the calling thread
          
