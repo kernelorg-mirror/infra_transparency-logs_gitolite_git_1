@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3635968270862420061=="
+Content-Type: multipart/mixed; boundary="===============7070618345480443840=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 08 Dec 2020 14:32:55 -0000
-Message-Id: <160743797569.2637.8389586434442254152@gitolite.kernel.org>
+Date: Tue, 08 Dec 2020 14:33:35 -0000
+Message-Id: <160743801551.2879.8721388136314989331@gitolite.kernel.org>
 
---===============3635968270862420061==
+--===============7070618345480443840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 418baf2c28f3473039f2f7377760bd8f6897ae18
-    new: 0477e92881850d44910a7e94fc2c46f96faa131f
-    log: revlist-418baf2c28f3-0477e9288185.txt
-  - ref: refs/tags/v5.10-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 2884f0b6b25db35053dd51e8e1839696746d8321
-  - ref: refs/tags/v5.10-rc7
-    old: 0000000000000000000000000000000000000000
-    new: dd0039844c8b2b960d0e0175923da0135f87c392
+  - ref: refs/heads/for-next
+    old: f5037e22315cecd0a2aed8444c03162cfa0ac14d
+    new: 98496f4ce60f12157c71c1a2ba238472ea546ecd
+    log: revlist-f5037e22315c-98496f4ce60f.txt
 
---===============3635968270862420061==
+--===============7070618345480443840==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-418baf2c28f3-0477e9288185.txt
+Content-Disposition: attachment; filename=revlist-f5037e22315c-98496f4ce60f.txt
 
 c20782ad4eb9dfa7f41cb2d85f218d0940f7cef1 ARM: OMAP2+: Fix location for select PM_GENERIC_DOMAINS
 b69fd00120f8e3348273323099669cb058668263 ARM: OMAP2+: Fix missing select PM_GENERIC_DOMAINS_OF
@@ -686,5 +680,24 @@ f5226f1d20c4113922dbe7742c416f06700c1ea9 Merge tag 'usb-5.10-rc7' of git://git.k
 d49248eb25a223b238cd7687ea92b080f595a323 Merge tag 'tty-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 ab91292cb3e9f43d9c6839d7572d17b35bc21710 Merge tag 'char-misc-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 0477e92881850d44910a7e94fc2c46f96faa131f Linux 5.10-rc7
+c25ce589dca10d64dde139ae093abc258a32869c tweewide: Fix most Shebang lines
+c93e4aeed1be5b99715a9127f5b38d6b4ab9e5d7 Makefile.extrawarn: remove -Wnested-externs warning
+b6f77c705822d9f490f1d44571a0daceae9bda5c kbuild: enforce -Werror=unused-result
+f1ce29a6fcf93d7b5e145636dceb946ec3c17f54 kbuild: doc: update the description about kbuild Makefiles
+663e29430e12b4d9625dc822393531e626380af6 kbuild: doc: replace arch/$(ARCH)/ with arch/$(SRCARCH)/
+a617ccb7db0c8d2454b4a243f633eacc3d2397e5 kbuild: doc: fix 'List directories to visit when descending' section
+78f2d8b6cfcea8a7f63a9e8369f582931d11e934 kbuild: doc: merge 'Special Rules' and 'Custom kbuild commands' sections
+1c0de41581c1dc12c772f7160b0aaf19896fdb04 kbuild: doc: split if_changed explanation to a separate section
+7e2f1f94bf4e3a3e5c6d921be72218264f900faf kbuild: doc: clarify the difference between extra-y and always-y
+c9a43525e0b699a461148f0daf7ab88fd8864b6e kbuild: doc: document subdir-y syntax
+ece07536629457451b6331da9b57433746155267 ld-version: use /usr/bin/env awk for shebank
+3300292095133a131651a9a1f14cc82db47aabfd kbuild: don't hardcode depmod path
+7b675649be2217786847dee13597a0ab8502cc40 kconfig: qconf: drop Qt4 support
+7cd0158703a4828252f10a4c4519778fa069ffdf kconfig: qconf: use a variable to pass packages to pkg-config
+a2574c12df0d77eef293d2f388d7e05df33b6155 kconfig: qconf: convert to Qt5 new signal/slot connection syntax
+98ebea7ba891569c3678c5cd2fd1960098e84f4e kconfig: make lkc.h self-sufficient #include-wise
+f463269fb940d2a4259169b1e87aab8d259a9ec4 kconfig: qconf: show Qt version in the About dialog
+78cb09078352d032b12e2af7feb9b5b7f0fa794c kconfig: clean up header inclusion
+98496f4ce60f12157c71c1a2ba238472ea546ecd Merge branch 'kconfig' into for-next
 
---===============3635968270862420061==--
+--===============7070618345480443840==--
