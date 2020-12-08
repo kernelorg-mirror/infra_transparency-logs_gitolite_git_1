@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0980759930738643851=="
+Content-Type: multipart/mixed; boundary="===============6907970556768447105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 08 Dec 2020 04:48:58 -0000
-Message-Id: <160740293814.25075.16943509178864630264@gitolite.kernel.org>
+Date: Tue, 08 Dec 2020 04:49:03 -0000
+Message-Id: <160740294380.25205.10491854138148875557@gitolite.kernel.org>
 
---===============0980759930738643851==
+--===============6907970556768447105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,78 +16,97 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: ac85cca316370d897b5af0568d224410b027b5e4
-    new: 492096ecfa39d5b6a82a6959b848b78d0112bb09
-    log: revlist-ac85cca31637-492096ecfa39.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 0c42ca98286729a355b76edbb60fe5ebe6056548
+    new: 93281718e0225ecdfe20a45c2c18174669a97247
+    log: revlist-0c42ca982867-93281718e022.txt
 
---===============0980759930738643851==
+--===============6907970556768447105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1607402936 -0500
+pusher 75C5DE3D 1607402941 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1607402936-55c468bc63439dfa1e0c484ba4ee6c674ff539f0
+nonce 1607402941-174668c4372f7388c4f9563b22615dbd2c187a8a
 
-ac85cca316370d897b5af0568d224410b027b5e4 492096ecfa39d5b6a82a6959b848b78d0112bb09 refs/heads/queue
+0c42ca98286729a355b76edbb60fe5ebe6056548 93281718e0225ecdfe20a45c2c18174669a97247 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/PBbgACgkQ7ulgGnXF
-3j3BrA//cIo+E1P1y2Qw8g9Jux0V2zxFYv6scPcGWKrBZTZT9E6SXthNofGApSlH
-G7tLPWxYpJodabLir0svTAtE3G9KGFpdAW7SyJxIVJ0mcor/GXdhYWzpDjip73V4
-bU8spSNUKniiwNqihGZZ1DgQvCoUgTfK2Ec0p4NOAw1qjAkeQws7fsHt5s7THAH+
-+d5xwL2z4VvmekpjXb+bczIkaKSqeba9eZlGzQV9Le3J6fUh3AUWihY9BZCcm1hz
-AZwYBCI69cLEi9t78Z1ydUcVf8V1KOfk96rv16zF7m15O9MEuVgme2TVTpkG2hUd
-8CqceUjbZl6+9JY9iEFIOVRVxx0bLImzmWTr8inxRjXJ4QzCg+EqRHiLOdep6sVR
-8i7PSwTmFk1Rryk5HbmGrd5NHcwW7QUC0P9zF9cT0UKngp1GdHzJSX+sQiwaoIrd
-qRqwEphbAfsTkyBD2BLpU+3V5V2f5Y6CVDa2MPaRjcxmliC+SIvgGQTNMyiO1NP5
-tWux8Js964IxjNwnVqAzntTmZgRZfh6IJvig8gt7Fy7gAkC5JyxHhdqzcIBCMzVk
-SLMJJw3ugG086ucF/Oe+zhDTHgj0vhcDjUSh7Tc2XvQs5ECNE5XQjICSFnx/DG5L
-LnEJIOeKZVaIWqLA/3rSNtafu+nB+4WmvVkMkGmy9K0QU2cYCF8=
-=NKC6
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/PBb0ACgkQ7ulgGnXF
+3j3YIRAArWMMnSt4oc2JoOnQjI2MJy3oYz/G5XpT53ErL2G1hGmq3mEJmC+nzIrL
+G/hKmDtq5BzSSSym34kd5jes362CEABc9FqH5v7B9cAfE+HUMpObYFCpomsFas4k
+LTnCPOV5GdBLHxu5manqOXE1WowIh3BsgXgZPm3k7SG/sewLF3TEzEwgP2TcJaOh
+RsHF/50ociADh7NRiyaeuGU4sluXvd9jyfjfVoUi2QxpsNpRLAvaY9clgyVNbhJ0
+4qbMO0vZ8AKpfOaSkt6pOWUj57Pk/yojR1gDnSE5TZan4s9m5oYvX8QKDna8UD+h
+dNPS483dniaPqCIT4LSEQjMcrda1HuCs6Ztu690Gx7OJ2nFCpR3yai/Es0lt0rdg
+FJ6BEe05/n34ibTTzEhR9ZK1e4xFNtEMfbdpqF3Ue6oKsXvnrAxEHMl+aEOnlqrM
+uVcd5m5kZaMHK+NoJQHp1FADmf39Heep2blanj7cGXyoPZMSXEnEX1AetcQvo345
+ApFCk4/fIShnGFL5Z1Ln8W8B3l1VizStYOVOEB2ha3QQx99HzJgKoQzDfSuhYBMr
+c3p0vbb+8xJ4R/JYX5KO+jFLZapYudg6pnhIug+YlfKtqEZ9mad7Mq14eYm4Q7yq
+qDf8Ur2xLaaevp0/1vggO54403cDKLG697QJC5iufQAko5k6H5k=
+=3wI6
 -----END PGP SIGNATURE-----
 
---===============0980759930738643851==
+--===============6907970556768447105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac85cca31637-492096ecfa39.txt
+Content-Disposition: attachment; filename=revlist-0c42ca982867-93281718e022.txt
 
-2ce6e200a04c246a9a60ab3ee05506ed4d778c08 scsi: pm8001: Convert pm8001_printk() to pm8001_info()
-9aed578fba7839cab7a64a8184797e082ff759dd scsi: pm8001: Fix misindentation
-c6131854e28a50a7e3eaf7bc900d0780772b222b scsi: pm8001: Remove space in a debug message
-bec99e5250bfe1c575e72a971bc2b2b21cf6c8b4 scsi: hisi_sas: Reduce some indirection in v3 hw driver
-2ebde94f2ea4cffd812ece2f318c2f4922239b1d scsi: hisi_sas: Fix up probe error handling for v3 hw
-623a4b6d5c2a7595f677fa17348dbca6b461f16a scsi: hisi_sas: Move debugfs code to v3 hw driver
-939785d35def8d10e8ad312b252dbbecc8d41ca1 scsi: ufs: Remove unnecessary if condition in ufshcd_suspend()
-4ba9e516573e60c471c01bb369144651f6f8d50b scsi: pm80xx: Do not sleep in atomic context
-18577cdcaeeb7a1ca5c3adc4d92ed2ba75699625 scsi: hisi_sas: Remove preemptible()
-a93c3835319849f0226b9a7101284aeb60a5ed8e scsi: qla4xxx: Remove in_interrupt()
-8ac246bdd07a0f948f0e33eb4797bd2645cd8224 scsi: qla2xxx: Remove in_interrupt() from qla82xx-specific code
-9fef41f25d60d3cb22ee81d5d92cdea99a1b35ea scsi: target: tcm_qla2xxx: Remove BUG_ON(in_interrupt())
-4f6a57c23b1e002487159791feef7d54b725bfa6 scsi: qla2xxx: Remove in_interrupt() from qla83xx-specific code
-3627668c2e2c9459cff874ad34b82d251038da48 scsi: qla4xxx: Remove in_interrupt() from qla4_82xx_idc_lock()
-014aced18aff34d3b3ed3735b094d538b8c9f66e scsi: qla4xxx: Remove in_interrupt() from qla4_82xx_rom_lock()
-547c0d1aeb76fead5177cc30b95e914b498675bd scsi: mpt3sas: Remove in_interrupt()
-3bc08b9545dab900bb5902459877bf6a0fb4ec8b scsi: myrb: Remove WARN_ON(in_interrupt())
-ca6853693cbdcc3f9a38f4544bd3d7b149509784 scsi: myrs: Remove WARN_ON(in_interrupt())
-b8a5144370bc59dbb192b8f29298920ceadc3d1e scsi: message: fusion: Remove in_interrupt() usage in mpt_config()
-817a7c996786f803a8b5528ca11a842eed88e01f scsi: message: fusion: Remove in_interrupt() usage in mptsas_cleanup_fw_event_q()
-81309c247a4dcd597cbda5254fd0afdd61b93f14 scsi: ufs: Refactor ufshcd_setup_clocks() to remove skip_ref_clk
-96f08cc5943c0fe943ea10fdead6a80b73270046 scsi: ufs-qcom: Keep core_clk_unipro on while link is active
-29b87e92a21605ed74888e4d2a31055d95dfafe1 scsi: ufs: Stop hardcoding the scale down gear
-9d8de441db261dbb4abb989674a62d1c13fe4f93 scsi: lpfc: Correct null ndlp reference on routine exit
-995ae10f8000699b6ac8186489235bc9f0b8de34 scsi: aic7xxx: Fix fall-through warnings for Clang
-4886dd0a04b47a3da81b2d9c46c32c1035410ea2 scsi: aic94xx: Fix fall-through warnings for Clang
-4c7bd259d66c9f94d3937bce3de5f16a8fd812a1 scsi: bfa: Fix fall-through warnings for Clang
-da38e8917d65edc8387a5154fff7366277c61783 scsi: aacraid: Fix fall-through warnings for Clang
-5133dc4764844575da10a7b6dc12cd87a0ca9d19 scsi: aha1740: Fix fall-through warnings for Clang
-965077585513d83fd937bf788557af8cc48745c7 scsi: csiostor: Fix fall-through warnings for Clang
-e9a7c7117103f6e8085ed3caecba6a1e6715e862 scsi: lpfc: Fix fall-through warnings for Clang
-8b185fc6e3fe5d16abcd2753f504d1c54134f03a scsi: stex: Fix fall-through warnings for Clang
-492096ecfa39d5b6a82a6959b848b78d0112bb09 scsi: target: core: Fix fall-through warnings for Clang
+62eebd5247c4e4ce08826ad5995cf4dd7ce919dd scsi: qedi: Fix missing destroy_workqueue() on error in __qedi_probe
+97031ccffa4f62728602bfea8439dd045cd3aeb2 scsi: pm80xx: Fix error return in pm8001_pci_probe()
+6dc1c7ab6f047f45b62986ffebc5324e86ed5f5a scsi: iscsi: Fix inappropriate use of put_device()
+eb3d2611df2e37a5455818b72af3892f1209346b scsi: ufs: Add error history for abort event in UFS Device W-LUN
+e965e5e00b23c47b7a9834436972aa37c5baa708 scsi: ufs: Refine error history functions
+172614a9d0e861f8ad0e3165dd1d02bc63adaa1b scsi: ufs: Introduce event_notify variant function
+ca1bb061d64499d8aa08b0987643928a924c30bc scsi: ufs-mediatek: Introduce event_notify implementation
+ade921a891de4c32ca31f5db95c2239ffb2b791d scsi: ufs: Remove unused setup_regulators variant function
+92bcebe4b6d652e98ca2667e8e43c3d0a08f6afc scsi: ufs: Introduce phy_initialization helper
+885445736bc099430c0529eb85cd9cc8d12f4848 scsi: ufs-cdns: Use phy_initialization helper
+ab98105484fc83dfaafc2d6f6411cd4e2b39423d scsi: ufs-dwc: Use phy_initialization helper
+5b44a07b6bb2c26905b16deb479e9ba4e5605e97 scsi: ufs: Remove pre-defined initial voltage values of device power
+88a92d6ae4fe09b2b27781178c5c9432d27b1ffb scsi: ufs: Serialize eh_work with system PM events and async scan
+7a7e66c65d4148fc3f23b058405bc9f102414fcb scsi: ufs: Fix a race condition between ufshcd_abort() and eh_work()
+ace3804b69afa39d9445544843506eca59f3b4b2 scsi: ufs: Print host regs in IRQ handler when AH8 error happens
+8ca1a40b9f9defe7981ed9558b856a012e51b842 scsi: ufs: Adjust ufshcd_hold() during sending attribute requests
+e7734ef14ead1fd78dc28be3de7ab13128b5c315 scsi: NCR5380: Remove context check
+4c60244dc37262023d24b167e245055c06bc0b77 scsi: ufs: Fix -Wsometimes-uninitialized warning
+d4fc94fe65578738ded138e9fce043db6bfc3241 scsi: fnic: Fix error return code in fnic_probe()
+8f525bc2a7b296cf24cfa7e5186bc32dd8e766aa scsi: qla2xxx: Remove trailing semicolon in macro definition
+8412ea23b2ceb6f3b4a4f05da10d27a5e17dc124 scsi: block: Fix a race in the runtime power management code
+5ca1df97495bfa911fdbde8db353169bcea23d32 scsi: block: Introduce BLK_MQ_REQ_PM
+ca531b25c5ee9dac83bd25016a4a8c8ef655dfed scsi: ide: Do not set the RQF_PREEMPT flag for sense requests
+2f7662bdb8449d3086f09dcfba4387a3817f5dfe scsi: ide: Mark power management requests with RQF_PM instead of RQF_PREEMPT
+a7ceedc9ec6dbe1ae778695d53c8c246df9f809c scsi: scsi_transport_spi: Set RQF_PM for domain validation commands
+8d44d34d17ac92656d4fa7c72fd6502355f81c5f scsi: core: Only process PM requests if rpm_status != RPM_ACTIVE
+4ba8251357611f0ac7a6d865db52e4b91eaf06c7 scsi: block: Remove RQF_PREEMPT and BLK_MQ_REQ_PREEMPT
+81a395cdc176c424ba3cd3e960fd0089003518d4 scsi: block: Do not accept any requests while suspended
+023fe6b08838a2f363de8f9f97fa70b319f28526 scsi: qla4xxx: Remove redundant assignment to variable rval
+8dd0985392dab7df7de4d045aa1694e10caf73a9 scsi: qla2xxx: Return EBUSY on fcport deletion
+8dfc526e20c617dc32481aed39dcaa23da235b9a scsi: qla2xxx: Change post del message from debug level to log level
+386ae52b7bf960b229c44b19e8c9a7b588dc2553 scsi: qla2xxx: Limit interrupt vectors to number of CPUs
+a22cdea2cf5730d966708371d8222364739a5798 scsi: qla2xxx: Tear down session if FW say it is down
+1df88e23a04c8db0754423a066929dc0330658c9 scsi: qla2xxx: Don't check for fw_started while posting NVMe command
+6589b2ca6a538c6f5b9eb7792930327b44181ed5 scsi: qla2xxx: Fix compilation issue in PPC systems
+d2ee3c25205090fa7989d6aba366c7464413609c scsi: qla2xxx: Fix crash during driver load on big endian machines
+ec035f8fbc7d561c55c5c4352c102fbefeb4b777 scsi: qla2xxx: Fix FW initialization error on big endian machines
+8752e28a404acea27368d8a68954b052c5e0c674 scsi: qla2xxx: Fix N2N and NVMe connect retry failure
+83f734d0d2dce9d6c38f220f0f60c08dc6d91fba scsi: qla2xxx: Handle aborts correctly for port undergoing deletion
+e766f120a3ce30e0116e9e35c2f6d1497b94c2ac scsi: qla2xxx: Fix flash update in 28XX adapters on big endian machines
+11b8e283abc33952ff5480f7c4983fb60ab90b19 scsi: qla2xxx: Fix the call trace for flush workqueue
+9cb9bbd013af5f3ac3c80a38ccd2ec3d74ea19c9 scsi: qla2xxx: If fcport is undergoing deletion complete I/O with retry
+9438f9bbe2bf541ddfefb4f579f768e43eb1f2a7 scsi: qla2xxx: Fix device loss on 4G and older HBAs
+2f3139743ea0be45d8c1f10946ac9414bccd3223 scsi: qla2xxx: Update version to 10.02.00.104-k
+42f174cfb8b56b29499c7bbf72a1e059529df639 scsi: mpt3sas: Sync time periodically between driver and firmware
+5767aaffbb8b96f922e8fe731eb50cb26bd23e84 scsi: mpt3sas: Add persistent trigger pages support
+99f4352a94303778f668670261f007927cb5786e scsi: mpt3sas: Add persistent Master trigger page
+d5bbdec0923b56199dc7627b61009b659bb194e1 scsi: mpt3sas: Add persistent Event trigger page
+0e0342ec277890183ae585ad1cac72d516e77a29 scsi: mpt3sas: Add persistent SCSI sense trigger page
+7e9b03f1d32a6d2f48c08ee3679f661302f7b520 scsi: mpt3sas: Add persistent MPI trigger page
+bde8fd3e890ad1a0f9afbd7db3d2f14d38a01928 scsi: mpt3sas: Handle trigger page after firmware update
+419be8b82389ca54a80b339f32667658da6b0d39 scsi: mpt3sas: Update driver version to 36.100.00.00
 
---===============0980759930738643851==--
+--===============6907970556768447105==--
