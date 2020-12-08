@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9005291789621984654=="
+Content-Type: multipart/mixed; boundary="===============3635968270862420061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 08 Dec 2020 14:32:20 -0000
-Message-Id: <160743794042.2406.5234892048496247092@gitolite.kernel.org>
+Date: Tue, 08 Dec 2020 14:32:55 -0000
+Message-Id: <160743797569.2637.8389586434442254152@gitolite.kernel.org>
 
---===============9005291789621984654==
+--===============3635968270862420061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kconfig
-    old: f5037e22315cecd0a2aed8444c03162cfa0ac14d
-    new: 78cb09078352d032b12e2af7feb9b5b7f0fa794c
-    log: revlist-f5037e22315c-78cb09078352.txt
+  - ref: refs/heads/master
+    old: 418baf2c28f3473039f2f7377760bd8f6897ae18
+    new: 0477e92881850d44910a7e94fc2c46f96faa131f
+    log: revlist-418baf2c28f3-0477e9288185.txt
+  - ref: refs/tags/v5.10-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 2884f0b6b25db35053dd51e8e1839696746d8321
+  - ref: refs/tags/v5.10-rc7
+    old: 0000000000000000000000000000000000000000
+    new: dd0039844c8b2b960d0e0175923da0135f87c392
 
---===============9005291789621984654==
+--===============3635968270862420061==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f5037e22315c-78cb09078352.txt
+Content-Disposition: attachment; filename=revlist-418baf2c28f3-0477e9288185.txt
 
 c20782ad4eb9dfa7f41cb2d85f218d0940f7cef1 ARM: OMAP2+: Fix location for select PM_GENERIC_DOMAINS
 b69fd00120f8e3348273323099669cb058668263 ARM: OMAP2+: Fix missing select PM_GENERIC_DOMAINS_OF
@@ -680,11 +686,5 @@ f5226f1d20c4113922dbe7742c416f06700c1ea9 Merge tag 'usb-5.10-rc7' of git://git.k
 d49248eb25a223b238cd7687ea92b080f595a323 Merge tag 'tty-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 ab91292cb3e9f43d9c6839d7572d17b35bc21710 Merge tag 'char-misc-5.10-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 0477e92881850d44910a7e94fc2c46f96faa131f Linux 5.10-rc7
-7b675649be2217786847dee13597a0ab8502cc40 kconfig: qconf: drop Qt4 support
-7cd0158703a4828252f10a4c4519778fa069ffdf kconfig: qconf: use a variable to pass packages to pkg-config
-a2574c12df0d77eef293d2f388d7e05df33b6155 kconfig: qconf: convert to Qt5 new signal/slot connection syntax
-98ebea7ba891569c3678c5cd2fd1960098e84f4e kconfig: make lkc.h self-sufficient #include-wise
-f463269fb940d2a4259169b1e87aab8d259a9ec4 kconfig: qconf: show Qt version in the About dialog
-78cb09078352d032b12e2af7feb9b5b7f0fa794c kconfig: clean up header inclusion
 
---===============9005291789621984654==--
+--===============3635968270862420061==--
