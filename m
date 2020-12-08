@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 08 Dec 2020 23:28:23 -0000
-Message-Id: <160747010332.23611.17017534087407256765@gitolite.kernel.org>
+Date: Tue, 08 Dec 2020 23:29:24 -0000
+Message-Id: <160747016458.24187.5976473716195674235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/rockchip/drivers
+  - ref: refs/heads/drivers/memory-2
     old: 0000000000000000000000000000000000000000
-    new: c2867b2e710fc85bb39c6f6e5948450c48e8a33e
+    new: 4bfa07300b9334b487ed4f3d4901c35ebb31b7ca
