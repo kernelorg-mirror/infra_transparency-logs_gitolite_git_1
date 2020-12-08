@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Tue, 08 Dec 2020 14:47:56 -0000
-Message-Id: <160743887601.11242.3282786785751945011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Tue, 08 Dec 2020 14:55:33 -0000
+Message-Id: <160743933349.15996.11790347866185327946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/pci/dwc
-    old: cf68e3b7a6b75d8f0e68c80fb353cde1878ef682
-    new: 1c6072c7434c9d7a15bf53d1da1217bbc9cfaab3
+  - ref: refs/heads/queue-5.4
+    old: c3c77cad817f650b9da115ca7ce44f1deb1e7bdc
+    new: 2524c75f0640a2ddc74abbfaa80ebb4202cf42c9
     log: |
-         458168247cccd3b22d9d34805dfb0596c5502888 dt-bindings: pci: qcom: Document PCIe bindings for SM8250 SoC
-         e1dd639e374a1345c63eb7e8931e08de7cb8f904 PCI: qcom: Add SM8250 SoC support
-         1c6072c7434c9d7a15bf53d1da1217bbc9cfaab3 PCI: qcom: Add support for configuring BDF to SID mapping for SM8250
+         2524c75f0640a2ddc74abbfaa80ebb4202cf42c9 Partially revert bpf: Zero-fill re-used per-cpu map element
          
