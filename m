@@ -1,32 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 08 Dec 2020 08:58:43 -0000
-Message-Id: <160741792398.19026.6047898112419347365@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4720093928156011794=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 08 Dec 2020 09:03:03 -0000
+Message-Id: <160741818351.13273.4562651338616022048@gitolite.kernel.org>
+
+--===============4720093928156011794==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master-pending
-    old: bb48dd218b14212e8eb06af7ddf9afb4003061cb
-    new: c42e95e1d1295cb5642516912015b94bce6409ae
+  - ref: refs/heads/staging-testing
+    old: 8764c27fbd2f257405853e73bf3a6b44920a20ab
+    new: 518b466a21ad7fa1e338fa4ed9d180ef439d3bc0
     log: |
-         33f9681e05cf5cc5a7b540937f73234394404c8f ath11k: fix incorrect wmi param for configuring HE operation
-         09ff2db164dfeec22c123e36b48c48ca5a809a08 ath11k: support TXOP duration based RTS threshold
-         0fe5f774abe3b7a247cc49429921a0b96828d9e7 ath11k: mesh: add support for 256 bitmap in blockack frames in 11ax
-         6429cb5c69441052e5d055c0ca4ac884f52d4d49 ath9k_htc: adhere to the DONT_REORDER transmit flag
-         c42e95e1d1295cb5642516912015b94bce6409ae Merge branch 'pending' into master-pending
+         289fa46ac6111df61697495a736f2dac8fa4f23a dt-bindings: pinctrl: rt2880: add binding document
+         518b466a21ad7fa1e338fa4ed9d180ef439d3bc0 pinctrl: ralink: add a pinctrl driver for the rt2880 family
          
-  - ref: refs/heads/pending
-    old: 08ed8a9b0545189dd60326927701afb8fb43b75f
-    new: 6429cb5c69441052e5d055c0ca4ac884f52d4d49
-    log: |
-         33f9681e05cf5cc5a7b540937f73234394404c8f ath11k: fix incorrect wmi param for configuring HE operation
-         09ff2db164dfeec22c123e36b48c48ca5a809a08 ath11k: support TXOP duration based RTS threshold
-         0fe5f774abe3b7a247cc49429921a0b96828d9e7 ath11k: mesh: add support for 256 bitmap in blockack frames in 11ax
-         6429cb5c69441052e5d055c0ca4ac884f52d4d49 ath9k_htc: adhere to the DONT_REORDER transmit flag
-         
+
+--===============4720093928156011794==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607418246 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1607418174-334b77f8039ed119b94f1344ba5cb09c5b4f14e4
+
+8764c27fbd2f257405853e73bf3a6b44920a20ab 518b466a21ad7fa1e338fa4ed9d180ef439d3bc0 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/PQYYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3MEP+wV6/Bfu2LvTjCPXOcha
+EXiYnsYTxzqEWk64wMuhBygtTemu3ctF/sGUhCg+TbmMps7qtVLiM+/KB/t5zYPA
+W1lk61OI6xozUGBh0bhaefhk6JxqFXhodQ9P9UsJuHqp/Vc5G0c8WqwC5HHeagxt
+QLUHS1TdfeFEmFtp1zxi5aNjOTX/LuplDe9YUYCG07HNVjvhf3+ManAwSDSZRbve
+eUuYHRoHSQNO1j2ODI9I9mrhS3yaCFY/o7WRVj1NPB5dmTbfRnbTmMcjOfp8cCBX
+QPRmLYkxC6LGpj7rcufqSlqJe++xhG/q0Cz7KrVHaEWoDfweYuUOWIkA7qUKWW7U
+vH33EGByVD4oKaxexIV/fCTR31VElAtt/mZvsRpr94VhhW6L9eud2SmGyEEr0IAc
+8A4cH1CMHnEuyJxjP8cnVNmlTmTFcHBoPmVRrwsAgy7ZvSUCdQWiVQMwboYDF+G+
+Put3IsC4k/wPioV1wNWAmtnNlwjk9vnog4fmUGBwaaAFRdpLOko1LxMimMaijlJa
+mV7TCgDI4koWZZXu2ryGBosNaR7ZxqSDr1VoyWiIH2y8T6KYkXco7PaQ3A3h7sa+
+GRCfjXa86WJKj3iCPUZ5dmOBwmbDPZXHRW5qUoMX44ypxo/FiZYCTaiNefYvGdHG
+Q3hVRJ/EtFohH96lyA5a/xC/
+=q6em
+-----END PGP SIGNATURE-----
+
+--===============4720093928156011794==--
