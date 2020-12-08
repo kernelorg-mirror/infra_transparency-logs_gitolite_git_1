@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 08 Dec 2020 16:58:53 -0000
-Message-Id: <160744673317.31453.16965162103008843557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 08 Dec 2020 17:00:09 -0000
+Message-Id: <160744680974.2887.9576293986517539244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: 3546b9b8eced9799b35ef953f766a0973b17fda2
-    new: 8bdd8e275ede9786d845b3ec952836e61fd824e9
-    log: |
-         8bdd8e275ede9786d845b3ec952836e61fd824e9 bpf: Return -ENOTSUPP when attaching to non-kernel BTF
-         
+  - ref: refs/heads/at91/drivers
+    old: 0000000000000000000000000000000000000000
+    new: 264788c8f23703d0d3e967fb5aea83eb64d2cb2b
+  - ref: refs/heads/drivers/scmi
+    old: 0000000000000000000000000000000000000000
+    new: f83eb664cdb45169338b9633f22eaafc23764f05
+  - ref: refs/heads/backmerge/v5.10-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 3cea11cd5e3b00d91caf0b4730194039b45c5891
