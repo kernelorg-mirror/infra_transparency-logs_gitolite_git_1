@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7934873154000690243=="
+Content-Type: multipart/mixed; boundary="===============0703243580162929223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 08 Dec 2020 06:37:43 -0000
-Message-Id: <160740946322.29213.451428588615581333@gitolite.kernel.org>
+Date: Tue, 08 Dec 2020 06:38:21 -0000
+Message-Id: <160740950182.29499.2155083713855135614@gitolite.kernel.org>
 
---===============7934873154000690243==
+--===============0703243580162929223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: ac85cca316370d897b5af0568d224410b027b5e4
-    new: 492096ecfa39d5b6a82a6959b848b78d0112bb09
-    log: revlist-ac85cca31637-492096ecfa39.txt
+  - ref: refs/heads/for-next
+    old: aa6a6ffe922bfb749229179347f86f10a24d89c9
+    new: 57a6552b3a63da4527dd75b1cc05219f70bafa97
+    log: revlist-aa6a6ffe922b-57a6552b3a63.txt
 
---===============7934873154000690243==
+--===============0703243580162929223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac85cca31637-492096ecfa39.txt
+Content-Disposition: attachment; filename=revlist-aa6a6ffe922b-57a6552b3a63.txt
 
 2ce6e200a04c246a9a60ab3ee05506ed4d778c08 scsi: pm8001: Convert pm8001_printk() to pm8001_info()
 9aed578fba7839cab7a64a8184797e082ff759dd scsi: pm8001: Fix misindentation
@@ -59,5 +59,9 @@ da38e8917d65edc8387a5154fff7366277c61783 scsi: aacraid: Fix fall-through warning
 e9a7c7117103f6e8085ed3caecba6a1e6715e862 scsi: lpfc: Fix fall-through warnings for Clang
 8b185fc6e3fe5d16abcd2753f504d1c54134f03a scsi: stex: Fix fall-through warnings for Clang
 492096ecfa39d5b6a82a6959b848b78d0112bb09 scsi: target: core: Fix fall-through warnings for Clang
+673235f915318ced5d7ec4b2bfd8cb909e6a4a55 scsi: core: Fix race between handling STS_RESOURCE and completion
+359db63378eded1ee9c8c9ad72245f9b0158ae95 scsi: hisi_sas: Select a suitable queue for internal I/Os
+e907c6c4d5d581c2adf37fa4828385590ea10148 Merge branch 'fixes' into for-next
+57a6552b3a63da4527dd75b1cc05219f70bafa97 Merge branch 'misc' into for-next
 
---===============7934873154000690243==--
+--===============0703243580162929223==--
