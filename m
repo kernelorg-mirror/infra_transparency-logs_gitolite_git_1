@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Tue, 08 Dec 2020 19:23:05 -0000
-Message-Id: <160745538593.28551.3731601184530256880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 08 Dec 2020 19:25:06 -0000
+Message-Id: <160745550691.30530.1435147417474651532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
-user: khilman
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/amlogic-dt64-2
-    old: 0000000000000000000000000000000000000000
-    new: 03800903f149abc015d96136e53a00ef8a0bd0e6
+  - ref: refs/heads/master
+    old: 8e98387b16b88440b06e57965f6b2d789acd9451
+    new: bdc40a3f4b4f967e6411ee389f062d52a2686eca
+    log: |
+         bdc40a3f4b4f967e6411ee389f062d52a2686eca net: dsa: print the MTU value that could not be set
+         
