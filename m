@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 08 Dec 2020 10:13:05 -0000
-Message-Id: <160742238546.10294.17460860281194130150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 08 Dec 2020 10:20:20 -0000
+Message-Id: <160742282085.14902.15456428857095159202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/dev-test
-    old: 347cddc7bb3e446de9782648b6ad104df12aa3e4
-    new: 6890dbdfddf9dc50ca7f09dfa1022f0e92a613c8
+  - ref: refs/heads/review-hans
+    old: dea5b80a043f6cd6ad341d9957a43e363366630e
+    new: 7067be7059e8edc186474db9727c519da886a1ce
     log: |
-         a426ce9d6751cc8e709f031fa546900e4239f125 erofs: remove a void EROFS_VERSION macro set in Makefile
-         6aaa7b0664e6886f6154070edbc24435d6e1f86b erofs: get rid of magical Z_EROFS_MAPPING_STAGING
-         bf225074ff211f219cff2166cea17b158a0d06a9 erofs: insert to managed cache after adding to pcl
-         473e15b0c0f7cf63a48f776937a02cb9dfcab252 erofs: simplify try_to_claim_pcluster()
-         6890dbdfddf9dc50ca7f09dfa1022f0e92a613c8 erofs: force inplace I/O under low memory scenario
+         07f262d80d5f1f426da4557066bf0ec24ee32d97 tools/power/x86/intel-speed-select: Read TRL from mailbox
+         6c4832253a2d2259fd4002e3c4511035f81f48f6 tools/power/x86/intel-speed-select: Account for missing sysfs for die_id
+         5e27cb9bca6746d1c9c76c4b4aeececcb18b2120 tools/power/x86/intel-speed-select: Update version for v5.11
+         ba4939f1dd46dde08c2f9b9d7ac86ed3ea7ead86 platform/x86: mlx-platform: Fix item counter assignment for MSN2700, MSN24xx systems
+         cf791774a16caf87b0e4c0c55b82979bad0b6c01 platform/x86: mlx-platform: Fix item counter assignment for MSN2700/ComEx system
+         aa8994fbf2a01c91518f48848fa657d915ba046b x86/platform: classmate-laptop: add WiFi media button
+         7067be7059e8edc186474db9727c519da886a1ce platform/x86: intel-hid: add Rocket Lake ACPI device ID
          
