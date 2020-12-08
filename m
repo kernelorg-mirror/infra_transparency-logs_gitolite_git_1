@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8011055802366304178=="
+Content-Type: multipart/mixed; boundary="===============1835687637084125466=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 08 Dec 2020 04:48:44 -0000
-Message-Id: <160740292477.24759.3980046246899711014@gitolite.kernel.org>
+Date: Tue, 08 Dec 2020 04:48:49 -0000
+Message-Id: <160740292978.24883.1581952362575028113@gitolite.kernel.org>
 
---===============8011055802366304178==
+--===============1835687637084125466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,78 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: eeaf06af6f87e1dba371fbe42674e6f963220b9c
-    new: 359db63378eded1ee9c8c9ad72245f9b0158ae95
-    log: |
-         673235f915318ced5d7ec4b2bfd8cb909e6a4a55 scsi: core: Fix race between handling STS_RESOURCE and completion
-         359db63378eded1ee9c8c9ad72245f9b0158ae95 scsi: hisi_sas: Select a suitable queue for internal I/Os
-         
+  - ref: refs/tags/mkp-scsi-queue
+    old: f37e4647edf6f07cb51920affca63c1ce30a6d04
+    new: 1eba51cea7df5a87df836616ce6d63cf5e56edc0
+    log: revlist-f37e4647edf6-1eba51cea7df.txt
 
---===============8011055802366304178==
+--===============1835687637084125466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1607402923 -0500
+pusher 75C5DE3D 1607402928 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1607402923-bd5cb1e8d3229d2f56256924f2b2379feecf0356
+nonce 1607402928-0e9b1009adc6cf568eb7f104537be48aba69de92
 
-eeaf06af6f87e1dba371fbe42674e6f963220b9c 359db63378eded1ee9c8c9ad72245f9b0158ae95 refs/heads/fixes
+f37e4647edf6f07cb51920affca63c1ce30a6d04 1eba51cea7df5a87df836616ce6d63cf5e56edc0 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/PBasACgkQ7ulgGnXF
-3j0GdQ//YM2thDshoSIYQ+EL5p23idH8Ocx0PQX2NjEZnM51a4oQIHCMXrCdxLyN
-hkotpnIcjQ2vkLkqbHktg29I9Xviw9ey7HGYGiTNerFVE1zu7JQA/g9AO9VpeDR9
-JivAkpdKNutaX06Oz4P6sFbT9DHYYSA/nTd40wH/cEsSOTVgGe4S0dnrusHIkL20
-yIXP+mQhINDbPuMLTIuj7glVfxNCKLzAzAQP4edOhx58kerheNBn+6dkrXMKkepO
-xu7HuV2q5efJPJtWPpMBetgw6p4n2Rdx6JnJCKg0I+GdChvj0XOCiIu4x73An4+g
-s7PlCP1FSDsSJGVwvM42mfRHAFvrj438Jebsi+4SHB18cRSzoKnTIrpyTJkoIYvs
-ojJbvwAH6cmWmcvnWAWsTTn2t7PoaMIGlPhMRE3HYQSUbN6KG0LlH7K62w/lBjsa
-Ikx9iVkzjU4iFbl0JDp4LaWplgXDIWGdWQyGw2JM49ij39F31gza6rlN8Ss0xx4t
-IcAAGFsDwCraCo0DNVw/cSXYCZX05T++5SFHJZBXcnc+X4bBpVGT3EcWLkuMX+wV
-rvG361Tk7Ydino5sHPgWnPdt8OGMzBiRALn3vkGEYA49fusYDfU3YMD8R3IWmHAp
-LzkozssSrxob6cq9tgxni8fThULIyfJXL6euiaDHy21HnGUnRa4=
-=+OlF
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/PBbAACgkQ7ulgGnXF
+3j12Lw/+P9yLrL2U3n74dZj3dW9kKt+sOUMYa589ISPhaqcZimDHZswMsit5mIQX
+A6Yb38OsF/cFnUJbVX7ds5/MJysCx484vKtVQd71PIemprqCOL5OTZUTrDRvQLvY
+mPWTSrUm1TYSSW3PfTW/vmnJkUQhzoQRkdQj+XF3qe1zcTY75HZCx1gdXh/oAXvl
+N6FWtXf/97Httl8xEdv+UTFPjIe+zvOhi4WydotpHpCEmuH5KkXOn4nWwk0gTPpK
+rC3tUFjCuWXUqKDNzI4cIdWH2L58lSNkOMFNF1xAL2e8zO7s1FM47SM84DMnGvGQ
+yZvxxEH+IlngadsAgIwVh7K2lhMlMhQdl8OsUekcOKzCXa44PxLdc8xB1z2leFrr
+utpaoKCSBIyijRmuRttXAcOAX8blp9bFXDKOB+4/Yg2k/XJdAWjp8mI3zKaD7wgp
+c/Adb9kyXfwmEqRJNAZMPVNxff/nMDtokwR1bxWs+feqFK+gCedfFac4HP19kA1q
+4QOKqmnMF0Rwmt+D9xb08ylJBdDY1WRP/neQ1OaT8m9JcDDQGjmh0d3rpBQLWWpS
+rhzfMIxodwCzpqe+QUf0yJx91aKDLMPekVEzC7tnjL1Evg6j15WtxtFTerDLChAo
+3BoCfTC7f34BeEotNCyR85orhgmtKjf9/pbBb8rUk0Ys8cBjysU=
+=CXy2
 -----END PGP SIGNATURE-----
 
---===============8011055802366304178==--
+--===============1835687637084125466==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f37e4647edf6-1eba51cea7df.txt
+
+2ce6e200a04c246a9a60ab3ee05506ed4d778c08 scsi: pm8001: Convert pm8001_printk() to pm8001_info()
+9aed578fba7839cab7a64a8184797e082ff759dd scsi: pm8001: Fix misindentation
+c6131854e28a50a7e3eaf7bc900d0780772b222b scsi: pm8001: Remove space in a debug message
+bec99e5250bfe1c575e72a971bc2b2b21cf6c8b4 scsi: hisi_sas: Reduce some indirection in v3 hw driver
+2ebde94f2ea4cffd812ece2f318c2f4922239b1d scsi: hisi_sas: Fix up probe error handling for v3 hw
+623a4b6d5c2a7595f677fa17348dbca6b461f16a scsi: hisi_sas: Move debugfs code to v3 hw driver
+939785d35def8d10e8ad312b252dbbecc8d41ca1 scsi: ufs: Remove unnecessary if condition in ufshcd_suspend()
+4ba9e516573e60c471c01bb369144651f6f8d50b scsi: pm80xx: Do not sleep in atomic context
+18577cdcaeeb7a1ca5c3adc4d92ed2ba75699625 scsi: hisi_sas: Remove preemptible()
+a93c3835319849f0226b9a7101284aeb60a5ed8e scsi: qla4xxx: Remove in_interrupt()
+8ac246bdd07a0f948f0e33eb4797bd2645cd8224 scsi: qla2xxx: Remove in_interrupt() from qla82xx-specific code
+9fef41f25d60d3cb22ee81d5d92cdea99a1b35ea scsi: target: tcm_qla2xxx: Remove BUG_ON(in_interrupt())
+4f6a57c23b1e002487159791feef7d54b725bfa6 scsi: qla2xxx: Remove in_interrupt() from qla83xx-specific code
+3627668c2e2c9459cff874ad34b82d251038da48 scsi: qla4xxx: Remove in_interrupt() from qla4_82xx_idc_lock()
+014aced18aff34d3b3ed3735b094d538b8c9f66e scsi: qla4xxx: Remove in_interrupt() from qla4_82xx_rom_lock()
+547c0d1aeb76fead5177cc30b95e914b498675bd scsi: mpt3sas: Remove in_interrupt()
+3bc08b9545dab900bb5902459877bf6a0fb4ec8b scsi: myrb: Remove WARN_ON(in_interrupt())
+ca6853693cbdcc3f9a38f4544bd3d7b149509784 scsi: myrs: Remove WARN_ON(in_interrupt())
+b8a5144370bc59dbb192b8f29298920ceadc3d1e scsi: message: fusion: Remove in_interrupt() usage in mpt_config()
+817a7c996786f803a8b5528ca11a842eed88e01f scsi: message: fusion: Remove in_interrupt() usage in mptsas_cleanup_fw_event_q()
+81309c247a4dcd597cbda5254fd0afdd61b93f14 scsi: ufs: Refactor ufshcd_setup_clocks() to remove skip_ref_clk
+96f08cc5943c0fe943ea10fdead6a80b73270046 scsi: ufs-qcom: Keep core_clk_unipro on while link is active
+29b87e92a21605ed74888e4d2a31055d95dfafe1 scsi: ufs: Stop hardcoding the scale down gear
+9d8de441db261dbb4abb989674a62d1c13fe4f93 scsi: lpfc: Correct null ndlp reference on routine exit
+995ae10f8000699b6ac8186489235bc9f0b8de34 scsi: aic7xxx: Fix fall-through warnings for Clang
+4886dd0a04b47a3da81b2d9c46c32c1035410ea2 scsi: aic94xx: Fix fall-through warnings for Clang
+4c7bd259d66c9f94d3937bce3de5f16a8fd812a1 scsi: bfa: Fix fall-through warnings for Clang
+da38e8917d65edc8387a5154fff7366277c61783 scsi: aacraid: Fix fall-through warnings for Clang
+5133dc4764844575da10a7b6dc12cd87a0ca9d19 scsi: aha1740: Fix fall-through warnings for Clang
+965077585513d83fd937bf788557af8cc48745c7 scsi: csiostor: Fix fall-through warnings for Clang
+e9a7c7117103f6e8085ed3caecba6a1e6715e862 scsi: lpfc: Fix fall-through warnings for Clang
+8b185fc6e3fe5d16abcd2753f504d1c54134f03a scsi: stex: Fix fall-through warnings for Clang
+492096ecfa39d5b6a82a6959b848b78d0112bb09 scsi: target: core: Fix fall-through warnings for Clang
+
+--===============1835687637084125466==--
