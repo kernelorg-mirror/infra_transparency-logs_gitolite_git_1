@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 08 Dec 2020 16:20:00 -0000
-Message-Id: <160744440001.7409.8326738198526031606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Tue, 08 Dec 2020 16:20:19 -0000
+Message-Id: <160744441907.8887.9429183560807412462@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: mripard
 changes:
-  - ref: refs/heads/qcom/defconfig
+  - ref: refs/tags/sunxi-fixes-for-5.10
     old: 0000000000000000000000000000000000000000
-    new: cc563f8f769b9fe4bbe18dcd3cbb382a49cf3585
+    new: 1322c5ba5b8e6a0704a7efc30177971540b95119
