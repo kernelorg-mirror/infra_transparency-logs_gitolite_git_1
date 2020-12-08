@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 08 Dec 2020 23:27:44 -0000
-Message-Id: <160747006483.23342.13987058931362188979@gitolite.kernel.org>
+Date: Tue, 08 Dec 2020 23:28:23 -0000
+Message-Id: <160747010332.23611.17017534087407256765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/drivers/reset
+  - ref: refs/heads/rockchip/drivers
     old: 0000000000000000000000000000000000000000
-    new: d06c4dec98b655e2808d2a59681ec24197c59c9d
+    new: c2867b2e710fc85bb39c6f6e5948450c48e8a33e
