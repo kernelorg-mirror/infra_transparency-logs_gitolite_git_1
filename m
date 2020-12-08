@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Tue, 08 Dec 2020 15:58:07 -0000
-Message-Id: <160744308714.24382.13299937144449816269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Tue, 08 Dec 2020 15:58:54 -0000
+Message-Id: <160744313476.24680.15595026296331523889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: 476cdb2ae2211e07ed5a7f805bc7a711b65d28bf
-    new: e4202bd447e21f102d1033c6127810a0e94122f6
+  - ref: refs/heads/for-5.11
+    old: 584da076866f38ffb952efcc25af039f9551df81
+    new: 8d143c610b62f2820fbc97dc441d54ac326abe1a
     log: |
-         c8d7fdc4bf75d8429caea47daceedad0bce6c4d7 habanalabs/goya: move mmu_prepare to context init
-         e4202bd447e21f102d1033c6127810a0e94122f6 habanalabs: report dram_page_size in hw_ip_info ioctl
+         8d143c610b62f2820fbc97dc441d54ac326abe1a printk: remove obsolete dead assignment
          
