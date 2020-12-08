@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-Date: Tue, 08 Dec 2020 08:08:41 -0000
-Message-Id: <160741492190.20760.9994084264577691710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Tue, 08 Dec 2020 08:25:01 -0000
+Message-Id: <160741590138.29192.4044246023869093873@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: d3b6fab909525cce715a281c5c19ce2ab7b3fcec
-    new: 18572b0b54930ecf642a68444b15507c43c07f54
+  - ref: refs/heads/fixes
+    old: c3c882898d07157a1b083aaaddf0e8346373d111
+    new: 7aeb353802611a8e655e019f09a370ff682af1a6
     log: |
-         48264b23fadee1d240729d87afdda3a42da22290 airo: Fix fall-through warnings for Clang
-         f48d7dccb3e4ab372c32e900302270ba7b0e5578 rt2x00: Fix fall-through warnings for Clang
-         0662fbebf4fb4fb047ee80c2df4f8403094f3cad rtw88: Fix fall-through warnings for Clang
-         18572b0b54930ecf642a68444b15507c43c07f54 zd1201: Fix fall-through warnings for Clang
+         7aeb353802611a8e655e019f09a370ff682af1a6 pinctrl: aspeed: Fix GPIO requests on pass-through banks
+         
+  - ref: refs/heads/for-next
+    old: 9b185cd4fdcafa16d6da8224e177f807d7737bd1
+    new: 2053f90591a246588377fdbf23027ab2bc646618
+    log: |
+         7aeb353802611a8e655e019f09a370ff682af1a6 pinctrl: aspeed: Fix GPIO requests on pass-through banks
+         2053f90591a246588377fdbf23027ab2bc646618 Merge branch 'devel' into for-next
          
