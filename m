@@ -1,23 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 08 Dec 2020 17:08:47 -0000
-Message-Id: <160744732706.7935.16854729252758315955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 08 Dec 2020 17:09:17 -0000
+Message-Id: <160744735776.8175.5247707028633636690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 9408285b3084a1d807741bf4bef3359f5e1f04a8
-    new: 5f13600071dfe86bccfcf0934e9c1d0c7c9ecf48
+  - ref: refs/heads/for-linus
+    old: 7119658cd62b629ba36889f12d3d729210df3ed7
+    new: cea96c618d095b8317a9bc9532fc87407bef0cbb
     log: |
-         416c29e9ce1347ba9a4ef7aeb4f30c8d9a3ada49 regulator: da9121: Remove uninitialised string variable
-         9536ce63705952be5214544e3b048c78f932e794 regulator: da9121: Fix index used for DT property
-         8db06423e079b1f6c0657e5bebda0006acf75c3c regulator: da9121: Potential Oops in da9121_assign_chip_model()
-         9d125387d92bf68b14acee0297e10c5f382fd62f Merge series "regulator: da9121: bug fixes" from Adam Ward <Adam.Ward.opensource@diasemi.com>:
-         5f13600071dfe86bccfcf0934e9c1d0c7c9ecf48 Merge remote-tracking branch 'regulator/for-5.11' into regulator-next
+         5c139782d11e1907b51238e1f4b3934fc011d68c Merge remote-tracking branch 'spi/for-5.9' into spi-linus
+         cea96c618d095b8317a9bc9532fc87407bef0cbb Merge remote-tracking branch 'spi/for-5.10' into spi-linus
+         
+  - ref: refs/heads/for-next
+    old: 56608ab4f92745b4d2f4dfffbe7e0c663b80e9b4
+    new: 37e85f1309a7b86dd8d6e647725af3992c45b488
+    log: |
+         76347344c522da78be29403dda81463ffae2bc99 spi: Update DT binding docs to support SiFive FU740 SoC
+         5c139782d11e1907b51238e1f4b3934fc011d68c Merge remote-tracking branch 'spi/for-5.9' into spi-linus
+         cea96c618d095b8317a9bc9532fc87407bef0cbb Merge remote-tracking branch 'spi/for-5.10' into spi-linus
+         37e85f1309a7b86dd8d6e647725af3992c45b488 Merge remote-tracking branch 'spi/for-5.11' into spi-next
          
