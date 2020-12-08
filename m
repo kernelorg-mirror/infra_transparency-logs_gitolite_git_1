@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 08 Dec 2020 18:09:34 -0000
-Message-Id: <160745097419.15290.934286373857190910@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Tue, 08 Dec 2020 18:40:29 -0000
+Message-Id: <160745282992.2947.16517298389988464800@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/x86/cpu
-    old: cb09a379724d299c603a7a79f444f52a9a75b8d2
-    new: 262bd5724afdefd4c48a260d6100e78cc43ee06b
+  - ref: refs/heads/master
+    old: e582226f7239430c6fd2d26f0a4803948a507c1c
+    new: 35a2ea5622fa79c672cdd2587727a61b431e8d0f
     log: |
-         262bd5724afdefd4c48a260d6100e78cc43ee06b x86/cpu/amd: Remove dead code for TSEG region remapping
+         35a2ea5622fa79c672cdd2587727a61b431e8d0f whymb: Fix typo in variable name
          
