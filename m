@@ -1,76 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============3428711021079815829=="
+Content-Type: multipart/mixed; boundary="===============3233232682703642863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 08 Dec 2020 08:42:14 -0000
-Message-Id: <160741693435.9608.304350355025174884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 08 Dec 2020 08:42:29 -0000
+Message-Id: <160741694953.9740.16939391759352389827@gitolite.kernel.org>
 
---===============3428711021079815829==
+--===============3233232682703642863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 138f3e1265488a9163be7f379073297ba8545cca
-    new: 19cf9d7afc2e7b91f47b8f2638ec08b29de55060
-    log: revlist-138f3e126548-19cf9d7afc2e.txt
+  - ref: refs/heads/char-misc-next
+    old: a3ab07c642b2d75e645b1a07464291e325a496e0
+    new: ee64ed8153abf6668d662ba451ecf539cad63017
+    log: revlist-a3ab07c642b2-ee64ed8153ab.txt
 
---===============3428711021079815829==
+--===============3233232682703642863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607416997 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1607416926-66fc86f1c7ffa9be277cde76e3da33ce2b625b3f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607417013 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1607416941-0be2e970407ac4895938d0454dd36becb6e4d5b5
 
-138f3e1265488a9163be7f379073297ba8545cca 19cf9d7afc2e7b91f47b8f2638ec08b29de55060 refs/heads/staging-next
+a3ab07c642b2d75e645b1a07464291e325a496e0 ee64ed8153abf6668d662ba451ecf539cad63017 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/PPKUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fckP/jlY5IJj2u4nnw+TLb2f
-rgx+MCl9P0Rft1YZVrUVwy/3qQrbw3vIR+A/jkZOy6ExeiIbW0zCitFBeXu2TCyd
-IlHyHRgfIsZ+ozkKbSU8k4MS+h8Ja3wUSQ7J7BayeL08pv6+hYqlV51VHUTf4YCL
-0cEQWFQK4J8IQvL79uW4tMIiz7QKXOJnnO3Pzpp/FDLRwZRF+Klb1ffb43O86984
-qF0uF1Rj+znl2YchPj1rzUhZZ8T6d8SapDFIrmRMf0FRjLL1T28vzfEgXf1cCa2o
-U2G4K/3XkdB69jOlIxmj3BkqbZ2rVM3sptLry6Did1vqkCQf+bwahHBZr543SnCk
-hzIeLfw8Y3LlZsM33GruyfwMOEC+VrkOtAQMwBBuBVZHYIPc8eo5jgbokIi7RQns
-nlTkyMmXQvujWno0ALC1krEnmdd2/EUuYF4lUwUWbCVSVgZ/32oZYisRi1tJJHea
-CvV2LbQRjuYpodJ9erejKYeBPG8MMMEMRqsAQidgF3BK3yjVtFM+2zqnmNN2Ct52
-G5TVnyqLt9B9q6CDXsSBQ+m87jk6VjbrUNeTmDjRUwf8BShF3WdyxSKmsxAZJnV5
-xtkHTWF0Kr0ThG/rYrtVArFI1f5ovPaRMrkUL9HS41CSySIQ+gdgJoixpbwKqJQi
-whMgeVPXUMNvNT/xW3ptsExW
-=OGsc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/PPLUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+daAP/1yf5RJHwIjIArrgZ+uv
+eiAVPpTfqXJxOOdZhZZGBHHeTqwnZO9w2FmoZqRmL/AAIBDQ3dc0Twd078InA37Q
+cN5KRA2WvQ5eUSccSQnc8uTtFNl3dNaLJf2ox6ssnTBWIniaAYs3fZzWIhPuUTXy
+eDVD6mRj135/YuQPAr3KB0YLC5DSEk2JXE6fuO2g49tFJQmSeFt7E6pb7U20Yn8J
+bzAzMsoAarb0OTsr8VlOPOWq8embSb0aeBDz2jW/uk+PQssX2hxIZT4Fqfo1rler
+Z+1YZBEixEiYdpAcHx0qy18LiV44Lo/5y47QGzX4yk5290IVEWzgAZndQCiVODbJ
+HonSMWLhQtsqR2FyQHugeh98/gFxqOYCEXSbNPw8wBlW1vseb9yog1gcpmNB5z38
+OawiDlCSxr6XZ5JymyO4Cen/o/5snRy7Sawvw5fgmJACUuHpIoCJydxL2ET5TARC
+rSyD+UoO4lGHdIkTEcqxcCrsOiRBG7mt6gyJ71UrsKCnpvWTviA8AsNFj2HASKxD
+HZWWbEs76rjwHk4D+GhJatIqeOHOHsDdauR/HU3QdLf6XuCVam0jz7v7HXjsxNW/
+/Prfy8yCpclamgEtOhykexTH23X17kqMZkS9YHakDJ+78PKyzPPUAHPjHdt3eTrG
+7F4zhdHRUT2Er8egttpnJOBL
+=+j4j
 -----END PGP SIGNATURE-----
 
---===============3428711021079815829==
+--===============3233232682703642863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-138f3e126548-19cf9d7afc2e.txt
+Content-Disposition: attachment; filename=revlist-a3ab07c642b2-ee64ed8153ab.txt
 
-6c91799f59ed491a2b5bf5ef7c6d60306cda4e09 staging: bcm2835: fix vchiq_mmal dependencies
-be25cfd80e8f0552344c894e685810acdc6d02a1 Staging: rtl8723bs/core: delete empty if statement
-954c647acea0c07aa1ff4941b7f8283f7600d0c1 Staging: rtl8723bs/core: fix brace coding style issue
-6c7b8ac995d9960b8a7238c10fd1d449f0157da1 Staging: rtl8723bs/core: add blank line after declarations
-94168e2ba4dc6a8db033afcd32ad64ab8ec9f09c staging: mt7621-pinctrl: stop using the deprecated 'pinctrl_add_gpio_range'
-e77b259f67ab99f1e22ce895b9b1c637fd5f2d4c staging: greybus: audio: Fix possible leak free widgets in gbaudio_dapm_free_controls
-6d75b5044bb39917fc834e862e97ec84927e5dd3 staging: rtl8723bs: replace unique macros and WIFI_STATUS_CODE
-5ed3e6f29f76d6612929892df969d7f2ec0115c6 staging: rtl8723bs: replace WIFI_REASON_CODE
-2415ae7fa2c7c23436d711eb75c5d40481d5a256 staging: rtl8723bs: replace cap_* macros
-98b32c71a455ff289442779fee02ad60a6217006 staging: rtl8723bs: replace HT_CAP_AMPDU_FACTOR
-ac74ae7671d7d3ca3c827b1820b9248d235886ff staging: rtl8723bs: replace OP_MODE_* and HT_INFO_OPERATION_MODE_* macros
-2841fa62e23710e2cc1526f92be50de983de93e3 staging: rtl8723bs: remove WLAN_HT_CAP_SM_PS_* macros
-b3ae8af6a782241b3a97ba6a30739f633764bfa7 staging: rtl8723bs: replace RTW_IEEE80211_ADDBA_PARAM_BUF_SIZE_MASK
-4cd8898174909215a21fd98fae86704f8427dc9e staging: rtl8723bs: remove unused macros
-19cf9d7afc2e7b91f47b8f2638ec08b29de55060 staging: rtl8723bs: remove LIST_CONTAINOR
+e6db818a3f51781ba12ac4d52b8773f74d57b06b soundwire: Fix DEBUG_LOCKS_WARN_ON for uninitialized attribute
+b7cab9be7c16128a0de21ed7ae67211838813437 soundwire: SDCA: detect sdca_cascade interrupt
+6e06a85556f9725865af91c9fe502c9669518ed5 soundwire: bus: add comments to explain interrupt loop filter
+7ffaba042e0e997832032b2d7b062dc27a7ebb2d soundwire: bus: reset slave_notify status at each loop
+2fb94784952e4b290c392b74c2c67b4afa672523 soundwire: registers: add definitions for clearable interrupt fields
+b35991de7a59a06a4ea5aee90b4926f01a72f71b soundwire: bus: only clear valid DP0 interrupts
+47b8520997a8ec4a1d2b322c61b59ebe078764a9 soundwire: bus: only clear valid DPN interrupts
+47edc0104c61d609b0898a302267b7269d87a6af soundwire: qcom: Fix build failure when slimbus is module
+e04e60fce47e61743a8726d76b0149c1f4ad8957 soundwire: master: use pm_runtime_set_active() on add
+17e0da0b8979a53977f684813f5c9db817d170e2 soundwire: intel: fix another unused-function warning
+6e559fe128927cc414406b63eb92ea16e673f43d Merge tag 'soundwire-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire into char-misc-next
+85261c1ff156eb60fc26c378748387f2e85c6878 mei: bus: add vtag support
+ee64ed8153abf6668d662ba451ecf539cad63017 mei: bus: enable pavp device.
 
---===============3428711021079815829==--
+--===============3233232682703642863==--
