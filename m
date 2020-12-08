@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 08 Dec 2020 00:59:38 -0000
-Message-Id: <160738917889.4730.13844705998039062301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 08 Dec 2020 01:01:51 -0000
+Message-Id: <160738931175.12414.6938676622465518792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 10c678bd0a035ac2c64a9b26b222f20556227a53
-    new: eb96b686fc2c601e78903cc61b6cf4588ddde013
+  - ref: refs/heads/dev
+    old: c8390cfaa07cb9e9ccaa946a1919b69dfb34bad1
+    new: 789409aeab9842d3fbc05c4351297863346d0082
     log: |
-         eb96b686fc2c601e78903cc61b6cf4588ddde013 enetc: Fix reporting of h/w packet counters
+         55ac4241e54ee57a1a72250b950e4837a5d3ef84 erofs: get rid of magical Z_EROFS_MAPPING_STAGING
+         edf93cb057ba3dc0b3123b10634102f7ef16ee69 erofs: insert to managed cache after adding to pcl
+         789409aeab9842d3fbc05c4351297863346d0082 erofs: simplify try_to_claim_pcluster()
          
