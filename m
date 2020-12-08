@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 08 Dec 2020 02:21:53 -0000
-Message-Id: <160739411307.29923.3382136562308391810@gitolite.kernel.org>
+Date: Tue, 08 Dec 2020 02:26:01 -0000
+Message-Id: <160739436171.32414.17387091481955640119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 38bd5cec76e2282986b1bf2f8e7d2d05ffe68b22
-    new: d241b3826e942b356d94b5f8a021d5591b316558
+    old: d241b3826e942b356d94b5f8a021d5591b316558
+    new: 374a96b9600ccf60083c0fec8f727e04752a7f0c
     log: |
-         d241b3826e942b356d94b5f8a021d5591b316558 bonding: set xfrm feature flags more sanely
+         374a96b9600ccf60083c0fec8f727e04752a7f0c net/mlx4: Remove unused #define MAX_MSIX_P_PORT
          
