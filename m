@@ -1,55 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============0382099639981247156=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Tue, 08 Dec 2020 10:03:32 -0000
-Message-Id: <160742181289.5135.4494933616218550692@gitolite.kernel.org>
-
---===============0382099639981247156==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 08 Dec 2020 10:13:05 -0000
+Message-Id: <160742238546.10294.17460860281194130150@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/next
-    old: 76d1c731bd3dad26605077a0ad26662682a93b41
-    new: b27ca384049075401be4ccef5c664f66142f7028
+  - ref: refs/heads/dev-test
+    old: 347cddc7bb3e446de9782648b6ad104df12aa3e4
+    new: 6890dbdfddf9dc50ca7f09dfa1022f0e92a613c8
     log: |
-         7c245d93d3743626feb2efe04e12d5d9f04ef7b6 efi/efi_test: read RuntimeServicesSupported
-         9e651d33fd827693cdcd5df0a9d7362b11996889 efi: stub: get rid of efi_get_max_fdt_addr()
-         b27ca384049075401be4ccef5c664f66142f7028 efi: efivars: remove deprecated sysfs interface
+         a426ce9d6751cc8e709f031fa546900e4239f125 erofs: remove a void EROFS_VERSION macro set in Makefile
+         6aaa7b0664e6886f6154070edbc24435d6e1f86b erofs: get rid of magical Z_EROFS_MAPPING_STAGING
+         bf225074ff211f219cff2166cea17b158a0d06a9 erofs: insert to managed cache after adding to pcl
+         473e15b0c0f7cf63a48f776937a02cb9dfcab252 erofs: simplify try_to_claim_pcluster()
+         6890dbdfddf9dc50ca7f09dfa1022f0e92a613c8 erofs: force inplace I/O under low memory scenario
          
-
---===============0382099639981247156==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x3D200E9CA6329909 1607421810 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-nonce 1607421801-ac9b393d9bac481c25cfa32ce6b2582d60c215da
-
-76d1c731bd3dad26605077a0ad26662682a93b41 b27ca384049075401be4ccef5c664f66142f7028 refs/heads/next
------BEGIN PGP SIGNATURE-----
-
-iQGzBAABCgAdFiEE+9lifEBpyUIVN1cpw08iOZLZjyQFAl/PT3IACgkQw08iOZLZ
-jyRSiAwAmuDnftsnk2UGcnJ/r5ZYKcx73lLYJQH9SZQXu0QKZXyzTYp65uOb42rj
-EWXDL8wA/QNDBoCyVr6vmPJQ+Wjl5lfTrHxXeIbb8DHwMWF82yiF6GqmgC02soCy
-gKTBrzEmWsbeHsgC7ipWSpBfxiT2VgmJAlMiVDG6+/Iui5+S7Tlr0qrqI/VmZlp5
-dH+FwazFt1h8AEDjxdaR+jWZXrC7C1EH3jzJpmtbLk/XLgMaT+xwwGamvlc+27/p
-BewhsQV9MRlEfSMBanMptc5sTkrwQQAsNs8UkK5+lLk1Afp3CrIPoLfBCgAqyWDA
-HxhICNSt/6+789Puw4WtK2hvYkg+zlf1eU+adeL0uMj5xHHzIOntqFAEYW8nYVEQ
-AjMbxoMqIpilmOeKoWn6se6ZRnazamId88YuCKwbRR3EBc9dHfp8lO9k3cYxz06o
-vbrzSHgj2M5hVC+OcSvN66TZertGPL/ZyDhNy/jiEOROsrsk7P95DijTkVzubDzo
-xwnMlmT1
-=gcMA
------END PGP SIGNATURE-----
-
---===============0382099639981247156==--
