@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4720093928156011794=="
+Content-Type: multipart/mixed; boundary="===============2914466745536815346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 08 Dec 2020 09:03:03 -0000
-Message-Id: <160741818351.13273.4562651338616022048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 08 Dec 2020 09:05:42 -0000
+Message-Id: <160741834260.9647.3514493242172689981@gitolite.kernel.org>
 
---===============4720093928156011794==
+--===============2914466745536815346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 8764c27fbd2f257405853e73bf3a6b44920a20ab
-    new: 518b466a21ad7fa1e338fa4ed9d180ef439d3bc0
+  - ref: refs/heads/master
+    old: ffba51358718c7a515622ce547f952b141e4a1f9
+    new: 28bf792c75363676623e36a2742f92b9ada3cf75
     log: |
-         289fa46ac6111df61697495a736f2dac8fa4f23a dt-bindings: pinctrl: rt2880: add binding document
-         518b466a21ad7fa1e338fa4ed9d180ef439d3bc0 pinctrl: ralink: add a pinctrl driver for the rt2880 family
+         28bf792c75363676623e36a2742f92b9ada3cf75 drop queue-4.19/ibmvnic-notify-peers-when-failover-and-migration-happen.patch
          
 
---===============4720093928156011794==
+--===============2914466745536815346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607418246 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1607418174-334b77f8039ed119b94f1344ba5cb09c5b4f14e4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607418412 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1607418338-e07777ced10cf98a5de1ae5aa158e6a183622df7
 
-8764c27fbd2f257405853e73bf3a6b44920a20ab 518b466a21ad7fa1e338fa4ed9d180ef439d3bc0 refs/heads/staging-testing
+ffba51358718c7a515622ce547f952b141e4a1f9 28bf792c75363676623e36a2742f92b9ada3cf75 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/PQYYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3MEP+wV6/Bfu2LvTjCPXOcha
-EXiYnsYTxzqEWk64wMuhBygtTemu3ctF/sGUhCg+TbmMps7qtVLiM+/KB/t5zYPA
-W1lk61OI6xozUGBh0bhaefhk6JxqFXhodQ9P9UsJuHqp/Vc5G0c8WqwC5HHeagxt
-QLUHS1TdfeFEmFtp1zxi5aNjOTX/LuplDe9YUYCG07HNVjvhf3+ManAwSDSZRbve
-eUuYHRoHSQNO1j2ODI9I9mrhS3yaCFY/o7WRVj1NPB5dmTbfRnbTmMcjOfp8cCBX
-QPRmLYkxC6LGpj7rcufqSlqJe++xhG/q0Cz7KrVHaEWoDfweYuUOWIkA7qUKWW7U
-vH33EGByVD4oKaxexIV/fCTR31VElAtt/mZvsRpr94VhhW6L9eud2SmGyEEr0IAc
-8A4cH1CMHnEuyJxjP8cnVNmlTmTFcHBoPmVRrwsAgy7ZvSUCdQWiVQMwboYDF+G+
-Put3IsC4k/wPioV1wNWAmtnNlwjk9vnog4fmUGBwaaAFRdpLOko1LxMimMaijlJa
-mV7TCgDI4koWZZXu2ryGBosNaR7ZxqSDr1VoyWiIH2y8T6KYkXco7PaQ3A3h7sa+
-GRCfjXa86WJKj3iCPUZ5dmOBwmbDPZXHRW5qUoMX44ypxo/FiZYCTaiNefYvGdHG
-Q3hVRJ/EtFohH96lyA5a/xC/
-=q6em
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/PQi0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S7YP/AvhCs4Hou/EeYRAiPNx
+mtcOase+ZWMN+9pP8Ju9BRRE/5kn1tvIlNwzrH5//W3U2e2Wfim1eQNdnKsOb578
+akr0RJMYXZ+JJr87CsH6r6AGYjQSLanumL+64RjS8GANGdYSsilWksBEb58bAz2R
+wYulzaMG7zMH5mymDVwnggVnkFRw+1cPXoEH/TJYa5628xW8myVhhJXT7OlZsmt/
+kTomrINKK5ib4q3fJHNL79bZ4UIWQvmIKHwsZteBf5mbwEZ5/PkSR0GBitB8v68y
+Y/6R2csaTarkGbXf4y8sGlQ9Q88EiQyuj8gwmbOM8MzDHGwm8DuLRDb8YaEnuh29
+DPlHmzIHnhsLA2DhN0kH4RJGXPkom74c5xF4pEnQCopiO78vCV56qsS3F5Hmd/Wq
+UhxfUzr+zk2LHO9YyIXOLPVtKMdoCSqyvT9J5+YkV7jbRdN7aCCl09YJ/kG5NMv4
+/1JuZmLBjl/+W+ZMkpC8eiv0oGCVVWQW2jPpJ5gDf6dlfUwJu18AHp3/V1tVt7q9
+9Hv5L/rnf2uASgf2zXDgx+KgMZHdDPIrU/kmi42gEy6KtYfCyVDy/p6m0duUIapY
+nSgXkJujnZk6ccSQ5q6bIJ15FPdtcAR2V4E16svgz+6gAR73tRqbuvuB+NfRgO5h
+9/Z/1AnDmw9nrinaI31Lf2+x
+=GkNT
 -----END PGP SIGNATURE-----
 
---===============4720093928156011794==--
+--===============2914466745536815346==--
