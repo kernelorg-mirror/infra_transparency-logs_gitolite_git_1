@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 08 Dec 2020 21:00:19 -0000
-Message-Id: <160746121955.28550.13241465119401790181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 08 Dec 2020 21:04:49 -0000
+Message-Id: <160746148956.30061.14901009710737654227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: cd796ed3345030aa1bb332fe5c793b3dddaf56e7
-    new: 7d8761ba27fcd9c761919beeaaceac06eed3ad74
+  - ref: refs/heads/arm/defconfig
+    old: 4985c506303fb6a41a885d503a6e1f3d3126431d
+    new: acf689134a66cc9c85e571d33b6bd5d72e4078cf
     log: |
-         4bbf439b09c5ac3f8b3e9584fe080375d8d0ad2d fix return values of seq_read_iter()
-         7d8761ba27fcd9c761919beeaaceac06eed3ad74 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+         58d91ac9da06ea1d6da7085e6d273870784e146b parisc: configs: drop unused BACKLIGHT_GENERIC option
+         acf689134a66cc9c85e571d33b6bd5d72e4078cf powerpc/configs: drop unused BACKLIGHT_GENERIC option
          
