@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 08 Dec 2020 20:07:49 -0000
-Message-Id: <160745806914.25648.2730042490894330415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Tue, 08 Dec 2020 20:11:13 -0000
+Message-Id: <160745827326.27956.7478480394114665607@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/psci-relay
-    old: f19f6644a5433cfae8a068445b149bc2247c1445
-    new: 0cc519f85a527e1c5ad5a7f182105fe614e9ff80
+  - ref: refs/heads/next
+    old: e12a393fa5497ed79af9fb00c9f1dc03097a814d
+    new: 94d79b0b3ac15ee5e91740320b2629c6ac1ab95f
     log: |
-         0cc519f85a527e1c5ad5a7f182105fe614e9ff80 KVM: arm64: Fix nVHE boot on VHE systems
+         94d79b0b3ac15ee5e91740320b2629c6ac1ab95f Merge remote-tracking branch 'origin/kvm-arm64/psci-relay' into kvmarm-master/next
          
