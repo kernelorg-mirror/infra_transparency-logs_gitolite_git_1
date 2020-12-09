@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7598063998184013706=="
+Content-Type: multipart/mixed; boundary="===============1285750935075789709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 09 Dec 2020 14:38:54 -0000
-Message-Id: <160752473482.30023.16236040175023603465@gitolite.kernel.org>
+Date: Wed, 09 Dec 2020 14:40:26 -0000
+Message-Id: <160752482638.31807.15663563367692843532@gitolite.kernel.org>
 
---===============7598063998184013706==
+--===============1285750935075789709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 54bf54c859ec1e7c9c3152a2ec53c5fe4078eb1f
-    new: d1b928ee1cfa965a3327bbaa59bfa005d97fa0fe
+    old: d1b928ee1cfa965a3327bbaa59bfa005d97fa0fe
+    new: 0f966cba95c78029f491b433ea95ff38f414a761
     log: |
-         d1b928ee1cfa965a3327bbaa59bfa005d97fa0fe speakup: fix uninitialized flush_lock
+         0f966cba95c78029f491b433ea95ff38f414a761 binder: add flag to clear buffer on txn complete
          
 
---===============7598063998184013706==
+--===============1285750935075789709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607524806 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607524897 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1607524726-7cc492a2d351090bc64392f482677e73b0702a53
+nonce 1607524817-89dd6af8312cf42843bc35f169c95490ba30be88
 
-54bf54c859ec1e7c9c3152a2ec53c5fe4078eb1f d1b928ee1cfa965a3327bbaa59bfa005d97fa0fe refs/heads/char-misc-testing
+d1b928ee1cfa965a3327bbaa59bfa005d97fa0fe 0f966cba95c78029f491b433ea95ff38f414a761 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Q4cYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tBgQALUvsYoxjRAObGRz8TLl
-xdIN54chcK+ace+v5Pami2/m0yOg0yOQHJ0EFXkdG/MxGxhs3VXk9Jwn8Vd43kRn
-oPJoX36V3uQV8nNDJ6Nje5btZ/PezR2kNK+2oOo/5Z4ErThCakHen3zCVC6m7xxu
-UsIAYYy8KZyVubSQsKK/O3u5ZekVH8t0GLNDocwMnJ2Wuc2gIEHBsJUswt+J7gNU
-Cifeu9b8Cdqwzkyx8AlRVulkFPDUAmZuJrSbUCOTpBfFmDGp4jajn1vUGQn22HFC
-cBW0mz2ALH71sjFq+G2/wPHpstfHi5xOBW1Lk+Q0gx+MY9vMTO1G6jdmn55EBy5q
-N4f655IQ8q3sUe3wauhB7p6hfdGBq0EquNBsHbEYE36Lv8rE/4nRuQWPkUSU5WY2
-n0R2pVy0jeGMxf2dn+EYcYa5EjXAFwmrL8/RugJK8pJGdLDJkG+XteScrNYPH0Od
-rZPoB2A0tDHNLl6JJFQyOojrctJuANs58ObV+aphQjZsm/qKs/uHZWO4Apy9Rjl3
-TA+xYhH50tTDNtRGh5yN4+1mi0cER/ZY82J8Z0Hx061o7qb3yYjngA2TdC4lGFGg
-i1NOwSOHiFe/jQnUz+f4pP58tm4XCz2fQwCb4cwDfW/LlhyEDeP6DP7lSJdV1YFg
-loMH0UVmCCkYkB1ERCoxVIPv
-=6FmH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Q4iEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c9gQAKUTHg+MsegNeuSnjzXb
+wR6bsd/djvIYeHv2pD7zgqEaUXBY0fGt/nZGKCHBqlC6K6WoUmTVSuzkBzC71TTD
+JALd+4JtMhm3MSv1Y1w0TfDh9z4NyK4xs93HJexGIMedy+ePf2qFIlG9bKaC1gVA
+BZ+UWmMUeA2lIISwxKiyxlQt7NpfTvqEZRSTnt4EmD+GxA8ShTOGHRQOvU0CecK1
+6MX9E68Ld8QSh06oQD0yBwPBlaMgyOoTtIOfUr2ZxtoTsAMGbTie963FBiwg5vZQ
+rG32nVQm6NcRpQbRFYXi/CA5GYvGgeReTx6qqpwkbPWLJr38Pidj3fgEDlbtmlC0
+jA5AYEaY/XF0Y0ZaELkNzyDce2HK5uEsnuhrvKbhI0cocNVMnmQSLtniYGspuHRh
+T5LHnVpQ8F7U5bJvBx95q+MJXX12iZ/8ds3aGbjbOc7BWVFtB09mpriYHe5de6L5
+IiLmzso49ughyeSdLPuj4f06akP3h1vNc2v3TWEB0y768Mq/lczQS3nNZzqI/vj2
+MmUHq9jV3S+CUSHa5dZlSeLWhuEeRl3af/0doSABcPQpG4qD0frB13bPh/E2kjtU
+yyTOz+SR0Lsw4B1hfYruuwTnHYUSYUl/wvL4cG93J8xhL8Ch5GCuoY+KYtJEqrqT
+XqaOq/55Q1Hz3zE98uesK9B1
+=t3VE
 -----END PGP SIGNATURE-----
 
---===============7598063998184013706==--
+--===============1285750935075789709==--
