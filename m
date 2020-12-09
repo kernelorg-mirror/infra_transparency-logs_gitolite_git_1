@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8462956489049570198=="
+Content-Type: multipart/mixed; boundary="===============7892643070556852758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 09 Dec 2020 17:19:30 -0000
-Message-Id: <160753437013.5291.14755640626227198747@gitolite.kernel.org>
+Date: Wed, 09 Dec 2020 17:19:34 -0000
+Message-Id: <160753437415.5418.2446371257386040907@gitolite.kernel.org>
 
---===============8462956489049570198==
+--===============7892643070556852758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 9ffbb456e5473d5b2bd3b4e84ee248d4661a0f9d
-    new: 85e83cf098c72631792980ad0dc359ca4e825f03
-    log: revlist-9ffbb456e547-85e83cf098c7.txt
+  - ref: refs/heads/5.11/scsi-staging
+    old: b320fa4cb3bfafdd271fe8d531e28d3f5060aaa5
+    new: cb5253198f10a4cd79b7523c581e6173c7d49ddb
+    log: revlist-b320fa4cb3bf-cb5253198f10.txt
 
---===============8462956489049570198==
+--===============7892643070556852758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1607534368 -0500
+pusher 75C5DE3D 1607534372 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1607534368-e422f181f0e65b62e2d1447dd7362b748b4eb2cf
+nonce 1607534372-1f5ab57f2e67a7b313f38797778d057c28e8be71
 
-9ffbb456e5473d5b2bd3b4e84ee248d4661a0f9d 85e83cf098c72631792980ad0dc359ca4e825f03 refs/tags/mkp-scsi-staging
+b320fa4cb3bfafdd271fe8d531e28d3f5060aaa5 cb5253198f10a4cd79b7523c581e6173c7d49ddb refs/heads/5.11/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/RByAACgkQ7ulgGnXF
-3j3zxw/7BOg4YfUeBbGSQ/dVjGiQmhYDPSxF8niLGRMu1Tma4PHmvr3mD1xw7W15
-/fWvDxTcg0NIAWMkRuD4vctdEu/Klj/et+ncfPL+8+T9zT1sD/bUZXEGVfAUngI4
-23STFHc01KENIQxt2I1gqatcUTSPNUUj+1MwkT5dN6OVUgb5sD/TFJ+V85Jdzcpv
-fd6S/pjaRLR1p+fQHWu/xZ+OcjOGbI5BTKgxq+E+XPne17ueKlldjm52SuTafv+d
-pqLQvOW4l6bUlyOoATnuBIN2ikJwM2rhoy0RP3u25z5Nk2zWWCRhG8mz9nYv+6kN
-N7V45hXbzX0aC8se+oAK71dHcvpExxTBvKScvngFvvrB9vYFIzJDy+KYfxuyriGV
-8/q5u30OCe8Femy2IiNZfKGG2lVt/eBBJG5TCVHKTgYgkvTKDNDZbzq5Xj0s1Xtx
-nrfRz4UToDcbyvFWm4IJmapRjEiu/4/kRMW7Pwl5qMXI6JF+lyARfo3c1g1FVJoT
-kgrcHtMfB00UqzzgH7TArsYlqgBqOniCu55rbAj+SK1bR6QT7j5T5CBNedprZjsz
-BDmVYaU3ClnCyWHSSsGYPhOlQcebMz3nJGX26I1T4207C68VXk7rd86h9LOXl7KI
-I/tyO8w3eXEgZ6af3kHUV5tEjEv2vi57lnA89S4qR2VRWOiVCss=
-=xPge
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/RByQACgkQ7ulgGnXF
+3j2VEg//Wxw1NvelJi3qQ04QfDBoO6ZJOHoAGLIkpSGyfQKb1D3NbLHcc54Fp1E2
+Wlm5xmhgmus9+/CASCp8aGzZnUiesIUra7NhFoZ2BM6laVrGNgivmRFze8GDt0VK
+oSsCBnno8BFMTLBk5Ze7AprwMD2u7v4iYjNtz64F4+oqpmDb23kyPnmwUBEvoDuG
+uSbqT5DI7VI8y/KVuWMU/I2DIw/zrXstVLDaqT2wR3dauMV7/AVR2xpXHnJ2Rded
+HmIvp/uNZz381xoJbxFQoh2yNO+XydZ1GyJKwq8RK85j5AhHmrVRUDAmZaSq3XxS
+1PRXm+PeBkLRC0fjqYYw2WmVWgM6t2Yeaao45b0zz8YiPSKM5wXPqvHlbl4+fCZm
+bMsLTYB5M93YGaUDH4fXq/xkXMP+J9JRsPZnZaioVWlpt9Wichp9FDYiSP3SBMYD
+I36swn+QdDEy3xXtOOdLKsWYkvIqfGuuEN7agok/nrUXlgR0jitd3Ay6W9gRcabf
+r3wnGF+CZ8gGgjpZDh7OPIvcyVia4RhVGUtesCbqkkYld7jDVYC9h2OxIRBgezj4
+VFsLxIXGiACjH5vc5x6GcXsEZCew04Q/CjtV0qFm+wuMSXVaQdVMAJPogRDc40V/
+WJ96O0PahgfHbWcDuBhaWzC3TlaWAcTgHaIlNcqWDvvCfs3z+4k=
+=Il92
 -----END PGP SIGNATURE-----
 
---===============8462956489049570198==
+--===============7892643070556852758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ffbb456e547-85e83cf098c7.txt
+Content-Disposition: attachment; filename=revlist-b320fa4cb3bf-cb5253198f10.txt
 
 3a5b9fa2cc5fc0ddd86f03e28947e8b410622148 scsi: qla4xxx: Remove redundant assignment to variable rval
 305c16ce2632dca5056d7a1839c27f49c603f7f8 scsi: qla2xxx: Return EBUSY on fcport deletion
@@ -103,4 +103,4 @@ bd14bf0e4a084514aa62d24d2109e0f09a93822f scsi: ufs: Re-enable WriteBooster after
 31a5d9cafff163473abf9496318b6a53022d48f7 scsi: ufs: Un-inline ufshcd_vops_device_reset function
 cb5253198f10a4cd79b7523c581e6173c7d49ddb scsi: cxgb4i: Fix TLS dependency
 
---===============8462956489049570198==--
+--===============7892643070556852758==--
