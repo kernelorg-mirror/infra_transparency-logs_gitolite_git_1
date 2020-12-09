@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9196205128325285640=="
+Content-Type: multipart/mixed; boundary="===============9124776853293691672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 09 Dec 2020 17:19:42 -0000
-Message-Id: <160753438257.5656.17757277583688368892@gitolite.kernel.org>
+Date: Wed, 09 Dec 2020 17:22:30 -0000
+Message-Id: <160753455059.7858.14741462525340558575@gitolite.kernel.org>
 
---===============9196205128325285640==
+--===============9124776853293691672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,66 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: b320fa4cb3bfafdd271fe8d531e28d3f5060aaa5
-    new: cb5253198f10a4cd79b7523c581e6173c7d49ddb
-    log: revlist-b320fa4cb3bf-cb5253198f10.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 1eba51cea7df5a87df836616ce6d63cf5e56edc0
+    new: 5b830bac91c3d4f582c60fc9e77acaa6f26e1b70
+    log: revlist-1eba51cea7df-5b830bac91c3.txt
 
---===============9196205128325285640==
+--===============9124776853293691672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1607534381 -0500
+pusher 75C5DE3D 1607534549 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1607534380-9e1c17ad59451647a6ee1b659233dfc8e37376f9
+nonce 1607534548-cf99b1df9c13eed017f77d09c66b37ad650282f9
 
-b320fa4cb3bfafdd271fe8d531e28d3f5060aaa5 cb5253198f10a4cd79b7523c581e6173c7d49ddb refs/heads/for-next
+1eba51cea7df5a87df836616ce6d63cf5e56edc0 5b830bac91c3d4f582c60fc9e77acaa6f26e1b70 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/RBy0ACgkQ7ulgGnXF
-3j3GBxAAiLmW+J/NqCOaEoRb85QCS5OSGJ3TOUdWculdM8mpF62l6EBvT6Bl+0EW
-Dls5hBIHNY7kofD2rJH9J8pdni93byqYbVARhFO6JdKWmpABSyWSRMHcEkWPgVYz
-d+YIQzWM/cffUhY/e9cx4M88oilK8JreKMTDZbzlCt5WuJTATwSOU6hgybdGU/5Y
-SP/NG9Y0fJtt/qR6G4Q9nEKXAIiQMLblF4dkln0U3B05S8AncwKFugYAfeoEHq0C
-82eK1hE1oUftlqJi8sKr2J3Z4Z7u8ynvKR1zu/6IswNu9N3W/Sl3dFK7xKjsRwoS
-Z9x3l7YZv/mURujMYytLsVoudTGZ004ibaNM/I7o44YuEnejidWdGxujxtjfmxCo
-oIlu5GnlL7WkuISlJNZOj6gvTCFm2jmtB3UdbHByphjgnR3ivrX6NbOPADr9VK18
-bpnO+8zOQADUJDnq0ubXMy26MisN3smV0KUQPZKhiooIWXrJ8uiJkfMzqW1wM8Y9
-oNsm473HSmoxtKJEuRmKUkXpfu+WL8ZHqiL275DJVfDsE06Q03k0KPhH+gEbuabe
-+qlQkuBu1x2Nv81PwtNqpirJoCzui+hMLGBRvargWtosTEI3mXHMnKilkiJ6BguP
-S9wMlfUVY1nHxHh88iXW1KfPlEihDOMnydTQAyzr/aMfojiZxeM=
-=D+xR
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/RB9UACgkQ7ulgGnXF
+3j3vrQ//XHBk393+5I2sqxjSJZ/tIbPuRkvVLzD6xsIqWYJC1z6eby5Zu200IkE+
+yKcRhPxyWQkjJDQdyLmEOXFeOtfL6NQrwKOkINNZv5aMYaTohgi1t7uvyplT4JYx
+0Ha4cOcDQGz0KwlvShO4KLpdFnR8WYlwpWs9+jdZP1pX8mEHrRugvEaUH7ctbjWr
+3NiS/Wm6FZLqj8ebcGoxO0z3J7A36mYxpJOBEboFLWcRA8Bdc9JX6sfijh8fMaRP
+EtYUAy1RPVXZRDk84x6Ielw2rtbNsuPOMHS9eKYw/3gcXCxsQaNY8ihaSCMvQIwn
+dtegit+p3+MRF8PJvXtKtVm9Kwkpo5oX4IhpvcHF7yNb11SS6WfMTRgM0oR2It29
+QzO5F2Tirq3LLxMBR0KNLbKFXJTdv2nzsin5KHSnMDMbJVe/KSBJbTy1QdWuteWU
+RQ/HOMzyzoTv/12FmbBnZquACsBnMwCPo5lOzcm4xrBBcKzlp3mNFZJFMCesT8Xo
+5R0KDQNdniSXnsmTtivDG8tyZnz9KEoxr5Lj9MvovTQd+jxfkYUvto08P8wK4kzH
+ZRHDBlRvv7/7LKVy7Wuq9J4wQMxbtwgxn3EhvXcJrgy2/aL8uoMFwSEBFw4RFtba
+lm7kF/q2jSq9jdG7U3ReekeyqTQoIDwYltEVk6XVPLlQnmsPzsE=
+=OmZE
 -----END PGP SIGNATURE-----
 
---===============9196205128325285640==
+--===============9124776853293691672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b320fa4cb3bf-cb5253198f10.txt
+Content-Disposition: attachment; filename=revlist-1eba51cea7df-5b830bac91c3.txt
 
+62eebd5247c4e4ce08826ad5995cf4dd7ce919dd scsi: qedi: Fix missing destroy_workqueue() on error in __qedi_probe
+97031ccffa4f62728602bfea8439dd045cd3aeb2 scsi: pm80xx: Fix error return in pm8001_pci_probe()
+6dc1c7ab6f047f45b62986ffebc5324e86ed5f5a scsi: iscsi: Fix inappropriate use of put_device()
+eb3d2611df2e37a5455818b72af3892f1209346b scsi: ufs: Add error history for abort event in UFS Device W-LUN
+e965e5e00b23c47b7a9834436972aa37c5baa708 scsi: ufs: Refine error history functions
+172614a9d0e861f8ad0e3165dd1d02bc63adaa1b scsi: ufs: Introduce event_notify variant function
+ca1bb061d64499d8aa08b0987643928a924c30bc scsi: ufs-mediatek: Introduce event_notify implementation
+ade921a891de4c32ca31f5db95c2239ffb2b791d scsi: ufs: Remove unused setup_regulators variant function
+92bcebe4b6d652e98ca2667e8e43c3d0a08f6afc scsi: ufs: Introduce phy_initialization helper
+885445736bc099430c0529eb85cd9cc8d12f4848 scsi: ufs-cdns: Use phy_initialization helper
+ab98105484fc83dfaafc2d6f6411cd4e2b39423d scsi: ufs-dwc: Use phy_initialization helper
+5b44a07b6bb2c26905b16deb479e9ba4e5605e97 scsi: ufs: Remove pre-defined initial voltage values of device power
+88a92d6ae4fe09b2b27781178c5c9432d27b1ffb scsi: ufs: Serialize eh_work with system PM events and async scan
+7a7e66c65d4148fc3f23b058405bc9f102414fcb scsi: ufs: Fix a race condition between ufshcd_abort() and eh_work()
+ace3804b69afa39d9445544843506eca59f3b4b2 scsi: ufs: Print host regs in IRQ handler when AH8 error happens
+8ca1a40b9f9defe7981ed9558b856a012e51b842 scsi: ufs: Adjust ufshcd_hold() during sending attribute requests
+e7734ef14ead1fd78dc28be3de7ab13128b5c315 scsi: NCR5380: Remove context check
+4c60244dc37262023d24b167e245055c06bc0b77 scsi: ufs: Fix -Wsometimes-uninitialized warning
+d4fc94fe65578738ded138e9fce043db6bfc3241 scsi: fnic: Fix error return code in fnic_probe()
+8f525bc2a7b296cf24cfa7e5186bc32dd8e766aa scsi: qla2xxx: Remove trailing semicolon in macro definition
 3a5b9fa2cc5fc0ddd86f03e28947e8b410622148 scsi: qla4xxx: Remove redundant assignment to variable rval
 305c16ce2632dca5056d7a1839c27f49c603f7f8 scsi: qla2xxx: Return EBUSY on fcport deletion
 c1599657d48ca65861408f9264e12c050ac9626b scsi: qla2xxx: Change post del message from debug level to log level
@@ -80,27 +100,5 @@ bb855f2a5d7eb8f270eb30fda9b2b87cd682212c scsi: mpt3sas: Add persistent Master tr
 0e17a87c5950b91aa5ed11ba569b46dea13b1e0d scsi: mpt3sas: Add persistent MPI trigger page
 9b271c69128b46e2735df732819c5a5b1f4252af scsi: mpt3sas: Handle trigger page after firmware update
 be1b500212541a70006887bae558ff834d7365d0 scsi: mpt3sas: Update driver version to 36.100.00.00
-44fd9fb599d3d2be4c6838f4b11eaa459bb33989 scsi: ufs: Remove unused macro definition POWER_DESC_MAX_SIZE
-1fa0570002e3f66db9b58c32c60de4183b857a19 scsi: ufs: Fix wrong print message in dev_err()
-1918651f2d7e8d58c9b7c49755c61e41ed655009 scsi: ufs: Clear UAC for RPMB after ufshcd resets
-f8162ac70ecf5a3ed638f96dc10e0e19b523ec7f scsi: ufs: Allow regulators being always-on
-b3f3d31a528f78d9903253a23a5e5c6bf5280f40 scsi: ufs-mediatek: Keep VCC always-on for specific devices
-c763729a10e538d997744317cf4a1c4f25266066 scsi: ufs-pci: Fix restore from S4 for Intel controllers
-af423534d2de86cd0db729a5ac41f056ca8717de scsi: ufs-pci: Ensure UFS device is in PowerDown mode for suspend-to-disk ->poweroff()
-044d5bda7117891d6d0d56f2f807b7b11e120abd scsi: ufs-pci: Fix recovery from hibernate exit errors for Intel controllers
-dd78bdb6f810bdcb173b42379af558c676c8e0aa scsi: ufs-pci: Enable UFSHCD_CAP_RPM_AUTOSUSPEND for Intel controllers
-fa4d0f1992a96f6d7c988ef423e3127e613f6ac9 scsi: block: Fix a race in the runtime power management code
-0854bcdcdec26aecdc92c303816f349ee1fba2bc scsi: block: Introduce BLK_MQ_REQ_PM
-96d86e6a80a3ab9aff81d12f9f1f2a0da2917d38 scsi: ide: Do not set the RQF_PREEMPT flag for sense requests
-5ae65383fc7633e0247c31b0c8bf0e6ea63b95a3 scsi: ide: Mark power management requests with RQF_PM instead of RQF_PREEMPT
-cfefd9f8240a7b9fdd96fcd54cb029870b6d8d88 scsi: scsi_transport_spi: Set RQF_PM for domain validation commands
-e6044f714b256259df9611ff49af433e5411c5c8 scsi: core: Only process PM requests if rpm_status != RPM_ACTIVE
-a4d34da715e3cb7e0741fe603dcd511bed067e00 scsi: block: Remove RQF_PREEMPT and BLK_MQ_REQ_PREEMPT
-52abca64fd9410ea6c9a3a74eab25663b403d7da scsi: block: Do not accept any requests while suspended
-8b3c8035297e71abb9e6d0f50ceab50d33c0d64b scsi: mpt3sas: Signedness bug in _base_get_diag_triggers()
-5213dc7940e0aa4c094413e015790c4a310ef36c scsi: ufs-mediatek: Use correct path to fix compile error
-bd14bf0e4a084514aa62d24d2109e0f09a93822f scsi: ufs: Re-enable WriteBooster after device reset
-31a5d9cafff163473abf9496318b6a53022d48f7 scsi: ufs: Un-inline ufshcd_vops_device_reset function
-cb5253198f10a4cd79b7523c581e6173c7d49ddb scsi: cxgb4i: Fix TLS dependency
 
---===============9196205128325285640==--
+--===============9124776853293691672==--
