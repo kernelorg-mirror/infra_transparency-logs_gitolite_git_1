@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7348150936345127547=="
+Content-Type: multipart/mixed; boundary="===============3315802337335917914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 09 Dec 2020 18:45:43 -0000
-Message-Id: <160753954329.30751.128638865237993376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 09 Dec 2020 18:47:20 -0000
+Message-Id: <160753964075.31351.7037782410889667793@gitolite.kernel.org>
 
---===============7348150936345127547==
+--===============3315802337335917914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 9c30921fe7994907e0b3e0637b2c8c0fc4b5171f
-    new: 0b81144a4ac20f0757b7c965d2fa57de367c7db5
+  - ref: refs/heads/tty-testing
+    old: 2f70e49ed860020f5abae4f7015018ebc10e1f0e
+    new: 603012f78a3f5cb2e7f529b8e318321117a9cf7c
     log: |
-         0b81144a4ac20f0757b7c965d2fa57de367c7db5 soc: fix comment for freeing soc_dev_attr
+         fa26b3263fd5f58a7f0cd7b3c6cea75ce714f87b tty: Fix whitespace inconsistencies in vt_io_ioctl
+         603012f78a3f5cb2e7f529b8e318321117a9cf7c serial: imx: Remove unneeded of_device_get_match_data() NULL check
          
 
---===============7348150936345127547==
+--===============3315802337335917914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607539614 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1607539534-d5557fcb92125f9ecc8d1ed3f114af08f139b7f7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607539711 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1607539631-3c8e624157ef9558bbc1c2c481a2033fd37a791c
 
-9c30921fe7994907e0b3e0637b2c8c0fc4b5171f 0b81144a4ac20f0757b7c965d2fa57de367c7db5 refs/heads/driver-core-testing
+2f70e49ed860020f5abae4f7015018ebc10e1f0e 603012f78a3f5cb2e7f529b8e318321117a9cf7c refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/RG54bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WWIP/26tssANv9c6bi+/QvuL
-O5+GmbA49pij4/CAou4bBytPcQMzhYfKQbk1XpQxuZKRJRI+ST4pO3UFljZEfy6b
-cT6aHyhjZ/ydL+/KNrKIR8ZK8vpr4Imw8IxaXcE7pjITpOc8hQcs2YrNSVyiNvQx
-KDpKV14txCGPx8GjFNaZ/UMFDP9hvre0zdp7EjHm00IzJyzHRCQtNMGsyIqAl1n3
-dq1pL8qNLs5zyYxnqIhvFmizps6wBspQA8SxBTH6CcBajHb+GcqIceAcup3G29zy
-fXzNZWyCt/xbafo31HAGmvmTDcyGrEbpLiNyJOWxqxbkYvqdxET2/4IUZdFiKAgs
-6cnxjMwkWCTt7jT2OzyuIF856Nv+z4DJL/R5RZwnO2zQ4c/wMKjO0/ut6KB8VuWA
-+F8d+qa9e9pSvBPwviAAUL9TbArETakAx4e3HLTTKng3AH8kxhnhxKsK8OuTjwYK
-0ntIbkVn+iUk5eravEYtv2KNstrWpFQUVR+I/BKlK60hwQes8fFt4xs63cnMTmHn
-0qIW3OnCWpmG7Pchj6c6CFK7gkjp7M0Mr5jWQMx0QaZTPHAO7Csfl4b/S7z8uuRU
-fgTmiXKH9hsK/sXTj/Ez879lpz8+rHzBHbhfOEJq03V0k7MqzkOz2wBtawLe9ZSA
-0SjYoLh+8op8eDKHnS2WSLFl
-=8+kJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/RG/8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iKsQAK3Tg9/QJoi0LTrid9sT
+NIw04tqZKLKvbVCeRC2sElol0o0HA5Fcm/eGkFEiMW+M0+plGs/aNad/SdlMqtfd
+sZZG7NpYx1YdONpiJlyaF9xMbww2vtPaEaecGqztDmBQ/8yJAe1PNleFge8p/7MB
+++KB0cvH+Ww7yJ1JFcJtRQNrLDvWnSaf9/4yO4w4b38FDBuL3AnQGx24MPDK3raV
+/TinQT3V0yaYdnaGVialsJ/fKQKNjXOWuqAEYxHxR2iupvgFwme9nSLj099PdRZw
+hiW6oA6CdA7JLTqJluZka4fByXgD7bzPCCbjaKCcs7WtiRBSofmjoqoJqBw9swQc
+gCMfF07Jd+ffn72fmHvQaIyI5wukzAWUqjMfS94ERJjNSt+GiSpyp6bQxmqy09Uu
+qsgk2QUTSA1u9zhFJMTfD7si/TWDPBLSbWOIwcJ1rkRLmP0zJJhZtICBgvjLcxSl
+oOpeaCL6j6pRwlxuBhXPuo2NNkqR43rOghwtucGR85jzhQAaLcoZoQYfxzIlLLz9
+eEkSFfb0SLMjMmGeeBgKoJN9GqpOwIDgLLDEWbjXtEB8X2IPO0CwnZlDL/WoyYTM
+g/yPL1rk4cpXHmi7lbcjyUwcR+Oeq8P3T/Zmao7crQ2BypUEDG3Nsv938WKZDIse
+GSTYxN83E/ZZxS0y2PxyTdxO
+=I3aB
 -----END PGP SIGNATURE-----
 
---===============7348150936345127547==--
+--===============3315802337335917914==--
