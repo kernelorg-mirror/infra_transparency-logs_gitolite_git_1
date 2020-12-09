@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 09 Dec 2020 00:28:23 -0000
-Message-Id: <160747370365.30243.5300646474573688964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 09 Dec 2020 00:29:49 -0000
+Message-Id: <160747378994.31018.5279458839191314860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: cc6596fc7295e9dcd78156ed42f9f8e1221f7530
-    new: 72d05c00d7ecda85df29abd046da7e41cc071c17
+  - ref: refs/heads/experimental
+    old: 4cfd6601941b4923979f7ad96af03089c373eecc
+    new: f232f30163773f21ffd1c6b1bd02ccf10fae6cd4
     log: |
-         72d05c00d7ecda85df29abd046da7e41cc071c17 tcp: select sane initial rcvq_space.space for big MSS
+         f232f30163773f21ffd1c6b1bd02ccf10fae6cd4 erofs-utils: fix multiple definition of `sbi'
          
