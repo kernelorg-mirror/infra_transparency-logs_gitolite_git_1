@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 09 Dec 2020 23:55:16 -0000
-Message-Id: <160755811622.663.6597348148190951786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Wed, 09 Dec 2020 23:56:17 -0000
+Message-Id: <160755817723.1156.8186676023925950453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/master
-    old: a379b01cd4b2aa3f12786b281a714871574e5ccb
-    new: a770bf515613c6e12ae904c3593e26016de99448
+  - ref: refs/heads/mediatek-drm-decouple-sub-driver
+    old: 01742c252181ef443e1f3fa3cce22e351eaa0c10
+    new: fe940928dde33ebc4f0853221cd9629ffa344271
     log: |
-         a770bf515613c6e12ae904c3593e26016de99448 ethtool: fix stack overflow in ethnl_parse_bitset()
+         3cd5af8b646e7a143af06fd013e6e73d36712a7a drm/mediatek: Register vblank callback function
+         2c41a8d6169eaa9cda9de991891fe2d439d483cf drm/mediatek: DRM driver directly refer to sub driver's function
+         fe940928dde33ebc4f0853221cd9629ffa344271 drm/mediatek: Move mtk_ddp_comp_init() from sub driver to DRM driver
          
