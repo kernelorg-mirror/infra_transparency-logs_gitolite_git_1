@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0728064894247167180=="
+Content-Type: multipart/mixed; boundary="===============5724561903605401237=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 09 Dec 2020 18:52:10 -0000
-Message-Id: <160753993099.2058.8972163652139279036@gitolite.kernel.org>
+Date: Wed, 09 Dec 2020 18:56:40 -0000
+Message-Id: <160754020048.4645.3505949352785243630@gitolite.kernel.org>
 
---===============0728064894247167180==
+--===============5724561903605401237==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: dfd7f2c1c532efaeff6084970bb60ec2f2e44191
-    new: b4f473cf4605e063f1250c6c7c37140cdd162353
+    old: b4f473cf4605e063f1250c6c7c37140cdd162353
+    new: 4849e0eda387931fe251fe956cbfddeee852dacf
     log: |
-         b4f473cf4605e063f1250c6c7c37140cdd162353 altera-stapl: remove the unreached switch case
+         81113b0421a5199a1f425beaef7dad0d7c16a891 slimbus: qcom-ngd-ctrl: fix SSR dependencies
+         68d621197162eb503d32676452e7281e3fb6c8cc uio: pruss: use devm_clk_get() for clk init
+         4849e0eda387931fe251fe956cbfddeee852dacf uio/uio_pci_generic: remove unneeded pci_set_drvdata()
          
 
---===============0728064894247167180==
+--===============5724561903605401237==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607540001 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607540271 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1607539922-adf735376f78937100178d620e0830e80e39a604
+nonce 1607540192-6cab1046198a739a529fef6fb253ceda7c8a8083
 
-dfd7f2c1c532efaeff6084970bb60ec2f2e44191 b4f473cf4605e063f1250c6c7c37140cdd162353 refs/heads/char-misc-testing
+b4f473cf4605e063f1250c6c7c37140cdd162353 4849e0eda387931fe251fe956cbfddeee852dacf refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/RHSEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+drEP/22rLHH9eA14poczqIVT
-VfrMube0B1fXuoG8vmZQ3ds8GlWqP1IWYWpDiY7TDRl73EEq9APmSDpoA1qADwQ+
-ZTiXhlNBtOS4B22HlQTNgsRECYqqD/bOyyeOcDObb2PcW/5VX27CVh/Qe10aDd7I
-ajsGUh1gqRRRzerlM63e9DIC9QMELT1nakmgQf+z16UXF8VW4V++hHx52BClGLB3
-XCWiCfRpLDxqv7pXY/5JGaw3z9CCvfejXM/5hxgXtVmUufugKxkdavbfvBZ1zooc
-zdWzDn/XYKL7r0BsR24Tk7TGSCFZzRfvcVYtj980brqVQ7BMykAyl4y9lnUORuGb
-FC4q39JNDHBfpuzNqMnN7iGvhQs2CPTACQdBtrzv4cVzgx8P7FkMUG+ellFgjDWH
-i2OEk+L6AIqXHJL6jCWusvBoE8vThIj/vxgN6L4OuCGziLcs5QVhwJi9DnShe2FD
-EhP3hzFa9GJljg568SSWOWwNQSUOvAqF/Qoi2JStMqpy0UHYt6V0cg4oZNy21MRg
-8rrG5e7IaXfZE+tX5WpCp5ChDJ3TyjqfutjVQOx1R2cd/y2RrABqXqd2QLSFU/NO
-q/VoRJDfeNDwCi80fIYWaoX9TMvfSoVveQkMud3RMlGcFsrBvwyFOKkeCijWD0x1
-TuPmbahNYakTD1qKm5zGwWBZ
-=BssK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/RHi8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0SMP/1IFr7urukUIKx7QU6NH
+qlU1ypcB5wabmbonMWSrhF2q8vbuvDxG8L5EQ4a8XYREQ3h52OSE71SbpYP8UgD1
+GeWqZ9lxAJW8lQM4SfUyefSSRR9r4PC/qQkOKYxjdcsLLLOwTq4wrOvMa4BTuyQZ
+mAy9FsYjHd71Bib24KVS7QCkmdfYXAnMkIXUL8r5eKWv4nkjpwbwx4O2DV2sjjzb
+KEdwrf4iBEqdJzOvpP6GV/AnjAZh2DnC642PA5rtqjAGHeL0zAZtQ27qSuhOQT+Z
++fNKKn0JJbdre1KJ7LXbLNBYRXevaYKUSkja7vbM4tsyucF7ZNdKoOYrTWv2xLFU
+FtUXSF53d5pYGPxBxXBnrGfKrcPAI7iek1F4x/8Oq1sLDe1GLAF6FZ1536tfVzuV
+wrlwVvQePOEzdVyBwJIqRjHiL7URpMNuWlV+pYx83LRW09jqFUl62SWaH83Ab6h7
+6Qqb76gt8J0VStzDyb8vwS5nepS74Ic6R6LqEfjjFyEIM/Ff5oUdHJQctX/G44m2
+yVBYW3K8nZCmizQdDffenBwu4NA94SWNIhYpKdd04rpsu8MnFKmCJwd6FoshPRUE
+vnoqqLZLZcLRU6BAr05rTDQMPcp+rIP3HkqkhpaGY0MWTUAd1QyeXi6rrWEu4VVK
+8Hr/q7uNK5Ry6a23b/9reusL
+=l5PN
 -----END PGP SIGNATURE-----
 
---===============0728064894247167180==--
+--===============5724561903605401237==--
