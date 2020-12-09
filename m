@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 09 Dec 2020 15:02:40 -0000
-Message-Id: <160752616057.14171.9247424914212632812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Wed, 09 Dec 2020 15:08:26 -0000
+Message-Id: <160752650679.17077.4469874192491126402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/for-next
-    old: ac2250ab723c16df4ff9934f736670bf0c12f96b
-    new: 5a7e054ef49cec6cbe1bf287e02eb57ca39a2971
+  - ref: refs/heads/pci/dwc
+    old: 1c6072c7434c9d7a15bf53d1da1217bbc9cfaab3
+    new: 4c9398822106c366d88c8c68ddf44bd371d39961
     log: |
-         5a7e054ef49cec6cbe1bf287e02eb57ca39a2971 ALSA: hda: Fix regressions on clear and reconfig sysfs
-         
-  - ref: refs/heads/master
-    old: b3a9cae3c50bbe9bc387fc10d62db325ae4e09a8
-    new: ce9ac4145bea8405be94bf8833f70d96e0276ec8
-    log: |
-         5a7e054ef49cec6cbe1bf287e02eb57ca39a2971 ALSA: hda: Fix regressions on clear and reconfig sysfs
-         ce9ac4145bea8405be94bf8833f70d96e0276ec8 Merge branch 'for-next'
+         4c9398822106c366d88c8c68ddf44bd371d39961 PCI: qcom: Add support for configuring BDF to SID mapping for SM8250
          
