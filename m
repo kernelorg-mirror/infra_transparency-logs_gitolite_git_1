@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0141669777209810716=="
+Content-Type: multipart/mixed; boundary="===============1229542429648195825=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 09 Dec 2020 17:50:23 -0000
-Message-Id: <160753622399.26385.11718259896415338927@gitolite.kernel.org>
+Date: Wed, 09 Dec 2020 17:51:41 -0000
+Message-Id: <160753630121.26860.16536505471162171124@gitolite.kernel.org>
 
---===============0141669777209810716==
+--===============1229542429648195825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/whatamess
     old: 99263b0b4a242a691c31e7cd0ab7cffef23524b7
     new: 207ddc0ef4f413ab1f4e0c1fcab2226425dec293
     log: revlist-99263b0b4a24-207ddc0ef4f4.txt
-  - ref: refs/heads/xfs-5.11-merge
-    old: 99263b0b4a242a691c31e7cd0ab7cffef23524b7
-    new: 207ddc0ef4f413ab1f4e0c1fcab2226425dec293
-    log: revlist-99263b0b4a24-207ddc0ef4f4.txt
-  - ref: refs/tags/xfs-5.11-merge-2
-    old: 0000000000000000000000000000000000000000
-    new: ba995b0804c0bd5d147aba19c7d303caa02db5b2
 
---===============0141669777209810716==
+--===============1229542429648195825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +57,4 @@ afbd914776db9c035dbe2afa6badb9955ae52492 xfs: remove the unused XFS_B_FSB_OFFSET
 a5336d6bb2d02d0e9d4d3c8be04b80b8b68d56c8 xfs: fix the forward progress assertion in xfs_iwalk_run_callbacks
 207ddc0ef4f413ab1f4e0c1fcab2226425dec293 xfs: don't catch dax+reflink inodes as corruption in verifier
 
---===============0141669777209810716==--
+--===============1229542429648195825==--
