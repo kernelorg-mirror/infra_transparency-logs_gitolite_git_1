@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 09 Dec 2020 09:06:48 -0000
-Message-Id: <160750480894.9009.10251098565416723758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jeyu/linux
+Date: Wed, 09 Dec 2020 09:07:57 -0000
+Message-Id: <160750487757.9385.13445799011477418040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/jeyu/linux
+user: jeyu
 changes:
-  - ref: refs/heads/master-pending
-    old: 8041f4702f07f67d66fecca19f0e0a3c900eb799
-    new: 7f93378ab0f84bc733803a42b4d452c78d2b29f3
+  - ref: refs/heads/modules-next
+    old: 2d26c716fc49f41a63e1efe8f1f772b0adeaacef
+    new: 38dc717e97153e46375ee21797aa54777e5498f3
     log: |
-         b15c41a4ba75f198d440fa33c6a005c0c81ec029 ath10k: prevent deinitializing NAPI twice
-         7f93378ab0f84bc733803a42b4d452c78d2b29f3 Merge branch 'pending' into master-pending
-         
-  - ref: refs/heads/pending
-    old: 30e73f71a8ae65ae97944807ae6bb08b4075d69d
-    new: b15c41a4ba75f198d440fa33c6a005c0c81ec029
-    log: |
-         b15c41a4ba75f198d440fa33c6a005c0c81ec029 ath10k: prevent deinitializing NAPI twice
+         38dc717e97153e46375ee21797aa54777e5498f3 module: delay kobject uevent until after module init call
          
