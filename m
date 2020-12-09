@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3771685644279734826=="
+Content-Type: multipart/mixed; boundary="===============6285398450975961137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 09 Dec 2020 13:36:51 -0000
-Message-Id: <160752101143.20186.11002087603007996898@gitolite.kernel.org>
+Date: Wed, 09 Dec 2020 13:41:53 -0000
+Message-Id: <160752131395.22934.1894966673361832799@gitolite.kernel.org>
 
---===============3771685644279734826==
+--===============6285398450975961137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: d6ff32478d7e95d6ca199b5c852710d6964d5811
-    new: 3a288efb08543b1368f8d49342e5943f1adf58ea
+    old: 3a288efb08543b1368f8d49342e5943f1adf58ea
+    new: e4a9378083c57a22624cda8b780ff5f5da4de7ef
     log: |
-         3a288efb08543b1368f8d49342e5943f1adf58ea usb: typec: intel_pmc_mux: Use correct response message bits
+         e4a9378083c57a22624cda8b780ff5f5da4de7ef usb: typec: tcpm: Pass down negotiated rev to update retry count
          
 
---===============3771685644279734826==
+--===============6285398450975961137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607521082 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607521384 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1607521003-cdaff180d96895570e46394f1a3801aa2a5a1342
+nonce 1607521303-a644595d038248f9271468e20aca06d875cc2a5c
 
-d6ff32478d7e95d6ca199b5c852710d6964d5811 3a288efb08543b1368f8d49342e5943f1adf58ea refs/heads/usb-testing
+3a288efb08543b1368f8d49342e5943f1adf58ea e4a9378083c57a22624cda8b780ff5f5da4de7ef refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Q0zobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BzcQAJqNK0nvHPuugTIlveVc
-2iuMGYoStCu/SdE2CE0IGVSz+sc3hWQLnm/G96JPgOlZZwM6zhq+/nxCqXM45dq6
-x6GIzxXCg13+ufEuokqluRweqfc6n2Ba4wd9R416KzH/7F2qXzq0GWS+d+CKm/yA
-oDgwrykKaK1l0/LmwgtNx8d/5xVJFGh1NZQnU7J0TEj9sRAh1P1Z2oPnOapxSnma
-JKwyDL/sKqSq3G0O1+Uec+V2VKdD0k8xsWkp6sc5Yua0G9Ab1DUFGbwsVZnWbc+E
-6+0fTKFMQzd70GbdyUQeQOpfhzE0Mgqd6/duY55W5N5mAdGGoesS/3rTMPfyFuNB
-pD2rb2zFkjYkEimFZSR/fhZDh6pzLZnFpGhzIYA1/VxOL5PdP6wNnx/FSWUB9R/l
-rXvCTyDxeDM/WE9yPs3ZPp+gTkclgMlqzuSEOHGQpacIp+1jzWOCXLhThoRVoJ/A
-ivTnbe7L9HEjfNAuRUB34LkE1drA/OtieUEhat3weCuhxKv4t05d8hbfcb0b9vBo
-pvwYKvs+T56hpa8dGlGIK0uwQszEHx85EsdUDP0ipIEKg/bMHigaQS1AjWJ5FgbT
-N8amFUcIXev4hu+qRgCt0mg709fSPCORaEYrsx4Z8xt+MtaqhKLSH+kn0lQtKz/y
-jcVGKSrYjeimYKkEwTXBTyMf
-=1b6B
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Q1GgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bCMP/2buzLDea8Veoonazl7b
+i2c4HFyqTSc8AGwpwnjgGh7O0qZktOpcz5bS6cQAjKdDNdzzi7mxks5CpGblQCPP
+DCcCqh7DDmFuHBlfD32dtzflYUmZmXeUkAzGHzq4JA7CTcXcHWKf2ptrLj3dE4O0
+j0nEpjlmrHmOAPKrTKQdwFwoHx/FnQaUXBk2Vsk/azrhFUV7eiR0U9wmlBplyQ/h
+aM0yz1MXoDOVf3aamT22pJDc07p2tPtKcaqotObnVGGpC3x+nZagKSR52xCFKp5p
+25yubxuxeYwuAYVuH0aB4I9UrDPdYRWtuTbs6Itj8Lhsb+Xq8/++d+kJA2rS8oFH
+WubgW+ki2T4OaiQb+7/s5IwxcniO747zZ5sSQy/1giP6xr8/taxL+rLyxYYU/4ER
+bGCYgt8Z7nKoPixyXordDcgHFSPd/9V+ijFYW3o0wvOK8BxZilXZCbThpmXSiRgB
+wO0dhYOQdpzheuSgbifCsH9PQXnQggFLiq2gHZ7RlE/YqWRmi2+cOVslYZenGShJ
+3Gf4OZOgVnFDVFivjR4JjH7aOC3z9p2uIfhbAeFYPQNxyggFyHjgaZDz+rBh2Hv2
+hFymekYB1wUEwUpMDsO4KfeyuVM+D8IH7Ums8crrue9o8troytACHW4J070yvKQJ
+qKGuCvYDFAsyB6bTyUqW4sam
+=5ctb
 -----END PGP SIGNATURE-----
 
---===============3771685644279734826==--
+--===============6285398450975961137==--
