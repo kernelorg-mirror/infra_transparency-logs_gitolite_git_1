@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 09 Dec 2020 14:52:11 -0000
-Message-Id: <160752553155.5976.11800430060393983971@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Wed, 09 Dec 2020 14:59:42 -0000
+Message-Id: <160752598255.9543.3407091106953941341@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: luca
 changes:
-  - ref: refs/heads/mediatek-drm-decouple-sub-driver
-    old: dfb8f171babd2e9f3b38359e7547169f6ccb8e70
-    new: 84b0774f74c3b349f863cb11b23c7f10d33041ad
+  - ref: refs/heads/pending
+    old: c08124dc94e346ea273fb98f21abe3b7822a7f5c
+    new: ade5aa9e44b4cfc395535080cdbd748311383591
     log: |
-         84b0774f74c3b349f863cb11b23c7f10d33041ad drm/mediatek: Register vblank callback function
+         ade5aa9e44b4cfc395535080cdbd748311383591 iwlwifi: mvm: validate notification size when waiting
+         
+  - ref: refs/tags/iwlwifi-next-sent-for-review-2020-12-09
+    old: c08124dc94e346ea273fb98f21abe3b7822a7f5c
+    new: ade5aa9e44b4cfc395535080cdbd748311383591
+    log: |
+         ade5aa9e44b4cfc395535080cdbd748311383591 iwlwifi: mvm: validate notification size when waiting
          
