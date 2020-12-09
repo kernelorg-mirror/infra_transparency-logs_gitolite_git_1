@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8218739989115107085=="
+Content-Type: multipart/mixed; boundary="===============6791628644013818296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 09 Dec 2020 15:17:19 -0000
-Message-Id: <160752703943.22241.8608650951107988869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 09 Dec 2020 15:17:25 -0000
+Message-Id: <160752704580.22339.7617075711080938616@gitolite.kernel.org>
 
---===============8218739989115107085==
+--===============6791628644013818296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.10
+  - ref: refs/heads/asoc-5.10
     old: 7e20ae1208daaf6dad85c2dcb968fc590b6f3b99
     new: 718c406e1ffaca4eac987b957bbb36ce1090797a
     log: |
@@ -25,7 +25,7 @@ changes:
          55d8e6a85bce21f748c42eedea63681219f70523 ASoC: AMD Raven/Renoir - fix the PCI probe (PCI revision)
          718c406e1ffaca4eac987b957bbb36ce1090797a ASoC: AMD Renoir - add DMI table to avoid the ACP mic probe (broken BIOS)
          
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 474e3abb91189fcdc01f8ef82c7d075f2705a4f0
     new: 52feed4c1b152fe2caee9a8f916fd5573e999b7e
     log: |
@@ -40,29 +40,29 @@ changes:
          52feed4c1b152fe2caee9a8f916fd5573e999b7e Merge series "ASoC: soc-pcm: trigger cleanup" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
          
 
---===============8218739989115107085==
+--===============6791628644013818296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1607527033 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1607527036-508b7ce03fc6cd6a21b0ecd137254220fc72a642
+pusher C3F436CA30F5D8EB 1607527039 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1607527043-88be1744891a548c07dfffb0fcbc9045e7c13dde
 
-7e20ae1208daaf6dad85c2dcb968fc590b6f3b99 718c406e1ffaca4eac987b957bbb36ce1090797a refs/heads/for-5.10
-474e3abb91189fcdc01f8ef82c7d075f2705a4f0 52feed4c1b152fe2caee9a8f916fd5573e999b7e refs/heads/for-5.11
+7e20ae1208daaf6dad85c2dcb968fc590b6f3b99 718c406e1ffaca4eac987b957bbb36ce1090797a refs/heads/asoc-5.10
+474e3abb91189fcdc01f8ef82c7d075f2705a4f0 52feed4c1b152fe2caee9a8f916fd5573e999b7e refs/heads/asoc-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/Q6nkACgkQJNaLcl1U
-h9DqzQf5ATXFafHnAsWFedIh/m53KfTbXYCv+Y4gN6/mGIIm8WW9bCJJec9S81CD
-DlkSVCIklvOdDsbbA/ElGDlO3uFquIgRLt0ikOcw3sUPrtc2fA4j+IiWc6YzLxWE
-f1Cn0UXmUMjwYsPcXAKTZ1Le8KVrmSbA8JG8GJvOkSTmKMejmSEA0bIL/AWJcwkn
-a9jQKwewBdBx5pZyuO+hltTwXM9WGPg90CXsPHbqINc6qEtOdrg/FGpk/gQTIcJl
-tCbOeVGA6D6tlV/zOfSTpokwe9yok1Y4jwFanzcjF8PGXBJ4uslT4mk/h94L9rrI
-zm39grxNrq/fwzY/UR628A3XUt/hAg==
-=+LBv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/Q6n8ACgkQJNaLcl1U
+h9Cp9wf/bPoYM/qPK5TbD2WDxd7WJI5+npu57abnW6G74qtos2KiRF5UNTZnAHy7
+JtNxKIN4ZEPaQ0bCncV562Inh8xUCUvn1jaC0R7TBQCWoWBa8IRiWXb/lZ1+cNKl
+YwPjnrJ+sFTU+cUsF2S8LHoqGYOLZnBX11ZvKzSxyW0T5cbmzXOkCWSK3kFq5txi
+ohJvKNKA9aGcpqWpYP66YytwGB4rlhIhAgEs0OCjSTzStl6OkU21uqSxp9/OTE9m
+uNcOFl1akxHdq0YsT2hyfuUQG5PQilmlSV/YCrsluC9oNCIG3daGWNTyU7C3fxCO
+biYhOKd03zCk/gBOB7zEbF80DGnJKQ==
+=MqGs
 -----END PGP SIGNATURE-----
 
---===============8218739989115107085==--
+--===============6791628644013818296==--
