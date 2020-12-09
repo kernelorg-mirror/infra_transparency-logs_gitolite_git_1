@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6127035666714995374=="
+Content-Type: multipart/mixed; boundary="===============1924728467921555570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 09 Dec 2020 06:24:55 -0000
-Message-Id: <160749509582.30268.6519015815732329407@gitolite.kernel.org>
+Date: Wed, 09 Dec 2020 06:25:02 -0000
+Message-Id: <160749510200.30411.6947847275667665546@gitolite.kernel.org>
 
---===============6127035666714995374==
+--===============1924728467921555570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 2a268129b03105b5e69e3338d353be8c239d3339
-    new: b71d67bcdbf172fb197e608c1fd9e6f7295a73bb
-    log: revlist-2a268129b031-b71d67bcdbf1.txt
+  - ref: refs/heads/net-next
+    old: c587c03d16802ba71a267ec5de1cabae63a52c53
+    new: 3b47c6e4af65d45360fc80e505599e63773f4324
+    log: revlist-c587c03d1680-3b47c6e4af65.txt
 
---===============6127035666714995374==
+--===============1924728467921555570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a268129b031-b71d67bcdbf1.txt
+Content-Disposition: attachment; filename=revlist-c587c03d1680-3b47c6e4af65.txt
 
 547801380ec7e6104ea679f599d03c342b4b39a0 Bluetooth: btqca: Add valid le states quirk
 6dfccd13db2ff2b709ef60a50163925d477549aa Bluetooth: Fix null pointer dereference in hci_event_packet()
@@ -205,5 +205,9 @@ ed187f671e8bc9e7c654c4b96b0752e66e64cc20 net/mlx5e: Expose RX dma info helpers
 716bc3c1555c2214a30f1e1aa73fd1831940c9aa net/mlx5e: Add listener to trap event
 569e532c1bed66179eb7baab7e9c541dec4f31ef net/mlx5e: Add listener to DMAC filter trap event
 b71d67bcdbf172fb197e608c1fd9e6f7295a73bb net/mlx5e: Enable traps according to link state
+e52c602aed399ced4ef5195bff0c171c66d83206 Merge branch 'net-next-mlx4' into net-next
+4ebd37ccc815cd47d9943c098c4548f214529331 Merge branch 'mlx5-vdpa' into net-next
+3f4b043a5d97c854189af274b6d7e252af3f5437 Merge branch 'net-next-mlx5' into net-next
+3b47c6e4af65d45360fc80e505599e63773f4324 Merge branch 'net-mlx4' into net-next
 
---===============6127035666714995374==--
+--===============1924728467921555570==--
