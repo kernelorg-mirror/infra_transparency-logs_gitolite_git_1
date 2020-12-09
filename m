@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7697335445423276646=="
+Content-Type: multipart/mixed; boundary="===============6930887235493562425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 09 Dec 2020 04:40:05 -0000
-Message-Id: <160748880576.327.15269940231398923554@gitolite.kernel.org>
+Date: Wed, 09 Dec 2020 04:40:10 -0000
+Message-Id: <160748881003.415.1555561862935565744@gitolite.kernel.org>
 
---===============7697335445423276646==
+--===============6930887235493562425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/5.11/scsi-staging
+  - ref: refs/heads/staging
     old: 419be8b82389ca54a80b339f32667658da6b0d39
     new: b320fa4cb3bfafdd271fe8d531e28d3f5060aaa5
     log: |
@@ -31,33 +31,33 @@ changes:
          b320fa4cb3bfafdd271fe8d531e28d3f5060aaa5 scsi: ufs-pci: Enable UFSHCD_CAP_RPM_AUTOSUSPEND for Intel controllers
          
 
---===============7697335445423276646==
+--===============6930887235493562425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1607488804 -0500
+pusher 75C5DE3D 1607488808 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1607488804-3b3f527ed3c466e206ef4076e51204ae9de9f5e9
+nonce 1607488808-01b3dd37e8bdbfb6fe90412a178f134fe7805d68
 
-419be8b82389ca54a80b339f32667658da6b0d39 b320fa4cb3bfafdd271fe8d531e28d3f5060aaa5 refs/heads/5.11/scsi-staging
+419be8b82389ca54a80b339f32667658da6b0d39 b320fa4cb3bfafdd271fe8d531e28d3f5060aaa5 refs/heads/staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/QVSQACgkQ7ulgGnXF
-3j278xAAq7qwjvBryct43MPSFbL4ZI8ZUlh74oEQ9zOiXTZJO2jb6BGCmK1dlHyq
-U+GqgpkQeZQHxvpieItCWW1MtQrvEho5CLj5xhcIbSF81wW0x2Xg1Vt9Hsm3BOVH
-t73ETEJMrRFDR54uYVQpEEZmcs5HmuOdKtTnhiqLLKHLas/sCEdnEFSrUdNBuC4a
-/DyZyTTh09NjD1H7V/uLk5QRF9xDFPR5CbGV/KVXTXIbxod+616X7Z6/Kf85vDcb
-ZTFzUnfGE/4eoxnR3+lpp0GYzJ1eqPMtQs5m5dsgWHpf5x7pGr32uA9VYmd1JzQ1
-Co4EPZnKFLdQl8ix9gbf2t77maLAkTauzRXka2pjkLlPqSchR8dH42+EgatISGhE
-V4+VBPj96S2wTQNC9qyirz4h6LOs9MFVOyGBGV/CvJ7GvNnkixLou/9nAAioHdLW
-nOJiBOE9EEqILqVh30rgo1kvx7jdyY2rD3HaISB+5hY7IRhiRLfAOlL6+QnR8g3p
-fct15IpS/+mPX6dvC7QCvXUu8oh7N+RsrWWate8KGi6pTWDvfsbSQ6HObBfbO/Jb
-CXpioCU5ECh6e0jOZOI7N+sLv/gq2yvEXA0bEiKU0P8nrypGP4AFALG3JHy95LFZ
-H78bPQ8iWwM7jBvz/fV8ryrsMvmnMXqx9ixlsQOjU2gI9ezGJe0=
-=11RU
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/QVSgACgkQ7ulgGnXF
+3j041A/9GcNRwHWopTRh2fOxzSbvkSIsc3g+4clkbqSU3K4OUf6GTDiWDES7CIGH
+1z4uEADaSa59DZtjIXBPw2WawqBl26h8x4fEgd5SF5J8gAzZ3BHexqIcKfpW4ffZ
+wRG9497N3qzxgXhHmMIRR4R5tvUsPieK40Fj4K5iTFyNJziVMuuncPpryoSGnbT1
+96RXcOKL6Oah2tGMIddUhZ0GYIVymJ06eukarU17wlEJ+eY+y81JHdwFnUGRY9QR
+gs2jdOEXsioa6RIY9mshv8G+HocSnUkBg+uJ+YVemVu5PQgex1qDz672qN7ZWKh4
+axSHxMOzyc5Y+cLtjdzTbp9c1UWQ5lDcII2xcJTH7wh5Tu/wiWHNtwv6VrODaqwg
+DWfr4M5caA7jboEJ0l9Li2ABhPVU1w3QidvTDE13gYfgO0GP7d3KFTVggC5kkuHK
+heNxQ7jvZ8v3C3KaZ3ojGx9i4Pzgeb93YFWqu6xHLhJXGwbXK/cO4CP2qbqJRGA0
+DSUkI0jyTMCHL1/V1E592QnqrvNmZdEl2v5zx55PdyAnw6UDhmUQ5SI5U+ibzt+Y
+6p7WPjEiObgtHXzhA5d5pErLUFNS/PxmfeLO1pX6q/28LqDzu6qTCOvAhF522lDL
+YMcXjVwbddHiCFncoJPoSof5lA819x4Z8lKAHy9E+4J1/Z/xdVk=
+=xoOH
 -----END PGP SIGNATURE-----
 
---===============7697335445423276646==--
+--===============6930887235493562425==--
