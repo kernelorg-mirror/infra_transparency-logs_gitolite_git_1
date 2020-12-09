@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 09 Dec 2020 15:51:35 -0000
-Message-Id: <160752909597.11701.5341059482342793255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Wed, 09 Dec 2020 15:53:03 -0000
+Message-Id: <160752918390.12161.12198081205575722020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/for-next
-    old: b60da4955f53d1f50e44351a9c3a37a92503079e
-    new: 08c6a2f620e427e879d6ec9329143d6fcd810cd8
+  - ref: refs/heads/mediatek-drm-decouple-sub-driver
+    old: a6f35b1b5b9ea383c421ed3c9a15aa3bfb05bc18
+    new: 01742c252181ef443e1f3fa3cce22e351eaa0c10
     log: |
-         a89052572ebbf4bcee7c39390640e92b60eaa653 selftests/bpf: Xsk selftests framework
-         facb7cb2e909ad2d21ebbfdc051726d4cd8f1d35 selftests/bpf: Xsk selftests - SKB POLL, NOPOLL
-         9103a8594d9324d8e1512442ba580e4e91d42c2d selftests/bpf: Xsk selftests - DRV POLL, NOPOLL
-         6674bf66560a6c55aada1e3cd4fca7a3ed204075 selftests/bpf: Xsk selftests - Socket Teardown - SKB, DRV
-         7d20441eb05ec6d8dc7b16381c53b3c0b3ad6e8a selftests/bpf: Xsk selftests - Bi-directional Sockets - SKB, DRV
-         08c6a2f620e427e879d6ec9329143d6fcd810cd8 Merge branch 'bpf-xsk-selftests'
+         836f09cffab1e50beab139573f93652a3691f016 drm/mediatek: Move clk info from struct mtk_ddp_comp to sub driver private data
+         5ea70825e89ba634d9c22601a73bd3778e0f0cef drm/mediatek: Move regs info from struct mtk_ddp_comp to sub driver private data
+         eb324e0516d0ca1f055b2f654ab150f2d0948eb6 drm/mediatek: Remove irq in struct mtk_ddp_comp
+         ce60eecdf546c899183a38efaee15fec8c74408e drm/mediatek: Use struct cmdq_client_reg to gather cmdq variable
+         e69399b081445635f62f76865999e36eb456ee3e drm/mediatek: Move cmdq_reg info from struct mtk_ddp_comp to sub driver private data
+         ebc63c134d4a73d9ff054ab6f6287ca42a9dc504 drm/mediatek: Change sub driver interface from mtk_ddp_comp to device
+         9bc998c4daa0b83fd7c59cc5f5529c3a26bcfd50 drm/mediatek: Register vblank callback function
+         3ff8132aa0736d0e65be977d2d8484a20f480b50 drm/mediatek: DRM driver directly refer to sub driver's function
+         01742c252181ef443e1f3fa3cce22e351eaa0c10 drm/mediatek: Move mtk_ddp_comp_init() from sub driver to DRM driver
          
