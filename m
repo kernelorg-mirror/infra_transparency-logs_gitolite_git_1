@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0680658876332813066=="
+Content-Type: multipart/mixed; boundary="===============7348150936345127547=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 09 Dec 2020 18:45:37 -0000
-Message-Id: <160753953762.30656.8061283195751136345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 09 Dec 2020 18:45:43 -0000
+Message-Id: <160753954329.30751.128638865237993376@gitolite.kernel.org>
 
---===============0680658876332813066==
+--===============7348150936345127547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 660745a569463da96595a3287af02461882b86e6
-    new: aec273a3191e2931e7010dd7b83cd110c21bcc03
+  - ref: refs/heads/driver-core-testing
+    old: 9c30921fe7994907e0b3e0637b2c8c0fc4b5171f
+    new: 0b81144a4ac20f0757b7c965d2fa57de367c7db5
     log: |
-         aec273a3191e2931e7010dd7b83cd110c21bcc03 MAINTAINERS: Mark SPMI as maintained
+         0b81144a4ac20f0757b7c965d2fa57de367c7db5 soc: fix comment for freeing soc_dev_attr
          
 
---===============0680658876332813066==
+--===============7348150936345127547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607539607 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1607539528-f20640ed4472a011eee4183c344c347eec330dbb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607539614 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1607539534-d5557fcb92125f9ecc8d1ed3f114af08f139b7f7
 
-660745a569463da96595a3287af02461882b86e6 aec273a3191e2931e7010dd7b83cd110c21bcc03 refs/heads/char-misc-testing
+9c30921fe7994907e0b3e0637b2c8c0fc4b5171f 0b81144a4ac20f0757b7c965d2fa57de367c7db5 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/RG5cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+540P+gOuWcy+tm0+2mVVPv08
-4dYKm4+jhKbdaZFEKg6Kfc0HGSBy+GlBhrQ6WAQ6QuCLHsRZJ31+KZ0iTGr6qhSi
-QRvYH+c3D8N0Bw+XZrwtVqbVHL7PXevyWTG+oQLT4eGgWSOn4KG+A40pZ1R5+1Ct
-g/FzFKpXdTBSKGX1QQiQIzjEjmAzNmIM/hNRTV/dO27qx4n4y2nrt+S0AF/q+8fY
-29wS/DIuTtod/fUcvlVWQMuqk3frdSR9SwG0fRuJ/xq0M/jkX6uJVlxU6JOD+5xt
-EbOy+eMaQVzV9Y/6WTUNY1RkOQUbgaLhj6HqCmut0UeWH1GIw5JLiWwf5UUpjMwk
-ggHhp5fd8m7kXuuDcH/IjJ89lTwEtAbSqeOZ3IuCejUwcgZQB9baAIvFWxKhvjio
-e01fhCD6t967hRT9ysHG3nJJIcEHQxz+/eXZ8Y+UtFTK4YAAoao4pv4qHccr0xWV
-TUn8+j46QZr21XvOOyt89K1Uvk3SKe7b5hEAUIRbY5LirVqvQ6Q69YQBqVEiBu5I
-DRPMCQVxPvVvp3kUlqU+dcyVb1kyxZgZY91PSuCHmAislgaBw3mDsjlrCKdrTruL
-xE1gs+XPSwVdAEB+YWuBPFR7N6+H1QHlm6Q7WIfk40/c/x/YK0LrW6CTRRPDN1Fh
-p0WqsdAe6Yv9KlIkkeGOOumK
-=9VZz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/RG54bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WWIP/26tssANv9c6bi+/QvuL
+O5+GmbA49pij4/CAou4bBytPcQMzhYfKQbk1XpQxuZKRJRI+ST4pO3UFljZEfy6b
+cT6aHyhjZ/ydL+/KNrKIR8ZK8vpr4Imw8IxaXcE7pjITpOc8hQcs2YrNSVyiNvQx
+KDpKV14txCGPx8GjFNaZ/UMFDP9hvre0zdp7EjHm00IzJyzHRCQtNMGsyIqAl1n3
+dq1pL8qNLs5zyYxnqIhvFmizps6wBspQA8SxBTH6CcBajHb+GcqIceAcup3G29zy
+fXzNZWyCt/xbafo31HAGmvmTDcyGrEbpLiNyJOWxqxbkYvqdxET2/4IUZdFiKAgs
+6cnxjMwkWCTt7jT2OzyuIF856Nv+z4DJL/R5RZwnO2zQ4c/wMKjO0/ut6KB8VuWA
++F8d+qa9e9pSvBPwviAAUL9TbArETakAx4e3HLTTKng3AH8kxhnhxKsK8OuTjwYK
+0ntIbkVn+iUk5eravEYtv2KNstrWpFQUVR+I/BKlK60hwQes8fFt4xs63cnMTmHn
+0qIW3OnCWpmG7Pchj6c6CFK7gkjp7M0Mr5jWQMx0QaZTPHAO7Csfl4b/S7z8uuRU
+fgTmiXKH9hsK/sXTj/Ez879lpz8+rHzBHbhfOEJq03V0k7MqzkOz2wBtawLe9ZSA
+0SjYoLh+8op8eDKHnS2WSLFl
+=8+kJ
 -----END PGP SIGNATURE-----
 
---===============0680658876332813066==--
+--===============7348150936345127547==--
