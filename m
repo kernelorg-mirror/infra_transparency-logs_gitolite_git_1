@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 09 Dec 2020 16:10:43 -0000
-Message-Id: <160753024384.26460.15302610968550303809@gitolite.kernel.org>
+Date: Wed, 09 Dec 2020 16:10:51 -0000
+Message-Id: <160753025133.26612.3094344054240325127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,18 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: d55863db1dfec8845067f5625f1b0ab18c8948be
-    new: c2208046bba6842dc232a600dc5cafc2fca41078
+  - ref: refs/heads/sched/core
+    old: 21bf7cbd1b100758cc82f5340576028d3d83119b
+    new: 4c8213a57b84a4692bcdd6362752d37f29da5be6
     log: |
-         c5eecbb58f65bf1c4effab9a7f283184b469768c powerpc/8xx: Implement pXX_leaf_size() support
-         e6e4f42eb773c1da869af4bad544c26c89cd01ab sparc64/mm: Implement pXX_leaf_size() support
-         78af4dc949daaa37b3fcd5f348f373085b4e858f perf: Break deadlock involving exec_update_mutex
-         78ff2733ff352175eb7f4418a34654346e1b6cd2 x86/kprobes: Restore BTF if the single-stepping is cancelled
-         46b72e1bf4fc571da0c29c6fb3e5b2a2107a4c26 perf/x86/intel: Fix rtm_abort_event encoding on Ice Lake
-         f8129cd958b395575e5543ce25a8434874b04d3a perf/x86/intel/lbr: Fix the return type of get_lbr_cycles()
-         e689b300c99ca2dd80d3f662e19499bba27cda09 kprobes/x86: Fix fall-through warnings for Clang
-         b6459575451769b0550621865d1ddb65afdb55a1 perf/x86: Fix fall-through warnings for Clang
-         bd11952b400fdfdf3b017500ad6475f5b624d167 uprobes/x86: Fix fall-through warnings for Clang
-         c2208046bba6842dc232a600dc5cafc2fca41078 perf/x86/intel: Add Tremont Topdown support
+         d5b94ca8109779059d9a3b824236e8313b536850 sched/core: Move schedutil_cpu_util() to core.c
+         b0c979a271c419522bae7d9ba7b29b068dfc7109 sched/core: Rename schedutil_cpu_util() and allow rest of the kernel to use it
+         4c8213a57b84a4692bcdd6362752d37f29da5be6 thermal: cpufreq_cooling: Reuse sched_cpu_util() for SMP platforms
          
