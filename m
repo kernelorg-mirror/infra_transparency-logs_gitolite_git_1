@@ -1,28 +1,61 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 09 Dec 2020 18:40:18 -0000
-Message-Id: <160753921829.27300.8193450280476145594@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7691131119662581187=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 09 Dec 2020 18:41:38 -0000
+Message-Id: <160753929815.27763.7564942723505200311@gitolite.kernel.org>
+
+--===============7691131119662581187==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf/core
-    old: d55863db1dfec8845067f5625f1b0ab18c8948be
-    new: c2208046bba6842dc232a600dc5cafc2fca41078
+  - ref: refs/heads/char-misc-testing
+    old: 3f618ab3323407ee4c6a6734a37eb6e9663ebfb9
+    new: 5b4258f6721f41b092c63f6ee71be76e9616718b
     log: |
-         c5eecbb58f65bf1c4effab9a7f283184b469768c powerpc/8xx: Implement pXX_leaf_size() support
-         e6e4f42eb773c1da869af4bad544c26c89cd01ab sparc64/mm: Implement pXX_leaf_size() support
-         78af4dc949daaa37b3fcd5f348f373085b4e858f perf: Break deadlock involving exec_update_mutex
-         78ff2733ff352175eb7f4418a34654346e1b6cd2 x86/kprobes: Restore BTF if the single-stepping is cancelled
-         46b72e1bf4fc571da0c29c6fb3e5b2a2107a4c26 perf/x86/intel: Fix rtm_abort_event encoding on Ice Lake
-         f8129cd958b395575e5543ce25a8434874b04d3a perf/x86/intel/lbr: Fix the return type of get_lbr_cycles()
-         e689b300c99ca2dd80d3f662e19499bba27cda09 kprobes/x86: Fix fall-through warnings for Clang
-         b6459575451769b0550621865d1ddb65afdb55a1 perf/x86: Fix fall-through warnings for Clang
-         bd11952b400fdfdf3b017500ad6475f5b624d167 uprobes/x86: Fix fall-through warnings for Clang
-         c2208046bba6842dc232a600dc5cafc2fca41078 perf/x86/intel: Add Tremont Topdown support
+         a73a0712745300f17480e729cef4422cb9c9c2df misc: isl29003: Fix typo for get/set mode
+         997754f114efeb290310ea8e39c8b04c2ce93961 misc/sgi-xp: Replace in_interrupt() usage
+         31dcb6c30a26d32650ce134820f27de3c675a45a misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
+         d928061c3143de36c17650ce7b60760fefb8336c misc: rtsx: modify en/disable aspm function
+         121e9c6b5c4cad63e078f1fc5890f265521d2994 misc: rtsx: modify and fix init_hw function
+         5b4258f6721f41b092c63f6ee71be76e9616718b misc: rtsx: rts5249 support runtime PM
          
+
+--===============7691131119662581187==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607539368 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1607539289-8e24027ad56953de6fb515ea98b922c9d92d58e2
+
+3f618ab3323407ee4c6a6734a37eb6e9663ebfb9 5b4258f6721f41b092c63f6ee71be76e9616718b refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/RGqgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B24P/i7nXdmM3Dzr5IKLz0Pu
+ApJQPg33pUSKv4sIliLyPfLbh5AwDIg2VM/w+u+f3TOL1W7mmPwHtYn3npeHlscI
+FkJXMBFJKkeicugfdfb4oTq5QprSSFnxijFmbSETXOU66cVr8WQPq7Txm+BC5kYw
+aOxiSGasyV52wU7302ELVobZ68psJ8yqlCU3r7OKsBndFxZPNyEmyTsPouJSyR/h
+UQByG9Dvb36IYAhL9wP99C4nkrDs/SZuRjMF3P1k0Y2SiqO6sFkmk4XQaii7AiVz
+JF65RJMjXDsmy0U+o3M5YAPU1sHuFkrmdPotVs8KFu14RZuisCuUK0/DNaETm/jK
+0bBD9b+acfEvc8vQZ5MxNJ7q4Rt5mhAvouETILCQuGMPQH8rVmyXoaP1ribZi3rv
+0YSReDJKQdg13j4SMIgLJmmgoA3aOmpbuGzTC6YaFrW9aZZCRCt4bx4xFsx5M1Yw
+Xo7YPvCEm83nrnAU9QYPWL3K8RLGSFhU8KclAiv/8eoSvzkuZgc5Y4j5oUOXl63y
+c2tUzs45C9bWTkm+phYqe/qBG1fEyrl25Fz/vV/5miC3+Bmr2NyRsFsC7lRiBYmg
+zCPxTmMk/wKSF/KtnMfUKFTuM+3KlXvNu74k/HziAyGCR/PoOiL7ziqrgT+AwXOE
+QXoekWpi/B9smpWbjFDJsh/d
+=GBYR
+-----END PGP SIGNATURE-----
+
+--===============7691131119662581187==--
