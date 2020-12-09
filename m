@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 09 Dec 2020 18:08:57 -0000
-Message-Id: <160753733774.6144.3834350164099596604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sboyd/spmi
+Date: Wed, 09 Dec 2020 18:09:38 -0000
+Message-Id: <160753737826.6396.10831745515479078600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sboyd/spmi
+user: sboyd
 changes:
-  - ref: refs/heads/master
-    old: a68a0262abdaa251e12c53715f48e698a18ef402
-    new: ca4bbdaf171604841f77648a2877e2e43db69b71
+  - ref: refs/heads/spmi-next
+    old: 0c51a585112629d8633d7c687aea35a5902d384a
+    new: e67ee85f57a827f9dc3a825ced1aa902de0f09ce
     log: |
-         4165bf015ba9454f45beaad621d16c516d5c5afe iommu/amd: Set DTE[IntTabLen] to represent 512 IRTEs
-         ca4bbdaf171604841f77648a2877e2e43db69b71 Merge tag 'iommu-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+         e67ee85f57a827f9dc3a825ced1aa902de0f09ce MAINTAINERS: Mark SPMI as maintained
          
