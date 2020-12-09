@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2251568930782395020=="
+Content-Type: multipart/mixed; boundary="===============7697335445423276646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 09 Dec 2020 04:40:01 -0000
-Message-Id: <160748880143.31419.8553727787485346249@gitolite.kernel.org>
+Date: Wed, 09 Dec 2020 04:40:05 -0000
+Message-Id: <160748880576.327.15269940231398923554@gitolite.kernel.org>
 
---===============2251568930782395020==
+--===============7697335445423276646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 93281718e0225ecdfe20a45c2c18174669a97247
-    new: 9ffbb456e5473d5b2bd3b4e84ee248d4661a0f9d
+  - ref: refs/heads/5.11/scsi-staging
+    old: 419be8b82389ca54a80b339f32667658da6b0d39
+    new: b320fa4cb3bfafdd271fe8d531e28d3f5060aaa5
     log: |
          55e9bdd0d7a058bf21f696323f6783be229459c5 scsi: ufs: Remove unused macro definition POWER_DESC_MAX_SIZE
          a3f70d26a8af51a3a372c418d54fa09dc65d1cf5 scsi: ufs: Fix wrong print message in dev_err()
@@ -31,33 +31,33 @@ changes:
          b320fa4cb3bfafdd271fe8d531e28d3f5060aaa5 scsi: ufs-pci: Enable UFSHCD_CAP_RPM_AUTOSUSPEND for Intel controllers
          
 
---===============2251568930782395020==
+--===============7697335445423276646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1607488799 -0500
+pusher 75C5DE3D 1607488804 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1607488799-cda72e7de55ef4525c1d21f0538dcd0c57d55601
+nonce 1607488804-3b3f527ed3c466e206ef4076e51204ae9de9f5e9
 
-93281718e0225ecdfe20a45c2c18174669a97247 9ffbb456e5473d5b2bd3b4e84ee248d4661a0f9d refs/tags/mkp-scsi-staging
+419be8b82389ca54a80b339f32667658da6b0d39 b320fa4cb3bfafdd271fe8d531e28d3f5060aaa5 refs/heads/5.11/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/QVR8ACgkQ7ulgGnXF
-3j0Uiw/6A0ustGy5anXTkYQ9L6QkKNe4WTsOUz/eZJAGuXQPjy3zW11DKlUT+D24
-lnM6tZRvXwehEsTYK5tXJGrlYA85YN0h/WgqeRLtb2TPiltmdIJIGzcxR4bB0GBk
-B3f1AImOi7np3YoM7dGgg6Gr94lAdYIjscLA11RKhgWg6FLi7DGvvbdTFmAOrCBS
-tzRkrDwhhCV1rINIM7SGwUwwQpJsCM7ErBm/t4zxBa+KK63h1FYlLGoGyg9YqrG1
-y77ErxVIppVXiWQTKh7UEYm3abjE7N57dkFA4WPt3/1CzbEGBhMg59HUrffsR3na
-f1Q1YTIVnzcpIAEtMgS9iDKdcFMAiQy173Tt9G8Nmh7K0lzyEpwCS5KHXuHiXL8Y
-q153jmWCHGUfyFOYFUg2auiuVh7QZcBYKqmLgUVBe1OocoxGvBDqSDRm296QpH2I
-kYlpOtYN7i7y7sC/jA3utYazlrBJsSkzbh8EdtRnhz/bG4xk2gl9GX9nHwJ8ePIX
-sy5dI5mXChsSivtwJWx7i8qYHcSO0sBNBYfqbHcTjsdyWPmeJOt7ype01FiyPoX/
-Hj4jazrVPx4gBhscnCLzHCMnG2feXOuCVZ4XjnVAeOE8bAG32dHYCcacB7RHxSyp
-GZn7eMkxrmBZfuM0DZsyXhKpZnG2EX4ZqaqAhPF0Zq6xj9m3FK8=
-=sllc
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/QVSQACgkQ7ulgGnXF
+3j278xAAq7qwjvBryct43MPSFbL4ZI8ZUlh74oEQ9zOiXTZJO2jb6BGCmK1dlHyq
+U+GqgpkQeZQHxvpieItCWW1MtQrvEho5CLj5xhcIbSF81wW0x2Xg1Vt9Hsm3BOVH
+t73ETEJMrRFDR54uYVQpEEZmcs5HmuOdKtTnhiqLLKHLas/sCEdnEFSrUdNBuC4a
+/DyZyTTh09NjD1H7V/uLk5QRF9xDFPR5CbGV/KVXTXIbxod+616X7Z6/Kf85vDcb
+ZTFzUnfGE/4eoxnR3+lpp0GYzJ1eqPMtQs5m5dsgWHpf5x7pGr32uA9VYmd1JzQ1
+Co4EPZnKFLdQl8ix9gbf2t77maLAkTauzRXka2pjkLlPqSchR8dH42+EgatISGhE
+V4+VBPj96S2wTQNC9qyirz4h6LOs9MFVOyGBGV/CvJ7GvNnkixLou/9nAAioHdLW
+nOJiBOE9EEqILqVh30rgo1kvx7jdyY2rD3HaISB+5hY7IRhiRLfAOlL6+QnR8g3p
+fct15IpS/+mPX6dvC7QCvXUu8oh7N+RsrWWate8KGi6pTWDvfsbSQ6HObBfbO/Jb
+CXpioCU5ECh6e0jOZOI7N+sLv/gq2yvEXA0bEiKU0P8nrypGP4AFALG3JHy95LFZ
+H78bPQ8iWwM7jBvz/fV8ryrsMvmnMXqx9ixlsQOjU2gI9ezGJe0=
+=11RU
 -----END PGP SIGNATURE-----
 
---===============2251568930782395020==--
+--===============7697335445423276646==--
