@@ -1,48 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1068376758673100906=="
+Content-Type: multipart/mixed; boundary="===============2022452520835965335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
-Date: Wed, 09 Dec 2020 17:52:18 -0000
-Message-Id: <160753633883.27138.13537741031716338185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 09 Dec 2020 18:04:10 -0000
+Message-Id: <160753705000.3262.8549451508742127833@gitolite.kernel.org>
 
---===============1068376758673100906==
+--===============2022452520835965335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rt-tests/rt-tests
-user: jkacur
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/unstable/devel/latest
-    old: 85b0763dacd9eab12b402828d0746974319024bd
-    new: 009954ca6542c83c39fbb87b0cebf778d89cf79f
-    log: revlist-85b0763dacd9-009954ca6542.txt
+  - ref: refs/heads/driver-core-testing
+    old: 784b2c48ac12dcee27db001fb1a3c58c39380cb6
+    new: 0288e7fa35b37fc91c6afec8c420f71d0ade853f
+    log: |
+         0288e7fa35b37fc91c6afec8c420f71d0ade853f fs/kernfs: remove the double check of dentry->inode
+         
 
---===============1068376758673100906==
+--===============2022452520835965335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85b0763dacd9-009954ca6542.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-6db1a4894404ec3d7f266ecb64695b4bc2601428 rt-numa: Move thread placement code to rt-numa library
-590846ff2abce04b42237ef2205e170749512038 signaltest: Implement thread placing
-d4d45924d122c88fc0b7b52c06a4fb9ed2009f32 rt-tests: Don't compress man pages by default
-5128a4192d4390b2c42ffdf530ec34ea7c47e374 cyclicdeadline: Remove dead code
-253065e582bd9a0a3ebd3d27fec04075557b79d3 cyclicdeadline: Use common error handlers
-28fecad2e900c585abd278cba0337cb1cb3721e5 cyclicdeadline: Add quiet command line option
-6662cb4021545eb47fb1c6affb83b58ff3206bde pmqtest: Move statictic output into print_stat()
-bb62fa37869622c7be61830aac10a1875b404810 pmqtest: Add quiet command line option
-67830fee53bed3fc1cd83620d6266f636654eae5 ptsematest: Move statictic output into print_stat()
-54e328903e91bdc159bd291de214bf28a8fef88b ptsematest: Add quiet command line option
-a4a13cb99bececb0aca8623fae77135b0b663424 svsematest: Move statictic output into print_stat()
-5b9c83a43797e9e96a5aee4dfb72ec333bf76496 svsematest: Add quiet command line option
-653d58fdd16aab17528fb3ec8fac522df4003552 sigwaittest: Move statictic output into print_stat()
-413695c9cde638b05cc0f050c101adbea573e716 sigwaittest: Add quiet command line option
-8a0c3d909c32ae61516d26bb6e0735e9d7d18e7d rt-migrate-test: Add quiet command line option
-ed5045179836f32b60e5092c123e6f47da27beba rt-tests: determine_maximum_mpps.sh: Add a menu to get user settings.
-a6114da09c475c0083fe3a681e79ba2c05d08848 rt-tests: queuelat: Remove get_cpuinfo_mhz.sh and old Makefile
-009954ca6542c83c39fbb87b0cebf778d89cf79f rt-tests: queuelat: Add a manpage for determine_maximum_mpps.sh
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607537120 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1607537041-ce79609634203ac781b65348a0fbdd531e5d4244
 
---===============1068376758673100906==--
+784b2c48ac12dcee27db001fb1a3c58c39380cb6 0288e7fa35b37fc91c6afec8c420f71d0ade853f refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/REeAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fAYQAL+LDHjJLC+koDFiaDx7
+ujkR9jW/85K8QP0Lm3vwnvVmqXcM8DZdn/tQG5/losjMtisJ5ddSzuQlJwdCFaOj
+A5raNPTuYWJacy/FsBRBHf8AIyh0GL8o1Gg5KHVNK0ybKVugD8W4DwFe99meWMwe
+7re7uGjrtboFvvCQCQoEcoez6GYmJ9w89DDPlCMkPemg27puwE1EBvFW3aqZtQYb
+yK8iytx75YocXLH9n5AyF/yJmcalXyrj7Wp6RHQOciZGDjO4mkgFTQ8TQj/yR78R
+dVSCBfJNqCYx7a0vcKsXCR6C0qkKTkaK/geQntDyjvJKaRf5N5NU4PhavZgC56xa
+h0AGMO0YPSY0vbzYAa+HN2HOzweTXssGLn8kd9SyBztvyKHOakWJ8OUzu8EFGisQ
+/eHHMKVQXFfksNRs8EfXzTU6rqr6d9tTkxRRe9tcKRyxDxd+vMKQJ+ObzRb4FlAf
+QsRVnU45G3HeWZ51JehpahY6KuaNqFSOyLqk5LZCKXphXL0XcD8UnO+Srf4wMB8+
+2/lG7pF3XRPh3La0TK5HaHpzEYa1aRpVGppcamaQjiNAB1qdKmpSG+z04KqiMj6k
+XZkud312Yfb1WFccPw9c3mJKPnux0rn87fEOgH2d293PClYBC8geLG37FoLFnKy5
+kUj1HHy6ou3JgY3+Lm35hbrM
+=AmLD
+-----END PGP SIGNATURE-----
+
+--===============2022452520835965335==--
