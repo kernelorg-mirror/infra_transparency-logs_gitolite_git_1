@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7410478701364604639=="
+Content-Type: multipart/mixed; boundary="===============7270160221588253169=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 09 Dec 2020 18:32:09 -0000
-Message-Id: <160753872948.22223.11569598755326621024@gitolite.kernel.org>
+Date: Wed, 09 Dec 2020 18:33:21 -0000
+Message-Id: <160753880192.22622.9285947646071283553@gitolite.kernel.org>
 
---===============7410478701364604639==
+--===============7270160221588253169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: d475f8ea98a039e51d27f5557dc17333cf8a52f6
-    new: 2c3dc6432f3316e97c10eced6b535046a80f73b0
+    old: 2c3dc6432f3316e97c10eced6b535046a80f73b0
+    new: 9c30921fe7994907e0b3e0637b2c8c0fc4b5171f
     log: |
-         2c3dc6432f3316e97c10eced6b535046a80f73b0 driver core: make driver_probe_device() static
+         e21d740a3fe5ad2db7b5f5c2331fe2b713b1edba driver core: platform: reorder functions
+         16085668eacdc56c46652d0f3bfef81ecace57de driver core: platform: change logic implementing platform_driver_probe
+         9c30921fe7994907e0b3e0637b2c8c0fc4b5171f driver core: platform: use bus_type functions
          
 
---===============7410478701364604639==
+--===============7270160221588253169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607538800 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607538872 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1607538721-6fe93ec057270e30d4e9e653368901b0b8b23ef5
+nonce 1607538793-28d1a306f2712a742d2dec3e5b98f59a9b6d5ff3
 
-d475f8ea98a039e51d27f5557dc17333cf8a52f6 2c3dc6432f3316e97c10eced6b535046a80f73b0 refs/heads/driver-core-testing
+2c3dc6432f3316e97c10eced6b535046a80f73b0 9c30921fe7994907e0b3e0637b2c8c0fc4b5171f refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/RGHAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FWwQAIe6OmpNtZKlDiOzsvAG
-D7RfJtXhsl1u7Rg48DaLoTTa55iVCkGhAx1Oy7ILV1BDS8Atz++6maNJL1U1RLjp
-QQmXXlqlOADHuXFKk0B/3xgCuGhJdulgzsmmjdNBBF6HFpyxWbnz4TMYi1PzALnv
-B91teVbZOglNwSSdlghy/pqRIbnQTG8xnCtHHtQEVMp+rHWrfs9qWPb86f96htpM
-zOgGRe0q8FMNpECOjn4fUOQLLGEMne7gjN8XP0UyhRS7YBDVcU5ego1DA3t/e6vi
-iuYr9XHna+YZGzvI4Mvey1To4fwNRyVtH5kEIAKg+lXSJ57hMP3vqGL3NWLRajzP
-UxU6kHHDfsC1e+SgZIpdEp2NoG0hxhLSxGPhu5X/KQSmaKHJ1OEa1Z6ypxNG0yYx
-lCBicz8oZiUsJnqKIzzv9eeHadgS8wE8bJzBmmnf3ixbuziDprqsp5GDOS5oTQPa
-lpLE18j0G1Nvd6ON7GwryjLbp7SfCijDlfjrAR3pomVO9oj8bQURvjJfdDzIG/I1
-4rA4vt89JaIBJ1Xoa2oiCR6SmKyyZAWYNAKZrxszk/COInboEWcdE3f8/aXdzCwv
-UchpStAIYAWx2w5h947eYmwvDj7o2EaB0T9SI1mjaIK+XTb4pb2O1mFPTG7IjcK8
-QmyUx5HFsmCnqB1ND+syy7yj
-=DTMi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/RGLgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OmMQAL3/vpIatzifbZZSO15p
+/30NhIxKUFWdSFqyOZXSJnlYQrIR7gOQcTQl/Vyw5lJyGg+QXihW6BXSiXDdb+AC
+h4lPz2ubySgLCrZubr9hCNzIV4cSYyKewt0oqrMeaAt4DzCILIKzcnuvLH2sz+EB
+2omgTMljLQ4ZZBTE30V0lhOOa6Wkv2sUlLf8bCCC8gwAh3AtyJD6uo90ZHzWybgt
+wKWXu/av3CfjJFM9u6UHcq0NmVcmdzEEloCrKEDFRtidD3RNGj5Qujbrjxuei/ux
+TE21GMfN/iLBOKEuSoN+SgXsgAwuF6VYKVbxH1pCK4qaXw+MY85c0zEpPSlu+Os9
+DiHjRiJKJATDwRJi4GzPAbTfA57MbL5q8IjJspmKWhiKFs9TaaviwGfrOSNiUBjD
+v2epNAUlIQbPE9Nb9CnTfjzpzYHPQlAA4RuDvHKmXMn0ARmfOa7/SIoqVCrgt6Gk
+sNLH2gPL+ui/4jNt+WGSVS1T01/9R+lp9q8jqwLYp23BPo6jkWdrD4kuwVvUBOxa
+4sbE0OEa6FI7S26rCL5YJ+CWqh4W9k1GVdDbE7k5YEHPH7q2ATfx8IM3O6nE7GF9
+vGGVt5ysM7fgo1fsZG4CdAy+GpoRNTjPuct5Mj9we7nDV7N81LWa6Oeda9lJOpJy
+c2l3MX57JB3JsUkgl0qiw6ee
+=rYcj
 -----END PGP SIGNATURE-----
 
---===============7410478701364604639==--
+--===============7270160221588253169==--
