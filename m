@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 09 Dec 2020 00:02:17 -0000
-Message-Id: <160747213768.15959.2805167964429009962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 09 Dec 2020 00:02:46 -0000
+Message-Id: <160747216679.16161.6856424625023764515@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: e1be4b5990c697f41a9e600a2b4ad228b7a71769
-    new: 8354bcbebd26325c9efeb6682a3e14fbbc8ace95
+    old: c6f7e1510b872c281ff603a3108c084b6548d35c
+    new: 4cb682964706deffb4861f0a91329ab3a705039f
     log: |
-         8354bcbebd26325c9efeb6682a3e14fbbc8ace95 net: sched: fix spelling mistake in Kconfig "trys" -> "tries"
+         4cb682964706deffb4861f0a91329ab3a705039f afs: Fix memory leak when mounting with multiple source parameters
          
