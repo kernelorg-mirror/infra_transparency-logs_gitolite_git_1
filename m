@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 09 Dec 2020 21:10:47 -0000
-Message-Id: <160754824745.27553.6757444463413008653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 09 Dec 2020 21:13:52 -0000
+Message-Id: <160754843241.28462.17225702578741305419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: e5dddbedfe09df69ca819eb98f6dcccb006c6bc9
-    new: 8f7e68bb3d4c482faa223ffa3838f7d39129afec
-    log: |
-         9c8421e298d6efff38bbd7a6f97b081bd43b2137 dt-bindings:i2c:i2c-gate: txt to yaml conversion
-         675fc18900e9c4199ed51342be16b60eeac8c0b1 dt-bindings: trivial-devices: Add delta,q54sj108a2
-         8f7e68bb3d4c482faa223ffa3838f7d39129afec dt-bindings: mfd: fix stm32 timers example
-         
+  - ref: refs/tags/arm-soc-fixes-v5.10-4
+    old: 8f0cd9402673326792258d71c47d6ffbe773ec5d
+    new: 3bea2a684644b6d444c4a2b5e8f6ae6b75eb4625
