@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 09 Dec 2020 21:10:28 -0000
-Message-Id: <160754822835.27208.11401127606780012785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Wed, 09 Dec 2020 21:10:40 -0000
+Message-Id: <160754824077.27348.3831483266055015767@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/tags/arm-soc-fixes-v5.10-4
-    old: 0000000000000000000000000000000000000000
-    new: 8f0cd9402673326792258d71c47d6ffbe773ec5d
+  - ref: refs/heads/master
+    old: cd796ed3345030aa1bb332fe5c793b3dddaf56e7
+    new: a68a0262abdaa251e12c53715f48e698a18ef402
+    log: |
+         4bbf439b09c5ac3f8b3e9584fe080375d8d0ad2d fix return values of seq_read_iter()
+         7d8761ba27fcd9c761919beeaaceac06eed3ad74 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+         6220e48d9640538ff700f2e7d24c2f9277555fd6 [regression fix] really dumb fuckup in sparc64 __csum_partial_copy() changes
+         1a0e1943d8798cb3241fb5edb9a836af1611b60a Revert "scsi: megaraid_sas: Added support for shared host tagset for cpuhotplug"
+         c6f7e1510b872c281ff603a3108c084b6548d35c Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+         4cb682964706deffb4861f0a91329ab3a705039f afs: Fix memory leak when mounting with multiple source parameters
+         a68a0262abdaa251e12c53715f48e698a18ef402 mm/madvise: remove racy mm ownership check
+         
