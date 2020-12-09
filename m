@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5399691603902350002=="
+Content-Type: multipart/mixed; boundary="===============6301669574582266775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/paulus/powerpc
-Date: Wed, 09 Dec 2020 05:00:03 -0000
-Message-Id: <160749000360.12045.13281493966937223576@gitolite.kernel.org>
+Date: Wed, 09 Dec 2020 05:00:22 -0000
+Message-Id: <160749002223.14069.4452743053162783630@gitolite.kernel.org>
 
---===============5399691603902350002==
+--===============6301669574582266775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,44 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/paulus/powerpc
 user: paulus
 changes:
-  - ref: refs/heads/kvm-ppc-next
-    old: cf59eb13e151ef42c37ae31864046c17e481ed8f
-    new: dc924b062488a0376aae41d3e0a27dc99f852a5e
-    log: revlist-cf59eb13e151-dc924b062488.txt
+  - ref: refs/heads/kvm-ppc-fixes
+    old: ae49dedaa92b55258544aace7c585094b862ef79
+    new: c2b1209d852fef65dbe13c1eed2c6d7a8cd0d1f8
+    log: revlist-ae49dedaa92b-c2b1209d852f.txt
 
---===============5399691603902350002==
+--===============6301669574582266775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf59eb13e151-dc924b062488.txt
+Content-Disposition: attachment; filename=revlist-ae49dedaa92b-c2b1209d852f.txt
 
+897dbea6b716c0f2c5bcd4ba1eb4d809caba290c drm/v3d: Fix double free in v3d_submit_cl_ioctl()
+cb47755725da7b90fecbb2aa82ac3b24a7adb89b time: Prevent undefined behaviour in timespec64_to_ns()
+4230e2deaa484b385aa01d598b2aea8e7f2660a6 stop_machine, rcu: Mark functions as notrace
+926e97852eaf1394c01c2adb77d33b3d32f492de Merge tag 'scmi-fixes-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
+0fa97e9403c767a4af63cfb5a3badbbe69426085 arm64: vdso32: Allow ld.lld to properly link the VDSO
+8e90b4b1305a80b1d7712370a163eff269ac1ba2 s390: correct __bootdata / __bootdata_preserved macros
+52abfcbd57eefdd54737fc8c2dc79d8f46d4a3e5 blk-cgroup: Fix memleak on error path
+f255c19b3ab46d3cad3b1b2e1036f4c926cb1d0c blk-cgroup: Pre-allocate tree node on blkg_conf_prep
+7837fa88704a66257404bb14144c9e4ab631a28a btrfs: drop the path before adding block group sysfs files
+cad69d139651423b9cb8917f514740ed3f08b10a btrfs: tree-checker: fix incorrect printk format
+85d07fbe09efd1c529ff3e025e2f0d2c6c96a1b7 btrfs: tree-checker: validate number of chunk stripes and parity
+83bc1560e02e25c6439341352024ebe8488f4fbd btrfs: fix use-after-free on readahead extent after failure to create it
+66d204a16c94f24ad08290a7663ab67e7fc04e82 btrfs: fix readahead hang and use-after-free after removing a device
+5223cc60b40ae525ae6c94e98824129f1a5b4ae5 btrfs: drop the path before adding qgroup items when enabling qgroups
+49d11bead7d596e031fbd34051d8765587cd645b btrfs: add a helper to read the tree_root commit root for backref lookup
+f7b6603c666798a1f8379e692d11d500885f32d8 ALSA: fix kernel-doc markups
+dff61e683e744675ee5ad83f23ff71701c830d45 Merge tag 'imx-fixes-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
+472547778de24e2764ab325268dd5b77e6923939 selftest/bpf: Fix profiler test using CO-RE relocation for enums
+dbf563eee0b8cc056744514d91c5ffc2fa6c0982 x86/hyperv: Clarify comment on x2apic mode
+7e2b2da60658ee6cf7a421596a3c9eb619c810f9 Merge tag 's390-5.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+9480b4e75b7108ee68ecf5bc6b4bd68e8031c521 cachefiles: Handle readpage error correctly
+41ba50b0572e90ed3d24fe4def54567e9050bc47 Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+1b8d1070857da3c11307b3130eb4b05bee7d521d mtd: rawnand: mxc: Move the ECC engine initialization to the right place
+3aee8a3a88fa533b74fb75640ca23001358e5476 mtd: rawnand: ifc: Move the ECC engine initialization to the right place
+3023d8ff3fc60e5d32dc1d05f99ad6ffa12b0033 kunit: Fix kunit.py --raw_output option
+3fc48259d5250f7a3ee021ad0492b604c428c564 kunit: Don't fail test suites if one of them is empty
+7f32b10c6b461a369b9741623cd3f722134066f0 kunit: test: fix remaining kernel-doc warnings
 f0b62039bf7f998fb3f1369ac70dbe571c74f9d8 Documentation: kunit: Update Kconfig parts for KUNIT's module support
 0d0d245104a42e593adcf11396017a6420c08ba8 kunit: tools: fix kunit_tool tests for parsing test plans
 2a6eca16f376f6b83aaf73c57f0b6547907a5ed3 ALSA: make snd_kcontrol_new name a normal string
@@ -964,6 +991,8 @@ f3037c5a31b58a73b32a36e938ad0560085acadd net: phy: realtek: support paged operat
 4031eeafa71eaf22ae40a15606a134ae86345daf net/af_iucv: fix null pointer dereference on shutdown
 4711497ae85d90de903671989daf5145054c123e MAINTAINERS: remove Ursula Braun as s390 network maintainer
 e87d24fce924bfcef9714bbaeb1514162420052e Merge branch 'net-iucv-fixes-2020-11-09'
+1ed576a20cd5c93295f57d6b7400357bd8d01b21 KVM: s390: pv: Mark mm as protected after the set secure parameters and improve cleanup
+6cbf1e960fa52e4c63a6dfa4cda8736375b34ccc KVM: s390: remove diag318 reset code
 3d5e28bff7ad55aea081c1af516cc1c94a5eca7d Merge branch 'stable/for-linus-5.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/konrad/swiotlb
 fa6882c63621821f73cc806f291208e1c6ea6187 tipc: fix memory leak in tipc_topsrv_start()
 df392aefe96b9f94efb01ef298b617bab346a9be arm64: dts: fsl-ls1028a-kontron-sl28: specify in-band mode for ENETC
@@ -1014,41 +1043,12 @@ db7c953555388571a96ed8783ff6c5745ba18ab9 Merge tag 'net-5.10-rc4' of git://git.k
 0107973a80adad5b73232d3fbcd26f710ab1f851 KVM: x86: Introduce cr3_lm_rsvd_bits in kvm_vcpu_arch
 96308b066184d6dcdb677890e620e68290ae98ae KVM: SVM: Update cr3_lm_rsvd_bits for AMD SEV guests
 c887c9b9ca62c051d339b1c7b796edf2724029ed kvm: mmu: fix is_tdp_mmu_check when the TDP MMU is not in use
-d3a9e4146a6f79f19430bca3f2a4d6ebaaffe36b KVM: VMX: Drop guest CPUID check for VMXE in vmx_set_cr4()
-a447e38a7fadb2e554c3942dda183e55cccd5df0 KVM: VMX: Drop explicit 'nested' check from vmx_set_cr4()
-311a06593b9a3944a63ed176b95cb8d857f7c83b KVM: SVM: Drop VMXE check from svm_set_cr4()
-c2fe3cd4604ac87c587db05d41843d667dc43815 KVM: x86: Move vendor CR4 validity check to dedicated kvm_x86_ops hook
-ee69c92bac61f4379e97f40b259a1c1257e5987f KVM: x86: Return bool instead of int for CR4 and SREGS validity checks
-7a873e4555679a0e749422db071c142b57f80be9 KVM: selftests: Verify supported CR4 bits can be set before KVM_SET_CPUID2
-1c96dcceaeb3a99aaf0d548eef2223e0b02a7e40 KVM: x86: fix apic_accept_events vs check_nested_events
-bf0cd88ce363a2de3684baaa48d3f194acdc516c KVM: x86: emulate wait-for-SIPI and SIPI-VMExit
-c4d51a52c67a1e3a0fa3006e5ec21cdc07649cd6 sched/wait: Add add_wait_queue_priority()
-e8dbf19508a112d125190df77ee0464b7ba56192 kvm/eventfd: Use priority waitqueue to catch events before userspace
-28f1326710555bbe666f64452d08f2d7dd657cae eventfd: Export eventfd_ctx_do_read()
-b1b397aeef8177f4f7bd91a0d5fa708f4752a499 vfio/virqfd: Drain events from eventfd in virqfd_wakeup()
-b59e00dd8cda75fc8303c9f6847ac720b10664e3 kvm/eventfd: Drain events from eventfd in irqfd_wakeup()
-c21d54f0307ff42a346294899107b570b98c47b5 KVM: x86: hyper-v: allow KVM_GET_SUPPORTED_HV_CPUID as a system ioctl
-8b460692fee46a47cebd66d70df88dc9aa6d6b8b KVM: selftests: test KVM_GET_SUPPORTED_HV_CPUID as a system ioctl
-ff5a983cbb3746d371de2cc95ea7dcfd982b4084 KVM: X86: Don't track dirty for KVM_SET_[TSS_ADDR|IDENTITY_MAP_ADDR]
-2f5414423ef577e9e8bdb227f32d0abdd34e4274 KVM: remove kvm_clear_guest_page
-28bd726aa404c0da8fd6852fe69bb4538a103b71 KVM: Pass in kvm pointer into mark_page_dirty_in_slot()
-fb04a1eddb1a65b6588a021bdc132270d5ae48bb KVM: X86: Implement ring-based dirty memory tracking
-b2cc64c4f3829c25b618f23f472a493668d9cb80 KVM: Make dirty ring exclusive to dirty bitmap log
-044c59c409b7fd753707dc437890e94d2b0bd819 KVM: Don't allocate dirty bitmap if dirty ring is enabled
-60f644fb519831edff38c79755f7970c475e2ece KVM: selftests: Introduce after_vcpu_run hook for dirty log test
-84292e565951cecfe2718e43905a6103c9e8ac29 KVM: selftests: Add dirty ring buffer test
-019d321a68ea07efcfcbc308443251644ff3e71c KVM: selftests: Run dirty ring test asynchronously
-edd3de6fc3d57deddb5cc7c7f1d8316ad26ac4e4 KVM: selftests: Add "-c" parameter to dirty log test
-8aa426e854c475504033c176a66d038259bf64ea selftests: kvm: keep .gitignore add to date
-2259c17f01887666220a35619c44c576aeed2a30 kvm: x86: Sink cpuid update into vendor-specific set_cr4 functions
-f63f0b68c864edea801de678bed279a3d7674f1a KVM: selftests: always use manual clear in dirty_log_perf_test
-ec2f18bb4783648041498b06d4bff222821efed1 KVM: selftests: Make vm_create_default common
-0aa9ec45d42779af711c7a209b5780ff7391b5bd KVM: selftests: Introduce vm_create_[default_]_with_vcpus
-87c5f35e5c958278174979f13a9e40d3c9962c0f KVM: selftests: Also build dirty_log_perf_test on AArch64
-08d3e27718bd45ea3284b1b99a2082a233b8667c KVM: selftests: Make test skipping consistent
-22f232d134e142022f5e4cf2de4587a34d5b7d65 KVM: selftests: x86: Set supported CPUIDs on default VM
-789f52c071a0fdaa15ed119912fedd840458e25f x86/kvm: remove unused macro HV_CLOCK_SIZE
-7e8e6eed75e290526d5c98d023e88b141e2c93ec KVM: SVM: Move asid to vcpu_svm
-dc924b062488a0376aae41d3e0a27dc99f852a5e KVM: SVM: check CR4 changes against vcpu->arch
+d4d3c84d77e3dac68efecebdf488af8f4e156611 Merge tag 'kvm-s390-master-5.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into kvm-master
+854c57f02bc718b0653bc467073b4541b8155a36 KVM: SVM: Fix offset computation bug in __sev_dbg_decrypt().
+054409ab253d9f31bec5760105144166b4b71e22 KVM: SVM: fix error return code in svm_create_vcpu()
+4c80d05714d347405865802b7098f1c97362cbef s390/uv: handle destroy page legacy interface
+735931f9a51ab09cf795721b37696b420484625f MAINTAINERS: add uv.c also to KVM/s390
+79af02af1d01ffab6118552c66b4d58eb0745f3e Merge tag 'kvm-s390-master-5.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into kvm-master
+c2b1209d852fef65dbe13c1eed2c6d7a8cd0d1f8 MAINTAINERS: Update email address for Sean Christopherson
 
---===============5399691603902350002==--
+--===============6301669574582266775==--
