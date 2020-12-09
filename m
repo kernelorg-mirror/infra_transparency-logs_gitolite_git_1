@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0614950698346716940=="
+Content-Type: multipart/mixed; boundary="===============5152759849394853206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 09 Dec 2020 18:28:17 -0000
-Message-Id: <160753849797.17225.1907094992281331326@gitolite.kernel.org>
+Date: Wed, 09 Dec 2020 18:28:52 -0000
+Message-Id: <160753853278.17433.7129756240131691171@gitolite.kernel.org>
 
---===============0614950698346716940==
+--===============5152759849394853206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 2d09e6eb4a6f20273959f4905ccf009da8c64c7a
-    new: 5b6164d3465fcc13b5679c860c452963443172a7
+    old: 5b6164d3465fcc13b5679c860c452963443172a7
+    new: d475f8ea98a039e51d27f5557dc17333cf8a52f6
     log: |
-         5b6164d3465fcc13b5679c860c452963443172a7 driver core: Reorder devices on successful probe
+         d475f8ea98a039e51d27f5557dc17333cf8a52f6 driver core: Fix a couple of typos
          
 
---===============0614950698346716940==
+--===============5152759849394853206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607538568 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607538603 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1607538489-824c6fa927eebe62bac5cfbf285888f382554bb3
+nonce 1607538524-19400fc1ae91b87824061641350bfa1bb0323cd1
 
-2d09e6eb4a6f20273959f4905ccf009da8c64c7a 5b6164d3465fcc13b5679c860c452963443172a7 refs/heads/driver-core-testing
+5b6164d3465fcc13b5679c860c452963443172a7 d475f8ea98a039e51d27f5557dc17333cf8a52f6 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/RF4gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lUUP/2UhUTITSfKmkj3+1c/Y
-o9tOvU0ENY7QAEiWqrWGDvCrNGacgtv5/Qq+6rYT631QlaEwuSMh/6Wu62N7jGj3
-YiJO/r48RkISCqEP9CN/7cQwtcxJE5G/tzYJdRrSmf+dxqYSO4fr99OvbJowoAYk
-8RfjBq9wKf9TK9aSix/tedzQSUFRQnEzh5bXTLEUjdi2ui1OsKIkxSiCCzs3fcEj
-mcbPNR0kjZm+vo2+qFy/u6PdY611qnNdLUeqlsUnWy+OmxI4qDnaL+4QGxnx0jyO
-a9xQAb1qiqTw4+JlEM1Ade5fytioXO2urKL39fz1yGpYYrX/Fy0glJIXrkzWiY6l
-hjTCJY/+uehnW4p7VV++3RKN4HXP6AKslS/DgdXEkwYGJRAURGpQ8Gp8jZwX837/
-KPdbu2qTn1PD1Ag+Se/NW4j3OiLN2DmWY5vxFnCTnZKX+eWmKCmtPXCI3abnK5hu
-JcN07ImF3rwx+GI7Nvr9Jv7wSgfTqridwn+lEgBAbo4d+TOdkpdO1jkUwpUTJc+O
-MIfw3Z0dYyAR9Rq0A4et/BHSeJqIJzDbPujJl4EEzLP+l2n/YH9F+fcDKXVUWiUi
-E4u5HW41Fvq9bYmT8J3Yd/wMauOeHawghCyh0RG6s4o9p6/cstKl7wyo3TqZjeSB
-4LSui/aYKtFJAJB7k2iyX9k9
-=e2fx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/RF6sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wRMP/jzdBPmhXzfIomud5PD6
+VVscB9wHRYZmZFszCQxAGmtJGP/2DCRnD7np7s3lgLyu+m32xacRhltY6ZIUkNnF
+KkhlIbo8azgWZuYvCKCAqYwMfgc/yWHlgSg3exV9RHhurR1MPoVOYV+xPG2bcQ/j
+XsGcQGtz/d0ZJoLTw8Moynm99knFkQpdkF5RIlIwTwp0FpMuF39M8gwjHzSJFm8L
+yn5NNkn/xzR5GTseL34B3bi9hDexosC/pnZvuEghZyHJFkpATQThloP4SbzGHNKC
+LV6qv/rjEe4ziwEeP4QJRe7XeEuJa0CcNb5an1FZtA8qGdFghAeSGSlE78fHqjp4
+QYuCVPuQLtY1EM3HQjV1+SPkB/ub5i7lM2n/M2X4rPU55Pgn644oeaJjeyyHSgXO
+KqfwF9Tis/B+rpb+B98AtoMm5H3NrBM906seChwkSrbz3ZuExfQg7J4aW/ePs+I9
+zl1bJnk3CoCi4/zVPaYb2V7QJ+LSbu9u8ScP4bsg8WMO5+kt+UpfUp/uMtxiBr4l
+xCEfZci7cW5ZwVxMoYGheWlRdvndXQQJbUf+ARWdTg64mznaShR2FO6IBGu4dqt/
+Y9H18abd2X8SGJdkSjm7OGwEcWl09kIP3HRQWHI7281hdUq4IvMQ3f8tbIFJOJ4E
+VEmwHc722orHJyynxBWUuBVo
+=NTU4
 -----END PGP SIGNATURE-----
 
---===============0614950698346716940==--
+--===============5152759849394853206==--
