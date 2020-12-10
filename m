@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 10 Dec 2020 02:53:14 -0000
-Message-Id: <160756879454.20397.8655888802506295427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 10 Dec 2020 02:58:26 -0000
+Message-Id: <160756910617.23177.10897876680487893833@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: b8d909375d6fcdc0de9b5f1a7ecee446aeaf5443
-    new: dc528d5bcc2daa00940e034bb9922b65b52b5e60
+    old: 88287773ff6f53c47e1902ae3ae19084ef5c69aa
+    new: b7e4ba9a91dffd298d940b4d3f173121ff829a32
     log: |
-         88dcfdb4cd82ff3c4cf5d4874fabb6adaaf1ce63 ice: cleanup stack hog
-         f2651a91b97d140e183dcc3198deba7f72198e54 ice: don't always return an error for Get PHY Abilities AQ command
-         c21125c99757ade403e81195005ccedb166a47a6 ice: Enable Support for FW Override (E82X)
-         956542cae5dc7a6e688badee721de168c8e9fbd8 ice: Remove gate to OROM init
-         bcf68ea1e580df685a4a9cec4dfaf0f0f4393dbe ice: Remove vlan_ena from vsi structure
-         32e6deb29725e0efc20586ad041b0cfc1b31ab21 ice: cleanup misleading comment
-         34d8461a653a132691f3eda6ab31195156d2691c ice: silence static analysis warning
-         9228d8b2613b3e1af17151635191e020bbd4fcd8 ice: join format strings to same line as ice_debug
-         5b13886da858d5f0eb9cbd25612e776cb9021262 ice: Add space to unknown speed
-         dc528d5bcc2daa00940e034bb9922b65b52b5e60 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+         cc00bcaa589914096edef7fb87ca5cee4a166b5c netfilter: x_tables: Switch synchronization to RCU
+         917d80d376ffbaa9725fde9e3c0282f63643f278 netfilter: nft_dynset: fix timeouts later than 23 days
+         42f1c27120906a54e73101a7d6a12f58813f6a9f netfilter: nftables: comment indirect serialization of commit_mutex with rtnl_mutex
+         2d94b20b95b009eec1a267dcf026b01af627c0cd netfilter: nft_ct: Remove confirmation check for NFT_CT_ID
+         b7e4ba9a91dffd298d940b4d3f173121ff829a32 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
          
