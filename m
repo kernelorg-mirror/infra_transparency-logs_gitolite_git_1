@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 09 Dec 2020 23:56:17 -0000
-Message-Id: <160755817723.1156.8186676023925950453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 10 Dec 2020 00:10:26 -0000
+Message-Id: <160755902619.11828.5058266119259749876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/mediatek-drm-decouple-sub-driver
-    old: 01742c252181ef443e1f3fa3cce22e351eaa0c10
-    new: fe940928dde33ebc4f0853221cd9629ffa344271
+  - ref: refs/heads/master
+    old: a770bf515613c6e12ae904c3593e26016de99448
+    new: 5137d303659d8c324e67814b1cc2e1bc0c0d9836
     log: |
-         3cd5af8b646e7a143af06fd013e6e73d36712a7a drm/mediatek: Register vblank callback function
-         2c41a8d6169eaa9cda9de991891fe2d439d483cf drm/mediatek: DRM driver directly refer to sub driver's function
-         fe940928dde33ebc4f0853221cd9629ffa344271 drm/mediatek: Move mtk_ddp_comp_init() from sub driver to DRM driver
+         8ef44b6fe49d2b8d03ba9aa69063612b474f963b tcp: Retain ECT bits for tos reflection
+         5137d303659d8c324e67814b1cc2e1bc0c0d9836 net: flow_offload: Fix memory leak for indirect flow block
          
