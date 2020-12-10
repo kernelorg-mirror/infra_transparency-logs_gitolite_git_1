@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0003416558963144324=="
+Content-Type: multipart/mixed; boundary="===============6129692423511882562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 10 Dec 2020 09:44:03 -0000
-Message-Id: <160759344348.4635.15115544979736804914@gitolite.kernel.org>
+Date: Thu, 10 Dec 2020 09:44:15 -0000
+Message-Id: <160759345540.4728.5679662245269185055@gitolite.kernel.org>
 
---===============0003416558963144324==
+--===============6129692423511882562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: e71d2b957ee49fe3ed35a384a4e31774de1316c1
-    new: a7105e3472bf6bb3099d1293ea7d70e7783aa582
-    log: revlist-e71d2b957ee4-a7105e3472bf.txt
+  - ref: refs/heads/testing
+    old: dc918bf28c383313862395cb7e072c1fdab1832c
+    new: ee42bedc85a6e87791d5c20da6f2d150188cde54
+    log: revlist-dc918bf28c38-ee42bedc85a6.txt
 
---===============0003416558963144324==
+--===============6129692423511882562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1607593439 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1607593451 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1607593439-736e8cb9e709816567806cb6b3115cf8701b3431
+nonce 1607593450-42d01cfa7bd75758687d1bf8cc57c9227bff8197
 
-e71d2b957ee49fe3ed35a384a4e31774de1316c1 a7105e3472bf6bb3099d1293ea7d70e7783aa582 refs/heads/master
+dc918bf28c383313862395cb7e072c1fdab1832c ee42bedc85a6e87791d5c20da6f2d150188cde54 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/R7d8THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqeaPB/9g3xYuM4EOF2kxUOCzK86JaTP6Yvqb
-zHVX7d8SJpLYwPcEomB3g46gkf1d18lsIzlynA2ewd9apstmXiRN7d6zu1LYujnS
-XQdAtXAkdAltZl7eEbmZYUvsrIfzoWquv7rturdSLTVukKg3C7EPo0zPa+vn/MYm
-l6HsDotcJgJ3GvcuJuNjYZ4vZNYfQwtdYfKoLtr6sZaRQzQ8GnlqqWldK/m+KfkM
-l1KA90l1iKf1p66Y8L52kTwxDIruRpiVN3lI+1qLsWywVftR/pUjKe7y4g3lDpPU
-5Pql02ToohQDKfN6eOa26hxBTL37+RyQql8552OV286irySp+mAUeLuz
-=JDdr
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/R7esTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqRmLB/497jixxUZaSr0BMupkvXgLWl6ipKHE
+iTTQSf9V0hTIx5ow6Vk6UkscBR9U8gJcnlURd+A2Lpcj3RNAhee+oIOaVevS0N2R
+BWGHmja8HKiVClyixiz/MqxmUUEV8ifRgLqfRh+PsHMqPevqUwE98+1bUvYmNbhK
+iYcx0EgOJ8oECgz+FI3Aw1xjgfuErprzGme1GM6cMt6v8D+JQkyOuOsqhO52AsUI
+ukGSvEbsw1GH0EUVrjrOh4BEJN38BJzMRhkI0+q54ftc/DTeTJnGPX5RTtRffhik
+YWxl+jH5aNp0VqaipGoma9UsIqTfFPCA1wDns89bxYCOfn4D6TO1i2/X
+=z7tA
 -----END PGP SIGNATURE-----
 
---===============0003416558963144324==
+--===============6129692423511882562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e71d2b957ee4-a7105e3472bf.txt
+Content-Disposition: attachment; filename=revlist-dc918bf28c38-ee42bedc85a6.txt
 
 762fd1aec588f71873c75b6473eb1736b3a21f4d ath10k: remove repeated words in comments
 d2f3f68864a463c138b27bf2ed81f6aae2233ef8 ath10k: ath10k_pci_init_irq(): workaround for checkpatch fallthrough warning
@@ -395,13 +395,6 @@ aae5ab854e38151e69f261dbf0e3b7e396403178 Merge tag 'riscv-for-linus-5.10-rc6' of
 1214917e008bb8989747b8bf9a721f7a6db8f8d7 Merge tag 'efi-urgent-for-v5.10-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8b7a51ba2637ee53ce90624f5f98aaf8ec9b2bcc Merge tag 'irq-urgent-2020-11-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f91a3aa6bce480fe6e08df540129f4a923222419 Merge tag 'locking-urgent-2020-11-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-368444dd7a2c9180bcc0f95c4d5c79a8f56aa209 can: pcan_usb_core: fix fall-through warnings for Clang
-4843ad9b613aa72258bd122d7884d311dad334e4 can: mcp251xfd: mcp25xxfd_ring_alloc(): add define instead open coding the maximum number of RX objects
-1f652bb6bae7f211f3131ddbc380bb839680068f can: mcp25xxfd: rx-path: reduce number of SPI core requests to set UINC bit
-dada6a6c7d3f1929dd530d67002d7475fec81c3d can: mcp251xfd: struct mcp251xfd_priv::tef to array of length 1
-63e70488b49acc0c3bcca354539806742ea8b888 can: mcp251xfd: move struct mcp251xfd_tef_ring definition
-68c0c1c7f9668e7a7f2e18dbf951cfee57af1c0e can: mcp251xfd: tef-path: reduce number of SPI core requests to set UINC bit
-d1390d7d55a59d39a6a113f00c6452b980d514ec can: tcan4x5x: tcan4x5x_clear_interrupts(): remove redundant return statement
 b65054597872ce3aefbc6a666385eabdf9e288da Linux 5.10-rc6
 ad1f5e826d91d6c27ecd36a607ad7c7f4d0b0733 can: m_can: tcan4x5x_can_probe(): fix error path: remove erroneous clk_disable_unprepare()
 bd0ccb92efb09c7da5b55162b283b42a93539ed7 can: sja1000: sja1000_err(): don't count arbitration lose as an error
@@ -419,7 +412,6 @@ da192676483232a0a9478c89cdddd412e5167470 arm64: entry: mark entry code as noinst
 7cd1ea1010acbede7eb87b6abb6198921fb36957 arm64: entry: fix non-NMI kernel<->kernel transitions
 f0cd5ac1e4c53cb691b3ed3cda1031e1c42153e2 arm64: entry: fix NMI {user, kernel}->kernel transitions
 2a9b3e6ac69a8bf177d8496a11e749e2dc72fa22 arm64: entry: fix EL1 debug transitions
-018a0c5845d6da8613a1448b169e96c81dce2531 can: tcan4x5x: rename parse_config() function
 225dfc2552005ea8dd2b50f6a4a04a2b9ff52d3e can: tcan4x5x: remove mram_start and reg_offset from struct tcan4x5x_priv
 ca3ad869dab1d2fb3dfa070053f1859746a617e3 can: tcan4x5x: tcan4x5x_can_probe(): remove probe failed error message
 f566373fc5344c74e85832e6fb5674f0fa6e5d37 can: m_can: Kconfig: convert the into menu
@@ -979,5 +971,12 @@ f1c2e66d7f38cb1e919bd594af4ad4a9ae8344cc net: hns3: add support for max 512 rss 
 8eeb1f4bce68e91dea52d1832b89fed3a984cb58 net: hns3: adjust rss indirection table configure command
 cdab7c9779709755de90b9d017df2682f797e2bb net: hns3: adjust rss tc mode configure command
 a7105e3472bf6bb3099d1293ea7d70e7783aa582 Merge branch 'hns3-next'
+921ca574cd382142add8b12d0a7117f495510de5 can: isotp: add SF_BROADCAST support for functional addressing
+ecbaf5e13f45d8eebd3b772ba0032afcec1e519a can: rx-offload: can_rx_offload_offload_one(): avoid double unlikely() notation when using IS_ERR()
+c9f4cad6cdfe350ce2637e57f7f2aa7ff326bcc6 can: m_can: m_can_config_endisable(): remove double clearing of clock stop request bit
+227619c3ff7c71eab76848b3b2add06838f5b6e6 can: m_can: move runtime PM enable/disable to m_can_platform
+cab7ffc0324f053c8fb56c821cdd63dc0383270d can: m_can: add PCI glue driver for Intel Elkhart Lake
+2c0ac9208135c75b9afec67b2819329ff41a5355 can: flexcan: convert the driver to DT-only
+ee42bedc85a6e87791d5c20da6f2d150188cde54 can: mcp251xfd: Add support for internal loopback mode
 
---===============0003416558963144324==--
+--===============6129692423511882562==--
