@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 10 Dec 2020 21:51:54 -0000
-Message-Id: <160763711441.13021.12195513248659739697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Thu, 10 Dec 2020 21:52:33 -0000
+Message-Id: <160763715311.13312.7503386146036902243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: mjp
 changes:
-  - ref: refs/heads/master
-    old: 3615bdf6d9b19db12b1589861609b4f1c6a8d303
-    new: 34817d23d2f70fc0eb8f3f7d4555398cbad382de
+  - ref: refs/heads/next
+    old: e72550928ff052ca721777875bd23a7abf3efb13
+    new: 1efbcec2ef8c037f1e801c76e4b9434ee2400be7
     log: |
-         34817d23d2f70fc0eb8f3f7d4555398cbad382de xdp: Avoid calling kfree twice
+         1efbcec2ef8c037f1e801c76e4b9434ee2400be7 coresight: cti: Reduce scope for the variable “cs_fwnode” in cti_plat_create_connection()
          
