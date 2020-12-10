@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
-Date: Thu, 10 Dec 2020 19:15:25 -0000
-Message-Id: <160762772535.10333.8096877219828679706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Thu, 10 Dec 2020 19:21:36 -0000
+Message-Id: <160762809659.13485.15305488374730124244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
-user: ebiederm
+repo: pub/scm/fs/ext2/xfstests-bld
+user: tytso
 changes:
-  - ref: refs/heads/exec-update-lock-for-v5.11
-    old: 0000000000000000000000000000000000000000
-    new: f7cfd871ae0c5008d94b6f66834e7845caa93c15
+  - ref: refs/heads/master
+    old: 14b5274a2201484dee675c3a79879c1889d92fbb
+    new: 57f901c94aed78cff289499c0899a6ea23b0889c
+    log: |
+         51dd8c225061f227835aac66d7605a18c1159a57 test-appliance: automatically mount the pts disk after a kexec
+         05698c774e95985e03298c4cfdbf4975c230d6f7 android-xfstests: create /dev/fd on the Android device
+         57f901c94aed78cff289499c0899a6ea23b0889c gce-xfstests: add support for --local-ssd-nvme
+         
