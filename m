@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 10 Dec 2020 20:37:02 -0000
-Message-Id: <160763262232.29294.6486415319343678759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Thu, 10 Dec 2020 20:39:16 -0000
+Message-Id: <160763275655.29984.15221430310054790865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/master
-    old: 4353110684ab9b7780579575d485ed9b75bc0b64
-    new: 4e4ba6769d8f8c99947bee5fe475197b5793a1a7
+  - ref: refs/heads/features
+    old: b5e438ebd7e808d1d2435159ac4742e01a94b8da
+    new: 343dbdb7cb8997a2cb0fd804d6563b8a6de8d49b
     log: |
-         3f686da5508b8ccd43dc207cc198244fd47230a4 build: add ell/acd.{c,h} to makefile
-         41b8a32dfc51bece992a6c89edc45457f0b88a2f test-runner: have start_iwd take a storage dir
-         b18f84353268d3ecbf5121fcc0b855ed2d16caa7 auto-t: add storage dir to IWD() constructor
-         d2cc033d0946e88e8bd5e8854af6ed5a019a5852 auto-t: pass namespace on to other IWD classes
-         d40cac403fd178fc8b1e056b58d1986011f9ae48 auto-t: support IP match with no IP set
-         ada46fb2dbcae2919e884b2155b7f0e7630c62e3 test-runner: set processor count for VM
-         4e4ba6769d8f8c99947bee5fe475197b5793a1a7 test-runner: add iwd-acd to verbose options
+         ff98cc986ae883eec5f26af72d4e2406612fe683 s390/crypto: add arch_get_random_long() support
+         343dbdb7cb8997a2cb0fd804d6563b8a6de8d49b s390/mm: add support to allocate gigantic hugepages using CMA
          
