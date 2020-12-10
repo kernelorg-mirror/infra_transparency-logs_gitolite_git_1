@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 10 Dec 2020 21:18:57 -0000
-Message-Id: <160763513728.23837.1234851323633517203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 10 Dec 2020 21:23:02 -0000
+Message-Id: <160763538283.26391.5696538754693462092@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: bfa5e98c9de466bfe25a9b4bf6ef9122aee2d06a
-    new: 3b0c860f872da622a39707bda11064395199836f
+    old: 177745beebe39773004921d6bffd6c94c77dca32
+    new: 38bf8cd821be292e7d8e6f6283d67c5d9708f887
     log: |
-         3b0c860f872da622a39707bda11064395199836f net: lapbether: Consider it successful if (dis)connecting when already (dis)connected
+         38bf8cd821be292e7d8e6f6283d67c5d9708f887 selftests: fix poll error in udpgro.sh
          
