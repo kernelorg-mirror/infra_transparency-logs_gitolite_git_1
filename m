@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 10 Dec 2020 17:22:01 -0000
-Message-Id: <160762092115.2687.16340935636747649351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 10 Dec 2020 17:30:21 -0000
+Message-Id: <160762142101.9907.15986168833588917272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/for-next
-    old: bd3f718defe73257c89f983c414e552e6a601668
-    new: 19d3f9774496a7adefb7cb473b034e32d013f30e
-  - ref: refs/heads/master
-    old: dba04587ab50e17b33ec7fe25da727b931be10ad
-    new: 2f8ff55fe657c6dfea29ec918e34800144f2c394
+  - ref: refs/heads/wip/jgg-for-next
+    old: 0583531bb9ef30a5c4ce00b4ee10b6707768eead
+    new: d1dec0cae5539d678c1e265ba4fcf783c8ec4733
+    log: |
+         7f1d2dfa307e760af13677895b4e874e9c251a5b RDMA/mlx5: Remove unneeded semicolon
+         e7f870f5fda75fcaf9de09316e6e456f5f035516 MAINTAINERS: SOFT-ROCE: Change Zhu Yanjun's email address
+         d1dec0cae5539d678c1e265ba4fcf783c8ec4733 RDMA/core: Update kernel documentation for ib_create_named_qp()
+         
