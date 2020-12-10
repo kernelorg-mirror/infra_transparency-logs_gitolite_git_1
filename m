@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8536982019678399895=="
+Content-Type: multipart/mixed; boundary="===============5179382833417658005=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 10 Dec 2020 15:02:57 -0000
-Message-Id: <160761257711.10757.11679888350215847904@gitolite.kernel.org>
+Date: Thu, 10 Dec 2020 15:12:03 -0000
+Message-Id: <160761312341.15904.14196466696084535912@gitolite.kernel.org>
 
---===============8536982019678399895==
+--===============5179382833417658005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: d2a968dddf98b837de9f9b3f954537c86c9a9f81
-    new: beff5de94fd45dc68f65b45634013184b6d66519
+    old: beff5de94fd45dc68f65b45634013184b6d66519
+    new: a353397b0d5dfa3c99b372505db3378fc919c6c6
     log: |
-         beff5de94fd45dc68f65b45634013184b6d66519 usb: typec: intel_pmc_mux: Configure cable generation value for USB4
+         b00f444f9add39b64d1943fa75538a1ebd54a290 USB: gadget: f_rndis: fix bitrate for SuperSpeed and above
+         3ee05c20656782387aa9eb010fdb9bb16982ac3f USB: gadget: f_acm: add support for SuperSpeed Plus
+         457a902ba1a73b7720666b21ca038cd19764db18 USB: gadget: f_midi: setup SuperSpeed Plus descriptors
+         a353397b0d5dfa3c99b372505db3378fc919c6c6 usb: gadget: f_fs: Re-use SS descriptors for SuperSpeedPlus
          
 
---===============8536982019678399895==
+--===============5179382833417658005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607612646 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607613192 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1607612568-2ccca02a6de02183f043320fc7878fb4cb0d5a8b
+nonce 1607613114-a0ebfb58a22cf70df9e1db5f27da636867c31a4f
 
-d2a968dddf98b837de9f9b3f954537c86c9a9f81 beff5de94fd45dc68f65b45634013184b6d66519 refs/heads/usb-testing
+beff5de94fd45dc68f65b45634013184b6d66519 a353397b0d5dfa3c99b372505db3378fc919c6c6 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/SOOYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UsYQANfdZEUcuvYSosZU4odk
-Y+9OOH6XS4/iH8vCoWqx5vFgM9kPwPE8op28+3zVF/zTRyVMy8Cha+aCGRmALKEq
-295fAYwzEkPJTjmb459DMOU746ZktAEgdBbb5FPtBjuZn3N9X5j68gor3QXZLhfu
-6f5VFM7LMF7Wod4oVv96h9aOZD50qK4snlpwBGn/fEMT/SQHNLa0jRqvdUTUdVdJ
-BA2J/iF8OqzMhrbGuDdnZpsB/rHar9HBYLfagth4Q1gOYNOJtP+cUO96dH2jDFDp
-t6A19s+VQfkAS2D0+o/tiuqNgiZxxXMaZYe3MngyJkD6SO7skHbuBNVrcv6CFx8o
-8bsoEcn8iG+1BoLWp8ajoMLUqiXBnqkDJGRnFv1V1CpATIJmZTVPSLoBuu4ZAuFh
-AqmCsXlsXv72nN0oHICe1qe1jtXOncxV5r3rrULPLbLHXwfbZhm+Q8yAsoRhzRrv
-6edNgTH209Rub4HWuIZN7prsV8xjNX82rC32q8IzJi8pLI3FwiDk1Ac25RAk071e
-htu/aAFsX3zf5CSbfTdleKPVxQtrbnQGb29uE9JjrFakI11eFwg1zSu4V2FkZjgY
-c0CaEa2uKoahCVr/qVNds5ty9XA6UJ1wxCejM4nQlFFe/Aq6rCyvmU9CmjtVrM3a
-7k/RkA5R78XJN/ES75inuz3g
-=CTfk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/SOwgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AgoP/RKlb9TZiP7oeJoSQo9F
+l2uB7GVZToFZM09FQ8xlunLQXcjP1m5lPChcogEhi2rTMgcCR2YVCCUVVmiNy42S
+/6+3jqjx3ec3/0moCqAZ3O42d8kPCEZ9EsWlpbWF5jF+EjQ8eaJ1W2uP3GZhdWiP
+EEvXYqUnQGdNL5USE92PQlfyCa3Ahb/AYbuvS9lyS/8YS1+pN2xl9TK4ZcXfGfYU
+xfKx/8BCVEdr1hqkFKXMWIC9U+VnYm1Jss52EVRb7idG1xzV5eST3icx9+m8qWou
+IWgI0UHD1ujDxhoodrzcoK4KPT9i9bG582vamjP5SWPNl4CbkflS1H9uUJ9hmdLx
+dz6JCYA7hf8ENUAJ4LkVSlDC9UNYk9VwTGcji//gvt98DhlFp8Fyg5cDsTjv/kcm
+PkNJ7Hx5xQ/jQSrekhrtEgdUOLWuWKk9AegC2NuvUsfaVbILq3ux1lBGjS+VGDrH
+ktNqq2NTDMzy/QwC9Gl4hdmaHFAEPOjDSt9VkH/4SAjpMuoi25n7x7TJLlMTc0j+
+Df0rtMTGxrZDu4Zp6q1As36gBmsCrV3XH0LFwz5IPadUdrhcZzVDhlmNgQoYwkQO
+Sc3WogbbKEzOM7TJSwRHxvRBgJeA1mK0A/Xad1VLkZ8T8Wffu004bAuQ3GMC2DhC
+KHnvTh8b0CEhXg3xWkCbqq6s
+=Kc7h
 -----END PGP SIGNATURE-----
 
---===============8536982019678399895==--
+--===============5179382833417658005==--
