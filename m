@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 10 Dec 2020 11:57:09 -0000
-Message-Id: <160760142963.23879.11524761988165618296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 10 Dec 2020 11:57:52 -0000
+Message-Id: <160760147210.24246.18004359000515927983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/tags/for-5.10-rc5-tag
-    old: 16645e9397f4fd21087da7b8205ce43b07fdb629
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/locking/next
+    old: 0000000000000000000000000000000000000000
+    new: 2b27d8716721100a95873d062ecaff90fe887336
