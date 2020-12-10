@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6628925869916791773=="
+Content-Type: multipart/mixed; boundary="===============3778535513500200088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 10 Dec 2020 12:52:34 -0000
-Message-Id: <160760475428.30285.11242457667109493882@gitolite.kernel.org>
+Date: Thu, 10 Dec 2020 12:52:35 -0000
+Message-Id: <160760475544.30390.9132163776360468461@gitolite.kernel.org>
 
---===============6628925869916791773==
+--===============3778535513500200088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,80 +16,88 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 9ce357203965891daf9197888da635e9288e6e2a
-    new: fed3ee81fc63e45ae4cdd60f1a43541a61d0c848
-    log: revlist-9ce357203965-fed3ee81fc63.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 5c4e61c1e93588156e79a19b51b19c5f17b14f05
+    new: f761790c11ce1e7bdd36e0c039d2a49f64ffbe1b
+    log: revlist-5c4e61c1e935-f761790c11ce.txt
 
---===============6628925869916791773==
+--===============3778535513500200088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607604829 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607604830 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1607604749-905379e40e9dd5bbce4678d4186ac8bb58b17e25
+nonce 1607604752-66fc1bd4668d494556b87e33d8f55bc8a4b96efe
 
-9ce357203965891daf9197888da635e9288e6e2a fed3ee81fc63e45ae4cdd60f1a43541a61d0c848 refs/heads/linux-4.19.y
+5c4e61c1e93588156e79a19b51b19c5f17b14f05 f761790c11ce1e7bdd36e0c039d2a49f64ffbe1b refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/SGl0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uRcP/il8ArToTI29ivnFPQ0v
-A3XKDNtfIkessZBJt3Z5f7Brc+OGoJPBPH2QzFHEptkRlxl9O9M8S3p6p4MRSES4
-hsBHWJ43d0843BXVowVknSLpH+CzmhV1bw+V6KsiRGdZx8zAVrx1nTkXzBtEwl3+
-sXPmn2PoAGRK8ZtIEm3sbmVccoio/rP8CmgGvE7X8sc6GJ4VK+Fb/VpNsxFULVD8
-tUrKnyZiZQXr7KrnrpC9Swq5AN7XYh7m3/g0U8K4Hqfzz1bYK5gerkNunuGXEwQ2
-HQoMCRe21K5ySfMQXWBtAwONXIYs95pTAocMJo210Senp23YsjH4bAYSK4fAsxfF
-2xPLee/jqf5suEJNtKYKPOVT1Vzl0ofaGuZN1DaZWaONL+VeNEP7lSPHuGrb71iN
-+kFkOqqWmJLBP+VeTVZX9zYZ9JXkNUB+zDn8u+ntu45Nw0D/RGoibpFtyDAaThKs
-jipEmuaIklXAQCQPE2msPRUXFnaIplVUzon3qOgAYwtZg+ithp9Pl6KNSx+hrTIA
-LTxpxqyrNURnpvQI9byetwYSGpCv/HmDUKBcd7zKW80ucI1P6yYPjUCZwLQQMCdA
-jT7w4x5c84q6UEdZwpvxRAsODiZnpE0UUUPw3/mwX1A9eKB1VpU8rr+tTLwJka5S
-XP3mRIHOHcSE5eOO/ebaPkVR
-=n0//
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/SGl4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZssP/jK8dfEKuLnJhQsltgUi
+FPKSXM2jz1ZWw8n2hpyoIpw00vwCZrQGD/f1OlUAnO14WThmfLl4Ja2LXThymK8b
+Ht8k0f2zyTPNdtl3KmEFocCuCYvCywqwbZptHKpEOyB6u5moCw6k28YaiscY/NB0
+ImoPwtHU0icAKDAKcxxaKQCweqmA3Fi9oDWzzvncZ+5FV2hXpJ1dZerwt7XysELW
+pAOoIQWWNiWI55+9upd9eunCXGtaUShtOwvuIfYZ4A/IM7ZRCnc437bUJ7Upsly6
+e0dyx6fY+QdzkPXtMKY9m2iYOs0WOA6RsrUAK/qY9deY7xy6KyNdDNsfj9NGMEYv
+eTm9+q99YyDcMZJjHYXdGeAn4xbk/Zw/sK+ry6Zj4B6skOpV4igbRfD/oWvQGdUg
+uDZxMQByXq0c2Xvy/LVDJJ2VCV523qwdVeuYsN/STdAwtkn1b2/bLvyn92vwpREW
+dRuWmKZIt3qtucxOrX+PMVdBBDQZV/gdwJd8m9CHnOFPAZ4UDqXWfLeqjcH5FM+N
+ciifDo4Hn+bz3NLTy4oqTsPp1UYp3wU9uRYPuISxbq47JXRuei+Ok76sVQ65OA6/
+d6wI5R5MESAi2q1yx+t4f7ue12D+PMRFuKWfmdGZtjuk5M52daOGTEF++/Xm686R
+0YQK/Rh3fZBK/OcbeA1leUsd
+=s3L8
 -----END PGP SIGNATURE-----
 
---===============6628925869916791773==
+--===============3778535513500200088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ce357203965-fed3ee81fc63.txt
+Content-Disposition: attachment; filename=revlist-5c4e61c1e935-f761790c11ce.txt
 
-8236c18456539607312b9f526e6772039c1ac0c2 pinctrl: baytrail: Replace WARN with dev_info_once when setting direct-irq pin to output
-5d96191e19f255d8df67efa3bbc8fd68cc114814 pinctrl: baytrail: Fix pin being driven low for a while on gpiod_get(..., GPIOD_OUT_HIGH)
-a7b0108e56cc2b7dcc7771fa6af5bb9df60f2cff usb: gadget: f_fs: Use local copy of descriptors for userspace copy
-312cdb441599b3eb18cfe6aa27f7b22604a9b37e USB: serial: kl5kusb105: fix memleak on open
-4eef6ae10f994213483f47b4714ade8c05ca342d USB: serial: ch341: add new Product ID for CH341A
-fd7cbbe8d85ec8ee6ef731981c105ad6b8da0a2e USB: serial: ch341: sort device-id entries
-4592088e67c75faa881a63470d824d171c037a15 USB: serial: option: add Fibocom NL668 variants
-d69261eb0035c94da6d7cd057a063860d9ec1d84 USB: serial: option: add support for Thales Cinterion EXS82
-45e3c6e7ca2195f0cc24ea639bd452e5d2f86726 USB: serial: option: fix Quectel BG96 matching
-71f64fe364123de60e7dd95c2e90fe815cb47da1 tty: Fix ->pgrp locking in tiocspgrp()
-5416925d8d1f61583960d88dc9677959c3e246c4 tty: Fix ->session locking
-90922a522acfb3bc61accd8f72e8725732473571 ALSA: hda/realtek: Add mute LED quirk to yet another HP x360 model
-a8edca0707e9537867f93eec134b8727d81fcb27 ALSA: hda/realtek: Enable headset of ASUS UX482EG & B9400CEA with ALC294
-a44ab316f9eb60196337a97f82aefab8c9cb2184 ALSA: hda/realtek - Add new codec supported for ALC897
-3e23ca8eba1d7c8f4d8964b426d7401159417a33 ALSA: hda/generic: Add option to enforce preferred_dacs pairs
-6f44707d15049a882ff849ff579e73f6a33abd6e ftrace: Fix updating FTRACE_FL_TRAMP
-ae2125a81cf80e3502db8d6ab05ae70a98e42657 cifs: fix potential use-after-free in cifs_echo_request()
-c9a68db2ae8eb934296e415ea10a38477af351b4 i2c: imx: Don't generate STOP condition if arbitration has been lost
-09058738f5b644d82cbefcbc82b5bd20706f1d40 scsi: mpt3sas: Fix ioctl timeout
-5c7e328dc7c3ea73207be3ebe540a6d1e001c931 dm writecache: fix the maximum number of arguments
-d3fad91b99eb392d8ac458fa0cce46304d9d02c0 dm: remove invalid sparse __acquires and __releases annotations
-a389490673eadfa1e6895d5a665709b76743843c mm: list_lru: set shrinker map bit when child nr_items is not zero
-0d4d75bcea89b51ff567f8e2a59933b3e16c9efc mm/swapfile: do not sleep with a spin lock held
-82b3676992d8f6a35284dba48a70b528fbf9d08a x86/uprobes: Do not use prefixes.nbytes when looping over prefixes.bytes
-00835df9fb2c8b17808714a59a164071bbb1eb58 i2c: imx: Fix reset of I2SR_IAL flag
-27fe295bff01ccfbdbfab5feff9a037c3ddc9219 i2c: imx: Check for I2SR_IAL after every byte
-dcb9706b82c744c2b0d4daf576cb2a816fa0e86f speakup: Reject setting the speakup line discipline outside of speakup
-46b95142695a6d829dc1cb03add853de38d02314 iommu/amd: Set DTE[IntTabLen] to represent 512 IRTEs
-024311b61b4257d293169f814d01101ba92d92af spi: Introduce device-managed SPI controller allocation
-214c30f3dde799705f60c26cbe75cba4e69a8df3 spi: bcm-qspi: Fix use-after-free on unbind
-20c2c7425cbfcaf8dfa51e9a6399f5c8692b670b spi: bcm2835: Fix use-after-free on unbind
-49674300cff24d5fa3d11b8c91199e54dfd44bf7 spi: bcm2835: Release the DMA channel if probe fails after dma_init
-75b6c4622d06b818f1d0749ded0dd91c1050f617 tracing: Fix userstacktrace option for instances
-fed3ee81fc63e45ae4cdd60f1a43541a61d0c848 Linux 4.19.163-rc1
+939762598a43b10f67fd2e0fb4076320428366da net/af_iucv: set correct sk_protocol for child sockets
+967faaf550f7f415a55a595d8a171ac2427550a8 rose: Fix Null pointer dereference in rose_send_frame()
+56f06bdaf397c3a1411da0a4d4611db4d7a2788b usbnet: ipheth: fix connectivity with iOS 14
+15f1bd9e5c0f04334faba37dc31b79007be07ca7 bonding: wait for sysfs kobject destruction before freeing struct slave
+609d3eea66ef100b71cbeef96042c885fc8eb01c netfilter: bridge: reset skb->pkt_type after NF_INET_POST_ROUTING traversal
+9cfb8a3c345d2aeb11158eb385d9d99fd1e77e51 ibmvnic: Ensure that SCRQ entry reads are correctly ordered
+a1de2c95774d07d58fd249f9825f8c7e6aff49b6 ibmvnic: Fix TX completion error handling
+bd198b65db4b7877c38dfd47190f90ea26beaa3c net/x25: prevent a couple of overflows
+3db2a8c847873a603f160cca9792f2daa3191d3e cxgb3: fix error return code in t3_sge_alloc_qset()
+db0c1323319e6a8d878f327a812dc35ffd8e69c5 net: pasemi: fix error return code in pasemi_mac_open()
+b0a92460da86a5400cf3a946de31ac144c2ac4ec net/mlx5: Fix wrong address reclaim when command interface is down
+c6a78dd38397fe7946f76ddb62ca44187f5f5866 dt-bindings: net: correct interrupt flags in examples
+76bab869bb5db89711bdabe01b2bc6207491220a Input: xpad - support Ardwiino Controllers
+2a1275c0af7753d122c9a073fcf6a7defa06f7c1 Input: i8042 - add ByteSpeed touchpad to noloop table
+725cd0dfef3a716bfc416919c88f15c1d2a8942d spi: Fix controller unregister order harder
+da6f69aed9c9bfb35a9274c56db059e206b6f66c RDMA/i40iw: Address an mmap handler exploit in i40iw
+6565e2ea8cfe62aab1591c0c6d055d0822ab28aa btrfs: sysfs: init devices outside of the chunk_mutex
+907017853876f7c8fb7df11cb9cfb5349f190b12 pinctrl: baytrail: Replace WARN with dev_info_once when setting direct-irq pin to output
+704c4a8c0c7c710262352cd16d63e5374fdb2319 pinctrl: baytrail: Fix pin being driven low for a while on gpiod_get(..., GPIOD_OUT_HIGH)
+1ca2ad3e8cc9ebf2b4bd087931a08df7ed64d181 vlan: consolidate VLAN parsing code and limit max parsing depth
+6ca78df5b8b7530f5d37c5f5e53e0a9ae6510fb3 geneve: pull IP header before ECN decapsulation
+3d7302a427d8395da686827bae0b4d4a9bb85e1e usb: gadget: f_fs: Use local copy of descriptors for userspace copy
+d54cc8f07424b3938a6481a58645d5a54c700462 USB: serial: kl5kusb105: fix memleak on open
+a2970ad654ee54b103f0cab514b07b968749d9e4 USB: serial: ch341: add new Product ID for CH341A
+e100dba24310ae128cf5d688d5460b16c2d09b52 USB: serial: ch341: sort device-id entries
+1f3172da88d3e8398ef1b38d3d891c9509007a45 USB: serial: option: add Fibocom NL668 variants
+65aff8a5144e29e1dc3e709f22bd0251b7e9cc93 USB: serial: option: add support for Thales Cinterion EXS82
+53f84cabe577f4009b3792222baad2b6c683865f tty: Fix ->pgrp locking in tiocspgrp()
+9780e4d987920fdab1242c86c4a23f1322dfe23e ALSA: hda/realtek - Add new codec supported for ALC897
+d6c888469ea5db680a2551b08e4b1594c92addd7 ALSA: hda/generic: Add option to enforce preferred_dacs pairs
+85d71b129e4bdfd7adf04d14e42c3b2404a6b7f6 tty: Fix ->session locking
+c995d795734ca184f146d771104a35be1a6b64df ftrace: Fix updating FTRACE_FL_TRAMP
+f6d8dd346224a00faae897d22da1821ecd8915d0 cifs: fix potential use-after-free in cifs_echo_request()
+73c1bd821a00407467759605a40ca4c61906536f i2c: imx: Fix reset of I2SR_IAL flag
+718dd0e0b192b0f0fced478f4230947e85df6493 i2c: imx: Check for I2SR_IAL after every byte
+72957b2561cfa1383c18dfa35b467489d933dfa4 iommu/amd: Set DTE[IntTabLen] to represent 512 IRTEs
+616bdcc0472297206e9f2424ed97ae9d852e9cb0 spi: Introduce device-managed SPI controller allocation
+052f12ff27924f640c8f621e21d403ea5be0bfa1 spi: bcm-qspi: Fix use-after-free on unbind
+33dfb10c48193bf200915b9796c65117b1a15d09 spi: bcm2835: Fix use-after-free on unbind
+24b0f7ea05f33fb01ce8aaf857978de9d39d4d90 spi: bcm2835: Release the DMA channel if probe fails after dma_init
+444ecade3888142cc9a9b24d2b8aa0022bb0ef43 tracing: Fix userstacktrace option for instances
+f761790c11ce1e7bdd36e0c039d2a49f64ffbe1b Linux 4.9.248-rc1
 
---===============6628925869916791773==--
+--===============3778535513500200088==--
