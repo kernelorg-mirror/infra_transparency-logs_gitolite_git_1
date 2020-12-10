@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Thu, 10 Dec 2020 20:20:49 -0000
-Message-Id: <160763164932.17946.5997967702029848775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 10 Dec 2020 20:26:22 -0000
+Message-Id: <160763198200.20855.16906842784907871918@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/i2c/for-next
-    old: f5d4c4ff036849bbc7278c1b08c69e1880abe239
-    new: aac085f0884ef18da28b663812268c4eb9b3df93
+  - ref: refs/heads/wip/jgg-for-next
+    old: d1dec0cae5539d678c1e265ba4fcf783c8ec4733
+    new: e0da68994d16b46384cce7b86eb645f1ef7c51ef
     log: |
-         cbfa5b3987c42fe5cd25747aee4fe654b1092fab dt-bindings: i2c: Add compatible string for AM64 SoC
-         bfbccd70eee93c059e22d0d233f57cc164f03687 dt-bindings: i2c: Update DT binding docs to support SiFive FU740 SoC
-         aac085f0884ef18da28b663812268c4eb9b3df93 Merge branch 'i2c/for-5.11' into i2c/for-next
+         286e1d3f9ba89c7db5eecd30f47f9e333843ea13 RDMA/core: Clean up cq pool mechanism
+         779e0bf47632c609c59f527f9711ecd3214dccb0 RDMA/core: Do not indicate device ready when device enablement fails
+         e0da68994d16b46384cce7b86eb645f1ef7c51ef RDMA/uverbs: Fix incorrect variable type
          
