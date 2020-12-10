@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3828001640608499003=="
+Content-Type: multipart/mixed; boundary="===============1722213850688595091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 10 Dec 2020 12:52:31 -0000
-Message-Id: <160760475108.30155.17099332331835194453@gitolite.kernel.org>
+Date: Thu, 10 Dec 2020 12:52:33 -0000
+Message-Id: <160760475397.30261.9791643344554400149@gitolite.kernel.org>
 
---===============3828001640608499003==
+--===============1722213850688595091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,74 +16,83 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: bcb946dd42c0ccb876b0cccd78882d7dfa11e8ab
-    new: e0ba2c4e56dacfd32569335e0b8d0a44342f1ad7
-    log: revlist-bcb946dd42c0-e0ba2c4e56da.txt
+  - ref: refs/heads/linux-4.4.y
+    old: f97ebdadb7a22a6af1f8c516d4a15f77f053fa7c
+    new: a127267017bbbdf8e0305281471a59f4016cb871
+    log: revlist-f97ebdadb7a2-a127267017bb.txt
 
---===============3828001640608499003==
+--===============1722213850688595091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607604826 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607604829 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1607604748-6439a963d097bb9311ab0ce94b02203be40293ba
+nonce 1607604749-905379e40e9dd5bbce4678d4186ac8bb58b17e25
 
-bcb946dd42c0ccb876b0cccd78882d7dfa11e8ab e0ba2c4e56dacfd32569335e0b8d0a44342f1ad7 refs/heads/linux-4.14.y
+f97ebdadb7a22a6af1f8c516d4a15f77f053fa7c a127267017bbbdf8e0305281471a59f4016cb871 refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/SGlobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q5UQAMcInT1J8O578HG9flZn
-MjH8xGFsKgDqYh0XQ81JDCRtZcR1EfeTgvCipIhMy4nLM3yQLIviLoEc4Run8AVt
-g5Pq2RXzYybkgmLRZ81etowIbDm2QR0GiuKNozUgvGFxPPp1+CGG7DMIAPxDtTv4
-BqoAdO0iaT87ZlSOHA9u1By0MbjSunBzdCmrAy786GmG94m8gH29h3q4oW7HbLNz
-YqYQ6JQUCNX1kmFe52LtsPUZP78t3jMAOmUg9uTirI/U09I8gjp34SgOoSbdM73R
-7avcOt+qoEZDtUtUdcuHeUGcqBtM6dnOMFfCfkIHfSPGj2Bux5zME9I9gPYd4HqA
-bIkHhbTNXxAGh1z7le3OvzBosmZ4EcvNj3n1IMmtgKViGOTfmJ2C4bA/RJLFRHin
-xKsIsP7pjBvUqPS3BkaD/pH1SX4D6IvkeeznVMd4E8w77SUTI8tUTx606YBAi3k1
-4PqWcNb04QnrnWkvy+2A+QZunz1DkgXdqd3ndCmOfwQnb31wuLKT5tariHgLNIVJ
-VFWF1PvsrJlm94cDY65Ih86Eho+AKYKbTJY2OpjtbNr4N0pm/evf6MmMezBhMBso
-DyEL53NLg/TJtJXgaEUSWU1CcWbwsWH/UMM8Kcu8MjHPCLCeq6H9z3BZ2HzhZiI2
-WkvioSEP6O/dC2/4dHBS8ZHT
-=bVde
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/SGl0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RcoQALeviDAhPSGiJGy7E5Up
+XM5AmdNgqPXM9xip+vYe4XLPf6y9ugqDZ8DIXsxj/EXV3pvv3O3c3yoXpdCOIS4E
+8QagroIf7xB/ioE4aseQxWWTz8ktkrCvqBClPMqvQs9Usn6BQXr/HNYH3uHVku5O
+P7UizpLS3VbFDhsCKX7ynQjp/GpY0oEHdyOusARW3YoI2qq/8Ae2kI3nbFeuFuyO
+4iaRjUSn5MVvgCG0MSDiIWd7JTzYjZuuZ75grzsc9oqAK6usGokRVEXTPBBxgNsV
+nlh6xgQDacVZcvewoS1j+kgpqBYiFfmgpJYWwme0+qahE8qBZtA93NFxCzyqJXY0
+fZ74xsLygo6wdNWEx32dO8vuiCJM84L+lqlLBznpoXJpln8efkRlgpaZPwdsCF8M
+CrdIM5QD1HVBuBZH12REukvdeoXVQAarGcq3Hwl8EwHz905QkfQbIHhz3n31usis
+6uRKn35O2Wumto9rRHANnCwEJhyuYDck1Q9+DcadvmHAdEm4XXdNEEBifi8gcO+N
+chK22pC4r8CZQx9YbpCxqjvchjwnefcwFYcyR2PDORPIr2ivN0gigrZzD8pxUQjI
+YS+uNtKNWG/oMGb9SOOGWJXGDsq91oQPC6/PLbHrlhsiUL9hoDoRVLZUE4L2Vv9E
+HBBxphu9xBZJgKm9a8od1xjF
+=+A2a
 -----END PGP SIGNATURE-----
 
---===============3828001640608499003==
+--===============1722213850688595091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcb946dd42c0-e0ba2c4e56da.txt
+Content-Disposition: attachment; filename=revlist-f97ebdadb7a2-a127267017bb.txt
 
-335aaab2fc56b76a3bd57201431d02ba382505a7 pinctrl: baytrail: Replace WARN with dev_info_once when setting direct-irq pin to output
-87e48190368454277b98bd0f4570b56f4e3bf1ae pinctrl: baytrail: Fix pin being driven low for a while on gpiod_get(..., GPIOD_OUT_HIGH)
-4c9457530d8642b8b59a005ede496f0fb5c1e960 vlan: consolidate VLAN parsing code and limit max parsing depth
-f72c15ed17d02f74d9c95a809348dbd19acad752 geneve: pull IP header before ECN decapsulation
-7a44af6a5ad0ba33f9da04a51210cc5ff18db8e8 usb: gadget: f_fs: Use local copy of descriptors for userspace copy
-58437a5d8c932a6cc67a568eb9fb15b4748e1fe0 USB: serial: kl5kusb105: fix memleak on open
-418ed47bd98156988fc3f7f24dbd2f68c26195b6 USB: serial: ch341: add new Product ID for CH341A
-26c399846f82eb56cf092654f85a6c16da749b18 USB: serial: ch341: sort device-id entries
-00d022c836cd5677d89a19fe7bf1ac9c220489b6 USB: serial: option: add Fibocom NL668 variants
-073af777d7e2185fbab4566c5b4dfe8f434cfb24 USB: serial: option: add support for Thales Cinterion EXS82
-089e1f7d77a60061a7dba23c6d12944dfeb096c0 USB: serial: option: fix Quectel BG96 matching
-1eb06f5abecf17215bdfd87c579549dae6e07f27 tty: Fix ->pgrp locking in tiocspgrp()
-1089ca578b2f757bbfc358a00a6101d71f72a747 tty: Fix ->session locking
-82643d86e9b060f0ff29aa68a8a70dff232fe4dc ALSA: hda/realtek - Add new codec supported for ALC897
-efd8cf267d427c0f805017d7bc6353c57da0685e ALSA: hda/generic: Add option to enforce preferred_dacs pairs
-e9b6952d35917a838350ae8c965e300a8872aa53 ftrace: Fix updating FTRACE_FL_TRAMP
-21bd38fe1f7f79daff2b44948179d36c7ed3b2ae cifs: fix potential use-after-free in cifs_echo_request()
-d7c6f7201d917d9b0fa214dd53adc81f8f80b501 mm/swapfile: do not sleep with a spin lock held
-74ed6acf580c74b24ac9448de08ca333734183be i2c: imx: Fix reset of I2SR_IAL flag
-4c6664376488bdc473a31ca2312fe8414fdc7c0e i2c: imx: Check for I2SR_IAL after every byte
-f1d17c5dbab4d9e24ac399093e5c179955f08d02 speakup: Reject setting the speakup line discipline outside of speakup
-d1b9994b7f9521233dd7c94070a8957236e97172 iommu/amd: Set DTE[IntTabLen] to represent 512 IRTEs
-d80134e2ef8bc99d53345cc807c32317f09a3db4 spi: Introduce device-managed SPI controller allocation
-a7457e1d97e7d6ff399db7995ed54b831a5aeb7c spi: bcm-qspi: Fix use-after-free on unbind
-fc6efa4daf2d7bd8e75ce684f8f0c6e8dcb55f60 spi: bcm2835: Fix use-after-free on unbind
-8b26dd8d8c0a649c6452cc36c4d06fbdeac59176 spi: bcm2835: Release the DMA channel if probe fails after dma_init
-4514aa1fbe20ac72fc614f515e44159449e26eb0 tracing: Fix userstacktrace option for instances
-e0ba2c4e56dacfd32569335e0b8d0a44342f1ad7 Linux 4.14.212-rc1
+43d9426900fad51e853041b2f923458fd4e48687 net/af_iucv: set correct sk_protocol for child sockets
+19222b7fa105cd3a8f49aac293a76a09fb59bb6c rose: Fix Null pointer dereference in rose_send_frame()
+96f65a2d7013cb024eb44f1f7fb547586c1ae961 usbnet: ipheth: fix connectivity with iOS 14
+12d61e77afaa0725cd6e815b21bc16308439355f bonding: wait for sysfs kobject destruction before freeing struct slave
+4355a01a4ccd0761e5d191153340c5dd1806e469 netfilter: bridge: reset skb->pkt_type after NF_INET_POST_ROUTING traversal
+ce0ccc025a6116b20006aa88f8c000aa32fbffbd net/x25: prevent a couple of overflows
+968f74b68d479c8aa9da4d3722cfee3a388f7def cxgb3: fix error return code in t3_sge_alloc_qset()
+a0b4e4d2fb80a20d8bd9ef0d5ed39c8f01774df1 net: pasemi: fix error return code in pasemi_mac_open()
+4f6f07357912adb384b660927c86874634694426 dt-bindings: net: correct interrupt flags in examples
+ec925b50e637be3e34887739fcde68de09da701a Input: xpad - support Ardwiino Controllers
+6c00423305899f475790ac8308efddda6124fc77 Input: i8042 - add ByteSpeed touchpad to noloop table
+f6ba0b3d50ba1c18f444fdeca7bedb62e90ac998 powerpc: Stop exporting __clear_user which is now inlined.
+7e2f0f81216ea248748038d3be7b0c95e908f766 btrfs: sysfs: init devices outside of the chunk_mutex
+c2ba9145a31a60737e426887972c34912b7c3c9d vlan: consolidate VLAN parsing code and limit max parsing depth
+abdd341b01d7cfd2322fb8a1c509f13cda4d8b2a geneve: pull IP header before ECN decapsulation
+7e89abf6a1429357e050b4506bf13b9c7932f2b3 usb: gadget: f_fs: Use local copy of descriptors for userspace copy
+da237c68439a351cae56711e8cf84b5a66db7452 USB: serial: kl5kusb105: fix memleak on open
+1478597c670cb3f6838db3504b531289b89b0cef USB: serial: ch341: add new Product ID for CH341A
+d23e8b8824eee1350071267773d33fcba58e7db3 USB: serial: ch341: sort device-id entries
+e5e59b5a9b699c0efe0589fab68ac96decfe3742 USB: serial: option: add Fibocom NL668 variants
+3d62ba8fa64f0a7151992724554637f22c172486 USB: serial: option: add support for Thales Cinterion EXS82
+bfd27a8ea5cfa3a5145a54d0998517e78ff0fc79 tty: Fix ->pgrp locking in tiocspgrp()
+86c41627e076bbc47d7c75050c608dc9e6d2e6b5 ALSA: hda/realtek - Add new codec supported for ALC897
+f592a4189483b3abe3ffecca61e7827eb9d1c8b0 ALSA: hda/generic: Add option to enforce preferred_dacs pairs
+e54fa727ee721f25b0fe30cbfcd57816f1863465 tty: Fix ->session locking
+918fd99059ad3a78cd7bae25d691ada46d07ff47 cifs: fix potential use-after-free in cifs_echo_request()
+e79306787ba3301fdb3b34982832d932cb1a6a44 i2c: imx: Fix reset of I2SR_IAL flag
+dacc3e12f12fde4ab105de705981ec8b7a8742d1 i2c: imx: Check for I2SR_IAL after every byte
+a5aa9aa03c356446aa5de66941f5a19a8dcb3af1 arm64: assembler: make adr_l work in modules under KASLR
+91c20b2cb0d065942439d4819cbb22850bd0a0a3 iommu/amd: Set DTE[IntTabLen] to represent 512 IRTEs
+4bbd4a14cec5a84af8b65be50924b29d24b66e7a spi: Introduce device-managed SPI controller allocation
+5d84d412c9ec3bdd38ee43ed95e4f208efdac7c6 spi: bcm2835: Fix use-after-free on unbind
+e3029df43e1e29fe0aec8a3c0fea54efff19e516 spi: bcm2835: Release the DMA channel if probe fails after dma_init
+6df0a9f2e3c326462c2245720e8cf74e39f8cb26 tracing: Fix userstacktrace option for instances
+d20a1905cccbe75a8200c4b85149669eccda7a52 btrfs: cleanup cow block on error
+91dfe69510b3db826d073c084eb09cd7d65c0dec mm/userfaultfd: do not access vma->vm_mm after calling handle_userfault()
+a127267017bbbdf8e0305281471a59f4016cb871 Linux 4.4.248-rc1
 
---===============3828001640608499003==--
+--===============1722213850688595091==--
