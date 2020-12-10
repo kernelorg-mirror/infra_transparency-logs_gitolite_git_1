@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 10 Dec 2020 03:15:40 -0000
-Message-Id: <160757014093.4170.11337348920792052633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 10 Dec 2020 03:21:11 -0000
+Message-Id: <160757047182.7099.16687563500351730140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 8f7e68bb3d4c482faa223ffa3838f7d39129afec
-    new: 46ec4bc84a6a251cbeab344021d6feab63b1b84c
+  - ref: refs/heads/master
+    old: c2af62256e8d6f3c2f72f8678efde75423490c76
+    new: 016ade51a7d9c7b1408de0b0ba3c81f91d12bced
     log: |
-         faf724c90798210da61d936b5489a1f0f3019d62 Documentation: DT: binding documentation for regulator-poweroff
-         99a375938babb0e99176cce1a704f302596a699c dt-bindings: vendor-prefixes: correct the spelling of TQ-Systems GmbH
-         46ec4bc84a6a251cbeab344021d6feab63b1b84c dt-bindings: vendor-prefixes: Add an entry for AmpereComputing.com
+         016ade51a7d9c7b1408de0b0ba3c81f91d12bced net/mlx4: simplify the return expression of mlx4_init_cq_table()
          
