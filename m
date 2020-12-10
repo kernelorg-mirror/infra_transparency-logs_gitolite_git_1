@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1708657735397372653=="
+Content-Type: multipart/mixed; boundary="===============4899702607168464906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 10 Dec 2020 15:40:59 -0000
-Message-Id: <160761485951.3151.231157886913834868@gitolite.kernel.org>
+Date: Thu, 10 Dec 2020 15:41:00 -0000
+Message-Id: <160761486099.3271.6669292221875054123@gitolite.kernel.org>
 
---===============1708657735397372653==
+--===============4899702607168464906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,77 +16,85 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: f4d9ae6d47a42a5f863ae62406170f76e21bf3ab
-    new: ad2d75a4fc6e81e11297320a54abb176b5de8dca
-    log: revlist-f4d9ae6d47a4-ad2d75a4fc6e.txt
+  - ref: refs/heads/linux-4.4.y
+    old: 122526e6e784a9f601f3af74dc6ec0c93ac383a4
+    new: 6564de77497b736985693950cf537add679bfa21
+    log: revlist-122526e6e784-6564de77497b.txt
 
---===============1708657735397372653==
+--===============4899702607168464906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607614934 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607614936 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1607614855-9de4fd3596dbb8f30c28e6ed1d09dcc60cc57504
+nonce 1607614856-c6c8b5580efd13e67256ea28ae91ccce07b04418
 
-f4d9ae6d47a42a5f863ae62406170f76e21bf3ab ad2d75a4fc6e81e11297320a54abb176b5de8dca refs/heads/linux-4.14.y
+122526e6e784a9f601f3af74dc6ec0c93ac383a4 6564de77497b736985693950cf537add679bfa21 refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/SQdYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4GEQAMzltFVftgSysBdfECr6
-PjOO9qtupl2rTyania/R3aDB0ns2mTddUYVckGmbA10f4kOyAYc7L2USo908rSZX
-Tk7LoiOM5xc76bpaFJcfO9iE7Nq9f9gN+j0AMECplnZ8ljxZM3f9y8q+nl1m+GQQ
-QExDvP5nhiwN8YuOiKDexJqSeQu4dP8hOiUGaJ4yjD3+g4gu2prsqhcAG8MaqqUf
-PNb/bDDZdDVSXvLwWnrqgScXB2HDhPA0deor8T/cBiHhGFuN9sp9o6P0gsOGxpXc
-hFphQ4eWtzctSe9S5VQZ22Q9Akvabtxpyd+vs257/Jk1oBa6FL/rqZT+i1zf43HW
-XlFNFU6LwB/4XfAHiYlffxFrFEE6txWZbRzhzhTW6TKFrB1jguZssIyTzCRT9S2L
-UBGZ+MDA+bgPAiC6VlmL2PeInzhC66/krjZqG+yM+U1jqVnfqGkiU+NrpMB6XopF
-CGvtcPFhnDVAdgxYGzlga1quwFJFTiNvlbQrAcp/u4BQA9P9LG0PWgfSlECIENHH
-8LZizYBEe4SJBbQ9I1mF38tDQ99ZjDMdCXgi1G+3IAUZ0c7p3VWvV03EFfWHPPr5
-qzbYbogNSfcCSLq6zxyTX+OclZb5I5E1LbPQaV+KhO3mK+mAvjysfjzd96hlPuc6
-nC06evmrTjQ/SQl7PTRlku9w
-=DEEU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/SQdgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VykQAILXD5Tg9LBqrj5kANiQ
+I9QIbte/iezI5cBb5uyMo4ZZeJPQ3Xf5/z0AlTuLj2XOnxJ3q2DdgW+r29OikNSd
+MtEEo5epFrzblv9bcno5CTPgkLC0io9iaMHWCSsyJdr1WrHBfZ3wzTr8GmmHEhE5
+/ojP3OSx6u6Wzx59SfKz4zGmIA549Arleh8KSUiJk64zBUGxAGEYRnmhbexjHz8D
+Hm/+p42zYotpkWyVhNx1pL0vWe8I1ugRSmcUaXQ5wmDFOlzwQk+Q7Zh/d9c4urNi
+xyCYxlShftq5epgnzj9Ir384hyFzoxXfXRsvK4e8OWAhs3a3OffaWUENuIMgucwI
+Cawi1QEndrXGMz+5TFxkg+0W0okcuR6yp2ejC6r+pTUQbq2IJidqQ0smZGU/iHZ8
+KcIFsx2Cwr9yy4TNFQVBpTxecE5uK/qJ/XD+PsvXsY813lys2QHmjSfsIbTcMmWE
+Ql+TrwknBwjB2pSxtYyzgOVIsIng9ns7wPk15xpOaOVA/3ZN4pmgZZK2fnzt5q0T
+0dipYnsfmWrb4MAWDTJQm8koemvEC8sj+454n35WM2wabUDfU+yh0kDiw1KkD0Yc
+b24k7ZBEoujjuUkQ86cze/XNWQgAL3zynO5tCTjdvmlk3W7dVoYcPXn/jAg7FAb/
+MDx2BeCg0Ld+cEkNpDjhB90+
+=ulL0
 -----END PGP SIGNATURE-----
 
---===============1708657735397372653==
+--===============4899702607168464906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4d9ae6d47a4-ad2d75a4fc6e.txt
+Content-Disposition: attachment; filename=revlist-122526e6e784-6564de77497b.txt
 
-e475697c2c310a266a2a611718a2a7b890dc6040 pinctrl: baytrail: Replace WARN with dev_info_once when setting direct-irq pin to output
-7d56ff157434dce622cbd32c9e09eaca9def0852 pinctrl: baytrail: Fix pin being driven low for a while on gpiod_get(..., GPIOD_OUT_HIGH)
-f8a891e924387c3f9a82874be725c2fbc88ff63a vlan: consolidate VLAN parsing code and limit max parsing depth
-9840c07fe83eef89facdd0dccbaa403c9d5310d6 usb: gadget: f_fs: Use local copy of descriptors for userspace copy
-c5da8ca4ee73edc37296c463443064c2700da965 USB: serial: kl5kusb105: fix memleak on open
-48a40a4540a28f8275d1dcb3cf91b5df24b02695 USB: serial: ch341: add new Product ID for CH341A
-29b968f6e7d170ad9ca241a4a4a18d79b9b76029 USB: serial: ch341: sort device-id entries
-cbfed9f2b6a40bb8d02a145dbd0d6f166e270faf USB: serial: option: add Fibocom NL668 variants
-52799fd9eff43ec500ef55fa27ff4dd6a6ec1bd5 USB: serial: option: add support for Thales Cinterion EXS82
-e059155e7aec058564a8e6316c073f738285fde0 USB: serial: option: fix Quectel BG96 matching
-58a859966f2f0c643288474b591dcbdc6c27222e tty: Fix ->pgrp locking in tiocspgrp()
-10da2c5e7c050752f5049e3228680678bcc6d3bc tty: Fix ->session locking
-e3ec9624e722aac01ffa4530545e8556f790d064 ALSA: hda/realtek - Add new codec supported for ALC897
-95b496f1b3ac9ce8e7d9f6cd8d11999ff6a5a158 ALSA: hda/generic: Add option to enforce preferred_dacs pairs
-ed2518b1fb8db0a9210a308a917092807420f740 ftrace: Fix updating FTRACE_FL_TRAMP
-599681b10f8bb3d48115003007d6606e19edfd9b cifs: fix potential use-after-free in cifs_echo_request()
-449f9f9409d7a2659204c54912d6e2711ae458f3 mm/swapfile: do not sleep with a spin lock held
-bec056153f6f3b5168ed785b2d73ab3f7de55dd7 i2c: imx: Fix reset of I2SR_IAL flag
-466b6869226a342162fb09750d657927d86d5631 i2c: imx: Check for I2SR_IAL after every byte
-d93793e8cc330a58d8472792896c217d0454108b speakup: Reject setting the speakup line discipline outside of speakup
-88f541678a46aff246c8adad199562ff19868a5e iommu/amd: Set DTE[IntTabLen] to represent 512 IRTEs
-afa67d05a447d7cf903859ee078258ea27a198f2 spi: Introduce device-managed SPI controller allocation
-f55c6ec73ac0e1bbb06d3523d88d6d0fcf71b4b4 spi: bcm-qspi: Fix use-after-free on unbind
-c3472eafec3b6c4a6edb98759562ac2985b34df5 spi: bcm2835: Fix use-after-free on unbind
-6cea593ba6917b1433e5e41c29ed61441bea0cee spi: bcm2835: Release the DMA channel if probe fails after dma_init
-aee1060ef5596481f7ffdb5d954f51c8ef067a96 tracing: Fix userstacktrace option for instances
-f2ef05099157cbb4705f654a9012d9fd07024e58 gfs2: check for empty rgrp tree in gfs2_ri_update
-8accde91fc4beae7df97e80fd0971af5262596da i2c: qup: Fix error return code in qup_i2c_bam_schedule_desc()
-067b5b73a48b384179a6def097b87faa54dbf5c0 Input: i8042 - fix error return code in i8042_setup_aux()
-37c23a95b16262371196d931b7daee501f5a1e1c x86/uprobes: Do not use prefixes.nbytes when looping over prefixes.bytes
-ad2d75a4fc6e81e11297320a54abb176b5de8dca Linux 4.14.212-rc1
+1dd9f7327896b180983ad147fb0e8ba5b7f281a6 net/af_iucv: set correct sk_protocol for child sockets
+6e13f106348de11d35d082614096c73a77acba3d rose: Fix Null pointer dereference in rose_send_frame()
+7a00299b5a2a45ac5cd2f0ec3a7e69390a744dc7 usbnet: ipheth: fix connectivity with iOS 14
+03717a9265981d7ed77b325ae7b509383797882d bonding: wait for sysfs kobject destruction before freeing struct slave
+f4360d4325e0f97e24428f9c053e54233013659e netfilter: bridge: reset skb->pkt_type after NF_INET_POST_ROUTING traversal
+eddef35cc861e15d36aa189fe0a2ef37989414b8 net/x25: prevent a couple of overflows
+91066eda4bd3a0fc8b7eb114402c69dfc8a101cb cxgb3: fix error return code in t3_sge_alloc_qset()
+41d7daa909691babe60e02957b0d779b3f2bdb3f net: pasemi: fix error return code in pasemi_mac_open()
+00e46157d849480b3a831252170f5c0f1287db3f dt-bindings: net: correct interrupt flags in examples
+cffe81b93ab8bf608bc72a48d2235a2861641cd0 Input: xpad - support Ardwiino Controllers
+8d54dd6981736bf4874aff43bc92baa4b7b1dde6 Input: i8042 - add ByteSpeed touchpad to noloop table
+f422491d3141a7dbdbc133f1aa0272de6684f397 powerpc: Stop exporting __clear_user which is now inlined.
+7ab3ec115eb3d70ef2197bd09487563cfd795898 btrfs: sysfs: init devices outside of the chunk_mutex
+423c96215eac03c7b556fad28bc7df8c31d13336 vlan: consolidate VLAN parsing code and limit max parsing depth
+1a905224bb0fb10474c383d44304bfe3845ae356 usb: gadget: f_fs: Use local copy of descriptors for userspace copy
+0c4c1e39be6cc8a9e0a3333f572d347cb2a75503 USB: serial: kl5kusb105: fix memleak on open
+8f904a1a7cabd8893e39fdbf85a0509da99d7b50 USB: serial: ch341: add new Product ID for CH341A
+359ea3d4a324eb0b5cf7282a2103d07ffe7b9ea0 USB: serial: ch341: sort device-id entries
+ef3dfe620dd0ff201ae944d2f92f1c332bacd854 USB: serial: option: add Fibocom NL668 variants
+aa19f5404f8daa869c09bae8e8bac74f1e09c80b USB: serial: option: add support for Thales Cinterion EXS82
+7554abb4c12063936c2ea0e2fcb037a15dce67da tty: Fix ->pgrp locking in tiocspgrp()
+15bd1c3e40ea1093fc35e235ba9f5340207e970f ALSA: hda/realtek - Add new codec supported for ALC897
+44ec51f5e81182e939ac1f78b6a5f0d3f7a34e91 ALSA: hda/generic: Add option to enforce preferred_dacs pairs
+62b6fc2b7a42f9d535d5c08cf4dea2cec9b8902d tty: Fix ->session locking
+aa8d0c24daf2e5ba8bd29cd361ba9530bb9e8e14 cifs: fix potential use-after-free in cifs_echo_request()
+67176d4a32f9f0f8c1c3e2b367c103df98776a10 i2c: imx: Fix reset of I2SR_IAL flag
+4489a272e0dd8da8655cd5666230f531b4aafa62 i2c: imx: Check for I2SR_IAL after every byte
+759b6a9560879beb8fff83711caf8cfc18dc19b1 arm64: assembler: make adr_l work in modules under KASLR
+1cbaff20d40552cf43953d8c5666410e33daadcc iommu/amd: Set DTE[IntTabLen] to represent 512 IRTEs
+3dcf5d956d25d50a4f50e3870dc909e9dc67b600 spi: Introduce device-managed SPI controller allocation
+66de772031e28eb7b7a5111ae320d9a50f2e9cfb spi: bcm2835: Fix use-after-free on unbind
+df0bb06a51958c5980fdd91d665739b9c8a831e1 spi: bcm2835: Release the DMA channel if probe fails after dma_init
+be89b2a4a1054b4ece58b264c74fcd87a4cb837c tracing: Fix userstacktrace option for instances
+185c9af65c3e1c14201cdaa934a95b8ce608f8b1 btrfs: cleanup cow block on error
+499cd84d5c0b0b480408baaa0560374292b0765b mm/userfaultfd: do not access vma->vm_mm after calling handle_userfault()
+d1d89608edeb285333f22b31f39fc995724d7e21 gfs2: check for empty rgrp tree in gfs2_ri_update
+8ed8bef355dc3da3be3f11e3863fcf69a35ece3e Input: i8042 - fix error return code in i8042_setup_aux()
+7c1c94ea615f5db24aae132d152fd95ed645b564 x86/uprobes: Do not use prefixes.nbytes when looping over prefixes.bytes
+6564de77497b736985693950cf537add679bfa21 Linux 4.4.248-rc1
 
---===============1708657735397372653==--
+--===============4899702607168464906==--
