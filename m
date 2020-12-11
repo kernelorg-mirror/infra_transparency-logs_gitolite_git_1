@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0880122791774152083=="
+Content-Type: multipart/mixed; boundary="===============0945181795825064722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 11 Dec 2020 17:47:38 -0000
-Message-Id: <160770885817.4311.4996516877407923848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 11 Dec 2020 17:47:44 -0000
+Message-Id: <160770886453.4423.2762217156738849079@gitolite.kernel.org>
 
---===============0880122791774152083==
+--===============0945181795825064722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.10
+  - ref: refs/heads/spi-5.10
     old: e748edd9841306908b4e02dddd0afd1aa1f8b973
     new: 9326e4f1e5dd1a4410c429638d3c412b6fc17040
     log: |
          9326e4f1e5dd1a4410c429638d3c412b6fc17040 spi: Limit the spi device max speed to controller's max speed
          
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/spi-5.11
     old: b0dfd948379c79b8754e224e29b99d30ce0d79b8
     new: 2fee9583198eb97b5351feda7bd825e0f778385c
     log: revlist-b0dfd948379c-2fee9583198e.txt
 
---===============0880122791774152083==
+--===============0945181795825064722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1607708850 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1607708855-08c04d3c230d2f6713df4b0e477bd4e599a73977
+pusher C3F436CA30F5D8EB 1607708857 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1607708861-ce951ed3ae7c0d23d4175009399c2a8994863fa4
 
-e748edd9841306908b4e02dddd0afd1aa1f8b973 9326e4f1e5dd1a4410c429638d3c412b6fc17040 refs/heads/for-5.10
-b0dfd948379c79b8754e224e29b99d30ce0d79b8 2fee9583198eb97b5351feda7bd825e0f778385c refs/heads/for-5.11
+e748edd9841306908b4e02dddd0afd1aa1f8b973 9326e4f1e5dd1a4410c429638d3c412b6fc17040 refs/heads/spi-5.10
+b0dfd948379c79b8754e224e29b99d30ce0d79b8 2fee9583198eb97b5351feda7bd825e0f778385c refs/heads/spi-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/TsLIACgkQJNaLcl1U
-h9CpUQgAgXaJVdVDj7/ACskIFNWDdh3KFgQXa1eK0HrwvJ6Z73yEV/0hMejPmgSU
-wF7Vn3i99Y/RKym/SNr3L22cheUBFHOx0HObWDAC1ixvw5xAdYIda84Fu3+1gFHh
-RvXwPsgHWx/FyTBJYSN7jwtAXY+qD9Wf7AIkrgAHAFJGrSlGXy2wrK+B+HE0LnMm
-mFXuusQONV3Muf2kJ008tJRlOktEf5bKrQpNk0Uq9y84p3mrHPhCuab2eY4kVy/R
-35g2whxhLuqU4RPAd5Sc7rfGy08ZVBcJ8Ku54Gvkc2Y9eA1ATMI2OOlnv8m69Qje
-I5Ij1QKb3ETCxUzy3eeO4UeH5Ykeuw==
-=tLb4
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/TsLkACgkQJNaLcl1U
+h9C9Dgf9EqcfOdFRemPV19uGntkOUuXMGJPvEFVVYRq1tL8DNyqBeVnnbiPSDBVX
+NKgpjk4P6XzFKwPGUOjaNM9xF2HvGKRPpLbp2MJpO9MLLdfrkmrj5ezFMklvbG+c
++CYQuQZkrr9mJTv/2Z/MyF8FiO47oH3AUk414GL86m+DYMrhkALp4520gF4T3Rl+
+yTsbDpDkmYe0D69uam+2zIE8XrFfexsVhMwrv8+2U0ZXR1c1ThbzEaF9h9tBuCSn
+URmIq6HvbU8DWxsJt87etErYdzUXqiYb65fSanbRCSarPxfLyQ6ip+HH1qLeWxU3
+nLqm1bdq5xr0iGDpz8LRwVuS5cWQpA==
+=3DbB
 -----END PGP SIGNATURE-----
 
---===============0880122791774152083==
+--===============0945181795825064722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1083,4 +1083,4 @@ b65054597872ce3aefbc6a666385eabdf9e288da Linux 5.10-rc6
 49ab19a4a51a31cb06992386cec4be82ebca5a2d Merge series "spi: spi-geni-qcom: Use gpio descriptors for CS" from Stephen Boyd <swboyd@chromium.org>:
 2fee9583198eb97b5351feda7bd825e0f778385c spi: dt-bindings: clarify CS behavior for spi-cs-high and gpio descriptors
 
---===============0880122791774152083==--
+--===============0945181795825064722==--
