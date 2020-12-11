@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7219120474938137586=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 11 Dec 2020 15:50:50 -0000
-Message-Id: <160770185041.24997.13226884238141099654@gitolite.kernel.org>
-
---===============7219120474938137586==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 11 Dec 2020 15:52:17 -0000
+Message-Id: <160770193786.25589.8167837612774074905@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 75706039b360946f1906b661df7f0499fb5bf110
-    new: e76a6260a1e0a8c81f0e9e0d70d8551c71086970
+  - ref: refs/heads/queue/4.14
+    old: 798f30d81689201af8680b39ee38b254130d1522
+    new: 828f237bed12b65c28808a02a9aedd5fbbcdfa4c
     log: |
-         e76a6260a1e0a8c81f0e9e0d70d8551c71086970 5.9-stable patches
+         81b86b00562760850ec437d1f9dfd9a0669d4ae0 spi: bcm2835aux: Fix use-after-free on unbind
+         828f237bed12b65c28808a02a9aedd5fbbcdfa4c spi: bcm2835aux: Restore err assignment in bcm2835aux_spi_probe
          
-
---===============7219120474938137586==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607701924 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1607701848-ed0cc4ab70267f43a3f295e9634f77e6bab7ac5a
-
-75706039b360946f1906b661df7f0499fb5bf110 e76a6260a1e0a8c81f0e9e0d70d8551c71086970 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/TlaQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PpIP/A4WJhfX5WVU35kK/0he
-kpPvzU1qLdRmsUKX1E2TP/E8yDhRz1Ux+DVUIigXwBrlw++UmyGk9KtTQzbwK6oF
-JhggLnJAJ7+MldKJhcnU+GrouG2WNqJJXDtk1SLddc3Q6ZZIhPZtf5ZhWuqPD/wC
-Wu5PMmKZX/3wB88g7rNgUkbCR3J+4bz04Jeb/dLzPqu8IfeccwFHfV0ZsVdwynVP
-Hapsiyhznfcx9HZP8UvrGWp+77lPWqfSwS0NxVnBRqFjkYRNgmln4+lR5tDfEoRz
-KLNP817tmY3/tP4jwMEHDujFwGiFz/FxfXNzJRgT/9r1Xgs6GGah8ruP1FnN5UX4
-pFVNrni8Z2R9ST1UR4dIy5WZ5SiUyPSIxFpuzZHXnwXlL8OgIreHJJ8EkL0fcQWX
-6Hew12ax9r8ti03Tps99HjIpi//wlG/PgKUtWNhJgTewD8mDwcRTekyze4opSNQS
-GiR3nN6qm0p1NG9j1gguUBhZcMHDXHd+fOU+9SUElHhBNPA+iA44KStCQvi+s6vS
-waQfgPCk9sDu1T3Ihi2MnjnCiPHHOibPzFJVdb/mmtiz5mqpIpLjl1pozLopKIge
-eapTRCVeo3Vf1M8QO4+B0CWjCUk7eX332ZPgp/6fUhtYGg7Uv8j8rzzsGWazptgQ
-SvlKi1LfifA8PZb9hePIQOoR
-=xJ2O
------END PGP SIGNATURE-----
-
---===============7219120474938137586==--
+  - ref: refs/heads/queue/4.19
+    old: 6ed540daf6272d220f6a14a91a68866ab05a8837
+    new: 9e283be7166588ed84bf8061f9bed711436e172d
+    log: |
+         7e698a2432c23042c54a8a4a91f0fe43c05323f9 Kbuild: do not emit debug info for assembly with LLVM_IAS=1
+         e8d2b9b9dbadc9c9384aa7b64354bee4b16c946e x86/lib: Change .weak to SYM_FUNC_START_WEAK for arch/x86/lib/mem*_64.S
+         970f3d49c934f8eb1e533253100f42a95941abe4 spi: bcm2835aux: Fix use-after-free on unbind
+         9e283be7166588ed84bf8061f9bed711436e172d spi: bcm2835aux: Restore err assignment in bcm2835aux_spi_probe
+         
+  - ref: refs/heads/queue/4.4
+    old: b20c1fc60088cea6a8e6fe97311869e135253067
+    new: 8aa5d7889b3d336b0d3702a3699f58013876d33b
+    log: |
+         75685103e811925ea13d20e2f881947d5e5141c0 spi: bcm2835aux: Fix use-after-free on unbind
+         8aa5d7889b3d336b0d3702a3699f58013876d33b spi: bcm2835aux: Restore err assignment in bcm2835aux_spi_probe
+         
+  - ref: refs/heads/queue/4.9
+    old: dbe0bff17846a837bd2ad81f3b692db9d9f721f9
+    new: 203047c77375d1c10699792088f3fd9653a73ef3
+    log: |
+         b3afde062afea864456a8357605efbd3b5bbc7e1 spi: bcm2835aux: Fix use-after-free on unbind
+         203047c77375d1c10699792088f3fd9653a73ef3 spi: bcm2835aux: Restore err assignment in bcm2835aux_spi_probe
+         
+  - ref: refs/heads/queue/5.4
+    old: 60abc5efd912ff85ea26a039601bbe099bd96fa5
+    new: 8d4c726ea6e68951ebc9c9a6289cefb80c5fd67e
+    log: |
+         2df7abb3b97b29101ade179308419253f12cacec Kbuild: do not emit debug info for assembly with LLVM_IAS=1
+         8d4c726ea6e68951ebc9c9a6289cefb80c5fd67e x86/lib: Change .weak to SYM_FUNC_START_WEAK for arch/x86/lib/mem*_64.S
+         
+  - ref: refs/heads/queue/5.9
+    old: a6042d4761e767f95eddcac3e542f78f2209a8f8
+    new: b82c7709fb8b6504e2f6e0630a712d510c4d71b9
+    log: |
+         b82c7709fb8b6504e2f6e0630a712d510c4d71b9 Kbuild: do not emit debug info for assembly with LLVM_IAS=1
+         
