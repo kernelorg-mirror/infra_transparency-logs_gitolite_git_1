@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 11 Dec 2020 03:57:20 -0000
-Message-Id: <160765904073.19705.145428705461561278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 11 Dec 2020 05:07:03 -0000
+Message-Id: <160766322320.676.14116918743013375442@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/for-next
-    old: 60a2a8ff3380d42090dd9f9c9ed0987c527254dc
-    new: 04e9ab75267489224364fa510a88ada83e11c325
+  - ref: refs/heads/fixes
+    old: 30aca1bacb398dec6c1ed5eeca33f355bd7b6203
+    new: ccbbfd1cbf365b38d014351d1482fedd26282041
     log: |
-         04e9ab75267489224364fa510a88ada83e11c325 dt-bindings: mtd: convert "fixed-partitions" to the json-schema
+         ccbbfd1cbf365b38d014351d1482fedd26282041 RISC-V: Define get_cycles64() regardless of M-mode
          
