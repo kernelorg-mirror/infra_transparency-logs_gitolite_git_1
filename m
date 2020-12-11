@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 11 Dec 2020 05:10:46 -0000
-Message-Id: <160766344642.3201.16489382531203680830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 11 Dec 2020 05:18:05 -0000
+Message-Id: <160766388559.6587.10777161450420533200@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/dev
-    old: 1825c8d7ce93c4725cb04ad09627fc2829de32ca
-    new: d8b3df8b1048405e73558b88cba2adf29490d468
+  - ref: refs/heads/master
+    old: ffd0a37778ca9efd41c9780ca662a4918ff990cd
+    new: a67079b03165a17f9aceab3dd26b1638af68e0fc
     log: |
-         d8b3df8b1048405e73558b88cba2adf29490d468 erofs: avoid using generic_block_bmap
+         a67079b03165a17f9aceab3dd26b1638af68e0fc selftests/bpf: fix bpf_testmod.ko recompilation logic
          
