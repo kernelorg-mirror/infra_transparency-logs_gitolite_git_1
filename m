@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 11 Dec 2020 21:19:11 -0000
-Message-Id: <160772155183.8211.7352799209552813418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 11 Dec 2020 21:27:10 -0000
+Message-Id: <160772203025.13071.897423216809451536@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/dev-queue
-    old: f4b0f3d0160b7ac07633c9758d3de5dc51139d06
-    new: 2457231b043d41d5b3f88affe3965574776c65ee
-    log: |
-         1b019b4441a4285b312c1ae7374ddc5f3fd173e4 ice, xsk: clear the status bits for the next_to_use descriptor
-         2457231b043d41d5b3f88affe3965574776c65ee i40e, xsk: clear the status bits for the next_to_use descriptor
-         
+  - ref: refs/tags/riscv-for-linus-5.10-rc8
+    old: 0000000000000000000000000000000000000000
+    new: abd5df73ed2977794ef1fd35cf49a58d5d5ee666
+  - ref: refs/tags/v5.10-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 2884f0b6b25db35053dd51e8e1839696746d8321
+  - ref: refs/tags/v5.10-rc7
+    old: 0000000000000000000000000000000000000000
+    new: dd0039844c8b2b960d0e0175923da0135f87c392
