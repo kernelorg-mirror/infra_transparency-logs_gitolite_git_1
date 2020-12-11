@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3889537641713546285=="
+Content-Type: multipart/mixed; boundary="===============6950532322210822928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 11 Dec 2020 16:15:07 -0000
-Message-Id: <160770330770.10064.9528528533120267680@gitolite.kernel.org>
+Date: Fri, 11 Dec 2020 16:15:43 -0000
+Message-Id: <160770334325.10309.9484496148655653191@gitolite.kernel.org>
 
---===============3889537641713546285==
+--===============6950532322210822928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 492096ecfa39d5b6a82a6959b848b78d0112bb09
-    new: be1b500212541a70006887bae558ff834d7365d0
-    log: revlist-492096ecfa39-be1b50021254.txt
+  - ref: refs/heads/for-next
+    old: 57a6552b3a63da4527dd75b1cc05219f70bafa97
+    new: 4433cfa53d3e94e6426dc5f63cdd05feca397736
+    log: revlist-57a6552b3a63-4433cfa53d3e.txt
 
---===============3889537641713546285==
+--===============6950532322210822928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-492096ecfa39-be1b50021254.txt
+Content-Disposition: attachment; filename=revlist-57a6552b3a63-4433cfa53d3e.txt
 
 62eebd5247c4e4ce08826ad5995cf4dd7ce919dd scsi: qedi: Fix missing destroy_workqueue() on error in __qedi_probe
 97031ccffa4f62728602bfea8439dd045cd3aeb2 scsi: pm80xx: Fix error return in pm8001_pci_probe()
@@ -70,5 +70,6 @@ bb855f2a5d7eb8f270eb30fda9b2b87cd682212c scsi: mpt3sas: Add persistent Master tr
 0e17a87c5950b91aa5ed11ba569b46dea13b1e0d scsi: mpt3sas: Add persistent MPI trigger page
 9b271c69128b46e2735df732819c5a5b1f4252af scsi: mpt3sas: Handle trigger page after firmware update
 be1b500212541a70006887bae558ff834d7365d0 scsi: mpt3sas: Update driver version to 36.100.00.00
+4433cfa53d3e94e6426dc5f63cdd05feca397736 Merge branch 'misc' into for-next
 
---===============3889537641713546285==--
+--===============6950532322210822928==--
