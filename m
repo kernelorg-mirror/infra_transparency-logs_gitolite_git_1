@@ -1,24 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Fri, 11 Dec 2020 14:51:56 -0000
-Message-Id: <160769831676.20994.11826813788169901891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/vfs
+Date: Fri, 11 Dec 2020 14:52:20 -0000
+Message-Id: <160769834084.21170.1232072841276466408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/linux/kernel/git/mszeredi/vfs
+user: mszeredi
 changes:
-  - ref: refs/heads/patchset/per-userspace-rlimit/v2.2
-    old: cf5d6cd40d2eb7e9d016de45ad0148d28b7f9139
-    new: f2fb7c7294132c77fd7f3a5e3d934d8683f1c2af
+  - ref: refs/heads/overlayfs-next
+    old: c11faf32599fee59f33896c8d59f9b3c17ca76fc
+    new: 04e100dce6ece891f593a9269a8ce9a1395c5dc4
     log: |
-         f9c1fba78b8b9a71562d4eaf943148fd7a4c3a08 Increase size of ucounts to atomic_long_t
-         09bc7e49befe1a03f64f2849257bc9885ee349f3 Move RLIMIT_NPROC counter to ucounts
-         ad27065462c7846d411aa123e345b631a13b1f68 Move RLIMIT_MSGQUEUE counter to ucounts
-         450d09269330a47d467df156c655f02700c30ca3 Move RLIMIT_SIGPENDING counter to ucounts
-         91c6ceeaeaedc0b47f4954fa58b9fd60e40fee04 Move RLIMIT_MEMLOCK counter to ucounts
-         f2fb7c7294132c77fd7f3a5e3d934d8683f1c2af Move RLIMIT_NPROC check to the place where we increment the counter
+         0d14778d28ca6d1742bb6912afe81808251078b8 vfs: move cap_convert_nscap() call into vfs_setxattr()
+         8d542b5e94e425914ea7e34969f618d209102516 vfs: verify source area in vfs_dedupe_file_range_one()
+         7e811f355792e219a1e33cdefbede0a975193cc8 ovl: check privs before decoding file handle
+         27552d7827c03c142d0b9a70198a308f35adea08 ovl: make ioctl() safe
+         ba97b78c92ff01600bc920226437f429204a918c ovl: simplify file splice
+         ad29e0da2fe569c1a70e2abaf073fb008b654693 ovl: user xattr
+         7f42baa9ea6dd7dad89efcb1d703e5bd7a8b522c ovl: do not fail when setting origin xattr
+         982752437f83041d3ac1bbd40d1b47afc622e222 ovl: do not fail because of O_NOATIME
+         fdf8ca558ecbddef69c0bbecd97df3cacaa40baf ovl: do not get metacopy for userxattr
+         5537b9ada9c31fbf1ee19a269c29bdd25bcb47e4 ovl: unprivieged mounts
+         04e100dce6ece891f593a9269a8ce9a1395c5dc4 Merge branch 'ovl-unpriv-v3' into overlayfs-next
          
