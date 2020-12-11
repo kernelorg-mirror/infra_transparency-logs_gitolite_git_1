@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3060689227401808878=="
+Content-Type: multipart/mixed; boundary="===============1306774820282784234=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 11 Dec 2020 18:23:08 -0000
-Message-Id: <160771098866.26168.12817191575358973364@gitolite.kernel.org>
+Date: Fri, 11 Dec 2020 18:23:19 -0000
+Message-Id: <160771099966.26301.12888796863509443164@gitolite.kernel.org>
 
---===============3060689227401808878==
+--===============1306774820282784234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/linux-next
+  - ref: refs/heads/bleeding-edge
+    old: 58dfa0fa290bb4c04c0dc3838b5cbce2caec7775
+    new: cb0704cb81efd5cb799c8d32e10dcaa234eec15b
+    log: revlist-58dfa0fa290b-cb0704cb81ef.txt
+  - ref: refs/heads/testing
     old: 58dfa0fa290bb4c04c0dc3838b5cbce2caec7775
     new: cb0704cb81efd5cb799c8d32e10dcaa234eec15b
     log: revlist-58dfa0fa290b-cb0704cb81ef.txt
 
---===============3060689227401808878==
+--===============1306774820282784234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +75,4 @@ a834ecc967a356eabe764b7439b3877e93822dca Merge branches 'acpi-scan' and 'pm-em' 
 bde0870d1bd70cb7d54da55cccc975a02e2e6c52 Merge tag 'devfreq-next-for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
 cb0704cb81efd5cb799c8d32e10dcaa234eec15b Merge branch 'pm-devfreq' into linux-next
 
---===============3060689227401808878==--
+--===============1306774820282784234==--
