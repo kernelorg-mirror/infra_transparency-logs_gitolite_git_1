@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1480733943290043964=="
+Content-Type: multipart/mixed; boundary="===============5132921909391579252=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 11 Dec 2020 17:47:14 -0000
-Message-Id: <160770883431.3804.3215515635032404512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 11 Dec 2020 17:47:20 -0000
+Message-Id: <160770884026.3951.17183942196778894294@gitolite.kernel.org>
 
---===============1480733943290043964==
+--===============5132921909391579252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.10
+  - ref: refs/heads/asoc-5.10
     old: 718c406e1ffaca4eac987b957bbb36ce1090797a
     new: 85a7555575a0e48f9b73db310d0d762a08a46d63
     log: |
          85a7555575a0e48f9b73db310d0d762a08a46d63 ASoC: wm_adsp: remove "ctl" from list on error in wm_adsp_create_control()
          
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 342fbb7578d1741ff646d7b08e14e8753267b9fa
     new: 84de089e770b57280d87dff51be894b6fda18810
     log: revlist-342fbb7578d1-84de089e770b.txt
 
---===============1480733943290043964==
+--===============5132921909391579252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1607708827 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1607708832-078b1c773523dee317aa4e3847fb4c9e6f02fc22
+pusher C3F436CA30F5D8EB 1607708833 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1607708837-467c4b37bbf9f36ecb243acd6fe2db4064207187
 
-718c406e1ffaca4eac987b957bbb36ce1090797a 85a7555575a0e48f9b73db310d0d762a08a46d63 refs/heads/for-5.10
-342fbb7578d1741ff646d7b08e14e8753267b9fa 84de089e770b57280d87dff51be894b6fda18810 refs/heads/for-5.11
+718c406e1ffaca4eac987b957bbb36ce1090797a 85a7555575a0e48f9b73db310d0d762a08a46d63 refs/heads/asoc-5.10
+342fbb7578d1741ff646d7b08e14e8753267b9fa 84de089e770b57280d87dff51be894b6fda18810 refs/heads/asoc-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/TsJsACgkQJNaLcl1U
-h9Brpwf/eDF2LDMuP70BWvXaQfgipO7aMBNeWUiLi8pn6xKvGbdqMC/QWppsFJup
-zvsjqnD8o7vpF7lV18kZR7O2hIz7ysmIQl/EHyZm8UGHthhwFAAdEtOO4VGbSDrT
-b/M/2IXOUZaoqhQHDqBYe0Yx8QXled6Wwtp/jEeJAqeFaU2T0Giy1c0dGZsYqOu/
-qy0MGqxgPEPNYYBQP0fBMOstJHGobvEGNdKrkPgPqWPe5fZ42xJ5Z+v9py20EIYg
-KbSf3O0d/aRbqerURB7wfhlbTFuCpClNxuiJXhU9AqXmdF010MQXlhm6ybzAGPcz
-kvDRQ6a1oCKwMOTHNZeXplkLQI5Fxw==
-=DsAA
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/TsKEACgkQJNaLcl1U
+h9BOwwf9H9GvSXjsVz0BUoQdw29rqSo8Vj/MiFjCyJ6WMNF+5lUzgb90zC81eQ5B
+ZTv8hlgDByvYmDhFMjm98Vv8cHddOkVsD+fj+De8ZtOraHrHI3SNVpiAi6Msa9qB
+UsVgEe8jUpD3qCQYS6NdUAQ2RCPMe+X3KPpe0TllsN6IMdBlXlHco6GcvHgnnECq
+TP5gZRIgZq9/EmgDjKYTFS9wFQcyjCqp1Ymr0q+bfUsxeQ0BYWxOtiC579UVoh2s
+JDrQNQ8MHTI1k3tNfLwpJoveZjT9ehLlS7j5Viq1hmDAR6831zmMAxrDi0X7dais
+V1i0bZXHPVV3GOdbCUeYFX/J08hpPQ==
+=wmH2
 -----END PGP SIGNATURE-----
 
---===============1480733943290043964==
+--===============5132921909391579252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ de96bd7b7e9b4cf855fb6d1c7ce32a15dfbdfd92 ASoC: mediatek: mt8183: add PM ops to m
 51e325f7f829478498f963deea8e161c7d537fb6 Merge series "ASoC: rt1015p: delay 300ms for waiting calibration" from Tzung-Bi Shih <tzungbi@google.com>:
 84de089e770b57280d87dff51be894b6fda18810 Merge series "ASoC: SOF: Intel: fix to dsp state dump trace levels" from Kai Vehmanen <kai.vehmanen@linux.intel.com>:
 
---===============1480733943290043964==--
+--===============5132921909391579252==--
