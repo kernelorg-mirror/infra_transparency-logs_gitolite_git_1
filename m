@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============8226880477043179428=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 11 Dec 2020 23:02:56 -0000
-Message-Id: <160772777657.8134.269634267594414463@gitolite.kernel.org>
-
---===============8226880477043179428==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Fri, 11 Dec 2020 23:20:22 -0000
+Message-Id: <160772882239.20416.6978165420840528041@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: c41f94b0f5c9ff2f56eae628b30d5b59f785481e
-    new: 7fd417718e2cde644fd6b6529ca30bfb10ba3a01
+  - ref: refs/heads/pci/enumeration
+    old: 0af6e21eed2778e68139941389460e2a00d6ef8e
+    new: b051b15edbc552758191b6da5956da0c807b9edc
     log: |
-         7fd417718e2cde644fd6b6529ca30bfb10ba3a01 Rework b4 pr exploder for transparency log needs
+         b051b15edbc552758191b6da5956da0c807b9edc PCI/ACPI: Fix companion lookup for device 0 on the root bus
          
-
---===============8226880477043179428==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1607727776 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1607727776-a4b4abdc16e77ca94058e3f8e40b2127350e06ad
-
-c41f94b0f5c9ff2f56eae628b30d5b59f785481e 7fd417718e2cde644fd6b6529ca30bfb10ba3a01 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX9P6oAAKCRC2xBzjVmSZ
-bJTgAQD+06B2ewnfp28MqdttiiJHOD0Rz8IyfvEUoQZs27//LgD/XmNCRZd8dC+7
-kpb5i03DVKZciMTYU5IHWrKy32tJkAc=
-=QmDj
------END PGP SIGNATURE-----
-
---===============8226880477043179428==--
