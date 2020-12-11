@@ -1,112 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============7831141316737291037=="
+Content-Type: multipart/mixed; boundary="===============3060689227401808878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 11 Dec 2020 17:59:40 -0000
-Message-Id: <160770958080.10697.14629850257095362722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 11 Dec 2020 18:23:08 -0000
+Message-Id: <160771098866.26168.12817191575358973364@gitolite.kernel.org>
 
---===============7831141316737291037==
+--===============3060689227401808878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/dev-queue
-    old: ff4d3121d06fdad2c62437daa4aa63b4723e36d6
-    new: 473048825bfb51289a8583b04dd8aa95aadd3044
-    log: revlist-ff4d3121d06f-473048825bfb.txt
+  - ref: refs/heads/linux-next
+    old: 58dfa0fa290bb4c04c0dc3838b5cbce2caec7775
+    new: cb0704cb81efd5cb799c8d32e10dcaa234eec15b
+    log: revlist-58dfa0fa290b-cb0704cb81ef.txt
 
---===============7831141316737291037==
+--===============3060689227401808878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff4d3121d06f-473048825bfb.txt
+Content-Disposition: attachment; filename=revlist-58dfa0fa290b-cb0704cb81ef.txt
 
-f7bbc1273866fd4f253b13102dfacb70263c6e5b ixgbe: don't propagate -ENODEV from ixgbe_mii_bus_init()
-1de4d0ab6b0db95ac5b8b88fc343b99dd2e1f134 ice: Replace one-element array with flexible-array member
-a7f8d7bbba60c941e9422b8f9d0c249b99898352 ice: create flash_info structure and separate NVM version
-2db714224c94ef299dbba7db313725389a7fe3fe ice: cache NVM module bank information
-aca0f697774a2194bb0c4546c609e9f061823c34 ice: read security revision to ice_nvm_info and ice_orom_info
-dadff113f6ea1815d1fb87f0f354c28f50e08e33 ice: add devlink parameters to read and write minimum security revision
-3b0e2ae1c2f95c7a670fe9c95fd71d3b0d6d6717 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
-429e41e7493487f7e82bcfdbbf7e03f236ca7522 i40e: Fix Error I40E_AQ_RC_EINVAL when removing VFs
-df2c199dad73dad762bae36a1438b9c200bfa3fa e1000: drop unneeded assignment in e1000_set_itr()
-8b1e8b05e0def53740a3ce32f8cc61192f5f5f9b ice: remove dead code
-1d1104b1e30c4ec03507ba8dd7e4e03ea8e5721a igc: reinit_locked() should be called with rtnl_lock
-35a7a3cfe7ca9e0e6ede86b900a9dc59df6304e3 e1000e: add rtnl_lock() to e1000_reset_task
-17be73c4b390a54604c67e13413201337e7afbc5 i40e: Add hardware configuration for software based DCB
-f1fc01a904e14b432b83fa3542ec00bed4a1d8bd i40e: Add init and default config of software based DCB
-923f2925679b02f85a5da120a18a17b268893ff6 i40e: Add netlink callbacks support for software based DCB
-4c321ef2ab12a3d12f90ee508245cce3c86cc64b ice: Remove xsk_buff_pool from VSI structure
-43483dcb31045ba36ac703314ca664429e339a95 igc: Fix igc_ptp_rx_pktstamp()
-139a210f26fde2f31d18a1dc48d7f55f9c016ab4 igc: Remove unused argument from igc_tx_cmd_type()
-b73c1cc60593c6a1eeb914b32192b65639a91212 igc: Introduce igc_rx_buffer_flip() helper
-d8c90662ca75377f03105c4c910ade66f43b0ac3 igc: Introduce igc_get_rx_frame_truesize() helper
-462f8a5aef34e8774345a8ee6c454ac5d41d9b95 igc: Refactor Rx timestamp handling
-3a18a6adde8f3e4e71c677f25a9850a483ee62cb igc: Add set/clear large buffer helpers
-a507592f667af293031a4aaed780aa1db9bb9bf6 igc: Add initial XDP support
-2615c1971e9704c0a987e86404802d31c39ab50c igc: Add support for XDP_TX action
-ba2a2aa3003a6ca22bfdeb1e75330d3d9a665751 igc: Add support for XDP_REDIRECT action
-351ebc77241b6d70913ac73fa419e9cb17711687 i40e: Fix memory leak in i40e_probe
-87ca5ffa355ba37a7bcec690fd03c08fe942afc5 igb: XDP xmit back fix error code
-1a644b0ca1cb637e06a0213fc5233e659e300437 igb: take vlan double header into account
-92bf6aa89301ba49c0e8f602b9354bdaac41a1c0 igb: XDP extack message on error
-1a08b9928668252a1ef1e6842215034d58a9a262 igb: skb add metasize for xdp
-da78ebba0a74ebe950c86dd2974285865eaf5759 igb: use xdp_do_flush
-55cbb6f636ffe438df61c4e288dbb929d4354f47 igb: avoid transmit queue timeout in xdp path
-d25ecb4e59559ccaad26ca4b22cfc5224c484a9b ice: report timeout length for erasing during devlink flash
-0a8c14b52d6b221a39abacd624acb2c6e9b78755 ice: introduce context struct for info report
-52c02aa9741c7636e4de23a42e0e234ac2e62968 ice: refactor interface for ice_read_flash_module
-431b771f478e69e4759f6c02557fdf819c1adcd4 ice: allow reading inactive flash security revision
-746b88f67de7717f85017c731948ad949eef0c8e ice: allow reading arbitrary size data with read_flash_module
-919b2e4ab5d2a262f8a993656a6da3d23e484501 ice: display some stored NVM versions via devlink info
-e87467b3e372f68a7b44332e7b24e18e3899f74f ice: display stored netlist versions via devlink info
-9573f7361d37c61299b864833a5266e61f61cfef ice: display stored UNDI firmware version via devlink info
-53f00c326261201735b3203f28f9fb62588aeca2 ixgbe: Support external GBE SerDes PHY BCM54616s
-8ee151d842347d4c84502daa2def8ec57d7b67bf i40e: remove the useless value assignment in i40e_clean_adminq_subtask
-e3c779c4d6972563cc97ac710edf6844eb88dd12 i40e: Add Rx errors aggregation
-a0c098d27b2bba75307a74d29c40034673cbd8e2 igc: fix link speed advertising
-c5ac2d1552c0696255ec243650b01767f98312e3 i40e: Add zero-initialization of AQ command structures
-0286810b193907810f15919aaff3efff14b21211 ice: fix FDir IPv6 flexbyte
-3873d03a98a7d859081c618e976d3f25dfa00a8a ice: Implement flow for IPv6 next header (extension header)
-4a0b0a2141c75c4705485b6f5ce97120c051869f ice: update the number of available RSS queues
-052469c018628c304e51398824aa2df7b517bf0f ice: update dev_addr in ice_set_mac_address even if HW filter exists
-3fe8a14f2fbbcb3081734b92b7fea9b311888a21 ice: use correct xdp_ring with XDP_TX action
-2c69ffc8e7de12e17f2496453d393c25220d4029 ice: Fix state bits on LLDP mode switch
-42af9641721ca75b5e464e08c798abfbb5fa6882 Documentation: ice: update documentation
-6ddd5ef3714d077148ff8448c030373bdc687832 ice: Add initial support framework for LAG
-52be894fb0798a7616eafe9c85b379335e8bd96a ice: create scheduler aggregator node config and move VSIs
-d91f872291243ac8702bc1d1a1ce041e5898e51c ice: Improve MSI-X vector enablement fallback logic
-441a0a7bc5f4a159ea17c8175c7b2e0193a25d40 ice: Fix AF_XDP multi queue TX scaling issue
-72145266ac177dac3b3c354f9c87788761ae51a5 ice: Optimize AF_XDP zero-copy TX completion path
-ed4e3d268c9c643d37b6c5da4c5b0900bd8a6e1b ice: improve AF_XDP single socket performance
-557f77e25cecbbc4704c6c826ce5e991e89fe132 ice: Refactor ice_setup_rx_ctx
-0488f7cc3ba8577a55b7ca16312daaff957a66fa ice: Use PSM clock frequency to calculate RL profiles
-ed8d8d33fcc70c20ababa594133eda658ff12afb ice: fix writeback enable logic
-f5fd3b0e37b9e80c396dd148d9e4132ddd944fb0 ice: Refactor DCB related variables out of the ice_port_info struct
-bf254c5a0db16cbfe1cfbcd11806ca5747ee77fc ice: use flex_array_size where possible
-e482a716aa1c2082e0c384ed7e25078068a6d405 ice: remove unnecessary casts
-fbede502fb6a60ee60219a4187a95df6e8fe88bc ice: Fix trivial error message
-9c4a2d7871868df966f3730fa192e0d84facf690 i40e: Fix overwriting flow control settings during driver loading
-88eb8b800e1246b901330cdc2c3dc8db12489d60 i40e: Fix VFs not created
-407cd147c831eaeaa1e70522cdfa31da2682d814 i40e: Fix addition of RX filters after enabling FW LLDP agent
-5c8de8d96136ce6024c476078383b11ea82201b6 i40e: acquire VSI pointer only after VF is initialized
-f075b45c0d80e7bdff29c03fc5d0044fe1bfbf4c igc: Clean up nvm_operations structure
-75cc349448b45627c4d34f8bb4eac595146b7c3d igc: Remove igc_set_fw_version method
-e88906261dc6dcadf8e13a54de641a6b6d671bb4 e1000e: remove the redundant value assignment in e1000_update_nvm_checksum_spt
-39b2a21144d04fddb552612ef48f6702c2510192 e1000e: Leverage direct_complete to speed up s2ram
-daabacca41654fc057ac4a60b2bf2ccb566ede14 e1000e: Remove the runtime suspend restriction on CNP+
-e779fd0f87583b171bf472a91b51c28405682d4b iavf: fix double-release of rtnl_lock
-27d7b6c4e0aaae7ff28a512459c7bb2eefa6d98c igc: Report speed and duplex as unknown when device is runtime suspended
-0b18acd966b8448dfc7151c6a17732c57f2b47f0 i40e: optimize for XDP_REDIRECT in xsk path
-ecf87a2c27afc5c65adecbc2662993bf3bc245c2 ixgbe: optimize for XDP_REDIRECT in xsk path
-e5e527a0b4ba98a157aabefaa315a6184e5c0a22 ice: optimize for XDP_REDIRECT in xsk path
-61f7fd4758c0e0d5f827b55ef5436989681c8985 igc: Remove MULR mask define
-3b1187e92fd74178d924dbd5bdfe75b929989468 igc: Add Host Good Packets Transmitted Count
-473048825bfb51289a8583b04dd8aa95aadd3044 ixgbe: aggregate all receive errors through netdev's rx_errors
+4281461c01f702f9427554718988b5e8fbfd64fb trace: events: devfreq: Use fixed indentation size to improve readability
+b4365423bb7adf9feb4659126eaec374dfbde806 PM / devfreq: Unify frequency change to devfreq_update_target func
+cab477d0d4fbae1ed68d3db0b52cb5449a3c5868 PM / devfreq: Add tracepoint for frequency changes
+0dd25a0d12a134cd2ba950d8c0530d4ece05c63b PM / devfreq: Add governor feature flag
+5f1a9066fcb2cc1d41104c74884f6c6cf010124b PM / devfreq: Add governor attribute flag for specifc sysfs nodes
+96ffcdf239de6f9970178bb7d643e16fd9e68ab9 PM / devfreq: Remove redundant governor_name from struct devfreq
+9a93386bf667499d71e35051804438fd32dd77a8 PM / devfreq: tegra20: Silence deferred probe error
+cc2a4e83612040a3dc49966c6c4ac5088ed7037f PM / devfreq: tegra20: Relax Kconfig dependency
+09d56d92ad25b58113f4ec677e9b1ac1e2c3072b PM / devfreq: tegra30: Silence deferred probe error
+4cfdad35ae7ed400d7146aeb57d34744ce53e9dc clk: tegra: Export Tegra20 EMC kernel symbols
+fc4fbf88ecbee88381899b4a7f97c9b52570e91a soc/tegra: fuse: Export tegra_read_ram_code()
+245157a31e91aec7f5b621ed26c0a8370b1c8a64 soc/tegra: fuse: Add stub for tegra_sku_info
+a04c75704678cce818c8250385c11d5efa0128c4 dt-bindings: devfreq: Add documentation for the interconnect properties
+404d59c57b26681a370eee059f9b8ad0f34327be PM / devfreq: exynos-bus: Add registration of interconnect child device
+28f06f770454773829cc68dc5e379f684abe2699 cppc_cpufreq: replace per-cpu structures with lists
+3bd412fb2c7f13258d2b09e8b3178cfab3b3c909 cppc_cpufreq: use policy->cpu as driver of frequency setting
+c783a4d94848cbbbbedaad8110213f53c08c5e19 cppc_cpufreq: clarify support for coordination types
+cdb4ae5de6f79dd787be5bd629b24e0e1b1fc755 cppc_cpufreq: expose information on frequency domains
+f9f5baa8b2a826819877a231d61a9fb2d20bdea8 ACPI: processor: fix NONE coordination for domain mapping failure
+6089920a2c3f5cb65d5122ba8ecdfdf4c8dd0ce4 cpufreq: intel_pstate: Simplify intel_cpufreq_update_pstate()
+80b7879e2be8a8d32669578c8ca70500a9eb8712 cpufreq: schedutil: Simplify sugov_update_next_freq()
+564c77a35f132e13f53bc4b6611280a5d9714fc5 cpufreq: stats: Use local_clock() instead of jiffies
+98fd9972ed60d26915227a8c7febbd86e262a96b PM / devfreq: tegra20: Deprecate in a favor of emc-stat based driver
+281f156c3f4a8255766b923cd6fca5f31db51539 Merge back cpufreq material for v5.11.
+c4ba491b2971c1b794767b337b65a8775b3f664c cpufreq: Fix up several kerneldoc comments
+a37afa60de3814fb803567a6499a749d3c0e701a cppc_cpufreq: optimise memory allocation for HW and NONE coordination
+42bbf4a886f8a90b0081e68c646c26e89e42d814 cpufreq: Fix cpufreq_online() return value on errors
+e69a5e31e26bec0f10d1faac824bd713502466ea Merge back cpufreq material for 5.11.
+afd589c703119429f7a4e81a6539aec4e0b1386b Merge tag 'tegra-soc-clk-drivers-5.11' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into devfreq-next
+16e8b2a7cb886bcc3dd89ad28948d374a2319bbc PM / devfreq: tegra30: Support interconnect and OPPs from device-tree
+6a575e84f11e15078629f0d16bff2bc354a6bfc0 PM / devfreq: tegra30: Separate configurations per-SoC generation
+5ba8fbbc649f8e932b71ecad9cc873e95671ca9f Merge branch 'pm-cpufreq' into linux-next
+2f410e9333333f054565abc66b2030f20481cb1b Merge branch 'pm-cpuidle' into linux-next
+11d35d3172926288a025d2b2dc4440279a740a1b Merge branches 'pm-sleep', 'pm-acpi', 'pm-em' and 'pm-domains' into linux-next
+5c844b16636116167f1ae4623abed41e7501b5dd Merge branches 'powercap' and 'pm-tools' into linux-next
+1a2b4e46b40ec145f3aa0db9b57c3d3bc310546e Merge branch 'acpica' into linux-next
+72546d846d937d2a23363570e601ecdf0c3dae78 Merge branches 'acpi-resources' and 'acpi-docs' into linux-next
+e4bf14c677f668ec6c473896c0d92531dfc5af08 Merge branches 'acpi-scan', 'acpi-apei' and 'acpi-misc' into linux-next
+960e625edeb5932009c1e687adae37447fdf69d8 Merge branches 'acpi-processor' and 'acpi-ec' into linux-next
+ff950bebd0e048814492487a798d1eb175335991 Documentation: Add documentation for new platform_profile sysfs attribute
+717f8fce803b9501e192fef85d508e3d592f1c16 Merge branches 'acpi-scan', 'acpi-resources', 'acpi-video' and 'acpi-platform' into linux-next
+a834ecc967a356eabe764b7439b3877e93822dca Merge branches 'acpi-scan' and 'pm-em' into linux-next
+bde0870d1bd70cb7d54da55cccc975a02e2e6c52 Merge tag 'devfreq-next-for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
+cb0704cb81efd5cb799c8d32e10dcaa234eec15b Merge branch 'pm-devfreq' into linux-next
 
---===============7831141316737291037==--
+--===============3060689227401808878==--
