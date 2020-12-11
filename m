@@ -1,34 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 11 Dec 2020 13:04:18 -0000
-Message-Id: <160769185807.2704.16960523133629621068@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1523792879258115345=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Fri, 11 Dec 2020 13:05:27 -0000
+Message-Id: <160769192758.4353.14243201689263843067@gitolite.kernel.org>
+
+--===============1523792879258115345==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/for-linus
-    old: 607184cb1635eaee239fe3fb9648a8b82a5232d7
-    new: c6dde8ffd071aea9d1ce64279178e470977b235c
-    log: |
-         c6dde8ffd071aea9d1ce64279178e470977b235c ALSA: usb-audio: Fix control 'access overflow' errors from chmap
-         
-  - ref: refs/heads/for-next
-    old: 19b5926b68252b36bde1cc7b26fb858bd1b9bebb
-    new: 13b1f8aa6569060480dc747e45741581dbc0cfc2
-    log: |
-         13b1f8aa6569060480dc747e45741581dbc0cfc2 ALSA: hda/hdmi: always print pin NIDs as hexadecimal
-         
-  - ref: refs/heads/master
-    old: 6b0fd5e011db471a1cfc4e7255f2d08b9cd87424
-    new: 23713781417dc5bbaa550659de153729c3f21463
-    log: |
-         13b1f8aa6569060480dc747e45741581dbc0cfc2 ALSA: hda/hdmi: always print pin NIDs as hexadecimal
-         bcc8c144fa741bdb15dfcd5f8e2f81f1e24a1143 Merge branch 'for-next'
-         c6dde8ffd071aea9d1ce64279178e470977b235c ALSA: usb-audio: Fix control 'access overflow' errors from chmap
-         23713781417dc5bbaa550659de153729c3f21463 Merge branch 'for-linus'
-         
+  - ref: refs/heads/thermal/next
+    old: e57eb8b5050c9b6d63eea26b194d96744fe4018a
+    new: ac35e6cb9ea51dddceae7e20a736e248730908ac
+    log: revlist-e57eb8b5050c-ac35e6cb9ea5.txt
+
+--===============1523792879258115345==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e57eb8b5050c-ac35e6cb9ea5.txt
+
+a65181c41e57709053892832d261956afe281deb platform/x86/drivers/acerhdf: Use module_param_cb to set/get polling interval
+f34a32fae7fde6655ada6b33dc6739c9d1b6a82c platform/x86/drivers/acerhdf: Check the interval value when it is set
+d7fdfb6541f3be88d7b4d5ad0aeba7c14548eee8 dt-bindings: thermal: rcar-gen3-thermal: Add r8a779a0 support
+e854da4f51117d7340ec621face92e775bcd4d22 thermal: rcar_gen3_thermal: Add r8a779a0 support
+a5923b6c3137b9d4fc2ea1c997f6e4d51ac5d774 thermal: int340x: processor_thermal: Refactor MMIO interface
+df2537f910400cd4f90d2ecb40a0a1a204d8470c thermal: int340x: processor_thermal: Add AlderLake PCI device id
+473be51142adba7ce769da728a37c8e80a343e27 thermal: int340x: processor_thermal: Add RFIM driver
+729a866af3b3f63ccdb91b3af61f3e07b668b757 thermal: int340x: processor_thermal: Add mailbox driver
+8639ff4194c98c78536f6e8941a79a3a966a71f1 thermal: intel: pch: use macro for temperature calculation
+ea21f589de9a7d787f50da480d01457d8dcdd64a thermal: broadcom: simplify the return expression of bcm2711_thermal_probe()
+ac35e6cb9ea51dddceae7e20a736e248730908ac thermal: int340x: processor_thermal: Correct workload type name
+
+--===============1523792879258115345==--
