@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6337566042310851402=="
+Content-Type: multipart/mixed; boundary="===============3741446958698974777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 11 Dec 2020 18:59:14 -0000
-Message-Id: <160771315401.15930.1953873132875284771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Fri, 11 Dec 2020 18:59:18 -0000
+Message-Id: <160771315822.16065.4571710523072590465@gitolite.kernel.org>
 
---===============6337566042310851402==
+--===============3741446958698974777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 94801e5c6d461045726e1563ba2369ef7ce21dbf
     log: revlist-0477e9288185-94801e5c6d46.txt
 
---===============6337566042310851402==
+--===============3741446958698974777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -217,4 +217,4 @@ c1cea11227cb57f1ab0f111b3f6e8a250b85cfdb Merge tag 'clk-fixes-for-linus' of git:
 6d47cdecaa45c88ba3858323aa54ec9aa1de1a9b Merge tag 'v5.10-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-gpio
 94801e5c6d461045726e1563ba2369ef7ce21dbf Merge tag 'pinctrl-v5.10-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 
---===============6337566042310851402==--
+--===============3741446958698974777==--
