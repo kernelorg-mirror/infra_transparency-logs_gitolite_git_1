@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5328370551429449975=="
+Content-Type: multipart/mixed; boundary="===============1769751599474101468=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 11 Dec 2020 16:42:17 -0000
-Message-Id: <160770493717.26700.9443751949797540224@gitolite.kernel.org>
+Date: Fri, 11 Dec 2020 16:42:23 -0000
+Message-Id: <160770494339.26792.6524836312306834461@gitolite.kernel.org>
 
---===============5328370551429449975==
+--===============1769751599474101468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 177745beebe39773004921d6bffd6c94c77dca32
-    new: d9838b1d39283c1200c13f9076474c7624b8ec34
-    log: revlist-177745beebe3-d9838b1d3928.txt
+  - ref: refs/heads/dev-queue
+    old: b08a73fbd797d2d71a9b4bb18b769d3113f90909
+    new: f4b0f3d0160b7ac07633c9758d3de5dc51139d06
+    log: revlist-b08a73fbd797-f4b0f3d0160b.txt
 
---===============5328370551429449975==
+--===============1769751599474101468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-177745beebe3-d9838b1d3928.txt
+Content-Disposition: attachment; filename=revlist-b08a73fbd797-f4b0f3d0160b.txt
 
 ed1182dc004dbcc7cfe64fb0e8ac520b25431715 xdp: Handle MEM_TYPE_XSK_BUFF_POOL correctly in xdp_return_buff()
 f6a8250ea1e42ad1f4f3bab01c851ec5fd48f0e7 libbpf: Fix ring_buffer__poll() to return number of consumed samples
@@ -50,5 +50,28 @@ b02709587ea3d699a608568ee8157d8db4fd8cae bpf: Fix propagation of 32-bit signed b
 3615bdf6d9b19db12b1589861609b4f1c6a8d303 selftests/bpf: Fix "dubious pointer arithmetic" test
 38bf8cd821be292e7d8e6f6283d67c5d9708f887 selftests: fix poll error in udpgro.sh
 d9838b1d39283c1200c13f9076474c7624b8ec34 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+d3f51a1a3c3783e13c409937e41640a47297fca6 checkpatch: Fix warnings when --no-tree is used
+c4ebe2e47c8bea65240cd3ae439b34b3729c2ae7 igb: re-assign hw address pointer on reset after PCI error
+dc6d2143c31c69b883a9283da3e063042c981a85 checkpatch.pl: seed camelcase from the provided kernel tree root
+36c9fc5f6e303ce9d5d1273f7b2771aadbe9a0c6 i40e/iavf: use better trace path
+5d3724909e577efe7ed908e2acbafbbe8aaf024b ice: Fix a couple off by one bugs
+8c65a2795fb672515531477f5a053f41f6011575 ice: report correct max number of TCs
+bab2a382ca5974f3bb439ac48311345680ad0c67 i40e: remove redundant assignment
+03f9affd9ead52fc84a9e3f8fcd4166b03da8ab6 i40e: Fix flow for IPv6 next header (extension header)
+a127fc8c339f90c2d91540c47dba6cb3830c8875 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+fef65c335a4b9bab1dfad3c67a713a395faaae15 i40e: Fix Error I40E_AQ_RC_EINVAL when removing VFs
+3c71688e07726201dd32ff41272dd7f0f43df235 igb: XDP xmit back fix error code
+e9cf660281790e2d4cc77a498de70c3b51ebaeb8 ice: fix FDir IPv6 flexbyte
+b9db1b0bfbed4b17e9958163a03ed815f2acdb39 ice: Implement flow for IPv6 next header (extension header)
+859b7c7be7b323acc930354230260f47d2dedd7c ice: update the number of available RSS queues
+e19534849a89fe14f1e91b64f70700b56e1d9916 ice: update dev_addr in ice_set_mac_address even if HW filter exists
+7d17681e6db6c1f7b05b70a42aafd5ac5a5da73e ice: use correct xdp_ring with XDP_TX action
+b77a88b0caa43916ff122adbba4f0e4b5a78b779 ice: Fix state bits on LLDP mode switch
+e01d989be0ee0b772128e4195d8a5a05325db045 i40e: Add zero-initialization of AQ command structures
+7827a8ed580cc9bf9b226b96517e22b2734d972c i40e: Fix overwriting flow control settings during driver loading
+11c344b0b7e44515b8a89df55cfc7d52ac916118 i40e: Fix VFs not created
+068c816b76e13aab56dfe4d544b4bf4d9624e712 i40e: Fix addition of RX filters after enabling FW LLDP agent
+5b07e8be8fd7cbe5fb663c6f35c3eeaa09efa978 i40e: acquire VSI pointer only after VF is initialized
+f4b0f3d0160b7ac07633c9758d3de5dc51139d06 iavf: fix double-release of rtnl_lock
 
---===============5328370551429449975==--
+--===============1769751599474101468==--
