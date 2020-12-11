@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-gpio
-Date: Fri, 11 Dec 2020 08:33:29 -0000
-Message-Id: <160767560990.18463.13893078344555360629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
+Date: Fri, 11 Dec 2020 08:36:08 -0000
+Message-Id: <160767576863.20566.17167586549466017511@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-gpio
-user: linusw
+repo: pub/scm/linux/kernel/git/tmlind/linux-omap
+user: tmlind
 changes:
-  - ref: refs/tags/v5.10-3
+  - ref: refs/tags/omap-for-v5.11/defconfig-late-signed
     old: 0000000000000000000000000000000000000000
-    new: 8460cdb7e7f93ae78e89adf56e15f863c074e3a1
+    new: 6a0d149e35d535e3a0aecb609c1064d6f9da8394
