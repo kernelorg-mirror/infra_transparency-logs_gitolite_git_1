@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 11 Dec 2020 21:13:15 -0000
-Message-Id: <160772119528.4976.14474334103273153379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Fri, 11 Dec 2020 21:14:26 -0000
+Message-Id: <160772126653.5364.6905905783798571213@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
+repo: pub/scm/libs/ell/ell
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: fde1012f5d37adde2d6cee65a47a2640a0e48995
-    new: 0193940e50c4d5bc7ae767336598183aba6ae464
+    old: 5d222f4d5cb3a13c0a886143dd769e91ee235b3a
+    new: a7c4d7873bb69989a5829835810ec329cdd9a240
     log: |
-         0193940e50c4d5bc7ae767336598183aba6ae464 client: ignore control sequence length in prompt
+         a7c4d7873bb69989a5829835810ec329cdd9a240 unit: Re-add the ARC4 test
          
