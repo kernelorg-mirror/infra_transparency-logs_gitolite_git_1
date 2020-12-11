@@ -1,56 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8576018145233510708=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 11 Dec 2020 16:27:04 -0000
-Message-Id: <160770402442.16024.13471594789118451910@gitolite.kernel.org>
-
---===============8576018145233510708==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Fri, 11 Dec 2020 16:29:55 -0000
+Message-Id: <160770419541.17121.17358583672734830342@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/tty-testing
-    old: 87a0b9f98ac5a14aae5b0fbcff930a240b24f827
-    new: c3ae3dc896fab5524f9b20f547e72e4b892d8d8e
+  - ref: refs/heads/next
+    old: 5d051f37f49d5bf04dca15fadea3a90a6a6f0f15
+    new: 1d3dd68749b9f4a4da272f39608d03b4bae0b69f
     log: |
-         c3ae3dc896fab5524f9b20f547e72e4b892d8d8e serial: 8250_pci: Drop bogus __refdata annotation
+         92de5fa2dc39c3fba0704f7ac914e7f02eb732f2 dmaengine: idxd: add ATS disable knob for work queues
+         4facce4c12638c5636cbe9d4b8a4a879bebe8570 dmaengine: qcom: Fix ADM driver kerneldoc markup
+         51b69c9679de9bcb45b846807d75bab7ce9c6fda dt-bindings: dma: mtk-apdma: add bindings for MT8516 SOC
+         f25b463883a8a2d1b7303a63339c0d589fc94f1e dmaengine: idxd: add IAX configuration support in the IDXD driver
+         4421fe533296e070359573ab6d320d74f73c80b9 dmaengine: bam_dma: fix return of bam_dma_irq()
+         a44d9d72453ea6b064380d4835e712e574e58d9b dmaengine: stm32-dma: rework irq handler to manage error before xfer events
+         5d4d4dfbda18063231a95dea28fdeab148f23301 dmaengine: stm32-dma: clean channel configuration when channel is freed
+         e0ebdbdcb42a66f49b7587dc50cc6f528ec55cad dmaengine: stm32-dma: take address into account when computing max width
+         1d3dd68749b9f4a4da272f39608d03b4bae0b69f dmaengine: stm32-mdma: rework interrupt handler
          
-
---===============8576018145233510708==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607704090 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1607704014-fd328215e0c896908578e9ce07a0321e1e930e73
-
-87a0b9f98ac5a14aae5b0fbcff930a240b24f827 c3ae3dc896fab5524f9b20f547e72e4b892d8d8e refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/TnhobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HYkP/3jZJInazi+Nl/NgAe6B
-LSOBRK90MncdU9dlZ1rZFoRV509P4cfBSEqlnA1K9uwNz7KOTOWZRwniwCr8VUdY
-Q4ZHP7Vvz2ZZtRbyYf+poGRCNnYmupqFrzg/riVE6g5MJMK5a68Dnnux4ZR47MHd
-UsjfIu6N7NBQoTTgB3n1c7LidmGeZJQQnoPcM6KK1txLerOu+23GDfaGNb1pUMda
-oKPhbh5AmaazZHnatz9Agrm1utFj5FWXA2Zkohuk1afsEN+m/Z/rS2+CCJaIAniL
-Ja+e6TTIGGzxnx+RIdYRrAZJ7Qbb/HTv01efrfdn74ha0tSNUbSJkLbz4sIgV6vc
-HO39NWa/Ov3glqPcgcqwZbkrITWu4luR/+HhxqElj4sHwOCwlxEZ8DfEsqjvZyvz
-q8i5qqwUmbKdjyAp+dBxzbBSL628qj31siekU3FUE0vZM+evSqmC9F24S/yEFOvG
-RStv+yVCu5dEHkIIaMaLOPceg7MxDyF1kVBFG1ojAdSYp5t9955/KcpcG6Zoxid/
-xgVs6j0JVvmxZ5V6905UX/QhGVgimnymaF9CcZMvWqEhYqIuuL4BxttOiFHfAAmC
-15SzFpoY8RKDZgWdf2lMMD4YJDqZ8z+orzu2nYu5yKnVP2f+TCULwb/y/6Shu+KD
-GgBMtMhtUrJnbNXhI2PmhrWG
-=GblE
------END PGP SIGNATURE-----
-
---===============8576018145233510708==--
+  - ref: refs/heads/test_ti
+    old: 0000000000000000000000000000000000000000
+    new: 5b65781d06ea90ef2f8e51a13352c43c3daa8cdc
