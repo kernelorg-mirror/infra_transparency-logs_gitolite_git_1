@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5695653859963354350=="
+Content-Type: multipart/mixed; boundary="===============2607383728921398585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Fri, 11 Dec 2020 19:27:05 -0000
-Message-Id: <160771482518.2726.10106654543269724369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
+Date: Fri, 11 Dec 2020 19:27:09 -0000
+Message-Id: <160771482961.2832.16186337175537299708@gitolite.kernel.org>
 
---===============5695653859963354350==
+--===============2607383728921398585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
+repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
 user: rostedt
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 1e606b2402260d51de5504efdf7c1dc08f76d08c
     log: revlist-2b5e45667621-1e606b240226.txt
 
---===============5695653859963354350==
+--===============2607383728921398585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ b48f2330ed103a3f88af32f74982c0fee7382a9d trace-cmd: Move the installing of libtr
 4a75a5a462a8ea55f5cddbb9b9b106da3961a321 trace-cmd: Do not build shared libraries for libtracefs and libtraceevent
 1e606b2402260d51de5504efdf7c1dc08f76d08c trace-cmd: Add warning if libtracefs or libtraceevent are not found
 
---===============5695653859963354350==--
+--===============2607383728921398585==--
