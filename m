@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8978458023541914875=="
+Content-Type: multipart/mixed; boundary="===============5237280868323116702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 11 Dec 2020 15:42:54 -0000
-Message-Id: <160770137445.20179.18080369670926081360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 11 Dec 2020 15:46:56 -0000
+Message-Id: <160770161671.22416.2553527771062745381@gitolite.kernel.org>
 
---===============8978458023541914875==
+--===============5237280868323116702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/hwmon-next
-    old: aaae86c0cbd0e4bb4a6cd41986573008a30e42b5
-    new: 561e3121841a8541402a331c19e9b78e3d2786d3
-    log: revlist-aaae86c0cbd0-561e3121841a.txt
+  - ref: refs/heads/usb-testing
+    old: 007e3370806da1bbe83d0b43a04f420ae2e19dbb
+    new: 2eda5b5f96418d0a006aaa7812165b72c3226b8c
+    log: |
+         2eda5b5f96418d0a006aaa7812165b72c3226b8c usb: ucsi: convert comma to semicolon
+         
 
---===============8978458023541914875==
+--===============5237280868323116702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aaae86c0cbd0-561e3121841a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d014538aa38561cd24c5eb228223585f26c5ec71 hwmon: (pmbus) Driver for Delta power supplies Q54SJ108A2
-b0bd407e94b036d597c6060d64c22094ff85b13c hwmon: (ltc2992) Add support
-9ca26df1ba25c362113d9bb7b08ca93e260ce3e8 hwmon: (ltc2992) Add support for GPIOs.
-fe8c573c89ebfd8ff1fd099704ad4ced1a9dfba9 dt-bindings: hwmon: Add documentation for ltc2992
-966ead9153c25ee08d14a494585df4439b210474 hwmon: (pmbus/q54sj108a2) Correct title underline length
-e1d15969635ca61aa12091a53dc5d148e5621782 hwmon: (ltc2992) Fix less than zero comparisons with an unsigned integer
-94f1ab9445652551b3414be6b27b17fd90cb077d dt-bindings: hwmon: convert TI INA2xx bindings to dt-schema
-27b4bc2b877ea085d6a3935ab1ca1b2e07c9123d dt-bindings: hwmon: convert AD AD741x bindings to dt-schema
-2f070176a0a47495c1dc49473e4b591779c073d4 dt-bindings: hwmon: convert TI ADS7828 bindings to dt-schema
-eedc65cb083bab7faf0501bcf528fc236384f302 dt-bindings: fsi: Add P10 OCC device documentation
-5ec96d74cf28c939e01b829f556832949b4c272a fsi: occ: Add support for P10
-db4919ec86ff405273a767e1a9b51e2760e73ce5 hwmon: (occ) Add new temperature sensor type
-15d4a6f736c446231907e9f04ce6fc4b57c32aa2 dt-bindings: hwmon: convert AD ADM1275 bindings to dt-schema
-fb42dce4d7b56aac31bd7ef47228515eae9ac968 hwmon: (xgene) Drop bogus __refdata annotation
-561e3121841a8541402a331c19e9b78e3d2786d3 hwmon: (iio_hwmon) Drop bogus __refdata annotation
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607701683 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1607701608-67608337d42b451d2aef0d6bee6a82cee6aa835c
 
---===============8978458023541914875==--
+007e3370806da1bbe83d0b43a04f420ae2e19dbb 2eda5b5f96418d0a006aaa7812165b72c3226b8c refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/TlLMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MqkP/3gtQjTN4dXC16tAjNpQ
+6+HmE73VktDGUxpy39oDan/SCAHK7wLiw+vcTol10/iAOTbrbVWbZ0U+VRISPbaM
+w+yJ+kwYKw1Yl3UqmAlwXqTIV1rKhNJy9MZm/hyVVK1g4qtEWlBNL5rtgIZY94dg
+8vf69TA0CzcGgHCOGLX0ptkN6xwYR/yt6ZogZKRqxB3fiuLiItQJxmJiNTnnnZaD
+gq402QLKLguqzzLGjQ9KVRv9nQoudlb44Us4wk+ayMH0CSKzJnMzk0hTkFWd0gE7
+HA3A5pXZyv9MBZZz6k/EJl17lVNz4cix/94S1Zxv7HsW5c9CBRznb7nIq3n0uAvA
+FpIseikhs5hCNC3JaRWq3BO+aJLa9d63Ju0tEQaefjyIZuZeavVf8Qm8bWQoJ3ge
+rLgktQpPZHJNtNX39dtByQ2A5gYxuBS69sRMKm6V9f1lIbBqeuQoKQFhVfbplIAB
+RQPfUahmFcKazRcU1Kg6HilLs5WZiALOCzJCNOFwgpwHlZYHi1iCJAkG6Wmg95QK
+AJUoAaH+VqwRffDD+ZlO/+Sqv0fj47REUNlfx0DyCu5tcanvFN4vFa9s4nPJX/V6
+eL2YLUXL71glQdhrKMpCFa1s5WQdC2ANFLXUUFX0K5oB35sC/q5EJ6ri9cwZFsHq
+7Pwn8iAWVpUFHZ+65x8eyrAT
+=/DYl
+-----END PGP SIGNATURE-----
+
+--===============5237280868323116702==--
