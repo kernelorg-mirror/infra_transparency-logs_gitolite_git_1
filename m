@@ -1,61 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8160612386491486837=="
+Content-Type: multipart/mixed; boundary="===============2770506666936830890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 12 Dec 2020 09:35:40 -0000
-Message-Id: <160776574003.24117.1994933956777394051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 12 Dec 2020 09:38:41 -0000
+Message-Id: <160776592151.25018.1098137593241222522@gitolite.kernel.org>
 
---===============8160612386491486837==
+--===============2770506666936830890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 428bb001143cf5bfb65aa4ae90d4ebc95f82d007
-    new: 93f998879cd95b3e4f2836e7b17d6d5ae035cf90
+  - ref: refs/heads/tty-next
+    old: d96f04d347e4011977abdbb4da5d8f303ebd26f8
+    new: c3ae3dc896fab5524f9b20f547e72e4b892d8d8e
     log: |
-         06bc4ca115cddabba0faa801488bd946a48c0bf7 extcon: Add driver for TI TUSB320
-         f6f79dd22f589d485ad2a79e743e00b9ff278d8b dt-bindings: extcon: add binding for TUSB320
-         0e77f8e1d0c22f768fb41f88ad14347b032c043f extcon: fsa9480: Rewrite bindings in YAML and extend
-         f58f26ab22f78736a402940a7baf5599a111c72c extcon: fsa9480: Support TI TSU6111 variant
-         e1efdb604f5c9903a5d92ef42244009d3c04880f extcon: max77693: Fix modalias string
-         93f998879cd95b3e4f2836e7b17d6d5ae035cf90 Merge tag 'extcon-next-for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
+         87a0b9f98ac5a14aae5b0fbcff930a240b24f827 tty: serial: meson: enable console as module
+         c3ae3dc896fab5524f9b20f547e72e4b892d8d8e serial: 8250_pci: Drop bogus __refdata annotation
          
 
---===============8160612386491486837==
+--===============2770506666936830890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607765728 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1607765727-5bca51ef813d8b1502805b93e9516d912f308050
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607765909 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1607765908-2e6617a66a401dbcfd782b4ab546d3c4d2267898
 
-428bb001143cf5bfb65aa4ae90d4ebc95f82d007 93f998879cd95b3e4f2836e7b17d6d5ae035cf90 refs/heads/char-misc-next
+d96f04d347e4011977abdbb4da5d8f303ebd26f8 c3ae3dc896fab5524f9b20f547e72e4b892d8d8e refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/UjuAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UZYP/R+SCIMZX9reGSJYPh5a
-E01LgjJIRJfkW7JzQjL9XCZoGLdG3PNG9RVjpoTeXoWEKHqEUhv7i68wP8XxN6jk
-CkyUrGZ6iYBg4S8OhkECRRQ3hnBdNZ4vgdSskIEm7eHU6E0vkeyZydCcKmwUP4a2
-WngWT711Gmgt1zbvpaWjonwKVgsngj34JAMS7rdhOwVa0m+iqAt+9Rn3H+QjI1Os
-NIAmc/n8YHv1bGqZKPyBwOCuiXlqDn64hQULwsQAyFfMtYNgECZXyLDWqhJ9BkgI
-8j8u5gSnnw2PO5bCMITBZmlL57MYcxzhuFSIUIevfBTIjLQz8KX4ihNALBM1v3k+
-+1dwClD6RLcLipmtyalx+1xCRODpWlYve1S/8kIcaP+AMWgnDNIfDWe9gLMJYYJK
-auiS6q4u7kACmprG8fqQjqJHupRXc0dAfdoy7IslbhvimawQo5pleNA2MXxpM2Or
-sNm9h0tjOX2PthHMiSyu4Z9B8/r9fkNhcbASDmgR4xv6PvnmYw1gXVqEmLd03Hj8
-3d2L6XjMlJSFl/hwAhHAsK5DFKTV71dLGt6Na0P8aPpaS6n6yS6X6tnlf5LqLwiE
-74HDll7rwo9Rvvk/U6hVj+aMKf4i1P1ljwDWD3xQhXhwrQ/K7CpL6WYq6JOPmUFb
-MXEGttNOBCPofwrrdwyfB6Zm
-=Zp2u
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Uj5UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o1MP/3ivHgHGt02x4Bk2+klP
+ElA6gVWNvZ7c8XwcswlXMvH32OLe4kS9iv2MZJNtjDb0n3NyneIJVQSzGw/sriWh
+ZearLq7Z9Pof3Vkz279CSfYOVOcsqNTEyeDAezjAGOoOkTbEw48P/QCN7tnRK5A7
+1DtJGu4ezXHZJ2GUCPEUh/Fi6Rlh7nKo2YG4mG55FpGxDZTIWPIl/gq5yWxwMehd
+su1F86RU4skzrXgHp5a0OMQB/G1rlh6OH0BvPmIZlixkreV0pG8ovHOj9HaVAQyi
+MwspyGy/YALYZoAb+R4esPBnydw7bkPL9Few24ixAGufUD5t/+PhJrcEfrZwjjR/
+1AbT1nScP1YBFZSbqKGPzxRjxC+XpZP27aewpWTEcmRfGan4UBLVNt25xj7JrbNP
+g6cWcXt806e45J/84BCcgmxF5frgqzb2yxlqGyPxEdwztsl5hqU1QF4QMt7Nf+d4
+oPHmDWG+jTePXNB8JMfXQhscYSLRS9uPeCAK8B3dhCyrUxqOHZraGTM5hWJkgzdp
+NKUKiFT54iGBMgaZSAy29qL52R4YQkea1wXQcl+mZ3jh3pieUGNlBPNhfmIydvBD
+MQ7BokqDsxd0cB3vwfg5ioqKoUTRPcOhNv08Uxi6zcrr07ZMqKJKR9d942MzKbap
+UmlVpAZGXqWYCrSg4E9mbVU5
+=ppYp
 -----END PGP SIGNATURE-----
 
---===============8160612386491486837==--
+--===============2770506666936830890==--
