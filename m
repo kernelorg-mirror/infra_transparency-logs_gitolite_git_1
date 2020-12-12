@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-gpio
-Date: Sat, 12 Dec 2020 01:05:18 -0000
-Message-Id: <160773511875.22182.3502983217333200973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Sat, 12 Dec 2020 01:38:55 -0000
+Message-Id: <160773713520.9252.18112534065335234123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-gpio
-user: linusw
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/devel
-    old: 40b37008eb5a300ea35aa83432c213b6028313d5
-    new: 9777d0bfdae796de3f8d73879a43bc00145dc8ee
+  - ref: refs/heads/dev
+    old: 5cd8e5fcc79611c0692f18c7e7e13d6b4742d3c0
+    new: 5cab2dc2af7b9a5689160a80a2b7b710f770ceb7
     log: |
-         e6071cada1694bf13c63e31381993df494d78c42 dt-bindings: mt7621-gpio: convert bindings to YAML format
-         9d5522199505c761575c8ea31dcfd9a2a8d73614 gpiolib: irq hooks: fix recursion in gpiochip_irq_unmask
-         9777d0bfdae796de3f8d73879a43bc00145dc8ee gpio: cs5535: Simplify the return expression of cs5535_gpio_probe()
+         7722f3abb982706f1cde9a74940b350e911b16c5 f2fs-tools:sload.f2fs compression support
+         5cab2dc2af7b9a5689160a80a2b7b710f770ceb7 f2fs-tools: Make sload.f2fs reproduce hard links
          
-  - ref: refs/heads/gpio-disallow-double-linenames
-    old: 0000000000000000000000000000000000000000
-    new: 2ba2b2b64b9741cec704abd3c13c9c245db871ef
