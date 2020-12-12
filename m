@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 12 Dec 2020 17:39:05 -0000
-Message-Id: <160779474510.4084.566435687246221398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 12 Dec 2020 17:50:02 -0000
+Message-Id: <160779540283.10270.226846167009711114@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/kbuild
-    old: 46cebdb2a1a31e4227a20cd3f08ba19867569049
-    new: dd024ff25b0cee1cc80df80c48cc4870ab80133c
+  - ref: refs/heads/block-5.10
+    old: 4223a5be80b8998d717c6b0e1000070e0e336bf3
+    new: 6ffeb1c3f8226244c08105bcdbeecc04bad6b89a
     log: |
-         a2751d206f6d0f4e906e55dbb1c64bf8232deda2 modpost: rename merror() to error()
-         14eef4b837822c2c58b02d56420beaafa9211801 modpost: refactor error handling and clarify error/fatal difference
-         943bd9d1b65f1bdfb6e3219bee0e109b3b7813b5 modpost: turn missing MODULE_LICENSE() into error
-         d555bacdae14c18cdd2ef399e5a212d43a5e96ee modpost: change license incompatibility to error() from fatal()
-         329fcf7fd6050e247dd96cae06738e4762c2bcae modpost: turn section mismatches to error from fatal()
-         dd024ff25b0cee1cc80df80c48cc4870ab80133c modpost: turn static exports into error
+         6ffeb1c3f8226244c08105bcdbeecc04bad6b89a md: change mddev 'chunk_sectors' from int to unsigned
+         
+  - ref: refs/heads/nonblock-path-lookup
+    old: b6cc915c48a6ac64ae38667e8739aa9d41083e89
+    new: 6117a90c871780f43d2b3cd0165c16bb8d1327f7
+    log: |
+         e082d676c8e621a0fb5b1e66154baa0a2e87166e fs: honor LOOKUP_NONBLOCK for the last part of file open
+         c0cf3088e46eb6d403f938dbdab4e478d6037650 fs: expose LOOKUP_NONBLOCK through openat2() RESOLVE_NONBLOCK
+         6117a90c871780f43d2b3cd0165c16bb8d1327f7 io_uring: enable LOOKUP_NONBLOCK path resolution for filename lookups
          
