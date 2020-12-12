@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Sat, 12 Dec 2020 01:05:01 -0000
-Message-Id: <160773510197.21086.14357934540310775594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-gpio
+Date: Sat, 12 Dec 2020 01:05:18 -0000
+Message-Id: <160773511875.22182.3502983217333200973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+repo: pub/scm/linux/kernel/git/linusw/linux-gpio
 user: linusw
 changes:
   - ref: refs/heads/devel
-    old: 6e261d1090d6db0e9dd22978b6f38a2c58558a3f
-    new: 3df09cb8c92e2bdfb78c81f678f6990bd780f09a
+    old: 40b37008eb5a300ea35aa83432c213b6028313d5
+    new: 9777d0bfdae796de3f8d73879a43bc00145dc8ee
     log: |
-         be2dc859abd4d7ad5e0f5d12ed767a3313b4e839 pinctrl: pinctrl-microchip-sgpio: Add irq support (for sparx5)
-         01a9350bdd49fb161502fc7a7ee03342d3a4d37a dt-bindings: pinctrl: pinctrl-microchip-sgpio: Add irq support
-         a15f859694c2e36bc98e08c9635b27cf2239f4f2 pinctrl: mediatek: simplify the return expression of mtk_pinconf_bias_disable_set_rev1()
-         3df09cb8c92e2bdfb78c81f678f6990bd780f09a pinctrl/spear: simplify the return expression of spear300_pinctrl_probe()
+         e6071cada1694bf13c63e31381993df494d78c42 dt-bindings: mt7621-gpio: convert bindings to YAML format
+         9d5522199505c761575c8ea31dcfd9a2a8d73614 gpiolib: irq hooks: fix recursion in gpiochip_irq_unmask
+         9777d0bfdae796de3f8d73879a43bc00145dc8ee gpio: cs5535: Simplify the return expression of cs5535_gpio_probe()
          
+  - ref: refs/heads/gpio-disallow-double-linenames
+    old: 0000000000000000000000000000000000000000
+    new: 2ba2b2b64b9741cec704abd3c13c9c245db871ef
