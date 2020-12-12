@@ -1,53 +1,44 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 12 Dec 2020 18:50:03 -0000
-Message-Id: <160779900373.15193.18148509891038276371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Sat, 12 Dec 2020 18:51:20 -0000
+Message-Id: <160779908011.15729.1842613720494732129@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/fs/xfs/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/for-5.11/block
-    old: 7aa390ec2d9db0cd6677d95d0b8f307f9c086770
-    new: fa94ba8a7b22890e6a17b39b9359e114fe18cd59
-    log: |
-         91cdf265b74bf63a69949d6db08a60523207400c blk-mq: add helper allocating tagset->tags
-         d220a21410e445324b8ae67d93f9c51406f99a29 blk-mq: update arg in comment of blk_mq_map_queue
-         fa94ba8a7b22890e6a17b39b9359e114fe18cd59 blk-mq: fix msec comment from micro to milli seconds
-         
-  - ref: refs/heads/for-5.11/drivers
-    old: f87905660ed01d85e45eac22d479f31f380b2f50
-    new: aeb2b0b1a3da5791d3b216e71ec72db7570f3571
-    log: |
-         b5f32555567cfe0a5d5dbe7c1e85ebe37b3f545a cdrom: Reset sector_size back it is not 2048.
-         8d2ac857a81d5a44b9643038291ea958bbf05c7f sr: Switch the sector size back to 2048 if sr_read_sector() changed it.
-         31cc07761ccb389c7c01f904f6a6479544abbd11 sr: Remove in_interrupt() usage in sr_init_command().
-         aeb2b0b1a3da5791d3b216e71ec72db7570f3571 block: drop dead assignments in loop_init()
-         
   - ref: refs/heads/for-next
-    old: 805dbe9632acbd5281a1f74740a5c486bbdbd223
-    new: f4d252468e9fe96e519a2a8b62536ede4d8128a3
+    old: 207ddc0ef4f413ab1f4e0c1fcab2226425dec293
+    new: 1189686e5440041057f8cc21a7c1d13bb6642cb9
     log: |
-         b5f32555567cfe0a5d5dbe7c1e85ebe37b3f545a cdrom: Reset sector_size back it is not 2048.
-         8d2ac857a81d5a44b9643038291ea958bbf05c7f sr: Switch the sector size back to 2048 if sr_read_sector() changed it.
-         31cc07761ccb389c7c01f904f6a6479544abbd11 sr: Remove in_interrupt() usage in sr_init_command().
-         0ec750a44544b7c4775c0d0ac82a630f7ea8b0f7 Merge branch 'for-5.11/drivers' into for-next
-         91cdf265b74bf63a69949d6db08a60523207400c blk-mq: add helper allocating tagset->tags
-         d220a21410e445324b8ae67d93f9c51406f99a29 blk-mq: update arg in comment of blk_mq_map_queue
-         fa94ba8a7b22890e6a17b39b9359e114fe18cd59 blk-mq: fix msec comment from micro to milli seconds
-         16b0eb23b531c634ba83b5ae78e321be95b67996 Merge branch 'for-5.11/block' into for-next
-         aeb2b0b1a3da5791d3b216e71ec72db7570f3571 block: drop dead assignments in loop_init()
-         f4d252468e9fe96e519a2a8b62536ede4d8128a3 Merge branch 'for-5.11/drivers' into for-next
+         15574ebbff260a70d344cfb924a8daf3c47dc303 xfs: convert noroom, okalloc in xfs_dialloc() to bool
+         aececc9f8dec92a25c84a3378021636ce58d72dc xfs: introduce xfs_dialloc_roll()
+         1abcf261016e12246e1f0d2dada9c5c851a9ceb7 xfs: move on-disk inode allocation out of xfs_ialloc()
+         f3bf6e0f1196c69a7b0412521596cd1cc7622a82 xfs: move xfs_dialloc_roll() into xfs_dialloc()
+         8d822dc38ad781b1bfa5c03227da80dbd87e9959 xfs: spilt xfs_dialloc() into 2 functions
+         3937493c502566d90a74c3439ebdb663d9380cc3 xfs: kill ialloced in xfs_dialloc()
+         26f88363ec78473ab61d29bcbb962c74ae0f1b1a xfs: remove xfs_vn_setattr_nonsize
+         5d24ec4c7d3c4520b1baec4443ad47b5ae796570 xfs: open code updating i_mode in xfs_set_acl
+         1189686e5440041057f8cc21a7c1d13bb6642cb9 fs/xfs: convert comma to semicolon
          
-  - ref: refs/heads/nonblock-path-lookup
-    old: 6117a90c871780f43d2b3cd0165c16bb8d1327f7
-    new: d719a304924372ac6de9d5002003377f3b229bbd
+  - ref: refs/heads/xfs-5.11-merge
+    old: 207ddc0ef4f413ab1f4e0c1fcab2226425dec293
+    new: 1189686e5440041057f8cc21a7c1d13bb6642cb9
     log: |
-         54b35bdb5a110e86e605e25c071ee34431be06bb fs: honor LOOKUP_NONBLOCK for the last part of file open
-         46c60b1c6376cf5f7b3050c6f056a5badef4ed19 fs: expose LOOKUP_NONBLOCK through openat2() RESOLVE_NONBLOCK
-         d719a304924372ac6de9d5002003377f3b229bbd io_uring: enable LOOKUP_NONBLOCK path resolution for filename lookups
+         15574ebbff260a70d344cfb924a8daf3c47dc303 xfs: convert noroom, okalloc in xfs_dialloc() to bool
+         aececc9f8dec92a25c84a3378021636ce58d72dc xfs: introduce xfs_dialloc_roll()
+         1abcf261016e12246e1f0d2dada9c5c851a9ceb7 xfs: move on-disk inode allocation out of xfs_ialloc()
+         f3bf6e0f1196c69a7b0412521596cd1cc7622a82 xfs: move xfs_dialloc_roll() into xfs_dialloc()
+         8d822dc38ad781b1bfa5c03227da80dbd87e9959 xfs: spilt xfs_dialloc() into 2 functions
+         3937493c502566d90a74c3439ebdb663d9380cc3 xfs: kill ialloced in xfs_dialloc()
+         26f88363ec78473ab61d29bcbb962c74ae0f1b1a xfs: remove xfs_vn_setattr_nonsize
+         5d24ec4c7d3c4520b1baec4443ad47b5ae796570 xfs: open code updating i_mode in xfs_set_acl
+         1189686e5440041057f8cc21a7c1d13bb6642cb9 fs/xfs: convert comma to semicolon
          
+  - ref: refs/tags/xfs-5.11-merge-3
+    old: 0000000000000000000000000000000000000000
+    new: d7beeade3db2842047448ad8920c3a9d2f22a9be
