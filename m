@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Sun, 13 Dec 2020 15:07:00 -0000
-Message-Id: <160787202045.26960.13783890066794806331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 13 Dec 2020 15:09:37 -0000
+Message-Id: <160787217780.27762.9691835661019117823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 5c641fee4ccfd27520b7863bf4a66491faea6d2a
-    new: d1df458cbfdb0c3384c03c7fbcb1689bc02a746c
+  - ref: refs/heads/master
+    old: b5dae3959625f5ff378e9edf9139057d1c06bb55
+    new: 27482d700b5d2d062f994bee2c79aac7a5d9d17c
     log: |
-         7f3f227b41e81f8669e906c49a240c1678c65cfe hv_balloon: simplify math in alloc_balloon_pages()
-         d1df458cbfdb0c3384c03c7fbcb1689bc02a746c hv_balloon: do adjust_managed_page_count() when ballooning/un-ballooning
+         3af0cb4890a7d71b5bdeb5f04f2001aead3523dc tcp.7: tcp_syncookies: It is now an integer [0, 2]
+         89a3c07fb26e6dc4504bb8a17b322fd315ee0764 elf.5: SEE ALSO: add objcopy(1)
+         27482d700b5d2d062f994bee2c79aac7a5d9d17c elf.5: srcfix
          
