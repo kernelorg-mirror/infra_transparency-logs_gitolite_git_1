@@ -1,95 +1,151 @@
-Content-Type: multipart/mixed; boundary="===============7909862164760701006=="
+Content-Type: multipart/mixed; boundary="===============4091390477481618669=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 13 Dec 2020 05:12:12 -0000
-Message-Id: <160783633288.14565.15906862711045464439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Sun, 13 Dec 2020 06:23:52 -0000
+Message-Id: <160784063293.10633.14485184314061841863@gitolite.kernel.org>
 
---===============7909862164760701006==
+--===============4091390477481618669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 7f376f1917d7461e05b648983e8d2aea9d0712b2
-    new: 6bff9bb8a292668e7da3e740394b061e5201f683
-    log: revlist-7f376f1917d7-6bff9bb8a292.txt
+  - ref: refs/heads/rdma-next
+    old: 66a7464f9b5a2fcba07da9e2ec5cfa39aa32af0c
+    new: 328aa62ac5a3eddaa6cdfb890ff6fc1b47896026
+    log: revlist-66a7464f9b5a-328aa62ac5a3.txt
+  - ref: refs/heads/testing/rdma-next
+    old: 283f976324b0bc1780b69bb56eaf6b3cb404dc3a
+    new: 8ac1b74414ed5aa7d7afb387f9653907803e4c45
+    log: revlist-283f976324b0-8ac1b74414ed.txt
+  - ref: refs/heads/testing/rdma-rc
+    old: 17b321fc8fb68db0443a46a301252ceb3e8a3c0c
+    new: f232001e9c33167b6dea7d8ecd85347142c83bfc
+    log: |
+         f232001e9c33167b6dea7d8ecd85347142c83bfc Merge branch 'master' into testing/rdma-rc
+         
+  - ref: refs/tags/mlx-next
+    old: 0583531bb9ef30a5c4ce00b4ee10b6707768eead
+    new: d21a1240f5169a07a230d72e0e6d3773b2a088b4
+    log: revlist-0583531bb9ef-d21a1240f516.txt
 
---===============7909862164760701006==
+--===============4091390477481618669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-66a7464f9b5a-328aa62ac5a3.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607836330 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1607836326-917d5e056bcf9475846c7e6518b89d1c8ae5c0d2
+7f1d2dfa307e760af13677895b4e874e9c251a5b RDMA/mlx5: Remove unneeded semicolon
+e7f870f5fda75fcaf9de09316e6e456f5f035516 MAINTAINERS: SOFT-ROCE: Change Zhu Yanjun's email address
+d1dec0cae5539d678c1e265ba4fcf783c8ec4733 RDMA/core: Update kernel documentation for ib_create_named_qp()
+286e1d3f9ba89c7db5eecd30f47f9e333843ea13 RDMA/core: Clean up cq pool mechanism
+779e0bf47632c609c59f527f9711ecd3214dccb0 RDMA/core: Do not indicate device ready when device enablement fails
+e0da68994d16b46384cce7b86eb645f1ef7c51ef RDMA/uverbs: Fix incorrect variable type
+6f320f6990ee2dd13df89707f1a219ecfe2960ad RDMA/mlx4: Remove bogus dev_base_lock usage
+1c0ca9cd1741687f529498ddb899805fc2c51caa RDMA/hns: Limit the length of data copied between kernel and userspace
+4ddeacf68a3dd05f346b63f4507e1032a15cc3cc RDMA/hns: Normalization the judgment of some features
+603bee935f38080a3674c763c50787751e387779 RDMA/hns: Do shift on traffic class when using RoCEv2
+94a8c4dfcdb2b4fcb3dfafc39c1033a0b4637c86 RDMA/hns: Avoid filling sl in high 3 bits of vlan_id
+f75506833eed65cc537293508b7edd5788d67e23 RDMA/hns: WARN_ON if get a reserved sl from users
+29b52027ac354f2a0e5c4d17ca1b621a1644949d RDMA/hns: Remove unnecessary access right set during INIT2INIT
+dc93a0d987fcfe93b132871e72d4ea5aff36dd5c RDMA/hns: Fix coding style issues
+62f3b70ed656640ecb63432014f4bb258cb1975a RDMA/hns: Clear redundant variable initialization
+dcdc366acf8ffc29f091a09e08b4e46caa0a0f21 RDMA/hns: Fix incorrect symbol types
+61918e9b008492f48577692428aca3cebf56111a RDMA/hns: Fix inaccurate prints
+d8cc403b70de61160aaafddd776ee53aa5aa77eb RDMA/hns: Simplify AEQE process for different types of queue
+d21a1240f5169a07a230d72e0e6d3773b2a088b4 RDMA/rxe: Use acquire/release for memory ordering
+654eb7654ff23acc477933c8e94964b38b4438bb net/sched: Don't print dump stack in event of transmission timeout
+8872bfbaee07de5a9d0435721e8f2cdab1d8e66d RDMA/cma: Be strict with attaching to CMA device
+6306a67d73f757c8198aa796ae4a29a7c9804461 RDMA/restrack: Add error handling while adding restrack object
+44810023708077c4248d80042bfd1511bd550534 RDMA/restrack: Drop valid restrack field as source of ambiguity
+a62ef1ee96f2929b636784407ae62b29b8dc4447 RDMA/mlx5: Add ifc bits for new pattern dm type
+cb0243f2975132dae4b43229df412e6d5a730738 net/mlx5: Add support for new pattern DM management
+637146bc62029e21abe84f711bce538ac6eec1e4 RDMA/mlx5: Support allocating modify-header pattern DM
+6028b150014c01f9650c92be2ea80de68fbe756c RDMA/mlx5: Support new type of ICM memory to register by MR
+77cee477473cabf1512da3846ea8ca97fe0b4cf2 RDMA/core: Introduce peer memory interface
+bc88add7c891a0318fcfbf27c503a039584379c0 RDMA/nldev: Return an error message on failure to turn auto mode
+c8b1dc4b56fc6af01816fbbdee5039771176900a printk: Debug patch in order to catch netconsole deadlock
+b704853f51166b6f30bfd4cb4f55f5c9818a737c RDMA/cm: Fix an attempt to use non-valid pointer when cleaning timewait
+fa899252c3bc66129f2a5c403ca53a8d19e4e09d RDMA/mlx5: Fix MR cache memory leak
+9e90331642a2c9b4837f67e155a4d5ecd9ac808a IB/umad: Return EIO in case of when device disassociated
+98bc50d66d5a25320793a76956633d5f13ec9412 IB/umad: Return EPOLLERR in case of when device disassociated
+84235bf26b7b24dbf4e311e2292fcfb29821ed93 RDMA/cma: Don't overwrite sgid_attr after device is released
+328aa62ac5a3eddaa6cdfb890ff6fc1b47896026 RDMA/ucma: Fix memory leak of connection request
 
-7f376f1917d7461e05b648983e8d2aea9d0712b2 6bff9bb8a292668e7da3e740394b061e5201f683 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/VoqobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uVgP/R0/cL4ZMNXRA4J/iN5+
-yTdnPeNs52Iy3XGbT3aGIaVk/ZKhQQEfxMlsqFLDNUVoG5v3+dDxQamjLQmD+o7u
-NZhEE9fIh/wm4hH0QvdVWKS5J2Cyg2J36PfdUR406/EP7GutTOFKrYTvnkmPx4kj
-PfXJh5cMscv9KJczslnRPZnbv9FBpqiunGREBlyAiXMzDMiBybcD+TmPUm7yRYIJ
-CQWmYsgkf68vUjIGcswIIah93v0IppazYSE+lPu4SrZvpc5dpCK3MwKlfajp55Vw
-SrI0cHFk4HvevnnyswbJiKQnP57V8KdqFF7QgF02oDNygpPf7DM+cHawTYSFg/nx
-y924w2YEOjhDLJahC1x33I/TY0Iu/Pik51Nf1f18/7SZINkae5H4kfoyMkBBFAyg
-mPTV903vgA+U+DLjSiWm14BBuK7uPIaMZp+CxCu1MsbrD9zI48QpVomWvOzOjy+u
-OPLZFGcsGorAGg+ZWDRCi+neZE3+73F3etEVbof8s7Cb1JrpQELTl0BvvjJOwqhb
-HUJiz3Xf4lrRLisohh+h159JR66JxTtQVh+CpOKi2rJOjn40dOf8SiYVuz5nAMYU
-GT6jztuD2rMzXNz/irHLvGhNjouHRXy1ES1ipyUx9PdNZ5IQOCy0tnApXbVT0n/7
-QyZltP1FCWdgCzDWgdtT3qUi
-=0/mL
------END PGP SIGNATURE-----
-
---===============7909862164760701006==
+--===============4091390477481618669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f376f1917d7-6bff9bb8a292.txt
+Content-Disposition: attachment; filename=revlist-283f976324b0-8ac1b74414ed.txt
 
-5c646b7e1d8bcb12317426287c516dfa4c5171c2 KVM: arm64: Fix memory leak on stage2 update of a valid PTE
-3a0b870e3448302ca2ba703bea1b79b61c3f33c6 KVM: arm64: Fix handling of merging tables into a block entry
-7d894834a305568a0168c55d4729216f5f8cb4e6 KVM: arm64: Add usage of stage 2 fault lookup level in user_mem_abort()
-2d586494c4a001312650f0b919d534e429dd1e09 scsi: bnx2i: Requires MMU
-0c55f867f0c96dff93d4e0b5973975d65afb26d8 selftests: kvm/set_memory_region_test: Fix race in move region test
-eeaf06af6f87e1dba371fbe42674e6f963220b9c scsi: be2iscsi: Revert "Fix a theoretical leak in beiscsi_create_eqs()"
-a2b2d4bf5076832339762556b816eec58ca38f77 kvm: svm: de-allocate svm_cpu_data for all cpus in svm_cpu_uninit()
-339f5a7fb2d6350fdb11f067da5240fd97e4f284 kvm: x86/mmu: Use cpuid to determine max gfn
-4e302c3b568eaf2aeebba804c07aba5d921a8c9e misc: eeprom: at24: fix NVMEM name with custom AT24 device name
-3b384bd6c3f2d6d3526c77bfb264dfbaf737bc2a Input: raydium_ts_i2c - do not split tx transactions
-223f61b8c5ad80f01900bc25f8073dfa4f23a2be Input: soc_button_array - add Lenovo Yoga Tablet2 1051L to the dmi_use_low_level_irq list
-e8c954df234145c5765870382c2bc630a48beec9 io_uring: fix mis-seting personality's creds
-673235f915318ced5d7ec4b2bfd8cb909e6a4a55 scsi: core: Fix race between handling STS_RESOURCE and completion
-359db63378eded1ee9c8c9ad72245f9b0158ae95 scsi: hisi_sas: Select a suitable queue for internal I/Os
-f26c08b444df833b19c00838a530d93963ce9cd0 io_uring: fix file leak on error path of io ctx creation
-ca33479cc7be2c9b5f8be078c8bf3ac26b7d6186 xen: add helpers for caching grant mapping pages
-ee32f32335e8c7f6154bf397f4ac9b6175b488a8 xen: don't use page->lru for ZONE_DEVICE memory
-80db2a087f425b63f0163bc95217abd01c637cb5 Input: cros_ec_keyb - send 'scancodes' in addition to key events
-ce6520b0eafad5962ffc21dc47cd7bd3250e9045 Input: i8042 - add Acer laptops to the i8042 reset list
-83bbb8ffb4629ece5d6c0b093b9f66297a9e27e0 Merge tag 'kvmarm-fixes-5.10-5' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-ccbbfd1cbf365b38d014351d1482fedd26282041 RISC-V: Define get_cycles64() regardless of M-mode
-4da3a54f5a025846f9930354cfb80f075b9952e0 Revert "scsi: storvsc: Validate length of incoming packet in storvsc_on_channel_callback()"
-82e06090473289ce63e23fdeb8737aad59b10645 Input: cm109 - do not stomp on control URB
-e977aaf899a6d3b3d6658da66e262b6e307ae3a2 Merge tag 'at24-fixes-for-v5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into i2c/for-current
-34c0f6f2695a2db81e09a3ab7bdb2853f45d4d3d KVM: mmu: Fix SPTE encoding of MMIO generation upper half
-111d0bda8eeb4b54e0c63897b071effbf9fd9251 tools/kvm_stat: Exempt time-based counters
-cffdd6d90482316e18d686060a4397902ea04bd2 Input: goodix - add upside-down quirk for Teclast X98 Pro tablet
-643e69aff89a2d0abc53979acc441b68ce86139b Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-31d00f6eb1f2b498a1d7af62cffeba3fbea8cf75 Merge tag 'io_uring-5.10-2020-12-11' of git://git.kernel.dk/linux-block
-b01deddb8d3cb779ac250978afd200931fd91dcd Merge tag 'riscv-for-linus-5.10-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-b53966ffd4c0676c02987d4fc33b99bdfc548cf0 Merge tag 'for-linus-5.10c-rc8-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-7b1b868e1d9156484ccce9bf11122c053de82617 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-5ee595d9079b94ee931287ce004d34886b7d3c24 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-6bff9bb8a292668e7da3e740394b061e5201f683 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+7f1d2dfa307e760af13677895b4e874e9c251a5b RDMA/mlx5: Remove unneeded semicolon
+e7f870f5fda75fcaf9de09316e6e456f5f035516 MAINTAINERS: SOFT-ROCE: Change Zhu Yanjun's email address
+d1dec0cae5539d678c1e265ba4fcf783c8ec4733 RDMA/core: Update kernel documentation for ib_create_named_qp()
+286e1d3f9ba89c7db5eecd30f47f9e333843ea13 RDMA/core: Clean up cq pool mechanism
+779e0bf47632c609c59f527f9711ecd3214dccb0 RDMA/core: Do not indicate device ready when device enablement fails
+e0da68994d16b46384cce7b86eb645f1ef7c51ef RDMA/uverbs: Fix incorrect variable type
+6f320f6990ee2dd13df89707f1a219ecfe2960ad RDMA/mlx4: Remove bogus dev_base_lock usage
+1c0ca9cd1741687f529498ddb899805fc2c51caa RDMA/hns: Limit the length of data copied between kernel and userspace
+4ddeacf68a3dd05f346b63f4507e1032a15cc3cc RDMA/hns: Normalization the judgment of some features
+603bee935f38080a3674c763c50787751e387779 RDMA/hns: Do shift on traffic class when using RoCEv2
+94a8c4dfcdb2b4fcb3dfafc39c1033a0b4637c86 RDMA/hns: Avoid filling sl in high 3 bits of vlan_id
+f75506833eed65cc537293508b7edd5788d67e23 RDMA/hns: WARN_ON if get a reserved sl from users
+29b52027ac354f2a0e5c4d17ca1b621a1644949d RDMA/hns: Remove unnecessary access right set during INIT2INIT
+dc93a0d987fcfe93b132871e72d4ea5aff36dd5c RDMA/hns: Fix coding style issues
+62f3b70ed656640ecb63432014f4bb258cb1975a RDMA/hns: Clear redundant variable initialization
+dcdc366acf8ffc29f091a09e08b4e46caa0a0f21 RDMA/hns: Fix incorrect symbol types
+61918e9b008492f48577692428aca3cebf56111a RDMA/hns: Fix inaccurate prints
+d8cc403b70de61160aaafddd776ee53aa5aa77eb RDMA/hns: Simplify AEQE process for different types of queue
+d21a1240f5169a07a230d72e0e6d3773b2a088b4 RDMA/rxe: Use acquire/release for memory ordering
+654eb7654ff23acc477933c8e94964b38b4438bb net/sched: Don't print dump stack in event of transmission timeout
+8872bfbaee07de5a9d0435721e8f2cdab1d8e66d RDMA/cma: Be strict with attaching to CMA device
+6306a67d73f757c8198aa796ae4a29a7c9804461 RDMA/restrack: Add error handling while adding restrack object
+44810023708077c4248d80042bfd1511bd550534 RDMA/restrack: Drop valid restrack field as source of ambiguity
+a62ef1ee96f2929b636784407ae62b29b8dc4447 RDMA/mlx5: Add ifc bits for new pattern dm type
+cb0243f2975132dae4b43229df412e6d5a730738 net/mlx5: Add support for new pattern DM management
+637146bc62029e21abe84f711bce538ac6eec1e4 RDMA/mlx5: Support allocating modify-header pattern DM
+6028b150014c01f9650c92be2ea80de68fbe756c RDMA/mlx5: Support new type of ICM memory to register by MR
+77cee477473cabf1512da3846ea8ca97fe0b4cf2 RDMA/core: Introduce peer memory interface
+bc88add7c891a0318fcfbf27c503a039584379c0 RDMA/nldev: Return an error message on failure to turn auto mode
+c8b1dc4b56fc6af01816fbbdee5039771176900a printk: Debug patch in order to catch netconsole deadlock
+b704853f51166b6f30bfd4cb4f55f5c9818a737c RDMA/cm: Fix an attempt to use non-valid pointer when cleaning timewait
+fa899252c3bc66129f2a5c403ca53a8d19e4e09d RDMA/mlx5: Fix MR cache memory leak
+9e90331642a2c9b4837f67e155a4d5ecd9ac808a IB/umad: Return EIO in case of when device disassociated
+98bc50d66d5a25320793a76956633d5f13ec9412 IB/umad: Return EPOLLERR in case of when device disassociated
+84235bf26b7b24dbf4e311e2292fcfb29821ed93 RDMA/cma: Don't overwrite sgid_attr after device is released
+328aa62ac5a3eddaa6cdfb890ff6fc1b47896026 RDMA/ucma: Fix memory leak of connection request
+f232001e9c33167b6dea7d8ecd85347142c83bfc Merge branch 'master' into testing/rdma-rc
+8ac1b74414ed5aa7d7afb387f9653907803e4c45 Merge branch 'rdma-next' into testing/rdma-next
 
---===============7909862164760701006==--
+--===============4091390477481618669==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0583531bb9ef-d21a1240f516.txt
+
+7f1d2dfa307e760af13677895b4e874e9c251a5b RDMA/mlx5: Remove unneeded semicolon
+e7f870f5fda75fcaf9de09316e6e456f5f035516 MAINTAINERS: SOFT-ROCE: Change Zhu Yanjun's email address
+d1dec0cae5539d678c1e265ba4fcf783c8ec4733 RDMA/core: Update kernel documentation for ib_create_named_qp()
+286e1d3f9ba89c7db5eecd30f47f9e333843ea13 RDMA/core: Clean up cq pool mechanism
+779e0bf47632c609c59f527f9711ecd3214dccb0 RDMA/core: Do not indicate device ready when device enablement fails
+e0da68994d16b46384cce7b86eb645f1ef7c51ef RDMA/uverbs: Fix incorrect variable type
+6f320f6990ee2dd13df89707f1a219ecfe2960ad RDMA/mlx4: Remove bogus dev_base_lock usage
+1c0ca9cd1741687f529498ddb899805fc2c51caa RDMA/hns: Limit the length of data copied between kernel and userspace
+4ddeacf68a3dd05f346b63f4507e1032a15cc3cc RDMA/hns: Normalization the judgment of some features
+603bee935f38080a3674c763c50787751e387779 RDMA/hns: Do shift on traffic class when using RoCEv2
+94a8c4dfcdb2b4fcb3dfafc39c1033a0b4637c86 RDMA/hns: Avoid filling sl in high 3 bits of vlan_id
+f75506833eed65cc537293508b7edd5788d67e23 RDMA/hns: WARN_ON if get a reserved sl from users
+29b52027ac354f2a0e5c4d17ca1b621a1644949d RDMA/hns: Remove unnecessary access right set during INIT2INIT
+dc93a0d987fcfe93b132871e72d4ea5aff36dd5c RDMA/hns: Fix coding style issues
+62f3b70ed656640ecb63432014f4bb258cb1975a RDMA/hns: Clear redundant variable initialization
+dcdc366acf8ffc29f091a09e08b4e46caa0a0f21 RDMA/hns: Fix incorrect symbol types
+61918e9b008492f48577692428aca3cebf56111a RDMA/hns: Fix inaccurate prints
+d8cc403b70de61160aaafddd776ee53aa5aa77eb RDMA/hns: Simplify AEQE process for different types of queue
+d21a1240f5169a07a230d72e0e6d3773b2a088b4 RDMA/rxe: Use acquire/release for memory ordering
+
+--===============4091390477481618669==--
