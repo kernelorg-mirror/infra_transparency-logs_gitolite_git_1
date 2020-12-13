@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 13 Dec 2020 15:09:37 -0000
-Message-Id: <160787217780.27762.9691835661019117823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Sun, 13 Dec 2020 15:11:12 -0000
+Message-Id: <160787227284.29605.8966836526934591567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: b5dae3959625f5ff378e9edf9139057d1c06bb55
-    new: 27482d700b5d2d062f994bee2c79aac7a5d9d17c
+  - ref: refs/heads/next
+    old: 4d426b86b49b764ed577f42484637335a5509a49
+    new: 7b7ab8de753afd63b440db5cfb39a8c205d1103d
     log: |
-         3af0cb4890a7d71b5bdeb5f04f2001aead3523dc tcp.7: tcp_syncookies: It is now an integer [0, 2]
-         89a3c07fb26e6dc4504bb8a17b322fd315ee0764 elf.5: SEE ALSO: add objcopy(1)
-         27482d700b5d2d062f994bee2c79aac7a5d9d17c elf.5: srcfix
+         8584071863e7ed9642526641a15ba82dc0b3e4a6 efi: ia64: disable the capsule loader
+         17a409e0dadf0f02b3814d4bc9ae041f5297149a efi: arm: force use of unsigned type for EFI_PHYS_ALIGN
+         7b7ab8de753afd63b440db5cfb39a8c205d1103d efi: efivars: remove deprecated sysfs interface
+         
+  - ref: refs/tags/efi-next-for-v5.11-3
+    old: eb0d79ec3ad22354475505059342ae6a3876c051
+    new: f9af67faf0eebceaf7f0e9fa9ae576142c561d26
+    log: |
+         8584071863e7ed9642526641a15ba82dc0b3e4a6 efi: ia64: disable the capsule loader
+         17a409e0dadf0f02b3814d4bc9ae041f5297149a efi: arm: force use of unsigned type for EFI_PHYS_ALIGN
          
