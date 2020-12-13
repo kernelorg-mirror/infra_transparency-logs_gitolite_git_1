@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 13 Dec 2020 22:42:39 -0000
-Message-Id: <160789935911.14892.7068446487784254417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 13 Dec 2020 22:44:43 -0000
+Message-Id: <160789948300.15503.10482000387953773430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/watchdog-next
-    old: 4cade386df4881eaec83d4b1d1631861ee942d11
-    new: fa4e534ad44517e950d7eb5b4f50638b9bb17f95
+  - ref: refs/heads/master
+    old: ec6f5e0e5ca0764b4bc522c9f9d5abf876a0e3e3
+    new: 2c85ebc57b3e1817b6ce1a6b703928e113a90442
     log: |
-         68a12dde9ef6e9ac55ff8fe1a68646081aa0c591 watchdog: iTCO_wdt: use dev_*() instead of pr_*() for logging
-         93afe790b9ff722e30c472f8861bf7a32b395c42 watchdog: qcom: Avoid context switch in restart handler
-         0f0dd22aea1236ad96c4eb77284d15a9cad5fc99 dt-bindings: watchdog: sun4i: Add A100 compatible
-         e88d54bbf06c93c753ba30b1dcfd1b81be1bfff4 watchdog: coh901327: add COMMON_CLK dependency
-         fa4e534ad44517e950d7eb5b4f50638b9bb17f95 dt-binding: watchdog: add Rockchip compatibles to snps,dw-wdt.yaml
+         2c85ebc57b3e1817b6ce1a6b703928e113a90442 Linux 5.10
          
+  - ref: refs/tags/v5.10
+    old: 0000000000000000000000000000000000000000
+    new: 3f995f8e0b540342612d3f6b1fc299f5bf486987
