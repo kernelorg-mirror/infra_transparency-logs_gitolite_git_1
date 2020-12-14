@@ -1,20 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 14 Dec 2020 16:52:16 -0000
-Message-Id: <160796473660.17345.14379684583233216375@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0926487764141130003=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 14 Dec 2020 16:53:53 -0000
+Message-Id: <160796483379.17832.2394275763108004531@gitolite.kernel.org>
+
+--===============0926487764141130003==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev
-    old: ef7b32a4386bd70d8bfc6eec166831420ba69e18
-    new: 75e91c888989cf2df5c78b251b07de1f5052e30e
+  - ref: refs/heads/master
+    old: 84216f8e1b44e5299e0cb9e49be50e49387b9d6b
+    new: 65771ed7dad87d592bf59ff5e7de3d731c06d736
     log: |
-         e584bbe821229a3e7cc409eecd51df66f9268c21 f2fs: fix shift-out-of-bounds in sanity_check_raw_super()
-         75e91c888989cf2df5c78b251b07de1f5052e30e f2fs: compress: fix compression chksum
+         65771ed7dad87d592bf59ff5e7de3d731c06d736 5.10-stable patches
          
+
+--===============0926487764141130003==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607964900 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1607964831-c49282f262a5993053df10c44244c39a62bca0d9
+
+84216f8e1b44e5299e0cb9e49be50e49387b9d6b 65771ed7dad87d592bf59ff5e7de3d731c06d736 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/XmOQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yXUQAMgh6ReKefvSA/Xaa7Zr
+9YzTpbEEe6GeH/I6+ypDi5YHpXEDYkcmIsH5r+2bQBYFTkAQ89RLd8nQr0ifvwv4
++zT+asc+I9KO9mBas+IVoYGn02s2VihcjUoeO+6DoIUX2pM63XV+EooS9oIQ3jg+
+hXRHA2RhqTESWDb6eFQJ5uVctTLUruOibTuJKPyqiwqAnNeL4yxiJ50Xbpi8B4cS
+kfJz7NqN2kuXGmsxv7GJjZr0ugMzREH4J4j6nRMwCx22WGEnWSiTvSlpTgqvIjkG
+H3u1mpyf/S6FPsOfFAAQ3BB/5wBGtRUhpxVspZTgHDLfupFyl6qnXbgU6Wp9wIdd
+VISbuXVJ8jsMm2NaB4znyUQVbaEe/vdxZTUkXz/YzKWh1/M9cAd1XbRyXEELF1Ca
+PbrwqqnafQ+Lhhom0XwDgDSsvfKaaZca8zbdejWbT/hU5DfPvP7V/ijMfOLPLTDf
+s8AnOTb1+1p/zjJRZkW5PfrAqEksgId02uaJJU8WkHDQFcCKmGm9R/bsWPNIWmNI
+BZc6eCJ6jpUuiKATYsvGl6dTwXQZc+wQmJJ+BcxQfoaSE11eEXS2OEQXWEpHDiwE
+n6rOr3ZWX9hFSrr+TOPNqVBnAlP1BJ3TVdeX9QtnQUf3p110oNyaUxa4E0E9/VBm
+r+2adkY6Bhj6Ly+MmAogYWls
+=0A3S
+-----END PGP SIGNATURE-----
+
+--===============0926487764141130003==--
