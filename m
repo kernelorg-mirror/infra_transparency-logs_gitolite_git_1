@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 14 Dec 2020 22:07:39 -0000
-Message-Id: <160798365976.7575.6489153092844164387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 14 Dec 2020 22:12:42 -0000
+Message-Id: <160798396275.10353.5493382339829889560@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/dt/next
-    old: 4aa5b78fb5460adbb876e450ec844e7c1991372d
-    new: e33dc2f3636749c2f949a59c2ff8acd4a69c9c78
-    log: |
-         23dd6845c2cfc2f4aabe6d21a6ed013e0927bf89 dt-bindings: mali-midgard: Add dynamic-power-coefficient
-         e33dc2f3636749c2f949a59c2ff8acd4a69c9c78 dt-bindings: mali-bifrost: Add dynamic-power-coefficient
-         
+  - ref: refs/heads/errseq-mustinc
+    old: 0000000000000000000000000000000000000000
+    new: 9c702481f253efa74f40a2efe4b6719a05f99a10
