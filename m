@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6752498572874718330=="
+Content-Type: multipart/mixed; boundary="===============7862804045011422366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 14 Dec 2020 18:42:46 -0000
-Message-Id: <160797136668.31430.13265566067194710788@gitolite.kernel.org>
+Date: Mon, 14 Dec 2020 18:42:52 -0000
+Message-Id: <160797137207.31538.17714443182716777462@gitolite.kernel.org>
 
---===============6752498572874718330==
+--===============7862804045011422366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 9ce922ed2d9c1590431fa2f969f1ae87d8c2b8d9
-    new: 841fca5a32cccd7d0123c0271f4350161ada5507
-    log: |
-         859f70354379ce53be23bca3580cb7f77978c7a2 Revert "md: change mddev 'chunk_sectors' from int to unsigned"
-         26934c83005e75eab2b8d54d0fa5adbee4f27535 Revert "dm raid: fix discard limits for raid1 and raid10"
-         841fca5a32cccd7d0123c0271f4350161ada5507 Linux 5.10.1
-         
+  - ref: refs/tags/v5.10.1
+    old: 0000000000000000000000000000000000000000
+    new: f12366d9f172c4fc84cd114801b87588cb663074
 
---===============6752498572874718330==
+--===============7862804045011422366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607971432 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607971438 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1607971364-b64fdfb1d0e438922d6ca61fc4f40ad83864381f
+nonce 1607971370-6a6ad638d5781bcb74e37f7ee8653bd3d2a8de2d
 
-9ce922ed2d9c1590431fa2f969f1ae87d8c2b8d9 841fca5a32cccd7d0123c0271f4350161ada5507 refs/heads/linux-5.10.y
+0000000000000000000000000000000000000000 f12366d9f172c4fc84cd114801b87588cb663074 refs/tags/v5.10.1
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/XsmgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EyAP/0gUbVaafdISdPk5e5U0
-Fh7rFrRcYOi6o4J/OA29/3zd/rB+KiFzrVetQlMmQ+/paohTX7Ity6e5tM7/lGJa
-wbUlFOYiGbJdW8m5unu6PnqCox5DIjaQjJHGmhOltHJ6tJyrpV78kWzvpcW6TcE0
-042noamUzDnmwBYrPAtQx/sYeHptOoBv1bhKyEKFrMxKxjFzNPD66GKOAZO4AzVf
-4uSPcJpDRbyUu2dmiA3zSm7N7TUqXj/vt7ET46jk7Xl+DWL1Qn4JImbgCsoCcY4+
-Bd9CSpMPPDyAcT+SOlLwnhg/8F8K7omGZrza0+n2E7J5JBPJWu8PZcF9ey/2tjIe
-5mkAAqKIHyMlzdXSRJDZrv8MRWLX2rVkbZ+rG1d5whMIllp6F8snThJghbVOFs8t
-NtKNMJ+q3E5XUuvIlWi6/v50vD0+qut/YOuoWXIJ+fKvmBO7Fe+/HwUfWbpgrIel
-OH/Rmovtx3U6DNxTk4d9K10dQ74Uwr9dFzDOdq3bnHx1WIYKsHS1+QXjgW5sx6gG
-O9zkrc2lHA+8hTc7+aIYIXX5YjI/3xIZ5CIp8pkvErH94Mmc8toRBXqYUCXPHH09
-9hj1ak/A52IflAK7GAK9k5mW5wxwzjqmW0JS5mwdai33rwlggciKWohHVJ9/KK8x
-Qd9oz46r3h9m+6qGtRXmzwg8
-=LR0I
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Xsm4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q/0P/3w0zaMNm0i6T40hsL8u
+P976yXGV8NqCIp24dmrff4oiIiqoM+h3Jx2ql+6+PjQaY6GmxxfUquE9ynSi5j7y
+/WPnZPqd3oYvNNBlECL8fHFfbOvY9W8Hy9tHDlV6WROKs8BW69mhlZdAWXAqhgVT
+qRQhs6OxfRuiQ1UAYyKhSatgTyXeISoG5x69EibWsSpjjwXW30aT1AfsM/Ri8WrB
+TuQ95q37M4v9LC9RRwg1fqsNeZbEda6aNTOA7r9ibRbs6IPooyJwwfVsR8Ro74MI
+Wg3hY3FwrkOlhpEhH+KM0+9e6ApSqA7Bx1aH5tYgthGKqPL0IYRXQUKSoLnMds7O
+qjfbA0YdU48PDx9B/4AJRZRSOKJZkGbHakgKmAf1xCPUWvu6YBQbCp2s+FBJuu2l
++SkFNZI+xNzlhfddSHnin5DRFyESEDfGXiPm6y7ZKPxhq/3OtZi3rhUbZAbEvnHG
+lB/hWkwxTKr17cmCd6sY7icnrYvi5LPZooAzfkikOmJ0m4lShmfpjAYWo7g0QrSN
+ZxCP+XnDcCVgNMNzMoSESR53VxJEJGo8aYmPzVMmYXhwyL2jma0VhuhKGNdAkaHq
+wuckwq7+NWWyWxSYfQrzpgwWB8ZoHX8V1xOClHZJTsIpLvE84PnydlSlox+L6iiv
+1+YeGj0e5imUpvnfNe1kdCV2
+=YcLO
 -----END PGP SIGNATURE-----
 
---===============6752498572874718330==--
+--===============7862804045011422366==--
