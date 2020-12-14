@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1075690665717497163=="
+Content-Type: multipart/mixed; boundary="===============8029285184955877769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 14 Dec 2020 02:15:45 -0000
-Message-Id: <160791214523.21271.15254836315001920341@gitolite.kernel.org>
+Date: Mon, 14 Dec 2020 02:19:26 -0000
+Message-Id: <160791236625.22346.6247281896146979078@gitolite.kernel.org>
 
---===============1075690665717497163==
+--===============8029285184955877769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: f9893351acaecf0a414baf9942b48d5bb5c688c6
-    new: 2c85ebc57b3e1817b6ce1a6b703928e113a90442
-    log: revlist-f9893351acae-2c85ebc57b3e.txt
+  - ref: refs/heads/dev
+    old: c6f928f56fe31fb2ea97fb1c8071876e899e0ca4
+    new: bad62714b7e09026aae2d589ed744e1e15a41902
+    log: revlist-c6f928f56fe3-bad62714b7e0.txt
 
---===============1075690665717497163==
+--===============8029285184955877769==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f9893351acae-2c85ebc57b3e.txt
+Content-Disposition: attachment; filename=revlist-c6f928f56fe3-bad62714b7e0.txt
 
-e010d1d25e47642fb91023479a4965000cf934a8 cpufreq: tegra186: Fix get frequency callback
 8410e7f3b31e53bfa7a34c282b4313e79ed7ff8d cpufreq: scmi: Fix OPP addition failure with a dummy clock provider
 054409ab253d9f31bec5760105144166b4b71e22 KVM: SVM: fix error return code in svm_create_vcpu()
 61a2f1aecf6052f7bcf900829ca2b9d74437ec07 MIPS: kernel: Fix for_each_memblock conversion
@@ -1050,5 +1049,6 @@ b53966ffd4c0676c02987d4fc33b99bdfc548cf0 Merge tag 'for-linus-5.10c-rc8-tag' of 
 d2360a398f0b68722641c59aeb2623e79bd03e34 Merge tag 'block-5.10-2020-12-12' of git://git.kernel.dk/linux-block
 ec6f5e0e5ca0764b4bc522c9f9d5abf876a0e3e3 Merge tag 'x86-urgent-2020-12-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2c85ebc57b3e1817b6ce1a6b703928e113a90442 Linux 5.10
+bad62714b7e09026aae2d589ed744e1e15a41902 exfat: Avoid allocating upcase table using kcalloc()
 
---===============1075690665717497163==--
+--===============8029285184955877769==--
