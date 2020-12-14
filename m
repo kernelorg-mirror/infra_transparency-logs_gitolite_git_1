@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 14 Dec 2020 20:50:03 -0000
-Message-Id: <160797900307.20387.14680422282807838181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 14 Dec 2020 20:53:20 -0000
+Message-Id: <160797920025.21560.3986291717998801863@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/nonblock-path-lookup
-    old: 1a8ebfac7b95213c11c592b2b6d85959757c699e
-    new: 0120b54fe57442a70f29e51cb6b211118665b880
+  - ref: refs/heads/master
+    old: a4d2a7ad86834092b327082004ead755d2603376
+    new: b4b638c36b7e7acd847b9c4b9c80f268e45ea30c
     log: |
-         540c0049315ad6b7e8baec5770c7830583fd98fc fs: ensure that ->getattr() honors AT_STATX_NONBLOCK
-         0120b54fe57442a70f29e51cb6b211118665b880 io_uring: use AT_STATX_NONBLOCK for IORING_OP_STATX fast path
+         cd17d38f8b28f808c368121041c0a4fa91757e0d bpf: Permits pointers on stack for helper calls
+         b4b638c36b7e7acd847b9c4b9c80f268e45ea30c selftests/bpf: Add a test for ptr_to_map_value on stack for helper access
          
