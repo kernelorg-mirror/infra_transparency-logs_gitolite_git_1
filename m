@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0128804133358893085=="
+Content-Type: multipart/mixed; boundary="===============1074302788220477581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Mon, 14 Dec 2020 05:22:32 -0000
-Message-Id: <160792335251.6794.16068857913030584954@gitolite.kernel.org>
+Date: Mon, 14 Dec 2020 05:23:01 -0000
+Message-Id: <160792338113.7041.17327422203590793207@gitolite.kernel.org>
 
---===============0128804133358893085==
+--===============1074302788220477581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
-  - ref: refs/heads/linus
+  - ref: refs/heads/master
     old: c3a98c3ad5c0dc60a1ac66bf91147a3f39cac96b
     new: 93cebeb1c21a65b92636aaa278a32fbc0415ec67
     log: revlist-c3a98c3ad5c0-93cebeb1c21a.txt
 
---===============0128804133358893085==
+--===============1074302788220477581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d33a23b0532d5d1b5b700e8641661261e7dbef61 crypto: atmel-i2c - select CONFIG_BITRE
 5106dfeaeabea73d5132daab1d89d57b57fa98b7 crypto: qat - add AES-XTS support for QAT GEN4 devices
 93cebeb1c21a65b92636aaa278a32fbc0415ec67 crypto: qat - add capability detection logic in qat_4xxx
 
---===============0128804133358893085==--
+--===============1074302788220477581==--
