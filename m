@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2273690730948871690=="
+Content-Type: multipart/mixed; boundary="===============1075690665717497163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 14 Dec 2020 01:28:14 -0000
-Message-Id: <160790929439.22684.12322363790567684507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Mon, 14 Dec 2020 02:15:45 -0000
+Message-Id: <160791214523.21271.15254836315001920341@gitolite.kernel.org>
 
---===============2273690730948871690==
+--===============1075690665717497163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
   - ref: refs/heads/master
-    old: 521b619acdc8f1f5acdac15b84f81fd9515b2aff
+    old: f9893351acaecf0a414baf9942b48d5bb5c688c6
     new: 2c85ebc57b3e1817b6ce1a6b703928e113a90442
-    log: revlist-521b619acdc8-2c85ebc57b3e.txt
+    log: revlist-f9893351acae-2c85ebc57b3e.txt
 
---===============2273690730948871690==
+--===============1075690665717497163==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-521b619acdc8-2c85ebc57b3e.txt
+Content-Disposition: attachment; filename=revlist-f9893351acae-2c85ebc57b3e.txt
 
 e010d1d25e47642fb91023479a4965000cf934a8 cpufreq: tegra186: Fix get frequency callback
 8410e7f3b31e53bfa7a34c282b4313e79ed7ff8d cpufreq: scmi: Fix OPP addition failure with a dummy clock provider
@@ -1051,4 +1051,4 @@ d2360a398f0b68722641c59aeb2623e79bd03e34 Merge tag 'block-5.10-2020-12-12' of gi
 ec6f5e0e5ca0764b4bc522c9f9d5abf876a0e3e3 Merge tag 'x86-urgent-2020-12-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2c85ebc57b3e1817b6ce1a6b703928e113a90442 Linux 5.10
 
---===============2273690730948871690==--
+--===============1075690665717497163==--
