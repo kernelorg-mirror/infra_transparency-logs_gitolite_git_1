@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2016118073849849877=="
+Content-Type: multipart/mixed; boundary="===============6073228749239632570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 14 Dec 2020 08:56:38 -0000
-Message-Id: <160793619883.28614.112796834353759379@gitolite.kernel.org>
+Date: Mon, 14 Dec 2020 08:56:43 -0000
+Message-Id: <160793620366.28696.3590281888841009266@gitolite.kernel.org>
 
---===============2016118073849849877==
+--===============6073228749239632570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: dfdc20e91ca3bfc9f5fb9dde0231d8d19ddf737f
-    new: 7cab52709da1bbad76e54e7797b69f3ee7ca054d
-    log: revlist-dfdc20e91ca3-7cab52709da1.txt
+  - ref: refs/heads/m68k-queue
+    old: 7d2e82ceb1fd8fce6c3ad58d507bfead956d68a9
+    new: 2c8080953b63a1dd1ac4c60539f4d22f3cdbf4e8
+    log: revlist-7d2e82ceb1fd-2c8080953b63.txt
 
---===============2016118073849849877==
+--===============6073228749239632570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dfdc20e91ca3-7cab52709da1.txt
+Content-Disposition: attachment; filename=revlist-7d2e82ceb1fd-2c8080953b63.txt
 
 544cc3f8573bf9a82e8f348741f2f68d2a8376fb arm64: dts: allwinner: h6: orangepi-one-plus: Fix ethernet
 ad2091f893bd5dfe2824f0d6819600d120698e9f ARM: sunxi: Add machine match for the Allwinner V3 SoC
@@ -298,6 +298,20 @@ b53966ffd4c0676c02987d4fc33b99bdfc548cf0 Merge tag 'for-linus-5.10c-rc8-tag' of 
 d2360a398f0b68722641c59aeb2623e79bd03e34 Merge tag 'block-5.10-2020-12-12' of git://git.kernel.dk/linux-block
 ec6f5e0e5ca0764b4bc522c9f9d5abf876a0e3e3 Merge tag 'x86-urgent-2020-12-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2c85ebc57b3e1817b6ce1a6b703928e113a90442 Linux 5.10
-7cab52709da1bbad76e54e7797b69f3ee7ca054d Merge tag 'v5.10'
+2b08248b331225fe7b27cb9ea1c76255fe116982 m68k: Avoid xchg() warning
+2e720a683ae794165624d268957014ee5e1b7e2f m68k: Remove unused mach_max_dma_address
+5d5deff1dc09590eb25e3a8e5139e64b73d0e6bf m68k: mac: Refactor iop_preinit() and iop_init()
+c958ece83e5f41bddc7795b62bc5aa5db99bf0bf m68k: mac: Remove dead code
+fe3711389027a260e2bba5be4710a6d42b5d0cf1 m68k: mac: Remove redundant VIA register writes
+1b3ec481ed6e6fdb88e3ff2f96bd5eb668388580 m68k: mac: Update Kconfig help
+7ac799c72da6b7f31a05126fbe0b22a50920c2ed m68k: Drop redundant NOTES in link script
+805bad38b32dda6fc261ca2e7c39fbfad3af66ac m68k: Add a missing ELF_DETAILS in link script
+158f070feaaf56870838024ace07e1005bbf933d m68k: Fix WARNING splat in pmac_zilog driver
+7e413e277a6fdbd201e0af9b2cf29c7568db2f3d macintosh/adb-iop: Always wait for reply message from IOP
+e5ee8f1920330e421ff6db089c4f289456def8d4 macintosh/adb-iop: Send correct poll command
+44789fbb0e5b21760733d721951894f3be3ea337 MAINTAINERS: Update m68k Mac entry
+571ddd88288a24ab723c752cc161199f629ab1c7 m68k: atari: usb: Add ISP1160 USB host controller support
+5b1f3ba92fc530039c0c9838ac8005d259c10319 m68k: atari: Update Kconfig.bus help text
+2c8080953b63a1dd1ac4c60539f4d22f3cdbf4e8 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2016118073849849877==--
+--===============6073228749239632570==--
