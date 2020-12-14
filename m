@@ -1,57 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3769396123677997338=="
+Content-Type: multipart/mixed; boundary="===============6752498572874718330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 14 Dec 2020 18:35:53 -0000
-Message-Id: <160797095341.10161.8909089583184026882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Mon, 14 Dec 2020 18:42:46 -0000
+Message-Id: <160797136668.31430.13265566067194710788@gitolite.kernel.org>
 
---===============3769396123677997338==
+--===============6752498572874718330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: f34457d94ce814f6513f876c569fe0f6419fdde3
-    new: 718f4923dbcd0368637f70d2fd8e41704e95549d
+  - ref: refs/heads/linux-5.10.y
+    old: 9ce922ed2d9c1590431fa2f969f1ae87d8c2b8d9
+    new: 841fca5a32cccd7d0123c0271f4350161ada5507
     log: |
-         7d268ad40266f88734a67533af3f590c296c484d Notes removed by 'git notes remove'
-         718f4923dbcd0368637f70d2fd8e41704e95549d Notes added by 'git notes add'
+         859f70354379ce53be23bca3580cb7f77978c7a2 Revert "md: change mddev 'chunk_sectors' from int to unsigned"
+         26934c83005e75eab2b8d54d0fa5adbee4f27535 Revert "dm raid: fix discard limits for raid1 and raid10"
+         841fca5a32cccd7d0123c0271f4350161ada5507 Linux 5.10.1
          
 
---===============3769396123677997338==
+--===============6752498572874718330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607971019 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1607970951-10da934350c6c8bcd4f02686e7f548ea802acf6b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607971432 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1607971364-b64fdfb1d0e438922d6ca61fc4f40ad83864381f
 
-f34457d94ce814f6513f876c569fe0f6419fdde3 718f4923dbcd0368637f70d2fd8e41704e95549d refs/notes/signatures/tar
+9ce922ed2d9c1590431fa2f969f1ae87d8c2b8d9 841fca5a32cccd7d0123c0271f4350161ada5507 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/XsMsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BNkP/382qZuLv3QZUHy6OS/3
-OkLQo62dio39ikTg/A16eOA+c3Th0L5W6TekQ2hpA7VygXJG5sAT5D6HN+y+DqNc
-utOCa6n1At9S/0BibNgzfg9+qCKsPMOVt8BynoCkGs6JCzOvsZe+M6kk/aNk3/ps
-aPBlquDLBn71wLEMTdQ4WPIzMeGeYse04Iln33AQPLvPG0TVy8z3++9OVkdv7ktT
-ct1A5JPJTLtuLOeIbkFuEG/8dEGGIGCyHkprhKlxZDw/2RmydLe8L+NMocMBbGJJ
-64noqNXUPB21O4V+FaTVaD181iqdANdxRmmXXaAnKA0XlY2OOfTqM0s5jQ50IPX5
-FaXK5cJQhYY7p4gGfnuudKszZtM1HZk1d01WM48paYdrE0oSEDEN/FEAZjWC7WNj
-b4phi+RNTKk+6J3R/zWP+P1InRPD3PEg2dDN8mgoYCHNVnP1oA4eU67japKZy2JJ
-M8+pioSI8Drbsy3ahWhCKkstXK/KqI6QYIbSjo6aBLM4dWu91sv+QksQL6Yj9iua
-t9hzYFvHh67kZqzQMmkOn7427uz0hznu70mNDr6LsXV/WSyookkLhgTKQPYj2r4L
-z1TldbiaGexOGXIN6FPJ9ssbMhDVQ+CIPf9KtTQxLoYupOSomBH/Q0b2A5Fzcp4X
-3AWMzqANFwew9FO6LRs8iWjR
-=2Y3v
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/XsmgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EyAP/0gUbVaafdISdPk5e5U0
+Fh7rFrRcYOi6o4J/OA29/3zd/rB+KiFzrVetQlMmQ+/paohTX7Ity6e5tM7/lGJa
+wbUlFOYiGbJdW8m5unu6PnqCox5DIjaQjJHGmhOltHJ6tJyrpV78kWzvpcW6TcE0
+042noamUzDnmwBYrPAtQx/sYeHptOoBv1bhKyEKFrMxKxjFzNPD66GKOAZO4AzVf
+4uSPcJpDRbyUu2dmiA3zSm7N7TUqXj/vt7ET46jk7Xl+DWL1Qn4JImbgCsoCcY4+
+Bd9CSpMPPDyAcT+SOlLwnhg/8F8K7omGZrza0+n2E7J5JBPJWu8PZcF9ey/2tjIe
+5mkAAqKIHyMlzdXSRJDZrv8MRWLX2rVkbZ+rG1d5whMIllp6F8snThJghbVOFs8t
+NtKNMJ+q3E5XUuvIlWi6/v50vD0+qut/YOuoWXIJ+fKvmBO7Fe+/HwUfWbpgrIel
+OH/Rmovtx3U6DNxTk4d9K10dQ74Uwr9dFzDOdq3bnHx1WIYKsHS1+QXjgW5sx6gG
+O9zkrc2lHA+8hTc7+aIYIXX5YjI/3xIZ5CIp8pkvErH94Mmc8toRBXqYUCXPHH09
+9hj1ak/A52IflAK7GAK9k5mW5wxwzjqmW0JS5mwdai33rwlggciKWohHVJ9/KK8x
+Qd9oz46r3h9m+6qGtRXmzwg8
+=LR0I
 -----END PGP SIGNATURE-----
 
---===============3769396123677997338==--
+--===============6752498572874718330==--
