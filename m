@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1244687034601709984=="
+Content-Type: multipart/mixed; boundary="===============7876324170927342035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 14 Dec 2020 21:33:35 -0000
-Message-Id: <160798161525.18003.18304504075195825451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 14 Dec 2020 21:33:40 -0000
+Message-Id: <160798162024.18099.8934898759333952799@gitolite.kernel.org>
 
---===============1244687034601709984==
+--===============7876324170927342035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 3f995f8e0b540342612d3f6b1fc299f5bf486987
 
---===============1244687034601709984==
+--===============7876324170927342035==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1054,4 +1054,4 @@ da0628559871475b482f015dc24c9bef372936e4 Merge tag 'tomoyo-pr-20201214' of git:/
 51895d58c7c0c65afac21570cc14a7189942959a Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt
 9e4b0d55d84a66dbfede56890501dc96e696059c Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 
---===============1244687034601709984==--
+--===============7876324170927342035==--
