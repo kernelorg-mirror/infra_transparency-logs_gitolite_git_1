@@ -1,47 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7826846076011730706=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Mon, 14 Dec 2020 07:37:31 -0000
-Message-Id: <160793145138.12463.15222219878904335147@gitolite.kernel.org>
-
---===============7826846076011730706==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Mon, 14 Dec 2020 08:04:12 -0000
+Message-Id: <160793305281.28711.8765570255873306685@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: vigneshr
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/tags/spi-nor/for-5.11
-    old: 0000000000000000000000000000000000000000
-    new: 401e9b6b064bde38f8da1fcbac6ed3a2dd40dd42
-
---===============7826846076011730706==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Vignesh Raghavendra <vigneshr@ti.com> 1607931450 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mtd/linux.git
-nonce 1607931449-071a2486834c3a272eb0d3e54646c2dc7f98cce0
-
-0000000000000000000000000000000000000000 401e9b6b064bde38f8da1fcbac6ed3a2dd40dd42 refs/tags/spi-nor/for-5.11
------BEGIN PGP SIGNATURE-----
-
-iQFEBAABCAAuFiEEyRC2zAhGcGjrhiNExEYeRXyRFuMFAl/XFjoQHHZpZ25lc2hy
-QHRpLmNvbQAKCRDERh5FfJEW4339B/9qe6bMkPYOb+EZPVrvTAkHqY4pAq8P40Ea
-B+yPW0dN+GxcjQTdMBzIEPDsvhWmALA9d4YzLFBFT8fesqKfrPZCFGgY/cn/2Wml
-L/4C5KYFDlyfwC5wkU1MtjjtjfivvKVZ0k/G9E64zcqCnc6BTGjkUCzLEBQZzr4J
-siJR/Mdr7xcldzm9FbN1jcZFTAA/6V8zH+JfvEvpn+6zGgGJgFnVpQFDDYo2embC
-iC9PZxduCwYKg54i4eVCEUCU8+74yd5RgqaNQy9BeeB1/RjV1ZquxwWeGt3jUvKK
-6bQ+1kYBakcMnhQLZK2CBOMPOeZ0wNvwamaK7XS9EoNtX5m6Vybq
-=+uDu
------END PGP SIGNATURE-----
-
---===============7826846076011730706==--
+  - ref: refs/heads/next
+    old: 7b7ab8de753afd63b440db5cfb39a8c205d1103d
+    new: 172a289d21a309d2d56b44d4a07a129cb1173b92
+    log: |
+         b640807322bb7dd7bd2a5462e5cb142bc0bb2c06 efi: ia64: disable the capsule loader
+         f232134eddf6f61fc0912fcaa73c4baaf7a4c2e4 efi: arm: force use of unsigned type for EFI_PHYS_ALIGN
+         172a289d21a309d2d56b44d4a07a129cb1173b92 efi: efivars: remove deprecated sysfs interface
+         
+  - ref: refs/tags/efi-next-for-v5.11-3
+    old: f9af67faf0eebceaf7f0e9fa9ae576142c561d26
+    new: 28d05e6cb82feb5a925ff721ec1f93105102a747
+    log: |
+         b640807322bb7dd7bd2a5462e5cb142bc0bb2c06 efi: ia64: disable the capsule loader
+         f232134eddf6f61fc0912fcaa73c4baaf7a4c2e4 efi: arm: force use of unsigned type for EFI_PHYS_ALIGN
+         
