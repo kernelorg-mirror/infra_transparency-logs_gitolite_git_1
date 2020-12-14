@@ -1,58 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============3948787503923941964=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 14 Dec 2020 17:03:49 -0000
-Message-Id: <160796542965.26457.4470609237965930634@gitolite.kernel.org>
-
---===============3948787503923941964==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Mon, 14 Dec 2020 17:15:11 -0000
+Message-Id: <160796611106.1251.11862907496918594992@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 2c85ebc57b3e1817b6ce1a6b703928e113a90442
-    new: 9ce922ed2d9c1590431fa2f969f1ae87d8c2b8d9
+  - ref: refs/heads/main
+    old: 6e9bfdcdde44022de0ca9a924eb29491469b9a95
+    new: ee50fd58dc7822c16cebc13c655ca93b14edad21
     log: |
-         cc2f31f14a1f30ef84d0496a5099a734fffaea35 Revert "md: change mddev 'chunk_sectors' from int to unsigned"
-         c67428aab6df1893a71878b1f8357a1c0db63405 Revert "dm raid: fix discard limits for raid1 and raid10"
-         9ce922ed2d9c1590431fa2f969f1ae87d8c2b8d9 Linux 5.10.1-rc1
+         7fe954ee34764eec65ed8b272b4b11c5a36f73a4 dcb: Remove unsupported command line arguments from getopt_long()
+         12d41d0184f70cbbc321efcb3668d1e1ff1da18e dcb: ets: Fix help display for "show" subcommand
+         a7c2eaac39a94e896d5b1c2e76aa4d0df3604527 dcb: ets: Change the way show parameters are given in synopsis
+         7e94711c71cc40c0ab47c07de6b31bd788ead096 man: dcb-ets: Remove an unnecessary empty line
+         11a72186a05710b290f1527f6f995b044a4fc501 dcb: Add dcb_set_u32(), dcb_set_u64()
+         6e9687db04518dc0856e622f232127ddab71132d dcb: Add -s to enable statistics
+         808dd741fce1158e824ae5bdf367947ae764be19 dcb: Add -i to enable IEC mode
+         6567cb588b15883d7b0bdc9fcc9d2a7a8f37fa3e dcb: Add a subtool for the DCB PFC object
+         2e36f91000e4b75f58daba08d4387b666159ac61 dcb: Add a subtool for the DCB buffer object
+         117939d9bd89369b9c97283dcbdb586d8616ae07 dcb: Add a subtool for the DCB maxrate object
+         ee50fd58dc7822c16cebc13c655ca93b14edad21 Merge branch 'dcb-pfc-buffer-maxrate' into next
          
-
---===============3948787503923941964==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607965495 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1607965426-da8baed9448ca286fb1abede1818d085f2da2bd8
-
-2c85ebc57b3e1817b6ce1a6b703928e113a90442 9ce922ed2d9c1590431fa2f969f1ae87d8c2b8d9 refs/heads/linux-5.10.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/XmzcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pkIQAI2pdPaM2SK4dy2m9sXz
-Axzv3bnK2lvMR0T39xpuDOxte/nlxEyumibVXh2DNpeRgxhgSGJcxoqi/ofkqX2R
-vsK8CbgV8F3lTUM+b3V2pD/X+DMeerd+j85ySGxHp6bn0tn014xKmxOzNIeJrRKI
-iP9cBfz55AjvrNS+iHeJN2djkC1wvc5gZBCF+8Y3YP/loJP9Jh/rmbuW6jrmHQ1h
-/qb76OTii7Nd5smF52BvrC8AMBjjnxWOLtpY5THSEcyIurqfMSphLUoEXLssYs4I
-gc+7y4sMskNSByecOcg545W1+Z0xpS8rc1b+pMtJAIXss05ADdGyOZQUeXBatlG5
-zlPEcmIwgUg9jt0EsohBZXyMbaNitYXElUS1WQH6h+/IkNo750g9GQp85SVH6Mw5
-vuvpzJ+u2V6+UAYPBzYpV6RFgartg1ibz/iEYEvH19dSyFvbppuyMUN3noSKru0u
-vPAqZ8SD9pFcHAGrAnEwOmhCJ8Exe1d8BqhV2Q9gRvQ8zprYiF5xTSEYDRNQZuLl
-Xxyc4BY0hR4vamWcqEXOMRMOypKIWJ9YO5VUR4NWvVPKwJMrr17NEnBYI3NXiqDA
-iJlEbEGnfxqvfpa4fC0FwZ0PjdKQz9YEL4uYmw/o6YF/zk9dZD/wE0rXYcw4fSUG
-bKes7ppUeX+E3ntXCEUywbmG
-=T3FT
------END PGP SIGNATURE-----
-
---===============3948787503923941964==--
+  - ref: refs/heads/master
+    old: 6e9bfdcdde44022de0ca9a924eb29491469b9a95
+    new: ee50fd58dc7822c16cebc13c655ca93b14edad21
+    log: |
+         7fe954ee34764eec65ed8b272b4b11c5a36f73a4 dcb: Remove unsupported command line arguments from getopt_long()
+         12d41d0184f70cbbc321efcb3668d1e1ff1da18e dcb: ets: Fix help display for "show" subcommand
+         a7c2eaac39a94e896d5b1c2e76aa4d0df3604527 dcb: ets: Change the way show parameters are given in synopsis
+         7e94711c71cc40c0ab47c07de6b31bd788ead096 man: dcb-ets: Remove an unnecessary empty line
+         11a72186a05710b290f1527f6f995b044a4fc501 dcb: Add dcb_set_u32(), dcb_set_u64()
+         6e9687db04518dc0856e622f232127ddab71132d dcb: Add -s to enable statistics
+         808dd741fce1158e824ae5bdf367947ae764be19 dcb: Add -i to enable IEC mode
+         6567cb588b15883d7b0bdc9fcc9d2a7a8f37fa3e dcb: Add a subtool for the DCB PFC object
+         2e36f91000e4b75f58daba08d4387b666159ac61 dcb: Add a subtool for the DCB buffer object
+         117939d9bd89369b9c97283dcbdb586d8616ae07 dcb: Add a subtool for the DCB maxrate object
+         ee50fd58dc7822c16cebc13c655ca93b14edad21 Merge branch 'dcb-pfc-buffer-maxrate' into next
+         
