@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Mon, 14 Dec 2020 16:20:23 -0000
-Message-Id: <160796282345.30620.3051810020639930210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
+Date: Mon, 14 Dec 2020 16:34:31 -0000
+Message-Id: <160796367141.7252.2655492467148912991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
+user: zx2c4
 changes:
-  - ref: refs/heads/habanalabs-next-fixes
-    old: b7fb96307a99c4091963af1c1d4b4bd3a40ce6d1
-    new: 4d0a960a4002c599248c79405e5aee775d7c9723
+  - ref: refs/heads/master
+    old: fe402261666821514377d06c2c68ed9bc19e7634
+    new: f7f55464a156e1181fa76d9c7e2fc0d495f2357e
     log: |
-         4d0a960a4002c599248c79405e5aee775d7c9723 habanalabs: register to pci shutdown callback
+         f7f55464a156e1181fa76d9c7e2fc0d495f2357e compat: drop rhel 8.2, add rhel 8.4 support
          
