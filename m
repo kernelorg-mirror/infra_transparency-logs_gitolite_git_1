@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2747891354177534477=="
+Content-Type: multipart/mixed; boundary="===============0432181791449244769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 14 Dec 2020 21:51:48 -0000
-Message-Id: <160798270876.28397.2323622018816835721@gitolite.kernel.org>
+Date: Mon, 14 Dec 2020 21:51:54 -0000
+Message-Id: <160798271449.28490.13177437015968127224@gitolite.kernel.org>
 
---===============2747891354177534477==
+--===============0432181791449244769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: fcf2c914bd9ab9d05dc7beb2e9f0fef53f132e81
-    new: 36ade6bbc7d1eb14070836ffe25c5b59bc788a1a
-    log: revlist-fcf2c914bd9a-36ade6bbc7d1.txt
+  - ref: refs/heads/net-next
+    old: 8ac323e6d307d6ad42f4d48cc9c59964a5ba1f8f
+    new: d5ca98c5db8cd51cb647b7f4ece8d55311c8ad16
+    log: revlist-8ac323e6d307-d5ca98c5db8c.txt
 
---===============2747891354177534477==
+--===============0432181791449244769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fcf2c914bd9a-36ade6bbc7d1.txt
+Content-Disposition: attachment; filename=revlist-8ac323e6d307-d5ca98c5db8c.txt
 
 f5516a64b5d207bf3a88a8c6424feef9a560b619 net/mlx5: Add VDPA priority to NIC RX namespace
 ab35de1004663385735e1c1e890eb430c80d173a Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
+3da5d1ac4bc7a0e250648834226ae76919762ad2 net/mlx5: Check if lag is supported before creating one
 7b354d581407815f8002406826a316499569a24d net/mlx5: Fix compilation warning for 32-bit platform
 08d05497ebd9c6cea86b0d68e2a75fa54a7d93d8 devlink: Prepare code to fill multiple port function attributes
 c6d0eead9eae7b76b49639f4ff79aff62858f7de devlink: Introduce PCI SF port flavour and port attribute
@@ -98,5 +99,10 @@ a041554d51309984a2fc357f1d4767c6ca89ac25 net/mlx5e: Add flow steering VLAN trap 
 01becff684e337fd36c002f3280c19c769c5f5e4 net/mlx5e: Add listener to trap event
 b9fae97b9be99025a0c8171aac83f152f0c968f3 net/mlx5e: Add listener to DMAC filter trap event
 36ade6bbc7d1eb14070836ffe25c5b59bc788a1a net/mlx5e: Enable traps according to link state
+759abaeac5a804fca822d166c61002a7c9a232f3 Merge branch 'net-next-mlx4' into net-next
+3d2ffcd89adfae39ceaa64a0433a7f9819796892 Merge branch 'mlx5-vdpa' into net-next
+77f4546969e43bd78beb46ae1f03095034a94a3f Merge branch 'net-next-mlx5' into net-next
+7bac26350db536bffef4749533193916064570e4 Merge branch 'net-mlx4' into net-next
+d5ca98c5db8cd51cb647b7f4ece8d55311c8ad16 Merge branch 'net-mlx5' into net-next
 
---===============2747891354177534477==--
+--===============0432181791449244769==--
