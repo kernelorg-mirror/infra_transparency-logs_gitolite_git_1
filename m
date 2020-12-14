@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
-Date: Mon, 14 Dec 2020 16:34:31 -0000
-Message-Id: <160796367141.7252.2655492467148912991@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Mon, 14 Dec 2020 16:52:16 -0000
+Message-Id: <160796473660.17345.14379684583233216375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
-user: zx2c4
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: fe402261666821514377d06c2c68ed9bc19e7634
-    new: f7f55464a156e1181fa76d9c7e2fc0d495f2357e
+  - ref: refs/heads/dev
+    old: ef7b32a4386bd70d8bfc6eec166831420ba69e18
+    new: 75e91c888989cf2df5c78b251b07de1f5052e30e
     log: |
-         f7f55464a156e1181fa76d9c7e2fc0d495f2357e compat: drop rhel 8.2, add rhel 8.4 support
+         e584bbe821229a3e7cc409eecd51df66f9268c21 f2fs: fix shift-out-of-bounds in sanity_check_raw_super()
+         75e91c888989cf2df5c78b251b07de1f5052e30e f2fs: compress: fix compression chksum
          
