@@ -1,37 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 14 Dec 2020 18:19:34 -0000
-Message-Id: <160796997432.11117.7120489053438296675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-gpio
+Date: Mon, 14 Dec 2020 18:24:37 -0000
+Message-Id: <160797027793.13856.17813339384264256056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: bleung
+repo: pub/scm/linux/kernel/git/linusw/linux-gpio
+user: linusw
 changes:
-  - ref: refs/tags/v5.10
-    old: 0000000000000000000000000000000000000000
-    new: 3f995f8e0b540342612d3f6b1fc299f5bf486987
-  - ref: refs/tags/v5.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 8ccd3b86485397172cf41d07ede9c26fc8bf9d88
-  - ref: refs/tags/v5.10-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 27598e7e73260ed0b2917eb02d4a515ebb578313
-  - ref: refs/tags/v5.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 4d3d761b5b27bb33a731e8df51b7fb6a6c565804
-  - ref: refs/tags/v5.10-rc4
-    old: 0000000000000000000000000000000000000000
-    new: a93711503472d4c89977ce2c80dcd4b75e36cc45
-  - ref: refs/tags/v5.10-rc5
-    old: 0000000000000000000000000000000000000000
-    new: af69a948d2ce48f8bfe9935958d12f86fb50326b
-  - ref: refs/tags/v5.10-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 2884f0b6b25db35053dd51e8e1839696746d8321
-  - ref: refs/tags/v5.10-rc7
-    old: 0000000000000000000000000000000000000000
-    new: dd0039844c8b2b960d0e0175923da0135f87c392
+  - ref: refs/heads/devel
+    old: 65efb43ac94bffeb652cddba4106817bb38c5e71
+    new: 2cd64ae98f35287368ae900d36ac875f8e9b9632
+    log: |
+         2cd64ae98f35287368ae900d36ac875f8e9b9632 gpiolib: Disallow identical line names in the same chip
+         
+  - ref: refs/heads/for-next
+    old: 65efb43ac94bffeb652cddba4106817bb38c5e71
+    new: 2cd64ae98f35287368ae900d36ac875f8e9b9632
+    log: |
+         2cd64ae98f35287368ae900d36ac875f8e9b9632 gpiolib: Disallow identical line names in the same chip
+         
