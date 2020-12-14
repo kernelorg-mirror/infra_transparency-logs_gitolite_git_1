@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4729411056132477452=="
+Content-Type: multipart/mixed; boundary="===============8733197020635138537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 14 Dec 2020 18:32:53 -0000
-Message-Id: <160797077377.21776.13040665633394229344@gitolite.kernel.org>
+Date: Mon, 14 Dec 2020 18:34:57 -0000
+Message-Id: <160797089787.22506.846732051322874272@gitolite.kernel.org>
 
---===============4729411056132477452==
+--===============8733197020635138537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,43 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 55a0ea50e70d4a27a875c69367e359089125796f
-    new: f34457d94ce814f6513f876c569fe0f6419fdde3
+  - ref: refs/heads/linux-5.10.y
+    old: 2c85ebc57b3e1817b6ce1a6b703928e113a90442
+    new: 841fca5a32cccd7d0123c0271f4350161ada5507
     log: |
-         f34457d94ce814f6513f876c569fe0f6419fdde3 Notes added by 'git notes add'
+         859f70354379ce53be23bca3580cb7f77978c7a2 Revert "md: change mddev 'chunk_sectors' from int to unsigned"
+         26934c83005e75eab2b8d54d0fa5adbee4f27535 Revert "dm raid: fix discard limits for raid1 and raid10"
+         841fca5a32cccd7d0123c0271f4350161ada5507 Linux 5.10.1
          
 
---===============4729411056132477452==
+--===============8733197020635138537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607970840 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1607970963 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1607970772-2dcf6efbe1460b0766ff1f438e579070287f24b6
+nonce 1607970895-b68b34b8d5ab1af295e46c4f6934de0ea2bc4725
 
-55a0ea50e70d4a27a875c69367e359089125796f f34457d94ce814f6513f876c569fe0f6419fdde3 refs/notes/signatures/tar
+2c85ebc57b3e1817b6ce1a6b703928e113a90442 841fca5a32cccd7d0123c0271f4350161ada5507 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/XsBgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wBEQAIjbmtHyAj0/Py8jrxyM
-T6aFyweuBfZBgC+iG+tMmoMCJZ93JiiZU6jr7NfNLQDsbVoJs7AHHAZAdAUt0/N8
-H1O7MMLL1QmkynWAyIU7r+bAC488IwHtEo7hJMVJ19HOWlMOXrilMYKBe/4aGQSh
-Vp0JorbO5/fL4zMue6ZUIYFGII5weN8JqKkC9JEVlaMO5QygipKaYaOVl8zkjNE0
-YSrAmda8ikWYP1+sE0LbMuT8glr4CmeXEJKjUGb2pNVPoKrLoAd2Ky62qbczYOJc
-GXW0EIHU+RPEBEH16iqBFrZPQ75I8NiI5LJj3Aij+1aJqPMf7HgYFRl8YswyiOBs
-LdKmw0A7bLSRKwfJ4T1LajjtQftGOXAiSFiZtEzFb6w74/9cXThxibGTcVkvY0Yo
-ICdtmI2zNZsYFJbTvLbmkXMrmsXWMhAXOjIjKeKCL2ttQ6iPOxytdUUfsxPHhhEO
-HlLkMmr+TOhXIswbNZt9BfGyS2h4O0gCeOaJpRT6vDBC0SIWA2TkFyCA8/DKRN8U
-Mo7xvVRcXKoIGE4K82amORdd5h4ggun7MZfzOVmBkCAwaJebwCi+CxRQn7hRWCmw
-DpdWHusDuT2o6ed5STqoaPO2yr50FitGmKhJ2zDNg4AZtdaQ+ItE/HVr1jnHzpkU
-JoYa711h4VDTJFFP5cBVpT7A
-=R4fP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/XsJMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+suMP/jPQrZACvSc+1sTvzwCB
+RrhZtp8ZK5K/bLdAhtwGnwcnDruhyqif/WNP9WBG064Bxm5lM9LC50sIciaoCVAO
+HTfG9HinkPpSdxM4WkigqlYPcYfGoOvSH+YLvAji/jy0lvOgorzVrzxBhOX7DKKG
+Of7W8xKbTnlqfHGIYlG+HwG9GhRg3MvkPv7BA0FsJjVihrmNSsWfzWHEfJvSMRUr
+hbpSiWts8EWTyv9GaJi4q5lIYddZnXh8tSEgAsZBexYBOZM+3mvhMdxM7W64gGXm
+5YnHdvmcvuAlyKhOx1b/mk0K45xqnHuZU8VR94Yx+1cRt1Zh8pivXjX75CB851Et
+DpkoCC1GPz5+ad2KfE3eP13iHJ8PVFYVSdRCGObfQ5RoZokdygopk7l37lkwXxrr
+gbXLSaltPXcqYK59F+DkSh0yrZ/YDn3qvZkb65tJMv13G4ofz+eGor+toxYVHsbf
+ibHl9uA0lgmxT1x5msh1CidIbs+uMqHtmDDLXfeXwvgwUTXIzTg6+hEI3n/HxaVZ
+2IodvB06SgG6jBLguIVdh+ko3h008LFDsJymzUIu4pRt1zKXkZYwZ6lvWSzH3ceA
+SfTsC7h1LBIK6TYy9lBIeVExEJi42x37HLljn6Yjymrvah5RkFihBjUuPS+Y7Gzs
+NMa7fTjToA9K/nG5m6pleJ2j
+=qqiE
 -----END PGP SIGNATURE-----
 
---===============4729411056132477452==--
+--===============8733197020635138537==--
