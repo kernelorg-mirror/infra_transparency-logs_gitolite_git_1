@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2817140630064022436=="
+Content-Type: multipart/mixed; boundary="===============7510864701596444930=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Tue, 15 Dec 2020 00:40:17 -0000
-Message-Id: <160799281788.7413.16358024523250916962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Tue, 15 Dec 2020 00:41:46 -0000
+Message-Id: <160799290644.7863.12474999069432344437@gitolite.kernel.org>
 
---===============2817140630064022436==
+--===============7510864701596444930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 708ec9e0b7442d78853995d23ec0c9f5d31a67f8
-    new: 21e6f160a6a42cfa2c07233a6950a8fbc08bc16a
-    log: revlist-708ec9e0b744-21e6f160a6a4.txt
+    old: ed1c04e9643cefd49de227830d0c63c68dcf2b75
+    new: 4a76098e44d01fe2132257b5cd4e00b7e15874aa
+    log: revlist-ed1c04e9643c-4a76098e44d0.txt
 
---===============2817140630064022436==
+--===============7510864701596444930==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-708ec9e0b744-21e6f160a6a4.txt
+Content-Disposition: attachment; filename=revlist-ed1c04e9643c-4a76098e44d0.txt
 
 8410e7f3b31e53bfa7a34c282b4313e79ed7ff8d cpufreq: scmi: Fix OPP addition failure with a dummy clock provider
 054409ab253d9f31bec5760105144166b4b71e22 KVM: SVM: fix error return code in svm_create_vcpu()
@@ -1049,6 +1049,6 @@ b53966ffd4c0676c02987d4fc33b99bdfc548cf0 Merge tag 'for-linus-5.10c-rc8-tag' of 
 d2360a398f0b68722641c59aeb2623e79bd03e34 Merge tag 'block-5.10-2020-12-12' of git://git.kernel.dk/linux-block
 ec6f5e0e5ca0764b4bc522c9f9d5abf876a0e3e3 Merge tag 'x86-urgent-2020-12-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2c85ebc57b3e1817b6ce1a6b703928e113a90442 Linux 5.10
-21e6f160a6a42cfa2c07233a6950a8fbc08bc16a selinux: add a SELinux specific README.md
+4a76098e44d01fe2132257b5cd4e00b7e15874aa audit: add a Linux Audit specific README.md
 
---===============2817140630064022436==--
+--===============7510864701596444930==--
