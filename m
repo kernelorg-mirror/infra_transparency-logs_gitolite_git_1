@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Tue, 15 Dec 2020 22:07:16 -0000
-Message-Id: <160807003601.20294.5015246697249894319@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2280125226132655459=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Tue, 15 Dec 2020 22:21:04 -0000
+Message-Id: <160807086422.28006.15081667471699080017@gitolite.kernel.org>
+
+--===============2280125226132655459==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 9922adcbb4383c50eb8d0046f283873b999b40ba
-    new: 5e63b6bc832fb2bf5ff99e4de83354429504e0e9
+  - ref: refs/heads/master
+    old: 053bcb017bc5d6bb91f73d1b8beea579219dade7
+    new: b370e544ad1bfa1999b032a4cf46d497da7f2bf6
     log: |
-         29b38ea218bd978d1950e12cc24da98215a1eeef netlink: fix use after free in netlink_run_handler()
-         d85f57499d75da5c98b73652488f3f62c6f6d8ea netlink: fix leaked instances of struct nl_socket
-         acd9730d1e794f85caf1192fe8788876e6f96305 netlink: do not send messages and process replies in nl_parser()
-         124a3c06d1c34b125d84a9eb312fddd365bb7bf6 ethtool: Improve compatibility between netlink and ioctl interfaces
-         5e63b6bc832fb2bf5ff99e4de83354429504e0e9 Improve error message when SFP module is missing
+         b370e544ad1bfa1999b032a4cf46d497da7f2bf6 Minor key updates
          
+
+--===============2280125226132655459==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1608070863 -0500
+pushee pdx-korg-gitolite-1.ci.codeaurora.org:pub/scm/docs/kernel/pgpkeys
+nonce 1608070863-77435d2c3a5a701741f0735f7b2d35a78de81107
+
+053bcb017bc5d6bb91f73d1b8beea579219dade7 b370e544ad1bfa1999b032a4cf46d497da7f2bf6 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX9k2zwAKCRC2xBzjVmSZ
+bF5aAQCRbR12FJh8/PdVf2y0PCvGzfuZfW+b8nqnhHZPQGRaswEA18L5CVBgZWND
+V20lLzTm+iD3aLFdz28lSfZChTNKEQo=
+=7TEK
+-----END PGP SIGNATURE-----
+
+--===============2280125226132655459==--
