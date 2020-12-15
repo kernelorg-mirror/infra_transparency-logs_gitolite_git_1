@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1140039191077808134=="
+Content-Type: multipart/mixed; boundary="===============9196286721817723121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 15 Dec 2020 23:33:58 -0000
-Message-Id: <160807523818.12216.9425320963523099427@gitolite.kernel.org>
+Date: Tue, 15 Dec 2020 23:34:30 -0000
+Message-Id: <160807527032.12447.4367196544558015759@gitolite.kernel.org>
 
---===============1140039191077808134==
+--===============9196286721817723121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 0e12c0271887f1b00b79b7612c1d4f0d3d34e8a8
     new: 3db1a3fa98808aa90f95ec3e0fa2fc7abf28f5c9
     log: revlist-0e12c0271887-3db1a3fa9880.txt
-  - ref: refs/tags/v5.10
-    old: 0000000000000000000000000000000000000000
-    new: 3f995f8e0b540342612d3f6b1fc299f5bf486987
 
---===============1140039191077808134==
+--===============9196286721817723121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1051,4 @@ c367caf1a38b6f0a1aababafd88b00fefa625f9e Merge tag 'sound-5.11-rc1' of git://git
 2911ed9f47b47cb5ab87d03314b3b9fe008e607f Merge tag 'char-misc-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 3db1a3fa98808aa90f95ec3e0fa2fc7abf28f5c9 Merge tag 'staging-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 
---===============1140039191077808134==--
+--===============9196286721817723121==--
