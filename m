@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1136700937365270572=="
+Content-Type: multipart/mixed; boundary="===============4794902234945051639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 15 Dec 2020 12:38:09 -0000
-Message-Id: <160803588944.13980.10699782130077618982@gitolite.kernel.org>
+Date: Tue, 15 Dec 2020 12:38:22 -0000
+Message-Id: <160803590266.14172.16082859317055841664@gitolite.kernel.org>
 
---===============1136700937365270572==
+--===============4794902234945051639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 90dfbe8a104114f1661f8a48258c0c14481dcac3
     new: d1c29f5debd4633eb0e9ea1bc00aaad48b077a9b
     log: revlist-90dfbe8a1041-d1c29f5debd4.txt
 
---===============1136700937365270572==
+--===============4794902234945051639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -87,4 +87,4 @@ d72c8b0e1cacc39495cd413433d260e8ae59374a efi: arm: force use of unsigned type fo
 c9fe9e8b655332fabf491e7f770d55f6d8870564 Merge branch 'irq/core'
 d1c29f5debd4633eb0e9ea1bc00aaad48b077a9b Merge branch 'efi/core'
 
---===============1136700937365270572==--
+--===============4794902234945051639==--
