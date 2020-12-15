@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6558082860144973344=="
+Content-Type: multipart/mixed; boundary="===============3035264600979767475=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 15 Dec 2020 01:43:52 -0000
-Message-Id: <160799663218.19930.242653752197698817@gitolite.kernel.org>
+Date: Tue, 15 Dec 2020 01:44:14 -0000
+Message-Id: <160799665457.20096.16542510932641346843@gitolite.kernel.org>
 
---===============6558082860144973344==
+--===============3035264600979767475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b4b638c36b7e7acd847b9c4b9c80f268e45ea30c
     new: 0e12c0271887f1b00b79b7612c1d4f0d3d34e8a8
     log: revlist-b4b638c36b7e-0e12c0271887.txt
-  - ref: refs/tags/v5.10-rc7
-    old: 0000000000000000000000000000000000000000
-    new: dd0039844c8b2b960d0e0175923da0135f87c392
 
---===============6558082860144973344==
+--===============3035264600979767475==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -952,4 +949,4 @@ ebf322822cc93259316480266afeb889dd65522a Merge branch 'mptcp-another-set-of-misc
 6d4634d1b09172a9f5863d8c4cec8f82fbecdf15 net: Limit logical shift left of TCP probe0 timeout
 0e12c0271887f1b00b79b7612c1d4f0d3d34e8a8 selftests: test_vxlan_under_vrf: mute unnecessary error message
 
---===============6558082860144973344==--
+--===============3035264600979767475==--
