@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Tue, 15 Dec 2020 18:04:20 -0000
-Message-Id: <160805546061.29635.2310570576771397188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Tue, 15 Dec 2020 18:13:23 -0000
+Message-Id: <160805600312.2495.16639962790545180889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andersson/remoteproc
-user: andersson
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/tags/hwlock-v5.11
-    old: 0000000000000000000000000000000000000000
-    new: 86f5d014181bab635868f4b0a1d025616a81e7bc
-  - ref: refs/tags/rpmsg-v5.11
-    old: 0000000000000000000000000000000000000000
-    new: f6f34d2f45d4e40161598168b9c8f658e4592ea4
-  - ref: refs/tags/rproc-v5.11
-    old: 0000000000000000000000000000000000000000
-    new: f503bd74d028c12a44fcb909e54aa0c021b2efb1
+  - ref: refs/heads/thermal/next
+    old: d7203eedf4f68e9909fd489453168a9d26bf0c3d
+    new: 4401117bf7fc11dc738c0963fa0c94814abc8dcd
+    log: |
+         1fa34e49e4b7e66214a1d15261c0224d60366eec thermal/drivers/rcar: Remove notification usage
+         4401117bf7fc11dc738c0963fa0c94814abc8dcd thermal/drivers/devfreq_cooling: Fix the build when !ENERGY_MODEL
+         
