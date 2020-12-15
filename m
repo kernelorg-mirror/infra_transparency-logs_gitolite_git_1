@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1568909207403287371=="
+Content-Type: multipart/mixed; boundary="===============4619602758251316197=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 15 Dec 2020 06:35:15 -0000
-Message-Id: <160801411592.11849.5530721622701208503@gitolite.kernel.org>
+Date: Tue, 15 Dec 2020 06:35:40 -0000
+Message-Id: <160801414092.12023.6925988889221652155@gitolite.kernel.org>
 
---===============1568909207403287371==
+--===============4619602758251316197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 48f486e13ffdb49fbb9b38c21d0e108ed60ab1a2
     new: 7f376f1917d7461e05b648983e8d2aea9d0712b2
     log: revlist-48f486e13ffd-7f376f1917d7.txt
 
---===============1568909207403287371==
+--===============4619602758251316197==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b7906b70a2337e445b8dca3ce7ba8976b6ebd07d bpf: Fix enum names for bpf_this_cpu_pt
 1de5d12b769017f7354e7151ce1c26eb1d9ba2e4 Merge tag 'mmc-v5.10-rc4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 7f376f1917d7461e05b648983e8d2aea9d0712b2 Merge tag 'mtd/fixes-for-5.10-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 
---===============1568909207403287371==--
+--===============4619602758251316197==--
