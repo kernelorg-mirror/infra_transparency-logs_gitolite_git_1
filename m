@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Tue, 15 Dec 2020 21:59:56 -0000
-Message-Id: <160806959669.15476.12454559012264138872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ethtool/ethtool
+Date: Tue, 15 Dec 2020 22:07:16 -0000
+Message-Id: <160807003601.20294.5015246697249894319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/network/ethtool/ethtool
+user: mkubecek
 changes:
-  - ref: refs/heads/main
-    old: 0d78e8eabf865b47f98adae7c453884bdc19c2f2
-    new: c8faeca5ad788bf0ad7a427213616b353e7a7e7f
+  - ref: refs/heads/next
+    old: 9922adcbb4383c50eb8d0046f283873b999b40ba
+    new: 5e63b6bc832fb2bf5ff99e4de83354429504e0e9
     log: |
-         c8faeca5ad788bf0ad7a427213616b353e7a7e7f ss: mptcp: fix add_addr_accepted stat print
+         29b38ea218bd978d1950e12cc24da98215a1eeef netlink: fix use after free in netlink_run_handler()
+         d85f57499d75da5c98b73652488f3f62c6f6d8ea netlink: fix leaked instances of struct nl_socket
+         acd9730d1e794f85caf1192fe8788876e6f96305 netlink: do not send messages and process replies in nl_parser()
+         124a3c06d1c34b125d84a9eb312fddd365bb7bf6 ethtool: Improve compatibility between netlink and ioctl interfaces
+         5e63b6bc832fb2bf5ff99e4de83354429504e0e9 Improve error message when SFP module is missing
          
