@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7737045995087936129=="
+Content-Type: multipart/mixed; boundary="===============2649298817624130173=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 15 Dec 2020 04:23:43 -0000
-Message-Id: <160800622348.27318.6406843100141389285@gitolite.kernel.org>
+Date: Tue, 15 Dec 2020 04:24:04 -0000
+Message-Id: <160800624428.27527.16776312743057991184@gitolite.kernel.org>
 
---===============7737045995087936129==
+--===============2649298817624130173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: bec020d3b6fd3fd97597e8967bd598695b44fc7b
-    new: 148842c98a24e508aecb929718818fbf4c2a6ff3
-    log: revlist-bec020d3b6fd-148842c98a24.txt
+  - ref: refs/heads/master
+    old: 1dc5386badcb1464e0cf51b732402ce2a0bb63b5
+    new: e16f5e09a047c320736113cb0e3a9a07cee53756
+    log: revlist-1dc5386badcb-e16f5e09a047.txt
 
---===============7737045995087936129==
+--===============2649298817624130173==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bec020d3b6fd-148842c98a24.txt
+Content-Disposition: attachment; filename=revlist-1dc5386badcb-e16f5e09a047.txt
 
-a48491c65b513e5cdc3e7a886a4db915f848a5f5 Input: i8042 - add ByteSpeed touchpad to noloop table
-2aab1561439032be2e98811dd0ddbeb5b2ae4c61 Input: xpad - support Ardwiino Controllers
 c98fff7332dbd6e028969f8c2bda3d7bc7a024d8 USB: serial: option: fix Quectel BG96 matching
 a2abe7cbd8fe2db5ff386c968e2273d9dc6c468d scs: switch to vmapped shadow stacks
 c2b111e59a7be1534bbd62b3f8f933f714c5ba71 arm64: dts: allwinner: A64 Sopine: phy-mode rgmii-id
@@ -1050,5 +1048,7 @@ adb35e8dc98ba9bda99ff79ac6a05b8fcde2a762 Merge tag 'sched-core-2020-12-14' of gi
 edd7ab76847442e299af64a761febd180d71f98d Merge tag 'core-mm-2020-12-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 eb0ea74120e0f14a6d6454109153d1b4ccf210fc Merge tag 'x86-fpu-2020-12-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 148842c98a24e508aecb929718818fbf4c2a6ff3 Merge tag 'x86-apic-2020-12-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9e27431aea46c84aaf264d66324bd97d70546b8b tpm: Fix fall-through warnings for Clang
+e16f5e09a047c320736113cb0e3a9a07cee53756 char: tpm: add i2c driver for cr50
 
---===============7737045995087936129==--
+--===============2649298817624130173==--
