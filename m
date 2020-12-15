@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlawall/linux
-Date: Tue, 15 Dec 2020 19:55:36 -0000
-Message-Id: <160806213624.2866.3116616032760723737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Tue, 15 Dec 2020 20:06:04 -0000
+Message-Id: <160806276465.8498.11149444170778465667@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlawall/linux
-user: jlawall
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-5.11
-    old: 33114c4359592d5c8a3d840eee9ff40039caf26f
-    new: b784c77075023e1a71bc06e6b4f711acb99e9c73
-    log: |
-         b784c77075023e1a71bc06e6b4f711acb99e9c73 coccinnelle: Remove ptr_ret script
-         
+  - ref: refs/tags/linux-kselftest-next-5.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 6974fbb67989dc007a7a3a365981aae4389d4163
