@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6648271683327854258=="
+Content-Type: multipart/mixed; boundary="===============3403350207477302627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 15 Dec 2020 06:50:14 -0000
-Message-Id: <160801501487.20006.9963269020210220275@gitolite.kernel.org>
+Date: Tue, 15 Dec 2020 06:50:43 -0000
+Message-Id: <160801504353.20210.5856357003681566757@gitolite.kernel.org>
 
---===============6648271683327854258==
+--===============3403350207477302627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
+  - ref: refs/heads/auto-latest
+    old: dc780fed5a1be01ece7e0d5588337340a642183c
+    new: 90dfbe8a104114f1661f8a48258c0c14481dcac3
+    log: revlist-dc780fed5a1b-90dfbe8a1041.txt
   - ref: refs/heads/master
-    old: 68ae68af2ba73b2969f2ce617b09b25bcbd74dd8
-    new: f6acc3a8c58a009adb0b7c742a5c386af8eec5ea
-    log: revlist-68ae68af2ba7-f6acc3a8c58a.txt
-  - ref: refs/tags/v5.10
-    old: 0000000000000000000000000000000000000000
-    new: 3f995f8e0b540342612d3f6b1fc299f5bf486987
+    old: f6acc3a8c58a009adb0b7c742a5c386af8eec5ea
+    new: 90dfbe8a104114f1661f8a48258c0c14481dcac3
+    log: |
+         90dfbe8a104114f1661f8a48258c0c14481dcac3 Merge branch 'efi/core'
+         
 
---===============6648271683327854258==
+--===============3403350207477302627==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-68ae68af2ba7-f6acc3a8c58a.txt
+Content-Disposition: attachment; filename=revlist-dc780fed5a1b-90dfbe8a1041.txt
 
-1e632eaa0f4b7f65a81301205ca122024991e1d3 s390/prng: let misc_register() add the prng sysfs attributes
-73045a08cf5549cc7dee14463431fbeb2134dd67 s390: unify identity mapping limits handling
-c9343637d6b265127dfe37cd7e09eb6feac03032 s390/ftrace: assume -mhotpatch or -mrecord-mcount always available
-9a78c70a1ba03cb4a8fb96964c6ee77236dd487b s390/decompressor: add decompressor_printk
-ec55d1e1dbea990145644bd6838c061e8113cc4d s390/decompressor: correct some asm symbols annotations
-246218962e2175cd1dfa1e5467e9bffae5cc7b5e s390/decompressor: add symbols support
-8977ab65b894d889c3919581bf545ed106a9a1a5 s390/decompressor: add stacktrace support
 ba1a6be994e8444baf23c14d7be045811197ccb3 s390/decompressor: print cmdline and BEAR on pgm_check
 074ff04e279ab8a3f97fefd1b8a313b1e4f04e9b s390/stp: let subsys_system_register() sysfs attributes
 af71657c153fc18d7bcd35a3d5240fbd1ac7ebbd s390/vmem: remove redundant check
@@ -682,6 +678,9 @@ ed9b25d1970a4787ac6a39c2091e63b127ecbfc1 [SECURITY] fix namespaced fscaps when !
 05ae91d960fd2b60199ab7b671efd7868948d961 drm/msm/dpu: enable DSPP support on SM8[12]50
 7cc29fcdfcc8784e97c5151c848e193800ec79ac drm/msm: a5xx: Make preemption reset case reentrant
 e319a1b956f785f618611857cd946dca2bb68542 drm/msm: add IOMMU_SUPPORT dependency
+5d9814df0aec56a638bbf20795abb4cfaf3cd331 clocksource/drivers/dw_apb_timer_of: Add error handling if no clock available
+d8cc3905b8073c7cfbff94af889fa8dc71f21dd5 clocksource/drivers/arm_arch_timer: Use stable count reader in erratum sne
+8b7770b877d187bfdae1eaf587bd2b792479a31c clocksource/drivers/arm_arch_timer: Correct fault programming of CNTKCTL_EL1.EVNTI
 a54ba3465d86fa5dd7d41bb88c0b5e71fb3b627e ch_ktls: fix build warning for ipv4-only config
 4d1be581ec6b92a338bb7ed23e1381f45ddf336f can: softing: softing_netdev_open(): fix error handling
 205704c618af0ab2366015d2281a3b0814d918a0 vrf: packets with lladdr src needs dst at input with orig_iif when needs strict
@@ -768,6 +767,7 @@ e8c954df234145c5765870382c2bc630a48beec9 io_uring: fix mis-seting personality's 
 ba9dfeeb4fbe70885ac5372adf463659a9d499da media: ccs: Print written register values
 bd189aac5a91adf88eb5fac062c9d4a0c005c805 media: ccs-pll: Print pixel rates
 7ea4d23293300ca2f225595849a4fe444fb80ea4 media: ccs: Add support for obtaining C-PHY configuration from firmware
+8ae954caf49ac403c177d117fb8e05cbc866aa3c clocksource/drivers/sh_cmt: Fix potential deadlock when calling runtime PM
 d9054a1ff585ba01029584ab730efc794603d68f lwt: Disable BH too in run_lwt_bpf()
 e3366884b383073a7edc1bad9634412ae0a22d4e lwt_bpf: Replace preempt_disable() with migrate_disable()
 e432c04c17993011b2a2f59dcb5738e604bd552e RDMA/core: Fix empty gid table for non IB/RoCE devices
@@ -999,6 +999,8 @@ e977aaf899a6d3b3d6658da66e262b6e307ae3a2 Merge tag 'at24-fixes-for-v5.10' of git
 34c0f6f2695a2db81e09a3ab7bdb2853f45d4d3d KVM: mmu: Fix SPTE encoding of MMIO generation upper half
 111d0bda8eeb4b54e0c63897b071effbf9fd9251 tools/kvm_stat: Exempt time-based counters
 cffdd6d90482316e18d686060a4397902ea04bd2 Input: goodix - add upside-down quirk for Teclast X98 Pro tablet
+464d2ff716c37d83e8bb0c4f1c1acfc02dbc9984 Merge tag 'timers-v5.11-2' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
+0d07c0ec4381f630c801539c79ad8dcc627f6e4a x86/kprobes: Fix optprobe to detect INT3 padding correctly
 6ffeb1c3f8226244c08105bcdbeecc04bad6b89a md: change mddev 'chunk_sectors' from int to unsigned
 643e69aff89a2d0abc53979acc441b68ce86139b Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 31d00f6eb1f2b498a1d7af62cffeba3fbea8cf75 Merge tag 'io_uring-5.10-2020-12-11' of git://git.kernel.dk/linux-block
@@ -1007,6 +1009,7 @@ b53966ffd4c0676c02987d4fc33b99bdfc548cf0 Merge tag 'for-linus-5.10c-rc8-tag' of 
 7b1b868e1d9156484ccce9bf11122c053de82617 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 5ee595d9079b94ee931287ce004d34886b7d3c24 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 6bff9bb8a292668e7da3e740394b061e5201f683 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+3cabca87b329cbcbdf295be0094adbd72c7b1f67 ntp: Fix prototype in the !CONFIG_GENERIC_CMOS_UPDATE case
 d2360a398f0b68722641c59aeb2623e79bd03e34 Merge tag 'block-5.10-2020-12-12' of git://git.kernel.dk/linux-block
 ec6f5e0e5ca0764b4bc522c9f9d5abf876a0e3e3 Merge tag 'x86-urgent-2020-12-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2c85ebc57b3e1817b6ce1a6b703928e113a90442 Linux 5.10
@@ -1052,6 +1055,6 @@ adb35e8dc98ba9bda99ff79ac6a05b8fcde2a762 Merge tag 'sched-core-2020-12-14' of gi
 edd7ab76847442e299af64a761febd180d71f98d Merge tag 'core-mm-2020-12-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 eb0ea74120e0f14a6d6454109153d1b4ccf210fc Merge tag 'x86-fpu-2020-12-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 148842c98a24e508aecb929718818fbf4c2a6ff3 Merge tag 'x86-apic-2020-12-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-f6acc3a8c58a009adb0b7c742a5c386af8eec5ea Merge branch 'linus'
+90dfbe8a104114f1661f8a48258c0c14481dcac3 Merge branch 'efi/core'
 
---===============6648271683327854258==--
+--===============3403350207477302627==--
