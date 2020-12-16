@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8466823193167268360=="
+Content-Type: multipart/mixed; boundary="===============8558905554966357591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 16 Dec 2020 09:37:43 -0000
-Message-Id: <160811146393.24630.3918772680779529713@gitolite.kernel.org>
+Date: Wed, 16 Dec 2020 09:37:54 -0000
+Message-Id: <160811147436.24788.5557642902972681526@gitolite.kernel.org>
 
---===============8466823193167268360==
+--===============8558905554966357591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_remove_return_value
+  - ref: refs/heads/debugfs_cleanup
     old: 3cea11cd5e3b00d91caf0b4730194039b45c5891
     new: 5e60366d56c630e32befce7ef05c569e04391ca3
     log: revlist-3cea11cd5e3b-5e60366d56c6.txt
 
---===============8466823193167268360==
+--===============8558905554966357591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608111519 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608111529 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1608111455-933684ac9c6a4e6aa84c837ade80d52ab4d115a7
+nonce 1608111465-3e23115a9d68af63166c5d1383d66ff2099d087b
 
-3cea11cd5e3b00d91caf0b4730194039b45c5891 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/debugfs_remove_return_value
+3cea11cd5e3b00d91caf0b4730194039b45c5891 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z1Z8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qW4QAIvoZQ59G0UZicoYzyIG
-DjoDXHEAHmp6rKtz4xOR5RSiW7XfaGEmrkXNJ7QMEuFsFUmauKwdQyobVCT7Fhab
-cG1tGRSwZiJmOOZKJJkpcbdYkXw+pg+i+sB2WdR4UrS/BhZ3hjKlmil9VCBU9zSp
-jbcCAM1ro53B1wXbQmciqaQBt4YP5RLt8s+8salju3gQChaVF5zUJYy/4DidlY9D
-hLHOB/NsIfWMdDStqciKs8jMoUKhpocPf0lcoXxEhoBDorGUJfeZf54FQuluUQny
-5aOOpT7EbPLFHb3ksG1wPFvLRIrJLOo7bZalRCacGAxHvpV/f7S1WerHhwVVfz7a
-5VPkj1mDWTIi4cXjWcU7giURFrOaG4LDwaLiW4cGSdMc9PPAc7F8Tvq5bw/SWfAA
-p9WnzW71cmWjQiPtQWmssleiP59ACeYMtvIuVnmPPy0jdMEuUMgswzd6ZZyR2d1F
-qNtewkx0an2bJmopc6ZQG8Y+OgsQOq/8qFhUVtyJTcBgZ30qAs4UIvrfVGEXisKQ
-LQrVSPgWf8/m02QB32tly/XnCKrUu1gPQCZI1QR//AvXoxR0hDIb4UA8GlRYZCDU
-+G/IjU643ELb2xLOrMzwzWC/qjUXOpknNWyvLtKvvB/58uO87JIkQJ8l/Eb1QXvC
-NRzArf7+EhFiqI13yzzOnh/u
-=1HdD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z1akbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p8oQALB/tFORDBICrA1/dKH4
+eJMzyqmb7JACIPivswxSFxFFJNbPiPZXvstqnEIpohDHH004oBOxtYH96kb1wwL2
+BwlaSneBHUkWqkT97BUlUKfyDvyBLFP06+QwCVPKUWKjnxQefxaEPauLl9ZC7SsO
+J1OVtQvGB2MgJ7y4Wfh+AWATyOJQvkHTPvTA0WX27RJ3UdEDy/ojqtvu9jk3klDf
+Awxa9zFklPogqc87VF2Cq2s2n7iLNdLEDUdWrTp8Y1KzG3as3W8qMbZjPkpZGtSL
+GGof4uqXjHy+swxRErQ75rKiwwTGt+30xY/3smEDvc2+5q2wX/TB5zaA2OoZbGxJ
+VOsdjQHJajppI2l1qRHNNGfetvd1QYo612Hus9ZqoQA6U1Eo8RXxKVIfHgkvL5nM
+37a5I48w5D02OQzyi/BHT7zTpxz/FPfkvdTFdGHRaQB7pn2aaJ7CCb9ElhI6oGz6
+gn5PSHa64oAzy8zEsxPvmgBEYJDjTecg/VhzH83DH/FCZQtGCN01ZHOzgNxaH+ae
+OiOLKrTxsqyPGPUSageNzZkk1mSg1yjoYjJ/o19OdFKNp+v1TZad9vstWBVAmRA3
+qE+nehbNdjrVxcVoZQX432xRUVsbkLMin+4gpdcdS7pR8Ajv1nYiVogY4dvxV9IU
+0W4q/Ji67alrfL0G41MKQhkJ
+=709r
 -----END PGP SIGNATURE-----
 
---===============8466823193167268360==
+--===============8558905554966357591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ b80affe33fdd56c8e9f1f0f33ad99f9016a59195 Merge tag 'linux-kselftest-fixes-5.11-r
 706451d47b3716c24e0553dfdefba11d202effc1 Merge tag 'linux-kselftest-kunit-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 5e60366d56c630e32befce7ef05c569e04391ca3 Merge tag 'fallthrough-fixes-clang-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
 
---===============8466823193167268360==--
+--===============8558905554966357591==--
