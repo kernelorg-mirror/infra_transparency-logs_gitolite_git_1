@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1823445974217757836=="
+Content-Type: multipart/mixed; boundary="===============1276551108963569683=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 16 Dec 2020 13:38:07 -0000
-Message-Id: <160812588724.24542.12079168195373286149@gitolite.kernel.org>
+Date: Wed, 16 Dec 2020 13:38:19 -0000
+Message-Id: <160812589938.24693.8752995593795879922@gitolite.kernel.org>
 
---===============1823445974217757836==
+--===============1276551108963569683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/urgent
-    old: db6c6a0df840e3f52c84cc302cc1a08ba11a4416
-    new: 44f6a7c0755d8dd453c70557e11687bb080a6f21
-    log: revlist-db6c6a0df840-44f6a7c0755d.txt
+  - ref: refs/heads/locking/urgent
+    old: 4d916140bf28ff027997144ea1bb4299e1536f87
+    new: 52579331b2c0d38754dd00f0f7948824ba1a63d7
+    log: revlist-4d916140bf28-52579331b2c0.txt
 
---===============1823445974217757836==
+--===============1276551108963569683==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-db6c6a0df840-44f6a7c0755d.txt
+Content-Disposition: attachment; filename=revlist-4d916140bf28-52579331b2c0.txt
 
+fe0a8a95e7134d0b44cd407bc0085b9ba8d8fe31 scsi: libiscsi: Fix NOP race condition
+f36199355c64a39fe82cfddc7623d827c7e050da scsi: target: iscsi: Fix cmd abort fabric stop race
+e010d1d25e47642fb91023479a4965000cf934a8 cpufreq: tegra186: Fix get frequency callback
 8410e7f3b31e53bfa7a34c282b4313e79ed7ff8d cpufreq: scmi: Fix OPP addition failure with a dummy clock provider
 054409ab253d9f31bec5760105144166b4b71e22 KVM: SVM: fix error return code in svm_create_vcpu()
 61a2f1aecf6052f7bcf900829ca2b9d74437ec07 MIPS: kernel: Fix for_each_memblock conversion
@@ -41,7 +44,6 @@ ac3b57adf87ad9bac7e33ca26bbbb13fae1ed62b MIPS: Alchemy: Fix memleak in alchemy_c
 f97bb5272d9e95d400d6c8643ebb146b3e3e7842 sched: Fix data-race in wakeup
 ec618b84f6e15281cc3660664d34cd0dd2f2579e sched: Fix rq->nr_iowait ordering
 2279f540ea7d05f22d2f0c4224319330228586bc sched/deadline: Fix priority inheritance with multiple scheduling classes
-43be4388e94b915799a24f0eaf664bf95b85231f lockdep: Put graph lock/unlock under lock_recursion protection
 ebd19fc372e3e78bf165f230e7c084e304441c08 perf/x86: fix sysfs type mismatches
 14c620cf2ee81349527491110a47a157ac6d511c Merge branch 'cpufreq/arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 54a2a3898f469a915510038fe84ef4f083131d3e ALSA: usb-audio: Add delay quirk for all Logitech USB devices
@@ -356,8 +358,6 @@ acfdd18591eaac25446e976a0c0d190f8b3dbfb1 firmware: xilinx: Use hash-table for ap
 a7361b9c4615951f52ffd2b1afa09a1384c7b4e4 ARM: dts: sun7i: pcduino3-nano: enable RGMII RX/TX delay on PHY
 eb2667b343361863da7b79be26de641e22844ba0 io_uring: fix shift-out-of-bounds when round up cq size
 9c3a205c5ffa36e96903c2e37eb5f41c0f03c43e io_uring: fix ITER_BVEC check
-58c644ba512cfbc2e39b758dd979edd1d6d00e27 sched/idle: Fix arch_cpu_idle() vs tracing
-6e1d2bc675bd57640f5658a4a657ae488db4c204 intel_idle: Fix intel_idle() vs tracing
 0305613dbcf42b6b27ddf516fea2738dfbfdb7c0 drm/i915/perf: workaround register corruption in OATAILPTR
 b5e420f4595003c8c4669b2274bc5fa3856fc1be drm/i915/gvt: correct a false comment of flag F_UNALIGN
 08b49e14ec4f88f87a3a8443fca944dc2768066b drm/i915/gt: Defer enabling the breadcrumb interrupt to after submission
@@ -746,7 +746,6 @@ acab02c1af43d3a9051524579b1c3dcfbfa5479d drm/amdgpu/pm/smu11: Fix fan set speed 
 7e0b367db85ef7b91399006253759a024eab7653 drm/amd/display: Init clock value by current vbios CLKs
 ac2db9488cf21de0be7899c1e5963e5ac0ff351f drm/amdgpu/vcn3.0: stall DPG when WPTR/RPTR reset
 efd6d85a18102241538dd1cc257948a0dbe6fae6 drm/amdgpu/vcn3.0: remove old DPG workaround
-4d916140bf28ff027997144ea1bb4299e1536f87 intel_idle: Build fix
 5debf02131227d39988e44adf5090fb796fa8466 perf/x86/intel: Fix a warning on x86_pmu_stop() with large PEBS
 fc17db8aa4c53cbd2d5469bb0521ea0f0a6dbb27 perf/x86/intel: Check PEBS status correctly
 46ee4abb10a07bd8f8ce910ee6b4ae6a947d7f63 USB: serial: ch341: add new Product ID for CH341A
@@ -1049,6 +1048,7 @@ b53966ffd4c0676c02987d4fc33b99bdfc548cf0 Merge tag 'for-linus-5.10c-rc8-tag' of 
 d2360a398f0b68722641c59aeb2623e79bd03e34 Merge tag 'block-5.10-2020-12-12' of git://git.kernel.dk/linux-block
 ec6f5e0e5ca0764b4bc522c9f9d5abf876a0e3e3 Merge tag 'x86-urgent-2020-12-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2c85ebc57b3e1817b6ce1a6b703928e113a90442 Linux 5.10
-44f6a7c0755d8dd453c70557e11687bb080a6f21 objtool: Fix seg fault with Clang non-section symbols
+c052207063c61259672d31ce5120ca1f9a9d1490 jump_label: Fix usage in module __init
+52579331b2c0d38754dd00f0f7948824ba1a63d7 jump_label/static_call: Add MAINTAINERS
 
---===============1823445974217757836==--
+--===============1276551108963569683==--
