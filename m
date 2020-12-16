@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0696753979583861178=="
+Content-Type: multipart/mixed; boundary="===============2105254313540755735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 16 Dec 2020 16:57:24 -0000
-Message-Id: <160813784441.18107.17129406044978294766@gitolite.kernel.org>
+Date: Wed, 16 Dec 2020 16:58:58 -0000
+Message-Id: <160813793849.18581.13933931200907678634@gitolite.kernel.org>
 
---===============0696753979583861178==
+--===============2105254313540755735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,46 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
+  - ref: refs/heads/bleeding-edge
+    old: d767dc777613ec5643a61a966665f81594da46ae
+    new: 73b0a2fc40a024992e122124ae8f0422594c78a7
+    log: revlist-d767dc777613-73b0a2fc40a0.txt
   - ref: refs/heads/linux-next
-    old: 08e85a810cae7e70eae555a109236dd8f8730593
-    new: d767dc777613ec5643a61a966665f81594da46ae
-    log: revlist-08e85a810cae-d767dc777613.txt
-  - ref: refs/heads/master
-    old: 0477e92881850d44910a7e94fc2c46f96faa131f
-    new: aab7ce2b099bd9df82573cd3170acf6518fdebeb
-    log: revlist-0477e9288185-aab7ce2b099b.txt
+    old: d767dc777613ec5643a61a966665f81594da46ae
+    new: 73b0a2fc40a024992e122124ae8f0422594c78a7
+    log: revlist-d767dc777613-73b0a2fc40a0.txt
 
---===============0696753979583861178==
+--===============2105254313540755735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08e85a810cae-d767dc777613.txt
+Content-Disposition: attachment; filename=revlist-d767dc777613-73b0a2fc40a0.txt
 
-1479278654e25d3715db15154e435061fae3b907 ACPI: scan: Evaluate _DEP before adding the device
-429e1e830af0b7e51a1b53ff5ddb31389498ca57 ACPI: scan: Defer enumeration of devices with _DEP lists
-3cd53bff21da1be891ac852c1a2ee1b4494c9f7e ACPI: scan: Avoid unnecessary second pass in acpi_bus_scan()
-cda7730fa8a37c31713625a4d85f2e5dba3aecff ACPI: scan: Add Intel Baytrail Mailbox Device to acpi_ignore_dep_ids
-f9d6be164ee740ade5c6c1564f22e2d45cfd92dd Merge branch 'acpi-scan' into bleeding-edge
-bca3e43c903f5c58daeab1fea0af566233ea003c ACPI: processor: fix NONE coordination for domain mapping failure
-40056999c893ee440dd20853869ecb916cf4e887 Merge branch 'acpi-processor' into bleeding-edge
-defa0c6b94db6156c0e2c97e4cedf7986b24730a Merge branch 'acpi-processor' to satisfy dependencies
-d2641a5c3d5ecaa1078225e493c7fed821715a04 cppc_cpufreq: use policy->cpu as driver of frequency setting
-bf76bb208f2b653306f2fc8f9c2a22f9890702bd cppc_cpufreq: clarify support for coordination types
-cfdc589f4b5f94bf1a975b4a67d8163d533f6e9b cppc_cpufreq: expose information on frequency domains
-a28b2bfc099c6b9caa6ef697660408e076a32019 cppc_cpufreq: replace per-cpu data array with a list
-ca6827de4b67367e73fdf43d2ea0a0064423edfb cpufreq: schedutil: Add util to struct sg_cpu
-ee2cc4276ba4909438f5894a218877660e1536d9 cpufreq: Add special-purpose fast-switching callback for drivers
-a365ab6b9dfbaf8fb4fb4cd5d8a4c55dc4fb8b1c cpufreq: intel_pstate: Implement the ->adjust_perf() callback
-e8d09cfa29a9be6fd28ccf2e611966c27c16a3ce Merge branch 'pm-cpufreq' into bleeding-edge
-b08221c40febcbda9309dd70c61cf1b0ebb0e351 ACPI: PNP: compare the string length in the matching_id()
-d767dc777613ec5643a61a966665f81594da46ae Merge branch 'acpi-pnp' into bleeding-edge
-
---===============0696753979583861178==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0477e9288185-aab7ce2b099b.txt
-
+d8602f8bf3b2329c366dd37fc6adf573ba2c4784 Merge remote-tracking branch 'arm64/for-next/perf' into for-next/core
+d45056ad739be9d6a267fe23af9923fe50a0d575 Merge remote-tracking branch 'arm64/for-next/scs' into for-next/core
+d889797530c66f699170233474eab3361471e808 Merge remote-tracking branch 'arm64/for-next/fixes' into for-next/core
+66482f640755b31cb94371ff6cef17400cda6db5 driver: core: Fix list corruption after device_del()
+c95d64012ad7de2747923b0caf80e195e940606c Revert "driver core: Avoid deferred probe due to fw_devlink_pause/resume()"
+3b052a3e30f2eb92dcae9fd89af48d5a13045737 Revert "driver core: Rename dev_links_info.defer_sync to defer_hook"
+96d8a9168ef5539beba9951dffe6eda07b74833e Revert "driver core: Don't do deferred probe in parallel with kernel_init thread"
+999032ece38be271ca28a6c0ba5f2e4dd4012425 Revert "driver core: Remove check in driver_deferred_probe_force_trigger()"
 087ad763c15477fba4324d7312866946b7f5ed30 Revert "of: platform: Batch fwnode parsing when adding all top level devices"
 c84b90909e475a2eb4934b4d92fdd10e73e75805 Revert "driver core: fw_devlink: Add support for batching fwnode parsing"
 01bb86b380a306bd937c96da36f66429f3362137 driver core: Add fwnode_init()
@@ -600,15 +583,7 @@ fe472e9d47c8324cc849337f476c22e1e27773c4 iwlwifi: fw: dbg: Fix misspelling of 'r
 81daab1f8d57dccc7d5f26dd2f34847b6c4e6717 iwlwifi: fw: acpi: Demote non-conformant function headers
 94801e5c6d461045726e1563ba2369ef7ce21dbf Merge tag 'pinctrl-v5.10-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 7f469b6dc484cd5b2ea61763607892626afc2b21 mt76: remove unused variable q
-718072ceb211833f3c71724f49d733d636067191 PM: domains: create debugfs nodes when adding power domains
-d3569c149dfe05f1e6e322d4851eed42dbad3df6 Merge tag 'devfreq-next-for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
 9a02fd8b19247e80e2354a227b6e2392e8fae78a x86/ia32_signal: Propagate __user annotation properly
-42807537b6a08b280612c1d456f33d876af74af3 Merge back cpufreq material for v5.11.
-2554c32f0b84df1f506546125c9d15c8044a2ec2 cpufreq: intel_pstate: Simplify intel_cpufreq_update_pstate()
-90ac908a418b836427d6eaf84fbc5062881747fd cpufreq: schedutil: Simplify sugov_update_next_freq()
-7854c7520b86f0c14f7fcfea6fd1785617844341 cpufreq: stats: Use local_clock() instead of jiffies
-ec06e586ab921f8eca86d6c3ed32bffefd3ef50f cpufreq: Fix up several kerneldoc comments
-b96f038432362a20b96d4c52cefeb2936e2cfd2f cpufreq: Fix cpufreq_online() return value on errors
 249a9599c9123a4af655dd5800c2506602ffa055 mtd: rawnand: ams-delta: Do not force a particular software ECC engine
 52277269c4060ced7e7d1a83c77377590d106f44 mtd: rawnand: au1550: Do not force a particular software ECC engine
 bd47fa451315684424d2b39aa95f2ed235fee37a mtd: rawnand: gpio: Do not force a particular software ECC engine
@@ -720,9 +695,7 @@ fe62de310e2b563c0d303a09d06b020077fe86b4 libbpf: Support modules in bpf_program_
 a4d2a7ad86834092b327082004ead755d2603376 libbpf: Expose libbpf ring_buffer epoll_fd
 1d36dffa5d887715dacca0f717f4519b7be5e498 Merge tag 'drm-next-2020-12-11' of git://anongit.freedesktop.org/drm/drm
 bcc68bd8161261ceeb1a4ab02b5265758944f90d Merge tag 'auxdisplay-for-linus-v5.11' of git://github.com/ojeda/linux
-f0f6dbaf06f4329dbd07594ffcd55edf27ee4b45 Merge branch 'opp/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 ae1985b50afaf76aaa09946ee36b59eaecb2ffae Merge tag 'for-5.11/revert-problem-v5.10-raid-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-30c768829af2574a2f60ca85c4cc3ba2ed8d0e58 Merge branch 'cpufreq/arm/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 fab0fca1da5cdc48be051715cd9787df04fdce3a Merge tag 'media/v5.11-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 da0628559871475b482f015dc24c9bef372936e4 Merge tag 'tomoyo-pr-20201214' of git://git.osdn.net/gitroot/tomoyo/tomoyo-test1
 7c7fdaf6ad9fe868553c2e1fc8a920249820ac3e Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt
@@ -1079,5 +1052,7 @@ ee249d30fadec7677364063648f5547e243bf93f Merge branch 'for-linus' of git://git.k
 b109bc72295363fb746bc42bdd777f7a8abb177b Merge tag 'thermal-v5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/thermal/linux
 b4ec805464a4a0299216a003278351d0b4806450 Merge tag 'pm-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 aab7ce2b099bd9df82573cd3170acf6518fdebeb Merge tag 'acpi-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+58504e886a9aa082314c15db1ee3d03c3e29a248 Merge branches 'acpi-scan', 'acpi-processor' and 'acpi-pnp' into linux-next
+73b0a2fc40a024992e122124ae8f0422594c78a7 Merge branch 'pm-cpufreq' into linux-next
 
---===============0696753979583861178==--
+--===============2105254313540755735==--
