@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6775467951712161008=="
+Content-Type: multipart/mixed; boundary="===============3530547712953345358=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 16 Dec 2020 09:33:09 -0000
-Message-Id: <160811118986.21123.8541648525515281585@gitolite.kernel.org>
+Date: Wed, 16 Dec 2020 09:33:29 -0000
+Message-Id: <160811120900.21258.4733792991609005371@gitolite.kernel.org>
 
---===============6775467951712161008==
+--===============3530547712953345358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,59 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 0477e92881850d44910a7e94fc2c46f96faa131f
+  - ref: refs/heads/char-misc-next
+    old: 93f998879cd95b3e4f2836e7b17d6d5ae035cf90
     new: 5e60366d56c630e32befce7ef05c569e04391ca3
-    log: revlist-0477e9288185-5e60366d56c6.txt
+    log: revlist-93f998879cd9-5e60366d56c6.txt
 
---===============6775467951712161008==
+--===============3530547712953345358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608111245 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608111264 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1608111181-6e2f25e7dbbee7ce8f0bd270ef9e3d47c5727867
+nonce 1608111200-4f463c0dd8dd72988e8cc33bb84c3779d0cea532
 
-0477e92881850d44910a7e94fc2c46f96faa131f 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/char-misc-linus
+93f998879cd95b3e4f2836e7b17d6d5ae035cf90 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z1I0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aS0QAMBE4u07I+6VL0j5VTD/
-fj0XLYha5QcQ5dZsTODoGHAKtmK7UiAab9sndNF4YYUHGf8YB+Ey2Mt8rCpq1uNA
-AZq+WSxKm+2CP/YmnkxaegGh1lOFsiNnm/BI+iGuBT6cIOOqh9VQKWG7l/UV0A4p
-Q5DdPfz7jD99gINVRwy+UZXfoGW9ttBodqq5uAQgREmCIv+DA6HtZPt8Qi/7FUQD
-YLyY8vXogNb9iAjhvVzVRVk64/vQSgh2XVQx8jkgKyF6EuXh/MdTZsbfIZl2UQho
-ra6ReHbeP59hOzndv4uidAOMzQDD+pdODGk7muAjxAtH59Y0HJRpYtEFAvfK03x/
-uTc18kr0PTUhLU4g7CAaDjoNTvHP2dXvdTN4Y79scAS/ALVLiXgVn9mGUd+ntjj/
-np0OYHhLzQBxxktvGjQuW4ZzCFC8TX/57nHSyPNAoYKnuK5MQ8dYLvO26FY4PcEt
-ZPlKe/vxJLjMpSIY/g2HWS2VreElPnNRf5mkOItCRBdpIup52pw8g5s22NGtL5IA
-HSvJ23vyjVKglOhomo8W58vsyE43rAqbRA7+WU2IF16PQSy3KhjwWzDvoT5pzz3S
-JmrIU39xFiLe2N/oUSUFD+y9yMsLIIBEgepTFfZZjhiduPovtD6BNvpN0J4W5jtt
-CzXjf0S6x/i/2QWDCgkVUt/v
-=8TD7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z1KAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jp4P/RNhbP3E4JSbMEnEpGvu
+pHN1KcuzdkfBoA0g6A1OjBnjwg6n9cd0s+2yJZ4q7NtMPb0Rzqb/GUxTbQvUMKLl
+LZA5vMu5+/QRVRrwzVpUSqPyn+5eL9iTAz7kB0ayCz0YyFCWET+62B2T6LKC3diY
+NpyhoX0ny+RTbqeyp2+1bjVvnAF2RNiGChcq0jtnbpnkH6rnAaAE1XOzcKzuFcDT
+BgVz2MAGxle0oWGd4/xYaar0g70nKo3NG5s8uWm0f1cN/u3R1z9TUZXiasPTvai4
+mNV24t70uxbQlShbShNJE7GngwU14mXb1D3Q9QIM/qdcDturbj8SvmE4DY9SQbLR
+eNF6lU9wuS4iMKptjfQ9glBo4+eZs0eCC8aGK2/6eqra30GErJF7urI2fcLpjZo5
+yrD8TgqCjfexxe6DQjl5mG/15fsibAfuMEFqihy/Ov7YC6COySK6ZTonNm+lBDrr
+xqcTXfrthqwzr+0k4bmBI5SBWfxSemnP0lJf1hL49DvMuPnGxO+55eHIHXNTSv3/
+5YNxCYN8zwCBy5dHXUe6MTmdTqk8K6uKSykKQ50gqyH4mKIKeAtrPC4TR0BrkBjc
+Zodvx9wdz24xvTFQYT+jufqF3ID3Gs+BfXXHmwpMzKnXrg7wz4LHstvIylwPuZ+c
+x0BxzXWN/m3Ux37w7XbCmRMd
+=1z8F
 -----END PGP SIGNATURE-----
 
---===============6775467951712161008==
+--===============3530547712953345358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0477e9288185-5e60366d56c6.txt
+Content-Disposition: attachment; filename=revlist-93f998879cd9-5e60366d56c6.txt
 
+b783ff46ef4c80c666ed2186f471b7173db63976 dt-bindings: net: nfc: s3fwrn5: Change I2C interrupt trigger type
+237410fb83538407646109063c4d902c42261387 nfc: s3fwrn5: Remove hard coded interrupt trigger type from the i2c module
+e3bc6566b88613dc3ee13fb74727d58826ca5132 Merge branch 'nfc-s3fwrn5-Change-I2C-interrupt-trigger-to-EDGE_RISING'
+05372c456f2dceff55faa57280d4ae534028c827 net: marvell: prestera: simplify the return expression of prestera_port_close()
+8e3bf53c6105ee4beb5a0c46891fa3709ac3f4e1 net: marvell: octeontx2: simplify the return expression of rvu_npa_init()
+dd0e7aabcad14cf0a97c782737e675a348c11984 net: emulex: benet: simplify the return expression of be_if_create()
+d867bc3a269180e4029100a834febddbb8c8228e net: cisco: enic: simplify the return vnic_cq_alloc()
+264386fc192202525316dcd1e8d3c4610046e2e1 net: freescale: dpaa: simplify the return dpaa_eth_refill_bpools()
+f75e59445808bcaf5978859606bad0e6d2e66094 net: hinic: simplify the return hinic_configure_max_qnum()
+6f2d5cf9756dab190e79edd4ec098c81dca6743c net: stmmac: simplify the return dwmac5_rxp_disable()
+965b8b2bad0acaea6d7b20493394bf80075021a5 net: dsa: simplify the return rtl8366_vlan_prepare()
+b8d909375d6fcdc0de9b5f1a7ecee446aeaf5443 net: marvell: octeontx2: simplify the otx2_ptp_adjfine()
 b2058cd93d930d7b9f76f34590c0d432cd6470c7 Input: gtco - remove driver
 b2cc3bfef6aa9a0d66034b48e95cf24f6a5b0e35 dt-bindings: input: Add Dell Wyse 3020 Power Button binding
 3d82a4d736a662e352027686b8a373bf3e70820e Input: add driver for power button on Dell Wyse 3020
@@ -126,9 +138,6 @@ c9f4cad6cdfe350ce2637e57f7f2aa7ff326bcc6 can: m_can: m_can_config_endisable(): r
 cab7ffc0324f053c8fb56c821cdd63dc0383270d can: m_can: add PCI glue driver for Intel Elkhart Lake
 2c0ac9208135c75b9afec67b2819329ff41a5355 can: flexcan: convert the driver to DT-only
 ee42bedc85a6e87791d5c20da6f2d150188cde54 can: mcp251xfd: Add support for internal loopback mode
-b1f0aeecd25ac11053997484510a43346297a42d spmi: get rid of a warning when built with W=1
-0be0a733c9cd396c3900ac10873419d8b21bfd39 spmi: fix some coding style issues at the spmi core
-d40c2d4ed62df64ce603c208bceff25245380157 spmi: Add driver shutdown support
 d2a968dddf98b837de9f9b3f954537c86c9a9f81 Merge tag 'usb-v5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-next
 29ac40cbed2bc06fa218ca25d7f5e280d3d08a25 x86/mm/mem_encrypt: Fix definition of PMD_FLAGS_DEC_WP
 a5923b6c3137b9d4fc2ea1c997f6e4d51ac5d774 thermal: int340x: processor_thermal: Refactor MMIO interface
@@ -152,9 +161,6 @@ b00f444f9add39b64d1943fa75538a1ebd54a290 USB: gadget: f_rndis: fix bitrate for S
 457a902ba1a73b7720666b21ca038cd19764db18 USB: gadget: f_midi: setup SuperSpeed Plus descriptors
 a353397b0d5dfa3c99b372505db3378fc919c6c6 usb: gadget: f_fs: Re-use SS descriptors for SuperSpeedPlus
 8704fd73bf5658bf4b827643f7f526481082d83f USB: gadget: f_fs: remove likely/unlikely
-07d9a767ae5c3a9b0cf1adccbf157a6fae780de4 siox: Use bus_type functions for probe, remove and shutdown
-1c12c27086dcef853832a7cbebcb48bdac8104b6 siox: Make remove callback return void
-428bb001143cf5bfb65aa4ae90d4ebc95f82d007 slimbus: qcom: fix potential NULL dereference in qcom_slim_prg_slew()
 4661f46e50f2d658592f665be1f1f999ff647d3c serial: imx: Move imx_uart_probe_dt() content into probe()
 d96f04d347e4011977abdbb4da5d8f303ebd26f8 serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
 0aec2da436623abe19b80b21dd9fc5ec9300a152 driver core: platform: Introduce platform_get_mem_or_io()
@@ -288,17 +294,11 @@ b4fe9fec51ef48011f11c2da4099f0b530449c92 selftests/bpf: Silence ima_setup.sh whe
 c8834032ffe249a2a1b9702359ff29a28b8fcf1e Input: imx_keypad - add COMPILE_TEST support
 3d722dd4509df5df6c2e27a6485a7336ba31cc7a Input: atmel_mxt_ts - simplify the return expression of mxt_send_bootloader_cmd()
 c18b443ca5f786e10cd84efbf4b8d1f38101b971 Input: elants - document some registers and values
-06bc4ca115cddabba0faa801488bd946a48c0bf7 extcon: Add driver for TI TUSB320
-f6f79dd22f589d485ad2a79e743e00b9ff278d8b dt-bindings: extcon: add binding for TUSB320
-0e77f8e1d0c22f768fb41f88ad14347b032c043f extcon: fsa9480: Rewrite bindings in YAML and extend
-f58f26ab22f78736a402940a7baf5599a111c72c extcon: fsa9480: Support TI TSU6111 variant
 056115daede8d01f71732bc7d778fb85acee8eb6 Input: elan_i2c - add new trackpoint report type 0x5F
 e4c9062717feda88900b566463228d1c4910af6d Input: elantech - fix protocol errors for some trackpoints in SMBus mode
-e1efdb604f5c9903a5d92ef42244009d3c04880f extcon: max77693: Fix modalias string
 db41869108d4d735abe67648ff72e0d388a80a34 MAINTAINERS: da7280 updates to the Dialog Semiconductor search terms
 4f3c429ec789f8d0f1b55aea8910cfbb13e097ea dt-bindings: input: Add document bindings for DA7280
 cd3f609823a5896a6f4c229b3c2077475531e23d Input: new da7280 haptic driver
-93f998879cd95b3e4f2836e7b17d6d5ae035cf90 Merge tag 'extcon-next-for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
 4a6d3b4e7ae77352fa4bd602ff0c44d8450705aa ALSA: hda/ca0132 - Reset codec upon initialization.
 aedeb64211f0d9ae2f71a0a132e402c26b358cdc ALSA: hda/ca0132 - Add stream port remapping function.
 799c70639c002436cbf5962dff095692f1c50a70 ALSA: hda/ca0132 - Add 8051 exram helper functions.
@@ -1082,4 +1082,4 @@ b80affe33fdd56c8e9f1f0f33ad99f9016a59195 Merge tag 'linux-kselftest-fixes-5.11-r
 706451d47b3716c24e0553dfdefba11d202effc1 Merge tag 'linux-kselftest-kunit-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 5e60366d56c630e32befce7ef05c569e04391ca3 Merge tag 'fallthrough-fixes-clang-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
 
---===============6775467951712161008==--
+--===============3530547712953345358==--
