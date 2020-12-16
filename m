@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Tue, 15 Dec 2020 23:57:33 -0000
-Message-Id: <160807665393.28343.16019038721005875045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 16 Dec 2020 00:18:45 -0000
+Message-Id: <160807792541.7445.12695418863396381837@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/perf/control
-    old: 1ec9d4ce55b02434b117d74acb3bc9a8ca981f12
-    new: 853f602a3852ce1d8ac43b01289b168988d8a7cc
-    log: |
-         4e186c1bfc31a25ee3060edb8ec77b9c724b51e3 perf tools: Add evlist__disable_evsel/evlist__enable_evsel
-         1d515e3da67d6e20d1936cf63946d87575315ee4 perf tools: Allow to enable/disable events via control file
-         853f602a3852ce1d8ac43b01289b168988d8a7cc perf tools: Add evlist control command
-         
+  - ref: refs/tags/net-next-5.11
+    old: d036668bb92786751142520b6e2f50f9256ef9c9
+    new: 0000000000000000000000000000000000000000
