@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Wed, 16 Dec 2020 11:02:09 -0000
-Message-Id: <160811652951.2409.2041190352744192894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Wed, 16 Dec 2020 11:04:23 -0000
+Message-Id: <160811666314.3108.5616178806328537708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/tags/mips_5.11
-    old: 0000000000000000000000000000000000000000
-    new: 2128367cbce6f8adc5aa0f523f595434770f177f
+  - ref: refs/heads/v1.6.x
+    old: e02972a3307b62f0b8bde248791fcb1ded1484d9
+    new: d0a2cb9434271a9719bbd4ca2ccfdfd7562fc7d4
+    log: |
+         d0a2cb9434271a9719bbd4ca2ccfdfd7562fc7d4 tests: line: fix line request flags
+         
