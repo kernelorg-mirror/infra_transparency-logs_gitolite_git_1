@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7522872336640628244=="
+Content-Type: multipart/mixed; boundary="===============1794489237854332970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 16 Dec 2020 09:46:04 -0000
-Message-Id: <160811196482.30727.3096177719849684283@gitolite.kernel.org>
+Date: Wed, 16 Dec 2020 09:46:23 -0000
+Message-Id: <160811198396.30858.14697876216526807422@gitolite.kernel.org>
 
---===============7522872336640628244==
+--===============1794489237854332970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,69 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 0477e92881850d44910a7e94fc2c46f96faa131f
+  - ref: refs/heads/usb-next
+    old: a256e24021bf7ceedd29fe65eb45c7adfffffad2
     new: 5e60366d56c630e32befce7ef05c569e04391ca3
-    log: revlist-0477e9288185-5e60366d56c6.txt
+    log: revlist-a256e24021bf-5e60366d56c6.txt
 
---===============7522872336640628244==
+--===============1794489237854332970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608112020 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608112039 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1608111956-8240a5d15898308e3ab6ceaa3d68f4b0d3943bce
+nonce 1608111974-519ee5cabfdfdc42026bcc27cf6f9af379997d39
 
-0477e92881850d44910a7e94fc2c46f96faa131f 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/usb-linus
+a256e24021bf7ceedd29fe65eb45c7adfffffad2 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z15QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+54gP/RlLO3xKcvNYa68TC54t
-ptW49ixKa0cYruPXxneQaVb9FmDKPt9PklxQesq25yUp6zNQgwhwCo6DduGcUQIb
-RLfR6BRQgaUGserJp5997EgDllG7VRWdLfa0e3tSzLefaVmnl664x18e26zfKUW5
-cRRrNoovXKpdwlmDDK/ronwRudxyt473kWdX1y2AYDnXvEdn6l/x+f9wTEmjspQL
-plWyD/4cb6ra4CsiMYK45uRehlqWjaszTg3SasL5oNWzr2sFZ21jC8kZ+BXAOMrS
-7d5Nnoep6Jx2qyDueKS384Tl6rkG6I5mr0vxHr4Z7d6CSYMVg7pH+kpypjJ8d0DN
-FgHKMHw2j5T/z86x9NW2Bck13pwaDVzx6P7cNLuEvooZyeGAyjjzYix8DoohAVdK
-imBypVNE44dEuo03DvtjQGu7vjO/bUXxAC9TvezaGxFRxmMWS1iOyPOmE1vbOKde
-meK/qAp/868eFyp5b1xoWfONAs/Lzjl7c/XEMbUVDgkEKNBxmrWezMCC+x1ZLReD
-w2x35P3xnzAsY8RLBqNffMtNtu+2gsI2lRqQSPkfC+Q6Sz98gH2o+YF1jBTwf6eY
-U3cGm25rRL/TFafdFPJjdKnnh1xqdpY92JgnYGCGikc+MHuO5nC0sBxBb5Jmcoen
-2Rk1fUhXnckmhhuvufaMhuY9
-=2FGY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z16cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6ngP/3qI0ohIt8b/w+seN6le
+UMd7lizRr/O755UnTEPplWJ+SwQrT2Q/Rf61VAFrjp/mQuDBcFb5jD+CXOwkJ5dm
+HWH3whnE/oew/fdursbOwzxAoLyLhg56N1KO9dcaxPjW7nYTFEztCL7ue+ZMUCuN
+RUQF2QZWjqFEX4QcV9Pg6n8FjOOxAslElIofrCsHNRQmrqY6MuB239xEuwGYqqR4
+a3JM6gbpN0nRpPrYOnhAnCqw+usZ/Pe7sZ5iN83fwkSiDMvq8+DeXKqVVqi+EWRG
+F2o8ww/lIwp5KvYukI5WsuSoe21mpgiGMFVqaIxnPPqG6E1IWnBgLvDDEE9fhYh7
+md92UKDrhABFOzD4sScd+w9MPKRzJvoX/G4tUIjkqNFegxCo0Zkvh5ElByymMZZd
+ldv4n9vvFNvjqzIp49t6tNzXeqUzl6ZCflLwBaOWpl1vO3FNrM5Kvg4Osoh/wUrP
+Qd6eM7TYK9oUEVpqx/rGFnxYg1HRzjJzUz9awqJcyf1n7W4E4+gMOFthWsGLFaSX
+oeO5z9Zg56di6QRLUBd55+zEF650mrHMKIcBtGsH8gTxNThJ2WoCUdQ4xJ2PU+C1
+C+uf0zwT0M3PIROWWl4C0QZxjCzzhYKa9E7ghBBm4tNZo54h3TDo1oZwqEu55MMn
+jH7UHCG258TImvvx55TkqtuQ
+=co2x
 -----END PGP SIGNATURE-----
 
---===============7522872336640628244==
+--===============1794489237854332970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0477e9288185-5e60366d56c6.txt
+Content-Disposition: attachment; filename=revlist-a256e24021bf-5e60366d56c6.txt
 
+af89784eb621784ed1ddc237a3742be40c9a04fd net: freescale: convert comma to semicolon
+752baafb0f38af907108dbe42d333bb04bc0c7ff net: usb: convert comma to semicolon
+201d126a631c9fa897a8458d3de5a7b188d206e7 net: thunderbolt: convert comma to semicolon
+59d4c93d31d91b8256535a4bb388738d320b9c03 net: mv88e6xxx: convert comma to semicolon
+e65f3df5ff38d0f77eabdffaf0c5b480a3a9422a net: ipa: convert comma to semicolon
+e223a707ad84a1b45704e02220ea0cfe1b9cfbdd docs: reporting-issues: move 'outdated, need help' note to proper place
+ab9e1ac49b478a2044eba66089bd2742914dd5af docs: update requirements to install six module
+fed91613c9dd455dd154b22fa8e11b8526466082 net/mlx4_en: Avoid scheduling restart task if it is already running
+ba603d9d7b1215c72513d7c7aa02b6775fd4891b net/mlx4_en: Handle TX error CQE
+9a25a30ee54c61a186f3f00d9797f1cc43886167 Merge branch 'mlx4_en-fixes'
+b783ff46ef4c80c666ed2186f471b7173db63976 dt-bindings: net: nfc: s3fwrn5: Change I2C interrupt trigger type
+237410fb83538407646109063c4d902c42261387 nfc: s3fwrn5: Remove hard coded interrupt trigger type from the i2c module
+e3bc6566b88613dc3ee13fb74727d58826ca5132 Merge branch 'nfc-s3fwrn5-Change-I2C-interrupt-trigger-to-EDGE_RISING'
+05372c456f2dceff55faa57280d4ae534028c827 net: marvell: prestera: simplify the return expression of prestera_port_close()
+8e3bf53c6105ee4beb5a0c46891fa3709ac3f4e1 net: marvell: octeontx2: simplify the return expression of rvu_npa_init()
+dd0e7aabcad14cf0a97c782737e675a348c11984 net: emulex: benet: simplify the return expression of be_if_create()
+d867bc3a269180e4029100a834febddbb8c8228e net: cisco: enic: simplify the return vnic_cq_alloc()
+264386fc192202525316dcd1e8d3c4610046e2e1 net: freescale: dpaa: simplify the return dpaa_eth_refill_bpools()
+f75e59445808bcaf5978859606bad0e6d2e66094 net: hinic: simplify the return hinic_configure_max_qnum()
+6f2d5cf9756dab190e79edd4ec098c81dca6743c net: stmmac: simplify the return dwmac5_rxp_disable()
+965b8b2bad0acaea6d7b20493394bf80075021a5 net: dsa: simplify the return rtl8366_vlan_prepare()
+b8d909375d6fcdc0de9b5f1a7ecee446aeaf5443 net: marvell: octeontx2: simplify the otx2_ptp_adjfine()
 b2058cd93d930d7b9f76f34590c0d432cd6470c7 Input: gtco - remove driver
 b2cc3bfef6aa9a0d66034b48e95cf24f6a5b0e35 dt-bindings: input: Add Dell Wyse 3020 Power Button binding
 3d82a4d736a662e352027686b8a373bf3e70820e Input: add driver for power button on Dell Wyse 3020
@@ -118,10 +140,6 @@ b10733527bfd864605c33ab2e9a886eec317ec39 Merge tag 'amd-drm-next-5.11-2020-12-09
 921ca574cd382142add8b12d0a7117f495510de5 can: isotp: add SF_BROADCAST support for functional addressing
 ecbaf5e13f45d8eebd3b772ba0032afcec1e519a can: rx-offload: can_rx_offload_offload_one(): avoid double unlikely() notation when using IS_ERR()
 c9f4cad6cdfe350ce2637e57f7f2aa7ff326bcc6 can: m_can: m_can_config_endisable(): remove double clearing of clock stop request bit
-448373d9db1a7000072f65103af19e20503f0c0c usb: cdns3: fix NULL pointer dereference on no platform data
-58bcafec8062f7566b736a019c3506949f9be6d3 usb: chipidea: usbmisc_imx: Use of_device_get_match_data()
-59b7c6a8fd6c44d2683d02d63e137d0c11855c32 usb: chipidea: ci_hdrc_imx: Use of_device_get_match_data()
-8435ff0fd7e15ab4ec9e53107c9afefa23717e0f MAINTAINERS: Add myself as a reviewer for CADENCE USB3 DRD IP DRIVER
 227619c3ff7c71eab76848b3b2add06838f5b6e6 can: m_can: move runtime PM enable/disable to m_can_platform
 cab7ffc0324f053c8fb56c821cdd63dc0383270d can: m_can: add PCI glue driver for Intel Elkhart Lake
 2c0ac9208135c75b9afec67b2819329ff41a5355 can: flexcan: convert the driver to DT-only
@@ -129,7 +147,6 @@ ee42bedc85a6e87791d5c20da6f2d150188cde54 can: mcp251xfd: Add support for interna
 b1f0aeecd25ac11053997484510a43346297a42d spmi: get rid of a warning when built with W=1
 0be0a733c9cd396c3900ac10873419d8b21bfd39 spmi: fix some coding style issues at the spmi core
 d40c2d4ed62df64ce603c208bceff25245380157 spmi: Add driver shutdown support
-d2a968dddf98b837de9f9b3f954537c86c9a9f81 Merge tag 'usb-v5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-next
 29ac40cbed2bc06fa218ca25d7f5e280d3d08a25 x86/mm/mem_encrypt: Fix definition of PMD_FLAGS_DEC_WP
 a5923b6c3137b9d4fc2ea1c997f6e4d51ac5d774 thermal: int340x: processor_thermal: Refactor MMIO interface
 df2537f910400cd4f90d2ecb40a0a1a204d8470c thermal: int340x: processor_thermal: Add AlderLake PCI device id
@@ -146,12 +163,6 @@ b6c81be9129344f66b60cc6529369cbed2ce238e dt-bindings: pci: ti,j721e: Fix "ti,sys
 3f1f870c018ffd0db1a5a123d2090ac45c5fb9e9 dt-bindings: PCI: Add host mode dt-bindings for TI's J7200 SoC
 17c5b458a99049eec6915bc4b2188b8540cc22b0 dt-bindings: PCI: Add EP mode dt-bindings for TI's J7200 SoC
 7aa256234c4c86d8b8fa19a7647051b8fd9721d9 PCI: j721e: Get offset within "syscon" from "ti,syscon-pcie-ctrl" phandle arg
-beff5de94fd45dc68f65b45634013184b6d66519 usb: typec: intel_pmc_mux: Configure cable generation value for USB4
-b00f444f9add39b64d1943fa75538a1ebd54a290 USB: gadget: f_rndis: fix bitrate for SuperSpeed and above
-3ee05c20656782387aa9eb010fdb9bb16982ac3f USB: gadget: f_acm: add support for SuperSpeed Plus
-457a902ba1a73b7720666b21ca038cd19764db18 USB: gadget: f_midi: setup SuperSpeed Plus descriptors
-a353397b0d5dfa3c99b372505db3378fc919c6c6 usb: gadget: f_fs: Re-use SS descriptors for SuperSpeedPlus
-8704fd73bf5658bf4b827643f7f526481082d83f USB: gadget: f_fs: remove likely/unlikely
 07d9a767ae5c3a9b0cf1adccbf157a6fae780de4 siox: Use bus_type functions for probe, remove and shutdown
 1c12c27086dcef853832a7cbebcb48bdac8104b6 siox: Make remove callback return void
 428bb001143cf5bfb65aa4ae90d4ebc95f82d007 slimbus: qcom: fix potential NULL dereference in qcom_slim_prg_slew()
@@ -324,21 +335,13 @@ c9e6189fb03123a7dfb93589280347b46f30b161 ntp: Make the RTC synchronization more 
 33e62e832384c8cb523044e0e9d99d7133f98e93 ntp, rtc: Move rtc_set_ntp_time() to ntp code
 69eca258c85000564577642ba28335eb4e1df8f0 ntp: Make the RTC sync offset less obscure
 76e87d96b30b5fee91b381fbc444a3eabcd9469a ntp: Consolidate the RTC update implementation
-60e998d1c6d98cd28b14a677b61278c33cc5c7df USB: typec: tcpm: Hard Reset after not receiving a Request
-301a633c1b5b2caa4c4b97a83270d4a1d60c53bf USB: typec: tcpm: Fix PR_SWAP error handling
-fe79d5de77204dd946cfad76a9bec23354b1a500 USB: typec: tcpm: Add a 30ms room for tPSSourceOn in PR_SWAP
-ca955d3308ba111881d18bca7045aee964eac6ce USB: typec: tcpci: Add Bleed discharge to POWER_CONTROL definition
-ecf4d4310a16c32fee081924a1aebe9f4c7c0403 usb: typec: Add class for plug alt mode device
 c7e34aa31d6297a3a49a0c0142df858838d4b54f dt-bindings: Add Keem Bay OCS AES bindings
 88574332451380f4b51f6ca88ab9810e714bfb9b crypto: keembay - Add support for Keem Bay OCS AES/SM4
 a320dc2ff80b8f93b2b8acf2e3ead8ff5ad0bcff crypto: hisilicon/trng - replace atomic_add_return()
 d33a23b0532d5d1b5b700e8641661261e7dbef61 crypto: atmel-i2c - select CONFIG_BITREVERSE
-3b6c3d04808965167ff19d028789bc92a4b12c8c usb: typec: tcpci: Enable bleed discharge when auto discharge is enabled
-3db4c21c0f71f7a51ce5c50f0d4d3742c9ec4a65 usb: typec: tcpm: Update vbus_vsafe0v on init
 67916c9516893528ecce060ada1f58af0ce33d93 crypto: qat - add AES-CTR support for QAT GEN4 devices
 5106dfeaeabea73d5132daab1d89d57b57fa98b7 crypto: qat - add AES-XTS support for QAT GEN4 devices
 93cebeb1c21a65b92636aaa278a32fbc0415ec67 crypto: qat - add capability detection logic in qat_4xxx
-b5206275b46c30a8236feb34a1dc247fa3683d83 usb: typec: tcpm: convert comma to semicolon
 14486c82612a177cb910980c70ba900827ca0894 rfkill: add a reason to the HW rfkill state
 36ec144f041bedc2f14b32faa2da11d4d9660003 net: mac80211: use core API for updating TX/RX stats
 c7ed0e683ddbfb9349b6c25dbca3e1c8d76f5b87 net: wireless: make a const array static, makes object smaller
@@ -429,8 +432,6 @@ fc6c7cd3878641fd43189f15697e7ad0871f5c1a irqchip/ti-sci-intr: Fix freeing of irq
 1c3f69b4543af0aad514c127298e5ea40392575d ACPI: Drop acpi_dev_irqresource_disabled()
 e15f2fa959f2cce8a05e8e3a596e75d068cd42c5 driver core: platform: Add devm_platform_get_irqs_affinity()
 4da3a54f5a025846f9930354cfb80f075b9952e0 Revert "scsi: storvsc: Validate length of incoming packet in storvsc_on_channel_callback()"
-007e3370806da1bbe83d0b43a04f420ae2e19dbb Merge tag 'usb-serial-5.11-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
-2eda5b5f96418d0a006aaa7812165b72c3226b8c usb: ucsi: convert comma to semicolon
 d014538aa38561cd24c5eb228223585f26c5ec71 hwmon: (pmbus) Driver for Delta power supplies Q54SJ108A2
 b0bd407e94b036d597c6060d64c22094ff85b13c hwmon: (ltc2992) Add support
 9ca26df1ba25c362113d9bb7b08ca93e260ce3e8 hwmon: (ltc2992) Add support for GPIOs.
@@ -446,7 +447,6 @@ db4919ec86ff405273a767e1a9b51e2760e73ce5 hwmon: (occ) Add new temperature sensor
 15d4a6f736c446231907e9f04ce6fc4b57c32aa2 dt-bindings: hwmon: convert AD ADM1275 bindings to dt-schema
 fb42dce4d7b56aac31bd7ef47228515eae9ac968 hwmon: (xgene) Drop bogus __refdata annotation
 561e3121841a8541402a331c19e9b78e3d2786d3 hwmon: (iio_hwmon) Drop bogus __refdata annotation
-a256e24021bf7ceedd29fe65eb45c7adfffffad2 usb: phy: convert comma to semicolon
 87a0b9f98ac5a14aae5b0fbcff930a240b24f827 tty: serial: meson: enable console as module
 c3ae3dc896fab5524f9b20f547e72e4b892d8d8e serial: 8250_pci: Drop bogus __refdata annotation
 51e325f7f829478498f963deea8e161c7d537fb6 Merge series "ASoC: rt1015p: delay 300ms for waiting calibration" from Tzung-Bi Shih <tzungbi@google.com>:
@@ -1082,4 +1082,4 @@ b80affe33fdd56c8e9f1f0f33ad99f9016a59195 Merge tag 'linux-kselftest-fixes-5.11-r
 706451d47b3716c24e0553dfdefba11d202effc1 Merge tag 'linux-kselftest-kunit-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 5e60366d56c630e32befce7ef05c569e04391ca3 Merge tag 'fallthrough-fixes-clang-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
 
---===============7522872336640628244==--
+--===============1794489237854332970==--
