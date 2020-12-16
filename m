@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1785735485674707791=="
+Content-Type: multipart/mixed; boundary="===============2897870297718136511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Wed, 16 Dec 2020 20:17:15 -0000
-Message-Id: <160814983541.14174.11553240824293075403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
+Date: Wed, 16 Dec 2020 20:17:32 -0000
+Message-Id: <160814985267.14386.14526591546840641161@gitolite.kernel.org>
 
---===============1785735485674707791==
+--===============2897870297718136511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
+repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
 user: rostedt
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: ac00e3438068c0e350c284b8bba85735f808e542
     log: revlist-1e606b240226-ac00e3438068.txt
 
---===============1785735485674707791==
+--===============2897870297718136511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ e4aff1c272920e9dea05e6375c4f6137a0ac2f32 trace-cmd: Add make uninstall
 9633afb2047cbfd4390c5bb42cc66c7b22651850 trace-cmd: Update libtracecmd.pc if prefix is different
 ac00e3438068c0e350c284b8bba85735f808e542 trace-cmd: Keep build_install files around
 
---===============1785735485674707791==--
+--===============2897870297718136511==--
