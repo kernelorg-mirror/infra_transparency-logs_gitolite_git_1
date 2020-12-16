@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5232981166833247432=="
+Content-Type: multipart/mixed; boundary="===============0408757321567811634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 16 Dec 2020 09:39:14 -0000
-Message-Id: <160811155406.25664.6790558328028556951@gitolite.kernel.org>
+Date: Wed, 16 Dec 2020 09:39:33 -0000
+Message-Id: <160811157368.25896.9354719049343789102@gitolite.kernel.org>
 
---===============5232981166833247432==
+--===============0408757321567811634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,51 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 0477e92881850d44910a7e94fc2c46f96faa131f
+  - ref: refs/heads/tty-next
+    old: c3ae3dc896fab5524f9b20f547e72e4b892d8d8e
     new: 5e60366d56c630e32befce7ef05c569e04391ca3
-    log: revlist-0477e9288185-5e60366d56c6.txt
+    log: revlist-c3ae3dc896fa-5e60366d56c6.txt
 
---===============5232981166833247432==
+--===============0408757321567811634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608111609 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608111629 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1608111544-3bd49e70dad885586560ae57ae16b4a2c6a6a032
+nonce 1608111564-0eb7ce1f95c386e8a17942c2252633a94d99a0fc
 
-0477e92881850d44910a7e94fc2c46f96faa131f 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/tty-linus
+c3ae3dc896fab5524f9b20f547e72e4b892d8d8e 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z1fkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B+gQALLs5w1Iq5Y/+0KY/1PK
-wVffxyHRrfm/sV8AbGCs3Bw9idKnpfM4LPNMvF/Z01Bgr3JbH7LeNvSfFd4r2/wM
-k4qyNX5mpVm/M3XDUnj5nZ57aMyhMpvBn4HBS0iTcEVK8qKE4ngvMwrZV5+9axPy
-iolIoNmpM2tDqTgx7U6WKLbdgb98JcIopspl4SX8ZlIp0z6fvIAFIyP3hTaJOKSx
-ILLC0WQJ5owr5+E2gfBhnr/otTerxZTLTt8QNPnPbgkTCuxvluk5WYpZ0NoGNzW5
-lp4rsrWAMZxRaNF5yCf3GI1VhfRP27SVTPWJq+IT9bQum6/ZDNN1/tgSpQYpIT01
-9N5Kdy6sfIjsiwJ3qp+PXwJtgSinSgfWZaimRoMcMnPF9XIRAFyW5x/W6Iir2gUd
-CV+CM9sgfTevI0u3GIy2Uaq+02XhWE+zD2gWZxwiLyiq9PRtNjx0FFOq3eII8jOW
-EZtajROSMGYWV4CM0bn8edk1kDBpQfw0qho8DhMUKuUNkim95010s67lASWiFPlD
-WXrZRY+xoJ48zgXxKlxKSHf7g1Xa68OG8Im3YOItOVbJWigrPx+D9MkGqDpT/Spo
-zxOU70yatwgn6LmtRTIRVEZdEsjP/D/2gcFYKEEvMCUvTkt11TxhIiQNLaf4bJ+E
-yVT4prlxEbRb46mTdr8Joq/2
-=rtUf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z1g0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8BYQALbgY4p4s11ede8NPIC3
+zO4A3DWyYdjEehiz1ovL6Io3Sks6Y2mvxrw4t+ccgovrMLe6+W8m8vOwYsMol8ij
+959rq2UzakULxk3vJrG1P1fgHB50JxDgu8z8sOZLmRHFF1yeXAfZJHI+qAuYnR7s
+vulByCIDHuwDom5dZqjEVpGF8J85DizcVUYxW01HFAFHq4trmkm0KttBTsUwXvCt
+INM6vJtU7YcdjV9CUYRKAl4eu+/ac3MrmJzB3RjNDAN1t1B3l+ASYj+h/hbjmbqu
+z4r+OKJG8PwunuebNcdA63aipRmFZ/Pbj6pfNiIo7V9GNpOaPLaRgb/BNR+8psZm
+A2di+Rea+jXxZ29mu7b7TDl1MJhhBgoCjspDp7dZJURMPoAbb9869b5qpAhVzVRz
+z3vAmFQsZKZk4yCKs6NQMgQjJ+zKfZvwuu1NewTbFpcL0WyaP2xxkeZUdm8Bb7Lk
+C7YDyRcy2yjwhOuAHM3cGFlL6zsWYUyGLdhrw/pS50MjB+MRh60s9n3s3541hK4U
+7cAgQJjBOQZkKlw8+UNP3T22C7yFS43z5zc4tw6E2jPldBgFXvA0Ps+JvQt9VKXv
+NXvL9k5hYnul7+n5VtIfrekjyp/aXga0LBPUiRhTLm6iclPs9fNrny1neRP6svWY
+j8SarBUu4T55IzkZ363lTcov
+=K4ge
 -----END PGP SIGNATURE-----
 
---===============5232981166833247432==
+--===============0408757321567811634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0477e9288185-5e60366d56c6.txt
+Content-Disposition: attachment; filename=revlist-c3ae3dc896fa-5e60366d56c6.txt
 
+f75e59445808bcaf5978859606bad0e6d2e66094 net: hinic: simplify the return hinic_configure_max_qnum()
+6f2d5cf9756dab190e79edd4ec098c81dca6743c net: stmmac: simplify the return dwmac5_rxp_disable()
+965b8b2bad0acaea6d7b20493394bf80075021a5 net: dsa: simplify the return rtl8366_vlan_prepare()
+b8d909375d6fcdc0de9b5f1a7ecee446aeaf5443 net: marvell: octeontx2: simplify the otx2_ptp_adjfine()
 b2058cd93d930d7b9f76f34590c0d432cd6470c7 Input: gtco - remove driver
 b2cc3bfef6aa9a0d66034b48e95cf24f6a5b0e35 dt-bindings: input: Add Dell Wyse 3020 Power Button binding
 3d82a4d736a662e352027686b8a373bf3e70820e Input: add driver for power button on Dell Wyse 3020
@@ -155,8 +159,6 @@ a353397b0d5dfa3c99b372505db3378fc919c6c6 usb: gadget: f_fs: Re-use SS descriptor
 07d9a767ae5c3a9b0cf1adccbf157a6fae780de4 siox: Use bus_type functions for probe, remove and shutdown
 1c12c27086dcef853832a7cbebcb48bdac8104b6 siox: Make remove callback return void
 428bb001143cf5bfb65aa4ae90d4ebc95f82d007 slimbus: qcom: fix potential NULL dereference in qcom_slim_prg_slew()
-4661f46e50f2d658592f665be1f1f999ff647d3c serial: imx: Move imx_uart_probe_dt() content into probe()
-d96f04d347e4011977abdbb4da5d8f303ebd26f8 serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
 0aec2da436623abe19b80b21dd9fc5ec9300a152 driver core: platform: Introduce platform_get_mem_or_io()
 feaba5932b6f4bfc875c874a3b7a28c7f05f5a77 vfio: platform: Switch to use platform_get_mem_or_io()
 ebee0cde1960a41e40840eaa8fe0185aa20e3eb5 usb: host: sl811: Switch to use platform_get_mem_or_io()
@@ -447,8 +449,6 @@ db4919ec86ff405273a767e1a9b51e2760e73ce5 hwmon: (occ) Add new temperature sensor
 fb42dce4d7b56aac31bd7ef47228515eae9ac968 hwmon: (xgene) Drop bogus __refdata annotation
 561e3121841a8541402a331c19e9b78e3d2786d3 hwmon: (iio_hwmon) Drop bogus __refdata annotation
 a256e24021bf7ceedd29fe65eb45c7adfffffad2 usb: phy: convert comma to semicolon
-87a0b9f98ac5a14aae5b0fbcff930a240b24f827 tty: serial: meson: enable console as module
-c3ae3dc896fab5524f9b20f547e72e4b892d8d8e serial: 8250_pci: Drop bogus __refdata annotation
 51e325f7f829478498f963deea8e161c7d537fb6 Merge series "ASoC: rt1015p: delay 300ms for waiting calibration" from Tzung-Bi Shih <tzungbi@google.com>:
 84de089e770b57280d87dff51be894b6fda18810 Merge series "ASoC: SOF: Intel: fix to dsp state dump trace levels" from Kai Vehmanen <kai.vehmanen@linux.intel.com>:
 064841ccfc49b2315dc0b797239862d3a343aa07 Merge remote-tracking branch 'asoc/for-5.9' into asoc-linus
@@ -1082,4 +1082,4 @@ b80affe33fdd56c8e9f1f0f33ad99f9016a59195 Merge tag 'linux-kselftest-fixes-5.11-r
 706451d47b3716c24e0553dfdefba11d202effc1 Merge tag 'linux-kselftest-kunit-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 5e60366d56c630e32befce7ef05c569e04391ca3 Merge tag 'fallthrough-fixes-clang-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
 
---===============5232981166833247432==--
+--===============0408757321567811634==--
