@@ -1,53 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5116838781087056707=="
+Content-Type: multipart/mixed; boundary="===============7971899677847604830=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 16 Dec 2020 15:51:53 -0000
-Message-Id: <160813391339.4777.9539486273287597275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 16 Dec 2020 15:51:59 -0000
+Message-Id: <160813391962.4883.151387314050525020@gitolite.kernel.org>
 
---===============5116838781087056707==
+--===============7971899677847604830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
   - ref: refs/heads/for-5.11
-    old: b77ab5f936fdbc6b135d26744325dc38ed99cb33
-    new: 13733775326ea9eb81c6148ad60c43b8d231a343
+    old: 2819569147cb6e79730f2907d3ab3dfe75fe8478
+    new: df9716ec9ade3d2e190a2aac199557d30a3a8416
     log: |
-         4ad2d3cf2a299645bdc6d72e5b8ee11b2ed147ac ASoC: codecs: fix spelling mistake in Kconfig "comunicate" -> "communicate"
-         e49037ad12e47cd34239b99b010c5438844923af ASoC: SOF: Fix spelling mistake in Kconfig "ond" -> "and"
-         acd894aee3149c15847bc4f0690fccba59ced5e7 ASoC: imx-hdmi: Fix warning of the uninitialized variable ret
-         13733775326ea9eb81c6148ad60c43b8d231a343 ASoC: atmel: fix spelling mistake in Kconfig "programable" -> "programmable"
+         df9716ec9ade3d2e190a2aac199557d30a3a8416 regulator: pf8x00: Use specific compatible strings for devices
          
 
---===============5116838781087056707==
+--===============7971899677847604830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1608133902 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1608133911-124f1891d4467e69fc15b3be1e353f3ab94b5931
+pusher C3F436CA30F5D8EB 1608133908 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1608133917-150f355c9e455078e680478b1335cb229463f9ca
 
-b77ab5f936fdbc6b135d26744325dc38ed99cb33 13733775326ea9eb81c6148ad60c43b8d231a343 refs/heads/for-5.11
+2819569147cb6e79730f2907d3ab3dfe75fe8478 df9716ec9ade3d2e190a2aac199557d30a3a8416 refs/heads/for-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/aLQ4ACgkQJNaLcl1U
-h9DQJwf/cvQbuald3VTzY3utlA5jJYsugXnCf7ko/GAceoFe9QJLWCivxzomt+cc
-Z0zb8SH/5g+AtWTj4Ow1PnI9mDzmI6DQxQFMET22UV4TUTZIYz/5vdjYDSNRUGDI
-rANQJygGPXmW4rdSjkIuflgKUsngLnImLPP54GCOwFRy1BmaDDV929Z30+9kNeGe
-3IN+G2+ZdZzCzWeCGSnvmYqEFQ6XcZl/gJUNOIK6ICP8jixrI8EtsScpjbzmVQat
-0N7bo3Dk7H5VrNDSaMW2TSGDQjItbISZ4GTZ8DJbT/rGxKzXwZpumo1dduz9moNW
-qXEthwj7UPHjgEfJYkmVu0ula8w8Kw==
-=0aGj
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/aLRQACgkQJNaLcl1U
+h9DliQf9GuasEnnn+4isf6o48F4XL8s2ao0SIBN4nUjjNAxgDxvus+VJozMOpkC2
+DfeuN46i9KiTOlBk3fzXqKV4CpMbC4/XBiSBCEOeb5OMZbn8NqPiHZW74y/1z6ym
+W49ebGQh8YrbQdA8Ol1hiRJYfP+X/LB5VPKZ13c7VNchrtYU8i5zVV2aZVcZPsV0
+1UkgHVo6G0ZoozDtdKBbzg91K/OvUUEORQxqWMHYj1z6hlz5wERHNbTUX5Ayy5Xm
+PshCRHIEwsWwRHP1lI5JxzsbEf55xucnOjlPqCXCQPTvDXnM33uFcFuz+Vk3np3y
+iWZQMAXCkP25GUtzioDD/2Sqoz+GyQ==
+=KkL8
 -----END PGP SIGNATURE-----
 
---===============5116838781087056707==--
+--===============7971899677847604830==--
