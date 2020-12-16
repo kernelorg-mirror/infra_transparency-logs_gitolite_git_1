@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 16 Dec 2020 21:31:53 -0000
-Message-Id: <160815431319.31373.15645164990916817305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Wed, 16 Dec 2020 21:48:47 -0000
+Message-Id: <160815532705.7788.4333073828783497746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/master
-    old: 5277d1cadee8a3bdfda0e1d8247b3126b254a74b
-    new: ef72cd3c5ce168829c6684ecb2cae047d3493690
+  - ref: refs/heads/rtc-next
+    old: f70cc33029fca3cf62bffb15102ea42eb4d097ac
+    new: de808c32543ae495517003a436f5a0e6fdd6fb56
     log: |
-         ef72cd3c5ce168829c6684ecb2cae047d3493690 ethtool: fix error paths in ethnl_set_channels()
+         de808c32543ae495517003a436f5a0e6fdd6fb56 rtc: mt6397: refine RTC_TC_MTH
          
