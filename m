@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1794489237854332970=="
+Content-Type: multipart/mixed; boundary="===============8369884951079145434=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 16 Dec 2020 09:46:23 -0000
-Message-Id: <160811198396.30858.14697876216526807422@gitolite.kernel.org>
+Date: Wed, 16 Dec 2020 09:46:43 -0000
+Message-Id: <160811200327.30989.14428180263410758973@gitolite.kernel.org>
 
---===============1794489237854332970==
+--===============8369884951079145434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: a256e24021bf7ceedd29fe65eb45c7adfffffad2
     new: 5e60366d56c630e32befce7ef05c569e04391ca3
     log: revlist-a256e24021bf-5e60366d56c6.txt
 
---===============1794489237854332970==
+--===============8369884951079145434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608112039 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608112058 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1608111974-519ee5cabfdfdc42026bcc27cf6f9af379997d39
+nonce 1608111993-d2c79b797315eb829aa4e1280e93e5092fd41b83
 
-a256e24021bf7ceedd29fe65eb45c7adfffffad2 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/usb-next
+a256e24021bf7ceedd29fe65eb45c7adfffffad2 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z16cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6ngP/3qI0ohIt8b/w+seN6le
-UMd7lizRr/O755UnTEPplWJ+SwQrT2Q/Rf61VAFrjp/mQuDBcFb5jD+CXOwkJ5dm
-HWH3whnE/oew/fdursbOwzxAoLyLhg56N1KO9dcaxPjW7nYTFEztCL7ue+ZMUCuN
-RUQF2QZWjqFEX4QcV9Pg6n8FjOOxAslElIofrCsHNRQmrqY6MuB239xEuwGYqqR4
-a3JM6gbpN0nRpPrYOnhAnCqw+usZ/Pe7sZ5iN83fwkSiDMvq8+DeXKqVVqi+EWRG
-F2o8ww/lIwp5KvYukI5WsuSoe21mpgiGMFVqaIxnPPqG6E1IWnBgLvDDEE9fhYh7
-md92UKDrhABFOzD4sScd+w9MPKRzJvoX/G4tUIjkqNFegxCo0Zkvh5ElByymMZZd
-ldv4n9vvFNvjqzIp49t6tNzXeqUzl6ZCflLwBaOWpl1vO3FNrM5Kvg4Osoh/wUrP
-Qd6eM7TYK9oUEVpqx/rGFnxYg1HRzjJzUz9awqJcyf1n7W4E4+gMOFthWsGLFaSX
-oeO5z9Zg56di6QRLUBd55+zEF650mrHMKIcBtGsH8gTxNThJ2WoCUdQ4xJ2PU+C1
-C+uf0zwT0M3PIROWWl4C0QZxjCzzhYKa9E7ghBBm4tNZo54h3TDo1oZwqEu55MMn
-jH7UHCG258TImvvx55TkqtuQ
-=co2x
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z17obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SXQQALNHu8dncfD3CRfL17G0
+KLx6hKhZY7r8jkJWB96gyFStRkVW2brgCvfBfD6p2BLVMOEy64cc7Iutt0cSVsde
+Qs7x9i9plngkAHAD3ujuZn96oQ6yhTUm7q3UKj2i0fmOGlKDhk9zaXZutpa+mCUS
+R91N85OWX6K5Gi9EcaYRJjj0YqJhdAPjzxGKqZowOF1D96Nxt/CVouI3Ifj/4q41
+68f/gcm172MS7AbIqyFgOUNgZlNemUnAmpE6bV7NiZtBqKVVUxoRPzjfREj55A1N
+1EkQbo/IU91V1qh/jVuBqQHfe6nwlmi3XGHOoSzPf5uGUbEs13l7Lnge4nWLSa1E
+yM9x3vd7cceD1mhw+IRCkqDrAqfAJ/Z+yNdH4XTXs1o4+nCiY/RO7WLnRiRPufNC
+LFkjfXs3bazFA3uwQKolRNm6GV7oTcaCkQic1usHgfuuvuBn9CbbuBHovrj4yBDU
+2K4KAlqykYh9dSAURStmoQYPTqaLjbVCNAQNGYgxGkrgcsNDyuJEvVcWggg71wJA
+wScjBDE7t8agCQQATnsKmFwZulWdd01LkYszlFZT4NLPlYIAv3rZh1HIW2QJJl9N
+EN77EzrphnGBgqn2gKpQoscqbIt4g3ti+jwfZCDGYh36ihHcfaoRKLeqBcLJK0x1
+BVgHs37NguvqXgORSJRsc0PK
+=ntmK
 -----END PGP SIGNATURE-----
 
---===============1794489237854332970==
+--===============8369884951079145434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ b80affe33fdd56c8e9f1f0f33ad99f9016a59195 Merge tag 'linux-kselftest-fixes-5.11-r
 706451d47b3716c24e0553dfdefba11d202effc1 Merge tag 'linux-kselftest-kunit-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 5e60366d56c630e32befce7ef05c569e04391ca3 Merge tag 'fallthrough-fixes-clang-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
 
---===============1794489237854332970==--
+--===============8369884951079145434==--
