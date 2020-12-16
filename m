@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3530547712953345358=="
+Content-Type: multipart/mixed; boundary="===============8018389721113740214=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 16 Dec 2020 09:33:29 -0000
-Message-Id: <160811120900.21258.4733792991609005371@gitolite.kernel.org>
+Date: Wed, 16 Dec 2020 09:33:47 -0000
+Message-Id: <160811122795.21446.3183330553554321739@gitolite.kernel.org>
 
---===============3530547712953345358==
+--===============8018389721113740214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 93f998879cd95b3e4f2836e7b17d6d5ae035cf90
     new: 5e60366d56c630e32befce7ef05c569e04391ca3
     log: revlist-93f998879cd9-5e60366d56c6.txt
 
---===============3530547712953345358==
+--===============8018389721113740214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608111264 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608111283 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1608111200-4f463c0dd8dd72988e8cc33bb84c3779d0cea532
+nonce 1608111219-0af31e01400e4f7c6d6932da4cbd6a3ddaa9de82
 
-93f998879cd95b3e4f2836e7b17d6d5ae035cf90 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/char-misc-next
+93f998879cd95b3e4f2836e7b17d6d5ae035cf90 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z1KAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jp4P/RNhbP3E4JSbMEnEpGvu
-pHN1KcuzdkfBoA0g6A1OjBnjwg6n9cd0s+2yJZ4q7NtMPb0Rzqb/GUxTbQvUMKLl
-LZA5vMu5+/QRVRrwzVpUSqPyn+5eL9iTAz7kB0ayCz0YyFCWET+62B2T6LKC3diY
-NpyhoX0ny+RTbqeyp2+1bjVvnAF2RNiGChcq0jtnbpnkH6rnAaAE1XOzcKzuFcDT
-BgVz2MAGxle0oWGd4/xYaar0g70nKo3NG5s8uWm0f1cN/u3R1z9TUZXiasPTvai4
-mNV24t70uxbQlShbShNJE7GngwU14mXb1D3Q9QIM/qdcDturbj8SvmE4DY9SQbLR
-eNF6lU9wuS4iMKptjfQ9glBo4+eZs0eCC8aGK2/6eqra30GErJF7urI2fcLpjZo5
-yrD8TgqCjfexxe6DQjl5mG/15fsibAfuMEFqihy/Ov7YC6COySK6ZTonNm+lBDrr
-xqcTXfrthqwzr+0k4bmBI5SBWfxSemnP0lJf1hL49DvMuPnGxO+55eHIHXNTSv3/
-5YNxCYN8zwCBy5dHXUe6MTmdTqk8K6uKSykKQ50gqyH4mKIKeAtrPC4TR0BrkBjc
-Zodvx9wdz24xvTFQYT+jufqF3ID3Gs+BfXXHmwpMzKnXrg7wz4LHstvIylwPuZ+c
-x0BxzXWN/m3Ux37w7XbCmRMd
-=1z8F
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z1LMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oo8P/2rrP9iEi0qjSoglTRdh
+SSZUYO2dEu0pD4T6fh6arI3ZhiD9l8YT9YYM7mgT3lFb7OZDuQgdATNnO1yUBBas
+y+oyHxMGX4XmN4ivPwICJGoUXnH2PtaLprKYwX0qPArQl8/3vuqIxfx3KblxrGVh
+OjFWBJbt5oe7wLBjmK2FW7jyT1QofK79rUpZMy+QW1Oz1fHansGDsscAdWg1gEEG
+kcUxOPx3rAUIlcKet8jD1GOQ03Dfxg9FcT6HnxSTWQUwsjHlHNEEmQ9NmVssMiiG
+GR95xDQoD+BtnlbLu50c3/qoE+Adbp7O5lycxHY4nBVZc4KUaZ+ZCzDhK7N6I8lL
+k0kQVslzDF+ns6yntEHGCvZuk9qactkF9hPWhAEOTgYjFxXeNg6SW7DBDGUu1d3I
+b4ZACzQXMfM1I7ig7FzEL1L3RRlvRp/qLCZofTFtQ9uBhzacP+6Vp4WbG3vFj5cG
+a+Hd5fOM79+hFlgxv1PJWRgxN1TWYdVsiaxHz/sPFS4PMOolSqUmC5vY0TMZb+A2
+Szn6mdB2T1CtS8UPVMt+VXw/xxLG1JHQftjnWCJiuRX/uXRk1d81Eou7BdLwVFPk
+iigydTf2KHaRWMFjTcXRzQGjbyTG+QrQJNMzSUu/3ZMSaKoGZD4wBdJikEOtafod
+FFRMQ2mvbXCSIQbYvRHL50nO
+=K/ti
 -----END PGP SIGNATURE-----
 
---===============3530547712953345358==
+--===============8018389721113740214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ b80affe33fdd56c8e9f1f0f33ad99f9016a59195 Merge tag 'linux-kselftest-fixes-5.11-r
 706451d47b3716c24e0553dfdefba11d202effc1 Merge tag 'linux-kselftest-kunit-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 5e60366d56c630e32befce7ef05c569e04391ca3 Merge tag 'fallthrough-fixes-clang-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
 
---===============3530547712953345358==--
+--===============8018389721113740214==--
