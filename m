@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Wed, 16 Dec 2020 16:23:20 -0000
-Message-Id: <160813580052.28234.16500877258766195928@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Wed, 16 Dec 2020 16:28:28 -0000
+Message-Id: <160813610899.31171.14630752811709992758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/next
-    old: 5e63b6bc832fb2bf5ff99e4de83354429504e0e9
-    new: 89e6096b8b0bb505f91200cd923da042cd21983e
-    log: |
-         89e6096b8b0bb505f91200cd923da042cd21983e Release version 5.10.
-         
+  - ref: refs/tags/devicetree-for-5.11
+    old: 0000000000000000000000000000000000000000
+    new: 5cc2040999436d8246e8f752018892d7e997ac48
