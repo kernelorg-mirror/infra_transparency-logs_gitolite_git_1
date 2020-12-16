@@ -1,53 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0616637466005501995=="
+Content-Type: multipart/mixed; boundary="===============8212929807477151026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 16 Dec 2020 09:19:09 -0000
-Message-Id: <160811034979.10520.1327435794613672800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
+Date: Wed, 16 Dec 2020 09:23:31 -0000
+Message-Id: <160811061157.15480.6928864934735881786@gitolite.kernel.org>
 
---===============0616637466005501995==
+--===============8212929807477151026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jirislaby/linux
+user: jirislaby
 changes:
-  - ref: refs/tags/char-misc-5.11-rc1
-    old: e28d2ab75d56329867cf2f29a8920399c636e735
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/devel
+    old: 698e3a58826090599c520290c429d0314cd62e19
+    new: e51842d71a130fb8742ee781d7376727f6ed8b46
+    log: revlist-698e3a588260-e51842d71a13.txt
 
---===============0616637466005501995==
+--===============8212929807477151026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-698e3a588260-e51842d71a13.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608110412 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1608110349-d3a6c09282020fe02969651171db67dc27be8ed7
+14680564d8d707ad835ea23dc49443a4bc088b59 use port->flags instead of low_latency
+7c7fb57090e7a2686f5b3c799a358a7f5396c8a9 tty_port: drop low_latency
+e4b97b6d537ce66ae1a8498aefd35ed9481b5331 drop termiox defs
+527f62d04c8c14e95a29667f5cb3ca7da4c5f0b7 vt: keyboard, make keyboard_tasklet local
+1b574c28db82b2eb88e8f82aa272abdf34f07e17 ??? vt: selection, add might_sleep to clear_selection
+f353311e36f6d9487bc9dc0fe3a4a10290a0fd27 include condition in the BUG_ON/WARN_ON output
+267233b126f6ca223861b9d04af70cb654b0902c TTY: serial-tegra, remove unneeded tty_port_tty_get
+88b2efd60dea5e303d3c688bcbbfc940a653f4e0 TTY: serial, use refcounting in uart core functions
+f429f4097257784c66aa7d5afe53e38bee6c4a79 TTY: serial, use tty_port_hangup
+6edb27ac69f98d5da75771d5c76e520c7c73d2d7 TTY: con3215, remove tasklet for tty_wakeup
+73c89af1b4cca8b51e696e69212f8205af23d3a3 TTY: serial/jsm_tty, use tty refcounting
+8a784fb9921dd4c6cbdf9254d1757b1acca9078c TTY: move hw_stopped to tty_port
+2e65077b25e91e03c2e0f42548f6ec0023a7912a tty: vt, let vc_pos be a pointer
+e8c310cd2cdb4a90818dc330c917f17f3560d422 tty: vt, make vc_screenbuf u16 *
+b4568102685269da1a733f8221e417e1180e9245 tty: vt, con_getxy works with u16 *
+c72d25c73853e137eb823b2d7c9cbe44c186f364 tty: vt, update_region works with u16 *
+de36d5ccbf791d9474932c47423817e2029ef893 tty: speakupm prepare for vc_origin to be u16 *
+5f88a2fd79621ba574d8e7303af2669fe29a9543 tty: sisusb_con, make sisusb->scrbuf u16 *
+1a4e4d9ce084bd04ba13ce27d44e43ddbbd0b316 vgacon: prepare vgacon_scroll for u16 * switch
+abd30cdeaf8e757cfd389e78e2fd901b352f8fa2 vgacon: make vga_vram_base and vga_vram_end u16 *
+d9f54b3d95a7f7d8f70f892a552b5bc56c9d9149 tty: vt, make vc_origin u16 *
+690e2d27ca0d7240291c22a6f1d5243d9ae6c04c tty: vt, make vc_visible_origin u16 *
+50588811cc26fae7bfd64b463d5a9b7a6df8a139 make VGA_MAP_MEM return pointer
+54e2ec6f6344b3254d67e86179a8d899dfcc0d12 tty: vt, make vc_scr_end u16 *
+dedeb1971462ade762203d1d12e99439a8ee810b tty: vt, comment on vga_rolled_over
+1237b389f071f45f95c768a7791f036eefa7c82a linkage: perform symbol pair checking (per group)
+8c6dd081178da2445a28d8d26a0486b5840b6540 export: mark labels as OBJECT
+161c17a96f7b942caaf0af1cf37f515c4a8bce70 NATIVE LABEL
+e51842d71a130fb8742ee781d7376727f6ed8b46 test_dwarf: add
 
-e28d2ab75d56329867cf2f29a8920399c636e735 0000000000000000000000000000000000000000 refs/tags/char-misc-5.11-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z0UwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lGoQANUff2rW+0LhVZMDkb7y
-FNhVfRhGsIv/zRh9eUhD/pwfZkwdI8CO5ymb2OBYESYvX4cm8I3DEwceoq10CwN8
-TIIhkDkQy8+I7Oh5ibCsElrdMKSbIIw2rwuhYxUbsFXs8uKnH2TCCVvQGp4xOjxl
-crtWMLEOP9ONn5dJ6cy9YE7yuNxPu3xxak7ZnvIrSnPSU/P3pQPbTW/k1+2ANa88
-WFawKr3TmdIK9kaTgy+hsBea+Uow5VkoUpNH+RZWSyfIQv+X7GpCelgmc7/Mh7eD
-pDewysWNX/35TRnPy9tHGvjvuFP9n3m9BjPre8+RKqrsb1r79cPyIU6Ojn/H4NX2
-GVbh/4wxPkVjiA+aCLnvWfUTyJjdrA+ZWecWZ4FFshyio3Gze/M3oWy9Db35W5Ye
-lf74mOxiWEhx1CYAxW36vduul5IjKyIbmKto0qa1MUr3YzrIBOU15htGDcmAXZpA
-/qMgtId5GPITdwy3VPY/KGiT/YAp4VZO1qIi0yjY2mzdtvGj9nnrBLm02B5DjhfO
-ytU8Lw5ODNv8efrha96DZQKtPuSiz3kPrPdy5lrAsnPOQ+Xdff2H7dH1WwfHioLG
-7nNqQ5NWdrrip91DKVaBCZE4nnPoNdUoIP/OdOmXVPacI1qRgs8p1/62z7YXPSVO
-nWyNiUggb0Hr0pdsX/sQiSfc
-=9qUl
------END PGP SIGNATURE-----
-
---===============0616637466005501995==--
+--===============8212929807477151026==--
