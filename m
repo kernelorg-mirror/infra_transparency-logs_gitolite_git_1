@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 16 Dec 2020 20:33:12 -0000
-Message-Id: <160815079255.25608.6139919230791362373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Wed, 16 Dec 2020 20:37:44 -0000
+Message-Id: <160815106492.28191.1598584735692951488@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/tags/pinctrl-v5.11-1
     old: 0000000000000000000000000000000000000000
-    new: 2c85ebc57b3e1817b6ce1a6b703928e113a90442
+    new: 175f775db343210e55d70a67d0ba071d040b91ea
