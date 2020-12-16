@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6728895139261706895=="
+Content-Type: multipart/mixed; boundary="===============8466823193167268360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 16 Dec 2020 09:37:09 -0000
-Message-Id: <160811142960.24381.4292152717442891904@gitolite.kernel.org>
+Date: Wed, 16 Dec 2020 09:37:43 -0000
+Message-Id: <160811146393.24630.3918772680779529713@gitolite.kernel.org>
 
---===============6728895139261706895==
+--===============8466823193167268360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,51 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: 652db3de96a630e8051ffa921286000bb9ee2727
-    new: 0e0c35064293b6f548849ba22fc24793994260d6
-    log: revlist-652db3de96a6-0e0c35064293.txt
+  - ref: refs/heads/debugfs_remove_return_value
+    old: 3cea11cd5e3b00d91caf0b4730194039b45c5891
+    new: 5e60366d56c630e32befce7ef05c569e04391ca3
+    log: revlist-3cea11cd5e3b-5e60366d56c6.txt
 
---===============6728895139261706895==
+--===============8466823193167268360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608111483 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608111519 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1608111419-bd6ff0e7158ed9b9b64b051b7dc50a680184e810
+nonce 1608111455-933684ac9c6a4e6aa84c837ade80d52ab4d115a7
 
-652db3de96a630e8051ffa921286000bb9ee2727 0e0c35064293b6f548849ba22fc24793994260d6 refs/heads/readfile
+3cea11cd5e3b00d91caf0b4730194039b45c5891 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/debugfs_remove_return_value
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z1XsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bwUP+wTrYVHVm02IUHziZaQ3
-i3huc0R60NYIkZqBDUVr6WBa89WMJ12KgvRJJf0up3ouT4/9J7RXZkuNn0HZWWrw
-Ee2UsPiYkyQOQd2pRDhhmVD2EHCJ3C81wQ7QXdiour0egcBv0vrfWzgKPbMqhRv6
-7bK48iZNYNBh+LKvqmXmfrqnMoZ80V5pwuYx97JUeFvC0qF1MNJMvyf3XDLRaVMq
-eo6n4qi3jAnItOMYQsO8AnJo30WuWsFM3iuT1+IS9Bwh2lpAFWiQnr0YlQhF8Aa8
-HlThzEvrF9R0ISCTsOsqIq8fvIjkppChvxUWuxoRZy4qXD/2aFL6uuggkSk9tV7o
-R4+ZhP7WL9SA6/VWn4en0BS4xDzkjFA+pBlYZdwpPZcD9tJGwlw7AwaNdFHUokOE
-+rDH00LUPENHFvh919Ev/bjfS5sshYTJ9KZ+/qnsdAvzHy/6Dcr1/Q0WOILRyNcP
-kUc2EvXouC810Nib2YcdvIGUmiIbW+H4ldSsf35y+GNHNt9o9kT5itd2qCj6j49v
-S3kh05MsbwOwztvO3IH6s2IbcncMoZNqzRlI5OKkcTME1q1X9VzWrxrvxoS1f2I7
-97CRvmYP80yWB5Aps1kBBkZ9KywUOBoHtEXQw0pE6kpleAQyLR4ix4hguTfQWBzq
-o5fCwMa0DlOckChwiswNUsoX
-=5Y7g
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z1Z8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qW4QAIvoZQ59G0UZicoYzyIG
+DjoDXHEAHmp6rKtz4xOR5RSiW7XfaGEmrkXNJ7QMEuFsFUmauKwdQyobVCT7Fhab
+cG1tGRSwZiJmOOZKJJkpcbdYkXw+pg+i+sB2WdR4UrS/BhZ3hjKlmil9VCBU9zSp
+jbcCAM1ro53B1wXbQmciqaQBt4YP5RLt8s+8salju3gQChaVF5zUJYy/4DidlY9D
+hLHOB/NsIfWMdDStqciKs8jMoUKhpocPf0lcoXxEhoBDorGUJfeZf54FQuluUQny
+5aOOpT7EbPLFHb3ksG1wPFvLRIrJLOo7bZalRCacGAxHvpV/f7S1WerHhwVVfz7a
+5VPkj1mDWTIi4cXjWcU7giURFrOaG4LDwaLiW4cGSdMc9PPAc7F8Tvq5bw/SWfAA
+p9WnzW71cmWjQiPtQWmssleiP59ACeYMtvIuVnmPPy0jdMEuUMgswzd6ZZyR2d1F
+qNtewkx0an2bJmopc6ZQG8Y+OgsQOq/8qFhUVtyJTcBgZ30qAs4UIvrfVGEXisKQ
+LQrVSPgWf8/m02QB32tly/XnCKrUu1gPQCZI1QR//AvXoxR0hDIb4UA8GlRYZCDU
++G/IjU643ELb2xLOrMzwzWC/qjUXOpknNWyvLtKvvB/58uO87JIkQJ8l/Eb1QXvC
+NRzArf7+EhFiqI13yzzOnh/u
+=1HdD
 -----END PGP SIGNATURE-----
 
---===============6728895139261706895==
+--===============8466823193167268360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-652db3de96a6-0e0c35064293.txt
+Content-Disposition: attachment; filename=revlist-3cea11cd5e3b-5e60366d56c6.txt
 
+b2058cd93d930d7b9f76f34590c0d432cd6470c7 Input: gtco - remove driver
+b2cc3bfef6aa9a0d66034b48e95cf24f6a5b0e35 dt-bindings: input: Add Dell Wyse 3020 Power Button binding
+3d82a4d736a662e352027686b8a373bf3e70820e Input: add driver for power button on Dell Wyse 3020
+80db2a087f425b63f0163bc95217abd01c637cb5 Input: cros_ec_keyb - send 'scancodes' in addition to key events
 8edcd98be1b237965b54bee7e17f89a790a107fd Input: cyapa - switch to using devm_add_action_or_reset()
 88287773ff6f53c47e1902ae3ae19084ef5c69aa Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 dc528d5bcc2daa00940e034bb9922b65b52b5e60 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
@@ -1077,9 +1081,5 @@ b80affe33fdd56c8e9f1f0f33ad99f9016a59195 Merge tag 'linux-kselftest-fixes-5.11-r
 7194850efa47c8dac6e805087dd23c7b03af019d Merge tag 'linux-kselftest-next-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 706451d47b3716c24e0553dfdefba11d202effc1 Merge tag 'linux-kselftest-kunit-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 5e60366d56c630e32befce7ef05c569e04391ca3 Merge tag 'fallthrough-fixes-clang-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
-362c67ec9b6ae467e55532bfce60d356ef92756b readfile: implement readfile syscall
-c4717a868e5a504a9eb98e8c5a64f0f0b3b3d8ff arch: wire up the readfile syscall
-5530292c10016fd293355d8a302d47b53d3b05f6 selftests: add readfile(2) selftests
-0e0c35064293b6f548849ba22fc24793994260d6 readfile.2: new page describing readfile(2)
 
---===============6728895139261706895==--
+--===============8466823193167268360==--
