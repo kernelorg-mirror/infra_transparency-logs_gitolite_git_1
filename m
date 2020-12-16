@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8925063008265417032=="
+Content-Type: multipart/mixed; boundary="===============5960415894320579500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 16 Dec 2020 09:34:56 -0000
-Message-Id: <160811129690.21955.8213609271462983841@gitolite.kernel.org>
+Date: Wed, 16 Dec 2020 09:35:15 -0000
+Message-Id: <160811131526.23440.11926331534097914945@gitolite.kernel.org>
 
---===============8925063008265417032==
+--===============5960415894320579500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,54 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: f8394f232b1eab649ce2df5c5f15b0e528c92091
+  - ref: refs/heads/driver-core-next
+    old: 46e85af0cc53f35584e00bb5db7db6893d0e16e5
     new: 5e60366d56c630e32befce7ef05c569e04391ca3
-    log: revlist-f8394f232b1e-5e60366d56c6.txt
+    log: revlist-46e85af0cc53-5e60366d56c6.txt
 
---===============8925063008265417032==
+--===============5960415894320579500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608111352 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608111370 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1608111288-5df2adf8aaa1fb0ef2259fbad2a83b3d14dae20d
+nonce 1608111306-00de3c79c805d62660855eb0b6f814142eff4da7
 
-f8394f232b1eab649ce2df5c5f15b0e528c92091 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/driver-core-linus
+46e85af0cc53f35584e00bb5db7db6893d0e16e5 5e60366d56c630e32befce7ef05c569e04391ca3 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z1PgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qe0QAL9nsI9hf+0jper85NIa
-zFmYCrbGQGmc2IzS+xd3GRzk5W5ZU8WEzgbUU3XinS3rLPtNaLj7qwH/UeikJ2qk
-zCE3Q8Tz456H4TE2CyhRP+AJHzaP2oV1eiwAgwPURJkszCKHJ/3wovPgutquKZ65
-dm4KamGBLdOrmGu+jHWoSHk/v1Cdyl7dsYaUyUeE3nAF3yAUtgud76VueeOL5cU1
-kGLsUnTZbDqtac4UFfdDjxXiC6klPPcQclxuirCu4oq2y0mjMeJUds7E32uj+hGl
-PGscUJflAgiDslM6k59rjLiq5L04zCNgvMWFoqwVQhCXL9AbzUUAWv7RiZGmUdRI
-mTxrKTfgnHSCNMTJFHeHWVepxHQK64EnQGx6jCrEzerj2lSK6v3GgETPYq2iehic
-jiu539eCPHyc528PNspmG9+b39MANc0KB9tGiMmHCUp/y3lBx8SMD5F+czhGhSAi
-HjAYWP2hwrGTyUkz4wfnEve4HF+7WKmq8386hgy59ni3bmmp96Kr8koRXAjeWyme
-pF6j6X58G0IAus7oIX0kqWVvm4jV5BJzkaA7dGPMCFzvBfKzOxQaoIIZuccCnfbk
-j0z6fPcTYDCBsgxwtyA+ngJbugxeR2CQVVeOJ3sGnxyOP+114W5WIbz76zcTh4qV
-ytFdlTT7RObL95+StB/eBYGy
-=q6/M
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/Z1QobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+01MP/0rXq2Cz5nMV0PAZUJx4
+YeroX+5s0pd/PYUz4fzTsHChpyx86p6XhkrfQPUPU19OxaW9+F1B9nHuciHjd6a7
+U95BgGfdBdjBEG1Iw5GSG/Zb/gpdOYE7nFpMhZ+D/LPBqlhb0MvGD+4JeJMQEBSd
+it84GSrqtY/9a1ZOFlOitGMXH3axg2jHWmm0bxWnqe1oIuVyk4RFv78DFEyssK4t
+NeJq3WOcFB9SXuDpWQ18NGJ+SNu8kBVOoWe0AGFs4qA9tiD5owlHrxeXrbrpQMmg
+4dFT3jJUDhweKkEFYOQV/hB5NwCoJzBaeqwJoMG84iznEiKuYEhEQs4+Xkpa1cgN
+8DRHCTmkiWE0hcA0csP2URLQ7J5S2IyMmSJs5Opu4efXsMeVkcvrf65eswfG1GMT
+zCT/FZQMFaqs6Jr0kven3WLcpcSxdkAtuEeizYeNV47N9CArnFv+88A8xXD1u7jz
+P3cvWBkPKOFesPpRF8hc+Dzhm07fXbzXqmJJx/XDYKlMOKy9pkHAS6Vr7fcAd/ko
+qMTyXo8w+e81HZFDoetfVWtF9Noqhervk74TdSLxZbXYEu2Bym7+eiepA8AxenJL
+2aJRLLcfolqbve/ryy60BrhmtNfxdMzATcBgXUb0qx+eoKAadhJLgFxPiNk1/Lww
+jFOI1a0SIGq+GSjk3P6/n2DT
+=+Ow+
 -----END PGP SIGNATURE-----
 
---===============8925063008265417032==
+--===============5960415894320579500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8394f232b1e-5e60366d56c6.txt
+Content-Disposition: attachment; filename=revlist-46e85af0cc53-5e60366d56c6.txt
 
+dd0e7aabcad14cf0a97c782737e675a348c11984 net: emulex: benet: simplify the return expression of be_if_create()
+d867bc3a269180e4029100a834febddbb8c8228e net: cisco: enic: simplify the return vnic_cq_alloc()
+264386fc192202525316dcd1e8d3c4610046e2e1 net: freescale: dpaa: simplify the return dpaa_eth_refill_bpools()
+f75e59445808bcaf5978859606bad0e6d2e66094 net: hinic: simplify the return hinic_configure_max_qnum()
+6f2d5cf9756dab190e79edd4ec098c81dca6743c net: stmmac: simplify the return dwmac5_rxp_disable()
+965b8b2bad0acaea6d7b20493394bf80075021a5 net: dsa: simplify the return rtl8366_vlan_prepare()
+b8d909375d6fcdc0de9b5f1a7ecee446aeaf5443 net: marvell: octeontx2: simplify the otx2_ptp_adjfine()
 b2058cd93d930d7b9f76f34590c0d432cd6470c7 Input: gtco - remove driver
 b2cc3bfef6aa9a0d66034b48e95cf24f6a5b0e35 dt-bindings: input: Add Dell Wyse 3020 Power Button binding
 3d82a4d736a662e352027686b8a373bf3e70820e Input: add driver for power button on Dell Wyse 3020
@@ -157,11 +164,6 @@ a353397b0d5dfa3c99b372505db3378fc919c6c6 usb: gadget: f_fs: Re-use SS descriptor
 428bb001143cf5bfb65aa4ae90d4ebc95f82d007 slimbus: qcom: fix potential NULL dereference in qcom_slim_prg_slew()
 4661f46e50f2d658592f665be1f1f999ff647d3c serial: imx: Move imx_uart_probe_dt() content into probe()
 d96f04d347e4011977abdbb4da5d8f303ebd26f8 serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
-0aec2da436623abe19b80b21dd9fc5ec9300a152 driver core: platform: Introduce platform_get_mem_or_io()
-feaba5932b6f4bfc875c874a3b7a28c7f05f5a77 vfio: platform: Switch to use platform_get_mem_or_io()
-ebee0cde1960a41e40840eaa8fe0185aa20e3eb5 usb: host: sl811: Switch to use platform_get_mem_or_io()
-f104060813fe79350565b68c1098fcea050a6504 misc: pvpanic: Combine ACPI and platform drivers
-2a0387e8128ae0c3de9ff976bc25afaae3d4a916 misc: pvpanic: Replace OF headers by mod_devicetable.h
 a5b7b1194a57bc59f289f3e4433a1be81cc3e19d selftests/bpf: Drop tcp-{client,server}.py from Makefile
 7535a3526dfe78db02a08ca2fa6bf69f393105dd selftests/bpf: Xsk selftests - adding xdpxceiver to .gitignore
 41003dd0241c2ceb2461a88a18ff461795f2af57 selftests/bpf: Make selftest compilation work on clang 11
@@ -545,7 +547,6 @@ d84489e374f5b9b3ab424a5169e68e06a4329524 ALSA: hda/ca0132 - Add ZxR surround DAC
 8cfd9b0f8515e7c361bba27e2a2684cbd427fe01 netfilter: nftables: generalize set expressions support
 92b211a28992b82a693547e3fe5ff97646961785 netfilter: nftables: move nft_expr before nft_set
 2f5fbc4305d07725bfebaedb09e57271315691ef irqchip/qcom-pdc: Fix phantom irq when changing between rising/falling
-2ab695aa8eb8f3226f68a2b91fc6103b56fcb57d ACPI: Use fwnode_init() to set up fwnode
 464d2ff716c37d83e8bb0c4f1c1acfc02dbc9984 Merge tag 'timers-v5.11-2' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
 0d07c0ec4381f630c801539c79ad8dcc627f6e4a x86/kprobes: Fix optprobe to detect INT3 padding correctly
 e7bb1a2ab8c4b1569f5b271fd87ca203b1e673a5 hwmon: (sbtsi) Add basic support for SB-TSI sensors
@@ -569,7 +570,6 @@ e0a64d1dffca048a99546993322bd1fb5c728ee8 nfc: s3fwrn5: let core configure the in
 0b9b241406818a871c6d25390aa487dba966d548 inet: frags: batch fqdir destroy works
 13458ffe0a953e17587f172a8e5059c243e6850a net: x25: Remove unimplemented X.25-over-LLC code stubs
 3cabca87b329cbcbdf295be0094adbd72c7b1f67 ntp: Fix prototype in the !CONFIG_GENERIC_CMOS_UPDATE case
-46e85af0cc53f35584e00bb5db7db6893d0e16e5 driver core: platform: don't oops in platform_shutdown() on unbound devices
 d2360a398f0b68722641c59aeb2623e79bd03e34 Merge tag 'block-5.10-2020-12-12' of git://git.kernel.dk/linux-block
 ec6f5e0e5ca0764b4bc522c9f9d5abf876a0e3e3 Merge tag 'x86-urgent-2020-12-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2c85ebc57b3e1817b6ce1a6b703928e113a90442 Linux 5.10
@@ -1082,4 +1082,4 @@ b80affe33fdd56c8e9f1f0f33ad99f9016a59195 Merge tag 'linux-kselftest-fixes-5.11-r
 706451d47b3716c24e0553dfdefba11d202effc1 Merge tag 'linux-kselftest-kunit-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 5e60366d56c630e32befce7ef05c569e04391ca3 Merge tag 'fallthrough-fixes-clang-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
 
---===============8925063008265417032==--
+--===============5960415894320579500==--
