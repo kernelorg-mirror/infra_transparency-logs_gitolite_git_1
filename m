@@ -1,124 +1,186 @@
-Content-Type: multipart/mixed; boundary="===============4760839829122194558=="
+Content-Type: multipart/mixed; boundary="===============5743950867497840432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 16 Dec 2020 14:00:28 -0000
-Message-Id: <160812722846.11233.17136660085867373768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable
+Date: Wed, 16 Dec 2020 14:03:01 -0000
+Message-Id: <160812738122.12131.8272443980715439564@gitolite.kernel.org>
 
---===============4760839829122194558==
+--===============5743950867497840432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/stable/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/master
-    old: d1c29f5debd4633eb0e9ea1bc00aaad48b077a9b
-    new: 45cec5688d6c66f6d5a00df3d8f18c2b89d339fe
-    log: revlist-d1c29f5debd4-45cec5688d6c.txt
+  - ref: refs/heads/linux-rolling-lts
+    old: 39b3342de9bb71531c8d9b41ee0ad901145c7a91
+    new: 2c16816abfdf41e510c7208bf746dcb655345030
+    log: revlist-39b3342de9bb-2c16816abfdf.txt
+  - ref: refs/heads/linux-rolling-stable
+    old: 3ef8db90f5243463e20f0b4c25d7b18215111059
+    new: d12091db2b17e59751c4995f096259ef66a35a72
+    log: revlist-3ef8db90f524-d12091db2b17.txt
 
---===============4760839829122194558==
+--===============5743950867497840432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1c29f5debd4-45cec5688d6c.txt
+Content-Disposition: attachment; filename=revlist-39b3342de9bb-2c16816abfdf.txt
 
-a826e11a22d038e4137137a6957677905da6d582 jump_label: Fix usage in module __init
-ef395759860c68f445ffa1b8319e336e5b73df97 jump_label/static_call: Add MAINTAINERS
-9d917e089ddf4e29578333db7f4543fd2322c55e jump_label: Do not profile branch annotations
-eb4d0f16d62a0a795159ab2ad3bce2487f07baf4 sched/core: Move schedutil_cpu_util() to core.c
-83224aa08b158e6024f1a4ee9edba0803c7b4e43 sched/core: Rename schedutil_cpu_util() and allow rest of the kernel to use it
-bb190aed6d2d89df82fe436348dfe532500b7da8 thermal: cpufreq_cooling: Reuse sched_cpu_util() for SMP platforms
-1bb1f0383f5ebbe2dc5fd07ec912ad4ca95946fc sched: Prevent raising SCHED_SOFTIRQ when CPU is !active
-da2411fa7cd131f85bac40b6cfe97de5de72bd93 Merge branch 'tip/sched/core'
-de4ce8d0f0c29e5d8a7f697e8bbbc5c4b6f1615c sched/fair: Remove SIS_AVG_CPU
-a447695678c95ea6dba35f633db6132456eee232 sched/fair: Move avg_scan_cost calculations under SIS_PROP
-6b987a9877e82aec5653ed6dcb60ec864fe6f720 sched/fair: Fix select_idle_cpu()'s cost accounting
-fc40966eef8dbfedc24fa4dbff6a8f4136b53e3c sched/fair: Make select_idle_cpu() proportional to cores
-c6171aaed5a930b0fa7228fbf14a49a500f43710 sched/fair: Remove select_idle_smt()
-860bb26278020e77fdc02513009acf5cf175ad6e sched/fair: Merge select_idle_core/cpu()
-221572e583f5317659ae72036a8a3cdc6c202325 sched/fair: SIS_PROP the idle core scan
-28984c9cf63ee182b39b5aa4b73774ec08ec84b3 Merge branch 'tip/locking/core'
-b0e16944d3f88901dadd8e5a0631ad3bcc5cfab8 lockdep/selftest: Make HARDIRQ context threaded
-62fff6c60e05c79c33f37f660bfd607865478f3e lockdep: Allow wait context checking with empty ->held_locks
-619ef95a6e45a46396bd4ec12619f0584196a63a rcu/lockdep: Annotate the rcu_callback_map with proper wait contexts
-c75d21d2655e19e688452fbd7509ab0c08cfea78 lockdep/selftest: Add wait context selftests
-5765c211df73f0adf68251d7b58581934b6a513c locking/selftests: More granular debug_locks_verbose
-093b0d896883213cbf549dfd59cfcd22654f65b9 locking/lockdep: Mark local_lock_t
-0c4c06a7100a746915c9847dd6e2256247d73749 locking/lockdep: Add a skip() function to __bfs()
-905470163f7d17a836c20a3be46b7951f5c2f703 locking/lockdep: Clean up check_redundant() a bit
-34f3ddd4bb8d5ff52492aca0362dbb683a8b00ef locking/lockdep: Exclude local_lock_t from IRQ inversions
-d0bc50664806097905f6084c9a18ebdc3f5ba1b7 locking/selftests: Add local_lock inversion tests
-275f0e64224702041983a147277eda52fafb5d6c Merge branch 'tip/sched/core'
-d2ae49b71be7b41d5792e4999fc31fbcac71bb3c sched: Wrap rq::lock access
-7d21e0b0d3147a5d64ee85a4ce889a676fcff02c sched: Introduce sched_class::pick_task()
-e108981e7b192c786e5e3a6542c2d8fee58acc8e sched: Core-wide rq->lock
-392fabf82888d5de9ad319cde417184b6f5786b0 sched/fair: Add a few assertions
-6c024940cf4655026c68bc0670c9f16e89aa5b7c sched: Basic tracking of matching tasks
-eeb309b5be41844bd762033f270840d3be5ae71f sched: Add core wide task selection and scheduling.
-da440671b8056d9f56d688bc5eeffceac01cd90d sched/fair: Fix forced idle sibling starvation corner case
-265e707200c52223a08826f4416a89fcbe6c0a35 sched: Fix priority inversion of cookied task with sibling
-f5e2f6736273f661e2fe1c04623f3e2b8dade2ca sched: Simplify the core pick loop for optimized case
-ddf865a3fbaf4047c430ae8bda1f88ba15fca754 sched/fair: Snapshot the min_vruntime of CPUs on force idle
-3b4539c24dddd16859c2295fd19edecb5c22f4ed sched: Trivial forced-newidle balancer
-b670d23eb6d683fbddb79c4f55b2bfb27fc9f668 Merge branch 'perf/core'
-1420462ede557f6a1e8332e146b46525abe36620 perf/intel: Remove Perfmon-v4 counter_freezing support
-dfcbffe7b9a33f3a5e86411890c9fe8c6c0ce256 mm: Update ptep_get_lockless()'s comment
-6d6bd7a1f24e89493cf33ac3394503cea1f34a69 x86/mm/pae: Make pmd_t similar to pte_t
-229969ec0082f91d24182e482456524e6e860016 sh/mm: Make pmd_t similar to pte_t
-c981ebecf3894cf8875c01cad45e7c36a0e86556 mm: Fix pmd_read_atomic()
-b116ac8dc74ed7c245966afce55884eef5ce1ddd mm: Rename pmd_read_atomic()
-5df922b210b80180d232181ead90a903fd9a0437 mm/gup: Fix the lockless walkers
-2a9b49a52802778cd9b95d6a200fb320738d0ccc x86/mm/pae: Don't (ab)use atomic64
-7e974dd2733cd058d40e16b3e21e90267cd16ebc x86/mm/pae: Use WRITE_ONCE()
-23d56b7a6ddfea25b58be0b5260ec65d9bf1de88 x86/mm/pae: Be consistent with pXXp_get_and_clear()
-1b0a06843191087a3cd421a8e44ee774b7f48991 Merge branch 'tip/sched/core'
-9c861e4f4bc266e7c7131fc8e309e9ac5c40ac0e irq_work: Unconditionally build on SMP
-044f4c1e3f9399c2de008378e5f38ab66f558b1a irq_work: Provide irq_work_queue_remote()
-af064bcc316b9e13b7438dd38db6c18e26d2898e rcu/tree: Use irq_work_queue_remote()
-3612a62fc00f4d501b2e4d13b2c1ec55f2036b07 asm-generic/tlb: Fix MMU_GATHER_TABLE_FREE
-3d88203511d9c79b697972d3e7f1f5741e1d8fee sh/tlb: Fix __pmd_free_tlb()
-3a4b94a5317c5e0aad4c05ad4f62c021144062a8 sparc32/tlb: Fix __p*_free_tlb()
-575821da1064ab43b8cd47c9a2ac001f93a7a9e7 parisc/tlb: Fix __p*_free_tlb()
-8eb1a237214c360f2a212f2d5603105e1242fea5 mips/tlb: Fix __p*_free_tlb()
-24d23b40f7e81fb32cee38c99fc1643df861c23c ia64/tlb: Fix __p*_free_tlb()
-f97854cb4c68dbb0f269f15f1be58d79c3f4861c alpha/tlb: Fix __p*_free_tlb()
-e19d9e67f48ed37250df3097f53096a27cb6d024 nds32/tlb: Fix __p*_free_tlb()
-b9acd0253fa4e72bcc32f2199924c70c2d78b651 riscv/tlb: Fix __p*_free_tlb()
-e67edd238c29cd1b6912a5d009a71c63d3b94964 m68k/tlb: Fix __p*_free_tlb()
-f3367382b2874f694524596c268b95f614d33903 rbtree: Add generic add and find helpers
-2d41ae5b715fdbb96b9068159d163e165767d1b8 rbtree, sched/fair: Use rb_add_cached()
-b8e19dc4c734159d4fa2bc8ec1ea407932ef8385 rbtree, sched/deadline: Use rb_add_cached()
-aaa67975c9867418dd44523b7f4ca0653f301ada rbtree, perf: Use new rbtree helpers
-70e3f98bd85d7c4e16c295c8b3dba3630be2c156 rbtree, uprobes: Use rbtree helpers
-451839cb1d2ccae9496382e4ff4cd382bfb964d1 rbtree, rtmutex: Use rb_add_cached()
-897ce78fbb3c2ef33472f089a3d622c2607c6d3a rbtree, timerqueue: Use rb_add_cached()
-02aa06a0cd773876404bdf18f7c6eff6ae42f094 module: Expose load_info to arch module loader code
-1dcff566d9d3ba1974a63a600311ce9f83b981c1 module: Convert module_finalize() to load_info
-bc4af58e0a161ea862dce009be4bd9ba864bc16e x86,module: Detect VMX vs SLD conflicts
-04352db754654fbbfb14466f5cd0939aee235f23 x86,module: Detect CRn and DRn manipulation
-41c81a11b5615db7b525d4e438514389b0998088 x86,module: Disallow many CPL0 instructions
-6a6675a3e4b0ad33f7255b276c2cfc16b7658b6c x86: insn: Add insn_is_fpu()
-597a35c83d8085403b9c4e6fdbe714ef0c203aba objtool,x86: Add FPU context validation
-1b82c290a0abbc6becf1b3423812e25a96ac8996 amdgpu/dc: Annotate __fpu
-45c3dedb3f0978e3c4a25df0f5e0cb54d50083c6 locking/qspinlock: Rename mcs lock/unlock macros and make them more generic
-9ad8ed405ef2056812420133e16d9f1894fe6967 locking/qspinlock: Refactor the qspinlock slow path
-401645918e32b5d657057a4c3b807ea7acf954e6 locking/qspinlock: Introduce CNA into the slow path of qspinlock
-93922198c3d66a1abe0345c762f544fe2c4795f1 Merge branch 'locking/urgent'
-deea6a0b48467fe8f607f5139a598ae76ebab192 Merge branch 'locking/core'
-04364818e029e5b1b78fb22d9a7af80553a4d9e8 Merge branch 'sched/core'
-fc81766c0f5ac3d330a2000f75fc6e5fa65a19c0 Merge branch 'sched/sis'
-672cdae89365e47675fcce74c3793270a1a2b432 Merge branch 'locking/next'
-591b51ea2a0d9734ef225c6b8b2087e1813b5eba Merge branch 'sched/core-sched'
-f955b0117ea24c8819d4d108c1e68e4e3989f297 Merge branch 'perf/next'
-d68119a3088221621e09ac7bfa6a57cf83a259fc Merge branch 'sched/cleanup'
-1318a9e4c099a26a949de479c69128c2308a0492 Merge branch 'mm/tlb'
-f19211ff657cf698addb8a991996308f61f25fdd Merge branch 'sched/rbtree'
-d4a43ce9410d9259a26277d80b0d29e4fd8a9427 Merge branch 'x86/module'
-e79fe45f6bb31cf3af2028c6450b62d785ba64e2 Merge branch 'x86/fpu'
-45cec5688d6c66f6d5a00df3d8f18c2b89d339fe Merge branch 'locking/wip-cna'
+018b05e0f05bf010d82bb0e379165ecce537b2aa Kbuild: do not emit debug info for assembly with LLVM_IAS=1
+591afbc97c18be8baf4387bc4ca9b26864a3c623 x86/lib: Change .weak to SYM_FUNC_START_WEAK for arch/x86/lib/mem*_64.S
+0e6cae4e81812ac2eefe7cf7c3007cbd7d4bb1db iwlwifi: pcie: limit memory read spin time
+d411a07d6c0422db53cb58e8001c6824b6434163 arm64: dts: rockchip: Assign a fixed index to mmc devices on rk3399 boards.
+c90527770b88274b3cba9e88b2729a545d0ca35e iwlwifi: pcie: set LTR to avoid completion timeout
+8012a30b9e16865dcbb36a06c82186451c2b465b iwlwifi: mvm: fix kernel panic in case of assert during CSA
+acac3f7d7d2283a1b8bc1e1c286dcd6c96e573e4 powerpc: Drop -me200 addition to build flags
+8ed74a01220632a41c20d942497f998531749f82 arm64: dts: broadcom: clear the warnings caused by empty dma-ranges
+b184e9800867917bd9e0837a4d2385c061f014e3 ARC: stack unwinding: don't assume non-current task is sleeping
+adad2bc9f303c8a6cab94a4766d436d66e812a54 scsi: ufs: Make sure clk scaling happens only when HBA is runtime ACTIVE
+c0450df6d0f77ac781cbd10e29e55d1162c6bd9b interconnect: qcom: qcs404: Remove GPU and display RPM IDs
+47fac0ccf775d7218bd9b165f1ecd26df182f290 ibmvnic: skip tx timeout reset while in resetting
+864fbeab8c99ac195098993cb2b6f17a51b0dd54 irqchip/gic-v3-its: Unconditionally save/restore the ITS state on suspend
+37aa8318ed437000c1b046e663407a138ed47a2c spi: spi-nxp-fspi: fix fspi panic by unexpected interrupts
+c7e271337402c995c4cc8c81a95ac37c90ac41c7 soc: fsl: dpio: Get the cpumask through cpumask_of(cpu)
+eb5e28ffe39aca586e18f6f7232e9486f7aecddb arm64: tegra: Disable the ACONNECT for Jetson TX2
+4778a11e0500cc9519ae59cefaa6df81de9e1f22 platform/x86: thinkpad_acpi: Do not report SW_TABLET_MODE on Yoga 11e
+010e6e816f5486d4fe62f76686358e29a57da50e platform/x86: thinkpad_acpi: Add BAT1 is primary battery quirk for Thinkpad Yoga 11e 4th gen
+21aa2d1f2bfb8386cc3364836e879b43579531dd platform/x86: acer-wmi: add automatic keyboard background light toggle key as KEY_LIGHTS_TOGGLE
+2fa99f6f8f600f36085a2c0c0292a2973696e3a4 platform/x86: intel-vbtn: Support for tablet mode on HP Pavilion 13 x360 PC
+38b1dbc1229cf66a7df007591cf91e2e68e55b35 platform/x86: touchscreen_dmi: Add info for the Irbis TW118 tablet
+181088e37b1dc51c5d880d83da8b9530cd5748e0 can: m_can: m_can_dev_setup(): add support for bosch mcan version 3.3.0
+d2d113aca34f95f87dae00e4170659ed01528eb2 ktest.pl: Fix incorrect reboot for grub2bls
+cf596f3906e93e490affe783041cb7179e144005 Input: cm109 - do not stomp on control URB
+457f5289b7e712ea1ae431574d8f7bf21f4e8eca Input: i8042 - add Acer laptops to the i8042 reset list
+974aa59837edcf457d6abce04500fd832e9a32cb pinctrl: amd: remove debounce filter setting in IRQ type setting
+60c1c68fae5ed1fc74707f5820062bb134ccff43 mmc: block: Fixup condition for CMD13 polling for RPMB requests
+0cd7084a2a032c91ce4f282d28c7a526e2deebad drm/i915/display/dp: Compute the correct slice count for VDSC on DP
+6472d3ae6ef5831e9db6df63257019ac5edcec76 kbuild: avoid static_assert for genksyms
+7d5fc53439a1adc8b4b57b49bbce7cc2e9bb0919 proc: use untagged_addr() for pagemap_read addresses
+258d646f006b1f5ab1b43b6eefefd0b5648fa89a scsi: be2iscsi: Revert "Fix a theoretical leak in beiscsi_create_eqs()"
+6346ed69bc7c84161c07875bf3e0f5523b4bca8d x86/mm/mem_encrypt: Fix definition of PMD_FLAGS_DEC_WP
+e3c1d51868f33ea4979ec8f61fc183a5ebfa8a7a x86/membarrier: Get rid of a dubious optimization
+3349f1e4cf6d3fd84e6ef55cea5d615d0bd8032c x86/apic/vector: Fix ordering in vector assignment
+69dc72f058c9b98f9b66bed184cfab7c2e9f49b0 mm/zsmalloc.c: drop ZSMALLOC_PGTABLE_MAPPING
+c2c5dc84ac51da90cadcb12554c69bdd5ac7aeeb compiler.h: fix barrier_data() on clang
+8a866bdbbac227a99b0b37e03679908642f58aec Linux 5.4.84
+2c16816abfdf41e510c7208bf746dcb655345030 Merge v5.4.84
 
---===============4760839829122194558==--
+--===============5743950867497840432==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3ef8db90f524-d12091db2b17.txt
+
+1fcaa002e3ca7137379c96f63452612bdb5a1e88 Kbuild: do not emit debug info for assembly with LLVM_IAS=1
+762da2bc76b6af7fed5ceb14f241941883e6cb6a mm/zsmalloc.c: drop ZSMALLOC_PGTABLE_MAPPING
+e501d3d4152016995c8d01fdeed519c3e8a9afdc kprobes: Remove NMI context check
+65e536ebc63257774d2d0f07139c4a33ff8d3f86 kprobes: Tell lockdep about kprobe nesting
+d829847a9c05999086a45e7085afe52bf5b1c5be ASoC: Intel: bytcr_rt5640: Fix HP Pavilion x2 Detachable quirks
+346054e16f109434c6bd16e9e9c4050b74298101 tools/bootconfig: Fix to check the write failure correctly
+5d06e9cb82f042f3b4af7cab5d9b3a1e16ae82f7 net, xsk: Avoid taking multiple skbuff references
+c709cffb95e9416496a61699e369a115a35136ff bpftool: Fix error return value in build_btf_type_table
+0d3cf1602ef0aa0177c94bf94e27759f5502c818 vhost-vdpa: fix page pinning leakage in error path (rework)
+ead8e63a2cf0405a78a05837c506c907848a4dc4 powerpc/64s: Fix hash ISA v3.0 TLBIEL instruction generation
+cd77950da8ca28ae4909856542327f6f118785e8 batman-adv: Consider fragmentation for needed_headroom
+26eec9496130d4d51f2d19ffc872afc578cd364a batman-adv: Reserve needed_*room for fragments
+8b37451dd7f97f7e9cee9957e57f43cd71690bf0 batman-adv: Don't always reallocate the fragmentation skb head
+0fc63f124c1c279a6d30dc00a86e51fd7b1264a7 ipvs: fix possible memory leak in ip_vs_control_net_init
+1b56fed756bf633b64b7abf6978cc259693e011c ibmvnic: handle inconsistent login with reset
+cbacbc3b4605c172b3c7383b238f1ecb36d92c1a ibmvnic: stop free_all_rwi on failed reset
+0b0d64b126225c07a58619a7c92ea0d5e8617052 ibmvnic: avoid memset null scrq msgs
+e68f59be3e68fca421079577031c9ffce3834d9b ibmvnic: delay next reset if hard reset fails
+9b76cafbf27a5024f160367fa4492846336906ed ibmvnic: track pending login
+0d111ed75df2dc5fdc3ff78876655473013f5f73 ibmvnic: send_login should check for crq errors
+5e3328abfd3d9a57f1ab27574630b69be5585cf1 ibmvnic: reduce wait for completion time
+ddfe8fbf9b635b6277715c7040c8ce393bf3a39c drm/rockchip: Avoid uninitialized use of endpoint id in LVDS
+4f69c7d62aaa160c9e951328c139cc286c636e25 drm/panel: sony-acx565akm: Fix race condition in probe
+4301de8773b662e7596e933ec7512cc7c5e10b58 can: m_can: tcan4x5x_can_probe(): fix error path: remove erroneous clk_disable_unprepare()
+89a9f7dd637bf7acee6879d62221cbc68a98aafb can: sja1000: sja1000_err(): don't count arbitration lose as an error
+50982ba118e4cd961ae1d0bfaa16a2b5032614f2 can: sun4i_can: sun4i_can_err(): don't count arbitration lose as an error
+ba3f951a6a0dd2c90f3d50276bf186822328f3dc can: c_can: c_can_power_up(): fix error handling
+8516786f9a87107e4f1044e1a817700fe8c4323d can: kvaser_pciefd: kvaser_pciefd_open(): fix error handling
+58e9eb41784f4fb165764fd0333b2b491f28ed16 samples/ftrace: Mark my_tramp[12]? global
+2b562f0211a87cf9852854a23bb68c70d1310c3d scsi: storvsc: Fix error return in storvsc_probe()
+d0bad28fbddd3f9f6e2eda64ab2b1a775a8ad6a4 net: broadcom CNIC: requires MMU
+956b7d56949d8a937ee409cbc58144270965bccd vdpa: mlx5: fix vdpa/vhost dependencies
+83714d5200e604757e03e36d619cd5add0fe33a4 iwlwifi: pcie: invert values of NO_160 device config entries
+3a88ba2a67e47de7014199b8a4583e2fe45fff9c perf/x86/intel: Fix a warning on x86_pmu_stop() with large PEBS
+8cceb4c12ea7263e347f85af0e1e905a1aa6dc28 usb: ohci-omap: Fix descriptor conversion
+cd8c84007bdc82e8fc0559a6523062abf6daae5f zlib: export S390 symbols for zlib modules
+dd81cf1cd50021b8dd65ae0cef0ec80c86b11d3e mm/mmap.c: fix mmap return value when vma is merged after call_mmap()
+be9a0b6883fa6d37563c401732309382da5caa15 phy: usb: Fix incorrect clearing of tca_drv_sel bit in SETUP reg for 7211
+6d2a9cbba26df92e0483c2c9e8b5f3fe9b5fe511 arm64: dts: rockchip: Remove system-power-controller from pmic on Odroid Go Advance
+df6bfa783c794fd4ca0c20366e43700874a4cf15 iwlwifi: pcie: limit memory read spin time
+88e2fbf640fc798dc276077a895d6eda67f1b174 arm64: dts: rockchip: Assign a fixed index to mmc devices on rk3399 boards.
+243d3ba0d5640addf0481642b25108e7c3bd957a arm64: dts: rockchip: Reorder LED triggers from mmc devices on rk3399-roc-pc.
+e0ad0bedc35e501539c87779b1acb0c3aa56207d iwlwifi: sta: set max HE max A-MPDU according to HE capa
+c918e4af11da8770fac2b78bab6dde38eb2c2705 iwlwifi: pcie: set LTR to avoid completion timeout
+81b0105efafe14aecdc4ee12c35b23f66454cafa iwlwifi: mvm: fix kernel panic in case of assert during CSA
+6cad602451aedbcd5a80f5b5e7782d59630be51a powerpc: Drop -me200 addition to build flags
+414935075cd84205c7d0d1b11463b2d388f9b1b9 arm64: dts: broadcom: clear the warnings caused by empty dma-ranges
+8b92c5da06131e15535800ff7907dbec0942e0c9 ARC: stack unwinding: don't assume non-current task is sleeping
+f17c5a3adf66ad59c23580c912a21d22ba2152f2 scsi: ufs: Fix unexpected values from ufshcd_read_desc_param()
+5855a711029ee956b0f9443416969e6e67dd8294 scsi: ufs: Make sure clk scaling happens only when HBA is runtime ACTIVE
+8774a897a330b0370204e652db4e83ceb5e4d380 interconnect: qcom: msm8916: Remove rpm-ids from non-RPM nodes
+16aef8b4d8086e3cdd56865ec081907198eea62c interconnect: qcom: qcs404: Remove GPU and display RPM IDs
+517e062126755f7bfc599d68392ccedfbf665f43 ibmvnic: skip tx timeout reset while in resetting
+64f88613405f49fb6023b963368a30d456bb07fb irqchip/gic-v3-its: Unconditionally save/restore the ITS state on suspend
+3067d221bcd215e53d7332d59c669caf55da96c4 drm/exynos: depend on COMMON_CLK to fix compile tests
+6acb0cf4bf048312ee320270acb2f698a35e9469 spi: spi-nxp-fspi: fix fspi panic by unexpected interrupts
+dad08d96b1d13cba282902cbeef0bfee497ce88c arm-smmu-qcom: Ensure the qcom_scm driver has finished probing
+6d9b478ef5a8a2be0e2682222471c7db7b43e096 habanalabs/gaudi: fix missing code in ECC handling
+a70b249621fa0586620ad419cd4d8d15ccd1d126 btrfs: do nofs allocations when adding and removing qgroup relations
+fa6f3ae455b00e31312618cdb91a22f9cf58cf13 btrfs: fix lockdep splat when enabling and disabling qgroups
+c51f65d693603ff1acebea1eae04cb20b6af8bcb soc: fsl: dpio: Get the cpumask through cpumask_of(cpu)
+fb82d3ac7ec1ffb5f4758b025bfdcd1b82eeddd5 sched/idle: Fix arch_cpu_idle() vs tracing
+13158f6fab09eddced10ca607d7c91bd09fa8342 intel_idle: Fix intel_idle() vs tracing
+ee982a0abaf320620c07e895561914a10e359945 arm64: tegra: Disable the ACONNECT for Jetson TX2
+60434a3ba1a65d3024206c377cdadc93fa945017 platform/x86: thinkpad_acpi: add P1 gen3 second fan support
+69990496b0c0476ef31bfa1bf0467165f9b5afa5 platform/x86: thinkpad_acpi: Do not report SW_TABLET_MODE on Yoga 11e
+e1dee70bb9777e5a7dd695784aacd643e8fbc452 platform/x86: thinkpad_acpi: Add BAT1 is primary battery quirk for Thinkpad Yoga 11e 4th gen
+43ac621924aae1abd7be24b06ce4a04fbd1d4f7d platform/x86: thinkpad_acpi: Whitelist P15 firmware for dual fan control
+22e2d0a22bf5e975d9838d200c797d86c4ed4c53 platform/x86: acer-wmi: add automatic keyboard background light toggle key as KEY_LIGHTS_TOGGLE
+ffdcf2fd85461e4be047cd0aced8f3a35edc0326 platform/x86: intel-vbtn: Support for tablet mode on HP Pavilion 13 x360 PC
+a4cdf449607d7dd34d6e66156ea67a9a93945157 platform/x86: touchscreen_dmi: Add info for the Predia Basic tablet
+ade5961701d6b3cbbf0583f67709d69583eac439 platform/x86: touchscreen_dmi: Add info for the Irbis TW118 tablet
+64fec73663a9ee15b57c205db0bd734ecb8d7272 can: m_can: m_can_dev_setup(): add support for bosch mcan version 3.3.0
+d00ee4dc1cd9dba5c5f9b67bb00c1d5c98b791ad s390: fix irq state tracing
+eda58515dee71b15451b60e183c7f64ebced1404 intel_idle: Build fix
+985a670004bead2eb982cf196d9f55003adb5a52 media: pulse8-cec: fix duplicate free at disconnect or probe error
+dd85f53cf0e0737e5cd9c970676c00b17db2fbee media: pulse8-cec: add support for FW v10 and up
+034192ca3e753e74c0488eb281a512e7c65a8c1f mmc: mediatek: Fix system suspend/resume support for CQHCI
+5abd108508110f11adfa2c9da69e32143acc726a mmc: mediatek: Extend recheck_sdio_irq fix to more variants
+c301c2bbeacd0db3495dc1e9b84d096483239e4a ktest.pl: Fix incorrect reboot for grub2bls
+5050b59f89dc5c8ab5ea2089d398ca57ed35cd3b xen: add helpers for caching grant mapping pages
+531c3e652ede771012894808da0da7d204cb5575 xen: don't use page->lru for ZONE_DEVICE memory
+ab85a0cb38abf6a65e6c6a69dd440db6591efbf0 Input: cm109 - do not stomp on control URB
+ac1e8e8b33c827d2756bd1783c2dcf8500bbb80e Input: i8042 - add Acer laptops to the i8042 reset list
+d100b8d66ca7f49d28c4de8ae603ce44d676b19f pinctrl: jasperlake: Fix HOSTSW_OWN offset
+7ade82bd734b641a4e654c4e4f834ea304eaa42b pinctrl: amd: remove debounce filter setting in IRQ type setting
+58b6dd4f9318a3f6d599d8095249c05a5e18ac72 mmc: sdhci-of-arasan: Fix clock registration error for Keem Bay SOC
+cf61c60b5116bf205c9f152e44e19a169d9e2e39 mmc: block: Fixup condition for CMD13 polling for RPMB requests
+a170b3e9c5b891f64284e032a376177fda20937f drm/amdgpu/disply: set num_crtc earlier
+dcfeb303a2b57b97187cd8220e347f5ee861a633 drm/i915/gem: Propagate error from cancelled submit due to context closure
+471ae7835e5f25955a2f81409508594918f75201 drm/i915/display/dp: Compute the correct slice count for VDSC on DP
+a62810c0e624036a98102505dad06ad8bfcf09e0 drm/i915/gt: Declare gen9 has 64 mocs entries!
+b20eb804cf6187ed96be15b59612449f42b404c9 drm/i915/gt: Ignore repeated attempts to suspend request flow across reset
+43013b6eb92458c5e2f68e90e08dfd75a3f3d9d0 drm/i915/gt: Cancel the preemption timeout on responding to it
+4724f74c419c8e00d7ce17724e472a946a5f115b drm/amdgpu: fix sdma instance fw version and feature version init
+d673586ec6282c30f6525c341f1a98e2fa92b532 kbuild: avoid static_assert for genksyms
+974780e134da906a555b2b78be2dea1fa154ad49 proc: use untagged_addr() for pagemap_read addresses
+f422f9c6479c5a05db490eca2f960bbbc47daf15 mm/hugetlb: clear compound_nr before freeing gigantic pages
+6134dd87124ebf68b8e7397260a1a9ab28d3b919 zonefs: fix page reference and BIO leak
+7882c999402d508c9f5719def5aef35fb5c68a94 scsi: be2iscsi: Revert "Fix a theoretical leak in beiscsi_create_eqs()"
+c31a444c48981106aab63ca4297d285e47d260cf x86/mm/mem_encrypt: Fix definition of PMD_FLAGS_DEC_WP
+f114de3c03bd1406c0c110a5dee589365dc88a68 x86/membarrier: Get rid of a dubious optimization
+6c12baff9e1e6b60d693448a5111f2e66241982e x86/apic/vector: Fix ordering in vector assignment
+d4f949439d2748209b004b4003e21285e580909d x86/kprobes: Fix optprobe to detect INT3 padding correctly
+54ddef488732546219d457830641e6452d8056f9 compiler.h: fix barrier_data() on clang
+8df7025920ebbbd8b523fc052e28cc65acb44591 Linux 5.9.15
+d12091db2b17e59751c4995f096259ef66a35a72 Merge v5.9.15
+
+--===============5743950867497840432==--
