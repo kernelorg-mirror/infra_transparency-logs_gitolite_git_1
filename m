@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 17 Dec 2020 18:50:04 -0000
-Message-Id: <160823100405.11143.7417780533158687684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 17 Dec 2020 18:56:01 -0000
+Message-Id: <160823136186.16583.2706722641184004980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/block-5.11
-    old: 413944176f112cc6cba7eb2781ba5f394d17a6c5
-    new: 1bf8a6fc0edfa2d17a2f7f27f4d092a4f2bc0036
+  - ref: refs/heads/master
+    old: 86eb09b63da419a7261d7dc96e60fdb0e56e341d
+    new: 38ba95a4ed24126d36288a0c2434ced5b4c244d2
     log: |
-         1bf8a6fc0edfa2d17a2f7f27f4d092a4f2bc0036 blk-mq: Use llist_head for blk_cpu_done
-         
-  - ref: refs/heads/for-next
-    old: 11f2998c821dc1b48f570ab779ea1841c4c24bff
-    new: c75c846c0215c1e9d17753bc45cac44519be8935
-    log: |
-         1bf8a6fc0edfa2d17a2f7f27f4d092a4f2bc0036 blk-mq: Use llist_head for blk_cpu_done
-         c75c846c0215c1e9d17753bc45cac44519be8935 Merge branch 'block-5.11' into for-next
+         0d52848632a357948028eab67ff9b7cc0c12a0fb qlcnic: Fix error code in probe
+         38ba95a4ed24126d36288a0c2434ced5b4c244d2 net: nixge: fix spelling mistake in Kconfig: "Instuments" -> "Instruments"
          
