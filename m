@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4888952444767879057=="
+Content-Type: multipart/mixed; boundary="===============6457230220696742736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 17 Dec 2020 21:13:36 -0000
-Message-Id: <160823961640.4014.1393305563975234029@gitolite.kernel.org>
+Date: Thu, 17 Dec 2020 21:13:41 -0000
+Message-Id: <160823962132.4104.10551913599540106305@gitolite.kernel.org>
 
---===============4888952444767879057==
+--===============6457230220696742736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 280eef994d0c34aca5042d0698283ed351a7d604
-    new: 8ee6047613cca15b2bf3bcfcc906615108395999
-    log: revlist-280eef994d0c-8ee6047613cc.txt
+  - ref: refs/heads/net-rc
+    old: 4a681a65afaf5647653b48c277ebc77a9eea46ca
+    new: 54633f691e94279723ff7c34793d187e67fa1cb6
+    log: revlist-4a681a65afaf-54633f691e94.txt
 
---===============4888952444767879057==
+--===============6457230220696742736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-280eef994d0c-8ee6047613cc.txt
+Content-Disposition: attachment; filename=revlist-4a681a65afaf-54633f691e94.txt
 
 544cc3f8573bf9a82e8f348741f2f68d2a8376fb arm64: dts: allwinner: h6: orangepi-one-plus: Fix ethernet
 ad2091f893bd5dfe2824f0d6819600d120698e9f ARM: sunxi: Add machine match for the Allwinner V3 SoC
@@ -301,5 +301,7 @@ ec6f5e0e5ca0764b4bc522c9f9d5abf876a0e3e3 Merge tag 'x86-urgent-2020-12-13' of gi
 7df2791771260ce8a5e96b0a4b9a815107e4c762 net/mlx5: Check if lag is supported before creating one
 5135c506737d71c428a9a89a6294d4ae01b9dec4 net/mlx5e: Add missing capability check for uplink follow
 8ee6047613cca15b2bf3bcfcc906615108395999 net/mlx5: Use port_num 1 instead of 0 when delete a RoCE address
+c0a81f524587a4e19f37f81486e5883c550c4103 Merge branch 'net-mlx4' into net-rc
+54633f691e94279723ff7c34793d187e67fa1cb6 Merge branch 'net-mlx5' into net-rc
 
---===============4888952444767879057==--
+--===============6457230220696742736==--
