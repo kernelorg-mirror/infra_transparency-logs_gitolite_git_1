@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3185989312284902322=="
+Content-Type: multipart/mixed; boundary="===============3774336287546279345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 17 Dec 2020 07:26:56 -0000
-Message-Id: <160819001641.23286.16076547887003702986@gitolite.kernel.org>
+Date: Thu, 17 Dec 2020 07:35:11 -0000
+Message-Id: <160819051176.14090.637483110748082562@gitolite.kernel.org>
 
---===============3185989312284902322==
+--===============3774336287546279345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 5e60366d56c630e32befce7ef05c569e04391ca3
-    new: accefff5b547a9a1d959c7e76ad539bf2480e78b
-    log: revlist-5e60366d56c6-accefff5b547.txt
+  - ref: refs/heads/readfile
+    old: 0e0c35064293b6f548849ba22fc24793994260d6
+    new: b27a2f4feaab44f9c61dbf52c55924950cc6fe3d
+    log: revlist-0e0c35064293-b27a2f4feaab.txt
 
---===============3185989312284902322==
+--===============3774336287546279345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608190091 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608190585 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1608190007-2750011be584e941a6f5eb3762e2a5efc03d262a
+nonce 1608190502-6a64d989553644803684904fc70990d3c4d64294
 
-5e60366d56c630e32befce7ef05c569e04391ca3 accefff5b547a9a1d959c7e76ad539bf2480e78b refs/heads/driver-core-testing
+0e0c35064293b6f548849ba22fc24793994260d6 b27a2f4feaab44f9c61dbf52c55924950cc6fe3d refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/bCIsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J0YQAIsqsUfr+JjQm0qv+n8s
-dnShFnKVH8rEkyP4hssBQbnFawft5Fsy6PN1P1RBDbHuVt9duRFUbmVuP3G3Ietb
-ajpVZYBm+yKtGapfSWSGNCTPu+hwjWnn4+Gk0E+NFpw2ZsC9mMOj8CzQxs6eI/jn
-tr61fQnaTgdTZ6PgnChJ2zzydzyWI9CXeBLUQpHANNLbkFCNHRUesYLM8TwC41vc
-KzaUGMD5UN+XLcbD0CoKt0cwHEWmwKJeOcm2mXUWRlc7ws9mN0AIiEOqmVK93bCI
-AnIvWHo7tm6EIumFGqx0eXClwqvSJFLxnrybylRzgQA6MaKk305AuOyBoy5Gks5F
-oXvocdqdnygxy5g0q8/srsLp1QbU94cmYkjTXV7KSwdB4pvkac+7ojwAP6YSoPyF
-z9r8mHnB6ijz+UfHn7BVFbT8//OqBes4ZSLtZdSUNSGHBP1DcTFSs47gZsQid25e
-a4pMXhIpnAqPqAVlWFCdqVRDzeLA29beJA3AlroZ8IO1caTsOlO70cm1MIbaRVAW
-mhD9rK1j0+M8Npo7EGKv0YThgGNizGtUfi+S1Iqn88l21Ck5sVAJsjhjSpcXW04J
-L68E6uWUGdOBvA5x2+BjC87hf8N7Suynh0dzx/P8AymQB1yL7OkIkGFOlqm93PI5
-b70lin2/ZtG9fWJJK+hv/2aM
-=p7kk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/bCnobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jSkQAICc76GEKwQ/0bWmmg+j
+6ViiVcKqCJCrvmoAvxHcKigzOkLSF2sfYvv5SAHRAdgwt3jUfDTVShV5xe+VCSJF
+c/gr7wLzecVQ76n+RBHS+QdBZkh8J6yjg4INb9RsjtuRrIPSMIS74ORmApBS39ny
+5b/UsrapGT1O+/5cONW4yGW3jXhlFVwxUvpw4ivr7nTGPxxyZZCuVhbGLP/RNqYp
+KJcEQS62Hdpb7+BDgRyMWSn6hbD12ZDR5Lrn16fYhWayZHElu7ZPhZYqIKAFrMwn
+tNuDX75t1A/ae9t/P00Wb7M9D9zWo/l6/IBu/T6fWNsoHbSVPydvqX52caRpg6g6
+alX6syBxdkQyKDu4pAbLs/+IjA5Dl4BeUiglbEIx7FU/wNzRqeuODDjNSpQQv+F5
+kpAylvAHNpTwIBV+BXF1lbzTgqUl3/PZIp8OZrBCKzsScS6hTB/PfMX2Cgcmo99h
+hdBsENF4cQKXrtM9JOalfgunBmprOGzEFVP9FyeUymp2gL6mpYpL+L1m9+pS1KNQ
+uSV17wfw3LOklpJ8VtZmkcJeHgZH45UOCCiiMAyzdAxnOWGdU3sHEvTQ0BS8pUhG
+r8mGn6xOkvQEfQH+sOqbwoLWH4L0hUlBQhH8zJUo2QeNWC7BB7va3EEumBKQKxKc
+N/ler1eRJemznv3nkf/TgveY
+=AGnF
 -----END PGP SIGNATURE-----
 
---===============3185989312284902322==
+--===============3774336287546279345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e60366d56c6-accefff5b547.txt
+Content-Disposition: attachment; filename=revlist-0e0c35064293-b27a2f4feaab.txt
 
-d53ae6bbeb71e1d3c1b85e8befce6379642ed2d9 scsi: 3w-9xxx: Use generic power management
-7ea03ab79e00fccd2a12c1526fb3c7703c8a7baa scsi: 3w-sas: Drop PCI Wakeup calls from .resume
-99769d8d9109878d3f3e805dd21dfbb44aad035c scsi: 3w-sas: Use generic power management
-bd7463cdbe1af0e6d120defcbe9cf0e6eb0729c7 scsi: mvumi: Drop PCI Wakeup calls from .resume
 0572edbc32c56ca8863e5849051f9dfd06fd38b9 scsi: mvumi: Use generic power management
 53fdec73c14fdf8653f90078495ac13f7c171aa3 scsi: mvumi: Update function description
 0aea8a8f3a77d870a1e3312f561efbcf4907bcd5 scsi: pmcraid: Drop PCI Wakeup calls from .resume
@@ -1081,5 +1077,9 @@ b0a6cd29e00a317d7fd823e0db57abbbd9bbb610 Merge tag 'arm-soc-defconfig-5.11' of g
 9805529ec544ea7a82d891d5239a8ebd3dbb2a3e Merge tag 'arm-soc-dt-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 48c1c40ab40cb087b992e7b77518c3a2926743cc Merge tag 'arm-soc-drivers-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 accefff5b547a9a1d959c7e76ad539bf2480e78b Merge tag 'arm-soc-omap-genpd-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+aba8b97023a4cd41f37d23792aa324f7011a0aae readfile: implement readfile syscall
+f530e3ecb53ac7d299110a811964b31cc656ae54 arch: wire up the readfile syscall
+db028cb61c576afcb7e2b9db306f468f1a582806 selftests: add readfile(2) selftests
+b27a2f4feaab44f9c61dbf52c55924950cc6fe3d readfile.2: new page describing readfile(2)
 
---===============3185989312284902322==--
+--===============3774336287546279345==--
