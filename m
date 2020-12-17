@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 17 Dec 2020 12:18:58 -0000
-Message-Id: <160820753837.19235.7962026410066778864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Thu, 17 Dec 2020 12:23:59 -0000
+Message-Id: <160820783947.24378.607511293324774526@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/hack/early-stub-WIP
-    old: bbb3cadb4bdb04d7677419f3ed8fb2a657065a3b
-    new: 18dc8993b02f7e49207e8d3b26b7ff45d6af7c3b
+  - ref: refs/heads/master
+    old: af2562656b1702185ce54d39e204ba2431ebeec5
+    new: b4feb36985d76ef7f4c74a7c51f4843c71c728e8
     log: |
-         18dc8993b02f7e49207e8d3b26b7ff45d6af7c3b WIP
+         b4feb36985d76ef7f4c74a7c51f4843c71c728e8 kexec-tools 2.0.21.git
          
