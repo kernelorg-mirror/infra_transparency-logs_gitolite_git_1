@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
-Date: Thu, 17 Dec 2020 10:10:36 -0000
-Message-Id: <160819983608.28282.5096676897571380151@gitolite.kernel.org>
+Date: Thu, 17 Dec 2020 10:11:35 -0000
+Message-Id: <160819989541.28647.4343117747594635740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,48 +11,39 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tomba/linux
 user: tomba
 changes:
-  - ref: refs/heads/4.13/omapdrm
-    old: 12b0d2fec5614c87ca321ff74d3594b3dec7e151
+  - ref: refs/heads/vip-lmm-052220
+    old: 45a3e0eb3c0c87d0fc5c7e511bce4ef54ab3fb2d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/4.14/omapdrm-cec
-    old: bf51300abae962956c57f056223b9454bcf90a4c
+  - ref: refs/heads/work/am4x-fck
+    old: cfa5503a334a742ef262e274a3526bb8e1fc4d23
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/4.17/omapdrm-dss6-test
-    old: fc3252aa75772e14867581a7f47005f91e95ebde
+  - ref: refs/heads/work/dsi
+    old: ef7aad68f72cf1a2c95bcbeffa4af5bd55ea457a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/4.20/omap5-video-dsi-test
-    old: 69a0d6d164d487bdb0ffe41d90b6734a2976cac3
+  - ref: refs/heads/work/dss-dt-omap5
+    old: f8409e376d612fa600c0d643c8024eaa02f65f91
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/5.10/cdns-dp
-    old: 67ac20c795857d5fcefaef62f1423e34893b4c9c
+  - ref: refs/heads/work/dss-dt-omap5-plus
+    old: 589d3f2e69147fd6c7d9c1a6679c14327895d766
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/5.11/dsi
-    old: f33197cf4460b05fd106c39007e8f9b0e49dba7e
+  - ref: refs/heads/work/dss-dt-pyra
+    old: 8103b2212417a8e12189ca521013c8fd130db65d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dp-wip
-    old: 57cafc175868b89a20d859cdcd840e1d0eca3568
+  - ref: refs/heads/work/dss-pm-fix
+    old: 0b174834267efeb1c8c9fae0886ad68d23a5d319
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dp-wip-20190620
-    old: fcbdd2d574ddac01feeac466be00b53ecbed5c4e
+  - ref: refs/heads/work/dss-pm-fix-min
+    old: 7ba5e5f320b544d737a97d1fc00bdb261b3819c8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dp-wip-new
-    old: e8b20bb6584740ed810a1f1fb35893365fd8db55
+  - ref: refs/heads/work/n800-39
+    old: 67daacbda13f63db84904313f4f9104381a666e8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dra7-dss-arch
-    old: c006b7dc77823e70475351c2edf8c7da6283ea28
+  - ref: refs/heads/work/omap5-plus
+    old: 1e6c513e9f6ec7592b3ebf9a8db452bace176263
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/foo
-    old: 330afe6f8afa9edf60a44bccd5952d27a3030188
+  - ref: refs/heads/work/pinmux
+    old: 6451de7a04d9d2e576f274bf6f213f8696ff2aab
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-jyri
-    old: ab30f138f4f00880a527faee1c7c8d1644a7ff1a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omapdrm-next
-    old: 037f03155b7d87e85168b4296516bfda5c9f6380
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/proto/tc358766xbg
-    old: 4d1ac512e28e637ec9576d733dcb511fc9e6cfe8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/test
-    old: bacfb3a04158f603acfdb4bf01a56e19b47d6bb3
+  - ref: refs/heads/work/sii9022
+    old: 45ac132c2bf771bb24384458358eabc90e455511
     new: 0000000000000000000000000000000000000000
