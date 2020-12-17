@@ -1,61 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 17 Dec 2020 05:57:16 -0000
-Message-Id: <160818463638.31289.6217886477330070365@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5836674119524990513=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Thu, 17 Dec 2020 06:26:44 -0000
+Message-Id: <160818640444.17005.13186033584981401427@gitolite.kernel.org>
+
+--===============5836674119524990513==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/tags/f2fs-for-5.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 967cd198df16f81eb43fd42bab40116d21f2b58a
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 4d63833ae9c64657b17374c2aa0bb0fd3863fa58
-  - ref: refs/tags/mkp-scsi-postmerge
-    old: 0000000000000000000000000000000000000000
-    new: eed8767e7e8b4dbe5e258a86488af334ff887d7a
-  - ref: refs/tags/mkp-scsi-queue
-    old: 0000000000000000000000000000000000000000
-    new: bf30cdaa9ffd66f90095ee226803cf5c4ca65f4c
-  - ref: refs/tags/mkp-scsi-staging
-    old: 0000000000000000000000000000000000000000
-    new: 85e83cf098c72631792980ad0dc359ca4e825f03
-  - ref: refs/tags/v5.10
-    old: 0000000000000000000000000000000000000000
-    new: 3f995f8e0b540342612d3f6b1fc299f5bf486987
-  - ref: refs/tags/v5.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 8ccd3b86485397172cf41d07ede9c26fc8bf9d88
-  - ref: refs/tags/v5.10-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 27598e7e73260ed0b2917eb02d4a515ebb578313
-  - ref: refs/tags/v5.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 4d3d761b5b27bb33a731e8df51b7fb6a6c565804
-  - ref: refs/tags/v5.10-rc4
-    old: 0000000000000000000000000000000000000000
-    new: a93711503472d4c89977ce2c80dcd4b75e36cc45
-  - ref: refs/tags/v5.10-rc5
-    old: 0000000000000000000000000000000000000000
-    new: af69a948d2ce48f8bfe9935958d12f86fb50326b
-  - ref: refs/tags/v5.10-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 2884f0b6b25db35053dd51e8e1839696746d8321
-  - ref: refs/tags/v5.10-rc7
-    old: 0000000000000000000000000000000000000000
-    new: dd0039844c8b2b960d0e0175923da0135f87c392
-  - ref: refs/tags/v5.9
-    old: 0000000000000000000000000000000000000000
-    new: 0ed79c602730cb0e73f78dcd503aca452f0d414b
-  - ref: refs/tags/v5.9-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 050e12cdf1da07b944898cf2e27472c3e8d1d185
-  - ref: refs/tags/v5.9-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 11c2a51a0844833eee4356f86cf4555eafaf010b
+  - ref: refs/heads/main
+    old: cbca977ea121d7483b0c2351b17dca08a21cb1ca
+    new: 7cd5d5fe43d56e3017397fa3a086096e11920c3e
+    log: revlist-cbca977ea121-7cd5d5fe43d5.txt
+
+--===============5836674119524990513==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cbca977ea121-7cd5d5fe43d5.txt
+
+b30013edb878a0e4fbe7235f38d8fd6e644479e5 libfdt: Fix kernel-doc comments
+04cf1fdc0fcf471c2e77376101bda65f727b3812 convert-dtsv0: Fix signedness comparisons warning
+e1147b159e9209e1c3102f350445ba9927048b4d dtc: Fix signedness comparisons warnings: change types
+3bc3a6b9fe0cba171bef7d1cc2b04a362228dd1c dtc: Fix signedness comparisons warnings: Wrap (-1)
+05874d08212d23dafd753ab52a5762c9b69b25de pylibfdt: allow build out of tree
+67849a327927e1028010e973b36f7b1280ce8184 build-sys: add meson build
+5e735860c4786418c12751de639b519891a61192 libfdt: Check for 8-byte address alignment in fdt_ro_probe_()
+30a56bce4f0bdf59ca52af244d4da5250924bfdd meson: fix -Wall warning
+f8b46098824d846675103d9b1ce0a3f7b4548623 meson: do not assume python is installed, skip tests
+bab85e48a6f4c32a9e8ab201cdaf4a0568c74da7 meson: increase default timeout for tests
+a7c40409934971ac1bd934ccc411bc6932b86564 libfdt: Internally perform potentially unaligned loads
+7cd5d5fe43d56e3017397fa3a086096e11920c3e libfdt: Tweak description of assume-aligned load helpers
+
+--===============5836674119524990513==--
