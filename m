@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Thu, 17 Dec 2020 14:31:42 -0000
-Message-Id: <160821550298.10779.18092767859448609544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 17 Dec 2020 14:55:25 -0000
+Message-Id: <160821692581.26152.15035475608104989516@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/thermal/linux-next
-    old: 4401117bf7fc11dc738c0963fa0c94814abc8dcd
-    new: 67698880ac9d56367ebf22f8336ccab6234f9feb
+  - ref: refs/heads/experimental
+    old: ea0af5a0dad71b5080516b08cfeccc9a2abe6050
+    new: 51e6ca94fe02d1ee10b822ca28833289b637bfd1
     log: |
-         67698880ac9d56367ebf22f8336ccab6234f9feb thermal: int340x: Support Alder Lake
+         51e6ca94fe02d1ee10b822ca28833289b637bfd1 erofs-utils: fuse: disable backtrace if unsupported
          
