@@ -1,32 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============0992163647816126202=="
+Content-Type: multipart/mixed; boundary="===============2083960222416906725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 17 Dec 2020 11:44:58 -0000
-Message-Id: <160820549828.27282.5338767240311340964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 17 Dec 2020 11:47:40 -0000
+Message-Id: <160820566086.29846.4749988636346878656@gitolite.kernel.org>
 
---===============0992163647816126202==
+--===============2083960222416906725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: dda7087d9405d3843aac25f193bb9d7ff43dbf33
-    new: a0d428da5301b49dd18344f400eab7444007093c
-    log: revlist-dda7087d9405-a0d428da5301.txt
+  - ref: refs/heads/queue-next
+    old: a71195f533c3bd2b00d12125508ed93d9ad57d25
+    new: a73705ad5c683c06f714f2ba652b9ee8cb4abd7e
+    log: revlist-a71195f533c3-a73705ad5c68.txt
 
---===============0992163647816126202==
+--===============2083960222416906725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dda7087d9405-a0d428da5301.txt
+Content-Disposition: attachment; filename=revlist-a71195f533c3-a73705ad5c68.txt
 
 5ad388b58e7504496a7e6fb5d65d990a49fe916e Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
+a1e0719ff64c063dc869f26a337c57518303cd3f net/mlx5e: Increase indirection RQ table size to 256
+51f96c6ff44b5028ea5a2823238dbe8c7d42c447 net: flow_dissector: Parse PTP L2 packet header
+7a8012bb878b9c4994b8161422e8cf31b5b61333 net: vlan: Add parse protocol header ops
 8c35c13e9cbbe028fb7df9cd3edd87c0e99727f6 net/mlx5: Fix compilation warning for 32-bit platform
 bf8484b866551683439e70ea0290c065e7a235f6 devlink: Prepare code to fill multiple port function attributes
 6a9c1502e950439953462bd2f17c350480b9c528 devlink: Introduce PCI SF port flavour and port attribute
@@ -109,5 +112,7 @@ c922cddda666a55e16b07b4e547a045b0ea346e9 Merge branch 'mlx5-vdpa' into net-next
 788aa4cb33c3f1375d39ab35a7d2f5b4c0c44bae Merge branch 'net-mlx4' into net-next
 87fdb53ac9a12d3ce75bdb6ee1abd16c28446e88 Merge branch 'net-mlx5' into net-next
 a0d428da5301b49dd18344f400eab7444007093c Merge branch 'net-next-test' into net-next
+5b005b1cb3d15a626c9916f174bff024072038e8 Merge branch 'net-next' into queue-next
+a73705ad5c683c06f714f2ba652b9ee8cb4abd7e Merge branch 'testing/rdma-next' into queue-next
 
---===============0992163647816126202==--
+--===============2083960222416906725==--
