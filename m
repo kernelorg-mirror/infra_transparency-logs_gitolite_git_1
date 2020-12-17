@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1327798241056110267=="
+Content-Type: multipart/mixed; boundary="===============3014811618355662464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 17 Dec 2020 22:48:46 -0000
-Message-Id: <160824532697.3553.1660320673038709000@gitolite.kernel.org>
+Date: Thu, 17 Dec 2020 22:48:54 -0000
+Message-Id: <160824533472.3642.252434229772769922@gitolite.kernel.org>
 
---===============1327798241056110267==
+--===============3014811618355662464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 8a6326ee5e9c5f5a07e9f8273f7de17928803122
-    new: efb97448db0214e087358988a953fe3bdc065e58
-    log: revlist-8a6326ee5e9c-efb97448db02.txt
+  - ref: refs/heads/net-next
+    old: e475c684182bd0c4d19e03961eb8916e5c2239cf
+    new: 9d5b975eb6f077b39359c78140bd8ff094d97861
+    log: revlist-e475c684182b-9d5b975eb6f0.txt
 
---===============1327798241056110267==
+--===============3014811618355662464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a6326ee5e9c-efb97448db02.txt
+Content-Disposition: attachment; filename=revlist-e475c684182b-9d5b975eb6f0.txt
 
+7df2791771260ce8a5e96b0a4b9a815107e4c762 net/mlx5: Check if lag is supported before creating one
+5135c506737d71c428a9a89a6294d4ae01b9dec4 net/mlx5e: Add missing capability check for uplink follow
 54218c4f386fccc2b33229ece00f4bc149b6e454 net/mlx5: Fix compilation warning for 32-bit platform
 6b9d34963d3599798ca3eb9b1c9ec3099c2209a2 devlink: Prepare code to fill multiple port function attributes
 13cb315bb3becf7780fb6313744bc3d2356f5b60 devlink: Introduce PCI SF port flavour and port attribute
@@ -64,6 +66,7 @@ dd5c011cfdcc63405a76be57e651d88eb593a56a net/mlx5e: CT: Support offload of +trk+
 3f6d8185b343a09376d31f3ebbd78fed99e56021 net/mlx5e: CT, Avoid false lock depenency warning
 b1d8fa5f5e9c91f29f5006d53a4f34e4521f0c3b net/mlx5: DR, Add infrastructure for supporting several steering formats
 12b2410b2e08753187b5f34c5ac6f676bbdacd5f net/mlx5: DR, Move macros from dr_ste.c to header
+8ee6047613cca15b2bf3bcfcc906615108395999 net/mlx5: Use port_num 1 instead of 0 when delete a RoCE address
 b93cac4bcc43549749f80c82e9c7c6258d789ca0 net/mlx5: DR, Use the new HW specific STE infrastructure
 464c00c967be05f04078c5d7e04cbef9bbc5f981 net/mlx5: DR, Move HW STEv0 match logic to a separate file
 eb7071242a8537cbf6fc0cc19de89ef984b11003 net/mlx5: DR, Remove unused macro definition from dr_ste
@@ -102,5 +105,14 @@ c5146afac9fad0cac60907b50dd2c432a5a5e5b8 net/mlx5_core: remove unused including 
 01a83f4cb5e2b85b50d8db56825e82cc91f35286 net/mlx5e: Enable napi in channel's activation stage
 a288e55bcb210a5e7c22fc9b7f6385ae0c7ebb1a net/mlx5e: Increase indirection RQ table size to 256
 efb97448db0214e087358988a953fe3bdc065e58 net/mlx5: Check switchdev mode when check if multi-port or ib is supported
+3003ef0ae7a765006f799fe574b76b0b4be4f0c6 Merge commit 'refs/changes/97/359197/7' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+ed76a1d568d038147c5590f4ee05f30ae078e5cd Merge commit 'refs/changes/88/360288/5' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+e9c8775fbdd0cff59259e60394a1475431a76fb4 net/mlx5e: rep: Improve reg_cX conditions
+8d86e1eac7825a676ce37792c429332c69e16be5 Merge branch 'net-next-mlx4' into net-next
+3f5333e5fa02fdee414bb54bae367f22560d70fe Merge branch 'mlx5-vdpa' into net-next
+b997e6c51d8e6a59c2d9fd61425aa13fc6f37133 Merge branch 'net-next-mlx5' into net-next
+ea39b5fceba98d762106b11e6a08844c1b7c5d7e Merge branch 'net-mlx4' into net-next
+9dd6dc50d0de1ebf38404ab47a7a7c9c6e84f163 Merge branch 'net-mlx5' into net-next
+9d5b975eb6f077b39359c78140bd8ff094d97861 Merge branch 'net-next-test' into net-next
 
---===============1327798241056110267==--
+--===============3014811618355662464==--
