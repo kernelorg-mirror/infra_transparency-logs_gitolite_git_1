@@ -1,37 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 18 Dec 2020 18:28:27 -0000
-Message-Id: <160831610768.23696.16945229117249740758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Fri, 18 Dec 2020 18:30:19 -0000
+Message-Id: <160831621992.25712.9711245878376539863@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/libs/libtrace/libtracefs
+user: rostedt
 changes:
-  - ref: refs/heads/for-linus
-    old: a3478b9d421c969ebca83a0e639c5f3bb8fc13d7
-    new: d85108d878c9e4959f50003c9478e5f7bbbaffc1
+  - ref: refs/heads/libtracefs
+    old: 08dd0fc92c5e999c6576ddc00a30f64dc45365b8
+    new: 69176de2396170dc97f23beba0fd216c0b53c9bf
     log: |
-         127a7a95df41731632c7348960908751f7f9d049 Merge remote-tracking branch 'spi/for-5.10' into spi-5.11
-         4aa1464acbe3697710279a4bd65cb4801ed30425 spi: spi-geni-qcom: Fix geni_spi_isr() NULL dereference in timeout case
-         690d8b917bbe64772cb0b652311bcd50908aea6b spi: spi-geni-qcom: Fail new xfers if xfer/cancel/abort pending
-         3d7d916f9bc98ce88272b3e4405c7c685afbfcd6 spi: spi-geni-qcom: Don't try to set CS if an xfer is pending
-         17fa81aa702ec118f2b835715897041675b06336 spi: spi-geni-qcom: Print an error when we timeout setting the CS
-         29da8ed326bad2e13e6931775ff4678ec1eadfb6 Merge remote-tracking branch 'spi/for-5.10' into spi-linus
-         d85108d878c9e4959f50003c9478e5f7bbbaffc1 Merge remote-tracking branch 'spi/for-5.11' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: a3478b9d421c969ebca83a0e639c5f3bb8fc13d7
-    new: d85108d878c9e4959f50003c9478e5f7bbbaffc1
-    log: |
-         127a7a95df41731632c7348960908751f7f9d049 Merge remote-tracking branch 'spi/for-5.10' into spi-5.11
-         4aa1464acbe3697710279a4bd65cb4801ed30425 spi: spi-geni-qcom: Fix geni_spi_isr() NULL dereference in timeout case
-         690d8b917bbe64772cb0b652311bcd50908aea6b spi: spi-geni-qcom: Fail new xfers if xfer/cancel/abort pending
-         3d7d916f9bc98ce88272b3e4405c7c685afbfcd6 spi: spi-geni-qcom: Don't try to set CS if an xfer is pending
-         17fa81aa702ec118f2b835715897041675b06336 spi: spi-geni-qcom: Print an error when we timeout setting the CS
-         29da8ed326bad2e13e6931775ff4678ec1eadfb6 Merge remote-tracking branch 'spi/for-5.10' into spi-linus
-         d85108d878c9e4959f50003c9478e5f7bbbaffc1 Merge remote-tracking branch 'spi/for-5.11' into spi-linus
+         7fd6eb8a7a495254a98c449effd92f11bf563bba libtracefs: Clean up tracefs.h
+         8acb8fa7cf391b2b069cda320592f54547def30b libtracefs: Use $(objtree) instead of $(OUTPUT) for ld.so test
+         b18f1690534662dc7d3cd5474c854fccc028724a libtracefs: Do not hardcode location of libtraceevent
+         e217fbdd9838c31439941a5740905ea40ccd23a1 libtracefs: Use $(obj) instead of $(OUTPUT) for libtracefs.pc file
+         a8f0b0456f52ff3682a8c04dadfac4dd9bdb77d0 libtracefs: Allow the pkg-config libs and cflags prefix to be overwritten
+         889e172590142978add651fd9305488c77ad94cc libtracefs: Remove unneccessary TRACE_LIBS variable
+         8815aeff13ad85d6fc7842db25f7082cf69e63fe libtracefs: Have only one definition of overriding CFLAGS
+         acea1910939f3ae63e0b298cad87b62bac42c4f7 libtracefs: Add -rpath to libtracefs.so
+         353c8c91cc086a99342b7e62712aa88a7b6c3b98 libtracefs: Remove Makefile targets that reference "gui"
+         69176de2396170dc97f23beba0fd216c0b53c9bf libtracefs: Do not fail make on clean target
          
