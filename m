@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0517675561310323686=="
+Content-Type: multipart/mixed; boundary="===============2152882975870376538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 18 Dec 2020 22:22:25 -0000
-Message-Id: <160833014547.12253.11128145116919259108@gitolite.kernel.org>
+Date: Fri, 18 Dec 2020 22:22:35 -0000
+Message-Id: <160833015543.12534.9675903747434713558@gitolite.kernel.org>
 
---===============0517675561310323686==
+--===============2152882975870376538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: c44c6a472f927d7d82decc48b50d40dae26988db
-    new: 79f21386a5afb8f3a6330e6fd8e8ca8d759f01fc
+  - ref: refs/heads/stable-0.6.y
+    old: 95bd0c91c2a84b25a3f809500a1351a93ee97e4f
+    new: 27f1ca8ce3e64c434503f15b93d56f6d2fc87495
     log: |
-         79f21386a5afb8f3a6330e6fd8e8ca8d759f01fc Notes added by 'git notes add'
+         27f1ca8ce3e64c434503f15b93d56f6d2fc87495 Prepare 0.6.2 release
          
 
---===============0517675561310323686==
+--===============2152882975870376538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1608330145 -0500
+pusher B6C41CE35664996C! 1608330155 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1608330145-532ceff889d930b17f812ce507266b571db396b7
+nonce 1608330155-06a3a4fd0416d57af5c0e0ae527bac54592142bf
 
-c44c6a472f927d7d82decc48b50d40dae26988db 79f21386a5afb8f3a6330e6fd8e8ca8d759f01fc refs/notes/signatures/tar
+95bd0c91c2a84b25a3f809500a1351a93ee97e4f 27f1ca8ce3e64c434503f15b93d56f6d2fc87495 refs/heads/stable-0.6.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX90roQAKCRC2xBzjVmSZ
-bGtLAP9z2o937Mbm4w4uK+DR6msBkbx2zlgJDMHHYyH0QzdMwAD/WG0hAQDqWgba
-mwlt22o1176eG7YpaTweMwgvA3bk4AQ=
-=ZA0r
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX90rqwAKCRC2xBzjVmSZ
+bOCPAQD/PJ+NXlwgfNfGrdKCtKnPMxxMa8LO/Iq5Da6Hg7ymDwEAyLpcSPtOihwm
++gQpwk3ipyoc+nLotDuxD3dQ6ZjhwQw=
+=5lgf
 -----END PGP SIGNATURE-----
 
---===============0517675561310323686==--
+--===============2152882975870376538==--
