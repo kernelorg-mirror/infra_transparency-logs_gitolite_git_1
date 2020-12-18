@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Fri, 18 Dec 2020 18:37:11 -0000
-Message-Id: <160831663198.28965.9360771044026359841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Fri, 18 Dec 2020 18:37:23 -0000
+Message-Id: <160831664301.29113.4108001745487421788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
   - ref: refs/heads/master
-    old: fafd320ae51b9c72d371585b2501f86640ea7b7d
-    new: f5cace4b93d736cef348211ae0814cabdd26d86a
+    old: ac00e3438068c0e350c284b8bba85735f808e542
+    new: b00b5d072d89a767110a53201c73c214a4ecf328
     log: |
-         6d2ad82fece2f5adcafe77252614fcf7211dec28 Input: da7280 - protect OF match table with CONFIG_OF
-         f5cace4b93d736cef348211ae0814cabdd26d86a Input: imx_keypad - add dependency on HAS_IOMEM
-         
-  - ref: refs/heads/next
-    old: fafd320ae51b9c72d371585b2501f86640ea7b7d
-    new: f5cace4b93d736cef348211ae0814cabdd26d86a
-    log: |
-         6d2ad82fece2f5adcafe77252614fcf7211dec28 Input: da7280 - protect OF match table with CONFIG_OF
-         f5cace4b93d736cef348211ae0814cabdd26d86a Input: imx_keypad - add dependency on HAS_IOMEM
+         743284664288967c9457f61e990c54db616e2c2a libtracecmd: Add -rpath to libtracecmd.so
+         9db370444890e23feb71d4f3f44b696f89877561 trace-cmd: Add -rpath=$(libdir) for trace-cmd to find libtracecmd.so
+         2f55ded528cfd8ef468bdd1f8bb82dcf1cfae04a trace-cmd: Move add_event_pid() out of #ifndef NO_PTRACE
+         91d013baef5fa334ff385ffd084a81a0525c5c00 trace-cmd: Add #include <fcntl.h> to trace-cmd-private.h
+         5bbb96b106d1ff361758bf62fcd64978ecb6bc37 trace-cmd: Add a make-trace-cmd.sh script to simplify creating a trace-cmd package
+         dc15d9e8cd8c82c94830edd339582c7792311763 trace-cmd: Do not have local builds of libtraceevent or libtracefs use system headers
+         ea7ac07b12b6b5764c8c914199255f4d4d510f87 kernelshark: Build libtraceevent and libtracefs locally
+         b00b5d072d89a767110a53201c73c214a4ecf328 trace-cmd: Re-enable the build of KernelShark v1
          
