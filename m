@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 18 Dec 2020 18:38:25 -0000
-Message-Id: <160831670542.29602.17173051267033711365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
+Date: Fri, 18 Dec 2020 18:40:19 -0000
+Message-Id: <160831681976.31571.12027140848330455537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/libs/libtrace/libtraceevent
+user: rostedt
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: 2f5fbc4305d07725bfebaedb09e57271315691ef
-    new: d7f39c40ebb6986e7371510d1c20a4efee4a7f0d
+  - ref: refs/heads/libtraceevent
+    old: 8622bb7d3df371155372f97c7f14db1571da8ff1
+    new: ebc1e3e4aaec5df614e1a43cc4ccaf01711060a2
     log: |
-         06fde695ee76429634c1e8c8c1154035aa61191e genirq/msi: Initialize msi_alloc_info before calling msi_domain_prepare_irqs()
-         e90f55e0196a66f8e9e445f7f33f876dd889be9a irqchip/irq-sl28cpld: Convert comma to semicolon
-         d7f39c40ebb6986e7371510d1c20a4efee4a7f0d irqchip/bcm2836: Fix IPI acknowledgement after conversion to handle_percpu_devid_irq
+         ebc1e3e4aaec5df614e1a43cc4ccaf01711060a2 libtraceevent: Update the RESOURCES section of the man pages
          
