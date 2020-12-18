@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 18 Dec 2020 20:47:32 -0000
-Message-Id: <160832445245.15855.13516969572399571017@gitolite.kernel.org>
+Date: Fri, 18 Dec 2020 20:49:18 -0000
+Message-Id: <160832455833.16421.2402207653878369810@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
   - ref: refs/heads/wip-blake2
-    old: 1e75809c96d169f43c256568af99207da803d9f0
-    new: bada5f6f4b4ba40c312963963b5322cfa58f63a6
+    old: bada5f6f4b4ba40c312963963b5322cfa58f63a6
+    new: 9bfd9eeaa9c95a9a5b3e9eafb7e9b2e8b3aabaf0
     log: |
-         bada5f6f4b4ba40c312963963b5322cfa58f63a6 [FOLD ME] updates
+         9bfd9eeaa9c95a9a5b3e9eafb7e9b2e8b3aabaf0 [FOLD ME] updates
          
