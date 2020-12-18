@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 18 Dec 2020 21:22:45 -0000
-Message-Id: <160832656517.7817.10034214093660390317@gitolite.kernel.org>
+Date: Fri, 18 Dec 2020 21:24:34 -0000
+Message-Id: <160832667435.8865.10887260120769422574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 3db1a3fa98808aa90f95ec3e0fa2fc7abf28f5c9
-    new: 517b693351a2d04f3af1fc0e506ac7e1346094de
+    old: 517b693351a2d04f3af1fc0e506ac7e1346094de
+    new: c0187b0bd3e94c48050687d87b2c3c9fbae98ae9
     log: |
-         9a39a927be01d89e53f04304ab99a8761e08910d Bluetooth: btqcomsmd: Fix a resource leak in error handling paths in the probe function
-         517b693351a2d04f3af1fc0e506ac7e1346094de Bluetooth: btusb: Always fallback to alt 1 for WBS
+         c0187b0bd3e94c48050687d87b2c3c9fbae98ae9 Bluetooth: btqca: Add support to read FW build version for WCN3991 BTSoC
          
