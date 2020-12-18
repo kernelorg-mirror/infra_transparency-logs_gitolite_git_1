@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wfg/vm-scalability
-Date: Fri, 18 Dec 2020 13:19:16 -0000
-Message-Id: <160829755673.17540.7123218111106558530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Fri, 18 Dec 2020 13:33:30 -0000
+Message-Id: <160829841001.27874.18339411035955406225@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wfg/vm-scalability
-user: wfg
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 2ad0bfa97c0396fa53933dfbf734a350d1e4347f
-    new: 8c931f0fe125d5d71f92cc38d764ba37044da857
+  - ref: refs/heads/vfs
+    old: bb9ad782403ffe91824d8150139a3245244e8167
+    new: f56511a4f2694b4bd553a464414052e3599ff229
     log: |
-         98e1853270ec204e21cf64c61af16866d9a67fd4 usemem: Add option init-time
-         8c931f0fe125d5d71f92cc38d764ba37044da857 usemem: Add option touch-alloc
+         6e6f7624cd25b3296da69f46af3764c7f304056a tests: use __clone_args in close_range() tests
+         4a8be72b901c3edce6c8c5895e5bbe85e54e837a selftests/core: fix close_range_test build after XFAIL removal
+         ed39562b20ba1a8a7130fd5f991bb74315dcf957 tests: add test for CLOSE_RANGE_UNSHARE | CLOSE_RANGE_CLOEXEC
+         f56511a4f2694b4bd553a464414052e3599ff229 tests: add regression test for CLOSE_RANGE_UNSHARE | CLOSE_RANGE_CLOEXEC
          
