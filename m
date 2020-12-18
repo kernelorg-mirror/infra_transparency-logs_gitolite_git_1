@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 18 Dec 2020 19:04:39 -0000
-Message-Id: <160831827980.14016.4786685021129846591@gitolite.kernel.org>
+Date: Fri, 18 Dec 2020 19:06:10 -0000
+Message-Id: <160831837007.16097.17154942042307685117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: d8c98656d262ba6faac9e2b5ee26535adcf1c7ef
-    new: aaed4a8bf9a77ec68376e8d92fb218d5fdd88b59
+    old: aaed4a8bf9a77ec68376e8d92fb218d5fdd88b59
+    new: 5c3c4af7b4074c548201cde5943b609386d7504b
     log: |
-         0fe0fe022b7f88f581254487b1d1768df1b218bb mediatek: update MT8173 VPU firmware to v1.1.6
-         aaed4a8bf9a77ec68376e8d92fb218d5fdd88b59 Merge branch 'v1.1.6' of https://github.com/irui-wang/linux_fw_vpu_v1.1.6 into main
+         63ab3db8399a504048716eb3feed2867da58876a linux-firmware: add firmware for Lontium LT9611UXC DSI to HDMI bridge
+         5c3c4af7b4074c548201cde5943b609386d7504b Merge branch 'lt9611uxc' of https://github.com/lumag/linux-firmware into main
          
