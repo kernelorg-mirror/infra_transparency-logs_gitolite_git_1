@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Fri, 18 Dec 2020 16:20:17 -0000
-Message-Id: <160830841780.5679.12952089234532237716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs
+Date: Fri, 18 Dec 2020 16:34:21 -0000
+Message-Id: <160830926154.14644.5931600360180526310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/horms/ipvs
+user: horms
 changes:
-  - ref: refs/heads/dev-test
-    old: 5cab2dc2af7b9a5689160a80a2b7b710f770ceb7
-    new: 83ae6bb457920b911cd5669155930271715c0ad1
+  - ref: refs/heads/master
+    old: 3db1a3fa98808aa90f95ec3e0fa2fc7abf28f5c9
+    new: 5c8193f568ae16f3242abad6518dc2ca6c8eef86
     log: |
-         a5bd9571b63c14f17da98719eccdcd32d4d2812e f2fs-tools:sload.f2fs compression support
-         c9beb1e9034c2dba47758ccadad29837c7114d2c f2fs-tools: Make sload.f2fs reproduce hard links
-         e9e480b9611b150dba0ca03bc614f95e10f01d8b mkfs.f2fs.8: fix formatting for -l parameter in man page
-         0bd13582ff8a01e98256e3edba24679e61142f55 mkfs.f2fs.8: Better document the -g argument.
-         206d01d916832f23aa9e4c33204a0dfdd9e2af4b f2fs-tools: Miscellaneous cleanup to README.
-         521437310bed14e538470b5da95380a109b2ce2c fsck.f2fs: fix alignment on multi-partition support
-         8de2b99376f15e6aac42f91ea0bed7937835e763 mkfs.f2fs: adjust zone alignment when using multi-partitions
-         83ae6bb457920b911cd5669155930271715c0ad1 mkfs.f2fs: allocate zones together to avoid random access
+         161b838e25c6f83495e27e3f546b893622d442bf netfilter: nftables: fix incorrect increment of loop counter
+         443d6e86f821a165fae3fc3fc13086d27ac140b1 netfilter: x_tables: Update remaining dereference to RCU
+         2b33d6ffa9e38f344418976b06057e2fc2aa9e2a netfilter: ipset: fixes possible oops in mtype_resize
+         5c8193f568ae16f3242abad6518dc2ca6c8eef86 netfilter: ipset: fix shift-out-of-bounds in htable_bits()
          
