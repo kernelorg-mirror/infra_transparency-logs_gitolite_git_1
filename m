@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 18 Dec 2020 21:25:53 -0000
-Message-Id: <160832675346.10595.4464233261443239065@gitolite.kernel.org>
+Date: Fri, 18 Dec 2020 21:27:44 -0000
+Message-Id: <160832686473.11200.9621112752274279897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: c0187b0bd3e94c48050687d87b2c3c9fbae98ae9
-    new: afe0b1c86458f121b085271e4f3034017a90d4a3
+    old: afe0b1c86458f121b085271e4f3034017a90d4a3
+    new: 295fa2a5647b13681594bb1bcc76c74619035218
     log: |
-         afe0b1c86458f121b085271e4f3034017a90d4a3 Bluetooth: hci_uart: Fix a race for write_work scheduling
+         295fa2a5647b13681594bb1bcc76c74619035218 Bluetooth: Remove hci_req_le_suspend_config
          
