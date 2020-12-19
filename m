@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5634964148139590776=="
+Content-Type: multipart/mixed; boundary="===============7521510435734829053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 19 Dec 2020 12:52:18 -0000
-Message-Id: <160838233871.5350.10034929190371046435@gitolite.kernel.org>
+Date: Sat, 19 Dec 2020 12:52:19 -0000
+Message-Id: <160838233950.5410.14404546211489994198@gitolite.kernel.org>
 
---===============5634964148139590776==
+--===============7521510435734829053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 0a6071f17447a76d85170b1c3a9b7f002080c4e7
-    new: ae09f4a3533e894f20e02f13c49f24a6f79cb053
-    log: revlist-0a6071f17447-ae09f4a3533e.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 841fca5a32cccd7d0123c0271f4350161ada5507
+    new: c96cfd687a3f1d1d461dd4a73eb51410c4fd45d8
+    log: revlist-841fca5a32cc-c96cfd687a3f.txt
 
---===============5634964148139590776==
+--===============7521510435734829053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,54 +30,49 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608382420 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1608382336-bad39a78772deb4b80c067a3fd32482e98d10089
+nonce 1608382338-72fe1000a398434646a78d2b5995aa7302273f3d
 
-0a6071f17447a76d85170b1c3a9b7f002080c4e7 ae09f4a3533e894f20e02f13c49f24a6f79cb053 refs/heads/linux-4.4.y
+841fca5a32cccd7d0123c0271f4350161ada5507 c96cfd687a3f1d1d461dd4a73eb51410c4fd45d8 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/d99QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+85sP/iVcSGAi5CsCjMT7YzVJ
-B4tVK8nTQ32daIeqIkde0/eqAWGSUK9J3jCmaBss8jFhB5JHoIBbTuBB2ZR+Km8e
-N89mSQ97LquCwl1MCzEUE1WDfJKMnuf7aCnM8moTyikZMtY5hguJH9H13xIffn4H
-AHgvZqmGaCAvThyJogFRCA8AUgjXTfQIXpJZu61J4a6aLyoCfEO4p09s2MNxe2V3
-UPEFdM7BK6lVlwGjodP3pYF1W3+/BE1OVKD0hNpboWnvnbwgpZGBYbAz5EIvHiM+
-O+yim3COmZMVYb7jYsz+DmMjMGj4GLJi6nQ7k4CSd7xLmvqHgsuVUHvMLOWNzlzT
-8CIf4wUOrPXg4u1avsrM/MvyGKCrQTvD2HnYuTcU/7ftfQTMlBKF2HRSBZdbimKT
-K0qUGxBlxrLflHWGrpF6wEtQNWvMmSGTek5CKYhap0J3wMdH3v53k0XDxheqeXHK
-gz8+/4HVy2C3TfVltQrLlY56GEd+Ex9bODHjmdRms+W2tAK9TN4CjpnRfrrfOB98
-tWI2b7Dod/I+i1zSQ1kAZIu9u0ADs3tVkBatl+YbYYEh824t2vGgeOHEUp9mapgc
-2AMLY9KfsvWcXDag42T/qJnyFHJe4OSkj7AWdna2XA/zVF7oN6JHxBQR7E4GTN3I
-4jy7FjLjsfy1ns4hvEsQzboE
-=ogTk
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BhkQAJj7P00IxudaGi8qIgpW
+aGS64s1P+XYw9Lm/5DyAKzfhnab2Zvz/n0j2hLX48Uavi4sJzlXVaIheT37c/iWF
+BFtarbP9rwGXD7Uu0guzl+uZ4B1pjxwc7S+a+gH8HPjkq/UEuwmx1fNX06gCi+86
+lZ8Ml6/GUdDke5GOW0+KGwCmKDVlvuOImLKq+EsVRS78cFYdzZ1pHyyXLzNWKhut
+rlucldbTVb1OVUk6OqG/R7o8l2oRo6IvaQvScVSX0S2IXkYNcu3tcEY2kwNq6oCc
+SJYt1n4HccFRXCsEPBcdMYV/CbuyTOcr3pa47xZPIiDEVrnjjkquNfPYRpv2BSb+
+KMXhxfO9BcgfK37Fx4fyeGKoz0ZbGxhBsSPZhZuX2yn6GUdr0hMrf4itliMdBiZn
+PhAABfINg1eQT6gR3eB/x1/3hlq2NXo+xgW5BmruIZzVJeIyuGFOeYLLfBp/pOI2
+2tUK1ZY52HOeqctfS3b4IQ1AMzQLk2yrD/ITdnWNRfV8q8TQZA338RTxjUD3iP90
+aP33Hk88lPZ5XdL9ffJ39sJ3Ca8K5rnd3JM5GQXz0FPrDdzYhcp3bhEt4R6+iDJt
+2SJp3FGQuvVb1pTrZfBUgvC42P2KwmuMDeg+KAEB3NMTczQXVbrTPB5aLnTcs6yi
+JDVAKglr9UQ0Ld97Ci8sGTfw
+=LAJS
 -----END PGP SIGNATURE-----
 
---===============5634964148139590776==
+--===============7521510435734829053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a6071f17447-ae09f4a3533e.txt
+Content-Disposition: attachment; filename=revlist-841fca5a32cc-c96cfd687a3f.txt
 
-5a0b77fb2b7e28fcdfde8260c2692b909cb4da56 spi: bcm2835aux: Fix use-after-free on unbind
-14ea9d6b8c975a27d4796e36d67eabfc899a515c spi: bcm2835aux: Restore err assignment in bcm2835aux_spi_probe
-16a2909a5429edd6c6e03855b5e4e93352aef0e2 ARC: stack unwinding: don't assume non-current task is sleeping
-00909bc6471efb74f100e5aaf1f914fd11f51855 platform/x86: acer-wmi: add automatic keyboard background light toggle key as KEY_LIGHTS_TOGGLE
-e0dfd571a5592532f6274464e333e7034b789415 Input: cm109 - do not stomp on control URB
-017627b1788d9ffc55323d8fb1e7475286413f54 Input: i8042 - add Acer laptops to the i8042 reset list
-836fc6e8204646ed7e4ed81d3614cedbcab7d437 pinctrl: amd: remove debounce filter setting in IRQ type setting
-70aa742284d5aec967f0a45f2e2bab8efbaf3909 spi: Prevent adding devices below an unregistering controller
-27493b2a152a84807f6610d999e1a6290a636ae2 net/mlx4_en: Avoid scheduling restart task if it is already running
-ee7ffbad7bcf26349c588cc6559d9fde5cb62247 tcp: fix cwnd-limited bug for TSO deferral where we send nothing
-788071052cad5cb5a4ef2b08a866702e7084e2e1 net: stmmac: delete the eee_ctrl_timer after napi disabled
-6313fa561b4d2617ef0a557e04c56bb76ca36620 net: bridge: vlan: fix error return code in __vlan_add()
-75d8a568895de926d5acd387e53f02a8c805c4d7 USB: dummy-hcd: Fix uninitialized array use in init()
-2c735c0eefa09c64d7e7a485a097c38d1c3b1cd2 USB: add RESET_RESUME quirk for Snapscan 1212
-94ae197e0cae4c2a0799e0163f00a6d3d7b5a595 ALSA: usb-audio: Fix potential out-of-bounds shift
-faec07126d49a95bb98d8d9ac1f0e2645f790faa ALSA: usb-audio: Fix control 'access overflow' errors from chmap
-ffe04f5634ee0a6bb3ec9301e561b7ba8ef1ba1f xhci: Give USB2 ports time to enter U3 in bus suspend
-749b70339f86191529fe8cc328b822e2965df012 USB: sisusbvga: Make console support depend on BROKEN
-f073443ab2bfa5b37b2070cee0acc3441cad9b77 ALSA: pcm: oss: Fix potential out-of-bounds shift
-45ca6a19801bba71008f72b0309b544781cfe355 serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
-6e187dd212477646caa7ed103905a2007fff936a USB: serial: cp210x: enable usb generic throttle/unthrottle
-ae09f4a3533e894f20e02f13c49f24a6f79cb053 Linux 4.4.249-rc1
+311e7ce50233541083da1d37462e18293146cd9c ptrace: Prevent kernel-infoleak in ptrace_get_syscall_info()
+b99519695facd706ff39aea57b6d65156671626d ktest.pl: If size of log is too big to email, email error message
+e79d96ff274b6db546c8d5d95d40178e47d3dadb ktest.pl: Fix the logic for truncating the size of the log file for email
+66c0e0237daba349f9025492b521d9f6c72f6d99 USB: legotower: fix logical error in recent commit
+1d4b2fc8ec1b1d8c9464d35efe8e5b67f9b2ed1a USB: dummy-hcd: Fix uninitialized array use in init()
+f641130d151f4c189e6c0493407626dfd1121d9a USB: add RESET_RESUME quirk for Snapscan 1212
+16bf9a98ab7f0254bdbf8e48a4a75b490e7f1b75 ALSA: usb-audio: Fix potential out-of-bounds shift
+5ccc1cc641c6de15fdc3a0536144d7c06c9ddf59 ALSA: usb-audio: Fix control 'access overflow' errors from chmap
+c624c47b05d9eff9540413c5c650dd7992b3f4e9 xhci: Give USB2 ports time to enter U3 in bus suspend
+4840d25382db79d7afc91555e1783e1f2785500d usb: xhci: Set quirk for XHCI_SG_TRB_CACHE_SIZE_QUIRK
+ede9e42060f7c5b18c374a2fccbab4f061da21da xhci-pci: Allow host runtime PM as default for Intel Alpine Ridge LP
+54098420a206a65c141138f0824e9f9ca8ac2d4d xhci-pci: Allow host runtime PM as default for Intel Maple Ridge xHCI
+eb7e93a195b49282c7697b884e35a1d9de201c47 USB: UAS: introduce a quirk to set no_write_same
+f6b99127ba767db44821c9ad02141f3712e92338 USB: sisusbvga: Make console support depend on BROKEN
+43582f96d48beda54fb631ad1f57faf0e33b64d3 ALSA: pcm: oss: Fix potential out-of-bounds shift
+aab4790b79daa44f1fb5f1e8323782e62040b0d2 serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
+c96cfd687a3f1d1d461dd4a73eb51410c4fd45d8 Linux 5.10.2-rc1
 
---===============5634964148139590776==--
+--===============7521510435734829053==--
