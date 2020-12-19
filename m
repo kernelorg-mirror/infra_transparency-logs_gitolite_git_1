@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sat, 19 Dec 2020 01:39:22 -0000
-Message-Id: <160834196243.7694.2177768818609622742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 19 Dec 2020 01:50:02 -0000
+Message-Id: <160834260277.13943.9791926516988453706@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/rtc-next
-    old: f70cc33029fca3cf62bffb15102ea42eb4d097ac
-    new: 71ac13457d9d1007effde65b54818106b2c2b525
+  - ref: refs/heads/io_uring-fops
+    old: a9dc6790150957ec97e34402db5b39887dfaed5a
+    new: 795ec7c73fe516200f5adf42e9f68c2c1e9af414
     log: |
-         320d159e2d63a97a40f24cd6dfda5a57eec65b91 dt-bindings: rtc: add reset-source property
-         71ac13457d9d1007effde65b54818106b2c2b525 rtc: pcf2127: only use watchdog when explicitly available
+         e691ec96fc49161e54a8e07aa3c0dcdcccc2cc81 io_uring: add support for IORING_OP_URING_CMD
+         13bd4f517da918a15ae0a7f98b7aaa6debc918ce block: wire up support for file_operations->uring_cmd()
+         cfc4c7369afa4a0c6fab1c7721d353492bf11d41 block: add example ioctl
+         795ec7c73fe516200f5adf42e9f68c2c1e9af414 net: wire up support for file_operations->uring_cmd()
          
