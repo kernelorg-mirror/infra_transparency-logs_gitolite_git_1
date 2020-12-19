@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 19 Dec 2020 13:50:03 -0000
-Message-Id: <160838580353.10880.17696530261454553206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Sat, 19 Dec 2020 13:53:50 -0000
+Message-Id: <160838603067.14453.15675960481392592557@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/io_uring-5.11
-    old: dfea9fce29fda6f2f91161677e0e0d9b671bc099
-    new: dd20166236953c8cd14f4c668bf972af32f0c6be
+  - ref: refs/heads/mediatek-drm-sharedmutex
+    old: 4a3680ab8dcf371fd415350bce6e30a3a2ee198a
+    new: d45a84da4ef5b1b284cf6c7afaeaeb53fca4c288
     log: |
-         dd20166236953c8cd14f4c668bf972af32f0c6be io_uring: fix 0-iov read buffer select
+         d45a84da4ef5b1b284cf6c7afaeaeb53fca4c288 soc / drm: mediatek: Move mtk mutex driver to soc folder
          
