@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Sat, 19 Dec 2020 04:59:36 -0000
-Message-Id: <160835397605.12006.11021018462088589214@gitolite.kernel.org>
+Date: Sat, 19 Dec 2020 05:03:07 -0000
+Message-Id: <160835418710.14513.9255856190542676079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jpoimboe/linux
 user: jpoimboe
 changes:
   - ref: refs/heads/objtool-alt-group
-    old: 6c228a4e08f5cb15748314f89e78fd582e3f923b
-    new: cfe0f3708566a7f65fbced4e9d59249b47a7f5cc
+    old: cfe0f3708566a7f65fbced4e9d59249b47a7f5cc
+    new: f392cee0d8faf3d2935d249a285b767807bcd4a6
     log: |
-         cfe0f3708566a7f65fbced4e9d59249b47a7f5cc objtool: Support stack layout changes in alternatives
+         f392cee0d8faf3d2935d249a285b767807bcd4a6 objtool: Support stack layout changes in alternatives
          
