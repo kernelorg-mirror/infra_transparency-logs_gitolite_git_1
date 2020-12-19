@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sat, 19 Dec 2020 01:29:43 -0000
-Message-Id: <160834138304.2270.5833076214861569869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Sat, 19 Dec 2020 01:39:22 -0000
+Message-Id: <160834196243.7694.2177768818609622742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/todo
-    old: 32af5571f1841d138c786b68d4ec8c6a07752540
-    new: 730f2a8a60960c30a79e00ebe034836f60befbf0
+  - ref: refs/heads/rtc-next
+    old: f70cc33029fca3cf62bffb15102ea42eb4d097ac
+    new: 71ac13457d9d1007effde65b54818106b2c2b525
     log: |
-         730f2a8a60960c30a79e00ebe034836f60befbf0 What's cooking (2020/12 #03)
+         320d159e2d63a97a40f24cd6dfda5a57eec65b91 dt-bindings: rtc: add reset-source property
+         71ac13457d9d1007effde65b54818106b2c2b525 rtc: pcf2127: only use watchdog when explicitly available
          
