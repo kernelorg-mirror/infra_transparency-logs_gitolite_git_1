@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7514618883769117083=="
+Content-Type: multipart/mixed; boundary="===============4638383584561842098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 19 Dec 2020 12:55:52 -0000
-Message-Id: <160838255274.10466.8923590216623254114@gitolite.kernel.org>
+Date: Sat, 19 Dec 2020 12:59:32 -0000
+Message-Id: <160838277287.11808.15603221304691249644@gitolite.kernel.org>
 
---===============7514618883769117083==
+--===============4638383584561842098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,297 +16,314 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: f6029879256dcf4577206cfca4650c0693b14ebe
-    new: 7cfb63228781172a8fa189e6691e9c4f5a36c7fb
-    log: revlist-f6029879256d-7cfb63228781.txt
+    old: 7cfb63228781172a8fa189e6691e9c4f5a36c7fb
+    new: f9a3a712c0d7580631577fa3438bdb6767c6dcb7
+    log: revlist-7cfb63228781-f9a3a712c0d7.txt
   - ref: refs/heads/queue/4.19
-    old: 20080454fdbb5a7f248cebc64ce3869c1f41263f
-    new: e7e2f010d3df1050d93466d7d17d72024c89f145
-    log: revlist-20080454fdbb-e7e2f010d3df.txt
+    old: e7e2f010d3df1050d93466d7d17d72024c89f145
+    new: ea2d5223aced93da8408b19be2742e58931f9b1b
+    log: revlist-e7e2f010d3df-ea2d5223aced.txt
   - ref: refs/heads/queue/4.4
-    old: 064f72560703cdb2c966d06101540665a8a607da
-    new: ac7b2b59a275ec5b0711acb8c3065e2304efbc73
-    log: revlist-064f72560703-ac7b2b59a275.txt
+    old: ac7b2b59a275ec5b0711acb8c3065e2304efbc73
+    new: a3b412f9e7f5c26a731a878d95e5dd9026e42bd1
+    log: revlist-ac7b2b59a275-a3b412f9e7f5.txt
   - ref: refs/heads/queue/4.9
-    old: 21c08444d8cfc4818a3a8ab8cac4c1fee49352fd
-    new: eec7ece4fc25eb83578746a85e3de614ca48585f
-    log: revlist-21c08444d8cf-eec7ece4fc25.txt
+    old: eec7ece4fc25eb83578746a85e3de614ca48585f
+    new: 096917b1829bc0d49eaaba65403f8ef7728db39b
+    log: revlist-eec7ece4fc25-096917b1829b.txt
   - ref: refs/heads/queue/5.10
-    old: ec01482338bacaf38efc70734c88b5c7d43a6f99
-    new: 1c714c4660ba6e61f7af80b6040d699379a086d4
-    log: revlist-ec01482338ba-1c714c4660ba.txt
+    old: 1c714c4660ba6e61f7af80b6040d699379a086d4
+    new: f3230058317f169b3a1fc272be69e3ee54489f08
+    log: revlist-1c714c4660ba-f3230058317f.txt
   - ref: refs/heads/queue/5.4
-    old: bdb751f2030d6fb94f6006e21d497c7298702477
-    new: 0c623228adeb2070457fa9b1fb3cf9d9688a5aa5
-    log: revlist-bdb751f2030d-0c623228adeb.txt
+    old: 0c623228adeb2070457fa9b1fb3cf9d9688a5aa5
+    new: b8d18270c4a63087b3aafbab39fb3b01a627ba20
+    log: revlist-0c623228adeb-b8d18270c4a6.txt
   - ref: refs/heads/queue/5.9
-    old: 02369d5c0e329bd9073e846fdc2bae1414f42c4a
-    new: d35ac4050f5e4f3b2e8ad78b22eb4b1e8a05c948
-    log: revlist-02369d5c0e32-d35ac4050f5e.txt
+    old: d35ac4050f5e4f3b2e8ad78b22eb4b1e8a05c948
+    new: 4fac4b789de492410bed0108478a1588fceb93ed
+    log: revlist-d35ac4050f5e-4fac4b789de4.txt
 
---===============7514618883769117083==
+--===============4638383584561842098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6029879256d-7cfb63228781.txt
+Content-Disposition: attachment; filename=revlist-7cfb63228781-f9a3a712c0d7.txt
 
-ca4d5d36f42dde3f61be3a41a8e9f824c6098e6c spi: bcm2835aux: Fix use-after-free on unbind
-a7064c163b3dc740378ac93face3afd1347df0e1 spi: bcm2835aux: Restore err assignment in bcm2835aux_spi_probe
-2e431a6c3bd058375f1fd94bd2a0df2acea6a73f iwlwifi: pcie: limit memory read spin time
-e14df5723df76ec57e6ac258e0a9ef4b1b5b826c arm64: dts: rockchip: Assign a fixed index to mmc devices on rk3399 boards.
-c0013f648b0e9f21da707ba6bb194c62476db313 iwlwifi: mvm: fix kernel panic in case of assert during CSA
-7b8683331fdfb66c509e835845c6f2d27eb005c9 ARC: stack unwinding: don't assume non-current task is sleeping
-edc3c716cc346a2de6bbc0cfdec234ed3c9fbe2a scsi: ufs: Make sure clk scaling happens only when HBA is runtime ACTIVE
-8d4006b37086bd668e4f70978e71f83f38422b75 soc: fsl: dpio: Get the cpumask through cpumask_of(cpu)
-4a841be5831bfdfb72e93da62f7e1ac37079739f platform/x86: acer-wmi: add automatic keyboard background light toggle key as KEY_LIGHTS_TOGGLE
-678b9daeb903fc2aecb32e54ff48a85fcc2a4468 Input: cm109 - do not stomp on control URB
-4ee8bdce364f168925d8d286022720bf34adde85 Input: i8042 - add Acer laptops to the i8042 reset list
-887147dd11247030e578b1a3aefe09c36268d598 pinctrl: amd: remove debounce filter setting in IRQ type setting
-86968d4f668feb7fa2e79c9ae1b2d0266773c3a0 kbuild: avoid static_assert for genksyms
-d968ef3990e446074ee702fe38baade3d44f9ba9 scsi: be2iscsi: Revert "Fix a theoretical leak in beiscsi_create_eqs()"
-74ce428cf3f3376dc7e56c9fb84bbbfe0b6a0882 x86/mm/mem_encrypt: Fix definition of PMD_FLAGS_DEC_WP
-f2bef7434b63995ef2af5e3fc42e6872c06850a0 PCI: qcom: Add missing reset for ipq806x
-7d3472b7ef320dd454df2bd346d0ceb4ce655b88 net: stmmac: free tx skb buffer in stmmac_resume()
-2c6e0ac5422e5c932ec2476c011d653c581b84f2 tcp: fix cwnd-limited bug for TSO deferral where we send nothing
-cb56d34b170b1b81c298ed6d9005f0e759e8415f net/mlx4_en: Avoid scheduling restart task if it is already running
-485d385ce9f4f61d7e569ddc3062935cbefa5127 net/mlx4_en: Handle TX error CQE
-9acbc22320ff34f7632440a50048abed2d5b5df3 net: stmmac: delete the eee_ctrl_timer after napi disabled
-8c12c69585fe987a9a7dd037f801ddb41d773926 net: stmmac: dwmac-meson8b: fix mask definition of the m250_sel mux
-a83f76319451df85c6c5ff552380feeb16b5a066 net: bridge: vlan: fix error return code in __vlan_add()
-3f075b5593399dfd21f1596f713d15523ea2b387 mac80211: mesh: fix mesh_pathtbl_init() error path
-626e3f1c36673a010f1d4115363a69d04c652606 USB: dummy-hcd: Fix uninitialized array use in init()
-7846e0560e727f2ceb6d6b578e1d4062faf8e985 USB: add RESET_RESUME quirk for Snapscan 1212
-e24732a254c16738e88ab3b4265bf3f746a347cc ALSA: usb-audio: Fix potential out-of-bounds shift
-c07877292e9afc1e5ab01048480c22aed7732747 ALSA: usb-audio: Fix control 'access overflow' errors from chmap
-4b77896bc4cf8409e9aea712391e878866362327 xhci: Give USB2 ports time to enter U3 in bus suspend
-dd0495ce3ab4249026d5a80bbf5477af3471790f USB: UAS: introduce a quirk to set no_write_same
-c0c6c98237bd3fa5bd5ca0d28c854f460e8ec38f USB: sisusbvga: Make console support depend on BROKEN
-b45a1fc380c2b6d07d36841f24750ae6d2530fb5 ALSA: pcm: oss: Fix potential out-of-bounds shift
-7cfb63228781172a8fa189e6691e9c4f5a36c7fb serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
+d89759a6330be2f8ecc20284daf12b15deed31c6 spi: bcm2835aux: Fix use-after-free on unbind
+d8f6019dc06c6c6be088cb1ee6def702176709f3 spi: bcm2835aux: Restore err assignment in bcm2835aux_spi_probe
+65bc3eb7222d75cb8fe0585e0b897d0be79b0d06 iwlwifi: pcie: limit memory read spin time
+7e434b948ca9eceb15ea8fe349b3568c710f36f8 arm64: dts: rockchip: Assign a fixed index to mmc devices on rk3399 boards.
+af7a9ff7fb06ca8c6504d58e3e2fc4b3b7629c81 iwlwifi: mvm: fix kernel panic in case of assert during CSA
+015fbc905ab319e2af5843ef3ca8babcbdc81739 ARC: stack unwinding: don't assume non-current task is sleeping
+6ac13dfccf53b006f468ed7d6818cd019c8202cb scsi: ufs: Make sure clk scaling happens only when HBA is runtime ACTIVE
+50987412d53e4bd60ed68a10520fe6543cd1ebb7 soc: fsl: dpio: Get the cpumask through cpumask_of(cpu)
+a05990f86f0680c02b91f59f62088dd040847f6b platform/x86: acer-wmi: add automatic keyboard background light toggle key as KEY_LIGHTS_TOGGLE
+75071dbf0e3f2890ea60f3ef5e806324fbbb34bd Input: cm109 - do not stomp on control URB
+60556fd6affea52a092eaf808e3286af2c1d34ff Input: i8042 - add Acer laptops to the i8042 reset list
+54a65b8935d4500c0dd27a914582f5820ed31027 pinctrl: amd: remove debounce filter setting in IRQ type setting
+67e70af4f307f24e382c9aa858ac0c1d222054bd kbuild: avoid static_assert for genksyms
+43bbf3b2b946d0ebaceec2ca6fdd9ccd581b9f3b scsi: be2iscsi: Revert "Fix a theoretical leak in beiscsi_create_eqs()"
+2f111c257dbdc3ba77ccdd8c6137c4cce0dfd780 x86/mm/mem_encrypt: Fix definition of PMD_FLAGS_DEC_WP
+0138c9984fd890646c370423b2762654bb66fa20 PCI: qcom: Add missing reset for ipq806x
+a6127fca700036d71a59a552db47947989b9dded net: stmmac: free tx skb buffer in stmmac_resume()
+5d2f45f0b8d036bab58432c8cbd40f09242dd0b6 tcp: fix cwnd-limited bug for TSO deferral where we send nothing
+bd3858cee25ffe7ad392903fe311bdaaabf25e89 net/mlx4_en: Avoid scheduling restart task if it is already running
+8063ebd735de046d4d61a54d2e7ee872062010aa net/mlx4_en: Handle TX error CQE
+61b04cfc55ad7249c9052a4f33e698e110ce9180 net: stmmac: delete the eee_ctrl_timer after napi disabled
+c873edaf3cba8fdef5e5339392fb3634cd16627e net: stmmac: dwmac-meson8b: fix mask definition of the m250_sel mux
+3369678439a73157ad45efa17148343f92fdbb07 net: bridge: vlan: fix error return code in __vlan_add()
+355668b6fce15317b61ab0715cb9204ce8fe8586 mac80211: mesh: fix mesh_pathtbl_init() error path
+57de270e560cb8fbebe275c49dfad9f7b20e3464 USB: dummy-hcd: Fix uninitialized array use in init()
+0c2d08aaec32b230bce319a2e63078c94e5a75ed USB: add RESET_RESUME quirk for Snapscan 1212
+5807bd3838af971ba386466651a28f538a1f5f94 ALSA: usb-audio: Fix potential out-of-bounds shift
+e532cd8945c7112b4bed08f366e6247a49c081e1 ALSA: usb-audio: Fix control 'access overflow' errors from chmap
+edc4568052171f88c6b2a00be125c9236eb417bc xhci: Give USB2 ports time to enter U3 in bus suspend
+65ecf2ca3273daf0b737a2cd7dbf56fe43880ed0 USB: UAS: introduce a quirk to set no_write_same
+bcf8d85eb7656513c0b4e0c692ce970261336151 USB: sisusbvga: Make console support depend on BROKEN
+96975de908cb8abf4f95d628b5e46b5d4517a900 ALSA: pcm: oss: Fix potential out-of-bounds shift
+7c83ed50f90b993bc617302f5317517bf97fa3bb serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
+f9a3a712c0d7580631577fa3438bdb6767c6dcb7 drm: fix drm_dp_mst_port refcount leaks in drm_dp_mst_allocate_vcpi
 
---===============7514618883769117083==
+--===============4638383584561842098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20080454fdbb-e7e2f010d3df.txt
+Content-Disposition: attachment; filename=revlist-e7e2f010d3df-ea2d5223aced.txt
 
-fa7115af655ddba0494e5df7323ed3e2e5601aab Kbuild: do not emit debug info for assembly with LLVM_IAS=1
-d52b145272a3aa27736f4d535d616397e7e590ef x86/lib: Change .weak to SYM_FUNC_START_WEAK for arch/x86/lib/mem*_64.S
-d36faf62209119a01217252cd09ae00d931f0a2b spi: bcm2835aux: Fix use-after-free on unbind
-3f09c8db75cd5c62ebc3e206f06d92d9c3476b9e spi: bcm2835aux: Restore err assignment in bcm2835aux_spi_probe
-98aa78003f8ad1402c9c55c0dbbc2970da82c366 iwlwifi: pcie: limit memory read spin time
-c9cd855156a02ba7ee13ee8129d1e12672baaa20 arm64: dts: rockchip: Assign a fixed index to mmc devices on rk3399 boards.
-06e957bb7b05c600ded31d7bcafad2c9723cabb4 iwlwifi: mvm: fix kernel panic in case of assert during CSA
-60cbecee7efbe37ba42158dcd21b18a4fbe62458 powerpc: Drop -me200 addition to build flags
-e8ec246bbc572d8ac148c8c91ceafbf9ee7a6d03 ARC: stack unwinding: don't assume non-current task is sleeping
-a378a57f12b082a9866cdf586f7483a63c6da6ef scsi: ufs: Make sure clk scaling happens only when HBA is runtime ACTIVE
-c093ab5e66da842af79c3f191cadba19a84e222d irqchip/gic-v3-its: Unconditionally save/restore the ITS state on suspend
-d599ff76a4f97146f20ef9d47b4f3153398d2b5e soc: fsl: dpio: Get the cpumask through cpumask_of(cpu)
-1c508482c7fcaa2f6f774febbd417b47daaafae3 platform/x86: thinkpad_acpi: Do not report SW_TABLET_MODE on Yoga 11e
-edfa2176c98cbe9be285e3c4baf38f4d23a63af7 platform/x86: thinkpad_acpi: Add BAT1 is primary battery quirk for Thinkpad Yoga 11e 4th gen
-6ae5f2f3c496e98fe3d91707798eab8d2fa7b5d4 platform/x86: acer-wmi: add automatic keyboard background light toggle key as KEY_LIGHTS_TOGGLE
-336a93e18d964e5e0d73f98a8dc6f7968efc26b7 platform/x86: intel-vbtn: Support for tablet mode on HP Pavilion 13 x360 PC
-58f64d166d1b1dd04965044b96048c6945b17113 Input: cm109 - do not stomp on control URB
-7a867916a313faf165c8a64461a73f02bffdb86e Input: i8042 - add Acer laptops to the i8042 reset list
-51f1ef41eb85a8a2f966f64a2cc58203b378f1e3 pinctrl: amd: remove debounce filter setting in IRQ type setting
-1aa127e85b6f2cee36e7c5be715cbde0f3c1e2e8 mmc: block: Fixup condition for CMD13 polling for RPMB requests
-4a286ac483de945a30b1a1670e9ab31fda3666cc kbuild: avoid static_assert for genksyms
-c42ab8a59c32df6d8ae8f8baf2f9964c20449b85 scsi: be2iscsi: Revert "Fix a theoretical leak in beiscsi_create_eqs()"
-ece76cd58ab637430e1d9c0d06781f86884a1dd8 x86/mm/mem_encrypt: Fix definition of PMD_FLAGS_DEC_WP
-ea3d5533fe8b6ba84c1e52447af90eb7de4d9ea5 x86/membarrier: Get rid of a dubious optimization
-a6bab215b68ef69399b61edc854b36fcfd656ba6 x86/apic/vector: Fix ordering in vector assignment
-38675e0f7e07e1d59818005c14fe2d42ef8ff95e compiler.h: fix barrier_data() on clang
-ac73ff54a3b4e85826816e360d74f6f918d56ba2 PCI: qcom: Add missing reset for ipq806x
-47e2844a8df1b0a08cf39ce9d30aabcde3e4ef83 mac80211: mesh: fix mesh_pathtbl_init() error path
-f83f6eb9557be5b472938a4a1c28a0e3a02fdaa3 net: stmmac: free tx skb buffer in stmmac_resume()
-2d945ebe45915501cc379b90c6a73c02f7117335 tcp: select sane initial rcvq_space.space for big MSS
-567cec4ff12200709e42ab55ba645033c3122ec3 tcp: fix cwnd-limited bug for TSO deferral where we send nothing
-199aad50845cadf119091922db86047d9a384fe8 net/mlx4_en: Avoid scheduling restart task if it is already running
-7c55410581bf91d05d0eecbae6d4ddbd583057a9 lan743x: fix for potential NULL pointer dereference with bare card
-890a066074495ff0c5b2ad8a6bd4a2d90f0b804c net/mlx4_en: Handle TX error CQE
-0419b17eeb9aad088b670f4a023360fbee8a55a8 net: stmmac: delete the eee_ctrl_timer after napi disabled
-2b1f763beb2fc026c36a685387c447d19ca9eb3b net: stmmac: dwmac-meson8b: fix mask definition of the m250_sel mux
-fd5e15cb315a26db7847af477a9747760d09c63b net: bridge: vlan: fix error return code in __vlan_add()
-3fb71846febd36fefa403196f2da64a880b17b67 ktest.pl: If size of log is too big to email, email error message
-95d5fedd85200d9fabf8acb9c23c2d6d7e4bccc5 USB: dummy-hcd: Fix uninitialized array use in init()
-48f5e05de734bc474cc51ad80761ec6d17e3f715 USB: add RESET_RESUME quirk for Snapscan 1212
-482e9af8f013791eef50957dcf8e6df66a39536c ALSA: usb-audio: Fix potential out-of-bounds shift
-e67f819c61bbac52a07234ebc7baba6394f1799b ALSA: usb-audio: Fix control 'access overflow' errors from chmap
-547a0c2b6ec6896c58ed9a4254e91baabf79f404 xhci: Give USB2 ports time to enter U3 in bus suspend
-989b91c0a417eaa24eeac65832dcb20b2aa965da USB: UAS: introduce a quirk to set no_write_same
-0e9bf61f5297f3154c6bccf6b4f0dbc43324fe55 USB: sisusbvga: Make console support depend on BROKEN
-48aac8f476a8527f4d7b4855933a60d736d09898 ALSA: pcm: oss: Fix potential out-of-bounds shift
-e7e2f010d3df1050d93466d7d17d72024c89f145 serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
+38ab500b09945507a28c16245069fb4d1c684c73 Kbuild: do not emit debug info for assembly with LLVM_IAS=1
+4d566035f7a366fa8a0d91b7ab962d5d73525757 x86/lib: Change .weak to SYM_FUNC_START_WEAK for arch/x86/lib/mem*_64.S
+c7b39d19a3b52f45a6d596184cec87931d56b161 spi: bcm2835aux: Fix use-after-free on unbind
+a1a90d2be7b2e78bbee17c02f7b0f869af9e6380 spi: bcm2835aux: Restore err assignment in bcm2835aux_spi_probe
+73ccb59f24c616aae792689d512949d2121dfccc iwlwifi: pcie: limit memory read spin time
+28dbfd8dba37f466fb38e41c7e8022d246940635 arm64: dts: rockchip: Assign a fixed index to mmc devices on rk3399 boards.
+593d5572584f620ffeb0bd21400c21e3ef8f0e98 iwlwifi: mvm: fix kernel panic in case of assert during CSA
+69d5efd836422b11139dfcc1975475f40f1be977 powerpc: Drop -me200 addition to build flags
+62ed5325074fd9b8760d3d783881d81f49470693 ARC: stack unwinding: don't assume non-current task is sleeping
+9f9a4261432a07e4f71e3a941f5b237fe9199338 scsi: ufs: Make sure clk scaling happens only when HBA is runtime ACTIVE
+173d46058716feb3021957728f3aaca63db970f0 irqchip/gic-v3-its: Unconditionally save/restore the ITS state on suspend
+bdd74f855d4cc45c0d4570104c178e1b58b0d764 soc: fsl: dpio: Get the cpumask through cpumask_of(cpu)
+314d499a2c304d18ef3cad8c82fe726344dca746 platform/x86: thinkpad_acpi: Do not report SW_TABLET_MODE on Yoga 11e
+e8a57fa94aa6fe5ab74240e408d9e2905356de59 platform/x86: thinkpad_acpi: Add BAT1 is primary battery quirk for Thinkpad Yoga 11e 4th gen
+8d4d128c67983d81d2507d37064af7345675f58c platform/x86: acer-wmi: add automatic keyboard background light toggle key as KEY_LIGHTS_TOGGLE
+df64b46fafbfe4bafef47a10e547297657dbd982 platform/x86: intel-vbtn: Support for tablet mode on HP Pavilion 13 x360 PC
+7e1de3ae7d018d2c296729d951e190ca605abb64 Input: cm109 - do not stomp on control URB
+ed553e7c230c2ae006e767151451c7f90385b6f4 Input: i8042 - add Acer laptops to the i8042 reset list
+73352a0390118808bfa7f3fc72130cac2aee6ee7 pinctrl: amd: remove debounce filter setting in IRQ type setting
+f7ef466bd6edff7523f1d39b4e5a7178081989ff mmc: block: Fixup condition for CMD13 polling for RPMB requests
+5b4f7bb3e59d3b673348652dc35adf49e75cc3c2 kbuild: avoid static_assert for genksyms
+a2778490baf691324e283fc0a1f7c06cb4448491 scsi: be2iscsi: Revert "Fix a theoretical leak in beiscsi_create_eqs()"
+989d0bc1a3534f01dd505bffa31eabe3901c1836 x86/mm/mem_encrypt: Fix definition of PMD_FLAGS_DEC_WP
+67e6f4feb546d49bcd2a47df902aa9416127b047 x86/membarrier: Get rid of a dubious optimization
+28adaffc691098095c43d193ba09008d36496bf5 x86/apic/vector: Fix ordering in vector assignment
+35671a50a4c9c5d96317dfc66ebdb34881fdb5fe compiler.h: fix barrier_data() on clang
+d8e00d1818854a05e348d7a4924888ed0319aeec PCI: qcom: Add missing reset for ipq806x
+26ae0e319f7b84b7c2e8ae53f087faed5dad99c7 mac80211: mesh: fix mesh_pathtbl_init() error path
+e7df446c9225cc11714b74aec9c25ca088e289ee net: stmmac: free tx skb buffer in stmmac_resume()
+5c0cdcad9d22d96fbbe235f024e4ac66d1cb673d tcp: select sane initial rcvq_space.space for big MSS
+6192cf00899c59c9755b19153a8a33e712d1920d tcp: fix cwnd-limited bug for TSO deferral where we send nothing
+720fccf08b2d10dc6ee8a5524b7f4d439f1f52a1 net/mlx4_en: Avoid scheduling restart task if it is already running
+17ed12ec7222766f24c00995e5bb21868cc4a0b7 lan743x: fix for potential NULL pointer dereference with bare card
+2d9cc4ce9388c086d8c8e22677e5afcb58722963 net/mlx4_en: Handle TX error CQE
+da5132754884f8456b7626b4bdaca22595bf3c5e net: stmmac: delete the eee_ctrl_timer after napi disabled
+2b7f569f7afbd6ad2b72a6d7673b55121465b251 net: stmmac: dwmac-meson8b: fix mask definition of the m250_sel mux
+a51f8855810c8e8a877b46d105767efd99d1b834 net: bridge: vlan: fix error return code in __vlan_add()
+d31766a2f4eb894ebd6a5111d1aea529338fcafe ktest.pl: If size of log is too big to email, email error message
+1413da58ae0043197d73ef63f8873b7c1f9a786c USB: dummy-hcd: Fix uninitialized array use in init()
+97dc2f1dbc684ce78bb5fab28eaf988de0ff013f USB: add RESET_RESUME quirk for Snapscan 1212
+6eeba1eef313e6a5240932df4ade23da4d8cb619 ALSA: usb-audio: Fix potential out-of-bounds shift
+8bda992babefd58963e56382436e2bb7307f5dc1 ALSA: usb-audio: Fix control 'access overflow' errors from chmap
+6be936380a474e87788a4440bd9c2c41b0f82faa xhci: Give USB2 ports time to enter U3 in bus suspend
+c657ba5a34f11feb2b9d9628f1fe8ed527c0f488 USB: UAS: introduce a quirk to set no_write_same
+3dba229ba53a9cc3553732dd758af05681cf1e40 USB: sisusbvga: Make console support depend on BROKEN
+3dceb592e21b088d0d6b6515f1dc7966f09cf641 ALSA: pcm: oss: Fix potential out-of-bounds shift
+16964e12df9547715b7b1e35484926a88215dcc8 serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
+5012fa91e0b4c75f90a2e80c8067e370ba70a901 drm/xen-front: Fix misused IS_ERR_OR_NULL checks
+aa876c33f0ba4689c8c6513ab7e776a1679d4db6 drm: fix drm_dp_mst_port refcount leaks in drm_dp_mst_allocate_vcpi
+6ef8d7067e9ed3afd0396318aff45f3aa91c7586 arm64: lse: fix LSE atomics with LLVM's integrated assembler
+ea74028d243627c3d296a328b56464213a357bb7 arm64: lse: Fix LSE atomics with LLVM
+55c3cd9af992033cbdf56b56602f516a618d2baa arm64: Change .weak to SYM_FUNC_START_WEAK_PI for arch/arm64/lib/mem*.S
+273b97b8dfd1d3b60d6454e444a365968379e45c x86/resctrl: Remove unused struct mbm_state::chunks_bw
+ea2d5223aced93da8408b19be2742e58931f9b1b x86/resctrl: Fix incorrect local bandwidth when mba_sc is enabled
 
---===============7514618883769117083==
+--===============4638383584561842098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-064f72560703-ac7b2b59a275.txt
+Content-Disposition: attachment; filename=revlist-ac7b2b59a275-a3b412f9e7f5.txt
 
-e1b28d38ce39b9110c98958a5cf5a10910944c2e spi: bcm2835aux: Fix use-after-free on unbind
-1f353b5192c25db0e1adc84d42000b966e45bedc spi: bcm2835aux: Restore err assignment in bcm2835aux_spi_probe
-5168559514f2556ff907ddcc8bbe72c73c6b1d4b ARC: stack unwinding: don't assume non-current task is sleeping
-fd3b1355abc59ada31e541a72180cdbf2d624550 platform/x86: acer-wmi: add automatic keyboard background light toggle key as KEY_LIGHTS_TOGGLE
-d642e067e097e4c65393b87dae451f41288a7106 Input: cm109 - do not stomp on control URB
-a6bec93fc2baeacbffb2555a86cdfe76d33d187a Input: i8042 - add Acer laptops to the i8042 reset list
-fae0801ba32d7cf27432d4d679555bec09885df8 pinctrl: amd: remove debounce filter setting in IRQ type setting
-12b9740556c323c427f0e79bcb547b5929f7af6f spi: Prevent adding devices below an unregistering controller
-2da6e9bc8ef95bfc77d3c92f4529bdf904595749 net/mlx4_en: Avoid scheduling restart task if it is already running
-024f159dd3b815baeea72452c8fe424a2c2ff4e9 tcp: fix cwnd-limited bug for TSO deferral where we send nothing
-4b37358a1c3fb647ef541c5204544753327e5b22 net: stmmac: delete the eee_ctrl_timer after napi disabled
-3bcbb1969cb086c10efb67ae039e21b5c8ed1356 net: bridge: vlan: fix error return code in __vlan_add()
-2750054ed6b70159b907b15846dea419a37a3a08 USB: dummy-hcd: Fix uninitialized array use in init()
-edff60615a4d422046ff017106889dadd5e87542 USB: add RESET_RESUME quirk for Snapscan 1212
-8d7970bf865c5ac2dd85691186b4c8b41f41e57b ALSA: usb-audio: Fix potential out-of-bounds shift
-79bde402cd4d15bd286d297d2467ebfc563ae9dd ALSA: usb-audio: Fix control 'access overflow' errors from chmap
-9e9130a361d3cecb550c5de26e7de4315c9b856b xhci: Give USB2 ports time to enter U3 in bus suspend
-1b180e44e071f16735d429aa7c5e2c0a013cd61b USB: sisusbvga: Make console support depend on BROKEN
-16d6ec70e4c4bcccda7639aec516ae207f219a54 ALSA: pcm: oss: Fix potential out-of-bounds shift
-69625b423410ad511dddcb3fd74e56955babaad6 serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
-ac7b2b59a275ec5b0711acb8c3065e2304efbc73 USB: serial: cp210x: enable usb generic throttle/unthrottle
+16c509ebdf43792226a7f1bb70be71e2ce5168ac spi: bcm2835aux: Fix use-after-free on unbind
+51021c75c624b6bd8fcac5e15690176b0e599f2b spi: bcm2835aux: Restore err assignment in bcm2835aux_spi_probe
+e494ef2594be8ac761f5002bf05cefccdf09b610 ARC: stack unwinding: don't assume non-current task is sleeping
+82f521e76f51abc239cf4aa5c2a26461773bffd3 platform/x86: acer-wmi: add automatic keyboard background light toggle key as KEY_LIGHTS_TOGGLE
+63118c9e39ff1b439b15315819e3a37c8e1b0db4 Input: cm109 - do not stomp on control URB
+928ca7c68b23b596c26bbf57630df662f2dd1d1e Input: i8042 - add Acer laptops to the i8042 reset list
+52064d1d2b7ce09e1ae9b3212479e71e442c264c pinctrl: amd: remove debounce filter setting in IRQ type setting
+3471bd4585c44edf55b5a1b84a0d01b34690e4ce spi: Prevent adding devices below an unregistering controller
+bb2e25ed0b5a509fe7ac4db952d72f8e3a2b8d98 net/mlx4_en: Avoid scheduling restart task if it is already running
+f909f4e2793255d7cdc5c5b41214cfbd0bd8d982 tcp: fix cwnd-limited bug for TSO deferral where we send nothing
+a892c2a0a8455ac9635878b7535130c753614ec5 net: stmmac: delete the eee_ctrl_timer after napi disabled
+abecf83ab6112e5e897ca096796a2c2b71968924 net: bridge: vlan: fix error return code in __vlan_add()
+25fd843112271b419ff054f9289ef0a4c430fbd4 USB: dummy-hcd: Fix uninitialized array use in init()
+9ed190695a5f26e3ffa6008bbb18bace69cdff6c USB: add RESET_RESUME quirk for Snapscan 1212
+efabdb26e65aec7767070c842cde903ca94e6ed1 ALSA: usb-audio: Fix potential out-of-bounds shift
+f3b36c6ce1004adba6e734e04b2061b8f065052c ALSA: usb-audio: Fix control 'access overflow' errors from chmap
+8432125e3f6f7791744dbe64e1beda28f6ee7ab5 xhci: Give USB2 ports time to enter U3 in bus suspend
+8829db173448ebb97847f205e3dacfd636767cb8 USB: sisusbvga: Make console support depend on BROKEN
+1534c9c4c948dd4e478fd3bde16a84b64bf90923 ALSA: pcm: oss: Fix potential out-of-bounds shift
+a2b6d70a38f5e4fdcc69fa9adc580f5c7832e3f3 serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
+a3b412f9e7f5c26a731a878d95e5dd9026e42bd1 USB: serial: cp210x: enable usb generic throttle/unthrottle
 
---===============7514618883769117083==
+--===============4638383584561842098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21c08444d8cf-eec7ece4fc25.txt
+Content-Disposition: attachment; filename=revlist-eec7ece4fc25-096917b1829b.txt
 
-a6eb192ec82bd1636a32799d095361c9ce2c41cf spi: bcm2835aux: Fix use-after-free on unbind
-6eddb7b2d9758ca6676827267ff3affaf6c84c60 spi: bcm2835aux: Restore err assignment in bcm2835aux_spi_probe
-e3f963a05db7ba8125027b30dedb1f1bf465c31f iwlwifi: pcie: limit memory read spin time
-b0f6f60e6fd41b702111a98304f327ff1812aeb6 arm64: dts: rockchip: Assign a fixed index to mmc devices on rk3399 boards.
-66bb3a7f3019afc4dc31f4c659c70baff2c0eb42 ARC: stack unwinding: don't assume non-current task is sleeping
-b5ec823b5483a5addb82ba84cb0c11abd6c70b13 platform/x86: acer-wmi: add automatic keyboard background light toggle key as KEY_LIGHTS_TOGGLE
-6b408c60fe7bce79b6d7bfb1cacf93b937275484 Input: cm109 - do not stomp on control URB
-074f5d7e88a47c16fd07c49a4c19a0e3ccb1a049 Input: i8042 - add Acer laptops to the i8042 reset list
-c43f758480fd62ef35f038ba18f6d71a6989d2e6 pinctrl: amd: remove debounce filter setting in IRQ type setting
-ae354180037b27544ac7824e497c7a624b028dd7 scsi: be2iscsi: Revert "Fix a theoretical leak in beiscsi_create_eqs()"
-b7918d935b58f80a1ef666f9fdbf3bc6a908d3bd spi: Prevent adding devices below an unregistering controller
-f6848a90189c7830fa420e45e9e9189db71af8e1 net/mlx4_en: Avoid scheduling restart task if it is already running
-242a817654873d2da767190ed6afaad4b3d4daa0 tcp: fix cwnd-limited bug for TSO deferral where we send nothing
-b027f6791e32e214e93c8edfe815e8f3d898db00 net: stmmac: delete the eee_ctrl_timer after napi disabled
-7b7bec06c0f51619fbabc6d5c5e7597d267d9a53 net: stmmac: dwmac-meson8b: fix mask definition of the m250_sel mux
-29f53cc04e93ceba1edceaa4842922542e38e6a6 net: bridge: vlan: fix error return code in __vlan_add()
-4200f27bbd0236f1528873950056b264b7bc46d7 mac80211: mesh: fix mesh_pathtbl_init() error path
-91a7bf39588e9f56f6cf3b50f9b3565a71724ee5 USB: dummy-hcd: Fix uninitialized array use in init()
-967c0429a7c39b52bbaff702ff345b57c9046c6a USB: add RESET_RESUME quirk for Snapscan 1212
-7670dd9efd5407d1d263fb76181f32c71a0c2241 ALSA: usb-audio: Fix potential out-of-bounds shift
-b403e51c8fb90d22729e5ccffc3fbad2dc6c40f9 ALSA: usb-audio: Fix control 'access overflow' errors from chmap
-faa2c1b826c72fcdac971773c133ecc22afbd6f3 xhci: Give USB2 ports time to enter U3 in bus suspend
-c82720e1cb81c25e4b451297781987a8c18f5f65 USB: sisusbvga: Make console support depend on BROKEN
-527610de116b43a7389b925e1bd8f43053ab7b86 ALSA: pcm: oss: Fix potential out-of-bounds shift
-eec7ece4fc25eb83578746a85e3de614ca48585f serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
+7a4856c8a7520a1c7f3a9e2005d4034c3317d8bb spi: bcm2835aux: Fix use-after-free on unbind
+a784d7454d02a504b78170827e17b49be067f557 spi: bcm2835aux: Restore err assignment in bcm2835aux_spi_probe
+fa2ffd54d2c525dd91b7c61f19fcaadecd6398ca iwlwifi: pcie: limit memory read spin time
+377387fdc87b1fe81c45f518ba2bfb8c6c6a53e2 arm64: dts: rockchip: Assign a fixed index to mmc devices on rk3399 boards.
+24a899678701360bc95b03d682d8f1f1834cc904 ARC: stack unwinding: don't assume non-current task is sleeping
+e9fe6a085cc061a42ea334809ccf87265378b47e platform/x86: acer-wmi: add automatic keyboard background light toggle key as KEY_LIGHTS_TOGGLE
+65c2252f0f71c01128591fdcc6045391da6cbfca Input: cm109 - do not stomp on control URB
+1083f146fce482ce53c77af8cd77f93dee304877 Input: i8042 - add Acer laptops to the i8042 reset list
+f5aacc6be3b3eb3c4ab83f3c2340efd19fdbd063 pinctrl: amd: remove debounce filter setting in IRQ type setting
+d0982076cee9171263e0cbc8a0b067cef365be5f scsi: be2iscsi: Revert "Fix a theoretical leak in beiscsi_create_eqs()"
+bd78aaa9a1323b4dcd2d397606cc0dd7c05545f3 spi: Prevent adding devices below an unregistering controller
+0c27b46056d220a24b258e5f26e325ba3b5515fc net/mlx4_en: Avoid scheduling restart task if it is already running
+2732efa1cc8c464b30a50f55739f7ab8555ba417 tcp: fix cwnd-limited bug for TSO deferral where we send nothing
+caf18e4750eb7eb83a0d55cf1b266f82172e1529 net: stmmac: delete the eee_ctrl_timer after napi disabled
+e91423eee8f369cc62c390795d930d69d59c0019 net: stmmac: dwmac-meson8b: fix mask definition of the m250_sel mux
+d7b67215ec0fe4a62c374caa835ad5c258cc3aab net: bridge: vlan: fix error return code in __vlan_add()
+0db54e4f3d62e634772bfdb66e50275364e435cb mac80211: mesh: fix mesh_pathtbl_init() error path
+5c8718c16200dd9471b19a67b98005b12fc30abc USB: dummy-hcd: Fix uninitialized array use in init()
+6b5b95ef6b01313a55676fe1be0ecde807dd2f67 USB: add RESET_RESUME quirk for Snapscan 1212
+785ff4f5899c3e945e812e03ced21b80602fc25b ALSA: usb-audio: Fix potential out-of-bounds shift
+c615b0ab021593b9d13a0daed86e4a69941ea075 ALSA: usb-audio: Fix control 'access overflow' errors from chmap
+68259fc6ca23a73c8e7db8dccf5612b3a24c501f xhci: Give USB2 ports time to enter U3 in bus suspend
+0f5a73d12d939d88005b9b9b85d5b8ea3a6751e1 USB: sisusbvga: Make console support depend on BROKEN
+78a4aba0e66c8fa9a3aad49b7e92da0e7ed21c1c ALSA: pcm: oss: Fix potential out-of-bounds shift
+096917b1829bc0d49eaaba65403f8ef7728db39b serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
 
---===============7514618883769117083==
+--===============4638383584561842098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec01482338ba-1c714c4660ba.txt
+Content-Disposition: attachment; filename=revlist-1c714c4660ba-f3230058317f.txt
 
-04441fdef62607e5ce4dccd2187b54be1b21e0e7 ptrace: Prevent kernel-infoleak in ptrace_get_syscall_info()
-16d1d2a7727a6941262f21cc2f5d2ea30995a26a ktest.pl: If size of log is too big to email, email error message
-8239df4f3d9b233ccc269fb5643e49f68586cc8d ktest.pl: Fix the logic for truncating the size of the log file for email
-19a9ac55fc6eec045f23480aff972d64b1afd704 USB: legotower: fix logical error in recent commit
-9a2e2c27a3594d04f5ded8ec17522c1ed08201b9 USB: dummy-hcd: Fix uninitialized array use in init()
-845bc11d3e5db7221341feb446a9f1fdd924f99d USB: add RESET_RESUME quirk for Snapscan 1212
-f96fe2df966cd77916a7275a16ce66024736d6b3 ALSA: usb-audio: Fix potential out-of-bounds shift
-c2e440ea0b528242feecfba279947db2b3709420 ALSA: usb-audio: Fix control 'access overflow' errors from chmap
-2c29ab89862e0aefe40760565001a89ff979e067 xhci: Give USB2 ports time to enter U3 in bus suspend
-2b1eb50619dcd1e5512936db70e24ac9242fa8aa usb: xhci: Set quirk for XHCI_SG_TRB_CACHE_SIZE_QUIRK
-ba8372d8d9556b4e5ebf33e5548849de09aed537 xhci-pci: Allow host runtime PM as default for Intel Alpine Ridge LP
-487aebad46f674462a57b19ce7f2453f8fae9d71 xhci-pci: Allow host runtime PM as default for Intel Maple Ridge xHCI
-b8ced9ba69fa940b89d5f863193a693bada7098e USB: UAS: introduce a quirk to set no_write_same
-a49fe6644f43d472d5ec2c313becc0843f1727e4 USB: sisusbvga: Make console support depend on BROKEN
-ae6d46d61784b1487a265ed549aa7c529b7e027c ALSA: pcm: oss: Fix potential out-of-bounds shift
-1c714c4660ba6e61f7af80b6040d699379a086d4 serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
+fff34b64bf6cfac73b719e37ecd484adb3313aa4 ptrace: Prevent kernel-infoleak in ptrace_get_syscall_info()
+951e6aada9d564afcb7d8f6bc68799654e241fe1 ktest.pl: If size of log is too big to email, email error message
+1f919e7ec4d3770a9c2849d325fdd59e5cc51dd4 ktest.pl: Fix the logic for truncating the size of the log file for email
+88d7f9029898cb2f0fe6c93c9cb640a6f5f3e7cc USB: legotower: fix logical error in recent commit
+01b7619301e39b33592a65cabfd1a9d180e95384 USB: dummy-hcd: Fix uninitialized array use in init()
+14ef1d5a10b6090955517201da55d372da56d736 USB: add RESET_RESUME quirk for Snapscan 1212
+d681bc4b92ed9bf97c1bae007b7ac209d3c940b0 ALSA: usb-audio: Fix potential out-of-bounds shift
+c58ba4cdaa23b7ee80c8f606036cb5e60db195b8 ALSA: usb-audio: Fix control 'access overflow' errors from chmap
+ff6a3e41d3c9b6e7bdee7d56147223f7bbbe21cc xhci: Give USB2 ports time to enter U3 in bus suspend
+e6a0277145db2e6c5c1fe065265b317337950b7e usb: xhci: Set quirk for XHCI_SG_TRB_CACHE_SIZE_QUIRK
+61ca623a17fd22ae5e6fa97d45572f7168329696 xhci-pci: Allow host runtime PM as default for Intel Alpine Ridge LP
+61047d96190ff1aed91d79fa018a96d574f2ce6c xhci-pci: Allow host runtime PM as default for Intel Maple Ridge xHCI
+3a850896621b554d036ac2891671fba690ebc4de USB: UAS: introduce a quirk to set no_write_same
+c05f299abcb48caf0bb1c89d684e922ef668dc29 USB: sisusbvga: Make console support depend on BROKEN
+7ed8b4e92a017e56a63c37bd20712d619fad9023 ALSA: pcm: oss: Fix potential out-of-bounds shift
+f3230058317f169b3a1fc272be69e3ee54489f08 serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
 
---===============7514618883769117083==
+--===============4638383584561842098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bdb751f2030d-0c623228adeb.txt
+Content-Disposition: attachment; filename=revlist-0c623228adeb-b8d18270c4a6.txt
 
-f7e9bf0055eefb839ab68261fb2e03a920f2fbf8 ptrace: Prevent kernel-infoleak in ptrace_get_syscall_info()
-277c1bfdf29417d44abe78ddd1b7023df20c6ff0 ipv4: fix error return code in rtm_to_fib_config()
-a135fa0c67154a1c14fa7bc004ef37972d798e6e mac80211: mesh: fix mesh_pathtbl_init() error path
-777b6b269d0c9d130be7f957ff89ae593910baa2 net: bridge: vlan: fix error return code in __vlan_add()
-a71b2f95801a48478ba7b2fffa914bd8e50eec84 vrf: packets with lladdr src needs dst at input with orig_iif when needs strict
-3dc1232ce4da2be3dd545382da173e4f0dd141a9 net: hns3: remove a misused pragma packed
-e4eda75dcbc67133cdf8e71f10adb43d9996553f udp: fix the proto value passed to ip_protocol_deliver_rcu for the segments
-36960662e59efe3f0b5e49a98b7ad4c7c313b1be enetc: Fix reporting of h/w packet counters
-bb6ede129c9a951cf616ece84f3ad1b32e6c76e6 bridge: Fix a deadlock when enabling multicast snooping
-d877c1c6603077605bda8e42c6fac5704694a6f0 net: stmmac: free tx skb buffer in stmmac_resume()
-fc35813b9233912f3573adf2f59df147e586d700 tcp: select sane initial rcvq_space.space for big MSS
-68675675730b1b7aa7e563c548c769ddc9f82e16 tcp: fix cwnd-limited bug for TSO deferral where we send nothing
-5c4ef71d827e97c409930a59a7ce19291285286b net/mlx4_en: Avoid scheduling restart task if it is already running
-e48db90b4e84a462c0b65855dced2b0051d41231 lan743x: fix for potential NULL pointer dereference with bare card
-d1c543ea32fa22670741918a1bcca7118ce5d4e2 net/mlx4_en: Handle TX error CQE
-5a2dec75caaaa355d9b20c346df6864367c2cc0d net: ll_temac: Fix potential NULL dereference in temac_probe()
-7ba90a3df969a5d6d491431a27ee972406fcca41 net: stmmac: dwmac-meson8b: fix mask definition of the m250_sel mux
-e9b132908814a4e96a06e90c9ef1ca1d6b66106a net: stmmac: delete the eee_ctrl_timer after napi disabled
-0db3830215fc15c001758ac96bee8907043ab1b6 ktest.pl: If size of log is too big to email, email error message
-616770e8304b803529cdadc4c7005e849b8406ff USB: dummy-hcd: Fix uninitialized array use in init()
-f92fe5b448ee457cb5b754b691a01ec7cdb87976 USB: add RESET_RESUME quirk for Snapscan 1212
-88806db3bbeca254ef5ee71cb7370024a6bd8ab0 ALSA: usb-audio: Fix potential out-of-bounds shift
-96434e0336aad1580055f7a28a492840ed4b7d50 ALSA: usb-audio: Fix control 'access overflow' errors from chmap
-c2c68b014f3f849a49af4115da200bff1ec86a6c xhci: Give USB2 ports time to enter U3 in bus suspend
-8d2a72f4fa35b92c0a79828a684ccd78d4ed7b29 xhci-pci: Allow host runtime PM as default for Intel Alpine Ridge LP
-a938de4aaf080eee0025c19cbd56860aaaf473b5 USB: UAS: introduce a quirk to set no_write_same
-ee502746345bd2d4812ff8d3a1c86e8a92ce9612 USB: sisusbvga: Make console support depend on BROKEN
-54046fe4a8e0b95e4e1b22568867782b406b1588 ALSA: pcm: oss: Fix potential out-of-bounds shift
-0c623228adeb2070457fa9b1fb3cf9d9688a5aa5 serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
+a2495b06f4e148283a4005626bcbab4c7cff8960 ptrace: Prevent kernel-infoleak in ptrace_get_syscall_info()
+6c755c237bfdf16bf4b2a21f4bc2a9ccd50f0b85 ipv4: fix error return code in rtm_to_fib_config()
+52a89d4b59baba84039dbe5bb043ff92010f88b0 mac80211: mesh: fix mesh_pathtbl_init() error path
+816a679ce2edad0110a2f6fe6cf38d286c3a54eb net: bridge: vlan: fix error return code in __vlan_add()
+382df63e1f4b1fc341fa791a92935f92906adf42 vrf: packets with lladdr src needs dst at input with orig_iif when needs strict
+b4702d31a4a89f2825fa1b2f9661a83822a7f217 net: hns3: remove a misused pragma packed
+5ca76e6f566f6915cb9da721ae1d714c9159a155 udp: fix the proto value passed to ip_protocol_deliver_rcu for the segments
+0647753c4b4455f000485b2b40c8d87704cfc051 enetc: Fix reporting of h/w packet counters
+8b26149f739ec3eabbf2aa8c367821df786d0439 bridge: Fix a deadlock when enabling multicast snooping
+13b8784a247f2aac9e5571dbb77dec5597a85887 net: stmmac: free tx skb buffer in stmmac_resume()
+86c26ebcb69c4b2bf9c0dd1b983f5ec4b7f2242b tcp: select sane initial rcvq_space.space for big MSS
+a53e5bcc28abb9b7550e8667827379b5a5ef70c1 tcp: fix cwnd-limited bug for TSO deferral where we send nothing
+4f410ce350ac562bb751fd50acffba7bf51de064 net/mlx4_en: Avoid scheduling restart task if it is already running
+771416673268e32c11d4dd7609f4982b5f92d47f lan743x: fix for potential NULL pointer dereference with bare card
+9c8e03b3fd2add6bae67b46e302dad1d6f2a1cb9 net/mlx4_en: Handle TX error CQE
+22669444a36615825908934e201fdf89711e233a net: ll_temac: Fix potential NULL dereference in temac_probe()
+a7e060975b7ece1f7feeabc4871761b59163c370 net: stmmac: dwmac-meson8b: fix mask definition of the m250_sel mux
+39e1fa1e34a8249f1d03c53de001fa09af9467ba net: stmmac: delete the eee_ctrl_timer after napi disabled
+a7d46dd6f92517049fb3d860f449fbb10b347775 ktest.pl: If size of log is too big to email, email error message
+da1f81f413f14d88bf87e243c25b59704086dbc5 USB: dummy-hcd: Fix uninitialized array use in init()
+b7343123ef3a420899165e531212bab58e3af20b USB: add RESET_RESUME quirk for Snapscan 1212
+84c88296de830d12b6fe4df493ede8abda362a5d ALSA: usb-audio: Fix potential out-of-bounds shift
+23b6621d22b1930fdcaa9225db55090fe5dbc6d2 ALSA: usb-audio: Fix control 'access overflow' errors from chmap
+eadd2860fb11ec436720ab8adefa45a46e5022bf xhci: Give USB2 ports time to enter U3 in bus suspend
+222ca903b65f5f3954c859b50c74a1d3065dd7ea xhci-pci: Allow host runtime PM as default for Intel Alpine Ridge LP
+32b9507cb581d01b87a7a27d5313fccdde4c3f46 USB: UAS: introduce a quirk to set no_write_same
+539eb98baef528001b503239e95a9978c15d0d2e USB: sisusbvga: Make console support depend on BROKEN
+47666efe2ba843b80a9b675fbc25097fe51fed50 ALSA: pcm: oss: Fix potential out-of-bounds shift
+4467a048e4fec4f6c7e5b71ec0de95062f284231 serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
+129a39460bcf2ecfdda4d72052ffdb403da596a0 KVM: mmu: Fix SPTE encoding of MMIO generation upper half
+687ed1def40e5f5edf602e1eccc58bb0751cb841 Revert "selftests/ftrace: check for do_sys_openat2 in user-memory test"
+86be4c0bf0dcb2561d7eb834c5d05934b4b3209b membarrier: Explicitly sync remote cores when SYNC_CORE is requested
+9186bc6551609c1f3f2fcfb7dd5bbac3bb22a44d x86/resctrl: Remove unused struct mbm_state::chunks_bw
+b8d18270c4a63087b3aafbab39fb3b01a627ba20 x86/resctrl: Fix incorrect local bandwidth when mba_sc is enabled
 
---===============7514618883769117083==
+--===============4638383584561842098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02369d5c0e32-d35ac4050f5e.txt
+Content-Disposition: attachment; filename=revlist-d35ac4050f5e-4fac4b789de4.txt
 
-2335a9127d635a20ae3271f4dfaefef964f92081 ptrace: Prevent kernel-infoleak in ptrace_get_syscall_info()
-102dea3707d53cdd62c66730e1bd2ad4ef67ab22 net/sched: fq_pie: initialize timer earlier in fq_pie_init()
-b7b92192d21261113c3f07bbd909bd1918b741e3 net: ipa: pass the correct size when freeing DMA memory
-ef37b380efb928e6148684f885af9d6ac7b6c7f7 ipv4: fix error return code in rtm_to_fib_config()
-26444272b93e6779468eca2c792061afc743f085 mac80211: mesh: fix mesh_pathtbl_init() error path
-a29cf6dc84c7590a5824e92993b43b63120ff517 net: bridge: vlan: fix error return code in __vlan_add()
-3f1e55cebb4a82a9bcddfade5ee99eee390ac5b3 vrf: packets with lladdr src needs dst at input with orig_iif when needs strict
-de1699b1874ae2aa0949facc586aa48c0e6b1358 net: mscc: ocelot: fix dropping of unknown IPv4 multicast on Seville
-8020187f5cba8fa045c6a71aa0a91e202b58c8b0 net: hns3: remove a misused pragma packed
-ee179f6f71d77871495b8de5c5591f63e7ca7613 udp: fix the proto value passed to ip_protocol_deliver_rcu for the segments
-a22589f3072138ae2496c626fc17eba3b449dd7a enetc: Fix reporting of h/w packet counters
-8870a6a7c17b3aca1ac340ccc47bb69fe3a0b65f bridge: Fix a deadlock when enabling multicast snooping
-e7b6b410c4f43d418f99e1c99c0557d71d6d00ee mptcp: print new line in mptcp_seq_show() if mptcp isn't in use
-44aa21f21f4ef2d17238319f9d995b11596cd0d6 net: stmmac: dwmac-meson8b: fix mask definition of the m250_sel mux
-a202cc0ec8f59c8079aead38b5a24d306993a7a3 net: stmmac: start phylink instance before stmmac_hw_setup()
-957ce6d356fcb6be118583fe75ece9a0f271f765 net: stmmac: free tx skb buffer in stmmac_resume()
-1be96948350a87c2d88d0d2607808dd9fe083e87 net: stmmac: delete the eee_ctrl_timer after napi disabled
-09dfe52dd726a5f14f1b544e97a7dc7315da796a net: stmmac: overwrite the dma_cap.addr64 according to HW design
-1f2c83e2044ef67fe24d48a9478eadb2ff93090e net: ll_temac: Fix potential NULL dereference in temac_probe()
-d6e9110a12fce98c0e09fcfc5023c16dc84c999d tcp: select sane initial rcvq_space.space for big MSS
-f6805a9cee3f93dd417e4c672868e3dd5ab19361 e1000e: fix S0ix flow to allow S0i3.2 subset entry
-68f7fb97ba2f3dca1ef69e335acbbbf0187fadfb ethtool: fix stack overflow in ethnl_parse_bitset()
-c9f6bfe908f8bacbe374fd4fca84b4afed380c5a tcp: fix cwnd-limited bug for TSO deferral where we send nothing
-9106010637f221df90bd70725ff836ef817bbfed net: flow_offload: Fix memory leak for indirect flow block
-8b6e1afc1fcbcc2783506a0798a93a1603c6916c net/mlx4_en: Avoid scheduling restart task if it is already running
-90a3eb1f28726f0ae31492c0711d31efb7b4487b net/mlx4_en: Handle TX error CQE
-8d76ae5dc30ab545da27a14e7bf46ce8a57cfeb3 net: sched: Fix dump of MPLS_OPT_LSE_LABEL attribute in cls_flower
-9a3de858610b352f0d0883871ac9473b32825579 bonding: fix feature flag setting at init time
-5830bff24cd7ebafa4336543292f92e549bb54a6 ch_ktls: fix build warning for ipv4-only config
-56e558ab2425a32e1c4265134fe11613af98d683 lan743x: fix for potential NULL pointer dereference with bare card
-52b9000b82e27743c75a95a16ba8eb2e328ce33b net: stmmac: increase the timeout for dma reset
-352c856b3203546e77892d7126fe5b6e8528ea61 net: tipc: prevent possible null deref of link
-6f4d3d3e2ae1484a5a0a73c249092a20aa884a08 ktest.pl: If size of log is too big to email, email error message
-1277aadbfe02567defc0e9a727c2ee68c3f2c2c9 ktest.pl: Fix the logic for truncating the size of the log file for email
-50f1492f6fb84f5ff50cc0466747cb4ee3ad8725 USB: dummy-hcd: Fix uninitialized array use in init()
-27e7dc9ca78b8ab24c1de1007c652ab0cd952d25 USB: add RESET_RESUME quirk for Snapscan 1212
-105866633ddd42c5325122f1f898c32b89e41670 ALSA: usb-audio: Fix potential out-of-bounds shift
-87620f9be826cff7764c3e3e910d7f351700f30c ALSA: usb-audio: Fix control 'access overflow' errors from chmap
-e6cf62f263d90e4fe8534ce813ea7ba291615b49 xhci: Give USB2 ports time to enter U3 in bus suspend
-73091eb7258b4044a9b6ace3dd2a6a9e8b0120d4 xhci-pci: Allow host runtime PM as default for Intel Alpine Ridge LP
-fa06f42d186ef0386201a0bdc2a17f2d183f5370 xhci-pci: Allow host runtime PM as default for Intel Maple Ridge xHCI
-d875892f62e9dee2aac4c07f5df1df0aeb688211 USB: UAS: introduce a quirk to set no_write_same
-546559359485d07e585e60a5bd649c25ada94642 USB: sisusbvga: Make console support depend on BROKEN
-e824b6cce6ba6535db74a6fd09c616c8e2e80029 ALSA: pcm: oss: Fix potential out-of-bounds shift
-d35ac4050f5e4f3b2e8ad78b22eb4b1e8a05c948 serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
+07804dcd8e49473be06a2859c8e7a12c54756241 ptrace: Prevent kernel-infoleak in ptrace_get_syscall_info()
+382d9fd814cd386ebb9d3c21aa619f76d4e28f81 net/sched: fq_pie: initialize timer earlier in fq_pie_init()
+207819292c01c5458006a2090783766c38908c4b net: ipa: pass the correct size when freeing DMA memory
+36116ad51ecbd6ec4502ca890e56987cafb93aa1 ipv4: fix error return code in rtm_to_fib_config()
+cf7943e56c732f112b6905f15d70220415b1e58b mac80211: mesh: fix mesh_pathtbl_init() error path
+80adc37effbed28ebe2c8c8998dc4f67f9ed44ac net: bridge: vlan: fix error return code in __vlan_add()
+1b51c432f1173c17d45086240f18067645d278cd vrf: packets with lladdr src needs dst at input with orig_iif when needs strict
+3e3a083c5bf82f29a8c84e3e4428fb9bef750a79 net: mscc: ocelot: fix dropping of unknown IPv4 multicast on Seville
+be11f204320f1ff1c2b233288c489b6db419f85f net: hns3: remove a misused pragma packed
+8078909f39fdf8b4ff5313e6cfd52130f433aeba udp: fix the proto value passed to ip_protocol_deliver_rcu for the segments
+1c76605e29dde27b03a225c272e5a5af61fb5d43 enetc: Fix reporting of h/w packet counters
+233c0eeb2b516fba937c1f9c0a7b948d810d191b bridge: Fix a deadlock when enabling multicast snooping
+3907ad0c7bae35ecedfa1bbb2e8ea7a015a96ef5 mptcp: print new line in mptcp_seq_show() if mptcp isn't in use
+3c7a9c38fa8304acab39825ca3dee8560bac20a9 net: stmmac: dwmac-meson8b: fix mask definition of the m250_sel mux
+9901b27e4d7bc1990b0d598ae17df5a4c764659b net: stmmac: start phylink instance before stmmac_hw_setup()
+bde75e5e8df4fb85ed9b59c45ddb3a49f993847d net: stmmac: free tx skb buffer in stmmac_resume()
+d58fcc527b27ec1d9d0d4ee6e3f04e9086a3001f net: stmmac: delete the eee_ctrl_timer after napi disabled
+a6c20392c90ee930b0a0ee6a6798c06e94e6a2da net: stmmac: overwrite the dma_cap.addr64 according to HW design
+0836aa159626ca7bddd856762f54b4458f3c7f9a net: ll_temac: Fix potential NULL dereference in temac_probe()
+450020abd620556a3e1df4d4e072539966ef2b7f tcp: select sane initial rcvq_space.space for big MSS
+96bc7e03279f17b1a744ccd423337ef5187c9644 e1000e: fix S0ix flow to allow S0i3.2 subset entry
+51ff9c58cefcfcb5d2a1c936ea1768e17f5b295b ethtool: fix stack overflow in ethnl_parse_bitset()
+4b9dad40cc9a39bac71d743fb190c99f229e69a1 tcp: fix cwnd-limited bug for TSO deferral where we send nothing
+0362d4a34794f67fa7f384942d73d12438dff3cb net: flow_offload: Fix memory leak for indirect flow block
+9074e18d26874e92047340666fdec4d3571dbcc6 net/mlx4_en: Avoid scheduling restart task if it is already running
+cbb1e79c33ec8961ad62a646a9c6191b017bd7b1 net/mlx4_en: Handle TX error CQE
+11caaae4f06c94de90d72fbdebc9c528316648bb net: sched: Fix dump of MPLS_OPT_LSE_LABEL attribute in cls_flower
+0e571da8a73ce20f5c9b96d0563963a1266f71f8 bonding: fix feature flag setting at init time
+8c4b8052cf597e6c3072ce09b916da03783716b8 ch_ktls: fix build warning for ipv4-only config
+29b64870625bcf5a721235ef412fd9ac9493cdf1 lan743x: fix for potential NULL pointer dereference with bare card
+9b3ddd5c3def43ebd4bf87ef1ccb056c30ed4816 net: stmmac: increase the timeout for dma reset
+6c62137f9edb97af63dd55a0f90a30f2372eaf1f net: tipc: prevent possible null deref of link
+798f96800692d5ef1a8fe440c6304d18479f6f11 ktest.pl: If size of log is too big to email, email error message
+f700e9240129550d804936b652662b1435c79412 ktest.pl: Fix the logic for truncating the size of the log file for email
+8d96f77166a24a7a745d04bc904fed77ddac960b USB: dummy-hcd: Fix uninitialized array use in init()
+74bf477bddffd08f9f0be9923596c6e003fec3c7 USB: add RESET_RESUME quirk for Snapscan 1212
+d0d34df93d0d55f44103616dfc4f1793596c98ba ALSA: usb-audio: Fix potential out-of-bounds shift
+77204e223925d64539de298e4c03f1b9f90cd610 ALSA: usb-audio: Fix control 'access overflow' errors from chmap
+73a454aeff74ad583460431cd1d4983de64a5020 xhci: Give USB2 ports time to enter U3 in bus suspend
+184ca7edeb0a2cba8bde8471eb19a8e3a0f6d81f xhci-pci: Allow host runtime PM as default for Intel Alpine Ridge LP
+fe966b37e93aa2678b5024d4f8d1605dfd2d33fe xhci-pci: Allow host runtime PM as default for Intel Maple Ridge xHCI
+f5ede0fd996d0b70f45d2b7c94ae3f678d126fe5 USB: UAS: introduce a quirk to set no_write_same
+5123b46cd8d0cff06e9e429b8c2450f2145065c1 USB: sisusbvga: Make console support depend on BROKEN
+42f3d2c299fed76470223260d0da65099821a267 ALSA: pcm: oss: Fix potential out-of-bounds shift
+d02e6c8f6ee755ae28b25cf44cca7b6fad99afdf serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
+625bcdd38f50415d64d0981b59dafc6d9c2a3362 KVM: mmu: Fix SPTE encoding of MMIO generation upper half
+b9d37dedc12a0544f1bf0cea3a87d5a61f9e0ea7 membarrier: Explicitly sync remote cores when SYNC_CORE is requested
+5c23d5788b8689b59ff38a9ed6353b665db0416a x86/resctrl: Remove unused struct mbm_state::chunks_bw
+4fac4b789de492410bed0108478a1588fceb93ed x86/resctrl: Fix incorrect local bandwidth when mba_sc is enabled
 
---===============7514618883769117083==--
+--===============4638383584561842098==--
