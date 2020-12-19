@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7411173164379046314=="
+Content-Type: multipart/mixed; boundary="===============1273070413875026857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Sat, 19 Dec 2020 07:53:09 -0000
-Message-Id: <160836438991.25085.14688806655262330031@gitolite.kernel.org>
+Date: Sat, 19 Dec 2020 07:53:20 -0000
+Message-Id: <160836440008.25242.1423090966941565015@gitolite.kernel.org>
 
---===============7411173164379046314==
+--===============1273070413875026857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/utils/kernel/ndctl/ndctl
 user: vishal
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/pending
     old: faa39a6db1e6e504693f09dd6c8d94cae2d2d6d2
     new: c33461b693158e30c29fe766a92fc8d22051f3ae
     log: revlist-faa39a6db1e6-c33461b69315.txt
 
---===============7411173164379046314==
+--===============1273070413875026857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ c7d6e4e94e45d686318f3a0cd3cd4cb00b87bd5d daxctl: phys_index value 0 is valid
 f13ebb1352c42e72689cc6cbaf88e6b27abf7b6b Merge branches 'for-71/jm/devdax_subdiv', 'for-71/djbw/reconfig-ns', 'for-71/djbw/license' and 'for-71/zl/coverity' into pending
 c33461b693158e30c29fe766a92fc8d22051f3ae daxctl/device: fix a memory leak in create-device
 
---===============7411173164379046314==--
+--===============1273070413875026857==--
