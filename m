@@ -1,50 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============4111009206488025859=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sat, 19 Dec 2020 16:33:21 -0000
-Message-Id: <160839560184.8157.11211257228138182488@gitolite.kernel.org>
-
---===============4111009206488025859==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Sat, 19 Dec 2020 16:56:07 -0000
+Message-Id: <160839696723.23740.9228271397704002770@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/aarch64-laptops-acpi
-    old: 49a7bd25c79cdee96b472eb5de117c018ca89ce3
-    new: 0000000000000000000000000000000000000000
-
---===============4111009206488025859==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x3D200E9CA6329909 1608395600 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ardb/linux.git
-nonce 1608395599-0ee218537b71ef38369a53636ea8fb089c9a7197
-
-49a7bd25c79cdee96b472eb5de117c018ca89ce3 0000000000000000000000000000000000000000 refs/heads/aarch64-laptops-acpi
------BEGIN PGP SIGNATURE-----
-
-iQGzBAABCgAdFiEE+9lifEBpyUIVN1cpw08iOZLZjyQFAl/eK1AACgkQw08iOZLZ
-jyRC9Av/RC86jKW6VoNd7U1fQm0xkEWrbmjzUOjCcEOSjMXuPk1fT26kXj1kXyV9
-6Vn3FWRmRWpy+7fpG6a4wWo97Revx56t8PbPAlCCPBJBwlmtMib0xcnRjY35Pn5R
-ZUnCrkYIzSAROcwc7OUdwzkNFrZvXy6GJs+2F7aK1vVtB3yXrZYrNRhbFzfGf73U
-UyJpK8JWcf3X1ud+56HdmCRb+ZQn+xDrQjCjLqQ023GbHPEBiZIVU48yD9p/yJ6M
-wr2AlHxT6+N+az+Zc8X9JWWlbB2QYk9czCvN+dGLfik7PCxLjaxHTxiv8oMt84PV
-R4DVBdtOLDnENDgcJpeq8NqutJ+oSlflElNq/jATJ4o8scMA1V97XWH3vAvwrHst
-2mCWgzBJX+VOp2oU/QGF9mWjZ7l7pQO+b3g3BkNYbH4oAxPX2w6PxAjsoL3VzC1x
-rOopy7qMaDVhZi2PR/IHdDE4dX3TRDdcNA27qYUdTWxOC4MxsnwpCQS4l270hQy0
-mvzAPaD0
-=GxoQ
------END PGP SIGNATURE-----
-
---===============4111009206488025859==--
+  - ref: refs/heads/for-greg/4.4-9
+    old: bb0b30e08e9a4ebcd12fd479cefa07ce5420e437
+    new: 0c6f65c676696f23a8a6b76849cc0a84f68082c7
+    log: |
+         e7fff9c65e8fdb2d1ff718917883cb3f278fe0f8 Input: cros_ec_keyb - send 'scancodes' in addition to key events
+         0c6f65c676696f23a8a6b76849cc0a84f68082c7 Input: goodix - add upside-down quirk for Teclast X98 Pro tablet
+         
+  - ref: refs/heads/for-greg/4.9-9
+    old: c362f604bed6e4cd06280229cb1295a037572802
+    new: 61c3d4adeb286d446c5c2e05f1a2366203d36e71
+    log: |
+         352c546d930cc4de352f391fb0f8392a094457a2 Input: cros_ec_keyb - send 'scancodes' in addition to key events
+         61c3d4adeb286d446c5c2e05f1a2366203d36e71 Input: goodix - add upside-down quirk for Teclast X98 Pro tablet
+         
+  - ref: refs/heads/for-greg/5.9-9
+    old: f5fd302eb14db8005f9c1390cd93627ad422051c
+    new: 7b805c0b33b4eb9171a6e86570ee457c9c98cf08
+    log: |
+         b733ac6d65af3862fa33afd44a69387889724272 drm/amdkfd: Fix leak in dmabuf import
+         3fbcbc1390b871a6883389fe2752b314c9a55943 Input: cros_ec_keyb - send 'scancodes' in addition to key events
+         00b4c4aa02d77883c91abd1ecce4500f13abc20a selftests/bpf: Fix array access with signed variable test
+         a5324ac5e188349d5bdc4f323a0e1124fe2ca038 selftests/bpf: Fix "dubious pointer arithmetic" test
+         2153e5910b1006b4545560be38ef6328dd49b12b initramfs: fix clang build failure
+         8ee921a3f07fe4242cddca52e918788b8c780a92 elfcore: fix building with clang
+         7b805c0b33b4eb9171a6e86570ee457c9c98cf08 Input: goodix - add upside-down quirk for Teclast X98 Pro tablet
+         
