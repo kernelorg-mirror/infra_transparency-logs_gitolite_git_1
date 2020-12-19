@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Sat, 19 Dec 2020 15:23:55 -0000
-Message-Id: <160839143598.28488.9034423871984893479@gitolite.kernel.org>
+Date: Sat, 19 Dec 2020 15:24:07 -0000
+Message-Id: <160839144767.28629.11750648814814358878@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brauner/linux
 user: brauner
 changes:
-  - ref: refs/heads/vfs
-    old: 4a50af369c427f75ca5bf9fb9a209cba8fbf3e96
-    new: 6abc20f8f879d891930f37186b19c9dc3ecc34dd
+  - ref: refs/tags/close-range-cloexec-unshare-v5.11
+    old: d98ef9023d1766a3f8b0d9fcff61fe9c50df7cbb
+    new: 3595194dbc9a1e96f837cabc2b5d810b8b450bb3
     log: |
          fec8a6a691033f2538cd46848f17f337f0739923 close_range: unshare all fds for CLOSE_RANGE_UNSHARE | CLOSE_RANGE_CLOEXEC
          ca202504ea6f04b2e724741100ab63f8f018a8af selftests/core: fix close_range_test build after XFAIL removal
