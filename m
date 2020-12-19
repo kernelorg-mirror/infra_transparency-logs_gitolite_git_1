@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Sat, 19 Dec 2020 11:43:59 -0000
-Message-Id: <160837823994.24993.15487920940844587328@gitolite.kernel.org>
+Date: Sat, 19 Dec 2020 11:52:55 -0000
+Message-Id: <160837877547.32563.7184195745668738386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,12 @@ repo: pub/scm/linux/kernel/git/brauner/linux
 user: brauner
 changes:
   - ref: refs/heads/vfs
-    old: 2dd9cb7f40c4b386d11d12a5ecffee004224bf00
-    new: d0bf0541bc1e2ecc3a5cccfb18089fac4fbc48fb
+    old: d0bf0541bc1e2ecc3a5cccfb18089fac4fbc48fb
+    new: 10f7cdddddf4a4b3e0ee1e948fc769d10a047806
     log: |
-         601b3a6dfc9b6791a837c5607f3d5bc95fd832a8 close_range: cap range for CLOSE_RANGE_UNSHARE | CLOSE_RANGE_CLOEXEC
-         470e1910ab9da6ae2bd81a408a133469ebc8d814 selftests/core: fix close_range_test build after XFAIL removal
-         2da7fc6dc9c859a9d3f83ed6e307df6de9f3ca61 selftests/core: handle missing syscall number for close_range
-         464d19831dc9c5955e040ff4a43a98c5cca50bce selftests/core: add test for CLOSE_RANGE_UNSHARE | CLOSE_RANGE_CLOEXEC
-         d0bf0541bc1e2ecc3a5cccfb18089fac4fbc48fb selftests/core: add regression test for CLOSE_RANGE_UNSHARE | CLOSE_RANGE_CLOEXEC
+         9d3ec47c703ad33a9830be5b0be3120155e13126 close_range: cap range for CLOSE_RANGE_UNSHARE | CLOSE_RANGE_CLOEXEC
+         09056299e1822e57460152adc2f2de6a693ba804 selftests/core: fix close_range_test build after XFAIL removal
+         e9ff0b3de50dae54b698a7fe9336ab62b1d3cbf3 selftests/core: handle missing syscall number for close_range
+         f76626a584aab2f2e62adbe7c5989e660cfceb49 selftests/core: add test for CLOSE_RANGE_UNSHARE | CLOSE_RANGE_CLOEXEC
+         10f7cdddddf4a4b3e0ee1e948fc769d10a047806 selftests/core: add regression test for CLOSE_RANGE_UNSHARE | CLOSE_RANGE_CLOEXEC
          
