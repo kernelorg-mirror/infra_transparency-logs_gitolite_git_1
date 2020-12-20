@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4866643837100825204=="
+Content-Type: multipart/mixed; boundary="===============4922432790765497776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Sun, 20 Dec 2020 09:14:42 -0000
-Message-Id: <160845568220.29333.999236820460336323@gitolite.kernel.org>
+Date: Sun, 20 Dec 2020 09:14:52 -0000
+Message-Id: <160845569229.29475.2107473399489557529@gitolite.kernel.org>
 
---===============4866643837100825204==
+--===============4922432790765497776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 13458ffe0a953e17587f172a8e5059c243e6850a
-    new: 3db1a3fa98808aa90f95ec3e0fa2fc7abf28f5c9
-    log: revlist-13458ffe0a95-3db1a3fa9880.txt
+  - ref: refs/heads/testing
+    old: c6b734892420f00fdc3c49b8c1029aa5bf0790b9
+    new: 7cad2b1df1dea782969f19e1c92bfd655644eb6e
+    log: revlist-c6b734892420-7cad2b1df1de.txt
 
---===============4866643837100825204==
+--===============4922432790765497776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1608455676 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1608455687 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1608455676-6596ce0fb6cd22de98d65376e5108847203f70a4
+nonce 1608455686-7be03cbcbfc42f64a8a1de7d68d9283c03ecfaeb
 
-13458ffe0a953e17587f172a8e5059c243e6850a 3db1a3fa98808aa90f95ec3e0fa2fc7abf28f5c9 refs/heads/master
+c6b734892420f00fdc3c49b8c1029aa5bf0790b9 7cad2b1df1dea782969f19e1c92bfd655644eb6e refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/fFfwTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqc/UB/9DT6yajWNXlhOx7o2YQ8IXqWEODpPh
-iO772r+tYATF7SkiDflN6GHkYjj4RAEv7J236W/j7D3wBr+NSX4700XFAfRIgAps
-NAbscwFTG+yc1MEhymCiO/ahBKr27UhjT48g+mmZXTiQroLIIzTAE65VUZx/hQ9r
-Kh1Kv6W6BUnP9h7IHASUfVzzKtO6rJEtEfzrRrJmtkvlWEh4jTGvU8h0/Y53Aw5L
-1QaiBsTu9NnDYh/0Dw11bmiHbLPuPywdPQkP+wnWqsDvUeLf/Vq3wLf5JBMuefNe
-cLHjVXbO+K8Jq6UptW4vcDrMl0HPde5cqiANcLlEVEGIaTwwB61v3gzm
-=ce7F
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/fFgcTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqceQCACx+HCteDtNmA6+y8EtxQ0/CjjymfaN
+RfL5dc/FVqzWwqRTNXVXr4i6IH6TGP1ZBW/GnwvhCIcQPGAwUOT8TeJUTH+vmghT
+RtiNqx1n5mJ+AcG+RTpPOlCGjcYZaHNSV7nH9i6nMrGBwC8fEHt2kbGkL8HMCqMX
+3refghRMLt9L0wSq782q3pM0swVDp8EMSYdJN5jyl/Q0ErgoK0YADFOi8UTmwYGC
+ANVqUXvyc1mMzazGY41xdRr0XUTguenF08b5t+ILR4QM//dWeBWRlD7ep5cIP1Cp
+adDT8/jXUZGO6m65qCxRi2oqS7BtP0o8W0pFfs/T+r0tJLaJkiDPPrUA
+=cRnv
 -----END PGP SIGNATURE-----
 
---===============4866643837100825204==
+--===============4922432790765497776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13458ffe0a95-3db1a3fa9880.txt
+Content-Disposition: attachment; filename=revlist-c6b734892420-7cad2b1df1de.txt
 
-6d90c9a96e68967118149e04b7b170115866795b dt-bindings:iio:samsung, exynos-adc: drop missuse of io-channel-ranges
-eda20ba1e25e6d8e7fa0c62d1bd685aa5de8e8ff iio: core: Consolidate iio_format_avail_{list,range}()
-e08b60d352dbc3c32d64bdaedbb481fcdc14ff6c iio: core: Simplify iio_format_list()
-19ef7b70ca9487773c29b449adf0c70f540a0aab iio: buffer: Fix demux update
-f2c38f9fb4b0bda2ca59013446070a625bb367a7 dt-bindings:iio:health:ti,afe4403: txt to yaml binding
-f494151b5eba0140d97729e33038ccc8ff440305 dt-bindings:iio:health:ti,afe4404: txt to yaml conversion
-b70d154d655806838ea4bae11622a82c293d1b46 dt-bindings:iio:adc: convert adc.txt to yaml
-26d146e29600c2b27856d80dbdcba93f82eb0f16 dt-bindings:iio:adc:adi,ad7124: Use the new adc.yaml channel binding
-f759f020fbc3fad9f0aab27f4056799a21237c7b dt-bindings:iio:adc:adi,ad7292: Use new adc.yaml binding for channels.
-dba91f82d58023d961b793fe35ff1d1305d92aab dt-bindings:iio:iio-binding.txt Drop file as content now in dt-schema
 06d2ff6fe11e410c614e44fbb690382b3a8592fa dt-bindings:iio:dac:dpot-dac: yaml conversion.
 a86319f42c7b5f807fb03241a87023fa4640b4c7 dt-bindings:iio:potentiometer: give microchip,mcp4531 its own binding
 66a6dcc20e6317cfbcc6181d2b98900db7b93b17 dt-bindings:iio:adc:envelope-detector: txt to yaml conversion.
@@ -749,13 +739,6 @@ e5fab13a7c54b8e69ea3bb27067eb06aba5f19b5 Merge branch 'for-linus' into for-next
 43d5ca88dfcd35e43010fdd818e067aa9a55f5ba ALSA: usb-audio: Fix potential out-of-bounds shift
 175b8d89fe292796811fdee87fa39799a5b6b87a ALSA: pcm: oss: Fix potential out-of-bounds shift
 f84b799996e29ad3b37e83f7871e79023f29979d Merge branches 'edac-spr', 'edac-igen6' and 'edac-misc' into edac-updates-for-v5.11
-4c832b380cd04e37d5da8d5b5dce81e0565be7e5 can: m_can: update link to M_CAN user manual
-709efa6f00c7f7e0287a46757aab6114158ac94c can: m_can: convert indention to kernel coding style
-3b464affd898216c9da19a88db992e6113a99dce can: m_can: use cdev as name for struct m_can_classdev uniformly
-78e19a292681c97f7e14e8feae482d6285f795cd can: m_can: m_can_config_endisable(): mark as static
-b8d6255548ff9a94f1fed44b01da9602861cf84a can: m_can: m_can_clk_start(): make use of pm_runtime_resume_and_get()
-ac33ffd3e2b037fe68683b48dadd1cef4a969993 can: m_can: let m_can_class_allocate_dev() allocate driver specific private data
-c6b734892420f00fdc3c49b8c1029aa5bf0790b9 can: m_can: use struct m_can_classdev as drvdata
 598100be3053fef628adf3ad6ee4f828ad308f64 Merge tag 'asoc-v5.11' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 fe62de310e2b563c0d303a09d06b020077fe86b4 libbpf: Support modules in bpf_program__set_attach_target() API
 2e33f831fccd2df83836a8e255755f85d364aaeb selftests/bpf: Add set_attach_target() API selftest for module target
@@ -1075,5 +1058,22 @@ c367caf1a38b6f0a1aababafd88b00fefa625f9e Merge tag 'sound-5.11-rc1' of git://git
 7240153a9bdb77217b99b76fd73105bce12770be Merge tag 'driver-core-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 2911ed9f47b47cb5ab87d03314b3b9fe008e607f Merge tag 'char-misc-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 3db1a3fa98808aa90f95ec3e0fa2fc7abf28f5c9 Merge tag 'staging-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+22daac5e782654709ca8d8e2682294bf9249fa02 can: tcan4x5x: replace DEVICE_NAME by KBUILD_MODNAME
+006206b47ca6a7b0a5f2411535ebd3fa099c50be can: tcan4x5x: beautify indention of tcan4x5x_of_match and tcan4x5x_id_table
+0731a403d785af2f9018100aac9e88bcae581e2c can: tcan4x5x: rename tcan4x5x.c -> tcan4x5x-core.c
+db2e388d9102be1f0f581ef853c93d00c715e5de can: tcan4x5x: move regmap code into seperate file
+3a094519b5d7e12fec83e6d4cf7fdf3453ff9464 can: tcan4x5x: mark struct regmap_bus tcan4x5x_bus as constant
+733c4b39f69d478accc1a56e7e23f2a9cb993706 can: tcan4x5x: tcan4x5x_bus: remove not needed read_flag_mask
+286f05318aa176a2ebf82e9c92de5b06dfec4edc can: tcan4x5x: remove regmap async support
+78c89ab0ea4081fa9da6d6ada417253ac89dbcdb can: tcan4x5x: rename regmap_spi_gather_write() -> tcan4x5x_regmap_gather_write()
+3ead7f9ae85188dffca86c2f8fed14955820c689 can: tcan4x5x: tcan4x5x_regmap_write(): remove not needed casts and replace 4 by sizeof
+88f523e85a6cc55d1b62bace2c08e35468b17ced can: tcan4x5x: tcan4x5x_regmap_init(): use spi as context pointer
+ba540ddc8d9cdb4250adf8731439a9f05c13ff20 can: tcan4x5x: fix max register value
+605f16ef75c5e345fc3d3d73e8b4fd9b78e1f7f8 can: tcan4x5x: tcan4x5x_regmap: set reg_stride to 4
+82439454563ad4e342edd79abf59acaf5c698ff5 can: tcan4x5x: add max_raw_{read,write} of 256
+98f524f0b34405304f162dc8d611c17ed315d580 can: tcan4x5x: add {wr,rd}_table
+8f1679322dffee3f3fea03a216180a24ff9eb5db can: tcan4x5x: rework SPI access
+46a60a24d14b6b9c0a1b0dc3d135c999910b9f64 can: tcan4x5x: add support for half-duplex controllers
+7cad2b1df1dea782969f19e1c92bfd655644eb6e can: raw: return -ERANGE when filterset does not fit into user space buffer
 
---===============4866643837100825204==--
+--===============4922432790765497776==--
