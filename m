@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Sun, 20 Dec 2020 18:36:50 -0000
-Message-Id: <160848941032.26538.12261740577462172354@gitolite.kernel.org>
+Date: Sun, 20 Dec 2020 18:42:01 -0000
+Message-Id: <160848972138.29329.8986608503245915178@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geoff/ps3-linux
 user: geoff
 changes:
-  - ref: refs/heads/ps3-queue-v5.10
-    old: bea1b9ac1832937086cf8026fa1c0284b82ea33e
-    new: 06de1f5cab195c962165702522d7198f865ca215
+  - ref: refs/heads/master
+    old: d6eb5f72c2d28a1bba258b5becb5d5f4be4033da
+    new: 5bd84d14fe5d5fa369f8a71a950e3c13734b4b60
     log: |
          cc4bfed433955f935bac696f30be32b593457fc4 ps3-debugging: Setup DABR register
          44ff96db16e8632144e4a474cd29b751694a3155 ps3_defconfig: Cut down version
@@ -26,4 +26,5 @@ changes:
          9e3e447b155ce8ee384f74d999f50a54a2856955 local: ps3_petitboot_nfs_defconfig: ip=dhcp
          ec950cc323c1629e7da511e2396b225601476312 ALSA: ppc: drop if block with always false condition
          06de1f5cab195c962165702522d7198f865ca215 powerpc/ps3: make system bus's remove and shutdown callbacks return void
+         5bd84d14fe5d5fa369f8a71a950e3c13734b4b60 Merge branch 'ps3-queue-v5.10'
          
