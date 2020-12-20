@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Sun, 20 Dec 2020 18:35:58 -0000
-Message-Id: <160848935838.26192.11336918303451366615@gitolite.kernel.org>
+Date: Sun, 20 Dec 2020 18:36:50 -0000
+Message-Id: <160848941032.26538.12261740577462172354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geoff/ps3-linux
 user: geoff
 changes:
-  - ref: refs/heads/ps3-queue
+  - ref: refs/heads/ps3-queue-v5.10
     old: bea1b9ac1832937086cf8026fa1c0284b82ea33e
     new: 06de1f5cab195c962165702522d7198f865ca215
     log: |
