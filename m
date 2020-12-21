@@ -1,44 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Mon, 21 Dec 2020 19:40:46 -0000
-Message-Id: <160857964604.20971.12345555392054143526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
+Date: Mon, 21 Dec 2020 19:50:13 -0000
+Message-Id: <160858021394.26321.14517054531997445198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 57eab1726288d57ed4c2bbc4fec68849d5114609
-    new: 9fad8a8c92c67e8c71d5bf51065f16c220fcab41
+  - ref: refs/heads/v5.4-rt
+    old: 609cce000909f44148cbd08c1f8acdb9b43379df
+    new: 2cb0daa9d528e36f026b0c60e7eb881d2282462a
     log: |
-         9fad8a8c92c67e8c71d5bf51065f16c220fcab41 Add lore.kernel.org list archive link.
-         
-  - ref: refs/merge-requests/103/head
-    old: 45e22bcb62ac6506d18ffccd7942ac8f298b56e6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/103/merge
-    old: 1f729335cd91b081cf925b3a75e617a37e271c87
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/121/head
-    old: 38e631d17434806d8821c522ce0d85f718fc04e0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/121/merge
-    old: b4a2ce2633f004a679bd4894a1d87a3933d4e985
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/122/head
-    old: fc5f9cc46d78f4cd5ba5fb71699e37ffce11d02b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/122/merge
-    old: 0ad59eeba5d16e9722792dbece9493fb284d108e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/98/merge
-    old: ad42f2b7fd896aa9867825d15f7eff6348d34e2b
-    new: 03af428c86f333431ed1d97248e599c76bed1aa4
-    log: |
-         c84eb736b2cb5561639b1b8d1505523487bc66ac Introduce crypt_header_is_detached API call.
-         03af428c86f333431ed1d97248e599c76bed1aa4 Reject LUKS2 decryption with broken cmd line arguments.
+         9bfcda96c5319cd1e895cdaecfafbf2e92a10ee6 Revert "net: Properly annotate the try-lock for the seqlock"
+         a107c1666f9a4418d8317c30d432e043e9a919df Revert "hrtimer: Allow raw wakeups during boot"
+         708bf4e9bb4f175220d2b97a7ca81d3b7d6c12db timers: Move clearing of base::timer_running under base::lock
+         b230be473328a2e9140537cc6e1dfb1742899386 mm/swap: use local lock in deactivate_page()
+         2cb0daa9d528e36f026b0c60e7eb881d2282462a Linux 5.4.82-rt46
          
