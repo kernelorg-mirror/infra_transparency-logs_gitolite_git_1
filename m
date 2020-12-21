@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5592534342620990345=="
+Content-Type: multipart/mixed; boundary="===============3084255560807065553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 21 Dec 2020 18:50:34 -0000
-Message-Id: <160857663417.20638.8710186425798450705@gitolite.kernel.org>
+Date: Mon, 21 Dec 2020 18:51:04 -0000
+Message-Id: <160857666487.20863.15920542001544648259@gitolite.kernel.org>
 
---===============5592534342620990345==
+--===============3084255560807065553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 855249595ee15894d2c407457b77780611969f9d
-    new: ba02bab54366ef4a90eb9405e4d64a9e33c3fd82
+  - ref: refs/heads/stable-0.6.y
+    old: 10af809c0c75f6b229f72356eca07d19a4f24480
+    new: ab9c6a69a6bc0e1e4a5de232fee29acdaa69d2a5
     log: |
-         ba02bab54366ef4a90eb9405e4d64a9e33c3fd82 Add -f to "b4 mbox" to filter dupes
+         ab9c6a69a6bc0e1e4a5de232fee29acdaa69d2a5 Add -f to "b4 mbox" to filter dupes
          
 
---===============5592534342620990345==
+--===============3084255560807065553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1608576633 -0500
+pusher B6C41CE35664996C! 1608576664 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1608576633-65605a16ad5efa8e9fe1baaf957229a5712bb1be
+nonce 1608576664-889d1c44ed9da7ec80941765cd7a06cc19648f59
 
-855249595ee15894d2c407457b77780611969f9d ba02bab54366ef4a90eb9405e4d64a9e33c3fd82 refs/heads/master
+10af809c0c75f6b229f72356eca07d19a4f24480 ab9c6a69a6bc0e1e4a5de232fee29acdaa69d2a5 refs/heads/stable-0.6.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX+DueQAKCRC2xBzjVmSZ
-bKfzAQCOXN5+XdZiN3U3i8/yKbuo9qTRnQuE5XWyhgbmNsSi8gEAol96PTubNzeR
-PM5/ysQtFO23Hv/uSEVrE1LHGBIt+A4=
-=i+AX
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX+DumAAKCRC2xBzjVmSZ
+bFcHAP9ujCwB35+YLS5qAFBZUK2X3HgNj+yPoKEjHJQGPx3EjQEA1WanFB8N8MJE
+OGr4caLtuvm5n2wQX0Sh4lshAMZcZAo=
+=ebHC
 -----END PGP SIGNATURE-----
 
---===============5592534342620990345==--
+--===============3084255560807065553==--
