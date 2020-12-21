@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/nsaenz/linux-rpi
-Date: Mon, 21 Dec 2020 12:16:34 -0000
-Message-Id: <160855299485.15844.2030778888245643306@gitolite.kernel.org>
+Date: Mon, 21 Dec 2020 12:17:48 -0000
+Message-Id: <160855306882.16310.3261604626309289354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/nsaenz/linux-rpi
 user: nsaenz
 changes:
   - ref: refs/heads/for-next
-    old: 278407a53c3b33fb820332c4d39eb39316c3879a
-    new: f8e8662579e2eecd46a5c165b361091898d02fcf
+    old: f8e8662579e2eecd46a5c165b361091898d02fcf
+    new: e10bb7f95cba97bd7aed4d16b518bc0f9a1a430b
     log: |
-         f8e8662579e2eecd46a5c165b361091898d02fcf ARM: dts: bcm2711: Use compatible string for BCM2711 DSI1
+         e10bb7f95cba97bd7aed4d16b518bc0f9a1a430b ARM: dts: bcm2711: Use compatible string for BCM2711 DSI1
          
