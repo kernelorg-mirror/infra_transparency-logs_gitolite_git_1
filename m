@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6289565638436103439=="
+Content-Type: multipart/mixed; boundary="===============4567745177141331764=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tobin/leaks
-Date: Mon, 21 Dec 2020 21:26:38 -0000
-Message-Id: <160858599868.24352.11603355374533972405@gitolite.kernel.org>
+Date: Mon, 21 Dec 2020 21:27:21 -0000
+Message-Id: <160858604175.24630.2185563883110514832@gitolite.kernel.org>
 
---===============6289565638436103439==
+--===============4567745177141331764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tobin/leaks
 user: tobin
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/leaks-testing
     old: bbf5c979011a099af5dc76498918ed7df445635b
     new: 2c85ebc57b3e1817b6ce1a6b703928e113a90442
     log: revlist-bbf5c979011a-2c85ebc57b3e.txt
 
---===============6289565638436103439==
+--===============4567745177141331764==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d2360a398f0b68722641c59aeb2623e79bd03e34 Merge tag 'block-5.10-2020-12-12' of gi
 ec6f5e0e5ca0764b4bc522c9f9d5abf876a0e3e3 Merge tag 'x86-urgent-2020-12-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2c85ebc57b3e1817b6ce1a6b703928e113a90442 Linux 5.10
 
---===============6289565638436103439==--
+--===============4567745177141331764==--
