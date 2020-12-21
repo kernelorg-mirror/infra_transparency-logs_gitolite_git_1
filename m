@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Mon, 21 Dec 2020 01:13:41 -0000
-Message-Id: <160851322147.18581.9580096805675035880@gitolite.kernel.org>
+Date: Mon, 21 Dec 2020 01:19:18 -0000
+Message-Id: <160851355882.21599.12883540355785322685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,12 @@ repo: pub/scm/linux/kernel/git/clk/linux
 user: sboyd
 changes:
   - ref: refs/heads/clk-next
-    old: 83b6ec23fbe7c9451652170a2b4c5cfdeb113223
-    new: aed6ad0bfd5f19cd43fb832627db8ac83a7bc162
+    old: aed6ad0bfd5f19cd43fb832627db8ac83a7bc162
+    new: abe7e32f1d50392fbfb6391f4fe1a9f1348b24f3
     log: |
-         6c5c16007a11676eb8d4aeeb090a940b20976747 dt-bindings: Add Canaan vendor prefix
-         0c797d2c7e82bfec69e8fceb0d03b1e016eed03b dt-binding: clock: Document canaan,k210-clk bindings
-         aed6ad0bfd5f19cd43fb832627db8ac83a7bc162 Merge branch 'clk-canaan' into clk-next
+         23cae54f52690ea88b73d3f30d78ad40c01f9f89 Merge branches 'clk-doc', 'clk-qcom', 'clk-simplify', 'clk-hw', 'clk-renesas' and 'clk-samsung' into clk-next
+         d240d4c20578d8b6dc8b3720534681aa8636fdad Merge branches 'clk-amlogic', 'clk-rockchip', 'clk-of', 'clk-freescale' and 'clk-unused' into clk-next
+         699eda2814f28fca34f3540e56cf10467c9bf48b Merge branches 'clk-tegra', 'clk-imx', 'clk-sifive', 'clk-mediatek' and 'clk-summary' into clk-next
+         b53a1603b46c5ee9b2fd4b276b12b916b33dc3d7 Merge branches 'clk-ti', 'clk-analog', 'clk-trace', 'clk-at91' and 'clk-silabs' into clk-next
+         abe7e32f1d50392fbfb6391f4fe1a9f1348b24f3 Merge branches 'clk-ingenic', 'clk-vc5', 'clk-cleanup', 'clk-canaan' and 'clk-marvell' into clk-next
          
-  - ref: refs/heads/clk-canaan
-    old: 0000000000000000000000000000000000000000
-    new: 0c797d2c7e82bfec69e8fceb0d03b1e016eed03b
