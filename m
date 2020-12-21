@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1749470892794208468=="
+Content-Type: multipart/mixed; boundary="===============3267565373136534135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 21 Dec 2020 16:57:48 -0000
-Message-Id: <160856986817.15094.7750349753790012890@gitolite.kernel.org>
+Date: Mon, 21 Dec 2020 16:58:43 -0000
+Message-Id: <160856992312.15407.6112389258376648943@gitolite.kernel.org>
 
---===============1749470892794208468==
+--===============3267565373136534135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,32 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 07c988b2217ac42c7e29cfd321d68c45a4e4b3ef
-    new: 855249595ee15894d2c407457b77780611969f9d
+  - ref: refs/heads/stable-0.6.y
+    old: 27f1ca8ce3e64c434503f15b93d56f6d2fc87495
+    new: 10af809c0c75f6b229f72356eca07d19a4f24480
     log: |
-         855249595ee15894d2c407457b77780611969f9d Check if -o is a maildir
+         6edf1732c1d68dcb88ab816c43a338a6ffd7e0f7 Update version to 0.6.3-dev
+         10af809c0c75f6b229f72356eca07d19a4f24480 Check if -o is a maildir
          
 
---===============1749470892794208468==
+--===============3267565373136534135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1608569867 -0500
+pusher B6C41CE35664996C! 1608569922 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1608569867-519b894aec406e0141c9fda5a315be01a3dee5c2
+nonce 1608569922-e2c31f9544b9477026af92fae630a084dff598d9
 
-07c988b2217ac42c7e29cfd321d68c45a4e4b3ef 855249595ee15894d2c407457b77780611969f9d refs/heads/master
+27f1ca8ce3e64c434503f15b93d56f6d2fc87495 10af809c0c75f6b229f72356eca07d19a4f24480 refs/heads/stable-0.6.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX+DUCwAKCRC2xBzjVmSZ
-bHlxAP4xpoT0Ora8Kvp3jDjQUJxBsyfX5BRsugAoou6e8CcS2AD7BdB/PuwtLG0l
-xShKH41Iqh9Hv+dPAr9Mxqv9Hytk8g4=
-=jQzC
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX+DUQgAKCRC2xBzjVmSZ
+bO0JAP43k6qmbxUdm1OWuwH7OEYMohA7NfDgwvqrHrmJWtwY5wD/eHrUDP47D1NG
+TaYtPPA6rDbdT1INb0bfQxHVossdsgI=
+=vDyx
 -----END PGP SIGNATURE-----
 
---===============1749470892794208468==--
+--===============3267565373136534135==--
