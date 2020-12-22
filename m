@@ -1,53 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5544774879876038618=="
+Content-Type: multipart/mixed; boundary="===============0441594058182282088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Tue, 22 Dec 2020 18:15:23 -0000
-Message-Id: <160866092306.27442.10903853841109141181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
+Date: Tue, 22 Dec 2020 18:15:44 -0000
+Message-Id: <160866094456.27594.3313385847395876525@gitolite.kernel.org>
 
---===============5544774879876038618==
+--===============0441594058182282088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/tytso/ext4
+user: tytso
 changes:
-  - ref: refs/heads/testing
-    old: 8639ff4194c98c78536f6e8941a79a3a966a71f1
-    new: db725430769ce4f632ce73ad64e069d88b0bd155
-    log: revlist-8639ff4194c9-db725430769c.txt
+  - ref: refs/heads/dev
+    old: 739c541bd3ea1f5943284542abb855116632a84b
+    new: 5a3b590d4b2db187faa6f06adc9a53d6199fb1f9
+    log: revlist-739c541bd3ea-5a3b590d4b2d.txt
 
---===============5544774879876038618==
+--===============0441594058182282088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8639ff4194c9-db725430769c.txt
+Content-Disposition: attachment; filename=revlist-739c541bd3ea-5a3b590d4b2d.txt
 
-ea21f589de9a7d787f50da480d01457d8dcdd64a thermal: broadcom: simplify the return expression of bcm2711_thermal_probe()
-ac35e6cb9ea51dddceae7e20a736e248730908ac thermal: int340x: processor_thermal: Correct workload type name
-b8643a529930802778b04a4fe3f5cd53d9d6057c thermal: devfreq_cooling: change tracing function and arguments
-229794eee27fddbedd03be5f8b20375a2637ff48 thermal: devfreq_cooling: use a copy of device status
-84e0d87c9944eb36ae6037af5cb6905f67c074c5 thermal: devfreq_cooling: add new registration functions with Energy Model
-615510fe13bd2434610193f1acab53027d5146d6 thermal: devfreq_cooling: remove old power model and use EM
-23e9d781413ab6dd2b743d61439423c575347fc4 drm/panfrost: Register devfreq cooling and attempt to add Energy Model
-433178e75834dc35f1ae79b56ec2cf396f2c6f3c thermal/core: Emit a warning if the thermal zone is updated without ops
-d7203eedf4f68e9909fd489453168a9d26bf0c3d thermal/core: Add critical and hot ops
-1fa34e49e4b7e66214a1d15261c0224d60366eec thermal/drivers/rcar: Remove notification usage
-4401117bf7fc11dc738c0963fa0c94814abc8dcd thermal/drivers/devfreq_cooling: Fix the build when !ENERGY_MODEL
-0e221c97ec968c1805c06e26147b566f433616c6 thermal/drivers/acpi: Use hot and critical ops
-5bb7b16c1dfbd0bdf927400f0d64140ecad921b2 thermal/core: Remove notify ops
-21bef20d27fe0bf9c7eea252921491e91afd1d33 thermal/core: Remove the 'forced_passive' option
-932afafd17950b304dfbb792feb8d872b8ecf049 thermal/core: Remove unused functions rebind/unbind exception
-349fcbefba9ae0f60b0c7d845caf18c6a6a0b35d thermal/core: Remove pointless test with the THERMAL_TRIPS_NONE macro
-8676c46802888cf9f8941c8c8fe940db57b73043 acpi/drivers/thermal: Remove TRIPS_NONE cooling device binding
-749bfa8c3ac8588a2f73ecd399e25146e1baa94d thermal/core: Remove THERMAL_TRIPS_NONE test
-86dd109a2c2144e3e6e8bf4d875d57080a07e579 thermal/core: Remove unused macro THERMAL_TRIPS_NONE
-d5505bee7e52d9c173301e78b48d9e7dae53255c thermal/core: Precompute the delays from msecs to jiffies
-d2ba29072a87f7d2ee6b62df71c0ee4efaf42ef9 thermal/core: Use precomputed jiffies for the polling
-5fecd5b8763d547b7f0ca547d240d3c80dff5173 thermal/core: Remove ms based delay fields
-db725430769ce4f632ce73ad64e069d88b0bd155 thermal/core: Remove pointless thermal_zone_device_reset() function
+c92dc856848f32781e37b88c1b7f875e274f5efb ext4: defer saving error info from atomic context
+82ef1370b0c1757ab4ce29f34c52b4e93839b0aa ext4: avoid s_mb_prefetch to be zero in individual scenarios
+be993933d2e997fdb72b8b1418d2a84df79b8962 ext4: remove unnecessary wbc parameter from ext4_bio_write_page
+e789ca0cc1d51296832b8424fa4008ce6e9d1703 ext4: combine ext4_handle_error() and save_error_info()
+4392fbc4bab57db3760f0fb61258cb7089b37665 ext4: drop sync argument of ext4_commit_super()
+05c2c00f3769abb9e323fcaca70d2de0b48af7ba ext4: protect superblock modifications with a buffer lock
+2d01ddc86606564fb08c56e3bc93a0693895f710 ext4: save error info to sb through journal if available
+e92ad03fa53498f12b3f5ecb8822adc3bf815b28 ext4: use sbi instead of EXT4_SB(sb) in ext4_update_super()
+dfd56c2c0c0dbb11be939b804ddc8d5395ab3432 ext4: fix superblock checksum failure when setting password salt
+a3f5cf14ff917d46a4d491cf86210fd639d1ff38 ext4: drop ext4_handle_dirty_super()
+5a3b590d4b2db187faa6f06adc9a53d6199fb1f9 ext4: don't leak old mountpoint samples
 
---===============5544774879876038618==--
+--===============0441594058182282088==--
