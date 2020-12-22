@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Tue, 22 Dec 2020 16:39:47 -0000
-Message-Id: <160865518783.30099.2552227698821557944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Tue, 22 Dec 2020 16:42:12 -0000
+Message-Id: <160865533282.32087.6220069144475024250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: cf9e6d048d65ff4a87f5707b0cc4fd3c036d62fb
-    new: de0d5a19c16bbb3eaba473e0eaaade7f55c48bcb
-    log: |
-         97aea7414c381f123d3b6805f9bdd7d80c95ac33 plugin: gemalto: fix source of gprs notifications
-         3551cc89ecc3229c4a50a644f519f7608e188b65 gemalto: gprs: cgev gprs context deactivation
-         de0d5a19c16bbb3eaba473e0eaaade7f55c48bcb gemalto: gprs: support different gprs protocols
-         
+  - ref: refs/tags/kbuild-v5.11
+    old: 0000000000000000000000000000000000000000
+    new: 7309d72cb287c77aeda563dcbfe555ae39272b17
+  - ref: refs/tags/kconfig-v5.11
+    old: 0000000000000000000000000000000000000000
+    new: 0f1c0fc8a864f675cba1826bf821a86211cc808d
