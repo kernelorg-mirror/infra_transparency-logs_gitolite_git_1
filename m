@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Tue, 22 Dec 2020 11:32:04 -0000
-Message-Id: <160863672437.23856.12101360972173245348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 22 Dec 2020 12:23:26 -0000
+Message-Id: <160863980604.24606.14854465912042904591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 7cd5d5fe43d56e3017397fa3a086096e11920c3e
-    new: f7e5737f26aa7198db476c94463766910db48941
+    old: 89e65975fea5c25706e8cc3a89f9f97b20fc45ad
+    new: d84fc2c9dceffe650d7bf5e42c2f3fc11709eb47
     log: |
-         f7e5737f26aa7198db476c94463766910db48941 tests: Fix overlay_overlay_nosugar test case
+         d84fc2c9dceffe650d7bf5e42c2f3fc11709eb47 Bluetooth: btusb: Remove duplicate newlines from logging
          
