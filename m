@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 22 Dec 2020 21:01:22 -0000
-Message-Id: <160867088238.2704.15107901434225967337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/sbc
+Date: Tue, 22 Dec 2020 21:14:56 -0000
+Message-Id: <160867169624.8982.9001891793572794431@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/bluetooth/sbc
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: d84fc2c9dceffe650d7bf5e42c2f3fc11709eb47
-    new: 05672a2c14a4ea20b7e31a1d8d847292c2b60c10
+    old: b2c20a3ecf5ed00f63c94077a9762b505935ede9
+    new: 909a9bdf7ab143e1f0baaf9736baebd3cd79aacf
     log: |
-         05672a2c14a4ea20b7e31a1d8d847292c2b60c10 Bluetooth: btrtl: Enable central-peripheral role
+         909a9bdf7ab143e1f0baaf9736baebd3cd79aacf sbc_primitives: Fix build on non-x86.
          
