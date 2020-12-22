@@ -1,32 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 22 Dec 2020 08:26:07 -0000
-Message-Id: <160862556783.933.8795043221282088817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 22 Dec 2020 09:27:07 -0000
+Message-Id: <160862922751.23596.8004979553017342607@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/for-linus
-    old: 525d9c57d0eeeb660d9b25e5b2d1c95975e3ba95
-    new: 43877226829eda91856b055d217b3033805fd76f
-    log: |
-         43877226829eda91856b055d217b3033805fd76f ALSA: usb-audio: Add implicit feeback support for the BOSS GT-1
-         
-  - ref: refs/heads/for-next
-    old: 525d9c57d0eeeb660d9b25e5b2d1c95975e3ba95
-    new: 43877226829eda91856b055d217b3033805fd76f
-    log: |
-         43877226829eda91856b055d217b3033805fd76f ALSA: usb-audio: Add implicit feeback support for the BOSS GT-1
-         
-  - ref: refs/heads/master
-    old: d7b3c9c66b3c7eb137fdac999c03fc25e1ddebd2
-    new: e812e6361f540bf81877d3333c94658a953a8a8b
-    log: |
-         43877226829eda91856b055d217b3033805fd76f ALSA: usb-audio: Add implicit feeback support for the BOSS GT-1
-         e812e6361f540bf81877d3333c94658a953a8a8b Merge branch 'for-linus'
-         
+  - ref: refs/heads/for-5.11/upstream-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 37309f47e2f5674f3e86cb765312ace42cfcedf5
