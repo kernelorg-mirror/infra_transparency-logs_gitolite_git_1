@@ -1,19 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 22 Dec 2020 08:10:18 -0000
-Message-Id: <160862461873.21794.16619121509936411904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 22 Dec 2020 08:26:07 -0000
+Message-Id: <160862556783.933.8795043221282088817@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: d7f39c40ebb6986e7371510d1c20a4efee4a7f0d
-    new: e1dc20995cb9fa04b46e8f37113a7203c906d2bf
+  - ref: refs/heads/for-linus
+    old: 525d9c57d0eeeb660d9b25e5b2d1c95975e3ba95
+    new: 43877226829eda91856b055d217b3033805fd76f
     log: |
-         e1dc20995cb9fa04b46e8f37113a7203c906d2bf driver core: platform: Add extra error check in devm_platform_get_irqs_affinity()
+         43877226829eda91856b055d217b3033805fd76f ALSA: usb-audio: Add implicit feeback support for the BOSS GT-1
+         
+  - ref: refs/heads/for-next
+    old: 525d9c57d0eeeb660d9b25e5b2d1c95975e3ba95
+    new: 43877226829eda91856b055d217b3033805fd76f
+    log: |
+         43877226829eda91856b055d217b3033805fd76f ALSA: usb-audio: Add implicit feeback support for the BOSS GT-1
+         
+  - ref: refs/heads/master
+    old: d7b3c9c66b3c7eb137fdac999c03fc25e1ddebd2
+    new: e812e6361f540bf81877d3333c94658a953a8a8b
+    log: |
+         43877226829eda91856b055d217b3033805fd76f ALSA: usb-audio: Add implicit feeback support for the BOSS GT-1
+         e812e6361f540bf81877d3333c94658a953a8a8b Merge branch 'for-linus'
          
