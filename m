@@ -1,127 +1,218 @@
-Content-Type: multipart/mixed; boundary="===============1841317212089907331=="
+Content-Type: multipart/mixed; boundary="===============5346507719155160171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Wed, 23 Dec 2020 15:11:31 -0000
-Message-Id: <160873629117.20550.10566225444125614264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Wed, 23 Dec 2020 15:35:59 -0000
+Message-Id: <160873775906.4339.2362054637926876643@gitolite.kernel.org>
 
---===============1841317212089907331==
+--===============5346507719155160171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: 61c68d4caf192942f716b81484b5d027af00b399
-    new: 4367bbe1a9a667f6e137b3ab8aa0f6af93bbde5a
-    log: revlist-61c68d4caf19-4367bbe1a9a6.txt
+  - ref: refs/heads/master
+    old: 8653b778e454a7708847aeafe689bce07aeeb94e
+    new: 614cb5894306cfa2c7d9b6168182876ff5948735
+    log: revlist-8653b778e454-614cb5894306.txt
 
---===============1841317212089907331==
+--===============5346507719155160171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61c68d4caf19-4367bbe1a9a6.txt
+Content-Disposition: attachment; filename=revlist-8653b778e454-614cb5894306.txt
 
-2ca95c28ad1d61e9eaabdc2913be9284e9af26d0 ACPI / processor: Avoid reserving IO regions too early
-e8ea4f4726cf336d05c632ace3336684be9f9ecb netfilter: arp_tables: fix invoking 32bit "iptable -P INPUT ACCEPT" failed in 64bit kernel
-6fbfbd785277657ad707dea28b50ef7b2adfbde0 ext2: Don't clear SGID when inheriting ACLs
-b6c3c7c2053a7ea8f5f5aad60d648ae41de2d12f reiserfs: Don't clear SGID when inheriting ACLs
-7da241d2b31675db7ec192e50520bea9806f51bf Revert "module: Add retpoline tag to VERMAGIC"
-341ca9662595b1c0c2730249eb5cbb35109575a8 Input: trackpoint - force 3 buttons if 0 button is reported
-d877ba598e0b8011f9dfefd7bc4fb1bfcb9c5af8 bpf: arsh is not supported in 32 bit alu thus reject it
-4e6bc9bc87eed6dc6f4f113d93cdc5f1e867bbcd bpf: fix divides by zero
-0c89409b7f721ffc5e314ed23d64d35cbcb675c4 bpf: reject stores into ctx via st and xadd
-60d96a12479724ecc01cbc31154565c2f5ac7870 x86/pti: Make unpoison of pgd for trusted boot work for real
-7f9272a06c65ffb739074763cbf81790b3e88721 mtd: nand: denali_pci: add missing MODULE_DESCRIPTION/AUTHOR/LICENSE
-e435151e4b439806ae00508a09b5035846aa7500 btrfs: fix deadlock when writing out space cache
-b21e93e0f3e80c9ad7547e241fe625b14acc70f1 grace: replace BUG_ON by WARN_ONCE in exit_net hook
-d00ae945957889123bbefef78aaba71733ee27fb lockd: fix "list_add double add" caused by legacy signal interface
-3463af95944e2b58b1fae286684f49e66314c5d3 SUNRPC: Allow connect to return EHOSTUNREACH
-03c65f790cc49ff38432f8c39f3cd1320fcb1f2a kmemleak: add scheduling point to kmemleak_scan()
-ea12afbb0bd86827c9580ec286ef0754649b5225 usb: option: Add support for FS040U modem
-c6414cffdd921dc2cb6de5c838a30f28bbabdd81 brcmfmac: Add support for bcm43340/1 wireless chipsets
-07b90c68b7b7c867b3b73aee7ba1c2615057d6e2 ASoC: rsnd: don't call free_irq() on Parent SSI
-375c3bfda8d10c7a57a654d21bc3696d7b81b8c6 ASoC: rsnd: avoid duplicate free_irq()
-3ae81b3b395d30faca7304bf853d1fe08537dbda media: soc_camera: soc_scale_crop: add missing MODULE_DESCRIPTION/AUTHOR/LICENSE
-87571de24210f0e8d043da7fcf170ebdf6294b9a dmaengine: dmatest: fix container_of member in dmatest_callback
-ffcfab8a40cd71e6ae228db26025aea4627858c6 mtd: cfi: convert inline functions to macros
-cdbc68b7f63367be592c886044f24a02e4ce4415 ubi: block: Fix locking for idr_alloc/idr_remove
-e4fe12ea316aca41742c08ce0e8678c0eb44adca nfs/pnfs: fix nfs_direct_req ref leak when i/o falls back to the mds
-89d37773ca546190ec8e62f63365a061e6402ef3 ahci: Annotate PCI ids for mobile Intel chipsets as such
-aeda2f5deb5638f44e3e9fcb5047721064ead32c ahci: Add PCI ids for Intel Bay Trail, Cherry Trail and Apollo Lake AHCI
-86f5e3cb7fba5c3b41cd22745dd31470f3546f02 ahci: Add Intel Cannon Lake PCH-H PCI ID
-3358595665da460e664f08eec96e2dc88e6d1dc9 watchdog: imx2_wdt: restore previous timeout after suspend+resume
-70dce08f49d2a73a6baad7ad48135a7bf5bbbd5f Bluetooth: btsdio: Do not bind to non-removable BCM43341
-f79b969676e25b4803f1981270677dcc3912e6fc btrfs: Handle btrfs_set_extent_delalloc failure in fixup worker
-7b9d05ae9c191fba99502b2bc6978de115eb882d ovl: fix failure to fsync lower dir
-f06254af0dc182a1809aec0415c231ce343803d1 x86/cpu: Change type of x86_cache_size variable to unsigned int
-7184e99c1a394af76f9937bcf0a1667220ee7109 mm: hide a #warning for COMPILE_TEST
-1b52f4b50c1600fef2277325910a403d6362dc31 Btrfs: fix unexpected -EEXIST when creating new inode
-a4328802fe3536a8660b02d7cb100829c0333d44 ALSA: hda - Fix headset mic detection problem for two Dell machines
-be5b11a96d0edf25872e5c284fa61521cea19267 Btrfs: Initialize btrfs_root->highest_objectid when loading tree root and subvolume roots
-7c832c9c2ecbadd78a30a997d120eacad1e82cc9 ALSA: usb-audio: Fix parameter block size for UAC2 control requests
-632a881b18332f71b77216fcedf0335223452258 ALSA: usb-audio: Fix UAC2 get_ctl request with a RANGE attribute
-cf9dfb6d7872fac8a5b92fb0f619e120c3847122 ALSA: hda/realtek: PCI quirk for Fujitsu U7x7
-f161ad869917a4ebf19579de31e8208e1709c214 ALSA: usb-audio: add implicit fb quirk for Behringer UFX1204
-6fe48fb98aa73be8f2c7ba3f421c32d8ae71db32 mvpp2: fix multicast address filter
-7d640ce14802c7ce358af7c236fbe0892e00d299 vfs: don't do RCU lookup of empty pathnames
-84f437b4da6b9db0b53f01b3d5536aeaa946542f ARM: pxa/tosa-bt: add MODULE_LICENSE tag
-994bce088aa2ceed74db45035c235dd765f1afab net: add dst_cache support
-66035aef6c66e36aa45498753e56b607c7513ae4 cfg80211: check dev_set_name() return value
-a5c8aae232309376462bae588a03e419be8e4098 xfrm: Fix stack-out-of-bounds read on socket policy lookup.
-414aeed860ffe2bea017c337ac3c2108a32ea554 blktrace: fix unlocked registration of tracepoints
-be4f1fe044705fec87effbc8cdef4ead8611f90f drm: Require __GFP_NOFAIL for the legacy drm_modeset_lock_all
-21463d523f621a561ca73701641021f16dbbe6e9 KVM: x86: fix escape of guest dr6 to the host
-b940f62c1317152b4e618696b06f3b7c80f0c64c Make DST_CACHE a silent config option
-30c9e4d798ee4ebc1cd17206d6e1b7f2c7691d34 staging: android: ashmem: Fix a race condition in pin ioctls
-4f36631ea67cb7d3dac8937e257de47cc4d1b824 ARM: OMAP2+: Fix SRAM virt to phys translation for save_secure_ram_context
-ea04fad1af5206857ec39cc2176a12633b1479c7 RDMA/cma: Make sure that PSN is not over max allowed
-590c65e134248ed4813b0c547c847b44d59759db virtio_balloon: prevent uninitialized variable use
-d402f63592bd381f0f63e6cd1024d2ed0145f8ae isdn: icn: remove a #warning
-ac72e613db5e87af6c316e14709fe2d3d1eee542 vmxnet3: prevent building with 64K pages
-eebaf651a41a2c8a52ee60b36d305ab5c15eeea8 gpio: intel-mid: Fix build warning when !CONFIG_PM
-9903321f95c542e7618ccad5d9cb15a2588157a4 platform/x86: intel_mid_thermal: Fix suspend handlers unused warning
-e11399bcd12ecaae367085b0d1a915ec8f0edb66 video: fbdev: via: remove possibly unused variables
-9c8b06e63be6f8b7c77ec0d4520d1ae4b0ca6700 scsi: advansys: fix build warning for PCI=n
-340584f7d4e40efb7c6fe821c27d23d680292c2b x86/ras/inject: Make it depend on X86_LOCAL_APIC=y
-913a55c417370839c70cd58940e20027e7654348 x86/fpu/math-emu: Fix possible uninitialized variable use
-6f1a4f80ab58cb1ffecdbbe88ab962ccc887875e x86/build: Silence the build with "make -s"
-905d180f4e431f679fa18be095082ca27a6f8462 x86: add MULTIUSER dependency for KVM
-e7cf004222807db6c43214b06b7aad8ffa7fbef4 scsi: advansys: fix uninitialized data access
-ac2cdef3ab75b3c13768e3185aec7abd856f80c0 arm64: Kconfig: select COMPAT_BINFMT_ELF only when BINFMT_ELF is set
-3beb57cb97734a2ba942fc41378b56788b15119f ALSA: hda/ca0132 - fix possible NULL pointer use
-529df2acb94b27f67479b6f7b8c3137f14ee211e reiserfs: avoid a -Wmaybe-uninitialized warning
-ea15456088e11c02113fb5585a0a8ab4e38311ea ssb: mark ssb_bus_register as __maybe_unused
-8fb727250184f069749400555836e945ea56f1ed thermal: spear: use __maybe_unused for PM functions
-2c134c08f0efabdb2846ef4da28cee2f3ffc3f08 x86/boot: Avoid warning for zero-filling .bss
-baaa2adb232ab7ae45ec88ef5e74f4d4b76f70e6 scsi: sim710: fix build warning
-92c5834c4b1867f725c7ac589a694b7acf30221b drivers/net: fix eisa_driver probe section mismatch
-e08d3e7f897f5e9249d8b7e57d1369a8cfd5e48a dpt_i2o: fix build warning
-6ed264abb21089f7e50fe27fbdf6fbbb09228529 profile: hide unused functions when !CONFIG_PROC_FS
-bb76fcf5b32afba9ddd3be2f0897a7a6cca65deb md: avoid warning for 32-bit sector_t
-8fa0797f9bd36590f7deb279757238b599a3b7ad mtd: ichxrom: maybe-uninitialized with gcc-4.9
-dcd1e26ff49d04a002bba7cc5aa28b33afe4045a mtd: maps: add __init attribute
-131525ea984f7e58ff3263f61cd96dc80211cb09 mptfusion: hide unused seq_mpt_print_ioc_summary function
-94f75561d5b49a3124659190271b2eb5379de029 scsi: fdomain: drop fdomain_pci_tbl when built-in
-bca203779da30f5c019d78ee1f88889a98154449 video: fbdev: sis: remove unused variable
-58d5af94e9d993ffbfa74dc5f0af3f89badaf0e6 staging: ste_rmi4: avoid unused function warnings
-2adff1abf01681050346d92ec029f5e20f58eab0 fbdev: sis: enforce selection of at least one backend
-3ad2749d574f65e41a679e51d2e0ca6cdf0a9ec5 video: Use bool instead int pointer for get_opt_bool() argument
-6e3591048f08144103b5a72f465c056c62586c95 scsi: mvumi: use __maybe_unused to hide pm functions
-1b507aa62157bd0caff53aad1a6aac783f0019db SCSI: initio: remove duplicate module device table
-4bafb0c04dfa80a30fea182f867fd3e05282cf1e pwc: hide unused label
-b2ae09b1a4d8781d6ce2e5bc4dc80f3a589d6463 usb: musb/ux500: remove duplicate check for dma_is_compatible
-6b1a752c90700fc38cee4d705eff29c47d7b01da tty: hvc_xen: hide xen_console_remove when unused
-876b8ee77b66ad7ae0e6e7e04980424c9e21bf0d target/user: Fix cast from pointer to phys_addr_t
-0c5b6704d168393db0e7a19adb8d59eb808e9c4e driver-core: use 'dev' argument in dev_dbg_ratelimited stub
-ee56afd9971835ddcab26c715d35c383d5e1dda5 fbdev: auo_k190x: avoid unused function warnings
-5bf5d9e7e0f554d8093c1bb46f548318c448bda1 amd-xgbe: Fix unused suspend handlers build warning
-b003096c7cb2c5a13bf502bd4e0a1d0191d57c72 mtd: sh_flctl: pass FIFO as physical address
-8c7fb98a1648d2ec3cbf0c306fb9354aa70842ec mtd: cfi: enforce valid geometry configuration
-4367bbe1a9a667f6e137b3ab8aa0f6af93bbde5a fbdev: s6e8ax0: avoid unused function warnings
+e9a2f8b599d0bc22a1b13e69527246ac39c697b4 ARM: 9011/1: centralize phys-to-virt conversion of DT/ATAGS address
+7a1be318f5795cb66fa0dc86b3ace427fe68057f ARM: 9012/1: move device tree mapping out of linear region
+d5d44e7e3507b0ad868f68e0c5bca6a57afa1b8b ARM: 9013/2: Disable KASan instrumentation for some code
+d6d51a96c7d63b7450860a3037f2d62388286a52 ARM: 9014/2: Replace string mem* functions for KASan
+c12366ba441da2f6f2b915410aca2b5b39c16514 ARM: 9015/2: Define the virtual space of KASan's shadow region
+5615f69bc2097452ecc954f5264d784e158d6801 ARM: 9016/2: Initialize the mapping of KASan shadow memory
+421015713b306e47af95d4d61cdfbd96d462e4cb ARM: 9017/2: Enable KASan for ARM
+fc2933c133744305236793025b00c2f7d258b687 ARM: 9020/1: mm: use correct section size macro to describe the FDT virtual address
+4e79f0211b473f8e1eab8211a9fd50cc41a3a061 ARM: p2v: fix handling of LPAE translation in BE mode
+0b1674638a5c69cbace63278625c199100955490 ARM: assembler: introduce adr_l, ldr_l and str_l macros
+22f2d23098f7d34fc5142531cffb241d14611684 ARM: module: add support for place relative relocations
+eae78e1a97201a81a851342ad9659b60f61a3951 ARM: p2v: move patching code to separate assembler source file
+4b16421c3e955f440eb45546db6ce33d47f29c78 ARM: p2v: factor out shared loop processing
+7a94849e81b5c10e71f0a555300313c2789d9b0d ARM: p2v: factor out BE8 handling
+0869f3b9da38889faef2ccafcf675c713d4a3aa8 ARM: p2v: drop redundant 'type' argument from __pv_stub
+2730e8eaa4f2baccc03296e0c5ee109c0673fe5f ARM: p2v: use relative references in patch site arrays
+0e3db6c9d7f6fd0ee263325027e8d3fdac5a4c9e ARM: p2v: simplify __fixup_pv_table()
+e8e00f5afb087912fb3edb225ee373aa6499bb79 ARM: p2v: switch to MOVW for Thumb2 and ARM/LPAE
+9443076e4330a14ae2c6114307668b98a8293b77 ARM: p2v: reduce p2v alignment requirement to 2 MiB
+67e3f828bd4bf5e4eb4214dc4eb227d8f1c8a877 ARM: efistub: replace adrl pseudo-op with adr_l macro invocation
+62c4a2e202b18e1d7176875b7e7af240f340596b ARM: head-common.S: use PC-relative insn sequence for __proc_info
+172c34c9ff0144c3e1d96a9b54d6fecfe5d17c3c ARM: head-common.S: use PC-relative insn sequence for idmap creation
+91580f0dbf24c6d616091526a900213bc7aa48fe ARM: head.S: use PC-relative insn sequence for secondary_data
+450abd38fe6c6313ce9bdd9dce81c1dd604f6fb0 ARM: kernel: use relative references for UP/SMP alternatives
+59d2f2827dfdccf8911d5e51465136b52ba623c4 ARM: head: use PC-relative insn sequence for __smp_alt
+d74d2b225018baa0e04e080ee9e80b21667ba3a2 ARM: sleep.S: use PC-relative insn sequence for sleep_save_sp/mpidr_hash
+3bcf906b194cebb6817cbb2f07b69e12aa5d7f51 ARM: head.S: use PC relative insn sequence to calculate PHYS_OFFSET
+aaac3733171fca948c4fb66b78257620e3885339 ARM: kvm: replace open coded VA->PA calculations with adr_l call
+ae73ad0527075a39122e5374504e1137c2e2d14f Merge tag 'arm-p2v-for-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/ardb/linux into devel-stable
+2c736bb4087f2cb949cbbaf4148733131b8466dc Merge tag 'arm-adrl-replacement-for-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/ardb/linux into devel-stable
+735e8d93dc2b107f7891a9c2b1c4cfbea1fcbbbc ARM: 9022/1: Change arch/arm/lib/mem*.S to use WEAK instead of .weak
+df8eda0f1f58e2419875046f57c27c4d72378575 ARM: 9023/1: Spelling s/mmeory/memory/
+730b5764ea8526e48bdb85a24ed96d62de435940 ARM: 9024/1: Drop useless cast of "u64" to "long long"
+65cdb4a214c0015c19fc1876896746c05396f45d configfs: fix kernel-doc markup issue
+8d8d53cf8fd028310b1189165b939cde124895d7 dma-mapping: Allow mixing bypass and mapped DMA operation
+bf6e2d562bbc4d115cf322b0bca57fe5bbd26f48 powerpc/dma: Fallback to dma_ops when persistent memory present
+94035edcb4e3bbc9f445bee706722ef64e044095 dma-pool: no need to check return value of debugfs_create functions
+819b70ad620119d21a9e4be6ad665ece26fc0db8 dma-contiguous: fix a typo error in a comment
+65789daa8087e125927230ccb7e1eab13999b0cf dma-mapping: add benchmark support for streaming DMA APIs
+7679325702c90aecd393cd7cde685576c14489c0 selftests/dma: add test application for DMA_MAP_BENCHMARK
+985eabdcfe3aad1aea6fc195dafff503f303aa3a dm: remove unnecessary current->bio_list check when submitting split bio
+4da8f8c8a1e07ad18f057f4044ad96f4135dc877 dm verity: Add support for signature verification with 2nd keyring
+e4d2e82b2300b03f66b3ca8417590c86e661fab1 dm mpath: add IO affinity path selector
+298fb372984a808ccba9ca15a9cf0f393b3259b4 dm: rename multipath path selector source files to have "dm-ps" prefix
+410fe220078c3e3ed6f4167fb4de65139cfec631 dm: add support for REQ_NOWAIT to various targets
+e8dc79d1bdda0c048bfc7d39a8146c6db1c36ef6 dm crypt: Constify static crypt_iv_operations
+4d7659bfbe277a43399a4a2d90fca141e70f29e1 dm ioctl: fix error return code in target_message
+a2b8b2d975673b1a50ab0bcce5d146b9335edfad dm crypt: export sysfs of kcryptd workqueue
+28187dc8ebd938d574edfc6d9e0f9c51c21ff3f4 ARM: 9025/1: Kconfig: CPU_BIG_ENDIAN depends on !LD_IS_LLD
+331b9d02d77e0e33f273d8328d9f5453efddd926 ARM: 9026/1: unwind: remove old check for GCC <= 4.2
+4d576cab16f57e1f87978f6997a725179398341e ARM: 9028/1: disable KASAN in call stack capturing routines
+3c9f5708b7aed6a963e2aefccbd1854802de163e ARM: 9029/1: Make iwmmxt.S support Clang's integrated assembler
+f77ac2e378be9dd61eb88728f0840642f045d9d1 ARM: 9030/1: entry: omit FP emulation for UND exceptions taken in kernel mode
+e64ab473dddaffdfc4bd0b385204f472f2cb00d6 ARM: 9034/1: __div64_32(): straighten up inline asm constraints
+c25ce589dca10d64dde139ae093abc258a32869c tweewide: Fix most Shebang lines
+c93e4aeed1be5b99715a9127f5b38d6b4ab9e5d7 Makefile.extrawarn: remove -Wnested-externs warning
+7b675649be2217786847dee13597a0ab8502cc40 kconfig: qconf: drop Qt4 support
+7cd0158703a4828252f10a4c4519778fa069ffdf kconfig: qconf: use a variable to pass packages to pkg-config
+a2574c12df0d77eef293d2f388d7e05df33b6155 kconfig: qconf: convert to Qt5 new signal/slot connection syntax
+98ebea7ba891569c3678c5cd2fd1960098e84f4e kconfig: make lkc.h self-sufficient #include-wise
+f463269fb940d2a4259169b1e87aab8d259a9ec4 kconfig: qconf: show Qt version in the About dialog
+78cb09078352d032b12e2af7feb9b5b7f0fa794c kconfig: clean up header inclusion
+bca3e43c903f5c58daeab1fea0af566233ea003c ACPI: processor: fix NONE coordination for domain mapping failure
+defa0c6b94db6156c0e2c97e4cedf7986b24730a Merge branch 'acpi-processor' to satisfy dependencies
+d2641a5c3d5ecaa1078225e493c7fed821715a04 cppc_cpufreq: use policy->cpu as driver of frequency setting
+bf76bb208f2b653306f2fc8f9c2a22f9890702bd cppc_cpufreq: clarify support for coordination types
+cfdc589f4b5f94bf1a975b4a67d8163d533f6e9b cppc_cpufreq: expose information on frequency domains
+a28b2bfc099c6b9caa6ef697660408e076a32019 cppc_cpufreq: replace per-cpu data array with a list
+ca6827de4b67367e73fdf43d2ea0a0064423edfb cpufreq: schedutil: Add util to struct sg_cpu
+ee2cc4276ba4909438f5894a218877660e1536d9 cpufreq: Add special-purpose fast-switching callback for drivers
+a365ab6b9dfbaf8fb4fb4cd5d8a4c55dc4fb8b1c cpufreq: intel_pstate: Implement the ->adjust_perf() callback
+b08221c40febcbda9309dd70c61cf1b0ebb0e351 ACPI: PNP: compare the string length in the matching_id()
+146f1ed852a87b802ed6e71c31e189c64871383c ACPI: PM: s2idle: Add AMD support to handle _DSM
+6fc250887cbe14a350d472516f2e0118240c5d68 ACPI: scan: Evaluate _DEP before adding the device
+71da201f38dfb0c3a3d33bbe3168ea9112299dde ACPI: scan: Defer enumeration of devices with _DEP lists
+0de7fb7c8687048299305529d17f6a1e98ae658c ACPI: scan: Avoid unnecessary second pass in acpi_bus_scan()
+9272e97ae9e9b95e0805c690404a0df9fb03055f ACPI: scan: Add Intel Baytrail Mailbox Device to acpi_ignore_dep_ids
+fef98671194be005853cbbf51b164a3927589b64 ACPI: PM: s2idle: Move x86-specific code to the x86 directory
+b044a535d9a6873a21d622934228cfcc6ee4ea27 kbuild: doc: update the description about kbuild Makefiles
+8c4d9b145ba39fa31fd225e9051dd562260b6460 kbuild: doc: replace arch/$(ARCH)/ with arch/$(SRCARCH)/
+23b53061ad5dd435d4d35c842cd84047dbbe2919 kbuild: doc: fix 'List directories to visit when descending' section
+41cac0834f885fac9b655eaa9214526c0c1d9afe kbuild: doc: merge 'Special Rules' and 'Custom kbuild commands' sections
+39bb232ae614a6c905f92a535b5b54c4289d1665 kbuild: doc: split if_changed explanation to a separate section
+d0e628cd817f3b67ad80cceaf527c7bb37c27b1c kbuild: doc: clarify the difference between extra-y and always-y
+c0ea806f874eb32894249b4a67c2f2452881b775 kbuild: doc: document subdir-y syntax
+436e980e2ed526832de822cbf13c317a458b78e1 kbuild: don't hardcode depmod path
+bc72d723ec6b75c53e935e819682c3e67b83e9c1 modpost: rename merror() to error()
+0fd3fbadd9a85e391828f3ef63ef1e96e2d2d752 modpost: refactor error handling and clarify error/fatal difference
+1d6cd39293602e990b016994e51956eded35da7c modpost: turn missing MODULE_LICENSE() into error
+d6d692fa21d3057edf457a764832077da8aa44d2 modpost: change license incompatibility to error() from fatal()
+c7299d98c00afa81c65d9fa13a18ea923f3281ff modpost: turn section mismatches to error from fatal()
+b9ed847b5ae69e0f2e685f9d53e2dd94c0db751e modpost: turn static exports into error
+9ab55d7f240fb05f84ec3b5e37f0c3ab2ce69053 genksyms: Ignore module scoped _Static_assert()
+c613583b6a87434123fc6714acbec6522859185e Documentation/kbuild: Document COMPILE_TEST dependencies
+18084e435ff6e47197542db6bab98bafaa4c7b68 Documentation/kbuild: Document platform dependency practises
+135b4957eac43af2aedf8e2a277b9540f33c2558 kconfig: fix return value of do_error_if()
+90d39628ac799e93c0f7a56763eed5029632f1ba kconfig: doc: fix $(fileno) to $(filename)
+e40ad84c26b4deeee46666492ec66b9a534b8e59 cpufreq: intel_pstate: Use most recent guaranteed performance values
+3cce9d44321e460e7c88cdec4e4537a6e9ad7c0d ARM: 9044/1: vfp: use undef hook for VFP support detection
+6c7a6d22fcef9181239ea7248c6b0c4117b9325e ARM: 9031/1: hyp-stub: remove unused .L__boot_cpu_mode_offset symbol
+76460d613d9b4096f3567bd444e3fc275db1b96b ARM: 9032/1: arm/mm: Convert PUD level pgtable helper macros into functions
+27bde183b0d3b0e8e84c80db1864a5c7bd20b5e7 ARM: 9033/1: arm/smp: Drop the macro S(x,s)
+0557ac83fd1a0a7cd6909665bad50006507115a0 ARM: 9035/1: uncompress: Add be32tocpu macro
+1ecec38547d415054fdb63a231234f44396b6d06 ARM: 9036/1: uncompress: Fix dbgadtb size parameter name
+551b39efc6ffdc7a881122fbac0caa2a27a464d8 ARM: 9037/1: uncompress: Add OF_DT_MAGIC macro
+0cda9bc15dfc459bd178d6ba93389df52dd57957 ARM: 9038/1: Link with '-z norelro'
+10fce53c0ef8f6e79115c3d9e0d7ea1338c3fa37 ARM: 9027/1: head.S: explicitly map DT even if it lives in the first physical section
+8cc9251737d1883e33fd0a7dafbd4062916c1ca6 Merge branches 'fixes' and 'misc' into for-next
+ecbbb88727aee7880527d4b320b4d06dde75d46d Merge branch 'devel-stable' into for-next
+252bd1256396cebc6fc3526127fdb0b317601318 dm verity: skip verity work if I/O error when system is shutting down
+52252adede912890b81e0a05503a482062e17c6e dm ebs: avoid double unlikely() notation when using IS_ERR()
+9eb78c25327548b905598975aa3ded4ef244b94a exfat: Avoid allocating upcase table using kcalloc()
+538fcf57aaee6ad78a05f52b69a99baa22b33418 Merge branches 'acpi-scan', 'acpi-pnp' and 'acpi-sleep'
+b77709237e72d6467fb27bfbad163f7221ecd648 dm cache: simplify the return expression of load_mapping()
+0a4e668b5d52eed8026f5d717196b02b55fb2dc6 hwmon: (k10temp) Remove support for displaying voltage and current on Zen CPUs
+c3a74f8e25e97166ca0f954414825ae98a3209f6 Merge branch 'pm-cpufreq'
+11f094e312ae834531672aee711079c00ca39ff8 kasan: drop unnecessary GPL text from comment headers
+71f6af6d52ceb96be522819a1b0806325bc690d8 kasan: KASAN_VMALLOC depends on KASAN_GENERIC
+3b1a4a8640876a966ab68ab4f561642e19674671 kasan: group vmalloc code
+d5750edf6da759576f91ec2b57d5553985815b40 kasan: shadow declarations only for software modes
+cebd0eb29acdfc2f5e44e5f356ffcd0c44f16b4a kasan: rename (un)poison_shadow to (un)poison_range
+1f600626b3a9b77001b3ef90a79bf68c9f7e4cda kasan: rename KASAN_SHADOW_* to KASAN_GRANULE_*
+b266e8fee9630d1e5a9144f33222a49c06ad6976 kasan: only build init.c for software modes
+bb359dbcb70085a63e8bdbf14837a900750f0cf7 kasan: split out shadow.c from common.c
+affc3f07759cfdcb1ffd87f2847b1c27d8781d65 kasan: define KASAN_MEMORY_PER_SHADOW_PAGE
+59fd51b2ba6b02e0f7c989fc12c3537988f8c8fe kasan: rename report and tags files
+ffcc5cea46c0c3dde4eeb101fdf3a37da43863de kasan: don't duplicate config dependencies
+2cdbed63490d0d2bcbae60abcc5639caa5aba49b kasan: hide invalid free check implementation
+97fc712232368ddeabd91cdabf40da9b2155c033 kasan: decode stack frame only with KASAN_STACK_ENABLE
+afe6ef80dcecf2cf7ccab0d94257b985e4c47d80 kasan, arm64: only init shadow for software modes
+d73b49365ee65ac48074bdb5aa717bb4644dbbb7 kasan, arm64: only use kasan_depth for software modes
+28ab35841ce0262b41074464d9fb6709bb26348f kasan, arm64: move initialization message
+60a3a5fe950f4e6c02e9fc6676dc96de043ed743 kasan, arm64: rename kasan_init_tags and mark as __init
+6882464faf74666dbce86b77686d78ff4e506af3 kasan: rename addr_has_shadow to addr_has_metadata
+db3de8f759c80712dae456019968c19672589fdc kasan: rename print_shadow_for_address to print_memory_metadata
+88b865974d17059e9c9286f08efbebe569e3067b kasan: rename SHADOW layout macros to META
+96e0279df6d8f2a1394de2b41815b0065c031950 kasan: separate metadata_fetch_row for each mode
+6a63a63ff1ac2959706dba218d5e17f9ec721c0c kasan: introduce CONFIG_KASAN_HW_TAGS
+f469c032c05e0572be806149307b45d0fc9ae706 arm64: enable armv8.5-a asm-arch option
+85f49cae4dfcfae16f17418466e00370091de03d arm64: mte: add in-kernel MTE helpers
+e5b8d9218951e59df986f627ec93569a0d22149b arm64: mte: reset the page tag in page->flags
+98c970da8b35e919f985818eda7c1bcbcec8f4c4 arm64: mte: add in-kernel tag fault handler
+bfc62c5985274e926ee959dd3aaf999d4bdfbb1d arm64: kasan: allow enabling in-kernel MTE
+620954a67bcec6ca6b902baaaa1e3f2601b371a7 arm64: mte: convert gcr_user into an exclude mask
+bad1e1c663e0a72f9cf7b230a00d821678f80455 arm64: mte: switch GCR_EL1 in kernel entry and exit
+c746170d6a48b59d1233b375905f7faef6ce80bc kasan, mm: untag page address in free_reserved_area
+dc09b29fd0718300fad79d327d275b6ffb6d3315 arm64: kasan: align allocations for HW_TAGS
+ccbe2aaba1ed37441d8206a8c95b6199cbee2823 arm64: kasan: add arch layer for memory tagging helpers
+6c6a04fe367f58f066dd5da2c86087b4bd74365e kasan: define KASAN_GRANULE_SIZE for HW_TAGS
+8a494023b80e29bb3638be18a6710a1c884ee68e kasan, x86, s390: update undef CONFIG_KASAN
+0fea6e9af889f1a4e072f5de999e07fe6859fc88 kasan, arm64: expand CONFIG_KASAN checks
+2e903b91479782b7dedd869603423d77e079d3de kasan, arm64: implement HW_TAGS runtime
+4291e9ee618956eeae02b17f35b272193a6cda5a kasan, arm64: print report from tag fault handler
+aa1ef4d7b3f67f7f17aa4aa34f5ec513c7e4db6c kasan, mm: reset tags when accessing metadata
+94ab5b61ee16250b7dab38eec5ba9f666350402c kasan, arm64: enable CONFIG_KASAN_HW_TAGS
+948e32539f4ac7a778d50eb3eed307c6f3068f75 kasan: add documentation for hardware tag-based mode
+29f080881601c90d39c8fa31c125ac70b8894b5e kselftest/arm64: check GCR_EL1 after context switch
+c696de9f12b7ddeddc05d378fc4dc0f66e9a8c95 kasan: simplify quarantine_put call site
+6476792f1015a356e6864076c210b328b64d08cc kasan: rename get_alloc/free_info
+8bb0009b19465da5a0cd394b5a6ccc2eaf418f23 kasan: introduce set_alloc_info
+d56a9ef84bd0e1e8fba7a837ab12a4ec8476579f kasan, arm64: unpoison stack only with CONFIG_KASAN_STACK
+38dd767daed1af5b5751441b95c4b28767a34fe3 kasan: allow VMAP_STACK for HW_TAGS mode
+77f57c983065d0569ee1b4af80f07224b439af57 kasan: remove __kasan_unpoison_stack
+c0054c565ae598073d6c27762c7d4f7de49a45d9 kasan: inline kasan_reset_tag for tag-based modes
+d8dd397120be14a80220c78dad2bbcb9b0768959 kasan: inline random_tag for HW_TAGS
+bffe690708c8b4fdb8f0bff8ff22b347fc6c709a kasan: open-code kasan_unpoison_slab
+57345fa68a2769e3bd2b6ca01794fba74e6fa938 kasan: inline (un)poison_range and check_invalid_free
+8028caaca7a8107a52bb28fd92dea35bebd7ae8e kasan: add and integrate kasan boot parameters
+34303244f2615add92076a4bf2d4f39323bde4f2 kasan, mm: check kasan_enabled in annotations
+eeb3160c2419e0f1045537acac7b19cba64112f4 kasan, mm: rename kasan_poison_kfree
+d99f6a10c161227ae7a698470b1cff7b33734d4a kasan: don't round_up too much
+1ef3133bd3b8627a99af2535a923a488563737a6 kasan: simplify assign_tag and set_tag calls
+3933c1757163e8fb471a2d306ba769a04a698900 kasan: clarify comment in __kasan_kfree_large
+97593cad003c668e2532cb2939a24a031f8de52d kasan: sanitize objects when metadata doesn't fit
+e86f8b09f215e3755cd2d56930487dec2de02433 kasan, mm: allow cache merging with no metadata
+625d867347c9e84d1ac3c953e1b689f65b603bed kasan: update documentation
+e14fd4ba8fb47fcf5f244366ec01ae94490cd86a x86/split-lock: Avoid returning with interrupts enabled
+e9e541ecfee39745da042ff5194b0813bb4c3f9c Merge tag 'exfat-for-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
+4f06f210673e6841439a0f91fcde64960cdbeb5c Merge tag 'configfs-5.11' of git://git.infradead.org/users/hch/configfs
+347d81b68b8f7044c9ce3fefa130a736ca916176 Merge tag 'dma-mapping-5.11' of git://git.infradead.org/users/hch/dma-mapping
+4e31dcc0a9231462f0e275544b5aebc668481a4e Merge tag 'hwmon-for-v5.11-take2' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+d8355e740f419a081796e869bafdfc0756b0bf2a Merge tag 'for-5.11/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+c45647f9f562b52915b43b6bb447827cebf511bd Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux
+1375b9803e007842493c64d0d73d7dd0e385e17c Merge branch 'akpm' (patches from Andrew)
+7b95f0563ab5a8f75195cdd4b2c3325c0c1df319 Merge tag 'kbuild-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+2762db756f422861c70868bc2d4b9b5d1ce6a59d Merge tag 'kconfig-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+4960821a4d80781fd3e63cd71fb1b38c2dadb915 Merge tag 'pm-5.11-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+614cb5894306cfa2c7d9b6168182876ff5948735 Merge tag 'acpi-5.11-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============1841317212089907331==--
+--===============5346507719155160171==--
