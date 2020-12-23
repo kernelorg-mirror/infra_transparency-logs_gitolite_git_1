@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2358096304472391959=="
+Content-Type: multipart/mixed; boundary="===============1707149698098281006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 23 Dec 2020 16:39:01 -0000
-Message-Id: <160874154136.11410.13202286212035529041@gitolite.kernel.org>
+Date: Wed, 23 Dec 2020 16:39:11 -0000
+Message-Id: <160874155163.11498.8331212810408822928@gitolite.kernel.org>
 
---===============2358096304472391959==
+--===============1707149698098281006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,41 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 44d4775ca51805b376a8db5b34f650434a08e556
-    new: e77c725a445ac07c95c666b3bfb5b4105e9b0068
-    log: revlist-44d4775ca518-e77c725a445a.txt
+  - ref: refs/heads/dev-queue
+    old: c724288107e0e19680843efb430a60b1d0905d27
+    new: 2af8be2c86a263145be5e83d941bca66534473e6
+    log: revlist-c724288107e0-2af8be2c86a2.txt
 
---===============2358096304472391959==
+--===============1707149698098281006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44d4775ca518-e77c725a445a.txt
+Content-Disposition: attachment; filename=revlist-c724288107e0-2af8be2c86a2.txt
 
-03d5b19c7243d6e605d360972dd7b701e2b1ba72 powerpc/32s: Make bat_addrs[] static
-4cc445b4ff456f3a3997c321d7a353360feea04f powerpc/32s: Use mmu_has_feature(MMU_FTR_HPTE_TABLE) instead of checking Hash var
-4b74a35fc7e9b8efd9067b8a365bab0fefe889ff powerpc/32s: Make Hash var static
-6e980b5c56a266de479fcd022a03e094574e9a03 powerpc/32s: Declare Hash related vars as __initdata
-cfe32ad0b3dc74df34ab6fea38ccb1e53f904a10 powerpc/32s: Move _tlbie() and _tlbia() prototypes to tlbflush.h
-b91280f3f36d64cc6f8022893af00935c99de197 powerpc/32s: Inline _tlbie() on non SMP
-f265512582a047e09390b1b41384f365d7dc806f powerpc/32s: Move _tlbie() and _tlbia() in a new file
-fd1b4b7f51d0d75b73eeda41ef459ea7791aaab2 powerpc/32s: Split and inline flush_tlb_mm() and flush_tlb_page()
-1e83396f29d75aae8a1d365f597996fec87ca4d0 powerpc/32s: Inline flush_tlb_range() and flush_tlb_kernel_range()
-91ec450f8d8c1e599a943c526ab1d2a4acf73c22 powerpc/32s: Split and inline flush_range()
-ef08d95546ccea540f6a592b89822bb085bf09c6 powerpc/32s: Inline tlb_flush()
-80007a17fc59bc2766f7d5cb2f79b4c65651504b powerpc/32s: Inline flush_hash_entry()
-068fdba10ea54b6ebc12c2b2d85020b2137316d1 powerpc/32s: Move early_mmu_init() into mmu.c
-a6a50d8495d098b6459166c3707ab251d3dc9e06 powerpc/32s: Remove CONFIG_PPC_BOOK3S_6xx
-ad510e37e4b48f7da462650946aeaa078b977277 powerpc/32s: Regroup 603 based CPUs in cputable
-44e9754d63c7b419874e4c18c0b5e7a770e058c6 powerpc/32s: Make support for 603 and 604+ selectable
-cf1fac943c6341dfed1db1293864c9fcad47bac3 opp: Reduce the size of critical section in _opp_kref_release()
-873c9851eb54b78c27a0d753f6dd7e377572a0aa cpufreq: dt: Don't (ab)use dev_pm_opp_get_opp_table() to create OPP table
-e77dcb0b732dd355ca594909f6c2085dfc46cde2 opp: Don't create an OPP table from dev_pm_opp_get_opp_table()
-c7bf8758c955e6272c0f4b2411d7a85abce8fafe opp: Allow dev_pm_opp_put_*() APIs to accept NULL opp_table
-5f6ffb8d8f8fdf672cbc4f27888ce075df13d49c cpufreq: dt: dev_pm_opp_put_regulators() accepts NULL argument
-2ff8fe13ac6da7a7c45d610cc3237c8556610f07 cpufreq: qcom-cpufreq-nvmem: dev_pm_opp_put_*() accepts NULL argument
-814568728373699907971f897b89d95736b0d880 PM / devfreq: exynos: dev_pm_opp_put_*() accepts NULL argument
-72ba9e226fac8a9958b5201428a387c348515289 drm/lima: dev_pm_opp_put_*() accepts NULL argument
 b66ba5b5938f8a51d4cb97d1392065d09551bc75 drm/panfrost: dev_pm_opp_put_*() accepts NULL argument
 e91e3d902b76c3f2a238873a17958080af018f08 media: venus: dev_pm_opp_put_*() accepts NULL argument
 24b3c963c0108f3da6d978d74a745c824ab551dc dt-bindings: opp: Allow empty OPP tables
@@ -1050,5 +1026,29 @@ a0c8be56affa7d5ffbdec24c992223be54db3b6e ibmvnic: fix login buffer memory leak
 1d898b283576c38dedcb6b21fcbb65968ab03581 docs: netdev-FAQ: fix question headers formatting
 5d5647dad259bb416fd5d3d87012760386d97530 qede: fix offload for IPIP tunnel packets
 e77c725a445ac07c95c666b3bfb5b4105e9b0068 Merge tag 'wireless-drivers-2020-12-22' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
+4fa59ee3f54127a91ff06bead8d1aa78a7c7581b checkpatch: Fix warnings when --no-tree is used
+35b4443f14d6e51853b48ae000e9da5c2805b765 igb: re-assign hw address pointer on reset after PCI error
+5f9fc2bf17dcdeea24f46365ce3885c5680a4c2f checkpatch.pl: seed camelcase from the provided kernel tree root
+f616f5cd0e167c7a0e757eb1cf246060d0d80d56 i40e/iavf: use better trace path
+fe3f0bca22c25c8641cc1793e8089fa9a10f462e ice: Fix a couple off by one bugs
+cd4d964cc825b6e9927aea33caa0b00b05307cb8 ice: report correct max number of TCs
+d1001dcbb541067efa73268655bc7d5a9ac3834f i40e: Fix flow for IPv6 next header (extension header)
+a619d65e8c4cadccaa8ed0ca5cdbedaef73aeca5 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+16bac6830c0da798a2d7b564bc17c60cb6f83361 igb: XDP xmit back fix error code
+d5b87fc805b50db7f10f1a7c069c351d95734663 ice: fix FDir IPv6 flexbyte
+8225932c24fd6d582edfd6d9029077ca86c545ba ice: Implement flow for IPv6 next header (extension header)
+0959f0ff2ac573a27c8965cb1e8241b7398089c9 ice: update the number of available RSS queues
+9fb4ca94bc0b56876286562c5b1988f6a53b35be ice: update dev_addr in ice_set_mac_address even if HW filter exists
+4e23271eeb69771e0e95669115f85afcebc51b97 ice: use correct xdp_ring with XDP_TX action
+8d856836cad09890b532fa30cc20e31588024db0 ice: Fix state bits on LLDP mode switch
+b730cf9511dea30c5b2246ad3f03f7c28be2e84a i40e: Add zero-initialization of AQ command structures
+9daf9b93ce60a69f6696e7cde3d7c64f0c46fa62 i40e: Fix overwriting flow control settings during driver loading
+fcbabd47f60a9352fe412a4aa24bb9cb167d2868 i40e: Fix VFs not created
+42f975c6249b75cc1f3138f939f5b52e02f228e6 i40e: Fix addition of RX filters after enabling FW LLDP agent
+efd5325be15c3eef6527eef7e7ed3c39d5078eb3 i40e: acquire VSI pointer only after VF is initialized
+dbd0448b1b7e44dc737c845fd9874aa0cd17f4d2 e1000e: Only run S0ix flows if shutdown succeeded
+27e96b01ed344a97a5685ac44ab6fdf044b137bd e1000e: bump up timeout to wait when ME un-configures ULP mode
+a50e663dcdbf48b803eea9b5a31e02bb094d4928 Revert "e1000e: disable s0ix entry and exit flows for ME systems"
+2af8be2c86a263145be5e83d941bca66534473e6 e1000e: Export S0ix flags to ethtool
 
---===============2358096304472391959==--
+--===============1707149698098281006==--
