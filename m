@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Wed, 23 Dec 2020 07:47:37 -0000
-Message-Id: <160870965755.22804.8194348342062135735@gitolite.kernel.org>
+Date: Wed, 23 Dec 2020 07:47:49 -0000
+Message-Id: <160870966919.22949.2163489779655900189@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
-  - ref: refs/heads/linus
+  - ref: refs/heads/master
     old: 93cebeb1c21a65b92636aaa278a32fbc0415ec67
     new: c0e583ab2016de8dedfb73934d4c4e8ff5bd896c
     log: |
