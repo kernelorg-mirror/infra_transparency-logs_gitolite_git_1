@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1139982859075538217=="
+Content-Type: multipart/mixed; boundary="===============3006819337932289681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 23 Dec 2020 15:04:06 -0000
-Message-Id: <160873584673.15259.5216721833770807110@gitolite.kernel.org>
+Date: Wed, 23 Dec 2020 15:04:10 -0000
+Message-Id: <160873585038.15378.17529979816651164785@gitolite.kernel.org>
 
---===============1139982859075538217==
+--===============3006819337932289681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,87 +16,110 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: d1988041d19dc8b532579bdbb7c4a978391c0011
-    new: a5ba578b52286e2a855f6b172c851d7afbf68e60
-    log: revlist-d1988041d19d-a5ba578b5228.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 3f2ecb86cb909da0b9157fd2952ad79924cbe5ae
+    new: d5a7d6184d3ab77893c2d810573ec390f09779eb
+    log: revlist-3f2ecb86cb90-d5a7d6184d3a.txt
 
---===============1139982859075538217==
+--===============3006819337932289681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608735918 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1608735921 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1608735845-eab1e574f8cd0454dfc749d4f4a6576bcaefda41
+nonce 1608735848-7ec131137f5a7ce9c73b0e796301ba76d84dc244
 
-d1988041d19dc8b532579bdbb7c4a978391c0011 a5ba578b52286e2a855f6b172c851d7afbf68e60 refs/heads/linux-5.10.y
+3f2ecb86cb909da0b9157fd2952ad79924cbe5ae d5a7d6184d3ab77893c2d810573ec390f09779eb refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/jXK4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WT8P/223uxpSjsHltKdwT2c5
-nPHjRjndZt1wlV4rJm+YHibqvLmpXcwH48S6V37CoGuXetyxwTTJxlxW2zl/UDL8
-9rl3HkDhKHAUXxJ2yROUjvk1LmltqGgnKklrPxd8Dk4HUUxVDrR4Gx8NcmHVOnF9
-Pg/oJf7IVNbc4L/Yu1KbqTAc5tijpWCZy8wztdAq+dgNd0jO75QyzpEeStciXX0o
-BpjAMCatZC/bljkirINdH7vBbd4xHe/dU+bsg5P1w34LYpXFdjqZC2OKKypDxPpr
-PqbXYOaLQiegtzAX12bvOuV8WS58nfYSkPBzUtUfDZhJ7AJMJiZOjm8QBLij2lsW
-L3HLiodCyE1lChjAK1r9hUj06MyzUYyUhkxZyW1ueYlsen+s1eWb9OnGM2AV7hWE
-78virvmqMZ9z9R4Xapb6bFAIaT4GPY+emhSvaXvX+eJEjAzGZPRQ/7CohjgasgW4
-mbN92dhUJ6/8bxv3HQeZovLucLJmfTE8osiHvYz0Tr6Cpwn/7eHEJgAOF2EZF5Ly
-m8p+JmpO7HWeDA54+KvMrAUJH2mcy1+fbv6gcyd7EIefaaWtwNRqWdX7frDxptQq
-1f989OI25emUcuqmb3AcyCGyULJbWvsecYtQlW/qbF/wF7v7mjcKT+NTCXilT3+Q
-QLv5zATjpI0PuN0vTR5kiQPu
-=T83T
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/jXLEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UBYP/2lLzoKqX+XZEb5zk4oW
+4iYYP8UiUSTi4u80Du/gG5pPeyQxZoZuz91tyBefmcPOqE/oWRyfIp6V6iTwG3ru
+c4Kogzh0VD0M+KZYtJHdHy3kpWIQUJWUXJBHfH4X+GDGVVVp1/VQOV9/9iKlKmEM
+JfOpkJ3ACFvpgcvJCJFuutksSbI5PRuF82NLnY+Og51YNEWHa0vY6d32RnOJfHXt
++9zQuFZhBgmBRmw+1VdrLco/TWkC2FCf595MCH6XENak5wMSws8k6ZcFy+ehmhyN
+73Ljb8yUHr8xY9LL/tMzOxXV+plFM2nRZoQB2wYE7TsH160vrtJ2UQ6Bdbq5Axip
+IG5U/n35iBSOE0DjUWTmJIaMJ/NQ8D8i8D0ZM4K08mRTHYVJIP5bw+OqEEN5cgCR
+SPBTKHPp2RBfiLnTmgc11W8/b5U+9XW5pAeM3DC5GfUazcKXVCIKQ4RxUGRHfPeo
+TMy0c7QVh6M7ce4fMPc1cpMuFo+RDybY1x7Feibi1cggD/98zDJkqGoCTbKASs0z
+9uIeq7viNYyYkbcY0iVgi0qvxrGalIpq+6bFDJiVS4vyI7mPTnPaq2RDqGu6G7+1
+xR336oSwmMUG2J02xwzW1amN0R7uBsMseEt4Uf/7LxEmzPEByiP3nUPsJ2Vcg4RO
+sa9f2mCH5h1DGdC6zRJt4jZ3
+=8GSo
 -----END PGP SIGNATURE-----
 
---===============1139982859075538217==
+--===============3006819337932289681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1988041d19d-a5ba578b5228.txt
+Content-Disposition: attachment; filename=revlist-3f2ecb86cb90-d5a7d6184d3a.txt
 
-684328dc544db9f397cc97c286f417b66ea53fc3 net: ipconfig: Avoid spurious blank lines in boot log
-b2eb2acf49e8ce4ada06a75ef787847b9b47c5cb x86/split-lock: Avoid returning with interrupts enabled
-7b01b968af5ebcb59acb4095d2aee46e771a010a exfat: Avoid allocating upcase table using kcalloc()
-dd4164c6ed25e5182024b25df1d9799fddf25948 soc/tegra: fuse: Fix index bug in get_process_id
-84e4be44897186f7b6f167880a5bf72aadaf032a usb: mtu3: fix memory corruption in mtu3_debugfs_regset()
-26e0e2cd884621396f8d32d7db407b9e2a7e437d USB: serial: option: add interface-number sanity check to flag handling
-fe986e61e33a4a8046a2a6fd42c42f7496c0122b USB: gadget: f_acm: add support for SuperSpeed Plus
-d47e353a5d43372309cb25246108312b60338db8 USB: gadget: f_midi: setup SuperSpeed Plus descriptors
-43f5cfa120fe608d2b9e39cb4f9ff198c48bb984 usb: gadget: f_fs: Re-use SS descriptors for SuperSpeedPlus
-79ca5bc68d64a73ee3b48309312023ba836f5abc USB: gadget: f_rndis: fix bitrate for SuperSpeed and above
-ca8e1eca9ac63f839fdcced7a3137c31d41a606c usb: chipidea: ci_hdrc_imx: Pass DISABLE_DEVICE_STREAMING flag to imx6ul
-a98b51d5fb7795dd8952520f77828ccb9b0294b8 ARM: dts: exynos: fix roles of USB 3.0 ports on Odroid XU
-9c3093f0b5803e7ce201dcbc689d030b9ddcf8ec ARM: dts: exynos: fix USB 3.0 VBUS control and over-current pins on Exynos5410
-37f639b905e24ac58f15e8d1feed8e06309c72c2 ARM: dts: exynos: fix USB 3.0 pins supply being turned off on Odroid XU
-32f7e0faab3d401d25b80bc9db62e6bbaef56b12 coresight: tmc-etf: Fix NULL ptr dereference in tmc_enable_etf_sink_perf()
-748bb1de7c1dfdd9e7a71a3244ef0728436be31f coresight: tmc-etr: Check if page is valid before dma_map_page()
-9b2f38c03f1f4b0f31937c582054d508d8541099 coresight: tmc-etr: Fix barrier packet insertion for perf buffer
-b79c79ee14b9d18aae68992359cb2ba8c460f5b0 coresight: etb10: Fix possible NULL ptr dereference in etb_enable_perf()
-c0c65ffa6c6c5319f658801a893638376c475cc8 coresight: etm4x: Skip setting LPOVERRIDE bit for qcom, skip-power-up
-7ecfdaeb3adf7d5e00131f74437c313fc9720c3a coresight: etm4x: Fix accesses to TRCVMIDCTLR1
-c2a414028d737a21dc5646d3a47862e3e11b2f27 coresight: etm4x: Fix accesses to TRCCIDCTLR1
-1162e80402495b19d70636a8d7347a459c658c45 coresight: etm4x: Fix accesses to TRCPROCSELR
-2be0f807e2b19d8558964fb332373d88cfc96468 coresight: etm4x: Handle TRCVIPCSSCTLR accesses
-52d91cc72a1d5d502a67799dcd47b5d32ac2c820 f2fs: fix to seek incorrect data offset in inline data file
-f07d15da1246a8a0edc6136c72d911f3dd650b35 f2fs: init dirty_secmap incorrectly
-4d9d848bc129a96282336bb85036138b278ffc82 scsi: megaraid_sas: Check user-provided offsets
-c335d3cf3c30a91053bc561544959d88649fcba7 HID: i2c-hid: add Vero K147 to descriptor override
-6f0e1bc20347e4a90d725b4b16a0b0df7d766ed5 serial_core: Check for port state when tty is in error state
-07372313e0204cabc90254c8a165c7a91d343d45 fscrypt: remove kernel-internal constants from UAPI header
-c11e0d7c1bd3808803deafb5227bcaf2dc3681c5 fscrypt: add fscrypt_is_nokey_name()
-989b45e726f709b0da7f7fcda690abf63b2f6efa ubifs: prevent creating duplicate encrypted filenames
-9396395e8c51fae685b916129c9228934bc1f8f4 ext4: prevent creating duplicate encrypted filenames
-4c342a00aaa5410bfbe5ffea90fca929ca5861b8 f2fs: prevent creating duplicate encrypted filenames
-90f98ae96390427422848e087d508bd4be490be9 Bluetooth: Fix slab-out-of-bounds read in hci_le_direct_adv_report_evt()
-cde8063ad7e215d75f36dc827d4834dca4121108 quota: Sanity-check quota file headers on load
-5110b1166877aabeb10644f096c4eec7b151d7a3 fs: quota: fix array-index-out-of-bounds bug by passing correct argument to vfs_cleanup_quota_inode()
-e5f929017b462fcea65e65527dbebe7d91cecd5c media: msi2500: assign SPI bus number dynamically
-555752255c50f3d62ac672c6b9c38e62c2909e96 crypto: af_alg - avoid undefined behavior accessing salg_name
-43142afe42cfc302a78b48703e545e16a490f185 nl80211: validate key indexes for cfg80211_registered_device
-e3fd37c063a25660f21ea734b5fcba843308e248 md: fix a warning caused by a race between concurrent md_ioctl()s
-a5ba578b52286e2a855f6b172c851d7afbf68e60 Linux 5.10.3-rc1
+d5a769af21671440043ba23a32aaf62b81721dcf spi: bcm2835aux: Fix use-after-free on unbind
+44e4e88d712e32b1d3afa9663ebb6c89e067c45d spi: bcm2835aux: Restore err assignment in bcm2835aux_spi_probe
+f2b674666f2579506b003087f2da6e3b6101f45d iwlwifi: pcie: limit memory read spin time
+60203f8e011332abdbe6f02b084f7f1063291ebf arm64: dts: rockchip: Assign a fixed index to mmc devices on rk3399 boards.
+3fccbc3f5fdaad7caf9823c02006c43161c0a575 iwlwifi: mvm: fix kernel panic in case of assert during CSA
+5113809512b066d70b11f3c2ed0d2c10ef1446b0 ARC: stack unwinding: don't assume non-current task is sleeping
+b27f87eb8b287538301e74dc201831fcfee8c883 scsi: ufs: Make sure clk scaling happens only when HBA is runtime ACTIVE
+d8b764521c291395313b1059c19b9ac09be4652a soc: fsl: dpio: Get the cpumask through cpumask_of(cpu)
+d5d8782fb5518bb46e83e12da04bb419e2c314f2 platform/x86: acer-wmi: add automatic keyboard background light toggle key as KEY_LIGHTS_TOGGLE
+42d8da1dab2a00f4de71b0292837144e0ef49dad Input: cm109 - do not stomp on control URB
+d3a5a07d21638773216b56bb0ce65549e593c651 Input: i8042 - add Acer laptops to the i8042 reset list
+4a98d920a6eb3898e34f9f325c568d27b3ed9d28 pinctrl: amd: remove debounce filter setting in IRQ type setting
+ee1f25651328424af76a5f7f38349b90a26e01b2 kbuild: avoid static_assert for genksyms
+6b8f073c84dadbc3240d6c35065bb530638f0ce6 scsi: be2iscsi: Revert "Fix a theoretical leak in beiscsi_create_eqs()"
+b4e95c37ed930ced0f8f850155036fd0470b7738 x86/mm/mem_encrypt: Fix definition of PMD_FLAGS_DEC_WP
+aaa33471785b7de35f9c88f9c417308a9d7670e3 PCI: qcom: Add missing reset for ipq806x
+e23f1354fa99f0a7a145043e0af18dce4e523bc4 net: stmmac: free tx skb buffer in stmmac_resume()
+a199a7c74096f99dc03236a8bf09be8b3a4447f3 tcp: fix cwnd-limited bug for TSO deferral where we send nothing
+7614b136f9a44c96bb045f862a707e9b0bcd63bd net/mlx4_en: Avoid scheduling restart task if it is already running
+c5d07e33613f1acfbfc03db7395357607314a07e net/mlx4_en: Handle TX error CQE
+e207a149727ac5274951841062d64080099619fb net: stmmac: delete the eee_ctrl_timer after napi disabled
+6eb30de56a0885d0ea025100bb215612e487ab79 net: stmmac: dwmac-meson8b: fix mask definition of the m250_sel mux
+d67be327b7bc9a7abdb04970dad4a3332f049474 net: bridge: vlan: fix error return code in __vlan_add()
+479b8a7f388607731e24a41d2d5f4048ba6274ee mac80211: mesh: fix mesh_pathtbl_init() error path
+6f3e2f847c5e1b1ef93d396674815323c08661b9 USB: dummy-hcd: Fix uninitialized array use in init()
+ce6d4f06f6f2a47583475856ade60152cfef868c USB: add RESET_RESUME quirk for Snapscan 1212
+6759be8246e6e2f863f8dc49b3574040a8144c9d ALSA: usb-audio: Fix potential out-of-bounds shift
+54662e99ca80790b0ca5273ee052be4fda58946b ALSA: usb-audio: Fix control 'access overflow' errors from chmap
+b41ef29ab570af0a197fe20ac23bec33d6b0c055 xhci: Give USB2 ports time to enter U3 in bus suspend
+076b7b17872934c5100db1b2ca9620d9d991d498 USB: UAS: introduce a quirk to set no_write_same
+526e5dfd09399516f7c81bb167776bbd4342a4d7 USB: sisusbvga: Make console support depend on BROKEN
+103f72fdc65934dce6987953d8026157f9ded0d7 ALSA: pcm: oss: Fix potential out-of-bounds shift
+e76af1f36829e79d6a7b643fb40a259f27ac69cb serial: 8250_omap: Avoid FIFO corruption caused by MDR1 access
+9a4624d1aec1222bb41fc8860b6329d337fde7c4 drm: fix drm_dp_mst_port refcount leaks in drm_dp_mst_allocate_vcpi
+0d4616d83a84a3c4945a287d927fdc4a9128e8f6 pinctrl: merrifield: Set default bias in case no particular value given
+dde494e746b03a301da46e86d500ea7411bbb9fa pinctrl: baytrail: Avoid clearing debounce value when turning it off
+29cc63895fbb28c175c6b22d5b9965bfc9b62522 ARM: dts: sun8i: v3s: fix GIC node memory range
+396a241ef711ff8c0eeca400fa54cd78abc27e70 gpio: mvebu: fix potential user-after-free on probe
+b00c61a84030d616ffbdd34c747f39c43deb6dc7 scsi: bnx2i: Requires MMU
+86650308cf106c26cd945f0f34d1af6bea3d0317 can: softing: softing_netdev_open(): fix error handling
+0efb7fde7e2cf73fc74c6d4870b7136f63aab0fb RDMA/cm: Fix an attempt to use non-valid pointer when cleaning timewait
+e8ebf09031910ed590e3eeb7f33616084f1db47a kernel/cpu: add arch override for clear_tasks_mm_cpumask() mm handling
+a679ce6787660e4475e064545eddc238b9d88370 drm/tegra: sor: Disable clocks on error in tegra_sor_init()
+a022e5b0c388699c853ce4474fb3dc62d1823c23 vxlan: Add needed_headroom for lower device
+52d56fa539392c4b8cb538d52ae763eec4894e11 vxlan: Copy needed_tailroom from lowerdev
+49cbfcb43d0ddf506d47253a9bc39dde51865706 scsi: mpt3sas: Increase IOCInit request timeout to 30s
+24e1887438e431f3d935e151b96ee75c35eabfd4 dm table: Remove BUG_ON(in_interrupt())
+e0918e77414521c9797215d2ba799c0c825ad176 soc/tegra: fuse: Fix index bug in get_process_id
+53c457eaadc35680f92a896d58def4a5bad0a433 USB: serial: option: add interface-number sanity check to flag handling
+eb6d5fc32c1031d87e5a98547fbcbd155f0fbecb USB: gadget: f_acm: add support for SuperSpeed Plus
+ac1110ab2e4ccad000034fdedcf09317f1798b0a USB: gadget: f_midi: setup SuperSpeed Plus descriptors
+4590f5662e2a3514b20eba3a521d468fc1cf6a11 usb: gadget: f_fs: Re-use SS descriptors for SuperSpeedPlus
+6d433c7a9dbbb834dc9372e3388f5f331bb2731d USB: gadget: f_rndis: fix bitrate for SuperSpeed and above
+cb3f36e939747a42f8936d6fd335cdea5a075bdf usb: chipidea: ci_hdrc_imx: Pass DISABLE_DEVICE_STREAMING flag to imx6ul
+8d7752a96ebe1531760f3bdd5a41c3ae1581157e ARM: dts: exynos: fix roles of USB 3.0 ports on Odroid XU
+68b1ad757ffedc73058c76cf00c4d5bbd03483ff ARM: dts: exynos: fix USB 3.0 VBUS control and over-current pins on Exynos5410
+4758ef90355a4c525bd6802c16b6f7283913690d ARM: dts: exynos: fix USB 3.0 pins supply being turned off on Odroid XU
+f37bdd367d21a92b870c33ebda2e21a798c35875 HID: i2c-hid: add Vero K147 to descriptor override
+5dce985ea2065d7aa431f7b6e0f8386d25e58cf9 serial_core: Check for port state when tty is in error state
+2a0da02302dc8c1bc3320efdb0b109db10a2109b quota: Sanity-check quota file headers on load
+ae59bcfcb09a4ffa3008910064caefffd06d5f18 media: msi2500: assign SPI bus number dynamically
+79f5410e423bbb5963f9cb7b357049908dffbcb3 crypto: af_alg - avoid undefined behavior accessing salg_name
+ab9e2d672f32258d150145ddc889e67ef3b20185 md: fix a warning caused by a race between concurrent md_ioctl()s
+d5a7d6184d3ab77893c2d810573ec390f09779eb Linux 4.14.213-rc1
 
---===============1139982859075538217==--
+--===============3006819337932289681==--
