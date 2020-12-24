@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 24 Dec 2020 01:05:06 -0000
-Message-Id: <160877190675.13010.5061554376124319090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 24 Dec 2020 01:12:24 -0000
+Message-Id: <160877234402.17540.2265234917708689303@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 404675c8426d0b7f02f3d05a0b8ded549d949458
-    new: a61daaf351da7c8493f2586437617d60c24350b0
+  - ref: refs/heads/dev
+    old: 40935f6ed25df1f80bc113daaa99a073d3074570
+    new: efbd4991dc6e025106e15ee5386e05db4cf3afac
     log: |
-         69ca310f34168eae0ada434796bfc22fb4a0fa26 bpf: Save correct stopping point in file seq iteration
-         a61daaf351da7c8493f2586437617d60c24350b0 bpf: Use thread_group_leader()
+         99d7b1cb1ec06854b2928235fbe388af9bfc040a torture: Remove "Failed to add ttynull console" false positive
+         cec15ebc73fc8c21be28a1d3594dc435fc4dadba torture: Break affinity of kthreads last running on outgoing CPU
+         594d4188a778e87dfe01448419323ad45498b61f torture: Allow standalone kvm-recheck.sh run detect --trust-make
+         efbd4991dc6e025106e15ee5386e05db4cf3afac x86/mce: Make mce_timed_out() identify holdout CPUs
          
+  - ref: refs/heads/dev.2020.12.23a
+    old: 0000000000000000000000000000000000000000
+    new: 7cc07f4867eb9618d4f7c35ddfbd746131b52f51
