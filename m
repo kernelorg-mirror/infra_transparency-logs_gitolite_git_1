@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 25 Dec 2020 21:14:27 -0000
-Message-Id: <160893086791.13513.17119239319354203232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 25 Dec 2020 23:51:09 -0000
+Message-Id: <160894026944.13040.8234416718994048875@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/testing
-    old: 0000000000000000000000000000000000000000
-    new: 181eb0001c854cef91ce8f9378a97fc52cc097d3
+  - ref: refs/heads/master
+    old: 5814bc2d4cc241c1a603fac2b5bf1bd4daa108fc
+    new: 61d791365b72a89062fbbea69aa61479476da946
+    log: |
+         61d791365b72a89062fbbea69aa61479476da946 drm/amd/display: avoid uninitialized variable warning
+         
