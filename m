@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2552172739381237856=="
+Content-Type: multipart/mixed; boundary="===============3883286378510844674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 25 Dec 2020 20:49:32 -0000
-Message-Id: <160892937285.29354.9009952137107898137@gitolite.kernel.org>
+Date: Fri, 25 Dec 2020 20:49:59 -0000
+Message-Id: <160892939938.29538.17620137370558447515@gitolite.kernel.org>
 
---===============2552172739381237856==
+--===============3883286378510844674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/vfs-pending
-    old: c796fde9c8174c2d3ddf745fad327896eaa1f202
-    new: 9c603ce769a1da4aeb9fe17a37f29a785ada291e
-    log: revlist-c796fde9c817-9c603ce769a1.txt
+  - ref: refs/heads/random-pending
+    old: 870ef42a4af91dbcefeb47f4fc6fb74cbd07ef6b
+    new: e2274fc9df16a184c246cfce144194a504cee76c
+    log: revlist-870ef42a4af9-e2274fc9df16.txt
 
---===============2552172739381237856==
+--===============3883286378510844674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c796fde9c817-9c603ce769a1.txt
+Content-Disposition: attachment; filename=revlist-870ef42a4af9-e2274fc9df16.txt
 
-777f303c0239043a5a2c427fd94124fa1e2bfc86 mm/page_vma_mapped.c: add colon to fix kernel-doc markups error for check_pte
-2b5067a8143e34aa3fa57a20fb8a3c40d905f942 mm: mmap_lock: add tracepoints around lock acquisition
 06517c9a336f4c20f2064611bf4b1e7881a95fe1 sparc: fix handling of page table constructor failure
 0966aeb404e854e3377a10fcd01be46f19055bc6 mm: move free_unref_page to mm/internal.h
 51df7bcb61518d933beb5c2dfe8251d651ca4259 mm/mremap: account memory on do_munmap() failure
@@ -1048,7 +1046,9 @@ ef2c8b81b88868f042579b9dd021cc9edbc2d0c6 Merge tag 'drm-next-2020-12-24' of git:
 11cc92eb747aace5aa2b54b65b5cb8325a8981de genirq: Fix export of irq_to_desc() for powerpc KVM
 42dc45e84452c1ee72c482d477a2e71c0689b143 Merge branch 'for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 5814bc2d4cc241c1a603fac2b5bf1bd4daa108fc Merge tag 'perf-tools-2020-12-24' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-721e61342b909bea6f23a04bc2282d567092f951 vfs: don't unnecessarily clone write access for writable fds
-9c603ce769a1da4aeb9fe17a37f29a785ada291e fs/inode.c: make inode_init_always() initialize i_ino to 0
+812a927dab5b8ffc07ce2a8c60b58d458eae2223 random: fix the RNDRESEEDCRNG ioctl
+f7d711e2df63fb5f16ff62d8692d1f8a13152f47 random: remove dead code left over from blocking pool
+ec07d803b327c2f503bf4cc1c1ea64e352c22c38 random: initialize ChaCha20 constants with correct endianness
+e2274fc9df16a184c246cfce144194a504cee76c random: use correct memory barriers for crng_node_pool
 
---===============2552172739381237856==--
+--===============3883286378510844674==--
