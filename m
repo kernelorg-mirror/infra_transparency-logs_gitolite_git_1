@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lkundrak/linux-mmp-doc
-Date: Sat, 26 Dec 2020 03:09:22 -0000
-Message-Id: <160895216239.5258.5114748906847418622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 26 Dec 2020 03:59:32 -0000
+Message-Id: <160895517206.4878.2016430364151573302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lkundrak/linux-mmp-doc
-user: lkundrak
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: feac67f8841691f3ff968982ec8e90ca2a03956b
-    new: 39d82b714b152ab83993454fc1ea78cf7cdec852
+    old: 61d791365b72a89062fbbea69aa61479476da946
+    new: c9a3c4e637ac2dce534f7e9e5a80aed93410ccad
     log: |
-         39d82b714b152ab83993454fc1ea78cf7cdec852 Add WLoader pictures
+         c9a3c4e637ac2dce534f7e9e5a80aed93410ccad mfd: ab8500-debugfs: Remove extraneous curly brace
          
