@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/lkundrak/linux-mmp-doc
-Date: Sat, 26 Dec 2020 04:27:15 -0000
-Message-Id: <160895683592.30518.13669123324205204777@gitolite.kernel.org>
+Date: Sat, 26 Dec 2020 04:28:11 -0000
+Message-Id: <160895689138.30872.17589527347434135142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/lkundrak/linux-mmp-doc
 user: lkundrak
 changes:
   - ref: refs/heads/master
-    old: e3b612ecf9ec8e6533e21471e07b3121de11606e
-    new: 087a9fef1a5059438c4d02a7c59cc404dd7cd9d9
+    old: 087a9fef1a5059438c4d02a7c59cc404dd7cd9d9
+    new: adc5466e276e188769a1de389a2d85201dd0fe43
     log: |
-         087a9fef1a5059438c4d02a7c59cc404dd7cd9d9 Document pinouts
+         adc5466e276e188769a1de389a2d85201dd0fe43 x
          
