@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 25 Dec 2020 23:51:09 -0000
-Message-Id: <160894026944.13040.8234416718994048875@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lkundrak/linux-mmp-doc
+Date: Sat, 26 Dec 2020 00:24:39 -0000
+Message-Id: <160894227944.2544.18439476475192344921@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/lkundrak/linux-mmp-doc
+user: lkundrak
 changes:
   - ref: refs/heads/master
-    old: 5814bc2d4cc241c1a603fac2b5bf1bd4daa108fc
-    new: 61d791365b72a89062fbbea69aa61479476da946
+    old: f40db9f2190b7bc6a511e87c575a66d8d0f0e378
+    new: 72f46dc7283c8e9138a526ff2c05267eb9e0eff9
     log: |
-         61d791365b72a89062fbbea69aa61479476da946 drm/amd/display: avoid uninitialized variable warning
+         72f46dc7283c8e9138a526ff2c05267eb9e0eff9 Move Ariel doc to a separate directory
          
