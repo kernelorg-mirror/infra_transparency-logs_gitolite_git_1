@@ -1,40 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8854725713637285310=="
+Content-Type: multipart/mixed; boundary="===============7625711060465353715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 27 Dec 2020 11:55:01 -0000
-Message-Id: <160907010166.31706.4651557316799446556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sun, 27 Dec 2020 12:19:52 -0000
+Message-Id: <160907159256.12834.8719184734399073790@gitolite.kernel.org>
 
---===============8854725713637285310==
+--===============7625711060465353715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/master
-    old: 1297239d41f00e75ff39821de36980c82767fe50
-    new: c55f66855eccfcd92b35fe7b13a326121f2ee0fd
-    log: revlist-1297239d41f0-c55f66855ecc.txt
+  - ref: refs/heads/renesas/v3u/gpio
+    old: cb16ac3f0f8f30e80efaf7a12873f0da3fc3b080
+    new: fd6cb8ce975c869843a156bd04dba469b54cc5fe
+    log: revlist-cb16ac3f0f8f-fd6cb8ce975c.txt
 
---===============8854725713637285310==
+--===============7625711060465353715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1297239d41f0-c55f66855ecc.txt
+Content-Disposition: attachment; filename=revlist-cb16ac3f0f8f-fd6cb8ce975c.txt
 
-f18f9c4095595c6173783452779f97e7f93599f1 man-pages.7: Add some notes on comments in example code
-c6beb8a167044b025e9c95610773a5764ccff760 bind.2, clone.2, dup.2, futex.2, mprotect.2, open_by_handle_at.2, pivot_root.2, select_tut.2, shmop.2, timer_create.2, userfaultfd.2, getaddrinfo.3, getaddrinfo_a.3, inet_net_pton.3, malloc_info.3, mbstowcs.3, newlocale.3, posix_spawn.3, pthread_sigmask.3, shm_open.3, strtol.3, inotify.7, user_namespaces.7: Add periods at end of sentences in comments
-46b20ca1bb0f338c6e8d805faab262ef32502d24 ioctl_ns.2, keyctl.2, memfd_create.2, pidfd_send_signal.2, poll.2, seccomp.2, signalfd.2, timerfd_create.2, unshare.2, dlinfo.3, duplocale.3, fopencookie.3, getgrouplist.3, getifaddrs.3, getprotoent_r.3, getservent_r.3, insque.3, printf.3, pthread_attr_init.3, pthread_cancel.3, pthread_create.3, pthread_mutexattr_setrobust.3, pthread_setaffinity_np.3, qsort.3, sem_wait.3, core.5, elf.5, aio.7, epoll.7, pkeys.7, system_data_types.7, unix.7: Use periods more consistently inside code comments
-a8114045ab0dfc415460751d6c62ca5521eeec5a fanotify.7, inotify.7: wfix: Tweak location of tag comments
-d5d83905a1691a86441dbc6bf58fa890a8edf129 spu_run.2: Minor fix-ups for comments
-ae12e0e0f907edfe90f6c5341b76ac7db9aa0d7f bind.2: wfix: remove redundant comment
-04215389814b3aef1c54ff9a72454126a499f981 pthread_mutexattr_setrobust.3: wfix: remove redundant comments
-312b0eb18223368ff19cff04cec0cfdb08681bb3 userfaultfd.2, posix_spawn.3: srcfix: remove redundant .PP
-c65f02bae3d2052add5c6752dbe7a811bc7c4ca9 user_namespaces.7: srcfix: remove redundant .PP after .SS
-c55f66855eccfcd92b35fe7b13a326121f2ee0fd pkeys.7: srcfix: remove redundant .PP
+1cb2e0eff2b7addb0dd98faf033b1384b3ae6538 i2c: rcar: faster irq code to minimize HW race condition
+f83290644133dc945ec280172a169412f6ac8242 i2c: rcar: optimize cacheline to minimize HW race condition
+49dd2ce4750b83f114da59bcc992f2628e7a78b9 i2c: rcar: make sure irq is not threaded on Gen2 and earlier
+a38568d6ab50ed6e2e5fb573865aeb5593561c7a i2c: rcar: protect against supurious interrupts on V3U
+c0975e0dc6acfbd519b7064f08f99dd7b8d4ef59 clk: renesas: r8a779a0: Remove non-existent S2 clock
+4c395329b09f985881c644fce5823025ca58b358 clk: renesas: r8a779a0: Fix parent of CBFUSA clock
+4ea384f1331525a63ed85c71a5e75437a1209249 clk: renesas: r8a779a0: Add PFC/GPIO clocks
+c73cb64de351faf458fc422212566ef5eaacc9be dt-bindings: gpio: rcar: Add r8a779a0 support
+530efd4b1a982a37518e2314224559122bc0ba5f gpio: rcar: Optimize GPIO pin state read on R-Car Gen3
+59483cdf3b7ba1a4beffe96e938e411e0ba205d9 gpio: rcar: Add R-Car V3U (R8A7799A) support
+ee018533862e6580fcd6c48e9f9cd05f85861ef0 arm64: dts: r8a779a0: Add GPIO nodes
+fd6cb8ce975c869843a156bd04dba469b54cc5fe arm64: dts: r8a779a0: correct reset values for GPIO
 
---===============8854725713637285310==--
+--===============7625711060465353715==--
