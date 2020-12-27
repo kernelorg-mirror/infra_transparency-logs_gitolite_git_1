@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0449645482699114275=="
+Content-Type: multipart/mixed; boundary="===============7913615018653320771=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 27 Dec 2020 10:36:50 -0000
-Message-Id: <160906541050.13875.6132477152856290810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 27 Dec 2020 10:36:58 -0000
+Message-Id: <160906541892.13951.14063588543789393439@gitolite.kernel.org>
 
---===============0449645482699114275==
+--===============7913615018653320771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
+  - ref: refs/heads/staging-testing
     old: 3644e2d2dda78e21edd8f5415b6d7ab03f5f54f3
     new: f838f8d2b694cf9d524dc4423e9dd2db13892f3f
     log: revlist-3644e2d2dda7-f838f8d2b694.txt
 
---===============0449645482699114275==
+--===============7913615018653320771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609065489 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1609065401-8a8074445f80feb6dc06f41248f0d567c5433b4b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609065497 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1609065410-205ddd0144827ea18a2427d0e686aaf2092cfe6b
 
-3644e2d2dda78e21edd8f5415b6d7ab03f5f54f3 f838f8d2b694cf9d524dc4423e9dd2db13892f3f refs/heads/usb-linus
+3644e2d2dda78e21edd8f5415b6d7ab03f5f54f3 f838f8d2b694cf9d524dc4423e9dd2db13892f3f refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/oZBEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EgQP/0Lu0VeVlb/e6tpHq/ZV
-oTWygU++b4GQ6inOEB8ELhTLVwXZvHSMHRkAUMitNXBpLkSkaXUkKCTDRYFZTYJe
-7ur6sutTcGgM8ERqQjnU4fTTmApIHqo/n3qi/V4nDqZ8dO//kxW/2BNo2LCqJnHA
-iJvDdMuMRKUCvLLide495yHyvIE0M+5HDkmc0DDXdc7z29/GQ6v3gB0DH4wwjLLF
-l9J/wWOftJpWwVzEqBEnKQhRFTeIUKr8Fu5ny3k3o7++smlsloMiWLegxC6MheeI
-eZ7Gclb1gFo6hrzzq6q27wN1YJr0PxQpG5Kybt68WrkUliy7glldGQwmqadRxlyf
-ycBtMRzh6aLQVoH5x9JrrEdtfNFsD49uz4GWNxZIs3yeQQxBUUmKhmhcPPsklo4X
-2zHvuzS2cEKdIHwNq98SyexIkm6DiPW4FfSJQ9YXqA6zyruM2GFZKby2UE7lieo1
-79aXpvyEDiUbp9aF4b7IcwHhXZi+d1Ntls+vfcBHRWXC9n1hJY3tmiUArwuNw7V7
-bTEHM+7uNUtK0KppS5EyH2WyIwIyL6nNhw/cE7DxhjuUboM8AwECrxOmr4obCRuK
-Uphwu/f6cSxHPRsR7P4M5983AcbAQ8ZZVDwLgCSKjXKipcEdcLDM/muBIUlBzi1g
-h/Xk6A5ovwubycAZeGEiv2ZO
-=0OKr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/oZBkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xsgP+wbsJwAWZtzNwGeSClnW
+HcM/aKK7+4WlczHO7/KgwIQs0/05JaSeY9rlEb05XGEv1NVroRVrYTf6gtX1CkOQ
+JpfEsmo51hQm3bX/UYJSMiVs715HaOVMTcPX66bkBsm+p4b7jqWDQk/ehgMcFfOF
+n5G3fFmFhttE0LDf0coTgSffg99MrHafa+2mvzDOO6DgIiz3FySi2J8I5792x6/P
+L1jA2Q2MoZBHtqWgoWVs7mIoDuLCNb0B7q4AKfr2ok6laywMLAqu8urdSMlZBodu
+LI/ggFznG2DI+yh0n0DmUq8DjnFOQo7uHaPRwpBl9kghREazQlWKk7SBQFOWwaFZ
+PAGJSqabB7cCuUfn3J/ahLhm3NCAeKt/YUEfk4uJv6Y/hiOaeqS9P1dUDY8F6K+Y
+wM/SoZVLpEKlkPQOKCSkPQNYxULJu4XZxiDCCBlL2l2LURO650adRhVMsbtahlkc
+hzXnA/9i1RWmRYtdqKDKA8Nc0bax7Pxz9UIz9BimcMSBVtfft611xUv46JjUktkX
+82VxIpNOisB77mUXfYqy/LzsHsEmZxjC2XLF+xOHI499EFJNj3RJju0K8Hkcl0PF
+KzPM5mus+YmNXUkmGVdzvGUCMS46rkvn3dI36w5T4jbWkZVJ+QiZKqDDrtpbqi0T
+gwCWRev+W5BWgZVwmc/I9mEO
+=7vzj
 -----END PGP SIGNATURE-----
 
---===============0449645482699114275==
+--===============7913615018653320771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ c9a3c4e637ac2dce534f7e9e5a80aed93410ccad mfd: ab8500-debugfs: Remove extraneous 
 40f78232f97344afbbeb5b0008615f17c4b93466 Merge tag 'pci-v5.11-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 f838f8d2b694cf9d524dc4423e9dd2db13892f3f mfd: ab8500-debugfs: Remove extraneous seq_putc
 
---===============0449645482699114275==--
+--===============7913615018653320771==--
