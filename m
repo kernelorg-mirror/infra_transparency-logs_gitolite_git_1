@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1408180967712879765=="
+Content-Type: multipart/mixed; boundary="===============6134991218995765578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 27 Dec 2020 10:36:02 -0000
-Message-Id: <160906536229.13346.13834879296650224409@gitolite.kernel.org>
+Date: Sun, 27 Dec 2020 10:36:21 -0000
+Message-Id: <160906538123.13504.200716352714455213@gitolite.kernel.org>
 
---===============1408180967712879765==
+--===============6134991218995765578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging-linus
     old: 3644e2d2dda78e21edd8f5415b6d7ab03f5f54f3
     new: f838f8d2b694cf9d524dc4423e9dd2db13892f3f
     log: revlist-3644e2d2dda7-f838f8d2b694.txt
 
---===============1408180967712879765==
+--===============6134991218995765578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609065440 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609065459 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1609065353-56663b8fc067110869e4e5a130e65a53fab002da
+nonce 1609065372-0ebaaab58b583180421b03e896fc7e624b19c60d
 
-3644e2d2dda78e21edd8f5415b6d7ab03f5f54f3 f838f8d2b694cf9d524dc4423e9dd2db13892f3f refs/heads/main
+3644e2d2dda78e21edd8f5415b6d7ab03f5f54f3 f838f8d2b694cf9d524dc4423e9dd2db13892f3f refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/oY+AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g64P/1q3z3rnq9rGtTwnlE2+
-haLFRwjj+tII79iTfUCc9fw9j36UWBfHFhjngCTeZcWjSCFtS/9CKgblLStK49MV
-IgTR0BFcxQWa8uGegKjpwSdjarQUoDcP+bKxzD4uyZXwHK7HqjlJ7YjySUGWfMpc
-r37dEU6UikNio79UwjeLUPAubqFfrxYw7/EIjHLpYF9qs7jJipy8Fmtng6U6Ap04
-1cPs0CSU9UWyMJGj1cUGkj1PYSQqqqI8XecZTZbMcyDe21phwttmdxbdOZp5CaAJ
-L5jeyLl1hmxX1e4ASSsS0lwWhE2lV1go5UCFDKwqMoh/XAbBc3SvUJt9gLNzzjf7
-lXWcOmX1PL8N8zM3RBi85Jz5aM0OE4ZeGlZUEMtlzRtRFAVcqzmmrxEDaaTByeb+
-9YflJjYHhY/WFHAhugB3A3VBfuRZMayZXHyvs8x2BPe6bYFZthtsfVbcN6IeMFeL
-0iLM7VbDGaA3INraDfLeH1RDSdGzk89xPTqGunjN8DBOL6wl9dyVip/dk2bXQ943
-ExkkTDPoAImRExDEdcivxrLDGZyYPasp4eKczkU1Tp/JcRQYg7owDYkuod9gJn2S
-Ink6keWrSMEFHZws9yx7rVUwfdNLcA5k7MIKzejuvvfZqXJJwXs4HyrucuAydLKu
-FKLhV3LBBXOw7vM1ZC7Ad8hN
-=lKzi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/oY/QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BbkP/AyPIsvYo+CKXHDOqqh9
+4Iv1+I4tOq9VuDORPz5H7sFr+RYYMN8pxhCaOB38otKItw0rDiQBJQTp6lkhabw5
+oZtsYP9bMpeXiPQmzb7x4bO724E8dxR5NifUH4Rr0bh4Tk3xqAWY1xRDrhEN0IKo
+OJz1ap7wPr0tEt0UsNkJPYwnAqZNXSa4uGgBlpIfMbxiFQnqa69UDk1V7quka86x
+4DMcjMvuMpkzb81uLkS0O88oDZfStaOcHJuJ6HHsY8e3BQ8dsVl36i7KX2eREFZP
+6PF7yy1ADms3tskfu/tamPpXG65BbYoynNNUQCWydMLokNFXt8gvd+3884ok7/wC
+DacBJE6PnB22P0bEDiMJACvyt6w5mmBPiXg5gPWIdiJNihoTIV2FHh7TulU10qYJ
+yZrorSiTy/KyZaHOr61/cP4/7tdRJoCVu9hOV80zuaG+RxV4NcVgSVPAPT4CTJxI
+iKBtvSmo+sYVsfYgobRXTyVDhgERjuqmRylSb90GKkLkaNVvPyskO/ruAhue7+Jf
+v2FGg5C5M1ym+2bpMxiA88ZKF7N8bLBWwdMkehhl1j7T36NWLl4ODeAvE7ksb/I0
+CmfG7GUTiu2WCXdikEm0Ghx4OkFPMWGtWH9SHhqjpZ6xrA5BViPT9B6fPgsXCezI
+fRdPMlUtWpQV3TXNIpGDF+JF
+=4gB0
 -----END PGP SIGNATURE-----
 
---===============1408180967712879765==
+--===============6134991218995765578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ c9a3c4e637ac2dce534f7e9e5a80aed93410ccad mfd: ab8500-debugfs: Remove extraneous 
 40f78232f97344afbbeb5b0008615f17c4b93466 Merge tag 'pci-v5.11-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 f838f8d2b694cf9d524dc4423e9dd2db13892f3f mfd: ab8500-debugfs: Remove extraneous seq_putc
 
---===============1408180967712879765==--
+--===============6134991218995765578==--
