@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============4614251566173878682=="
+Content-Type: multipart/mixed; boundary="===============6330702010729826662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 28 Dec 2020 16:03:30 -0000
-Message-Id: <160917141081.3325.4701563242526704492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 28 Dec 2020 16:03:44 -0000
+Message-Id: <160917142483.3481.117155739186758827@gitolite.kernel.org>
 
---===============4614251566173878682==
+--===============6330702010729826662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 639b128468198a3322ffe1a1d5a599f561b988ca
-    new: 2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc
-    log: revlist-639b12846819-2ae6f64ce1ce.txt
+    old: 676c63ebebaf889bf13bb4037554ca59b654bbe1
+    new: 8db90aa36063f471bea1e65e23185913043852dc
+    log: revlist-676c63ebebaf-8db90aa36063.txt
   - ref: refs/heads/for-next
-    old: 639b128468198a3322ffe1a1d5a599f561b988ca
-    new: 260e7a3cc80105e923f8250966875fa94bca4530
-    log: revlist-639b12846819-260e7a3cc801.txt
+    old: 676c63ebebaf889bf13bb4037554ca59b654bbe1
+    new: 28fc25841b1a0f045b1067cc4868beac07778e5d
+    log: revlist-676c63ebebaf-28fc25841b1a.txt
 
---===============4614251566173878682==
+--===============6330702010729826662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-639b12846819-2ae6f64ce1ce.txt
+Content-Disposition: attachment; filename=revlist-676c63ebebaf-8db90aa36063.txt
 
 214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
 4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
@@ -1053,15 +1053,14 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
-2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc Merge tag 'v5.11-rc1' into regulator-5.11
+8db90aa36063f471bea1e65e23185913043852dc Merge tag 'v5.11-rc1' into spi-5.11
 
---===============4614251566173878682==
+--===============6330702010729826662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-639b12846819-260e7a3cc801.txt
+Content-Disposition: attachment; filename=revlist-676c63ebebaf-28fc25841b1a.txt
 
-b90b5547685ffe2b30522b81a1c9f6c35e1152de ia64: discontig: paging_init(): remove local max_pfn calculation
 1f112129975e7a47324ba71b00e8e2c962177843 ia64: split virtual map initialization out of paging_init()
 ea34f78f3df62e531cf2beca997ff6bfae2b1e0d ia64: forbid using VIRTUAL_MEM_MAP with FLATMEM
 214496cb18700fd7c5206ac33768876dbf68b4df ia64: make SPARSEMEM default and disable DISCONTIGMEM
@@ -2078,12 +2077,13 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
-f518be6eccbd296c0e773967d95c617fee70e219 Merge existing fixes from regulator/for-5.11
-4d5270e70981c278307e6c25666c300653ed5f4c lib/linear_ranges: fix repeated words & one typo
-ac6b559d818981406e587f4784777e9112d553f4 regulator: qcom-rpmh: fix build after QCOM_COMMAND_DB is tristate
-934b05e818620e922151734b2d0e070e388e3c53 regulator: rt4831: Adds DT binding document for Richtek RT4831 DSV regulator
-9351ab8b0cb61ffbef30343d28d1855e329c98fb regulator: rt4831: Adds support for Richtek RT4831 DSV regulator
-2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc Merge tag 'v5.11-rc1' into regulator-5.11
-260e7a3cc80105e923f8250966875fa94bca4530 Merge remote-tracking branch 'regulator/for-5.12' into regulator-next
+a34d4197a144d83d508163404ad7d214082e909a Merge existing fixes from spi/for-5.11
+e2be70318d7b0ad9446d8a64ed1bc73e3316ee39 spi: orion: enable clocks before spi_setup
+22a6d41c871225bdd269a80fe04236071f429e2b spi: orion: enable support for switching CS every transferred byte
+8db90aa36063f471bea1e65e23185913043852dc Merge tag 'v5.11-rc1' into spi-5.11
+f7005142dacea1769fba0152c493aaa61b33205c spi: uapi: unify SPI modes into a single spi.h header
+d962608ce2188a1d46ec9d356d6fad5cd6fc0341 spi: Add SPI_NO_TX/RX support
+ffe9819b6766b9a623822f3427df4953ab448127 spi: dt-bindings: document zero value for spi-{rx,tx}-bus-width properties
+28fc25841b1a0f045b1067cc4868beac07778e5d Merge remote-tracking branch 'spi/for-5.12' into spi-next
 
---===============4614251566173878682==--
+--===============6330702010729826662==--
