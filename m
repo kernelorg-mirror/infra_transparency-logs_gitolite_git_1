@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Mon, 28 Dec 2020 21:54:09 -0000
-Message-Id: <160919244908.1507.5169002982138107085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 28 Dec 2020 21:57:04 -0000
+Message-Id: <160919262447.3740.13693592304005902158@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/dev-test
-    old: 9cb5150afa528b174d42eec7b4bb49ef0b0eb725
-    new: 73c08716410c73194cf1b70d1228839c542ce088
+  - ref: refs/heads/master
+    old: 950271d7cc0b4546af3549d8143c4132d6e1f138
+    new: e7579d5d5b3298f7e888ed07ac16bfb7174c135a
     log: |
-         73c08716410c73194cf1b70d1228839c542ce088 libzoned: use blk_zone_v2 and blk_zone_report_v2 by default
+         e7579d5d5b3298f7e888ed07ac16bfb7174c135a net: mptcp: cap forward allocation to 1M
          
