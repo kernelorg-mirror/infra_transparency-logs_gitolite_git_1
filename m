@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5003813746789068693=="
+Content-Type: multipart/mixed; boundary="===============4603200111316541532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Mon, 28 Dec 2020 21:09:28 -0000
-Message-Id: <160918976883.3674.10663670038442773264@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 21:12:42 -0000
+Message-Id: <160918996201.5936.5514387993572006980@gitolite.kernel.org>
 
---===============5003813746789068693==
+--===============4603200111316541532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: 36487907f34131c7e3df5b1e6b30b4e3dfcdc0af
-    new: c76e02c59e13ae6c22cc091786d16c01bee23a14
-    log: revlist-36487907f341-c76e02c59e13.txt
+  - ref: refs/heads/dm-cryptsetup
+    old: c3563cd7350dff811543cbc275547a7f878a6c3a
+    new: 40466f2cf1bc371f4fdfe46e7ed54c191e060f22
+    log: revlist-c3563cd7350d-40466f2cf1bc.txt
 
---===============5003813746789068693==
+--===============4603200111316541532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36487907f341-c76e02c59e13.txt
+Content-Disposition: attachment; filename=revlist-c3563cd7350d-40466f2cf1bc.txt
 
-6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
 36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
 03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
 5d37fc0b087fb276a257034c5a1dfdbfaa08be66 ia64: remove 'ifdef CONFIG_ZONE_DMA32' statements
@@ -1050,5 +1049,6 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 91afe604c15405a7b15d1464f224372cd82d3e2c Merge branch 'for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 c76e02c59e13ae6c22cc091786d16c01bee23a14 Merge branch 'for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+40466f2cf1bc371f4fdfe46e7ed54c191e060f22 dm-crypt: Remove WQ_SYSFS.
 
---===============5003813746789068693==--
+--===============4603200111316541532==--
