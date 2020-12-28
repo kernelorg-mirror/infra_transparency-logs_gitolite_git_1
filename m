@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1251945147861874754=="
+Content-Type: multipart/mixed; boundary="===============0483136606263569724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 28 Dec 2020 15:10:00 -0000
-Message-Id: <160916820063.31010.16687324335939431795@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 15:11:45 -0000
+Message-Id: <160916830517.455.4062248807499280365@gitolite.kernel.org>
 
---===============1251945147861874754==
+--===============0483136606263569724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: d20c219c7317843cec7f03eba15bfeae54f29654
-    new: 345523fab82760186bd453e2e6ebf7c21961610b
+    old: 345523fab82760186bd453e2e6ebf7c21961610b
+    new: a60526097f42eb98760d3c63c5de63fab309fe1a
     log: |
-         5b10956483eaf524bd0ad2781ff27887d49cb6fc tty/serial/imx: convert comma to semicolon
-         345523fab82760186bd453e2e6ebf7c21961610b tty/serial/lantiq: convert comma to semicolon
+         a60526097f42eb98760d3c63c5de63fab309fe1a tty: serial: cpm_uart: Add udbg support for enabling xmon
          
 
---===============1251945147861874754==
+--===============0483136606263569724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609168275 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609168380 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1609168190-b9ed63029241fb587c9229e7efd992fb656d590d
+nonce 1609168295-664de40a18196222e16c4cc0b96ef6082e4e1211
 
-d20c219c7317843cec7f03eba15bfeae54f29654 345523fab82760186bd453e2e6ebf7c21961610b refs/heads/tty-testing
+345523fab82760186bd453e2e6ebf7c21961610b a60526097f42eb98760d3c63c5de63fab309fe1a refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p9ZMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pZkP/3KQvvd8qQnsgoxqdvIr
-Z4jZyka4t3CwVXtzoh5ZEnYdOiPjiZPxG4q9Iv7kakLWLvbiFpbfjIw0Ud4Xf+do
-d82noT9dL6MD+NNjEoQULld/3eOztLJAFZ0fVb9awMc6OxqlfhtnUFfmJQ8Bvz6f
-ok7MsmVzIFNk7pyFgR1kr+yA/WMeP8ihsiTUZ6lhN97pmUKIUoAp6rRvW7HYl5Im
-/zHoQR9iEAFdrWkHzXIQQOB2AUEhcXE/wehaC+1WmWTf1cnuQ6aIf6/PJ6Ln8DG2
-C0bfxkL1GitU8Er8gEHqHB9V4mfa6V9xj1Rp85YP8IqBj5KIznqbgoyS34pT1tKr
-dL9jBozavVdbui+TYstmGm8o1DJu0X9PyWy6aGFopxsHFKJZ/6uz1s7WEtSSx6nd
-WF34OSPIFY2GyCUIIWrA30n1HzzvRembNqh323bBXvRPH2Bs48HH7gaDiZ1j8lI2
-gvBtOkiFucBOGCpEjyNKP9e0FNhJR+iQcPk4XFUQxMISPnA5i8rGNRppEYVFMXNu
-LwrJOwbJBkZ+acYt0zBszYgHaL7PC7iqiK63nj8rbnOOwvzJoOU+SQE4Un1TJiSC
-5on3/cogW0TkZiSQ93JnAe2elJVINJkWKhHjXmYkw2wMu5Xer7igQ/46EjkrfwrN
-2CA4drqA5NKJ0c84RmZh/zam
-=twUc
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p9fwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9AcQAMG1P/rej8UOEO15eeEO
+EoCGhezXqVbEPQ40V7k1UTo9KKZjUuZl57Bl/AkNKjSlUQ16zWxxyn7gPxE+p7sz
+/Qwme80Xc0ynW/ZHXZ+xXQe6oypGS5zwEWb5ekCgfuJGsxVzcxMb68EsOOxI0wkj
+Ss/rmKbbxFTHDwaXqwR6N04IaoNFZPzRFUnZgGMquOHTfL2nfbAoN9AxWnEqIDBV
+GjfQc6UHIK2Y7e93O+I+i22SnlMs+ld9/aScnwV9e9rMsqkFhFH+Yx6YIC/831Df
+KoJreJ/OQ7hIlbcuKWdGiPadTbwiQC6XIhM/sZggIqz7Pv+Hge3rzNIutlcT9LJH
+L5rqak+zz11xZhxUaRK9iIG5/RYUpYwwNNPSMCNcobXyrr3aVNru0VsvU/vuLaeW
+3HMPt8M9hw7qeUe/atc0wuCg1UjANY8Yoha34ehTDExmEPYj+FP2Pf+rdekKo2d6
+1RnGZyJrz0EINZIxpLjzuQYEz/TTm9KJR5cxqHHq54m+0R8d+nl3qD6/EehaHkgR
+WlG4LXdaRW8YxCpJPqJ1koE+Ak0B42zRbds88zEwPM29K4hQsznluuZdzFbXiWVw
+9CbezPSgxptasazMBUSRSZrB/dVgBKoxfvziGOEVDup4frTMLu+Iyfq0pvq+q2gb
+sdYxuwm5k6Dclf9mPVgdXqTi
+=EkJ+
 -----END PGP SIGNATURE-----
 
---===============1251945147861874754==--
+--===============0483136606263569724==--
