@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8763895229684743748=="
+Content-Type: multipart/mixed; boundary="===============3026332795178418383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 28 Dec 2020 14:47:55 -0000
-Message-Id: <160916687517.16107.9841974327700323455@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 14:49:35 -0000
+Message-Id: <160916697534.16666.13654857969947746787@gitolite.kernel.org>
 
---===============8763895229684743748==
+--===============3026332795178418383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: 894f1f4f49a31887358025db03cb106efb36d8b4
+    old: 894f1f4f49a31887358025db03cb106efb36d8b4
+    new: 614b388c34265948fbb3c5803ad72aa1898f2f93
     log: |
-         894f1f4f49a31887358025db03cb106efb36d8b4 kcov, usbip: collect coverage from vhci_rx_loop
+         3c1037e2b6a94898f81ed1a68bea146a9db750a5 USB: usbtmc: Fix reading stale status byte
+         c9784e23c1020e63d6dba5e10ca8bf3d8b85c19c USB: usbtmc: Add USBTMC_IOCTL_GET_STB
+         d1d9defdc6d582119d29f5d88f810b72bb1837fa USB: usbtmc: Add separate USBTMC_IOCTL_GET_SRQ_STB
+         614b388c34265948fbb3c5803ad72aa1898f2f93 USB: usbtmc: Bump USBTMC_API_VERSION value
          
 
---===============8763895229684743748==
+--===============3026332795178418383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609166951 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609167051 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1609166866-be20fcb93476a49f6837c197e7cd0bff3a858326
+nonce 1609166966-40edd57d0c31ec3d4b5d0451ef577075fd1507cc
 
-5c8fe583cce542aa0b84adc939ce85293de36e5e 894f1f4f49a31887358025db03cb106efb36d8b4 refs/heads/usb-testing
+894f1f4f49a31887358025db03cb106efb36d8b4 614b388c34265948fbb3c5803ad72aa1898f2f93 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p8GcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wsIP/2E3DagLidBmViIPl7aa
-Jnfaqatfjm0n4DxTBL2zumxJuatJLCLRlF/8AxKthZ9L7eg5SQd9a55NlH5sBesq
-wzm0A9KMMqQ+tw/Oi4YoBorDwJTFyRhp77xUPZ044+zatpRFu0cqUkoiDNZCTexo
-mAY9JdTl4top3KfTpvUfp7cLfh73+Iom2CmS544fNG/1OYI/+m5YbA1SbIwIMNE5
-pT9aPGRormqDbz2a1m16a4GdU5W6s4UhJ5FgLrf0+ZLO0/530TkMQt36hIL04NM1
-EgVaxuPHzpqbhTkZaSl2N1V1QB02PRfklQQc06t1U/uGiIhrbKGwmMxNGH/r/daj
-EcBCWfnw6rMtCN5YR9uAxpkMF/dicB5hilcUtqcEnYIvezJiZ6UZrtBcm6dgQRdP
-yVY9cMG2mev4E3X/w7+/LNSTXmfWDESaF+7uMPJCRslQ6Ur5YRMk+WYFrQwFSDKn
-08mp9dAn5o+iwL1VeJH+IA74bVVlCursY0Q88r7Ro0eAabloWqv8cKmX6syP1PWZ
-uPlCkFTpI3pSG4RJ8DzaO9kOjzxRlYUFIKs5ktknRdmURp5TREY5UnfHbnXCnV7y
-lVbF74EQGQKdwOpAfLAMqzG78aBDDZmbwZfJstQ4PCjwq/uchRf/vxG4hz158g8G
-/J3o3L3yvR+DV9bk9/W0XrVR
-=Q+oe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p8MsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fogP/0Tj0s1toSeAbg40eXtz
+O82cTSeNpTr/4j8P3NTuvtEcUOqnaZr+JNxV8syAv4xVzv7cYX0EUIkMPAgdHJKE
+8Ez5/lC6Tzo+yFSVu5oo8FPLmc8I/SYDq8Ejb5chdYL3Bpg9jCBWeWnZj2bsBitB
+lXgQbZOy2gRJFeG+gzsqmseFdGFp/X5gHUFT4S96q4MSxzD0gUuTku5kxajsfddX
+koUY5wYncGzBIVpW4nFbC8RyZxqbNmxQGGp2y2NZ7S5fYeiFpd81Oh7BHdHZuXNU
+qRPqW/yWDhnBo7+q/bmckys3BaPpK5AbSRkdcgXnEKyRzd04PlqZZHe1ZiVsawCK
+6/nT0XPH4G4Wqz6wXcwQdQYPB2Pny619GbtKkSKpd2x0yFOLxPMUSaYkGAauS2u7
+61GhUdoZiBoZxm2PVEWBTmJQorYTCJ5V+ExwV9oyPWdiBbuo5ptqvNfdIPEQjqv+
+xH57ecUIm/5Hep9l6fHcK7K3emg0lDLk66ohLfQ7qhsT/diOC4G2DMJiNfHhUhGt
+7XPBixdtNClP9lNXfatJiYVHW41vBHItfpX4hzbSiCOD9VDIhO6LkpmBeKT0DhV6
+bMngCqbVNOmhdDPJJHaiaFgvuL01qEgCtQgoSGS4G5xMvjO72hWntWvaF5XCYnXq
+HcMDmI41mmCFf8VlZbY4opir
+=Y1U5
 -----END PGP SIGNATURE-----
 
---===============8763895229684743748==--
+--===============3026332795178418383==--
