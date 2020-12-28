@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 28 Dec 2020 18:46:03 -0000
-Message-Id: <160918116307.10623.16468686438674124257@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 18:46:22 -0000
+Message-Id: <160918118288.10788.17457635774349822752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-amd64
+  - ref: refs/heads/edac-for-next
     old: 6c13d7ff81e6d2f01f62ccbfa49d1b8d87f274d0
     new: 1865bc71a869ede69098b1f3e65857b4330f0607
     log: |
