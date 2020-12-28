@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3516700244653455987=="
+Content-Type: multipart/mixed; boundary="===============4315789421380022576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Mon, 28 Dec 2020 13:41:12 -0000
-Message-Id: <160916287212.2384.1303148803588195779@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 13:47:15 -0000
+Message-Id: <160916323574.5485.13446130410731880775@gitolite.kernel.org>
 
---===============3516700244653455987==
+--===============4315789421380022576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/renesas/v3u/i2c
-    old: a38568d6ab50ed6e2e5fb573865aeb5593561c7a
-    new: d4b97468d07f52a44417d627d8183fa5112744a2
-    log: revlist-a38568d6ab50-d4b97468d07f.txt
+  - ref: refs/heads/renesas/v3u/gpio
+    old: fd6cb8ce975c869843a156bd04dba469b54cc5fe
+    new: 3cf08bfea4b653cfe0ded88d64f030a73d5faef3
+    log: revlist-fd6cb8ce975c-3cf08bfea4b6.txt
 
---===============3516700244653455987==
+--===============4315789421380022576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a38568d6ab50-d4b97468d07f.txt
+Content-Disposition: attachment; filename=revlist-fd6cb8ce975c-3cf08bfea4b6.txt
 
 bc13809f1c47245cd584f4ad31ad06a5c5f40e54 efi/libstub/x86: simplify efi_is_native()
 688eb28211abdf82a3f51e8997f1c8137947227d efi/x86: Only copy the compressed kernel image in efi_relocate_kernel()
@@ -620,5 +620,14 @@ efacb83a5b05829eb2bfe3a9d95228804c32c49a v3u: enable other I2C busses for testin
 ab8de75e257d48c97ce095ece1bc46ca1a0b2386 i2c: rcar: optimize cacheline to minimize HW race condition
 4a96f1e13b8f4ac8aede45496efeaf5b3f951277 i2c: rcar: make sure irq is not threaded on Gen2 and earlier
 d4b97468d07f52a44417d627d8183fa5112744a2 i2c: rcar: protect against supurious interrupts on V3U
+ddf6a5f2a4edca760a746f2d85c5ffaa80ad0473 clk: renesas: r8a779a0: Remove non-existent S2 clock
+ea5e4703a56891c833a2b5def97a96805e3e361c clk: renesas: r8a779a0: Fix parent of CBFUSA clock
+22f966d95282ec9657a457a262bbbc17543c0daa clk: renesas: r8a779a0: Add PFC/GPIO clocks
+477b3ace01fb9f69fc861bf014bd66eb23d67904 dt-bindings: gpio: rcar: Add r8a779a0 support
+cbadde6656e3961ba2b3da01588c849b3165d0b4 gpio: rcar: Optimize GPIO pin state read on R-Car Gen3
+c770f0902b722b8962b5e8bba39edac3b8dfa353 gpio: rcar: Add R-Car V3U (R8A7799A) support
+4ac33828118d1592f519de5a20b5b3eaf578cf4c arm64: dts: r8a779a0: Add GPIO nodes
+cdb759cfb207de76de791022af4a8ed481a72396 arm64: dts: r8a779a0: correct reset values for GPIO
+3cf08bfea4b653cfe0ded88d64f030a73d5faef3 arm64: dts: r8a779a0: enable gpio-ranges
 
---===============3516700244653455987==--
+--===============4315789421380022576==--
