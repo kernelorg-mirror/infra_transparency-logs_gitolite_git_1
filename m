@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2851181925148377801=="
+Content-Type: multipart/mixed; boundary="===============3940335624852968700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 28 Dec 2020 19:38:25 -0000
-Message-Id: <160918430539.11737.6320751209123332320@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 19:38:39 -0000
+Message-Id: <160918431904.11883.6202600840261878103@gitolite.kernel.org>
 
---===============2851181925148377801==
+--===============3940335624852968700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/wip-f2fs
-    old: 04a5d3ab064843ea6fa974443b605d03ff5dceed
-    new: 3060b6d9b801883310201dc4d571883ddef83e9d
-    log: revlist-04a5d3ab0648-3060b6d9b801.txt
+  - ref: refs/heads/random-pending
+    old: e2274fc9df16a184c246cfce144194a504cee76c
+    new: 02dc5ad20c3f3fa96028ad32ebc54c62a32fb2bf
+    log: revlist-e2274fc9df16-02dc5ad20c3f.txt
 
---===============2851181925148377801==
+--===============3940335624852968700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-04a5d3ab0648-3060b6d9b801.txt
+Content-Disposition: attachment; filename=revlist-e2274fc9df16-02dc5ad20c3f.txt
 
 91b8246de8590bac89b03b4fd14c61a8b4053b9e ntb: idt: fix error check in ntb_hw_idt.c
 75b6f6487cedd0e4c8e07d68b68b8f85cd352bfe ntb: intel: add Intel NTB LTR vendor support for gen4 NTB
@@ -53,7 +53,9 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
-faf58bbd5a9d2d4be2688ea7bb7805f8e8ea8e46 libfs: unexport generic_ci_d_compare() and generic_ci_d_hash()
-3060b6d9b801883310201dc4d571883ddef83e9d f2fs: clean up post-read processing
+31030333d5c8bf9baba9110f4473d15ec86c7489 random: fix the RNDRESEEDCRNG ioctl
+511f67a8f3b307188f8b381a47494cdbb4f00420 random: remove dead code left over from blocking pool
+53384ddfcabed509d6233b6b64700127d5b7462b random: initialize ChaCha20 constants with correct endianness
+02dc5ad20c3f3fa96028ad32ebc54c62a32fb2bf random: use correct memory barriers for crng_node_pool
 
---===============2851181925148377801==--
+--===============3940335624852968700==--
