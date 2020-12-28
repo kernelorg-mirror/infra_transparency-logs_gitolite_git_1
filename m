@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1045851703219351491=="
+Content-Type: multipart/mixed; boundary="===============0160565317301242181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Mon, 28 Dec 2020 13:38:35 -0000
-Message-Id: <160916271542.32385.4282513300898368405@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 13:40:09 -0000
+Message-Id: <160916280923.1999.13732660320716094990@gitolite.kernel.org>
 
---===============1045851703219351491==
+--===============0160565317301242181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/renesas/v3u/watchdog
-    old: fb8fd3619dde7b228c5c28901912216c07eab30d
-    new: a197835fc3fc039837d5c2e90fa1ea289c367819
-    log: revlist-fb8fd3619dde-a197835fc3fc.txt
+  - ref: refs/heads/renesas/v3u/pfc
+    old: a34fdc5f141b8ed8290a242636152438e94e6929
+    new: 36ed70bdab64d202a8124a47004da3823e9113c6
+    log: revlist-a34fdc5f141b-36ed70bdab64.txt
 
---===============1045851703219351491==
+--===============0160565317301242181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb8fd3619dde-a197835fc3fc.txt
+Content-Disposition: attachment; filename=revlist-a34fdc5f141b-36ed70bdab64.txt
 
 bc13809f1c47245cd584f4ad31ad06a5c5f40e54 efi/libstub/x86: simplify efi_is_native()
 688eb28211abdf82a3f51e8997f1c8137947227d efi/x86: Only copy the compressed kernel image in efi_relocate_kernel()
@@ -592,5 +592,23 @@ f639a452b66a386f5b473ad4d73d3efbff17a84f arm64: dts: renesas: falcon: Enable wat
 54fca4fd716c2e61581f561cfda641a2ee68ae35 arm64: add grace period when rebooting
 bc2edd54e2c60dc14de5b9222381a0e6ca13f130 arm64: proper comment formatting in reboot handler
 a197835fc3fc039837d5c2e90fa1ea289c367819 watchdog: renesas_wdt: don't sleep in atomic context
+5ba6f750d79849fdeb44bdddb3ec9ec74a07f6b3 pinctrl: renesas: implement unlock register masks
+8463b081e87c5a9a31dc7dc01d3aea794c5fda24 pinctrl: renesas: add I/O voltage level flag
+d6e00fff7480b5e9b80ffdeef445be80815e2ac9 pinctrl: renesas: add PORT_GP_CFG_{2,31} macros
+62231818d4bddb2febf578b1b06e8569ff2ae9a9 pinctrl: renesas: Initial R8A779A0 (V3U) PFC support
+4082b6768c0fb0772f232561a58a5dce5b2003e5 pinctrl: renesas: r8a779a0: Add SCIF pins, groups and functions
+df6edc508d1fc3273f6d9b6ed0748db6a845bf57 pinctrl: renesas: r8a779a0: Add I2C pins, groups and functions
+35df64855b2d7c6517b8e6cfe9e98755c695b83c pinctrl: renesas: r8a779a0: Add EtherAVB pins, groups and functions
+39524f118ad4cbddf0a4f861e18e3444e74e48fd pinctrl: renesas: r8a779a0: Add CANFD pins, groups and functions
+2356fd3e3bbc5f33920653293aabf0f1c13d74c3 pinctrl: renesas: r8a779a0: Add DU pins, groups and function
+332c09f2bae0a3a5ff1941a4b2e16b8eb94bc40b pinctrl: renesas: r8a779a0: Add HSCIF pins, groups and functions
+3d45d58ba3ddb4c9a0eaf15df6e22e93a97f57af pinctrl: renesas: r8a779a0: Add INTC-EX pins, groups and function
+15ba4e0799d8f1115e69b71bc03c6ce37b57964c pinctrl: renesas: r8a779a0: Add MMC pins, groups and functions
+3d832c9736f5b3ce2ee0ab577640c111fbcbf5d4 pinctrl: renesas: r8a779a0: Add MSIOF pins, groups and functions
+3ffdc01bfbe12ed7e53d0cdec07d3ec3b6326f9a pinctrl: renesas: r8a779a0: Add PWM pins, groups and functions
+9a22655a4ed4bf363ab7402a90102996ab927b6d pinctrl: renesas: r8a779a0: Add QSPI pins, groups, and functions
+dd329deb7b18bbea34bdd3cf82c0e66961690960 pinctrl: renesas: r8a779a0: Add TMU pins, groups and functions
+c9d5f9d5e5e44a5d929177f3a01994eae47613ce pinctrl: renesas: r8a779a0: Add TPU pins, groups and functions
+36ed70bdab64d202a8124a47004da3823e9113c6 arm64: dts: renesas: Add PFC driver to R8A779A0
 
---===============1045851703219351491==--
+--===============0160565317301242181==--
