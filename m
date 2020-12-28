@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1746345034975994013=="
+Content-Type: multipart/mixed; boundary="===============1938080582364496124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 28 Dec 2020 18:02:05 -0000
-Message-Id: <160917852559.15464.8621880066707639784@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 18:02:19 -0000
+Message-Id: <160917853965.15638.17018952424445361206@gitolite.kernel.org>
 
---===============1746345034975994013==
+--===============1938080582364496124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 75e91c888989cf2df5c78b251b07de1f5052e30e
-    new: e3279133dd637efb774af7d22934db980037bd13
-    log: revlist-75e91c888989-e3279133dd63.txt
+  - ref: refs/heads/dev-test
+    old: a067e84cf767c0cde2ac38407786953e79c94bda
+    new: d78336b93f4558d8b49ba89e7699f177763e0ca8
+    log: revlist-a067e84cf767-d78336b93f45.txt
 
---===============1746345034975994013==
+--===============1938080582364496124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75e91c888989-e3279133dd63.txt
+Content-Disposition: attachment; filename=revlist-a067e84cf767-d78336b93f45.txt
 
-b90b5547685ffe2b30522b81a1c9f6c35e1152de ia64: discontig: paging_init(): remove local max_pfn calculation
-1f112129975e7a47324ba71b00e8e2c962177843 ia64: split virtual map initialization out of paging_init()
-ea34f78f3df62e531cf2beca997ff6bfae2b1e0d ia64: forbid using VIRTUAL_MEM_MAP with FLATMEM
-214496cb18700fd7c5206ac33768876dbf68b4df ia64: make SPARSEMEM default and disable DISCONTIGMEM
-5e545df3292fbd3d5963c68980f1527ead2a2b3f arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
-4f5b0c1789963477cc9a4d45b4b62d694665cceb arm, arm64: move free_unused_memmap() to generic mm
-050b2da268f8fc4f8123f6462c430a61547b2f7b arc: use FLATMEM with freeing of unused memory map instead of DISCONTIGMEM
 6b2ad8d763727b887d85c990747271ee804d9abb m68k/mm: make node data and node setup depend on CONFIG_DISCONTIGMEM
 4bfc848e0981fcd35db00fe1c6581560689f6dc7 m68k/mm: enable use of generic memory_model.h for !DISCONTIGMEM
 fcd353a314213534d04193eea0bc54c4b7a3e1b0 m68k: deprecate DISCONTIGMEM
@@ -1050,5 +1043,12 @@ b7e4c14f90e5971717527c685390049f9b88fe48 f2fs: enhance to update i_mode and acl 
 3b931420b1877ac7c10a8d2bd0843b8ea313b7c5 f2fs: fix to keep isolation of atomic write
 12a7530b29e511213d1c4416ca8afe566d2189b7 f2fs: enforce the immutable flag on open files
 e3279133dd637efb774af7d22934db980037bd13 f2fs: relocate f2fs_precache_extents()
+05a895e78a5e1d0ace4af2a003e9797958d557c0 f2fs: compress: add compress_inode to cache compressed blocks
+e622376ebb27da28d9941f3265f77d82d3273823 f2fs: compress: support compress level
+78f16d9261716fea8853507d95bb500ff62897f3 f2fs: compress: deny setting unsupported compress algorithm
+93bb6204e15c3f8df4684070a894898ea005c847 f2fs: introduce a new per-sb directory in sysfs
+5b5bf13eb0237bdad78d004d2d715be03d77a6a7 f2fs: introduce sb_status sysfs node
+88f5e1f102b12a3a6d45c7dc446b662e34a6b7b5 f2fs: fix to tag FIEMAP_EXTENT_MERGED in f2fs_fiemap()
+d78336b93f4558d8b49ba89e7699f177763e0ca8 f2fs: fix out-of-repair __setattr_copy()
 
---===============1746345034975994013==--
+--===============1938080582364496124==--
