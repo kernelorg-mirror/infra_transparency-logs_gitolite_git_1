@@ -1,39 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5164180758665314065=="
+Content-Type: multipart/mixed; boundary="===============4758569811887288284=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Mon, 28 Dec 2020 23:29:29 -0000
-Message-Id: <160919816940.30122.5280213248881320131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Mon, 28 Dec 2020 23:29:34 -0000
+Message-Id: <160919817495.30248.3218449550621902112@gitolite.kernel.org>
 
---===============5164180758665314065==
+--===============4758569811887288284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/numa
-    old: 9862e99a067ea5652e0cdcc9964c7a2bf791870e
-    new: f9a51005f76c22d5071a4c44633c90e140f70355
-    log: revlist-9862e99a067e-f9a51005f76c.txt
+  - ref: refs/heads/mediatek-drm-next
+    old: a4423bec44744ce556e91fe8efffbd10327f79fd
+    new: b2eb3db88c8be3a588e3334d8f7a73a1bbca8a72
+    log: revlist-a4423bec4474-b2eb3db88c8b.txt
 
---===============5164180758665314065==
+--===============4758569811887288284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9862e99a067e-f9a51005f76c.txt
+Content-Disposition: attachment; filename=revlist-a4423bec4474-b2eb3db88c8b.txt
 
-36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
-03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
-5d37fc0b087fb276a257034c5a1dfdbfaa08be66 ia64: remove 'ifdef CONFIG_ZONE_DMA32' statements
-b90b5547685ffe2b30522b81a1c9f6c35e1152de ia64: discontig: paging_init(): remove local max_pfn calculation
-1f112129975e7a47324ba71b00e8e2c962177843 ia64: split virtual map initialization out of paging_init()
-ea34f78f3df62e531cf2beca997ff6bfae2b1e0d ia64: forbid using VIRTUAL_MEM_MAP with FLATMEM
-214496cb18700fd7c5206ac33768876dbf68b4df ia64: make SPARSEMEM default and disable DISCONTIGMEM
-5e545df3292fbd3d5963c68980f1527ead2a2b3f arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
 4f5b0c1789963477cc9a4d45b4b62d694665cceb arm, arm64: move free_unused_memmap() to generic mm
 050b2da268f8fc4f8123f6462c430a61547b2f7b arc: use FLATMEM with freeing of unused memory map instead of DISCONTIGMEM
 6b2ad8d763727b887d85c990747271ee804d9abb m68k/mm: make node data and node setup depend on CONFIG_DISCONTIGMEM
@@ -336,7 +328,6 @@ e0d62dcb20beac18a412ef9355208d9058c674d3 s390/delay: remove udelay_simple()
 7494755a9ad62be7e389b535c77e85ed9c66bece s390/idle: remove raw_local_irq_save()/restore() from arch_cpu_idle()
 8d93b7011831edc42760aa5d2f0727edda7257d5 s390/idle: allow arch_cpu_idle() to be kprobed
 dfdc6e73cdcf011a04568231132916c6d06b861f s390/zcrypt: convert comma to semicolon
-2d18e54dd8662442ef5898c6bdadeaf90b3cebbc cgroup: Fix memory leak when parsing multiple source parameters
 846f151d03f796bf1b303784edaf3a22e3f51377 drm/ttm: fix unused function warning
 34cdf405aa5de827b8bef79a6c82c39120b3729b ALSA: hda/realtek: Remove dummy lineout on Acer TravelMate P648/P658
 57030a0b620f735bf557696e5ceb9f32c2b3bb8f lan743x: fix rx_napi_poll/interrupt ping-pong
@@ -1047,8 +1038,17 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
-91afe604c15405a7b15d1464f224372cd82d3e2c Merge branch 'for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-c76e02c59e13ae6c22cc091786d16c01bee23a14 Merge branch 'for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-f9a51005f76c22d5071a4c44633c90e140f70355 x86/sgx: Add trivial NUMA allocation
+c822584e27911c5af089a366cb5eca378a1cd5ea drm/mediatek: Get CMDQ client register for all ddp component
+6ea6f8276725dc60cf8fe9a023b5f2c4cbb673a3 drm/mediatek: Use correct device pointer to get CMDQ client register
+926df14ec571f6cdbf6d941a0f1be112bf7a7535 drm/mediatek: Separate getting larb device to a function
+c0d36de868a6834f0124d248ac5c313d3c4d90bf drm/mediatek: Move clk info from struct mtk_ddp_comp to sub driver private data
+3c87daefc5c3637bed36f1f29dc9bbf3506cba55 drm/mediatek: Move regs info from struct mtk_ddp_comp to sub driver private data
+993fd584942a75edda5e9cdec24c590c7a766b2d drm/mediatek: Remove irq in struct mtk_ddp_comp
+f22a565d10e756f1a6141ecd8762c58aa1788db8 drm/mediatek: Use struct cmdq_client_reg to gather cmdq variable
+616443ca577efccd3f67ac7f875ed68e70b34012 drm/mediatek: Move cmdq_reg info from struct mtk_ddp_comp to sub driver private data
+ec0f3c7db1c5171398469e305cda547b1ab7477b drm/mediatek: Change sub driver interface from mtk_ddp_comp to device
+67d8ad9c740d23bf1633491c4b03b429739a5b71 drm/mediatek: Register vblank callback function
+c933f6d3f1a808b6a6786eb4b1f1406eaa451fb3 drm/mediatek: DRM driver directly refer to sub driver's function
+b2eb3db88c8be3a588e3334d8f7a73a1bbca8a72 drm/mediatek: Move mtk_ddp_comp_init() from sub driver to DRM driver
 
---===============5164180758665314065==--
+--===============4758569811887288284==--
