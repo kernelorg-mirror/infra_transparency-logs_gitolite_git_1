@@ -1,35 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============7017203469551783761=="
+Content-Type: multipart/mixed; boundary="===============4091374236215844734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 28 Dec 2020 16:03:05 -0000
-Message-Id: <160917138584.3046.1084814075492162135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Mon, 28 Dec 2020 16:03:17 -0000
+Message-Id: <160917139708.3222.3130894507692320981@gitolite.kernel.org>
 
---===============7017203469551783761==
+--===============4091374236215844734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: fd19c73525045494a46d1eb3f4ee476b605ce1cb
-    new: 1f092d1c8819679d78a7d9c62a46d4939d217a9d
-    log: revlist-fd19c7352504-1f092d1c8819.txt
+    old: e6e9354b58307c120afbdc2719a6093638c37446
+    new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+    log: revlist-e6e9354b5830-5c8fe583cce5.txt
   - ref: refs/heads/for-next
-    old: fd19c73525045494a46d1eb3f4ee476b605ce1cb
-    new: f3f9efce7243da1847b969df4c26105a13b3edcc
-    log: revlist-fd19c7352504-f3f9efce7243.txt
+    old: 4616c509d187d2afda4a8f1121c2a3ef16bbcefe
+    new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+    log: revlist-4616c509d187-5c8fe583cce5.txt
 
---===============7017203469551783761==
+--===============4091374236215844734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd19c7352504-1f092d1c8819.txt
+Content-Disposition: attachment; filename=revlist-e6e9354b5830-5c8fe583cce5.txt
 
+ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
+214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
+4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
+6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
 36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
 03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
 5d37fc0b087fb276a257034c5a1dfdbfaa08be66 ia64: remove 'ifdef CONFIG_ZONE_DMA32' statements
@@ -1050,17 +1054,24 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
-f81325a05e9317f09a2e4ec57a52e4e49eb42b54 Merge tag 'v5.11-rc1' into asoc-5.11
-275565997ade6fc32be9cd49a910ba996bcb4797 ASoC: AMD Renoir - add DMI entry for Lenovo ThinkPad E14 Gen 2
-a523e1538fdd5f00ea3289cc0b3c6c1785b89814 ASoC: amd: Replacing MSI with Legacy IRQ model
-1f092d1c8819679d78a7d9c62a46d4939d217a9d ASoC: AMD Renoir - add DMI entry for Lenovo ThinkPad X395
 
---===============7017203469551783761==
+--===============4091374236215844734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd19c7352504-f3f9efce7243.txt
+Content-Disposition: attachment; filename=revlist-4616c509d187-5c8fe583cce5.txt
 
+ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
+214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
+4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
+6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
+36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
+03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
+5d37fc0b087fb276a257034c5a1dfdbfaa08be66 ia64: remove 'ifdef CONFIG_ZONE_DMA32' statements
+b90b5547685ffe2b30522b81a1c9f6c35e1152de ia64: discontig: paging_init(): remove local max_pfn calculation
+1f112129975e7a47324ba71b00e8e2c962177843 ia64: split virtual map initialization out of paging_init()
+ea34f78f3df62e531cf2beca997ff6bfae2b1e0d ia64: forbid using VIRTUAL_MEM_MAP with FLATMEM
+214496cb18700fd7c5206ac33768876dbf68b4df ia64: make SPARSEMEM default and disable DISCONTIGMEM
 5e545df3292fbd3d5963c68980f1527ead2a2b3f arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
 4f5b0c1789963477cc9a4d45b4b62d694665cceb arm, arm64: move free_unused_memmap() to generic mm
 050b2da268f8fc4f8123f6462c430a61547b2f7b arc: use FLATMEM with freeing of unused memory map instead of DISCONTIGMEM
@@ -2074,16 +2085,5 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
-984fcd3f4e7baa16344e17c6ce5e1e53e38aec36 Merge existing fixes from asoc/for-5.11
-a9830fc388817c90282925694474fae005fec990 catpt: Switch to use list_entry_is_head() helper
-7726e49837af634accaec317c8d246d1d90d8fc5 ASoC: wm_adsp: Improve handling of raw byte streams
-6bdd75a1f6f552ecfb0afd6f544b022b2d34c56a ASoC: rt1015: modify calibration sequence for better performance
-57fc2bbc62ef9d505e8732acbae0d6b5c59836cd ASoC: sprd: Switch to use list_entry_is_head() helper
-e05cde84eabccc0441f837f0661cd4c6f4820513 ASoC: meson: Use managed DMA buffer allocation
-f81325a05e9317f09a2e4ec57a52e4e49eb42b54 Merge tag 'v5.11-rc1' into asoc-5.11
-275565997ade6fc32be9cd49a910ba996bcb4797 ASoC: AMD Renoir - add DMI entry for Lenovo ThinkPad E14 Gen 2
-a523e1538fdd5f00ea3289cc0b3c6c1785b89814 ASoC: amd: Replacing MSI with Legacy IRQ model
-1f092d1c8819679d78a7d9c62a46d4939d217a9d ASoC: AMD Renoir - add DMI entry for Lenovo ThinkPad X395
-f3f9efce7243da1847b969df4c26105a13b3edcc Merge remote-tracking branch 'asoc/for-5.12' into asoc-next
 
---===============7017203469551783761==--
+--===============4091374236215844734==--
