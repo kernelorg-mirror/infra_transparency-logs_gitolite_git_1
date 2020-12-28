@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7746525139941119309=="
+Content-Type: multipart/mixed; boundary="===============1592351121611488625=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 28 Dec 2020 02:58:47 -0000
-Message-Id: <160912432788.3478.12264339499121646325@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 03:12:56 -0000
+Message-Id: <160912517625.11287.13315543401197703987@gitolite.kernel.org>
 
---===============7746525139941119309==
+--===============1592351121611488625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sunxi/linux
 user: wens
 changes:
-  - ref: refs/heads/sunxi/dt-for-5.12
-    old: 53d599c9e654f4d9bf5f3fbe4bcca9ce067da053
+  - ref: refs/heads/sunxi/for-next
+    old: 9e3b3fad35794ad087eb77eb9ba1b3e982be4d77
     new: 23e85be1ec81647374055f731488cc9a7c013a5c
-    log: revlist-53d599c9e654-23e85be1ec81.txt
+    log: revlist-9e3b3fad3579-23e85be1ec81.txt
 
---===============7746525139941119309==
+--===============1592351121611488625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53d599c9e654-23e85be1ec81.txt
+Content-Disposition: attachment; filename=revlist-9e3b3fad3579-23e85be1ec81.txt
 
 214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
 4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 23e85be1ec81647374055f731488cc9a7c013a5c ARM: dts: sun8i-h2-plus-bananapi-m2-zero: add regulator nodes vcc-dram and vcc1v2
 
---===============7746525139941119309==--
+--===============1592351121611488625==--
