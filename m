@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0221396460063598394=="
+Content-Type: multipart/mixed; boundary="===============3511129352648387620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 28 Dec 2020 14:45:00 -0000
-Message-Id: <160916670032.13723.14610738731380672115@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 14:46:21 -0000
+Message-Id: <160916678196.15597.15503038220805521583@gitolite.kernel.org>
 
---===============0221396460063598394==
+--===============3511129352648387620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 5d5323a6f3625f101dbfa94ba3ef7706cce38760
-    new: 83a43ff80a566de8718dfc6565545a0080ec1fb5
+    old: 83a43ff80a566de8718dfc6565545a0080ec1fb5
+    new: 372c93131998c0622304bed118322d2a04489e63
     log: |
-         a5ada3dfe6a20f41f91448b9034a1ef8da3dc87d usb: dwc3: meson-g12a: disable clk on error handling path in probe
-         2cc332e4ee4febcbb685e2962ad323fe4b3b750a usb: gadget: function: printer: Fix a memory leak for interface descriptor
-         5cc35c224a80aa5a5a539510ef049faf0d6ed181 usb: gadget: Fix spinlock lockup on usb_function_deactivate
-         c91d3a6bcaa031f551ba29a496a8027b31289464 USB: gadget: legacy: fix return error code in acm_ms_bind()
-         0a88fa221ce911c331bf700d2214c5b2f77414d3 usb: gadget: u_ether: Fix MTU size mismatch with RX packet size
-         83a43ff80a566de8718dfc6565545a0080ec1fb5 usb: chipidea: ci_hdrc_imx: add missing put_device() call in usbmisc_get_init_data()
+         372c93131998c0622304bed118322d2a04489e63 USB: yurex: fix control-URB timeout handling
          
 
---===============0221396460063598394==
+--===============3511129352648387620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609166775 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609166858 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1609166690-1ca38f6590380d87ec367a4386dbd49ba4d651df
+nonce 1609166773-d28d23766202ffb71bc99b09137885470470c2fa
 
-5d5323a6f3625f101dbfa94ba3ef7706cce38760 83a43ff80a566de8718dfc6565545a0080ec1fb5 refs/heads/usb-linus
+83a43ff80a566de8718dfc6565545a0080ec1fb5 372c93131998c0622304bed118322d2a04489e63 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p77cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w64QAItf78s7Qu2hq/bteF+w
-VpgFL5JWFEZkrHLp2Q2npE/L7d7uhY909+gdWvdcUoynhC5JXw2L4D9I72ZNuTmA
-L77y/TWCqFwe4WKGsxsbH2359A6gvpss2dWjlIlKjGex63sNLBdw0arYjrka/5bw
-pRyT3oDxcZFMdymD6o4fFhEs03At/yuw15bvfLisszQgy3Cm+amNjYrXsXI2iCVu
-lUPegZW/8oqmqutrnPagOfCm79CpXC65SkhERHJQ78H0jSapwsmxmqYFIQ1l40ln
-uulwtLE1QPDD7D/pNR3hHYECTwJjsZ6v19QwW6R3gTGB18ulqwUf9C3EHvFflcNZ
-+k7LM2dDQ43yp/flmeZifXc29sJk/3NbAFUIPLEBQ9RPmlFW/zY0My5fRnqHQ97T
-0ZDw4kj3ht8EoGxFUVuHyn33BDz9cZOO7EMFbs+6ZFRLGOv2k+P7yYa03HXtv29s
-ByopfjFWGZO7Z2roC+pKxMK9UDDnQojyQmO7NZvJ1KcDxzDiFyGTTbrt+SNcsPYh
-nUmJwBg4MNiklMyhG+8MaMBA79xGmbD7VyUZPDKnsztVzPGgJopys3+9FYOoMJAi
-YQeSdbp+s5vrJkhOW3lkVXDEiIIjUWy7r7LhrHJ0L7xIr7vrD3K1+TLZzYAhRgW8
-jQxly2DhfKcuR0dGl94/a53c
-=Ez2c
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p8AobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kkcQAJ2505fEpmmtnZkeSZ3+
+7QEgfxK5ZKhoIeCcbQk4UDN9XiqQXgFznCbI5w2vxfEjpdwYz5nI7Ei5/1R3FU6n
+n1fnjEXEjSvU5PB38msqZdTnVk/Wl1PCT+YHuC26y3hfPgJm3JEkS8MMDJ9tujdI
+gTDrUNecP9tYojDbXEtH8gcNVS66FYyJiAZMK1Lp9Le2jhGhSDM5QbZh5/R35JlL
+uu/oeQF2ac3x9mVe2xsgKKT8Xlj0G+59KDIkU3LKfdNrhZ2pNfdmnOsYpZR+2HqV
++BE6ruzsaUAQHayhyPPP1REzwUUAkO/VuNGIEs+l4EEG0trZ6+YEOa/u+VZVupDl
+Sy/qRIkFJovegomcntpVrMSckItdgpVS5gBNiXewuNC+NjDVUCZPiCwCSETiyZbE
+lkK4iTR8/N+IoJ1fdIPPP1/Zs9KA9wNf6U20Pc7KW+GPrLoR7JSmebXKXIM1NxOt
+Aq3RR5NmS4c+hjCmo4ooAPK/tseSvC7UWOS65EJkR/FUin0zox1Q1XuB25l7OQAU
+2+j0wurmmYc34PDSNJULMWBkglEc5nFq7JbJ66nmoB3H8f60DyX1Hb+2nKzwBBtD
+s0k5nrLRf8gaJ7o++xemQj/Ct9MUn3WZXA3ccpP5vKuv56NBCVhy5fi7y8kTQyPK
+8y6pdETFAx29NUKE8jDG2XQ6
+=7Z69
 -----END PGP SIGNATURE-----
 
---===============0221396460063598394==--
+--===============3511129352648387620==--
