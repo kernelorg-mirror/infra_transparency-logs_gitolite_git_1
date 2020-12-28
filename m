@@ -1,16 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Mon, 28 Dec 2020 13:24:03 -0000
-Message-Id: <160916184381.23983.13482954850131674961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 28 Dec 2020 13:24:48 -0000
+Message-Id: <160916188870.24273.3122786357526408171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
-user: linusw
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: andy
 changes:
+  - ref: refs/tags/v5.10
+    old: 0000000000000000000000000000000000000000
+    new: 3f995f8e0b540342612d3f6b1fc299f5bf486987
+  - ref: refs/tags/v5.10-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 27598e7e73260ed0b2917eb02d4a515ebb578313
+  - ref: refs/tags/v5.10-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 4d3d761b5b27bb33a731e8df51b7fb6a6c565804
+  - ref: refs/tags/v5.10-rc4
+    old: 0000000000000000000000000000000000000000
+    new: a93711503472d4c89977ce2c80dcd4b75e36cc45
+  - ref: refs/tags/v5.10-rc5
+    old: 0000000000000000000000000000000000000000
+    new: af69a948d2ce48f8bfe9935958d12f86fb50326b
+  - ref: refs/tags/v5.10-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 2884f0b6b25db35053dd51e8e1839696746d8321
+  - ref: refs/tags/v5.10-rc7
+    old: 0000000000000000000000000000000000000000
+    new: dd0039844c8b2b960d0e0175923da0135f87c392
   - ref: refs/tags/v5.11-rc1
     old: 0000000000000000000000000000000000000000
     new: 4a191eab42bda9fba2742d8d538609c737b8194e
