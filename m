@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Mon, 28 Dec 2020 14:07:19 -0000
-Message-Id: <160916443935.23340.16698705647841754403@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 14:07:52 -0000
+Message-Id: <160916447261.23610.17948244193359817623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/renesas/v3u/devel
+  - ref: refs/heads/renesas/v3u/scif
     old: 63f9fd1eaadf87aa795c8d0e9447f0ddc1a3f840
     new: 4dc3446a23362f840418d32c39626439bdd119fe
     log: |
