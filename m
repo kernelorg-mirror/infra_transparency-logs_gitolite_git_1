@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0160565317301242181=="
+Content-Type: multipart/mixed; boundary="===============3516700244653455987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Mon, 28 Dec 2020 13:40:09 -0000
-Message-Id: <160916280923.1999.13732660320716094990@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 13:41:12 -0000
+Message-Id: <160916287212.2384.1303148803588195779@gitolite.kernel.org>
 
---===============0160565317301242181==
+--===============3516700244653455987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/renesas/v3u/pfc
-    old: a34fdc5f141b8ed8290a242636152438e94e6929
-    new: 36ed70bdab64d202a8124a47004da3823e9113c6
-    log: revlist-a34fdc5f141b-36ed70bdab64.txt
+  - ref: refs/heads/renesas/v3u/i2c
+    old: a38568d6ab50ed6e2e5fb573865aeb5593561c7a
+    new: d4b97468d07f52a44417d627d8183fa5112744a2
+    log: revlist-a38568d6ab50-d4b97468d07f.txt
 
---===============0160565317301242181==
+--===============3516700244653455987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a34fdc5f141b-36ed70bdab64.txt
+Content-Disposition: attachment; filename=revlist-a38568d6ab50-d4b97468d07f.txt
 
 bc13809f1c47245cd584f4ad31ad06a5c5f40e54 efi/libstub/x86: simplify efi_is_native()
 688eb28211abdf82a3f51e8997f1c8137947227d efi/x86: Only copy the compressed kernel image in efi_relocate_kernel()
@@ -610,5 +610,15 @@ df6edc508d1fc3273f6d9b6ed0748db6a845bf57 pinctrl: renesas: r8a779a0: Add I2C pin
 dd329deb7b18bbea34bdd3cf82c0e66961690960 pinctrl: renesas: r8a779a0: Add TMU pins, groups and functions
 c9d5f9d5e5e44a5d929177f3a01994eae47613ce pinctrl: renesas: r8a779a0: Add TPU pins, groups and functions
 36ed70bdab64d202a8124a47004da3823e9113c6 arm64: dts: renesas: Add PFC driver to R8A779A0
+d9402a638fb18ad33cb83ca4b64ac9e1c3dcde2c arm64: dts: renesas: r8a779a0: Add dmac1 placeholder node
+5d77f6268427f53579de49c7ba85fedbd7bee293 dt-bindings: i2c: renesas,i2c: add r8a779a0 (V3U) support
+cf5139f31a5b71311906de5146c5118948d433a9 clk: renesas: r8a779a0: add clocks for I2C
+a2fcc3beab4c893abd2a8e62c552301b2df2e919 arm64: dts: renesas: Add I2C to R8A779A0
+0c1fc9601e1b7b374ff216e641b5ef1a1df41510 arm64: dts: renesas: Add I2C support for falcon board
+efacb83a5b05829eb2bfe3a9d95228804c32c49a v3u: enable other I2C busses for testing
+458be413aa07d1ef83969625eeac13e498ee5139 i2c: rcar: faster irq code to minimize HW race condition
+ab8de75e257d48c97ce095ece1bc46ca1a0b2386 i2c: rcar: optimize cacheline to minimize HW race condition
+4a96f1e13b8f4ac8aede45496efeaf5b3f951277 i2c: rcar: make sure irq is not threaded on Gen2 and earlier
+d4b97468d07f52a44417d627d8183fa5112744a2 i2c: rcar: protect against supurious interrupts on V3U
 
---===============0160565317301242181==--
+--===============3516700244653455987==--
