@@ -1,36 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============4091374236215844734=="
+Content-Type: multipart/mixed; boundary="===============4614251566173878682=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 28 Dec 2020 16:03:17 -0000
-Message-Id: <160917139708.3222.3130894507692320981@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 28 Dec 2020 16:03:30 -0000
+Message-Id: <160917141081.3325.4701563242526704492@gitolite.kernel.org>
 
---===============4091374236215844734==
+--===============4614251566173878682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: e6e9354b58307c120afbdc2719a6093638c37446
-    new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    log: revlist-e6e9354b5830-5c8fe583cce5.txt
+    old: 639b128468198a3322ffe1a1d5a599f561b988ca
+    new: 2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc
+    log: revlist-639b12846819-2ae6f64ce1ce.txt
   - ref: refs/heads/for-next
-    old: 4616c509d187d2afda4a8f1121c2a3ef16bbcefe
-    new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    log: revlist-4616c509d187-5c8fe583cce5.txt
+    old: 639b128468198a3322ffe1a1d5a599f561b988ca
+    new: 260e7a3cc80105e923f8250966875fa94bca4530
+    log: revlist-639b12846819-260e7a3cc801.txt
 
---===============4091374236215844734==
+--===============4614251566173878682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6e9354b5830-5c8fe583cce5.txt
+Content-Disposition: attachment; filename=revlist-639b12846819-2ae6f64ce1ce.txt
 
-ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
 214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
 4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
 6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
@@ -1054,20 +1053,14 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
+2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc Merge tag 'v5.11-rc1' into regulator-5.11
 
---===============4091374236215844734==
+--===============4614251566173878682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4616c509d187-5c8fe583cce5.txt
+Content-Disposition: attachment; filename=revlist-639b12846819-260e7a3cc801.txt
 
-ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
-214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
-4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
-6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
-36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
-03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
-5d37fc0b087fb276a257034c5a1dfdbfaa08be66 ia64: remove 'ifdef CONFIG_ZONE_DMA32' statements
 b90b5547685ffe2b30522b81a1c9f6c35e1152de ia64: discontig: paging_init(): remove local max_pfn calculation
 1f112129975e7a47324ba71b00e8e2c962177843 ia64: split virtual map initialization out of paging_init()
 ea34f78f3df62e531cf2beca997ff6bfae2b1e0d ia64: forbid using VIRTUAL_MEM_MAP with FLATMEM
@@ -2085,5 +2078,12 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
+f518be6eccbd296c0e773967d95c617fee70e219 Merge existing fixes from regulator/for-5.11
+4d5270e70981c278307e6c25666c300653ed5f4c lib/linear_ranges: fix repeated words & one typo
+ac6b559d818981406e587f4784777e9112d553f4 regulator: qcom-rpmh: fix build after QCOM_COMMAND_DB is tristate
+934b05e818620e922151734b2d0e070e388e3c53 regulator: rt4831: Adds DT binding document for Richtek RT4831 DSV regulator
+9351ab8b0cb61ffbef30343d28d1855e329c98fb regulator: rt4831: Adds support for Richtek RT4831 DSV regulator
+2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc Merge tag 'v5.11-rc1' into regulator-5.11
+260e7a3cc80105e923f8250966875fa94bca4530 Merge remote-tracking branch 'regulator/for-5.12' into regulator-next
 
---===============4091374236215844734==--
+--===============4614251566173878682==--
