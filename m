@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9065277946951944364=="
+Content-Type: multipart/mixed; boundary="===============5717261820557636998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 28 Dec 2020 14:52:34 -0000
-Message-Id: <160916715480.19313.11610360361721054657@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 14:54:53 -0000
+Message-Id: <160916729311.22087.6066949232032084399@gitolite.kernel.org>
 
---===============9065277946951944364==
+--===============5717261820557636998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 614b388c34265948fbb3c5803ad72aa1898f2f93
-    new: cb4d9b52ec06acc6eafd82e53ca90a1368fee7e6
+  - ref: refs/heads/usb-linus
+    old: 372c93131998c0622304bed118322d2a04489e63
+    new: e5f4ca3fce90a37b23a77bfcc86800d484a80514
     log: |
-         c824c73a5e08b9ebbf5e4a293336f61a4c7f67a2 usb: dwc3: drd: Avoid error when extcon is missing
-         cb4d9b52ec06acc6eafd82e53ca90a1368fee7e6 usb: dwc3: drd: Improve dwc3_get_extcon() style
+         ce722da66d3e9384aa2de9d33d584ee154e5e157 usb: dwc3: ulpi: Use VStsDone to detect PHY regs access completion
+         fca3f138105727c3a22edda32d02f91ce1bf11c9 usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
+         e5f4ca3fce90a37b23a77bfcc86800d484a80514 usb: dwc3: ulpi: Fix USB2.0 HS/FS/LS PHY suspend regression
          
 
---===============9065277946951944364==
+--===============5717261820557636998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609167230 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609167368 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1609167145-5d8baaf35d1a1daba1610b71f8c67724fa413908
+nonce 1609167283-c096512cf1e856bb226ecd696560405a8dea8d0e
 
-614b388c34265948fbb3c5803ad72aa1898f2f93 cb4d9b52ec06acc6eafd82e53ca90a1368fee7e6 refs/heads/usb-testing
+372c93131998c0622304bed118322d2a04489e63 e5f4ca3fce90a37b23a77bfcc86800d484a80514 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p8X4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8ocQAKYylrZ1PQiCVgwcZC5M
-uaSUikSmOM+JXp2twzGCoAiBj2oc2WJrcftht5rj9SBf3ZP9zdk0mnF+pjBJIfsZ
-ZjubRaIysHFXm7Tte1x0eaZsvH/LooSBKX2v26JFv5wUuqYpeV2rKvTD3M4Ue3Kd
-GcmQZNMIgcBOYgXLBCd8DhehmwPeEZNwkAb/o8hlW8o/RGV0dhOQwgn6btJNOvZl
-WPlBhZ/wdkdYHr9TnTfrpUoSayZzpdWhdfVu628X/GoXig402XMj9ACJ3ea+2F7T
-jFO30qqh1vc4GDvfEFTawh9hMm3i8UW1p5t6uItUAb6sjKB5vlNBfhGB3Wri5O98
-4eKqAvX0fTGcNsmfkTOeMwe1usIQk8H+oHY3WsRQzY/CbPxXYT2bnmcoFMHnwrpF
-U/OeE6NyT9fNCiznEm06Vjiy/nbDZiVzwrTQk3ytv3+qxjuQdlxSTRzls14qbyXa
-/wPTZ11R2ChTqv4CyaJjQ4N1E+JaUQTJsKtx6cp7/pcCaP/znMFMMMOlqj5Pxz1f
-hpjX/nHFUDev97dULi1LNxyP1sSQVl2oPwTzTiq8swdPRZbxWkTMVEMrxvk/sodR
-uy1kC5Bb0J5UbPX6oi56dBOlc+ExjiHbNGrVtXUmk5wYIO5TmF7IGB5cfKv7gkW2
-q60KhNms6zE1ub/1U6MArWII
-=B4hZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p8ggbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DR4P/2EytgRsZA/M6o6u+HWc
+IdJEPabcjxXuTBjjxbj+jA7aFu9x+kT3ybCj+c5yb05bGThXCD5C/a7gMTmAsBxC
+KdeR5nsL1HBvXYchFXqwCO8LgtvqXl7f6cmapZ8jjEAgFn4nOp14q/KBFoKDM423
+tGe2kUSAhFY4cqQwgOrtgUMzCpWfw0g3W2T4t7Ma3EZkQkURcRMmkfAr/3nsPfch
+pPJoIryvDH/vFNtKg/gjWBCHBAQwx1n8agBSlBpqirRYvfCr2vhPYD3o+ibjAd6i
+0B1AtFrU0svDsQidwVRX4Auc/zOBHDISAtR9rDDAVTkrZmk9UFVMZCPfaLGambYC
+qvfvCfzDePc4k3CdNu0THQ48s/TJ4r4NHYHb783JJQbHi905aOaostFrq9IntjlJ
+8/j0OorwWLnAlrAGstl9mwWHSO5DqjfGXSDJfomjZDjQqLrNRKh6KIoLLm7hTI6h
+oxPiCigSMbMRt3a4m6XtkU0kLEjJwWFSQUBIgFoQfffFWP1CEPp1kcfk6cElHfxp
+oeG8dFHdNxxet3DA+17ZUsO687LjnDN0NZxbfDWoa7ZAZceQhepITmNCSIQYADBL
+ulZL9cncIP1lGtbDnFdqEQYAauygvnr0wyANgcXtgZO7nDFS8TKOK/tMhIBA4huY
+SZWATnCAx4mk8tcPemPNWoS4
+=obzO
 -----END PGP SIGNATURE-----
 
---===============9065277946951944364==--
+--===============5717261820557636998==--
