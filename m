@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4315789421380022576=="
+Content-Type: multipart/mixed; boundary="===============7638798087836882416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Mon, 28 Dec 2020 13:47:15 -0000
-Message-Id: <160916323574.5485.13446130410731880775@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 13:51:02 -0000
+Message-Id: <160916346220.8017.9143889065357615271@gitolite.kernel.org>
 
---===============4315789421380022576==
+--===============7638798087836882416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/renesas/v3u/gpio
-    old: fd6cb8ce975c869843a156bd04dba469b54cc5fe
-    new: 3cf08bfea4b653cfe0ded88d64f030a73d5faef3
-    log: revlist-fd6cb8ce975c-3cf08bfea4b6.txt
+  - ref: refs/heads/renesas/v3u/avb
+    old: a9c7b9df9388a696f597311a3847e4c25fab1f67
+    new: e94b06c17ca10a0a8bd70727bd617c243d9fbdca
+    log: revlist-a9c7b9df9388-e94b06c17ca1.txt
 
---===============4315789421380022576==
+--===============7638798087836882416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd6cb8ce975c-3cf08bfea4b6.txt
+Content-Disposition: attachment; filename=revlist-a9c7b9df9388-e94b06c17ca1.txt
 
 bc13809f1c47245cd584f4ad31ad06a5c5f40e54 efi/libstub/x86: simplify efi_is_native()
 688eb28211abdf82a3f51e8997f1c8137947227d efi/x86: Only copy the compressed kernel image in efi_relocate_kernel()
@@ -629,5 +629,9 @@ c770f0902b722b8962b5e8bba39edac3b8dfa353 gpio: rcar: Add R-Car V3U (R8A7799A) su
 4ac33828118d1592f519de5a20b5b3eaf578cf4c arm64: dts: r8a779a0: Add GPIO nodes
 cdb759cfb207de76de791022af4a8ed481a72396 arm64: dts: r8a779a0: correct reset values for GPIO
 3cf08bfea4b653cfe0ded88d64f030a73d5faef3 arm64: dts: r8a779a0: enable gpio-ranges
+d07a0f79597d86957c18dcbbbfe1d60dcb348fc3 dt-bindings: net: renesas,etheravb: Add r8a779a0 support
+a8b98312f91318adabf09c6093ed1cd4f4e22561 clk: renesas: r8a779a0: add clocks for RAVB
+67ea077d14ada8c9d36c9f40391549692bf77caa arm64: dts: renesas: r8a779a0: Add Ethernet-AVB support
+e94b06c17ca10a0a8bd70727bd617c243d9fbdca arm64: dts: renesas: falcon: Add Ethernet-AVB support
 
---===============4315789421380022576==--
+--===============7638798087836882416==--
