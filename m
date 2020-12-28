@@ -1,60 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============3067999480656928595=="
+Content-Type: multipart/mixed; boundary="===============3387835673991446099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 28 Dec 2020 16:02:07 -0000
-Message-Id: <160917132772.2182.3833875322888132381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 28 Dec 2020 16:02:15 -0000
+Message-Id: <160917133525.2301.12240797995100637250@gitolite.kernel.org>
 
---===============3067999480656928595==
+--===============3387835673991446099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.11
-    old: 84de089e770b57280d87dff51be894b6fda18810
-    new: 1f092d1c8819679d78a7d9c62a46d4939d217a9d
-    log: revlist-84de089e770b-1f092d1c8819.txt
-  - ref: refs/heads/asoc-5.12
-    old: 0000000000000000000000000000000000000000
-    new: e05cde84eabccc0441f837f0661cd4c6f4820513
+  - ref: refs/heads/for-5.11
+    old: 3b66e4a8e58a85af3212c7117d7a29c9ef6679a2
+    new: 2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc
+    log: revlist-3b66e4a8e58a-2ae6f64ce1ce.txt
+  - ref: refs/heads/for-5.12
+    old: f518be6eccbd296c0e773967d95c617fee70e219
+    new: 9351ab8b0cb61ffbef30343d28d1855e329c98fb
+    log: |
+         4d5270e70981c278307e6c25666c300653ed5f4c lib/linear_ranges: fix repeated words & one typo
+         ac6b559d818981406e587f4784777e9112d553f4 regulator: qcom-rpmh: fix build after QCOM_COMMAND_DB is tristate
+         934b05e818620e922151734b2d0e070e388e3c53 regulator: rt4831: Adds DT binding document for Richtek RT4831 DSV regulator
+         9351ab8b0cb61ffbef30343d28d1855e329c98fb regulator: rt4831: Adds support for Richtek RT4831 DSV regulator
+         
 
---===============3067999480656928595==
+--===============3387835673991446099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1609171306 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1609171323-12ef198484285bb76bd8574e2effae9df67a6f3e
+pusher C3F436CA30F5D8EB 1609171314 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1609171332-c0381ba4e35e6923a42b751268d6c7355fa2bb20
 
-84de089e770b57280d87dff51be894b6fda18810 1f092d1c8819679d78a7d9c62a46d4939d217a9d refs/heads/asoc-5.11
-0000000000000000000000000000000000000000 e05cde84eabccc0441f837f0661cd4c6f4820513 refs/heads/asoc-5.12
+3b66e4a8e58a85af3212c7117d7a29c9ef6679a2 2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc refs/heads/for-5.11
+f518be6eccbd296c0e773967d95c617fee70e219 9351ab8b0cb61ffbef30343d28d1855e329c98fb refs/heads/for-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/qAWoACgkQJNaLcl1U
-h9Cbbgf/eDgM1pHM46NeQ59EWFuEZ2Hg4oUNUo8O6GJl/fwx78h/4fq7tX5mrdIO
-GEMZYx7RmP3wS0b1rDkmsWe75hxWeRMpxNXzRyOdp/n0MVkrO9W0FQfbTwI5p1tZ
-fZR24obmFE8ZVg7aE8d8E81uJ50YtV8cviDumw5XnoBPsDLYu3DRz/EdwoG9le4A
-cygOUPcoXOJu2/3WRmgWHmDF8bS57+ezOTutoJptb2BpNxXiUzWbj0mWQDTIFr73
-hrgGDSN1+OxBzPppeaLgfLOjX1ucgGoZyXCDlojPC23KBDs5+CYmNkDsKrZAWR2r
-ym8jb7qgDsmbEtpUo146IAJHpLTztQ==
-=soMd
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/qAXIACgkQJNaLcl1U
+h9Apswf/a9P9vXeMPJs/vlZUUV9OgqF7PjETjVbOFobX87lBDMv3YKYDu3HXi4gA
+zhu43qFyEXfs9TAh0UFMZR2/pNqZ9juJ3ul7F+lM8MabAerrEuVeZsCRK7Sm1+7f
+IzIMdGxfqFLpuuzFGnrIOLlxzUk/sfc5KuTmo7odJ1XNaFx8Cizj1kpwhx3rQiYg
+pyaXjlrGkNhUCvdrNp5AAYM7jZWKelmDmdrJZ5E5tkIi30R7l7xWwNDAKgksjnYh
+IEtqaljksHcU2h9nS6aHCycFFEAf7C4fkhb9WGvuZcNCdbxK3tOOoT4JzY121QiM
+VcU6DxUcfSdrEf9LvZET2J+H2dlilw==
+=jP7s
 -----END PGP SIGNATURE-----
 
---===============3067999480656928595==
+--===============3387835673991446099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84de089e770b-1f092d1c8819.txt
+Content-Disposition: attachment; filename=revlist-3b66e4a8e58a-2ae6f64ce1ce.txt
 
+214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
+4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
+6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
+36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
+03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
+5d37fc0b087fb276a257034c5a1dfdbfaa08be66 ia64: remove 'ifdef CONFIG_ZONE_DMA32' statements
+b90b5547685ffe2b30522b81a1c9f6c35e1152de ia64: discontig: paging_init(): remove local max_pfn calculation
+1f112129975e7a47324ba71b00e8e2c962177843 ia64: split virtual map initialization out of paging_init()
+ea34f78f3df62e531cf2beca997ff6bfae2b1e0d ia64: forbid using VIRTUAL_MEM_MAP with FLATMEM
+214496cb18700fd7c5206ac33768876dbf68b4df ia64: make SPARSEMEM default and disable DISCONTIGMEM
+5e545df3292fbd3d5963c68980f1527ead2a2b3f arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
+4f5b0c1789963477cc9a4d45b4b62d694665cceb arm, arm64: move free_unused_memmap() to generic mm
+050b2da268f8fc4f8123f6462c430a61547b2f7b arc: use FLATMEM with freeing of unused memory map instead of DISCONTIGMEM
+6b2ad8d763727b887d85c990747271ee804d9abb m68k/mm: make node data and node setup depend on CONFIG_DISCONTIGMEM
+4bfc848e0981fcd35db00fe1c6581560689f6dc7 m68k/mm: enable use of generic memory_model.h for !DISCONTIGMEM
+fcd353a314213534d04193eea0bc54c4b7a3e1b0 m68k: deprecate DISCONTIGMEM
 77bc7fd607dee2ffb28daff6d0dd8ae42af61ea8 mm: introduce debug_pagealloc_{map,unmap}_pages() helpers
 2abf962a8d42b32f5ffeb827826290b799c85f86 PM: hibernate: make direct map manipulations more explicit
 5d6ad668f31625c6aa9ed8dc3bdb29561d2b1144 arch, mm: restore dependency of __kernel_map_pages() on DEBUG_PAGEALLOC
@@ -340,10 +362,6 @@ f7387170339afb473a0d95b7732f904346f9795e writeback: don't warn on an unregistere
 7be9b38afafbfcc58ede3be66bfc4ea415b3d5f1 NFSv4.2: fix error return on memory allocation failure
 3316fb80a0b4c1fef03a3eb1a7f0651e2133c429 fs/lockd: convert comma to semicolon
 44f6a7c0755d8dd453c70557e11687bb080a6f21 objtool: Fix seg fault with Clang non-section symbols
-4ad2d3cf2a299645bdc6d72e5b8ee11b2ed147ac ASoC: codecs: fix spelling mistake in Kconfig "comunicate" -> "communicate"
-e49037ad12e47cd34239b99b010c5438844923af ASoC: SOF: Fix spelling mistake in Kconfig "ond" -> "and"
-acd894aee3149c15847bc4f0690fccba59ced5e7 ASoC: imx-hdmi: Fix warning of the uninitialized variable ret
-13733775326ea9eb81c6148ad60c43b8d231a343 ASoC: atmel: fix spelling mistake in Kconfig "programable" -> "programmable"
 fad0319cacdf02a8d4d31aa1d8dc18c5bd5e397e char: ipmi: convert comma to semicolon
 9365965db0c7ca7fc81eee27c21d8522d7102c32 s390: always clear kernel stack backchain before calling functions
 f0c7cf13a3d77b3c6071ab179b583435847747e9 s390: make calls to TRACE_IRQS_OFF/TRACE_IRQS_ON balanced
@@ -540,12 +558,6 @@ bb72e1dbae0e759252fcdb4a97917200e165bf91 pwm: keembay: Fix build failure with -O
 3df23a316c4a5d1764b034c71c29d67a17d5299f pwm: Remove unused function pwmchip_add_inversed()
 edf7f80e780e50bb5711d4c112b721517d0ff73e pwm: sl28cpld: Set driver data before registering the PWM chip
 6eefb79d6f5bc4086bd02c76f1072dd4a8d9d9f6 pwm: sun4i: Remove erroneous else branch
-315fbe4cef98ee5fb6085bc54c7f25eb06466c70 ASoC: qcom: Fix incorrect volatile registers
-8d1bfc04c97407767559f6389a0f0fb060cbe25e ASoC: qcom: Add support for playback recover after resume
-61c7dbec33777ade95d3db58beec8d7f177868c8 ASoC: rsnd: don't call clk_disable_unprepare() if can't use
-bb224c3e3e41d940612d4cc9573289cdbd5cb8f5 ASoC: Intel: haswell: Add missing pm_ops
-6108f990c0887d3e8f1db2d13c7012e40a061f28 ASoC: rt711: mutex between calibration and power state changes
-349dd23931d1943b1083182e35715eba8b150fe1 ASoC: max98373: don't access volatile registers in bias level off
 67698880ac9d56367ebf22f8336ccab6234f9feb thermal: int340x: Support Alder Lake
 4bc4a912534a72f1c96f483448f0be16e5a48063 io_uring: hold mmap_sem for mm->locked_vm manipulation
 1aba169e770911fb2afa63eb859883c4de2191e3 nbd: Respect max_part for all partition scans
@@ -559,9 +571,6 @@ e23de15fdbd3070446b2d212373c0ae556f63d93 io_uring: consolidate CQ nr events calc
 71da201f38dfb0c3a3d33bbe3168ea9112299dde ACPI: scan: Defer enumeration of devices with _DEP lists
 0de7fb7c8687048299305529d17f6a1e98ae658c ACPI: scan: Avoid unnecessary second pass in acpi_bus_scan()
 9272e97ae9e9b95e0805c690404a0df9fb03055f ACPI: scan: Add Intel Baytrail Mailbox Device to acpi_ignore_dep_ids
-cda91206dc45257ba0c4d8acb6eeebfec8b2b9bc Merge series "Platform driver update to support playback recover after resume" from Srinivasa Rao Mandadapu <srivasam@codeaurora.org>:
-a84dfb3d55934253de6aed38ad75990278a2d21e ASoC: meson: axg-tdmin: fix axg skew offset
-671ee4db952449acde126965bf76817a3159040d ASoC: meson: axg-tdm-interface: fix loopback
 d652d5f1eeeb06046009f4fcb9b4542249526916 drm/edid: fix objtool warning in drm_cvt_modes()
 09d59c2f3465fb01e65a0c96698697b026ea8e79 tools build: Add missing libcap to test-all.bin target
 2eb5dd418034ecea2f7031e3d33f2991a878b148 perf record: Fix memory leak when using '--user-regs=?' to list registers
@@ -1075,9 +1084,6 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
-f81325a05e9317f09a2e4ec57a52e4e49eb42b54 Merge tag 'v5.11-rc1' into asoc-5.11
-275565997ade6fc32be9cd49a910ba996bcb4797 ASoC: AMD Renoir - add DMI entry for Lenovo ThinkPad E14 Gen 2
-a523e1538fdd5f00ea3289cc0b3c6c1785b89814 ASoC: amd: Replacing MSI with Legacy IRQ model
-1f092d1c8819679d78a7d9c62a46d4939d217a9d ASoC: AMD Renoir - add DMI entry for Lenovo ThinkPad X395
+2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc Merge tag 'v5.11-rc1' into regulator-5.11
 
---===============3067999480656928595==--
+--===============3387835673991446099==--
