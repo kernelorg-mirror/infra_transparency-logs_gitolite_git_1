@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1322863181697128395=="
+Content-Type: multipart/mixed; boundary="===============9123395908010273309=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Mon, 28 Dec 2020 14:02:59 -0000
-Message-Id: <160916417957.17137.8293282656187252525@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 14:04:32 -0000
+Message-Id: <160916427276.21114.4330602074471088731@gitolite.kernel.org>
 
---===============1322863181697128395==
+--===============9123395908010273309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/renesas/v3u/sdhi
-    old: 41524d87b3da357ded0e5794bb6327d0b2264b9b
-    new: a9e7596b1b1650aaede3de229c5e8da518d741f1
-    log: revlist-41524d87b3da-a9e7596b1b16.txt
+  - ref: refs/heads/renesas/v3u/scif
+    old: 96590e66e6372b1298fb8b205ab39920942a3256
+    new: 63f9fd1eaadf87aa795c8d0e9447f0ddc1a3f840
+    log: revlist-96590e66e637-63f9fd1eaadf.txt
 
---===============1322863181697128395==
+--===============9123395908010273309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41524d87b3da-a9e7596b1b16.txt
+Content-Disposition: attachment; filename=revlist-96590e66e637-63f9fd1eaadf.txt
 
 bc13809f1c47245cd584f4ad31ad06a5c5f40e54 efi/libstub/x86: simplify efi_is_native()
 688eb28211abdf82a3f51e8997f1c8137947227d efi/x86: Only copy the compressed kernel image in efi_relocate_kernel()
@@ -639,5 +639,11 @@ c296c93bb2e15d947e66bd6ed06570f9676dbcd0 dt-bindings: mmc: renesas,sdhi: Add r8a
 38fa17fd567c7220d5ca901aad8d8c5f381a7e9a clk: renesas: r8a779a0: add SDHI support
 fdf097d14097be722aebf301a842ce2a4d205921 arm64: dts: renesas: r8a779a0: Add MMC node
 a9e7596b1b1650aaede3de229c5e8da518d741f1 arm64: dts: renesas: falcon: Enable MMC
+ba5f9064ea9a87339a0b500db5122bb8462dfec3 arm64: dts: r8a779a0: WIP disable reset-gpios for AVB
+eec5c54f193bf5850e63f5e740407e4544157bb3 arm64: dts: renesas: r8a779a0: add & update SCIF nodes
+97956dfc5154c69502dd956fa88dd49d82cb742c arm64: dts: renesas: falcon: add SCIF0 nodes
+edf071bbe63df8861bd68bf524029d1b32a821f8 dt-bindings: serial: renesas,hscif: Add r8a779a0 support
+264bf9d6095baf816f513aa2fe12ab84a69b9d87 clk: renesas: r8a779a0: add HSCIF support
+63f9fd1eaadf87aa795c8d0e9447f0ddc1a3f840 arm64: dts: renesas: r8a779a0: Add HSCIF support
 
---===============1322863181697128395==--
+--===============9123395908010273309==--
