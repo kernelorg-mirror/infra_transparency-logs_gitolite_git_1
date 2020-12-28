@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5378859454555185465=="
+Content-Type: multipart/mixed; boundary="===============7243336592129847866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 28 Dec 2020 14:18:11 -0000
-Message-Id: <160916509155.29346.13262694808262648858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 28 Dec 2020 14:39:53 -0000
+Message-Id: <160916639359.10775.16452878966384059507@gitolite.kernel.org>
 
---===============5378859454555185465==
+--===============7243336592129847866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/usb-linus
     old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: d887d6104adeb94d1b926936ea21f07367f0ff9f
+    new: 88ebce92806e5dff3549e1a8cacb53978104d3b4
     log: |
-         12b38ea040b3bb2a30eb9cd488376df5be7ea81f staging: spmi: hisi-spmi-controller: Fix some error handling paths
-         cab36da4bf1a35739b091b73714a39a1bbd02b05 Staging: comedi: Return -EFAULT if copy_to_user() fails
-         d887d6104adeb94d1b926936ea21f07367f0ff9f staging: mt7621-dma: Fix a resource leak in an error handling path
+         0ffc76539e6e8d28114f95ac25c167c37b5191b3 USB: cdc-acm: blacklist another IR Droid device
+         421da9413a6a5ec4334cade5092370cf2c8c8add MAINTAINERS: Update address for Cadence USB3 driver
+         88ebce92806e5dff3549e1a8cacb53978104d3b4 dt-bindings: usb: Add new compatible string for AM64 SoC
          
 
---===============5378859454555185465==
+--===============7243336592129847866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609165167 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1609165082-e29b736f88634a596740bbb9a2a16f1614930c1a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609166467 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1609166381-c3256ca6cb779435b56971045612b78a405a7724
 
-5c8fe583cce542aa0b84adc939ce85293de36e5e d887d6104adeb94d1b926936ea21f07367f0ff9f refs/heads/staging-linus
+5c8fe583cce542aa0b84adc939ce85293de36e5e 88ebce92806e5dff3549e1a8cacb53978104d3b4 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p6W8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tsMP/3m626JYhRaGN8XtgdtO
-1R3+qqYQDBM1WlUqRj4v0gJE1hSrPEoOEnBYxPJ/yZITqTC0d1uV7OBVWeEj9uXl
-5jbegcLU81srhN4XKiriS0PoRus7Nu8BlTul4+EVmJ/5n4dtORP2vmE6j+0SKVUY
-sR6Rzl0QvzUsbUJZxtivJP1RbvxHF6KKQOLKn9f07VYWtIVSc2tPbMphbHXNy/S3
-7+EbDTd78j46DiSY7g9swcItfUVtN5OdwJ2GvFyyQ5EDhgohTDzo/HnkOIpZDCVR
-DGKVLjFO27MSSh8TPUFnyz4EOWaXGfz7MYjSOE4Iq7q0yqLTad28ccXC/4hDgH4D
-kufyu7UDUQ1ypPaqfGduVFh55xEQGkYb2ILH8CGQs/gIHAJ3QgDUaZHxar8Z41N7
-g0/WnloOPqc8vSN6soGN2DT2Nhnw+Qkm4RpKmy9whYhH+IjnBayS6QC1zKAMoUw2
-FBY0DMKca1M7AcGmVe3xpttfY91pTIlIGNgCuWdkgkJDnAvSyhBJIDIZGXNdAvHJ
-kLm7wXWktod3PZMCMAmu9Yd0WC67QlD3CTn5uzZRnV07cP1RPohYZEUEHcLrL0/3
-yACsKp//RIH5+S+PsK5Sm4QlOMpvOviLtyCk+5w9W0VWuXmCiIdE65GWyir8YOA1
-YzjI+Lx/DKPnEt7dLvRy5PeK
-=R6Lq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p7oMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IaoP/0betTDnEptfonnh2qJM
+80Yj2sIXEoz/NEIZKbTZpjyO/o6hDDIGMcFOTVLI0qnLiKIxGA+YVolgWmvbZVPv
+DYHFJ8f/ChvmpmZY8q7Js8d+4bQewoVJB2qI/G+QC7ohx1nRf/wDLMvMKspld3gP
+UCx+I5k6iwYewL6a+qsViuCLiZ6AHaWeeoLa2+d15XuFvPbCQh/0dESxjwt1gZ0F
+ZzrDM6OO/JP32ujZH9emry0FgMlV+0hIurFaT8lnVsNs5wDE+Q2HdF0nSdQwcbQp
+OII4+pOKvE987H7f0NLroiEMC3eG6NAEeJGc8/PgvNhBi2cv0L4flnE8UNA4rpXK
+8AwUQfLwpTkg7VNCIAYhtr3WyD8Q8l8D5pLO2aJOPsIRoIT0RcUDGbXafPc+xZ/z
+wvsxJ+5tINY8I8Jw2MRb33ml7YTNFraKlDyoScdr/P+CA9/75sNs6MRVa7GjVobQ
+PsuzVYZgcfi9nBvYr03v004VKK0yijjrfU1BQJdTCz/9Qm6RtUGTVb257i/sLMG0
+A9LiVaGLeHOCcIFwVDLxMuUhglr9WyFdZ6Y+SIsIRWojQpb+VouORWS9cdLZp27F
+EUCRXMuZrZyxgvgMlTUE75TAYbI+Tap3Zuh0bcs2ZOyY+qmk/2rTSmo+YV0o3nTO
+gdkSeIMu2sINeKZgEr2OWIP3
+=Avq/
 -----END PGP SIGNATURE-----
 
---===============5378859454555185465==--
+--===============7243336592129847866==--
