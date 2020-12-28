@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3511129352648387620=="
+Content-Type: multipart/mixed; boundary="===============8763895229684743748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 28 Dec 2020 14:46:21 -0000
-Message-Id: <160916678196.15597.15503038220805521583@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 14:47:55 -0000
+Message-Id: <160916687517.16107.9841974327700323455@gitolite.kernel.org>
 
---===============3511129352648387620==
+--===============8763895229684743748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 83a43ff80a566de8718dfc6565545a0080ec1fb5
-    new: 372c93131998c0622304bed118322d2a04489e63
+  - ref: refs/heads/usb-testing
+    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+    new: 894f1f4f49a31887358025db03cb106efb36d8b4
     log: |
-         372c93131998c0622304bed118322d2a04489e63 USB: yurex: fix control-URB timeout handling
+         894f1f4f49a31887358025db03cb106efb36d8b4 kcov, usbip: collect coverage from vhci_rx_loop
          
 
---===============3511129352648387620==
+--===============8763895229684743748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609166858 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609166951 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1609166773-d28d23766202ffb71bc99b09137885470470c2fa
+nonce 1609166866-be20fcb93476a49f6837c197e7cd0bff3a858326
 
-83a43ff80a566de8718dfc6565545a0080ec1fb5 372c93131998c0622304bed118322d2a04489e63 refs/heads/usb-linus
+5c8fe583cce542aa0b84adc939ce85293de36e5e 894f1f4f49a31887358025db03cb106efb36d8b4 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p8AobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kkcQAJ2505fEpmmtnZkeSZ3+
-7QEgfxK5ZKhoIeCcbQk4UDN9XiqQXgFznCbI5w2vxfEjpdwYz5nI7Ei5/1R3FU6n
-n1fnjEXEjSvU5PB38msqZdTnVk/Wl1PCT+YHuC26y3hfPgJm3JEkS8MMDJ9tujdI
-gTDrUNecP9tYojDbXEtH8gcNVS66FYyJiAZMK1Lp9Le2jhGhSDM5QbZh5/R35JlL
-uu/oeQF2ac3x9mVe2xsgKKT8Xlj0G+59KDIkU3LKfdNrhZ2pNfdmnOsYpZR+2HqV
-+BE6ruzsaUAQHayhyPPP1REzwUUAkO/VuNGIEs+l4EEG0trZ6+YEOa/u+VZVupDl
-Sy/qRIkFJovegomcntpVrMSckItdgpVS5gBNiXewuNC+NjDVUCZPiCwCSETiyZbE
-lkK4iTR8/N+IoJ1fdIPPP1/Zs9KA9wNf6U20Pc7KW+GPrLoR7JSmebXKXIM1NxOt
-Aq3RR5NmS4c+hjCmo4ooAPK/tseSvC7UWOS65EJkR/FUin0zox1Q1XuB25l7OQAU
-2+j0wurmmYc34PDSNJULMWBkglEc5nFq7JbJ66nmoB3H8f60DyX1Hb+2nKzwBBtD
-s0k5nrLRf8gaJ7o++xemQj/Ct9MUn3WZXA3ccpP5vKuv56NBCVhy5fi7y8kTQyPK
-8y6pdETFAx29NUKE8jDG2XQ6
-=7Z69
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p8GcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wsIP/2E3DagLidBmViIPl7aa
+Jnfaqatfjm0n4DxTBL2zumxJuatJLCLRlF/8AxKthZ9L7eg5SQd9a55NlH5sBesq
+wzm0A9KMMqQ+tw/Oi4YoBorDwJTFyRhp77xUPZ044+zatpRFu0cqUkoiDNZCTexo
+mAY9JdTl4top3KfTpvUfp7cLfh73+Iom2CmS544fNG/1OYI/+m5YbA1SbIwIMNE5
+pT9aPGRormqDbz2a1m16a4GdU5W6s4UhJ5FgLrf0+ZLO0/530TkMQt36hIL04NM1
+EgVaxuPHzpqbhTkZaSl2N1V1QB02PRfklQQc06t1U/uGiIhrbKGwmMxNGH/r/daj
+EcBCWfnw6rMtCN5YR9uAxpkMF/dicB5hilcUtqcEnYIvezJiZ6UZrtBcm6dgQRdP
+yVY9cMG2mev4E3X/w7+/LNSTXmfWDESaF+7uMPJCRslQ6Ur5YRMk+WYFrQwFSDKn
+08mp9dAn5o+iwL1VeJH+IA74bVVlCursY0Q88r7Ro0eAabloWqv8cKmX6syP1PWZ
+uPlCkFTpI3pSG4RJ8DzaO9kOjzxRlYUFIKs5ktknRdmURp5TREY5UnfHbnXCnV7y
+lVbF74EQGQKdwOpAfLAMqzG78aBDDZmbwZfJstQ4PCjwq/uchRf/vxG4hz158g8G
+/J3o3L3yvR+DV9bk9/W0XrVR
+=Q+oe
 -----END PGP SIGNATURE-----
 
---===============3511129352648387620==--
+--===============8763895229684743748==--
