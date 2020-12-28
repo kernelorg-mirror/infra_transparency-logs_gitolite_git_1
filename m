@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1851509537114630124=="
+Content-Type: multipart/mixed; boundary="===============6160585535366909243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 28 Dec 2020 14:40:38 -0000
-Message-Id: <160916643885.12348.5851373332088497149@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 14:43:40 -0000
+Message-Id: <160916662050.13276.10897172639140660866@gitolite.kernel.org>
 
---===============1851509537114630124==
+--===============6160585535366909243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 88ebce92806e5dff3549e1a8cacb53978104d3b4
-    new: a390bef7db1f192cc5b588dbcf8ed113406ec130
+    old: a390bef7db1f192cc5b588dbcf8ed113406ec130
+    new: 5d5323a6f3625f101dbfa94ba3ef7706cce38760
     log: |
-         a390bef7db1f192cc5b588dbcf8ed113406ec130 usb: gadget: fsl_mxc_udc: Remove the driver
+         5e5ff0b4b6bcb4d17b7a26ec8bcfc7dd4651684f USB: cdc-wdm: Fix use after free in service_outstanding_interrupt().
+         0f041b8592daaaea46e91a8ebb3b47e6e0171fd8 usb: typec: intel_pmc_mux: Configure HPD first for HPD+IRQ request
+         5d5323a6f3625f101dbfa94ba3ef7706cce38760 USB: xhci: fix U1/U2 handling for hardware with XHCI_INTEL_HOST quirk set
          
 
---===============1851509537114630124==
+--===============6160585535366909243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609166515 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609166695 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1609166429-28925a6301eb020e0531c401b9a34de1a493493a
+nonce 1609166610-06425f6d89c4bc93b076f8f21da15543e0853b1b
 
-88ebce92806e5dff3549e1a8cacb53978104d3b4 a390bef7db1f192cc5b588dbcf8ed113406ec130 refs/heads/usb-linus
+a390bef7db1f192cc5b588dbcf8ed113406ec130 5d5323a6f3625f101dbfa94ba3ef7706cce38760 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p7rMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Sz4P/R82Vsp1yDI4L0ifhwXE
-4VapKfPgVFCmTK5R3D4qWljWyjDr8xb2Q+8EAZRirOfnFs/cuSlxzjyuToJTSPOr
-01+HJxg2aZZANqSOZ2C30cocgVKg0gqvdtyvjqnJuUDzT9Lbq7lshIVfOAq/owgV
-kI0Ni7xBPzggcvUzWZ2jqjMCklzvvDXq0GLR3NegfMXXrTw6oc6IZzgaBOLh4vo+
-ZFUlE0GmyPEFi+Cdul664eUP42JegvBAG1wwxgO037q10RyxUjFucvsbXK97w+z1
-hwaHKwsKDjPgZS3SPp0THm9okLu9R1I45Y4YjxpE/WSU+AHiDAN/OfZBwkHTGIMb
-yufuhLKP9xd+E1l21lG1Se6OWkJpPMXz1G29568HUMZO4OHxzhUabQRrnEVm3Any
-HjzC4Qmvys/0kZzQ7ONxEnzRWKJUR0qy+Dy0BVs3zYdStpDQQ1FRtmH34FT1y51v
-TvGN07vmN7xJgtuagQTH6N5uegYlsCj0ehK2d/UVQ211wbd8TC1aNkF/1VGx0a17
-vK3K8Vurr/ucNRFxdXYQFag5jQlDNA8Xmk8kO4AbUkO94ZqyeSiJJ1Q87qWbb3cZ
-jucejbkO4qXYIGPkqsVEFxURCLVfDTFQzcum/Nemi+FZpj4Ud2qq79LylILT1l2Y
-fRegTG5uWzgEHjRzArmOanFn
-=K5dE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p72cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CFcP/10bvV6L/pR0KcBWZ89+
+b9gIfhPkgFNPbpkzF23/qRe7/IItfvHXpZ1Rc3VLHJt/wJyaSp3hMB7aE8M/hc2c
+7VhgxS2MprMXf8Wc19IwDtV+PLTaxbSyaz+APBayOsOkWdG3wHsaT3ci9qg9C1PH
+9WVHhkfcwiyP2WRYvflKtRdQ018k1z3TbZi21A6oO57vG9lj/j832mkO3ZgocpCl
++I81cXjgjnFDX0+JWhmvx3jSX5XBs7NO5wDVbsMVn17LWzI5XMowF9cFGtepkcN1
+um/ILXHyy5xyXMXRDUtZrG+9QLCQsWZ9zf+p9g4vam/ahwbZnlTXdIgrrvUL8paV
+8g5Y1whis+HdmP9jgnkvrV1K4TN1c137n4G+EAUAZOBvwXBZtLS4hKYf6N/Eg1IU
+DIi68wD/Rq5S61MtALVlG9Lkp1IrLyju/pOw/HGY+3hHx5lKCbaniN4wF2M75ss9
+MXAGdw6lno0yyVQZxg4EefDD69Rk1kPlrdDVM9wHAKU0jRIZ+JwhXatu+Ik/8GA2
+gTdbWUfo5T+WIWCuZZYKGAE9c068H+zugnD1FnkdgUbnOzMyxhxnOSArYgUTdAJ3
+88NCDwsiv8QbY/4tpBgD0NxXNV+x3EgOEd7t8o9DPD3jpMv4v/hBcWYNjEW9+Rxa
+dTa+VXCLjjC3h9mJu/GlMzhE
+=BbvE
 -----END PGP SIGNATURE-----
 
---===============1851509537114630124==--
+--===============6160585535366909243==--
