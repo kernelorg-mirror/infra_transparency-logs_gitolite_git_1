@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8978512260129092043=="
+Content-Type: multipart/mixed; boundary="===============3950190763670314757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 28 Dec 2020 17:06:57 -0000
-Message-Id: <160917521725.12128.475445099063065689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 28 Dec 2020 17:30:42 -0000
+Message-Id: <160917664252.28039.3196589892618382029@gitolite.kernel.org>
 
---===============8978512260129092043==
+--===============3950190763670314757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/at91-next
-    old: e77be1651978417a548b8f10475bae4b9262d8c3
-    new: 4f7219b38e7b4ed64faab958bffe5151de0eb8c7
-    log: revlist-e77be1651978-4f7219b38e7b.txt
+  - ref: refs/heads/x86/build
+    old: 2838307b019dfec0c309c4e8e589658736cff4c9
+    new: ac5d08870d0b94cbfa8103c9e294de2b96f249bc
+    log: revlist-2838307b019d-ac5d08870d0b.txt
 
---===============8978512260129092043==
+--===============3950190763670314757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e77be1651978-4f7219b38e7b.txt
+Content-Disposition: attachment; filename=revlist-2838307b019d-ac5d08870d0b.txt
 
 4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
 6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
@@ -1048,7 +1048,7 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
-960ddf70cc11024e6e9dac206316d0160e00a77d drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
-4f7219b38e7b4ed64faab958bffe5151de0eb8c7 Merge branch 'at91-soc' into at91-next
+fbaf0aa8c7a8d4f7c3e4664f2f03ec8c7cc79910 x86/build: Add {kvm_guest,xen}.config targets to make help's output
+ac5d08870d0b94cbfa8103c9e294de2b96f249bc x86/build: Realign archhelp
 
---===============8978512260129092043==--
+--===============3950190763670314757==--
