@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0770601054482140075=="
+Content-Type: multipart/mixed; boundary="===============5164180758665314065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Mon, 28 Dec 2020 23:28:45 -0000
-Message-Id: <160919812590.29793.1690230700551424684@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 23:29:29 -0000
+Message-Id: <160919816940.30122.5280213248881320131@gitolite.kernel.org>
 
---===============0770601054482140075==
+--===============5164180758665314065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 2b995049c6ce84cb0ba8ae9ad2b5a8c5c84877eb
-    new: c76e02c59e13ae6c22cc091786d16c01bee23a14
-    log: revlist-2b995049c6ce-c76e02c59e13.txt
+  - ref: refs/heads/numa
+    old: 9862e99a067ea5652e0cdcc9964c7a2bf791870e
+    new: f9a51005f76c22d5071a4c44633c90e140f70355
+    log: revlist-9862e99a067e-f9a51005f76c.txt
 
---===============0770601054482140075==
+--===============5164180758665314065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b995049c6ce-c76e02c59e13.txt
+Content-Disposition: attachment; filename=revlist-9862e99a067e-f9a51005f76c.txt
 
-6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
 36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
 03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
 5d37fc0b087fb276a257034c5a1dfdbfaa08be66 ia64: remove 'ifdef CONFIG_ZONE_DMA32' statements
@@ -1050,5 +1049,6 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 91afe604c15405a7b15d1464f224372cd82d3e2c Merge branch 'for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 c76e02c59e13ae6c22cc091786d16c01bee23a14 Merge branch 'for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+f9a51005f76c22d5071a4c44633c90e140f70355 x86/sgx: Add trivial NUMA allocation
 
---===============0770601054482140075==--
+--===============5164180758665314065==--
