@@ -1,68 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============3387835673991446099=="
+Content-Type: multipart/mixed; boundary="===============0626835693441101182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 28 Dec 2020 16:02:15 -0000
-Message-Id: <160917133525.2301.12240797995100637250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 28 Dec 2020 16:02:22 -0000
+Message-Id: <160917134279.2453.1075386352979044478@gitolite.kernel.org>
 
---===============3387835673991446099==
+--===============0626835693441101182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
-    old: 3b66e4a8e58a85af3212c7117d7a29c9ef6679a2
+  - ref: refs/heads/regulator-5.11
+    old: 2819569147cb6e79730f2907d3ab3dfe75fe8478
     new: 2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc
-    log: revlist-3b66e4a8e58a-2ae6f64ce1ce.txt
-  - ref: refs/heads/for-5.12
-    old: f518be6eccbd296c0e773967d95c617fee70e219
+    log: revlist-2819569147cb-2ae6f64ce1ce.txt
+  - ref: refs/heads/regulator-5.12
+    old: 0000000000000000000000000000000000000000
     new: 9351ab8b0cb61ffbef30343d28d1855e329c98fb
-    log: |
-         4d5270e70981c278307e6c25666c300653ed5f4c lib/linear_ranges: fix repeated words & one typo
-         ac6b559d818981406e587f4784777e9112d553f4 regulator: qcom-rpmh: fix build after QCOM_COMMAND_DB is tristate
-         934b05e818620e922151734b2d0e070e388e3c53 regulator: rt4831: Adds DT binding document for Richtek RT4831 DSV regulator
-         9351ab8b0cb61ffbef30343d28d1855e329c98fb regulator: rt4831: Adds support for Richtek RT4831 DSV regulator
-         
 
---===============3387835673991446099==
+--===============0626835693441101182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1609171314 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1609171332-c0381ba4e35e6923a42b751268d6c7355fa2bb20
+pusher C3F436CA30F5D8EB 1609171322 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1609171339-64a4cb45b1e143e762c3ba53cb1159b620eb5dc2
 
-3b66e4a8e58a85af3212c7117d7a29c9ef6679a2 2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc refs/heads/for-5.11
-f518be6eccbd296c0e773967d95c617fee70e219 9351ab8b0cb61ffbef30343d28d1855e329c98fb refs/heads/for-5.12
+2819569147cb6e79730f2907d3ab3dfe75fe8478 2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc refs/heads/regulator-5.11
+0000000000000000000000000000000000000000 9351ab8b0cb61ffbef30343d28d1855e329c98fb refs/heads/regulator-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/qAXIACgkQJNaLcl1U
-h9Apswf/a9P9vXeMPJs/vlZUUV9OgqF7PjETjVbOFobX87lBDMv3YKYDu3HXi4gA
-zhu43qFyEXfs9TAh0UFMZR2/pNqZ9juJ3ul7F+lM8MabAerrEuVeZsCRK7Sm1+7f
-IzIMdGxfqFLpuuzFGnrIOLlxzUk/sfc5KuTmo7odJ1XNaFx8Cizj1kpwhx3rQiYg
-pyaXjlrGkNhUCvdrNp5AAYM7jZWKelmDmdrJZ5E5tkIi30R7l7xWwNDAKgksjnYh
-IEtqaljksHcU2h9nS6aHCycFFEAf7C4fkhb9WGvuZcNCdbxK3tOOoT4JzY121QiM
-VcU6DxUcfSdrEf9LvZET2J+H2dlilw==
-=jP7s
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/qAXoACgkQJNaLcl1U
+h9AjhAf/YFNAemoMrT/GAH8WPInFRTV0OuoaCtiD5TEyUTqOvqDBq1wqjc3cF/dr
+bvwsE6NHckJMIFXouNVwE+SY1nRa0urFWTqVF0IE6DYr+aP2lk+zD1hIli7x/eTM
+aYhiMolPt7Y16L+FS/BmivWMOprFPtjLNjG/8NipFcyky0JG2t2IfqC8UsN7QsTq
+Z4k3PT/tLsxjkFLKQFvEXYAXwsb055mnKMe9EP+EHeb0iWOa1xclXU7rLQFZ+ZZX
+TC3HeApIXdTnbp+CA7Ic5apfOwaR9+DgziXVZLx4CqPbDNbLrxOYJCQSbxpfoPdP
+D/tFDr6cbkGa3iDMsF56PMBBL5Ib2g==
+=aAjA
 -----END PGP SIGNATURE-----
 
---===============3387835673991446099==
+--===============0626835693441101182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b66e4a8e58a-2ae6f64ce1ce.txt
+Content-Disposition: attachment; filename=revlist-2819569147cb-2ae6f64ce1ce.txt
 
-214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
-4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
 6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
 36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
 03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
@@ -362,6 +354,7 @@ f7387170339afb473a0d95b7732f904346f9795e writeback: don't warn on an unregistere
 7be9b38afafbfcc58ede3be66bfc4ea415b3d5f1 NFSv4.2: fix error return on memory allocation failure
 3316fb80a0b4c1fef03a3eb1a7f0651e2133c429 fs/lockd: convert comma to semicolon
 44f6a7c0755d8dd453c70557e11687bb080a6f21 objtool: Fix seg fault with Clang non-section symbols
+df9716ec9ade3d2e190a2aac199557d30a3a8416 regulator: pf8x00: Use specific compatible strings for devices
 fad0319cacdf02a8d4d31aa1d8dc18c5bd5e397e char: ipmi: convert comma to semicolon
 9365965db0c7ca7fc81eee27c21d8522d7102c32 s390: always clear kernel stack backchain before calling functions
 f0c7cf13a3d77b3c6071ab179b583435847747e9 s390: make calls to TRACE_IRQS_OFF/TRACE_IRQS_ON balanced
@@ -897,6 +890,7 @@ c635b0cea6b812898563809a13e65278989b2c72 docs: admin-guide: Fix default value of
 8552d28e140110fc935b39a6bfaf33c8ce3a1ad5 Merge tag 'm68knommu-for-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 8653b778e454a7708847aeafe689bce07aeeb94e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 252bd1256396cebc6fc3526127fdb0b317601318 dm verity: skip verity work if I/O error when system is shutting down
+3b66e4a8e58a85af3212c7117d7a29c9ef6679a2 regulator: bd718x7: Add enable times
 52252adede912890b81e0a05503a482062e17c6e dm ebs: avoid double unlikely() notation when using IS_ERR()
 a528b04ea40690ff40501f50d618a62a02b19620 io_uring: fix ignoring xa_store errors
 2e2cbaf920d14de9a96180ddefd6861bcc46f07d fix hostfs_open() use of ->f_path.dentry
@@ -1086,4 +1080,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc Merge tag 'v5.11-rc1' into regulator-5.11
 
---===============3387835673991446099==--
+--===============0626835693441101182==--
