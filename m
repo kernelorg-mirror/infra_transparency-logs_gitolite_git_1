@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4871225602622886692=="
+Content-Type: multipart/mixed; boundary="===============1251945147861874754=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 28 Dec 2020 15:08:40 -0000
-Message-Id: <160916812047.30543.1557774011140873314@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 15:10:00 -0000
+Message-Id: <160916820063.31010.16687324335939431795@gitolite.kernel.org>
 
---===============4871225602622886692==
+--===============1251945147861874754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: d20c219c7317843cec7f03eba15bfeae54f29654
+    old: d20c219c7317843cec7f03eba15bfeae54f29654
+    new: 345523fab82760186bd453e2e6ebf7c21961610b
     log: |
-         4ea3cd65e0d47c4d3fc0c86d2d93d97457dc86fb tty: rename tty_kopen() and add new function tty_kopen_shared()
-         d20c219c7317843cec7f03eba15bfeae54f29654 tty: new helper function tty_get_icount()
+         5b10956483eaf524bd0ad2781ff27887d49cb6fc tty/serial/imx: convert comma to semicolon
+         345523fab82760186bd453e2e6ebf7c21961610b tty/serial/lantiq: convert comma to semicolon
          
 
---===============4871225602622886692==
+--===============1251945147861874754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609168194 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609168275 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1609168109-58e240a9fa39509d55b2b45272b22d532f220179
+nonce 1609168190-b9ed63029241fb587c9229e7efd992fb656d590d
 
-5c8fe583cce542aa0b84adc939ce85293de36e5e d20c219c7317843cec7f03eba15bfeae54f29654 refs/heads/tty-testing
+d20c219c7317843cec7f03eba15bfeae54f29654 345523fab82760186bd453e2e6ebf7c21961610b refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p9UIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8ZMQAJb5ckkGlsQwyBQ79X39
-CQBU7VbANJR2xWh5d1sh5TX7D53pqpekJH7k/k7KmMTJDdRbd1uXHuFrojRawOy+
-ify03Hbrjne/ou3iXoPY4FPaFduw02FpogkqMINs7P5BxK6DfXpeCf0zJvd4ZH50
-iiFyLeVyFMyj9QNJUOHPwW+o+0UFQ7hls64yuugOLJuZ7Q5IYXoE6nWpbV4R7cPj
-vRT9l6Bhv/OzveNqOHb+pTKo5hKyb+GZS25ugl/p5OzEAUyOe3SH9mqVQt5NZJQU
-7VUkBMoU3ko+Klf6x/tthhOhnG5NMJvka8IYaKfUZskRZij/KtZLrtfEcSJto3ns
-4A5gFGHKnDMpQF0yyc4cmeHNKVh+2CfHUeNBkMUw5OHx4x9Fa/9hQgqv/TIniVuq
-LaszQ5pSxzQnwMFbqiGugFQeoBwRLxi4SwKC5CLo88qHGql8Aoq+oChdrB5rVwIz
-0ph20/rV8iojS27sVZuWpD6tMfk5/DCQwJbsOm6SdjfFUD1YLMhofXP1M0sjXTDY
-GMu7BCTXiYcqiRYpTJcKh3mzrGoHHAdMOgulUeWUAvaWcJaImKtfwaS6pKrt7Izl
-mWO8ydgUgC82lZ/UftU1TQZ1/MEv+eTxFTCuK7nZcHtFGAYgmULK2OgtFEhYyqab
-LMuQSQVYNae5OVQMGMJeucCd
-=09Fk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/p9ZMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pZkP/3KQvvd8qQnsgoxqdvIr
+Z4jZyka4t3CwVXtzoh5ZEnYdOiPjiZPxG4q9Iv7kakLWLvbiFpbfjIw0Ud4Xf+do
+d82noT9dL6MD+NNjEoQULld/3eOztLJAFZ0fVb9awMc6OxqlfhtnUFfmJQ8Bvz6f
+ok7MsmVzIFNk7pyFgR1kr+yA/WMeP8ihsiTUZ6lhN97pmUKIUoAp6rRvW7HYl5Im
+/zHoQR9iEAFdrWkHzXIQQOB2AUEhcXE/wehaC+1WmWTf1cnuQ6aIf6/PJ6Ln8DG2
+C0bfxkL1GitU8Er8gEHqHB9V4mfa6V9xj1Rp85YP8IqBj5KIznqbgoyS34pT1tKr
+dL9jBozavVdbui+TYstmGm8o1DJu0X9PyWy6aGFopxsHFKJZ/6uz1s7WEtSSx6nd
+WF34OSPIFY2GyCUIIWrA30n1HzzvRembNqh323bBXvRPH2Bs48HH7gaDiZ1j8lI2
+gvBtOkiFucBOGCpEjyNKP9e0FNhJR+iQcPk4XFUQxMISPnA5i8rGNRppEYVFMXNu
+LwrJOwbJBkZ+acYt0zBszYgHaL7PC7iqiK63nj8rbnOOwvzJoOU+SQE4Un1TJiSC
+5on3/cogW0TkZiSQ93JnAe2elJVINJkWKhHjXmYkw2wMu5Xer7igQ/46EjkrfwrN
+2CA4drqA5NKJ0c84RmZh/zam
+=twUc
 -----END PGP SIGNATURE-----
 
---===============4871225602622886692==--
+--===============1251945147861874754==--
