@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6686045263007313925=="
+Content-Type: multipart/mixed; boundary="===============7406323469220756275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Mon, 28 Dec 2020 10:37:05 -0000
-Message-Id: <160915182592.7063.12565808404522490558@gitolite.kernel.org>
+Date: Mon, 28 Dec 2020 10:37:28 -0000
+Message-Id: <160915184829.7228.2317121238894448853@gitolite.kernel.org>
 
---===============6686045263007313925==
+--===============7406323469220756275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/renesas-clk
-    old: f5c50b1fed55332beb88e81e9e17c49673b77344
+  - ref: refs/heads/renesas-clk-for-v5.12
+    old: 874b9d7808273e7eaf626c7e7f562d9afb8946d0
     new: ab2ccacd73867c6be285ba4f3c1a3e10b96e9a1d
-    log: revlist-f5c50b1fed55-ab2ccacd7386.txt
+    log: revlist-874b9d780827-ab2ccacd7386.txt
 
---===============6686045263007313925==
+--===============7406323469220756275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5c50b1fed55-ab2ccacd7386.txt
+Content-Disposition: attachment; filename=revlist-874b9d780827-ab2ccacd7386.txt
 
 1f112129975e7a47324ba71b00e8e2c962177843 ia64: split virtual map initialization out of paging_init()
 ea34f78f3df62e531cf2beca997ff6bfae2b1e0d ia64: forbid using VIRTUAL_MEM_MAP with FLATMEM
@@ -1051,4 +1051,4 @@ ed447e7d60de9ee28763a9e0d215267db7498639 clk: renesas: r8a779a0: Add VSPD clock 
 57be2dc8d4cf4791993bd3e4caf586f3adfb7f6d clk: renesas: r8a779a0: Add VSPX clock support
 ab2ccacd73867c6be285ba4f3c1a3e10b96e9a1d clk: renesas: r8a779a0: Add RWDT clocks
 
---===============6686045263007313925==--
+--===============7406323469220756275==--
