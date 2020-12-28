@@ -1,73 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============0982333742250768810=="
+Content-Type: multipart/mixed; boundary="===============1925945198669500511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 28 Dec 2020 16:02:37 -0000
-Message-Id: <160917135703.2668.3726215093130957357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 28 Dec 2020 16:02:47 -0000
+Message-Id: <160917136724.2883.5448751780718771341@gitolite.kernel.org>
 
---===============0982333742250768810==
+--===============1925945198669500511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
-    old: a590370d918fc66c62df6620445791fbe840344a
+  - ref: refs/heads/spi-5.11
+    old: 2fee9583198eb97b5351feda7bd825e0f778385c
     new: 8db90aa36063f471bea1e65e23185913043852dc
-    log: revlist-a590370d918f-8db90aa36063.txt
-  - ref: refs/heads/for-5.12
-    old: a34d4197a144d83d508163404ad7d214082e909a
+    log: revlist-2fee9583198e-8db90aa36063.txt
+  - ref: refs/heads/spi-5.12
+    old: 0000000000000000000000000000000000000000
     new: ffe9819b6766b9a623822f3427df4953ab448127
-    log: |
-         e2be70318d7b0ad9446d8a64ed1bc73e3316ee39 spi: orion: enable clocks before spi_setup
-         22a6d41c871225bdd269a80fe04236071f429e2b spi: orion: enable support for switching CS every transferred byte
-         f7005142dacea1769fba0152c493aaa61b33205c spi: uapi: unify SPI modes into a single spi.h header
-         d962608ce2188a1d46ec9d356d6fad5cd6fc0341 spi: Add SPI_NO_TX/RX support
-         ffe9819b6766b9a623822f3427df4953ab448127 spi: dt-bindings: document zero value for spi-{rx,tx}-bus-width properties
-         
 
---===============0982333742250768810==
+--===============1925945198669500511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1609171336 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1609171353-b704a702881a084cf5a4f7d7a7a9e8cd19b0090a
+pusher C3F436CA30F5D8EB 1609171346 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1609171363-b95ada762481a8444ba9dc386f9bd95342ae778a
 
-a590370d918fc66c62df6620445791fbe840344a 8db90aa36063f471bea1e65e23185913043852dc refs/heads/for-5.11
-a34d4197a144d83d508163404ad7d214082e909a ffe9819b6766b9a623822f3427df4953ab448127 refs/heads/for-5.12
+2fee9583198eb97b5351feda7bd825e0f778385c 8db90aa36063f471bea1e65e23185913043852dc refs/heads/spi-5.11
+0000000000000000000000000000000000000000 ffe9819b6766b9a623822f3427df4953ab448127 refs/heads/spi-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/qAYgACgkQJNaLcl1U
-h9C1CAf+Lza/qyLkFTLBRh8zP1zAr/7b7V5yZdM657yNc8te7KpFveIVIea6dmYD
-n2RWEnuuHInd7lvFw+fJzZZoF01d7SGut6iCzYHmS1gdSYcbxcex6B2yzFL1hfkc
-UkTf98+FAzzAZVfqQSNEOhVlFlv/GQUV6YMjSobZfvaXX6wIbx6r71EODIwUBbR8
-cELE0juT7rU7YrUhmMbdygxfg3cbeU4VoC8ojusNQSaZ2cBIUBCRNe1pyUFtPIOg
-vrKPlY8xlBe3b5LQYQtfMN+cd8wB5lq7mpmJZ75MY4KtV0rVAX6cLXXAtycnrjEO
-vw+wGX3M/urCIV95MliMQbSW+v5HYA==
-=13ir
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/qAZIACgkQJNaLcl1U
+h9BwWgf/dwpYAqMvcDsq5Wi2wXdHVPRcH1vVt/rOeMmSej8QdN/YUlbk1mihLiUh
+nt+NXk53gDiWfb71Uu0jpF9ggQaAFsRhHrZF8hfrkPVqyFYhMQvOOCTlbQeYAQdA
+7vWPHtWvpyL35BhK1vhwY91GvAcEhfQ2XCI32cMca789qnkC7amOQpWEL5vUnR+O
+FIidvRuq0oxyJSLmwDKu6jCMAW2PD5FErILu2Qz9Ofzql2lcCgr3Ry1sebtWjDVZ
+qoInYqQ7KRrtEW+HTtBe0Q34IhC8IL5OQhTC40bS+ECVixpicNKFASTfgXQHpd/H
+g6WKbVMtFpeOdfFICsKg+NISayYZ3Q==
+=7rs3
 -----END PGP SIGNATURE-----
 
---===============0982333742250768810==
+--===============1925945198669500511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a590370d918f-8db90aa36063.txt
+Content-Disposition: attachment; filename=revlist-2fee9583198e-8db90aa36063.txt
 
-214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
-4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
-6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
-36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
-03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
-5d37fc0b087fb276a257034c5a1dfdbfaa08be66 ia64: remove 'ifdef CONFIG_ZONE_DMA32' statements
 b90b5547685ffe2b30522b81a1c9f6c35e1152de ia64: discontig: paging_init(): remove local max_pfn calculation
 1f112129975e7a47324ba71b00e8e2c962177843 ia64: split virtual map initialization out of paging_init()
 ea34f78f3df62e531cf2beca997ff6bfae2b1e0d ia64: forbid using VIRTUAL_MEM_MAP with FLATMEM
@@ -572,6 +559,7 @@ e23de15fdbd3070446b2d212373c0ae556f63d93 io_uring: consolidate CQ nr events calc
 71da201f38dfb0c3a3d33bbe3168ea9112299dde ACPI: scan: Defer enumeration of devices with _DEP lists
 0de7fb7c8687048299305529d17f6a1e98ae658c ACPI: scan: Avoid unnecessary second pass in acpi_bus_scan()
 9272e97ae9e9b95e0805c690404a0df9fb03055f ACPI: scan: Add Intel Baytrail Mailbox Device to acpi_ignore_dep_ids
+127a7a95df41731632c7348960908751f7f9d049 Merge remote-tracking branch 'spi/for-5.10' into spi-5.11
 d652d5f1eeeb06046009f4fcb9b4542249526916 drm/edid: fix objtool warning in drm_cvt_modes()
 09d59c2f3465fb01e65a0c96698697b026ea8e79 tools build: Add missing libcap to test-all.bin target
 2eb5dd418034ecea2f7031e3d33f2991a878b148 perf record: Fix memory leak when using '--user-regs=?' to list registers
@@ -681,6 +669,10 @@ f2283366c2919fda71e6eb725c3e5c1bd47bae1a ALSA: pcm: Remove snd_pcm_lib_prealloca
 8e8fbfc682481b7f814985341020129161afd9de drm/komeda: Remove useless variable assignment
 a24cf238c771a1d3f0dc68b9f2b62c6d23359026 drm/komeda: Handle NULL pointer access code path in error case
 be3e477effba636ad25dcd244db264c6cd5c1f36 drm/komeda: Fix bit check to import to value of proper type
+4aa1464acbe3697710279a4bd65cb4801ed30425 spi: spi-geni-qcom: Fix geni_spi_isr() NULL dereference in timeout case
+690d8b917bbe64772cb0b652311bcd50908aea6b spi: spi-geni-qcom: Fail new xfers if xfer/cancel/abort pending
+3d7d916f9bc98ce88272b3e4405c7c685afbfcd6 spi: spi-geni-qcom: Don't try to set CS if an xfer is pending
+17fa81aa702ec118f2b835715897041675b06336 spi: spi-geni-qcom: Print an error when we timeout setting the CS
 e2ae634014d3a8839a99f8897b3f6346a133a33b Merge tag 'riscv-for-linus-5.11-mw0' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 5ba836eb9fdb07843cfa004e511f333745adb76e Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 a087241716a6cea8518ca33839276a9648d91cef Merge tag 's390-5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
@@ -894,6 +886,7 @@ d5c243989fb0cb03c74d7340daca3b819f706ee7 powerpc/32: Fix vmap stack - Properly s
 27ab873e0ca640cbe1375aa5a0cdd0607cb6bbdc Documentation: process: Correct numbering
 9bf19b78a203b6ed20ed7b5d7222f5ef7a49aed4 Documentation/submitting-patches: Document the SoB chain
 c635b0cea6b812898563809a13e65278989b2c72 docs: admin-guide: Fix default value of max_map_count in sysctl/vm.rst
+a590370d918fc66c62df6620445791fbe840344a spi: stm32: FIFO threshold level - fix align packet size
 70990afa34fbac03ade78e2ad0ccd418acecfc04 Merge tag '9p-for-5.11-rc1' of git://github.com/martinetd/linux
 8552d28e140110fc935b39a6bfaf33c8ce3a1ad5 Merge tag 'm68knommu-for-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 8653b778e454a7708847aeafe689bce07aeeb94e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
@@ -1087,4 +1080,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 8db90aa36063f471bea1e65e23185913043852dc Merge tag 'v5.11-rc1' into spi-5.11
 
---===============0982333742250768810==--
+--===============1925945198669500511==--
