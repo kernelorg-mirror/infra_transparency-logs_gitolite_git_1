@@ -1,55 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============9058805363193375658=="
+Content-Type: multipart/mixed; boundary="===============1536624940171305309=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Tue, 29 Dec 2020 14:30:40 -0000
-Message-Id: <160925224081.16057.10161865295672171271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 29 Dec 2020 14:30:47 -0000
+Message-Id: <160925224784.16233.7014660177170030303@gitolite.kernel.org>
 
---===============9058805363193375658==
+--===============1536624940171305309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
-    old: a8ecace132fa321f7fcc0650c4e486938a2a4bcb
+  - ref: refs/heads/regmap-5.11
+    old: b6c505525c2638a724becb2b112ec12df94472fe
     new: cffa4b2122f5f3e53cf3d529bbc74651f95856d5
-    log: revlist-a8ecace132fa-cffa4b2122f5.txt
+    log: revlist-b6c505525c26-cffa4b2122f5.txt
+  - ref: refs/heads/regmap-5.12
+    old: 0000000000000000000000000000000000000000
+    new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
 
---===============9058805363193375658==
+--===============1536624940171305309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1609252220 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1609252237-9155067f23641b026b3166d062214d4437840a1d
+pusher C3F436CA30F5D8EB 1609252227 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1609252244-1d5af194e490c136d60fdd073ed16285536e8713
 
-a8ecace132fa321f7fcc0650c4e486938a2a4bcb cffa4b2122f5f3e53cf3d529bbc74651f95856d5 refs/heads/for-5.11
+b6c505525c2638a724becb2b112ec12df94472fe cffa4b2122f5f3e53cf3d529bbc74651f95856d5 refs/heads/regmap-5.11
+0000000000000000000000000000000000000000 5c8fe583cce542aa0b84adc939ce85293de36e5e refs/heads/regmap-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/rPXwACgkQJNaLcl1U
-h9DcIgf+Kh2Gd/SqbJNWs5bKcjp6ess/yLb+iKFTit8WRIZpBzj0yCiYuF9mLyV5
-3wLyDVmZiQetSjF2nY640D3RvUmKdJsMsnFTKvFBjxMBKv/TkVwFwRc4PqtRoUu/
-PKuXjNDulMr1q0t0StQOJAYd2rjZVWOTK21HotnJfdLTiW8Q+5nplfZarCwLME8E
-2SAwt+vvKQd9HbctJBSnyYjY2x63f9rNH65yivwJc1bRFJPTjGfPJulUqJSAkT7a
-FrKzvZqU8grF6ioJSDUQwsBaVOFiOglm8hBDOoj0iKyTNOyDT+PMd076fq2322oJ
-cpCSpfuYCA4L9wg3539SOKMQLyFXCQ==
-=hq87
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/rPYMACgkQJNaLcl1U
+h9Dxewf+JNErofDPW3BDOLhhoUG0CnDquCxW6qghn04JRp+ZTBvBBFmfXl+iSK/z
+rj6zmTBRn525EqKhQEVmk9nZpDW/ig7SWHvD1sKucLvHuN5yDVhrY1spntgLL+Wn
+JTvBCxHesGRuChDGqheA4F7wqlmEY/yP5SB+Yq44hgQRqVjWy9lfZA4VLeaGSVvv
+k5ABAuBvREP7j807EzgW+O4kIqahT0knZxVbBiDWeSHA0coQbyJ1WVb7jPKQHSZ7
+4+vTQHixEsK3BuFYijCi4Ic0HpZ/RiRmHCsU8TBo4c3d6a7ykL1PVQ+cRfYrYlP3
+V1ez6m2SebkUxWiSYp9iNJDo/tvztQ==
+=drve
 -----END PGP SIGNATURE-----
 
---===============9058805363193375658==
+--===============1536624940171305309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8ecace132fa-cffa4b2122f5.txt
+Content-Disposition: attachment; filename=revlist-b6c505525c26-cffa4b2122f5.txt
 
 214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
 4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
@@ -1076,4 +1080,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 cffa4b2122f5f3e53cf3d529bbc74651f95856d5 regmap: debugfs: Fix a memory leak when calling regmap_attach_dev
 
---===============9058805363193375658==--
+--===============1536624940171305309==--
