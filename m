@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5362760834175346996=="
+Content-Type: multipart/mixed; boundary="===============8973197980368973498=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 29 Dec 2020 15:26:46 -0000
-Message-Id: <160925560641.20504.27926852159394583@gitolite.kernel.org>
+Date: Tue, 29 Dec 2020 15:27:05 -0000
+Message-Id: <160925562591.20651.5587751814327122911@gitolite.kernel.org>
 
---===============5362760834175346996==
+--===============8973197980368973498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/fixes
-    old: cd12e4f14f7cca7d04fbcf0da2dc116070d7f26f
+  - ref: refs/heads/next/defconfig
+    old: 225ef3a3e8f48154ca7a4cfe44d3b576aff2f860
     new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    log: revlist-cd12e4f14f7c-5c8fe583cce5.txt
+    log: revlist-225ef3a3e8f4-5c8fe583cce5.txt
 
---===============5362760834175346996==
+--===============8973197980368973498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd12e4f14f7c-5c8fe583cce5.txt
+Content-Disposition: attachment; filename=revlist-225ef3a3e8f4-5c8fe583cce5.txt
 
 ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
 214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 
---===============5362760834175346996==--
+--===============8973197980368973498==--
