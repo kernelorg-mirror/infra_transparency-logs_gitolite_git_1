@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7782210923620039607=="
+Content-Type: multipart/mixed; boundary="===============4919154425123455590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Tue, 29 Dec 2020 16:03:55 -0000
-Message-Id: <160925783540.12873.8630518625416587738@gitolite.kernel.org>
+Date: Tue, 29 Dec 2020 16:03:59 -0000
+Message-Id: <160925783963.12950.13474583272463954410@gitolite.kernel.org>
 
---===============7782210923620039607==
+--===============4919154425123455590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/pinctrl-next
     old: c5564a50d99019f3c713fa306d5feecc3e909b10
     new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
     log: revlist-c5564a50d990-5c8fe583cce5.txt
 
---===============7782210923620039607==
+--===============4919154425123455590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 
---===============7782210923620039607==--
+--===============4919154425123455590==--
