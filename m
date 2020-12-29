@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5137345303255964838=="
+Content-Type: multipart/mixed; boundary="===============5447440543632666740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 29 Dec 2020 14:30:24 -0000
-Message-Id: <160925222487.15810.17435613343650268691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 29 Dec 2020 14:30:33 -0000
+Message-Id: <160925223370.15950.18196462619289836204@gitolite.kernel.org>
 
---===============5137345303255964838==
+--===============5447440543632666740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: e05cde84eabccc0441f837f0661cd4c6f4820513
     new: 89ffd36a9ece5eae9667a30bc6601862c8e12419
     log: |
@@ -29,28 +29,28 @@ changes:
          89ffd36a9ece5eae9667a30bc6601862c8e12419 Merge series "ASoC: rt1015: apply some refactors" from Tzung-Bi Shih <tzungbi@google.com>:
          
 
---===============5137345303255964838==
+--===============5447440543632666740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1609252204 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1609252222-1717adedaf46d25ccbd51102466735bff9fe3f48
+pusher C3F436CA30F5D8EB 1609252213 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1609252231-71d73b782a6925e644a36a93c1fcf6dcae2066c9
 
-e05cde84eabccc0441f837f0661cd4c6f4820513 89ffd36a9ece5eae9667a30bc6601862c8e12419 refs/heads/for-5.12
+e05cde84eabccc0441f837f0661cd4c6f4820513 89ffd36a9ece5eae9667a30bc6601862c8e12419 refs/heads/asoc-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/rPWwACgkQJNaLcl1U
-h9DUqQf/cROQl4fDU1GxWKr7TasiLcuem7+zA7oj5mnDX25t5Wx5FG/KLpEbJAgU
-ir60Etb66O6wTi4dPvtaTUyI00OTic5hu/YU8IxWNV1ifSPTafIasbQ3LhGu+2K1
-tVRXxl+dDDvl36XUxOOf8kH1Fzr4xp95KmR3uOcPcWDkkGSl79Y3dGPHepSml/Za
-HfDytZB9P+rtGrpf413e74VGhiZkGMiMir3bxRVRIAMb4jZKk4g0MMgntTGoSkHD
-icnaiHtk4K2cpfcf0+i+y5u5ocWoqpUtW7spkb+1J/xhqPxSAbeY+/hQpRLfxpOS
-Q9p34HxdUrQQjggpbzrNZktQ6fE27g==
-=hOM6
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/rPXUACgkQJNaLcl1U
+h9B4nwf/VVQF8+d7if2dFk8QoawdP5J67uy3+hzr5dEy4SBWVjokz6ZKEzUFP7r9
+/rwiGUGcl7cp3I6WtDd5JMyV8Fex5fqWrF47mPEsDN8+5f80eJMPP2jz6S9OAe/F
+N8Wm+DnDolqMRiK/G+jmUkgM5w2ZTJ9vCqXxz2e18ty/VOvBnXuYgUBVPihT6tdz
+zpIh+6xaBFCvj9lh0ZwDjgsOB+gECwT58OWUyA2lpo6f8AHqO0dMerkqjALOZXYF
+ca3m89K/S8K+AoYkpcjWMLm9mQ0YY0bPkpGDnIUM5NrWmvbyIq4FNI6y8VR3iCxB
+nvFRkkBdwihAZehcAxXpxiMXJ7GsbQ==
+=Ema+
 -----END PGP SIGNATURE-----
 
---===============5137345303255964838==--
+--===============5447440543632666740==--
