@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 29 Dec 2020 14:11:36 -0000
-Message-Id: <160925109680.2322.11410703470858787464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Tue, 29 Dec 2020 14:13:38 -0000
+Message-Id: <160925121858.2987.3170622124216590961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/testing
-    old: e846f9a9003116e02926593f07924fae67907d0a
-    new: e3687e9a2f23aa3547d0dccc92aeacf02b56e16e
+  - ref: refs/heads/master
+    old: eddc3b03818a3815180fff40259423c607514c4f
+    new: 3c886ccff87b8c06a638d3d844f9e448f628fca9
     log: |
-         d22b9e8353469218fef0f12a89ee6a02a4b74625 iio: accel: yamaha-yas530: Add DT bindings
-         e3687e9a2f23aa3547d0dccc92aeacf02b56e16e iio: magnetometer: Add driver for Yamaha YAS530
+         3c886ccff87b8c06a638d3d844f9e448f628fca9 tcrypt: Support --hash and --cipher options to limit opening time.
+         
+  - ref: refs/merge-requests/51/merge
+    old: 83cc90be5d4e20c37ee849e108fa7b783d356e5c
+    new: eddc3b03818a3815180fff40259423c607514c4f
+    log: |
+         eddc3b03818a3815180fff40259423c607514c4f Fix comment for max_tokens function.
          
