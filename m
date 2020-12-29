@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3416552933166677391=="
+Content-Type: multipart/mixed; boundary="===============8716539978662959932=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Tue, 29 Dec 2020 15:07:26 -0000
-Message-Id: <160925444662.6501.12242157897349203421@gitolite.kernel.org>
+Date: Tue, 29 Dec 2020 15:07:53 -0000
+Message-Id: <160925447382.6739.8327295219238676632@gitolite.kernel.org>
 
---===============3416552933166677391==
+--===============8716539978662959932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
     new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
     log: revlist-3650b228f83a-5c8fe583cce5.txt
 
---===============3416552933166677391==
+--===============8716539978662959932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 
---===============3416552933166677391==--
+--===============8716539978662959932==--
