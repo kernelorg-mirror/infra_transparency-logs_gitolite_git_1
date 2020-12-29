@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6297060145946999222=="
+Content-Type: multipart/mixed; boundary="===============7088992178761975137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dennis/percpu
-Date: Tue, 29 Dec 2020 21:09:46 -0000
-Message-Id: <160927618639.9302.5154606929711298777@gitolite.kernel.org>
+Date: Tue, 29 Dec 2020 21:09:51 -0000
+Message-Id: <160927619177.9386.13276068308130658906@gitolite.kernel.org>
 
---===============6297060145946999222==
+--===============7088992178761975137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dennis/percpu
 user: dennis
 changes:
-  - ref: refs/heads/master
-    old: 3cea11cd5e3b00d91caf0b4730194039b45c5891
-    new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    log: revlist-3cea11cd5e3b-5c8fe583cce5.txt
-  - ref: refs/heads/for-5.12
-    old: 0000000000000000000000000000000000000000
-    new: fe16e639831f502c598df35512924b32484b2c2f
+  - ref: refs/heads/for-next
+    old: eb4c8d15efdaf1661759d8da2c7bfffe5d881343
+    new: 7dd3050a0194f5dc25b2679971a758339288d6e2
+    log: revlist-eb4c8d15efda-7dd3050a0194.txt
 
---===============6297060145946999222==
+--===============7088992178761975137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3cea11cd5e3b-5c8fe583cce5.txt
+Content-Disposition: attachment; filename=revlist-eb4c8d15efda-7dd3050a0194.txt
 
-ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
-214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
 4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
 6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
 36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
@@ -1053,5 +1048,7 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
+fe16e639831f502c598df35512924b32484b2c2f percpu: reduce the number of cpu distance comparisons
+7dd3050a0194f5dc25b2679971a758339288d6e2 Merge branch 'for-5.12' into for-next
 
---===============6297060145946999222==--
+--===============7088992178761975137==--
