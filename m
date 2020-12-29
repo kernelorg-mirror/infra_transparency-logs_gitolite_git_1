@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5044246781951433416=="
+Content-Type: multipart/mixed; boundary="===============6299037091233683341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Tue, 29 Dec 2020 16:03:44 -0000
-Message-Id: <160925782492.12581.3991311068730340115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Tue, 29 Dec 2020 16:03:51 -0000
+Message-Id: <160925783114.12734.10560358521421937875@gitolite.kernel.org>
 
---===============5044246781951433416==
+--===============6299037091233683341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
     log: revlist-3650b228f83a-5c8fe583cce5.txt
 
---===============5044246781951433416==
+--===============6299037091233683341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 
---===============5044246781951433416==--
+--===============6299037091233683341==--
