@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Tue, 29 Dec 2020 14:18:09 -0000
-Message-Id: <160925148949.5790.13781643713890744891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 29 Dec 2020 14:23:43 -0000
+Message-Id: <160925182347.11093.7137751791487757014@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/renesas/la-prototype
-    old: a8f27da90cfb8720e6952cddf3b43dceff885b58
-    new: c1616510212762850e1741ca591327fdc869b9bb
+  - ref: refs/heads/master
+    old: 4bfc4714849d005e6835bcffa3c29ebd6e5ee35d
+    new: da4282c17d695b9311608aa63b3c633e649aadea
     log: |
-         c1616510212762850e1741ca591327fdc869b9bb update
+         da4282c17d695b9311608aa63b3c633e649aadea selftests/bpf: Fix a compile error for BPF_F_BPRM_SECUREEXEC
          
