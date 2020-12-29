@@ -1,31 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============7330126051387249197=="
+Content-Type: multipart/mixed; boundary="===============5233990999774432064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 29 Dec 2020 15:48:36 -0000
-Message-Id: <160925691656.614.2494437560003252826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
+Date: Tue, 29 Dec 2020 15:52:30 -0000
+Message-Id: <160925715043.4420.1616593425263460133@gitolite.kernel.org>
 
---===============7330126051387249197==
+--===============5233990999774432064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
+user: ebiederm
 changes:
   - ref: refs/heads/for-next
-    old: 72f4b57a4d4bd8f1c067af3652fd061ee32fbe1e
-    new: feb7cf14d8def306e8966bf0b0b10bbea1abde2a
-    log: revlist-72f4b57a4d4b-feb7cf14d8de.txt
+    old: 498a1acd9ccf7c3c9beecd06b7354183f5e10531
+    new: 95ebabde382c371572297915b104e55403674e73
+    log: revlist-498a1acd9ccf-95ebabde382c.txt
 
---===============7330126051387249197==
+--===============5233990999774432064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72f4b57a4d4b-feb7cf14d8de.txt
+Content-Disposition: attachment; filename=revlist-498a1acd9ccf-95ebabde382c.txt
 
+214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
+4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
+6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
+36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
+03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
+5d37fc0b087fb276a257034c5a1dfdbfaa08be66 ia64: remove 'ifdef CONFIG_ZONE_DMA32' statements
+b90b5547685ffe2b30522b81a1c9f6c35e1152de ia64: discontig: paging_init(): remove local max_pfn calculation
+1f112129975e7a47324ba71b00e8e2c962177843 ia64: split virtual map initialization out of paging_init()
+ea34f78f3df62e531cf2beca997ff6bfae2b1e0d ia64: forbid using VIRTUAL_MEM_MAP with FLATMEM
+214496cb18700fd7c5206ac33768876dbf68b4df ia64: make SPARSEMEM default and disable DISCONTIGMEM
 5e545df3292fbd3d5963c68980f1527ead2a2b3f arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
 4f5b0c1789963477cc9a4d45b4b62d694665cceb arm, arm64: move free_unused_memmap() to generic mm
 050b2da268f8fc4f8123f6462c430a61547b2f7b arc: use FLATMEM with freeing of unused memory map instead of DISCONTIGMEM
@@ -1039,16 +1049,6 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
-75681980c4e3d89c55b5b8f20b8f4c1aace601be ARM: dts: exynos: use Exynos5420 dedicated USB2 PHY compatible
-cb31334687db31c691901269d65074a7ffaecb18 ARM: dts: exynos: correct PMIC interrupt trigger level on Artik 5
-8528cda2b7c667e9cd173aef1a677c71b7d5a096 ARM: dts: exynos: correct PMIC interrupt trigger level on Monk
-437ae60947716bb479e2f32466f49445c0509b1e ARM: dts: exynos: correct PMIC interrupt trigger level on Rinato
-77e6a5467cb8657cf8b5e610a30a4c502085e4f9 ARM: dts: exynos: correct PMIC interrupt trigger level on Spring
-1ac8893c4fa3d4a34915dc5cdab568a39db5086c ARM: dts: exynos: correct PMIC interrupt trigger level on Arndale Octa
-3e7d9a583a24f7582c6bc29a0d4d624feedbc2f9 ARM: dts: exynos: correct PMIC interrupt trigger level on Odroid XU3 family
-e98e2367dfb4b6d7a80c8ce795c644124eff5f36 arm64: dts: exynos: correct PMIC interrupt trigger level on TM2
-1fea2eb2f5bbd3fbbe2513d2386b5f6e6db17fd7 arm64: dts: exynos: correct PMIC interrupt trigger level on Espresso
-545a540a9c2ec192cdd5c75af1e334711a79354a arm64: dts: exynos: correct S3FWRN5 NFC interrupt trigger level on TM2
-feb7cf14d8def306e8966bf0b0b10bbea1abde2a Merge branch 'next/dt64' into for-next
+95ebabde382c371572297915b104e55403674e73 capabilities: Don't allow writing ambiguous v3 file capabilities
 
---===============7330126051387249197==--
+--===============5233990999774432064==--
