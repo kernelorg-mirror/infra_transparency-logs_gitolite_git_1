@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 29 Dec 2020 16:57:48 -0000
-Message-Id: <160926106862.15046.7506630215617680765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 29 Dec 2020 17:03:05 -0000
+Message-Id: <160926138595.17980.7527716452149532165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/testing
-    old: 37ff817ab9e9b56fa946634bd90ec4e10806174a
-    new: 73123452ef380471b49246946493a27ac9d00c26
+  - ref: refs/heads/hack/arm64-early-cpufeature
+    old: 08bbc1172fb79f375364c94f8dc43bce0000dd98
+    new: e18730d5383dc8d8dd27f0747a2c79124386a43f
     log: |
-         73123452ef380471b49246946493a27ac9d00c26 iio: adc: ab8500-gpadc: Support non-hw-conversion
+         e9ff37891307bf320aee68a602eb520256566ee4 fixup! fixup! arm64: cpufeature: Add an early command-line cpufeature override facility
+         e18730d5383dc8d8dd27f0747a2c79124386a43f fixup! arm64: Move VHE-specific SPE setup to mutate_to_vhe()
          
