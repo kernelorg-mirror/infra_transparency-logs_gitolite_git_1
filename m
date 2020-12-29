@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Tue, 29 Dec 2020 18:23:40 -0000
-Message-Id: <160926622094.4472.16372287090417383987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 29 Dec 2020 18:29:52 -0000
+Message-Id: <160926659200.7518.5059807616716845920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 6b9b2c22872ed474b1ca8040f7482c050d65f85e
-    new: 1946fd5a9bcfed7c635107305bd7e76504ab8bd2
+  - ref: refs/heads/fixes-togreg
+    old: 2ba7b50893de538cb7ea379479db58f353c1771c
+    new: c19f5f57740728c2dc4b6a8b773674890f62584f
     log: |
-         1946fd5a9bcfed7c635107305bd7e76504ab8bd2 datastruct/hash: Add tests varying hash-table size
+         c19f5f57740728c2dc4b6a8b773674890f62584f iio: ad5504: Fix setting power-down state
          
