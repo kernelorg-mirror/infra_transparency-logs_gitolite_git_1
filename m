@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 30 Dec 2020 16:07:22 -0000
-Message-Id: <160934444257.10934.11901934837940080290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Wed, 30 Dec 2020 16:11:55 -0000
+Message-Id: <160934471505.13548.3072502921712187693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: ab4001e286f8a613b57b2d593cbc0e55e404f313
-    new: 40c502d623e53fd57be5de565dfe029e4c176b6d
+  - ref: refs/heads/next
+    old: 36fdb56abf145ed1bd9b9be38c7cb489f60ddb9e
+    new: ccae15d1f1ba8c111f414f20e14f70b430099802
     log: |
-         3c8813156de7a3da0d344221453018435d64bf11 syscalls.2: Add epoll_pwait2()
-         632d11529495d1ff329bece9f16ec38d06828f96 Various pages: Normalize SYNOPSIS notes about nonexistent glibc wrappers
-         16cc03ca92764822b62782cf86e8bf70ba4ce3fc Various pages: Normalize NOTES about nonexistent glibc wrappers
-         40c502d623e53fd57be5de565dfe029e4c176b6d kexec_load.2: wfix
+         4054e834573eb32d8535d56253eab793b70f3a7b habanalabs: remove access to kernel memory using debugfs
+         ccae15d1f1ba8c111f414f20e14f70b430099802 habanalabs: support non power-of-2 DRAM phys page sizes
          
