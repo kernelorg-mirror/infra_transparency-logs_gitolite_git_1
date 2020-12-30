@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 30 Dec 2020 13:56:59 -0000
-Message-Id: <160933661902.19973.8842250291843239844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Wed, 30 Dec 2020 14:17:23 -0000
+Message-Id: <160933784386.1963.3315191172425292380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
   - ref: refs/heads/master
-    old: 5bd94cbd319465cb384c3f129839bda604c67055
-    new: ab4001e286f8a613b57b2d593cbc0e55e404f313
+    old: 1e6a3fed6e52d36503e2568dea1c769637d5e4a4
+    new: b688e35970600c15d18d5eb7c19139253437a2aa
     log: |
-         ab4001e286f8a613b57b2d593cbc0e55e404f313 readlink.2: Emphasize that the returned buffer is not null-terminated
+         aff60970d16b909ebf835dae0cf91edf2dd2fc66 btf_encoder: Factor filter_functions function
+         06ca639505fc56c6bfc4fb2026b4be94768673ed btf_encoder: Use address size based on ELF's class
+         17df51c700248f027eb4307e5cabd64eb520a2f7 btf_encoder: Detect kernel module ftrace addresses
+         b94e97e015a94e6b40cfb5e35369ea9708fd8e42 dwarves: Fix compilation on 32-bit architectures
+         8c009d6ce762dfc92c27c2195f4587bfa7cef171 btf_encoder: fix BTF variable generation for kernel modules
+         b688e35970600c15d18d5eb7c19139253437a2aa btf_encoder: fix skipping per-CPU variables at offset 0
          
