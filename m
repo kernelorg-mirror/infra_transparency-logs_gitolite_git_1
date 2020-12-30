@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 30 Dec 2020 15:41:39 -0000
-Message-Id: <160934289981.25229.10340872714733173202@gitolite.kernel.org>
+Date: Wed, 30 Dec 2020 15:43:10 -0000
+Message-Id: <160934299052.25929.8834162649327908394@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,69 +12,73 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: b18f2277e54e456a841b9fd595c9bb0bca8801d8
-    new: cbd20a0fa6b650c17128e1de2f5c1c9a139e8159
+    old: cbd20a0fa6b650c17128e1de2f5c1c9a139e8159
+    new: 76056a4f2eba6fbed8907f06509b9b199f025bef
     log: |
-         1f79f8032c4443e605df5dfd6b08c0bad00d294d x86/entry/64: Add instruction suffix
-         29f6e32e33da18f1d596e9afe6e5bca485fa49cd md/raid10: initialize r10_bio->read_slot before use.
-         6049d791e10b0918a38843dcfd9d81fa7af56d05 ALSA: hda/ca0132 - Fix work handling in delayed HP detection
-         f0ef9fd7cb8e3592baea74af1ef8128828a5d3d9 ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
-         da0d58770897b0058f50cd2d7f87d8c7df07d1fb ALSA: usb-audio: fix sync-ep altsetting sanity check
-         b5a305d7bee6229b16631f4b526d7291dffdea3b mm: memcontrol: eliminate raw access to stat and event counters
-         4a5ffeab49b5186c9483c5f6631ebeca54e41687 mm: memcontrol: implement lruvec stat functions on top of each other
-         cbd20a0fa6b650c17128e1de2f5c1c9a139e8159 mm: memcontrol: fix excessive complexity in memory.stat reporting
+         55871275bec1843ea3a85a5169b72c2aefdf4c6e x86/entry/64: Add instruction suffix
+         12603ca81b23f4d7cb2636fd3219eb0103e4ed99 md/raid10: initialize r10_bio->read_slot before use.
+         0619ac7d796b5030e17821e3e4c4761e4d485b3c ALSA: hda/ca0132 - Fix work handling in delayed HP detection
+         b95ae58da92644591ee49620cb43fd68dff77014 ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
+         16bd3986d892108b5af60df3b37774c47832073f ALSA: usb-audio: fix sync-ep altsetting sanity check
+         730df2e5acf8e46566cef8d286b63d1280327fd6 mm: memcontrol: eliminate raw access to stat and event counters
+         350c113c732ea46627a189d8814dd6d44e4bc026 mm: memcontrol: implement lruvec stat functions on top of each other
+         76056a4f2eba6fbed8907f06509b9b199f025bef mm: memcontrol: fix excessive complexity in memory.stat reporting
          
   - ref: refs/heads/queue/4.19
-    old: 3207316b3beec7e38e5dbe2f463df0cec71e0b97
-    new: 9813248cb6c55c44362f142dc867571356da5259
+    old: 9813248cb6c55c44362f142dc867571356da5259
+    new: 464a3984818abe510ee0a736ba32a6a9a125a36b
     log: |
-         9813248cb6c55c44362f142dc867571356da5259 md/raid10: initialize r10_bio->read_slot before use.
+         abd67843ceab64f1835e648c0346de1c202fc90d md/raid10: initialize r10_bio->read_slot before use.
+         c754869077ccb933f5857fe14899c6a226879370 fscrypt: add fscrypt_is_nokey_name()
+         bb63d0e4b4d43721356a4fa89c0fa4c68d41e186 ext4: prevent creating duplicate encrypted filenames
+         fd53711a99752b6d01f79b74d96a8e6bfbe8e259 f2fs: prevent creating duplicate encrypted filenames
+         464a3984818abe510ee0a736ba32a6a9a125a36b ubifs: prevent creating duplicate encrypted filenames
          
   - ref: refs/heads/queue/4.4
-    old: c2fadcfca17b4d765c49b81c6d0a8e1b65c86ce0
-    new: 71408fc1612a8f14ee582056b1422b74205b5dcb
+    old: 71408fc1612a8f14ee582056b1422b74205b5dcb
+    new: 089143370028488769872289d9a283d9fb105211
     log: |
-         61e064cff4c5f49fed949001b1159bb054c8cb31 ALSA: hda/ca0132 - Fix work handling in delayed HP detection
-         bbd59ff2c32e307d05c38fe594897ac9300dc828 ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
-         20003de2be4c115a49582ed7bcefc47ed06ae2b6 ALSA: usb-audio: fix sync-ep altsetting sanity check
-         6c2169494e71a86ac4df8f008ebc91746cdad08a ALSA: hda/realtek - Support Dell headset mode for ALC3271
-         66706029332be504b207fcd8ce3f5cc45ca1c01a ALSA: hda - Fix a wrong FIXUP for alc289 on Dell machines
-         71408fc1612a8f14ee582056b1422b74205b5dcb ALSA: hda/realtek - Dell headphone has noise on unmute for ALC236
+         fd8013fe27f953fa705f2d0b01ee694eafe50e10 ALSA: hda/ca0132 - Fix work handling in delayed HP detection
+         76ab9a0ff7035727972f1c62d5a008a80fcd3c81 ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
+         1faf1ec65cc02a6c0d7eba53d8cebde226da803e ALSA: usb-audio: fix sync-ep altsetting sanity check
+         21ebc1d87e03cacd641fabfa6a58aa7629af6c2d ALSA: hda/realtek - Support Dell headset mode for ALC3271
+         e35e63ff30edac39265b36922d854176bea68e17 ALSA: hda - Fix a wrong FIXUP for alc289 on Dell machines
+         089143370028488769872289d9a283d9fb105211 ALSA: hda/realtek - Dell headphone has noise on unmute for ALC236
          
   - ref: refs/heads/queue/4.9
-    old: e018496c7e6281f89e0c9800c2c235eae47f63cc
-    new: 36ad3452e34540ea2a58287b0c72ea757d12278f
+    old: 36ad3452e34540ea2a58287b0c72ea757d12278f
+    new: 61843e5e1a253b8b5e6cdfb8e735cbf9e931ccda
     log: |
-         40efc54e99837837614fac94cbc55c3d124ba9ab x86/entry/64: Add instruction suffix
-         dce3c2557fe5c59aa42127633b1fb77e50863248 ALSA: hda/ca0132 - Fix work handling in delayed HP detection
-         9b81017f1acdd8b88d9031243ec0886e4301624c ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
-         35325859ca96b9c71f9a81b73e457cacc8acdcce ALSA: usb-audio: fix sync-ep altsetting sanity check
-         5b351cc54a7ed8d6cb0ada9becbbf7cb97b6aeed ALSA: hda/realtek - Support Dell headset mode for ALC3271
-         9b1f360fcd185a8c8df5385467190bc32217b65a ALSA: hda - Fix a wrong FIXUP for alc289 on Dell machines
-         36ad3452e34540ea2a58287b0c72ea757d12278f ALSA: hda/realtek - Dell headphone has noise on unmute for ALC236
+         2dcb227fd77dd630402e295601a70f8be0a48d82 x86/entry/64: Add instruction suffix
+         b0902ee141e029ea418f95b8a41ddb63a44549eb ALSA: hda/ca0132 - Fix work handling in delayed HP detection
+         f8e9eb0e45786b9340ecc14b636896fa6f9ad7b4 ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
+         2c83cf33b58277f10b605a99227840f4771da4ca ALSA: usb-audio: fix sync-ep altsetting sanity check
+         3d6a8ac4eb02373686309ae6a47272dbcb3adb3f ALSA: hda/realtek - Support Dell headset mode for ALC3271
+         7392e5b4232b86361536b90b3e46066a83dccca5 ALSA: hda - Fix a wrong FIXUP for alc289 on Dell machines
+         61843e5e1a253b8b5e6cdfb8e735cbf9e931ccda ALSA: hda/realtek - Dell headphone has noise on unmute for ALC236
          
   - ref: refs/heads/queue/5.10
-    old: 9c0ff70fe6bb5563b7e04fe11df22504fc49c725
-    new: f8ffc5c854becbb5e2783fa260bdeadb36a45594
+    old: f8ffc5c854becbb5e2783fa260bdeadb36a45594
+    new: 643fd1458328ab62ed356ec8ef44c3ee7226543f
     log: |
-         714c8d26903c95eb3aa40664c3dc9b45ee2c900b net/sched: sch_taprio: reset child qdiscs before freeing them
-         501075583072fa9e54c4d12efb740bdfded33ac0 mptcp: fix security context on server socket
-         e35d00f7bfb88fd82e8c80136a831c2b2c9b5d7c ethtool: fix error paths in ethnl_set_channels()
-         454df7699758c313e89f42d83ea673713c38ad97 ethtool: fix string set id check
-         97c8cbe21b309074a9e023a9cfa405a1faf57bce md/raid10: initialize r10_bio->read_slot before use.
-         6b0a0479c26d6c2b88d3b35e6f923822e762ef41 drm/amd/display: Add get_dig_frontend implementation for DCEx
-         f8ffc5c854becbb5e2783fa260bdeadb36a45594 io_uring: close a small race gap for files cancel
+         b6b444bd0c30aeacffa0f79f993708139477d9a5 net/sched: sch_taprio: reset child qdiscs before freeing them
+         915d3708c54d658beadbf64e05d92155346cacf9 mptcp: fix security context on server socket
+         50b03d0c3f0e8f1b8e8363bc88d3c6ebf333381e ethtool: fix error paths in ethnl_set_channels()
+         b91b24bcdd75bebbd6ffcb34c841a5878a053326 ethtool: fix string set id check
+         6c457e6a2ec49ede7646080e139bb8d5e6de7d24 md/raid10: initialize r10_bio->read_slot before use.
+         126b82a4713348f89a660a271bb0e235bf41862d drm/amd/display: Add get_dig_frontend implementation for DCEx
+         643fd1458328ab62ed356ec8ef44c3ee7226543f io_uring: close a small race gap for files cancel
          
   - ref: refs/heads/queue/5.4
-    old: 33b4d598fc626ea93a5f7220e317d44a163e7b8a
-    new: 38dca2bcc4915c44bd19401c81fa00f79227d6d2
+    old: 38dca2bcc4915c44bd19401c81fa00f79227d6d2
+    new: ff2d8f32dba4be092150534bbcb624fc313b3bce
     log: |
-         f1448eda7cfc28414eb033aa40a4064f67f637ec net/sched: sch_taprio: reset child qdiscs before freeing them
-         9a5a490783d47519a93e71cc770c89a03943acf9 md/raid10: initialize r10_bio->read_slot before use.
-         7581ce68e2b3b627506fe9bcce9c504529dbf7b7 thermal/drivers/cpufreq_cooling: Update cpufreq_state only if state has changed
-         e047d704d3274d84f00a92a6269e91a606d89db9 ext4: prevent creating duplicate encrypted filenames
-         28db2fdef8f26a565ecfb76055d86df899dc44bd ubifs: prevent creating duplicate encrypted filenames
-         b83002359c9e981307b619c288698bfe31d2b6c8 f2fs: prevent creating duplicate encrypted filenames
-         4e83bbe6add8a17e10adcd9139c6f3cabbc825f6 fscrypt: add fscrypt_is_nokey_name()
-         38dca2bcc4915c44bd19401c81fa00f79227d6d2 fscrypt: remove kernel-internal constants from UAPI header
+         5117397a1ce722128a30e900c081e54731765005 net/sched: sch_taprio: reset child qdiscs before freeing them
+         b0278240e68f4a7a5bfb5807aa967627a94a8819 md/raid10: initialize r10_bio->read_slot before use.
+         470c8170c00bde76209e2d9089da666e84863f43 thermal/drivers/cpufreq_cooling: Update cpufreq_state only if state has changed
+         a75d168bd9f23e1b837c33fc210a3168bccb96f4 ext4: prevent creating duplicate encrypted filenames
+         4868effcf93cb98076b3766d59e549eed3125a97 ubifs: prevent creating duplicate encrypted filenames
+         83e7b652443f9221c1230f13cce9372defb6ce7a f2fs: prevent creating duplicate encrypted filenames
+         8bc754dafc4db14166042d9bf6bedd06eefd9542 fscrypt: add fscrypt_is_nokey_name()
+         ff2d8f32dba4be092150534bbcb624fc313b3bce fscrypt: remove kernel-internal constants from UAPI header
          
