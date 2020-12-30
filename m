@@ -1,47 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 30 Dec 2020 15:37:42 -0000
-Message-Id: <160934266254.21265.8157925722252694701@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9119909646873384019=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 30 Dec 2020 15:37:47 -0000
+Message-Id: <160934266753.21415.1234698279131568193@gitolite.kernel.org>
+
+--===============9119909646873384019==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: fde52923771bebf862a4ec948e34aff28e0af116
-    new: ce639bedc177dc2c308850c5262cd1b9c1e8aa11
+  - ref: refs/heads/master
+    old: c8564a788d9747699391dbdf107144a6f239d7a2
+    new: 39e30e2dd000bdb963ad9528d6344a0b3b531718
     log: |
-         f5a9ee94074f9041daedb5a84d3dfce278436235 x86/entry/64: Add instruction suffix
-         da77b118b51030d4128413553f910cc637f80b9c md/raid10: initialize r10_bio->read_slot before use.
-         7239f50f16c9662a37d213144af63b888aab81da ALSA: hda/ca0132 - Fix work handling in delayed HP detection
-         08a9d159e2c99498731bfe8521457659f39d904c ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
-         0151d8df55f1bab2495be510fe65c73eb36c2fcb ALSA: usb-audio: fix sync-ep altsetting sanity check
-         6a139caaa1c91c48c582b0ecbb50a923e2abf139 mm: memcontrol: eliminate raw access to stat and event counters
-         1f64ca485d98596a148c878b00fe55811d4ea8f8 mm: memcontrol: implement lruvec stat functions on top of each other
-         ce639bedc177dc2c308850c5262cd1b9c1e8aa11 mm: memcontrol: fix excessive complexity in memory.stat reporting
+         39e30e2dd000bdb963ad9528d6344a0b3b531718 5.4-stable patches
          
-  - ref: refs/heads/queue/4.9
-    old: 501bd4aaa73596bb70c763370dd9d7385c957746
-    new: b6f51901a89a1cb08e611b444133e7a252c3a957
-    log: |
-         b6f51901a89a1cb08e611b444133e7a252c3a957 x86/entry/64: Add instruction suffix
-         
-  - ref: refs/heads/queue/5.10
-    old: b2470879bfef9c1ced76d7a1019675f525a329fd
-    new: ccf82ad1e5d34bdb6bed84afa7f677f3ae89da1b
-    log: |
-         4df37296526f118801399bb468939b811aa8c9cd net/sched: sch_taprio: reset child qdiscs before freeing them
-         7f0a4e37b7e5bca831d95c2fc4f0f3816fdbe19b mptcp: fix security context on server socket
-         f683584856b1522174a98e8149cce8b5fece3ccc ethtool: fix error paths in ethnl_set_channels()
-         ccf82ad1e5d34bdb6bed84afa7f677f3ae89da1b ethtool: fix string set id check
-         
-  - ref: refs/heads/queue/5.4
-    old: 9abdb1d2e0e949737e473fec4dd973d5ceeaddee
-    new: 2259c4e707c20a8b93399fac417a2cbe91f3a8fe
-    log: |
-         2259c4e707c20a8b93399fac417a2cbe91f3a8fe net/sched: sch_taprio: reset child qdiscs before freeing them
-         
+
+--===============9119909646873384019==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609342755 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1609342665-b8a2933ea26187e3bd26651d9ea64310428b1be3
+
+c8564a788d9747699391dbdf107144a6f239d7a2 39e30e2dd000bdb963ad9528d6344a0b3b531718 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/snyMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LM8P+weQzqwVuQSVm6QYfyTc
+T/4JL7NQPyKP60XTl4rOMDgDC30IkOleIcXhf+wK0CnKNAvS7MV0XQ3WHAdmkV0D
+7euUoJojqxl1iXCs4NdEOEmn1LdPAVh1pLguz7XpNfOWcJ4N8JwDLi6Tyo4T+gTJ
+ocHDgAWG8hohbSo7SIvRAGgxUnaIstjnB9SzwB57R2DLdP1daTJyAVZ7P4J8JnRK
+0H4fEYhrQ+pm+kR+8MKNX2ERLGWPFprS3VOwWbC3LKl+Yp8lRyXTvIhE1/NdjHs7
+/CUkLPF/bMNlhAfTbQX0oggNqcNly7CyKUL5HcfOoocVIbiiZka7WsEQVLoSC22w
+nOYaPA+iaGpyS6H5V0PgvGwd3z3+bf7usGCyptnilRQPreaaKNnGeZ0jnmAL4Eoa
+e+Ssjjv3YJ00RrmI+1SsfdfNsdAFWusho7L0oVqv57oAheu1ktt55Fhp2yNP+hCp
+lqjp+cfvFw0OXDtsRJJ5FM71W5LW6vCOkn7Bll4AMC1XOFuYviZZJBawz3SUtN1D
+5UwXm6BeaaTBzg5bRLrXidkhr9g9yEbtPnyW2ByWf3GskQWxIuGn59LXyFkPMRh3
+6Qv+NfryamrFzBx3uGUO6sGHzte+gbujuE6C3k63S4OZmf4UWPJE/2iiUNnX97h7
+HNpF5VZ61MLwNEl1L2A2UTCd
+=lHXW
+-----END PGP SIGNATURE-----
+
+--===============9119909646873384019==--
