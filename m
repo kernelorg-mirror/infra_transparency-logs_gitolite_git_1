@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 30 Dec 2020 09:40:35 -0000
-Message-Id: <160932123586.12648.14342993273515937113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Wed, 30 Dec 2020 10:22:00 -0000
+Message-Id: <160932372088.4401.8576170575383672717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/master
-    old: c55f66855eccfcd92b35fe7b13a326121f2ee0fd
-    new: 5bd94cbd319465cb384c3f129839bda604c67055
+  - ref: refs/heads/renesas/la-prototype
+    old: c1616510212762850e1741ca591327fdc869b9bb
+    new: db88d06ba9e8870e36dcca0db55c20596e646788
     log: |
-         0580884cc7c050b21aec369d5182a9fa2b267f16 signal.7: tfix
-         6a0aa2ecb1816ced5831a7616cb9d24029a9102c cgroups.7: tfix
-         704b5ab54c25e6c60abec2e599eb597e79e32ac7 ftime.3: tfix
-         5bd94cbd319465cb384c3f129839bda604c67055 filesystems.5: tfix
+         a9653339541757152780b0bd4d4bfcee0770b522 DTS
+         cd5ffd10a2518a45fc6c90e746ffdf4fdefa0558 driver
+         82862444ddf0887efd2b418968d747ff730afcc2 userspace
+         db88d06ba9e8870e36dcca0db55c20596e646788 la-poll
          
