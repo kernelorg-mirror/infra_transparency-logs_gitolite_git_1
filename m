@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2524170760434311512=="
+Content-Type: multipart/mixed; boundary="===============2956385648000643608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 30 Dec 2020 08:06:23 -0000
-Message-Id: <160931558365.2798.5571280173929335204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Wed, 30 Dec 2020 08:16:44 -0000
+Message-Id: <160931620414.8197.11218282866081174062@gitolite.kernel.org>
 
---===============2524170760434311512==
+--===============2956385648000643608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: 9a02fd8b19247e80e2354a227b6e2392e8fae78a
-    new: 3052636aa9aa2492ccac973449be63cae5b93a67
-    log: revlist-9a02fd8b1924-3052636aa9aa.txt
+  - ref: refs/heads/edac-misc
+    old: 706657b1febf446a9ba37dc51b89f46604f57ee9
+    new: e0e0427412d0f374461a5294efc161e00df4be53
+    log: revlist-706657b1febf-e0e0427412d0.txt
 
---===============2524170760434311512==
+--===============2956385648000643608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a02fd8b1924-3052636aa9aa.txt
+Content-Disposition: attachment; filename=revlist-706657b1febf-e0e0427412d0.txt
 
 214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
 4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
@@ -1049,6 +1049,6 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
-3052636aa9aa2492ccac973449be63cae5b93a67 x86/mtrr: Convert comma to semicolon
+e0e0427412d0f374461a5294efc161e00df4be53 EDAC/ppc4xx: Convert comma to semicolon
 
---===============2524170760434311512==--
+--===============2956385648000643608==--
