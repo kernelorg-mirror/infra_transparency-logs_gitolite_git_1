@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 30 Dec 2020 10:57:15 -0000
-Message-Id: <160932583528.1369.7154371253723719186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 30 Dec 2020 11:13:13 -0000
+Message-Id: <160932679329.28356.7602142800351571920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/queue/4.14
-    old: cf321ab7e939d3111803afe029f34079081817ef
-    new: 206614bb7fcd218662ecf86603f3c61c792b9cf1
+  - ref: refs/heads/master
+    old: 1173fb292bae23f5e1a2bb6a95f4eca9b6725b30
+    new: ae0e95a3f49d2fe64920d6af3a85f409bb44e47b
     log: |
-         206614bb7fcd218662ecf86603f3c61c792b9cf1 x86/entry/64: Add instruction suffix
-         
-  - ref: refs/heads/queue/4.9
-    old: c05affe3fe1dce4f0d58200f4ee80c18e41a1684
-    new: a4e3211e18157f4e871841152072ad44811d1448
-    log: |
-         a4e3211e18157f4e871841152072ad44811d1448 x86/entry/64: Add instruction suffix
+         3052636aa9aa2492ccac973449be63cae5b93a67 x86/mtrr: Convert comma to semicolon
+         bdb154f074a6d73d520b1fdee6b4143e2e311dfb x86/platform/intel-mid: Convert comma to semicolon
+         87d8099939e57d89bc766eda067bfe9986b762e9 Merge branch 'x86/platform'
+         ae0e95a3f49d2fe64920d6af3a85f409bb44e47b Merge branch 'x86/cleanups'
          
