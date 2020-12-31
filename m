@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 31 Dec 2020 07:06:46 -0000
-Message-Id: <160939840637.19859.8420629666315892122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/linux-actions
+Date: Thu, 31 Dec 2020 07:42:55 -0000
+Message-Id: <160940057528.8645.2570969398837973603@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/mani/linux-actions
+user: mani
 changes:
-  - ref: refs/heads/experimental-bigpcluster
+  - ref: refs/heads/v5.12/dt
     old: 0000000000000000000000000000000000000000
-    new: f0441c21685045b16f996d55efbb4ea207fd1653
+    new: 7b69552264aca925e8550324027e4f10f8bf8c4f
