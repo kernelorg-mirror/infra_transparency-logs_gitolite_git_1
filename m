@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0366406475227524060=="
+Content-Type: multipart/mixed; boundary="===============1938033192476694134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 31 Dec 2020 09:31:08 -0000
-Message-Id: <160940706845.28225.3637191465977570871@gitolite.kernel.org>
+Message-Id: <160940706851.28235.6478996072099406987@gitolite.kernel.org>
 
---===============0366406475227524060==
+--===============1938033192476694134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,24 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: b1313fe517ca3703119dcc99ef3bbf75ab42bcfb
-    new: bba563915bcc24a0ad424c454541695328b8acc3
-    log: |
-         b164ab57cc05ce685d8beffbd50826e676b1ac44 net/sched: sch_taprio: reset child qdiscs before freeing them
-         4cc0745ab8338ee87e904bf1877bd9575613bdd4 mptcp: fix security context on server socket
-         91aef4407f00fc29a78713d38fd95cc9e51633a2 ethtool: fix error paths in ethnl_set_channels()
-         b49cf3ac1df55072528ca979a96c2f8645788bce ethtool: fix string set id check
-         dbeb645a5fcd0e0d5c5fb6906c391d7170683634 md/raid10: initialize r10_bio->read_slot before use.
-         c40a2ae2dec2f2ad173b32e91efd694f718f6031 drm/amd/display: Add get_dig_frontend implementation for DCEx
-         05473018cff36ce1c85aa0f24fa76ee389995666 io_uring: close a small race gap for files cancel
-         049bb12da98c25623a14ba61204c69f7f6f07b03 jffs2: Allow setting rp_size to zero during remounting
-         33c0effe3842903d32bca46698d9fd215f446dd2 jffs2: Fix NULL pointer dereference in rp_size fs option parsing
-         611603d3ebeaad2b8c618a57ea38a3345fc67564 spi: dw-bt1: Fix undefined devm_mux_control_get symbol
-         bba563915bcc24a0ad424c454541695328b8acc3 Linux 5.10.5-rc1
-         
+  - ref: refs/heads/linux-4.14.y
+    old: 1752938529c614a8ed4432ecce6ebc95d3b87207
+    new: d60616861892f333df4f7aa75bd7daacccd12418
+    log: revlist-1752938529c6-d60616861892.txt
 
---===============0366406475227524060==
+--===============1938033192476694134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,23 +32,43 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609407154 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1609407066-aadbfdfc8f40182bc88af238e3d55b6aab5f58a7
 
-b1313fe517ca3703119dcc99ef3bbf75ab42bcfb bba563915bcc24a0ad424c454541695328b8acc3 refs/heads/linux-5.10.y
+1752938529c614a8ed4432ecce6ebc95d3b87207 d60616861892f333df4f7aa75bd7daacccd12418 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/tmrIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5IAQAJTTG67RVPaHpicVRIWk
-Sl9ej7Wg2IMjL5wwxvWVrhslxdHiOFtIvnJGwatEzlVSg13yS7tU7+MTF1atCPzL
-gER5Fhee4pefc7o1Q42076/pxTbmQcjyXg+RosUc9XiZ2RYnqfZYgRl8OCTq2j9O
-qEdeu8JpPhsI+ngtgmoLUrE8HYaY07+UL81/shQq/ijnQxkQ/UY+v24P2FvPyZKE
-0fed6bEFr80sYeNIH0ji2M6vXI6fWp2BUtmFpdTjbf2GBfc4V/AcIr+cb97otfhJ
-0PpArA/nw0JUsIBjZLfLGhWmk6ihkWRmUtfzjqDr9yEHsErPXNBxt7aJrc3x7XOb
-pMJ9wcw3g2l41ti2X9jtSlERs0P+hQ0nKFZNpBmppCaaGhsI1GNqHd6+j7O/WW0J
-fpm2Lk3uI1BTDJ1wKPamrOq21UzNLbL9SKYXE2T52MuJp7UuuIsB0DbEmPzhOMb5
-b9IEjWhPiMhDH+5MufXG1hEU32X2IaTcp+vCDF+VcMTw3JHjHLE3vKmuJNU4F8lW
-+JkH5Wk7NfD+/1a9s0b++W4q1wdqMG87IeeG+Xi5BO9IoDFb0wG3GfKaqjSxIb//
-tFE05ZKAkYoUllqKulynXeEcnRWw4vUVgpTo/s8M6qjzx0HzOWol09Y1iVK5Ag2x
-gjCnTGg/+8kONpCR9gUtpZ2T
-=bt14
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7WAP/A38PbLUT8fAWdvjCEab
+qKL2/gcnzJFhnirIcDJdxfs6AMUZQt6gAPHIWxl8L8VllftThsDv4nzRYLzY9Nok
+J3NT8h+fUFlki7HF8rjkm30jTDKELySVQfuOUovUUJN6A639WO+UnS2yzzHsLg/N
+J+s3hX/kRXmmga+NMI2oX1Pqyg5LF2YzfkAufoIVC1eG1hm+vJnIwV4BRFqYPEZA
+vOwUyESUgAIHbbZAqZa8aNE40iJS0rCAMc8WHxbuZ92tK5QL99AdBOG3/mXcO5Fl
+P8MSC+jJU9KsnQwZy/iGTLcYur+M3WnfX4wtfSAYHJ9Ua0KyDaRjPmk7QeIT3MLy
+KC3A7L3w9R6AypmfL2Om7jlcO51C6WrCOWaSREG6pE+dS21FiwLMM+xsz1NYuf5I
+UAXpeoI7rzZFrBUiGHkHIz4/v/4vgPf4o3w7ivYA0egA8u0ebXFJLLUNnSCtZV//
+u+s8tmQ81szcxFBCiQg/UZ3tlhB+YZRl7UQFZB+e1DK2J6wJC7y/VB2ceiGCDNk3
+ndjGjdcGgsy4E6wB0FI6XEg9djviFnXdySIjETxa5xd2ytxYZ78GzJ1nbcmitiL4
+N8lYlpyjSmNVF2iTXvKeFcE92byl+/KQzveAKnLunkw1y+9wv/EAD7/bAiU3Xouz
+ChnFmOnJcMA1DpZHeOmQ95a3
+=07L3
 -----END PGP SIGNATURE-----
 
---===============0366406475227524060==--
+--===============1938033192476694134==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1752938529c6-d60616861892.txt
+
+be35fdad44169f1dbd445833fd796d0ff1b1d67d x86/entry/64: Add instruction suffix
+5635f5066eb417cb31ce8a7ba2768f66a916e5e4 md/raid10: initialize r10_bio->read_slot before use.
+13bd466756b785c2fbf7a6c07956dc7cbc04d169 ALSA: hda/ca0132 - Fix work handling in delayed HP detection
+287adcd51d1ba485a705b1304b4d5a0f4adf676b ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
+63c3ac35cda3267f81f3bce97b2573b92949d313 ALSA: usb-audio: fix sync-ep altsetting sanity check
+67e78e2fc557f6bc98d14c8db3738e2d7176eb41 mm: memcontrol: eliminate raw access to stat and event counters
+60b3b35a9757e238027eeb78ba775bab593906f9 mm: memcontrol: implement lruvec stat functions on top of each other
+54a383712cb3f5b9412e39723e2978e77bcc442a mm: memcontrol: fix excessive complexity in memory.stat reporting
+7e2573a11eae443c40d6b1e0b8a0d7fccdca4c9b vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
+2171fa713ed10c3e8e003e044df262a15a597b8a s390/dasd: fix hanging device offline processing
+fcb1d0ffeb5893817df57439f54809c0d0c55c15 USB: serial: digi_acceleport: fix write-wakeup deadlocks
+c2e6281e642648796b4192e467f79c80b118d2f9 powerpc/bitops: Fix possible undefined behaviour with fls() and fls64()
+d60616861892f333df4f7aa75bd7daacccd12418 Linux 4.14.214-rc1
+
+--===============1938033192476694134==--
