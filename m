@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse
-Date: Thu, 31 Dec 2020 14:10:29 -0000
-Message-Id: <160942382906.10307.9964277535581595760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Thu, 31 Dec 2020 14:54:26 -0000
+Message-Id: <160942646644.5058.8691316055422920163@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse
-user: lucvoo
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/master
-    old: 1b896707d95982c7c9cdd5cd0ab4afd80f766a94
-    new: 10283ac0f48df99e02a5cb16a423972ae42de00d
+  - ref: refs/heads/for-next
+    old: c2af4bc4f3a0b8dbd1add9f447f9e66d1b7669da
+    new: 5a67b79045e65cf3b8797b3049e40aeb1f43ec39
     log: |
-         2272cfe11fc7a34553013a0322b027dadc477064 shrink struct BB
-         da9b52ecbc38916b3c58b68a9a98f94c6fc8c438 ptrlist: avoid mixing reverse and non-reverse macros
-         6956d2711272f2781690a79bae5bfa5ca3dada2e add helper has_definition()
-         f554ff373bfd3914fa68b4983fd8f351840e70d8 fix rem_usage()
-         10283ac0f48df99e02a5cb16a423972ae42de00d Merge branches 'fix-rem-usage', 'ptrlist-no-mix' and 'diet-bb' into next
+         2a6fe26ccf0bcebf469887bcc7c382d076751f4c gfs2: make gfs2_log_write_page static
+         5a67b79045e65cf3b8797b3049e40aeb1f43ec39 gfs2: make recovery workqueue operate on a gfs2 mount point, not journal
          
