@@ -1,31 +1,97 @@
-Content-Type: multipart/mixed; boundary="===============8342910947751752682=="
+Content-Type: multipart/mixed; boundary="===============5603415039347316554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 31 Dec 2020 10:45:16 -0000
-Message-Id: <160941151683.9558.16998968511122191817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 31 Dec 2020 10:49:11 -0000
+Message-Id: <160941175154.10703.11969206153637456848@gitolite.kernel.org>
 
---===============8342910947751752682==
+--===============5603415039347316554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/kvm-arm64/nv-5.11-WIP
-    old: de2fbaa4bf540fa3627e72e35a7c3a4315509e05
-    new: f44f1377b852aadc627937913781ab57a5753e87
-    log: revlist-de2fbaa4bf54-f44f1377b852.txt
+  - ref: refs/heads/x86/microcode
+    old: 880396c86a1f3663c22b74fef34353f05a1263ec
+    new: c769dcd423785703f17ca0a99925a7f9d84b3cbc
+    log: revlist-880396c86a1f-c769dcd42378.txt
 
---===============8342910947751752682==
+--===============5603415039347316554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de2fbaa4bf54-f44f1377b852.txt
+Content-Disposition: attachment; filename=revlist-880396c86a1f-c769dcd42378.txt
 
+214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
+4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
+6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
+36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
+03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
+5d37fc0b087fb276a257034c5a1dfdbfaa08be66 ia64: remove 'ifdef CONFIG_ZONE_DMA32' statements
+b90b5547685ffe2b30522b81a1c9f6c35e1152de ia64: discontig: paging_init(): remove local max_pfn calculation
+1f112129975e7a47324ba71b00e8e2c962177843 ia64: split virtual map initialization out of paging_init()
+ea34f78f3df62e531cf2beca997ff6bfae2b1e0d ia64: forbid using VIRTUAL_MEM_MAP with FLATMEM
+214496cb18700fd7c5206ac33768876dbf68b4df ia64: make SPARSEMEM default and disable DISCONTIGMEM
+5e545df3292fbd3d5963c68980f1527ead2a2b3f arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
+4f5b0c1789963477cc9a4d45b4b62d694665cceb arm, arm64: move free_unused_memmap() to generic mm
+050b2da268f8fc4f8123f6462c430a61547b2f7b arc: use FLATMEM with freeing of unused memory map instead of DISCONTIGMEM
+6b2ad8d763727b887d85c990747271ee804d9abb m68k/mm: make node data and node setup depend on CONFIG_DISCONTIGMEM
+4bfc848e0981fcd35db00fe1c6581560689f6dc7 m68k/mm: enable use of generic memory_model.h for !DISCONTIGMEM
+fcd353a314213534d04193eea0bc54c4b7a3e1b0 m68k: deprecate DISCONTIGMEM
+77bc7fd607dee2ffb28daff6d0dd8ae42af61ea8 mm: introduce debug_pagealloc_{map,unmap}_pages() helpers
+2abf962a8d42b32f5ffeb827826290b799c85f86 PM: hibernate: make direct map manipulations more explicit
+5d6ad668f31625c6aa9ed8dc3bdb29561d2b1144 arch, mm: restore dependency of __kernel_map_pages() on DEBUG_PAGEALLOC
+32a0de886eb3cb7e6990da27a9cdfa50baa8be64 arch, mm: make kernel_page_present() always available
+7115ac6ef0b26017676e88a44a0b40c2d1d99299 mm, page_alloc: clean up pageset high and batch update
+0a8b4f1d5bf4108cfd2877223bf125b1fa1dc4b1 mm, page_alloc: calculate pageset high and batch once per zone
+69a8396a2647feac197497bd992f0a91da9fd801 mm, page_alloc: remove setup_pageset()
+5c3ad2eb7104754a36580079a2e4aed04a10631d mm, page_alloc: simplify pageset_update()
+952eaf815925f106eb6b68346b3458a68bb18ec1 mm, page_alloc: cache pageset high and batch in struct zone
+7612921f2376d51d020ae2f06ffb7da40422b75b mm, page_alloc: move draining pcplists to page isolation users
+ec6e8c7e03147c65380e6c04c4cf4290e96280b6 mm, page_alloc: disable pcplists during memory offline
+2ee08717da50160c20056f6d6b76afdf65db33ab include/linux/page-flags.h: remove unused __[Set|Clear]PagePrivate
+3b12da6d1d4adff087939c071e0d74a7857439a0 mm/page-flags: fix comment
+7f194fbb2dd75e9346b305b8902e177b423b1062 mm/page_alloc: add __free_pages() documentation
+3b1f3658c71a0aea9c1a33879f904e2e4f3aba78 mm/page_alloc: mark some symbols with static keyword
+862b6dee20b0db2ebaa728c302a1b296ff144de3 mm/page_alloc: clear all pages in post_alloc_hook() with init_on_alloc=1
+ba8f3587f55667c688acd7c5103c870983e294dd init/main: fix broken buffer_init when DEFERRED_STRUCT_PAGE_INIT set
+470c61d70299b1826f56ff5fede10786798e3c14 mm: page_alloc: refactor setup_per_zone_lowmem_reserve()
+7ad69832f37e3cea8557db6df7c793905f1135e8 mm/page_alloc: speed up the iteration of max_order
+17e395b60f5b3dea204fcae60c7b38e84a00d87a mm,hwpoison: drain pcplists before bailing out for non-buddy zero-refcount page
+a8b2c2ce89d4e01062de69b89cafad97cd0fc01b mm,hwpoison: take free pages off the buddy freelists
+32409cba3f66810626c1c15b728c31968d6bfa92 mm,hwpoison: drop unneeded pcplist draining
+8295d535e2aa198bdf65a4045d622df38955ffe2 mm,hwpoison: refactor get_any_page
+2f7141600d67969f444c344481d4d9ce546d0114 mm,hwpoison: disable pcplists before grabbing a refcount
+47e431f43b5d879f04a2df645366ca007351ffff mm,hwpoison: remove drain_all_pages from shake_page
+1e8aaedb182d6ddffc894b832e4962629907b3e0 mm,memory_failure: always pin the page in madvise_inject_error
+3f4b815a439adfb8f238335612c4b28bc10084d8 mm,hwpoison: return -EBUSY when migration fails
+e5dfacebe4a47fc9e4dd25246ed3599d60122e38 mm/hugetlb.c: just use put_page_testzero() instead of page_count()
+ebfe1b8f6ea5d83d8c1aa18ddd8ede432a7414e7 include/linux/huge_mm.h: remove extern keyword
+336e6b53d99ae32ee35c1a7d3d0f99db22e1ff51 khugepaged: add parameter explanations for kernel-doc markup
+0a4f3d1bb91cac4efdd780373638b6a1a4c24c51 mm: hugetlb: fix type of delta parameter and related local variables in gather_surplus_pages()
+39a0feaef1105d79028fac3078e3c67e137ce98d mm,hugetlb: remove unneeded initialization
+7fc2513aa237e2ce239ab54d7b04d1d79b317110 hugetlb: fix an error code in hugetlb_reserve_pages()
+597c892038e08098b17ccfe65afd9677e6979800 mm: don't wake kswapd prematurely when watermark boosting is disabled
+2b47a24cee0eedbb9b106ef3e992db0ddf48f740 mm/vmscan: drop unneeded assignment in kswapd()
+8d87d07c9283b45fd50f15d488368d0be6492a17 mm/vmscan.c: remove the filename in the top of file comment
+2484be0f88dc6c9670362d51f6a04f2da0626b50 mm/page_isolation: do not isolate the max order page
+fc5488651c7d840c9cad9b0f273f2f31bd03413a z3fold: simplify freeing slots
+dcf5aedb24f899d537e21c18ea552c780598d352 z3fold: stricter locking and more careful reclaim
+135f97fd0c398f20a544cc52c3f8a3cb925a8aef z3fold: remove preempt disabled sections for RT
+19d3cf9de1c72fd1adaa1d68aa40d74a35688404 mm/compaction: rename 'start_pfn' to 'iteration_start_pfn' in compact_zone()
+2b1a20c3afbc0279cbe57b0f19748081eba0881b mm/compaction: move compaction_suitable's comment to right place
+2271b016bf368d19d60531dd5ddd4375b4dae0ab mm/compaction: make defer_compaction and compaction_deferred static
+259b3633e78d627353d49b1eb226d72b2ac588da mm/oom_kill: change comment and rename is_dump_unreclaim_slabs()
+ab9dd4f8a1675b86b64a7d1f421c25182819f7a2 mm/migrate.c: fix comment spelling
+5e5dda81a0dfb82de1757ab878d9ffd2339c9b2a mm/migrate.c: optimize migrate_vma_pages() mmu notifier
+0060ef3b4e6dd1410da164d48a595eadb2fb02f7 mm: support THPs in zero_user_segments
+d12b8951ad17cd845c7e674a839af84844954706 mm: truncate_complete_page() does not exist any more
+dd4ae78a21fc05d91d841e499dddd057ad64a4df mm: migrate: simplify the logic for handling permanent failure
+c77c5cbafe549eb330e8909861a3e16cbda2c848 mm: migrate: skip shared exec THP for NUMA balancing
 236c32eb109696590b7428957eda50cc05e22af8 mm: migrate: clean up migrate_prep{_local}
 d532e2e57e3c53ce74e519a07d7d2244482b7bd8 mm: migrate: return -ENOSYS if THP migration is unsupported
 d85c6db4cc61bd8299f68534bf7ea2f717f49539 mm: migrate: remove unused parameter in migrate_vma_insert_page()
@@ -983,72 +1049,6 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
-317327e5b458faf5e9757b4a4b60f47cc51451cc arm64: Add ARM64_HAS_NESTED_VIRT cpufeature
-08848d350ac05be59269f1d92686a2e295b656e5 KVM: arm64: nv: Introduce nested virtualization VCPU feature
-907c73e3dab7c60768745668eaf6baaf8d72a198 KVM: arm64: nv: Reset VCPU to EL2 registers if VCPU nested virt is set
-7acec615d284acc29562e20ad2eb929589633104 KVM: arm64: nv: Allow userspace to set PSR_MODE_EL2x
-8deb6a401e5ddd78742c52fbbdae247e6bfc594a KVM: arm64: nv: Add EL2 system registers to vcpu context
-6c67f02cfc817fcf7f3f385ea5a2133e6e8dc655 KVM: arm64: nv: Add nested virt VCPU primitives for vEL2 VCPU state
-e7eb4059394f4844a72cdac510889101b707394b KVM: arm64: nv: Handle HCR_EL2.NV system register traps
-d342b7f410731718ab00f6a2c469604b8e0865b1 KVM: arm64: nv: Reset VMPIDR_EL2 and VPIDR_EL2 to sane values
-56486cc979dcd4129bfb7e1ec2126ba48b6e1f9d KVM: arm64: nv: Support virtual EL2 exceptions
-8049a00ef6dc9cfe9cb8922b62f65a9e2eb99aa2 KVM: arm64: nv: Inject HVC exceptions to the virtual EL2
-139477fe2cea110f7c604c18bdbd28328aff2fa5 KVM: arm64: nv: Handle trapped ERET from virtual EL2
-07e450a32a3f7483e676038cd56b33b451de5cbc KVM: arm64: nv: Add non-VHE-EL2->EL1 translation helpers
-dd3777d5fe541f65591ae1e3d2b911a52b08f026 KVM: arm64: nv: Handle virtual EL2 registers in vcpu_read/write_sys_reg()
-09865d66dfabd9fa19a87efa0a848386300d2980 KVM: arm64: nv: Handle SPSR_EL2 specially
-4d7d7cd873911e7f0e0aa1e4d572109fb3c38e06 KVM: arm64: nv: Handle HCR_EL2.E2H specially
-44fce35cafab01d7e77cf63617a2183ff1cc8069 KVM: arm64: nv: Save/Restore vEL2 sysregs
-e40ea36c7479f88149f3d7ca14edc144555ae6b6 KVM: arm64: nv: Emulate PSTATE.M for a guest hypervisor
-986e7642994c7a84679f694b610aa80269623176 KVM: arm64: nv: Trap EL1 VM register accesses in virtual EL2
-c7d4a1b63c71fbeead7b677f0d77a9d577c04dbf KVM: arm64: nv: Trap SPSR_EL1, ELR_EL1 and VBAR_EL1 from virtual EL2
-f2425fbd8332281af9b07bdf105da151c3c23eec KVM: arm64: nv: Trap CPACR_EL1 access in virtual EL2
-97ff2fe10fbb3736dfa5954b656f274104275c73 KVM: arm64: nv: Handle PSCI call via smc from the guest
-585533a6b2c8046e72ac29a9fee0a970c1f2faf1 KVM: arm64: nv: Respect virtual HCR_EL2.TWX setting
-e31bfe04440ff2a7ffbe1fc137f305237d655f31 KVM: arm64: nv: Respect virtual CPTR_EL2.{TFP,FPEN} settings
-0b0bed01c1369645819b7dc0f7030fdaa4dbfe47 KVM: arm64: nv: Respect the virtual HCR_EL2.NV bit setting
-d9ed872e1628a55d1684ba24976c291d717f14d1 KVM: arm64: nv: Respect virtual HCR_EL2.TVM and TRVM settings
-879890077173d7580da12543ef1dab80052db0f3 KVM: arm64: nv: Respect the virtual HCR_EL2.NV1 bit setting
-46bf3cfe4edbcd0af93b1cfea8f6b274a847e9c9 KVM: arm64: nv: Emulate EL12 register accesses from the virtual EL2
-68cb0a91f15b6247c4aa0b55f02b814bb09f7ecb KVM: arm64: nv: Forward debug traps to the nested guest
-969b0b48410fe94404bc17e72266231491b3b19e KVM: arm64: nv: Configure HCR_EL2 for nested virtualization
-2ba0d81b56999a1c180f16835dfe87cf244391ca KVM: arm64: nv: Only toggle cache for virtual EL2 when SCTLR_EL2 changes
-21f57fb4fa8678c17d7e92514ff77dd54da31ed0 KVM: arm64: nv: Filter out unsupported features from ID regs
-f09218f038a4892e8268447ca6c21c4288010d0f KVM: arm64: nv: Hide RAS from nested guests
-6fc7c5a2a54b7e36a2c7b2d1f4a28e2728107812 KVM: arm64: nv: Support multiple nested Stage-2 mmu structures
-5ecea7a4eb001b02bc313309c2da9c02d95cc255 KVM: arm64: nv: Implement nested Stage-2 page table walk logic
-a7a8f430b8d15f743db13ce979d1c7661433a424 KVM: arm64: nv: Handle shadow stage 2 page faults
-916ae93d5a9adea1c8fe70e58180dc76dfb91fc7 KVM: arm64: nv: Restrict S2 RD/WR permissions to match the guest's
-d20984e151333a34160fee5538e3ead8f734f952 KVM: arm64: nv: Unmap/flush shadow stage 2 page tables
-f5ea5c50475f6c9ff13f3eacc44fd8897c9de444 KVM: arm64: nv: Introduce sys_reg_desc.forward_trap
-2f1afb82cf0064338db3e60233e2d0cba7825e91 KVM: arm64: nv: Set a handler for the system instruction traps
-4f3a7d5f9adb62a501fd4c42e9b039f45469cf57 KVM: arm64: nv: Trap and emulate AT instructions from virtual EL2
-896cf0960abd0cf23651f1e3ac642e4e3851c2bd KVM: arm64: nv: Trap and emulate TLBI instructions from virtual EL2
-bc7947a55dae7030a90ae36fb7f22fa9b07619b2 KVM: arm64: nv: Fold guest's HCR_EL2 configuration into the host's
-f0d361a5e8e8886ca6d45937a90f688974df30ec KVM: arm64: nv: arch_timer: Support hyp timer emulation
-e192afc7c3940749ba02930f348ced1e60dcefa6 KVM: arm64: nv: Add handling of EL2-specific timer registers
-a5ff0e192abb12ba9189a4e9729c50ebf66850df KVM: arm64: nv: Load timer before the GIC
-472353d1d7e7479a3b1a39a5f6d96d97b6de0ad3 KVM: arm64: nv: Nested GICv3 Support
-abfb8281498877175ee3e5abab6a08f6285541c1 KVM: arm64: nv: Don't load the GICv4 context on entering a nested guest
-0583b1cf11f2eda1f3aeaa017889cf69f3d16bda KVM: arm64: nv: vgic: Emulate the HW bit in software
-22c7f8e8f62e74d94c2cb67e0b90ec47e02e305b KVM: arm64: nv: vgic: Allow userland to set VGIC maintenance IRQ
-681e65c83630ee885c65d183aada4b3b1c493391 KVM: arm64: nv: Implement maintenance interrupt forwarding
-47f75d15f0bc7c8d0cdfd013e74ac12d2418b62c KVM: arm64: nv: Add nested GICv3 tracepoints
-45a898d33dcb04833ab2b3867a7cee908e64ed74 KVM: arm64: nv: Allow userspace to request KVM_ARM_VCPU_NESTED_VIRT
-1ef73787209dff951ab008b8cffaa692b004edf8 KVM: arm64: nv: Add handling of ARMv8.4-TTL TLB invalidation
-8757267429e084f77679d1076920ec072a65f3e2 KVM: arm64: nv: Invalidate TLBs based on shadow S2 TTL-like information
-715ee3d2e260ad43f9ec743b7786195da9d3d6e1 KVM: arm64: Allow populating S2 SW bits
-1d1bbd8272407e9105f40efbe616f1259b54d9f1 KVM: arm64: nv: Tag shadow S2 entries with nested level
-aeea08e4b243e0c95ecc21425447874c9495f64d KVM: arm64: nv: Add include containing the VNCR_EL2 offsets
-bd6d6e13edf6647a25e7a80ccbf547fc1fe1c6d7 KVM: arm64: Map VNCR-capable registers to a separate page
-114289eb679ec9fc291c4fba315dcf1936a450c1 KVM: arm64: nv: Move nested vgic state into the sysreg file
-ff044f62e83f704299255be835e2c14ef84265bd KVM: arm64: Add ARMv8.4 Enhanced Nested Virt cpufeature
-a17e3ee32d7f96009812b0592f82121d314ed1f4 KVM: arm64: nv: Synchronize PSTATE early on exit
-7995e094a9dd8f53ae431b9810698c4840b4cb8c KVM: arm64: nv: Sync nested timer state with ARMv8.4
-104449441abacbc9a21e5aff25d66a1d83d6fc6e KVM: arm64: nv: Allocate VNCR page when required
-aafadb8801de0425583788aec2009cb785c1d98b KVM: arm64: nv: Enable ARMv8.4-NV support
-882186121e2004f80c1d8146600bf174b42a0928 KVM: arm64: nv: Fast-track 'InHost' exception returns
-4c1942db301b84e2ef754af4236990c5381660d4 KVM: arm64: nv: Fast-track EL1 TLBIs for VHE guests
-f44f1377b852aadc627937913781ab57a5753e87 KVM: arm64: Check sys_reg access context
+c769dcd423785703f17ca0a99925a7f9d84b3cbc x86/microcode: Make microcode_init() static
 
---===============8342910947751752682==--
+--===============5603415039347316554==--
