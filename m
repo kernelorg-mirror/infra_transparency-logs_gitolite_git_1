@@ -1,50 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8347231637471210004=="
+Content-Type: multipart/mixed; boundary="===============7703062535753283335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 31 Dec 2020 13:27:21 -0000
-Message-Id: <160942124181.13105.7882207299456512149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 31 Dec 2020 13:27:28 -0000
+Message-Id: <160942124829.13212.15904573761648528873@gitolite.kernel.org>
 
---===============8347231637471210004==
+--===============7703062535753283335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.12
-    old: 9351ab8b0cb61ffbef30343d28d1855e329c98fb
-    new: 3b15ccac161aa61511561fa2a76cd9677563d22f
+  - ref: refs/heads/for-5.11
+    old: ede090f5a438e97d0586f64067bbb956e30a2a31
+    new: 6820e812dafb4258bc14692f686eec5bde6fba86
     log: |
-         3b15ccac161aa61511561fa2a76cd9677563d22f regulator: Add regulator driver for ATC260x PMICs
+         6820e812dafb4258bc14692f686eec5bde6fba86 spi: Fix the clamping of spi->max_speed_hz
+         
+  - ref: refs/heads/for-5.12
+    old: ffe9819b6766b9a623822f3427df4953ab448127
+    new: 9584fc95cadc0b86e5e01cefcff0ab2b31ee3a5b
+    log: |
+         9584fc95cadc0b86e5e01cefcff0ab2b31ee3a5b spi: rpc-if: Remove CONFIG_PM_SLEEP ifdefery
          
 
---===============8347231637471210004==
+--===============7703062535753283335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1609421219 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1609421239-5bc7ccbe3f9a47b1715fa03e0bcef38028d806d1
+pusher C3F436CA30F5D8EB 1609421225 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1609421246-170b116dc6bb61b38aebfc35323e4812a514ae1d
 
-9351ab8b0cb61ffbef30343d28d1855e329c98fb 3b15ccac161aa61511561fa2a76cd9677563d22f refs/heads/regulator-5.12
+ede090f5a438e97d0586f64067bbb956e30a2a31 6820e812dafb4258bc14692f686eec5bde6fba86 refs/heads/for-5.11
+ffe9819b6766b9a623822f3427df4953ab448127 9584fc95cadc0b86e5e01cefcff0ab2b31ee3a5b refs/heads/for-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/t0aMACgkQJNaLcl1U
-h9DHBwf/VyqMKzIH2b/iP+2SpH0RzQxJ7Hp+PN4fLxKjEkGylKkYz3fyauDP4Fgr
-1h7qOeYdBrMsiPYRLLf42fKMbiK6wna7rP2t6Ox3daT26aHQ7vhE7OSEU/xGYW8O
-ZXvOPg+Lj0durg1Q4H4DQuZslPw5mv7xrLMofJNmlUp3fyBDZP4eZPy/Wf/sBigt
-1DssEGNVVhWLRdZC8iNaMgbuNzPlJwI3lfkvbbkmktiSXHd+JxPiKjHq3rHoeFeD
-3rH4xx2zZaQM5R6fq1TPZ06o9cCU/Bh92FxF+1G4LGhQrENWc+zW+va6N/57dRmC
-uYJ9CZpiqhbA8P3CvkyGmHFCpE+MqA==
-=+Tnd
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/t0akACgkQJNaLcl1U
+h9COpQf/ZLuGK5ziBqBvOTyW6ee99mgoOJmk7s3WRTVAFvwTyoSx+2JPScE+2C6n
+ugcGsB8R3iczSS3g7MKho3WTwCUgMXtK46kDHEX2lSq63FsUWFwqkSfFqZwXLXkd
+hIt756ZNXQDO3o8ze8ceAHvUzbFaWn3/ReWDjk71tryOIsUA9tgdi8/O2owmch1O
+668Tr8mk203NK4IrgvWK6ih9MCR1GQbLwFcjfkY0jjYb/T+NcRNomFAoAF+DWg3h
+X+bdv5boJAlrzQTAFiayUC3pSW8G0WdWL4RxRrVHULls7az2QK+QGpTruqoYoPiz
+jtKYt9DJbYtg9zrYuSPIxGigrtPVCg==
+=PLyG
 -----END PGP SIGNATURE-----
 
---===============8347231637471210004==--
+--===============7703062535753283335==--
