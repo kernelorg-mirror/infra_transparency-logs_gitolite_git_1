@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1938033192476694134=="
+Content-Type: multipart/mixed; boundary="===============2432936708153138208=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 31 Dec 2020 09:31:08 -0000
-Message-Id: <160940706851.28235.6478996072099406987@gitolite.kernel.org>
+Date: Thu, 31 Dec 2020 09:31:09 -0000
+Message-Id: <160940706954.28381.9795811507864447549@gitolite.kernel.org>
 
---===============1938033192476694134==
+--===============2432936708153138208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,64 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 1752938529c614a8ed4432ecce6ebc95d3b87207
-    new: d60616861892f333df4f7aa75bd7daacccd12418
-    log: revlist-1752938529c6-d60616861892.txt
+  - ref: refs/heads/linux-5.4.y
+    old: dfce803cd87dc139cfe4da1a68a5b3585e9e47e7
+    new: cdda392224c74269dcf1609b26b7c1084705db31
+    log: revlist-dfce803cd87d-cdda392224c7.txt
 
---===============1938033192476694134==
+--===============2432936708153138208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609407154 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609407155 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1609407066-aadbfdfc8f40182bc88af238e3d55b6aab5f58a7
+nonce 1609407068-e9b670a7a3fb385d8e0bd21fae7e70643bf4498c
 
-1752938529c614a8ed4432ecce6ebc95d3b87207 d60616861892f333df4f7aa75bd7daacccd12418 refs/heads/linux-4.14.y
+dfce803cd87dc139cfe4da1a68a5b3585e9e47e7 cdda392224c74269dcf1609b26b7c1084705db31 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/tmrIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7WAP/A38PbLUT8fAWdvjCEab
-qKL2/gcnzJFhnirIcDJdxfs6AMUZQt6gAPHIWxl8L8VllftThsDv4nzRYLzY9Nok
-J3NT8h+fUFlki7HF8rjkm30jTDKELySVQfuOUovUUJN6A639WO+UnS2yzzHsLg/N
-J+s3hX/kRXmmga+NMI2oX1Pqyg5LF2YzfkAufoIVC1eG1hm+vJnIwV4BRFqYPEZA
-vOwUyESUgAIHbbZAqZa8aNE40iJS0rCAMc8WHxbuZ92tK5QL99AdBOG3/mXcO5Fl
-P8MSC+jJU9KsnQwZy/iGTLcYur+M3WnfX4wtfSAYHJ9Ua0KyDaRjPmk7QeIT3MLy
-KC3A7L3w9R6AypmfL2Om7jlcO51C6WrCOWaSREG6pE+dS21FiwLMM+xsz1NYuf5I
-UAXpeoI7rzZFrBUiGHkHIz4/v/4vgPf4o3w7ivYA0egA8u0ebXFJLLUNnSCtZV//
-u+s8tmQ81szcxFBCiQg/UZ3tlhB+YZRl7UQFZB+e1DK2J6wJC7y/VB2ceiGCDNk3
-ndjGjdcGgsy4E6wB0FI6XEg9djviFnXdySIjETxa5xd2ytxYZ78GzJ1nbcmitiL4
-N8lYlpyjSmNVF2iTXvKeFcE92byl+/KQzveAKnLunkw1y+9wv/EAD7/bAiU3Xouz
-ChnFmOnJcMA1DpZHeOmQ95a3
-=07L3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/tmrMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BGoQAKxmJbPlf222TaAcuv2G
+DKlGnKEokeN/XXLnJQ9SFx1Jq/ZDFYJ2fTHa1Fl/mq8WBkL+PbnzF/LH8B3dI4wF
+yH3KcXBDpcOp2np+4rmU7/cr1eEKCVeE08dB8GZOgY5vLJ9JdrBjUX7XP8sSb3RG
+Tk72jbZ8VDod8IecNFAWkszWFBdoKOE0XZyHyyH5I5S1kQb4dCfUN8fv1ROCFeza
+VSKVR3DIykM2A41ToT8zmF2pZLdldf+zVC1gtvz9c+N179wm+GjfNvbSz1EQhUhL
+P1l9J0s7UnQKtiLublqGilnh6SM1P9FJ+bqJVVlz1qx3CeaBR2Q17TY4X8lgvnsX
+28x6GKgWEMkiDZP+kEOyJBAOaUx3Ayuh0HPzMWHiOOqmIry0uRLSTuA2vV3sD42k
+R3v1+nG2c8KfoEY9ITADpX4nBY6r4dWKdOIcyXGlC9toj6nH2pFwxSC7hdCSKEez
+rBgKx9fDiGz3p+EphgpdE3r7+cNZoOGm0+jRJnSv+s1LflfbHV8/40VoxleaHDkS
+5swt+0EY8s+0jTQ97QXt+o9F2B6kl7lDM8xdxzdSZ0564LvxYZBxz3Wt96UugVL/
+V2lgkA1Lq82fKiOb/dZ7mcCv4qOq8uBZtDezKosjXVXdu8OA/lK0nHgIUgs/BxzR
+GncIqduydrK5tuybm1dKatzY
+=sWJT
 -----END PGP SIGNATURE-----
 
---===============1938033192476694134==
+--===============2432936708153138208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1752938529c6-d60616861892.txt
+Content-Disposition: attachment; filename=revlist-dfce803cd87d-cdda392224c7.txt
 
-be35fdad44169f1dbd445833fd796d0ff1b1d67d x86/entry/64: Add instruction suffix
-5635f5066eb417cb31ce8a7ba2768f66a916e5e4 md/raid10: initialize r10_bio->read_slot before use.
-13bd466756b785c2fbf7a6c07956dc7cbc04d169 ALSA: hda/ca0132 - Fix work handling in delayed HP detection
-287adcd51d1ba485a705b1304b4d5a0f4adf676b ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
-63c3ac35cda3267f81f3bce97b2573b92949d313 ALSA: usb-audio: fix sync-ep altsetting sanity check
-67e78e2fc557f6bc98d14c8db3738e2d7176eb41 mm: memcontrol: eliminate raw access to stat and event counters
-60b3b35a9757e238027eeb78ba775bab593906f9 mm: memcontrol: implement lruvec stat functions on top of each other
-54a383712cb3f5b9412e39723e2978e77bcc442a mm: memcontrol: fix excessive complexity in memory.stat reporting
-7e2573a11eae443c40d6b1e0b8a0d7fccdca4c9b vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
-2171fa713ed10c3e8e003e044df262a15a597b8a s390/dasd: fix hanging device offline processing
-fcb1d0ffeb5893817df57439f54809c0d0c55c15 USB: serial: digi_acceleport: fix write-wakeup deadlocks
-c2e6281e642648796b4192e467f79c80b118d2f9 powerpc/bitops: Fix possible undefined behaviour with fls() and fls64()
-d60616861892f333df4f7aa75bd7daacccd12418 Linux 4.14.214-rc1
+2b4db6282cb32e050a8ddcfecd1dac65f61ca479 net/sched: sch_taprio: reset child qdiscs before freeing them
+5d8482f9ca9254ec48e7f1910a180fb74bdf1070 md/raid10: initialize r10_bio->read_slot before use.
+32dcf669138be77d6cfe4df91753fadbc0e9bf01 thermal/drivers/cpufreq_cooling: Update cpufreq_state only if state has changed
+ca0cb9bb6054dd48b8ce3c1a57e7c9dab496248e ext4: prevent creating duplicate encrypted filenames
+9e721413f2c04b3e1bcc7140bd7132e33a1d728e ubifs: prevent creating duplicate encrypted filenames
+9fbf005fe67916cf3f2c6190a9e06cafaceeca00 f2fs: prevent creating duplicate encrypted filenames
+f5a80d583904d8845dc2bb9801aa8f0dd1cfa3ec fscrypt: add fscrypt_is_nokey_name()
+6fd14a05d9ab755ff3fea643bb6819bb6d5a5966 fscrypt: remove kernel-internal constants from UAPI header
+0e3ff039d1e6012632cbca1e5ae36f62699c81fe vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
+42a9c9dc82b1f926f60458b68467acf8988ae3a8 btrfs: fix race when defragmenting leads to unnecessary IO
+e4118549c4042e3103d8ee47b4c8831f1b3d1762 ext4: don't remount read-only with errors=continue on reboot
+79ff9afc259215c733e364ae4b45ac9580e27eac KVM: x86: avoid incorrect writes to host MSR_IA32_SPEC_CTRL
+9e38e59d30fef302a1b9b3c993cdd58b48404b28 KVM: SVM: relax conditions for allowing MSR_IA32_SPEC_CTRL accesses
+e80a4afe1b74fa8127774faea0a3b5f3c0741ad2 KVM: x86: reinstate vendor-agnostic check on SPEC_CTRL cpuid bits
+ed9fff958678b371141ef2245773aa7902e81656 powerpc/bitops: Fix possible undefined behaviour with fls() and fls64()
+231a86927243e2baa29d109ba43538faaa3eb116 jffs2: Allow setting rp_size to zero during remounting
+4cfa520880671856b8225e4186bb5bc47f2fc325 jffs2: Fix NULL pointer dereference in rp_size fs option parsing
+cdda392224c74269dcf1609b26b7c1084705db31 Linux 5.4.87-rc1
 
---===============1938033192476694134==--
+--===============2432936708153138208==--
