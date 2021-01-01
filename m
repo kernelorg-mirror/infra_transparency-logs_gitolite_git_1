@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8860594719944149858=="
+Content-Type: multipart/mixed; boundary="===============0981215720437190954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 01 Jan 2021 17:55:28 -0000
-Message-Id: <160952372886.17390.18338896596681396181@gitolite.kernel.org>
+Date: Fri, 01 Jan 2021 19:47:06 -0000
+Message-Id: <160953042604.18268.12144998281055166212@gitolite.kernel.org>
 
---===============8860594719944149858==
+--===============0981215720437190954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes
-    old: 4da3a54f5a025846f9930354cfb80f075b9952e0
-    new: cb5253198f10a4cd79b7523c581e6173c7d49ddb
-    log: revlist-4da3a54f5a02-cb5253198f10.txt
+  - ref: refs/tags/scsi-fixes
+    old: 9eb9f6e2e178caa9f7980249fa44f44cb6a36810
+    new: 34905b97b3260edf98c9b0bb9e0058a8ea895ceb
+    log: revlist-9eb9f6e2e178-34905b97b326.txt
 
---===============8860594719944149858==
+--===============0981215720437190954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4da3a54f5a02-cb5253198f10.txt
+Content-Disposition: attachment; filename=revlist-9eb9f6e2e178-34905b97b326.txt
 
 874163aab75a6cd7422e71f1fbc6db12977fcf1d scsi: fc: Update formal FPIN descriptor definitions
 547aab51a914e1f18394d8238ef9fb4f76d5b491 scsi: fc: Add FPIN statistics to fc_host and fc_rport objects
@@ -328,4 +328,4 @@ bd14bf0e4a084514aa62d24d2109e0f09a93822f scsi: ufs: Re-enable WriteBooster after
 31a5d9cafff163473abf9496318b6a53022d48f7 scsi: ufs: Un-inline ufshcd_vops_device_reset function
 cb5253198f10a4cd79b7523c581e6173c7d49ddb scsi: cxgb4i: Fix TLS dependency
 
---===============8860594719944149858==--
+--===============0981215720437190954==--
