@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
-Date: Sat, 02 Jan 2021 12:15:31 -0000
-Message-Id: <160958973143.29251.915332754660468345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Sat, 02 Jan 2021 13:07:23 -0000
+Message-Id: <160959284384.28369.9458725467085431217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/kbd
-user: legion
+repo: pub/scm/linux/kernel/git/at91/linux
+user: abelloni
 changes:
-  - ref: refs/heads/master
-    old: 252e622319d4f42ae085dc7760ab863227e0c683
-    new: 3cd7aa69eb63f1964e8f5580b42ae700fd3f8d3f
+  - ref: refs/heads/at91-defconfig
+    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+    new: 00a1aa475f507454fab82f02c6230c8fb2312a12
     log: |
-         3cd7aa69eb63f1964e8f5580b42ae700fd3f8d3f Added braces to IT keyboard map
+         3a4e55c355a42657eea2230ec28ae1a9d9de75d5 ARM: configs: at91: remove ATMEL_TCLIB
+         00a1aa475f507454fab82f02c6230c8fb2312a12 ARM: configs: multi_{v5,v7}: remove ATMEL_TCLIB
          
