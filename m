@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1076860866404810723=="
+Content-Type: multipart/mixed; boundary="===============0399351385663854507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse-dev
-Date: Sat, 02 Jan 2021 08:32:55 -0000
-Message-Id: <160957637596.6243.4118960854679248248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse
+Date: Sat, 02 Jan 2021 08:33:16 -0000
+Message-Id: <160957639600.6449.9773824992574264710@gitolite.kernel.org>
 
---===============1076860866404810723==
+--===============0399351385663854507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse-dev
+repo: pub/scm/devel/sparse/sparse
 user: lucvoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: fe455dd6b9fb47743271f342691c4b68532f1260
     log: revlist-10283ac0f48d-fe455dd6b9fb.txt
 
---===============1076860866404810723==
+--===============0399351385663854507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ f07a1053a90039a2d88ed62f74add2ee131d67b7 packed: no out-of-bound access of packe
 2cf493d1f63f075e6fe0cccbcb7463b1aa773a74 packed: add support for __packed struct
 fe455dd6b9fb47743271f342691c4b68532f1260 Merge branch 'packed'
 
---===============1076860866404810723==--
+--===============0399351385663854507==--
