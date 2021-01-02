@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 02 Jan 2021 09:16:15 -0000
-Message-Id: <160957897558.16244.16645796468540761038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Sat, 02 Jan 2021 09:18:47 -0000
+Message-Id: <160957912731.17082.13598180589974116480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/experimental
-    old: 26f7f29e800e857a3a823c1548c8b6e6a14b5416
-    new: eea41ef5bcc47dcbc9adc4184238a74452273224
+  - ref: refs/heads/pm
+    old: 0856ef671f314e27d42998470d07c6b428d23e64
+    new: 89ecf09e0b93de54415de45be241649ec1b162de
     log: |
-         eea41ef5bcc47dcbc9adc4184238a74452273224 erofs-utils: update my email address in README/AUTHORS
+         89ecf09e0b93de54415de45be241649ec1b162de Merge branches 'pm-cpufreq' and 'pm-cpuidle'
+         
+  - ref: refs/tags/pm-5.11-rc2
+    old: c1680387c760f8127bc19424c1e8a5f8e2b69c05
+    new: 333598bdfb899b21f69eca630dfb8163b4f8afe6
+    log: |
+         89ecf09e0b93de54415de45be241649ec1b162de Merge branches 'pm-cpufreq' and 'pm-cpuidle'
          
