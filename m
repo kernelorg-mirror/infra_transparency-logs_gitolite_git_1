@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5213883722756550878=="
+Content-Type: multipart/mixed; boundary="===============3678425571792434195=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Sat, 02 Jan 2021 21:37:45 -0000
-Message-Id: <160962346519.18161.13617063567514846652@gitolite.kernel.org>
+Date: Sat, 02 Jan 2021 21:38:20 -0000
+Message-Id: <160962350057.18453.1505631429591063961@gitolite.kernel.org>
 
---===============5213883722756550878==
+--===============3678425571792434195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
-  - ref: refs/heads/linus
+  - ref: refs/heads/master
     old: c0e583ab2016de8dedfb73934d4c4e8ff5bd896c
     new: 0aa171e9b267ce7c52d3a3df7bc9c1fc0203dec5
     log: revlist-c0e583ab2016-0aa171e9b267.txt
 
---===============5213883722756550878==
+--===============3678425571792434195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 fd16931a2f518a32753920ff20895e5cf04c8ff1 crypto: arm/chacha-neon - add missing counter increment
 0aa171e9b267ce7c52d3a3df7bc9c1fc0203dec5 crypto: ecdh - avoid buffer overflow in ecdh_set_secret()
 
---===============5213883722756550878==--
+--===============3678425571792434195==--
