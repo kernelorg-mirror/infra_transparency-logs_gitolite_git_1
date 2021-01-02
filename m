@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 01 Jan 2021 22:38:59 -0000
-Message-Id: <160954073980.25551.8832048471867831491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Sat, 02 Jan 2021 06:23:06 -0000
+Message-Id: <160956858600.23224.14095826575383332330@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/master
-    old: 7b5d39f48fb41e1f31c8fd162bf321a759ad9e1f
-    new: e878a2de3e85e711f95505c842e64b0b2fbfca00
+  - ref: refs/heads/for-linus
+    old: 4b4193256c8d3bc3a5397b5cd9494c2ad386317d
+    new: f605be6a57b439df7568a865c187b81863018c95
     log: |
-         d6ab4c76a1b67cf1ad6f1fbad638517f861c979f system_data_types.7: Add off64_t to system_data_types(7)
-         984126f454e20a6f4ddd368da1c7458bb59a2693 off64_t.3: New link to system_data_types(7)
-         e878a2de3e85e711f95505c842e64b0b2fbfca00 get_phys_pages.3: Minor relocation of text
+         928eedf013b25fcaeb6aef2ad721ed92c2e8bc66 Input: st1232 - fix off-by-one error in resolution handling
+         b999dbea06b9874c7724a410f47a6bac1e219e37 Input: st1232 - do not read more bytes than needed
+         f605be6a57b439df7568a865c187b81863018c95 Input: st1232 - wait until device is ready before reading resolution
          
