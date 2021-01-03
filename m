@@ -1,51 +1,112 @@
-Content-Type: multipart/mixed; boundary="===============2964460538949966672=="
+Content-Type: multipart/mixed; boundary="===============4723727468246756871=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 03 Jan 2021 12:21:14 -0000
-Message-Id: <160967647479.23544.2358704785575753515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Sun, 03 Jan 2021 12:58:45 -0000
+Message-Id: <160967872560.15024.1076060106939598288@gitolite.kernel.org>
 
---===============2964460538949966672==
+--===============4723727468246756871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/net-next
-    old: 5d0f806c7608fe61c73b31b28411ebb94b962ebf
-    new: 662271a677e2e2d2f9a2c8d894f664b7063fd4f7
-    log: revlist-5d0f806c7608-662271a677e2.txt
+  - ref: refs/heads/mediatek-cmdq3
+    old: 1c7249b019067316f7f7dd7ff638d7e48bb02a71
+    new: c1afe6d5e19e6490abab65e24b62921a6a288fbf
+    log: revlist-1c7249b01906-c1afe6d5e19e.txt
 
---===============2964460538949966672==
+--===============4723727468246756871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d0f806c7608-662271a677e2.txt
+Content-Disposition: attachment; filename=revlist-1c7249b01906-c1afe6d5e19e.txt
 
-8409e20e0785c0fc689446318c50eb11eb5ae0fe drm/amd/display: Adding prototype for dccg21_update_dpp_dto()
-325f4b59f6361df0e20a39acd3b89c265d6ca2a8 drm/amdkfd: correct amdgpu_amdkfd_gpuvm_alloc_memory_of_gpu log.
-3aa883ac8eea38281f97a7409d2922e6f343bf6c drm/amdgpu/SRIOV: Extend VF reset request wait period
-7eded018bfeccb365963bb51be731a9f99aeea59 drm/amdgpu: fix regression in vbios reservation handling on headless
-b4bc9d95e69368935a399b16ea26ca7573abafca drm/amdgpu: Fix spelling mistake "Heterogenous" -> "Heterogeneous"
-0b437e64e0af749c302a7599c1a8f3e89aded559 drm/amdgpu: remove h from printk format specifier
-e607f6d268577986363e5838fea7a4f2b4927af4 drm/radeon: remove h from printk format specifier
-8640ca588b032166d6be6b4d3632d565d6d88e89 KVM: SVM: Add AP_JUMP_TABLE support in prep for AP booting
-722e039d9a290a06e38199f6baffc04cfd98f2db Merge tag 'kvmarm-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-bca3e43c903f5c58daeab1fea0af566233ea003c ACPI: processor: fix NONE coordination for domain mapping failure
-defa0c6b94db6156c0e2c97e4cedf7986b24730a Merge branch 'acpi-processor' to satisfy dependencies
-d2641a5c3d5ecaa1078225e493c7fed821715a04 cppc_cpufreq: use policy->cpu as driver of frequency setting
-bf76bb208f2b653306f2fc8f9c2a22f9890702bd cppc_cpufreq: clarify support for coordination types
-cfdc589f4b5f94bf1a975b4a67d8163d533f6e9b cppc_cpufreq: expose information on frequency domains
-a28b2bfc099c6b9caa6ef697660408e076a32019 cppc_cpufreq: replace per-cpu data array with a list
-ca6827de4b67367e73fdf43d2ea0a0064423edfb cpufreq: schedutil: Add util to struct sg_cpu
-ee2cc4276ba4909438f5894a218877660e1536d9 cpufreq: Add special-purpose fast-switching callback for drivers
-a365ab6b9dfbaf8fb4fb4cd5d8a4c55dc4fb8b1c cpufreq: intel_pstate: Implement the ->adjust_perf() callback
-b08221c40febcbda9309dd70c61cf1b0ebb0e351 ACPI: PNP: compare the string length in the matching_id()
-b784c77075023e1a71bc06e6b4f711acb99e9c73 coccinnelle: Remove ptr_ret script
+5d6ad668f31625c6aa9ed8dc3bdb29561d2b1144 arch, mm: restore dependency of __kernel_map_pages() on DEBUG_PAGEALLOC
+32a0de886eb3cb7e6990da27a9cdfa50baa8be64 arch, mm: make kernel_page_present() always available
+7115ac6ef0b26017676e88a44a0b40c2d1d99299 mm, page_alloc: clean up pageset high and batch update
+0a8b4f1d5bf4108cfd2877223bf125b1fa1dc4b1 mm, page_alloc: calculate pageset high and batch once per zone
+69a8396a2647feac197497bd992f0a91da9fd801 mm, page_alloc: remove setup_pageset()
+5c3ad2eb7104754a36580079a2e4aed04a10631d mm, page_alloc: simplify pageset_update()
+952eaf815925f106eb6b68346b3458a68bb18ec1 mm, page_alloc: cache pageset high and batch in struct zone
+7612921f2376d51d020ae2f06ffb7da40422b75b mm, page_alloc: move draining pcplists to page isolation users
+ec6e8c7e03147c65380e6c04c4cf4290e96280b6 mm, page_alloc: disable pcplists during memory offline
+2ee08717da50160c20056f6d6b76afdf65db33ab include/linux/page-flags.h: remove unused __[Set|Clear]PagePrivate
+3b12da6d1d4adff087939c071e0d74a7857439a0 mm/page-flags: fix comment
+7f194fbb2dd75e9346b305b8902e177b423b1062 mm/page_alloc: add __free_pages() documentation
+3b1f3658c71a0aea9c1a33879f904e2e4f3aba78 mm/page_alloc: mark some symbols with static keyword
+862b6dee20b0db2ebaa728c302a1b296ff144de3 mm/page_alloc: clear all pages in post_alloc_hook() with init_on_alloc=1
+ba8f3587f55667c688acd7c5103c870983e294dd init/main: fix broken buffer_init when DEFERRED_STRUCT_PAGE_INIT set
+470c61d70299b1826f56ff5fede10786798e3c14 mm: page_alloc: refactor setup_per_zone_lowmem_reserve()
+7ad69832f37e3cea8557db6df7c793905f1135e8 mm/page_alloc: speed up the iteration of max_order
+17e395b60f5b3dea204fcae60c7b38e84a00d87a mm,hwpoison: drain pcplists before bailing out for non-buddy zero-refcount page
+a8b2c2ce89d4e01062de69b89cafad97cd0fc01b mm,hwpoison: take free pages off the buddy freelists
+32409cba3f66810626c1c15b728c31968d6bfa92 mm,hwpoison: drop unneeded pcplist draining
+8295d535e2aa198bdf65a4045d622df38955ffe2 mm,hwpoison: refactor get_any_page
+2f7141600d67969f444c344481d4d9ce546d0114 mm,hwpoison: disable pcplists before grabbing a refcount
+47e431f43b5d879f04a2df645366ca007351ffff mm,hwpoison: remove drain_all_pages from shake_page
+1e8aaedb182d6ddffc894b832e4962629907b3e0 mm,memory_failure: always pin the page in madvise_inject_error
+3f4b815a439adfb8f238335612c4b28bc10084d8 mm,hwpoison: return -EBUSY when migration fails
+e5dfacebe4a47fc9e4dd25246ed3599d60122e38 mm/hugetlb.c: just use put_page_testzero() instead of page_count()
+ebfe1b8f6ea5d83d8c1aa18ddd8ede432a7414e7 include/linux/huge_mm.h: remove extern keyword
+336e6b53d99ae32ee35c1a7d3d0f99db22e1ff51 khugepaged: add parameter explanations for kernel-doc markup
+0a4f3d1bb91cac4efdd780373638b6a1a4c24c51 mm: hugetlb: fix type of delta parameter and related local variables in gather_surplus_pages()
+39a0feaef1105d79028fac3078e3c67e137ce98d mm,hugetlb: remove unneeded initialization
+7fc2513aa237e2ce239ab54d7b04d1d79b317110 hugetlb: fix an error code in hugetlb_reserve_pages()
+597c892038e08098b17ccfe65afd9677e6979800 mm: don't wake kswapd prematurely when watermark boosting is disabled
+2b47a24cee0eedbb9b106ef3e992db0ddf48f740 mm/vmscan: drop unneeded assignment in kswapd()
+8d87d07c9283b45fd50f15d488368d0be6492a17 mm/vmscan.c: remove the filename in the top of file comment
+2484be0f88dc6c9670362d51f6a04f2da0626b50 mm/page_isolation: do not isolate the max order page
+fc5488651c7d840c9cad9b0f273f2f31bd03413a z3fold: simplify freeing slots
+dcf5aedb24f899d537e21c18ea552c780598d352 z3fold: stricter locking and more careful reclaim
+135f97fd0c398f20a544cc52c3f8a3cb925a8aef z3fold: remove preempt disabled sections for RT
+19d3cf9de1c72fd1adaa1d68aa40d74a35688404 mm/compaction: rename 'start_pfn' to 'iteration_start_pfn' in compact_zone()
+2b1a20c3afbc0279cbe57b0f19748081eba0881b mm/compaction: move compaction_suitable's comment to right place
+2271b016bf368d19d60531dd5ddd4375b4dae0ab mm/compaction: make defer_compaction and compaction_deferred static
+259b3633e78d627353d49b1eb226d72b2ac588da mm/oom_kill: change comment and rename is_dump_unreclaim_slabs()
+ab9dd4f8a1675b86b64a7d1f421c25182819f7a2 mm/migrate.c: fix comment spelling
+5e5dda81a0dfb82de1757ab878d9ffd2339c9b2a mm/migrate.c: optimize migrate_vma_pages() mmu notifier
+0060ef3b4e6dd1410da164d48a595eadb2fb02f7 mm: support THPs in zero_user_segments
+d12b8951ad17cd845c7e674a839af84844954706 mm: truncate_complete_page() does not exist any more
+dd4ae78a21fc05d91d841e499dddd057ad64a4df mm: migrate: simplify the logic for handling permanent failure
+c77c5cbafe549eb330e8909861a3e16cbda2c848 mm: migrate: skip shared exec THP for NUMA balancing
+236c32eb109696590b7428957eda50cc05e22af8 mm: migrate: clean up migrate_prep{_local}
+d532e2e57e3c53ce74e519a07d7d2244482b7bd8 mm: migrate: return -ENOSYS if THP migration is unsupported
+d85c6db4cc61bd8299f68534bf7ea2f717f49539 mm: migrate: remove unused parameter in migrate_vma_insert_page()
+a4efc174b382fcdb62e2d90d39e78a274a975e38 mm/cma.c: remove redundant cma_mutex lock
+b8ca396f984295ba09f25f6982f9abd0bb7f5a29 mm: cma: improve pr_debug log in cma_release()
+04013513cc84c401c7de9023ff3eda7863fc4add mm, page_alloc: do not rely on the order of page_poison and init_on_alloc/free parameters
+8db26a3d47354ce7271a8cab03cd65b9d3d610b9 mm, page_poison: use static key more efficiently
+03b6c9a3e8805606c0bb4ad41855fac3bf85c3b9 kernel/power: allow hibernation with page_poison sanity checking
+8f424750baaafcef229791882e879da01c9473b5 mm, page_poison: remove CONFIG_PAGE_POISONING_NO_SANITY
+f289041ed4cf9a3f6e8a32068fef9ffb2acc5662 mm, page_poison: remove CONFIG_PAGE_POISONING_ZERO
+37cd0575b8510159992d279c530c05f872990b02 userfaultfd: add UFFD_USER_MODE_ONLY
+d0d4730ac2e404a5b0da9a87ef38c73e51cb1664 userfaultfd: add user-mode only option to unprivileged_userfaultfd sysctl knob
+77f962e7ae24e5fa7b257b8242c62e716119a312 userfaultfd: selftests: make __{s,u}64 format specifiers portable
+164c50be2878f4caf6d7973e8e0e438f182f4ded userfaultfd/selftests: always dump something in modes
+1e17a24edf9bef891bbdd02617eaab4fa6efcd7f userfaultfd/selftests: fix retval check for userfaultfd_open()
+d9f411bacfa0c3d0d97580a66f88e70f92bcf58e userfaultfd/selftests: hint the test runner on required privilege
+83aed6cde84542a1d56bdc0561879cc0199ae564 mm/zswap: make struct kernel_param_ops definitions const
+42a44704367cd18d069c9855cb84090ff90ecd86 mm/zswap: fix passing zero to 'PTR_ERR' warning
+1ec3b5fe6eec782f4e5e0a80e4ce1909ffd5d161 mm/zswap: move to use crypto_acomp API for hardware acceleration
+110ceb8287fd0af104a7a15db93534ab0dc2bc21 mm/zsmalloc.c: rework the list_add code in insert_zspage()
+95c9ae14a9b99a65956de80a1eefafcb901c0e9f mm/process_vm_access: remove redundant initialization of iov_r
+0d8359620d9be9823b6b9b3cf2dbe006cbfec594 zram: support page writeback
+194e28da1a0279ef6a106a5b621fd79c410432ef zram: add stat to gather incompressible pages since zram set up
+3d711a382735d2c34d3ba2075a5aa83a894f4a57 zram: break the strict dependency from lzo
+a00cda3f0a57e3b39d8dc512e45586241dc304bb mm: fix kernel-doc markups
+ae7a927d270f5ddb6414fc6a9be7bafd7f5bf703 mm: use sysfs_emit for struct kobject * uses
+bfb0ffeb2a67cd240874a3968dd9025bb3b3bf68 mm: huge_memory: convert remaining use of sprintf to sysfs_emit and neatening
+5e4c0d86cf4a7a22abb9468e84f4480dd6b67032 mm:backing-dev: use sysfs_emit in macro defining functions
+79d4d38a03fcd750257b67bf8a61759ec993d971 mm: shmem: convert shmem_enabled_show to use sysfs_emit_at
+bf16d19aabd8f5fbd220e9f83a3925a33cd88e81 mm: slub: convert sysfs sprintf family to sysfs_emit/sysfs_emit_at
+01359eb2013b4b1e87b22db0f532c2e0b7aee001 mm: fix fall-through warnings for Clang
+dfefd226b0bf7c435a58d75a0ce2f9273b9825f6 mm: cleanup kstrto*() usage
+ac73e3dc8acd0a3be292755db30388c3580f5674 Merge branch 'akpm' (patches from Andrew)
 059983790a4c963d92943e55a61fca55be427d55 PCI: Add function 1 DMA alias quirk for Marvell 9215 SATA controller
 1559c4b588ecd9f230b7b64d871a850e185412e8 Merge branch 'pci/aspm'
 e8722508dd78609b453b960d0b8163749d1f78b8 Merge branch 'pci/enumeration'
@@ -70,6 +131,13 @@ f7ce6838763f4be68a1432789674b04e87470cf9 Merge branch 'remotes/lorenzo/pci/vmd'
 dd538034f84fa4ea670420aac19adcceef45d057 smb3: remind users that witness protocol is experimental
 09a8361e3b681ef6b56cc56f7b2905b4455d6774 cifs: Fix some error pointers handling detected by static checker
 0c2b5f7ce50c24099e8ed7d35936e89fe9ca26ff cifs: fix rsize/wsize to be negotiated values
+d635a69dd4981cc51f90293f5f64268620ed1565 Merge tag 'net-next-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+c367caf1a38b6f0a1aababafd88b00fefa625f9e Merge tag 'sound-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+0cee54c890a40051928991072e5d1cd279611dfd Merge tag 'usb-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+157f809894f3cf8e62b4011915a00398603215c9 Merge tag 'tty-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+7240153a9bdb77217b99b76fd73105bce12770be Merge tag 'driver-core-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
+2911ed9f47b47cb5ab87d03314b3b9fe008e607f Merge tag 'char-misc-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+3db1a3fa98808aa90f95ec3e0fa2fc7abf28f5c9 Merge tag 'staging-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 88dcb9a3fb48c67ec345f1cdbc2a26119d3cb57d mm/thp: move lru_add_page_tail() to huge_memory.c
 94866635372d37ab6b849942900eb98674a94f04 mm/thp: use head for head page in lru_add_page_tail()
 6dbb57412c62a8537663dc786e27faa0e084ddce mm/thp: simplify lru_add_page_tail()
@@ -963,92 +1031,24 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
-7c1f42bbc5e800633a03c76675e29b7836686669 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
-bf00bd2d65239069d01e5b14c52af927c503a812 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux into net-next
-42e8ad08d82ed2a9e4799fab15245f6787b84e7a net: ipv6: Validate GSO SKB before finish IPv6 processing
-fc69bb1ec287af84a84774440a55f6f72225b2d7 devlink: Prepare code to fill multiple port function attributes
-a4205b6a74b1ec6e30cedb2c50266f2a46d893f8 devlink: Introduce PCI SF port flavour and port attribute
-781a67451fac9f566ea6c503b8b9fd804c090c0a devlink: Support add and delete devlink port
-10125708ce6b88d21e0adf3d7dc357228cad0c89 devlink: Support get and set state of port function
-0a8f4e8b45169afbeb1adcda1505c030f442f726 net/mlx5: Introduce vhca state event notifier
-3985e5526988bb502e969c78f23c757660011573 net/mlx5: SF, Add auxiliary device support
-05bab640a5e41228d92e0fe484289787a362cc5c net/mlx5: SF, Add auxiliary device driver
-1142b74a59ae8eca6b1e0458a5bd06cb606376d5 net/mlx5: E-switch, Prepare eswitch to handle SF vport
-0d7b4f9cdced9166e549e7214c99fe5ab6b99fbd net/mlx5: E-switch, Add eswitch helpers for SF vport
-14376e8d13a4118899414c995e2517ab33ff292f net/mlx5: SF, Add port add delete functionality
-6b73f481b1fdc295cc3fd96a62c28400fe2f1279 net/mlx5: SF, Port function state change support
-6862733e1da86882bbd81ba402d5adf0a2a296d2 devlink: Add devlink port documentation
-a30b2fb1a2a1ae7f5012d742515b88678ea21dff devlink: Extend devlink port documentation for subfunctions
-710794e03c359fd5777cfb1ce4471eb94b55083a net/mlx5: Add devlink subfunction port documentation
-da297d04489fd6f599e7b876e5dc08c30496e274 net/mlx5: Don't skip vport check
-bb2c92d5ed8b3590cdd268e4c9155b771fff4be4 net/mlx5: Add HW definition of reg_c_preserve
-ae916e0d30f9537b02dd19c7eb831463d404fa67 net/mlx5: Remove impossible checks of interface state
-6c94e0b4ea72272bde96047314a6843fd401c89e net/mlx5: Separate probe vs. reload flows
-abd6f35079f73139bc8b069d7108dbeff198efc1 net/mlx5: Remove second FW tracer check
-6fa89a3eca68b17a7d391252843542fca6634870 net/mlx5: Don't rely on interface state bit
-1a7e08b45ff06e5dc326165b1ed2f882fa86dab6 net/mlx5: Check returned value from health recover sequence
-c162a36a5d993a56911813907909065ef6e986b3 net/mlx5: Fix devlink reload LOCKDEP warning
-2944ebaa4bd4ea227dc78a51f7e1348f496631ed devlink: Expose port function commands to control roce
-a46ffd741ca881113f6baaad93a9cad1533d303e net/mlx5: E-Switch, Implement  devlink port function cmds to control roce
-a008ba04f169a5c3f7a356b69ee49fd3ed5cf923 net/mlx5e: Simplify condition on esw_vport_enable_qos()
-59d102f2cda7b19044ed09c9c79df3a7d1b89472 net/mlx5: E-Switch, use new cap as condition for mpls over udp
-4328f5d9f00df7bd2164a412b0b573235d5ddf81 net/mlx5e: E-Switch, Offload all chain 0 priorities when modify header and forward action is not supported
-7b5b5cd163e08a253258f94f09bbe4eba7e2ce61 net/mlx5e: CT: Pass null instead of zero spec
-27bc989c6f9524d7da1ed97dbc140a7c4558992f net/mlx5e: Remove redundant initialization to null
-ed6c5fdd22d3e186b6efefcc344dac5cc297ff53 net/mlx5e: CT: Remove redundant usage of zone mask
-3187c6bb59a33a17eac1e8533827671b067c6c65 net/mlx5e: CT: Preparation for offloading +trk+new ct rules
-954d65351ddd4a20d73bce54b89fb82111718891 net/mlx5e: CT: Support offload of +trk+new ct rules
-a62babf0aaaff2e73edc463bb533ae9e4350e07b net/mlx5: CT: Add support for mirroring
-e3941f007c7554a003b1eb7365e1d8b902e375f8 net/mlx5: E-Switch, let user to enable disable metadata
-e1a5d1c4787875d61ebee1d193c32d76be2a5208 net/mlx5e: CT, Avoid false lock depenency warning
-558cb2a0341a500a616163738ebd3eab51c20759 net/mlx5: DR, Add infrastructure for supporting several steering formats
-09c211c01ed3eabf0ad8051d266a8f5f1cb0727a net/mlx5: DR, Move macros from dr_ste.c to header
-a009707637e0b88ec2c4394961965acf192c4c47 net/mlx5: DR, Use the new HW specific STE infrastructure
-17cc0571c9626f67739382cc19ac0636da9a33f4 net/mlx5: DR, Move HW STEv0 match logic to a separate file
-4d6f4fca1347a492fc32645bf67170fa522363d1 net/mlx5: DR, Remove unused macro definition from dr_ste
-5181d093023de8553aa3dd358fa332ded6208abf net/mlx5: DR, Fix STEv0 source_eswitch_owner_vhca_id support
-f685138d1d0d2ba456497a043f86ab203b9a8d64 net/mlx5: DR, Merge similar DR STE SET macros
-388a0eaf4c60e7889747302f3b9195f3a2e2e58d net/mlx5: DR, Move STEv0 look up types from mlx5_ifc_dr header
-168919b018edc6a35dbeeb3f367435a465ad0181 net/mlx5: DR, Refactor ICMP STE builder
-78ac6dc364e4cd78c6e5c5ebfdcbc6b3ed36f06c net/mlx5: DR, Move action apply logic to dr_ste
-0f6462465c28504befb7784f16cdf8013d9cd8c0 net/mlx5: DR, Add STE setters and getters per-device API
-793f3dd12a971ec1bd4ffea59f2bfc2751229097 net/mlx5: DR, Move STEv0 setters and getters
-dcfaafb70b80001cfab145ca8a359d5b4dc80f09 net/mlx5: DR, Add STE tx/rx actions per-device API
-fd8484a8141268d6d0593f34624560ebc91dc64d net/mlx5: DR, Move STEv0 action apply logic
-ca2ed624ebf991cba6a129f74fb8669cfce0c6e8 net/mlx5: DR, Add STE modify header actions per-device API
-84149c459df341c4e7d510ed82548eecf74e6144 net/mlx5: DR, Move STEv0 modify header logic
-0d01550a50088e9bb5e8e03701e7cb5603dffc81 net/mlx5e: IPsec, Enclose csum logic under ipsec config
-58ffe60e2ec5e2ea6d1ca95caed35e1e2d2cb076 net/mlx5e: IPsec, Avoid unreachable return
-8a7393efbe9c98828d5bb71b84f834555ee84821 net/mlx5e: IPsec, Inline feature_check fast-path function
-a1aeb366d8282bd6dd4f1531a182e418e204b664 net/mlx5e: IPsec, Remove unnecessary config flag usage
-f913946c20cd0950a2cf94dea524e9fa37c661a0 devlink: Add DMAC filter generic packet trap
-8f8aeaba04f6c3727865374df741ba494bbe0b50 net/mlx5: Add support for devlink traps in mlx5 core driver
-ca20b7e5b7f6d26fa843759c2fa4dac3475d2a41 net/mlx5: Register to devlink ingress VLAN filter trap
-b0d37db3864db56bf2f9535022d1aea7d9872f02 net/mlx5: Register to devlink DMAC filter trap
-856f30ac3621f9b1eff7226a5503a78d315c2450 net/mlx5: Rename events notifier header
-cc69ad1af0decb12fc4878b5a584582115802b97 net/mlx5: Notify on trap action by blocking event
-f41bc2023896d12e6e45cbd79d092e9350f98b67 net/mlx5e: Optimize promiscuous mode
-18c8d218e6dff5e1eebd0ea02500edde57503e29 net/mlx5e: Add flow steering VLAN trap rule
-61bb2f9cb6c8064c9e085a13bed7bccd8f9e5cc4 net/mlx5e: Add flow steering DMAC trap rule
-1abc35cea3aa9b936a77cd468842aa25050593cb net/mlx5e: Expose RX dma info helpers
-0f291a815995184d93f8a1813a93197d4691a1b5 net/mlx5e: Add trap entity to ETH driver
-d30433b9ae1ccf42a64f5971898f108244ab3b46 net/mlx5e: Add listener to trap event
-6e8ea84ecaedc0e43981da9d420c85d762447a4b net/mlx5e: Add listener to DMAC filter trap event
-80c7e41ff5660df5524f6b7b5d54b4fd4e7c9265 net/mlx5e: Enable traps according to link state
-539952732ea7acab237794389e0bd12a14a0acd5 fixup! net/mlx5: DR, Use the new HW specific STE infrastructure
-a7d59cd8840c7a37d6c7b5bd4cb34a6d92120828 net/mlx5: simplify the return expression of mlx5_esw_offloads_pair()
-8e6551258caae972aa6c7db233ac0cbc291f7919 net/mlx5_core: remove unused including <generated/utsrelease.h>
-ad939239167f6ddd17f05040e3e96ca69812cbda net/mlx5e: Enable napi in channel's activation stage
-3c92025eacaa64405ed6ede17af0c379b1a51303 net/mlx5e: Increase indirection RQ table size to 256
-223b8f521894f57ef86a12606ed2912dff95cb9b net/mlx5: Check switchdev mode when check if multi-port or ib is supported
-9c356f50cb31f0f2a3b233a5297f751a14ad1ed2 fixup! net/mlx5e: Enable napi in channel's activation stage
-85b78920ba3c613fbf347001a037e90e75dcac79 Merge commit 'refs/changes/41/361341/8' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-0fee8fb174534e2f1921ffebf163b3e74e3a654f net/mlx5e: rep: Improve reg_cX conditions
-c244dac80ce719f20afdf0b24116ee14390e3f03 Merge branch 'net-next-mlx4' into net-next
-abe36cc395996ffbd3be21e3718e515cd7631420 Merge branch 'mlx5-vdpa' into net-next
-012bd084e8301bbd5c5a49a8e210420e3ac0c6fa Merge branch 'net-next-mlx5' into net-next
-b952087a00f7b6752f7f54ff24c2117a8b7c92e0 Merge branch 'net-mlx4' into net-next
-3280dd0916375a2f615874e45eee60a9b26401ba Merge branch 'net-mlx5' into net-next
-662271a677e2e2d2f9a2c8d894f664b7063fd4f7 Merge branch 'net-next-test' into net-next
+c822584e27911c5af089a366cb5eca378a1cd5ea drm/mediatek: Get CMDQ client register for all ddp component
+6ea6f8276725dc60cf8fe9a023b5f2c4cbb673a3 drm/mediatek: Use correct device pointer to get CMDQ client register
+926df14ec571f6cdbf6d941a0f1be112bf7a7535 drm/mediatek: Separate getting larb device to a function
+c0d36de868a6834f0124d248ac5c313d3c4d90bf drm/mediatek: Move clk info from struct mtk_ddp_comp to sub driver private data
+3c87daefc5c3637bed36f1f29dc9bbf3506cba55 drm/mediatek: Move regs info from struct mtk_ddp_comp to sub driver private data
+993fd584942a75edda5e9cdec24c590c7a766b2d drm/mediatek: Remove irq in struct mtk_ddp_comp
+f22a565d10e756f1a6141ecd8762c58aa1788db8 drm/mediatek: Use struct cmdq_client_reg to gather cmdq variable
+616443ca577efccd3f67ac7f875ed68e70b34012 drm/mediatek: Move cmdq_reg info from struct mtk_ddp_comp to sub driver private data
+ec0f3c7db1c5171398469e305cda547b1ab7477b drm/mediatek: Change sub driver interface from mtk_ddp_comp to device
+67d8ad9c740d23bf1633491c4b03b429739a5b71 drm/mediatek: Register vblank callback function
+c933f6d3f1a808b6a6786eb4b1f1406eaa451fb3 drm/mediatek: DRM driver directly refer to sub driver's function
+b2eb3db88c8be3a588e3334d8f7a73a1bbca8a72 drm/mediatek: Move mtk_ddp_comp_init() from sub driver to DRM driver
+5c399c51f72ce68e0f8a0068dbb535b470922e69 drm/mediatek: dsi: Use IRQF_TRIGGER_NONE for dsi irq trigger type
+41020a243f1510ba9ba4aa117e0308272c52ea4b drm/mediatek: Remove redundant file including
+68b486872dd700dfa3cefb6a26a3c9b1a6ab6f43 drm/mediatek: Rename file mtk_drm_ddp to mtk_mutex
+31d9705b38cbf01c6a9f4047fb1dee6309b3ff42 drm/mediatek: Change disp/ddp term to mutex in mtk mutex driver
+3edc87c4ee73d276f1fd634920631800bf5a7904 drm/mediatek: Automatically search unclaimed mtk mutex in mtk_mutex_get()
+975dacd7c4d260adda0348a9f0227e50c16390a0 soc / drm: mediatek: Move mtk mutex driver to soc folder
+c1afe6d5e19e6490abab65e24b62921a6a288fbf soc: mediatek: cmdq: Remove cmdq_pkt_flush()
 
---===============2964460538949966672==--
+--===============4723727468246756871==--
