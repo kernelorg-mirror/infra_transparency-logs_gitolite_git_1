@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5522581250173294638=="
+Content-Type: multipart/mixed; boundary="===============2964460538949966672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 03 Jan 2021 12:21:05 -0000
-Message-Id: <160967646556.23433.5833895893205693880@gitolite.kernel.org>
+Date: Sun, 03 Jan 2021 12:21:14 -0000
+Message-Id: <160967647479.23544.2358704785575753515@gitolite.kernel.org>
 
---===============5522581250173294638==
+--===============2964460538949966672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,26 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 76c47bba6da3b63cb18b5f1fb41325bd21328cbc
-    new: 9c356f50cb31f0f2a3b233a5297f751a14ad1ed2
-    log: revlist-76c47bba6da3-9c356f50cb31.txt
+  - ref: refs/heads/net-next
+    old: 5d0f806c7608fe61c73b31b28411ebb94b962ebf
+    new: 662271a677e2e2d2f9a2c8d894f664b7063fd4f7
+    log: revlist-5d0f806c7608-662271a677e2.txt
 
---===============5522581250173294638==
+--===============2964460538949966672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76c47bba6da3-9c356f50cb31.txt
+Content-Disposition: attachment; filename=revlist-5d0f806c7608-662271a677e2.txt
 
-487193856eafa0aea498aa3a5ec0701828e79743 drm/amd/display: 3.2.116
-8ccbfdf0b9c334196cc45260c14081855d729bc8 drm/amd/display: Fixed kernel test robot warning
-fd496ca892f52df6eb0a0bfcdef1378aed966624 drm/amdgpu: split BOCO and ATPX handling
-b10c1c5b3a4e3f1f166ab48c3619d8348a4e9c5d drm/amdgpu: add check for ACPI power resources
-0330b8487842924351663878582b777002792acd drm/amdgpu: update amdgpu_device_supports_boco()
-157e8306038cf54e3c5149e72ad88ac0448ec7e2 drm/amdgpu: support runtime pm for GPUs that support BOCO
-ceb4de67c96051967c7c0095fc6036ef0d1e1248 drm/amdgpu: no need to call pci_ignore_hotplug for _PR3
-637bb036ce665cede8914c4dca540d8f9f38af65 drm/amdgpu: simplify logic in atpx resume handling
-d00a88ab5870f16623df9380ab85dd732667d4c8 drm/amdgpu: print what method we are using for runtime pm
 8409e20e0785c0fc689446318c50eb11eb5ae0fe drm/amd/display: Adding prototype for dccg21_update_dpp_dto()
 325f4b59f6361df0e20a39acd3b89c265d6ca2a8 drm/amdkfd: correct amdgpu_amdkfd_gpuvm_alloc_memory_of_gpu log.
 3aa883ac8eea38281f97a7409d2922e6f343bf6c drm/amdgpu/SRIOV: Extend VF reset request wait period
@@ -974,6 +965,7 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 7c1f42bbc5e800633a03c76675e29b7836686669 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
 bf00bd2d65239069d01e5b14c52af927c503a812 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux into net-next
+42e8ad08d82ed2a9e4799fab15245f6787b84e7a net: ipv6: Validate GSO SKB before finish IPv6 processing
 fc69bb1ec287af84a84774440a55f6f72225b2d7 devlink: Prepare code to fill multiple port function attributes
 a4205b6a74b1ec6e30cedb2c50266f2a46d893f8 devlink: Introduce PCI SF port flavour and port attribute
 781a67451fac9f566ea6c503b8b9fd804c090c0a devlink: Support add and delete devlink port
@@ -1050,5 +1042,13 @@ ad939239167f6ddd17f05040e3e96ca69812cbda net/mlx5e: Enable napi in channel's act
 3c92025eacaa64405ed6ede17af0c379b1a51303 net/mlx5e: Increase indirection RQ table size to 256
 223b8f521894f57ef86a12606ed2912dff95cb9b net/mlx5: Check switchdev mode when check if multi-port or ib is supported
 9c356f50cb31f0f2a3b233a5297f751a14ad1ed2 fixup! net/mlx5e: Enable napi in channel's activation stage
+85b78920ba3c613fbf347001a037e90e75dcac79 Merge commit 'refs/changes/41/361341/8' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+0fee8fb174534e2f1921ffebf163b3e74e3a654f net/mlx5e: rep: Improve reg_cX conditions
+c244dac80ce719f20afdf0b24116ee14390e3f03 Merge branch 'net-next-mlx4' into net-next
+abe36cc395996ffbd3be21e3718e515cd7631420 Merge branch 'mlx5-vdpa' into net-next
+012bd084e8301bbd5c5a49a8e210420e3ac0c6fa Merge branch 'net-next-mlx5' into net-next
+b952087a00f7b6752f7f54ff24c2117a8b7c92e0 Merge branch 'net-mlx4' into net-next
+3280dd0916375a2f615874e45eee60a9b26401ba Merge branch 'net-mlx5' into net-next
+662271a677e2e2d2f9a2c8d894f664b7063fd4f7 Merge branch 'net-next-test' into net-next
 
---===============5522581250173294638==--
+--===============2964460538949966672==--
