@@ -1,31 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4723727468246756871=="
+Content-Type: multipart/mixed; boundary="===============7006820874059793922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Sun, 03 Jan 2021 12:58:45 -0000
-Message-Id: <160967872560.15024.1076060106939598288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Sun, 03 Jan 2021 14:57:49 -0000
+Message-Id: <160968586966.26814.6144737077355935689@gitolite.kernel.org>
 
---===============4723727468246756871==
+--===============7006820874059793922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/mediatek-cmdq3
-    old: 1c7249b019067316f7f7dd7ff638d7e48bb02a71
-    new: c1afe6d5e19e6490abab65e24b62921a6a288fbf
-    log: revlist-1c7249b01906-c1afe6d5e19e.txt
+  - ref: refs/heads/at24/for-current
+    old: 4e302c3b568eaf2aeebba804c07aba5d921a8c9e
+    new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+    log: revlist-4e302c3b568e-5c8fe583cce5.txt
 
---===============4723727468246756871==
+--===============7006820874059793922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c7249b01906-c1afe6d5e19e.txt
+Content-Disposition: attachment; filename=revlist-4e302c3b568e-5c8fe583cce5.txt
 
+ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
+214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
+4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
+6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
+36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
+03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
+5d37fc0b087fb276a257034c5a1dfdbfaa08be66 ia64: remove 'ifdef CONFIG_ZONE_DMA32' statements
+b90b5547685ffe2b30522b81a1c9f6c35e1152de ia64: discontig: paging_init(): remove local max_pfn calculation
+1f112129975e7a47324ba71b00e8e2c962177843 ia64: split virtual map initialization out of paging_init()
+ea34f78f3df62e531cf2beca997ff6bfae2b1e0d ia64: forbid using VIRTUAL_MEM_MAP with FLATMEM
+214496cb18700fd7c5206ac33768876dbf68b4df ia64: make SPARSEMEM default and disable DISCONTIGMEM
+5e545df3292fbd3d5963c68980f1527ead2a2b3f arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
+4f5b0c1789963477cc9a4d45b4b62d694665cceb arm, arm64: move free_unused_memmap() to generic mm
+050b2da268f8fc4f8123f6462c430a61547b2f7b arc: use FLATMEM with freeing of unused memory map instead of DISCONTIGMEM
+6b2ad8d763727b887d85c990747271ee804d9abb m68k/mm: make node data and node setup depend on CONFIG_DISCONTIGMEM
+4bfc848e0981fcd35db00fe1c6581560689f6dc7 m68k/mm: enable use of generic memory_model.h for !DISCONTIGMEM
+fcd353a314213534d04193eea0bc54c4b7a3e1b0 m68k: deprecate DISCONTIGMEM
+77bc7fd607dee2ffb28daff6d0dd8ae42af61ea8 mm: introduce debug_pagealloc_{map,unmap}_pages() helpers
+2abf962a8d42b32f5ffeb827826290b799c85f86 PM: hibernate: make direct map manipulations more explicit
 5d6ad668f31625c6aa9ed8dc3bdb29561d2b1144 arch, mm: restore dependency of __kernel_map_pages() on DEBUG_PAGEALLOC
 32a0de886eb3cb7e6990da27a9cdfa50baa8be64 arch, mm: make kernel_page_present() always available
 7115ac6ef0b26017676e88a44a0b40c2d1d99299 mm, page_alloc: clean up pageset high and batch update
@@ -1031,24 +1050,5 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
-c822584e27911c5af089a366cb5eca378a1cd5ea drm/mediatek: Get CMDQ client register for all ddp component
-6ea6f8276725dc60cf8fe9a023b5f2c4cbb673a3 drm/mediatek: Use correct device pointer to get CMDQ client register
-926df14ec571f6cdbf6d941a0f1be112bf7a7535 drm/mediatek: Separate getting larb device to a function
-c0d36de868a6834f0124d248ac5c313d3c4d90bf drm/mediatek: Move clk info from struct mtk_ddp_comp to sub driver private data
-3c87daefc5c3637bed36f1f29dc9bbf3506cba55 drm/mediatek: Move regs info from struct mtk_ddp_comp to sub driver private data
-993fd584942a75edda5e9cdec24c590c7a766b2d drm/mediatek: Remove irq in struct mtk_ddp_comp
-f22a565d10e756f1a6141ecd8762c58aa1788db8 drm/mediatek: Use struct cmdq_client_reg to gather cmdq variable
-616443ca577efccd3f67ac7f875ed68e70b34012 drm/mediatek: Move cmdq_reg info from struct mtk_ddp_comp to sub driver private data
-ec0f3c7db1c5171398469e305cda547b1ab7477b drm/mediatek: Change sub driver interface from mtk_ddp_comp to device
-67d8ad9c740d23bf1633491c4b03b429739a5b71 drm/mediatek: Register vblank callback function
-c933f6d3f1a808b6a6786eb4b1f1406eaa451fb3 drm/mediatek: DRM driver directly refer to sub driver's function
-b2eb3db88c8be3a588e3334d8f7a73a1bbca8a72 drm/mediatek: Move mtk_ddp_comp_init() from sub driver to DRM driver
-5c399c51f72ce68e0f8a0068dbb535b470922e69 drm/mediatek: dsi: Use IRQF_TRIGGER_NONE for dsi irq trigger type
-41020a243f1510ba9ba4aa117e0308272c52ea4b drm/mediatek: Remove redundant file including
-68b486872dd700dfa3cefb6a26a3c9b1a6ab6f43 drm/mediatek: Rename file mtk_drm_ddp to mtk_mutex
-31d9705b38cbf01c6a9f4047fb1dee6309b3ff42 drm/mediatek: Change disp/ddp term to mutex in mtk mutex driver
-3edc87c4ee73d276f1fd634920631800bf5a7904 drm/mediatek: Automatically search unclaimed mtk mutex in mtk_mutex_get()
-975dacd7c4d260adda0348a9f0227e50c16390a0 soc / drm: mediatek: Move mtk mutex driver to soc folder
-c1afe6d5e19e6490abab65e24b62921a6a288fbf soc: mediatek: cmdq: Remove cmdq_pkt_flush()
 
---===============4723727468246756871==--
+--===============7006820874059793922==--
