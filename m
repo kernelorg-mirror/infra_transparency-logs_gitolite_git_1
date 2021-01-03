@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3227146049141994557=="
+Content-Type: multipart/mixed; boundary="===============5421184318633537975=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sun, 03 Jan 2021 20:55:34 -0000
-Message-Id: <160970733486.22584.18404135816730512649@gitolite.kernel.org>
+Date: Sun, 03 Jan 2021 21:14:03 -0000
+Message-Id: <160970844324.31679.12226509966524440267@gitolite.kernel.org>
 
---===============3227146049141994557==
+--===============5421184318633537975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelloni/linux
 user: abelloni
 changes:
-  - ref: refs/heads/rtc-next
-    old: 71ac13457d9d1007effde65b54818106b2c2b525
+  - ref: refs/heads/rtc-fixes
+    old: 9123e3a74ec7b934a4a099e98af6a61c2f80bbf5
     new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    log: revlist-71ac13457d9d-5c8fe583cce5.txt
+    log: revlist-9123e3a74ec7-5c8fe583cce5.txt
 
---===============3227146049141994557==
+--===============5421184318633537975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71ac13457d9d-5c8fe583cce5.txt
+Content-Disposition: attachment; filename=revlist-9123e3a74ec7-5c8fe583cce5.txt
 
-56db19fef3f1c28a2fac37079eb276aaffec2e3d docs/vm: remove unused 3 items explanation for /proc/vmstat
-c041098c690fe53cea5d20c62f128a4f7a5c19fe mm/vmalloc.c: fix kasan shadow poisoning size
-e89a85d63fb2e187f5afcbf83c12743132596563 workqueue: kasan: record workqueue stack
 ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
 214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
 4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
@@ -183,6 +180,7 @@ fc574c23558c63799dd99a9bb1d62e33708abaf5 mm/swap.c: serialize memcg changes in p
 6cf5abbfa8c8a2826d56e38ed1956a0e2f0c85b9 cifs: fix use after free in cifs_smb3_do_mount()
 cd7b699b0198a7fc24f6dc79985f6151f589518c cifs: Tracepoints and logs for tracing credit changes.
 2cffa11e2aa76a0560c890f057858b68fe744d03 Merge tag 'irq-core-2020-12-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f70cc33029fca3cf62bffb15102ea42eb4d097ac rtc: fix RTC removal
 a45f1d43311d3a4f6534e48a3655ba3247a59d48 Merge tag 'regmap-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 2dda5700ef6af806e0358f63d81eb436a0d280fa Merge tag 'regulator-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 605ea5aafe1341ac9b2144516f898ac78ad49c40 Merge tag 'spi-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
@@ -739,6 +737,8 @@ aeefc1a01e7c3905580a981e93032cd452275c99 dt-bindings: display: eliminate yamllin
 21df8683b85611c8267fdf87ebb7b4056b88ad3a dt-bindings/display: abt,y030xx067a: Fix binding
 3644e2d2dda78e21edd8f5415b6d7ab03f5f54f3 mm/filemap: fix infinite loop in generic_file_buffered_read()
 f6f5cd840ae782680c5e94048c72420e4e6857f9 timekeeping: Fix spelling mistake in Kconfig "fullfill" -> "fulfill"
+320d159e2d63a97a40f24cd6dfda5a57eec65b91 dt-bindings: rtc: add reset-source property
+71ac13457d9d1007effde65b54818106b2c2b525 rtc: pcf2127: only use watchdog when explicitly available
 9541b81322e60120b299222919957becd7a13683 Add SMB 2 support for getting and setting SACLs
 6190c0ccaf5dfee845df9c9cd8ad9fdc5856bb41 xen: Kconfig: remove X86_64 depends from XEN_512GB
 dd20166236953c8cd14f4c668bf972af32f0c6be io_uring: fix 0-iov read buffer select
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 
---===============3227146049141994557==--
+--===============5421184318633537975==--
