@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2920271697932568162=="
+Content-Type: multipart/mixed; boundary="===============0064382331763889827=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Sun, 03 Jan 2021 14:59:27 -0000
-Message-Id: <160968596755.27365.16549687010698852481@gitolite.kernel.org>
+Date: Sun, 03 Jan 2021 14:59:44 -0000
+Message-Id: <160968598402.27494.12545221514684270560@gitolite.kernel.org>
 
---===============2920271697932568162==
+--===============0064382331763889827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 7ee1a01e47403f72b9f38839a737692f6991263e
+  - ref: refs/heads/gpio/for-next
+    old: b5252196d08abd82f3b21532354f71a40dd2801d
     new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    log: revlist-7ee1a01e4740-5c8fe583cce5.txt
+    log: revlist-b5252196d08a-5c8fe583cce5.txt
 
---===============2920271697932568162==
+--===============0064382331763889827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ee1a01e4740-5c8fe583cce5.txt
+Content-Disposition: attachment; filename=revlist-b5252196d08a-5c8fe583cce5.txt
 
 ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
 214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 
---===============2920271697932568162==--
+--===============0064382331763889827==--
