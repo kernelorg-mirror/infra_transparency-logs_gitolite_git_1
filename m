@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Sat, 02 Jan 2021 22:04:25 -0000
-Message-Id: <160962506595.2264.16520747736976799199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Sun, 03 Jan 2021 00:43:00 -0000
+Message-Id: <160963458076.485.10593046092387975739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 1862eb007367f9e4cfd52d0406742de337b28ebf
-    new: fecff3b931a52c8d5263fb1537161f0214acb44a
+    old: da4282c17d695b9311608aa63b3c633e649aadea
+    new: 04901aab40ea3779f6fc6383ef74d8e130e817bf
     log: |
-         fecff3b931a52c8d5263fb1537161f0214acb44a crypto: picoxcell - Remove PicoXcell driver
+         04901aab40ea3779f6fc6383ef74d8e130e817bf bpf: Fix a task_iter bug caused by a merge conflict resolution
          
