@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Sun, 03 Jan 2021 16:40:53 -0000
-Message-Id: <160969205358.26447.13215182858075423588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sun, 03 Jan 2021 16:48:42 -0000
+Message-Id: <160969252239.29950.16556588812837035714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
   - ref: refs/heads/for-next
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: bd96a89ca3fe874c98fe057cccb087603d76e5d4
+    old: f5bc3ac4f5d4acbd933abb68273f1fb9fa454380
+    new: ef2a4443c150b5319c059c332675ed069b3845a3
     log: |
-         a2d522ff0f5cc26915c4ccee9457fd4b4e1edc48 memory: mtk-smi: Fix PM usage counter unbalance in mtk_smi ops
-         bd96a89ca3fe874c98fe057cccb087603d76e5d4 memory: emif: Use DEFINE_SPINLOCK() for spinlock
+         4a928b3b7c0f8a2ae382c3db3a78898877567786 ARM: dts: exynos: Fix charging regulator voltage and current for I9100
+         3803f461bd28c1c817281348509399778633e82f ARM: dts: exynos: Add top-off charging regulator node for I9100
+         ef2a4443c150b5319c059c332675ed069b3845a3 Merge branch 'next/dt' into for-next
          
-  - ref: refs/heads/mem-ctrl-next
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: bd96a89ca3fe874c98fe057cccb087603d76e5d4
+  - ref: refs/heads/next/dt
+    old: 4a928b3b7c0f8a2ae382c3db3a78898877567786
+    new: 3803f461bd28c1c817281348509399778633e82f
     log: |
-         a2d522ff0f5cc26915c4ccee9457fd4b4e1edc48 memory: mtk-smi: Fix PM usage counter unbalance in mtk_smi ops
-         bd96a89ca3fe874c98fe057cccb087603d76e5d4 memory: emif: Use DEFINE_SPINLOCK() for spinlock
+         3803f461bd28c1c817281348509399778633e82f ARM: dts: exynos: Add top-off charging regulator node for I9100
          
