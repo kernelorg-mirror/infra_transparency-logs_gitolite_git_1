@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0064382331763889827=="
+Content-Type: multipart/mixed; boundary="===============7236081733109873419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Sun, 03 Jan 2021 14:59:44 -0000
-Message-Id: <160968598402.27494.12545221514684270560@gitolite.kernel.org>
+Date: Sun, 03 Jan 2021 14:59:58 -0000
+Message-Id: <160968599811.27654.13941260592954774082@gitolite.kernel.org>
 
---===============0064382331763889827==
+--===============7236081733109873419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: b5252196d08abd82f3b21532354f71a40dd2801d
-    new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    log: revlist-b5252196d08a-5c8fe583cce5.txt
+  - ref: refs/heads/master
+    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
+    new: c76e02c59e13ae6c22cc091786d16c01bee23a14
+    log: revlist-3650b228f83a-c76e02c59e13.txt
 
---===============0064382331763889827==
+--===============7236081733109873419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b5252196d08a-5c8fe583cce5.txt
+Content-Disposition: attachment; filename=revlist-3650b228f83a-c76e02c59e13.txt
 
-ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
-214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
-4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
 6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
 36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
 03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
@@ -340,6 +337,7 @@ e0d62dcb20beac18a412ef9355208d9058c674d3 s390/delay: remove udelay_simple()
 7494755a9ad62be7e389b535c77e85ed9c66bece s390/idle: remove raw_local_irq_save()/restore() from arch_cpu_idle()
 8d93b7011831edc42760aa5d2f0727edda7257d5 s390/idle: allow arch_cpu_idle() to be kprobed
 dfdc6e73cdcf011a04568231132916c6d06b861f s390/zcrypt: convert comma to semicolon
+2d18e54dd8662442ef5898c6bdadeaf90b3cebbc cgroup: Fix memory leak when parsing multiple source parameters
 846f151d03f796bf1b303784edaf3a22e3f51377 drm/ttm: fix unused function warning
 34cdf405aa5de827b8bef79a6c82c39120b3729b ALSA: hda/realtek: Remove dummy lineout on Acer TravelMate P648/P658
 57030a0b620f735bf557696e5ceb9f32c2b3bb8f lan743x: fix rx_napi_poll/interrupt ping-pong
@@ -1050,5 +1048,7 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
+91afe604c15405a7b15d1464f224372cd82d3e2c Merge branch 'for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+c76e02c59e13ae6c22cc091786d16c01bee23a14 Merge branch 'for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 
---===============0064382331763889827==--
+--===============7236081733109873419==--
