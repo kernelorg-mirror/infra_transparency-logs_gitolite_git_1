@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2937849470176083255=="
+Content-Type: multipart/mixed; boundary="===============0820978647198740968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 04 Jan 2021 15:47:15 -0000
-Message-Id: <160977523586.4719.11226906943599778705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 04 Jan 2021 15:47:20 -0000
+Message-Id: <160977524049.4848.6033918443843805673@gitolite.kernel.org>
 
---===============2937849470176083255==
+--===============0820978647198740968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 8abc7aa5d31067372903fb523ed96e8470b92d50
 
---===============2937849470176083255==
+--===============0820978647198740968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1057,4 @@ d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.ke
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
 
---===============2937849470176083255==--
+--===============0820978647198740968==--
