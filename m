@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5140788103431997796=="
+Content-Type: multipart/mixed; boundary="===============6215613781394817000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 04 Jan 2021 08:46:34 -0000
-Message-Id: <160974999475.16851.8569784649861459922@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 08:47:06 -0000
+Message-Id: <160975002614.17058.12088205136757989829@gitolite.kernel.org>
 
---===============5140788103431997796==
+--===============6215613781394817000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 0477e92881850d44910a7e94fc2c46f96faa131f
+  - ref: refs/heads/usb-next
+    old: fddd408ad448efc49c67f8dfdc4e86b31c683a0c
     new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    log: revlist-0477e9288185-5c8fe583cce5.txt
+    log: revlist-fddd408ad448-5c8fe583cce5.txt
 
---===============5140788103431997796==
+--===============6215613781394817000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0477e9288185-5c8fe583cce5.txt
+Content-Disposition: attachment; filename=revlist-fddd408ad448-5c8fe583cce5.txt
 
 ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
 214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 
---===============5140788103431997796==--
+--===============6215613781394817000==--
