@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4309939875315885268=="
+Content-Type: multipart/mixed; boundary="===============2111402326555480158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 04 Jan 2021 10:04:16 -0000
-Message-Id: <160975465614.4197.2068801229687297881@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 10:04:21 -0000
+Message-Id: <160975466105.4283.12981071237695812224@gitolite.kernel.org>
 
---===============4309939875315885268==
+--===============2111402326555480158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 7ad3b1ea2375da6fdd5f9e4c902fd4660fd419ed
-    new: 372db483c50711db1dbc28f2e8183a16907dbed0
-    log: revlist-7ad3b1ea2375-372db483c507.txt
+  - ref: refs/heads/m68k-queue
+    old: 88110bd69b55fbedceef7306052a08cc87ad4809
+    new: 5e8704c4abcd813e1fa08cc64502441c4fe9de86
+    log: revlist-88110bd69b55-5e8704c4abcd.txt
 
---===============4309939875315885268==
+--===============2111402326555480158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ad3b1ea2375-372db483c507.txt
+Content-Disposition: attachment; filename=revlist-88110bd69b55-5e8704c4abcd.txt
 
 01341fbd0d8d4e717fc1231cdffe00343088ce0b workqueue: Kick a worker based on the actual activation of delayed works
 58315c96651152b9f438e5e56c910994234e2c7a kernel: cgroup: Mundane spelling fixes throughout the file
@@ -100,6 +100,8 @@ eda809aef53426d044b519405d25d9da55319b76 Merge tag 'scsi-fixes' of git://git.ker
 d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
-372db483c50711db1dbc28f2e8183a16907dbed0 Merge tag 'v5.11-rc2'
+742c1f60901c6d9bea2da29a600c6aad2512580a m68k: atari: usb: Add ISP1160 USB host controller support
+53779bfe97736df07628650ff8b9e73a1550ccd4 m68k: atari: Update Kconfig.bus help text
+5e8704c4abcd813e1fa08cc64502441c4fe9de86 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4309939875315885268==--
+--===============2111402326555480158==--
