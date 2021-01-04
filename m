@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3210269679818393880=="
+Content-Type: multipart/mixed; boundary="===============7516061372542346909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 04 Jan 2021 01:41:11 -0000
-Message-Id: <160972447195.8035.14393906823473995769@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 01:41:28 -0000
+Message-Id: <160972448886.8185.16004404337927125077@gitolite.kernel.org>
 
---===============3210269679818393880==
+--===============7516061372542346909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
-    old: 63e184ea9869e433f7201fd1d4536d56888e5bcf
-    new: 9bba03d4473df0b707224d4d2067b62d1e1e2a77
-    log: revlist-63e184ea9869-9bba03d4473d.txt
+  - ref: refs/heads/master
+    old: 614cb5894306cfa2c7d9b6168182876ff5948735
+    new: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
+    log: revlist-614cb5894306-e71ba9452f0b.txt
+  - ref: refs/tags/v5.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 4a191eab42bda9fba2742d8d538609c737b8194e
+  - ref: refs/tags/v5.11-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 8abc7aa5d31067372903fb523ed96e8470b92d50
 
---===============3210269679818393880==
+--===============7516061372542346909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63e184ea9869-9bba03d4473d.txt
+Content-Disposition: attachment; filename=revlist-614cb5894306-e71ba9452f0b.txt
 
 bc13809f1c47245cd584f4ad31ad06a5c5f40e54 efi/libstub/x86: simplify efi_is_native()
 688eb28211abdf82a3f51e8997f1c8137947227d efi/x86: Only copy the compressed kernel image in efi_relocate_kernel()
@@ -470,10 +476,5 @@ eda809aef53426d044b519405d25d9da55319b76 Merge tag 'scsi-fixes' of git://git.ker
 d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
-5136bb8c8b5872676f397b27f93a30568baf3a25 MAINTAINERS: adjust GCC PLUGINS after gcc-plugin.sh removal
-d39648eb67ac851c7918c794424c266a5d2635b9 kconfig: config script: add a little user help
-c0f975af1745391749e4306aa8081b9a4d2cced8 kconfig: Support building mconf with vendor sysroot ncurses
-0c36d88cff4d72149f94809303c5180b6f716d39 lib/raid6: Let $(UNROLL) rules work with macOS userland
-9bba03d4473df0b707224d4d2067b62d1e1e2a77 kconfig: remove 'kvmconfig' and 'xenconfig' shorthands
 
---===============3210269679818393880==--
+--===============7516061372542346909==--
