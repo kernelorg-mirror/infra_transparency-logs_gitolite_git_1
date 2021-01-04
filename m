@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 04 Jan 2021 15:28:56 -0000
-Message-Id: <160977413636.26151.8223869886261850724@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 15:30:46 -0000
+Message-Id: <160977424654.28144.9902443740805349166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
   - ref: refs/heads/usb-linus
-    old: d6c1ddd938d84a1adef7e19e8efc10e1b4df5034
-    new: 0e2d6795e8dbe91c2f5473564c6b25d11df3778b
+    old: 0e2d6795e8dbe91c2f5473564c6b25d11df3778b
+    new: 54d0a3ab80f49f19ee916def62fe067596833403
     log: |
-         0e2d6795e8dbe91c2f5473564c6b25d11df3778b USB: serial: option: add LongSung M5710 module support
+         54d0a3ab80f49f19ee916def62fe067596833403 USB: serial: iuu_phoenix: fix DMA from stack
          
