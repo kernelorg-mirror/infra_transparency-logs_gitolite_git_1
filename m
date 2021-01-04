@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3928856999264097573=="
+Content-Type: multipart/mixed; boundary="===============7464339820723668596=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 04 Jan 2021 07:55:23 -0000
-Message-Id: <160974692319.18402.15879078320465703982@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 07:55:47 -0000
+Message-Id: <160974694764.18622.5399796468370354811@gitolite.kernel.org>
 
---===============3928856999264097573==
+--===============7464339820723668596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-linux-next
     old: 0477e92881850d44910a7e94fc2c46f96faa131f
     new: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
     log: revlist-0477e9288185-e71ba9452f0b.txt
 
---===============3928856999264097573==
+--===============7464339820723668596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.ke
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
 
---===============3928856999264097573==--
+--===============7464339820723668596==--
