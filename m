@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 04 Jan 2021 22:45:49 -0000
-Message-Id: <160980034912.19256.8600767809471442798@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 22:45:53 -0000
+Message-Id: <160980035378.19344.15519623614038140643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 8ee6047613cca15b2bf3bcfcc906615108395999
-    new: 6c25cf62d4523a73dc788e8096785fc8c1d43d63
+  - ref: refs/heads/net-rc
+    old: 44e09a309ef66192ea4a6a0c2fa7b108cb2bad71
+    new: dc74df46770a963ae23a1758f264a7460a76f342
     log: |
-         9087442f75c0ce64eb1b595debc39be7442c77e8 net/mlx5e: CT : Rename shared counter
-         eb17281151dbc231e504e3196a733e24de599600 net/mlx5e: CT: Use per flow counter when CT flow accounting is enabled
-         5afa083e8d46b6916332f0030f37a5b50d3bf2ba net: ipv6: Validate GSO SKB before finish IPv6 processing
-         db27968e4d8528f1563e1f6145b2892f52119df6 net/mlx5e: Fix SWP offsets when vlan inserted by driver
-         4ea5561c04772ca95b58ec763e82ca455bfa2f07 net/mlx5: E-Switch, fix changing vf VLANID
-         dd75d0bf5ff1906304607eb7717441c2499155ce net/mlx5e: In skb build skip setting mark in switchdev mode
-         6c25cf62d4523a73dc788e8096785fc8c1d43d63 net/mlx5e: ethtool, Fix restriction of autoneg with 56G
+         95e0e923406e33c0a6ef49afaf1f69b5598480fd Merge commit 'refs/changes/74/362074/1' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
+         62a823ea81f027516d4251c261df9f419a7121ff Merge commit 'refs/changes/41/361341/8' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
+         6829f853fdeba834a5d5f7d823a56a7c450478d7 Merge branch 'net-mlx4' into net-rc
+         d673176a24e899b92e9297c606be66ee418a7579 Merge branch 'net-mlx5' into net-rc
+         dc74df46770a963ae23a1758f264a7460a76f342 Merge branch 'net-mlx5-test' into net-rc
          
