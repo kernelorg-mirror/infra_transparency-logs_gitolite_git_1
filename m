@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7207255229469101892=="
+Content-Type: multipart/mixed; boundary="===============2015653888683624646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 04 Jan 2021 16:25:13 -0000
-Message-Id: <160977751360.453.10315483892466628682@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 16:26:51 -0000
+Message-Id: <160977761185.1067.16345206338279990635@gitolite.kernel.org>
 
---===============7207255229469101892==
+--===============2015653888683624646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
-    new: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
-    log: revlist-3650b228f83a-e71ba9452f0b.txt
+  - ref: refs/heads/next
+    old: 63df571c37d9c047c78126a5815cbad8b8954199
+    new: df00d02989024d193a6efd1a85513a5658c6a10f
+    log: revlist-63df571c37d9-df00d0298902.txt
 
---===============7207255229469101892==
+--===============2015653888683624646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3650b228f83a-e71ba9452f0b.txt
+Content-Disposition: attachment; filename=revlist-63df571c37d9-df00d0298902.txt
 
-7fc2513aa237e2ce239ab54d7b04d1d79b317110 hugetlb: fix an error code in hugetlb_reserve_pages()
-597c892038e08098b17ccfe65afd9677e6979800 mm: don't wake kswapd prematurely when watermark boosting is disabled
 2b47a24cee0eedbb9b106ef3e992db0ddf48f740 mm/vmscan: drop unneeded assignment in kswapd()
 8d87d07c9283b45fd50f15d488368d0be6492a17 mm/vmscan.c: remove the filename in the top of file comment
 2484be0f88dc6c9670362d51f6a04f2da0626b50 mm/page_isolation: do not isolate the max order page
@@ -1050,5 +1048,7 @@ eda809aef53426d044b519405d25d9da55319b76 Merge tag 'scsi-fixes' of git://git.ker
 d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
+3b4cf848dad5dad4bf239ba664c809c8cf29f1ed selftests/vDSO: add additional binaries to .gitignore
+df00d02989024d193a6efd1a85513a5658c6a10f selftests/vDSO: fix -Wformat warning in vdso_test_correctness
 
---===============7207255229469101892==--
+--===============2015653888683624646==--
