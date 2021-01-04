@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4642640234686831931=="
+Content-Type: multipart/mixed; boundary="===============6025750885291641125=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 04 Jan 2021 14:16:39 -0000
-Message-Id: <160976979902.10427.338794858513627841@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 14:19:33 -0000
+Message-Id: <160976997348.11460.7361841874571091741@gitolite.kernel.org>
 
---===============4642640234686831931==
+--===============6025750885291641125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,184 +16,206 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: bf0716adbe253a4b12839504f849f5e9653804c3
-    new: 4ce475d08c2912153f633303aefc03b3913bc34c
-    log: revlist-bf0716adbe25-4ce475d08c29.txt
+    old: 4ce475d08c2912153f633303aefc03b3913bc34c
+    new: 9bf3b6b67e76487f871708bfb2353a5b3e73418e
+    log: revlist-4ce475d08c29-9bf3b6b67e76.txt
   - ref: refs/heads/queue/4.19
-    old: 4ef62441d75bbead746c38e2b8904b2b18866c30
-    new: 7b3112a868f190cb019d471e3755d0706458dc5a
-    log: revlist-4ef62441d75b-7b3112a868f1.txt
+    old: 7b3112a868f190cb019d471e3755d0706458dc5a
+    new: 71fb42eb177e5a9c0d0750b09e2a95f79f4ed1cc
+    log: revlist-7b3112a868f1-71fb42eb177e.txt
   - ref: refs/heads/queue/4.4
-    old: e812c25cadf89003dabc69270946a5a260319c7d
-    new: f95816b2026b30d43554e8d27e3709b517fe492e
-    log: revlist-e812c25cadf8-f95816b2026b.txt
+    old: f95816b2026b30d43554e8d27e3709b517fe492e
+    new: a722eee059b7065c129362b599b21e96f077f945
+    log: revlist-f95816b2026b-a722eee059b7.txt
   - ref: refs/heads/queue/4.9
-    old: 2cd611c5ad795535c579db2eccb80ee6cb172e6a
-    new: 3a7dfb94737d25f1060f768cea79a64f0bd51d6c
-    log: revlist-2cd611c5ad79-3a7dfb94737d.txt
+    old: 3a7dfb94737d25f1060f768cea79a64f0bd51d6c
+    new: 5fbf4566aff0586f7cf23dd56509c82262a8efd8
+    log: revlist-3a7dfb94737d-5fbf4566aff0.txt
   - ref: refs/heads/queue/5.10
-    old: 47d0457132d6dbb23cf7c333618b4a5ce2c536f3
-    new: 20e897c5ac0d94f32e5e2b7b12ed45fb939404f1
-    log: revlist-47d0457132d6-20e897c5ac0d.txt
+    old: 20e897c5ac0d94f32e5e2b7b12ed45fb939404f1
+    new: 6863b1d435f9797101e185fd7a5349549e53491d
+    log: revlist-20e897c5ac0d-6863b1d435f9.txt
   - ref: refs/heads/queue/5.4
-    old: a0c89ecea0511fc22b77a672b4c61242a940d88b
-    new: 6a686326f9d31ab8408905e3f30dd1fd2e7831eb
-    log: revlist-a0c89ecea051-6a686326f9d3.txt
+    old: 6a686326f9d31ab8408905e3f30dd1fd2e7831eb
+    new: bce6d65e15e8a0931c8dd86f22e79422b450dd33
+    log: revlist-6a686326f9d3-bce6d65e15e8.txt
 
---===============4642640234686831931==
+--===============6025750885291641125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf0716adbe25-4ce475d08c29.txt
+Content-Disposition: attachment; filename=revlist-4ce475d08c29-9bf3b6b67e76.txt
 
-7f337052422f0ceb90417f1066797039b0d2fd07 x86/entry/64: Add instruction suffix
-f5dbe6d97228542b3335b593ccd922f986e4e9bd md/raid10: initialize r10_bio->read_slot before use.
-c3bddea0306353556dbca29ac2f9eef715ee03cc ALSA: hda/ca0132 - Fix work handling in delayed HP detection
-468064f2ef4180311b2bf3a0b6ef9dc8b3ceb5fb ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
-eb2050cee82a4d589d121a20b5d3590b8d916ecc ALSA: usb-audio: fix sync-ep altsetting sanity check
-649f913be9cac513c32f8330e6ea33e57ada634a mm: memcontrol: eliminate raw access to stat and event counters
-207f6f69fecf23864aa86f9b6deef7a3f1ee090f mm: memcontrol: implement lruvec stat functions on top of each other
-2f537b52d335383a92ff1b9b4f903dd0d37b92f7 mm: memcontrol: fix excessive complexity in memory.stat reporting
-351470036517029134556f66822b3da64f739a4a vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
-29840f43cce6e1628a5ef788ada5684f6c631293 s390/dasd: fix hanging device offline processing
-05bf90ffc4e197ff1d92d86727dfbaa039df15f2 USB: serial: digi_acceleport: fix write-wakeup deadlocks
-2987dca9a979c6b83c1934ab428018ef3c9718ea powerpc/bitops: Fix possible undefined behaviour with fls() and fls64()
-6f424f61f63c8da9cc3cce1212e92f8a338c4284 uapi: move constants from <linux/kernel.h> to <linux/const.h>
-4ce475d08c2912153f633303aefc03b3913bc34c of: fix linker-section match-table corruption
+ed521a4cc6c183b7aac67b68b1c7381a0978b85b x86/entry/64: Add instruction suffix
+42eea95f79568ac48cb60bf1a8234bae875dfc61 md/raid10: initialize r10_bio->read_slot before use.
+d7ec8e8092576d654f3b78abe230cbb07ab71fc5 ALSA: hda/ca0132 - Fix work handling in delayed HP detection
+a3f7cdabdfbbe865482ad0b76d41af03d027bb44 ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
+0ba69daeb9ae920b36b06a81849e569c13951b67 ALSA: usb-audio: fix sync-ep altsetting sanity check
+a77e44459010cf354391111e7f85ab53bff26998 mm: memcontrol: eliminate raw access to stat and event counters
+8d842fc5c3e74faee640235221b900a0d839760f mm: memcontrol: implement lruvec stat functions on top of each other
+5f37ec7eed54688326529d7b66d549f23faa5ab2 mm: memcontrol: fix excessive complexity in memory.stat reporting
+761bc5b5d0e2590ed569e9dfab23907a8a11a863 vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
+17cfc9f4f7439eddf654a0abce0634c540b8e681 s390/dasd: fix hanging device offline processing
+db8faae53c4f2871c60e2c90d831f1d460e137ef USB: serial: digi_acceleport: fix write-wakeup deadlocks
+4fbfb0b124bec4fa6881780926ef7d6d6271d770 powerpc/bitops: Fix possible undefined behaviour with fls() and fls64()
+9dc7762ae2f1201bd2c4b02747fc276c17bb7638 uapi: move constants from <linux/kernel.h> to <linux/const.h>
+b52ffc9200fb21006834309cf0ba4e489a67105f of: fix linker-section match-table corruption
+405e7da89a7ebde5bd6e57ad1e4c91e03d0645f2 reiserfs: add check for an invalid ih_entry_count
+56c4607310651c33f23dcb9f13d9400e99f5d85d misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
+0134fbc0fa758c51b77615e05d5d0b7c27b19c29 media: gp8psk: initialize stats at power control logic
+9bf3b6b67e76487f871708bfb2353a5b3e73418e ALSA: seq: Use bool for snd_seq_queue internal flags
 
---===============4642640234686831931==
+--===============6025750885291641125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ef62441d75b-7b3112a868f1.txt
+Content-Disposition: attachment; filename=revlist-7b3112a868f1-71fb42eb177e.txt
 
-ad7f77210bf50aaa2aff67d96aa1f628d2276ffb md/raid10: initialize r10_bio->read_slot before use.
-ead87875e32264efece302e3e55b6508ac414c2d fscrypt: add fscrypt_is_nokey_name()
-847454f680685c3512e3b46a012cafbd8371426e ext4: prevent creating duplicate encrypted filenames
-83a23397799919b46ec6c6203ca4fc8ed5ceb1dd f2fs: prevent creating duplicate encrypted filenames
-d5a5fc6a8fb6630b8d8ed821e238c4ca4e0a8a59 ubifs: prevent creating duplicate encrypted filenames
-6150c3214c3352ef21557e03f9cb165d45831685 vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
-918e267ce56cae6a2058c846ccfdab7589b1b578 ext4: don't remount read-only with errors=continue on reboot
-93afc1c9331eb6f2b39e547d44f3b1d8da3c5836 uapi: move constants from <linux/kernel.h> to <linux/const.h>
-0832bd4c3ad0af14eb2881ee1db2c486891e045b KVM: SVM: relax conditions for allowing MSR_IA32_SPEC_CTRL accesses
-657a5cc9acc1eed42aab569ff90721f248d8c088 KVM: x86: reinstate vendor-agnostic check on SPEC_CTRL cpuid bits
-7e21eda5bc31c9347416735c5de9186da686ed78 powerpc/bitops: Fix possible undefined behaviour with fls() and fls64()
-8b4dd63e027634d93c210f0e3d36efc0fda01c18 xen/gntdev.c: Mark pages as dirty
-b3745d9400f0b04ed97bbca2d55a1c92f7e415ee null_blk: Fix zone size initialization
-768702b9cbcb80656139e2ac1337aba7b26d059b of: fix linker-section match-table corruption
-8e3a3659880b9235149567a077e8db72f12c7777 asm-generic/tlb: Track freeing of page-table directories in struct mmu_gather
-fdc3855d5f85cf54748583f5fa13591114d06f81 asm-generic/tlb: Track which levels of the page tables have been cleared
-e6b42c76a985f13726baf61f24161b93a3fd87c2 asm-generic/tlb, arch: Invert CONFIG_HAVE_RCU_TABLE_INVALIDATE
-722801872ed0c715db854f5e8d34fe7c6217c450 powerpc/mmu_gather: enable RCU_TABLE_FREE even for !SMP case
-66cfe543f6f38a5bad69116aa3e27e11bdc031ab mm/mmu_gather: invalidate TLB correctly on batch allocation failure and flush
-7b3112a868f190cb019d471e3755d0706458dc5a asm-generic/tlb: avoid potential double flush
+9112b93e809308c74dd6a3f24e468551dcde5ecf md/raid10: initialize r10_bio->read_slot before use.
+a064b59695baad3dd078d470977479e63e82a68f fscrypt: add fscrypt_is_nokey_name()
+4acd62ae3a1b9cff7959c2615c2c994dbaa259cb ext4: prevent creating duplicate encrypted filenames
+848b28dee9eec7ad98669632e99774c2e3d226ad f2fs: prevent creating duplicate encrypted filenames
+496334fc6573bb8336b8ab861d52ea1412954190 ubifs: prevent creating duplicate encrypted filenames
+dabe86e741ad0b53566ed5be6977b1fc0b7b8ad0 vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
+3266bcc56fa1db698fa7cdd28d7e63b9966de417 ext4: don't remount read-only with errors=continue on reboot
+8ae403963e1b65e6caf361906980503d842200aa uapi: move constants from <linux/kernel.h> to <linux/const.h>
+17497839cd980d65b79cbed35a8e8cc69b00bc4f KVM: SVM: relax conditions for allowing MSR_IA32_SPEC_CTRL accesses
+3ae91509907b72e4a9efd926ab41e10943790ba5 KVM: x86: reinstate vendor-agnostic check on SPEC_CTRL cpuid bits
+c5320c9dbc6fdc007b98723f25c9f1b3d6b7051a powerpc/bitops: Fix possible undefined behaviour with fls() and fls64()
+aea64b1970653c4241f1ea7efc0c17b3c5c9805f xen/gntdev.c: Mark pages as dirty
+948d49e76082f249c2b69d11462584c8d2e09152 null_blk: Fix zone size initialization
+b408db971e8620b55d646fbae75362fe0ff063f5 of: fix linker-section match-table corruption
+a77fadb5ac2818eb71f6437dea43616c4095160b asm-generic/tlb: Track freeing of page-table directories in struct mmu_gather
+8a8434e5809e1aba724a598dd20321d14d6c1abb asm-generic/tlb: Track which levels of the page tables have been cleared
+d95e836ec514da08b09a0cd44eafe88c8c37be71 asm-generic/tlb, arch: Invert CONFIG_HAVE_RCU_TABLE_INVALIDATE
+a6585bee07b2c2247a2caa284b7ab43315efb14a powerpc/mmu_gather: enable RCU_TABLE_FREE even for !SMP case
+067e6bf34fc593b3efe0804e02012c1cc0cc8c0c mm/mmu_gather: invalidate TLB correctly on batch allocation failure and flush
+fa186bb486b74f62f15ae9b572ca71484e41e2f8 asm-generic/tlb: avoid potential double flush
+23f944efee081ebbba8fde4886dc3222300b3db7 Bluetooth: hci_h5: close serdev device and free hu in h5_close
+21d349a2eec5f4f7b47e2d6efe0ef47017f2d9f2 reiserfs: add check for an invalid ih_entry_count
+92ec3a9f13f4fce5f0c6fb25231dd8ae9607aed9 misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
+7dbd6df3a25f94886be27a559282d09708b67fa6 media: gp8psk: initialize stats at power control logic
+86067570e77fb2698827e76a3658602fbb2f8ae8 ALSA: seq: Use bool for snd_seq_queue internal flags
+9ba2225e151c190f4739e923d23aa6669c8aa40a ALSA: rawmidi: Access runtime->avail always in spinlock
+71fb42eb177e5a9c0d0750b09e2a95f79f4ed1cc fcntl: Fix potential deadlock in send_sig{io, urg}()
 
---===============4642640234686831931==
+--===============6025750885291641125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e812c25cadf8-f95816b2026b.txt
+Content-Disposition: attachment; filename=revlist-f95816b2026b-a722eee059b7.txt
 
-c5a92047a7360fe68e6e68d9e9ecea20719e4264 ALSA: hda/ca0132 - Fix work handling in delayed HP detection
-bcafbbcd974d36f5e5516236313ef44b5186359d ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
-f6ffec96521a3167325d58c4286f5674821526ef ALSA: usb-audio: fix sync-ep altsetting sanity check
-9c5d705b83fc5db3a000843d5ede37fbb81d25ca ALSA: hda/realtek - Support Dell headset mode for ALC3271
-d57958ed40fe6b13b62443eff408c1f846acdcc3 ALSA: hda - Fix a wrong FIXUP for alc289 on Dell machines
-37f8038d0a0c5922ab2737393173fdcd0d09c1e8 ALSA: hda/realtek - Dell headphone has noise on unmute for ALC236
-9f96d982d810e98718a12c78a91198d8cb89f32d s390/smp: use smp_get_base_cpu() helper function
-cd331e4735b942121318e5a27c31f7fc0c439042 s390/smp: perform initial CPU reset also for SMT siblings
-220ea7cc66102554c56de552dbc77fe7d9909f21 s390/dasd: fix hanging device offline processing
-f897057f4719d304f71e57bb1f2478ab37e3e47f USB: serial: digi_acceleport: fix write-wakeup deadlocks
-14314961cb10932a87ec24988b255b2fdc2780af uapi: move constants from <linux/kernel.h> to <linux/const.h>
-18d67bbf3fdca1689940c828fc6329fb1cbfa5ab of: fix linker-section match-table corruption
-22df8c721e25dfe875df7aed0df8ec1a3e716987 reiserfs: add check for an invalid ih_entry_count
-7c08c352b6270d0ce16cf1ec189de373a1393707 misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
-c3b12fd124f42f1fcea26dfdfe4bd21011ee23ad media: gp8psk: initialize stats at power control logic
-f95816b2026b30d43554e8d27e3709b517fe492e ALSA: seq: Use bool for snd_seq_queue internal flags
+f65a28a4dae0f0c4abb79fd0112c4e2ab67bb6ac ALSA: hda/ca0132 - Fix work handling in delayed HP detection
+28fc4654fa0121a2e2735bf0c2884648251b27be ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
+6f786cbc763f3f567faa9a83ab97b68e09568182 ALSA: usb-audio: fix sync-ep altsetting sanity check
+de8edea952881b840ddaaf7926623dd6ff62b2c4 ALSA: hda/realtek - Support Dell headset mode for ALC3271
+67fbad93918acf09f05e7c5c0e5b8125756f1cae ALSA: hda - Fix a wrong FIXUP for alc289 on Dell machines
+6bd6c141e80575dc02a1418ff6b18857858f82b1 ALSA: hda/realtek - Dell headphone has noise on unmute for ALC236
+66d04426bd20e612f5c276b306db84cf088d48ef s390/smp: use smp_get_base_cpu() helper function
+884d1821ed43fb01ea89ee4e36465376f389a729 s390/smp: perform initial CPU reset also for SMT siblings
+e24558bc115203157ef8ba529d960d7502c6cc9c s390/dasd: fix hanging device offline processing
+104601060236a4cf89d7d443de65a46694fd85d3 USB: serial: digi_acceleport: fix write-wakeup deadlocks
+ec8a8fbb70d73f4bdde7c9f263f6371248cf42f1 uapi: move constants from <linux/kernel.h> to <linux/const.h>
+86e8b3407f6399a9d6af766c716c1c766a555cd0 of: fix linker-section match-table corruption
+9146164486123d1622bbc7a20f5b203511146252 reiserfs: add check for an invalid ih_entry_count
+b6fa2848dbc96929562ce14e8859339e8286d6f8 misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
+606265fdbdc6b0785664344949227f772d3b5537 media: gp8psk: initialize stats at power control logic
+a722eee059b7065c129362b599b21e96f077f945 ALSA: seq: Use bool for snd_seq_queue internal flags
 
---===============4642640234686831931==
+--===============6025750885291641125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2cd611c5ad79-3a7dfb94737d.txt
+Content-Disposition: attachment; filename=revlist-3a7dfb94737d-5fbf4566aff0.txt
 
-a61046183390119d1b8b9b1aea4e55ab7f07597f x86/entry/64: Add instruction suffix
-465fcccff2124af094a26ae64baaae2d0734d08b ALSA: hda/ca0132 - Fix work handling in delayed HP detection
-61d36cd097ff1bd674d59abc7a7549427c294e2d ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
-f0c672f1dcb49de346569acc84eb96d1b9b5b078 ALSA: usb-audio: fix sync-ep altsetting sanity check
-1f0508ec2d0595017c6ea50f6720913f1bd3102a ALSA: hda/realtek - Support Dell headset mode for ALC3271
-b6a78ffacf72a0e00ac4611db859aca45edefb5f ALSA: hda - Fix a wrong FIXUP for alc289 on Dell machines
-370598fe8f5f86581a76211ac04eee16582a798b ALSA: hda/realtek - Dell headphone has noise on unmute for ALC236
-61c7717b04b254b8e979e538f76a9084482ce003 vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
-5c4f59a081b48b95e601e3f11876b27e69ce9c66 s390/smp: use smp_get_base_cpu() helper function
-7716e16fa36718e2a0528f0597dc24431c498514 s390/smp: perform initial CPU reset also for SMT siblings
-0aef32730471acbd9cfec61d3dcf65ccbf2f16e0 s390/dasd: fix hanging device offline processing
-9a076431862f0bda7f919a2c7fa562ee292e2cb0 USB: serial: digi_acceleport: fix write-wakeup deadlocks
-a65d9c85c1f486cbc817f9e08546f049f991fb37 net: ipv6: keep sk status consistent after datagram connect failure
-bc0d3609bd4a1b27b4df70d90d76435055349f97 l2tp: fix races with ipv4-mapped ipv6 addresses
-8ff0d31766be38161b41361dd3f317455a5fb33c uapi: move constants from <linux/kernel.h> to <linux/const.h>
-66c60b2f84b870fe2319107b2b9ea04eb8be7406 of: fix linker-section match-table corruption
-e43ab8cf50488a42d4294483da6ea4e99c4c42fa reiserfs: add check for an invalid ih_entry_count
-db82262df94d1e9e6c78190f51e76dba99bce611 misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
-9efbb75cdf135699d1bf87e277d3dfd27f2d7109 media: gp8psk: initialize stats at power control logic
-3a7dfb94737d25f1060f768cea79a64f0bd51d6c ALSA: seq: Use bool for snd_seq_queue internal flags
+4516a5174b9d08e6e8e84efe7583bc6ad6ba81eb x86/entry/64: Add instruction suffix
+8814a7897a55ad60d869c0cc9dc5d13fe313a59d ALSA: hda/ca0132 - Fix work handling in delayed HP detection
+ba17a752a03f28f0d48cb65c90697e9c52ffa497 ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
+90c164e5e652afdaefd2818fe7222f08938c6dfb ALSA: usb-audio: fix sync-ep altsetting sanity check
+99becb3392c2b820374e6008a22de7b44ddbe575 ALSA: hda/realtek - Support Dell headset mode for ALC3271
+ce732bc18d8d32026c724e6444515a03839e2374 ALSA: hda - Fix a wrong FIXUP for alc289 on Dell machines
+524df9fcf17f1c4f1a77be54fa0136a49c9eec64 ALSA: hda/realtek - Dell headphone has noise on unmute for ALC236
+9e0c313011db91eee169754b00f06201cb500ce7 vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
+b05834c5ba6194dc3aa76b0abc10588d6fb3429a s390/smp: use smp_get_base_cpu() helper function
+2373ecd91a4e112bcaa9d88c13b23bdad7445333 s390/smp: perform initial CPU reset also for SMT siblings
+deb7c4ec0a375dad6053febd050b48cc0e1e6f40 s390/dasd: fix hanging device offline processing
+20e1b0398ede66707c46354e64cda355bf6df900 USB: serial: digi_acceleport: fix write-wakeup deadlocks
+7927adaced6647e279f4ca97646ebfb3e3255085 net: ipv6: keep sk status consistent after datagram connect failure
+34b4f33797d28bfb05456d9d7554d9d390bf68b3 l2tp: fix races with ipv4-mapped ipv6 addresses
+7df56abbbb18f9f865c53a31c98a94a3ab12827d uapi: move constants from <linux/kernel.h> to <linux/const.h>
+f86791019abc4ed668b00d3dce7df54bb965fc4f of: fix linker-section match-table corruption
+92540967ad82bb09abba02983401709cda6f62a7 reiserfs: add check for an invalid ih_entry_count
+de788fe47252d5fbc99b575f0fa68c4d9b43c935 misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
+83c90552d502fecc06c77f5fbdd450909fee33ce media: gp8psk: initialize stats at power control logic
+5fbf4566aff0586f7cf23dd56509c82262a8efd8 ALSA: seq: Use bool for snd_seq_queue internal flags
 
---===============4642640234686831931==
+--===============6025750885291641125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47d0457132d6-20e897c5ac0d.txt
+Content-Disposition: attachment; filename=revlist-20e897c5ac0d-6863b1d435f9.txt
 
-cf3e28ee475779b9a4321d4ea42458b94b53a4a1 net/sched: sch_taprio: reset child qdiscs before freeing them
-eff061eb70f03547fc8b7a8fdeaee89726e07682 mptcp: fix security context on server socket
-bf349241716bd72c761240b5b30dfa4f77d5fe78 ethtool: fix error paths in ethnl_set_channels()
-a24d64aed989fbba4029103a573cd67759904419 ethtool: fix string set id check
-cb9b7ed9b96d58fa41e7c4cfea9c779b5ba0192a md/raid10: initialize r10_bio->read_slot before use.
-5d85923f8752f84404817f2c8dc2732cdefa3ccc drm/amd/display: Add get_dig_frontend implementation for DCEx
-36c2d3d3d320cf2b117992f4699dae0ff98d405b io_uring: close a small race gap for files cancel
-64a06f5ca2622824e91bcc40116ff911d9fb6007 jffs2: Allow setting rp_size to zero during remounting
-848b48d278dddbba674595f394fdd8069a1e2059 jffs2: Fix NULL pointer dereference in rp_size fs option parsing
-0751cfa419bf7147756c884f2c8f113d38d48dda spi: dw-bt1: Fix undefined devm_mux_control_get symbol
-aebd650e9ed1293554beef86a253354b93c81e42 opp: fix memory leak in _allocate_opp_table
-8cc4e6e86f62e476cbcd81265c6bb733e2728874 opp: Call the missing clk_put() on error
-0bf8bfe63b34ece693975c360270d59ed6126c4a scsi: block: Fix a race in the runtime power management code
-7d123c3d9fd357c90a6b8efe36c6f56905ba9689 mm/hugetlb: fix deadlock in hugetlb_cow error path
-f050c3bf53aaad1089078581501c7858c486306f mm: memmap defer init doesn't work as expected
-0b2b3e794861e903dfc09630e180957030c544c7 lib/zlib: fix inflating zlib streams on s390
-19e2183bf48538aed59c23fc80f4d0b91163ea08 io_uring: don't assume mm is constant across submits
-01464d0b4c254d15c0953ff31a77d9d668bccfbc io_uring: add a helper for setting a ref node
-84de248fbaf89fac7553c2272f97b9abb1ab57fa io_uring: fix io_sqe_files_unregister() hangs
-6ae90c1d1f64959d760111c7ff0f03edfc7ca55c kernel/io_uring: cancel io_uring before task works
-8f27f702ddc45606e8d1218e57933cf8dea2c67b uapi: move constants from <linux/kernel.h> to <linux/const.h>
-20e897c5ac0d94f32e5e2b7b12ed45fb939404f1 tools headers UAPI: Sync linux/const.h with the kernel headers
+778e4cc2404c65bb0437fd23b8314da625135326 net/sched: sch_taprio: reset child qdiscs before freeing them
+dd1af1f7082feef8074157d397d234133cb32320 mptcp: fix security context on server socket
+d66aa14f6b8d38744496a6e11973b20977054cd8 ethtool: fix error paths in ethnl_set_channels()
+fec5f087adb7d1a9e4586cfc2d4a284f5183fe14 ethtool: fix string set id check
+0679557e762240f92c5fe0c65b2b60fd6821cfda md/raid10: initialize r10_bio->read_slot before use.
+90da813732fb3dc57e7a6ba9ef8022505ab0596a drm/amd/display: Add get_dig_frontend implementation for DCEx
+7c3f32e6c20d80a0be233d5b3cb4b7473cf67418 io_uring: close a small race gap for files cancel
+9620e34b71ada17ba54b3a45e0cd50afaabc8bb7 jffs2: Allow setting rp_size to zero during remounting
+f70cda1c553336dafefb884d55411d5551fdab41 jffs2: Fix NULL pointer dereference in rp_size fs option parsing
+0735d8c5b8eea7590c0b9e050479a16f8d93be00 spi: dw-bt1: Fix undefined devm_mux_control_get symbol
+4030cdea1083facd17145f18d49f8e94731c1ee3 opp: fix memory leak in _allocate_opp_table
+fddb53cbaeb76c07a532ee89e6deab3670f23895 opp: Call the missing clk_put() on error
+777d1e3a4bfa80b1a1342f1c432d627456b42483 scsi: block: Fix a race in the runtime power management code
+c9bc6dfe76c30e49134fb37593817b99ae1adf7a mm/hugetlb: fix deadlock in hugetlb_cow error path
+872f10f740a103b0ad30cbb6d34a485ebd34b8a4 mm: memmap defer init doesn't work as expected
+c2ec7caf8418bfea444380951aeb849471253e81 lib/zlib: fix inflating zlib streams on s390
+33dee1174be72a70f3d901b2ed029fe1eb68b4d7 io_uring: don't assume mm is constant across submits
+68e410dedb9e828060a50acafd1692369c49e7a9 io_uring: add a helper for setting a ref node
+c8cd2ea1811e097b5542d128463a317f7bbda32b io_uring: fix io_sqe_files_unregister() hangs
+45068d77645f1d4aa50fd0f45455254e4393f548 kernel/io_uring: cancel io_uring before task works
+a0512706c5f820de08634cfc7c31a47e0267a374 uapi: move constants from <linux/kernel.h> to <linux/const.h>
+6863b1d435f9797101e185fd7a5349549e53491d tools headers UAPI: Sync linux/const.h with the kernel headers
 
---===============4642640234686831931==
+--===============6025750885291641125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0c89ecea051-6a686326f9d3.txt
+Content-Disposition: attachment; filename=revlist-6a686326f9d3-bce6d65e15e8.txt
 
-265e871e5cf8fd955f0427d9c355782e253c4dbd net/sched: sch_taprio: reset child qdiscs before freeing them
-10a1414b1e2b84fdd59d8dab7bb9374074661c5c md/raid10: initialize r10_bio->read_slot before use.
-31ff38fc4c86de7410c6e5b0d01be284844a2d99 thermal/drivers/cpufreq_cooling: Update cpufreq_state only if state has changed
-b8d94076d8a69b82523d7b674faf64f872f22b67 ext4: prevent creating duplicate encrypted filenames
-d91cb78bbfddae8dc56125ffcd182245a2cfb4f3 ubifs: prevent creating duplicate encrypted filenames
-d7888c0569b3088d795a555a8314d3a9f15d17e9 f2fs: prevent creating duplicate encrypted filenames
-5f458cbd96e6333d4e5f0782d3ae41f97d34ed7a fscrypt: add fscrypt_is_nokey_name()
-872316b13b029caedd09c420e6264d360a2ae54d fscrypt: remove kernel-internal constants from UAPI header
-4cc6dbae5e46030a321b64e83bb707c9c63470bf vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
-34762351de52aa7ca0a76094d93cbf5b5bfc42b1 btrfs: fix race when defragmenting leads to unnecessary IO
-fc2040df9ba544b43fa0d3c768cff1eb4d5eaccc ext4: don't remount read-only with errors=continue on reboot
-5f8fa3afd5c66ddf1f8c6a8b6ac16eb217b19e02 KVM: x86: avoid incorrect writes to host MSR_IA32_SPEC_CTRL
-669c2f24d80915b6420631d3f590fa165f3e1e4a KVM: SVM: relax conditions for allowing MSR_IA32_SPEC_CTRL accesses
-3be091f88866fa41d9657dbd8e47dab8046c87ef KVM: x86: reinstate vendor-agnostic check on SPEC_CTRL cpuid bits
-d37f84f27f83055594f4c9187e8e294b74f5b748 powerpc/bitops: Fix possible undefined behaviour with fls() and fls64()
-186078b186e0c0e4470d3d2d29c5b927a8d023ec jffs2: Allow setting rp_size to zero during remounting
-109324a3f1fa7a96cbda3a8c02ee08c6eba1b4eb jffs2: Fix NULL pointer dereference in rp_size fs option parsing
-c2313730a3aa02c38b2198752193ca8eee1f408b scsi: block: Fix a race in the runtime power management code
-6903766bb3b3b4a93973ac83e2e75364a30fbb79 uapi: move constants from <linux/kernel.h> to <linux/const.h>
-7d1158011642395badb12387af9ce6c03d259211 tools headers UAPI: Sync linux/const.h with the kernel headers
-122877250fa643b66c2cd435008812eb8e8d803c null_blk: Fix zone size initialization
-6a686326f9d31ab8408905e3f30dd1fd2e7831eb of: fix linker-section match-table corruption
+81d94c7d91f9071c60269fd9a15de525861f3a06 net/sched: sch_taprio: reset child qdiscs before freeing them
+62e4956ef253b71c5878869ca14b51aaa6c8b622 md/raid10: initialize r10_bio->read_slot before use.
+3fff5aaa74096ded95c1171f9ea549c0a010c3fd thermal/drivers/cpufreq_cooling: Update cpufreq_state only if state has changed
+a5b7691b4e025fdba53fa5194b0516ccacde8957 ext4: prevent creating duplicate encrypted filenames
+3328a485435fcd88894d54210f44317cc3500be9 ubifs: prevent creating duplicate encrypted filenames
+b08ca10d22449b0d0d1ef2e80c4de1193538235e f2fs: prevent creating duplicate encrypted filenames
+e320e111d789cfb85a0bad9cba33877bc90a8264 fscrypt: add fscrypt_is_nokey_name()
+984205748c898b0108572d6e6423ed257601358f fscrypt: remove kernel-internal constants from UAPI header
+de35af5c1a0ecfc0499286bf0d68de48538198be vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
+9f42f6ca3e44d02e9e59b1f9dcfd93511b28013f btrfs: fix race when defragmenting leads to unnecessary IO
+cfd24d4845f595e7993294da0088222d209c6251 ext4: don't remount read-only with errors=continue on reboot
+ef2a880e5843553287fa70d0af7fb2e9c2de78dd KVM: x86: avoid incorrect writes to host MSR_IA32_SPEC_CTRL
+6b25c74c72e5375f78c9e7db79a23f0b7a7cd98f KVM: SVM: relax conditions for allowing MSR_IA32_SPEC_CTRL accesses
+d75c4b33cca8ab74bb0bb0e61d23a609e06d819f KVM: x86: reinstate vendor-agnostic check on SPEC_CTRL cpuid bits
+69db4466f541c8215cb4d212118881692e3a0fff powerpc/bitops: Fix possible undefined behaviour with fls() and fls64()
+cd7281844d1e8241af7aef992064d03abde9a454 jffs2: Allow setting rp_size to zero during remounting
+206462e8c5714a1feafb74ab2e5e38534b456b10 jffs2: Fix NULL pointer dereference in rp_size fs option parsing
+1722d06c16a4d5c63265e99526def2ac8db314d1 scsi: block: Fix a race in the runtime power management code
+5e7be696a0edb646a48731d3e83474fdb9bcad6b uapi: move constants from <linux/kernel.h> to <linux/const.h>
+59bbbc6d5450aeff0a433d2294b2cb323874415d tools headers UAPI: Sync linux/const.h with the kernel headers
+12cea2e1948a67114fa760f6100c9180b5b97273 null_blk: Fix zone size initialization
+43d414790aa128f7b880acf1a0d767df28171225 of: fix linker-section match-table corruption
+a280ad05a7a11e876fd9ab2942b0aeabdd11b806 cgroup: Fix memory leak when parsing multiple source parameters
+c18173be1e8da984a3e43a76358aeb463d5cfd98 scsi: cxgb4i: Fix TLS dependency
+f3a02c9f59bae77f8c00d0e14eee9840abc6b913 Bluetooth: hci_h5: close serdev device and free hu in h5_close
+042e82506aba0c59c9d7e14a5fa7fd56a67a1097 reiserfs: add check for an invalid ih_entry_count
+dc3b4b51bddfb19b2563817870092eda1b5c572e misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
+9a0e7d87fd049656eb3140acb117017b954ae886 media: gp8psk: initialize stats at power control logic
+710a749c19e9d8ea808319c49bc347b7f0e34241 f2fs: fix shift-out-of-bounds in sanity_check_raw_super()
+d66859b972a57160cb62126b1101de65ebc93f70 ALSA: seq: Use bool for snd_seq_queue internal flags
+47a00dd6a9ddc376db0e8fb71e6862e320f4fbef ALSA: rawmidi: Access runtime->avail always in spinlock
+ecfcb7a191b19b43c1fa96c38c8e779fd079f834 bfs: don't use WARNING: string when it's just info.
+bce6d65e15e8a0931c8dd86f22e79422b450dd33 fcntl: Fix potential deadlock in send_sig{io, urg}()
 
---===============4642640234686831931==--
+--===============6025750885291641125==--
