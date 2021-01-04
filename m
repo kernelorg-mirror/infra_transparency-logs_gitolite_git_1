@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7535148195444588536=="
+Content-Type: multipart/mixed; boundary="===============8329602044734968774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 04 Jan 2021 15:44:50 -0000
-Message-Id: <160977509051.2556.3438524934783792056@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 15:46:02 -0000
+Message-Id: <160977516277.4346.10720188546844810461@gitolite.kernel.org>
 
---===============7535148195444588536==
+--===============8329602044734968774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 43da4f92a611d0cccbe577384d1de9d7a70fd5b9
-    new: 8280de6ab07b4c63eb607662754f151e539031a1
+    old: 8280de6ab07b4c63eb607662754f151e539031a1
+    new: 7c9a2598463a7803629a90e9e425af7ed241ec65
     log: |
-         9b3bd898421bd9fca5c88a3c3291d9f60df3bb69 usb: gadget: u_serial: use %*ph to print small buffer
-         82c46b8ed9dc395df902c1857e908f08f8395ca7 usb: dwc3: gadget: Introduce a DWC3 VBUS draw callback
-         8280de6ab07b4c63eb607662754f151e539031a1 usb: gadget: composite: Split composite reset and disconnect
+         77adb8bdf4227257e26b7ff67272678e66a0b250 usb: dwc3: gadget: Allow runtime suspend if UDC unbinded
+         7c9a2598463a7803629a90e9e425af7ed241ec65 usb: dwc3: gadget: Preserve UDC max speed setting
          
 
---===============7535148195444588536==
+--===============8329602044734968774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609775169 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609775242 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1609775081-7066048da4203ca88ad38774e251b33d629b350d
+nonce 1609775153-b727357e5f91be27149e973e74a84315cad4e838
 
-43da4f92a611d0cccbe577384d1de9d7a70fd5b9 8280de6ab07b4c63eb607662754f151e539031a1 refs/heads/usb-testing
+8280de6ab07b4c63eb607662754f151e539031a1 7c9a2598463a7803629a90e9e425af7ed241ec65 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/zOEEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vk0P/2QDexRPj7fBririm8zv
-PNi/MzHUlWS2t/DwweiUqNfyZcyHelRti2/1NOKTYg92tk9bpifXyyqf/LLDmonY
-VJsImgkAQPNiIhv6OPFN/zopgtiC5xpsbPr0fLVgG5dErmU16MjnshILBdRIPJFo
-4YTH75j1BiOE1mh/xTnS5Z1NHBqFb3GZ4T7tJpx2rYcXux2MlKZn5a2+Mv44c2Np
-TZ8PHSMpw+49OoDhniykRtHoGyCc6h+ukTkmeA+XFglQVTUOi0LA7bx238w794IH
-uXP7rZblfr4Vx0SN+va1dApZPKR82q7w3pn2Y/o/bvKRYEF6YCAhvBVvjXynZFOh
-/RFLo3cUj6nC/+hklSe263swA2R+8jFHwhQuzF8bg+X9EWst7EEtBkJREuJZ9/0v
-FyQAP+DHVIBh79pdUOaNMjiaULGKj8e7Wnof/9oS4TaFkfyAsEmXW6v9wCIfbQte
-EEVVoyDEEtYcK4Uv28IprC84zTvR3G8r2MlrYG29XAFYlwuC0KDMSNdW6NmOBnuw
-dk9Ua3eS4/puxn+35AV8y0+itO3hTMnOKDcHySwkAz1Mzc7QaLdssv0E3uA2JM6D
-i3LgCX7RLedtKrAgfArZoJ/a2ki0EFfYn5IU+fm7CsA2EuOF9snd0jwUbk0Kuy0/
-9zHEiDz3RSvpZtPdY1STWYLD
-=UilB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/zOIobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6AcP/RYZ0hAfYmAFFoznwjmS
+MXg6hWSEm8VoEuC8+8VzxvpRQMKOwdn0ymx99CYbyd/OCcS1pZ18AhWbA7GsELQR
+MIlZr+Qtq59Ud3o0DKWr2npvAE7sz9nayVJbin7Z0gmN7omcr6M6Jx4IXnJDQ+in
+4vOEU2+Wk3skv6xFsYPeuIw4BWteTwBZeOq/9zaRkQ2we0s7zcF8gsLEg4Gxo/Qi
+vwwBVSW0JENsGpOzAZdEqhM4k+6EtlQsRV4r90PPR6gmcjbPrB1NT/l9HF89fXFd
+AbEEHraiYh3rsegWpSIXI4AuL+YaLNXX/Ic0jGvYFEXcpTA5Efy479tsKOL/mzeT
+/pPIU+JgjwXui4J200M+tlwAFf+4DEbrReefMOc5Hbrz+dCR3MzK5iH6znjOrKvq
+ODGOWIylKkPbgDvb8vidCXne87C8tw1X5U9qBWTo4fj1kV33ZzA5rwAAB+g/aDvU
+XFFvMlie6w3MPymllIwDNtJqVtJUGn+VvJmO9FniS0+k3ngSV/fyM0Ooy9zfTUXH
+EQLJ4plAzB1CWkPlop3wFyRnEXIe/9Cd2C6jlKgbBd71sOr0RS6Mz0iESOtvOkiI
+4tM0uVXUm+3YhFSmWn82WkBndKAWoosUvL2+j4P0uwO45FQRG8mwqGPWhnB47w6p
+2gCYaCHKUGCUsK2cR8nBh+DD
+=Z+fh
 -----END PGP SIGNATURE-----
 
---===============7535148195444588536==--
+--===============8329602044734968774==--
