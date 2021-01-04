@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7233979691435197024=="
+Content-Type: multipart/mixed; boundary="===============6442323528464391592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 04 Jan 2021 08:52:17 -0000
-Message-Id: <160975033718.20487.3485245401582820372@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 08:53:02 -0000
+Message-Id: <160975038221.22810.5249048018230530996@gitolite.kernel.org>
 
---===============7233979691435197024==
+--===============6442323528464391592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: c7a5899eb26e2a4d516d53f65b6dd67be2228041
     new: 3db1a3fa98808aa90f95ec3e0fa2fc7abf28f5c9
     log: revlist-c7a5899eb26e-3db1a3fa9880.txt
 
---===============7233979691435197024==
+--===============6442323528464391592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c367caf1a38b6f0a1aababafd88b00fefa625f9e Merge tag 'sound-5.11-rc1' of git://git
 2911ed9f47b47cb5ab87d03314b3b9fe008e607f Merge tag 'char-misc-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 3db1a3fa98808aa90f95ec3e0fa2fc7abf28f5c9 Merge tag 'staging-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 
---===============7233979691435197024==--
+--===============6442323528464391592==--
