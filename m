@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8724508190671079279=="
+Content-Type: multipart/mixed; boundary="===============2798581893716671809=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 04 Jan 2021 15:19:12 -0000
-Message-Id: <160977355280.18290.6451634165176044611@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 15:19:32 -0000
+Message-Id: <160977357275.18495.10373633064215909799@gitolite.kernel.org>
 
---===============8724508190671079279==
+--===============2798581893716671809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: 9ed3954fe8fed889adf643c7c83c1140fc117c59
-    new: 3317335407261fd5f525bd5fd63ade139fed6ccb
-    log: revlist-9ed3954fe8fe-331733540726.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+    new: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
+    log: revlist-5c8fe583cce5-e71ba9452f0b.txt
 
---===============8724508190671079279==
+--===============2798581893716671809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609773624 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609773652 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1609773535-ac77b78e3186b894a471a7baf0a44c15ee5f233a
+nonce 1609773564-d02fbc96db012ce6d2fcecfddbb97e460b8a4a33
 
-9ed3954fe8fed889adf643c7c83c1140fc117c59 3317335407261fd5f525bd5fd63ade139fed6ccb refs/heads/readfile
+5c8fe583cce542aa0b84adc939ce85293de36e5e e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/zMjgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7C4P/iatflaRpN+bhBws0nUf
-f4YfSp6NHiPbxkP6b93sx+xdBRVNf08etkLM8FEgBTbGvxU3H/g0bGENhWTM6qov
-4+Rworl8jyzlcMFmJVXEgG8Eij3H1+44i1g2ATFihDbav7CgeMaOcdyZmKaUajcu
-+lazRqAG4GyAyYpeoIsPwiQdn5tRzLZbGpW75ba1yqU0oN5P6ip8KahpMVlkUmOZ
-Y8+H6JLjydrR31Zt59FhJWCh/DsRjeIL/e7/qy/IGCdo7EjaCTM+aGmrXjTmjl9M
-IuLO2KashcrQcYH6pVlrTcuNYprO4TXjCBCtYMiY/VyenriSvLVIHLcj9acuel1E
-jc9bYKh+NV10POR8GM/bDJ7S1VOdnPLIt7k7TZgYl8KgXCyi5714O1pOqRllk2L2
-ejQAMWColyI9gNvI/Nm1XRF12h3hs1QEeCtQB+xGp78kl+Y0mNx2wha5gXZqu3on
-0Fb7rSlroB88psAjdHpBk09z53q6djlZiEfqvL+TAwNEZdi+/1xqN+QJ5MqU/Hvy
-BVCh6rNl3RuVa4YhlC0SW8ABGFt/axv7TJ2YlD1ZEwCfeNJJw5Gu3Rb0seP5BJZI
-Ar5I/xwTQkh+Q3uESGwSlMj3foj4aSHq5prfa1oaLWMejdylCUMBdvzFhT81n2mP
-uxQ0xC2r34mxAlZ8RnFTZCWW
-=r3ba
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/zMlQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QMMP/2+FNNfh4waBgIyEP7/e
+shrBzCM05z5PN9K5m4eyEVInHCs46pd0dY0kan5x0D+2KWZOpFSQ5hpFunctaqRg
+dnk1V9U/AxKCP+4RYjJWSo/esRafl3UWdokGzrFP/Kygv6mneH+nS9s8P1OnQFg8
+TqDNm/fBj3nevrzMu69yEHKapx1XYZ6rDcQxrDr/9gR31aw5+jdm7Ag/rTAwYAPk
+gXXzRGp52hrGSCqeIUjKStCiLUTAawLE7UvZz8ZWiblJ2OdXwCtB63xb1OuhYZso
+Lo7otF7bITBqBytnkNRqly8WJria7HCD91OcQh9qKrMxsbuiPB9UgiXn2OyXO7JF
+A5Z5p5/B7TbEYAyoyNaZogrLAgaDsqn//25tqEpregwKkrWx/0C+9gYRYX2/V7AA
++eDigsVEwppVG2kJbW6Wlec9+kiBxyfhS6DL0ya0DniBaVBBE0kOY8DWeHDUav2R
+e72lJG4pMmN7kC8yO1mP9n/jbbfuBqTmI7p8lNVBXtG7gRA2Q4BpwXwJkCNQxUhE
+ZPeuIgzYmc/0xstIy74yzAiKGYLJbJEpQyIZ1CQbDF9VEtafPVJnjPqOPsVtZWnh
+qruqPSAF+vtmGXndnUI+mCQOXLDCurMJ50e5C4R0AT2sTicUNpHYTYyJHi6SEBT7
+Sxd7UZkkOMWJn96qycc7KU58
+=F/9U
 -----END PGP SIGNATURE-----
 
---===============8724508190671079279==
+--===============2798581893716671809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ed3954fe8fe-331733540726.txt
+Content-Disposition: attachment; filename=revlist-5c8fe583cce5-e71ba9452f0b.txt
 
 01341fbd0d8d4e717fc1231cdffe00343088ce0b workqueue: Kick a worker based on the actual activation of delayed works
 58315c96651152b9f438e5e56c910994234e2c7a kernel: cgroup: Mundane spelling fixes throughout the file
@@ -131,9 +131,5 @@ eda809aef53426d044b519405d25d9da55319b76 Merge tag 'scsi-fixes' of git://git.ker
 d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
-7ecdc8cb9cc622579b535071e2e2ab2ffba2d6ae readfile: implement readfile syscall
-e76bd7e800f18e6965be99fa1abcd48811a3b81b arch: wire up the readfile syscall
-16b997e7a454288a489d91e2060c09da85e9e2eb selftests: add readfile(2) selftests
-3317335407261fd5f525bd5fd63ade139fed6ccb readfile.2: new page describing readfile(2)
 
---===============8724508190671079279==--
+--===============2798581893716671809==--
