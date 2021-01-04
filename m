@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4898448369066871947=="
+Content-Type: multipart/mixed; boundary="===============3511098851008558343=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 04 Jan 2021 18:39:30 -0000
-Message-Id: <160978557044.23988.9677564357321866810@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 18:39:35 -0000
+Message-Id: <160978557564.24112.17953953951655591815@gitolite.kernel.org>
 
---===============4898448369066871947==
+--===============3511098851008558343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,49 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 4da3a54f5a025846f9930354cfb80f075b9952e0
-    new: a8f808839abe3a10011e28b46af1848dfd8c4f21
-    log: revlist-4da3a54f5a02-a8f808839abe.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: bf30cdaa9ffd66f90095ee226803cf5c4ca65f4c
+    new: e8ddc0004f75379c60dc15b2b54315674c8712da
+    log: revlist-bf30cdaa9ffd-e8ddc0004f75.txt
 
---===============4898448369066871947==
+--===============3511098851008558343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1609785568 -0500
+pusher 75C5DE3D 1609785574 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1609785568-3075ab2d66565446ae4b7731a5414ed7a18adc40
+nonce 1609785573-612d661c8f7d1eed0b2ee9fffa1c0ca1e10ceb80
 
-4da3a54f5a025846f9930354cfb80f075b9952e0 a8f808839abe3a10011e28b46af1848dfd8c4f21 refs/heads/fixes
+bf30cdaa9ffd66f90095ee226803cf5c4ca65f4c e8ddc0004f75379c60dc15b2b54315674c8712da refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/zYOAACgkQ7ulgGnXF
-3j1hHBAAri3n5qqZL6GQENF0BIj9DkzCGB1FiSjyzalrcfuzhPI3zxklDsPAAUzl
-1XkMUKXe0aF+m+a+IA3osBllpxseXWMJmHH2uQ9Pk6Af8OeQjkmGPkJ6mWAZNjx4
-MxBo69xafgi4O+exnW7S1CpNTvYhUafguNNZfSKsrEsxwN4QcKWi+rFj3xA+RLQN
-a1sEyOykyshi5Hmn1keCqyqr+5DWodiB7f1zPp8UsL34J4dQIC6AKmuEeiwKdDGm
-6QrHA1SkYQiLo1EIVL/+PxwnjKtdeOQ2E34vVG74kFFq5dyxL6h+rWwacNx0v4Wx
-Nks/7iT3WBrGNYrHQSZ+lG/aUoQVfO109UcRNoyoA5GlXjcp1vtLFK4GKaN2Jorz
-s6b9JZvOn/2JBcPiQAkY0RmB66Ogl0L0CypkwJ3cbfp2VtUwo7pqfdkMJpC+h7j4
-BR2V2vaxjE3U0MVviJCe2rd/HpDZtGtPhMvQUicEg8/hXRi0zq5mHKcAB68QRkSF
-yljLJD1vzAsRMul6AwpXBYGQYbPWcQ2ZBiYtbBcD1n04k0Ov+Mi7cKyTJX8UZNOD
-wDp31kX2T8L4ttZ9aYkU4OZ29Fo7qhodnwQ0Pl43IGwcaN8vik5aM2tGhap3kHVT
-b8RgQQ2cZhkZjPHyhdZTYVPKYcJfFvtNEc7t5Y2cggzC1QUFkjU=
-=AGGe
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/zYOYACgkQ7ulgGnXF
+3j2FOxAAgkIc9WqL1VkAry+gEH6Vt1zFg4x4p0SW6FjF7jwAlnUeLnmA6fp7/ogq
+GtlMcgmqM6/3JI5DT5H+QwPXDjlvZ7H9q2Q2LZKXela01z06TSaOxgmrfjotgAk/
+sR9R9Wu8xwCDvKes1IP0pOPbeTrgVOvFLe5j3XZLLIJD6Izn50SGvFt9fIo3R8ok
+66Qi2T0jpzYgkL9xVedPmLpaLRHweGE8mysTt7JaFKz8W6Ybg8kwbMoX9SMOMnaf
+U+7xPAm7IDRQKuxkjcZg3pDkThbmLbY7XY79UI32KLGaGj+QaqnHT6riN/ye4zgx
+6DzZe/9zLfnIaazDagSGVL9V8Gg6YYidDvTTUWOGrutB7fUFcYeRoiLQ+8UZWPEx
+sJH5OuG3Fn7WA5DBpF2sBeOl2GddfYjK4aTQ/DXGlTAzO36bbhWZjSu+smfvJ+jd
+SvZj51WwIhCoGC/hnDcnSUB0EHZTlXg31wDYv3DDa+RaSqAKERpOpSeNcwpDM56k
+d08+NcR0Pl3ODOA+NFiHWb+9ZQNDSna1s+Y4T8Zhcw2LSpGE27E72+tR4CR6GXOK
+RZLpZ3CReX7MKGqmbh+eJbzY1jSrUMekj1UCxChpd5Gaer0OSzW4UYveWCnLKVL7
+MQ/7Z09DltWil9PrPE4NjMmAAMJwsgF7mNWfoHEPivFynZvDRRU=
+=zUeR
 -----END PGP SIGNATURE-----
 
---===============4898448369066871947==
+--===============3511098851008558343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4da3a54f5a02-a8f808839abe.txt
+Content-Disposition: attachment; filename=revlist-bf30cdaa9ffd-e8ddc0004f75.txt
 
+7fc2513aa237e2ce239ab54d7b04d1d79b317110 hugetlb: fix an error code in hugetlb_reserve_pages()
+597c892038e08098b17ccfe65afd9677e6979800 mm: don't wake kswapd prematurely when watermark boosting is disabled
+2b47a24cee0eedbb9b106ef3e992db0ddf48f740 mm/vmscan: drop unneeded assignment in kswapd()
 8d87d07c9283b45fd50f15d488368d0be6492a17 mm/vmscan.c: remove the filename in the top of file comment
 2484be0f88dc6c9670362d51f6a04f2da0626b50 mm/page_isolation: do not isolate the max order page
 fc5488651c7d840c9cad9b0f273f2f31bd03413a z3fold: simplify freeing slots
@@ -417,7 +420,6 @@ b0a6cd29e00a317d7fd823e0db57abbbd9bbb610 Merge tag 'arm-soc-defconfig-5.11' of g
 4c46764733c85b82c07e9559b39da4d00a7dd659 libnvdimm/label: Return -ENXIO for no slot in __blk_label_update
 accefff5b547a9a1d959c7e76ad539bf2480e78b Merge tag 'arm-soc-omap-genpd-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 c1bea0a840ac75dca19bc6aa05575a33eb9fd058 powerpc/32s: Fix cleanup_cpu_mmu_context() compile bug
-81e7eb5bf08f36d34495a5898f6ef3fec05d9776 Revert "Revert "scsi: megaraid_sas: Added support for shared host tagset for cpuhotplug""
 2d0604934f507b8b4799f3c1dff41cca3dd85239 cifs: Fix support for remount when not changing rsize/wsize
 afee4410bc6c50e1422c5a45d633ad0e478ea960 cifs: update internal module version number
 7948fab26bcc468aa2a76462f441291b5fb0d5c7 watchdog: qcom: Avoid context switch in restart handler
@@ -846,7 +848,6 @@ c635b0cea6b812898563809a13e65278989b2c72 docs: admin-guide: Fix default value of
 52252adede912890b81e0a05503a482062e17c6e dm ebs: avoid double unlikely() notation when using IS_ERR()
 a528b04ea40690ff40501f50d618a62a02b19620 io_uring: fix ignoring xa_store errors
 2e2cbaf920d14de9a96180ddefd6861bcc46f07d fix hostfs_open() use of ->f_path.dentry
-74a2921948ed8c0e7f079a98442ec3493168cc85 scsi: hisi_sas: Expose HW queues for v2 hw
 9eb78c25327548b905598975aa3ded4ef244b94a exfat: Avoid allocating upcase table using kcalloc()
 de043da0b9e71147ca610ed542d34858aadfc61c RISC-V: Fix usage of memblock_enforce_memory_limit
 43877226829eda91856b055d217b3033805fd76f ALSA: usb-audio: Add implicit feeback support for the BOSS GT-1
@@ -1079,6 +1080,5 @@ eda809aef53426d044b519405d25d9da55319b76 Merge tag 'scsi-fixes' of git://git.ker
 d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
-a8f808839abe3a10011e28b46af1848dfd8c4f21 Merge branch '5.11/scsi-postmerge' into 5.11/scsi-fixes
 
---===============4898448369066871947==--
+--===============3511098851008558343==--
