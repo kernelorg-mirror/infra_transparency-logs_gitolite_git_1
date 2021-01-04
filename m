@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1183764524751306577=="
+Content-Type: multipart/mixed; boundary="===============9217070342151894265=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 04 Jan 2021 16:28:04 -0000
-Message-Id: <160977768473.1696.4223294701390624308@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 16:29:09 -0000
+Message-Id: <160977774904.2061.17741800097616751382@gitolite.kernel.org>
 
---===============1183764524751306577==
+--===============9217070342151894265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit
-    old: 5f6b99d0287de2c2d0b5e7abcb0092d553ad804a
+  - ref: refs/heads/devel
+    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
     new: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
-    log: revlist-5f6b99d0287d-e71ba9452f0b.txt
+    log: revlist-3650b228f83a-e71ba9452f0b.txt
 
---===============1183764524751306577==
+--===============9217070342151894265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f6b99d0287d-e71ba9452f0b.txt
+Content-Disposition: attachment; filename=revlist-3650b228f83a-e71ba9452f0b.txt
 
 7fc2513aa237e2ce239ab54d7b04d1d79b317110 hugetlb: fix an error code in hugetlb_reserve_pages()
 597c892038e08098b17ccfe65afd9677e6979800 mm: don't wake kswapd prematurely when watermark boosting is disabled
@@ -1051,4 +1051,4 @@ d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.ke
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
 
---===============1183764524751306577==--
+--===============9217070342151894265==--
