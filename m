@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6745308008266244926=="
+Content-Type: multipart/mixed; boundary="===============1183764524751306577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 04 Jan 2021 16:27:38 -0000
-Message-Id: <160977765883.1388.4970388562867861983@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 16:28:04 -0000
+Message-Id: <160977768473.1696.4223294701390624308@gitolite.kernel.org>
 
---===============6745308008266244926==
+--===============1183764524751306577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/fixes
-    old: 5f24433c4a68ca5f9aa0b8567b9f56315d316369
-    new: 7a6eb7c34a78498742b5f82543b7a68c1c443329
-    log: revlist-5f24433c4a68-7a6eb7c34a78.txt
+  - ref: refs/heads/kunit
+    old: 5f6b99d0287de2c2d0b5e7abcb0092d553ad804a
+    new: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
+    log: revlist-5f6b99d0287d-e71ba9452f0b.txt
 
---===============6745308008266244926==
+--===============1183764524751306577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f24433c4a68-7a6eb7c34a78.txt
+Content-Disposition: attachment; filename=revlist-5f6b99d0287d-e71ba9452f0b.txt
 
+7fc2513aa237e2ce239ab54d7b04d1d79b317110 hugetlb: fix an error code in hugetlb_reserve_pages()
 597c892038e08098b17ccfe65afd9677e6979800 mm: don't wake kswapd prematurely when watermark boosting is disabled
 2b47a24cee0eedbb9b106ef3e992db0ddf48f740 mm/vmscan: drop unneeded assignment in kswapd()
 8d87d07c9283b45fd50f15d488368d0be6492a17 mm/vmscan.c: remove the filename in the top of file comment
@@ -1049,6 +1050,5 @@ eda809aef53426d044b519405d25d9da55319b76 Merge tag 'scsi-fixes' of git://git.ker
 d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
-7a6eb7c34a78498742b5f82543b7a68c1c443329 selftests: Skip BPF seftests by default
 
---===============6745308008266244926==--
+--===============1183764524751306577==--
