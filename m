@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3419105605734734477=="
+Content-Type: multipart/mixed; boundary="===============5022108858664176074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 04 Jan 2021 11:30:08 -0000
-Message-Id: <160975980888.30141.10754908751736765878@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 11:30:43 -0000
+Message-Id: <160975984357.30348.13668251738651021061@gitolite.kernel.org>
 
---===============3419105605734734477==
+--===============5022108858664176074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/review-hans
+  - ref: refs/heads/for-next
     old: 0cd3f561efa9adce840140720e0581355db3e554
     new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
     log: revlist-0cd3f561efa9-5c8fe583cce5.txt
 
---===============3419105605734734477==
+--===============5022108858664176074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 
---===============3419105605734734477==--
+--===============5022108858664176074==--
