@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5557571387525024102=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 04 Jan 2021 14:56:03 -0000
-Message-Id: <160977216375.5725.9433326715126550131@gitolite.kernel.org>
-
---===============5557571387525024102==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 04 Jan 2021 14:59:58 -0000
+Message-Id: <160977239834.6842.4453424304314412101@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/staging-next
-    old: 1e9a9c7cba3ca5cbd3201a9f3b8dc6e8d7bef1c0
-    new: 1f82c33205db389007d2dd44ffdc124a24b9108f
+  - ref: refs/heads/review-hans
+    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+    new: 5b569302520ac8cef03e7a841e45cb37234f8b5f
     log: |
-         1f82c33205db389007d2dd44ffdc124a24b9108f Revert "staging: board: Remove macro board_staging"
+         f981dc171c04c6cf5a35c712543b231ebf805832 tools/power/x86/intel-speed-select: Set scaling_max_freq to base_frequency
+         bbaa2e95e23e74791dd75b90d5ad9aad535acc6e tools/power/x86/intel-speed-select: Set higher of cpuinfo_max_freq or base_frequency
+         6a4b1f2dff558d75ee4f2ce88595a933b6918183 platform/surface: surface_gpe: Fix non-PM_SLEEP build warnings
+         e4a02c7a0e3aeb966e4fdc4a43dce978c467fe83 platform/surface: SURFACE_PLATFORMS should depend on ACPI
+         9bba96275576da0cf78ede62aeb2fc975ed8a32d platform/x86: i2c-multi-instantiate: Don't create platform device for INT3515 ACPI nodes
+         46c54cf2706122c37497896d56d67b0c0aca2ede platform/x86: touchscreen_dmi: Add swap-x-y quirk for Goodix touchscreen on Estar Beauty HD tablet
+         fcd38f178b785623c0325958225744f0d8a075c0 platform/x86: intel-vbtn: Support for tablet mode on Dell Inspiron 7352
+         aa44afab87af079e0cf2ead9621d0447798a305e platform/x86: thinkpad_acpi: correct palmsensor error checking
+         5b569302520ac8cef03e7a841e45cb37234f8b5f platform/x86: amd-pmc: Fix CONFIG_DEBUG_FS check
          
-
---===============5557571387525024102==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609772243 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1609772155-81d9d3b2ca5000a8b249982312591bc2da7e9c24
-
-1e9a9c7cba3ca5cbd3201a9f3b8dc6e8d7bef1c0 1f82c33205db389007d2dd44ffdc124a24b9108f refs/heads/staging-next
------BEGIN PGP SIGNATURE-----
-
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/zLNMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pqcP9jBZE5hAC3ikUERiGOKD
-k2ufW49FISvR6IqBhM0L37UuUlfmf5YpEd1z2vlRn+JrytIW2MJjEnKo96MSYE5N
-pBShQtYkjyUdDi+Hidvx/exElhsL6Bf/TGhFGB+yxAd+WBMQziRSdICRWsaMf3BA
-BMiHXnwURc372guZTqrB3Ett+o4CIWKQDxTy6CNEaaqYQP6dNpIg3vsErd5M7OHx
-4HAYUFIkNz3HmXezdmZkxqjeWFojTclLCPik3zAl/1kVyzBCT0CDqOZGWOG8w5YE
-K6Bs+pnk+3waru9vRcZo6jAIvBdUD86Xije/3R6TpTtVLXwHy5T0+gm02mapO2Su
-4KWy0lXGwxqUF8sw/1bupt/Rha13AIIk8wAdat9alMYjjDw1JvHjVVzIETPcnomf
-v23bnV9VEwgL3TmaFprxZ1J8kBa106WindcjJ/P2DXxLlqkyYOKgPKNdjalNAA0j
-1LEv+61ErsUl/9GH6VclR7LIE1ctv5dnhN8t/uPsA9O3pPQjt3wHhnkx6THCykXt
-R1Ntl7rcYZc2MFd74KaiuXqNPza1nFmbsmxno4oXz/uic0aMPHByCPofTU7me7cX
-Cx5qxWmAjXXclYPoURTLksVtwLWAkD+rq4Z45FMQW/7KFVkEAmHUdy3FYN1IjhrM
-KMS0Rs19uIi1hZtG+KuW9kY=
-=q3w0
------END PGP SIGNATURE-----
-
---===============5557571387525024102==--
