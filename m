@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-gpio
-Date: Mon, 04 Jan 2021 15:06:01 -0000
-Message-Id: <160977276175.11566.17602241505251001426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 04 Jan 2021 15:08:53 -0000
+Message-Id: <160977293392.12413.14507488719962989559@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-gpio
-user: linusw
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/tags/v5.10
-    old: 0000000000000000000000000000000000000000
-    new: 3f995f8e0b540342612d3f6b1fc299f5bf486987
-  - ref: refs/tags/v5.10-rc7
-    old: 0000000000000000000000000000000000000000
-    new: dd0039844c8b2b960d0e0175923da0135f87c392
-  - ref: refs/tags/v5.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 4a191eab42bda9fba2742d8d538609c737b8194e
-  - ref: refs/tags/v5.11-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8abc7aa5d31067372903fb523ed96e8470b92d50
+  - ref: refs/heads/for-5.11/upstream-fixes
+    old: c3d6eb6e54373f297313b65c1f2319d36914d579
+    new: de30491e8bfeeba1500bba293333eb51ece529d5
+    log: |
+         de30491e8bfeeba1500bba293333eb51ece529d5 HID: sfh: fix address space confusion
+         
+  - ref: refs/heads/for-next
+    old: a5e8feae93cf6c4012d4992191edc8e99da0a332
+    new: 10bdedf5b1eefe9a4ed1be80b551252e1ce44060
+    log: |
+         de30491e8bfeeba1500bba293333eb51ece529d5 HID: sfh: fix address space confusion
+         10bdedf5b1eefe9a4ed1be80b551252e1ce44060 Merge branch 'for-5.11/upstream-fixes' into for-next
+         
