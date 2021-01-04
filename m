@@ -1,37 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Mon, 04 Jan 2021 12:54:07 -0000
-Message-Id: <160976484738.19726.3880600709263798773@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0835822006823611115=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 04 Jan 2021 12:54:21 -0000
+Message-Id: <160976486100.19895.8465607775285891322@gitolite.kernel.org>
+
+--===============0835822006823611115==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-greg/4.19-3
-    old: 4d48c78f899a299b81a71048e13792e002fc3564
-    new: 908936d8876835cebead8bd600425fa9dafab74a
+  - ref: refs/heads/master
+    old: 4445866418a9608cee5837e379682c9c986eef84
+    new: 896306981083ded90747a288740f537de6ecb267
     log: |
-         1bfd50a3a53d3c8be85ef87373fda6f9652fd118 scsi: scsi_transport_spi: Set RQF_PM for domain validation commands
-         0467a19f10175462c7ef84fc67e46f03fb774cd8 kdev_t: always inline major/minor helper functions
-         576812dc053feada56d62a4fe07dce8ed32868cc lib/genalloc: fix the overflow when size is too big
-         908936d8876835cebead8bd600425fa9dafab74a depmod: handle the case of /sbin/depmod without /sbin in PATH
+         896306981083ded90747a288740f537de6ecb267 4.19-stable patches
          
-  - ref: refs/heads/for-greg/5.10-3
-    old: e7019f494aa99139cc572ab3f7a6baec9f538cf8
-    new: e74312a53b79c5a59eeb63a7b24dd97d829225e7
-    log: |
-         e74312a53b79c5a59eeb63a7b24dd97d829225e7 scsi: ufs: Clear UAC for FFU and RPMB LUNs
-         
-  - ref: refs/heads/for-greg/5.4-3
-    old: 05d68381ae95ad04b590e9b78dc4d9e487192290
-    new: 4baced55b4790a438ea244c3e236221ef21ee66b
-    log: |
-         19ccb6c07de99bf5ee712413c5b2fc192132e987 scsi: scsi_transport_spi: Set RQF_PM for domain validation commands
-         d0c724aea7c24c0f5e6b2e1c258f032a39bb658f kdev_t: always inline major/minor helper functions
-         943966cda75500aea8d07e9a37c6929672125924 lib/genalloc: fix the overflow when size is too big
-         4baced55b4790a438ea244c3e236221ef21ee66b depmod: handle the case of /sbin/depmod without /sbin in PATH
-         
+
+--===============0835822006823611115==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609764948 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1609764859-854c1a053d876a4efd6d9b7ee28890f84363457f
+
+4445866418a9608cee5837e379682c9c986eef84 896306981083ded90747a288740f537de6ecb267 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/zEFQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rXkP/08/C5YXr3kRR9znqCHE
+BMoWQMweJshYIgoVR7JGuPhbx3vz9i5SmwOROy4Snm2fYoK8MX9U9q0dbnWfTYvF
+m6ETJfmEl5i5JTmHiNbj1em/3mGC20Qe5uQCLcHNuUL6dXuTx3YDRsBjB5xHcylg
+sWXI7jQ/CeG8Zfhqqr9wYMIt9X4xm01R3PYe+kTXoICPOilVXPMDNsxCnRDBeq/t
+glu7Lu+f06C4VQ55F5SrpbMJgV/mMg3JZx8x7C5Gqf1YUa4biVZy0KUCnidgllRi
+ufrRVWaYjObgPqaVSgOXUm6SO+RnK+s6fSYBsJcUxn45BiNaH4Fv1sTObDOAgAlS
+mfBplfxw4GtWBwV02BYNhou05W5L3t9jmbqNsIFrRQajUqjHcor3UOdCeS7yS99j
+YsXMs3yn/y99bo8GFrVH2NI1kYuxKYqU59ECocU+2WCzH8e8U3fMV2C+ii5Qds1L
+lrczzdbEgzhV6KL4JTzFIDQAjPTeIc9RQ9DvtFUHTcEwMZp8IVXfIKjHpKWF4589
+gRU0wYsbQLB0GF89dPWpB4tUb7ApqUehnP8eA/JNgh47pZzE9XXi1Qc2siIsusVj
+g+LwLg5GZmfGR8MSRDCqXzrtHuXVKxInxQA+RhG9vG+4tCPmu+qLRmxDnqY6o89o
+qVzsfjEYnXLwtUvhD3+reTTt
+=EOjt
+-----END PGP SIGNATURE-----
+
+--===============0835822006823611115==--
