@@ -1,37 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4651629868478671330=="
+Content-Type: multipart/mixed; boundary="===============7133421614937638026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Mon, 04 Jan 2021 05:08:15 -0000
-Message-Id: <160973689597.8761.6267818351362913466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Mon, 04 Jan 2021 05:25:47 -0000
+Message-Id: <160973794760.21176.5145689049687356787@gitolite.kernel.org>
 
---===============4651629868478671330==
+--===============7133421614937638026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/extcon-testing
-    old: 54589b557a8dd21c735dbef6a8e0995ef5a11145
-    new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    log: revlist-54589b557a8d-5c8fe583cce5.txt
+  - ref: refs/heads/work.namei
+    old: f023d2856e3bc67efcaf54101a2923043d8b0f18
+    new: 8b0901c68dc0eb6bb6596a37ffd966e3421b4972
+    log: revlist-f023d2856e3b-8b0901c68dc0.txt
 
---===============4651629868478671330==
+--===============7133421614937638026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-54589b557a8d-5c8fe583cce5.txt
+Content-Disposition: attachment; filename=revlist-f023d2856e3b-8b0901c68dc0.txt
 
-ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
-214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
-4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
-6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
-36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
-03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
 5d37fc0b087fb276a257034c5a1dfdbfaa08be66 ia64: remove 'ifdef CONFIG_ZONE_DMA32' statements
 b90b5547685ffe2b30522b81a1c9f6c35e1152de ia64: discontig: paging_init(): remove local max_pfn calculation
 1f112129975e7a47324ba71b00e8e2c962177843 ia64: split virtual map initialization out of paging_init()
@@ -1050,5 +1044,11 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
+1e8f44f159b31fe31ad2f40f96575b6ad6df2fe9 do_tmpfile(): don't mess with finish_open()
+26ddb45e13a3e09f5f5517a3c9d6510208181516 fs/namei.c: Remove unlikely of status being -ECHILD in lookup_fast()
+93154340a41b481e1e569784e26440ad9d6fad9b fs: make unlazy_walk() error handling consistent
+97c62fa6daa4bdee4bcc10c105e91ae5f9314026 saner calling conventions for unlazy_child()
+b29400da4717b0b7ce2c13112406462d6fa821cb fs: add support for LOOKUP_NONBLOCK
+8b0901c68dc0eb6bb6596a37ffd966e3421b4972 fs: expose LOOKUP_NONBLOCK through openat2() RESOLVE_NONBLOCK
 
---===============4651629868478671330==--
+--===============7133421614937638026==--
