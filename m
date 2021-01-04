@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1600176719319643385=="
+Content-Type: multipart/mixed; boundary="===============6086580908210774100=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 04 Jan 2021 20:33:47 -0000
-Message-Id: <160979242725.1120.9646826428386226380@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 20:34:02 -0000
+Message-Id: <160979244235.1287.15964484227496616141@gitolite.kernel.org>
 
---===============1600176719319643385==
+--===============6086580908210774100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.11
+  - ref: refs/heads/for-next
     old: 48b0777cd93dbd800d3966b6f5c34714aad5c203
     new: d68b29584c25dbacd01ed44a3e45abb35353f1de
     log: revlist-48b0777cd93d-d68b29584c25.txt
+  - ref: refs/tags/v5.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 4a191eab42bda9fba2742d8d538609c737b8194e
+  - ref: refs/tags/v5.11-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 8abc7aa5d31067372903fb523ed96e8470b92d50
 
---===============1600176719319643385==
+--===============6086580908210774100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1057,4 @@ b690bd546b227c32b860dae985a18bed8aa946fe dm zoned: select CONFIG_CRC32
 8abec36d1274bbd5ae8f36f3658b9abb3db56c31 dm crypt: do not wait for backlogged crypto request completion in softirq
 d68b29584c25dbacd01ed44a3e45abb35353f1de dm crypt: use GFP_ATOMIC when allocating crypto requests from softirq
 
---===============1600176719319643385==--
+--===============6086580908210774100==--
