@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 04 Jan 2021 21:38:01 -0000
-Message-Id: <160979628107.9021.4015353738358312353@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 21:41:13 -0000
+Message-Id: <160979647387.11229.11009105164189534773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 2ff2c7e274392871bfdee00ff2adbb8ebae5d240
-    new: cfd82dfc9799c53ef109343a23af006a0f6860a9
+    old: cfd82dfc9799c53ef109343a23af006a0f6860a9
+    new: e80bd76fbf563cc7ed8c9e9f3bbcdf59b0897f69
     log: |
-         cfd82dfc9799c53ef109343a23af006a0f6860a9 net: usb: qmi_wwan: add Quectel EM160R-GL
+         e80bd76fbf563cc7ed8c9e9f3bbcdf59b0897f69 r8169: work around power-saving bug on some chip versions
          
