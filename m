@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 04 Jan 2021 12:42:49 -0000
-Message-Id: <160976416910.11207.3294312886167914087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Mon, 04 Jan 2021 12:43:31 -0000
+Message-Id: <160976421104.11492.16251993015372069897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: 40618e66f6f64b50ca0635bda02efc650c633e6e
-    new: 1b39cd7f63b0beb1519a76f5104843c93809cf94
+  - ref: refs/heads/fixes
+    old: 0bd1bf86ab79555425b9f0b63005e181defe4da6
+    new: 2d5efea64472469117dc1a9a39530069e95b21e9
     log: |
-         3c560686099581d6b00291eef7426e9a86e331d8 *: spelling and grammar fixes
-         1b39cd7f63b0beb1519a76f5104843c93809cf94 Merge branch 'spelling' of https://github.com/scop/util-linux
+         99974aedbd73523969afb09f33c6e3047cd0ddae dmaengine: xilinx_dma: check dma_async_device_register return value
+         faeb0731be0a31e2246b21a85fa7dabbd750101d dmaengine: xilinx_dma: fix incompatible param warning in _child_probe()
+         2d5efea64472469117dc1a9a39530069e95b21e9 dmaengine: xilinx_dma: fix mixed_enum_type coverity warning
          
