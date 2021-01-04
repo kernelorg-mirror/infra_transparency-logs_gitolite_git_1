@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9217070342151894265=="
+Content-Type: multipart/mixed; boundary="===============6807178498253213438=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 04 Jan 2021 16:29:09 -0000
-Message-Id: <160977774904.2061.17741800097616751382@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 16:30:00 -0000
+Message-Id: <160977780053.2345.7612504198864467004@gitolite.kernel.org>
 
---===============9217070342151894265==
+--===============6807178498253213438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/devel
+  - ref: refs/heads/test
     old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
     new: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
     log: revlist-3650b228f83a-e71ba9452f0b.txt
 
---===============9217070342151894265==
+--===============6807178498253213438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.ke
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
 
---===============9217070342151894265==--
+--===============6807178498253213438==--
