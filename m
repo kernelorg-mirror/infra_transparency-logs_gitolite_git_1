@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7476427351089019511=="
+Content-Type: multipart/mixed; boundary="===============0170060432127057749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Mon, 04 Jan 2021 16:41:37 -0000
-Message-Id: <160977849711.10455.12693212617002237963@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
+Date: Mon, 04 Jan 2021 16:41:42 -0000
+Message-Id: <160977850227.10531.17057794827345697469@gitolite.kernel.org>
 
---===============7476427351089019511==
+--===============0170060432127057749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
+repo: pub/scm/linux/kernel/git/khilman/linux
 user: khilman
 changes:
-  - ref: refs/heads/integ
+  - ref: refs/heads/to-build
     old: d551991f1194ad8da0c0524d16465cce68a1f535
     new: f45dceca5e24472fd014151a9354579df341260f
     log: revlist-d551991f1194-f45dceca5e24.txt
 
---===============7476427351089019511==
+--===============0170060432127057749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b3ffd9f68a2c1da1fbf98a40a807e0bea7660c48 arm64: dts: meson: Fix schema warnings 
 60f232d3c04a346ff94602f6edbe8e95ed281239 Merge branch 'v5.12/dt64' into tmp/aml-rebuild
 f45dceca5e24472fd014151a9354579df341260f Merge remote-tracking branch 'clk-meson/v5.12/drivers' into tmp/aml-rebuild
 
---===============7476427351089019511==--
+--===============0170060432127057749==--
