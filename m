@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4728791286307298118=="
+Content-Type: multipart/mixed; boundary="===============6726759144179261479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Mon, 04 Jan 2021 04:48:03 -0000
-Message-Id: <160973568391.27601.4441402925034185591@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 05:07:20 -0000
+Message-Id: <160973684026.8431.12871775266113423835@gitolite.kernel.org>
 
---===============4728791286307298118==
+--===============6726759144179261479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-next
-    old: e1efdb604f5c9903a5d92ef42244009d3c04880f
+  - ref: refs/heads/extcon-fixes
+    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
     new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    log: revlist-e1efdb604f5c-5c8fe583cce5.txt
+    log: revlist-3650b228f83a-5c8fe583cce5.txt
 
---===============4728791286307298118==
+--===============6726759144179261479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1efdb604f5c-5c8fe583cce5.txt
+Content-Disposition: attachment; filename=revlist-3650b228f83a-5c8fe583cce5.txt
 
 ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
 214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 
---===============4728791286307298118==--
+--===============6726759144179261479==--
