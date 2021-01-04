@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1508115975737055669=="
+Content-Type: multipart/mixed; boundary="===============3008452745591455735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 04 Jan 2021 08:47:30 -0000
-Message-Id: <160975005067.17378.7063411421069209794@gitolite.kernel.org>
+Date: Mon, 04 Jan 2021 08:47:39 -0000
+Message-Id: <160975005972.17537.16722402874020687063@gitolite.kernel.org>
 
---===============1508115975737055669==
+--===============3008452745591455735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
+  - ref: refs/heads/gnss-linus
     old: 48778464bb7d346b47157d21ffde2af6b2d39110
     new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
     log: revlist-48778464bb7d-5c8fe583cce5.txt
 
---===============1508115975737055669==
+--===============3008452745591455735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 
---===============1508115975737055669==--
+--===============3008452745591455735==--
