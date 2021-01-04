@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 04 Jan 2021 22:45:53 -0000
-Message-Id: <160980035378.19344.15519623614038140643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 04 Jan 2021 22:50:02 -0000
+Message-Id: <160980060290.21544.16196656995353786323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/net-rc
-    old: 44e09a309ef66192ea4a6a0c2fa7b108cb2bad71
-    new: dc74df46770a963ae23a1758f264a7460a76f342
+  - ref: refs/heads/io_uring-5.11
+    old: b1b6b5a30dce872f500dc43f067cba8e7f86fc7d
+    new: 90df08538c07b7135703358a0c8c08d97889a704
     log: |
-         95e0e923406e33c0a6ef49afaf1f69b5598480fd Merge commit 'refs/changes/74/362074/1' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
-         62a823ea81f027516d4251c261df9f419a7121ff Merge commit 'refs/changes/41/361341/8' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
-         6829f853fdeba834a5d5f7d823a56a7c450478d7 Merge branch 'net-mlx4' into net-rc
-         d673176a24e899b92e9297c606be66ee418a7579 Merge branch 'net-mlx5' into net-rc
-         dc74df46770a963ae23a1758f264a7460a76f342 Merge branch 'net-mlx5-test' into net-rc
+         81b6d05ccad4f3d8a9dfb091fb46ad6978ee40e4 io_uring: synchronise IOPOLL on task_submit fail
+         6c503150ae33ee19036255cfda0998463613352c io_uring: patch up IOPOLL overflow_flush sync
+         de7f1d9e99d8b99e4e494ad8fcd91f0c4c5c9357 io_uring: drop file refs after task cancel
+         90df08538c07b7135703358a0c8c08d97889a704 io_uring: cancel more aggressively in exit_work
          
