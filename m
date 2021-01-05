@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 05 Jan 2021 11:55:54 -0000
-Message-Id: <160984775499.17845.713342909366525586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Tue, 05 Jan 2021 12:20:51 -0000
+Message-Id: <160984925172.31345.16978127697758868750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/master
-    old: 54624b8f49266b6b84d0fdfc76a81392a54d4759
-    new: 45be288c8f0e90e430e6e6ed42c868a36ead5dfb
+  - ref: refs/tags/for_linus
+    old: 033f6591df15371d2b8ba504552ea40945108b47
+    new: d062c1e549fc50986de9634fc089623a6bdf00a9
     log: |
-         45be288c8f0e90e430e6e6ed42c868a36ead5dfb cfdisk: show Q option when choosing label type
+         e13a6915a03ffc3ce332d28c141a335e25187fa3 vhost/vsock: add IOTLB API support
          
