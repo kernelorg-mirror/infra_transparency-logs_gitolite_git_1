@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 05 Jan 2021 11:08:07 -0000
-Message-Id: <160984488745.18277.1729003119835066766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 05 Jan 2021 11:19:12 -0000
+Message-Id: <160984555287.24187.9628550061685054915@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/sound-5.11-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 4333eb774b4ded0d245d4b1cefbe852e3da715b2
+  - ref: refs/heads/irq/irqchip-next
+    old: e1dc20995cb9fa04b46e8f37113a7203c906d2bf
+    new: 4cc99d03757df10a4064ba28bf6021406b04d6a9
+    log: |
+         4cc99d03757df10a4064ba28bf6021406b04d6a9 irqchip/loongson-liointc: Fix build warnings
+         
