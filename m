@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Tue, 05 Jan 2021 16:24:39 -0000
-Message-Id: <160986387981.28839.598303877099929838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Tue, 05 Jan 2021 16:46:53 -0000
+Message-Id: <160986521327.9157.10256783805915532505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/for-next
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: 40f592233f78776f41137de5f105672edb1d3e36
-    log: |
-         a918c3558ce8754b5ab9e28173619ce7e25f730e nvmem: core: Fix a resource leak on error in nvmem_add_cells_from_of()
-         40f592233f78776f41137de5f105672edb1d3e36 nvmem: imx-iim: Use of_device_get_match_data()
-         
+  - ref: refs/tags/icc-5.11-rc3
+    old: 0000000000000000000000000000000000000000
+    new: dadd65d1c8c9f0c702ec685990e03f0907b90b93
