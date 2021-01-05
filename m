@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4615690557598950053=="
+Content-Type: multipart/mixed; boundary="===============6243762736273288730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Tue, 05 Jan 2021 16:20:19 -0000
-Message-Id: <160986361942.25113.913548335673119013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Tue, 05 Jan 2021 16:20:41 -0000
+Message-Id: <160986364150.25261.18210956536174842070@gitolite.kernel.org>
 
---===============4615690557598950053==
+--===============6243762736273288730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/slimbus
+repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
     log: revlist-9123e3a74ec7-5c8fe583cce5.txt
 
---===============4615690557598950053==
+--===============6243762736273288730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 
---===============4615690557598950053==--
+--===============6243762736273288730==--
