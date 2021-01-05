@@ -1,59 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============2191716604762463910=="
+Content-Type: multipart/mixed; boundary="===============1955981715311110258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 05 Jan 2021 14:17:33 -0000
-Message-Id: <160985625334.10804.12736437001147606451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 05 Jan 2021 14:23:36 -0000
+Message-Id: <160985661641.16228.17775688810471022764@gitolite.kernel.org>
 
---===============2191716604762463910==
+--===============1955981715311110258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: 4c5a6a7b71431f39bd80f6c3a14a429602a5555f
-    log: |
-         22a9e57fccfea0cf9a066935dc6b81b866aaca55 misc: ocxl: use DEFINE_MUTEX() for mutex lock
-         157576d552339edc7988c79f37f4a335eaa0eaf2 misc: remove atmel_tclib
-         38d98d73be9f5f90b63d56d73afffa6c9de59c02 misc: rtsx: remove unused function
-         4c5a6a7b71431f39bd80f6c3a14a429602a5555f greybus: remove h from printk format specifier
-         
+  - ref: refs/heads/master
+    old: c15899c1cbed183c64550bca00ecc6993c849c85
+    new: 4b447adf50c61125c57922cc01ec3e6792cc48af
+    log: revlist-c15899c1cbed-4b447adf50c6.txt
 
---===============2191716604762463910==
+--===============1955981715311110258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c15899c1cbed-4b447adf50c6.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609856331 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1609856244-f7dc4000091906286ae5e53ff231dab9079b75e7
+facafe2edb98db3914e1b1b0ee59906310d60f47 uuidparse: use libuuid function to test nil uuid
+ab85f756a07aec9e1c5e28c6300530f1937c20f0 uuidparse: use uuid type definitions from libuuid header
+a6fae86865210256a3de71a8d1bf74c2aca2be9f libuuid: simplify uuid_is_null() check
+451d0e9e7b0318b3627cd578dde3eb654ca6c68d uuidgen: use errx() rather than fprintf() when priting errors
+e69cb8b91db9ca0576e2fddabf14e0e08b26ebe2 uuidgen: give hint in usage() what uuid namepaces can be used
+01258182bbabc3b7eae3c62629198d05462af6b7 lscpu: fix variable shadowing
+186946b23984842a3c60d03b7ff3e42a64940715 man: add missing backslash to caret printing macro
+d0355b2e90b83bd437ef81abc00ca26b54b9071b lsipc: make default output byte sizes to be in human units
+8d6877239c3e6d1dbe2b2aa1b3661a36c39ea220 mkswap: tell how to fix insecure permissions and owner in warning
+c25b7d8a9be9f991a19806ea5ee373d0321a6ae5 build-sys: sort various lists in configure.ac
+4b447adf50c61125c57922cc01ec3e6792cc48af Merge branch '2020wk47' of https://github.com/kerolasa/util-linux
 
-5c8fe583cce542aa0b84adc939ce85293de36e5e 4c5a6a7b71431f39bd80f6c3a14a429602a5555f refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/0dUsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lyIP/A+TFr79Bf3RW1c2Pu5W
-kQMNqmwmSMJyy2RX6TQDLZbZjGlJEXgVz2woPkqXnH52l1jEZvQItg15WocFlS9V
-hbtDHUuqtK1u10z/U30Ugxo+Pwrq2bCc4XmxUcYqVaiim0BaTQDwjOBMVJ9zly5w
-UrbmfVX1AucV3d/nQwuhJw2s0LnoviurkjFHVA64U0DnGTpWf1d4dSvGMZWYD+BX
-UappUrvnoZOEpfdv6HizTftvUtzv1qCn583k66cWZRh0D9jc3y0uWK4iMv/j0IhX
-eCp4wbCDHK9YqNu1qhoxsH1pJZxPyvqc2rSwo2CCjadidFWvmUp5t+oSTV5rHhxc
-8F4njCCXmOzuehRtq3PM5DjxltTukJZeeRcMlw9iIo3z0VDjh5XJdq9VtjtRD959
-kgO3GAuE5xoMORdGf8z+gXkG/qFvu2AHHEQqjZEAajByJ2zdKHSgGzmLu+l0LVwD
-Ogb2Mwzm9oM+1XyCzSemjkiS1Ckdd33li4AD95F9ng1Jy3nCb3zdCxH9Dyw5HNKd
-KuBKq5MyVpsUGkXrMvCP07OJU7/6CDfrBpeJnSgMqccTfUYU2RKizCiUR9P00pBb
-eVyjrIes2uVvK9EeQbxevGoDkNUnmfRUwjCP82NnmgOrQGDbB9+N3rT+NXZXnSu0
-Qe41q0TdF/LzuTO0p6AaU+ck
-=Uopp
------END PGP SIGNATURE-----
-
---===============2191716604762463910==--
+--===============1955981715311110258==--
