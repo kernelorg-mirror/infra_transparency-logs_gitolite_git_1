@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5772611383752563256=="
+Content-Type: multipart/mixed; boundary="===============3181917109890440015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Tue, 05 Jan 2021 16:56:33 -0000
-Message-Id: <160986579382.16970.7519824047165400985@gitolite.kernel.org>
+Date: Tue, 05 Jan 2021 16:56:41 -0000
+Message-Id: <160986580119.17047.8433242769392601657@gitolite.kernel.org>
 
---===============5772611383752563256==
+--===============3181917109890440015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/djakov/icc
 user: djakov
 changes:
-  - ref: refs/heads/icc-next
-    old: 2a211904aca6e68b800177ba5094a0fbe0a8b522
+  - ref: refs/heads/icc-fixes
+    old: 017496af28e2589c2c2cb396baba0507179d2748
     new: 4b1a60a1bb8f03d82c3f6da424adc96667b59f2a
-    log: revlist-2a211904aca6-4b1a60a1bb8f.txt
+    log: revlist-017496af28e2-4b1a60a1bb8f.txt
 
---===============5772611383752563256==
+--===============3181917109890440015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a211904aca6-4b1a60a1bb8f.txt
+Content-Disposition: attachment; filename=revlist-017496af28e2-4b1a60a1bb8f.txt
 
 03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
 5d37fc0b087fb276a257034c5a1dfdbfaa08be66 ia64: remove 'ifdef CONFIG_ZONE_DMA32' statements
@@ -1051,4 +1051,4 @@ c6174c0e058fc0a54e0b9787c44cb24b0a8d0217 interconnect: imx: Add a missing of_nod
 67288f74d4837b82ef937170da3389b0779c17be interconnect: imx8mq: Use icc_sync_state
 4b1a60a1bb8f03d82c3f6da424adc96667b59f2a MAINTAINERS: Update Georgi's email address
 
---===============5772611383752563256==--
+--===============3181917109890440015==--
