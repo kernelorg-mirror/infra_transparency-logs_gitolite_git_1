@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3221528659805053335=="
+Content-Type: multipart/mixed; boundary="===============6514513903714397938=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Tue, 05 Jan 2021 03:56:40 -0000
-Message-Id: <160981900059.26790.15575392866515904669@gitolite.kernel.org>
+Date: Tue, 05 Jan 2021 03:58:33 -0000
+Message-Id: <160981911343.27410.2018547858819910298@gitolite.kernel.org>
 
---===============3221528659805053335==
+--===============6514513903714397938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,40 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/master
-    old: 3650b228f83adda7e5ee532e2b90429c03f7b9ec
-    new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    log: revlist-3650b228f83a-5c8fe583cce5.txt
+  - ref: refs/heads/for-next
+    old: 09690c0e0d1c94614178f298ac91334e803bcaf7
+    new: 90330a6dbd8cf1938543227d16159f9636094c83
+    log: revlist-09690c0e0d1c-90330a6dbd8c.txt
 
---===============3221528659805053335==
+--===============6514513903714397938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3650b228f83a-5c8fe583cce5.txt
+Content-Disposition: attachment; filename=revlist-09690c0e0d1c-90330a6dbd8c.txt
 
-ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
-214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
-4784be284adaa516df4144fc919f9bde8200443a kasan: update documentation for generic kasan
-6d5a88cd0c1506115d71a4d3a26b60645c89df6c lkdtm: disable KASAN for rodata.o
-36d40290c8f71daf1ba5567ab14574f36b9b8d6a alpha: switch from DISCONTIGMEM to SPARSEMEM
-03e92a5e097d679acbd1fb4d2ae238a38158aa0b ia64: remove custom __early_pfn_to_nid()
-5d37fc0b087fb276a257034c5a1dfdbfaa08be66 ia64: remove 'ifdef CONFIG_ZONE_DMA32' statements
-b90b5547685ffe2b30522b81a1c9f6c35e1152de ia64: discontig: paging_init(): remove local max_pfn calculation
-1f112129975e7a47324ba71b00e8e2c962177843 ia64: split virtual map initialization out of paging_init()
-ea34f78f3df62e531cf2beca997ff6bfae2b1e0d ia64: forbid using VIRTUAL_MEM_MAP with FLATMEM
-214496cb18700fd7c5206ac33768876dbf68b4df ia64: make SPARSEMEM default and disable DISCONTIGMEM
-5e545df3292fbd3d5963c68980f1527ead2a2b3f arm: remove CONFIG_ARCH_HAS_HOLES_MEMORYMODEL
-4f5b0c1789963477cc9a4d45b4b62d694665cceb arm, arm64: move free_unused_memmap() to generic mm
-050b2da268f8fc4f8123f6462c430a61547b2f7b arc: use FLATMEM with freeing of unused memory map instead of DISCONTIGMEM
-6b2ad8d763727b887d85c990747271ee804d9abb m68k/mm: make node data and node setup depend on CONFIG_DISCONTIGMEM
-4bfc848e0981fcd35db00fe1c6581560689f6dc7 m68k/mm: enable use of generic memory_model.h for !DISCONTIGMEM
-fcd353a314213534d04193eea0bc54c4b7a3e1b0 m68k: deprecate DISCONTIGMEM
-77bc7fd607dee2ffb28daff6d0dd8ae42af61ea8 mm: introduce debug_pagealloc_{map,unmap}_pages() helpers
-2abf962a8d42b32f5ffeb827826290b799c85f86 PM: hibernate: make direct map manipulations more explicit
-5d6ad668f31625c6aa9ed8dc3bdb29561d2b1144 arch, mm: restore dependency of __kernel_map_pages() on DEBUG_PAGEALLOC
-32a0de886eb3cb7e6990da27a9cdfa50baa8be64 arch, mm: make kernel_page_present() always available
-7115ac6ef0b26017676e88a44a0b40c2d1d99299 mm, page_alloc: clean up pageset high and batch update
-0a8b4f1d5bf4108cfd2877223bf125b1fa1dc4b1 mm, page_alloc: calculate pageset high and batch once per zone
 69a8396a2647feac197497bd992f0a91da9fd801 mm, page_alloc: remove setup_pageset()
 5c3ad2eb7104754a36580079a2e4aed04a10631d mm, page_alloc: simplify pageset_update()
 952eaf815925f106eb6b68346b3458a68bb18ec1 mm, page_alloc: cache pageset high and batch in struct zone
@@ -1050,5 +1027,28 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 52cd5f9c22eeef26d05f9d9338ba4eb38f14dd3a Merge tag 'ntb-5.11' of git://github.com/jonmason/ntb
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
+fd159539f7b0dbfe0aa196c3182e44b9ba49edb8 dt-bindings: arm: fsl: Add beacon,imx8mn-beacon-kit
+36ca3c8ccb537ac6311b977e71040b493f168a63 arm64: dts: imx: Add Beacon i.MX8M Nano development kit
+fe0e2394ccccdcaccf226ea9b1b859fd1ef9678a arm64: defconfig: Enable WM8962
+3f8c61a567ebc4c03caba2730352833edc16b132 arm64: dts: ls1043a: add DT node for external interrupt lines
+7968344126e562be585d944be52bfc42e0760a7d arm64: dts: ls1046a: add DT node for external interrupt lines
+c4a462485aee3de2c3b33395c0c88ba9526144d6 arm64: dts: ls1046ardb: Add interrupt line for RTC node
+0e88b5fd565da96375672ae547af5cdba46fdc0d arm64: dts: ls1088a: add DT node for external interrupt lines
+09b19ef878265e70e9b9cde283d41d66695e4cbe arm64: dts: ls1088ardb: fix interrupt line for RTC node
+ebb0713736ac98845178e81c0ae3ca3f2f11d3fb arm64: dts: ls208xa: add DT node for external interrupt lines
+6f5851a866b254b404cd7f50a24af0677a6b9fc3 arm64: dts: ls208xa-rdb: add interrupt line for RTC node
+332b6a79b415e8b96b8dd87d4e8973192882d6a6 arm64: dts: lx2160a: add DT node for external interrupt lines
+a430c3d2f0afd88466a0871bc876ec5246b8e09e arm64: dts: lx2160ardb: fix interrupt line for RTC node
+95741fdb52907b5cf24129ba7f2150a102154bb0 clk: imx: clk-imx8qxp: Add SCU clocks support for DC0 PLL clocks
+de332bf242787dc39b0cf4493dc989d6d9fdce93 clk: imx: clk-imx8qxp: Add SCU clocks support for DC0 bypass clocks
+e4c0ca7894e887bce842f85e9626fefd5d6d4d7d clk: imx: clk-imx8qxp: Register DC0 display clocks with imx_clk_scu2()
+6f88ef38ecf4d0c09cdbbaf3ed5d840a6baa534f clk: imx: clk-imx8qxp: Add some SCU clocks support for MIPI-LVDS subsystems
+773fcbcdf9d66b4aec964238b613e93804cba24c ARM: imx_v6_v7_defconfig: enable power driver of RN5T618 PMIC family
+6337c2353a069b6f1276dc35421e421ef6c1ead9 ARM: dts: imx6qdl-kontron-samx6i: fix pwms for lcd-backlight
+9c2eb8b7be78a0de6705ef543bd83514c56c6580 arm64: dts: freescale: use fixed index mmcN for NXP layerscape reference boards
+b483feb9792fe02d3d8a8aea60960001b66c6be6 Merge branch 'clk/imx' into for-next
+c7bdd247ab7f4df842b73ae77b68ba0b233169f0 Merge branch 'imx/bindings' into for-next
+d6c863030988044bf4b4c0d89ae3380b115059eb Merge branch 'imx/dt64' into for-next
+90330a6dbd8cf1938543227d16159f9636094c83 Merge branch 'imx/defconfig' into for-next
 
---===============3221528659805053335==--
+--===============6514513903714397938==--
