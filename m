@@ -1,50 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============6502840930977396886=="
+Content-Type: multipart/mixed; boundary="===============1000021062925003763=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Tue, 05 Jan 2021 09:52:56 -0000
-Message-Id: <160984037662.4493.9090620786391813976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Tue, 05 Jan 2021 10:01:40 -0000
+Message-Id: <160984090047.9766.14355018584423989970@gitolite.kernel.org>
 
---===============6502840930977396886==
+--===============1000021062925003763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: 0aafd3fda46028d8729ee514c7eb718f1fc86fe9
-    new: a4b543ecfc8eba5e474893ce134b4bac763d7726
-    log: revlist-0aafd3fda460-a4b543ecfc8e.txt
+  - ref: refs/heads/master
+    old: 3754620f0e4ff9dab08991e6974784739302dd6c
+    new: 72af9e8351383a9a8d2873beb182b14806eba76e
+    log: revlist-3754620f0e4f-72af9e835138.txt
 
---===============6502840930977396886==
+--===============1000021062925003763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0aafd3fda460-a4b543ecfc8e.txt
+Content-Disposition: attachment; filename=revlist-3754620f0e4f-72af9e835138.txt
 
-dac15499b833b27eda1056adcbdb0291484ca478 net: hp100: remove unnecessary #ifdefs
-4e5753bbc070442d72c913e0af4300e3ea1cc056 gpio: xgene: mark PM functions as __maybe_unused
-a2b8c8b7b08703ab00968ff5e3965b6aa76ef67c ncpfs: fix unused variable warning
-d1453cbc6250d4bad917927fd456d40d926eb315 isdn: sc: work around type mismatch warning
-5328eee20eb49c514b4e86c6fe04223c8c1f38b9 binfmt_elf: compat: avoid unused function warning
-be15c64118c22d6a194725d0f5cb1286fda7d938 idle: i7300: add PCI dependency
-e4c63b83795b6175fd44acd207f032f9f6c98995 usb: phy: msm add regulator dependency
-b1a8ac66a00d0fb9adbb1b1a18f328f8de3d8a03 ncr5380: shut up gcc indentation warning
-3e257b327d5c31cbe7dfa656c80d6c4d0e0c71b7 netlink: fix nla_put_{u8,u16,u32} for KASAN
-bab67774e185d5825ed28fb56e9e97397ecc8d76 dell-wmi, dell-laptop: depends DMI
-8749ada36f04d5acebbb6bd830d5dc2c389ce125 drm/gma500: remove helper function
-5d30f74ff601f52e71460c9f350ee811d17ae38e kasan: rework Kconfig settings
-eb0461f02359ea106e9795b6c803b6d82a5443e6 x86/retpoline: Remove the esp/rsp thunk
-744a4800de6531e727a6a9cc2f5dc0bc69cf525f KVM: x86: Make indirect calls in emulator speculation safe
-a7f2a738ce878dbea7c5abf4e73ce5c7b29b3652 KVM: VMX: Make indirect call speculation safe
-2549c6b9da83c01741df221df64e69eb58718012 module/retpoline: Warn about missing retpoline in module
-e9fb5960582371e29327e26858eb5b11e4f0f44b x86/nospec: Fix header guards names
-020120b306968b5f0664c6a08efdd33b9b79f0ef x86/bugs: Drop one "mitigation" from dmesg
-61845b24454476a300d9985342deb1800e1b5a69 x86/cpu/bugs: Make retpoline module warning conditional
-a4b543ecfc8eba5e474893ce134b4bac763d7726 x86/spectre: Check CONFIG_RETPOLINE in command line parser
+db198f06a8af2b1b91a2bbc85f1a5b9f0285ed7b nice.2, putenv.3, strtok.3, toascii.3, tzset.3: ffix
+c418bc9d166b95627dd6d079607f5bee1a9b0db0 grantpt.3, ptsname.3, unlockpt.3: Remove mention of _XOPEN_SOURCE_EXTENDED FTM
+255d42333e34f684356b1fd16afc7a90ebefc8fe chroot.2, rename.2, getgrent.3, nextafter.3, ttyslot.3, wprintf.3: ffix
+3d614fb849ff803f76f0a7c2cc19fe930dc4f19b clock_getres.2, atan2.3, ctime.3, getcwd.3, isgreater.3, iswblank.3, scalbln.3: ffix
+e36f10f91dbfe2f734a630ba00e5e467ddb126dc Various pages: replace '.ad b' macro with '.ad'
+1a412fc5cbd39f705fa128681d8df81d4389b5a1 gethostid.3: srcfix
+9d2adbae200c900baa17a68419048233f27da798 Various pages: Simplify mark-up for Feature Test Macro requirements
+b15b92a5855dd60f083e6e6a9f96ba1391fd8635 fsync.2, gethostname.2, stat.2, getutent.3: Minor consistency clean-ups in FTMs
+16fe373c85491e458333c34efabf0ad7118e38ed qecvt.3: srcfix
+58a6844d203a677105c7e1fa6e5f42154c470788 brk.2, chmod.2, gethostname.2, setpgid.2, wait4.2, atoi.3, fwide.3, getlogin.3, printf.3, strtoul.3, wprintf.3: Consistency fix-up in FTMs
+cc4423f7320d58393adf094615917ccc15a5f498 j0.3, strerror.3, y0.3: wspfix
+72af9e8351383a9a8d2873beb182b14806eba76e fseeko.3: Move info about obsolete FTM from SYNOPSIS to NOTES
 
---===============6502840930977396886==--
+--===============1000021062925003763==--
