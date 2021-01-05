@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Tue, 05 Jan 2021 22:23:06 -0000
-Message-Id: <160988538658.29057.11610846307152293726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Tue, 05 Jan 2021 22:28:01 -0000
+Message-Id: <160988568180.31920.8838565986126487557@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
-  - ref: refs/heads/for-linus
-    old: 60159e9e7bc7e528c103b6b6d47dfd83af29669c
-    new: 698dc0cf944772a79a9aa417e647c0f7587e51df
+  - ref: refs/heads/master
+    old: 6dfb8f1038fee9fe341b2f5f0d2a7d55dda6b2cd
+    new: 46031927fb4e4a03f81d3c49d7d118f557512580
     log: |
-         698dc0cf944772a79a9aa417e647c0f7587e51df dt-bindings: input: adc-keys: clarify description
+         46031927fb4e4a03f81d3c49d7d118f557512580 trace-cmd: Do not build or install traceevent plugins if libtraceevent exists
          
