@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Tue, 05 Jan 2021 22:52:21 -0000
-Message-Id: <160988714195.13300.13172341515849712136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 05 Jan 2021 22:53:49 -0000
+Message-Id: <160988722959.16082.4523074146495060169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: bleung
+repo: pub/scm/linux/kernel/git/mellanox/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 178ccac9888b12c7544a485150e3e0e21a429517
-    new: dcbc84dffb091c681f30dcb41dd0ba00f779d642
+  - ref: refs/heads/queue-rc
+    old: 75ac65ac661f2bbcacb8809f73000371af03ad60
+    new: 4f883dc4695bbf177905eac9c12e6ec0987e684d
     log: |
-         ba8ce515454e1fc5e73ff8989c18c596a3449fef platform/chrome: cros_ec_typec: Parameterize cros_typec_cmds_supported()
-         8553a979fcd03448a4096c7d431b7ee1a52bfca3 platform/chrome: cros_ec_typec: Send mux configuration acknowledgment to EC
-         744b2b4a51731e650d3d1b87d746bda0905ae0e3 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
-         dcbc84dffb091c681f30dcb41dd0ba00f779d642 KERNELCI: FIXUP: arm64: dts: rockchip: Fix PCIe DT properties
+         cb7ef02337eb6fc48da0f6431b5e72ea1a971ebb net/mlx5: Release devlink object if adev fails
+         e93b7562be4cf924ee29031c5a8ee2f9090401ac Merge branch 'net-mlx4' into net-rc
+         7cd9e7561f775ecf78cdb0b9d7fbaab21fb924aa Merge branch 'net-mlx5' into net-rc
+         86dcfd89b6a08e7b27a5a79b9bcda6f6942bc53d Merge branch 'net-rc' into queue-rc
+         4f883dc4695bbf177905eac9c12e6ec0987e684d Merge branch 'testing/rdma-rc' into queue-rc
          
