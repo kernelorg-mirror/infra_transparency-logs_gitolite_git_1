@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Tue, 05 Jan 2021 07:06:49 -0000
-Message-Id: <160983040909.15211.17564459482863545841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 05 Jan 2021 07:14:09 -0000
+Message-Id: <160983084954.18541.1095248186500891309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: 0b2878225aa09a6db72a6dfe77163236fd4db918
-    new: a47fa2695902c3e2f96826e2e7d9a052cba4db44
+  - ref: refs/heads/master
+    old: 300da924c996f9b727ddde11865fc0e098c34223
+    new: 6c44caf1e694c346a5d9de6277079f097fb78359
     log: |
-         9bd193734feda8e099b93d71600344d96f2d1a7a habanalabs: add driver support for internal cb scheduling
-         a47fa2695902c3e2f96826e2e7d9a052cba4db44 habanalabs/gaudi: remove PCI access to SM block
+         167dcfc08b0b1f964ea95d410aa496fd78adf475 x86/mm: Increase pgt_buf size for 5-level page tables
+         6c44caf1e694c346a5d9de6277079f097fb78359 Merge branch 'x86/mm'
          
