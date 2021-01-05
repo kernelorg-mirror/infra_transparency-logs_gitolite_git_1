@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3264910978788095917=="
+Content-Type: multipart/mixed; boundary="===============0292127153012546592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 05 Jan 2021 22:09:59 -0000
-Message-Id: <160988459933.19023.16870601114556876991@gitolite.kernel.org>
+Date: Tue, 05 Jan 2021 22:10:04 -0000
+Message-Id: <160988460447.20456.11429869716377523910@gitolite.kernel.org>
 
---===============3264910978788095917==
+--===============0292127153012546592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 6c25cf62d4523a73dc788e8096785fc8c1d43d63
-    new: 4828a2f2c1f94b05e543d293f9ca4940b93f953e
-    log: revlist-6c25cf62d452-4828a2f2c1f9.txt
+  - ref: refs/heads/net-rc
+    old: dc74df46770a963ae23a1758f264a7460a76f342
+    new: a4ae05bcbd62efd7070784d1b08120c13501ac4b
+    log: revlist-dc74df46770a-a4ae05bcbd62.txt
 
---===============3264910978788095917==
+--===============0292127153012546592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c25cf62d452-4828a2f2c1f9.txt
+Content-Disposition: attachment; filename=revlist-dc74df46770a-a4ae05bcbd62.txt
 
-2271b016bf368d19d60531dd5ddd4375b4dae0ab mm/compaction: make defer_compaction and compaction_deferred static
-259b3633e78d627353d49b1eb226d72b2ac588da mm/oom_kill: change comment and rename is_dump_unreclaim_slabs()
 ab9dd4f8a1675b86b64a7d1f421c25182819f7a2 mm/migrate.c: fix comment spelling
 5e5dda81a0dfb82de1757ab878d9ffd2339c9b2a mm/migrate.c: optimize migrate_vma_pages() mmu notifier
 0060ef3b4e6dd1410da164d48a595eadb2fb02f7 mm: support THPs in zero_user_segments
@@ -1050,5 +1048,7 @@ e8c3cc2d20c70822aa6693cdddd9d62ca0339987 net: ipv6: Validate GSO SKB before fini
 135ecdbe08e731a929995d339c774c4cbe5ff8af net/mlx5: E-Switch, fix changing vf VLANID
 86467158a8fd616f4fac6c0faea88dd825dd2250 net/mlx5e: In skb build skip setting mark in switchdev mode
 4828a2f2c1f94b05e543d293f9ca4940b93f953e net/mlx5e: ethtool, Fix restriction of autoneg with 56G
+21add443ebe156845aed1feaeca89dc2ea4492b7 Merge branch 'net-mlx4' into net-rc
+a4ae05bcbd62efd7070784d1b08120c13501ac4b Merge branch 'net-mlx5' into net-rc
 
---===============3264910978788095917==--
+--===============0292127153012546592==--
