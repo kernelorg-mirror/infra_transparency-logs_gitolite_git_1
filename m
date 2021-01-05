@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2184277678713208435=="
+Content-Type: multipart/mixed; boundary="===============4615690557598950053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Tue, 05 Jan 2021 16:07:25 -0000
-Message-Id: <160986284577.17416.11317738944172626498@gitolite.kernel.org>
+Date: Tue, 05 Jan 2021 16:20:19 -0000
+Message-Id: <160986361942.25113.913548335673119013@gitolite.kernel.org>
 
---===============2184277678713208435==
+--===============4615690557598950053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/slimbus
 user: srini
 changes:
-  - ref: refs/heads/for-next
-    old: 6790dc4a58f30bdba2f2d3bbc0a92e27df8cdd31
+  - ref: refs/heads/master
+    old: 9123e3a74ec7b934a4a099e98af6a61c2f80bbf5
     new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    log: revlist-6790dc4a58f3-5c8fe583cce5.txt
+    log: revlist-9123e3a74ec7-5c8fe583cce5.txt
 
---===============2184277678713208435==
+--===============4615690557598950053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6790dc4a58f3-5c8fe583cce5.txt
+Content-Disposition: attachment; filename=revlist-9123e3a74ec7-5c8fe583cce5.txt
 
 ef13346123fa7bef3cf62e9bf1efe9d7b274fa20 kasan: print workqueue stack
 214c783d593bdb83cc7e3bd9df9c6fe206d82e1c lib/test_kasan.c: add workqueue test case
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 
---===============2184277678713208435==--
+--===============4615690557598950053==--
