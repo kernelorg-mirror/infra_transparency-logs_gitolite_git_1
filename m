@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4632285930168449491=="
+Content-Type: multipart/mixed; boundary="===============3737792213496734174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 05 Jan 2021 16:05:19 -0000
-Message-Id: <160986271926.15669.18003739316438755104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Tue, 05 Jan 2021 16:05:25 -0000
+Message-Id: <160986272525.15755.410627328271202504@gitolite.kernel.org>
 
---===============4632285930168449491==
+--===============3737792213496734174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.12
-    old: a1f31cc4e98e1833f53fd2c6e9a218d6b86f5388
-    new: 81a6320da73ca23f44155715ec3d9e92bea4e35a
+  - ref: refs/heads/for-5.11
+    old: cffa4b2122f5f3e53cf3d529bbc74651f95856d5
+    new: f6bcb4c7f366905b66ce8ffca7190118244bb642
     log: |
-         d750570e048165c54a99703729438b2a4ccf379b ASoC: rt1015: re-calibrate again when resuming
-         81a6320da73ca23f44155715ec3d9e92bea4e35a ASoC: rt1015: remove bclk_ratio
+         f6bcb4c7f366905b66ce8ffca7190118244bb642 regmap: debugfs: Fix a reversed if statement in regmap_debugfs_init()
          
 
---===============4632285930168449491==
+--===============3737792213496734174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1609862692 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1609862717-a6fd82023083e253efe8942533e0c5ee15ca7ad4
+pusher C3F436CA30F5D8EB 1609862698 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1609862723-b46a2f8b9b174b44d61223ca0ffd23229e5b9b31
 
-a1f31cc4e98e1833f53fd2c6e9a218d6b86f5388 81a6320da73ca23f44155715ec3d9e92bea4e35a refs/heads/asoc-5.12
+cffa4b2122f5f3e53cf3d529bbc74651f95856d5 f6bcb4c7f366905b66ce8ffca7190118244bb642 refs/heads/for-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/0jiQACgkQJNaLcl1U
-h9BeZwf/e2qiE0OF4Hw23hRyb4xFCBFxBgwNBJWrvhNBvTDkJdoRkHbfbwClpceo
-Ed79SMxDWyhXRReGSryWMFqSgU20qK8iG0W86TNysV4hpRKIalOWH7Q4/NftbMAy
-6OmFBynP+o7MeHtHbi9P6gGXmpXOTjmualE4rpdEcwkNM8NTSHVSvxD8zDP5FgSF
-qAeyLPocDQSMJb5sxCTX7reNyxlLG6mmdZW+jaKG+JT0j6SYxVhQ+orRqVN1MQgp
-yi2iTbMyNbhZKgo8ZmekoA2oJ4RqYINMJn5Mnig0X52GwB/wr4UWV9y0ThJ6+l+N
-ZPhwBSfgUwa26Vt4Xw/iICMJfvAdEQ==
-=Xuov
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/0jioACgkQJNaLcl1U
+h9DsUQf/cUszG68YLhStlWtEeQYcbsbkLBYiSD+N4qJ71kwDKbD/YhewbMYIF/sV
+roSkfho+70tKQkNlls/KwGg0Bl7e8ufORhC5NZqk4Vff+M7TcMY4y+hvsUYCO5vB
+0o+sbLK80YGRrTDKTlogz117FUZRrW3itFEAMo1uqsyDuSVQeHeEJ8qkERt9C1ZU
+j89nwTMBoLHjjSktMKFP7S38c8pSIwyNub+GOT5U1ntvi56H82+XUB+OlGx0yhl7
+ZtDCcC9VRDxvR+shB7KcgZa0mWm4g6oHgax9HfNueNrI9rc6KqmAbRtc9WKD41Gn
+EV0hhNDrYd/y5AuHSn+TulggPrd36w==
+=Y6Kh
 -----END PGP SIGNATURE-----
 
---===============4632285930168449491==--
+--===============3737792213496734174==--
