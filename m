@@ -1,58 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============8790608354054521897=="
+Content-Type: multipart/mixed; boundary="===============0933050171818327284=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 06 Jan 2021 17:03:41 -0000
-Message-Id: <160995262192.26168.4291216553272981353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Wed, 06 Jan 2021 17:08:46 -0000
+Message-Id: <160995292689.28999.4404761863742233846@gitolite.kernel.org>
 
---===============8790608354054521897==
+--===============0933050171818327284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y-cip
-    old: 95fea62f9f4534c3b963acd44f03754d9fe0829a
-    new: a377095759b2f6d5263a901c4abbf2c32d7aa781
-    log: revlist-95fea62f9f45-a377095759b2.txt
+  - ref: refs/tags/mkp-scsi-fixes
+    old: 34dba48d84a76624c281a13a2cb05d00b5badd19
+    new: 98c34b9194f92c8a51bca1cbec72bfbd8a3dc7de
+    log: |
+         1d53864c3617f5235f891ca0fbe9347c4cd35d46 scsi: ufs: Fix possible power drain during system suspend
+         21acf4601cc63cf564c6fc1a74d81b191313c929 scsi: ufs: Relax the condition of UFSHCI_QUIRK_SKIP_MANUAL_WB_FLUSH_CTRL
+         6948a96a0d69b7e8203758f44849ce4ab06ff788 scsi: ufs: Relocate flush of exceptional event
+         35fc4cd34426c242ab015ef280853b7bff101f48 scsi: ufs: Correct the LUN used in eh_device_reset_handler() callback
+         d50c7986fbf0e2167279e110a2ed5bd8e811c660 scsi: qedi: Correct max length of CHAP secret
+         39718fe7adb1a79f78be23f058299bc038cbe161 scsi: mpt3sas: Fix spelling mistake in Kconfig "compatiblity" -> "compatibility"
+         3b01d7ea4dae907d34fa0eeb3f17bacd714c6d0c scsi: scsi_debug: Fix memleak in scsi_debug_init()
+         e5cc9002caafacbaa8dab878d17a313192c3b03b scsi: sd: Suppress spurious errors when WRITE SAME is being disabled
+         be2553358cd40c0db11d1aa96f819c07413b2aae scsi: sd: Remove obsolete variable in sd_remove()
+         
 
---===============8790608354054521897==
+--===============0933050171818327284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95fea62f9f45-a377095759b2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4cdfc92452ca2ffe7df7a2a532f92e6f79230d27 dt-bindings: memory: document Renesas RPC-IF bindings
-c8b3d69838373cb481eb9b667d3c90c078e3a67a memory: add Renesas RPC-IF driver
-c5c1ac4629bf6166daa7ab245fd0287647e3dcc0 memory: renesas-rpc-if: Return correct value to the caller of rpcif_manual_xfer()
-547dd26eca7086e472c090d35125269c32280f31 memory: renesas-rpc-if: Fix unbalanced pm_runtime_enable in rpcif_{enable,disable}_rpm
-cea8f05665ff0144d6fe896e17ec436b406eeddb memory: renesas-rpc-if: Fix a node reference leak in rpcif_probe()
-247e9af5d5709a1313b43194af40650ea5755e76 memory: renesas-rpc-if: Make rpcif_enable/disable_rpm() as static inline
-98b4f9d37742713196c6fff99201b9a39bee53ec spi: spi-mem: Add SPI_MEM_NO_DATA to the spi_mem_data_dir enum
-dece1dcad86dc4fe50b3e67ac98106b09ee67e12 spi: spi-mem: export spi_mem_default_supports_op()
-d3604f474da32958f2b826305d57a70a8cf8b786 spi: spi-mem: Split spi_mem_exec_op() code
-48e6f5207b89828a680f12aa68e8ea8caa7eca2e spi: spi-mem: fix reference leak in spi_mem_access_start
-fd5538063a820d65e87606ef385f51bd84d2d677 spi: spi-mem: Fix passing zero to 'PTR_ERR' warning
-2238e46acaa353a479b43594f4628dced685b77f spi: spi-mem: Compute length only when needed
-01f456ab39f12dffac9f122e7ddcd23300415df6 spi: spi-mem: Add a new API to support direct mapping
-29f435e088da40ccc161bce4f9b8164cb7f3c919 spi: spi-mem: Fix spi_mem_dirmap_destroy() kerneldoc
-acb70f425ddcafbf20efebafc1f2434eea83bc28 spi: spi-mem: Fix a memory leak in spi_mem_dirmap_destroy()
-5f5102ca4d39f27481fafea540f68255162c704c spi: add Renesas RPC-IF driver
-5c581cfe563cd8285ba49b1581a7cc6a8dd1bde0 spi: rpc-if: Fix use-after-free on unbind
-f719028e2816123de98587f0763c89b3a137d757 clk: renesas: r8a774a1: Add RPC clocks
-14fe33e8356f9c8465b6148a5f29be5ca93862f6 clk: renesas: r8a774b1: Add RPC clocks
-e9de957a1677b45c5a84da2f707d3bc5b5f9599d clk: renesas: r8a774c0: Add RPC clocks
-9686a715513ce8e4f6760f14c6e833757eea5e0c pinctrl: renesas: r8a7796: Optimize pinctrl image size for R8A774A1
-5e59d912a87336082c682a9e29f110c6e31701f7 pinctrl: renesas: r8a77951: Optimize pinctrl image size for R8A774E1
-62f150a34481a49af0b35dcdaf5bcf1f6a11080b pinctrl: renesas: r8a77965: Optimize pinctrl image size for R8A774B1
-e85a32a24aee652e3e343edc9eb860ea7fac1ccc pinctrl: renesas: r8a77990: Optimize pinctrl image size for R8A774C0
-4196f852c922d0a47fb2dbe31e41dce573795306 pinctrl: renesas: r8a77990: Add QSPI[01] pins, groups and functions
-94bba6f1a504fa383bb2592d92968f699b6377a8 pinctrl: renesas: r8a77951: Add QSPI[01] pins, groups and functions
-114b4aeef59c526d242259636a11da21687604a7 pinctrl: renesas: r8a7796: Add QSPI[01] pins, groups and functions
-a377095759b2f6d5263a901c4abbf2c32d7aa781 pinctrl: renesas: r8a77965: Add QSPI[01] pins, groups and functions
+certificate version 0.1
+pusher 75C5DE3D 1609952925 -0500
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1609952925-5d06aba55646d82d33aa7a341cf0ca84d36a1cd3
 
---===============8790608354054521897==--
+34dba48d84a76624c281a13a2cb05d00b5badd19 98c34b9194f92c8a51bca1cbec72bfbd8a3dc7de refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/17p0ACgkQ7ulgGnXF
+3j2uUg//RMW1BnHxA4SCqX9DfeX4se+gfvjWTEmFArVqRqeEzyn/orlXkXTbtkdw
+Tswilrt3m8PcfwBtIYiP9z309vRd3kQ9Hc7UCBNNNluOld8HeJmjbv/tqBPIcrOO
+yj/o9O87UnbxTMlPAsQkZcblTw3cgCug6lkwc7o3mYQkud+HBPSc0X3zEsdMaEZG
+eFfyYZdEY7cMmA5TUcQCBam6rHEhGZq3Udd+OHIM2IUYp7A+sXiME3pbPbwrcaQa
+TLGyZum/ttTj5wr4JeasCBSy83PtYAgA/pLCKTbAzMyVkcE9SizGhUE1kqk+FU7I
+WSQ2ahbafA/FXvoqxEZzPO4XjOf7+Cx2DG+vjW54uduqXlXCzzLXH+rBqArfrdom
+BTxTSjhoFdBDNOYSsWRLzsZ+ncJSU/mCVG+6u0mJNlTIYyQP75jrQtHcLC7XP0Ea
+ABDRakFBeL6bNyDsuzb4uV3Ux4lauCfuwY/hZKY8rstz3/WskO4wJ5Ekc2Ntndo7
+O+U5BnMkTrj90tpWA0fhCuqv0bGiqjNQt0YLEa+P0wtImIurdpw7bl+cmeEXtGLx
+XNi6eBikraryRj25BVXKU4Xs5gmix7OMmGmNxHq1LC4yI2EqJpwTXpRi8b7txDox
+CHNJXNx6gqvdB3wmJRIwbQVWNNbZ15aNl8BnIb8LrPL7LOdN8kk=
+=10rr
+-----END PGP SIGNATURE-----
+
+--===============0933050171818327284==--
