@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0212806629478231609=="
+Content-Type: multipart/mixed; boundary="===============5556316893207355103=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 06 Jan 2021 06:15:10 -0000
-Message-Id: <160991371083.8256.9833020373212013153@gitolite.kernel.org>
+Date: Wed, 06 Jan 2021 06:15:41 -0000
+Message-Id: <160991374153.8457.18229107240659759996@gitolite.kernel.org>
 
---===============0212806629478231609==
+--===============5556316893207355103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 3db1a3fa98808aa90f95ec3e0fa2fc7abf28f5c9
     new: ede71cae72855f8d6f6268510895210adc317666
     log: revlist-3db1a3fa9880-ede71cae7285.txt
 
---===============0212806629478231609==
+--===============5556316893207355103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ef3631220d2b3d8d14cf64464760505baa60d6ac net: ks8851: Register MDIO bus and the 
 708290479c52bc20cb9e9fb2860e3536c8ba874d Merge branch 'net-ks8851-Add-KS8851-PHY-support'
 ede71cae72855f8d6f6268510895210adc317666 net-next: docs: Fix typos in snmp_counter.rst
 
---===============0212806629478231609==--
+--===============5556316893207355103==--
