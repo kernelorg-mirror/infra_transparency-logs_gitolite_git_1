@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 06 Jan 2021 20:22:45 -0000
-Message-Id: <160996456589.23589.5481921185035682560@gitolite.kernel.org>
+Date: Wed, 06 Jan 2021 20:23:01 -0000
+Message-Id: <160996458127.23871.11676489406111700177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: d44d3d1583060f01074aaeb5ad0e9e7e9e5b41bc
+  - ref: refs/heads/dev-test
+    old: 633efed9b67868b5efc3291535a65b203ed0422f
     new: b53c3d9b03f6297c7dc69ba519c0ab65bbec9e85
     log: |
          fce3826f8d6759b194fb2cd838d2ca9102c66080 f2fs: compress: support compress level
