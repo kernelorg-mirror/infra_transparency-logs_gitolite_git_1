@@ -1,56 +1,94 @@
-Content-Type: multipart/mixed; boundary="===============1427629090694787555=="
+Content-Type: multipart/mixed; boundary="===============5703006060612366996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Wed, 06 Jan 2021 14:26:21 -0000
-Message-Id: <160994318155.6023.10735643499305143431@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
+Date: Wed, 06 Jan 2021 14:26:32 -0000
+Message-Id: <160994319251.6162.4595617156803346500@gitolite.kernel.org>
 
---===============1427629090694787555==
+--===============5703006060612366996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can-next
+repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 7cad2b1df1dea782969f19e1c92bfd655644eb6e
-    new: 812f0116c66a3ebaf0b6062226aa85574dd79f67
-    log: revlist-7cad2b1df1de-812f0116c66a.txt
+  - ref: refs/heads/master
+    old: 7f376f1917d7461e05b648983e8d2aea9d0712b2
+    new: 3503ee6c0bec5f173d606359e6384a5ef85492fb
+    log: revlist-7f376f1917d7-3503ee6c0bec.txt
 
---===============1427629090694787555==
+--===============5703006060612366996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1609943176 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1609943176-bf3459b5cf02e63466362cbd65909f87948a447a
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1609943188 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
+nonce 1609943188-85deefd34bc327e325b52961d38063af106379c6
 
-7cad2b1df1dea782969f19e1c92bfd655644eb6e 812f0116c66a3ebaf0b6062226aa85574dd79f67 refs/heads/testing
+7f376f1917d7461e05b648983e8d2aea9d0712b2 3503ee6c0bec5f173d606359e6384a5ef85492fb refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/1yIgTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqZuDCACXH+Gt9fb8g1Wd1H6NC91kyuWP/sPD
-/kLaxmCizDIps6Xx5IPazMaty5WqsnezL/tYqvMeOuzoYNvweGNwKFjOD44jkvaU
-ZniwPE3GujH5/FaGa1u1vie224vwvn7GojhbocsrGegPeNvvCHjNfsjoMFB1ILdz
-GMODqn5ks5dUxMBnzdO9+Smo6zCNdLiVUIas/vPsEm3hffoBnwXtA3mAeDPE/+19
-yeJBmzpLRRGT/c5lDTVQ2HeEicwr6eLyWSWc3VPKrTUXZV2I4G7mdazX7i35vuEu
-Xdr1ImfQzueWJvhOAzVk7uz895SSEl8GaEVArhzQqINw4qWkTewVFTN8
-=uOfP
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/1yJQTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqUX0CACEsCfG4MH0quo5vaLgVvmMhS5gn7NU
+uw/CfDlQvsRuOMbMdSIOESEY1Vs4YbbxA3MW5/fKHJza4tzmmkEpZ2bJKTlbMe4d
+U8kd6Sd7tc2IFyFVVBxA7boW5U2RUTRWexxyu9i1SvVHrdneF2HJDImoqLaEaGrM
+ccfsZubZuRUkpHQre4Ydj35v8mhO/2Q5vx3K37saYeWi/4HyRcDwu4D69Gv8Ztyw
+jzVFQMQ2hbEK7n/UXi8KME88vY4sneH20+2wNJMJEqhqdse6iVNe6XbRWTd+gJNS
+cqzy50cA787YmW7iVn2iIzaXJGHvDpr2IqJl4aLOoqTvsEhSPYi9eHZR
+=yLLv
 -----END PGP SIGNATURE-----
 
---===============1427629090694787555==
+--===============5703006060612366996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cad2b1df1de-812f0116c66a.txt
+Content-Disposition: attachment; filename=revlist-7f376f1917d7-3503ee6c0bec.txt
 
+a9389683fafcd4b6f7dcef62f9f05d436a12cfb5 fs/proc: make pde_get() return nothing
+0a571b085ff6dadf946b248133533d3ba68f6e31 asm-generic: force inlining of get_order() to work around gcc10 poor decision
+aa6159ab99a9ab5df835b4750b66cf132a5aa292 kernel.h: split out mathematical helpers
+35189b8ff18ee0c6f7c04f4c674584d1149d5c55 kernel/acct.c: use #elif instead of #end and #elif
+0bb867795540a9223d44ddcdf478330cba5917f8 include/linux/bitmap.h: convert bitmap_empty() / bitmap_full() to return boolean
+ab7d7798dad5aae23bb502f1a6fc0d637b07dc47 bitmap: remove unused function declaration
+0ae446e4b91b5a713fb189cf7f23d1a303057fd9 lib/test_free_pages.c: add basic progress indicators
+3a2b67e6e3fdb14c6da4c6909454d7a1d9b24f70 lib/stackdepot.c: replace one-element array with flexible-array member
+47e684aaa2661b2af39474a12d05447865ce9184 lib/stackdepot.c: use flex_array_size() helper in memcpy()
+180644f80a0284bf5c9acdbd33760924fef14236 lib/stackdepot.c: use array_size() helper in jhash2()
+45e3d5a2af1d53164cc5fbd22c5ceea0d163ad45 lib/test_lockup.c: minimum fix to get it compiled on PREEMPT_RT
+e291851d65495739e4eede33b6bc387bb546a19b lib/cmdline: fix get_option() for strings starting with hyphen
+6b2b6b864684848f9deacb6d0faa00626860832e lib/cmdline: allow NULL to be an output for get_option()
+7546861a8c55f1d704a6cfd699b33a9e2dd8c021 lib/cmdline_kunit: add a new test suite for cmdline API
+2f78788b55baa3410b1ec91a576286abe1ad4d6a ilog2: improve ilog2 for constant arguments
+ff72daa371f58fbf16999f4fb3d65d4f650555aa lib/string: remove unnecessary #undefs
+6a39e62abbafd1d58d1722f40c7d26ef379c6a2f lib: string.h: detect intra-object overflow in fortified string functions
+d96938daae2a2ae20e5d3d38ddb85d8afdaee628 lkdtm: tests for FORTIFY_SOURCE
+33e56a59e64dfb68778e5da0be13f0c47dc5d445 string.h: add FORTIFY coverage for strscpy()
+febebaf366868a4204deb3955ef5dda17f676fc1 drivers/misc/lkdtm: add new file in LKDTM to test fortified strscpy
+d58b0b1a416595a0e5ad6eac559b1d5229397e38 drivers/misc/lkdtm/lkdtm.h: correct wrong filenames in comment
+506dfc9906e5cbf453bbcd5eb627689435583558 lib: cleanup kstrto*() usage
+89b158635ad79574bde8e94d45dad33f8cf09549 lib/lz4: explicitly support in-place decompression
+1db81a682a2f2a664489c4e94f3b945f70a43a13 checkpatch: add new exception to repeated word check
+8d0325cc74a31d517b5b4307c8d895c6e81076b7 checkpatch: fix false positives in REPEATED_WORD warning
+4104a20646fe20ed5aa9be883eef7340b219f9a8 checkpatch: ignore generated CamelCase defines and enum values
+73169765e6e7ac54528778faa592b15df5c8a93c checkpatch: prefer static const declarations
+dc58bc553e7a8e1d6eeaffd92cb8b346e0d62f70 checkpatch: allow --fix removal of unnecessary break statements
+7ebe1d173cae0778fa748ea3f2ae20dfa0f58e10 checkpatch: extend attributes check to handle more patterns
+47ca69b85821e150cfbbe86a18a038e9488c0090 checkpatch: add a fixer for missing newline at eof
+339f29d91acf3f49bcf919f0e11437438f58559a checkpatch: update __attribute__((section("name"))) quote removal
+7580c5b9b464f8936be850ef278927671338bbf2 checkpatch: add fix option for GERRIT_CHANGE_ID
+0830aab0e1d4d9bd391e5723c39f4b3b002fffb3 checkpatch: add __alias and __weak to suggested __attribute__ conversions
+fccaebf00e603694b892b46722a52db3d4298561 checkpatch: improve email parsing
+e73d27159400f3ed7300387ce5d69707af8bf0fd checkpatch: fix spelling errors and remove repeated word
+27b379af61025e32a9baf3a33e939941682693ba checkpatch: avoid COMMIT_LOG_LONG_LINE warning for signature tags
+03f4935135b9efeb780b970ba023c201f81cf4e6 checkpatch: fix unescaped left brace
+da7355ab4e4a0021924e87acce2b9fb7e6f3264e checkpatch: add fix option for ASSIGNMENT_CONTINUATIONS
 8e08f0765f3744c65e2c8c570004079883b2f546 checkpatch: add fix option for LOGICAL_CONTINUATIONS
 831242ab8dffab4cf2f89c597d5902ac86caeefe checkpatch: add fix and improve warning msg for non-standard signature
 70eb2275ff8e0b4cafe67176674d580c987c071d checkpatch: add warning for unnecessary use of %h[xudi] and %hh[xudi]
@@ -1013,67 +1051,29 @@ c2407cf7d22d0c0d94cf20342b3b8f06f1d904e7 mm: make wait_on_page_writeback() wait 
 6207214a70bfaec7b41f39502353fd3ca89df68c Merge tag 'afs-fixes-04012021' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
 aa35e45cd42aa249562c65e440c8d69fb84945d9 Merge tag 'net-5.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 f6e7a024bfe5e11d91ccff46bb576e3fb5a516ea Merge tag 'arc-5.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
-4bdba39b703acbe5d0094675a71f736d386fbe96 net/mlx5: DR, Add infrastructure for supporting several steering formats
-75699246a01fa90587a8fc83ff0dffe3288cb91c net/mlx5: DR, Move macros from dr_ste.c to header
-5212f9c65a472b549db98ac5d45c851f60b9b357 net/mlx5: DR, Use the new HW specific STE infrastructure
-d65e841de80375372f9842ed71756d3b90d96dc4 net/mlx5: DR, Move HW STEv0 match logic to a separate file
-b7f7ad1846f699c757a9fad915de97cf9a4008af net/mlx5: DR, Remove unused macro definition from dr_ste
-7863c912e8a07b9431fd6d9a9e371da47cb0f308 net/mlx5: DR, Fix STEv0 source_eswitch_owner_vhca_id support
-467790985d2d7fd16a64a262578c2575d905e648 net/mlx5: DR, Merge similar DR STE SET macros
-dd2d3c8d206e1796b384e438d1219f44f4cbd5c2 net/mlx5: DR, Move STEv0 look up types from mlx5_ifc_dr header
-40ca842c2b5bd08cf089c9f5e617968c5a0a001c net/mlx5: DR, Refactor ICMP STE builder
-64c7894218b9e7b0dcb93478f035c4178e5b348f net/mlx5: DR, Move action apply logic to dr_ste
-6c1f0e4df858dbdfac93ffdfbc50f66d3950a50d net/mlx5: DR, Add STE setters and getters per-device API
-6b93b400aa88e94f253f03e6095cd560854a5268 net/mlx5: DR, Move STEv0 setters and getters
-8f9a822e596013c1c37d24d010d1b39012d3e1d2 net/mlx5: DR, Add STE tx/rx actions per-device API
-ad17dc8cf9107e6513632fc61e34e0a1ab9a376f net/mlx5: DR, Move STEv0 action apply logic
-3ad5838ffb36004cdf30715ac23f7452f293fe96 net/mlx5: DR, Add STE modify header actions per-device API
-4781df92f4dab5ca6928390c3cf4bfba9730a526 net/mlx5: DR, Move STEv0 modify header logic
-38d26b244367e84ed657ac4f5093ae9e71c8a7a2 enetc: drop unneeded indirection
-3c7df82a63d8c81ca30737c397ed59b034a558f2 enetc: don't use macro magic for the readx_poll_timeout() callback
-652b5dba32059748c88369cb7e75685b37185f5d enetc: drop MDIO_DATA() macro
-76fa3ce9d45f2b945ace0ae1ff6728305257473e enetc: reorder macros and functions
-3ccdcb79226d6c98fe7bb2d76153773152576550 Merge branch 'enetc-code-cleanups'
-c134db89a44bdc86c7b0451095d6ba328a7c1748 net: mhi: Add raw IP mode support
-2b27748f4a933dc772303dc8ded4e51a8d78b108 net: wan: Replace simple_strtol by simple_strtoul
-520ec34385d57ae18ec034ddc38b4b3425b2742b net: tipc: Replace expression with offsetof()
-5b34af861f0b4c61254ba6cf0aa295b520a26fc6 net: wan: Use DEFINE_SPINLOCK() for spinlock
-447d871a0d08c20bf2a7573065e1fa08ab79c6df net: usb: Use DEFINE_SPINLOCK() for spinlock
-1454c51d1ec1277a54505159c5de62be0c2a2597 net: ixp4xx_eth: Use DEFINE_SPINLOCK() for spinlock
-48b219a2621497f192a5f39f91f5eff4184754ec cavium/liquidio: Use DEFINE_SPINLOCK() for spinlock
-c75857b055561e356c2be06802e038c282746aca net: dsa: sja1105: Use kzalloc for allocating only one thing
-33dbcf60556a2a23b07f837e5954991925b72fd2 bnxt_en: Use kzalloc for allocating only one thing
-5d4caf62087db79e446862dd0d94698511ae2714 liquidio: Use kzalloc for allocating only one thing
-8a57965ef33d280cef25b75c707857e9977b04f5 iavf: Use kzalloc for allocating only one thing
-da2c3ee13e184fea1121eac185e4bfee11a30303 octeontx2-af: Use kzalloc for allocating only one thing
-db471ed90f0fb5897c1c18c50905c3cf9e968672 Merge tag 'mlx5-updates-2021-01-05' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-8407b23199b073249fd2056ec18d7cbb74a47534 net/mlxfw: Use kzalloc for allocating only one thing
-8dc879a1bfe0d710811b24f72b0664f52097673a net: kcm: Replace fput with sockfd_put
-f011539e723c737b74876ac47345e40270a3c384 net: nfc: nci: Change the NCI close sequence
-81a4362016e7d8b17031fe1aa43cdb58a7f0f163 octeontx2-pf: Add RSS multi group support
-89430ef34c5b13f916acd1f1f86f1106f4d958c9 macvlan: remove redundant null check on data
-ab36a3a2e67834687b85b46bc74add45894cdb3d net: phy: micrel: Add KS8851 PHY support
-ef3631220d2b3d8d14cf64464760505baa60d6ac net: ks8851: Register MDIO bus and the internal PHY
-708290479c52bc20cb9e9fb2860e3536c8ba874d Merge branch 'net-ks8851-Add-KS8851-PHY-support'
-ede71cae72855f8d6f6268510895210adc317666 net-next: docs: Fix typos in snmp_counter.rst
-aa102ffd7b081fc522bc2b966c90a45f0bc3754d can: tcan4x5x: replace DEVICE_NAME by KBUILD_MODNAME
-bcc3d8ef14c044df225d9e2292ed3f1d5176c77d can: tcan4x5x: beautify indention of tcan4x5x_of_match and tcan4x5x_id_table
-7813887ea972f69740022aaf1b45d62388813a49 can: tcan4x5x: rename tcan4x5x.c -> tcan4x5x-core.c
-67def4ef8bb9b03795def42448b8a6fdfe4e90cc can: tcan4x5x: move regmap code into seperate file
-1784aa1449b45edad93ee7d9a50b442bc0ba4a59 can: tcan4x5x: mark struct regmap_bus tcan4x5x_bus as constant
-5bcd6e10ad4355f8a78b9b4ee94568807b8232e6 can: tcan4x5x: tcan4x5x_bus: remove not needed read_flag_mask
-b9c30ef344940610e396d2063a1f50fbb79bb62d can: tcan4x5x: remove regmap async support
-52be977b3ade57570ff1110a10755866ded8a1a6 can: tcan4x5x: rename regmap_spi_gather_write() -> tcan4x5x_regmap_gather_write()
-0c05345210fc265d24f7b800516d2a4eac0c56c1 can: tcan4x5x: tcan4x5x_regmap_write(): remove not needed casts and replace 4 by sizeof
-bf722fdd3bc4d0285a131248b8254b30f1f8474a can: tcan4x5x: tcan4x5x_regmap_init(): use spi as context pointer
-6e1caaf8ed22eb700cc47ec353816eee33186c1c can: tcan4x5x: fix max register value
-aaf120c37cffc59b06a3da489bd0d678b365cd5a can: tcan4x5x: tcan4x5x_regmap: set reg_stride to 4
-5584114b35f89d43db4fdaa36d7f2650fc0e1bca can: tcan4x5x: add max_raw_{read,write} of 256
-1e81d5258d741ef6b0e6d865ee386dfc5fd95060 can: tcan4x5x: add {wr,rd}_table
-1c5d0fc48b3aef66128b10bcf40ff782f32b3909 can: tcan4x5x: rework SPI access
-0460ecaeba90f418f29f9ea57d994429c8f88a4e can: tcan4x5x: add support for half-duplex controllers
-0de70e287b44a0735273919c987313f021cccb72 can: raw: return -ERANGE when filterset does not fit into user space buffer
-8b76621b8917a87a8da5fd19f615ff573abf27a3 dt-bindings: can: fsl,flexcan: add fsl,scu-index property to indicate a resource
-812f0116c66a3ebaf0b6062226aa85574dd79f67 can: flexcan: add CAN wakeup function for i.MX8QM
+2860d45a589818dd8ffd90cdc4bcf77f36a5a6be qed: select CONFIG_CRC32
+f9d6f94132f01d2a552dcbab54fa56496638186d phy: dp83640: select CONFIG_CRC32
+1d48595c786b1b9dc6be301e8d7f6fc74e9882aa can: kvaser_pciefd: select CONFIG_CRC32
+e186620d7bf11b274b985b839c38266d7918cc05 wil6210: select CONFIG_CRC32
+152a8a6c017bfdeda7f6d052fbc6e151891bd9b6 cfg80211: select CONFIG_CRC32
+51049bd903a81307f751babe15a1df8d197884e8 misdn: dsp: select CONFIG_BITREVERSE
+69931e11288520c250152180ecf9b6ac5e6e40ed wan: ds26522: select CONFIG_BITREVERSE
+0f7ba7bc46fa0b574ccacf5672991b321e028492 net/sonic: Fix some resource leaks in error handling paths
+cf0720697143f3eaa0779cca5a6602d8557d1c6f net: suggest L2 discards be counted towards rx_dropped
+55b7ab1178cbf41f979ff83236d3321ad35ed2ad net: vlan: avoid leaks on register_vlan_dev() failures
+7eeecc4b1f480c7ba1932cb9a7693f8c452640f2 net: stmmac: dwmac-sun8i: Fix probe error handling
+529254216773acd5039c07aa18cf06fd1f9fccdd net: stmmac: dwmac-sun8i: Balance internal PHY resource references
+b8239638853e3e37b287e4bd4d57b41f14c78550 net: stmmac: dwmac-sun8i: Balance internal PHY power
+9b1e39cf5dd81f33186cdb950fcf75a121f1a9a7 net: stmmac: dwmac-sun8i: Balance syscon (de)initialization
+8db25530835e09e0fbda3cabed1f7c5d1f1cd0c4 Merge branch 'stmmac-fixes'
+9f9d41f03bb07069e6e83ff4720cfea74a63898d docs: net: fix documentation on .ndo_get_stats
+f04bbcbf1e38d192e94bbfa126731a52332c40b1 net: hns3: fix a phy loopback fail issue
+65e61e3c2a619c4d4b873885b2d5394025ed117b net: hns3: fix the number of queues actually used by ARQ
+ab6e32d2913a594bc8f822ce4a75c400190b2ecc net: hns3: fix incorrect handling of sctp6 rss tuple
+be8d1e0e737941b8316ba125866b044473c164c8 Merge branch 'hns3-fixes'
+7a68d725e4ea384977445e0bcaed3d7de83ab5b3 net: cdc_ncm: correct overhead in delayed_ndp_size
+4beb17e553b49c3dd74505c9f361e756aaae653e net: qrtr: fix null-ptr-deref in qrtr_ns_remove
+445c6198fe7be03b7d38e66fe8d4b3187bc251d4 net: ethernet: fs_enet: Add missing MODULE_LICENSE
+3503ee6c0bec5f173d606359e6384a5ef85492fb selftests: fix the return value for UDP GRO test
 
---===============1427629090694787555==--
+--===============5703006060612366996==--
