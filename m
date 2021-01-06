@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0933050171818327284=="
+Content-Type: multipart/mixed; boundary="===============1544808532231602900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 06 Jan 2021 17:08:46 -0000
-Message-Id: <160995292689.28999.4404761863742233846@gitolite.kernel.org>
+Date: Wed, 06 Jan 2021 17:08:51 -0000
+Message-Id: <160995293103.29080.17403189916499455017@gitolite.kernel.org>
 
---===============0933050171818327284==
+--===============1544808532231602900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 34dba48d84a76624c281a13a2cb05d00b5badd19
-    new: 98c34b9194f92c8a51bca1cbec72bfbd8a3dc7de
+  - ref: refs/heads/5.11/scsi-fixes
+    old: a8f808839abe3a10011e28b46af1848dfd8c4f21
+    new: be2553358cd40c0db11d1aa96f819c07413b2aae
     log: |
          1d53864c3617f5235f891ca0fbe9347c4cd35d46 scsi: ufs: Fix possible power drain during system suspend
          21acf4601cc63cf564c6fc1a74d81b191313c929 scsi: ufs: Relax the condition of UFSHCI_QUIRK_SKIP_MANUAL_WB_FLUSH_CTRL
@@ -31,33 +31,33 @@ changes:
          be2553358cd40c0db11d1aa96f819c07413b2aae scsi: sd: Remove obsolete variable in sd_remove()
          
 
---===============0933050171818327284==
+--===============1544808532231602900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1609952925 -0500
+pusher 75C5DE3D 1609952929 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1609952925-5d06aba55646d82d33aa7a341cf0ca84d36a1cd3
+nonce 1609952929-af16bd837465f6c1d1e3d5b44a25a93cc853bcbb
 
-34dba48d84a76624c281a13a2cb05d00b5badd19 98c34b9194f92c8a51bca1cbec72bfbd8a3dc7de refs/tags/mkp-scsi-fixes
+a8f808839abe3a10011e28b46af1848dfd8c4f21 be2553358cd40c0db11d1aa96f819c07413b2aae refs/heads/5.11/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/17p0ACgkQ7ulgGnXF
-3j2uUg//RMW1BnHxA4SCqX9DfeX4se+gfvjWTEmFArVqRqeEzyn/orlXkXTbtkdw
-Tswilrt3m8PcfwBtIYiP9z309vRd3kQ9Hc7UCBNNNluOld8HeJmjbv/tqBPIcrOO
-yj/o9O87UnbxTMlPAsQkZcblTw3cgCug6lkwc7o3mYQkud+HBPSc0X3zEsdMaEZG
-eFfyYZdEY7cMmA5TUcQCBam6rHEhGZq3Udd+OHIM2IUYp7A+sXiME3pbPbwrcaQa
-TLGyZum/ttTj5wr4JeasCBSy83PtYAgA/pLCKTbAzMyVkcE9SizGhUE1kqk+FU7I
-WSQ2ahbafA/FXvoqxEZzPO4XjOf7+Cx2DG+vjW54uduqXlXCzzLXH+rBqArfrdom
-BTxTSjhoFdBDNOYSsWRLzsZ+ncJSU/mCVG+6u0mJNlTIYyQP75jrQtHcLC7XP0Ea
-ABDRakFBeL6bNyDsuzb4uV3Ux4lauCfuwY/hZKY8rstz3/WskO4wJ5Ekc2Ntndo7
-O+U5BnMkTrj90tpWA0fhCuqv0bGiqjNQt0YLEa+P0wtImIurdpw7bl+cmeEXtGLx
-XNi6eBikraryRj25BVXKU4Xs5gmix7OMmGmNxHq1LC4yI2EqJpwTXpRi8b7txDox
-CHNJXNx6gqvdB3wmJRIwbQVWNNbZ15aNl8BnIb8LrPL7LOdN8kk=
-=10rr
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/17qEACgkQ7ulgGnXF
+3j2NzRAAkpPZhjpqFItplrBkZqjygiNqR5hqUHosChpAFpRJ+YCMMbwSFNU4EBwb
+Y5vCwzeqAzOlPiHzZktD0v7DY82jVAS7HABVE8UEKt05wcdRpRWc1oOq++YMCzfm
+9PFG7WoAAtax246xB38NEerQCbl+wme8rRSd3l4x8Z2QKzZDqLr+leNJxZDP0hlO
+xZ9WDT4RluzPYJuLGzV5MQbaVHEP9Wq9lodKSqZn0JVW1SsqjEvEGWeDQa11eGJ8
+LuB6C/uvnra1lSkuOEl7wZDQ7WJBwJrgeUT7CVybxHwsF98/NiuNlp16VTvCiU6l
+pQwgSSzPQfOd+Mi5U9ByMXRGOqnjIws8GdV7r/9pNFIlULsChuXwh1eP+f0ZziCn
+toe5t+CVQbyWlySPvEfsltheY/Cd7CHH2p87cfqTldUPy1ljwPm86JiWNAvn8Z9L
+tKx2qTmrTHsYxu98pkohuHnORA+hMzjjxis6SjkM2xLH269CTlQcJ95seNDLoToA
+Fwrw3qEDWSYN81+9hE2mfQsm3K5AYcXesyl8SOq6NUzwWzov4jJvh3oJ+YuCenLZ
+LbNo/DF2Qa/4QbNrGHOINlFfD9mggCQWz8M/Lg/wp7rZSLowrsRBYC4YKP7765e4
+VUsY84Vt3lEYinpXVZ3Ac/pSqj2sXOtaECo4rubu8ZeWgSVLm6E=
+=y6pT
 -----END PGP SIGNATURE-----
 
---===============0933050171818327284==--
+--===============1544808532231602900==--
