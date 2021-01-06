@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3376630865022264911=="
+Content-Type: multipart/mixed; boundary="===============8058208235681592805=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 06 Jan 2021 14:57:31 -0000
-Message-Id: <160994505135.25175.1774725468569212385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 06 Jan 2021 14:57:38 -0000
+Message-Id: <160994505812.25289.2083197067447525726@gitolite.kernel.org>
 
---===============3376630865022264911==
+--===============8058208235681592805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/spi-5.12
     old: 74523a5dae0c96d6503fe72da66ee37fd23eb8f5
     new: ee14a6ef564c2fd2f9c74b233e11e0e6ecc5da61
     log: revlist-74523a5dae0c-ee14a6ef564c.txt
 
---===============3376630865022264911==
+--===============8058208235681592805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1609945023 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1609945048-dd3949c407de32925371429cc3d5873f346aa83c
+pusher C3F436CA30F5D8EB 1609945030 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1609945055-3195d208ed449add854a8c066fc76fc26520c2a9
 
-74523a5dae0c96d6503fe72da66ee37fd23eb8f5 ee14a6ef564c2fd2f9c74b233e11e0e6ecc5da61 refs/heads/for-5.12
+74523a5dae0c96d6503fe72da66ee37fd23eb8f5 ee14a6ef564c2fd2f9c74b233e11e0e6ecc5da61 refs/heads/spi-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/1z78ACgkQJNaLcl1U
-h9CwXwf/WKtcjvK84K4WzUOt0rpVN0pvjszR7GXYyurchuViitT7caIe0P4ThNZI
-cWN1Zv0u04QdjLAj66o5OGMgAmPqNwoRG+CigPFNUrTOgjaJPlrIXRjZdqCNvE9u
-WK2ZCI9bhcH+pc8CL5bVruvwCFASoKa2BxStBBYpLFErYMvNkkWDVK5+kVz4/wz7
-r4WTjco0bHF5K9Rk6ow1leOhOJtcwSSJ7OYne00ucKm0nMTjO5MX2JK8Vd6LTXrQ
-5Ho4SWDImUDzj1r1HFVMdor0b/EB/G5xljZ/Ld+Aw6IMnwNbLeikW289lXe8Yrbf
-PquGSWMFLLe2USj+oHuZbsF31XjtmQ==
-=ZCXu
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/1z8YACgkQJNaLcl1U
+h9Dqwgf/fLPVIieN/O964wezuf1i4SQh/kSCPtZllDbw451vT+6jI/1lZkw88CEL
+ob3u6Ns+t2MEG+2rYoiP4XoVPi0mBOEAA1HMiEJCvkeT4RI33PIQcZR3198X16cc
+0NmU+274bb6s4Rt3BhxlPE+gCsFMNFjjMsR4RXm0nGp2kDcaZWtfH+SgF6am86nI
+L7VwkqpcVFK1fMp3DDvJiyPJdyMCurYdoalq/v4rIoqFOVsyqQ2p8ouiDefT1ePT
+QE/7cjLUFv8hJPTmCNUJqT2vPzc27fW5wW0eRgqwwGnhp6daAi0oMMk0J5Shs6WG
+6GJuz1gjVA2xGSV9DFhpCGpp8ALh8w==
+=kb+m
 -----END PGP SIGNATURE-----
 
---===============3376630865022264911==
+--===============8058208235681592805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ e5c92bb924ce4bda9c4312b8596cf62ad7b07e2e MAINTAINERS: Add Tegra Quad SPI driver 
 6a8a8b51703c69fa2d6adbbcbf731ce9b991c696 spi: tegra210-quad: Add support for hardware dummy cycles transfer
 ee14a6ef564c2fd2f9c74b233e11e0e6ecc5da61 Merge series "Add Tegra Quad SPI driver" from Sowjanya Komatineni <skomatineni@nvidia.com>:
 
---===============3376630865022264911==--
+--===============8058208235681592805==--
