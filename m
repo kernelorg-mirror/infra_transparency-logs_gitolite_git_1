@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 06 Jan 2021 10:59:21 -0000
-Message-Id: <160993076155.5071.10295914464316109284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Wed, 06 Jan 2021 11:04:18 -0000
+Message-Id: <160993105883.7910.3190430780059527331@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 4ef018ec79f74dfd5ff54deafa314d0b0036a2f6
-    new: efcdca286eefb248d15a49a32a802ed11146e65e
+  - ref: refs/heads/hyperv-fixes
+    old: dfe94d4086e40e92b1926bddcefa629b791e9b28
+    new: ad0a6bad44758afa3b440c254a24999a0c7e35d5
     log: |
-         efcdca286eefb248d15a49a32a802ed11146e65e gpio: tegra: Convert to gpio_irq_chip
+         ad0a6bad44758afa3b440c254a24999a0c7e35d5 x86/hyperv: check cpu mask after interrupt has been disabled
          
