@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 06 Jan 2021 23:29:33 -0000
-Message-Id: <160997577398.9345.11684535035558999918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 06 Jan 2021 23:34:20 -0000
+Message-Id: <160997606052.12121.16919738959578792103@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: andrii
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 67208692802ce3cacfa00fe586dc0cb1bef0a51c
-    new: 6f02b540d7597f357bc6ee711346761045d4e108
+  - ref: refs/heads/dm-5.11
+    old: d68b29584c25dbacd01ed44a3e45abb35353f1de
+    new: 06a056150e8af1cea3b021318c601bc0c14b260e
     log: |
-         6f02b540d7597f357bc6ee711346761045d4e108 bpftool: Fix compilation failure for net.o with older glibc
+         fcc42338375a1e67b8568dbb558f8b784d0f3b01 dm snapshot: flush merged data before committing metadata
+         ba366d9ddc734741db13bcf5f53730e0f9821e09 dm dust: remove h from printk format specifier
+         79b047015a21747daa559281a45173dc8cc51c50 dm crypt: Spelling s/cihper/cipher/
+         06a056150e8af1cea3b021318c601bc0c14b260e dm: eliminate potential source of excessive kernel log noise
          
