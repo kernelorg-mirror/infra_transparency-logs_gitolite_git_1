@@ -1,47 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4828721906990320969=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Wed, 06 Jan 2021 15:45:49 -0000
-Message-Id: <160994794937.7762.7695009284533463675@gitolite.kernel.org>
-
---===============4828721906990320969==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 06 Jan 2021 15:48:01 -0000
+Message-Id: <160994808149.8416.5980409395502672044@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can-next
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/tags/linux-can-next-for-5.12-20210106
-    old: 0000000000000000000000000000000000000000
-    new: 6f2565e612d1c02429ef8bac8ea3dbd880d39e93
-
---===============4828721906990320969==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1609947943 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1609947943-a9efa4264aaaed368543b133c7c93ca0add9e48e
-
-0000000000000000000000000000000000000000 6f2565e612d1c02429ef8bac8ea3dbd880d39e93 refs/tags/linux-can-next-for-5.12-20210106
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/12ycTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqbXgB/4vv26DBXwmMgNTWDbTn5ajGeFGBeIb
-5CuGrFsRhZ9ICLmgxCgUUgBFtWI2GnCj+1Q8beEwajYQaWA33CAV+GFOp1GDkg12
-mJbXTJ50qmWccD0F6q/t7VJZR9haFpaRdWLxBtApMWHO9goZCMA5WOUXOjbNsz0f
-OiProMMnpeoddtn6TW7rhJORhYMk3UKVamutWkVRapuAV2AAm6ErUAFzyZwt9hbh
-z07tvNcZTcop7cG9pGUoJf726rxY4oFj6/JJG3MySKdMU+6WWzYsFMvGPzDHu8Dg
-WmfPWrw3tvaiuCe5a43GV0t8nnP+xHqpwK5MSxFk7J3EnB18xhkaCV84
-=MJfy
------END PGP SIGNATURE-----
-
---===============4828721906990320969==--
+  - ref: refs/heads/fixes
+    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+    new: 5b569302520ac8cef03e7a841e45cb37234f8b5f
+    log: |
+         f981dc171c04c6cf5a35c712543b231ebf805832 tools/power/x86/intel-speed-select: Set scaling_max_freq to base_frequency
+         bbaa2e95e23e74791dd75b90d5ad9aad535acc6e tools/power/x86/intel-speed-select: Set higher of cpuinfo_max_freq or base_frequency
+         6a4b1f2dff558d75ee4f2ce88595a933b6918183 platform/surface: surface_gpe: Fix non-PM_SLEEP build warnings
+         e4a02c7a0e3aeb966e4fdc4a43dce978c467fe83 platform/surface: SURFACE_PLATFORMS should depend on ACPI
+         9bba96275576da0cf78ede62aeb2fc975ed8a32d platform/x86: i2c-multi-instantiate: Don't create platform device for INT3515 ACPI nodes
+         46c54cf2706122c37497896d56d67b0c0aca2ede platform/x86: touchscreen_dmi: Add swap-x-y quirk for Goodix touchscreen on Estar Beauty HD tablet
+         fcd38f178b785623c0325958225744f0d8a075c0 platform/x86: intel-vbtn: Support for tablet mode on Dell Inspiron 7352
+         aa44afab87af079e0cf2ead9621d0447798a305e platform/x86: thinkpad_acpi: correct palmsensor error checking
+         5b569302520ac8cef03e7a841e45cb37234f8b5f platform/x86: amd-pmc: Fix CONFIG_DEBUG_FS check
+         
