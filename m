@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Wed, 06 Jan 2021 13:13:00 -0000
-Message-Id: <160993878007.21864.6599815119151665268@gitolite.kernel.org>
+Date: Wed, 06 Jan 2021 13:19:31 -0000
+Message-Id: <160993917137.25415.17791685100958048144@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/mani/mhi
 user: mani
 changes:
   - ref: refs/heads/mhi-next
-    old: d092478dd36cd18efd5c157453ff3acc15700ff5
-    new: b965e1c78d9caecb29016d13d27ccaa1a41fd755
+    old: b965e1c78d9caecb29016d13d27ccaa1a41fd755
+    new: e6ca384d3b09258395b46b1c4d37a977937a67ca
     log: |
-         b965e1c78d9caecb29016d13d27ccaa1a41fd755 bus: mhi: Ensure correct ring update ordering with memory barrier
+         a7209009f885d5ce5841227d845b89e38e87d1ca mhi: unconstify mhi_event_config
+         e6ca384d3b09258395b46b1c4d37a977937a67ca mhi: pci_generic: Fix shared MSI vector support
          
