@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Wed, 06 Jan 2021 20:28:23 -0000
-Message-Id: <160996490331.26798.18201343901891165570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 06 Jan 2021 21:18:46 -0000
+Message-Id: <160996792601.23294.11196281982636213705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/for-next
-    old: 4a22969be94aea74bc4f00604fceb7681efe9889
-    new: 32e4978bb920d047fe5de3ea42d176f267c01f63
-    log: |
-         d649303243707121dfcad8f47db19239fef4f3da dt-bindings: power: Add the bq256xx dt bindings
-         32e4978bb920d047fe5de3ea42d176f267c01f63 power: supply: bq256xx: Introduce the BQ256XX charger driver
-         
+  - ref: refs/heads/wip/jgg-for-rc
+    old: 0000000000000000000000000000000000000000
+    new: 8ae291cc95e49011b736b641b0cfad502b7a1526
