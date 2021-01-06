@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Wed, 06 Jan 2021 11:04:18 -0000
-Message-Id: <160993105883.7910.3190430780059527331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 06 Jan 2021 11:06:48 -0000
+Message-Id: <160993120828.9961.17061120324854580559@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/hyperv-fixes
-    old: dfe94d4086e40e92b1926bddcefa629b791e9b28
-    new: ad0a6bad44758afa3b440c254a24999a0c7e35d5
+  - ref: refs/heads/master
+    old: 1161323b5a870921b7bc20e995ae07f2399c148e
+    new: 183ad4a7b12096a81bf35756a043c407f0f163a6
     log: |
-         ad0a6bad44758afa3b440c254a24999a0c7e35d5 x86/hyperv: check cpu mask after interrupt has been disabled
+         183ad4a7b12096a81bf35756a043c407f0f163a6 Revert "fallocate: (man) add hint about off/len limitations"
          
