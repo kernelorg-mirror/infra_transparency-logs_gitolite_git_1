@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3641613326279048967=="
+Content-Type: multipart/mixed; boundary="===============6987908584100027062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 06 Jan 2021 04:29:09 -0000
-Message-Id: <160990734922.7098.7730130340434336542@gitolite.kernel.org>
+Date: Wed, 06 Jan 2021 04:29:56 -0000
+Message-Id: <160990739689.7390.471535637591184346@gitolite.kernel.org>
 
---===============3641613326279048967==
+--===============6987908584100027062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: 9f1abbe97c08ba7ed609791627533a805a1b2c66
-    log: revlist-5c8fe583cce5-9f1abbe97c08.txt
+  - ref: refs/heads/dev
+    old: e3279133dd637efb774af7d22934db980037bd13
+    new: d44d3d1583060f01074aaeb5ad0e9e7e9e5b41bc
+    log: revlist-e3279133dd63-d44d3d158306.txt
 
---===============3641613326279048967==
+--===============6987908584100027062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c8fe583cce5-9f1abbe97c08.txt
+Content-Disposition: attachment; filename=revlist-e3279133dd63-d44d3d158306.txt
 
 01341fbd0d8d4e717fc1231cdffe00343088ce0b workqueue: Kick a worker based on the actual activation of delayed works
 58315c96651152b9f438e5e56c910994234e2c7a kernel: cgroup: Mundane spelling fixes throughout the file
@@ -242,5 +242,12 @@ aa35e45cd42aa249562c65e440c8d69fb84945d9 Merge tag 'net-5.11-rc3' of git://git.k
 f6e7a024bfe5e11d91ccff46bb576e3fb5a516ea Merge tag 'arc-5.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 1d011777cdbe7ae38a854a0cbeb6bdfbf724cce0 Merge tag 'sound-5.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 9f1abbe97c08ba7ed609791627533a805a1b2c66 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+4b976567b905b565b0622b5d3116d0a6d1da7f05 f2fs: handle unallocated section and zone on pinned/atgc
+fd6e6e5c0935d0c08d6433ac75163a53a87af60d f2fs: Replace expression with offsetof()
+5bfeb621567bd75d0e85578dff478d5816004449 f2fs: fix to set inode->i_mode correctly for posix_acl_update_mode
+9ed5affac26d0a34478b905cfec5b6a8bef46186 f2fs: enhance to update i_mode and acl atomically in f2fs_setattr()
+4c1682c10b5881e2364dff00a2b21212b3e950a1 f2fs: fix to keep isolation of atomic write
+6bbed2608498c6e3768ff918c09ef398f0fad10f f2fs: enforce the immutable flag on open files
+d44d3d1583060f01074aaeb5ad0e9e7e9e5b41bc f2fs: relocate f2fs_precache_extents()
 
---===============3641613326279048967==--
+--===============6987908584100027062==--
