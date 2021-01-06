@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Wed, 06 Jan 2021 03:42:27 -0000
-Message-Id: <160990454758.6329.4189190803746089570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 06 Jan 2021 03:42:28 -0000
+Message-Id: <160990454803.6360.11740408548628103099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andersson/remoteproc
+repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: c101deb7d50bfb15b394717166da8f7166ab60fa
-    new: c5627286ff11c1645af1589d3174e617e3cde894
+  - ref: refs/heads/arm64-for-5.12
+    old: 8d079bf20410aeb2cc714d8781d3a0930f85448f
+    new: 5b2dae72187de25a90f245482281a9ed0ffd268f
     log: |
-         f89c1e0018abbe1f809bbe5bb0ee6b1ff656276b MAINTAINERS: Add co-maintainer for remoteproc/RPMSG subsystems
-         4399e18a9998f7b66e56b846571081b98d667d97 remoteproc: pru: Fix loading of GNU Binutils ELF
-         74179d41e0fdae4e32c6b697559d552b1b76ae4c rpmsg: glink: add include of header file
-         8bc7c914e04fa7c57e7d1ca07d225ad77a2aefd3 rpmsg: glink: fix some kerneldoc comments
-         941b4b2e75b825e20f3028b26e2ffc9b69ba5cfc Merge branche 'rproc-fixes' into for-next
-         c5627286ff11c1645af1589d3174e617e3cde894 Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
+         066d21bcf605727814af2a4d44e96ba578f9103d arm64: dts: qcom: sm8150: Define CPU topology
+         81188f585d023f6bf403cb1c79e5037dfd5819ff arm64: dts: qcom: sm8150: Add PSCI idle states
+         5b2dae72187de25a90f245482281a9ed0ffd268f arm64: dts: qcom: sm8150: Add CPU capacities and energy model
          
