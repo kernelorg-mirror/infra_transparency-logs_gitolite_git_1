@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0013927445971770242=="
+Content-Type: multipart/mixed; boundary="===============3664157855190934729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 06 Jan 2021 06:32:14 -0000
-Message-Id: <160991473485.19799.636756669254834786@gitolite.kernel.org>
+Date: Wed, 06 Jan 2021 06:32:20 -0000
+Message-Id: <160991474037.19928.8494953819202425273@gitolite.kernel.org>
 
---===============0013927445971770242==
+--===============3664157855190934729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/for-next-base
-    old: aa86f5b4a90be0c96eb68f3f4da2ac972f7131b9
-    new: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
-    log: revlist-aa86f5b4a90b-e71ba9452f0b.txt
+  - ref: refs/heads/for-next
+    old: 2da499c6f7b1c13fc5b9fa20d9455c8ca7e8978e
+    new: a8f808839abe3a10011e28b46af1848dfd8c4f21
+    log: revlist-2da499c6f7b1-a8f808839abe.txt
 
---===============0013927445971770242==
+--===============3664157855190934729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa86f5b4a90b-e71ba9452f0b.txt
+Content-Disposition: attachment; filename=revlist-2da499c6f7b1-a8f808839abe.txt
 
-7fc2513aa237e2ce239ab54d7b04d1d79b317110 hugetlb: fix an error code in hugetlb_reserve_pages()
-597c892038e08098b17ccfe65afd9677e6979800 mm: don't wake kswapd prematurely when watermark boosting is disabled
-2b47a24cee0eedbb9b106ef3e992db0ddf48f740 mm/vmscan: drop unneeded assignment in kswapd()
 8d87d07c9283b45fd50f15d488368d0be6492a17 mm/vmscan.c: remove the filename in the top of file comment
 2484be0f88dc6c9670362d51f6a04f2da0626b50 mm/page_isolation: do not isolate the max order page
 fc5488651c7d840c9cad9b0f273f2f31bd03413a z3fold: simplify freeing slots
@@ -390,6 +387,7 @@ b0a6cd29e00a317d7fd823e0db57abbbd9bbb610 Merge tag 'arm-soc-defconfig-5.11' of g
 4c46764733c85b82c07e9559b39da4d00a7dd659 libnvdimm/label: Return -ENXIO for no slot in __blk_label_update
 accefff5b547a9a1d959c7e76ad539bf2480e78b Merge tag 'arm-soc-omap-genpd-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 c1bea0a840ac75dca19bc6aa05575a33eb9fd058 powerpc/32s: Fix cleanup_cpu_mmu_context() compile bug
+81e7eb5bf08f36d34495a5898f6ef3fec05d9776 Revert "Revert "scsi: megaraid_sas: Added support for shared host tagset for cpuhotplug""
 2d0604934f507b8b4799f3c1dff41cca3dd85239 cifs: Fix support for remount when not changing rsize/wsize
 afee4410bc6c50e1422c5a45d633ad0e478ea960 cifs: update internal module version number
 7948fab26bcc468aa2a76462f441291b5fb0d5c7 watchdog: qcom: Avoid context switch in restart handler
@@ -818,6 +816,7 @@ c635b0cea6b812898563809a13e65278989b2c72 docs: admin-guide: Fix default value of
 52252adede912890b81e0a05503a482062e17c6e dm ebs: avoid double unlikely() notation when using IS_ERR()
 a528b04ea40690ff40501f50d618a62a02b19620 io_uring: fix ignoring xa_store errors
 2e2cbaf920d14de9a96180ddefd6861bcc46f07d fix hostfs_open() use of ->f_path.dentry
+74a2921948ed8c0e7f079a98442ec3493168cc85 scsi: hisi_sas: Expose HW queues for v2 hw
 9eb78c25327548b905598975aa3ded4ef244b94a exfat: Avoid allocating upcase table using kcalloc()
 de043da0b9e71147ca610ed542d34858aadfc61c RISC-V: Fix usage of memblock_enforce_memory_limit
 43877226829eda91856b055d217b3033805fd76f ALSA: usb-audio: Add implicit feeback support for the BOSS GT-1
@@ -1050,5 +1049,6 @@ eda809aef53426d044b519405d25d9da55319b76 Merge tag 'scsi-fixes' of git://git.ker
 d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
+a8f808839abe3a10011e28b46af1848dfd8c4f21 Merge branch '5.11/scsi-postmerge' into 5.11/scsi-fixes
 
---===============0013927445971770242==--
+--===============3664157855190934729==--
