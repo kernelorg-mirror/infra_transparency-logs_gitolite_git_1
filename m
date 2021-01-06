@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 06 Jan 2021 10:13:26 -0000
-Message-Id: <160992800627.7654.16341356907776022482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 06 Jan 2021 10:18:42 -0000
+Message-Id: <160992832214.10572.17392736779251017318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 4b447adf50c61125c57922cc01ec3e6792cc48af
-    new: 1161323b5a870921b7bc20e995ae07f2399c148e
+  - ref: refs/heads/gpio/for-next
+    old: 6230f562421a0d4d37ab8e2996c9e28c32d72007
+    new: 20883a66778bea22e548abbe457cd4de0d56ada7
     log: |
-         1161323b5a870921b7bc20e995ae07f2399c148e tests: update swaplabel.err
+         20883a66778bea22e548abbe457cd4de0d56ada7 dt-bindings: gpio: Add compatible string for AM64 SoC
          
