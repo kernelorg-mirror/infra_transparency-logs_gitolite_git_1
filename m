@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2892646457744840622=="
+Content-Type: multipart/mixed; boundary="===============2426859412631350178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 06 Jan 2021 22:32:47 -0000
-Message-Id: <160997236740.5940.11144230270708385099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Wed, 06 Jan 2021 22:32:55 -0000
+Message-Id: <160997237503.6020.12456646950294616250@gitolite.kernel.org>
 
---===============2892646457744840622==
+--===============2426859412631350178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 71c061d2443814de15e177489d5cc00a4a253ef3
     log: revlist-e71ba9452f0b-71c061d24438.txt
 
---===============2892646457744840622==
+--===============2426859412631350178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -183,4 +183,4 @@ f6e7a024bfe5e11d91ccff46bb576e3fb5a516ea Merge tag 'arc-5.11-rc3' of git://git.k
 9f1abbe97c08ba7ed609791627533a805a1b2c66 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 71c061d2443814de15e177489d5cc00a4a253ef3 Merge tag 'for-5.11-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============2892646457744840622==--
+--===============2426859412631350178==--
