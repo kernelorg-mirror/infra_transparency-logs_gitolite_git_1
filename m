@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8865982812108334685=="
+Content-Type: multipart/mixed; boundary="===============1427629090694787555=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Wed, 06 Jan 2021 14:26:08 -0000
-Message-Id: <160994316898.5892.16340836714854269546@gitolite.kernel.org>
+Date: Wed, 06 Jan 2021 14:26:21 -0000
+Message-Id: <160994318155.6023.10735643499305143431@gitolite.kernel.org>
 
---===============8865982812108334685==
+--===============1427629090694787555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,60 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 3db1a3fa98808aa90f95ec3e0fa2fc7abf28f5c9
-    new: ede71cae72855f8d6f6268510895210adc317666
-    log: revlist-3db1a3fa9880-ede71cae7285.txt
+  - ref: refs/heads/testing
+    old: 7cad2b1df1dea782969f19e1c92bfd655644eb6e
+    new: 812f0116c66a3ebaf0b6062226aa85574dd79f67
+    log: revlist-7cad2b1df1de-812f0116c66a.txt
 
---===============8865982812108334685==
+--===============1427629090694787555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1609943158 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1609943176 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1609943158-5b3baf51a96a3fe0ca92c81184cd413539dff50a
+nonce 1609943176-bf3459b5cf02e63466362cbd65909f87948a447a
 
-3db1a3fa98808aa90f95ec3e0fa2fc7abf28f5c9 ede71cae72855f8d6f6268510895210adc317666 refs/heads/master
+7cad2b1df1dea782969f19e1c92bfd655644eb6e 812f0116c66a3ebaf0b6062226aa85574dd79f67 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/1yHYTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqdflB/92JEYvrchl/tTLWoWgfZujiPQxdJzk
-bEx2uC81WpW1gv0DtvwgNCIGw7mAsA1KDKsXqKDMKfWL3E5tvz5R8nEt07YL6IWt
-BEFP7prC0Lx6mpYruGCdfwH4XknCgGaSitoOdKgjq7WnWFbbynVRIZICQSbJq5wy
-5kfUYpTRPcFyKgUkXXY7MPLnt2QTqLkWdjIMFmHzewb5YhdTfJrWnXyEJVN/QMKU
-MhmmRN7EyZreZO+n412wPwS4KVBLsGrsSEosNgkml/sNWD9BObahMvGxYk/MVfzf
-oWfZtvZ0p3vM1/+o4xkqGecA5iW+wytsZdlgc6XNie3tclR3fnTglU1c
-=kAuo
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/1yIgTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqZuDCACXH+Gt9fb8g1Wd1H6NC91kyuWP/sPD
+/kLaxmCizDIps6Xx5IPazMaty5WqsnezL/tYqvMeOuzoYNvweGNwKFjOD44jkvaU
+ZniwPE3GujH5/FaGa1u1vie224vwvn7GojhbocsrGegPeNvvCHjNfsjoMFB1ILdz
+GMODqn5ks5dUxMBnzdO9+Smo6zCNdLiVUIas/vPsEm3hffoBnwXtA3mAeDPE/+19
+yeJBmzpLRRGT/c5lDTVQ2HeEicwr6eLyWSWc3VPKrTUXZV2I4G7mdazX7i35vuEu
+Xdr1ImfQzueWJvhOAzVk7uz895SSEl8GaEVArhzQqINw4qWkTewVFTN8
+=uOfP
 -----END PGP SIGNATURE-----
 
---===============8865982812108334685==
+--===============1427629090694787555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3db1a3fa9880-ede71cae7285.txt
+Content-Disposition: attachment; filename=revlist-7cad2b1df1de-812f0116c66a.txt
 
-febebaf366868a4204deb3955ef5dda17f676fc1 drivers/misc/lkdtm: add new file in LKDTM to test fortified strscpy
-d58b0b1a416595a0e5ad6eac559b1d5229397e38 drivers/misc/lkdtm/lkdtm.h: correct wrong filenames in comment
-506dfc9906e5cbf453bbcd5eb627689435583558 lib: cleanup kstrto*() usage
-89b158635ad79574bde8e94d45dad33f8cf09549 lib/lz4: explicitly support in-place decompression
-1db81a682a2f2a664489c4e94f3b945f70a43a13 checkpatch: add new exception to repeated word check
-8d0325cc74a31d517b5b4307c8d895c6e81076b7 checkpatch: fix false positives in REPEATED_WORD warning
-4104a20646fe20ed5aa9be883eef7340b219f9a8 checkpatch: ignore generated CamelCase defines and enum values
-73169765e6e7ac54528778faa592b15df5c8a93c checkpatch: prefer static const declarations
-dc58bc553e7a8e1d6eeaffd92cb8b346e0d62f70 checkpatch: allow --fix removal of unnecessary break statements
-7ebe1d173cae0778fa748ea3f2ae20dfa0f58e10 checkpatch: extend attributes check to handle more patterns
-47ca69b85821e150cfbbe86a18a038e9488c0090 checkpatch: add a fixer for missing newline at eof
-339f29d91acf3f49bcf919f0e11437438f58559a checkpatch: update __attribute__((section("name"))) quote removal
-7580c5b9b464f8936be850ef278927671338bbf2 checkpatch: add fix option for GERRIT_CHANGE_ID
-0830aab0e1d4d9bd391e5723c39f4b3b002fffb3 checkpatch: add __alias and __weak to suggested __attribute__ conversions
-fccaebf00e603694b892b46722a52db3d4298561 checkpatch: improve email parsing
-e73d27159400f3ed7300387ce5d69707af8bf0fd checkpatch: fix spelling errors and remove repeated word
-27b379af61025e32a9baf3a33e939941682693ba checkpatch: avoid COMMIT_LOG_LONG_LINE warning for signature tags
-03f4935135b9efeb780b970ba023c201f81cf4e6 checkpatch: fix unescaped left brace
-da7355ab4e4a0021924e87acce2b9fb7e6f3264e checkpatch: add fix option for ASSIGNMENT_CONTINUATIONS
 8e08f0765f3744c65e2c8c570004079883b2f546 checkpatch: add fix option for LOGICAL_CONTINUATIONS
 831242ab8dffab4cf2f89c597d5902ac86caeefe checkpatch: add fix and improve warning msg for non-standard signature
 70eb2275ff8e0b4cafe67176674d580c987c071d checkpatch: add warning for unnecessary use of %h[xudi] and %hh[xudi]
@@ -1075,5 +1056,24 @@ ab36a3a2e67834687b85b46bc74add45894cdb3d net: phy: micrel: Add KS8851 PHY suppor
 ef3631220d2b3d8d14cf64464760505baa60d6ac net: ks8851: Register MDIO bus and the internal PHY
 708290479c52bc20cb9e9fb2860e3536c8ba874d Merge branch 'net-ks8851-Add-KS8851-PHY-support'
 ede71cae72855f8d6f6268510895210adc317666 net-next: docs: Fix typos in snmp_counter.rst
+aa102ffd7b081fc522bc2b966c90a45f0bc3754d can: tcan4x5x: replace DEVICE_NAME by KBUILD_MODNAME
+bcc3d8ef14c044df225d9e2292ed3f1d5176c77d can: tcan4x5x: beautify indention of tcan4x5x_of_match and tcan4x5x_id_table
+7813887ea972f69740022aaf1b45d62388813a49 can: tcan4x5x: rename tcan4x5x.c -> tcan4x5x-core.c
+67def4ef8bb9b03795def42448b8a6fdfe4e90cc can: tcan4x5x: move regmap code into seperate file
+1784aa1449b45edad93ee7d9a50b442bc0ba4a59 can: tcan4x5x: mark struct regmap_bus tcan4x5x_bus as constant
+5bcd6e10ad4355f8a78b9b4ee94568807b8232e6 can: tcan4x5x: tcan4x5x_bus: remove not needed read_flag_mask
+b9c30ef344940610e396d2063a1f50fbb79bb62d can: tcan4x5x: remove regmap async support
+52be977b3ade57570ff1110a10755866ded8a1a6 can: tcan4x5x: rename regmap_spi_gather_write() -> tcan4x5x_regmap_gather_write()
+0c05345210fc265d24f7b800516d2a4eac0c56c1 can: tcan4x5x: tcan4x5x_regmap_write(): remove not needed casts and replace 4 by sizeof
+bf722fdd3bc4d0285a131248b8254b30f1f8474a can: tcan4x5x: tcan4x5x_regmap_init(): use spi as context pointer
+6e1caaf8ed22eb700cc47ec353816eee33186c1c can: tcan4x5x: fix max register value
+aaf120c37cffc59b06a3da489bd0d678b365cd5a can: tcan4x5x: tcan4x5x_regmap: set reg_stride to 4
+5584114b35f89d43db4fdaa36d7f2650fc0e1bca can: tcan4x5x: add max_raw_{read,write} of 256
+1e81d5258d741ef6b0e6d865ee386dfc5fd95060 can: tcan4x5x: add {wr,rd}_table
+1c5d0fc48b3aef66128b10bcf40ff782f32b3909 can: tcan4x5x: rework SPI access
+0460ecaeba90f418f29f9ea57d994429c8f88a4e can: tcan4x5x: add support for half-duplex controllers
+0de70e287b44a0735273919c987313f021cccb72 can: raw: return -ERANGE when filterset does not fit into user space buffer
+8b76621b8917a87a8da5fd19f615ff573abf27a3 dt-bindings: can: fsl,flexcan: add fsl,scu-index property to indicate a resource
+812f0116c66a3ebaf0b6062226aa85574dd79f67 can: flexcan: add CAN wakeup function for i.MX8QM
 
---===============8865982812108334685==--
+--===============1427629090694787555==--
