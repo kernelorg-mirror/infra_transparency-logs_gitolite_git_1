@@ -1,63 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============2927216352151913389=="
+Content-Type: multipart/mixed; boundary="===============7636079750624517906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Wed, 06 Jan 2021 16:52:39 -0000
-Message-Id: <160995195919.17454.16335973740934396800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Wed, 06 Jan 2021 16:54:49 -0000
+Message-Id: <160995208959.19901.341749110726023254@gitolite.kernel.org>
 
---===============2927216352151913389==
+--===============7636079750624517906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: mripard
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 9a6c7dd46a079bdaa7a8d2681a53eb226f41956f
-    new: 2e76c5b3726d4ffa37f27b7bac50477011929dcd
-    log: revlist-9a6c7dd46a07-2e76c5b3726d.txt
+  - ref: refs/tags/v4.19.165
+    old: 0000000000000000000000000000000000000000
+    new: a028f05058ce849044fc0eb1fa52d15d2f51674c
+  - ref: refs/tags/v5.10.5
+    old: 0000000000000000000000000000000000000000
+    new: cd08e7af38649132c2c867b47b91da80c6c070d8
+  - ref: refs/tags/v5.4.87
+    old: 0000000000000000000000000000000000000000
+    new: 9898ad57c9b8d94fa9cdea7829ec831fa0ce66f9
 
---===============2927216352151913389==
+--===============7636079750624517906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1609951958 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sunxi/linux
-nonce 1609951956-34650ef7b751385bf8f0ee3a0cb8729af9bedae5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609952170 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1609952083-bf941e80d4fd9bcc454589386dc2121984d5a49b
 
-9a6c7dd46a079bdaa7a8d2681a53eb226f41956f 2e76c5b3726d4ffa37f27b7bac50477011929dcd refs/heads/sunxi/for-next
+0000000000000000000000000000000000000000 a028f05058ce849044fc0eb1fa52d15d2f51674c refs/tags/v4.19.165
+0000000000000000000000000000000000000000 cd08e7af38649132c2c867b47b91da80c6c070d8 refs/tags/v5.10.5
+0000000000000000000000000000000000000000 9898ad57c9b8d94fa9cdea7829ec831fa0ce66f9 refs/tags/v5.4.87
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCX/Xq1gAKCRDj7w1vZxhR
-xa/EAP9lLuQ57qIB3fi395dXAkVth00wN/WyLlBjPwcS2ggGOgEAumV7P1wdpIOP
-CBwIVHURltNWzJvO4B9AqCnMjr8EXwc=
-=TVnw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/166obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6hUQAJHGeSavCfPYdnBPq53x
+fQGHjhmGbDuk2jk2HbA7g+K5QJynLJtRKCNWJgfjrXvnuM5rdDh6qGsBrU6ylFTg
+9kKmUMvu1RbbbEjb9HR5N5f+W54LgPVt0jl/QNDqRyq/56X9kIB/KcmoyB9yOqCs
+HDECOEpXeyNq255Ydq2G97ue74+UYo69FByV0aeWa4VhaY/7SS5+lMKEDYIh7zHZ
+32jUmdz42z8FOGTjDo9hLCI090hHLcGHS0zCC3RqgKJCil/MwEcgzJgvKzEDsqGB
+CmVgMEKhO+yt23ZhgFk5rCz1AWGhKA632HUmsMAFbKvXobscTiFWcmdJ/8Ya/TSl
++EnFSQbuIv+26zta+dtIP/XzV4d1gC3IlmGoJql+t1iru+LKE6yy/6a65aNOSCk8
+ZOBbvEASZsGH3rq6LBpVyTrblvFViX948A3O5kCwaXPfXTYcs/X+2dHVTbp6Wn2v
+PBqYK25S6dsBbVy/ucCWQ9PjdFnMO7N0mPoTFh3jMHgAvgOOBuT5OiVrhQPFjWOK
+r0n5PyaLhXvMKHMImYfCkCywLpENin+lX8Xpv4CowI/2z7CLBoMNHGTZujKlzvQe
++O2QpGwbRKbU5+u5tCuq3jmfUYIGByHJzqxfcK7Z0inS1A2t4LAA+eeV5YRnCGdG
+GcFR2gPOUHBufOm57glEwBDJ
+=0u86
 -----END PGP SIGNATURE-----
 
---===============2927216352151913389==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a6c7dd46a07-2e76c5b3726d.txt
-
-752b0aac99c7e0b179875cdfa102d378ccb794a2 dt-bindings: irq: sun7i-nmi: Add binding documentation for the V3s NMI
-c20e9e7675137d92bca071305e79fcc10364ebf5 ARM: dts: sun8i-v3s: Add the V3s NMI IRQ controller
-8c361a10d586bd07e7f34e678daab06fbcd05f87 ARM: dts: sun8i: Cleanup the Pinecube AXP209 node
-46ad18e7d0e294bc2a225e40ad98fa27eb20b86d dt-bindings: arm: sunxi: Add SL631 with IMX179 bindings
-8f39fab53a2537d6d797034013c2de9c5c1b7938 ARM: dts: sun8i-v3: Add support for the SL631 Action Camera with IMX179
-8315c99cc7cb6346ed0083a262b28d29765f082f ARM: dts: sun8i-h2-plus-bananapi-m2-zero: add poweroff node
-3c3f87d71181f7bde8c2998dd48cb3d861f391c0 dt-bindings: arm: sunxi: add PineTab Early Adopter edition
-7fa40ca7ef61926009f05df38802fe1fb6f0a20a arm64: allwinner: dts: a64: add DT for Early Adopter's PineTab
-bdb574e592bcf5f7fe17d0173464327fc08ded5b dt-bindings: arm: sunxi: document orig PineTab DT as sample
-536f74a892e6a034e09a0d204dd2a3b3b02c5b30 arm64: allwinner: dts: pinephone: add 'pine64, pinephone' to the compatible list
-756650820abd4770c4200763505b634a3c04e05e clk: sunxi-ng: h6: Fix CEC clock
-2e76c5b3726d4ffa37f27b7bac50477011929dcd Merge branches 'sunxi/clk-for-5.12', 'sunxi/drivers-for-5.12' and 'sunxi/dt-for-5.12' into sunxi/for-next
-
---===============2927216352151913389==--
+--===============7636079750624517906==--
