@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6987908584100027062=="
+Content-Type: multipart/mixed; boundary="===============5562969910116888460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 06 Jan 2021 04:29:56 -0000
-Message-Id: <160990739689.7390.471535637591184346@gitolite.kernel.org>
+Date: Wed, 06 Jan 2021 04:30:51 -0000
+Message-Id: <160990745102.9158.14107726463657023504@gitolite.kernel.org>
 
---===============6987908584100027062==
+--===============5562969910116888460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: e3279133dd637efb774af7d22934db980037bd13
-    new: d44d3d1583060f01074aaeb5ad0e9e7e9e5b41bc
-    log: revlist-e3279133dd63-d44d3d158306.txt
+  - ref: refs/heads/dev-test
+    old: d78336b93f4558d8b49ba89e7699f177763e0ca8
+    new: 633efed9b67868b5efc3291535a65b203ed0422f
+    log: revlist-d78336b93f45-633efed9b678.txt
 
---===============6987908584100027062==
+--===============5562969910116888460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3279133dd63-d44d3d158306.txt
+Content-Disposition: attachment; filename=revlist-d78336b93f45-633efed9b678.txt
 
 01341fbd0d8d4e717fc1231cdffe00343088ce0b workqueue: Kick a worker based on the actual activation of delayed works
 58315c96651152b9f438e5e56c910994234e2c7a kernel: cgroup: Mundane spelling fixes throughout the file
@@ -249,5 +249,12 @@ fd6e6e5c0935d0c08d6433ac75163a53a87af60d f2fs: Replace expression with offsetof(
 4c1682c10b5881e2364dff00a2b21212b3e950a1 f2fs: fix to keep isolation of atomic write
 6bbed2608498c6e3768ff918c09ef398f0fad10f f2fs: enforce the immutable flag on open files
 d44d3d1583060f01074aaeb5ad0e9e7e9e5b41bc f2fs: relocate f2fs_precache_extents()
+c760ab64749e0fe755a8d6a984d2bfe8595cc357 f2fs: compress: add compress_inode to cache compressed blocks
+91ef5261f1f88c1fb62ba0f0b2a7259974115c42 f2fs: compress: support compress level
+e2cb7718fed6461ebb98f6f62230db05abd8590b f2fs: compress: deny setting unsupported compress algorithm
+a01c2be2d0b6744635a0179db4bb2606df3dddcf f2fs: introduce a new per-sb directory in sysfs
+17e344e2f95cecf38a4fba82ffb5c535ac6eb528 f2fs: introduce sb_status sysfs node
+6b7ec20f7b838186676c8cf34c5356c1dd22fb54 f2fs: fix to tag FIEMAP_EXTENT_MERGED in f2fs_fiemap()
+633efed9b67868b5efc3291535a65b203ed0422f f2fs: fix out-of-repair __setattr_copy()
 
---===============6987908584100027062==--
+--===============5562969910116888460==--
