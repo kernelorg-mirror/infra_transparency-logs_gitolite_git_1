@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4947413590165845638=="
+Content-Type: multipart/mixed; boundary="===============0243964306986603200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 06 Jan 2021 17:09:00 -0000
-Message-Id: <160995294064.29246.12016205026236280698@gitolite.kernel.org>
+Date: Wed, 06 Jan 2021 17:09:04 -0000
+Message-Id: <160995294476.29366.14855673755223153729@gitolite.kernel.org>
 
---===============4947413590165845638==
+--===============0243964306986603200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: a8fffdd79d44f9de7bcbc911f0057aea10466618
-    new: 897f581b49e4d07cbe41772adb547389a51c477b
+  - ref: refs/heads/5.12/scsi-staging
+    old: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
+    new: a967ddb22d94eb476ccef983b5f2730fa4d184d0
     log: |
          46ec9592ffd679fa26142dcb9e5119aad7e60b55 scsi: ufs-mediatek: Enable UFSHCI_QUIRK_SKIP_MANUAL_WB_FLUSH_CTRL
          b1d0d2eb89d4e3a25b212a9d836587503537067e scsi: ufs: Add a quirk to permit overriding UniPro defaults
          a967ddb22d94eb476ccef983b5f2730fa4d184d0 scsi: ufs: ufs-exynos: Apply vendor-specific values for three timeouts
          
 
---===============4947413590165845638==
+--===============0243964306986603200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1609952939 -0500
+pusher 75C5DE3D 1609952943 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1609952938-b80511ac43f7e8abc6ab748f01a280518e09086a
+nonce 1609952943-b466d53ae85296857b672598afa1576853598326
 
-a8fffdd79d44f9de7bcbc911f0057aea10466618 897f581b49e4d07cbe41772adb547389a51c477b refs/tags/mkp-scsi-staging
+e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 a967ddb22d94eb476ccef983b5f2730fa4d184d0 refs/heads/5.12/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/17qsACgkQ7ulgGnXF
-3j3SYQ/+LCmllQ6nMZeQTyLq5mflakI2pe24eys7xmIyG0RnJJxkikZ6U1LYC9V6
-DQ0XCvAPBaQ4srJgIoRA7iHonnCGHYGCNHuXxUCGDQ1qCsUbuV894gdVI//e+Djr
-arFKkShAoINqSpR0wdcDYdVrd6J5EqTKc9yzABrvWTckCbmzsOmECr+TvFZ0cg4H
-WBmHoqWIBPCW5fhT0MRNqMHrULwtdbydHqEd8m7eXl93lcy0q8+0QJoU9Ew8bQXt
-EQ9qsexNic6Zy2jxhyPzjNlt6UJZOPrplAjAm+/LE88BfeEod2uxS9kUlQD6oXL/
-y1uuVvLl6UicWmjVSkl1srGz20nIuXUurCJUPBUBqyspAN8yOo1lrmcz+FD2DeIH
-d7wyHJlDtE4Y0FnabABtUDGjeEyFjH4UdqIFGQd8HaNCfjk7cp6qbT9Idv0d+MUg
-U0Pdz03xI4S586U6DQsCY0DO1tuJAf2Buhl90Fw7yiX+bVs30wQFI8YDyqsYZa3b
-V/ZFRqnyjqUs6zlaP4MAEKuaTF/qrlUyH59Yqx4oZWThQgqkIskr4HwMuf2hjYzC
-LB2LfR5VxrEyZo61Xd/CSzSN+TeWyCoho+4F+qi4sFqOFK+ECbNxzQhQ+85jEuWb
-Jy8wKEuabyERQR7/XBzbGMNLKAwByo5/sbgQHhTuFsoe+V+msp8=
-=guzd
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/17q8ACgkQ7ulgGnXF
+3j2PWg//SEVhwfFmiKc26GPHBmzP2QEWgfYEagdjAGrH7FnaZwqMKOvmNgBguIBP
+95U6wZPcnTOd11aRfiFCazsLCewFqo67Nc5DY1jDo3c7cg8SCGzHcSwU/H3OebH2
+rhmoES6wrMrdTYW6uxDR+oLT38TYicz+yQtzFRh4NI2UsJXqulRnEFK87LIPD/8M
+bLxMHPKDGl+icqLTIZq2QwuAeDZpL8qdPpFGaziFVdwzDcsBA7Va3qBBa0ab/hbk
+q3a1ftEskv64cgq2dOZPT4qrX7cRcX+t9NGkbRSyb821G21rcSA2pY0sTCbSev0W
++fnfnqNCf6qzYRuDMW+NLuk513M/rPsh9Yt4dGud5BOsNg01kfxSzcJg9Vf6wZS5
+NGf1D9viEhdcdinBUXN2F6uexJC028oI2zgQPpSB3GRO/Ez2HRsPhu/v3BAJgJzg
+Q5XLqPSLJg3eHc78/1QX5c6skH79mi+OfoJtd4D4pgb09GqYk0nLylHaNpNjtkmk
+1JNx9F9vkWB9nt0VUCq+dvjmwcB2rom5rf+p4S/MFJ3TaSM8idwMo2cQ6XqIFnbz
+ycJBbD1jPeysbPDT27W7WCTw9/hgsOlaVlAxub5/ET+u6zx3mwP5njd0KJdDU9IO
+LUJP+3SDtgyg1bJV6FWPFn2xEgXP7NNp3W32ktXAF+O04TDXPSo=
+=eZXV
 -----END PGP SIGNATURE-----
 
---===============4947413590165845638==--
+--===============0243964306986603200==--
