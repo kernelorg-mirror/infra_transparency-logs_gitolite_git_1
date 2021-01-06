@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7572071630857796183=="
+Content-Type: multipart/mixed; boundary="===============1080470417312148129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 06 Jan 2021 17:52:43 -0000
-Message-Id: <160995556341.25046.18292244141397224217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 06 Jan 2021 17:53:50 -0000
+Message-Id: <160995563076.26237.17201305941791050873@gitolite.kernel.org>
 
---===============7572071630857796183==
+--===============1080470417312148129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 96ebc9c871d8a28fb22aa758dd9188a4732df482
-    new: 10a05404c4fe184ae9087fb49f1df5b84c1534dc
+  - ref: refs/heads/staging-next
+    old: 1f82c33205db389007d2dd44ffdc124a24b9108f
+    new: 87bb53b75563d15219f993286e71e578bd965082
     log: |
-         d6c1ddd938d84a1adef7e19e8efc10e1b4df5034 USB: serial: option: add Quectel EM160R-GL
-         0e2d6795e8dbe91c2f5473564c6b25d11df3778b USB: serial: option: add LongSung M5710 module support
-         54d0a3ab80f49f19ee916def62fe067596833403 USB: serial: iuu_phoenix: fix DMA from stack
-         10a05404c4fe184ae9087fb49f1df5b84c1534dc Merge tag 'usb-serial-5.11-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+         6500966d211c4a265600b4561d9c479088fce0a1 staging: greybus: light: Use kzalloc for allocating only one thing
+         27f7fcaeca02181af096d07d00233b9674e5b28f staging: vchiq: delete obselete comment
+         57a408eb4746c17ddaf7b6f6d753bb965cd7babb staging: mt7621-dts: match pinctrl nodes with its binding documentation
+         87bb53b75563d15219f993286e71e578bd965082 staging: rtl819x: select CONFIG_CRC32
          
 
---===============7572071630857796183==
+--===============1080470417312148129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609955638 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1609955554-e183278bc80c453dcccadf46001072f50b6b7e22
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1609955706 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1609955622-68e7032af8914544343c26c68397a3c8d1103d29
 
-96ebc9c871d8a28fb22aa758dd9188a4732df482 10a05404c4fe184ae9087fb49f1df5b84c1534dc refs/heads/usb-linus
+1f82c33205db389007d2dd44ffdc124a24b9108f 87bb53b75563d15219f993286e71e578bd965082 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/1+TYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ivQP+gN66wMb46c5ivr6KSsG
-3s6QSDVAx61zSvCG9/JHw3OcEJfe/nz/avHdn0tiHwudBIj7W+fgIyWHX4fbsltB
-GBRB/wnXqPnP4hvwpX9/2/h/FdFTaqvO7bd7SfUv4c/7Kb9nZ5KfH0CuKU+r1vSr
-s00VCs532XVKkA1UqYJcMIDS6iOPKUeVakYV+YhDCHqB9SRuL4dAAb/HSySXrc4C
-TygyAs8oNd/rXevovGSzHhIXxQKBUkMQi1lypL5WVAosYRYZq5YzzJdTsV3DBUlu
-SSbSzfLMirwqe9octWCu6MfPPnmdc/ysrjUgQqKTTNeD1BT7O+U55OrBCwAnyZ4R
-d6pFdJqrKvsqY/oqeUp28d1yLIiY/PqRCNw+yyUHp7JE8Eq8W+kEQIiWaDkrqwI4
-s33dH2QEFcgDyHPlaa5KeyWm1RwaBkIpfBNszuPqY1X3MCJpo661w9whupEnw35w
-w8nnKA/VGbydku1EvvOct3n4wKvdfrJm+Z3zH/WP6jJMWtdmC7ctf8fL0Lrnt7l0
-VKeGAIdgc2zasMOGe4i2zlp6E8Ugq61bDDBfsDWjk0OasqAUhvaEkRJyrIeRoeGP
-BN5LVG3QTvo2DbmeHmwhSzgAmXxTcop8v5VMXFXFUVfXf52KZX+WLRxNEBs470EB
-TjZlZ+lUUfQjP1yvxPXNUCfT
-=gkgJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/1+XobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TlkQAIiHSIpjc0tCCl2whhzp
+0jywi9suA6TtmZBCwsa8e0zw21WiorP528K/qgCeSSV0+jolIAI3tRNyeAwExJXH
+zUu4sdlvVadNHRE2YzvXuEjbQa/1npfsWckOL3fHy4yZvBHaNSLZ55Mt6DSmbOhL
+R5tw/RfbEFu0Akhj0y/Xtjx2YlJXN3cxE90jpD5FDzEUiUPe/ZL9+to6VhnWCq9J
+5axEky1ogGr1DZi5I/czR4+KslKyNXLtCTjVnXOzi83nGXmKSzJq4sFVYk1EtXw+
+ogXO6hrQ0pZLU+XvcCmXdbnqO1QVhUbv/Ggu3nmkUR4JNnD00fvdmk1gigtl7Ab8
+qkqIAsZVJrnxUpWHYGFx1zKQBJyCNhSUQmAFLKBiNJYa+ANOtKuxefmqHeZvFaPF
+WCNf1UQZEnEBB/C/qs/C1Ufc9Rsb7viUWKdvziXGzVOqqMD+INpODmDsRAprzI0R
+PlBhaXRaQnSGK7XZWZIZFPAJnb8fwO5onSpA8LO7HMUSL7EJhGHjYVuGCcYkuSfs
+3dRNC7cgU9JGDzmBGuQcT69G13m7hahy5VWIccWkFweOL1RXOPfzquKn46KetgEX
+5gy0qjQzbxsC1wOHLl4ag1wOMf21sYEarwfshwbvpLGdw+hFraFTneSk5j6Ch3Md
+ERI3EV5a0xzzCTpbzsZMCNLm
+=iQrM
 -----END PGP SIGNATURE-----
 
---===============7572071630857796183==--
+--===============1080470417312148129==--
