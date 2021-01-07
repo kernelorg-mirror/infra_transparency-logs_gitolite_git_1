@@ -1,48 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4189312342131810560=="
+Content-Type: multipart/mixed; boundary="===============1579887488156144239=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Thu, 07 Jan 2021 09:59:14 -0000
-Message-Id: <161001355423.2648.16640177070354757022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
+Date: Thu, 07 Jan 2021 10:02:52 -0000
+Message-Id: <161001377212.5176.8096049169843068334@gitolite.kernel.org>
 
---===============4189312342131810560==
+--===============1579887488156144239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: mripard
+repo: pub/scm/linux/kernel/git/mkl/linux-can
+user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/sunxi/dt-for-5.12
-    old: 536f74a892e6a034e09a0d204dd2a3b3b02c5b30
-    new: 086b4f7afdeda24adabcb199cd23a5055b0cbe7b
+  - ref: refs/heads/master
+    old: 3503ee6c0bec5f173d606359e6384a5ef85492fb
+    new: 1f685e6adbbe3c7b1bd9053be771b898d9efa655
     log: |
-         3069a84fd67b05a3125e80cd7e2f7ea516421137 dt-bindings: media: Add Allwinner R40 deinterlace compatible
-         62de535663e8bf4a5442bb11de7e4926a00eb93c ARM: dts: sun8i: r40: Add deinterlace node
-         086b4f7afdeda24adabcb199cd23a5055b0cbe7b arm64: dts: allwinner: h5: Add deinterlace node
+         0d136f5cd9a7ba6ded7f8ff17e8b1ba680f37625 net: mvneta: fix error message when MTU too large for XDP
+         94bcfdbff0c210b17b27615f4952cc6ece7d5f5f net: bareudp: add missing error handling for bareudp_link_config()
+         7f847db3040897f3ee25ce97265c545b5561f6c2 net: dsa: fix led_classdev build errors
+         1f685e6adbbe3c7b1bd9053be771b898d9efa655 ptp: ptp_ines: prevent build when HAS_IOMEM is not set
          
 
---===============4189312342131810560==
+--===============1579887488156144239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1610013553 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sunxi/linux
-nonce 1610013552-7da35dc4b302d42af11ae761ba5709b48cd1cfa9
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1610013769 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
+nonce 1610013768-2ec698cfd89c205ee6905f00cb52b5de001db98e
 
-536f74a892e6a034e09a0d204dd2a3b3b02c5b30 086b4f7afdeda24adabcb199cd23a5055b0cbe7b refs/heads/sunxi/dt-for-5.12
+3503ee6c0bec5f173d606359e6384a5ef85492fb 1f685e6adbbe3c7b1bd9053be771b898d9efa655 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCX/bbcQAKCRDj7w1vZxhR
-xcZcAP0fLvdPyJrjT2iL5jFcQl3xUnK4Jx00OgCRN7iY7LsMtgEAkRro7y1m8HSY
-5tVM4CiG7zWygy5WYKkcGm75Cpikugw=
-=sePZ
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/23EkTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqRXgB/9C1PL99F8igGYEz58+Btd9G1JS5kIG
+QH2D4dAcuWo536k2/zhEzW4Ui0aaR+dGgA/YUmCFr6dXJVe9+XMiraN5T5veYsVE
+449u6RRyeMV0bagQs+K3qdVM+1QFiPuJmy1dTMTvQgE/qwe6/l7Fv9oIKcm6tiEX
+n4tiPQ5m+vX2ISzBUMhrZW5SgyvIcku1+jmofHYo81xZccqIZYez4DH/uiVXG8ES
+jFXYscIQNQXOykoR26ff3wJrL8oatuQeP0eOGmc6c2yGtxgEZO6IYPXE7JFqDJWP
+Aw0+deiZ0+zC7a5nlVZzFI7IECuqcdyAk9eVtgXSWPXM3aMvt9lTm64y
+=Q3G7
 -----END PGP SIGNATURE-----
 
---===============4189312342131810560==--
+--===============1579887488156144239==--
