@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0721897635011105663=="
+Content-Type: multipart/mixed; boundary="===============4830020289798366401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Thu, 07 Jan 2021 21:00:42 -0000
-Message-Id: <161005324257.31824.7068945807072381628@gitolite.kernel.org>
+Date: Thu, 07 Jan 2021 21:01:03 -0000
+Message-Id: <161005326386.32088.18087130727611159874@gitolite.kernel.org>
 
---===============0721897635011105663==
+--===============4830020289798366401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfsprogs-dev
 user: sandeen
 changes:
-  - ref: refs/heads/libxfs-5.11-sync
-    old: 47ada338c53064a7e14b79e278d8834484859e0c
+  - ref: refs/heads/for-next
+    old: 25d27711a3c2e13eb63dc51ed346f536a6d9c690
     new: 167137fe533c7dd8d51ee0661faa2ee408fb673e
-    log: revlist-47ada338c530-167137fe533c.txt
+    log: revlist-25d27711a3c2-167137fe533c.txt
 
---===============0721897635011105663==
+--===============4830020289798366401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47ada338c530-167137fe533c.txt
+Content-Disposition: attachment; filename=revlist-25d27711a3c2-167137fe533c.txt
 
 bbf6e32dd12999311ad127438856c7034b9c7914 libxfs: cosmetic changes to libxfs_inode_alloc
 40d3972320116066d9a33a4f89117f75f2476072 xfs: move kernel-specific superblock validation out of libxfs
@@ -48,4 +48,4 @@ f7e5a7ae69bc3feaecb7402d92639d4788ec8f10 xfs: move xfs_dialloc_roll() into xfs_d
 d3ed327c9d4a96882fbdc7bd5f3c404e0f79b0ef fs/xfs: convert comma to semicolon
 167137fe533c7dd8d51ee0661faa2ee408fb673e xfs: remove xfs_buf_t typedef
 
---===============0721897635011105663==--
+--===============4830020289798366401==--
