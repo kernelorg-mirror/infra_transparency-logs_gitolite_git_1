@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0712210019366172977=="
+Content-Type: multipart/mixed; boundary="===============2356216723023090483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 07 Jan 2021 00:47:13 -0000
-Message-Id: <160998043341.25119.7762467048456525245@gitolite.kernel.org>
+Date: Thu, 07 Jan 2021 00:47:15 -0000
+Message-Id: <160998043538.25182.12110747705879132615@gitolite.kernel.org>
 
---===============0712210019366172977==
+--===============2356216723023090483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/dts-for-5.12
-    old: 9d038b2e62defb58a77947b486993e018e37aff1
-    new: d949eaf870892d2cfa6f37f95919484dd769940b
-    log: revlist-9d038b2e62de-d949eaf87089.txt
+  - ref: refs/heads/for-next
+    old: 030a0b7dc0f70c43ccf7d447c024a43555b0a84c
+    new: 917168164de5fc807477367b25d47a478c60cb4c
+    log: revlist-030a0b7dc0f7-917168164de5.txt
 
---===============0712210019366172977==
+--===============2356216723023090483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d038b2e62de-d949eaf87089.txt
+Content-Disposition: attachment; filename=revlist-030a0b7dc0f7-917168164de5.txt
 
 dea0e9bc0524f775442e56e4937fd5be854725c8 ARM: dts: qcom: sdx55: Add pincontrol node
 ec99770d4b622b7f3e20d8db861cef59691ff128 ARM: dts: qcom: sdx55: Add reserved memory nodes
@@ -42,5 +42,7 @@ e6facb6331f94c93011733d5a35cbe320713d360 ARM: dts: qcom: sdx55-mtp: Add pm8150b 
 c222f3ec120f8fb40fe504e20640db5d863b1b72 ARM: dts: qcom: Add PMIC pmx55 dts
 8bf259a9c7f9d8870e65a4ac74f2693ee8add0e2 ARM: dts: qcom: sdx55-mtp: Add pmx55 pmic
 d949eaf870892d2cfa6f37f95919484dd769940b ARM: dts: qcom: sdx55-mtp: Add regulator nodes
+be54162e42415132e736de97eb001b276ffd250e Merge branches 'arm64-defconfig-fixes-for-5.11' and 'arm64-fixes-for-5.11' into for-next
+917168164de5fc807477367b25d47a478c60cb4c Merge branches 'arm64-defconfig-for-5.12', 'arm64-for-5.12', 'drivers-for-5.12' and 'dts-for-5.12' into for-next
 
---===============0712210019366172977==--
+--===============2356216723023090483==--
