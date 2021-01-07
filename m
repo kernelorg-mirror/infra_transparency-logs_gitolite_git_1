@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5969033571558599861=="
+Content-Type: multipart/mixed; boundary="===============7936115034117102761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 07 Jan 2021 14:28:38 -0000
-Message-Id: <161002971819.5241.18055512861986916975@gitolite.kernel.org>
+Date: Thu, 07 Jan 2021 14:28:39 -0000
+Message-Id: <161002971910.5292.8939025902510743883@gitolite.kernel.org>
 
---===============5969033571558599861==
+--===============7936115034117102761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,76 +16,80 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 500175edbc94cd7f7daa6c79b70d033d301f54bf
-    new: e62945c0fb1e49d52bb510553bc9d77b2f9b617e
-    log: revlist-500175edbc94-e62945c0fb1e.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 8776a2c2069deab5c4d73139d5745557b875a0ed
+    new: d5bde5a9e32cdd43aa08fba4867ede55936fef3c
+    log: revlist-8776a2c2069d-d5bde5a9e32c.txt
 
---===============5969033571558599861==
+--===============7936115034117102761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610029798 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610029799 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1610029715-1de44d56fea9ed0882f80103f2bf731f2a9ff314
+nonce 1610029716-26e8d9d94ca89e3f0558a2fb2147e066f7d6e81a
 
-500175edbc94cd7f7daa6c79b70d033d301f54bf e62945c0fb1e49d52bb510553bc9d77b2f9b617e refs/heads/linux-4.14.y
+8776a2c2069deab5c4d73139d5745557b875a0ed d5bde5a9e32cdd43aa08fba4867ede55936fef3c refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/3GuYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6LYQAI77raZCoYDYCuuzDmni
-QvIrWG/2ygT2mVuO3oaZiXomV1ucZhgK8sC2cIqtXGtwRgploO5oCwp9Cl5GOEvE
-vSqHdkJBpD93SVpd4zfjFqZd0HHJ2cc/shVzTGZAqje4i7me/RsdKR1g+tNWpuoM
-utYW+u5U8mz04Iift8mhhCvIOnwlPDVdJEvsMJ7Ps3tsOThc3w5MZSg9gJFLr9lw
-1QsV9a82j+e6L6KWkNwT3pXAvx20dqUlEvbfLWLz5cL5Y2PQqdJtFTYw/T2i6mTL
-g/HkVrHXh9k2aNBIsB6VatFo78wWg2gK2Tz3a1f9yPaDO4giZKYpyAmlQr4HINqs
-DeUqRgUahh7UPvs3nv7RaxoB0YjRyRWwHfL/+/WDz4lAIodpwpbaRZIZ8cYGvOJd
-GgfIPhXg0VWlyIMHgNv2UeU8YibJN03bKNgjWTMCADtq6JN2+RHh7M85vnwaUAKl
-n0y4pICvFlRH4qyuX4GGGEysCF7/mdd7NLrTQCNPr2Tc5hZnG6gbIIt1WDYDCG2x
-WaA3bmndlX7eViy9nZdoSSfmuBudT94k6NmKcL+ePZsu7OoUshAZ8foVLslpTS7M
-rndwD5lgPLZmBOi3LZFJYexv6+FhECPouiYKvG/EzBLsBpd7c/0FsQQxRatsfp8l
-B6xG2hfOGi+zD1N+SaATy/yY
-=zAk9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/3GucbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5GwP/14E2XzqGl4d3/6QWAQB
+uN0f76tnkj2CqGgHYcNz8AVLkYlswYOVRYLqKhJDhGfrR0ZqbcQJUxDwiqjmAysQ
+4kkxlo09/gXyR9YfDHacfk9X13xiQZyJ/zKSGFbEzJrsKrp0RwI0xNsAhMK0zJWe
+5drsUu2TEPQXZTrb1eS2iyo5pDW72TUuD3e8UOFPSjmWOMZZLnxdD/rpsp42ZUk5
+SyJ33Ov+4apgXfdklmMrn/WEj9GEPfrK+14nDro7ojh2NA4WxiIOada5m6+eGIW5
+R+8BWkvhsEQ+9MEZdsx1votAUwFKIJvti1qKcToe5ldTKVHXwfwN6XAsKPBWCQ6d
+QnafMMO+ipqJThdn7UCpMRbqq7gCTxKJMVrN45EbMIriFESHp5btmfBlqH880IAs
+vhyWr5FjKvhdH8GLlM8bXvdTuUj/SDCF2vQvOFls/ealJRj0202k0f8GgAsT+Jgg
+g4H1PWjpCFlDUyaswfMSQJLxGhJq/zNGF21RhtG6WMefQRXrJjtzKqm2r9zPctWB
+T3m25RA9aqfhCuIB2przPcE8U/12Vlzfz7XLnVCCjqSZjx+JITV6A/JEEoPWH2YV
+QDdRrAJ4jbRvWYKXn+6C0xMK7MZ32DAFQ2KDxJ9CnzCpBpm3hoXZaH4nah/L7Tv8
+sEwxxSxNQcMJcFude7qbnWEg
+=pcJg
 -----END PGP SIGNATURE-----
 
---===============5969033571558599861==
+--===============7936115034117102761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-500175edbc94-e62945c0fb1e.txt
+Content-Disposition: attachment; filename=revlist-8776a2c2069d-d5bde5a9e32c.txt
 
-149adfeb1478387b6a00b40187a8d37300612b6e x86/entry/64: Add instruction suffix
-2b577a6b5517c71d58dd0049e88be0514895f1aa md/raid10: initialize r10_bio->read_slot before use.
-f8697357f852c97b68024d885b1f864712c06dd1 ALSA: hda/ca0132 - Fix work handling in delayed HP detection
-a044e89635db275a11a5dc8aac2d4aa54e779295 ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
-c77286cfcdecd5ce430b7d7c3d99d8b3ebcee3ae ALSA: usb-audio: fix sync-ep altsetting sanity check
-f0aeb2555160f7d708440b26c27365709fe7c0ae mm: memcontrol: eliminate raw access to stat and event counters
-1cf3446f8225d2dac0f88d62f5017bc687fcc5ef mm: memcontrol: implement lruvec stat functions on top of each other
-d6bd7783c440baa9e58aa95660ef62714a55dc1c mm: memcontrol: fix excessive complexity in memory.stat reporting
-02e76ad39f95f42ee2739ad8d92a7300cd3d28aa vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
-eab338758964946ac65449c0e333d5d397e8dbe5 s390/dasd: fix hanging device offline processing
-8584615f7fe29ea80f8e0f5b02b19761dfd2088c USB: serial: digi_acceleport: fix write-wakeup deadlocks
-28c02b5dc3dc0e0ba3fb61602c6bbb8cf7a0fb07 powerpc/bitops: Fix possible undefined behaviour with fls() and fls64()
-fddbaa9a5de52334c2d5ee889c936de63d1f10e6 uapi: move constants from <linux/kernel.h> to <linux/const.h>
-399f7fbc9b4643dec2e63d3e95191b6bee1a0411 of: fix linker-section match-table corruption
-f6418459421800bedb2cde799c99ccb3157fe5c3 reiserfs: add check for an invalid ih_entry_count
-98e1a34f4cb2cb2698c5f1c69b1a842e45f83353 misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
-d07ea27fe100be05b820a2e9a3f199f5efddbda0 media: gp8psk: initialize stats at power control logic
-d02ae90f6cfb7d06064459595d8124ff459d35d1 ALSA: seq: Use bool for snd_seq_queue internal flags
-2a1c2997ac256f9aa9ab51472ffeccc14749fe45 rtc: sun6i: Fix memleak in sun6i_rtc_clk_init
-ba020b45cb385f4b9b9b99fa888c34a96dd9109d module: set MODULE_STATE_GOING state when a module fails to load
-773614fa3315e469e94198c3183caa7b68c54a4e quota: Don't overflow quota file offsets
-c4a626c3e19db3ddb5bf692bd81702713c95f621 powerpc: sysdev: add missing iounmap() on error in mpic_msgr_probe()
-fd9e2c3b30386f18608b27a5b6bd56752cd15019 module: delay kobject uevent until after module init call
-444539b24bbedfbd3ee5e8d3aaa063520c4d590f ALSA: pcm: Clear the full allocated memory at hw_params
-585cbe813acb1ab0fc9b3be1cbf312553faf31d7 dm verity: skip verity work if I/O error when system is shutting down
-2a166af2f91ccb83e5d1256be94182ab7bbb9d4f kdev_t: always inline major/minor helper functions
-b7fe27926f815e1ef1cb7619a35b5b9a98ae13e8 iio:imu:bmi160: Fix alignment and data leak issues
-3a994cb2914c44d360e42151e3282c0472245e66 iio:magnetometer:mag3110: Fix alignment and data leak issues.
-02298fe0dae45b93c45ad0ee0ab9b284b8687d79 mwifiex: Fix possible buffer overflows in mwifiex_cmd_802_11_ad_hoc_start
-e62945c0fb1e49d52bb510553bc9d77b2f9b617e Linux 4.14.214-rc1
+13bd8bbcb01fc4239a0b1aebef891714cd005702 x86/entry/64: Add instruction suffix
+2b23a1ecc9fb2fe829c4b4ad6c4e939fbcf843b4 ALSA: hda/ca0132 - Fix work handling in delayed HP detection
+184b861e46ec3e69cd7234f9c859adeb281372c2 ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
+0437a014fc7791ff9e0b9390183e5e567f616a26 ALSA: usb-audio: fix sync-ep altsetting sanity check
+e72cc18bcdab138171bd1ba83a4cb4b1fc83870d ALSA: hda/realtek - Support Dell headset mode for ALC3271
+76ace67333be62975e227aeacc326a53ad5175e1 ALSA: hda - Fix a wrong FIXUP for alc289 on Dell machines
+7f706238fd1c1edf9c28499c0e56746a273b9594 ALSA: hda/realtek - Dell headphone has noise on unmute for ALC236
+77058486859c4ae2ab683915b679fafa17fbd023 vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
+bb7a8798d4aa97614c6fe47f49dc629816315822 s390/dasd: fix hanging device offline processing
+ceac45db3e1868c15296c1b9a6fb4629ad0a3f4e USB: serial: digi_acceleport: fix write-wakeup deadlocks
+b7651df6097bedb30893c5da0ecbbb1cf45be636 net: ipv6: keep sk status consistent after datagram connect failure
+653a75831f90b4724cb701c647d0e13fa71551b7 l2tp: fix races with ipv4-mapped ipv6 addresses
+c083c70f973a2291a9ed006e255dfb3bc0ab4900 uapi: move constants from <linux/kernel.h> to <linux/const.h>
+7a10ab044d12cd8145bafaac1de5dbb50b6b14d1 of: fix linker-section match-table corruption
+4aa0c5d9df8ca4995dfd18c66c32956447b7c7af reiserfs: add check for an invalid ih_entry_count
+cadb38380a9700d4dba4872f97dabe576d8daba6 misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
+d54a641007b9e1a2dbf5a416599ad0e8cf47e70d media: gp8psk: initialize stats at power control logic
+5245b1f0e43adb338e43d9da883b05b3e463dbb5 ALSA: seq: Use bool for snd_seq_queue internal flags
+df92173d49a7fd4b6597b5796824816c293b1f6c module: set MODULE_STATE_GOING state when a module fails to load
+59155966cc041798d2380ad8e5d410dae95db65f quota: Don't overflow quota file offsets
+b106b89303b18dbab784c40c1d43f42ed7a6c779 powerpc: sysdev: add missing iounmap() on error in mpic_msgr_probe()
+0608d457b368b14b7d47be0ee91fe5ed4d9291c6 module: delay kobject uevent until after module init call
+046c29fab4e5660596a74534cf4a0b3e284e2747 kdev_t: always inline major/minor helper functions
+84de40669c3e2bea17d44892ab7512b1ae121fff xen/xenbus: Allow watches discard events before queueing
+4084a0e121d3d58ac76bfcb713aa414c6569d1f0 xen/xenbus: Add 'will_handle' callback support in xenbus_watch_path()
+00b464ddd5c79bec6146ee69e1924bdae7332849 xen/xenbus/xen_bus_type: Support will_handle watch callback
+76eaee0da75f9c835f1b572abd8d24ca4927f123 xen/xenbus: Count pending messages for each watch
+d09f45cd0ad8b196cd22b2adac7f7696ddfb14a4 xenbus/xenbus_backend: Disallow pending watch messages
+2548aa343da6c0507b31dbe81579b2d2f8c4ee4b iio: bmi160_core: Fix sparse warning due to incorrect type in assignment
+6ddcc3b9a0985fd35a918db6a141679141f00e03 iio:imu:bmi160: Fix too large a buffer.
+f0f875d2b72f4fb147950d6e4de56664ce7b54ed iio:imu:bmi160: Fix alignment and data leak issues
+15767c296db6b7d109e21311ed140d0c2cccb333 iio:magnetometer:mag3110: Fix alignment and data leak issues.
+461d088a93acb3f7e6f71aa13ab9a07c87096d23 mwifiex: Fix possible buffer overflows in mwifiex_cmd_802_11_ad_hoc_start
+d5bde5a9e32cdd43aa08fba4867ede55936fef3c Linux 4.9.250-rc2
 
---===============5969033571558599861==--
+--===============7936115034117102761==--
