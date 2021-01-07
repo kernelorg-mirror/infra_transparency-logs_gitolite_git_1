@@ -1,83 +1,110 @@
-Content-Type: multipart/mixed; boundary="===============4010063940219359074=="
+Content-Type: multipart/mixed; boundary="===============5532487849953628855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 07 Jan 2021 00:55:58 -0000
-Message-Id: <160998095846.32758.9249931235236803611@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 07 Jan 2021 01:29:08 -0000
+Message-Id: <160998294846.24563.14749391595968369414@gitolite.kernel.org>
 
---===============4010063940219359074==
+--===============5532487849953628855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/seen
-    old: 6e6d5adfd837728b8351fba771a33e3cb5541aff
-    new: 58089d04efc77a53c5eff5422b4a89a729a39858
-    log: revlist-6e6d5adfd837-58089d04efc7.txt
+  - ref: refs/heads/dev
+    old: 23400a5e2d5edbb74d6299b83c67920f2fe8413d
+    new: ceedc265f27b462395fed0d5cacca9b70ae2f2c0
+    log: revlist-23400a5e2d5e-ceedc265f27b.txt
+  - ref: refs/heads/dev.2021.01.06a
+    old: 0000000000000000000000000000000000000000
+    new: 23400a5e2d5edbb74d6299b83c67920f2fe8413d
 
---===============4010063940219359074==
+--===============5532487849953628855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e6d5adfd837-58089d04efc7.txt
+Content-Disposition: attachment; filename=revlist-23400a5e2d5e-ceedc265f27b.txt
 
-cc2d43be2bc93f7016ee97b8d78a79d771e017e4 p7519: allow running without watchman prereq
-d4a497664875c84c4ab8318625bb8881508ac18a builtin/gc: don't peek into `struct lock_file`
-a52cdce936fe473429bd4354079f03c3fb0234e9 commit-graph: don't peek into `struct lock_file`
-acd7160201ae908d3e0fccee19685ab19b1be720 midx: don't peek into `struct lock_file`
-7f0dc7998be01371c99517dc616421239405476c refs/files-backend: don't peek into `struct lock_file`
-6a8c89d053059b97adb846fce1d22f6d7704c56a read-cache: try not to peek into `struct {lock_,temp}file`
-06ce79152be8dab44b63faf4486d5c5c171434af mktag: add a --[no-]strict option
-4ca7994b2a037e98fd3205bb915904f245c9461e parse-options: format argh like error messages
-e73fe3dd028ad830bb44b3ad7de15901834e557f builtin/*: update usage format
-ffdd02a55d994da202acd2c792cc1218bbfa8197 branch: change "--local" to "--list" in comment
-08bf6a8bc351a720f07e1afecb46b1bfae64c7ab branch tests: add to --sort tests
-14d343dd30ef4a40f30c1b051f8efbc58c931da9 ref-filter: add a "detached_head_first" sorting option
-83fa1c6ae5a0855523ee62e7344d60863a9a64fc branch: use the "detached_head_first" sorting option
-1639b6ab026131972db583ee77467c6c8df2c3c1 branch: show "HEAD detached" first under reverse sort
-2332b28f8ac480ea527e919d6f30f7467f7b925d refs: factor out set_read_ref_cutoffs()
-670781597228dcc5c14a7324363d9f5cd6dc0173 refs: allow @{n} to work with n-sized reflog
-ea8bbf2a4eb6632115e2caefc59e28715f8d5e22 t4129: don't fail if setgid is set in the test directory
-552e600cf2e7997726374723175862e6503d6fc6 for-each-repo: do nothing on empty config
-86345c7848e15faa42ea3289faa057940a53c316 Merge branch 'nk/perf-fsmonitor-cleanup' into jch
-20829f1d6c6e27218f7fc17a11f1a82775172d11 Merge branch 'ma/more-opaque-lock-file' into jch
-0358bfc30defdd72dbefd69c1a72a0b089e05955 Merge branch 'ab/mktag' into jch
-1edd19899121d88be06d6f875ddcebe401bc8619 Merge branch 'zh/arg-help-format' into jch
-c7bbd2126980cb0ef0c0a879be1fe693d354ae78 Merge branch 'dl/reflog-with-single-entry' into jch
-c20da2377d3bf9e0191aa19f7e2daa864d0c0801 Merge branch 'ds/for-each-repo-noopfix' into seen
-fd9372d7ca6e357a4a063c8da891d18a9cd6ab89 Merge branch 'mt/t4129-with-setgid-dir' into seen
-1ccb84fccc0693b3d772495e6ecd1a407f222781 Merge branch 'ab/branch-sort' into seen
-20ded2d136ce07a6b208d4d79ede89399078e837 Merge branch 'ds/cache-tree-basics' into seen
-3832db2d89ec3a4c250d2be4cda71edb40331a8a Merge branch 'fc/completion-aliases-support' into seen
-3c23f68b73c496980f314d88cb756c3d0e7fa757 Merge branch 'mr/bisect-in-c-4' into seen
-54bc2121105e02d12e1da7165d6eeb76bc6af1a9 Merge branch 'sm/curl-retry' into seen
-523f89a079641df6aafb80207e45a6b8c0fc067e Merge branch 'sv/t7001-modernize' into seen
-8bdd710c33d468cfe6590056ffb2a198f93e1c4d Merge branch 'ar/fetch-transfer-ipversion' into seen
-e20436740a24304aa0b953f3d133354a670a3345 Merge branch 'mt/grep-sparse-checkout' into seen
-4a4baa8d99ae728ebc263898486ba2e2d941dfa4 Merge branch 'mt/rm-sparse-checkout' into seen
-cfa8cade85bd5ebba964e2139d9d540fdb307287 Merge branch 'mk/use-size-t-in-zlib' into seen
-a6c6635dcd1bc90326bc4964ef878e9ed0f59788 Merge branch 'jc/war-on-dashed-git' into seen
-c5e58c3c5c3cb36e1015f57b98860a7ea6b59980 Merge branch 'vv/send-email-with-less-secure-apps-access' into seen
-d5bbba71ebbdc90443500d4a7c57a0b8fbe72af9 Merge branch 'ak/corrected-commit-date' into seen
-aeda7e535cb7ec3aefa66d1e58abd7417c6c329c Merge branch 'mt/parallel-checkout-part-1' into seen
-2072dcbad54d8def242e3d07e00b1cc4351e8e2e Merge branch 'en/stash-apply-sparse-checkout' into seen
-30f6f3179ef647de072fb4a2df307eab8c3da88a Merge branch 'js/default-branch-name-tests-final-stretch' into seen
-4d3af1c73f930117d3059ae1f3e3e61fa52c45b0 Merge branch 'ag/merge-strategies-in-c' into seen
-46ba49e2bff7606481ce56eac68aa89b1192dac6 Merge branch 'sj/untracked-files-in-submodule-directory-is-not-dirty' into seen
-72da340d33a68baa447c9dd9ca0d6337de629735 Merge branch 'jc/config-pretend-gitdir' into seen
-c120b8068978f9db8a8bef5a0a56c71fd7d8fddc Merge branch 'jc/deprecate-pack-redundant' into seen
-3f965b5bfe84a5523ee8382e9233c18b49103d13 Merge branch 'hn/reftable' into seen
-064c7d9e8b9d2c90095456aaa66e879cd8b87356 Merge branch 'jt/clone-unborn-head' into seen
-fd5a40e88492dda6fbb1d32c2d4470da9fd5bdc2 Merge branch 'fc/mergetool-automerge' into seen
-d25222005bdc71f0cb40c9bc1b830d2947311600 Merge branch 'dl/p4-encode-after-kw-expansion' into seen
-b8c99be3923863b0f3b8c86052b238015fac9070 Merge branch 'en/ort-conflict-handling' into seen
-643f8121fd111cd5108cd9e148609f6c57fcc245 Merge branch 'pb/mergetool-tool-help-fix' into seen
-564c5db3b233db503167c1f7a9cf5a59ec030eb9 Merge branch 'fc/bash-completion-post-2.29' into seen
-58089d04efc77a53c5eff5422b4a89a729a39858 Merge branch 'es/config-hooks' into seen
+7bc967997b0f5d7087fad863aa019df4ce0dd81d clocksource: Provide module parameters to inject delays in watchdog
+f3e07f4aaa0022f24f328ac99491d82bc83efa1d clocksource: Retry clock read if long delays detected
+649482b02867d732158b2ab1f603dffc740c52b3 clocksource: Check per-CPU clock synchronization when marked unstable
+4f1c03df970b6a107297aa8278c5c5890f8f9cfd clocksource: Provide a module parameter to fuzz per-CPU clock checking
+2fe1fb190d2ffdc8b5f541c3acef6c9e5e592318 clocksource: Do pairwise clock-desynchronization checking
+361c0f3d80dc3b54c20a19e8ffa2ad728fc1d23d doc: Update RCU's requirements page about the PREEMPT_RT wiki
+81ad58be2f83f9bd675f67ca5b8f420358ddf13c doc: Use CONFIG_PREEMPTION
+c2e13112e830c06825339cbadf0b3bc2bdb9a716 rcu/segcblist: Add additional comments to explain smp_mb()
+ae5c2341ed3987bd434ed495bd4f3d8b2bc3e623 rcu/segcblist: Add counters to segcblist datastructure
+68804cf1c905ce227e4e1d0bc252c216811c59fd rcu/tree: segcblist: Remove redundant smp_mb()s
+3afe7fa535491ecd0382c3968dc2349602bff8a2 rcu/trace: Add tracing for how segcb list changes
+b4e6039e8af8c20dfbbdfcaebfcbd7c9d9ffe713 rcu/segcblist: Add debug checks for segment lengths
+65e560327fe68153a9ad7452d5fd3171a1927d33 rcu/nocb: Turn enabled/offload states into a common flag
+8d346d438f93b5344e99d429727ec9c2f392d4ec rcu/nocb: Provide basic callback offloading state machine bits
+126d9d49528dae792859e5f11f3b447ce8a9a9b4 rcu/nocb: Always init segcblist on CPU up
+d97b078182406c0bd0aacd36fc0a693e118e608f rcu/nocb: De-offloading CB kthread
+ef005345e6e49859e225f549c88c985e79477bb9 rcu/nocb: Don't deoffload an offline CPU with pending work
+5bb39dc956f3d4f1bb75b5962b503426c45340ae rcu/nocb: De-offloading GP kthread
+254e11efde66ca0a0ce0c99a62c377314b5984ff rcu/nocb: Re-offload support
+69cdea873cde261586a2cae2440178df1a313bbe rcu/nocb: Shutdown nocb timer on de-offloading
+314202f84ddd61e4d7576ef62570ad2e2d9db06b rcu/nocb: Flush bypass before setting SEGCBLIST_SOFTIRQ_ONLY
+b9ced9e1ab51ed6057ac8198fd1eeb404a32a867 rcu/nocb: Set SEGCBLIST_SOFTIRQ_ONLY at the very last stage of de-offloading
+e3abe959fbd57aa751bc533677a35c411cee9b16 rcu/nocb: Only cond_resched() from actual offloaded batch processing
+32aa2f4170d22f0b9fcb75ab05679ab122fae373 rcu/nocb: Process batch locally as long as offloading isn't complete
+634954c2dbf88e67aa267798f60af6b9a476cf4b rcu/nocb: Locally accelerate callbacks as long as offloading isn't complete
+43759fe5a137389e94ed6d4680c3c63c17273158 cpu/hotplug: Add lockdep_is_cpus_held()
+dcd42591ebb8a25895b551a5297ea9c24414ba54 timer: Add timer_curr_running()
+2c4319bd1d14d01f5b6654a90c2b6362f3a407d8 rcutorture: Test runtime toggling of CPUs' callback offloading
+70e8088b97211177225acf499247b3741cc8a229 tools/rcutorture: Support nocb toggle in TREE01
+341690611f8d488859f42a761f5d7cbac6ba2940 rcu/nocb: Add grace period and task state to show_rcu_nocb_state() output
+3d0cef50f32e2bc69f60909584c18623bba9a6c6 rcu/nocb: Add nocb CB kthread list to show_rcu_nocb_state() output
+f759081e8f5ac640df1c7125540759bbcb4eb0e2 rcu/nocb: Code-style nits in callback-offloading toggling
+147c6852d34563b87ff0e67383c2bf675e8248f6 rcu: Do any deferred nocb wakeups at CPU offline time
+683954e55c981467bfd4688417e914bafc40959f rcu: Check and report missed fqs timer wakeup on RCU stall
+bfc19c13d24c70e4fb1dafd76900731bcee97683 torture: Add torture.sh torture-everything script
+1adb5d6b52251105f77630432b36e340cdcb3390 torture: Make torture.sh use common time-duration bash functions
+197220d4a3347aa2c21389235db4a4457e7dc0a7 torture: Remove use of "eval" in torture.sh
+a115a775a8d51c51c8c0b89649646a0e15a4978e torture: Add "make allmodconfig" to torture.sh
+69d2b33e3f2077c57c20a3b718931746cb3a6094 torture: Auto-size SCF and scaling runs based on number of CPUs
+532017b11950a7042d130477747cced4b7e44199 torture: Enable torture.sh argument checking
+7a99487c76aad613b7533e3ea1b8d3eaf30ca37e torture: Make torture.sh rcuscale and refscale deal with allmodconfig
+264da4832b3af4a1a4cc83df1c5fe2d43429faa6 torture: Make torture.sh refscale runs use verbose_batched module parameter
+c9a9d8e8f2e6f34e70701a1d1580eef9c76265ef torture: Create doyesno helper function for torture.sh
+1fe9cef42b6cf6491a2982f68fc495c92389ba7b torture: Make torture.sh allmodconfig retain and label output
+d97addc419e2b1cc1aba2ccc679373fbff7f2521 torture: Make torture.sh throttle VERBOSE_TOROUT_*() for refscale
+c679d90b21b76319b4a6c719442b6a1ff124b88d torture: Make torture.sh refuse to do zero-length runs
+5ae5f7453f93b21e06296e78e8481ba8baaaa55e torture: Drop log.long generation from torture.sh
+8847bd4988321cbc66c94e9dfb05b401c50378a3 torture: Allow scenarios to be specified to torture.sh
+c66c0f94b345600aea881f6c4a1dac0ff5dd1aa8 torture: Add command and results directory to torture.sh log
+c54e413822701a18e7cf6bada2028ea9a9ecdaf9 torture: Add --kcsan-kmake-arg to torture.sh for KCSAN
+e3e1a99787fcf6297990c3b6cf53f5f6ef5aed60 torture: Compress KASAN vmlinux files
+e76506f0e85129d726c487c873a2245c92446515 refscale: Allow summarization of verbose output
+12a910e3cd3d11e00b2a2df24ea995ffa3e27ae5 rcutorture: Require entire stutter period be post-boot
+18fbf307b7319af3725c36e16af6ae9f35a8699c rcutorture: Make synctype[] and nsynctype be static global
+682189a3f874db57b3e755512f2a2953f61fc54e rcutorture: Make rcu_torture_fakewriter() use blocking wait primitives
+ae19aaafae95a5487469433e9cae4c208f8d15cd torture: Add fuzzed hrtimer-based sleep functions
+ea31fd9ca87399ac4e03cd6c215451fa7dc366e4 rcutorture: Use torture_hrtimeout_jiffies() to avoid busy-waits
+ed24affa71f7abf7d81698a99b6c2623491a35b0 torture: Make stutter use torture_hrtimeout_*() functions
+1eba0ef981fd3b5d5e94243aeced8884f43aef50 rcutorture: Use hrtimers for reader and writer delays
+414c116e016584137118067f506125f6ace6128c torture: Make refscale throttle high-rate printk()s
+8a67a20bf257ca378d6e5588fbe4382966395ac8 torture: Throttle VERBOSE_TOROUT_*() output
+edf7b8417834c89d00ef88355ea507b0b0a630ae rcutorture: Make object_debug also double call_rcu() heap object
+0b962c8fe0e5c72a252b236814a6b6e9df799061 torture: Clean up after torture-test CPU hotplugging
+1afb95fee0342b8d9e05b0433e8e44a6dfd7c4a3 torture: Maintain torture-specific set of CPUs-online books
+14d691a14606ffef346a63973da3906a080f2f31 torture: Break affinity of kthreads last running on outgoing CPU
+8b22d29e1c0eb85fa15b043dd539d561f66d4da0 rcutorture: Add rcutree.use_softirq=0 to RUDE01 and TASKS01
+2cfcfb3df20326c60536ef9354b08f7eab1acca2 Merge branches 'clocksource.2021.01.06a', 'cpumask.2021.01.04a', 'doc.2021.01.06a', 'fixes.2021.01.04b', 'kfree_rcu.2021.01.04a', 'mmdumpobj.2021.01.04a', 'nocb.2021.01.06a', 'rt.2021.01.04a', 'stall.2021.01.06a', 'torture.2021.01.06a' and 'tortureall.2021.01.06a' into HEAD
+ada30154b48abc7b2051bdcc3a9f322653b28f64 Merge branch 'kcsan.2021.01.04a' into HEAD
+8f995b56e837c15630a7760f2bcc270a6ebb3164 Merge branch 'lkmm-dev.2021.01.04a' into HEAD
+e1cc1d149b3310d3e1b38dd7f1e373f69df3db3b EXP rcuscale: Add crude tests for mem_dump_obj()
+7594b705465349f3a2e4ad1c66f036c3dc1d946f x86/mce: Make mce_timed_out() identify holdout CPUs
+65ddc73e806fb53e5d1709d8f95d3ad730573aa3 sched/idle: Fix missing need_resched() check after rcu_idle_enter()
+81245510ceac7a380a98d1cc469be84d884e8c0f cpuidle: Fix missing need_resched() check after rcu_idle_enter()
+301144a518b1badd7a1f0e5efd61f689768e05d5 ARM: imx6q: Fix missing need_resched() check after rcu_idle_enter()
+cdbfe904682c12842fd1a9542fc2af54095c6005 ACPI: processor: Fix missing need_resched() check after rcu_idle_enter()
+7469241e55a206180b833c05fc6c1cc20c15a79f torturescript: Don't rerun failed rcutorture builds
+ceedc265f27b462395fed0d5cacca9b70ae2f2c0 EXP sched: Print list of runnable tasks in the current rq
 
---===============4010063940219359074==--
+--===============5532487849953628855==--
