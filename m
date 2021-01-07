@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4919191579188882127=="
+Content-Type: multipart/mixed; boundary="===============3077248936342070646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 07 Jan 2021 14:06:06 -0000
-Message-Id: <161002836610.20457.13990061886006756308@gitolite.kernel.org>
+Date: Thu, 07 Jan 2021 14:06:15 -0000
+Message-Id: <161002837510.20554.7365463539116527040@gitolite.kernel.org>
 
---===============4919191579188882127==
+--===============3077248936342070646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: cb262935a166bdef0ccfe6e2adffa00c0f2d038a
-    new: d8adccc32cf39b290bb6761205f8950fe70ffc46
-    log: revlist-cb262935a166-d8adccc32cf3.txt
+  - ref: refs/heads/sched/core
+    old: 5b78f2dc315354c05300795064f587366a02c6ff
+    new: 26e56ca7bc5a7077aca98512db736e6df8177766
+    log: revlist-5b78f2dc3153-26e56ca7bc5a.txt
 
---===============4919191579188882127==
+--===============3077248936342070646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb262935a166-d8adccc32cf3.txt
+Content-Disposition: attachment; filename=revlist-5b78f2dc3153-26e56ca7bc5a.txt
 
-135f97fd0c398f20a544cc52c3f8a3cb925a8aef z3fold: remove preempt disabled sections for RT
-19d3cf9de1c72fd1adaa1d68aa40d74a35688404 mm/compaction: rename 'start_pfn' to 'iteration_start_pfn' in compact_zone()
 2b1a20c3afbc0279cbe57b0f19748081eba0881b mm/compaction: move compaction_suitable's comment to right place
 2271b016bf368d19d60531dd5ddd4375b4dae0ab mm/compaction: make defer_compaction and compaction_deferred static
 259b3633e78d627353d49b1eb226d72b2ac588da mm/oom_kill: change comment and rename is_dump_unreclaim_slabs()
@@ -1043,12 +1041,14 @@ eda809aef53426d044b519405d25d9da55319b76 Merge tag 'scsi-fixes' of git://git.ker
 d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
-068f999cc6fcbcde39c5200c09ecbb4337951579 lockdep/selftest: Add wait context selftests
-d5e058307ac0197320cd5e90d68c44b4ac22938d locking/selftests: More granular debug_locks_verbose
-a5e914f11ea981ac4771120315fb53b05c2a3820 locking/lockdep: Mark local_lock_t
-78cdbaca09bf9c83bf54007e3daaa57f3879e88a locking/lockdep: Add a skip() function to __bfs()
-c1306eb58295ddb6a76e6db48b9309a20621ea6a locking/lockdep: Clean up check_redundant() a bit
-bba1fc8b0c4db6622cca12c3c1bda4e9a6397aa8 locking/lockdep: Exclude local_lock_t from IRQ inversions
-d8adccc32cf39b290bb6761205f8950fe70ffc46 locking/selftests: Add local_lock inversion tests
+2389008c28951f89d9381b1df46561d62dd985d9 sched/core: Move schedutil_cpu_util() to core.c
+a7206dfb16615542598e42417a4216c4fd0a9771 sched/core: Rename schedutil_cpu_util() and allow rest of the kernel to use it
+0bd0bcfaed8ddebf1c06aadf66a9ab06cff00f63 thermal: cpufreq_cooling: Reuse sched_cpu_util() for SMP platforms
+76cb90ddd69d02e08623d8d7f661dfe294657fe4 sched: Prevent raising SCHED_SOFTIRQ when CPU is !active
+b666f43b20bb99ade4b77e42d1cb0b6f95cea373 sched: Add schedutil overview
+39a6b07174896d52b0e060b84a1741f07c229303 sched/fair: Avoid stale CPU util_est value for schedutil in task dequeue
+157159617eb1e5489570ffd30366f637fab9bd9b sched/fair: skip idle cfs_rq
+e35fd405be74f459378bd9f8a28e10afb3fe9207 sched/fair: don't set LBF_ALL_PINNED unnecessarily
+26e56ca7bc5a7077aca98512db736e6df8177766 sched/fair: reduce cases for active balance
 
---===============4919191579188882127==--
+--===============3077248936342070646==--
