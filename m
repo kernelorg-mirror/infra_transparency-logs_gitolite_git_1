@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2539921819389445227=="
+Content-Type: multipart/mixed; boundary="===============8835307809558113600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 07 Jan 2021 14:29:33 -0000
-Message-Id: <161002977307.5765.11460700167150030994@gitolite.kernel.org>
+Date: Thu, 07 Jan 2021 14:29:36 -0000
+Message-Id: <161002977680.5882.17696450190461639280@gitolite.kernel.org>
 
---===============2539921819389445227==
+--===============8835307809558113600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,60 +16,67 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 93571577f784d851adb330fcb03ab1e3518445f4
-    new: f52a40401ee9825556cc803c110c67bfec5f6b94
-    log: revlist-93571577f784-f52a40401ee9.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 2e595cd87367f6951467295b3a7c4bb05b08102b
+    new: 208f314c03c52f01c09eaff3018fd704c2f8fbe2
+    log: revlist-2e595cd87367-208f314c03c5.txt
 
---===============2539921819389445227==
+--===============8835307809558113600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610029853 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610029856 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1610029770-0a4209416eed2783a2885031d67a47afb066b11b
+nonce 1610029774-2f59b74c117acb8fa8cdaeab9e86f5ab8e45b3e6
 
-93571577f784d851adb330fcb03ab1e3518445f4 f52a40401ee9825556cc803c110c67bfec5f6b94 refs/heads/linux-5.4.y
+2e595cd87367f6951467295b3a7c4bb05b08102b 208f314c03c52f01c09eaff3018fd704c2f8fbe2 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/3Gx0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZdIP/3gNs2WS8BdUlu/E3T/I
-BXyhBGhF8qpUTnxa/euJodVEWFB8qEP+X76N5oU+P+wfRz0XPXEqHLbAVF+EhYTj
-rI6V7BzZRAlkUKkveKOa9ihUvh1KULN8yaZC5e2NVKyRMlYQ6h5WurKWSYd2vncG
-QbuO9baHLjpcWvcTmViAyeargXz9N1foRqziDqP7/kYZmdYQIaBzxU2UP9nBaYvC
-CMHNjndOOxxMyefHYfEkxHzJo+yGHnw6NYkEPyfam2Uiu3gGFVy3cVwY4Bnjsq9V
-Nkd6WfWRt1M0MU/sXqrT6RR4nQ0wKXc3SB9X8F/lVTEvAeOkzhh8Gd32uvlpJjwZ
-XmkUAPY7viTE5EPoSB/lCOUSrl+4ucMeoZOdmANrSpkDaY1IyxF0CzEq1Y7a8eD7
-+W9K6+7Rragp87h8KkqIzQZoRVzC2OcfBdHXoN2ZWRf6hwkVcEULVgeuM31voMAW
-1OzYK4U22oDx6li8WEY1cM+NnxATXF2rsG9kFl2PJPvPvKHxu8ptAffDLuw1mlHz
-lDAS4CqOvrj24AMZj+pkJYDJxD5wSHTVe83OWNWqIcgY2qvZcb0sjYSStLBgSFEy
-s/sTw3Rq2ppEA2RIqpcMEoXQTijlwMZ5wefbabKtq+rrJBIkRSJobhPhqRXkgNpm
-6sJF/CXO+txDr73G0rpa0Tp3
-=hSCg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/3GyAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+10kP/1929nHzYKTvLvdKe2R6
+c2Fy5goAQnGvzauBz7d4b1JrwIOLjVrp109S5IdFs+YZjkNijuxKRnB5i02cT2bU
+PvfLTKaq3dnLgEfyvTPcXtkZNq9fE8ek94VpkmXcvyiKTgAYJPYYuN4AFsm8L5bj
+JKtSwqMLPATGnXKToDFtjWxCT0aCda4g6QgtGGSmOdaK/UeSXGKGLKsB1FHz5ImV
+IXqMhFv/RX2Y4QvxJxcQJvK09jdT0/yU9cwUWToivRh8KqAGaOF2uZfd0yKykU9m
+JsiCxPM5OF4LMY9k2hCDRLFvTeq3yrbxc3dsBqRR04ladNRW3qR7Im/WSvPnRDkZ
+80Mtlu2jJ+6IXRGPd9kElSMTny8wkH4iU/HBajFr1KsyTMl3IPrjvdauTLCyh8DE
+LeOY+ArcJtnDffe/gvUPsa7JiG45NtL1IgkJpsBt+1Yaz25x30OFEO38QTrsVEFC
+potifWleouus/13xubRovFpFYv2hdaqA801hiPEqCiKZDkWKX12eQ0Vuk0sv6cHT
+uvoX7W+uY0cX1q1xg3cHfpQHns+p9sRVQh04FE7DfM/GCFYGxmc/4QafXDuH6HXh
+NWxIr/yvNbOH7MvAiiIKirOFGETt8Hhw+HkM1atST5QKw+qbnCudqBkVFiMcKtlS
+yGjWBa/lm2hHrrVfR3ay4VLv
+=/QMG
 -----END PGP SIGNATURE-----
 
---===============2539921819389445227==
+--===============8835307809558113600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93571577f784-f52a40401ee9.txt
+Content-Disposition: attachment; filename=revlist-2e595cd87367-208f314c03c5.txt
 
-e4edf61c08aec2bb2e1176d12882b0421c130617 Revert "drm/amd/display: Fix memory leaks in S3 resume"
-93c87ecbc6c999153ef4e9d28bf677ac553ee076 Revert "mtd: spinand: Fix OOB read"
-426e46d4c6dc9f1d84ee0a828f270ec3510ab3ac dmaengine: at_hdmac: Substitute kzalloc with kmalloc
-17fe70f3e222826a5d9a0733e4da7985ef202aae dmaengine: at_hdmac: add missing put_device() call in at_dma_xlate()
-3810368fa67e4e1f86b63cd02501b5ac374f47fc dmaengine: at_hdmac: add missing kfree() call in at_dma_xlate()
-8d36972c8e3d813d3cfc13d8598b1a6023eefad5 kdev_t: always inline major/minor helper functions
-442a0d09ec7c5cad53439023940e9e6555bd9db2 iio:imu:bmi160: Fix alignment and data leak issues
-d1156eed8e52dc8f3bac7de0845cc20db6f3838d fuse: fix bad inode
-8b7f336326b61f736344b9006a664e01c5670fce perf: Break deadlock involving exec_update_mutex
-80977b17aff192c9472e9a1d3bfa059fe9471544 rwsem: Implement down_read_killable_nested
-44c466aca5bf84e56cc618f56636ee7ac6441d47 rwsem: Implement down_read_interruptible
-4dc0613c85a0d067b9cdd50df1f4bd13b2cf6f77 exec: Transform exec_update_mutex into a rw_semaphore
-23988d6ec837c639ef9cf20d4c77ffde2a556f84 mwifiex: Fix possible buffer overflows in mwifiex_cmd_802_11_ad_hoc_start
-f52a40401ee9825556cc803c110c67bfec5f6b94 Linux 5.4.88-rc1
+11e4b98ced2a3cd467988c17faa695c2b0fa01cc Revert "drm/amd/display: Fix memory leaks in S3 resume"
+c4193c2a37e3793ab336517425636dc67c2889d8 Revert "mtd: spinand: Fix OOB read"
+565c409ba3eab87fc30d371547524db39da88f12 rtc: pcf2127: move watchdog initialisation to a separate function
+8b86adf28a405df3ed4452393ef4944a574b984a rtc: pcf2127: only use watchdog when explicitly available
+8f98b82249434b0770dc3d0d4c53f73294b773ac dt-bindings: rtc: add reset-source property
+784affc08b26e8d2683bbd04323f264f204ba14a kdev_t: always inline major/minor helper functions
+85829ee089739b66ced96859fe3a8d0775df4d57 Bluetooth: Fix attempting to set RPA timeout when unsupported
+1948626302eaecc279d92a71733c35c500a5d45c ALSA: hda/realtek - Modify Dell platform name
+9e9d71332442f76cd28edb9317b47d2974104bdb ALSA: hda/hdmi: Fix incorrect mutex unlock in silent_stream_disable()
+88f946f21fc7f815796903bbd16dfdc6930321c2 drm/i915/tgl: Fix Combo PHY DPLL fractional divider for 38.4MHz ref clock
+83db65d15ca63d51c9857a12ae25557a1cb3b7ee scsi: ufs: Allow an error return value from ->device_reset()
+681d3ca46f1d30676eb7ebbc3a5ffe99c99b45f0 scsi: ufs: Re-enable WriteBooster after device reset
+3fa88dae47f9c30cd5570d2c08b2278a338ef3bf RDMA/core: remove use of dma_virt_ops
+1f547f87c81ac275091908ef67d8772a75f0b106 RDMA/siw,rxe: Make emulated devices virtual in the device tree
+f6956d4db92b2be979d2f93624e037f452303cb0 fuse: fix bad inode
+4ec9cc37158ed061972ebea02a07822c3983ff16 perf: Break deadlock involving exec_update_mutex
+4cd6df225f86c193de9cced137fac1f45d1a4b10 rwsem: Implement down_read_killable_nested
+153d93c3c0b271d2865b81ef603f74a814b2c781 rwsem: Implement down_read_interruptible
+5b2aec15030e8cb893a0991bde7c2e79e31cfd7b exec: Transform exec_update_mutex into a rw_semaphore
+01718f26dadd4570127595815822dc8f36f2a467 mwifiex: Fix possible buffer overflows in mwifiex_cmd_802_11_ad_hoc_start
+208f314c03c52f01c09eaff3018fd704c2f8fbe2 Linux 5.10.6-rc1
 
---===============2539921819389445227==--
+--===============8835307809558113600==--
