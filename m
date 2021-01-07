@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1118525793308398103=="
+Content-Type: multipart/mixed; boundary="===============0532246535153305134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 07 Jan 2021 19:44:59 -0000
-Message-Id: <161004869901.12079.10598213535477554849@gitolite.kernel.org>
+Date: Thu, 07 Jan 2021 19:45:18 -0000
+Message-Id: <161004871864.13662.8632434687191008296@gitolite.kernel.org>
 
---===============1118525793308398103==
+--===============0532246535153305134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: 482ec343f40a8822ed2e1c21fba2ad678ef36754
+  - ref: refs/heads/for-next
+    old: 3db1a3fa98808aa90f95ec3e0fa2fc7abf28f5c9
     new: e72afae47aa595b230f51916c7a5dbaf50cd0107
-    log: revlist-482ec343f40a-e72afae47aa5.txt
+    log: revlist-3db1a3fa9880-e72afae47aa5.txt
 
---===============1118525793308398103==
+--===============0532246535153305134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-482ec343f40a-e72afae47aa5.txt
+Content-Disposition: attachment; filename=revlist-3db1a3fa9880-e72afae47aa5.txt
 
 99b75eb7c86b05f9594e8a7826174b8bf22e82b8 gcov: remove support for GCC < 4.9
 26ecea089f422b6f518f2906495a2d64ca7938d7 gcov: fix kernel-doc markup issue
@@ -1051,4 +1051,4 @@ dade72ec27ba205e8ae8cf48b5a9be99eaf317b2 selftests/bpf: Add tests for user- and 
 6356a4206ae7d58d011ffcc80575a97f5aa922de net, xdp: Introduce xdp_init_buff utility routine
 e72afae47aa595b230f51916c7a5dbaf50cd0107 net, xdp: Introduce xdp_prepare_buff utility routine
 
---===============1118525793308398103==--
+--===============0532246535153305134==--
