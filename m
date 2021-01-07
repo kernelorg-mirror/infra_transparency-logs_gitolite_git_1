@@ -1,25 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 07 Jan 2021 19:12:29 -0000
-Message-Id: <161004674945.24900.17528394746442562468@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2617562527102535591=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 07 Jan 2021 19:25:22 -0000
+Message-Id: <161004752269.2547.2618788183510796169@gitolite.kernel.org>
+
+--===============2617562527102535591==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 1f685e6adbbe3c7b1bd9053be771b898d9efa655
-    new: c8c748fb83bd052502f35471101d61d8c3648c86
+  - ref: refs/heads/char-misc-testing
+    old: 477dfdccfcae4665f073260446199933369cd50e
+    new: 47771f1715bf05b69b040bf784a2607a5dc13c62
     log: |
-         c4aec381ab98c9189d47b935832541d520f1f67f can: m_can: m_can_class_unregister(): remove erroneous m_can_clk_stop()
-         aee2b3ccc8a63d1cd7da6a8a153d1f3712d40826 can: tcan4x5x: fix bittiming const, use common bittiming from m_can driver
-         6086f02a18aeae795a61a3fc6566920891ea3b52 can: mcp251xfd: mcp251xfd_handle_tefif(): fix TEF vs. TX race condition
-         2fbb397f584077e3c90abd06829f5a1f66fdd5f4 can: mcp251xfd: mcp251xfd_handle_rxif_ring(): first increment RX tail pointer in HW, then in driver
-         1169ec8f5d71044082a9898bbd1f1bf4a690c5a4 can: rcar: Kconfig: update help description for CAN_RCAR config
-         6ee49118f87cf02b36f68812bc49855b7b627a2b MAINTAINERS: Update MCAN MMIO device driver maintainer
-         c8c748fb83bd052502f35471101d61d8c3648c86 Merge tag 'linux-can-fixes-for-5.11-20210107' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+         13613a2246bf531f5fc04e8e62e8f21a3d39bf1c misc: eeprom_93xx46: Fix module alias to enable module autoprobe
+         47771f1715bf05b69b040bf784a2607a5dc13c62 misc: eeprom_93xx46: Enable module autoprobe for microchip 93LC46B eeprom
          
+
+--===============2617562527102535591==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610047595 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1610047513-4485dbac728627751801d377d9702a2e80abac8c
+
+477dfdccfcae4665f073260446199933369cd50e 47771f1715bf05b69b040bf784a2607a5dc13c62 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/3YGsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QRwP/jJg/23x2KtCZ/mB6IfU
+rCpo5KvhqmxJZLqIebNIEBCdXgQGrIA+NoN8usTELzvH9n9eFXkmy0+sdm0+R9zT
+909qXXHJuSmDXfzoiguFeRu8V+1jjJDmWnFkSJKb+AEP/1aNl84OwoBq5/rGFUSN
+Ch8FB3KHfuha9JxAUCinmKSKdJEaxhoy08QhUY4VhH+InoKOGdf/6uA53jFTGl6X
+yVkxHms9vati26Lwtd/e+G8eGyanwl82ADCxomv0w7b2iShGWSRFyEuczUnZOKUj
+ZorGNuzrrj8CJP/7paPmckmSiA0WKlcRge8UbLWSdGYv3OwCQoebAMBs8JZ3ttuI
+VgHUWEy73pWgqWuXEos74U7eiHNcu1PtD3hTjZ4lhICwYdsyeLfZhG4so8Uiv71/
+Qs4eTAsuVxZ+Al88KFJqT23QiFK5vmFcj1i0auW8YsdOhSbc7NQZZytE8T0ntsFF
+Tyj2vfaPlEKSxwwLPTp8ZE4Iy5Dhe/9IApD6E9G2FgzegGpX7pqjNiTRbhHdHWb4
+CBM/5UsmKVbPVW74DR8NbC7wnTS7VLvojUEcP8l3T9Z00tFc1HXSLBrlNY3/KI2c
+lC6gjL7zJuZZea4NJS+yNFNRF8DjuX49WJi1FlnoGkImNUE2kbEDSmSLBTqz435a
+vPQMgJumtXZWtfyc5ihewVu3
+=anMK
+-----END PGP SIGNATURE-----
+
+--===============2617562527102535591==--
