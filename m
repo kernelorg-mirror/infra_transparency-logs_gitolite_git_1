@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0891149938951580777=="
+Content-Type: multipart/mixed; boundary="===============3160329449178673682=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Thu, 07 Jan 2021 11:54:20 -0000
-Message-Id: <161002046028.11028.8030261750344305422@gitolite.kernel.org>
+Date: Thu, 07 Jan 2021 11:55:42 -0000
+Message-Id: <161002054210.12737.8980936216769832266@gitolite.kernel.org>
 
---===============0891149938951580777==
+--===============3160329449178673682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 72b248cfbf3fd308807afe7cc30d05fefeff7fb1
+  - ref: refs/heads/fixes
+    old: c0d638a03bc5dfdb08fb95d0a79ecada25f40da8
     new: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
-    log: revlist-72b248cfbf3f-e71ba9452f0b.txt
-  - ref: refs/tags/v5.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 4a191eab42bda9fba2742d8d538609c737b8194e
-  - ref: refs/tags/v5.11-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8abc7aa5d31067372903fb523ed96e8470b92d50
+    log: revlist-c0d638a03bc5-e71ba9452f0b.txt
 
---===============0891149938951580777==
+--===============3160329449178673682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72b248cfbf3f-e71ba9452f0b.txt
+Content-Disposition: attachment; filename=revlist-c0d638a03bc5-e71ba9452f0b.txt
 
 7fc2513aa237e2ce239ab54d7b04d1d79b317110 hugetlb: fix an error code in hugetlb_reserve_pages()
 597c892038e08098b17ccfe65afd9677e6979800 mm: don't wake kswapd prematurely when watermark boosting is disabled
@@ -1057,4 +1051,4 @@ d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.ke
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
 
---===============0891149938951580777==--
+--===============3160329449178673682==--
