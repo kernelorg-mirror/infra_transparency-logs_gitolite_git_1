@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 07 Jan 2021 20:42:41 -0000
-Message-Id: <161005216165.18574.11001772251818338547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 07 Jan 2021 20:48:55 -0000
+Message-Id: <161005253566.21838.1804681840404321457@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/wip/jgg-for-rc
-    old: 3c638cdb8ecc0442552156e0fed8708dd2c7f35b
-    new: f2bc3af6353cb2a33dfa9d270d999d839eef54cb
+  - ref: refs/heads/master
+    old: 5316a7c0130acf09bfc8bb0092407006010fcccc
+    new: f3562f5e00bbae2a6b292941ec76a9140aa3b7dd
     log: |
-         a306aba9c8d869b1fdfc8ad9237f1ed718ea55e6 RDMA/usnic: Fix memleak in find_free_vf_and_create_qp_grp
-         f2bc3af6353cb2a33dfa9d270d999d839eef54cb RDMA/ocrdma: Fix use after free in ocrdma_dealloc_ucontext_pd()
+         f3562f5e00bbae2a6b292941ec76a9140aa3b7dd docs: octeontx2: tune rst markup
          
