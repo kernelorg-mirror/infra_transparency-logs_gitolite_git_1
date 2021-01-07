@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 07 Jan 2021 09:15:15 -0000
-Message-Id: <161001091566.7536.3948990561373529787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 07 Jan 2021 09:21:09 -0000
+Message-Id: <161001126985.10721.15253302251396650658@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-5.11/upstream-fixes
-    old: 273435a1d4e5826f039625c23ba4fe9a09f24d75
-    new: 4d2b71634b5ad142617e430bc6ef659331a576d0
+  - ref: refs/heads/net-next
+    old: 7867deab367e67062b458451f19862d8c116603b
+    new: 591d19bead3a1e6079d45a1533a2e987379b2545
     log: |
-         a876e7e2a8e62712425be178d483ffdff09f0853 HID: uclogic: remove h from printk format specifier
-         4d2b71634b5ad142617e430bc6ef659331a576d0 HID: wiimote: remove h from printk format specifier
-         
-  - ref: refs/heads/for-next
-    old: 78aae108ab3a2c75cf40fa7f835d865424a79954
-    new: a58f881f92ad4aa57c7a64d3a651d7c13f49ed96
-    log: |
-         a876e7e2a8e62712425be178d483ffdff09f0853 HID: uclogic: remove h from printk format specifier
-         4d2b71634b5ad142617e430bc6ef659331a576d0 HID: wiimote: remove h from printk format specifier
-         a58f881f92ad4aa57c7a64d3a651d7c13f49ed96 Merge branch 'for-5.11/upstream-fixes' into for-next
+         920be7ecd0a8294d1dc1f19d1339e8be27ceb780 Merge commit 'refs/changes/74/362074/1' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+         fbadd2cbf1f65a6ffcf25ee4f3b6e553ccdf2746 net/mlx5e: rep: Improve reg_cX conditions
+         50528a14795c442edae5c2131b64c9da72a87bc1 Merge branch 'net-next-mlx4' into net-next
+         11399f368ad9101d1be31976b5383756cbd2a6ec Merge branch 'mlx5-vdpa' into net-next
+         67a1f5bd30dceeb6ed4030c59e7c4c3766de065e Merge branch 'net-next-mlx5' into net-next
+         f3598cc50c4029c0851ca9eca0b4e4656110647f Merge branch 'net-mlx4' into net-next
+         8d5075998cab6feacfd79cf4913b44eba5088b58 Merge branch 'net-mlx5' into net-next
+         591d19bead3a1e6079d45a1533a2e987379b2545 Merge branch 'net-next-test' into net-next
          
