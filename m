@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3820795645352949055=="
+Content-Type: multipart/mixed; boundary="===============4204155156431689102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 07 Jan 2021 02:02:58 -0000
-Message-Id: <160998497872.12963.16156521742962964755@gitolite.kernel.org>
+Date: Thu, 07 Jan 2021 02:12:31 -0000
+Message-Id: <160998555126.18189.14291486384614093811@gitolite.kernel.org>
 
---===============3820795645352949055==
+--===============4204155156431689102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/f2fs-pending
-    old: 36ff15859a783d472b526f5c8f1a67139f69b586
-    new: 63b9fcb67ebd8c0c992b7f86dc1ccb4268b1d27b
-    log: revlist-36ff15859a78-63b9fcb67ebd.txt
+  - ref: refs/heads/testing
+    old: c3b23f639bbbcebb6e4208a2469b714217137dbb
+    new: 09098400da5820db0c0da74d1e05db1efe1d1304
+    log: revlist-c3b23f639bbb-09098400da58.txt
 
---===============3820795645352949055==
+--===============4204155156431689102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36ff15859a78-63b9fcb67ebd.txt
+Content-Disposition: attachment; filename=revlist-c3b23f639bbb-09098400da58.txt
 
 9836720911cfec25d3fbdead1c438bf87e0f2841 ARC: build: remove non-existing bootpImage from KBUILD_IMAGE
 f2712ec76a5433e5ec9def2bd52a95df1f96d050 ARC: build: add uImage.lzma to the top-level target
@@ -32,8 +32,6 @@ f2712ec76a5433e5ec9def2bd52a95df1f96d050 ARC: build: add uImage.lzma to the top-
 c5e6ae563c802c4d828d42e134af64004db2e58c ARC: build: move symlink creation to arch/arc/Makefile to avoid race
 a4e070cfeb9d4961a169a2f1a614665cf51de963 ARC: build: remove unneeded extra-y
 3a71e423133a4b1166ffafcb4a7cfa87ddecb910 ARC: build: use $(READELF) instead of hard-coded readelf
-1967939462641d8b36bcb3fcf06d48e66cd67a4f Compiler Attributes: remove CONFIG_ENABLE_MUST_CHECK
-1b04fa9900263b4e217ca2509fd778b32c2b4eb2 rcu-tasks: Move RCU-tasks initialization to before early_initcall()
 161b838e25c6f83495e27e3f546b893622d442bf netfilter: nftables: fix incorrect increment of loop counter
 1a3449c19407a28f7019a887cdf0d6ba2444751a selftests/bpf: Clarify build error if no vmlinux
 292bff9480c8d52fc58028979c4162abd83f1aec ath11k: add missing null check on allocated skb
@@ -51,6 +49,19 @@ e7f6f893ac39c8715d959ff8d677645ef5e0f8b4 mt76: mt76u: fix NULL pointer dereferen
 f1340265726e0edf8a8cef28e665b28ad6302ce9 iavf: fix double-release of rtnl_lock
 f6f92968e1e5a7a9d211faaebefc26ebe408dad7 ath11k: qmi: try to allocate a big block of DMA memory first
 e9603f4bdcc04417f1c7b3585e63654819dc11f6 ath11k: pci: disable ASPM L0sLs before downloading firmware
+3d45f221ce627d13e2e6ef3274f06750c84a6542 btrfs: fix deadlock when cloning inline extent and low on free metadata space
+9a664971569daf68254928149f580b4f5856d274 btrfs: correctly calculate item size used when item key collision happens
+ae5e070eaca9dbebde3459dd8f4c2756f8c097d0 btrfs: qgroup: don't try to wait flushing if we're already holding a transaction
+0b3f407e6728d990ae1630a02c7b952c21c288d3 btrfs: send: fix wrong file path when there is an inode with a pending rmdir
+675a4fc8f3149e93f35fb5739fd8d4764206ba0b btrfs: tests: initialize test inodes location
+ea9ed87c73e87e044b2c58d658eb4ba5216bc488 btrfs: fix async discard stall
+1ea2872fc6f2aaee0a4b4f1578b83ffd9f55c6a7 btrfs: fix racy access to discard_ctl data
+8fc058597a283e9a37720abb0e8d68e342b9387d btrfs: merge critical sections of discard lock in workfn
+cb13eea3b49055bd78e6ddf39defd6340f7379fc btrfs: fix transaction leak and crash after RO remount caused by qgroup rescan
+638331fa56caeaa8b4d31cc1dfbe0ce989bcff67 btrfs: fix transaction leak and crash after cleaning up orphans on RO mount
+a0a1db70df5f48576fea6d08f0a69c05f3ab4cf4 btrfs: fix race between RO remount and the cleaner task
+0a31daa4b602ff6861fdf182236d64b2a353bace btrfs: add assertion for empty list of transactions at late stage of umount
+a8cc263eb58ca133617662a5a5e07131d0ebf299 btrfs: run delayed iputs when remounting RO to avoid leaking them
 f09ced4053bc0a2094a12b60b646114c966ef4c6 xsk: Fix race in SKB mode transmit with shared cq
 b1b95cb5c0a9694d47d5f845ba97e226cfda957d xsk: Rollback reservation at NETDEV_TX_BUSY
 e79bb299ccad6983876686a4d8c87c92ebbe5657 selftests/bpf: Fix spelling mistake "tranmission" -> "transmission"
@@ -145,8 +156,6 @@ b0e1306302018d876472ed074c1bfaa8020bf9df ALSA: usb-audio: Add quirk for RC-505
 26982a89cad77c0efc1c0c79bee0e3d75e9281d4 afs: Work around strnlen() oops with CONFIG_FORTIFIED_SOURCE=y
 366911cd762db02c2dd32fad1be96b72a66f205d afs: Fix directory entry size calculation
 4bfd6247fa9164c8e193a55ef9c0ea3ee22f82d8 ALSA: hda/via: Fix runtime PM for Clevo W35xSS
-f4f6a2e329523e1a795e5e5c0799feee997aa053 Merge tag 'compiler-attributes-for-linus-v5.11' of git://github.com/ojeda/linux
-36bbbd0e234d817938bdc52121a0f5473b3e58f5 Merge branch 'rcu/urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 d9e44981739a96f1a468c13bbbd54ace378caf1c bareudp: set NETIF_F_LLTX flag
 10ad3e998fa0c25315f27cf3002ff8b02dc31c38 bareudp: Fix use of incorrect min_headroom size
 01e31bea7e622f1890c274f4aaaaf8bccd296aa5 vhost_net: fix ubuf refcount incorrectly when sendmsg fails
@@ -172,6 +181,33 @@ f6e7a024bfe5e11d91ccff46bb576e3fb5a516ea Merge tag 'arc-5.11-rc3' of git://git.k
 fd6e6e5c0935d0c08d6433ac75163a53a87af60d f2fs: Replace expression with offsetof()
 5bfeb621567bd75d0e85578dff478d5816004449 f2fs: fix to set inode->i_mode correctly for posix_acl_update_mode
 9ed5affac26d0a34478b905cfec5b6a8bef46186 f2fs: enhance to update i_mode and acl atomically in f2fs_setattr()
+666968f0987ea992df1af7ddff8fa3d31a3e8482 crypto: x86/camellia - switch to XTS template
+f51a034242d7c079c68ef98a5e7c45f4b5dc8ce4 crypto: x86/cast6 - switch to XTS template
+b54c0515a6cfcdc56c2cdc7113e1b4750668f7e0 crypto: x86/serpent- switch to XTS template
+0dacd1eebd127da28bd9c8fea5b05e548b5c1aee crypto: x86/twofish - switch to XTS template
+b6467ed814ad415c6a17a3cd0b01204ed80a45b0 crypto: x86/glue-helper - drop XTS helper routines
+22d57ee9a69bcd2dd148a9cbf1554d8be36a4297 crypto: x86/camellia - drop CTR mode implementation
+ccc59b06c268857c138431e2ae58b1a1b2a6d933 crypto: x86/serpent - drop CTR mode implementation
+70101733c2fb6c523db16d729c4f45d72215d3e8 crypto: x86/cast5 - drop CTR mode implementation
+50168c0d2a19ec8a28e83abe3f6805d003383b9e crypto: x86/cast6 - drop CTR mode implementation
+da693777b20ae4694aed65e23217153494161bf3 crypto: x86/twofish - drop CTR mode implementation
+6ddb83ef5b4a4498a784eeed35d19361b9c048f0 crypto: x86/glue-helper - drop CTR helper routines
+0756b292afd86261c14a6db827c7b984a32700c8 crypto: x86/des - drop CTR mode implementation
+395e1d6c7d10b1d995905036972eceb53dd21cf1 crypto: x86/blowfish - drop CTR mode implementation
+b71adf036dfd85aa2af10622eaac9b5c598ac19a crypto: x86 - add some helper macros for ECB and CBC modes
+37e890f73e3a3feb3bd00d19eae77a8b8c5f84f9 crypto: x86/camellia - drop dependency on glue helper
+9e2f3d31496249452a09708fb8ba12fcacf6b34c crypto: x86/serpent - drop dependency on glue helper
+22230ed921fd945eb4115ad4f15b74463ce43fe6 crypto: x86/cast5 - drop dependency on glue helper
+754edd2641114f000a94b7b2550e522662e7a1ff crypto: x86/cast6 - drop dependency on glue helper
+1e6c4289bb9fa2878073bd896e598d4b3a4633e5 crypto: x86/twofish - drop dependency on glue helper
+06426a924c9b52b44cda156ffcecd88b18fe7b96 crypto: x86 - remove glue helper module
+3abe0f6df448d2b96f1da5bbdf3257458fa6f871 crypto: x86 - use local headers for x86 specific shared declarations
+22dcc92d2d953dc914ee5750b8bfd0fa384f912f crypto: x86/gcm-aes-ni - prevent misaligned buffers on the stack
+fad92fb6ec1aa9ec924a9c5ea623f15dabd8db68 crypto: x86/gcm-aes-ni - drop unused asm prototypes
+a9ac76e4fcfe7702133058c96d9eb69874222b23 crypto: x86/gcm-aes-ni - clean up mapping of associated data
+130d337dcb416903072939c7f1274a6f8a5dbf56 crypto: x86/gcm-aes-ni - refactor scatterlist processing
+f217089d7e16e882b3b6024fe2ca0a0e3d2a6c3d crypto: x86/gcm-aes-ni - replace function pointers with static branches
+71c061d2443814de15e177489d5cc00a4a253ef3 Merge tag 'for-5.11-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 fbfbf4b573b35375ed276fca42f05259fdc2bcc6 f2fs: enforce the immutable flag on open files
 450e17ea9b0b1af45cf29152f5e792bff29e826e f2fs: relocate f2fs_precache_extents()
 30e2028ab63e1690b3fe4faef261fed38b5ff311 f2fs: compress: support compress level
@@ -185,5 +221,6 @@ fa95f412e5839fb35ee604dfb13d0520b227f0b3 f2fs: clean up post-read processing
 028b04d0b84cdf4ee607cf9c0f4a1e2cbd1f42c7 f2fs: fix null page reference in redirty_blocks
 b21c46be11a056aa36fee5dc91ea43b92c984ff4 f2fs: fix to keep isolation of atomic write
 63b9fcb67ebd8c0c992b7f86dc1ccb4268b1d27b libfs: unexport generic_ci_d_compare() and generic_ci_d_hash()
+09098400da5820db0c0da74d1e05db1efe1d1304 Merge remote-tracking branches 'ebiggers/crypto-pending', 'ebiggers/f2fs-pending', 'ebiggers/mmc-pending', 'ebiggers/random-pending' and 'ebiggers/vfs-pending' into testing
 
---===============3820795645352949055==--
+--===============4204155156431689102==--
