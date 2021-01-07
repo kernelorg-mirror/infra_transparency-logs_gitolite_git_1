@@ -1,26 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 07 Jan 2021 09:21:09 -0000
-Message-Id: <161001126985.10721.15253302251396650658@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4189312342131810560=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Thu, 07 Jan 2021 09:59:14 -0000
+Message-Id: <161001355423.2648.16640177070354757022@gitolite.kernel.org>
+
+--===============4189312342131810560==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: mripard
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/net-next
-    old: 7867deab367e67062b458451f19862d8c116603b
-    new: 591d19bead3a1e6079d45a1533a2e987379b2545
+  - ref: refs/heads/sunxi/dt-for-5.12
+    old: 536f74a892e6a034e09a0d204dd2a3b3b02c5b30
+    new: 086b4f7afdeda24adabcb199cd23a5055b0cbe7b
     log: |
-         920be7ecd0a8294d1dc1f19d1339e8be27ceb780 Merge commit 'refs/changes/74/362074/1' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-         fbadd2cbf1f65a6ffcf25ee4f3b6e553ccdf2746 net/mlx5e: rep: Improve reg_cX conditions
-         50528a14795c442edae5c2131b64c9da72a87bc1 Merge branch 'net-next-mlx4' into net-next
-         11399f368ad9101d1be31976b5383756cbd2a6ec Merge branch 'mlx5-vdpa' into net-next
-         67a1f5bd30dceeb6ed4030c59e7c4c3766de065e Merge branch 'net-next-mlx5' into net-next
-         f3598cc50c4029c0851ca9eca0b4e4656110647f Merge branch 'net-mlx4' into net-next
-         8d5075998cab6feacfd79cf4913b44eba5088b58 Merge branch 'net-mlx5' into net-next
-         591d19bead3a1e6079d45a1533a2e987379b2545 Merge branch 'net-next-test' into net-next
+         3069a84fd67b05a3125e80cd7e2f7ea516421137 dt-bindings: media: Add Allwinner R40 deinterlace compatible
+         62de535663e8bf4a5442bb11de7e4926a00eb93c ARM: dts: sun8i: r40: Add deinterlace node
+         086b4f7afdeda24adabcb199cd23a5055b0cbe7b arm64: dts: allwinner: h5: Add deinterlace node
          
+
+--===============4189312342131810560==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1610013553 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sunxi/linux
+nonce 1610013552-7da35dc4b302d42af11ae761ba5709b48cd1cfa9
+
+536f74a892e6a034e09a0d204dd2a3b3b02c5b30 086b4f7afdeda24adabcb199cd23a5055b0cbe7b refs/heads/sunxi/dt-for-5.12
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCX/bbcQAKCRDj7w1vZxhR
+xcZcAP0fLvdPyJrjT2iL5jFcQl3xUnK4Jx00OgCRN7iY7LsMtgEAkRro7y1m8HSY
+5tVM4CiG7zWygy5WYKkcGm75Cpikugw=
+=sePZ
+-----END PGP SIGNATURE-----
+
+--===============4189312342131810560==--
