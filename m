@@ -1,47 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8039224534802146998=="
+Content-Type: multipart/mixed; boundary="===============0561120159348886626=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Thu, 07 Jan 2021 13:31:58 -0000
-Message-Id: <161002631850.26374.12462076590526002670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 07 Jan 2021 13:33:32 -0000
+Message-Id: <161002641204.26987.1990901992272647509@gitolite.kernel.org>
 
---===============8039224534802146998==
+--===============0561120159348886626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 2858b5b5efd2f4232504169bd0d7c14fb33d71fb
-    new: 43ebbd192571b221b975c0d94bda3bcf0d633338
-    log: revlist-2858b5b5efd2-43ebbd192571.txt
+  - ref: refs/heads/usb-testing
+    old: ed054e4e95d6cb0582f1283707ddb40f18d14bfb
+    new: 841081d89d5adf96759f2df50185de950f5d8694
+    log: |
+         4d7aae9f7a18f27ade0fc1d275f272f23529d6ba usb: gadget: configfs: Add a specific configFS reset callback
+         841081d89d5adf96759f2df50185de950f5d8694 usb: usbip: Use DEFINE_SPINLOCK() for spinlock
+         
 
---===============8039224534802146998==
+--===============0561120159348886626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2858b5b5efd2-43ebbd192571.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2aec4ef8f5e8d77f233b3a1318906b10d7f409ce ioctl_tty.2: srcfix
-a077147b0ac1563682f050a9d0b930b9f55aabce chroot.2: ffix
-30b0d8d97e5e49085e84dfd71093507cf5c79fd9 memusage.1: wfix
-3cf2958737d292a2e5205f0ed662d70f4e3c9187 wordexp.3: Minor wording fixes in RETURN VALUE
-855d489a7f90cfeaae45c55f80a65dc2135aaa75 Various pages: Standardize wording around setting of 'errno' on error
-f6a4078be5cf1248a561e89b1fb1f1fb61515f41 Various pages: Standardize wording around setting of 'errno' on error
-c112329ffea6c3ba5be9fc9bb47f285672d582e9 Various pages: Standardize wording around setting of 'errno' on error
-cb6a894ee762a910c738db925973718764a6c30f Various pages: Standardize wording around setting of 'errno' on error
-9862ec0c5ce526973b2b3096d2bdae4cb77630e2 Various System V IPC pages: Improve wording describing RETURN VALUE and setting of 'errno'
-7a6227d368371e6cb8a702ad001bd1da8ddfb6c1 Various pages: Various improvements in wording in RETURN VALUE
-89fc988bd5d940626b7e48af79c8c46958bf1c56 adjtimex.2: wfix (errno)
-a084d8168c701a4549bf61978c8ac21804c5e3f5 cacheflush.2: wfix (errno)
-2ae5c63aed4d63fdc0a8912e05fc2c7f21c49309 epoll_wait.2: wfix
-a8a93e8a5abb85dd261f2d973ddd4d333c479d2f sched_setaffinity.2: wfix
-e46baa444324a1740fae8f26a172268ce200d183 wait.2: Minor wording fixes in RETURN VALUE
-8c7307e8c6461cea18cd1ba8baf3e50954bb51f8 rcmd.3: wfix (errno)
-43ebbd192571b221b975c0d94bda3bcf0d633338 semctl.2: Correct SEM_STAT_ANY description
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610026485 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1610026403-bb443221f2d1627c376b2bf8c657060eb1754026
 
---===============8039224534802146998==--
+ed054e4e95d6cb0582f1283707ddb40f18d14bfb 841081d89d5adf96759f2df50185de950f5d8694 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/3DfUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PVcP/2yBOruQRvQKfNyMnpTm
+KfYRx6BgginwVHChVCvakf/Y1t+iOaa4bamv3ybouWh5ylwgoVsaAQPwHrdLEMgF
+mGZ8rG9pf10ZL2wZUUimFB9jmy964JpJvodknThdduzHpTxAJHrmAz8BEMe8IFXP
+7l9L6DJ5Y6+yB7WdqqZ7e9aJlbUmL7hIR9fzSeQBAph+S3xGg5vxwl+DQ+G+daBg
+nSp8j4ylTVGinniE4iaUoYuDoqrcyzQwSYcsI7HVeHy1A8Bh3YD7AE/5I4ofANM+
+UTBBBIwagWml7HMJuDXdqCVGhR68z3/MVOpbaBed/eBUm5P6iv8q6rv2m1xs9HJx
+lHu8iOudd8UOutG9/kVsRtrZw5yaJFztUtXW10LnYM+7UcQVOdFgUy2r88UvbMeL
+zMxZjGvDqUJCsMFKg+vq9ywwWJDBRgHrt6OKy7/efKFXIo8RIChgbkaVrOMLWn0M
+lRtqJx8LzIsYKw37hzapmBYw8dJBZLPJlBkoe0V5jd97GBHRyZWQ+O964rt5o57w
+/Y7ciaz+sGFfL0AL9GkRtjIpM3fqCmijSPc5/89c03tShy7jWP2UCBWg5qD/3nOi
+cMY97xaSN3U+XziABj1cZMIbHNatu/oj0f8RpdZ2XaImk9kfKY8eZulmj03z+ul1
+H5DSzL7w7IjlKnilVPzH30Jb
+=4Sd1
+-----END PGP SIGNATURE-----
+
+--===============0561120159348886626==--
