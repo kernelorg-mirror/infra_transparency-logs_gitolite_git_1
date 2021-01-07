@@ -1,28 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 07 Jan 2021 20:00:40 -0000
-Message-Id: <161004964024.25245.16752773257822752186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 07 Jan 2021 20:00:55 -0000
+Message-Id: <161004965506.25448.13430498627298586485@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: a41db6b750d512f78461da25c0b74fc86547b49a
-    new: abe845f315b9ca1662700ec8dfde04601b7b9a6d
+    old: f2bcc880cc1fe5f7a0db96e3bf9c5d81d44ffa3d
+    new: cd66a1589b7cef06ba5d272da342e11d60357d2d
     log: |
-         abe845f315b9ca1662700ec8dfde04601b7b9a6d Merge remote-tracking branch 'asoc/for-5.11' into asoc-linus
+         cd66a1589b7cef06ba5d272da342e11d60357d2d Merge remote-tracking branch 'regulator/for-5.11' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: a062942f27bdcb89cee28eec8550b8907e9e1e48
-    new: daefbe93f9cfcf9e1752f2d9d825ce8b539c28f7
+    old: 05d2be63affc55401ec4ac1ae846fba27c204542
+    new: d2725f3a363fb30244e081148f573d8e2a5fd2ec
     log: |
-         aac568269bd80a510758ec5d5744b1a2eea3f049 ASoC: Intel: bytcht_es8316: Remove comment about SSP0 being untested
-         2c1382840c194533399818d0ed39dfc94f906187 ASoC: soc-pcm: disconnect BEs if the FE is not ready
-         abe845f315b9ca1662700ec8dfde04601b7b9a6d Merge remote-tracking branch 'asoc/for-5.11' into asoc-linus
-         daefbe93f9cfcf9e1752f2d9d825ce8b539c28f7 Merge remote-tracking branch 'asoc/for-5.12' into asoc-next
+         3c42728c18d093e8951ad6caf7daa89fa2f54702 regulator: mcp16502: lpm pin can be optional on some platforms
+         8aad7fabce6ad9491cc7d23f85d9798a4a0ce399 MAINTAINERS: add myself as maintainer for mcp16502
+         eea0b4e213232b28a25de5b88af9e25667e8d2f2 regulator: mcp16502: document lpm as optional
+         907dfdc945aa3d183cdc6a81b963ee3b42ece306 regulator: bd718x7: Stop using parent data
+         90fd840e72770a37f677d4bc9c53f8bf018cd45d Merge series "regulator: mcp16502: make lpm pin optional" from Claudiu Beznea <claudiu.beznea@microchip.com>:
+         cd66a1589b7cef06ba5d272da342e11d60357d2d Merge remote-tracking branch 'regulator/for-5.11' into regulator-linus
+         d2725f3a363fb30244e081148f573d8e2a5fd2ec Merge remote-tracking branch 'regulator/for-5.12' into regulator-next
          
