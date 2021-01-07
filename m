@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2617562527102535591=="
+Content-Type: multipart/mixed; boundary="===============4784136676178242314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 07 Jan 2021 19:25:22 -0000
-Message-Id: <161004752269.2547.2618788183510796169@gitolite.kernel.org>
+Date: Thu, 07 Jan 2021 19:25:55 -0000
+Message-Id: <161004755562.2808.1036457851075417140@gitolite.kernel.org>
 
---===============2617562527102535591==
+--===============4784136676178242314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 477dfdccfcae4665f073260446199933369cd50e
-    new: 47771f1715bf05b69b040bf784a2607a5dc13c62
+    old: 47771f1715bf05b69b040bf784a2607a5dc13c62
+    new: 59b26d2e96c473b7b65cfe19381444d034e91715
     log: |
-         13613a2246bf531f5fc04e8e62e8f21a3d39bf1c misc: eeprom_93xx46: Fix module alias to enable module autoprobe
-         47771f1715bf05b69b040bf784a2607a5dc13c62 misc: eeprom_93xx46: Enable module autoprobe for microchip 93LC46B eeprom
+         59b26d2e96c473b7b65cfe19381444d034e91715 bus: fsl-mc: add missing __iomem attribute
          
 
---===============2617562527102535591==
+--===============4784136676178242314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610047595 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610047628 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1610047513-4485dbac728627751801d377d9702a2e80abac8c
+nonce 1610047546-4d067b637be0daa35507c94f0a41f42c2e304517
 
-477dfdccfcae4665f073260446199933369cd50e 47771f1715bf05b69b040bf784a2607a5dc13c62 refs/heads/char-misc-testing
+47771f1715bf05b69b040bf784a2607a5dc13c62 59b26d2e96c473b7b65cfe19381444d034e91715 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/3YGsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QRwP/jJg/23x2KtCZ/mB6IfU
-rCpo5KvhqmxJZLqIebNIEBCdXgQGrIA+NoN8usTELzvH9n9eFXkmy0+sdm0+R9zT
-909qXXHJuSmDXfzoiguFeRu8V+1jjJDmWnFkSJKb+AEP/1aNl84OwoBq5/rGFUSN
-Ch8FB3KHfuha9JxAUCinmKSKdJEaxhoy08QhUY4VhH+InoKOGdf/6uA53jFTGl6X
-yVkxHms9vati26Lwtd/e+G8eGyanwl82ADCxomv0w7b2iShGWSRFyEuczUnZOKUj
-ZorGNuzrrj8CJP/7paPmckmSiA0WKlcRge8UbLWSdGYv3OwCQoebAMBs8JZ3ttuI
-VgHUWEy73pWgqWuXEos74U7eiHNcu1PtD3hTjZ4lhICwYdsyeLfZhG4so8Uiv71/
-Qs4eTAsuVxZ+Al88KFJqT23QiFK5vmFcj1i0auW8YsdOhSbc7NQZZytE8T0ntsFF
-Tyj2vfaPlEKSxwwLPTp8ZE4Iy5Dhe/9IApD6E9G2FgzegGpX7pqjNiTRbhHdHWb4
-CBM/5UsmKVbPVW74DR8NbC7wnTS7VLvojUEcP8l3T9Z00tFc1HXSLBrlNY3/KI2c
-lC6gjL7zJuZZea4NJS+yNFNRF8DjuX49WJi1FlnoGkImNUE2kbEDSmSLBTqz435a
-vPQMgJumtXZWtfyc5ihewVu3
-=anMK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/3YIwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+krcP/RcKvKh+9IA50QoVI+Xl
+AOrbUY1JAQa/x0oW+/SAbjAnjchDvzkTrHMaCPrHluTvL0M4AMZ4z/wbJzy3vRQc
+h9Cp8RwBbV4iVsMattDR7hwb73b/HMXlmNe5sljCakHWv9lQ5tKC8mn+WW1ogBXt
+ELreTQc3103G38E8n50FKh6aLkptV/mIE4l7/egO8pm60a5R/dSgpck+DlnuaOPL
+fIMH4etv/xixvLBN4yzpfwIrRWcB2+pCARxEA2ISNBzxABa9K55k6dw3IxVM0B5I
+O1ZB4piY2FYL20PFX5RbLk7wj933KmrBCeAOsV6yHXp/jBdyF7+P6Xviq4+8ZX2d
+blVJnu3HnrLty6JMzmyVqv2BZOtvH6LA5PwDYfNErI1nlF+eC2eMCPTgYqa1YYE0
+FmiMlRE7m4G4sf3NWEiyberJRjH/munVY/H1PJ1k4r5uYCGmkqVdUgd8WO7WnqgT
+GjboH3q9ynpYMRGdTVB9oPM4aiHB8VenhtoawykwpSXn/x6WZ8FUAYM5o1E9zPr7
+P0/6RgfTHeRLQgsMj7qeJanh604CiNSCG1+0s7nY2lv0fGzlyniTiMT4NOmPtVS5
+O7QCDayCjsPnfvF15ST+dEeK7sV1+Lacr6z6gB5qOcDSw5XvsJTp1375kI00MWqi
+nKJ1GBkRteNQKYVvYPnfpByL
+=umjy
 -----END PGP SIGNATURE-----
 
---===============2617562527102535591==--
+--===============4784136676178242314==--
