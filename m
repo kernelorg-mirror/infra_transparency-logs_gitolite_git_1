@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1060838664382971721=="
+Content-Type: multipart/mixed; boundary="===============0364259499128902518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 07 Jan 2021 14:24:38 -0000
-Message-Id: <161002947891.2396.2572552303975106496@gitolite.kernel.org>
+Date: Thu, 07 Jan 2021 14:24:39 -0000
+Message-Id: <161002947949.2441.2083180456786637183@gitolite.kernel.org>
 
---===============1060838664382971721==
+--===============0364259499128902518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: eadb23c13e183ede8b402cad7ada7155b6c60af5
-    new: 500175edbc94cd7f7daa6c79b70d033d301f54bf
-    log: revlist-eadb23c13e18-500175edbc94.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 5b51add341df8426e39709c1f9fb79cbedf87e17
+    new: 8776a2c2069deab5c4d73139d5745557b875a0ed
+    log: revlist-5b51add341df-8776a2c2069d.txt
 
---===============1060838664382971721==
+--===============0364259499128902518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,62 +30,66 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610029559 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1610029476-8474b2166810e2ad3aa5a906d39c327168c420d6
+nonce 1610029477-32d9e51f554c54ada5f57d86e1e95ceb350e0663
 
-eadb23c13e183ede8b402cad7ada7155b6c60af5 500175edbc94cd7f7daa6c79b70d033d301f54bf refs/heads/linux-4.14.y
+5b51add341df8426e39709c1f9fb79cbedf87e17 8776a2c2069deab5c4d73139d5745557b875a0ed refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/3GfcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q+0P/itEXMVQLdTq1iIqE42C
-By4F8ddRd6lUmG18CI2o9SN2taf81yUzE7eA+K6mO5zAUXs5ccMuUKuKaWxbNuP6
-sZEMziuGAVlxLct1bav1LLb6jLib7fD3jnIDv6LhhwhHe6sAlwvQK72In9gIuNzS
-UHT48N5rCsYpFpfGy5Jdz2qPfCG1/uSIyIzta8KM3QCNV2ySl8PFADM0+X1Q92Bc
-ZkVm2Z8URyI/lvRwXdO8gvE5h6Svt3pUdY94BSg+pFrbwfgqINfiFYqBePIAgSkK
-EqkgDSpRXKvN1KAetmm4V2TmhcBbiuMkvbMCZP7xEzbi5wT7oFJ9LxSywnMd1dBo
-nh8crtoXo+DSzR78X47ijD0n+w7x/tQ4P91y6dRRtDGeziiWU4HHWERXOrT7KBF9
-fzDRlwRWZhTV0jbdfYptjbb+SojasLKj+HVcA8ECxMMPBvfTNsif2Z4tg+I0nqYe
-qp2hv7X6VptbrCXsYTGlsHOtkTN4raBmWhCBXal6524FEYhuBm8xkwwuAXPk217y
-nVW3wlKki2h5nJyKk1vJmM8H+4PM1AYPJ6n+PBurb7Ttsr6faVO2GNB51wjjtLS4
-+3ldFUPgNjjcqImzfTsnJF0eHq4TIyI7/0CawCYhT+AWomXVsu4N2VBjWfn0mCMp
-EsIljR4feiGMi1MrnQWqvIJE
-=gPr0
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OdMQAKC5/4TK3DZYJWl2LYcI
+jPxuyzUwvPqYgs9tZu/vr7jl1UZ2G4BffcCUW9FtIa+w/FWYI7Mcmssm3PS+tp08
+rAdZkTfUFqMlijkaU+eMC//0xVWIrmZnOVnKIaPLCkh4Tu6cyfFTiOrN7GLB86C0
+gZVD4mHrlIUJCM/Vu0QzrObQHPauzx5TMhLMVeOIVzFpr0PLHCWAFiKVCtXmJ8Bu
+nfcICXI8Le0vOUW+pKpr+Ntvw7thwxhM+gB4JDNL2BfGC3mqbZulrJT2ggmDoFlw
+CwlMnNMMijKiT+6FqSOZZCzv4wRPS6NI0px/aefKllKbEZbjOfNaeWSLoxTe2Ggu
+8JqGJP+WwtLkVNi2/7xGIOh0a1hCG0pCgm9tvA3fp6KIfcmhigLLSWG93tNZ39dv
+NC7TwoLCRRFvkXlrnBL34PDr8d/sp4E12LZwrc2EW3Ht4vF2Z50yrI3QY6aJSBZS
+KFMTpSITsE7+mpChPaQ6wvpot2yRc9GGpm+Fm+KNKyD07fRVOzVyaVdjQPjq7AXN
+pCpNRdXFdygFIgdP4Oapb1qmiGNNbTC0w66SipV/4lCWeIC8MG95sAn/7xoaahuH
+wxJHGvtRau87lc1wCoNwpcq06eLNhnkubiWXDjcthCa5Wuw93NjnTTc/JRNo8iKs
+SsATXc/FBbDl8FXSTxHnfs5I
+=8i/a
 -----END PGP SIGNATURE-----
 
---===============1060838664382971721==
+--===============0364259499128902518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eadb23c13e18-500175edbc94.txt
+Content-Disposition: attachment; filename=revlist-5b51add341df-8776a2c2069d.txt
 
-843cab4695872ac02b06dd85ba6314eb63dc0f33 x86/entry/64: Add instruction suffix
-311e82f062b615c4c92b0e96a6d2bf299e1cf11b md/raid10: initialize r10_bio->read_slot before use.
-60c290e3bc8acbb18260985d4a62ee0f3c9e1e7b ALSA: hda/ca0132 - Fix work handling in delayed HP detection
-42bd1332a66820e3e7ffac8510e88c2751d7ec48 ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
-4b558f1b9f26788086f93a2dc4f5f7757fa9d60f ALSA: usb-audio: fix sync-ep altsetting sanity check
-8890fa143da208af48d306b78225d299f26b65b4 mm: memcontrol: eliminate raw access to stat and event counters
-3232ad06cf85330e372a32f3289ee25a053d7899 mm: memcontrol: implement lruvec stat functions on top of each other
-0aacf51d8d1b026d8d7880f0e27f041a862266e6 mm: memcontrol: fix excessive complexity in memory.stat reporting
-1ba51494cc6280084d781a577c3a67f762b4a806 vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
-d0b4065254aa1874b31b1cacc813bb256137ff58 s390/dasd: fix hanging device offline processing
-65b24538084cab6dd16050034bf9b234543fc8a8 USB: serial: digi_acceleport: fix write-wakeup deadlocks
-0635f62116ced88e22845276cc78de1ec50cc8d7 powerpc/bitops: Fix possible undefined behaviour with fls() and fls64()
-b6d7d92d5d622f3b4061be738f760dfb4d7d05f8 uapi: move constants from <linux/kernel.h> to <linux/const.h>
-8f4e14352940377c8047b646390e0cb3998d67a2 of: fix linker-section match-table corruption
-17c3ab04173e0ca6b79278c989c3edeb38d28426 reiserfs: add check for an invalid ih_entry_count
-9d7f26dea9c9809886f9e5cf11a0e7b6485d8030 misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
-6079d3a47fb947b342a3230e0386c6026d9670a9 media: gp8psk: initialize stats at power control logic
-43737830eb0c91d8e66b231fb86e2baed0091c14 ALSA: seq: Use bool for snd_seq_queue internal flags
-4b19a330f51b8348a78101d132198b5981e6f9fd rtc: sun6i: Fix memleak in sun6i_rtc_clk_init
-ae22d4c67c15ec562ac530617cffefa28b4fe3ad module: set MODULE_STATE_GOING state when a module fails to load
-f4a105762a50dbdfaf57a7fa7ef4f5a1f73fb8bd quota: Don't overflow quota file offsets
-a866ef3a924c16ea32127b772a09790189830e08 powerpc: sysdev: add missing iounmap() on error in mpic_msgr_probe()
-b85cd4abd2c9fc4548a97bbdfd6e99c8dbb79ae0 module: delay kobject uevent until after module init call
-0cf5ae3eee6eef69c96f5901757fc2a01fb596c8 ALSA: pcm: Clear the full allocated memory at hw_params
-8a84de1fdbe9bb465c9472131fc53165037a5177 dm verity: skip verity work if I/O error when system is shutting down
-7f1315c0e4b131bf3595df610f35cf7f1f5c9261 kdev_t: always inline major/minor helper functions
-3ae9dd46d8da0193784908b0efcf1b14dfe4cddd iio:imu:bmi160: Fix alignment and data leak issues
-7d15c72ac731fdac5f2f676f97d54a2c64150bb8 iio:magnetometer:mag3110: Fix alignment and data leak issues.
-5c70ab2178ea965258503d6c7b1889b815a59603 mwifiex: Fix possible buffer overflows in mwifiex_cmd_802_11_ad_hoc_start
-500175edbc94cd7f7daa6c79b70d033d301f54bf Linux 4.14.214-rc1
+d3e2cc8a7c01045b2d79f3ea771dfe6b1d4bbcbc x86/entry/64: Add instruction suffix
+740189e7e9ca6d788ebb4aac4e8436d55fa22abf ALSA: hda/ca0132 - Fix work handling in delayed HP detection
+a6b1c0600d9f71827786c288c784e07287344d50 ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
+44279570ca77f8b552180f1354287a9e438055a5 ALSA: usb-audio: fix sync-ep altsetting sanity check
+5e1cc34961ce02b995dbf8cd64602da41b2b9e58 ALSA: hda/realtek - Support Dell headset mode for ALC3271
+4b3a57d2a185d6b130c8b810d0273b188f73b84f ALSA: hda - Fix a wrong FIXUP for alc289 on Dell machines
+8fdd41892526b8cf147407c8263344dd3fe5f26a ALSA: hda/realtek - Dell headphone has noise on unmute for ALC236
+4b299be7aa771913edd301f33fe3c9a602e60290 vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
+ce39ac75f49fac2f7c9bbcb8191dd602256de55f s390/dasd: fix hanging device offline processing
+d0553c91bbd2cff6319c6a6a5b3bb1eebf58a565 USB: serial: digi_acceleport: fix write-wakeup deadlocks
+e3dbdcd999cd2c293a48ea51c1dc8eb588199b55 net: ipv6: keep sk status consistent after datagram connect failure
+aa34f291cfc6bf5f0615650f7152bae85c40a8e7 l2tp: fix races with ipv4-mapped ipv6 addresses
+bad7dee444738e1e87d29521fe74b45b6cb8276d uapi: move constants from <linux/kernel.h> to <linux/const.h>
+5741057df138291af157e323e1f2fed6a72ca4d3 of: fix linker-section match-table corruption
+cedb0be7322dc2b5ef869afdd8d408b597420106 reiserfs: add check for an invalid ih_entry_count
+949e23a644a6ccd82cc391a0e8c3e4765d26eb0f misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
+1b336d7e92aeff3323f7ba26b5ab6e554525507f media: gp8psk: initialize stats at power control logic
+cb9d35b25b061732aadeb9eac496badf931b6faa ALSA: seq: Use bool for snd_seq_queue internal flags
+2a4c1c7a47b52fc86a4e25a0a3853b1cef7b0592 module: set MODULE_STATE_GOING state when a module fails to load
+6dbd0493f484484b3738e512552fd33e08006135 quota: Don't overflow quota file offsets
+c388ada3c7d31c3cb2e413df0dc931d88f82e71e powerpc: sysdev: add missing iounmap() on error in mpic_msgr_probe()
+72b7b87fec6f01f1702a9553406822161b9dc21f module: delay kobject uevent until after module init call
+834030776ac7a8d2dfb9cb9e49c058209c54cd4e kdev_t: always inline major/minor helper functions
+6670e5bd469b63924efc38751ad21c37c91f3fd1 xen/xenbus: Allow watches discard events before queueing
+8b02e82597672325fe5b6c715540564e2a34630f xen/xenbus: Add 'will_handle' callback support in xenbus_watch_path()
+333f59e0a2f2f46d39d2fa7380202ec3c0f7be89 xen/xenbus/xen_bus_type: Support will_handle watch callback
+217775cb76fee44f5be7bb019782aaf64de0b481 xen/xenbus: Count pending messages for each watch
+e8fc9c8c0df0a3efb1e23f7b475450282b753c52 xenbus/xenbus_backend: Disallow pending watch messages
+3f58e117bc38ef4168f7fd8fde573fdf8b2eb8c0 iio: bmi160_core: Fix sparse warning due to incorrect type in assignment
+5e89ca6b622839c7407677984be9cc2efc46b2bc iio:imu:bmi160: Fix too large a buffer.
+b3fbd9ef066af8fb8813045b0b9e5c8fcb2bb8d4 iio:imu:bmi160: Fix alignment and data leak issues
+e8f23b079e30bea03e379b2f32f15a971077fb74 iio:magnetometer:mag3110: Fix alignment and data leak issues.
+169d3c8c1187debdcbd5e92eca26bd21ce36a837 mwifiex: Fix possible buffer overflows in mwifiex_cmd_802_11_ad_hoc_start
+8776a2c2069deab5c4d73139d5745557b875a0ed Linux 4.9.250-rc2
 
---===============1060838664382971721==--
+--===============0364259499128902518==--
