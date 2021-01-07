@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7029071481123233419=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 07 Jan 2021 15:33:37 -0000
-Message-Id: <161003361790.13846.7068171756971054590@gitolite.kernel.org>
-
---===============7029071481123233419==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 07 Jan 2021 15:34:29 -0000
+Message-Id: <161003366972.14179.3665687424087254098@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/tty-testing
-    old: 33d4ae98859873ddd49e22e4ca724387548b3d89
-    new: c9cd57bf57fd450972a7802b9f09a680dbb4634e
+  - ref: refs/heads/net-next
+    old: a81f51839a134240f779a9307e7d745cf6723cf7
+    new: 12066a59ed793e2056f0705cf4851e8a0cdb3eb1
     log: |
-         c9cd57bf57fd450972a7802b9f09a680dbb4634e tty: Protect disc_data in n_tty_close and n_tty_flush_buffer
+         0b6e5a40003c6cfca20567e7279b8c65b180fccc Merge commit 'refs/changes/74/362074/1' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+         e3883fb8408a8b8bdae3ace7f723df0396415677 net/mlx5e: rep: Improve reg_cX conditions
+         2c508e1bf92660ad99a26a30dff85100981b046c Merge branch 'net-next-mlx4' into net-next
+         c2c1104a50bcd4b13e28cd667cf92e2bd6d7a19a Merge branch 'mlx5-vdpa' into net-next
+         bb8c27d90dc0fea7bcf8b72c77c6abba15a5dc86 Merge branch 'net-next-mlx5' into net-next
+         a8a4cef2cb4797d2edd12dd91f20d91de6f036cc Merge branch 'net-mlx4' into net-next
+         04fe3304073becbd656af9ef9d7199f917b3bd62 Merge branch 'net-mlx5' into net-next
+         12066a59ed793e2056f0705cf4851e8a0cdb3eb1 Merge branch 'net-next-test' into net-next
          
-
---===============7029071481123233419==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610033691 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1610033608-5564ed4ce530e24bee78c7d76e92b6ae857cc2df
-
-33d4ae98859873ddd49e22e4ca724387548b3d89 c9cd57bf57fd450972a7802b9f09a680dbb4634e refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/3KhsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EzwP/0t9oWvunWa1Oy8zQinV
-x42ZMfLeWhQy6XU+OfLb5qh3ZdwAbLiKhYzOlJtyWXGeS2saZ/nByhuEGanVCb84
-qa9rEXjNDYaOTT56AtQ0epQg10SdnHIrL7XLtrGSqew9hrjj4XZgT77YA7b7QHVh
-HNE8X6qfTAd3NZkz91Mb2g16ANtN/DW0xt1poi7mugcIysYd8vKVvpiZZM/1U3L2
-828YW/Ex0LdZGz4e+q6lP4sjNN9Iej2iaWdeBIYXMfBCRK22XkrOCUq7LgSWwPZG
-dbTITdPcRAQszjuA34o4fL2qb2yCEkaotJCgNrvkpk59IEjBnTEi7U36fRHLTUal
-pSAYqDMETramf0gm8sgyYB9WIqYCwGKgSrXgEKpwUxy4obTtnPcvB5LMpRN3+fJR
-jpmxfHZJzNRSu8YfVtHNFmU4+drHquNKD5k3dXjYfFtY6c8e+Sc/E8kk0cv5vZ/e
-qMgr/wFs+P+y/fABGLkSH2QA2JqUSQpwi1vN1CGV1fJShikIYPq1tUtGoEb/i4aV
-YXoRFxhpJJ5sQ5+8w/ATeeEXQe4HXlTd310cYcitYv8IZoF8IiPmBijRkSyoQNyO
-M42aEGWY9mta5QA71KwhSKRf+gu91xIVopEUVqAm56/SDC6KGOwZzioJV5Zvdd7A
-1qpqxIBKtpy2AvEjL2MTrJc7
-=Uevv
------END PGP SIGNATURE-----
-
---===============7029071481123233419==--
