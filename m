@@ -1,105 +1,169 @@
-Content-Type: multipart/mixed; boundary="===============4686563527899162583=="
+Content-Type: multipart/mixed; boundary="===============4635016737675490786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Thu, 07 Jan 2021 13:03:51 -0000
-Message-Id: <161002463165.21797.13220689224889265822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 07 Jan 2021 13:06:55 -0000
+Message-Id: <161002481551.24132.9530789857040161334@gitolite.kernel.org>
 
---===============4686563527899162583==
+--===============4635016737675490786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/queue-next
-    old: 0c3defd1b9693be2befc01bd9f64f44792cb3c62
-    new: 56ca750ce26f6a0ba1c00e10e72e344fea098ba8
-    log: revlist-0c3defd1b969-56ca750ce26f.txt
-  - ref: refs/heads/queue-rc
-    old: ae21f55f2b939d2cd4b79971b0bd89f225eb539c
-    new: c8d34b8d2ad46a21b96e2a0142215d03c8386f74
+  - ref: refs/heads/queue/4.14
+    old: 9affacc59660e13b503a9b201637d1ec659c9ded
+    new: 3e4dab4d35b624275fcb908e6302d967f3280443
+    log: revlist-9affacc59660-3e4dab4d35b6.txt
+  - ref: refs/heads/queue/4.19
+    old: 6cf7f7d976ba5c969bb7fb5e958279168ebce5b7
+    new: dd0fcf01692aaad345af61e2ace45a132c5d65e7
     log: |
-         c8d34b8d2ad46a21b96e2a0142215d03c8386f74 Merge branch 'testing/rdma-rc' into queue-rc
+         f1b2b04621cce15373ea0bed2855b52631c030b9 Revert "mtd: spinand: Fix OOB read"
+         ba81b15c1c6ca80e590e147a1a0c5ed5f8b7a0ed dmaengine: at_hdmac: Substitute kzalloc with kmalloc
+         5af2b4363bd3b6fa4553635af36af46cf8f45573 dmaengine: at_hdmac: add missing put_device() call in at_dma_xlate()
+         4e8b81db9ed279d4214bfaa2f92930131f9142bc dmaengine: at_hdmac: add missing kfree() call in at_dma_xlate()
+         d96fa3d17e2df015d6fcf26b1a77a61386d09ce2 kdev_t: always inline major/minor helper functions
+         954ab9cd15a0e94ea918a1f52f3d8fe0c2d716f0 iio:imu:bmi160: Fix alignment and data leak issues
+         dd0fcf01692aaad345af61e2ace45a132c5d65e7 iio:magnetometer:mag3110: Fix alignment and data leak issues.
+         
+  - ref: refs/heads/queue/4.4
+    old: 19254c4651be7370c1ac587a1370f942a83c8dcd
+    new: 898db05cb2c2b10573d9e1ca4114d36bed86da9b
+    log: revlist-19254c4651be-898db05cb2c2.txt
+  - ref: refs/heads/queue/4.9
+    old: 897479d0e61440c143534a2dde91d2c919ef7b18
+    new: 9f03d138aca069bc8885096234cf07372a62cc96
+    log: revlist-897479d0e614-9f03d138aca0.txt
+  - ref: refs/heads/queue/5.10
+    old: 7e906e945acbda41ebf5143a76338c730ba4228a
+    new: daba7fde83c29efc5dcb28e0c7e04c60b4c67d56
+    log: |
+         91c14170c270bc3793d3b2a1a1b986f17ebf3b5e Revert "drm/amd/display: Fix memory leaks in S3 resume"
+         5f13518607249c51558e1c450afd096ed03397e8 Revert "mtd: spinand: Fix OOB read"
+         d6d3898bc4e2d269a0bafcd2d38e27c31d2b54af rtc: pcf2127: move watchdog initialisation to a separate function
+         9c87d37f645c40ee9cf8c04b7f1cfdbc8dba8020 rtc: pcf2127: only use watchdog when explicitly available
+         f95f2b57eb7bc5f05e00626877cc117ad9314b29 dt-bindings: rtc: add reset-source property
+         395be5b67ff902dea8f1308fca3e9e387cac1a5c kdev_t: always inline major/minor helper functions
+         9524ddada56a69c002169b930137d77b56e88555 Bluetooth: Fix attempting to set RPA timeout when unsupported
+         697b059646df99819a4adaf91180899ef3c0840d ALSA: hda/realtek - Modify Dell platform name
+         daba7fde83c29efc5dcb28e0c7e04c60b4c67d56 ALSA: hda/hdmi: Fix incorrect mutex unlock in silent_stream_disable()
+         
+  - ref: refs/heads/queue/5.4
+    old: f46d498527734b6b11cd6eece9b70e6d0ec408ed
+    new: e91f6eb9254c8a1a48fe79b86ef652efe4a01892
+    log: |
+         9b10489a4accff5a4db3d4d7e17153d3f0cf5c45 Revert "drm/amd/display: Fix memory leaks in S3 resume"
+         8adcdb6aea7e63d36249bd97c6d3b11f0e42b306 Revert "mtd: spinand: Fix OOB read"
+         484e178d518d53db0ce0564de0e56eb33a8ddb80 dmaengine: at_hdmac: Substitute kzalloc with kmalloc
+         4cc5d5abbfdab819076729dd94eca1a00f830211 dmaengine: at_hdmac: add missing put_device() call in at_dma_xlate()
+         1141737b8b83823783e13b4c8b24aeaf2d2b5be6 dmaengine: at_hdmac: add missing kfree() call in at_dma_xlate()
+         3deb9cdc3d4af5ce17bb30c179a0b173df050f9d kdev_t: always inline major/minor helper functions
+         e91f6eb9254c8a1a48fe79b86ef652efe4a01892 iio:imu:bmi160: Fix alignment and data leak issues
          
 
---===============4686563527899162583==
+--===============4635016737675490786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c3defd1b969-56ca750ce26f.txt
+Content-Disposition: attachment; filename=revlist-9affacc59660-3e4dab4d35b6.txt
 
-2d93a5515948e719368acc3942bc3854758451d6 net/mlx5: Check if lag is supported before creating one
-261090b785e72b6336e09ebc70135188a0e6de14 net/mlx5e: Add missing capability check for uplink follow
-a260c930c6696fb93e1425cd8c548c2c3a5bd7d1 net/mlx5: Use port_num 1 instead of 0 when delete a RoCE address
-212b9ef2821d6e708fc01469920d225718b863b3 net/mlx5e: CT : Rename shared counter
-02d1678c3c459a55d905c0e0b1f9d91a7ac342c7 net/mlx5e: CT: Use per flow counter when CT flow accounting is enabled
-e8c3cc2d20c70822aa6693cdddd9d62ca0339987 net: ipv6: Validate GSO SKB before finish IPv6 processing
-3e29114adb6262f3730f4e3ec89801a3693a5062 net/mlx5e: Fix SWP offsets when vlan inserted by driver
-135ecdbe08e731a929995d339c774c4cbe5ff8af net/mlx5: E-Switch, fix changing vf VLANID
-86467158a8fd616f4fac6c0faea88dd825dd2250 net/mlx5e: In skb build skip setting mark in switchdev mode
-4828a2f2c1f94b05e543d293f9ca4940b93f953e net/mlx5e: ethtool, Fix restriction of autoneg with 56G
-cb7ef02337eb6fc48da0f6431b5e72ea1a971ebb net/mlx5: Release devlink object if adev fails
-4bdba39b703acbe5d0094675a71f736d386fbe96 net/mlx5: DR, Add infrastructure for supporting several steering formats
-75699246a01fa90587a8fc83ff0dffe3288cb91c net/mlx5: DR, Move macros from dr_ste.c to header
-5212f9c65a472b549db98ac5d45c851f60b9b357 net/mlx5: DR, Use the new HW specific STE infrastructure
-d65e841de80375372f9842ed71756d3b90d96dc4 net/mlx5: DR, Move HW STEv0 match logic to a separate file
-b7f7ad1846f699c757a9fad915de97cf9a4008af net/mlx5: DR, Remove unused macro definition from dr_ste
-7863c912e8a07b9431fd6d9a9e371da47cb0f308 net/mlx5: DR, Fix STEv0 source_eswitch_owner_vhca_id support
-467790985d2d7fd16a64a262578c2575d905e648 net/mlx5: DR, Merge similar DR STE SET macros
-dd2d3c8d206e1796b384e438d1219f44f4cbd5c2 net/mlx5: DR, Move STEv0 look up types from mlx5_ifc_dr header
-40ca842c2b5bd08cf089c9f5e617968c5a0a001c net/mlx5: DR, Refactor ICMP STE builder
-64c7894218b9e7b0dcb93478f035c4178e5b348f net/mlx5: DR, Move action apply logic to dr_ste
-6c1f0e4df858dbdfac93ffdfbc50f66d3950a50d net/mlx5: DR, Add STE setters and getters per-device API
-6b93b400aa88e94f253f03e6095cd560854a5268 net/mlx5: DR, Move STEv0 setters and getters
-8f9a822e596013c1c37d24d010d1b39012d3e1d2 net/mlx5: DR, Add STE tx/rx actions per-device API
-ad17dc8cf9107e6513632fc61e34e0a1ab9a376f net/mlx5: DR, Move STEv0 action apply logic
-3ad5838ffb36004cdf30715ac23f7452f293fe96 net/mlx5: DR, Add STE modify header actions per-device API
-4781df92f4dab5ca6928390c3cf4bfba9730a526 net/mlx5: DR, Move STEv0 modify header logic
-be9a5af96e6a84c3b413594cc3d4c481cfc75d3c net/mlx5e: Fix two double free cases
-fa8ab53c07aec90f904f72a7bcc5f0c08ea5179e net/mlx5e: Fix memleak in mlx5e_create_l2_table_groups
-38d26b244367e84ed657ac4f5093ae9e71c8a7a2 enetc: drop unneeded indirection
-3c7df82a63d8c81ca30737c397ed59b034a558f2 enetc: don't use macro magic for the readx_poll_timeout() callback
-652b5dba32059748c88369cb7e75685b37185f5d enetc: drop MDIO_DATA() macro
-76fa3ce9d45f2b945ace0ae1ff6728305257473e enetc: reorder macros and functions
-3ccdcb79226d6c98fe7bb2d76153773152576550 Merge branch 'enetc-code-cleanups'
-c134db89a44bdc86c7b0451095d6ba328a7c1748 net: mhi: Add raw IP mode support
-2b27748f4a933dc772303dc8ded4e51a8d78b108 net: wan: Replace simple_strtol by simple_strtoul
-520ec34385d57ae18ec034ddc38b4b3425b2742b net: tipc: Replace expression with offsetof()
-5b34af861f0b4c61254ba6cf0aa295b520a26fc6 net: wan: Use DEFINE_SPINLOCK() for spinlock
-447d871a0d08c20bf2a7573065e1fa08ab79c6df net: usb: Use DEFINE_SPINLOCK() for spinlock
-1454c51d1ec1277a54505159c5de62be0c2a2597 net: ixp4xx_eth: Use DEFINE_SPINLOCK() for spinlock
-48b219a2621497f192a5f39f91f5eff4184754ec cavium/liquidio: Use DEFINE_SPINLOCK() for spinlock
-c75857b055561e356c2be06802e038c282746aca net: dsa: sja1105: Use kzalloc for allocating only one thing
-33dbcf60556a2a23b07f837e5954991925b72fd2 bnxt_en: Use kzalloc for allocating only one thing
-5d4caf62087db79e446862dd0d94698511ae2714 liquidio: Use kzalloc for allocating only one thing
-8a57965ef33d280cef25b75c707857e9977b04f5 iavf: Use kzalloc for allocating only one thing
-da2c3ee13e184fea1121eac185e4bfee11a30303 octeontx2-af: Use kzalloc for allocating only one thing
-db471ed90f0fb5897c1c18c50905c3cf9e968672 Merge tag 'mlx5-updates-2021-01-05' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-8407b23199b073249fd2056ec18d7cbb74a47534 net/mlxfw: Use kzalloc for allocating only one thing
-8dc879a1bfe0d710811b24f72b0664f52097673a net: kcm: Replace fput with sockfd_put
-f011539e723c737b74876ac47345e40270a3c384 net: nfc: nci: Change the NCI close sequence
-81a4362016e7d8b17031fe1aa43cdb58a7f0f163 octeontx2-pf: Add RSS multi group support
-89430ef34c5b13f916acd1f1f86f1106f4d958c9 macvlan: remove redundant null check on data
-ab36a3a2e67834687b85b46bc74add45894cdb3d net: phy: micrel: Add KS8851 PHY support
-ef3631220d2b3d8d14cf64464760505baa60d6ac net: ks8851: Register MDIO bus and the internal PHY
-708290479c52bc20cb9e9fb2860e3536c8ba874d Merge branch 'net-ks8851-Add-KS8851-PHY-support'
-ede71cae72855f8d6f6268510895210adc317666 net-next: docs: Fix typos in snmp_counter.rst
-8209f5bc3b67291a4e62ce1a1ce99c53b10e308a net: dsa: print error on invalid port index
-4ef85b12e40c1777f9a27b676c91f196360a638b mm/page_alloc.c: Set ppc->high fraction default to 512
-a156ee2b2070ac184928701ed15491559c902c53 Merge commit 'refs/changes/74/362074/1' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-0eb3e3663a3f8f8a958acaff1ecc9396b61a6f23 net/mlx5e: rep: Improve reg_cX conditions
-7c297684cd0bcbf4812c1beb86a95c4d3bbb2415 Merge branch 'net-next-mlx4' into net-next
-ab3d7b9bf6037e4c15ef9a37bd30ff8d81eecf98 Merge branch 'mlx5-vdpa' into net-next
-d2617d3ac56a7871ec1c3691c94e1732010d6bb3 Merge branch 'net-next-mlx5' into net-next
-531c1691db74e00245383158032160a6290267f1 Merge branch 'net-mlx4' into net-next
-b41bfed937f5aa8691f94c8fbe7f08b646efae8d Merge branch 'net-mlx5' into net-next
-9b52c21075c8e2a13b94cc81325b92ddb6eaaaad Merge branch 'net-next-test' into net-next
-33e58245427da1c84f8f129410fb3681af7a73f9 tools/testing/scatterlist: Fix overflow of max segment size
-61a8d2a556f0cf9e7f01f2e3a56ecc9c6f51e912 Merge branch 'rdma-next' into testing/rdma-next
-56ca750ce26f6a0ba1c00e10e72e344fea098ba8 Merge branch 'testing/rdma-next' into queue-next
+3cf83902a5e2559406e8718865d63c5e1c54d5ea x86/entry/64: Add instruction suffix
+506092e9ef5c337a3ae0cdc0616e3388623ba09d md/raid10: initialize r10_bio->read_slot before use.
+32a42fca5f96902c0df273635aaaa57612d56a26 ALSA: hda/ca0132 - Fix work handling in delayed HP detection
+42adef5d37bb8f006677e0c4555cf2e926ab83f3 ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
+04ac96d03b9f276218e695404c7f8eed1dffd718 ALSA: usb-audio: fix sync-ep altsetting sanity check
+1eaf8537b82cd4446abce4a0c5ab4c62e9977ba8 mm: memcontrol: eliminate raw access to stat and event counters
+cae6db08c564d9fdecd5506391c526bd162d3910 mm: memcontrol: implement lruvec stat functions on top of each other
+39c06774646e5369d0092b0585b7588c8290411d mm: memcontrol: fix excessive complexity in memory.stat reporting
+f89863b1f2d0e039feae7d3055d731dccf106e9c vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
+75db017ea4c5eebba1f1e63d3dadbee80f0e5f8e s390/dasd: fix hanging device offline processing
+061bb57a14c7d527097bc5cac2c199bc90334e68 USB: serial: digi_acceleport: fix write-wakeup deadlocks
+f7ad8fb35e866367496bd8e6a988f3e2ee2fabd3 powerpc/bitops: Fix possible undefined behaviour with fls() and fls64()
+661c213a6275f7ba1a7babe240fd953f701686b7 uapi: move constants from <linux/kernel.h> to <linux/const.h>
+cb631c1c9f05985309262dde200e8e16d6c6a06d of: fix linker-section match-table corruption
+9a2e20726f897cb264fe84e559f32de7f3b8ade1 reiserfs: add check for an invalid ih_entry_count
+89fb39e057c85de3ec22ab36b94b782fb1803669 misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
+6b4a1662310f37b36483e84ff156a7cde5079509 media: gp8psk: initialize stats at power control logic
+28fc65609bd7a83fb32395b2984d43ea15e7da06 ALSA: seq: Use bool for snd_seq_queue internal flags
+761edcfc546886adfb7bcd19a22f6f3090f1da2d rtc: sun6i: Fix memleak in sun6i_rtc_clk_init
+b1c4787bf0456cff67f5133bb4c2925b0d443197 module: set MODULE_STATE_GOING state when a module fails to load
+4290d906d79d004c704ada1c8c179fa98898abac quota: Don't overflow quota file offsets
+68359f056eb9a415a0b4f0fdf2161ede0030ee03 powerpc: sysdev: add missing iounmap() on error in mpic_msgr_probe()
+9109b262ea499ba0ca22f0612506d8e6a2a58fb4 module: delay kobject uevent until after module init call
+bae8d88032cba351cad05b57517f1eabdb8200b5 ALSA: pcm: Clear the full allocated memory at hw_params
+89f7d0c21168818e29fe6b5007ebf11eb8ff2b45 dm verity: skip verity work if I/O error when system is shutting down
+a950ca3b9c4e48884a0e6c69c69975e51eca77e2 kdev_t: always inline major/minor helper functions
+7ba85d3ba9c58359251807b597ba7549e4f1a70f iio:imu:bmi160: Fix alignment and data leak issues
+3e4dab4d35b624275fcb908e6302d967f3280443 iio:magnetometer:mag3110: Fix alignment and data leak issues.
 
---===============4686563527899162583==--
+--===============4635016737675490786==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-19254c4651be-898db05cb2c2.txt
+
+c77164489ab8f785d7413e16ab1ad9fe56401b7d ALSA: hda/ca0132 - Fix work handling in delayed HP detection
+39e8a48d02392a06e296afb348724c49fb2cd8d4 ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
+09d34bdb18cb31b822559efb1c16fd5981a3a585 ALSA: usb-audio: fix sync-ep altsetting sanity check
+d56384f8839895224673cd8df06eaa342d2a159e ALSA: hda/realtek - Support Dell headset mode for ALC3271
+c337230b64731a1d611bf20f4e9f3e5c479c9c2b ALSA: hda - Fix a wrong FIXUP for alc289 on Dell machines
+2c248795714e9e2fa605a1f94969ec375b1d0866 ALSA: hda/realtek - Dell headphone has noise on unmute for ALC236
+babb8a8dedc80e5cfb330da62684da2503d7f334 s390/dasd: fix hanging device offline processing
+c07897da6f4e73114344e2c20363e0bffc3f0b09 USB: serial: digi_acceleport: fix write-wakeup deadlocks
+1096c8547597c4635396ba3243271b5318327071 uapi: move constants from <linux/kernel.h> to <linux/const.h>
+e1cffe2330025147c87f266d84db3d76fafa0021 of: fix linker-section match-table corruption
+fc4ce806b3024c2dc0dd93a988d304e872d4298e reiserfs: add check for an invalid ih_entry_count
+65d697c1d6c97a153e46f5f3a5bb8ad40741b9e4 misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
+c47c7c52cf7bf42f07dfccbd58465a62715d1d05 media: gp8psk: initialize stats at power control logic
+dda0903516f71966f8640a3d781688d5fc81ff21 ALSA: seq: Use bool for snd_seq_queue internal flags
+c9c81780ca8791cf38d1b8a6b8f06ad57be67a39 module: set MODULE_STATE_GOING state when a module fails to load
+bac40b831660c0339bb66b05300f43f0afe7ba6c quota: Don't overflow quota file offsets
+8319e83bf392d879ec872c87f3b3a7cf1dc9ca0c powerpc: sysdev: add missing iounmap() on error in mpic_msgr_probe()
+836c73e3e113923a08122b35b124fdfbdd370347 module: delay kobject uevent until after module init call
+898db05cb2c2b10573d9e1ca4114d36bed86da9b iio:magnetometer:mag3110: Fix alignment and data leak issues.
+
+--===============4635016737675490786==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-897479d0e614-9f03d138aca0.txt
+
+23c6083ff4b43f8eeba0b59fab503e460df826d2 x86/entry/64: Add instruction suffix
+e25b41c08447e06205937ba39c0d31fefa2b62aa ALSA: hda/ca0132 - Fix work handling in delayed HP detection
+73c4797333761b07f1507892fe60d02174729f35 ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
+939ed3aaf0538924b13230c23014db5951b6c39a ALSA: usb-audio: fix sync-ep altsetting sanity check
+4dffb1d0d5a2ef4074c2a5f8976fb4be2de32d36 ALSA: hda/realtek - Support Dell headset mode for ALC3271
+3187fc26265258e4cb26d3582fbb3e2d0933cb8b ALSA: hda - Fix a wrong FIXUP for alc289 on Dell machines
+9f3d6c94e81b095a4957673e4d8b50b88a0c20e7 ALSA: hda/realtek - Dell headphone has noise on unmute for ALC236
+26bb2385814cf78fe0082d8139053c2ce356246b vfio/pci: Move dummy_resources_list init in vfio_pci_probe()
+6e51b16c114b18e8352a3f177d37ef5aeec44daa s390/dasd: fix hanging device offline processing
+28e0552381ca8438ad1499d83f7eec5c2d461a37 USB: serial: digi_acceleport: fix write-wakeup deadlocks
+3ef68b90d3daef9ec079b590a3b0526abbf0bfa2 net: ipv6: keep sk status consistent after datagram connect failure
+fc21896855669adbe5fe5fdd4d2c1c9e7d3c7a93 l2tp: fix races with ipv4-mapped ipv6 addresses
+6940855c76660b4c17d55009b23dc2e74f08658e uapi: move constants from <linux/kernel.h> to <linux/const.h>
+fdf69801cfe2ce5645be218ffe1f6dbe27fb4b1c of: fix linker-section match-table corruption
+452ce614622d7a18216b9d4ffa1f6d2e423d1c7e reiserfs: add check for an invalid ih_entry_count
+eabc292b533a506393a5172aecdc52e12c7fb947 misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
+610a0101f77dac77ece021b57b6b789e8c816452 media: gp8psk: initialize stats at power control logic
+a9b7bca9d969a00d412c88073ebc569bf1be3736 ALSA: seq: Use bool for snd_seq_queue internal flags
+06624e9db374f59cd363618ed8a29e14f3db8ae4 module: set MODULE_STATE_GOING state when a module fails to load
+841f5dc7258734a59a5f6d7aa24a033836da9113 quota: Don't overflow quota file offsets
+1f476dec356442001dc1880381f3098d30b8a94d powerpc: sysdev: add missing iounmap() on error in mpic_msgr_probe()
+47d6ff6e6d0615053bece9a35019e02596bf6705 module: delay kobject uevent until after module init call
+12f26cc088a088ae404e1976f063e2851f0e5a0d kdev_t: always inline major/minor helper functions
+311e1ff751b8b1539af78e75c981e6b6e7dea5cf xen/xenbus: Allow watches discard events before queueing
+bbeb694fa687ca830d794ebb7f5e457b0c9e76ea xen/xenbus: Add 'will_handle' callback support in xenbus_watch_path()
+7f3312f8713daef6a2484024fd8d99c0ed185074 xen/xenbus/xen_bus_type: Support will_handle watch callback
+b9ce868fbf2fc4687438d948951e1a5825c2a832 xen/xenbus: Count pending messages for each watch
+80b32416105ffb9ce3b182aacd1e1f6ad2a15263 xenbus/xenbus_backend: Disallow pending watch messages
+1b01bba88742e9eebfffe6d83d72e61e9414bb4b iio: bmi160_core: Fix sparse warning due to incorrect type in assignment
+72f0076192b41257cd726373a15657706a5fc8c2 iio:imu:bmi160: Fix too large a buffer.
+8a64f239ee589b907872bfb9f03034f829ba4983 iio:imu:bmi160: Fix alignment and data leak issues
+9f03d138aca069bc8885096234cf07372a62cc96 iio:magnetometer:mag3110: Fix alignment and data leak issues.
+
+--===============4635016737675490786==--
