@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5911200487053620341=="
+Content-Type: multipart/mixed; boundary="===============7939735730454960164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 07 Jan 2021 14:07:08 -0000
-Message-Id: <161002842863.21436.9814550541926884139@gitolite.kernel.org>
+Message-Id: <161002842896.21465.14165210066863044247@gitolite.kernel.org>
 
---===============5911200487053620341==
+--===============7939735730454960164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: b3f656a592f3ade657d14888fd3dc92a14975890
-    new: b7a36b21c322766ca1f3f12bd40b73ac0001412e
-    log: revlist-b3f656a592f3-b7a36b21c322.txt
+  - ref: refs/heads/linux-4.4.y
+    old: c2fadcfca17b4d765c49b81c6d0a8e1b65c86ce0
+    new: 29ca582340301a4d6332eb131c6a50bdccc47200
+    log: revlist-c2fadcfca17b-29ca58234030.txt
 
---===============5911200487053620341==
+--===============7939735730454960164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,45 +30,52 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610028509 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1610028426-919761bd4ce2eafa63484544c9197443cabc1da3
+nonce 1610028427-c1280b655f613441cd3e2a3145f87bbcbc00a166
 
-b3f656a592f3ade657d14888fd3dc92a14975890 b7a36b21c322766ca1f3f12bd40b73ac0001412e refs/heads/linux-5.4.y
+c2fadcfca17b4d765c49b81c6d0a8e1b65c86ce0 29ca582340301a4d6332eb131c6a50bdccc47200 refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/3Fd0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BJIP/RrJ6xM6K/LeZZVi2+nT
-DX6cv47xdFaDKG5OZ5N24c3S79NUyjeBfIfSQeUMqTxwP3zEG68fu5nFv5U9f8dp
-Ta4YHeqkN9Q1LYUrN2G0xt3zTFhEmkPiSu2zIw4bGWcd9auobVVXrTrCZBDN9VSO
-ANwtSd44f86JLaiSYjcIAicLAr6r2MkfmNqhjyS6xrnjhQ4p35XxZstWvWSkcBtF
-+IT3601uxw+zX5ICuxif1i1MlGSylyKK4i5icu58X2Adnua7IkoKw+qjhMLg5GFx
-PRXn+RpDx2OfFhzIxyoM4st7XzEWpSu2LyG9EBFrTscYKopiCbSQUTAVY01AczFB
-V36RS3HH0SxNl5JUtbKBdFhkqwPqipTcV6bO98sAa/gZtDM3aWxPlAWdxA4hdNM8
-VuEduYvFYFcg466e9WA6cFr5IYj6Ll6XBYNiNZAVcFS3gixVffgZj0Q/MDfhs1ql
-n+Om92IpqK1GNdohki6fWHJboynLWnq7+r/0VAghw7poOb11MLmaUA/YL2YaUHd3
-jrcnKX/EZnonWLItBWABaCfqH/tnD0t9vFhFLL/zaQqaf3rJmz1Td4kfyCzZurxI
-/COYV8v05rrthqZ+a7FtxE8/hqIAWRRnA4d+wUmAsJkrAnmkDScm/V1cs18Q5pqD
-+dc8pi4h7fW37KBi4pjm/GbP
-=neX9
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VrMP+wXqTBUNJEurl2cKC4/v
+/4cQvhBa9iL8yuQxuESTkmKvgO/m2U3QJrexZfwukCoNc1LAWspudKLR6Rpv/gOL
+bNojVX+16N7zxB5P/TTvKsMVv3f41hVlCgK9bBRxUR9/nz/mAFCs4sGy9tL79JKf
+dM4RH5MyuaFISZu9lulMTOPAjb7esQu5yTLZo+hALULtzGhPA5Q2ng8F4t0IPubu
+7wwZ02igxWLJqYCsuXROlievCG5O9n0vDmk27TdNo1hz8yldqa+BY3b3LRX+MBdr
+WvWoMV1xzq2AIvT+Z/FkZF8rxz/w/Etx30oAxWl2ip6XhjgFjTNtFbwPQnLZf1tY
+Nxn7FdQ/8ZeuBTF5gSaMDfoEw7LB+bQRMUe2zX2w0R4EQjbdy2tf+643+NrK5EnU
+xXGUw+J1EyebZF1E5wqWW7TDM6yd7yUM30bNAECKSt6R8OuZYOglxPtSF1NaR7BI
+ASc7wl6N2cZin8oOr1pwqNePwBe2CFjwyPs4mn+OlDrmOSpauCPYVeimObvnqIK9
+txG2Ozv0hCHvfhN95Pzlddt0QxrPO+SqOipbO4pF3I3KP5F42jP0O9Jz9px10XVm
+HihT9nYjiL+18nugE6Cb79KprkZq5eWHXqnyuZI4akfyloV4dw+OcKQy0i1D/RkT
+6MncbmSOhJJpDS2llThGx0pI
+=MTUM
 -----END PGP SIGNATURE-----
 
---===============5911200487053620341==
+--===============7939735730454960164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3f656a592f3-b7a36b21c322.txt
+Content-Disposition: attachment; filename=revlist-c2fadcfca17b-29ca58234030.txt
 
-8bd5c7d59bff0def9222d0553ab35e6dc992ee87 Revert "drm/amd/display: Fix memory leaks in S3 resume"
-00fc13b745c72a3b60b9ca32ae7844e17b51dcb5 Revert "mtd: spinand: Fix OOB read"
-da200016a3d098628a3aa01b5467ad8ff99dd62e dmaengine: at_hdmac: Substitute kzalloc with kmalloc
-1b67c6898d20c4dd786aa0d3284f888ccf5d1fea dmaengine: at_hdmac: add missing put_device() call in at_dma_xlate()
-af7f24d919d921d955636fe0d53d0453e01ad670 dmaengine: at_hdmac: add missing kfree() call in at_dma_xlate()
-3ce1cfef15f8cb4a335d36d0940fc0f533ae6658 kdev_t: always inline major/minor helper functions
-f9b1827a485aafbc438402fcdd94fcf39b80badb iio:imu:bmi160: Fix alignment and data leak issues
-7230dcb944c0f061924c0f8f79108f76bbef4e14 fuse: fix bad inode
-79e2a6218337bcd3de94bbd5311d3b02dfc98dbd perf: Break deadlock involving exec_update_mutex
-3848f025c0d1ee5e3736c0bb42198c5f6ce63508 rwsem: Implement down_read_killable_nested
-77f77d8352022952865f17fcfff7668e781e8ad5 rwsem: Implement down_read_interruptible
-a725040feafd982288cd78764edc1c0e26027b8e exec: Transform exec_update_mutex into a rw_semaphore
-b7a36b21c322766ca1f3f12bd40b73ac0001412e Linux 5.4.88-rc1
+debbb5bb0f33d37dc6a371788dceb615082b9cbc ALSA: hda/ca0132 - Fix work handling in delayed HP detection
+20b134ba76986573e8596d2701df2b020d9f663b ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
+b430b274b2b8c8a3f99b05c3b0d2102b78d7d2ab ALSA: usb-audio: fix sync-ep altsetting sanity check
+445abde653551ad8ecd9047d2e75fd7634a1d395 ALSA: hda/realtek - Support Dell headset mode for ALC3271
+335374fea97898d1b0a5e1d48082c46264896744 ALSA: hda - Fix a wrong FIXUP for alc289 on Dell machines
+a3da4a0a9fa0d4c5017f16d3c6972a36ded4f4c9 ALSA: hda/realtek - Dell headphone has noise on unmute for ALC236
+8912c5d8e8060c8951df025334101f984e8e0115 s390/dasd: fix hanging device offline processing
+ec870c8226b10bb209c7c4d16c4e1c4b9efcb176 USB: serial: digi_acceleport: fix write-wakeup deadlocks
+eb360b2a2d39a44db279109ce2ac636690878181 uapi: move constants from <linux/kernel.h> to <linux/const.h>
+27a88a883ea678bce90b8e838b14478a6785ac1f of: fix linker-section match-table corruption
+397d30fbbc455484d7c3fd47e546d5332988be08 reiserfs: add check for an invalid ih_entry_count
+8b03e3cd0b38b5eba1c6189c7ff88c5cda7157a3 misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
+b92a399e9b161ba126dacb299dae76ac2f944611 media: gp8psk: initialize stats at power control logic
+8c7492605108869c624878c1740d594739552692 ALSA: seq: Use bool for snd_seq_queue internal flags
+f6fdfe9ffaddb667f0e707d7c3d8d8dc5f70a672 module: set MODULE_STATE_GOING state when a module fails to load
+d36c15be422f414cc4ce69772ca26d609353cbf0 quota: Don't overflow quota file offsets
+69668439e507ce042e50a3c3706ef9e7705d9968 powerpc: sysdev: add missing iounmap() on error in mpic_msgr_probe()
+07a4091b9d248c6eaf47e685e70b8eb1f45d295d module: delay kobject uevent until after module init call
+9a84ea83910fb8e4a91ddf9672f44d70e93fe067 iio:magnetometer:mag3110: Fix alignment and data leak issues.
+29ca582340301a4d6332eb131c6a50bdccc47200 Linux 4.4.250-rc1
 
---===============5911200487053620341==--
+--===============7939735730454960164==--
