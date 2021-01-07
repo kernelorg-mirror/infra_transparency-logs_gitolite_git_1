@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Thu, 07 Jan 2021 00:40:45 -0000
-Message-Id: <160998004597.21915.8531212699251537238@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0712210019366172977=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Thu, 07 Jan 2021 00:47:13 -0000
+Message-Id: <160998043341.25119.7762467048456525245@gitolite.kernel.org>
+
+--===============0712210019366172977==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: 24069db7ac98e9b9d4930dfe64c41e269ae8c191
-    new: 5cc02325880f6b044f5f22218ab13dd25d7a346c
-    log: |
-         181b150f1565ac253ec5313fea76ba5d0c4bddf7 erofs: use %pd instead of messing with ->d_name
-         5cc02325880f6b044f5f22218ab13dd25d7a346c Merge branches 'fixes', 'work.sparc', 'work.sparc32', 'work.elf-compat', 'work.recursive_removal', 'work.misc' and 'work.d_name' into for-next
-         
-  - ref: refs/heads/work.d_name
-    old: 0000000000000000000000000000000000000000
-    new: 181b150f1565ac253ec5313fea76ba5d0c4bddf7
+  - ref: refs/heads/dts-for-5.12
+    old: 9d038b2e62defb58a77947b486993e018e37aff1
+    new: d949eaf870892d2cfa6f37f95919484dd769940b
+    log: revlist-9d038b2e62de-d949eaf87089.txt
+
+--===============0712210019366172977==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9d038b2e62de-d949eaf87089.txt
+
+dea0e9bc0524f775442e56e4937fd5be854725c8 ARM: dts: qcom: sdx55: Add pincontrol node
+ec99770d4b622b7f3e20d8db861cef59691ff128 ARM: dts: qcom: sdx55: Add reserved memory nodes
+f036549f29a32fbd29a545b1aa568fcd065d88ab ARM: dts: qcom: sdx55: Add support for SDHCI controller
+a2bdfdfba2afb532f2a2c8082bdb7de8379a4b6c ARM: dts: qcom: sdx55: Enable ARM SMMU
+985eef1d034319267cc766d1e91d2d92847c428a ARM: dts: qcom: sdx55: Add support for TCSR Mutex
+8cf74d0565cf96cb6b154b6c49244ec47db1af5e ARM: dts: qcom: sdx55: Add Shared memory manager support
+2470941806c66acad99b71f3fc8793066c6792f8 ARM: dts: qcom: sdx55: Add QPIC BAM support
+4bd7bfb4566a9464a1933d0d2aa2df0f03c20e8b ARM: dts: qcom: sdx55: Add QPIC NAND support
+512e39d2cf095e9d991eb106136134dcd50e4e01 ARM: dts: qcom: sdx55-mtp: Enable BAM DMA
+4f944be5f567024955bfa2839eed69a7761f454e ARM: dts: qcom: sdx55-mtp: Enable QPIC NAND
+3b6785ed437ed6fd57ad12e006e30f7baabc5fce ARM: dts: qcom: sdx55: Add spmi node
+e6facb6331f94c93011733d5a35cbe320713d360 ARM: dts: qcom: sdx55-mtp: Add pm8150b pmic
+3cef2d55f9eec31626c5a27602e93ddf71cc7672 ARM: dts: qcom: sdx55: Add rpmpd node
+c222f3ec120f8fb40fe504e20640db5d863b1b72 ARM: dts: qcom: Add PMIC pmx55 dts
+8bf259a9c7f9d8870e65a4ac74f2693ee8add0e2 ARM: dts: qcom: sdx55-mtp: Add pmx55 pmic
+d949eaf870892d2cfa6f37f95919484dd769940b ARM: dts: qcom: sdx55-mtp: Add regulator nodes
+
+--===============0712210019366172977==--
