@@ -1,46 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Fri, 08 Jan 2021 19:25:45 -0000
-Message-Id: <161013394509.16442.6332699752183124598@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8312491089485277930=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Fri, 08 Jan 2021 19:56:25 -0000
+Message-Id: <161013578593.3036.6671740152586038945@gitolite.kernel.org>
+
+--===============8312491089485277930==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
-user: bigeasy
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.10.1-rt20
-    old: 0000000000000000000000000000000000000000
-    new: 1fc2b33e6c5c00c60d93c198d654a4459a1980a4
-  - ref: refs/tags/v5.10.2
-    old: 0000000000000000000000000000000000000000
-    new: e07d8033a98423c1a753140f3d71d4d460f14879
-  - ref: refs/tags/v5.10.3
-    old: 0000000000000000000000000000000000000000
-    new: a58f7f72ec7d6424873704b7e3e4984fded86c5f
-  - ref: refs/tags/v5.10.4
-    old: 0000000000000000000000000000000000000000
-    new: 9701b9dcf8213f8bbd78625eb687f9089c3b5b95
-  - ref: refs/tags/v5.10.4-rt21
-    old: 0000000000000000000000000000000000000000
-    new: 55dede91076d5a89fea12ca17ffccd3869d03f40
-  - ref: refs/tags/v5.10.4-rt21-patches
-    old: 0000000000000000000000000000000000000000
-    new: 554a12c801a91d747be551dec4489a3d0f2d5374
-  - ref: refs/tags/v5.10.4-rt21-rebase
-    old: 0000000000000000000000000000000000000000
-    new: b2046be7e3f249578fc18b1bf90d444aa46673e6
-  - ref: refs/tags/v5.10.4-rt22
-    old: 0000000000000000000000000000000000000000
-    new: 619cd9af39e6aebbf75caa8cf2b196042eb3a40b
-  - ref: refs/tags/v5.10.4-rt22-patches
-    old: 0000000000000000000000000000000000000000
-    new: 701de164bdae91f19bc095f0fd4160c1896e2f76
-  - ref: refs/tags/v5.10.4-rt22-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 7a2b5af4ae3e55346af145009a2b04d06bc45f0c
-  - ref: refs/tags/v5.10.5
-    old: 0000000000000000000000000000000000000000
-    new: cd08e7af38649132c2c867b47b91da80c6c070d8
+  - ref: refs/heads/master
+    old: 727e75f79dee0b0f50aed97a131c267c2c96eece
+    new: 2bfff03b3cd043370ed3a1a5ad7b0964db7348e5
+    log: |
+         0153a32425efe6cea94e2219c7f28bc334e36324 Removing deadname key
+         2bfff03b3cd043370ed3a1a5ad7b0964db7348e5 Add 336AB3336F667F97 (Chuck Lever)
+         
+
+--===============8312491089485277930==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1610135785 -0500
+pushee pdx-korg-gitolite-1.ci.codeaurora.org:pub/scm/docs/kernel/pgpkeys
+nonce 1610135785-5c68ff9b6fc04b3b07542c073c7ebe797de3e9b1
+
+727e75f79dee0b0f50aed97a131c267c2c96eece 2bfff03b3cd043370ed3a1a5ad7b0964db7348e5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX/i46QAKCRC2xBzjVmSZ
+bKkHAPkBd3/JY9GOzqN31ZC1BLalYbe/le5P2aDWcGKpcwWEKgEAj6U8I3nG3411
+9bvGMEunDREbbZzkNeS9wWgBL9OhEgM=
+=Wi1P
+-----END PGP SIGNATURE-----
+
+--===============8312491089485277930==--
