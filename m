@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 08 Jan 2021 15:52:57 -0000
-Message-Id: <161012117724.9085.15414348677315870195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Fri, 08 Jan 2021 15:52:59 -0000
+Message-Id: <161012117917.9152.1753712728362491805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/for-5.11/upstream-fixes
-    old: e400071a805d6229223a98899e9da8c6233704a1
-    new: 7c38e769d5c508939ce5dc26df72602f3c902342
+  - ref: refs/heads/coresched
+    old: 47d68fad28f4a31e40f9b6294370266a45619fa1
+    new: e9daf8f478180fee3db4488c7475cbd8fd8c4453
     log: |
-         7c38e769d5c508939ce5dc26df72602f3c902342 HID: Ignore battery for Elan touchscreen on ASUS UX550
-         
-  - ref: refs/heads/for-next
-    old: 86b26e69a1c9327a20a4dc6df84721b714e01449
-    new: 8cd7ce929f882f27634571ae937c145f3a7bc80e
-    log: |
-         7c38e769d5c508939ce5dc26df72602f3c902342 HID: Ignore battery for Elan touchscreen on ASUS UX550
-         8cd7ce929f882f27634571ae937c145f3a7bc80e Merge branch 'for-5.11/upstream-fixes' into for-next
+         eb8bb0abdd124f755026c11325db90eeac499659 sched: CGroup tagging interface for core scheduling
+         4474b8cc9bd9767bfae83d0b40ccae8e357f70ae kselftest: Add tests for core-sched interface
+         e9380bd2c6ca03e75f6fb296c6d3cdd5acf8ec20 Documentation: Add core scheduling documentation
+         31c4684756ac043dc6e248f048baf0f51009a8fe sched: Debug bits...
+         e9daf8f478180fee3db4488c7475cbd8fd8c4453 sched: Add a coresched command line option
          
