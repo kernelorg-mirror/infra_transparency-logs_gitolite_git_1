@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3644628629046909174=="
+Content-Type: multipart/mixed; boundary="===============3349901117513822268=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 08 Jan 2021 04:18:50 -0000
-Message-Id: <161007953047.28644.13979348247284669257@gitolite.kernel.org>
+Date: Fri, 08 Jan 2021 04:18:54 -0000
+Message-Id: <161007953458.28717.7802593227160748192@gitolite.kernel.org>
 
---===============3644628629046909174==
+--===============3349901117513822268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 897f581b49e4d07cbe41772adb547389a51c477b
-    new: 5bb86b7a5e36d3ef829424f2b56d0e8ca11cd8db
-    log: revlist-897f581b49e4-5bb86b7a5e36.txt
+  - ref: refs/heads/5.12/scsi-staging
+    old: a967ddb22d94eb476ccef983b5f2730fa4d184d0
+    new: 91b1b640b834b2d6f330baf04c0cc049eca9d689
+    log: revlist-a967ddb22d94-91b1b640b834.txt
 
---===============3644628629046909174==
+--===============3349901117513822268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1610079528 -0500
+pusher 75C5DE3D 1610079533 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1610079528-c426d37451f517cd80faef1829dff00b0825f04f
+nonce 1610079532-2ddde5fc8cd1b89148571d7168063f40f29f6142
 
-897f581b49e4d07cbe41772adb547389a51c477b 5bb86b7a5e36d3ef829424f2b56d0e8ca11cd8db refs/tags/mkp-scsi-staging
+a967ddb22d94eb476ccef983b5f2730fa4d184d0 91b1b640b834b2d6f330baf04c0cc049eca9d689 refs/heads/5.12/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/33SgACgkQ7ulgGnXF
-3j12jg//ZjElVTJMd4vkXw2R/z54X8aepxhfaWGPG9H8AtvqrSiyzh+LAiYxfTA4
-U/FpoV3FK44aHYxW7AZtCNXGGk8O8W4NmTPc6/WuTVdttx3cYvyckj39t3OhWdkr
-ERDM5yFwcEAzXxlTYLb+VV6lE+MGEFYQmF59sTfJEGC0kmef7VdwH+114EkqSP7a
-sDLHc5HscpQ9luz6g02J4kvpKI9tjGzrq3ta876fXfvrBhnELncoJiEbmEtLLvel
-Kg6/l9hr5GQ3CDxxezvf39DSDC4hu0wNGxM3T9dPi0PwCjrqs5mnoyDMq884d/Ci
-9z5a1DrmedaUyiFIb+UvDS4iub8lUDw4PxwKKv/Wx27ETpGWi0r3O28OLXpuG+1K
-48jil2VbMCQgCmdtwN0ilWKRb0/uu/DxNbn4TOW6A4ZXOJc5kJTIqIzg4MXZryfO
-cYmbieLibkEXoMYmnFQ+mn27LxScSH3U60DxIyXFv4C7NsXIzbfGYDRaYit2ZD7l
-yIbQpzzqHbf9JP48A6jNmc4L8FlZfXfAZtoTYG3aYYdwwNlnQcg/JJGgn9jXS6bt
-5617qIwirzRrPQHNbUJSf45G+ocOt2MZm50miZA+ZruJ6NnNHmVI1DAGhiAAzqgM
-UMuNcRb78dDFbXcQ6VhlmXzbHhrs2apY+lbKRcAPvZAfOXnNKxo=
-=cDQL
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/33S0ACgkQ7ulgGnXF
+3j1cIxAAkXAQiJt/1kiPJBp9cYToNbl7h+Li3XM0eVuSQx1COjszi1RYeSsmbfb2
+ZH/aM0TGeVPYR5WKrKCyCi3zbyzqotFS1WJ5xVL+Fdny2SxL7DNYsfRLxs8X3y1w
+5Hs92SDrmrSGIEH1HBbXRM8lbnJy9p1F01MIPMV7z5gbYFrHt0t2K6RoyK6puL9m
+C682ggWBb7BZkoGOt48g7sl5jOhaxwftINcy9tTfvTM34Bg9DTC1wDBLE0IfNN6h
+cNBpC4QEm8P1nnpCsz7kKjDRdW/cT9BrZriaz564oIITOiZYnO/t9/5Yy/cT8ZAH
+EqMjlWkZDXiJYL3FYJEM+05BjTmbm5oB94mgMHMxX8UAEVA/nEMP26SSZPOpOB7C
+Rccj8nn8TWD/bISXZO2NKVFsCiLLe1AZegNGrTYIC7zKHhZmEJJhe5cc11SFSckW
+TUlPwcIgdk40lm8Yii+SgA0ED8pbTLjFZw+l3F14H3BIfoteeoH89/UFvZVVrXmI
+VBnlnrdep5+/gtyXLyXlzgkdQzwNF6ZLE84+Reniy89wB2EQRuEf45oQi3RUYcmJ
+Xlpu+r+nN1qIBANf+Xm0k0ttf1aD1XqD5Vy61yeHvwn1f/vGKAo9PkLCmqIi6KDT
+aMsUux5OexvLZ8f4ZEy8lK28UPOd6kjintMHowaScGzEruP9Ass=
+=96dC
 -----END PGP SIGNATURE-----
 
---===============3644628629046909174==
+--===============3349901117513822268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-897f581b49e4-5bb86b7a5e36.txt
+Content-Disposition: attachment; filename=revlist-a967ddb22d94-91b1b640b834.txt
 
 c7c730ac6a88abbbc961f8838d28da85662389d0 scsi: ufs: Remove stringize operator '#' restriction
 28fa68fc557a7eba02615aa7d97a7cbcfa94559d scsi: ufs: Use __print_symbolic() for UFS trace string print
@@ -89,4 +89,4 @@ ab548fd21e1cbe601ce5f775254a6d042c6495f2 scsi: storvsc: Fix max_outstanding_req_
 244808e0302953de11dba1f8a580cdd1df35843d scsi: storvsc: Resolve data race in storvsc_probe()
 91b1b640b834b2d6f330baf04c0cc049eca9d689 scsi: storvsc: Validate length of incoming packet in storvsc_on_channel_callback()
 
---===============3644628629046909174==--
+--===============3349901117513822268==--
