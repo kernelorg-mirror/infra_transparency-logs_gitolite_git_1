@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2040157090222780714=="
+Content-Type: multipart/mixed; boundary="===============2347720681009817687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 08 Jan 2021 04:18:36 -0000
-Message-Id: <161007951644.28316.10323462303019634563@gitolite.kernel.org>
+Date: Fri, 08 Jan 2021 04:18:40 -0000
+Message-Id: <161007952058.28408.12576290049875289661@gitolite.kernel.org>
 
---===============2040157090222780714==
+--===============2347720681009817687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 98c34b9194f92c8a51bca1cbec72bfbd8a3dc7de
-    new: eaf5143322b4a4110750076c8ee3f6f9697e5f35
+  - ref: refs/heads/5.11/scsi-fixes
+    old: be2553358cd40c0db11d1aa96f819c07413b2aae
+    new: eeb1b55b6e25c5f7265ff45cd050f3bc2cc423a4
     log: |
          0b2894cd0fdf8ccc8a9b4e28563db9ac0ecb62b2 scsi: docs: ABI: sysfs-driver-ufs: Add DeepSleep power mode
          b112036535eda34460677ea883eaecc3a45a435d scsi: megaraid_sas: Fix MEGASAS_IOC_FIRMWARE regression
@@ -28,33 +28,33 @@ changes:
          eeb1b55b6e25c5f7265ff45cd050f3bc2cc423a4 scsi: ufs: Fix tm request when non-fatal error happens
          
 
---===============2040157090222780714==
+--===============2347720681009817687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1610079514 -0500
+pusher 75C5DE3D 1610079519 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1610079514-95803805feed1be2369722ca95ecf8b3bb243b73
+nonce 1610079518-66df5c10993c581ff634ba52295aba4f16293fe7
 
-98c34b9194f92c8a51bca1cbec72bfbd8a3dc7de eaf5143322b4a4110750076c8ee3f6f9697e5f35 refs/tags/mkp-scsi-fixes
+be2553358cd40c0db11d1aa96f819c07413b2aae eeb1b55b6e25c5f7265ff45cd050f3bc2cc423a4 refs/heads/5.11/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/33RoACgkQ7ulgGnXF
-3j2DjA/+MLfOrcZUoJFN41fsNA9203EsRHnVsq+tzzNuCXOssiI2iGbBRF+z5vlE
-seBaS3WEn1GefvE+CMSYwkNYfs6W5cRqwlhBxOMvhX+rR1xPRGEsoI4xVFHpDt3h
-Yd1xBXb3SfYUTSRAZfwaObDVKvP4ALr69ZTrWayh2zi2EfH6vRdYR2rIanmw4BTz
-tpZLnxkQVGXT6fdSVzEX/gsUZEf/2rVlK3dxp9SaEhNtLghjGg5BUJe8/yAb19/K
-aQGGVkA4IBy61ZF8++BImQ6Pmf6p8P6dzbhrp6MZ9fku6Mr8ubfChJyhb3ooqYwf
-Sw27QpD8yxVJU/E5KO41ZXod6O5WXBOr7RJsP6pUQxWfowM3fkri1eI8Tods3ZD2
-e84dmkah1dUY70r9qZenneKl6MNJeMUAgZEAH6KT71EHARMl6Oyz/+ZIycyjkIiG
-3zzLZ/qGI9pxVSLd+Q9gK0l1B/HGhi/mwAx1q+KiIEQYsktiNJpx96pNPoVyoyBV
-LDyjXg9e/XExTrKkB9PAefhu6rUFE2c5Bs+YNfiHjgCN93Oz14mDSrATW+dwPDqx
-/4zQQ4C+R/lisiHfX+7+6DrpX4iGHn2qjk/bHjqHeFOH+XCjDe2bD5IlPmt0FyDN
-BsEC4KbGYWTLJnzOoLSlawmS5mvak9I4ksfMzXNCtmoUdzqaHc0=
-=XtQQ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/33R8ACgkQ7ulgGnXF
+3j2upRAAkWP2laJfKwwjSdgVGTmA9a846Nywx3m4oDNvaWhJCKWCefipO8dEfaHt
+CtZHJNOb1KeC0WCJ0nYqR7sQu7LChuM0OIqVCfZBfLuCY7lS6GV63T0Duidu8Qml
+wc97GLnxg8OXvLr1UG7s2N4xInBxDvUb4VZ1/QR6q8760+d8qagFvQCtdt8OihxL
+kF/GlztD49erjNnKpvq3ZAMXryJA19vImhphXZKaY6j6CVthwnNP4vo635DPRtpk
+UvwgB9O45U5LnC0KEXXG2AzsE4sdzG9bkJJkah1PdgTdMGrdNGSPjuHHKqRaLFxO
+L+zMMkTi4xj7Sb1im+uJKdnWU1MO5qdaKjBD3h2MIoh+zN+LLfy/jt+YjZo37miv
+/0Q8kGdhvYa1hl6kL4VCrUXNSPqR12V64dWEgOmcEgNuHVzySO+Qb386Up8iX0ap
+e22OM+0UXp+5yImosvjSjhs7IDrWkpHLx21wGCpMM04igir8tBETMKUXw0REf82E
+qNeCsNSyQttSXzDuaOhsofFEPsrtvjTLD7lsb6JvRGxm/vsbiFo4gNmpo8J0X+Et
+4ELUbRuP4NXmtEdiiMbclm1iyazwHxXc8iMFfq3DEN7qukyvjBxUBKnqUk84+8ly
+Uk41tpMv9UAP+kWaZyLhuaD3sMdXXgagHVkt2V98ESOJ6jKeYHY=
+=iOky
 -----END PGP SIGNATURE-----
 
---===============2040157090222780714==--
+--===============2347720681009817687==--
