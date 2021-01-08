@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Fri, 08 Jan 2021 08:27:38 -0000
-Message-Id: <161009445831.28561.9597932193992143700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 08 Jan 2021 08:31:04 -0000
+Message-Id: <161009466487.31059.15121884317950674526@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/next
-    old: 80f959dedfa6c7897ad9898cb8330cf6e912b1ff
-    new: e2fcd6e427c2fae92b366b24759f95d77b6f7bc7
+  - ref: refs/heads/for-next
+    old: 6dcb8bf9a1d7f6d137a17b76177cd67e9b8e023d
+    new: 75b1a8f9d62e50f05d0e4e9f3c8bcde32527ffc1
     log: |
-         9e9eb85e43e7a7eb9b98d64b003f689778944a3c dt-bindings: dma: owl: Add compatible string for Actions Semi S500 SoC
-         c518a2fd1bcfb00bfae9007913090d8645651637 dmaengine: owl: Add compatible for the Actions Semi S500 DMA controller
-         33cb6d1ed311af2c1dfd107fa334cfb51113ef35 dmaengine: at_hdmac: remove platform data header
-         e2fcd6e427c2fae92b366b24759f95d77b6f7bc7 dma: idxd: use DEFINE_MUTEX() for mutex lock
+         75b1a8f9d62e50f05d0e4e9f3c8bcde32527ffc1 ALSA: Convert strlcpy to strscpy when return value is unused
+         
+  - ref: refs/heads/master
+    old: 6facedb196ba6c33c9ca3d9fe63acc71db3c9561
+    new: 38e0deb395e9c434b5e64c5bc6c25b27527b8aff
+    log: |
+         6dcb8bf9a1d7f6d137a17b76177cd67e9b8e023d Merge branch 'for-linus' into for-next
+         75b1a8f9d62e50f05d0e4e9f3c8bcde32527ffc1 ALSA: Convert strlcpy to strscpy when return value is unused
+         38e0deb395e9c434b5e64c5bc6c25b27527b8aff Merge branch 'for-next'
          
