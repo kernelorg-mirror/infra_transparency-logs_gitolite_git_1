@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 08 Jan 2021 21:52:52 -0000
-Message-Id: <161014277223.14119.17415580564239857652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vgupta/arc
+Date: Fri, 08 Jan 2021 21:56:31 -0000
+Message-Id: <161014299174.16682.1611601362863494891@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/vgupta/arc
+user: vgupta
 changes:
-  - ref: refs/tags/v5.11-rc1
+  - ref: refs/heads/v5.11-rc3-n-fixes
     old: 0000000000000000000000000000000000000000
-    new: 4a191eab42bda9fba2742d8d538609c737b8194e
-  - ref: refs/tags/v5.11-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8abc7aa5d31067372903fb523ed96e8470b92d50
+    new: 42e25e2a0266e0527489d9bb4640f65bb9659039
