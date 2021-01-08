@@ -1,57 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4468896096115892750=="
+Content-Type: multipart/mixed; boundary="===============5653204850606846320=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 08 Jan 2021 16:28:58 -0000
-Message-Id: <161012333818.31479.9327415864729198219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 08 Jan 2021 16:29:04 -0000
+Message-Id: <161012334434.31611.15066523448505986457@gitolite.kernel.org>
 
---===============4468896096115892750==
+--===============5653204850606846320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.11
-    old: 1f092d1c8819679d78a7d9c62a46d4939d217a9d
-    new: 2a0435df963f996ca870a2ef1cbf1773dc0ea25a
+  - ref: refs/heads/for-5.12
+    old: ee14a6ef564c2fd2f9c74b233e11e0e6ecc5da61
+    new: 6be69293196c1700de2df3b32417c6eda2b12009
     log: |
-         2a0435df963f996ca870a2ef1cbf1773dc0ea25a ASoC: hdmi-codec: Fix return value in hdmi_codec_set_jack()
-         
-  - ref: refs/heads/asoc-5.12
-    old: 2c1382840c194533399818d0ed39dfc94f906187
-    new: 31c51a424f5163ee6f14fcc251f81078457123e1
-    log: |
-         31c51a424f5163ee6f14fcc251f81078457123e1 ASoC: es8328: Remove redundant null check before clk_disable_unprepare
+         8728a81b8f1007426d8f341c5d2400da60f4cea2 spi: Fix distinct pointer types warning for ARCH=mips
+         6be69293196c1700de2df3b32417c6eda2b12009 spi: renesas,sh-msiof: Add r8a779a0 support
          
 
---===============4468896096115892750==
+--===============5653204850606846320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1610123309 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1610123336-ff091c61e4061aec0bb93047b4eb176a3d8fa7f7
+pusher C3F436CA30F5D8EB 1610123315 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1610123342-0defcbf685380518b3a8028ebdb287ecfdc55c4d
 
-1f092d1c8819679d78a7d9c62a46d4939d217a9d 2a0435df963f996ca870a2ef1cbf1773dc0ea25a refs/heads/asoc-5.11
-2c1382840c194533399818d0ed39dfc94f906187 31c51a424f5163ee6f14fcc251f81078457123e1 refs/heads/asoc-5.12
+ee14a6ef564c2fd2f9c74b233e11e0e6ecc5da61 6be69293196c1700de2df3b32417c6eda2b12009 refs/heads/for-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/4iC0ACgkQJNaLcl1U
-h9AkXgf/U/xCu9FiPx0ZjX4os6VRbVPEZeiYsdwIItsh4y+t0A4cPN07qnyYkG26
-k14nLw0r5Q0rM8lReZsM6KXNXMl65CQ3joyAn9r99olzQTXN4DpufJVezmhXsrxf
-eXx/aAM6kZsDxfGGASL6mHcjk0bBxu4rgfzQBR1GWRfn1vVCrT+YCYvbU2qrJHSe
-G938f8G+Xrb1gHsL5VzdOSNhEuyvr4Hl6vTDWvC28fISerVsxjY9c2kOHBKWxfb0
-X8nMqSy3sIb5mw7ZlMwsh9firiGyxXPpZtas0Kf491ODBhZ6m+iKrU9NdK1DFSln
-XqTGEjV0eM2TyHhJo01pItLAzrhaYA==
-=rNcC
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/4iDQACgkQJNaLcl1U
+h9CyHgf9HtvCNzEw2eJRcTKci+FPIedgtUM8M7MmY7P0jga0gN4p+hUqaz6bmelX
+dE4PNGjmXCrHBtfeZLRUW6WwfNtAJSlrIZdLYLXQYJBbo8TLA0P6+BJb6oaER7oi
++CX4hqfaeXWl9e+NNgZqJj0DhCL4U5PPrgE6P+4cYD2PhchZ347dJxn9ddK3ZRxi
+D9mBz+amI8XQ30n9d7+OdNSDpmVzkpg1A98PYRBQLZpHG1bBLf0n2kR+O1KY1XW+
+QgPumxNWvca5ueTAsFR9PeDEO6qRqqIEiKYYMcooUbGK9PBKRznucL4Xk1398Y+L
+n4vd9vS0cjNvBUPCmOhMvGEEJ82YSQ==
+=oExZ
 -----END PGP SIGNATURE-----
 
---===============4468896096115892750==--
+--===============5653204850606846320==--
