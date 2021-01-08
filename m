@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Fri, 08 Jan 2021 15:52:59 -0000
-Message-Id: <161012117917.9152.1753712728362491805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Fri, 08 Jan 2021 15:55:15 -0000
+Message-Id: <161012131536.11340.15036253669957800408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/coresched
-    old: 47d68fad28f4a31e40f9b6294370266a45619fa1
-    new: e9daf8f478180fee3db4488c7475cbd8fd8c4453
+  - ref: refs/heads/xfs/shrink_lastag2
+    old: c989d65a83ef9280776a45708778eb544c030e1f
+    new: 0b239c1f5f4657a04efab328f1da6f1d66fe5373
     log: |
-         eb8bb0abdd124f755026c11325db90eeac499659 sched: CGroup tagging interface for core scheduling
-         4474b8cc9bd9767bfae83d0b40ccae8e357f70ae kselftest: Add tests for core-sched interface
-         e9380bd2c6ca03e75f6fb296c6d3cdd5acf8ec20 Documentation: Add core scheduling documentation
-         31c4684756ac043dc6e248f048baf0f51009a8fe sched: Debug bits...
-         e9daf8f478180fee3db4488c7475cbd8fd8c4453 sched: Add a coresched command line option
+         9e61f37e0460210278949e6c3973c6491ee4661c xfs: get rid of xfs_growfs_{data,log}_t
+         f9e1aeace0d35e5c8804371f35b0f2906f97e7e5 xfs: hoist out xfs_resizefs_init_new_ags()
+         0b239c1f5f4657a04efab328f1da6f1d66fe5373 xfs: support shrinking unused space in the last AG
          
