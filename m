@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/usb
-Date: Fri, 08 Jan 2021 00:47:49 -0000
-Message-Id: <161006686947.15695.10435256188231055781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 08 Jan 2021 00:51:33 -0000
+Message-Id: <161006709312.18147.540651896937607646@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peter.chen/usb
-user: peter.chen
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-usb-fixes
-    old: 4c1dc9c955ce2398d8a41b949bb0b7ada65a1295
-    new: 491b1bea00040233b791dc8fea1608ac6a7003bc
+  - ref: refs/heads/main
+    old: f580dc2bc1a06ad1511969fb5b04406c4a8e37ce
+    new: 060ad8b3d505e2ff8878d11a81da3532b983cd45
     log: |
-         491b1bea00040233b791dc8fea1608ac6a7003bc MAINTAINERS: update Peter Chen's email address
+         0f0aefd733f70beae4c0246edbd2c158d5ce974c brcm: remove old brcm firmwares that have newer cypress variants
+         060ad8b3d505e2ff8878d11a81da3532b983cd45 cypress: Link the new cypress firmware to the old brcm files
          
