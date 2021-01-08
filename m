@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6815260026563903623=="
+Content-Type: multipart/mixed; boundary="===============5089637220879564679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 08 Jan 2021 21:52:11 -0000
-Message-Id: <161014273162.11645.16862148013981499228@gitolite.kernel.org>
+Date: Fri, 08 Jan 2021 21:52:30 -0000
+Message-Id: <161014275006.11947.3182500821099001853@gitolite.kernel.org>
 
---===============6815260026563903623==
+--===============5089637220879564679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 17b75d3fe3997b62b61a3a30a077a4fca2f47828
     new: 9a8120a8d7eb872da43e61d598c226f0d6b7ce5f
     log: revlist-17b75d3fe399-9a8120a8d7eb.txt
 
---===============6815260026563903623==
+--===============5089637220879564679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -225,4 +225,4 @@ ec24e11e0817404ef9e04b50170e1a68793cd9f5 bpf: Replace fput with sockfd_put in so
 be9df4aff65f18caa79b35f88f42c3d5a43af14f net, xdp: Introduce xdp_prepare_buff utility routine
 9a8120a8d7eb872da43e61d598c226f0d6b7ce5f selftests/bpf: Remove duplicate include in test_lsm
 
---===============6815260026563903623==--
+--===============5089637220879564679==--
