@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8743357189225740457=="
+Content-Type: multipart/mixed; boundary="===============3518492764962423162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 08 Jan 2021 15:23:49 -0000
-Message-Id: <161011942967.21252.1422769199046419171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 08 Jan 2021 15:27:38 -0000
+Message-Id: <161011965842.23762.3384970209692578606@gitolite.kernel.org>
 
---===============8743357189225740457==
+--===============3518492764962423162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: afded6d83aa7b35dab675c730528109cc58d6847
-    new: 384b77fd48fd683a82760bc88bef8611cba997fc
-    log: |
-         384b77fd48fd683a82760bc88bef8611cba997fc Fonts: font_ter16x32: Update font with new upstream Terminus release
-         
+  - ref: refs/heads/rcu/next
+    old: 81245510ceac7a380a98d1cc469be84d884e8c0f
+    new: cffdc9c7c24c0bcdd0c9735a8eaca2a39d5c1291
+    log: revlist-81245510ceac-cffdc9c7c24c.txt
 
---===============8743357189225740457==
+--===============3518492764962423162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-81245510ceac-cffdc9c7c24c.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610119500 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1610119420-5ddbfe1a27dea0debfc9332a9c6aabcc91292990
+6e9c2c547d9b5182bf130102597f01d1fda28b1d torture: Break affinity of kthreads last running on outgoing CPU
+fe0f7fe4725c17b87d37f5f1391b4c8fac1452ae rcutorture: Add rcutree.use_softirq=0 to RUDE01 and TASKS01
+a46e34f574906cc37c0b347d5fe8cfb8fb01dc43 Merge branches 'clocksource.2021.01.06a', 'cpumask.2021.01.04a', 'doc.2021.01.06a', 'fixes.2021.01.04b', 'kfree_rcu.2021.01.04a', 'mmdumpobj.2021.01.04a', 'nocb.2021.01.06a', 'rt.2021.01.04a', 'stall.2021.01.06a' and 'tortureall.2021.01.06a' into HEAD
+41255152beefec94b2a41c67cb597c7e7d5bc8f6 Merge branch 'kcsan.2021.01.04a' into HEAD
+261183c0e515258a0383c7ef42a70f25df016df6 Merge branch 'lkmm-dev.2021.01.04a' into HEAD
+4164efdca255093a423b55f44bd788b46d9c648f mm: Don't build mm_dump_obj() on CONFIG_PRINTK=n kernels
+98f1c150c5746af195870582cbcb75517135e3d5 EXP rcuscale: Add crude tests for mem_dump_obj()
+29ca17aa4268a9bcc014ff5f7fbd79e33743158b x86/mce: Make mce_timed_out() identify holdout CPUs
+ad596f5fbfab93493f928003b297c5e766cf54a2 sched/idle: Fix missing need_resched() check after rcu_idle_enter()
+7bc268d8ae9e63421b57d6af36fdf940d5f11ea6 cpuidle: Fix missing need_resched() check after rcu_idle_enter()
+36f68198523fb1738ea0bee1c325f8eddc868067 torturescript: Don't rerun failed rcutorture builds
+cffdc9c7c24c0bcdd0c9735a8eaca2a39d5c1291 EXP sched: Print list of runnable tasks in the current rq
 
-afded6d83aa7b35dab675c730528109cc58d6847 384b77fd48fd683a82760bc88bef8611cba997fc refs/heads/char-misc-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/4eUwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E5oQALjcYQQH9KUnlbrtGnFM
-ITCELjCHq53EVo5x8GNQaPp0ItcdjI8/1WYqekIIMBN0Sdfmi9QTSrcHzl1hR1GQ
-TikNNYtk0eheJGvtyrOjHECLOcWTVeKx2rIkUcQj5UF7p41wjYYklCG+Vdlz46vY
-9WFgTWTFjnfdI4Lceso0ACTfe3HrGSzwxABHDSWWuH0wTr90G/3n08PYBalKIrk3
-BqfX+vYs++u6J1UKFvvtlImZOmPWIdTjpsz9nbpYHXvm284S7c1KiBrLhiTZ4nP6
-GciK9kQvp5Ga6CjASbau9P0p9A5+PtzqsVrm6dXv67/FN2QUhvXz+nMJilmXuNOc
-ipXtXxrYkouM4p2Xe4MGnK6tPCnra5yH7vbGPRrS92aPhh0bDIcqRAnINujfpzt+
-ZpwMQXvyTyGDYZdhb4w2/oIz6shS9XLtZV8B/REMElM2Pit15Iruvrq99w3KApGo
-Nm5syOHUVUnmofWqmzkhiQ6kke61ivPdNjNEl3wn1AWMl4vEWLuY7hjjHO69kstt
-BuHXbBVH3yhf+DWN7FsbVk16lKv6/mdlUKQnIR43YkyEvIdCULHW/wzrqv9+dyr4
-3WQxq6phNp4P/a1Tx7kq2B8+00y0f289WqM/UmmKwv+YGjd8Bj9ddVAF5rQ8rf1h
-KE8PqEAsZr4d4WVERMvIdSmo
-=FVMl
------END PGP SIGNATURE-----
-
---===============8743357189225740457==--
+--===============3518492764962423162==--
