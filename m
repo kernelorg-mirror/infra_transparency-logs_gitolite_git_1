@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 08 Jan 2021 02:05:02 -0000
-Message-Id: <161007150284.7124.9130237716155919081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 08 Jan 2021 02:42:57 -0000
+Message-Id: <161007377738.29905.10929053976018816724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/fixes
-    old: 11f4c2e940e2f317c9d8fb5a79702f2a4a02ff98
-    new: 643437b996bac9267785e0bd528332e2d5811067
+  - ref: refs/heads/master
+    old: 85bd6055e3529e9b193b4460f5b13a47da354027
+    new: ac7996d680d8b4a51bb99bbdcee3dc838b985498
     log: |
-         1f1496a923b6ba16679074fe77100e1b53cdb880 riscv: Fix sifive serial driver
-         643437b996bac9267785e0bd528332e2d5811067 riscv: Enable interrupts during syscalls with M-Mode
+         ac7996d680d8b4a51bb99bbdcee3dc838b985498 octeontx2-af: fix memory leak of lmac and lmac->name
          
