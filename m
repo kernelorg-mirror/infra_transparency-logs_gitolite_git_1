@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3579180856249289509=="
+Content-Type: multipart/mixed; boundary="===============4569363910470184582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 08 Jan 2021 06:20:00 -0000
-Message-Id: <161008680010.9708.1615222049459279208@gitolite.kernel.org>
+Date: Fri, 08 Jan 2021 06:34:52 -0000
+Message-Id: <161008769241.20489.16521108170308123509@gitolite.kernel.org>
 
---===============3579180856249289509==
+--===============4569363910470184582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,39 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/crypto-pending
-    old: f217089d7e16e882b3b6024fe2ca0a0e3d2a6c3d
-    new: f7b787677f9e2d538d07925b3fef639e7d1d5698
-    log: revlist-f217089d7e16-f7b787677f9e.txt
+  - ref: refs/heads/testing
+    old: 09098400da5820db0c0da74d1e05db1efe1d1304
+    new: 17d0b55058d0d84e3660c80749d4b263d2477368
+    log: revlist-09098400da58-17d0b55058d0.txt
 
---===============3579180856249289509==
+--===============4569363910470184582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f217089d7e16-f7b787677f9e.txt
+Content-Disposition: attachment; filename=revlist-09098400da58-17d0b55058d0.txt
 
+df9716ec9ade3d2e190a2aac199557d30a3a8416 regulator: pf8x00: Use specific compatible strings for devices
+127a7a95df41731632c7348960908751f7f9d049 Merge remote-tracking branch 'spi/for-5.10' into spi-5.11
+4aa1464acbe3697710279a4bd65cb4801ed30425 spi: spi-geni-qcom: Fix geni_spi_isr() NULL dereference in timeout case
+690d8b917bbe64772cb0b652311bcd50908aea6b spi: spi-geni-qcom: Fail new xfers if xfer/cancel/abort pending
+3d7d916f9bc98ce88272b3e4405c7c685afbfcd6 spi: spi-geni-qcom: Don't try to set CS if an xfer is pending
+17fa81aa702ec118f2b835715897041675b06336 spi: spi-geni-qcom: Print an error when we timeout setting the CS
+a590370d918fc66c62df6620445791fbe840344a spi: stm32: FIFO threshold level - fix align packet size
+3b66e4a8e58a85af3212c7117d7a29c9ef6679a2 regulator: bd718x7: Add enable times
+2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc Merge tag 'v5.11-rc1' into regulator-5.11
+8db90aa36063f471bea1e65e23185913043852dc Merge tag 'v5.11-rc1' into spi-5.11
+cffa4b2122f5f3e53cf3d529bbc74651f95856d5 regmap: debugfs: Fix a memory leak when calling regmap_attach_dev
+ede090f5a438e97d0586f64067bbb956e30a2a31 spi: altera: fix return value for altera_spi_txrx()
+6820e812dafb4258bc14692f686eec5bde6fba86 spi: Fix the clamping of spi->max_speed_hz
+6170d077bf92c5b3dfbe1021688d3c0404f7c9e9 spi: fix the divide by 0 error when calculating xfer waiting time
+2bf3a72b08e7f6356a2db9e1571ca65f683510bb dt-bindings: regulator: qcom,rpmh-regulator: add pm8009 revision
+df6b92fa40050e59ea89784294bf6d04c0c47705 regulator: qcom-rpmh-regulator: correct hfsmps515 definition
+d957d1610c661e758426654de3b04bea6fb29f8b regulator: qcom-rpmh: add QCOM_COMMAND_DB dependency
+36836f5b377b5a75c16f5bdc5c0f97f9f51212e1 Merge qcom driver fix into regulator-5.11
+f6bcb4c7f366905b66ce8ffca7190118244bb642 regmap: debugfs: Fix a reversed if statement in regmap_debugfs_init()
+fc37784dc71bc9dd3a00a2f01906b3966e4034f2 Merge tag 'regmap-fix-v5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+a1a7b4f32433e91f0fff32cde534eadc67242298 Merge tag 'regulator-fix-v5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+f5e6c330254ae691f6d7befe61c786eb5056007e Merge tag 'spi-fix-v5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 86ad60a65f29dd862a11c22bb4b5be28d6c5cef1 crypto: x86/aes-ni-xts - use direct calls to and 4-way stride
 2481104fe98d5b016fdd95d649b1235f21e491ba crypto: x86/aes-ni-xts - rewrite and drop indirections via glue helper
 622aae879c1d9449562e0cae353691a2a1f9eec0 crypto: vmx - Move extern declarations into header file
@@ -55,5 +77,6 @@ e9b5db56e9f85615674e03bcfb976e33fb94e9ff crypto: x86 - use local headers for x86
 713b8a16507e23a3e0ffe400f39ffad12cd6d98e crypto: x86/gcm-aes-ni - clean up mapping of associated data
 9312a41927904fffbb89a2f61ccb3089831ff863 crypto: x86/gcm-aes-ni - refactor scatterlist processing
 f7b787677f9e2d538d07925b3fef639e7d1d5698 crypto: x86/gcm-aes-ni - replace function pointers with static branches
+17d0b55058d0d84e3660c80749d4b263d2477368 Merge remote-tracking branches 'ebiggers/crypto-pending', 'ebiggers/f2fs-pending', 'ebiggers/mmc-pending', 'ebiggers/random-pending' and 'ebiggers/vfs-pending' into testing
 
---===============3579180856249289509==--
+--===============4569363910470184582==--
