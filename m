@@ -1,28 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 08 Jan 2021 16:29:49 -0000
-Message-Id: <161012338903.32154.12227918043678839893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
+Date: Fri, 08 Jan 2021 16:50:29 -0000
+Message-Id: <161012462984.12172.4089001009143988353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/utils/cpu/mce/mcelog
+user: ak
 changes:
-  - ref: refs/heads/for-linus
-    old: 02b3446f68d58c932182c8d1a6443026cefc16f5
-    new: d7d09a547aac1436637958b7f9dfe0709797d8dd
+  - ref: refs/heads/master
+    old: c0acd0e6a639af89a527aebe4bcf7db4f8bb6f87
+    new: 7b776a8c005b60572f49797e81287540f99fff1f
     log: |
-         d7d09a547aac1436637958b7f9dfe0709797d8dd Merge remote-tracking branch 'spi/for-5.11' into spi-linus
+         cb16066b70d0e07d9019e6f420375607d555aa79 mcelog: Limit memory consumption for counting CEs per page
+         36223636a167dcc35dfc3a949e8fb9ee5d44f22e mcelog: Report how often the replacement of page CE counter happened
+         fe4c9023c0faf5b19ff331e95f0b3961eeb82b79 mcelog: Use 'num-errors' to specify the number of mce records to be injected.
+         7b776a8c005b60572f49797e81287540f99fff1f mcelog: Add a test case to test page error counter replacement.
          
-  - ref: refs/heads/for-next
-    old: e645b1fb4c63d2a32f9a8fce6422a849f84419c6
-    new: 2ed03653da040196c9cfea1133acc22fb16a6cf9
-    log: |
-         8728a81b8f1007426d8f341c5d2400da60f4cea2 spi: Fix distinct pointer types warning for ARCH=mips
-         6be69293196c1700de2df3b32417c6eda2b12009 spi: renesas,sh-msiof: Add r8a779a0 support
-         d7d09a547aac1436637958b7f9dfe0709797d8dd Merge remote-tracking branch 'spi/for-5.11' into spi-linus
-         2ed03653da040196c9cfea1133acc22fb16a6cf9 Merge remote-tracking branch 'spi/for-5.12' into spi-next
-         
+  - ref: refs/tags/v175
+    old: 0000000000000000000000000000000000000000
+    new: 7b776a8c005b60572f49797e81287540f99fff1f
