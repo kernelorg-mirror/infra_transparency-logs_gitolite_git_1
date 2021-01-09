@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Sat, 09 Jan 2021 22:28:58 -0000
-Message-Id: <161023133841.28073.10189301548299463130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 09 Jan 2021 22:32:17 -0000
+Message-Id: <161023153753.30545.11718214852880165350@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 8f14dc61422df3b1eaee1293a7d10ba791c8084c
-    new: 674428a527931d86bfb164abcc847508b3be2742
+    old: b210de4f8c97d57de051e805686248ec4c6cfc52
+    new: 3502bd9b5762154ff11665f3f18f6d7dcc6f781c
     log: |
-         c736b361190e1133b4d407a6c7615bf8c4d9c262 num2str: fix precision loss bug when the fractional part is close to 1
-         674428a527931d86bfb164abcc847508b3be2742 Merge branch 'num2str-patch' of https://github.com/gloit042/fio
+         3502bd9b5762154ff11665f3f18f6d7dcc6f781c selftests/tls: fix selftests after adding ChaCha20-Poly1305
          
