@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 09 Jan 2021 11:53:41 -0000
-Message-Id: <161019322154.22041.6713160264340071086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Sat, 09 Jan 2021 12:32:07 -0000
+Message-Id: <161019552768.14034.18136154785588543244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 3ded684c1a4b6104e1d4b7400015f8bf76dc75b9
-    new: 3d81c05a7997f32decebc93fce3d69102bed74f9
+  - ref: refs/heads/main
+    old: a28a5905b0fb6d84e02e45ae77cc450dea1494d1
+    new: d5288624259300c558480c21a860fcf94187d29d
     log: |
-         031115a52cb5cdd3830704689238e1e0e29f8cd7 inode.7: wfix
-         36dce687471f1801f30a716120408063fd66fa21 open.2: wfix
-         5473bd6687d21ff9edc3884f5c41a0ba1ae6d213 smartpqi.4: tfix
-         3d81c05a7997f32decebc93fce3d69102bed74f9 time.1, ioctl_console.2, daemon.3, updwtmp.3, mouse.4, smartpqi.4: tfix (Oxford comma)
+         870b805dc77e3f7acb7e6c36944936e310be2478 brcm: Update Raspberry Pi 3B+/4B NVRAM for downstream changes
+         d5288624259300c558480c21a860fcf94187d29d brcm: Add NVRAM for Vamrs 96boards Rock960
          
