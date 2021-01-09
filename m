@@ -1,53 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7743446658498346363=="
+Content-Type: multipart/mixed; boundary="===============5392222127214706011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 09 Jan 2021 12:45:56 -0000
-Message-Id: <161019635631.15685.11919571638459047512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sat, 09 Jan 2021 12:45:59 -0000
+Message-Id: <161019635995.15773.17740652485404667679@gitolite.kernel.org>
 
---===============7743446658498346363==
+--===============5392222127214706011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/v5.10.6
-    old: 0000000000000000000000000000000000000000
-    new: 3a009ea166de1d0b804ddc6274b559c2ce0eebf3
+  - ref: refs/heads/queue/5.10
+    old: 2320c95c4b7f2f2d8e0ff4354bff4540130d5f81
+    new: 3fbdcc7aed2409c0add0326d10ed0a4199b4af9b
+    log: revlist-2320c95c4b7f-3fbdcc7aed24.txt
 
---===============7743446658498346363==
+--===============5392222127214706011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2320c95c4b7f-3fbdcc7aed24.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610196432 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1610196354-00b488323e730bda7813d7f887c9456dacbb00ba
+09768e13b6867fe15ac4ef36bbd7ff2265b543af Revert "drm/amd/display: Fix memory leaks in S3 resume"
+89411c5373eaebff5c22b02018595c0e6d192fb0 Revert "mtd: spinand: Fix OOB read"
+8d94c4be1441af09d7c06c2a877de6e78ba06cfa rtc: pcf2127: move watchdog initialisation to a separate function
+5b320f041d8797b7aa9b4bfe602af7f5a7e9fc26 rtc: pcf2127: only use watchdog when explicitly available
+81ba67c4f5ba1ac7e947687b34769a90d5e3ec8b dt-bindings: rtc: add reset-source property
+b7d508c1d72f706ed7431ced0cd19bcc3aae6bb4 kdev_t: always inline major/minor helper functions
+89de03fcfc68420bb07c09a5bb9427bf7d195718 Bluetooth: Fix attempting to set RPA timeout when unsupported
+bce49ba76e3d110187398214535205f7902b54a2 ALSA: hda/realtek - Modify Dell platform name
+7cdb30170e3eb4d9cb884dac081c73c5ecc21e86 ALSA: hda/hdmi: Fix incorrect mutex unlock in silent_stream_disable()
+740f5defa6fc15d38773bfc4d20f913f1fcec177 drm/i915/tgl: Fix Combo PHY DPLL fractional divider for 38.4MHz ref clock
+a255464df5c0a1ccaaba328225d2f03e918a3bd5 scsi: ufs: Allow an error return value from ->device_reset()
+e7eb40b0543982c278068733206c1f49d0c0ad92 scsi: ufs: Re-enable WriteBooster after device reset
+a93fe95a5810590862b9caf8cc7f7156927a2270 RDMA/core: remove use of dma_virt_ops
+17c79071e225a272c2266b0bfb131d448f3dd4a9 RDMA/siw,rxe: Make emulated devices virtual in the device tree
+6fab615fe60de793c02e16cfdda9e5b447707a99 fuse: fix bad inode
+894156fe81e2bc508e49a5afe3e9c1100308d498 perf: Break deadlock involving exec_update_mutex
+b01d2dd34b2e152c40a06f72596e824208b202e2 rwsem: Implement down_read_killable_nested
+2f7ba62e0103ca6a6693dce72f1966d9a93c04ec rwsem: Implement down_read_interruptible
+368b1885fc7c99bd87e1e40ae6afc4596be36132 exec: Transform exec_update_mutex into a rw_semaphore
+3fbdcc7aed2409c0add0326d10ed0a4199b4af9b mwifiex: Fix possible buffer overflows in mwifiex_cmd_802_11_ad_hoc_start
 
-0000000000000000000000000000000000000000 3a009ea166de1d0b804ddc6274b559c2ce0eebf3 refs/tags/v5.10.6
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/5pdAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sXcP/3nHhoH87Nf3daINVoZ6
-HY80aYnhUi+nyB6DtoiW3Czqz7KdVbaUloXORv+QI9UFjQ/n40dAlImN9a7ohCf4
-Fj7Gsifw8n9yfl6pT3SjFjS/jvYaJ86PFDoO8/B5aQRCs801XpxSrRKTKkeu2K0t
-FrvhRvK9MEY9TtBM9LHR+b+GUWplHfMYFz06SP+HCjV8IYh4k3p18Hmag1abJd1W
-RvLtNXN4Nr6FamFHO5MBTqg4OHamqEWCFFeVI591EohO3fdomZB6QPakkQ6Wvt0b
-Z31S5AVT5rtGsRe295ZBNAt1s7DUk07SEUO6qavLaaSbZ2FchSfDuixkBNUSOpg9
-YaDeDhJ9O/644h+YOOSef959+p5G3hKxIOzyvk+tHXNYqPa7gbPmVW5thnI13tp4
-/qQLKno2Brm+nDJ8/ZbHzJ0y/uWGUMhl1MowXwxBsTNPUjC7QvkuDXAGmm1/7kqn
-qYp8KB5IZHgEV/CxZGhxmMY+1QmsA+G+pT2e6mVyDXrA5TXy9Cgqr6MC0bpyghbl
-My/lmIUprx1p+Lw9nUgK4P25sYWTtcwC3NrMCyVWvrzZexnxRoski4aYNYi0OAxp
-F/ch992kVjE2eiwjYf28vYVuSG52tdeoaZn3n4xcAiX8CPJLbcHbg3CZ5pIskO7P
-EhOZ1R5zttwufXWBiwm5QNga
-=JCpL
------END PGP SIGNATURE-----
-
---===============7743446658498346363==--
+--===============5392222127214706011==--
