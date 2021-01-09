@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 09 Jan 2021 02:47:02 -0000
-Message-Id: <161016042240.6915.14119614436995920465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sat, 09 Jan 2021 02:54:28 -0000
+Message-Id: <161016086889.12826.11404073848891712796@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 6279d812eab67a6df6b22fa495201db6f2305924
-    new: afba9dc1f3a5390475006061c0bdc5ad4915878e
-    log: |
-         afba9dc1f3a5390475006061c0bdc5ad4915878e net: ipa: modem: add missing SET_NETDEV_DEV() for proper sysfs links
-         
+  - ref: refs/heads/hwmon-next
+    old: d444dcb933452b2de609f827a5dd66001a3a67dd
+    new: d1f7b079ce5b69c88c813439eea6a9c133f0846b
