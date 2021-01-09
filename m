@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 09 Jan 2021 02:05:40 -0000
-Message-Id: <161015794022.12079.13610395635270216655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Sat, 09 Jan 2021 02:31:17 -0000
+Message-Id: <161015947719.28169.14924400020001985006@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 263da3330f6c0e4af603ec62f291e43eb3001f7b
-    new: 996e435fd401de35df62ac943ab9402cfe85c430
+    old: 77539238b29b3f00d6dd3f2eade01d922c8153c3
+    new: 4bce3dbd12a0b83a6de3d87f3e57b76faf45ff2d
     log: |
-         4f8b848788f77c7f5c3bd98febce66b7aa14785f zonefs: select CONFIG_CRC32
-         996e435fd401de35df62ac943ab9402cfe85c430 Merge tag 'zonefs-5.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
+         4bce3dbd12a0b83a6de3d87f3e57b76faf45ff2d cert: Add l_cert_load_container_file
          
