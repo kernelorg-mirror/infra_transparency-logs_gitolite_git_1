@@ -1,53 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============6761486205058908959=="
+Content-Type: multipart/mixed; boundary="===============5483474710163763933=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 09 Jan 2021 12:43:06 -0000
-Message-Id: <161019618673.26237.7178852787000850673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 09 Jan 2021 12:43:16 -0000
+Message-Id: <161019619668.26392.11657898766752525283@gitolite.kernel.org>
 
---===============6761486205058908959==
+--===============5483474710163763933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v4.19.166
-    old: 0000000000000000000000000000000000000000
-    new: 4a583b48265a246176e8e47486e828dbe0092926
+  - ref: refs/heads/linux-4.19.y
+    old: 4143d798313fffa39f05bf24dd560ace42225c26
+    new: 610bdbf6a174c9a91e34e276a9594114b44bef74
+    log: |
+         e138a9e4d4099b269581c18f0fd85c9d8c2c207b Revert "mtd: spinand: Fix OOB read"
+         463ce51ac070b81d2ed99bc9bdce12a2cb37e464 dmaengine: at_hdmac: Substitute kzalloc with kmalloc
+         7dbe15aba74fe333e082ddceba3e57a2737ec372 dmaengine: at_hdmac: add missing put_device() call in at_dma_xlate()
+         7d543d23fec75c13facaf64cf7c69813835fc638 dmaengine: at_hdmac: add missing kfree() call in at_dma_xlate()
+         f8eaa05252e165a6921631449537047096aa51e0 kdev_t: always inline major/minor helper functions
+         74729e663d12bf0632feaa05963a047d649f322e iio:imu:bmi160: Fix alignment and data leak issues
+         f817a9938e0652856a8dfceb29193f1f79ffc145 iio:magnetometer:mag3110: Fix alignment and data leak issues.
+         b35029a1f24fe511af750537e6565dcf68e5c862 mwifiex: Fix possible buffer overflows in mwifiex_cmd_802_11_ad_hoc_start
+         610bdbf6a174c9a91e34e276a9594114b44bef74 Linux 4.19.166
+         
 
---===============6761486205058908959==
+--===============5483474710163763933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610196263 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1610196185-399c020dec5908327bf18b8745539c05ca9e098f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610196273 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1610196194-0696a2b0be42d338e2022a18ca87ca5e090fdd74
 
-0000000000000000000000000000000000000000 4a583b48265a246176e8e47486e828dbe0092926 refs/tags/v4.19.166
+4143d798313fffa39f05bf24dd560ace42225c26 610bdbf6a174c9a91e34e276a9594114b44bef74 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/5pScbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FikP/1Lf2PVk/FgzYK6DbI8F
-RMB3avn/0U9uCxly2g9g//dvmE17hy087KrVGmtteFGdt8VN3TP6XcTPa78DxQqj
-bxf9hQhkQh6+7e1l92EUpF6R4hYrn813q6t244dREljceNU0Go7h8fqapknrv5jd
-RV32AdG9QHApktJbOYSxnKNkEvmOzba2SF3+0NZCt36o/uShMBAn2roZmcHfVT/d
-3SsMUDhCmym6JxiedbiRgEg4m8ig+VAj+d0JqAFXbkF6PzisJdO8bzbNrcrkQu7O
-83Ml9BqJC+wgPGb/iovPhMibDP79MPU0GPY45ZJxNcwm09aGnc2Z23ocL/hoEgnI
-BQhJlidRLKzlfo3D3fv5x/Qfb2NWyE6MWxjRq7A8Y/xMZpA1nrPHc9lscvRzAU9m
-VIyglhC/8WYDrnw66wPWZK03oINuqftSwewA/DGzQ9tVhaxtLnXUKHv0Sn3rdXIs
-gnVnQbXQMcL4KBXojtkAHagLRTqbA2KB6Md7oMDAUxRPlPFVn9fBIcaqlOr1vkJ3
-Kl1yLfKWJPBKW0d/GEy3zAiBBBpflu81gJPJafO2/PxIrFgD/TmJUMokwK1pgT/V
-6Qb4RbqgjTUMJBpl5y1zFqrrmjKtChy6zmtVwTMwOpxf1h97mLAEatihgR/x7cCl
-uHe9uB/MmtkGxjFNUT/vmjDs
-=w7J6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/5pTEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i44P/R7TJ/OVf5ULy8uBlBaR
+2zPbg8ciwX27NBv8eFU6aFXUoIKQBnPhuWrMJTD0UMkD2zMUudikaRM8fj/+/HII
+k0UaF32510Ancvj0hWp+rU5qIct2l2YPj4wXOCVZBz/0f1lwehuJiiwhVpWWcdBV
+eAyPdg4H5BAi/jwjRQ+VD5eLqT1QZ2q/W3AE6yaCSf+BBIhK3pXCuJ7FbuFszm2G
+nQTLD2rZ9lsHzvZzVCRMlg62H5+28DO5PZgONOjXbFst+ZAOyZrCOJCLaWb8lHSN
+HbepNxdlbfn28V9K61xlIpcD/vvDqkgXy83sw6FrDY8DjdiCTlaZBEAf6znaF7MS
+j2MLnWIV/KqfnlkH+0f77NjCLMgQNEqoe7NNvINDm3g5r0C9379Nv6z8e5OyQ0Wo
+YSyjHgVCGbtMY2xNBv7wK2NuF2UcM+qG3oo0NCteixlI9L+5uhvEUo/J2UeQg3C/
+kWtOfK7bralv9Qf++pGWs2sfhfJdF0/zNIyKkO41YAxMOV0hKVWXJTErp1rISiAe
+KeChJO/qVuGGXAECxPxScPgL3uYE24kBvPZ8/MkFuT/G4bMOgugg+sMK+j5Mekik
+eYpY+OoAGvRyyYnNZ4m7IzyjWoeJyraHZh6k6nHCRtRNBYr2luT6P6jCgWE7onOa
+SnVOGi2fDFREUsN8BLFZub/B
+=A1L2
 -----END PGP SIGNATURE-----
 
---===============6761486205058908959==--
+--===============5483474710163763933==--
