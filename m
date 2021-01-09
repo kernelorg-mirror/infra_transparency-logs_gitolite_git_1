@@ -1,57 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4281674664356788461=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 09 Jan 2021 10:49:35 -0000
-Message-Id: <161018937558.11446.18015192460304506189@gitolite.kernel.org>
-
---===============4281674664356788461==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Sat, 09 Jan 2021 10:52:25 -0000
+Message-Id: <161018954573.13922.11586920225967193780@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/usb-next
-    old: ed054e4e95d6cb0582f1283707ddb40f18d14bfb
-    new: 841081d89d5adf96759f2df50185de950f5d8694
+  - ref: refs/heads/for-next
+    old: 5b569302520ac8cef03e7a841e45cb37234f8b5f
+    new: fc00bc8ac1dada4085f9308f85f2d6359da0faa8
     log: |
-         4d7aae9f7a18f27ade0fc1d275f272f23529d6ba usb: gadget: configfs: Add a specific configFS reset callback
-         841081d89d5adf96759f2df50185de950f5d8694 usb: usbip: Use DEFINE_SPINLOCK() for spinlock
+         c167b9c7e3d6131b4a4865c112a3dbc86d2e997d platform/surface: Add Surface Aggregator subsystem
+         44b84ee7b437dd7f869341b4b671963161a34a9f platform/surface: aggregator: Add control packet allocation caching
+         3a7081f610a0ff6385f38cf65a019383cd34bfdd platform/surface: aggregator: Add event item allocation caching
+         0d21bb8560ef6bd09cab873120f940a939ad3aec platform/surface: aggregator: Add trace points
+         02be44f6b5a9e4ff1215d337ac4d2a6fbafc7874 platform/surface: aggregator: Add error injection capabilities
+         eb0e90a82098d4a48308abb87d2087578a83987f platform/surface: aggregator: Add dedicated bus and device type
+         8d7792823da4abd799d63aaceb23805203a5419e docs: driver-api: Add Surface Aggregator subsystem documentation
+         178f6ab77e617c984d6520b92e747075a12676ff platform/surface: Add Surface Aggregator user-space interface
+         fc00bc8ac1dada4085f9308f85f2d6359da0faa8 platform/surface: Add Surface ACPI Notify driver
          
-
---===============4281674664356788461==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610189362 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1610189360-8e0c1db836333e17e220a6f728db3fe3c975ee53
-
-ed054e4e95d6cb0582f1283707ddb40f18d14bfb 841081d89d5adf96759f2df50185de950f5d8694 refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/5ijIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YxAQAKBc10PWkddBrWSauClF
-3fHFyi0JRyuRhtx2aj5JkH9fuAdrQHvSMgRImBMD6bvfhSXCB6ttF4CTM8qsWc3D
-ygMI8PX/N7Bu+BhJFGY9+4a/ZZW9fLXhZA1juqGxD/I5CuevHXYzXiyqRxmniXbl
-ONF9ZAuoASq8Gat5HJOabOHhfwKA2HIvkg7kWIAoRK+EGcliF7ivR78o9q4KulV6
-04PjNzueySXBavkg3xfZJ/xJ95mf5iff3CT8Gv3IOzRymkUSPrRQiEvonoKespfW
-y2MTftB6ZRz/8kWAAdljMiqJ4PWg+wj3lB64qsJGrQwanEhYLmmqqc2sv3jxjrO+
-QmXX9u+TQysROy8VgKKW2KZC8sUtg/eePGMulxE/KnP4aesv9FVhHkJgac7wSSHP
-iwifvvywLd9718Pnmawee2R4G4QOoQ8ZiHkMgJGnvpJA4RSZyJDAV5JpnTOUYnJz
-dWspmZZMLdYsw1LoWoDpWxQLCXAs2dDW3UmcxwzJ9MTiO8j+CwCWI2xX4+QZIJmI
-grsBoVD0WSOf8CVl+/4zLh5iCLFQuHLJ6gkagTkDFGrP5wa4s52M/uW0x3IknAXg
-7nU3Y/s4rbkwcz5milYVSGwYghYA/43HD+wTNOvFamFmLk15Op8tGLK8WQ0iFHhF
-Tr/HlV7HClIgfY/6sQUoltIQ
-=F/SR
------END PGP SIGNATURE-----
-
---===============4281674664356788461==--
