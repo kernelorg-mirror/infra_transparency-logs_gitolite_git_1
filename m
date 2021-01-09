@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6868751838224694182=="
+Content-Type: multipart/mixed; boundary="===============2922431307623639735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 09 Jan 2021 04:35:28 -0000
-Message-Id: <161016692828.19059.5397081350383176503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Sat, 09 Jan 2021 04:36:26 -0000
+Message-Id: <161016698630.19456.8169176346781004903@gitolite.kernel.org>
 
---===============6868751838224694182==
+--===============2922431307623639735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 91d8161c1fcf061726975e04193b7cf091d13401
-    new: 6e668cc18571cf9e281cafc6e84929e10022947e
-    log: revlist-91d8161c1fcf-6e668cc18571.txt
+  - ref: refs/heads/numa
+    old: f9a51005f76c22d5071a4c44633c90e140f70355
+    new: 3ef0fe1f81d6996f921e10af9f35d1d61b643446
+    log: revlist-f9a51005f76c-3ef0fe1f81d6.txt
 
---===============6868751838224694182==
+--===============2922431307623639735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-91d8161c1fcf-6e668cc18571.txt
+Content-Disposition: attachment; filename=revlist-f9a51005f76c-3ef0fe1f81d6.txt
 
 665f1388bc9713c81989dda6eed5cde52d57c255 ARM: omap2plus_defconfig: drop unused POWER_AVS option
 f1dc15cd7fc146107cad2a926d9c1d005f69002a ARM: dts: OMAP3: disable AES on N950/N9
@@ -494,8 +494,6 @@ fb9ca0be63b49eece304f50023e736a678cc4159 Merge tag 'acpi-5.11-rc3' of git://git.
 8f3d8491d03594823a7f7d71d5063e1bcd03c75c Merge tag 'linux-kselftest-next-5.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 263da3330f6c0e4af603ec62f291e43eb3001f7b Merge tag 'linux-kselftest-kunit-fixes-5.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 996e435fd401de35df62ac943ab9402cfe85c430 Merge tag 'zonefs-5.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
-f25392e356d8f1f3e587ef6e9121d8aa5dc623f0 tpm: Fix fall-through warnings for Clang
-7095d0104f2be2b9cd1d5933c9f5322296f626a6 char: tpm: add i2c driver for cr50
-6e668cc18571cf9e281cafc6e84929e10022947e tpm: Remove tpm_dev_wq_lock
+3ef0fe1f81d6996f921e10af9f35d1d61b643446 x86/sgx: Add trivial NUMA allocation
 
---===============6868751838224694182==--
+--===============2922431307623639735==--
