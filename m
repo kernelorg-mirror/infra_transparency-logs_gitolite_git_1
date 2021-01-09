@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1848034861081449345=="
+Content-Type: multipart/mixed; boundary="===============6868751838224694182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 09 Jan 2021 04:35:10 -0000
-Message-Id: <161016691027.18909.14719710049455193235@gitolite.kernel.org>
+Date: Sat, 09 Jan 2021 04:35:28 -0000
+Message-Id: <161016692828.19059.5397081350383176503@gitolite.kernel.org>
 
---===============1848034861081449345==
+--===============6868751838224694182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 91d8161c1fcf061726975e04193b7cf091d13401
     new: 6e668cc18571cf9e281cafc6e84929e10022947e
     log: revlist-91d8161c1fcf-6e668cc18571.txt
 
---===============1848034861081449345==
+--===============6868751838224694182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -498,4 +498,4 @@ f25392e356d8f1f3e587ef6e9121d8aa5dc623f0 tpm: Fix fall-through warnings for Clan
 7095d0104f2be2b9cd1d5933c9f5322296f626a6 char: tpm: add i2c driver for cr50
 6e668cc18571cf9e281cafc6e84929e10022947e tpm: Remove tpm_dev_wq_lock
 
---===============1848034861081449345==--
+--===============6868751838224694182==--
