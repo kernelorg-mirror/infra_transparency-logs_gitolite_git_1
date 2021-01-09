@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3008859097094519648=="
+Content-Type: multipart/mixed; boundary="===============1532282994759545548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 09 Jan 2021 15:07:46 -0000
-Message-Id: <161020486657.15864.2413520431230573185@gitolite.kernel.org>
+Date: Sat, 09 Jan 2021 15:08:07 -0000
+Message-Id: <161020488764.16067.7339037097940764782@gitolite.kernel.org>
 
---===============3008859097094519648==
+--===============1532282994759545548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: fcfbd6e36df361d44ef058fdb261a9ee41bedefa
+  - ref: refs/heads/togreg
+    old: 4996b4610767064807d022dd731584f7ff78c309
     new: 39c50bace0612d82425a2f77767a3895d0214fdd
-    log: revlist-fcfbd6e36df3-39c50bace061.txt
+    log: revlist-4996b4610767-39c50bace061.txt
 
---===============3008859097094519648==
+--===============1532282994759545548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fcfbd6e36df3-39c50bace061.txt
+Content-Disposition: attachment; filename=revlist-4996b4610767-39c50bace061.txt
 
 39a0feaef1105d79028fac3078e3c67e137ce98d mm,hugetlb: remove unneeded initialization
 7fc2513aa237e2ce239ab54d7b04d1d79b317110 hugetlb: fix an error code in hugetlb_reserve_pages()
@@ -1051,4 +1051,4 @@ a97a6c60cbdb1ebc93585768ded7341f1eb0a68d iio: accel: kxcjk1013: Add rudimentary 
 67f4695ad223bab9954cc66248409ed77da0dbb7 dt-bindings: iio: gyroscope: bmg160: Document regulator supplies
 39c50bace0612d82425a2f77767a3895d0214fdd iio: gyro: bmg160: Add rudimentary regulator support
 
---===============3008859097094519648==--
+--===============1532282994759545548==--
