@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Sun, 10 Jan 2021 01:56:48 -0000
-Message-Id: <161024380864.30797.13193153620587125385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 10 Jan 2021 02:07:49 -0000
+Message-Id: <161024446931.4324.3961093644277752643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/aa
-user: andrea
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 9e0ca82b66dec449a154afa0e4728c9266609e00
-    new: fc5a76b1c14e5e6cdc64ece306fc03773662d98a
+    old: 430cc4841f3fef78e4cbad8e45efe5a52d01a354
+    new: 4b9c935898dd69b7b73a370325fa95f5bf796bcd
     log: |
-         fc5a76b1c14e5e6cdc64ece306fc03773662d98a mm: restore full accuracy in COW page reuse
+         4b9c935898dd69b7b73a370325fa95f5bf796bcd net: dsa: dsa_legacy_fdb_{add,del} can be static
          
