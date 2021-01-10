@@ -1,54 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5308285623676759333=="
+Content-Type: multipart/mixed; boundary="===============5838095610338523871=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sun, 10 Jan 2021 13:01:43 -0000
-Message-Id: <161028370315.31998.2117347844029031071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 10 Jan 2021 13:04:11 -0000
+Message-Id: <161028385194.392.17511544446145488845@gitolite.kernel.org>
 
---===============5308285623676759333==
+--===============5838095610338523871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 775cb1abec1750def39223bf0688b6907478cbb0
-    new: e99265263b99325c8e3161efa7981592ed9c998d
+  - ref: refs/heads/master
+    old: b32951e8ff8c3243bcc20e4e9eb7fbbd22938216
+    new: 987d2980d7eef0afcb169752ff215d4f7118242c
     log: |
-         464110d3c75103126bb814519e720fa3276576e5 ARM: take memreserve FDT entries into account when discovering base of RAM
-         e99265263b99325c8e3161efa7981592ed9c998d ARM: axxia: remove TEXT_OFFSET override hack
+         987d2980d7eef0afcb169752ff215d4f7118242c 4.14-stable patches
          
 
---===============5308285623676759333==
+--===============5838095610338523871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 0x3D200E9CA6329909 1610283700 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ardb/linux.git
-nonce 1610283692-1048adf22ea96a884d19a6f67543ce7924ad0063
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610283926 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1610283850-407024bd0b5af74a316c946f484d25aa5d3b688e
 
-775cb1abec1750def39223bf0688b6907478cbb0 e99265263b99325c8e3161efa7981592ed9c998d refs/heads/for-kernelci
+b32951e8ff8c3243bcc20e4e9eb7fbbd22938216 987d2980d7eef0afcb169752ff215d4f7118242c refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAABCgAdFiEE+9lifEBpyUIVN1cpw08iOZLZjyQFAl/6+rQACgkQw08iOZLZ
-jyQPYgwAvBHcCAG8qWAKEfN6q9tOU6RjG3SYWDKh3VqY+KvcCqQpqiwozQHQgv0X
-9J00zhd48z7h+RvSDu7Fxoqkf1YNA/IgHYAxyYCN1/eXvR/6uraTbHFzJ/NIeW4x
-jSCAFeC50279AKpGpGi5v/ArMIila1yNvQNxrsEgTMuG2wmDRe+6JFLOmKzlQkGd
-cqy/+DmWcL8MlrxkdM4vPS592bts/nIR8DrbcHunPOS8noM2P8ZVvTmcX7R1PTC9
-kvINXeuZx/neUi5l982Tzg36mR5MV0WWh+fhaUqa56xTX4KEaV92cpp6ZT5MVA44
-L8NfKMR/W06OB6pAXczrr8DW2vMdkvPNh5LZvU9MWD9XjxzcnSW85t/HXciDQX3k
-nzDO/+IH4Hvw+MXFnDXlQqekjc3CG2wl+OEOxopqPuvGttPVym2oSTvn/vuN1/Fy
-jVuoySXbQks3z/b2PMiyjQkb+HU8cNJATPL0rLKhffbU4WiaMop2bIpeb1KQIa9s
-U68mPF0M
-=Ig2Q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/6+5YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C5sQAJ8QX2dR9hXDCIPO31+s
+IK5WkUBYkRWSAz12RHEwfQrbD66rUKtL1HR/7ydrqUVasQWEzsZRuXIHZUEb+aDl
+L9X/6vk8WbpOS54/7JpGdkU/DZo0jKJ3xeG64PjZJnUEK96jwEpMqe4ZMwRLTeOC
+8eit+DEbEy1zIY8GT4LbIxv3T7DOhIHGCpDTdZJEq7sSFwjT43ohdkJfyuAhJlhn
+sintUm+m4/oNMHclIuXWdIbaN9EGI6efBDO3oO+NJVTkAC0F/E9I3tNTmlI6IV0o
+irEz6SIu5cqHOlxIlbBk8QhEvJ7F8xrat3C8Hm3lM88hlomWvI20MKZIxyA0JOrX
+fO0v5WF5DUiQtCSEqDxOJZnkNP7ruAiqrJgiJ0Fq3xOGURFnEt4sfvM68OJlWpIg
+5WLLcLrJhV+OBNC36fxe8C0kMsRYT8shk9DbWhnwBiopiNRaCAgBB3o7vM57cWt6
+ow5Bs6icULEQYT0pDX+7OdorLz4vh6R93NHniZbiShhz5KlcCJDtBS9RzLV46bca
+J/jmdYenwd5VFUe/6kjwQ41M2Rtz7ncgZ7gCGMQch+iJVHfvsFJx6OlKBSn3MTvM
+r4XIeJfNrLXKyZ/79dtEFS3RRL24KPuq4OQjh+jhJv3W+/3xLjrgXBcEh502imKL
+/hCkQLgTuvtDur3/duFr/zyG
+=2tdl
 -----END PGP SIGNATURE-----
 
---===============5308285623676759333==--
+--===============5838095610338523871==--
