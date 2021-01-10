@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sun, 10 Jan 2021 00:15:44 -0000
-Message-Id: <161023774437.30731.1033654883374724142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
+Date: Sun, 10 Jan 2021 00:17:40 -0000
+Message-Id: <161023786088.31489.7136705525482862766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/andrea/aa
+user: andrea
 changes:
-  - ref: refs/heads/seen
-    old: 48a56802e34f6dc2460d074b41444e41e354fcd4
-    new: f13eaa8238e62284c548778db22c0ca65616eab7
+  - ref: refs/heads/master
+    old: a13134ff24124196db8bc6573ff12f483792320d
+    new: 9e0ca82b66dec449a154afa0e4728c9266609e00
+    log: |
+         9e0ca82b66dec449a154afa0e4728c9266609e00 mm: restore full accuracy in COW page reuse
+         
