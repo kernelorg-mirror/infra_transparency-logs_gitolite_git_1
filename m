@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1805063940831840295=="
+Content-Type: multipart/mixed; boundary="===============4222411129959871035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/git/git
-Date: Sun, 10 Jan 2021 01:20:15 -0000
-Message-Id: <161024161591.6688.9619125753601953761@gitolite.kernel.org>
+Date: Sun, 10 Jan 2021 01:43:31 -0000
+Message-Id: <161024301118.20697.12142377682333589746@gitolite.kernel.org>
 
---===============1805063940831840295==
+--===============4222411129959871035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,37 @@ repo: pub/scm/git/git
 user: junio
 changes:
   - ref: refs/heads/seen
-    old: dae7d2855ee72e3138c760c3ca6e94cf0ef7fb95
-    new: f1164a744d050888ecd752b6fc0eab0f54e05254
-    log: revlist-dae7d2855ee7-f1164a744d05.txt
+    old: f1164a744d050888ecd752b6fc0eab0f54e05254
+    new: d2e8dfcfab521d1b160549cf7a9c1abc59de4906
+    log: revlist-f1164a744d05-d2e8dfcfab52.txt
 
---===============1805063940831840295==
+--===============4222411129959871035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dae7d2855ee7-f1164a744d05.txt
+Content-Disposition: attachment; filename=revlist-f1164a744d05-d2e8dfcfab52.txt
 
-8a19de4f37c319a880bae86deec3423bfc21f415 mergetool: add automerge configuration
-a673d6558edf4551a4d339358367d6ee99853b8c mergetool: alphabetize the mergetool config docs
-7a946a94d5a233fc01548e837fa6478d73aa3838 mergetool: add per-tool support for the autoMerge flag
-51b273706ebf40706463ad2bedf4adf699c7a9e6 mergetool: break setup_tool out into separate initialization function
-a0fc95331be79122bf7b4003691f67efd566b016 mergetool: add automerge_enabled tool-specific override function
-3b1d4dad7ce27274eccf8c18d5e647698e111318 fixup! mergetool: add automerge configuration
-e3cbd8a3d2de8419b02c5239638f091da572ee78 fixup! fixup! mergetool: add automerge configuration
-ef6774f81a75bfcea571431af5563f9b4d9d1f3a Merge branch 'sg/t7800-difftool-robustify' into jch
-989a43682420805a4d8c09c1445a2deb5067a32c Merge branch 'en/ort-directory-rename' into seen
-e80ecd9c0dad0a3b49b2d09a1b833cc11aca7892 Merge branch 'ps/fetch-atomic' into seen
-86bedf072087cb71122cd333d96e5744c4da3ad7 Merge branch 'mr/bisect-in-c-4' into seen
-78c3b71d075f02bee248d0468b779bf5b3115d0e Merge branch 'sm/curl-retry' into seen
-b9754ae329c4e16870663d8a418cf521c5e11ce5 Merge branch 'sv/t7001-modernize' into seen
-941b6830713f8a17f60811aaeac27b5de39f32ce Merge branch 'ar/fetch-transfer-ipversion' into seen
-017d781107d558ff034706825baf37eeeaf79344 Merge branch 'mt/grep-sparse-checkout' into seen
-d4f6caf944605f5c321161ee09ce300590dae6c4 Merge branch 'mt/rm-sparse-checkout' into seen
-c0eb52fe3cee79df117fc772455c6bef13e8ff2d Merge branch 'mk/use-size-t-in-zlib' into seen
-9c80061807ead2bcefaade75efbc578972f47fe7 Merge branch 'jc/war-on-dashed-git' into seen
-4326c9cd1ee5db3225619676589042689800bc72 Merge branch 'ak/corrected-commit-date' into seen
-7fba27ade1d1e61771f06a12ef295cac68e0372a Merge branch 'mt/parallel-checkout-part-1' into seen
-715e316be603025cbc4846dcc3c4a6858fc9fd5b Merge branch 'ag/merge-strategies-in-c' into seen
-6de4805fa9fb5b4aa84bf9407aaf0fc2e012fa80 Merge branch 'hn/reftable' into seen
-9c564e47fb07370fd599970a299226cc1b229769 Merge branch 'jt/clone-unborn-head' into seen
-bbe2b514b7beb8fe4463e4c0f1064cfd4d475ca3 Merge branch 'en/ort-conflict-handling' into seen
-d999cbc8a8d9db3318826db804b0dff4fbd1aaa0 Merge branch 'es/config-hooks' into seen
-41a46353e2c5aa0fb4d3345d35f2294bb1ee596f Merge branch 'jk/symlinked-dotgitx-files' into seen
-d386143496033ebfeb1571aa945baa6d5f166bf1 Merge branch 'jx/bundle' into seen
-8c2d7b381322bcb3b81d79167922dca68c96ba81 Merge branch 'ds/update-index' into seen
-f1164a744d050888ecd752b6fc0eab0f54e05254 Merge branch 'fc/mergetool-automerge' into seen
+ec0a8c6269be65daeb1eb46b09d19cce0465d161 docs: add description of status output table
+50d63c0d445ae3ca62f17e6445815bfe7be60110 Merge branch 'bc/doc-status-short' into jch
+ec81dae515b09bf4f8d0f3a5d82b04a153036490 Merge branch 'en/ort-directory-rename' into seen
+57c86cb0a385850a363a6996c850b336dd4f5e76 Merge branch 'ps/fetch-atomic' into seen
+8e0e70e44da74f98bb05001391bda6c419a79222 Merge branch 'mr/bisect-in-c-4' into seen
+0ac038f7258b1e28db086350275e4c050830aa9b Merge branch 'sm/curl-retry' into seen
+fcfce857b10aea391092f67e5bba6b7cc3b71c8e Merge branch 'sv/t7001-modernize' into seen
+1dc26f88bdc6fd78e82258e4781d9606a03b9be9 Merge branch 'ar/fetch-transfer-ipversion' into seen
+fd8b586c256d722992bdb473c3be847ce68ab78a Merge branch 'mt/grep-sparse-checkout' into seen
+8f3fa097bd3ad58206523899e9495b22a70ecd25 Merge branch 'mt/rm-sparse-checkout' into seen
+d1cdf7e610c72a643ac04ae2d176730279b3a442 Merge branch 'mk/use-size-t-in-zlib' into seen
+cd9cdd3a41c2a47c156e31e71d100669ae81a948 Merge branch 'jc/war-on-dashed-git' into seen
+15ecd8734beb7a6517f86d3e90b5f8ce3fccb1a9 Merge branch 'ak/corrected-commit-date' into seen
+64af6f72ce9f1f484dca7b8b445d7375ae116ba5 Merge branch 'mt/parallel-checkout-part-1' into seen
+2d4f74dbea5f4faaa78b56c9ba067ae8917d4394 Merge branch 'ag/merge-strategies-in-c' into seen
+a300d3ddf743276844dc451d47831e82809f7b34 Merge branch 'hn/reftable' into seen
+bc0f94de843534dabcd643d6ec81604d76eee606 Merge branch 'jt/clone-unborn-head' into seen
+736f7abe4d4b058539da5bcf8d60d54c1a517028 Merge branch 'en/ort-conflict-handling' into seen
+a3ef3d067daa4e34670acb83fed038d106cb7250 Merge branch 'es/config-hooks' into seen
+a5f734ab401762549f3a96808075cc1b38fdac9e Merge branch 'jk/symlinked-dotgitx-files' into seen
+f1867269fb6c73e81b53404fb79eb6cbbf54f3fe Merge branch 'jx/bundle' into seen
+d2e8dfcfab521d1b160549cf7a9c1abc59de4906 Merge branch 'ds/update-index' into seen
 
---===============1805063940831840295==--
+--===============4222411129959871035==--
