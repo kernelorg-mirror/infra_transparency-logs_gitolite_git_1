@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Sun, 10 Jan 2021 00:09:07 -0000
-Message-Id: <161023734734.25973.1777504605150408468@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 10 Jan 2021 00:14:45 -0000
+Message-Id: <161023768570.28881.14975247336252873470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/aa
-user: andrea
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 4604dcd2dfbb73b805e5e24ba396c69c53c01db2
-    new: a13134ff24124196db8bc6573ff12f483792320d
+    old: 3502bd9b5762154ff11665f3f18f6d7dcc6f781c
+    new: b77413446408fdd256599daf00d5be72b5f3e7c6
     log: |
-         a13134ff24124196db8bc6573ff12f483792320d mm: restore full accuracy in COW page reuse
+         b77413446408fdd256599daf00d5be72b5f3e7c6 tipc: fix NULL deref in tipc_link_xmit()
          
