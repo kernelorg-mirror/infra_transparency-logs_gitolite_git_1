@@ -1,64 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============1151005798688479299=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sun, 10 Jan 2021 06:40:18 -0000
-Message-Id: <161026081874.16384.4897910585585513671@gitolite.kernel.org>
-
---===============1151005798688479299==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 10 Jan 2021 08:00:40 -0000
+Message-Id: <161026564008.2602.7133938489533082471@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
-  - ref: refs/heads/seen
-    old: d2e8dfcfab521d1b160549cf7a9c1abc59de4906
-    new: 4bc69399bf18f911899a6e9390810ab5b23a6dd6
-    log: revlist-d2e8dfcfab52-4bc69399bf18.txt
-
---===============1151005798688479299==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2e8dfcfab52-4bc69399bf18.txt
-
-8a19de4f37c319a880bae86deec3423bfc21f415 mergetool: add automerge configuration
-a673d6558edf4551a4d339358367d6ee99853b8c mergetool: alphabetize the mergetool config docs
-7a946a94d5a233fc01548e837fa6478d73aa3838 mergetool: add per-tool support for the autoMerge flag
-51b273706ebf40706463ad2bedf4adf699c7a9e6 mergetool: break setup_tool out into separate initialization function
-a0fc95331be79122bf7b4003691f67efd566b016 mergetool: add automerge_enabled tool-specific override function
-3b1d4dad7ce27274eccf8c18d5e647698e111318 fixup! mergetool: add automerge configuration
-c47a6996f364a3918c423fc7c6022ed7854ae752 fixup! fixup! mergetool: add automerge configuration
-acaabcf3916e1081c39be1139af91298fd5197fe t5516: loosen "not our ref" error check
-f3d924475390fb32b091015bdc54acc751f81dec Merge branch 'jk/t5516-deflake' into jch
-d55f21afaf1f0aea45e4881f537852f2e437d1e9 Merge branch 'ad/t4129-setfacl-target-fix' into jch
-4a0942e46c0dbb686360c2f96548a8cdfa865269 Merge branch 'sg/t7800-difftool-robustify' into jch
-8a3956654af9716f18e195ee9dee6bbef2edbe4b Merge branch 'bc/doc-status-short' into jch
-c00d309cab98b4684eca4fdddf553dfd1432795f Merge branch 'en/ort-directory-rename' into seen
-0db6a783f80516ab35d9e91a6ac1579cbdd7d721 Merge branch 'ps/fetch-atomic' into seen
-b52a05ae40d56db83ecdaa17fa010e1cc8565e67 Merge branch 'mr/bisect-in-c-4' into seen
-09d802338823989fef309a612cbb334401dc952e Merge branch 'sm/curl-retry' into seen
-ee8b51aa70940fd184c6919f3fede0ec5150f2af Merge branch 'sv/t7001-modernize' into seen
-595c6a8ab861f5ddefeab0fac34b5b915069f139 Merge branch 'ar/fetch-transfer-ipversion' into seen
-6dd7d763187e5c2d35ecd2d011bfb3ccb0eb61dc Merge branch 'mt/grep-sparse-checkout' into seen
-0cb1b491f8f0da819d10b9eb1c771c7f9869445d Merge branch 'mt/rm-sparse-checkout' into seen
-3d0e7f7f680273a72fc8249fb11bc87fe5513558 Merge branch 'mk/use-size-t-in-zlib' into seen
-4e11da04ffc12334eb91e6024e086d4a334104e5 Merge branch 'jc/war-on-dashed-git' into seen
-b57f52c8d50052d25aec09a35267c7a0994589b8 Merge branch 'ak/corrected-commit-date' into seen
-4f8c5afb8911efb0b640aa96b94a6ef6ce1fa43a Merge branch 'mt/parallel-checkout-part-1' into seen
-d9925ba60f30e8c8194a4e13d18ec8d1d177c609 Merge branch 'ag/merge-strategies-in-c' into seen
-feca7d7ca3c1f42e714fd78add40d9ceed7bfe42 Merge branch 'hn/reftable' into seen
-990a3d576f279f6bc15da296f78b059a62d78487 Merge branch 'jt/clone-unborn-head' into seen
-682b69c59ce5aa53b37d92c43b4a1fd67db176af Merge branch 'en/ort-conflict-handling' into seen
-5c17569b8b356d3b341c2ed9c43e477592b4c4ea Merge branch 'es/config-hooks' into seen
-092fc39aedb1257e66a92fb87695ed24d2fdb522 Merge branch 'jk/symlinked-dotgitx-files' into seen
-7c9e84d767fd9810a3d4a470cfc11fbf0b37c035 Merge branch 'jx/bundle' into seen
-1347110dc3eb4fcdb9fc7c018d72d658aebd259e Merge branch 'ds/update-index' into seen
-a6146e7597bec248c77d90decccac5a7b0405ef9 fixup! mergetool: break setup_tool out into separate initialization function
-4bc69399bf18f911899a6e9390810ab5b23a6dd6 Merge branch 'fc/mergetool-automerge' into seen
-
---===============1151005798688479299==--
+  - ref: refs/heads/master
+    old: 3d81c05a7997f32decebc93fce3d69102bed74f9
+    new: a60e8c598ea0d25175046e4cb6f1a2cc3da3de34
+    log: |
+         f7f02d0f8da4d8a6d35481e20dddc692997882eb epoll_wait.2: CONFORMING TO: mention also that epoll_pwait() is Linux-specific
+         e4c07f6482d29db38d995b30e052ae343b518f87 epoll_create.2: CONFORMING TO: mention also that epoll_create1() is Linux-specific
+         45e399e7f85466edb390ef1c34f6e5d26de5ce10 alloc_hugepages.2: CONFORMING TO: reword to reflect that these system calls are long gone
+         9fd0c2f252de99a20dd6958d33afefd0a0e41137 mlock.2: CONFORMING TO: note more explicitly which APIs are in the standards
+         0a23e9aac0693939675bb27f18cc099a8e8b424b mprotect.2, readv.2, sigaltstack.2, sigreturn.2, ctime.3, scandir.3, random.4, pkeys.7: ffix: s/-1/\-1/
+         feaef5f266cbc4f9192c4d0558093b9b6088a252 getfsent.3: tfix
+         f7fc28f97a1012631f835adcbfdcd3a048fa31b2 stailq.3, utmp.5, time_namespaces.7: srcfix: remove redundant .PP
+         7c2838715f91f63a1c865e65d492af509b1d6c25 shm_open.3: tfix
+         a60e8c598ea0d25175046e4cb6f1a2cc3da3de34 xcrypt.3: srcfix: use .PP rather than .LP
+         
