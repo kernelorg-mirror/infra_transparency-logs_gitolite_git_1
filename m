@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7215242594260847535=="
+Content-Type: multipart/mixed; boundary="===============8575475562437333333=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 11 Jan 2021 09:36:12 -0000
-Message-Id: <161035777241.22294.11476003080683293393@gitolite.kernel.org>
+Date: Mon, 11 Jan 2021 09:36:26 -0000
+Message-Id: <161035778693.22425.7516891846118999021@gitolite.kernel.org>
 
---===============7215242594260847535==
+--===============8575475562437333333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
+  - ref: refs/heads/master
     old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
     new: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
     log: revlist-5c8fe583cce5-7c53f6b671f4.txt
 
---===============7215242594260847535==
+--===============8575475562437333333==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -665,4 +665,4 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 20210a98463e2abac31676ee141459fc23252927 Merge tag 'kbuild-fixes-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
 
---===============7215242594260847535==--
+--===============8575475562437333333==--
