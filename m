@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5689536774664841695=="
+Content-Type: multipart/mixed; boundary="===============6854719576638377761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 11 Jan 2021 09:34:13 -0000
-Message-Id: <161035765302.20297.4482613693343637527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
+Date: Mon, 11 Jan 2021 09:36:03 -0000
+Message-Id: <161035776343.22200.1899268566632607686@gitolite.kernel.org>
 
---===============5689536774664841695==
+--===============6854719576638377761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
+repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/gnss-linus
     old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
     new: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
     log: revlist-5c8fe583cce5-7c53f6b671f4.txt
 
---===============5689536774664841695==
+--===============6854719576638377761==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -665,4 +665,4 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 20210a98463e2abac31676ee141459fc23252927 Merge tag 'kbuild-fixes-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
 
---===============5689536774664841695==--
+--===============6854719576638377761==--
