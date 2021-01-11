@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/python/python-linux-procfs/python-linux-procfs
-Date: Mon, 11 Jan 2021 20:54:27 -0000
-Message-Id: <161039846780.10337.16388999265511470196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Mon, 11 Jan 2021 20:59:59 -0000
+Message-Id: <161039879926.13276.17879695672409556166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/python/python-linux-procfs/python-linux-procfs
-user: jkacur
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/tags/v0.6.3
-    old: 0000000000000000000000000000000000000000
-    new: df8f50e303b221ce13c806d07461be1ea6ddf075
+  - ref: refs/heads/next
+    old: b5164184744fa299b24eeac783c43f3fa1f154f3
+    new: c912fd05fab97934e4cf579654d0dc4835b4758c
