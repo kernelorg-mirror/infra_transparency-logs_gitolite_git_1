@@ -1,112 +1,140 @@
-Content-Type: multipart/mixed; boundary="===============4149105253127356046=="
+Content-Type: multipart/mixed; boundary="===============0744131387263324107=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
-Date: Mon, 11 Jan 2021 16:58:54 -0000
-Message-Id: <161038433444.23019.13459744315838341716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 11 Jan 2021 17:00:12 -0000
+Message-Id: <161038441203.24877.9042383073987736778@gitolite.kernel.org>
 
---===============4149105253127356046==
+--===============0744131387263324107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fdmanana/linux
-user: fdmanana
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/misc-next
-    old: 4f147e4818c50efb01c3cdc3c8b031afeb6666f8
-    new: 77311ba54dee09af801ad4a9109191540a92f211
-    log: revlist-4f147e4818c5-77311ba54dee.txt
+  - ref: refs/heads/for-kernelci
+    old: e99265263b99325c8e3161efa7981592ed9c998d
+    new: 4a6b919ab803e66ea0c627d824e75bbd09c91bee
+    log: revlist-e99265263b99-4a6b919ab803.txt
 
---===============4149105253127356046==
+--===============0744131387263324107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f147e4818c5-77311ba54dee.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-5b316468983dfa9473ff0f1c42e4e30b4c267141 btrfs: get zone information of zoned block devices
-b70f509774ad4b75d4253ad23b65c35d89402026 btrfs: check and enable ZONED mode
-862931c76327e54d49c30d80c333f552dca18489 btrfs: introduce max_zone_append_size
-5d1ab66c56fed152acbbac1933b16d33ebd47d7f btrfs: disallow space_cache in ZONED mode
-d206e9c9c576a0de2e6d1fdf17551e2a548955c0 btrfs: disallow NODATACOW in ZONED mode
-f1569c4c10a1e9320b92486d73043c6138859cc5 btrfs: disable fallocate in ZONED mode
-a589dde0bc0bf5616e92131d803b6046573449e6 btrfs: disallow mixed-bg in ZONED mode
-12659251ca5df05a484eb122c2c34c18d84e797c btrfs: implement log-structured superblock for ZONED mode
-1201b58b67b3642fd8cafa3604402bee40df1a6d btrfs: drop casts of bio bi_sector
-ec7d6dfd73b2de1c6bc36f832542061b0ca0e0ff btrfs: move btrfs_find_highest_objectid/btrfs_find_free_objectid to disk-io.c
-abadc1fcd72e887a8f875dabe4a07aa8c28ac8af btrfs: replace calls to btrfs_find_free_ino with btrfs_find_free_objectid
-5297199a8bca12b8b96afcbf2341605efb6005de btrfs: remove inode number cache feature
-7dbdb443a7b49f66d9c4da0d810e2c54e0727d82 btrfs: remove crc_check logic from free space
-f0d1219def15ef14a2ba2f6b7a612773295b3b5c btrfs: always set NODATASUM/NODATACOW in __create_free_space_inode
-fa598b0696409e3522022a1dddd47a1adc2b994d btrfs: remove recalc_thresholds from free space ops
-de53d892e5c51dfa0a158e812575a75a6c991f39 btrfs: fix race causing unnecessary inode logging during link and rename
-5f96bfb7633c55b578c6b32f32624061f25010db btrfs: fix race that results in logging old extents during a fast fsync
-4d6221d7d83141d58ece6560e9cfd4cc92eab044 btrfs: fix race that causes unnecessary logging of ancestor inodes
-47d3db41e190ca4a9c6e4a848052f4c5ca633db1 btrfs: fix race that makes inode logging fallback to transaction commit
-639bd575b7c7fa326abadd2ef3e374a5a24eb40b btrfs: fix race leading to unnecessary transaction commit when logging inode
-47876f7ceffa0e6af7476e052b3c061f1f2c1d9f btrfs: do not block inode logging for so long during transaction commit
-44c0ca211a4da92513fffc545b5374b45b0c4fc5 btrfs: lift read-write mount setup from mount and remount
-8f1c21d7490fc1ac5ef364b7085987ca439fb32f btrfs: start orphan cleanup on ro->rw remount
-997e3e2e71b32b31bfab6b299d9db05af285b457 btrfs: only mark bg->needs_free_space if free space tree is on
-5011139a4718455a6cd6214fd84e6f8500fd3874 btrfs: create free space tree on ro->rw remount
-8cd2908846d11af9b33246171f71a923d35eb3c4 btrfs: clear oneshot options on mount and remount
-8b228324a8ce03083a034dfa784bc10696ce7489 btrfs: clear free space tree on ro->rw remount
-948462294577a3870c407c16d89bb2314f0b0cfb btrfs: keep sb cache_generation consistent with space_cache
-04c415596953ec90fdae1ad388fdc8151d5dfdc1 btrfs: use superblock state to print space_cache mount option
-2838d255cb9b85a845efc3bbd3f6fc66ed883d35 btrfs: warn when remount will not change the free space tree
-36b216c85eb9d7f59ac1cb8b117376e20acc6cbc btrfs: remove free space items when disabling space cache v1
-af456a2c0aaaff15b84f046e2545570bf1bf50ed btrfs: skip space_cache v1 setup when not using it
-8a6a87cd449b9840f8169e0ece0a8fa11232723d btrfs: fix lockdep warning when creating free space tree
-1941b64b080b45a80796a9f3a2e5c89554e53bdf btrfs: rename bio_offset of extent_submit_bio_start_t to dio_file_offset
-7ffd27e378d2541059b9ba49868c32d90ad5ae91 btrfs: pass bio_offset to check_data_csum() directly
-f44cf41075b05660d61efa7bfa8350b45286f065 btrfs: make btrfs_verify_data_csum follow sector size
-f91e0d0c4cd986af54a8b2deb43b9f7b35299a65 btrfs: factor out btree page submission code to a helper
-deb678955360ea87605b8aea1f69c45bddc3f867 btrfs: calculate inline extent buffer page size based on page size
-1aaac38c83a23cd31df551b3f84d3c7f5067a7fe btrfs: don't allow tree block to cross page boundary for subpage support
-4a3dc93843dd6ee17c68231d6a90c76231cb65fc btrfs: update num_extent_pages to support subpage sized extent buffer
-884b07d0f4f7e09d8312008fed04e01d9d2270dc btrfs: handle sectorsize < PAGE_SIZE case for extent buffer accessors
-9e46458a7c0056dad98f0684c71be65a380b067b btrfs: remove btrfs_find_ordered_sum call from btrfs_lookup_bio_sums
-6275193ef19033d0cca88df6209556462bbedee2 btrfs: refactor btrfs_lookup_bio_sums to handle out-of-order bvecs
-fa485d21a7ae712fef8e943d1dd3ca7b27cb392e btrfs: scrub: reduce width of extent_len/stripe_len from 64 to 32 bits
-d0a7a9c050f3d0e11626ee5b3cebb0e4388ffce6 btrfs: scrub: always allocate one full page for one sector for RAID56
-53f3251d3b82f70c762cb7d963d70fb65f49e22c btrfs: scrub: support subpage tree block scrub
-b29dca44abe216a9c29842593cbc18f9a3fe57d2 btrfs: scrub: support subpage data scrub
-b42fe98c92698d2a10094997e5f4d2dd968fd44f btrfs: scrub: allow scrub to work with subpage sectorsize
-3d45f221ce627d13e2e6ef3274f06750c84a6542 btrfs: fix deadlock when cloning inline extent and low on free metadata space
-9a664971569daf68254928149f580b4f5856d274 btrfs: correctly calculate item size used when item key collision happens
-ae5e070eaca9dbebde3459dd8f4c2756f8c097d0 btrfs: qgroup: don't try to wait flushing if we're already holding a transaction
-0b3f407e6728d990ae1630a02c7b952c21c288d3 btrfs: send: fix wrong file path when there is an inode with a pending rmdir
-675a4fc8f3149e93f35fb5739fd8d4764206ba0b btrfs: tests: initialize test inodes location
-ea9ed87c73e87e044b2c58d658eb4ba5216bc488 btrfs: fix async discard stall
-1ea2872fc6f2aaee0a4b4f1578b83ffd9f55c6a7 btrfs: fix racy access to discard_ctl data
-8fc058597a283e9a37720abb0e8d68e342b9387d btrfs: merge critical sections of discard lock in workfn
-cb13eea3b49055bd78e6ddf39defd6340f7379fc btrfs: fix transaction leak and crash after RO remount caused by qgroup rescan
-638331fa56caeaa8b4d31cc1dfbe0ce989bcff67 btrfs: fix transaction leak and crash after cleaning up orphans on RO mount
-a0a1db70df5f48576fea6d08f0a69c05f3ab4cf4 btrfs: fix race between RO remount and the cleaner task
-0a31daa4b602ff6861fdf182236d64b2a353bace btrfs: add assertion for empty list of transactions at late stage of umount
-a8cc263eb58ca133617662a5a5e07131d0ebf299 btrfs: run delayed iputs when remounting RO to avoid leaking them
-80b14e952c8c5865c43319ad78e4b69ea4aec947 btrfs: fix error handling in commit_fs_roots
-dd34ab4fea129b6574ba8b49271e44dfdd9ce0ed btrfs: clarify error returns values in __load_free_space_cache
-52266d57f821843953bd324bf854a0c3ded3e725 btrfs: cleanup local variables in btrfs_file_write_iter
-2aa191684688dc940fed629c80a4d97c9ef95f73 btrfs: fix possible free space tree corruption with online conversion
-072943de69218225fd7920b853e73711285a2b0d btrfs: rename btrfs_find_highest_objectid to btrfs_init_root_free_objectid
-d5e8ea2f0798c9decbc11204201cd7f48bd21009 btrfs: rename btrfs_find_free_objectid to btrfs_get_free_objectid
-0db70fa03237df64c0336c8db8f3228596a4883f btrfs: rename btrfs_root::highest_objectid to free_objectid
-3690834691fc72e410d33fd7d3b81ccc5b09ac2d btrfs: make btrfs_root::free_objectid hold the next available objectid
-3519967fed6965b0706788758b833ed3b0bd3ef1 btrfs: remove new_dirid argument from btrfs_create_subvol_root
-78667d75ba1e811686b280bde08223f118d0fb2f btrfs: allow error injection for btrfs_search_slot and btrfs_cow_block
-b15a4dbb96a3d7dc81cdc1d70d53c0a83afb595f btrfs: print the actual offset in btrfs_root_name
-42f159824479fd756c187c7b37f0a867f1ea813d btrfs: noinline btrfs_should_cancel_balance
-0aa203ef6c69d6b4cb6edc0817704052b41ea5a5 btrfs: ref-verify: pass down tree block level when building refs
-3c2bf15101928e3f7e427625afddda41ea224178 btrfs: ref-verify: make sure owner is set for all refs
-a03efd5b754a18115a97037904f77ef40dfc7f60 btrfs: consolidate btrfs_previous_item ret val handling in btrfs_shrink_device
-9306ed0b3fba9d2269ec73d6be770c2dae65b8a8 btrfs: prevent NULL pointer dereference in extent_io_tree_panic
-919b2166d8118d0bc19521cccba94e50265a8d26 btrfs: tree-checker: check if chunk item end overflows
-e3e25623b9f10b57ccdb0262a984151dffabb3ca btrfs: reloc: fix wrong file extent type check to avoid false ENOENT
-6921169d3d39086c3ea862b514c1c0c8a99d5e41 btrfs: shrink delalloc pages instead of full inodes
-76dd11a5c32eb09ad147f16692d63c94af5fd666 btrfs: send, remove stale code when checking for shared extents
-77311ba54dee09af801ad4a9109191540a92f211 btrfs: send, fix invalid clone operations when cloning from the same file and root
+certificate version 0.1
+pusher 0x3D200E9CA6329909 1610384408 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ardb/linux.git
+nonce 1610384399-000c2b99f80269b42069970a05b181f12d50773d
 
---===============4149105253127356046==--
+e99265263b99325c8e3161efa7981592ed9c998d 4a6b919ab803e66ea0c627d824e75bbd09c91bee refs/heads/for-kernelci
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAABCgAdFiEE+9lifEBpyUIVN1cpw08iOZLZjyQFAl/8hBgACgkQw08iOZLZ
+jySmtwwAsWZ7gP4/4GCLg9zzeqeihom/C9XvLX0xDhGZj0OpTtODBVrxkUOYy/Oa
+cTboO0/GWQ//USlJj9blYEg7woJ/693CFRFGJ2eZsQt2SEEmed8jLIPIFpcoKsAm
+tE0SHwVCxO3MNhh37ESBdf/uIQUkfto9VNRG97jZ7V5sQRZg3GywsvJdO2C8ork+
+bdshOUyAnKpLhb+XADNdXqiuWsiAGH74WOlIN+bIqt4hwXILXqFuZLiizepJ5Mf7
+qu9ObpYrPCsrjs53PFbPsVsSuRlFh30SoNDRnk7nxQyAU8THKJkXovzmBHKjNWst
+XsMOtzO1o6UXCMrkllKX/l1UK9vjk2q2nyemGqhO8iGu+utWBCtj+9fagvssqtX5
+8ORlpQOHVfG2wgHpUO3W9sdsIoSGb14uMHp2dcb4rnYd+R29luxWLucShB6lVjsZ
+MZkD5m/7fbTacLkUc6gI4JycdWDL2f8pb3XCqRXTpX1hn+TW1LbdFGntZRNgofIo
+F9gamWqD
+=bk02
+-----END PGP SIGNATURE-----
+
+--===============0744131387263324107==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e99265263b99-4a6b919ab803.txt
+
+6a702fa5339597f2f2bb466043fbb20f3e55e0ad crypto: mediatek - remove obsolete driver
+a417178abc4ae2517231ee67a1291d58929fade1 MAINTAINERS: crypto: s5p-sss: drop Kamil Konieczny
+ddf169a98f01d6fd46295ec0dd4c1d6385be65d4 crypto: aesni - implement support for cts(cbc(aes))
+303fd3e1c771077e32e96e5788817f025f0067e2 crypto: tcrypt - avoid signed overflow in byte count
+c4dc99e14c58f257e96c81da16404f8285c3d42f crypto: sahara - Remove unused .id_table support
+bbfd06c7c85ec6dfae4a77b27495db8b8bcdfc8c crypto: ccree - remove unused including <linux/version.h>
+a3b01ffddc210a836eda8aa751cfa911a2817a85 chcr_ktls: use AES library for single use cipher
+0eb76ba29d16df2951d37c54ca279c4e5630b071 crypto: remove cipher routines from public crypto API
+7334a4be50764500d5cae4d9a655f7755dbedd5d crypto: inside-secure - fix platform_get_irq.cocci warnings
+583513510a7acd2306787865bcd19ebb2f629d42 crypto: sun4i-ss - linearize buffers content must be kept
+7bdcd851fa7eb66e8922aa7f6cba9e2f2427a7cf crypto: sun4i-ss - checking sg length is not sufficient
+b756f1c8fc9d84e3f546d7ffe056c5352f4aab05 crypto: sun4i-ss - IV register does not work on A10 and A13
+5ab6177fa02df15cd8a02a1f1fb361d2d5d8b946 crypto: sun4i-ss - handle BigEndian for cipher
+4ec8977b921fd9d512701e009ce8082cb94b5c1c crypto: sun4i-ss - initialize need_fallback
+9bc3dd24e7dccd50757db743a3635ad5b0497e6e crypto: sun4i-ss - fix kmap usage
+b1f578b85a13c4228d7862a203b428e774f87653 crypto: sun4i-ss - enabled stats via debugfs
+44122cc6eea1bd876800da18a84821e0429c4089 crypto: sun4i-ss - add SPDX header and remove blank lines
+33ff64884c4e5ffcac1c4aa767e38bf4b3f443a0 dt-bindings: crypto: Add Keem Bay OCS HCU bindings
+472b04444cd39e16ba54987b2e901a79cf175463 crypto: keembay - Add Keem Bay OCS HCU driver
+ae832e329a8d17144e5ae625e1704901f0e0b024 crypto: keembay-ocs-hcu - Add HMAC support
+b46f80368869cf46dbfe97ca8dfaf02e6be4510e crypto: keembay-ocs-hcu - Add optional support for sha224
+5a5a27b3e1577dbd63b0ac114d784bc3695e245b MAINTAINERS: Add maintainers for Keem Bay OCS HCU driver
+15deb4333cd6d4e1e3216582e4c531ec40a6b060 crypto: arm64/aes-ce - really hide slower algos when faster ones are enabled
+5318d3db465d29efe97b0e18da29ad95156e6142 crypto: arm64/aes-ctr - improve tail handling
+96a6af540396ed93ba231d0ae2e6fe196dc22032 hwrng: iproc-rng200 - Fix disable of the block.
+256693a36203f51b0a3659c8b215a7026a03a3f1 hwrng: iproc-rng200 - Move enable/disable in separate function
+c4ff41b93d1f10d1b8be258c31a0436c5769fc00 hwrng: ingenic - Fix a resource leak in an error handling path
+0d396058f92ae7e5ac62839fed54bc2bba630ab5 crypto: blake2s - define shash_alg structs using macros
+1aa90f4cf034ed4f016a02330820ac0551a6c13c crypto: x86/blake2s - define shash_alg structs using macros
+df412e7efda1e2c5b5fcb06701bba77434cbd1e8 crypto: blake2s - remove unneeded includes
+057edc9c8bb2d5ff5b058b521792c392428a0714 crypto: blake2s - move update and final logic to internal/blake2s.h
+8c4a93a1270ddffc7660ae43fa8030ecfe9c06d9 crypto: blake2s - share the "shash" API boilerplate code
+42ad8cf821f0d8564c393e9ad7d00a1a271d18ae crypto: blake2s - optimize blake2s initialization
+7d87131fadd53a0401b5c078dd64e58c3ea6994c crypto: blake2s - add comment for blake2s_state fields
+8786841bc2020f7f2513a6c74e64912f07b9c0dc crypto: blake2s - adjust include guard naming
+bbda6e0f1303953c855ee3669655a81b69fbe899 crypto: blake2s - include <linux/bug.h> instead of <asm/bug.h>
+5172d322d34c30fb926b29aeb5a064e1fd8a5e13 crypto: arm/blake2s - add ARM scalar optimized BLAKE2s
+a64bfe7ad42e329a1c63575d52c7927ad0f9e202 wireguard: Kconfig: select CRYPTO_BLAKE2S_ARM
+28dcca4cc0c01e2467549a36b1b0eacfdb01236c crypto: blake2b - sync with blake2s implementation
+0cdc438e6e13436b0190910ef7da49ce4f5a44f4 crypto: blake2b - update file comment
+1862eb007367f9e4cfd52d0406742de337b28ebf crypto: arm/blake2b - add NEON-accelerated BLAKE2b
+fecff3b931a52c8d5263fb1537161f0214acb44a crypto: picoxcell - Remove PicoXcell driver
+86ad60a65f29dd862a11c22bb4b5be28d6c5cef1 crypto: x86/aes-ni-xts - use direct calls to and 4-way stride
+2481104fe98d5b016fdd95d649b1235f21e491ba crypto: x86/aes-ni-xts - rewrite and drop indirections via glue helper
+622aae879c1d9449562e0cae353691a2a1f9eec0 crypto: vmx - Move extern declarations into header file
+f57f9213b4271568ad90ebc99d720752b22773d9 crypto: x86/camellia - switch to XTS template
+1b15ffff8d9140a51240acb068d41aeb2b77f2a6 crypto: x86/cast6 - switch to XTS template
+3c0e0aaedb08b9c37ba009659e89734477d87c85 crypto: x86/serpent- switch to XTS template
+81c45541b5108b5db66660a06b85fc7250af8e76 crypto: x86/twofish - switch to XTS template
+5da5c6c6e7d59f0d7c1d0f449521470e3caf0324 crypto: x86/glue-helper - drop XTS helper routines
+8ab4a45036feafe92bf4c338a7c4865e688c5ba4 crypto: x86/camellia - drop CTR mode implementation
+ad1e7362ce8d9c611c6c0d270465928e6bcd0518 crypto: x86/serpent - drop CTR mode implementation
+6b15db92be51860b59056dfaa1c2424d22303e33 crypto: x86/cast5 - drop CTR mode implementation
+c0efb8ae2e17f70abfe52fc3058315779fd6698d crypto: x86/cast6 - drop CTR mode implementation
+282d13550cbe526473388227aeecb38eebed1596 crypto: x86/twofish - drop CTR mode implementation
+59c0924ea43f6f8784f9b7ffe795ba927f073bb0 crypto: x86/glue-helper - drop CTR helper routines
+c13ede767455bf519b2d4fde1a4f9ab43ed441d0 crypto: x86/des - drop CTR mode implementation
+4f0ce3bc7af80e7a9e905c3a20747121d8b52fc4 crypto: x86/blowfish - drop CTR mode implementation
+04a0abb05610218487eedd3c727b0f4f4a975ade crypto: x86 - add some helper macros for ECB and CBC modes
+cfec6d93f062a09ed022172ad3c7db9c34a2daa5 crypto: x86/camellia - drop dependency on glue helper
+6c9f570445f1ceaf32b3d4ac7ab0dfc1280fdde4 crypto: x86/serpent - drop dependency on glue helper
+1bfe3fee6e6ddc14a6a9fb8b80853ad9e66de0bc crypto: x86/cast5 - drop dependency on glue helper
+b86cb1d1feee584dd273ce78cf63410bc9a671ab crypto: x86/cast6 - drop dependency on glue helper
+b1926909c3f9cf6aeb6589592a3d7541de073386 crypto: x86/twofish - drop dependency on glue helper
+5c4460a0e6ba728aca84058fe1de567f6bd1f956 crypto: x86 - remove glue helper module
+cee562e421ff274eb8cc1153cb9b0a44dd1d466d crypto: x86 - use local headers for x86 specific shared declarations
+67f33e364ae8a5c2a3dd914f582356c52e8f4ba2 crypto: x86/gcm-aes-ni - prevent misaligned buffers on the stack
+a037b535ed30995c32f1d824cee10f086d8cb309 crypto: x86/gcm-aes-ni - drop unused asm prototypes
+fd90fff886098c6fb29b919b608a7dd13922b679 crypto: x86/gcm-aes-ni - clean up mapping of associated data
+fff1b4879d6ee13507231de901d7237fd5e1e136 crypto: x86/gcm-aes-ni - refactor scatterlist processing
+35268c071380f5bedf6c06d068da661bc5d8dc8c crypto: x86/gcm-aes-ni - replace function pointers with static branches
+ceb18900c41a6d38b449f10658f7ddbc8ff1103f crypto: x86/ctr-aes-ni - replace function pointer with static call
+46de6d5281f641e3489123441ff06e0992e65796 crypto: reduce minimum alignment of on-stack structures
+d224ae7c9259134fc3e431ce01ad380e25853cee ARM: lib: incorporate instruction based crc32() implementation
+ebcf22cddf2c48262726ddac835a1600f90b7dc5 crypto: arm/crc32 - remove scalar-only code path
+af8e93568a757335c73691f42ca1bc5325a38a4c crypto: crc-t10dif - turn library wrapper for shash into generic library
+fa741fe37046fdecad9d714cd5f91d3eca456bf2 crypto: lib/crc-t10dif - add static call support for optimized versions
+c2208b352f20e04ddc644e77db854a07817ee6ba crypto: generic/crc-t10dif - expose both arch and generic shashes
+1cc248aa65d17cf1f12025fccea69fd6547af49b crypto: x86/crc-t10dif - convert to static call library API
+cecb1ad72e8b01859f657cd8aee8faf2a1fd0cdd crypto: arm/crc-t10dif - convert to static call library API
+f08a1979bda3bd5bf28b47cc873fe3a5ccf8cec9 crypto: arm64/crc-t10dif - convert to static call API
+4a6b919ab803e66ea0c627d824e75bbd09c91bee crypto: powerpc/crc-t10dif - convert to static call API
+
+--===============0744131387263324107==--
