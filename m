@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4915183506178383372=="
+Content-Type: multipart/mixed; boundary="===============0192598993301879569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 11 Jan 2021 12:47:18 -0000
-Message-Id: <161036923834.15664.15407151999260301538@gitolite.kernel.org>
+Message-Id: <161036923898.15715.1929045136171708489@gitolite.kernel.org>
 
---===============4915183506178383372==
+--===============0192598993301879569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,92 +16,104 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 4b9654330f760e54224b0a3b6de1d2f24df1d284
-    new: 4751144154c5f979ba2be699b21125ce24cbf362
-    log: revlist-4b9654330f76-4751144154c5.txt
+  - ref: refs/heads/linux-4.14.y
+    old: ec361fb28cca60ca105e60594ed00d9b2dffd82d
+    new: f3bab904d0e823c7587de1145764898d81aeab50
+    log: revlist-ec361fb28cca-f3bab904d0e8.txt
 
---===============4915183506178383372==
+--===============0192598993301879569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610369310 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610369311 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1610369235-35227cbbf4eb547b6874e93c34b39372b25a2c49
+nonce 1610369237-e44dd8e39673e408b92277de931844e6cc671955
 
-4b9654330f760e54224b0a3b6de1d2f24df1d284 4751144154c5f979ba2be699b21125ce24cbf362 refs/heads/linux-4.9.y
+ec361fb28cca60ca105e60594ed00d9b2dffd82d f3bab904d0e823c7587de1145764898d81aeab50 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/8SR4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0i0P/juI+JoRKyR5OlgrRnrF
-lA+X9YHZ/GvtemkqOn0YU07KZQ+w5TrF/U4aNV4b9nvtzblNJEyod4Bt6WVWslmY
-5GLVXc4UesDke2ylTRmpulfx9RHTvPm14hqSMUktumtneUZvFw8ebQ4O2ql1d1qH
-6CmypyYkiP3oyH8Mz4rOC1/s8rJAGuzS5lnZFy3sFFFVqRHOHMjwkeayAAs/LNVz
-i3El9k8DHXmhz4MZInWgmls1nGjo/kIjU6aT0IuVxJc5DO9I9CgGMq6M8mGMSxzW
-SmGGfdp/gh4+dQLeN8TqhGkKL5JHMtZLnoGO4FXfP9UQUs/tYkzrYZRsQOB/mOHw
-nOe7S6c4G6fp6iQeLrqxA+1rq6f+SP+bxAm6UkC5Igw1J9AhRz3/LP6zOfxILGpz
-qnoPJwGBIDeAIPrJZKilMRqjUVZaXYZQpoB5KeM9sWg3UiPWWeBkDzky1ZVM4ZQR
-5V79wuC0Z55LtozKwaF826HZTxx+ENUKskxPPeCrlilyLy5Y9pBpU/KaDFox0ilf
-kNFZodX21UYOZQNgbarWuQ2fK97XfFIQ62lHNAy3XV2ZC8blTg3NY9awZSHD6aVw
-UcN/4yLsIhSRK1I8r6lyWFrs7JhnP2exwKshKH494XGHtBHW6+jt8TNry3T8m9nO
-cSaELg9u5MpWCK7WRV33xY16
-=LDNt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/8SR8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0+4P/i23kct+QyFT0GE5uljj
+Ew4tCLEQvMIISX6jDkwHTFSEG/DBGprNcF/jYFXm2gwzapRXmkbe2Olq736cnwr+
+33bpNPjtWC1cXxGBDJvxe+/ph3LEgNFdpjirMe+OgtOWSnDuj0D2ctKj2lNt+ixi
+4NGoXRswZ/Z6i9AzGaAbhSV9R2qzcyFbfbQv2/zlR5fudHM0XMRlTft3YIod71vB
+1Z0uZbE7x8tAS6VpzV2aisBZAKFeH5oGUy+zrd0jLXzfvZollPp1vbjZRRhN/l0R
+CcUL3cfXBAhMsY3Us4WOhSUIBCvA/kAQyHcJceN76rqRDUwP78Odp/wybERajrKZ
+WjodPG9yzAoEDvZ1atZCJGh1VQYVNJo5uQQ7HvYON6jbZbLRYdUJx49pKuB1mVEC
+a4xpju//OQKNWBcHxWUDmyJ+QRV9lPod1C6vaF/yAYY5f+/D+0CriaP4ElxcWUKf
+RYh8J8XRmye17dPGjgy0etH6z2gZt/Gbki7lEMx8WzpPTAzwRSrwFviPgmcjAUhG
+44k8G7+ebJ4SbesQQVUPsmzuuxEeWPFrhj8Ql4l+bnO1zcfYzSSRp3irc7zlOHzG
+st/wjXeR9VvKKeR7Ch84z6MlNRAfMCBT79niV0hCCk/uTeNfN+4HeKTdqawMTM8+
+qcpnC76DUBbwzdT2ibgRO0hP
+=8E56
 -----END PGP SIGNATURE-----
 
---===============4915183506178383372==
+--===============0192598993301879569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b9654330f76-4751144154c5.txt
+Content-Disposition: attachment; filename=revlist-ec361fb28cca-f3bab904d0e8.txt
 
-8e85331b9be9e5297e73e2b1dbf7fc3006f1cf32 kbuild: don't hardcode depmod path
-fe73f714a90f06f40558740b022e5856490978d0 workqueue: Kick a worker based on the actual activation of delayed works
-ead21c42033291580e33425b40ea655384b5a4f1 lib/genalloc: fix the overflow when size is too big
-2979c6332cfd5501527d9e9418398512fba62831 depmod: handle the case of /sbin/depmod without /sbin in PATH
-44b2fd2d3d91c2b01245773b3eab7aee8378a5f4 ethernet: ucc_geth: fix use-after-free in ucc_geth_remove()
-bb814fefe4f7477cd9741d165e2293567551ec53 atm: idt77252: call pci_disable_device() on error path
-6e6bd2156255a0eb1efd954ba22e81671f521667 net: dcb: Validate netlink message in DCB handler
-4a338ea180ec56ecd2139862f5444253c33a1adb net/ncsi: Use real net-device for response handler
-4b16a42d99031fae7f058ad2bc3cfaf36e9379fb net: ethernet: Fix memleak in ethoc_probe
-2a49eaaed71e6dd5f2e22aa0b92dfe3628f89420 ipv4: Ignore ECN bits for fib lookups in fib_compute_spec_dst()
-6fd02af8c8a3dc5f5349316b19167031cc3e7887 net: hns: fix return value check in __lb_other_process()
-17937808ba1a8258f7718d77ddde5b555121e530 net: hdlc_ppp: Fix issues when mod_timer is called while timer is running
-c9736e1c072f8ace4870b4deebbcb2f1ac31ab61 CDC-NCM: remove "connected" log message
-01d8c3c77956a794393d0f04d1554ad127b9b999 vhost_net: fix ubuf refcount incorrectly when sendmsg fails
-4676ea5ab9e0237bfbb7be817da9460e27a4c9b8 net: sched: prevent invalid Scell_log shift count
-80f779e5f4edd817d2104fb13a8bc1d244891731 virtio_net: Fix recursive call to cpus_read_lock()
-7645e84fb9ac85ece6c0c106668d881d83c81ee0 scripts/gdb: make lx-dmesg command work (reliably)
-ea6888e9d8ec32ac8c15e6248bf019f21dd91207 scripts/gdb: lx-dmesg: cast log_buf to void* for addr fetch
-56f9d3fdca4490563b05f6abe6eb0e114def3a92 scripts/gdb: lx-dmesg: use explicit encoding=utf8 errors=replace
-84cc1ed5319b5b890211f5ae3c4fba6f924c730b scripts/gdb: fix lx-version string output
-3c86e7cf9427437945486755d921ca065f799795 video: hyperv_fb: Fix the mmap() regression for v5.4.y and older
-d7b7a95265e17815c042a9463ca33a8041c5346f usb: gadget: enable super speed plus
-0738586d136952d1f4c15a2dd62c387fa63f1221 USB: cdc-acm: blacklist another IR Droid device
-beafd0923a6a259afe1f90619af7613352489a08 usb: chipidea: ci_hdrc_imx: add missing put_device() call in usbmisc_get_init_data()
-7947b7185d177101ce31f1ad951d75e4aa22c2fa USB: xhci: fix U1/U2 handling for hardware with XHCI_INTEL_HOST quirk set
-d6defa7d6f2e2af015ecca98a841f9838a7a9a95 usb: uas: Add PNY USB Portable SSD to unusual_uas
-576d896b2973f1f715c077a53812fa01005fa3b3 USB: serial: iuu_phoenix: fix DMA from stack
-01788d27c13b8438c3157dc7dea21dff6596fe95 USB: serial: option: add LongSung M5710 module support
-6f861d646dddc98162601579657c85ae84a9fd74 USB: yurex: fix control-URB timeout handling
-2d6d6f38259b2bb013a45d5c8ce53b352e9c36cc USB: usblp: fix DMA to stack
-905ff809b2b618e8d2a24a5929c2e643f49717c5 ALSA: usb-audio: Fix UBSAN warnings for MIDI jacks
-9fd580285fd85075e3f89f95eb89259b9a141773 usb: gadget: select CONFIG_CRC32
-aba0a869707ffc3e975aa8679c15711316248e06 usb: gadget: f_uac2: reset wMaxPacketSize
-b18ce06f96736fec56a795e0a9a8489c0015783d usb: gadget: function: printer: Fix a memory leak for interface descriptor
-f7651c6693dd2a5971b89698eebe911ec81358f6 USB: gadget: legacy: fix return error code in acm_ms_bind()
-d140b59dc954b9baf31e460c12e9ee4dc2f421d4 usb: gadget: Fix spinlock lockup on usb_function_deactivate
-941190991f705a85ec5b1ba9e1a3a4a5d374bfca usb: gadget: configfs: Preserve function ordering after bind failure
-6d8401d99143d0f195bcf47914ba0be1deab4dd2 usb: gadget: configfs: Fix use-after-free issue with udc_name
-459ea5b1b421ef8bd26d4c96965e20b1ef63d109 USB: serial: keyspan_pda: remove unused variable
-e82b1357d7bc913cd51bc9251faebaa7676c85d6 x86/mm: Fix leak of pmd ptlock
-f9a4317f896bd3114be2403af2227bd11082e8f1 ALSA: hda/conexant: add a new hda codec CX11970
-99905a93d4224e2fb02814ce108d00033bbfa30e Revert "device property: Keep secondary firmware node secondary by type"
-129076a27ace19e2c795f4d2c1d194b09e172aeb netfilter: ipset: fix shift-out-of-bounds in htable_bits()
-8e11983fecd739689bb90893858962239c273365 netfilter: xt_RATEEST: reject non-null terminated string from userspace
-2fbb58e547fb36e2e3e6bc9878eba3b35bbadb85 x86/mtrr: Correct the range check before performing MTRR type lookups
-4751144154c5f979ba2be699b21125ce24cbf362 Linux 4.9.251-rc1
+88163ed174a495550333b04dac79b778dde51b75 kbuild: don't hardcode depmod path
+3857631223454cc2783da7b1fcadb7b549171f03 workqueue: Kick a worker based on the actual activation of delayed works
+a66907ea7c4ace4e676909d09679369cc75d6a07 scsi: ufs-pci: Ensure UFS device is in PowerDown mode for suspend-to-disk ->poweroff()
+68f67c0b1a97e60a5873fd370c664acd581e98a5 scsi: ide: Do not set the RQF_PREEMPT flag for sense requests
+19025024fe22fab8d8bfc874cea5236460f38709 lib/genalloc: fix the overflow when size is too big
+a7e85636083efbc3bad2f4187e726a9ae1f9ddd3 depmod: handle the case of /sbin/depmod without /sbin in PATH
+e5057610a597a68a8d6a91d0429ea037c03808e2 ethernet: ucc_geth: fix use-after-free in ucc_geth_remove()
+be357688cb604334a6572e3d4aac04f721ab0381 ethernet: ucc_geth: set dev->max_mtu to 1518
+e3b2e45a49bd47566ed02e920d1820efbfc63285 atm: idt77252: call pci_disable_device() on error path
+89db06c273bef4c70b2b882fa4ca52db140ea7cd qede: fix offload for IPIP tunnel packets
+8c300980120e752f8b77b69184fad83bfffda068 virtio_net: Fix recursive call to cpus_read_lock()
+35e6e166ff05f8aef88b150daacc2320b99a6327 net: dcb: Validate netlink message in DCB handler
+e73206b9631393521ece57d2480032e1e491d95b net/ncsi: Use real net-device for response handler
+10c2bb57c4e77a992167a1eb0a0e864ca808c8e9 net: ethernet: Fix memleak in ethoc_probe
+9a9a05548b2f8669f6648cce07e4ac3d1671ac04 net-sysfs: take the rtnl lock when storing xps_cpus
+dde0307a0d0683d328d1edda9513fd7823188bf6 net: ethernet: ti: cpts: fix ethtool output when no ptp_clock registered
+f2580511e1f1a14481e205c96e378a064af9d497 ipv4: Ignore ECN bits for fib lookups in fib_compute_spec_dst()
+ec24d9a338def4eaa371451a6abdd9b56ce55d49 net: hns: fix return value check in __lb_other_process()
+1da8741ac583e153cefdaf89bf018cc11490b90a net: hdlc_ppp: Fix issues when mod_timer is called while timer is running
+ce7ef3e50f9626f13fa550cce846bfb0aaf1b6af CDC-NCM: remove "connected" log message
+d0f32ae517bca695be183ea616fdce594623063c net: usb: qmi_wwan: add Quectel EM160R-GL
+e0cbf9bfa106ae8fee779ba4031edef705d76a08 vhost_net: fix ubuf refcount incorrectly when sendmsg fails
+f5d6eea26637464ccf2eac6b7fa03a0b6e355bcd net: sched: prevent invalid Scell_log shift count
+dffd11d3620879eefb22c7730fe7b2b9154672c6 net-sysfs: take the rtnl lock when accessing xps_cpus_map and num_tc
+008631cdbd27185fbbad525416d5b9c1906a6a8e net: mvpp2: Fix GoP port 3 Networking Complex Control configurations
+1617369010c79438221a2078de567401e2c802b2 net: systemport: set dev->max_mtu to UMAC_MAX_MTU_SIZE
+a53428ac310c434c21881b21b0e3a4ef75f32bda video: hyperv_fb: Fix the mmap() regression for v5.4.y and older
+087b2dcf2e2dd0f0dbde3874a57433c72df92a85 crypto: ecdh - avoid buffer overflow in ecdh_set_secret()
+a7e63ee5eb1ddd5c6f360a691b4272133881a696 usb: gadget: enable super speed plus
+d9e10d44e32d96f6f1b5a4c8c7baaa93b1dcca89 USB: cdc-acm: blacklist another IR Droid device
+18bb9cc35dc7f82ff231fc9d394e290249007619 usb: dwc3: ulpi: Use VStsDone to detect PHY regs access completion
+224e13f169c3247415fe55d8195c7e1fae8e4f96 usb: chipidea: ci_hdrc_imx: add missing put_device() call in usbmisc_get_init_data()
+72860fc2572209cbcf2d78d1632f385b4fdd6992 USB: xhci: fix U1/U2 handling for hardware with XHCI_INTEL_HOST quirk set
+9ac7af72b85afb5e7bbeab54b8b46e6811dc0296 usb: usbip: vhci_hcd: protect shift size
+54fccf370851d88fc852e89770b62a6c8930f56f usb: uas: Add PNY USB Portable SSD to unusual_uas
+309bce7e26db8890bc892d93e23795c276efe3e7 USB: serial: iuu_phoenix: fix DMA from stack
+69ad19a85ca352c89fdc06a705f7dad3564213f4 USB: serial: option: add LongSung M5710 module support
+522289a365b540b77c9506c867c6b64dbb8adb81 USB: serial: option: add Quectel EM160R-GL
+70a115fb99413172b4e7395b3c455d04c95bee55 USB: yurex: fix control-URB timeout handling
+e993a3099d6da8ddba0aab549ea3c28fe628ab03 USB: usblp: fix DMA to stack
+a41163ac857c01758cbe440d272261a3f6be3526 ALSA: usb-audio: Fix UBSAN warnings for MIDI jacks
+deb96346f7dbb5f8b0e656fc743afa1d86001e1f usb: gadget: select CONFIG_CRC32
+8f75f2852fb38370ae32cc0ccf1b36125ec79215 usb: gadget: f_uac2: reset wMaxPacketSize
+9c48da28dc8ca0e2426f79e0f0bf0ac287fad782 usb: gadget: function: printer: Fix a memory leak for interface descriptor
+4ae98912a479a08e07800448474def0b8cd578b4 USB: gadget: legacy: fix return error code in acm_ms_bind()
+34f090f1de83d2fabeffbb05e496a0f125a941ae usb: gadget: Fix spinlock lockup on usb_function_deactivate
+a34233e9db03b67c01beecdba69768014326fc26 usb: gadget: configfs: Preserve function ordering after bind failure
+a71ba54db0821096a69e7565b147cdbfb7a753e0 usb: gadget: configfs: Fix use-after-free issue with udc_name
+00b07cd367f4b62273636144426fa2d1a4a51e7c USB: serial: keyspan_pda: remove unused variable
+c597b7110b4fbe4cba0277ed96618a7de8c91cff x86/mm: Fix leak of pmd ptlock
+66e0c9967a8afc168a0cf7b3b6c889e7d891a754 ALSA: hda/conexant: add a new hda codec CX11970
+996ad3abaf0d98b193edd399666e72318cbd7eab ALSA: hda/realtek - Fix speaker volume control on Lenovo C940
+032daa452b30c0f7ae4e22781f53dd45fa13dde0 Revert "device property: Keep secondary firmware node secondary by type"
+28f12e681d1b5ce858341c63cb56f34140f89d0f netfilter: ipset: fix shift-out-of-bounds in htable_bits()
+efe94a281ba15955fad7fd5c6c7154dd69fee95f netfilter: xt_RATEEST: reject non-null terminated string from userspace
+ab154c96f476f6c1245e29e8997cdfe02d1e3efd x86/mtrr: Correct the range check before performing MTRR type lookups
+3f64184ee965464eb5fec81926ac3ae386233230 KVM: x86: fix shift out of bounds reported by UBSAN
+f3bab904d0e823c7587de1145764898d81aeab50 Linux 4.14.215-rc1
 
---===============4915183506178383372==--
+--===============0192598993301879569==--
