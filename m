@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2106418740519873945=="
+Content-Type: multipart/mixed; boundary="===============5628405710981959464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 11 Jan 2021 07:09:04 -0000
-Message-Id: <161034894479.15806.8481933306615702898@gitolite.kernel.org>
+Date: Mon, 11 Jan 2021 07:09:24 -0000
+Message-Id: <161034896437.15958.5154966705674290636@gitolite.kernel.org>
 
---===============2106418740519873945==
+--===============5628405710981959464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+  - ref: refs/heads/char-misc-linus
+    old: 384b77fd48fd683a82760bc88bef8611cba997fc
     new: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
-    log: revlist-5c8fe583cce5-7c53f6b671f4.txt
+    log: revlist-384b77fd48fd-7c53f6b671f4.txt
 
---===============2106418740519873945==
+--===============5628405710981959464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610349010 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610349030 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1610348936-8e448d52879399cdd54863481d79a3cc1c52a48a
+nonce 1610348955-8264a6246fe8a01b7c214c0a04bd473203f9e773
 
-5c8fe583cce542aa0b84adc939ce85293de36e5e 7c53f6b671f4aba70ff15e1b05148b10d58c2837 refs/heads/main
+384b77fd48fd683a82760bc88bef8611cba997fc 7c53f6b671f4aba70ff15e1b05148b10d58c2837 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/7+dIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R8MP/1pkKmzEyhUtLjyZqOwh
-uWTbmeOAJvdLiN6jqAafAU5W+V1AOPPqUsQ2798iJpHYR5hr30kxacOEQsDLthkZ
-4yGkwpH49dgk9TXIvwF8DlW4r+kROnKjBSY4PJHPSHBBdbVfIFrXXHdtqu5bDDFu
-20QMcdyYZ3JbDJqRqJNhI6mSGAHGNY/fmFXMdbUdnvI3beCiPjDGYCQg0uMpl/HZ
-OCRH/7Dnk6F2rhnF4w2GTo6E1qxoj3xR5AUpxBiC2pNjaS4LoF9NKI1EQVA5Pd+t
-eRRzvCI8Itj+ts0bUwQaGnlQoH6BsIUrnZRLIbGSSEzIoPovO8K8mrAbXF7PLucX
-PLA5rdnO5SxzCPYY89PvSi3HPLns1e1m0+hVpERWyxGtrANKGsX7lcDD1LuyPeSE
-0PPYHDYB/lSlIk6Ucfmc5dfuKy3EshbOnzchiRMBGlxDMq8BUTLqUbuN/6ShZ8bW
-j9b7uXiecZA8Scr7m/5YQ6kyvB6a8K31PwSakUfj7ayCUcAuX0RGL5McfKBu37Z0
-gN5R5IQPbfAFbn0drAfq07xnpQTAdVtSD2gY4TCun8X6W3iQLT3Iqz1nf1YkVqV1
-33q114If95vsnuBMM0hyeldaIxjvMDS0Fpjqaqca+Y9TFrmvIBtdizZA12+tAZ0l
-YTh73XmljcSihn2exkwXGSn2
-=KJx4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/7+eYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LBwQALaE/4a8WkfFHS0HU6zx
+bBj2S/ROR5uy+rSbycgviOJMbxqqwCrXjTFiATL7RGzHm+qHKhyknI1sZdQFQqvv
+C40S8gsJbKykdn8plVHhhrYY869b36vKikCF3pPBi8Y2ml8sQbbn3nSTJdAaiBfG
+6+Id2JNJkTyGC1/tROFJ3WPJJIf6gLtWDAC5lWJd98j1Vd1Tjz+Pl7CwvPjNPQ5R
+4H9QYJwh/rsEQpmbIQeK/K86iqE7lbJDlOfBp58hA+yrhqVUMRftPNjcmO6sbZfC
+hl5D2RG8c/hkbiRBGoH3eaQQAW/Y4PwFJC8So8c8rgvYvC6u4m/YhzqojIQk6ifZ
+5L9V8ewtbr3uEAsqrBrFZ/67JGeB3b9y0RIN9g9HhT8ODM0fjk+otiWjobifxcOS
+4p/+FnJn5zTvpHgXeO4mmlIJ8G34GKU5YncsDjmpMIx7cDbTCxEMeOVY2eL5Ujwx
+EeosMgriJUiEbPP6bMDm1cZTawOjsBHmhkE1wf+Py0DfKij00c4/aP2Sz66LEc6x
+QJ4yJmmkc6QwDfiKF+zj2hENQfLD1Pp/5RNCXsjtxqkWfydS4p0SbCoSpMFf9PtE
+UOBmU8o3vNttyrawmuwXATQmjtkpmFM4JZaYjxyBrIRvENTRlINXX4OXid8Le2/R
+Aap5Yzw1q+vm0v6WkSgqIP+Z
+=LGE5
 -----END PGP SIGNATURE-----
 
---===============2106418740519873945==
+--===============5628405710981959464==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5c8fe583cce5-7c53f6b671f4.txt
+Content-Disposition: attachment; filename=revlist-384b77fd48fd-7c53f6b671f4.txt
 
 01341fbd0d8d4e717fc1231cdffe00343088ce0b workqueue: Kick a worker based on the actual activation of delayed works
 58315c96651152b9f438e5e56c910994234e2c7a kernel: cgroup: Mundane spelling fixes throughout the file
@@ -215,29 +215,9 @@ e13a6915a03ffc3ce332d28c141a335e25187fa3 vhost/vsock: add IOTLB API support
 101068b566ef227b605d807aad9e72efd8b6bc5b KVM: arm64: Consolidate dist->ready setting into kvm_vgic_map_resources()
 976509bb310b913d30577f15b58bdd30effb0542 opp: fix memory leak in _allocate_opp_table
 0e1d9ca1766f5d95fb881f57b6c4a1ffa63d4648 opp: Call the missing clk_put() on error
-105b5ca9b1e38a8db8446a493ca062eea98171eb habanalabs: Fix a missing-braces warning
-429f1571e8f0b14ec42b8fb14efcfc0576b2788f habanalabs: add comment for pll frequency ioctl opcode
-4783489951b78525a6e61b43936cbbd88b7938af habanalabs: fetch PSOC PLL frequency from F/W in goya
-6585489e808d9964dbde9dad89ac8e792e1185fc habanalabs: remove generic gaudi get_pll_freq function
-9c9013cbd8338ff8eac732d115c9005bc512cbc5 habanalabs: preboot hard reset support
-72ab9ca52de6856380c26b2045aa826ae4308b76 habanalabs/gaudi: do not set EB in collective slave queues
-7a585dfc32110a106f70474c6fa822d912a92c7e habanalabs: Revise comment to align with mirror list name
-0024c094851f718ccb0b797255292bdce850a01f habanalabs/gaudi: disable CGM at HW initialization
-6bbb77b9e6f0bd5595724b7c0cb1189afdd133d3 habanalabs: full FW hard reset support
-13d0ee10b55ecec01fd3c91e086e4f3ba75a7911 habanalabs/gaudi: enhance reset message
-90ffe170a390d5a620f8fe66758514e369e85d24 habanalabs: update comment in hl_boot_if.h
-377182a3cc5ae6cc17fb04d06864c975f9f71c18 habanalabs: adjust pci controller init to new firmware
-98e8781f008372057bd5cb059ca6b507371e473d habanalabs/gaudi: retry loading TPC f/w on -EINTR
-a3fd28306329e8e82efab973aafe81e9001dcf6f habanalabs: add validation cs counter, fix misplaced counters
-fcaebc7354188b0d708c79df4390fbabd4d9799d habanalabs: register to pci shutdown callback
-097c62b6f0ec2bdadf86afbe80df03856338724d habanalabs: fix order of status check
 95cd4bca7b1f4a25810f3ddfc5e767fb46931789 netfilter: nft_dynset: report EOPNOTSUPP on missing set feature
 b4e70d8dd9ea6bd5d5fb3122586f652326ca09cd netfilter: nftables: add set expression flags
 2ca408d9c749c32288bc28725f9f12ba30299e8f fanotify: Fix sys_fanotify_mark() on native x86-32
-512d4a26abdbd11c6ffa03032740e5ab3c62c55b interconnect: qcom: fix rpmh link failures
-c6174c0e058fc0a54e0b9787c44cb24b0a8d0217 interconnect: imx: Add a missing of_node_put after of_device_is_available
-6414b79d02c426b7dd7d942fc19fb38220ea44ec interconnect: imx: Remove a useless test
-67288f74d4837b82ef937170da3389b0779c17be interconnect: imx8mq: Use icc_sync_state
 12b38ea040b3bb2a30eb9cd488376df5be7ea81f staging: spmi: hisi-spmi-controller: Fix some error handling paths
 cab36da4bf1a35739b091b73714a39a1bbd02b05 Staging: comedi: Return -EFAULT if copy_to_user() fails
 d887d6104adeb94d1b926936ea21f07367f0ff9f staging: mt7621-dma: Fix a resource leak in an error handling path
@@ -310,7 +290,6 @@ da4282c17d695b9311608aa63b3c633e649aadea selftests/bpf: Fix a compile error for 
 a694ffed876575d1df1a47067444047182de4354 drm/msm: Fix null dereference in _msm_gem_new
 07fcad0d726d5da7c43f1c8e8fdb66c93a140ca5 drm/msm: Ensure get_pages is called when locked
 77788775c7132a8d93c6930ab1bd84fc743c7cb7 io_uring: don't assume mm is constant across submits
-b000700d6db50c933ce8b661154e26cf4ad06dba habanalabs: Fix memleak in hl_device_reset
 7cf22a1c88c05ea3807f95b1edfebb729016ae52 selftests/vm: fix building protection keys test
 e7dd91c456a8cdbcd7066997d15e36d14276a949 mm/hugetlb: fix deadlock in hugetlb_cow error path
 3a176b94609a18f5f8bac7ddbf8923bd737262db Revert "kbuild: avoid static_assert for genksyms"
@@ -340,12 +319,10 @@ c318840fb2a42ce25febc95c4c19357acf1ae5ca USB: Gadget: dummy-hcd: Fix shift-out-o
 977a3b0f6e40514ccdc959cc82b1eb96b636941a Merge branch 'opp/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 be1283454b61a1f3b089f1a74b73e20532262e32 cpufreq: intel_pstate: Fix fast-switch fallback path
 9cf93f056f783f986c19f40d5304d1bcffa0fc0d intel_idle: add SnowRidge C-state table
-0acfbe9ce46925ac92f6e27d0e273297e57c633c Merge tag 'misc-habanalabs-fixes-2020-12-30' of https://git.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-linus
 f6e1ea19649216156576aeafa784e3b4cee45549 Merge tag 'ceph-for-5.11-rc2' of git://github.com/ceph/ceph-client
 1642b4450d20e31439c80c28256c8eee08684698 io_uring: add a helper for setting a ref node
 1ffc54220c444774b7f09e6d2121e732f8e19b94 io_uring: fix io_sqe_files_unregister() hangs
 b1b6b5a30dce872f500dc43f067cba8e7f86fc7d kernel/io_uring: cancel io_uring before task works
-f93274ef0fe972c120c96b3207f8fce376231a60 crypto: asym_tpm: correct zero out potential secrets
 744a11abc56405c5a106e63da30a941b6d27f737 ALSA: hda/conexant: add a new hda codec CX11970
 484229585a5e91eeb00ee10e05d5204e1ca6c481 ALSA: hda/realtek: Add mute LED quirk for more HP laptops
 ce2e79b223867b9e586021b55dee7035517a236b ALSA: hda/realtek: Add two "Intel Reference board" SSID in the ALC256.
@@ -392,7 +369,6 @@ faeb0731be0a31e2246b21a85fa7dabbd750101d dmaengine: xilinx_dma: fix incompatible
 2bf3a72b08e7f6356a2db9e1571ca65f683510bb dt-bindings: regulator: qcom,rpmh-regulator: add pm8009 revision
 df6b92fa40050e59ea89784294bf6d04c0c47705 regulator: qcom-rpmh-regulator: correct hfsmps515 definition
 d957d1610c661e758426654de3b04bea6fb29f8b regulator: qcom-rpmh: add QCOM_COMMAND_DB dependency
-4b1a60a1bb8f03d82c3f6da424adc96667b59f2a MAINTAINERS: Update Georgi's email address
 0e2d6795e8dbe91c2f5473564c6b25d11df3778b USB: serial: option: add LongSung M5710 module support
 54d0a3ab80f49f19ee916def62fe067596833403 USB: serial: iuu_phoenix: fix DMA from stack
 4bfd6247fa9164c8e193a55ef9c0ea3ee22f82d8 ALSA: hda/via: Fix runtime PM for Clevo W35xSS
@@ -442,7 +418,6 @@ d1c5246e08eb64991001d97a3bd119c93edbc79a x86/mm: Fix leak of pmd ptlock
 311bea3cb9ee20ef150ca76fc60a592bf6b159f5 arm64: link with -z norelro for LLD or aarch64-elf
 96ebc9c871d8a28fb22aa758dd9188a4732df482 usb: uas: Add PNY USB Portable SSD to unusual_uas
 45ba7b195a369f35cb39094fdb32efe5908b34ad arm64: cpufeature: remove non-exist CONFIG_KVM_ARM_HOST
-c9c48bb701ba78df7d4652146b12bcf3ad716507 speakup: Add github repository URL and bug tracker
 f6bcb4c7f366905b66ce8ffca7190118244bb642 regmap: debugfs: Fix a reversed if statement in regmap_debugfs_init()
 3fb6819f411b5a89afb5726afafacf0c4b62844f arm64: traps: remove duplicate include statement
 e2bba5f92354488c331b7821d873db7c388e31aa arm64: vdso: disable .eh_frame_hdr via /DISCARD/ instead of --no-eh-frame-hdr
@@ -502,7 +477,6 @@ cb7f4a8b1fb426a175d1708f05581939c61329d4 x86/mtrr: Correct the range check befor
 3e2224c5867fead6c0b94b84727cc676ac6353a3 io_uring: Fix return value from alloc_fixed_file_ref_node
 00b8c557d096f0930d5c07df618223d3d06902d6 staging: ION: remove some references to CONFIG_ION
 10a05404c4fe184ae9087fb49f1df5b84c1534dc Merge tag 'usb-serial-5.11-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-b8b54ad96e433e3895103a982dff017c5ca3fd16 Merge tag 'icc-5.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 71c061d2443814de15e177489d5cc00a4a253ef3 Merge tag 'for-5.11-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 0e61f09af48beb41be0954e7be7d3ba2d18c9946 drm/amd/pm: correct the sensor value of power for vangogh
 37030aba0f362cf8b16eb2347c7430b2e9ef719e drm/amd/pm: improve the fine grain tuning function for RV/RV2/PCO
@@ -567,11 +541,9 @@ c4151604f0603d5700072183a05828ff87d764e4 cpufreq: intel_pstate: remove obsolete 
 00fd44a1a4700718d5d962432b55c09820f7e709 drm/msm: Only enable A6xx LLCC code on A6xx
 04b1ecb6a4844cf347a1c0d7eb9b63b5eddbfeff Merge tag 'nvme-5.11-2021-01-07' of git://git.infradead.org/nvme into block-5.11
 c8c748fb83bd052502f35471101d61d8c3648c86 Merge tag 'linux-can-fixes-for-5.11-20210107' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-afded6d83aa7b35dab675c730528109cc58d6847 misc: pvpanic: Check devm_ioport_map() for NULL
 fc37784dc71bc9dd3a00a2f01906b3966e4034f2 Merge tag 'regmap-fix-v5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 d8f5c29653c3f6995e8979be5623d263e92f6b86 net: ipv6: fib: flush exceptions when purging route
 5316a7c0130acf09bfc8bb0092407006010fcccc tools: selftests: add test for changing routes with PTMU exceptions
-384b77fd48fd683a82760bc88bef8611cba997fc Fonts: font_ter16x32: Update font with new upstream Terminus release
 a1a7b4f32433e91f0fff32cde534eadc67242298 Merge tag 'regulator-fix-v5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 f5e6c330254ae691f6d7befe61c786eb5056007e Merge tag 'spi-fix-v5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 abf8ef953a43e74aac3c54a94975f21bd483199b net/mlx5: Check if lag is supported before creating one
@@ -696,4 +668,4 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 20210a98463e2abac31676ee141459fc23252927 Merge tag 'kbuild-fixes-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
 
---===============2106418740519873945==--
+--===============5628405710981959464==--
