@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0209395765288733834=="
+Content-Type: multipart/mixed; boundary="===============6928022921550673491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 11 Jan 2021 12:59:23 -0000
-Message-Id: <161036996384.24517.5772928187870779408@gitolite.kernel.org>
+Date: Mon, 11 Jan 2021 12:59:25 -0000
+Message-Id: <161036996532.24599.6771141340736086765@gitolite.kernel.org>
 
---===============0209395765288733834==
+--===============6928022921550673491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,85 +16,92 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: fd247b2422eb419b93ee3db31aca40888684a828
-    new: b73dabb6d370f0b223b72488743b94e360f52d94
-    log: revlist-fd247b2422eb-b73dabb6d370.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 4751144154c5f979ba2be699b21125ce24cbf362
+    new: 6d954ea12bd6f384f3129de8f74bb0a30baffa7b
+    log: revlist-4751144154c5-6d954ea12bd6.txt
 
---===============0209395765288733834==
+--===============6928022921550673491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610370036 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610370037 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1610369961-077c640c74fdc67c8741abeaf8dae34315a10bc6
+nonce 1610369963-dca6e537ad2c1079234d1a8f01bd36337ad4fdfb
 
-fd247b2422eb419b93ee3db31aca40888684a828 b73dabb6d370f0b223b72488743b94e360f52d94 refs/heads/linux-4.4.y
+4751144154c5f979ba2be699b21125ce24cbf362 6d954ea12bd6f384f3129de8f74bb0a30baffa7b refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/8S/QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3lUP/04avwce62Ww+vbLKZ7d
-t+BMAUvWipRnnjIjOE2kWBWodu3Qohyc5TqX6h6XvyaWGFNfP1P+PTgGihl3s+6M
-uRIdHdrPVSzWWlgi5zNepWq4Cs4ZbKG7Sqiio5ngye7ukmA8vQ3ObV3AE283b5cx
-5Nw2KymAK/LIrQMh+z1kKKwZqffgyIC7KHCYSIQ/czTKrmYRiZswe4v0yxknKxsx
-YXCa2ikLrVSZaiZWI4ZYGluG/0eqyRORCxsGwiydLN2GQh+hYdUkmhRjHDBPoeje
-yM39oRFg9q1QGGOHcVvbywcX4S7hRXqgKAqERSO7BxL95k4tp23Tp4B/M3ofcrg9
-wCt61aQ7Gtd0fSjYtsW00kjFIDAc5QLrFhVqvc7PpdIWpsTsaw0s8IIbTNnQcQ+m
-0nAeD/ILqjhzYtQOmNVj5wpbwumFELMoedxVe7q8HETdoeDYmOedvs+sVauUi/yG
-OZeFYjWaHFHiN0IQnr/qE2oYyYprMOMi8xdBfrWf0Z5AYJUw3ck2Q7HfVUeD4CWR
-+dsyHe4vzXB6KGPxmfsbXFHd/cd16xrCSCLm0aLoIBc/Tc+m12Tl1WHId1tTZPgX
-7l+cgm5whBgCNRxwZSJGPikbbqnLnBk40spXvD4RmjIRkiB8cAOvmo9K3rVdKhhN
-9fNq26SZ/1ED19mpz+jHetN7
-=jp0x
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/8S/UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NrcQAIYwKVtzLSVaLVkg6ixK
+vA6T4YknP3mfbJaUhuuIEk3ARo/h9nZWeSkBIU53hsKRwq0lA8Ju6dgm6xvP/j6V
+0TAnlorIAFsRNCeraVeTbfx8nHb5S2eyjN1wt0/PoNMh9oSH2vw5xeVpQ11dRso4
+SqdbT0VAqvHLpilkYVaxHiWR3kDLmGCWwA+v5KAPSHha5tlMPiY243uYNFCpjM83
+nKlCaoK9+hvjdFkitoj1D7m6WYr/KIBaMDA8lRVbMyzDhbZXpGP1GsWL8YpWb/6o
+FvX4N99/k8dqFlp4ivufZbz8JHPQBKbFsQhPBLiQ4ppR8ePuSUtncpDr0QFe6Ze6
+VrH0aUW6yluXbGlVPNkEqAT/6jFeVKKH5hgnRzr6de38/bW55p7zWAo4snfAUXNZ
+4eqFLJ9jktAdmnNQ8uUAZUvO5MNKCK8MK3v6CvkvyjeY4eZk0cjAyj/9Lu0oAq5k
+cCgljGG2AVsaefEXZMKtjHRz/bSC+94WXGOBKZBmwjEPpbZD5fQ+l3lH1A9KeUTF
+PgfYYjAB+MKUlLeDUoo6OZFtwnUJZQyS7dGIqVL2oifaorCNnCpoi9NZq9cKj0Nb
+BSGQ6GA5GxZ5biHa9F4JJHFjHk0OyX8PoSRJdMfDGun9IhSK83sJKg/4D6Jzx7QL
+tNTiONY9ABaGR0lnFZNJ5T/u
+=c57p
 -----END PGP SIGNATURE-----
 
---===============0209395765288733834==
+--===============6928022921550673491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd247b2422eb-b73dabb6d370.txt
+Content-Disposition: attachment; filename=revlist-4751144154c5-6d954ea12bd6.txt
 
-f9b2c1777a9b02ed475820c1ebe45ee4e03e972f kbuild: don't hardcode depmod path
-fed45c4369c53ceaead8cbcc3e28474327e780cb workqueue: Kick a worker based on the actual activation of delayed works
-d382505556868120c507b8d7d89a6f4b71bc0f82 lib/genalloc: fix the overflow when size is too big
-90b977f1e403fdf66bc31087ff50b5e0263fbcd0 depmod: handle the case of /sbin/depmod without /sbin in PATH
-010474ed52b487e08e25cd0dc33cb8d693dce439 atm: idt77252: call pci_disable_device() on error path
-e1238f7fff6f0ddaac0d1f0b84295febc9b6e367 net: dcb: Validate netlink message in DCB handler
-2b660a055d253be3565ad229994c11d737c7b498 ipv4: Ignore ECN bits for fib lookups in fib_compute_spec_dst()
-de1791619745c8d2016e331b53ef9f2386654c41 net: hns: fix return value check in __lb_other_process()
-e1b6c6128beabf662dd825e6b07efc12ff36b21e net: hdlc_ppp: Fix issues when mod_timer is called while timer is running
-30dd9d2701a44e9eff7523c2897f1c57ffa073f8 CDC-NCM: remove "connected" log message
-9b064c09556eb5b573dccb5daaeefd037d030daf vhost_net: fix ubuf refcount incorrectly when sendmsg fails
-eb01f6555deadc41bab8a75bda258996a029d732 net: sched: prevent invalid Scell_log shift count
-e1f31c7ee013b38225b8c05cdde8ae67fa7eec7e virtio_net: Fix recursive call to cpus_read_lock()
-63eb49e7241fb08e52fd208b8b0ceaa6060d5145 ethernet: ucc_geth: fix use-after-free in ucc_geth_remove()
-291c33ab230ed37bad405c960a18ce9a6d59434c video: hyperv_fb: Fix the mmap() regression for v5.4.y and older
-ab213d9c830a6b9e2c8c7267b0479b31f66525b1 usb: gadget: enable super speed plus
-885e5a409346afe5fe6b0d06af11fdad7da6951e USB: cdc-acm: blacklist another IR Droid device
-08f9d48e2d5dba19fe81165e5c4659efe2e4fe7d usb: chipidea: ci_hdrc_imx: add missing put_device() call in usbmisc_get_init_data()
-7c1bf7d497318d1589f83937e7e0e710cdf5d495 USB: xhci: fix U1/U2 handling for hardware with XHCI_INTEL_HOST quirk set
-a178143fa6b157c2531a983989349ee25957f67f usb: uas: Add PNY USB Portable SSD to unusual_uas
-b8296b16277e16d67d4b9c29e9e4e4ac74bdf997 USB: serial: iuu_phoenix: fix DMA from stack
-a8928239c5efeb565549b368934ed3d6b3a2f324 USB: serial: option: add LongSung M5710 module support
-ffd684338ff3b14a352bcd1c6273b0649cef2959 USB: yurex: fix control-URB timeout handling
-945f0f98640f5b35096905ee799b50593bc2b895 USB: usblp: fix DMA to stack
-14c7d96692314551a46840d03b1485fea19d9529 ALSA: usb-audio: Fix UBSAN warnings for MIDI jacks
-891878fc0c5cf68dad879541f1aea353ba982ecd usb: gadget: select CONFIG_CRC32
-78838bd5431e17aedbea3547989a16498ec345b9 usb: gadget: f_uac2: reset wMaxPacketSize
-767290014a524d0ea3134b1ae0facacc1052aa11 usb: gadget: function: printer: Fix a memory leak for interface descriptor
-2ff6571bae0b8aed3e452bc340165a324ff77f1b USB: gadget: legacy: fix return error code in acm_ms_bind()
-6c5ca2940e5f991eb4c10513cf3682400d8f49af usb: gadget: Fix spinlock lockup on usb_function_deactivate
-9c71a225b21fb2e0793d674f383e76ccc163ca40 usb: gadget: configfs: Preserve function ordering after bind failure
-acdc50cf24c0a164356c51f7a396ecd1e75119c8 USB: serial: keyspan_pda: remove unused variable
-c6b373463fa9dd9761d24156b4631c2fd7a549c1 x86/mm: Fix leak of pmd ptlock
-b0c2e014909054bba41ab6845e27c9acd94f1a6d ALSA: hda/conexant: add a new hda codec CX11970
-9504ffa02d7869a67afb5d1fbabdb2f99e180452 Revert "device property: Keep secondary firmware node secondary by type"
-1a4950681c9ce4c57f3fc105a45421446797b7ab netfilter: ipset: fix shift-out-of-bounds in htable_bits()
-a4b71376eafe0dc240726384f7e1e954e5061ff8 netfilter: xt_RATEEST: reject non-null terminated string from userspace
-868815fe41e41a6e572de683a08d696809c4ab8e x86/mtrr: Correct the range check before performing MTRR type lookups
-b73dabb6d370f0b223b72488743b94e360f52d94 Linux 4.4.251-rc1
+1370f1e99cbdea5a5fb89926a064f4f68f5bdbca kbuild: don't hardcode depmod path
+67e96679ce831e1b5ff1952b016c3fb9789d5bf9 workqueue: Kick a worker based on the actual activation of delayed works
+b0bb9e08323a3a96ae8cd1b3ae701a9c828b4e57 lib/genalloc: fix the overflow when size is too big
+b22a2816cb26977f42a967ada00aeb18b559a4e7 depmod: handle the case of /sbin/depmod without /sbin in PATH
+558c03ac1e8c0f19ddabcb5392304df3c5c8e575 ethernet: ucc_geth: fix use-after-free in ucc_geth_remove()
+74a1fe2536f8b35c85913e7018c26b705e680095 atm: idt77252: call pci_disable_device() on error path
+b8a3d9fe204e3e43759768587826061afc516cc0 net: dcb: Validate netlink message in DCB handler
+5227ef5d5b0b1a87ea96a7b76a7b0f6f3fb2007e net/ncsi: Use real net-device for response handler
+631f065c5c0d6315faa5c4c33c3803c4c9d2a50a net: ethernet: Fix memleak in ethoc_probe
+2682d229a605aee664d901e2912b255c73202a1b ipv4: Ignore ECN bits for fib lookups in fib_compute_spec_dst()
+9ea62f36c911112134b33aa997f89a70005d33db net: hns: fix return value check in __lb_other_process()
+4eda2d5b3fae87de1a32e1f8d59a162f2fe283ac net: hdlc_ppp: Fix issues when mod_timer is called while timer is running
+ab8d16e128da5d036b8a25c5d1ff0ec77065e412 CDC-NCM: remove "connected" log message
+7e139bbc5c37cb65515068f7aa9effd140f272ed vhost_net: fix ubuf refcount incorrectly when sendmsg fails
+947825bb96003f00b170b4d436eccceabb2621af net: sched: prevent invalid Scell_log shift count
+f7396ef27e5601ea93fc32e5e2001c63e35d9500 virtio_net: Fix recursive call to cpus_read_lock()
+37e7ca3409959c7af397ab3154d01f5d61e88b1e scripts/gdb: make lx-dmesg command work (reliably)
+9933532bfbd7b2c0ae02eb28f7307cbaad8f17e5 scripts/gdb: lx-dmesg: cast log_buf to void* for addr fetch
+8d3f64bf18a1bc22a36c3efe02c5de4faf8c70eb scripts/gdb: lx-dmesg: use explicit encoding=utf8 errors=replace
+117937989ea98babc92cfff9a7474cda560272c6 scripts/gdb: fix lx-version string output
+5ef7a07fd9e5025322fe77e6d8bc31d6bb090d99 video: hyperv_fb: Fix the mmap() regression for v5.4.y and older
+f032f92c0dc652c9f0fb8844f8c398fdedd5f3e1 usb: gadget: enable super speed plus
+4f15cc6c4917383690c1d7877c43cc14d6259592 USB: cdc-acm: blacklist another IR Droid device
+d6b02c63bccf23c3e449ef4ced4446c4401f2b16 usb: chipidea: ci_hdrc_imx: add missing put_device() call in usbmisc_get_init_data()
+588cdda7bcaa4b459a04e0866b7e55dd822e3267 USB: xhci: fix U1/U2 handling for hardware with XHCI_INTEL_HOST quirk set
+a84bd0d6cf39e24ecceda876e3d417322ff09457 usb: uas: Add PNY USB Portable SSD to unusual_uas
+d7fbedd40f9fc7ecdeead8ece39b2cceea3510f0 USB: serial: iuu_phoenix: fix DMA from stack
+87df04c2683772617697a2627f1d3f6592fefa19 USB: serial: option: add LongSung M5710 module support
+fed8586f3b0ab38c54cb4ed0da089cba0e5a6135 USB: yurex: fix control-URB timeout handling
+030eb9a12c0f15c6656f85f2c9f5df07a265a3a4 USB: usblp: fix DMA to stack
+37716625492ba34110e10a87c3b8256691f71d60 ALSA: usb-audio: Fix UBSAN warnings for MIDI jacks
+754a85e0ec844f2bf09711ac093884e3ff32ce63 usb: gadget: select CONFIG_CRC32
+111512c818713513814765e2d2a752731bd812c9 usb: gadget: f_uac2: reset wMaxPacketSize
+86319822725d789a1d2ebeda871445f844706cb1 usb: gadget: function: printer: Fix a memory leak for interface descriptor
+6ac0aa82e625ecc6f0dbdad7f25638eda820390a USB: gadget: legacy: fix return error code in acm_ms_bind()
+f2b1dd6ac85680203852c229a60e790806e38dab usb: gadget: Fix spinlock lockup on usb_function_deactivate
+5621550a94f77af1dbd6c59119be12b7b3feb215 usb: gadget: configfs: Preserve function ordering after bind failure
+96866558ddd7c09e1e9667d4b859518f3823df0d usb: gadget: configfs: Fix use-after-free issue with udc_name
+7d70aca003b24890409935ea987227b040d82b9f USB: serial: keyspan_pda: remove unused variable
+bb49cf305b9e36a04ef3c23622135c61dd6c208c x86/mm: Fix leak of pmd ptlock
+b850227d3de903b0bd5c52cac5c2ca8a6a806965 ALSA: hda/conexant: add a new hda codec CX11970
+9b03a39de5dfec05acf21028e537a4b5d374b6cb Revert "device property: Keep secondary firmware node secondary by type"
+77ac3023e665db3586d11d7154037ea9e7e3c929 netfilter: ipset: fix shift-out-of-bounds in htable_bits()
+b3f6f95fe2ae372f4c9b9f2badb96b60fed353ab netfilter: xt_RATEEST: reject non-null terminated string from userspace
+cbf59f053c81e7bf66df5ad55dbafba10f60bf0a x86/mtrr: Correct the range check before performing MTRR type lookups
+6d954ea12bd6f384f3129de8f74bb0a30baffa7b Linux 4.9.251-rc1
 
---===============0209395765288733834==--
+--===============6928022921550673491==--
