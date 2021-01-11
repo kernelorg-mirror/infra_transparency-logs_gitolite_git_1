@@ -1,30 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============2413158013036101655=="
+Content-Type: multipart/mixed; boundary="===============0034727853606807245=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 11 Jan 2021 10:48:58 -0000
-Message-Id: <161036213845.3302.7270303837067652656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 11 Jan 2021 11:03:49 -0000
+Message-Id: <161036302947.13995.9219366155774504532@gitolite.kernel.org>
 
---===============2413158013036101655==
+--===============0034727853606807245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/x86/cache
-    old: 91031e096e1fa0216027bfb7fdca931225aebbf0
-    new: 6d3b47ddffed70006cf4ba360eef61e9ce097d8f
-    log: revlist-91031e096e1f-6d3b47ddffed.txt
+  - ref: refs/heads/master
+    old: 0d9412f64333a46528eb4136dfb1d06481b18ea7
+    new: c3703437e37f2e38e831c893dda362271f836100
+    log: revlist-0d9412f64333-c3703437e37f.txt
+  - ref: refs/heads/next
+    old: b8e76cdb157494770d8feee237222a511468c788
+    new: ffb284986e56791dcd815b16c03adad3e2f36cbf
+    log: |
+         fe82bb4db5339ebe8175b0ff2d45757472c0415e arm64: dts: renesas: beacon: Configure programmable clocks
+         b29120d6cfa978ae0721af855afbae3137c8e66d arm64: dts: renesas: beacon kit: Fix Audio Clock sources
+         dc3dba98d2d31420a263b726e5c0a25aa7122e85 arm64: dts: renesas: beacon: Configure Audio CODEC clocks
+         e718d563750db293e84f826be9e7ab49d8e4b97e arm64: dts: renesas: beacon: Better describe keys
+         33aaab6d5c634784ecf5612e7ac11346adac8d6b arm64: dts: renesas: beacon-rzg2m-kit: Rearrange SoC unique functions
+         ed6ae131b0e88260d593fb3f02561de25ffc1045 arm64: dts: renesas: r8a774b1: Introduce beacon-rzg2n-kit
+         4d0e87eb6f54422418a2d985433866535856b6bd arm64: dts: renesas: r8a774e1: Introduce beacon-rzg2h-kit
+         e1076ce07b7736aed269c5d8154f2442970d9137 arm64: dts: renesas: rzg2: Add usb2_clksel to RZ/G2 M/N/H
+         8811955d0a6d0abfa3e1c0cee30090fda0015069 arm64: dts: renesas: rzg2: Add RPC-IF Support
+         ffb284986e56791dcd815b16c03adad3e2f36cbf Merge branch 'renesas-arm-dt-for-v5.12' into renesas-next
+         
+  - ref: refs/heads/renesas-arm-dt-for-v5.12
+    old: d207dc500bbcf8c6e1cbad375b08904f984f9602
+    new: 8811955d0a6d0abfa3e1c0cee30090fda0015069
+    log: |
+         fe82bb4db5339ebe8175b0ff2d45757472c0415e arm64: dts: renesas: beacon: Configure programmable clocks
+         b29120d6cfa978ae0721af855afbae3137c8e66d arm64: dts: renesas: beacon kit: Fix Audio Clock sources
+         dc3dba98d2d31420a263b726e5c0a25aa7122e85 arm64: dts: renesas: beacon: Configure Audio CODEC clocks
+         e718d563750db293e84f826be9e7ab49d8e4b97e arm64: dts: renesas: beacon: Better describe keys
+         33aaab6d5c634784ecf5612e7ac11346adac8d6b arm64: dts: renesas: beacon-rzg2m-kit: Rearrange SoC unique functions
+         ed6ae131b0e88260d593fb3f02561de25ffc1045 arm64: dts: renesas: r8a774b1: Introduce beacon-rzg2n-kit
+         4d0e87eb6f54422418a2d985433866535856b6bd arm64: dts: renesas: r8a774e1: Introduce beacon-rzg2h-kit
+         e1076ce07b7736aed269c5d8154f2442970d9137 arm64: dts: renesas: rzg2: Add usb2_clksel to RZ/G2 M/N/H
+         8811955d0a6d0abfa3e1c0cee30090fda0015069 arm64: dts: renesas: rzg2: Add RPC-IF Support
+         
 
---===============2413158013036101655==
+--===============0034727853606807245==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-91031e096e1f-6d3b47ddffed.txt
+Content-Disposition: attachment; filename=revlist-0d9412f64333-c3703437e37f.txt
 
 665f1388bc9713c81989dda6eed5cde52d57c255 ARM: omap2plus_defconfig: drop unused POWER_AVS option
 f1dc15cd7fc146107cad2a926d9c1d005f69002a ARM: dts: OMAP3: disable AES on N950/N9
@@ -590,8 +619,16 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 688daed2e5daf0a1513effdc05ce3c56ade836f9 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 20210a98463e2abac31676ee141459fc23252927 Merge tag 'kbuild-fixes-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
-3ff4ec0e281d0b234917e6e3033dd3067a5ea945 x86/resctrl: Add printf attribute to log function
-e0ad6dc8969f790f14bddcfd7ea284b7e5f88a16 x86/resctrl: Use task_curr() instead of task_struct->on_cpu to prevent unnecessary IPI
-6d3b47ddffed70006cf4ba360eef61e9ce097d8f x86/resctrl: Apply READ_ONCE/WRITE_ONCE to task_struct.{rmid,closid}
+fe82bb4db5339ebe8175b0ff2d45757472c0415e arm64: dts: renesas: beacon: Configure programmable clocks
+b29120d6cfa978ae0721af855afbae3137c8e66d arm64: dts: renesas: beacon kit: Fix Audio Clock sources
+dc3dba98d2d31420a263b726e5c0a25aa7122e85 arm64: dts: renesas: beacon: Configure Audio CODEC clocks
+e718d563750db293e84f826be9e7ab49d8e4b97e arm64: dts: renesas: beacon: Better describe keys
+33aaab6d5c634784ecf5612e7ac11346adac8d6b arm64: dts: renesas: beacon-rzg2m-kit: Rearrange SoC unique functions
+ed6ae131b0e88260d593fb3f02561de25ffc1045 arm64: dts: renesas: r8a774b1: Introduce beacon-rzg2n-kit
+4d0e87eb6f54422418a2d985433866535856b6bd arm64: dts: renesas: r8a774e1: Introduce beacon-rzg2h-kit
+e1076ce07b7736aed269c5d8154f2442970d9137 arm64: dts: renesas: rzg2: Add usb2_clksel to RZ/G2 M/N/H
+8811955d0a6d0abfa3e1c0cee30090fda0015069 arm64: dts: renesas: rzg2: Add RPC-IF Support
+ffb284986e56791dcd815b16c03adad3e2f36cbf Merge branch 'renesas-arm-dt-for-v5.12' into renesas-next
+c3703437e37f2e38e831c893dda362271f836100 Merge branch 'renesas-next', tag 'v5.11-rc3' into renesas-devel
 
---===============2413158013036101655==--
+--===============0034727853606807245==--
