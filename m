@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4005491638589193217=="
+Content-Type: multipart/mixed; boundary="===============3865204858025773103=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 11 Jan 2021 09:00:47 -0000
-Message-Id: <161035564789.14960.11017098221868444331@gitolite.kernel.org>
+Date: Mon, 11 Jan 2021 09:00:58 -0000
+Message-Id: <161035565849.15102.9217908502426594326@gitolite.kernel.org>
 
---===============4005491638589193217==
+--===============3865204858025773103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: cfb9e4f0b91d96c8857874fe86dd4efc720910ce
-    new: 53f7612657fa247d66a9b45864fff25026c1984c
-    log: revlist-cfb9e4f0b91d-53f7612657fa.txt
+  - ref: refs/heads/dev-test
+    old: d63651afbbdfa5c3a8f50cdf9ebd26ee4eb8d8a1
+    new: 305baaae5dea914e1e365416ec1bf9047de0d494
+    log: revlist-d63651afbbdf-305baaae5dea.txt
 
---===============4005491638589193217==
+--===============3865204858025773103==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cfb9e4f0b91d-53f7612657fa.txt
+Content-Disposition: attachment; filename=revlist-d63651afbbdf-305baaae5dea.txt
 
 665f1388bc9713c81989dda6eed5cde52d57c255 ARM: omap2plus_defconfig: drop unused POWER_AVS option
 f1dc15cd7fc146107cad2a926d9c1d005f69002a ARM: dts: OMAP3: disable AES on N950/N9
@@ -464,5 +464,9 @@ b3cb8486f8d043b0aab8e60b76705997693196d9 f2fs: trival cleanup in move_data_block
 3d8729d64f2f7d135fe55dcbbce4a0daac1c4f97 f2fs: clean up post-read processing
 b9f76004363d85215d546da22d6d7de0bc9c80ca f2fs: fix null page reference in redirty_blocks
 53f7612657fa247d66a9b45864fff25026c1984c f2fs: fix to keep isolation of atomic write
+ecf8e97a571473c6974aaf4e3955d82962dc6082 f2fs: compress: add compress_inode to cache compressed blocks
+84e1bdee201f1ecf93021fe95957861d4df2afd5 f2fs: compress: fix potential deadlock
+55135964d1b2fe9cfdfb8a7a367c29b1ff2c5f74 f2fs: introduce checkpoint=merge mount option
+305baaae5dea914e1e365416ec1bf9047de0d494 f2fs: add ckpt_thread_ioprio sysfs node
 
---===============4005491638589193217==--
+--===============3865204858025773103==--
