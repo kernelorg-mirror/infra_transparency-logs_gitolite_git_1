@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7730454537301893704=="
+Content-Type: multipart/mixed; boundary="===============4019030256403936894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 11 Jan 2021 19:14:54 -0000
-Message-Id: <161039249432.9886.14956500203214085319@gitolite.kernel.org>
+Date: Mon, 11 Jan 2021 19:15:01 -0000
+Message-Id: <161039250121.10028.828078476994827403@gitolite.kernel.org>
 
---===============7730454537301893704==
+--===============4019030256403936894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 0565ff56cd0543bacb5d3ec2ee0f979813ea1841
-    new: f97844f9c518172f813b7ece18a9956b1f70c1bb
-    log: revlist-0565ff56cd05-f97844f9c518.txt
+  - ref: refs/heads/dev-queue
+    old: c88f9a09f666bb7fec4da10fa91ad2cdb02d14cf
+    new: 53ccdedf208aa5fa16f1ff2fcb2108801263b83f
+    log: revlist-c88f9a09f666-53ccdedf208a.txt
 
---===============7730454537301893704==
+--===============4019030256403936894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0565ff56cd05-f97844f9c518.txt
+Content-Disposition: attachment; filename=revlist-c88f9a09f666-53ccdedf208a.txt
 
 df9716ec9ade3d2e190a2aac199557d30a3a8416 regulator: pf8x00: Use specific compatible strings for devices
 127a7a95df41731632c7348960908751f7f9d049 Merge remote-tracking branch 'spi/for-5.10' into spi-5.11
@@ -131,5 +131,29 @@ b77413446408fdd256599daf00d5be72b5f3e7c6 tipc: fix NULL deref in tipc_link_xmit(
 b06ca3d5a43ca2dd806f7688a17e8e7e0619a80a mlxsw: core: Increase critical threshold for ASIC thermal zone
 26c49f0d108fdc3645e75611f8148f3dd9809d6e Merge branch 'mlxsw-core-thermal-control-fixes'
 f97844f9c518172f813b7ece18a9956b1f70c1bb dt-bindings: net: renesas,etheravb: RZ/G2H needs tx-internal-delay-ps
+42ff35ac554a2ca36f201e4933cc8b391e520efe checkpatch: Fix warnings when --no-tree is used
+16616526628490764483747fca689b969e2c494a igb: re-assign hw address pointer on reset after PCI error
+a2df1f0d6d34f6ab1485e7aedd028bd0406ab1df checkpatch.pl: seed camelcase from the provided kernel tree root
+ac1b16d49a0c3fd1480dac562859a5adc90fbb4c i40e/iavf: use better trace path
+10f8680c377bd71bc130a2c27607d26e9be80706 ice: Fix a couple off by one bugs
+7868b3f8b94e3924e0680e562d442881fd7b8390 ice: report correct max number of TCs
+66a210ce2de107939a84ca5dc186d758edbd2065 i40e: Fix flow for IPv6 next header (extension header)
+651975796ca5e285e4ee9df625743d3f44243b9c ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+4315b3259388d4ba176f5e9dbfdc62f61987f619 igb: XDP xmit back fix error code
+429742d83d6067ba4a397f5da271f2708b7906ab ice: fix FDir IPv6 flexbyte
+bc7ec302c0967d0de34ecbcbdbd4ed96f766f110 ice: Implement flow for IPv6 next header (extension header)
+20088a203b424f205cb54f5f3ced3b8a5fd5f8df ice: update the number of available RSS queues
+bf15c466dc858eb1f6a4879696992ab28f143f6c ice: update dev_addr in ice_set_mac_address even if HW filter exists
+45d3944d762e687e13c671c115bcf3a3166b673a ice: use correct xdp_ring with XDP_TX action
+c17f2f2fd16c26684581aa106dcf7187aec001fd ice: Fix state bits on LLDP mode switch
+95b60b40b02daea10ce981405640c8e4ff0de40f i40e: Add zero-initialization of AQ command structures
+0c0812f1af3e303175ea173934912b31be65f4ef i40e: Fix overwriting flow control settings during driver loading
+2a94b7cdf657aa8645e12244970fc695acec0397 i40e: Fix VFs not created
+6f459a85020226b6bb0fac9fe068a918b2cab212 i40e: Fix addition of RX filters after enabling FW LLDP agent
+9d16d5e9c7db37a1f098811ebe4a33fa5bd3648e i40e: acquire VSI pointer only after VF is initialized
+65689db51de433fdad59f5a895d386adf189d7d7 igc: set the default return value to -IGC_ERR_NVM in igc_write_nvm_srwr
+39fa12177ad7f343694a26bff54964b5a983ab61 igb: Enable RSS for Intel I211 Ethernet Controller
+f382b3245084c826e9a7821e854a40c5853b4f79 i40e: Fix add tc filter for IPv6
+53ccdedf208aa5fa16f1ff2fcb2108801263b83f i40e: Fix setting PF MAC filters when changing MAC address
 
---===============7730454537301893704==--
+--===============4019030256403936894==--
