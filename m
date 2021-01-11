@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 11 Jan 2021 23:34:25 -0000
-Message-Id: <161040806544.14604.3990616224810003788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Mon, 11 Jan 2021 23:37:21 -0000
+Message-Id: <161040824121.16792.2936300131094926606@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 73b7a6047971aa6ce4a70fc4901964d14f077171
-    new: beb401ec50067bfef39e74f0cf80be3de3313e7d
+    old: f97844f9c518172f813b7ece18a9956b1f70c1bb
+    new: 5541075a348b6ca6ac668653f7d2c423ae8e00b6
     log: |
-         beb401ec50067bfef39e74f0cf80be3de3313e7d r8169: deprecate support for RTL_GIGA_MAC_VER_27
+         5541075a348b6ca6ac668653f7d2c423ae8e00b6 bpf: Prevent double bpf_prog_put call from bpf_tracing_prog_attach
          
