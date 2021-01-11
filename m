@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1755760329880149513=="
+Content-Type: multipart/mixed; boundary="===============4060737974120130352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 11 Jan 2021 18:05:04 -0000
-Message-Id: <161038830419.450.119044467732585397@gitolite.kernel.org>
+Date: Mon, 11 Jan 2021 18:05:19 -0000
+Message-Id: <161038831962.635.14461608138798468985@gitolite.kernel.org>
 
---===============1755760329880149513==
+--===============4060737974120130352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/fixes
     old: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
-    new: e242441db343c0de800f25993ac8f8d3aba7ac7a
-    log: revlist-e71ba9452f0b-e242441db343.txt
-  - ref: refs/tags/v5.11-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5b7c653871ad14d6b0fb53fabd8152ea70ad545e
+    new: 1a3ed0dc3594d99ff341ec63865a40519ea24b8d
+    log: revlist-e71ba9452f0b-1a3ed0dc3594.txt
 
---===============1755760329880149513==
+--===============4060737974120130352==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e71ba9452f0b-e242441db343.txt
+Content-Disposition: attachment; filename=revlist-e71ba9452f0b-1a3ed0dc3594.txt
 
 665f1388bc9713c81989dda6eed5cde52d57c255 ARM: omap2plus_defconfig: drop unused POWER_AVS option
 f1dc15cd7fc146107cad2a926d9c1d005f69002a ARM: dts: OMAP3: disable AES on N950/N9
@@ -593,18 +590,7 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 688daed2e5daf0a1513effdc05ce3c56ade836f9 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 20210a98463e2abac31676ee141459fc23252927 Merge tag 'kbuild-fixes-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
-54a177383155cbd0299a01cdc49f0eb47fe1ba37 mmc: mxs-mmc: Fix a resource leak in an error handling path in 'mxs_mmc_probe()'
-65c5927a4f6ddfadefa81e4ef835d450d741d4d1 mmc: owl-mmc: Fix a resource leak in an error handling path and in the remove function
-54507f1f2e2dae0b824a68596fbd51f08e418fe7 mmc: sdhci-sprd: Fix some resource leaks in the remove function
-e6ce396b1e52873b9ff4c04e0365cb510fb4759e mmc: usdhi6rol0: Fix a resource leak in the error handling path of the probe
-b8af7f14dd4dde893e53a7eb260c25cf323d6f63 mmc: sdhci-of-dwcmshc: set SDHCI_QUIRK2_PRESET_VALUE_BROKEN
 ca1219c0a7432272324660fc9f61a9940f90c50b mmc: sdhci-of-dwcmshc: fix rpmb access
-e4224d04b1610d21e0144d6a9142392700c150c6 Merge branch 'fixes' into next
-e44b957f9bc09dedd1a8a741ef14c353a241029e dt-bindings: mmc: sunxi: Add Allwinner A100 and H616 compatibles
-c49d78933bc82384c4df16021d85fecbdaa737d5 mmc: sunxi: add support for A100 mmc controller
 1a3ed0dc3594d99ff341ec63865a40519ea24b8d mmc: sdhci-xenon: fix 1.8v regulator stabilization
-f1429972f25d1eee32e20bb22f4600f82f6140cb Merge branch 'fixes' into next
-4181f4948d20463b39ee7592b4e429acf98c161c mmc: sdhci-msm: Warn about overclocking SD/MMC
-e242441db343c0de800f25993ac8f8d3aba7ac7a mmc: sdhci-msm: Actually set the actual clock
 
---===============1755760329880149513==--
+--===============4060737974120130352==--
