@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5402907207435652091=="
+Content-Type: multipart/mixed; boundary="===============8438878858879369503=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 11 Jan 2021 16:26:29 -0000
-Message-Id: <161038238923.1824.13130861964343134194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 11 Jan 2021 16:26:35 -0000
+Message-Id: <161038239546.1964.2002709229193606259@gitolite.kernel.org>
 
---===============5402907207435652091==
+--===============8438878858879369503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 31c51a424f5163ee6f14fcc251f81078457123e1
     new: 1675cdd3d7e2dc095eb380427baac93492032f47
     log: revlist-31c51a424f51-1675cdd3d7e2.txt
 
---===============5402907207435652091==
+--===============8438878858879369503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1610382357 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1610382386-c072743f23f2cc4aec8a86b3d1fc740eb861dc00
+pusher C3F436CA30F5D8EB 1610382363 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1610382393-2d8b219413f1e87463c7b7663cd2798359268a3e
 
-31c51a424f5163ee6f14fcc251f81078457123e1 1675cdd3d7e2dc095eb380427baac93492032f47 refs/heads/for-5.12
+31c51a424f5163ee6f14fcc251f81078457123e1 1675cdd3d7e2dc095eb380427baac93492032f47 refs/heads/asoc-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/8fBUACgkQJNaLcl1U
-h9AsUgf/ZeBvLHKFcBbpmomEpv12BaFb2mas+7WwoWDVyaZwbCVCSlnmE6aeAVM9
-MWRgvzrg2EtuApTHcMfgvXbv7/LHfO9OqgSCtwx+YO0aUwmQchjTRw3iBZfIY13M
-6PFU+rfaPmyDlFSHQhb6rwBm3kCeXOgpdBJdIddNcH2XsrWpgtBUVnThAT5Qv0Gv
-SbYVlzXPOOHtZh+zB0x/04iDI6XOz5Q52pueeosKB4W9oZWTKrUb9skqrvKvqRuE
-FXxpPihfSDDKddiQku18G/VwbQcBtDLC0vT88zg/4ldKtSfsE1306GUlmUZoGD2l
-cFGcVhmVmesD/boCK0bdOrYphZQ/Bg==
-=DZNV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/8fBsACgkQJNaLcl1U
+h9CzqQf9GoPmdfRtNZiacd6QNpDG19epc5fpkGchBlZf3ClZO94Lke8/2p/jZc8r
+5dfNdbyyP+MlioWoIalWcGBbPxqMzCmuMIlCDhr48AX8aMN22gwwNG5v1BYBomQH
+WRUfaywubcJbtFCt1MQjwe36MlC1m/luLooiNb7jlD01pnerrQ24aFn2o7QpYNV3
+wyvCY8iBeny0VZIK8jx+GUkFbzZb5Qck0qMHwMV6CK3IDLAfQ9GNgjMPHoLcQvbj
+QjH1QUWX9nBRbhp4tILK4K9T7gxZWl/pmk6U2c0UjXO6DjunSwL6zv5vYcWrTH8K
+pDC/vPkrI0PyZnYmiiRyOhE7NeHmTQ==
+=f7c4
 -----END PGP SIGNATURE-----
 
---===============5402907207435652091==
+--===============8438878858879369503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ e91b65b36fde0690f1c694f17dd1b549295464a7 ASoC: soc-pcm: Fix an uninitialized err
 f3ddced14b428229282054b6c80b47cee1c747a5 Merge series "Enable DMA mode on Intel Keem Bay platform" from Michael Sit Wei Hong <michael.wei.hong.sit@intel.com>:
 1675cdd3d7e2dc095eb380427baac93492032f47 Merge series "ASoC: rt5645: Enable internal mic and headset on ECS EF20" from Chris Chiu <chiu@endlessos.org>:
 
---===============5402907207435652091==--
+--===============8438878858879369503==--
