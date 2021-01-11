@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3631325878702334708=="
+Content-Type: multipart/mixed; boundary="===============6492425343950542683=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 11 Jan 2021 07:29:56 -0000
-Message-Id: <161035019621.16307.14460630170326706604@gitolite.kernel.org>
+Date: Mon, 11 Jan 2021 07:30:16 -0000
+Message-Id: <161035021698.17881.848246496723338379@gitolite.kernel.org>
 
---===============3631325878702334708==
+--===============6492425343950542683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+  - ref: refs/heads/staging-linus
+    old: 00b8c557d096f0930d5c07df618223d3d06902d6
     new: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
-    log: revlist-5c8fe583cce5-7c53f6b671f4.txt
+    log: revlist-00b8c557d096-7c53f6b671f4.txt
 
---===============3631325878702334708==
+--===============6492425343950542683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610350261 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610350282 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1610350187-93b35c90aa9da010441876a01d2feadf18de12bb
+nonce 1610350206-43685d96cac2b6b4c919a8a33bfe1d8f44708907
 
-5c8fe583cce542aa0b84adc939ce85293de36e5e 7c53f6b671f4aba70ff15e1b05148b10d58c2837 refs/heads/main
+00b8c557d096f0930d5c07df618223d3d06902d6 7c53f6b671f4aba70ff15e1b05148b10d58c2837 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/7/rUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MzIQALW/DuMJAJNGBbMJut9t
-Tk5K3CD63a07sBUYr1XqEWiP2Gk74ikjPPd+NZwH8XzjY16aCi+JAtFq55p5nOEa
-yZ93KFAKDY8O6LR/OsMJfkJpx+2rZ/idNfnf56LQtb5GnBl19EjAkqx1SzdR8LsX
-r3bInYxUZol309o/68QpG39OaZeT9MUWftL7/kGACRD2MnBpucdLvYuha3RGftH5
-NKe1aGnUaWf0UR6fWWNYl4ojXE2XPxhV5Vnx2AgRBRon5Jwv65YBlYaqxJkOe4V7
-3eMFxbW0S5B/uSuwxi3FloVPaQAlSAD2va/UlmMofnLwwAtH7kiepRT2dBASHhGV
-4VX+frYv3vO6kNlMcMzBrrfM2DHJE1yWbwYHfnrB1CCaR+tLggm/nKtgA/FNOlD2
-vXVkTrujW7BHBa/gCth81AMzDle2jIaw9N1phaUAG6+2X1lIj4qlag6mLNPkMrw3
-w1sVjuM9CI+CG06HQzyrAQNTJK3PXg3v7+qKAtLzqdBqltjezvLbgrkvc4Ju6iRD
-lae7rbyqkzW/pvq6xvorbc12hKlidxEByIEuivwQrBr7Z/2fmEMMmqEW1O+ja4e/
-+82+GnZmr++fq35EljoVICXBegfhCodmyMXYVOcRvGt8uNiSlVpk6M/S8K62zQuw
-Dup2Jwnop13yusPxAWCo3W2L
-=qPYg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/7/sobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Kw0QAKKNhuaaxYtvXBSwJ3je
+d/VQq+qRRalhr+B0HwN34TGhvrjxF1JjUByuBiTN0oN6XONhAEggqj7vp5CyLJAM
+M1hkDCR74P3ja867tJnB4HvexxNbo7z89Q3KPnWx8qiXWxHUGqlnzg8xbA4cwB13
+WO+IO9MwkeLbDPhe8eY90hBkAkmkyTmv6pFXRTmvFovZWk73MohW8cKtYbWsv/j5
+8jJkV1A7Hwo5PFETtMBRx6Y8VDmI41hYG2BCc40mSe0JINAqbSI0ds9FOhnMF+vu
+Ntot6s54QQER+ZnwbkkasaBGgdrn8c9zR5lGYHG8vPwwsijjNq+2buGOD8HXXQT1
+Gu7ZrVJrrkzFgU/Fc9BHe8KxxMtkz0gnJFmXcR+HGYPaPBhKJ4De4FJuh9TIa2vd
+EIsUl4gO76MR1tGlMq9wRDkwPY3iC2y5NNOXN8fXnTL8ytyfOZcOWnkRRrrjNgcF
+PFLbXagV98XH1bYvb+W+DLJvPBp1gkIsD54PNnLi6DZGxZF3QBrevOP1Dw4tV0pT
+LvnxabaWskA/lFgEr4abNSUtfThoEQ3dV8+sEL75GN+YVM3MgoQul81QHxaA6iD4
+ulA1ZuTZaaOjvFnPrpND8b98n7+iVefEavhvXmrMOGRqQRf57ljTYyylAz07CbzC
+SJQxc3eaPss7fyOODdmEf1PY
+=YHHN
 -----END PGP SIGNATURE-----
 
---===============3631325878702334708==
+--===============6492425343950542683==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5c8fe583cce5-7c53f6b671f4.txt
+Content-Disposition: attachment; filename=revlist-00b8c557d096-7c53f6b671f4.txt
 
 01341fbd0d8d4e717fc1231cdffe00343088ce0b workqueue: Kick a worker based on the actual activation of delayed works
 58315c96651152b9f438e5e56c910994234e2c7a kernel: cgroup: Mundane spelling fixes throughout the file
@@ -238,9 +238,6 @@ b4e70d8dd9ea6bd5d5fb3122586f652326ca09cd netfilter: nftables: add set expression
 c6174c0e058fc0a54e0b9787c44cb24b0a8d0217 interconnect: imx: Add a missing of_node_put after of_device_is_available
 6414b79d02c426b7dd7d942fc19fb38220ea44ec interconnect: imx: Remove a useless test
 67288f74d4837b82ef937170da3389b0779c17be interconnect: imx8mq: Use icc_sync_state
-12b38ea040b3bb2a30eb9cd488376df5be7ea81f staging: spmi: hisi-spmi-controller: Fix some error handling paths
-cab36da4bf1a35739b091b73714a39a1bbd02b05 Staging: comedi: Return -EFAULT if copy_to_user() fails
-d887d6104adeb94d1b926936ea21f07367f0ff9f staging: mt7621-dma: Fix a resource leak in an error handling path
 2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc Merge tag 'v5.11-rc1' into regulator-5.11
 8db90aa36063f471bea1e65e23185913043852dc Merge tag 'v5.11-rc1' into spi-5.11
 0ffc76539e6e8d28114f95ac25c167c37b5191b3 USB: cdc-acm: blacklist another IR Droid device
@@ -500,7 +497,6 @@ be8d1e0e737941b8316ba125866b044473c164c8 Merge branch 'hns3-fixes'
 3ce47d95b7346dcafd9bed3556a8d072cb2b8571 powerpc: Handle .text.{hot,unlikely}.* in linker script
 cb7f4a8b1fb426a175d1708f05581939c61329d4 x86/mtrr: Correct the range check before performing MTRR type lookups
 3e2224c5867fead6c0b94b84727cc676ac6353a3 io_uring: Fix return value from alloc_fixed_file_ref_node
-00b8c557d096f0930d5c07df618223d3d06902d6 staging: ION: remove some references to CONFIG_ION
 10a05404c4fe184ae9087fb49f1df5b84c1534dc Merge tag 'usb-serial-5.11-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 b8b54ad96e433e3895103a982dff017c5ca3fd16 Merge tag 'icc-5.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 71c061d2443814de15e177489d5cc00a4a253ef3 Merge tag 'for-5.11-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
@@ -696,4 +692,4 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 20210a98463e2abac31676ee141459fc23252927 Merge tag 'kbuild-fixes-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
 
---===============3631325878702334708==--
+--===============6492425343950542683==--
