@@ -1,34 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4176667281338308086=="
+Content-Type: multipart/mixed; boundary="===============1699840155728366868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Mon, 11 Jan 2021 15:57:26 -0000
-Message-Id: <161038064684.14110.12389204292149121615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 11 Jan 2021 16:10:46 -0000
+Message-Id: <161038144682.22153.16657413162766769937@gitolite.kernel.org>
 
---===============4176667281338308086==
+--===============1699840155728366868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/for-linus
-    old: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
-    new: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
-    log: revlist-e71ba9452f0b-7c53f6b671f4.txt
   - ref: refs/heads/master
     old: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
     new: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
     log: revlist-e71ba9452f0b-7c53f6b671f4.txt
-  - ref: refs/heads/next
-    old: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
-    new: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
-    log: revlist-e71ba9452f0b-7c53f6b671f4.txt
 
---===============4176667281338308086==
+--===============1699840155728366868==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -599,4 +591,4 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 20210a98463e2abac31676ee141459fc23252927 Merge tag 'kbuild-fixes-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
 
---===============4176667281338308086==--
+--===============1699840155728366868==--
