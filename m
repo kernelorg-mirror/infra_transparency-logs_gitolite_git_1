@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3438228998515273239=="
+Content-Type: multipart/mixed; boundary="===============1639811903926224107=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 11 Jan 2021 07:11:38 -0000
-Message-Id: <161034909858.4384.11870302722547214650@gitolite.kernel.org>
+Date: Mon, 11 Jan 2021 07:11:57 -0000
+Message-Id: <161034911785.4541.16492267985674986124@gitolite.kernel.org>
 
---===============3438228998515273239==
+--===============1639811903926224107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+  - ref: refs/heads/usb-linus
+    old: a5c7682aaaa10e42928d73de1c9e1e02d2b14c2e
     new: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
-    log: revlist-5c8fe583cce5-7c53f6b671f4.txt
+    log: revlist-a5c7682aaaa1-7c53f6b671f4.txt
 
---===============3438228998515273239==
+--===============1639811903926224107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610349164 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610349183 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1610349089-20895bdaffad8de3cd8747331fe9349577ff08fe
+nonce 1610349108-a583f4cbf8880143d89f3cff1f9cd2c6f1381342
 
-5c8fe583cce542aa0b84adc939ce85293de36e5e 7c53f6b671f4aba70ff15e1b05148b10d58c2837 refs/heads/main
+a5c7682aaaa10e42928d73de1c9e1e02d2b14c2e 7c53f6b671f4aba70ff15e1b05148b10d58c2837 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/7+mwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8Q4P/iZtuNpn+dmR2XnyCdWN
-C3o4UwqSSvxX3Y4fgAl1zu835EuDkLL1EYeJd9KXIZ7/dFkHEtrGUgUC689hFZgT
-AtrAoOH41NuTzazbOYNhL/NVVqCpfDqKP2GkMnUIUXqUdv2SDfStUPoSQvpq9lgA
-NMF2mnhCeznarhBnC8o3BY/2CtebQonmxVYqtVKYmqCdKq+hkZaCn5tAhN3tQrwC
-eVbjLz6E7Lf0L9dZwG0ur9PNo/NJ1tQvW+1aQhFSBwgnIUIDBnTdZiqlshsdhKXt
-iDu0D6o0m+s+5ZPYjeS+g3Oh3uDql6l2QE3UFP2YpOXGPSdVH57GrPDFhWU92VwM
-t1Um/F1A7+FYgd23fk2G/S7LZ8gucqXvEU5xva4L3XxL9ywCYWjIjH5zcLPWChsz
-Sa3+ddYXs6uSJZTnr71F7BWVSCClDUhRhbFvEJniebya/qBN9fvev+DFfZOuMiWn
-wWZeg9hwYau7elC8CWYoCowghTIh2gMjrFcjzHBBrlILZnLWNP64ECg3BTvkvRAm
-2aH+9b4mzvwQA8NcOhNKW0TPsTwlG/i7wn2wuXQKzsoGLS7AR41SJ9nnVzgIKgWQ
-Dprp3zcdn1hztYfdztx/N0Pidb0pW3xTS5fsliHOqsaCKA3cPe9BrvlC0N/t2cMP
-gkYXB9bMeUtzGoLVzWlq41nr
-=UVoD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/7+n8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cYAP/3WzT4uQnwZe8jAq/Vw7
+nU3OWj2ypIFy9amGi3gkSu7KmmrD/CrXcRzxmr5iF8m2w3WflYEoFpv0fwzPFajM
+0/dISRgcanLdxlcgAFl8JVMjv8GP4QzTdDvTRFMJ9nqeUQr7pmua1YnkTx1L63if
+8NIgGboyLsMVCJYDlr05Wi1B0CMEPBODfo/3yCLxXwXwo2db2phH2dyFdUaaQ2Xf
+a0OV43ST9Utfoihq1BNlmrVmq87pq/qG0zAWgcz0wmKkuNnIjgjWqwxasveZ0qxV
+/EZcpOCtM/Z0k3xFbkqf425kgS3BHdRDhiO/LlksKvVu1nrC7CdsTKjs+DL7C0/N
+5uJi6Ls5Xw4uD5SenhtXSaZ4wLgOju7JCTmUi43mgH1FR7gWPQWYI8loGVetQsWh
+HE1+mGC1y6gLCUozNff6acr+JBw3cpKaLpHqhbtZkiK8Mam5uZHPYbiFXNG0mkMn
+HWhOlPxioaQy/HGPni63GGPdaS5JlcMZTtoSjMbLxRj+t3ED3J1Esv6i8sjc5eGr
+ZjzWJB9DL4X0kDMxVXhqRvqvGzAuXidhfCJYzAclkU9Vz/g7/cSpbpDtrR5JgnIh
+cx7Nzg7abdGZa1Ku4xXVIvuCLrpJvX9oHYCj+Sbjqi8+lWq7c8427Vdeb0JMIy9u
+DG/R7QChofhAVwwMwouwTvuu
+=GfBO
 -----END PGP SIGNATURE-----
 
---===============3438228998515273239==
+--===============1639811903926224107==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5c8fe583cce5-7c53f6b671f4.txt
+Content-Disposition: attachment; filename=revlist-a5c7682aaaa1-7c53f6b671f4.txt
 
 01341fbd0d8d4e717fc1231cdffe00343088ce0b workqueue: Kick a worker based on the actual activation of delayed works
 58315c96651152b9f438e5e56c910994234e2c7a kernel: cgroup: Mundane spelling fixes throughout the file
@@ -243,24 +243,6 @@ cab36da4bf1a35739b091b73714a39a1bbd02b05 Staging: comedi: Return -EFAULT if copy
 d887d6104adeb94d1b926936ea21f07367f0ff9f staging: mt7621-dma: Fix a resource leak in an error handling path
 2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc Merge tag 'v5.11-rc1' into regulator-5.11
 8db90aa36063f471bea1e65e23185913043852dc Merge tag 'v5.11-rc1' into spi-5.11
-0ffc76539e6e8d28114f95ac25c167c37b5191b3 USB: cdc-acm: blacklist another IR Droid device
-421da9413a6a5ec4334cade5092370cf2c8c8add MAINTAINERS: Update address for Cadence USB3 driver
-88ebce92806e5dff3549e1a8cacb53978104d3b4 dt-bindings: usb: Add new compatible string for AM64 SoC
-a390bef7db1f192cc5b588dbcf8ed113406ec130 usb: gadget: fsl_mxc_udc: Remove the driver
-5e5ff0b4b6bcb4d17b7a26ec8bcfc7dd4651684f USB: cdc-wdm: Fix use after free in service_outstanding_interrupt().
-0f041b8592daaaea46e91a8ebb3b47e6e0171fd8 usb: typec: intel_pmc_mux: Configure HPD first for HPD+IRQ request
-5d5323a6f3625f101dbfa94ba3ef7706cce38760 USB: xhci: fix U1/U2 handling for hardware with XHCI_INTEL_HOST quirk set
-a5ada3dfe6a20f41f91448b9034a1ef8da3dc87d usb: dwc3: meson-g12a: disable clk on error handling path in probe
-2cc332e4ee4febcbb685e2962ad323fe4b3b750a usb: gadget: function: printer: Fix a memory leak for interface descriptor
-5cc35c224a80aa5a5a539510ef049faf0d6ed181 usb: gadget: Fix spinlock lockup on usb_function_deactivate
-c91d3a6bcaa031f551ba29a496a8027b31289464 USB: gadget: legacy: fix return error code in acm_ms_bind()
-0a88fa221ce911c331bf700d2214c5b2f77414d3 usb: gadget: u_ether: Fix MTU size mismatch with RX packet size
-83a43ff80a566de8718dfc6565545a0080ec1fb5 usb: chipidea: ci_hdrc_imx: add missing put_device() call in usbmisc_get_init_data()
-372c93131998c0622304bed118322d2a04489e63 USB: yurex: fix control-URB timeout handling
-ce722da66d3e9384aa2de9d33d584ee154e5e157 usb: dwc3: ulpi: Use VStsDone to detect PHY regs access completion
-fca3f138105727c3a22edda32d02f91ce1bf11c9 usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
-e5f4ca3fce90a37b23a77bfcc86800d484a80514 usb: dwc3: ulpi: Fix USB2.0 HS/FS/LS PHY suspend regression
-9389044f27081d6ec77730c36d5bf9a1288bcda2 usb: gadget: f_uac2: reset wMaxPacketSize
 91afe604c15405a7b15d1464f224372cd82d3e2c Merge branch 'for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 c76e02c59e13ae6c22cc091786d16c01bee23a14 Merge branch 'for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 60267ba35c744d851dcd2d22ebaa240ca6aaa15f ceph: reencode gid_list when reconnecting
@@ -336,7 +318,6 @@ e042f151ec7474b88b8c1edaaddd1ff7415d7117 hwmon: (sbtsi_temp) Fix Documenation ke
 742eb4750ff35fd62784b04b675d672b8dee2524 s390: update defconfigs
 129975e75b9a2ba528d7f58be2e338cd644f6ed8 s390/Kconfig: sort config S390 select list once again
 1eda52334e6d13eb1a85f713ce06dd39342b5020 hwmon: (pwm-fan) Ensure that calculation doesn't discard big period values
-c318840fb2a42ce25febc95c4c19357acf1ae5ca USB: Gadget: dummy-hcd: Fix shift-out-of-bounds bug
 977a3b0f6e40514ccdc959cc82b1eb96b636941a Merge branch 'opp/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 be1283454b61a1f3b089f1a74b73e20532262e32 cpufreq: intel_pstate: Fix fast-switch fallback path
 9cf93f056f783f986c19f40d5304d1bcffa0fc0d intel_idle: add SnowRidge C-state table
@@ -377,7 +358,6 @@ d39648eb67ac851c7918c794424c266a5d2635b9 kconfig: config script: add a little us
 c0f975af1745391749e4306aa8081b9a4d2cced8 kconfig: Support building mconf with vendor sysroot ncurses
 0c36d88cff4d72149f94809303c5180b6f716d39 lib/raid6: Let $(UNROLL) rules work with macOS userland
 9bba03d4473df0b707224d4d2067b62d1e1e2a77 kconfig: remove 'kvmconfig' and 'xenconfig' shorthands
-d6c1ddd938d84a1adef7e19e8efc10e1b4df5034 USB: serial: option: add Quectel EM160R-GL
 42e85f90171a4ba59a1e1cedbbc30ce3f68f2317 arm64/smp: Remove unused irq variable in arch_show_interrupts()
 b614231dec7864a338ce85032aa3d2d7ea2bc46d arm64: mte: remove an ISB on kernel exit
 095507dc1350b3a2b8b39fdc05edba0c10859eca arm64: mm: Fix ARCH_LOW_ADDRESS_LIMIT when !CONFIG_ZONE_DMA
@@ -393,16 +373,7 @@ faeb0731be0a31e2246b21a85fa7dabbd750101d dmaengine: xilinx_dma: fix incompatible
 df6b92fa40050e59ea89784294bf6d04c0c47705 regulator: qcom-rpmh-regulator: correct hfsmps515 definition
 d957d1610c661e758426654de3b04bea6fb29f8b regulator: qcom-rpmh: add QCOM_COMMAND_DB dependency
 4b1a60a1bb8f03d82c3f6da424adc96667b59f2a MAINTAINERS: Update Georgi's email address
-0e2d6795e8dbe91c2f5473564c6b25d11df3778b USB: serial: option: add LongSung M5710 module support
-54d0a3ab80f49f19ee916def62fe067596833403 USB: serial: iuu_phoenix: fix DMA from stack
 4bfd6247fa9164c8e193a55ef9c0ea3ee22f82d8 ALSA: hda/via: Fix runtime PM for Clevo W35xSS
-020a1f453449294926ca548d8d5ca970926e8dfd USB: usblp: fix DMA to stack
-718bf42b119de652ebcc93655a1f33a9c0d04b3c usb: usbip: vhci_hcd: protect shift size
-a1383b3537a7bea1c213baa7878ccc4ecf4413b5 usb: dwc3: gadget: Restart DWC3 gadget when enabling pullup
-64e6bbfff52db4bf6785fab9cffab850b2de6870 usb: gadget: configfs: Fix use-after-free issue with udc_name
-7043e311a57625467b6fdb032dec8a6dea878208 usb: gadget: core: change the comment for usb_gadget_connect
-d7889c2020e08caab0d7e36e947f642d91015bd0 usb: gadget: select CONFIG_CRC32
-6cd0fe91387917be48e91385a572a69dfac2f3f7 usb: gadget: configfs: Preserve function ordering after bind failure
 e1263f9277bad198c2acc8092a41aea1edbea0e4 dmaengine: stm32-mdma: fix STM32_MDMA_VERY_HIGH_PRIORITY value
 65a4e5299739abe0888cda0938d21f8ea3b5c606 kunit: tool: Force the use of the 'tty' console for UML
 36836f5b377b5a75c16f5bdc5c0f97f9f51212e1 Merge qcom driver fix into regulator-5.11
@@ -440,7 +411,6 @@ de7f1d9e99d8b99e4e494ad8fcd91f0c4c5c9357 io_uring: drop file refs after task can
 05f6f7271a38c482c5021967433f7b698e102c45 i2c: mediatek: Fix apdma and i2c hand-shake timeout
 d1c5246e08eb64991001d97a3bd119c93edbc79a x86/mm: Fix leak of pmd ptlock
 311bea3cb9ee20ef150ca76fc60a592bf6b159f5 arm64: link with -z norelro for LLD or aarch64-elf
-96ebc9c871d8a28fb22aa758dd9188a4732df482 usb: uas: Add PNY USB Portable SSD to unusual_uas
 45ba7b195a369f35cb39094fdb32efe5908b34ad arm64: cpufeature: remove non-exist CONFIG_KVM_ARM_HOST
 c9c48bb701ba78df7d4652146b12bcf3ad716507 speakup: Add github repository URL and bug tracker
 f6bcb4c7f366905b66ce8ffca7190118244bb642 regmap: debugfs: Fix a reversed if statement in regmap_debugfs_init()
@@ -501,7 +471,6 @@ be8d1e0e737941b8316ba125866b044473c164c8 Merge branch 'hns3-fixes'
 cb7f4a8b1fb426a175d1708f05581939c61329d4 x86/mtrr: Correct the range check before performing MTRR type lookups
 3e2224c5867fead6c0b94b84727cc676ac6353a3 io_uring: Fix return value from alloc_fixed_file_ref_node
 00b8c557d096f0930d5c07df618223d3d06902d6 staging: ION: remove some references to CONFIG_ION
-10a05404c4fe184ae9087fb49f1df5b84c1534dc Merge tag 'usb-serial-5.11-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 b8b54ad96e433e3895103a982dff017c5ca3fd16 Merge tag 'icc-5.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 71c061d2443814de15e177489d5cc00a4a253ef3 Merge tag 'for-5.11-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 0e61f09af48beb41be0954e7be7d3ba2d18c9946 drm/amd/pm: correct the sensor value of power for vangogh
@@ -535,11 +504,6 @@ aee2b3ccc8a63d1cd7da6a8a153d1f3712d40826 can: tcan4x5x: fix bittiming const, use
 6ee49118f87cf02b36f68812bc49855b7b627a2b MAINTAINERS: Update MCAN MMIO device driver maintainer
 83b5bd628f65e6b4d1924b307d6a88a57827bdb0 arm64: Move PSTATE.TCO setting to separate functions
 05cd84691eafcd7959a1e120d5e72c0dd98c5d91 dmabuf: fix use-after-free of dmabuf's file->f_inode
-e89eed02a5f1b864fa5abafc8e8e71bd9fd66d1f kcov, usb: hide in_serving_softirq checks in __usb_hcd_giveback_urb
-e2459108b5a0604c4b472cae2b3cb8d3444c77fb usb: gadget: enable super speed plus
-41952a66015466c3208aac96b14ffd92e0943589 usb: typec: Fix copy paste error for NVIDIA alt-mode description
-6c75c2bad36cfb43b144e6a0a76a69993c72097f usb: typec: Send uevent for num_altmodes update
-a5c7682aaaa10e42928d73de1c9e1e02d2b14c2e usb: dwc3: gadget: Clear wait flag on dequeue
 e0658f970a7f3d85431c6803b7d5169444fb11b0 drm/radeon: stop re-init the TTM page pool
 a73858ef4d5e1d425e171f0f6a52864176a6a979 drm/ttm: unexport ttm_pool_init/fini
 1efd17e7acb6692bffc6c58718f41f27fdfd62f5 iommu/vt-d: Fix misuse of ALIGN in qi_flush_piotlb()
@@ -696,4 +660,4 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 20210a98463e2abac31676ee141459fc23252927 Merge tag 'kbuild-fixes-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
 
---===============3438228998515273239==--
+--===============1639811903926224107==--
