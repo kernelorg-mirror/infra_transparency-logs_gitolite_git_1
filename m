@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8517764031270090672=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 11 Jan 2021 08:55:16 -0000
-Message-Id: <161035531691.10961.4056442877328386246@gitolite.kernel.org>
-
---===============8517764031270090672==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Mon, 11 Jan 2021 08:56:40 -0000
+Message-Id: <161035540091.11501.10309134462578894776@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 86a84961f55012379e7d39262749146e405903b5
-    new: 5e5af05b75ec8968e12d63bcff9775dee4889230
+  - ref: refs/heads/dev
+    old: b21c46be11a056aa36fee5dc91ea43b92c984ff4
+    new: cfb9e4f0b91d96c8857874fe86dd4efc720910ce
     log: |
-         5e5af05b75ec8968e12d63bcff9775dee4889230 4.9-stable patches
+         9b6e92d468db3fea9e4d86a2a88b458dbe8c8955 f2fs: introduce sb_status sysfs node
+         8b1721c305758213af105fbcf2fe12111e35eee3 f2fs: fix to tag FIEMAP_EXTENT_MERGED in f2fs_fiemap()
+         75698edb61356181fa150dd2ddeb260e431c2e1a f2fs: fix out-of-repair __setattr_copy()
+         301657fd2b4e39f9bf6b7de741009f8e18e9e258 f2fs: trival cleanup in move_data_block()
+         2a7455c55a8c2d9c3558348ccdb4516bd97514d5 f2fs: clean up post-read processing
+         58550fdc9338f07fe63186443bb805ae3d9f224c f2fs: fix null page reference in redirty_blocks
+         cfb9e4f0b91d96c8857874fe86dd4efc720910ce f2fs: fix to keep isolation of atomic write
          
-
---===============8517764031270090672==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610355389 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1610355315-f2f8dbcc4dd356239a351ae6765cc17e197d5b17
-
-86a84961f55012379e7d39262749146e405903b5 5e5af05b75ec8968e12d63bcff9775dee4889230 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/8Er0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e3oQANF8lOg3nYUPOslfkN7h
-yp2lOcRUNDnYgkwf5g9K0rn7xpy9AvMkXViNMUj5PeIwePAR6KmomBwz8TbuXzrs
-ajkozhn/3RxXDYqcrPdlZ1SUc5FMnRueLy+168WP96iFUbLOS9C2MBk1HI5ULeTD
-pWWZ9hQ7tQnxavFwS/twcuH05AYS+kPuh/vpkhq6TouQo4JmpuM4hXBl0TBQf6is
-SiM2Tms76J/O+BVo2f7fP4vbiBm/hhbykZs9ckcF1VAzoicvF1Tk5osdlESBgrXH
-KlGbAKP7g6uQlceFCQVfvsGOCEuzwo9KNCT3X2CE/22qQ+YQB8MA0xcKwmVspWja
-EOjLiyf0of/mpPFqkFTFaQOhhk7vqceAnpV3Mk0Mwv6FuSEXyyE4+UlTy9dB/QtU
-hoV9dcV8qAAjgVjV+7M0nd+WYZa3d2oTTenfMX6GfiqTolzgSLxT6K+Plw05PeE4
-Xqr1gbVwZDgA1e3kuejKPARzJZEKapxpi9dxCPUNCTs83azA27IJNFcKSh2d9fNB
-Gqhpv3J48/zbiKL31TP8Jq8PZvjkNfAfw0eaxGlxq6tgntDUMux07BfT3HSaBUtm
-l6VLQBk8V1nOir1Xzd0ppW4sjoiKQLflZYcebTHG30EaMcXuTGCy6lLI5DC/wfxJ
-Yz7kFRpAGm1mz74UGk+fmt4n
-=j3Z9
------END PGP SIGNATURE-----
-
---===============8517764031270090672==--
