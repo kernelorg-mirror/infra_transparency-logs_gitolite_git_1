@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0637047588735728698=="
+Content-Type: multipart/mixed; boundary="===============8097817614084745101=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 11 Jan 2021 09:46:12 -0000
-Message-Id: <161035837290.28200.1476906218188392702@gitolite.kernel.org>
+Date: Mon, 11 Jan 2021 09:46:17 -0000
+Message-Id: <161035837700.28323.13108487036209407709@gitolite.kernel.org>
 
---===============0637047588735728698==
+--===============8097817614084745101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,119 +16,133 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 610bdbf6a174c9a91e34e276a9594114b44bef74
-    new: e195348641498586e29a3d0852b8de872ff4031b
-    log: revlist-610bdbf6a174-e19534864149.txt
+  - ref: refs/heads/linux-5.4.y
+    old: f3a4c8d501452b8c2e04c4500c317ce4bdb1b47c
+    new: 9a508dac62eca6ec36ab50e94f75352961d9d66d
+    log: revlist-f3a4c8d50145-9a508dac62ec.txt
 
---===============0637047588735728698==
+--===============8097817614084745101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610358444 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610358448 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1610358369-0df1d3e9372cb5537f7714d51d9b9b91b506bf6a
+nonce 1610358373-7d942d5a67decc9aed0af144a17e2dfc5f51aa0d
 
-610bdbf6a174c9a91e34e276a9594114b44bef74 e195348641498586e29a3d0852b8de872ff4031b refs/heads/linux-4.19.y
+f3a4c8d501452b8c2e04c4500c317ce4bdb1b47c 9a508dac62eca6ec36ab50e94f75352961d9d66d refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/8HqwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y/cQANdtyM2X4M7cpbL0dyxJ
-/NyEYUnKX/bEvnlgwHQWErOOW5wAsFTomJhPt5Z5l8Q+iIAiEI34fL9fXwdoWXxY
-Qw7Jv0E6RlWAFqnMLvzttAJhLYsUXTjI8vV81uYEtUHSTnLaTEYRA4iKqg9UV7Iu
-//d0l2ia2hTgiCxt61dkxDtSpFgAGL8JewoiLNV2yBS7bRXl8g5S4HLsFevHJzqU
-OzsOo9LIKKgCHBWK25eTBsO7WvVuSdzvrL9KcXz8MgpntZlpq+Lh6m985ZcrQJ4e
-K+A5tGuvTb0X3CMDAHlWmmgXNJM8pFj5ywrkpgy92OsM+AmukOrVhGxGpC00sLep
-njctDWNYcyeW/43zIfC+YTGNC7TxP2ShqVDK0UPD29GemzKZjyKS4z/bofOlH2rz
-9QNCUoCsTlMVzzkDOLlHD9eg+q/BnFW1uzRF+oF0+8qM7y307HUDOlnkYXjZYgm7
-6H2EHsD/Bg0GQ4wou0/IDgKMMM0YqsPeX0x2GM2CTIIxurklYI167gd5PFUgAjlX
-f4wP1BXZ6MPjnNZT9AqFqVAcTpiLqGGB7amcfVDSmMXD2VuS+qIZHvQeQ4X04p1v
-QheJskf/oasxcxy6fNOhvFRoFoPwkKjiNDB6acUDbOryIDRhAMSc3KL1cGZKKAl3
-RKC6xGgTkyCWwih+T8x1rzXS
-=9+Lb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/8HrAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vFUP/2Cg129izwSlKLzPfzWU
+uZ3Mqx2oN8niinpz33Xk8Yv8FBSrXi2U8tZMqmiyBzyO/U8yb8YDHR3RvOplom18
+ZDYKiv1dwuommCGjNSEtSDOLkfamRnqc29pSB7iysTUxi0TPvYE8lmSKvcTlS8lH
+vtPEuewbYOGk7MAJ+LxYerdopLIh2ZPKYIqOy9DnRV2MEmtDaYwrHsGAoyTUUAoG
+t5bXdNQh9E3f2tnTNZSoH6QxWpQrWh5OP0G/fun4TAL2ms8zR8gJeK+QSgvFDzyC
+f2v2p31n7hRnWJoI+UKUoiVyG6e7lLC/gw3CdPT2qQZJUSvi/oirVStS5vFyzvcM
+uwOMyDtJfU48T48feOcLDKvNiAcDfYQWCncwQbNsLYxXws+3UYca53xofM9ccnC8
+AIQ9rtn2XYgtikbJWUum9hw53jI0LsBqy5BVkFZXxSDcT8CH1KL/cKhqR95wAtge
+9/hHw2tQmWLWmJH/86jvLH1T26tv+PWN8ZRg97Y5zrm4c2/eE8AqdoeDlDdp8jk4
+cLR5GWLAzsTME3r9rXXFD0t1wC4bvi9NhLPUFfS9cgxX34pTVePwUWUyHCpOV9zp
+wjrS+UjdcWRH74+nNIYOZuO4RTMjA3VR7u/+U+ruLAgaaPU7fN3zO2/tUU4nsk4p
+NEiP07i6+EfA5Fb46V3fAK4I
+=8ZYO
 -----END PGP SIGNATURE-----
 
---===============0637047588735728698==
+--===============8097817614084745101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-610bdbf6a174-e19534864149.txt
+Content-Disposition: attachment; filename=revlist-f3a4c8d50145-9a508dac62ec.txt
 
-e90a656e9cd33718a3445cd790a3eb8f6d8cc72c kbuild: don't hardcode depmod path
-42e27e1846c96b6adecd7837ff02587770072bcf workqueue: Kick a worker based on the actual activation of delayed works
-78789ccf73484baa634d5224e024c9df258de9cd scsi: ufs: Fix wrong print message in dev_err()
-86e6ee00b9cd56ea31997ea70cbec5f4588e93e1 scsi: ufs-pci: Ensure UFS device is in PowerDown mode for suspend-to-disk ->poweroff()
-588ded416bc657de0cceda377392b4917764a5d7 scsi: ide: Do not set the RQF_PREEMPT flag for sense requests
-3c3262f1424f6d0d3b6fe7fadf5b6b4b0eb22037 scsi: scsi_transport_spi: Set RQF_PM for domain validation commands
-969ea591233de02d53ee9c34a57bff614e9ed819 lib/genalloc: fix the overflow when size is too big
-2c965a6e033a02029715bdc8f6a3acb37060f04d depmod: handle the case of /sbin/depmod without /sbin in PATH
-7314d4c2066acac7b351adc30cd7e5ea02e2948c proc: change ->nlink under proc_subdir_lock
-4e843ceb1b0bb2c6f8f7a7e6525cd88841b052a2 proc: fix lookup in /proc/net subdirectories after setns(2)
-73c9d73dac7baf48d1a9f5d39c4c097e0084aef9 i40e: Fix Error I40E_AQ_RC_EINVAL when removing VFs
-345ec165fa7168fa9198b7de458fadb284e82f5f net: mvpp2: Add TCAM entry to drop flow control pause frames
-731d0a6d1a1df4ac5d5d9fdfae78ed596c8b2ee7 net: mvpp2: prs: fix PPPoE with ipv6 packet parse
-c60a18a245f6920eee3fb7defad0965a9d6b4cda ethernet: ucc_geth: fix use-after-free in ucc_geth_remove()
-d6305482ac99eee146f55a17e1b0a7f6569e62d0 ethernet: ucc_geth: set dev->max_mtu to 1518
-d57dc82585e8f78a8fdbc3436060d347a15bfd87 atm: idt77252: call pci_disable_device() on error path
-3285c8cba01537e0231e4e099d19f7d12054c97f net: mvpp2: Fix GoP port 3 Networking Complex Control configurations
-306e1cbc0f1d9ca62b44b662cc32c82833928362 qede: fix offload for IPIP tunnel packets
-d42347fe0b56e5c52fab180997a85f78ff374a6f virtio_net: Fix recursive call to cpus_read_lock()
-526b99fe5ec5abcb76df4a99f1720f3c10342396 net: dcb: Validate netlink message in DCB handler
-132c3273b2865afbba5d37609350b0f243f4e873 net/ncsi: Use real net-device for response handler
-8afee6637b6a57fe41c675885cbc7c247b247c9e net: ethernet: Fix memleak in ethoc_probe
-27c964a54965ac16ece6f21e7ea60f84f99e4968 net-sysfs: take the rtnl lock when storing xps_cpus
-882fb91ed855a43a40086732abc47918587f3b3d net-sysfs: take the rtnl lock when accessing xps_cpus_map and num_tc
-c57a388fb4a11d0c008bbde412c6fb2b8fc51c40 net: ethernet: ti: cpts: fix ethtool output when no ptp_clock registered
-cc3ace0f006819e0b04e86b6d330a0c5de63cb3f tun: fix return value when the number of iovs exceeds MAX_SKB_FRAGS
-dac09bc06bbdbf5784a1ebec9cfbeac5342e40d1 ipv4: Ignore ECN bits for fib lookups in fib_compute_spec_dst()
-d17e7b4880d38e0252b7bb88e8338b6b472feb7c net: hns: fix return value check in __lb_other_process()
-f22c39828cbf82f496c971053ea2082162e84e1c erspan: fix version 1 check in gre_parse_header()
-7a1d3e205db94c6a1de74077d5ab1fdeea18bce9 net: hdlc_ppp: Fix issues when mod_timer is called while timer is running
-44a769404389ed540b1bbf945a9c34b15fe6a81a CDC-NCM: remove "connected" log message
-2d03e7a9336103904ce7a1da1262888965e52ffa net: usb: qmi_wwan: add Quectel EM160R-GL
-fb80f816ed73854da5ad83f416acb9a1de1221eb r8169: work around power-saving bug on some chip versions
-4884d30d87ee2fb9e826224de5ff7b5b7fb7df38 vhost_net: fix ubuf refcount incorrectly when sendmsg fails
-4aeac4d4c3ef8f419462059c72f06ff42d5f9413 net: sched: prevent invalid Scell_log shift count
-9ddc30708fa821141405846e2cf2c53ed5307182 net-sysfs: take the rtnl lock when storing xps_rxqs
-92817c90617b45d39e3930d5e4e635f70e02c87d net-sysfs: take the rtnl lock when accessing xps_rxqs_map and num_tc
-bcff966b914fd0bf55bba4e63de5cf627b1ddd29 net: systemport: set dev->max_mtu to UMAC_MAX_MTU_SIZE
-caacb658c29602985f7387dd73b8acb768cb7ea3 Bluetooth: revert: hci_h5: close serdev device and free hu in h5_close
-d063d7bf51ab839dfb455ce94bedd056c53d2923 video: hyperv_fb: Fix the mmap() regression for v5.4.y and older
-03f694243050b0ff991f39b24fb16eabd27691f2 crypto: ecdh - avoid buffer overflow in ecdh_set_secret()
-0056ed1664d7b6b85961b7fa78494ab83d421252 staging: mt7621-dma: Fix a resource leak in an error handling path
-1751db25f4a011c14db55629148fc9a4420ca8ef usb: gadget: enable super speed plus
-e095636d079f048ff4f8cdb344fcee75bbda0d69 USB: cdc-acm: blacklist another IR Droid device
-f34a24ce51eed8de3f51b10aaf12744e1db73910 USB: cdc-wdm: Fix use after free in service_outstanding_interrupt().
-b8d83d347f50e08fe8ef4b254350c3f5991f4884 usb: dwc3: ulpi: Use VStsDone to detect PHY regs access completion
-0060d8506444ebd0c8d4cfa66e5d3fd80d90fd70 usb: chipidea: ci_hdrc_imx: add missing put_device() call in usbmisc_get_init_data()
-ba7d2289ac02510bd83a0af34343d659908a9f63 USB: xhci: fix U1/U2 handling for hardware with XHCI_INTEL_HOST quirk set
-7291aa473f61cf42001dde05d98c9cea7f9e57eb usb: usbip: vhci_hcd: protect shift size
-858a8fb45d71cbe8f26433e75d18ea2f40edad74 usb: uas: Add PNY USB Portable SSD to unusual_uas
-f0c77497d9e004bb43efb2436068b271b15f52b3 USB: serial: iuu_phoenix: fix DMA from stack
-51d9908eccb79078907cfda92509847a2441a0ee USB: serial: option: add LongSung M5710 module support
-f9abe0e7cd6797b9447346290026c0daaff09f14 USB: serial: option: add Quectel EM160R-GL
-650d5e9f29f1fb2e7f419522b2dbdf02dd26cdc2 USB: yurex: fix control-URB timeout handling
-c6858caddf22b0de483a61631f8fde3d7a4638a4 USB: usblp: fix DMA to stack
-82d2a4df631f9e38a0b33ed15a110dd1774fb73d ALSA: usb-audio: Fix UBSAN warnings for MIDI jacks
-2c78b9636f4245b672435006c498c9e13203a67c usb: gadget: select CONFIG_CRC32
-40455cec77da3fac971f41867ad0d6e7cccc3a4f usb: gadget: f_uac2: reset wMaxPacketSize
-8886159da7b83d199abe05b6f093630048e3443c usb: gadget: function: printer: Fix a memory leak for interface descriptor
-898bef2038736338b1d7cf256c55ed63cdd81720 usb: gadget: u_ether: Fix MTU size mismatch with RX packet size
-84d835849570cd0a1eb88e1d86872bed83d669e3 USB: gadget: legacy: fix return error code in acm_ms_bind()
-f7913494ff0ca7782bc6e1d602932274194fd9c7 usb: gadget: Fix spinlock lockup on usb_function_deactivate
-d737cb8a891cfe9af96625c8c99d76d7fbaaaba8 usb: gadget: configfs: Preserve function ordering after bind failure
-eb633ccbe74ad6165798c2d32829eedf7840c58e usb: gadget: configfs: Fix use-after-free issue with udc_name
-d3e2b4b4f4e75909dcc1abefa52b2e0802190fcb USB: serial: keyspan_pda: remove unused variable
-428ca520e3f084d2e879ebaea366c73f689d7926 x86/mm: Fix leak of pmd ptlock
-568f6395fc5bc1b863b6bcb670ae4a72a5e61ccd ALSA: hda/via: Fix runtime PM for Clevo W35xSS
-c8ae481a48f6626e05a47149dff40c6acc7b67c6 ALSA: hda/conexant: add a new hda codec CX11970
-67bf2898b2b244e5244335152220eee9df219585 ALSA: hda/realtek - Fix speaker volume control on Lenovo C940
-c52fa488b4a076686db6dd0990a52eb5a9726f90 btrfs: send: fix wrong file path when there is an inode with a pending rmdir
-5c33035e339a06e8858b1fedaf8d213ab31f4923 Revert "device property: Keep secondary firmware node secondary by type"
-3e8086f1aa831a5f82f04d5e8ccc91cee17b1c12 xen/pvh: correctly setup the PV EFI interface for dom0
-e195348641498586e29a3d0852b8de872ff4031b Linux 4.19.167-rc1
+03c92caa4d6300d98106be7d8fd2971f1a296146 workqueue: Kick a worker based on the actual activation of delayed works
+01ed97d85a93b65318b925e070b70457afeaeedd scsi: ufs: Fix wrong print message in dev_err()
+f5134725c1efe47e8f13768004d23d74a411f899 scsi: ufs-pci: Ensure UFS device is in PowerDown mode for suspend-to-disk ->poweroff()
+4c8b35619cc4126138a188f70e6dcc517393de40 scsi: ide: Do not set the RQF_PREEMPT flag for sense requests
+6ec29cb537db2d7e3a3d8aff5f09e395e36d094b scsi: scsi_transport_spi: Set RQF_PM for domain validation commands
+8707de12ca7f555a6c25672be0fd539610419be2 lib/genalloc: fix the overflow when size is too big
+aed685cf0bf60aa1c58a2317c8af3b045e56e76d depmod: handle the case of /sbin/depmod without /sbin in PATH
+28580f6020b8472b9e0b5c73f14592a8a5523054 proc: change ->nlink under proc_subdir_lock
+587fc0a741202690d9da688a3a27c051c07808fc proc: fix lookup in /proc/net subdirectories after setns(2)
+8799e0c53dd86a16805aa593e46dac813c03e771 i40e: Fix Error I40E_AQ_RC_EINVAL when removing VFs
+e902097b076384db0a3111d73f4857ee6cf5e340 iavf: fix double-release of rtnl_lock
+29877b814eaaff17777e2d0d54f697922cc3efb0 net: mvpp2: Add TCAM entry to drop flow control pause frames
+3ddde0f17488b57746c5848718b224ef51785c15 net: mvpp2: prs: fix PPPoE with ipv6 packet parse
+a1c31ad4991a92a4f47ac77f3b1996f4acb92021 net: systemport: set dev->max_mtu to UMAC_MAX_MTU_SIZE
+6a45c6167e7ff240118d169d0ebdf5d6bce8a49a ethernet: ucc_geth: fix use-after-free in ucc_geth_remove()
+002b3a56d7f572e64bd9f3b2b114dd27d4bb37f0 ethernet: ucc_geth: set dev->max_mtu to 1518
+ce4a7190ed473903076c02b7bb238ca63566e556 atm: idt77252: call pci_disable_device() on error path
+ae9d4a7bc25bcc16b072b80d7e2c6f0adfe42f57 net: mvpp2: Fix GoP port 3 Networking Complex Control configurations
+56ae01fb48779dbfa38db4b098a6f32bc85d3f39 ibmvnic: continue fatal error reset after passive init
+4ac85e7e2d86155cebe877b98536d4bb0c98dd9d net: ethernet: mvneta: Fix error handling in mvneta_probe
+6a4c2bbc42dca000131a7ec01f910995c427b67e qede: fix offload for IPIP tunnel packets
+794b445cf2732eae4be1dfeebe3051414ce95247 virtio_net: Fix recursive call to cpus_read_lock()
+fc667fdccff07f67a299776cbf819092cda2d78c net: dcb: Validate netlink message in DCB handler
+a6dbbd66bdbd7d0f184118eced5964337a696a7c net/ncsi: Use real net-device for response handler
+823e692b834760c51536fdfc3e38106bc4da065e net: ethernet: Fix memleak in ethoc_probe
+80c2da7810de219dd424fa25b3fff36b33f38a5d net-sysfs: take the rtnl lock when storing xps_cpus
+6e7dba9922f4922886436018f483ddd14b4da989 net-sysfs: take the rtnl lock when accessing xps_cpus_map and num_tc
+82fdb4b932120d7d8895854fc93ece5803db5e03 net-sysfs: take the rtnl lock when storing xps_rxqs
+8b0fb890aef18ddac9682a212ad50a6bfd6c779b net-sysfs: take the rtnl lock when accessing xps_rxqs_map and num_tc
+d45b0a4173dbab0e93e1b927d2600d9bc89d56c0 net: ethernet: ti: cpts: fix ethtool output when no ptp_clock registered
+22869eeeb2a90a61d276ab0f7667f64fc57b0a01 tun: fix return value when the number of iovs exceeds MAX_SKB_FRAGS
+e71a67546d0e6bdb843346bed1ce0fa05720888a net: mvpp2: fix pkt coalescing int-threshold configuration
+ddd280a6a31b4c60b37a0a2fdbc90ba914eb837c ipv4: Ignore ECN bits for fib lookups in fib_compute_spec_dst()
+b975ecfa37351533b345ee37b4d15a92fbc3624b net: sched: prevent invalid Scell_log shift count
+72adb569ad9de5a750d8d01091b713caf5a64efa net: hns: fix return value check in __lb_other_process()
+128139bfc3bc58c5a6afc4031b8ba8e0f03b2132 erspan: fix version 1 check in gre_parse_header()
+690a8672fc089dba5430deac0b991fe50c35706e net: hdlc_ppp: Fix issues when mod_timer is called while timer is running
+336e8e75e04cbc2e52d4cea17ef92ab1e09d8f48 r8169: work around power-saving bug on some chip versions
+4d2986b57be3762f1b3605b0eec83cb4d8955e3d net: dsa: lantiq_gswip: Enable GSWIP_MII_CFG_EN also for internal PHYs
+e68a9b77179db6a28ea9999ae2071dffc20e453f net: dsa: lantiq_gswip: Fix GSWIP_MII_CFG(p) register access
+7370b6eb2a6183443d793205d805fda53236bcd9 CDC-NCM: remove "connected" log message
+7f2554a26efaf92246e48d3d4656d0f8edbcf770 net: usb: qmi_wwan: add Quectel EM160R-GL
+c019d650824f9310a2d0b07d43d4ff8196e461d1 vhost_net: fix ubuf refcount incorrectly when sendmsg fails
+577050a96446aed7d0463a9bb633a055221ae285 ionic: account for vlan tag len in rx buffer len
+d7fdfef3a2b502f6508cad1fd8cbd546f62840ac net/sched: sch_taprio: ensure to reset/destroy all child qdiscs
+cd475f42fa6e40544e1d6d0825864b778bf03ea4 kbuild: don't hardcode depmod path
+5b2ebab56f0eae8b7528086f7c5a5e2b65751936 Bluetooth: revert: hci_h5: close serdev device and free hu in h5_close
+e878332ddc8b6b5cc829040494e645cadc1cd13c video: hyperv_fb: Fix the mmap() regression for v5.4.y and older
+ddc5700327404c4c85bd8dfe6b1b65fe3354f3cc crypto: ecdh - avoid buffer overflow in ecdh_set_secret()
+3f250acf7466f927a2d03b1e3567bb0add7000c8 crypto: asym_tpm: correct zero out potential secrets
+3ce4db6f2cfa72bca0ed5d07b3ff912e2bee4730 powerpc: Handle .text.{hot,unlikely}.* in linker script
+230d804f480e4a9eb6fde99a2ee38366366ffd51 staging: mt7621-dma: Fix a resource leak in an error handling path
+bf50ed42dc70f5be83dc9284e879dda0e899c6e0 usb: gadget: enable super speed plus
+d2924576a49aa26a3db2ea1b47c33ae5f2c530fb USB: cdc-acm: blacklist another IR Droid device
+6628984de9aef13575ab3a8a43dd779c9949215f USB: cdc-wdm: Fix use after free in service_outstanding_interrupt().
+8c4c6cdcc64aebe1e98ef29837a385e916296716 usb: dwc3: ulpi: Use VStsDone to detect PHY regs access completion
+604e28886c5357648cc01fa731ddca01c7c331d7 usb: chipidea: ci_hdrc_imx: add missing put_device() call in usbmisc_get_init_data()
+7df407994ba3fce5d984beefcc753353728cd10b USB: xhci: fix U1/U2 handling for hardware with XHCI_INTEL_HOST quirk set
+5538def0b4359b932d5722a0f5f3bc763dccc0fd usb: usbip: vhci_hcd: protect shift size
+dbddccb34bf3272e55ace7da974b14d0cbdd1d3f usb: uas: Add PNY USB Portable SSD to unusual_uas
+166c0b373355d4eb99e9606a3cbad3b2f136cdd4 USB: serial: iuu_phoenix: fix DMA from stack
+cfaf4896d4ef517de311b0e1ec8d5e9d394d1e6e USB: serial: option: add LongSung M5710 module support
+96f5cc6fbc3a94139a769fa8f73af684b743149f USB: serial: option: add Quectel EM160R-GL
+f7c267458e0ee1c89ed3c7033afeda5a4358d2cc USB: yurex: fix control-URB timeout handling
+d7aed37cd02d3d903b2cd3004d3716ca71e37e24 USB: usblp: fix DMA to stack
+c78445fab201a681fcb4580c7aa768d610a728cf ALSA: usb-audio: Fix UBSAN warnings for MIDI jacks
+4bcaf513d88e0b3a2180987935fcedf6034dfc30 usb: gadget: select CONFIG_CRC32
+8d4c2a34159d1fcff3b2eabf54d0cb18512c2de5 usb: gadget: f_uac2: reset wMaxPacketSize
+db0a4d7141b08a25c44f2c31f35d6ba9d82597ad usb: gadget: function: printer: Fix a memory leak for interface descriptor
+9c3a1dc2bd8af49a8f1e6df037aabd9c1b6df594 usb: gadget: u_ether: Fix MTU size mismatch with RX packet size
+7443f260f7e5ee56b1983d97b491ab06213733c9 USB: gadget: legacy: fix return error code in acm_ms_bind()
+310fc00181325a01968ee2f68abd6b1fbcc8bbad usb: gadget: Fix spinlock lockup on usb_function_deactivate
+a8720291216093e84641936415bf0742c1e44360 usb: gadget: configfs: Preserve function ordering after bind failure
+ac90c177d238f38bee400a8172ac7f0e6f1ef4c5 usb: gadget: configfs: Fix use-after-free issue with udc_name
+d7731919fdb73aef5fa9cbbd32a42f23686beee7 USB: serial: keyspan_pda: remove unused variable
+352e4bb43463dd2e88fb94cce9580170e017618e x86/mm: Fix leak of pmd ptlock
+9b9c2c9bc1d02062061ad7d3149817dd5aa5f3ba kvm: check tlbs_dirty directly
+02dfb0a276a72563ad46300d48d45dbd03630dad ALSA: hda/via: Fix runtime PM for Clevo W35xSS
+592e3032691d767dc6545a58f5f795853280fc2f ALSA: hda/conexant: add a new hda codec CX11970
+d29cf869bc4b2fb17d007fc4748f80d2240684b4 ALSA: hda/realtek - Fix speaker volume control on Lenovo C940
+52c896b2ccfccbd8060b7ba55c793daa2e1e3268 ALSA: hda/realtek: Enable mute and micmute LED on HP EliteBook 850 G7
+232408045161176a7d85398ef344c7519bb2d040 ALSA: hda/realtek: Add two "Intel Reference board" SSID in the ALC256.
+0c8db3582e41eb25e1ab409cd2d83934f68d7bfe btrfs: send: fix wrong file path when there is an inode with a pending rmdir
+5d9dbea9727a0a6e183e36f2b40f6c5b204a4829 Revert "device property: Keep secondary firmware node secondary by type"
+34d83ce2f0f8a49bb7abc8bf9c697ad805777ff9 dmabuf: fix use-after-free of dmabuf's file->f_inode
+3530a5fed9fb9756ddd2dc5b1234382c62918f76 drm/i915: clear the gpu reloc batch
+9a508dac62eca6ec36ab50e94f75352961d9d66d Linux 5.4.89-rc1
 
---===============0637047588735728698==--
+--===============8097817614084745101==--
