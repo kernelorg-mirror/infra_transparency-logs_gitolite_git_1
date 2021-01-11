@@ -1,55 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============6707868494138159938=="
+Content-Type: multipart/mixed; boundary="===============1468701128300979699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Mon, 11 Jan 2021 19:35:27 -0000
-Message-Id: <161039372759.24645.12583973785848356658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 11 Jan 2021 19:40:03 -0000
+Message-Id: <161039400300.27093.456747758123841665@gitolite.kernel.org>
 
---===============6707868494138159938==
+--===============1468701128300979699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: 4720e15f8badbc8173ade4bbd06a561c3a8a5cfa
-    new: 5e86bf1734fdc4bed70f90f3ff1aa48f2333b4cf
-    log: revlist-4720e15f8bad-5e86bf1734fd.txt
+  - ref: refs/heads/ceph-fscrypt-experimental
+    old: 9c9288b9b86af842541fd64b6d3d32913c722de5
+    new: 96626072a638d5d9f381ae920931ca4e38172c37
+    log: revlist-9c9288b9b86a-96626072a638.txt
 
---===============6707868494138159938==
+--===============1468701128300979699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4720e15f8bad-5e86bf1734fd.txt
+Content-Disposition: attachment; filename=revlist-9c9288b9b86a-96626072a638.txt
 
-1933fdbcf8a7b57a491d0761fb9e8275e108e655 kbuild: Handle builtin dtb file names containing hyphens
-97df218d775705f47557a13aa081d8d8907ca5ae bcache: don't attach backing with duplicate UUID
-8f3f31fef70e282622fd31701f30658d1a55e5d3 ALSA: hda/realtek - Fix dock line-out volume on Dell Precision 7520
-c1791a97f3b862952663ef99b2485c5a90b33932 ALSA: hda: add dock and led support for HP EliteBook 820 G3
-3baeb58f1feb682a9244a77d2550e685a21350a6 ALSA: hda: add dock and led support for HP ProBook 640 G2
-7cdcad667a2ae070e9a8ccdbd7289d29eec0f960 nospec: Include <asm/barrier.h> dependency
-6c99e86f26f9090dc91255671c8b925835294f42 watchdog: hpwdt: SMBIOS check
-f9a2f0ab53eb7613056cbd0bf669b62221e72ec9 watchdog: hpwdt: Check source of NMI
-7e34ba017ebf820d7b94974f41ef900f4d8ba117 watchdog: hpwdt: fix unused variable warning
-c56d26822ce5fb673da3be9d16fb4e8085516ea5 ARM: omap2: hide omap3_save_secure_ram on non-OMAP3 builds
-97d6f62c53aa845d925678cfd13992fb662e70f8 Input: tca8418_keypad - remove double read of key event register
-3ea9b4f080b9bfe8a790bfb40deef141c073b217 inet: constify ip_route_output_flow() socket argument
-c46ba3af4eecae54ce50c7edbb8e6f53d20b49d9 inet: add rsk_refcnt/ireq_refcnt to request socks
-6716bfdeee02150ff468295c1a984bdefca92d2b inet: add sk_listener argument to inet_reqsk_alloc()
-cd25057e0107d4ceb41cf94f045a4ada40932017 inet: prepare sock_edemux() & sock_gen_put() for new SYN_RECV state
-46fee9ed3ac04beb21e37507485ba8d235005f2e net: add skb_to_full_sk() helper and use it in selinux_netlbl_skbuff_setsid()
-dc21806617beb74a69dcd877a6094a937d457d91 inet: add rsk_listener field to struct request_sock
-3c38294a2f934293d9120188bee85b229d6f4123 netfilter: use skb_to_full_sk in ip_route_me_harder
-786bf9325217588c05bfe52220a45a37baf9bd9e ext4: inplace xattr block update fails to deduplicate blocks
-1f79037356c62519a75462fbb2c81d688fea5dd6 scsi: qla2xxx: Replace fcport alloc with qla2x00_alloc_fcport
-9e0a71c999c9881adb0ca72623b745a241fcd6e7 USB: storage: Add JMicron bridge 152d:2567 to unusual_devs.h
-523ee3a2a925fbb5f8cb7aa871ea7d0a427dc4bd usb: gadget: f_fs: Fix use-after-free in ffs_fs_kill_sb()
-a8ec6c7ef22fbbb9a1c2abf56f033bed1782e94a staging: speakup: Replace BUG_ON() with WARN_ON().
-c06f140ee552fff2dedfa978cd370c942baff843 drm: qxl: Don't alloc fbdev if emulation is not supported
-5e86bf1734fdc4bed70f90f3ff1aa48f2333b4cf net/8021q: create device with all possible features in wanted_features
+828154244da9255053e3057150ab12582b990b7f fscrypt: export more symbols for filename encryption
+3558ff17b6e03ceaf75c2383e0c9c31a00d5665d ceph: add fscrypt ioctls
+7c218aaec006ca62e38ae0f6febc5db32d04e5ea ceph: crypto context handling for ceph
+ad126db50fab5573582cf676cafb804742f23571 ceph: implement -o test_dummy_encryption mount option
+b94fa17be42de76356440ba22e6022792a10ad42 ceph: preallocate inode for ops that may create one
+3da9a8701eeeb8d101bfbc34535f66b55f178fce ceph: add routine to create context prior to RPC
+72c748be364265cfaeae1dd458afa109aeace0bc ceph: make ceph_msdc_build_path use ref-walk
+23a937993f67ddd62a594d59873df7c72e734e4a ceph: add encrypted fname handling to ceph_mdsc_build_path
+f8be2c6c23b8056ac07754979760c39148063d9e ceph: make d_revalidate call fscrypt revalidator for encrypted dentries
+f09c8deac48e3646cf25292c070cbec0bb0f15ef ceph: add support to readdir for encrypted filenames
+743f2f2162886288f57bd9651a6dce4ae399a035 ceph: add fscrypt support to ceph_fill_trace
+eded48cf09ed1b7d025ce41bffe9ce436511411d ceph: create symlinks with encrypted and base64-encoded targets
+c69f05e74568783187dd6b0eed5c09e254ed8898 ceph: advertise support for CEPHFS_FEATURE_ALTERNATE_NAME
+cde7f717c3a8927653378b09be20d6df4ecdf769 ceph: add support for alternate_name field
+f70720b62a7d35799757c02a7311fc4f9316ffe2 ceph: set "alternate_name" for long dentry names
+96626072a638d5d9f381ae920931ca4e38172c37 ceph: decode alternate_name in lease info
 
---===============6707868494138159938==--
+--===============1468701128300979699==--
