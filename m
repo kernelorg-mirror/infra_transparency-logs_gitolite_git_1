@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 11 Jan 2021 09:58:58 -0000
-Message-Id: <161035913804.5255.3905192302407395340@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 11 Jan 2021 09:59:18 -0000
+Message-Id: <161035915897.5478.17286220542873797255@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 2e202ad873365513c6ad72e29a531071dffa498a
-    new: ec6c3364b816e40c513cba4eef3d1de3fd4bd7b5
+  - ref: refs/heads/master
+    old: 62df5395543f7d7a3acbc47a3cf5617130b649b2
+    new: 3c9d13da636b16c46ec39ccf6417cd6d78481943
     log: |
-         56835f1c14bc958556bd8818b8c4dd146c58418c tools: gpio: fix %llu warning in gpio-event-mon.c
-         ec6c3364b816e40c513cba4eef3d1de3fd4bd7b5 tools: gpio: fix %llu warning in gpio-watch.c
+         ecdfb2b767fc8ac6f27d67536d38997479172dc0 libfdisk: (script) ignore empty values for start and size
+         3c9d13da636b16c46ec39ccf6417cd6d78481943 lsblk: use MOUNTTARGETS in default output
          
