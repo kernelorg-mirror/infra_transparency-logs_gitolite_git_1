@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 11 Jan 2021 09:47:53 -0000
-Message-Id: <161035847386.29006.1474449460148962535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Mon, 11 Jan 2021 09:51:31 -0000
+Message-Id: <161035869109.31467.4674380397343041089@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: efcdca286eefb248d15a49a32a802ed11146e65e
-    new: 1466551fd6c2fac3d02de24f42b62e1292bd960e
+  - ref: refs/heads/dev-test
+    old: 305baaae5dea914e1e365416ec1bf9047de0d494
+    new: 8ca893282e9cf6db31645c6fc25166244c845010
     log: |
-         1466551fd6c2fac3d02de24f42b62e1292bd960e gpio: bd7xxxx: use helper variable for pdev->dev
+         8ca893282e9cf6db31645c6fc25166244c845010 f2fs: compress: fix potential deadlock
          
