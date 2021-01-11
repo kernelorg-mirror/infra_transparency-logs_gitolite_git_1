@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5542946694334956465=="
+Content-Type: multipart/mixed; boundary="===============8884261056616749418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 11 Jan 2021 09:33:51 -0000
-Message-Id: <161035763121.20048.13105082415651516671@gitolite.kernel.org>
+Date: Mon, 11 Jan 2021 09:34:05 -0000
+Message-Id: <161035764581.20205.17301477434855989632@gitolite.kernel.org>
 
---===============5542946694334956465==
+--===============8884261056616749418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 54d0a3ab80f49f19ee916def62fe067596833403
+  - ref: refs/heads/usb-next
+    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
     new: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
-    log: revlist-54d0a3ab80f4-7c53f6b671f4.txt
+    log: revlist-5c8fe583cce5-7c53f6b671f4.txt
 
---===============5542946694334956465==
+--===============8884261056616749418==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-54d0a3ab80f4-7c53f6b671f4.txt
+Content-Disposition: attachment; filename=revlist-5c8fe583cce5-7c53f6b671f4.txt
 
 01341fbd0d8d4e717fc1231cdffe00343088ce0b workqueue: Kick a worker based on the actual activation of delayed works
 58315c96651152b9f438e5e56c910994234e2c7a kernel: cgroup: Mundane spelling fixes throughout the file
@@ -346,6 +346,7 @@ d39648eb67ac851c7918c794424c266a5d2635b9 kconfig: config script: add a little us
 c0f975af1745391749e4306aa8081b9a4d2cced8 kconfig: Support building mconf with vendor sysroot ncurses
 0c36d88cff4d72149f94809303c5180b6f716d39 lib/raid6: Let $(UNROLL) rules work with macOS userland
 9bba03d4473df0b707224d4d2067b62d1e1e2a77 kconfig: remove 'kvmconfig' and 'xenconfig' shorthands
+d6c1ddd938d84a1adef7e19e8efc10e1b4df5034 USB: serial: option: add Quectel EM160R-GL
 42e85f90171a4ba59a1e1cedbbc30ce3f68f2317 arm64/smp: Remove unused irq variable in arch_show_interrupts()
 b614231dec7864a338ce85032aa3d2d7ea2bc46d arm64: mte: remove an ISB on kernel exit
 095507dc1350b3a2b8b39fdc05edba0c10859eca arm64: mm: Fix ARCH_LOW_ADDRESS_LIMIT when !CONFIG_ZONE_DMA
@@ -361,6 +362,8 @@ faeb0731be0a31e2246b21a85fa7dabbd750101d dmaengine: xilinx_dma: fix incompatible
 df6b92fa40050e59ea89784294bf6d04c0c47705 regulator: qcom-rpmh-regulator: correct hfsmps515 definition
 d957d1610c661e758426654de3b04bea6fb29f8b regulator: qcom-rpmh: add QCOM_COMMAND_DB dependency
 4b1a60a1bb8f03d82c3f6da424adc96667b59f2a MAINTAINERS: Update Georgi's email address
+0e2d6795e8dbe91c2f5473564c6b25d11df3778b USB: serial: option: add LongSung M5710 module support
+54d0a3ab80f49f19ee916def62fe067596833403 USB: serial: iuu_phoenix: fix DMA from stack
 4bfd6247fa9164c8e193a55ef9c0ea3ee22f82d8 ALSA: hda/via: Fix runtime PM for Clevo W35xSS
 020a1f453449294926ca548d8d5ca970926e8dfd USB: usblp: fix DMA to stack
 718bf42b119de652ebcc93655a1f33a9c0d04b3c usb: usbip: vhci_hcd: protect shift size
@@ -662,4 +665,4 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 20210a98463e2abac31676ee141459fc23252927 Merge tag 'kbuild-fixes-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
 
---===============5542946694334956465==--
+--===============8884261056616749418==--
