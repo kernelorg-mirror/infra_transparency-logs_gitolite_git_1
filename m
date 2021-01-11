@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4967409866494440900=="
+Content-Type: multipart/mixed; boundary="===============8014425399512003481=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Mon, 11 Jan 2021 14:13:41 -0000
-Message-Id: <161037442189.10363.3427627340970200545@gitolite.kernel.org>
+Date: Mon, 11 Jan 2021 14:14:11 -0000
+Message-Id: <161037445114.10616.493457986913451373@gitolite.kernel.org>
 
---===============4967409866494440900==
+--===============8014425399512003481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brauner/linux
 user: brauner
 changes:
-  - ref: refs/heads/pidfd
-    old: 1efe5da8fa2eb19a66a7331b302b2722f7fb47bf
+  - ref: refs/heads/for-next
+    old: 7abe0224623f35529f8017da896e8234650b29ca
     new: cb5021ca622fe83923e0789f99fe7227cbcd3f68
-    log: revlist-1efe5da8fa2e-cb5021ca622f.txt
+    log: revlist-7abe0224623f-cb5021ca622f.txt
 
---===============4967409866494440900==
+--===============8014425399512003481==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1efe5da8fa2e-cb5021ca622f.txt
+Content-Disposition: attachment; filename=revlist-7abe0224623f-cb5021ca622f.txt
 
 8a5be36b9303ae167468d4f5e1b3c090b9981396 Merge tag 'powerpc-5.11-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 0c6c887835b59c10602add88057c9c06f265effe Merge tag 'for-linus' of git://github.com/openrisc/linux
@@ -1051,4 +1051,4 @@ adc5d8757288a3a5628436d16e78fb696d802e39 signal: Add missing __user annotation t
 96e1e9846c6691f90009ae4d8e486e0ce5c628a7 Kernel: fork.c: Fix coding style: Do not use {} around single-line statements
 cb5021ca622fe83923e0789f99fe7227cbcd3f68 kthread: remove comments about old _do_fork() helper
 
---===============4967409866494440900==--
+--===============8014425399512003481==--
