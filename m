@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0151445001782284314=="
+Content-Type: multipart/mixed; boundary="===============4005491638589193217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 11 Jan 2021 09:00:34 -0000
-Message-Id: <161035563431.14802.1486915209496435172@gitolite.kernel.org>
+Date: Mon, 11 Jan 2021 09:00:47 -0000
+Message-Id: <161035564789.14960.11017098221868444331@gitolite.kernel.org>
 
---===============0151445001782284314==
+--===============4005491638589193217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 9f1abbe97c08ba7ed609791627533a805a1b2c66
-    new: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
-    log: revlist-9f1abbe97c08-7c53f6b671f4.txt
+  - ref: refs/heads/dev
+    old: cfb9e4f0b91d96c8857874fe86dd4efc720910ce
+    new: 53f7612657fa247d66a9b45864fff25026c1984c
+    log: revlist-cfb9e4f0b91d-53f7612657fa.txt
 
---===============0151445001782284314==
+--===============4005491638589193217==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9f1abbe97c08-7c53f6b671f4.txt
+Content-Disposition: attachment; filename=revlist-cfb9e4f0b91d-53f7612657fa.txt
 
 665f1388bc9713c81989dda6eed5cde52d57c255 ARM: omap2plus_defconfig: drop unused POWER_AVS option
 f1dc15cd7fc146107cad2a926d9c1d005f69002a ARM: dts: OMAP3: disable AES on N950/N9
@@ -448,5 +448,21 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 688daed2e5daf0a1513effdc05ce3c56ade836f9 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 20210a98463e2abac31676ee141459fc23252927 Merge tag 'kbuild-fixes-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
+b2078605ad776f46cffc803d23b5e298428e9a60 f2fs: handle unallocated section and zone on pinned/atgc
+767890bd72d07c80b4d1acf293c09c95b12ef2df f2fs: Replace expression with offsetof()
+6502b773ecf5fb22aea348efc7b360da777cf292 f2fs: fix to set inode->i_mode correctly for posix_acl_update_mode
+5904fdc48fcf2ced8e24b0efb2c466cfd7410d64 f2fs: enhance to update i_mode and acl atomically in f2fs_setattr()
+5bb98750fae58e5953f4f049f0365007c82c5f1d f2fs: enforce the immutable flag on open files
+c055be20d805cb4c83b6d98db51e40251856d1d8 f2fs: relocate f2fs_precache_extents()
+0ba061b9e957791e8120b6acb589a26fa7bbbb53 f2fs: compress: support compress level
+ec0d0eb347b05377ad2e03c51cb1d08d6ed35619 f2fs: compress: deny setting unsupported compress algorithm
+bce96778762430e4e862be7e74964d49456867b5 f2fs: introduce a new per-sb directory in sysfs
+969945899a35ec726fb20d3243aa4d2dd7885fd3 f2fs: introduce sb_status sysfs node
+ee93b4fafed975bed5aa4739ce7172c3099c27d2 f2fs: fix to tag FIEMAP_EXTENT_MERGED in f2fs_fiemap()
+2dad5a0dd7b6a544e402fc1d21c0adc72f25eeb2 f2fs: fix out-of-repair __setattr_copy()
+b3cb8486f8d043b0aab8e60b76705997693196d9 f2fs: trival cleanup in move_data_block()
+3d8729d64f2f7d135fe55dcbbce4a0daac1c4f97 f2fs: clean up post-read processing
+b9f76004363d85215d546da22d6d7de0bc9c80ca f2fs: fix null page reference in redirty_blocks
+53f7612657fa247d66a9b45864fff25026c1984c f2fs: fix to keep isolation of atomic write
 
---===============0151445001782284314==--
+--===============4005491638589193217==--
