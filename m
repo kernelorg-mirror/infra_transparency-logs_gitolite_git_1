@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/git/git
-Date: Tue, 12 Jan 2021 06:08:56 -0000
-Message-Id: <161043173619.9290.6268071911386687143@gitolite.kernel.org>
+Date: Tue, 12 Jan 2021 06:41:44 -0000
+Message-Id: <161043370499.29481.16863552315987500958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,16 @@ repo: pub/scm/git/git
 user: junio
 changes:
   - ref: refs/heads/seen
-    old: 3521e7fb105663a9b69afaf933ac6a73a479a080
-    new: cc31c90a4d596e02b303f3b9efa6ee447823d644
+    old: cc31c90a4d596e02b303f3b9efa6ee447823d644
+    new: 04b5d13957e1700795a73d5beb28b34a1c835c50
     log: |
-         9901164d81dfc2e050860f7dd60e5590c3cfaa50 test: add helper functions for git-bundle
-         ce1d6d9f1641d87a66c3933255531ee2c15d3143 bundle: lost objects when removing duplicate pendings
-         5bb0fd2cab5a18bc188c8154097857f51a0e9feb bundle: arguments can be read from stdin
-         7c77fe0b3b04bc524e17db3b81b72c92b3245933 Merge branch 'jx/bundle' into seen
-         cde3228ce1caf6120b711e0c29df4304f5b2ca33 Merge branch 'ds/update-index' into seen
-         cd2bf06dfea82e5637c3e7177cf9d65c46ee40f0 Merge branch 'ab/detox-gettext-tests' into seen
-         a4a1ca22ef913adf3de9e72e525a2cd436742009 Documentation/git-clone.txt: document race with --local
-         cc31c90a4d596e02b303f3b9efa6ee447823d644 Merge branch 'tb/local-clone-race-doc' into seen
+         8a19de4f37c319a880bae86deec3423bfc21f415 mergetool: add automerge configuration
+         a673d6558edf4551a4d339358367d6ee99853b8c mergetool: alphabetize the mergetool config docs
+         7a946a94d5a233fc01548e837fa6478d73aa3838 mergetool: add per-tool support for the autoMerge flag
+         51b273706ebf40706463ad2bedf4adf699c7a9e6 mergetool: break setup_tool out into separate initialization function
+         a0fc95331be79122bf7b4003691f67efd566b016 mergetool: add automerge_enabled tool-specific override function
+         3b1d4dad7ce27274eccf8c18d5e647698e111318 fixup! mergetool: add automerge configuration
+         c47a6996f364a3918c423fc7c6022ed7854ae752 fixup! fixup! mergetool: add automerge configuration
+         a6146e7597bec248c77d90decccac5a7b0405ef9 fixup! mergetool: break setup_tool out into separate initialization function
+         04b5d13957e1700795a73d5beb28b34a1c835c50 Merge branch 'fc/mergetool-automerge' into seen
          
