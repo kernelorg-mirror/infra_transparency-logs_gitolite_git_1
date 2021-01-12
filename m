@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 12 Jan 2021 19:35:42 -0000
-Message-Id: <161048014229.24492.3152408562672352981@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 12 Jan 2021 19:40:03 -0000
+Message-Id: <161048040353.26886.5631644361641432724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/ceph-fscrypt-experimental
-    old: 4c46c0551e871f14eae00422d179cb4411e004be
-    new: 20625737b11d65abda63d3a9c2059b471f1bd10d
+  - ref: refs/heads/master
+    old: 668b61ff3ab9d251ded59894b4c5ee783052cb5a
+    new: 2fe20808c2a7b6e17e52374e8451e332e8fe3ebf
     log: |
-         a61f133c7279df03d5beaff73620bd3fc179fc88 ceph: add support to readdir for encrypted filenames
-         51b2d5ea0de3afd587da63d3d9d279ff8acf7433 ceph: add fscrypt support to ceph_fill_trace
-         7165cb3d51f8ed0ee79df3d58461dcf5bd4efb11 ceph: make d_revalidate call fscrypt revalidator for encrypted dentries
-         20625737b11d65abda63d3a9c2059b471f1bd10d ceph: create symlinks with encrypted and base64-encoded targets
+         09b124f0734cea6da38fa539ec1c5c3b0c5aaf1e dbus: add helper for appending a dictionary
+         cf17d42972519f4fa3220f827784f5ffacc7a302 netdev: add netdev_get_station/current_station
+         08de8186c6f2d8e1b2f53c391f9778d1d8a7f1b7 netdev: update RSSI polling to use station info parser
+         2fe20808c2a7b6e17e52374e8451e332e8fe3ebf doc: update diagnostics with [optional] tags
          
