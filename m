@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4080254998712838239=="
+Content-Type: multipart/mixed; boundary="===============7174233277879081598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Tue, 12 Jan 2021 22:49:39 -0000
-Message-Id: <161049177914.4849.17659066344806673429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Tue, 12 Jan 2021 22:49:43 -0000
+Message-Id: <161049178372.4940.10782315189248361279@gitolite.kernel.org>
 
---===============4080254998712838239==
+--===============7174233277879081598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 5b7c653871ad14d6b0fb53fabd8152ea70ad545e
 
---===============4080254998712838239==
+--===============7174233277879081598==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -470,4 +470,4 @@ a0d54b4f5b219fb31f0776e9f53aa137e78ae431 Merge tag 'trace-v5.11-rc2' of git://gi
 ea49c88f4071e2bdd55e78987f251ea54aa11004 Merge tag 'mkp-scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi
 e609571b5ffa3528bf85292de1ceaddac342bc1c Merge tag 'nfs-for-5.11-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 
---===============4080254998712838239==--
+--===============7174233277879081598==--
