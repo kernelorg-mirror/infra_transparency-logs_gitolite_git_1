@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8731024306743999452=="
+Content-Type: multipart/mixed; boundary="===============8242085712663116214=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 12 Jan 2021 16:14:50 -0000
-Message-Id: <161046809019.25008.17742152367055140842@gitolite.kernel.org>
+Date: Tue, 12 Jan 2021 16:15:58 -0000
+Message-Id: <161046815817.26780.3822976628515654256@gitolite.kernel.org>
 
---===============8731024306743999452==
+--===============8242085712663116214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 2eda61a850d45d421efcaaa06b64c06ee273d82e
-    new: 5f8e084026543bc06eb9b2a623de55bb4ab3e60e
+    old: 5f8e084026543bc06eb9b2a623de55bb4ab3e60e
+    new: 280a9045bb18833db921b316a5527d2b565e9f2e
     log: |
-         c14556fc0c7c115ffb4a287560e1ec9f7869aac3 thunderbolt: Drop duplicated 0x prefix from format string
-         5f8e084026543bc06eb9b2a623de55bb4ab3e60e Merge tag 'thunderbolt-for-v5.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
+         280a9045bb18833db921b316a5527d2b565e9f2e ehci: fix EHCI host controller initialization sequence
          
 
---===============8731024306743999452==
+--===============8242085712663116214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610468152 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610468220 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1610468081-37bd9a175a9e94f738a2106a4e42c9ee418f127a
+nonce 1610468149-612f3e7cea10fd56c112beca64247666756b27e3
 
-2eda61a850d45d421efcaaa06b64c06ee273d82e 5f8e084026543bc06eb9b2a623de55bb4ab3e60e refs/heads/usb-linus
+5f8e084026543bc06eb9b2a623de55bb4ab3e60e 280a9045bb18833db921b316a5527d2b565e9f2e refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/9yzgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RPAP/RR5jzoUHHAUr3l1K1sG
-4/bSUt5zuXbQUJD7OnhTwDlHZFNfLx491jUB/txMp3YCHsv28teukJ9J6KRDTw5B
-06zDyrwEsBGNKXfyrHnRV6b7mqb8qAbABaF7HixPw6d2oBB3FC8M3JVF+Q7TZAbi
-kJHL7jGNKx4O3k/D5EPZDW13lBbakWHoacv+U8jiRfmlSUo40htXIS5HRDPkend0
-jDEnTA2xULbUbNoAgqs7utf4oEHXxRT+SlnfSLGuopD3A7anP7Nf1VQI/e+CVpH2
-e8QGQpRk6lICBm7IGgnjM9AodZLaTKPG4DCnAp1IV0shYoY6NLT16GxckqQ3ZdX9
-Uprf7rYooDfT4jSfLE78F5tdyH5hrNOSh26F0+wb29hHMNICbMOry1nbHns09pL9
-YWVTN3mRkkfrCvEKul7XvX9VqZFWFRtOp8tKuY/swd3Wgjj7SweyRaSaD8dkxcfx
-e4EBOHyweaG+6Wz+xMZicEElB2z5U5s9WDpzy1Cwf8MLqGFyjUPag1hz7A2EPf23
-luyG45203GKMAJ/VhYWnBTooe3hAO9x91u2cpPvYYdGWLbWtopAtdmDXbh5Rb2D+
-5X6CMWwkTUiTwpI0/Uy8iuPaWHTiFVwJTJiVdv40rtzPCvaM1NATqeO3WDilT+JV
-UzzZWg9ZT9flHSEiPNK0jt/o
-=66Le
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/9y3wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hN4QAKsrt3KvkBWzyYe/F1Mm
+zB9vAOPLb68LqRNRIhq+jUnIAJ6EK8DseJ25t+wC5l/EVRtaLHIl5WMMXKaV++2h
+ZcCNbqtjS1HXP3vWqFTGv60ZKIUlsNQJlSQwn6a/VxLK2gsWsJm7nJXnzMCW3imb
+u9eTrZKM8K+X5/BnO2Rl0qALMR0mia1wQdcHQOOoFBJ2EK/8APSqwc6J/jOSPGXO
+Q0ghHCwwxpWAtv911B4vFpfCNkXlicZ8bHw3bsZSjGLiZyH7nRSf+FlBlX74TkQS
+9z2KVShs4oZq44mP3cUgyFEMqxegK0kyc1Q1EEPjKOKDLaSqiLWw5iERozOYC645
+0sJlIlbz1+097wpvEVif3C4KEoffRX/sspkQeDF52FNoTdDZhsO/zlKstS34evVQ
+GcKgSGDdvHPTZnO47U402ZbM2bvyv8IfQCsSW85R3z4CbkGnHagcS7Sz7e/k/c+X
+NKrRLnrcoFG4alxfJjxMgwdjiRN/o36RpnTLL0CxaIud83vc67hkjU2QUhaTOWRy
+CehwMwMcLx4XBA3NcUo8dox0mgnuVBVg5U/UMarcVu1GpEsWq3RogHOVW09sW7CS
+o855/Wet4DpTCUwbggsxAXoSiTPt28AlNRi9eNCInprQeDQ1nJXC7T/tPqUZQ/MR
++E7mESTEbEivyR6lZQ4w9q4v
+=wK0u
 -----END PGP SIGNATURE-----
 
---===============8731024306743999452==--
+--===============8242085712663116214==--
