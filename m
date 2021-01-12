@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/usb
-Date: Tue, 12 Jan 2021 01:54:23 -0000
-Message-Id: <161041646379.12908.15317769429776310628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 12 Jan 2021 01:55:11 -0000
+Message-Id: <161041651161.14532.12761401839309814963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peter.chen/usb
-user: peter.chen
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-usb-next
-    old: ba374bf81fbf62d844124f45ac9ed6966926775b
-    new: 62e140c241bd19fe98106e0d64588862acf80abf
+  - ref: refs/heads/master
+    old: ad0bfc233ae2e7ee3bcb9a6089e4aa54e2b44fa1
+    new: c73a45965dd54a10c368191804b9de661eee1007
     log: |
-         62e140c241bd19fe98106e0d64588862acf80abf usb: cdnsp: fixes undefined reference to cdns_remove
+         c73a45965dd54a10c368191804b9de661eee1007 net: mvpp2: prs: improve ipv4 parse flow
          
