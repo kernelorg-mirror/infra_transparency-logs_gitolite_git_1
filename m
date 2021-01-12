@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3162730877487031015=="
+Content-Type: multipart/mixed; boundary="===============6714425522636404162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 12 Jan 2021 16:41:10 -0000
-Message-Id: <161046967051.11617.8957774514941008621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 12 Jan 2021 16:41:16 -0000
+Message-Id: <161046967695.11764.10170212824431454462@gitolite.kernel.org>
 
---===============3162730877487031015==
+--===============6714425522636404162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 1675cdd3d7e2dc095eb380427baac93492032f47
     new: 43fb2919d4cb7bf26ffc111a5e8190f8c754c4d2
     log: |
@@ -30,28 +30,28 @@ changes:
          43fb2919d4cb7bf26ffc111a5e8190f8c754c4d2 Merge series "ASoC: Intel: bytcr_rt5640: Add support for devices with only a headphone jack (no speakers/mic)" from Hans de Goede <hdegoede@redhat.com>:
          
 
---===============3162730877487031015==
+--===============6714425522636404162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1610469638 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1610469668-c2726028c2b2a0401cd7fa3e41e06c2ebcbd34f3
+pusher C3F436CA30F5D8EB 1610469644 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1610469674-66ac2c1e987c719709fc03d7f28faeb6a643c0b7
 
-1675cdd3d7e2dc095eb380427baac93492032f47 43fb2919d4cb7bf26ffc111a5e8190f8c754c4d2 refs/heads/for-5.12
+1675cdd3d7e2dc095eb380427baac93492032f47 43fb2919d4cb7bf26ffc111a5e8190f8c754c4d2 refs/heads/asoc-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/90QYACgkQJNaLcl1U
-h9CyOgf9HAFHw6UZAxl1flTzT2/WYQLVIu9k1yzS7wcjc/tx4xlrJmzyuITI0SAa
-yuhN51CFI7h+jpjM8HkBHXchX9ArfI7hs8zRxgbsKehsDd5pvYINSX13bERAvfgt
-Zkt04o6aKrd1f3A2VsqGtk79fmfTJ/MxBzqBbDhqRxCp0lGRzJGjdiQIv4qPc8SX
-fe97cpVhoskmDRWLuzRQ3GJJatnKh3nif1OFYBV0gbVckWZPrXLaWO2gKiT2Paxn
-y7rndDHiXPkfT11cAn79Q8c0UwNKqIn8OpMeoLRGEteesmJ4czOcea/B3ZgSbhso
-x+jFfiQuON0tKErXODj0o9ohbFobaQ==
-=/CsV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl/90QwACgkQJNaLcl1U
+h9Bptgf9HbrqAhh7qKYr0NO5ULMLvUEpYGo7/JzCqjQX5wp058O1wCUA0D4Ir6mX
+vJ7M7tf1idqtnzl/DfQFLGsYABYlTPS+uEhZNibpX21tnmmYjkWoCFtlqfieqats
+sNxFnX0SLMzr14EdV0jlSDUR93GC6LNEZwJepx5PSI1g3fBn1ZHKpYxmVSbOaeI9
+bZEYhXErDbuwg4t3QZLba0vSNU/jn/YQGW9bKmQcdYfqv01BUHG/d4EjDmAvrhBm
+1pwdSvUZkis99eBFYjddZJtuqiGB7Tji9lja2aOoBOPAS6+K4eU0WezvqWSDyUbv
+JVdZvgdgbXNvGvzvJGeWWP+Gsh28fA==
+=lNDY
 -----END PGP SIGNATURE-----
 
---===============3162730877487031015==--
+--===============6714425522636404162==--
