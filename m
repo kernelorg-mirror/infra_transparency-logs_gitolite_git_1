@@ -1,46 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6011268940908793718=="
+Content-Type: multipart/mixed; boundary="===============0260137896031771765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 12 Jan 2021 21:22:59 -0000
-Message-Id: <161048657935.14628.4283192047432121999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 12 Jan 2021 21:26:09 -0000
+Message-Id: <161048676991.17100.7310491744233622976@gitolite.kernel.org>
 
---===============6011268940908793718==
+--===============0260137896031771765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 2bfff03b3cd043370ed3a1a5ad7b0964db7348e5
-    new: f5748d7b69f5afe63c37cb75d4134e902b701c04
-    log: |
-         f5748d7b69f5afe63c37cb75d4134e902b701c04 Add C5C5D164F2B206A1 (Suzuki Poulose)
-         
+  - ref: refs/heads/rcu/next
+    old: a18ab6e012ea03b839274d746a0732adbde3dc4c
+    new: 58eea9d62c096199364c99cebf644815ef382af7
+    log: revlist-a18ab6e012ea-58eea9d62c09.txt
 
---===============6011268940908793718==
+--===============0260137896031771765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a18ab6e012ea-58eea9d62c09.txt
 
-certificate version 0.1
-pusher B6C41CE35664996C! 1610486579 -0500
-pushee pdx-korg-gitolite-1.ci.codeaurora.org:pub/scm/docs/kernel/pgpkeys
-nonce 1610486578-0679549e6374845df4c81316a40d2132e4cede00
+462765c8f5bbbd2e86cd5c5a57a182c2ebf3d5d7 clocksource: Do pairwise clock-desynchronization checking
+d945f797e483979bdeded76266c366f35929afb8 rcutorture: Add rcutree.use_softirq=0 to RUDE01 and TASKS01
+898df89e27f9e20e3341dc5b59230da57d4868db Merge branches 'clocksource.2021.01.12a', 'cpumask.2021.01.04a', 'doc.2021.01.06a', 'fixes.2021.01.04b', 'kfree_rcu.2021.01.04a', 'mmdumpobj.2021.01.10a', 'nocb.2021.01.06a', 'rt.2021.01.04a', 'stall.2021.01.06a', 'torture.2021.01.12a' and 'tortureall.2021.01.06a' into HEAD
+3080e56386458cbe4982e244816238caca86b40e Merge branch 'kcsan.2021.01.04a' into HEAD
+1c516f6663b2dd89ebb17b30875c6e3a62b460e2 Merge branch 'lkmm-dev.2021.01.04a' into HEAD
+9162bb1d17ca5fac8b81e086846412cb522db02e mm: Don't build mm_dump_obj() on CONFIG_PRINTK=n kernels
+1159f78178abce5f09f45c0a826158bf3556bf8b rcutorture: Add crude tests for mem_dump_obj()
+9e6b9a27a81f959f2d49b3118d72bbc6c2de1b53 sched/idle: Fix missing need_resched() check after rcu_idle_enter()
+6c5e37d73e5c9c15beed09ec606c8a5fbfed91d9 cpuidle: Fix missing need_resched() check after rcu_idle_enter()
+6ad890af12587996d444111867cb22e1c595e546 torturescript: Don't rerun failed rcutorture builds
+97e90370b8f31cffd69353d06df4d58dc12c80fc rcu/nocb: Detect unsafe checks for offloaded rdp
+d32f638a57e423003b090f6b93bebe8676156e10 rcu: Remove superfluous rdp fetch
+785ff6abc5148ead45876e0529ad987ef4763ba6 rcu: Pull deferred rcuog wake up to rcu_eqs_enter() callers
+679a2750284c28bf667873e5d0e00611fb01cfd9 rcu/nocb: Perform deferred wake up before last idle's need_resched() check
+a5b60c670b22ea9d48f1a3c115417b33ca7d048b rcu/nocb: Trigger self-IPI on late deferred wake up before user resume
+4d19f38bb06c62cbfa8b4ef7da386d3212bad047 entry: Explicitly flush pending rcuog wakeup before last rescheduling points
+7b3f45a1ad1f1f5c9c70c31f3c9618988c121b16 sched: Report local wake up on resched blind zone within idle loop
+8beeef08bd7612171ef950ffc8da9626624bb861 entry: Report local wake up on resched blind zone while resuming to user
+32678deac9cd86c891a7faf14772e60160051f63 timer: Report ignored local enqueue in nohz mode
+fe4441b4910a5b138def2c2f08a76d2e0416573d rcu: Fix CPU-offline trace in rcutree_dying_cpu
+58eea9d62c096199364c99cebf644815ef382af7 rcu: Remove spurious instrumentation_end() in rcu_nmi_enter()
 
-2bfff03b3cd043370ed3a1a5ad7b0964db7348e5 f5748d7b69f5afe63c37cb75d4134e902b701c04 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCX/4TMwAKCRC2xBzjVmSZ
-bA/2AQDrrFyDBdIWiTgWZPgZgwGdi7a4Y0rruVGl5mW/+zZCeQEAxv0WzsXCTawL
-JA1/AcqL6MjQQqxftnJ7ZQEBy8tEbQc=
-=0Prb
------END PGP SIGNATURE-----
-
---===============6011268940908793718==--
+--===============0260137896031771765==--
