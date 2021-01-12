@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2370211798657716937=="
+Content-Type: multipart/mixed; boundary="===============7650595180441357151=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 12 Jan 2021 15:36:32 -0000
-Message-Id: <161046579210.1277.6001452758167848148@gitolite.kernel.org>
+Date: Tue, 12 Jan 2021 15:36:40 -0000
+Message-Id: <161046580021.1376.7461536554271984871@gitolite.kernel.org>
 
---===============2370211798657716937==
+--===============7650595180441357151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 5b78f2dc315354c05300795064f587366a02c6ff
-    new: d8f83780bd9e2899ec328d38ab380139306dc2fd
-    log: revlist-5b78f2dc3153-d8f83780bd9e.txt
+  - ref: refs/heads/perf/core
+    old: c2208046bba6842dc232a600dc5cafc2fca41078
+    new: 1f69050cf9eb298148185a3dd6a75e790e87fac0
+    log: revlist-c2208046bba6-1f69050cf9eb.txt
 
---===============2370211798657716937==
+--===============7650595180441357151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b78f2dc3153-d8f83780bd9e.txt
+Content-Disposition: attachment; filename=revlist-c2208046bba6-1f69050cf9eb.txt
 
+2b47a24cee0eedbb9b106ef3e992db0ddf48f740 mm/vmscan: drop unneeded assignment in kswapd()
+8d87d07c9283b45fd50f15d488368d0be6492a17 mm/vmscan.c: remove the filename in the top of file comment
+2484be0f88dc6c9670362d51f6a04f2da0626b50 mm/page_isolation: do not isolate the max order page
+fc5488651c7d840c9cad9b0f273f2f31bd03413a z3fold: simplify freeing slots
+dcf5aedb24f899d537e21c18ea552c780598d352 z3fold: stricter locking and more careful reclaim
+135f97fd0c398f20a544cc52c3f8a3cb925a8aef z3fold: remove preempt disabled sections for RT
+19d3cf9de1c72fd1adaa1d68aa40d74a35688404 mm/compaction: rename 'start_pfn' to 'iteration_start_pfn' in compact_zone()
 2b1a20c3afbc0279cbe57b0f19748081eba0881b mm/compaction: move compaction_suitable's comment to right place
 2271b016bf368d19d60531dd5ddd4375b4dae0ab mm/compaction: make defer_compaction and compaction_deferred static
 259b3633e78d627353d49b1eb226d72b2ac588da mm/oom_kill: change comment and rename is_dump_unreclaim_slabs()
@@ -1041,14 +1048,7 @@ eda809aef53426d044b519405d25d9da55319b76 Merge tag 'scsi-fixes' of git://git.ker
 d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
-66793d7e03c331348e917c38b8702d496fb17ecb sched/core: Move schedutil_cpu_util() to core.c
-d19bde80757c94459e0eea2432411b1a999ebe35 sched/core: Rename schedutil_cpu_util() and allow rest of the kernel to use it
-5e3effa9948798b3f9cfb3efd6870b1fdb330329 thermal: cpufreq_cooling: Reuse sched_cpu_util() for SMP platforms
-8501fd01adee82d05d1cc117cfd763026d9bf196 sched: Prevent raising SCHED_SOFTIRQ when CPU is !active
-b293955f62ed7a1a7679b7298b922d712aa97c60 sched: Add schedutil overview
-c8ad7a3201308859aa3fe4ae4ae0bc748fae9609 sched/fair: Avoid stale CPU util_est value for schedutil in task dequeue
-bf417bfbcdf8f2d43cd6315b3e836a82f5455118 sched/fair: Skip idle cfs_rq
-6729ab7cf919e27887ad731a92b78613b4721d12 sched/fair: Don't set LBF_ALL_PINNED unnecessarily
-d8f83780bd9e2899ec328d38ab380139306dc2fd sched/fair: Reduce cases for active balance
+25b39b9c4e577a2c9c7883fa92802e3088597fd9 perf/x86/intel/uncore: Store the logical die id instead of the physical die id.
+1f69050cf9eb298148185a3dd6a75e790e87fac0 perf/x86/intel/uncore: With > 8 nodes, get pci bus die id from NUMA info
 
---===============2370211798657716937==--
+--===============7650595180441357151==--
