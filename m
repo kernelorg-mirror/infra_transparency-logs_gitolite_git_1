@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5178431589230651611=="
+Content-Type: multipart/mixed; boundary="===============6740184583780995492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 12 Jan 2021 15:21:38 -0000
-Message-Id: <161046489852.21270.2247874391616464566@gitolite.kernel.org>
+Date: Tue, 12 Jan 2021 15:21:46 -0000
+Message-Id: <161046490679.21402.9655565404130928909@gitolite.kernel.org>
 
---===============5178431589230651611==
+--===============6740184583780995492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 5b78f2dc315354c05300795064f587366a02c6ff
-    new: 84343f56c18f991b3be2d732d13e0f25ddfbfa6c
-    log: revlist-5b78f2dc3153-84343f56c18f.txt
+  - ref: refs/heads/perf/core
+    old: c2208046bba6842dc232a600dc5cafc2fca41078
+    new: 21e5d3a63f802ff52a33f766ce004a65c9ae28e4
+    log: revlist-c2208046bba6-21e5d3a63f80.txt
 
---===============5178431589230651611==
+--===============6740184583780995492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b78f2dc3153-84343f56c18f.txt
+Content-Disposition: attachment; filename=revlist-c2208046bba6-21e5d3a63f80.txt
 
+2b47a24cee0eedbb9b106ef3e992db0ddf48f740 mm/vmscan: drop unneeded assignment in kswapd()
+8d87d07c9283b45fd50f15d488368d0be6492a17 mm/vmscan.c: remove the filename in the top of file comment
+2484be0f88dc6c9670362d51f6a04f2da0626b50 mm/page_isolation: do not isolate the max order page
+fc5488651c7d840c9cad9b0f273f2f31bd03413a z3fold: simplify freeing slots
+dcf5aedb24f899d537e21c18ea552c780598d352 z3fold: stricter locking and more careful reclaim
+135f97fd0c398f20a544cc52c3f8a3cb925a8aef z3fold: remove preempt disabled sections for RT
+19d3cf9de1c72fd1adaa1d68aa40d74a35688404 mm/compaction: rename 'start_pfn' to 'iteration_start_pfn' in compact_zone()
 2b1a20c3afbc0279cbe57b0f19748081eba0881b mm/compaction: move compaction_suitable's comment to right place
 2271b016bf368d19d60531dd5ddd4375b4dae0ab mm/compaction: make defer_compaction and compaction_deferred static
 259b3633e78d627353d49b1eb226d72b2ac588da mm/oom_kill: change comment and rename is_dump_unreclaim_slabs()
@@ -1041,14 +1048,7 @@ eda809aef53426d044b519405d25d9da55319b76 Merge tag 'scsi-fixes' of git://git.ker
 d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
-48a097d30b0bf8f6bfacfa8c406205d473f4268f sched/core: Move schedutil_cpu_util() to core.c
-6c97a859b52d8b00131335ce3034c7b6de332648 sched/core: Rename schedutil_cpu_util() and allow rest of the kernel to use it
-9f3b978ca40d22ae276fc9e148b23f7c9a0b8981 thermal: cpufreq_cooling: Reuse sched_cpu_util() for SMP platforms
-f4fb02fbb88e21b37450a56c628eb71971e5eaf8 sched: Prevent raising SCHED_SOFTIRQ when CPU is !active
-abd12cd4ae832c353b0acb7e8d256e04733843c2 sched: Add schedutil overview
-2e6fd9aa75730d55858669d58d968004bb22d2e1 sched/fair: Avoid stale CPU util_est value for schedutil in task dequeue
-8bb74b7bce178db9e2b64d3f4ecb20b441743d99 sched/fair: skip idle cfs_rq
-9daf29b43c3b88ef9842c9de383c12f6bcf3d61a sched/fair: don't set LBF_ALL_PINNED unnecessarily
-84343f56c18f991b3be2d732d13e0f25ddfbfa6c sched/fair: reduce cases for active balance
+07600f8e5e8246514c9064df7d219f87ff55cd38 perf/x86/intel/uncore: Store the logical die id instead of the physical die id.
+21e5d3a63f802ff52a33f766ce004a65c9ae28e4 perf/x86/intel/uncore: With > 8 nodes, get pci bus die id from NUMA info
 
---===============5178431589230651611==--
+--===============6740184583780995492==--
