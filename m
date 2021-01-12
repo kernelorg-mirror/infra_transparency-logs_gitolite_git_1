@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6114241244795264592=="
+Content-Type: multipart/mixed; boundary="===============0404500762081629578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Tue, 12 Jan 2021 08:08:56 -0000
-Message-Id: <161043893673.18201.12162266866489507053@gitolite.kernel.org>
+Date: Tue, 12 Jan 2021 08:09:02 -0000
+Message-Id: <161043894276.18364.10577117755519054715@gitolite.kernel.org>
 
---===============6114241244795264592==
+--===============0404500762081629578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 372db483c50711db1dbc28f2e8183a16907dbed0
-    new: c941d009e8721648ba8eb1f5226125c3808a6cfe
-    log: revlist-372db483c507-c941d009e872.txt
+  - ref: refs/heads/m68k-queue
+    old: 5e8704c4abcd813e1fa08cc64502441c4fe9de86
+    new: 069e2573efc3884d5b93f2fd35a9caefafc2132b
+    log: revlist-5e8704c4abcd-069e2573efc3.txt
 
---===============6114241244795264592==
+--===============0404500762081629578==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-372db483c507-c941d009e872.txt
+Content-Disposition: attachment; filename=revlist-5e8704c4abcd-069e2573efc3.txt
 
 665f1388bc9713c81989dda6eed5cde52d57c255 ARM: omap2plus_defconfig: drop unused POWER_AVS option
 f1dc15cd7fc146107cad2a926d9c1d005f69002a ARM: dts: OMAP3: disable AES on N950/N9
@@ -590,6 +590,8 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 688daed2e5daf0a1513effdc05ce3c56ade836f9 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 20210a98463e2abac31676ee141459fc23252927 Merge tag 'kbuild-fixes-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
-c941d009e8721648ba8eb1f5226125c3808a6cfe Merge tag 'v5.11-rc3'
+e3c0096bed44e0b79b9c0976f744eb7bcb4de6d3 m68k: atari: usb: Add ISP1160 USB host controller support
+1f7d09ca036c2974a25861205fca41ce93cdde2a m68k: atari: Update Kconfig.bus help text
+069e2573efc3884d5b93f2fd35a9caefafc2132b m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6114241244795264592==--
+--===============0404500762081629578==--
