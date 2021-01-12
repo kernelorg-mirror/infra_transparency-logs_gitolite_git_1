@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Tue, 12 Jan 2021 23:25:26 -0000
-Message-Id: <161049392605.30767.15730700872092230857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Tue, 12 Jan 2021 23:48:48 -0000
+Message-Id: <161049532868.10440.15283396213687353752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/numa
-    old: 8798828e9a88ccf3c74cf61cc34512a1c38e8dc8
-    new: f3368a115ed9f438dd773cc0d1dd33c94c2442a7
+  - ref: refs/heads/for-next
+    old: 50da8d04ee52a0700ec6686e745379578246a9fb
+    new: cd900f181ad6b548a8feded5dd224f789f09b1c6
     log: |
-         f3368a115ed9f438dd773cc0d1dd33c94c2442a7 x86/sgx: Wipe out EREMOVE from sgx_free_epc_page()
+         cd900f181ad6b548a8feded5dd224f789f09b1c6 power/supply: Add ltc4162-l-charger
          
