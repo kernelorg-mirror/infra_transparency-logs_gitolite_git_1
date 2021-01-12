@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Tue, 12 Jan 2021 03:23:16 -0000
-Message-Id: <161042179689.5048.15941538639383610080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Tue, 12 Jan 2021 03:43:30 -0000
+Message-Id: <161042301070.15799.3307745605971065626@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/xfs/shrink_lastag2
-    old: 29b5f7a9b574a410cc02a08c105963a3199e8dfa
-    new: 9a6be5ecc110c93ea0d80b7bc58132de8ec4ab5f
+  - ref: refs/heads/for-linus
+    old: 2dce6db70c77bbe639f5cd9cc796fb8f2694a7d0
+    new: 5d06f72dc29c16a4868dd7ea0a6122454267809b
     log: |
-         05e8a3ea8fa1625313efb9e694ce926f22469637 xfs: rename `new' to `delta' in xfs_growfs_data_private()
-         717768b9ac1c76ae11938af6db4fad8bd755bc6d xfs: get rid of xfs_growfs_{data,log}_t
-         f56a95bdb48460cb4e73152216546896c96f4beb xfs: hoist out xfs_resizefs_init_new_ags()
-         9a6be5ecc110c93ea0d80b7bc58132de8ec4ab5f xfs: support shrinking unused space in the last AG
+         5d06f72dc29c16a4868dd7ea0a6122454267809b Input: ariel-pwrbutton - remove unused variable ariel_pwrbutton_id_table
          
