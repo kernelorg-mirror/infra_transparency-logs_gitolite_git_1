@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7815013368736059018=="
+Content-Type: multipart/mixed; boundary="===============4355249930549629735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 12 Jan 2021 18:00:00 -0000
-Message-Id: <161047440088.29348.15276905635256297403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 12 Jan 2021 18:03:40 -0000
+Message-Id: <161047462073.31900.14183757661144062985@gitolite.kernel.org>
 
---===============7815013368736059018==
+--===============4355249930549629735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a0d54b4f5b219fb31f0776e9f53aa137e78ae431
-    new: e609571b5ffa3528bf85292de1ceaddac342bc1c
-    log: revlist-a0d54b4f5b21-e609571b5ffa.txt
+  - ref: refs/heads/driver-core-linus
+    old: 29f7c54b253fc18bff9bf7e9f303b75deb285c7a
+    new: 895bee270863588fe3d46dca86cd15d461f47a7a
+    log: |
+         895bee270863588fe3d46dca86cd15d461f47a7a Revert "driver core: Reorder devices on successful probe"
+         
 
---===============7815013368736059018==
+--===============4355249930549629735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0d54b4f5b21-e609571b5ffa.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3d1a90ab0ed93362ec8ac85cf291243c87260c21 NFS4: Fix use-after-free in trace_event_raw_event_nfs4_set_lock
-c98e9daa59a611ff4e163689815f40380c912415 NFS: Adjust fs_context error logging
-86b53fbf08f48d353a86a06aef537e78e82ba721 net: sunrpc: interpret the return value of kstrtou32 correctly
-67bbceedc9bb8ad48993a8bd6486054756d711f4 pNFS: Mark layout for return if return-on-close was not sent
-078000d02d57f02dde61de4901f289672e98c8bc pNFS: We want return-on-close to complete when evicting the inode
-c18d1e17ba2f6a1c9257b0b5d2882a6e3f772673 pNFS: Clean up pnfs_layoutreturn_free_lsegs()
-2c8d5fc37fe2384a9bdb6965443ab9224d46f704 pNFS: Stricter ordering of layoutget and layoutreturn
-1757655d780d9d29bc4b60e708342e94924f7ef3 NFS/pNFS: Don't call pnfs_free_bucket_lseg() before removing the request
-46c9ea1d4fee4cf1f8cc6001b9c14aae61b3d502 NFS/pNFS: Don't leak DS commits in pnfs_generic_retry_commit()
-cb2856c5971723910a86b7d1d0cf623d6919cbc4 NFS/pNFS: Fix a leak of the layout 'plh_outstanding' counter
-113aac6d567bda783af36d08f73bfda47d8e9a40 NFS: nfs_delegation_find_inode_server must first reference the superblock
-896567ee7f17a8a736cda8a28cc987228410a2ac NFS: nfs_igrab_and_active must first reference the superblock
-2896c93811e39d63a4d9b63ccf12a8fbc226e5e4 scsi: target: Fix XCOPY NAA identifier lookup
-ea49c88f4071e2bdd55e78987f251ea54aa11004 Merge tag 'mkp-scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi
-e609571b5ffa3528bf85292de1ceaddac342bc1c Merge tag 'nfs-for-5.11-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610474682 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1610474611-8f4677c8fdb5b6c4b755c1f50e3c9eb49a2e3c88
 
---===============7815013368736059018==--
+29f7c54b253fc18bff9bf7e9f303b75deb285c7a 895bee270863588fe3d46dca86cd15d461f47a7a refs/heads/driver-core-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/95LobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fIcP/38v8gZPgGqlxKSdCyxp
+DiU4yoIEPleP2Nw4ARuHk/P+v4jolrTxn1m8v+Ne3cd/R9dX0N/KGHxQ40Ya9XRk
+TskZiK7zNlhyN/QCHifAhTz4p2ji3pwhRt1hE0r1hh3TBWWKBQkRkdAsDVvsMu2v
+HW0mJ7yeKmrLP67IOpq0eSvdD0G3FLDm10/DRDHYuFpU9hR984u1p3QrL0icp2p1
+UfzaNs4qtKJKq1UmFVqCT5kju0ufqBAMtXuYcyrU5L1Huu8kwGZWbxlxDTE5U465
+cM+gyPdYlCml84v2F+UzRBBAnwC4Tl4sOXdReGLB+vK+w9lmqbWyG34DALsTFg/+
+wcapQveyhzoccwt3oTTrBrzy3KzM8GXf4hYIrt8pZU5Ar3mO1Gv4xBcMUMOYYWnE
+Pr1ZB6l6oc/TtPn4t6FzmXlGrvrRDfOcr0SaDym7dIk9WHlQ5p4OY86sGrAXkwrN
+lmzHeqCY6LhETHKdkJPcbRUIzQNcOE0iDqa5VxVeyaB2Z2fbESSThxcby9u6vlMl
+tc2iXjyilBD9Zv032BkOyGkmIjKv8XrUSY7xiOs7ilA587mkUPRksgMM2gTVhAMG
+lMVr8dVgdGEi3C/WL1UhzCJ188LnWKcRjyO/Gfpm4Gj10Mm6lLV2RRl/H+7vKt/7
+e6Sm86cj+ymQI6vWOEWh0czO
+=ijLV
+-----END PGP SIGNATURE-----
+
+--===============4355249930549629735==--
