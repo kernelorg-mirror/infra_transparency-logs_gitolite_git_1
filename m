@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5445812571674813804=="
+Content-Type: multipart/mixed; boundary="===============2337077274891440286=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 12 Jan 2021 21:05:35 -0000
-Message-Id: <161048553552.3653.2759556321942493978@gitolite.kernel.org>
+Date: Tue, 12 Jan 2021 21:05:48 -0000
+Message-Id: <161048554856.3798.10677148017745242994@gitolite.kernel.org>
 
---===============5445812571674813804==
+--===============2337077274891440286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/master
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
-    log: revlist-5c8fe583cce5-7c53f6b671f4.txt
+  - ref: refs/heads/for-next
+    old: 5e935f340864824f949cbe17ce51330464807aa0
+    new: 744ae0e8c508a6f6caafe31e647cd963fcfa1125
+    log: revlist-5e935f340864-744ae0e8c508.txt
 
---===============5445812571674813804==
+--===============2337077274891440286==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5c8fe583cce5-7c53f6b671f4.txt
+Content-Disposition: attachment; filename=revlist-5e935f340864-744ae0e8c508.txt
 
 01341fbd0d8d4e717fc1231cdffe00343088ce0b workqueue: Kick a worker based on the actual activation of delayed works
 58315c96651152b9f438e5e56c910994234e2c7a kernel: cgroup: Mundane spelling fixes throughout the file
@@ -302,8 +302,6 @@ dc30432605bbbd486dfede3852ea4d42c40a84b4 block: add debugfs stanza for QUEUE_FLA
 44362a3c353aeec5904c2ae6d1737f20fe7e9c79 KVM: arm64: Fix hyp_cpu_pm_{init,exit} __init annotation
 6820e812dafb4258bc14692f686eec5bde6fba86 spi: Fix the clamping of spi->max_speed_hz
 e042f151ec7474b88b8c1edaaddd1ff7415d7117 hwmon: (sbtsi_temp) Fix Documenation kernel-doc warning
-742eb4750ff35fd62784b04b675d672b8dee2524 s390: update defconfigs
-129975e75b9a2ba528d7f58be2e338cd644f6ed8 s390/Kconfig: sort config S390 select list once again
 1eda52334e6d13eb1a85f713ce06dd39342b5020 hwmon: (pwm-fan) Ensure that calculation doesn't discard big period values
 c318840fb2a42ce25febc95c4c19357acf1ae5ca USB: Gadget: dummy-hcd: Fix shift-out-of-bounds bug
 977a3b0f6e40514ccdc959cc82b1eb96b636941a Merge branch 'opp/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
@@ -664,5 +662,7 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 688daed2e5daf0a1513effdc05ce3c56ade836f9 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 20210a98463e2abac31676ee141459fc23252927 Merge tag 'kbuild-fixes-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
+a1a322a62dbab3ca18fa35cd84640057d4cab213 s390/vfio-ap: clean up vfio_ap resources when KVM pointer invalidated
+744ae0e8c508a6f6caafe31e647cd963fcfa1125 Merge branch 'fixes' into for-next
 
---===============5445812571674813804==--
+--===============2337077274891440286==--
