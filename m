@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 12 Jan 2021 00:26:05 -0000
-Message-Id: <161041116569.17580.8208866961478962852@gitolite.kernel.org>
+Date: Tue, 12 Jan 2021 00:48:11 -0000
+Message-Id: <161041249164.28826.13543993084173653566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: d1c8b6a3dd772f72204c341e0594c22f4ea9e69b
-    new: a006dbf06e5df64adf08996857a57f84577ddbcc
+    old: a006dbf06e5df64adf08996857a57f84577ddbcc
+    new: 22fe6b04b460feaef00ab4bc5b7420762b73f95f
     log: |
-         537e2b88224c53b2620a89cd41c3d0d77e8d4030 net: dsa: felix: the switch does not support DMA
-         624407d2cf14ff58e53bf4b2af9595c4f21d606e net: sfp: cope with SFPs that set both LOS normal and LOS inverted
-         a006dbf06e5df64adf08996857a57f84577ddbcc net: sfp: extend bitrate-derived mode for 2500BASE-X
+         a45c1c10ebf28b1079d621d069f183157e496c63 net: phy: at803x: use phy_modify_mmd()
+         22fe6b04b460feaef00ab4bc5b7420762b73f95f net: marvell: prestera: Correct typo
          
