@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtracefs
-Date: Tue, 12 Jan 2021 21:38:32 -0000
-Message-Id: <161048751240.25352.7331108973576927263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
+Date: Tue, 12 Jan 2021 21:41:24 -0000
+Message-Id: <161048768434.27548.18163009035882795594@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtracefs
-user: rostedt
+repo: pub/scm/linux/kernel/git/arnd/playground
+user: arnd
 changes:
-  - ref: refs/heads/libtracefs
-    old: 5ff54b2c14516f23c5a476fbe20108401b177716
-    new: 83323ad8695d3db29cfabdb57bf12a7683119dcb
-    log: |
-         9bc4dc245ae67f413b56b0ee4e142f9112020425 libtracefs: Set correct library name and version in the documentation
-         ae18f011b10135f6fc926ffc1f89c4a46376ebcd libtracefs: tracefs_instance_file_read() get a const file name
-         83323ad8695d3db29cfabdb57bf12a7683119dcb libtracefs: version 1.0.2
-         
+  - ref: refs/heads/multiplatform-misc-5.11
+    old: 0000000000000000000000000000000000000000
+    new: cddcb8e32cba19aac6f16e10a27964af511412ec
