@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 12 Jan 2021 00:58:08 -0000
-Message-Id: <161041308866.4489.3634975106723669151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 12 Jan 2021 00:59:17 -0000
+Message-Id: <161041315743.4903.14443283070949246025@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: b7501b9f46746adbe6d5aacd1f7eb74b154c87e0
-    new: ae1e82c6b74191e6119d39f26aa3248af74d867e
+    old: 938288349ca8a9d4b936bf5d2f6dd4526a598974
+    new: 6f83802a1a06e74eafbdbc9b52c05516d3083d02
     log: |
-         ae1e82c6b74191e6119d39f26aa3248af74d867e r8169: make use of the unaligned access helpers
+         6f83802a1a06e74eafbdbc9b52c05516d3083d02 net: mvpp2: Remove Pause and Asym_Pause support
          
