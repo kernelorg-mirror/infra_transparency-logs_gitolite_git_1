@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8242085712663116214=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 12 Jan 2021 16:15:58 -0000
-Message-Id: <161046815817.26780.3822976628515654256@gitolite.kernel.org>
-
---===============8242085712663116214==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 12 Jan 2021 16:23:45 -0000
+Message-Id: <161046862515.332.15430776583122199186@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/usb-linus
-    old: 5f8e084026543bc06eb9b2a623de55bb4ab3e60e
-    new: 280a9045bb18833db921b316a5527d2b565e9f2e
+  - ref: refs/heads/renesas/i2c/smbus-cleanup
+    old: d43a21c7ed9f2b993704976c6a05c628e294f42f
+    new: 06a3965f7ca847f8c42e7715251164ba6255e2a2
     log: |
-         280a9045bb18833db921b316a5527d2b565e9f2e ehci: fix EHCI host controller initialization sequence
+         8359519d9b9b8d644da093727a60f6abd4fe19fc i2c: smbus: switch from loops to memcpy
+         ff2c9bd41f768710ca34560afc33a74ea6704c24 i2c: smbus: don't abuse loop variable
+         42e3af31b56b254370388b6168c9460bfda6c785 i2c: smbus: improve naming in i2c_smbus_xfer_emulated()
+         0f6f8641454a5b12b284a076137fc0010b2068d8 media: i2c: adv7842: remove open coded version of SMBus block write
+         d1a63e5917cd60f1599b8a3a602bdef80e8b2bb3 media: i2c: adv7842: remove open coded version of SMBus block read
+         06a3965f7ca847f8c42e7715251164ba6255e2a2 ipmi: remove open coded version of SMBus block write
          
-
---===============8242085712663116214==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610468220 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1610468149-612f3e7cea10fd56c112beca64247666756b27e3
-
-5f8e084026543bc06eb9b2a623de55bb4ab3e60e 280a9045bb18833db921b316a5527d2b565e9f2e refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/9y3wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hN4QAKsrt3KvkBWzyYe/F1Mm
-zB9vAOPLb68LqRNRIhq+jUnIAJ6EK8DseJ25t+wC5l/EVRtaLHIl5WMMXKaV++2h
-ZcCNbqtjS1HXP3vWqFTGv60ZKIUlsNQJlSQwn6a/VxLK2gsWsJm7nJXnzMCW3imb
-u9eTrZKM8K+X5/BnO2Rl0qALMR0mia1wQdcHQOOoFBJ2EK/8APSqwc6J/jOSPGXO
-Q0ghHCwwxpWAtv911B4vFpfCNkXlicZ8bHw3bsZSjGLiZyH7nRSf+FlBlX74TkQS
-9z2KVShs4oZq44mP3cUgyFEMqxegK0kyc1Q1EEPjKOKDLaSqiLWw5iERozOYC645
-0sJlIlbz1+097wpvEVif3C4KEoffRX/sspkQeDF52FNoTdDZhsO/zlKstS34evVQ
-GcKgSGDdvHPTZnO47U402ZbM2bvyv8IfQCsSW85R3z4CbkGnHagcS7Sz7e/k/c+X
-NKrRLnrcoFG4alxfJjxMgwdjiRN/o36RpnTLL0CxaIud83vc67hkjU2QUhaTOWRy
-CehwMwMcLx4XBA3NcUo8dox0mgnuVBVg5U/UMarcVu1GpEsWq3RogHOVW09sW7CS
-o855/Wet4DpTCUwbggsxAXoSiTPt28AlNRi9eNCInprQeDQ1nJXC7T/tPqUZQ/MR
-+E7mESTEbEivyR6lZQ4w9q4v
-=wK0u
------END PGP SIGNATURE-----
-
---===============8242085712663116214==--
