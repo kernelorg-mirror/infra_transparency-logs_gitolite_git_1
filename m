@@ -1,50 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5237014455197442525=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Tue, 12 Jan 2021 10:02:30 -0000
-Message-Id: <161044575014.8925.15369195151546678050@gitolite.kernel.org>
-
---===============5237014455197442525==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Tue, 12 Jan 2021 10:13:58 -0000
+Message-Id: <161044643873.14653.11628111227183908870@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can-next
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/testing
-    old: d4a3af582446a8e40a3cf06ec900cadc913a1553
-    new: 5aaf4829d8b2b3f2750123e4311b160eedbae8fb
+  - ref: refs/heads/master-pending
+    old: 8413cb5e330b4babe7d734aba4f5c22e3430bd70
+    new: 8029209d232a398390154cb8d4357a21b63e55d0
     log: |
-         5aaf4829d8b2b3f2750123e4311b160eedbae8fb can: dev: add software tx timestamps
+         05471b6151827d8b94c7f00e2826d8ad69b1df5a ath11k: add ieee80211_unregister_hw to avoid kernel crash caused by NULL pointer
+         c6bda92a89c15e13de265116955ace5038c08172 ath9k: Add separate entry for LED triggers to fix module builds
+         4923686b30510b7c1795258da6f67db7f074a2b1 wcn36xx: Remove unnecessary memset
+         8029209d232a398390154cb8d4357a21b63e55d0 Merge branch 'pending' into master-pending
          
-
---===============5237014455197442525==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1610445746 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1610445746-9cd3da73df7a9c364aafe0ca7cd9a3ca1199836a
-
-d4a3af582446a8e40a3cf06ec900cadc913a1553 5aaf4829d8b2b3f2750123e4311b160eedbae8fb refs/heads/testing
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl/9c7MTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqU7gCACtpveTKk/OqB5NiygEXP+47PPMnbwW
-BMewXqGwqx9J45nrhMOq/qeznlF2/6dV6KWcs1SE54THNaOz2usnKFdEvC5cdpz/
-gv1K0wpgInbmSAa3oTYL9g6QPmLqQ6Cr0GXmtKG510UqOFqOlnuZFQfXxiJ7iYIa
-RLLeH2gwsGnF21VfnnuhDAMAlXaYxbXf/9dRlQmnvbw3EIH7PhAvXb93gK/lNHjA
-AWwikVEllF+WcEqC7xh0WxSyJECIopx/hB86cvkIdJOkVx9P6Z+sSdc9O8V/ZPbv
-6uSyAo9GXuo5Of1NlLtqABsr3H+whjnbQ81rtwqKjpz3uqnNDv6oRWij
-=Mezu
------END PGP SIGNATURE-----
-
---===============5237014455197442525==--
+  - ref: refs/heads/pending
+    old: 16d78d798324c162176b1946269d2ed973590509
+    new: 4923686b30510b7c1795258da6f67db7f074a2b1
+    log: |
+         05471b6151827d8b94c7f00e2826d8ad69b1df5a ath11k: add ieee80211_unregister_hw to avoid kernel crash caused by NULL pointer
+         c6bda92a89c15e13de265116955ace5038c08172 ath9k: Add separate entry for LED triggers to fix module builds
+         4923686b30510b7c1795258da6f67db7f074a2b1 wcn36xx: Remove unnecessary memset
+         
