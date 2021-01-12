@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4606478444185230037=="
+Content-Type: multipart/mixed; boundary="===============5729572316988053429=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 12 Jan 2021 13:11:44 -0000
-Message-Id: <161045710412.30850.1214370080225414221@gitolite.kernel.org>
+Date: Tue, 12 Jan 2021 13:12:48 -0000
+Message-Id: <161045716834.31233.12725649187636103955@gitolite.kernel.org>
 
---===============4606478444185230037==
+--===============5729572316988053429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/driver-core-next
     old: 0fab972eef49ef8d30eb91d6bd98861122d083d1
     new: 3ac6e56c325e4660837efcf995e8460d917b4778
     log: |
          3ac6e56c325e4660837efcf995e8460d917b4778 Revert "drivers: core: Detach device from power domain on shutdown"
          
 
---===============4606478444185230037==
+--===============5729572316988053429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610457167 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610457231 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1610457095-d6b8fe722445fc289659eca74bcdf2cdae3cdbc5
+nonce 1610457159-134a12d2e1447430ef5b650209ef76bb64d1cfa7
 
-0fab972eef49ef8d30eb91d6bd98861122d083d1 3ac6e56c325e4660837efcf995e8460d917b4778 refs/heads/driver-core-testing
+0fab972eef49ef8d30eb91d6bd98861122d083d1 3ac6e56c325e4660837efcf995e8460d917b4778 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/9oE8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DFAP/2LOVJ4Yr0ZlR7R6/2OG
-JnomOXAs/t7heI0cTopJZw964qRGI8EqXOzcd5PTt2kgmWWRNJ1NCUmPJ/zonPim
-1ZPYEn4wYM3RTGwVx9/vrXRSRTSSeflqEAYxeJQ/OrM87T3l/3TrDhjF3b6QM8Wo
-QsnB6ECOnMNNoVtZXQuCtyAjUSXbVJPJ+IF+3l8pFobICWndjdvraxSmJiYiZ45h
-eV8f2FtyzpkGImAb2DNc3P73vjgYMiTbwUmSlxb8WIMgAgTVb0XiUUymaWBDWrxz
-ZqnxGRG8ac+IVKthu6otc6PBI4pIOJU0D4fDly0tpVuJi8wel57Q+dEw+HcOTjlG
-1yXjPCsd51HvGlv4CmRLb/JNhYgQNn3XxRouBdLvG1KC7jZUWPCQSFF8sUohw572
-eH4ZviBYmwRVs59EynFwMmpKLLXHXza9U8zHCwrFANBvqEsYTLts3AwoBKK6kay9
-getrXtrR5p5FYZIFSZrPzFwbLrZ3fhFid3o2GCKx+94ENPU+afh1WkW/IJUF+o8y
-IOuR/p8RhShyCQq1CP21T5Jfn9qVsN8RqCh+1TzhBKn17A0H98uXjFLLie7pgQO7
-R7gw0g9A1f29wnPeTNMv7WaH1MH010he/9PH5Q12OyC3b8PdY4DGZN7tTj5RFFnm
-iCZ29541IcSSRFUEqMJie3mG
-=1iDn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl/9oI8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+foAP/RSvJXvODeDjGd2H67AE
+M2/SQIVXQOO17z1grQ2c9DXRqHlNQTt0RY9cQ661U9uI89k2HNjpUEQi0FHVihG8
+1phCGefiVpvFmRyHmMhgqMcOg7iVWopWY32j71H3RPNiEkH+/ae00j5HqCYwnr54
+D78ig6DvE7Ho4UaFsUpoEUY2z8h3qNbSFknDVdFhfu5vKR6lKZ/7LkQUVf6FwY2R
+/AdP2pgZLGNbZyyQNHZx5wdbBD9AFfrc6FzLpnjWV3Oh872GAfN5ZAj7qq3DDDTZ
+rudK4zP135jQ5kWV/xd7Tfa7XZ84SoPkAg5s2KDcXiRM8h64O3DRBrMc5HM/k4WC
++2MlefDrcAWYvV9UoKsermwGjv5OhBZMI92UjHmZwDNfRmOQsHQOYaV9+nSBmR28
+SUYPI7Fi8UvtTNumw2fT1QhUUKztzg/uQS/30ZLyKdB8Bvsven2i5QPJ4U6Pzqkj
+fKwbusJN30cayBconQqniS3V0+r3b/sLx4Gp7LxfhFSGNd6i2TlsdgPVbbdJ0lx7
+jf4HffunnrUlIDztxqjNKuEjdgdBGDIq1FT+iXESf6pll6F90KPSoLN0Ed8qSt8r
+s4O6jCyLywB2pDxPBBEhaG2hPPCKukyF3vz5kJCwMxIgYtcYzInMbwHHYsf5cQSx
+Tlej/EznxoqVRUaBGqac6lKt
+=hQzc
 -----END PGP SIGNATURE-----
 
---===============4606478444185230037==--
+--===============5729572316988053429==--
