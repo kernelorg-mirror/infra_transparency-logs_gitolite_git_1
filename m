@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Tue, 12 Jan 2021 18:58:59 -0000
-Message-Id: <161047793992.8380.4928537885048301624@gitolite.kernel.org>
+Date: Tue, 12 Jan 2021 19:03:01 -0000
+Message-Id: <161047818139.11034.8101293485953207737@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arm64/linux
 user: will
 changes:
-  - ref: refs/heads/for-next/iommu/fixes
+  - ref: refs/heads/for-next/core
     old: 7c29ada5e70083805bc3a68daa23441df421fbee
     new: 694a1c0adebee9152a9ba0320468f7921aca647d
     log: |
