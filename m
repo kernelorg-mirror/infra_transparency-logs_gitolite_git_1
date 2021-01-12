@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 12 Jan 2021 20:42:31 -0000
-Message-Id: <161048415146.20201.14760382213154631873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 12 Jan 2021 20:59:21 -0000
+Message-Id: <161048516188.31169.16837219129194173318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
   - ref: refs/heads/for-next
-    old: c6458e72f6fd6ac7e390da0d9abe8446084886e5
-    new: 28a8add64181059034b7f281491132112cd95bb4
+    old: 8e14f610159d524cd7aac37982826d3ef75c09e8
+    new: 17ffc193cdc6dc7a613d00d8ad47fc1f801b9bf0
     log: |
-         28a8add64181059034b7f281491132112cd95bb4 bpf: Fix a verifier message for alloc size helper arg
+         17ffc193cdc6dc7a613d00d8ad47fc1f801b9bf0 dm integrity: fix the maximum number of arguments
          
