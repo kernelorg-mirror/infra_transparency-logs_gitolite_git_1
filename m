@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6288602735708025584=="
+Content-Type: multipart/mixed; boundary="===============4553752075691831064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Tue, 12 Jan 2021 11:11:09 -0000
-Message-Id: <161044986909.18912.4730205013485130698@gitolite.kernel.org>
+Date: Tue, 12 Jan 2021 11:11:33 -0000
+Message-Id: <161044989392.19100.2731306632015272904@gitolite.kernel.org>
 
---===============6288602735708025584==
+--===============4553752075691831064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/nvdimm-meta
     old: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
     new: a0d54b4f5b219fb31f0776e9f53aa137e78ae431
     log: revlist-7c53f6b671f4-a0d54b4f5b21.txt
 
---===============6288602735708025584==
+--===============4553752075691831064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ c912fd05fab97934e4cf579654d0dc4835b4758c Merge tag 'nfsd-5.11-1' of git://git.li
 6e68b9961ff690ace07fac22c3c7752882ecc40a Merge tag 'for-5.11-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 a0d54b4f5b219fb31f0776e9f53aa137e78ae431 Merge tag 'trace-v5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 
---===============6288602735708025584==--
+--===============4553752075691831064==--
