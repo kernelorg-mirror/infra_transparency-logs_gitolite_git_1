@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Tue, 12 Jan 2021 15:13:35 -0000
-Message-Id: <161046441545.13882.2506920227131456005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Tue, 12 Jan 2021 15:13:37 -0000
+Message-Id: <161046441787.13948.8034260538311200712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
   - ref: refs/heads/next
-    old: a9ffe682c58aaff643764547f5420e978b6e0830
-    new: e0de8a9aebd01589c0246facf1eb533dd1b7a506
+    old: e2fcd6e427c2fae92b366b24759f95d77b6f7bc7
+    new: 1f0a16f04113f9f0ab0c8e6d3abe661edab549e6
     log: |
-         46434ba040935f5aadcb428c774c74875d280501 selinux: remove unused global variables
-         3c797e514b927e6c85c0ae3359e85cc55422eec1 selinux: drop the unnecessary aurule_callback variable
-         db478cd60d55db5f1736510786cf14b4b79718d3 selinux: make selinuxfs_mount static
-         cd2bb4cb0996f73ad31604d86c1c0815fc813349 selinux: mark some global variables __ro_after_init
-         e0de8a9aebd01589c0246facf1eb533dd1b7a506 selinux: mark selinux_xfrm_refcount as __read_mostly
+         afd4df85602da464674a818df7b0de9610525022 dt-bindings: dma: Add bindings for Intel LGM SoC
+         32d31c79a1a4fbc48aab594a4dc9ffa087ab59a3 dmaengine: Add Intel LGM SoC DMA support.
+         cbc0ad004c03ad7971726a5db3ec84dba3dcb857 dmaengine: fsldma: Fix a resource leak in the remove function
+         b202d4e82531a62a33a6b14d321dd2aad491578e dmaengine: fsldma: Fix a resource leak in an error handling path of the probe function
+         1f0a16f04113f9f0ab0c8e6d3abe661edab549e6 dmaengine: owl-dma: Fix a resource leak in the remove function
          
