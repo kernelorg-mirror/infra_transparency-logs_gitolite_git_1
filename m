@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 12 Jan 2021 15:11:17 -0000
-Message-Id: <161046427787.13199.607455258834370185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Tue, 12 Jan 2021 15:13:35 -0000
+Message-Id: <161046441545.13882.2506920227131456005@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/master
-    old: 5541075a348b6ca6ac668653f7d2c423ae8e00b6
-    new: 2f94ac19184665263b7a285ae88abe19dedf9c1b
+  - ref: refs/heads/next
+    old: a9ffe682c58aaff643764547f5420e978b6e0830
+    new: e0de8a9aebd01589c0246facf1eb533dd1b7a506
     log: |
-         1a9c72ad4c26821e215a396167c14959cf24a7f1 bpf: Local storage helpers should check nullness of owner ptr passed
-         84d571d46c7046a957ff3d1c916a1b9dcc7f1ce8 bpf: Fix typo in bpf_inode_storage.c
-         2f94ac19184665263b7a285ae88abe19dedf9c1b bpf: Update local storage test to check handling of null ptrs
+         46434ba040935f5aadcb428c774c74875d280501 selinux: remove unused global variables
+         3c797e514b927e6c85c0ae3359e85cc55422eec1 selinux: drop the unnecessary aurule_callback variable
+         db478cd60d55db5f1736510786cf14b4b79718d3 selinux: make selinuxfs_mount static
+         cd2bb4cb0996f73ad31604d86c1c0815fc813349 selinux: mark some global variables __ro_after_init
+         e0de8a9aebd01589c0246facf1eb533dd1b7a506 selinux: mark selinux_xfrm_refcount as __read_mostly
          
