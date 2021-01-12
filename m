@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 12 Jan 2021 00:05:55 -0000
-Message-Id: <161040995550.3255.14211686713745231838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 12 Jan 2021 00:06:10 -0000
+Message-Id: <161040997024.3455.3644963671914450923@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: f230a881a2e6b34a4ca5f022ddd643fa622c7b1b
-    new: 791e55f6ec7617d9a87cfd5e31a108871c32e23e
+  - ref: refs/heads/master
+    old: 73b7a6047971aa6ce4a70fc4901964d14f077171
+    new: beb401ec50067bfef39e74f0cf80be3de3313e7d
     log: |
-         791e55f6ec7617d9a87cfd5e31a108871c32e23e ixgbe: Fix memleak in ixgbe_configure_clsu32
+         beb401ec50067bfef39e74f0cf80be3de3313e7d r8169: deprecate support for RTL_GIGA_MAC_VER_27
          
