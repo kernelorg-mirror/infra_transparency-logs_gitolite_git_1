@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Wed, 13 Jan 2021 15:12:38 -0000
-Message-Id: <161055075887.12833.1939572716859003625@gitolite.kernel.org>
+Date: Wed, 13 Jan 2021 15:12:40 -0000
+Message-Id: <161055076090.12900.13502858010293545546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/for-linus-5.11
+  - ref: refs/heads/linux-next
     old: ef3a575baf53571dc405ee4028e26f50856898e7
     new: 3d7746bea92530e8695258a3cf3ddec7a135edd6
     log: |
