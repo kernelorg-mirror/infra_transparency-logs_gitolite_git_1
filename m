@@ -1,43 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============6308926037847602352=="
+Content-Type: multipart/mixed; boundary="===============1555109379841597806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 13 Jan 2021 15:26:54 -0000
-Message-Id: <161055161450.25159.11499539867508236379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 13 Jan 2021 15:37:34 -0000
+Message-Id: <161055225404.30958.9127963345156364867@gitolite.kernel.org>
 
---===============6308926037847602352==
+--===============1555109379841597806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: af22c972b39e902215f288306e823ca326ab309e
-    new: b7b5afb4d7e70159575baddabd34e84568460e4e
-    log: revlist-af22c972b39e-b7b5afb4d7e7.txt
+  - ref: refs/heads/ceph-fscrypt-experimental
+    old: 974e19f72da4ef381763fccc057976c214d44d11
+    new: 2f6c45a06556440443e092beb1485e1d5b5ac86a
+    log: revlist-974e19f72da4-2f6c45a06556.txt
 
---===============6308926037847602352==
+--===============1555109379841597806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af22c972b39e-b7b5afb4d7e7.txt
+Content-Disposition: attachment; filename=revlist-974e19f72da4-2f6c45a06556.txt
 
-ab2d28750aacb773dc42d72fbad59146e8a6db5e spi: cadence-quadspi: Add QSPI support for Intel LGM SoC
-ad2775dc3fc5d30dd51984ccbaa736cc7ea9caca spi: cadence-quadspi: Disable the DAC for Intel LGM SoC
-b436fb7d29bfa48ff5e00cbf413609c7a6d4d81e spi: cadence-quadspi: Add multi-chipselect support for Intel LGM SoC
-eb4aadc31ef4224b926d5165048cb297f4bda34f spi: Move cadence-quadspi.txt to Documentation/devicetree/bindings/spi
-fcebca39938fa9f6ed03f27fc75645ad7fd489e9 dt-bindings: spi: cadence-qspi: Add support for Intel lgm-qspi
-9a133f7b72f0b8d8896cbc7e4149c763b59168bb spi: sh-msiof: Fill in spi_transfer.effective_speed_hz
-81f68479ec4ec91c0b0d7fb20db433be28e00497 spi: sh-msiof: Fill in controller speed limits
-566c6120f095be74862bed35f557f797478abade spi: hisi-sfc-v3xx: extend version checking compatibility
-eaecba8767835783bdd2f4e72406668cda7d8d54 spi: spi-qcom-qspi: Use irq trigger flags from firmware
-970e8eaa08195a26ba99ec0843968cbc7ad8e947 spi: stm32: Simplify stm32h7_spi_prepare_fthlv()
-10f48a12eb0d44260c02c8ab178053536ec32aff Merge series "spi: cadence-quadspi: Add QSPI controller support for Intel LGM SoC" from "Ramuthevar, Vadivel MuruganX" <vadivel.muruganx.ramuthevar@linux.intel.com>:
-72366b3c530c763ceda64f82741111e45ea881f9 Merge series "spi: sh-msiof: Advertize bit rate limits and actual speed" from Geert Uytterhoeven <geert+renesas@glider.be>:
-b7b5afb4d7e70159575baddabd34e84568460e4e Merge remote-tracking branch 'spi/for-5.12' into spi-next
+cb5f378168d209a3b548b049a5b01acdacb3f011 ceph: implement -o test_dummy_encryption mount option
+dfd172d4f4575fd9f650cdd22b0f1247e4f23568 ceph: preallocate inode for ops that may create one
+c2ab63a10dc38c578397287974d2f41572aab8c0 ceph: add routine to create context prior to RPC
+041fbc12b7497542ded96d34ec4aa4e6bb7697df ceph: make ceph_msdc_build_path use ref-walk
+13cb07151b7513535d0732992791300bc2faa2d5 ceph: decode alternate_name in lease info
+1b526b157572f37650ba1b03c8ce0c01c7756c2d ceph: add encrypted fname handling to ceph_mdsc_build_path
+16b1c45737d72b5121b90f1599cff70d1efffe8e ceph: set "alternate_name" for long dentry names
+6beefcdce1b88a594c22b68e3b861f818c460cfe ceph: add support to readdir for encrypted filenames
+6ca6e8550a5b29990ceafd0478cf61654834570d ceph: add fscrypt support to ceph_fill_trace
+b23d67b6fc6a987035a634235fd51c5a16953552 ceph: make d_revalidate call fscrypt revalidator for encrypted dentries
+2f6c45a06556440443e092beb1485e1d5b5ac86a ceph: create symlinks with encrypted and base64-encoded targets
 
---===============6308926037847602352==--
+--===============1555109379841597806==--
