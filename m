@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 13 Jan 2021 18:40:39 -0000
-Message-Id: <161056323933.20227.3551547480318406180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 13 Jan 2021 18:55:11 -0000
+Message-Id: <161056411100.30755.11797420611992857813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
   - ref: refs/heads/master
-    old: c8a8ead01736419a14c3106e1f26a79d74fc84c7
-    new: a95d25dd7b94a5ba18246da09b4218f132fed60e
+    old: a7c1646b34b123763b876152f55dff2b76a49d4a
+    new: f272407695e60f9f33a77d2566607f6873202357
     log: |
-         d52e419ac8b50c8bef41b398ed13528e75d7ad48 rxrpc: Fix handling of an unsupported token type in rxrpc_read()
-         a95d25dd7b94a5ba18246da09b4218f132fed60e rxrpc: Call state should be read with READ_ONCE() under some circumstances
+         3eb09dc1605c68d50bfb14aede9bb56e824344bc cpu/overheads: Remove redundant words in QQA 3.8
+         f272407695e60f9f33a77d2566607f6873202357 FAQ-BUILD: Fix answer to #14
          
