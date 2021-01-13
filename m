@@ -1,50 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============2210801063634246544=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 13 Jan 2021 17:52:55 -0000
-Message-Id: <161056037581.23176.3922128239478036593@gitolite.kernel.org>
-
---===============2210801063634246544==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 13 Jan 2021 17:53:14 -0000
+Message-Id: <161056039499.23389.13622515459961499566@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.12
-    old: 72366b3c530c763ceda64f82741111e45ea881f9
-    new: c6892892a95debac8050579b0709214b7b28b514
+  - ref: refs/heads/for-linus
+    old: a5cb12776975a780ab52c482db619a67efac4560
+    new: 530aef25e6ad27fae9bcc7faaa99789d2778988f
     log: |
-         c6892892a95debac8050579b0709214b7b28b514 spi: bcm2835: Set controller max_speed_hz
+         9c25af250214e45f6d1c21ff6239a1ffeeedf20e ASoC: SOF: Intel: fix page fault at probe if i915 init fails
+         530aef25e6ad27fae9bcc7faaa99789d2778988f Merge remote-tracking branch 'asoc/for-5.11' into asoc-linus
          
-
---===============2210801063634246544==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1610560343 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1610560373-27c8a53d89ac7b4225f98f26301c58c9c6213450
-
-72366b3c530c763ceda64f82741111e45ea881f9 c6892892a95debac8050579b0709214b7b28b514 refs/heads/spi-5.12
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl//M1cACgkQJNaLcl1U
-h9C/+Qf+NOA6yGMPJWVb50WzLV4F34itl9f2UB6AQ1MMhcz/9moPuAlCGbWY7Nsh
-z4K4rXVhb0Qco3eSslnSV+PFPrsHKQBUcDeNw8M0kWmNPZ5rcwwvBtHqUSzCvogv
-lA1TTOvcfC2+CkuGutmnA2qBldOYRFENZ0DwQ2mpUFpscmR4wUAhUvuUbIVGdeZn
-mCLdkl2BF3qQRDkZOvULsR0HczHmv++mH6yujYr7gn8AZOS3HTbY6xG8Q18a2A88
-bRzy1iV0TuxqiD9bzNxzI4pNSEA70FNqFm61VslVSWmaA2t7p1Z7HT/6qS4JyOiz
-qzEolYD1A/veo4BVM5UrrVOtz3FaiA==
-=LLk4
------END PGP SIGNATURE-----
-
---===============2210801063634246544==--
+  - ref: refs/heads/for-next
+    old: 4a8e9f14ed5df09e3a2aad9f0e4b5018a7cf71e4
+    new: eb424de4c588976d44c4b9861b2f959509f9d5ff
+    log: |
+         9c25af250214e45f6d1c21ff6239a1ffeeedf20e ASoC: SOF: Intel: fix page fault at probe if i915 init fails
+         7edb3051f11683640c38b93e183ef1676090a79b ASoC: SOF: add .shutdown() callback to snd_sof_dsp_ops
+         daff7f1478e12cdee3e639c83c571cfd38bc5080 ASoC: SOF: add snd_sof_device_shutdown() helper for shutdown
+         3475b44c7601d6f2b4d96e731047ef73fd2f1eb2 ASoC: SOF: sof-pci-dev: add .shutdown() callback
+         44a4cfad8d78efcda9ec0dd97ceea38d8b602f24 ASoC: SOF: Intel: tgl: do thorough remove at .shutdown() callback
+         530aef25e6ad27fae9bcc7faaa99789d2778988f Merge remote-tracking branch 'asoc/for-5.11' into asoc-linus
+         eb424de4c588976d44c4b9861b2f959509f9d5ff Merge remote-tracking branch 'asoc/for-5.12' into asoc-next
+         
