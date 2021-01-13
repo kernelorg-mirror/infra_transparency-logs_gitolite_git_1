@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0095790036073923962=="
+Content-Type: multipart/mixed; boundary="===============3257792292569776535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 13 Jan 2021 23:49:31 -0000
-Message-Id: <161058177127.20269.767567318987990421@gitolite.kernel.org>
+Date: Wed, 13 Jan 2021 23:49:38 -0000
+Message-Id: <161058177817.20373.16729272973039959745@gitolite.kernel.org>
 
---===============0095790036073923962==
+--===============3257792292569776535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 938288349ca8a9d4b936bf5d2f6dd4526a598974
-    new: a95d25dd7b94a5ba18246da09b4218f132fed60e
-    log: revlist-938288349ca8-a95d25dd7b94.txt
+  - ref: refs/heads/dev-queue
+    old: 791e55f6ec7617d9a87cfd5e31a108871c32e23e
+    new: 8bd85cc9d1d64c8011ae368a8d822b9ace8771ab
+    log: revlist-791e55f6ec76-8bd85cc9d1d6.txt
 
---===============0095790036073923962==
+--===============3257792292569776535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-938288349ca8-a95d25dd7b94.txt
+Content-Disposition: attachment; filename=revlist-791e55f6ec76-8bd85cc9d1d6.txt
 
 fab336b42441e0b2eb1d81becedb45fbdf99606e selftests: netfilter: Pass family parameter "-f" to conntrack tool
 f6351c3f1c27c80535d76cac2299aec44c36291e netfilter: conntrack: fix reading nf_conntrack_buckets
@@ -53,5 +53,33 @@ ece9ab2a78afa1424c1aff45b1a95748dbc1f100 Merge branch 'bnxt_en-bug-fixes'
 c8a8ead01736419a14c3106e1f26a79d74fc84c7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
 d52e419ac8b50c8bef41b398ed13528e75d7ad48 rxrpc: Fix handling of an unsupported token type in rxrpc_read()
 a95d25dd7b94a5ba18246da09b4218f132fed60e rxrpc: Call state should be read with READ_ONCE() under some circumstances
+3838601cc6ef9e5925f2378e315ce5e6a177a42e checkpatch: Fix warnings when --no-tree is used
+a828b438a9c70f91f361e580aad7f1997430f09e igb: re-assign hw address pointer on reset after PCI error
+a476f39a9811b0c023a1741b6b6b6a2dcb07bdcc checkpatch.pl: seed camelcase from the provided kernel tree root
+fe79c5c2cf85ee45ee4489808c66e911ee0b9a60 i40e/iavf: use better trace path
+ad3fd6fa34354534189410504b0e6d948a7e2c53 ice: Fix a couple off by one bugs
+9c1b57dabf67c1d0e9775cad45d2eaf8459743b9 ice: report correct max number of TCs
+ee7de3d51e97f6af15ccc2d5fc99eb4667ea057a i40e: Fix flow for IPv6 next header (extension header)
+d056aa1634434ecf611c4f27ff07a91cd717129e ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+9a0ebf398ea4db60e5cb7c36aac1e08a721b4b6f igb: XDP xmit back fix error code
+14b6a83577699c1f4e9ebfe08651c370a6cd2526 ice: fix FDir IPv6 flexbyte
+268120745d2e737c3a33f98261883f7178600996 ice: Implement flow for IPv6 next header (extension header)
+c9d19c18da7000d9cebdcc7f3324eee3c2a48fd6 ice: update the number of available RSS queues
+484b92126c45cc03314e5e282db86b74c8ab1591 ice: update dev_addr in ice_set_mac_address even if HW filter exists
+3b915a106ccbb282b8ddfca89a9146865e2d248a ice: use correct xdp_ring with XDP_TX action
+0cacfb48e92e565dc2287a7a91b5b81ec2a87b87 ice: Fix state bits on LLDP mode switch
+c3eb3ad5616b60688a5241ad120f762e9d20f300 i40e: Add zero-initialization of AQ command structures
+4c7cd15ab853cf8a74625777633e234c6ce7dd74 i40e: Fix overwriting flow control settings during driver loading
+540921cb61f7d277c5854d4760f0d0c59c28fc7d i40e: Fix VFs not created
+1a9865682205bbedc3261dc1bbbb68b05c6d4dd1 i40e: Fix addition of RX filters after enabling FW LLDP agent
+a4e47ee3687c59f11446d42f59982b5a7a34fab7 i40e: acquire VSI pointer only after VF is initialized
+36627c5b18fed3e69406bd610347c3bb60557b14 igc: set the default return value to -IGC_ERR_NVM in igc_write_nvm_srwr
+58b561a80975b2e90014e013fa1e61121fce0068 igb: Enable RSS for Intel I211 Ethernet Controller
+8c3c5218ada52ed40a42d09d91b86c3ec4034a5c i40e: Fix add tc filter for IPv6
+6d795b003ae1695f96c0399ad4ca70a4be37b394 i40e: Fix setting PF MAC filters when changing MAC address
+c43e797fe353e0245a25be4b7fe85e5d58fd5f57 igc: check return value of ret_val in igc_config_fc_after_link_up
+f6e7bd96c933be12fa70d6d48a275a64eb51ffc9 i40e: fix potential NULL pointer dereferencing
+91da64eb917c9023ec9f2ec6ba2157f6495547cd ixgbe: Fix memleak in ixgbe_configure_clsu32
+8bd85cc9d1d64c8011ae368a8d822b9ace8771ab i40e: Fix for link-flapping
 
---===============0095790036073923962==--
+--===============3257792292569776535==--
