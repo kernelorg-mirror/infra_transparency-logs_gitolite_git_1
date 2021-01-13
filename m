@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Wed, 13 Jan 2021 18:55:11 -0000
-Message-Id: <161056411100.30755.11797420611992857813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Wed, 13 Jan 2021 19:04:59 -0000
+Message-Id: <161056469931.2723.1577070537514347895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: a7c1646b34b123763b876152f55dff2b76a49d4a
-    new: f272407695e60f9f33a77d2566607f6873202357
+  - ref: refs/heads/numa
+    old: f3368a115ed9f438dd773cc0d1dd33c94c2442a7
+    new: f8ac961f58fa9f42076840626f9eac0292fdacf0
     log: |
-         3eb09dc1605c68d50bfb14aede9bb56e824344bc cpu/overheads: Remove redundant words in QQA 3.8
-         f272407695e60f9f33a77d2566607f6873202357 FAQ-BUILD: Fix answer to #14
+         f8ac961f58fa9f42076840626f9eac0292fdacf0 x86/sgx: Wipe out EREMOVE from sgx_free_epc_page()
          
