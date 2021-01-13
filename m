@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 13 Jan 2021 04:04:42 -0000
-Message-Id: <161051068275.18555.601345225258746523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 13 Jan 2021 04:07:55 -0000
+Message-Id: <161051087561.20828.456296746836324587@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 9cc8976c69eb626a7a5100239eb7c69b1a1a609f
-    new: 5bc8f5ab3b752306d6a1e0e4fa6c4473c15a2924
+    old: 2284bbd0cf3981462dc6d729c89851c66b05a66a
+    new: ece9ab2a78afa1424c1aff45b1a95748dbc1f100
     log: |
-         5bc8f5ab3b752306d6a1e0e4fa6c4473c15a2924 fsl/fman: Add MII mode support.
+         869c4d5eb1e6fbda66aa790c48bdb946d71494a0 bnxt_en: Improve stats context resource accounting with RDMA driver loaded.
+         687487751814a493fba953efb9b1542b2f90614c bnxt_en: Clear DEFRAG flag in firmware message when retry flashing.
+         ece9ab2a78afa1424c1aff45b1a95748dbc1f100 Merge branch 'bnxt_en-bug-fixes'
          
