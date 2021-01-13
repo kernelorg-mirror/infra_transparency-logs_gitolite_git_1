@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1411627375005497662=="
+Content-Type: multipart/mixed; boundary="===============4494943035248329404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 13 Jan 2021 05:44:03 -0000
-Message-Id: <161051664368.18032.18395049145555806448@gitolite.kernel.org>
+Date: Wed, 13 Jan 2021 05:44:07 -0000
+Message-Id: <161051664784.18104.9395513824287227550@gitolite.kernel.org>
 
---===============1411627375005497662==
+--===============4494943035248329404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: e8ddc0004f75379c60dc15b2b54315674c8712da
-    new: 700d51575f755ec7ac468bfc82a274b6c1c5be70
-    log: revlist-e8ddc0004f75-700d51575f75.txt
+  - ref: refs/heads/5.12/scsi-queue
+    old: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
+    new: 91b1b640b834b2d6f330baf04c0cc049eca9d689
+    log: revlist-e71ba9452f0b-91b1b640b834.txt
 
---===============1411627375005497662==
+--===============4494943035248329404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1610516642 -0500
+pusher 75C5DE3D 1610516646 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1610516642-d7e0e4710f686364106e5dd22b40d5207c2f8530
+nonce 1610516646-f85a9cbd358985082a2688d2985738e18923250a
 
-e8ddc0004f75379c60dc15b2b54315674c8712da 700d51575f755ec7ac468bfc82a274b6c1c5be70 refs/tags/mkp-scsi-queue
+e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 91b1b640b834b2d6f330baf04c0cc049eca9d689 refs/heads/5.12/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/+iKIACgkQ7ulgGnXF
-3j3+rA/9F9I0BZbEiJDXybj7autQEJ8ujgLzoEokIuX6zhIb3r2WpUhuwDUmypI7
-fCkCfCwlCnyYxOAyiepOA0IJ6U8LjlmTUPaEWvdA9vte+Zaqp8RjOlYdSj/wrk6M
-tSQE0gwQC2Nxpx9Ry2eJ1yDP1yMWVnhRnhTbJcJFAF1adlQBv/jEUk4ZHpFM8fbO
-yj49AUDnM0Q7TQdpvI16LsgJ58RlscBiJRAXJ90FftQT7CnNQuIgxSYrh+Af04L9
-bKc5cHfJW3LjzLZOfSvd4Tbt1/k+oGpBdhQoaH5NH2BtvLb4PkuxfGLQVseheicU
-n6bXAI9fsUs0eUCBIkCC+ZLn/9Hz3cZANDKXVOlAWm02qJdvLCiTJWtp5pXaAoyw
-QY/N0sHPiJ5jAyFqUB3mk+/1S5NdOMTBycAhDBVOsBPYiaGeM5imuyaZwDmw1i7J
-Xvj89hPtDQdTqvGyGox6CryeifKpvJCs/RZtkAAQPo/Uk6WLY996LfswII2cR40n
-qWtLnNlECLg3xfbtwY1qp0TRaoegceW4IucpD9YJbPLJtQ90UDq2CYusTsNXlh4A
-lTPdTNTBQcCb3wNzgAUjwwGh08PSeu2uXSGHtwzhFIVGCVxsS4JRZRKR7vBFLzPU
-2iXub37buQg0JGZ+9g2kfeCFNsZgKJugF/05Qa2qSXQ0dNOSPF0=
-=Lz4l
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/+iKYACgkQ7ulgGnXF
+3j1WixAAs4M9Q7PN6ds9soEG1pJABjwY5h+pzxmIEx+uFYV48oUARPe+MDyVqaOn
+z+zr8mWO6kpDFknuqlOI2atrR9mwz8inTQJW1rGDOPGCzPpmO5aN3F4nVuFwAzmJ
+i1hutyUYHZxHLhidtTBDjGLoS75ZSQGSz+WP9AFc7g1ruS1gPUQzDHLjgR+uOmO1
+ZWHu/4UV2Uh1B/fYpClSP6BY7P3sCJGbCMybT6+Aep07Iwr4QmVgSBy4W+HLoY30
+wyDweZR/fyGIswxpdGg5d58zstmwsQyc0B/KZ2dt8yXCm5uy8rVZa78THhwu8mJR
+EuGdPWJ8Og2mpIQ2rLAYiEFey5bU14LTU89KPP86LQ54Fdb9kovcD7QxnkvzVr3Z
+hXFvsdSXZU/mP2Dxixaz+3gh5r/gOeyCizNCOuDDfy/l2UL+YGdbso/nAaEbR6LA
+NTBxyh0UXD91YP4NWgpJJJhPMhZohu5C0DHTnzFSVPbFxsAQyUzVSeSoS+3uaiGD
+Gz1RXb5Q5tKPuWdmSBBnINnW12ZxFSDhH4c7lbAc4H2eOZIx4ssbXmb9sTsQrzMH
+X1rYbpUI8XKJtQyE3hx+EV5cWaEjx816cSfkHluVR2EWE6hThp9MGzEMLhA0rQQF
+RZVXf7S07VThel737bQziZ+27hdeKrxoDFXeGwpmMpgVHroxW6g=
+=NfLd
 -----END PGP SIGNATURE-----
 
---===============1411627375005497662==
+--===============4494943035248329404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8ddc0004f75-700d51575f75.txt
+Content-Disposition: attachment; filename=revlist-e71ba9452f0b-91b1b640b834.txt
 
 46ec9592ffd679fa26142dcb9e5119aad7e60b55 scsi: ufs-mediatek: Enable UFSHCI_QUIRK_SKIP_MANUAL_WB_FLUSH_CTRL
 b1d0d2eb89d4e3a25b212a9d836587503537067e scsi: ufs: Add a quirk to permit overriding UniPro defaults
@@ -92,4 +92,4 @@ ab548fd21e1cbe601ce5f775254a6d042c6495f2 scsi: storvsc: Fix max_outstanding_req_
 244808e0302953de11dba1f8a580cdd1df35843d scsi: storvsc: Resolve data race in storvsc_probe()
 91b1b640b834b2d6f330baf04c0cc049eca9d689 scsi: storvsc: Validate length of incoming packet in storvsc_on_channel_callback()
 
---===============1411627375005497662==--
+--===============4494943035248329404==--
