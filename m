@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Wed, 13 Jan 2021 19:04:59 -0000
-Message-Id: <161056469931.2723.1577070537514347895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 13 Jan 2021 19:15:56 -0000
+Message-Id: <161056535645.9918.3334170795737979964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/numa
-    old: f3368a115ed9f438dd773cc0d1dd33c94c2442a7
-    new: f8ac961f58fa9f42076840626f9eac0292fdacf0
+  - ref: refs/heads/dev
+    old: 69724d1df9147618a78995fb30b8d01f3888c324
+    new: c9f05a25da117cf1b5197bfd89a18b65185c0f9f
     log: |
-         f8ac961f58fa9f42076840626f9eac0292fdacf0 x86/sgx: Wipe out EREMOVE from sgx_free_epc_page()
+         bd9bfc503d1197ebacfe78c83da4e27425f9f9a5 doc: Update rcu_dereference.rst reference
+         c9f05a25da117cf1b5197bfd89a18b65185c0f9f sched/core: Print out straggler tasks in sched_cpu_dying()
          
