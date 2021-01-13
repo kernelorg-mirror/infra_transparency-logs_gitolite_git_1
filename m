@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0175799522796466181=="
+Content-Type: multipart/mixed; boundary="===============5474454051619653722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 13 Jan 2021 05:44:17 -0000
-Message-Id: <161051665768.18314.17638805195460212358@gitolite.kernel.org>
+Date: Wed, 13 Jan 2021 05:44:21 -0000
+Message-Id: <161051666196.18391.11771169831217789223@gitolite.kernel.org>
 
---===============0175799522796466181==
+--===============5474454051619653722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 5bb86b7a5e36d3ef829424f2b56d0e8ca11cd8db
-    new: eff55aa42f6085938b0baa7645ad617f08ba97be
-    log: revlist-5bb86b7a5e36-eff55aa42f60.txt
+  - ref: refs/heads/5.12/scsi-staging
+    old: 91b1b640b834b2d6f330baf04c0cc049eca9d689
+    new: e8e5df5edd346da87ccf2574a7c7279dbf170a45
+    log: revlist-91b1b640b834-e8e5df5edd34.txt
 
---===============0175799522796466181==
+--===============5474454051619653722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1610516655 -0500
+pusher 75C5DE3D 1610516660 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1610516655-8dcdf11a773cb78cbed1bda7c0500127360abbac
+nonce 1610516660-1332e8a51376c33956aca53b91397978e52b451b
 
-5bb86b7a5e36d3ef829424f2b56d0e8ca11cd8db eff55aa42f6085938b0baa7645ad617f08ba97be refs/tags/mkp-scsi-staging
+91b1b640b834b2d6f330baf04c0cc049eca9d689 e8e5df5edd346da87ccf2574a7c7279dbf170a45 refs/heads/5.12/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/+iK8ACgkQ7ulgGnXF
-3j0TqBAAog8ihvrItsY1pliawf6JyRqiaY5+tFOPqfSKeZBii2pb7yHQpzUBwDvC
-qSoAwJVIqBOrEV2IPznJ0pkI+xsfsBYlYcUc+nhr7wHOcX7q3Ql+6UssqUF3rzgt
-zhTBGD2uy9rfXmIght9QyvXAGIlVEVKQFWQdI9fxzvuwz8GTXM5zRZBTpd5voalP
-wnCgK8YtSSLKtPseFhr2ntP/VTE3VYTYSRXVLH17cwIlQHLQukbrWdA4sQEErqY+
-siqkroq+aWU7emSq6Y7aitXpbYkT4PYzgrLuBZkE3KoFA+pzqE3vz+lOYx002QNM
-jAQdJK6JAvS8jZJCUtjb8Uc6fcavSSNDYCq0ZgQdrlKpSwqCSSmrktbOhACvmPkX
-3UK9h2F0fcKcueWdORv5SJNdsa014PSoLFcdVzhFLDSxVYTXCIeX9n7dRIFG1ArU
-Dv1rQC7lDlUfml/1XYfqh4t36/j5MkM1SjTaP4P9l+dFc5JFEkjBeNhSwb6D6NiX
-kKR/hoDTHgq6O0nhzb7Usre+nTEFdraSo513QHEJDccKdcDvCXK1WBErq42mk+xc
-Nmza8jI21wZqtxq6vX967wHqHw2vARn7jDnYu6Sls7Hqjw1DOnQHiI97xKIKi6FV
-8mcX3YuBLYaCyHtAAA1eZha7lZ2F/iqqdtbaKbAxpnbwYE9E4vA=
-=tYCl
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAl/+iLQACgkQ7ulgGnXF
+3j1/UBAAk9cEivB0aXz2B+lVj9pc1l0KWoQqYvgeoSJ7mY26BpdYdMoKoeERgFWF
+o3AAPgtl84k79hGlsQFanH8Fo8GpQ7o4LBdrABvJpdV6Vl76Os3mWLsgziUAPhJ9
+rVnus7XKTqYDUo/DlJypcAHPliNOLe5Gad5gwxm168gMYEp4OZGpDpj1hPGynZ8L
+c11ejBq0oexlI+8x2RZp8KmiqBAbOuxf2vCVMuvSJ8Fqf/ebVGiMemIRS5nimcEH
+jQpKkX1Qnc8w01eoY9P8xLN2Jdg/0nh2RgLwH+xIeU555kdC8VM/EG2W+0Vk7oaE
+08Lc1ZKV7OP/Jk85mxRMlJWe1FH1U4q+9XSxOQOpGE2c/0gI7fQa8g2AFm3D5NAV
+wQcGFe51XeDyRjfzbSmZu04SMsv2vZP+TdAxbNjiByulzwiSgk+T0o5/cgiQS9th
+z5y1nTolxTui23bN1tC4AQ3fg2Lw2riOmShTvgr8bkiZaIetswbcNMQO7DBQJU4d
+scVsh48UZ2oIeTV4enhl5yQWnxQqqNgUQwgGnbFv99GC2jrC9K43MyTjya26g4i4
+ST37n48bwlVryIb6uqiY+W7V5IgsYJOizNb61vy9ep0BBTAesifGBgP/Rtbxt3qF
+V4nLhe0f54lQ+Dntxo6hjfIfkcwsLOCF7e+oLJpMtNRwLID0P+4=
+=f/Im
 -----END PGP SIGNATURE-----
 
---===============0175799522796466181==
+--===============5474454051619653722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5bb86b7a5e36-eff55aa42f60.txt
+Content-Disposition: attachment; filename=revlist-91b1b640b834-e8e5df5edd34.txt
 
 b6cacaf2044fd9b82e5ceac88d8d17e04a01982f scsi: ufs: ufs-debugfs: Add error counters
 dc0bfdb563c866a3c86b553ea54a1eb74f56c22e scsi: isci: Remove the unneeded variable "status"
@@ -85,4 +85,4 @@ af0c94afc0c495da3d48448892b7509ac84528dc scsi: lpfc: Simplify bool comparison
 b64750a1b65ac7a7dfaf62f75c2e211a51a7914a scsi: ufs: Remove unnecessary devm_kfree()
 e8e5df5edd346da87ccf2574a7c7279dbf170a45 scsi: MAINTAINERS: Remove intel-linux-scu@intel.com for INTEL C600 SAS DRIVER
 
---===============0175799522796466181==--
+--===============5474454051619653722==--
