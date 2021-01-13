@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dash/dash
-Date: Wed, 13 Jan 2021 06:21:37 -0000
-Message-Id: <161051889793.10658.13167700955264351124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Wed, 13 Jan 2021 07:03:40 -0000
+Message-Id: <161052142073.5580.17375911831695669854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dash/dash
-user: herbert
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: 6359d7aa739b9f02f622805f4dbddeaf0ae61981
-    new: 41d875fa0941b4c827c6b598df2aa9ffb868183f
+  - ref: refs/heads/fixes
+    old: eeb1b55b6e25c5f7265ff45cd050f3bc2cc423a4
+    new: d6e3ae76728ccde49271d9f5acfebbea0c5625a3
     log: |
-         c1166e98c119f187a2a0377a063fe66640980aee shell: Fail if building --with-libedit and can't find libedit
-         41d875fa0941b4c827c6b598df2aa9ffb868183f input: Clear unget on RESET
+         f2cb4b2397ca9e6e972d6551e5461d1f1d81c23f scsi: docs: ABI: sysfs-driver-ufs: Rectify table formatting
+         72eeb7c7151302ef007f1acd018cbf6f30e50321 scsi: scsi_transport_srp: Don't block target in failfast state
+         b2b0f16fa65e910a3ec8771206bb49ee87a54ac5 scsi: libfc: Avoid invoking response handler twice if ep is already completed
+         d6e3ae76728ccde49271d9f5acfebbea0c5625a3 scsi: fnic: Fix memleak in vnic_dev_init_devcmd2
          
