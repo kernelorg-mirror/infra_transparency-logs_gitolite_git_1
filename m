@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7068091948354825992=="
+Content-Type: multipart/mixed; boundary="===============2910208837228942799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Wed, 13 Jan 2021 09:03:44 -0000
-Message-Id: <161052862451.19696.17005442209538479616@gitolite.kernel.org>
+Date: Wed, 13 Jan 2021 09:04:31 -0000
+Message-Id: <161052867166.1162.4954689616024428108@gitolite.kernel.org>
 
---===============7068091948354825992==
+--===============2910208837228942799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: c76e02c59e13ae6c22cc091786d16c01bee23a14
+  - ref: refs/heads/dm-cryptsetup
+    old: 64834875eaf6e2a94f47c935a521961f6fbf00a3
     new: e609571b5ffa3528bf85292de1ceaddac342bc1c
-    log: revlist-c76e02c59e13-e609571b5ffa.txt
+    log: revlist-64834875eaf6-e609571b5ffa.txt
 
---===============7068091948354825992==
+--===============2910208837228942799==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c76e02c59e13-e609571b5ffa.txt
+Content-Disposition: attachment; filename=revlist-64834875eaf6-e609571b5ffa.txt
 
 665f1388bc9713c81989dda6eed5cde52d57c255 ARM: omap2plus_defconfig: drop unused POWER_AVS option
 f1dc15cd7fc146107cad2a926d9c1d005f69002a ARM: dts: OMAP3: disable AES on N950/N9
@@ -691,4 +691,4 @@ a0d54b4f5b219fb31f0776e9f53aa137e78ae431 Merge tag 'trace-v5.11-rc2' of git://gi
 ea49c88f4071e2bdd55e78987f251ea54aa11004 Merge tag 'mkp-scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi
 e609571b5ffa3528bf85292de1ceaddac342bc1c Merge tag 'nfs-for-5.11-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 
---===============7068091948354825992==--
+--===============2910208837228942799==--
