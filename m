@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============6971101052365144541=="
+Content-Type: multipart/mixed; boundary="===============5747299107539156521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 13 Jan 2021 17:52:37 -0000
-Message-Id: <161056035717.20966.732602635720308541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 13 Jan 2021 17:52:43 -0000
+Message-Id: <161056036343.22002.9187095365745391217@gitolite.kernel.org>
 
---===============6971101052365144541==
+--===============5747299107539156521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: ef4d764c99f792b725d4754a3628830f094f5c58
     new: 9c25af250214e45f6d1c21ff6239a1ffeeedf20e
     log: |
          9c25af250214e45f6d1c21ff6239a1ffeeedf20e ASoC: SOF: Intel: fix page fault at probe if i915 init fails
          
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 342c3bc515fd01be231c41434d493d8c85222eb7
     new: 44a4cfad8d78efcda9ec0dd97ceea38d8b602f24
     log: |
@@ -32,29 +32,29 @@ changes:
          44a4cfad8d78efcda9ec0dd97ceea38d8b602f24 ASoC: SOF: Intel: tgl: do thorough remove at .shutdown() callback
          
 
---===============6971101052365144541==
+--===============5747299107539156521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1610560324 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1610560355-a453187bf6c586f8e76408d154bf6ca732e2c3b1
+pusher C3F436CA30F5D8EB 1610560330 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1610560361-9fb1fd728f48fc34ea28a1bd274f73a28735a05a
 
-ef4d764c99f792b725d4754a3628830f094f5c58 9c25af250214e45f6d1c21ff6239a1ffeeedf20e refs/heads/for-5.11
-342c3bc515fd01be231c41434d493d8c85222eb7 44a4cfad8d78efcda9ec0dd97ceea38d8b602f24 refs/heads/for-5.12
+ef4d764c99f792b725d4754a3628830f094f5c58 9c25af250214e45f6d1c21ff6239a1ffeeedf20e refs/heads/asoc-5.11
+342c3bc515fd01be231c41434d493d8c85222eb7 44a4cfad8d78efcda9ec0dd97ceea38d8b602f24 refs/heads/asoc-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl//M0QACgkQJNaLcl1U
-h9Cg8Qf/fnetpxwCzM+QSMGnlfzuBiz/Cmib006UaZUzmsO94tI1jn5E7El8j4ee
-obuh4ncfgUz9OhJlsUmLOq+Iw82RsuhXJK+L26zrECrkERlxXXtIpkG13wSKePP/
-y8YvK2Ysj9ZItpWrHC73AUmZnljYUaNJoVX2PDzgAancQsML6d1Yq2m+cv470c3C
-nF1uYvruhG3T2V9xjx+k/qDggdevpkCR7N8ShewSvsQ2DYbjKBOC04xcqV4ERzlH
-rrtjmYuEVfiUX7cS8lrxiz9T4v424LbRrhCXQ1Q1FiezbZyK8DjJfpWjIkDY/cuA
-y1JGoA8oXYT9YvFG+X6QCtDPRxyZjg==
-=3DsZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl//M0oACgkQJNaLcl1U
+h9BsSwf+P32d1LzGQPutAjeYsB+vw01Bv5iwRYBkh2Rlx1GxWEOeQR32WPg6MAQt
+XT39CpFfzvLNG88fGL7VpKpSeoacIJ9vq947whWSpGqzvTuFxwqzGNYeJMqw/4Hz
+FmbDaxy7Gw7EKLzprSdFp9g8MShQb2LqUqmlsfOw2CS2tsnkrrlme2X7Pntn6Aqh
+GzEwhgKHZZZhkX1TtVdXW21GFQLyiz2U4mI8rseYB8pRdON6Pq64Uh6UEIonTowc
+gWO0zRrrHSUiK5QPOYPI6/87u2dLkqZgEPVBtxCUB+FkTBMLjueeUTstvGom6MJb
+fF75QozbAi6UddSmL5q858zO8PH+Nw==
+=oNeD
 -----END PGP SIGNATURE-----
 
---===============6971101052365144541==--
+--===============5747299107539156521==--
