@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0387412060817831724=="
+Content-Type: multipart/mixed; boundary="===============1105054948883060075=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 13 Jan 2021 16:16:26 -0000
-Message-Id: <161055458688.23795.7475932453335393235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 13 Jan 2021 16:18:21 -0000
+Message-Id: <161055470159.24468.4433083907334855731@gitolite.kernel.org>
 
---===============0387412060817831724==
+--===============1105054948883060075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: c9cd57bf57fd450972a7802b9f09a680dbb4634e
-    new: 9335e23ddc33b5298b4cefdecc962736449fe596
+  - ref: refs/heads/char-misc-testing
+    old: 09381eb16ad887e05bc2a9500261afaa5dc77cd3
+    new: 4540b9fbd8ebb21bb3735796d300a1589ee5fbf2
     log: |
-         9335e23ddc33b5298b4cefdecc962736449fe596 tty: serial: owl: Add support for kernel debugger
+         4540b9fbd8ebb21bb3735796d300a1589ee5fbf2 misc: eeprom_93xx46: Add module alias to avoid breaking support for non device tree users
          
 
---===============0387412060817831724==
+--===============1105054948883060075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610554646 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1610554577-053c16ef97c75893426806c118728217fc28f589
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610554761 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1610554692-d795cc99706fd56356a4aa94f4e9c452358fd2d7
 
-c9cd57bf57fd450972a7802b9f09a680dbb4634e 9335e23ddc33b5298b4cefdecc962736449fe596 refs/heads/tty-testing
+09381eb16ad887e05bc2a9500261afaa5dc77cd3 4540b9fbd8ebb21bb3735796d300a1589ee5fbf2 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl//HRYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KtQQAMx0NDrq9QJi/kTxD0sB
-jNofFbn4sxINZe2IVueyW9Gc2H1eMc649zr2pheQXkXnPtmY8kNP0twQTf4fjJRq
-rcHhf6B8Rb/EgCx+jZvH7hw3uNvNFnhvNGO6Z2u78qt5MLMrsG5WL9gs+yatghHO
-MSEYe6MNFMbmAqjJ1Fc6MOhfYA4tsnr4KussbCNuozmPOpPRPYfFhNXfBknhTgmK
-+OCdakEfT9DX9YIZsXioHJYFEEPxxEoCDcgrx3Gl2yjQxyBfuVB6aaB86ngIZFsM
-awOswT59U2RsJPUWW+H97PimYmr6dmIUSKm0zOqxawIrRxDLlq9NO55zQvQ2j9pQ
-Ua64LTuRgV2sHZ2WcofXZsZzM3INm7lCTbGHuZtCRxWglq2z+HvGSUoM3HjU3I5d
-rurWICL0XHh7/Ss4o0NOri9Bw1e84nPHNek8F1+4azBxe79HKyrUckCr2sl7R8Wx
-GrRA8AKAMQ1VvJbQUPPnfcTNhQHN10V2mpiySPvGDMGkPvsw+LRZ3L924VpYQ1Oz
-c/5pyRSs6OMEBBAo+gsVT1nBY1q+kGcvcz5zRWASeF2Kce/LfSk2EomxJJZK3uB4
-uYlqsRDug1h6iDVwg4877W6S4vC+V6Qe7sK/6bK6CiZN6Z4rx0z8J9PWW+ahev3R
-2jnOz+wA8gdy0cFifIxw/SMx
-=zyn7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAl//HYkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+b5cQAMoIbAnx2S9BzDHWf/0y
+xAR9d8rFIEvWYPlA7UmX9/QZ+z6yuwFKxGZumPmTmBYDwUzd5wNKAFvz+bPrptN6
+M62b62Mrq1vm8NrhKKXFj47dj/TQgNG6Ogsbg/7OuyZVXmTBvWXqA1gtf9kBCfF2
++ZSiLJU+h4BSyrIcjLZaNR0keJ7SEUqt7+fOksIIdkIFkp183W3y54gozZDRAtHO
+0rcLHoIa9AwGy3/aKyV6u6uT63t4DIhYvAZPsN0fCegSdRXeHF7d1oQXT3UslWYq
+Nz7CkAdwKihIp/xQt4Ng69WmUvrTAcxyXtp9c4nT4OmAd+b+ahqas0benAu1uk2I
+2+ZCZV+rAaqJ4HuHzJ4rwjaj0vJ4pqdSZEpTVKDxqv8LWW2NIvZW9DL0VKfljM7i
+8WsBREstTfvX/FqlqmwUXOZdnfTvMFlP6GJ0v2izAFYkvFaqD2K4wYojLHISBEas
+0w77dVMWFjw+3ThAlRrvpUeX+ydXAk9eEy5BxWw1C/8i860/r9PBGs+KKz4SPGWl
+LwZF0HcHI43TlCFKFJ6fHd7lbxU2frVY1gFb7pCqWfK30b5XIEhAN5ikROvufthR
+f0ZT1o7Rsu1asUDsg79I3//FLrCQLcGmJP2v341Vjr+e48tUQ8n/CCTiMUiA6Yof
+JyQwSCoD2ofxLBlAH0h8FDcE
+=SV1g
 -----END PGP SIGNATURE-----
 
---===============0387412060817831724==--
+--===============1105054948883060075==--
