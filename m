@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 13 Jan 2021 04:07:55 -0000
-Message-Id: <161051087561.20828.456296746836324587@gitolite.kernel.org>
+Date: Wed, 13 Jan 2021 04:11:14 -0000
+Message-Id: <161051107444.23167.14222380457453927486@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 2284bbd0cf3981462dc6d729c89851c66b05a66a
-    new: ece9ab2a78afa1424c1aff45b1a95748dbc1f100
+    old: ece9ab2a78afa1424c1aff45b1a95748dbc1f100
+    new: 584c19f92754e9d590d75a94df66c47f7c4fd2cc
     log: |
-         869c4d5eb1e6fbda66aa790c48bdb946d71494a0 bnxt_en: Improve stats context resource accounting with RDMA driver loaded.
-         687487751814a493fba953efb9b1542b2f90614c bnxt_en: Clear DEFRAG flag in firmware message when retry flashing.
-         ece9ab2a78afa1424c1aff45b1a95748dbc1f100 Merge branch 'bnxt_en-bug-fixes'
+         20bc80b6f582ad1151c52ca09ab66b472768c9c8 mptcp: more strict state checking for acks
+         76e2a55d16259b51116767b28b19d759bff43f72 mptcp: better msk-level shutdown.
+         584c19f92754e9d590d75a94df66c47f7c4fd2cc Merge branch 'mptcp-a-couple-of-fixes'
          
