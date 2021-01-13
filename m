@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 13 Jan 2021 14:48:18 -0000
-Message-Id: <161054929823.28890.1433515001535562522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 13 Jan 2021 14:56:22 -0000
+Message-Id: <161054978226.4027.4346230199850483974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/irq/urgent
-    old: 4bae052dde14c5538eca39592777b1d1987234ba
-    new: ce09ccc50208c04a1b03abfd530b5d6314258fd0
-    log: |
-         ce09ccc50208c04a1b03abfd530b5d6314258fd0 genirq: Export irq_check_status_bit()
-         
+  - ref: refs/tags/sound-5.11-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 9af2a71130f3774e8eda2c36352103a9c143d734
