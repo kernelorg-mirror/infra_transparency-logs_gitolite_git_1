@@ -1,51 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============2644782870776305759=="
+Content-Type: multipart/mixed; boundary="===============8812514570006772964=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 13 Jan 2021 15:25:53 -0000
-Message-Id: <161055155373.24301.4032810126612240548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 13 Jan 2021 15:26:00 -0000
+Message-Id: <161055156010.24425.7114578638688980202@gitolite.kernel.org>
 
---===============2644782870776305759==
+--===============8812514570006772964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.12
-    old: 90fd840e72770a37f677d4bc9c53f8bf018cd45d
-    new: 3acb64c07e95a75dc0af0bc958f2d09a44a9fd0d
-    log: |
-         c512150b266b5d173c5ba841e9c09e4830ea4eca regulator: ab8500: Remove unused platform data
-         3acb64c07e95a75dc0af0bc958f2d09a44a9fd0d regulator: ab8500: Decomission platform data header
-         
+  - ref: refs/heads/for-5.12
+    old: bfeccc6a18de52529ada66ea3afe934004b4b36e
+    new: 72366b3c530c763ceda64f82741111e45ea881f9
+    log: revlist-bfeccc6a18de-72366b3c530c.txt
 
---===============2644782870776305759==
+--===============8812514570006772964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1610551520 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1610551551-34820c2ce5330e8adfa9006ccf9d99d530b975b1
+pusher C3F436CA30F5D8EB 1610551527 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1610551557-c283f60578cf8c26e5546e44d47f06eb184a9089
 
-90fd840e72770a37f677d4bc9c53f8bf018cd45d 3acb64c07e95a75dc0af0bc958f2d09a44a9fd0d refs/heads/regulator-5.12
+bfeccc6a18de52529ada66ea3afe934004b4b36e 72366b3c530c763ceda64f82741111e45ea881f9 refs/heads/for-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl//EOAACgkQJNaLcl1U
-h9AeFwf/SaSCYCk+UE6XBD24oVt5Dr+FI4FlCXNudtmwCPTFGAcz2XJH8XGAoWiT
-NsrJxNAhFv0dthaO+BTFe926CuTBZryfeVJ1LaS5I5WS1W5RUIlMzX+OmirLa1nL
-8dsHFIW4D5OGK6OwXakhED63Ini2HzUNVqwn2IzYttUVR7Qo6R6vfUjFNMtOIPLU
-uGcNrasUVb55GvwUE6J6VYhfoHJFewjYaLsvwb3hTIrjQuMv5FErTRgpSS6pFkCS
-94xT7QLMBkcwF+6GBpurOhBv5ixEIYX41TPFHgjNTgpZR+gn7U15Y+NB4lMmWps9
-Gld5oe4FVfPwrXInN+XzFCTC3weEUQ==
-=Tqja
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl//EOcACgkQJNaLcl1U
+h9CaPAf9HUKMST/dyRbYNLLpFzJfWonEZWa0+tG2YPfFw7Cb3oRHCeUd49X9zWGE
+Gd7moKof/1r2t+Uh54g0w8NVN9NKJxoHmhx/Z4yEitT4vKSYnQ+pswts32WGq6yZ
+6LDTk2D6bHFSvgbkQqq5E0tOmcUAOljGSCTcxEk1Io0qU+JzY6XaHdGQm6B3J9yp
+FxHJ3pXj6URiLycySc8j9VwKeMvWcZTt4f9FlCOoH0he84g2M+bhki6lRyVyvnQ1
+HPKvk/friMzFBWSLqUGM9/jVcW0re4y4iJ5Hv/KK3mA0EZvyMrnCoTZ3cNxyOxv8
+oTMCm2glPj+tBKiK1fEaydH1mqjWOQ==
+=coIV
 -----END PGP SIGNATURE-----
 
---===============2644782870776305759==--
+--===============8812514570006772964==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bfeccc6a18de-72366b3c530c.txt
+
+ab2d28750aacb773dc42d72fbad59146e8a6db5e spi: cadence-quadspi: Add QSPI support for Intel LGM SoC
+ad2775dc3fc5d30dd51984ccbaa736cc7ea9caca spi: cadence-quadspi: Disable the DAC for Intel LGM SoC
+b436fb7d29bfa48ff5e00cbf413609c7a6d4d81e spi: cadence-quadspi: Add multi-chipselect support for Intel LGM SoC
+eb4aadc31ef4224b926d5165048cb297f4bda34f spi: Move cadence-quadspi.txt to Documentation/devicetree/bindings/spi
+fcebca39938fa9f6ed03f27fc75645ad7fd489e9 dt-bindings: spi: cadence-qspi: Add support for Intel lgm-qspi
+9a133f7b72f0b8d8896cbc7e4149c763b59168bb spi: sh-msiof: Fill in spi_transfer.effective_speed_hz
+81f68479ec4ec91c0b0d7fb20db433be28e00497 spi: sh-msiof: Fill in controller speed limits
+566c6120f095be74862bed35f557f797478abade spi: hisi-sfc-v3xx: extend version checking compatibility
+eaecba8767835783bdd2f4e72406668cda7d8d54 spi: spi-qcom-qspi: Use irq trigger flags from firmware
+970e8eaa08195a26ba99ec0843968cbc7ad8e947 spi: stm32: Simplify stm32h7_spi_prepare_fthlv()
+10f48a12eb0d44260c02c8ab178053536ec32aff Merge series "spi: cadence-quadspi: Add QSPI controller support for Intel LGM SoC" from "Ramuthevar, Vadivel MuruganX" <vadivel.muruganx.ramuthevar@linux.intel.com>:
+72366b3c530c763ceda64f82741111e45ea881f9 Merge series "spi: sh-msiof: Advertize bit rate limits and actual speed" from Geert Uytterhoeven <geert+renesas@glider.be>:
+
+--===============8812514570006772964==--
