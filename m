@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 13 Jan 2021 17:53:33 -0000
-Message-Id: <161056041317.23660.11443100289274347379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 13 Jan 2021 18:40:39 -0000
+Message-Id: <161056323933.20227.3551547480318406180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: b7b5afb4d7e70159575baddabd34e84568460e4e
-    new: a7530e179db93acc7e89cb42f4b31732145a1625
+  - ref: refs/heads/master
+    old: c8a8ead01736419a14c3106e1f26a79d74fc84c7
+    new: a95d25dd7b94a5ba18246da09b4218f132fed60e
     log: |
-         c6892892a95debac8050579b0709214b7b28b514 spi: bcm2835: Set controller max_speed_hz
-         a7530e179db93acc7e89cb42f4b31732145a1625 Merge remote-tracking branch 'spi/for-5.12' into spi-next
+         d52e419ac8b50c8bef41b398ed13528e75d7ad48 rxrpc: Fix handling of an unsupported token type in rxrpc_read()
+         a95d25dd7b94a5ba18246da09b4218f132fed60e rxrpc: Call state should be read with READ_ONCE() under some circumstances
          
