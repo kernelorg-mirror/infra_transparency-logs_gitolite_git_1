@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8812514570006772964=="
+Content-Type: multipart/mixed; boundary="===============8449937979947943907=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 13 Jan 2021 15:26:00 -0000
-Message-Id: <161055156010.24425.7114578638688980202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 13 Jan 2021 15:26:06 -0000
+Message-Id: <161055156652.24600.12320152727578158486@gitolite.kernel.org>
 
---===============8812514570006772964==
+--===============8449937979947943907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/spi-5.12
     old: bfeccc6a18de52529ada66ea3afe934004b4b36e
     new: 72366b3c530c763ceda64f82741111e45ea881f9
     log: revlist-bfeccc6a18de-72366b3c530c.txt
 
---===============8812514570006772964==
+--===============8449937979947943907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1610551527 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1610551557-c283f60578cf8c26e5546e44d47f06eb184a9089
+pusher C3F436CA30F5D8EB 1610551533 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1610551564-7f15a694a81db7862c23051005fa97f0540168a9
 
-bfeccc6a18de52529ada66ea3afe934004b4b36e 72366b3c530c763ceda64f82741111e45ea881f9 refs/heads/for-5.12
+bfeccc6a18de52529ada66ea3afe934004b4b36e 72366b3c530c763ceda64f82741111e45ea881f9 refs/heads/spi-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl//EOcACgkQJNaLcl1U
-h9CaPAf9HUKMST/dyRbYNLLpFzJfWonEZWa0+tG2YPfFw7Cb3oRHCeUd49X9zWGE
-Gd7moKof/1r2t+Uh54g0w8NVN9NKJxoHmhx/Z4yEitT4vKSYnQ+pswts32WGq6yZ
-6LDTk2D6bHFSvgbkQqq5E0tOmcUAOljGSCTcxEk1Io0qU+JzY6XaHdGQm6B3J9yp
-FxHJ3pXj6URiLycySc8j9VwKeMvWcZTt4f9FlCOoH0he84g2M+bhki6lRyVyvnQ1
-HPKvk/friMzFBWSLqUGM9/jVcW0re4y4iJ5Hv/KK3mA0EZvyMrnCoTZ3cNxyOxv8
-oTMCm2glPj+tBKiK1fEaydH1mqjWOQ==
-=coIV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl//EO0ACgkQJNaLcl1U
+h9Bcpgf/etzMb/Ez6KB8Asn/r/JAzUudRgocJjhjMbuG4bc/3nwO0MaNMQtY4XPt
+IdfK7Mo5A87F3hJZC2TB8CpIEhSDEkKXgBBnunX0cjerr5RaJaaOrwvou5ETxotb
+xCdUULC0+Zbew9dYHT8AliCggiWwULAHFAmIhgpeANjPy8bvvBi6m0pahdKq91W4
+K3NGauxPBfo6uEzVkx3L80+IygRmLj2X602MP1CGqRbkTWd9DGid3ombIM/1byQo
+ZmMVZ9ow0udkfqhEej6hkc+XVwjD4/r5V32zSOxbuiA4oic4HAG9ybROl1QY1OIC
+H3YNi/7gCXp4fC/dbuJBezxaU1EyoQ==
+=juDG
 -----END PGP SIGNATURE-----
 
---===============8812514570006772964==
+--===============8449937979947943907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ eaecba8767835783bdd2f4e72406668cda7d8d54 spi: spi-qcom-qspi: Use irq trigger fla
 10f48a12eb0d44260c02c8ab178053536ec32aff Merge series "spi: cadence-quadspi: Add QSPI controller support for Intel LGM SoC" from "Ramuthevar, Vadivel MuruganX" <vadivel.muruganx.ramuthevar@linux.intel.com>:
 72366b3c530c763ceda64f82741111e45ea881f9 Merge series "spi: sh-msiof: Advertize bit rate limits and actual speed" from Geert Uytterhoeven <geert+renesas@glider.be>:
 
---===============8812514570006772964==--
+--===============8449937979947943907==--
