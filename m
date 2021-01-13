@@ -1,66 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============5103180149331970443=="
+Content-Type: multipart/mixed; boundary="===============5178575609278803711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 13 Jan 2021 20:27:59 -0000
-Message-Id: <161056967909.23656.4764125502636709911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
+Date: Wed, 13 Jan 2021 20:49:28 -0000
+Message-Id: <161057096866.2642.3149510477413200094@gitolite.kernel.org>
 
---===============5103180149331970443==
+--===============5178575609278803711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/mkl/linux-can-next
+user: mkl
+git_push_cert_status: E
 changes:
   - ref: refs/heads/master
-    old: e609571b5ffa3528bf85292de1ceaddac342bc1c
-    new: 65f0d2414b7079556fbbcc070b3d1c9f9587606d
-    log: revlist-e609571b5ffa-65f0d2414b70.txt
+    old: c73a45965dd54a10c368191804b9de661eee1007
+    new: f50e2f9f791647aa4e5b19d0064f5cabf630bf6e
+    log: revlist-c73a45965dd5-f50e2f9f7916.txt
 
---===============5103180149331970443==
+--===============5178575609278803711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e609571b5ffa-65f0d2414b70.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f373a811fd9a69fc8bafb9bcb41d2cfa36c62665 ASoC: Intel: fix error code cnl_set_dsp_D0()
-fe6ce6c394fb1ef1d8a6384c5180e70893157f22 MAINTAINERS: Update email address for TI ASoC and twl4030 codec drivers
-61fc03b6512b18f27a25002426d595f5a36645ed ASoC: dt-bindings: ti, j721e: Update maintainer and author information
-5c6679b5cb120f07652418524ab186ac47680b49 ASoC: dapm: remove widget from dirty list on free
-b77ab5f936fdbc6b135d26744325dc38ed99cb33 Merge series "ASoC: ti: Maintainer mail address change" from Peter Ujfalusi <peter.ujfalusi@ti.com>:
-4ad2d3cf2a299645bdc6d72e5b8ee11b2ed147ac ASoC: codecs: fix spelling mistake in Kconfig "comunicate" -> "communicate"
-e49037ad12e47cd34239b99b010c5438844923af ASoC: SOF: Fix spelling mistake in Kconfig "ond" -> "and"
-acd894aee3149c15847bc4f0690fccba59ced5e7 ASoC: imx-hdmi: Fix warning of the uninitialized variable ret
-13733775326ea9eb81c6148ad60c43b8d231a343 ASoC: atmel: fix spelling mistake in Kconfig "programable" -> "programmable"
-315fbe4cef98ee5fb6085bc54c7f25eb06466c70 ASoC: qcom: Fix incorrect volatile registers
-8d1bfc04c97407767559f6389a0f0fb060cbe25e ASoC: qcom: Add support for playback recover after resume
-61c7dbec33777ade95d3db58beec8d7f177868c8 ASoC: rsnd: don't call clk_disable_unprepare() if can't use
-bb224c3e3e41d940612d4cc9573289cdbd5cb8f5 ASoC: Intel: haswell: Add missing pm_ops
-6108f990c0887d3e8f1db2d13c7012e40a061f28 ASoC: rt711: mutex between calibration and power state changes
-349dd23931d1943b1083182e35715eba8b150fe1 ASoC: max98373: don't access volatile registers in bias level off
-cda91206dc45257ba0c4d8acb6eeebfec8b2b9bc Merge series "Platform driver update to support playback recover after resume" from Srinivasa Rao Mandadapu <srivasam@codeaurora.org>:
-a84dfb3d55934253de6aed38ad75990278a2d21e ASoC: meson: axg-tdmin: fix axg skew offset
-671ee4db952449acde126965bf76817a3159040d ASoC: meson: axg-tdm-interface: fix loopback
-f81325a05e9317f09a2e4ec57a52e4e49eb42b54 Merge tag 'v5.11-rc1' into asoc-5.11
-275565997ade6fc32be9cd49a910ba996bcb4797 ASoC: AMD Renoir - add DMI entry for Lenovo ThinkPad E14 Gen 2
-a523e1538fdd5f00ea3289cc0b3c6c1785b89814 ASoC: amd: Replacing MSI with Legacy IRQ model
-1f092d1c8819679d78a7d9c62a46d4939d217a9d ASoC: AMD Renoir - add DMI entry for Lenovo ThinkPad X395
-91bc156817a3c2007332b64b4f85c32aafbbbea6 ALSA: hda/realtek: fix right sounds and mute/micmute LEDs for HP machines
-7b62275507232f01f66d3e7d05c77bbd9009b726 Merge tag 'asoc-fix-v5.11-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-b2345a8a4342cf83316a2198fa915c7c99b7d6c7 ALSA: usb-audio: Fix the missing endpoints creations for quirks
-5d15f1eb456025cf47078fdbc230d7a9f1ee4cef ALSA: usb-audio: Choose audioformat of a counter-part substream
-00272c61827e37bb64c47499843d8c0d8ee136a5 ALSA: usb-audio: Avoid unnecessary interface re-setup
-eae4d054f909d9e9589d0940f9b5b0cd68de1e2e ALSA: usb-audio: Annotate the endpoint index in audioformat
-167c9dc84ec384c0940359e067301883ad2b42a8 ALSA: usb-audio: Fix implicit feedback sync setup for Pioneer devices
-3e096a2112b7b407549020cf095e2a425f00fabb ALSA: doc: Fix reference to mixart.rst
-f4eccc7fea203cfb35205891eced1ab51836f362 clk: tegra30: Add hda clock default rates to clock driver
-615d435400435876ac68c1de37e9526a9164eaec ALSA: hda/tegra: fix tegra-hda on tegra30 soc
-e7c22eeaff8565d9a8374f320238c251ca31480b ALSA: fireface: Fix integer overflow in transmit_midi_msg()
-9f65df9c589f249435255da37a5dd11f1bc86f4d ALSA: firewire-tascam: Fix integer overflow in midi_port_work()
-20c7842ed8374e1c3ee750b2fe7ca8cdd071bda6 ALSA: hda/hdmi - enable runtime pm for CI AMD display audio
-65f0d2414b7079556fbbcc070b3d1c9f9587606d Merge tag 'sound-5.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1610570961 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
+nonce 1610570961-b68a07562058b870c76254e096b0c5718fd0a544
 
---===============5103180149331970443==--
+c73a45965dd54a10c368191804b9de661eee1007 f50e2f9f791647aa4e5b19d0064f5cabf630bf6e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl//XNETHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqbhIB/9GBL4aS6VJlsMj4O1etdPyOcqcDwE5
+SYglNv8iEdeCgzEad0Mk3vIUV5Dyqn84f0xWtaVxoD2dLJsj9LwhjeohOKfzmgdR
+xUlVm78c8BzzFwOUBY5FaclJ08Mdijx4eZybA+vDIbGpEg+msozzenx3MZvYBdjQ
+3f0zUEVTZwlj4T3n3TN/rawmCRSPiGymPCSqHeXhKzfPr14amZhxaYpzp3QbL7wc
+YKON6dqpUUp8JqCbuG9hvcV4M+Gc8HbDDBK1+S15kT7st8/PiQdzGKjX47rI8Km7
+TY5xsVu1YiX050gk7PxPVgQeXS8vc8Uk3cskzYN5U1Hp3qBGjYimudZz
+=tECs
+-----END PGP SIGNATURE-----
+
+--===============5178575609278803711==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c73a45965dd5-f50e2f9f7916.txt
+
+f0791b92d2b6e1bf36aed0eae93a0ef85eaa3a62 net: ks8851: Select PHYLIB and MICREL_PHY in Kconfig
+1e8636b366be9deca4492e82c54242f9f5e5b731 r8169: align rtl_wol_suspend_quirk with vendor driver and rename it
+206a75e003e17aad4fd60047deee2252fdc3df38 r8169: improve rtl8169_rx_csum
+e0d38b5880758432f74fe17fea8281691d1eb3c0 r8169: improve DASH support
+12a6f8711bafb0c814a91e3489d6635b3f6e06d7 Merge branch 'r8169-further-improvements'
+2c82b7fe219a4ee3024ce77334247d60194cc41d net: marvell: Fixed two spellings,controling to controlling and oen to one
+69d25a6cf4cadf756460a1bf82996ea240539999 hv_netvsc: Check VF datapath when sending traffic to VF
+8b31f8c982b738e4130539e47f03967c599d8e22 hv_netvsc: Wait for completion on request SWITCH_DATA_PATH
+34b06a2eee44d469f2e2c013a83e6dac3aff6411 hv_netvsc: Process NETDEV_GOING_DOWN on VF hot remove
+b866e72ca031f4462aa755d5ee66bdfd02357fa6 Merge branch 'hv_netvsc-prevent-packet-loss-during-vf-add-remove'
+9cc8976c69eb626a7a5100239eb7c69b1a1a609f net: sfp: add debugfs support
+5bc8f5ab3b752306d6a1e0e4fa6c4473c15a2924 fsl/fman: Add MII mode support.
+46e05e1df628ab054486eafcc06a3c6512b338a1 net: ipa: add config dependency on QCOM_SMEM
+c2ec5f2ecf6aeef60c63d1af9ddcacdcbf829d68 net: dsa: add optional stats64 support
+bf9ce385932b61584684d31e2e5f8f485791e409 net: dsa: qca: ar9331: export stats64
+8243fe8a9abbde5b25d9bc700e4007b60728bb6f Merge branch 'net-dsa-add-stats64-support'
+f50e2f9f791647aa4e5b19d0064f5cabf630bf6e hci: llc_shdlc: style: Simplify bool comparison
+
+--===============5178575609278803711==--
