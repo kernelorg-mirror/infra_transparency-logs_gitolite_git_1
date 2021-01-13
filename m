@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3570917695680489332=="
+Content-Type: multipart/mixed; boundary="===============7150364582771542264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 13 Jan 2021 15:25:34 -0000
-Message-Id: <161055153431.23937.10621670687473754518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 13 Jan 2021 15:25:40 -0000
+Message-Id: <161055154081.24063.5774253649013782567@gitolite.kernel.org>
 
---===============3570917695680489332==
+--===============7150364582771542264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 2a0435df963f996ca870a2ef1cbf1773dc0ea25a
     new: ef4d764c99f792b725d4754a3628830f094f5c58
     log: |
@@ -25,7 +25,7 @@ changes:
          31ba0c0776027896553bd8477baff7c8b5d95699 ASoC: SOF: Intel: hda: Modify existing helper to disable WAKEEN
          ef4d764c99f792b725d4754a3628830f094f5c58 ASoC: SOF: Intel: hda: Avoid checking jack on system suspend
          
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 43fb2919d4cb7bf26ffc111a5e8190f8c754c4d2
     new: 342c3bc515fd01be231c41434d493d8c85222eb7
     log: |
@@ -41,29 +41,29 @@ changes:
          342c3bc515fd01be231c41434d493d8c85222eb7 Merge series "ASoC: soc-pcm: cleanup code" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
          
 
---===============3570917695680489332==
+--===============7150364582771542264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1610551501 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1610551531-c9c31ab9780fe7835892ef195849791442721a8b
+pusher C3F436CA30F5D8EB 1610551507 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1610551538-1787dbac7d844c7ba022bc644df9c97dc6ef80c0
 
-2a0435df963f996ca870a2ef1cbf1773dc0ea25a ef4d764c99f792b725d4754a3628830f094f5c58 refs/heads/for-5.11
-43fb2919d4cb7bf26ffc111a5e8190f8c754c4d2 342c3bc515fd01be231c41434d493d8c85222eb7 refs/heads/for-5.12
+2a0435df963f996ca870a2ef1cbf1773dc0ea25a ef4d764c99f792b725d4754a3628830f094f5c58 refs/heads/asoc-5.11
+43fb2919d4cb7bf26ffc111a5e8190f8c754c4d2 342c3bc515fd01be231c41434d493d8c85222eb7 refs/heads/asoc-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl//EM0ACgkQJNaLcl1U
-h9A6Ygf/doXcomuCGawYPvbEXsBDL4QBN9O+2pqqFGDg1b7oLDFfydFexbBqHDN9
-wEo6V3WdQEI9Wm5wBNR418wkx0I7ZjoYvSDR64LZa0B5Ny0pV0BKcClfc5LLDcHN
-M4PvOrbfYBSRJf7iQEZaFsLXiY6N8hEnWTcvT/6sBCgZlNQoRqecx17rMWc7MARU
-kmwtsegajl9cskBrgE3YIn80m84ne2giIFrVzGZKhno7F/suiTj9I9R0jTDnEipd
-XPE+2aDPQOjrRNNtJNjHOkSYbyGyfhoQvOnH+q0wfdPf5iFVYkJJUkwiurIBV5Zg
-bsS+sE2wo+fz/9yTp/g/TVtDE85Z9Q==
-=T8th
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAl//ENMACgkQJNaLcl1U
+h9D7ngf+ML0fr54iJckYDiYkilKFaOqAYHuzOeeqOFpxEfIKG8cj3yiK/sSaWN+l
+XZQD2YvIXRjSY5lAtBVXG6cLlkUAUDFwgETGkud5OnOlNrIidv0WtBjW79d13e+v
+5uZNY4VZJ+g1v/gv8lvaZ4a+/WDGVTsMSOZir5DlHh9Z54kYvOFwArMhvDOd1Pi1
+P/9HnYexVsa8tDIelsizH8yDPleVyWofdYYy9d9/Y8IT0pP2+3SXTooKxd5EnOw6
+t46e3MW320V0lEzAh7srE4skIcp55g7lImEHXeXo0YpN/VFw2e/T4iJTtKoiz7xJ
+V2lHt6DG/hbtSdOZmntIiB/1e3GAFQ==
+=f68J
 -----END PGP SIGNATURE-----
 
---===============3570917695680489332==--
+--===============7150364582771542264==--
