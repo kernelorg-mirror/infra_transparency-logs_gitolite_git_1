@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 14 Jan 2021 18:34:53 -0000
-Message-Id: <161064929338.13258.10219111831493371663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Thu, 14 Jan 2021 18:43:04 -0000
+Message-Id: <161064978460.18201.15296764648824776612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/master
-    old: 47e4bb147a96f1c9b4e7691e7e994e53838bfff8
-    new: 25764779298f23a659f3daf39f9e2b5975a7a89d
+  - ref: refs/heads/for-next
+    old: b059b48500dab78cb6c7be006280dbc001c0a46b
+    new: e1cc2d7d38686fd9ac1b2a9a59c59eeca1b9d9f4
     log: |
-         25764779298f23a659f3daf39f9e2b5975a7a89d net: tip: fix a couple kernel-doc markups
+         e1cc2d7d38686fd9ac1b2a9a59c59eeca1b9d9f4 power: supply: bq256xx: Fix BQ256XX_NUM_WD_VAL and bq256xx_watchdog_time[] overrun
          
