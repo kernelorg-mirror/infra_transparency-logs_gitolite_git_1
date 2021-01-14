@@ -1,72 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============6357006340034566829=="
+Content-Type: multipart/mixed; boundary="===============7171376938060949349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Thu, 14 Jan 2021 17:18:37 -0000
-Message-Id: <161064471712.27832.6801667817237569742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 14 Jan 2021 17:25:19 -0000
+Message-Id: <161064511984.2541.12631489436859549574@gitolite.kernel.org>
 
---===============6357006340034566829==
+--===============7171376938060949349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 544fffb5d5a9387bf4b196790db8db8076951be0
-    new: 7a58764879e2caef85b321f597db9269067df259
-    log: revlist-544fffb5d5a9-7a58764879e2.txt
+  - ref: refs/heads/master
+    old: e609571b5ffa3528bf85292de1ceaddac342bc1c
+    new: 65f0d2414b7079556fbbcc070b3d1c9f9587606d
+    log: revlist-e609571b5ffa-65f0d2414b70.txt
 
---===============6357006340034566829==
+--===============7171376938060949349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e609571b5ffa-65f0d2414b70.txt
 
-certificate version 0.1
-pusher 0x3D200E9CA6329909 1610644714 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ardb/linux.git
-nonce 1610644705-fac5fab9995425b862934eae1cde218aa4f930bb
+f373a811fd9a69fc8bafb9bcb41d2cfa36c62665 ASoC: Intel: fix error code cnl_set_dsp_D0()
+fe6ce6c394fb1ef1d8a6384c5180e70893157f22 MAINTAINERS: Update email address for TI ASoC and twl4030 codec drivers
+61fc03b6512b18f27a25002426d595f5a36645ed ASoC: dt-bindings: ti, j721e: Update maintainer and author information
+5c6679b5cb120f07652418524ab186ac47680b49 ASoC: dapm: remove widget from dirty list on free
+b77ab5f936fdbc6b135d26744325dc38ed99cb33 Merge series "ASoC: ti: Maintainer mail address change" from Peter Ujfalusi <peter.ujfalusi@ti.com>:
+4ad2d3cf2a299645bdc6d72e5b8ee11b2ed147ac ASoC: codecs: fix spelling mistake in Kconfig "comunicate" -> "communicate"
+e49037ad12e47cd34239b99b010c5438844923af ASoC: SOF: Fix spelling mistake in Kconfig "ond" -> "and"
+acd894aee3149c15847bc4f0690fccba59ced5e7 ASoC: imx-hdmi: Fix warning of the uninitialized variable ret
+13733775326ea9eb81c6148ad60c43b8d231a343 ASoC: atmel: fix spelling mistake in Kconfig "programable" -> "programmable"
+315fbe4cef98ee5fb6085bc54c7f25eb06466c70 ASoC: qcom: Fix incorrect volatile registers
+8d1bfc04c97407767559f6389a0f0fb060cbe25e ASoC: qcom: Add support for playback recover after resume
+61c7dbec33777ade95d3db58beec8d7f177868c8 ASoC: rsnd: don't call clk_disable_unprepare() if can't use
+bb224c3e3e41d940612d4cc9573289cdbd5cb8f5 ASoC: Intel: haswell: Add missing pm_ops
+6108f990c0887d3e8f1db2d13c7012e40a061f28 ASoC: rt711: mutex between calibration and power state changes
+349dd23931d1943b1083182e35715eba8b150fe1 ASoC: max98373: don't access volatile registers in bias level off
+cda91206dc45257ba0c4d8acb6eeebfec8b2b9bc Merge series "Platform driver update to support playback recover after resume" from Srinivasa Rao Mandadapu <srivasam@codeaurora.org>:
+a84dfb3d55934253de6aed38ad75990278a2d21e ASoC: meson: axg-tdmin: fix axg skew offset
+671ee4db952449acde126965bf76817a3159040d ASoC: meson: axg-tdm-interface: fix loopback
+f81325a05e9317f09a2e4ec57a52e4e49eb42b54 Merge tag 'v5.11-rc1' into asoc-5.11
+275565997ade6fc32be9cd49a910ba996bcb4797 ASoC: AMD Renoir - add DMI entry for Lenovo ThinkPad E14 Gen 2
+a523e1538fdd5f00ea3289cc0b3c6c1785b89814 ASoC: amd: Replacing MSI with Legacy IRQ model
+1f092d1c8819679d78a7d9c62a46d4939d217a9d ASoC: AMD Renoir - add DMI entry for Lenovo ThinkPad X395
+91bc156817a3c2007332b64b4f85c32aafbbbea6 ALSA: hda/realtek: fix right sounds and mute/micmute LEDs for HP machines
+7b62275507232f01f66d3e7d05c77bbd9009b726 Merge tag 'asoc-fix-v5.11-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+b2345a8a4342cf83316a2198fa915c7c99b7d6c7 ALSA: usb-audio: Fix the missing endpoints creations for quirks
+5d15f1eb456025cf47078fdbc230d7a9f1ee4cef ALSA: usb-audio: Choose audioformat of a counter-part substream
+00272c61827e37bb64c47499843d8c0d8ee136a5 ALSA: usb-audio: Avoid unnecessary interface re-setup
+eae4d054f909d9e9589d0940f9b5b0cd68de1e2e ALSA: usb-audio: Annotate the endpoint index in audioformat
+167c9dc84ec384c0940359e067301883ad2b42a8 ALSA: usb-audio: Fix implicit feedback sync setup for Pioneer devices
+3e096a2112b7b407549020cf095e2a425f00fabb ALSA: doc: Fix reference to mixart.rst
+f4eccc7fea203cfb35205891eced1ab51836f362 clk: tegra30: Add hda clock default rates to clock driver
+615d435400435876ac68c1de37e9526a9164eaec ALSA: hda/tegra: fix tegra-hda on tegra30 soc
+e7c22eeaff8565d9a8374f320238c251ca31480b ALSA: fireface: Fix integer overflow in transmit_midi_msg()
+9f65df9c589f249435255da37a5dd11f1bc86f4d ALSA: firewire-tascam: Fix integer overflow in midi_port_work()
+20c7842ed8374e1c3ee750b2fe7ca8cdd071bda6 ALSA: hda/hdmi - enable runtime pm for CI AMD display audio
+65f0d2414b7079556fbbcc070b3d1c9f9587606d Merge tag 'sound-5.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 
-544fffb5d5a9387bf4b196790db8db8076951be0 7a58764879e2caef85b321f597db9269067df259 refs/heads/for-kernelci
------BEGIN PGP SIGNATURE-----
-
-iQGzBAABCgAdFiEE+9lifEBpyUIVN1cpw08iOZLZjyQFAmAAfOoACgkQw08iOZLZ
-jyQZsQv+Pb3Ce3yddCrq+Xrf41kfAIFiYyKGS3Ts31P4qrngI2xn/2nMVP53TAh6
-Lxud+RyKj4NQkApl2r/lNKk7+vp2KNcDZp6xNyG7XF2ZKRwONTJrCTsLXx3ZdbMA
-ex7nULVrwVOsZA1sHnmtB+ftAdvMVZFhcFWvWt8wy13ww8KQ4kO18IwpVc0tcjvR
-X1fY97hqrwzsqP5leMyEd/iWHLayO84XtTvxfYqDKUumi99+mT8gmjX5R4pdM/b3
-2YTpRVHMxlglWm5hb1h4IDv9X1WqhE94u2Aiss2N3kJv1pqiHVjE8rqKOHtc+Y49
-ZjeVWcy+SAZiLW76zZssv6ztRP6QW+bWHEXMwnyp6L+05FjiJdP/5POFWyOMoJWe
-fLjxbq404N1/CeXTus4vMTlCIHl/RMpfUO9t68DXLc8CjoVk2yOLoyeCbOzc9EWu
-U+egrufEC6yoA8GReMlN/Ugw99KGJHv7Hpy5iAYmBwBle3f8tT4Juaag5yA+oSKG
-rH94vsjf
-=sP17
------END PGP SIGNATURE-----
-
---===============6357006340034566829==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-544fffb5d5a9-7a58764879e2.txt
-
-6b528e2b86ef8e0c8b8ba396bfe7224313a9c2fb crypto: x86/aegis128 - drop dependency on async SIMD helper
-19e7f4e1d34079fc4ababed99fa8299ab8e6d156 crypto: x86/camellia - drop dependency on async SIMD helper
-66167027b88f0a38048c26259bc665fef5628cb3 crypto: x86/cast5 - drop dependency on async SIMD helper
-aa8a3779a654d927efb39d104cc2688c5db793e3 crypto: x86/cast6 - drop dependency on async SIMD helper
-916fd6d4552473a2bec714cffa85de424a69ab14 crypto: x86/serpent - drop dependency on async SIMD helper
-7edef3fd2be4416e9b395bbb55b598fcb410d2c1 crypto: x86/twofish - drop dependency on async SIMD helper
-fe95f306e5f42379646bc7400c82a0df270dd647 crypto: simd - remove async SIMD helper
-529a405a6742836e3ccb7ab7aafe2477d3e9d461 crypto: x86/ghash - remove CLMUL ghash driver
-bac20310510d5aab265e0ee406955aaff032b08c crypto: arm/ghash-ce - remove cryptd based ahash implementation
-9117d1f4274c7686a4c571ef660c03be70406c48 crypto: cryptd - remove unused async helper driver
-0e2657f444d306224b6fbb97c78dba94a9f5fbdb crypto: arm64/aes-ce - remove dependency on async SIMD helper
-3d8eb0a85818f857b0fad91ff15bf0073c6f49a6 crypto: arm64/aes-neonbs - remove dependency on async SIMD helper
-79c551ffeb4180179cbcad35182cad74bf81b14b crypto: arm/aes-ce - remove dependency on async SIMD helper
-7a58764879e2caef85b321f597db9269067df259 crypto: arm64/aes-neonbs - remove dependency on async SIMD helper
-
---===============6357006340034566829==--
+--===============7171376938060949349==--
