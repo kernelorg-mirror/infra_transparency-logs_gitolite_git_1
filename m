@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3663271401926565048=="
+Content-Type: multipart/mixed; boundary="===============3746872276918605265=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 14 Jan 2021 09:07:13 -0000
-Message-Id: <161061523323.30703.1602270547438946400@gitolite.kernel.org>
+Date: Thu, 14 Jan 2021 09:17:11 -0000
+Message-Id: <161061583147.3928.16425364516744211951@gitolite.kernel.org>
 
---===============3663271401926565048==
+--===============3746872276918605265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 92ae89d7816921a7643c698da88e32d8a5b4754c
-    new: 9ac4db650bec83452f0fcd9737e5061e673a92e1
+    old: 9ac4db650bec83452f0fcd9737e5061e673a92e1
+    new: 5dc71f1eb8706450b6a30ffd0cd1bd67dd131daa
     log: |
-         bb092e31447837c707c9d99b523eb409e8d1726e usb: dwc3: gadget: Disable Vendor Test LMP Received event
-         b28db67009b7a2e402b8d30603ead79539111b60 Documentation/devicetree/bindings/usb/dwc3-st.txt: update usb-drd.yaml reference
-         9ac4db650bec83452f0fcd9737e5061e673a92e1 dt-bindings: usb: update snps,dwc3.yaml references
+         132ee0da6e9f55e6c8b2102a04a5553e20391824 usb: dwc3: gadget: Disable Vendor Test LMP Received event
+         16bcc58e1dabc4db0e14de259cd5c60c77f47250 Documentation/devicetree/bindings/usb/dwc3-st.txt: update usb-drd.yaml reference
+         e793c2a3d376fdb2fd3524215ca9f4927d933118 dt-bindings: usb: update snps,dwc3.yaml references
+         5dc71f1eb8706450b6a30ffd0cd1bd67dd131daa USB: dwc3: document gadget_max_speed
          
 
---===============3663271401926565048==
+--===============3746872276918605265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610615285 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610615890 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1610615218-2ad2f48aafab0108943972025d1cf88395f04268
+nonce 1610615822-1aeb99f0e8edea53d454a0cc59cb48d1e7fcff8a
 
-92ae89d7816921a7643c698da88e32d8a5b4754c 9ac4db650bec83452f0fcd9737e5061e673a92e1 refs/heads/usb-testing
+9ac4db650bec83452f0fcd9737e5061e673a92e1 5dc71f1eb8706450b6a30ffd0cd1bd67dd131daa refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAACfYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+meYP/0QunEk+eX/Nkv0aFLZq
-e4apuk7mj1BdjodAq8M92mkcYv6x8RIJNyJFcqV6Zv1iTzVE0w/4S1plCmneSO6K
-XQF+ww9MzMhNspdAY8Rsla9b8RP+gZBKB6xVt00+oUnMRvBAiRzOgIDNY68ncfnc
-BpmYlxN5k9NDR30rG6xFClnaDvT2Ne90oiKkVS7lQnJ3os0Xegigo3tkpPsypf7i
-p71t0RQeSJMpiddMetJPA6wYq7Qp3OZxZ0ZF5ZOnWdjhn9UIimlHI11X6bkADyNc
-azEVNuZBVIXhe+fOsSlbz1+UmvHNgxlOVdFkm9FRAv4fo9npq6DenMbiOsFYIWG2
-iyrH5scRM8x1d84Y5eXQily1MzFOhnkz4vFwk4hPe2ea1A5OokOZBJOMQagzxOr8
-Aui2QQqRd146n8G6egC2DFCbll0E8qo9plAHis3awh2UDZc0+lF0gN1PxXG5KJxs
-d6Q3Vbr6yzq8o6L1/Iah3hRCT+ZmLW0ZBw0IaK3vxN+WpybFZf2ghPvZIBxr630L
-K8Mf69nOOM+IK71hFgDuD0ZJdCtqzHAG0pkK7AbmBLU06KO5FJXWtG7Mg+tygl+u
-ppA22sc1sabkJmH/AOKyr8nElK0t/FyFqGhYZ5mZhEiJ7uqZdnlIyh8NlDZfU282
-EeIh5+hI/ArFlud6Dbba53tI
-=lhzs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAADFIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kXoP+wd4i+BRA7om52WV/Bvm
+gfbRZjcYVDAGLIDiCJbLcT3jf/LBVB3iC7szQUApJOor/IyrxGK2Id3xcdhK7Bxt
+6MFWJo0D9KKUI4UI+gJ2NSNkIoG8daZvarubZrdM9gyazoHAu8nCNPy6LvuesND6
+lwG12Oahlbq2027htcgz2tAgF7nUq5yOhOFm6V3/hgo9nZYvz7brVx1u3iS3xyNs
+ZbCUxjQcP/Jw2L916jqFs/39wXIo4inPaGGkj4PoTFR/zPOBJ3L3z1L6hzP6GU6z
+AbQxAX/qc3K0mlmN8TqMpIXd7qhIv//GdovzcEvHN8piRkAVUtay5NYaTPi+nOL8
+FwBMl/5TKByxm6gWzsqU8sQTVxtn5tiwOC/o/aZnAKzDuHwmCORUUrjqD7ec+2M+
+l45GfdTkKSafupE1Ar68XVqAViBtHxPNKCkdmYsWnta9PCz0jYusjJxm0CpdTmIm
+q9mC2WJTwvtgziw/oARLwuzkWdW6th8/b9bA2CekNo6xjuHYFTkHMFRgl7OQeG1L
+fk/AUk3Ip9AubJ/7huXydqWCauzcXAWtrukQ9Qru6k7BltZtOB95kpalhKVmI9aY
+gsVJLoppy4qA2vClfsdKaD10tQbXuyE1nrCLJNkSAvr4nGkp6IHVLK9bKpLhtXZM
+EuoeF5hW5U/f3Mu731YEdXdo
+=F6Is
 -----END PGP SIGNATURE-----
 
---===============3663271401926565048==--
+--===============3746872276918605265==--
