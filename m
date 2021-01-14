@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3364611077607497928=="
+Content-Type: multipart/mixed; boundary="===============5953257553187987424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 14 Jan 2021 22:03:47 -0000
-Message-Id: <161066182733.17212.16217461929234259099@gitolite.kernel.org>
+Date: Thu, 14 Jan 2021 22:04:30 -0000
+Message-Id: <161066187067.17456.2935259382196298826@gitolite.kernel.org>
 
---===============3364611077607497928==
+--===============5953257553187987424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/tags/iio-fixes-for-5.11a
-    old: 1c508f8425984149a61367ac43c549620cd2bea6
-    new: 88fdda271e1163de6ff5b29106aed153c99da3a2
-    log: revlist-1c508f842598-88fdda271e11.txt
+  - ref: refs/heads/fixes-togreg
+    old: 3520681e9268ff25a225ba8aa2714f31d204a47f
+    new: b8653aff1c8876142f965fc69e12ba217da13182
+    log: revlist-3520681e9268-b8653aff1c88.txt
 
---===============3364611077607497928==
+--===============5953257553187987424==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1c508f842598-88fdda271e11.txt
+Content-Disposition: attachment; filename=revlist-3520681e9268-b8653aff1c88.txt
 
 d64c6f96ba86bd8b97ed8d6762a8c8cc1770d214 Merge tag 'net-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 8bee683384087a6275c9183a483435225f7bb209 xsk: Fix memory leak for failed bind
@@ -1051,4 +1051,4 @@ efd597b2839a9895e8a98fcb0b76d2f545802cd4 iio: ad5504: Fix setting power-down sta
 40c48fb79b9798954691f24b8ece1d3a7eb1b353 iio: common: st_sensors: fix possible infinite loop in st_sensors_irq_thread
 b8653aff1c8876142f965fc69e12ba217da13182 iio: sx9310: Fix semtech,avg-pos-strength setting when > 16
 
---===============3364611077607497928==--
+--===============5953257553187987424==--
