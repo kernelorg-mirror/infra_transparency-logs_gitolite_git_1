@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 14 Jan 2021 03:42:56 -0000
-Message-Id: <161059577650.14297.11016987907189040559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Thu, 14 Jan 2021 03:59:48 -0000
+Message-Id: <161059678866.25655.1263703652817652204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/cc-check
-    old: df26de0eabbf2c8b73182561bf6e5ae9ebfefc4d
-    new: 7ed52adb8c53a9d951a89c3c3f0e800429497a46
+  - ref: refs/heads/dev
+    old: b7e7d1b499a96f6929b9a907c4662da8dbf8217d
+    new: 0e2bd4229b2a7bef43764285c218d3059f59c004
     log: |
-         7ed52adb8c53a9d951a89c3c3f0e800429497a46 kbuild: check the minimum compiler version in Kconfig
+         0e2bd4229b2a7bef43764285c218d3059f59c004 f2fs: remove unused stat_{inc, dec}_atomic_write
          
