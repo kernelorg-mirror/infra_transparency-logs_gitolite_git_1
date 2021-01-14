@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3564720267337828510=="
+Content-Type: multipart/mixed; boundary="===============1997093045837303514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Thu, 14 Jan 2021 11:04:51 -0000
-Message-Id: <161062229174.10185.8775214139165620878@gitolite.kernel.org>
+Date: Thu, 14 Jan 2021 11:06:33 -0000
+Message-Id: <161062239354.12085.4822831907797758796@gitolite.kernel.org>
 
---===============3564720267337828510==
+--===============1997093045837303514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,36 @@ repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
   - ref: refs/heads/renesas-pinctrl
-    old: 6dd169fc201d05e8da249ee2eabf1f23b0ccb1e4
-    new: 51f0ddf8a8c1506f6ea9de4b1dfdf7aca66cf11a
-    log: revlist-6dd169fc201d-51f0ddf8a8c1.txt
+    old: 51f0ddf8a8c1506f6ea9de4b1dfdf7aca66cf11a
+    new: a5cda861ed57710837bc560a3c715160da710555
+    log: revlist-51f0ddf8a8c1-a5cda861ed57.txt
   - ref: refs/heads/renesas-pinctrl-for-v5.12
-    old: 6dd169fc201d05e8da249ee2eabf1f23b0ccb1e4
-    new: 51f0ddf8a8c1506f6ea9de4b1dfdf7aca66cf11a
-    log: revlist-6dd169fc201d-51f0ddf8a8c1.txt
+    old: 51f0ddf8a8c1506f6ea9de4b1dfdf7aca66cf11a
+    new: a5cda861ed57710837bc560a3c715160da710555
+    log: revlist-51f0ddf8a8c1-a5cda861ed57.txt
 
---===============3564720267337828510==
+--===============1997093045837303514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6dd169fc201d-51f0ddf8a8c1.txt
+Content-Disposition: attachment; filename=revlist-51f0ddf8a8c1-a5cda861ed57.txt
 
-88a1590b1407207a51788d56746f46cbd6e6ab4e dt-bindings: pinctrl: renesas,pfc: Document r8a779a0 PFC support
-0252831d48b92e1d0377d677b5439cf71c971f3c pinctrl: renesas: implement unlock register masks
-1dbedb3f85c59336766949e4c8d5b3418d94fca1 pinctrl: renesas: Add I/O voltage level flag
-13cb7bb6fc7b8f3ed2c8d42afd490d945154e0b4 pinctrl: renesas: Add PORT_GP_CFG_{2,31} macros
-6817cf51c6e738c930bebc430be0a6a59bdae138 pinctrl: renesas: Initial R8A779A0 (V3U) PFC support
-1a13e8849d97e7ab9a575dc7ec833bbcc9b0fc03 pinctrl: renesas: r8a779a0: Add SCIF pins, groups and functions
-0d9bba7d676c12464afb34f76e55e1601e5e9c7c pinctrl: renesas: r8a779a0: Add I2C pins, groups and functions
-6891c2d95f0c4087da402091b2c0e80680817f37 pinctrl: renesas: r8a779a0: Add EtherAVB pins, groups and functions
-dfe790cbc15a80749790fb66077ce52c9defa405 pinctrl: renesas: r8a779a0: Add CANFD pins, groups and functions
-810a2a692818ae255d4a13d2c46013f8d6b9369d pinctrl: renesas: r8a779a0: Add DU pins, groups and function
-2d2084c91ecbe79d612435303a1592249eb688e3 pinctrl: renesas: r8a779a0: Add HSCIF pins, groups and functions
-51ad59380cf3e1b6de2c8fa02e82f7bef21271b6 pinctrl: renesas: r8a779a0: Add INTC-EX pins, groups and function
-1ab08f3d942f83b1144a579a5cad95fd1df69b4d pinctrl: renesas: r8a779a0: Add MMC pins, groups and functions
-4b7bb3cb2c4aad90dd05fd8024a50013cd040e1f pinctrl: renesas: r8a779a0: Add MSIOF pins, groups and functions
-9f11948953f7080fc8c6e5f742285e1eca9e828c pinctrl: renesas: r8a779a0: Add PWM pins, groups and functions
-2b61edf7f5520a7e4f966fef13598b231352c0be pinctrl: renesas: r8a779a0: Add QSPI pins, groups, and functions
-d3b97b1d0a0786338f3686e4257d1e8995de2471 pinctrl: renesas: r8a779a0: Add TMU pins, groups and functions
-51f0ddf8a8c1506f6ea9de4b1dfdf7aca66cf11a pinctrl: renesas: r8a779a0: Add TPU pins, groups and functions
+e127ef2ed0a6099ca6ccc55ff11a812514b6aee6 pinctrl: renesas: Implement unlock register masks
+537db25ca330dce0087e7620b6c07c0a9aa766ed pinctrl: renesas: Add I/O voltage level flag
+9f2af9e5613636b4717352b24ebf1041bcfc5d01 pinctrl: renesas: Add PORT_GP_CFG_{2,31} macros
+741a7370fc3b8b549ac69886be161a99109b78b6 pinctrl: renesas: Initial R8A779A0 (V3U) PFC support
+5621739dc1ffb6f049b13b5825027dab8cdafb10 pinctrl: renesas: r8a779a0: Add SCIF pins, groups and functions
+7b66f2ddc8ad80242836c09ab2686d95faef6c65 pinctrl: renesas: r8a779a0: Add I2C pins, groups and functions
+cc35593ff4fee072857c887bedb22898f21366f2 pinctrl: renesas: r8a779a0: Add EtherAVB pins, groups and functions
+1a954c68230f123cd20e82b0de7d894f8604a230 pinctrl: renesas: r8a779a0: Add CANFD pins, groups and functions
+6e03446d0e3f6f281fa97dc3a3fad7fb649a1b83 pinctrl: renesas: r8a779a0: Add DU pins, groups and function
+7e67ff6efc289e84a28a9609296e89d38a325a67 pinctrl: renesas: r8a779a0: Add HSCIF pins, groups and functions
+8be8e8ee0230ad4c562f4606df9c1f9613063f14 pinctrl: renesas: r8a779a0: Add INTC-EX pins, groups and function
+2feb2d5cbabf8e23cf9762c579493662e034f5b8 pinctrl: renesas: r8a779a0: Add MMC pins, groups and functions
+88aac7aa7533d3735306d000746a03c0c5f324f6 pinctrl: renesas: r8a779a0: Add MSIOF pins, groups and functions
+30db678101c71c06c84be9332932d9d2b70ed67c pinctrl: renesas: r8a779a0: Add PWM pins, groups and functions
+a6a51403336b8a53945305143cf84960930b8215 pinctrl: renesas: r8a779a0: Add QSPI pins, groups, and functions
+b3761cd6e1565e3d20612f8f8499780625d80aa2 pinctrl: renesas: r8a779a0: Add TMU pins, groups and functions
+a5cda861ed57710837bc560a3c715160da710555 pinctrl: renesas: r8a779a0: Add TPU pins, groups and functions
 
---===============3564720267337828510==--
+--===============1997093045837303514==--
