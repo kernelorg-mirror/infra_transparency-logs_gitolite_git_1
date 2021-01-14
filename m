@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 14 Jan 2021 03:34:39 -0000
-Message-Id: <161059527996.8978.10479262099799476776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 14 Jan 2021 03:37:35 -0000
+Message-Id: <161059545579.11187.4169909770923579595@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 7b25339f4eafe206c60cc50870523fc84f0f0ea5
-    new: 7128c834d30e6b2cf649f14d8fc274941786d0e1
+    old: b8d52264df85ec12f370c0a8b28d0ac59a05877a
+    new: 7ac6ad051150592557520b45773201b987ecfce3
     log: |
-         7128c834d30e6b2cf649f14d8fc274941786d0e1 i40e: fix potential NULL pointer dereferencing
+         7ac6ad051150592557520b45773201b987ecfce3 bpf: Reject too big ctx_size_in for raw_tp test run
          
