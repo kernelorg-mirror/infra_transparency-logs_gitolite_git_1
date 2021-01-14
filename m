@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Thu, 14 Jan 2021 15:35:53 -0000
-Message-Id: <161063855391.27337.16105002408262261001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Thu, 14 Jan 2021 15:48:10 -0000
+Message-Id: <161063929039.981.10125085849153462354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/master
-    old: 6dfb8f1038fee9fe341b2f5f0d2a7d55dda6b2cd
-    new: b9bb3ae87e7c102013a5a717399281247d5be967
+  - ref: refs/heads/mtd/fixes
+    old: 4883a60c17eda6bf52d1c817ee7ead65b4a02da2
+    new: e708789c4a87989faff1131ccfdc465a1c1eddbc
     log: |
-         46031927fb4e4a03f81d3c49d7d118f557512580 trace-cmd: Do not build or install traceevent plugins if libtraceevent exists
-         b9bb3ae87e7c102013a5a717399281247d5be967 trace-cmd: Fix lib audit warning message
+         3c97be6982e689d7b2430187a11f8c78e573abdb mtd: rawnand: nandsim: Fix the logic when selecting Hamming soft ECC engine
+         18f62614308be69a2752afb5f6bbad60096ad774 mtd: rawnand: intel: check the mtd name only after setting the variable
+         e708789c4a87989faff1131ccfdc465a1c1eddbc mtd: spinand: Fix MTD_OPS_AUTO_OOB requests
          
