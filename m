@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Thu, 14 Jan 2021 14:53:47 -0000
-Message-Id: <161063602759.32033.18368758945154916632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 14 Jan 2021 14:58:26 -0000
+Message-Id: <161063630640.2413.162744259780874440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/stm32-next
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: b8962f28c0ef28a3de25ca61ad81d52b067fa026
+  - ref: refs/heads/dm-5.11
+    old: 17ffc193cdc6dc7a613d00d8ad47fc1f801b9bf0
+    new: c87a95dc28b1431c7e77e2c0c983cf37698089d2
     log: |
-         7d0ec2ecd868cda80d5d9f964b6d7dd5718afbae ARM: dts: stm32: Enable internal pull-ups for SDMMC1 on DHCOM SoM
-         b8962f28c0ef28a3de25ca61ad81d52b067fa026 ARM: dts: stm32: Disable SDMMC1 CKIN feedback clock on DHCOM
+         c87a95dc28b1431c7e77e2c0c983cf37698089d2 dm crypt: defer decryption to a tasklet if interrupts disabled
          
