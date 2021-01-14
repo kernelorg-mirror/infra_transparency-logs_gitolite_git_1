@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0608602163809048200=="
+Content-Type: multipart/mixed; boundary="===============3366067366666528818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 14 Jan 2021 10:14:24 -0000
-Message-Id: <161061926442.7479.12046538557287713621@gitolite.kernel.org>
+Date: Thu, 14 Jan 2021 10:14:33 -0000
+Message-Id: <161061927324.7607.7859576094319451113@gitolite.kernel.org>
 
---===============0608602163809048200==
+--===============3366067366666528818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: cb262935a166bdef0ccfe6e2adffa00c0f2d038a
-    new: 93b2ef66c5305b312900fb9326e54b74dd91aabd
-    log: revlist-cb262935a166-93b2ef66c530.txt
+  - ref: refs/heads/sched/core
+    old: 5b78f2dc315354c05300795064f587366a02c6ff
+    new: b9233dc0206bea09fa0a1c2b24c2c47a404e3d1e
+    log: revlist-5b78f2dc3153-b9233dc0206b.txt
 
---===============0608602163809048200==
+--===============3366067366666528818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb262935a166-93b2ef66c530.txt
+Content-Disposition: attachment; filename=revlist-5b78f2dc3153-b9233dc0206b.txt
 
-135f97fd0c398f20a544cc52c3f8a3cb925a8aef z3fold: remove preempt disabled sections for RT
-19d3cf9de1c72fd1adaa1d68aa40d74a35688404 mm/compaction: rename 'start_pfn' to 'iteration_start_pfn' in compact_zone()
-2b1a20c3afbc0279cbe57b0f19748081eba0881b mm/compaction: move compaction_suitable's comment to right place
 2271b016bf368d19d60531dd5ddd4375b4dae0ab mm/compaction: make defer_compaction and compaction_deferred static
 259b3633e78d627353d49b1eb226d72b2ac588da mm/oom_kill: change comment and rename is_dump_unreclaim_slabs()
 ab9dd4f8a1675b86b64a7d1f421c25182819f7a2 mm/migrate.c: fix comment spelling
@@ -1043,12 +1040,15 @@ eda809aef53426d044b519405d25d9da55319b76 Merge tag 'scsi-fixes' of git://git.ker
 d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
-99d4b3f6be3a7d4fc09b6ce6f95a2da8cc1cc50d lockdep/selftest: Add wait context selftests
-2ec4280b864e0a819e73999ea2185c21b4ee2fb0 locking/selftests: More granular debug_locks_verbose
-ac3a1c97ff1dd28b262586030d1aa2ebd736da21 locking/lockdep: Mark local_lock_t
-3e80ac0bcf2ab2cdcdeee491f63b33866ccd2cdd locking/lockdep: Add a skip() function to __bfs()
-851cd5e78033860d32880a8e524fddf0c4e93999 locking/lockdep: Clean up check_redundant() a bit
-7adddeabde18a87a298ceb8ebad04c02667c85f1 locking/lockdep: Exclude local_lock_t from IRQ inversions
-93b2ef66c5305b312900fb9326e54b74dd91aabd locking/selftests: Add local_lock inversion tests
+4fa504a26f0e9835e3656f5e0f1182aa6e5f0a8f sched/core: Move schedutil_cpu_util() to core.c
+b9e9e317474e2428103de5fb5ff78bf7826790e7 sched/core: Rename schedutil_cpu_util() and allow rest of the kernel to use it
+43dac25e276000fe740b6e7d9742df5ac962ec0b thermal: cpufreq_cooling: Reuse sched_cpu_util() for SMP platforms
+494c9f834995d2f29b6afc67b3578f47b8353820 sched: Prevent raising SCHED_SOFTIRQ when CPU is !active
+9f7ff72d23ad5d30113284dea6a0ce6fe9529a70 sched: Add schedutil overview
+a2b2216f417b62fe1f0889122e5bef80a6ff1770 sched/fair: Avoid stale CPU util_est value for schedutil in task dequeue
+6a9509fd23ad8cd25582c7026df0ee8d1d303905 sched/fair: Skip idle cfs_rq
+3b33408f7e3b711b5647b29731bce6311858dc98 sched/fair: Don't set LBF_ALL_PINNED unnecessarily
+e56f018a373ee9f77cc531213e5fb8bca6619ff9 sched/fair: Reduce cases for active balance
+b9233dc0206bea09fa0a1c2b24c2c47a404e3d1e sched: Use task_current() instead of 'rq->curr == p'
 
---===============0608602163809048200==--
+--===============3366067366666528818==--
