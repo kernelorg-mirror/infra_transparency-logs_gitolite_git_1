@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 14 Jan 2021 20:38:58 -0000
-Message-Id: <161065673863.27327.17090186645669839241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 14 Jan 2021 20:56:31 -0000
+Message-Id: <161065779121.7594.9676193374775273578@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/tags/iio-fixes-for-5.11a
-    old: 0000000000000000000000000000000000000000
-    new: 1c508f8425984149a61367ac43c549620cd2bea6
+  - ref: refs/heads/master
+    old: 39054d59c0ecdb102f8aa352cb7aa6fcbd7f2b6b
+    new: c2cae83b3042fb9cbf50015a8dc9062b9178dc08
+    log: |
+         c2cae83b3042fb9cbf50015a8dc9062b9178dc08 emulator: Fix sending CIS Requested to Create CIS device
+         
