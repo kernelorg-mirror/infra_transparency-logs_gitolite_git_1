@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8582482813097677991=="
+Content-Type: multipart/mixed; boundary="===============4118599264560677880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 14 Jan 2021 16:47:04 -0000
-Message-Id: <161064282494.7980.12187447352866515720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 14 Jan 2021 16:47:11 -0000
+Message-Id: <161064283149.8075.8551078904906850677@gitolite.kernel.org>
 
---===============8582482813097677991==
+--===============4118599264560677880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/spi-5.11
     old: 6170d077bf92c5b3dfbe1021688d3c0404f7c9e9
     new: 7a2da5d7960a64ee923fe3e31f01a1101052c66f
     log: revlist-6170d077bf92-7a2da5d7960a.txt
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/spi-5.12
     old: c6892892a95debac8050579b0709214b7b28b514
     new: a402e397b938fbf7e7977bded44f3db9a659a931
     log: revlist-c6892892a95d-a402e397b938.txt
 
---===============8582482813097677991==
+--===============4118599264560677880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1610642791 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1610642822-695fcc78cd9fc04c6e595b88ab39af9e06798f81
+pusher C3F436CA30F5D8EB 1610642798 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1610642828-4c12d9731d4ae6e715736bedd574e1214e058399
 
-6170d077bf92c5b3dfbe1021688d3c0404f7c9e9 7a2da5d7960a64ee923fe3e31f01a1101052c66f refs/heads/for-5.11
-c6892892a95debac8050579b0709214b7b28b514 a402e397b938fbf7e7977bded44f3db9a659a931 refs/heads/for-5.12
+6170d077bf92c5b3dfbe1021688d3c0404f7c9e9 7a2da5d7960a64ee923fe3e31f01a1101052c66f refs/heads/spi-5.11
+c6892892a95debac8050579b0709214b7b28b514 a402e397b938fbf7e7977bded44f3db9a659a931 refs/heads/spi-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAAdWgACgkQJNaLcl1U
-h9DqLQf7Bs+MZYpko/lBqfLl7zpDjCGUG1tICMPotjTLnvfOaklUhJoYCgLc3iyT
-Lx3/DjnopH8XWmn6PC3BndDj6aRKgxBry7jWVwHdtvmsUGM+2W+lcdbZoX8Uzuon
-iEBv2kFJNcebMUtJH399V7wrDa9zH9A0p5K45vqxH67NNgE3DQKbQn35lERR48fb
-5iXXNuhovTFMhGkmKxLFCkV/d7kTBawn0OIfNr7gEjd4s59CoU3pBa3A4ZR4xZSl
-C5Pm9MVEV79eacIN8wjNn+Ebk0lZCPUycJdxcoGS5wzJhslK8y2/Ewjb6itVKY9X
-HChrIxJqCpsOEDcYQa2TzWVNjA4YPA==
-=uBFZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAAdW4ACgkQJNaLcl1U
+h9AZ/Qf/RRUGhsXk9uMSazrgxNVpx5KUkPx15oU4nzY8ZEyC9+pPyGn9zuVNETK7
+nSuPVNOieRrlbNKPzeg4dRzjTxN2ONhQUM4pFJ7lOo85nFzonMtfvr7/GI7j+48f
+8h+yhLQttNnFU6OBuHwA0t60s32kbT8NNi8bE3MyRjO946kymqPkZET/9TKB4Qq8
+6ZCMJdPP4HU2xPAVlNkfIdZ7pvPCPZ/asFh1T+og8inDZPNlJGYM2VocftNgZy/1
+MCdlQgqRH2TsXoSzhXknm7NwcSi+Cdt5ESfsVeTSBXUinkJjp8w8g0PylpA2MQ2c
+AWMhmxsKvKtqaKnNK0uWMqahlCUEhA==
+=jClT
 -----END PGP SIGNATURE-----
 
---===============8582482813097677991==
+--===============4118599264560677880==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -686,7 +686,7 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
 7a2da5d7960a64ee923fe3e31f01a1101052c66f spi: fsl: Fix driver breakage when SPI_CS_HIGH is not set in spi->mode
 
---===============8582482813097677991==
+--===============4118599264560677880==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1330,4 +1330,4 @@ ccae0b408ba08203d5f50a301b105284374217a5 spi: bcm2835: Call the dedicated transf
 7dfa69af2b5a57fcd48c96752818c1fa9925a8de spi: bcm2835aux: Call the dedicated transfer completion function.
 a402e397b938fbf7e7977bded44f3db9a659a931 spi: pxa2xx: Add support for Intel Alder Lake PCH-P
 
---===============8582482813097677991==--
+--===============4118599264560677880==--
