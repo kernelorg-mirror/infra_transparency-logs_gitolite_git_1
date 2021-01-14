@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7954709971610905047=="
+Content-Type: multipart/mixed; boundary="===============5795678825613473899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 14 Jan 2021 19:20:48 -0000
-Message-Id: <161065204803.10129.307857858331009488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Thu, 14 Jan 2021 19:21:13 -0000
+Message-Id: <161065207306.10317.1414428706315402087@gitolite.kernel.org>
 
---===============7954709971610905047==
+--===============5795678825613473899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 65f0d2414b7079556fbbcc070b3d1c9f9587606d
     log: revlist-e609571b5ffa-65f0d2414b70.txt
 
---===============7954709971610905047==
+--===============5795678825613473899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ e7c22eeaff8565d9a8374f320238c251ca31480b ALSA: fireface: Fix integer overflow in
 20c7842ed8374e1c3ee750b2fe7ca8cdd071bda6 ALSA: hda/hdmi - enable runtime pm for CI AMD display audio
 65f0d2414b7079556fbbcc070b3d1c9f9587606d Merge tag 'sound-5.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 
---===============7954709971610905047==--
+--===============5795678825613473899==--
