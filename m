@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4109729267730130910=="
+Content-Type: multipart/mixed; boundary="===============3676238524510644037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jwboyer/fedora
-Date: Thu, 14 Jan 2021 00:29:28 -0000
-Message-Id: <161058416891.15214.6277085602528441583@gitolite.kernel.org>
+Date: Thu, 14 Jan 2021 00:30:25 -0000
+Message-Id: <161058422590.16996.2520911066322267375@gitolite.kernel.org>
 
---===============4109729267730130910==
+--===============3676238524510644037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jwboyer/fedora
 user: jwboyer
 changes:
-  - ref: refs/heads/f32
-    old: c150b45b851fa5df7e03146add093eb5b352cea2
-    new: 7906784f069e92c8ae89947193c83ea2b1fc39eb
-    log: revlist-c150b45b851f-7906784f069e.txt
-  - ref: refs/tags/kernel-5.10.7-100.fc32
+  - ref: refs/heads/f33
+    old: 4f10135921cffa0409227df23fdf47179f55651d
+    new: 4277099e7e166db6fdc9d81996c114a2ed0a8433
+    log: revlist-4f10135921cf-4277099e7e16.txt
+  - ref: refs/tags/kernel-5.10.7-200.fc33
     old: 0000000000000000000000000000000000000000
-    new: 7906784f069e92c8ae89947193c83ea2b1fc39eb
+    new: 4277099e7e166db6fdc9d81996c114a2ed0a8433
 
---===============4109729267730130910==
+--===============3676238524510644037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c150b45b851f-7906784f069e.txt
+Content-Disposition: attachment; filename=revlist-4f10135921cf-4277099e7e16.txt
 
 d9dea80af65e8f6f77adcd573cbd7267e280e0ef i40e: Fix Error I40E_AQ_RC_EINVAL when removing VFs
 e2572423ab92014d3194282e737e6972d2424b37 iavf: fix double-release of rtnl_lock
@@ -173,41 +173,41 @@ d17f2ccf6f995c57c25d9e7fb84edbe6e9472e96 netfilter: ipset: fix shift-out-of-boun
 513729aecb53cdd0ba4e5e5aebc8b2fddcb0131e rtlwifi: rise completion at the last step of firmware callback
 6f1e88527c1869de08632efa2cc796e0131850dc scsi: target: Fix XCOPY NAA identifier lookup
 659361086d8b2ee2c8318f390029a350a6e7fb61 Linux 5.10.7
-c9591e89779003be0697d9e7c90b7252d93c4a6c ACPI: APEI: arm64: Ignore broken HPE moonshot APEI support
-a52b180eb96af92531f0e305d01fe4873e557629 ACPI / irq: Workaround firmware issue on X-Gene based m400
-d4b46142a4b12956e2b87f98fd0d8e1384db2d8e aarch64: acpi scan: Fix regression related to X-Gene UARTs
-1b998da173676f996055cec9b863a25c0906d949 kdump: round up the total memory size to 128M for crashkernel reservation
-75b93f360c080fb520110ef857c2597e325da51c kdump: add support for crashkernel=auto
-523dfa28768783fd6c3fa3c7f52df354c84bb954 kdump: fix a grammar issue in a kernel message
-76155ffb110af7cf3b08ff9514f49e02a59ee9a0 Vulcan: AHCI PCI bar fix for Broadcom Vulcan early silicon
-9b75bd43acd10b21dbb62278e2216378d14618de ahci: thunderx2: Fix for errata that affects stop engine
-b533297ab7efbe06115c2e5bef1c34b024f1a63d scsi: smartpqi: add inspur advantech ids
-8dca97f2339dac40f9b5207bd10ee6e9128feeba ipmi: do not configure ipmi for HPE m400
-0ec759cbb645b6b7311101b9924b248d714d311d iommu/arm-smmu: workaround DMA mode issues
-27f88394985775c632f701eae1701b013ea8b044 arm: aarch64: Drop the EXPERT setting from ARM64_FORCE_52BIT
-3ef7d8527b4b6ed399cbecf8cb82f96e7fc405e5 Add efi_status_to_str() and rework efi_status_to_err().
-027c0cb6df63e9657514aee33368b3e14263ee1e Make get_cert_list() use efi_status_to_str() to print error messages.
-15d756fff63633c298911fdce7c1ff7378615c7a security: lockdown: expose a hook to lock the kernel down
-83abc28a7b334dc55823585c59c0253ad8b7482d efi: Add an EFI_SECURE_BOOT flag to indicate secure boot mode
-7cc78c86ed60857592603622855a37390e5f2aa2 efi: Lock down the kernel if booted in secure boot mode
-e93ad96f6a7bfdb34b7824818892b2d2a0076114 s390: Lock down the kernel when the IPL secure flag is set
-5685dcd646b542424a72fd9b33b9ce335acdd73a Add option of 13 for FORCE_MAX_ZONEORDER
-b50051c8c071190899edf9a2d4d6b2add74da71d arm: make CONFIG_HIGHPTE optional without CONFIG_EXPERT
-0d1e23d7f3f88896292a29c9e3496b0cf3136a9b ARM: tegra: usb no reset
-8858480b22fff17f82f6623a216c69832454ae9f Input: rmi4 - remove the need for artificial IRQ in case of HID
-1631c0dbe22c5c0214c93b27cb2717a7a980a1a6 Drop that for now
-dd7ae4edc6d833e60b50da1a23426e4ee68b3fdd KEYS: Make use of platform keyring for module signature verify
-207f5f3e0471a16c8ff919c28875163755a832fd mm/kmemleak: skip late_init if not skip disable
-02d8ff05b00480c4342f1161362ebfaebe320745 ARM: fix __get_user_check() in case uaccess_* calls are not inlined
-2e03633f258ac2f93c7bdfcac4fab8b0e4e9d1d6 dt-bindings: panel: add binding for Xingbangda XBD599 panel
-f6d9dd5546255ddfebea5d9cb8bbed3052d650e8 drm: panel: add Xingbangda XBD599 panel
-fd2920c41987b392f7b83a54c8d5a17f1af064da drm/sun4i: sun6i_mipi_dsi: fix horizontal timing calculation
-91e49c52f3b7c1edc23fbecdfc8dc32cb4d0267a Work around for gcc bug https://gcc.gnu.org/bugzilla/show_bug.cgi?id=96377
-401088bb4ff1d2addb45325b7bcff46bf279f322 arm64: dts: rockchip: disable USB type-c DisplayPort
-8781575fe40f7ce6fc61d79863a7a169b867b957 PCI: Add MCFG quirks for Tegra194 host controllers
-1cae09c4485ac903c1f69237b37a38baa34ea61f update phy on pine64 a64 devices
-e5e96d2aeb6048868564a68d5bee8cee92fd6bda ARM: dts: pandaboard es: add bluetooth uart for HCI
-ba7bbe2794c86d102177ad3f80e5d140ad6c1454 drm/nouveau/kms: handle mDP connectors
-7906784f069e92c8ae89947193c83ea2b1fc39eb kernel-5.10.7-100.fc32 configs
+f7de72db0063219b1e45d0f5c1545fad20032af0 ACPI: APEI: arm64: Ignore broken HPE moonshot APEI support
+704047cf391a5db15af86cf090b6e2400335333f ACPI / irq: Workaround firmware issue on X-Gene based m400
+2ebd78d491c85ed4c223937203f7ca5ccd749ccf aarch64: acpi scan: Fix regression related to X-Gene UARTs
+b213e16163557c7242798ac56022363c6c0f31d1 kdump: round up the total memory size to 128M for crashkernel reservation
+26865938ef3f8fb4f422dc95f723c982b8fab18c kdump: add support for crashkernel=auto
+80f74678fb004d844ed96601e461c510cb8b57a0 kdump: fix a grammar issue in a kernel message
+22f21bf11c021828f45c47e450e5df655bba08bd Vulcan: AHCI PCI bar fix for Broadcom Vulcan early silicon
+ee891ca55ee04dfa21359ba46d3498829d3e5b7c ahci: thunderx2: Fix for errata that affects stop engine
+2067135b874e4dfe4f8d74e655d002e8f6ceb17f scsi: smartpqi: add inspur advantech ids
+07acebdddc780121ac4a0dd95a7c9a190dd0c557 ipmi: do not configure ipmi for HPE m400
+5df80d062cc17b542cca6dc1759e3aa4912b9bcf iommu/arm-smmu: workaround DMA mode issues
+2558ee2141ba5ae46b6914bbc94e001c7ba9099f arm: aarch64: Drop the EXPERT setting from ARM64_FORCE_52BIT
+deeded89972ea607a4d40b0fdcddba53853def39 Add efi_status_to_str() and rework efi_status_to_err().
+54fefc9f5fdf908e2c90c494b54a01838fc0022d Make get_cert_list() use efi_status_to_str() to print error messages.
+51a30291610070a659429ba4e9b0ebac702aaa08 security: lockdown: expose a hook to lock the kernel down
+c8e8da15ec032f8c8ee3ddb9da8cc57a14336594 efi: Add an EFI_SECURE_BOOT flag to indicate secure boot mode
+ec34ffb9a717400f16a46d253d57644008ab7c65 efi: Lock down the kernel if booted in secure boot mode
+8e361a033dfcfd561fd9a5bdfb19664dc5da8ee5 s390: Lock down the kernel when the IPL secure flag is set
+879293d2cf36d78678b2d633d671fd8f1a39aad7 Add option of 13 for FORCE_MAX_ZONEORDER
+478322715ab610b08ad5973e69f1572cd597db46 arm: make CONFIG_HIGHPTE optional without CONFIG_EXPERT
+2a3fa8c3e39c7eb58aa75a1a38a3f8b3e713673f ARM: tegra: usb no reset
+c440c60246a72714109e028e05b56fb880805fa5 Input: rmi4 - remove the need for artificial IRQ in case of HID
+2c350709ff5ce33688e175d59006ad66712911a1 Drop that for now
+74d19c1ef0050add96ee4b3e52479f84cb3e3659 KEYS: Make use of platform keyring for module signature verify
+e7b956682f186a63e6ee1954ea97e8b7212064a6 mm/kmemleak: skip late_init if not skip disable
+4fe6620c4f266edfe6fe0a6c0100799adf5c6094 ARM: fix __get_user_check() in case uaccess_* calls are not inlined
+46d5c6b9c514fa83879be577a85aca8f7d49f3d8 dt-bindings: panel: add binding for Xingbangda XBD599 panel
+1401ace92f35ae362183223b3655064eda5c04af drm: panel: add Xingbangda XBD599 panel
+988cc6df43dd9415e006fefb25ca87eb028c7e37 drm/sun4i: sun6i_mipi_dsi: fix horizontal timing calculation
+de1ff8fc51846f4b05c38ccf2221cb16f6a178a0 Work around for gcc bug https://gcc.gnu.org/bugzilla/show_bug.cgi?id=96377
+7dba205ed87b4b8732112a040a43bbb795abe539 arm64: dts: rockchip: disable USB type-c DisplayPort
+7eb7bbb59ebea73fd203119b3dcb047f10ffdced PCI: Add MCFG quirks for Tegra194 host controllers
+01319ea99935b2807f20cbbd7746f9e0a0ff2d3f update phy on pine64 a64 devices
+cf3fcb224dbd563fd49e4014da0976ec6d43b5fa ARM: dts: pandaboard es: add bluetooth uart for HCI
+3fb6854c5d46a06fca34f4f845e0b4749c72d454 drm/nouveau/kms: handle mDP connectors
+4277099e7e166db6fdc9d81996c114a2ed0a8433 kernel-5.10.7-200.fc33 configs
 
---===============4109729267730130910==--
+--===============3676238524510644037==--
