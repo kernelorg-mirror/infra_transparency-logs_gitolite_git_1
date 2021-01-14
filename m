@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Thu, 14 Jan 2021 18:43:04 -0000
-Message-Id: <161064978460.18201.15296764648824776612@gitolite.kernel.org>
+Date: Thu, 14 Jan 2021 18:48:39 -0000
+Message-Id: <161065011990.21180.7978393854491084240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
   - ref: refs/heads/for-next
-    old: b059b48500dab78cb6c7be006280dbc001c0a46b
-    new: e1cc2d7d38686fd9ac1b2a9a59c59eeca1b9d9f4
+    old: e1cc2d7d38686fd9ac1b2a9a59c59eeca1b9d9f4
+    new: 9cf27392530f38c01b9c46efc362a0caaca8f6c8
     log: |
-         e1cc2d7d38686fd9ac1b2a9a59c59eeca1b9d9f4 power: supply: bq256xx: Fix BQ256XX_NUM_WD_VAL and bq256xx_watchdog_time[] overrun
+         9cf27392530f38c01b9c46efc362a0caaca8f6c8 power: supply: Add battery gauge driver for Acer Iconia Tab A500
          
