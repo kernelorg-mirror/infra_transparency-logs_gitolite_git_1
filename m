@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0357050069450267797=="
+Content-Type: multipart/mixed; boundary="===============1704313207037004447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 14 Jan 2021 04:03:23 -0000
-Message-Id: <161059700343.28394.5413748823662928469@gitolite.kernel.org>
+Date: Thu, 14 Jan 2021 04:03:40 -0000
+Message-Id: <161059702011.28560.14586502991131737539@gitolite.kernel.org>
 
---===============0357050069450267797==
+--===============1704313207037004447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 2a6f7a28785ce69d370db1b3200b2a110ec64cbf
     new: 262fafe138e811c87587d5e4d523b0f9839e57a1
     log: revlist-2a6f7a28785c-262fafe138e8.txt
 
---===============0357050069450267797==
+--===============1704313207037004447==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -263,4 +263,4 @@ a2903a437c5b26f924f8c641f3334792ce2d6477 tpm: Fix fall-through warnings for Clan
 2a6c123460088b03f72c6eae6c2a23b84daeb768 tpm: Remove tpm_dev_wq_lock
 262fafe138e811c87587d5e4d523b0f9839e57a1 keys: Update comment for restrict_link_by_key_or_keyring_chain
 
---===============0357050069450267797==--
+--===============1704313207037004447==--
