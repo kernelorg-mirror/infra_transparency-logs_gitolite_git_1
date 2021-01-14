@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2736208299613883816=="
+Content-Type: multipart/mixed; boundary="===============5372337198535760392=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 14 Jan 2021 07:51:53 -0000
-Message-Id: <161061071344.11179.16547505767940258880@gitolite.kernel.org>
+Date: Thu, 14 Jan 2021 07:52:11 -0000
+Message-Id: <161061073196.11609.9926282337165354869@gitolite.kernel.org>
 
---===============2736208299613883816==
+--===============5372337198535760392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,57 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: b42e45a913f2ae76807e656a1c053808d7d34352
-    new: 1105592cb8fdfcc96f2c9c693ff4106bac5fac7c
-    log: |
-         652562e5ff06d27b9b83c8166cb71845a55607ad can: length: can_fd_len2dlc(): simplify length calculcation
-         99b7beb0431a4b9728023e9169ed15af678d2c7f can: length: canfd_sanitize_len(): add function to sanitize CAN-FD data length
-         85d99c3e2a13d542445342a1383a686dadeaac3d can: length: can_skb_get_frame_len(): introduce function to get data length of frame in data link layer
-         f0ef72febc9a6a569d92cdf6c7996015dfa8e8bb can: dev: extend struct can_skb_priv to hold CAN frame length
-         1dcb6e57db833419483d0df2d956b1cc2a802683 can: dev: can_put_echo_skb(): extend to handle frame_len
-         9420e1d495e2a3b5f673148b7e3ebc861b1441f7 can: dev: can_get_echo_skb(): extend to return can frame length
-         99842c9685ab00fa8689e8bd12bde62b706b6198 can: dev: can_rx_offload_get_echo_skb(): extend to return can frame length
-         741b91f1b0ea34f00f6a7d4539b767c409291fcf can: dev: can_put_echo_skb(): add software tx timestamps
-         1105592cb8fdfcc96f2c9c693ff4106bac5fac7c can: tcan4x5x: remove __packed attribute from struct tcan4x5x_map_buf
-         
+  - ref: refs/heads/master
+    old: f50e2f9f791647aa4e5b19d0064f5cabf630bf6e
+    new: 0ae5b43d6dde6003070106e97cd0d41bace2eeb2
+    log: revlist-f50e2f9f7916-0ae5b43d6dde.txt
 
---===============2736208299613883816==
+--===============5372337198535760392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1610610708 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1610610727 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1610610708-101f9c0ca232f9034c37dbcc3dad3e0c59f54be0
+nonce 1610610727-ecd946e427cb53a3777965ada9487f06a653ccba
 
-b42e45a913f2ae76807e656a1c053808d7d34352 1105592cb8fdfcc96f2c9c693ff4106bac5fac7c refs/heads/testing
+f50e2f9f791647aa4e5b19d0064f5cabf630bf6e 0ae5b43d6dde6003070106e97cd0d41bace2eeb2 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl//+BQTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqd+VCACS7Pp5c8V1F3ciFvLHMSAttqlIAygi
-xSytqMKCsIVS9Bn82FlYBPizELcOvJBSfjhVlA79HKECPCveSYPmIEu+EewI/LQa
-BZMEZnScbaJnAHjS6RsrMxD5YMjcNj3cQUpcOSAzYxaSm25m46gHOoTHPqqs+bWT
-zh8TkmUXqyDKyw/e3k4RvfC8YOKjDPl+sc35ve1SO/HYBduBjO0CJVkgH0gAUWW6
-sgTXZIcGTADAZHtH/XLD9kQHIT6BNfLVbh8V66BZvdegL9RMoxRxVh2k8n31Ktn6
-XPyXRO+YbAODzgtYsfeq8k17dJ/XR8/puOPufzcMB8LgpMQSToTZA7ew
-=8zqX
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAl//+CcTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqStxB/0Qp4cuW2kWxHShc8xuJKdcCGb8XO+g
+HBzlsrXf+ab1aDxLV1TS0tV1Ps84LwvHFH6wY+3KeWizsfIGToiGfO8Y/9kdxVwW
+rg9l1aKwdCzRDRkP4Vwl2L/Wt6va+Nd4Vq59IVFBZhuQdu4KYVnqLHchapohQ8wG
+nIXMVaB54wkIcyjX04Gq4vq1PAeb4ACU7M7wTugiglKpzpAeQ11SAXvtaK0tidn0
+UV3Ty3IEhGF/8KRCD0Gzc67VOOvJH02XuU0oGAFnMzn7SofJtqWTxQOy0NKy2cZb
+w1xcwQ6XuysIqZUIgMar8AGvpFlvDZhTcDYpcraQL2+NhVn2mXeIlyvs
+=mA+1
 -----END PGP SIGNATURE-----
 
---===============2736208299613883816==--
+--===============5372337198535760392==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f50e2f9f7916-0ae5b43d6dde.txt
+
+838b00a2260ab6ec104a2a5696e619c19e8cd9be net/mlx5: Add HW definition of reg_c_preserve
+21bad8da1e7728eb69bb4f4558058872cbf6b06e net/mlx5e: Simplify condition on esw_vport_enable_qos()
+af4c2fab3ff4318b85e7e0ffe86e76d425cc7533 net/mlx5: E-Switch, use new cap as condition for mpls over udp
+9a99c8f1253a1a5854b008aa72d5a839bac2cebe net/mlx5e: E-Switch, Offload all chain 0 priorities when modify header and forward action is not supported
+f822cf86af0003b40292624db91c401682cf7d65 net/mlx5e: CT: Pass null instead of zero spec
+8d2c5e7557182b45afce07ac1806998c03f0fc21 net/mlx5e: Remove redundant initialization to null
+763e1e547f866c46831b709ec9d1222235a275b4 net/mlx5e: CT: Remove redundant usage of zone mask
+3a28eda94c8c5da02e708d4dd141595883aeb2c0 net/mlx5e: IPsec, Enclose csum logic under ipsec config
+f3bea940b12c75f8c5330b8c0ef6751b79caab5f net/mlx5e: IPsec, Avoid unreachable return
+a29adad5860e91c57450aed0b351b65d99e149e6 net/mlx5e: IPsec, Inline feature_check fast-path function
+224169d2a32b2fbb5fde366c6bc17b66c06fc005 net/mlx5e: IPsec, Remove unnecessary config flag usage
+679500e385fc4d65c3fac5bfbe6ee55d65698f20 Merge branch 'mlx5-updates-2021-01-07'
+324cefaf1c723625e93f703d6e6d78e28996b315 net: core: use eth_type_vlan in __netif_receive_skb_core
+b7cf966126eb16c96bcd13e5ba63657b7e2baef2 octeontx2-pf: Add flow classification using IP next level protocol
+70b32d8276feef23b9b2c50c1128a7d6252e2b47 dpaa2-eth: add support for Rx VLAN filtering
+848c1903d35e2eb4fdf8b1a0a6721876e8c88e5d dpaa2-mac: fix the remove path for non-MAC interfaces
+0ae5b43d6dde6003070106e97cd0d41bace2eeb2 tcp: assign skb hash after tcp_event_data_sent
+
+--===============5372337198535760392==--
