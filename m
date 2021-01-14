@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8159498752329962427=="
+Content-Type: multipart/mixed; boundary="===============7566046819692176765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 14 Jan 2021 11:23:35 -0000
-Message-Id: <161062341519.23651.4331244451728084819@gitolite.kernel.org>
+Date: Thu, 14 Jan 2021 11:23:47 -0000
+Message-Id: <161062342745.23869.5847365149600563358@gitolite.kernel.org>
 
---===============8159498752329962427==
+--===============7566046819692176765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: cb262935a166bdef0ccfe6e2adffa00c0f2d038a
-    new: 7e923e6a3ceb877497dd9ee70d71fa33b94f332b
-    log: revlist-cb262935a166-7e923e6a3ceb.txt
+  - ref: refs/heads/perf/core
+    old: c2208046bba6842dc232a600dc5cafc2fca41078
+    new: 9a7832ce3d920426a36cdd78eda4b3568d4d09e3
+    log: revlist-c2208046bba6-9a7832ce3d92.txt
 
---===============8159498752329962427==
+--===============7566046819692176765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb262935a166-7e923e6a3ceb.txt
+Content-Disposition: attachment; filename=revlist-c2208046bba6-9a7832ce3d92.txt
 
+2b47a24cee0eedbb9b106ef3e992db0ddf48f740 mm/vmscan: drop unneeded assignment in kswapd()
+8d87d07c9283b45fd50f15d488368d0be6492a17 mm/vmscan.c: remove the filename in the top of file comment
+2484be0f88dc6c9670362d51f6a04f2da0626b50 mm/page_isolation: do not isolate the max order page
+fc5488651c7d840c9cad9b0f273f2f31bd03413a z3fold: simplify freeing slots
+dcf5aedb24f899d537e21c18ea552c780598d352 z3fold: stricter locking and more careful reclaim
 135f97fd0c398f20a544cc52c3f8a3cb925a8aef z3fold: remove preempt disabled sections for RT
 19d3cf9de1c72fd1adaa1d68aa40d74a35688404 mm/compaction: rename 'start_pfn' to 'iteration_start_pfn' in compact_zone()
 2b1a20c3afbc0279cbe57b0f19748081eba0881b mm/compaction: move compaction_suitable's comment to right place
@@ -1043,12 +1048,7 @@ eda809aef53426d044b519405d25d9da55319b76 Merge tag 'scsi-fixes' of git://git.ker
 d9296a7bd9c87321766beeb041dc5b55326d9903 Merge tag 'pm-5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3516bd729358a2a9b090c1905bd2a3fa926e24c6 Merge tag 's390-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
-9271a40d2a1429113160ccc4c16150921600bcc1 lockdep/selftest: Add wait context selftests
-5831c0f71d6664c6aa7b58ba969bf645c89ecb85 locking/selftests: More granular debug_locks_verbose
-dfd5e3f5fe27bda91d5cc028c86ffbb7a0614489 locking/lockdep: Mark local_lock_t
-bc2dd71b283665f0a409d5b6fc603d5a6fdc219e locking/lockdep: Add a skip() function to __bfs()
-175b1a60e8805617d74aefe17ce0d3a32eceb55c locking/lockdep: Clean up check_redundant() a bit
-5f2962401c6e195222f320d12b3a55377b2d4653 locking/lockdep: Exclude local_lock_t from IRQ inversions
-7e923e6a3ceb877497dd9ee70d71fa33b94f332b locking/selftests: Add local_lock inversion tests
+ba9506be4e402ee597b8f41204008b97989b5eef perf/x86/intel/uncore: Store the logical die id instead of the physical die id.
+9a7832ce3d920426a36cdd78eda4b3568d4d09e3 perf/x86/intel/uncore: With > 8 nodes, get pci bus die id from NUMA info
 
---===============8159498752329962427==--
+--===============7566046819692176765==--
