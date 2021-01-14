@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3746872276918605265=="
+Content-Type: multipart/mixed; boundary="===============5225893931864964410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 14 Jan 2021 09:17:11 -0000
-Message-Id: <161061583147.3928.16425364516744211951@gitolite.kernel.org>
+Date: Thu, 14 Jan 2021 09:21:03 -0000
+Message-Id: <161061606377.6455.7971168618383228630@gitolite.kernel.org>
 
---===============3746872276918605265==
+--===============5225893931864964410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 9ac4db650bec83452f0fcd9737e5061e673a92e1
-    new: 5dc71f1eb8706450b6a30ffd0cd1bd67dd131daa
+  - ref: refs/heads/usb-linus
+    old: 4e0dcf62ab4cf917d0cbe751b8bf229a065248d4
+    new: 6e6aa61d81194c01283880950df563b1b9abec46
     log: |
-         132ee0da6e9f55e6c8b2102a04a5553e20391824 usb: dwc3: gadget: Disable Vendor Test LMP Received event
-         16bcc58e1dabc4db0e14de259cd5c60c77f47250 Documentation/devicetree/bindings/usb/dwc3-st.txt: update usb-drd.yaml reference
-         e793c2a3d376fdb2fd3524215ca9f4927d933118 dt-bindings: usb: update snps,dwc3.yaml references
-         5dc71f1eb8706450b6a30ffd0cd1bd67dd131daa USB: dwc3: document gadget_max_speed
+         6e6aa61d81194c01283880950df563b1b9abec46 USB: gadget: dummy-hcd: Fix errors in port-reset handling
          
 
---===============3746872276918605265==
+--===============5225893931864964410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610615890 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610616122 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1610615822-1aeb99f0e8edea53d454a0cc59cb48d1e7fcff8a
+nonce 1610616054-6821e2c605c5673c6c4ce57b9a0c461d082b452d
 
-9ac4db650bec83452f0fcd9737e5061e673a92e1 5dc71f1eb8706450b6a30ffd0cd1bd67dd131daa refs/heads/usb-testing
+4e0dcf62ab4cf917d0cbe751b8bf229a065248d4 6e6aa61d81194c01283880950df563b1b9abec46 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAADFIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kXoP+wd4i+BRA7om52WV/Bvm
-gfbRZjcYVDAGLIDiCJbLcT3jf/LBVB3iC7szQUApJOor/IyrxGK2Id3xcdhK7Bxt
-6MFWJo0D9KKUI4UI+gJ2NSNkIoG8daZvarubZrdM9gyazoHAu8nCNPy6LvuesND6
-lwG12Oahlbq2027htcgz2tAgF7nUq5yOhOFm6V3/hgo9nZYvz7brVx1u3iS3xyNs
-ZbCUxjQcP/Jw2L916jqFs/39wXIo4inPaGGkj4PoTFR/zPOBJ3L3z1L6hzP6GU6z
-AbQxAX/qc3K0mlmN8TqMpIXd7qhIv//GdovzcEvHN8piRkAVUtay5NYaTPi+nOL8
-FwBMl/5TKByxm6gWzsqU8sQTVxtn5tiwOC/o/aZnAKzDuHwmCORUUrjqD7ec+2M+
-l45GfdTkKSafupE1Ar68XVqAViBtHxPNKCkdmYsWnta9PCz0jYusjJxm0CpdTmIm
-q9mC2WJTwvtgziw/oARLwuzkWdW6th8/b9bA2CekNo6xjuHYFTkHMFRgl7OQeG1L
-fk/AUk3Ip9AubJ/7huXydqWCauzcXAWtrukQ9Qru6k7BltZtOB95kpalhKVmI9aY
-gsVJLoppy4qA2vClfsdKaD10tQbXuyE1nrCLJNkSAvr4nGkp6IHVLK9bKpLhtXZM
-EuoeF5hW5U/f3Mu731YEdXdo
-=F6Is
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAADTobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KPkP/0k9iCX/JgyCiRN17Ffl
+NAYMpDnvUr/q1+IZnJVM/tvfwmHLZ+rGLHF4AHdpyb3xFfqAicboWZ8DUIjdr7bQ
+AJvnJf7qjGdlkcbXSGh1K/4vKJ3LrIX9uK3ucvPfwtbtt598Z/iikmlPao9WDF2Z
+5h9UxjD7UjHTBkRztQAZvdlkQ9mrrT9dDTt6uwTA05KUDnc2vZBaewqhYwvBy474
+dEookanWZWrLO4iKT999sdxEOk55fB2QMjPWoImixb2OXZJR9m7AfTO7Hx0Kx1hE
+LJtXsX4ZvFEeq/AkLDM1LujD7I/HNDtvspriK3Lj1lL1OWUBbAYiX5KeVEDDDXcq
+IyFYsoQu01ulBoMAaSagJipZStOFgtAyKrF6vLkXwIkpNpB4+bI2hRFJwDzjz7YU
+Spw+CJ8Do/4iX7L+f50QH3fbd+eQVa+xi2MvKeFB28oDoZQSMNxVQOHBtOBVWk5D
+Z28oeuSjdFkRtitRaO+nzKDeevo93krQCntSTX5SE9viZbvWwLBdrmvOJFrUTBV+
+TVLBt3iFSDbETnkirwex8RN5HhjoTCHkxhV2CEdPjV6FuHYMUJ1ZqPxFi/FlhQJ/
+THdrL5wsAX2+jfZUGwjj5wapOQiRUkdNT+krVmMjTii7NSopkNKzrocfzWhguNP2
+E+T05P44dUnQDq2T6/id1sbX
+=3BW1
 -----END PGP SIGNATURE-----
 
---===============3746872276918605265==--
+--===============5225893931864964410==--
