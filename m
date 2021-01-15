@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6099303573884920375=="
+Content-Type: multipart/mixed; boundary="===============0431723194153168858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 15 Jan 2021 18:17:51 -0000
-Message-Id: <161073467129.10684.3268622484456578868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 15 Jan 2021 18:17:58 -0000
+Message-Id: <161073467805.10792.18277749514120017156@gitolite.kernel.org>
 
---===============6099303573884920375==
+--===============0431723194153168858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 9c25af250214e45f6d1c21ff6239a1ffeeedf20e
     new: 7505c06dabb5e814bda610c8d83338544f15db45
     log: revlist-9c25af250214-7505c06dabb5.txt
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 44a4cfad8d78efcda9ec0dd97ceea38d8b602f24
     new: 574b813ae53f1a4ec4b6570bc44a8fe1074e6123
     log: revlist-44a4cfad8d78-574b813ae53f.txt
 
---===============6099303573884920375==
+--===============0431723194153168858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1610734636 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1610734668-450ae5ef4be8d4aa0c45671fce28eafdde28152b
+pusher C3F436CA30F5D8EB 1610734643 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1610734675-d521ead362ee6a0e51c355b80efb6a436d47db52
 
-9c25af250214e45f6d1c21ff6239a1ffeeedf20e 7505c06dabb5e814bda610c8d83338544f15db45 refs/heads/for-5.11
-44a4cfad8d78efcda9ec0dd97ceea38d8b602f24 574b813ae53f1a4ec4b6570bc44a8fe1074e6123 refs/heads/for-5.12
+9c25af250214e45f6d1c21ff6239a1ffeeedf20e 7505c06dabb5e814bda610c8d83338544f15db45 refs/heads/asoc-5.11
+44a4cfad8d78efcda9ec0dd97ceea38d8b602f24 574b813ae53f1a4ec4b6570bc44a8fe1074e6123 refs/heads/asoc-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAB3CwACgkQJNaLcl1U
-h9BZ3gf/d33PW3yT9ZYbI002oqgB3KpOm2X1jgOAaUCwdLXJY5r6jl+UbWKjgB9+
-TOoxQkkDfsCSXXjdOkNF3B897+40P3odaR05ikdD4ijhRu2UMLiK9NZ5tCcJPHyF
-vSkCWkilPnQ1CdzsNQnEW/yCguhXdTsmRxoq3CllRujbDFHGuYZ3FUZXNgZKyTJh
-GoxXGsrCGtptoGVVbHXNdEwXhPLAd038XUb9QiVvh53stnWVsH5A66ZFOpl6N1x/
-WRh023feVpalPhUIFw/WzNFgurO0/9hVZfpvavu9UISKIIU3M66oqrx8aokzzLpx
-pjlzaxqdoAXOlMZMVDQHLHRxRip+iw==
-=YigG
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAB3DMACgkQJNaLcl1U
+h9A8bgf/Z8NHGw4dawkLq9cflYQ26X1P3+w2jDRvry+Cs557cfWASwoYdHahb6RE
+CJDZRQ5bWDRzZ2yX5h9BpeYEs9FMewaQa3idHlU513uc39PpSLYDJvY3uxNjn2PC
+zwdYn2uBcWONQfsmd7ps9G18WVgihjFqiSv9HQTBGrJCy9QmVu+QyInM1u9BRCyA
+q6PUX90JWSsgp1yoKD3rZTELsUn5blpEI/9HWth06QuoY56z25NiiDdzvTXuzG/M
+NZ6MLNGQi8REIGZEOVqkZOJddwuy7icTSJHe3PSR6j5UFlH5oTCVvHdS8LPk3o8x
+bsgQKW+GUvVZCHJisaUWfCjnjY7E9w==
+=mg89
 -----END PGP SIGNATURE-----
 
---===============6099303573884920375==
+--===============0431723194153168858==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -698,7 +698,7 @@ cea06d9bf0e035a549226e217022fa51b0c878e5 Merge v5.11-rc3
 9b268be3adbb410cc1a857477b638a71258891a8 MAINTAINERS: update maintainers of qcom audio
 7505c06dabb5e814bda610c8d83338544f15db45 MAINTAINERS: update qcom ASoC drivers list
 
---===============6099303573884920375==
+--===============0431723194153168858==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1351,4 +1351,4 @@ e697df66876c182927899950971c3b4888df3e6e ASoC: qcom: Stop casting away __iomem f
 42dc604051c9d874417d09b9ef84b45244d05b73 Merge series "ASoC: qcom: Minor code cleanups for lpass-cpu" from Stephen Boyd <swboyd@chromium.org>:
 574b813ae53f1a4ec4b6570bc44a8fe1074e6123 Merge series "ASoC/SoundWire: fix timeout values" from Bard Liao <yung-chuan.liao@linux.intel.com>:
 
---===============6099303573884920375==--
+--===============0431723194153168858==--
