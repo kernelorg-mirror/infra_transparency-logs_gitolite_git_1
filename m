@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6123171652274762333=="
+Content-Type: multipart/mixed; boundary="===============9116792617031424186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 15 Jan 2021 04:06:39 -0000
-Message-Id: <161068359926.31463.16878254929962832632@gitolite.kernel.org>
+Date: Fri, 15 Jan 2021 04:06:43 -0000
+Message-Id: <161068360357.31536.3117125602748473718@gitolite.kernel.org>
 
---===============6123171652274762333==
+--===============9116792617031424186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: eff55aa42f6085938b0baa7645ad617f08ba97be
-    new: 3a7ad12e1c29d1520643d84542d0da18e9382096
-    log: revlist-eff55aa42f60-3a7ad12e1c29.txt
+  - ref: refs/heads/5.12/scsi-staging
+    old: e8e5df5edd346da87ccf2574a7c7279dbf170a45
+    new: 7f3a79a7fd51b3336781f5bd67a29ffb68eb6d2d
+    log: revlist-e8e5df5edd34-7f3a79a7fd51.txt
 
---===============6123171652274762333==
+--===============9116792617031424186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1610683597 -0500
+pusher 75C5DE3D 1610683602 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1610683597-892f237cc463027e02ac261022c558f2f615f155
+nonce 1610683601-ae05ead2898d0d8a4f707a0e3a3237cd105952dc
 
-eff55aa42f6085938b0baa7645ad617f08ba97be 3a7ad12e1c29d1520643d84542d0da18e9382096 refs/tags/mkp-scsi-staging
+e8e5df5edd346da87ccf2574a7c7279dbf170a45 7f3a79a7fd51b3336781f5bd67a29ffb68eb6d2d refs/heads/5.12/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmABFM0ACgkQ7ulgGnXF
-3j2plRAAqZsxRLiCYmwqmIK3KC//mICX7jIpTfCCZB0vFnG3xRTgHhDdKd9SsuBc
-XhQ/YJfPt4/lRiLq+YwzTf2ufpBRPlobCIb5H8rlNon+PCc+SpJE+sv2PUanpPOm
-AW5qJonqcL4gqRvWhNtz6lKFVK8RYFUb42nQGutzbhMJkhm5MHRCfpRalsF8Kn43
-0aWn1D0AhpPCLB5a+InZuf/yfGhUQJPdawat+XY5VGXTDzVnbjd4IQx1fnlPtta/
-lyrwxORESZFPEkE1rZUKwZ7VVwh31PSMk7eTFR0BoVeIn0nbmywSmzO2cxTf5RXe
-XtBSs+qP4jwje4Kx3Mdc96irQxfjLvwB5w+LDGMtLJgkAMUadFdtAWU6eoGDwy3V
-GxRqqpRiQU/yMBobaseehGhJumQRUxCUkFyiAIkpC8p9Co2wwRL8orgmOXprdUPq
-w4uC2F6Je9zqzOPkC3q4JxWrFoEygxixAzwkS8HkBCHoJp8HdIvV+jU37ywIzzos
-Zao+T4bI1I2wXZRyZ4reww5rUS9QyFJxzc1AptQt7Z/tCtN0hQCC4fohpJ4rl5Lm
-0ucg2g34vkCFzaoxUE8OStQ76yfffQcHqh6VrP2J/GFAECeT6JpB05YZibkSnsti
-nb9iI3U3MFbbcTEQilUFjBF54Bb/uOxhWgaxgcFw4MzgO/uteyk=
-=h+1Z
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmABFNIACgkQ7ulgGnXF
+3j1b5hAAtgGXjePeWxy19depv9lxlyxc9bVHA3HL0dh3Y2plyFgFST9Wq/paSuSU
+STXx6jU44ba6w+eetUcNsCH9xw7DJI2sQltobrRguprNCLStDCXeEkKbl/xfX1KK
+vqdDjgTwJtCWl8imjtkVyD5FE9mZN6o4moXgWdWSVdVmGoD1RFuRRERRLc6ogLZF
+OtZSNMGVmOTrL0ggXH5bIGoyittKjF7QFHqB73fd7Am5rC18Ka9lh7D3k/QwMnsV
+Xy/EW/gnwo8JKsC6bZij3aWLufz1LTSau+Akc6Io3xYGsQaqLg+pYkpV5EalU2MC
+YPjE0yUfZV0reVrvW63vY3VSCB1Ke4Ap1f1CC5vJSnUT85YP6sAvVTHcSlbVyhzj
+NuZMVjHeQrdL8O93OdGIJ+cSTfrmfSdvY0iWulmFr6M1Jmla5jIrYYmmyX8X5e9P
+vPBysULNZ5da94q/WLU5mGx6CoEdEPzk7hmNLOL8d0K7gNlPoz8WMXeysg7hG1vM
+oLanxOHid+7d8ZmiW7Gx5OctN1xNIDDgUFNeZUAFRcI01Q3m7qwGx3QZuCc7Vs/s
+RYmnrrJrgCu9hVeK0KimnORuKW7O6fiEGd2cMzbjLweNmOvnmtctkiWmwRQLkpeB
+t5/i/9ksJtouGsCAcflezR26YTw+46oqcOT/9iC8WPZgoC82sGU=
+=D1ih
 -----END PGP SIGNATURE-----
 
---===============6123171652274762333==
+--===============9116792617031424186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eff55aa42f60-3a7ad12e1c29.txt
+Content-Disposition: attachment; filename=revlist-e8e5df5edd34-7f3a79a7fd51.txt
 
 fb7afe24ba1b7e27483be7d2ac3ed002e67eecd5 scsi: ufs: Fix a possible NULL pointer issue
 9cd20d3f473619d8d482551d15d4cebfb3ce73c8 scsi: ufs: Protect PM ops and err_handler from user access through sysfs
@@ -85,4 +85,4 @@ a835f386f9709504a99346be011da92b5ea905e5 scsi: ibmvfc: Send Cancel MAD down each
 afdd1126940068ef06c2b4b08b85a47a3eafba5b scsi: scsi_transport_fc: Add store capability to rport port_state in sysfs
 7f3a79a7fd51b3336781f5bd67a29ffb68eb6d2d scsi: lpfc: Add support for eh_should_retry_cmd()
 
---===============6123171652274762333==--
+--===============9116792617031424186==--
