@@ -1,29 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-fixes
-Date: Fri, 15 Jan 2021 09:59:20 -0000
-Message-Id: <161070476060.4489.3897844408385470274@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4449253731729756206=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 15 Jan 2021 09:59:25 -0000
+Message-Id: <161070476552.4573.5637223810489870985@gitolite.kernel.org>
+
+--===============4449253731729756206==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-fixes
-user: luca
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: a6616bc9a0af7c65c0b0856a7508870a4a40c4ac
-    new: 24cda888e39b4263f692109e61b4788bd9fba31a
+    old: ddf43da06aa024c0f91a2c54908e8221df8b1406
+    new: e2115effbb9f79692e06fa481e01c4cdd19cedf0
     log: |
-         64a2254ac5c3ea405c1e0b12433ca465c4153b3c iwlwifi: mvm: skip power command when unbinding vif during CSA
-         4bb5ccf881a6f41258cf2118e47a96546b7279ed iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
-         929c2d6804292765f368ad09bda6c95240e6aeb1 iwlwifi: pcie: avoid potential PNVM leaks
-         85ef56c4ef8c6b7a3f172ae2b10d13c2d1754284 iwlwifi: pnvm: don't skip everything when not reloading
-         5ac6828a0bbe07165e0ff10f5f7d1de0d9087688 iwlwifi: pnvm: don't try to load after failures
-         70e67cc75d88ddc1978bfd14182582eb93a889e3 iwlwifi: fix the NMI flow for old devices
-         173359fc236d1639a5ab3f964fa5cf7ba634bd63 iwlwifi: queue: don't crash if txq->entries is NULL
-         fb819e19530b7a7380f3094a5059e848104bebc7 iwlwifi: pcie: set LTR on more devices
-         2e8da9f2c1323c9e49188ace3bb7baa8e798e9a4 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
-         f07573d898bd6f3ef07442a29becc1bfec859657 iwlwifi: pcie: don't crash when rx queues aren't allocated in interrupt
-         24cda888e39b4263f692109e61b4788bd9fba31a iwlwifi: pcie: fix context info memory leak
+         e2115effbb9f79692e06fa481e01c4cdd19cedf0 5.10-stable patches
          
+
+--===============4449253731729756206==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610704764 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1610704764-ec45ce836f0c9f7564bff4b375b0d37456e497db
+
+ddf43da06aa024c0f91a2c54908e8221df8b1406 e2115effbb9f79692e06fa481e01c4cdd19cedf0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmABZ3wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0M8P/1iW/juKCTlcYWA6wv5q
+1NNcUxRX9aJUDZwL4s0oW+cd21/z+LtnsBUe+SqLvmNK8BA10W5NOGayZVCVK+hX
+OD9Kfqv3maOeyIfr9yzTJNIxROX07DR2w0/Hb9BY24d3w7Izw42wvm6uDdmv1dA8
+TrG2DDQlrHja2gQ4CdoUI0XH7fPmVfFlJLObv6QYzVs8YM8eIa6o22K9LRO1npaN
+lJBJjG3BqpW6/tU/NjrPnHnMWZBaV+3rbcGh5o94lZ7M7boGD6YjZzo9w0/+WGac
+gcKqTCrvLXF9Sq1JEpko4l07XAFg4KGwvOrCO3jgPdYXh9o3fnOpLmhcJ99KbfqA
+tVtGF10KbXguL1wrbNc4jZzv7mnBmd3tVxqG5Xtb8afxgB8oESp9OZKBEXIaewb2
+m/21QUQus7zMjjPuXjxjxW8a2LG4qhSYbai5qldqlKTYVIOAmvyROC4xl9CUus23
+0bOhhsvVOUncBIuiCCEQYueg0LcOh2bODRuhyOl0Ad5wEa6tdMM/Jiu0zh1ZDosO
+sklv2ysqi/h0EsmxnDgvyA7N3VcV3MYsN4pLX//vW776460lKkEKvt+ZllnznBVQ
+h2NnIBfMYBoqwcvbbAPeFTFb5oO/WJa7JR0O0//2jATRuB4NbEbq5Rd1Jd5XMn+e
+wKI6UEjJyOQlj4uQB8aPN49s
+=NOin
+-----END PGP SIGNATURE-----
+
+--===============4449253731729756206==--
