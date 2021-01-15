@@ -1,64 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 15 Jan 2021 00:18:16 -0000
-Message-Id: <161066989615.6989.1676382357639319775@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7176883564032928825=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 15 Jan 2021 00:27:38 -0000
+Message-Id: <161067045807.14630.3993069412054418618@gitolite.kernel.org>
+
+--===============7176883564032928825==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/queue/4.14
-    old: bdd6da9c099fa41b822740b94b650800357d68e4
-    new: b47e2ee3b685bfd58cfa1059f911d748360bea40
-    log: |
-         b47e2ee3b685bfd58cfa1059f911d748360bea40 powerpc: Fix incorrect stw{, ux, u, x} instructions in __set_pte_at
-         
-  - ref: refs/heads/queue/4.4
-    old: b90fbdbdfe933528dbc3e2b88d13e61f861cd972
-    new: 049de8acf043a81de33933a8b7f9a3aba63c74ce
-    log: |
-         16f1282e40497f62aa306df647fefdc2a2e0e556 target: add XCOPY target/segment desc sense codes
-         f968cafa2e58dde08953fa603d90e41b3999bce9 target: bounds check XCOPY segment descriptor list
-         fe8a034a25b751ac05e53494ff575ea1e21cf318 target: simplify XCOPY wwn->se_dev lookup helper
-         29aac5102f42a5300e86d3a38f038816ef601cae target: use XCOPY segment descriptor CSCD IDs
-         66c98885f9a3da6cd651b5db35fdc736fbea265e xcopy: loop over devices using idr helper
-         63d61527d02adc28647dd1aa53c593d32aafc10b scsi: target: Fix XCOPY NAA identifier lookup
-         049de8acf043a81de33933a8b7f9a3aba63c74ce powerpc: Fix incorrect stw{, ux, u, x} instructions in __set_pte_at
-         
-  - ref: refs/heads/queue/4.9
-    old: 381823e733713997ed94858adfafadee36055b4e
-    new: b20b75acfa997cd25f3d82c7b732c3913b72ab5d
-    log: |
-         fdc3e6671f5a87a07a76f8512e62eb8bddb9ee27 target: bounds check XCOPY segment descriptor list
-         a49cdd66adcf10a66404fd9d3ca8938c6a2524cf target: simplify XCOPY wwn->se_dev lookup helper
-         ed66865e44107538e4f8be45096f2bb36b8aaa04 target: use XCOPY segment descriptor CSCD IDs
-         91ad68e75cd360be7c88f8cbcb346a12d8d1a5c4 xcopy: loop over devices using idr helper
-         195e8a8eb5f5023e706ec296b0c4f7ee09e0c9a5 scsi: target: Fix XCOPY NAA identifier lookup
-         1280e1db8c422c9bed7466e60a01b77dcd0ea03b target: add XCOPY target/segment desc sense codes
-         b20b75acfa997cd25f3d82c7b732c3913b72ab5d powerpc: Fix incorrect stw{, ux, u, x} instructions in __set_pte_at
-         
-  - ref: refs/heads/queue/5.10
-    old: ac5d1fbabdb7658c5f6d7902bc0f781594b0097a
-    new: fb5ef8b9e92f338ccadc750c0512de5eb0d24350
-    log: |
-         16bfd46c1814e73f2eca08acccc51cc664fa261e powerpc/32s: Fix RTAS machine check with VMAP stack
-         8e4fa4178e68d466302c5944f52beeed8c45608f io_uring: synchronise IOPOLL on task_submit fail
-         f5062debfa3a635ab86acd4f3a0bb56bc75c0380 io_uring: limit {io|sq}poll submit locking scope
-         3a0e63af8cb19e59bae30b55ca39779d26723646 io_uring: patch up IOPOLL overflow_flush sync
-         d0a2e57dee17706d7b8dd5b9c73e83ff3cf9c18e RDMA/hns: Avoid filling sl in high 3 bits of vlan_id
-         0f001aa02293aec8d6d31a33d8fe5d44719beb1a iommu/arm-smmu-qcom: Initialize SCTLR of the bypass context
-         f6844b84c65bbf68941c141aed30bd1b25abc2b8 drm/panfrost: Don't corrupt the queue mutex on open/close
-         7ee36715f6a163c8a4620bf676984d4361e7f099 io_uring: Fix return value from alloc_fixed_file_ref_node
-         fb5ef8b9e92f338ccadc750c0512de5eb0d24350 scsi: ufs: Fix -Wsometimes-uninitialized warning
-         
-  - ref: refs/heads/queue/5.4
-    old: dc084b4f7175a194552915edcd1eae2cf9ba158f
-    new: bd8ab322cf04ac7c69deac1bb0a9a12c68f3cf0a
-    log: |
-         cba908b58629e01b0e13a9d10ca1c4e3fa12e6bc x86/asm/32: Add ENDs to some functions and relabel with SYM_CODE_*
-         bd8ab322cf04ac7c69deac1bb0a9a12c68f3cf0a vfio iommu: Add dma available capability
-         
+  - ref: refs/heads/master
+    old: c01037293c4b7f145148f4ceb0e2d99ccd1bc2d2
+    new: 3bf679e2f7d9f332351489549369e1cfa39a421d
+    log: revlist-c01037293c4b-3bf679e2f7d9.txt
+
+--===============7176883564032928825==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c01037293c4b-3bf679e2f7d9.txt
+
+3a70a6451551c974b1e9237c9ceb04777c83a12e selftests: Move device validation in nettest
+6fc90e18994c656a18c23a2a79bf8570d6278dce selftests: Move convert_addr up in nettest
+f2f575840a598ba9a6685cdafac498be4f118757 selftests: Move address validation in nettest
+092e0ceb12f28450c8db095b5f417fde923abc07 selftests: Add options to set network namespace to nettest
+6469403c97b486285365c590a8f9eaad9c72f5c5 selftests: Add support to nettest to run both client and server
+f222c37cf75a8a626a0ca9435378e9f87b0239f1 selftests: Use separate stdout and stderr buffers in nettest
+db9993359e58761e04d0dbee098dbf74d6a1dda8 selftests: Add missing newline in nettest error messages
+9a8d584964fc808080a855b435507fe5094f2160 selftests: Make address validation apply only to client mode
+a824e261d7cd95b0f04a3feff51f8e0fe2881b44 selftests: Consistently specify address for MD5 protection
+d3857b8f0d192e0313990481d223e554db7d878e selftests: Add new option for client-side passwords
+8a909735fa29fb700fef064b339988ff404d2d72 selftests: Add separate options for server device bindings
+f26a008c45122d85f8b753f861464b136a1d3ae5 selftests: Remove exraneous newline in nettest
+5265a0142f57b10f57b5795e0dba90edfd127803 selftests: Add separate option to nettest for address binding
+3bf679e2f7d9f332351489549369e1cfa39a421d Merge branch 'selftests-updates-to-allow-single-instance-of-nettest-for-client-and-server'
+
+--===============7176883564032928825==--
