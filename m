@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Fri, 15 Jan 2021 00:58:02 -0000
-Message-Id: <161067228254.1323.14238400706504612379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Fri, 15 Jan 2021 01:10:17 -0000
+Message-Id: <161067301781.12859.11841198153229374457@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 875f00c204fab53d44cb728927a7e248193c2d6b
-    new: 16b20002b6b0331242c7f439e6075c90c996db8c
+  - ref: refs/heads/numa
+    old: dacbc74c2c6cac7227b6fbf2ea60a2e1cec933c1
+    new: 78645ba729e2f56859c820f3b4e7a009f024a390
     log: |
-         16b20002b6b0331242c7f439e6075c90c996db8c toolsoftrade: Updates and wordsmithing
+         78645ba729e2f56859c820f3b4e7a009f024a390 x86/sgx: Synchronize encl->srcu in sgx_encl_release().
          
