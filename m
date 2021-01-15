@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5889651392869511783=="
+Content-Type: multipart/mixed; boundary="===============5736751629033068467=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 15 Jan 2021 17:15:03 -0000
-Message-Id: <161073090321.3716.11999941752356258692@gitolite.kernel.org>
+Date: Fri, 15 Jan 2021 17:16:43 -0000
+Message-Id: <161073100323.4362.15811169879111740763@gitolite.kernel.org>
 
---===============5889651392869511783==
+--===============5736751629033068467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,68 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
-    old: bac717171971176b78c72d15a8b6961764ab197f
-    new: 8a996b2d8a03beae3cb6adfc12673778c192085d
-    log: revlist-bac717171971-8a996b2d8a03.txt
-  - ref: refs/heads/berlin/dt64
-    old: 0000000000000000000000000000000000000000
-    new: ec13e5027261c7a09e70b309050a858076bae5a0
-  - ref: refs/heads/berlin/dt
-    old: 0000000000000000000000000000000000000000
-    new: 7706e376f5311487099f5243875bf608347c915f
-  - ref: refs/heads/arm/dt
-    old: 0000000000000000000000000000000000000000
-    new: f791f1a498fbef783e7711db9f597de7d85b661a
-  - ref: refs/heads/arm/platform-removal
-    old: 0000000000000000000000000000000000000000
-    new: bd97ad35e816daf9a72ee35d3524d8417f7cf414
+  - ref: refs/heads/for-next
+    old: 9b28a2eacfe4fc0ca91c3cebaff7496e47bc1f68
+    new: 5297ef205781b1264f5d756a1dd2113d58d4b641
+    log: revlist-9b28a2eacfe4-5297ef205781.txt
 
---===============5889651392869511783==
+--===============5736751629033068467==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bac717171971-8a996b2d8a03.txt
+Content-Disposition: attachment; filename=revlist-9b28a2eacfe4-5297ef205781.txt
 
-d64c6f96ba86bd8b97ed8d6762a8c8cc1770d214 Merge tag 'net-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-8bee683384087a6275c9183a483435225f7bb209 xsk: Fix memory leak for failed bind
-8bcbe3132c66c07d03f64d5da80be753359f2e92 device-dax: delete a redundancy check in dev_dax_validate_align()
-f1340265726e0edf8a8cef28e665b28ad6302ce9 iavf: fix double-release of rtnl_lock
-e13300bdaa68f5487000e66baed1ff69bcb510bf Merge tag '5.11-rc-smb3' of git://git.samba.org/sfrench/cifs-2.6
-787fec8ac15cc693b9a7bc1b4a338b92483d993c Merge tag 'for-linus-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
-345b17acb1aa7a443741d9220f66b30d5ddd7c39 Merge tag 'for-linus-5.11-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
-a409ed156a90093a03fe6a93721ddf4c591eac87 Merge tag 'gpio-v5.11-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-gpio
-6a29ab57f4e903264ea7b6663352244379c0a8e5 cifs: Delete a stray unlock in cifs_swn_reconnect()
-eedf8e88e5f08d95e1c6a33189bb4cdf2db5b79f cifs: Unlock on errors in cifs_swn_reconnect()
-0f2c66ae5c8d9c6250d97060902eeeaa8a06446c cifs: Re-indent cifs_swn_reconnect()
-f6f92968e1e5a7a9d211faaebefc26ebe408dad7 ath11k: qmi: try to allocate a big block of DMA memory first
-e9603f4bdcc04417f1c7b3585e63654819dc11f6 ath11k: pci: disable ASPM L0sLs before downloading firmware
-2ccf2e03868455e508b4dc9fbd1bb1daebf2222e Revert "drm/i915: re-order if/else ladder for hpd_irq_setup"
-dd0e2193b1e41efe611d265cea2719df4e59560f drm/i915/perf: also include Gen11 in OATAILPTR workaround
-0e53656ad8abc99e0a80c3de611e593ebbf55829 drm/i915: Fix mismatch between misplaced vma check and vma insert
-046f70d31ddb2069941aec54966fec5b7fbc7b7b drm/i915/tgl: Fix REVID macros for TGL to fetch correct stepping
-0bf1bafb17df03fbd0e8b9a086c39e6f24af7193 cifs: Avoid error pointer dereference
-29c9dece56ca82c510c39a0e9403b80bdb3032d6 drm/qxl: don't allocate a dma_address array
-3d45f221ce627d13e2e6ef3274f06750c84a6542 btrfs: fix deadlock when cloning inline extent and low on free metadata space
-9a664971569daf68254928149f580b4f5856d274 btrfs: correctly calculate item size used when item key collision happens
-ae5e070eaca9dbebde3459dd8f4c2756f8c097d0 btrfs: qgroup: don't try to wait flushing if we're already holding a transaction
-0b3f407e6728d990ae1630a02c7b952c21c288d3 btrfs: send: fix wrong file path when there is an inode with a pending rmdir
-675a4fc8f3149e93f35fb5739fd8d4764206ba0b btrfs: tests: initialize test inodes location
-ea9ed87c73e87e044b2c58d658eb4ba5216bc488 btrfs: fix async discard stall
-1ea2872fc6f2aaee0a4b4f1578b83ffd9f55c6a7 btrfs: fix racy access to discard_ctl data
-8fc058597a283e9a37720abb0e8d68e342b9387d btrfs: merge critical sections of discard lock in workfn
-cb13eea3b49055bd78e6ddf39defd6340f7379fc btrfs: fix transaction leak and crash after RO remount caused by qgroup rescan
-638331fa56caeaa8b4d31cc1dfbe0ce989bcff67 btrfs: fix transaction leak and crash after cleaning up orphans on RO mount
-a0a1db70df5f48576fea6d08f0a69c05f3ab4cf4 btrfs: fix race between RO remount and the cleaner task
-0a31daa4b602ff6861fdf182236d64b2a353bace btrfs: add assertion for empty list of transactions at late stage of umount
-a8cc263eb58ca133617662a5a5e07131d0ebf299 btrfs: run delayed iputs when remounting RO to avoid leaking them
-660a59953f4ff8a4958e73f7618445ff537582b2 drm/nouveau: fix multihop when move doesn't work.
-f96f62597ea48cc15d6b16bddf05dc25437dcf2d drm/qxl: don't allocate a dma_address array
-f09ced4053bc0a2094a12b60b646114c966ef4c6 xsk: Fix race in SKB mode transmit with shared cq
-b1b95cb5c0a9694d47d5f845ba97e226cfda957d xsk: Rollback reservation at NETDEV_TX_BUSY
-e79bb299ccad6983876686a4d8c87c92ebbe5657 selftests/bpf: Fix spelling mistake "tranmission" -> "transmission"
-0020ef04e48571a88d4f482ad08f71052c5c5a08 io_uring: fix io_wqe->work_list corruption
-dfea9fce29fda6f2f91161677e0e0d9b671bc099 io_uring: close a small race gap for files cancel
 d467d80dc399ba77875d647f2f37b7d1a70d94c2 bpf: Remove unused including <linux/version.h>
 4efd7faba5e0687ae9143b7e6a19547ede20a7dd Merge tag 'drm-intel-next-fixes-2020-12-18' of git://anongit.freedesktop.org/drm/drm-intel into drm-next
 55d2eba8e7cd439c11cdb204898c2d384227629b jump_label: Fix usage in module __init
@@ -588,8 +537,21 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 a3fd28306329e8e82efab973aafe81e9001dcf6f habanalabs: add validation cs counter, fix misplaced counters
 fcaebc7354188b0d708c79df4390fbabd4d9799d habanalabs: register to pci shutdown callback
 097c62b6f0ec2bdadf86afbe80df03856338724d habanalabs: fix order of status check
+0d2a7e15d7912aa27dd3366f75d181b5141ca9a2 dt-bindings: arm: renesas: Add Beacon RZ/G2N and RZ/G2H boards
+5edf8bd6f4a225f7ad0501f921f9717df152e7fb arm64: dts: renesas: rcar-gen3: Add missing CMT nodes
+4e4c17c6c3907dfc34051cc450a78a38fb371b4f arm64: dts: renesas: rcar-gen3: Add missing TMU nodes
+db030c5a9658846a42fbed4d43a8b5f28a2d7ab7 arm64: dts: renesas: beacon kit: Fix choppy Bluetooth Audio
+ac817b5a084dc8005266a748de33eedcbb772e04 arm64: dts: renesas: beacon kit: Remove unnecessary nodes
+5a5da0b758b327b727c5392d7f11e046e113a195 arm64: dts: renesas: beacon: Fix audio-1.8V pin enable
+012f3e37ca134da45af742a2d7971c513cb761d9 arm64: dts: renesas: beacon: Fix LVDS PWM Backlight
+7f1cb1579808f97bd211b4ad16c82f2dc191c709 arm64: dts: renesas: beacon: Fix RGB Display PWM Backlight
+a48f3c13689c65bcf4e7ff1b6a974beeeb9f48e5 arm64: dts: renesas: beacon: Don't make vccq_sdhi0 always on
+7e0fac6a0da54557230ac3898688f37392404cdf arm64: dts: renesas: beacon: Enable SPI
+900d9fc3becefd050bf54c1b98e368ce6463580e arm64: dts: renesas: beacon: Correct I2C bus speeds
 95cd4bca7b1f4a25810f3ddfc5e767fb46931789 netfilter: nft_dynset: report EOPNOTSUPP on missing set feature
 b4e70d8dd9ea6bd5d5fb3122586f652326ca09cd netfilter: nftables: add set expression flags
+f4b30c0a03a9edb3e70cbd7abe65fc6c3033fb20 arm64: dts: renesas: r8a779a0: Add RWDT node
+d207dc500bbcf8c6e1cbad375b08904f984f9602 arm64: dts: renesas: falcon: Enable watchdog timer
 2ca408d9c749c32288bc28725f9f12ba30299e8f fanotify: Fix sys_fanotify_mark() on native x86-32
 512d4a26abdbd11c6ffa03032740e5ab3c62c55b interconnect: qcom: fix rpmh link failures
 c6174c0e058fc0a54e0b9787c44cb24b0a8d0217 interconnect: imx: Add a missing of_node_put after of_device_is_available
@@ -1009,7 +971,12 @@ a0195f314a25582b38993bf30db11c300f4f4611 x86/resctrl: Don't move a task to the s
 ef8048dd2345d070c41bc7df16763fd4d8fac296 block/rnbd: Adding name to the Contributors List
 3a21777c6ee99749bac10727b3c17e5bcfebe5c1 block/rnbd-clt: avoid module unload race with close confirmation
 02f938e9fed1681791605ca8b96c2d9da9355f6a blk-mq-debugfs: Add decode for BLK_MQ_F_TAG_HCTX_SHARED
+bac717171971176b78c72d15a8b6961764ab197f ARM: picoxcell: fix missing interrupt-parent properties
 84e261553e6f919bf0b4d65244599ab2b41f1da5 hwmon: (amd_energy) fix allocation of hwmon_channel_info config
+0c08a1c1d7d8524716c8e6e8565f969e0a0910de ARM: dts: Remove PicoXcell platforms
+665a8799b05ea1b396ece2f28823f49862287922 ARM: Remove PicoXcell platform support
+35d09d1ad45160101733f116d1283907d8a28ee2 Merge tag 'v5.11-berlin-dts64' of git://git.kernel.org/pub/scm/linux/kernel/git/jszhang/linux-berlin into arm/dt
+b9e7773e229dd338ee53e225cb69c983cb74683d Merge tag 'v5.11-berlin-dts' of git://git.kernel.org/pub/scm/linux/kernel/git/jszhang/linux-berlin into arm/dt
 24e8ab6886d80fe60b1d4e64b6d9f15ea9ad597a Merge branches 'acpi-scan' and 'acpi-misc'
 a91bd6223ecd46addc71ee6fcd432206d39365d2 Revert "init/console: Use ttynull as a fallback when there is no console"
 ef0ba05538299f1391cbe097de36895bb36ecfe6 poll: fix performance regression due to out-of-line __put_user()
@@ -1058,9 +1025,30 @@ fd25c883667b61f845a4188b6be110bb45de0bac ARM: dts: tbs2910: rename MMC node alia
 097530bf8cd469ef7b3d52ef00cafb64b33bacb1 ARM: imx: fix imx8m dependencies
 70b6ff4c549a62b59b286445f66cfec6c5327ac8 ARM: dts: imx6qdl-kontron-samx6i: fix i2c_lcd/cam default status
 5a22747b76ca2384057d8e783265404439d31d7f ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
+fe82bb4db5339ebe8175b0ff2d45757472c0415e arm64: dts: renesas: beacon: Configure programmable clocks
+b29120d6cfa978ae0721af855afbae3137c8e66d arm64: dts: renesas: beacon kit: Fix Audio Clock sources
+dc3dba98d2d31420a263b726e5c0a25aa7122e85 arm64: dts: renesas: beacon: Configure Audio CODEC clocks
+e718d563750db293e84f826be9e7ab49d8e4b97e arm64: dts: renesas: beacon: Better describe keys
+33aaab6d5c634784ecf5612e7ac11346adac8d6b arm64: dts: renesas: beacon-rzg2m-kit: Rearrange SoC unique functions
+ed6ae131b0e88260d593fb3f02561de25ffc1045 arm64: dts: renesas: r8a774b1: Introduce beacon-rzg2n-kit
+4d0e87eb6f54422418a2d985433866535856b6bd arm64: dts: renesas: r8a774e1: Introduce beacon-rzg2h-kit
+e1076ce07b7736aed269c5d8154f2442970d9137 arm64: dts: renesas: rzg2: Add usb2_clksel to RZ/G2 M/N/H
+8811955d0a6d0abfa3e1c0cee30090fda0015069 arm64: dts: renesas: rzg2: Add RPC-IF Support
+73feebad9e056cfe5f444acd5b61f3d0d5ec74bb arm64: dts: renesas: r8a779a0: Add pinctrl device node
+dfacaef96cbf871be23b4e2613818a9658f23817 arm64: dts: renesas: r8a779a0: Add GPIO nodes
+1f4449e12c5c6682a6f4f8dbc7288c19c1c844f1 arm64: dts: renesas: r8a779a0: Add SYS-DMAC nodes
+2555a610906b741e2f399401e39111db91c07c6c Merge tag 'renesas-arm-dt-for-v5.12-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/dt
+7a367cc8d61e2542b0614cc7c8257a08a694c4e6 Merge tag 'renesas-dt-bindings-for-v5.12-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/dt
+cc6111375cec44890218e5be654884f8b7bfc566 ARM: drop efm32 platform
+bd97ad35e816daf9a72ee35d3524d8417f7cf414 MAINTAINERS: Remove deleted platform efm32
 8880bf6de400346600cb334f236cce924558690f Merge tag 'imx-fixes-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
 1740e6736922cc1a5d061cc4240d08eacfbbaa71 bus: arm-integrator-lm: Add of_node_put() before return statement
 2004e62a2a06b9029f7d728a0b5d19a499569184 arm64: defconfig: Drop unused K3 SoC specific options
 8a996b2d8a03beae3cb6adfc12673778c192085d ARM: dts: ux500: Reserve memory carveouts
+f791f1a498fbef783e7711db9f597de7d85b661a dt-bindings: vendor-prefixes: Fix misordering introduced by honestar prefix
+6aba219b915dbeb7060728683c5828fc6aabcc47 Merge branch 'arm/fixes' into for-next
+de69a697b2b00cc4878664a3046686311f5018fe Merge branch 'arm/dt' into for-next
+c8e4564d2045f53a1ab9053190f64eb376ecfad5 Merge branch 'arm/platform-removal' into for-next
+5297ef205781b1264f5d756a1dd2113d58d4b641 soc: document merges
 
---===============5889651392869511783==--
+--===============5736751629033068467==--
