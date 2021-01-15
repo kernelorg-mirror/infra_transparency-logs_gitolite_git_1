@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4328464520277943471=="
+Content-Type: multipart/mixed; boundary="===============7487226627400001051=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 15 Jan 2021 03:13:36 -0000
-Message-Id: <161068041687.27623.9940507758217964562@gitolite.kernel.org>
+Date: Fri, 15 Jan 2021 03:13:48 -0000
+Message-Id: <161068042847.27778.16700387909501087113@gitolite.kernel.org>
 
---===============4328464520277943471==
+--===============7487226627400001051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: bade5c554f1ac70a50cefe96517957629dbc0d8f
     new: 7064a7341a0d2fcfeff56be7e3917421fbb8b024
     log: revlist-bade5c554f1a-7064a7341a0d.txt
 
---===============4328464520277943471==
+--===============7487226627400001051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ c5bcb5eb4db632280b4123135d583a7bc8caea3e bpf: Move BPF_STX reserved field check 
 de948576f8e7d7fa1b5db04f56184ffe176177c5 bpf: Document new atomic instructions
 7064a7341a0d2fcfeff56be7e3917421fbb8b024 Merge branch 'Atomics for eBPF'
 
---===============4328464520277943471==--
+--===============7487226627400001051==--
