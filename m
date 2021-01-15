@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0143902442322025660=="
+Content-Type: multipart/mixed; boundary="===============8327995840922211658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 15 Jan 2021 06:27:54 -0000
-Message-Id: <161069207408.25655.9985216556423362692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 15 Jan 2021 06:34:05 -0000
+Message-Id: <161069244507.28850.5908281785081102715@gitolite.kernel.org>
 
---===============0143902442322025660==
+--===============8327995840922211658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 4540b9fbd8ebb21bb3735796d300a1589ee5fbf2
-    new: 20612d2428c3cdd191d45d548e930f41785f62cc
+  - ref: refs/heads/usb-next
+    old: 67004e130aafad4c9e0ad3fff9cf67227b6347be
+    new: 5dc71f1eb8706450b6a30ffd0cd1bd67dd131daa
     log: |
-         20612d2428c3cdd191d45d548e930f41785f62cc fpga: dfl-pci: rectify ReST formatting
+         132ee0da6e9f55e6c8b2102a04a5553e20391824 usb: dwc3: gadget: Disable Vendor Test LMP Received event
+         16bcc58e1dabc4db0e14de259cd5c60c77f47250 Documentation/devicetree/bindings/usb/dwc3-st.txt: update usb-drd.yaml reference
+         e793c2a3d376fdb2fd3524215ca9f4927d933118 dt-bindings: usb: update snps,dwc3.yaml references
+         5dc71f1eb8706450b6a30ffd0cd1bd67dd131daa USB: dwc3: document gadget_max_speed
          
 
---===============0143902442322025660==
+--===============8327995840922211658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610692065 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1610692065-5e56a51e2ceeec63ea92d1cdafeb4fcc36c1e022
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610692436 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1610692436-35677dec27347b6510010a9ded618bbc0069377e
 
-4540b9fbd8ebb21bb3735796d300a1589ee5fbf2 20612d2428c3cdd191d45d548e930f41785f62cc refs/heads/char-misc-next
+67004e130aafad4c9e0ad3fff9cf67227b6347be 5dc71f1eb8706450b6a30ffd0cd1bd67dd131daa refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmABNeEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YdsP/1bv4b77N/5LXIxN512O
-GjWWpcwFGHSXmMxNXW/IeW/nLDL87JvUP0DdMCtb5+OW28WN9i9lo4OHcqekprvA
-Q8PlSbDfwLCOb23Wd9FRtq9SM3pbpQq562ejclROhJIWJUrLglL/BNdXKdNc0eiQ
-JfUskRcXB/RI84LGjEdrkyp1WgGeGaG0TE0HDmYMUzoOXM8cjCDDM51A4YeOtfOJ
-ZR2c5QBAYSWzF7QxRyKlzbIcYDl5Xrv0CKTw4fyNfuinUO8/09V19DX/7SNXyQvm
-WtdP82ak1EgjzkgAzHdkirOnK50FSPhZALFabze0/2FFDD7/UQwxyU2D5EVUnHzE
-n15srOBmQH1UUUnMJc6EFjdFDkIv5meTZaUEhM100c1CNwQWZXZHj3SO+7ThuDa2
-FhVFnVqRR9M62rScPGhmGrB8t3XfP0On7l//ZEdlFuhVF0QWLwvip6faALsmoO7V
-+kzKmlwsuA04/FLTwfiDAQxh07GPD16gHphN3CIQLHyDibO3ATioZ7r0Rx1ETSbo
-4V9VDFTRe8bEY9Zgy9Va/cbry1WNHYN04oplrgCXKAL5rlXOLKdSe2G2e39pgpDO
-MjYYqjGlE0yfN4jIKIkwGIxzNh7MQf3AHaI097SvNHwOT13wE1u398ejiiyLPsZ+
-1dq2fDJqCmGHb/NuqgNp4Dyv
-=FE37
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmABN1QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ncoP/3Ra+AWmT6sQSc1Nb+PA
+EAs1CTVby05lYnX5SL4u4kmO3KD3xgO69q8Lp+omwIXehZ9SOBnxFSuoA5mpC4po
+PaElcJGTOoDR0TXqORKQTynN6iik0cEp7Yp+C1wqUQiWBoQeDVwMhXgbDD2fg02c
+3Ssn6ddykSlQpO2tN9x4Kx7wGmPmaiB+kK/t7M1faX5tR/rrkpecCmtcr8gn21MU
+xIQB5JhF9JQVS0RzwXvZSbXQLPIJU7sPrTlC6At4U/f/C0NPttE/tQOy7KQ/uy/j
+9nWq6G8SvY9gvuP7Ts3fNum9TStLTfjShIIfyjM5LgTW4wMWlvBP7goH97kBI7hm
+cAaOR1x4Okw6iGNSud5G/YGUH9d3b1jxQEQ4Iie+3fNGsnng9kAOzHrf9oJuo9jN
+NGYlE2WIe2me0ZQ9ad/xdJIWrM2goilbrBYoak2n551w4+HG+UF7QgV0Q5+Bchai
+ifdoDBeG3G7cXIlZlGblYJ6/D17Zw0nrewjIHIHDHbzgiebCvHnUX/T8QA9NB2Ca
+KJu9L18yq0sieAJRSJCGU7hk1RnPtFIyX+pBcafax1rcgrNSBExk0sOVltoyThLD
+Gw6MCD7UKvYGiio1to919SgtyWpCTvudbv3ywtozHit2EpA1MbmukL28kicWbCAu
+AqCFHAk1YT0uWtaPUEbmo/yB
+=HrTR
 -----END PGP SIGNATURE-----
 
---===============0143902442322025660==--
+--===============8327995840922211658==--
