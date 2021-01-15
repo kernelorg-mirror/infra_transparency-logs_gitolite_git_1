@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8163148769069047732=="
+Content-Type: multipart/mixed; boundary="===============5546025848875255984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 15 Jan 2021 15:00:51 -0000
-Message-Id: <161072285171.14785.12931975177974342314@gitolite.kernel.org>
+Date: Fri, 15 Jan 2021 15:02:04 -0000
+Message-Id: <161072292439.15280.8412383670905390900@gitolite.kernel.org>
 
---===============8163148769069047732==
+--===============5546025848875255984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 5dc71f1eb8706450b6a30ffd0cd1bd67dd131daa
-    new: c86cad04dcc8cc07e0befece5e87175c5c71dd4c
+    old: c86cad04dcc8cc07e0befece5e87175c5c71dd4c
+    new: 64b68b68d2adf022ad5b557891c615e3fc55e589
     log: |
-         c86cad04dcc8cc07e0befece5e87175c5c71dd4c drivers/usb/gadget/udc: Assign boolean values to a bool variable
+         539ee0e474ac7fb98c553ca7b49fcc2a1234da69 software node: Introduce device_add_software_node()
+         86c947e3aa5f8aba4c6b85d245ddd6e0e8e9a114 usb: dwc3: pci: Register a software node for the dwc3 platform device
+         64b68b68d2adf022ad5b557891c615e3fc55e589 usb: dwc3: pci: ID for Tiger Lake CPU
          
 
---===============8163148769069047732==
+--===============5546025848875255984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610722843 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610722915 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1610722842-31a028e33ceabd12997c9b05cb378c3fa48a263d
+nonce 1610722915-15e0846a46fe84c2775ff721683713b709c21a19
 
-5dc71f1eb8706450b6a30ffd0cd1bd67dd131daa c86cad04dcc8cc07e0befece5e87175c5c71dd4c refs/heads/usb-testing
+c86cad04dcc8cc07e0befece5e87175c5c71dd4c 64b68b68d2adf022ad5b557891c615e3fc55e589 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmABrhsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9mwQAK8p4QAEgLnvFce5GbTx
-0k0slcFYJWR1TXw5JevLHaZtNj/9uqG4GuPOlIUHNfFwm7QcMkNnboS/eoWNGLKc
-0nQZSdK5J/rj67VsfmX/9WCMw+m7mdM+jfkK/jZaOroq2JcruTMC0D6cOFjmoH0v
-2/FBlo2NA2vCgC3J4s1EAfTJ/xBUpbLCA1U2knuleOVmWblogjctbN+cm6Kzr6QI
-1hepQ6uSFt1C5slgEpfps12kySIiH/5A6xcG4rNJASOUe5BHPqf7HjK/X7L2LbrH
-dNxXSobX7DlkBO+qIJ70Wup48syFhMjBkCQrmk7NC1SmhA9ik5Xk1HgkFOKYk0it
-C7jhTQa1ehglUmQfqD0gN3TkCtCLLnWDbVRdh4mOZRvwc0FQXGeyXEGVNU3vw63D
-sEFhhkRi7fhkfDAZPuohL1hrpG1dM3TL7nIEghQD5gfFsS/gshtgZxjFH+n4yQ23
-KZWUxNDiFUhJX4IaUGwlJ4PiVsD+udiUdPBAZ1O+HJDuS3i2Gd1S6v83dGZGuoeE
-37KS7kJRsk/HEU845+Wyq4OS4o4pU46OOqCydzyby3hdWz0xrckfawQ4eMGwM1FO
-4ofi1M6gEGgMVjhkTvt1uAwImc8Op+O+tFMGa5XTf3FellB1tsdHIqwYYUYBeD73
-Qk1d4nfqf8dDZ98yczPmBhAN
-=7p/k
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmABrmMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+seAQAIeh7OQliFdER28W7SSb
+byRDobMO0fscNvAQwPIuDhlbP9T3rUeMFKQMwl4G96n4OzM/DsCJfgvi4gCMJA8d
+Z60n0EU9MgNC5OwzlC1i4JWENgLcIqqNagzRHovjhgzsKdr7QJ5znW0YPenZuzTu
+XqOurCoEI7dRmZpBKWOuB59ejQ56W3EG5C/DpgUTLm8S4JZfPXnZF0/9NjWp0o37
+OiLmaTVIxqQce/0HnNfRNAR5050zju5N2lo/rqL0ZI8g03esSCaCqvlJjr5qWde9
+1xLw+AOVcazEJdXjhSid13pz3N0RFJaOH2E3ZR4aLSFT3BUkRoOm+AKQLA7pq8fw
+eG+MHmVauwlrE6khmz5vTKUf6zw0D2Gl7ifth4rzuurv4lXB9BE6WtZoeRAMdXs8
+8DUq2imfQbFRLBm/d1k+3ZGPqj79LhYZMjVM09owew0ZEEaj+Fp9DN97KFRfXIe4
+wE/B1zTwnQJEX6vrIphiKkp5oKu6KrEfEo2ywnqcvpaBBFynHSt7soeLomhjMpG6
+1xaJM8NiuysesiTkJbcB0ArQ4ztHV3N9wTsplgAERfo7aUfkKQzEI3owmOjTkeNZ
+/oJuWvduO0ijuTfC82NB+VQGC1OENZWm+jk0rbQ+ZR1Yzep9IKRnHudhnk/3MqrU
+wZpx5silrQ8YBoj/6slZOkQE
+=HeWl
 -----END PGP SIGNATURE-----
 
---===============8163148769069047732==--
+--===============5546025848875255984==--
