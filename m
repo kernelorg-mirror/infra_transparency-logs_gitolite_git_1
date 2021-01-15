@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0391615313305276621=="
+Content-Type: multipart/mixed; boundary="===============4549103837028727319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 15 Jan 2021 10:10:34 -0000
-Message-Id: <161070543457.13446.5283437655135515765@gitolite.kernel.org>
+Date: Fri, 15 Jan 2021 10:10:36 -0000
+Message-Id: <161070543682.13528.7756720309995185132@gitolite.kernel.org>
 
---===============0391615313305276621==
+--===============4549103837028727319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,79 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 675cc038067f0e530471c56a7442935f84669d95
-    new: 90344613450054f04f87a8cda9abc1a7ca4d576a
-    log: revlist-675cc038067f-903446134500.txt
+  - ref: refs/heads/linux-5.4.y
+    old: a829146c3fdcf6d0b76d9c54556a223820f1f73b
+    new: 3680d22d496a32bc3075d58b09ba3a76b55f1cbe
+    log: revlist-a829146c3fdc-3680d22d496a.txt
 
---===============0391615313305276621==
+--===============4549103837028727319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610705433 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610705435 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1610705432-c02ccc887a6411fbd761b7aa694f52949d8c6024
+nonce 1610705435-3e788fb4a623b42164810a9db146edbfb6e7d15d
 
-675cc038067f0e530471c56a7442935f84669d95 90344613450054f04f87a8cda9abc1a7ca4d576a refs/heads/linux-4.19.y
+a829146c3fdcf6d0b76d9c54556a223820f1f73b 3680d22d496a32bc3075d58b09ba3a76b55f1cbe refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmABahkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n64QANRGq2+eDcPBHGPAY92z
-yciI+D+lmogET85q5mAx9EbATfgNftOQLxIOhQiIGPF/wQLvuzydJmsSoD/cghdk
-W0vpSJeeWxB79lWr2/Q/BXkl1jcrXyWkiP6eBpG+nP8d41niQd70pBEZoAocYz7R
-sWMtuAjvDYhKtZra7bQJYv0dja/qz65FSa0Iuwrp4i7z6x+rccQEOh/yMjtkcnef
-WJuas6IqRPekxS0JhGTLUPga0WNMw3Q4jpRM5wXqH890vP1eVClpVmgCtJ8a33bc
-LDm4loxHfogqttP9i0mbJs1LlSEv8mwOHoetymLa09ROyPGx9PtULgQovOsZ2d27
-y1tSu8hZLmn3YLqZXpDVjfc+/DvFFrBoba3Hs3h8GtswwxsYAZM7dgMDhSWrJxEa
-yghJ3MzZZ3xB+AT9TN8WI8+UMpmITLt3ohwqbc3ZkKyK5GiQHFFcENU8HJ408Rt3
-YwgvMbwnRxwS2sGsmVG89VIkNnBs5aZRa1ulboLFVux7YSjeMlS6blQsKrHEUANz
-WRWNC4VORdUxlKjbu/phmo3pVi60k8BMBTL0Y1oAIC/roKk8PHAg8PNDA9s2qilK
-UYyaqZm0oduGB+w8prrww9RoVfocw10bxeMGDHQc28PSNgCDR5+gkbVDf7btPtux
-sy4sl12SNqPizenH5hknYbZK
-=y7Rg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmABahsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YSAP/RU+qMxVy+FSTInjcG9x
+B/uYrYVzU6wyYpyIyW1D8mDEUgh4ctijraPEfszOpIQ3zTZzZIPDsAH/CjRdWOw8
+HiCuyLUcBbePEbsQBtN9XzNvGed/vOmlmjJpzPwBz2V3OTKYadjTXOwSragzjNwj
+iTsXKiAq8Ci7DeVol3RyRFru3YbXkEY/1mUZxrMmEE7sdbUrp8fw4BGOTjOxNpQG
+9N8zptt+R112HnVTDVIGx/L6H6/RhxZzTpLvCS+JuG3xTq/GA2b3HZNRSueHettE
+PV6mUm+8S/qwGcUj8bmRI34Nka94LruaGPo2tAZuyw76KBLYAKroHSY3hiW0Y9Tp
+tPMHLMD062kh87dS4E5Xl6EE5rZtTxadGqFu7O2R+zxU/6UjqT8JzRAKLHG/xD5/
+8OuewqbWo4qtkWPcKD335VvbjkFDbfc82+1V8VC3krQrTcBg0TVLj2lpoMgQZbJX
+p+1qAjP0yZMklusBw6AyKaC6SuSTJQbURmYrM9U87ThJr46jRR7bMPGqsK4Ki5+G
+Tqtpl0GdHutYcSin18wiGsFEU7XzzkJwass/P8vRxdk16VqLExYcBsVJQZUfjLvM
+vdAWpH9kyeGoQGTxvvTd1SGcx/7IKPXDagYmqBFgnDYzgd4xdPJXIzXU9RjRncft
+6fom+5FRVr7c7qCTkWhbUKbI
+=tUG/
 -----END PGP SIGNATURE-----
 
---===============0391615313305276621==
+--===============4549103837028727319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-675cc038067f-903446134500.txt
+Content-Disposition: attachment; filename=revlist-a829146c3fdc-3680d22d496a.txt
 
-b01498280b03df441e613d0cea33cc404acc4e0d net: cdc_ncm: correct overhead in delayed_ndp_size
-dbbbe6d10f02558cdac29ac11535858f627a8748 net: hns3: fix the number of queues actually used by ARQ
-a9caad18e804a09cffbbd0a195efec6cccefd212 net: stmmac: dwmac-sun8i: Balance internal PHY resource references
-4d851d3535131c673e4712c33af9eb713d426e67 net: stmmac: dwmac-sun8i: Balance internal PHY power
-77b32b90812d2f6f5efc441d05309fd1f9583600 net: vlan: avoid leaks on register_vlan_dev() failures
-615314e7e98cd7aabefa548c4e4c7a8dcd83e7e9 net/sonic: Fix some resource leaks in error handling paths
-fb430647ca57c2daf504d85311158354f44773a0 net: ip: always refragment ip defragmented packets
-5bb64b2b804592fc061780932852a3c5fb18a748 net: fix pmtu check in nopmtudisc mode
-d41d6ef294f95dfe5b268ddc6409dec0b23f97af net: ipv6: fib: flush exceptions when purging route
-63105906f107af98287c121714bb68af5a0adf2c chtls: Fix hardware tid leak
-7a106c27e5ef403891fa3800a360ea96f9280071 chtls: Remove invalid set_tcb call
-fbdc88cdc2a3ce4d5a90f4e159fa25761b624fb0 chtls: Fix panic when route to peer not configured
-1f01cb985eacf8dc55f4fb282b1f95f30ad4e874 chtls: Replace skb_dequeue with skb_peek
-6cbea12f460682bd34bae30674713252c97bfc48 chtls: Added a check to avoid NULL pointer dereference
-ec0a01662399c81a4fad5474208529c3193ab6e0 chtls: Fix chtls resources release sequence
-42ead0292bd3289cf951a4e8c83619314ce281cc x86/resctrl: Use an IPI instead of task_work_add() to update PQR_ASSOC MSR
-e71a26c6bd2391f1d06c4f673478671c28ac1ef2 x86/resctrl: Don't move a task to the same resource group
-6009df7d4ed3a5207bf3c4fd14b4d8c75c2f2740 vmlinux.lds.h: Add PGO and AutoFDO input sections
-b000612e7fd5d5f30ff5a21fbddb962096c0b8bb drm/i915: Fix mismatch between misplaced vma check and vma insert
-16c7c188dd583fbbc2c608c28dd6210b3c95b4ab spi: pxa2xx: Fix use-after-free on unbind
-219a47f475ecb5357b95a5705bc6186d44fc7d21 iio: imu: st_lsm6dsx: flip irq return logic
-eb6e873c9aca1855dfa396546e1d3a49676527d3 iio: imu: st_lsm6dsx: fix edge-trigger interrupts
-bdc8f4c44a8f7f377a9f6b04bd5ef0201338f379 HID: wacom: Fix memory leakage caused by kfifo_alloc
-90344613450054f04f87a8cda9abc1a7ca4d576a Linux 4.19.168-rc1
+16faa6e3ef16ebcce0acaa1d8d0121634108e2ed x86/asm/32: Add ENDs to some functions and relabel with SYM_CODE_*
+fd762aa3fffc297892f7570e99e5be62d4f097d2 vfio iommu: Add dma available capability
+a07fca84fb478b879a947c57932cae92dcea7f70 net: cdc_ncm: correct overhead in delayed_ndp_size
+fc8ece469a971f8a8cefd2c6757cf03096b317c8 net: hns3: fix the number of queues actually used by ARQ
+f8df0d70dc66d63ad54a590c519ee048244279cc net: hns3: fix a phy loopback fail issue
+4387891c34ded3b1eed98b30d8f196e8e188235b net: stmmac: dwmac-sun8i: Balance internal PHY resource references
+ac852edd7ea513856414b04f238029e90f5d11f1 net: stmmac: dwmac-sun8i: Balance internal PHY power
+daa9dcac384f091281866160a714a75439352230 net: vlan: avoid leaks on register_vlan_dev() failures
+5a8c5b605234a2e047a560fa847ddf63d029945d net/sonic: Fix some resource leaks in error handling paths
+c0aba1158b49c9b6389a22ed31f93c8a3505b153 net: ipv6: fib: flush exceptions when purging route
+0d9a2f3fad8b1bbf56988bc62c31849d13003770 tools: selftests: add test for changing routes with PTMU exceptions
+2b2ab04880d209038b80c7b66462d66fe1b43e16 net: fix pmtu check in nopmtudisc mode
+ff98b1a5da2075cd63c7d98803fcdffb7af3519f net: ip: always refragment ip defragmented packets
+e69e2f202e22aded1c3d0482f684517d4e9b74c4 octeontx2-af: fix memory leak of lmac and lmac->name
+16a6c25b5d4f5f089e261abf59fc6609b9507f86 nexthop: Fix off-by-one error in error path
+27b1c037ae7effaef899114a6ac37d8f81af8a7a nexthop: Unlink nexthop group entry in error path
+c291096fc91cda57568f6e78e93d383a61006abd s390/qeth: fix L2 header access in qeth_l3_osa_features_check()
+be9f7c68ad25a5f7ec2b4d0b7daf18f68adc2293 net: dsa: lantiq_gswip: Exclude RMII from modes that report 1 GbE
+262231c78fece74116714ab04989e6f5b6afae3f net/mlx5: Use port_num 1 instead of 0 when delete a RoCE address
+7cd4bd8568c1db63a0ba338bb5f7488bdc9ae50b net/mlx5e: ethtool, Fix restriction of autoneg with 56G
+b20e9035a63acd80739478c0f6e09ac5a6189228 chtls: Fix hardware tid leak
+c3c9d6b26f8718f6db051e0d02e619bd9255ed14 chtls: Remove invalid set_tcb call
+ad788d8cccc6443810034bca0b04c825f0750523 chtls: Fix panic when route to peer not configured
+e755fce02bbd0e4a865f606c05a0e137155f1a4a chtls: Replace skb_dequeue with skb_peek
+b84d3313c312ed9c45b373f994e077b66c0ba583 chtls: Added a check to avoid NULL pointer dereference
+960b15760b430081bd42c947983a09cfdff32fa8 chtls: Fix chtls resources release sequence
+3a7b0087221610a32f11f211b48fad60dcdc6245 x86/resctrl: Use an IPI instead of task_work_add() to update PQR_ASSOC MSR
+99a5079862abc76000dd06444d570ac90dcd0646 x86/resctrl: Don't move a task to the same resource group
+1b9da0e48d966130d55316fdfb6ffe6d9e19158b exfat: Month timestamp metadata accidentally incremented
+25f9ae9aec0e8ab68844e7bb42a59c8c9bce147a vmlinux.lds.h: Add PGO and AutoFDO input sections
+893ccdc14a7cec8ceb73ecd6ca51107b1161943c iio: imu: st_lsm6dsx: fix edge-trigger interrupts
+39b298a2bf219f63085204d481ac921d41b2812c HID: wacom: Fix memory leakage caused by kfifo_alloc
+3680d22d496a32bc3075d58b09ba3a76b55f1cbe Linux 5.4.90-rc1
 
---===============0391615313305276621==--
+--===============4549103837028727319==--
