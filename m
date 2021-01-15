@@ -1,60 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============0431723194153168858=="
+Content-Type: multipart/mixed; boundary="===============7112327879912752921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 15 Jan 2021 18:17:58 -0000
-Message-Id: <161073467805.10792.18277749514120017156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 15 Jan 2021 18:18:04 -0000
+Message-Id: <161073468492.10962.15638946211983283475@gitolite.kernel.org>
 
---===============0431723194153168858==
+--===============7112327879912752921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.11
-    old: 9c25af250214e45f6d1c21ff6239a1ffeeedf20e
-    new: 7505c06dabb5e814bda610c8d83338544f15db45
-    log: revlist-9c25af250214-7505c06dabb5.txt
-  - ref: refs/heads/asoc-5.12
-    old: 44a4cfad8d78efcda9ec0dd97ceea38d8b602f24
-    new: 574b813ae53f1a4ec4b6570bc44a8fe1074e6123
-    log: revlist-44a4cfad8d78-574b813ae53f.txt
+  - ref: refs/heads/for-5.11
+    old: eaa7995c529b54d68d97a30f6344cc6ca2f214a7
+    new: 09db7311ca6170d36f2bb8c26eab8fadc4d10b81
+    log: revlist-eaa7995c529b-09db7311ca61.txt
+  - ref: refs/heads/for-5.12
+    old: 3acb64c07e95a75dc0af0bc958f2d09a44a9fd0d
+    new: f35f6d8c117569f626826394d85a7e87e167bde8
+    log: revlist-3acb64c07e95-f35f6d8c1175.txt
 
---===============0431723194153168858==
+--===============7112327879912752921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1610734643 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1610734675-d521ead362ee6a0e51c355b80efb6a436d47db52
+pusher C3F436CA30F5D8EB 1610734650 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1610734682-5eac53867118208401ff70e8cad03d2dea0a07ad
 
-9c25af250214e45f6d1c21ff6239a1ffeeedf20e 7505c06dabb5e814bda610c8d83338544f15db45 refs/heads/asoc-5.11
-44a4cfad8d78efcda9ec0dd97ceea38d8b602f24 574b813ae53f1a4ec4b6570bc44a8fe1074e6123 refs/heads/asoc-5.12
+eaa7995c529b54d68d97a30f6344cc6ca2f214a7 09db7311ca6170d36f2bb8c26eab8fadc4d10b81 refs/heads/for-5.11
+3acb64c07e95a75dc0af0bc958f2d09a44a9fd0d f35f6d8c117569f626826394d85a7e87e167bde8 refs/heads/for-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAB3DMACgkQJNaLcl1U
-h9A8bgf/Z8NHGw4dawkLq9cflYQ26X1P3+w2jDRvry+Cs557cfWASwoYdHahb6RE
-CJDZRQ5bWDRzZ2yX5h9BpeYEs9FMewaQa3idHlU513uc39PpSLYDJvY3uxNjn2PC
-zwdYn2uBcWONQfsmd7ps9G18WVgihjFqiSv9HQTBGrJCy9QmVu+QyInM1u9BRCyA
-q6PUX90JWSsgp1yoKD3rZTELsUn5blpEI/9HWth06QuoY56z25NiiDdzvTXuzG/M
-NZ6MLNGQi8REIGZEOVqkZOJddwuy7icTSJHe3PSR6j5UFlH5oTCVvHdS8LPk3o8x
-bsgQKW+GUvVZCHJisaUWfCjnjY7E9w==
-=mg89
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAB3DoACgkQJNaLcl1U
+h9BFWwf/SWhbFo2xt1rIUaxyzYuE5UrHsFDEGZdT/OSatDld+8xyltiIIJscGpmt
+WaajEJqmbsxp61UhDAfYvADUYQBgg+J0DBpnuTTGoI9bt1Nc5e0x8eqYnP/vZpzm
+QmTBUpH7Lnsb6lqm9cVE4Zf1y+SjRNPnDuK92V/WNvu+Z+MZPQef8mYLa8Vu9DDc
+DRKdfoWuXsttIJiiBiPwn3C+4KKTqMTHmN1LYAxfA26TGLmWW3s67JO2WpuCjKPC
+BbKIb1lOnq6l4w/vCbZvdEgfd/ZZ5KU1u/tBgVgxx3bsWnrqrak5/HGwYtMsShuu
+WMi+8pplqrOKB+Ax6tNojNijpdXKmw==
+=26HP
 -----END PGP SIGNATURE-----
 
---===============0431723194153168858==
+--===============7112327879912752921==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9c25af250214-7505c06dabb5.txt
+Content-Disposition: attachment; filename=revlist-eaa7995c529b-09db7311ca61.txt
 
 01341fbd0d8d4e717fc1231cdffe00343088ce0b workqueue: Kick a worker based on the actual activation of delayed works
 58315c96651152b9f438e5e56c910994234e2c7a kernel: cgroup: Mundane spelling fixes throughout the file
@@ -98,7 +98,6 @@ cb5253198f10a4cd79b7523c581e6173c7d49ddb scsi: cxgb4i: Fix TLS dependency
 1b04fa9900263b4e217ca2509fd778b32c2b4eb2 rcu-tasks: Move RCU-tasks initialization to before early_initcall()
 57f04815fd95bb8c46f6ec5c9d25430bb52d419f drm/msm: Fix WARN_ON() splat in _free_object()
 161b838e25c6f83495e27e3f546b893622d442bf netfilter: nftables: fix incorrect increment of loop counter
-df9716ec9ade3d2e190a2aac199557d30a3a8416 regulator: pf8x00: Use specific compatible strings for devices
 2d18e54dd8662442ef5898c6bdadeaf90b3cebbc cgroup: Fix memory leak when parsing multiple source parameters
 1a3449c19407a28f7019a887cdf0d6ba2444751a selftests/bpf: Clarify build error if no vmlinux
 81e7eb5bf08f36d34495a5898f6ef3fec05d9776 Revert "Revert "scsi: megaraid_sas: Added support for shared host tagset for cpuhotplug""
@@ -153,7 +152,6 @@ f7217f718747641fc80cd062f183107439f2a066 mt76: mt76s: fix NULL pointer dereferen
 0bd157fa2aaa2c77d6254321d7751aa9eec68c7b mt76: mt7915: fix MESH ifdef block
 bfe55584713b4d4d518ffe9cf2dab1129eba6321 MAINTAINERS: switch to different email address
 a590370d918fc66c62df6620445791fbe840344a spi: stm32: FIFO threshold level - fix align packet size
-3b66e4a8e58a85af3212c7117d7a29c9ef6679a2 regulator: bd718x7: Add enable times
 e7e518053c267bb6be3799520d9f4a34c7264a2e bpf: Add schedule point in htab_init_buckets()
 54ddbdb024882e226055cc4c3c246592ddde2ee5 net: systemport: set dev->max_mtu to UMAC_MAX_MTU_SIZE
 1385ae5c30f238f81bc6528d897c6d7a0816783f ethernet: ucc_geth: set dev->max_mtu to 1518
@@ -240,7 +238,6 @@ c6174c0e058fc0a54e0b9787c44cb24b0a8d0217 interconnect: imx: Add a missing of_nod
 12b38ea040b3bb2a30eb9cd488376df5be7ea81f staging: spmi: hisi-spmi-controller: Fix some error handling paths
 cab36da4bf1a35739b091b73714a39a1bbd02b05 Staging: comedi: Return -EFAULT if copy_to_user() fails
 d887d6104adeb94d1b926936ea21f07367f0ff9f staging: mt7621-dma: Fix a resource leak in an error handling path
-2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc Merge tag 'v5.11-rc1' into regulator-5.11
 8db90aa36063f471bea1e65e23185913043852dc Merge tag 'v5.11-rc1' into spi-5.11
 0ffc76539e6e8d28114f95ac25c167c37b5191b3 USB: cdc-acm: blacklist another IR Droid device
 421da9413a6a5ec4334cade5092370cf2c8c8add MAINTAINERS: Update address for Cadence USB3 driver
@@ -388,9 +385,6 @@ faeb0731be0a31e2246b21a85fa7dabbd750101d dmaengine: xilinx_dma: fix incompatible
 2d5efea64472469117dc1a9a39530069e95b21e9 dmaengine: xilinx_dma: fix mixed_enum_type coverity warning
 98bf2d3f4970179c702ef64db658e0553bc6ef3a powerpc/32s: Fix RTAS machine check with VMAP stack
 6170d077bf92c5b3dfbe1021688d3c0404f7c9e9 spi: fix the divide by 0 error when calculating xfer waiting time
-2bf3a72b08e7f6356a2db9e1571ca65f683510bb dt-bindings: regulator: qcom,rpmh-regulator: add pm8009 revision
-df6b92fa40050e59ea89784294bf6d04c0c47705 regulator: qcom-rpmh-regulator: correct hfsmps515 definition
-d957d1610c661e758426654de3b04bea6fb29f8b regulator: qcom-rpmh: add QCOM_COMMAND_DB dependency
 4b1a60a1bb8f03d82c3f6da424adc96667b59f2a MAINTAINERS: Update Georgi's email address
 0e2d6795e8dbe91c2f5473564c6b25d11df3778b USB: serial: option: add LongSung M5710 module support
 54d0a3ab80f49f19ee916def62fe067596833403 USB: serial: iuu_phoenix: fix DMA from stack
@@ -404,7 +398,6 @@ d7889c2020e08caab0d7e36e947f642d91015bd0 usb: gadget: select CONFIG_CRC32
 6cd0fe91387917be48e91385a572a69dfac2f3f7 usb: gadget: configfs: Preserve function ordering after bind failure
 e1263f9277bad198c2acc8092a41aea1edbea0e4 dmaengine: stm32-mdma: fix STM32_MDMA_VERY_HIGH_PRIORITY value
 65a4e5299739abe0888cda0938d21f8ea3b5c606 kunit: tool: Force the use of the 'tty' console for UML
-36836f5b377b5a75c16f5bdc5c0f97f9f51212e1 Merge qcom driver fix into regulator-5.11
 3b4cf848dad5dad4bf239ba664c809c8cf29f1ed selftests/vDSO: add additional binaries to .gitignore
 df00d02989024d193a6efd1a85513a5658c6a10f selftests/vDSO: fix -Wformat warning in vdso_test_correctness
 8cbebc4118b5933b3ae6351ceb433f75ac6b7c6b KVM: arm64: Replace KVM_ARM_PMU with HW_PERF_EVENTS
@@ -694,15 +687,13 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 688daed2e5daf0a1513effdc05ce3c56ade836f9 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 20210a98463e2abac31676ee141459fc23252927 Merge tag 'kbuild-fixes-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
-cea06d9bf0e035a549226e217022fa51b0c878e5 Merge v5.11-rc3
-9b268be3adbb410cc1a857477b638a71258891a8 MAINTAINERS: update maintainers of qcom audio
-7505c06dabb5e814bda610c8d83338544f15db45 MAINTAINERS: update qcom ASoC drivers list
+09db7311ca6170d36f2bb8c26eab8fadc4d10b81 Merge v5.11-rc3
 
---===============0431723194153168858==
+--===============7112327879912752921==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-44a4cfad8d78-574b813ae53f.txt
+Content-Disposition: attachment; filename=revlist-3acb64c07e95-f35f6d8c1175.txt
 
 01341fbd0d8d4e717fc1231cdffe00343088ce0b workqueue: Kick a worker based on the actual activation of delayed works
 58315c96651152b9f438e5e56c910994234e2c7a kernel: cgroup: Mundane spelling fixes throughout the file
@@ -746,7 +737,6 @@ cb5253198f10a4cd79b7523c581e6173c7d49ddb scsi: cxgb4i: Fix TLS dependency
 1b04fa9900263b4e217ca2509fd778b32c2b4eb2 rcu-tasks: Move RCU-tasks initialization to before early_initcall()
 57f04815fd95bb8c46f6ec5c9d25430bb52d419f drm/msm: Fix WARN_ON() splat in _free_object()
 161b838e25c6f83495e27e3f546b893622d442bf netfilter: nftables: fix incorrect increment of loop counter
-df9716ec9ade3d2e190a2aac199557d30a3a8416 regulator: pf8x00: Use specific compatible strings for devices
 2d18e54dd8662442ef5898c6bdadeaf90b3cebbc cgroup: Fix memory leak when parsing multiple source parameters
 1a3449c19407a28f7019a887cdf0d6ba2444751a selftests/bpf: Clarify build error if no vmlinux
 81e7eb5bf08f36d34495a5898f6ef3fec05d9776 Revert "Revert "scsi: megaraid_sas: Added support for shared host tagset for cpuhotplug""
@@ -801,7 +791,6 @@ f7217f718747641fc80cd062f183107439f2a066 mt76: mt76s: fix NULL pointer dereferen
 0bd157fa2aaa2c77d6254321d7751aa9eec68c7b mt76: mt7915: fix MESH ifdef block
 bfe55584713b4d4d518ffe9cf2dab1129eba6321 MAINTAINERS: switch to different email address
 a590370d918fc66c62df6620445791fbe840344a spi: stm32: FIFO threshold level - fix align packet size
-3b66e4a8e58a85af3212c7117d7a29c9ef6679a2 regulator: bd718x7: Add enable times
 e7e518053c267bb6be3799520d9f4a34c7264a2e bpf: Add schedule point in htab_init_buckets()
 54ddbdb024882e226055cc4c3c246592ddde2ee5 net: systemport: set dev->max_mtu to UMAC_MAX_MTU_SIZE
 1385ae5c30f238f81bc6528d897c6d7a0816783f ethernet: ucc_geth: set dev->max_mtu to 1518
@@ -888,7 +877,6 @@ c6174c0e058fc0a54e0b9787c44cb24b0a8d0217 interconnect: imx: Add a missing of_nod
 12b38ea040b3bb2a30eb9cd488376df5be7ea81f staging: spmi: hisi-spmi-controller: Fix some error handling paths
 cab36da4bf1a35739b091b73714a39a1bbd02b05 Staging: comedi: Return -EFAULT if copy_to_user() fails
 d887d6104adeb94d1b926936ea21f07367f0ff9f staging: mt7621-dma: Fix a resource leak in an error handling path
-2ae6f64ce1ce304b502461fdfe0b96c8171ae2cc Merge tag 'v5.11-rc1' into regulator-5.11
 8db90aa36063f471bea1e65e23185913043852dc Merge tag 'v5.11-rc1' into spi-5.11
 0ffc76539e6e8d28114f95ac25c167c37b5191b3 USB: cdc-acm: blacklist another IR Droid device
 421da9413a6a5ec4334cade5092370cf2c8c8add MAINTAINERS: Update address for Cadence USB3 driver
@@ -1036,9 +1024,6 @@ faeb0731be0a31e2246b21a85fa7dabbd750101d dmaengine: xilinx_dma: fix incompatible
 2d5efea64472469117dc1a9a39530069e95b21e9 dmaengine: xilinx_dma: fix mixed_enum_type coverity warning
 98bf2d3f4970179c702ef64db658e0553bc6ef3a powerpc/32s: Fix RTAS machine check with VMAP stack
 6170d077bf92c5b3dfbe1021688d3c0404f7c9e9 spi: fix the divide by 0 error when calculating xfer waiting time
-2bf3a72b08e7f6356a2db9e1571ca65f683510bb dt-bindings: regulator: qcom,rpmh-regulator: add pm8009 revision
-df6b92fa40050e59ea89784294bf6d04c0c47705 regulator: qcom-rpmh-regulator: correct hfsmps515 definition
-d957d1610c661e758426654de3b04bea6fb29f8b regulator: qcom-rpmh: add QCOM_COMMAND_DB dependency
 4b1a60a1bb8f03d82c3f6da424adc96667b59f2a MAINTAINERS: Update Georgi's email address
 0e2d6795e8dbe91c2f5473564c6b25d11df3778b USB: serial: option: add LongSung M5710 module support
 54d0a3ab80f49f19ee916def62fe067596833403 USB: serial: iuu_phoenix: fix DMA from stack
@@ -1052,7 +1037,6 @@ d7889c2020e08caab0d7e36e947f642d91015bd0 usb: gadget: select CONFIG_CRC32
 6cd0fe91387917be48e91385a572a69dfac2f3f7 usb: gadget: configfs: Preserve function ordering after bind failure
 e1263f9277bad198c2acc8092a41aea1edbea0e4 dmaengine: stm32-mdma: fix STM32_MDMA_VERY_HIGH_PRIORITY value
 65a4e5299739abe0888cda0938d21f8ea3b5c606 kunit: tool: Force the use of the 'tty' console for UML
-36836f5b377b5a75c16f5bdc5c0f97f9f51212e1 Merge qcom driver fix into regulator-5.11
 3b4cf848dad5dad4bf239ba664c809c8cf29f1ed selftests/vDSO: add additional binaries to .gitignore
 df00d02989024d193a6efd1a85513a5658c6a10f selftests/vDSO: fix -Wformat warning in vdso_test_correctness
 8cbebc4118b5933b3ae6351ceb433f75ac6b7c6b KVM: arm64: Replace KVM_ARM_PMU with HW_PERF_EVENTS
@@ -1342,13 +1326,14 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 688daed2e5daf0a1513effdc05ce3c56ade836f9 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 20210a98463e2abac31676ee141459fc23252927 Merge tag 'kbuild-fixes-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
-2d446c98cde3ffccfd14849b7dda4194ab62dd20 Merge v5.11-rc3
-16117beb16f01a470d40339960ffae1e287c03be ASoC: qcom: Remove useless debug print
-03b49bf9a92b18bbfcc3b5eb206cca8447e9f2cb ASoC: qcom: Add some names to regmap configs
-e697df66876c182927899950971c3b4888df3e6e ASoC: qcom: Stop casting away __iomem for error pointers
-4e15f5060d34dd28591cf3af43d3086a4b76c965 ASoC: qcom: Remove duplicate error messages on ioremap
-7ef8c9edc86cff0881b2eb9a3274796258fbd872 ASoC: codecs: soundwire: increase resume timeout
-42dc604051c9d874417d09b9ef84b45244d05b73 Merge series "ASoC: qcom: Minor code cleanups for lpass-cpu" from Stephen Boyd <swboyd@chromium.org>:
-574b813ae53f1a4ec4b6570bc44a8fe1074e6123 Merge series "ASoC/SoundWire: fix timeout values" from Bard Liao <yung-chuan.liao@linux.intel.com>:
+c2fa56173ba66bab8f0005789c383cb8cc2aaf62 Merge v5.11-rc3
+4d23b84d1fcd1eadbc5c6cd93e76b02a8d191d66 regulator: pf8x00: add a doc for the module
+988d0d42509a2c1fad0844a6e8f9c7bce7c930dd regulator: dt-bindings: pf8x00: fix nxp,phase-shift doc
+34b860aa0b6221b21eea6bac76357063f525b561 regulator: dt-bindings: pf8x00: mark nxp,ilim-ma property as deprecated
+245f5f65229a6c6f5b04fa90221b44818a928916 regulator: pf8x00: mark nxp,ilim-ma property as deprecated
+35a93349932e0e04c284f8a4954f3d1236c97d85 regulator: pf8x00: use linear range for buck 1-6
+475a5d85ff62f7ca73f51f23977e7e3ec8c9f906 regulator: pf8x00: fix nxp,phase-shift
+dd582369c6c1f39ec475af6191a934f3e57fda35 regulator: qcom-labibb: Implement voltage selector ops
+f35f6d8c117569f626826394d85a7e87e167bde8 Merge series "Really implement Qualcomm LAB/IBB regulators" from AngeloGioacchino Del Regno <angelogioacchino.delregno@somainline.org>:
 
---===============0431723194153168858==--
+--===============7112327879912752921==--
