@@ -1,42 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7487226627400001051=="
+Content-Type: multipart/mixed; boundary="===============3948055628377160088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 15 Jan 2021 03:13:48 -0000
-Message-Id: <161068042847.27778.16700387909501087113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
+Date: Fri, 15 Jan 2021 03:25:07 -0000
+Message-Id: <161068110784.6047.4630699088140731821@gitolite.kernel.org>
 
---===============7487226627400001051==
+--===============3948055628377160088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/andrea/aa
+user: andrea
 changes:
-  - ref: refs/heads/for-next
-    old: bade5c554f1ac70a50cefe96517957629dbc0d8f
-    new: 7064a7341a0d2fcfeff56be7e3917421fbb8b024
-    log: revlist-bade5c554f1a-7064a7341a0d.txt
+  - ref: refs/heads/master
+    old: d635d9d27d788a55a32e1f83c27b5531f831fea5
+    new: ed2481339e3f357b08dd891b428ea05b3131b03d
+    log: revlist-d635d9d27d78-ed2481339e3f.txt
 
---===============7487226627400001051==
+--===============3948055628377160088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bade5c554f1a-7064a7341a0d.txt
+Content-Disposition: attachment; filename=revlist-d635d9d27d78-ed2481339e3f.txt
 
-11c11d0751fce605090761f9c066bae947a35e76 bpf: x86: Factor out emission of ModR/M for *(reg + off)
-74007cfc1f71e47394ca173b93d28afd0529fc86 bpf: x86: Factor out emission of REX byte
-e5f02caccfae94f5baf6ec6dbb57ce8a7e9a40e7 bpf: x86: Factor out a lookup table for some ALU opcodes
-91c960b0056672e74627776655c926388350fa30 bpf: Rename BPF_XADD and prepare to encode other atomics in .imm
-c5bcb5eb4db632280b4123135d583a7bc8caea3e bpf: Move BPF_STX reserved field check into BPF_STX verifier code
-5ca419f2864a2c60940dcf4bbaeb69546200e36f bpf: Add BPF_FETCH field / create atomic_fetch_add instruction
-5ffa25502b5ab3d639829a2d1e316cff7f59a41e bpf: Add instructions for atomic_[cmp]xchg
-462910670e4ac91509829c5549bd0227668176fb bpf: Pull out a macro for interpreting atomic ALU operations
-981f94c3e92146705baf97fb417a5ed1ab1a79a5 bpf: Add bitwise atomic instructions
-98d666d05a1d9706bb3fe972157fa6155dbb180f bpf: Add tests for new BPF atomic operations
-de948576f8e7d7fa1b5db04f56184ffe176177c5 bpf: Document new atomic instructions
-7064a7341a0d2fcfeff56be7e3917421fbb8b024 Merge branch 'Atomics for eBPF'
+54c7351da58544504634ae5b628a7280b370fe70 sched/fair: skip select_idle_sibling() in presence of sync wakeups
+64512093c5bca8d112abb1900d1a8d96c8b075ca coredump: use READ_ONCE to read mm->flags
+d81942e32ca454662b626b6da3485ccc1ad01396 x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
+121681189ff879eebacef29035c638f901539d73 x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
+779bdf0acc5c2cacb3d7da865fb3042adc176b10 userfaultfd: UFFDIO_REMAP: rmap preparation
+a58f6337727ce7247c2c7eddf88bafee7a94a556 userfaultfd: UFFDIO_REMAP uABI
+30d8d3bc9a9059daefa82cc58206c9939f870684 x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
+b674650af0b95bfe63060e05fb6b3c8c3e47352d x86: deduplicate the spectre_v2_user documentation
+32d07f378a78fb62ca2fa17a53dcc493cea54f39 x86: restore the write back cache of reserved RAM in iounmap()
+0d0776dd6083d69925b654d582078f22d57e14f4 mm: refactor initialization of stuct page for holes in memory layout
+f3d5d724613beaf548b3262314f53fcdfa20f4cc mm: initialize struct pages in reserved regions outside of the zone ranges
+103fbbc7bf9752b90e01a443c01f9dfa570f873a mm: proc: Invalidate TLB after clearing soft-dirty page state
+10ad5989bb5c99c1cedd11a1e9dee4d4a1bb8d79 mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
+9be8df18e8c805167978a4a08d4f3a5156358029 Revert "mm: thp: make the THP mapcount atomic against __split_huge_pmd_locked()"
+cfc5b41b296c2d61dc124a99904f85d16008bf57 mm: thp: make the THP mapcount atomic against __split_huge_pmd_locked()
+6d464556eff2a303163dfe73f1894823eba24220 Revert "mm/ksm: Remove reuse_ksm_page()"
+2c924602c6e40e768b45d92942350ed0ed0629ad Revert "mm: fix misplaced unlock_page in do_wp_page()"
+6cee252a9d396a5b8af13f5da0cf283deea4fdc6 mm: restore full accuracy in COW page reuse
+daab6a5e67ba338b23cfce4925603522896b23d5 mm: COW: acceleration to skip the page lock for the copy path
+ed2481339e3f357b08dd891b428ea05b3131b03d Merge remote-tracking branch 'gitlab/main' into gitlab-main
 
---===============7487226627400001051==--
+--===============3948055628377160088==--
