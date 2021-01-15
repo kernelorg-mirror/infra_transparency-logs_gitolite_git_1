@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Fri, 15 Jan 2021 11:41:31 -0000
-Message-Id: <161071089142.10235.766649717887040458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Fri, 15 Jan 2021 11:49:58 -0000
+Message-Id: <161071139806.13963.17822902465503720226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/next
-    old: ea085d5f018887bc8cc92c7bdc6475fc2b843c2a
-    new: b01e546d4d41e84b2c35ed1de8a33b28df928ad6
+  - ref: refs/heads/fuzzing_cleanup
+    old: bf06995629a6f77ca062f53e766aefa948e3dc9a
+    new: 1999f259382aff11d8fbaff9e2220bc8c800f78e
     log: |
-         b503087445ce7e45fabdee87ca9e460d5b5b5168 mmc: core: don't initialize block size from ext_csd if not present
-         209000ae9948aa5923b4f433e5bff39122fb09be Merge branch 'fixes' into next
-         c0e89a1023c11ce0a15fed2dae4ef66a754e5020 mmc: core: remove redundant card null check to mmc_can_sleep()
-         b01e546d4d41e84b2c35ed1de8a33b28df928ad6 mmc: sdhci-pci-gli: Enlarge ASPM L1 entry delay of GL9763E
+         902153890b6efee8fe4ceb948ef93d486e7766e3 xhci: add xhci_virt_ep_to_ring() helper
+         751429a97c52b34005ba2d1d995f03a7d1b72e3b xhci: remove xhci_stream_id_to_ring() helper
+         c13f27b78503ffba62ef9aed5bafc8d2cc3bb2ba xhci: prevent a theoretical endless loop while preparing rings.
+         8388ccff9cf69508ae161466fb55acf887addd11 xhci: check slot_id is valid before gathering slot info
+         1999f259382aff11d8fbaff9e2220bc8c800f78e xhci: remove extra loop in interrupt context
          
