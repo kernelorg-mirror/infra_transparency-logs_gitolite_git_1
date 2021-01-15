@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mel/linux
-Date: Fri, 15 Jan 2021 10:04:54 -0000
-Message-Id: <161070509438.8349.862170055374173815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Fri, 15 Jan 2021 10:05:10 -0000
+Message-Id: <161070511092.9848.1938213158702319264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mel/linux
-user: mel
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/sched-singlescan-v3r3
-    old: 0000000000000000000000000000000000000000
-    new: 9e5783b86f9899e1f6b85445af07a03c58dae6c0
+  - ref: refs/heads/next
+    old: c912fd05fab97934e4cf579654d0dc4835b4758c
+    new: fb39b0abe35135c35ccb637dad1476ba7ce5d07e
+    log: |
+         fb39b0abe35135c35ccb637dad1476ba7ce5d07e x86/sgx: fix the return type of sgx_init
+         
