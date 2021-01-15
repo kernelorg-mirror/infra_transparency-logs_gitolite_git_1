@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 15 Jan 2021 13:44:10 -0000
-Message-Id: <161071825086.24632.10668012021602293675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Fri, 15 Jan 2021 14:08:46 -0000
+Message-Id: <161071972629.11814.8591982995979707147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/kvm-arm64/hisi-broken-v2-compat
-    old: bd16db0c50ef858d1fbb71c056dbe298d928e852
-    new: 6367f1d18cda81bdaa144890083562768aa8d31d
-    log: |
-         6367f1d18cda81bdaa144890083562768aa8d31d KVM: arm64: Workaround firmware wrongly advertising GICv2-on-v3 compatibility
-         
+  - ref: refs/heads/xfs/shrink_lastag3
+    old: 0000000000000000000000000000000000000000
+    new: d61fda725abe304c2ce4fa7831605030745e67cf
