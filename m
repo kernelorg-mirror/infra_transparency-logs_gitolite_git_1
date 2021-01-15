@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8089358898964028035=="
+Content-Type: multipart/mixed; boundary="===============1026869306150853357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 15 Jan 2021 16:16:03 -0000
-Message-Id: <161072736332.29854.7803661525383924189@gitolite.kernel.org>
+Date: Fri, 15 Jan 2021 16:29:11 -0000
+Message-Id: <161072815103.6326.7752144422212634883@gitolite.kernel.org>
 
---===============8089358898964028035==
+--===============1026869306150853357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 6e6aa61d81194c01283880950df563b1b9abec46
-    new: c28095bc99073ddda65e4f31f6ae0d908d4d5cd8
+    old: c28095bc99073ddda65e4f31f6ae0d908d4d5cd8
+    new: da7e0c3c2909a3d9bf8acfe1db3cb213bd7febfb
     log: |
-         c28095bc99073ddda65e4f31f6ae0d908d4d5cd8 usb: udc: core: Use lock when write to soft_connect
+         576667bad341516edc4e18eb85acb0a2b4c9c9d9 xhci: make sure TRB is fully written before giving it to the controller
+         da7e0c3c2909a3d9bf8acfe1db3cb213bd7febfb xhci: tegra: Delay for disabling LFPS detector
          
 
---===============8089358898964028035==
+--===============1026869306150853357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610727354 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610728141 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1610727354-42e37ee39a9e8ffb4052c1b08e2e2f6ee9592656
+nonce 1610728141-f5d78b98d355aa245306aeab39b83f626a94ba12
 
-6e6aa61d81194c01283880950df563b1b9abec46 c28095bc99073ddda65e4f31f6ae0d908d4d5cd8 refs/heads/usb-linus
+c28095bc99073ddda65e4f31f6ae0d908d4d5cd8 da7e0c3c2909a3d9bf8acfe1db3cb213bd7febfb refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmABv7obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SoYP/3q214xD2/219R2h4d69
-8FLF2TD/BZOozJ3Af2kAQWCxTdA9+FXyNmV1wgVhlnITmn4jrW1Canm9kDSR+/YV
-j7fq19oz0nPV1qfxGt6obvU8pELgGufBrpxDPbJn23cg5nN4J4TY03Kr1AfJ6e+O
-ncGlbj0rfu2fKzejp6OTwmubg9NFq+KZw+pC/gRZbr+bpKSAQDgoBhn714Cn6yix
-zOfcOk/pYroZDEr5Is6OxiV8OM0I8d1KFbRBkwNxIXKOC39wY6iTXbkL8JqW+TU5
-zezDf2wus437gbuFXdTXGBKq7fpSdaiG8NDKCmZd44kQdXN4EdfqOnXZFRNIzc8C
-T4a7JyYP+ZnSjMcMe3LkHt7ETZVzqbuT2q3boKDpGaTX8VOl9Fo/2J4qY2x3FmNL
-/SvHexTl4SnO7GV/PnEw510Ldur3NlVu1/jk8AepM1ufoJd/D98jR6gEpHfubBG/
-wlzpmYY4G9Nvj9Y5f76GpqWIh75eaxZ9y9fq2rKx0/fh6LriaPRK46VBRojpcpOD
-Rt40Zt1X0UgQ28cv9h8qcUDZLID9YpcAlnkS71dpMssbJZXV0CjGyaDBrRdNVTUg
-HI4KDmRcxIlzaEfTzpiqPJkg0XFgsv3tzl6DB+kC9o7iwdT2d6DFH1SCqXcIjuo/
-MWfWWUj+ZnWu9q6OAAtt79ep
-=Gfbu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmABws0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vv0P/AzaYGNtvvM5qw290pms
+z7sz6ELdEpGRsrfpaBQZBrWzz/4wI6zfJkWP4IDeMv7g/b0BQM2qLCaeLWjLhS05
+YfKXILyUAMAnvjdCZJ1Y2Ae4dZNB4bRv3dCRzF8wS1aGMVu3jRIRcSpu8S0DpXVl
+nSTj1TYdBtD5WkXX3xeuz3ZtvAgElLYP4Zhl/MJkKKfpphMnO8yArwovvwNcYpfo
+heMOUFu0KENqYyMsVg8yIR0LFsZjqhybHZIw/KL82M4sKJ3xURJLzSnrmxIdJ08S
+bmKiefXettMQih1XK/j8MsfvrYk7ZEWsDjRfrTihamcr9yeTzazfKwUa0IgTT06M
+iUUpiy76wTUo1wsfy3PwDpVu+zhdUdQONSVwRgehXl7woZ7tj5zOlvMaM2n9Q5+4
+Jke4dt8Pkkq5jnhTUtXiTXqAwuDBHGpMDXi82zPSA1DUBTwpmcY/NRhp37ZSafZX
+4iEX5FT5d8WbT8MQLwBhJ60CqhiHRulhVW/fNRJxXVlK2lELzgKYKjSpavhspAVX
+k6lwjcuitsmsBphXDsebCtwAD7kMpO0gfvw9qr/JAxYt6rJ0jVQVB5IVhvp7hB00
+w3w1uSDomshv4h8zKt1gb/gfGpNunparu/HXAPo6SEYGOuSLEtrlrkDDSHVmG3W/
+3W6kpZIK1XUnBBP9h4W1jcRz
+=ov1Q
 -----END PGP SIGNATURE-----
 
---===============8089358898964028035==--
+--===============1026869306150853357==--
