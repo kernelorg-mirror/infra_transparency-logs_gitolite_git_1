@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9151397733390869226=="
+Content-Type: multipart/mixed; boundary="===============3443261441724647685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 15 Jan 2021 11:22:56 -0000
-Message-Id: <161070977630.30776.11425475132854318082@gitolite.kernel.org>
+Date: Fri, 15 Jan 2021 11:22:57 -0000
+Message-Id: <161070977757.30874.13748599939646730947@gitolite.kernel.org>
 
---===============9151397733390869226==
+--===============3443261441724647685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,75 +16,89 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 71964c2951addc6954cdef835d993010ddfaf9ce
-    new: e0904e5ba4c7b92b4b7c15f985cf11de0fd958f2
-    log: revlist-71964c2951ad-e0904e5ba4c7.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 90344613450054f04f87a8cda9abc1a7ca4d576a
+    new: 5a52ae31885b08ee4390f298439994445b562c9c
+    log: revlist-903446134500-5a52ae31885b.txt
 
---===============9151397733390869226==
+--===============3443261441724647685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610709775 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610709776 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1610709773-0c5d980ea77d8e437fdd08a6c7b3d8591a0935ee
+nonce 1610709775-476be320d1bd9888cbadf6d82a0ea3f31daf62d0
 
-71964c2951addc6954cdef835d993010ddfaf9ce e0904e5ba4c7b92b4b7c15f985cf11de0fd958f2 refs/heads/linux-4.14.y
+90344613450054f04f87a8cda9abc1a7ca4d576a 5a52ae31885b08ee4390f298439994445b562c9c refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmABew8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5gkP/3FHAEtKkxXH3EUvavs7
-OJB8RTu8FQ96Rrrls0lZ6/iBx4Z2Gsq51OaFsSZe0Dpei2E6e6NCCUiAd55ZhY51
-Em+oFn2VK1vG2LMOA7z1Lg/oOEEadnkT0RQqv4CxuS3Rfo2zEbRrgjDEs+08LuXC
-uGnpN/Wj5ED3PYceP3lO9u4fzzk5tndjJ7xcv2QHv1jmhGj0SEq/XqGmhFN4H58N
-0YoAhUON6xV2CfgAiHyu3+BVX1cqbT+Q+/ATk9cZfQ898g0trOAzFNg/jnW1nqDU
-fchlTcICT5pnGsHBg4OAyDHuMnNy3X9lj7/0xPQsBFRJqNEEWbrmTCaPggRMoz9L
-2mxkNW0ut4jBIrUweEgLg+OuKerc3BKXoyWjLIWEXmORhp/ANS8NRtC627/FOwAg
-psDrGnT1I1K21K2HgM4gus4uEa5LmpEoTgYVcPZYkiD/SvZbJMtD9AihtXM/3PvD
-huvj97FFFLcbJ8KKFUeLrkZB7R1UULYYr85yxRtLXtzds2dibvXpGuPktGNblCTv
-URBvNeOM9NnjfehDx0zKmxk4VwqfE23Y6wWXv8uZ+JAE7VI+pv223eJdf7jGpOjX
-ucHR0pwE4lJEMdAgWI5/IXpUMa+XHy/li+BjTjfnp61DwLqhHaRwXJmcdj4FU0lM
-oUo0yk/1jLqDKjV9Q/jmQMp8
-=0g+G
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmABexAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SDEP/Ru3vm88u8pEmUxe9yod
+PjlfoRCvVFaRZu8XfOu7tX6RonzlFT8Gcrie1WLbqYz98wxIcPSpk95POfhoIlvv
+S4nw5WcVYzFGZ8IsjwUcuSbX/BZFboK/OXRdwG6k2Zkyeu7vYn5g/ZuaxH/2lNh/
+H23QKCh+kB96m6p4bfca8LmUpo+qzNT3u7woItYurx7rUNlZNDoqHnKpOV8bT83n
+zJcPVKz5I2RosfqTGHUNerk4fxIFm0gBzRv1eGr8B6v7iBeVATP5DvQLeuxD7Crb
+N/NtZXY0/l3C7VmqCLj2kMBaS5eRvaH9bSpUfv3hC5vRd2a4WhJR1Ev7OeBCB22Y
+lgApbJnes7gAwyIhQlON3yBTsQp3sqtQEy5ko3EeTI/PpYxOznkCJVjqoCuDU0lP
+7MW4KcwaF1IeXTo3cHGy4bRbDC1gdJL/Oo5tZhm9vlbg/WsXPX9hNipOtIsQWf5p
+b1uatMY5yDIIhgXi910Wwx5wIwilp4av8osqPaFiJBv7iAXCGkfTsjn2s53T8x4V
+A8QZNA0PlzqAEH1a7NSLgXpEp579XVwxMjbcoX28jcB3f4JaDYrKs2NQFRZQcwi2
+I+zOowBscbJLjs8INN31mGlzdaLRGWbCR/KrCLLS0SXZowXRmLXmG4jEsi+BaVM6
+TS930HG+u19KRXSMqnOteCIb
+=Ac58
 -----END PGP SIGNATURE-----
 
---===============9151397733390869226==
+--===============3443261441724647685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71964c2951ad-e0904e5ba4c7.txt
+Content-Disposition: attachment; filename=revlist-903446134500-5a52ae31885b.txt
 
-8abad7fd87c3f7251277a3ec622595642ba51e3c powerpc: Fix incorrect stw{, ux, u, x} instructions in __set_pte_at
-b1fd9007ccecef57a78a7837140c77d64938f6dd net: cdc_ncm: correct overhead in delayed_ndp_size
-3022b6fbcab3c473d8cf5ec2159164db4e1f383f net: vlan: avoid leaks on register_vlan_dev() failures
-79ab8f9c93ef0c3c88d2a2666370bcb3965e3892 net: ip: always refragment ip defragmented packets
-dc54b23bc6767f7908f35dba96cb0028d47d0821 net: fix pmtu check in nopmtudisc mode
-b7abd99f28aff1e45babc71b24ae9a8e874c4198 x86/resctrl: Use an IPI instead of task_work_add() to update PQR_ASSOC MSR
-d3dd6cf247e8dcfed4fb0726d76d9ede60bc1a6b x86/resctrl: Don't move a task to the same resource group
-fc7c7a14a1d67a313e98a0ff816a517004995696 vmlinux.lds.h: Add PGO and AutoFDO input sections
-9e85cd722fea01a4a40fc1c4bde6e9d803e66044 drm/i915: Fix mismatch between misplaced vma check and vma insert
-dbfd2d00265115eb4b03aae83b8c596d32a36253 ubifs: wbuf: Don't leak kernel memory to flash
-ed70508b1b022b74412cde27a959fc2ee4f1e339 spi: pxa2xx: Fix use-after-free on unbind
-d5e7900df0bc9847739cbb1d2fab0e480463aad7 iio: imu: st_lsm6dsx: flip irq return logic
-2498282c3daeb1661c13b6082ad2ac2c163307ba iio: imu: st_lsm6dsx: fix edge-trigger interrupts
-66790aac8fc60d746c2ce3fd392ef5b34215d8f3 ARM: OMAP2+: omap_device: fix idling of devices during probe
-7c97312caafe5ba79dbda56eeaad5ad430b1b252 i2c: sprd: use a specific timeout to avoid system hang up issue
-ac3ac935ac553e68168b7979da73a85b3eace502 cpufreq: powernow-k8: pass policy rather than use cpufreq_cpu_get()
-843d024df01da2a9c1216514e531da633fd26f79 spi: stm32: FIFO threshold level - fix align packet size
-d260df26656d705f1894598d3aa1d44f0b412010 dmaengine: xilinx_dma: check dma_async_device_register return value
-6e287dfe05bd47f50981b8d0867277d3d667c457 dmaengine: xilinx_dma: fix mixed_enum_type coverity warning
-b4089a6ee8b608f78a88ad401eb9b4e9f501431f wil6210: select CONFIG_CRC32
-9ea99e1489cd6cd86c243c7fa6fec5c2fca7dffe block: rsxx: select CONFIG_CRC32
-06d78e30f27a7b31187333d7e50555cd63293ee1 iommu/intel: Fix memleak in intel_irq_remapping_alloc
-37758fa5d2cd06c09902d2532fc57cf05906075d net/mlx5e: Fix memleak in mlx5e_create_l2_table_groups
-46c40a2db03a5ed82fc38299da9b5efbed2d77e4 net/mlx5e: Fix two double free cases
-6056c6e4925c4bfe4112bdf596df5d9f7ef9e785 wan: ds26522: select CONFIG_BITREVERSE
-9bbc0297202fa672c40208b4971dd09a3dd77d78 KVM: arm64: Don't access PMCR_EL0 when no PMU is available
-8bb84134f06f35fa4f00f8d877bd3a2811c8b49b block: fix use-after-free in disk_part_iter_next
-e0da9674f0225ea4d650a9a7d188046c7781eaed net: drop bogus skb with CHECKSUM_PARTIAL and offset beyond end of trimmed packet
-e0904e5ba4c7b92b4b7c15f985cf11de0fd958f2 Linux 4.14.216-rc1
+207d29244bebff2b1586b815063597ba3c2bdde6 net: cdc_ncm: correct overhead in delayed_ndp_size
+96cc3b5235d9a85891642b97cee8f32bc671ab95 net: hns3: fix the number of queues actually used by ARQ
+d80a60e82dc4af6c7530bb64eaa71cf9bed25369 net: stmmac: dwmac-sun8i: Balance internal PHY resource references
+e07fedeb70dcd159d1c5c5d39c97050ae2c00d62 net: stmmac: dwmac-sun8i: Balance internal PHY power
+8e43bab6fe5e2e9e73eee0837599c5140c151f53 net: vlan: avoid leaks on register_vlan_dev() failures
+98386657f389d7c246890115e24ce8d37a19df16 net/sonic: Fix some resource leaks in error handling paths
+8009a55361587f56be0a6ac9f782ca8edacf2444 net: ip: always refragment ip defragmented packets
+c4b44ea737313e3fdea40acefe5c8957cebd2371 net: fix pmtu check in nopmtudisc mode
+62b2524b36109a7aef9613692f248b10d5b4f52b net: ipv6: fib: flush exceptions when purging route
+45ceedacb94542fbedfa1c694191dd140309670f chtls: Fix hardware tid leak
+3a00072ea75066d1b85e9b959b2f979c3fea3fc9 chtls: Remove invalid set_tcb call
+4120acfa448a0f3affd1f44ffc30f92d9c211ef1 chtls: Fix panic when route to peer not configured
+91191fcb9b5e169345587e5b9fe2199997795099 chtls: Replace skb_dequeue with skb_peek
+900cf95d6948217b250a1ca45583e9c51768c80d chtls: Added a check to avoid NULL pointer dereference
+ea8d8bb97938d0b190116d2f2e46551c36a48a21 chtls: Fix chtls resources release sequence
+714a114f8a6b94ec689b3b2669d9817569f2bcce x86/resctrl: Use an IPI instead of task_work_add() to update PQR_ASSOC MSR
+a0346bc05feb12dbb310401596d2590778579249 x86/resctrl: Don't move a task to the same resource group
+cb79358767bd825ba984cb93b1db0d41badffb7f vmlinux.lds.h: Add PGO and AutoFDO input sections
+321f6b75fa5d3e9c14314f5a6ad52af397200664 drm/i915: Fix mismatch between misplaced vma check and vma insert
+4eeecd3968ab5fa6155367351486d462647388e4 spi: pxa2xx: Fix use-after-free on unbind
+177d14d97763b79485370091aad8d647730a935d iio: imu: st_lsm6dsx: flip irq return logic
+e405f3b64a33e9111ed54e36ea45f388d143f416 iio: imu: st_lsm6dsx: fix edge-trigger interrupts
+d415db1ceab82707f215c0e663e907508cbc6b0c HID: wacom: Fix memory leakage caused by kfifo_alloc
+5cd8d41b8b0c67b7febc435168c8713468a35cfc ARM: OMAP2+: omap_device: fix idling of devices during probe
+01bf500d049a00edbb238f8c82eed767260165a8 i2c: sprd: use a specific timeout to avoid system hang up issue
+8d698d0db67235fd11d6e9807402c4bf48171481 cpufreq: powernow-k8: pass policy rather than use cpufreq_cpu_get()
+c669c9809a364ab200f2ee36f01b40fd64192132 spi: stm32: FIFO threshold level - fix align packet size
+14f41f703b5aedae6738e3111e13d56f1f04aa54 dmaengine: mediatek: mtk-hsdma: Fix a resource leak in the error handling path of the probe function
+bf67f08e1528cca851c6c53d8e1937236e314e19 dmaengine: xilinx_dma: check dma_async_device_register return value
+ccaba2170a99095b185fec1562d9fba2606f7517 dmaengine: xilinx_dma: fix incompatible param warning in _child_probe()
+b6d4cd1edaa6554c7ab0d01e62c1fac8d6d2f4c7 dmaengine: xilinx_dma: fix mixed_enum_type coverity warning
+2d61eba99f5fc081c55935954b53601f5a3a819e wil6210: select CONFIG_CRC32
+a9fa24755ed4658e31c447113e9ad6e8ce1be668 block: rsxx: select CONFIG_CRC32
+ab3e2d2b1f016b25a0d74ff4fd6585c3168412fd lightnvm: select CONFIG_CRC32
+5e668e2c1817f849ff23b9f5f09376a0a4e8d950 iommu/intel: Fix memleak in intel_irq_remapping_alloc
+8426523d9191486fc154399f52bdc9fcc9af1d36 net/mlx5e: Fix memleak in mlx5e_create_l2_table_groups
+9dc284d5b269b6526034363ac8d87f77ca7695b3 net/mlx5e: Fix two double free cases
+9b8852d78d961228333531c51695ce54ddf96099 regmap: debugfs: Fix a memory leak when calling regmap_attach_dev
+68ff42137b413888d2487ee551960e97d275755c wan: ds26522: select CONFIG_BITREVERSE
+7a19a7a8ee957698bc82e723d85929b40333eba2 KVM: arm64: Don't access PMCR_EL0 when no PMU is available
+3e8c16686df4ec370de4f9757af76989f3c36421 block: fix use-after-free in disk_part_iter_next
+5aa2320f213f86c13cccbe86effef3ca68050a17 net: drop bogus skb with CHECKSUM_PARTIAL and offset beyond end of trimmed packet
+5a52ae31885b08ee4390f298439994445b562c9c Linux 4.19.168-rc1
 
---===============9151397733390869226==--
+--===============3443261441724647685==--
