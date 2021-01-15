@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7112327879912752921=="
+Content-Type: multipart/mixed; boundary="===============6065813221997445907=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 15 Jan 2021 18:18:04 -0000
-Message-Id: <161073468492.10962.15638946211983283475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 15 Jan 2021 18:18:11 -0000
+Message-Id: <161073469151.11064.6516214748541952299@gitolite.kernel.org>
 
---===============7112327879912752921==
+--===============6065813221997445907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/regulator-5.11
     old: eaa7995c529b54d68d97a30f6344cc6ca2f214a7
     new: 09db7311ca6170d36f2bb8c26eab8fadc4d10b81
     log: revlist-eaa7995c529b-09db7311ca61.txt
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/regulator-5.12
     old: 3acb64c07e95a75dc0af0bc958f2d09a44a9fd0d
     new: f35f6d8c117569f626826394d85a7e87e167bde8
     log: revlist-3acb64c07e95-f35f6d8c1175.txt
 
---===============7112327879912752921==
+--===============6065813221997445907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1610734650 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1610734682-5eac53867118208401ff70e8cad03d2dea0a07ad
+pusher C3F436CA30F5D8EB 1610734657 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1610734688-56b50bfbbb7fd74675953ae5f6acc1ef805cb43b
 
-eaa7995c529b54d68d97a30f6344cc6ca2f214a7 09db7311ca6170d36f2bb8c26eab8fadc4d10b81 refs/heads/for-5.11
-3acb64c07e95a75dc0af0bc958f2d09a44a9fd0d f35f6d8c117569f626826394d85a7e87e167bde8 refs/heads/for-5.12
+eaa7995c529b54d68d97a30f6344cc6ca2f214a7 09db7311ca6170d36f2bb8c26eab8fadc4d10b81 refs/heads/regulator-5.11
+3acb64c07e95a75dc0af0bc958f2d09a44a9fd0d f35f6d8c117569f626826394d85a7e87e167bde8 refs/heads/regulator-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAB3DoACgkQJNaLcl1U
-h9BFWwf/SWhbFo2xt1rIUaxyzYuE5UrHsFDEGZdT/OSatDld+8xyltiIIJscGpmt
-WaajEJqmbsxp61UhDAfYvADUYQBgg+J0DBpnuTTGoI9bt1Nc5e0x8eqYnP/vZpzm
-QmTBUpH7Lnsb6lqm9cVE4Zf1y+SjRNPnDuK92V/WNvu+Z+MZPQef8mYLa8Vu9DDc
-DRKdfoWuXsttIJiiBiPwn3C+4KKTqMTHmN1LYAxfA26TGLmWW3s67JO2WpuCjKPC
-BbKIb1lOnq6l4w/vCbZvdEgfd/ZZ5KU1u/tBgVgxx3bsWnrqrak5/HGwYtMsShuu
-WMi+8pplqrOKB+Ax6tNojNijpdXKmw==
-=26HP
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAB3EEACgkQJNaLcl1U
+h9B5YQf+MQDeMJ4XYhCgsnOhlIG/z8bxava/UtImoNOMn5RHLsyRSGjvZrjVhcqh
+5/hlnlnDEfpl/FAjqZqy3sPAhk7sbdMj5QIBI4yIeeIFp03qvXu3cIRK8WVUz1um
+46VzqDC9H+wdjCw6GgF1koWSqNmwoyd6IclXdk5B4w8Tk6bSVfNC6ucRVlTmICfC
+DY1K0ETcnzlSNtz0SEkeQKsUxTXA7or1STaW3PzzgEDrBIlvIvxXu7QQpNLLlOmK
+zwvf0Of98o/y1T9PqWWilpL0IOOEaL4iJSAEBSE19Ps1LXh3aclVeQl8n6bxYTs/
+7qthrMMlBFtygEayEGQB7YfB4OlO/Q==
+=/xdC
 -----END PGP SIGNATURE-----
 
---===============7112327879912752921==
+--===============6065813221997445907==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -689,7 +689,7 @@ ed41fd071c57f118ebb37c0d11b1cbeff3c1be6f Merge tag 'block-5.11-2021-01-10' of gi
 7c53f6b671f4aba70ff15e1b05148b10d58c2837 Linux 5.11-rc3
 09db7311ca6170d36f2bb8c26eab8fadc4d10b81 Merge v5.11-rc3
 
---===============7112327879912752921==
+--===============6065813221997445907==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1336,4 +1336,4 @@ c2fa56173ba66bab8f0005789c383cb8cc2aaf62 Merge v5.11-rc3
 dd582369c6c1f39ec475af6191a934f3e57fda35 regulator: qcom-labibb: Implement voltage selector ops
 f35f6d8c117569f626826394d85a7e87e167bde8 Merge series "Really implement Qualcomm LAB/IBB regulators" from AngeloGioacchino Del Regno <angelogioacchino.delregno@somainline.org>:
 
---===============7112327879912752921==--
+--===============6065813221997445907==--
