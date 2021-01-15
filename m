@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 15 Jan 2021 04:28:22 -0000
-Message-Id: <161068490215.14950.15777595484149090889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
+Date: Fri, 15 Jan 2021 04:44:49 -0000
+Message-Id: <161068588947.23484.9500934562580933059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/vireshk/linux
+user: vireshk
 changes:
-  - ref: refs/heads/dev
-    old: a2eb6b0a7bdd6ae810356e80611f9d3ef2253acb
-    new: 3ab2b4424d1cf170585b47ed36e9eb9a41747d87
-    log: |
-         6401c541fd2c3a962309a97accddc4175ece3a9e rcutorture: Make TREE03 use real-time tree.use_softirq setting
-         3ab2b4424d1cf170585b47ed36e9eb9a41747d87 rcu: Run rcuo kthreads at elevated priority in CONFIG_RCU_BOOST kernels
-         
+  - ref: refs/heads/oprofile
+    old: e47809d846204a563f0799a13d0b8d843caa4591
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/drivers/oprofile
+    old: 0000000000000000000000000000000000000000
+    new: c95622b1f560697fe6612e5c8c27a9a1fbc00743
