@@ -1,114 +1,116 @@
-Content-Type: multipart/mixed; boundary="===============2127715891274487352=="
+Content-Type: multipart/mixed; boundary="===============4077745251167426132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 15 Jan 2021 07:22:55 -0000
-Message-Id: <161069537503.28631.15574210396968560491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 15 Jan 2021 07:30:29 -0000
+Message-Id: <161069582997.1357.17224320175327871584@gitolite.kernel.org>
 
---===============2127715891274487352==
+--===============4077745251167426132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 1f2a2aa70351e661caf4b67afe5b50f53b41ef3d
-    new: c9965b6e832071e15850fe3c8ec216f37b08e658
+  - ref: refs/heads/next
+    old: 9d773d473402b7209f9ecaf2fa18bb508e567b8f
+    new: 5a11de010b85261407d306768c119269d9297481
     log: |
-         c9965b6e832071e15850fe3c8ec216f37b08e658 powerpc: Fix incorrect stw{, ux, u, x} instructions in __set_pte_at
+         3831132ace6e431e54b2f5b1d4f0f35ade15adfd ci/install-depends: attempt to fix "brew cask" stuff
+         93c24fba67632722ea03b63b0377c77df2bccb6d Fix mismerge of ds/maintenance-part-4 topic
+         5a11de010b85261407d306768c119269d9297481 Merge branch 'jc/macos-install-dependencies-fix' into next
          
-  - ref: refs/heads/queue/4.4
-    old: 43cef06eec9623af4b63a022f727924fa41b81f9
-    new: ec62909675fd385f0f187257b30f2e29eaba1149
-    log: |
-         293608519cc5c8b3659e231aa093063d4a1b0a79 target: add XCOPY target/segment desc sense codes
-         e5f1cf2a3713fdb0f410fa66f2ecfc5837b7532d target: bounds check XCOPY segment descriptor list
-         36c7456d819a6df24fe02fdeca4f4bf7539b7fe9 target: simplify XCOPY wwn->se_dev lookup helper
-         e69a6aa69a78bfc907c63cba5759fd90b822f947 target: use XCOPY segment descriptor CSCD IDs
-         e3d3feba4e3dfd1405bf7bd8088c33e7e61f75bc xcopy: loop over devices using idr helper
-         52d936d00af603a8677e4b3bcc1f4acd426cde53 scsi: target: Fix XCOPY NAA identifier lookup
-         ec62909675fd385f0f187257b30f2e29eaba1149 powerpc: Fix incorrect stw{, ux, u, x} instructions in __set_pte_at
-         
-  - ref: refs/heads/queue/4.9
-    old: cea3491365cf7dc264a071c2c0aee9503de05062
-    new: 1c557942e1f50ce8d6433a18f99c2cb0f0c3060d
-    log: |
-         fbea1ea228d2e4512ce79cbb51d3c01a762db89c target: bounds check XCOPY segment descriptor list
-         6281c00f6b36418465588048fc47976499f3598b target: simplify XCOPY wwn->se_dev lookup helper
-         08ad9ae67bb41bda13e1171aa3b9f359b1acb82e target: use XCOPY segment descriptor CSCD IDs
-         ea3a2c29412eda9c1720120525341aa8e1bb3066 xcopy: loop over devices using idr helper
-         fd3528d200ca7c63e061f827f0f6dae32f72cd86 scsi: target: Fix XCOPY NAA identifier lookup
-         c9d1785e15dce9cff203484ac0ab1143b8efc9ba target: add XCOPY target/segment desc sense codes
-         1c557942e1f50ce8d6433a18f99c2cb0f0c3060d powerpc: Fix incorrect stw{, ux, u, x} instructions in __set_pte_at
-         
-  - ref: refs/heads/queue/5.10
-    old: 44f918ecfeb8351cb246f288711ad2728aab4178
-    new: 944a51556cc6b3e6ea13072a9cade89b849c0d8e
-    log: revlist-44f918ecfeb8-944a51556cc6.txt
-  - ref: refs/heads/queue/5.4
-    old: 7bfea500ecd4c34c2b1ec264cabfde71713898de
-    new: d4b05c07080e52360ed21e067328383e4505f04f
-    log: |
-         f86e1d5c4766f09c6a154a30e127ff1fe1655e73 x86/asm/32: Add ENDs to some functions and relabel with SYM_CODE_*
-         d4b05c07080e52360ed21e067328383e4505f04f vfio iommu: Add dma available capability
-         
+  - ref: refs/heads/seen
+    old: 71ce95f7ffc3c44212e17b135a2ca287bf465c12
+    new: e44e4556bea303cde1d9d49fc57bc3d850eb7824
+    log: revlist-71ce95f7ffc3-e44e4556bea3.txt
 
---===============2127715891274487352==
+--===============4077745251167426132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44f918ecfeb8-944a51556cc6.txt
+Content-Disposition: attachment; filename=revlist-71ce95f7ffc3-e44e4556bea3.txt
 
-279ae8e1ad0c8eb88583df0b65e3bd8619b78c61 powerpc/32s: Fix RTAS machine check with VMAP stack
-5a56834518ec26ecbdbad738c63ecf47e6ef07c5 io_uring: synchronise IOPOLL on task_submit fail
-74c7a9f691896b0f78a1e4153d957c6d862ebb69 io_uring: limit {io|sq}poll submit locking scope
-136e29e05d13e07273695af5961476b2ee0683af io_uring: patch up IOPOLL overflow_flush sync
-ebee8eb1cbff812eb65b4be9f8684bddfe797590 RDMA/hns: Avoid filling sl in high 3 bits of vlan_id
-d4ea63afceb4785c45a6a4e8d97869b9344abc90 iommu/arm-smmu-qcom: Initialize SCTLR of the bypass context
-5d2f4adda0fe94fba0f093197f26a52cc0fa8c62 drm/panfrost: Don't corrupt the queue mutex on open/close
-b4654b4849c86566eb0885ceafcf168137a735e1 io_uring: Fix return value from alloc_fixed_file_ref_node
-f4fc51a836b0105b5dfa8983d40fc6696f8962da scsi: ufs: Fix -Wsometimes-uninitialized warning
-5ce8e4770b546589aaabad5df485072c15486620 btrfs: skip unnecessary searches for xattrs when logging an inode
-2b14a4df43c88c440400eb5a40b14790093e95ee btrfs: fix deadlock when cloning inline extent and low on free metadata space
-57d128e90d8fb5820a43b3e383b863ea674477e8 btrfs: shrink delalloc pages instead of full inodes
-8cf501ac7c203ccbd8ae594e202500791cfbaac5 net: cdc_ncm: correct overhead in delayed_ndp_size
-029e18228e8c50d6288e84c6f05923ffa1bf154e net: hns3: fix incorrect handling of sctp6 rss tuple
-945e66c738dc1211135a4f4a23ec02d9b47c56ce net: hns3: fix the number of queues actually used by ARQ
-7c1ddef9904bc7745eee8cd43c12864bf93ffbcc net: hns3: fix a phy loopback fail issue
-195b547e2f8093056cf0faf77c5e52dddb1ec747 net: stmmac: dwmac-sun8i: Fix probe error handling
-05c608ae91e776e1f6cabf9bac2ef7af9fd040ef net: stmmac: dwmac-sun8i: Balance internal PHY resource references
-f09382adc70c175308aac5180d433c8703749f49 net: stmmac: dwmac-sun8i: Balance internal PHY power
-4fca2297bc110cc056ac17ae042c0608d78009a4 net: stmmac: dwmac-sun8i: Balance syscon (de)initialization
-6e45532c9f19585304fab91c394e07affb1d4504 net: vlan: avoid leaks on register_vlan_dev() failures
-4d61c4d0473337b6c18ea1240c98bc4367c59683 net/sonic: Fix some resource leaks in error handling paths
-9ca3a272fd7a019efc384b2e9f9cd1a2375bae8b net: bareudp: add missing error handling for bareudp_link_config()
-9f7c68cae5daa213951db92de333cad94bdc25b6 ptp: ptp_ines: prevent build when HAS_IOMEM is not set
-eb12b4168ad1e59272520417f759d1951227f4b5 net: ipv6: fib: flush exceptions when purging route
-645f090af16765611fe57ddb48f69990287c4eb4 tools: selftests: add test for changing routes with PTMU exceptions
-76f48f425d14fd5338bdd828dc6553f4aa87c9f5 net: fix pmtu check in nopmtudisc mode
-46e749c76ee7fb24a547c5cff4530e4e434a3bf8 net: ip: always refragment ip defragmented packets
-37b80b67b9f177b94eb4ed617dfe1488617e0f52 chtls: Fix hardware tid leak
-78caae9f12335ad4b2d3d83a125f14a2b5944f00 chtls: Remove invalid set_tcb call
-9044722713722976bef4ef45113b042b74340c87 chtls: Fix panic when route to peer not configured
-166c15b66f1bd021e15bcf8a24b2b0dbaf92fad1 chtls: Avoid unnecessary freeing of oreq pointer
-d8bc6128a78de3a00a30006d8d3e3365fe47394e chtls: Replace skb_dequeue with skb_peek
-a788bb540d10050d1c06bc315cb9147ff8896494 chtls: Added a check to avoid NULL pointer dereference
-977236e80d9ba9d3818043d70e99ae73f94b205e chtls: Fix chtls resources release sequence
-f01208ffb8e186eac6a2d4dc19b19546bf435382 octeontx2-af: fix memory leak of lmac and lmac->name
-7c539deef72ae211ede40d113c3c661a14cbf848 nexthop: Fix off-by-one error in error path
-e95e520dc33aedbee91bc262bce2e28e32d36f01 nexthop: Unlink nexthop group entry in error path
-d1aad2db80651886f9d8d4492d79080a0ab72f29 nexthop: Bounce NHA_GATEWAY in FDB nexthop groups
-15eac6d1836a4c04793ead4b5f0740d7c2c15713 s390/qeth: fix deadlock during recovery
-5a3442750dc1cf50679c2d55f5bce2e7a2981fee s390/qeth: fix locking for discipline setup / removal
-ef3f98b4a3f67e6709b01421ab3f9ed1f7c8c14a s390/qeth: fix L2 header access in qeth_l3_osa_features_check()
-72998a31f6c9d8b54de27d20d22e3eb3dd341bf6 net: dsa: lantiq_gswip: Exclude RMII from modes that report 1 GbE
-9762590d17c9db6d0547c747f5e00a551e27de53 net/mlx5: Use port_num 1 instead of 0 when delete a RoCE address
-d5ad94a22f690c183090b9e4f1ded14f55010957 net/mlx5e: ethtool, Fix restriction of autoneg with 56G
-1c49a44654d40750fc82805cf9e5961517d14413 net/mlx5e: In skb build skip setting mark in switchdev mode
-944a51556cc6b3e6ea13072a9cade89b849c0d8e net/mlx5: Check if lag is supported before creating one
+f9f30a03107742dc4270dc8e37bc519adc96a475 test-lib-functions.sh: fix usage for test_commit()
+afa80f534b8f7d0422a6e8f208745f3cb94b5d1e t4203: stop losing return codes of git commands
+3831132ace6e431e54b2f5b1d4f0f35ade15adfd ci/install-depends: attempt to fix "brew cask" stuff
+97f4b4c4e79f7726acca50971b4cf851a3219347 mailmap doc: use correct environment variable 'GIT_WORK_TREE'
+2d02bc91c0aa1ced659a21ce75befcd033a4f923 t4203: make blame output massaging more robust
+e47c363260ff44ee3bb12d022e219bbd90b9870c Merge branch 'ds/maintenance-part-4' into jch
+13f3db47a0dbeeef047c0470714a8cbcc147d933 Merge branch 'ew/decline-core-abbrev' into jch
+d181091314c5bbd8b225d85480e115995b52a8a6 Merge branch 'bc/rev-parse-path-format' into jch
+9591d7599757eb0f026b67dc8213e571426d934b Merge branch 'ta/doc-typofix' into jch
+fe8e500b9eac256f403a1ef29541d8a9301331cf Merge branch 'pb/doc-modules-git-work-tree-typofix' into jch
+13723a2193110ca403f868308e78fee0591a517c Merge branch 'ma/t1300-cleanup' into jch
+14245a990623e2ce1ff6493c7ae5826226a29d96 Merge branch 'ma/doc-pack-format-varint-for-sizes' into jch
+ca66d26d9f41e240b51d708b3216c2d1c6dba836 Merge branch 'ma/sha1-is-a-hash' into jch
+36f017c23aa8ec8e09c0c9269de7aae52950e936 Merge branch 'rs/rebase-commit-validation' into jch
+243781c554cec6eefe5ae15671c6945fff6c1466 Merge branch 'ds/trace2-topo-walk' into jch
+a1c48e9787ae2a13f08149d0c3289e46932daa46 Merge branch 'nk/perf-fsmonitor-cleanup' into jch
+a3bc7ede2baf9506fe577899ccb19ce472d80a6b Merge branch 'ab/mktag' into jch
+1353d5630e5eaba9ca8118741f97a9d2275c866b Merge branch 'zh/arg-help-format' into jch
+04355e5ccdf9f5968d70f6a85525a74b0ad1172a Merge branch 'en/merge-ort-3' into jch
+1a2a25c8dc6d937652882afbc7820713c904a337 Merge branch 'ar/t6016-modernise' into jch
+562888055017cf36da72ac57c59827b5dba012bc Merge branch 'en/stash-apply-sparse-checkout' into jch
+3576f1cb7a2721f873dc03775b9ac6bd42bb751b Merge branch 'fc/completion-aliases-support' into jch
+ce3aa3fcf50f9cc6ca0aac9780dd0a0ad0e55690 Merge branch 'ma/more-opaque-lock-file' into jch
+8576c6c8323c7cb413b85376451b43897a990f60 Merge branch 'en/diffcore-rename' into jch
+a1ea98dc9eafc381a24290352ac1d8777d6f9c82 Merge branch 'mt/t4129-with-setgid-dir' into jch
+0ec1e88097a1b77532c77dc345da031e5f105580 Merge branch 'ab/branch-sort' into jch
+7219f1ce9893772d232d0128db64ab3bc5e6fcbe Merge branch 'jk/forbid-lf-in-git-url' into jch
+c17dc9eb8f510d0d3cecccda89bfa03533e948ea Merge branch 'jc/sign-off' into jch
+ffef6a7e2c410087c416b2e3af0d5f76b343d5f0 Merge branch 'ds/for-each-repo-noopfix' into jch
+4f09230928b840cc93b850b4e9956e984340df7e Merge branch 'jc/deprecate-pack-redundant' into jch
+f8d755a11b11baccd0aaaefb89fc9e25e0d0ed03 Merge branch 'pb/mergetool-tool-help-fix' into jch
+a2b43f7c01e037b2e3fd4e4044878522b1e559ae Merge branch 'vv/send-email-with-less-secure-apps-access' into jch
+ee68582947d15324a5f810db60449063b26622cb Merge branch 'sj/untracked-files-in-submodule-directory-is-not-dirty' into jch
+b087cd2bfcfd91548e8c6f37efa14f9b1301bfe9 Merge branch 'jk/t5516-deflake' into jch
+46ddd2352db82dc2f87989c0f57616e1a11b3b53 Merge branch 'ad/t4129-setfacl-target-fix' into jch
+844f29e9328d55868a1d83008c8e030ff78e0e9e Merge branch 'ug/doc-lose-dircache' into jch
+64e66bb57f968ea906db974142070904f20f3f74 Merge branch 'ab/gettext-charset-comment-fix' into jch
+555c87819e40a3ed01930e7d439af9984315d385 Merge branch 'dl/reflog-with-single-entry' into jch
+b91fd7992da3ae7cab621f5d353cc5c539842c87 Merge branch 'js/default-branch-name-tests-final-stretch' into jch
+68de5480401d044fd735a921e710ce0060e1d33c Merge branch 'dl/p4-encode-after-kw-expansion' into jch
+9af962f5f3f399e2a767b7f7728f89155b45a4e5 Merge branch 'bc/doc-status-short' into jch
+e781b512d23bdd456f9c51dceb936f0e073ec5b9 Merge branch 'jk/log-cherry-pick-duplicate-patches' into jch
+eeadedf792fbd17c2044c452328fa5b5754618e2 Merge branch 'ps/fetch-atomic' into jch
+e6bacd9861619ddb08a08e25bb9d5ba8f2193d35 Merge branch 'ab/mailmap' into jch
+2cfacd7057e2d3341f20447f567bdf031f71ca26 Merge branch 'jx/bundle' into jch
+95e1f7f21dd4367369ade8018355d745b5d3992b Merge branch 'tb/local-clone-race-doc' into jch
+33a320bbc55b163fd27319a50ce43eca6c55eb51 Merge branch 'cc/write-promisor-file' into jch
+a3d896f702483a57b26f09624bb1340e70316240 Merge branch 'jc/macos-install-dependencies-fix' into jch
+940c438246029a40650b28a1785e3afbc7866542 ### match next
+e02620537201ebd9934548e5db36112fded6ab6a Merge branch 'ab/coc-update-to-2.0' into jch
+5fea362299be51e2419f89ab6081da2fe28646a3 Merge branch 'ps/config-env-pairs' into jch
+749718bae6d4e50324cb5a436c4e13cbade56dac Merge branch 'so/log-diff-merge' into jch
+e220b3b298239577ba653fad41007c080376b66c Merge branch 'ds/cache-tree-basics' into jch
+b444d198b6b0a66f29a0d2bd9b1ec89d87173116 Merge branch 'sg/t7800-difftool-robustify' into jch
+6b4834cf5a46bf95782483d67247235aa24da5b4 Merge branch 'tb/pack-revindex-api' into jch
+ced39e3b8fa2a41e5ca8748ee51f41f7a49aa827 Merge branch 'tb/pack-revindex-on-disk' into jch
+73119d65b2b684a853fd662be0e5f02d55987e12 Merge branch 'ab/mailmap-fixup' into jch
+c12ffa2ebe56210666ef9230d4eef75b3e0dd5ae Merge branch 'bc/signed-objects-with-both-hashes' into seen
+34c5e28a23b53fbed2b53b8351225744e091d407 Merge branch 'en/ort-directory-rename' into seen
+5499ed6bf7003dcff82ae788f768364f8c675a94 Merge branch 'mr/bisect-in-c-4' into seen
+5b662fe3cc0af1d439474b4afccbe5e9f2862c25 Merge branch 'sm/curl-retry' into seen
+092419376091be676f3a2e7933c78b31bb64aaec Merge branch 'sv/t7001-modernize' into seen
+da76eaadd7f773be7bacb3d9a3d09f3ecb732bef Merge branch 'ar/fetch-transfer-ipversion' into seen
+fcc37c67c7d091b17db452aa9f4d5a82a440b80d Merge branch 'mt/grep-sparse-checkout' into seen
+a2a684e0486ef8de32c22f125f607fe70466270b Merge branch 'mt/rm-sparse-checkout' into seen
+8a7f3f040e07a6e9434c1828f1748a19e0005701 Merge branch 'mk/use-size-t-in-zlib' into seen
+382c66aa6f9cf76e2b6fe6abe302bd103edcdbc4 Merge branch 'jc/war-on-dashed-git' into seen
+44d6744e9797804bb2fb9c211f296fe429c710e6 Merge branch 'ak/corrected-commit-date' into seen
+41d2c09b87bec8134477553365655b5add91720a Merge branch 'mt/parallel-checkout-part-1' into seen
+86a0552f00de133549cb23edc2e60deebe0795fd Merge branch 'ag/merge-strategies-in-c' into seen
+d56de431586cb157c4e17880f69e87b71bd66c14 Merge branch 'hn/reftable' into seen
+9520581b61f6643e9d75c209918d9ccefad03890 Merge branch 'jt/clone-unborn-head' into seen
+17f52eff10ae177704378bb939e9b19785a0a82a Merge branch 'en/ort-conflict-handling' into seen
+849df0c48536050a098d037339495e8edb9ca310 Merge branch 'es/config-hooks' into seen
+f9a24a388caf8df45ce957b1fb10a2af15c2b505 Merge branch 'jk/symlinked-dotgitx-files' into seen
+1a9c87eabd3a5481ddc859ed8c22a9b5ec05473e Merge branch 'ds/update-index' into seen
+d85cc71b53cd567a2843766bdebbe8d2bf24831e Merge branch 'ab/detox-gettext-tests' into seen
+e44e4556bea303cde1d9d49fc57bc3d850eb7824 Merge branch 'js/rebase-i-commit-cleanup-fix' into seen
 
---===============2127715891274487352==--
+--===============4077745251167426132==--
