@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1260966004631030882=="
+Content-Type: multipart/mixed; boundary="===============7215657881983564434=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 16 Jan 2021 10:45:39 -0000
-Message-Id: <161079393944.16896.31662199704226410@gitolite.kernel.org>
+Date: Sat, 16 Jan 2021 10:46:01 -0000
+Message-Id: <161079396111.17115.2105403440405821267@gitolite.kernel.org>
 
---===============1260966004631030882==
+--===============7215657881983564434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b4d4d4f1fc90cb1d10d0b6a49da758047541df96
     new: 9ab7e76aefc97a9aa664accb59d6e8dc5e52514a
     log: revlist-b4d4d4f1fc90-9ab7e76aefc9.txt
 
---===============1260966004631030882==
+--===============7215657881983564434==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -668,4 +668,4 @@ b69df2608281b71575fbb3b9f426dbcc4be8a700 net: tap: check vlan with eth_type_vlan
 f4d133d86af7f39a0f5bdaf7a888ec7b84733b5e tcp_cubic: use memset and offsetof init
 9ab7e76aefc97a9aa664accb59d6e8dc5e52514a GTP: add support for flow based tunneling API
 
---===============1260966004631030882==--
+--===============7215657881983564434==--
