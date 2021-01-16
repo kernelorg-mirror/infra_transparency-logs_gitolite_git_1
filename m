@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Sat, 16 Jan 2021 11:07:20 -0000
-Message-Id: <161079524060.31431.3821910410657313610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Sat, 16 Jan 2021 11:37:13 -0000
+Message-Id: <161079703359.17854.6090669169462169580@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/xfs/shrink_lastag3
-    old: 7b5337f4ca007a33e31c052d34c5a4908e763a59
-    new: eaa5564dadb1fe5ff53ed079e1668323ed421227
+  - ref: refs/heads/for-next
+    old: 3ed510f06e12f8876c20474766cc2f101a41174f
+    new: f856b2f295bc87f96f446f20d41913eade08af07
     log: |
-         eaa5564dadb1fe5ff53ed079e1668323ed421227 xfs: add error injection for per-AG resv failure when shrinkfs
+         f856b2f295bc87f96f446f20d41913eade08af07 power: supply: ds2780: Switch to using the new API kobj_to_dev()
          
