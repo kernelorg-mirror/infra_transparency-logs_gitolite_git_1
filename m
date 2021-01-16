@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 16 Jan 2021 04:12:13 -0000
-Message-Id: <161077033317.7063.1706544634861342631@gitolite.kernel.org>
+Date: Sat, 16 Jan 2021 04:14:48 -0000
+Message-Id: <161077048803.8027.1442858612976127512@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 58f9f9b5555543d47ad9a721489b557a790dc0c7
-    new: 32d91b4af35312cf559a45a07aad1f3bde996dfb
+    old: 32d91b4af35312cf559a45a07aad1f3bde996dfb
+    new: b69df2608281b71575fbb3b9f426dbcc4be8a700
     log: |
-         32d91b4af35312cf559a45a07aad1f3bde996dfb nfc: netlink: use &w->w in nfc_genl_rcv_nl_event
+         b69df2608281b71575fbb3b9f426dbcc4be8a700 net: tap: check vlan with eth_type_vlan() method
          
