@@ -1,44 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============4903110819077436590=="
+Content-Type: multipart/mixed; boundary="===============1970513224058497394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Sat, 16 Jan 2021 20:25:22 -0000
-Message-Id: <161082872227.24349.2132089421684994466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 16 Jan 2021 20:27:39 -0000
+Message-Id: <161082885918.25085.5798857302854103573@gitolite.kernel.org>
 
---===============4903110819077436590==
+--===============1970513224058497394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/aa
-user: andrea
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: c83b082c15f6b6c7df16077403874bc63c362ca3
-    new: 714da604993533d626aed7eda893be88366d07ac
-    log: revlist-c83b082c15f6-714da6049935.txt
+    old: 54c6247d06f110d2129f9ef75e5eb02d39aec316
+    new: 0da0a8a0a0e1845f495431c3d8d733d2bbf9e9e5
+    log: revlist-54c6247d06f1-0da0a8a0a0e1.txt
 
---===============4903110819077436590==
+--===============1970513224058497394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c83b082c15f6-714da6049935.txt
+Content-Disposition: attachment; filename=revlist-54c6247d06f1-0da0a8a0a0e1.txt
 
-c23310e79a1ffa4d94137cbed8aec5e78333610d x86: restore the write back cache of reserved RAM in iounmap()
-0c7f2f0d965800f8770d6ac4b2198f0583147d9e mm: refactor initialization of stuct page for holes in memory layout
-5623d31ea1875cbc2c35dd64e57e28a424a3d22e mm: initialize struct pages in reserved regions outside of the zone ranges
-84f6cb764ce9c3865f306e8807010cd1f2a2a8f8 mm: proc: Invalidate TLB after clearing soft-dirty page state
-623740b6040ad4d9257b322a3208a43580574351 mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
-63f0e52421e7b4b331ac3bbc5d9e15da179762ad Revert "mm: thp: make the THP mapcount atomic against __split_huge_pmd_locked()"
-1f10ea5cd780a8ca51aa11e5c6bedf579fe984f0 mm: thp: make the THP mapcount atomic against __split_huge_pmd_locked()
-6a7782979a9ee090a0c170b20b5c54bd417a380b Revert "mm/ksm: Remove reuse_ksm_page()"
-577ca7bd286b6adfdc3b2b9a85daab42536e3de4 Revert "mm: fix misplaced unlock_page in do_wp_page()"
-2c8239d5727aa51b5553f7cd8a3199ec04cef94f mm: restore full accuracy in COW page reuse
-35360cc9364121a1d8c8e1b2a32cf4bb6dab92e6 mm: COW: acceleration to skip the page lock for the copy path
-335cd3fafbe708988ecdf437c8d290af167e6215 gup: FOLL_DESHARE: copy-on-read fault
-ea9c06db48174cbc198fa5e35f722e4e22d5de71 userfaultfd: UFFDIO_REMAP: rmap preparation
-714da604993533d626aed7eda893be88366d07ac userfaultfd: UFFDIO_REMAP uABI
+1d53864c3617f5235f891ca0fbe9347c4cd35d46 scsi: ufs: Fix possible power drain during system suspend
+21acf4601cc63cf564c6fc1a74d81b191313c929 scsi: ufs: Relax the condition of UFSHCI_QUIRK_SKIP_MANUAL_WB_FLUSH_CTRL
+6948a96a0d69b7e8203758f44849ce4ab06ff788 scsi: ufs: Relocate flush of exceptional event
+35fc4cd34426c242ab015ef280853b7bff101f48 scsi: ufs: Correct the LUN used in eh_device_reset_handler() callback
+d50c7986fbf0e2167279e110a2ed5bd8e811c660 scsi: qedi: Correct max length of CHAP secret
+39718fe7adb1a79f78be23f058299bc038cbe161 scsi: mpt3sas: Fix spelling mistake in Kconfig "compatiblity" -> "compatibility"
+3b01d7ea4dae907d34fa0eeb3f17bacd714c6d0c scsi: scsi_debug: Fix memleak in scsi_debug_init()
+e5cc9002caafacbaa8dab878d17a313192c3b03b scsi: sd: Suppress spurious errors when WRITE SAME is being disabled
+be2553358cd40c0db11d1aa96f819c07413b2aae scsi: sd: Remove obsolete variable in sd_remove()
+0da0a8a0a0e1845f495431c3d8d733d2bbf9e9e5 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============4903110819077436590==--
+--===============1970513224058497394==--
