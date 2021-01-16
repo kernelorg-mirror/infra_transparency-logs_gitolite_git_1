@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Sat, 16 Jan 2021 12:10:33 -0000
-Message-Id: <161079903307.8039.3784583773067619831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/arch
+Date: Sat, 16 Jan 2021 12:48:54 -0000
+Message-Id: <161080133433.30284.17196911516917155886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/jarkko/arch
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: 7088ef6726e85bc8c9181c855485f702c5c716bd
-    new: 26fe7d1da95be29a9a6d5cc73ffead9c6b8fd965
+  - ref: refs/heads/master
+    old: 81474e8e1c253fbc411289aaa220eea5c8526205
+    new: 359fe3f25b53e67d34d1b26e9ca09e63eef18fdf
     log: |
-         26fe7d1da95be29a9a6d5cc73ffead9c6b8fd965 dt-bindings: power/supply: Add ltc4162-l-charger
+         359fe3f25b53e67d34d1b26e9ca09e63eef18fdf Use systemd-resolved.
          
