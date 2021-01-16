@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sat, 16 Jan 2021 15:45:44 -0000
-Message-Id: <161081194448.17731.10115094759365298195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sat, 16 Jan 2021 16:34:23 -0000
+Message-Id: <161081486348.15617.416108001398237399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
   - ref: refs/heads/for-next
-    old: 5abaa4896338cda736ce22c44f9791ac1af1e0d7
-    new: da9a0fd2ac14504ab9770cc1676f1b3dc0386844
+    old: 60c5f144569f9b3da2d9b1d8a318af912419e342
+    new: 61f59723b3552dcd41b08da30fad91279b29f432
     log: |
-         0fb56bf95c76f99d6301aea8f7198babd0005fa6 arm64: dts: qcom: qrb5165-rb5: sort nodes alphabetically
-         4ca325b6324bcac3411c2e42f71ffd00ec3e1a69 Merge branches 'arm64-defconfig-fixes-for-5.11' and 'arm64-fixes-for-5.11' into for-next
-         da9a0fd2ac14504ab9770cc1676f1b3dc0386844 Merge branches 'arm64-defconfig-for-5.12', 'arm64-for-5.12', 'drivers-for-5.12' and 'dts-for-5.12' into for-next
+         8a3cc755b13808eba74846dfd1033fcbc21f9a65 coredump: don't bother with do_truncate()
+         f0b245b318b65d67348c915b7fa74ffd5c888ced coredump.h: move CONFIG_COREDUMP-only stuff inside the ifdef
+         61f59723b3552dcd41b08da30fad91279b29f432 Merge branch 'work.coredump' into for-next
          
