@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Sat, 16 Jan 2021 11:53:23 -0000
-Message-Id: <161079800374.28990.12666965188467831825@gitolite.kernel.org>
+Date: Sat, 16 Jan 2021 11:53:33 -0000
+Message-Id: <161079801337.29178.9757996083391691876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linusw/linux-integrator
 user: linusw
 changes:
-  - ref: refs/heads/kasan
-    old: 03849807ad51ee8884d2b8dc4d0b3b7c19af335e
+  - ref: refs/heads/kasan-apq8060-test
+    old: ef372042f6dbbebee41a907ee9d1e3b86e4e83f6
     new: 0000000000000000000000000000000000000000
