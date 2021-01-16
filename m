@@ -1,70 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Sat, 16 Jan 2021 11:55:37 -0000
-Message-Id: <161079813738.31943.4942660600932050653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/arch
+Date: Sat, 16 Jan 2021 12:09:44 -0000
+Message-Id: <161079898443.6389.10618288127732262316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/jarkko/arch
+user: jarkko
 changes:
-  - ref: refs/tags/v5.10
-    old: 0000000000000000000000000000000000000000
-    new: 3f995f8e0b540342612d3f6b1fc299f5bf486987
-  - ref: refs/tags/v5.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 8ccd3b86485397172cf41d07ede9c26fc8bf9d88
-  - ref: refs/tags/v5.10-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 27598e7e73260ed0b2917eb02d4a515ebb578313
-  - ref: refs/tags/v5.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 4d3d761b5b27bb33a731e8df51b7fb6a6c565804
-  - ref: refs/tags/v5.10-rc4
-    old: 0000000000000000000000000000000000000000
-    new: a93711503472d4c89977ce2c80dcd4b75e36cc45
-  - ref: refs/tags/v5.10-rc5
-    old: 0000000000000000000000000000000000000000
-    new: af69a948d2ce48f8bfe9935958d12f86fb50326b
-  - ref: refs/tags/v5.10-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 2884f0b6b25db35053dd51e8e1839696746d8321
-  - ref: refs/tags/v5.10-rc7
-    old: 0000000000000000000000000000000000000000
-    new: dd0039844c8b2b960d0e0175923da0135f87c392
-  - ref: refs/tags/v5.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 4a191eab42bda9fba2742d8d538609c737b8194e
-  - ref: refs/tags/v5.11-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8abc7aa5d31067372903fb523ed96e8470b92d50
-  - ref: refs/tags/v5.11-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5b7c653871ad14d6b0fb53fabd8152ea70ad545e
-  - ref: refs/tags/v5.9
-    old: 0000000000000000000000000000000000000000
-    new: 0ed79c602730cb0e73f78dcd503aca452f0d414b
-  - ref: refs/tags/v5.9-rc2
-    old: 0000000000000000000000000000000000000000
-    new: a7b66aa9df187c132a48990f82665b9d23ef64d5
-  - ref: refs/tags/v5.9-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 02d49d0a468efe1cd14a85b15501daf9bb4143ea
-  - ref: refs/tags/v5.9-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 58c26e62f075825dc598345e31f0afbcb1da48ef
-  - ref: refs/tags/v5.9-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 43b10d5a9053d0111bb547ea09abe5e102355d06
-  - ref: refs/tags/v5.9-rc6
-    old: 0000000000000000000000000000000000000000
-    new: df38e3687160a8a22016c8e41b481de779945364
-  - ref: refs/tags/v5.9-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 050e12cdf1da07b944898cf2e27472c3e8d1d185
-  - ref: refs/tags/v5.9-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 11c2a51a0844833eee4356f86cf4555eafaf010b
+  - ref: refs/heads/master
+    old: b2dffc9b3a17f9bf67fdcc9bfffaf024c6aa9963
+    new: 81474e8e1c253fbc411289aaa220eea5c8526205
+    log: |
+         81474e8e1c253fbc411289aaa220eea5c8526205 Disable PC speaker bell.
+         
