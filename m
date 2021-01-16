@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 16 Jan 2021 20:18:51 -0000
-Message-Id: <161082833139.19605.14725342183698103964@gitolite.kernel.org>
+Date: Sat, 16 Jan 2021 20:21:32 -0000
+Message-Id: <161082849205.21773.3350116065007231534@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: 06873f3398faeb0d107d58b52ffd548c8e8b6e26
-    new: be8a1f66af72d02368e9903c8785ad7f4be08b6b
+  - ref: refs/heads/fixes-base
+    old: a8f808839abe3a10011e28b46af1848dfd8c4f21
+    new: be2553358cd40c0db11d1aa96f819c07413b2aae
     log: |
          1d53864c3617f5235f891ca0fbe9347c4cd35d46 scsi: ufs: Fix possible power drain during system suspend
          21acf4601cc63cf564c6fc1a74d81b191313c929 scsi: ufs: Relax the condition of UFSHCI_QUIRK_SKIP_MANUAL_WB_FLUSH_CTRL
