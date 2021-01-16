@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 16 Jan 2021 04:14:48 -0000
-Message-Id: <161077048803.8027.1442858612976127512@gitolite.kernel.org>
+Date: Sat, 16 Jan 2021 04:22:21 -0000
+Message-Id: <161077094133.15636.110392982370715296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 32d91b4af35312cf559a45a07aad1f3bde996dfb
-    new: b69df2608281b71575fbb3b9f426dbcc4be8a700
+    old: b69df2608281b71575fbb3b9f426dbcc4be8a700
+    new: f4d133d86af7f39a0f5bdaf7a888ec7b84733b5e
     log: |
-         b69df2608281b71575fbb3b9f426dbcc4be8a700 net: tap: check vlan with eth_type_vlan() method
+         f4d133d86af7f39a0f5bdaf7a888ec7b84733b5e tcp_cubic: use memset and offsetof init
          
