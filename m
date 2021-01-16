@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 16 Jan 2021 02:13:41 -0000
-Message-Id: <161076322158.23500.13751921246301420000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/arch
+Date: Sat, 16 Jan 2021 02:22:41 -0000
+Message-Id: <161076376187.29932.18082552578794262053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/arch
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: e4bedf48aaa5552bc1f49703abd17606e7e6e82a
-    new: bcd0cf19ef8258ac31b9a20248b05c15a1f4b4b0
+    old: b2db7c73dfdd970e3815ddf8ed1f0079a0cac481
+    new: a8f945572dd23fbbeae5e69bd2334394021bd0c5
     log: |
-         dd5e073381f2ada3630f36be42833c6e9c78b75e net_sched: gen_estimator: support large ewma log
-         bcd0cf19ef8258ac31b9a20248b05c15a1f4b4b0 net_sched: avoid shift-out-of-bounds in tcindex_set_parms()
+         a8f945572dd23fbbeae5e69bd2334394021bd0c5 Fix /etc/fstab entry for the encrypted swap
          
