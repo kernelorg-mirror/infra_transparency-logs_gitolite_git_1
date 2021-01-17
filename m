@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6112527061167269555=="
+Content-Type: multipart/mixed; boundary="===============2107839154882594699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sun, 17 Jan 2021 16:48:52 -0000
-Message-Id: <161090213234.15283.5537654079838000036@gitolite.kernel.org>
+Message-Id: <161090213289.15342.11929990996759642034@gitolite.kernel.org>
 
---===============6112527061167269555==
+--===============2107839154882594699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,23 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 2762b48e9611529239da2e68cba908dbbec9805f
-    new: 1af529061f01858e6e314ea54258fb1faf1a9fec
-    log: |
-         0f13ff6d440febb1cc7c10700486e136dc921ef5 ASoC: dapm: remove widget from dirty list on free
-         b402e40e59400fd1a1d9d0f066c7d07a9187d0db MIPS: boot: Fix unaligned access with CONFIG_MIPS_RAW_APPENDED_DTB
-         3ed42f689218d7d9310c2c13b1614f22a1d65793 MIPS: Fix malformed NT_FILE and NT_SIGINFO in 32bit coredumps
-         0878cd5b06b63cb6c89b97915c8852140aa546d0 MIPS: relocatable: fix possible boot hangup with KASLR enabled
-         71d129164197455ce96d9b0e3af2db79e515b2cb ACPI: scan: Harden acpi_device_add() against device ID overflows
-         73891fa1a7201197826ca9f53687a835713f39ed mm/hugetlb: fix potential missing huge page size info
-         1ab14f907dd66fef0bd3d1d9744f86c340af901e dm snapshot: flush merged data before committing metadata
-         015f4e9835496c58cc9f35645530a55122c124ee r8152: Add Lenovo Powered USB-C Travel Hub
-         52e01d4ae1247889be1c7b410325c4dca069e781 ext4: fix bug for rename with RENAME_WHITEOUT
-         1af529061f01858e6e314ea54258fb1faf1a9fec Linux 4.14.217-rc1
-         
+  - ref: refs/heads/linux-4.19.y
+    old: c110fed0e606ff922d5cad8ab74ba9410ca41694
+    new: 245da3579887f331202976baada7993867987545
+    log: revlist-c110fed0e606-245da3579887.txt
 
---===============6112527061167269555==
+--===============2107839154882594699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,23 +32,43 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610902131 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1610902131-ec8d7f75588d53f9793a6e1e514c7f43417ff604
 
-2762b48e9611529239da2e68cba908dbbec9805f 1af529061f01858e6e314ea54258fb1faf1a9fec refs/heads/linux-4.14.y
+c110fed0e606ff922d5cad8ab74ba9410ca41694 245da3579887f331202976baada7993867987545 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAEanMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HlgP/Al7l+GQIC2EJuyYVeGB
-b8jz1hl9+AlGtjPM3cdj62NNZddo6UX50ydbSHWR3HM8+eR1MNq6N/gRFW3269Bc
-PIgjXdlB12seNK2qxVnPwCc+cazgyqm6VCpAsJX05tJuWwGPcSdob8XlrcxQE/01
-+gwL8iXlTjcyFRchW1nnF5ACtlqheS6KVZ5kgAS0NOZtNAS70BQIvm5jkykOvkzN
-A0YQ0OmPMZIoCKVd86Nte0h6yvKp4j9d5U5TJ+jLqMVxVHOlTFBluQdI/dNwKK9Z
-+gNdh0erVfjY5VRD5+rkfQwsOonpoHJxeriveSEK7ahpBDvYa3B+v7bkBP/P9g8L
-ZHTxCpiqfI659rOjI1/DYyQq+xRuq0l8vEsHjydpIVi41D6PUTwB5rumip4ed/Pk
-1DNyWDUOAWyQfF3WuPkufTLaksg69AVE+ipAIMsBD+o0eNspv4lnZnOhNOyxIzCK
-QaIjffhW2ZYoyVT7aVUYxGRuYNgKbmB6NV1RiopV4+WjOzZ90lPkYfkUkWzuWCt1
-HCcg7KTpS9FBtoQCUSjsXV7oQx7OUEOjybmNsIOL8R+2XDnBVcc0N+Xdr2jrSKAh
-PugJt/6ClYVxRxzMTiCtfMA2f4lZjBTSjjdAAJetzUsQL+p2Fkkip4APHSiNczgq
-5zQ/h0iAGalLSfJvo5Xdxnd/
-=MA6y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAEanQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+480P/0icHPsMu+MSY/NsFzX1
+1MONcpPWp19Mr5MWDhKGn+hRfmjcORCObk7EHB1/ysh5/gl6Yjn94SWndH9XJihs
+iuffCSBJ5KQSrWVpZWUS2fvrIVCsBqXBhw5NDIc0CT4lDdEtuOX2zNNBZd33yjf9
+E7L3TzM8qo0nxGLTfR5EgGCfAe2GqXXXT4GQ7bWzv3qwykukWsCtE2Gxc1HNiOse
+zkv5Qcc6A6VZD8nQ4Dh/uK2qqcYaOTuLMnNXqkk0zKJU/enQw0V8lpTIlXbpPZOB
+otjKfWWDz/6bzW09TpmMbwVjhJF2DfKQlPWZlpSAtJmfXeKOhRIeS3CQtOogFoFU
+6ZLGSd1tKXqND4noDVVIBWAlgRMfZ/PJl46yZEVE+c++uN7E+zRP7dqt6DF+zC32
+A/Aaw6tRgbO5r+UbDN24USvIQzANIOxmz3XcWMHnC05nx4pcx/04ljB/oRsS3oRE
+yAsRj0l9ySKfCbZtu7lJkyVJYi4wVKAh7GNVAfFDLV6Tlinb7we3MGLfj/n5oQAm
+2b9LKlkIWcCVE8qoty/41ZwiyOQEi25Nl/rNb7KDPqhZD9j08CElFA7GHomYxu3t
+9nNq2NAnACP0ookPHSNRX5jKJjlqr/S7CxB0vPjNT0mUZwWzoHnOBxrWUm5d3FCv
+DfExtk+uklZjEJlrEG03gUCZ
+=eod3
 -----END PGP SIGNATURE-----
 
---===============6112527061167269555==--
+--===============2107839154882594699==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c110fed0e606-245da3579887.txt
+
+001e1c14ef790657b1b86a104ee72820854159e2 ASoC: dapm: remove widget from dirty list on free
+93795620e7491bafc4211d0342deb405d9024ba5 x86/hyperv: check cpu mask after interrupt has been disabled
+60cff030f159448d41a0d165862ba6377183d552 tracing/kprobes: Do the notrace functions check without kprobes on ftrace
+c7b4c48dfebcb95bdfd5bb3b5f52c3adaac30529 MIPS: boot: Fix unaligned access with CONFIG_MIPS_RAW_APPENDED_DTB
+2e224c59e3a13ee07b9b3897a95a5f70af356c33 MIPS: Fix malformed NT_FILE and NT_SIGINFO in 32bit coredumps
+bfc46b2a206526775222cfc4d704b3acb28bf948 MIPS: relocatable: fix possible boot hangup with KASLR enabled
+4d4dcad89a276285ad4db6bc0b75a6572b7b86d7 ACPI: scan: Harden acpi_device_add() against device ID overflows
+75aedf3581b111dc90d63e8a9df496443576f5df mm/hugetlb: fix potential missing huge page size info
+218d5fcdf3ab6e71886cb82c3a7a88b1719aef6b dm snapshot: flush merged data before committing metadata
+5e123d42b774fea85160d5d44e309aad12dc119d dm integrity: fix the maximum number of arguments
+d7942169fc2ca198b36c86e9453b995ebf4dbd40 r8152: Add Lenovo Powered USB-C Travel Hub
+202d0b262f66ba052508b6168d6b99d870973ab8 ext4: fix bug for rename with RENAME_WHITEOUT
+245da3579887f331202976baada7993867987545 Linux 4.19.169-rc1
+
+--===============2107839154882594699==--
