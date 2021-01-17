@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1589659591877361411=="
+Content-Type: multipart/mixed; boundary="===============0590972653528617695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Sun, 17 Jan 2021 09:51:15 -0000
-Message-Id: <161087707565.9353.7618191137603422414@gitolite.kernel.org>
+Date: Sun, 17 Jan 2021 09:54:01 -0000
+Message-Id: <161087724116.10192.13809951698839257959@gitolite.kernel.org>
 
---===============1589659591877361411==
+--===============0590972653528617695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 user: luca
 changes:
-  - ref: refs/heads/master
-    old: fd1c3318f4e7cf30cd73efb3cb5e9648efc6625b
+  - ref: refs/heads/pending
+    old: ade5aa9e44b4cfc395535080cdbd748311383591
     new: 07ceefa3012f43512e93931980bd3bdf5af96344
-    log: revlist-fd1c3318f4e7-07ceefa3012f.txt
+    log: revlist-ade5aa9e44b4-07ceefa3012f.txt
 
---===============1589659591877361411==
+--===============0590972653528617695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd1c3318f4e7-07ceefa3012f.txt
+Content-Disposition: attachment; filename=revlist-ade5aa9e44b4-07ceefa3012f.txt
 
 061f8572a31c0da6621aacfc70ed16e1a6d1d33b pwm: atmel-tcb: Switch to new binding
 34cbcd72588f40e58d7db5aa8c125068dd735765 pwm: atmel-tcb: Add sama5d2 support
@@ -1051,4 +1051,4 @@ e862a3e4088070de352fdafe9bd9e3ae0a95a33c brcmfmac: clear EAP/association status 
 098238e80bed1ea2347e2efb5533f1d0289ae6c3 wilc1000: use flexible-array member instead of zero-length array
 07ceefa3012f43512e93931980bd3bdf5af96344 wlcore: Downgrade exceeded max RX BA sessions to debug
 
---===============1589659591877361411==--
+--===============0590972653528617695==--
