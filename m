@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 17 Jan 2021 15:22:25 -0000
-Message-Id: <161089694568.32162.11338217968565470178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Sun, 17 Jan 2021 15:22:53 -0000
+Message-Id: <161089697336.32383.7883262507946487443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: eguan
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/master
-    old: 2080ad637bbb4d2c24c4d63939799dab178eb407
-    new: 0e195a4ca997436f4237cb6d21edefb6db1f93d7
+  - ref: refs/heads/hyperv-fixes
+    old: ad0a6bad44758afa3b440c254a24999a0c7e35d5
+    new: fff7b5e6ee63c5d20406a131b260c619cdd24fd1
     log: |
-         3334128e4f530021e59796a8712cd86d952d5cbc btrfs: test correct operation of free objectid related functionality
-         c1537fc9f2122a13119bd58a46d1d0c10280ce21 btrfs: test incremental send after cloning extents from the same file
-         d6dafbf074d3b66e8104f228d95790a93e3b8b13 common/filter: add _filter_stat
-         0e195a4ca997436f4237cb6d21edefb6db1f93d7 btrfs: check qgroup doesn't crash when beyond limit
+         fff7b5e6ee63c5d20406a131b260c619cdd24fd1 x86/hyperv: Initialize clockevents after LAPIC is initialized
          
