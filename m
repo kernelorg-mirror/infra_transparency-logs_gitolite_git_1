@@ -1,32 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Sun, 17 Jan 2021 14:06:55 -0000
-Message-Id: <161089241586.1429.16679000201995291576@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8279962114651392715=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 17 Jan 2021 14:08:30 -0000
+Message-Id: <161089251018.2041.8064839417058463254@gitolite.kernel.org>
+
+--===============8279962114651392715==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: luca
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pending
-    old: 07ceefa3012f43512e93931980bd3bdf5af96344
-    new: 243c8878130282e19fdc288cbbecfef2d2594803
+  - ref: refs/heads/master
+    old: 03de15a82f26ecdf5f4f4be898e66e9a608bf874
+    new: d7210d60b3234034caf653975536a1a74898f2f5
     log: |
-         3e155d5e5f9044970b1bcffa7c3828d27cf47261 iwlwifi: mvm: add notification size checks
-         1370c776cb31d701318c4fa1f98cc22b11f3928e iwlwifi: mvm: check more notification sizes
-         9aff3c6b460723ee4c64949ee280976b5d678b75 iwlwifi: mvm: remove debugfs injection limitations
-         4ddc9b017268edf55698554a6492da8f3206a36d iwlwifi: mvm: scan: fix scheduled scan restart handling
-         4de9c363b0b542102ecb0adb8353ba55a9375330 iwlwifi: mvm: handle CCA-EXT delay firmware notification
-         4bd0eca8c0efc97b75a41135131b3c961df1d1b5 iwlwifi: mvm: add support for new flush queue response
-         a5951ac4fc06ea1e2e77c7ae9453672593eaf975 iwlwifi: pcie: properly implement NAPI
-         271f59887fd1d9bc67f0df635c94e13cc1c9c489 iwl-trans: iwlwifi: move sync NMI logic to trans
-         ad2df68fccbc6cb740a6c2ceaaa3e065632ddaca iwlwifi: dbg: dump paged memory from index 1
-         8f8a735f39ddca2b882a8485bfb376bee60d34c3 iwlwifi: remove TRANS_PM_OPS
-         243c8878130282e19fdc288cbbecfef2d2594803 iwlwifi: mvm: don't check system_pm_mode without mutex held
+         d7210d60b3234034caf653975536a1a74898f2f5 5.4-stable patches
          
-  - ref: refs/tags/iwlwifi-next-sent-for-review-2021-01-17
-    old: 0000000000000000000000000000000000000000
-    new: 243c8878130282e19fdc288cbbecfef2d2594803
+
+--===============8279962114651392715==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610892509 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1610892508-a4578aa94510b6638be4407459ea6da2b66b2f76
+
+03de15a82f26ecdf5f4f4be898e66e9a608bf874 d7210d60b3234034caf653975536a1a74898f2f5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAERN0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7YcQAK+NGvhvOEQdUvrXQm+H
+ffM7UX6BwE/wrcAz/b5A8W2z8MDcawCU4Oe0glZVOxM8g/xIlkVo+Nu7ZkWtCJcl
+F9E7n4wJGnE6OpdEL11TJhmpYkgaMFenImytz/5v/bzGUxVOPiQAp6NfhCOCn/oj
+FEUTYFeVrpTp5F+zYxlvaP4e930w6ot+VHOSujQtixLfql04ckisLQdwGbumJ/H7
+Zi3qKUPbPKoihNEQLMNVaGioccpxQy3zjUKbBWeHj1HX/VsEkTCdnloNdF7BnpN2
+5MA/7sInUPuChwoXpcS51r3FsLlMq+DUw5J6xZ+nlrQI1HLZxV/55cZEwaNwxkCu
+6i7t/CdBY7E2zevf3jTqp5kf/F6vv/n2IV/UXy60O/LYbfh2fs3/DUAd0X1VXT1L
+gFS19xXqqkrb0PpXlgeRXTYNr4P/5jjSwUHGnoMy7+KwfviHtHYS/ZV/HyBB5ngv
+U+k9iDi7HJ78szL7c/3bFHDVPVEVrYHOzBMdQhYFd9mINCG0vxsm36P7xLdDF82d
+3kpaek1NsiLPyC4x8nadtcsl9uVibFTCCOPRnsXrXp+v0bS8ePH+9HhNnIoPKG8O
+tTa8iPPypGW1OUkDBtZd0QDvWDk/oThfbspLt5ce3WICKq1a5Ya/DVyJQafyCjna
+hZg8YzP7/EHxzUStrMPpoYAv
+=E7YB
+-----END PGP SIGNATURE-----
+
+--===============8279962114651392715==--
