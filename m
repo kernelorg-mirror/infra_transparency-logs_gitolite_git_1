@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6485680440928710469=="
+Content-Type: multipart/mixed; boundary="===============8693542437514022732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Sun, 17 Jan 2021 11:43:14 -0000
-Message-Id: <161088379417.5256.3635206632394870533@gitolite.kernel.org>
+Date: Sun, 17 Jan 2021 11:45:11 -0000
+Message-Id: <161088391112.7316.3493380745625235237@gitolite.kernel.org>
 
---===============6485680440928710469==
+--===============8693542437514022732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,24 @@ service: git-receive-pack
 repo: pub/scm/virt/kvm/mst/qemu
 user: mst
 changes:
-  - ref: refs/heads/pci
-    old: fdfa3b1d6f9edd97c807df496a0d8e9ea49240da
-    new: ccee1a8140211c569156ae649474cc520eb2a36b
-    log: revlist-fdfa3b1d6f9e-ccee1a814021.txt
+  - ref: refs/tags/for_autotest
+    old: 31fbada3a4314c4b3b57a41a74e8e7b4d2b2fa7a
+    new: a0f4bd2ffa351b260fc5093dacc3896a7cc2a7a7
+    log: revlist-31fbada3a431-a0f4bd2ffa35.txt
+  - ref: refs/tags/for_autotest_next
+    old: 31fbada3a4314c4b3b57a41a74e8e7b4d2b2fa7a
+    new: a0f4bd2ffa351b260fc5093dacc3896a7cc2a7a7
+    log: revlist-31fbada3a431-a0f4bd2ffa35.txt
+  - ref: refs/tags/for_upstream
+    old: 31fbada3a4314c4b3b57a41a74e8e7b4d2b2fa7a
+    new: a0f4bd2ffa351b260fc5093dacc3896a7cc2a7a7
+    log: revlist-31fbada3a431-a0f4bd2ffa35.txt
 
---===============6485680440928710469==
+--===============8693542437514022732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdfa3b1d6f9e-ccee1a814021.txt
+Content-Disposition: attachment; filename=revlist-31fbada3a431-a0f4bd2ffa35.txt
 
 c923a30481baf87f631659085f94cd6000116192 Open 6.0 development tree
 37b6fd6658ff79dd8e3ef0d3bc0d13866d077b53 gitlab-ci: Document 'build-tcg-disabled' is a KVM X86 job
@@ -934,4 +942,4 @@ cc9346e4a9794a8db79a90119f64cdc87cf3e4bc Kconfig: Compile PXB for ARM_VIRT
 f698a88a7723e6ebae736a7f458b4cd1e9582d83 acpi: Enable pxb unit-test for ARM virt machine
 ccee1a8140211c569156ae649474cc520eb2a36b acpi: Update _DSM method in expected files
 
---===============6485680440928710469==--
+--===============8693542437514022732==--
