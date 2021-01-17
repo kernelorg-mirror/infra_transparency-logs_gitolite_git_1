@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6259944344255068593=="
+Content-Type: multipart/mixed; boundary="===============8439469881371397306=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 17 Jan 2021 14:16:32 -0000
-Message-Id: <161089299294.7435.16029854479339375153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 17 Jan 2021 14:24:29 -0000
+Message-Id: <161089346958.10947.3341399891250874866@gitolite.kernel.org>
 
---===============6259944344255068593==
+--===============8439469881371397306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.4
-    old: 7615952354dcad88d83304b5e89f104a546553a9
-    new: 550f752d626130aaaeeb934a6afa1c47f4a478f2
-    log: revlist-7615952354dc-550f752d6261.txt
-  - ref: refs/heads/queue/5.4
-    old: a6d9a4371014273b75016b6023f4c11828a71247
-    new: 90dce011ff8f93d5e2b4287a9de01b5fb7854acc
+  - ref: refs/heads/master
+    old: 0ce73465f1a64414e21a6d4aee0619d9ceec47a7
+    new: 49998bd6d1e75a766f41cfd2311b9764d4903b4c
     log: |
-         083488cb6ff30e5fc36c6e1d68910d4894df54f6 kbuild: enforce -Werror=return-type
-         90dce011ff8f93d5e2b4287a9de01b5fb7854acc btrfs: prevent NULL pointer dereference in extent_io_tree_panic
+         49998bd6d1e75a766f41cfd2311b9764d4903b4c 4.9-stable patches
          
 
---===============6259944344255068593==
+--===============8439469881371397306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7615952354dc-550f752d6261.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7a92e45c2791af0338f54a62e5f901cd73aca2c1 target: add XCOPY target/segment desc sense codes
-c85fecceec8520d2b023c3334e9561e67a32e8ee target: bounds check XCOPY segment descriptor list
-8e3c992dceb808ab26816bbc814335b6a2634d58 target: simplify XCOPY wwn->se_dev lookup helper
-af1fb5dcffb4348e37b9b36c4e7d8e5078c67bed target: use XCOPY segment descriptor CSCD IDs
-b0b95504f4e60a2aae6706655dfae46152258c4b xcopy: loop over devices using idr helper
-87be50177ddb789330e6c5ddcc2f301cec0017dc scsi: target: Fix XCOPY NAA identifier lookup
-d4b62494ce10c482f42a9c842899c5e2407fbf57 powerpc: Fix incorrect stw{, ux, u, x} instructions in __set_pte_at
-17d13502c8db1ac32e89e1b19483c541b4539709 net: ip: always refragment ip defragmented packets
-df9c0f19048b370a18055a79ab14e08be15ca108 net: fix pmtu check in nopmtudisc mode
-b60abd189e520ac975d8921d052c2dea130c89b2 vmlinux.lds.h: Add PGO and AutoFDO input sections
-b0260231660261a9b7b2eaaea5188baba163f81f ubifs: wbuf: Don't leak kernel memory to flash
-5d474e3f5edbbb79470d35f77669c7da5ea16a42 spi: pxa2xx: Fix use-after-free on unbind
-20acb9de26d6f8c187401b27a86daef2a7b70cdf cpufreq: powernow-k8: pass policy rather than use cpufreq_cpu_get()
-885a02f6957a318862e281167fbdd9c853d530d8 wil6210: select CONFIG_CRC32
-1a64b912a3a01859e1d6ad524ff7e73ab9d0bb18 block: rsxx: select CONFIG_CRC32
-d5453054e2da78cfaf1ec9d18e906702db852b2c iommu/intel: Fix memleak in intel_irq_remapping_alloc
-a09652089d496a4ecb925e2cb95a6523f22ae538 block: fix use-after-free in disk_part_iter_next
-2555bb2a5163e3741d5dd5916f3a9f0228750aca net: drop bogus skb with CHECKSUM_PARTIAL and offset beyond end of trimmed packet
-4328b0f47a72b408ff9038a79817b3698281914f Linux 4.4.252
-550f752d626130aaaeeb934a6afa1c47f4a478f2 ASoC: dapm: remove widget from dirty list on free
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610893468 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1610893468-f1919a0e9b4089ca929c6623f41a00552944526b
 
---===============6259944344255068593==--
+0ce73465f1a64414e21a6d4aee0619d9ceec47a7 49998bd6d1e75a766f41cfd2311b9764d4903b4c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAESJwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wkwQAMVLD7MW9wP0WqxhpiNJ
+Bn5laX0fh5A7svKjixOAQtCUJzn5hX9Y4OHuHi3VVB2EZ2NNYckzRBFSbhsUXtgm
+6k+Lg1yp7lwZxv8FJA/htYcshE+Aw3KGK+Rq8kGAENj/zWvpUp92HIkA/FGpskOS
+AYqdxFAyxNwe7OPYTMABvK2ZiJyHpKtPDIe/Szl5xPrb0KYn4d1szz7nQZL2mP1/
++FdnKWYO1Sty+7wWXKKIRwP1A2i9gS9gVxgtuDjARbnceeoeKt9qBKQyjvZy/0L4
+BeWMLXTbonFlo+yT0J1BB2ROfKgBp2eXj8EEX6vRcnmYbjZJ+989bQvWUTqCqwKU
+oGPUfwpxUoJJrv5cKnEVzOijnLqB+lqyUSzobgDqrMWN2xfYogqnWsWmIhQ0R8Q4
+DATER1CMYqufriQ01MBP3Glx1kFfJSLoDPF+/QDnrNj7a0FR3MhMLE+61kDH3H2V
+f2WVSnmySQXXj4LizThpU/xCa9Hf78wYLonQXgBoNLfGfUj8frTOFReBmyuqS7BB
+jPlydVK25Qk8pZRHeqTuf/VEEQvbcmZhBAtDdAhE0oB4ktrLVhSv4gf7MA2F5uum
+ptgiVLNYQLxrayqFQhR2H47Ho62cqaJvHms1+3IwDM03HQGk2OE4BOQSyYC2aBv2
+xBBKCRFG3oiIXZaBZlGYGln8
+=IEqV
+-----END PGP SIGNATURE-----
+
+--===============8439469881371397306==--
