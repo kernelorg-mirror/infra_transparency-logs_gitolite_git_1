@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1324414949462216335=="
+Content-Type: multipart/mixed; boundary="===============6259944344255068593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 17 Jan 2021 14:14:15 -0000
-Message-Id: <161089285515.5198.5017940524816599942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sun, 17 Jan 2021 14:16:32 -0000
+Message-Id: <161089299294.7435.16029854479339375153@gitolite.kernel.org>
 
---===============1324414949462216335==
+--===============6259944344255068593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: d7210d60b3234034caf653975536a1a74898f2f5
-    new: 0ce73465f1a64414e21a6d4aee0619d9ceec47a7
+  - ref: refs/heads/queue/4.4
+    old: 7615952354dcad88d83304b5e89f104a546553a9
+    new: 550f752d626130aaaeeb934a6afa1c47f4a478f2
+    log: revlist-7615952354dc-550f752d6261.txt
+  - ref: refs/heads/queue/5.4
+    old: a6d9a4371014273b75016b6023f4c11828a71247
+    new: 90dce011ff8f93d5e2b4287a9de01b5fb7854acc
     log: |
-         0ce73465f1a64414e21a6d4aee0619d9ceec47a7 4.4-stable patches
+         083488cb6ff30e5fc36c6e1d68910d4894df54f6 kbuild: enforce -Werror=return-type
+         90dce011ff8f93d5e2b4287a9de01b5fb7854acc btrfs: prevent NULL pointer dereference in extent_io_tree_panic
          
 
---===============1324414949462216335==
+--===============6259944344255068593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7615952354dc-550f752d6261.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610892854 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1610892853-26b90f7b19d67ce3c40824140c31625923d421eb
+7a92e45c2791af0338f54a62e5f901cd73aca2c1 target: add XCOPY target/segment desc sense codes
+c85fecceec8520d2b023c3334e9561e67a32e8ee target: bounds check XCOPY segment descriptor list
+8e3c992dceb808ab26816bbc814335b6a2634d58 target: simplify XCOPY wwn->se_dev lookup helper
+af1fb5dcffb4348e37b9b36c4e7d8e5078c67bed target: use XCOPY segment descriptor CSCD IDs
+b0b95504f4e60a2aae6706655dfae46152258c4b xcopy: loop over devices using idr helper
+87be50177ddb789330e6c5ddcc2f301cec0017dc scsi: target: Fix XCOPY NAA identifier lookup
+d4b62494ce10c482f42a9c842899c5e2407fbf57 powerpc: Fix incorrect stw{, ux, u, x} instructions in __set_pte_at
+17d13502c8db1ac32e89e1b19483c541b4539709 net: ip: always refragment ip defragmented packets
+df9c0f19048b370a18055a79ab14e08be15ca108 net: fix pmtu check in nopmtudisc mode
+b60abd189e520ac975d8921d052c2dea130c89b2 vmlinux.lds.h: Add PGO and AutoFDO input sections
+b0260231660261a9b7b2eaaea5188baba163f81f ubifs: wbuf: Don't leak kernel memory to flash
+5d474e3f5edbbb79470d35f77669c7da5ea16a42 spi: pxa2xx: Fix use-after-free on unbind
+20acb9de26d6f8c187401b27a86daef2a7b70cdf cpufreq: powernow-k8: pass policy rather than use cpufreq_cpu_get()
+885a02f6957a318862e281167fbdd9c853d530d8 wil6210: select CONFIG_CRC32
+1a64b912a3a01859e1d6ad524ff7e73ab9d0bb18 block: rsxx: select CONFIG_CRC32
+d5453054e2da78cfaf1ec9d18e906702db852b2c iommu/intel: Fix memleak in intel_irq_remapping_alloc
+a09652089d496a4ecb925e2cb95a6523f22ae538 block: fix use-after-free in disk_part_iter_next
+2555bb2a5163e3741d5dd5916f3a9f0228750aca net: drop bogus skb with CHECKSUM_PARTIAL and offset beyond end of trimmed packet
+4328b0f47a72b408ff9038a79817b3698281914f Linux 4.4.252
+550f752d626130aaaeeb934a6afa1c47f4a478f2 ASoC: dapm: remove widget from dirty list on free
 
-d7210d60b3234034caf653975536a1a74898f2f5 0ce73465f1a64414e21a6d4aee0619d9ceec47a7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAERjYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8n0P/0y7c/wrsmn/N9/GyEsZ
-oZMab86LtzljoBpQaLBvWcjI7zFD8d5ftowtAhL7XTyvxzuSVAazrbobaUHCWZiQ
-cbpskqAFWMYijQunN0Kjb5JCqPo9alyQe3yhRTDZPuvsCZKb7Te02RLlBkc3fPMZ
-+F5TURlI4fu98xXfTA35FABH5Ahd8CfeVKo2fTmRVTRqVeqj8eD5m5zmlsY8hN98
-EqIir9qBuivRuhz/CVjvw9qTrMttdr0e9c9F5AgFm94WWOEhDDRDUDC9N1crXrVJ
-C7AKsrj/8mZtGjDPCscWRTrw4d5jh0j/HEndnnJkCiqiGVRTXDQ40H2S0tq7MEJ/
-ZEBPseVTCmRWYa6ExxfzIsODJNxjYwriLg3WmG30+KYr6Z/8zpVlBWsTsqhchLg4
-MTWCbp7fG4Q7STnF+uW9J/bP7vxd3oLOboX9/E91jgYH4OOYifyUZjhT+Wjm6fME
-nWKmgAt7rhegqYevx7SccQm9SSWlAwpLhF3zs0olpilobC03xkqJFDWSytbCYs6X
-PYSIXyaC9aXRQQv3f7AZiColmHqdJrIXiaLTFO10L4ePH5edDEnlfbV6raUvUSQr
-DE0NU6mzeMUXIKoKPpWiFgxIWoSmpo9ikretI3pwpEUgSxl/8tFwB/utcQyr4Z5r
-JiqhINfy8/OET3nQlY2jV7kQ
-=k40r
------END PGP SIGNATURE-----
-
---===============1324414949462216335==--
+--===============6259944344255068593==--
