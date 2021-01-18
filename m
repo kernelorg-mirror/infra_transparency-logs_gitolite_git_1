@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 18 Jan 2021 06:53:59 -0000
-Message-Id: <161095283951.32058.13739279088015389616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Mon, 18 Jan 2021 07:17:49 -0000
+Message-Id: <161095426949.13061.10197874359120868767@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 266991721c15f9feb5c4b839cb1bdde4a2b20030
-    new: 3657f729b6fb5f2c0bf693742de2dcd49c572aa1
+  - ref: refs/heads/experimental-lzma
+    old: f24fe49bf54b1cebf59abf6d30a57efc03b8355a
+    new: 85e6ac963566b05b1e7747ce0399b890ce636294
     log: |
-         05f456286fd489558c72a4711d22a5612c965685 cpufreq: brcmstb-avs-cpufreq: Free resources in error path
-         3657f729b6fb5f2c0bf693742de2dcd49c572aa1 cpufreq: brcmstb-avs-cpufreq: Fix resource leaks in ->remove()
+         37240b4d3c3b6f7b3f2c99402bd8a9674719765f erofs-utils: add liblzma dependency
+         de5188153627bff2cee0afc4405ce5e1d20c250d erofs-utils: mkfs: add LZMA algorithm support
+         85e6ac963566b05b1e7747ce0399b890ce636294 erofs-utils: fuse: add LZMA algorithm support
          
