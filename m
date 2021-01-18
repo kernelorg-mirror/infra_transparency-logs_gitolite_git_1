@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0198476559333244067=="
+Content-Type: multipart/mixed; boundary="===============7291221313559873248=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
-Date: Mon, 18 Jan 2021 20:17:57 -0000
-Message-Id: <161100107794.16738.5541610246747237227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 18 Jan 2021 20:18:45 -0000
+Message-Id: <161100112591.17102.16949097129717933059@gitolite.kernel.org>
 
---===============0198476559333244067==
+--===============7291221313559873248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/playground
+repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/to-build
+  - ref: refs/heads/arm/platform-removal
     old: 038659de3583d5f1e26be7332cba810d665c3611
     new: 2a03f5b82af645227937e47810f4352b95a0a597
     log: revlist-038659de3583-2a03f5b82af6.txt
 
---===============0198476559333244067==
+--===============7291221313559873248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -87,4 +87,4 @@ df12fe87bc709a7b5566c62889848870ef636970 watchdog: remove sirf atlas driver
 ca5b184092267e19d0e3951a8a5535453d284b11 watchdog: remove coh901 driver
 2a03f5b82af645227937e47810f4352b95a0a597 watchdog: remove asm9260 driver
 
---===============0198476559333244067==--
+--===============7291221313559873248==--
