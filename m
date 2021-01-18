@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 18 Jan 2021 20:39:56 -0000
-Message-Id: <161100239665.31102.4592532520720983235@gitolite.kernel.org>
+Date: Mon, 18 Jan 2021 20:40:18 -0000
+Message-Id: <161100241812.32642.3866894029143305891@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/review-hans
+  - ref: refs/heads/for-next
     old: c8612dfe1ef6eaefb997863a6e267d0a794b95ce
     new: 0627cc334d408953c0ff9ef8731325c2d02572ed
     log: |
