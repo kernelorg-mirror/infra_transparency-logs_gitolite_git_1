@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5442047498747206122=="
+Content-Type: multipart/mixed; boundary="===============4722799975728710855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
 Date: Mon, 18 Jan 2021 09:12:16 -0000
-Message-Id: <161096113608.28646.13889774302482774500@gitolite.kernel.org>
+Message-Id: <161096113644.28670.9393032236406002188@gitolite.kernel.org>
 
---===============5442047498747206122==
+--===============4722799975728710855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/hack/arm64-early-cpufeature
-    old: c3f5f6e09525f5db079160359b9b9f6d340ef90a
-    new: 0ad784d8457ed144c2aefc8197fca2c3bfcd5e9b
-    log: revlist-c3f5f6e09525-0ad784d8457e.txt
+  - ref: refs/heads/master
+    old: 3e96600ecef928ba90cdb3783cc0709b913a227f
+    new: 45249301047e2a3572fe35edb3cd6e7fbb5c0673
+    log: |
+         45249301047e2a3572fe35edb3cd6e7fbb5c0673 4.19-stable patches
+         
 
---===============5442047498747206122==
+--===============4722799975728710855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3f5f6e09525-0ad784d8457e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-dad484c13d28b22356d3e7d7f00b2121794ab0c3 arm64: cpufeature: Add global feature override facility
-a21acfabb713594716876627f19d4679e1948040 arm64: cpufeature: Use IDreg override in __read_sysreg_by_encoding()
-893424e10baf51d8e0d886c57998c3ab07515683 arm64: Extract early FDT mapping from kaslr_early_init()
-e31ea7122b37a25f59fcef797e49a46f20513e4b arm64: cpufeature: Add an early command-line cpufeature override facility
-5a8d326595f18e1264316c382f847aecd1b2ac66 arm64: Allow ID_AA64MMFR1_EL1.VH to be overridden from the command line
-c470df66e822de34e7cf04f4d891c90760d0361a arm64: Honor VHE being disabled from the command-line
-a0b91b25a50ab2cc3aa8553b0a52f6b2f6d42dda arm64: Add an aliasing facility for the idreg override
-bf59527cea09ba8945e3f0e54c5316f84137d982 arm64: Make kvm-arm.mode={nvhe,protected} an alias of id_aa64mmfr1.vh=0
-0290553d187d7d4c4edd4853614c1ba11aaf156a KVM: arm64: Document HVC_VHE_RESTART stub hypercall
-ad257f7d361cae4ab4e3a8ba968f9dfe52a69c39 arm64: Move "nokaslr" over to the early cpufeature infrastructure
-131647307e8c335040b0320b6266760acfd078f2 arm64: cpufeatures: Allow disabling of BTI from the command-line
-0ac5e58a7a9535f5ba46bc7b40d3debcf9318343 arm64: Defer enabling pointer authentication on boot core
-0ad784d8457ed144c2aefc8197fca2c3bfcd5e9b arm64: cpufeatures: Allow disabling of Pointer Auth from the command-line
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610961135 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1610961135-01cf62d15ced80c2e46d8e1a5b57b95e5ecafd9f
 
---===============5442047498747206122==--
+3e96600ecef928ba90cdb3783cc0709b913a227f 45249301047e2a3572fe35edb3cd6e7fbb5c0673 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAFUO8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i48QAJyUMtUEml9uv3MyppMo
+SnFH5A3P5oIoxuyMMhHdJhaGhNAQbn+fYKuecpviuJrm5oHZRHXka/f6PpKJ6Dcd
+TsvnnC8AmMrtwawBge1Lv+OhFV75NhHydDxkla9kEWjRZi4eQG4xo/0HV6fo1ONJ
+F8RhMZ/S6iCbQSQl3rSequBEvji0ZF3a2vawdrmQP86dDFi8mISuf2MrTgsHDvbA
+Rg7E7b1BvlaNft5RM3StnizqjnQBzrbtRBmpePPemvLvWDTuKsG5crFftI4MC/bf
+WGOetYCeFpN5/HzLU6BJp0Xa3n9EWVefThCUSokmJrdfDfVMuRwvESVSXE1wgovM
+YmCyW61UMOOl3zsupbHsJMmGevI6wHGw0Cv91TvusTm+bbnD++i88P9UrOY9xnZ9
+BlGHiOCAesyPnuqxZKJ21EubfaBn7vn1Oae35XZBTjZMYmBeWVMMLmwWOFgoZuuw
+fbDowL3k0FI9wIcozmLBW5z40Tj1UmAygTEwAHVPNgDg3B02S8BTnJVLWMvUBXxB
+cnvmjjxFCYul6sRNVyt1ZqwMPN8fJ9ohhViGJi/ArsXwLoPAAUdojf/8dLZmn4L4
+zw/3pAa0obIFz81il2qWyokiDsu8BCiCEH8HFycdoUC7yxTcl1ChjgHr4oqeU+ar
+ThFtx4j/bac+UURIpPl9pNck
+=CLbg
+-----END PGP SIGNATURE-----
+
+--===============4722799975728710855==--
