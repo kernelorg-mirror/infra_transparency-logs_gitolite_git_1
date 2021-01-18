@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 18 Jan 2021 15:35:08 -0000
-Message-Id: <161098410801.29119.12459205191444325571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Mon, 18 Jan 2021 15:38:01 -0000
+Message-Id: <161098428158.30015.11926249586464340846@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/master
-    old: 169db9487b6a9f2e16c0356505f939021ee05aee
-    new: 91c6bf1ce9ec70849721847bde6b5d7074a6e971
+  - ref: refs/heads/pci/dwc
+    old: faff7b5ef5d91dd745618a921d1a88fbd9be848f
+    new: cef11c377a102564b7f15683f773a5af1b8650b6
     log: |
-         4797383171ec5aa58cb01a0ac5fdfc7176d0f404 system.3: Document bug and workaround when the command name starts with a hypen
-         91c6bf1ce9ec70849721847bde6b5d7074a6e971 system.3: ffix
+         cef11c377a102564b7f15683f773a5af1b8650b6 PCI: qcom: use PHY_REFCLK_USE_PAD only for ipq8064
          
