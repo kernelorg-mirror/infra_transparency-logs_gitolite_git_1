@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2235082228253221845=="
+Content-Type: multipart/mixed; boundary="===============4972814799702789443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 18 Jan 2021 17:40:37 -0000
-Message-Id: <161099163736.13554.15246712906711856248@gitolite.kernel.org>
+Date: Mon, 18 Jan 2021 17:41:37 -0000
+Message-Id: <161099169765.13951.11788302341431497173@gitolite.kernel.org>
 
---===============2235082228253221845==
+--===============4972814799702789443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: f2fc9ff28d1c9bef7760516feadd38164044caae
-    new: ead4c124852e66b6aa033e34cf9c4f08d40aeffc
+    old: ead4c124852e66b6aa033e34cf9c4f08d40aeffc
+    new: 7bf0fc5a6b6e45924141c34c065da10bb6858fc2
     log: |
-         121fc3ac2f02a2316c6451f1ee9d8ef5932441d2 usb: gadget: composite: Use SSP sublink speed macros
-         db615c6264cffcd8f117c5628db1794afbd0f254 usb: gadget: Introduce SSP rates and lanes
-         ead4c124852e66b6aa033e34cf9c4f08d40aeffc usb: gadget: Introduce udc_set_ssp_rate() for SSP
+         7bf0fc5a6b6e45924141c34c065da10bb6858fc2 usb: gadget: composite: Report various SSP sublink speeds
          
 
---===============2235082228253221845==
+--===============4972814799702789443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610991628 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610991689 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1610991627-2257f7ff2678156d5f0e87f8ae922bbdebb3d2a0
+nonce 1610991688-a35d6ead6eed1a9d4d1d0e0765a1b6947503ad8f
 
-f2fc9ff28d1c9bef7760516feadd38164044caae ead4c124852e66b6aa033e34cf9c4f08d40aeffc refs/heads/usb-testing
+ead4c124852e66b6aa033e34cf9c4f08d40aeffc 7bf0fc5a6b6e45924141c34c065da10bb6858fc2 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAFyAwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y7YQALviBevUpGQTpy6tS19T
-w6GKr9BgXY/hmZvPHicaDgrzFsZy6XaX4HDZ2kdrL/qZOvHWhh+5VRS1FuqD+Vso
-nmx+WNIMarpvnCr1gNPOiZTIuRtHU8i6PiJ2NfdXJU4Bo+LzRZia3FQjSJhidvR7
-NcCAlOws/UiwizGf8MGrfXHgl4QivNN2ehtgpJ/Fdtbg6KZvR9yF2RFnUfqWaYJo
-bCGBcyrHPJ7TyzPw4ZelkuSb7DiDBQlYOXcTx8T3NG2k1jkGFgpEqZwKDDQpdnu4
-2qGBEqzoRgU1fuPd7hjJBrgnw4ZkADtxiWW6yI1jwD3s/72B5vbyCL1Al+ZKeR5n
-6Da6F9PHsyfpZFVzO5YoMF3Gz7/SRF9/grPDZnJCevz28ws3CmSJUmnDtxyTZV+I
-2uFH4LA03ml5NEAyAWo353O76nvVBpjhNobdMYSsOPZ3ros3zQGwLv3AxG1vNyqg
-i7N7CpALh34Qzv4yhNLvZMvwBBoRl3Sx1z8q5nutf7xx+dCqQPJqVJknpz4sroV5
-fG+uLv6ladI0WYjkMxo44JUe5AakU+CUgznC92CirEpif5JfBdiweJ1lmdZ8oO1y
-cuIGa0eHT5zOzkEK5HxTEaVi6diIAxheuQG6DakEENGnA5T9SPnUi2vP1jE2eCXn
-XYdsaQmkyPtcmsCIJBknhEzz
-=dXa6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAFyEkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FrMQAIYUm358XzsQLt/lJK9U
+RV+1dybw7jE2Km4K0qA2my1Vqzw5ZEhZjMMkae4+2TkVakrmsWdRAulKj5pba3DM
+tGiRAyc2jfZ5ZMX3ndAXcU0GgG2fZhX35TKh1beEq+Qtz1WBFBQ9KeApKX6JkxIY
+DjQw/wS+A8m9mTeSbsBk10tnaaJ9xvTtg8FCv3ShHC9wZrPIKN43UbTG+BzNbjdQ
+vwULjkTCeT4X2xoB1e1dFfn4qS8kCg/y0S8gwPrA3AdfFfb05Z/939l9lT0VVcd4
+I4LdU+QASqPAe2z/DTE7CVhkufHYFmGJ6hR8TLbXMqFhcFS+VZghjWHo+54CYcQ3
+SYNtw60F5qCKMjMxuwnb+TqA3vekABJlBEX6z6srCqcL8WYbXZV1liYu0RDgYxDe
++f+lC37jjYHciNIdgEFhoe32m3Qr1D1GBOOBaN/GnZD5mWZl9fkQdd+2mrM/noEV
+nSZAm9kdaS5OclpahigV/Tub0r6xZCeZz4LiK6Zd0Mp87viwVXpTYFb6DArvAiTE
+QGYEjU2sDPF02jTChPu8T7CV33iamtS4PW/WyN8E7wnJbrgx0tGQyz+8cNFDQO7F
++n7pTQ7yOSWE46zOhHYwcSxlM+L5qmDK3/UeBIb8iX34ULxzpc6ELWQz8u1l9TZ6
+U5k+Ob+CClSoRdWD5JWJ3umV
+=StBU
 -----END PGP SIGNATURE-----
 
---===============2235082228253221845==--
+--===============4972814799702789443==--
