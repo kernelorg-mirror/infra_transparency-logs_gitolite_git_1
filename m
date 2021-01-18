@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 18 Jan 2021 19:50:42 -0000
-Message-Id: <161099944233.31460.11758415500848129340@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Mon, 18 Jan 2021 19:52:19 -0000
+Message-Id: <161099953963.32260.9113652875204201503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/master
-    old: 66c556025d687dbdd0f748c5e1df89c977b6c02a
-    new: 79267ae22615496655feee2db0848f6786bcf67a
-    log: |
-         79267ae22615496655feee2db0848f6786bcf67a net: mscc: ocelot: allow offloading of bridge on top of LAG
-         
+  - ref: refs/heads/objtool-vmlinux-v2
+    old: 0000000000000000000000000000000000000000
+    new: 974f8ceb5385e470f72e93974c70ab5c894bb0dc
