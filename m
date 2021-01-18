@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 18 Jan 2021 21:15:20 -0000
-Message-Id: <161100452004.22409.16084534756642823202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Mon, 18 Jan 2021 21:33:02 -0000
+Message-Id: <161100558225.1336.15509801734549177095@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/fs/xfs/xfsprogs-dev
+user: sandeen
 changes:
-  - ref: refs/heads/master
-    old: 19c329f6808995b142b3966301f217c831e7cf31
-    new: 1e2a199f6ccdc15cf111d68d212e2fd4ce65682e
+  - ref: refs/heads/for-next
+    old: 167137fe533c7dd8d51ee0661faa2ee408fb673e
+    new: 851038bab7870d1d1c389a86126f3f4aab7d15e1
     log: |
-         3c02e04fd4f57130e4fa75fab6f528f7a52db9b5 crypto: xor - Fix divide error in do_xor_speed()
-         382811940303f7cd01d0f3dcdf432dfd89c5a98e crypto: omap-sham - Fix link error without crypto-engine
-         7a2da5d7960a64ee923fe3e31f01a1101052c66f spi: fsl: Fix driver breakage when SPI_CS_HIGH is not set in spi->mode
-         4d163ad79b155c71bf30366dc38f8d2502f78844 spi: cadence: cache reference clock rate during probe
-         32c2bc8f2d855d4415c9a05b727e34649397bfbe ia64: fix build failure caused by memory model changes
-         fd3958eac387593d02e4d4287658ba04bcdb235a Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-         b4459f4413c890a35dfcecaff29d37ac65607d76 Merge tag 'fixes-2021-01-18' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
-         1e2a199f6ccdc15cf111d68d212e2fd4ce65682e Merge tag 'spi-fix-v5.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+         f808d1075580a4d8f0175d07e8b99b10d15e5b78 debian: cryptographically verify upstream tarball
+         849e3b657fdee4674c751d456f6185dd4e49009d debian: remove dependency on essential util-linux
+         0a435d0f1b5a171b4066e9838e48d03a4dfd4900 debian: remove "Priority: extra"
+         1a86c04a2d34404ff2b7ba64bb511a7d0b0e0385 debian: use Package-Type over its predecessor
+         cac1e96bf54391e5ecb3622967d8f6cee4f3c75e debian: add missing copyright info
+         f86541b7b0b4000120b2ef444c8ca243c4f31ab7 debian: new changelog entry
+         851038bab7870d1d1c389a86126f3f4aab7d15e1 debian: Update Uploaders list
          
