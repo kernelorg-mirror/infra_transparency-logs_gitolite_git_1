@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 18 Jan 2021 19:41:06 -0000
-Message-Id: <161099886628.26070.18339162447751437090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 18 Jan 2021 19:50:42 -0000
+Message-Id: <161099944233.31460.11758415500848129340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/kvm-arm64/cmo-on-ro-memslot
-    old: 1ccefa5331ab6ed5028e5ce9aa0e4e31bdf87c99
-    new: 8f2a919d6f13d36445974794c76821fbb6b40f88
+  - ref: refs/heads/master
+    old: 66c556025d687dbdd0f748c5e1df89c977b6c02a
+    new: 79267ae22615496655feee2db0848f6786bcf67a
     log: |
-         8f2a919d6f13d36445974794c76821fbb6b40f88 CMO on RO memslot
+         79267ae22615496655feee2db0848f6786bcf67a net: mscc: ocelot: allow offloading of bridge on top of LAG
          
