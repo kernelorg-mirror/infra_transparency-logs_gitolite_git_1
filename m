@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3848708313656204425=="
+Content-Type: multipart/mixed; boundary="===============7324304481325533335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 18 Jan 2021 15:25:04 -0000
-Message-Id: <161098350430.23149.2664188207961039039@gitolite.kernel.org>
+Date: Mon, 18 Jan 2021 15:25:07 -0000
+Message-Id: <161098350700.23229.404534433905709925@gitolite.kernel.org>
 
---===============3848708313656204425==
+--===============7324304481325533335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,122 +16,89 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 7607057d19eea5507327cc843358df636fe770af
-    new: f07bbbcbb287be51052321bcb6b6d4edbdf810e6
-    log: revlist-7607057d19ee-f07bbbcbb287.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 6283785941b4de3f7cc34969f220f30bda4e0b2f
+    new: 121b496fc97087651e58900fa366f6ca009f1df8
+    log: revlist-6283785941b4-121b496fc970.txt
 
---===============3848708313656204425==
+--===============7324304481325533335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610983502 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610983505 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1610983501-454bae5fbc884b852712b464af04e2f9f3b12993
+nonce 1610983504-f56771d50a5c04bef17811672e7bb7ef1ac6b6a9
 
-7607057d19eea5507327cc843358df636fe770af f07bbbcbb287be51052321bcb6b6d4edbdf810e6 refs/heads/linux-5.4.y
+6283785941b4de3f7cc34969f220f30bda4e0b2f 121b496fc97087651e58900fa366f6ca009f1df8 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAFqE4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZW8QAL+/qiKDGjw0fXFq406A
-kRDUcvgrZqg7M+hO2DHkC4H6AaNUPrdsYDZBj7kK5fAXpbCcgsvdnURHtPcEGZ7c
-mInkXm/eCBZRHA6easmRCbj1q/L50graAslNIwrCC+vPQcK4jFcaPBg9RrJP/gaJ
-zoPDru/fvik4Uu4VzT7y5mqzgVA6eZ44dmcjtHXENQgiU8Mal6NQJ+rK+Ywmfybj
-NBb6Rxx5O7fFxGpnz0S/FlkjksPS75rN7gZrGoz+ovxyk3J+KYTjtxfTd96QcKta
-2TLsqV8HoS8zDpVQu686AWX0e807yklVDJh72036e5dAYPY6cG0kAVOoY64oDsSQ
-/80jFTVsaNb6LziDGSdiKGSBPZyM3Ku8te7xway37Fmc/YXCNnGA3WBc+Fa6kw8h
-dQV35Ebxi6PzB69rYAmhVoIl6j1cFiXknGumDYnXtmC44CbK4zV/MpR9CyZSbIOi
-Bu5F32gvw2MZ7KKLMkge4Bpj0O/9HtBYmRHBAJIBR32924kfs+HiZu0w8GXr0JzR
-JG/k9FOvDAxRQNboSuJ1IYGAfX5AsPyoebvl6D5b7wA1VoIzOIB3fGmavkU+zLcX
-peYiaPEvQ0dCiREB2LhXERYxYp7GxlmaIc35L9l7XtrNOd2MBbGZDfmfnYtHsUhL
-tMpM8PgC0Rcu3mOeP+LDfK4I
-=Wsdq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAFqFEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mPAP/jSdju4VtQVJdQ0QpV8m
+/iCRKw0Kap8hqNS9xlOIKcUV3xvD1TkdXJ38t6AOulk7PviI80jqV51TKcYz7PD/
+wdWO4xAq3WD83F5uHCg4MeKf41skrqEg1DAgoy7Ap0MVmWeDY6KnwyIffWhGLYPf
+E/bVbxcyUitkg0g5XcrasYNj7r+nMdRWUQNxymtMUEo3a7jJJwXc3csCg1dxtVBk
+dkm63KgXlsQsUPncWvyZ3wJtYyyOy7Q9v8rYeMtZKzhfwYsKhaiq3otOuHLZiLx+
+Zu6NKtiqac6qwozpnt36uLa2obFsvOSySBCzXnLQH8FsH7w91MbcgYcd9ukdQ17Z
+RpL0E9tbcdKPStRdeL3lN70B5CWjgNZJHQVyH6vsPORJlNSB3dQZlggAwa1g2+vn
+roXd8KGJOtkUwGdODFKFSgtAi7Nl0oF0eNWnooc8ClmBxv8KxREU2SMMwG10AUHH
+AgbdS6bmtk7O76sOd2GeF9Z0kH3S46WRf+53pDmdZ8jM2YLNx78tKnW2thJh/+de
+8c5Td9xrLfkhMg0Ym1M32PYqPpnwBHPy3W1y41LO8Yt1TFXQpJCpduN6GaDy/Ef+
+0PRazoYye1n+CiTrF1OQM5JfiUuPGPZXXfLYvke05dGm1IBB1+yd9dazIjm1vBAY
+Nt5o3MNqVPPX0jlCxvKA6vkE
+=ucuS
 -----END PGP SIGNATURE-----
 
---===============3848708313656204425==
+--===============7324304481325533335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7607057d19ee-f07bbbcbb287.txt
+Content-Disposition: attachment; filename=revlist-6283785941b4-121b496fc970.txt
 
-139a1d1a69252b7979b30adb53fd9b90d761a738 kbuild: enforce -Werror=return-type
-666503b73cc4d5f963a2853b500f3362f279909a btrfs: prevent NULL pointer dereference in extent_io_tree_panic
-f92cd766b0c57875eb8ddb0dd7a61fe11ca2ca31 ASoC: dapm: remove widget from dirty list on free
-38f4cec1f19d696c5d85f64b1009fee0a071f13f x86/hyperv: check cpu mask after interrupt has been disabled
-2afdfd2c7e5f7d505c26bb426602c4c2a184d70b tracing/kprobes: Do the notrace functions check without kprobes on ftrace
-184546717b4d52877a8c4a600671b9e6e693b31b mips: fix Section mismatch in reference
-0edfa816e17690ee45b3692cc5f6b7646d6371d4 mips: lib: uncached: fix non-standard usage of variable 'sp'
-717b00a5213cd66f158ae2ca473c381b70705a7b MIPS: boot: Fix unaligned access with CONFIG_MIPS_RAW_APPENDED_DTB
-4b7cc8fe55e2d7a2c3353b4e36a5b02a7507b663 MIPS: relocatable: fix possible boot hangup with KASLR enabled
-305eee6af0f424bddc8a243112b02f290df1aac1 RDMA/ocrdma: Fix use after free in ocrdma_dealloc_ucontext_pd()
-ec16da14ee9d34955f1fdfb9b274e144111dbf93 ACPI: scan: Harden acpi_device_add() against device ID overflows
-98d5543f91686c13cd5d5a4a1787c24853727b68 mm/hugetlb: fix potential missing huge page size info
-faa2e934fabe4ae18d81fcbebd213407615c5647 dm raid: fix discard limits for raid1
-e0fd484be17d6a18e8d596eef619ba5c0d173861 dm snapshot: flush merged data before committing metadata
-005a98e64f488680cd47f4d13eeb3546d269c759 dm integrity: fix the maximum number of arguments
-2f44797213056ca166878e94974f1603a7d6edbd r8152: Add Lenovo Powered USB-C Travel Hub
-fb2894bf03179ee5ab4f2bf50678c0678a81efc9 btrfs: tree-checker: check if chunk item end overflows
-e0be296efe1112036fff3535263a6fce4ed7c115 drm/i915/backlight: fix CPU mode backlight takeover on LPT
-6a59d9cda85b375ada2c6a6639c000e7e21448e7 ext4: fix bug for rename with RENAME_WHITEOUT
-432b22917a8df98be8b3709e87f8f73c7a309ce3 ext4: don't leak old mountpoint samples
-15ad37290cdb650b5737ba63442744b3819d30d1 smb3: remove unused flag passed into close functions
-94d135929e22a485910ab00592b0dabdf1185138 cifs: fix interrupted close commands
-d20434234a2902c213cfb14f97b552af324464ea dm integrity: fix flush with external metadata device
-a3d1bff61649feecf654902738824747ca730892 ARC: build: remove non-existing bootpImage from KBUILD_IMAGE
-0f616b0995b89586b76e3336e19d53c6ae48f6a2 ARC: build: add uImage.lzma to the top-level target
-0c7fc76a120daedd20e8e4371a8f3ccf8765a1f4 ARC: build: add boot_targets to PHONY
-b6dea8f26cfd68e91450019266d26c7546217434 ARC: build: move symlink creation to arch/arc/Makefile to avoid race
-6ed840b40dd5b712db818453e28f1079d89b2d64 netfilter: ipset: fixes possible oops in mtype_resize
-2f232063a6f05a42719b3e6cb3494a1ed6673835 btrfs: fix transaction leak and crash after RO remount caused by qgroup rescan
-4afcdc539722e8ad0639a760bcd13805ee5baea6 regulator: bd718x7: Add enable times
-1cea57c9dcb7c37458c153c9e5dac0b9f98e8ade ethernet: ucc_geth: fix definition and size of ucc_geth_tx_global_pram
-4f2eb045bcd47ec8338c30ff55c73ce30e1d9191 habanalabs: register to pci shutdown callback
-c299a99dc8822e95100f143e85c50b61e2ac7651 habanalabs: Fix memleak in hl_device_reset
-69fa2f03f3a23aaa5bb16f0f26cd26211854f77c hwmon: (pwm-fan) Ensure that calculation doesn't discard big period values
-fb11d19f0149084a48cb9eea3601a5431a94610e lib/raid6: Let $(UNROLL) rules work with macOS userland
-2318c69f0fc07707cee6878be76d53b489812a2d bfq: Fix computation of shallow depth
-dcefe2e69ad1720a318fd8c214082f8ff05431f9 arch/arc: add copy_user_page() to <asm/page.h> to fix build error on ARC
-aa75dda849683ca26603f7362bfa1fe4cfed1986 misdn: dsp: select CONFIG_BITREVERSE
-44374e23c8c91daa1a3d9ac7f381145ea4e1fe26 net: ethernet: fs_enet: Add missing MODULE_LICENSE
-ed682a916ff442b1f1629e265df69f4c210ab6aa selftests: fix the return value for UDP GRO test
-a5cfd8b397f92ed1a7e9d18cdbe0fa9197c89d5a nvme-pci: mark Samsung PM1725a as IGNORE_DEV_SUBNQN
-265e4b0150b68b4d2d82975c9c82e5b15c3bd477 nvmet-rdma: Fix list_del corruption on queue establishment failure
-29669acde498949fd286c52c006e73a0f2ce2d93 drm/amdgpu: fix a GPU hang issue when remove device
-14388496c8856fafc92abede3afe8f9e8a82b14a usb: typec: Fix copy paste error for NVIDIA alt-mode description
-a450e24a03e45a478eeedc27475919c5eb23fae1 ACPI: scan: add stub acpi_create_platform_device() for !CONFIG_ACPI
-9bbb8b4e5b23c0887b2862c176084b9393bb6152 drm/msm: Call msm_init_vram before binding the gpu
-bd2f0281bbd991f1624603dc5e6263bb5b33601c ARM: picoxcell: fix missing interrupt-parent properties
-feb4300f113adc263374404bbbbd0d0b89e8f3d0 perf intel-pt: Fix 'CPU too large' error
-861a1fc13cbbe0d48705ea1d10cbf5726ef87a29 dump_common_audit_data(): fix racy accesses to ->d_name
-d125ad2b1adf285a94830eae1999f665893df4fc ASoC: meson: axg-tdm-interface: fix loopback
-7a7850470d119a79770d6055c0d2687ad58d0f29 ASoC: meson: axg-tdmin: fix axg skew offset
-b13de1bea31a00ac4c573d5b0d8b8ab13c246fcb ASoC: Intel: fix error code cnl_set_dsp_D0()
-e04213d1e49d20113f236eb62fb503335f640f0e nvme-tcp: fix possible data corruption with bio merges
-da678055f6cde95ffdf3be1c78421e2649c12a1e NFS4: Fix use-after-free in trace_event_raw_event_nfs4_set_lock
-3b0ea4661e52bbd89d1a4d14c5312bba931cc542 pNFS: We want return-on-close to complete when evicting the inode
-ab07b93503570dc9bc48165416a7b2c5d2e69c06 pNFS: Mark layout for return if return-on-close was not sent
-a97c74b657bdb673c4e1a01c4c8348c51ba9f2c0 pNFS: Stricter ordering of layoutget and layoutreturn
-cfe7d4eb3ba2d2ab0cab5d2c909d4db3df4fb2e1 NFS/pNFS: Fix a leak of the layout 'plh_outstanding' counter
-78883b27be0665e78991295f11db0379330e9262 NFS: nfs_igrab_and_active must first reference the superblock
-12aa53662f9ee6f6eeccf16a0301a731c5325985 ext4: fix superblock checksum failure when setting password salt
-a2b9a2b69d9f4a1f5bbe274c8fc6609683e1b342 RDMA/restrack: Don't treat as an error allocation ID wrapping
-dcd6044fafc27531adfc1880e47c5d0ac314d5c5 RDMA/usnic: Fix memleak in find_free_vf_and_create_qp_grp
-53db3a2733ba6d91b860de1a093733e3d73b65f6 bnxt_en: Improve stats context resource accounting with RDMA driver loaded.
-a2fdbeb0ead02c3c061ce883e2665dc7e0363360 RDMA/mlx5: Fix wrong free of blue flame register on error
-a1616b91dfd75a2ff032f884664ca873270e9585 IB/mlx5: Fix error unwinding when set_has_smi_cap fails
-74753a0269c54c996ae549e000f58c0aada5a1fc drm/i915/dsi: Use unconditional msleep for the panel_on_delay when there is no reset-deassert MIPI-sequence
-3a1066f03f5058056c1d3ecb1195a95f88105e1d mm, slub: consider rest of partial list if acquire_slab() fails
-5ad42d3e849ae6de91c2f15c59915e643904c96a iommu/vt-d: Fix unaligned addresses for intel_flush_svm_range_dev()
-acb716560bafef6b2845944b9c8b47e096d54950 net: sunrpc: interpret the return value of kstrtou32 correctly
-1371bcb5ec0ca708b8dd35b66bc3e3db3dc5951c dm: eliminate potential source of excessive kernel log noise
-35a87a76577f924dd692a4779fb33a559812548a ALSA: fireface: Fix integer overflow in transmit_midi_msg()
-92ee5f1f309681f1dd8e240c3e079d995a5d4e6d ALSA: firewire-tascam: Fix integer overflow in midi_port_work()
-13f2522721974685f2e87d55eb7f851c9eef0b4e netfilter: conntrack: fix reading nf_conntrack_buckets
-37a1e15d01fe1331aa03890f48f11c3735764700 netfilter: nf_nat: Fix memleak in nf_nat_init
-1a9fa2c8e2cfe8f200a8029754ff0fe112707a7d netfilter: nft_compat: remove flush counter optimization
-f07bbbcbb287be51052321bcb6b6d4edbdf810e6 Linux 5.4.91-rc2
+cecc4f28e5fe940f1463460d7249de872455ab75 ASoC: dapm: remove widget from dirty list on free
+c199f6674db30998eb5dd196e6010c370dfea40d x86/hyperv: check cpu mask after interrupt has been disabled
+21939f6af2aa0d018f4f7f707eb8d668b675ace5 tracing/kprobes: Do the notrace functions check without kprobes on ftrace
+9c2b12d5555229ece037d399a4051298379e7a62 MIPS: boot: Fix unaligned access with CONFIG_MIPS_RAW_APPENDED_DTB
+0d0af5bf487c7b8b176e36ca83ac475fcd245772 MIPS: relocatable: fix possible boot hangup with KASLR enabled
+f530077fd7be9557bd81c24c4b3a3a6e0e229eb0 ACPI: scan: Harden acpi_device_add() against device ID overflows
+5351b23de1914aa11252fce4eddbe4918d8d5d4e mm/hugetlb: fix potential missing huge page size info
+774da9c9e61735a2a15180270b492ce5cb8a08c5 dm snapshot: flush merged data before committing metadata
+605d6ff1a444dee2b68ca3747477f16a6b680abc dm integrity: fix the maximum number of arguments
+03ae65d9c819e1df3251862cf45898e4e0a5c6c5 r8152: Add Lenovo Powered USB-C Travel Hub
+969dcb69b19f267c9873fe3ef9161e2ee809b748 ext4: fix bug for rename with RENAME_WHITEOUT
+a73fad5a88fea954936577e153c4bccca09c5103 ARC: build: remove non-existing bootpImage from KBUILD_IMAGE
+54ee49b254b237287b28347a2859b446818dab97 ARC: build: add uImage.lzma to the top-level target
+26d426f0663582774af354c489ae8df34cbec735 ARC: build: add boot_targets to PHONY
+f91e151b603be3348631837f6af8c10c3a9594ff btrfs: fix transaction leak and crash after RO remount caused by qgroup rescan
+edfe2591aa36d4bf2bd44ed56391ac1f4d67bce5 ethernet: ucc_geth: fix definition and size of ucc_geth_tx_global_pram
+05aa29ce24006d5d78e89196a36f041e6b3bd2cd bfq: Fix computation of shallow depth
+13c9b0317bc178dc6a9dd7d3d2584363bda485a2 arch/arc: add copy_user_page() to <asm/page.h> to fix build error on ARC
+88866e25c08c389c978c01412fb24d49a4a1767a misdn: dsp: select CONFIG_BITREVERSE
+b5c585f288fcf8276f285dc8b9545187566ecc0c net: ethernet: fs_enet: Add missing MODULE_LICENSE
+50cf60a467b9b886e8d745f9ef658b887cd0caab ACPI: scan: add stub acpi_create_platform_device() for !CONFIG_ACPI
+90334a3bdb76cd8d52a060157947e96ae5ae6991 drm/msm: Call msm_init_vram before binding the gpu
+a0b1db77b9008e122ab83b7d9def07766f26b0d6 ARM: picoxcell: fix missing interrupt-parent properties
+b5c85112f4b9b2c356023df181278aac3b6a2678 ima: Remove __init annotation from ima_pcrread()
+1505e5048c3a0fc3d9080d5f69d71acad2655249 dump_common_audit_data(): fix racy accesses to ->d_name
+aecf679a5c0b91c682632f5b868d8a850be5274b ASoC: meson: axg-tdm-interface: fix loopback
+99af26fb693cdc0eaeac9a85d66a8c29522dc6a1 ASoC: Intel: fix error code cnl_set_dsp_D0()
+3e519f27077fbe0b350773ec88206f39b3eb82da NFS4: Fix use-after-free in trace_event_raw_event_nfs4_set_lock
+5118fffd5ee84f607c605a222536907fd956de47 pNFS: Mark layout for return if return-on-close was not sent
+f4fe576f1fe1fb2c86cb34e0bffb66b28459535d NFS/pNFS: Fix a leak of the layout 'plh_outstanding' counter
+5c9338f5198e6dba382fba4bbb4a80223a7b53d1 NFS: nfs_igrab_and_active must first reference the superblock
+ea367b515a701f1f85fbc1c226fef8b27e6534a1 ext4: fix superblock checksum failure when setting password salt
+51fa01a31d286d99540dd66adab61974790b06aa RDMA/usnic: Fix memleak in find_free_vf_and_create_qp_grp
+199012ebd7032cfdbc2726aa2dad6969dacb5472 RDMA/mlx5: Fix wrong free of blue flame register on error
+9dce7ece61e73316c894c4ec0c9b28317418b95d mm, slub: consider rest of partial list if acquire_slab() fails
+cb3a8a5e69af6d4c1695c6aeec69577cb3dede6c net: sunrpc: interpret the return value of kstrtou32 correctly
+de4e3c16ae36a9ec9f9c833d7b338053cecb5c9c dm: eliminate potential source of excessive kernel log noise
+74a0b5211b302d4ca96964b44cab960a81dca03a ALSA: firewire-tascam: Fix integer overflow in midi_port_work()
+c7c66d19799a31f766c39644fb5e90222a225548 ALSA: fireface: Fix integer overflow in transmit_midi_msg()
+b2ab454d692fbcfc0890308520f77c9cb6f8abaf netfilter: conntrack: fix reading nf_conntrack_buckets
+1fe663e5eae5dce6498a961209baa7efb6f545de netfilter: nf_nat: Fix memleak in nf_nat_init
+5b489ca4e7874639137dcc92653c8a5ba913b876 kbuild: enforce -Werror=return-type
+121b496fc97087651e58900fa366f6ca009f1df8 Linux 4.19.169-rc2
 
---===============3848708313656204425==--
+--===============7324304481325533335==--
