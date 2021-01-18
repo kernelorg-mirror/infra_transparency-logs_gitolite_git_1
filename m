@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0560398972656817130=="
+Content-Type: multipart/mixed; boundary="===============4902551725026369644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 18 Jan 2021 09:31:41 -0000
-Message-Id: <161096230172.26665.1751321650860301374@gitolite.kernel.org>
+Date: Mon, 18 Jan 2021 09:31:46 -0000
+Message-Id: <161096230622.26786.8600566442278528705@gitolite.kernel.org>
 
---===============0560398972656817130==
+--===============4902551725026369644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: c941d009e8721648ba8eb1f5226125c3808a6cfe
-    new: abe70ee4912bda1466e67ba689712bc529e8114b
-    log: revlist-c941d009e872-abe70ee4912b.txt
+  - ref: refs/heads/m68k-queue
+    old: 069e2573efc3884d5b93f2fd35a9caefafc2132b
+    new: e2e6dbcb66a0795f48ba8f52a64bebdaf2fbd978
+    log: revlist-069e2573efc3-e2e6dbcb66a0.txt
 
---===============0560398972656817130==
+--===============4902551725026369644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c941d009e872-abe70ee4912b.txt
+Content-Disposition: attachment; filename=revlist-069e2573efc3-e2e6dbcb66a0.txt
 
 f373a811fd9a69fc8bafb9bcb41d2cfa36c62665 ASoC: Intel: fix error code cnl_set_dsp_D0()
 fe6ce6c394fb1ef1d8a6384c5180e70893157f22 MAINTAINERS: Update email address for TI ASoC and twl4030 codec drivers
@@ -379,6 +379,8 @@ a527a2b32d20a2bd8070f49e98cb1a89b0c98bb3 Merge branch 'fixes' of git://git.kerne
 a1339d6355ac42e1bf4fcdfce8bfce61172f8891 Merge tag 'powerpc-5.11-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 e2da783614bb8930aa89753d3c3cd53d5604665d Merge tag 'perf-tools-fixes-2021-01-17' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 19c329f6808995b142b3966301f217c831e7cf31 Linux 5.11-rc4
-abe70ee4912bda1466e67ba689712bc529e8114b Merge tag 'v5.11-rc4'
+071538cb3076ba125ac956c210157593762b3e0a m68k: atari: usb: Add ISP1160 USB host controller support
+cdaa5d97faa46ea5e53d7bb0e0442d19db98ac65 m68k: atari: Update Kconfig.bus help text
+e2e6dbcb66a0795f48ba8f52a64bebdaf2fbd978 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0560398972656817130==--
+--===============4902551725026369644==--
