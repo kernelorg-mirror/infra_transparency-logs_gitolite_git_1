@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sun, 17 Jan 2021 23:47:09 -0000
-Message-Id: <161092722919.15504.12724071072417321648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Mon, 18 Jan 2021 00:00:30 -0000
+Message-Id: <161092803007.23133.13506859972399580570@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/at91/linux
+user: abelloni
 changes:
-  - ref: refs/heads/queue-5.10
-    old: 63c4e985f9f7af75401469fd090d7785db2c90b0
-    new: cd59f0d22470432978b93b3ec4548d79c161f0f0
+  - ref: refs/heads/at91-soc
+    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+    new: 960ddf70cc11024e6e9dac206316d0160e00a77d
     log: |
-         a227f4a5131d35dc2a093d2d4c5681363b39a9dc mm: fix clear_refs_write locking
-         27792d98e782a5bcf09cc6e485df3e55f5060be5 mm: don't play games with pinned pages in clear_page_refs
-         cd59f0d22470432978b93b3ec4548d79c161f0f0 mm: don't put pinned pages into the swap cache
+         960ddf70cc11024e6e9dac206316d0160e00a77d drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
          
