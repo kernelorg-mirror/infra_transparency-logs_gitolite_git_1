@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 18 Jan 2021 11:47:32 -0000
-Message-Id: <161097045255.7437.3745362446967229595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 18 Jan 2021 12:35:15 -0000
+Message-Id: <161097331572.1879.6956429881348834342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/x86/misc
-    old: 9297e602adf8d5587d83941c48e4dbae46c8df5f
-    new: 443121b3ebb9025fd99ff11851d3537cb756d456
+  - ref: refs/heads/master
+    old: 7a08784ab053d6aa30db990cbec1fd35b34ed00a
+    new: a992cc0d98bc45581c3a9f7e216742c4b20fc875
     log: |
-         443121b3ebb9025fd99ff11851d3537cb756d456 selftests/fpu: Fix debugfs_simple_attr.cocci warning
+         a992cc0d98bc45581c3a9f7e216742c4b20fc875 tests: set shmmni to 32k
          
