@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Mon, 18 Jan 2021 00:52:46 -0000
-Message-Id: <161093116638.18916.1816561631829539089@gitolite.kernel.org>
+Date: Mon, 18 Jan 2021 00:56:51 -0000
+Message-Id: <161093141191.21497.10732533349806770101@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,11 @@ repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
   - ref: refs/heads/master
-    old: 714da604993533d626aed7eda893be88366d07ac
-    new: 4f898eca54befa5106062b33e7498fb7c829d09e
+    old: 4f898eca54befa5106062b33e7498fb7c829d09e
+    new: 8fdd7344dc1fa06ab598ac6aed8a00a34e272492
     log: |
-         7e78210cda88009f312130b2f93bd1b53d716f92 mm: COW: acceleration to skip the page lock for the copy path
-         5e9b52151673bd06f32ca6d5c8d536b02d5b7658 gup: FOLL_UNSHARE: copy-on-read fault
-         e2ff7bcb812df90ff29de511f591c05cca91e2a8 KSM: gup: FOLL_UNSHARE: copy-on-read fault
-         6166ac01f08b5fecc50e6d2b76062d424e7c8342 KSM: micro optimize do_wp_page
-         f1baf4a5ae3554900cfbe8fbcaeccb9b35237b85 userfaultfd: UFFDIO_REMAP: rmap preparation
-         4f898eca54befa5106062b33e7498fb7c829d09e userfaultfd: UFFDIO_REMAP uABI
+         933f28ad9905a10ee2479e42312aa7a1566b192e KSM: gup: FOLL_UNSHARE: copy-on-read fault
+         aab9d42879e5f1284a8e0cb258fedba4cfc403ce KSM: micro optimize do_wp_page
+         1c31b4ae6d8e01c442169fdbcc606c7ba681b0e1 userfaultfd: UFFDIO_REMAP: rmap preparation
+         8fdd7344dc1fa06ab598ac6aed8a00a34e272492 userfaultfd: UFFDIO_REMAP uABI
          
