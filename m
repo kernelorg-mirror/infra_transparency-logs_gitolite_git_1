@@ -1,75 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7791997305842873717=="
+Content-Type: multipart/mixed; boundary="===============6089268397742089957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Mon, 18 Jan 2021 09:44:58 -0000
-Message-Id: <161096309867.1021.2256966516621356704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
+Date: Mon, 18 Jan 2021 09:45:03 -0000
+Message-Id: <161096310311.2086.1980209433535916387@gitolite.kernel.org>
 
---===============7791997305842873717==
+--===============6089268397742089957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/lee/linux
+user: lee
 changes:
-  - ref: refs/heads/for-next
-    old: 25f2978650f06d305cc6db874a74fde702d0b469
-    new: 5df5ec0e41f32f2c67e6d4b8749db608dd165c7e
-    log: revlist-25f2978650f0-5df5ec0e41f3.txt
+  - ref: refs/heads/android-3.18-preview
+    old: a6b9206ed19873cbe589899dbdedfae676fb3c3e
+    new: 62fcaee6af44d4e1aac3aaaae7969e5ddaa645ad
+    log: revlist-a6b9206ed198-62fcaee6af44.txt
 
---===============7791997305842873717==
+--===============6089268397742089957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25f2978650f0-5df5ec0e41f3.txt
+Content-Disposition: attachment; filename=revlist-a6b9206ed198-62fcaee6af44.txt
 
-599bbb639e83029d7237b4114aaf237619c525eb dt-bindings: arm: fsl: add Kontron sl28 variant 1
-642856097c186c0d675a8ac59efca557e8d9c0eb arm64: dts: freescale: sl28: add variant 1
-f18e6d573b80364bc6be71cd32d5eb92543a99c1 arm64: dts: imx8mq: Add NOC node
-20cf8d981c8164367cbccfabbd306b7c9f7ad1ed arm64: dts: imx8mq: Add interconnect provider property
-ad1abc8a03fdbc05b3390962b15287d4e7c5db22 arm64: dts: imx8mq: Add interconnect for lcdif
-368e14ddb8c54098c0fc8f78597eaf4eb1a1fc4e arm64: defconfig: Enable interconnect for imx8mq
-839661a2bbc8cde0b0ea838485076eec41c50502 ARM: dts: imx7: Mark timer with arm,cpu-registers-not-fw-configured
-93ef4e4156315679df448de2988f7a85698e37a0 ARM: dts: imx6ul-14x14-evk: Fix SPI chipselect polarity
-70f04e9a3358404367030493dc36718d4495a9a5 ARM: dts: imx6ul-14x14-evk: Enable the GPIO expander
-2db7e78bf02b2d3ad8c917ded18e403f5774e39c ARM: dts: imx6ul-14x14-evk: Describe the KSZ8081 reset
-e4cbd169b3a8b8fe772f1e7dc52c938188e2f55a ARM: dts: imx6ul-14x14-evk: Add camera support
-8900d0d59b63766c4ed10462eb921c4bd595e4c7 arm64: dts: lx2160a-clearfog-itx: add power button support
-e8d08d80f4508e0601ea2beb0848b5a60d6a2c31 arm64: dts: imx8mm-beacon: add more pinctrl states for usdhc1
-18b9de73f06e474456699bd743a054de9b905706 arm64: dts: imx8mn-beacon-som: Configure RTC aliases
-12dffe14e372ab7af26c12ca4cc91876a0fb7b41 arm64: dts: lx2160a-cex7: delete RTC interrupt
-5dd74cf8f3e68fa46a253804ac42e9d3f4f58885 arm64: dts: freescale: sl28: enable SATA support
-31872732a2d520c8bc041c1c4fd2a76dde93f731 arm64: defconfig: Enable Broadcom BCM54140 PHY
-8b6b17540370415889fb1a7170bc8c4dba18edd6 arm64: dts: imx8mq: Add eCSPI DMA support
-18df346b66e56eb51fa423bda3fe4d413a7028ff dt-bindings: vendor-prefixes: Add an entry for Kverneland Group
-55d743d1067bea8630c885b4f0078c66205ea005 dt-bindings: arm: fsl: add Kverneland UT1, UT1Q and UI1P boards
-6e73bfbb2ed099da744587cbd0b5416ce378c575 dt-bindings: arm: fsl: add Kverneland TGO board
-db8c29bae60ad63b111466344f329d17f4117e76 ARM: dts: add Kverneland UT1, UT1Q and UT1P
-7f8f6311ba59582cb1c541d83d2b505a09907e6f ARM: dts: add Kverneland TGO board
-69c910d3675fc44ed8e387c816afb79d54371314 arm64: dts: ls1028a: fix FlexSPI clock
-eb363edace688898956b99e48daa8d7e05cee795 ARM: dts: imx7d-flex-concentrator: fix pcf2127 reset
-a88afa46b86ff461c89cc33fc3a45267fff053e8 ARM: imx: build suspend-imx6.S with arm instruction set
-4dec146131c592196df579a321b9d6ec7c41d7cd ARM: dts: imx6sl-tolino-shine2hd: correct console uart pinmux
-b34af2eef6ac78c8734879fa2f8fadb85cd1145f ARM: dts: imx6sl-tolino-shine2hd: add second uart
-035a3e167b094c09bab401b21f32e1d227c78fff ARM: dts: imx6sl-tolino-shine3: correct console uart pinmux
-3ad6be94e7103c5a941dddaa10d9471528a64421 ARM: dts: imx: e60k02: add second uart
-2cc0bfc9c12784188482a8f3d751d44af45b0d97 ARM: dts: imx6qdl-sr-som: fix some cubox-i platforms
-b764eb65e1c932f0500b30fcc06417cd9bc3e583 arm64: dts: imx8mp: Correct the gpio ranges of gpio3
-82c082784e03a9a9c043345f9bc04bc8254cf6da firmware: imx: select SOC_BUS to fix firmware build
-d36f964cc742d75e51a29a3ecfeded6993136235 ARM: dts: imx6: add wakeup support via magic packet
-70eacf42a93aff6589a8b91279bbfe5f73c4ca3d arm64: dts: imx8m: correct assigned clocks for FEC
-6c17f2d6ab50691bfe67e65434568d759feb450b arm64: dts: imx8mq: assign clock parents for FEC
-066438ae637b492f220c26cca304f1ce3d987a20 arm64: dts: imx8m: add mac address for FEC
-afe993546334633daa3249b77540a30c0fb8997e arm64: dts: imx8m: add fsl,stop-mode property for FEC
-de9ce65ebcd2a1e564b89b50488a68794382b248 Merge branch 'clk/imx' into for-next
-bd1fc7b9ff9148213768a7d8c34790455832d98e Merge branch 'imx/drivers' into for-next
-a1792f76de7d783cbd14236dcafb24299f7b21f9 Merge branch 'imx/soc' into for-next
-4f65059826745404edffb22dcdfcde394418309e Merge branch 'imx/bindings' into for-next
-59b1bdb19ed8a6d5b17ea8935f643cf9e5141947 Merge branch 'imx/dt' into for-next
-6da471877b90820a14aff7dea31298c072729ca9 Merge branch 'imx/dt64' into for-next
-5df5ec0e41f32f2c67e6d4b8749db608dd165c7e Merge branch 'imx/defconfig' into for-next
+24009e3aad477ce6fd119683fc629bbf9fa716fd cw1200: fix missing destroy_workqueue() on error in cw1200_init_common
+d284086d173a2f2700d17ae09aa870540d4751af NFSv4.2: condition READDIR's mask for security label based on LSM state
+f141ca5a03e175f55f166c121e9c74e672bba703 lockd: don't use interval-based rebinding over TCP
+f1e536877f2fffb5ee1388efa603dd1b40265ec6 NFS: switch nfsiod to be an UNBOUND workqueue.
+07ce0613c9d55471de32e83e6bd66f029ea19721 media: saa7146: fix array overflow in vidioc_s_audio()
+4d9060b6a95d05d0adbb9363fcb59254065ebebf pinctrl: falcon: add missing put_device() call in pinctrl_falcon_probe()
+bc15b90f08175cba3e406c48e443afe455f97e23 memstick: r592: Fix error return in r592_probe()
+cabb65ceb313e086da06a0bc88066f4efe318d11 ASoC: jz4740-i2s: add missed checks for clk_get()
+7abbbcd3e095e34c837e5ba0a0b623489c48b8ce dm ioctl: fix error return code in target_message
+2e98dc02b58de8312b5b77181e60661dc322104b clocksource/drivers/arm_arch_timer: Correct fault programming of CNTKCTL_EL1.EVNTI
+506782a6f1a6829f63592c24f025e232a6d7999b cpufreq: highbank: Add missing MODULE_DEVICE_TABLE
+6d48110c9081bbd270fd67a5a6a4442586d2a8da scsi: fnic: Fix error return code in fnic_probe()
+72297f50745473504d0c73127385ca8cb6c2343e usb: ehci-omap: Fix PM disable depth umbalance in ehci_hcd_omap_probe
+ba251537ecb92e854da4862399cc2cded9e7050c usb: oxu210hp-hcd: Fix memory leak in oxu_create
+6ed4e9b03d91f876eae5e0ee9b45246e419c4ca6 speakup: fix uninitialized flush_lock
+5579222778180aed94eb752d5d14c8de2997f1c0 x86/kprobes: Restore BTF if the single-stepping is cancelled
+842d9cd8a97d5181ad33b05603892bb90aa9eb26 extcon: max77693: Fix modalias string
+3045f6a6890e3c6587dd8898e79dfff4fef16a85 um: chan_xterm: Fix fd leak
+3efd0d102aa4313411eb29521522783f1f78fe94 powerpc/ps3: use dma_mapping_error()
+62fcaee6af44d4e1aac3aaaae7969e5ddaa645ad checkpatch: fix unescaped left brace
 
---===============7791997305842873717==--
+--===============6089268397742089957==--
