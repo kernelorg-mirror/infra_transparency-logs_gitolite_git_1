@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2798940921113235817=="
+Content-Type: multipart/mixed; boundary="===============8213803299014743114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jeyu/linux
-Date: Mon, 18 Jan 2021 09:40:04 -0000
-Message-Id: <161096280447.31821.4122940406055368804@gitolite.kernel.org>
+Date: Mon, 18 Jan 2021 09:40:33 -0000
+Message-Id: <161096283305.32029.15340257859528201772@gitolite.kernel.org>
 
---===============2798940921113235817==
+--===============8213803299014743114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jeyu/linux
 user: jeyu
 changes:
-  - ref: refs/heads/master
-    old: f75aef392f869018f78cfedf3c320a6b3fcfda6b
+  - ref: refs/heads/modules-next
+    old: 38dc717e97153e46375ee21797aa54777e5498f3
     new: 19c329f6808995b142b3966301f217c831e7cf31
-    log: revlist-f75aef392f86-19c329f68089.txt
+    log: revlist-38dc717e9715-19c329f68089.txt
 
---===============2798940921113235817==
+--===============8213803299014743114==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f75aef392f86-19c329f68089.txt
+Content-Disposition: attachment; filename=revlist-38dc717e9715-19c329f68089.txt
 
 0a4e668b5d52eed8026f5d717196b02b55fb2dc6 hwmon: (k10temp) Remove support for displaying voltage and current on Zen CPUs
 c3a74f8e25e97166ca0f954414825ae98a3209f6 Merge branch 'pm-cpufreq'
@@ -1051,4 +1051,4 @@ a1339d6355ac42e1bf4fcdfce8bfce61172f8891 Merge tag 'powerpc-5.11-4' of git://git
 e2da783614bb8930aa89753d3c3cd53d5604665d Merge tag 'perf-tools-fixes-2021-01-17' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 19c329f6808995b142b3966301f217c831e7cf31 Linux 5.11-rc4
 
---===============2798940921113235817==--
+--===============8213803299014743114==--
