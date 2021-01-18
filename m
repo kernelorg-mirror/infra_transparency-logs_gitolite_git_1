@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 18 Jan 2021 15:42:15 -0000
-Message-Id: <161098453552.382.14050866358328513744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Mon, 18 Jan 2021 15:48:43 -0000
+Message-Id: <161098492384.3835.8240908433174094695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/master
-    old: 91c6bf1ce9ec70849721847bde6b5d7074a6e971
-    new: 22206f7daccd451a8cf359c21a516258ac8a705c
-    log: |
-         22206f7daccd451a8cf359c21a516258ac8a705c pipe.7: tfix
-         
+  - ref: refs/heads/pci/misc
+    old: 0000000000000000000000000000000000000000
+    new: a93c00e5f975f23592895b7e83f35de2d36b7633
