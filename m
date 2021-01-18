@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0306417465137316304=="
+Content-Type: multipart/mixed; boundary="===============8959281843678798594=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 18 Jan 2021 20:02:59 -0000
-Message-Id: <161100017920.8219.1930500594116738097@gitolite.kernel.org>
+Date: Mon, 18 Jan 2021 20:09:59 -0000
+Message-Id: <161100059963.11645.9254745745370067160@gitolite.kernel.org>
 
---===============0306417465137316304==
+--===============8959281843678798594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,29 +16,29 @@ repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
   - ref: refs/tags/mlx5-updates-2021-01-13
-    old: 497596ce582bb597fb09cadc57b356ae66545a43
-    new: 1185033c751ea8faa154e6b522205fa839d5f99a
-    log: revlist-497596ce582b-1185033c751e.txt
+    old: 1185033c751ea8faa154e6b522205fa839d5f99a
+    new: 782f2bdf2161bcbe7b101e8fa8b2d6ce90a8ff86
+    log: revlist-1185033c751e-782f2bdf2161.txt
 
---===============0306417465137316304==
+--===============8959281843678798594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-497596ce582b-1185033c751e.txt
+Content-Disposition: attachment; filename=revlist-1185033c751e-782f2bdf2161.txt
 
-4ea837d2d31d772d546b571b63a113ed74aa93dc devlink: Prepare code to fill multiple port function attributes
-3574eb9a6180969102ba6451aaa446ffa582adf6 devlink: Introduce PCI SF port flavour and port attribute
-e10ffacc543540e91fe1c3dc8c189d5123a87f7d devlink: Support add and delete devlink port
-0819ec0580126b8c28c66b158295d33901bc528a devlink: Support get and set state of port function
-98c12ec7dcdd1e4c53029cce18e1ae00cce5df1d net/mlx5: Introduce vhca state event notifier
-1617dc9aa1c925597b636d8b6db7575cb2f1b9cc net/mlx5: SF, Add auxiliary device support
-2c5bc069a35570219d70a4689ff1d64203484c7a net/mlx5: SF, Add auxiliary device driver
-79882ceb4bccbc7a698275865d0f74efe5dd82d2 net/mlx5: E-switch, Prepare eswitch to handle SF vport
-63b7be28ff24feeda0c9e0552de11821122b1553 net/mlx5: E-switch, Add eswitch helpers for SF vport
-977ce1c3d7d255d4f8fbfaaff6e638ca318e52dd net/mlx5: SF, Add port add delete functionality
-299388f8b2ed9a92a95debdd4fb27efd6a7200c1 net/mlx5: SF, Port function state change support
-f8dc202bc9adef73d63e43612d29453ca97439e1 devlink: Add devlink port documentation
-37689aebec7944c6d1f5a3382b9568a35b8a2347 devlink: Extend devlink port documentation for subfunctions
-c368351714fa5294c8d48ea570a7822b09a1d82b net/mlx5: Add devlink subfunction port documentation
+b6a8dfa5b6f18d7636bd6a093fe5a521e67e8300 devlink: Prepare code to fill multiple port function attributes
+76d8bba4e5cefffca90cd77dbaa00aaf62eb9b2f devlink: Introduce PCI SF port flavour and port attribute
+80a5010185a5c52c467c061fc51eb6f07af23e4c devlink: Support add and delete devlink port
+e5083b6b0cfa71d609a68727066d7d77355d74e1 devlink: Support get and set state of port function
+d2b4c600c1b57b5760ebec51674ae54c153316ba net/mlx5: Introduce vhca state event notifier
+d4dfd140352b90fe3d8727fd9a6a49ba5ec9f4e2 net/mlx5: SF, Add auxiliary device support
+bbae8436a755bd5b42323d86427705a2380a0149 net/mlx5: SF, Add auxiliary device driver
+5f5c76115a3a63e948aed5e73be453f31c2bf6ac net/mlx5: E-switch, Prepare eswitch to handle SF vport
+48010a134ced142a44e8b9417a6bfa4f883f2c97 net/mlx5: E-switch, Add eswitch helpers for SF vport
+e53c161f9a47db54fe92bb50e7e40916e535b001 net/mlx5: SF, Add port add delete functionality
+8637f61a90dedb6272b03e6619e5d858ef011263 net/mlx5: SF, Port function state change support
+bb4af87f3a8aa0c11ae924dc3b066eece087d9e0 devlink: Add devlink port documentation
+6a18dba55bc50b00ebbffa46f7d60087da4ad684 devlink: Extend devlink port documentation for subfunctions
+ec5a852199c92c83413882fd6be3da30ca0de68c net/mlx5: Add devlink subfunction port documentation
 
---===============0306417465137316304==--
+--===============8959281843678798594==--
