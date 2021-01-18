@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Mon, 18 Jan 2021 20:33:07 -0000
-Message-Id: <161100198781.27840.16682888528606951740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 18 Jan 2021 20:39:56 -0000
+Message-Id: <161100239665.31102.4592532520720983235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/main
-    old: 1a22ad2721fbd970e3d9a97af98427567c65d05d
-    new: 8498ca92d7d734570f108b18d7d0858560c4ac07
+  - ref: refs/heads/review-hans
+    old: c8612dfe1ef6eaefb997863a6e267d0a794b95ce
+    new: 0627cc334d408953c0ff9ef8731325c2d02572ed
     log: |
-         8dca565b1729ea7773e4299f10ec1b0e49d1af44 vrf: print BPF log buffer if bpf_program_load fails
-         8498ca92d7d734570f108b18d7d0858560c4ac07 vrf: fix ip vrf exec with libbpf
+         dbd7dd8f8859ac3ab556c76d9b02efb96c26df80 platform/x86: hp-wmi: Don't log a warning on HPWMI_RET_UNKNOWN_COMMAND errors
+         251000c5e3593dfc8010c71ceae8ba190c977ea3 MAINTAINERS: update email address for Henrique de Moraes Holschuh
+         c47c042942d31dec2f0b4bd66b948a51a2eb4985 platform/x86: thinkpad_acpi: Add P53/73 firmware to fan_quirk_table for dual fan control
+         0627cc334d408953c0ff9ef8731325c2d02572ed sony-laptop: Remove unneeded semicolon
          
