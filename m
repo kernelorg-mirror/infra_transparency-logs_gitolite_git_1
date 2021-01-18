@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1850924712568112929=="
+Content-Type: multipart/mixed; boundary="===============7459676374932268793=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 18 Jan 2021 17:36:28 -0000
-Message-Id: <161099138850.10870.12669597837305889887@gitolite.kernel.org>
+Date: Mon, 18 Jan 2021 17:39:24 -0000
+Message-Id: <161099156412.11796.12553644107119065714@gitolite.kernel.org>
 
---===============1850924712568112929==
+--===============7459676374932268793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: c25c210f590e7a37eecd865d84f97d1f40e39786
-    new: 2e559638f729dc00322ef08b7f8dab40627de905
+    old: 2e559638f729dc00322ef08b7f8dab40627de905
+    new: f2fc9ff28d1c9bef7760516feadd38164044caae
     log: |
-         2e559638f729dc00322ef08b7f8dab40627de905 usb: phy: phy-mxs-usb: Use of_device_get_match_data()
+         7766cafea0eca6a7cc0ffc947bc95be19295575f usb: bdc: Remove the BDC PCI driver
+         f2fc9ff28d1c9bef7760516feadd38164044caae usb: ch9: Add USB 3.2 SSP attributes
          
 
---===============1850924712568112929==
+--===============7459676374932268793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610991380 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1610991555 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1610991379-a61281e2df6963255b17b9dc1fa08067002cd909
+nonce 1610991555-672f679426ec93c705d7f36e30c6a58491032b8d
 
-c25c210f590e7a37eecd865d84f97d1f40e39786 2e559638f729dc00322ef08b7f8dab40627de905 refs/heads/usb-testing
+2e559638f729dc00322ef08b7f8dab40627de905 f2fc9ff28d1c9bef7760516feadd38164044caae refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAFxxQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S8oP/0sQvm916+6r3yDvqODZ
-Nw/Xkpc2lW9ux1s9PUFK+IdPJblzilT2ykbk6OUXH2redDVkd3VEw4QtwD1rrqZ4
-CYpB/g2Mk/bDljNhIv7DoDYSGEYkcpT5x9g8rA+c23yEssa+tEfDvTaGOQ6Yappy
-oANu0AAh43m+XjsSl55iXi+8q7bQ3cSE1hXBxXTt5jtK+Bce0XyTDcXbseCjKPqZ
-ROQ3nbrhaGrDOD71HeRmVdtpfO5ZPhCdSoQxI+KuD1v1MCWznpo6e+moFeESDM5I
-1eK7oN0nYDIVCsuy8jQQOhRhFUxaKlPuSEplWrrbYzmhv8/g+4Ekz/wxa3wjlIIt
-0jVnuo0jqPXDr7SGWqRyRhYeFqQvweNwFSUfNf0wiFXPlJDlwzi4ZsH9oU1NJZzo
-ExOp1fSxazMjoYv3HNCJlH5AcaQKONWwq0RbRTqXjAKjGLaXS0iNua24phBGh70T
-+j48uGG4MVKnVyNdDOJlfw5rsE3WLMYafUr6l20x7E2wq5wfLIZLe3oTec3QDZy2
-dpgLV+tGy5KDYklUG0FxqD7w0O7odFC66gAppcKBnOJSkg90LSGVpkjvDl6CzWT5
-RinyADwFaXjDLo4Pk1auuKBd/OFnT8V08aEJJM0jLOg53Myud2kn5BSYnmEifnzc
-1evYLEm0Ilbo8JJA0Vu7tYqE
-=mLiC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAFx8MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NYAQAMJic3KGfEIV0BNp6/Wn
++IfzksyCEVs1IjpkbS4b3b3qzocei2P6AIEDj0lN08d0bMXTrifiDVhH58MnkGMD
+HNaiUKQeKIEaNujX7LxF8boRiS0CNo30Yg2Ief50RZABjJvmWYBr6T0AvPCilEUZ
+72xQONUk2vCuEpPEka3dDrLh+uOO7GeF2Xijyqde2CfD1Cpj2/mv7VSVPw2F0fmX
+Wbkv2kU3czH6t/z9ZK6hcHga0sT3ZCdXVsqVKVRBOaM2daJmqsiCsnitDvB9an2p
+9tO4EHtaY8PbhKIDlspk2T6b2DdCSTqF5JxzInPyGqiQlrZdpyTP89xvvAlIjh5L
+l+1O0bQt9bo8XD4sQRQFqYDKlffX4FQmiCeBXiGFXtYTZ9AyCgwYTKtnnUyEbFOT
+245TLBvQyozQBmU6dDiyPlsSER1Xkp6ocuanW8kruLKAb4GLf0juiTbrhSJ1BJXL
+3mk6HKISvxGSMzvLSSOgvl7rEXE2H/0ANTurtz1OHFd/2fMm5AxGa85qX61la64Q
+Uq90vdPdxXKivlG781YiNrVxSBdMriv4+7slJR/Drzx4Ex6keilZMnV5z5271184
+1Zrw5vEQHK4cp+XRsFZQSA6OdeLJcYPYCYhrIujPqvy32nAJzYjFIZHMjDxZePFZ
+sKjLY4v6ZhTN+Zx9/Tgi2Yh0
+=M3gB
 -----END PGP SIGNATURE-----
 
---===============1850924712568112929==--
+--===============7459676374932268793==--
