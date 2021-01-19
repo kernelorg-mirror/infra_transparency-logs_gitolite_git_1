@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/stalld/stalld
-Date: Tue, 19 Jan 2021 19:58:45 -0000
-Message-Id: <161108632524.32336.10766802226055449696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 19 Jan 2021 20:01:23 -0000
+Message-Id: <161108648387.2350.6018720433839518134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/stalld/stalld
-user: clrkwllms
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/main
-    old: 32e663e2f78e5f576e5c1a2b3438a9682ea2da41
-    new: 4e854891867ea0e99bc74844a74264221d770300
+  - ref: refs/heads/master
+    old: dc9c9e72ff3ba01ae63e6263ac26234ba1869cd7
+    new: 7eab14de73a8028f770e703962c5437a2b0dda82
     log: |
-         0ba917158198ed233ee16904c71bd28b86e721a8 utils.c: fix signal handler to catch SIGTERM
-         4e854891867ea0e99bc74844a74264221d770300 version update to 1.5
+         7eab14de73a8028f770e703962c5437a2b0dda82 mdio, phy: fix -Wshadow warnings triggered by nested container_of()
          
-  - ref: refs/tags/v1.5
-    old: 0000000000000000000000000000000000000000
-    new: af4ae9be66e6b75616b421dbd99f743cf6776fa1
