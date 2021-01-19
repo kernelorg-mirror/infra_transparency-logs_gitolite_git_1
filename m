@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Tue, 19 Jan 2021 10:24:50 -0000
-Message-Id: <161105189061.28052.10392066330472388526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 19 Jan 2021 10:51:30 -0000
+Message-Id: <161105349030.11146.15721441567804470619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/next
-    old: fb39b0abe35135c35ccb637dad1476ba7ce5d07e
-    new: 745b56b065618aaee7c2ab4ca3c85e2cdbebc1d6
+  - ref: refs/heads/gpio/for-current
+    old: 1fc7c1ef37f86f207b4db40aba57084bb2f6a69a
+    new: ef38237444ce952daf041ed2885918f9f7d1e997
     log: |
-         745b56b065618aaee7c2ab4ca3c85e2cdbebc1d6 x86/sgx: Fix the return type of sgx_init()
+         ef38237444ce952daf041ed2885918f9f7d1e997 gpiolib: add a warning on gpiochip->to_irq defined
          
