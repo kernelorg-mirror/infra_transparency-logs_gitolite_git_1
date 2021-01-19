@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Tue, 19 Jan 2021 21:01:20 -0000
-Message-Id: <161109008079.26345.547160143482712554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 19 Jan 2021 21:05:52 -0000
+Message-Id: <161109035223.28898.2316976343201081188@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: c27123cf619b994875ac8034625bdefee9bc355d
-    new: 0eff642d2f4d346dd7940ad15f997f67f4221820
+    old: f7b9820dbe1620a3d681991fc82774ae49c2b6d2
+    new: 301a33d51880619d0c5a581b5a48d3a5248fa84b
     log: |
-         b7c1f1e13d646e0c6b3a353b6ba255d2e836dc56 Revert libcryptsetup_cli.
-         0eff642d2f4d346dd7940ad15f997f67f4221820 Add pedantic check for key helpers arguments.
+         301a33d51880619d0c5a581b5a48d3a5248fa84b bpf: Fix helper bpf_map_peek_elem_proto pointing to wrong callback
          
-  - ref: refs/merge-requests/124/head
-    old: 0000000000000000000000000000000000000000
-    new: 0eff642d2f4d346dd7940ad15f997f67f4221820
-  - ref: refs/merge-requests/124/merge
-    old: 0000000000000000000000000000000000000000
-    new: ec5bea89405b8bd4af4a28b4cc873ad11cf12577
