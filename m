@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 19 Jan 2021 11:09:55 -0000
-Message-Id: <161105459599.22820.18277311671703831982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Tue, 19 Jan 2021 11:17:15 -0000
+Message-Id: <161105503507.27779.272647456143655385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: e73b0101ae5124bf7cd3fb5d250302ad2f16a416
-    new: 18eedf2b5ec7c8ce2bb23d9148cfd63949207414
+  - ref: refs/heads/printk-rework
+    old: 89ccf18f032f26946e2ea6258120472eec6aa745
+    new: f0e386ee0c0b71ea6f7238506a4d0965a2dbef11
     log: |
-         18eedf2b5ec7c8ce2bb23d9148cfd63949207414 gpio: sifive: select IRQ_DOMAIN_HIERARCHY rather than depend on it
+         f0e386ee0c0b71ea6f7238506a4d0965a2dbef11 printk: fix buffer overflow potential for print_text()
          
