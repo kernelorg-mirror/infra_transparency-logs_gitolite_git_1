@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8585156350443721597=="
+Content-Type: multipart/mixed; boundary="===============5899682874618643896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 19 Jan 2021 19:00:22 -0000
-Message-Id: <161108282283.30431.12161532322627191092@gitolite.kernel.org>
+Date: Tue, 19 Jan 2021 19:09:58 -0000
+Message-Id: <161108339866.1359.15023135157768196379@gitolite.kernel.org>
 
---===============8585156350443721597==
+--===============5899682874618643896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
-    new: 1e2a199f6ccdc15cf111d68d212e2fd4ce65682e
-    log: revlist-7c53f6b671f4-1e2a199f6ccd.txt
-  - ref: refs/tags/v5.11-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 7341df6992e7840498cff6ad21380aa7dd97870b
+  - ref: refs/heads/dev
+    old: 62e49233bd64e05f6b034a76efaf76732e1ad949
+    new: b640eda3ba7ee210865f66e06aee62d0fbb9ce51
+    log: revlist-62e49233bd64-b640eda3ba7e.txt
 
---===============8585156350443721597==
+--===============5899682874618643896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c53f6b671f4-1e2a199f6ccd.txt
+Content-Disposition: attachment; filename=revlist-62e49233bd64-b640eda3ba7e.txt
 
 f373a811fd9a69fc8bafb9bcb41d2cfa36c62665 ASoC: Intel: fix error code cnl_set_dsp_D0()
 fe6ce6c394fb1ef1d8a6384c5180e70893157f22 MAINTAINERS: Update email address for TI ASoC and twl4030 codec drivers
@@ -390,5 +387,28 @@ e2da783614bb8930aa89753d3c3cd53d5604665d Merge tag 'perf-tools-fixes-2021-01-17'
 fd3958eac387593d02e4d4287658ba04bcdb235a Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 b4459f4413c890a35dfcecaff29d37ac65607d76 Merge tag 'fixes-2021-01-18' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 1e2a199f6ccdc15cf111d68d212e2fd4ce65682e Merge tag 'spi-fix-v5.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+9744035ef5ad30c269d675fbfd1352d134c1822b f2fs: handle unallocated section and zone on pinned/atgc
+0b67f8fe171ce5fc7ec076eb3b2ffd3f5b083b67 f2fs: Replace expression with offsetof()
+9f0ff5b0272717a44d757b00f3f53497b002a6e9 f2fs: fix to set inode->i_mode correctly for posix_acl_update_mode
+7cf2e6173b2dda5004d1b10f4fb00eafdd0b9aa5 f2fs: enhance to update i_mode and acl atomically in f2fs_setattr()
+29d648e8830997a21b50f35ba431aed63e43ea56 f2fs: enforce the immutable flag on open files
+03a9a1a64a11735b873a498895d7454495b942cd f2fs: relocate f2fs_precache_extents()
+c08e95fc64668bcba82f8d4f0a32ed4739c65aec f2fs: compress: support compress level
+125f5a4243e496a79030f05b0ca7247326265e7f f2fs: compress: deny setting unsupported compress algorithm
+475edbb7439712ee7cf317265c3556b8ac386fea f2fs: introduce a new per-sb directory in sysfs
+84bfcbdf03acfbe6d180c0b265bc22a9150929b3 f2fs: fix to tag FIEMAP_EXTENT_MERGED in f2fs_fiemap()
+19bb7075d1a9369e4ae64aacacdfae0751a96a7e f2fs: fix out-of-repair __setattr_copy()
+05e02a362796f2babce088e7d0106742c6fd3bd5 f2fs: trival cleanup in move_data_block()
+0670ef624733a6da97b604f7172194b4381020f2 f2fs: clean up post-read processing
+207ded61d8bd354c8d38144b60d3d05f3b603db4 f2fs: fix null page reference in redirty_blocks
+2ba933a1a2c9ad99c63e88ace609cbe7c95320e7 f2fs: fix to set/clear I_LINKABLE under i_lock
+ad0764a46c17936bc281845a7d58f13a71c1585e libfs: unexport generic_ci_d_compare() and generic_ci_d_hash()
+c7fd0eab65e4a1985ade8735d66215dd391651f9 f2fs: compress: fix potential deadlock
+67e5ab69dd7db424f3461736caddd1d01263e95b f2fs: fix to use per-inode maxbytes
+504da64a07535178b5421a75c597c5e42f0694e0 f2fs: introduce sb_status sysfs node
+5c4542600f1fe152be70d3a468cdd32c3dbcd4ea f2fs: remove unused stat_{inc, dec}_atomic_write
+4cbcc4d42e47887835491786ad27ebbe7f23968d f2fs: Remove readahead collision detection
+a2fc3949116e70e75a84ee28090eb0607b6647d9 f2fs: deprecate f2fs_trace_io
+b640eda3ba7ee210865f66e06aee62d0fbb9ce51 f2fs: introduce checkpoint=merge mount option
 
---===============8585156350443721597==--
+--===============5899682874618643896==--
