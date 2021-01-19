@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3628162395000949733=="
+Content-Type: multipart/mixed; boundary="===============7357783088202485371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 19 Jan 2021 11:39:47 -0000
-Message-Id: <161105638727.9975.15984312559434867962@gitolite.kernel.org>
+Date: Tue, 19 Jan 2021 11:40:14 -0000
+Message-Id: <161105641418.11463.14417524194679902910@gitolite.kernel.org>
 
---===============3628162395000949733==
+--===============7357783088202485371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/master
-    old: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
+  - ref: refs/heads/fixes
+    old: a1a322a62dbab3ca18fa35cd84640057d4cab213
     new: 19c329f6808995b142b3966301f217c831e7cf31
-    log: revlist-7c53f6b671f4-19c329f68089.txt
+    log: revlist-a1a322a62dba-19c329f68089.txt
 
---===============3628162395000949733==
+--===============7357783088202485371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c53f6b671f4-19c329f68089.txt
+Content-Disposition: attachment; filename=revlist-a1a322a62dba-19c329f68089.txt
 
 f373a811fd9a69fc8bafb9bcb41d2cfa36c62665 ASoC: Intel: fix error code cnl_set_dsp_D0()
 fe6ce6c394fb1ef1d8a6384c5180e70893157f22 MAINTAINERS: Update email address for TI ASoC and twl4030 codec drivers
@@ -380,4 +380,4 @@ a1339d6355ac42e1bf4fcdfce8bfce61172f8891 Merge tag 'powerpc-5.11-4' of git://git
 e2da783614bb8930aa89753d3c3cd53d5604665d Merge tag 'perf-tools-fixes-2021-01-17' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 19c329f6808995b142b3966301f217c831e7cf31 Linux 5.11-rc4
 
---===============3628162395000949733==--
+--===============7357783088202485371==--
