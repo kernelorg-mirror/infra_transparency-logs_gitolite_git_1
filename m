@@ -1,40 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Tue, 19 Jan 2021 18:04:24 -0000
-Message-Id: <161107946425.29376.10315768172703747197@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1576435793781161174=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 19 Jan 2021 18:11:31 -0000
+Message-Id: <161107989163.1303.2068262015599318484@gitolite.kernel.org>
+
+--===============1576435793781161174==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
-user: bigeasy
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.10.6
-    old: 0000000000000000000000000000000000000000
-    new: 3a009ea166de1d0b804ddc6274b559c2ce0eebf3
-  - ref: refs/tags/v5.10.7
-    old: 0000000000000000000000000000000000000000
-    new: 2cb4544ab3ee04a6acd24837d5477d476a0688ba
-  - ref: refs/tags/v5.10.8
-    old: 0000000000000000000000000000000000000000
-    new: 3096769c8d9dd9a1cf155e0836a120ab5b49929f
-  - ref: refs/tags/v5.10.8-rt23
-    old: 0000000000000000000000000000000000000000
-    new: cb8b23049de513683a2675b4885a1b68bfa28e9d
-  - ref: refs/tags/v5.10.8-rt23-patches
-    old: 0000000000000000000000000000000000000000
-    new: 34e05de861bb15f2c9ce14c4f4c0f664730f68db
-  - ref: refs/tags/v5.10.8-rt23-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 312a2a7d8a4348ab7c5727b01474dc0f363a7569
-  - ref: refs/tags/v5.10.8-rt24
-    old: 0000000000000000000000000000000000000000
-    new: 1da5a0f054fd226c338fcc8b8fe9af11e53942b6
-  - ref: refs/tags/v5.10.8-rt24-patches
-    old: 0000000000000000000000000000000000000000
-    new: 1166889242c3dd57b3ad2494fee2888ac7c30954
-  - ref: refs/tags/v5.10.8-rt24-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 57a9dbb48fd78e95ddbbc586bc7d7c10beb89e76
+  - ref: refs/heads/master
+    old: 66f9e7ac1ce4c4b6b4646c627908e91aa2b7d1cf
+    new: 052bd346050bf456ef6cf4982f4a10ac4976776c
+    log: |
+         052bd346050bf456ef6cf4982f4a10ac4976776c 4.4-stable patches
+         
+
+--===============1576435793781161174==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611079890 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1611079889-c1adba312f8cfb1fedf40756c1a45a4eb50ff116
+
+66f9e7ac1ce4c4b6b4646c627908e91aa2b7d1cf 052bd346050bf456ef6cf4982f4a10ac4976776c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAHINIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2V0P/3bI89JdpKfpi4/0Yreq
+JsH7Wq3DmNBbT0yMqA6BDKtvOxFt5C26+1xo7llLXg4DIf7a0jfQ+N6el6iI5LdS
+ZMH1RPXlxoAv0ze1RbZLs4SVsQromoyxksCzB5o+2CQTOYCKvvD7SCeRVAF1k857
+sePRX8UGBbSBMkM4ABMXbw58uAiABzLJugfu/Td+bZnYyHxyMi1yi/q2OOaIQhX9
+TP7K+fN4DpovHcYVk76912ucJWvz8alc8BJmcLadGgzK029F7+CS3ofVaFhKAXS3
++UjmwU4iMQc8ZcjKKS6ltRq/xhquLEXIBJxVfYU13I/3pKwA8V9Rpy/jMphOiioP
+aKN/A+IzTMhHt9JxJYUanRa0tplN7GCNEKgq65t/fqxG4HZMuOrLNnSjj0hOL9Vi
+s84AWyU7YZnony8x8f+C7Z0jN7eNE730hp+zhhty2J1jzP2DMAf77t4ZZK/TrP+x
+u0yXSPCA4QTMqrW9l+XIjuBQrkLrNQOGKMb+juiHzKFeiYik7P0j1o+MC+tT+Gxb
+3y13ErsL0wWYZRzS/OGhSzk4GSIm+GM3d0NlNyjgZk6sSrYWtmvbXzwu3HRGJ+L4
+wnF+0EvHC6P5vpDc1VfPAcYRuzI5/DH/hEWpWAI5oV7OHlpUrJ86Cx5HHj/pcv7S
+gM/zpLuQk+sYTOUFe2lPxIqC
+=j6QT
+-----END PGP SIGNATURE-----
+
+--===============1576435793781161174==--
