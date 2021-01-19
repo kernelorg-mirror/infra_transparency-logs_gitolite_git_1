@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 19 Jan 2021 10:07:41 -0000
-Message-Id: <161105086182.16755.7464321176623175902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Tue, 19 Jan 2021 10:24:37 -0000
+Message-Id: <161105187718.27921.6464069543293785925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/x86/entry
-    old: bde718b7e154afc99e1956b18a848401ce8e1f8e
-    new: 0bab9cb2d980d7c075cffb9216155f7835237f98
+  - ref: refs/heads/master
+    old: fb39b0abe35135c35ccb637dad1476ba7ce5d07e
+    new: 745b56b065618aaee7c2ab4ca3c85e2cdbebc1d6
     log: |
-         5e6dca82bcaa49348f9e5fcb48df4881f6d6c4ae x86/entry: Emit a symbol for register restoring thunk
-         0bab9cb2d980d7c075cffb9216155f7835237f98 x86/entry: Remove put_ret_addr_in_rdi THUNK macro argument
+         745b56b065618aaee7c2ab4ca3c85e2cdbebc1d6 x86/sgx: Fix the return type of sgx_init()
          
