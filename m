@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1918832554621437515=="
+Content-Type: multipart/mixed; boundary="===============8696202588833050603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 19 Jan 2021 07:14:49 -0000
-Message-Id: <161104048959.20690.7024065284266980022@gitolite.kernel.org>
+Date: Tue, 19 Jan 2021 07:15:02 -0000
+Message-Id: <161104050277.21635.16794817523939539896@gitolite.kernel.org>
 
---===============1918832554621437515==
+--===============8696202588833050603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: b360439c99c53a15c40953d3d09e735ae93542d2
     new: a518bfa05b6fbf8fe4f174b712b71e14aa50af6f
     log: revlist-b360439c99c5-a518bfa05b6f.txt
-  - ref: refs/tags/v5.11-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 7341df6992e7840498cff6ad21380aa7dd97870b
 
---===============1918832554621437515==
+--===============8696202588833050603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -339,4 +336,4 @@ fff37f10323d952168ee196553cfc654da0f4004 Merge branch 'linus'
 45ef057f18e1473e2c62cf91376375876423e3b6 Merge branch 'x86/misc'
 a518bfa05b6fbf8fe4f174b712b71e14aa50af6f Merge branch 'objtool/core'
 
---===============1918832554621437515==--
+--===============8696202588833050603==--
