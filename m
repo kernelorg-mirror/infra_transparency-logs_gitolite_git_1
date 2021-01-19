@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 19 Jan 2021 04:40:06 -0000
-Message-Id: <161103120658.20541.12963300287068324501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/arch
+Date: Tue, 19 Jan 2021 05:32:19 -0000
+Message-Id: <161103433994.20970.18363071855083386737@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/arch
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: b889c7c8c02ebb0b724e1b3998d7924122e49701
-    new: 9d9b1ee0b2d1c9e02b2338c4a4b0a062d2d3edac
+    old: 812403cd5e81ca0329de52f42b4a3ca32ea71422
+    new: fb40304d610f04cc8bb48a1cab02c16774a925f8
     log: |
-         9d9b1ee0b2d1c9e02b2338c4a4b0a062d2d3edac tcp: fix TCP_USER_TIMEOUT with zero window
+         fb40304d610f04cc8bb48a1cab02c16774a925f8 Initial commit
          
