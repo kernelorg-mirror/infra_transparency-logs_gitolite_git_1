@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Tue, 19 Jan 2021 23:34:13 -0000
-Message-Id: <161109925346.25128.6245247234762865259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Tue, 19 Jan 2021 23:37:58 -0000
+Message-Id: <161109947852.27467.12144971475679284157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/master
-    old: 3c8c4764725cccdf9f25dc1b87b9080d8b4f5199
-    new: e7a4576d8792fe7e84facef498abbc7dd70e8730
+  - ref: refs/heads/mediatek-drm-next
+    old: 6c14682c88094c1a52db0fff5dee21eb64eec478
+    new: e3de3ac80704f68ab9a5afa103c772008ef989cc
     log: |
-         8dd27adb90ae6131a409ecb786ae6cefdb4e5a26 Bibliography update for SIMD and frequency scaling
-         f5c5b689d9b9fe8f14ca954c17069829c76512d9 Bibliography update
-         b6dde2241c84eca8de04498f25692b638879a760 defer/seqlock: Add canonical citations
-         e7a4576d8792fe7e84facef498abbc7dd70e8730 formal: Update Figure 12.4 (refscale.c as test code)
+         46b8b24b926dea07973e10c4c562de985af470c8 drm/mediatek: Remove redundant file including
+         de06f107c20d4406e32020fdc619106e49ab7c06 drm/mediatek: Rename file mtk_drm_ddp to mtk_mutex
+         8caac6f0ee8ce44a5a267350523bc8f3b44ab698 drm/mediatek: Change disp/ddp term to mutex in mtk mutex driver
+         e3de3ac80704f68ab9a5afa103c772008ef989cc drm/mediatek: Automatically search unclaimed mtk mutex in mtk_mutex_get()
          
