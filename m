@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 19 Jan 2021 17:26:05 -0000
-Message-Id: <161107716599.22949.13534543819041925427@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3890534461750886874=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Tue, 19 Jan 2021 17:26:10 -0000
+Message-Id: <161107717053.23026.8736431816340923839@gitolite.kernel.org>
+
+--===============3890534461750886874==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/net-next
-    old: 0c5c2b176dbc6f58e89930154f106a7ee8f382dd
-    new: 60b4bfef8ada61d788932d4a8226ca056dc2fc5c
+  - ref: refs/notes/signatures/tar
+    old: 421f6f1fa57670cee879fa7e85fe0e81a09fc04a
+    new: 38752cd9800de5dd462fb6966c7e5098a59856ee
     log: |
-         2654bd5b4a18843892b6651ea306777273764c01 Merge commit 'refs/changes/78/355678/27' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-         9a6897d899363b2e5e96a4888d6de2d4776f8596 net/mlx5e: rep: Improve reg_cX conditions
-         17122e57b36d1d62780ceddc2dd044bd0d07c00c Merge branch 'net-next-mlx4' into net-next
-         51d470a3f8eeb06e5b3bd83bc79bce9968ed5deb Merge branch 'mlx5-vdpa' into net-next
-         c3d4de8db6089c494c3f14bc438d41006b03f2cc Merge branch 'net-next-mlx5' into net-next
-         235a1e5d045a2bb9afed56cd098e763cbfc44a14 Merge branch 'net-mlx4' into net-next
-         8b8669d149205b3661ac906dad4d9b51b039c131 Merge branch 'net-mlx5' into net-next
-         60b4bfef8ada61d788932d4a8226ca056dc2fc5c Merge branch 'net-next-test' into net-next
+         38752cd9800de5dd462fb6966c7e5098a59856ee Notes added by 'git notes add'
          
+
+--===============3890534461750886874==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611077169 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1611077168-19255ea398eb7f0d654dc611faf18376c8939240
+
+421f6f1fa57670cee879fa7e85fe0e81a09fc04a 38752cd9800de5dd462fb6966c7e5098a59856ee refs/notes/signatures/tar
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAHFjEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fEgP/0vxxx+hENm13M/HCILS
+fhziCsrEGEjPD0LhVzyODlNsgtUkYP9OYYttZEhud/PrtSPSo6AEXDoCliEkkWIY
+wej2TzIMPHLpaoVsTPJDQjQMUwoGRUOkCf4VRrtFAqUgV5wS316MIAhbKvXCyP/5
+dUDwJE7PqVwPHglpa+divshEplOANgNNHxj+foMsVnFVB2nUVNW2IwOwFARGLDXq
+9UhXYbNVpE30Md5F4WpJenof+JhCBBZYCtwUgHnn+B3OB86wsPFH60YJ3wujsFOh
+5sfXE1jlkNph8HQqJC/H9RQK/bMxBWdOBv1zb+nFetJL6HgP/uo/jgkGCjW51Zaq
+iiNhYF4Ka4L5/6UL2rTMXVX+Y5dAy9Gh69PVtnm/sMSJRtJ2+0O55mLp7U2Ykg6+
+XOV8PRMiI8x7WbcWuuhBt07Auowz63fTdOvPzYz29KYh3kxoR8LaX8rCDpNS5+zR
+F6xFZ/37VUxiuaS/hiH/A7VYsMsJd8Bk0egFbplZ3UYYC8vyrgGKYOpwdpsCSpUq
+WVeMvcokYQpiwApI6wYji5tQYA9pBHfYFcYdCuUUdmsoXopwfKwgowFJz8CCn2Mp
+VGPMhEUUole64gptIG7n785sz1zYlD0G6KTQIaCQIpknpycHCek0B2P2JqnIyxSt
+zDic34zRP6pRuq/LJhHNgfKA
+=TdkV
+-----END PGP SIGNATURE-----
+
+--===============3890534461750886874==--
