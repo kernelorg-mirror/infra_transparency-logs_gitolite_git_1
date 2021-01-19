@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 19 Jan 2021 10:58:32 -0000
-Message-Id: <161105391231.16880.12213010026771098675@gitolite.kernel.org>
+Date: Tue, 19 Jan 2021 11:09:55 -0000
+Message-Id: <161105459599.22820.18277311671703831982@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
   - ref: refs/heads/gpio/for-current
-    old: ef38237444ce952daf041ed2885918f9f7d1e997
-    new: e73b0101ae5124bf7cd3fb5d250302ad2f16a416
+    old: e73b0101ae5124bf7cd3fb5d250302ad2f16a416
+    new: 18eedf2b5ec7c8ce2bb23d9148cfd63949207414
     log: |
-         e73b0101ae5124bf7cd3fb5d250302ad2f16a416 gpio: mvebu: fix pwm .get_state period calculation
+         18eedf2b5ec7c8ce2bb23d9148cfd63949207414 gpio: sifive: select IRQ_DOMAIN_HIERARCHY rather than depend on it
          
