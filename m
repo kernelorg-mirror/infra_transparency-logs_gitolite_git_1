@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 19 Jan 2021 15:28:53 -0000
-Message-Id: <161107013347.359.16162868932792261807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Tue, 19 Jan 2021 15:48:33 -0000
+Message-Id: <161107131343.11420.15330425517588310296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 8399fe089b61a17926033d1659b21f7096c2c73f
-    new: 734678205af89c2022fd1ad86fddd7c07d188f20
+    old: 82391d6d8beeaab8b0ca028772fec2d6a6fb3e32
+    new: 8c8db9f8c5a81d3746d863bbcbcffd353a41152c
     log: |
-         734678205af89c2022fd1ad86fddd7c07d188f20 tests: improve u64 use in ipcs test
+         8c8db9f8c5a81d3746d863bbcbcffd353a41152c cipher: fix build on uclibc
          
