@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7398566313491734605=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 19 Jan 2021 13:11:13 -0000
-Message-Id: <161106187307.6278.595702213804382642@gitolite.kernel.org>
-
---===============7398566313491734605==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Tue, 19 Jan 2021 13:42:41 -0000
+Message-Id: <161106376112.25242.12678165427491183152@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/usb-linus
-    old: da7e0c3c2909a3d9bf8acfe1db3cb213bd7febfb
-    new: ef02684c4e67d8c35ac83083564135bc7b1d3445
+  - ref: refs/heads/next
+    old: b01e546d4d41e84b2c35ed1de8a33b28df928ad6
+    new: f2134ac9905b79402f26fb75e0cceb81025172fc
     log: |
-         ef02684c4e67d8c35ac83083564135bc7b1d3445 usb: bdc: Make bdc pci driver depend on BROKEN
+         2d9c5c1991f0eea84ad925b639abf0084b53004c mmc: sdhci-of-arasan: use of_device_get_match_data()
+         3e0435307d9144257ec843846eb050892e287bec mmc: sdhci-of-arasan: Convert to use np instead of pdev->dev.of_node
+         bbbfffd68c7dae75825416a6ffe71b43a6bd8be1 mmc: sdhci-of-arasan: Add structure device pointer in probe function
+         3efb54d2b90f66779840447c0053a98763926cdc mmc: sdhci-of-arasan: Use dev_err_probe() to avoid spamming logs
+         7876cf513cf32bfaea5100321d048054dd945871 mmc: sdhci-pci-gli: Finetune HS400 RX delay for GL9763E
+         44cfba75a81587efdabc5fdde2aa390e19f7d529 mmc: core: convert comma to semicolon
+         dd98340fbd45993930fdb1cf32d1e273f16362ae mmc: omap_hsmmc: Simplify bool comparison and conversion
+         f2134ac9905b79402f26fb75e0cceb81025172fc dt-bindings: mmc: sdhci-am654: fix compatible for j7200
          
-
---===============7398566313491734605==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611061864 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1611061864-5b1ea29eea4d3ae38e44fff6bd08f3ca21e063e3
-
-da7e0c3c2909a3d9bf8acfe1db3cb213bd7febfb ef02684c4e67d8c35ac83083564135bc7b1d3445 refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAG2mgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Xx4P/0r13Zh7KTLr5kOoyfwP
-257DfAkgxrDoJOj0ufbYay8hS3tJWS1m2Y8EKFg98zRo3wIWta7NIsFcgRerEdrH
-nENtmpDO3NpqPrTIfqh+S63Ss9zaokqb4gJnX6hkO566VdhwtxHUaOODJ2B99Tig
-eyGRXvy26qCFD1/xJKfQ9KrGnebnXYdjxH7QjzlVwd0HmtqLaCdkwFyDm1ynJvNa
-H3d99sYAOoyUgnnq+JnVMazUZXKPuJ323986sOkxvDyH108bqubNsEqQbc4/SxVM
-0kKC5kmPHh2EatR1PiVpYBKWJ6QktLtc/tHYsQ5Ji4LiZptzJbt7awTAPDirFoy2
-fD8cn0lQcAU3WZBCtctKZyS3HBBOyZtAotfNc5Igkge6tc5MQSGeDXatT57Ic7JH
-dFz81hIF/L/oiGoU6i1zp0AxbTAGSvTLfSRBL5cZI5898IP1fQecxDiZxwsGi8YY
-3CFUOqo92AAvPJJHT7w/KSpqLeg6/3SFJM+6piU130sg7y50odwXm26Uzl6rwi0Y
-mbusBaTu/NjIANfFqTxpK5kgjL0WUDbN2PiFcuX+QK/sburwXTWXKg4agqEheGZ7
-DRoPCeQ44U5ZHsOZXwtQ7GwpLR7gp2Qw3dkAWhAPcYoQxRWKAP1XLPLMSOGEap6g
-vgzB66Yo+uTDjn6/D0tlfvdh
-=A8cE
------END PGP SIGNATURE-----
-
---===============7398566313491734605==--
