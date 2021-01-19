@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Tue, 19 Jan 2021 15:56:24 -0000
-Message-Id: <161107178489.18874.2992629059617131953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Tue, 19 Jan 2021 16:03:18 -0000
+Message-Id: <161107219801.22272.4867872796608255275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/heads/for-5.12
-    old: 93e86295f5e9238779096fa599c3804a08e25bd1
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 7b3840c5ce0018ae2e1a8c5b24d406884938588c
+    new: bae8ebe907a119cdcde156a3852b1b65e1fb35bb
+    log: |
+         bae8ebe907a119cdcde156a3852b1b65e1fb35bb simutil: add validate_utf8_tlv
+         
