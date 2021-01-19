@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 19 Jan 2021 13:59:31 -0000
-Message-Id: <161106477165.4261.12146918170571440847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Tue, 19 Jan 2021 14:32:51 -0000
+Message-Id: <161106677101.28954.10221525279982977807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: c52d16098c5fbc12a4edd01ba62e5c4cd5d1a336
-    new: 8399fe089b61a17926033d1659b21f7096c2c73f
+  - ref: refs/heads/habanalabs-next
+    old: 05dc7625aa2cbd4b3abed046d400ea3a808475dc
+    new: c75448e9e4422f9895c2a02bfdd406648e77ef5d
     log: |
-         8399fe089b61a17926033d1659b21f7096c2c73f lsblk: fix filesystem array allocation
+         62f6cb283c421c87e13f041a4f1fc9776dea6811 habanalabs: always try to use the hint address
+         6511ffca8b0315433ce29a35f4749684bbeaad59 habanalabs: add user available interrupt to hw_ip
+         c75448e9e4422f9895c2a02bfdd406648e77ef5d habanalabs: fix MMU debugfs related nodes
          
