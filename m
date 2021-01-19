@@ -1,46 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============0410430549309317112=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/grokmirror/grokmirror
-Date: Tue, 19 Jan 2021 23:00:45 -0000
-Message-Id: <161109724502.5486.3858427656613984481@gitolite.kernel.org>
-
---===============0410430549309317112==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 19 Jan 2021 23:31:39 -0000
+Message-Id: <161109909912.24339.12107087598895430108@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/grokmirror/grokmirror
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 27eb0f75196d531f23eeab86b32b4972ae4c1326
-    new: fb7c636c42992415f718b699c8d4dd92d09ded4e
+  - ref: refs/heads/master
+    old: 7eab14de73a8028f770e703962c5437a2b0dda82
+    new: 9f23de418f7e999cc48be915c514db9c54166c0e
     log: |
-         fb7c636c42992415f718b699c8d4dd92d09ded4e Notes added by 'git notes add'
+         fa82117010430aff2ce86400f7328f55a31b48a6 net: add inline function skb_csum_is_sctp
+         8bcf02035bd5ab5f22110d16a1aaee1794aa8d3c net: igb: use skb_csum_is_sctp instead of protocol check
+         d2de44443cafa16f6c8c6e724632d57097991f55 net: igbvf: use skb_csum_is_sctp instead of protocol check
+         609d29a9d2429a840a2f1f44e77b71d58e3e9a33 net: igc: use skb_csum_is_sctp instead of protocol check
+         f8c4b01d3a680de2144dd274df03ffaf69cfb881 net: ixgbe: use skb_csum_is_sctp instead of protocol check
+         fc186d0a4ef8cc493a04895e620c7d55052a9d93 net: ixgbevf: use skb_csum_is_sctp instead of protocol check
+         9f23de418f7e999cc48be915c514db9c54166c0e Merge branch 'net-support-sctp-crc-csum-offload-for-tunneling-packets-in-some-drivers'
          
-
---===============0410430549309317112==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1611097244 -0500
-pushee gitolite.kernel.org:/pub/scm/utils/grokmirror/grokmirror.git
-nonce 1611097244-ab9cc811b3b2db6bc77ff3619b16319eb89573bc
-
-27eb0f75196d531f23eeab86b32b4972ae4c1326 fb7c636c42992415f718b699c8d4dd92d09ded4e refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYAdknAAKCRC2xBzjVmSZ
-bHWZAP0XZ/ghXhgivxWUszN2/nDm1sQhZcisVO4MptKNEvNE3wEA76yICeTM+dVd
-iWA7Ljb9rV988i3HO9ttgYaxJyoivgk=
-=jgrh
------END PGP SIGNATURE-----
-
---===============0410430549309317112==--
