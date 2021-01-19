@@ -1,98 +1,102 @@
-Content-Type: multipart/mixed; boundary="===============2941908050127871938=="
+Content-Type: multipart/mixed; boundary="===============3663077835029465852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 19 Jan 2021 18:21:10 -0000
-Message-Id: <161108047097.7696.8896024687323677724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 19 Jan 2021 18:32:48 -0000
+Message-Id: <161108116817.14678.137235983194293096@gitolite.kernel.org>
 
---===============2941908050127871938==
+--===============3663077835029465852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: a518bfa05b6fbf8fe4f174b712b71e14aa50af6f
-    new: 7481761045b220fa10fe63023f1ea6b5e8e3eea1
-    log: revlist-a518bfa05b6f-7481761045b2.txt
+  - ref: refs/heads/testing
+    old: 1617ed2163f87d3538712db186b403bb7971cae7
+    new: a98de8c831cc0097612b1fb2887a63d6bbaaa731
+    log: revlist-1617ed2163f8-a98de8c831cc.txt
 
---===============2941908050127871938==
+--===============3663077835029465852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a518bfa05b6f-7481761045b2.txt
+Content-Disposition: attachment; filename=revlist-1617ed2163f8-a98de8c831cc.txt
 
-9c7d9017a49fb8516c13b7bff59b7da2abed23e1 x86: PM: Register syscore_ops for scale invariance
-337a385fe8f18d257ac57d7307a19d1314b9c074 sched/core: Print out straggler tasks in sched_cpu_dying()
-4903aa178f2ee4186e249e406809285a2822959b workqueue: Use cpu_possible_mask instead of cpu_active_mask to break affinity
-7879e07466e7fb675d13c1456f9556a320fe904d sched: Don't run cpu-online with balance_push() enabled
-9c25eccb73e36fc9ca7e72e442e1db37e7633228 kthread: Extract KTHREAD_IS_PER_CPU
-5d34d1006aab73091c24a479ce42f215d67b66a8 workqueue: Tag bound workers with KTHREAD_IS_PER_CPU
-7ba47fda065aa27f52bcb6638cf6ef9f2f5e13b9 workqueue: Restrict affinity change to rescuer
-feaa808c049ec7728ff604f3c257afbde9dc240c sched: Fix CPU hotplug / tighten is_per_cpu_kthread()
-d64b87b5afb856a49782f677734227e23d78def0 sched: Relax the set_cpus_allowed_ptr() semantics
-84897bc5a39d8e52d695e5e6178f2130a7b3cd2a sched: Fix hotplug vs ttwu race
-eee4fc53728ef99e3c40ca068a2548e492dfa4b6 sched/eas: Don't update misfit status if the task is pinned
-8e0865b96fa48758be49a08268ad21ad0086205c locking: Add Reviewers
-e68d34c47bdf6c2968b600f3772f374102851df5 jump_label: Do not profile branch annotations
-ee3c8210edaa1b7e355b7f6f5f7819ce88483cfb lockdep: report broken irq restoration
-0399ea2b64e1b51a71c9e0195b2cbe3f74183df3 Merge branch 'perf/core'
-7054a65bc9dab38704ddc5ea97c907457ee073fe perf/intel: Remove Perfmon-v4 counter_freezing support
-326eb55e5ac6e818ef34693ebe6a9d7c53bc9b7e mm: Update ptep_get_lockless()'s comment
-99a5bb9b5a30b216fa9d152bd6833e4c6b758717 x86/mm/pae: Make pmd_t similar to pte_t
-4f554ed952bb61138b86beb952cdb509f3332032 sh/mm: Make pmd_t similar to pte_t
-cc13161bc73b7de38b125085f83233a82006e0e0 mm: Fix pmd_read_atomic()
-eea07825cdc055ba9de558bd62250a18f7415920 mm: Rename pmd_read_atomic()
-70558563e27140bb2549a071207e51e62cc10e66 mm/gup: Fix the lockless walkers
-5f64f8b2388e6035735334238537b0b872c51b8c x86/mm/pae: Don't (ab)use atomic64
-feff24305a0251745e80a88742164f075fa78e57 x86/mm/pae: Use WRITE_ONCE()
-b47ac44f1003062aa101660be6a3d407cc92473c x86/mm/pae: Be consistent with pXXp_get_and_clear()
-b6ee842a9e5d12e81e2612826e3b0fac6d6bc1aa Merge branch 'tip/sched/core'
-f2c0e205428e7351de6416917510d15cddc6b3e5 irq_work: Unconditionally build on SMP
-2c28f9f42b5cf00a4dc44755717d280a05f3a3db irq_work: Provide irq_work_queue_remote()
-621ac2083cf36eb7cf47d5d2256ce1ff7ba7789f rcu/tree: Use irq_work_queue_remote()
-ab838cf03dc01323793510193e0311e1c9c7b513 asm-generic/tlb: Fix MMU_GATHER_TABLE_FREE
-2e3abf2111771864530a96b7c609b6efde5b98ab sh/tlb: Fix __pmd_free_tlb()
-28dd0aa306903e8d50adeb05cdcde37ba1800e3d sparc32/tlb: Fix __p*_free_tlb()
-52cd457b9e6546263f9ef9fa0f0cbef371393bf6 parisc/tlb: Fix __p*_free_tlb()
-32deaf2bcf0681006dee068b3a851d70e14af6f2 mips/tlb: Fix __p*_free_tlb()
-f035e9c746cc8e1c2995a6bedeec96ac97297d9c ia64/tlb: Fix __p*_free_tlb()
-4682ab9f0feaed849ca98b3f5594638a7fb659ee alpha/tlb: Fix __p*_free_tlb()
-173483e5142b224f6d615b541bb9a7a458b68b01 nds32/tlb: Fix __p*_free_tlb()
-68769494bf7f8f8268d562980881e4aca7649c4e riscv/tlb: Fix __p*_free_tlb()
-174a3f694ab2fe5b1761d88de7f8807a8d265e95 m68k/tlb: Fix __p*_free_tlb()
-d410ef6243d26651eac9dbb5671dfbb21f771ff4 rbtree: Add generic add and find helpers
-00028726dc2b6ea2be43434a8f8d1bf5d8aadf03 rbtree, sched/fair: Use rb_add_cached()
-07694e32d5fc918c0cda1c780e2fd96fb904ff30 rbtree, sched/deadline: Use rb_add_cached()
-780015ae015c70a1f8fbd2f59f62d7b14bd75fce rbtree, perf: Use new rbtree helpers
-cf8fd797aa2b3577515eaa27b8a1013143fc4e2a rbtree, uprobes: Use rbtree helpers
-14e0f560cc077960d02ae5521b740fcfc6ac8b5e rbtree, rtmutex: Use rb_add_cached()
-149574a1da3429032a917c0d4d2010f2d0ccfa1a rbtree, timerqueue: Use rb_add_cached()
-42e2fbd4f0bef8d88da8c23f35b200eb025796a3 module: Expose load_info to arch module loader code
-7bfe223ce0329558b60862846f4ff062aba53796 module: Convert module_finalize() to load_info
-6a16b8609466da37d15620a1ecc4559638c6d4d3 x86,module: Detect VMX vs SLD conflicts
-9cf25182df26857adb9d5ba44f1eb259486bb7e6 x86,module: Detect CRn and DRn manipulation
-8e18e272b024b86903dcfdc85cee125697ebf789 x86,module: Disallow many CPL0 instructions
-f7a136495d4a545840047e12d3452bd2fc7de8be Merge branch 'tip/objtool/core'
-f7284f401eb0d9b08b14fdeb8c3958df24ae44e1 x86: insn: Add insn_is_fpu()
-b9c64d5bec18c571dc3baf40d2eb546776d7dda6 objtool,x86: Add FPU context validation
-e10cae3058d7f41abc32a0c3f8e0869aa55ccf43 amdgpu/dc: Annotate __fpu
-a8ff88ba392d5280db0422a93e0ba068078494b6 locking/qspinlock: Rename mcs lock/unlock macros and make them more generic
-bd8946f4b0569a253f2852a5a7073bf5dfd5f6de locking/qspinlock: Refactor the qspinlock slow path
-30186b757aaf1e1b4590ca07eacd8cfef70d6afe locking/qspinlock: Introduce CNA into the slow path of qspinlock
-df34fd59b934cb471f7de80abccf464806f0c68c Merge branch 'sched/urgent'
-37db2e58b0bae54e05cf5c1ab8e8d2a26f5e2a7b Merge branch 'sched/core'
-cbe86528ecea5486c26c8e9a717a73c06c47b4f2 Merge branch 'locking/core'
-b7c2d573fb025beddc87cadf4c4566700efde889 Merge branch 'perf/next'
-31de708f0198500586a3eaf4f6a28d4d3fca7487 Merge branch 'sched/cleanup'
-8658d70e9af08209b3b093d3de612256b1191404 Merge branch 'mm/tlb'
-601bd12cd2a250969115e0f3564165a831432c8b Merge branch 'sched/rbtree'
-0e72c4fcc07c8ca0127cc2199bfef3c49a38883a Merge branch 'x86/module'
-792bb9642ba81bc52f6e8755b6d1f1cce447bafb Merge branch 'x86/fpu'
-7481761045b220fa10fe63023f1ea6b5e8e3eea1 Merge branch 'locking/wip-cna'
+a0a6df9afcaf439a6b4c88a3b522e3d05fdef46f umount(2): move the flag validity checks first
+1d53864c3617f5235f891ca0fbe9347c4cd35d46 scsi: ufs: Fix possible power drain during system suspend
+21acf4601cc63cf564c6fc1a74d81b191313c929 scsi: ufs: Relax the condition of UFSHCI_QUIRK_SKIP_MANUAL_WB_FLUSH_CTRL
+6948a96a0d69b7e8203758f44849ce4ab06ff788 scsi: ufs: Relocate flush of exceptional event
+35fc4cd34426c242ab015ef280853b7bff101f48 scsi: ufs: Correct the LUN used in eh_device_reset_handler() callback
+d50c7986fbf0e2167279e110a2ed5bd8e811c660 scsi: qedi: Correct max length of CHAP secret
+39718fe7adb1a79f78be23f058299bc038cbe161 scsi: mpt3sas: Fix spelling mistake in Kconfig "compatiblity" -> "compatibility"
+3b01d7ea4dae907d34fa0eeb3f17bacd714c6d0c scsi: scsi_debug: Fix memleak in scsi_debug_init()
+e5cc9002caafacbaa8dab878d17a313192c3b03b scsi: sd: Suppress spurious errors when WRITE SAME is being disabled
+be2553358cd40c0db11d1aa96f819c07413b2aae scsi: sd: Remove obsolete variable in sd_remove()
+cf7b2ae4d70432fa94ebba3fbaab825481ae7189 riscv: return -ENOSYS for syscall -1
+11f4c2e940e2f317c9d8fb5a79702f2a4a02ff98 riscv: Fix kernel time_init()
+1f1496a923b6ba16679074fe77100e1b53cdb880 riscv: Fix sifive serial driver
+643437b996bac9267785e0bd528332e2d5811067 riscv: Enable interrupts during syscalls with M-Mode
+3c02e04fd4f57130e4fa75fab6f528f7a52db9b5 crypto: xor - Fix divide error in do_xor_speed()
+382811940303f7cd01d0f3dcdf432dfd89c5a98e crypto: omap-sham - Fix link error without crypto-engine
+0ea02c73775277001c651ad4a0e83781a9acf406 riscv: Drop a duplicated PAGE_KERNEL_EXEC
+d434ab6db524ab1efd0afad4ffa1ee65ca6ac097 io_uring: drop mm and files after task_work_run
+621fadc22365f3cf307bcd9048e3372e9ee9cdcc io_uring: don't take files/mm for a dead task
+2225a8dda263edc35a0e8b858fe2945cf6240fde powerpc: Fix alignment bug within the init sections
+7cd1af107a92eb63b93a96dc07406dcbc5269436 riscv: Trace irq on only interrupt is enabled
+80709af7325d179b433817f421c85449f2454046 riscv: cacheinfo: Fix using smp_processor_id() in preemptible
+0aa2ec8a475fb505fd98d93bbcf4e03beeeebcb6 riscv: Fixup CONFIG_GENERIC_TIME_VSYSCALL
+b4411616c26f26c4017b8fa4d3538b1a02028733 io_uring: fix null-deref in io_disable_sqo_submit
+06585c497b55045ec21aa8128e340f6a6587351c io_uring: do sqo disable on install_fd error
+c25a053e15778f6b4d6553708673736e27a6c2cf riscv: Fix KASAN memory mapping.
+41131a5e54ae7ba5a2bb8d7b30d1818b3f5b13d2 powerpc/vdso: Fix clock_gettime_fallback for vdso32
+be969b7cfbcfa8a835a528f1dc467f0975c6d883 dts: phy: fix missing mdio device and probe failure of vsc8541-01 device
+a0fa9d727043da2238432471e85de0bdb8a8df65 dts: phy: add GPIO number and active state used for phy reset
+0983834a83931606a647c275e5d4165ce4e7b49f riscv: defconfig: enable gpio support for HiFive Unleashed
+7a2da5d7960a64ee923fe3e31f01a1101052c66f spi: fsl: Fix driver breakage when SPI_CS_HIGH is not set in spi->mode
+7a84665619bb5da8c8b6517157875a1fd7632014 nvmet-rdma: Fix NULL deref when setting pi_enable and traddr INADDR_ANY
+ada831772188192243f9ea437c46e37e97a5975d nvme-tcp: Fix warning with CONFIG_DEBUG_PREEMPT
+ca1ff67d0fb14f39cf0cc5102b1fbcc3b14f6fb9 nvme-tcp: fix possible data corruption with bio merges
+5ab25a32cd90ce561ac28b9302766e565d61304c nvme: don't intialize hwmon for discovery controllers
+b4f664252f51e119e9403ef84b6e9ff36d119510 Merge tag 'nvme-5.11-2021-01-14' of git://git.infradead.org/nvme into block-5.11
+dec822771b0174a01e72d7641d08e44461b6a82f riscv: stacktrace: Move register keyword to beginning of declaration
+4d163ad79b155c71bf30366dc38f8d2502f78844 spi: cadence: cache reference clock rate during probe
+f010505b78a4fa8d5b6480752566e7313fb5ca6e io_uring: flush timeouts that should already have expired
+301f0203e04293c13372c032198665bd75adf81b perf bpf examples: Fix bpf.h header include directive in 5sec.c example
+38c53947a7dcb6d295769830c9085b0409921ec9 tools headers UAPI: Sync kvm.h headers with the kernel sources
+addbdff24293ef772a1b8e5d127b570e70f08cdc tools headers: Syncronize linux/build_bug.h with the kernel sources
+a042a82ddbb3434f523c0671f5301d1fe796b4eb perf test: Fix shadow stat test for non-bash shells
+be82fddca81eefd1edbd9b290dfcb2177e24785b libperf tests: Avoid uninitialized variable warning
+bba2ea17ef553aea0df80cb64399fe2f70f225dd libperf tests: If a test fails return non-zero
+66dd86b2a2bee129c70f7ff054d3a6a2e5f8eb20 libperf tests: Fail when failing to get a tracepoint id
+3ff1e7180abc7f6db413933c110df69157216715 perf stat: Introduce struct runtime_stat_data
+a1bf23052bdfe30ec3c693cf32feb2d79114ac16 perf stat: Take cgroups into account for shadow stats
+5501e9229a80d95a1ea68609f44c447a75d23ed5 perf intel-pt: Fix 'CPU too large' error
+648b054a4647cd62e13ba79f398b8b97a7c82b19 perf inject: Correct event attribute sizes
+a8d13dbccb137c46fead2ec1a4f1fbc8cfc9ea91 io_uring: ensure finish_wait() is always called in __io_uring_task_cancel()
+a959a9782fa87669feeed095ced5d78181a7c02d iov_iter: fix the uaccess area in copy_compat_iovec_from_user
+797f0375dd2ef5cdc68ac23450cbae9a5c67a74e RISC-V: Do not allocate memblock while iterating reserved memblocks
+abb8e86b269604e906a6a4af7a09f04b72dbb862 RISC-V: Set current memblock limit
+e557793799c5a8406afb08aa170509619f7eac36 RISC-V: Fix maximum allowed phsyical memory for RV32
+29a951dfb3c3263c3a0f3bd9f7f2c2cfde4baedb mm: fix clear_refs_write locking
+9348b73c2e1bfea74ccd4a44fb4ccc7276ab9623 mm: don't play games with pinned pages in clear_page_refs
+acda701bf1e8233f982164c8ddbedc055427212d Merge tag 'riscv-for-linus-5.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+11c0239ae26450709d37e0d7f658aa0875047229 Merge tag 'io_uring-5.11-2021-01-16' of git://git.kernel.dk/linux-block
+54c6247d06f110d2129f9ef75e5eb02d39aec316 Merge tag 'block-5.11-2021-01-16' of git://git.kernel.dk/linux-block
+d36a1dd9f77ae1e72da48f4123ed35627848507d dump_common_audit_data(): fix racy accesses to ->d_name
+0da0a8a0a0e1845f495431c3d8d733d2bbf9e9e5 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+32c2bc8f2d855d4415c9a05b727e34649397bfbe ia64: fix build failure caused by memory model changes
+feb889fb40fafc6933339cf1cca8f770126819fb mm: don't put pinned pages into the swap cache
+a527a2b32d20a2bd8070f49e98cb1a89b0c98bb3 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+a1339d6355ac42e1bf4fcdfce8bfce61172f8891 Merge tag 'powerpc-5.11-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+e2da783614bb8930aa89753d3c3cd53d5604665d Merge tag 'perf-tools-fixes-2021-01-17' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+19c329f6808995b142b3966301f217c831e7cf31 Linux 5.11-rc4
+fd3958eac387593d02e4d4287658ba04bcdb235a Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+b4459f4413c890a35dfcecaff29d37ac65607d76 Merge tag 'fixes-2021-01-18' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+1e2a199f6ccdc15cf111d68d212e2fd4ce65682e Merge tag 'spi-fix-v5.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+a98de8c831cc0097612b1fb2887a63d6bbaaa731 Merge remote-tracking branches 'cryptodev/master', 'f2fs/dev', 'jack/for_next', 'vfs/work.misc', 'ebiggers/fsverity-pending', 'ebiggers/mmc-pending', 'ebiggers/random-pending' and 'ebiggers/xfs-pending' into testing
 
---===============2941908050127871938==--
+--===============3663077835029465852==--
