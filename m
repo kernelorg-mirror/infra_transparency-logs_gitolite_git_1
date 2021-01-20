@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dash/dash
-Date: Wed, 20 Jan 2021 05:21:39 -0000
-Message-Id: <161112009950.28228.5721837547329960551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 20 Jan 2021 05:34:18 -0000
+Message-Id: <161112085814.2230.1968346283116748406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dash/dash
-user: herbert
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 41d875fa0941b4c827c6b598df2aa9ffb868183f
-    new: 802ebd48c8febb1c1b4ce4e438518bf64677c078
+  - ref: refs/heads/kbuild
+    old: da60061a2cb71a38321ad1ffd1ebde66261571e8
+    new: 537896fabed11f8d9788886d1aacdb977213c7b3
     log: |
-         9abaa470e60d6ac90650b0337db5d867c7f08864 jobs: Block signals during tcsetpgrp
-         802ebd48c8febb1c1b4ce4e438518bf64677c078 jobs: Always reset SIGINT/SIGQUIT handlers
+         537896fabed11f8d9788886d1aacdb977213c7b3 kbuild: give the SUBLEVEL more room in KERNEL_VERSION
          
