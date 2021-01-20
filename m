@@ -1,43 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1055519570929473659=="
+Content-Type: multipart/mixed; boundary="===============2682637033983807612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Wed, 20 Jan 2021 11:54:34 -0000
-Message-Id: <161114367418.23189.8372671716101787889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Wed, 20 Jan 2021 11:55:51 -0000
+Message-Id: <161114375136.24923.17571548629164756425@gitolite.kernel.org>
 
---===============1055519570929473659==
+--===============2682637033983807612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/linux-bcache
-user: colyli
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/nvdimm-meta
-    old: a0d54b4f5b219fb31f0776e9f53aa137e78ae431
-    new: d770c3e51e25b3a0ceb5859218da09f725151956
-    log: revlist-a0d54b4f5b21-d770c3e51e25.txt
+  - ref: refs/heads/idmapped_mounts
+    old: 6b69af48e15195c5516a7ed102b08429f12d6946
+    new: f7ae224dc0b8097f7a0599c4d92b4a34c412fba2
+    log: revlist-6b69af48e151-f7ae224dc0b8.txt
 
---===============1055519570929473659==
+--===============2682637033983807612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0d54b4f5b21-d770c3e51e25.txt
+Content-Disposition: attachment; filename=revlist-6b69af48e151-f7ae224dc0b8.txt
 
-faea1f0fd1a09f43ecb6f1e0421f3968219a1d4b bcache: add initial data structures for nvm pages
-5e6f69f8e828b6c147128bcb321862126a99f861 bcache: initialize the nvm pages allocator
-1a4cccf2526d54151d7f5370516ace9049c90eeb bcache: initialization of the buddy
-99be3b967150055898c31e3faeb0e4760ef222e5 bcache: bch_nvm_alloc_pages() of the buddy
-52be40a5200159670a4e171fd6f69fe2e249d0fe bcache: bch_nvm_free_pages() of the buddy
-dc7bb79d6583adfe058c0a7bfaad9ca98baffd41 bcache: get allocated pages from specific owner
-7029b1ac84868a7ff2830db850f5d11f07616c48 bcache: persist owner info when alloc/free pages.
-c7128d4b577b7f87a29da998c461f73d976948e1 bcache: testing module for nvm pages allocator
-11ca329aa5d8560e4b90107daa14799a49bda809 bcache: initialize journal for nvdimm meta device
-33cc299388681f9f392deb855478319f387f8c04 bcache: store journal on nvdimm meta device
-8b5c6523aa31d4c8801df99a3182ad77917c3325 bcache: init journal for nvdimm
-ddb6e83769ae5e4dee4f7d40cef93e690ef874c3 bcache: add register_nvdimm_meta sysfs interface
-d770c3e51e25b3a0ceb5859218da09f725151956 debug and fix.
+2583f22af816ddeb00c7500e9964afd674cd4304 init: handle idmapped mounts
+538b8591e62db2a0d5ad4c86e030b4e70d55b36c ioctl: handle idmapped mounts
+982e550800a0ed4bb568455b4f25fad59ab5dd07 would_dump: handle idmapped mounts
+0d278c168989ae3a7ffab5b2c6cbd9031025cf27 exec: handle idmapped mounts
+301db9c4ed07773bddb58fc735d87756572a5ad2 fs: make helpers idmap mount aware
+3468482a2d5e86cb9da83cf7ff1974cd3edef671 apparmor: handle idmapped mounts
+0609257371bc5ac22b8d77f3313689046e936e3b ima: handle idmapped mounts
+b5468bf247b3d0816cdc5dacc29cf321ac32fb43 ecryptfs: do not mount on top of idmapped mounts
+fe41ee88ffb10fcca5afa59cd4314db75dc47a7f overlayfs: do not mount on top of idmapped mounts
+f6d3c0bd2bf3a0b8dd761daf937b940bc1390ce0 namespace: take lock_mount_hash() directly when changing flags
+a53ccccf09cffb4e83a9ffd83805276ac0e870f8 mount: make {lock,unlock}_mount_hash() static
+9687cc09086f01d8d75710c65215dce61bd351f6 namespace: only take read lock in do_reconfigure_mnt()
+67cf1ea193b16db49727950d3096ae01edbfe03b fs: split out functions to hold writers
+7ddfa75f608643dc7f9b06dfb6e0e349f00a2ae2 fs: add attr_flags_to_mnt_flags helper
+182088fb8d729e387af9641ed83d7d21ccfd80f7 fs: add mount_setattr()
+33a7fca0ed3e05aeafd42198e89d11c1c766267a fs: introduce MOUNT_ATTR_IDMAP
+d859984d0f5f112613d048ffb9cf78e43a01a2d6 tests: add mount_setattr() selftests
+f9191d6a470323e44d2b990dba3377159650e856 fat: handle idmapped mounts
+ef99de664bcc37970b000fd0f17cbf27534da608 ext4: support idmapped mounts
+f7ae224dc0b8097f7a0599c4d92b4a34c412fba2 xfs: support idmapped mounts
 
---===============1055519570929473659==--
+--===============2682637033983807612==--
