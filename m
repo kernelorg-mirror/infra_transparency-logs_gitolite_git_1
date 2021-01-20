@@ -1,48 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============6799535685030255307=="
+Content-Type: multipart/mixed; boundary="===============9100854160441730925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Wed, 20 Jan 2021 04:10:40 -0000
-Message-Id: <161111584058.12712.6631076843770672428@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Wed, 20 Jan 2021 04:43:47 -0000
+Message-Id: <161111782724.4092.13410404833281057861@gitolite.kernel.org>
 
---===============6799535685030255307==
+--===============9100854160441730925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/aa
-user: andrea
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
 changes:
+  - ref: refs/heads/fixes
+    old: 41131a5e54ae7ba5a2bb8d7b30d1818b3f5b13d2
+    new: dd3a44c06f7b4f14e90065bf05d62c255b20005f
+    log: |
+         92a5e1fdb286851d5bd0eb966b8d075be27cf5ee selftests/powerpc: Fix exit status of pkey tests
+         dd3a44c06f7b4f14e90065bf05d62c255b20005f selftests/powerpc: Only test lwm/stmw on big endian
+         
+  - ref: refs/heads/fixes-test
+    old: 41131a5e54ae7ba5a2bb8d7b30d1818b3f5b13d2
+    new: dd3a44c06f7b4f14e90065bf05d62c255b20005f
+    log: |
+         92a5e1fdb286851d5bd0eb966b8d075be27cf5ee selftests/powerpc: Fix exit status of pkey tests
+         dd3a44c06f7b4f14e90065bf05d62c255b20005f selftests/powerpc: Only test lwm/stmw on big endian
+         
   - ref: refs/heads/master
-    old: 126a46b6b4f3685acb3419febc324c30ae467a13
-    new: baf2a27618ec8c5179073fcb9420a2fb7c63f4fa
-    log: revlist-126a46b6b4f3-baf2a27618ec.txt
+    old: 0da0a8a0a0e1845f495431c3d8d733d2bbf9e9e5
+    new: 1e2a199f6ccdc15cf111d68d212e2fd4ce65682e
+    log: revlist-0da0a8a0a0e1-1e2a199f6ccd.txt
+  - ref: refs/heads/next-test
+    old: 6629114a7f6f21d41640cbc006c3694e65940729
+    new: 04483fc005f81d678e4fe63e36eab4fb39c5277b
+    log: |
+         04483fc005f81d678e4fe63e36eab4fb39c5277b powerpc: Always enable queued spinlocks for 64s, disable for others
+         
 
---===============6799535685030255307==
+--===============9100854160441730925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-126a46b6b4f3-baf2a27618ec.txt
+Content-Disposition: attachment; filename=revlist-0da0a8a0a0e1-1e2a199f6ccd.txt
 
-4449676082126e6b3576418c8f3c01da853355cd gup: FOLL_UNSHARE: skip writable pgtables
-205c3a3fafcb6d240ca4a4f45a0bffb65e764509 gup: FOLL_UNSHARE: optimize mmu notifier
-8d6c8a7077b25f366793862dcca51e872f250de7 gup: FOLL_UNSHARE: enable COR on PageKsm
-a3f8314de7db294093d8789dc8a32b10a08138b5 KSM: micro optimize do_wp_page
-3799843bd6990149e11b1159f857b469055454ed mm: proc: Invalidate TLB after clearing soft-dirty page state
-5e51021540f3206959224e4c0099edbb06f210df x86: restore the write back cache of reserved RAM in iounmap()
-19449ba01f090e1a7a64b24f8f161db18b7a12ee x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
-06ede37acdd68bd1d9f7b4752d54454125c7422d x86: deduplicate the spectre_v2_user documentation
-98b824cd355ce8ec28ce1a77dfaea4c5ddcf2841 x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
-20563fe64d340ecbc506ea75f67ca230d89e8023 x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
-f7e2703f9bb41c0a7c33333fd8f165300579214f mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
-afe6b1e746627ba17fb912f63c02bbf7ba7d0d50 coredump: use READ_ONCE to read mm->flags
-680ebd1c72a862b251da81a1c3a14ae20e819399 sched/fair: skip select_idle_sibling() in presence of sync wakeups
-debf0894cd8a5996c344fa35aa0a5584a9ed1def mm: refactor initialization of stuct page for holes in memory layout
-8456d984c9085f55a1bcd8c935ffa10b1ff4ad99 mm: initialize struct pages in reserved regions outside of the zone ranges
-e9a9b6f36dc504db41640aaaa4be2324c334733c userfaultfd: UFFDIO_REMAP: rmap preparation
-61ec6acb746fb398dde95ee0d01c0a2c54505456 userfaultfd: UFFDIO_REMAP uABI
-baf2a27618ec8c5179073fcb9420a2fb7c63f4fa Merge remote-tracking branch 'gitlab/next' into next
+a0a6df9afcaf439a6b4c88a3b522e3d05fdef46f umount(2): move the flag validity checks first
+3c02e04fd4f57130e4fa75fab6f528f7a52db9b5 crypto: xor - Fix divide error in do_xor_speed()
+382811940303f7cd01d0f3dcdf432dfd89c5a98e crypto: omap-sham - Fix link error without crypto-engine
+2225a8dda263edc35a0e8b858fe2945cf6240fde powerpc: Fix alignment bug within the init sections
+41131a5e54ae7ba5a2bb8d7b30d1818b3f5b13d2 powerpc/vdso: Fix clock_gettime_fallback for vdso32
+7a2da5d7960a64ee923fe3e31f01a1101052c66f spi: fsl: Fix driver breakage when SPI_CS_HIGH is not set in spi->mode
+4d163ad79b155c71bf30366dc38f8d2502f78844 spi: cadence: cache reference clock rate during probe
+301f0203e04293c13372c032198665bd75adf81b perf bpf examples: Fix bpf.h header include directive in 5sec.c example
+38c53947a7dcb6d295769830c9085b0409921ec9 tools headers UAPI: Sync kvm.h headers with the kernel sources
+addbdff24293ef772a1b8e5d127b570e70f08cdc tools headers: Syncronize linux/build_bug.h with the kernel sources
+a042a82ddbb3434f523c0671f5301d1fe796b4eb perf test: Fix shadow stat test for non-bash shells
+be82fddca81eefd1edbd9b290dfcb2177e24785b libperf tests: Avoid uninitialized variable warning
+bba2ea17ef553aea0df80cb64399fe2f70f225dd libperf tests: If a test fails return non-zero
+66dd86b2a2bee129c70f7ff054d3a6a2e5f8eb20 libperf tests: Fail when failing to get a tracepoint id
+3ff1e7180abc7f6db413933c110df69157216715 perf stat: Introduce struct runtime_stat_data
+a1bf23052bdfe30ec3c693cf32feb2d79114ac16 perf stat: Take cgroups into account for shadow stats
+5501e9229a80d95a1ea68609f44c447a75d23ed5 perf intel-pt: Fix 'CPU too large' error
+648b054a4647cd62e13ba79f398b8b97a7c82b19 perf inject: Correct event attribute sizes
+a959a9782fa87669feeed095ced5d78181a7c02d iov_iter: fix the uaccess area in copy_compat_iovec_from_user
+d36a1dd9f77ae1e72da48f4123ed35627848507d dump_common_audit_data(): fix racy accesses to ->d_name
+32c2bc8f2d855d4415c9a05b727e34649397bfbe ia64: fix build failure caused by memory model changes
+feb889fb40fafc6933339cf1cca8f770126819fb mm: don't put pinned pages into the swap cache
+a527a2b32d20a2bd8070f49e98cb1a89b0c98bb3 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+a1339d6355ac42e1bf4fcdfce8bfce61172f8891 Merge tag 'powerpc-5.11-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+e2da783614bb8930aa89753d3c3cd53d5604665d Merge tag 'perf-tools-fixes-2021-01-17' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+19c329f6808995b142b3966301f217c831e7cf31 Linux 5.11-rc4
+fd3958eac387593d02e4d4287658ba04bcdb235a Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+b4459f4413c890a35dfcecaff29d37ac65607d76 Merge tag 'fixes-2021-01-18' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+1e2a199f6ccdc15cf111d68d212e2fd4ce65682e Merge tag 'spi-fix-v5.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============6799535685030255307==--
+--===============9100854160441730925==--
