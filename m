@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 20 Jan 2021 23:41:28 -0000
-Message-Id: <161118608801.28775.11978233645199692310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 20 Jan 2021 23:43:04 -0000
+Message-Id: <161118618411.29422.661228765883325900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: e3de3ac80704f68ab9a5afa103c772008ef989cc
-    new: abf555ac48f631b37781cd9666e85e0e8c51edae
+  - ref: refs/heads/master
+    old: ad903e9594ab2b5440e8b9be26e454d4e57454ea
+    new: 4ca5ab0f14f5d2f1e1aacf547ce9dc3a61a91e51
     log: |
-         abf555ac48f631b37781cd9666e85e0e8c51edae soc / drm: mediatek: Move mtk mutex driver to soc folder
+         4ca5ab0f14f5d2f1e1aacf547ce9dc3a61a91e51 Makefile: Fix timing of autodate.tex generation
          
