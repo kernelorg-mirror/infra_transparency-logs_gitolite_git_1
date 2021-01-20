@@ -1,50 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============4919546187717433173=="
+Content-Type: multipart/mixed; boundary="===============6522618337225614698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Wed, 20 Jan 2021 08:44:39 -0000
-Message-Id: <161113227961.15480.3528853209645756876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 20 Jan 2021 08:45:57 -0000
+Message-Id: <161113235737.17296.12293898690820337665@gitolite.kernel.org>
 
---===============4919546187717433173==
+--===============6522618337225614698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: 767b3f3b44e8b69aa1769a2eab47e51dc818352e
-    new: e0b3d12cf1b64f30f216f0af232dfe56883c2de6
-    log: revlist-767b3f3b44e8-e0b3d12cf1b6.txt
+  - ref: refs/tags/mlx5-updates-2021-01-13
+    old: 89b3ccff1e8abd76fe362c1745973ad2858a06a6
+    new: 48e327549b53c612a6e0a645ceb2d169f059902e
+    log: revlist-89b3ccff1e8a-48e327549b53.txt
 
---===============4919546187717433173==
+--===============6522618337225614698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-767b3f3b44e8-e0b3d12cf1b6.txt
+Content-Disposition: attachment; filename=revlist-89b3ccff1e8a-48e327549b53.txt
 
-3918c6d30c0ba4a690baf1504ceb0d4eac7ba1b7 Btrfs: fix selftests failure due to uninitialized i_mode in test inodes
-b40edf0136a2bf6ea88fa3b4f7574a8384d9f3fd ext4: fix a memory leak of ext4_free_data
-705ec9524914138efd4d4d23e9cae6b454d70024 ceph: fix race in concurrent __ceph_remove_cap invocations
-265ed4ad4d63dd22ed837178c5980f066acd54e6 jffs2: Fix GC exit abnormally
-9a89ab80467b028fe7782a45d6f98a55b963d665 jfs: Fix array index bounds check in dbAdjTree
-05c212a9635e62c7ee46319f9311f91d92adf306 mtd: parser: cmdline: Fix parsing of part-names with colons
-a62cda1878defd63fc18a353cd134eef64f63c11 iio: adc: rockchip_saradc: fix missing clk_disable_unprepare() on error in rockchip_saradc_resume
-b8c8c8584a6398e0cc879472489a405ceaac2902 iio:pressure:mpl3115: Force alignment of buffer
-a4e393319b8b1e4d2b2a92bbb41134409f2c4363 PCI: Fix pci_slot_release() NULL pointer dereference
-2d2246a34e0c464d979d214df05a4ceebfdd0ded ALSA: hda/ca0132 - Fix work handling in delayed HP detection
-e77abd6b0308fbd9f2a17f4c3de06470a5566f0f ALSA: usb-audio: simplify set_sync_ep_implicit_fb_quirk
-e94e22d38f21b860b292a942e857e3c22cbe7447 ALSA: usb-audio: fix sync-ep altsetting sanity check
-d3f24e15a1608a371cfcd0601ed4357e51ae207c ALSA: hda/realtek - Support Dell headset mode for ALC3271
-04e05a270e04590a86fe8eac0eda7d1ef7d6a40d ALSA: hda - Fix a wrong FIXUP for alc289 on Dell machines
-a9904fe72d14aad4f7294f763cd9eb47c1ac1841 ALSA: hda/realtek - Dell headphone has noise on unmute for ALC236
-96e92fc6246e45d80126de44852fcd369ffeb51f USB: serial: digi_acceleport: fix write-wakeup deadlocks
-69e436d8d69d0fb8abe2e97be975bf6311c509a8 of: fix linker-section match-table corruption
-e47f37d66b110ec0172f99737faedc4dc77f7f1a reiserfs: add check for an invalid ih_entry_count
-f666505b5386bd7e70fbff1f5ed58240f6654333 misc: vmw_vmci: fix kernel info-leak by initializing dbells in vmci_ctx_get_chkpt_doorbells()
-e0b3d12cf1b64f30f216f0af232dfe56883c2de6 media: gp8psk: initialize stats at power control logic
+b1284d1f6a621c6b358875b4dd1efaa73a838feb devlink: Prepare code to fill multiple port function attributes
+a5f32afb53dfaf396327259aa1466d44eb443b8f devlink: Introduce PCI SF port flavour and port attribute
+ae8cde060fd9d51c316e2494b4c20e3fd22caa11 devlink: Support add and delete devlink port
+68a3de66c52050262b6b333b535622d1b5386068 devlink: Support get and set state of port function
+1212ce877edd3f2a66aadaa80945bf3fca1cf216 net/mlx5: Introduce vhca state event notifier
+9419d5e609a2ddfd26024968154bba96650d7a6a net/mlx5: SF, Add auxiliary device support
+dd6dcd23788e539454d2b9e553ab1f06bfa12cd9 net/mlx5: SF, Add auxiliary device driver
+60c88426c34fb2dc6546d79acc6affc54e7e2ab3 net/mlx5: E-switch, Prepare eswitch to handle SF vport
+9e5abe1a302ae9771415d91d4d2b6111968e8e26 net/mlx5: E-switch, Add eswitch helpers for SF vport
+07ddd023879687d019f1da36e3369decacc09c44 net/mlx5: SF, Add port add delete functionality
+6fe583c08233714de54df441ebdacadf181dc8db net/mlx5: SF, Port function state change support
+f3e4fa55613bb08e7a97d7acdf273a7b5950223f devlink: Add devlink port documentation
+cb91eedbe529de2f7f4c5222da607c84d0a63c72 devlink: Extend devlink port documentation for subfunctions
+0284330ca15b0ffaeab731a7b94494aac501db2d net/mlx5: Add devlink subfunction port documentation
 
---===============4919546187717433173==--
+--===============6522618337225614698==--
