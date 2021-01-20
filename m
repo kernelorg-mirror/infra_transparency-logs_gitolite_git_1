@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Wed, 20 Jan 2021 19:59:38 -0000
-Message-Id: <161117277842.14152.6052613544461792574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 20 Jan 2021 19:59:45 -0000
+Message-Id: <161117278516.14227.12802512835825019102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
-user: khilman
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/v5.12/dt64
-    old: 0000000000000000000000000000000000000000
-    new: b3ffd9f68a2c1da1fbf98a40a807e0bea7660c48
+  - ref: refs/heads/master
+    old: 9edd941bc21defd6b0c46402a6b4667eaf21732b
+    new: 0b3b644c554d3c2edb06d62805c000deb71b9f60
+    log: |
+         0b3b644c554d3c2edb06d62805c000deb71b9f60 doc: document AccessPointDiagnostic interface
+         
