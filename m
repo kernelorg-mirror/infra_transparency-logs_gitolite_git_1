@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 20 Jan 2021 19:22:30 -0000
-Message-Id: <161117055047.23728.16076637431649631396@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 20 Jan 2021 19:38:08 -0000
+Message-Id: <161117148819.32321.1162480743514879339@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: 7a1519a74f3d0b06598fb95387688cde41e465d8
-    new: 3ddbe9bf6a006b50d35887b00f96c5768a32b7f3
+  - ref: refs/heads/wip/jgg-for-rc
+    old: f068cb1db2cb40c9782874df7b08c684106cf609
+    new: f1b0a8ea9f12b8ade0dbe40dd57e4ffa9a30ed93
     log: |
-         3ddbe9bf6a006b50d35887b00f96c5768a32b7f3 Add configuration for gitlab-ci.
+         f1b0a8ea9f12b8ade0dbe40dd57e4ffa9a30ed93 Revert "RDMA/rxe: Remove VLAN code leftovers from RXE"
          
