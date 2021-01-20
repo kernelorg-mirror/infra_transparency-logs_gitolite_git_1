@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9100854160441730925=="
+Content-Type: multipart/mixed; boundary="===============0384560782464969835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Wed, 20 Jan 2021 04:43:47 -0000
-Message-Id: <161111782724.4092.13410404833281057861@gitolite.kernel.org>
+Date: Wed, 20 Jan 2021 04:46:39 -0000
+Message-Id: <161111799940.6415.9428195577864501008@gitolite.kernel.org>
 
---===============9100854160441730925==
+--===============0384560782464969835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,42 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 changes:
-  - ref: refs/heads/fixes
-    old: 41131a5e54ae7ba5a2bb8d7b30d1818b3f5b13d2
-    new: dd3a44c06f7b4f14e90065bf05d62c255b20005f
-    log: |
-         92a5e1fdb286851d5bd0eb966b8d075be27cf5ee selftests/powerpc: Fix exit status of pkey tests
-         dd3a44c06f7b4f14e90065bf05d62c255b20005f selftests/powerpc: Only test lwm/stmw on big endian
-         
-  - ref: refs/heads/fixes-test
-    old: 41131a5e54ae7ba5a2bb8d7b30d1818b3f5b13d2
-    new: dd3a44c06f7b4f14e90065bf05d62c255b20005f
-    log: |
-         92a5e1fdb286851d5bd0eb966b8d075be27cf5ee selftests/powerpc: Fix exit status of pkey tests
-         dd3a44c06f7b4f14e90065bf05d62c255b20005f selftests/powerpc: Only test lwm/stmw on big endian
-         
-  - ref: refs/heads/master
-    old: 0da0a8a0a0e1845f495431c3d8d733d2bbf9e9e5
-    new: 1e2a199f6ccdc15cf111d68d212e2fd4ce65682e
-    log: revlist-0da0a8a0a0e1-1e2a199f6ccd.txt
-  - ref: refs/heads/next-test
-    old: 6629114a7f6f21d41640cbc006c3694e65940729
-    new: 04483fc005f81d678e4fe63e36eab4fb39c5277b
-    log: |
-         04483fc005f81d678e4fe63e36eab4fb39c5277b powerpc: Always enable queued spinlocks for 64s, disable for others
-         
+  - ref: refs/heads/merge
+    old: 41d8cb7ece7c81e4eb897ed7ec7d3c3d72fd0af4
+    new: 034dfbf2e25530e4ee252464b397f30a5f55fbb7
+    log: revlist-41d8cb7ece7c-034dfbf2e255.txt
 
---===============9100854160441730925==
+--===============0384560782464969835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0da0a8a0a0e1-1e2a199f6ccd.txt
+Content-Disposition: attachment; filename=revlist-41d8cb7ece7c-034dfbf2e255.txt
 
 a0a6df9afcaf439a6b4c88a3b522e3d05fdef46f umount(2): move the flag validity checks first
 3c02e04fd4f57130e4fa75fab6f528f7a52db9b5 crypto: xor - Fix divide error in do_xor_speed()
 382811940303f7cd01d0f3dcdf432dfd89c5a98e crypto: omap-sham - Fix link error without crypto-engine
-2225a8dda263edc35a0e8b858fe2945cf6240fde powerpc: Fix alignment bug within the init sections
-41131a5e54ae7ba5a2bb8d7b30d1818b3f5b13d2 powerpc/vdso: Fix clock_gettime_fallback for vdso32
 7a2da5d7960a64ee923fe3e31f01a1101052c66f spi: fsl: Fix driver breakage when SPI_CS_HIGH is not set in spi->mode
 4d163ad79b155c71bf30366dc38f8d2502f78844 spi: cadence: cache reference clock rate during probe
 301f0203e04293c13372c032198665bd75adf81b perf bpf examples: Fix bpf.h header include directive in 5sec.c example
@@ -75,5 +53,9 @@ e2da783614bb8930aa89753d3c3cd53d5604665d Merge tag 'perf-tools-fixes-2021-01-17'
 fd3958eac387593d02e4d4287658ba04bcdb235a Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 b4459f4413c890a35dfcecaff29d37ac65607d76 Merge tag 'fixes-2021-01-18' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 1e2a199f6ccdc15cf111d68d212e2fd4ce65682e Merge tag 'spi-fix-v5.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+92a5e1fdb286851d5bd0eb966b8d075be27cf5ee selftests/powerpc: Fix exit status of pkey tests
+dd3a44c06f7b4f14e90065bf05d62c255b20005f selftests/powerpc: Only test lwm/stmw on big endian
+58b87871e271f05f6f0b6601e0984f552a3c0892 Automatic merge of 'master' into merge (2021-01-20 15:45)
+034dfbf2e25530e4ee252464b397f30a5f55fbb7 Automatic merge of 'fixes' into merge (2021-01-20 15:45)
 
---===============9100854160441730925==--
+--===============0384560782464969835==--
