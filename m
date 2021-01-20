@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 20 Jan 2021 02:44:12 -0000
-Message-Id: <161111065270.23171.1604384420985071108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 20 Jan 2021 02:50:03 -0000
+Message-Id: <161111100340.27298.13427538580653262977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: fc6f89dd8c55cc756ebeff3d496218a2fbad3ec6
-    new: 00b229f762b020eebf55a52b984aec76ae0ad966
+  - ref: refs/heads/io_uring-5.11
+    old: 943f9c85faca361918b0dba2d2e1498d7860b28e
+    new: 7ad6d48f37dd3837f517d3791e34cfc6b78214f9
     log: |
-         00b229f762b020eebf55a52b984aec76ae0ad966 net: fix GSO for SG-enabled devices
+         7ad6d48f37dd3837f517d3791e34cfc6b78214f9 io_uring: fix SQPOLL IORING_OP_CLOSE cancelation state
          
