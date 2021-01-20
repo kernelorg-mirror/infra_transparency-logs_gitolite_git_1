@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1876396329421767043=="
+Content-Type: multipart/mixed; boundary="===============0845539461379071710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Wed, 20 Jan 2021 12:56:12 -0000
-Message-Id: <161114737265.31762.10916163374053281681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Wed, 20 Jan 2021 12:57:49 -0000
+Message-Id: <161114746957.32282.5626350436845999757@gitolite.kernel.org>
 
---===============1876396329421767043==
+--===============0845539461379071710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
+repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/for-backlight-fixes
+  - ref: refs/heads/for-mfd-fixes
     old: bbf5c979011a099af5dc76498918ed7df445635b
     new: 5c8fe583cce542aa0b84adc939ce85293de36e5e
     log: revlist-bbf5c979011a-5c8fe583cce5.txt
 
---===============1876396329421767043==
+--===============0845539461379071710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cce622ab9284a27257dd75bb35eccdd619bf96d1 Merge tag 'objtool-urgent-2020-12-27' o
 14e3e989f6a5d9646b6cf60690499cc8bdc11f7d proc mountinfo: make splice available again
 5c8fe583cce542aa0b84adc939ce85293de36e5e Linux 5.11-rc1
 
---===============1876396329421767043==--
+--===============0845539461379071710==--
