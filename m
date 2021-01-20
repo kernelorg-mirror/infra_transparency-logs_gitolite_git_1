@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5671774575005552377=="
+Content-Type: multipart/mixed; boundary="===============0630179513751470378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 20 Jan 2021 19:51:57 -0000
-Message-Id: <161117231748.10354.7116623554434649972@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Wed, 20 Jan 2021 19:52:02 -0000
+Message-Id: <161117232226.10491.8549342482481087502@gitolite.kernel.org>
 
---===============5671774575005552377==
+--===============0630179513751470378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 7341df6992e7840498cff6ad21380aa7dd97870b
 
---===============5671774575005552377==
+--===============0630179513751470378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -330,4 +330,4 @@ b4459f4413c890a35dfcecaff29d37ac65607d76 Merge tag 'fixes-2021-01-18' of git://g
 f419f031de1498765b64ddf71590f40689a9b55c Merge tag 'nfsd-5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 45dfb8a5659ad286c28fa59008271dbc4e5e3f2d Merge tag 'task_work-2021-01-19' of git://git.kernel.dk/linux-block
 
---===============5671774575005552377==--
+--===============0630179513751470378==--
