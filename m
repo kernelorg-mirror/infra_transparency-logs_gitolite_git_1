@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 20 Jan 2021 12:12:48 -0000
-Message-Id: <161114476876.3911.17560086883646117032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/arch
+Date: Wed, 20 Jan 2021 12:30:10 -0000
+Message-Id: <161114581043.14248.1414178950920663363@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/jarkko/arch
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: a3377dcec66a96eb2ffeb999502b9a8ff2697bf4
-    new: c43f976fd87713b25a7fa21a3c4b807418723d33
+    old: 17154e7bfcf6f88b812aa9c9c8fe8031da8f76c8
+    new: c3f9b51df57125d8e1d07a22e35ec3ac7233e678
     log: |
-         1942e41202aa5cc39dd8970ab62cd1b288277753 tcp.7: Documentation revision for TCP_USER_TIMEOUT
-         c43f976fd87713b25a7fa21a3c4b807418723d33 mount.2: Note that the 'data' argument can be NULL
+         c3f9b51df57125d8e1d07a22e35ec3ac7233e678 Initial commit
          
