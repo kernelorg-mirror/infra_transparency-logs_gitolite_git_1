@@ -1,45 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============1346309970718086647=="
+Content-Type: multipart/mixed; boundary="===============8331040611773126304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 20 Jan 2021 10:02:17 -0000
-Message-Id: <161113693772.15668.13631098444947908056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 20 Jan 2021 10:11:05 -0000
+Message-Id: <161113746591.23045.640317902175471716@gitolite.kernel.org>
 
---===============1346309970718086647==
+--===============8331040611773126304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 19c329f6808995b142b3966301f217c831e7cf31
-    new: 45dfb8a5659ad286c28fa59008271dbc4e5e3f2d
-    log: revlist-19c329f68089-45dfb8a5659a.txt
+  - ref: refs/heads/usb-next
+    old: d70f7598c4583c6326cbd499b66bc9b3dd821e12
+    new: 7a79f1f7f7e75e532c5a803ab3ebf42a3e79497c
+    log: |
+         c00243e7cd5c5c018f8addd6d7c234e2ef16d202 usb: typec: ucsi: Add conditional dependency on USB role switch
+         79f06f04db653f57fd9e344c20b1a8b70c75ec50 usb: gadget: u_serial: Remove old tasklet comments
+         908f6e2b8a7987ae761d80ea05738aa2a42c4474 USB: gadget: udc: Process disconnect synchronously
+         1c17cc47d764c802c4fa74b46e29fa515ea7acc7 dt-bindings: usb: qcom,dwc3: Add binding for SDX55
+         7a79f1f7f7e75e532c5a803ab3ebf42a3e79497c dt-bindings: usb: qcom,dwc3: Add bindings for SM8150, SM8250, SM8350
+         
 
---===============1346309970718086647==
+--===============8331040611773126304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19c329f68089-45dfb8a5659a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3c02e04fd4f57130e4fa75fab6f528f7a52db9b5 crypto: xor - Fix divide error in do_xor_speed()
-382811940303f7cd01d0f3dcdf432dfd89c5a98e crypto: omap-sham - Fix link error without crypto-engine
-35d0b389f3b23439ad15b610d6e43fc72fc75779 task_work: unconditionally run task_work from get_signal()
-51b2ee7d006a736a9126e8111d1f24e4fd0afaa6 nfsd4: readdirplus shouldn't return parent of export
-5f39d2713bd80e8a3e6d9299930aec8844872c0e SUNRPC: Move the svc_xdr_recvfrom tracepoint again
-7a2da5d7960a64ee923fe3e31f01a1101052c66f spi: fsl: Fix driver breakage when SPI_CS_HIGH is not set in spi->mode
-4d163ad79b155c71bf30366dc38f8d2502f78844 spi: cadence: cache reference clock rate during probe
-32c2bc8f2d855d4415c9a05b727e34649397bfbe ia64: fix build failure caused by memory model changes
-fff7b5e6ee63c5d20406a131b260c619cdd24fd1 x86/hyperv: Initialize clockevents after LAPIC is initialized
-fd3958eac387593d02e4d4287658ba04bcdb235a Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-b4459f4413c890a35dfcecaff29d37ac65607d76 Merge tag 'fixes-2021-01-18' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
-1e2a199f6ccdc15cf111d68d212e2fd4ce65682e Merge tag 'spi-fix-v5.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-28df858033484b830c2ea146c03da67d2d659405 Merge tag 'hyperv-fixes-signed-20210119' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-f419f031de1498765b64ddf71590f40689a9b55c Merge tag 'nfsd-5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-45dfb8a5659ad286c28fa59008271dbc4e5e3f2d Merge tag 'task_work-2021-01-19' of git://git.kernel.dk/linux-block
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611137457 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1611137456-cf8718536173de5549c327ba5bba2113545ca3a8
 
---===============1346309970718086647==--
+d70f7598c4583c6326cbd499b66bc9b3dd821e12 7a79f1f7f7e75e532c5a803ab3ebf42a3e79497c refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAIAbEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cugP+wVUuV1BODee/nZyOcKU
+tYk/tnaWakKQlUKZuq8gaF8I5tUrpItBnzdeb1GNIv5e4R8H2ky2aQRbu7Pz8/WJ
+eA1p5kcf4fS3OEl8h6weucTCAR7dMCXjcPAwEP/uWHGFQHY4MKPH+Cv2GrqHuXlX
+jKREls7etYr9XfiVu8NTf7VLO7RImI23gtcVAOM58gL2UP35Ua44Nvi2ASdB15vh
+R57dEyjWxWksSjmqIhJZhgNxJMu31xDB2YDcRfkVdfYKn/LXFRAjsklgegty17YD
+/3RlbEYJqm4gocB79mfh3yPWqUJEv8tAKV5e7Le8Wp0fHFS2igs0JNT1i5zniQQX
+B+KO1VGo8UFLrOIfUadsayTVr9oE6NThpkiZGErIDSyqsgS/MU6fURHE1lm93bYv
+UGn1ZCfsM4Kv5fdiUr8Cnznk3pZpHutPChbYqhr5wA/u7pLCHmPPksWInvtysGfv
+7T3VrINoh7dWWdXImjiknQJFARBU18uF/W9SwgrYGDv/yD38h9tjN4UD/GW40ANB
+eueMgF+P5aq2WTOqM7xiQPvrtCX4CVUgXa2VWsTjCsaNOCKL6NoRFAUyPYjeudzN
+WXRiEo91s/OfLLs4UyzP2F0LHDWxsimB0+krgXLN7uNX13fcQB8D50Y9b7jrsYq1
+TF85KzhvvyJPqjht1IWU0+QS
+=R1mX
+-----END PGP SIGNATURE-----
+
+--===============8331040611773126304==--
