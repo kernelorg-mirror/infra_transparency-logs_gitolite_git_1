@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7457640941407155628=="
+Content-Type: multipart/mixed; boundary="===============0460314226041873153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Wed, 20 Jan 2021 20:00:12 -0000
-Message-Id: <161117281256.15875.14536407029554717992@gitolite.kernel.org>
+Date: Wed, 20 Jan 2021 20:00:17 -0000
+Message-Id: <161117281752.16008.8292372174434643284@gitolite.kernel.org>
 
---===============7457640941407155628==
+--===============0460314226041873153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
-  - ref: refs/heads/for-next
-    old: 60f232d3c04a346ff94602f6edbe8e95ed281239
-    new: dc589daea7a0829dc56c6230bca85a9faf7be074
-    log: revlist-60f232d3c04a-dc589daea7a0.txt
+  - ref: refs/heads/v5.12/integ
+    old: f45dceca5e24472fd014151a9354579df341260f
+    new: 841c208fa7800a02eb0d0e077fdc72cdecc45466
+    log: revlist-f45dceca5e24-841c208fa780.txt
 
---===============7457640941407155628==
+--===============0460314226041873153==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-60f232d3c04a-dc589daea7a0.txt
+Content-Disposition: attachment; filename=revlist-f45dceca5e24-841c208fa780.txt
 
 665f1388bc9713c81989dda6eed5cde52d57c255 ARM: omap2plus_defconfig: drop unused POWER_AVS option
 f1dc15cd7fc146107cad2a926d9c1d005f69002a ARM: dts: OMAP3: disable AES on N950/N9
@@ -723,6 +723,9 @@ a58015d638cd4e4555297b04bec9b49028369075 ACPI: scan: Harden acpi_device_add() ag
 843010a815e87b45fc6b64848f02e42f6aee3f22 drm/ttm: Fix address passed to dma_mapping_error() in ttm_pool_map()
 7bb83f6fc4ee84e95d0ac0d14452c2619fb3fe70 tracing/kprobes: Do the notrace functions check without kprobes on ftrace
 a5e92ef3c3fd46320d4e293bdec0cdd4b80a6e0f drm: Check actual format for legacy pageflip.
+43e8509bfe7a25a1b2eda514ce42a52400f0ca65 phy: amlogic: phy-meson-gxl-usb2: fix shared reset controller use
+b920a03ce9e0999ebdc98c93d17d78db3b3d3e9d usb: dwc3: meson-g12a: fix shared reset control use
+57d29bc8814eb28630ae8fbaa9f636f155e22395 phy: amlogic: meson8b-usb2: fix shared reset control use
 2896c93811e39d63a4d9b63ccf12a8fbc226e5e4 scsi: target: Fix XCOPY NAA identifier lookup
 6e68b9961ff690ace07fac22c3c7752882ecc40a Merge tag 'for-5.11-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 a0d54b4f5b219fb31f0776e9f53aa137e78ae431 Merge tag 'trace-v5.11-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
@@ -945,5 +948,7 @@ e2da783614bb8930aa89753d3c3cd53d5604665d Merge tag 'perf-tools-fixes-2021-01-17'
 19c329f6808995b142b3966301f217c831e7cf31 Linux 5.11-rc4
 fc1669f983f40cca3da963c52a04b5e7c6527aaf Merge branch 'v5.11/fixes' into tmp/aml-rebuild
 dc589daea7a0829dc56c6230bca85a9faf7be074 Merge branch 'v5.12/dt64' into tmp/aml-rebuild
+711be69477fcc7266bf7bdd9c5ffb24c05e6e82a Merge remote-tracking branch 'clk-meson/v5.12/drivers' into tmp/aml-rebuild
+841c208fa7800a02eb0d0e077fdc72cdecc45466 Merge branch 'v5.12/testing' into tmp/aml-rebuild
 
---===============7457640941407155628==--
+--===============0460314226041873153==--
