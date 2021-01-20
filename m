@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Wed, 20 Jan 2021 14:37:16 -0000
-Message-Id: <161115343658.533.18209474513221623339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 20 Jan 2021 14:58:19 -0000
+Message-Id: <161115469971.14218.12944795944666442618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/queue-next
-    old: e28134ff5f5f1d92901204210266e8ba70884a95
-    new: f45aa64ca9ffdf652ba361e46766393dc7d66868
+  - ref: refs/heads/net-next
+    old: 46f2da99da94fee9f4081c880025d2dd176c98b9
+    new: a38e600c82aad70479ceac9640a5f06a1f1773b7
     log: |
-         f45aa64ca9ffdf652ba361e46766393dc7d66868 x86/xen: Fix compilation error due to missing nopvspin declaration
+         b2cf17f8e7a68b2778fd82fb36f91f6e100ac5bf Merge commit 'refs/changes/78/355678/27' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+         1b4f7e318b86e3f9f35969544f61d5d967a913bc net/mlx5e: rep: Improve reg_cX conditions
+         786d97ff82455af4053c30013264c9c81042ebf7 Merge branch 'net-next-mlx4' into net-next
+         ec3fb6bad33d6f73a8531d2d9ae4c93cb2e41fe3 Merge branch 'mlx5-vdpa' into net-next
+         e97e40bef13c2f44af980272af671e4033cfd177 Merge branch 'net-next-mlx5' into net-next
+         11d8ae5933d2606bda5023c82cfbb096f55e2648 Merge branch 'net-mlx4' into net-next
+         870db53ae6c1ef6e7db9294c60048c31d3179116 Merge branch 'net-mlx5' into net-next
+         a38e600c82aad70479ceac9640a5f06a1f1773b7 Merge branch 'net-next-test' into net-next
          
