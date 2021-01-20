@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 20 Jan 2021 01:50:38 -0000
-Message-Id: <161110743858.22833.1324012352508438958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 20 Jan 2021 02:00:06 -0000
+Message-Id: <161110800647.28142.4963282708156780291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 1e30b8d755b81b0d1585cb22bc753e9f2124fe87
-    new: fc6f89dd8c55cc756ebeff3d496218a2fbad3ec6
+    old: fd23d2dc180fccfad4b27a8e52ba1bc415d18509
+    new: b160c28548bc0a87cbd16d5af6d3edcfd70b8c9a
     log: |
-         fc6f89dd8c55cc756ebeff3d496218a2fbad3ec6 octeontx2-af: Remove unneeded semicolons
+         b160c28548bc0a87cbd16d5af6d3edcfd70b8c9a tcp: do not mess with cloned skbs in tcp_add_backlog()
          
