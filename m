@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4780530525975513286=="
+Content-Type: multipart/mixed; boundary="===============4575485978512866019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 20 Jan 2021 17:48:54 -0000
-Message-Id: <161116493445.28019.6997176816090846362@gitolite.kernel.org>
+Date: Wed, 20 Jan 2021 17:49:39 -0000
+Message-Id: <161116497989.28360.3325429383495451413@gitolite.kernel.org>
 
---===============4780530525975513286==
+--===============4575485978512866019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 429b29aef7f841086949c7359f9c3ccb051e7ea3
-    new: 532b7cecdd4bee0e50c704b1281194c88f19cef1
+    old: 532b7cecdd4bee0e50c704b1281194c88f19cef1
+    new: 4776a4a0a29c64b954a445ff65848bd376a50fcc
     log: |
-         f754ed71b79cca5b07e76aaf28ce3c8776ab1f7f dt-bindings: serial: renesas,hscif: Add r8a779a0 support
-         e8372c4f51d01c3db3d067ee8d62d24368606262 serial: fsl_lpuart: Use of_device_get_match_data()
-         08fdc69945603355d24ef4adc811d2e368adbb56 serial: mxs-auart: Remove serial_mxs_probe_dt()
-         532b7cecdd4bee0e50c704b1281194c88f19cef1 serial: mxs-auart: Remove <asm/cacheflush.h>
+         4776a4a0a29c64b954a445ff65848bd376a50fcc serial: remove sirf prima/atlas driver
          
 
---===============4780530525975513286==
+--===============4575485978512866019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611164922 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611164971 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1611164921-d649036f625edc46fb7ce8b53152094c9f5aa837
+nonce 1611164970-390f50f26b52f4198acbbba406113ef2b799659f
 
-429b29aef7f841086949c7359f9c3ccb051e7ea3 532b7cecdd4bee0e50c704b1281194c88f19cef1 refs/heads/tty-testing
+532b7cecdd4bee0e50c704b1281194c88f19cef1 4776a4a0a29c64b954a445ff65848bd376a50fcc refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAIbPobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++OwQALSmXKYCXi2LomiiencZ
-vHDz0Wvu7An+WProthVLMwf/0L15jvHpO6a+sDTVHooisRp/GXAHskSJN8UZF+4P
-BuY+KLULeeJtoteoDnhKTRNZbh+7QOsSHr67p3y+Dn2B8agnCRfsLY1LXbXiDt2z
-lTxIz+P3ychrv/fytEYXWMlUcdvn6e906HJqoeC1hV0ZP5unQm43Jmp2ZNbGMeD/
-DpN9STuhjRP2TC0/xBU1YIhQsXGgS+DFd1EYxt808Pld3JG6Y8zgqcRrbLynpB4T
-F90H2iFPhYbytM/O8RjVcjZqtjfJeTHVpeWzyEUaw638WsMuCT4a+8l+p318y2JJ
-adNJ2Oa2DOSUQIMvY7t4nh6VIKMTy+nP12FrXaNH1aHbybuwrT2FECdqJN0/OUkg
-/8lYqtrvYcUBTHe54+bg6LMQdungw0GdFKMFIls8yJ6xTPZ64DXuEkvzBnpnk5OT
-WPw28bBLscJ+3+U7UCnuG3SjLMcFue3FFf56sN6l3Bw+jWETdr12OltMp9sKJ5YK
-pWV7YQ34lsbKFri5licFuuWQlzbp4UDQjyLnhyHhABdnXQ1a0iwnz6Wu37CGE4tM
-JX/OrHGvVcCkKcVDiIO5jFROopNhKGU5yv4d8y9J7qXDnTvhZ2znIJ3b05kgDt0W
-FUvZcHKVNv0NfjVEOAy8g3uY
-=WkZ8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAIbSsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qvoP/RvhFUZ1jd0K4Fdx8C+O
+Yqxj4HCipyI1g7gLsgNpwvD6Fod3c3ci/KN5ovrTDLIKuAZQhc+YsZhuttJp1Von
+d3ZDHCGCIOycHGHQABJfmqRe1msmTHDPfyrf020Xo5EsCFJsrXIYX/gPrY1Dtva2
+YWEhzAgTt4tte6DuepW+7q1EUWh+D9qShBGa1k45Uv5wyGFoMVA+Jd+IePW0uuDs
+xrpiQjLzTJBgCn6sCfhSwVgUbtF1Twcs42nelbWKM8htm2ngTbJbuF2R9+X1NIt4
+HYn4w1TsKlnc6HdeXGPb4+vvrPPVlTJscsjqObiAAP1egFtgn52Cvi8AgB7GctXm
+vAQf9huO+eBeW3aKGjl7U64vzUBIYHCfAE2PnXrsbpYi9D4OZ/4C+JSgWDIeCcX6
+qPLib+hJA8XZ3iLFH//AqSO4BHGJXHp97XJfqP+R66ZmldshPCQFc0ypjxldZTh0
+tqjZsreSCKMxzGjHfK/XRnCaKUu6z3AXlhkQ/nm66iNcE89il1Es5hP8Lct9yMxt
+mnSQVf9dH3lH8qhZsFpJkoAn+b+69yLafUfh55CnFvdevyqflVQWz19iee0nYTdr
+1zJnd+PbWCQOohZiEXAjWhe6tKNbI6ORAN9nAcHujctZLMS/5gSxGXkXQrIT0JYi
+SFEOHabEoKoTwJKWoL0U1lgs
+=t8BE
 -----END PGP SIGNATURE-----
 
---===============4780530525975513286==--
+--===============4575485978512866019==--
