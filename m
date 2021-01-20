@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 20 Jan 2021 00:52:44 -0000
-Message-Id: <161110396485.11442.12156215679871074775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 20 Jan 2021 00:59:49 -0000
+Message-Id: <161110438944.14883.7669926349904471651@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
   - ref: refs/heads/master
-    old: f6a2e94b3f9d89cb40771ff746b16b5687650cbb
-    new: 4964e5a1e080f785f5518b402a9e48c527fe6cbd
+    old: e7a4576d8792fe7e84facef498abbc7dd70e8730
+    new: ad903e9594ab2b5440e8b9be26e454d4e57454ea
     log: |
-         4964e5a1e080f785f5518b402a9e48c527fe6cbd net: nfc: nci: fix the wrong NCI_CORE_INIT parameters
+         21ca2fbc708ba693a9c465f0fe681843f26569a9 Bibliography update
+         ad903e9594ab2b5440e8b9be26e454d4e57454ea defer/whichtochoose: Add more production uses of RCU and seqlock
          
