@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7280832728045771864=="
+Content-Type: multipart/mixed; boundary="===============2086029088733381532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 20 Jan 2021 11:01:13 -0000
-Message-Id: <161114047302.21711.8076944946087169731@gitolite.kernel.org>
+Date: Wed, 20 Jan 2021 11:03:01 -0000
+Message-Id: <161114058143.22434.16379204432877728967@gitolite.kernel.org>
 
---===============7280832728045771864==
+--===============2086029088733381532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,133 +16,136 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 6ef6a9b9fe0258a664758fb7ae584f7cb8283d75
-    new: 05e6117992d9b451d01995d882db9244ba149383
-    log: revlist-6ef6a9b9fe02-05e6117992d9.txt
+    old: 05e6117992d9b451d01995d882db9244ba149383
+    new: 6f002f6e0261e166f9ea65d87e001e24334a5ecb
+    log: revlist-05e6117992d9-6f002f6e0261.txt
   - ref: refs/heads/queue/4.19
-    old: 002eb482613e7c1eecad4cd54ccc2a919af496ed
-    new: d41b28b1cc8796f29868cee83ee21a39287ce1a1
+    old: d41b28b1cc8796f29868cee83ee21a39287ce1a1
+    new: 51661bbb957261f1f8073be570764d66f902a35a
     log: |
-         d41b28b1cc8796f29868cee83ee21a39287ce1a1 usb: ohci: Make distrust_firmware param default to false
+         cf1db0191f1d4b718b1f8fb371c6c21626f7ea13 usb: ohci: Make distrust_firmware param default to false
+         64e414c1f84d704736c561bd011eb2b4196978bd compiler.h: Raise minimum version of GCC to 5.1 for arm64
+         51661bbb957261f1f8073be570764d66f902a35a dm integrity: fix flush with external metadata device
          
   - ref: refs/heads/queue/4.4
-    old: 8eea68ad73c7602ea92d46caea6d12249dd929cf
-    new: 12ef1dd7c7d1cd2301adb1265b7d1a350d893ee8
-    log: revlist-8eea68ad73c7-12ef1dd7c7d1.txt
+    old: 12ef1dd7c7d1cd2301adb1265b7d1a350d893ee8
+    new: ef713b30ae1ff77ad15b26a56673eea20ddafc80
+    log: revlist-12ef1dd7c7d1-ef713b30ae1f.txt
   - ref: refs/heads/queue/4.9
-    old: 080fdef4dd94397c91e59a0a0e9544e36942a7f5
-    new: 55f0c40c9aa50dd733f3524017c6b6a09cc01e28
-    log: revlist-080fdef4dd94-55f0c40c9aa5.txt
+    old: 55f0c40c9aa50dd733f3524017c6b6a09cc01e28
+    new: 0be1a28c15880056194c90a3bf3f0244ce7d095c
+    log: revlist-55f0c40c9aa5-0be1a28c1588.txt
   - ref: refs/heads/queue/5.10
-    old: fc98a5b6faf79323b185fc34ab7164696b0b71e5
-    new: 8ef133171a0e0f8bd4ef84b46ca9ac82c7146a99
+    old: 8ef133171a0e0f8bd4ef84b46ca9ac82c7146a99
+    new: c8792b5d245bb1eb28e2eb36f70cdf553f5599a8
     log: |
-         8ef133171a0e0f8bd4ef84b46ca9ac82c7146a99 Revert "kconfig: remove 'kvmconfig' and 'xenconfig' shorthands"
+         c8792b5d245bb1eb28e2eb36f70cdf553f5599a8 Revert "kconfig: remove 'kvmconfig' and 'xenconfig' shorthands"
          
   - ref: refs/heads/queue/5.4
-    old: 88768e71f4ea4735b12675f4e4db67709a1bfde1
-    new: ea0d86dd331011d01bfbd72654d13397e42ba7da
+    old: ea0d86dd331011d01bfbd72654d13397e42ba7da
+    new: 05f72069c70edeed704581c8525f6b2109b428d8
     log: |
-         ea0d86dd331011d01bfbd72654d13397e42ba7da usb: ohci: Make distrust_firmware param default to false
+         382499e1e72d081564ac4fa87a60006430eed486 usb: ohci: Make distrust_firmware param default to false
+         05f72069c70edeed704581c8525f6b2109b428d8 compiler.h: Raise minimum version of GCC to 5.1 for arm64
          
 
---===============7280832728045771864==
+--===============2086029088733381532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ef6a9b9fe02-05e6117992d9.txt
+Content-Disposition: attachment; filename=revlist-05e6117992d9-6f002f6e0261.txt
 
-39c345cc94deaa22f344b3542babeebaa610ae8a ASoC: dapm: remove widget from dirty list on free
-2993304d9d4c40bb0aa478259ea0f981fa428563 MIPS: boot: Fix unaligned access with CONFIG_MIPS_RAW_APPENDED_DTB
-0c79f82cec03a781a6a41dd3e01bec3a985fb7f0 MIPS: Fix malformed NT_FILE and NT_SIGINFO in 32bit coredumps
-d1a5aa4d6cd57d2695e453469787f5021e3c2349 MIPS: relocatable: fix possible boot hangup with KASLR enabled
-17110faa05fcb0c6dc983f9262d2629d76154cdc ACPI: scan: Harden acpi_device_add() against device ID overflows
-7a2ebed66a733207247a27bc4c99042865b2742b mm/hugetlb: fix potential missing huge page size info
-de3c28270015630f59848e87aa3a47cada608e83 dm snapshot: flush merged data before committing metadata
-0b7928abb8f13fb78afb4c89800d7bc19b9820fc r8152: Add Lenovo Powered USB-C Travel Hub
-bd9201ba8fb2a0d0adf0b247c1e1f68d9d280d2b ext4: fix bug for rename with RENAME_WHITEOUT
-a8ac48f9fe9ba468430dbff8bb5c0503a857c1e6 ARC: build: remove non-existing bootpImage from KBUILD_IMAGE
-e503669fa2db980cc64c4cfe22a891215146d74d ARC: build: add uImage.lzma to the top-level target
-cc18e8dcdbcaf2dd7137bed6c028eb6347b48da0 ARC: build: add boot_targets to PHONY
-93fa4a1ae694bdfc9f9fd6fe647d14d89b627b9c btrfs: fix transaction leak and crash after RO remount caused by qgroup rescan
-c1e22d31ef4ef938d4523abef0bba4f39ad4f53f ethernet: ucc_geth: fix definition and size of ucc_geth_tx_global_pram
-e3911538b1257f87086aeef339081910244d66e3 arch/arc: add copy_user_page() to <asm/page.h> to fix build error on ARC
-4ea355e754e885cff3544131a35b4bde03960860 misdn: dsp: select CONFIG_BITREVERSE
-103ae8c77f6a0b4a88fecf08d9a1661294a8890f net: ethernet: fs_enet: Add missing MODULE_LICENSE
-e5ebe88a51cf5921134677a94148f9d0cceeb549 ACPI: scan: add stub acpi_create_platform_device() for !CONFIG_ACPI
-3277853e2186a6e7c9b6669ffe9bcabc532117cd ARM: picoxcell: fix missing interrupt-parent properties
-0df11e2f82f3eabc006569068acd36eb45086130 dump_common_audit_data(): fix racy accesses to ->d_name
-4fc13171fd0e5fe98713555e46e8bd7a282266d6 ASoC: Intel: fix error code cnl_set_dsp_D0()
-c1dd2df83a08d905f01738e28693f9ec3dd804b2 NFS4: Fix use-after-free in trace_event_raw_event_nfs4_set_lock
-3a39f809f315997619c1ddb35980c99a113ce5d0 pNFS: Mark layout for return if return-on-close was not sent
-64bb6732427f5e9858f8fbe0595324dbcd9e9d80 NFS: nfs_igrab_and_active must first reference the superblock
-0c56a480302e3135ef8a5aeb8f270c064c12b1bb ext4: fix superblock checksum failure when setting password salt
-c768b70750e3a3da29f85c5b8b089837522d02e4 RDMA/usnic: Fix memleak in find_free_vf_and_create_qp_grp
-59a8efc9d43c80d6ec61f0720093d035ddb77fd1 mm, slub: consider rest of partial list if acquire_slab() fails
-481084b37401a666f8dcf1648c0f2bbeb9f0d552 net: sunrpc: interpret the return value of kstrtou32 correctly
-8360801eebc449295f0c7ee4e6f5182bcdcece29 dm: eliminate potential source of excessive kernel log noise
-d165a75baac4e530fb3f6d5eaa4768a23d8be681 ALSA: firewire-tascam: Fix integer overflow in midi_port_work()
-b955f115ef628f50e4ef230ebd821f3884501452 ALSA: fireface: Fix integer overflow in transmit_midi_msg()
-f3d7411c9284687ca7199ee94776b349d29b0d36 netfilter: conntrack: fix reading nf_conntrack_buckets
-10818066a055be17884f79404cd06cd98f326c01 usb: ohci: Make distrust_firmware param default to false
-05e6117992d9b451d01995d882db9244ba149383 compiler.h: Raise minimum version of GCC to 5.1 for arm64
+0ff70fea9e8283eb2fa03ef2703530aa40949db0 ASoC: dapm: remove widget from dirty list on free
+89ff2270eb62602798dd94e712c9bab8730e04ff MIPS: boot: Fix unaligned access with CONFIG_MIPS_RAW_APPENDED_DTB
+5d8dc8d5ae5f2a2cc3fd248d0871fc7a80eb65c2 MIPS: Fix malformed NT_FILE and NT_SIGINFO in 32bit coredumps
+651b2386ca6cd5617b5870302360aee730bda902 MIPS: relocatable: fix possible boot hangup with KASLR enabled
+393682b78210abc6c89b95b477b3bee64147b55e ACPI: scan: Harden acpi_device_add() against device ID overflows
+e5703fa33470d244cc6d051eec060b3e9441b372 mm/hugetlb: fix potential missing huge page size info
+f5db51881c862704059fd3670a293f06fb64feec dm snapshot: flush merged data before committing metadata
+45de96f5a991b7f1664d70368abd915d05fb1aa9 r8152: Add Lenovo Powered USB-C Travel Hub
+4b26df076a3997b5342d888d57ccacfdb64e5f57 ext4: fix bug for rename with RENAME_WHITEOUT
+9b21d8369fc1ec73b8619ccb0f81db909f9df882 ARC: build: remove non-existing bootpImage from KBUILD_IMAGE
+224910bfd91d0171090a631de885c52dac8c9540 ARC: build: add uImage.lzma to the top-level target
+35505ca3d3894bf5ac0bf98961a5a5d63ca5cea4 ARC: build: add boot_targets to PHONY
+6561983672c3381882f9f673788dd0f02ba10919 btrfs: fix transaction leak and crash after RO remount caused by qgroup rescan
+01d08dead2924dd644c5c884702d9c626b3851bd ethernet: ucc_geth: fix definition and size of ucc_geth_tx_global_pram
+d47dba369c32411f82e0ef0d1e56b57f4c6baf81 arch/arc: add copy_user_page() to <asm/page.h> to fix build error on ARC
+6c40150fd8ec03aa9fb60312b7c640b059cb71eb misdn: dsp: select CONFIG_BITREVERSE
+3ad78a2fa7f393141e1f2f57e5c8788fff412ac7 net: ethernet: fs_enet: Add missing MODULE_LICENSE
+3d43c875ae56b9af390365a44e3739504f4fc063 ACPI: scan: add stub acpi_create_platform_device() for !CONFIG_ACPI
+2246523479da95099a09cf106f258b3e1bb5b3ce ARM: picoxcell: fix missing interrupt-parent properties
+1cf4c54d30fe7c8a187f9284c7ecda4c3dd2ab42 dump_common_audit_data(): fix racy accesses to ->d_name
+7313c7bd56305e83c3478363642a5024d0e49900 ASoC: Intel: fix error code cnl_set_dsp_D0()
+f3959af3ab1ee30787b7b5d1977ca97ec36a8fd3 NFS4: Fix use-after-free in trace_event_raw_event_nfs4_set_lock
+7d51af628cb88ebf765066dfd454e9708169db2e pNFS: Mark layout for return if return-on-close was not sent
+e2d6c613d901a52fab7b68b468413e2d11355d2d NFS: nfs_igrab_and_active must first reference the superblock
+5a2469d295c528d81e1f1c29650742524c7b3f69 ext4: fix superblock checksum failure when setting password salt
+142998c6bd02c8594e156eac5a2abf25e1e9c286 RDMA/usnic: Fix memleak in find_free_vf_and_create_qp_grp
+9b32dce877ba6816de0029fc01593214a5f9508a mm, slub: consider rest of partial list if acquire_slab() fails
+361672fb3bcb826c998ad6b05697f065781d52e0 net: sunrpc: interpret the return value of kstrtou32 correctly
+89f73e80ad9c2b05ba6162c6dd8e62ec13d7e9c7 dm: eliminate potential source of excessive kernel log noise
+10de892789107a425b1ac937372bd5378731c9a0 ALSA: firewire-tascam: Fix integer overflow in midi_port_work()
+b0b5a3fb2e8c03aecd89d9f6e23fbd28dbbffb57 ALSA: fireface: Fix integer overflow in transmit_midi_msg()
+da78909c98d366d80c3729cf7d8021d5c4af4de9 netfilter: conntrack: fix reading nf_conntrack_buckets
+2a778fad0f3ddd976fcd4493ac667d0579193aa3 usb: ohci: Make distrust_firmware param default to false
+6f002f6e0261e166f9ea65d87e001e24334a5ecb compiler.h: Raise minimum version of GCC to 5.1 for arm64
 
---===============7280832728045771864==
+--===============2086029088733381532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8eea68ad73c7-12ef1dd7c7d1.txt
+Content-Disposition: attachment; filename=revlist-12ef1dd7c7d1-ef713b30ae1f.txt
 
-9c7f4a8971b2bf04ab76f68477c081e11f8866ef ASoC: dapm: remove widget from dirty list on free
-c52fc01c13f8e800527a7378d460c672b023bb50 MIPS: Fix malformed NT_FILE and NT_SIGINFO in 32bit coredumps
-f4dcef1254288842f4f61b71d0a4197acae7a9dd mm/hugetlb: fix potential missing huge page size info
-e90de81d56eea8c1bc76803025e347addd92ed0d ext4: fix bug for rename with RENAME_WHITEOUT
-d5062c10324aec9df037bdd4e483e6124a90fe37 ARC: build: add boot_targets to PHONY
-f14a4cf1445cc2ea8dd914b340c670149e2b40aa ethernet: ucc_geth: fix definition and size of ucc_geth_tx_global_pram
-cf4316ed42f910125b2a01b93815351f523ee9d8 arch/arc: add copy_user_page() to <asm/page.h> to fix build error on ARC
-1abdfa879651c229a874d7a5d3d8fd6798b76b3c misdn: dsp: select CONFIG_BITREVERSE
-71379205773fdfe687cfc27db9b223585bfb0182 net: ethernet: fs_enet: Add missing MODULE_LICENSE
-184783495917b62adc2228fa3cd599971556b18d ACPI: scan: add stub acpi_create_platform_device() for !CONFIG_ACPI
-f062bffdf17dea9287c55622642f18b8b0dd7edc ARM: picoxcell: fix missing interrupt-parent properties
-b1a8dfaa65daf37e55a5cc628210bfbd55540bdb Input: uinput - avoid FF flush when destroying device
-cf62ce4ca593d829b176ec11103f3a86e1138c69 dump_common_audit_data(): fix racy accesses to ->d_name
-b3ea3e2df1f2e7e384301322e7668dc5db359206 NFS: nfs_igrab_and_active must first reference the superblock
-9bd059b24bc4cc462c824a9f1e4dc0d0bca5fdbd ext4: fix superblock checksum failure when setting password salt
-f20a6e5da47ff532dcac0402dde1f9e8d15bcdec RDMA/usnic: Fix memleak in find_free_vf_and_create_qp_grp
-f5840e04d620902b5006719b7873e9b807ea12d6 mm, slub: consider rest of partial list if acquire_slab() fails
-0fe460183d88022c468b9272a7742276980918ae net: sunrpc: interpret the return value of kstrtou32 correctly
-37f48c2a2961c4b96f1c9749b8414ae90a201076 usb: ohci: Make distrust_firmware param default to false
-12ef1dd7c7d1cd2301adb1265b7d1a350d893ee8 compiler.h: Raise minimum version of GCC to 5.1 for arm64
+2577e4c061fa49ab647a123220217ef017bdbbcc ASoC: dapm: remove widget from dirty list on free
+39d5c383cbe6cb3bd7d33c116ed53af0ceb4b40b MIPS: Fix malformed NT_FILE and NT_SIGINFO in 32bit coredumps
+f45f84c008cf6f2d2bd2eefdd489a1b198a0fa8b mm/hugetlb: fix potential missing huge page size info
+0af9fac329424546f41405f1588047422b65c0ce ext4: fix bug for rename with RENAME_WHITEOUT
+f2482e7e30de7ffc131d919e4b4d14cc4810ee7e ARC: build: add boot_targets to PHONY
+e8ee244c50a03883871ed8e1d869c1afaca6d425 ethernet: ucc_geth: fix definition and size of ucc_geth_tx_global_pram
+40e9348ac853bd1f3e4b21f394a1fff919ffc6f2 arch/arc: add copy_user_page() to <asm/page.h> to fix build error on ARC
+aae273feb2324a9ac1cf0ec9c3be98eb95398437 misdn: dsp: select CONFIG_BITREVERSE
+c29d6f2dd93f6f9c0243466da84ab67de140d9be net: ethernet: fs_enet: Add missing MODULE_LICENSE
+85c8b4768b7a3e9c2eb6b099e1d491bd7a06093b ACPI: scan: add stub acpi_create_platform_device() for !CONFIG_ACPI
+5f6ccc9e65a88dc0c947879ebb10e5f93fa2a12c ARM: picoxcell: fix missing interrupt-parent properties
+03cd07a6304f6eab15ea9124b8d22c969a543bbc Input: uinput - avoid FF flush when destroying device
+fcd636eff23df734c29ff38b6b85572361901ea3 dump_common_audit_data(): fix racy accesses to ->d_name
+91ed5bb291cec90037f60635c91d4e45d09099d6 NFS: nfs_igrab_and_active must first reference the superblock
+70810c4a9a3e0421fb1ec3ad81973588681a7122 ext4: fix superblock checksum failure when setting password salt
+eb8204cc7bd70820822cdc3ac084e758d77e03a9 RDMA/usnic: Fix memleak in find_free_vf_and_create_qp_grp
+abeadec42a4c47caf9ca201a33713bea5875cb02 mm, slub: consider rest of partial list if acquire_slab() fails
+55349e098334ca411df45b02dc30fa84b5123edd net: sunrpc: interpret the return value of kstrtou32 correctly
+53e20b241127ff9fb5da0f561f18e104ce4bdc0b usb: ohci: Make distrust_firmware param default to false
+ef713b30ae1ff77ad15b26a56673eea20ddafc80 compiler.h: Raise minimum version of GCC to 5.1 for arm64
 
---===============7280832728045771864==
+--===============2086029088733381532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-080fdef4dd94-55f0c40c9aa5.txt
+Content-Disposition: attachment; filename=revlist-55f0c40c9aa5-0be1a28c1588.txt
 
-57cb3536a555cae99bdeef91b6e8d68e80ffff10 ASoC: dapm: remove widget from dirty list on free
-908a4bee9337847d02fbebfddd9d6b223af369da MIPS: boot: Fix unaligned access with CONFIG_MIPS_RAW_APPENDED_DTB
-6848943224f48fd5e2610e2e47401a2468d6ac93 MIPS: Fix malformed NT_FILE and NT_SIGINFO in 32bit coredumps
-714952375ceef3be22a286468a7921ab520e2bc8 MIPS: relocatable: fix possible boot hangup with KASLR enabled
-ab69972c078e2f2423e39a6fefc66b15bde5005f ACPI: scan: Harden acpi_device_add() against device ID overflows
-5893e7c8a611b86b008795f72f85283152b8153d mm/hugetlb: fix potential missing huge page size info
-f30bfe2d1d0a32dc354f7b88c11826f184dcd5d3 ext4: fix bug for rename with RENAME_WHITEOUT
-46e54845e41a67935418e7a21199c66529816d7d ARC: build: add boot_targets to PHONY
-a29cc5f96a9bf8565ddc465cd36c29d7382eb4b3 ethernet: ucc_geth: fix definition and size of ucc_geth_tx_global_pram
-7aaefd0bfeb60ddb11343bfde2d7b9daa6c064b3 arch/arc: add copy_user_page() to <asm/page.h> to fix build error on ARC
-bdbec787c1753701e2e6d7d3802a1dbd6493847c misdn: dsp: select CONFIG_BITREVERSE
-2cf389dae824e0948c43132777b8cc13f5cb5960 net: ethernet: fs_enet: Add missing MODULE_LICENSE
-945359774c012b83e220fa73348d07db34a01df7 ACPI: scan: add stub acpi_create_platform_device() for !CONFIG_ACPI
-e8e244a96e671aefd02afdfa9fb4fa524ccebc0a ARM: picoxcell: fix missing interrupt-parent properties
-e90c312d4ddfb11120b4a93b9022c9bdeca68c1d Input: uinput - avoid FF flush when destroying device
-fb6650b679231cc9834ab6a9c9075d32d37be165 dump_common_audit_data(): fix racy accesses to ->d_name
-e4ad0faaa6df7a60eeacf0a928fa7645e75a59e0 NFS: nfs_igrab_and_active must first reference the superblock
-d28cccb158ef8c0976794207e4c710e147154e6a ext4: fix superblock checksum failure when setting password salt
-b9e1a97b3aeb0b49b56c992c1eb225ebf586a855 RDMA/usnic: Fix memleak in find_free_vf_and_create_qp_grp
-1db8321541b0ef4db2eabf8fff2354f1e7e13a74 mm, slub: consider rest of partial list if acquire_slab() fails
-ebd9041f4842f2ec7ce8ef8261a0bfa2f5802d74 net: sunrpc: interpret the return value of kstrtou32 correctly
-929e5c97a0e78b610bf7e1f36057c1aec66c3735 netfilter: conntrack: fix reading nf_conntrack_buckets
-4dedca5bb161d91b1943e5072f36af38dff52608 usb: ohci: Make distrust_firmware param default to false
-55f0c40c9aa50dd733f3524017c6b6a09cc01e28 compiler.h: Raise minimum version of GCC to 5.1 for arm64
+346e755fda692084f8849e2a968cc204275d9c38 ASoC: dapm: remove widget from dirty list on free
+a088306eb491551c70add82ad1320685c48baf51 MIPS: boot: Fix unaligned access with CONFIG_MIPS_RAW_APPENDED_DTB
+0679ebb3c723cf62a61ff493f6ef00248611d96d MIPS: Fix malformed NT_FILE and NT_SIGINFO in 32bit coredumps
+39402147b03275d5652440e8f385e16f5a5031f7 MIPS: relocatable: fix possible boot hangup with KASLR enabled
+25cc3f0f9ee0bbae9dd5ea61a0e195c5a099ea52 ACPI: scan: Harden acpi_device_add() against device ID overflows
+9da72cda7aaa162f2d5e3f8274bf66536a8f7428 mm/hugetlb: fix potential missing huge page size info
+7ac63e4db0a3833f20952020f39a45193b830eeb ext4: fix bug for rename with RENAME_WHITEOUT
+baed2c5e75394b5ec96c3cbe803996dede14dddd ARC: build: add boot_targets to PHONY
+b187ee65359432b5ce375991ad4cd1f77c000158 ethernet: ucc_geth: fix definition and size of ucc_geth_tx_global_pram
+a5b864fc60037179e1b4a32252b7538866b4c0ec arch/arc: add copy_user_page() to <asm/page.h> to fix build error on ARC
+678c296fc3417090bfa8ff43bd1a98c0220b185b misdn: dsp: select CONFIG_BITREVERSE
+3d113f8871de338406325f0e98c096666efe7a6b net: ethernet: fs_enet: Add missing MODULE_LICENSE
+6c2752d63c4f6a6ec4583f5035e2808ebae4eedb ACPI: scan: add stub acpi_create_platform_device() for !CONFIG_ACPI
+c6cc4eec448a35acccbbff40b12dec12303d804b ARM: picoxcell: fix missing interrupt-parent properties
+77aa5baf9ae8b46638d1a9a471a5b59670140aec Input: uinput - avoid FF flush when destroying device
+89a0772653f77674e8cc5fa2ed5e05c75e661e29 dump_common_audit_data(): fix racy accesses to ->d_name
+3e0784d9dd21b567b116e630cb752341442333dc NFS: nfs_igrab_and_active must first reference the superblock
+793521166336242b602da9efbee6ceba2f337487 ext4: fix superblock checksum failure when setting password salt
+a145d7ac808ff92ec4ca6cc8047b16855422b9b1 RDMA/usnic: Fix memleak in find_free_vf_and_create_qp_grp
+a390b18df32a1d0a508eeb8f303c28c130079cb1 mm, slub: consider rest of partial list if acquire_slab() fails
+d2c6dd4412e199293e44878c0bf99434688e905f net: sunrpc: interpret the return value of kstrtou32 correctly
+0bb6554208f9cbe07fe5bc354ad9a585195d819d netfilter: conntrack: fix reading nf_conntrack_buckets
+6f61698273bcd0dd96b598e67d1a2d123b55985b usb: ohci: Make distrust_firmware param default to false
+0be1a28c15880056194c90a3bf3f0244ce7d095c compiler.h: Raise minimum version of GCC to 5.1 for arm64
 
---===============7280832728045771864==--
+--===============2086029088733381532==--
