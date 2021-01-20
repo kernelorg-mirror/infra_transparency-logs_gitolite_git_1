@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Wed, 20 Jan 2021 22:39:03 -0000
-Message-Id: <161118234398.18698.710425526909290851@gitolite.kernel.org>
+Date: Wed, 20 Jan 2021 22:43:48 -0000
+Message-Id: <161118262845.23823.13265096030123503164@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mtd/linux
 user: mraynal
 changes:
-  - ref: refs/heads/mtd/fixes
-    old: e708789c4a87989faff1131ccfdc465a1c1eddbc
-    new: b135b3358d73aa2a8b2be35d08e422421d1c609e
+  - ref: refs/heads/nand/next
+    old: 89f34274ff2f26256c7609ddf80d13b1fa9e595b
+    new: d986effd14097bbaf8953db18b58e20988ef3e84
     log: |
-         b135b3358d73aa2a8b2be35d08e422421d1c609e mtd: rawnand: omap: Use BCH private fields in the specific OOB layout
+         d986effd14097bbaf8953db18b58e20988ef3e84 mtd: rawnand: tango: Remove the driver
          
