@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 20 Jan 2021 03:47:14 -0000
-Message-Id: <161111443433.31230.14718826141962363399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 20 Jan 2021 03:50:03 -0000
+Message-Id: <161111460306.32681.9364885050511886403@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: b160c28548bc0a87cbd16d5af6d3edcfd70b8c9a
-    new: 8e4052c32d6b4b39c1e13c652c7e33748d447409
+  - ref: refs/heads/for-5.12/io_uring
+    old: ef899137ee34c7803195717164279cdc6ebd3396
+    new: ddebaa7f62a202b40378a5a71d1a51737277d773
     log: |
-         8e4052c32d6b4b39c1e13c652c7e33748d447409 net: dsa: b53: fix an off by one in checking "vlan->vid"
+         423b9c454ff42b9a4699e6f6708d37c9b12aec05 io_uring: simplify io_remove_personalities()
+         31cfbdc36ece9b8187b3c5ca78e5db3b803d91b2 io_uring: remove cancel_files and inflight tracking
+         734047896786c0135c56aa11e1136f2c607af2d6 io_uring: cleanup iowq cancellation files matching
+         ddebaa7f62a202b40378a5a71d1a51737277d773 io_uring: don't pass files for cancellation
          
