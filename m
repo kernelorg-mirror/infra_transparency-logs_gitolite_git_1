@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0617329352818970186=="
+Content-Type: multipart/mixed; boundary="===============0078992813828168900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 21 Jan 2021 19:37:42 -0000
-Message-Id: <161125786201.5817.16467262920827965997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 21 Jan 2021 19:37:49 -0000
+Message-Id: <161125786928.5961.10905370772305121171@gitolite.kernel.org>
 
---===============0617329352818970186==
+--===============0078992813828168900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 411fc208eb60ec2588ee37bc8e3551e0bf695fda
     new: 1d8fe0648e118fd495a2cb393a34eb8d428e7808
     log: |
@@ -24,37 +24,37 @@ changes:
          c1c3ba1f78354a20222d291ed6fedd17b7a74fd7 ASoC: Intel: Skylake: skl-topology: Fix OOPs ib skl_tplg_complete
          1d8fe0648e118fd495a2cb393a34eb8d428e7808 ASoC: Intel: Skylake: Zero snd_ctl_elem_value
          
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 879a67e3577020012bfad1b45aae124ec23c5db0
     new: c7a83edf9d0869011c66befe83ec8f27689d0336
     log: revlist-879a67e35770-c7a83edf9d08.txt
 
---===============0617329352818970186==
+--===============0078992813828168900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1611257823 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1611257858-8de5c619b3632072e00e5c10658c684fd4110894
+pusher C3F436CA30F5D8EB 1611257830 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1611257866-c3c1baabf6660fc4dddcf96fedbc96afd60319a0
 
-411fc208eb60ec2588ee37bc8e3551e0bf695fda 1d8fe0648e118fd495a2cb393a34eb8d428e7808 refs/heads/for-5.11
-879a67e3577020012bfad1b45aae124ec23c5db0 c7a83edf9d0869011c66befe83ec8f27689d0336 refs/heads/for-5.12
+411fc208eb60ec2588ee37bc8e3551e0bf695fda 1d8fe0648e118fd495a2cb393a34eb8d428e7808 refs/heads/asoc-5.11
+879a67e3577020012bfad1b45aae124ec23c5db0 c7a83edf9d0869011c66befe83ec8f27689d0336 refs/heads/asoc-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAJ198ACgkQJNaLcl1U
-h9Dcgwf/eIbvpR/DTXNhPGEdIrnckPUZcK7yD4wuEC2TexW1VMTifDrESHKcSNEv
-JJW6+5om15wMeymB264vOVirb24LtEtQR9qeMAtRKV078FvywDKGB+ojA3oUPVxw
-QhrQHTGH3d4ElaMnmxrm4kCZIkUoBfTlmlFwReaGuVAlxDPEKsH0bpODyRPcK44U
-IlWAkx4rwUsgITkVtWk54IxKXPM0mIZsQJS96jrCnvA5Aycqhb0sCQiUti2DmYNU
-qcu+oFLaO/1YCVfpRpE6td1LmpzaSJBF9Jb75JulUlChxe56PURHoEvmYbIo19pe
-0DrouQeTsJ6wzwUaCXpXZzzJW2EwGg==
-=+lLQ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAJ1+YACgkQJNaLcl1U
+h9BWCgf/R6+whiMJzA3pwyj/lKtD7c0cjJtMpKw50Tkf1+obzmjAZv8WceKuYpXR
+tWvXcWD4vL+pFD0OB58m58Ncc9DBVvPCRoq0qmaV7hSl8Uuq0Rx2XFjx5j2JjFRK
+83z0nlUiPDQ5FaHDnsYzY2X+4TaSfcioskSYvichikG3ZATkSLaAmtto/NhSFeh+
+BFG/PNof/yguO3Kxt+k8EgmNB2jp37zMJn8isr1JJV1D0hwASWeEaetg8A5JykYN
+ieoQ3hbRCHavK55zbk37UYNW0J0oFCP/bLoaorwjf/DRnUvPD/z6+Gtoc6yo5xmu
+5scNMYqO20wYBrALz4QOnOoVRdAxvg==
+=gwfG
 -----END PGP SIGNATURE-----
 
---===============0617329352818970186==
+--===============0078992813828168900==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -114,4 +114,4 @@ fac110cbcddec115c7d4b79d7491aebebbe44469 ASoC: soc-pcm: cleanup soc_pcm_apply_sy
 ff385c1f4ca8b755ea2abf0b92a602860e91f020 Merge series "ASoC: sync parameter naming : rate / sample_bits" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 c7a83edf9d0869011c66befe83ec8f27689d0336 Merge series "Add sanity checks for topology API calls" from Amadeusz Sławiński<amadeuszx.slawinski@linux.intel.com>:
 
---===============0617329352818970186==--
+--===============0078992813828168900==--
