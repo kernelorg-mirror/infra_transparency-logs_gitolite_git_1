@@ -1,56 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============8801424089360925751=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 21 Jan 2021 12:49:56 -0000
-Message-Id: <161123339672.29187.12407589488113474059@gitolite.kernel.org>
-
---===============8801424089360925751==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 21 Jan 2021 12:50:03 -0000
+Message-Id: <161123340354.30567.13252949778279555031@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 77d2bb82b49f15d048be9ade8b09ea1bb2ea7805
-    new: f21b66f99f62d26691c5a67385f424d7325d3495
+  - ref: refs/heads/block-5.11
+    old: 8dfe11681758b5c23618233e664d3a5ac417a3ed
+    new: 97784481757fba7570121a70dd37ca74a29f50a8
     log: |
-         f21b66f99f62d26691c5a67385f424d7325d3495 5.10-stable patches
+         4d6b1c95b974761c01cbad92321b82232b66d2a2 nvme: check the PRINFO bit before deciding the host buffer length
+         7674073b2ed35ac951a49c425dec6b39d5a57140 nvme-rdma: avoid request double completion for concurrent nvme_rdma_timeout
+         9ebbfe495ecd2e51bc92ac21ed5817c3b9e223ce nvme-tcp: avoid request double completion for concurrent nvme_tcp_timeout
+         20d3bb92e84d417b0494a3b6867f0c86713db257 nvme-pci: allow use of cmb on v1.4 controllers
+         bffcd507780ea614b5543c66f2e37ce0d55cd449 nvmet: set right status on error in id-ns handler
+         9275c206f88e5c49cb3e71932c81c8561083db9e nvme-pci: refactor nvme_unmap_data
+         fa0732168fa1369dd089e5b06d6158a68229f7b7 nvme-pci: fix error unwind in nvme_map_data
+         1df35bf0b4e17322ec67e88b86ba21a17f904069 Merge tag 'nvme-5.11-2020-01-21' of git://git.infradead.org/nvme into block-5.11
+         97784481757fba7570121a70dd37ca74a29f50a8 lightnvm: fix memory leak when submit fails
          
-
---===============8801424089360925751==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611233396 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1611233394-c3679eb18fd7b92290252b469ec8d5b874e39473
-
-77d2bb82b49f15d048be9ade8b09ea1bb2ea7805 f21b66f99f62d26691c5a67385f424d7325d3495 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAJeHQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cksP/3iPJ19SU3JdhDT/oibw
-V3C/8l86Lui//l8OC9rF/w7dL1rYC1gwuxYfB1/qkPHIaMeXyP7AMNXvCuguInvH
-W8qjCR9eIimwa7tw6d7xgMtqQo1wGySoIda/H8svTL9bDp1zG4x0hUw0WqdBEAPT
-srzs+LO4/za9X/8BV3ie+3BfmycZ+ihOw4fZszSSQWbF2dzb8w+1PIrPM3eywySN
-NP5hFoGSZeKLhRCMP5+mo0Atui0ZZxCVS5gRjGP8tucr/f54N2D5acT1VSeCxuwK
-unRveOuRxwL2mckRgT1hMScxscgzR2S9ky4I0EwvMZgGkoR/uIWMxKA+GFZ2h4ON
-YPdCc8kjaeBXHDRwZX4+q9JwyMGLpymA3BNS2a83jKpqNed2+0fhZG3EG+Vo2yzP
-8eg3/CZJQRHM3pOpDadM5rQ67JMSCO27n+p5VYz9/HtlvxFDY9sKSzmtapMiACB5
-AY74vaWuAASTPqfmMgx3eWyyooTb+xpzaKqkLjkTpz+DDbwf4EGRe3yzul2REHRf
-2xjxTh1RU7zMY0ttKyjKVlOI45k32O4vbkPsq7H1WJ8U05jHlaRl2S5j3aFX+64z
-WgUkCYhsuf3VsHSBNZkHmCAUJXuqKVDwjL4Gk7Ci/ilCXESOAt8uwdWtKMPXu2EV
-U2YLkaRfacJjjRey1CVOqgpu
-=wehB
------END PGP SIGNATURE-----
-
---===============8801424089360925751==--
+  - ref: refs/heads/io_uring-5.11
+    old: 627fa64336642a3e9e5992feef8c785db5254248
+    new: 35d46f17299a1519b729cdfa08c8d2eaafd8aa52
+    log: |
+         7c7d3d1733ec2cdd9ccf09575e65a5ef8776c945 io_uring: cancel all requests on task exit
+         e455fe26635f86a65dc97c670ab58f0cab2bc389 io_uring: fix SQPOLL IORING_OP_CLOSE cancelation state
+         35d46f17299a1519b729cdfa08c8d2eaafd8aa52 io_uring: fix short read retries for non-reg files
+         
