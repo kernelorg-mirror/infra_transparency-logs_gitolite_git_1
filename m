@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 21 Jan 2021 11:01:51 -0000
-Message-Id: <161122691158.23465.1270379985350889718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Thu, 21 Jan 2021 11:09:25 -0000
+Message-Id: <161122736566.26938.17803113453121931630@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/master
-    old: 31862cde0a0551b42e6b84015da7719a784007d9
-    new: 798608c842e5fef0641e61c845cd2da47839514f
+  - ref: refs/heads/usb-next
+    old: cfb0fde7a7fab4509fdb4f7ab72d5fd7157c0aa0
+    new: 5f6225a7fb2c863ca40ca282478933c0afdb3512
     log: |
-         2c2ff04fe96abd8acebba5b33b7c0383dbe73b79 libmount: add vboxsf, virtiofs to pseudo filesystems
-         798608c842e5fef0641e61c845cd2da47839514f Merge branch 'fix-vms' of https://github.com/Govelius/util-linux
+         c2d405aa86b451f197ee95cb08887130b86b765e USB: serial: add MaxLinear/Exar USB to Serial driver
+         5f6225a7fb2c863ca40ca282478933c0afdb3512 USB: cdc-acm: ignore Exar XR21V141X when serial driver is built
          
