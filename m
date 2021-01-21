@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6941326548230790526=="
+Content-Type: multipart/mixed; boundary="===============6947683540961264128=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 21 Jan 2021 00:04:31 -0000
-Message-Id: <161118747171.9324.15860127548730112877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 21 Jan 2021 00:04:37 -0000
+Message-Id: <161118747799.9429.13035932914940200720@gitolite.kernel.org>
 
---===============6941326548230790526==
+--===============6947683540961264128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: e36626bb099e5159a7868dbfad6957ff6b0e4102
     new: 411fc208eb60ec2588ee37bc8e3551e0bf695fda
     log: revlist-e36626bb099e-411fc208eb60.txt
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 6b050d45a60b3fa08d46eda845ec28d7addfd715
     new: 879a67e3577020012bfad1b45aae124ec23c5db0
     log: revlist-6b050d45a60b-879a67e35770.txt
 
---===============6941326548230790526==
+--===============6947683540961264128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1611187434 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1611187469-8a522fbf3174f7f13c6b8ff6825557d26e23e23b
+pusher C3F436CA30F5D8EB 1611187440 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1611187475-f93e1c36050d28a7cc33788592ea823f772e4365
 
-e36626bb099e5159a7868dbfad6957ff6b0e4102 411fc208eb60ec2588ee37bc8e3551e0bf695fda refs/heads/for-5.11
-6b050d45a60b3fa08d46eda845ec28d7addfd715 879a67e3577020012bfad1b45aae124ec23c5db0 refs/heads/for-5.12
+e36626bb099e5159a7868dbfad6957ff6b0e4102 411fc208eb60ec2588ee37bc8e3551e0bf695fda refs/heads/asoc-5.11
+6b050d45a60b3fa08d46eda845ec28d7addfd715 879a67e3577020012bfad1b45aae124ec23c5db0 refs/heads/asoc-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAIxOoACgkQJNaLcl1U
-h9A19Qf9G7k3GRF/VKyblqzeT5A5P4FG1f58No6rH26q03e3WeZddElCN8dnbEK6
-jPZP+C2SRd4WkxvYo61U1lL3b+N0lLfYoYsirilWVY59VH6dPigTBDJy0FafOI1M
-lFf0SafJSmOqomyffo7cI/TIiY0uGwi2GP+5w0mOyA3pKSE4JSOhhHBklKW6cl/k
-ugXDRFZNbN36qTMHfNzxvO0/EBAGIbeudJiWxecipV0A6HV3NMu633tZ7YGCkXO6
-dtcjHfIFxmvg/jmTlSRmAX2G2tt5PJQtng0uOkI9SZoeI8c/u9pUuShziNdfgqSl
-x5ApiZeNGb1a0PchbfhO2kVYp05Cng==
-=GOjF
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAIxPAACgkQJNaLcl1U
+h9C1bgf/YQy1TzhCrmlxjxWdjiVOfcFJOtnW2dqhYvpBNdginmJvrOG4xMx9VEKs
+S4eyXe9bTEAjPWwEDzmcTQLojZmHJZ8XhVicTZmYKBz/5zwDciV/XaeBT98DBkrE
+ST5hk7W68z3F8J+d58JlTyDZokiCROJXlKel9KvPXKtCk4xg7nH60s2VqEWLCpo9
+2wkmp9tMIBdeeP4wHpOjeXsUSPqOo9fbNEv4PBrrLrL4T31Bk0m6P57JtRxv3Lre
+C+8aJcf6fEdBfiz7av4IA3kxbxZkd6jr2zrZjq7r73lI5H9aBdRLP2sXSthYGJ89
+QGo0VtbABsRQxFnntHW/TC7IZ2SO8A==
+=D308
 -----END PGP SIGNATURE-----
 
---===============6941326548230790526==
+--===============6947683540961264128==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -68,7 +68,7 @@ fc4cb1e15f0c66f2e37314349dc4a82bd946fbb1 ASoC: topology: Properly unregister DAI
 d146c7b0fe9a55ec5911fae25e2f697b5dedd6c0 Merge series "ASoC: mediatek: mt8183: ignore TDM DAI link by by default" from Tzung-Bi Shih <tzungbi@google.com>:
 411fc208eb60ec2588ee37bc8e3551e0bf695fda Merge series "ASoC: qcom: Fix broken lpass driver" from Srinivas Kandagatla <srinivas.kandagatla@linaro.org>:
 
---===============6941326548230790526==
+--===============6947683540961264128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -90,4 +90,4 @@ dc98f1d655ca4411b574b1bd2629e7132e502c1c ASoC: remove zte zx drivers
 55331b550f30f10b747327d20146bf06984b4d64 Merge series "ASoC: remove obsolete drivers" from Arnd Bergmann <arnd@kernel.org> Arnd Bergmann <arnd@arndb.de>:
 879a67e3577020012bfad1b45aae124ec23c5db0 Merge series "ASoC: mediatek: mt8192-mt6359: support DP audio" from Tzung-Bi Shih <tzungbi@google.com>:
 
---===============6941326548230790526==--
+--===============6947683540961264128==--
