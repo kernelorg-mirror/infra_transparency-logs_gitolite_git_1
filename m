@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7433316453628785358=="
+Content-Type: multipart/mixed; boundary="===============3139888737395317535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
-Date: Thu, 21 Jan 2021 13:31:36 -0000
-Message-Id: <161123589684.24129.2451535833841959209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 21 Jan 2021 13:32:40 -0000
+Message-Id: <161123596008.24591.3665198578375065492@gitolite.kernel.org>
 
---===============7433316453628785358==
+--===============3139888737395317535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211-next
-user: jberg
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 9e8789c85deee047c5753e22f725d5fc10682468
-    new: 453121a793f0d368ce9b72918cc14c01d90739c1
-    log: revlist-9e8789c85dee-453121a793f0.txt
+    old: f21b66f99f62d26691c5a67385f424d7325d3495
+    new: 3e344f630a64bc2951c0634c0303aada277a7294
+    log: |
+         3e344f630a64bc2951c0634c0303aada277a7294 4.4-stable patches
+         
 
---===============7433316453628785358==
+--===============3139888737395317535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e8789c85dee-453121a793f0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-07be2fed5ee7b3a01e0b21c15814b590af9c1527 net/fq_impl: bulk-free packets from a flow on overmemory
-bf9009bf21b53501f2abb2f59f9314d85bde5fc9 net/fq_impl: drop get_default_func, move default flow to fq_tin
-d7b649291782430904e17cde2ebfc90f76021ca5 net/fq_impl: do not maintain a backlog-sorted list of flows
-80a915ec4427f0083829f7e6518ee9f21521ee1e mac80211: add rx decapsulation offload support
-f1864e193dc04c3326522b4c0aa79b1d3653bbf0 mac80211: add LDPC encoding to ieee80211_parse_tx_radiotap
-28881922abd786a1e62a4ca77394a84373dd5279 mac80211_hwsim: add 6GHz channels
-2d5e09d05827f9aace60b9711d9680e5da51ca5d mac80211: remove NSS number of 160MHz if not support 160MHz for HE
-e70a60adbd21519cb67f43c99483506fd4ef4d23 mac80211: reduce peer HE MCS/NSS to own capabilities
-dec785c52614ab45bb03d6f812122e41239392ab cfg80211: add VHT rate entries for MCS-10 and MCS-11
-08447bb2467bb8447f3b5bdd6609feac928d4394 cfg80211: Add phyrate conversion support for extended MCS in 60GHz band
-352a123b0e80f494cf2e57442e7f028104afbd80 mac80211: introduce aql_enable node in debugfs
-7c4af4b954d6d9da2cc79765875c3ae2b51a2afa mac80211: minstrel_ht: clean up CCK code
-65504299ddc819b51a8dcd397c4cb8efc6d9428b mac80211: minstrel_ht: add support for OFDM rates on non-HT clients
-872f6ed185509a01d9f52055d982a629c1eb146d mac80211: remove legacy minstrel rate control
-e0040ac3822da068aa4196504195afa02c51bd0e mac80211: minstrel_ht: remove old ewma based rate average code
-63f2cb6477bb2e37bb98f6223725fd0f691addcf mac80211: minstrel_ht: improve ampdu length estimation
-381a57fdebb3c3b76c2b4fb65bf1befa8ffdc6b6 mac80211: minstrel_ht: improve sample rate selection
-c711bce8979f94c706adc54eed920e85c6ef34c9 mac80211: minstrel_ht: fix max probability rate selection
-4d3837284d27a5bff6b324fb8381cc91391894ea mac80211: minstrel_ht: increase stats update interval
-783b76849c9cbab9df7ac888687edb08f07a6151 mac80211: minstrel_ht: fix rounding error in throughput calculation
-453121a793f0d368ce9b72918cc14c01d90739c1 cfg80211: avoid holding the RTNL when calling the driver
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611235959 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1611235958-4772184da788b1df8a99bd007376fe85f8f9d09e
 
---===============7433316453628785358==--
+f21b66f99f62d26691c5a67385f424d7325d3495 3e344f630a64bc2951c0634c0303aada277a7294 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAJgncbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3OUP/A3M38MYLhjiJJ+3xxIh
+r+SLKtBqdT/+o/U7yDMfthZMSq3I9W3sTBISGGz0pcTb1RsyNtiUA9g5ypXmFSlp
+UxJoVLdbn31O55F/BLuklYYP5CiN1CY11lLWXqANrIWbOlGz35eLc1EdKDz7zL7J
+H4pUBenjmZzgbgbM/sUOtw6Jb6yl1Xw00c42dvJ5DbOneITmx+VZppCB3rK5XAxg
+kC6muj0mWWqKSqfUPlShTf27iuxdq3jkZAvsIF8H9wlRk+mhutQXbiJFafsGE1jO
+k/SLO0o31C4juekURHfPRFejNI2i2qr2WWP4F9StmBkPDl6i2glunZAhOCHmOHmQ
+uPq9QNUkRzpcQrjaRbsJ+KfeFUTjGctMtUlSjEJvSNbO9rPtIIYzxzKntJPzIc0o
+QDX8UEKgFkOSmTCask9OKOuhxyd54TtPFdx7a8vRiPRaUUN71lrqAbjwY94ZsumS
+9OuuF7zcxfQSOnvpA8TlFFmmPu/+rX5yXZDDWVpzkXxlU646zCrF6ToWL/d60dw+
+UBlRha4D+TnuERRlIOmRziPvvgmEOV6/TogdjdTJiLFf0s1Um1FkAUGuX7KqmKpp
+YouQPdpVaNvVSZnZ8vQx+MxdBdWC0WBGosJ+RcoqmLul8F6ZXHX/NFm8Y5Ex78jo
+CET1Kgfq66GalIAU5lGXNmtb
+=0DtH
+-----END PGP SIGNATURE-----
+
+--===============3139888737395317535==--
