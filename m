@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Thu, 21 Jan 2021 14:25:59 -0000
-Message-Id: <161123915956.31894.9804353857036363660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Thu, 21 Jan 2021 14:28:03 -0000
+Message-Id: <161123928342.32556.17990591665095465088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: nferre
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/at91-next
-    old: 6bb5d7fe14326490d37dc351337be4ffead74c84
-    new: 5086cfd2dbf0482b48d957daef26ec69af132340
+  - ref: refs/heads/coresched
+    old: 4dbdf2010d3452bbc7f7c64a71f5ffdf07282334
+    new: 1c3c77abaa1e04998ec7089c3b2de0551962fdca
     log: |
-         1d9321cbc056bc365ebbd6d4c8f39c8461e3de3b ARM: dts: at91-sama5d27_wlsom1: add i2c recovery
-         314f4e24df55dbfad24e362fe7cdef412f223d0a ARM: dts: at91: sama5d2: remove atmel,wakeup-type references
-         5086cfd2dbf0482b48d957daef26ec69af132340 Merge branch 'at91-dt' into at91-next
+         e27afe8ba09167d1877a65edc61a62ed31168872 sched: CGroup tagging interface for core scheduling
+         bcfa149527ff263a5818d63b1ca5e8179977e5d4 kselftest: Add tests for core-sched interface
+         353f103f574a0b3c9699bca60729e692730432ff Documentation: Add core scheduling documentation
+         1c3c77abaa1e04998ec7089c3b2de0551962fdca sched: Debug bits...
          
