@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1222304395443214017=="
+Content-Type: multipart/mixed; boundary="===============4113850041546007327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 21 Jan 2021 21:05:28 -0000
-Message-Id: <161126312849.31966.5837086586078386098@gitolite.kernel.org>
+Date: Thu, 21 Jan 2021 21:05:36 -0000
+Message-Id: <161126313688.32121.17863102476481294800@gitolite.kernel.org>
 
---===============1222304395443214017==
+--===============4113850041546007327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,38 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 0fd9d23e59aa735006e9ebfcd3e7f383c28e3923
-    new: 8efe37890bf7c82bdaf41ee61481b20276f709a9
-    log: revlist-0fd9d23e59aa-8efe37890bf7.txt
+  - ref: refs/heads/net-next
+    old: 30d71bec6271da169b4134597730c4761f4135fb
+    new: 0f24cfee6677ee559efd7eec34bdaa345ad282b7
+    log: revlist-30d71bec6271-0f24cfee6677.txt
 
---===============1222304395443214017==
+--===============4113850041546007327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fd9d23e59aa-8efe37890bf7.txt
+Content-Disposition: attachment; filename=revlist-30d71bec6271-0f24cfee6677.txt
 
+5ed66306eab6953197c88e082d9ecc0b35e21538 octeontx2-af: Add devlink health reporters for NIX
+d41b3365bda7845b28c5a06eef19be0b353cf128 docs: octeontx2: Add Documentation for NIX health reporters
+e0171b87a04074767ed284475ae9f55ac9812972 Merge branch 'add-devlink-health-reporters-for-nix-block'
+0a950ce029c855060ceaea5a5eac511497c5619e ethernet: ucc_geth: remove unused read of temoder field
+e8e507a8ac90d48053dfdea9d4855495b0204956 soc: fsl: qe: make cpm_muram_offset take a const void* argument
+155ea0dc8dcb6066aaf4af5addd005b8968ce820 soc: fsl: qe: store muram_vbase as a void pointer instead of u8
+186b8daffb4ec2dabb8a3d93b329b16152a5a100 soc: fsl: qe: add cpm_muram_free_addr() helper
+03588e92c07fc57c048309004788f3fe3a7da926 ethernet: ucc_geth: use qe_muram_free_addr()
+0a71c415297fd7d408834a4585ae7c757bebbe4f ethernet: ucc_geth: remove unnecessary memset_io() calls
+830c8ddc66df5074075933a172b6698acbadbc7a ethernet: ucc_geth: replace kmalloc+memset by kzalloc
+7d9fe90036f75a766dce76df997d4067e22b93c6 ethernet: ucc_geth: remove {rx,tx}_glbl_pram_offset from struct ucc_geth_private
+632e3f2d9922c04fc179660693417b6d4a9007f1 ethernet: ucc_geth: factor out parsing of {rx,tx}-clock{,-name} properties
+b0292e086beeb741601bd984e10f2e2a585c20ae ethernet: ucc_geth: constify ugeth_primary_info
+baff4311c40ddae7bfc144dc628d4b11c19f0366 ethernet: ucc_geth: don't statically allocate eight ucc_geth_info
+b29fafd3570b21c484e08e949bc868bfc12f0df1 ethernet: ucc_geth: use UCC_GETH_{RX,TX}_BD_RING_ALIGNMENT macros directly
+64a99fe596f9cb2af2c23c64352817ff8cf662bb ethernet: ucc_geth: remove bd_mem_part and all associated code
+33deb13c87e561c3b566c60aede124a5e23981c1 ethernet: ucc_geth: replace kmalloc_array()+for loop by kcalloc()
+634b5bd7318725202ffad6cbf034b006970b1112 ethernet: ucc_geth: add helper to replace repeated switch statements
+53f49d86ea21084e7a1789a5256c170f27e02714 ethernet: ucc_geth: inform the compiler that numQueues is always 1
+9b0dfef4755301d9f7fcef63e2f64d23649bebb4 ethernet: ucc_geth: simplify rx/tx allocations
+961629bd32175eb075c99a825876dd77918d0641 Merge branch 'ucc_geth-improvements'
 9cacde1c9013d344da8f790c50baff09f60d6277 devlink: Prepare code to fill multiple port function attributes
 074876e352a8a269fc73e0824076e5af9eda6e72 devlink: Introduce PCI SF port flavour and port attribute
 13d5d20baef73c9604b44bc2d02c730c41824e66 devlink: Support add and delete devlink port
@@ -86,5 +107,14 @@ b2101782698ceea71ac5202e1f1ba33d00aef92f net/mlx5: Remove unused mlx5_core_healt
 70e33cc2dfe01eb3e6feb1ccc6a2c5bacb313d4f RDMA/mlx5: Use represntor E-Switch when getting netdev and metadata
 d74728a4361ca40c37390fdfba03f5e1100428c0 net/mlx5: E-Switch, Refactor send to vport to be more generic
 8efe37890bf7c82bdaf41ee61481b20276f709a9 net/mlx5: Add IFC bits needed for single FDB mode
+4026d80142b644c107586f279fa319ff5c6e0d18 MAINTAINERS: add entry for Arrow SpeedChips XRS7000 driver
+b9156de5296af463649d7bc74653979473e86637 Merge commit 'refs/changes/78/355678/27' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+3bebb5dcc26b7ebc8023944a6a6243c46613a88d net/mlx5e: rep: Improve reg_cX conditions
+7afd8b8177a549e6f5d86c8e08e4afc497a35404 Merge branch 'net-next-mlx4' into net-next
+9195cea6d6f84529526b9be9a87f446650770418 Merge branch 'mlx5-vdpa' into net-next
+b03cad09085dc11b50c69144c5e8948c8aa472f0 Merge branch 'net-next-mlx5' into net-next
+8215a3907aa6d19859da45706dbda2993f0be568 Merge branch 'net-mlx4' into net-next
+fd323d63c204e7db7b206f388d413ae424c8fe8f Merge branch 'net-mlx5' into net-next
+0f24cfee6677ee559efd7eec34bdaa345ad282b7 Merge branch 'net-next-test' into net-next
 
---===============1222304395443214017==--
+--===============4113850041546007327==--
