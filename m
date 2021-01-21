@@ -1,80 +1,94 @@
-Content-Type: multipart/mixed; boundary="===============5596098700028674638=="
+Content-Type: multipart/mixed; boundary="===============4259323297247975012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 21 Jan 2021 19:47:44 -0000
-Message-Id: <161125846407.15066.12747209848959486125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Thu, 21 Jan 2021 19:52:41 -0000
+Message-Id: <161125876156.17907.12694034264491665469@gitolite.kernel.org>
 
---===============5596098700028674638==
+--===============4259323297247975012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: 9791581c049c10929e97098374dd1716a81fefcc
-    new: 9f29bd8b2e7132b409178d1367dae1813017bd0e
-    log: revlist-9791581c049c-9f29bd8b2e71.txt
+  - ref: refs/heads/habanalabs-next
+    old: c75448e9e4422f9895c2a02bfdd406648e77ef5d
+    new: 97c23d581438d5774a014852e46f6dde73db0816
+    log: revlist-c75448e9e442-97c23d581438.txt
 
---===============5596098700028674638==
+--===============4259323297247975012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9791581c049c-9f29bd8b2e71.txt
+Content-Disposition: attachment; filename=revlist-c75448e9e442-97c23d581438.txt
 
-2e202ad873365513c6ad72e29a531071dffa498a gpiolib: cdev: fix frame size warning in gpio_ioctl()
-9a85c09a3f507b925d75cb0c7c8f364467038052 pinctrl: ingenic: Fix JZ4760 support
-b4aa4876e58d12fb3ace425969dcbf4df37aa254 pinctrl: ingenic: Rename registers from JZ4760_GPIO_* to JZ4770_GPIO_*
-92ff62a7bcc17d47c0ce8dddfb7a6e1a2e55ebf4 pinctrl: aspeed: g6: Fix PWMG0 pinctrl setting
-2f9d9a852f426cdc56ebd5c05c2333ea2012cc97 pinctrl: nomadik: Remove unused variable in nmk_gpio_dbg_show_one
-81bd1579b43e0e285cba667399f1b063f1ce7672 pinctrl: mediatek: Fix fallback call path
-2a0435df963f996ca870a2ef1cbf1773dc0ea25a ASoC: hdmi-codec: Fix return value in hdmi_codec_set_jack()
-0d38fd8d252446d39050578ea32ed89b9adeb202 MAINTAINERS: update references to stm32 audio bindings
-bcd7059abc19e6ec5b2260dff6a008fb99c4eef9 ASoC: SOF: Intel: hda: Resume codec to do jack detection
-31ba0c0776027896553bd8477baff7c8b5d95699 ASoC: SOF: Intel: hda: Modify existing helper to disable WAKEEN
-ef4d764c99f792b725d4754a3628830f094f5c58 ASoC: SOF: Intel: hda: Avoid checking jack on system suspend
-5e941fc033e411118fb3a7d9e0b97f8cf702cd39 ALSA: hda: Add AlderLake-P PCI ID and HDMI codec vid
-1e249cb5b7fc09ff216aa5a12f6c302e434e88f9 fs: fix lazytime expiration handling in __writeback_single_inode()
-9c25af250214e45f6d1c21ff6239a1ffeeedf20e ASoC: SOF: Intel: fix page fault at probe if i915 init fails
-cea06d9bf0e035a549226e217022fa51b0c878e5 Merge v5.11-rc3
-e4ea77f8e53f9accb9371fba34c189d0447ecce0 ALSA: usb-audio: Always apply the hw constraints for implicit fb sync
-495dc7637cb5ca8e39c46db818328410bb6e73a1 ALSA: hda/realtek - Limit int mic boost on Acer Aspire E5-575T
-67ea698c3950d10925be33c21ca49ffb64e21842 ALSA: hda/via: Add minimum mute flag
-217bfbb8b0bfa24619b11ab75c135fec99b99b20 ALSA: seq: oss: Fix missing error check in snd_seq_oss_synth_make_info()
-f84d3a1ec375e46a55cc3ba85c04272b24bd3921 ALSA: hda: Add Cometlake-R PCI ID
-668af87f995b6d6d09595c088ad1fb5dd9ff25d2 printk: ringbuffer: fix line counting
-89ccf18f032f26946e2ea6258120472eec6aa745 printk: fix kmsg_dump_get_buffer length calulations
-9b268be3adbb410cc1a857477b638a71258891a8 MAINTAINERS: update maintainers of qcom audio
-7505c06dabb5e814bda610c8d83338544f15db45 MAINTAINERS: update qcom ASoC drivers list
-87cb9af9f8a2b242cea7f828206d619e8cbb6a1a ALSA: usb-audio: Fix UAC1 rate setup for secondary endpoints
-3784d449d795ba11a92681bd22d183329f976421 ALSA: usb-audio: Set sample rate for all sharing EPs on UAC1
-532a208ad61018b586cebfca8431291fe9c10ce7 ALSA: usb-audio: Avoid implicit feedback on Pioneer devices
-2fe7c2f99440d52613e1cf845c96e8e463c28111 tools: gpio: fix %llu warning in gpio-event-mon.c
-1fc7c1ef37f86f207b4db40aba57084bb2f6a69a tools: gpio: fix %llu warning in gpio-watch.c
-5cdc4a6950a883594e9640b1decb3fcf6222a594 udf: fix the problem that the disc content is not displayed
-a82e537807d5c85706cd4c16fd2de77a8495dc8d pinctrl: qcom: Allow SoCs to specify a GPIO function that's not 0
-4079d35fa4fca4ee0ffd66968312fc86a5e8c290 pinctrl: qcom: No need to read-modify-write the interrupt status
-a95881d6aa2c000e3649f27a1a7329cf356e6bb3 pinctrl: qcom: Properly clear "intr_ack_high" interrupts when unmasking
-cf9d052aa6005f1e8dfaf491d83bf37f368af69e pinctrl: qcom: Don't clear pending interrupts when enabling
-c23010ffb20acb02a1d41dc025131609916ed633 Merge tag 'asoc-fix-v5.11-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-f0e386ee0c0b71ea6f7238506a4d0965a2dbef11 printk: fix buffer overflow potential for print_text()
-ef38237444ce952daf041ed2885918f9f7d1e997 gpiolib: add a warning on gpiochip->to_irq defined
-e73b0101ae5124bf7cd3fb5d250302ad2f16a416 gpio: mvebu: fix pwm .get_state period calculation
-18eedf2b5ec7c8ce2bb23d9148cfd63949207414 gpio: sifive: select IRQ_DOMAIN_HIERARCHY rather than depend on it
-298d75c9b18875d2d582dcd5145a45cac8d2bae2 gpio: tegra: Add missing dependencies
-2b73649cee65b8e33c75c66348cb1bfe0ff9d766 ALSA: hda: Balance runtime/system PM if direct-complete is disabled
-78a18fec5258c8df9435399a1ea022d73d3eceb9 ACPI: scan: Make acpi_bus_get_device() clear return pointer on error
-506c203cc3de6e26666b8476d287dee81595d6dc ALSA: usb-audio: Fix hw constraints dependencies
-535b6a122c6b43af5772ca39cbff7056749aae74 Merge branch 'printk-rework' into for-linus
-63858ac326561af6a1e583ad4314cc1be16852ad Merge tag 'pinctrl-v5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-d7631e4378f26c8e1ba1ad372888e89e69678709 Merge tag 'gpio-fixes-for-v5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-120fbdb84f339ca3c358e4ac3fb1ffe663669d28 Merge tag 'sound-5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-6a52f4cf863a53b8196286e2b95d3ef3bd8183ad Merge tag 'acpi-5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-2561bbbe2e959c966e21ee23de91b9bd4bbf98af Merge tag 'printk-for-5.11-printk-rework-fixup' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-9f29bd8b2e7132b409178d1367dae1813017bd0e Merge tag 'fs_for_v5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+22a9e57fccfea0cf9a066935dc6b81b866aaca55 misc: ocxl: use DEFINE_MUTEX() for mutex lock
+157576d552339edc7988c79f37f4a335eaa0eaf2 misc: remove atmel_tclib
+38d98d73be9f5f90b63d56d73afffa6c9de59c02 misc: rtsx: remove unused function
+4c5a6a7b71431f39bd80f6c3a14a429602a5555f greybus: remove h from printk format specifier
+3e265f836e9d62ccc4820157dc6a34d7685ba41d fpga: dfl: refactor cci_enumerate_feature_devs()
+fa41d10589be124404492b5181a818a509d8cb1c fpga: dfl-pci: locate DFLs by PCIe vendor specific capability
+e08b9e6d87cca2bd8f427d109d22970906aaf6f8 fpga: dfl: fix the definitions of type & feature_id for dfl devices
+9326eecd9365a5b82220a4011592f7c0209566fc fpga: dfl: move dfl_device_id to mod_devicetable.h
+4a224acec5971653bf0e8b6e1d2d0df72a7d57f7 fpga: dfl: add dfl bus support to MODULE_DEVICE_TABLE()
+ecc1641aca658ed4140751748f84985ffb6cce28 fpga: dfl: move dfl bus related APIs to include/linux/dfl.h
+56172ab35338e3bb13c6bff65dea96b12e8c41ea fpga: dfl: add support for N3000 Nios private feature
+477dfdccfcae4665f073260446199933369cd50e memory: dfl-emif: add the DFL EMIF private feature driver
+13613a2246bf531f5fc04e8e62e8f21a3d39bf1c misc: eeprom_93xx46: Fix module alias to enable module autoprobe
+47771f1715bf05b69b040bf784a2607a5dc13c62 misc: eeprom_93xx46: Enable module autoprobe for microchip 93LC46B eeprom
+59b26d2e96c473b7b65cfe19381444d034e91715 bus: fsl-mc: add missing __iomem attribute
+f5187329d07247393413b7a4bc32e16b35849e0f fpga: Use DEFINE_SPINLOCK() for spinlock
+e41d4c011706c97f2faea6ef2e46e51f52d8f715 fpga: dfl: fme: Constify static attribute_group structs
+591afd6e5a5045a7c0fe3fc6a26c55d8030bbf9f Merge 5.11-rc3 into char-misc-next
+09381eb16ad887e05bc2a9500261afaa5dc77cd3 Merge tag 'fpga-cleanup-for-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mdf/linux-fpga into char-misc-next
+4540b9fbd8ebb21bb3735796d300a1589ee5fbf2 misc: eeprom_93xx46: Add module alias to avoid breaking support for non device tree users
+20612d2428c3cdd191d45d548e930f41785f62cc fpga: dfl-pci: rectify ReST formatting
+48b7de6687f6ed597ef7162151f1c35469775545 w1/w1.c: w1 address crc quick for DS28E04 eeproms
+e3fe0e89fec6965342434e7acae7ed6e6f021d08 w1/masters/ds2490: queue up found IDs during scan
+6805822954f0fd24de4d6febc4c84afdcb6f9baa Documentation: devicetree: Add new compatible string for eeprom microchip 93LC46B
+f6f1f8e6e3eea25f539105d48166e91f0ab46dd1 misc: eeprom_93xx46: Add quirk to support Microchip 93LC46B eeprom
+ebfa4544b83a56c65afa0462918ec944d51cd1c1 PHY: Ingenic: fix unconditional build of phy-ingenic-usb
+f325baa407ce4576a0e5189bb05ad19e9d91c30d phy: cpcap-usb: Fix warning for missing regulator_disable
+d03dd2df25cd891c6e04aaee5b7c0eff44280f74 phy: mediatek: allow compile-testing the dsi phy
+8cb290bcad272229306bb03d7d0e924f277bb97f habanalabs: fix dma_addr passed to dma_mmap_coherent
+33b13826577f4e273d6ff5c8223f58cda82de5c4 habanalabs: fix reset process in case of failures
+e438b41d45bd409ad25f3ddfde1b8d4006859bb1 habanalabs: prevent soft lockup during unmap
+b66a3afe74631893acca14b6bd3c565c55362505 habanalabs: update firmware boot interface
+6304705c09617f4d0b8f96a93b8072b1b1de553d habanalabs: refactor MMU locks code
+67a4c1f94b44e3cc29436cf031596e1341653f11 habanalabs: Init the VM module for kernel context
+5143eeaa66d8b8b9c96a22ab4b16e21c4092e474 habanalabs/gaudi: support CS with no completion
+76121cc64d7be54c97049e87538afb087882baad habanalabs: allow user to pass a staged submission seq
+16ba2d14a5bfaff261538417c0ef9db92a1c116e habanalabs/gaudi: remove duplicated gaudi packets masks
+a0ca69756b0ce1984040a7f5a82b355cf4dffb99 habanalabs/goya: move mmu_prepare to context init
+ce71a4ba097cebf51ce4f36c874936e72b9023be habanalabs: report dram_page_size in hw_ip_info ioctl
+5f73a579bb5ec2259ced9fcea2b361bb683e7abd habanalabs: replace WARN/WARN_ON with dev_crit in driver
+4b2b90d1e17ac1635375b65a7fbefdc26c0d20a2 habanalabs: kernel doc format in memory functions
+25fbbb2d494ed233ec536c018bc3e9e973303631 habanalabs: modify memory functions signatures
+e6da058d8632327d5bca5337583e349bfdb58f68 habanalabs/gaudi: add debug prints for security status
+f14ba38ec19f0470a88df5133dc8dcdbdeeba43d habanalabs: add ASIC property of functional HBMs
+f58654fb3dd407f23e131a955cbd87982e9ac6ee habanalabs: update to latest hl_boot_if.h
+f88b9856f102c2b439d4156e1ee4511833930b78 habanalabs: return dram virtual address in info ioctl
+8540944835e84cc9c87d5e783fe71c2dc7e9c213 habanalabs/gaudi: set uninitialized symbol
+b80a92e9205a908ee813a697d4d88e4b5d564fc1 habanalabs: remove access to kernel memory using debugfs
+1d40d57c00660acb60ba0e4e900d807cc1454807 habanalabs: support non power-of-2 DRAM phys page sizes
+e2f32f38e6be81b1fb0cc84a6f03eaac1d633bcf habanalabs: report correct dram size in info ioctl
+0ef9e075a727bbf90fcb1bbfa73c00a54a520bc2 habanalabs: read device boot errors after cpucp is up
+6e8b8262fee58a775655a3cb673c212305e61133 habanalabs: separate common code to dedicated folders
+df396533bfb9975f483405c38c3e6d6092af7511 habanalabs: increment ctx ref from within a cs allocation
+4c27abc946a2b482f8de031696371c7d980c8906 habanalabs: add driver support for internal cb scheduling
+b5d0e7cb9692ccd11a007f81dc77b58f7622b930 habanalabs/gaudi: remove PCI access to SM block
+865e31188a755ffb6d08bbd3a0cf660ebc88056d habanalabs: Use 'dma_set_mask_and_coherent()'
+cb5a25fbc1939cb8d925a2856748d879df8ab087 habanalabs/gaudi: print sync manager SEI interrupt info
+55f7b0dbe9e6b9d88e7979b484901d1f6ca4ab6c habanalabs: ignore F/W BMC errors in case no BMC present
+2dd9234c2f900be1814819b479837001987dc7d4 habanalabs: add security violations dump to debugfs
+41790493daa4b36387403a41ed6c8af04c1b3e11 habanalabs: update email address in sysfs/debugfs docs
+1a9ee86295afab72b74c0a2cd3170efd1efebbfe CREDITS: update email address and home address
+4cd3676fe922a4aaa46ba2d8d7c54076e4620df3 habanalabs: always try to use the hint address
+97ff33fee8fcd4eac5d1ce60e3190f0022341439 habanalabs: add user available interrupt to hw_ip
+97c23d581438d5774a014852e46f6dde73db0816 habanalabs: fix MMU debugfs related nodes
 
---===============5596098700028674638==--
+--===============4259323297247975012==--
