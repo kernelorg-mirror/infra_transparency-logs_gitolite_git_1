@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 21 Jan 2021 22:05:47 -0000
-Message-Id: <161126674772.5701.2389619885254442776@gitolite.kernel.org>
+Date: Thu, 21 Jan 2021 22:06:49 -0000
+Message-Id: <161126680972.6075.1063212241607007693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 67de8dca50c027ca0fa3b62a488ee5035036a0da
-    new: 6e1239c13953f3c2a76e70031f74ddca9ae57cd3
+  - ref: refs/heads/x86/cleanups
+    old: b86cb29287be07041b81f5611e37ae9ffabff876
+    new: 8ece53ef7f428ee3f8eab936268b1a3fe2725e6b
     log: |
-         6e1239c13953f3c2a76e70031f74ddca9ae57cd3 x86/cpu: Add another Alder Lake CPU to the Intel family
+         8ece53ef7f428ee3f8eab936268b1a3fe2725e6b x86/vm86/32: Remove VM86_SCREEN_BITMAP support
          
