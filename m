@@ -1,50 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============4957067142317902842=="
+Content-Type: multipart/mixed; boundary="===============0109046298837139487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 21 Jan 2021 17:44:55 -0000
-Message-Id: <161125109576.30842.1086667543022210236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 21 Jan 2021 17:47:08 -0000
+Message-Id: <161125122848.450.9750300189449360814@gitolite.kernel.org>
 
---===============4957067142317902842==
+--===============0109046298837139487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/gfs2-revoke
-    old: 25cf2f565c76a7c7d482a4bb6445dd13d9dacf84
-    new: bfec64910b6595a9d4331219295ebac7a278549e
-    log: revlist-25cf2f565c76-bfec64910b65.txt
+  - ref: refs/heads/driver-core-linus
+    old: 895bee270863588fe3d46dca86cd15d461f47a7a
+    new: 3d1cf435e201d1fd63e4346b141881aed086effd
+    log: |
+         4eaad21a6ac9865df7f31983232ed5928450458d kernfs: implement ->read_iter
+         cc099e0b399889c6485c88368b19824b087c9f8c kernfs: implement ->write_iter
+         f2d6c2708bd84ca953fa6b6ca5717e79eb0140c7 kernfs: wire up ->splice_read and ->splice_write
+         3d1cf435e201d1fd63e4346b141881aed086effd driver core: Extend device_is_dependent()
+         
 
---===============4957067142317902842==
+--===============0109046298837139487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25cf2f565c76-bfec64910b65.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-736b2f778f0a71ce54abe7e6d2c6f7591b95f7b8 gfs2: Un-obfuscate function jdesc_find_i
-458094c2c6115cda721fd11a56f7e4f27cddd5b1 gfs2: Simplify the buf_limit and databuf_limit definitions
-5a4e9c607e03886815121fa975fcd8e0fa7252fe gfs2: Minor gfs2_write_revokes cleanups
-6188e8777de48c8404b0bcca74a70ac83c37d773 gfs2: Some documentation updates
-625a8edd5e00e7c4c70a125a433ec7598d9f0c27 gfs2: Minor debugging improvement
-e7501bf88cd77ed3a1bc65c451600a847c80485b gfs2: Rename gfs2_{write => flush}_revokes
-6e80674af06c0dca6e0153d492d437f3f07fe3e9 gfs2: Clean up ail2_empty
-8d85498cb332a140be23197d0802326b91985a6f gfs2: Get rid of on-stack transactions
-4a56b6f51db7fd8fb089ae6593443a216c450f40 gfs2: Get rid of sd_reserving_log
-3e6e28a1516fca69b0d1beca4b413f24f5b5e278 gfs2: Move lock flush locking to gfs2_trans_{begin,end}
-370cfc6e4a2f8f5430efda5699216b71fc7ec289 gfs2: Don't wait for journal flush in clean_journal
-f0162dd91ef97885549a9b7406b97a443a8780ac gfs2: Clean up gfs2_log_reserve
-f34a16a957efa96ece395365ada96d6ba7a39616 gfs2: Use a tighter bound in gfs2_trans_begin
-6b3dbe4000b836469a45a8a417749f54c0b314ae gfs2: Get rid of current_tail()
-0262a4c0e5d35fdddfe0a291012152daf659e6c4 gfs2: Move function gfs2_ail_empty_tr
-4c14e6ea5ed0d7c8faf4a27a51a9f8c5b7f02c51 gfs2: No revokes for transactions at the tail of the log
-1671a47f106c7a780f299b204f44de3db0989ab4 gfs2: Remove sd_log_committed_revoke
-cdbda7820f12f16451eb64a641c983237b9334b3 gfs2: Remove sd_log_blks_reserved
-382f14d0adc28c61ba1f03204fac7f916a4bf3cf gfs2: Rework the log space allocation logic
-bfec64910b6595a9d4331219295ebac7a278549e gfs2: Per-revoke accounting in transactions
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611251217 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1611251216-3837e648ef3a7544584f8334ab2a6bb067db46ed
 
---===============4957067142317902842==--
+895bee270863588fe3d46dca86cd15d461f47a7a 3d1cf435e201d1fd63e4346b141881aed086effd refs/heads/driver-core-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAJvhEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YksQALqq2zjvPnNLu5Glrcbx
+qwoEqeFU88+SkETqM+eLXdaMn9O9A5ugJJGgjFOCFDqbi97X6qojJIdcsy3OC6OV
+tZQyM9Y941nDqEPwEFSu/ED/D2TTNG+5xgoElUmpej6lpbuULnaP4glwrL4TebZP
+oUPFr2KJdqmanTem2AxEe0GKljK2s+c91e6S2bR/Uw+wVM8H9Rcxj5AZgBG5VRL3
+I3/Kg+0tFTeI1DKn86d8HIMZQcu0VhbvjGK0Af6Dk8onabEMo+QpvtwRI4uqnaeD
+bZc5NT1lhM5/ceGgCFA0JLz39Bwwyd4rcGIqUxca6qBas72J3DKOC18K0xU/+zf4
+3FKxdQUEW+yUVbm9pClRj7d3LjJaGxPjGS8JnQtNqS1kRB0s3m6w8XjGd98UYloR
+swMi2UHahXKT5NgpgNpO+la2+3vGnxXiKlJ09NS3dp+1Xjbo/eG2AAUedJ2UlxqG
+VdegRqTNho18C93wchnFGVjGtnb3u5fd2fBAXgqfmUfd5+SfD3cR7JoXWT8gLTbz
+CKd+woO2fJdBwv+XxReW1LG/UK4s927HITkTi4WfRclDxUS5/8A6Iq14WPWJsnYD
+vAPnCoL1bFj0GEx20nsXmbTJGM6NDLB2U9zvV51Ttr/4dWDQOlRIYoSnyXuzp+MA
+cDdP++WaqQFHJ5yiSF50QOKo
+=dRFJ
+-----END PGP SIGNATURE-----
+
+--===============0109046298837139487==--
