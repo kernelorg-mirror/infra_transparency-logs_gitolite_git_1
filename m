@@ -1,23 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Thu, 21 Jan 2021 17:52:02 -0000
-Message-Id: <161125152230.3552.474005993287482912@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3943695252794913810=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 21 Jan 2021 17:55:20 -0000
+Message-Id: <161125172039.5887.4591899719561299722@gitolite.kernel.org>
+
+--===============3943695252794913810==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/faultaround
-    old: 5e3e28ead53051e771152bafcc981073b400a68d
-    new: 5857c9209ce58f8e262889539ccdf63e73ad7a93
+  - ref: refs/heads/char-misc-linus
+    old: 02039b172327da1e64beca615500367abf8605c6
+    new: cb5c681ab9037e25fcca20689c82cf034566d610
     log: |
-         742d33729a0df11c9d8d4625dbf21dd20cdefd44 mm: Move immutable fields of 'struct vm_fault' into anonymous struct
-         9d3af4b448a119ac81378d3bc775f1c4a2a7ff36 mm: Pass 'address' to map to do_set_pte() and drop FAULT_FLAG_PREFAULT
-         2b635dd372f6c8f27644c662bb48d10376ce561a mm: Avoid modifying vmf.address in __collapse_huge_page_swapin()
-         8c63ca5bc3e19f11128e8e285dcf20aac6768f97 mm: Use static initialisers for immutable fields of 'struct vm_fault'
-         5857c9209ce58f8e262889539ccdf63e73ad7a93 mm: Mark anonymous struct field of 'struct vm_fault' as 'const'
+         927633a6d20af319d986f3e42c3ef9f6d7835008 stm class: Fix module init return on allocation failure
+         cb5c681ab9037e25fcca20689c82cf034566d610 intel_th: pci: Add Alder Lake-P support
          
+
+--===============3943695252794913810==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611251712 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1611251711-73c0422f83d10edf92b0b379c86b06e7f363b555
+
+02039b172327da1e64beca615500367abf8605c6 cb5c681ab9037e25fcca20689c82cf034566d610 refs/heads/char-misc-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAJwAAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mDIP/2otjOcOqM94IWlky+gh
+NpFeqoXgYL13cin+tyUtFfAUq8X8PNVpwqsJnfLlH3bwFuTxbkfjzL4xGzvBKR3h
+Dj8viYauHntxZRWcbFoGvOr7M6JxIWENmfCAo5zMOVopwg8CRYDaoH0t3rhXmebQ
+eZVxfXOCS8mZyaBZTEfK5qDgzDSFXoQfzdqTuGueGItUXPP2L/nI0Kj8Qf/A3n1X
+agCanTuHVV0v21C7onE4zz+++xKc+PDrPUsUIN3c1QukkrRrLvlce+p2JHFnP0jV
+1d2aBEipkItOxz4e3dR19pPVWcbjfcPz0+6oPrGyXjrENrkeV2/BVqbgp24h+OVT
+SILK/TNdzow9m+eGxPW2GDv5LeP2Q3ET21yA+zYalGg2miiai6GGG/zbT+rU4IQG
+G7G3WQBsGlcte5MHxhcqj9L5qFckTcdbnH+4IcqPB1TZ7YDU3A9NKpP4+ZnN0rsA
+lEi1RUzEjmhtGXAjnVfFA98B4h/lUAYCzK4AHZ2NWtdGJ6aSO298gy7gLqrUqMsE
+fV7rjyi43OG5XLAxjAoER7zI/9X7VZvPEqSjw4nuavDvTzp+6e/rEWB2SfTGRLSR
+lOPGYhgOWkykNXRMC6p8LbirdzgaEETqKl0NLhGEh4uiX2HOIuDp6U7dU3UVgPyG
+Qr6BNwwye103fGYzvCbnftz8
+=z/Na
+-----END PGP SIGNATURE-----
+
+--===============3943695252794913810==--
