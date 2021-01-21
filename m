@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8640135918388481720=="
+Content-Type: multipart/mixed; boundary="===============3093354434168319841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 21 Jan 2021 08:39:42 -0000
-Message-Id: <161121838248.23242.980131887581298198@gitolite.kernel.org>
+Date: Thu, 21 Jan 2021 08:42:12 -0000
+Message-Id: <161121853295.27747.4327724677421550368@gitolite.kernel.org>
 
---===============8640135918388481720==
+--===============3093354434168319841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 429b29aef7f841086949c7359f9c3ccb051e7ea3
-    new: 4776a4a0a29c64b954a445ff65848bd376a50fcc
+  - ref: refs/heads/tty-linus
+    old: 54ca955b5a4024e2ce0f206b03adb7109bc4da26
+    new: 494e63ee9c9f322c1051acc537ac5b99688f7e58
     log: |
-         f754ed71b79cca5b07e76aaf28ce3c8776ab1f7f dt-bindings: serial: renesas,hscif: Add r8a779a0 support
-         e8372c4f51d01c3db3d067ee8d62d24368606262 serial: fsl_lpuart: Use of_device_get_match_data()
-         08fdc69945603355d24ef4adc811d2e368adbb56 serial: mxs-auart: Remove serial_mxs_probe_dt()
-         532b7cecdd4bee0e50c704b1281194c88f19cef1 serial: mxs-auart: Remove <asm/cacheflush.h>
-         4776a4a0a29c64b954a445ff65848bd376a50fcc serial: remove sirf prima/atlas driver
+         9bb48c82aced07698a2d08ee0f1475a6c4f6b266 tty: implement write_iter
+         494e63ee9c9f322c1051acc537ac5b99688f7e58 Merge 9bb48c82aced ("tty: implement write_iter") into tty-linus
          
 
---===============8640135918388481720==
+--===============3093354434168319841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611218374 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611218524 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1611218373-d2a75f2980603e1d8d9f96902c42ba66f45b2171
+nonce 1611218523-cfad97deaf555433a5d49bd0a66ee8d8a1a2696d
 
-429b29aef7f841086949c7359f9c3ccb051e7ea3 4776a4a0a29c64b954a445ff65848bd376a50fcc refs/heads/tty-next
+54ca955b5a4024e2ce0f206b03adb7109bc4da26 494e63ee9c9f322c1051acc537ac5b99688f7e58 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAJPcYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ElIP/3loltU2vyCi+Cuq2IXA
-+TXtiLFFxRugpTRtUaWNFPrBqMC5fbDtp36ObREnj0aE1KM4hIUskEbwQETySmbB
-U+AD4/W8o28wrbdY5heAx3NMTlNgUHUN67w4depO4l7M470/wA86XJ4i57JFqLZz
-iS5ZomlIq7aK4aclv+A7aXzgZ8clGOYVUzXFARy/0xQSE9b8oSEmnYWJF2BFTgF8
-D3BloqxwlGMWCN0SphlrNh35CAgEMLVnqazUE/T2iXIZ/RTWgQS14jwcw/Lzg50J
-X/VGXRX+KX0cqNCOTMqeXpq0lvubtxhXjviO/TZVVfP9cEE1Ed8SRQl9JOXQVGj2
-wxVig4+vkyGaIUQy9Ga/Wnpr/ZE9+pj7nLRHux0PdhzNitVVW0E8/k/+jqy1KQUA
-VPtaRpg07K07iR/x+4w/ImrMNWaSBEaH7lXdCbk+YTsA90FC9BbZpIr1hFsAYhv1
-KU6PNMNzMp7LH8BxtcI67/2AnAd98vdwEHrxJnhVe1UHc9TJH0xplENEzJB/wb6y
-dYDlJhPx9rudgQpKQSost8w2U0RRZs7ipUWw0kN1gzDc9xFUsZv/R5UjVKmATJgp
-pOR5A+PHASu3U9Yo4sGGeyNW4TvfgBkqPy5k7UtSGInByu2LkPtYhlh1yI4pi2H/
-i0voBPfZSiC0yedaVfTkIpp/
-=CYif
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAJPlwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6hAP/iSNtH6tZHkwCANnkQHB
+ADm6vANm/svvtT0bBWL2XmoUwqxwARmkii/yuCVL27VFgJmCV4Nrz5RrL9w5HeJY
++u0ZN45Zht8gSm65GhPUaP+ciMhTZq1xNmCBDsCKxY8nEJj/Gcw9lS9DhX1ZKyHd
+/SDe+Z0w7YaQrn99ylC5ilcRV5G61q5MTCc9cPIArVXHww3tf9+aiA20F5fCqkpF
+9Rewmk1qWF9ZyIXZ4sypA524IZXTkOuR5+c73iaKZGVUZlFQ627fVlIZB38F4YTc
+0Wfz9vwhpV/o/lOhxGZzqMKcr5v2ShgaT8nkrABaaGx0EAnMnoArCXhNppfnQMUM
+todwC61xv91sz3jw2YOluApUjSBrmu90bJIOogY8WiDkh1SixEexTFlCoLkQ53jq
+xYeb8eOt5x6nXRUELMjQ93DYRnQiDT2tFa9t9dGvp80Q00XH3LVehYGerMtYgkoF
+oEmDN/Z8EwMYGaFKPIDlDv7EsZz0OR/9OOeEh61Ls89lk06gLS0YcAJZy4GeWBkU
+Z1RQ7RJZ1iSMPnqm0GNc22rx56c2O0C93vqXoOP494cfSjZ/VVZvqfEXYRoFjjo6
+VaV6vu643Qd3dfxmdbhREa3fXCMHfoFza9bmGY3AmutG4u4czkuZaSDoEXL2DwcS
+7k50fGK/wr3xyHtMxc4TIosH
+=KWkf
 -----END PGP SIGNATURE-----
 
---===============8640135918388481720==--
+--===============3093354434168319841==--
