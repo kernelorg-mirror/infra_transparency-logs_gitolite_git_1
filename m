@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4667681094457702046=="
+Content-Type: multipart/mixed; boundary="===============2468587638408781039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 21 Jan 2021 20:39:42 -0000
-Message-Id: <161126158279.13961.12944130113773658815@gitolite.kernel.org>
+Date: Thu, 21 Jan 2021 20:39:54 -0000
+Message-Id: <161126159492.14104.15213382722949172392@gitolite.kernel.org>
 
---===============4667681094457702046==
+--===============2468587638408781039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.11
+  - ref: refs/heads/for-next
     old: c87a95dc28b1431c7e77e2c0c983cf37698089d2
-    new: 809b1e4945774c9ec5619a8f4e2189b7b3833c0c
-    log: revlist-c87a95dc28b1-809b1e494577.txt
-  - ref: refs/tags/v5.11-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5b7c653871ad14d6b0fb53fabd8152ea70ad545e
-  - ref: refs/tags/v5.11-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 7341df6992e7840498cff6ad21380aa7dd97870b
+    new: 8c61a4df1689e464fc568f7b0fef4e93fb77a619
+    log: revlist-c87a95dc28b1-8c61a4df1689.txt
 
---===============4667681094457702046==
+--===============2468587638408781039==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c87a95dc28b1-809b1e494577.txt
+Content-Disposition: attachment; filename=revlist-c87a95dc28b1-8c61a4df1689.txt
 
 665f1388bc9713c81989dda6eed5cde52d57c255 ARM: omap2plus_defconfig: drop unused POWER_AVS option
 f1dc15cd7fc146107cad2a926d9c1d005f69002a ARM: dts: OMAP3: disable AES on N950/N9
@@ -942,5 +936,8 @@ e2da783614bb8930aa89753d3c3cd53d5604665d Merge tag 'perf-tools-fixes-2021-01-17'
 5c02406428d5219c367c5f53457698c58bc5f917 dm integrity: conditionally disable "recalculate" feature
 004b8ae9e2de55ca7857ba8471209dd3179e088c dm crypt: fix copy and paste bug in crypt_alloc_req_aead
 809b1e4945774c9ec5619a8f4e2189b7b3833c0c dm: avoid filesystem lookup in dm_get_dev_t()
+196d8a9d8bf32cbedf26075135bf0f2be9b4f4e5 dm dust: remove h from printk format specifier
+95199feed097c03273608bfd495e5017f4fbbcb7 dm crypt: Spelling s/cihper/cipher/
+8c61a4df1689e464fc568f7b0fef4e93fb77a619 dm integrity: introduce the "fix_hmac" argument
 
---===============4667681094457702046==--
+--===============2468587638408781039==--
