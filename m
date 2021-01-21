@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3568241167033743384=="
+Content-Type: multipart/mixed; boundary="===============3152352629129416719=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 21 Jan 2021 19:38:23 -0000
-Message-Id: <161125790345.6612.8382059799180422144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 21 Jan 2021 19:38:30 -0000
+Message-Id: <161125791040.6726.17214506353303198608@gitolite.kernel.org>
 
---===============3568241167033743384==
+--===============3152352629129416719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/spi-5.12
     old: 8346633f2c87713a1852d802305e03555e9a9fce
     new: 181997b4940880b6ebc317b34dca38a17f107318
     log: |
@@ -26,28 +26,28 @@ changes:
          181997b4940880b6ebc317b34dca38a17f107318 spi: remove sirf prima/atlas driver
          
 
---===============3568241167033743384==
+--===============3152352629129416719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1611257865 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1611257901-ad197ded184e4d9af541dbe4820dd624349c6c9d
+pusher C3F436CA30F5D8EB 1611257872 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1611257907-eaaf83f40e4905d7e124ccbdc0223292e3dcb8bd
 
-8346633f2c87713a1852d802305e03555e9a9fce 181997b4940880b6ebc317b34dca38a17f107318 refs/heads/for-5.12
+8346633f2c87713a1852d802305e03555e9a9fce 181997b4940880b6ebc317b34dca38a17f107318 refs/heads/spi-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAJ2AkACgkQJNaLcl1U
-h9Bn2Qf/dKxj6Qv8tpgprd13pKAkectnDMn9PtuOVyXaM6uYZiuEKZImiBbTysEM
-6WfxmAw3OxDTknrW5/J9uw8MXy1EZIl7jGmzBoT2qodgHAbF58id39C270ZuByuX
-HzX/YizMQX8tLBjLdt8bwxZzsUhnYv11VhSubrZ0Z69R+3pBlJer9fqk18kHAvXB
-pIq9Ml6xPOqXO8uqiPnneDlIPMQtH06TWQt9jb7Cd7dzetyt2Z7XDWoHpV/GovJD
-znYrpeS9I9H8DH9/91Inn7wGvSA8aDaAc3RXjyLU9FrWfPZMuV7mKXeqbOTAMoFI
-GNwO4K3uIoB1Guequ8pIXxM3hxLLiA==
-=cvzY
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAJ2BAACgkQJNaLcl1U
+h9BMzQf/SiVbnLRRhAVYNxYxGUJDdbcOoSfQlGqdY30J9btoBNUsSJHWHFM9NoTQ
+cL996CF28+fCWbH1JORTPxgv1jrGB6Y5CAwUx9BC6Ksvnhbsn6rACOUZHDceM1ls
+difwR6XR8azbTaMYxowtiDuHqu6SLMu1FWG6HszS7C3iLyDxsEz/O97eLhW8Jqcd
+dQnxpU6WPk83IRApObD9Wx6Jwxs0Pa5K+ORDdDvIuroP3nIOn4Xm49OLRkYPgYB6
+zPj1XpXq6dBhh+kdWkZjXiOZa1DEoGesKQMERx/nqkCZRHT+kLhcYS+hL+afMnxQ
+RF5aOOqGtNdg/vtKzuVbNzEUxy8AIQ==
+=GTP5
 -----END PGP SIGNATURE-----
 
---===============3568241167033743384==--
+--===============3152352629129416719==--
