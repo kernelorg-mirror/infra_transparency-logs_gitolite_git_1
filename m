@@ -1,30 +1,59 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 21 Jan 2021 19:39:27 -0000
-Message-Id: <161125796794.7521.7857028916792879280@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0277715204992686895=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 21 Jan 2021 19:39:32 -0000
+Message-Id: <161125797265.7670.4054496597459433173@gitolite.kernel.org>
+
+--===============0277715204992686895==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: c7d09083a9c6ff1943789a849b89b74ab28fdad1
-    new: 8d874842da435cf9d9a25724ad689d203d53d49c
+  - ref: refs/heads/char-misc-linus
+    old: cb5c681ab9037e25fcca20689c82cf034566d610
+    new: b11f623cc8e722b84d833d02b9f67f84bb2d604f
     log: |
-         8d874842da435cf9d9a25724ad689d203d53d49c Merge remote-tracking branch 'spi/for-5.11' into spi-linus
+         9354f1b421f76f8368be13954f87d07bcbd6fffe habanalabs: zero pci counters packet before submit to FW
+         f8abaf379bfe19600f96ae79a6759eb37039ae05 habanalabs: fix backward compatibility of idle check
+         2dc4a6d79168e7e426e8ddf8e7219c9ffd13b2b1 habanalabs: disable FW events on device removal
+         b11f623cc8e722b84d833d02b9f67f84bb2d604f Merge tag 'misc-habanalabs-fixes-2021-01-21' of https://git.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-linus
          
-  - ref: refs/heads/for-next
-    old: 408e7b92073739def79d1558393d35c52a3fdfc6
-    new: 3ef2c406737c350fd7f38cca46ae2b8dad400d60
-    log: |
-         a783de290fc599606504b180c8f44f34cd201808 spi: spi-au1550: Add suffix "int" to all "unsigned"
-         258ea99fe25a5f761b16967afa93ed3101827e68 spi: spi-mpc52xx: Use new structure for SPI transfer delays
-         21ea2743f015dbacec1831bdc8afc848db9c2b8c spi: atmel: Put allocated master before return
-         181997b4940880b6ebc317b34dca38a17f107318 spi: remove sirf prima/atlas driver
-         8d874842da435cf9d9a25724ad689d203d53d49c Merge remote-tracking branch 'spi/for-5.11' into spi-linus
-         3ef2c406737c350fd7f38cca46ae2b8dad400d60 Merge remote-tracking branch 'spi/for-5.12' into spi-next
-         
+
+--===============0277715204992686895==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611257964 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1611257962-3fa3db6eb6f2783f36825643150d709fee49025e
+
+cb5c681ab9037e25fcca20689c82cf034566d610 b11f623cc8e722b84d833d02b9f67f84bb2d604f refs/heads/char-misc-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAJ2GwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vJwQAMLUwxoI1mvspKETqwMx
+Hs7rLGe9f39Ky0bRZyeu1B9sBsZkMyYFDzaT+5f0PMg6wTWP/v3CN/NKwMU4OGvg
+jlbKHTzbWvO2/F7JWk8lCbADgvFAhi9hdakWwkxjWe52AYMiId/qlPZgGm5whRwd
+F7m24cW0QbcLdJJd9IE/Hll3Do5dXHGmWy2VSWq9j47GxqlN8q13eTwsrXj+CxJw
+Ow81DfLp3+g2OtPyxVVcCY6Z7ZsPbMOBjfEaRPxE7qljDe8CeHe7FnTkN3Tw50+P
+zPxFCE5vGfgiGkblGWVaGeGvpHya6NGYj7q0VVE/Z6ece4nbnByx1zR5RTGAaNRK
+eznH6CBv1uqks21Z8fdDGsniPM0GvLTnc3fYjp786KRMllTDgSkK+WMEPHrVLFKq
+0uoVv/5IVco2UBkpEw43rwACRUAY61JR5nFJBPt99BfhGYrpL5Pn+lpAYapdv0Ht
+Is5jrnb5YIITLFOkN/2VqBFvFBVa/V94NG3XW9BycJhEX6mLjse3eBQvJLcf7Jed
+efx978+oS50tzb6keJonObBoPaWAmfu5jbnHTZPF19PJap6EtQfvc4Q7Y+VIQ5+6
+eru9jhCQvlVNXw//MEMymeCfUGrTaHZKJ3V/eTJdmXa9wSMhRNiwIC8gf3jyGkft
+sLfgg1EeYhFEHSo/jk839N4O
+=b7KR
+-----END PGP SIGNATURE-----
+
+--===============0277715204992686895==--
