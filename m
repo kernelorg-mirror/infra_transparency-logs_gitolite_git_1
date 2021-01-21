@@ -1,23 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Thu, 21 Jan 2021 19:19:28 -0000
-Message-Id: <161125676828.27008.11835949840634748553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Thu, 21 Jan 2021 19:19:39 -0000
+Message-Id: <161125677903.27147.2287260138025844499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/habanalabs-fixes
-    old: c8d7df5626d34e2e1deb465070768aaf5fa4181b
-    new: 2dc4a6d79168e7e426e8ddf8e7219c9ffd13b2b1
-    log: |
-         927633a6d20af319d986f3e42c3ef9f6d7835008 stm class: Fix module init return on allocation failure
-         cb5c681ab9037e25fcca20689c82cf034566d610 intel_th: pci: Add Alder Lake-P support
-         9354f1b421f76f8368be13954f87d07bcbd6fffe habanalabs: zero pci counters packet before submit to FW
-         f8abaf379bfe19600f96ae79a6759eb37039ae05 habanalabs: fix backward compatibility of idle check
-         2dc4a6d79168e7e426e8ddf8e7219c9ffd13b2b1 habanalabs: disable FW events on device removal
-         
+  - ref: refs/heads/pgtable_spinlock-v3
+    old: 0000000000000000000000000000000000000000
+    new: ffc7646ef53a22c3aba7c6a1ca33d23dd641a848
