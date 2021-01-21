@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6000202938182976795=="
+Content-Type: multipart/mixed; boundary="===============5914567047425049835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 21 Jan 2021 00:04:44 -0000
-Message-Id: <161118748448.9519.5212418643410812115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 21 Jan 2021 00:04:50 -0000
+Message-Id: <161118749069.9663.921158728400188647@gitolite.kernel.org>
 
---===============6000202938182976795==
+--===============5914567047425049835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/regulator-5.12
     old: f35f6d8c117569f626826394d85a7e87e167bde8
     new: e34578223b3feaeadd2931f33f2a809740356c5d
     log: |
@@ -30,28 +30,28 @@ changes:
          e34578223b3feaeadd2931f33f2a809740356c5d Merge series "Really implement Qualcomm LAB/IBB regulators" from AngeloGioacchino Del Regno <angelogioacchino.delregno@somainline.org>:
          
 
---===============6000202938182976795==
+--===============5914567047425049835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1611187447 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1611187482-eb05fa572a1256896a171f3a0bb8fd2605e4ba8a
+pusher C3F436CA30F5D8EB 1611187453 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1611187488-560e29eb02c2ab117edbbb64451ffc9259ae21c6
 
-f35f6d8c117569f626826394d85a7e87e167bde8 e34578223b3feaeadd2931f33f2a809740356c5d refs/heads/for-5.12
+f35f6d8c117569f626826394d85a7e87e167bde8 e34578223b3feaeadd2931f33f2a809740356c5d refs/heads/regulator-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAIxPcACgkQJNaLcl1U
-h9DeYwf8CAGFLlQKwfgVM1vFHUldkmC36XThkIkbXNkBeHBDQI0f46WrGm3S0lIw
-5WiQ0s9NG9iZOBO2h2UOKCEZEE/V03S7rleXcLCSipSJGmlM6TZeuQ61GSiex54O
-psHZVyICbj8Ee47ZE4uHRmbgM9MUSN+f4+c47XrApe9TapAkvoBHNjS2ejew4JDG
-vcmn9wDsA3jiMrTbNDi0jOx7rJwSQNRObldnRG01lc3t+HJGWaVKU2Qx8pbOsrHD
-eWSwx2OwRMOMHH/Xh4LxF8CU9bxkM2D64kQ+quV1I2UlZoZj2NgPtFtKVtbuFQCF
-HecLxcI+uqsSrj4p3X8JCvOilQUYsw==
-=sPoP
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAIxP0ACgkQJNaLcl1U
+h9AedAf/Q721vmJGULf3gunaFUew01kk2UiTNs/zLk6u43uvEpw4T+Q14VKiciXb
+z2u9R55krLJZwV/8mb9+082jgBtBhm1Qpe6GPgxb5pymISr1EeOXFTflWYRW7Xmr
+CxhDfwwFyKU9mM+16Bys85sIxisNMa27a5TSzqb8TrPpgGnS2VhjBv0jAPz6hXoX
+EVG485A9JCZZ9UGy3/bBPiJIw+WH6EQWO++pN9fLxIMKr+dOKj1cXHTGbDZFenkT
+jvTEtBHhEQ4/NTmL+DzA7Mad9wgVOFwvdqeva2olIvbD3lMz3rdyKHKFHsNU3YIH
+CIGwgtCfTHQA0yX77G9jcRyk7xdrAw==
+=aHRu
 -----END PGP SIGNATURE-----
 
---===============6000202938182976795==--
+--===============5914567047425049835==--
