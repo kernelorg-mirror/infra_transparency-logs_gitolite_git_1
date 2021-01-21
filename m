@@ -1,120 +1,129 @@
-Content-Type: multipart/mixed; boundary="===============4113850041546007327=="
+Content-Type: multipart/mixed; boundary="===============0727347600227726766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 21 Jan 2021 21:05:36 -0000
-Message-Id: <161126313688.32121.17863102476481294800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
+Date: Thu, 21 Jan 2021 21:38:11 -0000
+Message-Id: <161126509113.19213.5231724279730732487@gitolite.kernel.org>
 
---===============4113850041546007327==
+--===============0727347600227726766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/next/linux-next
+user: sfr
 changes:
-  - ref: refs/heads/net-next
-    old: 30d71bec6271da169b4134597730c4761f4135fb
-    new: 0f24cfee6677ee559efd7eec34bdaa345ad282b7
-    log: revlist-30d71bec6271-0f24cfee6677.txt
+  - ref: refs/heads/pending-fixes
+    old: cbe1658e272d11bba8e73f6433f613d0b50c58d3
+    new: dd9d91177430a8212c067d7c23556d7b0a359d03
+    log: revlist-cbe1658e272d-dd9d91177430.txt
 
---===============4113850041546007327==
-Content-Type: text/plain; charset="us-ascii"
+--===============0727347600227726766==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30d71bec6271-0f24cfee6677.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-cbe1658e272d-dd9d91177430.txt
 
-5ed66306eab6953197c88e082d9ecc0b35e21538 octeontx2-af: Add devlink health reporters for NIX
-d41b3365bda7845b28c5a06eef19be0b353cf128 docs: octeontx2: Add Documentation for NIX health reporters
-e0171b87a04074767ed284475ae9f55ac9812972 Merge branch 'add-devlink-health-reporters-for-nix-block'
-0a950ce029c855060ceaea5a5eac511497c5619e ethernet: ucc_geth: remove unused read of temoder field
-e8e507a8ac90d48053dfdea9d4855495b0204956 soc: fsl: qe: make cpm_muram_offset take a const void* argument
-155ea0dc8dcb6066aaf4af5addd005b8968ce820 soc: fsl: qe: store muram_vbase as a void pointer instead of u8
-186b8daffb4ec2dabb8a3d93b329b16152a5a100 soc: fsl: qe: add cpm_muram_free_addr() helper
-03588e92c07fc57c048309004788f3fe3a7da926 ethernet: ucc_geth: use qe_muram_free_addr()
-0a71c415297fd7d408834a4585ae7c757bebbe4f ethernet: ucc_geth: remove unnecessary memset_io() calls
-830c8ddc66df5074075933a172b6698acbadbc7a ethernet: ucc_geth: replace kmalloc+memset by kzalloc
-7d9fe90036f75a766dce76df997d4067e22b93c6 ethernet: ucc_geth: remove {rx,tx}_glbl_pram_offset from struct ucc_geth_private
-632e3f2d9922c04fc179660693417b6d4a9007f1 ethernet: ucc_geth: factor out parsing of {rx,tx}-clock{,-name} properties
-b0292e086beeb741601bd984e10f2e2a585c20ae ethernet: ucc_geth: constify ugeth_primary_info
-baff4311c40ddae7bfc144dc628d4b11c19f0366 ethernet: ucc_geth: don't statically allocate eight ucc_geth_info
-b29fafd3570b21c484e08e949bc868bfc12f0df1 ethernet: ucc_geth: use UCC_GETH_{RX,TX}_BD_RING_ALIGNMENT macros directly
-64a99fe596f9cb2af2c23c64352817ff8cf662bb ethernet: ucc_geth: remove bd_mem_part and all associated code
-33deb13c87e561c3b566c60aede124a5e23981c1 ethernet: ucc_geth: replace kmalloc_array()+for loop by kcalloc()
-634b5bd7318725202ffad6cbf034b006970b1112 ethernet: ucc_geth: add helper to replace repeated switch statements
-53f49d86ea21084e7a1789a5256c170f27e02714 ethernet: ucc_geth: inform the compiler that numQueues is always 1
-9b0dfef4755301d9f7fcef63e2f64d23649bebb4 ethernet: ucc_geth: simplify rx/tx allocations
-961629bd32175eb075c99a825876dd77918d0641 Merge branch 'ucc_geth-improvements'
-9cacde1c9013d344da8f790c50baff09f60d6277 devlink: Prepare code to fill multiple port function attributes
-074876e352a8a269fc73e0824076e5af9eda6e72 devlink: Introduce PCI SF port flavour and port attribute
-13d5d20baef73c9604b44bc2d02c730c41824e66 devlink: Support add and delete devlink port
-eb9eeced1080542c4493c6a8c4ccb1699299ed32 devlink: Support get and set state of port function
-4e2d449835ee65e1e2e31a0f58b74652863d2956 net/mlx5: Introduce vhca state event notifier
-51203533acbd7c14d19b57e1e1d875726c266170 net/mlx5: SF, Add auxiliary device support
-4cd2c8fca4cb9c1cc9d6e61ee17015aaa84dd63d net/mlx5: SF, Add auxiliary device driver
-c3ee954dbe3c6be96ba0fe7882ea4026618c2cae net/mlx5: E-switch, Prepare eswitch to handle SF vport
-3fc42823a899e72dd3191abe85cbc50d26288c15 net/mlx5: E-switch, Add eswitch helpers for SF vport
-331115cc280c22f582be8ade312c2d981053f9ad net/mlx5: SF, Add port add delete functionality
-756cf600995027a1dbfe4ed31da07eca00fd9f56 net/mlx5: SF, Port function state change support
-b8cb8d762ced2047725475804a5966514bd95043 devlink: Add devlink port documentation
-ebbe8617de12731e6116f6414540862f12795137 devlink: Extend devlink port documentation for subfunctions
-7a825d466aba0f4363ed68044ba6996a9a41803a net/mlx5: Add devlink subfunction port documentation
-ad3c54458dcb3c49036ab2e9c9205986f7998412 net/mlx5: Don't skip vport check
-58c5f3c4a1380d02c4f456980128020f85c00c08 net/mlx5: Remove impossible checks of interface state
-2a2e241d7cee7b4e555dc1a61162a9ab377483a9 net/mlx5: Separate probe vs. reload flows
-88a6b4efa3369fc3d5eca4e365abf052bf70fb06 net/mlx5: Remove second FW tracer check
-43b80aa17856b36ba9a7a9f652e9fd51e4f5671c net/mlx5: Don't rely on interface state bit
-c17c8e5ea6f0ac14cf513f31a81588cbb77386d3 net/mlx5: Check returned value from health recover sequence
-b11ea285bdf237dac7d0b57900de70e9229d7725 net/mlx5: Fix devlink reload LOCKDEP warning
-b233f88b330de8b6b33c238c6c12e8149dd0ee74 devlink: Expose port function commands to control roce
-a61d191bcc188c33923cc44546ba98a4a1b58487 net/mlx5: E-Switch, Implement  devlink port function cmds to control roce
-7f8d8d0f28f714c6229904dcbb75a18d19a6f915 net/mlx5e: CT: Preparation for offloading +trk+new ct rules
-72bb2277c90cc8e6e949bbb9a86312171513ff34 net/mlx5e: CT: Support offload of +trk+new ct rules
-fe58613634ad0bbb2cf0de4cecead15e35d51ebc net/mlx5: CT: Add support for mirroring
-604555f63e70f1e3e155f93b463e168574878e3c net/mlx5: E-Switch, let user to enable disable metadata
-030c49c2df21cec42a1f8f489171dbf538d0024a net/mlx5e: CT, Avoid false lock depenency warning
-b9e87750f3790d0270b76ba7703b9d1fd7147767 devlink: Add DMAC filter generic packet trap
-89e0ceeb310d87a165f6219102b336ee69a2dbb5 net/mlx5: Add support for devlink traps in mlx5 core driver
-aaccb3ce30b906f11044f3032b69f5bc8dc9e85a net/mlx5: Register to devlink ingress VLAN filter trap
-53cb25ff1fc14bcb95778939234ef0f3d207c682 net/mlx5: Register to devlink DMAC filter trap
-f0051645b21c7b82b3430c95970bd62a34a9ab23 net/mlx5: Rename events notifier header
-1fa9b1fbed1f2ad91ef43041d6c2499fbca6282e net/mlx5: Notify on trap action by blocking event
-cc8623996787f5c8671490bbeaeb5d45bba8d8ff net/mlx5e: Optimize promiscuous mode
-13bfcc5af8be663e0975e8127d51b9908fabcc93 net/mlx5e: Add flow steering VLAN trap rule
-7ced1b49c961c57bf7c95dadf89010fe5983918b net/mlx5e: Add flow steering DMAC trap rule
-5af1467b4ee21751eae9e16fb712e1e17e8adfca net/mlx5e: Expose RX dma info helpers
-aa71d538e4f6eb59258f040d48944f59b8a12395 net/mlx5e: Add trap entity to ETH driver
-8e911ca621585d077a68f3c065ac9995ad1016ab net/mlx5e: Add listener to trap event
-48bb7dd27b57f110edb73a113f3b091a44c3d1bf net/mlx5e: Add listener to DMAC filter trap event
-34d47027dbdd56c6bb0f7aaf5e0145e269ec8f7a net/mlx5e: Enable traps according to link state
-e70e64f12836a19536be095a6ea1dd00c303a58b net/mlx5: simplify the return expression of mlx5_esw_offloads_pair()
-eaab8c12255a0a0f869a2ba38ee056fb5a883f33 net/mlx5_core: remove unused including <generated/utsrelease.h>
-ab47ff165d52f8a3676ed467dd03ce7afec54b09 net/mlx5e: Enable napi in channel's activation stage
-589461bbcc6dc7edf5c13102a4b4b15d47935595 net/mlx5e: Increase indirection RQ table size to 256
-a0d9b63a8aee8e7be47c4d3df422d06a099be399 net/mlx5: Check switchdev mode when check if multi-port or ib is supported
-61bb06b1c7f61a26eb195a749e865757edcbfc48 net/mlx5: Delete device list leftover
-f67b8a563b189827d45d84236c56ed60fb131a99 fixup! net/mlx5e: Add trap entity to ETH driver
-c353b7246b6310ea62ae70f5466f2ddfb4f7c389 fixup! net/mlx5e: Add listener to trap event
-5b1067766bca0624d7e0bf1655589ed3fb121aa0 net/mlx5e: remove h from printk format specifier
-2c28938ccff6ef79b985e034af48171c768a8722 net/mlx5: fix spelling mistake in Kconfig "accelaration" -> "acceleration"
-b2101782698ceea71ac5202e1f1ba33d00aef92f net/mlx5: Remove unused mlx5_core_health member recover_work
-18b75da4dcb2e2a7252fdd5e99a80977caef3928 net/mlx5e: kTLS, Improve TLS RX workqueue scope
-1a6b97c196101c11b275245e08d0d4519684531a net/mlx5: E-Switch, Add match on vhca id to default send rules
-2383b626947252a03b7d43cf19314de0e5d9c3bd net/mlx5: E-Switch, Refactor setting source port
-683657b3b46a8d4d6e2615bdee086bb03904cc9a net/mlx5: E-Switch, Add eswitch pointer to each representor
-70e33cc2dfe01eb3e6feb1ccc6a2c5bacb313d4f RDMA/mlx5: Use represntor E-Switch when getting netdev and metadata
-d74728a4361ca40c37390fdfba03f5e1100428c0 net/mlx5: E-Switch, Refactor send to vport to be more generic
-8efe37890bf7c82bdaf41ee61481b20276f709a9 net/mlx5: Add IFC bits needed for single FDB mode
-4026d80142b644c107586f279fa319ff5c6e0d18 MAINTAINERS: add entry for Arrow SpeedChips XRS7000 driver
-b9156de5296af463649d7bc74653979473e86637 Merge commit 'refs/changes/78/355678/27' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-3bebb5dcc26b7ebc8023944a6a6243c46613a88d net/mlx5e: rep: Improve reg_cX conditions
-7afd8b8177a549e6f5d86c8e08e4afc497a35404 Merge branch 'net-next-mlx4' into net-next
-9195cea6d6f84529526b9be9a87f446650770418 Merge branch 'mlx5-vdpa' into net-next
-b03cad09085dc11b50c69144c5e8948c8aa472f0 Merge branch 'net-next-mlx5' into net-next
-8215a3907aa6d19859da45706dbda2993f0be568 Merge branch 'net-mlx4' into net-next
-fd323d63c204e7db7b206f388d413ae424c8fe8f Merge branch 'net-mlx5' into net-next
-0f24cfee6677ee559efd7eec34bdaa345ad282b7 Merge branch 'net-next-test' into net-next
+9a85c09a3f507b925d75cb0c7c8f364467038052 pinctrl: ingenic: Fix JZ4760 support
+b4aa4876e58d12fb3ace425969dcbf4df37aa254 pinctrl: ingenic: Rename registers from JZ4760_GPIO_* to JZ4770_GPIO_*
+92ff62a7bcc17d47c0ce8dddfb7a6e1a2e55ebf4 pinctrl: aspeed: g6: Fix PWMG0 pinctrl setting
+2f9d9a852f426cdc56ebd5c05c2333ea2012cc97 pinctrl: nomadik: Remove unused variable in nmk_gpio_dbg_show_one
+81bd1579b43e0e285cba667399f1b063f1ce7672 pinctrl: mediatek: Fix fallback call path
+1e249cb5b7fc09ff216aa5a12f6c302e434e88f9 fs: fix lazytime expiration handling in __writeback_single_inode()
+668af87f995b6d6d09595c088ad1fb5dd9ff25d2 printk: ringbuffer: fix line counting
+89ccf18f032f26946e2ea6258120472eec6aa745 printk: fix kmsg_dump_get_buffer length calulations
+5cdc4a6950a883594e9640b1decb3fcf6222a594 udf: fix the problem that the disc content is not displayed
+a82e537807d5c85706cd4c16fd2de77a8495dc8d pinctrl: qcom: Allow SoCs to specify a GPIO function that's not 0
+4079d35fa4fca4ee0ffd66968312fc86a5e8c290 pinctrl: qcom: No need to read-modify-write the interrupt status
+a95881d6aa2c000e3649f27a1a7329cf356e6bb3 pinctrl: qcom: Properly clear "intr_ack_high" interrupts when unmasking
+cf9d052aa6005f1e8dfaf491d83bf37f368af69e pinctrl: qcom: Don't clear pending interrupts when enabling
+f0e386ee0c0b71ea6f7238506a4d0965a2dbef11 printk: fix buffer overflow potential for print_text()
+08685be7761d69914f08c3d6211c543a385a5b9c powerpc/64s: fix scv entry fallback flush vs interrupt
+09a4f6f5d21cb1f2633f4e8b893336b60eee9a01 ASoC: dt-bindings: lpass: Fix and common up lpass dai ids
+cd3484f7f1386071b1af159023917ed12c182d39 ASoC: qcom: Fix broken support to MI2S TERTIARY and QUATERNARY
+40caffd66ca9ad1baa2d5541232675160bc6c772 ASoC: AMD Renoir - refine DMI entries for some Lenovo products
+1e066a23e76f90c9c39c189fe0dbf7c6e3dd5044 ASoC: qcom: lpass-ipq806x: fix bitwidth regmap field
+543466ef3571069b8eb13a8ff7c7cfc8d8a75c43 ASoC: topology: Fix memory corruption in soc_tplg_denum_create_values()
+55a8b42e8645a6dab88674a30cb6ed328e660680 spi: altera: Fix memory leak on error path
+78a18fec5258c8df9435399a1ea022d73d3eceb9 ACPI: scan: Make acpi_bus_get_device() clear return pointer on error
+fc4cb1e15f0c66f2e37314349dc4a82bd946fbb1 ASoC: topology: Properly unregister DAI on removal
+5ac154443e686b06242aa49de30a12b74ea9ca98 ASoC: mediatek: mt8183-mt6358: ignore TDM DAI link by default
+4d36ed8eb0f749c9e781e0d3b041a7adeedcdaa9 ASoC: mediatek: mt8183-da7219: ignore TDM DAI link by default
+9791581c049c10929e97098374dd1716a81fefcc Merge tag 'for-5.11-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+b135b3358d73aa2a8b2be35d08e422421d1c609e mtd: rawnand: omap: Use BCH private fields in the specific OOB layout
+29be3f026306d46fd37bbcc49331518d60964ef2 Merge series "Add KUNIT tests for ASoC topology" from Amadeusz Sławiński<amadeuszx.slawinski@linux.intel.com>:
+d146c7b0fe9a55ec5911fae25e2f697b5dedd6c0 Merge series "ASoC: mediatek: mt8183: ignore TDM DAI link by by default" from Tzung-Bi Shih <tzungbi@google.com>:
+411fc208eb60ec2588ee37bc8e3551e0bf695fda Merge series "ASoC: qcom: Fix broken lpass driver" from Srinivas Kandagatla <srinivas.kandagatla@linaro.org>:
+9bb48c82aced07698a2d08ee0f1475a6c4f6b266 tty: implement write_iter
+389102a3515b53a38858554a915006be7f0b6a06 scsi: target: iscsi: Fix typo in comment
+aa2c24e7f415e9c13635cee22ff4e15a80215551 scsi: qla2xxx: Fix description for parameter ql2xenforce_iocb_limit
+c369d7fc8fddc5e5af4aea73dd403681a74c1a86 net: dsa: microchip: ksz8795: Fix KSZ8794 port map again
+1c45ba93d34cd6af75228f34d0675200c81738b5 net: dsa: microchip: Adjust reset release timing to match reference reset circuit
+17cbe03872be8878e2f84047424350d036915df1 mm/memblock: Fix typo in comment of memblock_phys_alloc_try_nid()
+494e63ee9c9f322c1051acc537ac5b99688f7e58 Merge 9bb48c82aced ("tty: implement write_iter") into tty-linus
+7dfe20ee92f681ab1342015254ddb77a18f40cdb ASoC: qcom: Fix number of HDMI RDMA channels on sc7180
+51dfb6ca3728bd0a0a3c23776a12d2a15a1d2457 regulator: consumer: Add missing stubs to regulator/consumer.h
+dcf3c8fb32ddbfa3b8227db38aa6746405bd4527 mac80211: 160MHz with extended NSS BW in CSA
+535b6a122c6b43af5772ca39cbff7056749aae74 Merge branch 'printk-rework' into for-linus
+4eaad21a6ac9865df7f31983232ed5928450458d kernfs: implement ->read_iter
+cc099e0b399889c6485c88368b19824b087c9f8c kernfs: implement ->write_iter
+f2d6c2708bd84ca953fa6b6ca5717e79eb0140c7 kernfs: wire up ->splice_read and ->splice_write
+3d1cf435e201d1fd63e4346b141881aed086effd driver core: Extend device_is_dependent()
+927633a6d20af319d986f3e42c3ef9f6d7835008 stm class: Fix module init return on allocation failure
+cb5c681ab9037e25fcca20689c82cf034566d610 intel_th: pci: Add Alder Lake-P support
+c1c3ba1f78354a20222d291ed6fedd17b7a74fd7 ASoC: Intel: Skylake: skl-topology: Fix OOPs ib skl_tplg_complete
+1d8fe0648e118fd495a2cb393a34eb8d428e7808 ASoC: Intel: Skylake: Zero snd_ctl_elem_value
+9354f1b421f76f8368be13954f87d07bcbd6fffe habanalabs: zero pci counters packet before submit to FW
+f8abaf379bfe19600f96ae79a6759eb37039ae05 habanalabs: fix backward compatibility of idle check
+2dc4a6d79168e7e426e8ddf8e7219c9ffd13b2b1 habanalabs: disable FW events on device removal
+35c715c30b95205e64311c3bb3525094cd3d7236 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+e020ff611ba9be54e959e6b548038f8a020da1c9 driver core: Fix device link device name collision
+63858ac326561af6a1e583ad4314cc1be16852ad Merge tag 'pinctrl-v5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+d7631e4378f26c8e1ba1ad372888e89e69678709 Merge tag 'gpio-fixes-for-v5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+120fbdb84f339ca3c358e4ac3fb1ffe663669d28 Merge tag 'sound-5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+f6aed68e8a2a646c78801f6c545f9c4db2f4e610 hwmon: (ina2) update ti,ina2xx.yaml reference in documentation
+6a52f4cf863a53b8196286e2b95d3ef3bd8183ad Merge tag 'acpi-5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+2561bbbe2e959c966e21ee23de91b9bd4bbf98af Merge tag 'printk-for-5.11-printk-rework-fixup' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+6da3017fab4b591ffcf7195b661175da1d061d48 Merge remote-tracking branch 'asoc/for-5.11' into asoc-linus
+82705e71def358f36f60e3b8e7331208c63f559b Merge remote-tracking branch 'regulator/for-5.11' into regulator-linus
+8d874842da435cf9d9a25724ad689d203d53d49c Merge remote-tracking branch 'spi/for-5.11' into spi-linus
+b11f623cc8e722b84d833d02b9f67f84bb2d604f Merge tag 'misc-habanalabs-fixes-2021-01-21' of https://git.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-linus
+9f29bd8b2e7132b409178d1367dae1813017bd0e Merge tag 'fs_for_v5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+65fe7a4eb5d0cf9e99a6d68faeeed4b6f9e9d150 Merge remote-tracking branch 'arm64-fixes/for-next/fixes'
+d190e4f97f5e9bddd9e210bdec1a8cc23dcc0b99 Merge remote-tracking branch 'arm-soc-fixes/arm/fixes'
+a71138003e3789780b941876268a8efcdaa23bdf Merge remote-tracking branch 'powerpc-fixes/fixes'
+2515aedbb1ed2a37ba7b36fba108fe7a180f1c1c Merge remote-tracking branch 'sparc/master'
+39609d1bf9ebeefd064cca6acb040701b181e4f1 Merge remote-tracking branch 'net/master'
+f622f96bc8abbc52cc40d268c11c91d8f6199d03 Merge remote-tracking branch 'wireless-drivers/master'
+f22eff68785cbf588a67741491db242f98a88f87 Merge remote-tracking branch 'mac80211/master'
+adf46aa3eedec6f8c85455bcdd1849c5ab1f1084 Merge remote-tracking branch 'rdma-fixes/for-rc'
+a7de2554c375da379cb4501ea0403ddce46c1d9d Merge remote-tracking branch 'sound-asoc-fixes/for-linus'
+db593c3524ebf946953ecdce35dd9a483234e70c Merge remote-tracking branch 'regulator-fixes/for-linus'
+8a21440d7f0e099ce52ae3fe8ac92cb7e6a059f7 Merge remote-tracking branch 'spi-fixes/for-linus'
+43f2807e81420c32391266e76043288b4a859033 Merge remote-tracking branch 'driver-core.current/driver-core-linus'
+10b62d1e1119dae1d35193bf9409ad1cfa7c6b67 Merge remote-tracking branch 'tty.current/tty-linus'
+5e45d5ea9d4a5e51c7edde8ec91b9bf0a8e7d119 Merge remote-tracking branch 'usb.current/usb-linus'
+7a98fc4d7a85e7e5457ac455f076866d81f73978 Merge remote-tracking branch 'usb-serial-fixes/usb-linus'
+c3ca6626a8af2fcbbe48e13ab90bbe4621a0aadd Merge remote-tracking branch 'phy/fixes'
+10ed1c0508ff7914de6da89ae440a44deeb7efbd Merge remote-tracking branch 'staging.current/staging-linus'
+bda2d1ddeed2c9e3bf0cf3f7fa7c6e2cd4461287 Merge remote-tracking branch 'char-misc.current/char-misc-linus'
+4bb71afdaef69ab05a2b779911684535c2a4a45e Merge remote-tracking branch 'input-current/for-linus'
+25d5cbcaec897923215f3db1589cff95ad4c3f95 Merge remote-tracking branch 'ide/master'
+4be72d81e57338082adecaa4ebed104f3aefbd10 Merge remote-tracking branch 'dmaengine-fixes/fixes'
+16deeeb03f741ba2b57d30309011712c1f28b6b0 Merge remote-tracking branch 'mtd-fixes/mtd/fixes'
+9953a2e2bb9e2aa8d7e4c76d3c80d62441590011 Merge remote-tracking branch 'v4l-dvb-fixes/fixes'
+e8f981e4d0ecb45b18a34f5a70b86174eee8477d Merge remote-tracking branch 'omap-fixes/fixes'
+0d03377737d152e895348402a4eadd51b5f5f5bb Merge remote-tracking branch 'hwmon-fixes/hwmon'
+ca630fa047fe3bb9aa0ecebe626585988d291a75 Merge remote-tracking branch 'btrfs-fixes/next-fixes'
+f73d5e9fe63a52e9bbf9063ebb90bcf5fa5dd316 Merge remote-tracking branch 'i3c-fixes/i3c/fixes'
+aabb9711bb703729c26d08e97dc4a31f4a220d91 Merge remote-tracking branch 'drivers-x86-fixes/fixes'
+b34d0be669f2ad56bb5b50b557bbea62901f03da Merge remote-tracking branch 'scsi-fixes/fixes'
+4a6ed7c4ad206a750be4568050fd565b5151fb44 Merge remote-tracking branch 'drm-intel-fixes/for-linux-next-fixes'
+72e7dc9b1b8a2b25e8e164de879c7028422126f9 Merge remote-tracking branch 'mmc-fixes/fixes'
+d156d079caef87a47a2ea0cca5b6e2c1264b5d3c Merge remote-tracking branch 'kunit-fixes/kunit-fixes'
+bbf19ed28a4bbfc083b7a9e09e804684014bf78a Merge remote-tracking branch 'memblock-fixes/fixes'
+dd9d91177430a8212c067d7c23556d7b0a359d03 Merge remote-tracking branch 'drm-misc-fixes/for-linux-next-fixes'
 
---===============4113850041546007327==--
+--===============0727347600227726766==--
