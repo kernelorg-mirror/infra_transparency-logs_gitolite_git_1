@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Thu, 21 Jan 2021 14:20:41 -0000
-Message-Id: <161123884157.28920.8735220070783276861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 21 Jan 2021 14:21:41 -0000
+Message-Id: <161123890170.29302.3113555349688674859@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: nferre
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/at91-dt
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: 314f4e24df55dbfad24e362fe7cdef412f223d0a
+  - ref: refs/heads/x86/urgent
+    old: 1eb8f690bcb565a6600f8b6dcc78f7b239ceba17
+    new: 67de8dca50c027ca0fa3b62a488ee5035036a0da
     log: |
-         1d9321cbc056bc365ebbd6d4c8f39c8461e3de3b ARM: dts: at91-sama5d27_wlsom1: add i2c recovery
-         314f4e24df55dbfad24e362fe7cdef412f223d0a ARM: dts: at91: sama5d2: remove atmel,wakeup-type references
+         e45122893a9870813f9bd7b4add4f613e6f29008 x86/fpu: Add kernel_fpu_begin_mask() to selectively initialize state
+         67de8dca50c027ca0fa3b62a488ee5035036a0da x86/mmx: Use KFPU_387 for MMX string operations
          
