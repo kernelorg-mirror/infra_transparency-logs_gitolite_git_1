@@ -1,53 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============8084843149314683625=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 21 Jan 2021 09:54:43 -0000
-Message-Id: <161122288343.12293.11216911856959126961@gitolite.kernel.org>
-
---===============8084843149314683625==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Thu, 21 Jan 2021 10:05:01 -0000
+Message-Id: <161122350187.17973.4011848680165615491@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/next
-    old: 514b1a8477d25a157f65bf52a443f8ffcc2eb54e
-    new: 1c761ee9da1ac6ba7e40d14457fac94c87eaff35
+  - ref: refs/heads/renesas/v3u/avb-v2
+    old: c12925f13883003705c55fb1c683210989a28ff3
+    new: 016685a30bf14640d2c231c11490638006e70543
     log: |
-         1c761ee9da1ac6ba7e40d14457fac94c87eaff35 efi/arm64: Update debug prints to reflect other entropy sources
+         9af9f3b75f261a0134b7ee670f0ccd700f843238 clk: renesas: r8a779a0: add clocks for I2C
+         1918faa2fc66ee3fee65031f87892267fbc33f47 arm64: dts: renesas: Add I2C to R8A779A0
+         0af472d96d8ee9e1727b22f0ccd1248d9ce2d4cf arm64: dts: renesas: Add I2C0,1,6 support for falcon board
+         6496c1794f009d073a14c7eb7ca9d9bdfc4af366 v3u: enable other I2C busses for testing
+         7410a821f3ac8663ce58d8449644bb54c35a2d2d dt-bindings: net: renesas,etheravb: Add r8a779a0 support
+         90272bf0a8c44fb5455704fd46d2b308820a2f8a clk: renesas: r8a779a0: add clocks for RAVB
+         9283c05fa4688b4569bddc8d94edb1b2d8e0510d arm64: dts: renesas: r8a779a0: Add Ethernet-AVB support
+         1e678a4ce1c4bbd69fb60239efcf11e3893f709f arm64: dts: renesas: falcon: Add Ethernet-AVB0 support
+         016685a30bf14640d2c231c11490638006e70543 WIP! arm64: dts: renesas: falcon: Add Ethernet-AVB1-5 support
          
-
---===============8084843149314683625==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x3D200E9CA6329909 1611222881 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-nonce 1611222880-761bc9ebbabff1dbf3d471664a766d389eade929
-
-514b1a8477d25a157f65bf52a443f8ffcc2eb54e 1c761ee9da1ac6ba7e40d14457fac94c87eaff35 refs/heads/next
------BEGIN PGP SIGNATURE-----
-
-iQGzBAABCgAdFiEE+9lifEBpyUIVN1cpw08iOZLZjyQFAmAJT2EACgkQw08iOZLZ
-jySnJQv/Q6dKU7dZnwiFRPstMun1mybzEo+MuOsKaTAhCCwmBdYTPTE/KbWRZ14i
-sTkkaIUYfw9epN6apuc7fQ2cd/SlEvok/4LzjG5CtYngtTn3T4Mc7SuvZduQOFj2
-lEwkS+wyGgtNp6b6f7ZLvS8dms3+GKv94FjAMhIkYO3IjCblj1/QDkgefkbvTpEJ
-Y+f4UVq3ztuagxlPfBi2KSAhqKX+7GuLS1BLn5dA5+zfPUbHP/9mlMxzYiUXPKL7
-AULvMFqr2TFBJUc1VjCHD07GGSu7CSwUp76gid0zXgptAOQp64TVdnN3BlbEI4Vi
-IK7cQk6W+Ek0OJPSGKo9DUKRz5C/b0rEPcxf/tGWktSlKh/VZK6AlAoWC3tOOMfn
-oo6YKKcvpNqxFIMAPjhZeWa5eSvm5ZB+6YlXaxVt324tm9F8lfhi4AF4hzkxRxxk
-ZJAguDanTsSouJu6Ekub/VSF3coX57hSAFcj0TDnujV/NrTrgHEUujKezKL3X/RS
-9XJMQ3/p
-=rzS+
------END PGP SIGNATURE-----
-
---===============8084843149314683625==--
