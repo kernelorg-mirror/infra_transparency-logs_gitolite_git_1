@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Thu, 21 Jan 2021 13:58:16 -0000
-Message-Id: <161123749605.10193.10703916464772601716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Thu, 21 Jan 2021 14:20:41 -0000
+Message-Id: <161123884157.28920.8735220070783276861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mbroz/linux
-user: mbroz
+repo: pub/scm/linux/kernel/git/at91/linux
+user: nferre
 changes:
-  - ref: refs/heads/dm-cryptsetup
-    old: 348ecebf199ed216839f4c86ee5c5168cf1c6e96
-    new: 1d09367150ea9d117f63df283539dde5df2984e1
+  - ref: refs/heads/at91-dt
+    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+    new: 314f4e24df55dbfad24e362fe7cdef412f223d0a
     log: |
-         1d09367150ea9d117f63df283539dde5df2984e1 dm-integrity: introduce the "fix_hmac" argument
+         1d9321cbc056bc365ebbd6d4c8f39c8461e3de3b ARM: dts: at91-sama5d27_wlsom1: add i2c recovery
+         314f4e24df55dbfad24e362fe7cdef412f223d0a ARM: dts: at91: sama5d2: remove atmel,wakeup-type references
          
