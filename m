@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4610814800591504281=="
+Content-Type: multipart/mixed; boundary="===============6306898218458055255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 21 Jan 2021 00:05:54 -0000
-Message-Id: <161118755476.11870.11169589518447505751@gitolite.kernel.org>
+Date: Thu, 21 Jan 2021 00:06:12 -0000
+Message-Id: <161118757230.12140.3069843548149750205@gitolite.kernel.org>
 
---===============4610814800591504281==
+--===============6306898218458055255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 262fafe138e811c87587d5e4d523b0f9839e57a1
-    new: 9aa5296e51f4b828d7c8c09f6f36f91e4b6b577a
-    log: revlist-262fafe138e8-9aa5296e51f4.txt
+    new: 7d26f5d6875bbdccf29992f1eb2edba193fe33a4
+    log: revlist-262fafe138e8-7d26f5d6875b.txt
 
---===============4610814800591504281==
+--===============6306898218458055255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-262fafe138e8-9aa5296e51f4.txt
+Content-Disposition: attachment; filename=revlist-262fafe138e8-7d26f5d6875b.txt
 
 37309f47e2f5674f3e86cb765312ace42cfcedf5 HID: wacom: Fix memory leakage caused by kfifo_alloc
 e789ca0cc1d51296832b8424fa4008ce6e9d1703 ext4: combine ext4_handle_error() and save_error_info()
@@ -397,9 +397,9 @@ db58465f1121086b524be80be39d1fedbe5387f3 cachefiles: Drop superfluous readpages 
 2e4ceed606ba4942f632d097f70696543fe98d8e Merge tag 'for-linus-5.11-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 75439bc439e0f02903b48efce84876ca92da97bd Merge tag 'net-5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 9791581c049c10929e97098374dd1716a81fefcc Merge tag 'for-5.11-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-8201a68337d477f9acffa8c7dab70cd6d87f0bae tpm: Fix fall-through warnings for Clang
-77d3ee57d96c6171fb254ea64e14171d48a18ed8 char: tpm: add i2c driver for cr50
-1959feda566597fb9242ea84875bddb283fbeaf4 tpm: Remove tpm_dev_wq_lock
-9aa5296e51f4b828d7c8c09f6f36f91e4b6b577a keys: Update comment for restrict_link_by_key_or_keyring_chain
+7d46ceef1e3230c60283532dadcffa306aaed55c tpm: Fix fall-through warnings for Clang
+8a35cad4d3c4d1aa5f1874a48195c9ea8dc66bd2 char: tpm: add i2c driver for cr50
+c17bbe722d7736c4832ad41604ac1688a0b8bd9e tpm: Remove tpm_dev_wq_lock
+7d26f5d6875bbdccf29992f1eb2edba193fe33a4 keys: Update comment for restrict_link_by_key_or_keyring_chain
 
---===============4610814800591504281==--
+--===============6306898218458055255==--
