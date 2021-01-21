@@ -1,90 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============1361184815924635800=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 21 Jan 2021 03:35:03 -0000
-Message-Id: <161120010351.21934.17428776515397939326@gitolite.kernel.org>
-
---===============1361184815924635800==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 21 Jan 2021 03:50:03 -0000
+Message-Id: <161120100350.32499.14787928211074084933@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 7f3a79a7fd51b3336781f5bd67a29ffb68eb6d2d
-    new: 348e1bc5f4b733a9deb1dae3242ee94f23fe6ab0
-    log: revlist-7f3a79a7fd51-348e1bc5f4b7.txt
-
---===============1361184815924635800==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1611200102 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1611200102-cbc8950b4304000ffb170cdc72fefe06ce36e64e
-
-7f3a79a7fd51b3336781f5bd67a29ffb68eb6d2d 348e1bc5f4b733a9deb1dae3242ee94f23fe6ab0 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmAI9mYACgkQ7ulgGnXF
-3j1/4Q//STVxdVtWm81iilRkgFf1s+SnoExSJARQ/dpOjJKoRGMH3DcClUNNBreG
-Lv0H4f+/aNz0/dXYaeMY02PqaABFXN17oUp1jKrTWx8A9tcBnfawjVTRM+TarIpV
-01+qAr5Mt2ah/69mOXy3Xm6oE5z8fd/XFnUO7s2G4RcoP1UALwnYklBiS9fJjGuQ
-rUHM4PwVUmOLyxszsNwMfMAUJcQzM3YHNDVoZRN3cQ2jyOGWLAlpLvwR0HnWHw/Q
-8WSGaE9V8KHU/VCqsThUSyv4F4Lrey14Ao9M2C8upGNWKuFR2t7Fp0e4Hdr5N6QI
-4oq9r9MqWWloyeaRsnj2ZFt//NPXbl7zy9YsigmF5D/T3+D6EqUCvEj6NjWRWxBl
-TuztEsovdFI2uauJDLBnPoLPYcZpoQ/Sx3DbmzdeGxdUgkBCcSJxVGD8f/GBvfLu
-ze4cW3zJNKCaKGLa3WI2IJvh47MpJGLllZOWtMkgCMzgAZuqkGU/4GFaB7yEAebP
-oPNzxF5VuzgF8Ine1MnAGZa6I/8vmYsqCGDHZbgVcGSA9bSX7YHR1wgzbNoY3k1c
-Cw+/j9nqP94UlyJBA+2Fptu3kAxmFunSuZzmWOTxVIWGGbPk4defqPqEaDDQxJGn
-RRbhhnw/t+yhgsbqcx2LV4u+FMdP/E7XSY4Gz9ejFihKL1h85PU=
-=wL8U
------END PGP SIGNATURE-----
-
---===============1361184815924635800==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f3a79a7fd51-348e1bc5f4b7.txt
-
-81e7eb5bf08f36d34495a5898f6ef3fec05d9776 Revert "Revert "scsi: megaraid_sas: Added support for shared host tagset for cpuhotplug""
-74a2921948ed8c0e7f079a98442ec3493168cc85 scsi: hisi_sas: Expose HW queues for v2 hw
-a8f808839abe3a10011e28b46af1848dfd8c4f21 Merge branch '5.11/scsi-postmerge' into 5.11/scsi-fixes
-1d53864c3617f5235f891ca0fbe9347c4cd35d46 scsi: ufs: Fix possible power drain during system suspend
-21acf4601cc63cf564c6fc1a74d81b191313c929 scsi: ufs: Relax the condition of UFSHCI_QUIRK_SKIP_MANUAL_WB_FLUSH_CTRL
-6948a96a0d69b7e8203758f44849ce4ab06ff788 scsi: ufs: Relocate flush of exceptional event
-35fc4cd34426c242ab015ef280853b7bff101f48 scsi: ufs: Correct the LUN used in eh_device_reset_handler() callback
-d50c7986fbf0e2167279e110a2ed5bd8e811c660 scsi: qedi: Correct max length of CHAP secret
-39718fe7adb1a79f78be23f058299bc038cbe161 scsi: mpt3sas: Fix spelling mistake in Kconfig "compatiblity" -> "compatibility"
-3b01d7ea4dae907d34fa0eeb3f17bacd714c6d0c scsi: scsi_debug: Fix memleak in scsi_debug_init()
-e5cc9002caafacbaa8dab878d17a313192c3b03b scsi: sd: Suppress spurious errors when WRITE SAME is being disabled
-be2553358cd40c0db11d1aa96f819c07413b2aae scsi: sd: Remove obsolete variable in sd_remove()
-938a2fbefbe897f722c6f69b8f63d53c71034b11 Merge branch '5.11/scsi-fixes' into 5.12/scsi-queue
-7b382122d276d700948d5586a0dc4b27709aa66b scsi: pm80xx: Clean up indentation of a code block
-8e60a7deca3d7a0ba6fbb7f773b2c5888e6edf05 scsi: pm80xx: Switch from 'pci_' to 'dma_' API
-ff79acc49af8a828dd8d0c4d93e2d085c98f1510 scsi: ibmvfc: Fix spelling mistake "succeded" -> "succeeded"
-60ec37555d05b023721a08005f5dbf716ab5394f scsi: ufs: Delete redundant if statement in ufshcd_intr()
-2b2bfc8aa519f696087475ed8e8c61850c673272 scsi: ufs: Introduce a quirk to allow only page-aligned sg entries
-f1ef9047aaab036edb39261b0a7a6bdcf3010b87 scsi: ufs: ufs-exynos: Use UFSHCD_QUIRK_ALIGN_SG_WITH_PAGE_SIZE
-8e834ca551add86fd549b0830f36ec2f26d08667 scsi: ufs: Add "wb_on" sysfs node to control WB on/off
-06aea26676a584d0effa72ce6a21b21de7643b30 scsi: ufs: docs: ABI: Add wb_on documentation for new entry wb_on
-ae1ce1fc61d4eae1cf00419a1be1a327099ba46c scsi: ufs: Update comment in the function ufshcd_wb_probe()
-e8d03813942072cff7bf596e8350f9b7fcde0e98 scsi: ufs: Remove two WB related fields from struct ufs_dev_info
-4cd48995645b456864564e168d539637b77d030e scsi: ufs: Group UFS WB related flags in struct ufs_dev_info
-0e9d4ca43ba8112821397f56a26d20682001c011 scsi: ufs: Protect some contexts from unexpected clock scaling
-4543d9d78227f0de0056e06427303618c2adac65 scsi: ufs: Refactor ufshcd_init/exit_clk_scaling/gating()
-b02d51afca002a0cd29a22200a2ed81c5e1f58de Revert "Make sure clk scaling happens only when HBA is runtime ACTIVE"
-f9a7fa345aec28bc1c15a55572e016bbeb5f4254 scsi: ufs: Refactor cancelling clkscaling works
-b058fa868234fe835af4e3887b4f0d018a9220ed scsi: ufs: Remove redundant null checking of devfreq instance
-348e1bc5f4b733a9deb1dae3242ee94f23fe6ab0 scsi: ufs: Clean up and refactor clk-scaling feature
-
---===============1361184815924635800==--
+  - ref: refs/heads/io_uring-5.11
+    old: ff05644c4463b85ecb4156b52263f3be1b0a89e6
+    new: 7f9bd8a3fdbc74539e9515600ae8a706e83a1dfb
+    log: |
+         3cdf2d50e65b045223028d5935d2ab93419ef54d io_uring: cancel all requests on task exit
+         7f9bd8a3fdbc74539e9515600ae8a706e83a1dfb io_uring: fix SQPOLL IORING_OP_CLOSE cancelation state
+         
