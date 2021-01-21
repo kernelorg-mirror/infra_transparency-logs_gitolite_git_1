@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 21 Jan 2021 05:06:20 -0000
-Message-Id: <161120558016.16894.6415338588255467731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/luto/linux
+Date: Thu, 21 Jan 2021 05:07:53 -0000
+Message-Id: <161120567307.17347.8069297102719272608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/luto/linux
+user: luto
 changes:
-  - ref: refs/heads/master
-    old: 5ff96aec72190cab14a2edce8822e09497d6a70e
-    new: d29aee6062f3f390b8e62f3ea849e8c7c411ff68
+  - ref: refs/heads/x86/fixes
+    old: 803d45a172a25314fdaec0a01aada8333d55df4e
+    new: 57f8841ccbf9f3c25a23196c888f5f6ec5887577
     log: |
-         2014beea7eb165c745706b13659a0f1d0a9a2a61 net: move net_set_todo inside rollback_registered()
-         037e56bd965e1bc72c2fa9684ac25b56839a338e net: inline rollback_registered()
-         bcfe2f1a3818d9dca945b6aca4ae741cb1f75329 net: move rollback_registered_many()
-         0cbe1e57a7b93517100b0eb63d8e445cfbeb630c net: inline rollback_registered_many()
-         d29aee6062f3f390b8e62f3ea849e8c7c411ff68 Merge branch 'net-inline-rollback_registered-functions'
+         aff1cac8b8fc7ee900cf73e8f2369966621b053f x86/fpu: Add kernel_fpu_begin_mask() to selectively initialize state
+         e7bf21855fe99e5f3baa27446e32623358f69e8d x86/mmx: Use KFPU_387 for MMX string operations
+         25d392fff64680e0f4bb8cf0b1003314dc29eafe x86/fpu: Make the EFI FPU calling convention explicit
+         57f8841ccbf9f3c25a23196c888f5f6ec5887577 x86/fpu/64: Don't FNINIT in kernel_fpu_begin()
          
