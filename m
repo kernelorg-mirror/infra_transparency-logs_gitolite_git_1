@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6909714720421073327=="
+Content-Type: multipart/mixed; boundary="===============4295206623196811109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 21 Jan 2021 19:54:15 -0000
-Message-Id: <161125885591.18580.10883897377252916558@gitolite.kernel.org>
+Date: Thu, 21 Jan 2021 19:54:24 -0000
+Message-Id: <161125886412.18729.1544997751218025412@gitolite.kernel.org>
 
---===============6909714720421073327==
+--===============4295206623196811109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 68ed0403ef42423a9f04f6fbd8eb34f752d72f93
-    new: 0fd9d23e59aa735006e9ebfcd3e7f383c28e3923
-    log: revlist-68ed0403ef42-0fd9d23e59aa.txt
+  - ref: refs/heads/net-next
+    old: efa6e2861832e6c37f7fdafb3a86a546d3c52137
+    new: 30d71bec6271da169b4134597730c4761f4135fb
+    log: revlist-efa6e2861832-30d71bec6271.txt
 
---===============6909714720421073327==
+--===============4295206623196811109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68ed0403ef42-0fd9d23e59aa.txt
+Content-Disposition: attachment; filename=revlist-efa6e2861832-30d71bec6271.txt
 
 d2a31cdbe03c9cdb07185973911c46d56ad426b4 devlink: Prepare code to fill multiple port function attributes
 5d75abe9d0acef1039f370256df1fef96456ad23 devlink: Introduce PCI SF port flavour and port attribute
@@ -80,5 +80,13 @@ b318a5eaafaaabd7154cdb41d804a5e16b01ceb1 fixup! net/mlx5e: Add listener to trap 
 c4b333e4255627b9839673c25f27660ee60670c4 net/mlx5: fix spelling mistake in Kconfig "accelaration" -> "acceleration"
 3110b61f9f00fe4d2a0593d2b1e0bd429e835236 net/mlx5: Remove unused mlx5_core_health member recover_work
 0fd9d23e59aa735006e9ebfcd3e7f383c28e3923 net/mlx5e: kTLS, Improve TLS RX workqueue scope
+0eaf61a6c989ae0607cb9623c93317dcd18397c8 Merge commit 'refs/changes/78/355678/27' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+4b967dfaa8e9fbc821ef9fc64fb1f808fc02f27a net/mlx5e: rep: Improve reg_cX conditions
+06f605ec58137b556c0cfa46f8e96235fedce901 Merge branch 'net-next-mlx4' into net-next
+06c85a7366cb70932bef2bcf171df156f684d1b5 Merge branch 'mlx5-vdpa' into net-next
+f60e93676bb24eb6fe6561ec3c34426abea03d7b Merge branch 'net-next-mlx5' into net-next
+eebe81e5885272fce97b218607e01c6294c5b7c5 Merge branch 'net-mlx4' into net-next
+b773c965420e627a4c020d0d47e7afd2698e58c6 Merge branch 'net-mlx5' into net-next
+30d71bec6271da169b4134597730c4761f4135fb Merge branch 'net-next-test' into net-next
 
---===============6909714720421073327==--
+--===============4295206623196811109==--
