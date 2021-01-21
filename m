@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Thu, 21 Jan 2021 14:36:50 -0000
-Message-Id: <161123981052.5580.5899213734445214381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jikos/jikos
+Date: Thu, 21 Jan 2021 14:43:25 -0000
+Message-Id: <161124020505.11186.3834146392179866353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/jikos/jikos
+user: jikos
 changes:
-  - ref: refs/heads/coresched
-    old: 1c3c77abaa1e04998ec7089c3b2de0551962fdca
-    new: d8ac28516ff9edd7baae093dd33d223bc839af99
+  - ref: refs/heads/floppy-nonblock-refix
+    old: a604ba0b4b1887f3848f4eaa837781e51f353117
+    new: 5994f0a8782b59f7644987768d42c3540b4ebbbd
     log: |
-         adedff2c6225637211dcce8dbe7390f32cb6834d kselftest: Add tests for core-sched interface
-         ff58dc66f37c334a547395691ba7fdd81f8ae026 Documentation: Add core scheduling documentation
-         d8ac28516ff9edd7baae093dd33d223bc839af99 sched: Debug bits...
+         5994f0a8782b59f7644987768d42c3540b4ebbbd floppy: reintroduce O_NDELAY fix
          
