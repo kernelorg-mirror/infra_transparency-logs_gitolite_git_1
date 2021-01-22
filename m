@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Fri, 22 Jan 2021 06:27:37 -0000
-Message-Id: <161129685722.10191.1111073528545394105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/arch
+Date: Fri, 22 Jan 2021 06:30:42 -0000
+Message-Id: <161129704213.12517.517420887017269460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/jarkko/arch
+user: jarkko
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: d35dc3fd50c1da59166b882fd319111f4427b9a2
-    new: 71538796e60cd92f30d4f072445958d58ae73675
+  - ref: refs/heads/master
+    old: d0d9b96e267b2c7c3cf974562e5ee5672dcf5da4
+    new: ca87ed345f2c1b66650f96d5b42fa211fec510c3
     log: |
-         71538796e60cd92f30d4f072445958d58ae73675 drm: msm: Migrate to dev_pm_opp_set_opp()
+         ca87ed345f2c1b66650f96d5b42fa211fec510c3 Initial commit
          
