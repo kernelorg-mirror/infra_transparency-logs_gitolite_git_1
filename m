@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2347913744144864131=="
+Content-Type: multipart/mixed; boundary="===============8200642093527598905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 22 Jan 2021 18:50:47 -0000
-Message-Id: <161134144718.19231.16291829972742921469@gitolite.kernel.org>
+Date: Fri, 22 Jan 2021 18:51:14 -0000
+Message-Id: <161134147410.19490.4901194578382135969@gitolite.kernel.org>
 
---===============2347913744144864131==
+--===============8200642093527598905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: b48e5b6d1ff441238011c1d6bf402b2db670d695
-    new: 5009dc44b2e92b34f813e09b3107440c42d17320
-    log: revlist-b48e5b6d1ff4-5009dc44b2e9.txt
+    new: d60d408f3cc7bc7379d72803af36227a5af518f4
+    log: revlist-b48e5b6d1ff4-d60d408f3cc7.txt
+  - ref: refs/heads/master
+    old: 5009dc44b2e92b34f813e09b3107440c42d17320
+    new: d60d408f3cc7bc7379d72803af36227a5af518f4
+    log: revlist-5009dc44b2e9-d60d408f3cc7.txt
 
---===============2347913744144864131==
+--===============8200642093527598905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b48e5b6d1ff4-5009dc44b2e9.txt
+Content-Disposition: attachment; filename=revlist-b48e5b6d1ff4-d60d408f3cc7.txt
 
 2e202ad873365513c6ad72e29a531071dffa498a gpiolib: cdev: fix frame size warning in gpio_ioctl()
 9a85c09a3f507b925d75cb0c7c8f364467038052 pinctrl: ingenic: Fix JZ4760 support
@@ -104,6 +108,54 @@ f722f5bea1caf6681722aedfd544a17e58e41324 Merge tag 'drm-misc-fixes-2021-01-20' o
 06ee38dc2aab3b5a09feb74128cf7326a490b788 Merge tag 'amd-drm-fixes-5.11-2021-01-21' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 36ada25026357c855d5839166f78017509824b77 Merge tag 'drm-fixes-2021-01-22' of git://anongit.freedesktop.org/drm/drm
 83d09ad4b950651a95d37697f1493c00d888d0db Merge tag 'for-linus' of git://github.com/openrisc/linux
-5009dc44b2e92b34f813e09b3107440c42d17320 Merge branch 'linus'
+7ff31633aa2979732f73958ca1d4147655ad387d Merge branch 'x86/urgent'
+40fec776e0617929771fce2380fb2b616adffa8a Merge branch 'x86/sgx'
+4f7eeb7b5aa4a969db76bceb58390042991b6889 Merge branch 'x86/platform'
+f60d72c2b50e222ffe2991c5913fb5c6e6221d47 Merge branch 'x86/mm'
+d1883f8fb604523720a74728dd06e7eac085ecad Merge branch 'x86/misc'
+3bf98cda4eab977b543648adc3fb41a230ba751b Merge branch 'x86/microcode'
+4a4215a88be1a502618d2d4bdac754ad9aec32a3 Merge branch 'x86/entry'
+530b5a2be4877b4600ef6cbb840c7a94567e9b28 Merge branch 'x86/cleanups'
+ddda4e9d379e72fd70a2988469f5b2b51f190294 Merge branch 'x86/cache'
+8d5ebc54387455ede699f5f565cc3ff15dbd02d1 Merge branch 'x86/build'
+ce44a94a54639326de07807cdaab3982af101948 Merge branch 'x86/asm'
+7dab000d7bdb17e10e77dbd5da140c1b31739734 Merge branch 'timers/urgent'
+3a268066d0a4c8d082fa83be6c3b1a9ed5b80622 Merge branch 'sched/urgent'
+b9dd82b33d80d6823f5ead6ccd53e6a5a5b4806d Merge branch 'sched/core'
+c3eff53a60ebe47b4253c126feac4cb47e114d3e Merge branch 'ras/core'
+94713865aa5a5bae8ff6949ab3ad1e8f0d542fdf Merge branch 'perf/kprobes'
+f9a3e402bb699711f2b562453535576269157f47 Merge branch 'perf/core'
+ab84309374d04689a7f6203b598f3f104c92849d Merge branch 'objtool/urgent'
+89f248f4d4e0b141de354ce0c9437b2b725f5f85 Merge branch 'objtool/core'
+8708ddd187597a9d4e9eb4951238257876147eb6 Merge branch 'locking/core'
+d60d408f3cc7bc7379d72803af36227a5af518f4 Merge branch 'irq/urgent'
 
---===============2347913744144864131==--
+--===============8200642093527598905==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5009dc44b2e9-d60d408f3cc7.txt
+
+7ff31633aa2979732f73958ca1d4147655ad387d Merge branch 'x86/urgent'
+40fec776e0617929771fce2380fb2b616adffa8a Merge branch 'x86/sgx'
+4f7eeb7b5aa4a969db76bceb58390042991b6889 Merge branch 'x86/platform'
+f60d72c2b50e222ffe2991c5913fb5c6e6221d47 Merge branch 'x86/mm'
+d1883f8fb604523720a74728dd06e7eac085ecad Merge branch 'x86/misc'
+3bf98cda4eab977b543648adc3fb41a230ba751b Merge branch 'x86/microcode'
+4a4215a88be1a502618d2d4bdac754ad9aec32a3 Merge branch 'x86/entry'
+530b5a2be4877b4600ef6cbb840c7a94567e9b28 Merge branch 'x86/cleanups'
+ddda4e9d379e72fd70a2988469f5b2b51f190294 Merge branch 'x86/cache'
+8d5ebc54387455ede699f5f565cc3ff15dbd02d1 Merge branch 'x86/build'
+ce44a94a54639326de07807cdaab3982af101948 Merge branch 'x86/asm'
+7dab000d7bdb17e10e77dbd5da140c1b31739734 Merge branch 'timers/urgent'
+3a268066d0a4c8d082fa83be6c3b1a9ed5b80622 Merge branch 'sched/urgent'
+b9dd82b33d80d6823f5ead6ccd53e6a5a5b4806d Merge branch 'sched/core'
+c3eff53a60ebe47b4253c126feac4cb47e114d3e Merge branch 'ras/core'
+94713865aa5a5bae8ff6949ab3ad1e8f0d542fdf Merge branch 'perf/kprobes'
+f9a3e402bb699711f2b562453535576269157f47 Merge branch 'perf/core'
+ab84309374d04689a7f6203b598f3f104c92849d Merge branch 'objtool/urgent'
+89f248f4d4e0b141de354ce0c9437b2b725f5f85 Merge branch 'objtool/core'
+8708ddd187597a9d4e9eb4951238257876147eb6 Merge branch 'locking/core'
+d60d408f3cc7bc7379d72803af36227a5af518f4 Merge branch 'irq/urgent'
+
+--===============8200642093527598905==--
