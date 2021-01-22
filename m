@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 22 Jan 2021 00:39:52 -0000
-Message-Id: <161127599245.5456.4662060159892368910@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 22 Jan 2021 00:41:04 -0000
+Message-Id: <161127606404.9247.13869108542983813448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/ceph-netfs-lib-experimental
-    old: 60bc7f31813c243fb6fbbd02c68f29e46cf0a69e
-    new: bf945d756287a0f97c01e853350fee5a51f8136b
+  - ref: refs/heads/dev
+    old: a6803d2b06ec1a8bbfa20fb1b24b4392f9820a1e
+    new: 8c25e0bf39edc582588f64b2ff3ac945360e1375
     log: |
-         93be965091a50d7f95a3f55f1d734e7110b00132 ceph: disable old fscache readpage handling
-         0daefe2fe09701409856add5f9795acaec337b90 ceph: rework PageFsCache handling
-         e6758d6db0193bb44d2a2b1efafee8889da97dbf ceph: fix invalidation
-         0d4bde69ddd2592930f5fe9212d64d075c7cad26 ceph: convert readpage to fscache read helper
-         74decfbec84a59f328a35a8e9f022d0bc3eac8b7 ceph: plug write_begin into read helper
-         bf945d756287a0f97c01e853350fee5a51f8136b ceph: convert ceph_readpages to ceph_readahead
+         c197781a3e32d99eff58ddef7a0bdbe6979c520b lib: Add "all" and "none" as valid ranges to bitmap_parselist()
+         0bbffb4db6a926aa16bd70ee26d409bb9e500f6c rcu: Remove "all" cpumask checks favor of bitmask-level "all"
+         d2e036a7239d96b660cf202432ccf76cafa389a3 lib: Support N as end of range in bitmap_parselist()
+         8c25e0bf39edc582588f64b2ff3ac945360e1375 rcutorture: Use "all" and "N" in "nohz_full" and "rcu_nocbs"
          
