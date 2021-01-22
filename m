@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Fri, 22 Jan 2021 11:06:31 -0000
-Message-Id: <161131359125.32006.16713626218383924959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 22 Jan 2021 11:11:34 -0000
+Message-Id: <161131389443.4791.7155843281111251728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/linux-bcache
-user: colyli
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/nvdimm-meta
-    old: d770c3e51e25b3a0ceb5859218da09f725151956
-    new: 582bb8a608320a7eb4a7b453f601823c16a85e39
+  - ref: refs/heads/experimental
+    old: 7278127365a833e3cc5e12171d61f31c58312bc6
+    new: eaaaa33cce5f4cc8507cb916a7d40f7f718b699c
     log: |
-         582bb8a608320a7eb4a7b453f601823c16a85e39 bcache: debug and fix for nvdimm meta dev
+         c521da066a1517406f9764a1c0e5de11fdf66071 erofs-utils: fix memory leak when erofs_fill_inode() fails
+         40a6dc760e90fdfd847b62e531f97dd5aefa3e26 erofs-utils: get rid of `end' argument from erofs_mapbh()
+         eaaaa33cce5f4cc8507cb916a7d40f7f718b699c erofs-utils: optimize buffer allocation logic
          
