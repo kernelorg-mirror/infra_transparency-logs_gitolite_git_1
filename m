@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7576095670445302998=="
+Content-Type: multipart/mixed; boundary="===============3997999552533986289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 22 Jan 2021 21:50:44 -0000
-Message-Id: <161135224475.3306.9671451834873665484@gitolite.kernel.org>
+Date: Fri, 22 Jan 2021 21:50:53 -0000
+Message-Id: <161135225311.3447.9842591592283874639@gitolite.kernel.org>
 
---===============7576095670445302998==
+--===============3997999552533986289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 8efe37890bf7c82bdaf41ee61481b20276f709a9
-    new: 61407bcfa72fc2158181ceea8c1fd21382de544a
-    log: revlist-8efe37890bf7-61407bcfa72f.txt
+  - ref: refs/heads/net-next
+    old: 7d74495a81991cfaa4e867003419497084c5b11d
+    new: 88b34d15d7f8a9f0d6e387b66eb731db70ce5fe4
+    log: revlist-7d74495a8199-88b34d15d7f8.txt
 
---===============7576095670445302998==
+--===============3997999552533986289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8efe37890bf7-61407bcfa72f.txt
+Content-Disposition: attachment; filename=revlist-7d74495a8199-88b34d15d7f8.txt
 
 b018d7e8f9bc3f6af2d58e045cbf204294b60112 devlink: Prepare code to fill multiple port function attributes
 94561e744de454e23fa6f289529ba7d9d8fd4180 devlink: Introduce PCI SF port flavour and port attribute
@@ -86,5 +86,13 @@ edd9dbd3ba4af0d3a870fc7e1ba4e4756b511651 net/mlx5: E-Switch, Refactor setting so
 f82948cb4098f48b95706f6c9875e469c391d2d1 RDMA/mlx5: Use represntor E-Switch when getting netdev and metadata
 4b398d2580d90834f38a09a0c41a8bce4ba66ec7 net/mlx5: E-Switch, Refactor send to vport to be more generic
 61407bcfa72fc2158181ceea8c1fd21382de544a net/mlx5: Add IFC bits needed for single FDB mode
+a0d0c82eb021b7b1ac81ca76cbf3a0d8d24b9963 Merge commit 'refs/changes/78/355678/27' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+a11539f276df88deeda5efef86d5a8a7f8c70f1e net/mlx5e: rep: Improve reg_cX conditions
+606d6c988d41d502d5abcdeaa2505b8ed730c01e Merge branch 'net-next-mlx4' into net-next
+cbd3b868a908042753ad0e999c2b79dcb0f5856c Merge branch 'mlx5-vdpa' into net-next
+77037cf4fa185f8895956e307a2da10d873317d8 Merge branch 'net-next-mlx5' into net-next
+ac5c8cc853aeeafe8827a03a8ef813f8e194a8e7 Merge branch 'net-mlx4' into net-next
+95507d8bf87b17a5efbdfc85ec1669bd8a27b97a Merge branch 'net-mlx5' into net-next
+88b34d15d7f8a9f0d6e387b66eb731db70ce5fe4 Merge branch 'net-next-test' into net-next
 
---===============7576095670445302998==--
+--===============3997999552533986289==--
