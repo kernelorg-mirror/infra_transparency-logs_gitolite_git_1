@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============9040773303844048006=="
+Content-Type: multipart/mixed; boundary="===============4513467296199968583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 22 Jan 2021 00:29:36 -0000
-Message-Id: <161127537665.31738.7725482779470181394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
+Date: Fri, 22 Jan 2021 00:35:44 -0000
+Message-Id: <161127574440.3992.15563404392732454956@gitolite.kernel.org>
 
---===============9040773303844048006==
+--===============4513467296199968583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/andrea/aa
+user: andrea
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 19c329f6808995b142b3966301f217c831e7cf31
-    new: 8adc0a06d68a2e433b960377e515e7a6b19b429f
-    log: revlist-19c329f68089-8adc0a06d68a.txt
+  - ref: refs/heads/master
+    old: baf2a27618ec8c5179073fcb9420a2fb7c63f4fa
+    new: cb9d54f65013517f13632b2ce5e95113c1dad6ad
+    log: revlist-baf2a27618ec-cb9d54f65013.txt
 
---===============9040773303844048006==
+--===============4513467296199968583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19c329f68089-8adc0a06d68a.txt
+Content-Disposition: attachment; filename=revlist-baf2a27618ec-cb9d54f65013.txt
 
 2e202ad873365513c6ad72e29a531071dffa498a gpiolib: cdev: fix frame size warning in gpio_ioctl()
 9a85c09a3f507b925d75cb0c7c8f364467038052 pinctrl: ingenic: Fix JZ4760 support
@@ -32,8 +32,6 @@ b4aa4876e58d12fb3ace425969dcbf4df37aa254 pinctrl: ingenic: Rename registers from
 92ff62a7bcc17d47c0ce8dddfb7a6e1a2e55ebf4 pinctrl: aspeed: g6: Fix PWMG0 pinctrl setting
 2f9d9a852f426cdc56ebd5c05c2333ea2012cc97 pinctrl: nomadik: Remove unused variable in nmk_gpio_dbg_show_one
 81bd1579b43e0e285cba667399f1b063f1ce7672 pinctrl: mediatek: Fix fallback call path
-3c02e04fd4f57130e4fa75fab6f528f7a52db9b5 crypto: xor - Fix divide error in do_xor_speed()
-382811940303f7cd01d0f3dcdf432dfd89c5a98e crypto: omap-sham - Fix link error without crypto-engine
 2a0435df963f996ca870a2ef1cbf1773dc0ea25a ASoC: hdmi-codec: Fix return value in hdmi_codec_set_jack()
 35d0b389f3b23439ad15b610d6e43fc72fc75779 task_work: unconditionally run task_work from get_signal()
 70b6ff35d62050d1573876cc0e1e078acd3e6008 cfg80211/mac80211: fix kernel-doc for SAR APIs
@@ -63,7 +61,6 @@ e4ea77f8e53f9accb9371fba34c189d0447ecce0 ALSA: usb-audio: Always apply the hw co
 4237e9f4a96228ccc8a7abe5e4b30834323cd353 selftests/bpf: Add verifier test for PTR_TO_MEM spill
 495dc7637cb5ca8e39c46db818328410bb6e73a1 ALSA: hda/realtek - Limit int mic boost on Acer Aspire E5-575T
 67ea698c3950d10925be33c21ca49ffb64e21842 ALSA: hda/via: Add minimum mute flag
-7a2da5d7960a64ee923fe3e31f01a1101052c66f spi: fsl: Fix driver breakage when SPI_CS_HIGH is not set in spi->mode
 c2083e280a3d4f71941c9c57992d4e621e4e33c5 cfg80211: fix a kerneldoc markup
 6020d534fa012b80c6d13811dc4d2dfedca2e403 mac80211: fix incorrect strlen of .write in debugfs
 622d3b4e39381262da7b18ca1ed1311df227de86 mac80211: fix fast-rx encryption check
@@ -74,7 +71,6 @@ c13cf5c159660451c8fbdc37efb998b198e1d305 mac80211: check if atf has been disable
 f84d3a1ec375e46a55cc3ba85c04272b24bd3921 ALSA: hda: Add Cometlake-R PCI ID
 668af87f995b6d6d09595c088ad1fb5dd9ff25d2 printk: ringbuffer: fix line counting
 89ccf18f032f26946e2ea6258120472eec6aa745 printk: fix kmsg_dump_get_buffer length calulations
-4d163ad79b155c71bf30366dc38f8d2502f78844 spi: cadence: cache reference clock rate during probe
 9b268be3adbb410cc1a857477b638a71258891a8 MAINTAINERS: update maintainers of qcom audio
 7505c06dabb5e814bda610c8d83338544f15db45 MAINTAINERS: update qcom ASoC drivers list
 b7ba6cfabc42fc846eb96e33f1edcd3ea6290a27 octeontx2-af: Fix missing check bugs in rvu_cgx.c
@@ -85,7 +81,6 @@ e4bedf48aaa5552bc1f49703abd17606e7e6e82a net_sched: reject silly cell_log in qdi
 dd5e073381f2ada3630f36be42833c6e9c78b75e net_sched: gen_estimator: support large ewma log
 bcd0cf19ef8258ac31b9a20248b05c15a1f4b4b0 net_sched: avoid shift-out-of-bounds in tcindex_set_parms()
 66c556025d687dbdd0f748c5e1df89c977b6c02a skbuff: back tiny skbs with kmalloc() in __netdev_alloc_skb() too
-32c2bc8f2d855d4415c9a05b727e34649397bfbe ia64: fix build failure caused by memory model changes
 fff7b5e6ee63c5d20406a131b260c619cdd24fd1 x86/hyperv: Initialize clockevents after LAPIC is initialized
 bd9dcef67ffcae2de49e319fba349df76472fd10 x86/xen: fix 'nopvspin' build error
 87cb9af9f8a2b242cea7f828206d619e8cbb6a1a ALSA: usb-audio: Fix UAC1 rate setup for secondary endpoints
@@ -103,9 +98,6 @@ a82e537807d5c85706cd4c16fd2de77a8495dc8d pinctrl: qcom: Allow SoCs to specify a 
 a95881d6aa2c000e3649f27a1a7329cf356e6bb3 pinctrl: qcom: Properly clear "intr_ack_high" interrupts when unmasking
 cf9d052aa6005f1e8dfaf491d83bf37f368af69e pinctrl: qcom: Don't clear pending interrupts when enabling
 c23010ffb20acb02a1d41dc025131609916ed633 Merge tag 'asoc-fix-v5.11-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-fd3958eac387593d02e4d4287658ba04bcdb235a Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-b4459f4413c890a35dfcecaff29d37ac65607d76 Merge tag 'fixes-2021-01-18' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
-1e2a199f6ccdc15cf111d68d212e2fd4ce65682e Merge tag 'spi-fix-v5.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 79267ae22615496655feee2db0848f6786bcf67a net: mscc: ocelot: allow offloading of bridge on top of LAG
 87fe04367d842c4d97a77303242d4dd4ac351e46 net: dsa: mv88e6xxx: also read STU state in mv88e6250_g1_vtu_getnext
 bde2c0af6141702580a2ccebc396041660d127ef Merge tag 'mac80211-for-net-2021-01-18.2' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211
@@ -138,6 +130,7 @@ fd23d2dc180fccfad4b27a8e52ba1bc415d18509 selftests: net: fib_tests: remove dupli
 b160c28548bc0a87cbd16d5af6d3edcfd70b8c9a tcp: do not mess with cloned skbs in tcp_add_backlog()
 8e4052c32d6b4b39c1e13c652c7e33748d447409 net: dsa: b53: fix an off by one in checking "vlan->vid"
 9c30ae8398b0813e237bde387d67a7f74ab2db2d tcp: fix TCP socket rehash stats mis-accounting
+4ca46b80a91debf773970a75ec64715261d33c4b CKI
 03f16c5075b22c8902d2af739969e878b0879c94 can: dev: can_restart: fix use after free bug
 75854cad5d80976f6ea0f0431f8cedd3bcc475cb can: vxcan: vxcan_xmit: fix use after free bug
 50aca891d7a554db0901b245167cd653d73aaa71 can: peak_usb: fix use after free bugs
@@ -162,9 +155,36 @@ d7631e4378f26c8e1ba1ad372888e89e69678709 Merge tag 'gpio-fixes-for-v5.11-rc5' of
 6a52f4cf863a53b8196286e2b95d3ef3bd8183ad Merge tag 'acpi-5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 2561bbbe2e959c966e21ee23de91b9bd4bbf98af Merge tag 'printk-for-5.11-printk-rework-fixup' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 9f29bd8b2e7132b409178d1367dae1813017bd0e Merge tag 'fs_for_v5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-fc705fecf3a0c9128933cc6db59159c050aaca33 perf evlist: Fix id index for heterogeneous systems
-9c880c24cb0db49d6e62e6d882df1470b0be8038 perf metricgroup: Fix for metrics containing duration_time
-3d6e79ee9e8f8c6604312382c2be1d1bd1cffc9e perf metricgroup: Fix system PMU metrics
-8adc0a06d68a2e433b960377e515e7a6b19b429f perf script: Fix overrun issue for dynamically-allocated PMU type number
+caa8883ad510aae8c2d2b2b85144dc703f008864 mm, compaction: move high_pfn to the for loop scope.
+166070f27bca49dfde65d37c380f55b4d5359421 Revert "mm: don't play games with pinned pages in clear_page_refs"
+1a7626b4f99282734cdb844f30c7072dfe779836 Revert "mm: fix clear_refs_write locking"
+e4f2850a1476cebb86f4b0ffc11f245602b5b84f Revert "mm: thp: make the THP mapcount atomic against __split_huge_pmd_locked()"
+2ed6ee4e880b06bd5f98e06335e4ac93f21f91cf Revert "mm/ksm: Remove reuse_ksm_page()"
+0a777ec72e8eb01a2efb57a68c4e288862f501be Revert "mm: fix misplaced unlock_page in do_wp_page()"
+14710a96ff708031082cb2bde55ef55d071beb1d mm: thp: make the THP mapcount atomic against __split_huge_pmd_locked()
+1b84a38063a6ca2aaa5a7abd460d8cc70cf5eea0 mm: thp: make the THP total_mapcount atomic against rmap add/remove
+a9396230948da9e485d0683d3d2ead1946c0a0fe mm: restore full accuracy in COW page reuse
+746a0a33b6ea4e043511cb0ae8522f819c709dd1 mm: COW: skip the page lock in the COW copy path
+8f91df0b26e0fde3ccbbc6adbc8631ce58810f67 mm: thp: introduce page_mapcount_seq irqsafe version
+09d61915bf319f471a00b939655970ab6c8028dc mm: thp: introduce page_trans_huge irqsafe methods
+fb53dfbbed608f6316e89b1ec12c457812b80dfd gup: FOLL_UNSHARE: copy-on-read fault
+e00b7689d178f7101ff70aa3a2ae265e3b19bb74 gup: FOLL_UNSHARE: optimize mmu notifier
+06a6cd282efe729f29f175b6c0eebdc1b6643524 gup: FOLL_UNSHARE|FOLL_LONGTERM: introduce FAULT_FLAG_UNSHARE_LT
+d7c6b052514cf28f3a8f9d2b1f185c852542c29d gup: FOLL_UNSHARE|FOLL_LONGTERM: enable COR on PageKsm
+6dca2f05e1559b10f64e94aa6a00dbc13aad9f00 gup: FOLL_UNSHARE|FOLL_LONGTERM: enable COR on zeropage and MAP_PRIVATE pagecache
+75d3919ed4faf9e2e5e88654437499822f094ace mm: proc: Invalidate TLB after clearing soft-dirty page state
+8a98e12c46c9999067169e15f84b79287e15dc84 x86: restore the write back cache of reserved RAM in iounmap()
+63f40980a6bf49067aa2933e93dfccf1fe5f97f0 x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
+3d9110402f901f3db74e82c159d720fd124da74a x86: deduplicate the spectre_v2_user documentation
+9f85a6f3f827b7b07dffa7623376f6785f18e44f x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
+f2f399e8445796b4bce7d538244058ba8aad5202 x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
+290c0b51aebeeea356c83f4e6274564594b13526 mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
+a9b0a330cfc96d3d2d7a96d93c4dede5d357edd5 coredump: use READ_ONCE to read mm->flags
+0af70cfa0ada30e2f4d5fad827d243b35dbdae3e sched/fair: skip select_idle_sibling() in presence of sync wakeups
+6c32cf6afc6f5c223165b153a02a57f5f61f1a4d mm: refactor initialization of stuct page for holes in memory layout
+3707474a23e8b5e6d704946052755929c364e65e mm: initialize struct pages in reserved regions outside of the zone ranges
+a14d95c1b5a47564bdfc0950a76df730765b12ae userfaultfd: UFFDIO_REMAP: rmap preparation
+4d89155712298ae0fd084da38bf52121b480a80a userfaultfd: UFFDIO_REMAP uABI
+cb9d54f65013517f13632b2ce5e95113c1dad6ad Merge remote-tracking branch 'gitlab/next' into next
 
---===============9040773303844048006==--
+--===============4513467296199968583==--
