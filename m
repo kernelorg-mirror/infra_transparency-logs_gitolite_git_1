@@ -1,44 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============5860937739291716487=="
+Content-Type: multipart/mixed; boundary="===============6412359463370379099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
-Date: Fri, 22 Jan 2021 08:12:09 -0000
-Message-Id: <161130312929.15119.15243954279129580847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 22 Jan 2021 08:30:59 -0000
+Message-Id: <161130425922.25839.11404993069507492036@gitolite.kernel.org>
 
---===============5860937739291716487==
+--===============6412359463370379099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211-next
-user: jberg
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 791daf8fc49a16aef77d881f664a648642b75b45
-    new: 131ad520e2260d5b014234d6808f7743c49056cc
-    log: revlist-791daf8fc49a-131ad520e226.txt
+  - ref: refs/heads/for-kernelci
+    old: 7a58764879e2caef85b321f597db9269067df259
+    new: 2a610b2a5a645a6a4d15162221da90cec141e5d2
+    log: |
+         2a610b2a5a645a6a4d15162221da90cec141e5d2 ARM: decompressor: cover BSS in cache clean and reorder with MMU disable on v7
+         
 
---===============5860937739291716487==
+--===============6412359463370379099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-791daf8fc49a-131ad520e226.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7f7aa94bcaf03d0f18a6853d8f7dad6a4d25bbd6 mac80211: reduce peer HE MCS/NSS to own capabilities
-c27aa56a72b8ea6d3bef6fcb1be1a85cf78b0673 cfg80211: add VHT rate entries for MCS-10 and MCS-11
-d9c85e24726587277ce0dcf33b5695acfcc72234 cfg80211: Add phyrate conversion support for extended MCS in 60GHz band
-e908435e402aff23c9b0b3c59c7cd12b08b681b0 mac80211: introduce aql_enable node in debugfs
-f84de063985a6f8e3adb0c0b409ca51452b4def0 mac80211: minstrel_ht: clean up CCK code
-a7844a53846017c34804b0a22bbda855cb08dd7c mac80211: minstrel_ht: add support for OFDM rates on non-HT clients
-cbda98c710d273b2725e2b551d929879bff93c1d mac80211: remove legacy minstrel rate control
-eeafcb0c80c81d6f569fc72630f573ea56112f2b mac80211: minstrel_ht: remove old ewma based rate average code
-1ae8bba9a23b6cc9efbd9b4ca485ed057d5639a6 mac80211: minstrel_ht: improve ampdu length estimation
-019c6fc2782998fbaa0bdca578e26f7823a11cf2 mac80211: minstrel_ht: improve sample rate selection
-a7fca4e4037f7e3fa84d4532ea0fd8b00c39c7a2 mac80211: minstrel_ht: fix max probability rate selection
-7e2123abc51648c508c8e6a10e44ab6d2db6f0ec mac80211: minstrel_ht: increase stats update interval
-347c2989a8ba8a231f2ffc0635f2f36fedd30bde mac80211: minstrel_ht: fix rounding error in throughput calculation
-131ad520e2260d5b014234d6808f7743c49056cc cfg80211: avoid holding the RTNL when calling the driver
+certificate version 0.1
+pusher 0x3D200E9CA6329909 1611304256 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ardb/linux.git
+nonce 1611304248-b2669272d05a789aacab91da7d19c04b9f6690f9
 
---===============5860937739291716487==--
+7a58764879e2caef85b321f597db9269067df259 2a610b2a5a645a6a4d15162221da90cec141e5d2 refs/heads/for-kernelci
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAABCgAdFiEE+9lifEBpyUIVN1cpw08iOZLZjyQFAmAKjUAACgkQw08iOZLZ
+jyQ+GwwAuVAib7IBJXFrZlTaHRZ+9CKu8El/Fr+S486I7V3risyNwZQifl9ii4Na
++nIkrLVCsWbrmZEejDeW4cAcFq1t15lxQiJ1HxjfK3OgDdeCyU1ejmHrygxHJ3c4
+3aT9MCSADhnhUGzIX+D+M0oQ87A1il7uUR2DHUUUwmPqNp9ODDU37GKe2NN949cc
+A4zkeRkNbfrjxJBoSTJz/Pz213pkIcyRufEXKdXBktYTBqLMuHJeUEZWwWSr0iX1
+NcRHIOAU6eiXnqdnCRZ2CtNH6YECb5nrobl9wevfRDAdxgFZJVh1QVu60BYtyULg
+CAnqGviTSo4dS7cPi3jTlTenE3BcL2uMiRZirKHgbNREaAJ6bNerzNSX608SQZPT
+83t2YKtU9doLT61NANWJAlfipkVMUX5xdgnaF/ZseNDG7N0WMacacWw1MBdTQ1Jp
+yDtJMdRouhBaWECW4fWaZztz887jDXAHolyGJ7E/rbFlI5jLnBRX0Jp4KWkFhsTo
+p2nppvSX
+=HKzF
+-----END PGP SIGNATURE-----
+
+--===============6412359463370379099==--
