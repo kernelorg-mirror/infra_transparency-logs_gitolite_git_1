@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1312471614006038598=="
+Content-Type: multipart/mixed; boundary="===============0075074155685004487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 22 Jan 2021 23:29:51 -0000
-Message-Id: <161135819139.2221.15623327483454191963@gitolite.kernel.org>
+Date: Fri, 22 Jan 2021 23:29:57 -0000
+Message-Id: <161135819796.2318.7850427655126772383@gitolite.kernel.org>
 
---===============1312471614006038598==
+--===============0075074155685004487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 61407bcfa72fc2158181ceea8c1fd21382de544a
-    new: 399de87a8f6875b3a77312af9a70bad99af765a7
-    log: revlist-61407bcfa72f-399de87a8f68.txt
+  - ref: refs/heads/net-next
+    old: 88b34d15d7f8a9f0d6e387b66eb731db70ce5fe4
+    new: 0b94e2d5c17441d7abc5325144c776ad6b109210
+    log: revlist-88b34d15d7f8-0b94e2d5c174.txt
 
---===============1312471614006038598==
+--===============0075074155685004487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61407bcfa72f-399de87a8f68.txt
+Content-Disposition: attachment; filename=revlist-88b34d15d7f8-0b94e2d5c174.txt
 
+38756db073840bbb5aa9a7797176168191bded36 net: Disable NETIF_F_HW_TLS_RX when RXCSUM is disabled
 711d346c7180ec3c9e7ea1d9a40cdd833383f3eb devlink: Prepare code to fill multiple port function attributes
 84e8da81aaa5ea5a097d1484e4cb5787809945c9 devlink: Introduce PCI SF port flavour and port attribute
 760cdaf56e30cba6ab92ffddea5a0c8bc3819e42 devlink: Support add and delete devlink port
@@ -86,5 +87,12 @@ de9de461632b76214b4f1923e5a80eecd4e5c53b net/mlx5: E-Switch, Add eswitch pointer
 7837b753e5270278873a41be06ccb1d5bd7ad528 RDMA/mlx5: Use represntor E-Switch when getting netdev and metadata
 802bf58865be687715523adb51013cfc802d2ce9 net/mlx5: E-Switch, Refactor send to vport to be more generic
 399de87a8f6875b3a77312af9a70bad99af765a7 net/mlx5: Add IFC bits needed for single FDB mode
+23b48d2ac222bf792d5f91b4c8e52d5c0cf8e3cf Merge commit 'refs/changes/78/355678/27' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+8a81714d9fa632c8d5f9aeba284e65d1ad60803d net/mlx5e: rep: Improve reg_cX conditions
+60e024897043b55874ace198fb77b0c639b18807 Merge branch 'net-next-mlx4' into net-next
+8d1c0d50d324616c8410d19eccea33b5f497b3d3 Merge branch 'mlx5-vdpa' into net-next
+6231d23e079eabd0b89eeffa770012aa8f5c0f56 Merge branch 'net-next-mlx5' into net-next
+a6f649989eafd46a83e23478e5f4917f2d068991 Merge branch 'net-mlx4' into net-next
+0b94e2d5c17441d7abc5325144c776ad6b109210 Merge branch 'net-next-test' into net-next
 
---===============1312471614006038598==--
+--===============0075074155685004487==--
