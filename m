@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2635345206630566818=="
+Content-Type: multipart/mixed; boundary="===============3436712550163920829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 22 Jan 2021 13:57:36 -0000
-Message-Id: <161132385674.16598.9011310248032785141@gitolite.kernel.org>
+Date: Fri, 22 Jan 2021 13:57:38 -0000
+Message-Id: <161132385829.16696.4244090154134333880@gitolite.kernel.org>
 
---===============2635345206630566818==
+--===============3436712550163920829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,78 +16,80 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 0fe595491afd8d10e88e3b0d4766611e97262415
-    new: cb1dab64d7b4d8c96cc559488f962b0b5e4641f8
-    log: revlist-0fe595491afd-cb1dab64d7b4.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 76f15c2a3b396004a9800139a9d91b51f6b393a3
+    new: eb6c2292de97c5c4e51d98767b4c7acaef0522ec
+    log: revlist-76f15c2a3b39-eb6c2292de97.txt
 
---===============2635345206630566818==
+--===============3436712550163920829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611323855 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611323857 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1611323853-fe1a9e854c44c81588e44748a340484dd4dee410
+nonce 1611323855-0c828161158a4f9f4cfdc151bcea5f73a7a4e7a1
 
-0fe595491afd8d10e88e3b0d4766611e97262415 cb1dab64d7b4d8c96cc559488f962b0b5e4641f8 refs/heads/linux-4.4.y
+76f15c2a3b396004a9800139a9d91b51f6b393a3 eb6c2292de97c5c4e51d98767b4c7acaef0522ec refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAK2c8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TjcP/3x9cG+bzeG7D7oN4zdF
-MlE+2Q+zCVYOhQPe2XAJWZdmjWUXzHSe0mI7KAQ8/S2AcvW4faVrEmxPbnNZQMGg
-yzBpAjdO/45vp1D54gVPGNdYz3VuVW9AYNFle6q0oJ6ZQqWchhyGpeIvC1DcRkNJ
-jQm21TYVVIEzxaB0FN49GScPN8l77epKNBstcRh5zArxgQaaWHYevsTiq5Svw1iT
-3ATljNdhwM5t2A9UncQVAvesDx27RlbLLGTdjiIylkiF6hAyIvkKVxWzpA/vZsUM
-Y6gomJnIrADMi/iTbr/UJkdCGyyiks2huIPPWmDpB40pXN2jl71+HWivxjjcnyr/
-i6v3qFaGVPdc0D0y3jvMmsgMxl+q63c5Y3JFG2axqmKl4bwlgl16ogFDDt/nxV+p
-OzR/SxrDZiKsRU6kanjUK+QhQCQTWtU0n/e8nyqQKadDXLk0OVTmwy2iNcToRRL2
-N2cKCkSTbmqZyxKtPJORZPHF+UCb6mPnRc0s1SJ0+KUkZhAi0LG4aho1D1jzn7gw
-YTGn71YfAm4gnrl6Flj6Z5nh0Sfqxv+je0OfaJtyC3V1vl3n2Sgq12x9P9GKxs16
-HJoqZse8JnFfyeHMAnMgV6Kvy6/PW4PYnotoMJKpH45tXLFC1Q9PhDT3+eYfI9Ui
-USR1Wv0XTzu+7QWDAIgRfRcv
-=C7XK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAK2dEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KFcP/1OKScjOWDTMrYCsw2k7
+6hc/Nr3Eh1PkKkSliL1IwuMFiLKZYnB/aqKG0j4bX64fvH+EiOBokan5q6kyekC1
+w/2LkJQytcbhWwD7wytPGdfsp/0QMz8SfS/O4Vt/wdSLew7XE/YN9dDU6CU6k4pG
+W6YhgW4qY/G4/TIOw704awFWGFtIAw4gV0QCq5SUpQCzHB/jN+dRHjzeDM2nFOOj
+x8mgMQcaMZTuLDrIQ7c02bxbdh3GfVEf0bDWUoV82nlB8cz9QNbbYPL0900Qd8pQ
+ATvbNzQb7G0PicEfmLOnl+Wpjui3a7KxO8//kKjboy68HnUtO9ysHVrAmvazgb1w
+rFrLDPs4ElY2dlJ7BJyZc4G1fcg1vrZI9Xam6FOuyN1WyAI9LpWqXrJt0H4gm98r
+jmZDNDO4C8tcrRVsaSfNQiSzOXJHpe6qr17Tk0ymLVYzzxwTAx9s2eQgdNczVSs7
+uJ73Gew57JDHi54m0olJEYB2CcuoODhXPLK8xlrRwS4xqysaAU60VApvsIp3bNIh
+1FMHvlWh7cpP7B0m/L8R9+GqM0CT5YATiaCGvZw/26o3db4ZyyGfqUa53ODC4J+k
+fwpf5injhdGp1zIpKS/UaLCfUBzgUfrdH//Py3PDHQ8ZD/R8wYpXey4dSovAcUUT
+AnQoB5hkmn98KQcMWSbCmw11
+=YcXq
 -----END PGP SIGNATURE-----
 
---===============2635345206630566818==
+--===============3436712550163920829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fe595491afd-cb1dab64d7b4.txt
+Content-Disposition: attachment; filename=revlist-76f15c2a3b39-eb6c2292de97.txt
 
-a8c5d413fb578cd75a2a09183bbc975b2476f8a7 ASoC: dapm: remove widget from dirty list on free
-b9cf1b111517c0c95980ebf8e469e94714622e55 MIPS: Fix malformed NT_FILE and NT_SIGINFO in 32bit coredumps
-67bc112a42659c9a11b4ced119b743f0d82e4d4d mm/hugetlb: fix potential missing huge page size info
-4d8b5bdcc892f46c3965103dab5deb20b51de9b5 ext4: fix bug for rename with RENAME_WHITEOUT
-1e5bc8855c5d6b73ec34d69340509504a7ecce93 ARC: build: add boot_targets to PHONY
-b91c9c65fe27fa45dfe9fbe182aaf02deb0bc62a ethernet: ucc_geth: fix definition and size of ucc_geth_tx_global_pram
-9ed84542e47da3551ffb373c4935fdcd47e87edc arch/arc: add copy_user_page() to <asm/page.h> to fix build error on ARC
-f02ea6e2d40b0674a299cce6f44f5f17b8c80bf5 misdn: dsp: select CONFIG_BITREVERSE
-3d6fe46c425b008822725063acfa60236c4c1341 net: ethernet: fs_enet: Add missing MODULE_LICENSE
-8a267d74d59db6594820be05b2911020e86bde03 ACPI: scan: add stub acpi_create_platform_device() for !CONFIG_ACPI
-c32f0348de0711862ecc03f13a332f4ff2fb9d99 ARM: picoxcell: fix missing interrupt-parent properties
-7f4a514d400645f766842244de791e34fbcf187f Input: uinput - avoid FF flush when destroying device
-b0df30782a10294c3e0c02458e1b7958ffd1b8ba dump_common_audit_data(): fix racy accesses to ->d_name
-109d33e19e8923980d85e1acea0014c35fbf9177 NFS: nfs_igrab_and_active must first reference the superblock
-db21d85d1d71a8a2e3f0f99dd3548901dd5f5bb8 ext4: fix superblock checksum failure when setting password salt
-df04ffb236bec015172d1272514947d8f71a63a9 RDMA/usnic: Fix memleak in find_free_vf_and_create_qp_grp
-2d57df2579a92088cd086d7c6df47cfc44f53ee9 mm, slub: consider rest of partial list if acquire_slab() fails
-f2f63c7ca6c87278aedecb2e2b09e9b9c8f4c93d net: sunrpc: interpret the return value of kstrtou32 correctly
-a5094ef6b7b886e1b70922844fb39f39b8c15672 usb: ohci: Make distrust_firmware param default to false
-0c87ba3b3e9508c710f89f1aebb4495b37fcb96e compiler.h: Raise minimum version of GCC to 5.1 for arm64
-2725bef8fd09ca979669716c3240a2ba805710ef iio: buffer: Fix demux update
-df050db84f92542ab905c0ec2d539caac3374e4c nfsd4: readdirplus shouldn't return parent of export
-4bdb9cbdb9bc93677807e81db416232469412414 net: cdc_ncm: correct overhead in delayed_ndp_size
-9cdec5f409c26e8d714d429c6f2c890d588bf50e netxen_nic: fix MSI/MSI-x interrupts
-81a571d7e12c17a43ff8c2bef64961e060a6f745 rndis_host: set proper input size for OID_GEN_PHYSICAL_MEDIUM request
-992e9d35cf447b7c056c1fdbc5c58fb74a750bd6 net: dcb: Validate netlink message in DCB handler
-edab117f1b24e4f5194dd0f8a54c572a3e0467c1 net: dcb: Accept RTM_GETDCB messages carrying set-like DCB commands
-30e028acc9d4f95113fc0b39e553806298c179b6 net: sit: unregister_netdevice on newlink's error path
-4214d4185153cbe6b9cfa0ff6848ad43423ee425 rxrpc: Fix handling of an unsupported token type in rxrpc_read()
-073f9922e6622e4c0e7923323daaff1ea4a9f895 net: avoid 32 x truesize under-estimation for tiny skbs
-835f8bc4c0c0182263b7fb7b737ae9cdffbc5419 spi: cadence: cache reference clock rate during probe
-cb1dab64d7b4d8c96cc559488f962b0b5e4641f8 Linux 4.4.253-rc1
+cf09393797a0a8c71bae7cd69f746b40a2d85cdb usb: ohci: Make distrust_firmware param default to false
+a6db445edab610a0645ef9dac5f4de4c6a4ce65e compiler.h: Raise minimum version of GCC to 5.1 for arm64
+a89a629507032969421842773d80905505e88b8c xen/privcmd: allow fetching resource sizes
+5f7f66bcb02bbbe08f53081ca3d29878d1114490 elfcore: fix building with clang
+c2df285f0a9ee1a3cfcd98a8f98d523dcfdead17 scsi: lpfc: Make function lpfc_defer_pt2pt_acc static
+61899f92b3ae0223b40e8233f00b14a6f67874d0 scsi: lpfc: Make lpfc_defer_acc_rsp static
+1605735b07fd1315d48c0bd57c9c5dac343b2f05 spi: npcm-fiu: simplify the return expression of npcm_fiu_probe()
+3aeee6f05038af51e6e1dcbabed1f725a5ac2ac1 spi: npcm-fiu: Disable clock in probe error path
+e5ecd963302a6cde95fde45afd1c0288d2dbe07d nfsd4: readdirplus shouldn't return parent of export
+f00630f3dd204a26b7961c3fa113bd341b6d3619 bpf: Don't leak memory in bpf getsockopt when optlen == 0
+575a3844a5974a415949ca125395c5dabea2d9f0 bpf: Fix helper bpf_map_peek_elem_proto pointing to wrong callback
+e7002525f846d918860bf92b68e0b10472713415 udp: Prevent reuseport_select_sock from reading uninitialized socks
+a191f67a9ca9416d102a499c01dae6e5334fff3d netxen_nic: fix MSI/MSI-x interrupts
+e5cd55b2757494c566208be3413ab75162b51fcb net: introduce skb_list_walk_safe for skb segment walking
+6918fe7a9442ca5a333b9753de276a7f6786df3c net: skbuff: disambiguate argument and member for skb_list_walk_safe helper
+68018f3ab4d61c90f92bd7b93591d2979211ad1c net: ipv6: Validate GSO SKB before finish IPv6 processing
+8aaea85ffbb4bbabbb2f76604c0ac0cb19394bbd mlxsw: core: Add validation of transceiver temperature thresholds
+754f31bb7a29cf45634be593e7c7fc40788a3701 mlxsw: core: Increase critical threshold for ASIC thermal zone
+8ed55c89f19c9e775bf25fb6328bb63da48252b2 net: mvpp2: Remove Pause and Asym_Pause support
+769b3e3471e476b06d5eba3514e44acc991fce38 rndis_host: set proper input size for OID_GEN_PHYSICAL_MEDIUM request
+e299d78c000cc0622130e9c247bdfcbada274146 esp: avoid unneeded kmap_atomic call
+42ddf1ca0f26d9714eef7c62350073ade223393f net: dcb: Validate netlink message in DCB handler
+11709008202cbd963d361a0fef8c40723efe484a net: dcb: Accept RTM_GETDCB messages carrying set-like DCB commands
+ffe193802871fafaa390d923a960912edd877cbf rxrpc: Call state should be read with READ_ONCE() under some circumstances
+e7d3dd0f19fa9490f779b0d2daee463a381e05ef net: stmmac: Fixed mtu channged by cache aligned
+4ca316a44ae63fd6b8da120c1a5e12c03ff7105e net: sit: unregister_netdevice on newlink's error path
+b38c9c179b1d6b47abe3552fec5dccaaf19ffeb7 net: avoid 32 x truesize under-estimation for tiny skbs
+6ab8c04f149b8f0b18205138e67750ed35b2ba66 rxrpc: Fix handling of an unsupported token type in rxrpc_read()
+ed91247a69ad63c82efee4d522b18bab6336fb87 net, sctp, filter: remap copy_from_user failure error
+9b35cc9f4e66fc324e16874cfce0452315fe4f26 tipc: fix NULL deref in tipc_link_xmit()
+b616ffa8c7336fb3fac63bac21186a2beb148cc9 mac80211: do not drop tx nulldata packets on encrypted links
+1af6fd8ff3bd3228933a3fc10156a2504004d64d mac80211: check if atf has been disabled in __ieee80211_schedule_txq
+6adefd70606fae23ea0e5344484f5adad4383de7 spi: cadence: cache reference clock rate during probe
+eb6c2292de97c5c4e51d98767b4c7acaef0522ec Linux 5.4.92-rc1
 
---===============2635345206630566818==--
+--===============3436712550163920829==--
