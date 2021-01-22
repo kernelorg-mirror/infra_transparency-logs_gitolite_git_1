@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 22 Jan 2021 14:04:26 -0000
-Message-Id: <161132426683.23768.8327822029045713709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 22 Jan 2021 14:04:48 -0000
+Message-Id: <161132428895.23967.7485459451003737171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/socfpga/dt
-    old: 0000000000000000000000000000000000000000
-    new: b82a27075a0402386ba61c0404b47b69e7dc7911
+  - ref: refs/heads/locking/core
+    old: 7e923e6a3ceb877497dd9ee70d71fa33b94f332b
+    new: 997acaf6b4b59c6a9c259740312a69ea549cc684
+    log: |
+         c7539258146844ebd8795c31275c720ded61bb84 locking: Add Reviewers
+         2f0df49c89acaa58571d509830bc481250699885 jump_label: Do not profile branch annotations
+         997acaf6b4b59c6a9c259740312a69ea549cc684 lockdep: report broken irq restoration
+         
