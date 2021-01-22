@@ -1,126 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============6112879894791553829=="
+Content-Type: multipart/mixed; boundary="===============8634396484924465386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Fri, 22 Jan 2021 21:29:24 -0000
-Message-Id: <161135096482.19864.15620263662512201527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 22 Jan 2021 21:36:36 -0000
+Message-Id: <161135139675.25029.1981822882369035916@gitolite.kernel.org>
 
---===============6112879894791553829==
+--===============8634396484924465386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/queue-next
-    old: 846abd7daa8dffc1ccc8df8b82829106b07c8634
-    new: 1d3cec2e9f19dda78ba305821f3cd9b152429f5e
-    log: revlist-846abd7daa8d-1d3cec2e9f19.txt
+  - ref: refs/heads/rcu/next
+    old: 68dda19311f01b3450d4a823e47ccbc2c3d06e3c
+    new: ba9bfa8665a69c41103e17e8eadc68638f4f6cbf
+    log: revlist-68dda19311f0-ba9bfa8665a6.txt
 
---===============6112879894791553829==
+--===============8634396484924465386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-846abd7daa8d-1d3cec2e9f19.txt
+Content-Disposition: attachment; filename=revlist-68dda19311f0-ba9bfa8665a6.txt
 
-5ed66306eab6953197c88e082d9ecc0b35e21538 octeontx2-af: Add devlink health reporters for NIX
-d41b3365bda7845b28c5a06eef19be0b353cf128 docs: octeontx2: Add Documentation for NIX health reporters
-e0171b87a04074767ed284475ae9f55ac9812972 Merge branch 'add-devlink-health-reporters-for-nix-block'
-0a950ce029c855060ceaea5a5eac511497c5619e ethernet: ucc_geth: remove unused read of temoder field
-e8e507a8ac90d48053dfdea9d4855495b0204956 soc: fsl: qe: make cpm_muram_offset take a const void* argument
-155ea0dc8dcb6066aaf4af5addd005b8968ce820 soc: fsl: qe: store muram_vbase as a void pointer instead of u8
-186b8daffb4ec2dabb8a3d93b329b16152a5a100 soc: fsl: qe: add cpm_muram_free_addr() helper
-03588e92c07fc57c048309004788f3fe3a7da926 ethernet: ucc_geth: use qe_muram_free_addr()
-0a71c415297fd7d408834a4585ae7c757bebbe4f ethernet: ucc_geth: remove unnecessary memset_io() calls
-830c8ddc66df5074075933a172b6698acbadbc7a ethernet: ucc_geth: replace kmalloc+memset by kzalloc
-7d9fe90036f75a766dce76df997d4067e22b93c6 ethernet: ucc_geth: remove {rx,tx}_glbl_pram_offset from struct ucc_geth_private
-632e3f2d9922c04fc179660693417b6d4a9007f1 ethernet: ucc_geth: factor out parsing of {rx,tx}-clock{,-name} properties
-b0292e086beeb741601bd984e10f2e2a585c20ae ethernet: ucc_geth: constify ugeth_primary_info
-baff4311c40ddae7bfc144dc628d4b11c19f0366 ethernet: ucc_geth: don't statically allocate eight ucc_geth_info
-b29fafd3570b21c484e08e949bc868bfc12f0df1 ethernet: ucc_geth: use UCC_GETH_{RX,TX}_BD_RING_ALIGNMENT macros directly
-64a99fe596f9cb2af2c23c64352817ff8cf662bb ethernet: ucc_geth: remove bd_mem_part and all associated code
-33deb13c87e561c3b566c60aede124a5e23981c1 ethernet: ucc_geth: replace kmalloc_array()+for loop by kcalloc()
-634b5bd7318725202ffad6cbf034b006970b1112 ethernet: ucc_geth: add helper to replace repeated switch statements
-53f49d86ea21084e7a1789a5256c170f27e02714 ethernet: ucc_geth: inform the compiler that numQueues is always 1
-9b0dfef4755301d9f7fcef63e2f64d23649bebb4 ethernet: ucc_geth: simplify rx/tx allocations
-961629bd32175eb075c99a825876dd77918d0641 Merge branch 'ucc_geth-improvements'
-9cacde1c9013d344da8f790c50baff09f60d6277 devlink: Prepare code to fill multiple port function attributes
-074876e352a8a269fc73e0824076e5af9eda6e72 devlink: Introduce PCI SF port flavour and port attribute
-13d5d20baef73c9604b44bc2d02c730c41824e66 devlink: Support add and delete devlink port
-eb9eeced1080542c4493c6a8c4ccb1699299ed32 devlink: Support get and set state of port function
-4e2d449835ee65e1e2e31a0f58b74652863d2956 net/mlx5: Introduce vhca state event notifier
-51203533acbd7c14d19b57e1e1d875726c266170 net/mlx5: SF, Add auxiliary device support
-4cd2c8fca4cb9c1cc9d6e61ee17015aaa84dd63d net/mlx5: SF, Add auxiliary device driver
-c3ee954dbe3c6be96ba0fe7882ea4026618c2cae net/mlx5: E-switch, Prepare eswitch to handle SF vport
-3fc42823a899e72dd3191abe85cbc50d26288c15 net/mlx5: E-switch, Add eswitch helpers for SF vport
-331115cc280c22f582be8ade312c2d981053f9ad net/mlx5: SF, Add port add delete functionality
-756cf600995027a1dbfe4ed31da07eca00fd9f56 net/mlx5: SF, Port function state change support
-b8cb8d762ced2047725475804a5966514bd95043 devlink: Add devlink port documentation
-ebbe8617de12731e6116f6414540862f12795137 devlink: Extend devlink port documentation for subfunctions
-7a825d466aba0f4363ed68044ba6996a9a41803a net/mlx5: Add devlink subfunction port documentation
-ad3c54458dcb3c49036ab2e9c9205986f7998412 net/mlx5: Don't skip vport check
-58c5f3c4a1380d02c4f456980128020f85c00c08 net/mlx5: Remove impossible checks of interface state
-2a2e241d7cee7b4e555dc1a61162a9ab377483a9 net/mlx5: Separate probe vs. reload flows
-88a6b4efa3369fc3d5eca4e365abf052bf70fb06 net/mlx5: Remove second FW tracer check
-43b80aa17856b36ba9a7a9f652e9fd51e4f5671c net/mlx5: Don't rely on interface state bit
-c17c8e5ea6f0ac14cf513f31a81588cbb77386d3 net/mlx5: Check returned value from health recover sequence
-b11ea285bdf237dac7d0b57900de70e9229d7725 net/mlx5: Fix devlink reload LOCKDEP warning
-b233f88b330de8b6b33c238c6c12e8149dd0ee74 devlink: Expose port function commands to control roce
-a61d191bcc188c33923cc44546ba98a4a1b58487 net/mlx5: E-Switch, Implement  devlink port function cmds to control roce
-7f8d8d0f28f714c6229904dcbb75a18d19a6f915 net/mlx5e: CT: Preparation for offloading +trk+new ct rules
-72bb2277c90cc8e6e949bbb9a86312171513ff34 net/mlx5e: CT: Support offload of +trk+new ct rules
-fe58613634ad0bbb2cf0de4cecead15e35d51ebc net/mlx5: CT: Add support for mirroring
-604555f63e70f1e3e155f93b463e168574878e3c net/mlx5: E-Switch, let user to enable disable metadata
-030c49c2df21cec42a1f8f489171dbf538d0024a net/mlx5e: CT, Avoid false lock depenency warning
-b9e87750f3790d0270b76ba7703b9d1fd7147767 devlink: Add DMAC filter generic packet trap
-89e0ceeb310d87a165f6219102b336ee69a2dbb5 net/mlx5: Add support for devlink traps in mlx5 core driver
-aaccb3ce30b906f11044f3032b69f5bc8dc9e85a net/mlx5: Register to devlink ingress VLAN filter trap
-53cb25ff1fc14bcb95778939234ef0f3d207c682 net/mlx5: Register to devlink DMAC filter trap
-f0051645b21c7b82b3430c95970bd62a34a9ab23 net/mlx5: Rename events notifier header
-1fa9b1fbed1f2ad91ef43041d6c2499fbca6282e net/mlx5: Notify on trap action by blocking event
-cc8623996787f5c8671490bbeaeb5d45bba8d8ff net/mlx5e: Optimize promiscuous mode
-13bfcc5af8be663e0975e8127d51b9908fabcc93 net/mlx5e: Add flow steering VLAN trap rule
-7ced1b49c961c57bf7c95dadf89010fe5983918b net/mlx5e: Add flow steering DMAC trap rule
-5af1467b4ee21751eae9e16fb712e1e17e8adfca net/mlx5e: Expose RX dma info helpers
-aa71d538e4f6eb59258f040d48944f59b8a12395 net/mlx5e: Add trap entity to ETH driver
-8e911ca621585d077a68f3c065ac9995ad1016ab net/mlx5e: Add listener to trap event
-48bb7dd27b57f110edb73a113f3b091a44c3d1bf net/mlx5e: Add listener to DMAC filter trap event
-34d47027dbdd56c6bb0f7aaf5e0145e269ec8f7a net/mlx5e: Enable traps according to link state
-e70e64f12836a19536be095a6ea1dd00c303a58b net/mlx5: simplify the return expression of mlx5_esw_offloads_pair()
-eaab8c12255a0a0f869a2ba38ee056fb5a883f33 net/mlx5_core: remove unused including <generated/utsrelease.h>
-ab47ff165d52f8a3676ed467dd03ce7afec54b09 net/mlx5e: Enable napi in channel's activation stage
-589461bbcc6dc7edf5c13102a4b4b15d47935595 net/mlx5e: Increase indirection RQ table size to 256
-a0d9b63a8aee8e7be47c4d3df422d06a099be399 net/mlx5: Check switchdev mode when check if multi-port or ib is supported
-61bb06b1c7f61a26eb195a749e865757edcbfc48 net/mlx5: Delete device list leftover
-f67b8a563b189827d45d84236c56ed60fb131a99 fixup! net/mlx5e: Add trap entity to ETH driver
-c353b7246b6310ea62ae70f5466f2ddfb4f7c389 fixup! net/mlx5e: Add listener to trap event
-5b1067766bca0624d7e0bf1655589ed3fb121aa0 net/mlx5e: remove h from printk format specifier
-2c28938ccff6ef79b985e034af48171c768a8722 net/mlx5: fix spelling mistake in Kconfig "accelaration" -> "acceleration"
-b2101782698ceea71ac5202e1f1ba33d00aef92f net/mlx5: Remove unused mlx5_core_health member recover_work
-18b75da4dcb2e2a7252fdd5e99a80977caef3928 net/mlx5e: kTLS, Improve TLS RX workqueue scope
-1a6b97c196101c11b275245e08d0d4519684531a net/mlx5: E-Switch, Add match on vhca id to default send rules
-2383b626947252a03b7d43cf19314de0e5d9c3bd net/mlx5: E-Switch, Refactor setting source port
-683657b3b46a8d4d6e2615bdee086bb03904cc9a net/mlx5: E-Switch, Add eswitch pointer to each representor
-70e33cc2dfe01eb3e6feb1ccc6a2c5bacb313d4f RDMA/mlx5: Use represntor E-Switch when getting netdev and metadata
-d74728a4361ca40c37390fdfba03f5e1100428c0 net/mlx5: E-Switch, Refactor send to vport to be more generic
-8efe37890bf7c82bdaf41ee61481b20276f709a9 net/mlx5: Add IFC bits needed for single FDB mode
-4026d80142b644c107586f279fa319ff5c6e0d18 MAINTAINERS: add entry for Arrow SpeedChips XRS7000 driver
-fdb6b338d2e5f12dda2d80880ae4800547388bb4 cxgb4: Assign boolean values to a bool variable
-05fcc25662a3bbfc5daa9247132b2d8535053883 cxgb4: remove bogus CHELSIO_VPD_UNIQUE_ID constant
-19038523a7353e7413c5428f20376fa3ccd2c8e9 net: remove aurora nb8800 driver
-43e5763152e2d4679954da0d35029637f017b0b3 net: macb: ignore tx_clk if MII is used
-9a3a566a27a2cad550a57daadb5d2783b335328a Merge commit 'refs/changes/78/355678/27' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-0b81a165a3c2ac403d8ba4c57c5e2f44a4e30b20 net/mlx5e: rep: Improve reg_cX conditions
-1e7f5b1a7a100274c7572c755043fc6c21cd095b Merge branch 'net-next-mlx4' into net-next
-58a4d981e94176f69c712fd13b794e3a6e273405 Merge branch 'mlx5-vdpa' into net-next
-472b877121a784074af04acd660703537bf66fb2 Merge branch 'net-next-mlx5' into net-next
-5028fd20e172290b84b60ad7926ff28aedf2780c Merge branch 'net-mlx4' into net-next
-13059d0c95af80600cd41dbe5d7f734ce6a3974c Merge branch 'net-mlx5' into net-next
-7d74495a81991cfaa4e867003419497084c5b11d Merge branch 'net-next-test' into net-next
-5cd5793964360d9f77b1cc0f1b4cf38716100f53 Merge branch 'net-next' into queue-next
-1d3cec2e9f19dda78ba305821f3cd9b152429f5e Merge branch 'testing/rdma-next' into queue-next
+f7447241c739d7bf3e700571ba7d61d6a8e5c622 torturescript: Don't rerun failed rcutorture builds
+a6dd1b606c144dfb844c757a6d1933daa4b6df17 rcu/nocb: Detect unsafe checks for offloaded rdp
+53e85d8184f2b1142a19a17da6efeaa59f4131b1 rcu: Remove superfluous rdp fetch
+a8906ba1277bd686151d5f2e9f97d104236a0fe6 rcu: Fix CPU-offline trace in rcutree_dying_cpu
+6fce6be66855839ad7d0fceb1189263380df8718 rcu: Remove spurious instrumentation_end() in rcu_nmi_enter()
+779fdca72b845f949b85fe06d66cfbfc2b06cc5c doc: Update rcu_dereference.rst reference
+702243946a843eb2e34b20b338f7aa9df6554d52 tools/memory-model: Remove reference to atomic_ops.rst
+48d7d1ccf02181cd04b3843454136247e5a7ad38 rcu: Expedite deboost in case of deferred quiescent state
+77cca49dc4e84d311c985938418a496d213167fc rcutorture: Make TREE03 use real-time tree.use_softirq setting
+e09f564d80d050e43d25375d2fd359f5e486b279 rcu: Run rcuo kthreads at elevated priority in CONFIG_RCU_BOOST kernels
+051e0b37546cd985632397b8488ee0e73d391f66 rculist: Replace reference to atomic_ops.rst
+45280e6b8f9a75b76a4e9a49ecb87c32a190e106 rcu: Fix kfree_rcu() docbook errors
+c097aa520767f22f4f805bc087895fe224b8d795 rcutorture: Fix testing of RCU priority boosting
+8cbfb6797d8c3acc9422eed7bfdfedcfb511d4ef kcsan: Make test follow KUnit style recommendations
+bbd13a351a8dcdd31158a75b90a90e934c116f51 kcsan: Switch to KUNIT_CASE_PARAM for parameterized tests
+738e4a1ae8066f22e1b38d4b82fde675dee2e513 kcsan: Add missing license and copyright headers
+14292e0d462563e725c09f8f67038fd2051925a5 kvfree_rcu: Directly allocate page for single-argument case
+e4ed05edc1406b2637d8499aa61353f13a57c417 kvfree_rcu: Use __GFP_NOMEMALLOC for single-argument kvfree_rcu()
+4b56f3ad2f7ad5f6fcc120d63aa4e3951a48ffc0 kvfree_rcu: Use migrate_disable/enable()
+1bfbac6bff377da1801b2a384956cd3301dc6e70 kvfree_rcu: Make krc_this_cpu_unlock() use raw_spin_unlock_irqrestore()
+d8653d25fa703ebe2ae7768d50066002ce0d9cb0 lib: Add "all" and "none" as valid ranges to bitmap_parselist()
+185c4b4ff4aaf2478e5d6e3ead0ff4027feec0d1 rcu: Remove "all" cpumask checks favor of bitmask-level "all"
+aad59e6363b5b9123ed89e9bd7c50e28e33d62e2 lib: Support N as end of range in bitmap_parselist()
+f2914f868ba45f9a23b32af40351365e846a2279 rcutorture: Use "all" and "N" in "nohz_full" and "rcu_nocbs"
+4f29822a8fc7c07118ef5387b35e6f10de858ce0 sched/core: Print out straggler tasks in sched_cpu_dying()
+472d641484e866afbb82f01436946089e4ab2792 workqueue: Use cpu_possible_mask instead of cpu_active_mask to break affinity
+41be314f6da1a3e7216b1ee1d77f3efc9ba4f306 sched: Dont run cpu-online with balance_push() enabled
+dcaa21d277ae43e01bf8674284f7ba7779924a5c kthread: Extract KTHREAD_IS_PER_CPU
+8bef9a833b7332da4680b77f78e842e7a9eb99ed workqueue: Tag bound workers with KTHREAD_IS_PER_CPU
+73a3cad7459d4ad45a533d066496f7c853c5b613 workqueue: Restrict affinity change to rescuer
+ec394e4edccfb1463542844d07b3fd8d2f836c71 sched: Prepare to use balance_push in ttwu()
+51bdd13150f7a55728a095f4f9df95a83215acb9 sched: Fix CPU hotplug / tighten is_per_cpu_kthread()
+471cf0a93cc7a778db34a619ffc0e01363560609 sched: Relax the set_cpus_allowed_ptr() semantics
+61d8a8a0445d9227abd4ff11fafeffa80775f96d rcu: Pull deferred rcuog wake up to rcu_eqs_enter() callers
+dbb03efae6b4ceb8c46eca52e855af60b3e34a4a rcu/nocb: Perform deferred wake up before last idle's need_resched() check
+ce1f4fcc95c9ba91efe3cfce0746089f97fafb0d rcu/nocb: Trigger self-IPI on late deferred wake up before user resume
+b9ec4fb21cd599ad6aac348cadbda4442c1ee4f2 entry: Explicitly flush pending rcuog wakeup before last rescheduling points
+ba9bfa8665a69c41103e17e8eadc68638f4f6cbf timer: Report ignored local enqueue in nohz mode
 
---===============6112879894791553829==--
+--===============8634396484924465386==--
