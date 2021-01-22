@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2141410225671916025=="
+Content-Type: multipart/mixed; boundary="===============8507503535691511281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 22 Jan 2021 13:51:48 -0000
-Message-Id: <161132350834.12083.14724894104154888450@gitolite.kernel.org>
+Date: Fri, 22 Jan 2021 13:51:51 -0000
+Message-Id: <161132351103.12196.11243444591098136079@gitolite.kernel.org>
 
---===============2141410225671916025==
+--===============8507503535691511281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,80 +16,90 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: d26b3110041a9fddc6c6e36398f53f7eab8cff82
-    new: 76f15c2a3b396004a9800139a9d91b51f6b393a3
-    log: revlist-d26b3110041a-76f15c2a3b39.txt
+  - ref: refs/heads/linux-5.10.y
+    old: e2d133180bbc28a48316e67a003796885580b087
+    new: 435777ce7412326f60ca123b4a6c09ee0b2e7fa4
+    log: revlist-e2d133180bbc-435777ce7412.txt
 
---===============2141410225671916025==
+--===============8507503535691511281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611323506 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611323509 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1611323503-93fce085a6c96843c1ac651691e13f47dda1455c
+nonce 1611323507-464fdc84a582bbb620cf1efa5e2954d9e875671c
 
-d26b3110041a9fddc6c6e36398f53f7eab8cff82 76f15c2a3b396004a9800139a9d91b51f6b393a3 refs/heads/linux-5.4.y
+e2d133180bbc28a48316e67a003796885580b087 435777ce7412326f60ca123b4a6c09ee0b2e7fa4 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAK2HIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PGUP/3eZDjd0/3KD7u0WVcDk
-m6FPrXA8wckwtDPQoawb71QA0kxWm7CoqW7DotMuXsTOzN7+ouIyPFIxt2PMc832
-eEEET1SFWLl2L9z0dBzQ3sIAqJ1V50UtS28FtVLqDSF7+2njr8ozZOufqQLIp7LN
-PGHcVbs5OmPzwArfvQxM4MJIbdBRNEdWbNIQ5jw/gBgjBW1y5sQxp7v+IssRcHOc
-J2JNU4qJs18T4ev6Dm/C0Ez+9t4nF3euj4NqaL/v9Zr/W/HwjvamE1cZ+ht0vCP7
-q3+PGJbbQYRCto6RYwN9U2m9ehJ7NLp7FS9OoBHYdoz7e+OO2ekpMgqNgOgvCUuf
-VJJabCNXpcgtZ6+TkirJLv1TctkNAJEjNu9MJ8qmGZQRvKgCwR73bR7enajIXLRo
-ZmGLEiKPn3Jhix/zgaH5u61kIEAqC9pOmQ8orjAS7SyX+OUOzOoF5AQfisDP8bCJ
-aGYHV3rkNKL3Avpa2aKg4Phn6cdVkmtGbXSN0sooGEAcJ+K30R92KLC3Oa1DSkzb
-SRnrzWudyS0yLbqQ5L7x4F5H5TwaykPB/iKTBgpxQnqXZywoMEtJU5qkPY/sjl2V
-smX0cPOoP7mc5u2TeSo8Qe4OIvaooxeRas9FV1wSFGtErZUqDOc085zvm3ZObzKh
-Eq4XEV0Rulsi7s1UlCmfp4pR
-=Yi7F
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAK2HUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rUoP/1xlzmzVbomQBQsWEGB0
+4DIeWFZGFVp/gDaM+VajFECQ9fRm0W/NvZMpP5FrNO5MqdnRruHp/6M7YD7GoVqD
+3vu4k0MgGzeXWiJ1qsbotYBdW+iAvvIYQC4cURGGpqW+8nCa7oEEvu4XlFiwTsPE
+/Jz7xiQh4u0tlGpUJiaCz4dxmd/5WQZCmsmOoJyVdK+ci5jH0pJL+sKgVAhoRqUH
+wA9Xd0pEtLQzlc2Lb1rOi6wIuR0gVAFgKirsdRr+pC7Ll08tv1ocsnrVQARsek9g
+Uy44rRAxt5dj0maVT97Zlj1VY7NUM/04Ta1NONURaE1QZlv4Nu2G5NeBgeo69RgE
+1bZS+pDA/YEtIFsCyJYyJ0VwvFW9NZDQ/Fh00ZhIIHjfEQx9OnyBK46S2bvy2JWw
+CVSx0uGtNqQwtKzsmfeIbXN6sPS0HvJIWEtUq0oo+66yyxWZEg2a5XOzxPjFEXGD
+rrrhYie5he8RohspwGT7XNeD+9od4XYH2tlZXjR3LRP77dahG4Nz2Ye31VySzItP
+q9Iwv3cfROOI3ok6kGWMDpyaMjX82phD9jqx4dqlShKXxd5BkJL8/ZX6ch+bNPzP
+/xC6OGajeDAbXqdwej9qNnXILE6qqHX+1JXr3c6cpprzXnLOMN/oV8dgcsSNLeIw
+naTxnvpmZdq9hPw2a6KQIGRv
+=lVVo
 -----END PGP SIGNATURE-----
 
---===============2141410225671916025==
+--===============8507503535691511281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d26b3110041a-76f15c2a3b39.txt
+Content-Disposition: attachment; filename=revlist-e2d133180bbc-435777ce7412.txt
 
-96c929ac6190c26d01ab1273204ceb6f32b5f273 usb: ohci: Make distrust_firmware param default to false
-28459bb93bfac4484d1fbdf2edbb5e418c2285f3 compiler.h: Raise minimum version of GCC to 5.1 for arm64
-17c053ed7d79742615bca4f39780cf6c41c317a5 xen/privcmd: allow fetching resource sizes
-e595d0f7c5de7827b9237e168798ed070924eb7c elfcore: fix building with clang
-eb0378bdcbcb002e15003cc64e8380deb3934f5f scsi: lpfc: Make function lpfc_defer_pt2pt_acc static
-3bc6a58c36c3cbd30cbb2436368da14d264cc0c4 scsi: lpfc: Make lpfc_defer_acc_rsp static
-2112876f6d5b8180f3b46d07fe26332f7a2e4472 spi: npcm-fiu: simplify the return expression of npcm_fiu_probe()
-8438927da9c15b8a8541ff943c51c61c40686cca spi: npcm-fiu: Disable clock in probe error path
-5c03af60a5d7852ceba8831f9d42b43bdd2ec524 nfsd4: readdirplus shouldn't return parent of export
-3174914b48950cb6b63d4e5646669251d9ae386a bpf: Don't leak memory in bpf getsockopt when optlen == 0
-bf3dd277308673bba5a66398a316688308b3db1f bpf: Fix helper bpf_map_peek_elem_proto pointing to wrong callback
-ed915370e3a8538924bae0228342807f297f6a78 udp: Prevent reuseport_select_sock from reading uninitialized socks
-690f5afd89d566d2e3fe6346c55ee837ddc3bf97 netxen_nic: fix MSI/MSI-x interrupts
-cdfc84febddf1aa833046ea6b9f17ab3f631858b net: introduce skb_list_walk_safe for skb segment walking
-f8e666664561c46f11ae8ac4f446f41e97010504 net: skbuff: disambiguate argument and member for skb_list_walk_safe helper
-c5a384f6fbd3a992b9d90837030b87167637f5ec net: ipv6: Validate GSO SKB before finish IPv6 processing
-98afaa32c339b8e7a8136b91daf1466aff5995a2 mlxsw: core: Add validation of transceiver temperature thresholds
-35f23f1ed86fb2dee423e7adf82997bcf739dee5 mlxsw: core: Increase critical threshold for ASIC thermal zone
-931bfdbc071f0e04f3745fd822cfa1f6c84c190f net: mvpp2: Remove Pause and Asym_Pause support
-8bb7a87aa9a109e5cd4fe7c072a30191cb357187 rndis_host: set proper input size for OID_GEN_PHYSICAL_MEDIUM request
-aa5400e0393523153973552c1e330ffcbaee0625 esp: avoid unneeded kmap_atomic call
-5e17e2f04236a2d01513513153494cecfb27fb8b net: dcb: Validate netlink message in DCB handler
-6acbd0f97d6f6644e9c15eeac2a9ed1ac64540c8 net: dcb: Accept RTM_GETDCB messages carrying set-like DCB commands
-f56f90e2994ebe4ab8e78a7d65cb08ad96f7ad78 rxrpc: Call state should be read with READ_ONCE() under some circumstances
-b6579c9262229bea963d1e425b24520b58dbc9bd net: stmmac: Fixed mtu channged by cache aligned
-1790a76dbbdd4be5a07a9658e0018239539b332a net: sit: unregister_netdevice on newlink's error path
-d8b78cd98c6cb54853d7a7d3a37bd192a35834f8 net: avoid 32 x truesize under-estimation for tiny skbs
-00146dc4bcb43b4fc61f3118a27ee43f275ee5d8 rxrpc: Fix handling of an unsupported token type in rxrpc_read()
-488279403f1f2a57eb247c36f3be44fd2f67a037 net, sctp, filter: remap copy_from_user failure error
-b8a15061926734d36c87b5d7c2d39e101855c3bc tipc: fix NULL deref in tipc_link_xmit()
-740345fcd47ae15b16c82540b46f079e76af4f6c mac80211: do not drop tx nulldata packets on encrypted links
-0c0bb3e82da3aae5d407eac72013dccdf916ac45 mac80211: check if atf has been disabled in __ieee80211_schedule_txq
-3592ddd182c7d8b4563c453aa5f6fb437324252b spi: cadence: cache reference clock rate during probe
-76f15c2a3b396004a9800139a9d91b51f6b393a3 Linux 5.4.92-rc1
+19c928ad6a57b42ca89d3615d13ba51763f4884b Revert "kconfig: remove 'kvmconfig' and 'xenconfig' shorthands"
+c36d1d5f5afc7fcaa75b0f2feda7a118aea7d003 bpf: Fix selftest compilation on clang 11
+127224c4bd48dd969fedf98d310c712f50df96c1 x86/hyperv: Initialize clockevents after LAPIC is initialized
+fa1228f4085fc60471e1f0076f1e64d2132c1a50 drm/amdgpu/display: drop DCN support for aarch64
+dffe5582b47dcbca4bea01cbb39e2d14686fc176 bpf: Fix signed_{sub,add32}_overflows type handling
+6e8b17718420e3be019cc018afda166e54161361 X.509: Fix crash caused by NULL pointer
+974dd1bb09fb661a8821de1e7438af2ddea100be nfsd4: readdirplus shouldn't return parent of export
+ab07de5a8437df95a6ed522d03c34745da700643 bpf: Don't leak memory in bpf getsockopt when optlen == 0
+47da412b70e7c15a88fe3e33d9d0b9304cfd4afb bpf: Support PTR_TO_MEM{,_OR_NULL} register spilling
+d78aac1b65d1cd97d729f39072af5f54f124a741 bpf: Fix helper bpf_map_peek_elem_proto pointing to wrong callback
+668e67ef8cd65245a2e7e1fd6962768319409e3d net: ipa: modem: add missing SET_NETDEV_DEV() for proper sysfs links
+505342ac70195886086eb98e2243066c58f420fa net: fix use-after-free when UDP GRO with shared fraglist
+1a6c8592dbdbc28f358b16b819664332828c15f5 udp: Prevent reuseport_select_sock from reading uninitialized socks
+28ba69bca3fe0448c2d42ab1f19c5fddac8d5164 netxen_nic: fix MSI/MSI-x interrupts
+446af8dd7c901ee448971b952c72312db15fb1b9 net: ipv6: Validate GSO SKB before finish IPv6 processing
+60747b36a20db7eb69141fde2040a1bc51642010 tipc: fix NULL deref in tipc_link_xmit()
+ac329e7bd9d77294bce75a59137db11cde104adc mlxsw: core: Add validation of transceiver temperature thresholds
+b291b73232d1223fe74705540916bb9d583ce00f mlxsw: core: Increase critical threshold for ASIC thermal zone
+0bc56ec244d00eac9998f979163435dcc06d7856 net: mvpp2: Remove Pause and Asym_Pause support
+18114011167c4a79508649b5e3d2fb632f5a4353 rndis_host: set proper input size for OID_GEN_PHYSICAL_MEDIUM request
+18e4c689e1cd8ff7bcab2c374f61aabcea18beb3 esp: avoid unneeded kmap_atomic call
+b5950fcf207e17b5a171962fa364c8f46f7b924e net: dcb: Validate netlink message in DCB handler
+e704c6444dbda3f6161ed25654fe1a6a57623d2c net: dcb: Accept RTM_GETDCB messages carrying set-like DCB commands
+28561bc77489ff52ef71c28c4510695e21a8879c rxrpc: Call state should be read with READ_ONCE() under some circumstances
+771ff28df0f168fec1e3288a876e7fa71cee89df i40e: fix potential NULL pointer dereferencing
+ef4b8728f7ae28fa7419f7dc56489e432a34ddb4 net: stmmac: Fixed mtu channged by cache aligned
+4951ff9f73fad225aec30314ee8351765c66ecaf net: sit: unregister_netdevice on newlink's error path
+863e68fbe78c24490cc039a3401e5054b07f7998 net: stmmac: fix taprio schedule configuration
+d9631efb749dd76afb6e8bc7eaf9d00dfd740f42 net: stmmac: fix taprio configuration when base_time is in the past
+2fbc72b702ae19f0488e80e5e7b0733a093074b9 net: avoid 32 x truesize under-estimation for tiny skbs
+7cc4e282779ec95c22f2d7e6d488dd6f1b555bfe dt-bindings: net: renesas,etheravb: RZ/G2H needs tx-internal-delay-ps
+7348cfadbeea464115af13a0692aa45f1c33462d net: phy: smsc: fix clk error handling
+7759ab84d0c78d8d0f292189b023c5e27a3095cb net: dsa: clear devlink port type before unregistering slave netdevs
+cda4a80da9754f72b37d47521215fbf3923f9bd8 rxrpc: Fix handling of an unsupported token type in rxrpc_read()
+cfae2388d5656bcc2b778a4e3b7eabab79ddaf26 net: stmmac: use __napi_schedule() for PREEMPT_RT
+7a94380986262d97bab35c910980a854c2b68c8c can: mcp251xfd: mcp251xfd_handle_rxif_one(): fix wrong NULL pointer check
+af7d7cc2443c54bc7575529b51c2ed48801b4506 drm/panel: otm8009a: allow using non-continuous dsi clock
+5a10436b13b73d554f5c4534d794c13c20cd0c3f mac80211: do not drop tx nulldata packets on encrypted links
+24a97ff5a9dc4ac2a4a25d4dcf2b9f62a95e7bd8 mac80211: check if atf has been disabled in __ieee80211_schedule_txq
+32d048274d6131d386617880a2aa2d73fed8ce13 net: dsa: unbind all switches from tree when DSA master unbinds
+c12ea00d1b60eba3138288b4c4994f750dae9f77 cxgb4/chtls: Fix tid stuck due to wrong update of qid
+005aea270568fe53edc15b88823f2acf52600f95 spi: fsl: Fix driver breakage when SPI_CS_HIGH is not set in spi->mode
+f12a41d3913dd235af2ed37902ddbc2c2b372292 spi: cadence: cache reference clock rate during probe
+435777ce7412326f60ca123b4a6c09ee0b2e7fa4 Linux 5.10.10-rc1
 
---===============2141410225671916025==--
+--===============8507503535691511281==--
