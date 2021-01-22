@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/arch
-Date: Fri, 22 Jan 2021 06:58:47 -0000
-Message-Id: <161129872719.30060.3357170415283475644@gitolite.kernel.org>
+Date: Fri, 22 Jan 2021 06:59:58 -0000
+Message-Id: <161129879841.30482.4957967520794720235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/arch
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: d7c6217ef0c5490f48f3c32c5326dde45954996e
-    new: 700703170ea69f5b57bc63e97ad6695f57df5f05
+    old: 700703170ea69f5b57bc63e97ad6695f57df5f05
+    new: efd2dbbd1b9d0e49a1e478fd5dde65da64b23ec6
     log: |
-         700703170ea69f5b57bc63e97ad6695f57df5f05 Initial commit
+         efd2dbbd1b9d0e49a1e478fd5dde65da64b23ec6 Initial commit
          
