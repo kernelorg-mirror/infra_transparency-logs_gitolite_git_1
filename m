@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 22 Jan 2021 22:19:03 -0000
-Message-Id: <161135394386.21011.5745485460657805706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 22 Jan 2021 22:19:29 -0000
+Message-Id: <161135396930.21258.11024993225774638889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: f4a2da755a7e1f5d845c52aee71336cee289935a
-    new: 524db191d2f568a75dac27391865e3674e3f3d6c
-    log: |
-         524db191d2f568a75dac27391865e3674e3f3d6c bpf, inode_storage: Put file handler if no storage found
-         
+  - ref: refs/tags/for-5.11/dm-fixes-2
+    old: 0000000000000000000000000000000000000000
+    new: aa8380e9c5ebb7ae020a21c941a569720b349aeb
