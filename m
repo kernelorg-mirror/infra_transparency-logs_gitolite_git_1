@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3372652417139776891=="
+Content-Type: multipart/mixed; boundary="===============2764191011252098532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Fri, 22 Jan 2021 09:01:49 -0000
-Message-Id: <161130610932.13303.4389072289787047560@gitolite.kernel.org>
+Date: Fri, 22 Jan 2021 09:03:40 -0000
+Message-Id: <161130622098.11856.17208398930705920242@gitolite.kernel.org>
 
---===============3372652417139776891==
+--===============2764191011252098532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
+  - ref: refs/heads/testing
     old: 6155f0438d1dfc830b70197d51a58c23bb4c2608
     new: 1994a922eb6a7fc577b9c9b909e0fe1fefd961fa
     log: revlist-6155f0438d1d-1994a922eb6a.txt
 
---===============3372652417139776891==
+--===============2764191011252098532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ d1004b707d8b4c05f20bed7506b99d58495d9046 dt-bindings: trivial-devices: reorder m
 aa15e68409c634d00596cd66cfb07db0c8041290 iio: adc: stm32-dfsdm: Remove redundant null check before clk_disable_unprepare
 1994a922eb6a7fc577b9c9b909e0fe1fefd961fa Merge branch 'ib-iio-thermal-5.11-rc1' into togreg
 
---===============3372652417139776891==--
+--===============2764191011252098532==--
