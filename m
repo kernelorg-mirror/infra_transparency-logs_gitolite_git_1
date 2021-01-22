@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 22 Jan 2021 23:45:53 -0000
-Message-Id: <161135915365.14879.1148741766066501465@gitolite.kernel.org>
+Date: Fri, 22 Jan 2021 23:46:15 -0000
+Message-Id: <161135917553.15098.16360466767237563783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 073bf9ac5c35f695d05fd866b622ebc83092df7b
-    new: 1692bcae4fd42e717b9645f1fae3bee244324285
+  - ref: refs/heads/net-next
+    old: 0b94e2d5c17441d7abc5325144c776ad6b109210
+    new: bf946cd6fe4b909e4e2f4163809e78f70fe1c42f
     log: |
-         305a9f1d3c9171f04c9f85222d12ad282eef4ac5 net/mlx5: Fix memory leak on flow table creation error flow
-         e33eda6344813b2f2acde1a0f6b6457a3bcf40e7 net/mlx5e: E-switch, Fix rate calculation for overflow
-         63e08f86ac9da1a8cc0c845db16a4e479f459721 net/mlx5e: free page before return
-         c4ece0582675cc462824145f8189d7ca15d07073 net/mlx5e: Reduce tc unsupported key print level
-         924152fcc189454c696d0abf2d1cf97841972e0a net/mlx5e: Fix IPSEC stats
-         7021ec64b376f179043665ca0063e2cec57786e4 Merge branch 'net-mlx4' into net-rc
-         1692bcae4fd42e717b9645f1fae3bee244324285 Merge branch 'net-mlx5' into net-rc
+         432694e21c7add3b0523e30a35ecf99e9acd4b4d Merge commit 'refs/changes/78/355678/27' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+         2557b7fab450190879def651fd28ce8f163ad98f net/mlx5e: rep: Improve reg_cX conditions
+         3d9b7c369598e01a40cfc3663ca6567a64ed0119 Merge branch 'net-next-mlx4' into net-next
+         4f42f2eecb3da3d7a3e87893fd0c5aa2e67045f7 Merge branch 'mlx5-vdpa' into net-next
+         ff12b8a3419dc1b61f22ea5300cd55916009255c Merge branch 'net-next-mlx5' into net-next
+         ac766c82b23dc270e22089b57543d2c7856ed2e1 Merge branch 'net-mlx4' into net-next
+         bf946cd6fe4b909e4e2f4163809e78f70fe1c42f Merge branch 'net-next-test' into net-next
          
