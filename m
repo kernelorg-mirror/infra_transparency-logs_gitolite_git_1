@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5325079857780137469=="
+Content-Type: multipart/mixed; boundary="===============5749263481670957442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Sat, 23 Jan 2021 20:50:25 -0000
-Message-Id: <161143502599.26788.7742852265886051405@gitolite.kernel.org>
+Date: Sat, 23 Jan 2021 20:51:31 -0000
+Message-Id: <161143509160.27217.11032313137854935239@gitolite.kernel.org>
 
---===============5325079857780137469==
+--===============5749263481670957442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: 9791581c049c10929e97098374dd1716a81fefcc
-    new: e1ae4b0be15891faf46d390e9f3dc9bd71a8cae1
-    log: revlist-9791581c049c-e1ae4b0be158.txt
+  - ref: refs/heads/dm-cryptsetup
+    old: ed11e40fadc41ab5715b780286625a9b942280ea
+    new: 242a1be1e2b0d8cbf285520e1a39e1d87132c1a7
+    log: revlist-ed11e40fadc4-242a1be1e2b0.txt
 
---===============5325079857780137469==
+--===============5749263481670957442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9791581c049c-e1ae4b0be158.txt
+Content-Disposition: attachment; filename=revlist-ed11e40fadc4-242a1be1e2b0.txt
 
 2e202ad873365513c6ad72e29a531071dffa498a gpiolib: cdev: fix frame size warning in gpio_ioctl()
 4883a60c17eda6bf52d1c817ee7ead65b4a02da2 mtd: rawnand: gpmi: fix dst bit offset when extracting raw payload
@@ -174,5 +174,6 @@ fe75a21824e78405b8d812421974524092250c63 Merge tag 'for-5.11/dm-fixes-2' of git:
 15cfb0f06db41542ba16907a964874ea9cfe99b2 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 077e81d51d1fce056b361c27b6cddd41e1469b9d Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 e1ae4b0be15891faf46d390e9f3dc9bd71a8cae1 Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+242a1be1e2b0d8cbf285520e1a39e1d87132c1a7 dm-integrity: introduce the "fix_hmac" argument
 
---===============5325079857780137469==--
+--===============5749263481670957442==--
