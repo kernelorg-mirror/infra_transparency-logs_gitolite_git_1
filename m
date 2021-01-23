@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 23 Jan 2021 21:38:35 -0000
-Message-Id: <161143791581.22642.15132540425920544119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse-dev
+Date: Sat, 23 Jan 2021 23:28:56 -0000
+Message-Id: <161144453694.27710.15948331210771660053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/devel/sparse/sparse-dev
+user: lucvoo
 changes:
   - ref: refs/heads/master
-    old: e7b76db3624013c1e81c443ddd5b8e026ad236ef
-    new: 692347a93178a3635da13f41e29d40e3ee1b1808
+    old: 46a52ca446cc1fee7662554de70ba4e549448821
+    new: 56dbccf50c2185571f34c3dfaf4753942f6a2372
     log: |
-         57ba00774b5bf5dd3a90725b1d8e619344e2d5ed net: dsa: mv88e6xxx: Remove bogus Kconfig dependency.
-         04cbb740ce1bbaca1c2681cf2de4d10fffded87f net: mvpp2: Remove unneeded Kconfig dependency.
-         692347a93178a3635da13f41e29d40e3ee1b1808 Merge branch 'remove-unneeded-phy-time-stamping-option'
+         23756db02e8d8337075b377408af5093c0401de2 fix type of canonicalization of sext + unsigned compare
+         817412f75790c3ccae1bf9f23922864c837a9347 handle qualified anonymous structures
+         98d8b65e122b5180d81a653487a7392e6083d9f3 Merge branch 'fix-sext-cmps'
+         56dbccf50c2185571f34c3dfaf4753942f6a2372 Merge branch 'unnamed-qual'
          
