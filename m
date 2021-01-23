@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1133039967096705736=="
+Content-Type: multipart/mixed; boundary="===============6955299292034314398=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 23 Jan 2021 04:20:36 -0000
-Message-Id: <161137563693.3650.11291640324997536644@gitolite.kernel.org>
+Date: Sat, 23 Jan 2021 04:20:41 -0000
+Message-Id: <161137564109.3728.10852042036472513025@gitolite.kernel.org>
 
---===============1133039967096705736==
+--===============6955299292034314398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 8f628baa1fc6079c95726c6324be8510eb3ad786
-    new: 0085121aa46bdb132a4a2f2426909d7a9051339c
-    log: revlist-8f628baa1fc6-0085121aa46b.txt
+  - ref: refs/heads/5.12/scsi-staging
+    old: 348e1bc5f4b733a9deb1dae3242ee94f23fe6ab0
+    new: abb4c1c5b84a098fe932a1003e973287d1de7ed7
+    log: revlist-348e1bc5f4b7-abb4c1c5b84a.txt
 
---===============1133039967096705736==
+--===============6955299292034314398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1611375634 -0500
+pusher 75C5DE3D 1611375639 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1611375634-480ede474a5f93190a918e468bfa6bc622da08bc
+nonce 1611375639-8f2a5d521cc407805dd86ced611b494c600bc51f
 
-8f628baa1fc6079c95726c6324be8510eb3ad786 0085121aa46bdb132a4a2f2426909d7a9051339c refs/tags/mkp-scsi-staging
+348e1bc5f4b733a9deb1dae3242ee94f23fe6ab0 abb4c1c5b84a098fe932a1003e973287d1de7ed7 refs/heads/5.12/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmALpBIACgkQ7ulgGnXF
-3j0EXw/6ApzU5LrlPl/BhtRS0qt1+ZaspMvTwRMzh+uq/DFj5xZTyMEB5IwF90U/
-2FyfUsxc9d3hsGRNS8+49AoL91gfcluiJ9R9cHuO5W04mGIqynCMQxFXywjo3VJE
-0GJmWDrRQ6MHLSJgK4dE/depwxc0eekNv5IDfb2LkTLgOhklHGU0xspdSbzphcmq
-4RTU41UStNJn/87o1jb3SSEIYb7zR840u2/8Pt1FFHMWYvIGNDne4vR9CuGAl26+
-KHAFy1X5YjHshoQgg9QJYRkYT5oq51PFUQhEA3NQRgfBSSjZDNktsFL14HC3A0Fk
-HgSKKSH9XoRWOcyOYtkQA91aLg3USapzPbK0WrknauHzdvk2pAi6p7G+L3/C3tTz
-TBHw/8nMvq3LTsQpFBwUOkWBdybe/1+lS2whVES8fqkvJRn3SUogKPrTF4kYzRPH
-YnmleGJi2bLB59mEkAC/r4obgzFnawTKN8eSAJqin0oO4Ilu14ev0XVsvPtzWocQ
-DVYz6YQGswjdxUkiqvFBwXsxcCEIyr8o8GPnUe38wOcagzd8e2WHEhNU4swwG6pp
-mBXapilZMrE2oN+FyOP5TpHYByPMo/R5wwShvscV57xl7uoQ2Gp/H8lpF/Yi4kUl
-gAoMvKC27w4A+SFHAoHAxk/1SPz7HYUzvd82IomsK/CqQznFR1U=
-=a77b
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmALpBcACgkQ7ulgGnXF
+3j2MMA//R05R9fKnkbpb/4mxiBYkZekPwOV0LjRZb5GBRnVX+W0VH/aBW0CFt+Za
+jswtsjmULjYYZrFnCOH97zsFbrDt5KbgeQqdBqoB3p6t41epgbJJiQhxnrWtyIEA
+2uaChyql/Mloxsz4Tlba3mOvQqZ1JdI0V+f/6xfo2JtK327reYvMtRzdaLU2ZJJn
+xWlIPIFb/AuAIZ5OfQW6j4hd4CWQzuUF7FdNLsRzlWN2bzVepegdRHWnP1fyfb8A
+9LAvtYrCtOa21AAO08nFPZFQbRlCqftZGXHs6kpZ59oIWPI0UPr9VwKQhZoGnf+g
+/ltWwegA5yNIZTgLBdxh1hMqFRiPfaDad9Xj7qKLH0OFIfioOadMl8c12i/w71C8
+YMr1eTsqQ9Pb4SRI2RAfPoA2ogXc0in6n67Y5uNdUZiZMlc45yePGAXMXw1p02ut
+fPJrqqFEppRQSgS/rZlt3n6nY4a2AF22kC9vqTH43N4AKlnpRXZUk6Yz6sNnCK9I
+Xs3RqkOvRmO6xfXOyvpbh3Eqi/wrEj2OLfpISd+vpifYngUJcn2IG3kP8Jlmsnr6
+aNyWwKlHcQz4ohOICpMQvtUeVkD2KCtPq9HNIHwBK1W/FbMGGL/p7XLUiZ3rWgKE
+yKtA4vkyGxhDtXYbdl7JnNpQHhmttPifrLkUlm2mdPNNOTHpDIc=
+=8EH+
 -----END PGP SIGNATURE-----
 
---===============1133039967096705736==
+--===============6955299292034314398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f628baa1fc6-0085121aa46b.txt
+Content-Disposition: attachment; filename=revlist-348e1bc5f4b7-abb4c1c5b84a.txt
 
 433675486af4635416f8ece70b92b020a5b91005 scsi: target: iscsi: Avoid in_interrupt() usage in iscsit_close_session()
 efc9d73063c15f1aba8920b9f9ceaba4f3fb8ed9 scsi: target: iscsi: Avoid in_interrupt() usage in iscsit_check_session_usage_count()
@@ -151,4 +151,4 @@ b6d556343c7bbcc407e4575d96d8be7e20624e31 scsi: sg: sg_fill_request_element()
 7323ad3618b615149ea25b3144f9a162668ef93b scsi: sg: Replace rq array with xarray
 abb4c1c5b84a098fe932a1003e973287d1de7ed7 scsi: sg: Sense buffer rework
 
---===============1133039967096705736==--
+--===============6955299292034314398==--
