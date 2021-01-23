@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Sat, 23 Jan 2021 08:55:16 -0000
-Message-Id: <161139211654.26035.11983532458750884152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sat, 23 Jan 2021 09:10:27 -0000
+Message-Id: <161139302780.28065.10639030685248527088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
   - ref: refs/heads/master
-    old: 745b56b065618aaee7c2ab4ca3c85e2cdbebc1d6
-    new: 3ac517313b929619dbb7ceae005ec66d0859b23b
+    old: fe1ab0bcc9a99c02c558d919445cd0772535ae18
+    new: fb0d03d11cec04da7720a80a1373605d81fbb432
     log: |
-         31bf92881714fe9962d43d097b5114a9b4ad0a12 x86/sgx: Fix the return type of sgx_init()
-         3ac517313b929619dbb7ceae005ec66d0859b23b MAINTAINERS: Fix the tree location for INTEL SGX patches
+         fb0d03d11cec04da7720a80a1373605d81fbb432 uri.7: Note that 'logical' quoting is the norm in Europe
          
