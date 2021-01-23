@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8747892681883656681=="
+Content-Type: multipart/mixed; boundary="===============0802787374767186537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 23 Jan 2021 03:51:35 -0000
-Message-Id: <161137389586.11105.3841983580291920458@gitolite.kernel.org>
+Date: Sat, 23 Jan 2021 03:52:02 -0000
+Message-Id: <161137392261.11322.14969761891456117800@gitolite.kernel.org>
 
---===============8747892681883656681==
+--===============0802787374767186537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 91b1b640b834b2d6f330baf04c0cc049eca9d689
-    new: 7f3a79a7fd51b3336781f5bd67a29ffb68eb6d2d
-    log: revlist-91b1b640b834-7f3a79a7fd51.txt
+  - ref: refs/heads/for-next
+    old: a7ed11fc0b72730cde1b9281a102f6c57b402dd7
+    new: 4d005277af4e557b4d9ee71eb7a93f74ec53f03a
+    log: revlist-a7ed11fc0b72-4d005277af4e.txt
 
---===============8747892681883656681==
+--===============0802787374767186537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-91b1b640b834-7f3a79a7fd51.txt
+Content-Disposition: attachment; filename=revlist-a7ed11fc0b72-4d005277af4e.txt
 
 b6cacaf2044fd9b82e5ceac88d8d17e04a01982f scsi: ufs: ufs-debugfs: Add error counters
 dc0bfdb563c866a3c86b553ea54a1eb74f56c22e scsi: isci: Remove the unneeded variable "status"
@@ -82,5 +82,9 @@ a835f386f9709504a99346be011da92b5ea905e5 scsi: ibmvfc: Send Cancel MAD down each
 02c66326dc7e8b3a71b7ceb9a08ec1208e13ea84 scsi: scsi_transport_fc: Add a new rport state FC_PORTSTATE_MARGINAL
 afdd1126940068ef06c2b4b08b85a47a3eafba5b scsi: scsi_transport_fc: Add store capability to rport port_state in sysfs
 7f3a79a7fd51b3336781f5bd67a29ffb68eb6d2d scsi: lpfc: Add support for eh_should_retry_cmd()
+389102a3515b53a38858554a915006be7f0b6a06 scsi: target: iscsi: Fix typo in comment
+aa2c24e7f415e9c13635cee22ff4e15a80215551 scsi: qla2xxx: Fix description for parameter ql2xenforce_iocb_limit
+0956610696c259d67b2d829304e2ab0791160c95 Merge branch 'fixes' into for-next
+4d005277af4e557b4d9ee71eb7a93f74ec53f03a Merge branch 'misc' into for-next
 
---===============8747892681883656681==--
+--===============0802787374767186537==--
