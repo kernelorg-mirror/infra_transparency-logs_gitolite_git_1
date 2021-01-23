@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 23 Jan 2021 18:49:21 -0000
-Message-Id: <161142776151.13892.9530152420231968483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sat, 23 Jan 2021 18:56:02 -0000
+Message-Id: <161142816239.18488.604633833556826779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/watchdog-next
-    old: d010d9f45c4e09d7ce3f5211575621e88d2b30d6
-    new: bfa7d38412fe465c98d9da7777a66cb13d636851
+  - ref: refs/heads/net-mlx5
+    old: 924152fcc189454c696d0abf2d1cf97841972e0a
+    new: 392050b7d0edd96ef23711cd2c6bcfb1c9a740f4
     log: |
-         bfa7d38412fe465c98d9da7777a66cb13d636851 dt-bindings: watchdog: Add binding for Qcom SDX55
+         392050b7d0edd96ef23711cd2c6bcfb1c9a740f4 net/mlx5: Maintain separate page trees for ECPF and PF functions
          
