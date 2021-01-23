@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8193723352774360500=="
+Content-Type: multipart/mixed; boundary="===============8712570162969579021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 23 Jan 2021 04:20:21 -0000
-Message-Id: <161137562160.3349.14574199506205725856@gitolite.kernel.org>
+Date: Sat, 23 Jan 2021 04:20:25 -0000
+Message-Id: <161137562593.3441.5229086146298132428@gitolite.kernel.org>
 
---===============8193723352774360500==
+--===============8712570162969579021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: dd2b8229c7b1c3b3c24860f17605f3e16c112a91
-    new: 8d05347edaa8edce77c136ca0886a1e74014314e
-    log: revlist-dd2b8229c7b1-8d05347edaa8.txt
+  - ref: refs/heads/5.12/scsi-queue
+    old: 7f3a79a7fd51b3336781f5bd67a29ffb68eb6d2d
+    new: 348e1bc5f4b733a9deb1dae3242ee94f23fe6ab0
+    log: revlist-7f3a79a7fd51-348e1bc5f4b7.txt
 
---===============8193723352774360500==
+--===============8712570162969579021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1611375620 -0500
+pusher 75C5DE3D 1611375624 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1611375619-eed4f93bda68629222ae84cafd3b97238d645fc7
+nonce 1611375624-97696d08331ce6563aa807941cd51ba254aec392
 
-dd2b8229c7b1c3b3c24860f17605f3e16c112a91 8d05347edaa8edce77c136ca0886a1e74014314e refs/tags/mkp-scsi-queue
+7f3a79a7fd51b3336781f5bd67a29ffb68eb6d2d 348e1bc5f4b733a9deb1dae3242ee94f23fe6ab0 refs/heads/5.12/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmALpAQACgkQ7ulgGnXF
-3j3PCg//diXNrAjNkQM4LklemCjKo6yJ6EETgo0fT34jhTNL03qGqircA/9ZnyHB
-wH/Pd9JMxvjAu+xNl8Hm0M9UYFigg7wK4vRMKUHpCzVVE6qaq5cPNZsWKOz4YFLy
-EIjYcsW+cWYNXDrAdXcsCgZEu6IQo/Li317BnEAeW43tYCAIHzgHa5p4zsZY5jmB
-BAbx4fX83JQHXUUu7Vkphz1jslkgurlpg2TQ2oIt9GQPqwWPjq6Lmc+NbKkyd9Og
-u6Hjr8UAhTgpDDdt1F8/vmP68fWAb/w0XYPQ+PdJ0FT6H3f+0d1r/0/0FA3hkH2W
-iHlJ1F+NsAjoOZnCKm0pJOEGKFrAhnI5zp9AYm0P5A6IBIHs/OFTV5sSkkvFeTbt
-vkec0MAdEUO7UJLpJ1oi37+j73WIFQ0vcoSif9GbUSX2NelgsKZpe+zrhFmNosas
-SOTm8pwPV4qBa8Nlh4/YGNSLoaNW1mLnFpGqkO8oQeBm5qz/bfOZcyj4W0iOLgL5
-wNbdxzFAqgnuNWkHntIbSN/hggnqzLtntkFHeRY5i4Nrf9QmF7Vq6xNOM6tRgrxV
-k95qkrCCy9JFXQBOX0epFOIBdbja6pdzKxLK8Egbf1kwIWIHx8MmMa4LBydjmwtX
-9ZRYOADs/EuDcQ38hQifUjejn1o2GQ5QvyhzPNGH7qjDXUArTLM=
-=YjUI
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmALpAgACgkQ7ulgGnXF
+3j0DHg//b51pnmVF9X/zd3s5+rAOeqHYNKnbaqhGu4QiuqbFmfch1B5LCKed1gnP
+32ZaEpwATktelh9yUShcsPzIPqTRiiFYHD28qpANzKH9v3bZcU0CEdr8zjzeAQFS
+ArCpOhF2mSltvtOYqjaH4/04GQOR0bzKBihJHaiHJ/NoJuhAftg+xeJzMLn7FLrN
+l2J273czDRbudoKtucK9aFfPrnraeySoUlsFd62ZiAhBQpLEKeOVIKKLjU7yYZ/Z
+U5q6thLscaxFZq3IFuk2q9a6SVwO9Yz+m6fijCw0mBlIa2lSZkhzZefR8ZLJuOoZ
+aYNoAa74Y6I4UhdNm2AcuWt+x1COv4EYdt4Ezp1N3XkqocbX6kttrGbeVZJF1tgV
+kO3x17N/R1Unsk5mtyOIwuOe28zr3nfb80MfbZ5oi6xpGF2PEiRYIOXs7tRN4SK0
+triNhvkLh+31TOb0LIcULWrm1KW3d4W4FvL3LEG3or0aqIAf3Ka8kjf/FBnWevAP
+xeqCSTiWN0G1T3eVimUWeNuD7xE9+VpspdnPUhKzik2Zl1ZCrSX0kDSNPNV92+IF
+kNamAKbGDpDmYAfdk2q1WaL27/L/oRNmIsruRZ4o/sVdo+qtb/W4tI9j+6dLUDt5
+76tzN7JBFvQt3GbWJuEhYInh78ikrmfF6vwmaaWnqMYbzecbBO0=
+=KeAf
 -----END PGP SIGNATURE-----
 
---===============8193723352774360500==
+--===============8712570162969579021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd2b8229c7b1-8d05347edaa8.txt
+Content-Disposition: attachment; filename=revlist-7f3a79a7fd51-348e1bc5f4b7.txt
 
 81e7eb5bf08f36d34495a5898f6ef3fec05d9776 Revert "Revert "scsi: megaraid_sas: Added support for shared host tagset for cpuhotplug""
 74a2921948ed8c0e7f079a98442ec3493168cc85 scsi: hisi_sas: Expose HW queues for v2 hw
@@ -87,4 +87,4 @@ f9a7fa345aec28bc1c15a55572e016bbeb5f4254 scsi: ufs: Refactor cancelling clkscali
 b058fa868234fe835af4e3887b4f0d018a9220ed scsi: ufs: Remove redundant null checking of devfreq instance
 348e1bc5f4b733a9deb1dae3242ee94f23fe6ab0 scsi: ufs: Clean up and refactor clk-scaling feature
 
---===============8193723352774360500==--
+--===============8712570162969579021==--
