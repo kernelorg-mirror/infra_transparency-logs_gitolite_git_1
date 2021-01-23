@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4663029838062535112=="
+Content-Type: multipart/mixed; boundary="===============2203411500362662573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 23 Jan 2021 01:20:00 -0000
-Message-Id: <161136480057.9362.2688281413597463150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sat, 23 Jan 2021 01:22:14 -0000
+Message-Id: <161136493401.11397.660359695187791983@gitolite.kernel.org>
 
---===============4663029838062535112==
+--===============2203411500362662573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: bf946cd6fe4b909e4e2f4163809e78f70fe1c42f
-    new: 114d5c55cc0a45a64f92941c1ed3de385ca47dad
-    log: revlist-bf946cd6fe4b-114d5c55cc0a.txt
+  - ref: refs/heads/queue-next
+    old: e65c89b82e359d3f58f21e3513c127b4ecc13322
+    new: 2601697da3d3657e8ec50499e9fc20a12c09344e
+    log: revlist-e65c89b82e35-2601697da3d3.txt
 
---===============4663029838062535112==
+--===============2203411500362662573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf946cd6fe4b-114d5c55cc0a.txt
+Content-Disposition: attachment; filename=revlist-e65c89b82e35-2601697da3d3.txt
 
 305a9f1d3c9171f04c9f85222d12ad282eef4ac5 net/mlx5: Fix memory leak on flow table creation error flow
 e33eda6344813b2f2acde1a0f6b6457a3bcf40e7 net/mlx5e: E-switch, Fix rate calculation for overflow
@@ -101,5 +101,7 @@ a6d7e28165928fac4c4733b78f0c146b0b1df2d2 Merge branch 'net-next-mlx5' into net-n
 544bce33b1e4abdc770369571f6fcdeb16c95235 Merge branch 'net-mlx4' into net-next
 af3ef3ddbd57807a9e8cc467e98769816124c9e8 Merge branch 'net-mlx5' into net-next
 114d5c55cc0a45a64f92941c1ed3de385ca47dad Merge branch 'net-next-test' into net-next
+e1c63f75f612ce2b6eba374175f1f2654bff6ce0 Merge branch 'net-next' into queue-next
+2601697da3d3657e8ec50499e9fc20a12c09344e Merge branch 'testing/rdma-next' into queue-next
 
---===============4663029838062535112==--
+--===============2203411500362662573==--
