@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 23 Jan 2021 04:41:13 -0000
-Message-Id: <161137687373.18174.1163781712436679842@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Sat, 23 Jan 2021 04:51:50 -0000
+Message-Id: <161137751000.24059.9354775881700209509@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 5225d5f57b3574c0954f03d8d21dfac92ea7e729
-    new: 04a886372a2052078fa72b4ecb23f0ac8094f654
+  - ref: refs/heads/fixes
+    old: 19c329f6808995b142b3966301f217c831e7cf31
+    new: 336e8eb2a3cfe2285c314cd85630076da365f6c6
     log: |
-         925bba24e68a97b9c7926f2df4f405af883e6d0c tcp: Remove CMSG magic numbers for tcp_recvmsg().
-         7eeba1706eba6def15f6cb2fc7b3c3b9a2651edc tcp: Add receive timestamp support for receive zerocopy.
-         04a886372a2052078fa72b4ecb23f0ac8094f654 Merge branch 'tcp-add-cmsg-rx-timestamps-to-rx-zerocopy'
+         336e8eb2a3cfe2285c314cd85630076da365f6c6 riscv: Fixup pfn_valid error with wrong max_mapnr
          
