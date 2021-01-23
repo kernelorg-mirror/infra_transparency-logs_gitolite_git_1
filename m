@@ -1,53 +1,105 @@
-Content-Type: multipart/mixed; boundary="===============3670365890457891818=="
+Content-Type: multipart/mixed; boundary="===============0265706491350628919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 23 Jan 2021 15:04:55 -0000
-Message-Id: <161141429534.7361.1898379116038508512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 23 Jan 2021 15:05:10 -0000
+Message-Id: <161141431067.13201.4494877963473983011@gitolite.kernel.org>
 
---===============3670365890457891818==
+--===============0265706491350628919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.10.10
-    old: 0000000000000000000000000000000000000000
-    new: 354542d3e7a91de973c6ea5bc44b26fd3e58fa51
+  - ref: refs/heads/linux-5.10.y
+    old: e2d133180bbc28a48316e67a003796885580b087
+    new: 8dc0fcbcfa97bdeb514fa229125791a467e0e319
+    log: revlist-e2d133180bbc-8dc0fcbcfa97.txt
 
---===============3670365890457891818==
+--===============0265706491350628919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611414294 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1611414294-4d3ee9e556cef585d89500c09e5fa61e743267eb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611414309 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1611414308-912a83f615894fd452d7257d2550fbde2653f2ec
 
-0000000000000000000000000000000000000000 354542d3e7a91de973c6ea5bc44b26fd3e58fa51 refs/tags/v5.10.10
+e2d133180bbc28a48316e67a003796885580b087 8dc0fcbcfa97bdeb514fa229125791a467e0e319 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAMOxYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BjYQANQfCQOU1ee/cZt5o5wL
-TqQ94n0BmMNDK9fafatkkCk3WUc4snbjMvi0TeQD/0zlT/sv/IDyUWWpa98iCfvi
-yquT2xbZaf+94E9W6bAiJzwGezHK+CnHiqG2aax5mF6n0q1l+wXV/2cuJOhiszv2
-phMJziAzxiP8ZRTwiaueLn7TI9anw5LWRbbahGZB2q+Qr2n9vya0Ie3Fwe6Wd6vU
-EIA2GSK0NketuXy5H+CcTNL9nfh45/SqgVplkIdBQDlxA5lFHB1dMk3/Paw3mopn
-kpQIBwgm0cv7V7vbsEPSqW1ZKHK+VjAWd7Rf3YG7J4ZLkVMirfzCyWk395jh3Z4h
-/WtttZIEPJlOHFvKy0NdJmv8ZEEgjXFiSpjfZonioComy2HDVxQAFN5JGWKLpLSR
-G9qukRjaSo9GseKb53pS4EfCgBDNT6M+i9LsBwNey3c28ui4oUvqhqxrskWUPIFY
-efEek+3id+jMLEQfgiYNDivDDzd8wxEUYBmHv4H4PjSr86PVHiLH//MvOIIZwjHy
-BKqvbUS99pb7YaFWltjlPtQaIdEl1+WRwg7sfYN0nmxwwqF9rVdmwBh79SduJYrm
-sqhZ0r0HS1CxCRKztWmx6WZ/s75A/ovb31wrbq91Opb6zvNLU2XAGYsIt9AbFag+
-9CZHsri3CR1INfF6n96NFjic
-=m8DQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAMOyUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RYQP/AgmJnV9QH98tLVNCLTg
+trVN91G+5pEGKEHC+D3o2WJj8A9Q/rc1DHNBDd9AsTWFRL9DZRBQUEXjAdwtpNqP
+lYKHKv9a30Fj+QY2gj3tnk5anCsKFOtqHejdv50IXbXwXDyWQ/eHvcoYo/Xbiqu0
+2fSYosICvqvP0ttbH54HTwf+FAIg3sNttnjMyJCQmtxmbTTHatQMedgNKiAfPcJn
+VSdMl1Enka/We0+HJqJq4Pz2pUFwot8f/33CGNuzq3zB55Bo0irB8k3ikEhgj38Q
+c5h69x7JB2GF7alG/AdeZdO5+/YJCmpg4S9186nPbbTO0dvuDFhIbdeiIEve09IP
+i1vm1n8m7VOE18caJCEHN3rAJl3h/uHglLnrPq+ZECfrLcAJ5rSI7wRVaDRs9SKj
+mp3slgMYY6SBiGL7D0DXn8vqjFSSvjM1JlLm8WwdTLqyZxu4Xe4Miv+70H9zoJhp
+XItt8Sn09kgXuCwjrqdkn/+D+gPg6ox5jbRCk0oWjKZShKJNrF5dt3IzuJ52bDfa
+Re/33mWiWt5PUvEqqPP8XrqCM86qMMSh7ta+5UqomuIvWSUfmhGpZmhjWTEPWami
+V8cRMNYtocy3fWwFDZtFexNF3IQNfibeD/EJwPHFZXsBm93fgN+OQfneneof0AId
+t393kmOUThsOkIo1kXRalO/h
+=MDBm
 -----END PGP SIGNATURE-----
 
---===============3670365890457891818==--
+--===============0265706491350628919==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e2d133180bbc-8dc0fcbcfa97.txt
+
+57dc19a9d60d859589cdba12353aa237bd06df38 Revert "kconfig: remove 'kvmconfig' and 'xenconfig' shorthands"
+1200a5bc687191b80a654d5c74b9e6c0e9334a59 bpf: Fix selftest compilation on clang 11
+4473923b6674aeddb57c586939dd705cb499131b x86/hyperv: Initialize clockevents after LAPIC is initialized
+99ea120383b19feb1737c787dc1c8b35ce630fc5 drm/amdgpu/display: drop DCN support for aarch64
+5f52a8a71b62418d62c736e5aa68aaba0a8da918 bpf: Fix signed_{sub,add32}_overflows type handling
+90bd4a0cf5ddabf9249c6f92731fcba8c462a6ca X.509: Fix crash caused by NULL pointer
+fdcaa4af5e70e2d984c9620a09e9dade067f2620 nfsd4: readdirplus shouldn't return parent of export
+3ed29995c281762df98cccf86afbddbfb6a918ef bpf: Don't leak memory in bpf getsockopt when optlen == 0
+de661caaee07fab787c4fdb7062d100273c38d80 bpf: Support PTR_TO_MEM{,_OR_NULL} register spilling
+31ad07292553de318f682120e2a9a683d15a7e15 bpf: Fix helper bpf_map_peek_elem_proto pointing to wrong callback
+7d5c389742195481500834dd48bee0b25879ce36 net: ipa: modem: add missing SET_NETDEV_DEV() for proper sysfs links
+24cd3317418955fd9489e4e7e9c2b643691b270b net: fix use-after-free when UDP GRO with shared fraglist
+4b97ce051ffe21dcc0e09418bb3ab4ba018ee87b udp: Prevent reuseport_select_sock from reading uninitialized socks
+5a61d9f573dabc529c975b6642011b1de111b721 netxen_nic: fix MSI/MSI-x interrupts
+bbcb4746a6a3300e11a8a710b9bbb5c2a31258cc net: ipv6: Validate GSO SKB before finish IPv6 processing
+60b8b4e6310b7dfc551ba68e8639eeaf70a0b2dd tipc: fix NULL deref in tipc_link_xmit()
+d2bfbfcc550554ab72ac7bf6d27f376baa947844 mlxsw: core: Add validation of transceiver temperature thresholds
+82f72e41b797e94810b471a89c3d299ed90c9485 mlxsw: core: Increase critical threshold for ASIC thermal zone
+f999ca8c5fc5c7c87f837c13ba4998d7a2777855 net: mvpp2: Remove Pause and Asym_Pause support
+3c64191cad985df173532c8e666eca31028afd81 rndis_host: set proper input size for OID_GEN_PHYSICAL_MEDIUM request
+26413630f4f6495dc28ad57e6031f55912d1bcc7 esp: avoid unneeded kmap_atomic call
+dbdca9d9b7ca909744928450edf563452301e65a net: dcb: Validate netlink message in DCB handler
+1e5a4c74b555e9b41236f406e2a43b0534af029c net: dcb: Accept RTM_GETDCB messages carrying set-like DCB commands
+7c85d8e7ebd29d0720a9caba76d4debbceefd8a9 rxrpc: Call state should be read with READ_ONCE() under some circumstances
+741690db7a357743545e0fa83310bdb1152ecaac i40e: fix potential NULL pointer dereferencing
+5ae7725043250a61589f426ef454b1fb8e7be808 net: stmmac: Fixed mtu channged by cache aligned
+00442a962152ffc1052dcdbd3c8e01c9ad396ec2 net: sit: unregister_netdevice on newlink's error path
+34f782b9d0dc748e2770c1bc118a5aadc8c19831 net: stmmac: fix taprio schedule configuration
+72cfe5b07e856cf21a6c721a9a1357ef2a87eaff net: stmmac: fix taprio configuration when base_time is in the past
+024158d3b5715e830bf4b51c4452132937c8f1e8 net: avoid 32 x truesize under-estimation for tiny skbs
+ad2175c9fb27b5e0c6fef08143d94129c86a153b dt-bindings: net: renesas,etheravb: RZ/G2H needs tx-internal-delay-ps
+c469b23d1b541cbdd6831b468acd4bfb849180c6 net: phy: smsc: fix clk error handling
+2bfb953aeebf39d32f159450d69278b4c9c856dd net: dsa: clear devlink port type before unregistering slave netdevs
+6f3fe96a69565c96d95ea20e72c02bf9761c4b03 rxrpc: Fix handling of an unsupported token type in rxrpc_read()
+65accf0324bf68af1d0500d3478dc981047d1463 net: stmmac: use __napi_schedule() for PREEMPT_RT
+fd21e00c5e0b0b9333e8cc26ab188f360447eb6d can: mcp251xfd: mcp251xfd_handle_rxif_one(): fix wrong NULL pointer check
+a6d508c63573de7682305910cee05ceda28b778a drm/panel: otm8009a: allow using non-continuous dsi clock
+a00432fa4cb9c022c74303c70080267e6a93d624 mac80211: do not drop tx nulldata packets on encrypted links
+6423b2193794f2988f37c31c6e03ccfddecf6f58 mac80211: check if atf has been disabled in __ieee80211_schedule_txq
+d0b97c8cd63e37e6d4dc9fefd6381b09f6c31a67 net: dsa: unbind all switches from tree when DSA master unbinds
+04ed7f1da638fac5ad8ae64a11cec39395d98683 cxgb4/chtls: Fix tid stuck due to wrong update of qid
+da02e4ca8a297293e73449e9d187ba02a7667c43 spi: fsl: Fix driver breakage when SPI_CS_HIGH is not set in spi->mode
+3fe6036663603240b6bd5c7c91cec1db5b10ae80 spi: cadence: cache reference clock rate during probe
+8dc0fcbcfa97bdeb514fa229125791a467e0e319 Linux 5.10.10
+
+--===============0265706491350628919==--
