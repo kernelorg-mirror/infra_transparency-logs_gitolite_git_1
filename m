@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 23 Jan 2021 09:10:27 -0000
-Message-Id: <161139302780.28065.10639030685248527088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sat, 23 Jan 2021 10:43:03 -0000
+Message-Id: <161139858316.22458.17953339052344284389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: fe1ab0bcc9a99c02c558d919445cd0772535ae18
-    new: fb0d03d11cec04da7720a80a1373605d81fbb432
+  - ref: refs/heads/irq/activate-multi-msi
+    old: c28af2d6ffb0af37b4821f03a3e4808183bccd57
+    new: 397215df6dc3f642ea88c7506da0ad7ba49be082
     log: |
-         fb0d03d11cec04da7720a80a1373605d81fbb432 uri.7: Note that 'logical' quoting is the norm in Europe
+         397215df6dc3f642ea88c7506da0ad7ba49be082 genirq/msi: Activate Multi-MSI early when MSI_FLAG_ACTIVATE_EARLY is set
          
