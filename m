@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 23 Jan 2021 18:56:07 -0000
-Message-Id: <161142816770.18573.18198521162268870784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Sat, 23 Jan 2021 18:57:17 -0000
+Message-Id: <161142823723.19011.13059071634981444520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/net-rc
-    old: 1c38ecb8438f898c25d58df59547fd7121c8f324
-    new: 049f0e2d8ae4760e280c3c39058a8627cbf80e9c
-    log: |
-         392050b7d0edd96ef23711cd2c6bcfb1c9a740f4 net/mlx5: Maintain separate page trees for ECPF and PF functions
-         cff179ed76fc21ff4df0d2cd0fbc9a2472561283 Merge branch 'net-mlx4' into net-rc
-         049f0e2d8ae4760e280c3c39058a8627cbf80e9c Merge branch 'net-mlx5' into net-rc
-         
+  - ref: refs/tags/mtd/fixes-for-5.11-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 92b6ec7fb05aff7fe3b931e111a2f7cee17828a9
