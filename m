@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 23 Jan 2021 21:19:33 -0000
-Message-Id: <161143677312.11832.12535196765862162991@gitolite.kernel.org>
+Date: Sat, 23 Jan 2021 21:23:09 -0000
+Message-Id: <161143698977.14149.16713377205120290713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 853c56b489f30c580b8667f9469049f0e43e7301
-    new: cf3c46631e1637582f517a574c77cd6c05793817
+    old: cf3c46631e1637582f517a574c77cd6c05793817
+    new: b6011966ac6f402847eb5326beee8da3a80405c7
     log: |
-         cf3c46631e1637582f517a574c77cd6c05793817 net: dsa: bcm_sf2: put device node before return
+         b6011966ac6f402847eb5326beee8da3a80405c7 chtls: Fix potential resource leak
          
