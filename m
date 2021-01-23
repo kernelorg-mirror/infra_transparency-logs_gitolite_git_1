@@ -1,100 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8381952738643779426=="
+Content-Type: multipart/mixed; boundary="===============5578995358990350752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Sat, 23 Jan 2021 00:51:54 -0000
-Message-Id: <161136311463.23896.13171733387065886760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
+Date: Sat, 23 Jan 2021 00:55:26 -0000
+Message-Id: <161136332687.26324.16106576794402714173@gitolite.kernel.org>
 
---===============8381952738643779426==
+--===============5578995358990350752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/andrea/aa
+user: andrea
 changes:
-  - ref: refs/heads/queue-next
-    old: 1d3cec2e9f19dda78ba305821f3cd9b152429f5e
-    new: e65c89b82e359d3f58f21e3513c127b4ecc13322
-    log: revlist-1d3cec2e9f19-e65c89b82e35.txt
+  - ref: refs/heads/master
+    old: 2367bdec639e23db43643411bbf401a1663ae490
+    new: 7a4f55aa49b38bb31b42088b3c8190b03cae564c
+    log: revlist-2367bdec639e-7a4f55aa49b3.txt
 
---===============8381952738643779426==
+--===============5578995358990350752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d3cec2e9f19-e65c89b82e35.txt
+Content-Disposition: attachment; filename=revlist-2367bdec639e-7a4f55aa49b3.txt
 
-38756db073840bbb5aa9a7797176168191bded36 net: Disable NETIF_F_HW_TLS_RX when RXCSUM is disabled
-711d346c7180ec3c9e7ea1d9a40cdd833383f3eb devlink: Prepare code to fill multiple port function attributes
-84e8da81aaa5ea5a097d1484e4cb5787809945c9 devlink: Introduce PCI SF port flavour and port attribute
-760cdaf56e30cba6ab92ffddea5a0c8bc3819e42 devlink: Support add and delete devlink port
-ff52e25b032971474e35873c2b1df7d385d6c4b5 devlink: Support get and set state of port function
-0492b854daf3da3cc75ba77fb273aae209512b98 net/mlx5: Introduce vhca state event notifier
-2a5782a451e489377e61e1533e4673d398b7f4ee net/mlx5: SF, Add auxiliary device support
-889c31cf49e185bd81a5a1ad59a0639cd8119781 net/mlx5: SF, Add auxiliary device driver
-5015aff57fb8e6d79c3326d2e7f4be9bb6cf13fa net/mlx5: E-switch, Prepare eswitch to handle SF vport
-48a3403cc6a7f7e9d641e294b1162bb85234cc6a net/mlx5: E-switch, Add eswitch helpers for SF vport
-661cd26a236d2063dc94c98ae61534f5b1cc2b86 net/mlx5: SF, Add port add delete functionality
-13509770877f852326d1ef6cbe0d8fba3e75b108 net/mlx5: SF, Port function state change support
-14c671973840dd5043e949dfa2b0eea872df25d5 devlink: Add devlink port documentation
-af54a95854fc1cc30bff60dc993e2a577d8649fd devlink: Extend devlink port documentation for subfunctions
-a1a45b8738f14a1867841bb7d1a1af2a90d8fa8f net/mlx5: Add devlink subfunction port documentation
-314da2fe84ec3898c496cf40d084fb854de0459a net/mlx5: Don't skip vport check
-6e228ba27c9c7d3bf7f68ac02725683f6743aa23 net/mlx5: Remove impossible checks of interface state
-0113212a2bd18d7fd634f931bb3d1b333e18fe01 net/mlx5: Separate probe vs. reload flows
-6000647f4d4eab3faf6865ebb19f9d9a2936e885 net/mlx5: Remove second FW tracer check
-e56d071b35447f57cd45a9aaadb009c3beae8a13 net/mlx5: Don't rely on interface state bit
-e5ec230cbada231f89b3392fffa51a9b25307441 net/mlx5: Check returned value from health recover sequence
-7b970aecdb5350c2e0817d8fce6aea7d8e3a91b9 net/mlx5: Fix devlink reload LOCKDEP warning
-934e00c717f8f191c7008992095cd40107d86fc8 devlink: Expose port function commands to control roce
-7993f81a85c6494298d1c8e9b68a761c52831267 net/mlx5: E-Switch, Implement  devlink port function cmds to control roce
-7dbae8053742b5615f68862351c120c1e9e25813 net/mlx5e: CT: Preparation for offloading +trk+new ct rules
-1060bc9e027851eadee95db58e1c3361e4f8152b net/mlx5e: CT: Support offload of +trk+new ct rules
-166388748db7f386a7fa754e6c68db3b6800eb57 net/mlx5: CT: Add support for mirroring
-ef9be2dfd5dae8991528e05e618ef7f9f482d7f6 net/mlx5: E-Switch, let user to enable disable metadata
-d16f916edbf2dd11303f92212c85f2d4a01868f8 net/mlx5e: CT, Avoid false lock depenency warning
-91a6aa32e54f8f030d8c2964b1919e97706783ae devlink: Add DMAC filter generic packet trap
-f56f0f84ad336c28fed8b806bcc35ff88245d51c net/mlx5: Add support for devlink traps in mlx5 core driver
-7bc18803424f95d9ce4f4727531299b9893ed650 net/mlx5: Register to devlink ingress VLAN filter trap
-ef934f9b4218ca5c401148d61a562a9890fc191d net/mlx5: Register to devlink DMAC filter trap
-984944e0a9dc7f385b494c2b10ea8c55e48d5a47 net/mlx5: Rename events notifier header
-590e21773c51d7a2dca5ee2a52c3045305e067fd net/mlx5: Notify on trap action by blocking event
-763818228fb5f9e4f850b305214626c1ddc474a6 net/mlx5e: Optimize promiscuous mode
-c3e7c503cf84064d63f0ee7c0f9c639e489250d2 net/mlx5e: Add flow steering VLAN trap rule
-e2135a16dd8f7cbcc73dffaf63a698876c06ee36 net/mlx5e: Add flow steering DMAC trap rule
-dd6ef21f729e0e1f3f59b2888622e55360147047 net/mlx5e: Expose RX dma info helpers
-55c89de4faa94934b5a63502d18b338f9705a503 net/mlx5e: Add trap entity to ETH driver
-24c12fe23df85cb91d2f1123363f7f77a10007c7 net/mlx5e: Add listener to trap event
-8f40a19f935153b927bec1832e4fe06bfe40a3dd net/mlx5e: Add listener to DMAC filter trap event
-53d386d13b65a345a27f90c2b61363f7f53e714a net/mlx5e: Enable traps according to link state
-58a34bd96181df9cedd93b25d5b419e2925a25b9 net/mlx5: simplify the return expression of mlx5_esw_offloads_pair()
-bf9501a409adde9762d878fcf651affa15e77183 net/mlx5_core: remove unused including <generated/utsrelease.h>
-f16ce93bf89fe357f878d06fb93bc71afb0978cd net/mlx5e: Enable napi in channel's activation stage
-4abe60eff9ca8156647a045bb7fa4cb2b6e23692 net/mlx5e: Increase indirection RQ table size to 256
-29f0c71b0a55612fd35e670a830c39dd8b945304 net/mlx5: Check switchdev mode when check if multi-port or ib is supported
-5ce0bcc2a65b60e14c30976a76f99c7f34cefbb5 net/mlx5: Delete device list leftover
-27b38e4d2cc333d6a40033a204193fcf275a2e0d fixup! net/mlx5e: Add trap entity to ETH driver
-4397acf9dee20acb55543b7ecb26da388c57a61b fixup! net/mlx5e: Add listener to trap event
-531db3416e194de187bcd7b1389583602b118813 net/mlx5e: remove h from printk format specifier
-aca8b7c766e606bb37e28eb5115ad676b50cebd7 net/mlx5: fix spelling mistake in Kconfig "accelaration" -> "acceleration"
-c80421e76b891f7dbde19d9837be84b5e738629a net/mlx5: Remove unused mlx5_core_health member recover_work
-e59e12ddb5e4c6e349afb2caf1b9bb75cfce64d7 net/mlx5e: kTLS, Improve TLS RX workqueue scope
-075baf99986a9eefbc66b4d98e3c5ff13fc93d6b net/mlx5: E-Switch, Add match on vhca id to default send rules
-025d98b26ea2e5190d459e0b0b8e2ec88737cb9a net/mlx5: E-Switch, Refactor setting source port
-de9de461632b76214b4f1923e5a80eecd4e5c53b net/mlx5: E-Switch, Add eswitch pointer to each representor
-7837b753e5270278873a41be06ccb1d5bd7ad528 RDMA/mlx5: Use represntor E-Switch when getting netdev and metadata
-802bf58865be687715523adb51013cfc802d2ce9 net/mlx5: E-Switch, Refactor send to vport to be more generic
-399de87a8f6875b3a77312af9a70bad99af765a7 net/mlx5: Add IFC bits needed for single FDB mode
-432694e21c7add3b0523e30a35ecf99e9acd4b4d Merge commit 'refs/changes/78/355678/27' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-2557b7fab450190879def651fd28ce8f163ad98f net/mlx5e: rep: Improve reg_cX conditions
-3d9b7c369598e01a40cfc3663ca6567a64ed0119 Merge branch 'net-next-mlx4' into net-next
-4f42f2eecb3da3d7a3e87893fd0c5aa2e67045f7 Merge branch 'mlx5-vdpa' into net-next
-ff12b8a3419dc1b61f22ea5300cd55916009255c Merge branch 'net-next-mlx5' into net-next
-ac766c82b23dc270e22089b57543d2c7856ed2e1 Merge branch 'net-mlx4' into net-next
-bf946cd6fe4b909e4e2f4163809e78f70fe1c42f Merge branch 'net-next-test' into net-next
-6df3b7ca453a31e250c93741e6b76d2d728130ce Merge branch 'net-next' into queue-next
-e65c89b82e359d3f58f21e3513c127b4ecc13322 Merge branch 'testing/rdma-next' into queue-next
+e5dd576248d3480509b937919b843e0d12fec1ae mm, compaction: move high_pfn to the for loop scope.
+a1c0857041a32ffb6c7c49f4e6643f6bc929b09d Revert "mm: don't play games with pinned pages in clear_page_refs"
+3f2e59297cab9f324b3003a2c66c273732111f1c Revert "mm: fix clear_refs_write locking"
+1b1954027a92417337ababb36543117ec544b23b Revert "mm: thp: make the THP mapcount atomic against __split_huge_pmd_locked()"
+a848d5a0f0a570b071a37544012f83031b4cbaf2 Revert "mm/ksm: Remove reuse_ksm_page()"
+9687abe4749cf621acd38961b545c364fd46f126 Revert "mm: fix misplaced unlock_page in do_wp_page()"
+b5ee85749a5a0f24761b925a52ed2c3e39222f3c mm: thp: make the THP mapcount atomic against __split_huge_pmd_locked()
+9eca428bb59785de0e79b009097387be8f4295a4 mm: thp: make the THP total_mapcount atomic against rmap add/remove
+a345cee5bd81d8234c84f8b7487f5ec8b601e82b mm: restore full accuracy in COW page reuse
+ca08d978983b503f13227ab181ab386be9d48869 mm: COW: skip the page lock in the COW copy path
+53ae5d77ed4fddb2029d880bc06d512d3c5e36bd mm: thp: introduce page_mapcount_seq irqsafe version
+6e3b61a975029fd6d8559fefb866c352e208eb42 mm: thp: introduce page_trans_huge irqsafe methods
+17939740143a449446e240d7d923f9b0efa61829 gup: FOLL_UNSHARE: copy-on-read fault
+c038b40981532f968e50341951fdc0956da93fb7 gup: FOLL_UNSHARE: optimize mmu notifier
+e2849d870bc46bf91710afeb1081feb037cb93e9 gup: FOLL_UNSHARE|FOLL_LONGTERM: introduce FAULT_FLAG_UNSHARE_LT
+3faa9d763674f1eda0a1829ba05458a03a92918c gup: FOLL_UNSHARE|FOLL_LONGTERM: enable COR on PageKsm
+1138cc4958e38b9b5b17d7d0c21213482dd38742 gup: FOLL_UNSHARE|FOLL_LONGTERM: enable COR on zeropage and MAP_PRIVATE pagecache
+f38058e52a0d394edcbce61e00434fc41d7dd3ca mm: proc: Invalidate TLB after clearing soft-dirty page state
+bae5a5703d49c0aed3d863c1ddf16c8680ae1c43 x86: restore the write back cache of reserved RAM in iounmap()
+4960c6e6501198d729bbfddf9679c6060a99e6c1 x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
+6198e93ec461705eb661ff010716e8f192c945d3 x86: deduplicate the spectre_v2_user documentation
+7eed0f53e20a844f566d7c037f71e6b989cd55e9 x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
+9b7e32b84aedd2d96b1cc7d79c63c0d6c305e8bb x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
+989c588d9f93dcbb945620b1f1f95e5d5dc12889 mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
+e602b1e5ba66ecde2f36635225395342f7ab52fb coredump: use READ_ONCE to read mm->flags
+287a6265cfb35ecaf60d98476af41ce8fbdbadeb sched/fair: skip select_idle_sibling() in presence of sync wakeups
+fa0fac7132e0bc22e77b2fcdeed1ea3f7ef38c7e mm: refactor initialization of stuct page for holes in memory layout
+c4a6d16e848ee3ba1b9213b8bad2a80a0288b21f mm: initialize struct pages in reserved regions outside of the zone ranges
+45fb8b8a3a0c300f5d67a672d97308861f2b9647 userfaultfd: UFFDIO_REMAP: rmap preparation
+a8b8edf75f6080e8671287bfe1bd3bd14ed7fb03 userfaultfd: UFFDIO_REMAP uABI
+7a4f55aa49b38bb31b42088b3c8190b03cae564c Merge remote-tracking branch 'gitlab/main' into main
 
---===============8381952738643779426==--
+--===============5578995358990350752==--
