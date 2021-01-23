@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Sat, 23 Jan 2021 13:00:58 -0000
-Message-Id: <161140685803.11233.116576158637083984@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Sat, 23 Jan 2021 13:58:03 -0000
+Message-Id: <161141028304.14146.10474639759485903767@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/idmapped_mounts
-    old: dd2057cca8999e69ffa7301a07f9b6fe5c38982f
-    new: 12852285bb71cb3d58fcacdcbfb26926ff0d4bfd
+  - ref: refs/heads/rtc-next
+    old: 12b1ef321a7348293c0277d40c1ad3a452a52205
+    new: 2f58f5eea8c60052100ff325688f2d987bde572b
     log: |
-         eba2e535efe22eb72ba3e301fa0416ab157224f0 fs: introduce MOUNT_ATTR_IDMAP
-         030ab42f10ec7d10354174e1866e1dbac25cc4ac tests: add mount_setattr() selftests
-         d1415ced1421cbe5ff2585ccfb6904d29bbe1a13 fat: handle idmapped mounts
-         feb776ac963193c8d36fb7d205c4b55c660bbbe7 ext4: support idmapped mounts
-         12852285bb71cb3d58fcacdcbfb26926ff0d4bfd xfs: support idmapped mounts
+         9d0735519f99948c5b5c22426b682ced7f7af9be rtc: remove sirfsoc driver
+         dd2d3b40039d0278f25a21aa3e50955a01a92a62 rtc: remove ste coh901 driver
+         2f58f5eea8c60052100ff325688f2d987bde572b rtc: remove ste ab3100 driver
          
