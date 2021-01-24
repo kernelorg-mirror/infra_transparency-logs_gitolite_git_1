@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rw/misc
-Date: Sun, 24 Jan 2021 23:17:55 -0000
-Message-Id: <161153027534.4168.3021711497976501004@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 24 Jan 2021 23:18:52 -0000
+Message-Id: <161153033257.4681.17610187403785247874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rw/misc
-user: rw
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
-  - ref: refs/heads/muse-wip
-    old: bb49c1ab59311379315d68bb2855774f0c7297f0
-    new: a2868476068bd05c53b22173d5e87c370f197675
+  - ref: refs/heads/master
+    old: 8b55111d74c5a1e990aa770ed2814924806ce3f2
+    new: 29dee4ce10a37e069200623e2d581a18a673b37d
     log: |
-         79c04887ed7bb7e1b524e08bdd06b2832a677ed7 fuse: Export fuse_simple_request
-         7e42279a1e0518f683bb1beebee0c84606e0d440 fuse: Export IO helpers
-         eac7f608bbbfc2abf7fb16f198ca66711bb63cd7 fuse: Make cuse_parse_one a common helper
-         3ce40438bad71d46358f8621fb2556344d748bd1 mtd: Add MTD_MUSE flag
-         e5f3f4c89a4c421aa98b23e26805714d48ef6d53 mtd: Allow passing a custom cmdline to cmdline line parser
-         c4d490f8d8695874b6c992829793c0cad618fc35 fuse: Add MUSE specific defines FUSE interface
-         068e2c704a32dba4b4a3663349de80d90c363338 fuse: Implement MUSE - MTD in userspace
-         a2868476068bd05c53b22173d5e87c370f197675 MAINTAINERS: Add entry for MUSE
+         69a0ed3a21ca38030719b1305019b6c963bf34ca MAINTAINER_NOTES: tfix
+         48c3ffa776fca7f50491ac115a6a6a9afdc68d63 kexec_load.2: srcfix: Don't break a line that doesn't get past the right margin
+         27fce38a2ae2fe4808184b59d9899ad322b3cd7a random.3: srcfix: Don't break proper names into different lines
+         29dee4ce10a37e069200623e2d581a18a673b37d semget.2, shm_open.3: tfix
          
