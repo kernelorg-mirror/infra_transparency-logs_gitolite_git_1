@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 24 Jan 2021 11:50:52 -0000
-Message-Id: <161148905221.12518.13025409591839561660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 24 Jan 2021 11:55:34 -0000
+Message-Id: <161148933408.15198.10499977732337643344@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/hack/arm64-early-cpufeature
-    old: 0ad784d8457ed144c2aefc8197fca2c3bfcd5e9b
-    new: db058db76d144c416dd947b131c4d57ef3146c3c
-    log: |
-         db058db76d144c416dd947b131c4d57ef3146c3c WIP
-         
+  - ref: refs/tags/sched_urgent_for_v5.11_rc5
+    old: 0000000000000000000000000000000000000000
+    new: 571bc8ee2087954d6f3a2ec3e6ea9053a3e6adb2
