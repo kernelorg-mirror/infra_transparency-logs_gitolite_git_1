@@ -1,19 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 24 Jan 2021 23:33:01 -0000
-Message-Id: <161153118164.14570.11392697168482913937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sun, 24 Jan 2021 23:50:03 -0000
+Message-Id: <161153220361.27151.16205929937431619087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/watchdog-next
-    old: bfa7d38412fe465c98d9da7777a66cb13d636851
-    new: 4c879cf1b5c3935cf19b6aed759f6dbe2b6ac924
+  - ref: refs/heads/io_uring-5.11
+    old: cb745af55638a0550c173b1e02634a34aa7b77ba
+    new: 50a8f08e0abe5b41d702ade86db2e0056df9d4b4
     log: |
-         4c879cf1b5c3935cf19b6aed759f6dbe2b6ac924 watchdog: mei_wdt: request stop on unregister
+         50a8f08e0abe5b41d702ade86db2e0056df9d4b4 io_uring: if we see flush on exit, cancel related tasks
+         
+  - ref: refs/heads/master
+    old: ef7b1a0ea857af076ea64d131e95b59166ab6163
+    new: 228a65d4544af5086bd167dcc5a0cb4fae2c42b4
+    log: |
+         f477a538c14d07f8c45e554c8c5208d588514e98 sh: dma: fix kconfig dependency for G2_DMA
+         7fb0a1a5e56779c427b409d6e53889d46519755e arch/sh: hyphenate Non-Uniform in Kconfig prompt
+         5c5dc5f8dccbafaacc8c97bbe7762986bdda6f63 sh: intc: Convert to DEFINE_SHOW_ATTRIBUTE
+         a1153636e904faf2b30fae3fb6ee3f4f4d0175c8 sh: mm: Convert to DEFINE_SHOW_ATTRIBUTE
+         b7aaf16d10bd9f1fbc5beefb9496e029fd1424ba sh: remove CONFIG_IDE from most defconfig
+         19170492735be935747b0545b7eed8bb40cc1209 sh: Remove unused HAVE_COPY_THREAD_TLS macro
+         542baf5108e052684c3abdeea57861f12f89a6b9 sh: Drop ARCH_NR_GPIOS definition
+         7a202ec74c151e30edc1d17e3209fe6d6fe50eee arch: sh: remove duplicate include
+         a118584e7e60fa72ee441055b33b41c3354dba7e sh: mach-sh03: remove duplicate include
+         b89bc060b53e7054e5c8ca11feea4bc884d83611 sh/intc: Restore devm_ioremap() alignment
+         228a65d4544af5086bd167dcc5a0cb4fae2c42b4 Merge tag 'sh-for-5.11' of git://git.libc.org/linux-sh
          
