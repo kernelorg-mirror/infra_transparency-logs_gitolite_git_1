@@ -1,83 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============6227857324957070322=="
+Content-Type: multipart/mixed; boundary="===============5989365954224708082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 24 Jan 2021 18:34:23 -0000
-Message-Id: <161151326320.11918.10935607145173670646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
+Date: Sun, 24 Jan 2021 18:38:59 -0000
+Message-Id: <161151353919.14612.7788441226453929447@gitolite.kernel.org>
 
---===============6227857324957070322==
+--===============5989365954224708082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/andrea/aa
+user: andrea
 changes:
   - ref: refs/heads/master
-    old: e1ae4b0be15891faf46d390e9f3dc9bd71a8cae1
-    new: e68061375f792af245fefbc13e3e078fa92d3539
-    log: revlist-e1ae4b0be158-e68061375f79.txt
+    old: ec464719b40ac13a5b9947e701ae4a3a841f573f
+    new: 740eae35cbcfb7a0eff1eace150f57f2ff1bbeb3
+    log: revlist-ec464719b40a-740eae35cbcf.txt
 
---===============6227857324957070322==
+--===============5989365954224708082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1ae4b0be158-e68061375f79.txt
+Content-Disposition: attachment; filename=revlist-ec464719b40a-740eae35cbcf.txt
 
-06fde695ee76429634c1e8c8c1154035aa61191e genirq/msi: Initialize msi_alloc_info before calling msi_domain_prepare_irqs()
-e90f55e0196a66f8e9e445f7f33f876dd889be9a irqchip/irq-sl28cpld: Convert comma to semicolon
-d7f39c40ebb6986e7371510d1c20a4efee4a7f0d irqchip/bcm2836: Fix IPI acknowledgement after conversion to handle_percpu_devid_irq
-e1dc20995cb9fa04b46e8f37113a7203c906d2bf driver core: platform: Add extra error check in devm_platform_get_irqs_affinity()
-4cc99d03757df10a4064ba28bf6021406b04d6a9 irqchip/loongson-liointc: Fix build warnings
-b8e594fa20d2e33d40c7a8c7c106549a35c38972 irqchip/pruss: Simplify the TI_PRUSS_INTC Kconfig
-599b3063adf4bf041a87a69244ee36aded0d878f irqchip/mips-cpu: Set IPI domain parent chip
-adc5d8757288a3a5628436d16e78fb696d802e39 signal: Add missing __user annotation to copy_siginfo_from_user_any
-96e1e9846c6691f90009ae4d8e486e0ce5c628a7 Kernel: fork.c: Fix coding style: Do not use {} around single-line statements
-cb5021ca622fe83923e0789f99fe7227cbcd3f68 kthread: remove comments about old _do_fork() helper
-7024f60d655272bd2ca1d3a4c9e0a63319b1eea1 x86/sev-es: Handle string port IO to kernel memory properly
-76e2fc63ca40977af893b724b00cc2f8e9ce47a4 x86/cpu/amd: Set __max_die_per_package on AMD
-9caa7ff509add50959a793b811cc7c9339e281cd x86/entry: Fix noinstr fail
-a1d5c98aac33a5a0004ecf88905dcc261c52f988 x86/sev: Fix nonistr violation
-0afda3a888dccf12557b41ef42eee942327d122b locking/lockdep: Cure noinstr fail
-77ca93a6b1223e210e58e1000c09d8d420403c94 locking/lockdep: Avoid noinstr warning for DEBUG_LOCKDEP
-737495361d4469477ffe45d51e6fc56f44f3cc6a x86/mce: Remove explicit/superfluous tracing
-66a425011c61e71560c234492d204e83cfb73d1d x86: __always_inline __{rd,wr}msr()
-aba428a0c612bb259891307da12e22efd0fab14c timekeeping: Remove unused get_seconds()
-e3fab2f3de081e98c50b7b4ace1b040161d95310 ntp: Fix RTC synchronization on 32-bit platforms
-4bae052dde14c5538eca39592777b1d1987234ba Merge tag 'irqchip-fixes-5.11-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
-ce09ccc50208c04a1b03abfd530b5d6314258fd0 genirq: Export irq_check_status_bit()
-a2e38dffcd93541914aba52b30c6a52acca35201 objtool: Don't add empty symbols to the rbtree
-1eb8f690bcb565a6600f8b6dcc78f7b239ceba17 x86/topology: Make __max_die_per_package available unconditionally
-2be449fcf38ff7e44cf76a2bba1376e923637eb1 fs/cifs: Assign boolean values to a bool variable
-16a78851e1f52eaed7034b75707d3662b4b13b77 fs/cifs: Simplify bool comparison.
-92a5e1fdb286851d5bd0eb966b8d075be27cf5ee selftests/powerpc: Fix exit status of pkey tests
-9c7d9017a49fb8516c13b7bff59b7da2abed23e1 x86: PM: Register syscore_ops for scale invariance
-dd3a44c06f7b4f14e90065bf05d62c255b20005f selftests/powerpc: Only test lwm/stmw on big endian
-08685be7761d69914f08c3d6211c543a385a5b9c powerpc/64s: fix scv entry fallback flush vs interrupt
-e45122893a9870813f9bd7b4add4f613e6f29008 x86/fpu: Add kernel_fpu_begin_mask() to selectively initialize state
-67de8dca50c027ca0fa3b62a488ee5035036a0da x86/mmx: Use KFPU_387 for MMX string operations
-655cf86548a3938538642a6df27dd359e13c86bd objtool: Don't fail the kernel build on fatal errors
-1d489151e9f9d1647110277ff77282fe4d96d09b objtool: Don't fail on missing symbol table
-6e1239c13953f3c2a76e70031f74ddca9ae57cd3 x86/cpu: Add another Alder Lake CPU to the Intel family
-36c6e17bf16922935a5a0dd073d5b032d34aa73d sched/core: Print out straggler tasks in sched_cpu_dying()
-547a77d02f8cfb345631ce23b5b548d27afa0fc4 workqueue: Use cpu_possible_mask instead of cpu_active_mask to break affinity
-22f667c97aadbf481e2cae2d6feabdf431e27b31 sched: Don't run cpu-online with balance_push() enabled
-ac687e6e8c26181a33270efd1a2e2241377924b0 kthread: Extract KTHREAD_IS_PER_CPU
-5c25b5ff89f004c30b04759dc34ace8585a4085f workqueue: Tag bound workers with KTHREAD_IS_PER_CPU
-640f17c82460e9724fd256f0a1f5d99e7ff0bda4 workqueue: Restrict affinity change to rescuer
-975707f227b07a8212060f94447171d15d7a681b sched: Prepare to use balance_push in ttwu()
-5ba2ffba13a1e24e7b153683e97300f9cc6f605a sched: Fix CPU hotplug / tighten is_per_cpu_kthread()
-741ba80f6f9a4702089c122129f22df9774b3e64 sched: Relax the set_cpus_allowed_ptr() semantics
-214a5ea081e77346e4963dd6d20c5539ff8b6ae6 cifs: do not fail __smb_send_rqst if non-fatal signals are pending
-4dcd3bcc2063ad7bda2e84bd417f2f536e4c14ef Merge tag '5.11-rc4-smb3' of git://git.samba.org/sfrench/cifs-2.6
-c509ce2378e196758095c292f7a1df826d971796 Merge tag 'for-linus-2021-01-24' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
-14c50a66183856672d822f25dbb73ad26d1e8f11 Merge tag 'powerpc-5.11-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-17b6c49da37f5d57d76bf352d32b0ac498e7c133 Merge tag 'x86_urgent_for_v5.11_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-025929f46813c572d4ef0b379c704bf664e8a7a3 Merge tag 'timers_urgent_for_v5.11_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-24c56ee06c4d4b410ac1d248869c14e391d66b8c Merge tag 'sched_urgent_for_v5.11_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-32d43270ca0bbb6240369a3cdecc3f3d43acbd29 Merge tag 'objtool_urgent_for_v5.11_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e68061375f792af245fefbc13e3e078fa92d3539 Merge tag 'irq_urgent_for_v5.11_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+15e379eb64eb36b7770dc57e5d57f64dca7f4d2e mm, compaction: move high_pfn to the for loop scope.
+251399e3af17e3bf0d7b659939986f19e59610cc Revert "mm: don't play games with pinned pages in clear_page_refs"
+04306ddbde8b10a9e427dd1b7e46c18dc267fa85 Revert "mm: fix clear_refs_write locking"
+9409223bb6a008c7bec3a27b46a561d5a96eefd1 Revert "mm: thp: make the THP mapcount atomic against __split_huge_pmd_locked()"
+5a5d7c2a0f1066b41601c114f678b47b97d0bc89 Revert "mm/ksm: Remove reuse_ksm_page()"
+23b863ea5f902cc5e3b887773d22efc674c626a8 Revert "mm: fix misplaced unlock_page in do_wp_page()"
+b05a3b5e40cc4303d88afdfca6e1f079f1a86af4 mm: restore full accuracy in COW page reuse
+e4e2b8a9c3a37028b6f9a7f48707f5568064f4a9 mm: thp: make the THP mapcount atomic against __split_huge_pmd_locked()
+a71b059792d0358a59c13d08d837499f8b9734ae mm: thp: make the THP mapcount atomic against THP rmap add
+f910721ac0248fdac5e9181151776694827634f6 mm: COW: skip the page lock in the COW copy path
+666db2181aaa2bebcfaccc338dc964661270c37a mm: thp: introduce page_mapcount_seq irqsafe version
+46a22c80bc4ec52369c0dcba7d97db657fa302f0 mm: thp: introduce page_trans_huge irqsafe methods
+8948bb8bf7d00f30da2c23aa01c99bee81e49797 mm: gup: FOLL_UNSHARE: copy-on-read fault
+51e9125e4907f0acce0a6923d1014851538d6508 mm: gup: FOLL_UNSHARE: optimize mmu notifier
+2768fa201ef3d142b607bf9cb7b94c9bfc4f567b mm: gup: FOLL_UNSHARE|FOLL_LONGTERM: introduce FAULT_FLAG_UNSHARE_LT
+92b394c64006bb98cf2253d9f049d4541260c44f mm: gup: FOLL_UNSHARE|FOLL_LONGTERM: enable COR on PageKsm
+e4fb6e4f6ea434b6511d2706ed3c3c9d9ead2bd2 mm: gup: FOLL_UNSHARE|FOLL_LONGTERM: enable COR on zeropage and MAP_PRIVATE pagecache
+5ac5a44720b27a0ee075dcecd05ce98e8a2417ee mm: thp: page_mapcount_lock: optimize the migrate path
+f0abacf5aaaa5d429b543e95c170ba5acd94f54f mm: thp: page_mapcount_lock: optimize the lock_page_memcg
+0fb7c6784987e2e9ca5eda12a46b6c92322c3a74 mm: thp: optimize !total_mapcount() with total_mapcount_is_zero
+fc2da9d6196af98f3bfc9991a003f9b5e766cde5 mm: thp: optimize total_mapcount() with head_compound_mapcount
+b44cf9ed1a789ef5a7f5aeedd22248d039d77be2 mm: thp: use total_mapcount_is_zero for page_mapped
+7f90a8924ffa1e997a1d2331f7472726f3bbfc1c mm: proc: Invalidate TLB after clearing soft-dirty page state
+7a8e8b37e22ba4c870689dfa36b8c7f4ccad93b4 x86: restore the write back cache of reserved RAM in iounmap()
+e0dfec9c7d175eed4586394efc4c47470adf0ccb x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
+e448e8989a76b94204a9d9e7883819c219616ddb x86: deduplicate the spectre_v2_user documentation
+e83fa92d9e0f399781c0783f9249b10015bbca6b x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
+270c7d7e589cc5266a8032e0f82f7dcabd39e805 x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
+1a06f66349e2b9c3b978dc25ec86a3b70778f0b9 mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
+46e02ba19e5118508009cb05588c1f04f03bdb18 coredump: use READ_ONCE to read mm->flags
+3348a94045d00e3660afe2d8c20ac7d1b483323b sched/fair: skip select_idle_sibling() in presence of sync wakeups
+e62682d9ed4016bd5da1ecb2487ce4fa59d0c475 mm: refactor initialization of stuct page for holes in memory layout
+01d588c9acecdabb374d383f95673185d7c8e409 mm: initialize struct pages in reserved regions outside of the zone ranges
+8d1f9c70dcf62c90267be40eb49ee02a3510829f userfaultfd: UFFDIO_REMAP: rmap preparation
+16c0ab766c8f1e94eacebacc4c596e87803870ba userfaultfd: UFFDIO_REMAP uABI
+740eae35cbcfb7a0eff1eace150f57f2ff1bbeb3 Merge remote-tracking branch 'gitlab/main' into main
 
---===============6227857324957070322==--
+--===============5989365954224708082==--
