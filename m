@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8699414714042088572=="
+Content-Type: multipart/mixed; boundary="===============0163021863960458617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Sun, 24 Jan 2021 20:00:20 -0000
-Message-Id: <161151842007.3507.2650838723819383514@gitolite.kernel.org>
+Date: Sun, 24 Jan 2021 20:03:08 -0000
+Message-Id: <161151858818.4360.9072861439412271547@gitolite.kernel.org>
 
---===============8699414714042088572==
+--===============0163021863960458617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/master
-    old: 740eae35cbcfb7a0eff1eace150f57f2ff1bbeb3
-    new: c6699e6bf47281ad892d36c8e1d4ddff3b7462b2
-    log: revlist-740eae35cbcf-c6699e6bf472.txt
+  - ref: refs/heads/mapcount_deshare
+    old: 06614efb4270c2c9162d11a73ec3e844ad6e1300
+    new: 2530dfb9abde8f2fb0f71e1e00ddca50e37ee4a4
+    log: revlist-06614efb4270-2530dfb9abde.txt
 
---===============8699414714042088572==
+--===============0163021863960458617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-740eae35cbcf-c6699e6bf472.txt
+Content-Disposition: attachment; filename=revlist-06614efb4270-2530dfb9abde.txt
 
 06fde695ee76429634c1e8c8c1154035aa61191e genirq/msi: Initialize msi_alloc_info before calling msi_domain_prepare_irqs()
 e90f55e0196a66f8e9e445f7f33f876dd889be9a irqchip/irq-sl28cpld: Convert comma to semicolon
@@ -234,41 +234,27 @@ e68061375f792af245fefbc13e3e078fa92d3539 Merge tag 'irq_urgent_for_v5.11_rc5' of
 832bceefa08ef830388c175911fe17e6ef0125b9 Merge tag 'staging-5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 443d11297b5c00b9ce6ba6e67c766296c96f8945 Merge tag 'driver-core-5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 fdbc80bdc4365078a0f7d65631171cb80e3ffd6e Merge tag 'char-misc-5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-d25da201042d8812d994da615023e4272928d47b mm, compaction: move high_pfn to the for loop scope.
-336c118adb84483d45cf36e5c8f9a011d8aae79d Revert "mm: don't play games with pinned pages in clear_page_refs"
-5de6b8f50f4a51a4a3f026d15e305a579ee26019 Revert "mm: fix clear_refs_write locking"
-2b03655bb199387ffa00c75186873273a87fb946 Revert "mm: thp: make the THP mapcount atomic against __split_huge_pmd_locked()"
-5e0832720601db8b21a6fe51a0c10f72cab7861e Revert "mm/ksm: Remove reuse_ksm_page()"
-3bba50cad359fa6e2891ccfb0633e62f210e8bf8 Revert "mm: fix misplaced unlock_page in do_wp_page()"
-f7b19e7e246a9773dd0b9791787ba6f43691238d mm: restore full accuracy in COW page reuse
-996686036a82cfefcbbe56db4f97ae301c6f4e07 mm: thp: make the THP mapcount atomic against __split_huge_pmd_locked()
-f7efd2bd0345077e3e3660e376cadf45668e7d5f mm: thp: make the THP mapcount atomic against THP rmap add
-afd53e690fc2f37ea2b0f463ff3fe2ee18d7e874 mm: COW: skip the page lock in the COW copy path
-9ad7f9c7bd7bec2666244b44354ab95161777cbb mm: thp: introduce page_mapcount_seq irqsafe version
-24530cd040349ff0dd31b01c23b25c004cc72df5 mm: thp: introduce page_trans_huge irqsafe methods
-08e5a8b2945906e4acda3401538e478e4a30d57f mm: gup: FOLL_UNSHARE: copy-on-read fault
-8c684460f9550230bcdbaaa35dcfbd3ed9dd6b65 mm: gup: FOLL_UNSHARE: optimize mmu notifier
-5319bd78fa4d385d825a46a29568401e9bca73b0 mm: gup: FOLL_UNSHARE|FOLL_LONGTERM: introduce FAULT_FLAG_UNSHARE_LT
-abe454af69ad733a7a68a96acb830da88efd6be4 mm: gup: FOLL_UNSHARE|FOLL_LONGTERM: enable COR on PageKsm
-fe55c253d4d53e5d1075d685ec42da51fa757a11 mm: gup: FOLL_UNSHARE|FOLL_LONGTERM: enable COR on zeropage and MAP_PRIVATE pagecache
-083549dcaeb3691bb75b533089bb3eb5bc4f5914 mm: thp: page_mapcount_lock: optimize the migrate path
-5f81628d884d9f60d1e38e57630cd8c1cc0f09a7 mm: thp: page_mapcount_lock: optimize the lock_page_memcg
-b57ccae867303789cccc78be669ded5c17526541 mm: thp: optimize !total_mapcount() with total_mapcount_is_zero
-6b94eb613db7adf2609380aaf0558ee95b730c9c mm: thp: optimize total_mapcount() with head_compound_mapcount
-c7550bd27b9d0858e2556b92521b4b99c1ab8bb1 mm: thp: use total_mapcount_is_zero for page_mapped
-61e79c6a68d296978b262cbca61ec74fc00d6f79 mm: proc: Invalidate TLB after clearing soft-dirty page state
-02bcd029847fc2e8da2886586021ef3f30014750 x86: restore the write back cache of reserved RAM in iounmap()
-38e64265e6a1d64ecd311b6efb00ce75b8862498 x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
-6851e92ae086c4759f6e840f2b444519f88bf949 x86: deduplicate the spectre_v2_user documentation
-a40e6755d3e61d6e528d2cf4e3e2dbdd082092ee x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
-8f9e0df4062db60c85884c248aadbb77ac6fcb89 x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
-101b0f0756b749b6effc31660098408023a9269f mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
-2885f82f52480217e1aefb879886a579462d0cd7 coredump: use READ_ONCE to read mm->flags
-e2314d575967c7c3cb5b2c7315527a873c9f835f sched/fair: skip select_idle_sibling() in presence of sync wakeups
-8932cd41e0e5cbb6a696ba74d261471b091732e0 mm: refactor initialization of stuct page for holes in memory layout
-3d02e623ef1f92e42f951ff803c574f66c704090 mm: initialize struct pages in reserved regions outside of the zone ranges
-e0dd8529f4146c3e541c5b97c7db654b64604425 userfaultfd: UFFDIO_REMAP: rmap preparation
-ccde956cc46e1551a04d29c53ec1e89760694850 userfaultfd: UFFDIO_REMAP uABI
-c6699e6bf47281ad892d36c8e1d4ddff3b7462b2 Merge remote-tracking branch 'gitlab/main' into main
+c998ab38e4cc0088179392835aba49e6ec2aa263 Revert "mm: don't play games with pinned pages in clear_page_refs"
+66c1e0f13a7353bbfb852248cf179c329c82e454 Revert "mm: fix clear_refs_write locking"
+8b614a9119dc7e157dd7cf961461e5c5c74b479a Revert "mm: thp: make the THP mapcount atomic against __split_huge_pmd_locked()"
+c465d7e5f81ad48c4b56a01045d350ae837dd727 Revert "mm/ksm: Remove reuse_ksm_page()"
+d662379db6bb453e7835f1a495171e95883178dd Revert "mm: fix misplaced unlock_page in do_wp_page()"
+dec6b3a2832d92c417c8e30d489f974663beff45 mm: restore full accuracy in COW page reuse
+dcfbf809bc87d4e49784ee904e9c5e8a27170561 mm: thp: make the THP mapcount atomic against __split_huge_pmd_locked()
+39a378165586ff04a504ab7eb3b1f91865f678e5 mm: thp: make the THP mapcount atomic against THP rmap add
+d48efadf42874016f95ee49787cc99d0e888cfdb mm: COW: skip the page lock in the COW copy path
+75775f03c39d57e65ebf87a4795f98c0ddbf8697 mm: thp: introduce page_mapcount_seq irqsafe version
+303fd0c4fd19b13e620f9d8c461595ddcf19b02b mm: thp: introduce page_trans_huge irqsafe methods
+b60ac53954214034de9ec0015e7564c37eccf309 mm: gup: FOLL_UNSHARE: copy-on-read fault
+2be9bac293e3b35ea34ea0bd6cc6ac21ee8e34ed mm: gup: FOLL_UNSHARE: optimize mmu notifier
+24af59a7dd9095bd2d1b42fc965d653228d8cfd7 mm: gup: FOLL_UNSHARE|FOLL_LONGTERM: introduce FAULT_FLAG_UNSHARE_LT
+c079fa1d126366ed3666a6a14cf2d7b2d3f132ff mm: gup: FOLL_UNSHARE|FOLL_LONGTERM: enable COR on PageKsm
+958348bbd4deb1233fbd8d9c1930f99518b849a5 mm: gup: FOLL_UNSHARE|FOLL_LONGTERM: enable COR on zeropage and MAP_PRIVATE pagecache
+d3bbd1555fdccc9abb4302a5e6e7e1111be80c4b mm: thp: page_mapcount_lock: optimize the migrate path
+e26e28ab9b0dc4daecf633e2f45f40ed5e704369 mm: thp: page_mapcount_lock: optimize the lock_page_memcg
+ad1fc8160ee7259037b5d9f1c73366620a524159 mm: thp: optimize !total_mapcount() with total_mapcount_is_zero
+4458853c05382dd56d560a1272a313be4a1b12fa mm: thp: optimize total_mapcount() with head_compound_mapcount
+72fa6e88a192ac9b0f9fa97e6b19c6b244d391f4 mm: thp: use total_mapcount_is_zero for page_mapped
+2530dfb9abde8f2fb0f71e1e00ddca50e37ee4a4 Merge remote-tracking branch 'korg/mapcount_deshare' into HEAD
 
---===============8699414714042088572==--
+--===============0163021863960458617==--
