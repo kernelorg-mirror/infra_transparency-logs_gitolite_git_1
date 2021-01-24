@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 24 Jan 2021 05:17:51 -0000
-Message-Id: <161146547148.23571.10028433825902893110@gitolite.kernel.org>
+Date: Sun, 24 Jan 2021 05:28:28 -0000
+Message-Id: <161146610805.29132.6890244953555370474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: acb4151f5d0d68ede7531032846564d9fe1d0bbf
-    new: b80b5dbf118fbb97d67e9e41e68941efeb0457c6
+    old: b80b5dbf118fbb97d67e9e41e68941efeb0457c6
+    new: a61e4b60761fa7fa2cfde6682760763537ce5549
     log: |
-         b80b5dbf118fbb97d67e9e41e68941efeb0457c6 net: mhi: Set wwan device type
+         24dfc6eb39b26fc3a5a17a606e868b74f6202ee4 net: dsa: hellcreek: Add TAPRIO offloading support
+         a61e4b60761fa7fa2cfde6682760763537ce5549 Merge branch 'net-dsa-hellcreek-add-taprio-offloading'
          
