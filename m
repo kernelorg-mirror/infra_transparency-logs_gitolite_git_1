@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sun, 24 Jan 2021 02:34:38 -0000
-Message-Id: <161145567836.13843.14473763503207143735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/morgan/libcap
+Date: Sun, 24 Jan 2021 02:35:51 -0000
+Message-Id: <161145575164.15608.14176682839244912302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
+repo: pub/scm/linux/kernel/git/morgan/libcap
 user: morgan
 changes:
+  - ref: refs/heads/master
+    old: cdd905f2f36c1df60344e45b2033729fc3dbe526
+    new: 28f5bc71416b2e27e470327995a202d04e917e3f
+    log: |
+         28f5bc71416b2e27e470327995a202d04e917e3f Up the release version to 2.47
+         
   - ref: refs/tags/cap/v0.2.47
     old: 0000000000000000000000000000000000000000
     new: 025d813dcdfa51fc80f44a2871b228f38444cef2
