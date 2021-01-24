@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 24 Jan 2021 15:22:12 -0000
-Message-Id: <161150173260.21883.16222985097137410157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Sun, 24 Jan 2021 15:34:48 -0000
+Message-Id: <161150248836.28132.9086086648087920011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: eguan
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: 0e195a4ca997436f4237cb6d21edefb6db1f93d7
-    new: 44a1fbf786a89146e1166b90c7c98b260eddaccb
+  - ref: refs/heads/habanalabs-fixes
+    old: 2dc4a6d79168e7e426e8ddf8e7219c9ffd13b2b1
+    new: 31b081066e9c8f4a931a3d20dc0c6ca63c595c44
     log: |
-         3ba859629de1b8e3645b06424c095d69c5b125d7 xfs: test mkfs.xfs config files
-         e2072f840804bbf336285dd3eb9c6c0ebe85287f ext4/046: skip test when ext4 doesn't support bs < ps with dioread_nolock
-         44a1fbf786a89146e1166b90c7c98b260eddaccb generic: test for lazytime timestamp updates
+         b11f623cc8e722b84d833d02b9f67f84bb2d604f Merge tag 'misc-habanalabs-fixes-2021-01-21' of https://git.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-linus
+         31b081066e9c8f4a931a3d20dc0c6ca63c595c44 misc: rtsx: init value of aspm_enabled
          
