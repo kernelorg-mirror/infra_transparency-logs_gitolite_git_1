@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-Date: Mon, 25 Jan 2021 14:44:55 -0000
-Message-Id: <161158589574.31397.14299380627355411094@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4753569877006877658=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 25 Jan 2021 14:59:16 -0000
+Message-Id: <161158675696.7236.16418320283338318473@gitolite.kernel.org>
+
+--===============4753569877006877658==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 07ceefa3012f43512e93931980bd3bdf5af96344
-    new: 4832bb371c4175ffb506a96accbb08ef2b2466e7
+    old: 563d4464016e0392322e6c1a22b8396eed909d2a
+    new: 73a3a9852e94c0683a27219df2287f990503d491
     log: |
-         d8cbaa3de403af6a9cf56598171d2c130ef56f0d rtlwifi: rtl_pci: fix bool comparison in expressions
-         f7c76283fc5f532027404a346c69ebd111c92fdc rtlwifi: rtl8192c-common: fix bool comparison in expressions
-         64338f0dfd6a3be20453789c6a4b2c7246e2aef8 rtlwifi: rtl8188ee: fix bool comparison in expressions
-         33ae4623d544f1b76e0f656fa49e431b4503f23b rtlwifi: rtl8192se: fix bool comparison in expressions
-         9264cabc12040dacc50f517e872d26d6e3a8a531 rtlwifi: rtl8821ae: fix bool comparison in expressions
-         6598f32d9dfe2c5324c9dfd7046929104d390c74 rtw88: 8723de: adjust the LTR setting
-         2a9269b1cdc35e7c341a7e0cf310c4c65c7faeec mt7601u: use ieee80211_rx_list to pass frames to the network stack as a batch
-         cb88d01b67383a095e3f7caeb4cdade5a6cf0417 wlcore: Fix command execute failure 19 for wl12xx
-         f43fcaef87a3ec6e234a20c8606342f33a8bd61d mt7601u: process tx URBs with status EPROTO properly
-         4832bb371c4175ffb506a96accbb08ef2b2466e7 iwl4965: do not process non-QOS frames on txq->sched_retry path
+         73a3a9852e94c0683a27219df2287f990503d491 5.10-stable patches
          
+
+--===============4753569877006877658==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611586756 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1611586753-07511a677ab3ebe600fc6c434c5176fe3cb7c6c9
+
+563d4464016e0392322e6c1a22b8396eed909d2a 73a3a9852e94c0683a27219df2287f990503d491 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAO3MQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+40AP/2F0ycwZ57U/U94XmIhO
+MmRUugfOQaE5r9Hrktfy8BldOjMpX7s24N6mc05XPOKDgatGHL2CzewvH4hZ5GFP
+xepslMHxbwFTDTfEc2ySzSFSpPnf2s34xvqGLpAZdk7tNuUQrThyqQ7TA9ntFbIR
+4QAQw0zNTN1nCiGDKTX0dODcN3KgK5L7v5gGq3l6ZfSvRV8ssVXA8/25R/UH87x6
+leNF6BuDMBd/SltQH8earb1IEvF4rav0pR9REzSXFyprqcWEuCKMHejH71/lelH5
+3oGeGA2VEPIQJDBUyYc6CUfDN7uTYm89mMAraVJEBPxJT8R1gxK2GIbF57k50XZe
+NTZNqhUeim/mrQ6vF2W1d81Gqlo65sb4jmT0rnt4DAmzulK3aMzmQm1gFBRiOjLz
+09ZvDT1dMK+xTqYND9K7YGaRp7iNtujgjnssyosf3m3tgnAIKOPJ9b4/em6pyoby
+fKUk/F2aPgqLiW73zCEh+Ar+ucCdlu7KRF0crSEFc/MillnTTsF8HcppugeHFoKq
+iJsemJZGLEDXn1Ucnb2wQct0IYPic1c25sUKauETyq0PLu04gC836jYaE7lS8CEj
+dDsQeo60mIvlOb3EyekIG8WfYGnuyvtEGxn6mLZKlHh8rVHLrvGW78VHkJcnhekx
+BNMgvoVW+cYSplasYvRk03Av
+=2WqX
+-----END PGP SIGNATURE-----
+
+--===============4753569877006877658==--
