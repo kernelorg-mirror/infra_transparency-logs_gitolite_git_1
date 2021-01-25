@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Mon, 25 Jan 2021 21:53:32 -0000
-Message-Id: <161161161226.17098.15210585188734189382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Mon, 25 Jan 2021 21:58:48 -0000
+Message-Id: <161161192806.20043.8567202188384997810@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/testing4
     old: 0000000000000000000000000000000000000000
-    new: cc0db4eb59e2910ca4127edc446005f1e3e202ee
+    new: ca1ff1cfaade765b28fc67789d3860266755cfd2
