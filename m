@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0333309980357649701=="
+Content-Type: multipart/mixed; boundary="===============3962016301176514405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 25 Jan 2021 10:15:40 -0000
-Message-Id: <161156974001.12307.15183892327864092984@gitolite.kernel.org>
+Date: Mon, 25 Jan 2021 10:16:00 -0000
+Message-Id: <161156976014.12483.2155743470510668111@gitolite.kernel.org>
 
---===============0333309980357649701==
+--===============3962016301176514405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
+  - ref: refs/heads/char-misc-linus
+    old: 31b081066e9c8f4a931a3d20dc0c6ca63c595c44
     new: 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04
-    log: revlist-7c53f6b671f4-6ee1d745b7c9.txt
+    log: revlist-31b081066e9c-6ee1d745b7c9.txt
 
---===============0333309980357649701==
+--===============3962016301176514405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611569731 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611569751 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1611569731-e6d229398ec1da2405ba04aeceb5933e57758ad9
+nonce 1611569750-398f372f54cae33d4b0235f19c62d586a3127c60
 
-7c53f6b671f4aba70ff15e1b05148b10d58c2837 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 refs/heads/main
+31b081066e9c8f4a931a3d20dc0c6ca63c595c44 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAOmkMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JqkP/2QWWRaopNpZUJznKXU6
-T3i94rkfxQDH9WaaSkmhUTdRHlsGQvDLp82GZ01rf+0Tkq6QUgBI04akdRL/bunE
-A7KAzvaI+mmUNTi41UBIS1+YtGH+JE8+dk5lmgGeWFcbeEs4VkJmBsrfLHuvFuSb
-oHv9ZwvBcevH8NuKr3TggzUi+gDJypZhE+BWdfd05ooB5n5BZrDgJxuImNeUc5sP
-GoRAm1xH76tPxOdFeGcBsMtKH9QdzBj5hYqf/fEifF3aM8xvXJ2EVFSkUrxFJ8qG
-mETEQHUOX58g+YUWMd1KfiTjljo/FxRyvBuEut2vEf0b1+jQZtyYtixRzI2pRHg9
-1SmJeyryiZYbCvzj5xgj8IRCcG6qjD6q0PU+VA98afNrun+I3Hz+Z+jXCrjDbloC
-2jufbxJPcHI8bsqn/tvKl05lN1Yc5De5K6FHZ7TK+5diefM28yZ3UsUbmw9vWj+p
-Cee2s4mNGx07IMaCFl/C8VglqYc90cYrucq9seW6YIY9Ji30uuT1ak1Zqg3GlFjS
-9gp9qv7LUqgjefszjGVgu8sarP6JbKVbudby2xFuWBVZ8qIm+04a4sooxBx7RC5c
-Vks5ITUz0YCE5+YTTTxnL/XzxlUmlGWuwr3yvo1EkHIOFzaW70TL3NBJkNPUqny5
-RN4dhXor30nMXEWY8axbKWu5
-=Hd/1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAOmlcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MAcP/AzHLkwNrdIbFxDayBed
+OKBfJtulU7oHXsWXl7gcwubu13yLsvAvf4bxmxjfPnLADWrNCbpO/otuzHhK9lMO
+5PTFT2OE5SVUHC1aT835s4m8slDguuTL56gxF8w32lSlDrcpOQEwtpWGrSFGcqDk
+NcIVOW7axiu6Go+A15+8yPmDqNp3RzFkBmHiVaaoTOaeqzHgvlnmQnZjMbdDk7uw
+rv/H6oGhiYP3GVh03zX44DsinYzyr0SsAFD+1xuw2yIDNynI3gCgI+27Y+ViX6PT
+0hjIiMsqCkQrtIbajnUFziUAaUYMGgoK78nFqVo3BXNeNn90JkG/cZGpB+ZwFLc4
+8b8TpG3miteqcR5zaZlbiTqinQEr1aUK7AgBLg3akf3UHV62nOcHCUDpaXkit1DK
+3WYYx240m9R2ukA40X70qaxSdQkJm5QYTOyWm9wJXvoD+Ft8XExvKUBFMYSdyECk
+rieSMZz5x+cyWoSI24igtgptTdHG7B5DOaG86lKukDEOSr7YTQnUoEla+rrjPxGY
+LxLSE83LbCnU7q0Qw8MjD9rgDRht7qQoOpA5Cm5SN6cN7dHNBkGRkkPSR1AKcnaC
+CTHcv25HvC4SGa8K1qn3LjQ9UiPC8L/HbNvjw6VLAL6WxrhvvUYWbWTahRUDt/b6
+vZXbknBMCwbzDW8jFnKV7EIm
+=mYuS
 -----END PGP SIGNATURE-----
 
---===============0333309980357649701==
+--===============3962016301176514405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c53f6b671f4-6ee1d745b7c9.txt
+Content-Disposition: attachment; filename=revlist-31b081066e9c-6ee1d745b7c9.txt
 
 f373a811fd9a69fc8bafb9bcb41d2cfa36c62665 ASoC: Intel: fix error code cnl_set_dsp_D0()
 fe6ce6c394fb1ef1d8a6384c5180e70893157f22 MAINTAINERS: Update email address for TI ASoC and twl4030 codec drivers
@@ -100,14 +100,11 @@ a523e1538fdd5f00ea3289cc0b3c6c1785b89814 ASoC: amd: Replacing MSI with Legacy IR
 54ca955b5a4024e2ce0f206b03adb7109bc4da26 serial: mvebu-uart: fix tx lost characters at power off
 4d4f9c1a17a3480f8fe523673f7232b254d724b7 MIPS: boot: Fix unaligned access with CONFIG_MIPS_RAW_APPENDED_DTB
 698222457465ce343443be81c5512edda86e5914 MIPS: Fix malformed NT_FILE and NT_SIGINFO in 32bit coredumps
-ef019c5daf032dce0b95ed4d45bfec93c4fbcb9f PHY: Ingenic: fix unconditional build of phy-ingenic-usb
 92cbdb923c17544684c2dd3be9f8636617898a44 usb: cdns3: imx: fix writing read-only memory issue
 2ef02b846ee2526249a562a66d6dcb25fcbca9d8 usb: cdns3: imx: fix can't create core device the second time issue
 d1357119157c4662d43143885f3691f9a766369a usb: cdns3: imx: improve driver .remove API
 65403ff98ebb86caf498e020d572819bb61860ad MAINTAINERS: Update address for Cadence USB3 driver
 2e202ad873365513c6ad72e29a531071dffa498a gpiolib: cdev: fix frame size warning in gpio_ioctl()
-764257d9069a9c19758b626cc1ba4ae079335d9e phy: cpcap-usb: Fix warning for missing regulator_disable
-d092bd9110494de3372722b317510b3692f1b2fe phy: mediatek: allow compile-testing the dsi phy
 4883a60c17eda6bf52d1c817ee7ead65b4a02da2 mtd: rawnand: gpmi: fix dst bit offset when extracting raw payload
 c3d6eb6e54373f297313b65c1f2319d36914d579 HID: multitouch: Enable multi-input for Synaptics pointstick/touchpad device
 9a85c09a3f507b925d75cb0c7c8f364467038052 pinctrl: ingenic: Fix JZ4760 support
@@ -242,7 +239,6 @@ bb83d5fb550bb7db75b29e6342417fda2bbb691c drm/i915/backlight: fix CPU mode backli
 adc5d8757288a3a5628436d16e78fb696d802e39 signal: Add missing __user annotation to copy_siginfo_from_user_any
 96e1e9846c6691f90009ae4d8e486e0ce5c628a7 Kernel: fork.c: Fix coding style: Do not use {} around single-line statements
 cb5021ca622fe83923e0789f99fe7227cbcd3f68 kthread: remove comments about old _do_fork() helper
-f970d1d01af8606233f47901c1cf39f3ae21fd74 Merge tag 'phy-fixes-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into char-misc-next
 d434ab6db524ab1efd0afad4ffa1ee65ca6ac097 io_uring: drop mm and files after task_work_run
 621fadc22365f3cf307bcd9048e3372e9ee9cdcc io_uring: don't take files/mm for a dead task
 ca1219c0a7432272324660fc9f61a9940f90c50b mmc: sdhci-of-dwcmshc: fix rpmb access
@@ -271,9 +267,6 @@ e56b3d94d939f52d46209b9e1b6700c5bfff3123 rndis_host: set proper input size for O
 2225a8dda263edc35a0e8b858fe2945cf6240fde powerpc: Fix alignment bug within the init sections
 3e096a2112b7b407549020cf095e2a425f00fabb ALSA: doc: Fix reference to mixart.rst
 76e2fc63ca40977af893b724b00cc2f8e9ce47a4 x86/cpu/amd: Set __max_die_per_package on AMD
-a9d4ef643430d638de1910377f50e0d492d85a43 habanalabs: fix dma_addr passed to dma_mmap_coherent
-aa6df6533b8f9ead98889baa92e2b19793b1c77e habanalabs: fix reset process in case of failures
-9488307a5559255f2fc9a3ab61e1c31e243ca7c6 habanalabs: prevent soft lockup during unmap
 bb52cb0dec8d2fecdb22843a805131478a180728 drm/ttm: make the pool shrinker lock a mutex
 f4eccc7fea203cfb35205891eced1ab51836f362 clk: tegra30: Add hda clock default rates to clock driver
 615d435400435876ac68c1de37e9526a9164eaec ALSA: hda/tegra: fix tegra-hda on tegra30 soc
@@ -348,7 +341,6 @@ c8a8ead01736419a14c3106e1f26a79d74fc84c7 Merge git://git.kernel.org/pub/scm/linu
 80709af7325d179b433817f421c85449f2454046 riscv: cacheinfo: Fix using smp_processor_id() in preemptible
 d6e3ae76728ccde49271d9f5acfebbea0c5625a3 scsi: fnic: Fix memleak in vnic_dev_init_devcmd2
 0aa2ec8a475fb505fd98d93bbcf4e03beeeebcb6 riscv: Fixup CONFIG_GENERIC_TIME_VSYSCALL
-02039b172327da1e64beca615500367abf8605c6 Merge tag 'misc-habanalabs-fixes-2021-01-13' of https://git.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-linus
 69e976831cd53f9ba304fd20305b2025ecc78eab MIPS: relocatable: fix possible boot hangup with KASLR enabled
 7b490a8ab0f2d3ab8d838a4ff22ae86edafd34a1 MIPS: OCTEON: fix unreachable code in octeon_irq_init_ciu
 f419e5940f1d9892ea6f45acdaca572b9e73ff39 platform/x86: ideapad-laptop: Disable touchpad_switch for ELAN0634
@@ -711,18 +703,12 @@ c74f865f14318217350aa33363577cb95b06eb82 drm/amd/display: Use hardware sequencer
 cc099e0b399889c6485c88368b19824b087c9f8c kernfs: implement ->write_iter
 f2d6c2708bd84ca953fa6b6ca5717e79eb0140c7 kernfs: wire up ->splice_read and ->splice_write
 3d1cf435e201d1fd63e4346b141881aed086effd driver core: Extend device_is_dependent()
-927633a6d20af319d986f3e42c3ef9f6d7835008 stm class: Fix module init return on allocation failure
-cb5c681ab9037e25fcca20689c82cf034566d610 intel_th: pci: Add Alder Lake-P support
-9354f1b421f76f8368be13954f87d07bcbd6fffe habanalabs: zero pci counters packet before submit to FW
-f8abaf379bfe19600f96ae79a6759eb37039ae05 habanalabs: fix backward compatibility of idle check
-2dc4a6d79168e7e426e8ddf8e7219c9ffd13b2b1 habanalabs: disable FW events on device removal
 e020ff611ba9be54e959e6b548038f8a020da1c9 driver core: Fix device link device name collision
 63858ac326561af6a1e583ad4314cc1be16852ad Merge tag 'pinctrl-v5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 d7631e4378f26c8e1ba1ad372888e89e69678709 Merge tag 'gpio-fixes-for-v5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 120fbdb84f339ca3c358e4ac3fb1ffe663669d28 Merge tag 'sound-5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 6a52f4cf863a53b8196286e2b95d3ef3bd8183ad Merge tag 'acpi-5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 2561bbbe2e959c966e21ee23de91b9bd4bbf98af Merge tag 'printk-for-5.11-printk-rework-fixup' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-b11f623cc8e722b84d833d02b9f67f84bb2d604f Merge tag 'misc-habanalabs-fixes-2021-01-21' of https://git.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-linus
 2d06dfecb132a1cc2e374a44eae83b5c4356b8b4 dm integrity: fix a crash if "recalculate" used without "internal_hash"
 9f29bd8b2e7132b409178d1367dae1813017bd0e Merge tag 'fs_for_v5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 5c02406428d5219c367c5f53457698c58bc5f917 dm integrity: conditionally disable "recalculate" feature
@@ -743,7 +729,6 @@ f722f5bea1caf6681722aedfd544a17e58e41324 Merge tag 'drm-misc-fixes-2021-01-20' o
 a4166340a6e4d501c9e3aee81c20a269726ecde0 Revert "i2c: imx: Remove unused .id_table support"
 9ecd1d2b302b600351fac50779f43fcb680c1a16 i2c: sprd: depend on COMMON_CLK to fix compile tests
 17749851eb9ca2298e7c3b81aae4228961b36f28 tty: fix up hung_up_tty_write() conversion
-31b081066e9c8f4a931a3d20dc0c6ca63c595c44 misc: rtsx: init value of aspm_enabled
 36c6e17bf16922935a5a0dd073d5b032d34aa73d sched/core: Print out straggler tasks in sched_cpu_dying()
 547a77d02f8cfb345631ce23b5b548d27afa0fc4 workqueue: Use cpu_possible_mask instead of cpu_active_mask to break affinity
 22f667c97aadbf481e2cae2d6feabdf431e27b31 sched: Don't run cpu-online with balance_push() enabled
@@ -807,4 +792,4 @@ ef7b1a0ea857af076ea64d131e95b59166ab6163 Merge tag 'io_uring-5.11-2021-01-24' of
 228a65d4544af5086bd167dcc5a0cb4fae2c42b4 Merge tag 'sh-for-5.11' of git://git.libc.org/linux-sh
 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 Linux 5.11-rc5
 
---===============0333309980357649701==--
+--===============3962016301176514405==--
