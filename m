@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Mon, 25 Jan 2021 20:52:59 -0000
-Message-Id: <161160797977.14017.17379246349894921481@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nsaenz/linux-rpi
+Date: Mon, 25 Jan 2021 20:54:20 -0000
+Message-Id: <161160806087.14556.10549453749758992157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/nsaenz/linux-rpi
+user: nsaenz
 changes:
-  - ref: refs/heads/pfsck
-    old: 0000000000000000000000000000000000000000
-    new: c2f04f7da367ffc4cd64be5b2285878ad23b3e7f
+  - ref: refs/tags/bcm2835-defconfig-next-2021-01-25
+    old: 7cdccf7c18871bb9fd5f8efc6af850e6e730127d
+    new: 0000000000000000000000000000000000000000
