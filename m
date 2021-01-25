@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Mon, 25 Jan 2021 16:55:58 -0000
-Message-Id: <161159375810.23674.14139164943041798057@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7883118806980622100=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 25 Jan 2021 16:57:30 -0000
+Message-Id: <161159385013.24184.17229004614076254609@gitolite.kernel.org>
+
+--===============7883118806980622100==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: dad6972e2b0b846e8d28738a0f19e409d44d9f92
-    new: 96727aeb798299806ca1eca4035e4494b22b9db3
+    old: d0ac2752887b87f83828239eb06279c15d10ca40
+    new: 68146c8e2fb5de1ce4c2243502029e1fc1fe8ca5
     log: |
-         ac56ce0b617db102f84f62aee61c1561ce8f8aed Makefile: Add ack.tex
-         fa4a850e3054fe0583195b86a00d62ce943f5641 ack: Add acknowledgement for help with large system
-         3bd69ecd384b7716641c17bc2cf8ff9c061f8e94 Bibliography update
-         de968034ab1dbe17441d8a4cbc65c64ad0f9d02b SMPdesign: Updates and wordsmithing, take one
-         ed0735daaad6e18192a4ee42b9c559151f947569 Bibliography update
-         155a956234216b080e914294b1829da8f11c114f SMPdesign: Updates and wordsmithing, take two
-         048020891c85ed9fbb3843be58cdfeb675cb84b9 treewide: Update to recent draft of the C++ standard
-         19ff3f9121fede40ed8d8f8a7198305f095f8b8a SMPdesign: Updates and wordsmithing, take three
-         fabb6ebde0cc0bc313044a4b4c18d17ba37aea18 toolsoftrade: Show POSIX workaround for kthread_should_stop()
-         96727aeb798299806ca1eca4035e4494b22b9db3 defer/rcuintro: Fix typo s/one/once/
+         68146c8e2fb5de1ce4c2243502029e1fc1fe8ca5 5.10-stable patches
          
+
+--===============7883118806980622100==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611593848 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1611593847-78981db5f1c0cc6c6e8e7547684067beed496c5b
+
+d0ac2752887b87f83828239eb06279c15d10ca40 68146c8e2fb5de1ce4c2243502029e1fc1fe8ca5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAO+HgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xZgP/iP9kYr9ai07IO6RixFm
+n9mzkdTZsJPQM2iSYbzYOC0H9eCyg4fPJFdLWPnd+xDPF4vGhoAOkoKU/amjZUZh
+mv1XXuD+W7ELMBYO8iXBvGQt4y7TsHFdTsUd0IoORVxhPm3BDCaftvKR3kDWVFJu
+Qos0eH66gzc9nGQqVKZ/1yC8Nmt3/Z2+vQnroIQt+l4TcAgeAMIlHZIZLHvyvoEB
+hw6ODdy7Wkqn+1Cws/JX9ApbTIdt7tPtd3fEdw7DtYHGy9j2ckjYulwuXq9lTUlY
+0XYb+/Ds+Kkx0/B81uar+Ku8BZfBEvLOR1hh4+wfkD9c/ma503PCYh1Xud2Iy1Ga
+zCOPS8NkIQR/b8D7UFc1BGXB1ziBoKRWGwUOkw89SLWSAmm+a+sOj5lkrbDiXNHD
+siXzSjCim9BBrNNMtjl4WJ3rnEQAQrmodPX8oBf0Nz5MzfaQueBd6Lb+3MP7Pc2Y
+eL7oYX8IJ9V4xyjilvV3ZTEJEKBGeGoLH2c1SolXDIxwbdFxW9LHALab3DOkssxm
+1LBdKdZt8b/Jfeit/hr9Fhq/zAkWSbQlzG8MicfQPwowBY9oSdNjfcIxJMmIzsny
+hZS2ZUxsxZJ1a1BuZxQl0eJ7SyptJAoM/AQNmkVEojgmyhBZI62mTPba9K7A7MeH
+Jhgic/fB7W5Ou0FsIILtRJ4L
+=qqZM
+-----END PGP SIGNATURE-----
+
+--===============7883118806980622100==--
