@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/nsaenz/linux-rpi
-Date: Mon, 25 Jan 2021 20:37:45 -0000
-Message-Id: <161160706524.5601.5111230944824777694@gitolite.kernel.org>
+Date: Mon, 25 Jan 2021 20:50:24 -0000
+Message-Id: <161160782494.13192.10975574232680831002@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/nsaenz/linux-rpi
 user: nsaenz
 changes:
   - ref: refs/tags/bcm2835-dt-next-2021-01-25
-    old: 0000000000000000000000000000000000000000
-    new: e6e5fb9f92acd4894539c6f1b4c7c25666eca4ac
+    old: e6e5fb9f92acd4894539c6f1b4c7c25666eca4ac
+    new: 0000000000000000000000000000000000000000
