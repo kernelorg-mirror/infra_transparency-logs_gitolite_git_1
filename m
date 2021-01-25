@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5790801231088941333=="
+Content-Type: multipart/mixed; boundary="===============4927614535306570332=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 25 Jan 2021 10:24:36 -0000
-Message-Id: <161157027601.17672.17988311536289419809@gitolite.kernel.org>
+Date: Mon, 25 Jan 2021 10:24:55 -0000
+Message-Id: <161157029596.17811.11648444223763358553@gitolite.kernel.org>
 
---===============5790801231088941333==
+--===============4927614535306570332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
+  - ref: refs/heads/usb-linus
+    old: ef02684c4e67d8c35ac83083564135bc7b1d3445
     new: 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04
-    log: revlist-7c53f6b671f4-6ee1d745b7c9.txt
+    log: revlist-ef02684c4e67-6ee1d745b7c9.txt
 
---===============5790801231088941333==
+--===============4927614535306570332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611570267 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611570287 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1611570267-c48cfba133fde5862d28e5475234e7d783a9420c
+nonce 1611570286-18dc6728f002bd2398aab813e521de5310c42e2f
 
-7c53f6b671f4aba70ff15e1b05148b10d58c2837 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 refs/heads/main
+ef02684c4e67d8c35ac83083564135bc7b1d3445 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAOnFsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D6sP/R5l2QNeNOHzhIdBEOOw
-WvTzSO25IShB8e1sEnvq79D+pN4+8ELX/BZbr/R+wzhXYe5d2WJxQp9jVJFk1w/b
-Bon9/u0u3FsaZ5g0i97Xwbu9e7JwyQcjCXpEGoF1jYcFIrAJF/wGQ2lHpWwI46nO
-b5HfLdNwy5GXXWo9X+1ahRYjgX1rZA4OurMd8BMYOOX2iK95j6svhsmWsULKHIQp
-87zbFq3IelCiQh/w4DnBsZrhG+/AbO/a/VvHrxIfOBZMepJdi+ej2lQRMmVRr/zh
-BI+MB7gfimbdBwMaj81Oe5BL43itSd5d71dbnG1g/oCVrlo7ec4sONV2H7/RAA96
-81gIBxT2YdIReJ64wTw5Qv2+qtdoe6b7VTwbba2fWmIEdM/ZCMlJxJjOrAdv6R6j
-w/WZk9yC/MWirFKZSte3WBVQUbaHmNZ83zUtzvrWNF5YyBw+QrZ5Wo3//Y7EoEvU
-JSiv5OpXfWYjB9P8+Nk+0vbrPnNQ53DjRHR8ywlfoqb+6yerp60fbD98fYC25b2n
-BtR/q9Uj0NcXaUmK+1bwT6FbvclojuUttHWdKCpSkREATOByC9zeqfffLioCv5mV
-y+702AHm3k6N0DL6TkRwhwRZ146n9MT+vzGLqbM4QgyhO5OY2V8cuqZMuCupTzcj
-c7YLft/VbJntzg6qykulj756
-=vpAB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAOnG8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dp8P/3NATq9tg4XjBkI/icM0
+jreYR74eq5rWT3CaMcc7hoEjEhuOaqZKgM9Pfqp9vMZBPgTs2sJD+Y3QKQjOLe30
+n7WxzNpiDBv2DAYUsskgaLAhQItyoZrlOcL0zj4Y47vg5Lulv6svEPmncVIK7DMA
++eXcrBXw6pb4/eSRZBSeETanUqWpyvYCvixB726+31SJsCfeQQYuKmPpI1Kw8f0o
+Ka/0xnZepsP2Whtv/8dvh00zvGrG/mqyM7FyFOTPtwI7o2GHcbyc/Roe+rLVx8Wi
+MyiDL6tliTSw5DI6NVggwZG1wnTfZCZlN9q8bgEabBrCI1BRXrjvU8Hfm7Ec89wi
+arsdQfqxwWJ/uIcYttpUoehT3l4SaJgVJx4LoSwBeV414dgeW7GXWn9StdOCLLb9
+S4QCf0LEpW/sSSdvfordadmkXuLJLfSIWofMc0gpyiyO7/nlZNCHjb/evEeXeNFk
+jfRHg9vSiO9ZuCLuR2enqbgpuvc/YNJHZ+Lf496Ax2DzFeunwuUfGeH3oNwlJjgd
+xZg7AvFnvIwC0w6RDli0aSR0qXtosT1mious3+DbqUNSqHgxzm8YwirJkUV8DUH/
+VXC95dgFiSy7MH7Qwc7PdRxPe6X7ppspSAwNk/JSBEsZbHThtt5kQq/QgraDCMCE
+ngEAZTp8aJsIYuANMSC3us10
+=rqNw
 -----END PGP SIGNATURE-----
 
---===============5790801231088941333==
+--===============4927614535306570332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c53f6b671f4-6ee1d745b7c9.txt
+Content-Disposition: attachment; filename=revlist-ef02684c4e67-6ee1d745b7c9.txt
 
 f373a811fd9a69fc8bafb9bcb41d2cfa36c62665 ASoC: Intel: fix error code cnl_set_dsp_D0()
 fe6ce6c394fb1ef1d8a6384c5180e70893157f22 MAINTAINERS: Update email address for TI ASoC and twl4030 codec drivers
@@ -101,10 +101,6 @@ a523e1538fdd5f00ea3289cc0b3c6c1785b89814 ASoC: amd: Replacing MSI with Legacy IR
 4d4f9c1a17a3480f8fe523673f7232b254d724b7 MIPS: boot: Fix unaligned access with CONFIG_MIPS_RAW_APPENDED_DTB
 698222457465ce343443be81c5512edda86e5914 MIPS: Fix malformed NT_FILE and NT_SIGINFO in 32bit coredumps
 ef019c5daf032dce0b95ed4d45bfec93c4fbcb9f PHY: Ingenic: fix unconditional build of phy-ingenic-usb
-92cbdb923c17544684c2dd3be9f8636617898a44 usb: cdns3: imx: fix writing read-only memory issue
-2ef02b846ee2526249a562a66d6dcb25fcbca9d8 usb: cdns3: imx: fix can't create core device the second time issue
-d1357119157c4662d43143885f3691f9a766369a usb: cdns3: imx: improve driver .remove API
-65403ff98ebb86caf498e020d572819bb61860ad MAINTAINERS: Update address for Cadence USB3 driver
 2e202ad873365513c6ad72e29a531071dffa498a gpiolib: cdev: fix frame size warning in gpio_ioctl()
 764257d9069a9c19758b626cc1ba4ae079335d9e phy: cpcap-usb: Fix warning for missing regulator_disable
 d092bd9110494de3372722b317510b3692f1b2fe phy: mediatek: allow compile-testing the dsi phy
@@ -164,7 +160,6 @@ b89bc060b53e7054e5c8ca11feea4bc884d83611 sh/intc: Restore devm_ioremap() alignme
 a876e7e2a8e62712425be178d483ffdff09f0853 HID: uclogic: remove h from printk format specifier
 4d2b71634b5ad142617e430bc6ef659331a576d0 HID: wiimote: remove h from printk format specifier
 91bc156817a3c2007332b64b4f85c32aafbbbea6 ALSA: hda/realtek: fix right sounds and mute/micmute LEDs for HP machines
-c14556fc0c7c115ffb4a287560e1ec9f7869aac3 thunderbolt: Drop duplicated 0x prefix from format string
 71008734d27f2276fcef23a5e546d358430f2d52 btrfs: print the actual offset in btrfs_root_name
 29b665cc51e8b602bf2a275734349494776e3dbc btrfs: prevent NULL pointer dereference in extent_io_tree_panic
 347fb0cfc9bab5195c6701e62eda488310d7938f btrfs: tree-checker: check if chunk item end overflows
@@ -173,7 +168,6 @@ c14556fc0c7c115ffb4a287560e1ec9f7869aac3 thunderbolt: Drop duplicated 0x prefix 
 3c638cdb8ecc0442552156e0fed8708dd2c7f35b RDMA/restrack: Don't treat as an error allocation ID wrapping
 a306aba9c8d869b1fdfc8ad9237f1ed718ea55e6 RDMA/usnic: Fix memleak in find_free_vf_and_create_qp_grp
 f2bc3af6353cb2a33dfa9d270d999d839eef54cb RDMA/ocrdma: Fix use after free in ocrdma_dealloc_ucontext_pd()
-491b1bea00040233b791dc8fea1608ac6a7003bc MAINTAINERS: update Peter Chen's email address
 cf7b2ae4d70432fa94ebba3fbaab825481ae7189 riscv: return -ENOSYS for syscall -1
 11f4c2e940e2f317c9d8fb5a79702f2a4a02ff98 riscv: Fix kernel time_init()
 1f1496a923b6ba16679074fe77100e1b53cdb880 riscv: Fix sifive serial driver
@@ -282,17 +276,12 @@ e7c22eeaff8565d9a8374f320238c251ca31480b ALSA: fireface: Fix integer overflow in
 9f65df9c589f249435255da37a5dd11f1bc86f4d ALSA: firewire-tascam: Fix integer overflow in midi_port_work()
 14ff8e1970c03831bf64cf098f56e6ba83349170 btrfs: no need to run delayed refs after commit_fs_roots during commit
 518837e65068c385dddc0a87b3e577c8be7c13b1 btrfs: send: fix invalid clone operations when cloning from the same file and root
-2eda61a850d45d421efcaaa06b64c06ee273d82e Merge tag 'usb-v5.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
 20c7842ed8374e1c3ee750b2fe7ca8cdd071bda6 ALSA: hda/hdmi - enable runtime pm for CI AMD display audio
 1a9c72ad4c26821e215a396167c14959cf24a7f1 bpf: Local storage helpers should check nullness of owner ptr passed
 84d571d46c7046a957ff3d1c916a1b9dcc7f1ce8 bpf: Fix typo in bpf_inode_storage.c
 2f94ac19184665263b7a285ae88abe19dedf9c1b bpf: Update local storage test to check handling of null ptrs
 2d6ffc63f12417b979955a5b22ad9a76d2af5de9 iommu/vt-d: Fix unaligned addresses for intel_flush_svm_range_dev()
 b812834b5329fe78d643c9a61350d227db904361 iommu: arm-smmu-qcom: Add sdm630/msm8998 compatibles for qcom quirks
-5f8e084026543bc06eb9b2a623de55bb4ab3e60e Merge tag 'thunderbolt-for-v5.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
-280a9045bb18833db921b316a5527d2b565e9f2e ehci: fix EHCI host controller initialization sequence
-643a4df7fe3f6831d14536fd692be85f92670a52 USB: ehci: fix an interrupt calltrace error
-4e0dcf62ab4cf917d0cbe751b8bf229a065248d4 usb: gadget: aspeed: fix stop dma register setting.
 694a1c0adebee9152a9ba0320468f7921aca647d iommu/vt-d: Fix duplicate included linux/dma-map-ops.h
 ffaf97899c4a58b9fefb11534f730785443611a8 drm/i915/gt: Limit VFE threads based on GT
 09aa9e45863e9e25dfbf350bae89fc3c2964482c drm/i915/gt: Restore clear-residual mitigations for Ivybridge, Baytrail
@@ -414,7 +403,6 @@ f14a5c34d143f6627f0be70c0de1d962f3a6ff1c drm/amdgpu/psp: fix psp gfx ctrl cmds
 12f2df72205fe348481d941c3e593e8068d2d23d drm/amdgpu: fix vram type and bandwidth error for DDR5 and DDR4
 21702c8cae51535e09b91341a069503c6ef3d2a3 drm/amdgpu: add green_sardine device id (v2)
 53f1e7f6a1720f8299b5283857eedc8f07d29533 drm/amdgpu: add new device id for Renior
-6e6aa61d81194c01283880950df563b1b9abec46 USB: gadget: dummy-hcd: Fix errors in port-reset handling
 1eb8f690bcb565a6600f8b6dcc78f7b239ceba17 x86/topology: Make __max_die_per_package available unconditionally
 495dc7637cb5ca8e39c46db818328410bb6e73a1 ALSA: hda/realtek - Limit int mic boost on Acer Aspire E5-575T
 3c516e038f0cc3915825bdac619d448c2b1811f2 Documentation: ACPI: EINJ: Fix error type values for PCIe errors
@@ -515,9 +503,6 @@ f84d3a1ec375e46a55cc3ba85c04272b24bd3921 ALSA: hda: Add Cometlake-R PCI ID
 89ccf18f032f26946e2ea6258120472eec6aa745 printk: fix kmsg_dump_get_buffer length calulations
 b503087445ce7e45fabdee87ca9e460d5b5b5168 mmc: core: don't initialize block size from ext_csd if not present
 4d163ad79b155c71bf30366dc38f8d2502f78844 spi: cadence: cache reference clock rate during probe
-c28095bc99073ddda65e4f31f6ae0d908d4d5cd8 usb: udc: core: Use lock when write to soft_connect
-576667bad341516edc4e18eb85acb0a2b4c9c9d9 xhci: make sure TRB is fully written before giving it to the controller
-da7e0c3c2909a3d9bf8acfe1db3cb213bd7febfb xhci: tegra: Delay for disabling LFPS detector
 f010505b78a4fa8d5b6480752566e7313fb5ca6e io_uring: flush timeouts that should already have expired
 9b268be3adbb410cc1a857477b638a71258891a8 MAINTAINERS: update maintainers of qcom audio
 7505c06dabb5e814bda610c8d83338544f15db45 MAINTAINERS: update qcom ASoC drivers list
@@ -638,7 +623,6 @@ ef38237444ce952daf041ed2885918f9f7d1e997 gpiolib: add a warning on gpiochip->to_
 e73b0101ae5124bf7cd3fb5d250302ad2f16a416 gpio: mvebu: fix pwm .get_state period calculation
 18eedf2b5ec7c8ce2bb23d9148cfd63949207414 gpio: sifive: select IRQ_DOMAIN_HIERARCHY rather than depend on it
 298d75c9b18875d2d582dcd5145a45cac8d2bae2 gpio: tegra: Add missing dependencies
-ef02684c4e67d8c35ac83083564135bc7b1d3445 usb: bdc: Make bdc pci driver depend on BROKEN
 43b67309b6b2a3c08396cc9b3f83f21aa529d273 drm/atomic: put state on error path
 abbc4d6ecd07fa246fd597b5d8fced28f0bcc606 drm/vram-helper: Reuse existing page mappings in vmap
 2b73649cee65b8e33c75c66348cb1bfe0ff9d766 ALSA: hda: Balance runtime/system PM if direct-complete is disabled
@@ -807,4 +791,4 @@ ef7b1a0ea857af076ea64d131e95b59166ab6163 Merge tag 'io_uring-5.11-2021-01-24' of
 228a65d4544af5086bd167dcc5a0cb4fae2c42b4 Merge tag 'sh-for-5.11' of git://git.libc.org/linux-sh
 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 Linux 5.11-rc5
 
---===============5790801231088941333==--
+--===============4927614535306570332==--
