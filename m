@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8347484399756209369=="
+Content-Type: multipart/mixed; boundary="===============8532458237865095613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 25 Jan 2021 14:34:24 -0000
-Message-Id: <161158526494.22243.5519520877441571723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 25 Jan 2021 14:34:48 -0000
+Message-Id: <161158528806.22485.18279072484607786983@gitolite.kernel.org>
 
---===============8347484399756209369==
+--===============8532458237865095613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: fd9dcd798b22541d822ed920d8dfeb4ffe01b7a0
-    new: 563d4464016e0392322e6c1a22b8396eed909d2a
+  - ref: refs/heads/for-5.12
+    old: 7fefe72b0f8c0d7e63af9810c4dcc88757eddcd5
+    new: dbe954d8f1635f949a1d9a5d6e6fb749ae022b47
     log: |
-         563d4464016e0392322e6c1a22b8396eed909d2a 5.10-stable patches
+         dbe954d8f1635f949a1d9a5d6e6fb749ae022b47 regulator: core: Avoid debugfs: Directory ... already present! error
          
 
---===============8347484399756209369==
+--===============8532458237865095613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611585263 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1611585263-2c32489f99d512a0aa9ec2d202c610d7440f1151
+pusher C3F436CA30F5D8EB 1611585247 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1611585286-13f1d2e55a196ff9916d7a286d63ffeaf30721a6
 
-fd9dcd798b22541d822ed920d8dfeb4ffe01b7a0 563d4464016e0392322e6c1a22b8396eed909d2a refs/heads/master
+7fefe72b0f8c0d7e63af9810c4dcc88757eddcd5 dbe954d8f1635f949a1d9a5d6e6fb749ae022b47 refs/heads/for-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAO1u8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0DIP/0nssddaU8aPCVGh6Nft
-Gy+gjIK84uvc4GGNRVzXEC99IQ60238VMrPM84zVCOAA62TK4gCwzwmqlema+34E
-jS1HvgnsmYRzeMaGllguwsyWYCeGrEsOmPu72KwVr6DEMv9eOj76Bq/wgyTY4p2s
-h/tV95PNfyoSRyjKZbzMk1nQDHlgKQYYTYq+1Zsd2P7xl8wnsEi1QVVpaZsGxRHi
-DAAZvWgDUVZqyPUcCxT0rixTfu0M1zHItQ9EyuGh2PX0v8uQPKwSTyfY4XSsVpGk
-Kjv2yNFiFjrjGX4gZNms/f9GjUf76akiGnBvgOcuzmMGa68l09kbcBUF0qY1HR/N
-tI/3aV3VpXven43RRBtO5Nrc36aXVwQPJ9gqkXLsJWWbdKdRTKpED8Xndr+18Lfx
-o6PkWCvB3HBZx3C9RPRkpyNcMrCiDjTFwoX3ksfIrZrRL5GK9dF6HLGBhpCWtqkT
-kTjNBet7P5vjrk0nTFZZDdKAHX7tjVeZ1XbBsekivxNHj9hxj5nLXDhNOzk6Obld
-8RHdjzOF2ZhkBJE/b4+/YwTdp18hf+Pmnc8ZX4XBptBspGCJCVDtxRP2KNsI1GMP
-ny1PyiEv7WE3HjWYbkQTntrnuYxi61cuiS/m7tvPPlk3qXBZ+UV2c0fLQ9DOGCVL
-bTj67taR6JvLryvm2ptxolyV
-=ybjB
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAO1t8ACgkQJNaLcl1U
+h9DSFgf+LEp2HBVLaK3OIqJh3GjyyLecDgZzliW6xkDMntaDbZQ9vqGQftaL9Tn3
+9BdyMz2PshCuzlbH3qKw/zvI4BKTOaYu1ygPWHGD+EQi5MLz7DBG/urXAzeTtCnf
++2yKTPP5MlTAmFLxRBlooavb99DmlMX+ABvbDCMTJ9syDpa6cG5NPVQVjVHw6pX3
+3ePA+6B88moog4eN7lt8xDiU0P4SlcKRCRcoSIM3QV/JZbDgbuyO8jKxGvg4ltWs
+WiMzd3dPcV5HQL7yZEWanoRpbKAi02yv8Mg0AKoNazs87GZ+9GdRoryAOxiUQp0L
+7U8u2+GkqBJGbbCEh1n6ycmKMmmz6A==
+=zw0m
 -----END PGP SIGNATURE-----
 
---===============8347484399756209369==--
+--===============8532458237865095613==--
