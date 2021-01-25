@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 25 Jan 2021 18:15:37 -0000
-Message-Id: <161159853733.15078.17393247502701184901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 25 Jan 2021 18:18:11 -0000
+Message-Id: <161159869150.15884.1356617195285465451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: andy
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
+user: khilman
 changes:
-  - ref: refs/tags/ib-drm-gpio-pdx86-rtc-wdt-v5.11-1
+  - ref: refs/heads/v5.12/dt
     old: 0000000000000000000000000000000000000000
-    new: 63fa412ac328c24599f9833294f096de7053760c
+    new: 9073f694efd8733b0e7c97d3396d81161bd05582
