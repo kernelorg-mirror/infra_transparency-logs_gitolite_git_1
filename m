@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============5142662906622234677=="
+Content-Type: multipart/mixed; boundary="===============5020404175129270138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 25 Jan 2021 14:17:26 -0000
-Message-Id: <161158424628.11560.15881722443747956255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 25 Jan 2021 14:17:39 -0000
+Message-Id: <161158425900.11711.16968158045909415599@gitolite.kernel.org>
 
---===============5142662906622234677==
+--===============5020404175129270138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: e15c0fcc304318d1211b8282b9c71d5236dd20cf
-    new: a4444205ea507821773e696f3d6ff31c69c09b97
-    log: revlist-e15c0fcc3043-a4444205ea50.txt
+    old: 543f6ae32bc6acaf2352bce01121927185b2432c
+    new: 9e263ad508841460a5f4522b7f712f886bb22b6f
+    log: revlist-543f6ae32bc6-9e263ad50884.txt
   - ref: refs/heads/for-next
-    old: e7438204295138aad6a4dd3a7ab42e6ab48995e8
-    new: e37094986ffc9b3132a81b0c01db2a22b55f1f3c
-    log: revlist-e74382042951-e37094986ffc.txt
+    old: 056f6fcbbcd768eef43994a44d3950dadfa11474
+    new: 7e46ab15edba03295eb308e0531287254f91b496
+    log: revlist-056f6fcbbcd7-7e46ab15edba.txt
 
---===============5142662906622234677==
+--===============5020404175129270138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e15c0fcc3043-a4444205ea50.txt
+Content-Disposition: attachment; filename=revlist-543f6ae32bc6-9e263ad50884.txt
 
 06fde695ee76429634c1e8c8c1154035aa61191e genirq/msi: Initialize msi_alloc_info before calling msi_domain_prepare_irqs()
 e90f55e0196a66f8e9e445f7f33f876dd889be9a irqchip/irq-sl28cpld: Convert comma to semicolon
@@ -153,7 +153,6 @@ e6dc077b7dffdc01d9c45a5a1f4caf1e51c756a3 soc: litex: Fix compile warning when de
 1eb8f690bcb565a6600f8b6dcc78f7b239ceba17 x86/topology: Make __max_die_per_package available unconditionally
 495dc7637cb5ca8e39c46db818328410bb6e73a1 ALSA: hda/realtek - Limit int mic boost on Acer Aspire E5-575T
 67ea698c3950d10925be33c21ca49ffb64e21842 ALSA: hda/via: Add minimum mute flag
-7a2da5d7960a64ee923fe3e31f01a1101052c66f spi: fsl: Fix driver breakage when SPI_CS_HIGH is not set in spi->mode
 3c97be6982e689d7b2430187a11f8c78e573abdb mtd: rawnand: nandsim: Fix the logic when selecting Hamming soft ECC engine
 18f62614308be69a2752afb5f6bbad60096ad774 mtd: rawnand: intel: check the mtd name only after setting the variable
 e708789c4a87989faff1131ccfdc465a1c1eddbc mtd: spinand: Fix MTD_OPS_AUTO_OOB requests
@@ -179,7 +178,6 @@ f84d3a1ec375e46a55cc3ba85c04272b24bd3921 ALSA: hda: Add Cometlake-R PCI ID
 668af87f995b6d6d09595c088ad1fb5dd9ff25d2 printk: ringbuffer: fix line counting
 89ccf18f032f26946e2ea6258120472eec6aa745 printk: fix kmsg_dump_get_buffer length calulations
 b503087445ce7e45fabdee87ca9e460d5b5b5168 mmc: core: don't initialize block size from ext_csd if not present
-4d163ad79b155c71bf30366dc38f8d2502f78844 spi: cadence: cache reference clock rate during probe
 c28095bc99073ddda65e4f31f6ae0d908d4d5cd8 usb: udc: core: Use lock when write to soft_connect
 576667bad341516edc4e18eb85acb0a2b4c9c9d9 xhci: make sure TRB is fully written before giving it to the controller
 da7e0c3c2909a3d9bf8acfe1db3cb213bd7febfb xhci: tegra: Delay for disabling LFPS detector
@@ -426,13 +424,14 @@ a692a610d7ed632cab31b61d6c350db68a10e574 Merge tag 'block-5.11-2021-01-24' of gi
 ef7b1a0ea857af076ea64d131e95b59166ab6163 Merge tag 'io_uring-5.11-2021-01-24' of git://git.kernel.dk/linux-block
 228a65d4544af5086bd167dcc5a0cb4fae2c42b4 Merge tag 'sh-for-5.11' of git://git.libc.org/linux-sh
 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 Linux 5.11-rc5
-a4444205ea507821773e696f3d6ff31c69c09b97 Merge remote-tracking branch 'regulator/for-5.11' into regulator-linus
+396cf2a46adddbf51373e16225c1d25254310046 spidev: Add cisco device compatible
+9e263ad508841460a5f4522b7f712f886bb22b6f Merge remote-tracking branch 'spi/for-5.11' into spi-linus
 
---===============5142662906622234677==
+--===============5020404175129270138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e74382042951-e37094986ffc.txt
+Content-Disposition: attachment; filename=revlist-056f6fcbbcd7-7e46ab15edba.txt
 
 06fde695ee76429634c1e8c8c1154035aa61191e genirq/msi: Initialize msi_alloc_info before calling msi_domain_prepare_irqs()
 e90f55e0196a66f8e9e445f7f33f876dd889be9a irqchip/irq-sl28cpld: Convert comma to semicolon
@@ -557,7 +556,6 @@ e6dc077b7dffdc01d9c45a5a1f4caf1e51c756a3 soc: litex: Fix compile warning when de
 1eb8f690bcb565a6600f8b6dcc78f7b239ceba17 x86/topology: Make __max_die_per_package available unconditionally
 495dc7637cb5ca8e39c46db818328410bb6e73a1 ALSA: hda/realtek - Limit int mic boost on Acer Aspire E5-575T
 67ea698c3950d10925be33c21ca49ffb64e21842 ALSA: hda/via: Add minimum mute flag
-7a2da5d7960a64ee923fe3e31f01a1101052c66f spi: fsl: Fix driver breakage when SPI_CS_HIGH is not set in spi->mode
 3c97be6982e689d7b2430187a11f8c78e573abdb mtd: rawnand: nandsim: Fix the logic when selecting Hamming soft ECC engine
 18f62614308be69a2752afb5f6bbad60096ad774 mtd: rawnand: intel: check the mtd name only after setting the variable
 e708789c4a87989faff1131ccfdc465a1c1eddbc mtd: spinand: Fix MTD_OPS_AUTO_OOB requests
@@ -583,7 +581,6 @@ f84d3a1ec375e46a55cc3ba85c04272b24bd3921 ALSA: hda: Add Cometlake-R PCI ID
 668af87f995b6d6d09595c088ad1fb5dd9ff25d2 printk: ringbuffer: fix line counting
 89ccf18f032f26946e2ea6258120472eec6aa745 printk: fix kmsg_dump_get_buffer length calulations
 b503087445ce7e45fabdee87ca9e460d5b5b5168 mmc: core: don't initialize block size from ext_csd if not present
-4d163ad79b155c71bf30366dc38f8d2502f78844 spi: cadence: cache reference clock rate during probe
 c28095bc99073ddda65e4f31f6ae0d908d4d5cd8 usb: udc: core: Use lock when write to soft_connect
 576667bad341516edc4e18eb85acb0a2b4c9c9d9 xhci: make sure TRB is fully written before giving it to the controller
 da7e0c3c2909a3d9bf8acfe1db3cb213bd7febfb xhci: tegra: Delay for disabling LFPS detector
@@ -830,8 +827,8 @@ a692a610d7ed632cab31b61d6c350db68a10e574 Merge tag 'block-5.11-2021-01-24' of gi
 ef7b1a0ea857af076ea64d131e95b59166ab6163 Merge tag 'io_uring-5.11-2021-01-24' of git://git.kernel.dk/linux-block
 228a65d4544af5086bd167dcc5a0cb4fae2c42b4 Merge tag 'sh-for-5.11' of git://git.libc.org/linux-sh
 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 Linux 5.11-rc5
-7fefe72b0f8c0d7e63af9810c4dcc88757eddcd5 regulator: pf8x00: Add suspend support
-a4444205ea507821773e696f3d6ff31c69c09b97 Merge remote-tracking branch 'regulator/for-5.11' into regulator-linus
-e37094986ffc9b3132a81b0c01db2a22b55f1f3c Merge remote-tracking branch 'regulator/for-5.12' into regulator-next
+396cf2a46adddbf51373e16225c1d25254310046 spidev: Add cisco device compatible
+9e263ad508841460a5f4522b7f712f886bb22b6f Merge remote-tracking branch 'spi/for-5.11' into spi-linus
+7e46ab15edba03295eb308e0531287254f91b496 Merge remote-tracking branch 'spi/for-5.12' into spi-next
 
---===============5142662906622234677==--
+--===============5020404175129270138==--
