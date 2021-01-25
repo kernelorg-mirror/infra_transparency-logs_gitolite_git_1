@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5777741016007335163=="
+Content-Type: multipart/mixed; boundary="===============9215898515476717000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 25 Jan 2021 08:32:20 -0000
-Message-Id: <161156354045.23502.11010078019223100748@gitolite.kernel.org>
+Date: Mon, 25 Jan 2021 08:35:19 -0000
+Message-Id: <161156371933.25762.6365799801192567274@gitolite.kernel.org>
 
---===============5777741016007335163==
+--===============9215898515476717000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,57 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 298d75c9b18875d2d582dcd5145a45cac8d2bae2
-    new: 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04
-    log: revlist-298d75c9b188-6ee1d745b7c9.txt
+  - ref: refs/heads/gpio/for-next
+    old: a06c9d1f5bc3c6be712b9baa2f7c76624168c221
+    new: 33177ff772feb911e0186b195f8784abc4916d24
+    log: revlist-a06c9d1f5bc3-33177ff772fe.txt
 
---===============5777741016007335163==
+--===============9215898515476717000==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-298d75c9b188-6ee1d745b7c9.txt
+Content-Disposition: attachment; filename=revlist-a06c9d1f5bc3-33177ff772fe.txt
 
-0aa171e9b267ce7c52d3a3df7bc9c1fc0203dec5 crypto: ecdh - avoid buffer overflow in ecdh_set_secret()
-04901aab40ea3779f6fc6383ef74d8e130e817bf bpf: Fix a task_iter bug caused by a merge conflict resolution
-b0e1306302018d876472ed074c1bfaa8020bf9df ALSA: usb-audio: Add quirk for RC-505
-36a106a4c1c100d55ba3d32a21ef748cfcd4fa99 block: rsxx: select CONFIG_CRC32
-19cd3403cb0d522dd5e10188eef85817de29e26e lightnvm: select CONFIG_CRC32
-e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
-4f8b848788f77c7f5c3bd98febce66b7aa14785f zonefs: select CONFIG_CRC32
-5136bb8c8b5872676f397b27f93a30568baf3a25 MAINTAINERS: adjust GCC PLUGINS after gcc-plugin.sh removal
-d39648eb67ac851c7918c794424c266a5d2635b9 kconfig: config script: add a little user help
-c0f975af1745391749e4306aa8081b9a4d2cced8 kconfig: Support building mconf with vendor sysroot ncurses
-0c36d88cff4d72149f94809303c5180b6f716d39 lib/raid6: Let $(UNROLL) rules work with macOS userland
-9bba03d4473df0b707224d4d2067b62d1e1e2a77 kconfig: remove 'kvmconfig' and 'xenconfig' shorthands
-764257d9069a9c19758b626cc1ba4ae079335d9e phy: cpcap-usb: Fix warning for missing regulator_disable
-d092bd9110494de3372722b317510b3692f1b2fe phy: mediatek: allow compile-testing the dsi phy
-d6c1ddd938d84a1adef7e19e8efc10e1b4df5034 USB: serial: option: add Quectel EM160R-GL
-42e85f90171a4ba59a1e1cedbbc30ce3f68f2317 arm64/smp: Remove unused irq variable in arch_show_interrupts()
-b614231dec7864a338ce85032aa3d2d7ea2bc46d arm64: mte: remove an ISB on kernel exit
-095507dc1350b3a2b8b39fdc05edba0c10859eca arm64: mm: Fix ARCH_LOW_ADDRESS_LIMIT when !CONFIG_ZONE_DMA
-4883a60c17eda6bf52d1c817ee7ead65b4a02da2 mtd: rawnand: gpmi: fix dst bit offset when extracting raw payload
-26982a89cad77c0efc1c0c79bee0e3d75e9281d4 afs: Work around strnlen() oops with CONFIG_FORTIFIED_SOURCE=y
-366911cd762db02c2dd32fad1be96b72a66f205d afs: Fix directory entry size calculation
-0bd1bf86ab79555425b9f0b63005e181defe4da6 dmaengine: qcom: fix gpi undefined behavior
-99974aedbd73523969afb09f33c6e3047cd0ddae dmaengine: xilinx_dma: check dma_async_device_register return value
-faeb0731be0a31e2246b21a85fa7dabbd750101d dmaengine: xilinx_dma: fix incompatible param warning in _child_probe()
-2d5efea64472469117dc1a9a39530069e95b21e9 dmaengine: xilinx_dma: fix mixed_enum_type coverity warning
-98bf2d3f4970179c702ef64db658e0553bc6ef3a powerpc/32s: Fix RTAS machine check with VMAP stack
-c3d6eb6e54373f297313b65c1f2319d36914d579 HID: multitouch: Enable multi-input for Synaptics pointstick/touchpad device
-6170d077bf92c5b3dfbe1021688d3c0404f7c9e9 spi: fix the divide by 0 error when calculating xfer waiting time
-2bf3a72b08e7f6356a2db9e1571ca65f683510bb dt-bindings: regulator: qcom,rpmh-regulator: add pm8009 revision
-df6b92fa40050e59ea89784294bf6d04c0c47705 regulator: qcom-rpmh-regulator: correct hfsmps515 definition
-d957d1610c661e758426654de3b04bea6fb29f8b regulator: qcom-rpmh: add QCOM_COMMAND_DB dependency
-4b1a60a1bb8f03d82c3f6da424adc96667b59f2a MAINTAINERS: Update Georgi's email address
-9a85c09a3f507b925d75cb0c7c8f364467038052 pinctrl: ingenic: Fix JZ4760 support
-b4aa4876e58d12fb3ace425969dcbf4df37aa254 pinctrl: ingenic: Rename registers from JZ4760_GPIO_* to JZ4770_GPIO_*
-f981dc171c04c6cf5a35c712543b231ebf805832 tools/power/x86/intel-speed-select: Set scaling_max_freq to base_frequency
-bbaa2e95e23e74791dd75b90d5ad9aad535acc6e tools/power/x86/intel-speed-select: Set higher of cpuinfo_max_freq or base_frequency
-6a4b1f2dff558d75ee4f2ce88595a933b6918183 platform/surface: surface_gpe: Fix non-PM_SLEEP build warnings
-e4a02c7a0e3aeb966e4fdc4a43dce978c467fe83 platform/surface: SURFACE_PLATFORMS should depend on ACPI
-9bba96275576da0cf78ede62aeb2fc975ed8a32d platform/x86: i2c-multi-instantiate: Don't create platform device for INT3515 ACPI nodes
-46c54cf2706122c37497896d56d67b0c0aca2ede platform/x86: touchscreen_dmi: Add swap-x-y quirk for Goodix touchscreen on Estar Beauty HD tablet
 fcd38f178b785623c0325958225744f0d8a075c0 platform/x86: intel-vbtn: Support for tablet mode on Dell Inspiron 7352
 aa44afab87af079e0cf2ead9621d0447798a305e platform/x86: thinkpad_acpi: correct palmsensor error checking
 5b569302520ac8cef03e7a841e45cb37234f8b5f platform/x86: amd-pmc: Fix CONFIG_DEBUG_FS check
@@ -846,6 +806,8 @@ bf9eee249ac2032521677dd74e31ede5429afbc0 drm/ttm: stop using GFP_TRANSHUGE_LIGHT
 87cb9af9f8a2b242cea7f828206d619e8cbb6a1a ALSA: usb-audio: Fix UAC1 rate setup for secondary endpoints
 3784d449d795ba11a92681bd22d183329f976421 ALSA: usb-audio: Set sample rate for all sharing EPs on UAC1
 532a208ad61018b586cebfca8431291fe9c10ce7 ALSA: usb-audio: Avoid implicit feedback on Pioneer devices
+2fe7c2f99440d52613e1cf845c96e8e463c28111 tools: gpio: fix %llu warning in gpio-event-mon.c
+1fc7c1ef37f86f207b4db40aba57084bb2f6a69a tools: gpio: fix %llu warning in gpio-watch.c
 33c74535b03ecf11359de14bc88302595b1de44f drm/vc4: Unify PCM card's driver_name
 488751a0ef9b5ce572c47301ce62d54fc6b5a74d drm/i915/gt: Prevent use of engine->wa_ctx after error
 171a8e99828144050015672016dd63494c6d200a drm/i915/pmu: Don't grab wakeref when enabling events
@@ -882,6 +844,10 @@ b889c7c8c02ebb0b724e1b3998d7924122e49701 Merge branch 'ipv6-fixes-for-the-multic
 9d9b1ee0b2d1c9e02b2338c4a4b0a062d2d3edac tcp: fix TCP_USER_TIMEOUT with zero window
 1c4995b0a576d24bb7ead991fb037c8b47ab6e32 drm/i915: Only enable DFP 4:4:4->4:2:0 conversion when outputting YCbCr 4:4:4
 f0e386ee0c0b71ea6f7238506a4d0965a2dbef11 printk: fix buffer overflow potential for print_text()
+ef38237444ce952daf041ed2885918f9f7d1e997 gpiolib: add a warning on gpiochip->to_irq defined
+e73b0101ae5124bf7cd3fb5d250302ad2f16a416 gpio: mvebu: fix pwm .get_state period calculation
+18eedf2b5ec7c8ce2bb23d9148cfd63949207414 gpio: sifive: select IRQ_DOMAIN_HIERARCHY rather than depend on it
+298d75c9b18875d2d582dcd5145a45cac8d2bae2 gpio: tegra: Add missing dependencies
 ef02684c4e67d8c35ac83083564135bc7b1d3445 usb: bdc: Make bdc pci driver depend on BROKEN
 43b67309b6b2a3c08396cc9b3f83f21aa529d273 drm/atomic: put state on error path
 abbc4d6ecd07fa246fd597b5d8fced28f0bcc606 drm/vram-helper: Reuse existing page mappings in vmap
@@ -1050,5 +1016,39 @@ a692a610d7ed632cab31b61d6c350db68a10e574 Merge tag 'block-5.11-2021-01-24' of gi
 ef7b1a0ea857af076ea64d131e95b59166ab6163 Merge tag 'io_uring-5.11-2021-01-24' of git://git.kernel.dk/linux-block
 228a65d4544af5086bd167dcc5a0cb4fae2c42b4 Merge tag 'sh-for-5.11' of git://git.libc.org/linux-sh
 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 Linux 5.11-rc5
+8acbd98ede8ea6db6cf5b47fb424df0f13230a7d gpio: fix spelling mistake in Kconfig "supprot" -> "support"
+a80bb555903244260610730224e49ac72fb7cb98 docs: gpio: Fix formatting in description of gpiod_*_array_* functions
+97057b7a0b6b5fc8250a626c3490405cf74dad13 docs: gpio: intro: Improve HTML formatting
+7ebf113c471bc45a598b4c68e7a9cf1123573bdd gpio: rcar: Remove redundant compatible values
+8db9d03236e196075eeb8f886a539301f34c250c gpio: sl28cpld: convert comma to semicolon
+0320244d0e83e2cb641bed14fdc165b2a5e19f14 gpio: Kconfig: Update help description for GPIO_RCAR config
+c9aa69678055b7df11a09ab767d3b2a712343d1d gpio: bd7xxxx: Do not depend on parent driver data
+3f40550581552e0396ec3f4c48b88327eead5d41 dt-bindings: gpio: Add compatible string for AM64 SoC
+1e7beba93e9badf9b0bbca8ae3ede2b435078f28 dt-bindings: gpio: Add bindings for Toshiba Visconti GPIO Controller
+7a244c246866bb1a9d01a636c7654f510f22d762 gpio: visconti: Add Toshiba Visconti GPIO support
+d0fd5d4d0f3915f8264669289591a293d4f58701 MAINTAINERS: Add entries for Toshiba Visconti GPIO controller
+08bc3941b6a4f18534a8ccdd9a389d579cd54cd7 arm: dts: visconti: Add DT support for Toshiba Visconti5 GPIO driver
+37b3f90ada74d6279fec9fb25afa5ea7c6030f90 gpio: tegra: Convert to gpio_irq_chip
+e6c22b55cd2329bc6506e0250dabae4873420cb9 gpio: bd7xxxx: use helper variable for pdev->dev
+540eaa06917ef29c5cf2641816b3a002fe26b98b dt-bindings: gpio: rcar: Add r8a779a0 support
+59a2958491d0187d46933b05197e7f092d64d28e gpio: rcar: Optimize GPIO pin state read on R-Car Gen3
+e1752a317c2536ec5189817021798121b6a6c705 gpio: rcar: Add R-Car V3U (R8A779A0) support
+72bc9cdee73ee2c5b734111772a98f981259dc2a gpio: pca953x: Add support for pca9506
+74ae9b9cf9ad02d92781062dccede39b2cfd09bf dt-bindings: gpio: pca953x: Document new supported chip pca9506
+242122f1fe7783ddf67392de3abfa1eae6f5611b dt-bindings: gpio: pca953x: Increase allowed length for gpio-line-names
+60458680c1a5ef3e70da17d3ee3407e4521d0126 gpio: tegra: Fix wake interrupt
+424027dec00cf9717149e3f114275daa4e75447e selftests: gpio: rework and simplify test implementation
+da7fee0be16a51e08072b6ca750e9964a95fecc7 selftests: gpio: remove obsolete gpio-mockup-chardev.c
+e9cdfe3279c8fc681c9590560b02a3c7a60048b7 selftests: remove obsolete build restriction for gpio
+81330081272ef8d29e493bf5d25c46dd276a8385 selftests: remove obsolete gpio references from kselftest_deps.sh
+3f82029a93c68f5583c935a22b88eab6d34a976e tools: gpio: remove uAPI v1 code no longer used by selftests
+547e5b58dffa5677f9894a0a22daae911edb695a selftests: gpio: port to GPIO uAPI v2
+397a08bda89c8b92ae9768f6274f17633d279686 selftests: gpio: add CONFIG_GPIO_CDEV to config
+2767ffffa6e49a51f90b55cf2afe5b838bee1e89 gpio: uapi: fix line info flags description
+3fee9e690ed7b4ffea65cad12453ef7cbb3aad58 gpio: remove zte zx driver
+d51da8c3deacfb51dbd3811e60abb07978feaec2 gpio: max77620: convert comma to semicolon
+d2cca43a4b288bb42e5e46bec01c7267ea5612cd gpio: tegra186: convert comma to semicolon
+11444bd393b9fe87d9dbd6a0dc993bf275c46d51 gpio: vx855: convert comma to semicolon
+33177ff772feb911e0186b195f8784abc4916d24 gpio: wcove: convert comma to semicolon
 
---===============5777741016007335163==--
+--===============9215898515476717000==--
