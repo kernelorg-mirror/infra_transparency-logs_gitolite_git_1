@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5552201100865457696=="
+Content-Type: multipart/mixed; boundary="===============7192257484244292442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 25 Jan 2021 23:09:10 -0000
-Message-Id: <161161615028.27092.17849030815444952617@gitolite.kernel.org>
+Date: Mon, 25 Jan 2021 23:09:30 -0000
+Message-Id: <161161617084.27309.4055321622607149541@gitolite.kernel.org>
 
---===============5552201100865457696==
+--===============7192257484244292442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 78ed4045914c63054f2f377471b5a94f7006d61e
     new: 095af986525a509c9378edf777aa9e0773645f13
     log: revlist-78ed4045914c-095af986525a.txt
 
---===============5552201100865457696==
+--===============7192257484244292442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ a86072838b67a3cdbb2ee2abc6c0ab3fb0d60be5 selftests/bpf: Fix style warnings
 d08a17d6de203cca245db11715c95af0b87ec5a3 selftests/bpf: Consistent malloc/calloc usage
 095af986525a509c9378edf777aa9e0773645f13 selftests/bpf: Avoid useless void *-casts
 
---===============5552201100865457696==--
+--===============7192257484244292442==--
