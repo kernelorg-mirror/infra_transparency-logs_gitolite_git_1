@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1059289147272470012=="
+Content-Type: multipart/mixed; boundary="===============4971013906656192711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Mon, 25 Jan 2021 18:19:29 -0000
-Message-Id: <161159876939.16577.5792766215606575171@gitolite.kernel.org>
+Date: Mon, 25 Jan 2021 18:19:34 -0000
+Message-Id: <161159877402.16712.18062065478774388248@gitolite.kernel.org>
 
---===============1059289147272470012==
+--===============4971013906656192711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
-  - ref: refs/heads/for-next
-    old: dc589daea7a0829dc56c6230bca85a9faf7be074
-    new: 4bba12b1b0ed282abe301516029ea333e49a27ac
-    log: revlist-dc589daea7a0-4bba12b1b0ed.txt
+  - ref: refs/heads/v5.12/integ
+    old: 841c208fa7800a02eb0d0e077fdc72cdecc45466
+    new: 1433df182adb1c5ceec440361777eb7788599aa0
+    log: revlist-841c208fa780-1433df182adb.txt
 
---===============1059289147272470012==
+--===============4971013906656192711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc589daea7a0-4bba12b1b0ed.txt
+Content-Disposition: attachment; filename=revlist-841c208fa780-1433df182adb.txt
 
 06fde695ee76429634c1e8c8c1154035aa61191e genirq/msi: Initialize msi_alloc_info before calling msi_domain_prepare_irqs()
 e90f55e0196a66f8e9e445f7f33f876dd889be9a irqchip/irq-sl28cpld: Convert comma to semicolon
@@ -439,5 +439,7 @@ c649d91a8ec4dda78bcbd3890156bffb4df2fa16 arm64: dts: meson: switch TFLASH_VDD_EN
 42e5c6646bd5f1aaeb2e31428e1dbf62b23b05f9 Merge branch 'v5.12/dt' into tmp/aml-rebuild
 b1ab7550f664b250215749bf6383ab7166330010 Merge branch 'v5.12/dt64' into tmp/aml-rebuild
 4bba12b1b0ed282abe301516029ea333e49a27ac Merge branch 'v5.12/soc' into tmp/aml-rebuild
+15e74aab63779d2f766ab22fd1204521f3977870 Merge remote-tracking branch 'clk-meson/v5.12/drivers' into tmp/aml-rebuild
+1433df182adb1c5ceec440361777eb7788599aa0 Merge branch 'v5.12/testing' into tmp/aml-rebuild
 
---===============1059289147272470012==--
+--===============4971013906656192711==--
