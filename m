@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3705490608101925282=="
+Content-Type: multipart/mixed; boundary="===============1412028929948780782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 25 Jan 2021 14:16:30 -0000
-Message-Id: <161158419015.10741.5545855028712097160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 25 Jan 2021 14:16:36 -0000
+Message-Id: <161158419617.10872.8896126181594512523@gitolite.kernel.org>
 
---===============3705490608101925282==
+--===============1412028929948780782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/regulator-5.12
     old: 24be0c715617ed9bfc63fa9483f8bda1214b9763
     new: 7fefe72b0f8c0d7e63af9810c4dcc88757eddcd5
     log: |
          7fefe72b0f8c0d7e63af9810c4dcc88757eddcd5 regulator: pf8x00: Add suspend support
          
 
---===============3705490608101925282==
+--===============1412028929948780782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1611584149 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1611584187-e7249858d6ef56b8d65b6ada3a2a7a786e4e6d7b
+pusher C3F436CA30F5D8EB 1611584155 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1611584194-f7bc4634f913bddd3da615b7fdabda8f1cc85d87
 
-24be0c715617ed9bfc63fa9483f8bda1214b9763 7fefe72b0f8c0d7e63af9810c4dcc88757eddcd5 refs/heads/for-5.12
+24be0c715617ed9bfc63fa9483f8bda1214b9763 7fefe72b0f8c0d7e63af9810c4dcc88757eddcd5 refs/heads/regulator-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAO0pUACgkQJNaLcl1U
-h9C81gf+I21rG/BwUF+ij7gM/g0MbXmxHb73R4R3PtgxdE5NLOBJGxfcMJtCwNsh
-6tGt8ut3Y+nkIjTfymgY9hFH6L7nby/TbW+sETHNNtbWMvbDldDQx2L1BltoOnie
-80EEYGRe3/fpcob2ZNXLYVFoLiSOMsPiaTrBoy5M2z+VE89CzLgHl+juGPlOOjHJ
-45z9/lnJ/PrPkPNoVt1McjuaqkaglZh5/g0qcJYxDXwcnoqSIjP8qY1HnjcH4BeE
-+zIeu9DEH5QhQl4tHEUMCX43YGnn1/RKiqz6jCbzb6FUpLBL87Rk1n3Uk19X5Mi2
-Nx+1B2uHX41poAFkMArCPkIIhr2qkg==
-=+pq9
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAO0psACgkQJNaLcl1U
+h9BhLAf/XyxlhhfSeAAIt7vWH3NavVfgXYUVZlFdeujvWu1CFemW+OgeTR8UfXnZ
+rI07mV6fgRuBR6SESHg6OU4N+HE7WT82mNzbnFUpRpDuUpnDRUsgX7eTfrm8xyYF
+bRkVh5iO37uimwfwtBi1351/TyIOcmw5+FN00DdWpMyml3J2uQlUv8a7uxPSNjl+
+DyX/c0sN8owRIHaELtKBcK6BAR1VAgtfja5dOUivn6N3mMapX2XYHCCAhk2T+5ue
+kGLz4o6LTjEC2+TvLQYIHERxelBO8hl7wkgu3k49OUWPc3/1v+jGTvf2YJTFS3Mt
+UVWpGG6sNPcHU+EG/lICtnj2ycJdCA==
+=WchT
 -----END PGP SIGNATURE-----
 
---===============3705490608101925282==--
+--===============1412028929948780782==--
