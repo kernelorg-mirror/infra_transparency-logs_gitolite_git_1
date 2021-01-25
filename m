@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7221502695049052363=="
+Content-Type: multipart/mixed; boundary="===============1823166625966819988=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 25 Jan 2021 10:21:51 -0000
-Message-Id: <161157011166.16409.8843613602859314557@gitolite.kernel.org>
+Date: Mon, 25 Jan 2021 10:22:11 -0000
+Message-Id: <161157013138.16578.6420886507500805927@gitolite.kernel.org>
 
---===============7221502695049052363==
+--===============1823166625966819988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 17749851eb9ca2298e7c3b81aae4228961b36f28
-    new: 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04
-    log: revlist-17749851eb9c-6ee1d745b7c9.txt
+  - ref: refs/heads/tty-next
+    old: e71a8d5cf4b4f274740e31b601216071e2a11afa
+    new: 0f8b29fabacbcf0e617896c7ea832b7ea2ef2406
+    log: revlist-e71a8d5cf4b4-0f8b29fabacb.txt
 
---===============7221502695049052363==
+--===============1823166625966819988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611570103 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611570122 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1611570102-e965ef16a15a498146750ff63ce690de19889db5
+nonce 1611570121-0be3bee544492cb711a5513597d6c64446640ff2
 
-17749851eb9ca2298e7c3b81aae4228961b36f28 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 refs/heads/tty-linus
+e71a8d5cf4b4f274740e31b601216071e2a11afa 0f8b29fabacbcf0e617896c7ea832b7ea2ef2406 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAOm7cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PbwQAMlWtm96XUju7rk13cD9
-gat9Ny1G7I3IUlMS8JzKKaCluX7u5w0jgpKVQN5nvYlRtgq3aSyhyZLIdBsJrdYV
-8igEHo2psuSc8f35hivIMlQs4z1fx68e5iqhdEMiTwnxEU/g7TYG8AdRrtXVPF+3
-04FFvv7wso+tCC9qz+lhbKUiJ3RFTUCPxYxvarTmDNiiGK9OX0UmI/qzN1t+Z12M
-dC6yyJHOUvtB7oQgYO2X1eHK00MyecSZVy97GvVGhqPk+LX37JKF9OwwHPROpceP
-En1hJhVXOWl2rvDfwSiPrPaTC8gWyCH0llgvBg4BysOG9MyKxYvN3K6aFgm9n+Ry
-oZmcUG6wTf0dvmwTfD9wGSuC2u/lrVg+ZH+R1vzMROonPfeDfj2TjIaMVr6MeOs5
-Ry2Yp7q4ufO+d2kNxsj03wlFPCN38OO89lS1yYMqT6r7NgCHHxi+fTpAyZpAu1E+
-1B3CM2pRdyRZTRZKI8h4A5BAgr4K54TSj46HXKa3fmO6OVFAe0C8Mh0B0jmyzSCX
-O1EbAX+cahq7TPCcaFEhXFY5r5pASL+KzQfeQ78St3pZ27qb2ZOl2bAZ4Lln4hz+
-FvTDmEi7+9duki0i5Kq37to3elOTzuI32BFxCBu0kT0QU7B6/Z6FMXtBNKM7fFZD
-Ze6eK2kV4OM8ISQGeulwWf6g
-=m5d3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAOm8obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KgcQAI67LREvgIWCQSnzpa0i
+vII4vC9ZU4V+x2AU5O1zYxgByCGHln32l/HwqSVnfLLeuFBH3L+51BeKBPht0GXG
+4ISJgZ2w5+kFX2KDc4nGBYif5Bg6kUHiEhIH02zujtu9k7tw8cr4+cbMZndiNIIz
+B6yfZvlbkWDCAlAAsNehVkWSIeAEDGXfCMD6PvFCXWKDVPqWYuHV+2D4z6Hqypbk
+58/l5eeYyr1u2Bmyqlu5yQCq76QWqESUEU5Dru9NbGEWH0yi8MEjHnkIjjz5M77g
+Ttag6gU7P/CEudojMaWbjRxO/+4wS3boWTlUwezq50l95UAe7blpytKYHJtZzAHr
+VGuNs3E/JiHJWSQ4uvTvAeoHt4PwfL0Tf5LdLBlWwb3SMD/unDD1ZmQeJPfJksBT
+EGE2/i81GuyXsPhuOI/WGg0H8EZhdt51yEfj+tkqcguXVe20GJafsnu4PAjOKkvx
+y9GilWeBchxHknTzeloS0f0Rm/cAca4Flyup1zEZz9WVtx9bI3L/rn4R7A4Ifqbo
+i60imq3qrk0BAfEav5jro3GcFqp4BFj8ehcy7A9yOUwl7ZjFTpfaaHeG/4Nfh7G1
+VlN0VuyZ06hAF/HpACdLi8kAdPWED9/d/krn5ltrjhC/Wf5kM6heDFOcKyFz6ark
+7724NSQ571ZOajoHUHaiiAfV
+=qxyk
 -----END PGP SIGNATURE-----
 
---===============7221502695049052363==
+--===============1823166625966819988==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-17749851eb9c-6ee1d745b7c9.txt
+Content-Disposition: attachment; filename=revlist-e71a8d5cf4b4-0f8b29fabacb.txt
 
-36a106a4c1c100d55ba3d32a21ef748cfcd4fa99 block: rsxx: select CONFIG_CRC32
-19cd3403cb0d522dd5e10188eef85817de29e26e lightnvm: select CONFIG_CRC32
-e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62 Linux 5.11-rc2
 4f8b848788f77c7f5c3bd98febce66b7aa14785f zonefs: select CONFIG_CRC32
 5136bb8c8b5872676f397b27f93a30568baf3a25 MAINTAINERS: adjust GCC PLUGINS after gcc-plugin.sh removal
 d39648eb67ac851c7918c794424c266a5d2635b9 kconfig: config script: add a little user help
@@ -967,6 +964,7 @@ db58465f1121086b524be80be39d1fedbe5387f3 cachefiles: Drop superfluous readpages 
 9791581c049c10929e97098374dd1716a81fefcc Merge tag 'for-5.11-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 b135b3358d73aa2a8b2be35d08e422421d1c609e mtd: rawnand: omap: Use BCH private fields in the specific OOB layout
 17cbe03872be8878e2f84047424350d036915df1 mm/memblock: Fix typo in comment of memblock_phys_alloc_try_nid()
+494e63ee9c9f322c1051acc537ac5b99688f7e58 Merge 9bb48c82aced ("tty: implement write_iter") into tty-linus
 e45122893a9870813f9bd7b4add4f613e6f29008 x86/fpu: Add kernel_fpu_begin_mask() to selectively initialize state
 67de8dca50c027ca0fa3b62a488ee5035036a0da x86/mmx: Use KFPU_387 for MMX string operations
 1df35bf0b4e17322ec67e88b86ba21a17f904069 Merge tag 'nvme-5.11-2020-01-21' of git://git.infradead.org/nvme into block-5.11
@@ -1018,6 +1016,7 @@ f722f5bea1caf6681722aedfd544a17e58e41324 Merge tag 'drm-misc-fixes-2021-01-20' o
 83d09ad4b950651a95d37697f1493c00d888d0db Merge tag 'for-linus' of git://github.com/openrisc/linux
 a4166340a6e4d501c9e3aee81c20a269726ecde0 Revert "i2c: imx: Remove unused .id_table support"
 9ecd1d2b302b600351fac50779f43fcb680c1a16 i2c: sprd: depend on COMMON_CLK to fix compile tests
+17749851eb9ca2298e7c3b81aae4228961b36f28 tty: fix up hung_up_tty_write() conversion
 31b081066e9c8f4a931a3d20dc0c6ca63c595c44 misc: rtsx: init value of aspm_enabled
 36c6e17bf16922935a5a0dd073d5b032d34aa73d sched/core: Print out straggler tasks in sched_cpu_dying()
 547a77d02f8cfb345631ce23b5b548d27afa0fc4 workqueue: Use cpu_possible_mask instead of cpu_active_mask to break affinity
@@ -1081,5 +1080,6 @@ a692a610d7ed632cab31b61d6c350db68a10e574 Merge tag 'block-5.11-2021-01-24' of gi
 ef7b1a0ea857af076ea64d131e95b59166ab6163 Merge tag 'io_uring-5.11-2021-01-24' of git://git.kernel.dk/linux-block
 228a65d4544af5086bd167dcc5a0cb4fae2c42b4 Merge tag 'sh-for-5.11' of git://git.libc.org/linux-sh
 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 Linux 5.11-rc5
+0f8b29fabacbcf0e617896c7ea832b7ea2ef2406 Merge 5.11-rc5 into tty-next
 
---===============7221502695049052363==--
+--===============1823166625966819988==--
