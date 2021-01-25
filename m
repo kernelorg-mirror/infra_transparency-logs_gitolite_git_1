@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4330225820152278339=="
+Content-Type: multipart/mixed; boundary="===============7768748660277001555=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 25 Jan 2021 09:39:18 -0000
-Message-Id: <161156755827.17497.6839306876042224073@gitolite.kernel.org>
+Date: Mon, 25 Jan 2021 09:39:38 -0000
+Message-Id: <161156757809.17643.15140508493280927391@gitolite.kernel.org>
 
---===============4330225820152278339==
+--===============7768748660277001555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: a1bfb0ccf94dc79223d0db0d50237d3b3898f0b2
-    new: 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04
-    log: revlist-a1bfb0ccf94d-6ee1d745b7c9.txt
+  - ref: refs/heads/staging-next
+    old: bfe21ef195a9f2785747e698dfd19f75554e2d91
+    new: ec52736c35f29ed96a45e641dd6aad61bc9cb6f7
+    log: revlist-bfe21ef195a9-ec52736c35f2.txt
 
---===============4330225820152278339==
+--===============7768748660277001555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611567549 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611567569 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1611567548-4857063b84a3e2780b61535c2c5ea94147f3eead
+nonce 1611567568-866af592e257ab348e741088b362b210839ac412
 
-a1bfb0ccf94dc79223d0db0d50237d3b3898f0b2 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 refs/heads/staging-linus
+bfe21ef195a9f2785747e698dfd19f75554e2d91 ec52736c35f29ed96a45e641dd6aad61bc9cb6f7 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAOkb0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v7sP/3iLJ/Ri1oiOA+UGxthM
-r8uJIJMQ5hER48XL2WgHYOF5wmJT3QcfMpYmH7ky2Z7JfPrhCPra2m6Qk9jrGIBq
-T4fy5tPJRMT1IiE4vz69wLeZvxaj0fjxxwMGJ4GE10LUtwYR116JuVZGsO3BYyND
-vw9mF2soHEHuae9ekEWPZhOJuV0mTKti3Gl8EryLYHV61F2hels/DI/ZbfuLjt29
-TMTVid+hq3mLk8vIKnsHV7UR44NKYYRFOYAZ9oQa5yZ72eVW1iqVBE8gEVFPzacu
-4jyEPjS2VyWVnGhFfB6rbK8qAqYM7PigbONTy6KQs5IUzFDlYzGsn2WgnR+CwHc1
-Q+MerAPlP6lbZrnJktftMWCdBuhuvwEuYhI5qNv3qfcWAgnL2OnbuavB8KZLRnnQ
-cjhm4GD3wW7up6wukwA7YH1ykSZnJWqaHjNfz20Mb7zmOB9s8SZbSs7yhXqW/mPb
-haPC2d4q7Hpk7NT06zgY02+H2C599d/Z4XEV+J8W7jAxSD7+yQktx1GlTVUeKJT7
-UGSg0qgtWEkI0xX2HsyAz2pSK1AOkdLX4/qPORhR6ubMAk28lPtmRTjxSA3CgyZ8
-okilNQAp5T9zv8OFCAnth7TWK3f6ANtqjBTRuHrxPs+E7w23iw+mHdlzY7/Uame+
-PlJvIJO5T6yaQUmuEWu6QDn5
-=pQ3M
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAOkdEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FzEP/2JwNCgyOqUU+NfmsFLx
+7LhSm3tPDqSYD7+EYOb3wC+oByR3K3/KlWYQyXi/ZhBY+ri8BFAUTxq11FO67PUR
+yTNmBIIMqSh/lAb6Kjb0hlf1xwk+XM9BBGWVSf5xD76W+k1989CE+e5g/koiaZtw
+ad9sJ9Y8L2v/zTX6zV3XK3VEjEQCe+PDveWuCOjp1BlM15E07GHDzEdLmO8JTFNl
+bAeaw56In/BeRIJcjCJzSBYKOsGgYC8apOzhlGKbRkP1yojsHANx8yxNvtdPDeay
+R6tG/5fDRiL2DOyUMREH6dRZ1MRFBlZbL2LPki1zzEc5hDQS6Rd+0UCWYB3+u4DF
+Pz55iy4r3QRQ9ODr9/3+QKEgULcMiq97bFvPjiP0HeR3e42tRiaVh3BiEPLhRAEg
+Us8VVp/a8k5CfBVDI2uT51MgIf1pN3D6pqW7rtdZ6lEiYu+r2UAo155V8dh0LGv8
+5nOAF3DXPPVUUDStpnKWp1Odo4bruwH+bYG2rFaPGwql3AOnTJNch4jVs3nnRj1p
+Yw8nncg6X7n71oZvkUIKS5mHsYEhCUu+RccB1sqEbhwSt45oSIeyEtcycbaK0DRj
+ur8aNgzE50kpUOhzvCdPJxXbKHcvmql2lW/3LnhrY3JVe3MRq5PDYflGED0NvbeH
+9/HecoLuMer/76c7bql7qz7r
+=iMOW
 -----END PGP SIGNATURE-----
 
---===============4330225820152278339==
+--===============7768748660277001555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1bfb0ccf94d-6ee1d745b7c9.txt
+Content-Disposition: attachment; filename=revlist-bfe21ef195a9-ec52736c35f2.txt
 
 f373a811fd9a69fc8bafb9bcb41d2cfa36c62665 ASoC: Intel: fix error code cnl_set_dsp_D0()
 fe6ce6c394fb1ef1d8a6384c5180e70893157f22 MAINTAINERS: Update email address for TI ASoC and twl4030 codec drivers
@@ -456,6 +456,14 @@ a7ddd22151fc2910c7b2faad64680cc2bb699b03 Revert "drm/amd/display: Expose new CRC
 ada831772188192243f9ea437c46e37e97a5975d nvme-tcp: Fix warning with CONFIG_DEBUG_PREEMPT
 ca1ff67d0fb14f39cf0cc5102b1fbcc3b14f6fb9 nvme-tcp: fix possible data corruption with bio merges
 5ab25a32cd90ce561ac28b9302766e565d61304c nvme: don't intialize hwmon for discovery controllers
+a06b63a1200bd40fd20fa695739e479e2b2ae948 iio: sx9310: Off by one in sx9310_read_thresh()
+b6bc1b4ffad4a55c9461707833dc45de2e4367cc dt-bindings: iio: accel: bma255: Fix bmc150/bmi055 compatible
+7e6d9788aa02333a4353058816d52b9a90aae0d3 iio: adc: ti_am335x_adc: remove omitted iio_kfifo_free()
+cf5b1385d748b2f91b0c05bb301fcaf9bdbad385 drivers: iio: temperature: Add delay after the addressed reset command in mlx90632.c
+49a9565a7a7ce168e3e6482fb24e62d12f72ab81 counter:ti-eqep: remove floor
+efd597b2839a9895e8a98fcb0b76d2f545802cd4 iio: ad5504: Fix setting power-down state
+40c48fb79b9798954691f24b8ece1d3a7eb1b353 iio: common: st_sensors: fix possible infinite loop in st_sensors_irq_thread
+b8653aff1c8876142f965fc69e12ba217da13182 iio: sx9310: Fix semtech,avg-pos-strength setting when > 16
 c2083e280a3d4f71941c9c57992d4e621e4e33c5 cfg80211: fix a kerneldoc markup
 6020d534fa012b80c6d13811dc4d2dfedca2e403 mac80211: fix incorrect strlen of .write in debugfs
 622d3b4e39381262da7b18ca1ed1311df227de86 mac80211: fix fast-rx encryption check
@@ -497,6 +505,7 @@ c8f6364f35f32786dd40336cfa35b9166d91b8ab Merge branch '04.00-ampere-lite-fixes' 
 cdaed110311d45cdbefbb9a23a2d1774717b7b71 Merge tag 'trace-v5.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 5ee88057889bbca5f5bb96031b62b3756b33e164 Merge tag 'drm-fixes-2021-01-15' of git://anongit.freedesktop.org/drm/drm
 584265dfec70e78ce2085b82ed389f27e06fbca0 Merge branch '04.01-ampere-lite' of git://github.com/skeggsb/linux into topic/nouveau-ampere-modeset
+a1bfb0ccf94dc79223d0db0d50237d3b3898f0b2 Merge tag 'iio-fixes-for-5.11a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-linus
 217bfbb8b0bfa24619b11ab75c135fec99b99b20 ALSA: seq: oss: Fix missing error check in snd_seq_oss_synth_make_info()
 dca5244d2f5b94f1809f0c02a549edf41ccd5493 compiler.h: Raise minimum version of GCC to 5.1 for arm64
 b6d8878d24e39f213df0f3ea7abebd15edc7be21 arm64: syscall: include prototype for EL0 SVC functions
@@ -797,5 +806,6 @@ a692a610d7ed632cab31b61d6c350db68a10e574 Merge tag 'block-5.11-2021-01-24' of gi
 ef7b1a0ea857af076ea64d131e95b59166ab6163 Merge tag 'io_uring-5.11-2021-01-24' of git://git.kernel.dk/linux-block
 228a65d4544af5086bd167dcc5a0cb4fae2c42b4 Merge tag 'sh-for-5.11' of git://git.libc.org/linux-sh
 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 Linux 5.11-rc5
+ec52736c35f29ed96a45e641dd6aad61bc9cb6f7 Merge 5.11-rc5 into staging-next
 
---===============4330225820152278339==--
+--===============7768748660277001555==--
