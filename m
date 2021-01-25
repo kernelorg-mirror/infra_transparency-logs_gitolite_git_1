@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/phonesim
-Date: Mon, 25 Jan 2021 19:15:19 -0000
-Message-Id: <161160211911.23857.18151222533795628055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 25 Jan 2021 19:20:10 -0000
+Message-Id: <161160241087.26732.8228820927274263111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/phonesim
-user: denkenz
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: 88234820bbbe6774b5ef9f64a85a9980af129474
-    new: a7c844d45b047b2dae5b0877816c346fce4c47b9
+  - ref: refs/heads/mem-ctrl-next
+    old: 1821203150330c4b5604b0350f23902838b53fb7
+    new: 94e9dd43cf327366388c8f146bccdc6322c0d999
     log: |
-         a7c844d45b047b2dae5b0877816c346fce4c47b9 qwsppdu: Port QDateTime deprecations
+         94e9dd43cf327366388c8f146bccdc6322c0d999 memory: ti-aemif: Drop child node when jumping out loop
          
