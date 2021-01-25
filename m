@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5056185561700269769=="
+Content-Type: multipart/mixed; boundary="===============5400283657036042040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 25 Jan 2021 10:13:58 -0000
-Message-Id: <161156963840.9970.18368727490697095112@gitolite.kernel.org>
+Date: Mon, 25 Jan 2021 10:14:18 -0000
+Message-Id: <161156965817.10203.1708680505514177987@gitolite.kernel.org>
 
---===============5056185561700269769==
+--===============5400283657036042040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,56 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: e020ff611ba9be54e959e6b548038f8a020da1c9
-    new: 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04
-    log: revlist-e020ff611ba9-6ee1d745b7c9.txt
+  - ref: refs/heads/driver-core-next
+    old: 3ac6e56c325e4660837efcf995e8460d917b4778
+    new: 072a51be8ecfb84e15b27b7f80a601560f386788
+    log: revlist-3ac6e56c325e-072a51be8ecf.txt
 
---===============5056185561700269769==
+--===============5400283657036042040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611569629 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611569649 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1611569629-0e1cb6ef55bb9b728103e1da144d045e6e014c11
+nonce 1611569648-ff74e4ce54f76f87d5261b0a0830b5858b931f84
 
-e020ff611ba9be54e959e6b548038f8a020da1c9 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 refs/heads/driver-core-linus
+3ac6e56c325e4660837efcf995e8460d917b4778 072a51be8ecfb84e15b27b7f80a601560f386788 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAOmd0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+92gP/Rq+Rp+jM23MBM6l1zWY
-SLDXbQq5UwGwXdF8Vit9vYCnNRFPpWSpnq4I4MrsefwE0HGoJ9ahkodQevssKfyI
-T3jcbWvuLFVFegqDLfbsjRwO5fN+yW2UVGkSaarEP50QeYX4Xm2Adgsc4sA6kHKx
-QNCSgWMKBzFWKYlmKvGuapZnPk+A2tCBgZVT5+6ky17HDjotB7fEEmoRx7KJe1lC
-PHSRHScaQ8vZGY4BWRfVcg66ts92zVEtSR2nSDzI/ag05ZM1u5ZkCuDbs6+CX9vX
-1VLOydzwkMAnf4iJZfH2TaC0wqK2jv32jC06MpjE9lpsaqX+hHlGfvtsNZJKwZhs
-aCOzkTBQYyLKALPSsntZ6OjMmZDdVPZ7yd9WQ238U+VqsoLQWXkNERWUT2OMISo7
-aWIQxba5o4oJH7E+KwZD+cJrsZqwTgu/r7N3iPUkqdrKhvHgR3azTJprET/PqF3w
-QIdkYRgU4ySMzhoCMJu8KA9aUkcb/VIkOer2itdypFWVvGwWriDNHH1KOPsXfzD1
-ha3yhTGka5R12L98ScDJvITmpbsa0qvW0NJScBQ0VF0WsmQ21IS8kA6Dd5XG1CMl
-ATKS/i5M3xdsSg9zoyTcwsjDYERYBasPiKZ5gAezx7QCCpP6GEXlVuDrcD1F+by/
-1sB53Cj1xgHOGBQ/KXnmQ782
-=VAHB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAOmfEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DkkP/2qJVrRG4bMC/FzvXNNO
+0TEgeaTfFy6+MFb5O+tDPG6u/qCZxcQYFLxWpIQKV/mrlHXktEXq3g4P0TjvAbVU
+iGSdmd2BfiAh7qIOQz2Bcf1l7r0j8SFZV0e96S1oHdUnDOg4mrgNdqXe4522zvvg
+kxCqP2qb2QFizOdIaS2Z0ctp/khHvSf5W90HjJIPvDPOK4mexlHm9QduXVKUPhAh
+wzS0YAWrDOz+wY2Ea9EuNOGZ/OWH5T0ggkI0tnqZeKSSMQ/WQI4mNPmaGqUmg9HA
+xNDH+MOtGzUIhOHi3W1vmY1++ZVjzVz7WGF11CztwyQb803MGwMIa+jTslk1rGno
+LZZvoGMQa6t3tKOg6IowmQjz2cWor/CcjhEyLMI4wdKR0ltd95UEfInX+5h75DQJ
+QTC4ROk0yJCK6XcwQL+ZZT6gpRQmAZJGcSwYEMk7t/D9iVwR+DyZOoNqROnEhNB4
+Oovstox+Cy5a6BhkitvP9isI4dfGG/L4MY6xOh0tjC1R053KHWllsZbxaa3ykKA4
+M47OVQplgFWnD8lsCXM/RTygTL9X9sDrIhuEbbPw8ESc+ggNfvfXzmVHOwskW2DG
+CW6fthejsLpIt0fDBxEvDFOr9x7kDrIBkAz2F/Cl2wCObOLad5cuwK/eNhUkA/yk
+oFc0SNHtW5xoDCpKrwHthqxG
+=EUO9
 -----END PGP SIGNATURE-----
 
---===============5056185561700269769==
+--===============5400283657036042040==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e020ff611ba9-6ee1d745b7c9.txt
+Content-Disposition: attachment; filename=revlist-3ac6e56c325e-072a51be8ecf.txt
 
-3d5c5fdcee0f9a94deb0472e594706018b00aa31 ALSA: hda/hdmi: Fix incorrect mutex unlock in silent_stream_disable()
-fd16931a2f518a32753920ff20895e5cf04c8ff1 crypto: arm/chacha-neon - add missing counter increment
-0aa171e9b267ce7c52d3a3df7bc9c1fc0203dec5 crypto: ecdh - avoid buffer overflow in ecdh_set_secret()
-04901aab40ea3779f6fc6383ef74d8e130e817bf bpf: Fix a task_iter bug caused by a merge conflict resolution
-b0e1306302018d876472ed074c1bfaa8020bf9df ALSA: usb-audio: Add quirk for RC-505
-2e202ad873365513c6ad72e29a531071dffa498a gpiolib: cdev: fix frame size warning in gpio_ioctl()
-36a106a4c1c100d55ba3d32a21ef748cfcd4fa99 block: rsxx: select CONFIG_CRC32
-19cd3403cb0d522dd5e10188eef85817de29e26e lightnvm: select CONFIG_CRC32
-4f8b848788f77c7f5c3bd98febce66b7aa14785f zonefs: select CONFIG_CRC32
 5136bb8c8b5872676f397b27f93a30568baf3a25 MAINTAINERS: adjust GCC PLUGINS after gcc-plugin.sh removal
 d39648eb67ac851c7918c794424c266a5d2635b9 kconfig: config script: add a little user help
 c0f975af1745391749e4306aa8081b9a4d2cced8 kconfig: Support building mconf with vendor sysroot ncurses
@@ -428,7 +419,9 @@ ef8048dd2345d070c41bc7df16763fd4d8fac296 block/rnbd: Adding name to the Contribu
 02f938e9fed1681791605ca8b96c2d9da9355f6a blk-mq-debugfs: Add decode for BLK_MQ_F_TAG_HCTX_SHARED
 bac717171971176b78c72d15a8b6961764ab197f ARM: picoxcell: fix missing interrupt-parent properties
 84e261553e6f919bf0b4d65244599ab2b41f1da5 hwmon: (amd_energy) fix allocation of hwmon_channel_info config
+d0243bbd5dd3ebbd49dafa8b56bb911d971131d0 drivers core: Free dma_range_map when driver probe failed
 e076ab2a2ca70a0270232067cd49f76cd92efe64 btrfs: shrink delalloc pages instead of full inodes
+29f7c54b253fc18bff9bf7e9f303b75deb285c7a Driver core: platform: Add extra error check in devm_platform_get_irqs_affinity()
 7c38e769d5c508939ce5dc26df72602f3c902342 HID: Ignore battery for Elan touchscreen on ASUS UX550
 35d0b389f3b23439ad15b610d6e43fc72fc75779 task_work: unconditionally run task_work from get_signal()
 24e8ab6886d80fe60b1d4e64b6d9f15ea9ad597a Merge branches 'acpi-scan' and 'acpi-misc'
@@ -581,6 +574,7 @@ ffaf97899c4a58b9fefb11534f730785443611a8 drm/i915/gt: Limit VFE threads based on
 ea49c88f4071e2bdd55e78987f251ea54aa11004 Merge tag 'mkp-scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi
 e609571b5ffa3528bf85292de1ceaddac342bc1c Merge tag 'nfs-for-5.11-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 d78050ee35440d7879ed94011c52994b8932e96e arm64: Remove arm64_dma32_phys_limit and its uses
+895bee270863588fe3d46dca86cd15d461f47a7a Revert "driver core: Reorder devices on successful probe"
 8e14f610159d524cd7aac37982826d3ef75c09e8 dm crypt: do not call bio_endio() from the dm-crypt tasklet
 4be34f3d0731b38a1b24566b37fbb39500aaf3a2 bpf: Don't leak memory in bpf getsockopt when optlen == 0
 9caa7ff509add50959a793b811cc7c9339e281cd x86/entry: Fix noinstr fail
@@ -987,11 +981,16 @@ c74f865f14318217350aa33363577cb95b06eb82 drm/amd/display: Use hardware sequencer
 8f0d60fe8bf24fd79892a1a22f16c0629d5af6d3 drm/amdgpu: modify GCR_GENERAL_CNTL for Vangogh
 39263a2f886817a376fc27ba9af14c5053f0934b drm/amdgpu: update mmhub mgcg&ls for mmhub_v2_3
 9d5ae6f3c50a6f718b6d4be3c7b0828966e01b05 libceph: fix "Boolean result is used in bitwise operation" warning
+4eaad21a6ac9865df7f31983232ed5928450458d kernfs: implement ->read_iter
+cc099e0b399889c6485c88368b19824b087c9f8c kernfs: implement ->write_iter
+f2d6c2708bd84ca953fa6b6ca5717e79eb0140c7 kernfs: wire up ->splice_read and ->splice_write
+3d1cf435e201d1fd63e4346b141881aed086effd driver core: Extend device_is_dependent()
 927633a6d20af319d986f3e42c3ef9f6d7835008 stm class: Fix module init return on allocation failure
 cb5c681ab9037e25fcca20689c82cf034566d610 intel_th: pci: Add Alder Lake-P support
 9354f1b421f76f8368be13954f87d07bcbd6fffe habanalabs: zero pci counters packet before submit to FW
 f8abaf379bfe19600f96ae79a6759eb37039ae05 habanalabs: fix backward compatibility of idle check
 2dc4a6d79168e7e426e8ddf8e7219c9ffd13b2b1 habanalabs: disable FW events on device removal
+e020ff611ba9be54e959e6b548038f8a020da1c9 driver core: Fix device link device name collision
 63858ac326561af6a1e583ad4314cc1be16852ad Merge tag 'pinctrl-v5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 d7631e4378f26c8e1ba1ad372888e89e69678709 Merge tag 'gpio-fixes-for-v5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 120fbdb84f339ca3c358e4ac3fb1ffe663669d28 Merge tag 'sound-5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
@@ -1081,5 +1080,6 @@ a692a610d7ed632cab31b61d6c350db68a10e574 Merge tag 'block-5.11-2021-01-24' of gi
 ef7b1a0ea857af076ea64d131e95b59166ab6163 Merge tag 'io_uring-5.11-2021-01-24' of git://git.kernel.dk/linux-block
 228a65d4544af5086bd167dcc5a0cb4fae2c42b4 Merge tag 'sh-for-5.11' of git://git.libc.org/linux-sh
 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 Linux 5.11-rc5
+072a51be8ecfb84e15b27b7f80a601560f386788 Merge 5.11-rc5 into driver-core-next
 
---===============5056185561700269769==--
+--===============5400283657036042040==--
