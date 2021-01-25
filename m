@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============5552201100865457696=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 25 Jan 2021 23:00:38 -0000
-Message-Id: <161161563834.23417.1113559277428412369@gitolite.kernel.org>
+Date: Mon, 25 Jan 2021 23:09:10 -0000
+Message-Id: <161161615028.27092.17849030815444952617@gitolite.kernel.org>
+
+--===============5552201100865457696==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,11 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: 6e66fbb10597f31e88c575e07640978f376abcd3
-    new: 78ed4045914c63054f2f377471b5a94f7006d61e
-    log: |
-         458f7272341265e443c227ba55ee4a338021a60a xsk: Remove explicit_free parameter from __xsk_rcv()
-         f0863eab966b95f46f96708b25996c6615856484 xsk: Fold xp_assign_dev and __xp_assign_dev
-         78ed4045914c63054f2f377471b5a94f7006d61e libbpf, xsk: Select AF_XDP BPF program based on kernel version
-         
+  - ref: refs/heads/master
+    old: 78ed4045914c63054f2f377471b5a94f7006d61e
+    new: 095af986525a509c9378edf777aa9e0773645f13
+    log: revlist-78ed4045914c-095af986525a.txt
+
+--===============5552201100865457696==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-78ed4045914c-095af986525a.txt
+
+7140ef14007e472ea97853ae7046c483f9272397 selftests/bpf: Remove a lot of ifobject casting
+449f0874fd4ee36c1eb0664432796ddb912936fa selftests/bpf: Remove unused enums
+a86072838b67a3cdbb2ee2abc6c0ab3fb0d60be5 selftests/bpf: Fix style warnings
+4896d7e37ea5217d42e210bfcf4d56964044704f selftests/bpf: Remove memory leak
+8a9cba7ea858da134d18aa9ea09e1e6606d8ade6 selftests/bpf: Improve readability of xdpxceiver/worker_pkt_validate()
+0b50bd48cfe744def605cafe991ca3db60d326d8 selftests/bpf: Remove casting by introduce local variable
+124000e48b7eec032435b2a33e2038a9c7514b71 selftests/bpf: Change type from void * to struct ifaceconfigobj *
+59a4a87e4b265f476558617d5671c33ff7176012 selftests/bpf: Change type from void * to struct generic_data *
+829725ec7bf538d36f44117eaeb36bdf57be8e54 selftests/bpf: Define local variables at the beginning of a block
+93dd4a06c0e300a2a6538a39f8a30e7b83ff2c66 selftests/bpf: Avoid heap allocation
+d08a17d6de203cca245db11715c95af0b87ec5a3 selftests/bpf: Consistent malloc/calloc usage
+095af986525a509c9378edf777aa9e0773645f13 selftests/bpf: Avoid useless void *-casts
+
+--===============5552201100865457696==--
