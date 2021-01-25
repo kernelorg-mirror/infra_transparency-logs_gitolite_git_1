@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0252298499934729525=="
+Content-Type: multipart/mixed; boundary="===============3938849654875677977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 25 Jan 2021 15:59:15 -0000
-Message-Id: <161159035538.15698.7213668048786821998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 25 Jan 2021 15:59:19 -0000
+Message-Id: <161159035974.15825.999216635373534728@gitolite.kernel.org>
 
---===============0252298499934729525==
+--===============3938849654875677977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: ccc5e9edc1b189a5c49dc8ac5751f95dc6d83564
 
---===============0252298499934729525==
+--===============3938849654875677977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -411,4 +411,4 @@ ef7b1a0ea857af076ea64d131e95b59166ab6163 Merge tag 'io_uring-5.11-2021-01-24' of
 228a65d4544af5086bd167dcc5a0cb4fae2c42b4 Merge tag 'sh-for-5.11' of git://git.libc.org/linux-sh
 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 Linux 5.11-rc5
 
---===============0252298499934729525==--
+--===============3938849654875677977==--
