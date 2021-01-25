@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Mon, 25 Jan 2021 13:35:09 -0000
-Message-Id: <161158170965.10861.15235543518614000504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Mon, 25 Jan 2021 13:35:48 -0000
+Message-Id: <161158174802.11160.2630306915077845232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/tags/v5.11-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5b7c653871ad14d6b0fb53fabd8152ea70ad545e
-  - ref: refs/tags/v5.11-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 7341df6992e7840498cff6ad21380aa7dd97870b
-  - ref: refs/tags/v5.11-rc5
-    old: 0000000000000000000000000000000000000000
-    new: ccc5e9edc1b189a5c49dc8ac5751f95dc6d83564
+  - ref: refs/heads/for-linus
+    old: 535b6a122c6b43af5772ca39cbff7056749aae74
+    new: 61bb17da44a0b6d079e68872e3569bb3eda17656
+    log: |
+         08d60e5999540110576e7c1346d486220751b7f9 printk: fix string termination for record_print_text()
+         61bb17da44a0b6d079e68872e3569bb3eda17656 Merge branch 'printk-rework' into for-linus
+         
