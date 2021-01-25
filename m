@@ -1,44 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 25 Jan 2021 09:36:34 -0000
-Message-Id: <161156739421.16341.15463191141026884416@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4847713769459904353=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 25 Jan 2021 09:37:00 -0000
+Message-Id: <161156742094.16520.17996880253821098487@gitolite.kernel.org>
+
+--===============4847713769459904353==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/renesas-devel-2021-01-25-v5.11-rc5
-    old: 16325b6492096a5659cacf8238ebe34b4e6e94f3
-    new: 9bb7b153c553c3d71eee26f2b18ed38134c7c8d8
+  - ref: refs/heads/staging-next
+    old: 8598bb4c876dbd8ded9f08c91e4c2ae62c9557d9
+    new: bfe21ef195a9f2785747e698dfd19f75554e2d91
     log: |
-         34c0e3e1111bf036d3ffc5f183afc1fff05050e5 arm64: dts: renesas: r8a779a0: Add I2C nodes
-         0e6fb83ef258a9abf5b96c51722765e8ccfca9fe arm64: dts: renesas: falcon: Add I2C0,1,6 support
-         5a633320f08b8c9bccc37f100b3b26202f158dac arm64: dts: renesas: r8a779a0: Add Ethernet-AVB support
-         e8ac55a5e70a952247f7b0a5bd234536a9e099ad arm64: dts: renesas: falcon: Add Ethernet-AVB0 support
-         bff4e5dac9992ba5a6b2d318570b993f4c616b5c arm64: dts: renesas: r8a779a0: Add & update SCIF nodes
-         9e921faa305369e5cbe4fd8f3212a1ad6aa85c79 arm64: dts: renesas: falcon: Complete SCIF0 nodes
-         088e6b23050487cae1bd7f70b439a453689b6f53 arm64: dts: renesas: r8a779a0: Add HSCIF support
-         6b159d547d462f4e47f1ae913f0c05e7071183ec arm64: dts: renesas: r8a779a0: Add MMC node
-         ee33cd69344ff04f3b512eb9d74c16c412b07115 arm64: dts: renesas: falcon: Enable MMC
-         88f9dbd53c9c6e7f2133822d0727208a2033e1d2 Merge branch 'renesas-arm-dt-for-v5.12' into renesas-next
-         70d43ed7025970798f753542ddce0e4eda7abcbf Merge branch 'renesas-next', tag 'v5.11-rc5' into renesas-devel
+         bfe21ef195a9f2785747e698dfd19f75554e2d91 staging: media: atomisp: Fix size_t format specifier in hmm_alloc() debug statemenet
          
-  - ref: refs/tags/renesas-next-2021-01-25-v5.11-rc1
-    old: 74e30c1c80e3e64259eba0ce7401d5e3f8fbe004
-    new: 82584071c8fdb1295c66c52cca26059ce08d8db2
-    log: |
-         34c0e3e1111bf036d3ffc5f183afc1fff05050e5 arm64: dts: renesas: r8a779a0: Add I2C nodes
-         0e6fb83ef258a9abf5b96c51722765e8ccfca9fe arm64: dts: renesas: falcon: Add I2C0,1,6 support
-         5a633320f08b8c9bccc37f100b3b26202f158dac arm64: dts: renesas: r8a779a0: Add Ethernet-AVB support
-         e8ac55a5e70a952247f7b0a5bd234536a9e099ad arm64: dts: renesas: falcon: Add Ethernet-AVB0 support
-         bff4e5dac9992ba5a6b2d318570b993f4c616b5c arm64: dts: renesas: r8a779a0: Add & update SCIF nodes
-         9e921faa305369e5cbe4fd8f3212a1ad6aa85c79 arm64: dts: renesas: falcon: Complete SCIF0 nodes
-         088e6b23050487cae1bd7f70b439a453689b6f53 arm64: dts: renesas: r8a779a0: Add HSCIF support
-         6b159d547d462f4e47f1ae913f0c05e7071183ec arm64: dts: renesas: r8a779a0: Add MMC node
-         ee33cd69344ff04f3b512eb9d74c16c412b07115 arm64: dts: renesas: falcon: Enable MMC
-         88f9dbd53c9c6e7f2133822d0727208a2033e1d2 Merge branch 'renesas-arm-dt-for-v5.12' into renesas-next
-         
+
+--===============4847713769459904353==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611567412 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1611567412-6f59a61d0399885f5aa2f505b7206e842e3cb508
+
+8598bb4c876dbd8ded9f08c91e4c2ae62c9557d9 bfe21ef195a9f2785747e698dfd19f75554e2d91 refs/heads/staging-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAOkTQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+++MQAMj/ouAnYU6jDuHRpFhJ
+4yq8hUO6WWJRTJjAwq2hFLjr2zhrV7QVK7gCZWZ2AiByvSSgFTcK+Umw1IpmFX5E
+sJ55IOkZvqWixAN81zW7i1OXHuJfw6af12d1omuIUqP/LDQUy0t60OCVNsgtt9TE
+4bAvUIXp9SGhzX9WWlzjLRjKmNbZAg0QpFD0O5h3SxB70H8QH0ih0pkGtrtjX7R1
+v57uuuk3BjxALNe3pGXf2A0AoGQ1CWj8MKblcabQIClaNX4TuZvSB0RxL2eavPPN
+3ME/xAja9xOFW7HMd7ItcMX5p5szNvW+3G8DNo4db1WCP2GHsGQrfIA4q4G71xpe
+2Wujur3S57JLAW16K2hE46mVzwsD9rbRlx312H47ajHm5lX2iFx95Jx+z/Fc6NxH
+mz1IND6/z9b9J9JcS02iuw9ksfvCtRd9rSjBTHquDNJi55pLS/Ar5A4LJMWXRDqf
+00I+JlZ8TB0xD6jVbbVzwmwK4XBqQiiUtJOgZl+X9AKDoqL98luC5uyfiPjF3xgq
+6/64oTDno6beCgRNHTGxiTsSTUiyqDY2syUjoqXIWLlG7Srt3Pa7WChJyHbkVP6/
+6U6eWNrU8H7jD+B1QKipezCsUMFRQ6Qg9ElpqqwSYXlZrrjCA6u+g82dHms89hvT
+t/0FDacgb6++a9XIkGNfwCr4
+=kE7D
+-----END PGP SIGNATURE-----
+
+--===============4847713769459904353==--
