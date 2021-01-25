@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Mon, 25 Jan 2021 17:03:31 -0000
-Message-Id: <161159421126.27865.10022937973578513533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Mon, 25 Jan 2021 17:03:52 -0000
+Message-Id: <161159423235.28025.641075902383340289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/pci/rockchip
-    old: 0000000000000000000000000000000000000000
-    new: a20f497741549a09efbc34909d4dc395fd46c66c
+  - ref: refs/heads/ia64/rm-discontig
+    old: 48b8fc18ec8b258fa20e52983cfecae87f7d6f4c
+    new: 0000000000000000000000000000000000000000
