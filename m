@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwamatsu/linux-visconti
-Date: Mon, 25 Jan 2021 00:25:13 -0000
-Message-Id: <161153431303.16400.1039203916894572893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 25 Jan 2021 00:50:02 -0000
+Message-Id: <161153580295.31928.16658291677945149598@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwamatsu/linux-visconti
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/tags/visconti-arm-dt-for-v5.11-tag2
-    old: 0000000000000000000000000000000000000000
-    new: 501f0a91bed85ae378e98241648fc782e0f00a25
+  - ref: refs/heads/io_uring-5.11
+    old: 50a8f08e0abe5b41d702ade86db2e0056df9d4b4
+    new: caf6cd82020e13fa24b07d341417371a0923dd14
+    log: |
+         caf6cd82020e13fa24b07d341417371a0923dd14 io_uring: only call io_cqring_ev_posted() if events were posted
+         
