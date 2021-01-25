@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============0786585118682585359=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 25 Jan 2021 09:36:20 -0000
-Message-Id: <161156738035.16200.1057494501510827671@gitolite.kernel.org>
-
---===============0786585118682585359==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 25 Jan 2021 09:36:34 -0000
+Message-Id: <161156739421.16341.15463191141026884416@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/staging-testing
-    old: 7b7f6ab2063d7def7f89e71601bfb71043d2bd84
-    new: bfe21ef195a9f2785747e698dfd19f75554e2d91
+  - ref: refs/tags/renesas-devel-2021-01-25-v5.11-rc5
+    old: 16325b6492096a5659cacf8238ebe34b4e6e94f3
+    new: 9bb7b153c553c3d71eee26f2b18ed38134c7c8d8
     log: |
-         bfe21ef195a9f2785747e698dfd19f75554e2d91 staging: media: atomisp: Fix size_t format specifier in hmm_alloc() debug statemenet
+         34c0e3e1111bf036d3ffc5f183afc1fff05050e5 arm64: dts: renesas: r8a779a0: Add I2C nodes
+         0e6fb83ef258a9abf5b96c51722765e8ccfca9fe arm64: dts: renesas: falcon: Add I2C0,1,6 support
+         5a633320f08b8c9bccc37f100b3b26202f158dac arm64: dts: renesas: r8a779a0: Add Ethernet-AVB support
+         e8ac55a5e70a952247f7b0a5bd234536a9e099ad arm64: dts: renesas: falcon: Add Ethernet-AVB0 support
+         bff4e5dac9992ba5a6b2d318570b993f4c616b5c arm64: dts: renesas: r8a779a0: Add & update SCIF nodes
+         9e921faa305369e5cbe4fd8f3212a1ad6aa85c79 arm64: dts: renesas: falcon: Complete SCIF0 nodes
+         088e6b23050487cae1bd7f70b439a453689b6f53 arm64: dts: renesas: r8a779a0: Add HSCIF support
+         6b159d547d462f4e47f1ae913f0c05e7071183ec arm64: dts: renesas: r8a779a0: Add MMC node
+         ee33cd69344ff04f3b512eb9d74c16c412b07115 arm64: dts: renesas: falcon: Enable MMC
+         88f9dbd53c9c6e7f2133822d0727208a2033e1d2 Merge branch 'renesas-arm-dt-for-v5.12' into renesas-next
+         70d43ed7025970798f753542ddce0e4eda7abcbf Merge branch 'renesas-next', tag 'v5.11-rc5' into renesas-devel
          
-
---===============0786585118682585359==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611567371 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1611567370-9f212ca60b7cd3cd470717d9a7ec976ccf529d00
-
-7b7f6ab2063d7def7f89e71601bfb71043d2bd84 bfe21ef195a9f2785747e698dfd19f75554e2d91 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAOkQsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DBsP/1effaU42V8nx59ydrEz
-w0L1N/kuqVty794796tblDXe3gct/cIKwNyQPPNJUoKFjjKPic8gLvfMerhfWm1D
-aYr5ppFy4ZwS0d4I+NYVTpnrDsHXMQa8ZBK9Ied+IIK+oqOQgm5OXpoYlCW1FMxR
-fyi0IT9Ux/DzLyuzLtbPYjb2iZxOxqbRSqK9Uo9RtYeKloXrShcaFEamBFBZTj5W
-+tQqNFCygcJlfs+dJcJUsuM8AclYdTWTRpG4ShpARwsM17KKJ0ATeA8v4uQtd8c/
-sOGq9F3v9InJFrVYbqlSC74TNswqFvYRqFU6szlKYfdrbK/0rtz8dSfOOCdk2DYu
-IoFXe9VE19cOYaNL88lzSBcj1Qytx9Mfqo9OoWhGzDdFHLCwlsh6tHSQOw2u0OSy
-SIS7lgcEUCiTpdZE5U6vwm8bS25x+Nl23ZvrXB15ndXAYRxuGQb1r6PQS42I5CRq
-z4jsD9CxEs1XMLtkSaeuTKMv4RpzZSbUXyXLK+z21Vx6Pb56FrQjcESYHAJfEp8K
-6dD2xPtCF8jeLS0R1iIjfDmyl0DqKzDWIrYEHALJQ4I13cM7u+VpQFVjuSnidKJQ
-XYM+3QJqo76cMhbVeFPGeEisUX+7hChIHmGjqHfzatI7XNF/iqTu/mahJ2IOJnnh
-VUgTzHtv1qPN6bcjhgxpiOJr
-=iBjj
------END PGP SIGNATURE-----
-
---===============0786585118682585359==--
+  - ref: refs/tags/renesas-next-2021-01-25-v5.11-rc1
+    old: 74e30c1c80e3e64259eba0ce7401d5e3f8fbe004
+    new: 82584071c8fdb1295c66c52cca26059ce08d8db2
+    log: |
+         34c0e3e1111bf036d3ffc5f183afc1fff05050e5 arm64: dts: renesas: r8a779a0: Add I2C nodes
+         0e6fb83ef258a9abf5b96c51722765e8ccfca9fe arm64: dts: renesas: falcon: Add I2C0,1,6 support
+         5a633320f08b8c9bccc37f100b3b26202f158dac arm64: dts: renesas: r8a779a0: Add Ethernet-AVB support
+         e8ac55a5e70a952247f7b0a5bd234536a9e099ad arm64: dts: renesas: falcon: Add Ethernet-AVB0 support
+         bff4e5dac9992ba5a6b2d318570b993f4c616b5c arm64: dts: renesas: r8a779a0: Add & update SCIF nodes
+         9e921faa305369e5cbe4fd8f3212a1ad6aa85c79 arm64: dts: renesas: falcon: Complete SCIF0 nodes
+         088e6b23050487cae1bd7f70b439a453689b6f53 arm64: dts: renesas: r8a779a0: Add HSCIF support
+         6b159d547d462f4e47f1ae913f0c05e7071183ec arm64: dts: renesas: r8a779a0: Add MMC node
+         ee33cd69344ff04f3b512eb9d74c16c412b07115 arm64: dts: renesas: falcon: Enable MMC
+         88f9dbd53c9c6e7f2133822d0727208a2033e1d2 Merge branch 'renesas-arm-dt-for-v5.12' into renesas-next
+         
