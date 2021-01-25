@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1725491528523394647=="
+Content-Type: multipart/mixed; boundary="===============5409062470877733875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 25 Jan 2021 14:16:16 -0000
-Message-Id: <161158417640.10551.5100139301708231048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 25 Jan 2021 14:16:22 -0000
+Message-Id: <161158418258.10643.16428487353283759223@gitolite.kernel.org>
 
---===============1725491528523394647==
+--===============5409062470877733875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 1d8fe0648e118fd495a2cb393a34eb8d428e7808
     new: 5413dfd8ce0d5d997d442440701814a8ce7025d9
     log: |
@@ -29,28 +29,28 @@ changes:
          5413dfd8ce0d5d997d442440701814a8ce7025d9 Merge series "ASoC: SOF: partial fix to Kconfig issues" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
          
 
---===============1725491528523394647==
+--===============5409062470877733875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1611584135 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1611584174-76c39173a5c9f80b2132256bfe8fe7efba0cedde
+pusher C3F436CA30F5D8EB 1611584142 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1611584180-6740c96cde3127cf4e6f8aaec8a68f1ae25da10a
 
-1d8fe0648e118fd495a2cb393a34eb8d428e7808 5413dfd8ce0d5d997d442440701814a8ce7025d9 refs/heads/for-5.11
+1d8fe0648e118fd495a2cb393a34eb8d428e7808 5413dfd8ce0d5d997d442440701814a8ce7025d9 refs/heads/asoc-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAO0ocACgkQJNaLcl1U
-h9BAtgf+OjViIlWoV8/Tap22cED8vE8hLGAkF6P+B92jEhOSih3XlV+bzgqUq+N4
-icIq7qOeQcA2Tsnwd2nbxTK4joOdh1Loq+buAugtBava82zmJdFuoc4H2usj9i3J
-sRuanja55kdkZNOuAx3K3Q/nKcCMKWVwk/vPw0ZriJHKU+GJXCGxxOK+I5UM+BT2
-8Nz4QZDRgqJGp77e/GzUlkK88MZ9wJUvPUW7fuQ8poSOjLK8V9LmrtQC0X/nFz+P
-1miD/syaxrm4V+xNidHT7hjvOyTv5hCIXZAfKJDmOcJUtgKdaWxsmsrCRtb6TXeX
-PLDEYH6/zdQP9PgH0IsTHifaVhAhaA==
-=AjyM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAO0o4ACgkQJNaLcl1U
+h9D9uwf/ck013TgITXjnOErzwFTwlsPJ+PefUXoRhipL9VNGhpoIKaf445JKmfet
+RFO8Onc8CFXqnRSQQpgtIEaOtVKmPz41RVVIva7wNzcEpxIC8YHMLOl13fl8aqPB
+G0mExMYVCbZ3DFxTo3gKp0OR2jsuilGE8hdoYtocUNUdaHp694FlI3L/C8KncLU2
+2txSW/0w2wIS6K1cQA91zzpEzH3yUmmKj844opwPz6xPJHk+PYHVMbZCHQLZWAAe
+LId0E8/huUNyxSIqwp57mcGYdlbYSKDZKmtIMazqwRLvqTTYlkQdRrL1rAIUK/4K
+H85xqxikrSWNQniHrWYDIy+m9SpYRg==
+=OFCm
 -----END PGP SIGNATURE-----
 
---===============1725491528523394647==--
+--===============5409062470877733875==--
