@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4971013906656192711=="
+Content-Type: multipart/mixed; boundary="===============6114712644710071779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Mon, 25 Jan 2021 18:19:34 -0000
-Message-Id: <161159877402.16712.18062065478774388248@gitolite.kernel.org>
+Date: Mon, 25 Jan 2021 18:19:38 -0000
+Message-Id: <161159877832.16808.14782623216679128332@gitolite.kernel.org>
 
---===============4971013906656192711==
+--===============6114712644710071779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
-  - ref: refs/heads/v5.12/integ
-    old: 841c208fa7800a02eb0d0e077fdc72cdecc45466
+  - ref: refs/heads/integ
+    old: d0db383af9ea2ac3b78419bb74abadb7acf1aafd
     new: 1433df182adb1c5ceec440361777eb7788599aa0
-    log: revlist-841c208fa780-1433df182adb.txt
+    log: revlist-d0db383af9ea-1433df182adb.txt
 
---===============4971013906656192711==
+--===============6114712644710071779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-841c208fa780-1433df182adb.txt
+Content-Disposition: attachment; filename=revlist-d0db383af9ea-1433df182adb.txt
 
 06fde695ee76429634c1e8c8c1154035aa61191e genirq/msi: Initialize msi_alloc_info before calling msi_domain_prepare_irqs()
 e90f55e0196a66f8e9e445f7f33f876dd889be9a irqchip/irq-sl28cpld: Convert comma to semicolon
@@ -442,4 +442,4 @@ b1ab7550f664b250215749bf6383ab7166330010 Merge branch 'v5.12/dt64' into tmp/aml-
 15e74aab63779d2f766ab22fd1204521f3977870 Merge remote-tracking branch 'clk-meson/v5.12/drivers' into tmp/aml-rebuild
 1433df182adb1c5ceec440361777eb7788599aa0 Merge branch 'v5.12/testing' into tmp/aml-rebuild
 
---===============4971013906656192711==--
+--===============6114712644710071779==--
