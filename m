@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 26 Jan 2021 21:30:36 -0000
-Message-Id: <161169663691.22417.5039558139591023287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Tue, 26 Jan 2021 21:40:58 -0000
+Message-Id: <161169725821.27302.3130772335584256605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: bgix
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: f21dfebe76b3eb856a01367d6be0e41683bb2cba
-    new: e1daac43aaeb11fa49ba4816bf411198e64a5d51
+    old: 76670feaae0ff74f00c87975a5ee950870f934ff
+    new: 3d096702811df919e07f2e4d2c886669e687e520
     log: |
-         af31c41667b12c3eb4c77d984f85d538c6da8f38 tools: Fix static analysis warnings
-         e1daac43aaeb11fa49ba4816bf411198e64a5d51 ELL: Up-rev the ELL file list to version Rel 0.37
+         3d096702811df919e07f2e4d2c886669e687e520 dhcp-util: fix GCC 10 warning
          
