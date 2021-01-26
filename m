@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8531713385575627354=="
+Content-Type: multipart/mixed; boundary="===============0899815230556711974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Tue, 26 Jan 2021 06:58:11 -0000
-Message-Id: <161164429142.3768.17018038142823673469@gitolite.kernel.org>
+Date: Tue, 26 Jan 2021 07:33:57 -0000
+Message-Id: <161164643727.23672.5016785501949107413@gitolite.kernel.org>
 
---===============8531713385575627354==
+--===============0899815230556711974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: bae283deeca8cae58b56dd42eb2825482f2eea6c
+  - ref: refs/heads/next
+    old: de69fed15709798fd9027b30294866e8340ffd43
     new: 932a69c9437ce4dfc988311a454cb27468a853e3
-    log: revlist-bae283deeca8-932a69c9437c.txt
+    log: revlist-de69fed15709-932a69c9437c.txt
 
---===============8531713385575627354==
+--===============0899815230556711974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bae283deeca8-932a69c9437c.txt
+Content-Disposition: attachment; filename=revlist-de69fed15709-932a69c9437c.txt
 
 f373a811fd9a69fc8bafb9bcb41d2cfa36c62665 ASoC: Intel: fix error code cnl_set_dsp_D0()
 fe6ce6c394fb1ef1d8a6384c5180e70893157f22 MAINTAINERS: Update email address for TI ASoC and twl4030 codec drivers
@@ -825,4 +825,4 @@ da696d43a9636e63c2bf957abcf3e587af3ad4fd habanalabs: always try to use the hint 
 1104fa33a74335bbbee8ff22d12c7d320aa0fc18 habanalabs: add new mem ioctl op for mapping hw blocks
 932a69c9437ce4dfc988311a454cb27468a853e3 habanalabs: add CS completion and timeout properties
 
---===============8531713385575627354==--
+--===============0899815230556711974==--
