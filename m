@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Tue, 26 Jan 2021 09:05:11 -0000
-Message-Id: <161165191162.13683.4914555339319739282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nsaenz/linux-rpi
+Date: Tue, 26 Jan 2021 09:16:36 -0000
+Message-Id: <161165259686.19623.1580048364408211231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: nferre
+repo: pub/scm/linux/kernel/git/nsaenz/linux-rpi
+user: nsaenz
 changes:
-  - ref: refs/heads/at91-next
-    old: 9641c66cd2777dfdc35a5a151ded89c9c42e3464
-    new: a13737e9c2322bd09133308215fa450024ceb022
+  - ref: refs/heads/for-next
+    old: 7a593644505368c2dd78bcf9baf5956a43349f2c
+    new: 3a3d8f09f497e66a61e49065bd415c92d7f99a26
     log: |
-         975435132ecfef8de2118668c9f4f95086a0aae5 drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
-         8eb2f88c6084b9dc69147abb3d24dafe36ecda8a drivers: soc: atmel: use GENMASK
-         11272a373c44a5bea3a1dd051a7e84e396926c14 drivers: soc: atmel: fix "__initconst should be placed after socs[]" warning
-         af3a10513cd628269c3207bc50b8a5886c566ec4 drivers: soc: atmel: add per soc id and version match masks
-         65d41b143329669e46f5306b867ac97b3beb38df dt-bindings: atmel-sysreg: add "microchip, sama7g5-chipid"
-         f12a29cb566699614266471342872193db1a1f52 drivers: soc: atmel: add support for sama7g5
-         a13737e9c2322bd09133308215fa450024ceb022 Merge branch 'at91-soc' into at91-next
+         724df209cb9622cc002819bf2718c248fcc0c126 ARM: dts: bcm2711: Use compatible string for BCM2711 DSI1
+         0dc2fbb111a41569162f73e192cfd913e0399fe6 ARM: dts: bcm2711: Add reserved memory template to hold firmware configuration
+         adec1fa51c95d1a31a2795a3ac36bd064e22d117 arm64: defconfig: Enable nvmem's rmem driver
+         733424111909c8dd9cd59df4ae133bd5ba45902e ARM: multi_v7_defconfig: Enable nvmem's rmem driver
+         0a0d8429ad512fd076dbde25a30c9a66f8f4466b ARM: bcm: Select BRCMSTB_L2_IRQ for bcm2835
+         3a3d8f09f497e66a61e49065bd415c92d7f99a26 ARM: dts: bcm2711: Add the BSC interrupt controller
          
