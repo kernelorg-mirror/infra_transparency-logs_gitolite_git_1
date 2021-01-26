@@ -1,81 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8117071150945426021=="
+Content-Type: multipart/mixed; boundary="===============9147117583568284244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 26 Jan 2021 18:48:15 -0000
-Message-Id: <161168689546.26991.4037069583480762564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Tue, 26 Jan 2021 18:48:32 -0000
+Message-Id: <161168691253.27195.14505886755232241364@gitolite.kernel.org>
 
---===============8117071150945426021==
+--===============9147117583568284244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/scmi_dt_defconfig
-    old: 97b34c249357de8dd0fb1728d633330238b7ac63
-    new: 61f87e263006bb7de6effbcf751073d272588323
-    log: revlist-97b34c249357-61f87e263006.txt
+  - ref: refs/heads/md-next
+    old: dea8dcf2a9fa8cc540136a6cd885c3beece16ec3
+    new: ae5fc93485e1e3fb961345359facfab24685410d
+    log: revlist-dea8dcf2a9fa-ae5fc93485e1.txt
 
---===============8117071150945426021==
+--===============9147117583568284244==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-97b34c249357-61f87e263006.txt
+Content-Disposition: attachment; filename=revlist-dea8dcf2a9fa-ae5fc93485e1.txt
 
-c0f975af1745391749e4306aa8081b9a4d2cced8 kconfig: Support building mconf with vendor sysroot ncurses
-0c36d88cff4d72149f94809303c5180b6f716d39 lib/raid6: Let $(UNROLL) rules work with macOS userland
-9bba03d4473df0b707224d4d2067b62d1e1e2a77 kconfig: remove 'kvmconfig' and 'xenconfig' shorthands
-764257d9069a9c19758b626cc1ba4ae079335d9e phy: cpcap-usb: Fix warning for missing regulator_disable
-d092bd9110494de3372722b317510b3692f1b2fe phy: mediatek: allow compile-testing the dsi phy
-d6c1ddd938d84a1adef7e19e8efc10e1b4df5034 USB: serial: option: add Quectel EM160R-GL
-42e85f90171a4ba59a1e1cedbbc30ce3f68f2317 arm64/smp: Remove unused irq variable in arch_show_interrupts()
-b614231dec7864a338ce85032aa3d2d7ea2bc46d arm64: mte: remove an ISB on kernel exit
-095507dc1350b3a2b8b39fdc05edba0c10859eca arm64: mm: Fix ARCH_LOW_ADDRESS_LIMIT when !CONFIG_ZONE_DMA
-4883a60c17eda6bf52d1c817ee7ead65b4a02da2 mtd: rawnand: gpmi: fix dst bit offset when extracting raw payload
-26982a89cad77c0efc1c0c79bee0e3d75e9281d4 afs: Work around strnlen() oops with CONFIG_FORTIFIED_SOURCE=y
-366911cd762db02c2dd32fad1be96b72a66f205d afs: Fix directory entry size calculation
-0bd1bf86ab79555425b9f0b63005e181defe4da6 dmaengine: qcom: fix gpi undefined behavior
-99974aedbd73523969afb09f33c6e3047cd0ddae dmaengine: xilinx_dma: check dma_async_device_register return value
-faeb0731be0a31e2246b21a85fa7dabbd750101d dmaengine: xilinx_dma: fix incompatible param warning in _child_probe()
-2d5efea64472469117dc1a9a39530069e95b21e9 dmaengine: xilinx_dma: fix mixed_enum_type coverity warning
-98bf2d3f4970179c702ef64db658e0553bc6ef3a powerpc/32s: Fix RTAS machine check with VMAP stack
-c3d6eb6e54373f297313b65c1f2319d36914d579 HID: multitouch: Enable multi-input for Synaptics pointstick/touchpad device
-6170d077bf92c5b3dfbe1021688d3c0404f7c9e9 spi: fix the divide by 0 error when calculating xfer waiting time
-2bf3a72b08e7f6356a2db9e1571ca65f683510bb dt-bindings: regulator: qcom,rpmh-regulator: add pm8009 revision
-df6b92fa40050e59ea89784294bf6d04c0c47705 regulator: qcom-rpmh-regulator: correct hfsmps515 definition
-d957d1610c661e758426654de3b04bea6fb29f8b regulator: qcom-rpmh: add QCOM_COMMAND_DB dependency
-4b1a60a1bb8f03d82c3f6da424adc96667b59f2a MAINTAINERS: Update Georgi's email address
-9a85c09a3f507b925d75cb0c7c8f364467038052 pinctrl: ingenic: Fix JZ4760 support
-b4aa4876e58d12fb3ace425969dcbf4df37aa254 pinctrl: ingenic: Rename registers from JZ4760_GPIO_* to JZ4770_GPIO_*
-f981dc171c04c6cf5a35c712543b231ebf805832 tools/power/x86/intel-speed-select: Set scaling_max_freq to base_frequency
-bbaa2e95e23e74791dd75b90d5ad9aad535acc6e tools/power/x86/intel-speed-select: Set higher of cpuinfo_max_freq or base_frequency
-6a4b1f2dff558d75ee4f2ce88595a933b6918183 platform/surface: surface_gpe: Fix non-PM_SLEEP build warnings
-e4a02c7a0e3aeb966e4fdc4a43dce978c467fe83 platform/surface: SURFACE_PLATFORMS should depend on ACPI
-9bba96275576da0cf78ede62aeb2fc975ed8a32d platform/x86: i2c-multi-instantiate: Don't create platform device for INT3515 ACPI nodes
-46c54cf2706122c37497896d56d67b0c0aca2ede platform/x86: touchscreen_dmi: Add swap-x-y quirk for Goodix touchscreen on Estar Beauty HD tablet
-fcd38f178b785623c0325958225744f0d8a075c0 platform/x86: intel-vbtn: Support for tablet mode on Dell Inspiron 7352
-aa44afab87af079e0cf2ead9621d0447798a305e platform/x86: thinkpad_acpi: correct palmsensor error checking
-5b569302520ac8cef03e7a841e45cb37234f8b5f platform/x86: amd-pmc: Fix CONFIG_DEBUG_FS check
-92ff62a7bcc17d47c0ce8dddfb7a6e1a2e55ebf4 pinctrl: aspeed: g6: Fix PWMG0 pinctrl setting
-de30491e8bfeeba1500bba293333eb51ece529d5 HID: sfh: fix address space confusion
-273435a1d4e5826f039625c23ba4fe9a09f24d75 HID: sony: select CONFIG_CRC32
-0e2d6795e8dbe91c2f5473564c6b25d11df3778b USB: serial: option: add LongSung M5710 module support
-54d0a3ab80f49f19ee916def62fe067596833403 USB: serial: iuu_phoenix: fix DMA from stack
-4bfd6247fa9164c8e193a55ef9c0ea3ee22f82d8 ALSA: hda/via: Fix runtime PM for Clevo W35xSS
-020a1f453449294926ca548d8d5ca970926e8dfd USB: usblp: fix DMA to stack
-718bf42b119de652ebcc93655a1f33a9c0d04b3c usb: usbip: vhci_hcd: protect shift size
-a1383b3537a7bea1c213baa7878ccc4ecf4413b5 usb: dwc3: gadget: Restart DWC3 gadget when enabling pullup
-64e6bbfff52db4bf6785fab9cffab850b2de6870 usb: gadget: configfs: Fix use-after-free issue with udc_name
-7043e311a57625467b6fdb032dec8a6dea878208 usb: gadget: core: change the comment for usb_gadget_connect
-d7889c2020e08caab0d7e36e947f642d91015bd0 usb: gadget: select CONFIG_CRC32
-6cd0fe91387917be48e91385a572a69dfac2f3f7 usb: gadget: configfs: Preserve function ordering after bind failure
-e1263f9277bad198c2acc8092a41aea1edbea0e4 dmaengine: stm32-mdma: fix STM32_MDMA_VERY_HIGH_PRIORITY value
-65a4e5299739abe0888cda0938d21f8ea3b5c606 kunit: tool: Force the use of the 'tty' console for UML
-36836f5b377b5a75c16f5bdc5c0f97f9f51212e1 Merge qcom driver fix into regulator-5.11
 3b4cf848dad5dad4bf239ba664c809c8cf29f1ed selftests/vDSO: add additional binaries to .gitignore
 df00d02989024d193a6efd1a85513a5658c6a10f selftests/vDSO: fix -Wformat warning in vdso_test_correctness
 7a6eb7c34a78498742b5f82543b7a68c1c443329 selftests: Skip BPF seftests by default
@@ -1047,8 +997,58 @@ a692a610d7ed632cab31b61d6c350db68a10e574 Merge tag 'block-5.11-2021-01-24' of gi
 ef7b1a0ea857af076ea64d131e95b59166ab6163 Merge tag 'io_uring-5.11-2021-01-24' of git://git.kernel.dk/linux-block
 228a65d4544af5086bd167dcc5a0cb4fae2c42b4 Merge tag 'sh-for-5.11' of git://git.libc.org/linux-sh
 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 Linux 5.11-rc5
-b1921ff3ddf78479f245cb8d19102db5634c33e0 dt-bindings: dvfs: Add support for generic performance domains
-ffd3f476dda3501051080af04e99ca4286a82bd6 arm64: defconfig: add all SCMI related configs
-61f87e263006bb7de6effbcf751073d272588323 arm64: dts: juno: add mhu doorbell support and scmi device nodes
+1e0dcca9e1aa3caa1a0dc4300db1a091078fe40b dm: use bdev_read_only to check if a device is read-only
+6f0d9689b670bc9f9640ff87b3f9226b7806dea2 block: remove the NULL bdev check in bdev_read_only
+52f019d43c229afd65dc11c8c1b05b6436bf6765 block: add a hard-readonly flag to struct gendisk
+947139bf3cce097739380c9782a35de504f24203 block: propagate BLKROSET on the whole device to all partitions
+cbf72cce6370b3ec1a6073cf777ab9b6ba5bf5b9 rbd: remove the ->set_read_only method
+d11cd28998e9d25389d8c20e7cce0e4b4f17bee1 nvme: allow revalidate to set a namespace read-only
+74cb8994b22ad7b95ac38dad9c9609ae49e88ec1 brd: remove the end of device check in brd_do_bvec
+cf9a978f9781fb30b778ee61ef6bd164c655d9ff dcssblk: remove the end of device check in dcssblk_submit_bio
+309dca309fc39a9e3c31b916393b74bd174fd74e block: store a block_device pointer in struct bio
+2f9f6221b9b9944e96c80455b469a6f0269c558b block: simplify submit_bio_checks a bit
+30c5d3456c272f0de0d7e7eb9fc355fa64a5f649 block: do not reassig ->bi_bdev when partition remapping
+99dfc43ecbf67f12a06512918aaba61d55863efc block: use ->bi_bdev for bio based I/O accounting
+0b6e522cdc4a76352e5f02fc2d92198f03254425 blk-mq: use ->bi_bdev for I/O accounting
+bc359d03c7ec1bf3b86d03bafaf6bbb21e6414fd block: add a disk_uevent helper
+0470dd9d5f103e7f1d5ba8f755f687c3106c7df1 block: remove DISK_PITER_REVERSE
+a33df75c6328bf40078b35f2040d8e54d574c357 block: use an xarray for disk->part_tbl
+b5f74ecacc3139ef873e69acc3aba28083ecc416 block, bfq: use half slice_idle as a threshold to check short ttime
+d4fc3640ff361a09e359867e0bca898abd2b7ecb block, bfq: set next_rq to waker_bfqq->next_rq in waker injection
+ab1fb47e33dc7754a7593181ffe0742c7105ea9a block, bfq: increase time window for waker detection
+91b896f65d32610d6d58af02170b15f8d37a7702 block, bfq: do not raise non-default weights
+3c337690d2ebb7a01fa13bfa59ce4911f358df42 block, bfq: avoid spurious switches to soft_rt of interactive queues
+2391d13ed484df1515f0025458e1f82317823fab block, bfq: do not expire a queue when it is the only busy one
+5ac83c644f5fb924f0b2c09102ab82fc788f8411 Revert "blk-mq, elevator: Count requests per hctx to improve performance"
+b6e68ee82585f2ee890b0a897a6aacbf49a467bb blk-mq: Improve performance of non-mq IO schedulers with multiple HW queues
+1a23e06cdab2be07cbda460c6417d7de564c48e6 bfq: don't duplicate code for different paths
+49d1ec8573f74ff1e23df1d5092211de46baa236 block: manage bio slab cache by xarray
+c495a17679523c95f77f13697a71921dd5c224cd block: don't pass BIOSET_NEED_BVECS for q->bio_split
+9f180e315a93cde559ac1c9c4c5ce980aa681c1c block: don't allocate inline bvecs if this bioset needn't bvecs
+baa2c7c97153b8064dbeeb99f2f72de3a75c90a7 block: set .bi_max_vecs as actual allocated vector number
+eec716a1c18c796a69db0be5e2a6f282ba5bccd6 block: move three bvec helpers declaration into private helper
+faa8e2c4fb30f336a289e3cbaa1e9a9dfd92ac8c bcache: don't pass BIOSET_NEED_BVECS for the 'bio_set' embedded in 'cache_set'
+0f7b4bc6bb1e57c48ef14f1818df947c1612b206 bsg: free the request before return error code
+8eeed0b554b9fda61be05b17cbb0b89ea2cbbb65 block: remove unnecessary argument from blk_execute_rq_nowait
+684da7628d93bbdcfba9081b917d99f29ad04c23 block: remove unnecessary argument from blk_execute_rq
+0f1d344feb534555a0dcd0beafb7211a37c5355e splice: don't generate zero-len segement bvecs
+9b2e0016d04c6542ace0128eb82ecb3b10c97e43 bvec/iter: disallow zero-length segment bvecs
+0cf41e5e9bafc185490624c3e321c915885a91f3 block/psi: remove PSI annotations from direct IO
+ecd7fba0ade1d6d8d49d320df9caf96922a376b2 target/file: allocate the bvec array as part of struct target_core_file_cmd
+54c8195b4ebe10af66b49ab9c809bc16939555fc iov_iter: optimise bvec iov_iter_advance()
+3e1a88ec96259282b9a8b45c3f1fda7a3ff4f6ea bio: add a helper calculating nr segments to alloc
+c42bca92be928ce7dece5fc04cf68d0e37ee6718 bio: don't copy bvec for direct IO
+3a905c37c3510ea6d7cfcdfd0f272ba731286560 block: skip bio_check_eod for partition-remapped bios
+eb2fd80f9d2c515a901599362e83bc3356fc5e97 block, bfq: replace mechanism for evaluating I/O intensity
+7f1995c27b19060dbdff23442f375e3097c90707 block, bfq: re-evaluate convenience of I/O plugging on rq arrivals
+d1f600fa4732dac36c71a03b790f0c829a076475 block, bfq: fix switch back from soft-rt weitgh-raising
+e673914d52f913584cc4c454dfcff2e8eb04533f block, bfq: save also weight-raised service on queue merging
+5a5436b98d5cd2714feaaa579cec49dd7f7057bb block, bfq: save also injection state on queue merging
+71217df39dc67a0aeed83352b0d712b7892036a2 block, bfq: make waker-queue detection more robust
+a5bf0a92e1b8282c93018383b2526ca59602dd08 bfq: bfq_check_waker() should be static
+a7c7f7b2b641bef52212fbe8be4a66ede043d3c7 nvme: use bio_set_dev to assign ->bi_bdev
+f65b95fe0cedc1be2ec33a2892ee43fae0408719 bcache: use bio_set_dev to assign ->bi_bdev
+46bbf653a67a36989a55dbb894c8b94c5ecb2858 block: inherit BIO_REMAPPED when cloning bios
+ae5fc93485e1e3fb961345359facfab24685410d md/raid5: cast chunk_sectors to sector_t value
 
---===============8117071150945426021==--
+--===============9147117583568284244==--
