@@ -1,26 +1,45 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Tue, 26 Jan 2021 16:43:40 -0000
-Message-Id: <161167942035.16903.12826067993344309513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 26 Jan 2021 16:50:03 -0000
+Message-Id: <161167980391.21510.10158870904213050329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/cpupower
-    old: fb7791e213a64495ec2336869b868fcd8af14346
-    new: 3a3ecfdb605cc8d98988012a4f88c34b4d220c21
+  - ref: refs/heads/for-5.12/block
+    old: a5bf0a92e1b8282c93018383b2526ca59602dd08
+    new: 46bbf653a67a36989a55dbb894c8b94c5ecb2858
     log: |
-         629d512d682de2259179046e2364f1f1ff4232e3 cpupower: Update msr_pstate union struct naming
-         7a136a8fcd7ef14c63d07667e81c4dcac77e0a13 cpupower: Correct macro name for CPB caps flag
-         a0255a76bf3a78d322adfe4eb4e73eb83998f61a cpupower: Add CPUPOWER_CAP_AMD_HW_PSTATE cpuid caps flag
-         1421de7919cd082bad692626937f055f367586ba cpupower: Remove unused pscur variable.
-         23765b82a808da416b70b41d711468e723531e6a cpupower: Update family checks when decoding HW pstates
-         56a85eebebdba62ebf6c46bd957949cc6e926aa0 cpupower: Condense pstate enabled bit checks in decode_pstates()
-         d1abc4e996d7784ce4d56749e4b5ca8ff23b1e0f cpupower: Remove family arg to decode_pstates()
-         3a3ecfdb605cc8d98988012a4f88c34b4d220c21 cpupower: Add cpuid cap flag for MSR_AMD_HWCR support
+         a7c7f7b2b641bef52212fbe8be4a66ede043d3c7 nvme: use bio_set_dev to assign ->bi_bdev
+         f65b95fe0cedc1be2ec33a2892ee43fae0408719 bcache: use bio_set_dev to assign ->bi_bdev
+         46bbf653a67a36989a55dbb894c8b94c5ecb2858 block: inherit BIO_REMAPPED when cloning bios
+         
+  - ref: refs/heads/for-5.12/io_uring
+    old: 511975a8b18e660ea0e7b5b4947e5c40999943ed
+    new: 81de6e152c065e83b2bf55e365bd102268c47e84
+    log: |
+         81de6e152c065e83b2bf55e365bd102268c47e84 io_uring: cleanup files_update looping
+         
+  - ref: refs/heads/for-next
+    old: 12e5b9fd95ebafffb46ba5e873919822c849514b
+    new: 95ae7945e1f0054e7049bf745ea16ae011bced9c
+    log: |
+         a7c7f7b2b641bef52212fbe8be4a66ede043d3c7 nvme: use bio_set_dev to assign ->bi_bdev
+         f65b95fe0cedc1be2ec33a2892ee43fae0408719 bcache: use bio_set_dev to assign ->bi_bdev
+         46bbf653a67a36989a55dbb894c8b94c5ecb2858 block: inherit BIO_REMAPPED when cloning bios
+         81de6e152c065e83b2bf55e365bd102268c47e84 io_uring: cleanup files_update looping
+         04725fdef179e981b801bff8f0addd8bb2c0a6af Merge branch 'for-5.12/block' into for-next
+         95ae7945e1f0054e7049bf745ea16ae011bced9c Merge branch 'for-5.12/io_uring' into for-next
+         
+  - ref: refs/heads/io_uring-5.11
+    old: b18032bb0a883cd7edd22a7fe6c57e1059b81ed0
+    new: ca70f00bed6cb255b7a9b91aa18a2717c9217f70
+    log: |
+         a1bb3cd58913338e1b627ea6b8c03c2ae82d293f io_uring: fix __io_uring_files_cancel() with TASK_UNINTERRUPTIBLE
+         ca70f00bed6cb255b7a9b91aa18a2717c9217f70 io_uring: fix cancellation taking mutex while TASK_UNINTERRUPTIBLE
          
