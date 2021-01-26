@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
-Date: Tue, 26 Jan 2021 11:22:20 -0000
-Message-Id: <161166014060.27479.7961065497661222490@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 26 Jan 2021 11:25:40 -0000
+Message-Id: <161166034036.29847.3243530547700976311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211
-user: jberg
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 054c9939b4800a91475d8d89905827bf9e1ad97a
-    new: 81f153faacd04c049e5482d6ff33daddc30ed44e
+  - ref: refs/heads/sched/core
+    old: 65bcf072e20ed7597caa902f170f293662b0af3c
+    new: b69d83a4856219795dd6ad36296504359a6b9f34
     log: |
-         81f153faacd04c049e5482d6ff33daddc30ed44e staging: rtl8723bs: fix wireless regulatory API misuse
+         ea70468d7614de296444152dd9400daa417c4e5e sched/eas: Don't update misfit status if the task is pinned
+         b69d83a4856219795dd6ad36296504359a6b9f34 sched/topology: Make sched_init_numa() use a set for the deduplicating sort
          
