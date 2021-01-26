@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4411435781756715511=="
+Content-Type: multipart/mixed; boundary="===============0297889720771827463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 26 Jan 2021 17:40:50 -0000
-Message-Id: <161168285064.18451.940345056302499144@gitolite.kernel.org>
+Date: Tue, 26 Jan 2021 17:42:06 -0000
+Message-Id: <161168292647.18888.8583536121929038493@gitolite.kernel.org>
 
---===============4411435781756715511==
+--===============0297889720771827463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 7cbcd008e104d16849e5054e69f0a3d55eaeb664
-    new: 7a35a5ca26376f0c0e7ac44c5f1324d5d980b2ef
+    old: 7a35a5ca26376f0c0e7ac44c5f1324d5d980b2ef
+    new: 7961b77c0d489764166d789adb2c1d21b71b5aad
     log: |
-         60b4c9d5c6feaf6020a424b05ca7e0c6bebe7b76 usb/c67x00: Replace tasklet with work
-         4c1934bda88aa85bb1191e96dbd3ac2313732ada usb: raw-gadget: add copyright
-         7a35a5ca26376f0c0e7ac44c5f1324d5d980b2ef usb: raw-gadget: update documentation and Kconfig
+         7961b77c0d489764166d789adb2c1d21b71b5aad dt-bindings: dwc3-xilinx: Add missing comma in example
          
 
---===============4411435781756715511==
+--===============0297889720771827463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611682841 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611682917 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1611682841-e8fa23a9f9f363f8ed17925e6734677b50202049
+nonce 1611682917-52b4b6c6b862602a4efaa6ce58dc820da55da7de
 
-7cbcd008e104d16849e5054e69f0a3d55eaeb664 7a35a5ca26376f0c0e7ac44c5f1324d5d980b2ef refs/heads/usb-testing
+7a35a5ca26376f0c0e7ac44c5f1324d5d980b2ef 7961b77c0d489764166d789adb2c1d21b71b5aad refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAQVBkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Vp8P/01QHCg/WiBslxnbe5+2
-JCwVLkO3l0D2yBQgSp4iGKwZ9PEuzMr1ttem9XyqCriSpVdXTvI5K5VVrN20lXQC
-PHYK/DFpeaagL+gFGM8ZEa/GPLS7oHbCXg6ukLALPRPL/MFmfilSCTBuiMEYdNc9
-+O3bdQJFxmlTYnCm8BNub53E2EJEI9BQAtRUfQKva9ZViscs8qt8ZwfX+bHKUIEu
-4dmwuOvIGnw+hGaxkZKvswgTZ1IAxKxdjxmCEUagEzCSkD5UoeGkAyuFeqqRr2ms
-mvfP1LpwMlQgo0pMF3L69NkRyu/gmKmzy8ZwLg9g9M6wmTQ9T6HaGK/39BW0AiY8
-eIC4m2iY1Oo2YG1xlaCXrmp92clMqVgySoB4zspsoWyAlndUpI+ujfIgFMMgZ7TJ
-QogMiSgP7W3NS/NimQneupRvCLXaz1O9utNT2uqE6Fz11IKjO4uQ0MFDCKPOdwd/
-B+gxXwqM9hKNt+CSKkbPFLDIS3prDXqGuVY6V7+tDMo3MO5pBYB1ikqQTOfFlv6E
-uE/COpcMoTw2lBD/E0W71HMlSw6A8t3ysBa5uq/tFXYcm1w1zrZqHQAYckES8aos
-65VwZZOH2EF/dq64O7iycIceXkbkYe66xq3p2vmHXDuBqVm1W0ccrknyCXZiUKmV
-AHmVnvkin6sSiQ31ulNdP47G
-=fbof
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAQVGUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pyAQAIM/TrMBAapQapErpkZZ
+agqEkmsjNKZGIdGDinfSAlWMZR46mG8ztqZqXUmq1ejerz6ZHFeT/gZd1G4NFMG/
+Vki61dsyf7o0eXZeF/DjK2iPuGxP8DieLNZVR8pNAWE8FdrEAN6YT411x4j0IhJA
+4yZaZ74SOnW9nD7hgU/XPpfsc3rXxl5ybr0DV1VL6D980t+Njz9bb9fT4K7/pNsb
+6b1N2hG9W1X+Dpr55me0JiqDlS6bR+KenqNlNtzuvuiHJPbpgVjsvQhoCJTGmM35
+mgwCVUt5P7AvPCpeGsU8qqGucpsbwV1brMjE0zOR4sIv5rLveTDnMTqpz+gpviIF
+RxFr6uDnpZSW/5alKzbctUVKDhbfwRvdC37VpKTl8ldX2kvivVw478s5niBw1b6f
+bVAUDHgwAqS9W+oz9rp6AnvGuml4jHhL7hNJJOcAw1zFA0p2/yaujRLe1lD5hn1r
+ZNtKmQhWCDL5eQUQPRpJDAT+7VXr2PeBjGGCuhCi0f4u1Mf0DtRXnS2844t/zRiY
+Uc0zKDzGXfG5URajYqvwh5P9YbFP01xQIMNp3HNa4+xYikIwW6B/w3/aB5kSUIm/
+ipeHwlL7L/HJ4O7/qNCTGmNxudmJFWkHX+WOu093emSjMandMVjyBt0yGPZkFOiI
+QaAG8PBLD4L5BDJMzEgSTy4H
+=ILMR
 -----END PGP SIGNATURE-----
 
---===============4411435781756715511==--
+--===============0297889720771827463==--
