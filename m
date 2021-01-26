@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 26 Jan 2021 03:36:05 -0000
-Message-Id: <161163216575.20762.7273121909847534492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Tue, 26 Jan 2021 04:15:09 -0000
+Message-Id: <161163450902.11195.16044121958863629730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 6d70cd2a42095db3e123271672cc996d12d0a194
-    new: 02c26940908fd31bb112e9742adedfb06eca19e1
+  - ref: refs/heads/xfs/shrink_lastag3
+    old: eaa5564dadb1fe5ff53ed079e1668323ed421227
+    new: 2f63aebb91fa710a3ae47c1e0921111ca9a05734
     log: |
-         afe197f44e646f13544299f516139b13327a849f nfc: fdp: fix typo issue
-         02c26940908fd31bb112e9742adedfb06eca19e1 nfc: fix typo
+         6e7c502f9cc694614f1cf43d85f4760408647169 xfs: update lazy sb counters immediately for resizefs
+         2b85f418a310051f0775aaac49436ba0cdfdb2da xfs: hoist out xfs_resizefs_init_new_ags()
+         b736f3b9de28ae1e04ec6138820107a072c44589 xfs: introduce xfs_ag_shrink_space()
+         a574bb08c81f9eecd7da90d3666e33fb16c93a3d xfs: support shrinking unused space in the last AG
+         2f63aebb91fa710a3ae47c1e0921111ca9a05734 xfs: add error injection for per-AG resv failure when shrinkfs
          
