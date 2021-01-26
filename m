@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2158765689219073610=="
+Content-Type: multipart/mixed; boundary="===============8888839942633258894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 26 Jan 2021 17:53:25 -0000
-Message-Id: <161168360580.25679.3047410241635488153@gitolite.kernel.org>
+Date: Tue, 26 Jan 2021 17:54:13 -0000
+Message-Id: <161168365349.25990.11625018856208029721@gitolite.kernel.org>
 
---===============2158765689219073610==
+--===============8888839942633258894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,48 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 352335a6aced416d732ec718441eed45dbac24d7
-    new: 75d39eb5389308b0233a7cec9c6150507a7366ef
+    old: 75d39eb5389308b0233a7cec9c6150507a7366ef
+    new: 27cf133c5d3cc669588399575ffa6e8df90b61fc
     log: |
-         fac4da4ff02d4f07dd178f15fbfba6d0346fae70 staging: hikey9xx: hi6421v600-regulator: do some cleanups
-         d2dfd50a0b57da99c6b3c621fafeedadcc25f5f0 staging: hikey9xx: hi6421v600-regulator: move LDO config from DT
-         0b5a562a9e2a24047d7aaaa0547e41ee72357ee8 staging: hikey9xx: hi6421v600-regulator: cleanup debug msgs
-         6436a12504dabc4b649b9728d04477f66f316232 staging: hikey9xx: hi6421v600-regulator: get rid of an static data
-         6a5e7aafa4310b82ca313416af25401476cfd42e staging: hikey9xx: hi6421v600-regulator: do some cleanups
-         746eae6a164e1dfc992323c4aeaf157c21333958 staging: hikey9xx: hi6421v600-regulator: update copyright
-         fd765da06066215b5e75c5c2a0db1543a81aa14d staging: hikey9xx: hi6421v600-regulator: fix delay logic
-         54f1155af6851ef683067827302eaafe8422fe1b staging: hikey9xx: hi6421v600-regulator: cleanup comments
-         75d39eb5389308b0233a7cec9c6150507a7366ef staging: hikey9xx: hi6421v600-regulator: fix get_optimum_mode
+         37c91ea7fe68a96b2ef20fb64726ac6128881822 staging: hikey9xx: hisilicon, hi6421-spmi-pmic.yaml: cleanup a warning
+         64542b9f2695349cb13f0e95112ddb3aaaac8ff6 staging: hikey9xx: hi6421-spmi-pmic: update copyright
+         27cf133c5d3cc669588399575ffa6e8df90b61fc staging: hikey9xx: hi6421-spmi-pmic: simplify includes
          
 
---===============2158765689219073610==
+--===============8888839942633258894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611683596 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611683644 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1611683595-7ee318ae71e3fc44e94769a1a871e8b2dbbadc17
+nonce 1611683644-56d05b066822e3d5eb4e9104bec0ae7c230fa183
 
-352335a6aced416d732ec718441eed45dbac24d7 75d39eb5389308b0233a7cec9c6150507a7366ef refs/heads/staging-testing
+75d39eb5389308b0233a7cec9c6150507a7366ef 27cf133c5d3cc669588399575ffa6e8df90b61fc refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAQVwwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UDMQAJvBl/nLNraCBRLD3RBV
-kjnmw8l+ah/ELeu2QwXViiYBlSYnksA4bfF9pbn4LlA7axaCIwtAk7+zLM0+0ij5
-hhYgHgym8mi8h4X7Fn+vyYMgK2xks8at57D/gJkspRmZkbxXcF5PfBNCi72xck9W
-zDZZJHsjtcoK6vi8mTSLmeVJ7EHgtoWxdb8ckIZzZE8XYp7/x9H13I5C4vNq/qEB
-8I/m7txm5q1Y6GPvgVEJzsOFoQcUg01TSBJVRepjq0H6+uLQZery6BMJN5HXsoYr
-22yKm7IiZQ+q1HSrcKHYgz/q2Irz3Ny1SRI+jMXkbyPrXL2RnmoaiSboT/kZcMl4
-vi5ZoLdvkghHRQ0QDUQqjdANqI8PsMDahPVtx6aQJ7yQTTJCKw0rXa4nJ0Y6de3u
-HN9GYHb5m2/306STXXSu4lJ9ZxAux2i2BkX/rEwTSUyGCYzJ7gUufvE+g/2TUDFo
-BNoF3zknVPpT+uphQmWyIFMsxBDEgrWMMvSw2hG/1pzbb+ht7JYiYef4DvelrP4B
-IM0emGJ9x/8rc3xn59LTtp0BrVzWOZcL85U0dGiyxokyIx0feMbzwkFv5nnYhWsQ
-gBs/LxDq/i/ijeIJzGghiixX/r/i/2P3YxmJ6CvESNR7CWY8ryAIOTXrJJC+UA+2
-nXBlNSGzsaotwNapVkv7rF9g
-=5DE9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAQVzwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DWAP/j9T8LBEjRF12AF/nrZd
+EhFMe64/CHK6hX4+UDopEAE+yw5t6wpzqosYOyPHEGQ6HW2l83FEcpvTfLU4hwGg
+0XZTrzEyuYdYx194/Qf/Bnc16wFZGWAePHratJ1N6sAhs7tpWjnOVsOKKCFYz3M7
+1BzuTqID+z9p0A+J5OlqnWqCYPNUpugWPq8c73J1C45OpTUTzGuCCiQQTRCGAoRu
+hjd0UK6yP8SBmzheFu69N8unZfr1K00sGdkiqyrTgpBk/ASK0ON21Ro8CCNeOpka
+UceDzW4gAb5BwiCah78QkzRRp69UnATdX+uekJkJvuIGeQH6PCz2/2QtJl8hne7J
+CcgqrpnZTST6At3joD5txr5ixob/4EHvMShy2BIMwD3cgOVJQ7Ynvxhbao+pFxCa
+CJShsvkWPcMdV56SCZUKX+hVtLj9NK90Gat5Ikn/ViRPML9OPsq2YdSpZJ0NBxfB
+qIgW7lJWYdH6JUW792cpdXQzLKx/VZ19J5yqpnFx58m3/ScpN0i4yYCF/sff9Lxr
+hiMCvn1n9IRfL8X+LJ+MF1wn9ogvWTZX1sd6FRoDl8sMzq+VcliYHr9fe5n5ALB8
+kUaM5LPiZLJ2nZZT4vRb8QnGhLGOVfPzcEooItcO9FN71Oc+cCPxzo66zy9Rms2d
+bOC84wpHQ8lGV8Gx1wZ0GyYx
+=X4ai
 -----END PGP SIGNATURE-----
 
---===============2158765689219073610==--
+--===============8888839942633258894==--
