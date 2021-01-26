@@ -1,25 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Tue, 26 Jan 2021 06:34:38 -0000
-Message-Id: <161164287885.22191.11755889082785254120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 26 Jan 2021 06:34:44 -0000
+Message-Id: <161164288433.22280.13015737271608322064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/queue-rc
-    old: 1a587f7ae798d41dc78e38f378b3873d62c4b20c
-    new: 4afafedc42df96f345188f6890d2e070b6822f88
+  - ref: refs/heads/for-next
+    old: f4514249d6483effbc08984ed908fc741de798f0
+    new: 6755568ad111394da224c823e8baf31a05a1469c
     log: |
-         a0995cf7874e66bd6bead2f9723d60cbb2342730 fixup! net/mlx5: Maintain separate page trees for ECPF and PF functions
-         c6c25db84c29c517554ae1ce5e6bcfdf81b7f93b fixup! net/mlx5e: E-switch, Fix rate calculation for overflow
-         f83d95e31a09169fc91776a7e47db2267357df47 net/mlx5e: Disable hw-tc-offload when MLX5_CLS_ACT config is disabled
-         24156bce8f3bc54e881a79c52515fa166bdc432d Merge branch 'net-mlx4' into net-rc
-         7d098a957824ddfefb88b179f6c48a1b5102268b Merge branch 'net-mlx5' into net-rc
-         ae7fa35c8363ee949a43c443c33a63fc78528179 Merge branch 'net-rc' into queue-rc
-         4afafedc42df96f345188f6890d2e070b6822f88 Merge branch 'testing/rdma-rc' into queue-rc
+         e32da5eb627c9dd60fd245cb5beb3079e96890d1 ALSA: bebob: remove an unnecessary condition in hwdep_read()
+         3a465f027a33cbd2af74f882ad41729583195e8f ALSA: hda/tegra: Use clk_bulk helpers
+         87f0e46e7559beb6f1d1ff99f8f48b1b9d86db52 ALSA: hda/tegra: Reset hardware
+         6755568ad111394da224c823e8baf31a05a1469c ALSA: hda/tegra: Remove unnecessary null-check from hda_tegra_runtime_resume()
+         
+  - ref: refs/heads/master
+    old: 76c42cc1a5784760e011c3e49fc4652f3a1f07fb
+    new: 187e4473fb70e3682041fccbab435cc27ed4a046
+    log: |
+         e32da5eb627c9dd60fd245cb5beb3079e96890d1 ALSA: bebob: remove an unnecessary condition in hwdep_read()
+         3a465f027a33cbd2af74f882ad41729583195e8f ALSA: hda/tegra: Use clk_bulk helpers
+         87f0e46e7559beb6f1d1ff99f8f48b1b9d86db52 ALSA: hda/tegra: Reset hardware
+         6755568ad111394da224c823e8baf31a05a1469c ALSA: hda/tegra: Remove unnecessary null-check from hda_tegra_runtime_resume()
+         187e4473fb70e3682041fccbab435cc27ed4a046 Merge branch 'for-next'
          
