@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 26 Jan 2021 21:59:26 -0000
-Message-Id: <161169836609.4165.10770143208130710023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse-dev
+Date: Tue, 26 Jan 2021 22:02:41 -0000
+Message-Id: <161169856163.6562.4286422849629231415@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/devel/sparse/sparse-dev
+user: lucvoo
 changes:
-  - ref: refs/heads/100GbE
-    old: 67a3c6b3cc40bb217c3ff947a55053151a00fea0
-    new: 329a3678ec69962aa67c91397efbd46d36635f91
+  - ref: refs/heads/master
+    old: 56dbccf50c2185571f34c3dfaf4753942f6a2372
+    new: 0fb77bb6e5429575f52b5e26f06db031f93de057
     log: |
-         329a3678ec69962aa67c91397efbd46d36635f91 igc: fix link speed advertising
+         879b11da4ef9a675216eb1f3458cff1e53904c03 fix possible circular definition with can_move_to()
+         36df56f0a4f87da3add3347061544f53a1865317 simplify LSR + SEXT into ASR
+         0fb77bb6e5429575f52b5e26f06db031f93de057 Merge branches 'fix-can-move-to' and 'asr-synth' into next
          
