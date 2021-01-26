@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5451566976469153805=="
+Content-Type: multipart/mixed; boundary="===============7832120121225670148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 26 Jan 2021 18:33:53 -0000
-Message-Id: <161168603336.18111.9494477170326435344@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 26 Jan 2021 18:36:33 -0000
+Message-Id: <161168619389.20377.17878456792918888235@gitolite.kernel.org>
 
---===============5451566976469153805==
+--===============7832120121225670148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 0f8b29fabacbcf0e617896c7ea832b7ea2ef2406
-    new: e0f2a902c9f02fcb36c22f63e0db67e73375c843
+  - ref: refs/heads/char-misc-testing
+    old: 26c2e922614074da5146aa538c5afaf19112bae1
+    new: c41e21dca8dc6899611c6df1fa4e6b55097ceada
     log: |
-         e9103f47bf1a1bbf0ab0ea90eda3e208653a5f57 serial: ifx6x60: Remove driver for deprecated platform
-         e0f2a902c9f02fcb36c22f63e0db67e73375c843 serial: stm32: improve platform_get_irq condition handling in init_port
+         c41e21dca8dc6899611c6df1fa4e6b55097ceada sgi-xp: remove h from printk format specifier
          
 
---===============5451566976469153805==
+--===============7832120121225670148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611686024 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1611686023-fdb2903c1161676b41b17fb2d7886ff4b3051c5d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611686185 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1611686184-4791e2e296f412df30ed0adeac32b0df6722729e
 
-0f8b29fabacbcf0e617896c7ea832b7ea2ef2406 e0f2a902c9f02fcb36c22f63e0db67e73375c843 refs/heads/tty-testing
+26c2e922614074da5146aa538c5afaf19112bae1 c41e21dca8dc6899611c6df1fa4e6b55097ceada refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAQYIgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FtEQAIQ+vQmoIovo6LA205JL
-dpBhj1mKru9nq51TR2QSqo8kTIBSBJHjRMaHMQndLxgjZeKRq2qeV2wxPmiB785U
-F4eQ4Z4fEXVeDBmbeZXzafFDDz/iMOw5yGNY9hzV8jNV50NnlxwnFZupYAXlzvja
-g4lvLdMNeC2CNLbJ9qvS/9DDpdKTC9A1hq5JQHQ8y+dA0WfdqFcXII8avexHja0d
-eQJfgO0G44ApCociXuWNPuaQYjYj/han0WG9d3UpmPobhvDK4DPNUftgmKDG/UtO
-HNktpmhoELQL/F0dKy36c+gwF/pSo6tdLGPcaXOlil/b5gyGyBcOZIprOKsW6SfO
-wT4H1q2rnlSyUhLjOtSBVv2sEwVGdTDu7S+McPrPp3DwzLx2lPQci4TQRnqXy7dR
-5NTD/yMTu0d5EZVmPABXQ/YWOXdGjXpXxDjHdSxvJIlXYQk/qMgAwWAQU2AtbbPs
-UAPnZRB+Uwo8bohbSRlrRI7nAOk8CNlqoX/L36Hrej917+QTgeodoo5B2ftLUrFi
-1/MFlMYSI89VMaYMdtTJOnk0IRRQBA/Ds+OdfCTLt3bm18aZfTLz3oAVjp1BVEPi
-TZyfjzj7aWdBPo+/xEctTvCBM1v0qB+MHjMyORNfcHM0hTB2cLghedseKDztlGT3
-d4T157WxgEJ3soEkIbOQXGkk
-=Nx1v
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAQYSkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+goYP/0gO54ko6EvxHK9VCgsg
+ArQhNFVLxyLL/dRTDL4TVvnEkyPHP7lKb5aoUO6QuSV2OBSaxqJJlsLWartgHaLu
+q3D0fpbV8C1cMuGNUqFv8MCPtZoLFvFtnRSkfKownnUJ+cw/F0ergQoHsURzh7Q+
+O8ibtBa/NKxxQ8P6VwE3yIK0ItoWqxqZcBmh5VRFNWoWnVfuNW1E2xoOCYllZmaF
+QE3wjg58VSExHqYyn6y86BD7PCrmpe1FLvVZcjkSBv+OQKLp8a3ZBLCPVV7+p740
+k6sOPZN7MMwA3lgHj8b0idYTOxrBsQxxKPGD2YnWG+SY6xcclEmglHND6dCjTZV1
+hU/r0pSMNlpSJD9S8unNF7DBFRPolQtsIib1LfKIA0hYWSZxi/eOK1vdmGVZeI7s
++P0Z5V5lBFmIg306AVZpUAhSi6xkXTXaRmgXUQxVVHpSrp1RzftSbrxUTwZNuRzz
+7amIV7OM8zXrbRrXAoZl/hys3RoEiWkV6kuwRA2Sxo++uh00ZPm8MzSnX9we/lPu
+NxGf5Ej7vpFpXxrfthMTvKuJGP2h0s7xP8Ih3RGMIGwG69VDptjs8PE8uli845A3
+KYvO3xFXnCr73zCJuIIibZm5VwOzahBc2hLNstQlzdoynEZ1Xb/NwkTqpgHP5Ksp
+RLClTgXKWzSXNTRbTISSL6gI
+=icaQ
 -----END PGP SIGNATURE-----
 
---===============5451566976469153805==--
+--===============7832120121225670148==--
