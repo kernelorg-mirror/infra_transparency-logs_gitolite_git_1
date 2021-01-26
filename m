@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Tue, 26 Jan 2021 17:56:58 -0000
-Message-Id: <161168381892.28152.2839415761516233840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Tue, 26 Jan 2021 17:57:01 -0000
+Message-Id: <161168382162.28268.15724179656179303489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 96727aeb798299806ca1eca4035e4494b22b9db3
-    new: 804f813fac590080e5b16825baf830309aa9be4b
-    log: |
-         804f813fac590080e5b16825baf830309aa9be4b count: Put thread-based before eventually consistent
-         
+  - ref: refs/tags/v5.11-rockchip-dtsfixes1
+    old: 0000000000000000000000000000000000000000
+    new: b00a9afcaf8a53c40d74291b584e766dc2d548c5
