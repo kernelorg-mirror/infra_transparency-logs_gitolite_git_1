@@ -1,49 +1,91 @@
-Content-Type: multipart/mixed; boundary="===============4189608029384280032=="
+Content-Type: multipart/mixed; boundary="===============2790162973165717961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 27 Jan 2021 07:04:22 -0000
-Message-Id: <161173106283.21152.9675033496351052112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Wed, 27 Jan 2021 07:48:13 -0000
+Message-Id: <161173369376.13512.15041418279417822558@gitolite.kernel.org>
 
---===============4189608029384280032==
+--===============2790162973165717961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev-test
-    old: 7658d46b92f2a8014cd6cf86ad331dc1b0237cab
-    new: 8d52dbb373579b48f5758dd0cdd2ac0fb4e5be7f
-    log: revlist-7658d46b92f2-8d52dbb37357.txt
+  - ref: refs/heads/master
+    old: 13391c60da3308ed9980de0168f74cce6c62ac1d
+    new: 2ab38c17aac10bf55ab3efde4c4db3893d8691d2
+    log: revlist-13391c60da33-2ab38c17aac1.txt
 
---===============4189608029384280032==
+--===============2790162973165717961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7658d46b92f2-8d52dbb37357.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-5fe95d81b9bc715279acce2fd17b1e517d1a074e f2fs: compress: deny setting unsupported compress algorithm
-282d85e7b9ec6494b97443fa154ac17bc8ba5bbe f2fs: compress: support compress level
-473df2ddd2cda129602abd23fddc7a1df7c8414d f2fs: introduce a new per-sb directory in sysfs
-7cb910010738f3bd8887399b30f20d9278417844 f2fs: fix to tag FIEMAP_EXTENT_MERGED in f2fs_fiemap()
-76e55b36981c485533870790de070f70e3c621b3 f2fs: fix out-of-repair __setattr_copy()
-53fe567f80f46791ae6ebea1172f74d8b0bc4d13 f2fs: trival cleanup in move_data_block()
-1a01b5b42d249957690b00387be3cef59cc536a1 f2fs: clean up post-read processing
-e0839842c7dd4ed5ba433e5fc385ad848ddcdc8e f2fs: fix null page reference in redirty_blocks
-cca648c17702990d3adf48c9187c2873dd194d10 f2fs: fix to set/clear I_LINKABLE under i_lock
-d7f1b7384abcff377955082498117accc77e83e2 libfs: unexport generic_ci_d_compare() and generic_ci_d_hash()
-64fc9817079f705ba97cc31f9f1e289a2d4cb0d6 f2fs: compress: fix potential deadlock
-ea4b67f9b913d8036f549cb7d68bd51cd0701901 f2fs: fix to use per-inode maxbytes
-b3c44633c155003775e0008512c2c3325d5e717d f2fs: introduce sb_status sysfs node
-555e93f0ddb9a9681b06c6fa866c18fe4f144e6a f2fs: remove unused stat_{inc, dec}_atomic_write
-34780837863c70e9e5eda6cf2a342c6d2ecd569a f2fs: Remove readahead collision detection
-7ffb2373213066508e19113be3a6ebcf9b8b73e9 f2fs: deprecate f2fs_trace_io
-41c1831d0d9be3902fa3ffa30729fe21df612235 f2fs: introduce checkpoint=merge mount option
-6e572bccfc3dd2ac7b6ee80b1053984a2cf55933 f2fs: add ckpt_thread_ioprio sysfs node
-8d52dbb373579b48f5758dd0cdd2ac0fb4e5be7f f2fs: flush data when enabling checkpoint back
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611733692 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1611733690-8f7180653348ccf0830e151937f6e41339a4e29e
 
---===============4189608029384280032==--
+13391c60da3308ed9980de0168f74cce6c62ac1d 2ab38c17aac10bf55ab3efde4c4db3893d8691d2 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmARGrwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ddQP/RaM3naZxDVPYenSfjIy
+69x6jkNrN0H4XsdEJ1/vRQT7IFYq+dQ0RDMmobmjUlKukKFHrjx50HxqTNinHury
+X65DeF3WJ3uej0I9JnXfIjqNl6TCyGmfxNyLyPhw8RZvOo0qDy8hTBFImFK8EtHx
+fM8W/JodwkG7abZBJognu4h9ZZtNWgco6COP+d6nmDLh1bhMBvPgCB8TPjDnME5B
+p/ODUCBqIeLvFUoPEbiFnDRHFecRxr8uiXkmLZlmtxxv++cqrCU1wwc1ENxa892K
+loBmAIP/X+zRa2xxeuX5bC9HVkN6NFO7j+TTXlUZoUDFc4BQV+1MFtHOtUzrBk70
+7sI6f5D5HWY/zkjDuXUB7RMHTtMtwRUGas1U/vWrgBitizS8c9mMFICj+iSdvUWe
+8c4hOvKvEdEN6L3wk6Ziagq9jhzWt0jqt3Y5sGJPa4kpV5ung19nwV50OZGQRmg3
+IrKkW5gYWnXJV+gH/jgQbSISRpTNGjQUN1WxDcD7yxlrc2FsUef57v5m+VJwEHm/
+XnnkQaCDc8y0o+uYrJ+Iw1gnjSTngk1t+5d2+5UaRsMZEJLbwEOSTp2n2DpZ2oxi
+C+kvG7a1294C8vZvebOLbzYpuG3sTf6EoxYc0/lI5BIRL0n+l7/xAmYW69zeRR0A
+VxQaosFW5aX9S4xRoj8Ep0LK
+=/qgL
+-----END PGP SIGNATURE-----
+
+--===============2790162973165717961==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-13391c60da33-2ab38c17aac1.txt
+
+eaa7995c529b54d68d97a30f6344cc6ca2f214a7 regulator: core: avoid regulator_resolve_supply() race condition
+09db7311ca6170d36f2bb8c26eab8fadc4d10b81 Merge v5.11-rc3
+11663111cd49b4c6dd27479774e420f139e4c447 KVM: arm64: Hide PMU registers from userspace when not available
+7ded92e25cac9758a755b8f524b11b509c49afe1 KVM: arm64: Simplify handling of absent PMU system registers
+2c91ef39216149df6703c3fa6a47dd9a1e6091c1 KVM: arm64: Allow PSCI SYSTEM_OFF/RESET to return
+7ba8b4380afbdbb29d53c50bee6563cd7457fc34 KVM: arm64: Use the reg_to_encoding() macro instead of sys_reg()
+55a8b42e8645a6dab88674a30cb6ed328e660680 spi: altera: Fix memory leak on error path
+e1663372d5ffaa3fc79b7932878c5c860f735412 KVM: arm64: Compute TPIDR_EL2 ignoring MTE tag
+9529aaa056edc76b3a41df616c71117ebe11e049 KVM: arm64: Filter out v8.1+ events on v8.0 HW
+51dfb6ca3728bd0a0a3c23776a12d2a15a1d2457 regulator: consumer: Add missing stubs to regulator/consumer.h
+139bc8a6146d92822c866cf2fd410159c56b3648 KVM: Forbid the use of tagged userspace addresses for memslots
+14a71d509ac809dcf56d7e3ca376b15d17bd0ddd regulator: Fix lockdep warning resolving supplies
+396cf2a46adddbf51373e16225c1d25254310046 spidev: Add cisco device compatible
+615099b01eb7127fb2f4bc956171a6a0accf688b Merge tag 'kvmarm-fixes-5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+a10f373ad3c760dd40b41e2f69a800ee7b8da15e KVM: Documentation: Fix spec for KVM_CAP_ENABLE_CAP_VM
+eb79cd00ce25974c21f34f1eeb92a580ff572971 KVM: x86: Add more protection against undefined behavior in rsvd_bits()
+e61ab2a320c3dfd6209efe18a575979e07470597 KVM: x86/pmu: Fix UBSAN shift-out-of-bounds warning in intel_pmu_refresh()
+98dd2f108e448988d91e296173e773b06fb978b8 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+1f7becf1b7e21794fc9d460765fe09679bc9b9e0 KVM: x86: get smi pending status correctly
+01ead84ccd23afadebe66aea0eda002ac29ca9be KVM: Documentation: Update description of KVM_{GET,CLEAR}_DIRTY_LOG
+d95df9510679757bdfc22376d351cdf367b3a604 kvm: tracing: Fix unmatched kvm_entry and kvm_exit events
+d51e1d3f6b4236e0352407d8a63f5c5f71ce193d KVM: nVMX: Sync unsync'd vmcs02 state to vmcs12 on migration
+250091409a4ac567581c1f929eb39139b57b56ec KVM: SVM: Unconditionally sync GPRs to GHCB on VMRUN of SEV-ES guest
+aed89418de9a881419516fa0a5643577f521efc9 KVM: x86: Revert "KVM: x86: Mark GPRs dirty when written"
+9a78e15802a87de2b08dfd1bd88e855201d2c8fa KVM: x86: allow KVM_REQ_GET_NESTED_STATE_PAGES outside guest mode for VMX
+377bf660d07a47269510435d11f3b65d53edca20 Revert "mm: fix initialization of struct page for holes in memory layout"
+5bec2487ff3361d96a96b74fceaf39ca54866adb Merge tag 'regulator-fix-v5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+c7230a48ed5ebdda54867816303e974c154841d1 Merge tag 'spi-fix-v5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+4992eb41ab1b5d08479193afdc94f9678e5ded13 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+2ab38c17aac10bf55ab3efde4c4db3893d8691d2 mailmap: remove the "repo-abbrev" comment
+
+--===============2790162973165717961==--
