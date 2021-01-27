@@ -1,65 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7975098852745749590=="
+Content-Type: multipart/mixed; boundary="===============8243383744784736974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 27 Jan 2021 14:14:45 -0000
-Message-Id: <161175688536.29544.7700032669476441062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 27 Jan 2021 14:16:37 -0000
+Message-Id: <161175699701.31821.9650127536017447883@gitolite.kernel.org>
 
---===============7975098852745749590==
+--===============8243383744784736974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 8d6da6575ffec171161d36a06c015142b0049637
-    new: 296c6264d4b19554dc8367e3f409bd248f504c2d
+  - ref: refs/heads/driver-core-testing
+    old: 4104ca776ba38d81bd6610256d3b0d7e6a058067
+    new: 38009c766725a9877ea8866fc813a5460011817f
     log: |
-         c35901b39ddc20077f4ae7b9f7bf344487f62212 virt: vbox: Do not use wait_event_interruptible when called from kernel context
-         d0259c42abff51b586496a0594933e394efefbc5 spdxcheck.py: Use Python 3
-         afe9017901761d04a106916e02619caf0d2afbf5 ver_linux: Eliminate duplicate code in ldconfig processing logic
-         2c104a469a4ce276117acda94ccf922c3b82d735 platform/goldfish: Convert pipe tasklet to threaded irq
-         2f6055c26f1913763eabc66c7c27d0693561e966 w1: w1_therm: Fix conversion result for negative temperatures
-         8544717cdacc2f33f0f53a3b34c5125b37e13ce9 bus: fsl-mc: move fsl_mc_command struct in a uapi header
-         46707989269a251e5e4ca295975525605bc8afef bus: fsl-mc: export mc_cmd_hdr_read_cmdid() to the fsl-mc bus
-         2cf1e703f066cfa82eb5a358ae84c29fe15a3b3a bus: fsl-mc: add fsl-mc userspace support
-         3f6099438181d269d56f9d4040d93ffae65f9e4c bus: fsl-mc: add bus rescan attribute
-         296c6264d4b19554dc8367e3f409bd248f504c2d bus: fsl-mc: add autorescan sysfs
+         4044b2fcfb2048a256529ecbd869b43713982006 drivers: base: change 'driver_create_groups' to 'driver_add_groups' in printk
+         6091b08eda85a4da6d548d6de4b650bffae0d61c drivers: base: power: Fix resposible -> responsible in runtime.c
+         38009c766725a9877ea8866fc813a5460011817f drivers/base: build kunit tests without structleak plugin
          
 
---===============7975098852745749590==
+--===============8243383744784736974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611756873 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1611756872-fc5bdf56c7589b3dd9511ff8a212740cc7f5c441
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611756988 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1611756987-9255485b4ee23a353f42073d75bf10a1f2b2aef7
 
-8d6da6575ffec171161d36a06c015142b0049637 296c6264d4b19554dc8367e3f409bd248f504c2d refs/heads/char-misc-testing
+4104ca776ba38d81bd6610256d3b0d7e6a058067 38009c766725a9877ea8866fc813a5460011817f refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmARdUkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e8IP/1RV3YSSm1kFh5xA+aYc
-L/V5Zyg9Q0cMpgejM6Zw2tJdJU2TiYXTj9KIHzbizPsGQyYU+GblibAmdQukR0Ir
-4TZNfOrGz2Y32cndnlK5sYxLCN1zs8wrxdg9wiO6gq1HNfvJcnRssQpedLdNqZPi
-9sBwJIsdCrdDvMRzOHuGFHt7ch1PzhU+mH0BxFHdC6jwwRBB1Ty0b5X4zXBzXzsR
-a0Vofo6ZPvcJp5hdWKh0Dp+4T/38/RruWVg6+EZbqTC5HvyEWxpe2k0kWfljN7F8
-wGmtHv2bts3GWivIy86fmLHRkJRp4MWFvV+KeJ0n/Rg2cx4J4Cxhydo2ceV8ohmK
-WQFtBa9t1ticmsRdl3PWzbhHoundrFlQza+COHlXHtL/dsS+vsLSDpaslBzS4GNG
-kd6lob+oPAiJZU7Mn8o2SDJvqYoLaCdkV534piO3npZRevpLjw1oFQ9jWOj/n5kL
-cHDlh6Zyc2oZZfF2lmgIqGOtphQMRjYIv1HkqM2f7Qc73BYPxQAjyk8VmXdB1Gp8
-o5Fi1/Pd1LWFe0Mnz6JT5BuxZekJD7fPdE4N6+zEkxAuviv3DALSdMh70apemgs6
-aeJWKGexLQT+2ioNK+EDsHgYsRGiA1zXAGdP6CW4Nv4XCB8BEg4EdWjiy3WcUmaZ
-llztJLRj1SxFkXBdwOURSLyO
-=d2sZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmARdbwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++d8QAM+F1MmoxvVFnQPrqJPD
+UZdjiTzCL22vPUNN2je3GMizjFfrSZSFTuTQeHMlxMrgMzFrqGZ1TrfvXF6195Wh
+S6AKaMShREOcr40XsATWjOL0SnugaL+MlLRzo5eRSiSLXrQmvSc0aYsF1/dOnz1h
+8xyXy52tL1JBi92jKxo2YViKWwffQ8q96Q1YQt07V8NnNFBAwJ5H2GyzC4n/etlV
+nrhBhSDvt+ivJoV7voEDd41QhretymEKjLLof38J9eHgJiBT4xsFaOC/HoYlaJW5
+uOC2IzVhHkHN7t7ee1muHQLj07MRRp7NhOvsN1xhu4N+cqjKFdwKaBgHxFiwAw8M
+yAXCHY1tsUhpvhXqLfRBewYqN3jiEOcRaGxARUmQjNTkHM5ofwASmuzI24udg4sD
+NkDgQgo/ffwUPSaFYxppMkOkC4K4Pb0Dx76ZVd5LuKbdWzFZ3EwxOkwqlnV9Yol6
+I0B40uSY/zlLbABueV3xo28vPBeHOdwnEDDT2u/oMyRXGDm2MNyTD8Tm3knQCyfW
+Vl5kA84aQ6t1IbKG1MiY8vaP3UmGWEyQQAJc3Zfb4S6hpQorbDpVGh2jfVVwHrrF
+awSgcS3RmPdtNVVQwJXleLDw6sS09cj5H7EjnlqUu9OUmmhRJXjjZhG66fvsuZlR
+AKQt1dDBTYPeNFW8Q61AKkoZ
+=AXxY
 -----END PGP SIGNATURE-----
 
---===============7975098852745749590==--
+--===============8243383744784736974==--
