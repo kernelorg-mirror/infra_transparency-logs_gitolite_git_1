@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1340619007404676778=="
+Content-Type: multipart/mixed; boundary="===============1767988341239188150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Wed, 27 Jan 2021 09:27:06 -0000
-Message-Id: <161173962618.5283.4730779862493858300@gitolite.kernel.org>
+Date: Wed, 27 Jan 2021 09:27:16 -0000
+Message-Id: <161173963632.5418.2315799773364598938@gitolite.kernel.org>
 
---===============1340619007404676778==
+--===============1767988341239188150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 1c45ba93d34cd6af75228f34d0675200c81738b5
-    new: b491e6a7391e3ecdebdd7a097550195cc878924a
-    log: revlist-1c45ba93d34c-b491e6a7391e.txt
+  - ref: refs/heads/testing
+    old: ea43b9f58db3ea13137d5bb7f4e565764b971efb
+    new: b552766c872f5b0d90323b24e4c9e8fa67486dd5
+    log: revlist-ea43b9f58db3-b552766c872f.txt
 
---===============1340619007404676778==
+--===============1767988341239188150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1611739610 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1611739632 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1611739610-f02bf16c8c8345096812b5566a29e6bcb87ef9bf
+nonce 1611739632-277af2190f3b0283b48e05a1a9ecc4ed920e9054
 
-1c45ba93d34cd6af75228f34d0675200c81738b5 b491e6a7391e3ecdebdd7a097550195cc878924a refs/heads/master
+ea43b9f58db3ea13137d5bb7f4e565764b971efb b552766c872f5b0d90323b24e4c9e8fa67486dd5 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmARMdoTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqXBGCAC1jSWo8udR6CHte0YnTfWzywTyLU5e
-qMFoVXCLcWcdxHFgMVCmfe5Ye30BlnlB17CNahgSNe3iXshCd2EmErD05p5aUT0w
-jT1Y8JpFJiJMlZpZozdxjzH4qB1fPuRX3hpzkTUOs/Fy2wJwn2u0liDvClJ+cpn1
-iWEJcORgSqnuCku0Ms7oZFwuFXsn1nwBK6LEVVm7a9TQkuXnobbCXGh0GY+q4LuQ
-+6A/2bnVMd8NSdoOgS8fTyUgQkXdxvovY3O8pzT2uvQKDO2dotnfzojnbDXxX4JL
-7ynXLSk0hlNbwMG5y5i9w/YqdmJ847r7NLkoqq4wWD8T/7ohDf8xtwhh
-=H/lU
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmARMfETHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqT6CB/4rRpqgueFxHp0jAKaquW9nRLCRXk3U
+CjgpuR/IOVCNWjn0X5Yp/x/k/cyCMhy9pvCVMIxzEW13oZ87DIOAbxlOUpD5tWKq
+OEBXWfzStNM56vpkITPX4nnimiks3Hcng6CKRpzEvXY9w+sjWMyGTDsnJgwWA/rX
+FUo+dlIiY2YFvgQ5hPUcpuu6e73VbY4myb0VDA3TSk1LMJeqxsyaEdRBbEd2ZKuy
+j79CKSD4LQ9SGUSOCZmHUvcxzlzLLBsFf42xrZbVT/N3+FXK6cDcMP+X0Lplh1YE
+TxqHrF+VVlTemk7kyiRI1vOeY0svXMkOUsH95L0hA96h9o7gMP4fRIDF
+=EZf+
 -----END PGP SIGNATURE-----
 
---===============1340619007404676778==
+--===============1767988341239188150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c45ba93d34c-b491e6a7391e.txt
+Content-Disposition: attachment; filename=revlist-ea43b9f58db3-b552766c872f.txt
 
 56ce7c25ae1525d83cf80a880cf506ead1914250 xfrm: Fix oops in xfrm_replay_advance_bmp
 9f8550e4bd9d78a8436c2061ad2530215f875376 xfrm: fix disable_xfrm sysctl when used on xfrm interfaces
@@ -106,5 +106,6 @@ c5e9e8d48acdf3b863282af7f6f6931d39526245 Merge tag 'mac80211-for-net-2021-01-26'
 5cfeb5626d4acef8df993eceec442f7b54943976 MAINTAINERS: add David Ahern to IPv4/IPv6 maintainers
 f0947d0d21b219e03940b9be6628a43445c0de7a team: protect features update by RCU to avoid deadlock
 b491e6a7391e3ecdebdd7a097550195cc878924a net: lapb: Add locking to the lapb module
+b552766c872f5b0d90323b24e4c9e8fa67486dd5 can: dev: prevent potential information leak in can_fill_info()
 
---===============1340619007404676778==--
+--===============1767988341239188150==--
