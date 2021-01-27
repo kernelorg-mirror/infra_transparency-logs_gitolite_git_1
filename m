@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 27 Jan 2021 19:57:25 -0000
-Message-Id: <161177744518.1244.13424576460893610754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Wed, 27 Jan 2021 20:01:26 -0000
+Message-Id: <161177768639.4054.16627361670342392034@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/for-next
-    old: 2ee53e76f3ff35eb1fd19cb99ec631c709c410eb
-    new: 266917bd4a2184a5e558555d373d368810844c0b
+  - ref: refs/heads/dt/linus
+    old: 30596ae0547dbda469d31a2678d9072fb0a3fa27
+    new: 89c7cb1608ac3c7ecc19436469f35ed12da97e1d
     log: |
-         8145b3b99beb14604033a53288fa27f02610b729 dm writecache: fix performance degradation in ssd mode
-         266917bd4a2184a5e558555d373d368810844c0b dm writecache: fix unnecessary NULL check warnings
+         89c7cb1608ac3c7ecc19436469f35ed12da97e1d of/device: Update dma_range_map only when dev has valid dma-ranges
          
