@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0066363036601964492=="
+Content-Type: multipart/mixed; boundary="===============3591007874278956011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 27 Jan 2021 16:28:21 -0000
-Message-Id: <161176490192.18850.4944990244594600228@gitolite.kernel.org>
+Date: Wed, 27 Jan 2021 16:28:32 -0000
+Message-Id: <161176491222.19005.12430049061237960181@gitolite.kernel.org>
 
---===============0066363036601964492==
+--===============3591007874278956011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,34 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 65bcf072e20ed7597caa902f170f293662b0af3c
-    new: 7a976f77bb962ce9486e09eb839aa135619b54f3
-    log: revlist-65bcf072e20e-7a976f77bb96.txt
+  - ref: refs/heads/objtool/core
+    old: c9c324dc22aab1687da37001b321b6dfa93a0699
+    new: 9077c016a39c78054f03e0354ad8409b47af68dc
+    log: revlist-c9c324dc22aa-9077c016a39c.txt
 
---===============0066363036601964492==
+--===============3591007874278956011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65bcf072e20e-7a976f77bb96.txt
+Content-Disposition: attachment; filename=revlist-c9c324dc22aa-9077c016a39c.txt
 
-0ae78eec8aa64e645866e75005162603a77a0f49 sched/eas: Don't update misfit status if the task is pinned
-620a6dc40754dc218f5b6389b5d335e9a107fd29 sched/topology: Make sched_init_numa() use a set for the deduplicating sort
-432900f8164b77376df2c25113fb94f9d7fffd79 init/Kconfig: Correct thermal pressure help text
-1875dc5b8ff4690547c446ef222083e28e2d9463 sched: Correctly sort struct predeclarations
-e6e0dc2d5497f7f3ed970052917e2923c6f453f4 sched/fair: Remove SIS_AVG_CPU
-bae4ec13640b0915e7dd86da7e65c5d085160571 sched/fair: Move avg_scan_cost calculations under SIS_PROP
-dfddf874473f3a38ec99a679692218d97f04040d sched/fair: Remove select_idle_smt()
-6e443d713a929574f7fdaa87f0aa6f1579ba1541 sched/fair: Merge select_idle_core/cpu()
-6b81cf7f749902251bad76f07293dc564262d4e8 rbtree: Add generic add and find helpers
-845abbf92fb4838882a29748cb64894cf2846f64 rbtree, sched/fair: Use rb_add_cached()
-e656380e35e3c31199c1d4e4a441b770eb572ac4 rbtree, sched/deadline: Use rb_add_cached()
-f83454d12d231b5449bb448ff72a9877f8caf591 rbtree, perf: Use new rbtree helpers
-c6bc9bd06dff49fa4c5d715af2e95b834a28ff00 rbtree, uprobes: Use rbtree helpers
-2c4c7d742e3087cc45a275790db0317570043ef1 rbtree, rtmutex: Use rb_add_cached()
-7a976f77bb962ce9486e09eb839aa135619b54f3 rbtree, timerqueue: Use rb_add_cached()
+6f567c9300a5ebd7b18c26dda1c8d6ffbdd0debd objtool: Fix error handling for STD/CLD warnings
+1f9a1b74942485a0a29e7c4a9a9f2fe8aea17766 objtool: Fix retpoline detection in asm code
+34ca59e109bdf69704c33b8eeffaa4c9f71076e5 objtool: Fix ".cold" section suffix check for newer versions of GCC
+31a7424bc58063a8e0466c3c10f31a52ec2be4f6 objtool: Support retpoline jump detection for vmlinux.o
+18660698a3d30868524cefb60dcd4e0e297f71bb x86/ftrace: Add UNWIND_HINT_FUNC annotation for ftrace_stub
+ecf11ba4d066fe527586c6edd6ca68457ca55cf4 objtool: Assume only ELF functions do sibling calls
+081df94301e317e84c3413686043987da2c3e39d objtool: Add asm version of STACK_FRAME_NON_STANDARD
+b735bd3e68824316655252a931a3353a6ebc036f objtool: Combine UNWIND_HINT_RET_OFFSET and UNWIND_HINT_FUNC
+c26acfbbfbc2ae4167e33825793e85e1a53058d8 objtool: Add xen_start_kernel() to noreturn list
+cde07a4e4434ddfb9b1616ac971edf6d66329804 x86/xen: Support objtool validation in xen-asm.S
+f4b4bc10b0b85ec66f1a9bf5dddf475e6695b6d2 x86/xen: Support objtool vmlinux.o validation in xen-head.S
+82694854caa8badab7c5d3a19c0139e8b471b1d3 x86/xen/pvh: Annotate indirect branch as safe
+7cae4b1cf1cc42f490422e20662169e8656c915a x86/ftrace: Support objtool vmlinux.o validation in ftrace_64.S
+f83d1a0190bf6ac788a848454d21daee2299d085 x86/acpi: Annotate indirect branch as safe
+aeb818fcc94071e44203b3a36392562e5b88d9ec x86/acpi: Support objtool validation in wakeup_64.S
+b682369d47df66ebc157426f7eb991c3eec32e7e x86/power: Annotate indirect branches as safe
+125f0b7d24216f37a9683b3899fa45101090f098 x86/power: Move restore_registers() to top of the file
+9077c016a39c78054f03e0354ad8409b47af68dc x86/power: Support objtool validation in hibernate_asm_64.S
 
---===============0066363036601964492==--
+--===============3591007874278956011==--
