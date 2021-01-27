@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3912418538981539867=="
+Content-Type: multipart/mixed; boundary="===============4560451713992994139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Wed, 27 Jan 2021 09:55:35 -0000
-Message-Id: <161174133529.21630.7586631105654234654@gitolite.kernel.org>
+Date: Wed, 27 Jan 2021 09:55:59 -0000
+Message-Id: <161174135921.21796.504835303714186631@gitolite.kernel.org>
 
---===============3912418538981539867==
+--===============4560451713992994139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: e1ae4b0be15891faf46d390e9f3dc9bd71a8cae1
-    new: 2ab38c17aac10bf55ab3efde4c4db3893d8691d2
-    log: revlist-e1ae4b0be158-2ab38c17aac1.txt
+  - ref: refs/heads/dm-cryptsetup
+    old: 242a1be1e2b0d8cbf285520e1a39e1d87132c1a7
+    new: a35a56f1bebbf6f95e1f4b2890bcd27fb538af9a
+    log: revlist-242a1be1e2b0-a35a56f1bebb.txt
 
---===============3912418538981539867==
+--===============4560451713992994139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1ae4b0be158-2ab38c17aac1.txt
+Content-Disposition: attachment; filename=revlist-242a1be1e2b0-a35a56f1bebb.txt
 
 06fde695ee76429634c1e8c8c1154035aa61191e genirq/msi: Initialize msi_alloc_info before calling msi_domain_prepare_irqs()
 e90f55e0196a66f8e9e445f7f33f876dd889be9a irqchip/irq-sl28cpld: Convert comma to semicolon
@@ -225,5 +225,6 @@ aed89418de9a881419516fa0a5643577f521efc9 KVM: x86: Revert "KVM: x86: Mark GPRs d
 c7230a48ed5ebdda54867816303e974c154841d1 Merge tag 'spi-fix-v5.11-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 4992eb41ab1b5d08479193afdc94f9678e5ded13 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 2ab38c17aac10bf55ab3efde4c4db3893d8691d2 mailmap: remove the "repo-abbrev" comment
+a35a56f1bebbf6f95e1f4b2890bcd27fb538af9a dm-integrity: introduce the "fix_hmac" argument
 
---===============3912418538981539867==--
+--===============4560451713992994139==--
