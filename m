@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 27 Jan 2021 01:09:37 -0000
-Message-Id: <161170977749.19648.5274954499820872763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 27 Jan 2021 01:13:24 -0000
+Message-Id: <161171000409.22249.9438964945059627747@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/dt/linus
-    old: 453b674178327950e8517172c82107c43af222e4
-    new: 30596ae0547dbda469d31a2678d9072fb0a3fa27
+  - ref: refs/heads/master
+    old: 5cfeb5626d4acef8df993eceec442f7b54943976
+    new: f0947d0d21b219e03940b9be6628a43445c0de7a
     log: |
-         30596ae0547dbda469d31a2678d9072fb0a3fa27 ARM: zImage: atags_to_fdt: Fix node names on added root nodes
+         f0947d0d21b219e03940b9be6628a43445c0de7a team: protect features update by RCU to avoid deadlock
          
