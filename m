@@ -1,80 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============3057064740742032619=="
+Content-Type: multipart/mixed; boundary="===============2229840666767994772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 27 Jan 2021 23:14:31 -0000
-Message-Id: <161178927155.24299.6325257895163615168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 27 Jan 2021 23:19:27 -0000
+Message-Id: <161178956709.27150.9485137197594288708@gitolite.kernel.org>
 
---===============3057064740742032619==
+--===============2229840666767994772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/fscache-netfs-lib
-    old: a355f7d0c2340ea82e9287b78bddf52112f6d5df
-    new: 9278ba50ba1bed573be316964940053b0a9d81aa
-    log: revlist-a355f7d0c234-9278ba50ba1b.txt
-  - ref: refs/heads/fscache-next
-    old: 639a0fc43fc09cb3de7a0758303821f6c8f694d2
-    new: ad9f979f041395ee710a5b6159a2cf599e2880b6
-    log: revlist-639a0fc43fc0-ad9f979f0413.txt
+  - ref: refs/heads/master
+    old: 3e841bacf72fd5fd98172c42bbc9ae7d461b6304
+    new: 6b2e04bc240fe9be9e690059f710e9f95346d34d
+    log: revlist-3e841bacf72f-6b2e04bc240f.txt
 
---===============3057064740742032619==
+--===============2229840666767994772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a355f7d0c234-9278ba50ba1b.txt
+Content-Disposition: attachment; filename=revlist-3e841bacf72f-6b2e04bc240f.txt
 
-467ef3015ee4895f5ae21c4fd26ac76ac39c3923 netfs: Provide readahead and readpage netfs helpers
-f36fd472366d6d104deab1ca46315e64304c9a18 netfs: Add tracepoints
-2c9d76ec83433f87a2c89b12c4c059dabb34dba3 netfs: Gather stats
-1cd11ccf1530dfd235662ddae0c8390e643ea44a netfs: Add write_begin helper
-99fed40841c46296511363fac3f548787a1612d4 netfs: Define an interface to talk to a cache
-9e86220443e6cb4c783042f7bd0c15077ef92f84 fscache, cachefiles: Add alternate API to use kiocb for read/write to cache
-e02751cf5fb09815f50d8678a03195de2f475ad7 afs: Disable use of the fscache I/O routines
-bcadeaaf824a6675a5072c4b12888808bfa6db33 afs: Pass page into dirty region helpers to provide THP size
-4cdbeeef96d66aeb6ba6c5bb6d13fe423b34ec8b afs: Print the operation debug_id when logging an unexpected data version
-8f242c011257da51352407876b694db7d79e291c afs: Move key to afs_read struct
-8a7c124dd644ea36481a0fdbe069831067494389 afs: Don't truncate iter during data fetch
-b4e287323b0539ea4594f727e8ebc956f0956a4f afs: Log remote unmarshalling errors
-44f5e7c2eee23650fdbe3751799adf89b47d3dc1 afs: Set up the iov_iter before calling afs_extract_data()
-126ca026c28b5a7a154db9bf7742b6e2490a1a15 afs: Use ITER_XARRAY for writing
-738d61e85f2f8f6d79ebe6506eb1f0400feb8007 afs: Wait on PG_fscache before modifying/releasing a page
-13ebd1d8f6a10f5f08b4d6efde17c0ffa8dc1fe3 afs: Extract writeback extension into its own function
-65684c4735d7f72fdd37b2e428823ec885b3553d afs: Prepare for use of THPs
-df0114544afef6bceb646ea924bf07e9185b0f1d afs: Use the fs operation ops to handle FetchData completion
-9278ba50ba1bed573be316964940053b0a9d81aa afs: Use new fscache read helper API
+2961f562bb7b8b3cbaeaf5d9f0ea0fa8e72cc066 usbnet: fix the indentation of one code snippet
+871127e6ab0d6abb904cec81fc022baf6953be1f bnxt_en: Convert to use netif_level() helpers.
+285715ac9a81209540bfdb2495e3a005b701bef8 bonding: add TLS dependency
+9b0b7837b9f1b29e89de8c5e321dc94601fda4b5 selftests: add IPv4 unicast extensions tests
+67c9ed1c8809d554082a30a1b38b460a6e8405c0 net: dsa: mv88e6xxx: use mv88e6185_g1_vtu_getnext() for the 6250
+b28f3f3c3f30552285f4a420acb7afba2322d668 net: dsa: mv88e6xxx: use mv88e6185_g1_vtu_loadpurge() for the 6250
+3e4715ec58ff48015270971f33eafc956cf5ca3f Merge branch 'net-dsa-mv88e6xxx-remove-some-6250-specific-methods'
+90a586b8d741b4b8a1368f6a2ccf858e1a0fe23c net: usbnet: initialize tasklet using tasklet_init
+c955e329bb9d44fab75cf2116542fcc0de0473c5 net: usbnet: use new tasklet API
+6626a0266566c5aea16178c5e6cd7fc4db3f2f56 Merge branch 'net-usbnet-convert-to-new-tasklet-api'
+6b2e04bc240fe9be9e690059f710e9f95346d34d net: allow user to set metric on default route learned via Router Advertisement
 
---===============3057064740742032619==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-639a0fc43fc0-ad9f979f0413.txt
-
-467ef3015ee4895f5ae21c4fd26ac76ac39c3923 netfs: Provide readahead and readpage netfs helpers
-f36fd472366d6d104deab1ca46315e64304c9a18 netfs: Add tracepoints
-2c9d76ec83433f87a2c89b12c4c059dabb34dba3 netfs: Gather stats
-1cd11ccf1530dfd235662ddae0c8390e643ea44a netfs: Add write_begin helper
-99fed40841c46296511363fac3f548787a1612d4 netfs: Define an interface to talk to a cache
-9e86220443e6cb4c783042f7bd0c15077ef92f84 fscache, cachefiles: Add alternate API to use kiocb for read/write to cache
-e02751cf5fb09815f50d8678a03195de2f475ad7 afs: Disable use of the fscache I/O routines
-bcadeaaf824a6675a5072c4b12888808bfa6db33 afs: Pass page into dirty region helpers to provide THP size
-4cdbeeef96d66aeb6ba6c5bb6d13fe423b34ec8b afs: Print the operation debug_id when logging an unexpected data version
-8f242c011257da51352407876b694db7d79e291c afs: Move key to afs_read struct
-8a7c124dd644ea36481a0fdbe069831067494389 afs: Don't truncate iter during data fetch
-b4e287323b0539ea4594f727e8ebc956f0956a4f afs: Log remote unmarshalling errors
-44f5e7c2eee23650fdbe3751799adf89b47d3dc1 afs: Set up the iov_iter before calling afs_extract_data()
-126ca026c28b5a7a154db9bf7742b6e2490a1a15 afs: Use ITER_XARRAY for writing
-738d61e85f2f8f6d79ebe6506eb1f0400feb8007 afs: Wait on PG_fscache before modifying/releasing a page
-13ebd1d8f6a10f5f08b4d6efde17c0ffa8dc1fe3 afs: Extract writeback extension into its own function
-65684c4735d7f72fdd37b2e428823ec885b3553d afs: Prepare for use of THPs
-df0114544afef6bceb646ea924bf07e9185b0f1d afs: Use the fs operation ops to handle FetchData completion
-9278ba50ba1bed573be316964940053b0a9d81aa afs: Use new fscache read helper API
-ad9f979f041395ee710a5b6159a2cf599e2880b6 Merge branch 'fscache-netfs-lib' into fscache-next
-
---===============3057064740742032619==--
+--===============2229840666767994772==--
