@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 27 Jan 2021 16:00:02 -0000
-Message-Id: <161176320268.908.782065347550864704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 27 Jan 2021 16:00:21 -0000
+Message-Id: <161176322154.2248.15474512466595590286@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/pgtable_spinlock-v3
-    old: ffc7646ef53a22c3aba7c6a1ca33d23dd641a848
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 6f62056fcfca4e15bb120b257677140fed58fd2f
+    new: 6db352a82d9511d63d3bf731419e4ac71d1b19a0
+    log: |
+         6db352a82d9511d63d3bf731419e4ac71d1b19a0 manager: UseDefaultInterface for bcmsdh_sdmmc
+         
