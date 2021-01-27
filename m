@@ -1,53 +1,86 @@
-Content-Type: multipart/mixed; boundary="===============3427573043112502863=="
+Content-Type: multipart/mixed; boundary="===============0989278821315267989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Wed, 27 Jan 2021 16:55:49 -0000
-Message-Id: <161176654925.4746.7047300070848869439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Wed, 27 Jan 2021 16:58:54 -0000
+Message-Id: <161176673471.5686.5775870634117581392@gitolite.kernel.org>
 
---===============3427573043112502863==
+--===============0989278821315267989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
+  - ref: refs/heads/master
+    old: aed89418de9a881419516fa0a5643577f521efc9
+    new: 9a78e15802a87de2b08dfd1bd88e855201d2c8fa
+    log: |
+         9a78e15802a87de2b08dfd1bd88e855201d2c8fa KVM: x86: allow KVM_REQ_GET_NESTED_STATE_PAGES outside guest mode for VMX
+         
   - ref: refs/heads/next
-    old: f9812c033ad35b9465bc9c991aba2e4c2d121c07
-    new: 71df1724cda35ac3cd93195997615371e12b4651
-    log: revlist-f9812c033ad3-71df1724cda3.txt
+    old: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
+    new: 9a78e15802a87de2b08dfd1bd88e855201d2c8fa
+    log: revlist-7c53f6b671f4-9a78e15802a8.txt
+  - ref: refs/heads/queue
+    old: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
+    new: 9a78e15802a87de2b08dfd1bd88e855201d2c8fa
+    log: revlist-7c53f6b671f4-9a78e15802a8.txt
 
---===============3427573043112502863==
+--===============0989278821315267989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9812c033ad3-71df1724cda3.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-de9427ca87cfa959abcd8bab7e38343b51219ffa PCI: Remove tango host controller driver
-42aa2bd9a033e8ed5b0da74da95795a2dc6f7638 PCI: dwc: Drop support for config space in 'ranges'
-96f760cc00e4280860d2aac497c75e0ef8922833 PCI: rockchip: Make 'ep-gpios' DT property optional
-b205659626d5ad9672c740eb43394eb803aefa05 dt-bindings: arm: rockchip: Add FriendlyARM NanoPi M4B
-ae191d2e513ae5274224777ae67018a584074a28 PCI: xilinx-cpm: Fix reference count leak on error path
-42814c438aac79746d310f413a27d5b0b959c5de PCI: mediatek: Add missing of_node_put() to fix reference leak
-538157be1ec07d2178b9326c94474cb379b618d8 PCI: dwc: layerscape: Convert to builtin_platform_driver()
-1423de718e6a0ce00372ab119fa40060ff50883e PCI/ACPI: Make acpi_pci_osc_control_set() static
-866e61fc40c96e7adba62c9e149e96912b10663c PCI/ACPI: Remove unnecessary osc_lock
-508d392ae0bb3729d4c18628e021968a1b11b32c PCI/ACPI: Clarify message about _OSC failure
-ef9e4005cbaf022c6251263aa27836acccaef65d PCI: Align checking of syscall user config accessors
-e496ebc8c19be1e51c70502752ab59434d7eb532 Merge branch 'pci/enumeration'
-f089c324b6cd666957a81ce8ad5c4b972c25ce4f Merge branch 'pci/resource'
-e10c25b77c33a3c2bb699734edbfeedc9476bd74 Merge branch 'pci/misc'
-0966b58394068ea7a602f9c28113d1e377acecd9 Merge branch 'remotes/lorenzo/pci/brcmstb'
-5b858ff9888c6e0b6efee661f3125a2e04769ee9 Merge branch 'remotes/lorenzo/pci/dwc'
-a419fc17dab97576f8627f70c8b0dd1962055786 Merge branch 'remotes/lorenzo/pci/mediatek'
-c4b023d205ba8eb6420e397fc3af325c8b144131 Merge branch 'remotes/lorenzo/pci/rcar'
-d77f109784536221d0111c8904d08016139396fb Merge branch 'remotes/lorenzo/pci/rockchip'
-22032f952928a5e133a587304597b8177729fa31 Merge branch 'remotes/lorenzo/pci/ntb'
-6a6dbf81cd8874be7d0f1ecd6775a2560493bfde Merge branch 'remotes/lorenzo/pci/tango'
-e708ae37df4e78df0470d71d60938dea4b646fde Merge branch 'remotes/lorenzo/pci/xilinx'
-71df1724cda35ac3cd93195997615371e12b4651 Merge branch 'remotes/lorenzo/pci/misc'
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1611766733 -0500
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1611766733-2c8b2797b4cfb0f724bd016c2f38c6c67e5b2e33
 
---===============3427573043112502863==--
+aed89418de9a881419516fa0a5643577f521efc9 9a78e15802a87de2b08dfd1bd88e855201d2c8fa refs/heads/master
+7c53f6b671f4aba70ff15e1b05148b10d58c2837 9a78e15802a87de2b08dfd1bd88e855201d2c8fa refs/heads/next
+7c53f6b671f4aba70ff15e1b05148b10d58c2837 9a78e15802a87de2b08dfd1bd88e855201d2c8fa refs/heads/queue
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmARm80UHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroOjkgf/bAPZNDl/HQMfx2NVbP4jJbw2Ml/k
+S0+IlF3/NF6NrkEzN6D1SAOpKIS98BtcnXrXPV9AoLT42p1eaDnx/rFk+r4LEjtz
+EU+3SMbZ8PTFhezKSe3KR7DE5aJVFx/abN3ox4nBDGdyzkYqZTEV4BlH/seEM0br
+rKkpr4Xln4gjHItD+eGErKnYtWjqYMfAkLx4nF1eJ3pg3exjX8lQLctacYgZOcU5
+eKPcA4RCXMI9uzIp4R2jQwP5j99ze7DFOH8lm0QgWAVtt+WUu+Tk148zuXAgU/sR
+OFJnRfCNSauhOx8zXj0R/2tZI0gWRF0vAvqeOZm8sOPJT6BoIksQIBPVWQ==
+=z7Ir
+-----END PGP SIGNATURE-----
+
+--===============0989278821315267989==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7c53f6b671f4-9a78e15802a8.txt
+
+11663111cd49b4c6dd27479774e420f139e4c447 KVM: arm64: Hide PMU registers from userspace when not available
+7ded92e25cac9758a755b8f524b11b509c49afe1 KVM: arm64: Simplify handling of absent PMU system registers
+2c91ef39216149df6703c3fa6a47dd9a1e6091c1 KVM: arm64: Allow PSCI SYSTEM_OFF/RESET to return
+7ba8b4380afbdbb29d53c50bee6563cd7457fc34 KVM: arm64: Use the reg_to_encoding() macro instead of sys_reg()
+e1663372d5ffaa3fc79b7932878c5c860f735412 KVM: arm64: Compute TPIDR_EL2 ignoring MTE tag
+9529aaa056edc76b3a41df616c71117ebe11e049 KVM: arm64: Filter out v8.1+ events on v8.0 HW
+139bc8a6146d92822c866cf2fd410159c56b3648 KVM: Forbid the use of tagged userspace addresses for memslots
+615099b01eb7127fb2f4bc956171a6a0accf688b Merge tag 'kvmarm-fixes-5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+a10f373ad3c760dd40b41e2f69a800ee7b8da15e KVM: Documentation: Fix spec for KVM_CAP_ENABLE_CAP_VM
+eb79cd00ce25974c21f34f1eeb92a580ff572971 KVM: x86: Add more protection against undefined behavior in rsvd_bits()
+e61ab2a320c3dfd6209efe18a575979e07470597 KVM: x86/pmu: Fix UBSAN shift-out-of-bounds warning in intel_pmu_refresh()
+98dd2f108e448988d91e296173e773b06fb978b8 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+1f7becf1b7e21794fc9d460765fe09679bc9b9e0 KVM: x86: get smi pending status correctly
+01ead84ccd23afadebe66aea0eda002ac29ca9be KVM: Documentation: Update description of KVM_{GET,CLEAR}_DIRTY_LOG
+d95df9510679757bdfc22376d351cdf367b3a604 kvm: tracing: Fix unmatched kvm_entry and kvm_exit events
+d51e1d3f6b4236e0352407d8a63f5c5f71ce193d KVM: nVMX: Sync unsync'd vmcs02 state to vmcs12 on migration
+250091409a4ac567581c1f929eb39139b57b56ec KVM: SVM: Unconditionally sync GPRs to GHCB on VMRUN of SEV-ES guest
+aed89418de9a881419516fa0a5643577f521efc9 KVM: x86: Revert "KVM: x86: Mark GPRs dirty when written"
+9a78e15802a87de2b08dfd1bd88e855201d2c8fa KVM: x86: allow KVM_REQ_GET_NESTED_STATE_PAGES outside guest mode for VMX
+
+--===============0989278821315267989==--
