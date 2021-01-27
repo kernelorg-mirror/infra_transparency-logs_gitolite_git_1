@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2090068417106627666=="
+Content-Type: multipart/mixed; boundary="===============1733098126991952548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 27 Jan 2021 15:25:17 -0000
-Message-Id: <161176111700.13131.1663696407520287563@gitolite.kernel.org>
+Date: Wed, 27 Jan 2021 15:27:15 -0000
+Message-Id: <161176123535.13800.8570155000046403599@gitolite.kernel.org>
 
---===============2090068417106627666==
+--===============1733098126991952548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 348e1bc5f4b733a9deb1dae3242ee94f23fe6ab0
-    new: 18c05faf8ab14913c8144108661efa8f17b10b5b
-    log: revlist-348e1bc5f4b7-18c05faf8ab1.txt
+  - ref: refs/heads/for-next
+    old: 8d254bb2d42958dbc3617938742086b5742fd768
+    new: a6811a41feb24cd0f18116f9d20e9be6106d84bd
+    log: revlist-8d254bb2d429-a6811a41feb2.txt
 
---===============2090068417106627666==
+--===============1733098126991952548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-348e1bc5f4b7-18c05faf8ab1.txt
+Content-Disposition: attachment; filename=revlist-8d254bb2d429-a6811a41feb2.txt
 
 433675486af4635416f8ece70b92b020a5b91005 scsi: target: iscsi: Avoid in_interrupt() usage in iscsit_close_session()
 efc9d73063c15f1aba8920b9f9ceaba4f3fb8ed9 scsi: target: iscsi: Avoid in_interrupt() usage in iscsit_check_session_usage_count()
@@ -94,5 +94,6 @@ d3ba622db82b37882cf416e52d574833d3b49372 scsi: ufs: Cleanup WB buffer flush togg
 cd9df0c216366f06b42d1d00b850039c145b73aa scsi: qla1280: Fix printk regression
 12e3ef8b3e7c0840dee76c4da7a0af8d5982c90d scsi: megaraid: Fix ifnullfree.cocci warnings
 18c05faf8ab14913c8144108661efa8f17b10b5b scsi: qla2xxx: Remove redundant NULL check
+a6811a41feb24cd0f18116f9d20e9be6106d84bd Merge branch 'misc' into for-next
 
---===============2090068417106627666==--
+--===============1733098126991952548==--
