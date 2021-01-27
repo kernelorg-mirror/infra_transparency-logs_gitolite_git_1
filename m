@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2394249412577378371=="
+Content-Type: multipart/mixed; boundary="===============7079136873262627716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 27 Jan 2021 17:52:06 -0000
-Message-Id: <161176992695.6488.6224213552493056800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Wed, 27 Jan 2021 17:52:13 -0000
+Message-Id: <161176993306.6611.17060930130912693279@gitolite.kernel.org>
 
---===============2394249412577378371==
+--===============7079136873262627716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 2ab38c17aac10bf55ab3efde4c4db3893d8691d2
     log: revlist-13391c60da33-2ab38c17aac1.txt
 
---===============2394249412577378371==
+--===============7079136873262627716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ c7230a48ed5ebdda54867816303e974c154841d1 Merge tag 'spi-fix-v5.11-rc5' of git://
 4992eb41ab1b5d08479193afdc94f9678e5ded13 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 2ab38c17aac10bf55ab3efde4c4db3893d8691d2 mailmap: remove the "repo-abbrev" comment
 
---===============2394249412577378371==--
+--===============7079136873262627716==--
