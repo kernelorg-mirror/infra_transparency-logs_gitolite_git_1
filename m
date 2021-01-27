@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5253003221011965607=="
+Content-Type: multipart/mixed; boundary="===============8448557435454797463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 27 Jan 2021 23:19:49 -0000
-Message-Id: <161178958932.27447.2634203843584459779@gitolite.kernel.org>
+Date: Wed, 27 Jan 2021 23:20:15 -0000
+Message-Id: <161178961511.29026.11636026612580385792@gitolite.kernel.org>
 
---===============5253003221011965607==
+--===============8448557435454797463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 1e2a199f6ccdc15cf111d68d212e2fd4ce65682e
-    new: 76c057c84d286140c6c416c3b4ba832cd1d8984e
-    log: revlist-1e2a199f6ccd-76c057c84d28.txt
-  - ref: refs/tags/v5.11-rc5
-    old: 0000000000000000000000000000000000000000
-    new: ccc5e9edc1b189a5c49dc8ac5751f95dc6d83564
+  - ref: refs/heads/dev
+    old: 8d52dbb373579b48f5758dd0cdd2ac0fb4e5be7f
+    new: baf5ceb42d3301fb77da73dd0cfc6d020f6841ec
+    log: revlist-8d52dbb37357-baf5ceb42d33.txt
 
---===============5253003221011965607==
+--===============8448557435454797463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e2a199f6ccd-76c057c84d28.txt
+Content-Disposition: attachment; filename=revlist-8d52dbb37357-baf5ceb42d33.txt
 
 06fde695ee76429634c1e8c8c1154035aa61191e genirq/msi: Initialize msi_alloc_info before calling msi_domain_prepare_irqs()
 e90f55e0196a66f8e9e445f7f33f876dd889be9a irqchip/irq-sl28cpld: Convert comma to semicolon
@@ -457,5 +454,30 @@ c7230a48ed5ebdda54867816303e974c154841d1 Merge tag 'spi-fix-v5.11-rc5' of git://
 00e35f2b0e8acb88d4e1aa96ff0490e3bfe46580 parisc: Enable -mlong-calls gcc option by default when !CONFIG_MODULES
 2ab38c17aac10bf55ab3efde4c4db3893d8691d2 mailmap: remove the "repo-abbrev" comment
 76c057c84d286140c6c416c3b4ba832cd1d8984e Merge branch 'parisc-5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+632faca72938f9f63049e48a8c438913828ac7a9 f2fs: handle unallocated section and zone on pinned/atgc
+36218b81f094648d929994399eb6eb5c97b991e5 f2fs: Replace expression with offsetof()
+a28d9aa1a2c7c774c38f2da1a662434bc29cb98e f2fs: fix to set inode->i_mode correctly for posix_acl_update_mode
+17232e830afb800acdcc22ae8980bf9d330393ef f2fs: enhance to update i_mode and acl atomically in f2fs_setattr()
+e0fcd01510ad025c9bbce704c5c2579294056141 f2fs: enforce the immutable flag on open files
+0b979f1bded3e6808184842133e6afeba312a4ff f2fs: relocate f2fs_precache_extents()
+32be0e97c71366a19d11d1965e3f0957ea0be609 f2fs: compress: deny setting unsupported compress algorithm
+3fde13f817e23f05ce407d136325df4cbc913e67 f2fs: compress: support compress level
+5d4daa579e56adc97fb77c7dfda6c1f747c9ef25 f2fs: introduce a new per-sb directory in sysfs
+0953fe864c4d05f5a5cde626a630a76918cf4f9c f2fs: fix to tag FIEMAP_EXTENT_MERGED in f2fs_fiemap()
+2562515f0ad7342bde6456602c491b64c63fe950 f2fs: fix out-of-repair __setattr_copy()
+cf7404036019fada99d99ea01f49cb5c3142099d f2fs: trival cleanup in move_data_block()
+7f59b277f79e8aacaa2ec7e549be6c27985c27f2 f2fs: clean up post-read processing
+df0736d70c4fa6ed711ba103b61880fe72bb4777 f2fs: fix null page reference in redirty_blocks
+46085f37fc9e12d5c3539fb768b5ad7951e72acf f2fs: fix to set/clear I_LINKABLE under i_lock
+794c43f716845e2d48ce195ed5c4179a4e05ce5f libfs: unexport generic_ci_d_compare() and generic_ci_d_hash()
+3afae09ffea5e08f523823be99a784675995d6bb f2fs: compress: fix potential deadlock
+6d1451bf7f84ea45035553ae566b3c91661d902b f2fs: fix to use per-inode maxbytes
+0bfe9f790448012ef38abf4e78feb2e691e2d366 f2fs: introduce sb_status sysfs node
+deaa965fb01173478a1234f4305c71fffa4b5dc4 f2fs: remove unused stat_{inc, dec}_atomic_write
+12699fb781574d50871ec6a4d96ac5e0f0ede03e f2fs: Remove readahead collision detection
+d5f7bc0064e0541164bd3deeafad16bbb5992433 f2fs: deprecate f2fs_trace_io
+5e32c774f850b008bfeb24618e75e381a12b8a4e f2fs: introduce checkpoint=merge mount option
+6092f61dfc2477e016943e6a96cb86981551cff5 f2fs: add ckpt_thread_ioprio sysfs node
+baf5ceb42d3301fb77da73dd0cfc6d020f6841ec f2fs: flush data when enabling checkpoint back
 
---===============5253003221011965607==--
+--===============8448557435454797463==--
