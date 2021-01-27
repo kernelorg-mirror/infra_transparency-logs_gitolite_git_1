@@ -1,55 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============7771017980588914489=="
+Content-Type: multipart/mixed; boundary="===============3846679954345543278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Wed, 27 Jan 2021 20:05:32 -0000
-Message-Id: <161177793263.6880.2522196703739881659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 27 Jan 2021 20:38:06 -0000
+Message-Id: <161177988607.25940.7447163165174880158@gitolite.kernel.org>
 
---===============7771017980588914489==
+--===============3846679954345543278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/aa
-user: andrea
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/mapcount_deshare
-    old: 99def4fdafd338683675cf79e3c590def9f7c3a6
-    new: 767712479209bd684aeaf45ad96750be2889c95d
-    log: revlist-99def4fdafd3-767712479209.txt
+  - ref: refs/heads/testing5
+    old: d0832b84ee7a5604079b71055d62a7fee09666e9
+    new: 223296d5f1d6e0b08f06669890f0b005f72d34d7
+    log: revlist-d0832b84ee7a-223296d5f1d6.txt
 
---===============7771017980588914489==
+--===============3846679954345543278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-99def4fdafd3-767712479209.txt
+Content-Disposition: attachment; filename=revlist-d0832b84ee7a-223296d5f1d6.txt
 
-bf74124b767aeca4985adea4e63d25fb15ef3683 mm: thp: make the THP mapcount atomic with a seqlock
-0ff395941cb43cc459ddd5d701eca11aa43a8f71 mm: thp: replace the page lock with the seqlock for the THP mapcount
-c32b6be9ffa4dbf9c50eb8f59154c5a773ba34e2 mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
-00884ee72003902f5f9e38b081f2b1bc942bf27b mm: thp: introduce page_trans_huge_anon_shared
-44c3fdb72542b489bd33053e5bef6ab1eaf6ae6f mm: thp: introduce page_mapcount_seq irqsafe version
-37e7cf53a5a3898352a3b6e5002a62d6e7553caa mm: thp: introduce irqsafe methods to check if anonymous pages are shared
-cc0e234d0c7479cf31bfce4bb80fa061bdc45380 mm: gup: COR: copy-on-read fault
-dbc75d81d098ad87e8f1adaf72154e5cb1fc30a9 mm: gup: gup_page_unshare()
-5ed135ea4c43561df6db1a98bdb879f84fcf8489 mm: gup: FOLL_UNSHARE
-daff30b9223553c0e8ffeb89c6a27784186e49ce mm: gup: FOLL_UNSHARE: optimize mmu notifier
-c4f2bc375608c8b366124c90ffb654a0d58a1623 mm: COW: restore full accuracy in page reuse
-07593d1b84c3bc11c359d9386e27aa617d466712 mm: COW: skip the page lock in the COW copy path
-fe9de2e04eab8b2d82c1d5b1249df63894ce7d5e mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
-b309aed8c8e877a2b461c9898254d69393105b33 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
-431334e7431fc1606df5a0a59683dde08de15816 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
-20c51154cdb58e86ba289fdbeb3333ae7fab94c6 mm: gup: document FOLL_MM_SYNC
-675695247d46e19558b5cd72988251dd12e49d4c mm: gup: allow FOLL_PIN to scale in SMP
-54cd43df4f54d9535d1b270411d6285a82d6bf0a mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
-5ea1c5f6cfb2f9c0ee76bdf8b8b2c7bf3ba75bcb mm: gup: pack has_pinned in MMF_HAS_PINNED
-6e19666892016a5e383d90fba2830b401cf72be7 mm: thp: page_mapcount_lock: optimize the migrate path
-68ce25bc42c6fa18e43b9665c2016fab7bbbe7f9 mm: thp: page_mapcount_lock: optimize the lock_page_memcg
-9362390ea151e6d9924c230d8096259891756ff2 mm: thp: optimize total_mapcount() with head_compound_mapcount
-b27bd39da2a3191340a4bdba32a7f080aaa55c61 mm: thp: replace !total_mapcount() with page_mapped()
-645ab2df06d884979701638f9c31cbf4f4b77312 mm: thp: cleanup and optimize compound_nr
-767712479209bd684aeaf45ad96750be2889c95d Merge remote-tracking branch 'korg/mapcount_deshare' into HEAD
+e85d55de5993e9e51ce837432f974a485972744a scripts: add generic syscalltbl.sh
+badfeb144892eadee062fabbcf3d93a273c24545 x86/syscall: fix -Wmissing-prototypes warnings from COND_SYSCALL()
+246f8fe465c058a8d7c4fc413923346a5acb1272 x86/build: add missing FORCE and fix 'targets' to make if_changed work
+0a645bfd0cce3548a2f7752f3c2bbb736c9eb51e x86/entry/x32: rename __x32_compat_sys_* to __x64_compat_sys_*
+c39e170167d9f962050cac086f3731bc2e6fae00 x86/syscalls: switch to generic syscalltbl.sh
+f5543a8f897bdbaaacb52d0d6ccd606845ec7190 alpha: add missing FORCE and fix 'targets' to make if_changed work
+303722db90d9de37cecd3f03622a0a6f7c4cd021 alpha: switch to generic syscalltbl.sh
+8d52d376179b24752704c72911ba864c808460ad ia64: add missing FORCE and fix 'targets' to make if_changed work
+137f9f247fcbb6a3309034348fe21b7d60c5c304 ia64: switch to generic syscalltbl.sh
+c8cc971c11a232ef77295299187b4fc1a96cad36 m68k: add missing FORCE and fix 'targets' to make if_changed work
+830a846fca2d1d2b1e7dee589b5f97e686350eb1 m68k: switch to generic syscalltbl.sh
+598d489dbcc0d4b5c78c6183544fa6f161317767 microblaze: add missing FORCE and fix 'targets' to make if_changed work
+c3e10a364ff923b05c4e209941234229841e9b07 microblaze: switch to generic syscalltbl.sh
+04aba2b2b943c9a7be71e3ff87f3dcde2c26791f mips: add missing FORCE and fix 'targets' to make if_changed work
+77a7ee02c5e0eaf7d0e575f9cd2a0a5077f338eb mips: unexport
+a38278caa1fb0834c079752f9d19441130f916d1 mips: switch to generic syscalltbl.sh
+b493c34a597b78a8a5a70e6e64baf5eeb4cb0e9e parisc: add missing FORCE and fix 'targets' to make if_changed work
+c9fc226013f2756af1aa4d5854825eb88988448a parisc: switch to generic syscalltbl.sh
+2f5602ab2bce74315f6ecaee35c405fb9c3993c3 sh: add missing FORCE and fix 'targets' to make if_changed work
+aab23d1dc8757f5a020367079ed5fc9f66d0e21e sh: switch to generic syscalltbl.sh
+ab5bd9ab5837da428acadae0d11c35fa70874b72 sparc: remove wrong comment from arch/sparc/include/asm/Kbuild
+e9b9d457ba168b540d684034a1d5923c1b702e95 sparc: add missing FORCE and fix 'targets' to make if_changed work
+c10748823ea34a1bb3803b762d4b654c159947af sparc: switch to generic systbl.sh
+d7ac1e3fed9d76ef08e10689e06f4f4bc524b246 powerpc: add missing FORCE and fix 'targets' to make if_changed work
+722463ed4fc277fe8bdee56e13854780873b3d34 powerpc: switch to generic syscalltbl
+7c892170152bb7b8cb24ecd62166873cb3469612 ARM: comment out syscalls with no entry
+f90e508cbf55b2241394b7f69a549117f9263550 ARM: switch to generic syscalltbl.sh
+47e41eec7cded37e28c2d17708fb2cfe3d0defe5 xtensa: add missing FORCE and fix 'targets' to make if_changed work
+cdbee85c0d24736f193366393cedcbcd526d7f33 xtensa: switch to generic syscalltbl.sh
+259ec6188788a924ba7a7f75b61bf7bc4271c075 syscall: generic
+851f09e2b3e04d3cb2c0fc42929c1fe8381bef59 powerpc: switch to generic syscallhdr.sh
+e7592437fc30dec6693a83fadad78eb19818c9c2 microblaze: switch to generic syscallhdr.sh
+b4c7ebc9c8c16277bbaedf06beaa341f2f58a9e5 xtensa: switch to generic syscallhdr.sh
+25a261a673149ea976b26c2ad266bc7e2d16797a sparc: switch to generic syscallshdr.sh
+5444c0f13637c1a969269a772e8653ad187cdc70 alpha: switch to generic syscallhdr.sh
+dafc86bf5338a1bc7bea060b2228594308683908 sh: switch to generic syscallhdr.sh
+088f49fed88a2df7d709bf52f1913ba22509712e m68k: generic syscallhdr
+e391f0928be1531e7828e15bdb90f3232127826b mips: switch to generic syscallhdr.sh
+dbb9168641f455e01c64c1094b3e0edbdc83ba04 parisc: switch to generic syscallhdr.sh
+223296d5f1d6e0b08f06669890f0b005f72d34d7 ia64: switch to generic syscallhdr.sh
 
---===============7771017980588914489==--
+--===============3846679954345543278==--
