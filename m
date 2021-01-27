@@ -1,47 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4360464986037396597=="
+Content-Type: multipart/mixed; boundary="===============4531207677020797026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Wed, 27 Jan 2021 09:03:33 -0000
-Message-Id: <161173821394.30408.16120093659672305245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Wed, 27 Jan 2021 09:10:32 -0000
+Message-Id: <161173863278.29148.8324866179797638928@gitolite.kernel.org>
 
---===============4360464986037396597==
+--===============4531207677020797026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can-next
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/tags/linux-can-next-for-5.12-20210127
-    old: 0000000000000000000000000000000000000000
-    new: f565d81cf586cab3a915c1a94d2fce9af42643ee
+  - ref: refs/heads/opp/linux-next
+    old: 2fba9103fda89cd076d1e7c75be3a0bbd6fcba59
+    new: e6c6dcefd54f87dd8083ce22eba2d002ff9afd4b
+    log: revlist-2fba9103fda8-e6c6dcefd54f.txt
 
---===============4360464986037396597==
+--===============4531207677020797026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2fba9103fda8-e6c6dcefd54f.txt
 
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1611738208 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1611738208-124103f8faf8f8ac56263ba99669a1fff00c42a5
+6c2160ff30a8f421563793020264cf9f533f293c opp: Create _of_add_table_indexed() to reduce code duplication
+26de96f200805b43634bcc2b4d9824b2e38b0f6b opp: Add dev_pm_opp_of_add_table_noclk()
+16a2bbfefaeb5483b4d68753c3d478119954ebf1 opp: Add devm_pm_opp_register_set_opp_helper
+a60b1d85bf637408266148e180ea63cd0fc2a8be opp: Add devm_pm_opp_attach_genpd
+4ffee0de0f366ae643c0044f8e6d8cc222a7bcf5 opp: Handle missing OPP table in dev_pm_opp_xlate_performance_state()
+d75478a70d0629442e2e34c7db1a2b5c2d392044 opp: Print OPP level in debug message of _opp_add_static_v2()
+1209f89818c51f586e419629bf97215256c35d5c opp: Prepare for ->set_opp() helper to work without regulators
+7e306e1251c00ba219a660f698149b22b4c33c50 opp: Make _set_opp_custom() work without regulators
+9baaa81328e1d82baad7011090b795a9ab786d0b opp: Rename _opp_set_rate_zero()
+2e2f3cc38d955ba58ab0b4980a04aa1142194877 opp: No need to check clk for errors
+c005f218160624d6be955b718b9fd5adb8fa4031 opp: Keep track of currently programmed OPP
+e01da2ca079d82e6e21629c449461a2a88ea0c80 opp: Split _set_opp() out of dev_pm_opp_set_rate()
+ddf14415b744fac5481c15bd81671f3cde4340f5 opp: Allow _set_opp() to work for non-freq devices
+7d55c0301aac3ec1da6932128e9fdab65f952d57 opp: Allow _generic_set_opp_regulator() to work for non-freq devices
+c4c9f1d22116726ab03701cd0076454e46cead9e opp: Allow _generic_set_opp_clk_only() to work for non-freq devices
+bd6e469506208c0aac3a6355496f6241f2a8ec05 opp: Update parameters of  _set_opp_custom()
+7a2df1999fb87a2c41589db1d03c3a1f6d934f60 opp: Implement dev_pm_opp_set_opp()
+ab90c175fd1dddcfd24416cd9a7405c172364e72 cpufreq: qcom: Migrate to dev_pm_opp_set_opp()
+ff7f11c9ec108d35bcfed44260d3407ec1b5df69 drm: msm: Migrate to dev_pm_opp_set_opp()
+f0341655361aa0107266ed9c838aa8bcfe50a3ed devfreq: tegra30: Migrate to dev_pm_opp_set_opp()
+e6c6dcefd54f87dd8083ce22eba2d002ff9afd4b opp: Remove dev_pm_opp_set_bw()
 
-0000000000000000000000000000000000000000 f565d81cf586cab3a915c1a94d2fce9af42643ee refs/tags/linux-can-next-for-5.12-20210127
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmARLGATHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqSVkB/9HU1R2xKs1yjRiQ9zPnvSBZQkqjRlA
-Ycc7eeN3p6PJgdqF7RZrHIH7tgx999PaTwic78JCAmAwpGXYIrsgMYwoUlzJ/h25
-FO2mjQD8xPfddALtCgiXCJA/pvri0qFv7Ya/q6RIuXaTX1LX/Tu7nH/7fSQrek4v
-BgnUimw0hwKLM3aN4WIqKhyKCNL2X4mDdJUUr+ABC2hLrNM/KLCKt3eLp39ijolk
-t72o8aABGqcrOXSFQvLm3haD7o2CZYi2XAN6LzZBBP1FAVq1qZewFGm7d6tQB5wq
-OxABp75lBQqx8Aq0RFepkOW/5pwRid30sqGqNNJ14izqrDoBMA+4VeMM
-=Qw7R
------END PGP SIGNATURE-----
-
---===============4360464986037396597==--
+--===============4531207677020797026==--
