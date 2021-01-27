@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1688387422890616785=="
+Content-Type: multipart/mixed; boundary="===============1955372882268755461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 27 Jan 2021 12:21:41 -0000
-Message-Id: <161175010149.17782.13608399196316813168@gitolite.kernel.org>
+Date: Wed, 27 Jan 2021 12:21:47 -0000
+Message-Id: <161175010712.17892.2387176265224258464@gitolite.kernel.org>
 
---===============1688387422890616785==
+--===============1955372882268755461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 19c329f6808995b142b3966301f217c831e7cf31
-    new: 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04
-    log: revlist-19c329f68089-6ee1d745b7c9.txt
+    new: e82080e1f456467cc185fe65ee69fe9f9bd0b576
+    log: revlist-19c329f68089-e82080e1f456.txt
 
---===============1688387422890616785==
+--===============1955372882268755461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19c329f68089-6ee1d745b7c9.txt
+Content-Disposition: attachment; filename=revlist-19c329f68089-e82080e1f456.txt
 
 06fde695ee76429634c1e8c8c1154035aa61191e genirq/msi: Initialize msi_alloc_info before calling msi_domain_prepare_irqs()
 e90f55e0196a66f8e9e445f7f33f876dd889be9a irqchip/irq-sl28cpld: Convert comma to semicolon
@@ -422,5 +422,8 @@ a692a610d7ed632cab31b61d6c350db68a10e574 Merge tag 'block-5.11-2021-01-24' of gi
 ef7b1a0ea857af076ea64d131e95b59166ab6163 Merge tag 'io_uring-5.11-2021-01-24' of git://git.kernel.dk/linux-block
 228a65d4544af5086bd167dcc5a0cb4fae2c42b4 Merge tag 'sh-for-5.11' of git://git.libc.org/linux-sh
 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 Linux 5.11-rc5
+f21916ec4826766463fe9fb55a5f43d2a365811d s390/vfio-ap: clean up vfio_ap resources when KVM pointer invalidated
+6c12a6384e0c0b96debd88b24028e58f2ebd417b s390/vfio-ap: No need to disable IRQ after queue reset
+e82080e1f456467cc185fe65ee69fe9f9bd0b576 s390: uv: Fix sysfs max number of VCPUs reporting
 
---===============1688387422890616785==--
+--===============1955372882268755461==--
