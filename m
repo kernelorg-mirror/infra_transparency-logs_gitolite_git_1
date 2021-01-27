@@ -1,63 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6756241521479202309=="
+Content-Type: multipart/mixed; boundary="===============0471138420524781965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 27 Jan 2021 08:54:05 -0000
-Message-Id: <161173764536.3048.10363181795455500086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 27 Jan 2021 08:54:18 -0000
+Message-Id: <161173765806.3173.9583560945828570822@gitolite.kernel.org>
 
---===============6756241521479202309==
+--===============0471138420524781965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 91ca10d6fa0720e35596c720e494d9c18624418a
-    new: 0fc99422bc034de018607ef6b70f92d4bc4a236d
+  - ref: refs/heads/tty-next
+    old: 0f8b29fabacbcf0e617896c7ea832b7ea2ef2406
+    new: e0f2a902c9f02fcb36c22f63e0db67e73375c843
     log: |
-         fc716ffb9afe789dcf8a5d792e3980f817e0ad1b misc/vmw_vmci: fix typo
-         e8266c4c3307d2a64f8ebcb22323347be8854742 VMCI: Stop log spew when qp allocation isn't possible
-         5a16c535409f8dcb7568e20737309e3027ae3e49 VMCI: Use set_page_dirty_lock() when unregistering guest memory
-         7eecea89e44f64e60f1410483e79a0cab18ad580 VMCI: Enforce queuepair max size for IOCTL_VMCI_QUEUEPAIR_ALLOC
-         e4240253ac853886e7066e0bb765e2d96e3b1eb6 greybus: es2: drop short control-transfer checks
-         26c2e922614074da5146aa538c5afaf19112bae1 most: core: Constify static attribute_group structs
-         c41e21dca8dc6899611c6df1fa4e6b55097ceada sgi-xp: remove h from printk format specifier
-         0fc99422bc034de018607ef6b70f92d4bc4a236d firmware: xilinx: Remove PM_API_MAX value
+         e9103f47bf1a1bbf0ab0ea90eda3e208653a5f57 serial: ifx6x60: Remove driver for deprecated platform
+         e0f2a902c9f02fcb36c22f63e0db67e73375c843 serial: stm32: improve platform_get_irq condition handling in init_port
          
 
---===============6756241521479202309==
+--===============0471138420524781965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611737636 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1611737635-5f93ed9c8da6b91f4e167cdc1a0f655c1a5070f0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611737649 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1611737648-f5c7c63da78cc87a7870c79ab6002dab402f012f
 
-91ca10d6fa0720e35596c720e494d9c18624418a 0fc99422bc034de018607ef6b70f92d4bc4a236d refs/heads/char-misc-next
+0f8b29fabacbcf0e617896c7ea832b7ea2ef2406 e0f2a902c9f02fcb36c22f63e0db67e73375c843 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmARKiQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FjsP/3WMdrt39TygPeKUAplM
-iIRMik/6+abcjHu2UEx9X9o3YscGJVBERAEylWDUZ/+I4v9CsMgAbbcSShvt3NgI
-vSfUrf9spXxNlLQ4IbEVt9c2tmM5LHb1W0XkI8zL1BCYbAV+Eq/0BgFjXXj49b5y
-DvzWeX+12KJwEeUKw7mwuBe/QuTPqA56VCj7ZCvbHM89fAtUdQIN1g3+GSpGB1j1
-4P1auc6MCcobum7sDJ+I+/DDZ+++br5w5Si+wK74GFQs4wZHBJDWzyp85x2DywMo
-ypvCexspeXDrxtP0ZeiRSSLfGb3qrgRh8CH0blUwttUTv9B1j5U/6N9uSe0xdnTA
-HZ7PStAlEE5Te3E8DwBpkAjqYRW2UyZ2+KQoQAaPG+8QzpB4O+tOWOy3O7ad7yGg
-IRF/moTLc15/EY4GQWZrGGTCikzKw2N9anKK1LDKvcb3XWrIqphpIbaau5URc5F7
-1WdwWLcha755iXm5djSVx1T85inNvMEqqr8JtJL+qRPbWgoTLbLtcF9urFPWim5B
-WXz9sLanU1aKcLMXH7zF3zccHjJ/pbS0XaTvHNSV8FWFSMVH72/d4z8sI4jlppY3
-w4EYrdEBr4XTXFaHwIAyJshlgGJXGdzCdLPeOOwmyNiIDpdMHlN9+AYAQBlIt1ub
-4Ul0NskF9URTcvrjbqqpjeZ9
-=1NfP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmARKjEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kk4QAJkKJ8rXgcCWppOzKOhW
+5RDUDMLAPziAvVpUF1Cf4vxAbVLjaSDCvQUxhIemJEl8ZtaaXgLwON5hMiHMkbE6
+jmxF8euUShfKGKkR05vtDLK7JCWmgxH5ATJTM56KF7wYZqRoeyXnc0QUdzWVGsc4
+VWFFAfHRO8I+RvAWzNaina08ALxjyn/Eb6ybJxl0dwutMFWo8b8g8qjNjAOuFwnQ
+4lY19RCsGsJQQqskQ951nhZydFf0PsUhyFluMxAtt0fA5dVvz/9IlC/PqbFe3GLM
+Sg7pA5tXhRZPfCoDSIdI8ANlzP76lGo3ntwIIWftcfxgHtGgKiz8NhKod8I3g1MT
+hjM8ZQ94ZLRxN/Qou9dJMEVvcHz4x2VL052IsT02IKuE6L7Hyx5/xdh0fd2X2vPp
+7X07/qc1xdv/dSe4Pvmdjt1s4inBk/SZfHX6PSYRivGFG3F0PX32/fHForlWYJk2
+ldEIjQw9C+LJn3bAjP4DO9Vi4lEYjfiJgBWA+e8SodOsyqAoOL1lXve9MhNxG1Q6
+c21EJipcs2ltJbN9djZVlbbcvVup9ga8eraiZPI8NiOfXM2yTAxUk/LtGuXnKJMc
+qYHZs5yBigmh8ba8ccuW/H6uqXHrRqC8uhuLOPxbZGGS4o/rv35zWf9aOZMjg70a
+fa8ge7aTmD2i3HwbkH7jzxGz
+=/bl1
 -----END PGP SIGNATURE-----
 
---===============6756241521479202309==--
+--===============0471138420524781965==--
