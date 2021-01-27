@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 27 Jan 2021 17:14:06 -0000
-Message-Id: <161176764650.15794.6089003852272286951@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6181895160933720159=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 27 Jan 2021 17:27:23 -0000
+Message-Id: <161176844302.23315.12383953502123461721@gitolite.kernel.org>
+
+--===============6181895160933720159==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 9e263ad508841460a5f4522b7f712f886bb22b6f
-    new: 3277f2e72f8624d760338e5a35bef52d5caf93f3
+  - ref: refs/heads/tty-testing
+    old: e0f2a902c9f02fcb36c22f63e0db67e73375c843
+    new: 9159835a978f4092bf00a69b51256e69c961edb9
     log: |
-         3277f2e72f8624d760338e5a35bef52d5caf93f3 Merge remote-tracking branch 'spi/for-5.11' into spi-linus
+         9159835a978f4092bf00a69b51256e69c961edb9 vt: keyboard, use new API for keyboard_tasklet
          
-  - ref: refs/heads/for-next
-    old: 7e46ab15edba03295eb308e0531287254f91b496
-    new: 05cda27d7eb59a3b09a2d5b6d06b5176ff9c2e59
-    log: |
-         6589daf8bb98c75ad1065edad87c099ffb9f5d87 dt-bindings: spi: sunxi: Add H616 compatible string
-         6d2386e36440165da782dbc5c0de40f31665e108 spi: hisi-sfc-v3xx: add address mode check
-         3277f2e72f8624d760338e5a35bef52d5caf93f3 Merge remote-tracking branch 'spi/for-5.11' into spi-linus
-         05cda27d7eb59a3b09a2d5b6d06b5176ff9c2e59 Merge remote-tracking branch 'spi/for-5.12' into spi-next
-         
+
+--===============6181895160933720159==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611768434 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1611768433-98bba04a853ee260797e012f9a10c2a1213b1ee5
+
+e0f2a902c9f02fcb36c22f63e0db67e73375c843 9159835a978f4092bf00a69b51256e69c961edb9 refs/heads/tty-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmARonIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++XUP/1Jx0GYaGgKMyyIgThpv
+yxaLZfJbxP/gsV8cQOGxZBoR8iNEunXpWEsx+3fC0SnOGybHB3AlSy2CxX8rAGWD
+nRI7YOz/vfTbaA8/ZIzPpkvkENWPLBgrpMb0J5SxvUa6IZ2uQyxwLbtsL+mKOBvm
+Cwmrqp+gUeWnZowjxrdI+Jdc95rImfrzQsOPQ6JmMbGNOdC9HpdX+dw5Co4IscHw
+Xv/bgS+XvgP+DVJvEKxq4dkr1b8Nwh8vgDmFh8aAy+ctUIYf5mzVZ94yrrsOF6qK
+3FpywqyhWnKL0EceHTMseb3UmpWI0t1LC2FwuTZFX2evpL8U3R3FDr8OwTGAlikC
+EgFIC4l4baqZ/H9YCQ0BV//CvbMbgKFzGlli5/xTl8Xir84DXOnTWOEhwkOqlJsE
+qNiZ2BVYg2gTTa1wG3gJFoRNHAZp/FKiom/USIowxDm5hnZyIViLpchnj0vK2nT6
+6tjF5HzCRCea8mf+tSNY8Ra5TNM9C0tsJPf8ieysUpVyKjlN6VnAXMqTm07TCq6o
+Tj9cpeKwIm9PprKQ99wNVtEUaa6mG1lKNa52u4YMOdqhkzl+i7N904etgnlX8RFA
+F8qRk2pZunkqUZJ8lwhK8B6eaJvaGAZ1MNlGPIuAEU9y5CRcE0or2xupZYDM9IBY
+ZMHrJIvKBYLgWXnNqkGJUqNY
+=hAJO
+-----END PGP SIGNATURE-----
+
+--===============6181895160933720159==--
