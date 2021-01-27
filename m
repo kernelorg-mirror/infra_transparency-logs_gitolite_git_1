@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7858664678989991193=="
+Content-Type: multipart/mixed; boundary="===============0368953397172605573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 27 Jan 2021 04:55:34 -0000
-Message-Id: <161172333408.16782.5504596098323058244@gitolite.kernel.org>
+Date: Wed, 27 Jan 2021 04:55:39 -0000
+Message-Id: <161172333954.16869.5782883687636209073@gitolite.kernel.org>
 
---===============7858664678989991193==
+--===============0368953397172605573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,113 +16,74 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 348e1bc5f4b733a9deb1dae3242ee94f23fe6ab0
-    new: 18c05faf8ab14913c8144108661efa8f17b10b5b
-    log: revlist-348e1bc5f4b7-18c05faf8ab1.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 0085121aa46bdb132a4a2f2426909d7a9051339c
+    new: d00dab6963c4628ce41d931fc51ebff795b4eb3c
+    log: revlist-0085121aa46b-d00dab6963c4.txt
 
---===============7858664678989991193==
+--===============0368953397172605573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1611723332 -0500
+pusher 75C5DE3D 1611723337 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1611723332-608f7e947a4c3366e24830d52d0bfd7c95b2752a
+nonce 1611723337-182737143a572bcecd20e8e9f2133cba350194cb
 
-348e1bc5f4b733a9deb1dae3242ee94f23fe6ab0 18c05faf8ab14913c8144108661efa8f17b10b5b refs/heads/queue
+0085121aa46bdb132a4a2f2426909d7a9051339c d00dab6963c4628ce41d931fc51ebff795b4eb3c refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmAQ8kQACgkQ7ulgGnXF
-3j15OhAAgwt/Pnjboyv3FR1iG3L35KNNnldZL5bnnaPWxA3OibBDzX/+ZzPc+rz2
-g+9RncZWWL0IZwgY5HBOE1O+Yv65FSxLrz/CxSGCOxBK/d1KrUUQyB/6FOlJy/M+
-/Xg9Zq8PdMt5zhWVieil/oz5s4QyLb2z7nSo9pmFXsVvndE0r6TdPAIhGSaapkVx
-L0TrEv14QNFRolw0YUtWaQB1n6EZczfiBd1Iltp1DIQW30xGYsfy2sC767OevHws
-9p9W2MgpbeX6TP34vK+QKDu1NpbuUIlKPbVdLKLwwg9Mef3WcfhGhoTHbAYV3GLh
-wHRZZO7ZNNO3jBWu0tg6rcW4pkhJV44/jTgQL7jpkUH/b6FdBvaLpENoBSkKymgD
-H/k6wLIW7m8go0DOCjFVN0ywr0eCenH5ovat8CF5gY2l8ve2g5Pq10xp6tt9fozY
-WnRSysel2IdEgrmwOKMKna1b292fc1nRR7AILhZuZ52vbz0POzVoq7I1KnZ+2NXR
-TH0ZF49T977KFuKUvBKli6h12o84Qfgne90JHu7w5LmpvkEZNNir01X2lWJN2JJF
-xdTTf95UKyz8O7abDlC5G6GkNtnryLix1ft92ghwUNdgn/R+6O7/6vwSdhklM2j4
-Hz3nZ9cjVw2pFJFCe6ecsz4dzFNW4nYSbmvti7atMvu47fB58Jc=
-=IdE2
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmAQ8kkACgkQ7ulgGnXF
+3j2XBQ//Q3T5KcDWYARav8DJFiqTKcWwybDoAV5r3w8ix6Sd6jIDgWUCuhbDxXSM
+v9avSVT5texYRSTEI2LIKXZ5GS2FjUi12YrQ+X2WdGI128LqfciGaY1Ub0UphVIW
+g9Cr5NBojC5kHOkbJ3fh43Uw2+cPAHtpHaHq7InGnMxq/A1WO36Jn7V1WXCOnaxf
+4ZAo/sc5RWVBdCL1EpyCcg07dxKQ4LHdhXgG913dqF0Yw7w+hF/1vF5RP3vGs/BE
+5bQyADjxLhGrX+wCRr9n4Y12NlqttjGo7EafEdY3VzwEEr2DkSdeaEwO7TL9H3lr
+Z/5nOWxApJLKxTEbyZ4PP8KdeOllFci1Gqv6H52t1wY0lIaJAiqILLpRfD2Fo5ed
+6hZDq6OtmbOqOjULH60uKYAaowkqtBb0rg06LLdY506lci05k/asHbpeTa+QwQAv
+LQdLNR70dDaemWTe3BSmQT0XCOThGIS0mdK4Oq1gRwWOO83seMJUY44LJaw0k+8W
+8Vgw1yG2EdNHK67QSvJ3uGWCi+w3cFbb7z0GjZNllTv9vywmi5fFPVZtVMzrzH7r
+w6n4Rh2lCyJL0d3S03FvCH9J8U/h576NcqF+A00FdEOH5Cen0LfNKBTLqe0yNnwz
+NgTzsWwhHeo3D2HgNO37B37ITcec0E8fE5//o2u9kautpss6mWI=
+=95mr
 -----END PGP SIGNATURE-----
 
---===============7858664678989991193==
+--===============0368953397172605573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-348e1bc5f4b7-18c05faf8ab1.txt
+Content-Disposition: attachment; filename=revlist-0085121aa46b-d00dab6963c4.txt
 
-433675486af4635416f8ece70b92b020a5b91005 scsi: target: iscsi: Avoid in_interrupt() usage in iscsit_close_session()
-efc9d73063c15f1aba8920b9f9ceaba4f3fb8ed9 scsi: target: iscsi: Avoid in_interrupt() usage in iscsit_check_session_usage_count()
-f88a10f80da9ed1ab1ba7496b70e9a0cdd8f7cf8 scsi: target: iscsi: Redo iscsit_check_session_usage_count() return code
-a97451ac1e34df5df591c9910b78c84f51f2ec1e scsi: target: alua: Remove in_interrupt() usage in core_alua_check_nonop_delay()
-513e29946ab22f66cd14670024f6c98b5b913462 scsi: target: core: Replace in_interrupt() usage in target_submit_cmd_map_sgls()
-bbb087679d5f4e104306c2664c22ed8f6356e820 scsi: target: core: Remove in_interrupt() check in transport_handle_cdb_direct()
-0653c358d2dc7904c5553c5a9f2cbadc236e3f60 scsi: Drop gdth driver
-8148dfba29e767a478586a1ea77137a792bfd476 scsi: 3w-xxxx: Whitespace cleanup
-bf4eebbf53c918d364907ddaf1f47f7c340d9494 scsi: 3w-9xxx: Whitespace cleanup
-1789671ded39a86555827b0c72705575277bfb66 scsi: 3w-sas: Whitespace cleanup
-bcd5c59f21e39d312e143be5b83bbdc0e4ad480c scsi: atp870u: Whitespace cleanup
-7662d92374df9a25ca7dd3e991d39fdaf490a3eb scsi: aic7xxx: aic79xx: Whitespace cleanup
-c23435dbc74771eed5016e3b529d642aeec0f2d7 scsi: aic7xxx: aic79xx: Kill pointless forward declarations
-54c9f6fdefcce14e7a29140045658a19334a0a52 scsi: aic7xxx: aic79xx: Remove driver-defined SAM status definitions
-eb74b9322bce7de00a870eadcf77f1d15c3bb52b scsi: bfa: Drop driver-defined SCSI status codes
-0eb198d2c35f3c216634c21a281dd88861da11ba scsi: acornscsi: Use standard defines
-23d339f08facf5075507cf8731ea508cfc50c1d8 scsi: nsp32: Fixup status handling
-f55475891edb737a757142462a94ec25ad6e3ee9 scsi: dc395: Drop private SAM status code definitions
-35f1cad1f928771c6c7ce7c778d24430a9a0ddb7 scsi: qla4xxx: Use standard SAM status definitions
-3273c91bbd01b464655c23ae83f766cb755f9173 scsi: zfcp: Do not set COMMAND_COMPLETE
-cdec16c1177a93618bfd4e8e9ebf233911bc2913 scsi: aacraid: Avoid setting message byte on completion
-0e310ac4ef0d94c06c3562c0116d40bbc8fd9a71 scsi: hpsa: Do not set COMMAND_COMPLETE
-8959e81cf44abea60c375e9881f06beebfdd62c5 scsi: stex: Do not set COMMAND_COMPLETE
-1c9eb798d5662e4aa1d386ccdf077438c165a42d scsi: nsp_cs: Drop internal SCSI message definition
-d8cd784ff7b3439c21cbad94b5b1f1f8cf7c36e4 scsi: aic7xxx: aic79xx: Drop internal SCSI message definition
-9c2d2670735157ed5bbe0755da0d275a46309868 scsi: dc395x: Drop internal SCSI message definitions
-9df17f4679b7f908671395f3ab6acb3294b69770 scsi: initio: Drop internal SCSI message definition
-7a64c81448b266e92140c11a4b2f9b7f2aaf66f8 scsi: scsi_debug: Do not set COMMAND_COMPLETE
-db83d8a5c862ea59a042f674e6acbbb97dca36ec scsi: ufs: ufshcd: Do not set COMMAND_COMPLETE
-f3272258d79a5dfe3862cafb6f3fc08c110ea1c8 scsi: atp870u: Use standard definitions
-ddb99b1d1d4a1e4be6bdfe58acb90598a32ad9d9 scsi: mac53c94: Do not set invalid command result
-78c9efdd8dbf42880260cd0341b61635ebd880d2 scsi: dpt_i2o: Use DID_ERROR instead of INITIATOR_ERROR message
-d37932a91600ec47738c4ea98c3a6345b43f6794 scsi: core: Add 'set_status_byte()' accessor
-6b50529e2f6f7ce093b0ff57794a788539e0fbd8 scsi: esp_scsi: Use host byte as last argument to esp_cmd_is_done()
-809dadb15a9122f6bf175af166a46854825ecea5 scsi: esp_scsi: Do not set SCSI message byte
-fc8e006c38e2d8896b53f0c1458e17a0142af392 scsi: wd33c93: Use SCSI status
-88188179f36cade2ccb7f4734ee6430144aa060b scsi: ips: Use correct command completion on error
-ecc751b27a575e2939767b8bf11b05924f442dd2 scsi: storvsc: Return DID_ERROR for invalid commands
-6098c3005d5a39c39331ca6c3d9fa7525247166c scsi: qla2xxx: fc_remote_port_chkready() returns a SCSI result value
-aced5500ec821f2e132b7a913771ced15746f7ee scsi: advansys: Kill driver-defined status byte accessors
-491152c7c3b51c17056b14606e3b3bc6300a3eaa scsi: ncr53c8xx: Use SAM status values
-3f901c81dfad6930de5d4e6b582c4fde880cdada scsi: libsas: docs: Remove notify_ha_event()
-121181f3f839c29d8dd9fdc3cc9babbdc74227f8 scsi: libsas: Remove notifier indirection
-c2d0f1a65ab9fbabebb463bf36f50ea8f4633386 scsi: libsas: Introduce a _gfp() variant of event notifiers
-feb18e900f0048001ff375dca639eaa327ab3c1b scsi: mvsas: Pass gfp_t flags to libsas event notifiers
-885ab3b8926fdf9cdd7163dfad99deb9b0662b39 scsi: isci: Pass gfp_t flags in isci_port_link_down()
-5ce7902902adb8d154d67ba494f06daa29360ef0 scsi: isci: Pass gfp_t flags in isci_port_link_up()
-71dca5539fcf977aead0c9ea1962e70e78484b8e scsi: isci: Pass gfp_t flags in isci_port_bc_change_received()
-19a39831ff99f88ea8d01a2b6716084f14752529 scsi: libsas: Pass gfp_t flags to event notifiers
-cd4e8176989f4909550ac7b95f475e993ae67f8b scsi: pm80xx: Pass gfp_t flags to libsas event notifiers
-111d06ab77c9f45fc4b8fc8be918b45154dafd44 scsi: aic94xx: Pass gfp_t flags to libsas event notifiers
-26c7efc3f95260fd90e6cb268b47a58cf27ffc64 scsi: hisi_sas: Pass gfp_t flags to libsas event notifiers
-5d6a75a1edf63ff243d937253ced62d8edea30b5 scsi: libsas: Add gfp_t flags parameter to event notifications
-872a90b5b46646c6d4cdc15a265a55b1adb25b49 scsi: hisi_sas: Switch back to original libsas event notifiers
-093289e40b521e977ae0f3a4e7c0909b38c21193 scsi: aic94xx: Switch back to original libsas event notifiers
-de6d7547ce1d78aa8d7bc6662d3a3dce023fbc6e scsi: pm80xx: Switch back to original libsas event notifiers
-f76d9f1a1511eeb8a10c8f88c3c73ec2e0cba992 scsi: libsas: Switch back to original event notifiers API
-c12208668aefd91f33e41183a3e6f85979ac953f scsi: isci: Switch back to original libsas event notifiers
-36cdfd0f7a8c99c5817bea2306613a966e67f0e2 scsi: mvsas: Switch back to original libsas event notifiers
-65f7cfba6196baf2fc06ac0ab0be764377f3206a scsi: libsas: Remove temporarily-added _gfp() API variants
-bfb3f00c0613bf912771278422685c5409963bda scsi: mpt3sas: Simplify bool comparison
-0196e379095e4d68f25ae65b5af40d5d93fae78c scsi: lpfc: Fix kerneldoc inconsistency in lpfc_sli4_dump_page_a0()
-71311be1cd3e2dfd75381ef8840a88ac79256ca1 scsi: qla2xxx: Assign boolean values to a bool variable
-c750a9c9c59a85843d447910a27da21c5bcf600a scsi: qla2xxx: Remove unnecessary NULL check
-d3ba622db82b37882cf416e52d574833d3b49372 scsi: ufs: Cleanup WB buffer flush toggle implementation
-cd9df0c216366f06b42d1d00b850039c145b73aa scsi: qla1280: Fix printk regression
-12e3ef8b3e7c0840dee76c4da7a0af8d5982c90d scsi: megaraid: Fix ifnullfree.cocci warnings
-18c05faf8ab14913c8144108661efa8f17b10b5b scsi: qla2xxx: Remove redundant NULL check
+0b2894cd0fdf8ccc8a9b4e28563db9ac0ecb62b2 scsi: docs: ABI: sysfs-driver-ufs: Add DeepSleep power mode
+b112036535eda34460677ea883eaecc3a45a435d scsi: megaraid_sas: Fix MEGASAS_IOC_FIRMWARE regression
+5e6ddadf7637d336acaad1df1f3bcbb07f7d104d scsi: ufs: ufshcd-pltfrm depends on HAS_IOMEM
+901d01c8e50c35a182073219a38b9c6391e59144 scsi: ibmvfc: Fix missing cast of ibmvfc_event pointer to u64 handle
+4ee7ee530bc2bae6268247988d86722c65d02a37 scsi: ufs: Fix livelock of ufshcd_clear_ua_wluns()
+eeb1b55b6e25c5f7265ff45cd050f3bc2cc423a4 scsi: ufs: Fix tm request when non-fatal error happens
+f2cb4b2397ca9e6e972d6551e5461d1f1d81c23f scsi: docs: ABI: sysfs-driver-ufs: Rectify table formatting
+72eeb7c7151302ef007f1acd018cbf6f30e50321 scsi: scsi_transport_srp: Don't block target in failfast state
+b2b0f16fa65e910a3ec8771206bb49ee87a54ac5 scsi: libfc: Avoid invoking response handler twice if ep is already completed
+d6e3ae76728ccde49271d9f5acfebbea0c5625a3 scsi: fnic: Fix memleak in vnic_dev_init_devcmd2
+780e1384687d6ecdee9ca789a1027610484ac8a2 scsi: target: tcmu: Fix use-after-free of se_cmd->priv
+764907293edc1af7ac857389af9dc858944f53dc scsi: ibmvfc: Set default timeout to avoid crash during migration
+389102a3515b53a38858554a915006be7f0b6a06 scsi: target: iscsi: Fix typo in comment
+aa2c24e7f415e9c13635cee22ff4e15a80215551 scsi: qla2xxx: Fix description for parameter ql2xenforce_iocb_limit
+4d82e9db422ec34793650a34c5f03edd7b0abbaf Merge branch '5.11/scsi-fixes' into 5.12/scsi-queue
+bc2b4e68023174e508a4a9605384a7fda475f8a8 scsi: qla2xxx: Fix some memory corruption
+0be310979e5e1272d4c5b557642df4da4ce7eba4 scsi: lpfc: Fix ancient double free
+3ae0819079f2a914aa785268d856cf4d1e2fd6e1 scsi: ncr53c8xx: Fix typos
+fad0a16130b6b4eb0958f4142d82509f90efdcbd scsi: lpfc: Add auto select on IRQ_POLL
+4d287d8bae1f395b5e5d79bc9673dacab7975e36 scsi: hisi_sas: Remove deferred probe check in hisi_sas_v2_probe()
+69bfa5fd7b448b2cd0cce6a301cf3fba8133ca0f scsi: hisi_sas: Don't check .nr_hw_queues in hisi_sas_task_prep()
+1dbe61bf7d760547d16ccf057572e641a653ad4a scsi: hisi_sas: Enable debugfs support by default
+6834ec8b23c3eb345936022d46179b9d371e2344 scsi: hisi_sas: Flush workqueue in hisi_sas_v3_remove()
+cd96fe600cc4924d8d0cc6e3161870219c0d2c12 scsi: hisi_sas: Add trace FIFO debugfs support
+eb90e45542b583c3647e032fba9348a74adfcb59 scsi: target: core: Set residuals for 4Kn devices
+cc0b6ad72e18568dab245a0c5f8cc051b0936b33 scsi: target: core: Signal WRITE residuals
+ead0ffc95a89b6b2c276702ee7b5a2b9bb445dfe scsi: target: core: Change ASCQ for residual write
+a927ec3995427e9c47752900ad2df0755d02aba5 scsi: message: fusion: Fix 'physical' typos
+5fb6d3a6d8fef07c3e65beebb25f9a6bb7cccf15 Merge branch 'sg' into 5.12/scsi-staging
 
---===============7858664678989991193==--
+--===============0368953397172605573==--
