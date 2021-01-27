@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6513088312980615229=="
+Content-Type: multipart/mixed; boundary="===============1407254168728423334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 27 Jan 2021 04:55:25 -0000
-Message-Id: <161172332562.16561.18114716764568588272@gitolite.kernel.org>
+Date: Wed, 27 Jan 2021 04:55:29 -0000
+Message-Id: <161172332992.16646.4380549775652872511@gitolite.kernel.org>
 
---===============6513088312980615229==
+--===============1407254168728423334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 8d05347edaa8edce77c136ca0886a1e74014314e
-    new: 7b11888070efc9ab47c98c1e7291ccd8a3138828
-    log: revlist-8d05347edaa8-7b11888070ef.txt
+  - ref: refs/heads/5.12/scsi-queue
+    old: 348e1bc5f4b733a9deb1dae3242ee94f23fe6ab0
+    new: 18c05faf8ab14913c8144108661efa8f17b10b5b
+    log: revlist-348e1bc5f4b7-18c05faf8ab1.txt
 
---===============6513088312980615229==
+--===============1407254168728423334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1611723324 -0500
+pusher 75C5DE3D 1611723328 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1611723324-8da8d8fa4399d31c3af59904525d40573d018409
+nonce 1611723328-e69aa2905c26934249a1405264d9d43056a1c7a7
 
-8d05347edaa8edce77c136ca0886a1e74014314e 7b11888070efc9ab47c98c1e7291ccd8a3138828 refs/tags/mkp-scsi-queue
+348e1bc5f4b733a9deb1dae3242ee94f23fe6ab0 18c05faf8ab14913c8144108661efa8f17b10b5b refs/heads/5.12/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmAQ8jwACgkQ7ulgGnXF
-3j0B4A/+I22JGhtFQP+UPXEy6KLGc5+GOT+9Nbu+mg6kNAbg2CzijKKSl29SNiEw
-cVmlO+KUkEmDuwj4RlKyvac7XFdfpleQyWEtx/hxk5I2daBDtK66uj/o9NyGFp7X
-svcAyogEUNHHjAdIuFVhsh8NWyYC1Ve/RhUZu9Zj6yCDS1ODEX16H2ZBD/ktVByD
-SA+36T1lXkxcLOBcfYn3E/ukzcNviRGaznx7uVdqac5d54+7+Esu1qUOT1SvUKSq
-Zm8Gv+x9bkEKmfjRGmgJMGY0GIAVk3BWY/CQWu9Cj0kJLFRy2Bco6sB4HhtBzpi3
-i2n4kAfgcfCQfGUvcCb4zY0uXhrLiTTYh5sIFZgytnLIYZ/9wPTC9naU+mJWfDaB
-fMeK9x+wl7PFJ1cmqOjzG0N8rOBV12mK/9g0VmHelDGyLmSrt5YPPKwHeLGBkwuv
-ecLXwwytRYJb9K03BZcIzoRIEArHN5QD4pLFIvWPgMJC/+/fuSjVp9OzPBjSkwm5
-wK+D9rYZVVKYlLc/Ss18KlQsszxU4QLuMHyCZkQSfd3JsqTSZxvBCXZ8KkGafcOZ
-Yn3NlKxl3mydXNhQ6a8WA43fiJzW8HAdgFFIXP5hhQLZUC5JEvSF4o+fw29GCM6N
-+ECAVbJz1Gc1mLJB5WbBWF+2yGDYVdp8qrd6KX0xUupJkYExs9E=
-=ax+V
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmAQ8kAACgkQ7ulgGnXF
+3j2zrQ/+KYWsCKG6tq5xr0wRYgKhcWYEhDZwDaBulVZSzRUx+DrSM8rXPT+nSYwQ
+nSYVgIndyx2VdlPGyFH1wqzspfcnye3C2QuA9zZmUIDrB3HuCYzI5qyuaCffPqF4
+DuByTOs2aZfLhn6VTHso07lM8kytLDC+pH3LK9A02uaZRCYDV5Gbwqo5t4JnkLBX
+B3x8jhkzKKA9VvpA4iWrz6nj7lV9igv7uqxuqSYkAqAnrRE1rmqJ8z7X2WpcqMXt
++rJsGty0Q+QnbyudOl9fXwQozJNEyiqe/U+d0lNSiUxBeg06u0kbs9FxVm7mNNga
+PD1v2j6rC7lbkcRlhe8IOnFlZxtlRrEOhR8nfTu7hxFc+SuIVUB6pHW1tG4tsU0g
+74UMOHNbOpjxPLIv0Y6evYiBGrKyUWcgv8gw3wkDluAeqfueRI1Ec/jDa/oJJag1
+Re541Y8bF3CgJGAAxukjAESh29r3qRaYojpkrucW6OvGN76A6f6YnTQCHH3n9NPj
+m4eU7npjRgllN/3LvXBligPmKw8WBhwoBeTK/j5mmLRuCCfLxiW8ruB1auhbl+DI
+ZIJekB9QBniZpPgkUOcvU6IRZSlTQD3/T61QWnTQ7OmQRNbFkFWW7ZkTfxAVSACm
+c0NDJ++rH7YyVmMfxp4tRgfg9pbQD2aL7JQHjVjRyG0r3d2gNuI=
+=JRLz
 -----END PGP SIGNATURE-----
 
---===============6513088312980615229==
+--===============1407254168728423334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d05347edaa8-7b11888070ef.txt
+Content-Disposition: attachment; filename=revlist-348e1bc5f4b7-18c05faf8ab1.txt
 
 433675486af4635416f8ece70b92b020a5b91005 scsi: target: iscsi: Avoid in_interrupt() usage in iscsit_close_session()
 efc9d73063c15f1aba8920b9f9ceaba4f3fb8ed9 scsi: target: iscsi: Avoid in_interrupt() usage in iscsit_check_session_usage_count()
@@ -125,4 +125,4 @@ cd9df0c216366f06b42d1d00b850039c145b73aa scsi: qla1280: Fix printk regression
 12e3ef8b3e7c0840dee76c4da7a0af8d5982c90d scsi: megaraid: Fix ifnullfree.cocci warnings
 18c05faf8ab14913c8144108661efa8f17b10b5b scsi: qla2xxx: Remove redundant NULL check
 
---===============6513088312980615229==--
+--===============1407254168728423334==--
