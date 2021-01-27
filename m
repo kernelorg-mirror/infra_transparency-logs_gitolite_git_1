@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 27 Jan 2021 01:13:24 -0000
-Message-Id: <161171000409.22249.9438964945059627747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 27 Jan 2021 01:23:55 -0000
+Message-Id: <161171063536.28959.3050038660103343532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 5cfeb5626d4acef8df993eceec442f7b54943976
-    new: f0947d0d21b219e03940b9be6628a43445c0de7a
+    old: 3e841bacf72fd5fd98172c42bbc9ae7d461b6304
+    new: 2961f562bb7b8b3cbaeaf5d9f0ea0fa8e72cc066
     log: |
-         f0947d0d21b219e03940b9be6628a43445c0de7a team: protect features update by RCU to avoid deadlock
+         2961f562bb7b8b3cbaeaf5d9f0ea0fa8e72cc066 usbnet: fix the indentation of one code snippet
          
