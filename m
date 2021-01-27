@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2489091134242229732=="
+Content-Type: multipart/mixed; boundary="===============3311430335835362170=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 27 Jan 2021 17:13:09 -0000
-Message-Id: <161176758997.14972.7923871290851537744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 27 Jan 2021 17:13:16 -0000
+Message-Id: <161176759680.15111.7104729146441299581@gitolite.kernel.org>
 
---===============2489091134242229732==
+--===============3311430335835362170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 5413dfd8ce0d5d997d442440701814a8ce7025d9
     new: ded055eea679139f11bd808795d9697b430d1c7d
     log: |
@@ -26,7 +26,7 @@ changes:
          89e641ae647a4ebc1d608fd56f331a4f4886da5f ASoC: SOF: add a pointer to download repo in case FW request fails
          ded055eea679139f11bd808795d9697b430d1c7d ASoC: max98373: Fixes a typo in max98373_feedback_get
          
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: ed9ce1ed2239909c23d48c723c6549417c476246
     new: 4c87f71565ce90f48afc67dfa75b1bf3cf62ce62
     log: |
@@ -38,29 +38,29 @@ changes:
          4c87f71565ce90f48afc67dfa75b1bf3cf62ce62 Merge series "ASoC: SOF: Intel: hda: Enable DMI L1 for power savings" from Ranjani Sridharan <ranjani.sridharan@linux.intel.com>:
          
 
---===============2489091134242229732==
+--===============3311430335835362170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1611767547 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1611767587-26534cfb4410b415803369f6b1bf63211796473a
+pusher C3F436CA30F5D8EB 1611767554 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1611767594-264837e92a056898d69fee576d5b63948f884b5a
 
-5413dfd8ce0d5d997d442440701814a8ce7025d9 ded055eea679139f11bd808795d9697b430d1c7d refs/heads/for-5.11
-ed9ce1ed2239909c23d48c723c6549417c476246 4c87f71565ce90f48afc67dfa75b1bf3cf62ce62 refs/heads/for-5.12
+5413dfd8ce0d5d997d442440701814a8ce7025d9 ded055eea679139f11bd808795d9697b430d1c7d refs/heads/asoc-5.11
+ed9ce1ed2239909c23d48c723c6549417c476246 4c87f71565ce90f48afc67dfa75b1bf3cf62ce62 refs/heads/asoc-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmARnvsACgkQJNaLcl1U
-h9D0sAf6AiwUHNBGg1c1qp1HDyuOsUnp187WGiKHeszvYXQopkTQJV1gcspefhUt
-21SPZvTu/PVymb5YVDFS475tICODqiPUUR2/81lZ6OrC2hcYPLiZgnMWqQ6KzxGL
-Bvgn4k9o8WhqISb4Ms3JwAzEibGZU17b6fhS3BIc6Bkxw/SESa+X4iOaTCIR2khs
-T6yLGdLIBF+zRNxxKYN6936osBsb50SF41yrK/V9eWQrwyvFfiWPlQ4mlw1oIp2d
-/ZIeGpiUYg24P2bACH6NyXeWE0afcRBPKOVII4i1Crejw8njGM+cXR4KTmDeQPIL
-0Xlcm35eAp6neutwwmfNhN+MgnZa3w==
-=+n9g
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmARnwIACgkQJNaLcl1U
+h9D2Iwf+KjdkAXXTCGbgGAoTVAyk1n1uOPCmeEqjgBP9ArPCXheBza9L7U1qwqen
+SqxlAEwB42pAwXGOeHnVE4NfWrzHHuzrlj7OLgPxt9ld3bC4E1omZgNvyKVQm26Y
+va58frWmsrrmsLbvWPIxbofIfd98ZEMLpaRbzN7wNuHSTk/Zfk16WQ4aJScn5ZSA
++SbAa0D4gSdFmKWCzAvFSEs2c6iKEDAm4vK8+Ek9XDqHn/HFPpHdCZ/WJV9PV7iL
+gXDJJq/XBf6dzpqVKh2I5Jtzj/RDEFNbjBbJeQ+mXYubagevvoll2VgT1H9HoKTn
+oHwqZpLK02XKVPEcKsQ+kh0PMOreVQ==
+=3zef
 -----END PGP SIGNATURE-----
 
---===============2489091134242229732==--
+--===============3311430335835362170==--
