@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0368953397172605573=="
+Content-Type: multipart/mixed; boundary="===============2840106066484147655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 27 Jan 2021 04:55:39 -0000
-Message-Id: <161172333954.16869.5782883687636209073@gitolite.kernel.org>
+Date: Wed, 27 Jan 2021 04:55:43 -0000
+Message-Id: <161172334370.16948.4360958693213454151@gitolite.kernel.org>
 
---===============0368953397172605573==
+--===============2840106066484147655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 0085121aa46bdb132a4a2f2426909d7a9051339c
-    new: d00dab6963c4628ce41d931fc51ebff795b4eb3c
-    log: revlist-0085121aa46b-d00dab6963c4.txt
+  - ref: refs/heads/5.12/scsi-staging
+    old: abb4c1c5b84a098fe932a1003e973287d1de7ed7
+    new: 5fb6d3a6d8fef07c3e65beebb25f9a6bb7cccf15
+    log: revlist-abb4c1c5b84a-5fb6d3a6d8fe.txt
 
---===============0368953397172605573==
+--===============2840106066484147655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1611723337 -0500
+pusher 75C5DE3D 1611723342 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1611723337-182737143a572bcecd20e8e9f2133cba350194cb
+nonce 1611723342-2d657ac4d7c0a74bf64eafe9a140b939fa749be3
 
-0085121aa46bdb132a4a2f2426909d7a9051339c d00dab6963c4628ce41d931fc51ebff795b4eb3c refs/tags/mkp-scsi-staging
+abb4c1c5b84a098fe932a1003e973287d1de7ed7 5fb6d3a6d8fef07c3e65beebb25f9a6bb7cccf15 refs/heads/5.12/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmAQ8kkACgkQ7ulgGnXF
-3j2XBQ//Q3T5KcDWYARav8DJFiqTKcWwybDoAV5r3w8ix6Sd6jIDgWUCuhbDxXSM
-v9avSVT5texYRSTEI2LIKXZ5GS2FjUi12YrQ+X2WdGI128LqfciGaY1Ub0UphVIW
-g9Cr5NBojC5kHOkbJ3fh43Uw2+cPAHtpHaHq7InGnMxq/A1WO36Jn7V1WXCOnaxf
-4ZAo/sc5RWVBdCL1EpyCcg07dxKQ4LHdhXgG913dqF0Yw7w+hF/1vF5RP3vGs/BE
-5bQyADjxLhGrX+wCRr9n4Y12NlqttjGo7EafEdY3VzwEEr2DkSdeaEwO7TL9H3lr
-Z/5nOWxApJLKxTEbyZ4PP8KdeOllFci1Gqv6H52t1wY0lIaJAiqILLpRfD2Fo5ed
-6hZDq6OtmbOqOjULH60uKYAaowkqtBb0rg06LLdY506lci05k/asHbpeTa+QwQAv
-LQdLNR70dDaemWTe3BSmQT0XCOThGIS0mdK4Oq1gRwWOO83seMJUY44LJaw0k+8W
-8Vgw1yG2EdNHK67QSvJ3uGWCi+w3cFbb7z0GjZNllTv9vywmi5fFPVZtVMzrzH7r
-w6n4Rh2lCyJL0d3S03FvCH9J8U/h576NcqF+A00FdEOH5Cen0LfNKBTLqe0yNnwz
-NgTzsWwhHeo3D2HgNO37B37ITcec0E8fE5//o2u9kautpss6mWI=
-=95mr
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmAQ8k4ACgkQ7ulgGnXF
+3j1uPg//VOYhj7r4hJR+Wt3HfKD8U/1XFBMxE9xMjCpi5j/V9TYH9TXmjjvwNfme
+pK/HbR5GfTn5qJBMGFp30zYqX6eKCK9DIxb1yWzl0TwtFB6QT8i86OSeEUIdHD74
+d8+2Xh+iPKXBaJq2NBUwV1XVK1OCqhH39DUaRf9QGnqUNxW4ElSEErBxR43AAuSb
+ZKbdNyLppQAYVofYpDJhFVrBEd+sAYJB/6NAzAdl0Bx4Qqd1J187vScZ2VQ1eZzA
+YYj2CVYb29ArLpWmz7jTF3FHlANT47VomOuozbhfhaQLz9fuh9BbuXlGiGsL8eqs
+XavJt8Ug2GRb684Luk+bkucptStwHyfbDpJ87r7V0EmcV2AeHtq9yKvyfVl5PTDr
+43Dct0jNBkx7fiKLj5mV12Z+KjjLllxNEEY3qeun7tMjLnsPYkxWsMcskGUpOy5c
+KhH866EJQcAh4Z5FipPvjeKiInitDOgyvN+9PpG5HXnhc+xfgvSRm6WOxUvAEjNl
+3B9peiGgxz6nlGL7tvkPiqWWl2UcUs6pVSin/WDBLJGUWc374GWnPMhnXd3S+R0s
+9LkTTA8sJPZuMe9C61qr8sgi4sAPVtIKOuQkA79ZbgqM+qItBYCkLWuFqOe6Mnp7
+WlrX5yAx8qE+DGcrP//NQIgkhO5E+v+Ll+ocFy8Y05GaFi8tRJ8=
+=IsVT
 -----END PGP SIGNATURE-----
 
---===============0368953397172605573==
+--===============2840106066484147655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0085121aa46b-d00dab6963c4.txt
+Content-Disposition: attachment; filename=revlist-abb4c1c5b84a-5fb6d3a6d8fe.txt
 
 0b2894cd0fdf8ccc8a9b4e28563db9ac0ecb62b2 scsi: docs: ABI: sysfs-driver-ufs: Add DeepSleep power mode
 b112036535eda34460677ea883eaecc3a45a435d scsi: megaraid_sas: Fix MEGASAS_IOC_FIRMWARE regression
@@ -86,4 +86,4 @@ ead0ffc95a89b6b2c276702ee7b5a2b9bb445dfe scsi: target: core: Change ASCQ for res
 a927ec3995427e9c47752900ad2df0755d02aba5 scsi: message: fusion: Fix 'physical' typos
 5fb6d3a6d8fef07c3e65beebb25f9a6bb7cccf15 Merge branch 'sg' into 5.12/scsi-staging
 
---===============0368953397172605573==--
+--===============2840106066484147655==--
