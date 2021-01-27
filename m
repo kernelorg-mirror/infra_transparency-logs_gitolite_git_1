@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
-Date: Wed, 27 Jan 2021 21:08:12 -0000
-Message-Id: <161178169200.13006.12056848226725553339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Wed, 27 Jan 2021 21:13:47 -0000
+Message-Id: <161178202707.17405.12278106709487151398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211-next
-user: jberg
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/tags/mac80211-next-for-net-next-2021-01-27
-    old: 0000000000000000000000000000000000000000
-    new: 9d3ca8f640601a5252b9c84e93b4a1c5f3b813ed
+  - ref: refs/heads/uvc-noncontiguous
+    old: 70646bc5aebdf4904a5d94a611fb01eb1eaa2c16
+    new: 87041cd2323ef8e4f3eddd6bad58ccd0b13fa8fc
+    log: |
+         87041cd2323ef8e4f3eddd6bad58ccd0b13fa8fc media: uvcvideo: Use dma_alloc_noncontiguos API
+         
