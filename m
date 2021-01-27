@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Wed, 27 Jan 2021 15:46:17 -0000
-Message-Id: <161176237767.26126.13666676652260989334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Wed, 27 Jan 2021 15:49:01 -0000
+Message-Id: <161176254198.26913.2568675486962516540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/next
-    old: 123935a4ca936d421447ecf0fe427d8f1a9beb8b
-    new: c281cde7a456aa9a56ced9175a4dead94048d3ba
-    log: |
-         c281cde7a456aa9a56ced9175a4dead94048d3ba dmaengine: stedma40: fix 'physical' typo
-         
+  - ref: refs/heads/parisc-5.11-2
+    old: 0000000000000000000000000000000000000000
+    new: 00e35f2b0e8acb88d4e1aa96ff0490e3bfe46580
