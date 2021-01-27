@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 27 Jan 2021 21:25:19 -0000
-Message-Id: <161178271977.24795.12685052447325675439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Wed, 27 Jan 2021 21:27:01 -0000
+Message-Id: <161178282148.25336.17995263976956376163@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/heads/for-next
-    old: 86ce322d21eb032ed8fdd294d0fb095d2debb430
-    new: 60e578e82b7d73fbd9a0966e8fc70a95d8e12e13
+  - ref: refs/heads/uvc-noncontiguous
+    old: 87041cd2323ef8e4f3eddd6bad58ccd0b13fa8fc
+    new: b48d37c73ea0808114c9e641c4c254403e5a6d14
     log: |
-         60e578e82b7d73fbd9a0966e8fc70a95d8e12e13 bpf: Change 'BPF_ADD' to 'BPF_AND' in print_bpf_insn()
+         b48d37c73ea0808114c9e641c4c254403e5a6d14 media: uvcvideo: Use dma_alloc_noncontiguos API
          
