@@ -1,57 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============7661469851276948344=="
+Content-Type: multipart/mixed; boundary="===============5389817554496592879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 27 Jan 2021 13:28:50 -0000
-Message-Id: <161175413095.6565.5931112164767438119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mricon/hook-test
+Date: Wed, 27 Jan 2021 13:53:50 -0000
+Message-Id: <161175563073.11811.10656485343565352780@gitolite.kernel.org>
 
---===============7661469851276948344==
+--===============5389817554496592879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
+repo: pub/scm/linux/kernel/git/mricon/hook-test
+user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 8ba59e9dee31246fc34b4d4bec032093e9c06510
-    new: 8d6da6575ffec171161d36a06c015142b0049637
+  - ref: refs/heads/main
+    old: 5ede4a46334ec18a8d601678a86940ef4065068a
+    new: eda29b016878311866a0d144af88487bb7f581d2
     log: |
-         487709fa1be2f27aa8e7de6c60587b4302a21467 misc: pvpanic: introduce device capability
-         8d6da6575ffec171161d36a06c015142b0049637 misc: pvpanic: introduce events device attribue
+         eda29b016878311866a0d144af88487bb7f581d2 Test replication
          
 
---===============7661469851276948344==
+--===============5389817554496592879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611754122 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1611754121-e2b48abe74e7e59049218465cec690480b62c138
+pusher B6C41CE35664996C! 1611755630 -0500
+pushee pdx-korg-gitolite-2.ci:pub/scm/linux/kernel/git/mricon/hook-test
+nonce 1611755630-40d3d37a7990a93c6544171d1a73b4a1b3e01cae
 
-8ba59e9dee31246fc34b4d4bec032093e9c06510 8d6da6575ffec171161d36a06c015142b0049637 refs/heads/char-misc-testing
+5ede4a46334ec18a8d601678a86940ef4065068a eda29b016878311866a0d144af88487bb7f581d2 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmARaoobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bPkP/ieHq2xDmviRao9E1h1t
-sqI7QwKXtO9YSCCJseLI84qss6iYzJ0WLFnRjBr7tABAVqiAEVgpgcvrVahJ1mcs
-HtH6OtXSsIYh/yuLxNkqoT98VxyI9uPLCyaKZJ0RPcbnAlXCg5lw8KcnnqPmQN2R
-9/ib8xAwJBU025i6g+UTfdJt1sbCsaaCmEO0msvk8w+jM/xNljXT+Ie6qpMmqZan
-PKDD9GHqCa9gj/A7/Ty2Soy7FtnbISiM9MEsIpRVVxco/sXzE8hFWjMdjV5garHl
-zQ5flNObFGG3DIYhIeGftqm6o+m07XxM5Ud2KiMoBjZOpojKuFlnCEcA4hrIVMqC
-cPchG1+FHqHIjX2v0fz+ubnmqr68ZWdxJILHz2ukAt09JavsZy2dztrAhEmgZ0NV
-mqKgca/wpn7j3AN7lPoPjXkNEJ3ZsBHPiVwhclKbc7YZIqU3eqoFNRiQpJl6dXVc
-/kh7lDgVytFV8aKoPBaBVfvBCRbMvqcRb8r6nxhgaH6zst6e4yvTegk3EwSBRTB+
-GjgLR4cxzzCTN7IeyHP3/ISIPXoHdKCHLjOcjfhoH0TRfC5mzyDjzRgMuBn7haH4
-glgpVz6BcvZGo3FiLZMcy2qwDobCD+MNboF3nfTvZSWpoPNHZAVX0jV2/vs4vflz
-MoMzlpvxOvZPJQlvKSyd70Pc
-=+0cA
+iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYBFwbgAKCRC2xBzjVmSZ
+bMHoAP0RMLJO6niFEW8roefV6uL+nkSQ1IeOJJJhztzp2RKJywD8DXHIyU7Tl1YD
+YDPuo4crpvdJ+oXHOxZekshJKSnILQ4=
+=I1kx
 -----END PGP SIGNATURE-----
 
---===============7661469851276948344==--
+--===============5389817554496592879==--
