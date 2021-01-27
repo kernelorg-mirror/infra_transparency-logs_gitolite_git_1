@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 27 Jan 2021 18:44:31 -0000
-Message-Id: <161177307139.19173.4825422018177548200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Wed, 27 Jan 2021 18:50:09 -0000
+Message-Id: <161177340927.23785.5512138455276294008@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
+user: khilman
 changes:
-  - ref: refs/heads/ceph-fscrypt-experimental
+  - ref: refs/heads/for-next
     old: 0000000000000000000000000000000000000000
-    new: d3c4dcbd219d76bf6ce5fd78403d843ccb3c5572
+    new: 35fe4b2c91ae71a6f9fa8ae5da78ae44e9bafcb5
