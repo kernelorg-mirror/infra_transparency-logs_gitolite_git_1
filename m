@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 28 Jan 2021 22:13:23 -0000
-Message-Id: <161187200324.26541.17100707762037385297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 28 Jan 2021 22:18:25 -0000
+Message-Id: <161187230554.30908.11424619105621963661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/bluetooth/bluez
+user: bgix
 changes:
-  - ref: refs/heads/trusted-fixes
-    old: 267ed9e5b50bed5def0403f0fa299684e5856006
-    new: 2c15c82edad81a45acfecb7fcf78f742615bfd6e
+  - ref: refs/heads/master
+    old: d8e7311bcd3b756481bc1f99e324a2df9e21ada6
+    new: 46766bed551019df8d26f1ab1ce98484600484e4
     log: |
-         2c15c82edad81a45acfecb7fcf78f742615bfd6e KEYS: trusted: Reserve TPM for seal and unseal operations
+         2994d0b2701c5b7462a168be439401433649c59d advertising: Fix formater for size_t data type
+         46766bed551019df8d26f1ab1ce98484600484e4 tools/mgmt-tester: Fix formatter for size_t value
          
