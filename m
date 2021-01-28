@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/nsaenz/linux-rpi
-Date: Thu, 28 Jan 2021 14:46:22 -0000
-Message-Id: <161184518210.7681.10980770680200557034@gitolite.kernel.org>
+Date: Thu, 28 Jan 2021 14:48:49 -0000
+Message-Id: <161184532934.8474.14368237733541975157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/nsaenz/linux-rpi
 user: nsaenz
 changes:
-  - ref: refs/heads/for-next
-    old: 3a3d8f09f497e66a61e49065bd415c92d7f99a26
-    new: fbdcf1d2012639e3abdbb97bb6dea9105673d57e
-    log: |
-         fbdcf1d2012639e3abdbb97bb6dea9105673d57e ARM: dts: bcm2711: Add the CEC interrupt controller
-         
+  - ref: refs/tags/bcm2835-dt-next-2021-01-28
+    old: 0000000000000000000000000000000000000000
+    new: 836f2d155374c643bfce9e2a639ef04f12064b46
