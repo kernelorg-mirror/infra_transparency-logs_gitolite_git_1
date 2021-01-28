@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0295344862758420930=="
+Content-Type: multipart/mixed; boundary="===============3499760419438990917=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 28 Jan 2021 21:42:12 -0000
-Message-Id: <161187013285.6519.16167369214697980023@gitolite.kernel.org>
+Date: Thu, 28 Jan 2021 21:42:26 -0000
+Message-Id: <161187014667.6708.4969175349046044826@gitolite.kernel.org>
 
---===============0295344862758420930==
+--===============3499760419438990917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: d38edbe14262950938ee5c2ade4b8894ab1292de
     new: 52fafb8debcc71daf8459f2e490437c46bcd78b1
     log: revlist-d38edbe14262-52fafb8debcc.txt
 
---===============0295344862758420930==
+--===============3499760419438990917==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -185,4 +185,4 @@ cc9b00b83ecccb640f4a81b72c36fb43d83ed83b Merge branch 'efi/core'
 5627c3d95a76cce5734d1b05cedce8abf127d1f8 Merge branch 'core/urgent'
 52fafb8debcc71daf8459f2e490437c46bcd78b1 Merge branch 'linus'
 
---===============0295344862758420930==--
+--===============3499760419438990917==--
