@@ -1,84 +1,91 @@
-Content-Type: multipart/mixed; boundary="===============6256846022860834072=="
+Content-Type: multipart/mixed; boundary="===============5244488736270030323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Thu, 28 Jan 2021 06:04:26 -0000
-Message-Id: <161181386673.17707.10106731089113595892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 28 Jan 2021 06:39:15 -0000
+Message-Id: <161181595551.6115.11971967591345986077@gitolite.kernel.org>
 
---===============6256846022860834072==
+--===============5244488736270030323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/maint
-    old: b3f288ed9fbb1b12c67fd00860f286a800427125
-    new: e1af9546e6a1572cbd7d8b70cf5344b5f7e2f51b
-    log: revlist-b3f288ed9fbb-e1af9546e6a1.txt
-  - ref: refs/heads/next
-    old: 45fa214d623e4e4a8844535a7e80dece63f121c8
-    new: 6be3ce7a545d3b49199e65cdde709ad51d1be502
-    log: revlist-45fa214d623e-6be3ce7a545d.txt
+  - ref: refs/heads/seen
+    old: 4262707b68ba6a0bfe6931260c8caaa72ec0b9dc
+    new: 63ce4b5a6f3a039309cbf419afba4d82ca8be764
+    log: revlist-4262707b68ba-63ce4b5a6f3a.txt
 
---===============6256846022860834072==
+--===============5244488736270030323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3f288ed9fbb-e1af9546e6a1.txt
+Content-Disposition: attachment; filename=revlist-4262707b68ba-63ce4b5a6f3a.txt
 
-865221f5aa31bfed1cc06da5815399c9d6c7ef90 e2fsck: declare the size of bh->b_data to be 4096 in jfs_user.h
-0ea0a9e79047604a205dd3a17448271a2e25b615 AOSP: Make e2fsck depends on badblocks
-b437e1ed5f7446b832e25ce9ca1f0ef89b7329ed AOSP: ANDROID: tune2fs: Allow setting the casefold feature
-79661036b427a890b1d3d435ffab7c811ec9e5f4 AOSP: ANDROID: e2fsck: Do not mutate encrypted names
-23fc0e6e46f061175ef2af03538e137a490d17fb AOSP: ANDROID: tune2fs: Support encrypt+casefold
-b22c36e60cddc7c11bc8071a8390f98347b98052 AOSP: ANDROID: mke2fs: Support encrypt+casefold
-61421ee58861f7f637e1087d67be400294dae199 AOSP: ANDROID: e2fsck: Handle casefolded encryption
-d89e06515bc841e424ff4260841eddbba1eedab3 AOSP: Add "product_available" to product available modules
-851d899646eb5fb41a88ec81b5d0db7082bec138 AOSP: Make libext2_uuid and e2fsprogs headers vendor_ramdisk_available.
-643ee34074b4f2c684557c12c55eb8b69c499622 AOSP: tune2fs/resize2fs: make vendor_ramdisk_available.
-e1af9546e6a1572cbd7d8b70cf5344b5f7e2f51b AOSP: Add assemble_cvd to com.android.virt
+a2c74edd28ee11e7809685eca7fd7a6e3b16ac01 commit-graph: anonymize data in chunk_write_fn
+bb02af66565e460adea439b44619e67c9044e95e chunk-format: create chunk format write API
+330f306c67054a26f3b7d4d18d649ab192146a73 commit-graph: use chunk-format write API
+491fadd565e68aa77c5b95a715667887f071c53f midx: rename pack_info to write_midx_context
+e4350f47e67f18cf7f893f40d1acb36cbdbf7287 midx: use context in write_midx_pack_names()
+5cebcef1ab3537083da18d2d1230b6b3c85b53e1 midx: add entries to write_midx_context
+d51234ccdaa4c56e3a05681726be2ab9e5b0e0e5 midx: add pack_perm to write_midx_context
+c95557b385e45864194f0b2f24e03f4ad373c7b6 midx: add num_large_offsets to write_midx_context
+eef486b2447a0cc87b1489a0f1a6d835f8586062 midx: return success/failure in chunk write methods
+9304715a0c95737a164092f66da318d7218e968c midx: drop chunk progress during write
+ff41bd46fe859453771c2aeea1a1b078c75e6f0a midx: use chunk-format API in write_midx_internal()
+f7658e1677c397ad75b862fe9d67c8ff2d338fdb chunk-format: create read chunk API
+72d1bfc0e8e3934a5dea2288f644d3e74b72f06d commit-graph: use chunk-format read API
+4a265aeb3b7aae074bb8ee07a632308825f7fba4 midx: use chunk-format read API
+283a729b0532a8a34797c146fce9317966136205 midx: use 64-bit multiplication for chunk sizes
+7b0d5b56e31ae3f2e64bbd5ca0b7813086869d0d chunk-format: restore duplicate chunk checks
+4a22aacfd5fe27c6baa44126171337f0a3a7af5b chunk-format: add technical docs
+0364332f45189bdbd011772e9f8df2f1ef0fcce8 t2402: ensure locked worktree is properly cleaned up
+cdda6df8b71b7ae0de91dd0a0e6875da395a27e9 worktree: teach `list --porcelain` to annotate locked worktree
+b8af960f4cdfd614665170527353c59cf18a908c worktree: teach `list` to annotate prunable worktree
+615360eb389bee36733018a2c084fe2b04b52d27 worktree: teach `list` verbose mode
+679b5916cdafdcfa9fb36c31dbf53d7e4aa0af0b range-diff/format-patch: refactor check for commit range
+c936a6e8a61e37efbd7cab967f5633bd3546108e range-diff/format-patch: handle commit ranges other than A..B
+43718f6741a87f87bd400bdf5264394e980583c5 range-diff(docs): explain how to specify commit ranges
+2b0e14f64025a858f7d7542b117c799d2c76c392 ci: do not cancel all jobs of a matrix if one fails
+765dc168882476e66a997fe2209cb2aa08021737 git-compat-util: always enable variadic macros
+c775218ce3de308471ebf9df226c7d60c02c8195 Merge branch 'rs/worktree-list-verbose' into jch
+2b62efbb415f22903a3e3d358e619dd783857b83 Merge branch 'tb/geometric-repack' into jch
+d74d2928b1db07811df0ff22965adabfe09143c5 Merge branch 'ds/more-index-cleanups' into jch
+dbcf8995c1c1fed46ceb703874be0b47e70a0ae2 Merge branch 'en/ort-directory-rename' into jch
+b697b6a23024ef725fbb3c6e6ac434a92fe62155 Merge branch 'ah/rebase-no-fork-point-config' into jch
+b172ad153548d8245d10fe48c884115895562130 Merge branch 'ab/detox-gettext-tests' into jch
+28d5cec55bb719736fadcf224bd9dcaae6a868a8 Merge branch 'bc/signed-objects-with-both-hashes' into jch
+79fe3f9a538fb7943e11a0b806a388439642e863 Merge branch 'jv/upload-pack-filter-spec-quotefix' into jch
+035e442125c08309269375aa7153bfae4045287f Merge branch 'en/merge-ort-perf' into jch
+37667617dca2d5675182fc445bb83e7944cb239d Merge branch 'ab/lose-grep-debug' into jch
+74b34c9af6dea2e9ed88a16cb5bf926561e7de0d Merge branch 'jk/weather-balloon-require-variadic-macro' into jch
+64e912f093509547493f8190b38c1b3e84a1d903 Merge branch 'pb/ci-matrix-wo-shortcut' into jch
+5969b1675e5e162dd55f0abe2cf02e01f15bf2fe Merge branch 'js/range-diff-wo-dotdot' into seen
+7b083cc14705cc6ebc91f39865c5efa788e892d4 Merge branch 'mr/bisect-in-c-4' into seen
+760d53b4a7faa16516b7e2d7fb690536635c8c9e Merge branch 'sm/curl-retry' into seen
+7f2f74a232e8fa9224e0ec3a4825027dc7dbcc9a Merge branch 'sv/t7001-modernize' into seen
+a17b809d075be045e4b90c42f1db8f4b6b3a6f30 Merge branch 'ar/fetch-transfer-ipversion' into seen
+62fd236bde034c219a604b521d72ae1ea87fb8df Merge branch 'mt/grep-sparse-checkout' into seen
+d87276ed7886dc4923be6b8fa58a2e1040334e35 Merge branch 'mt/rm-sparse-checkout' into seen
+795d264096260fb7ba36bc1957ec9eb44d2640b0 Merge branch 'mk/use-size-t-in-zlib' into seen
+7d1ae4499afac1934c06ee30fb93ebea0457ca5e Merge branch 'jc/war-on-dashed-git' into seen
+3f288aca4fa3fcd368d6b9466d67c68f4555ea4a Merge branch 'mt/parallel-checkout-part-1' into seen
+73e054da153eded29b65953e09612d743787f670 Merge branch 'ag/merge-strategies-in-c' into seen
+b411a66fbf8b2eb2da539028d636b760e4753283 Merge branch 'hn/reftable' into seen
+781d6c95edf93105029ecbb0ba7280f902602d67 Merge branch 'es/config-hooks' into seen
+833800e4e491b4df3a40e83d39af43f6b5420e28 Merge branch 'jk/symlinked-dotgitx-files' into seen
+b566bb3855b52d84eb93d86a5d604c153dec03c6 Merge branch 'js/rebase-i-commit-cleanup-fix' into seen
+c8fa698105ba92d37d07324487f8270f16e02a3e Merge branch 'jx/t5411-unique-filenames' into seen
+4c217d564d75b5260d20320a2c42adf0fde50327 Merge branch 'ab/tests-various-fixup' into seen
+fd6b5fc5911004025692a08af07ead4e7c1e90d2 Merge branch 'ab/retire-pcre1' into seen
+eebc88796dd9a9ad05608dc6d79a9e0950b195ee Merge branch 'ab/grep-pcre-invalid-utf8' into seen
+8abf2364f4a23c4a712eb4590df62c0a4c96c77f Merge branch 'jt/transfer-fsck-across-packs' into seen
+867650acde0f97520980512b25265adbfb9116ac Merge branch 'ds/chunked-file-api' into seen
+7cbe795e765dd47f3c8ab3b0cfa48c918ce8a4cf Merge branch 'sg/test-stress-jobs' into seen
+63ce4b5a6f3a039309cbf419afba4d82ca8be764 Merge branch 'jt/clone-unborn-head' into seen
 
---===============6256846022860834072==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45fa214d623e-6be3ce7a545d.txt
-
-865221f5aa31bfed1cc06da5815399c9d6c7ef90 e2fsck: declare the size of bh->b_data to be 4096 in jfs_user.h
-cf2d9de7ee2f35ae0e1095c86a77c3fe6fb8ce7d ext2fs: add new APIs needed for fast commits
-9dc54e46dbc9e85f3735b8288cf217ce3726bb56 e2fsck: add function to rewrite extent tree
-c8a097c2e13afe5d54b26c879b24eef084369774 e2fsck: add fast commit setup code
-81a6b0109d448779ee6f81825560f31c44ed2b89 e2fsck: add fast commit scan pass
-3ba3ec0b334532c947f240927febe9e4e2351975 e2fsck: add fast commit replay skeleton
-63b7192cae606cc3ccfe12ec11c47a32b2b86339 e2fsck: add fc replay for link, unlink, creat tags
-f5de3d7c1b645a3368cd37fcdcc17d3cf2692f7c e2fsck: add replay for add_range, del_range, and inode tags
-3e994cc5b85e0021221fb3a8779bd08f9360b450 tests: add fast commit recovery tests
-1f9bb778a8e693f8d5f2fd7a26fd6b9fe2e3212a tune2fs: allow enabling casefold feature after fs creation
-4e735c502f148e1c9043f5fe523f40d14d656cad tune2fs: fix casefold+encrypt error message
-fc9e28605ad410294ee9122c399a68dc518d573d ext2fs: add method to validate casefolded strings
-a3def1e3cee0ccb14db2daff84ac3730da9931ec ext2fs: implement faster CI comparison of strings
-d380e9d6f07c2b499e1cf3a1361ed445b6e55c60 e2fsck: add new problem for encoded name check
-06b83bbd405a83810e028fac7802d419f2796e45 e2fsck: fix entries with invalid encoded characters
-9d2e1df4c9d8144e1a2b0a49b39f0ee10187f39b e2fsck: support casefold directories when rehashing
-b0930168906df782c9146f29a54620849d8a882b dict: support comparison with context
-782df523380761a54376d8645ea781172cae1f5f e2fsck: detect duplicated casefolded direntries for rehash
-1e6a3a32beb37b90f60a67806a2f75caccf4698c e2fsck: add option to force encoded filename verification
-cc4f6884bffbcef5085e9b3720c5131dc41c7062 e2fsck.8.in: document check_encoding extended option
-3304da1696f85225779b11aef420fdba9a20175a tests: test case-folding checks in e2fsck
-0ea0a9e79047604a205dd3a17448271a2e25b615 AOSP: Make e2fsck depends on badblocks
-b437e1ed5f7446b832e25ce9ca1f0ef89b7329ed AOSP: ANDROID: tune2fs: Allow setting the casefold feature
-79661036b427a890b1d3d435ffab7c811ec9e5f4 AOSP: ANDROID: e2fsck: Do not mutate encrypted names
-23fc0e6e46f061175ef2af03538e137a490d17fb AOSP: ANDROID: tune2fs: Support encrypt+casefold
-b22c36e60cddc7c11bc8071a8390f98347b98052 AOSP: ANDROID: mke2fs: Support encrypt+casefold
-61421ee58861f7f637e1087d67be400294dae199 AOSP: ANDROID: e2fsck: Handle casefolded encryption
-d89e06515bc841e424ff4260841eddbba1eedab3 AOSP: Add "product_available" to product available modules
-851d899646eb5fb41a88ec81b5d0db7082bec138 AOSP: Make libext2_uuid and e2fsprogs headers vendor_ramdisk_available.
-643ee34074b4f2c684557c12c55eb8b69c499622 AOSP: tune2fs/resize2fs: make vendor_ramdisk_available.
-e1af9546e6a1572cbd7d8b70cf5344b5f7e2f51b AOSP: Add assemble_cvd to com.android.virt
-6be3ce7a545d3b49199e65cdde709ad51d1be502 Merge branch 'maint' into next
-
---===============6256846022860834072==--
+--===============5244488736270030323==--
