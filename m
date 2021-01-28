@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 28 Jan 2021 20:54:56 -0000
-Message-Id: <161186729600.7329.14568875077085594520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Thu, 28 Jan 2021 20:59:25 -0000
+Message-Id: <161186756557.9967.4632566681486637231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/for-linus
-    old: a3def2460583fcbb1c00d0bbd7eb021766f33a2f
-    new: b96353f3607a1cd0377010fdf1f2d7b767047675
+  - ref: refs/heads/for-joerg/mtk
+    old: 0954d61a59e3c014e52b8d938bc12dc5a2e4949c
+    new: ab7e4d2747e6b32677c8b9bf1dac0432a44f6244
     log: |
-         64f09ea1b551189f491ffb626fdccc2c31fe2d70 regulator: pf8x00: Fix typo for PF8200 chip name
-         b96353f3607a1cd0377010fdf1f2d7b767047675 Merge remote-tracking branch 'regulator/for-5.11' into regulator-linus
-         
-  - ref: refs/heads/for-next
-    old: 6d2d59e2ba7b4e14f499aea3790b000a134b1f2c
-    new: 5ccfaceb507f5a1f13f00b94b073a0191541af22
-    log: |
-         64f09ea1b551189f491ffb626fdccc2c31fe2d70 regulator: pf8x00: Fix typo for PF8200 chip name
-         b96353f3607a1cd0377010fdf1f2d7b767047675 Merge remote-tracking branch 'regulator/for-5.11' into regulator-linus
-         5ccfaceb507f5a1f13f00b94b073a0191541af22 Merge remote-tracking branch 'regulator/for-5.12' into regulator-next
+         c867c78acae96fc359f2a2f375ce64b5f0871802 iommu/msm: Hook up iotlb_sync_map
+         ab7e4d2747e6b32677c8b9bf1dac0432a44f6244 iommu/io-pgtable: Remove TLBI_ON_MAP quirk
          
