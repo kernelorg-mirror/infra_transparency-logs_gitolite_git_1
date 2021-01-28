@@ -1,41 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============5989706064749671936=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Thu, 28 Jan 2021 11:02:11 -0000
-Message-Id: <161183173110.21828.9370381293789519026@gitolite.kernel.org>
-
---===============5989706064749671936==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Thu, 28 Jan 2021 11:11:31 -0000
+Message-Id: <161183229108.28529.8688630235282771325@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
-  - ref: refs/heads/next
-    old: 3da88be249973f7b74e7b24ed559e6abc2fc5af4
-    new: 2c2a2327bdb509c96737258ca6c91f176acc837d
-    log: revlist-3da88be24997-2c2a2327bdb5.txt
-
---===============5989706064749671936==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3da88be24997-2c2a2327bdb5.txt
-
-f679a41fafc8cdc5c7879aa4726a28439fca7656 thunderbolt: dma_port: Check 'dma_port_flash_write_block()'s return value
-4366979fdd437d90b5efc44b368869b1c9493863 thunderbolt: cap: Fix kernel-doc formatting issue
-aa60825391b6b7b6b65fb72676145db4befcc6f9 thunderbolt: ctl: Demote non-conformant kernel-doc headers
-ff48bc4477735d8f1cd5409eba84f3139e217e9f thunderbolt: eeprom: Demote non-conformant kernel-doc headers to standard comment blocks
-925a2af9b3629a5476db620ce945b515aff0e9f3 thunderbolt: xdomain: Fix 'tb_unregister_service_driver()'s 'drv' param
-a7bfb27bee62ca597fd747f1316f40b1f195e03f thunderbolt: nhi: Demote some non-conformant kernel-doc headers
-877e50b358c88be649583a1589525bd5ca163998 thunderbolt: tb: Kernel-doc function headers should document their parameters
-47ba5ae46bb995d0766be2fa2068070f61f8f24c thunderbolt: switch: Demote a bunch of non-conformant kernel-doc headers
-af6bd59ea5b73a8c6310a7de1f991b85ba29c77f thunderbolt: icm: Fix a couple of formatting issues
-a27ea0dfc1cdac5f1e5e1cb45cc1d92b476adb75 thunderbolt: tunnel: Fix misspelling of 'receive_path'
-2c2a2327bdb509c96737258ca6c91f176acc837d thunderbolt: switch: Fix function name in the header
-
---===============5989706064749671936==--
+  - ref: refs/heads/master
+    old: 0efacbdd866bda9efabeeae93599076e3f49f9e0
+    new: d810c8199ed889928e2db8ead3f86c37ab653158
+    log: |
+         fc0bcf3cfe85a416ad59996cc9b556297696eded environ.7: Relocate and reword the mention of _GNU_SOURCE
+         a079bfc9555b7ac5cb548a3fd1d7544553fbd6f3 environ.7: Be a little more precise when discussing 'exec'
+         5b4da4c3fdc9e6681caac4caf4bd43238bd62773 environ.7: Add see also ld.so(8) for LD_ variables
+         7939275a0adc0d18a393e9503a3f47d27b38e74c environ.7: Minor fixes to Bastien's patch
+         2768c481079fa520c240b2a734218356325fe548 environ.7:  Document convention of string in environ
+         d810c8199ed889928e2db8ead3f86c37ab653158 environ.7: Minor tweaks to Bastien's patch
+         
