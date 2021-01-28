@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6846163303138252682=="
+Content-Type: multipart/mixed; boundary="===============1326909301650702067=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 28 Jan 2021 10:52:41 -0000
-Message-Id: <161183116118.16324.9251020135926355817@gitolite.kernel.org>
+Date: Thu, 28 Jan 2021 10:52:49 -0000
+Message-Id: <161183116929.16477.63948853659189447@gitolite.kernel.org>
 
---===============6846163303138252682==
+--===============1326909301650702067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 6626a0266566c5aea16178c5e6cd7fc4db3f2f56
-    new: d1f3bdd4eaae1222063c2f309625656108815915
-    log: revlist-6626a0266566-d1f3bdd4eaae.txt
+  - ref: refs/heads/testing
+    old: 4162e18e949ba520d5116ac0323500355479a00e
+    new: 8e32aefba5fdad283a96111b6b4e464b779a4877
+    log: revlist-4162e18e949b-8e32aefba5fd.txt
 
---===============6846163303138252682==
+--===============1326909301650702067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1611831156 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1611831164 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1611831156-ea9537cb31986ec7c0a9ada903988d7ebd6a92fd
+nonce 1611831164-373e72498b24912e9ecafdb550ab3c6fa8a1346a
 
-6626a0266566c5aea16178c5e6cd7fc4db3f2f56 d1f3bdd4eaae1222063c2f309625656108815915 refs/heads/master
+4162e18e949ba520d5116ac0323500355479a00e 8e32aefba5fdad283a96111b6b4e464b779a4877 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmASl3QTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqVIJB/96dFj45CWt9xSsh/oSDOtJy0U62vCf
-3t5bcpJturTTKi7T1vVxhDf5NL7CtWAhRUb+9NkywUYzBYTVbHIYp4/Up17bK011
-LmuVjO8pTY8HVbeX+qaiLMtQidwM0BGeBnGqulylIwIRoSs/hGokPV2Gn1QnX9BG
-BmBjGMhmh76ak2u+VPzZcG6/RPHeolK/8pdh5rVlRy0IQqNzQxQzIFXdsWPdUuV+
-NDSTqcrmaQpCNLb4dBaMl4sQ85CgHdnl4ANR/pLmCnP6W2jpDoVefvNKpDuIu0vq
-p+7qUgglmepPy5mW4t8ADeXQ7ZG43FK2iA48gufkbbFBuXMFlBnGhAKX
-=RQoa
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmASl3wTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqeB1CACuApMjiJs3rdag4IO0thCt4HzPOkW5
+uzJVam1tHwBKaNvl9YpwiOjX1vxE0v+vkECIFa2JLko0+HKBrouGXBjsGqCGW6Zs
+7SJ308l9s6tjfaje4gLO51hpXExA4halUo9/v7E5lJ13u0qsS8f0LVGWz1WmR8gC
+aF5DgMcRwI6+fzknRc7h3bQ5EpcCGbmIGkYycO7G3ipziGt2HFBnxBhtMokrvQo9
+V/TKBjqkHzaEni53e7vh4yzFj9p2BeGkVLsFZdKs65/chnqERevh8g1pZJmMtPNR
+qhwP9YG1hnqfmLXVcCt3qPHHxTKITq2Ooz9+4AUgFnbt2dlEkpYBT5FZ
+=ResH
 -----END PGP SIGNATURE-----
 
---===============6846163303138252682==
+--===============1326909301650702067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6626a0266566-d1f3bdd4eaae.txt
+Content-Disposition: attachment; filename=revlist-4162e18e949b-8e32aefba5fd.txt
 
 07be2fed5ee7b3a01e0b21c15814b590af9c1527 net/fq_impl: bulk-free packets from a flow on overmemory
 bf9009bf21b53501f2abb2f59f9314d85bde5fc9 net/fq_impl: drop get_default_func, move default flow to fq_tin
@@ -74,18 +74,6 @@ a7fca4e4037f7e3fa84d4532ea0fd8b00c39c7a2 mac80211: minstrel_ht: fix max probabil
 2fe8ef106238b274c505c480ecf00d8765abf0d8 cfg80211: change netdev registration/unregistration semantics
 a05829a7222e9d10c416dd2dbbf3929fe6646b89 cfg80211: avoid holding the RTNL when calling the driver
 6b2e04bc240fe9be9e690059f710e9f95346d34d net: allow user to set metric on default route learned via Router Advertisement
-12da7a1f3cb6ec5c8a1256bbc17cc931f72f7329 can: gw: fix typo
-02ee6808179100b46345f3b4e6ecc083b9d08e9d can: flexcan: fix typos
-6fe27d68b45666381691b6a841a2adbda8c8d153 can: dev: export can_get_state_str() function
-54eca60b1c94fb1de3e59a936d428a291879de8a can: length: can_fd_len2dlc(): make legnth calculation readable again
-22d63be91c5016207d0de25ed279707865f07e4f can: mcba_usb: remove h from printk format specifier
-cdc4c698e4be256634e722494dac0fa40e4137e2 can: mcp251xfd: replace sizeof(u32) with val_bytes in regmap
-9845b8f530196fd86fcc46c1c1298bf94b1604bf can: mcp251xfd: mcp251xfd_start_xmit(): use mcp251xfd_get_tx_free() to check TX is is full
-561aa5b4ce223064ea655da899013bec5326ec45 can: mcp251xfd: mcp251xfd_tx_obj_from_skb(): clean up padding of CAN-FD frames
-e20b85c7eb2e91d9db166ac8b08eec61c0164e9b can: mcp251xfd: mcp251xfd_hw_rx_obj_to_skb(): don't copy data for RTR CAN frames in RX-path
-a68eda203676d7504dbf02f50366d81928ab45bf can: mcp251xfd: mcp251xfd_tx_obj_from_skb(): don't copy data for RTR CAN frames in TX-path
-86f1e3b1dd9f08408b12405059e2ab3cf9690066 can: mcp251xfd: add len8_dlc support
-4162e18e949ba520d5116ac0323500355479a00e can: mcp251xfd: add BQL support
 38ec7c6b6bd69b9ccc1873b9f465d4f16b46b26e virt_wifi: fix deadlock on RTNL
 d3b9b45f7e981bcc6355414c63633fe33d95660c mac80211: minstrel_ht: fix regression in the max_prob_rate fix
 275b1e88cabb34dbcbe99756b67e9939d34a99b6 pktgen: fix misuse of BUG_ON() in pktgen_thread_worker()
@@ -126,5 +114,13 @@ cf74760932602fb25d16c57e49dbc445c81d0ff1 net/mlx5e: Expose RX dma info helpers
 eb3862a0525d26f0975ed4f750bc151920f2f25c net/mlx5e: Enable traps according to link state
 5cc921a38f2bba2e02e4caba62b4d364e95dd9b7 Merge branch 'mlx5-updates-2021-01-26'
 d1f3bdd4eaae1222063c2f309625656108815915 net: dsa: rtl8366rb: standardize init jam tables
+ab73c9f57f6ac11263b461d42f3ae39ef925247a can: mcp251xfd: mcp251xfd_probe(): fix errata reference
+6d35f5aa1717ce1057b24d21eec51e14f7c6d00d can: mcp251xfd: mcp251xfd_probe(): sort errata table alphabetically, fix indention
+dcc1b1d948e7d581f0084b59f5eaaa470a603b6b can: mcp251xfd: mcp251xfd_probe(): remove known bad combinations from errata tabe
+b3f6e5d05290684cba01200f469f2c0a52f6add1 can: mcp251xfd: mcp251xfd_probe(): add imx6 to errata table
+99f04a9ad7913180371837e12be2179daf925cb6 can: mcp251xfd: unify error messages and commets
+9ef0e0c2066020400aad600e3f3805dcacb9f921 can: mcp251xfd: add missing _MASK postfix to MCP251XFD_OBJ_FLAGS_DLC
+c965ff20622a8f80a5247336ec9ae3d1746d8eb5 can: mcp251xfd: mcp251xfd_chip_clock_enable(): simplify return
+8e32aefba5fdad283a96111b6b4e464b779a4877 can: mcp251xfd: mcp251xfd_probe(): use dev_err_probe() to simplify error handling
 
---===============6846163303138252682==--
+--===============1326909301650702067==--
