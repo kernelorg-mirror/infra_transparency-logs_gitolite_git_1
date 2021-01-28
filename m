@@ -1,58 +1,103 @@
-Content-Type: multipart/mixed; boundary="===============6431394253680025947=="
+Content-Type: multipart/mixed; boundary="===============8304194648270721699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Thu, 28 Jan 2021 02:18:44 -0000
-Message-Id: <161180032401.8709.4585115016087771756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 28 Jan 2021 02:24:07 -0000
+Message-Id: <161180064702.11683.212914842148795235@gitolite.kernel.org>
 
---===============6431394253680025947==
+--===============8304194648270721699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/aa
-user: andrea
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/mapcount_deshare
-    old: 767712479209bd684aeaf45ad96750be2889c95d
-    new: 0025709ac43735774ac3d993429367a7858a6588
-    log: revlist-767712479209-0025709ac437.txt
+  - ref: refs/heads/dev-queue
+    old: 47e689ed4edbf51045843c43980ccf2fb0116310
+    new: 111cf1b1cd0d8d8dc1c525e9af69565dcc7f5c2b
+    log: revlist-47e689ed4edb-111cf1b1cd0d.txt
 
---===============6431394253680025947==
+--===============8304194648270721699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-767712479209-0025709ac437.txt
+Content-Disposition: attachment; filename=revlist-47e689ed4edb-111cf1b1cd0d.txt
 
-0aa91f84b1804b59841c834128b2c15330a1ec59 parisc: Remove leftover reference to the power_tasklet
-00e35f2b0e8acb88d4e1aa96ff0490e3bfe46580 parisc: Enable -mlong-calls gcc option by default when !CONFIG_MODULES
-76c057c84d286140c6c416c3b4ba832cd1d8984e Merge branch 'parisc-5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-bfb9751f483d7eb779842ef8adc76d7e2da5bfbe mm: thp: make the THP mapcount atomic with a seqlock
-085b9950d6308ff55b39e2667d85688cdab69e35 mm: thp: replace the page lock with the seqlock for the THP mapcount
-c67d6fa966dc6707307746fb98cee3a1348ad7b6 mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
-6cf94344b898ab4b1c11c627f7024ae5f1f56b67 mm: thp: introduce page_trans_huge_anon_shared
-acffcf126a3da25a6bc788197eda67409692437d mm: thp: introduce page_mapcount_seq irqsafe version
-2e977efde90cc37b137ed16e77d0442102b0157f mm: thp: introduce irqsafe methods to check if anonymous pages are shared
-3808d89769f5d1e0cb724a2429eb436451742111 mm: gup: COR: copy-on-read fault
-49c01591ca5e6f1726292348238951c82b4df33a mm: gup: gup_page_unshare()
-9897fe1da7ad157acb3b15ff0595eeea6e7b0454 mm: gup: FOLL_UNSHARE
-4d892b90d472d8c710029a86a27db681a778201c mm: gup: FOLL_UNSHARE: optimize mmu notifier
-b54ae4697bc963557023e81a514cf88e11ff7839 mm: COW: restore full accuracy in page reuse
-255df1bd61d4f5b43fee329f50f46f200ef2d4f2 mm: COW: skip the page lock in the COW copy path
-228b609f1a416065ad838e58ced8bfec07edd067 mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
-4113827c9e2c8c712632fc96e21f85c27b4dfe83 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
-5ad17061f88b274c9b32b772de1206a8044cff58 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
-26b848396c651dde20b0246fbbd3c8035cded9e1 mm: gup: document FOLL_MM_SYNC
-3bee2a670bab50e36c8cc9c5518d3c5b5365251a mm: gup: allow FOLL_PIN to scale in SMP
-3c6e2e6dedea8ec19a22e3ed9710181b635233f8 mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
-dec19de111b098e144b950a5ce60c11b244f0dd7 mm: gup: pack has_pinned in MMF_HAS_PINNED
-4dd65a50230e5694de2c8aca1ca3e6fe9d9d2dfa mm: thp: page_mapcount_lock: optimize the migrate path
-e421283fe38d7f671a728672b1ac735f7554360c mm: thp: page_mapcount_lock: optimize the lock_page_memcg
-3796e4f411716039bd4991a81748f6a45b22cff4 mm: thp: optimize total_mapcount() with head_compound_mapcount
-366ae3c32504b514e11ad49ad84305b8522172a0 mm: thp: replace !total_mapcount() with page_mapped()
-40e9c09f42b339f87a3af6e254a03873c7655b5e mm: thp: cleanup and optimize compound_nr
-0025709ac43735774ac3d993429367a7858a6588 Merge remote-tracking branch 'korg/mapcount_deshare' into HEAD
+086d3e9e78561208b0a63c581a830ed442afe796 ice: Fix state bits on LLDP mode switch
+01fe602e8481c396c48c4511cdca448cc0975a28 Documentation: ice: update documentation
+23ea9f19936c0037b25e54d8856436d5fc3f4fcd ice: Add initial support framework for LAG
+e9158fa59073f9d6d03b4691a358810084f8dbf0 ice: create scheduler aggregator node config and move VSIs
+e019f7d2902309780acf66e85039f0c7ca25a9b8 ice: Fix AF_XDP multi queue TX scaling issue
+4157cbe90fa47f8c60ba921ee0509a8162b2d945 ice: Optimize AF_XDP zero-copy TX completion path
+c7546f31f156629994ae6c1c1799358935c37283 ice: improve AF_XDP single socket performance
+0ec3b6963ef859eaef0aa30929c68aea1bf40e9a ice: Refactor ice_setup_rx_ctx
+9b0bcf2c5b3715a9103e7034fd94868ce2aabdaf ice: Use PSM clock frequency to calculate RL profiles
+8ed85e217bfd1d64e63b220a3291caf106cfab7b ice: fix writeback enable logic
+78d8cb465ae301d7de8186cc899c9356c53b6c14 ice: Refactor DCB related variables out of the ice_port_info struct
+ba3e23ee9da6522596b656243695cdf378d27c27 ice: use flex_array_size where possible
+d34ad81ff917d5ff57d0580b0e72b71a6b125e76 ice: remove unnecessary casts
+73f34904b9cb93ee4fe5618dbfeb942bb86ddb79 ice: Fix trivial error message
+e147efffdbb8710ae994cfa0ab7265ce6359e0e7 i40e: Fix overwriting flow control settings during driver loading
+09cba396756b054b393882736566bdaa265055fe i40e: Fix VFs not created
+d022bbb9525d4a6e6d6f10cfe954f6caf334fb1c i40e: Fix addition of RX filters after enabling FW LLDP agent
+83065f316e8b19f307a66b77d0c52374f0d96972 i40e: acquire VSI pointer only after VF is initialized
+5df4fdabf44e500c857ea6ef69ce4582efcad634 igc: Clean up nvm_operations structure
+3364e44233357a41eaf98b4b8bf0a6decc8f807c igc: Remove igc_set_fw_version method
+7179bac4ea590bb0e55b44530a413e88730fda23 e1000e: remove the redundant value assignment in e1000_update_nvm_checksum_spt
+80ad23d2f7370daad9ac360bfbd673763a7f15aa e1000e: Leverage direct_complete to speed up s2ram
+6414858a47bba8db0d84f1b5d5224710d8623d74 e1000e: Remove the runtime suspend restriction on CNP+
+9e5423cdb7f07f77d6e9fd1520288013e2bfae7b igc: Report speed and duplex as unknown when device is runtime suspended
+286f4f7da9b5a8e153c5dc087b39bda2312c7869 i40e: optimize for XDP_REDIRECT in xsk path
+a4312989f86d010b1b76e885f68da03b9e504486 ixgbe: optimize for XDP_REDIRECT in xsk path
+61de2a975d9a9caa12bca93ecd55ab4fac0b8eb9 ice: optimize for XDP_REDIRECT in xsk path
+753c0fedb6150e9e2af610fb8aa1f4224c667e66 igc: Remove MULR mask define
+fc73f25ec80f0c598125465d99affefe495553cd igc: Add Host Good Packets Transmitted Count
+a34d036155efa0d7309d512dbab5e3752ce97dd7 ixgbe: aggregate all receive errors through netdev's rx_errors
+64330dc4b32a9f484b0f6783b6e13d90eccd60f3 igc: Expose the NVM version
+4c54770583e7e0840fa6fdc371e33add51fc041b igc: Remove unused local receiver mask
+c1646c326c54918b86f4ab531bbdfac89ee9eec8 i40e: drop redundant check when setting xdp prog
+bf451820d83c1882589573b4402bb4927feada0f i40e: drop misleading function comments
+611ba3f39ef361bab04f7e6891acd14ce6c29124 i40e: adjust i40e_is_non_eop
+957a2dac93fced98fddbc2bb9d471839b7feed67 ice: simplify ice_run_xdp
+cf8d479cfd3660020eb29878dea0752ac9a8d839 ice: move skb pointer from rx_buf to rx_ring
+7360bd70aebeb0a6859a8b9b056138cce41338ff ice: remove redundant checks in ice_change_mtu
+6f45caedf2f7874aa7e73c87b7af6b7f235e0398 ice: skip NULL check against XDP prog in ZC path
+db29f8dd89b658a06d38bbea75edef6e948e559b i40e, xsk: Simplify the do-while allocation loop
+3558fecd0c78cd6985656a3eb76aaff71044dde3 i40e: store the result of i40e_rx_offset() onto i40e_ring
+b0be1857fae69eac22b25e3044abb1e0763432d1 ice: store the result of ice_rx_offset() onto ice_ring
+a9ac3270e6996d8df0fecf236223a3dc9884b668 ixgbe: store the result of ixgbe_rx_offset() onto ixgbe_ring
+042b5b6b78fd3c07d3c2b1bacf81c3b4663aedb1 i40e: Log error for oversized MTU on device
+cffd7997356f1d6822f24afb12effb7da25a482f igc: Remove unused FUNC_1 mask
+f4686e15ee2a339a248cf247051f238338858181 igc: Expose the gPHY firmware version
+b4713f53d5d3f9911b77223eaf648cac43970275 igc: set the default return value to -IGC_ERR_NVM in igc_write_nvm_srwr
+ccf378575ef17b23f69b26f7a1d1bbe43e40b500 igb: Enable RSS for Intel I211 Ethernet Controller
+c4fe95a68264b3f138c52df1dc26c3f85266e76d i40e: Fix add tc filter for IPv6
+578077dd8ec0b4a36967d032f9146530b47192a1 i40e: Fix setting PF MAC filters when changing MAC address
+44104d1e2717c4e76a03f8856bbccfa60bbb558b igb: remove h from printk format specifier
+ae9f444c43061e850f333aac3c02c0cbbb1f1558 i40e: Add Asym_Pause to supported link modes
+c8124609e1261daafbc683f31ab3f6d8472d8875 igb: fix TDBAL register show incorrect value
+e4dfaf2d9ed9b468ee807841e31620c6f2cbc486 igc: Fix TDBAL register show incorrect value
+45a1b1e693501e961509a1a37be7541e06c675be ixgbe: Fix memleak in ixgbe_configure_clsu32
+9e8fb9b6c44bdbbe2b9c850e17a98511e55809d3 igc: check return value of ret_val in igc_config_fc_after_link_up
+5889d93f0bf80ed9368efa8aa79cc0903db9b215 igc: Remove unused MII_CR_RESET
+3b9557e65edd4f012d057ffceaa9b3331a826029 i40e: add support for PTP external synchronization clock
+3060415b532db7874ca02e9c8be5712b95426e22 igc: Remove unused MII_CR_SPEED
+9fe2bbd38111bcd430fc15197d654051e9a0648e igc: Prefer strscpy over strlcpy
+d3e7a5b0dcf48fc034865b2cb88760673be18fdb i40e: remove unnecessary memory writes of the next to clean pointer
+27ba08d3eb7a9bb152a4e1fb52aaa16a0f18762c i40e: remove unnecessary cleaned_count updates
+45b5f29c2ccf25842b4cb671556948e1c628e7c7 i40e: remove the redundant buffer info updates
+9ad130c9c94cef4c32cec2884cd0cc20371f3265 i40: consolidate handling of XDP program actions
+e5e6c2921589424a221c13490848a209f6f85135 igb: avoid premature Rx buffer reuse
+6ea864c8bc9d22ba5dabac25add9ce6fa001c041 ice: Don't allow more channels than LAN MSI-X available
+971bd0efa5bf741d248a617f8297462921bea720 ice: Fix MSI-X vector fallback logic
+604d7673979d6cf540093b02c2d8f3f3038090f3 ice: Improve MSI-X fallback logic
+48d1cd450b72a0784e28cb7ccce300a13854baa3 iavf: Fix asynchronous tasks during driver remove
+5ff8f78d10b5ed421384beec994e9a6a1ebb901b i40e: Fix correct max_pkt_size on VF RX queue
+8655442193ba554ded827aa4eefad732891a939c igc: Assign boolean values to a bool variable
+54b57774cf677db7352ab6f1b3b5f3c658a30e61 i40e: Revert "i40e: don't report link up for a VF who hasn't enabled queues"
+111cf1b1cd0d8d8dc1c525e9af69565dcc7f5c2b i40e: refactor repeated link state reporting code
 
---===============6431394253680025947==--
+--===============8304194648270721699==--
