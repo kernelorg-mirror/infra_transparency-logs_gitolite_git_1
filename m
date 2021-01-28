@@ -1,39 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============1303925188974036122=="
+Content-Type: multipart/mixed; boundary="===============4503568318393375877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Thu, 28 Jan 2021 12:34:11 -0000
-Message-Id: <161183725128.13106.18217514830368019766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 28 Jan 2021 12:36:49 -0000
+Message-Id: <161183740900.15234.1467647973392744922@gitolite.kernel.org>
 
---===============1303925188974036122==
+--===============4503568318393375877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/fscache-netfs-lib
-    old: 9278ba50ba1bed573be316964940053b0a9d81aa
-    new: 751551a7a74a96c591a69c0a7eb24ca4b21883d6
-    log: revlist-9278ba50ba1b-751551a7a74a.txt
-  - ref: refs/remotes/linus/master
-    old: 2ab38c17aac10bf55ab3efde4c4db3893d8691d2
-    new: 76c057c84d286140c6c416c3b4ba832cd1d8984e
-    log: |
-         0aa91f84b1804b59841c834128b2c15330a1ec59 parisc: Remove leftover reference to the power_tasklet
-         00e35f2b0e8acb88d4e1aa96ff0490e3bfe46580 parisc: Enable -mlong-calls gcc option by default when !CONFIG_MODULES
-         76c057c84d286140c6c416c3b4ba832cd1d8984e Merge branch 'parisc-5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-         
+  - ref: refs/heads/ceph-netfs-lib
+    old: 18762c33d461ed2ec41b8bd65e86d44fed5044ef
+    new: 234cdf8d3e1b6a393d9c551396d7acfd1bbb22d0
+    log: revlist-18762c33d461-234cdf8d3e1b.txt
 
---===============1303925188974036122==
+--===============4503568318393375877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9278ba50ba1b-751551a7a74a.txt
+Content-Disposition: attachment; filename=revlist-18762c33d461-234cdf8d3e1b.txt
 
+467ef3015ee4895f5ae21c4fd26ac76ac39c3923 netfs: Provide readahead and readpage netfs helpers
+f36fd472366d6d104deab1ca46315e64304c9a18 netfs: Add tracepoints
+2c9d76ec83433f87a2c89b12c4c059dabb34dba3 netfs: Gather stats
+1cd11ccf1530dfd235662ddae0c8390e643ea44a netfs: Add write_begin helper
+99fed40841c46296511363fac3f548787a1612d4 netfs: Define an interface to talk to a cache
 6b323be9aad69b3dd2823fea4aebf6db9ba18a94 fscache, cachefiles: Add alternate API to use kiocb for read/write to cache
 f66aa628e7b25b73b1418f30ae5e791da10da21e afs: Disable use of the fscache I/O routines
 af6ab9406378dc1605d4f495e3223224f95a771d afs: Pass page into dirty region helpers to provide THP size
@@ -48,5 +45,11 @@ c88db749e4e089df1b25c8ba466e82fda9b5b103 afs: Use ITER_XARRAY for writing
 6c725c73f4520b51189e7b65bc7bfbe68a1ccd4b afs: Prepare for use of THPs
 0bb652b54c3ab539e794f1b092db79b93ddee439 afs: Use the fs operation ops to handle FetchData completion
 751551a7a74a96c591a69c0a7eb24ca4b21883d6 afs: Use new fscache read helper API
+324292d5734d29c74fdb5931f587bc11fea7941e ceph: disable old fscache readpage handling
+5a1eb07add3bb040beab51b01dd77abbc0b8385b ceph: rework PageFsCache handling
+97fcbb235a382fbcbbd23598c36f5261a9a4f51a ceph: fix fscache invalidation
+1cf7fdf52d5a7b39d278197d07e6d252684ea7a6 ceph: convert readpage to fscache read helper
+d7e7695d7aebd201cd7122b123a36c7cd16bdb02 ceph: plug write_begin into read helper
+234cdf8d3e1b6a393d9c551396d7acfd1bbb22d0 ceph: convert ceph_readpages to ceph_readahead
 
---===============1303925188974036122==--
+--===============4503568318393375877==--
