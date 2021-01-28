@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Thu, 28 Jan 2021 04:03:25 -0000
-Message-Id: <161180660584.8157.14738771484183938657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Thu, 28 Jan 2021 04:10:47 -0000
+Message-Id: <161180704716.14307.6067364308817284886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: 28f5bc71416b2e27e470327995a202d04e917e3f
-    new: 044dfb7699a3fdef154890bf1e57d09b9822de66
+  - ref: refs/heads/drivers-for-5.12
+    old: 43eb76a2e56b94541293fc8192d6edf1d0ec8965
+    new: aec8535edccb943adc067d184af1a3370f5b9568
     log: |
-         044dfb7699a3fdef154890bf1e57d09b9822de66 Minor doc fixes for the "cap" module.
+         e161ce8e4cc12f2c681b13a160f709d84dee4d4f soc: qcom: aoss: Add SM8350 compatible
+         aec8535edccb943adc067d184af1a3370f5b9568 soc: qcom: socinfo: Remove unwanted le32_to_cpu()
          
