@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 28 Jan 2021 19:24:08 -0000
-Message-Id: <161186184851.16087.11989264338930833085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 28 Jan 2021 19:25:07 -0000
+Message-Id: <161186190773.17762.14352925028157389446@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: f8e9a970159c7bd30429b86710397e9914fefbca
-    new: 2614488d1f3cd5989375042286b11424208e20c8
+  - ref: refs/heads/ceph-fscrypt
+    old: 5ea6672aec340a8a043bb912f88f0b0b70d9a735
+    new: d8269ccef28fb2faeeae1447abaeebed6eca458c
     log: |
-         0e0ab04b5bbe84b58097d6dabb3b01b93ce2bf77 RDMA/hns: Refactor the MTR creation flow
-         4e9fc1dae2a96e7df9b923c6de76527da9c18dda RDMA/hns: Optimize the MR registration process
-         dc504774408b8ee6ce4967fbacb8b0d56588dc71 RDMA/hns: Use new interface to set MPT related fields
-         96667052149da3855c4361925324b690c687152f tools/testing/scatterlist: Fix overflow of max segment size
-         2614488d1f3cd5989375042286b11424208e20c8 RDMA/mlx5: Allow creating all QPs even when non RDMA profile is used
+         b36ce87f2689d4a768f343444fe14ef5b5a2fe8e ceph: add support to readdir for encrypted filenames
+         0386a6b0a975920ede981ba812725bc297851d50 ceph: properly set DCACHE_NOKEY_NAME flag in lookup
+         b175f431f2903c1ef3a13be160ad305b92d9f817 ceph: add fscrypt support to ceph_fill_trace
+         565444bd9694693a352d82af12aaaeebfefc4bb9 ceph: make d_revalidate call fscrypt revalidator for encrypted dentries
+         47ad7ad376ba568fe553ff8e1613a689118f9180 ceph: create symlinks with encrypted and base64-encoded targets
+         0812f6b4ae097360a3aef476bf7b7efbfd0d4e6a ceph: only check pool permissions for regular files
+         d8269ccef28fb2faeeae1447abaeebed6eca458c ceph: add fscrypt ioctls
          
