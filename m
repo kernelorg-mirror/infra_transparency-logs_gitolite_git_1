@@ -1,50 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5368895060068193998=="
+Content-Type: multipart/mixed; boundary="===============5690727913903361013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 28 Jan 2021 20:51:20 -0000
-Message-Id: <161186708006.6047.13433515142020563275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 28 Jan 2021 20:54:40 -0000
+Message-Id: <161186728032.7098.15817674596001212534@gitolite.kernel.org>
 
---===============5368895060068193998==
+--===============5690727913903361013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.11
-    old: 14a71d509ac809dcf56d7e3ca376b15d17bd0ddd
-    new: 64f09ea1b551189f491ffb626fdccc2c31fe2d70
+  - ref: refs/heads/for-linus
+    old: b3e44a67efa741eb4ecbbfaabd173342bc0373c6
+    new: e5cfc3a15bc7ef0539898b78f91bd93e9eaedeac
     log: |
-         64f09ea1b551189f491ffb626fdccc2c31fe2d70 regulator: pf8x00: Fix typo for PF8200 chip name
+         6c28377b7114d04cf82eedffe9dcc8fa66ecec48 ASoC: qcom: lpass-cpu: Remove bit clock state check
+         0084364d9678e9d722ee620ed916f2f9954abdbf ASoC: SOF: Intel: hda: cancel D0i3 work during runtime suspend
+         e5cfc3a15bc7ef0539898b78f91bd93e9eaedeac Merge remote-tracking branch 'asoc/for-5.11' into asoc-linus
          
+  - ref: refs/heads/for-next
+    old: eeb4efe8ccf3b3ef4120294fed2a02f9c1586050
+    new: 23d9d664fa7e215796a4a4d134dbef182e134eb4
+    log: revlist-eeb4efe8ccf3-23d9d664fa7e.txt
 
---===============5368895060068193998==
+--===============5690727913903361013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-eeb4efe8ccf3-23d9d664fa7e.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1611867036 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1611867077-de821ea1ed8250445d15e9fff65946b89e615b9c
+6c28377b7114d04cf82eedffe9dcc8fa66ecec48 ASoC: qcom: lpass-cpu: Remove bit clock state check
+0084364d9678e9d722ee620ed916f2f9954abdbf ASoC: SOF: Intel: hda: cancel D0i3 work during runtime suspend
+f6c246eacb62977dea5c9c65ac6fb4921cad5bcd ASoC: SOF: Intel: hda: use snd_sof_dsp_core_power_up/down API
+cedd502d18b5b7a913fa13fa18a037cc51b1798d ASoC: SOF: Intel: hda-loader: keep init cores alive
+42077f08b3f1ba891dca1f8f479810f16b7d6cbd ASoC: SOF: update dsp core power status in common APIs
+30876e2a06f35b525dc71f94dfc3c6f329e55a28 ASoC: SOF: Filter out unneeded core power up/downs
+92c6ec606cd12c16091b70442da536bdeddb1f7f ASoC: SOF: intel: hda-loader: use snd_sof_dsp_core_power_down/up APIs
+1fc96dc29c3ba342915c3a935c9d177f8f420d03 ASoC: Intel: remove duplicate MODULE_LICENSE/DESCRIPTION tags
+2029d73d4d656068695197bf72f324af2419ed64 Merge series "ASoC: SOF: use common code for DSP core pm" from Kai Vehmanen <kai.vehmanen@linux.intel.com>:
+e5cfc3a15bc7ef0539898b78f91bd93e9eaedeac Merge remote-tracking branch 'asoc/for-5.11' into asoc-linus
+23d9d664fa7e215796a4a4d134dbef182e134eb4 Merge remote-tracking branch 'asoc/for-5.12' into asoc-next
 
-14a71d509ac809dcf56d7e3ca376b15d17bd0ddd 64f09ea1b551189f491ffb626fdccc2c31fe2d70 refs/heads/regulator-5.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmATI5wACgkQJNaLcl1U
-h9BBrAf+NdERAVUNoWjbMzQNqhPilw5ZSmMLNiOsKCkdVsfhIhAHwqD5H3dJ+5jV
-wn0Tkk1C0Jvkbmp4MYosflPSkINjeGitcbZDJm5nAxAA+Ar7XKC/IG8D918t0AgE
-mn3j733ipcA/CtP31IV5ZKpCTNgu1m/0xpiIvOrSHMPbKWmRotMcstS8Lxd9qRMl
-qkpFVhSlq8PLsbf+LI2mtRPpCxNA18Vo3aIq3x/M+QKWbdxhk2kl56NQjC70LnDR
-2snTnCMmoVc5mq3eWC2PD3RSUcJwLsR48CWiU2cGzEgxb17Cr2r8S5k+V644QMlX
-jKqvrdoEcrTX6DkFrnjLV8hApG2zQw==
-=IsEH
------END PGP SIGNATURE-----
-
---===============5368895060068193998==--
+--===============5690727913903361013==--
