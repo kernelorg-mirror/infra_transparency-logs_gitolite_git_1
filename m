@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Thu, 28 Jan 2021 19:36:27 -0000
-Message-Id: <161186258769.24144.7597431260412461106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 28 Jan 2021 19:40:16 -0000
+Message-Id: <161186281635.27950.7673705946707151867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: 0000000000000000000000000000000000000000
-    new: 21f988a975f1c47aac1f52da4f955ac2af59980e
+  - ref: refs/heads/master
+    old: fda4734a1bf76348f8cc888eaa86b0878558bd3a
+    new: a04b61ec777b3583f387ae42f9c01ec0ab21e432
+    log: |
+         a04b61ec777b3583f387ae42f9c01ec0ab21e432 netdev: preserve cur_rssi_low across reassociation
+         
