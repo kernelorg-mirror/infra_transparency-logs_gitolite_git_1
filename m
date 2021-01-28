@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6786548987334137000=="
+Content-Type: multipart/mixed; boundary="===============5661202832135500816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 28 Jan 2021 02:16:34 -0000
-Message-Id: <161180019424.7760.3367355779494259947@gitolite.kernel.org>
+Date: Thu, 28 Jan 2021 02:16:43 -0000
+Message-Id: <161180020347.7895.1940236439309313862@gitolite.kernel.org>
 
---===============6786548987334137000==
+--===============5661202832135500816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 07d46d93c9acdfe0614071d73c415dd5f745cc6e
-    new: 0f764eec3ea23b7b2c64fb54c9a219553921e93a
-    log: revlist-07d46d93c9ac-0f764eec3ea2.txt
+  - ref: refs/heads/dev-queue
+    old: 1f731baeaa5e8fa28a9dcf39d5673e014d724d2a
+    new: 140a07c0ab71c50cb9acdea7e50bf96307056b96
+    log: revlist-1f731baeaa5e-140a07c0ab71.txt
 
---===============6786548987334137000==
+--===============5661202832135500816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07d46d93c9ac-0f764eec3ea2.txt
+Content-Disposition: attachment; filename=revlist-1f731baeaa5e-140a07c0ab71.txt
 
 b7c568752ef3b36afa78e1a1866dc049d175993b mt76: Fix queue ID variable types after mcu queue split
 a6616bc9a0af7c65c0b0856a7508870a4a40c4ac iwlwifi: dbg: Don't touch the tlv data
@@ -79,5 +79,32 @@ b552766c872f5b0d90323b24e4c9e8fa67486dd5 can: dev: prevent potential information
 b770753c7b08f1f6008d0d364180fc123f7b25e2 MAINTAINERS: add missing header for bonding
 45a81464819aa5ada8930157eca028d3fd197994 Merge tag 'linux-can-fixes-for-5.11-20210127' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 0f764eec3ea23b7b2c64fb54c9a219553921e93a Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
+2d4d4a586b5dbd091542022eeed1b386d6d4580a checkpatch: Fix warnings when --no-tree is used
+40887db946f302052699da3cc368cb646b3bf680 igb: re-assign hw address pointer on reset after PCI error
+80508fdded858380247cedac85b96c0604f5ce7d checkpatch.pl: seed camelcase from the provided kernel tree root
+a89a64366596b0d69e17e9e9363c868f035b85ed i40e/iavf: use better trace path
+68dfe55123cc4cb52ad8afa0509ea776231acd38 ice: Fix a couple off by one bugs
+7d0686b2e11cf57c56042839723e2ccef0a49684 ice: report correct max number of TCs
+e8f802353b84ce3a0f79ad516ba26091062fc3a9 i40e: Fix flow for IPv6 next header (extension header)
+4d7aa037983f7c84dccfc43ca0b1009fd3aff3d4 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+ff7137b2646efc3cbedb1df4448d400237996c6f igb: XDP xmit back fix error code
+7d10a16f6d31fb920808822740b2b5f236705dfd ice: update the number of available RSS queues
+fc5c690593e5b3df9184991507a5c0c320f906af ice: use correct xdp_ring with XDP_TX action
+ee2bcb7c93290a16cef75ea3fbf2ec3396d49821 ice: Fix state bits on LLDP mode switch
+6a2a43e058509eda0151607ac877c4de792dc0ab i40e: Add zero-initialization of AQ command structures
+007e5f8ad0bb975c0db9b566877e4c9d835a2ac6 i40e: Fix overwriting flow control settings during driver loading
+17b2b163bf4e37819c1e0c3cc08fd192cd438165 i40e: Fix VFs not created
+950851ca0dc7348eaf527af8cbcb03a39c829085 i40e: Fix addition of RX filters after enabling FW LLDP agent
+2482c9213ed7fb0f4d0c84fbf5ed57ba0fabe972 igc: set the default return value to -IGC_ERR_NVM in igc_write_nvm_srwr
+803ada19a9ea09fb9a3efd589de745dee2dd4838 igb: Enable RSS for Intel I211 Ethernet Controller
+e585594004af4e34d24dfdceda8347cb69b50e30 i40e: Fix add tc filter for IPv6
+5deeaaf4ffbb0e71a68963a1d5ca3c72ea2a38fd i40e: Fix setting PF MAC filters when changing MAC address
+d2bf2e0a695c03c4a80109e5f22027c932f0fb66 igc: check return value of ret_val in igc_config_fc_after_link_up
+5d07f18b3df84be262fdc79800b5d4899655e661 ixgbe: Fix memleak in ixgbe_configure_clsu32
+10e958f3d473686721713d35cd1a3bef23e9f983 igb: avoid premature Rx buffer reuse
+926c43bed8954c373e5f79c7869a56a51c5d83b6 iavf: Fix asynchronous tasks during driver remove
+39f92d5f84396147c81e91e4c16a72875695bed1 i40e: Fix correct max_pkt_size on VF RX queue
+4c3eea7a96f94a8c4295e895e2cdab9c96f649f0 ixgbe: add NULL pointer check before calling xdp_rxq_info_reg
+140a07c0ab71c50cb9acdea7e50bf96307056b96 i40e: Revert "i40e: don't report link up for a VF who hasn't enabled queues"
 
---===============6786548987334137000==--
+--===============5661202832135500816==--
