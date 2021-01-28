@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 28 Jan 2021 01:56:42 -0000
-Message-Id: <161179900257.26885.15748505108703968755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 28 Jan 2021 01:59:19 -0000
+Message-Id: <161179915944.27790.7395131539901664669@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/hwmon-next
-    old: cbfc6c6177f9208762c7c4acec394214b1e8be0c
-    new: 906ace80c2849d6ef114cfdb98178bd667f16aed
+  - ref: refs/heads/master
+    old: 45a81464819aa5ada8930157eca028d3fd197994
+    new: 0f764eec3ea23b7b2c64fb54c9a219553921e93a
     log: |
-         906ace80c2849d6ef114cfdb98178bd667f16aed hwmon: (pmbus) Simplify the calculation of variables
-         
-  - ref: refs/heads/watchdog-next
-    old: 4c879cf1b5c3935cf19b6aed759f6dbe2b6ac924
-    new: 076c67fa41683737fa7765763e706bd706a990c3
-    log: |
-         076c67fa41683737fa7765763e706bd706a990c3 watchdog: qcom: Remove incorrect usage of QCOM_WDT_ENABLE_IRQ
+         fca05d4d61e65fa573a3768f9019a42143c03349 netfilter: nft_dynset: honor stateful expressions in set definition
+         0c5b7a501e7400869ee905b4f7af3d6717802bcb netfilter: nft_dynset: add timeout extension to template
+         ce5379963b2884e9d23bea0c5674a7251414c84b netfilter: nft_dynset: dump expressions when set definition contains no expressions
+         0f764eec3ea23b7b2c64fb54c9a219553921e93a Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
          
