@@ -1,46 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6623329850537640035=="
+Content-Type: multipart/mixed; boundary="===============6431394253680025947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 28 Jan 2021 02:18:14 -0000
-Message-Id: <161180029461.8477.10425397678036293519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
+Date: Thu, 28 Jan 2021 02:18:44 -0000
+Message-Id: <161180032401.8709.4585115016087771756@gitolite.kernel.org>
 
---===============6623329850537640035==
+--===============6431394253680025947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/andrea/aa
+user: andrea
 changes:
-  - ref: refs/heads/dev-queue
-    old: 140a07c0ab71c50cb9acdea7e50bf96307056b96
-    new: e8bed198762fd85717097a41f40f6ff84778b3db
-    log: revlist-140a07c0ab71-e8bed198762f.txt
+  - ref: refs/heads/mapcount_deshare
+    old: 767712479209bd684aeaf45ad96750be2889c95d
+    new: 0025709ac43735774ac3d993429367a7858a6588
+    log: revlist-767712479209-0025709ac437.txt
 
---===============6623329850537640035==
+--===============6431394253680025947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-140a07c0ab71-e8bed198762f.txt
+Content-Disposition: attachment; filename=revlist-767712479209-0025709ac437.txt
 
-615bd4fe7296c2d359e28448d2f8cb8f66c66191 ice: Fix state bits on LLDP mode switch
-00f00a795b3dcf5cf704074c7fb9d91a6b1497f1 i40e: Add zero-initialization of AQ command structures
-938aa1c96cb282950382ef8738e7d6facedbb30a i40e: Fix overwriting flow control settings during driver loading
-1f768907b8e62c7bae5eac6ef09554788c777980 i40e: Fix VFs not created
-3e85a20efabb0229405592044cd8d70317dee1a7 i40e: Fix addition of RX filters after enabling FW LLDP agent
-e2e1a24d89ebbeec18307ace3f990c270a41b497 igc: set the default return value to -IGC_ERR_NVM in igc_write_nvm_srwr
-e51317f25bc8745593d1a06e1e241a55c4d30513 igb: Enable RSS for Intel I211 Ethernet Controller
-c43a78527ebd2238400b418a8b7ad9645f0bd3c9 i40e: Fix add tc filter for IPv6
-51f09475f17f8d72f09c9867dc24f4985ac3fc5e i40e: Fix setting PF MAC filters when changing MAC address
-286519cb38120c94093e5a9c08af13e0502ae609 igc: check return value of ret_val in igc_config_fc_after_link_up
-501e9440f912b2c3de129ae1a6d81cffbfcbe22a ixgbe: Fix memleak in ixgbe_configure_clsu32
-18414e79047d5b2eaf40cecafe284f1924669252 igb: avoid premature Rx buffer reuse
-53bb3e65f6270e08116d1d21556b505285e0814e iavf: Fix asynchronous tasks during driver remove
-25d9c11adc574fa3dfbebf1f7c2938358e205568 i40e: Fix correct max_pkt_size on VF RX queue
-33987572b69b57c3f81a0411bc35c5783c0e64ef ixgbe: add NULL pointer check before calling xdp_rxq_info_reg
-e8bed198762fd85717097a41f40f6ff84778b3db i40e: Revert "i40e: don't report link up for a VF who hasn't enabled queues"
+0aa91f84b1804b59841c834128b2c15330a1ec59 parisc: Remove leftover reference to the power_tasklet
+00e35f2b0e8acb88d4e1aa96ff0490e3bfe46580 parisc: Enable -mlong-calls gcc option by default when !CONFIG_MODULES
+76c057c84d286140c6c416c3b4ba832cd1d8984e Merge branch 'parisc-5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+bfb9751f483d7eb779842ef8adc76d7e2da5bfbe mm: thp: make the THP mapcount atomic with a seqlock
+085b9950d6308ff55b39e2667d85688cdab69e35 mm: thp: replace the page lock with the seqlock for the THP mapcount
+c67d6fa966dc6707307746fb98cee3a1348ad7b6 mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
+6cf94344b898ab4b1c11c627f7024ae5f1f56b67 mm: thp: introduce page_trans_huge_anon_shared
+acffcf126a3da25a6bc788197eda67409692437d mm: thp: introduce page_mapcount_seq irqsafe version
+2e977efde90cc37b137ed16e77d0442102b0157f mm: thp: introduce irqsafe methods to check if anonymous pages are shared
+3808d89769f5d1e0cb724a2429eb436451742111 mm: gup: COR: copy-on-read fault
+49c01591ca5e6f1726292348238951c82b4df33a mm: gup: gup_page_unshare()
+9897fe1da7ad157acb3b15ff0595eeea6e7b0454 mm: gup: FOLL_UNSHARE
+4d892b90d472d8c710029a86a27db681a778201c mm: gup: FOLL_UNSHARE: optimize mmu notifier
+b54ae4697bc963557023e81a514cf88e11ff7839 mm: COW: restore full accuracy in page reuse
+255df1bd61d4f5b43fee329f50f46f200ef2d4f2 mm: COW: skip the page lock in the COW copy path
+228b609f1a416065ad838e58ced8bfec07edd067 mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
+4113827c9e2c8c712632fc96e21f85c27b4dfe83 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
+5ad17061f88b274c9b32b772de1206a8044cff58 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
+26b848396c651dde20b0246fbbd3c8035cded9e1 mm: gup: document FOLL_MM_SYNC
+3bee2a670bab50e36c8cc9c5518d3c5b5365251a mm: gup: allow FOLL_PIN to scale in SMP
+3c6e2e6dedea8ec19a22e3ed9710181b635233f8 mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
+dec19de111b098e144b950a5ce60c11b244f0dd7 mm: gup: pack has_pinned in MMF_HAS_PINNED
+4dd65a50230e5694de2c8aca1ca3e6fe9d9d2dfa mm: thp: page_mapcount_lock: optimize the migrate path
+e421283fe38d7f671a728672b1ac735f7554360c mm: thp: page_mapcount_lock: optimize the lock_page_memcg
+3796e4f411716039bd4991a81748f6a45b22cff4 mm: thp: optimize total_mapcount() with head_compound_mapcount
+366ae3c32504b514e11ad49ad84305b8522172a0 mm: thp: replace !total_mapcount() with page_mapped()
+40e9c09f42b339f87a3af6e254a03873c7655b5e mm: thp: cleanup and optimize compound_nr
+0025709ac43735774ac3d993429367a7858a6588 Merge remote-tracking branch 'korg/mapcount_deshare' into HEAD
 
---===============6623329850537640035==--
+--===============6431394253680025947==--
