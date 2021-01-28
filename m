@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 28 Jan 2021 07:48:15 -0000
-Message-Id: <161182009580.17409.8445113338895357339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
+Date: Thu, 28 Jan 2021 08:06:52 -0000
+Message-Id: <161182121290.27833.1674226704476891762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/tmlind/linux-omap
+user: tmlind
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: 49cbe7ac77dc32580d9afebbe26e839df9357ba4
-    new: 46e877258bd2779efb186eaf944263ea6a981ab9
-    log: |
-         46e877258bd2779efb186eaf944263ea6a981ab9 opp: Allow lazy-linking of required-opps
-         
+  - ref: refs/tags/omap-for-v5.12/soc-signed
+    old: 0000000000000000000000000000000000000000
+    new: 79345935378e72c829d6dee61854e9b70f79d5f6
