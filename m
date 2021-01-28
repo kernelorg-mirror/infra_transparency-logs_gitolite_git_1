@@ -1,78 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============4731631908004940385=="
+Content-Type: multipart/mixed; boundary="===============5232508898030892357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 28 Jan 2021 12:46:04 -0000
-Message-Id: <161183796450.22103.8561580665756229370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 28 Jan 2021 12:46:13 -0000
+Message-Id: <161183797382.22235.13210672106584426429@gitolite.kernel.org>
 
---===============4731631908004940385==
+--===============5232508898030892357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 0fc99422bc034de018607ef6b70f92d4bc4a236d
-    new: 296c6264d4b19554dc8367e3f409bd248f504c2d
-    log: revlist-0fc99422bc03-296c6264d4b1.txt
+  - ref: refs/heads/driver-core-next
+    old: 4104ca776ba38d81bd6610256d3b0d7e6a058067
+    new: 4731210c09f5977300f439b6c56ba220c65b2348
+    log: |
+         4044b2fcfb2048a256529ecbd869b43713982006 drivers: base: change 'driver_create_groups' to 'driver_add_groups' in printk
+         6091b08eda85a4da6d548d6de4b650bffae0d61c drivers: base: power: Fix resposible -> responsible in runtime.c
+         38009c766725a9877ea8866fc813a5460011817f drivers/base: build kunit tests without structleak plugin
+         4731210c09f5977300f439b6c56ba220c65b2348 gpiolib: Bind gpio_device to a driver to enable fw_devlink=on by default
+         
 
---===============4731631908004940385==
+--===============5232508898030892357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611837955 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1611837955-4aec3bc05df59943779adeeeed2daadec0d110e5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1611837965 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1611837965-299813aad78385f8dbdd204de6be0db799f3401d
 
-0fc99422bc034de018607ef6b70f92d4bc4a236d 296c6264d4b19554dc8367e3f409bd248f504c2d refs/heads/char-misc-next
+4104ca776ba38d81bd6610256d3b0d7e6a058067 4731210c09f5977300f439b6c56ba220c65b2348 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmASsgMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/3YP/2KqXihTWMjMR5n5VD15
-gDHgbf8jBkcceJUAZ8euNcW2ljPYVwa9eDUZDvFEsCMOIQlZpcihUD2FRYsm65//
-Q89Pzqz0N9G9hZYwgQwGNPXH1gOBc0eAnIE4ebCUBJBAK7VWC0iz6yVuf32ajL81
-zZM2lnsiml9oomfuwreJr8oj7KDS+NSyoLnLgFIfqh1vDSIzPkHDNjh9cAo2q1Ba
-qSjC30/QOJszAAf9/TCNTc3wUUBR7V1vSfYkjfZiGqTgwXsiJpNczu91sMXUDe4F
-9JdOD/heqghbb9zGaTQUo+DGBWyRBhb5Vz+RytXw57clRJuJ2e7MpgHempcreUtC
-/OhIymJSwo9zjBawjGRmzJxOw8S85OgLvXG6k0gj+AHQyb4Aidy41AECp07P5Hx7
-07mY9TEWn1g57HDY4o1ac3fe8cezxWroALIe0qGxzjuTQuklt91KJErDVLq+mcph
-mDQ7lJflBMwCHsXCTqOiULa7awAIDZxI09kHkueRAuyT6hGOxfdHnCaGfFsYu/Bq
-RPJ8/XY0opIppp+sE3eTQlK+dlJG0MM7Y73bVrJBQIt/myAwCfS3ww1eL9snVQNJ
-YraWdRfTI1Ix99KsbkdjRmZztKCw/+CjcPUkRKZSORhHjnjdPVot6gY4cvarJWVH
-KqNIrHfl2E8mxKQFhsD7AFod
-=OIx4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmASsg0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S/MP/3n1+GeX2O/4mUT+/XY7
+75aKJoD6HuLFEuacTC8pPrweos7cXUt9+dSBtRl2ob62E3DtzKpPCeqj2ODKzSg8
+wLqOL59RzxM/WD63RXKglHbM4PRpAsW15TMCXaVnZ+MrvP6goZZ+wCF82BICZonj
+o9OR/k5Rk1RvtDywGEJelR1Pps3b5LIOex1WTydfJAh3tUArYzq79CvUjb7ko18S
+U0TLJygdKCYLqogKM5I10+PEKz6IFCNVNVKNtRMKhL5mgA0LTFbZyGv79hoCVnoy
+yqx8em/2jALDSj7dNxmbawu+hN2IUQqZNdekmu3M7jJxXxyCxT3+K98JiSvGpNgC
+azD6RW3sut+NODhUSkI7ZeM6MeD6UKhKy8BoRH1eYi6J8gbfJvc++JkcpLNI3sGJ
+KbcSOsl+RAUZpaSZPhsjLiecgS44ZLE0LFRYKsfT2wryuBFkbT6aR9hFYkK6LFtB
+VeLbNAkcSg0HIfvwdBXMg1Pf6LTC5WQ+OYyCdDxXm4N9HJbiS4qEIYVugWS5JHQj
+v2sXdpycQzo+VTCaXkinwPtJzQ1yq3NjdCvJ2lGOc7/32zug3OISh8fGpHX8swBj
+5/p9XIoC3LjojL/A4rD4lTIpDeWo2uSXXXv1MLUPo15BJd+2mpWcJeWhjWBkIaNk
+gEDnSeAsr8Egu8nJborP4vh0
+=nv85
 -----END PGP SIGNATURE-----
 
---===============4731631908004940385==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fc99422bc03-296c6264d4b1.txt
-
-1941ab1d25e098e99df18b9041667e99858fd449 speakup: add the missing synth parameter to all io functions
-4f2a81f3a88217e7340b2cab5c0a5ebd0112514c speakup: Reference synth from tty and tty from synth
-117422521e6c212d32ed7b5d3561cc1e936f8669 speakup: Simplify spk_ttyio_out error handling.
-cae2181b498fe52885022772465a7610fd7701f4 speakup: Add documentation on changing the speakup messages language
-8ba59e9dee31246fc34b4d4bec032093e9c06510 misc: pti: Remove driver for deprecated platform
-487709fa1be2f27aa8e7de6c60587b4302a21467 misc: pvpanic: introduce device capability
-8d6da6575ffec171161d36a06c015142b0049637 misc: pvpanic: introduce events device attribue
-c35901b39ddc20077f4ae7b9f7bf344487f62212 virt: vbox: Do not use wait_event_interruptible when called from kernel context
-d0259c42abff51b586496a0594933e394efefbc5 spdxcheck.py: Use Python 3
-afe9017901761d04a106916e02619caf0d2afbf5 ver_linux: Eliminate duplicate code in ldconfig processing logic
-2c104a469a4ce276117acda94ccf922c3b82d735 platform/goldfish: Convert pipe tasklet to threaded irq
-2f6055c26f1913763eabc66c7c27d0693561e966 w1: w1_therm: Fix conversion result for negative temperatures
-8544717cdacc2f33f0f53a3b34c5125b37e13ce9 bus: fsl-mc: move fsl_mc_command struct in a uapi header
-46707989269a251e5e4ca295975525605bc8afef bus: fsl-mc: export mc_cmd_hdr_read_cmdid() to the fsl-mc bus
-2cf1e703f066cfa82eb5a358ae84c29fe15a3b3a bus: fsl-mc: add fsl-mc userspace support
-3f6099438181d269d56f9d4040d93ffae65f9e4c bus: fsl-mc: add bus rescan attribute
-296c6264d4b19554dc8367e3f409bd248f504c2d bus: fsl-mc: add autorescan sysfs
-
---===============4731631908004940385==--
+--===============5232508898030892357==--
