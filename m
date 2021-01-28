@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Thu, 28 Jan 2021 20:17:45 -0000
-Message-Id: <161186506548.17476.16236883416227964995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Thu, 28 Jan 2021 20:30:46 -0000
+Message-Id: <161186584641.25106.2442146479565644260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: c75cdeb4ce8cbdac77e0c47097d7a6fdef9701b3
-    new: db6bce7c06f049d567f10c27113bab84471b5a56
+  - ref: refs/heads/for-next
+    old: 21f988a975f1c47aac1f52da4f955ac2af59980e
+    new: d08a31bbb0f23230b04168b1d8e2643723c4ca9f
     log: |
-         ff822ed193073722548e8e4b707053ab90f5929c man-pages.7: tfix
-         1af219093e19135e5ee4b67919a4f05b7f23ff8b netdevice.7: Update documentation for SIOCGIFADDR SIOCSIFADDR SIOCDIFADDR
-         db6bce7c06f049d567f10c27113bab84471b5a56 netdevice.7: wfix
+         d08a31bbb0f23230b04168b1d8e2643723c4ca9f parisc: Optimize per-pagetable spinlocks
          
