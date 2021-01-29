@@ -1,46 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3117764270592070571=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Fri, 29 Jan 2021 16:20:20 -0000
-Message-Id: <161193722057.20396.10849744490730642333@gitolite.kernel.org>
-
---===============3117764270592070571==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 29 Jan 2021 16:23:24 -0000
+Message-Id: <161193740471.21293.13551599663049507939@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 10296adad8f41c5f55c25041b59fb50121fa686f
-    new: 445a90fbc139c0d4bafc6b0b0bc4b0ff370a93b4
+  - ref: refs/heads/pm
+    old: 56c91a18432b631ca18438841fd1831ef756cabf
+    new: fef9c8d28e28a808274a18fbd8cc2685817fd62a
     log: |
-         445a90fbc139c0d4bafc6b0b0bc4b0ff370a93b4 Add 224FA7E7CC82A664 (Vlastimil Babka)
+         fef9c8d28e28a808274a18fbd8cc2685817fd62a PM: hibernate: flush swap writer after marking
          
-
---===============3117764270592070571==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1611937219 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1611937219-c8eaa1945b2032a4ed6b4f272905ae5b03001d79
-
-10296adad8f41c5f55c25041b59fb50121fa686f 445a90fbc139c0d4bafc6b0b0bc4b0ff370a93b4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYBQ1wwAKCRC2xBzjVmSZ
-bMrWAP41vc4KZ5l/WK5c2HEXMuXk/15pPdtv5Wtb/OscT/s4FQD+IXFx8pASqi6r
-MiZC2pVaE2yJ0DyY3xTO3EiteAlZ9AY=
-=9aYC
------END PGP SIGNATURE-----
-
---===============3117764270592070571==--
+  - ref: refs/tags/pm-5.11-rc6
+    old: bf6e32f37379b1d5e8140f6259119d5996e52d15
+    new: 4601f3e6db14ffca42fb119591de6fa3e87c7dee
+    log: |
+         fef9c8d28e28a808274a18fbd8cc2685817fd62a PM: hibernate: flush swap writer after marking
+         
