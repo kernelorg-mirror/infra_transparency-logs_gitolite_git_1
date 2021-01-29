@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7802823334246011449=="
+Content-Type: multipart/mixed; boundary="===============7150699375521456178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 29 Jan 2021 03:34:33 -0000
-Message-Id: <161189127370.2528.9513416914253619455@gitolite.kernel.org>
+Date: Fri, 29 Jan 2021 03:34:39 -0000
+Message-Id: <161189127940.2623.3867223689390335628@gitolite.kernel.org>
 
---===============7802823334246011449==
+--===============7150699375521456178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 1ce889cdbbda6414b592a660e21862109716260f
-    new: 91957043e138dd9a52328e2cf01c5bdc7b6ed9f9
-    log: revlist-1ce889cdbbda-91957043e138.txt
+  - ref: refs/heads/net-rc
+    old: 6bd72ec0d500557d3d6520c3f77b9e5f5b3ac51a
+    new: c620d6b0f473ce57db99950f9e42176d3c4025f0
+    log: revlist-6bd72ec0d500-c620d6b0f473.txt
 
---===============7802823334246011449==
+--===============7150699375521456178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ce889cdbbda-91957043e138.txt
+Content-Disposition: attachment; filename=revlist-6bd72ec0d500-c620d6b0f473.txt
 
 06fde695ee76429634c1e8c8c1154035aa61191e genirq/msi: Initialize msi_alloc_info before calling msi_domain_prepare_irqs()
 e90f55e0196a66f8e9e445f7f33f876dd889be9a irqchip/irq-sl28cpld: Convert comma to semicolon
@@ -93,7 +93,6 @@ ca1219c0a7432272324660fc9f61a9940f90c50b mmc: sdhci-of-dwcmshc: fix rpmb access
 1a3ed0dc3594d99ff341ec63865a40519ea24b8d mmc: sdhci-xenon: fix 1.8v regulator stabilization
 7024f60d655272bd2ca1d3a4c9e0a63319b1eea1 x86/sev-es: Handle string port IO to kernel memory properly
 27b7c6e096264cc7b91bb80a4f65f8c0a66f079f i2c: tegra: Wait for config load atomically while in ISR
-5541075a348b6ca6ac668653f7d2c423ae8e00b6 bpf: Prevent double bpf_prog_put call from bpf_tracing_prog_attach
 76e2fc63ca40977af893b724b00cc2f8e9ce47a4 x86/cpu/amd: Set __max_die_per_package on AMD
 a9d4ef643430d638de1910377f50e0d492d85a43 habanalabs: fix dma_addr passed to dma_mmap_coherent
 aa6df6533b8f9ead98889baa92e2b19793b1c77e habanalabs: fix reset process in case of failures
@@ -102,23 +101,17 @@ aa6df6533b8f9ead98889baa92e2b19793b1c77e habanalabs: fix reset process in case o
 14ff8e1970c03831bf64cf098f56e6ba83349170 btrfs: no need to run delayed refs after commit_fs_roots during commit
 518837e65068c385dddc0a87b3e577c8be7c13b1 btrfs: send: fix invalid clone operations when cloning from the same file and root
 2eda61a850d45d421efcaaa06b64c06ee273d82e Merge tag 'usb-v5.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
-1a9c72ad4c26821e215a396167c14959cf24a7f1 bpf: Local storage helpers should check nullness of owner ptr passed
-84d571d46c7046a957ff3d1c916a1b9dcc7f1ce8 bpf: Fix typo in bpf_inode_storage.c
-2f94ac19184665263b7a285ae88abe19dedf9c1b bpf: Update local storage test to check handling of null ptrs
 5f8e084026543bc06eb9b2a623de55bb4ab3e60e Merge tag 'thunderbolt-for-v5.11-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 280a9045bb18833db921b316a5527d2b565e9f2e ehci: fix EHCI host controller initialization sequence
 643a4df7fe3f6831d14536fd692be85f92670a52 USB: ehci: fix an interrupt calltrace error
 4e0dcf62ab4cf917d0cbe751b8bf229a065248d4 usb: gadget: aspeed: fix stop dma register setting.
 895bee270863588fe3d46dca86cd15d461f47a7a Revert "driver core: Reorder devices on successful probe"
-4be34f3d0731b38a1b24566b37fbb39500aaf3a2 bpf: Don't leak memory in bpf getsockopt when optlen == 0
 9caa7ff509add50959a793b811cc7c9339e281cd x86/entry: Fix noinstr fail
 a1d5c98aac33a5a0004ecf88905dcc261c52f988 x86/sev: Fix nonistr violation
 0afda3a888dccf12557b41ef42eee942327d122b locking/lockdep: Cure noinstr fail
 77ca93a6b1223e210e58e1000c09d8d420403c94 locking/lockdep: Avoid noinstr warning for DEBUG_LOCKDEP
 737495361d4469477ffe45d51e6fc56f44f3cc6a x86/mce: Remove explicit/superfluous tracing
 66a425011c61e71560c234492d204e83cfb73d1d x86: __always_inline __{rd,wr}msr()
-bcc5e6162d66d44f7929f30fce032f95855fc8b4 bpf: Allow empty module BTFs
-b8d52264df85ec12f370c0a8b28d0ac59a05877a libbpf: Allow loading empty BTFs
 aba428a0c612bb259891307da12e22efd0fab14c timekeeping: Remove unused get_seconds()
 e3fab2f3de081e98c50b7b4ace1b040161d95310 ntp: Fix RTC synchronization on 32-bit platforms
 4bae052dde14c5538eca39592777b1d1987234ba Merge tag 'irqchip-fixes-5.11-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
@@ -142,9 +135,6 @@ cea06d9bf0e035a549226e217022fa51b0c878e5 Merge v5.11-rc3
 e4ea77f8e53f9accb9371fba34c189d0447ecce0 ALSA: usb-audio: Always apply the hw constraints for implicit fb sync
 a2e38dffcd93541914aba52b30c6a52acca35201 objtool: Don't add empty symbols to the rbtree
 e6dc077b7dffdc01d9c45a5a1f4caf1e51c756a3 soc: litex: Fix compile warning when device tree is not configured
-7ac6ad051150592557520b45773201b987ecfce3 bpf: Reject too big ctx_size_in for raw_tp test run
-744ea4e3885eccb6d332a06fae9eb7420a622c0f bpf: Support PTR_TO_MEM{,_OR_NULL} register spilling
-4237e9f4a96228ccc8a7abe5e4b30834323cd353 selftests/bpf: Add verifier test for PTR_TO_MEM spill
 6e6aa61d81194c01283880950df563b1b9abec46 USB: gadget: dummy-hcd: Fix errors in port-reset handling
 1eb8f690bcb565a6600f8b6dcc78f7b239ceba17 x86/topology: Make __max_die_per_package available unconditionally
 495dc7637cb5ca8e39c46db818328410bb6e73a1 ALSA: hda/realtek - Limit int mic boost on Acer Aspire E5-575T
@@ -181,22 +171,14 @@ c28095bc99073ddda65e4f31f6ae0d908d4d5cd8 usb: udc: core: Use lock when write to 
 da7e0c3c2909a3d9bf8acfe1db3cb213bd7febfb xhci: tegra: Delay for disabling LFPS detector
 9b268be3adbb410cc1a857477b638a71258891a8 MAINTAINERS: update maintainers of qcom audio
 7505c06dabb5e814bda610c8d83338544f15db45 MAINTAINERS: update qcom ASoC drivers list
-b7ba6cfabc42fc846eb96e33f1edcd3ea6290a27 octeontx2-af: Fix missing check bugs in rvu_cgx.c
-235ecd36c7a93e4d6c73ac71137b8f1fa31148dd MAINTAINERS: Update my email address
-c96adff95619178e2118925578343ad54857c80c cls_flower: call nla_ok() before nla_next()
-e23a8d00219818ba74f97f6a4cbe071dbbd5b5f1 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 ebfd44883ab5dd9a201af2d936e1dfb93962be0b kunit: tool: Fix spelling of "diagnostic" in kunit_parser
 8db50be262e9faf59fa0feb74599c29b64eb0af2 Documentation: kunit: include example of a parameterized test
 09641f7c7d8f1309fe9ad9ce4e6a1697016d73ba kunit: tool: surface and address more typing issues
 81c60306dc588e2e6b21391c1f6dd509403e6eec kunit: tool: fix minor typing issue with None status
 2b8fdbbf1c616300312f71fe5b21fe8f03129950 kunit: tool: move kunitconfig parsing into __init__, make it optional
-e4bedf48aaa5552bc1f49703abd17606e7e6e82a net_sched: reject silly cell_log in qdisc_get_rtab()
-dd5e073381f2ada3630f36be42833c6e9c78b75e net_sched: gen_estimator: support large ewma log
-bcd0cf19ef8258ac31b9a20248b05c15a1f4b4b0 net_sched: avoid shift-out-of-bounds in tcindex_set_parms()
 c93cc9e16d88e0f5ea95d2d65d58a8a4dab258bc io_uring: iopoll requests should also wake task ->in_idle state
 6b393a1ff1746a1c91bd95cbb2d79b104d8f15ac io_uring: fix false positive sqo warning on flush
 4325cb498cb743dacaa3edbec398c5255f476ef6 io_uring: fix uring_flush in exit_files() warning
-66c556025d687dbdd0f748c5e1df89c977b6c02a skbuff: back tiny skbs with kmalloc() in __netdev_alloc_skb() too
 0b5cd6c32b14413bf87e10ee62be3162588dcbe6 io_uring: fix skipping disabling sqo on exec
 bc1c2048abbe3c3074b4de91d213595c57741a6b i2c: bpmp-tegra: Ignore unknown I2C_M flags
 2f3a0828d46166d4e7df227479ed31766ee67e4a i2c: tegra: Create i2c_writesl_vi() to use with VI I2C for filling TX FIFO
@@ -438,5 +420,9 @@ abc0e4ec836b7d7d5225e93cd219c162ee359c77 net/mlx5e: Revert parameters on errors 
 bd94154e7a47bde3ba0502466068cbc8682179ab net/mlx5: CT: Fix incorrect removal of tuple_nat_node from nat rhashtable
 fd2eeee625468f8c0b3267bf56ba6e7ec2f18764 net/mlx5e: Update max_opened_tc also when channels are closed
 91957043e138dd9a52328e2cf01c5bdc7b6ed9f9 net/mlx5: Fix leak upon failure of rule creation
+358ab63f7d8b635f424ce17b385c3e49d2c5c31f Merge commit 'refs/changes/38/370238/4' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-mlx5-test
+2cc72dc515f30112edc33cb19fe48fc5e2531b83 Merge branch 'net-mlx4' into net-rc
+da7981106d47ce385b2e44d41647310d639fb9f0 Merge branch 'net-mlx5' into net-rc
+c620d6b0f473ce57db99950f9e42176d3c4025f0 Merge branch 'net-mlx5-test' into net-rc
 
---===============7802823334246011449==--
+--===============7150699375521456178==--
