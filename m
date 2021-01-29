@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 29 Jan 2021 21:04:15 -0000
-Message-Id: <161195425524.1569.13708414155185183507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Fri, 29 Jan 2021 21:06:49 -0000
+Message-Id: <161195440925.3742.13621480347970611239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: ed0f3e87ca5ec1d51855c6345bd12cc9d1ca487e
-    new: 9f33740d41acc7612c04d99c2d7f931a64ba6cda
+  - ref: refs/heads/fixes
+    old: ae9162e2be767240065b2f16c3061fc0a3622f61
+    new: ed4e9e615b7ec4992a4eba1643e62ec2d9d979db
     log: |
-         9f33740d41acc7612c04d99c2d7f931a64ba6cda ap: fix off by one error
+         ed4e9e615b7ec4992a4eba1643e62ec2d9d979db Documentation/llvm: Add a section about supported architectures
          
