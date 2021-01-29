@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse-dev
-Date: Fri, 29 Jan 2021 00:45:06 -0000
-Message-Id: <161188110615.27454.7173088473847180324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 29 Jan 2021 00:47:43 -0000
+Message-Id: <161188126320.28218.4030638414630235073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse-dev
-user: lucvoo
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/flex-array
-    old: 20f955df97bcf145f98cadfe8977317102c2866f
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: afc454b505fc95cc2351b44cebdd51ef4d10e63f
+    new: 211a741cd3e124bffdc13ee82e7e65f204e53f60
