@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3063906455061423328=="
+Content-Type: multipart/mixed; boundary="===============0222824483482551076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse-dev
-Date: Fri, 29 Jan 2021 00:43:06 -0000
-Message-Id: <161188098680.24958.18143256917992114660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse
+Date: Fri, 29 Jan 2021 00:43:57 -0000
+Message-Id: <161188103716.25293.1746398878417482641@gitolite.kernel.org>
 
---===============3063906455061423328==
+--===============0222824483482551076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse-dev
+repo: pub/scm/devel/sparse/sparse
 user: lucvoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 455f7992c4c03030f0da9c260e067b36a556371a
     log: revlist-a8183270c91b-455f7992c4c0.txt
 
---===============3063906455061423328==
+--===============0222824483482551076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ a5a61b2e345bac65ef1c256daeb7842539ab1262 cmps: canonicalize SEL(x {<,<=} y, a, b
 95827edfcb2daa42fa18ce555f2c30910fdc2493 cmps: canonicalize SEL(x > 0, a, -a) --> SEL(x >= 0, a, -a)
 455f7992c4c03030f0da9c260e067b36a556371a Merge branch 'optim-cmps'
 
---===============3063906455061423328==--
+--===============0222824483482551076==--
