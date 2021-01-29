@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Fri, 29 Jan 2021 06:58:40 -0000
-Message-Id: <161190352027.27754.11740881764922439258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Fri, 29 Jan 2021 06:58:48 -0000
+Message-Id: <161190352854.27926.10352978140506469933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
-  - ref: refs/heads/next
-    old: e678ab3970d03741cc16f8b9e2575af981f8f463
-    new: 2eebc9949ca2904c8d36aad40a28bf5e36f4e53d
+  - ref: refs/heads/dev
+    old: 46904005b1d82e13a8c888c581dacecfa2096f41
+    new: 6a10625f5600cb9bafbd2f4eb0ae15dbfd8acc98
     log: |
-         2eebc9949ca2904c8d36aad40a28bf5e36f4e53d Update debian/libext2fs2.symbols with the additions to the shared library
+         6a10625f5600cb9bafbd2f4eb0ae15dbfd8acc98 exfat: fix shift-out-of-bounds in exfat_fill_super()
          
