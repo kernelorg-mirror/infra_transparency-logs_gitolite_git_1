@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3993242906050465376=="
+Content-Type: multipart/mixed; boundary="===============1996213719922705116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 29 Jan 2021 00:23:25 -0000
-Message-Id: <161187980557.11557.11044039668497585888@gitolite.kernel.org>
+Date: Fri, 29 Jan 2021 00:23:37 -0000
+Message-Id: <161187981770.11692.4869020433480016082@gitolite.kernel.org>
 
---===============3993242906050465376==
+--===============1996213719922705116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 71dd5fccbf8e241b4f91964247f594bf74f64c0b
     new: 25efe2b15736498ec03d92771a5334cd89442372
     log: revlist-71dd5fccbf8e-25efe2b15736.txt
 
---===============3993242906050465376==
+--===============1996213719922705116==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -582,4 +582,4 @@ e9463c2b26af1e0804c80470386e73e27b8772fc tpm: add sysfs exports for all banks of
 d333f73426a60721db6803e2905d4812b100ea86 tpm_tis: Fix check_locality for correct locality acquisition
 25efe2b15736498ec03d92771a5334cd89442372 tpm_tis: Clean up locality release
 
---===============3993242906050465376==--
+--===============1996213719922705116==--
