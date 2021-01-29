@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Fri, 29 Jan 2021 13:56:06 -0000
-Message-Id: <161192856669.26528.9257174707640869592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 29 Jan 2021 13:59:35 -0000
+Message-Id: <161192877571.27624.18381242139901037483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: d08a31bbb0f23230b04168b1d8e2643723c4ca9f
-    new: ca7222dcfff4fb4d71019762bc49717ab77253a9
+  - ref: refs/heads/gpio/for-current
+    old: 03a58ea5905fdbd93ff9e52e670d802600ba38cd
+    new: c351bb64cbe67029c68dea3adbec1b9508c6ff0f
     log: |
-         ca7222dcfff4fb4d71019762bc49717ab77253a9 parisc: Bump 64-bit IRQ stack size to 64 KB
+         c351bb64cbe67029c68dea3adbec1b9508c6ff0f gpiolib: free device name on error path to fix kmemleak
          
