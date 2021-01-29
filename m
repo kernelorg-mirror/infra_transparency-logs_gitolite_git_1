@@ -1,24 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 29 Jan 2021 16:06:04 -0000
-Message-Id: <161193636458.10431.13019103437682798444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Fri, 29 Jan 2021 16:11:14 -0000
+Message-Id: <161193667412.14614.13583212416258435987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/master
-    old: 909b447dcc45db2f9bd5f495f1d16c419812e6df
-    new: 06cc6e5dc659e1995804cbeda643d0fa45b68999
+  - ref: refs/heads/for-5.12/dt-bindings
+    old: 88893986338beebcf5317bda80d43d4f6f7f7c7c
+    new: 6c50321fd65135a28450f16b5745b72368d61006
     log: |
-         bb8b81e396f7afbe7c50d789e2107512274d2a35 bpf, cgroup: Fix optlen WARN_ON_ONCE toctou
-         f4a2da755a7e1f5d845c52aee71336cee289935a bpf, cgroup: Fix problematic bounds check
-         b9557caaf872271671bdc1ef003d72f421eb72f6 bpf, inode_storage: Put file handler if no storage was found
-         78031381ae9c88f4f914d66154f4745122149c58 bpf: Drop disabled LSM hooks from the sleepable set
-         150a27328b681425c8cab239894a48f2aeb870e9 bpf, preload: Fix build when $(O) points to a relative path
-         06cc6e5dc659e1995804cbeda643d0fa45b68999 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+         6c50321fd65135a28450f16b5745b72368d61006 dt-bindings: arm: tegra: Document Jetson Xavier NX eMMC SKU
          
+  - ref: refs/heads/for-next
+    old: 09eb389280e5ef6f091bf534882bca00cf5b49ac
+    new: 494f6bec1d9cf8c45513cd8eda7d30a16467aea2
+    log: |
+         6c50321fd65135a28450f16b5745b72368d61006 dt-bindings: arm: tegra: Document Jetson Xavier NX eMMC SKU
+         3029a563ac0ccd39b9dc53eadfb9c0e3fb57a449 ARM: tegra: ouya: Fix eMMC on specific bootloaders
+         24e7944547f25c926b3689292c17be1046e42804 Merge branch for-5.12/arm/core into for-next
+         c577a6298ca880fbb10777b4c8be08d2a54ef88d Merge branch for-5.12/dt-bindings into for-next
+         f3aa3cdb118ceacceed5a7dd9d2099eebc24a562 Merge branch for-5.12/arm/dt into for-next
+         e78e3f358163601d1cc7a0383724437be8beab08 Merge branch for-5.12/arm/defconfig into for-next
+         34e89d272fa9b6d72e7ef92e4b55011773c5246e Merge branch for-5.12/arm64/dt into for-next
+         494f6bec1d9cf8c45513cd8eda7d30a16467aea2 Merge branch for-5.12/arm64/defconfig into for-next
+         
+  - ref: refs/heads/for-5.12/arm/dt
+    old: 0000000000000000000000000000000000000000
+    new: 3029a563ac0ccd39b9dc53eadfb9c0e3fb57a449
