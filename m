@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0044732150945633151=="
+Content-Type: multipart/mixed; boundary="===============7802823334246011449=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 29 Jan 2021 03:28:37 -0000
-Message-Id: <161189091782.31515.13308227016004891586@gitolite.kernel.org>
+Date: Fri, 29 Jan 2021 03:34:33 -0000
+Message-Id: <161189127370.2528.9513416914253619455@gitolite.kernel.org>
 
---===============0044732150945633151==
+--===============7802823334246011449==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 19c329f6808995b142b3966301f217c831e7cf31
-    new: 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04
-    log: revlist-19c329f68089-6ee1d745b7c9.txt
+  - ref: refs/heads/net-mlx5
+    old: 1ce889cdbbda6414b592a660e21862109716260f
+    new: 91957043e138dd9a52328e2cf01c5bdc7b6ed9f9
+    log: revlist-1ce889cdbbda-91957043e138.txt
 
---===============0044732150945633151==
+--===============7802823334246011449==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19c329f68089-6ee1d745b7c9.txt
+Content-Disposition: attachment; filename=revlist-1ce889cdbbda-91957043e138.txt
 
 06fde695ee76429634c1e8c8c1154035aa61191e genirq/msi: Initialize msi_alloc_info before calling msi_domain_prepare_irqs()
 e90f55e0196a66f8e9e445f7f33f876dd889be9a irqchip/irq-sl28cpld: Convert comma to semicolon
@@ -422,5 +422,21 @@ a692a610d7ed632cab31b61d6c350db68a10e574 Merge tag 'block-5.11-2021-01-24' of gi
 ef7b1a0ea857af076ea64d131e95b59166ab6163 Merge tag 'io_uring-5.11-2021-01-24' of git://git.kernel.dk/linux-block
 228a65d4544af5086bd167dcc5a0cb4fae2c42b4 Merge tag 'sh-for-5.11' of git://git.libc.org/linux-sh
 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 Linux 5.11-rc5
+82ef00ed6afeb49727e3a43e8afcc2188bc29c80 net/mlx5: Fix memory leak on flow table creation error flow
+deb19d4e375991f62303a40f1e31b58ceef267d7 net/mlx5e: E-switch, Fix rate calculation for overflow
+d2e8baaaebea1c2681c2840fb60c1060cab28422 net/mlx5e: free page before return
+3c21d4a6fd208815986213cb4352bb5ff3d1ed47 net/mlx5e: Reduce tc unsupported key print level
+7f2cdcbe36c0e1457133961630d55d2702b8539e net/mlx5e: Fix IPSEC stats
+2d5cc2d60d10735aef272a3188b229056774d8c9 net/mlx5: Maintain separate page trees for ECPF and PF functions
+f125d25438733bc00205352ab53ff518e201c316 fixup! net/mlx5: Maintain separate page trees for ECPF and PF functions
+bf2fc419b3670eeaf79755fb257361e9a6380fa3 fixup! net/mlx5e: E-switch, Fix rate calculation for overflow
+a45df09924b05e3a98b13257413cddebe8ccd578 net/mlx5e: Disable hw-tc-offload when MLX5_CLS_ACT config is disabled
+cd676d2ecac6330765938f4417b0d23a0d5f88ed net/mlx5e: Fix CT rule + encap slow path offload and deletion
+9b6afa79ffd40647e7111ce2df75dc3fd20a62f5 net/mlx5e: Correctly handle changing the number of queues when the interface is down
+abc0e4ec836b7d7d5225e93cd219c162ee359c77 net/mlx5e: Revert parameters on errors when changing trust state without reset
+2031bcbed063715e08273d7ed2008ae6e716585e net/mlx5e: Revert parameters on errors when changing MTU and LRO state without reset
+bd94154e7a47bde3ba0502466068cbc8682179ab net/mlx5: CT: Fix incorrect removal of tuple_nat_node from nat rhashtable
+fd2eeee625468f8c0b3267bf56ba6e7ec2f18764 net/mlx5e: Update max_opened_tc also when channels are closed
+91957043e138dd9a52328e2cf01c5bdc7b6ed9f9 net/mlx5: Fix leak upon failure of rule creation
 
---===============0044732150945633151==--
+--===============7802823334246011449==--
