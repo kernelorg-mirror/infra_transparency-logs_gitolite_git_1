@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8212258007478216158=="
+Content-Type: multipart/mixed; boundary="===============3049080108448658611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 29 Jan 2021 17:03:26 -0000
-Message-Id: <161193980606.14569.3441434723673454450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Fri, 29 Jan 2021 17:03:32 -0000
+Message-Id: <161193981293.14695.11419006497692635115@gitolite.kernel.org>
 
---===============8212258007478216158==
+--===============3049080108448658611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: bec4c2968fce2f44ce62d05288a633cd99a722eb
     log: revlist-2ab38c17aac1-bec4c2968fce.txt
 
---===============8212258007478216158==
+--===============3049080108448658611==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -229,4 +229,4 @@ b8323f7288abd71794cd7b11a4c0a38b8637c8b5 rxrpc: Fix memory leak in rxrpc_lookup_
 909b447dcc45db2f9bd5f495f1d16c419812e6df Merge tag 'net-5.11-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 bec4c2968fce2f44ce62d05288a633cd99a722eb Merge tag 'ecryptfs-5.11-rc6-setxattr-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/tyhicks/ecryptfs
 
---===============8212258007478216158==--
+--===============3049080108448658611==--
