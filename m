@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 29 Jan 2021 02:03:43 -0000
-Message-Id: <161188582393.13661.5541262399030648120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djbw/nvdimm
+Date: Fri, 29 Jan 2021 02:05:39 -0000
+Message-Id: <161188593962.15584.11766845575324139687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/djbw/nvdimm
+user: djbw
 changes:
-  - ref: refs/heads/master
-    old: c358f95205ff472fb3960a5659304774983ec1c5
-    new: 59e139cf0b32a7a08ef20453927ecd57db086d8e
+  - ref: refs/heads/libnvdimm-pending
+    old: 12106d914d972e201174cf49e51379bf93e78584
+    new: 50f558a5fe16b385cf1427b2a96149f4f68952d9
     log: |
-         d7a177ea8fe6fc6fe146639d63a45090de196498 ipvlan: remove h from printk format specifier
-         e594ad980ec26fb7351d02c84abaa77ecdb4e522 net: usb: qmi_wwan: add qmap id sysfs file for qmimux interfaces
-         b4b91e24094ad54b3d176e3fd2997fae62a315dc net: qmi_wwan: document qmap/mux_id sysfs file
-         bbe25b7d694846e8946e7aea6ac9d342a4e43345 Merge branch 'net-usb-qmi_wwan-new-mux_id-sysfs-file'
-         59e139cf0b32a7a08ef20453927ecd57db086d8e net: qmi_wwan: Add pass through mode
+         13f445d65955f388499f00851dc9a86280970f7c libnvdimm/namespace: Fix visibility of namespace resource attribute
+         9a27e109a391c9021147553b97c3fe4356e2261c testing/nvdimm: Add test module for non-nfit platforms
+         107b04e970cae754100efb99a5312c321208ca03 ndtest: Add compatability string to treat it as PAPR family
+         9399ab61ad82154911563dd8635c585e3f24b16a ndtest: Add dimms to the two buses
+         5e41396f723004a4e5710a0bb03259a443be1971 ndtest: Add dimm attributes
+         6fde2d4c8b25cec9589a4a58fd524b9d4e40c4b6 ndtest: Add regions and mappings to the test buses
+         14ccef10e53e4c303570d2ee2d49e45be1118e99 ndtest: Add nvdimm control functions
+         50f558a5fe16b385cf1427b2a96149f4f68952d9 ndtest: Add papr health related flags
          
