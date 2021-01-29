@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 29 Jan 2021 17:36:14 -0000
-Message-Id: <161194177477.3961.6922464255563276595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Fri, 29 Jan 2021 17:45:23 -0000
+Message-Id: <161194232373.10721.11119820319850941847@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: 7429b2162df1a8d5da40bdff7d955bfaa215a7e7
-    new: 32028f6daf74096db247a6f4a944a65c0f19d881
+  - ref: refs/heads/opp/linux-next
+    old: 0bfc9cd98095806b5654fecb56c9f1f15fc2cced
+    new: 59e50230871ca5e8a964cbeb92734f74c95808bb
     log: |
-         32028f6daf74096db247a6f4a944a65c0f19d881 ap: add DEL_STATION path to fullmac AP handling
+         59e50230871ca5e8a964cbeb92734f74c95808bb opp: Don't ignore clk_get() errors other than -ENOENT
          
