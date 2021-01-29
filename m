@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7857539484198234537=="
+Content-Type: multipart/mixed; boundary="===============8996460335569069791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 29 Jan 2021 19:01:32 -0000
-Message-Id: <161194689218.24199.14582114536440825124@gitolite.kernel.org>
+Date: Fri, 29 Jan 2021 19:01:36 -0000
+Message-Id: <161194689678.24287.7701002959763841380@gitolite.kernel.org>
 
---===============7857539484198234537==
+--===============8996460335569069791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 648a966c471e84e6588920b91fe84bc7a2fe5902
-    new: 1efc47f396ae05acec9437068232f05bfa7df62f
+  - ref: refs/heads/5.12/scsi-staging
+    old: a927ec3995427e9c47752900ad2df0755d02aba5
+    new: d2aacd36a8e00bc1813841b482e3933acb1ea0b5
     log: |
          99de0ea06ac04c084b42da3a15aefd4bde1c8424 scsi: qla2xxx: Simplify the calculation of variables
          83e4a9b3dba9d95e17a947595566f2e8caa9a90d scsi: megaraid_mbox: Fix spelling of 'allocated'
@@ -27,33 +27,33 @@ changes:
          d2aacd36a8e00bc1813841b482e3933acb1ea0b5 scsi: MAINTAINERS: Adjust to reflect gdth scsi driver removal
          
 
---===============7857539484198234537==
+--===============8996460335569069791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1611946890 -0500
+pusher 75C5DE3D 1611946895 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1611946890-a540265da06dcf70bb81077259073a946e6b47f6
+nonce 1611946894-d0d5a1819cd5eb7f9d465d1a9e9a49e7b344b224
 
-648a966c471e84e6588920b91fe84bc7a2fe5902 1efc47f396ae05acec9437068232f05bfa7df62f refs/tags/mkp-scsi-staging
+a927ec3995427e9c47752900ad2df0755d02aba5 d2aacd36a8e00bc1813841b482e3933acb1ea0b5 refs/heads/5.12/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmAUW4oACgkQ7ulgGnXF
-3j3ilQ/+IP4XFWLj0xjIpJ/VlbY0i1yBuQbc3XfXRlJKpKxdt9s+8YPk++chgNma
-t8G5EaON/kk/xuHB1z+dm/RvDLtwa40lI+1Ok7l1Xk6puFcpIVxtM5jPmbDAqG9a
-qhRFvR6itjTVuktr2EItUTNO8yKRylA36L8RDUuwpErSVuhKHbGiEqsR7eRdcxaA
-vp2R0bSDyXQzTV8fGvtdIS5vRcG70+bSMqRL3p2+jfAkbsIUIqbnUjfv2SlxUDro
-1gx1xtbKyTT6IWbgA8md3U/R5Mwbok/C36ftEm6nZYdOwejAv0yAwLc04fDOBAqg
-wED61UBpyf80uSa/oKDwDDk4qG18l8CAWqsCm88v+Xt9FUEYI7ujLbmQnZMWGswc
-/2IwX4oZlh0ZvhwIO2xuGEgy/MvgFtP7N4p/pzAoigly1V2KLe8hdM+f+Q7dyVAp
-xZnWf4btiJkI4eipZ65v0YPDemS51fbtjCSAozKVm6Skxh6IjTEGRthxokSMC/Dm
-af77bedGcX4e1uBlXP3Gzzfx/7yehFVBgZlFIxuqRI0NWkyYkcMEie3AZo6KNB1F
-x/4vbwTqTFzcT+iCyB3BSkX/nKSriRYivW7k6BMFBwV5qeO9UEI2vmnuHWSymPjV
-fnNSr0zV12YXU24vG7rZnlw8ZF2sg5h46HDSt8hpGN4E9+Fs8ns=
-=kmHF
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmAUW48ACgkQ7ulgGnXF
+3j0ksBAAnSnMVDAl7adLT0BM1YT52pByoT9rHI2iwl17cHyIGFyadhifSWv5lAlE
+2MRiiV9bFWaSIaEIVH9FSm+dv6Fqh4bZvjkw769EfVFCb/tOhLhGEMUmYxHI+S+9
+HZYFNQ0tdEd6j+aGIazPGOzeYsOgNbsgucwn+co91D9wp+K56Bh6eU4ahJ5NxP2o
+lBWLAOyNEImFoJmHgtz05RfxHlSP+A65Y7lMx/TIlGjfaEbVSvYpcKS+/+DK2HLn
+6oGXZ/CK5zh0I/Ber7qZhZp6J4Pmp5RPZdTJKYTnCLpytgg4M65cRrYPmFT9VUFw
+8YnZN2SlbRSeECI+yGcKiNHa6iKhW1lFvluQfcYKzbZypx50bFwQetxavwiPkSPY
+B+oDIH2a841Vz+N51FI/Jc5v29sw1LJyqszDhZMI+IjyeP1lisBwQQBeIi/qt4n6
+YAgglU7U0fzydHjeisyqXKYGGDCMZ4Pnlqn6Msfd5P26hzJ5fvOM/kZ/Q3j8l2wP
+CR3ugG4RA8ZFr2czICBcmU6+4/U8Wy9un5VMKSEr9EPkcie5ZFlTMhXAp86S3EN1
+5PoHE5JPsFQaEEwtq3k3oJHpm7yZPGXlgrW7GsWSsyxfXdYzAwLa2XEkLdWA4xyG
+iWW3h5VZvZvRFRshpcuJudCXV4v/6XhXn7S4crC0DUGvrKxakEA=
+=oTtb
 -----END PGP SIGNATURE-----
 
---===============7857539484198234537==--
+--===============8996460335569069791==--
