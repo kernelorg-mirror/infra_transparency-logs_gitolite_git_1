@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7473035198538992573=="
+Content-Type: multipart/mixed; boundary="===============6642309808411894673=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 29 Jan 2021 19:01:17 -0000
-Message-Id: <161194687711.23906.10780915446196542064@gitolite.kernel.org>
+Date: Fri, 29 Jan 2021 19:01:21 -0000
+Message-Id: <161194688179.23979.13711016028100886328@gitolite.kernel.org>
 
---===============7473035198538992573==
+--===============6642309808411894673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 7b11888070efc9ab47c98c1e7291ccd8a3138828
-    new: a15d7893fa544b942233e05926955f876ed7cb26
-    log: revlist-7b11888070ef-a15d7893fa54.txt
+  - ref: refs/heads/5.12/scsi-queue
+    old: 18c05faf8ab14913c8144108661efa8f17b10b5b
+    new: a927ec3995427e9c47752900ad2df0755d02aba5
+    log: revlist-18c05faf8ab1-a927ec399542.txt
 
---===============7473035198538992573==
+--===============6642309808411894673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1611946875 -0500
+pusher 75C5DE3D 1611946880 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1611946875-c9544ff669264b2d503c1e8208447dd0705490a3
+nonce 1611946879-c3daaa8036ca0cb7b54972ecfcedf4f59a06c882
 
-7b11888070efc9ab47c98c1e7291ccd8a3138828 a15d7893fa544b942233e05926955f876ed7cb26 refs/tags/mkp-scsi-queue
+18c05faf8ab14913c8144108661efa8f17b10b5b a927ec3995427e9c47752900ad2df0755d02aba5 refs/heads/5.12/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmAUW3sACgkQ7ulgGnXF
-3j0JJA//S6fGHV0Uz9FRH8VINsC7V7K4A9oJ7psY6OxKvK7F26hs8M0mZk7W1rPu
-mC21NDEzA9lJHPgoLBm/yxuXE+Go9p7BG1LRJvVh/Eyev8NygUkYrXs1kVQW+O2D
-0heEuIS6kgHBCz3VWxdOORsApoRsUCoCj3HT68h5RYOm3eEKtT5akFxrO/4lQpJ3
-JNGhMbM1ZIsKNbq17FCJB3LMkduWlMw1s2RlRYIlIC/dag0hf/qvuI4FcnaSC1TK
-wqXqAabeN+ELlt81v7St9sdYBdXaH4prCekspjgxtWPTni9zmSgwzCBpKiNXGhev
-ipx8zShHdo90MdwTTM2vb2gynSGUAWcyC4an3PAI/ZiDr56pxkGiGz5WCz08Mq2V
-cSFEWzunVZ824ROB3n04cvx3XqM4Yo1qm/HhnR5Npt7kSmLdZ4ABaKltUL62RyaB
-vha9fNUXiV+4827U2OFd78wxzzynUPQXgNAkDsQr0PTJb7J0P1SvExksbq+PzI1B
-+3YRYoHr59StwYq8U5gjxW2hdalo8ltoKkGX6Uj8as8/kwGSytwgzTeaA5fKhD2P
-pHfttjiYJbe0DxG15F3rdtzl5kDhuFmnAug7WMANPewm7ClnX74aOWPL2e1TMhZ7
-AMp41HUkC3YZazg3HxcEGG84K/9oJrKCRwNK8IGsqEwzcnhUNl8=
-=ihBZ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmAUW4AACgkQ7ulgGnXF
+3j2QDg/9G1AMohvZy5dPVkHrahdapLqwzhLGgofdQOa4Y4Kgw4SfnUN6govlZw+p
+y421jSNaXrXgkgR7OeEcKSBVYEBJpaQ7XyNV1IhYRb+KOmdwDk+TmlTS10TUEyFv
+h7lhQWy+3RPABJO6ig1hViYSPiv+ZHu2k47l9uxZGXCyNCJQ16zQ0oi1W3Sc4puJ
+dj9ZsRN5m3SoAgUkISF0IVRtTZFHEjCRB8h94znlSfnoCqZlZsXZz85zsvg75dkw
+wPcmb6/w6qLdO8cWDGzZ5nmfdSnMRzqB/OQLy+wxJI3eANIdYa7+QJMgSMadnV/O
+p2QPjwwp6X1rOxoOd8Z6ZA2NUn/D19/q/DUyR6p2+IWbP7SeIk8HvTldgyCwxLi+
+0N2wbCL5H0nqmjv91LOGa2pc90JgRPpw20c+HCh/c6hquPTcyffiCnlN1dgJDnP3
+jmPratf7iVveJsGsMIA5JrVklxJLpZPsjIK3baY7Qgi2bb5O6/kTbHyPXBrvLy/m
+6TBwM9KPo2BjQqSNYJb1W9Nh4WHx4sSO7qb5jGx1OQbGBA/Yjsmlti2PFhzabaL0
+ZgatJffyCwHw+gS7iPvun/fpJwCi8sJ2RKPbs8csB9eEe+ACwDOgALOAh/YFBscv
+xg2B8Z4QqdlxPsLOSBpMlujCEDuYaYBhR0XpBDIOZuneWoOXqjo=
+=HWl+
 -----END PGP SIGNATURE-----
 
---===============7473035198538992573==
+--===============6642309808411894673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b11888070ef-a15d7893fa54.txt
+Content-Disposition: attachment; filename=revlist-18c05faf8ab1-a927ec399542.txt
 
 0b2894cd0fdf8ccc8a9b4e28563db9ac0ecb62b2 scsi: docs: ABI: sysfs-driver-ufs: Add DeepSleep power mode
 b112036535eda34460677ea883eaecc3a45a435d scsi: megaraid_sas: Fix MEGASAS_IOC_FIRMWARE regression
@@ -85,4 +85,4 @@ cc0b6ad72e18568dab245a0c5f8cc051b0936b33 scsi: target: core: Signal WRITE residu
 ead0ffc95a89b6b2c276702ee7b5a2b9bb445dfe scsi: target: core: Change ASCQ for residual write
 a927ec3995427e9c47752900ad2df0755d02aba5 scsi: message: fusion: Fix 'physical' typos
 
---===============7473035198538992573==--
+--===============6642309808411894673==--
