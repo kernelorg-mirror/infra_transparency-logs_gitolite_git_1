@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 29 Jan 2021 17:10:15 -0000
-Message-Id: <161194021522.20841.10162385668466127535@gitolite.kernel.org>
+Date: Fri, 29 Jan 2021 17:10:22 -0000
+Message-Id: <161194022276.20945.4426377711832338054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 7a976f77bb962ce9486e09eb839aa135619b54f3
-    new: 8ca1ca071b44f688fef408e9f8783ec08880ac89
+  - ref: refs/heads/locking/core
+    old: bf594bf400016a1ac58c753bcc0393a39c36f669
+    new: 6add43a55ba9434f50536ab0cfdd2537327bb324
     log: |
-         5cba4d9463d5e6ca96384dcb4377d461e486da28 sched: Remove MAX_USER_RT_PRIO
-         69a81daba32d0b6ab2c3c3cf8d0ffd414395ca00 sched: Remove USER_PRIO, TASK_USER_PRIO and MAX_USER_PRIO
-         8ca1ca071b44f688fef408e9f8783ec08880ac89 sched/core: Update task_prio() function header
+         6add43a55ba9434f50536ab0cfdd2537327bb324 locking/rwsem: Remove empty rwsem.h
          
