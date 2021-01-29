@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 29 Jan 2021 15:31:09 -0000
-Message-Id: <161193426977.21395.312660888847649879@gitolite.kernel.org>
+Date: Fri, 29 Jan 2021 15:33:10 -0000
+Message-Id: <161193439000.21972.13571098825659294584@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/stm32/dt
+  - ref: refs/heads/omap/dt
     old: 0000000000000000000000000000000000000000
-    new: 36be90f5362a3174071a543fa73eb0f6d66bdf52
+    new: 4231f3a72f9ac7f8738d003b7ad56fa998574fb8
