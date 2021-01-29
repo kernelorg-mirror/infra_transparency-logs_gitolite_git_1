@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7800045421582042930=="
+Content-Type: multipart/mixed; boundary="===============8963479087818127749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Fri, 29 Jan 2021 13:24:34 -0000
-Message-Id: <161192667481.6613.9053625554385209674@gitolite.kernel.org>
+Date: Fri, 29 Jan 2021 13:25:17 -0000
+Message-Id: <161192671777.8218.17107031872740093493@gitolite.kernel.org>
 
---===============7800045421582042930==
+--===============8963479087818127749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-next
+  - ref: refs/heads/next
     old: 2d580e3568cad3ce2beb65fd6305e55135d0abd3
     new: d1bb74b7e656da8f38eca8272cade3d6429a7d24
     log: revlist-2d580e3568ca-d1bb74b7e656.txt
 
---===============7800045421582042930==
+--===============8963479087818127749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -87,4 +87,4 @@ fbf7d87722b987fb0131382478889f9bb8d81942 habanalabs: update SyncManager interrup
 ecf066d8200e9148ce02aae2d1a7eb75523141e2 habanalabs: update to latest hl_boot_if.h spec from F/W
 d1bb74b7e656da8f38eca8272cade3d6429a7d24 habanalabs: fix integer handling issue
 
---===============7800045421582042930==--
+--===============8963479087818127749==--
