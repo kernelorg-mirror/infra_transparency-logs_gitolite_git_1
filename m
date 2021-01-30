@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/deller/palo
-Date: Sat, 30 Jan 2021 12:07:32 -0000
-Message-Id: <161200845206.6081.5293051969501854716@gitolite.kernel.org>
+Date: Sat, 30 Jan 2021 12:07:44 -0000
+Message-Id: <161200846446.6228.12330919712775692176@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/deller/palo
 user: deller
 changes:
   - ref: refs/heads/devel
-    old: 38f014635bb1269142aa788281b3ae477a6c18d8
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 593d83117d50d6c53a8cc2347659385e40abd3d0
