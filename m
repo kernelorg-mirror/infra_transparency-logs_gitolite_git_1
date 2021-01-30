@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 30 Jan 2021 03:14:57 -0000
-Message-Id: <161197649734.30253.15787116484216104278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Sat, 30 Jan 2021 03:31:06 -0000
+Message-Id: <161197746696.8011.11533230182692290411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
   - ref: refs/heads/master
-    old: a58745979cdd2ad70cd43ce9f1de8b076ae98e21
-    new: 5daf83846cdb67a3ef0c17f9826738567598ed19
+    old: 2b0d66bbec7807597673b7e00f2d9ff04439c307
+    new: 24487a7fa64bfa92bea21be3ca8c155e5de7438f
     log: |
-         afa4f675aa62467f706f06b67d4c7955b362f949 net/ethernet: convert to use module_platform_driver in octeon_mgmt.c
-         5daf83846cdb67a3ef0c17f9826738567598ed19 docs: networking: timestamping: fix section title markup
+         24487a7fa64bfa92bea21be3ca8c155e5de7438f configure.ac: fix build failure on systems with pthreads && !fuse support
+         
+  - ref: refs/heads/next
+    old: 2b0d66bbec7807597673b7e00f2d9ff04439c307
+    new: 24487a7fa64bfa92bea21be3ca8c155e5de7438f
+    log: |
+         24487a7fa64bfa92bea21be3ca8c155e5de7438f configure.ac: fix build failure on systems with pthreads && !fuse support
          
