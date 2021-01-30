@@ -1,22 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 30 Jan 2021 13:50:58 -0000
-Message-Id: <161201465863.3283.14402142498499375102@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5835572306349107818=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 30 Jan 2021 14:12:03 -0000
+Message-Id: <161201592307.19431.13644231434870809174@gitolite.kernel.org>
+
+--===============5835572306349107818==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 241b015a62b75ca349d66a2cf78033279e3c479e
-    new: fecb03bc50faf67247114b8324d1ddfb344cacec
+    old: 6b545b4db67378db56c4e0ca7bc44df6fb818930
+    new: 2be9ba73cf0f6c3926f0d4caea60bb1feb141547
     log: |
-         bd70fd2e6d6f17fb0c9a7f682edf44e026cc0536 environ.7: ffix + tfix
-         7ec45f6276c37cc23fcc02ec58eb441c1788d3fc environ.7: Note the default if PAGER is not defined
-         26dc4876efa2a5f074d4e59c37d8615fd3c5aeef environ.7: Reorder the text
-         fecb03bc50faf67247114b8324d1ddfb344cacec environ.7: Minor tweaks to Bastien's patch
+         2be9ba73cf0f6c3926f0d4caea60bb1feb141547 scripts: add Jon to the release announcements:
          
+
+--===============5835572306349107818==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612015919 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1612015918-1adba2efffd52bf66f8222f63ac21894666ca954
+
+6b545b4db67378db56c4e0ca7bc44df6fb818930 2be9ba73cf0f6c3926f0d4caea60bb1feb141547 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAVaS8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8Q0P/ip4LuBWKdwZPmHHhJnX
+KGpcl3QqxCdUgSzEQqJKXueO2x8idh4LzWK293b8IsqZPZxl9V3jMRsrZpspxJ4Q
+Z9bFhBBPluwT9hRFI/NaCgt/CeY22Y7mYmoGAIxQbsuOthNdxw6yerbUGe5dHcTU
+SXgUavb8ZijzNQFfEO5M7ceCKsdA6MBuyycZvvOy4oWRGr5tB3FLobzF/6yHiN8F
+5uaY4Dpny6kXr0yQJY5/FepENh/T7Nc0vAw1u4f8ZlfY6ZdfjwDOxSjT7WDJbzh2
+9S0tjBFfX2NrXXSAwoYM/7BMeA4EaxPP8/pCSLIXY7wLiRtY43yYcIrnbIQHY1G+
+QN+WA+MAMcKmgesoM+jAHJhTPdhwv9DYGDRPiG1tj88wPScRlTL5DdiKsocUcVXq
+8Pt/hQSSEaPe21jqftSqUUZ2cwDGyDr0Rph17zdLfELIFsVGsDQS0a7Qsx0WVXVD
+VVAfrkeXDbVz9J+U34xkdCttv/yKgzXpzzN6thKrIJSdZjnvq+fEERPP4p0c4tJ2
+A63llzNAiiQiUedzNhTjGmG1frdIO4x3IrO4n6OqI7DsXvnjj4YToxFBkJzxC6Jy
+U3PH5QVI3n7SdcktyIrH/a5/ox0+7voRmnoAvRDwnYzFt6cTcHoTmj2OCJ3QyS7K
+1D/x5OZYiS373LJLiLOnFUjF
+=fNCU
+-----END PGP SIGNATURE-----
+
+--===============5835572306349107818==--
