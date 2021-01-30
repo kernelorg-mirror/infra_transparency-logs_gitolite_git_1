@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5050103928304611386=="
+Content-Type: multipart/mixed; boundary="===============6906147022186601376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 30 Jan 2021 00:01:52 -0000
-Message-Id: <161196491214.12336.11778133659698421785@gitolite.kernel.org>
+Date: Sat, 30 Jan 2021 00:01:59 -0000
+Message-Id: <161196491931.12499.1116303809207358484@gitolite.kernel.org>
 
---===============5050103928304611386==
+--===============6906147022186601376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,52 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: c52f1751e30bab77223dec237eeda3ce91e2e7f5
-    new: d813885dce3b61d9032da8d0c73b7c9f486635c2
-    log: revlist-c52f1751e30b-d813885dce3b.txt
+  - ref: refs/heads/net-next
+    old: 4c928ad676b54a10c5ebfd08608506228954640d
+    new: a42f1b4e5aefc735c1bca9916acb1e5d53d2af43
+    log: revlist-4c928ad676b5-a42f1b4e5aef.txt
 
---===============5050103928304611386==
+--===============6906147022186601376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c52f1751e30b-d813885dce3b.txt
+Content-Disposition: attachment; filename=revlist-4c928ad676b5-a42f1b4e5aef.txt
 
-28af22c6c8dff6a16163e5b6a56211d5b535c97b net: adjust net_device layout for cacheline usage
-aa56e3e5cdb4f7e1aee6dd04f0934a7429d30246 net: ipa: rename "tag status" symbols
-162fbc6f4519f9b083fbd96b60d908c78a9c87f6 net: ipa: minor update to handling of packet with status
-f6aba7b5199ad2a73a3deb6c042dee770650719c net: ipa: drop packet if status has valid tag
-51c48ce264f85919b263a38e4defa50b80928877 net: ipa: signal when tag transfer completes
-792b75b14786bae709124615a58a474ded15aa7c net: ipa: don't pass tag value to ipa_cmd_ip_tag_status_add()
-070740d389aa6baff32f2fa3593034675bf56d16 net: ipa: don't pass size to ipa_cmd_transfer_add()
-699e4bc8c363f06c8f2e138aeec15d6105edd1a5 Merge branch 'net-ipa-hardware-pipeline-cleanup-fixes'
-ea12f1b3c8289102620d3030de3547eedce6d9e8 s390/qeth: clean up load/remove code for disciplines
-17f3a8b5f5c9097c658d662df9beaff0932b0242 s390/qeth: remove qeth_get_ip_version()
-c61dff3c1ef77f46e4aa605f71c68089b02b3d78 s390/qeth: pass proto to qeth_l3_get_cast_type()
-a667fee181b2c44cbf162f6a24c3594904aa9da1 s390/qeth: make cast type selection for af_iucv skbs robust
-d6e5150315173da3dbefcbfca1b3ebe321e8c8eb s390/qeth: don't fake a TX completion interrupt after TX error
-14a6daf3a41cad9c21dcbd4cafe9220f77f5ea68 Merge branch 's390-qeth-updates-2021-01-28'
-27e9c1de529919d8dd7d072415d3bcae77709300 net/af_iucv: remove WARN_ONCE on malformed RX packets
-c464444fa2ca41255817e2bdcfc47a658ec20645 net/af_iucv: don't lookup the socket on TX notification
-ef6af7bdb9e6c14eae8dc5fe852aefe1e089c85c net/af_iucv: count packets in the xmit path
-80bc97aa0aaab974bbbfb99a78d7515414004616 net/af_iucv: don't track individual TX skbs for TRANS_HIPER sockets
-2c3b4456c812681f963ef67502c5b8e8f8e2933f net/af_iucv: build SG skbs for TRANS_HIPER sockets
-4915a40437635e40661d0b83c7e54dc2538bef37 Merge branch 'net-iucv-updates-2021-01-28'
-5d1f0f09b5f0176494419a056db3a6647becd316 nexthop: Rename nexthop_free_mpath
-79bc55e3fee9f6169756d1a9d68c3ba9e774c3b1 nexthop: Dispatch nexthop_select_path() by group type
-b9bae61be46645aa3b8b5d79d5cdfabe55ae1507 nexthop: Introduce to struct nh_grp_entry a per-type union
-720ccd9a728506ca4721b18a22a2157a9d48ed60 nexthop: Assert the invariant that a NH group is of only one type
-09ad6becf5355fe0645f500f518fbbd531715722 nexthop: Use enum to encode notification type
-da230501f2c95a39eaa0856afd0122d35bda9e5d nexthop: Dispatch notifier init()/fini() by group type
-56450ec6b7fc2824d6402fc3a60bff1a6fe32c04 nexthop: Extract dump filtering parameters into a single structure
-b9ebea127661e8982c03065d99422dbf0f73e4d1 nexthop: Extract a common helper for parsing dump attributes
-a6fbbaa64c3b0e744e7e421a13658a7441f5a9f3 nexthop: Strongly-type context of rtm_dump_nexthop()
-cbee18071e72b68d63b055655ac96ae97126776e nexthop: Extract a helper for walking the next-hop tree
-e948217d258f35b248578f7b400d6df23ac562da nexthop: Add a callback parameter to rtm_dump_walk_nexthops()
-0bccf8ed8aa6ecdd12cd2b3b0a73ff2c4c88d62b nexthop: Extract a helper for validation of get/del RTNL requests
-67d25ce891190d66514e6b41fdde373a8a7ad8a9 Merge branch 'nexthop-preparations-for-resilient-next-hop-groups'
-1d3f9bb1be8556bce237934ae82b3cdeda3242fd linux/qed: fix spelling typo in qed_chain.h
-46eb3c108fe1744d0a6abfda69ef8c1d4f0e92d4 octeontx2-af: Fix 'physical' typos
+6472fa31f1b54a1b3151a44d922e5fb16e36b740 net/mlx5e: bad style
+ec66aa8de6720f1020853709feebb8e7fd278e94 net/mlx5e: overflow
 fe954e3d1421f47ffd363c260be3a0efaa4811af Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
 d4997174efc8865b78b8f17181a599508490c124 net/mlx5: Don't skip vport check
 f4f18718485832808fd0891f9fecf436a235b975 net/mlx5: Remove impossible checks of interface state
@@ -95,5 +62,13 @@ a4a090220fa062a72762f7e94b2a54d7228464a8 net/mlx5: DR, Add STEv1 modify header l
 062cdb9a323b9dca9ab20955e0484e7bffc7ba97 net/mlx5: DR, Use the right size when writing partial STE into HW
 df1c018420a77dd4ed3d70951566713af1330513 net/mlx5: DR, Use HW specific logic API when writing STE
 d813885dce3b61d9032da8d0c73b7c9f486635c2 net/mlx5: DR, Copy all 64B whenever replacing STE in the head of miss-list
+63c430a39ff85101bc691d0dfa7201d82de32ded Merge commit 'refs/changes/51/370651/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+85851c2ca9eca9e8dfd7e577ef8db285013dd3d9 Merge commit 'refs/changes/38/370238/4' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
+d4bdd737972f35515b541728b2f2411c9b40c08f Merge branch 'net-next-mlx4' into net-next
+66d4ca3b18589f8ed58871509286ed8f1b72095a Merge branch 'mlx5-vdpa' into net-next
+522e55096febf1bb04c4b51f96b93a6764f6c822 Merge branch 'net-next-mlx5' into net-next
+d9a1afc61b036b2f5951eec99f373c4825581e73 Merge branch 'net-mlx4' into net-next
+b8f0a0eee4adbd8aa4f6a5698ee06b18b86b2904 Merge branch 'net-mlx5' into net-next
+a42f1b4e5aefc735c1bca9916acb1e5d53d2af43 Merge branch 'net-next-test' into net-next
 
---===============5050103928304611386==--
+--===============6906147022186601376==--
