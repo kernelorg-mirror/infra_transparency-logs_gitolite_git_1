@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 30 Jan 2021 01:46:02 -0000
-Message-Id: <161197116249.10326.15121652645934700113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sat, 30 Jan 2021 01:53:45 -0000
+Message-Id: <161197162590.13871.4067878395286221896@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
   - ref: refs/heads/master
-    old: 0ba35fe91ce34f2d0feff626efd0062dac41781c
-    new: 8c22475148a8d3222be712bd02a74d7279d50daf
+    old: 2aa34fc0b919d3e0c779f1e1f77c4932d4b37804
+    new: d7103df2d70d5b3efb60ac7db49339e9e14c62cd
     log: |
-         8c22475148a8d3222be712bd02a74d7279d50daf net: packet: make pkt_sk() inline
+         d7103df2d70d5b3efb60ac7db49339e9e14c62cd owned: Updates and wordsmithing
          
