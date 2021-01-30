@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 30 Jan 2021 02:07:33 -0000
-Message-Id: <161197245353.21701.3809832373599457834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Sat, 30 Jan 2021 02:09:31 -0000
+Message-Id: <161197257190.22581.9216276272663399166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/tags/mlx5-dr-2021-01-29
-    old: 0000000000000000000000000000000000000000
-    new: 4678cdbe57a9280237f9347179265ffb4b495f3d
+  - ref: refs/heads/master
+    old: af932177014c04bccddcc0054f8cd79cce099c08
+    new: 065f19b4795665bf3cb0ff6ab8b2ceb4d3041678
+    log: |
+         065f19b4795665bf3cb0ff6ab8b2ceb4d3041678 ap: Fix cleanup on ap_parse_new_station_ies errors
+         
