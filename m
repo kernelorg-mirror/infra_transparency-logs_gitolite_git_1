@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7965777808518291635=="
+Content-Type: multipart/mixed; boundary="===============0766676118810375904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 30 Jan 2021 13:08:40 -0000
-Message-Id: <161201212018.21589.9886347753401732534@gitolite.kernel.org>
+Date: Sat, 30 Jan 2021 13:09:14 -0000
+Message-Id: <161201215442.21892.6099152089521927156@gitolite.kernel.org>
 
---===============7965777808518291635==
+--===============0766676118810375904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-rolling-stable
-    old: 4ae65a78221cd0bad3bfe98ede75aee63ae0b375
-    new: 259c381924ef08def4909e4ddfbfab6a70b3550c
-    log: revlist-4ae65a78221c-259c381924ef.txt
+  - ref: refs/heads/linux-rolling-lts
+    old: e43494ee7b19feae0e377ddff3bdeba86e4d825f
+    new: e9b995596d642d24697d9cf63121172d010ee721
+    log: revlist-e43494ee7b19-e9b995596d64.txt
 
---===============7965777808518291635==
+--===============0766676118810375904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612012116 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612012153 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1612012114-eafae7860764dda907fb97188a7df0864be0ac02
+nonce 1612012151-845bdd367a7d1f6bf7d41bacf33e9c27423bf9d8
 
-4ae65a78221cd0bad3bfe98ede75aee63ae0b375 259c381924ef08def4909e4ddfbfab6a70b3550c refs/heads/linux-rolling-stable
+e43494ee7b19feae0e377ddff3bdeba86e4d825f e9b995596d642d24697d9cf63121172d010ee721 refs/heads/linux-rolling-lts
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAVWlQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Kw8P/0q3mh3VWAXOZ82fmH/f
-2mY2BDTw9SsvWFliuEXWFUJ4V7dK1EBG7oEQ+dhwGPb6psL/NnTVDBJoMrXomPNi
-j9HkyRl1f9CajfEmc0F3yWM3U+6N+BO1QoBoYDwGaqi97+ShxLnUAki4fVe18j13
-ZqzhNkkXM8URLbSwjmp06EiEASKjG2GWaIUPuIfuzM4+HYRcelIKSvDj1l5ab0Vg
-WTrhs5IElvjQJwLC/N65z9a6CA61eAHbuKwTOSDwjuIQwU5L77MB7nYenAzVE/kt
-CpS/0wlfg3btWEmi+Nh0oPaCLK35dgUZ+G3SNw/tjnxr2stl2wAArC0k+uG7Sf00
-Ij2TZdAdWC+XfgxXGL58ZdrDh5N/Scvc6ELIu4PYqVUagD6WQoxJzxwSahU4dpPk
-OOn9NqKcN8P9erEGDDxsPIIqoZ1kSvHhxGmjpuWPQ77a/1XYWhLYXJtPq/mtRSTn
-6EZSqnndJG0QSAufXNnWXuVi5Qp5zdmq9yfE/DUN/ADueD7Lb7fXpzxldxI7Q0Xu
-VCRNg9Pwf3lqUN97aC+XANgbm/DgKbBiy5e3WUTmhk18WznflXSPGfaO3tV0nC6J
-4pHpY/sos2KvU0rHNSUnD61IawVw1pKeC9KW59+D4Pe6GcEtcTkRgGzBzS2Ya72l
-F53gXMeOEqqxzCmeeCgbl8m8
-=KCLN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAVWnkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YGYP/1rTAJlmOIsLv53mHxBI
+iuRpw6+U0COubcHmXxCbsGuvbUfZrvgbIuNzL+bFw+nhPwrduq37b+xrKii+BLO+
+YOATA6600+JWUyLRNUWk/nK/u9/WecaCo9/BbbmH/yQLr2T369WPQ61kY4zVLdOS
+wkMLjPkUEKJr3hoZGmdNCxFT0NygIJN1YQX/IOtMBQm+LuBqIQV2fhL3N67YhNYE
+35lo5Wh2X0AIs1Qyyfs1dtF+chj2NyFo8EJjLTxgD2otwNrqA+hFVTLxkAez1CKq
+4/u/R5zZQb9BXRI481gZtL/DGZ8N/SsonmSh6ciWHuGvHrQe9pHhCbpoBpAQcd3r
+DkWuBUk5y/WPL7h1wDxc0wSMqFQJN58vKYTpLwZTxrSiWhhWRG2i8YDXK3sHwazD
+l9nba6M+DuquzSV4zv4gHNvuJFBxFF/hKmIhYCw1f46TCdlISz/5qbHGFB/21Lp1
++Eok78wQl2mm6KxMqaSjVsPD0DAGsJfoftRPkQky5G8Ck/40+IE1oDB8h9FkFKGr
+H5pnugqeyneHOTexFYOG+kmjJ4QDx+zIspyxw+N9q+S4G7518uOXqXnZBLhBkDIj
+xu6YmnkbZRxhH33P30Qn02cYCYvhPcXHtVSlxOHP3kZzBeO+/gl+bGGNLYQoy1ao
++/fxv/yETnRiBMAehZOcXzAC
+=TUV/
 -----END PGP SIGNATURE-----
 
---===============7965777808518291635==
+--===============0766676118810375904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ae65a78221c-259c381924ef.txt
+Content-Disposition: attachment; filename=revlist-e43494ee7b19-e9b995596d64.txt
 
 43f2e6077f441d681f0337ab91f7c4c2d4c62761 gpio: mvebu: fix pwm .get_state period calculation
 bf5eb7d21ab01c12c35df05dddd15f9f2ad5ba71 Revert "mm/slub: fix a memory leak in sysfs_slab_add()"
@@ -90,6 +90,6 @@ cb14bbbb7bbfdb9da25d24cf14f52ef54eee1109 tools: Factor HOSTCC, HOSTLD, HOSTAR de
 861c2e349a36868f9c19a82844b2eb0abf20939b printk: fix buffer overflow potential for print_text()
 d5ac8304e18025a522b5d1d87629e926064ce134 printk: fix string termination for record_print_text()
 05f6d2aa7e2f2cdd137ee600785704139e6dd3b7 Linux 5.10.12
-259c381924ef08def4909e4ddfbfab6a70b3550c Merge v5.10.12
+e9b995596d642d24697d9cf63121172d010ee721 Merge v5.10.12
 
---===============7965777808518291635==--
+--===============0766676118810375904==--
