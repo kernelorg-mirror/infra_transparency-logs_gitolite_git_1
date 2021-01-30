@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6906147022186601376=="
+Content-Type: multipart/mixed; boundary="===============4235532192210750548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 30 Jan 2021 00:01:59 -0000
-Message-Id: <161196491931.12499.1116303809207358484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sat, 30 Jan 2021 00:04:22 -0000
+Message-Id: <161196506258.13273.12667653721402154483@gitolite.kernel.org>
 
---===============6906147022186601376==
+--===============4235532192210750548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 4c928ad676b54a10c5ebfd08608506228954640d
-    new: a42f1b4e5aefc735c1bca9916acb1e5d53d2af43
-    log: revlist-4c928ad676b5-a42f1b4e5aef.txt
+  - ref: refs/heads/queue-next
+    old: 245cb4dd6f94cec065a1c2297f3ef76357abbc8c
+    new: 9f3c37fa8622a12cffec4821853379871b41b10d
+    log: revlist-245cb4dd6f94-9f3c37fa8622.txt
 
---===============6906147022186601376==
+--===============4235532192210750548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c928ad676b5-a42f1b4e5aef.txt
+Content-Disposition: attachment; filename=revlist-245cb4dd6f94-9f3c37fa8622.txt
 
 6472fa31f1b54a1b3151a44d922e5fb16e36b740 net/mlx5e: bad style
 ec66aa8de6720f1020853709feebb8e7fd278e94 net/mlx5e: overflow
@@ -70,5 +70,7 @@ d4bdd737972f35515b541728b2f2411c9b40c08f Merge branch 'net-next-mlx4' into net-n
 d9a1afc61b036b2f5951eec99f373c4825581e73 Merge branch 'net-mlx4' into net-next
 b8f0a0eee4adbd8aa4f6a5698ee06b18b86b2904 Merge branch 'net-mlx5' into net-next
 a42f1b4e5aefc735c1bca9916acb1e5d53d2af43 Merge branch 'net-next-test' into net-next
+c23a339d2638e5aadc7dcfe2183bea044f33d993 Merge branch 'net-next' into queue-next
+9f3c37fa8622a12cffec4821853379871b41b10d Merge branch 'testing/rdma-next' into queue-next
 
---===============6906147022186601376==--
+--===============4235532192210750548==--
