@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2464717925606040702=="
+Content-Type: multipart/mixed; boundary="===============6407813216296639908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 30 Jan 2021 12:29:09 -0000
-Message-Id: <161200974909.19969.1408872965265302325@gitolite.kernel.org>
+Date: Sat, 30 Jan 2021 12:30:36 -0000
+Message-Id: <161200983677.4791.17995333025083043747@gitolite.kernel.org>
 
---===============2464717925606040702==
+--===============6407813216296639908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,215 +16,174 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 05ce0f14a1aeba5b8208b76b322db0b768019401
-    new: 62963a7f099d9e36c80fb75ca9a1950bcc0bb073
-    log: revlist-05ce0f14a1ae-62963a7f099d.txt
+    old: 62963a7f099d9e36c80fb75ca9a1950bcc0bb073
+    new: 3bea58ca534d42b4a8f5e72310d214300af1c653
+    log: revlist-62963a7f099d-3bea58ca534d.txt
   - ref: refs/heads/queue/4.19
-    old: 878798ccc2dbf0b0710d56b839f42cc6d962bd7f
-    new: e0071753878cb8fe55652732af2d22dd149dab3c
-    log: revlist-878798ccc2db-e0071753878c.txt
-  - ref: refs/heads/queue/4.9
-    old: 6cb2db3a6d706b5354134009232858ab0c3380f9
-    new: 1620440b7dfb8672c9c51f08438e2fcf30ee1130
-    log: revlist-6cb2db3a6d70-1620440b7dfb.txt
+    old: e0071753878cb8fe55652732af2d22dd149dab3c
+    new: c9b2fdf6558edcb15516b9a0715b561604c90e92
+    log: revlist-e0071753878c-c9b2fdf6558e.txt
   - ref: refs/heads/queue/5.10
-    old: 8f959d40b4976e80c3090acc22567dd3d4661783
-    new: f8beaa0306df8aec0d3b991db5807ea8fbc3f773
-    log: revlist-8f959d40b497-f8beaa0306df.txt
+    old: f8beaa0306df8aec0d3b991db5807ea8fbc3f773
+    new: 5ec47bb137de43f0753a1535194043701cacb52f
+    log: revlist-f8beaa0306df-5ec47bb137de.txt
   - ref: refs/heads/queue/5.4
-    old: dd375400a7bc92ebdec5553cb42d850fd9658af3
-    new: cb5fc1647bce74cae1850931dc425bb27a216510
-    log: revlist-dd375400a7bc-cb5fc1647bce.txt
+    old: cb5fc1647bce74cae1850931dc425bb27a216510
+    new: 120d23dade254cd7fc0c00427a077fdf8b15363b
+    log: revlist-cb5fc1647bce-120d23dade25.txt
 
---===============2464717925606040702==
+--===============6407813216296639908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05ce0f14a1ae-62963a7f099d.txt
+Content-Disposition: attachment; filename=revlist-62963a7f099d-3bea58ca534d.txt
 
-eb19c7f9df8f48feac3d38a6fe798009f8295729 i2c: bpmp-tegra: Ignore unknown I2C_M flags
-ab2d39b834ca77bef800312098d60e6a9e393da1 ALSA: seq: oss: Fix missing error check in snd_seq_oss_synth_make_info()
-1e673d1bc44a1651c965f7799fc61c7d2731b648 ALSA: hda/via: Add minimum mute flag
-23b6294d013f77bfeec623e75f0848d679fd426d ACPI: scan: Make acpi_bus_get_device() clear return pointer on error
-3a591fb12803f4407251b66a60f2e7a5846673ec mmc: sdhci-xenon: fix 1.8v regulator stabilization
-ad9de9992ace7e30593323a07f601dd5ca3cbd2b dm: avoid filesystem lookup in dm_get_dev_t()
-2fd06dc1bc0cc077dd59a8c089fbb6d9bf276f32 drm/atomic: put state on error path
-7761c0945a6055057963a7d59d2fae20e7e926c3 ASoC: Intel: haswell: Add missing pm_ops
-21d6dabe3af7ce80ea0ccd755e85509908796a7c scsi: ufs: Correct the LUN used in eh_device_reset_handler() callback
-240782fcd9846e7c3d41c814fa0935d5ac858fd0 xen: Fix event channel callback via INTX/GSI
-cc6cd2036c18545b7bd4e5394b89a0f749e4873c drm/nouveau/bios: fix issue shadowing expansion ROMs
-5a0759f955c36c643224cfb796a72d63f72bed88 drm/nouveau/privring: ack interrupts the same way as RM
-158a1c22fba49026a36846c88c0f3061622aea59 drm/nouveau/i2c/gm200: increase width of aux semaphore owner fields
-03c1297e36139d444e5625566cd6a2666ecfd23c i2c: octeon: check correct size of maximum RECV_LEN packet
-815928941630248c68fe267ee466013c62bfc587 can: dev: can_restart: fix use after free bug
-227d546d96e23fe9356f9b5549888fd24a395964 can: vxcan: vxcan_xmit: fix use after free bug
-e7fef821704698797b1ba5b949f12be267496d05 iio: ad5504: Fix setting power-down state
-85a45e06e31aa0fa839acabca813bc5c401b3649 irqchip/mips-cpu: Set IPI domain parent chip
-560efd17f2cc84354542051f02b73bc6383d7878 intel_th: pci: Add Alder Lake-P support
-40cf481812e64418fe628f89f4ecca11dffc7f30 stm class: Fix module init return on allocation failure
-7af53bb0c6f938e0aa72a069bbb5897eb9546e8f ehci: fix EHCI host controller initialization sequence
-a14f07ddf8f6623c080bacdf05c204bfbec2b354 USB: ehci: fix an interrupt calltrace error
-9894a91808b461aaa529697f780917ac68c233ca usb: udc: core: Use lock when write to soft_connect
-64ddc118b758008a51e7c4d1f27f74c5f33b1538 usb: bdc: Make bdc pci driver depend on BROKEN
-9c2e4a83df665132ea4c30c8227275376c494321 xhci: make sure TRB is fully written before giving it to the controller
-a1639b4e5b5bd0a35c7ecc9420deae0fb4d95e50 xhci: tegra: Delay for disabling LFPS detector
-eb2c1a301d3f2a3f9aa1cd275354b3e2189fbda6 compiler.h: Raise minimum version of GCC to 5.1 for arm64
-08feb2a66783c431a27121602b9fdcf8c4233f19 netfilter: rpfilter: mask ecn bits before fib lookup
-ac5b2c0705fadea9cab64b4e560eeab310618d07 sh: dma: fix kconfig dependency for G2_DMA
-6391d63c33e313fef306fe8d7c7e16056da037f9 sh_eth: Fix power down vs. is_opened flag ordering
-425cb1981b482416c9e7eee0e2f5bfe697914d2e skbuff: back tiny skbs with kmalloc() in __netdev_alloc_skb() too
-3925b30e3b008eed2c9ce3d7fd04916acba1036d udp: mask TOS bits in udp_v4_early_demux()
-6bc33ba302ed83baf3222c6326b74871779d4380 ipv6: create multicast route with RTPROT_KERNEL
-0f8910845a5fd0c694f541660a68050dfa597ca2 net_sched: avoid shift-out-of-bounds in tcindex_set_parms()
-cfe9684fbd2c6db3f8a59330df2ceae9c3b3db5b net: dsa: b53: fix an off by one in checking "vlan->vid"
-1a29859550fae63dc3dc5b240938be5b91a5f179 futex: futex_wake_op, fix sign_extend32 sign bits
-b227f3c0000ff7fc20ca295902f169023d74dfea gpio: mvebu: fix pwm .get_state period calculation
-9b46bb16da23906ba710355af04e9a6c6af1764f Revert "mm/slub: fix a memory leak in sysfs_slab_add()"
-468a266615088954b3dfd107ff8f4f5a90a9b7b0 futex: Ensure the correct return value from futex_lock_pi()
-545554c4b3c11682b2f2e38c61950f69b1d92abc futex: Replace pointless printk in fixup_owner()
-9ff5ec79cc6f15f95f362ac3dd2e6eafee899480 futex: Provide and use pi_state_update_owner()
-6de5c6c8763de2dba951db44b059629b85308312 rtmutex: Remove unused argument from rt_mutex_proxy_unlock()
-cbcbbc317cd6d2f62cd3a7768e8b574a8852d438 futex: Use pi_state_update_owner() in put_pi_state()
-a76488a01fd3b5c6fb6ef4b8642ffaeae2cf21b1 futex: Simplify fixup_pi_state_owner()
-d67f77bb0b9bfc8ca76d3741f92d4789ced23401 futex: Handle faults correctly for PI futexes
-1d18dd3527bc85f651a6fc108182d3f1a2590008 tracing: Fix race in trace_open and buffer resize call
-47784393a64b113b0000c5dc9d4f80b9b9bf6e22 x86/boot/compressed: Disable relocation relaxation
-f7631cc5fda509e9180523a2b559b78f3d5b22af fs: move I_DIRTY_INODE to fs.h
-43e8c85571c4cc57ecceb965de4e6158813f03c9 writeback: Drop I_DIRTY_TIME_EXPIRE
-62963a7f099d9e36c80fb75ca9a1950bcc0bb073 fs: fix lazytime expiration handling in __writeback_single_inode()
+b504c6555836a45b5a97fd95f7a521d2da4d556e i2c: bpmp-tegra: Ignore unknown I2C_M flags
+1207cab13645529e679abacc1fe777d08f1413fb ALSA: seq: oss: Fix missing error check in snd_seq_oss_synth_make_info()
+a772059dcbd12d2ba0478f7be9b88049574b52ef ALSA: hda/via: Add minimum mute flag
+21707fb2ffff1e9e632a3dd9e0eb8efe314488da ACPI: scan: Make acpi_bus_get_device() clear return pointer on error
+1ee0cfe92711950b7c26d0f12503a406d7a50700 mmc: sdhci-xenon: fix 1.8v regulator stabilization
+107ae744a34a4c0239644021dcce96730a005e5a dm: avoid filesystem lookup in dm_get_dev_t()
+121e18057355779e4ab1f8ccbd366003f60da3e0 drm/atomic: put state on error path
+f6b9e20af0e3fccd7be8eb360346a55659a64039 ASoC: Intel: haswell: Add missing pm_ops
+38d4059e0610ee281b2d8f951ff13ae6dd4023ee scsi: ufs: Correct the LUN used in eh_device_reset_handler() callback
+0007cf2a1b22416a9db5ca68b134cea8ef371480 xen: Fix event channel callback via INTX/GSI
+19a2df5e9e1e51f7196277423dc018d3f01d10c7 drm/nouveau/bios: fix issue shadowing expansion ROMs
+c4d049569e17e7897460e9a25a3d74fe04d22e2f drm/nouveau/privring: ack interrupts the same way as RM
+959ec7d1d73025eb147260be524d0fc0a52ce6d9 drm/nouveau/i2c/gm200: increase width of aux semaphore owner fields
+f12940c53e2c48a6f3191a073d1325854421f367 i2c: octeon: check correct size of maximum RECV_LEN packet
+3338840b02c709105c7ce7b96c77dc4ea6ebadd2 can: dev: can_restart: fix use after free bug
+c54e163f6b033f0562e0bf673aa1a24432d4c1ff can: vxcan: vxcan_xmit: fix use after free bug
+2cbe22f85e6fecefcd399fe31268db1f9265a3cc iio: ad5504: Fix setting power-down state
+e15ad972f0a82177863e7d4746b21059e1fc516e irqchip/mips-cpu: Set IPI domain parent chip
+7bff5c69276d6e13d4389aacadceff9059dd52f6 intel_th: pci: Add Alder Lake-P support
+b1decec14bf121022fdf5fa102507dc60edbd794 stm class: Fix module init return on allocation failure
+a73f5ba55e8d69fbba4ea0710d60a2493e5fea78 ehci: fix EHCI host controller initialization sequence
+a3975131860c8e4f61b6b0d5712133f8ad667e61 USB: ehci: fix an interrupt calltrace error
+ae08ac07110f14f45ac9d32d45682b72ad4b2905 usb: udc: core: Use lock when write to soft_connect
+ff73f1103e0f852aa5f6e3f277556e8b978b32c7 usb: bdc: Make bdc pci driver depend on BROKEN
+bc825abd266f7cde01b475a9b98bdd40d270a670 xhci: make sure TRB is fully written before giving it to the controller
+a94595111732c3bdd42becde226d9f4c6d65ba3b xhci: tegra: Delay for disabling LFPS detector
+c010766c81355bf70b7afde290ef3bb6dfaae24b compiler.h: Raise minimum version of GCC to 5.1 for arm64
+ac311763e24038963d2f518605f026d39732f4c4 netfilter: rpfilter: mask ecn bits before fib lookup
+15b935d6f953eba2436f7369b1b61d449063fb03 sh: dma: fix kconfig dependency for G2_DMA
+6d517ea8e11a702c4fa990feea4c328e4e551648 sh_eth: Fix power down vs. is_opened flag ordering
+720ef89056db1299f9ef116a58e88619012f18a9 skbuff: back tiny skbs with kmalloc() in __netdev_alloc_skb() too
+157fa305e09b6029a39d335feb736f6b6613d4d5 udp: mask TOS bits in udp_v4_early_demux()
+2810250caa6a68a2449ecd5417e046d0d0d57cce ipv6: create multicast route with RTPROT_KERNEL
+b946509bf178bb42f76611df26bd4d7b51db86aa net_sched: avoid shift-out-of-bounds in tcindex_set_parms()
+3bbd39118fe353678830870001b62324bc7b23fd net: dsa: b53: fix an off by one in checking "vlan->vid"
+633766eb696c69ee91e66e9578ba76c7e4ebf742 futex: futex_wake_op, fix sign_extend32 sign bits
+e87c3a38b910c2f54b2fd182b61e1e7bdd5aeefe gpio: mvebu: fix pwm .get_state period calculation
+37a1428470e2672c419bea2c5ae56b69bc934918 Revert "mm/slub: fix a memory leak in sysfs_slab_add()"
+4f186d699ae626fd49041f77855761742cd6615a futex: Ensure the correct return value from futex_lock_pi()
+e2f149ff59eb398cfd5a00812269ab6be58f5732 futex: Replace pointless printk in fixup_owner()
+4aacf7398547e7f08f5544063e484d440ae33117 futex: Provide and use pi_state_update_owner()
+17f4d5687b0074b0da8f411684c25850b8a9227d rtmutex: Remove unused argument from rt_mutex_proxy_unlock()
+3e1b8343f217047725ae4d9982179ec151975099 futex: Use pi_state_update_owner() in put_pi_state()
+cda25fb599dd938606ae3277d02cfac4275a5b05 futex: Simplify fixup_pi_state_owner()
+a6c11f258a4b1618bf734ec6af627236e2e6cfbb futex: Handle faults correctly for PI futexes
+972224d7998e2c0692295b2d90b3af55162623be tracing: Fix race in trace_open and buffer resize call
+89737db3b8360bb32129415888a78b2d102a8a2f x86/boot/compressed: Disable relocation relaxation
+6975e69c26bcb7b02127f6a02b73043fd18707f5 fs: move I_DIRTY_INODE to fs.h
+833ad2b7c365a3a50d14e3ae9313b3443e9debae writeback: Drop I_DIRTY_TIME_EXPIRE
+3bea58ca534d42b4a8f5e72310d214300af1c653 fs: fix lazytime expiration handling in __writeback_single_inode()
 
---===============2464717925606040702==
+--===============6407813216296639908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-878798ccc2db-e0071753878c.txt
+Content-Disposition: attachment; filename=revlist-e0071753878c-c9b2fdf6558e.txt
 
-11ab4beca15bcf2c75a3d2a998f2402b7e5a8239 gpio: mvebu: fix pwm .get_state period calculation
-4b0a620cef4c61ebf3ef1c9b3a36c147a883efd2 Revert "mm/slub: fix a memory leak in sysfs_slab_add()"
-cd0d6fb994095269cef73ddfdd3fcbb64ccfa441 futex: Move futex exit handling into futex code
-e6c4c316818e07fa5acb8903f2c3f0584d10369d futex: Replace PF_EXITPIDONE with a state
-0577dab04087e55e43635f039fa1976cbcfecafc exit/exec: Seperate mm_release()
-a25d72fda87cfb463f5aee5d639735fe84f2f037 futex: Split futex_mm_release() for exit/exec
-f514bb1d65c908a5f142ae578e00b228cc6ca417 futex: Set task::futex_state to DEAD right after handling futex exit
-a22e95f556ab5b4155fcbfcb00e61a2b5e6c8f04 futex: Mark the begin of futex exit explicitly
-e62f0695581741a602169d7de7962be8dc9a5288 futex: Sanitize exit state handling
-b1cf05da998cc59b147ce09f9eb1378ecf4b7bed futex: Provide state handling for exec() as well
-4e8250bce1b4e35a6e518c270f0b242da7f2111f futex: Add mutex around futex exit
-90e36dcae945f93580dbc5134a4cce703cca3b1c futex: Provide distinct return value when owner is exiting
-b4c38449369d54d252aac2b3dc73886624f8f302 futex: Prevent exit livelock
-645233477e9888d915511f355d29a13cfbea67d6 futex: Ensure the correct return value from futex_lock_pi()
-a699b54f710b851646ce911be7593968f50cdb8b futex: Replace pointless printk in fixup_owner()
-33f851032cc1bdf1ad7d8f8a911cd2188ae6e77e futex: Provide and use pi_state_update_owner()
-82d908dc6eb8de0bc2cfdea0d34ae3dcef99c0ff rtmutex: Remove unused argument from rt_mutex_proxy_unlock()
-031f8a40ca2265cf3b89585904f3fa6ef8310332 futex: Use pi_state_update_owner() in put_pi_state()
-362f8e4d27ccdd461ffaa992deef671e6f0a076a futex: Simplify fixup_pi_state_owner()
-e7fdb53e10cd67ca799c8f844f0a62f319bf0317 futex: Handle faults correctly for PI futexes
-e5d431808fce20b9cdc386a04a401b4de0ca9ab9 HID: wacom: Correct NULL dereference on AES pen proximity
-5a57962c62afdf939efc9e1052c2a881d1c0c286 tracing: Fix race in trace_open and buffer resize call
-e42bf575596d129514f7f00871e2a9270952397a tools: Factor HOSTCC, HOSTLD, HOSTAR definitions
-a69c0364899a11498a0bd5353ef9cccaa7626327 dm integrity: conditionally disable "recalculate" feature
-96422c1c24cf861a0a72e6638a3cbf5f4724048b writeback: Drop I_DIRTY_TIME_EXPIRE
-e0071753878cb8fe55652732af2d22dd149dab3c fs: fix lazytime expiration handling in __writeback_single_inode()
+41b0e9298ceeeb84107f49c9cdd1464c8d0b6dbb gpio: mvebu: fix pwm .get_state period calculation
+fb81e7920f6567180d4392faeedebef9923f1612 Revert "mm/slub: fix a memory leak in sysfs_slab_add()"
+c22e4e79b97e32e9bc6de0711448428b9bb05b4b futex: Move futex exit handling into futex code
+3b4e45cba30755c4858300a3e664ff881f3039ba futex: Replace PF_EXITPIDONE with a state
+67a1fc0eadd8983bca04f385665bf2b2aeb776d6 exit/exec: Seperate mm_release()
+0e68ca6a6914b6e8557057712d62daddbbd02e3c futex: Split futex_mm_release() for exit/exec
+c67f9845e7b3912d30c1aa2349b8cb0696eb2218 futex: Set task::futex_state to DEAD right after handling futex exit
+84959682f62474dc4378568f1511fa8f0aa43c7f futex: Mark the begin of futex exit explicitly
+dba0e3799d4952a2d754cbaf7f214cf233fa39dd futex: Sanitize exit state handling
+93b4d486e8ab684ce2bfafe472a9fe1936c28654 futex: Provide state handling for exec() as well
+d897ebf884d05458c185117d6fd2a0ac9b6e23b4 futex: Add mutex around futex exit
+6d63328ecb8ebbc1d04058d4fe5edc18a3351ad6 futex: Provide distinct return value when owner is exiting
+ef26cce14cbcb8dc5e6fae7bbcbb6c78ee73f56f futex: Prevent exit livelock
+e97f7cd346e7446de28d6b981d26819e13442a38 futex: Ensure the correct return value from futex_lock_pi()
+05b253e031d5f30230a900014faf427e5624aa45 futex: Replace pointless printk in fixup_owner()
+3857ac5623111cf0735192c70839168690aebb15 futex: Provide and use pi_state_update_owner()
+f38994db789fb6dce5019886091add6dc56c76b4 rtmutex: Remove unused argument from rt_mutex_proxy_unlock()
+e694267613549035b90c8ea26ac548ea073d3ebd futex: Use pi_state_update_owner() in put_pi_state()
+4ea3daa880763973d76c0a1b8b414269225e1b44 futex: Simplify fixup_pi_state_owner()
+ce0fbd23b868994eb82d4bbf2af89bf23a527582 futex: Handle faults correctly for PI futexes
+b53c8bd8db6922a9a3f87c9b03a813e3e2ae980e HID: wacom: Correct NULL dereference on AES pen proximity
+1f8b365ef552818b0e4d71245a554a3376b322c3 tracing: Fix race in trace_open and buffer resize call
+3a3d2978cf91857fdc7538a4d4afcfaa65efdd09 tools: Factor HOSTCC, HOSTLD, HOSTAR definitions
+05f6681e5a49ff0e097ca76cb8c56deb4d6b237a dm integrity: conditionally disable "recalculate" feature
+88dfe2e7fa784b82f93a936711ac1a908b01c94f writeback: Drop I_DIRTY_TIME_EXPIRE
+c9b2fdf6558edcb15516b9a0715b561604c90e92 fs: fix lazytime expiration handling in __writeback_single_inode()
 
---===============2464717925606040702==
+--===============6407813216296639908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6cb2db3a6d70-1620440b7dfb.txt
+Content-Disposition: attachment; filename=revlist-f8beaa0306df-5ec47bb137de.txt
 
-ddd02205d95ef1fd79871f139ed5a2ef5e0e6da6 ALSA: seq: oss: Fix missing error check in snd_seq_oss_synth_make_info()
-3a3f62ca12b6b3c0f36bb95391bea85dcd009cc1 ALSA: hda/via: Add minimum mute flag
-c179f5526e39aa9ad3d9b48e5953c62cb4d33b70 ACPI: scan: Make acpi_bus_get_device() clear return pointer on error
-c3c3bafe6a08ee8836450ade9596a40a3dd13c90 dm: avoid filesystem lookup in dm_get_dev_t()
-73c55807c30629d715eca54c2fc16307d88f64c7 ASoC: Intel: haswell: Add missing pm_ops
-987ecf5443fb7305cde7326454ce951b8e848262 scsi: ufs: Correct the LUN used in eh_device_reset_handler() callback
-25d78c2c680c03707f28a44b5def338e8b9e755a drm/nouveau/bios: fix issue shadowing expansion ROMs
-adb92fcdba465a0fbd820e85b1d040a33ef96f24 drm/nouveau/i2c/gm200: increase width of aux semaphore owner fields
-62d5599fa37c0ed42e03b5192b2f268ae36b689b i2c: octeon: check correct size of maximum RECV_LEN packet
-7afd591736ba0ec537d4170c3108991e36bf5bdf can: dev: can_restart: fix use after free bug
-fb088e571712cc25bbeb20fd10a19b00bc514c46 iio: ad5504: Fix setting power-down state
-1499ddbb1e965eb37b51e4eaf8714ca25bea0a4b stm class: Fix module init return on allocation failure
-fd653b9c6951a9739de222e6ddf077418a655509 ehci: fix EHCI host controller initialization sequence
-d06863d44422720f4802fb99eb1a9564ef572937 USB: ehci: fix an interrupt calltrace error
-b09a7e70fd7cdb45a272397d1087f9bfed06d783 usb: udc: core: Use lock when write to soft_connect
-2250458b7de4cf4b4839b8d86c552fb80cb6a1ad usb: bdc: Make bdc pci driver depend on BROKEN
-87e2b8a1ee4b3d13f91869f116bcd850f70efc12 xhci: make sure TRB is fully written before giving it to the controller
-ada4ea8752e6d0921df27e535a6d84b7cf9d9fb6 xhci: tegra: Delay for disabling LFPS detector
-28a602e75aafbcf6634e40647afdb5cc6a0ce464 bpf: Fix buggy rsh min/max bounds tracking
-77c25607ba4f2d88a3c4d5fbc6e912130d7d9028 compiler.h: Raise minimum version of GCC to 5.1 for arm64
-ae6ee34776732f309bb3c7b889bb31e93d24275c netfilter: rpfilter: mask ecn bits before fib lookup
-77a6dc2eba21b41215afafb27e81e2e417bc24b0 sh: dma: fix kconfig dependency for G2_DMA
-25be0cc4c2f37470c795b656b1ca8967e1ccc531 sh_eth: Fix power down vs. is_opened flag ordering
-0f67df46e0fa54c08c1a57fdb027dc400160791f skbuff: back tiny skbs with kmalloc() in __netdev_alloc_skb() too
-82ce91336c09b4186195407940969b244751647a ipv6: create multicast route with RTPROT_KERNEL
-68d10d8ba9bf1d661edabc649bc1d068799a8f73 net_sched: avoid shift-out-of-bounds in tcindex_set_parms()
-1f49fc00eaa81ca0384757c8075ce3a7ed783807 net: dsa: b53: fix an off by one in checking "vlan->vid"
-e06238e958c7ea652b3d312d7718bddd1449fbe7 Revert "mm/slub: fix a memory leak in sysfs_slab_add()"
-4a59a74b63dd724ca2c9f0a29674fcb638a6c928 tracing: Fix race in trace_open and buffer resize call
-1620440b7dfb8672c9c51f08438e2fcf30ee1130 x86/boot/compressed: Disable relocation relaxation
+ff23d7b40276b72ed42806d2702de69d41d63aee gpio: mvebu: fix pwm .get_state period calculation
+21f99909a41df0eee84a45ecd0cab8d757719906 Revert "mm/slub: fix a memory leak in sysfs_slab_add()"
+fc8e452d8910e7544f161637f814435e62a543fa futex: Ensure the correct return value from futex_lock_pi()
+ab466d90e466976816b33b5851c46314e141c744 futex: Replace pointless printk in fixup_owner()
+03f31d61db9a4a27b69e82e231513d06043fc5f5 futex: Provide and use pi_state_update_owner()
+b8a2eb4a557871309e600a7af1096a392403af40 rtmutex: Remove unused argument from rt_mutex_proxy_unlock()
+2df0f22d43d6bffa8d2f9971b15b46cf09e7e996 futex: Use pi_state_update_owner() in put_pi_state()
+9543f86be8f9778fa2658d2957383dfc7f8eb8fb futex: Simplify fixup_pi_state_owner()
+f71f7671c33f5a6549081b19691aba661ec66425 futex: Handle faults correctly for PI futexes
+6087bc9c0430257a79a27b73cbfc4e1b5733541d HID: wacom: Correct NULL dereference on AES pen proximity
+1cc4b403d282a9fac3103dace29da1413136cf71 HID: multitouch: Apply MT_QUIRK_CONFIDENCE quirk for multi-input devices
+ecbda52a0424c7e9896ca6cf5bbb6ceb0ac14674 media: Revert "media: videobuf2: Fix length check for single plane dmabuf queueing"
+9d99c74a791ef11af66c29863e9732aedcfc2435 media: v4l2-subdev.h: BIT() is not available in userspace
+749eaf258d118678e4cd385bb82bc23edc80ae70 RDMA/vmw_pvrdma: Fix network_hdr_type reported in WC
+8c99f99c31537bdd97951c5d9464124ff5e74f60 iwlwifi: dbg: Don't touch the tlv data
+357f4ad1344b8cf4ab0b31e77722a994c424f5eb kernel/io_uring: cancel io_uring before task works
+e0d6339196d931e67b329ca9e8c2ecdf4224ced9 io_uring: inline io_uring_attempt_task_drop()
+26017363dd61f07a26c7487e60ebf2beafefbbf5 io_uring: add warn_once for io_uring_flush()
+3d3a7337a98f1ce70dc698f434629f57cf1ae8db io_uring: stop SQPOLL submit on creator's death
+ace06116159eba6da2881bd16395d5025512bea2 io_uring: fix null-deref in io_disable_sqo_submit
+09b2222582a1410717fc811cb28c68fce70936a5 io_uring: do sqo disable on install_fd error
+c5d8cf3c4cb68f2008a56fa590c738595369a828 io_uring: fix false positive sqo warning on flush
+4e657aac201ce2a984723213adcb0b3cce7616f5 io_uring: fix uring_flush in exit_files() warning
+a0bb6da36fa487d068538558acd7cfd6774234a1 io_uring: fix skipping disabling sqo on exec
+1442ab1e79c970a2d9b490d4b7ef49cedd049c42 io_uring: dont kill fasync under completion_lock
+1694af47fc1d7ac4416545f69f62be39e792e15c io_uring: fix sleeping under spin in __io_clean_op
+a1e448c7f678626c739a1cdca7711aba043bf570 objtool: Don't fail on missing symbol table
+ee4caa49e0bf9f49d4ab774fa7a3205e25109bc6 mm/page_alloc: add a missing mm_page_alloc_zone_locked() tracepoint
+dba2f80db89a21df4ae08db8962cd91e6c7c2803 mm: fix a race on nr_swap_pages
+439abf1361c6b03b5f7971fb0c6a375f8cb7e557 tools: Factor HOSTCC, HOSTLD, HOSTAR definitions
+87a69df3ea2b826aaf63d4723b5498e351f3fd12 printk: fix buffer overflow potential for print_text()
+5ec47bb137de43f0753a1535194043701cacb52f printk: fix string termination for record_print_text()
 
---===============2464717925606040702==
+--===============6407813216296639908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f959d40b497-f8beaa0306df.txt
+Content-Disposition: attachment; filename=revlist-cb5fc1647bce-120d23dade25.txt
 
-48692b83ba70aa17728e43b326a349a17dcecbdc gpio: mvebu: fix pwm .get_state period calculation
-8875ea83551ed68281adf069879dc9f81448603d Revert "mm/slub: fix a memory leak in sysfs_slab_add()"
-57928b62e3c610af980c2273253d9110da17ff1e futex: Ensure the correct return value from futex_lock_pi()
-6b0222eb3ea22aac7d417f38498107d6ac889e5a futex: Replace pointless printk in fixup_owner()
-ebf8500414c95baf2cc81c7323b52082997fed53 futex: Provide and use pi_state_update_owner()
-9a5599c89368e7e03fd9ae1cb72fe9df2509c4f2 rtmutex: Remove unused argument from rt_mutex_proxy_unlock()
-7bdd5cad34bfdd5370e949cac0997db115d84983 futex: Use pi_state_update_owner() in put_pi_state()
-156f8f1bcecfde92af5d6511001aab6ee24d716b futex: Simplify fixup_pi_state_owner()
-6d34483339a28ecad708ae3242be41209ce152c9 futex: Handle faults correctly for PI futexes
-9ed172ff7cb268f80aaa4bb7c1ff9150f68096ab HID: wacom: Correct NULL dereference on AES pen proximity
-d42221839e982dfe7f95e6f79ed82dd880950ef4 HID: multitouch: Apply MT_QUIRK_CONFIDENCE quirk for multi-input devices
-2a3287aa72bf23d8c1cf5b53810a605fabe4a136 media: Revert "media: videobuf2: Fix length check for single plane dmabuf queueing"
-9eb4a1b98ba89741bfca852cd344e5af785bd147 media: v4l2-subdev.h: BIT() is not available in userspace
-e07306f95afee4bd58ac7dead8529ffd718d69e8 RDMA/vmw_pvrdma: Fix network_hdr_type reported in WC
-ba9b837d4d16de11b77057ba558c778a13d4c4f9 iwlwifi: dbg: Don't touch the tlv data
-f9dde385fb40d9c6dc0af63de19a0994f31c2e49 kernel/io_uring: cancel io_uring before task works
-a46a0ea6ab079c717e88a1a465a7b97b28376a8b io_uring: inline io_uring_attempt_task_drop()
-394590a797a9d1176bb6a060be42d6b9236bc2e3 io_uring: add warn_once for io_uring_flush()
-2871f0fd5789c446312540b9b541a7f6bc555603 io_uring: stop SQPOLL submit on creator's death
-976f866b907ff035ca4938410fed2e9f3dc37897 io_uring: fix null-deref in io_disable_sqo_submit
-72464487cd216ac1aa949090d6b17ec51a3dc355 io_uring: do sqo disable on install_fd error
-c7edfd65a20ffded6dbf9905a6bb4d47d18242ec io_uring: fix false positive sqo warning on flush
-aca960ba7f43b72bb28c250686a99beaf99b953c io_uring: fix uring_flush in exit_files() warning
-b1e958fc9ef4caac8354f10654b050223d542937 io_uring: fix skipping disabling sqo on exec
-bc7a122cda6b71a5be279aea7c90b89a268f6721 io_uring: dont kill fasync under completion_lock
-dce1103e07025d7ab4e00f5186f3ea07e53a1f2a io_uring: fix sleeping under spin in __io_clean_op
-73973ca7e616b9873af54ec25fc2bff0c41625c3 objtool: Don't fail on missing symbol table
-b22f2b8a552f733a153f8abff1abf2025ca18130 mm/page_alloc: add a missing mm_page_alloc_zone_locked() tracepoint
-72a8e325b2be9c838897b243fcab5d286a73652a mm: fix a race on nr_swap_pages
-84fe731fcdeaf7aeaa278c54a8899280084db7e7 tools: Factor HOSTCC, HOSTLD, HOSTAR definitions
-8bc996033bfb45c02d2ff7eaeba1241209ab0fa4 printk: fix buffer overflow potential for print_text()
-f8beaa0306df8aec0d3b991db5807ea8fbc3f773 printk: fix string termination for record_print_text()
+7c4de6d034105f448683a2f0a6d9045faaddfc58 gpio: mvebu: fix pwm .get_state period calculation
+14479835607466af401773349f9a60d3bb89312e Revert "mm/slub: fix a memory leak in sysfs_slab_add()"
+37472ea5538d335f6d6837245d7073f5669bb230 futex: Ensure the correct return value from futex_lock_pi()
+b219510504aaa49ed404f0e7f742e248dd12fddd futex: Replace pointless printk in fixup_owner()
+cb67befecadbef22a160c749eb1d8dbed7671804 futex: Provide and use pi_state_update_owner()
+4e40d581a80eb4ee25a93683c610d55e18fa4edb rtmutex: Remove unused argument from rt_mutex_proxy_unlock()
+002a057ac758c900a67e176bba051fa7c5562526 futex: Use pi_state_update_owner() in put_pi_state()
+b0ae7c52cc3439ddd82dbf6965c249a4e690dd99 futex: Simplify fixup_pi_state_owner()
+3f0ac8d906da996392f84b5d873223f76c52be2b futex: Handle faults correctly for PI futexes
+6ea6a3c5b74ee75b2017acb81e0378d24563cff8 HID: wacom: Correct NULL dereference on AES pen proximity
+413c6b422621e8f1fb164a8c086b9831d7a4c36d io_uring: Fix current->fs handling in io_sq_wq_submit_work()
+e2f1ee3f01ee46777020f5e8e8d3355bd72dfd3d tracing: Fix race in trace_open and buffer resize call
+35a20df5d75ec1234afd4cd1bab03dffd8e2634b arm64: mm: use single quantity to represent the PA to VA translation
+af1957ff0520de0a0ee302d395aafdfc9a04b9c4 SMB3.1.1: do not log warning message if server doesn't populate salt
+ca1f0887baa4ea42404423e0733a78c417e7a7c5 tools: Factor HOSTCC, HOSTLD, HOSTAR definitions
+0e3210d768769865a2bf071a95fe3f0e006db6aa dm integrity: conditionally disable "recalculate" feature
+89192b41ef677023d22cdfc4912eb2b1f59e9cd0 writeback: Drop I_DIRTY_TIME_EXPIRE
+120d23dade254cd7fc0c00427a077fdf8b15363b fs: fix lazytime expiration handling in __writeback_single_inode()
 
---===============2464717925606040702==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd375400a7bc-cb5fc1647bce.txt
-
-2e7a6d3af18a89ed6ebd4a25e0ffaaf861d486eb gpio: mvebu: fix pwm .get_state period calculation
-ceead28086cd79c0bc02d4d39201b9e34577cce4 Revert "mm/slub: fix a memory leak in sysfs_slab_add()"
-23fa4d90c069505799a6c687ebddec0ecb38cb41 futex: Ensure the correct return value from futex_lock_pi()
-10267c1ea73108a836a1573bba7c42b87a7a42da futex: Replace pointless printk in fixup_owner()
-55cf93c854a02fcf8db5e99d06fec6ddeb329730 futex: Provide and use pi_state_update_owner()
-e5a99d6b055824769eda957672645f0216beca02 rtmutex: Remove unused argument from rt_mutex_proxy_unlock()
-bc5524e3d0bd52274f3d0dda8562a3c3818b78e7 futex: Use pi_state_update_owner() in put_pi_state()
-b8b7b784f6520e49f29e0508b58f0b203a9cbcf0 futex: Simplify fixup_pi_state_owner()
-681d7ccd8e135a7bafae9f6f6f80abd66e6f9369 futex: Handle faults correctly for PI futexes
-eaef0a77d33fead7e91c3e20b43702989a45caf0 HID: wacom: Correct NULL dereference on AES pen proximity
-5491c8a52e98a1965feb8f54501bd671d3f21c1c io_uring: Fix current->fs handling in io_sq_wq_submit_work()
-4b5728bb00d539e7507abca9fdda9a244bec5b41 tracing: Fix race in trace_open and buffer resize call
-462231a6dc3448c72effb386b6982af13f356c7d arm64: mm: use single quantity to represent the PA to VA translation
-91bf691ebc69b6519606a9570741c5e92d05ce28 SMB3.1.1: do not log warning message if server doesn't populate salt
-ee43a8d5708a04f78895ff7a6a11cd4289230748 tools: Factor HOSTCC, HOSTLD, HOSTAR definitions
-e4c20e665c9fc82030929cee6c5bb96c5e926434 dm integrity: conditionally disable "recalculate" feature
-b96de335e9d52b4b69b5db3580993772cb1214cd writeback: Drop I_DIRTY_TIME_EXPIRE
-cb5fc1647bce74cae1850931dc425bb27a216510 fs: fix lazytime expiration handling in __writeback_single_inode()
-
---===============2464717925606040702==--
+--===============6407813216296639908==--
