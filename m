@@ -1,73 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Sun, 31 Jan 2021 16:02:51 -0000
-Message-Id: <161210897132.10285.6409615089856411869@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8464226717739189446=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 31 Jan 2021 16:10:31 -0000
+Message-Id: <161210943190.16911.18157380523182120080@gitolite.kernel.org>
+
+--===============8464226717739189446==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/change-keyslot
-    old: 6f40c6fcd3e350db7c95279ddf9ebad9b47c891d
-    new: 8928ecbb5712c6fc56558806bc9a4737a08c0d14
-    log: |
-         373d4c9848cba4f9f3d3813585294e7a234bb07b Disable alternative backends in CI build for now.
-         2addd4e15b63da171342893dbfadc04364f2038f Retain keyslot number in luksChangeKey for LUKS2.
-         8928ecbb5712c6fc56558806bc9a4737a08c0d14 Check if there is a free space in keyslot area early (LUKS2).
-         
   - ref: refs/heads/master
-    old: fa84d60586ba594d370d69eea8256826d115c4eb
-    new: 373d4c9848cba4f9f3d3813585294e7a234bb07b
+    old: be23dee9c53a740e8059d5d59021374b18a0a1df
+    new: 3f777d51e0c44dcc9fa6737ab57bfbdcf6d91f17
     log: |
-         373d4c9848cba4f9f3d3813585294e7a234bb07b Disable alternative backends in CI build for now.
+         3f777d51e0c44dcc9fa6737ab57bfbdcf6d91f17 drop s390-vfio-ap-clean-up-vfio_ap-resources-when-kvm-pointer-invalidated.patch
          
-  - ref: refs/merge-requests/127/merge
-    old: c840ae5680a4efc97e8b3c4e0a5721e90771208f
-    new: b09829c895d7cd41b4d786e2df8f1ea36760d73a
-    log: |
-         586b0a39d880fda11b6a5d9fab6afcd16d6976ff Fix dm-integrity HMAC recalculation problem.
-         362d523fa6b6eba8c2b9f6a78ddeb81c3b55c6c3 Fix previous commit error condition.
-         7dc4a336bdcd54bba61f22ce4cfea1aa67273ee9 Test crypt_keyslot_change_by_passphrase does not break tokens.
-         fa84d60586ba594d370d69eea8256826d115c4eb Fix crypt_keyslot_change_by_passphrase tokens bug.
-         b09829c895d7cd41b4d786e2df8f1ea36760d73a Merge branch 'ssh-example' into 'master'
-         
-  - ref: refs/merge-requests/129/head
-    old: 6f40c6fcd3e350db7c95279ddf9ebad9b47c891d
-    new: 8928ecbb5712c6fc56558806bc9a4737a08c0d14
-    log: |
-         373d4c9848cba4f9f3d3813585294e7a234bb07b Disable alternative backends in CI build for now.
-         2addd4e15b63da171342893dbfadc04364f2038f Retain keyslot number in luksChangeKey for LUKS2.
-         8928ecbb5712c6fc56558806bc9a4737a08c0d14 Check if there is a free space in keyslot area early (LUKS2).
-         
-  - ref: refs/merge-requests/129/merge
-    old: fdd952efdae6cd729e5def4e2096e31bac80b4f2
-    new: 5360e6d7f027dd08d4cf0c4733fb575232ef810f
-    log: |
-         7dc4a336bdcd54bba61f22ce4cfea1aa67273ee9 Test crypt_keyslot_change_by_passphrase does not break tokens.
-         fa84d60586ba594d370d69eea8256826d115c4eb Fix crypt_keyslot_change_by_passphrase tokens bug.
-         373d4c9848cba4f9f3d3813585294e7a234bb07b Disable alternative backends in CI build for now.
-         2addd4e15b63da171342893dbfadc04364f2038f Retain keyslot number in luksChangeKey for LUKS2.
-         8928ecbb5712c6fc56558806bc9a4737a08c0d14 Check if there is a free space in keyslot area early (LUKS2).
-         5360e6d7f027dd08d4cf0c4733fb575232ef810f Merge branch 'change-keyslot' into 'master'
-         
-  - ref: refs/merge-requests/51/merge
-    old: 586b0a39d880fda11b6a5d9fab6afcd16d6976ff
-    new: fa84d60586ba594d370d69eea8256826d115c4eb
-    log: |
-         362d523fa6b6eba8c2b9f6a78ddeb81c3b55c6c3 Fix previous commit error condition.
-         7dc4a336bdcd54bba61f22ce4cfea1aa67273ee9 Test crypt_keyslot_change_by_passphrase does not break tokens.
-         fa84d60586ba594d370d69eea8256826d115c4eb Fix crypt_keyslot_change_by_passphrase tokens bug.
-         
-  - ref: refs/heads/luks-dump-json
-    old: 0000000000000000000000000000000000000000
-    new: 79f27f6105deca761579fd52209b8e056f8d94ed
-  - ref: refs/merge-requests/131/head
-    old: 0000000000000000000000000000000000000000
-    new: 79f27f6105deca761579fd52209b8e056f8d94ed
-  - ref: refs/merge-requests/131/merge
-    old: 0000000000000000000000000000000000000000
-    new: 292981ff513954b39da7ae5fb422dbe942dfcd7e
+
+--===============8464226717739189446==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612109428 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1612109427-26abec3996b4f099bddbcf74efedfa16e93902b9
+
+be23dee9c53a740e8059d5d59021374b18a0a1df 3f777d51e0c44dcc9fa6737ab57bfbdcf6d91f17 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAW1nQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3kEQAL+PULly7R6qrv05fdRZ
+RWTsPyXx//NfcC8aQchFVjBQKxF3JV2R8ujMJKz3vWGXw93NbFztF0m2H2UpqOrp
+LicIEYVuUrBpfyon9kt9q1wfxJH6Zd9XzZPI4pd3Ypvz1CkmYvee6jlqoqKl/3Ec
+d1479aa0wkB9xJVw6Vi7OxY3Q3QjPyYRupm17SqkfOUhRKZyv5q1YfQM6NMJVfhd
+KwSo4ryZem8fbhZer+J1YDJptZVmcRKRvTjaPyfmHmvgh1YD9FkwiOm7HZ7QaFY0
+SSDh5wvWkzXskbyClXxjQwFSqwePlh3egIy4T+62xCOb1Y015hNpBRdLPVOwwkrW
+gJHFwFF9iCZKh3Kwyc3nFburR86bP1askTC6LvV07Do+3wZkKgp3fQgaM2OSHS16
+xO7HwTa4rOMVpYqmjdY5oB+Y9yT60IRyAM/3lCtRI+XdHUZ87bsLULSwV0OLy4eD
+RCIIoEDsPiLmgG3y+xl7StvpPYNt8YPCvDm+iew46pu0pYTPwQh6UAM+hUaWIhck
+nx0k5v02fkXD+wGqR9wqWv1gCRT8nxpkl0GKGxajNdq28UCiBwgxZjv6jqbjKY9R
+DI5MJO1NbcyGdeq3IjdVTKhNQHwEatx+RqjDmifixKaTXeWPci2AaWOeTZfxo7y5
+wosC+8lsx409uo+gzygpC65Y
+=egA5
+-----END PGP SIGNATURE-----
+
+--===============8464226717739189446==--
