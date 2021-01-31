@@ -1,74 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============3444519406973322151=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 31 Jan 2021 15:48:48 -0000
-Message-Id: <161210812864.1570.4278068815966949631@gitolite.kernel.org>
-
---===============3444519406973322151==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sun, 31 Jan 2021 15:50:04 -0000
+Message-Id: <161210820408.3047.15915383856011482930@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 8b467cff7a15dfbd4de45d24dc6a0d6f42138c07
-    new: 0cca665a891823ad2aaef524d985536a7d011fa8
-    log: revlist-8b467cff7a15-0cca665a8918.txt
-
---===============3444519406973322151==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b467cff7a15-0cca665a8918.txt
-
-5c6962ef932b75379c60c7c12f9ac33d1096571d Sat Dec 26 15:32:52 UTC 2020
-e89908fd17e3610fc899f6545d3acfddde4bc267 Sat Dec 26 20:22:36 UTC 2020
-a30dfe8c466136baff949a4137e23ce0d61670fe Sat Dec 26 20:47:48 UTC 2020
-4f1dcb75dd2c50df501a6cecfb9386e2f4253beb Sun Dec 27 21:29:14 UTC 2020
-d1c8bb917a64a7767200e32bcefa8e43c1a38021 Sun Dec 27 21:35:37 UTC 2020
-fca12d3ba422951098f8c2200e0df978fb2a685a Mon Dec 28 04:56:42 UTC 2020
-8fc282ad9c5064d8fe4a85724a736e9b09590802 Tue Dec 29 21:37:30 UTC 2020
-18a4ed5ee24a7d132291c3a308fed6581c276f2a Wed Dec 30 07:04:32 UTC 2020
-5fef22feb009ac94ac9fa6a97ddaeed3f02838dd Thu Dec 31 14:18:00 UTC 2020
-f97de5a12fd56c9b74f134bcb6957c1b94822dc5 Sun Jan  3 17:57:20 UTC 2021
-ddd7fb3e57a0ab43261f13b7081b34be5a67982a Mon Jan  4 05:31:27 UTC 2021
-3c358ff04f253237207cd020751a46570fcf15f7 Mon Jan 11 06:09:03 UTC 2021
-28e52a0646c32eb894f932003566f600b63de8a8 Wed Jan 13 15:09:58 UTC 2021
-4c2a1b6c1d92ace07fd12a91e6f0df74ffd74f98 Wed Jan 13 23:29:04 UTC 2021
-b6896063b06de38d05730753021e8487b5ceb26e Thu Jan 14 05:39:26 UTC 2021
-3414bbe7f944f438eb8a60f14c406daed5b89e80 Fri Jan 15 09:22:19 UTC 2021
-ced837f0ac7b507bc108a14e5f6d8b0ce736bd9c Fri Jan 15 16:52:31 UTC 2021
-dae6f0266f7b961a35b59292691a14eed56c173d Sat Jan 16 06:05:02 UTC 2021
-dbceb89ee423cd0feb602b17093d1608589b42a3 Sat Jan 16 15:07:15 UTC 2021
-45ec68f593e202a27eba346da75f85b6fac9d3cf Sun Jan 17 00:29:45 UTC 2021
-cbc582908764824c937fc79d7043e970fa301bf2 Sun Jan 17 09:39:46 UTC 2021
-74ed2dc5751be95660a3a2a00ac0bfce6eab1337 Mon Jan 18 01:33:52 UTC 2021
-f4bdd235c3075e3682ace882d5d4e50637d3e249 Mon Jan 18 09:51:50 UTC 2021
-c502edd1a5e2f706a7f79a464e77cfc1039f9427 Mon Jan 18 21:56:34 UTC 2021
-9de35efe2794d32a13ace6463719853827d542ce Wed Jan 20 05:41:53 UTC 2021
-4f93978e90b577cf92034f1bc23b4c66f6fe25fa Thu Jan 21 02:22:00 UTC 2021
-2e9a2478e085620d3086d0df781c685b7ebd6e10 Thu Jan 21 09:32:27 UTC 2021
-7ed143250911111298918a62484f9a56664dc4e3 Fri Jan 22 02:00:07 UTC 2021
-8020d5bf1344da3259e03764e1e603c6f7e75b8a Fri Jan 22 11:21:53 UTC 2021
-00abcbd4cb9a659a4edf52e9b0ce4137e1a3f714 Fri Jan 22 12:59:03 UTC 2021
-9851f5f7c3e830de376e56d319f5a294a0da3e7f Sat Jan 23 10:02:23 UTC 2021
-3d7f3095c14ab8ce63c834839b634252d4752b9d Sat Jan 23 15:33:49 UTC 2021
-d892cd1a7509d3e697c7185ea823302bc3b0ddf7 Sun Jan 24 04:06:48 UTC 2021
-ee3f04679511ef3071da91171b5a1c11014d227c Mon Jan 25 00:29:09 UTC 2021
-e6007719efedca220cc63e4519f4f1212caa942d Mon Jan 25 12:31:36 UTC 2021
-5e7bc80c72bc4e8293559cc1d3531c36c70a7d96 Mon Jan 25 17:54:37 UTC 2021
-d43b216537ae20c01dc5643dc6ade495719e650e Mon Jan 25 21:08:36 UTC 2021
-9a9c4b1d1ab2c57fb4f92855967798a42217a3e1 Mon Jan 25 21:13:30 UTC 2021
-035928db6c4018a5d1e264eb45d2028d443d81fa Tue Jan 26 02:05:58 UTC 2021
-79df4e45b0b3a100e1aed8abfaaa061432ae7324 Tue Jan 26 20:59:54 UTC 2021
-06ae13c06a68d0e5cabb04a96f28bab571c84db9 Wed Jan 27 00:30:36 UTC 2021
-25697c5476e3c30746b7f44df3f4ac3c0cecc5dd Wed Jan 27 00:43:43 UTC 2021
-1bd1367f7256d07993ddbda3f32d46b5bb23a58b Wed Jan 27 21:03:45 UTC 2021
-0cca665a891823ad2aaef524d985536a7d011fa8 Sun Jan 31 08:30:11 UTC 2021
-
---===============3444519406973322151==--
+  - ref: refs/heads/for-5.12/drivers
+    old: 9abe47cc5cbeda75a1ae2ffe6bb8636a0327eddc
+    new: e8628013e5ddc7cf78cc2f738ab760e8c0fa8559
+    log: |
+         e8628013e5ddc7cf78cc2f738ab760e8c0fa8559 drbd: Avoid comma separated statements
+         
+  - ref: refs/heads/for-5.12/libata
+    old: 10340f8d7b6dd54e616339c8ccb2f397133ebea0
+    new: e53d76e61ec0dbd52cf784993fde927cb9fe0fed
+    log: |
+         e53d76e61ec0dbd52cf784993fde927cb9fe0fed ata: Avoid comma separated statements
+         
+  - ref: refs/heads/for-next
+    old: 78f6a14d9d45b6a5a502b62ee75f7448578d02cb
+    new: 9f9a2dbc64aa15cb2c3b17def6ececdaaac90bd5
+    log: |
+         e8628013e5ddc7cf78cc2f738ab760e8c0fa8559 drbd: Avoid comma separated statements
+         e53d76e61ec0dbd52cf784993fde927cb9fe0fed ata: Avoid comma separated statements
+         f01af4d116fe74f07b69f88f8dbd27f1757fcdc1 Merge branch 'for-5.12/libata' into for-next
+         9f9a2dbc64aa15cb2c3b17def6ececdaaac90bd5 Merge branch 'for-5.12/drivers' into for-next
+         
