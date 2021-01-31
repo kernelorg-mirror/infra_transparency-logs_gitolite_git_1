@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1186306898171298359=="
+Content-Type: multipart/mixed; boundary="===============5651925638807301698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 31 Jan 2021 15:52:38 -0000
-Message-Id: <161210835864.4312.6330320128676594895@gitolite.kernel.org>
+Date: Sun, 31 Jan 2021 15:52:41 -0000
+Message-Id: <161210836166.4392.14294960989770747562@gitolite.kernel.org>
 
---===============1186306898171298359==
+--===============5651925638807301698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,44 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 8020355f44545d6e69179d49d317130132a121cb
-    new: 08f929332ff352a79f6e78436759afe01663f85c
+  - ref: refs/heads/linux-4.4.y
+    old: 65554cacf4bd9204edd0220b6194cc547124c997
+    new: a3e94a05f303bcd730c0f5373658acc3a9f2d135
     log: |
-         173cdab85b3fc4c196a44a9adf83fdec079583d9 ACPI: sysfs: Prefer "compatible" modalias
-         bf102f02adf7ee882762a3b49b54390a7f5e0d8b wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-         da4a2f2a94a4ff0178640e88b99c6f6facba89fe net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-         08f929332ff352a79f6e78436759afe01663f85c Linux 4.9.255-rc1
+         ab7e1b59503552f7e897486b3e8ccc309e970781 ACPI: sysfs: Prefer "compatible" modalias
+         328625497a9079b9c6d24a3d099d19941f5f7550 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+         5c040640cc169a9ead4c5f5c9afcfa14bedf15cd net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+         a3e94a05f303bcd730c0f5373658acc3a9f2d135 Linux 4.4.255-rc1
          
 
---===============1186306898171298359==
+--===============5651925638807301698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612108357 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612108360 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1612108355-3b1e74006756c06cb4bd8bc03d976e785b37f5a8
+nonce 1612108357-803d0653d92757197eaa4e979e7a596265e01fc3
 
-8020355f44545d6e69179d49d317130132a121cb 08f929332ff352a79f6e78436759afe01663f85c refs/heads/linux-4.9.y
+65554cacf4bd9204edd0220b6194cc547124c997 a3e94a05f303bcd730c0f5373658acc3a9f2d135 refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAW0kUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3iIQAM9I4jxC1CVjOAFDnNh+
-I6ffWJUFMPRimtbO+EINyvAJhlRIlC3o0TQ386mtG1IWu0oQhzKD+9+00A49MTsK
-JiUTF7mFXGVy6h6tQWEartwzNRoAUU35rlmU3aD7pOC0x9Eumx0LSNHGiwRM7X4C
-g69EGokp4sIAfyFO+E52EINkZ8dAF/PteXsQgOP/gDYVd3aE9euGspqh4BO7JyMn
-m+ICkrrrf9x+CPIJICcL/U7CB5FGCnYzhD3iDTqmb7bduiqNWrh2JKmJgtqjQAjH
-5viXLwCyuCmjgMUSIzRgRwS6CQRx7XdlZyY8qJpS2PHxNNFYgfCqbhGx3BhvOsmM
-RlHb2v39bLN6VlSe8cltNEAJi73XAzZZUvkYvphhtvXh+FlU62u+lIMCsZz6VIVr
-15Ja5g8JTaf74Ip3ueVPlPocPMOINGraafuyYqMMi0CDq1TKGNJVZ0IIiKvtLp/q
-/1wieGKD30Yud9pLMRarACpwGRcRDkWc3fmhcmPBygUSKOHk9S7ethXRU4CmOoW+
-GMrSznza2YfOYS8O7u7bmHNZ43qHZgbfpqVdS/OP6wwYJEClRjCUwcJuB4KguDUc
-+5mZcqrDacr9tz4QYhJMvFPlTrAV7Kwf96pBbkVt+4AlWyrbN8WwrQVL+fiDOsE0
-73QY+jWHBZAkJwgDBBNwhCob
-=NgS7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAW0kgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ch0QAL5IcTv8OQOsNewIgKA0
++RspoiaOPgdPLWGs1FO8+7yHbichR2jxqrmVlzioEqmjgTVUoxgOB5roe3sg1POB
+sBlA3DlBfGFwLmzMoiYO/seIi5+KT7KFkgeJL0lx/XROwWFrh8t1EYh48pqrf1sm
+kuqQ3wyLR5+xXK2iXFIWaWRi1M1x2D1/XfuUZGIvxIOGfFaMDgkG5EZeSS2jyUwU
+beE8I8iRyjsgljlxoIBx4TZMTFgMpyYcak4//+5IdqcxuYiDuT7QhF7kGD+tpHL9
+HWRqkpVkc7PpeDFKm13ek/0ZxasKBZqq8FemRujqsovd9FqSnzmRf0qyvIMAfvNV
+E/JZX+pM92z5eu86RU/picKi7z2I09nKx0/UTIOkLSnwx861NTYfpon1pk1L7sH0
+wIQC3CfIRWWSgb1/SG1OJlxqn7pYSUz2r1Cjnpmdh9ckFBnFCRxOtrLangqUHoFF
+A3fgxRnNT/q/89Vi1et5Oaba5xYcZrPOCF1DcE3CFvhjs17wcsWQmvujrwhrPvzc
+AV3UwhM2CGds0afnl+nSVwE6juClgBcFh8o1wc5emAlaPmtPJlNbA7hwnDzhWsup
+7Ov4w3IrOh5ey1MRJOHs8cw7FJyKZeRWJVqn+jiHrYlSxQ3Z2ghBAS+geQ227swB
+QSuVsLbLxdCVZCGMNIoeLnSq
+=2BN9
 -----END PGP SIGNATURE-----
 
---===============1186306898171298359==--
+--===============5651925638807301698==--
