@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6562025678775848771=="
+Content-Type: multipart/mixed; boundary="===============7429213361865083762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 31 Jan 2021 16:13:26 -0000
-Message-Id: <161210960654.18084.2558383200311338951@gitolite.kernel.org>
+Date: Sun, 31 Jan 2021 16:15:08 -0000
+Message-Id: <161210970858.20756.1851050529670333076@gitolite.kernel.org>
 
---===============6562025678775848771==
+--===============7429213361865083762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,111 +16,111 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: c58ba16233a8e639ec7517e1435c527f8e0dedee
-    new: 40420f5ad46af3558caa992906571bf4a297bcb9
+    old: 40420f5ad46af3558caa992906571bf4a297bcb9
+    new: a35d3dd510475e66c30be9cafe7ae902d3dbe1f7
     log: |
-         fbb18611f09acee774476a713dac96f15de798b6 nbd: freeze the queue while we're adding connections
-         222132841e21dbb1462b89093c045c4c494a04e9 ACPI: sysfs: Prefer "compatible" modalias
-         f11c397f40aa0fe57724b1b6cb4427253e797ebb ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
-         377d04c7e3d98b6a65178f95eb12729f627620d6 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-         40420f5ad46af3558caa992906571bf4a297bcb9 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+         7a7b8af459adf430fb9288bddb8295dbf8fda5b8 nbd: freeze the queue while we're adding connections
+         b7be0e796fb2603dad5a2bf7958d13d3abb0920c ACPI: sysfs: Prefer "compatible" modalias
+         5a5e674713dd8f6801202b724d17e9bc2cea1ac6 ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
+         ef9c73fcdd1ca391cc0cc65d0b4d66d3d1079d4d wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+         a35d3dd510475e66c30be9cafe7ae902d3dbe1f7 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
          
   - ref: refs/heads/queue/4.19
-    old: 3994648279fd53bfaf3db394d76323a00c73731b
-    new: 0a089ba894adec06f85deac882f806169191dc69
+    old: 0a089ba894adec06f85deac882f806169191dc69
+    new: 8a93a17a15db408c2b02067f1ec98d08780c76e0
     log: |
-         8f3c23b483b41f30c14364082065b26cb27c2479 nbd: freeze the queue while we're adding connections
-         644aca1bd5b0248f22847b9c74b61b35843f6947 ACPI: sysfs: Prefer "compatible" modalias
-         eea5da28ac13798980b901cba7f019764e8290e4 kernel: kexec: remove the lock operation of system_transition_mutex
-         39dfefb70df6f8ebf431d2d1f73a23a9fd123676 xen/privcmd: allow fetching resource sizes
-         cbc7ea91966a23b9cc18863967d8234f80467fe8 ALSA: hda/via: Apply the workaround generically for Clevo machines
-         b5e73244e4f83b1dd75862924c2d5594e9b457ba media: rc: ensure that uevent can be read directly after rc device register
-         8bd4ea20def6dc91890e415c1bb2f22290b87a6d ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
-         44d764f3c59a950d0b05500786229fb44944eb83 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-         1b860158b4d3b88ccbeae3e7ca8db483ffb62871 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-         0a089ba894adec06f85deac882f806169191dc69 PM: hibernate: flush swap writer after marking
+         ef3e753d81336780912e64e8e2a5a1d1bca683f4 nbd: freeze the queue while we're adding connections
+         7067fe69097800336b32e52f719f10aa9befb3fb ACPI: sysfs: Prefer "compatible" modalias
+         e4008258dafd931724b041798e7db1220ae49f4e kernel: kexec: remove the lock operation of system_transition_mutex
+         73bfc450f3850a9d7d366c9aab3c97c86e12e0a3 xen/privcmd: allow fetching resource sizes
+         27bb859ef61b3c879170ad410cfefc1b674cb249 ALSA: hda/via: Apply the workaround generically for Clevo machines
+         1a1ef9f1edc7af6ff4fe6b30ca537cf562a6b205 media: rc: ensure that uevent can be read directly after rc device register
+         25270641e2f3a7b2c98e9dc45d2ec68b7673788a ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
+         1bebf475260c3b7bc7fe9ff3253702d9de009fba wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+         e0a45a6cedb11f858a8795d818af968e9f2dcafb net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+         8a93a17a15db408c2b02067f1ec98d08780c76e0 PM: hibernate: flush swap writer after marking
          
   - ref: refs/heads/queue/4.4
-    old: c9441d45a5265edf637a922492bcb19c5899a506
-    new: cbae953ac9b3eb1e5883993e851154aae332b7f9
+    old: cbae953ac9b3eb1e5883993e851154aae332b7f9
+    new: caa36223a4a962742d028f8443d958f7c522840f
     log: |
-         b8594a3f44294bce81bc9660e4ce55354ae7d3dc ACPI: sysfs: Prefer "compatible" modalias
-         cacdfea32a90fd3997afa31a51a52ce893336a3b wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-         cbae953ac9b3eb1e5883993e851154aae332b7f9 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+         d5363927a08ca69666401bddd3be94c0991d9933 ACPI: sysfs: Prefer "compatible" modalias
+         e92fcc6ce133998facbb13a40ba7878f7df0cb42 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+         caa36223a4a962742d028f8443d958f7c522840f net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
          
   - ref: refs/heads/queue/4.9
-    old: 1ef1a4ed104f52a623e68ee905853ccdf2bd485e
-    new: 7fe9aacee10c84e8d53a9840399ddc44ce604f97
+    old: 7fe9aacee10c84e8d53a9840399ddc44ce604f97
+    new: 3946bf8b16e7233e072d8094983633f1031feb93
     log: |
-         14a80d105e664213750c3480d77852b195b92f1b ACPI: sysfs: Prefer "compatible" modalias
-         e33abb9de1f418b871510db7d84565faf31a800f wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-         7fe9aacee10c84e8d53a9840399ddc44ce604f97 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+         8fe904814f7a19727941a30eec8efe2947820c6a ACPI: sysfs: Prefer "compatible" modalias
+         17bdf023d7e69f2f0121a58bed6a69f211bd5b91 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+         3946bf8b16e7233e072d8094983633f1031feb93 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
          
   - ref: refs/heads/queue/5.10
-    old: 1118eaaa56dea6e8c7b521a2dfa3c253cbd104fa
-    new: eb5b07f5983b0483374b68c718c33a801ccf2539
-    log: revlist-1118eaaa56de-eb5b07f5983b.txt
+    old: eb5b07f5983b0483374b68c718c33a801ccf2539
+    new: 38757cf9716b32dc71c4fed9c6a30dd2e2579794
+    log: revlist-eb5b07f5983b-38757cf9716b.txt
   - ref: refs/heads/queue/5.4
-    old: f8c2e725cd4f3306283f84a7bc8516cc971f4c81
-    new: eea0c7d27c5b388d5d5f326d0024c6439ff220a9
-    log: revlist-f8c2e725cd4f-eea0c7d27c5b.txt
+    old: eea0c7d27c5b388d5d5f326d0024c6439ff220a9
+    new: 26fa1633c7ed7ee69e1b2cbe34d251ae796f1d15
+    log: revlist-eea0c7d27c5b-26fa1633c7ed.txt
 
---===============6562025678775848771==
+--===============7429213361865083762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1118eaaa56de-eb5b07f5983b.txt
+Content-Disposition: attachment; filename=revlist-eb5b07f5983b-38757cf9716b.txt
 
-c1561bb99ffe6b7d3af0b92344ea1fbf0448ac30 iwlwifi: provide gso_type to GSO packets
-debb2fb1ca3ebb13c0b1e2697b7dda679b516fd4 nbd: freeze the queue while we're adding connections
-417bf29343a3f0ad3394371c3720ec1be959ab29 tty: avoid using vfs_iocb_iter_write() for redirected console writes
-bbd321ac2b7ed77979222bf4b733353353c7f414 ACPI: sysfs: Prefer "compatible" modalias
-15b575b123e8a4d6bdc786273a2862a58efd04b2 ACPI: thermal: Do not call acpi_thermal_check() directly
-6b4d809146a1b95c9fde002a1562d8bc1c0a6628 kernel: kexec: remove the lock operation of system_transition_mutex
-6b577e29fec2ddea80d28c40d607b64bedd43816 ALSA: hda/realtek: Enable headset of ASUS B1400CEPE with ALC256
-3e9603802fe3b2e2e3c2296588f7ec607910bbc0 ALSA: hda/via: Apply the workaround generically for Clevo machines
-ea089800587f3ed195ac47c1f9e8cb793ff7dd52 parisc: Enable -mlong-calls gcc option by default when !CONFIG_MODULES
-5400a9ce40ade780cb556c7315befae62f970f2a media: cec: add stm32 driver
-1d98cbbce91bc7e44be987b81d4c992988b3a7d9 media: cedrus: Fix H264 decoding
-718331f1d43d6bdfd287fd1142acbce586de1266 media: hantro: Fix reset_raw_fmt initialization
-6d4adef3abf890928919afa9b9b87fec16761586 media: rc: fix timeout handling after switch to microsecond durations
-55215a637172649b69c85865a50e030113d71a5b media: rc: ite-cir: fix min_timeout calculation
-7af17afcf6505213aacd1645561aef107391194e media: rc: ensure that uevent can be read directly after rc device register
-f6785a6f712b28bb967bb544bdef3cde4820c86f ARM: dts: tbs2910: rename MMC node aliases
-93b02397b549014cfbe33c54af41eb0ef8d7a71c ARM: dts: ux500: Reserve memory carveouts
-72d3477730dea4cfec78cad199bf34ac44bd45f8 ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
-ded012b276d0bc6406f57ade4898bd34f80c3dd4 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-3f07b8627d440a85fc75f92e3c722f2a53249ea5 x86/xen: avoid warning in Xen pv guest with CONFIG_AMD_MEM_ENCRYPT enabled
-e40b50e3ac5a4f39de67fb1fe7c7003004a1c5a4 ASoC: AMD Renoir - refine DMI entries for some Lenovo products
-c21f0c09cfd69242e0af014d0f7b5d0f32efede5 Revert "drm/amdgpu/swsmu: drop set_fan_speed_percent (v2)"
-5bd486e3181e933851c59affd6246a773882f472 drm/nouveau/kms/gk104-gp1xx: Fix > 64x64 cursors
-1ef42aec7980d540a48095b97dd1f6c3f2ae5d0d drm/i915: Always flush the active worker before returning from the wait
-75fd69f43874cb5f95d187f668a37595753117bb drm/i915/gt: Always try to reserve GGTT address 0x0
-d0b74c50f0809d6bb91591df04fef4586833355b drivers/nouveau/kms/nv50-: Reject format modifiers for cursor planes
-f9aa3cd7ec9e7c0e3b79684d622fbe9f32afef73 bcache: only check feature sets when sb->version >= BCACHE_SB_VERSION_CDEV_WITH_FEATURES
-ceaaa7f26e8665d45e744c32a9c48cc0d84251b4 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-43795282ba9a29d98ec1e3b0f8465ac77e76c694 s390: uv: Fix sysfs max number of VCPUs reporting
-a371815ba3937174208be295aa23dc881db43b53 s390/vfio-ap: No need to disable IRQ after queue reset
-eb5b07f5983b0483374b68c718c33a801ccf2539 PM: hibernate: flush swap writer after marking
+7f6dc48eb072b9c09000c557cec78bb765613eec iwlwifi: provide gso_type to GSO packets
+3d5c4acd55192a21c1ee10e15fb77e8b4276b9fd nbd: freeze the queue while we're adding connections
+e2126c03826099863b40e27692adb6b59ba27a56 tty: avoid using vfs_iocb_iter_write() for redirected console writes
+d9785aaf6087e26cf0f050ae3c5431cb1fda6272 ACPI: sysfs: Prefer "compatible" modalias
+5a56342f8573f4639d3049ea5efaac863e8261ce ACPI: thermal: Do not call acpi_thermal_check() directly
+7ada4a55262ab7d25707e0bc968dad2f27d78ad0 kernel: kexec: remove the lock operation of system_transition_mutex
+a9b3cde08b941a2e9d84d50b1b8857956df7e285 ALSA: hda/realtek: Enable headset of ASUS B1400CEPE with ALC256
+bf47499c126589ebe038c35d62ad9f23b8383da1 ALSA: hda/via: Apply the workaround generically for Clevo machines
+8a5136887184747956650069c8e6137e615fa97d parisc: Enable -mlong-calls gcc option by default when !CONFIG_MODULES
+9ab9db7532226c2746a34e9b361fc29817ac4dbb media: cec: add stm32 driver
+c06962e055c57c1613d6ca36ed22d89cc16a46d8 media: cedrus: Fix H264 decoding
+b8dba85b7a44fad0101a015887fb61699b0ea8f2 media: hantro: Fix reset_raw_fmt initialization
+d462a9cc29ec65295976429f13eae465fd75daf6 media: rc: fix timeout handling after switch to microsecond durations
+a88b0a4846c1471a64c87dd31cf52772f12c9d91 media: rc: ite-cir: fix min_timeout calculation
+5d7cfe9d8eba9c0063c717fed5ae9ef516d722b4 media: rc: ensure that uevent can be read directly after rc device register
+b255b59543d3922cedfe90442f28fd8cccabec61 ARM: dts: tbs2910: rename MMC node aliases
+eebb8997ad6c908f9254d41c834dffd4888f4b47 ARM: dts: ux500: Reserve memory carveouts
+8b90ab7f4e2e4569e0c52e0bc68a4df23e7fcaec ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
+2f8a8420c044fa51c3a07e8881968ee2c41c99ef wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+b5bced9306f1f47d9ab092bbfa3f961a81712269 x86/xen: avoid warning in Xen pv guest with CONFIG_AMD_MEM_ENCRYPT enabled
+2affdaeb09329223c1d0a86943b4aafe7b64341c ASoC: AMD Renoir - refine DMI entries for some Lenovo products
+73659214e905991d1cbaf2f6951a142e8fc49cff Revert "drm/amdgpu/swsmu: drop set_fan_speed_percent (v2)"
+2d0f388e84a89a99c42de0392097cd3b5041b732 drm/nouveau/kms/gk104-gp1xx: Fix > 64x64 cursors
+b3d6d47522fe44fa8e028a1318fb9affcb3dbd4a drm/i915: Always flush the active worker before returning from the wait
+abe3a933984f5332f5a3027182dea85380a431c6 drm/i915/gt: Always try to reserve GGTT address 0x0
+caf14c7e5207d11e938d1899f2d7a37aa2d6085c drivers/nouveau/kms/nv50-: Reject format modifiers for cursor planes
+57edccf9f9385dc7b25ce21366f294a4fce81298 bcache: only check feature sets when sb->version >= BCACHE_SB_VERSION_CDEV_WITH_FEATURES
+df625f0d254a9c2712510eac230e7c1efea943cb net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+cde966adba5148c9b95e666c2e5fdba76a38ca92 s390: uv: Fix sysfs max number of VCPUs reporting
+32b8f0601109c3d1104c40c386292a4eaa1bb4c6 s390/vfio-ap: No need to disable IRQ after queue reset
+38757cf9716b32dc71c4fed9c6a30dd2e2579794 PM: hibernate: flush swap writer after marking
 
---===============6562025678775848771==
+--===============7429213361865083762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8c2e725cd4f-eea0c7d27c5b.txt
+Content-Disposition: attachment; filename=revlist-eea0c7d27c5b-26fa1633c7ed.txt
 
-5a70700fa69d70d8e5011525b9174a4140299b4c ICMPv6: Add ICMPv6 Parameter Problem, code 3 definition
-64a58d5b785753ce05f7f2b9bd2cfe47aeb843c6 IPv6: reply ICMP error if the first fragment don't include all headers
-91f79dd125383b1f51b9f677ecaeae8e2e51154b nbd: freeze the queue while we're adding connections
-d84ba5209d6893cc56389d6225239d1a127b0937 ACPI: sysfs: Prefer "compatible" modalias
-05f4ab2a74506bb808d954ab02ba5885a7983c0b kernel: kexec: remove the lock operation of system_transition_mutex
-d030fd80ec2cefeee17fcb7c6e6e659c8008bae1 ALSA: hda/realtek: Enable headset of ASUS B1400CEPE with ALC256
-a415fda15d8157c7e48626405dc7e28b96557228 ALSA: hda/via: Apply the workaround generically for Clevo machines
-0d78ec413eb61adba8e5a40d9fbc9f0e44e3775f media: rc: ensure that uevent can be read directly after rc device register
-80aa519f60cf9ba7b0b62751605f59ab93d8790e ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
-7933e662e05fde5de5584e79ffcbba6f9fbb5a09 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-504bba093b9ceff9719a8da3594c06157434f35b net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-30d3d177b47aa723a7bd784100078b2971954aa8 s390/vfio-ap: No need to disable IRQ after queue reset
-eea0c7d27c5b388d5d5f326d0024c6439ff220a9 PM: hibernate: flush swap writer after marking
+33b60b7aed596d950f8696e84efbe4c0e2f6257e ICMPv6: Add ICMPv6 Parameter Problem, code 3 definition
+f5a399e6c8500c614fba54973f7c6b2edf8d515b IPv6: reply ICMP error if the first fragment don't include all headers
+e39704ad723298f55c31a8750029da8a516cba02 nbd: freeze the queue while we're adding connections
+2eac021f6eb812444e500c8953384f80b272b25f ACPI: sysfs: Prefer "compatible" modalias
+8d8b70504180a8246d8f3948e710e9ac1fa3c661 kernel: kexec: remove the lock operation of system_transition_mutex
+fd6f20600320bd509113b03f8eec3f31efb2b2f2 ALSA: hda/realtek: Enable headset of ASUS B1400CEPE with ALC256
+ae09e1898a0f72889204f0f59f5a321a25c0622b ALSA: hda/via: Apply the workaround generically for Clevo machines
+4e0ba1edd561e8d9129d31d8836d926368856ae4 media: rc: ensure that uevent can be read directly after rc device register
+d9c58da3e4ef0b654143d36b0011d12d8581cf4e ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
+bfc3b476449147d23192bf9ea808d7a1439d2c03 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+70dc00adca200b815b2c555435703008159f1e0f net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+3ef303c970c5bf24ce95dae28af4b17168ce372c s390/vfio-ap: No need to disable IRQ after queue reset
+26fa1633c7ed7ee69e1b2cbe34d251ae796f1d15 PM: hibernate: flush swap writer after marking
 
---===============6562025678775848771==--
+--===============7429213361865083762==--
