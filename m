@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1464155199219195188=="
+Content-Type: multipart/mixed; boundary="===============6188667252012582853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 31 Jan 2021 12:38:27 -0000
-Message-Id: <161209670766.8681.6692644007343670673@gitolite.kernel.org>
+Date: Sun, 31 Jan 2021 12:39:39 -0000
+Message-Id: <161209677980.9362.14687036267656251193@gitolite.kernel.org>
 
---===============1464155199219195188==
+--===============6188667252012582853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 02bd88b4834d22cedd47f17fbce6cfa66a323287
-    new: 6ee9e6ee5c486f68e424185e133984d0a6ae662c
+    old: 6ee9e6ee5c486f68e424185e133984d0a6ae662c
+    new: 5aadd5c692e6427989656f16ff223cb301cfb8d7
     log: |
-         c38e1fb9b6e1ffe8e6b4cfaa8f62272376e96e54 staging: wimax/i2400m: fix pointer declaration style
-         d267cfb06292389efa9f2b9366d10ca27f30b74b staging:rtl8712: remove unused enum WIFI_STATUS_CODE
-         6ee9e6ee5c486f68e424185e133984d0a6ae662c staging:r8188eu: replace enum WIFI_STATUS_CODE with native kernel definitions
+         5aadd5c692e6427989656f16ff223cb301cfb8d7 staging: qlge/qlge_ethtool.c: Switch from strlcpy to strscpy
          
 
---===============1464155199219195188==
+--===============6188667252012582853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612096698 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612096770 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1612096697-6da38aa92eee2373e4a3fb010cbe4606a25040f7
+nonce 1612096770-0ca08bdcfb0a94458a3816d2b20d122b44712816
 
-02bd88b4834d22cedd47f17fbce6cfa66a323287 6ee9e6ee5c486f68e424185e133984d0a6ae662c refs/heads/staging-testing
+6ee9e6ee5c486f68e424185e133984d0a6ae662c 5aadd5c692e6427989656f16ff223cb301cfb8d7 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAWpLobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3W4QAMMn9A469gtqPzrUDiH/
-FKJIvgqTu+W//S4I4u0pUVYvp0l7nw/QnL6BzNuWJiClRGqQKR1olv7LnyEp29TF
-AWcnoA1VbHiOSOgm87SicrngodyFAKQBUOD+Ed075oClGNq3t8t0lS3ri4uwBfjt
-bt0xa2VWUYttMRdt/Voc9ajF4He4HFWqsVWzhzv+Z+/NRIAHqjQ6DjIaU4OUyXKA
-PfkvPW4jUaJeuVZWLmzblv1d0jYAvdzJqCw4Y1YLR/Z925iNYhkBcrCfiy727cd5
-jerKTKBY0zyzLpcgm4fVkjQwoAqOGwZ0h3w2JCngFweQxfvsVyEoWz8ff9wHJHf0
-Z2nAXFvK5PMXoWvXB3NShTSlQmxKMcFQjUWdJwfd6348y+GHFKraXmXvcFp8wpxK
-ciVPEdE0k3Zv7LPtWgIbZJW+4C+zXEmkx3Evr5hsQiqwosVH6NxtYjd6BUsSrqjg
-TjSLlRY+Z7UVhL5Qs2vkX90zHcyhlvrzpehXMb50kAM3fiOT61mDlVbJL4lL5TUR
-lU9pGeiBTInz86cAlooI2wycnM48FKAr1qnar35W4JSb4M13EDbS8I2gYV1+6tFU
-NS4TWctB99lt8+ibpBCZj+DblRU8kD1SoLgTIAoqTU000AREj+8u9+TBCQ8oTusZ
-YJ6qK+05Zed2lbevek0RbTR9
-=6Iy+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAWpQMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1t0P+wYJ4+Jx/mewzrZaT0sb
+ZMyoN9VCkKJA4XjqDpsJ3hibOpFdJzZz649Fde32MHDeCdQF/d5hLIRAueMvyLeL
+giKDFXtywEu4oENL5oiPeM24QcPw0rt0kmDShQ6wMhLci/IgC2W/YNYIOOdTw/CR
+TK/R2lcBDF8c1bUi2QPRtC4pwMzHOiX2S+BU5xTm2QWEY2SmUjILV0Y1wMTPwgAy
+L3K9zOyZH2xQil/wQLrj6SI7dncBPv89uPFRazwOGbQ+7dhZ+UfnPMQSxQaoDQta
+wxvG7IGUx7yuRPx/FvhP+he27QHDfOCLfuKnlVHQ2Gbm3IWKeefYrug0nYf758iB
+isuFmO8lu4fhWlFSKpQ6j8LXkSO6EUae5uhgouNxvz5EG+bRugMB//u1nnLAWX0D
+a7dYdtRt6mUPHUKGX6jMxx6PAglte2zCsqkGscL1Iw6SInbQb/1KebL2WWwdrRoI
+Sg89can0iBK1A7k7VKXlugW0KDNkCcypQ1fgsUxr4TU7NzpQqOWFfJFRkS9H4dLF
+ngCs9Ox2M1jaxAQsJ+KpAFGwmU7j/fVYTbj6E9Ka2h856DcfIIOELpM+oLZpo3He
+nyNTFO3eNVCH7ByTdF+RPyiI90/7k9XUdBX+EUHiiRawMysWBZZR1V5xT9+53Vp9
+ONtyOoWQUvMeXVRjoEfeU4PX
+=NuSF
 -----END PGP SIGNATURE-----
 
---===============1464155199219195188==--
+--===============6188667252012582853==--
