@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8464226717739189446=="
+Content-Type: multipart/mixed; boundary="===============5702139491085022972=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 31 Jan 2021 16:10:31 -0000
-Message-Id: <161210943190.16911.18157380523182120080@gitolite.kernel.org>
+Date: Sun, 31 Jan 2021 16:12:23 -0000
+Message-Id: <161210954359.17650.3657797266972644408@gitolite.kernel.org>
 
---===============8464226717739189446==
+--===============5702139491085022972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: be23dee9c53a740e8059d5d59021374b18a0a1df
-    new: 3f777d51e0c44dcc9fa6737ab57bfbdcf6d91f17
+    old: 3f777d51e0c44dcc9fa6737ab57bfbdcf6d91f17
+    new: e53d4f2493e971f167d2a1db85285d720eaefcd6
     log: |
-         3f777d51e0c44dcc9fa6737ab57bfbdcf6d91f17 drop s390-vfio-ap-clean-up-vfio_ap-resources-when-kvm-pointer-invalidated.patch
+         e53d4f2493e971f167d2a1db85285d720eaefcd6 update pending/futex_issues.txt kernel version
          
 
---===============8464226717739189446==
+--===============5702139491085022972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612109428 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612109542 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1612109427-26abec3996b4f099bddbcf74efedfa16e93902b9
+nonce 1612109541-9b9c17d84364ddf64c7032fb7f9fc03e606a5387
 
-be23dee9c53a740e8059d5d59021374b18a0a1df 3f777d51e0c44dcc9fa6737ab57bfbdcf6d91f17 refs/heads/master
+3f777d51e0c44dcc9fa6737ab57bfbdcf6d91f17 e53d4f2493e971f167d2a1db85285d720eaefcd6 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAW1nQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3kEQAL+PULly7R6qrv05fdRZ
-RWTsPyXx//NfcC8aQchFVjBQKxF3JV2R8ujMJKz3vWGXw93NbFztF0m2H2UpqOrp
-LicIEYVuUrBpfyon9kt9q1wfxJH6Zd9XzZPI4pd3Ypvz1CkmYvee6jlqoqKl/3Ec
-d1479aa0wkB9xJVw6Vi7OxY3Q3QjPyYRupm17SqkfOUhRKZyv5q1YfQM6NMJVfhd
-KwSo4ryZem8fbhZer+J1YDJptZVmcRKRvTjaPyfmHmvgh1YD9FkwiOm7HZ7QaFY0
-SSDh5wvWkzXskbyClXxjQwFSqwePlh3egIy4T+62xCOb1Y015hNpBRdLPVOwwkrW
-gJHFwFF9iCZKh3Kwyc3nFburR86bP1askTC6LvV07Do+3wZkKgp3fQgaM2OSHS16
-xO7HwTa4rOMVpYqmjdY5oB+Y9yT60IRyAM/3lCtRI+XdHUZ87bsLULSwV0OLy4eD
-RCIIoEDsPiLmgG3y+xl7StvpPYNt8YPCvDm+iew46pu0pYTPwQh6UAM+hUaWIhck
-nx0k5v02fkXD+wGqR9wqWv1gCRT8nxpkl0GKGxajNdq28UCiBwgxZjv6jqbjKY9R
-DI5MJO1NbcyGdeq3IjdVTKhNQHwEatx+RqjDmifixKaTXeWPci2AaWOeTZfxo7y5
-wosC+8lsx409uo+gzygpC65Y
-=egA5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAW1uYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MxgP/1PwvRdZqTcWGLDyYSLa
+lkbGNuQcttENy+piwcZ6knX6ePk9N5NKT8JqkSDnxI9YlZAabmVW9JlLztkNpfoO
+MflQBXjFK/lV67/ObjUfDVKi88UBBSp0duABOKOPC5nMtmlAPSZSNez76SQxovvP
+q4lEyDzHVB4Aynl1dD/gEkp4l6k4N/c+3YB+Z4C43XeA3xGecNAZV9RDzDByBRW8
+CRJMVE3OSLqA5QhCoCE8Wy/ORL3h3Igr+dT/QfT4WS6Dn6deO9p9YYQsFSzX40qD
+GBYPoEUcCeDlnbYtXZYhzgyCnzIeXlIVpi7TEZE5MCBhftMkM1oStxikyxR+XIPu
+JwlzLCkdvrSO03wirsXZhaTWjLLplqhyqJqaxMc9QodSYOr0qPw5bG4/5yZXQ5jy
+3k8VEcr+oRtnX44brNrEQAELMZEjIzwb0DNLdW+DSIUA75Won6Ylpvia7sZS39bF
+j8+5W2lApQvJLIheLRjE1tNDZtztzEAIDvxsPhDbVa7tgGtDY+hmHKOM3EQ1RfHj
+s/ehd/T3AQwcmm3JBPDfeeieM7e4ubzUX0R+h5oWdDa434CZn9MB8FEeWuoG3Mrq
+/kVDSx5AHeyztJ4ORYMxBol3q2BhnA1aGC0IlCWUKEPNRP+m3uW92jvWdkuJbQN7
+4T47zqpI4JsdcZ23egORiRxO
+=fvYG
 -----END PGP SIGNATURE-----
 
---===============8464226717739189446==--
+--===============5702139491085022972==--
