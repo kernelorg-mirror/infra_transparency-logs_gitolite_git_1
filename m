@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Sun, 31 Jan 2021 14:54:38 -0000
-Message-Id: <161210487837.1207.17541892203477715357@gitolite.kernel.org>
+Date: Sun, 31 Jan 2021 15:05:35 -0000
+Message-Id: <161210553534.8564.16797479033666370238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/matthias.bgg/linux
 user: matthias.bgg
 changes:
   - ref: refs/heads/v5.11-next/dts64
-    old: b870c58582141130cc7067719546311255562e72
-    new: f93b04efaf80fe3d8ea1776a71a9e8e7fb3cfeab
+    old: f93b04efaf80fe3d8ea1776a71a9e8e7fb3cfeab
+    new: dc2e76175417e69c41d927dba75a966399f18354
     log: |
-         27eaf34df36419ead90801ef1ba73db287944158 arm64: dts: mt8183: config dsi node
-         17cf7d4d940f4386e3b4d8e9db907887520d837a arm64: dts: mt8183: Add krane-sku0 board.
-         f93b04efaf80fe3d8ea1776a71a9e8e7fb3cfeab dt-bindings: arm64: dts: mediatek: Add krane sku0
+         dc2e76175417e69c41d927dba75a966399f18354 dts64: mt7622: fix slow sd card access
          
