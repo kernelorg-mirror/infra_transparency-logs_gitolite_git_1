@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 01 Feb 2021 14:33:48 -0000
-Message-Id: <161219002812.21736.4950067390775882003@gitolite.kernel.org>
+Date: Mon, 01 Feb 2021 14:33:57 -0000
+Message-Id: <161219003729.21841.8645412205105294558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 3daa96d67274653b7c461b30ef9581d68e905fe1
-    new: 32451614da2a9cf4296f90d3606ac77814fb519d
+  - ref: refs/heads/sched/core
+    old: 7a976f77bb962ce9486e09eb839aa135619b54f3
+    new: 075a28439d0c8eb6d3c799e1eed24bb9bc7750cd
     log: |
-         2a6c6b7d7ad346f0679d0963cb19b3f0ea7ef32c perf/core: Add PERF_SAMPLE_WEIGHT_STRUCT
-         628d923a3c464db98c1c98bb1e0cd50804caf681 perf/x86/intel: Factor out intel_update_topdown_event()
-         1ab5f235c176e93adc4f75000aae6c50fea9db00 perf/x86/intel: Filter unsupported Topdown metrics event
-         61b985e3e775a3a75fda04ce7ef1b1aefc4758bc perf/x86/intel: Add perf core PMU support for Sapphire Rapids
-         32451614da2a9cf4296f90d3606ac77814fb519d perf/x86/intel: Support CPUID 10.ECX to disable fixed counters
+         e972d92d52a1f691498add14feb2ee5902d02404 sched/topology: Fix sched_domain_topology_level alloc in sched_init_numa()
+         4d38ea6a6d93115113fb4c023d5bb15e8ce1589c sched: Remove MAX_USER_RT_PRIO
+         c18b4a67cc459fb8389f6a89ce28e404aafe562c sched: Remove USER_PRIO, TASK_USER_PRIO and MAX_USER_PRIO
+         075a28439d0c8eb6d3c799e1eed24bb9bc7750cd sched/core: Update task_prio() function header
          
