@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2887117044744182401=="
+Content-Type: multipart/mixed; boundary="===============9116806827864623523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 01 Feb 2021 09:01:54 -0000
-Message-Id: <161217011447.29196.15841399614296102164@gitolite.kernel.org>
+Date: Mon, 01 Feb 2021 09:02:00 -0000
+Message-Id: <161217012017.1406.17775236469579973666@gitolite.kernel.org>
 
---===============2887117044744182401==
+--===============9116806827864623523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 242118f751648aa0286acb1000eaadf6accd336d
-    new: ba69143c0249902349d36552a40ac7ada0a61faf
-    log: revlist-242118f75164-ba69143c0249.txt
+  - ref: refs/heads/m68k-queue
+    old: 3256af4f447746a9040250ed2650e34a9a3b443b
+    new: e767b53ad1ef7a017b331f30f57b0dc7f30a17ca
+    log: revlist-3256af4f4477-e767b53ad1ef.txt
 
---===============2887117044744182401==
+--===============9116806827864623523==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-242118f75164-ba69143c0249.txt
+Content-Disposition: attachment; filename=revlist-3256af4f4477-e767b53ad1ef.txt
 
 56ce7c25ae1525d83cf80a880cf506ead1914250 xfrm: Fix oops in xfrm_replay_advance_bmp
 355845b738e76445c8522802552146d96cb4afa7 efi/apple-properties: Reinstate support for boolean properties
@@ -381,6 +381,9 @@ f7ea44c7172ffcc13ed589163f5168bc54f3e039 Merge tag 'core-urgent-2021-01-31' of g
 f5a376eddec424f00e38aa19bd26c2febbfc934d Merge tag 'x86_entry_for_v5.11_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ac8c6edd20bcb965b22ceb36752499b3d5cf5dd4 Merge tag 'efi-urgent-for-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1048ba83fb1c00cd24172e23e8263972f6b5d9ac Linux 5.11-rc6
-ba69143c0249902349d36552a40ac7ada0a61faf Merge tag 'v5.11-rc6'
+1fc773c88bd083451854c9edfac693b44c640e0e macintosh/adb-iop: Use big-endian autopoll mask
+21a31bb4c60b797ed8b0ab324a1514420276f560 m68k: atari: usb: Add ISP1160 USB host controller support
+d368dc5a87ac4ffff8fb1a8be4c51b7bfc30fe60 m68k: atari: Update Kconfig.bus help text
+e767b53ad1ef7a017b331f30f57b0dc7f30a17ca m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2887117044744182401==--
+--===============9116806827864623523==--
