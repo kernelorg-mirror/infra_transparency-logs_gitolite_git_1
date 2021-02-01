@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 01 Feb 2021 17:54:13 -0000
-Message-Id: <161220205309.18109.6473753288731271638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Mon, 01 Feb 2021 18:00:07 -0000
+Message-Id: <161220240781.22525.7211110961759496792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 9d107b0caead2b708e09c1f6ac19e22be2d964f6
-    new: b2e14bec96f5d823b14872e354acc5e2393cb1d7
+  - ref: refs/heads/mtd/next
+    old: 12ba8f8ce29fdd277f3100052eddc1afd2f5ea3f
+    new: 106a3ec368fd5c34d5138e645f163249612d335d
     log: |
-         0f347aa07f15b346a001e557f4a0a45069f7fa3d ACPI: scan: Fix battery devices sometimes never binding
-         b2e14bec96f5d823b14872e354acc5e2393cb1d7 Merge branch 'acpi-scan-fixes' into bleeding-edge
+         7b844cf445f0a7daa68be0ce71eb2c88d68b0c5d mtd: parsers: afs: Fix freeing the part name memory in failure
+         2e64e0ba2b657ca5c0eece887aeb73cff660f92c mtd: convert comma to semicolon
+         106a3ec368fd5c34d5138e645f163249612d335d mtd: st_spi_fsm: convert comma to semicolon
          
