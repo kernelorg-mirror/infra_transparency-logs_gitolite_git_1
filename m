@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5507987621409168315=="
+Content-Type: multipart/mixed; boundary="===============8954542220152180737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 01 Feb 2021 15:15:49 -0000
-Message-Id: <161219254901.17975.421382086367703753@gitolite.kernel.org>
+Date: Mon, 01 Feb 2021 15:16:25 -0000
+Message-Id: <161219258514.18165.5921306405401845295@gitolite.kernel.org>
 
---===============5507987621409168315==
+--===============8954542220152180737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: jgg
 changes:
-  - ref: refs/heads/wip/jgg-for-rc
+  - ref: refs/heads/for-rc
     old: f1b0a8ea9f12b8ade0dbe40dd57e4ffa9a30ed93
     new: 1048ba83fb1c00cd24172e23e8263972f6b5d9ac
     log: revlist-f1b0a8ea9f12-1048ba83fb1c.txt
 
---===============5507987621409168315==
+--===============8954542220152180737==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -772,4 +772,4 @@ f5a376eddec424f00e38aa19bd26c2febbfc934d Merge tag 'x86_entry_for_v5.11_rc6' of 
 ac8c6edd20bcb965b22ceb36752499b3d5cf5dd4 Merge tag 'efi-urgent-for-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1048ba83fb1c00cd24172e23e8263972f6b5d9ac Linux 5.11-rc6
 
---===============5507987621409168315==--
+--===============8954542220152180737==--
