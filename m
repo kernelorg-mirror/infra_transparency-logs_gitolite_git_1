@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Mon, 01 Feb 2021 12:04:51 -0000
-Message-Id: <161218109191.22218.13326458757461415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 01 Feb 2021 12:24:12 -0000
+Message-Id: <161218225269.1914.16192489962186597693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/next
-    old: 429b205b73c81a2b28c64f0068e093e755ae96d3
-    new: 1d13d04f09195e16441ff437f6c4026b5e038584
-    log: |
-         bc93763f178fd04f484ee3e521bbdae57fddb891 KVM: arm64: Make gen-hyprel endianness agnostic
-         1d13d04f09195e16441ff437f6c4026b5e038584 Merge branch 'kvm-arm64/hyp-reloc' into kvmarm-master/next
-         
+  - ref: refs/heads/ras/core
+    old: 1dba8a9538f5164eb8874eed4c7d6799a3c64963
+    new: 7bb39313cd6239e7eb95198950a02b4ad2a08316
