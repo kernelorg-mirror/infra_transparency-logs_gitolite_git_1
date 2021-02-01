@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 01 Feb 2021 18:44:44 -0000
-Message-Id: <161220508478.17063.12484631155678714398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Mon, 01 Feb 2021 18:45:53 -0000
+Message-Id: <161220515352.18802.5301457919408322371@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/ceph-fscrypt
-    old: d8269ccef28fb2faeeae1447abaeebed6eca458c
-    new: 147ca464b9bcfea9fa21aec783926d467f4020f0
+  - ref: refs/heads/hyperv-next
+    old: 18194b7b3ddc07a5176bd394c7431a5b25d3695b
+    new: 4a79ae7046e7469950c44f49cb52f7b7146755eb
     log: |
-         ed1b3266902a178b4ca9da71d8ad52ad769c0b37 ceph: make d_revalidate call fscrypt revalidator for encrypted dentries
-         039e5c4d0f29b2ae7612bfbc3488f79c490e8abc ceph: create symlinks with encrypted and base64-encoded targets
-         a90794d57d2ca0ebf80d713ae01a5ec6dd39e07f ceph: only check pool permissions for regular files
-         147ca464b9bcfea9fa21aec783926d467f4020f0 ceph: add fscrypt ioctls
+         8190826e75cee9d9c008d24d557ef1ce06f5e3e2 x86/hyperv: Load/save the Isolation Configuration leaf
+         e5b180a1dd0cd0a8f8c3576eb032c7afda468dcc Drivers: hv: vmbus: Restrict vmbus_devices on isolated guests
+         5862347fd2b74bc00cd34828afae6dc21206a70a Drivers: hv: vmbus: Enforce 'VMBus version >= 5.2' on isolated guests
+         ef6c74ee0d35122fde67f9af3758071374a31482 hv_netvsc: Restrict configurations on isolated guests
+         4a79ae7046e7469950c44f49cb52f7b7146755eb hv: hyperv.h: Replace one-element array with flexible-array in struct icmsg_negotiate
          
