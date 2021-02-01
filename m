@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3306828781450372465=="
+Content-Type: multipart/mixed; boundary="===============6034947825197853848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 01 Feb 2021 14:22:51 -0000
-Message-Id: <161218937185.14274.2709162442936653251@gitolite.kernel.org>
+Date: Mon, 01 Feb 2021 14:22:53 -0000
+Message-Id: <161218937374.14353.2165117758126379392@gitolite.kernel.org>
 
---===============3306828781450372465==
+--===============6034947825197853848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,60 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 6b7d62bc7866df96a57ecd67363f4b0f4cbbf185
-    new: 1709349869f20fb5b9bb6eb2c1ac55a3dd21bb17
-    log: |
-         777c8c16c2fca7a049b81ee614276c8108118ec3 ACPI: sysfs: Prefer "compatible" modalias
-         03a17ec611051ff17f892717ab58943f29193324 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-         50e66d2e5f50f78fb5844d6e38d450a32f672c09 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-         20e40b12192ba24d06678978ee5b978f674352f3 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
-         9fd3a353b209a65adf4717c05525d7e97ca40a56 mt7601u: fix kernel crash unplugging the device
-         5091a6e7b2d4507ce77be3368abba189943747f1 mt7601u: fix rx buffer refcounting
-         1709349869f20fb5b9bb6eb2c1ac55a3dd21bb17 Linux 4.4.255-rc1
-         
+  - ref: refs/heads/linux-4.14.y
+    old: d4c2cced9de43f289f64f7247c037dc016b7949e
+    new: a7e507c96736650d19ef4049901219bb9be4c0e0
+    log: revlist-d4c2cced9de4-a7e507c96736.txt
 
---===============3306828781450372465==
+--===============6034947825197853848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612189370 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612189372 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1612189368-83d4dda16cc04c4f0b9436563d82aae665320599
+nonce 1612189371-e38c2ac337cd9af4a5116eee846ca2b7a8255422
 
-6b7d62bc7866df96a57ecd67363f4b0f4cbbf185 1709349869f20fb5b9bb6eb2c1ac55a3dd21bb17 refs/heads/linux-4.4.y
+d4c2cced9de43f289f64f7247c037dc016b7949e a7e507c96736650d19ef4049901219bb9be4c0e0 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAYDrobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A0gP/0rNBzigxJT3RYcwSe6g
-GfI9ZOGRRLdv87B+Igjg0FuZl1YckqTN6z2AeP4WyDGQgEDfbRCyek3Urqg3vmBz
-b+1jEcGU8NbwxSwqqp+XwDYcbVpnEFOnO359gJ44qAZu7lqMIepOtYW2bB9H9ZZ8
-y3NgMmyuvFznHJiU8Tp/4o5wDfyKGzkjB/hCWYoUnWKb59S/5Iw5HiqMDwXyqXo7
-XJ6JYwqVC5quktXrA3kfy0LNeOwZIyMUEhPUFtpzJXdKKUszpz48rFXH0mASuSA4
-2rJYX690aLCmNHIRwC++TNyPydk8dCWIJA15nbK95TrVrr3VAD8uW70rUjqQ/37t
-tTc98zwbmqw8eQ1IDS1lWgY3wECOgVnwUPG/+SVFL++k6mNSr1idOoOSZpbCEUMc
-LJnHyaBNqWz18PMzhaNQO2KbDD9Jl/r5NVv0yQnwtuv9B3utWtiSCUBj+eZskyDH
-13BnUZtv6k588uBx3UUjptxkd7f5xZ7InkSEUCNGeLFguRHPdgNZejhruuVhgTnc
-9AbOd9z4KshLljTsY4Xn56CJqFgM3mc1YHg99f7heKDgcZOL8FW0o8fjY/aJSgTL
-aWi/XOTjjDh/IgBz8/KjCSC7CEb2Yn54AJKoVLH7ZwWMIs7J59zB1Ml6794+BMSg
-lpPKUv0MEao1gjMsxBpg5NmM
-=iVp3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAYDrwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gaUP/2qfilZwTt5Ds735qE6x
++BY5pwGMY+l0wUwfGekqw87jXbOVxjXlwgAfK98Ft19VpjZ/21EmIz0adFFEILeU
+4L4kRat/ZQAX4aG7puo6ygJx0ypm79GBrBwCE/AUWN0r4gs2U+rHGfH8l+szN99p
+N8YIuN1iWmDi6HyGNlC5H8suS4uqkdf9pN/Di3T+FaGZWjkfC5G/Tv/aaJxfqRd9
+uTnKR/poaipMiK7b/ckIirbAJPgQfes6pzLCxoOCOsYScI4rrqjj7RhcRr7rHksr
+EGxGFJHXtFE50AAaoqqtjPHfu03x7Yg93A6ZiJ8TB6Edu7MOJapNVDH+X065Ss/Y
+iRhrXS/6pg93rgmhymvSujS3Xy8zCi2vC86jo/mr2mANoa+Ih/YFKGNHUlYrhtjj
+u09T4k/oc0KbKg6d7aFKsYdIbWh+bVtIigrGYSeH5KYzyPo80UmaGd82ZLL6yFJD
+KUFNy5OHDTG3LzAoTAPBTCroAv5fztSGvDInkoE/8QugttadxkenyRFLL9eg8Qi7
+Wx8MMbAJypJ8qhwxytbryszkyLaytHOMy39RlW+MrVoCf4UdpD1nw5nXm4FN4jDy
+QE+7AmT/ZPDKth4J0X2OZgX/2sHXfyHGKOaBfIrxCQI1LYALRFiteuEZsCThsG6R
+v3LNFvYvD63IJkK7i2hurbTR
+=3MW9
 -----END PGP SIGNATURE-----
 
---===============3306828781450372465==--
+--===============6034947825197853848==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d4c2cced9de4-a7e507c96736.txt
+
+e3b3d888bbc9a2b44ffe4e4926740e91e16591c5 nbd: freeze the queue while we're adding connections
+73a105b9ce4590e938bf788bc8242aae8c7201cf ACPI: sysfs: Prefer "compatible" modalias
+3575adc312cff4c82a9c97c7be107da599f4212c ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
+b5cb6368f66a7d429d28c977eb4133865ecf127d wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+573f03fd440bde35517ffd602c86537b81cc2f6e net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+be208dd1ebd7ef9da148b60a97a993d472be899c drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
+a923c3074b06798129edea873eb24685e7758fb5 drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
+724a565064d564ee934f92a4f06cfa7ac7d38903 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+8e0e4b16b8d62531230fe7656cfc021caf4ff1e0 KVM: x86: get smi pending status correctly
+f1a33edb06ea4eee2c9377f9263cbb46b5dcc8bc xen: Fix XenStore initialisation for XS_LOCAL
+5ce0b2e9c4559e354a62100c81e3dc9e543e2049 leds: trigger: fix potential deadlock with libata
+edcf15050c6fe9fab72e7f38bc57a305c398b664 mt7601u: fix kernel crash unplugging the device
+a22cfaeed5071bd3bce55f94dd62b6443fd33688 mt7601u: fix rx buffer refcounting
+a7e507c96736650d19ef4049901219bb9be4c0e0 Linux 4.14.219-rc1
+
+--===============6034947825197853848==--
