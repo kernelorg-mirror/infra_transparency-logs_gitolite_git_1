@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1019474642361613453=="
+Content-Type: multipart/mixed; boundary="===============1848060048357681491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 01 Feb 2021 12:53:35 -0000
-Message-Id: <161218401512.20453.13181561719946532093@gitolite.kernel.org>
+Date: Mon, 01 Feb 2021 12:55:24 -0000
+Message-Id: <161218412473.22477.16386365700767334712@gitolite.kernel.org>
 
---===============1019474642361613453==
+--===============1848060048357681491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,133 +16,168 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 15d5eadc39055968c5f002ec9998655587231c62
-    new: 8e7e147b3b88cc9ad5f502f5f6965ed6a27487c1
+    old: 8e7e147b3b88cc9ad5f502f5f6965ed6a27487c1
+    new: ad748261c20abebc9b263bfb71f5226c1596f581
     log: |
-         02ffff8e1a03f810d5f62c70b073b42406d7ec1a nbd: freeze the queue while we're adding connections
-         9d6ba08834bf6d69a224f2ff26ed63a556630f9b ACPI: sysfs: Prefer "compatible" modalias
-         bb182f1c394efa1dedc56fe425a475737fe97c74 ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
-         c950f1343396714590093ce285aaaeb1e7464a91 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-         8e7e147b3b88cc9ad5f502f5f6965ed6a27487c1 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+         682de037854b9ddbd6c83e4e9f510a5a8d0f3b16 nbd: freeze the queue while we're adding connections
+         253e65b7182378d446c2bf64a3d53303329a9668 ACPI: sysfs: Prefer "compatible" modalias
+         a297877a2be640137098121a2c26e7146c16052e ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
+         7ed1b61d9e12f6304d1a4b46314348b959da0656 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+         32265dab9a6e628fad54cc1aeb4d82602615fccd net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+         21ca4fa0710c6f2cf68034ec6be70458a3483707 drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
+         b3fc220087a5fac34c61aaf940db0a543fd63b81 drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
+         33cc093a90a7f2ea63fbfab01ce323234e7f80bd KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+         ad748261c20abebc9b263bfb71f5226c1596f581 KVM: x86: get smi pending status correctly
          
   - ref: refs/heads/queue/4.19
-    old: 387127424e239c2b0447d965528bdc8a776a285f
-    new: 230f8278a516f8b1dc76851491c9ee0e8caf627a
-    log: |
-         5e01e4b3fe71861a9ce9ab17cffe672c3ace048f nbd: freeze the queue while we're adding connections
-         089a773cd785e6904d9e8c997cab7723965f9029 ACPI: sysfs: Prefer "compatible" modalias
-         42e1fa6d0fa03825d64222cffbfb6674a2841882 kernel: kexec: remove the lock operation of system_transition_mutex
-         72d3833a1a9392dbdf453a68f99ef840ea7d23ef xen/privcmd: allow fetching resource sizes
-         927ec7508cf1943c9118b41a8564970ed7780ead ALSA: hda/via: Apply the workaround generically for Clevo machines
-         f8bb75a19bd2d2abc68f3e7208442abbf1abe807 media: rc: ensure that uevent can be read directly after rc device register
-         d142868cca797ee53021e1490fecd80cd1c1bf9c ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
-         a0732148cb827d49cdcb986cb169bf803b72fce3 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-         06b00ece08a146a8e428c5e53306a29752fa6a9c net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-         230f8278a516f8b1dc76851491c9ee0e8caf627a PM: hibernate: flush swap writer after marking
-         
+    old: 230f8278a516f8b1dc76851491c9ee0e8caf627a
+    new: d233e17d47584e03b1cbeb243cd36e47050aae5b
+    log: revlist-230f8278a516-d233e17d4758.txt
   - ref: refs/heads/queue/4.4
-    old: 452cb9ace52c35dba84d94f82590d5c750d91da2
-    new: ae07fdf0442a9e7e87a057d1c5ed6bddd17cf13e
+    old: ae07fdf0442a9e7e87a057d1c5ed6bddd17cf13e
+    new: 7e19f05d225f2783d59b564fd79083073bc87d72
     log: |
-         c8251ab64dc698b362b691368b069da9a9273395 ACPI: sysfs: Prefer "compatible" modalias
-         f1adae69fbbf6dff5bf7947546384d706e9ab6b6 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-         6fff7ddf0a039646b62b8b3c1f64aa9403c65b68 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-         ae07fdf0442a9e7e87a057d1c5ed6bddd17cf13e KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+         14a5ede06783436347e7e9edd02280460d27bbef ACPI: sysfs: Prefer "compatible" modalias
+         46e9e89506bed4162b55052b8771fe6a66c14186 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+         cc344f92ea8f8bb88908c1e8b1b6e35041a2a54d net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+         7e19f05d225f2783d59b564fd79083073bc87d72 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
          
   - ref: refs/heads/queue/4.9
-    old: 633af8c92d456634c19b9fe0d2bf6e52d98195e8
-    new: a56aca790378b474c2b2360dc8ddc780d2a0f27c
-    log: revlist-633af8c92d45-a56aca790378.txt
+    old: a56aca790378b474c2b2360dc8ddc780d2a0f27c
+    new: 70e11281d19bea59f6be5a9fbb08a81faf0cc984
+    log: revlist-a56aca790378-70e11281d19b.txt
   - ref: refs/heads/queue/5.10
-    old: 7a8b4b87b97746f0bee6a207bed51968aad18386
-    new: d8eaef6f49a40b74d94267dc7fea66dc4c5151a7
-    log: revlist-7a8b4b87b977-d8eaef6f49a4.txt
+    old: d8eaef6f49a40b74d94267dc7fea66dc4c5151a7
+    new: 6e1a579673d2c37dd3a210618dcbf8d999805a0f
+    log: revlist-d8eaef6f49a4-6e1a579673d2.txt
   - ref: refs/heads/queue/5.4
-    old: 26959cf56169f222f54dacc056edd68eb0cc5ced
-    new: 3b8020929499c1e6c44fd235925fbd0117a1c638
-    log: revlist-26959cf56169-3b8020929499.txt
+    old: 3b8020929499c1e6c44fd235925fbd0117a1c638
+    new: 7801a36cf930a47d5f02f964ec1d235ec56d5442
+    log: revlist-3b8020929499-7801a36cf930.txt
 
---===============1019474642361613453==
+--===============1848060048357681491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-633af8c92d45-a56aca790378.txt
+Content-Disposition: attachment; filename=revlist-230f8278a516-d233e17d4758.txt
 
-542bfa25abdd33fc92b6a6c6326c5afed45f427e ACPI: sysfs: Prefer "compatible" modalias
-bec28e3563b2804ee73c12cefe4236a7ad528510 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-c653a710d19648d3d2d0e6c4d70d80f524463e19 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-9be8c24278b5691a419d91d4e26b8847b312046f y2038: futex: Move compat implementation into futex.c
-b491b785f025f933a95d7da55182f9a0afcce64e futex: Move futex exit handling into futex code
-5fdbed0f0a84f9fe066bcdf1e4287b96bb4f519a futex: Replace PF_EXITPIDONE with a state
-351319b3e198aad8596a3e0270e4948b0ff03e39 exit/exec: Seperate mm_release()
-19ce8f33869e35389001521906bd377568cb5792 futex: Split futex_mm_release() for exit/exec
-a2c409881e28bcac7af953f5b25d0cee39b88846 futex: Set task::futex_state to DEAD right after handling futex exit
-8718540b7ce300e8f9d50206a685fd4180438e65 futex: Mark the begin of futex exit explicitly
-7402c001cb53b0f2528bce582eef9fb6cff54368 futex: Sanitize exit state handling
-190a86f6774d19371974bc30fed0fbebe8fc33d4 futex: Provide state handling for exec() as well
-099a251f83f6b25793501b5657dd10d13f7c852c futex: Add mutex around futex exit
-8c9d773eb7a14e9dc88b948c5210cc9cc7cd08fa futex: Provide distinct return value when owner is exiting
-0b1e17e677272f4efa682aea4799340c61967be5 futex: Prevent exit livelock
-bad1844f7c075a39a10696a91a0faecf8d55c660 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
-a56aca790378b474c2b2360dc8ddc780d2a0f27c KVM: x86: get smi pending status correctly
+60b90e4c2a4fc20550e79cb69317d897418d4888 nbd: freeze the queue while we're adding connections
+a694390a90b820a245363fc7009b066aeb591068 ACPI: sysfs: Prefer "compatible" modalias
+54556f4edc04a44c914f2726fe5f3938331b1e07 kernel: kexec: remove the lock operation of system_transition_mutex
+a3a33c838c034cd759556548fc67001343386425 xen/privcmd: allow fetching resource sizes
+31c4ec39172d741097eeefd823c2258f0f6fd305 ALSA: hda/via: Apply the workaround generically for Clevo machines
+c15f6441f2bc78022b91cb707eb10bf69f2ec728 media: rc: ensure that uevent can be read directly after rc device register
+5910253a11a8bb7c255aa9932c912de78f9bdb53 ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
+c425228461a255b3a001f12310e0c54ea78e1c04 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+95594d0dee7221531b724a3c95b50816830eab96 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+f83944d8d7c85f07dcea11a46c5a9a33b9fbdd38 PM: hibernate: flush swap writer after marking
+93afeef4ded8fa6ef42d8a04f86478ce44dc56ec drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
+f771f34e6a0466d7ef2fce4ba7039e6f668eceb9 drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
+5b25da7bb492dc3afc8aa5c4e65b0706a9cd3397 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+d233e17d47584e03b1cbeb243cd36e47050aae5b KVM: x86: get smi pending status correctly
 
---===============1019474642361613453==
+--===============1848060048357681491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a8b4b87b977-d8eaef6f49a4.txt
+Content-Disposition: attachment; filename=revlist-a56aca790378-70e11281d19b.txt
 
-465f302436b280bdf73bb0be8a39ef7ad2a02c9a iwlwifi: provide gso_type to GSO packets
-ad4836d5328e291819f528676ad687cd385c3aa1 nbd: freeze the queue while we're adding connections
-5e5a70fd8773191bb569c479761f0c2689f73225 tty: avoid using vfs_iocb_iter_write() for redirected console writes
-f83b047c98314066c0d5a424a3b8027e18081029 ACPI: sysfs: Prefer "compatible" modalias
-3158ed803b807f0dc6a117bb253a860b098588e2 ACPI: thermal: Do not call acpi_thermal_check() directly
-e0f284f8545ba60bba8f6f5419ac51921526f773 kernel: kexec: remove the lock operation of system_transition_mutex
-ecc69655fe4f444bf43f6f7ded903ac8501b8f97 ALSA: hda/realtek: Enable headset of ASUS B1400CEPE with ALC256
-3d28070d930b9d05acba2cafa0b41ef939689995 ALSA: hda/via: Apply the workaround generically for Clevo machines
-dcdd20bb5aec71c6c85ff56308a46858d5d4ee40 parisc: Enable -mlong-calls gcc option by default when !CONFIG_MODULES
-395e366f48a4d4c3c7117fb683dc794505109ca5 media: cec: add stm32 driver
-0b534adcd10e07279aec92af5031ec240ba993cc media: cedrus: Fix H264 decoding
-abcab6f3ee1bbc6cb44ef93de6ab44735e906a1d media: hantro: Fix reset_raw_fmt initialization
-fb0387a68be0e5c29fd16296eee2b59028c19e60 media: rc: fix timeout handling after switch to microsecond durations
-15ef23277d3eee03e5a1fd4df4267f9484af00c7 media: rc: ite-cir: fix min_timeout calculation
-5ef288832f7fd7ca2596ad029ec54b1baf726c8f media: rc: ensure that uevent can be read directly after rc device register
-12f6c85e38ebe9bbf5e28cebfed974db385f1841 ARM: dts: tbs2910: rename MMC node aliases
-69c6c344328b8a4e508d38e2373d6e642fec137b ARM: dts: ux500: Reserve memory carveouts
-8d089d93fcff7e0a929e191fc76a44c0ebf98cdd ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
-cb36351eac8a3e2cf9555b0b295f024abe9d41c6 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-cf0a1fa769c013a645f632b6f3f16863157e9071 x86/xen: avoid warning in Xen pv guest with CONFIG_AMD_MEM_ENCRYPT enabled
-70e96579d1b67dbda6c4010fda23ef979deaf7e5 ASoC: AMD Renoir - refine DMI entries for some Lenovo products
-dbe9ee32e42c51bb0a9dc245a431f0c0ae7e350d Revert "drm/amdgpu/swsmu: drop set_fan_speed_percent (v2)"
-5d994a699a5f5051328356a81b13c085ea19240b drm/nouveau/kms/gk104-gp1xx: Fix > 64x64 cursors
-ebabe81cd6b547982d2aa0e5b9e84e8371c2c8ae drm/i915: Always flush the active worker before returning from the wait
-81d0a440a9bfa2f0350f8652b79d8957b820d2cd drm/i915/gt: Always try to reserve GGTT address 0x0
-ab95cad3e0c2d430990dad7d228576cbf98c98d0 drivers/nouveau/kms/nv50-: Reject format modifiers for cursor planes
-a48abf358d2b25359394007429b9f0dc7049d148 bcache: only check feature sets when sb->version >= BCACHE_SB_VERSION_CDEV_WITH_FEATURES
-3ac1b0fac4eeb303d3ef589a3745a9268791d639 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-9d9d255fa9eb6e42685a1c5c679f3c6dab8ae810 s390: uv: Fix sysfs max number of VCPUs reporting
-6f7e2527a20aa94be7fbc1b9bec45acad8493c44 s390/vfio-ap: No need to disable IRQ after queue reset
-37f2653497577d9265a06e203884077c57bcf24c PM: hibernate: flush swap writer after marking
-d8eaef6f49a40b74d94267dc7fea66dc4c5151a7 x86/entry: Emit a symbol for register restoring thunk
+331837b612cfdc3e18c24bc65c9aa49938e4972c ACPI: sysfs: Prefer "compatible" modalias
+10655fccc985a9d17cde25797415a5aa60523307 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+ab8267a7027f292f1aca6de8397106c4665ec235 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+9d3643c511c8afcd9568e5d3735eb55314528363 y2038: futex: Move compat implementation into futex.c
+a690b91c8165ada86e28cef05f20143d86878f2a futex: Move futex exit handling into futex code
+78b17f6a8c13bde14c9d8f6a223c151d4f99cc1e futex: Replace PF_EXITPIDONE with a state
+42e2e95be6da1c67723868205718e9fe341c9177 exit/exec: Seperate mm_release()
+58dbc565ebc24f86215847a777bf4eb85cd26773 futex: Split futex_mm_release() for exit/exec
+15c9f385a658731dc91a1e775514a5a24c02ea48 futex: Set task::futex_state to DEAD right after handling futex exit
+f63243ce740f07e9476a4d2e6a1f4d023a9d398b futex: Mark the begin of futex exit explicitly
+7f96341be959d67cdaa22ce6a4133ebc12ded4f5 futex: Sanitize exit state handling
+8740a336d3bfba52a5b09319800c80d633b585c1 futex: Provide state handling for exec() as well
+694ef230bd32442d786cabe5f1173fb5c7b78c08 futex: Add mutex around futex exit
+aa5a1b7f7ec0e146cd373c1f9990012a9c46e97a futex: Provide distinct return value when owner is exiting
+87353405c215d54bbd0d52dcd95e7276fe9d8050 futex: Prevent exit livelock
+169a9b2c377ec546a6a3bf0d5502b543220d64bb KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+70e11281d19bea59f6be5a9fbb08a81faf0cc984 KVM: x86: get smi pending status correctly
 
---===============1019474642361613453==
+--===============1848060048357681491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26959cf56169-3b8020929499.txt
+Content-Disposition: attachment; filename=revlist-d8eaef6f49a4-6e1a579673d2.txt
 
-6c9d6e23935692734f0c91557666363b5a1b167e ICMPv6: Add ICMPv6 Parameter Problem, code 3 definition
-189d59c16a3afbff1555e5f5c83a1b71eda28502 IPv6: reply ICMP error if the first fragment don't include all headers
-fbb0bb3d1f3201381f56e00f7d57096d57275f6d nbd: freeze the queue while we're adding connections
-e26fa46c5b708704354516ea89171f97b8ea46e5 ACPI: sysfs: Prefer "compatible" modalias
-15b6a064cfe7a6c6a07d8173e2bcd002faf79f85 kernel: kexec: remove the lock operation of system_transition_mutex
-f586a4328952753569fe5af5646c9508fcde856e ALSA: hda/realtek: Enable headset of ASUS B1400CEPE with ALC256
-fcfd0cc2fc5985a6e65109abc67be556946eae0c ALSA: hda/via: Apply the workaround generically for Clevo machines
-199ec61f731ae692f3f1f1c5fb6ad76875d11039 media: rc: ensure that uevent can be read directly after rc device register
-de997c26c64c8d3b14e4dd1f64d1ff0db0c66973 ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
-c33afb1ea2f2fd9c9cd3188b2392928b5f2aae41 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-ad51d568e8c34a1dda5cb20a7bc6fab39265e0e1 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-38c1d45472bc4e8222a73c47c2acd8ba24aa7f54 s390/vfio-ap: No need to disable IRQ after queue reset
-3b8020929499c1e6c44fd235925fbd0117a1c638 PM: hibernate: flush swap writer after marking
+588858e1a6b46055b5f147c0b52e83f17f9ce845 iwlwifi: provide gso_type to GSO packets
+f127f7a5b363b03b07210945dabdcf7e65038c04 nbd: freeze the queue while we're adding connections
+9b3a9b871755f19b5f110daeb790962fcc46e44d tty: avoid using vfs_iocb_iter_write() for redirected console writes
+07dcba5bb593e97f9911c38c715b994932db4dc1 ACPI: sysfs: Prefer "compatible" modalias
+47fb55b324fdeeb1821e844ab8181dac160dfdf1 ACPI: thermal: Do not call acpi_thermal_check() directly
+78220e2ed70ba9983e8e8e30b475cf4be8b892f6 kernel: kexec: remove the lock operation of system_transition_mutex
+0251fe8ed6930d206d0757e77c515f01bac12b19 ALSA: hda/realtek: Enable headset of ASUS B1400CEPE with ALC256
+2c33a713b82fb144fb22c1ce627b646564772a83 ALSA: hda/via: Apply the workaround generically for Clevo machines
+f573333c6f470ee549e3f3101591c534ef24f974 parisc: Enable -mlong-calls gcc option by default when !CONFIG_MODULES
+c813ea19346cf0bba52465ed709abdb13342aefd media: cec: add stm32 driver
+7fc3019f56b94ae3912a99fe84d00b32b62bd6f5 media: cedrus: Fix H264 decoding
+636a2cd38059dab00f083f8eb5f72ad6bdd0506e media: hantro: Fix reset_raw_fmt initialization
+49ecb37b6f20b06b94b596881c1abf2ea61a451a media: rc: fix timeout handling after switch to microsecond durations
+09c4dba1b96338c5c253449e6e7b43d51587ff11 media: rc: ite-cir: fix min_timeout calculation
+cae6e0f88dadb18cd6f220c6f2a3a2d56725d3f2 media: rc: ensure that uevent can be read directly after rc device register
+4bc4d89e5502fbceb35650d54a2244d5a0add4fb ARM: dts: tbs2910: rename MMC node aliases
+f03bdffc3ac8a42a4aaf3ab5f1a799391051f482 ARM: dts: ux500: Reserve memory carveouts
+d653ad6cd775c065e49fde7155c6c6ea0c6d245b ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
+79a5cf653c665dc35cfce0377896d97156c3e0e8 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+a976560f690af318e5a7057eb111741de5fcd573 x86/xen: avoid warning in Xen pv guest with CONFIG_AMD_MEM_ENCRYPT enabled
+f626e0f5ac277f2e8ae3acace6ee76aba6b74fea ASoC: AMD Renoir - refine DMI entries for some Lenovo products
+454ae54c650e392af16fdf48ce7003b09ce4ed87 Revert "drm/amdgpu/swsmu: drop set_fan_speed_percent (v2)"
+fcf756348ae2d4406476c9eb8542296a5243d0ba drm/nouveau/kms/gk104-gp1xx: Fix > 64x64 cursors
+b1c9cd03026aff9df2107d738333c0981428653a drm/i915: Always flush the active worker before returning from the wait
+ba11bde1a1b01fc3e890d8806ce2dc45e1ca3903 drm/i915/gt: Always try to reserve GGTT address 0x0
+c5611c877cd83c46a166c6a5f5bbb3769f877561 drivers/nouveau/kms/nv50-: Reject format modifiers for cursor planes
+0b533a6d65e48a99750831ca89c8f306100680eb bcache: only check feature sets when sb->version >= BCACHE_SB_VERSION_CDEV_WITH_FEATURES
+f52968651f8dd7b287297dba4a0b43cdc7ac9ca3 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+8688b127f7bdd297440905945c27c31087b9efc7 s390: uv: Fix sysfs max number of VCPUs reporting
+4a1d6e8b8c3ea8c2dca58ad859d1000377ca22f5 s390/vfio-ap: No need to disable IRQ after queue reset
+a2fdaf68789282ee501eaac4510fd21a4cec4644 PM: hibernate: flush swap writer after marking
+44e4799eb23e656d3f78049ceb1a5045f957a441 x86/entry: Emit a symbol for register restoring thunk
+78a43bc1d26648754f2174bbcb0e33801666c05f efi/apple-properties: Reinstate support for boolean properties
+4869724982e3ea4165540f08e1ceb630ac02e6e8 crypto: marvel/cesa - Fix tdma descriptor on 64-bit
+38bbae805f2b03844fc0c8768864008ff0cb4c30 drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
+1c5c309fc0268d48904c850915f6540dd0c5e305 drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
+6ee7fd1cf0819156ce4c1426943e47511a12ddcf btrfs: fix lockdep warning due to seqcount_mutex on 32bit arch
+5eef35d4315e8ac186f82adffbb1da58a1f47ea1 btrfs: fix possible free space tree corruption with online conversion
+bbaebe992800c0cd07bc4e213f357def89c26cff KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+c2af694b2143de76fa23b5cf200e34cade1604c7 KVM: x86/pmu: Fix UBSAN shift-out-of-bounds warning in intel_pmu_refresh()
+03246cc04fadd3fe1e4e55120035a4dd207ce3bf KVM: arm64: Filter out v8.1+ events on v8.0 HW
+c153d8ec9f7d7d306a8e5b84512968d97e2bc1e6 KVM: nSVM: cancel KVM_REQ_GET_NESTED_STATE_PAGES on nested vmexit
+55d2b6856cc4338478d8049f0b8a9700288d0f30 KVM: x86: allow KVM_REQ_GET_NESTED_STATE_PAGES outside guest mode for VMX
+dbaf5c5b8b1b3ec79a9292467a4cc6da3c177f73 KVM: nVMX: Sync unsync'd vmcs02 state to vmcs12 on migration
+5dfee0ec7df65f235a619b4bed45bc0436feef16 KVM: x86: get smi pending status correctly
+6e1a579673d2c37dd3a210618dcbf8d999805a0f KVM: Forbid the use of tagged userspace addresses for memslots
 
---===============1019474642361613453==--
+--===============1848060048357681491==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3b8020929499-7801a36cf930.txt
+
+134844437d88bc49e2d910b2fcc4693024ccf83b ICMPv6: Add ICMPv6 Parameter Problem, code 3 definition
+15beafc8bb1abfde8613f23b3fb9f6b20dcff221 IPv6: reply ICMP error if the first fragment don't include all headers
+f49e1259fba88c63e920d64913651362ca7e8917 nbd: freeze the queue while we're adding connections
+d8114194b06b6d4ef1e845e7a6f588768e6e5be1 ACPI: sysfs: Prefer "compatible" modalias
+8c563aeaf6dce3e9e7d1a0293334ab9013b1f61a kernel: kexec: remove the lock operation of system_transition_mutex
+fdaa249007a50f727f212db4ed336e3af03f2fe8 ALSA: hda/realtek: Enable headset of ASUS B1400CEPE with ALC256
+4229842b7364be3c784e84de9796a5df22841a81 ALSA: hda/via: Apply the workaround generically for Clevo machines
+f8a272d9a454bbfa3ca14c79e49bb6fc27c53774 media: rc: ensure that uevent can be read directly after rc device register
+020afdd1f88202301748aaf30f82a7cad98e9f3b ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
+db3dbf88e595024fbfab82b2bb156952282f78e1 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+398fbe06b77d73adaea167ae66a95e80e1f57586 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+1bdf084dbc1cb4c88a38f5ddd231579ea422d791 s390/vfio-ap: No need to disable IRQ after queue reset
+32f96f1fedbcfb56918cfc8c47aee4be41f4785c PM: hibernate: flush swap writer after marking
+8bd4f0936ebd343bbe8db346c735d15f57957a75 drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
+25fc6d7dd3a21c7fab7ebebe1fd7fba640fc1816 drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
+1823e3e13f94b8aaa00295f71e02e630161fbc86 btrfs: fix possible free space tree corruption with online conversion
+348253063eb5b2c13c0768a60f73a76e8c3e2603 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+2971148a0cab5b262f63fe90cbfdbd86ff9c6083 KVM: x86/pmu: Fix UBSAN shift-out-of-bounds warning in intel_pmu_refresh()
+2ca723e67ed49b581174115d860988d6af1070eb KVM: nVMX: Sync unsync'd vmcs02 state to vmcs12 on migration
+7801a36cf930a47d5f02f964ec1d235ec56d5442 KVM: x86: get smi pending status correctly
+
+--===============1848060048357681491==--
