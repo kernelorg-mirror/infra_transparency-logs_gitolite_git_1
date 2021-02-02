@@ -1,76 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============9096415096646356658=="
+Content-Type: multipart/mixed; boundary="===============6294446254153248553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Tue, 02 Feb 2021 16:11:34 -0000
-Message-Id: <161228229495.31782.4773018437863780372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 02 Feb 2021 16:21:11 -0000
+Message-Id: <161228287163.5210.10673675427837620799@gitolite.kernel.org>
 
---===============9096415096646356658==
+--===============6294446254153248553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/queue
-    old: 11c294c81301801429b33e5b5b81f88a5d4eb6cb
-    new: f84a54c045404f00bd77bf64233dad52149a6361
-    log: revlist-11c294c81301-f84a54c04540.txt
+  - ref: refs/heads/master
+    old: eb4e8fac00d1e01ada5e57c05d24739156086677
+    new: 188fa104f2ba93887777ded2e600ce16d60bc3d7
+    log: revlist-eb4e8fac00d1-188fa104f2ba.txt
 
---===============9096415096646356658==
+--===============6294446254153248553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-eb4e8fac00d1-188fa104f2ba.txt
 
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1612282292 -0500
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1612282292-8b734784a0cc478daf844a03bbcf8bf9ada49f48
+2e99dedc73f004f650b197c9b269c15c7e01ad15 igc: Report speed and duplex as unknown when device is runtime suspended
+ebc8d125062e7dccb7922b2190b097c20d88ad96 igc: set the default return value to -IGC_ERR_NVM in igc_write_nvm_srwr
+b881145642ce0bbe2be521e0882e72a5cebe93b8 igc: check return value of ret_val in igc_config_fc_after_link_up
+f559a356043a55bab25a4c00505ea65c50a956fb i40e: Revert "i40e: don't report link up for a VF who hasn't enabled queues"
+f72f2fb8fb6be095b98af5d740ac50cffd0b0cae net: dsa: mv88e6xxx: override existent unicast portvec in port_fdb_add
+5e9eff5dfa460cd1a74b7c1fde4fced7c04383af ibmvnic: device remove has higher precedence over reset
+938e0fcd3253efdef8924714158911286d08cfe1 net: sched: replaced invalid qdisc tree flush helper in qdisc_replace
+c518adafa39f37858697ac9309c6cf1805581446 vsock: fix the race conditions in multi-transport support
+28e104d00281ade30250b24e098bf50887671ea4 net: ip_tunnel: fix mtu calculation
+c3df39ac9b0e3747bf8233ea9ce4ed5ceb3199d3 udp: ipv4: manipulate network header of NATed UDP GRO fraglist
+31628201545548e1ef167f2c55eb6fd7d3562f12 docs: networking: swap words in icmp_errors_use_inbound_ifaddr doc
+188fa104f2ba93887777ded2e600ce16d60bc3d7 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 
-11c294c81301801429b33e5b5b81f88a5d4eb6cb f84a54c045404f00bd77bf64233dad52149a6361 refs/heads/queue
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmAZebQUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroOpZwf/XK51DLV6IsNcmsWzsH3ud/gPtpSD
-5ynMVGvTPKz4wa6W599FAxuBgVFJqRqFG4LUSBXIumtwN5w4fKyvCjwHrphk4flr
-aNagVicP21viiwwQ5hq9jyQzzbeakhp7MQPZ9lovC6H3xKsiHJwHoM7Rkj/6E0rp
-Lo3W10eY9ZwXHycn6XIXc3brRibRAB5FGEySE6+4eNSXF+qistw6g3vWuPUnuZV5
-NmQ7Bwcoscpm2Su9RYL+ZbN+F8u+U1Ztuxc3ZHgFI9GQpwzgvyNW9PhuMLFvzhf8
-lFgRhJXga2GkyXi1ynOgjGnZtdYRVzjsYceOlUiviXCBaHONBG08Q/nbbA==
-=iCbc
------END PGP SIGNATURE-----
-
---===============9096415096646356658==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11c294c81301-f84a54c04540.txt
-
-58448c23fd22a76505f4042da2bf39d6a7e722c4 KVM: X86: Rename DR6_INIT to DR6_ACTIVE_LOW
-560ed45a2da57c664612458273818dab68c1b364 KVM: x86: Factor out x86 instruction emulation with decoding
-b2dc84d1d4c566a2be1e5ce28da7d1a49bcdb8ef KVM: SVM: Add emulation support for #GP triggered by SVM instructions
-f1a379e97f8edbcfe7e41cc2b77f9f7b75ce2300 KVM: SVM: Add support for SVM instruction address check change
-0c112c1ffb7876d34bafc48840076507e049b427 KVM: SVM: Fix #GP handling for doubly-nested virtualization
-38da3c48052b34dbd82fdb0584e98943b4ce1aea kvm: x86/mmu: change TDP MMU yield function returns to match cond_resched
-0bd5f75f041f26ed3c42da1d9061236315e9e6ba kvm: x86/mmu: Add comment on __tdp_mmu_set_spte
-3d6d037f4cfc4d1ed48b836ba9d1f51ed38a5644 kvm: x86/mmu: Add lockdep when setting a TDP MMU SPTE
-940ab28f11da496f1d369e6322a913fed1810219 kvm: x86/mmu: Don't redundantly clear TDP MMU pt memory
-5dd06a11600dc8e8c054fd6714551d609bf734d4 kvm: x86/mmu: Factor out handle disconnected pt
-f09615645e13c918f073ca50949b372c7af68701 KVM: Stop using deprecated jump label APIs
-ce73335ab4cd57abc3d8e2232b2e31cd61924ba6 KVM: X86: prepend vmx/svm prefix to additional kvm_x86_ops functions
-52e3cae9d2296fba98eb091b499f1bf66f372f0f KVM: x86: introduce definitions to support static calls for kvm_x86_ops
-28a2462e033b5b136d27dc71142068bc17bb43fe KVM: x86: use static calls to reduce kvm_x86_ops overhead
-193f9d1d8e84deffdf416d00a55e75e434908515 x86/virt: Eat faults on VMXOFF in reboot flows
-c646924086778caf3454a3ef0276e21fe7738c60 x86/reboot: Force all cpus to exit VMX root if VMX is supported
-646f7797a4fa2cb63569a88a2a111b6395d3b0e3 x86/virt: Mark flags and memory as clobbered by VMXOFF
-dec14d1fa6607b91961396fcf62be094d7789fc2 KVM/nVMX: Use __vmx_vcpu_run in nested_vmx_check_vmentry_hw
-ba5ee32aed5d987384e31dc9b278aaf4997351bf KVM: VMX: Move Intel PT shenanigans out of VMXON/VMXOFF flows
-3b38c1766230b10c240146fb372faaaa5a872a21 KVM: VMX: Use the kernel's version of VMXOFF
-f84a54c045404f00bd77bf64233dad52149a6361 KVM: SVM: Use asm goto to handle unexpected #UD on SVM instructions
-
---===============9096415096646356658==--
+--===============6294446254153248553==--
