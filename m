@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6078769432666942992=="
+Content-Type: multipart/mixed; boundary="===============3853749145890892850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Tue, 02 Feb 2021 16:56:46 -0000
-Message-Id: <161228500662.28194.14993485433535353743@gitolite.kernel.org>
+Date: Tue, 02 Feb 2021 16:57:34 -0000
+Message-Id: <161228505415.28507.671299141306415456@gitolite.kernel.org>
 
---===============6078769432666942992==
+--===============3853749145890892850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-next
+  - ref: refs/heads/next
     old: 10454830ca455349373fe43b44166ae0fa8e8fa5
     new: 1165b121c1954ff3111fd3160197af6663872bae
     log: revlist-10454830ca45-1165b121c195.txt
 
---===============6078769432666942992==
+--===============3853749145890892850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -81,4 +81,4 @@ ed2fb1d9d569e89ccac6a6276e7ca4281b65fd7f habanalabs: improve communication proto
 f2c9fb753ec80cb9fb62aa5f4ac60ee16d34a77c habanalabs/gaudi: use HBM_ECC_EN bit for ECC ERR
 1165b121c1954ff3111fd3160197af6663872bae habanalabs: enable F/W events after init done
 
---===============6078769432666942992==--
+--===============3853749145890892850==--
