@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1987559293397261802=="
+Content-Type: multipart/mixed; boundary="===============1045607357524420904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Tue, 02 Feb 2021 06:32:01 -0000
-Message-Id: <161224752138.28066.8261245479999795945@gitolite.kernel.org>
+Message-Id: <161224752184.28097.5594765953092711613@gitolite.kernel.org>
 
---===============1987559293397261802==
+--===============1045607357524420904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 14278d4b38e29bf27b1229b1e28e1a1be7549d74
-    new: 9331886aeebe365fcf755c1410878ffef6ab6308
-    log: revlist-14278d4b38e2-9331886aeebe.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 6116bd4b305b5a058841bb7adcaac41da57a68ff
+    new: 50ede7f7df6d275babc87143cbbb4cff24723243
+    log: revlist-6116bd4b305b-50ede7f7df6d.txt
 
---===============1987559293397261802==
+--===============1045607357524420904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,55 +30,61 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612247520 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1612247519-b008ae5ca9c6a12088697b088352d793573b9c1d
+nonce 1612247520-982f121a3c70e919c9897ae601e52b1e58b73442
 
-14278d4b38e29bf27b1229b1e28e1a1be7549d74 9331886aeebe365fcf755c1410878ffef6ab6308 refs/heads/linux-4.14.y
+6116bd4b305b5a058841bb7adcaac41da57a68ff 50ede7f7df6d275babc87143cbbb4cff24723243 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAY8eAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wKkP/1+4DSSjH9SUYykOOudT
-3hBQwt9usWNyjW5KSHsnFGdasHhEgkjk3MLE9C6bQLyRKHVB7+GW0oIA593voPO2
-mxZGnStgM7bJ8ShVfL/qeWPNkEiAa0eRCO2ZhZd8TQrBnPC1rh56rRqymswDvQmA
-CxegZOi2gnygRUo9eDuMC91llvdhPS59KhEmb++46OLeMJNH8rGLEBsQTlBppraL
-kAqEwwTX8FogoVARBDncvejv34D9vZg6qA6EuhfkcvzlkfHZVAcW9dZ0pdW0Gy5R
-VqbcRVct40Lg2js4Tta6pbDAdUBVpSGwr48IUT7jx0URcLNnMgS4cK+wmJ3ar1xz
-ZWjFIq/ClKULgzaO1dpfhtkkljBFSNU0XfIaozoA6jRBPMTW0mUeVJso00GExjmV
-ROsmIxEpzKDVDoM+K0myCRlcdbZdPsAI/mrqXy9xvwAlPQN3VgB5nIRL/xw6vMkY
-ROduxLFT3c9XyfWZNCht4WbENTqgi7PBL5CHca188sWJ2M+XwZLTIvJ1ZzY0v/4c
-cs5x26CCdfaA9u/kMA86O8PgO10VP5GBYdgt9BYisXPQR2bpGSo5/8L/2bXEkA5R
-iveGd6wO6csjkp87o1Btc+8Lgv4L/ZAYIWbrd4MorFGqTK7bGasYi0ihEZPZoD7A
-OSJ2h5qAMdnO5PrPvCFcoNfM
-=BJhs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kGkP/iiB7XAVmc4/GUAL+EgU
+WG9aE+A6kKnXUWH4GwZy4P1+VWa/fE3+Q6Yivreg38iISZKeVwNygBor6u7GPTiN
+FdJe0PGLWXsNnOYpLpbr5hAs3P9C11JCcR3z7kJM6vE/5y7phMshQRCok/MTISPt
+Np9W+nrP2LhM48QtPtNrxRNj8nlnt1pp2VA1PnfmfVoy+jmdeW5TaHmaRNAK9IUt
+eFu75amRKOuOR9JCt9c70Fxp+xjls+Dy+yZ6sXaFXdCRHe638DzLA3usbD0CNYhb
+FYWfj0eZHt5WbaNFRh6aEP4zjkaMNlamIYkU1tczgkDQUtJyVTq1h/R4f++9GILl
+fbQ3OcKenNaZjkXnN5YcGPcoSDGQKmolNAIhhw7zsle8cJCyDJE3xe689YzgZD7Y
+N0zWWHrRvmCHkkJWrYTU8k8mKpPKYOCWuWlliOsrHOsKWGLUCRwHiiz77xRUwfRB
+Of8osXp0Wzg2cEjZ+DIKxR4bP/5vR9ZrG9ctV+MPFjybGbmadr7kMmKt3dWYorHD
+FG4cGVbC2NLJmUJta2LryxMIEiuSeqhXRRHd55RGMj2sB19jIfNc0nr6w2Oo+um/
+Z9rrSt9AkZ7HvXObxPXyyUrfC72A003et9VJK1qrShqBB54vonR2+5xqwE41mvgE
+JoSd1XeEFbaAu5GqVAWGc/eD
+=Tc7H
 -----END PGP SIGNATURE-----
 
---===============1987559293397261802==
+--===============1045607357524420904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14278d4b38e2-9331886aeebe.txt
+Content-Disposition: attachment; filename=revlist-6116bd4b305b-50ede7f7df6d.txt
 
-3bdbb2e17f2fd24a99c2820f8963575479f94bb9 nbd: freeze the queue while we're adding connections
-ccdbb22b321dab745644a829aed91c1c0c2784d0 ACPI: sysfs: Prefer "compatible" modalias
-7bbe870c97cdb790d854a2bc8dda1df95c47e919 ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
-5f66fbb19608bab74efb18624ca4a12440b2eea3 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-69b7a4158005aa4e71c74ae8d4ce8a82cb538097 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-7fe127405bdd5a6cd938d29f015c329d543b6c6a drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
-322d5a9dbbc05165194cfe5b72c4d04fa08d8e31 drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
-ec55909302cb0ae5089ead57db9413a15765164c KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
-0746026dbb1e324d8fe46989601fe1c19ca543ed KVM: x86: get smi pending status correctly
-5f973f2dc0a28e8d991c9683eb6a06f515006b6f xen: Fix XenStore initialisation for XS_LOCAL
-d7274e9b3ec86978640781a8bb61ca8bb6ba1b7e leds: trigger: fix potential deadlock with libata
-e9b43669408288b261544bbadaf48825cd5820b4 mt7601u: fix kernel crash unplugging the device
-26276d82611dc742731aab0b7eeab1b6a101b304 mt7601u: fix rx buffer refcounting
-12580768e22270a828e2aa4e3a9f8e54d712818c xen-blkfront: allow discard-* nodes to be optional
-c943410d4e86c1ad73d2324185cebd904c0d235f ARM: imx: build suspend-imx6.S with arm instruction set
-b70520ee4c5e47c732121fa462e5e19da0ba894e netfilter: nft_dynset: add timeout extension to template
-63394af889f329093673cde81678d57eeb0ad267 xfrm: Fix oops in xfrm_replay_advance_bmp
-883e27b38c1494610a1995ec856c001005a54610 RDMA/cxgb4: Fix the reported max_recv_sge value
-3619472748c6518b85acf4915bad2af1d7a30190 iwlwifi: pcie: use jiffies for memory read spin time limit
-39f9b026306459b7df7669f8a0503847ddbcc6a5 iwlwifi: pcie: reschedule in long-running memory reads
-685b9a910e76ce2776b4fb8dd6c67d46bc6794e3 mac80211: pause TX while changing interface type
-f0fc82178fc5f268ca8de6fe6cb3e0b35b5a8fc7 can: dev: prevent potential information leak in can_fill_info()
-9331886aeebe365fcf755c1410878ffef6ab6308 Linux 4.14.219-rc1
+bae94f33f1d5b5705bab7dc2d4f030142d5bc027 ACPI: sysfs: Prefer "compatible" modalias
+364f4e666d055b1c3b2d51cfbb843dc0ff38bb4a wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+b277c2e09ae875d56a1768c39e782044cc29ccff net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+0043cbe71842c9ac15f6346e98c7b3da1ad7c627 y2038: futex: Move compat implementation into futex.c
+3caea20f3b5ec5a440088042a862cb885a7085b6 futex: Move futex exit handling into futex code
+b3d6fecea2cbbcd90f2e5d3669c76576d27396ab futex: Replace PF_EXITPIDONE with a state
+10f014f7263be54e8ffa270ea7d29eb4bc2ea492 exit/exec: Seperate mm_release()
+0c8930e066843d2ed18e2f5ae9dbfeb026efbf0d futex: Split futex_mm_release() for exit/exec
+b094cab7a9f9128abd5f81debe7eecf8d7fb458e futex: Set task::futex_state to DEAD right after handling futex exit
+93c16d0577b6f163c429229ed527e140d9c6ba8b futex: Mark the begin of futex exit explicitly
+448685e832d01b83a518c0c043d21a5a8b3fa4fb futex: Sanitize exit state handling
+dccffecd3302886ff9ddd3e54a4775d80446ebbd futex: Provide state handling for exec() as well
+5c28a8805d420203e8024e745fdbeda6ddc652c1 futex: Add mutex around futex exit
+20584a8ab6459d01d006c7df45a26414f3d593c0 futex: Provide distinct return value when owner is exiting
+26fa4e0ec104a9d44fb23c740dd278565280570d futex: Prevent exit livelock
+01b50f20cd3010260d0a4c9fdc4a1d1543acaf37 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+0d3a031715947c89e4393421ac8af643b2d42183 KVM: x86: get smi pending status correctly
+82422e1f66522d013bf832cfe1ddf1b886953572 leds: trigger: fix potential deadlock with libata
+70fb13520329b7f126f0b58fe1de785b6ce3e63b mt7601u: fix kernel crash unplugging the device
+0f4df4e1910a2321320e616be1cfb2cfa81e34a4 mt7601u: fix rx buffer refcounting
+2164fe533e55fbf5849523b03bb6279d1c425ce8 ARM: imx: build suspend-imx6.S with arm instruction set
+c408c2f528ccbfee5deb8a7f65e7cb9b32fd22bf netfilter: nft_dynset: add timeout extension to template
+7c48c2921082df8fd8ad44cef1f151036fe30703 xfrm: Fix oops in xfrm_replay_advance_bmp
+296e1507dd6a2fbb27955a80b0da889ff84cddf4 RDMA/cxgb4: Fix the reported max_recv_sge value
+08983c6196a734ec2b13942844bacb5ce481be48 iwlwifi: pcie: use jiffies for memory read spin time limit
+166065bf7e1e21ebb2f4074feec8620960ea5107 iwlwifi: pcie: reschedule in long-running memory reads
+79027a9defa6cf5c6fb66fdcd913092a866f3a99 mac80211: pause TX while changing interface type
+1e8a765a4d0a42a1b3e9bfbb369949d593e9ea59 can: dev: prevent potential information leak in can_fill_info()
+50ede7f7df6d275babc87143cbbb4cff24723243 Linux 4.9.255-rc1
 
---===============1987559293397261802==--
+--===============1045607357524420904==--
