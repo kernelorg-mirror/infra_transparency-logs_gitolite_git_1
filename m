@@ -1,23 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 02 Feb 2021 17:29:45 -0000
-Message-Id: <161228698546.16608.6538923346865106147@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5804391858945058983=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 02 Feb 2021 17:29:49 -0000
+Message-Id: <161228698924.16688.8242404017774131819@gitolite.kernel.org>
+
+--===============5804391858945058983==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev-test
-    old: 47361e16aa871a5cfbe2f6e4e4f3d8cf93e31242
-    new: cb7a78f688040d1beb0504484d5d3bdcbd15e387
+  - ref: refs/heads/for-5.12
+    old: 1ecebae4733d8971059f0c514741868ce19f5d24
+    new: be6be67e135e59fb176b1e2e9d47a7436fb161d1
     log: |
-         39f71b7e40e21805d6b15fc7750bdd9cab6a5010 f2fs: fix a wrong condition in __submit_bio
-         c8e43d55b1aa05d175daac25d228c7c1c71c7b11 f2fs: relocate inline conversion from mmap() to mkwrite()
-         fbc6762dae8ea241e0c84c7309b17e3db7eb201e f2fs: introduce checkpoint=merge mount option
-         b4d40c5d6cd8808666071399b97abd73c696f625 f2fs: rename checkpoint=merge mount option to checkpoint_merge
-         cb7a78f688040d1beb0504484d5d3bdcbd15e387 f2fs: add ckpt_thread_ioprio sysfs node
+         68be8ed6a4622d4eb6cf7632bc7cb78464c83c78 ASoC: fsl_spdif: Utilize the defined parameter to clear code
+         be6be67e135e59fb176b1e2e9d47a7436fb161d1 ASoC: topology: KUnit: Convert from cpu to data format
          
+
+--===============5804391858945058983==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1612286942 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1612286987-6f0f1040f2a0c5abffef4f09a242eb0a4d318217
+
+1ecebae4733d8971059f0c514741868ce19f5d24 be6be67e135e59fb176b1e2e9d47a7436fb161d1 refs/heads/for-5.12
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAZi94ACgkQJNaLcl1U
+h9BcQQf/TzUAowFSU4fwshKm2NN1//AnD9JClpVC7dQlV8gQrytlsxiDL3ivvGKC
+xGsOcs776RhbdNhyF7eN5F3A1lkjT+yJtEG8mNA/C3AL5oUMYDZgo+ZJJ5Mns5zN
+HgL2r06PYQpUDbwno5TEFgGANlfCcIb4txAcutoOjE059WKMBWFyo5zyewAiLz6C
+yBM+x4hDLia6EUc1A67VrFyjvNaGIO4ON54s75Aeqq1+OnpCJtzoW8ObLiLoC0YN
+P/aqRo0aVCerfAkwlbxU+bmqeW9RGQhZMG/QevJ5MqIk31fABe8t0exHmvW7KeV6
+3hWmQ92FpA+aNA64WQWgjqDDZ04yGw==
+=BGZK
+-----END PGP SIGNATURE-----
+
+--===============5804391858945058983==--
