@@ -1,46 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============9067186870902502610=="
+Content-Type: multipart/mixed; boundary="===============2288673383559362942=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 02 Feb 2021 02:53:11 -0000
-Message-Id: <161223439176.24747.18340711294411823935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 02 Feb 2021 02:55:13 -0000
+Message-Id: <161223451321.26807.15025992789070800778@gitolite.kernel.org>
 
---===============9067186870902502610==
+--===============2288673383559362942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/100GbE
-    old: f994ad77394cace2f4529976eabe4b1175e9c0b8
-    new: 0581a0d82386aa2171ac78e1a512769a2789cb7b
-    log: revlist-f994ad77394c-0581a0d82386.txt
+  - ref: refs/heads/master
+    old: f222a9937659a006e90db921a1ace41cf3a9522e
+    new: 1a2b60f6f16527ce404a41ad4d201df9422e9aad
+    log: revlist-f222a9937659-1a2b60f6f165.txt
 
---===============9067186870902502610==
+--===============2288673383559362942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f994ad77394c-0581a0d82386.txt
+Content-Disposition: attachment; filename=revlist-f222a9937659-1a2b60f6f165.txt
 
-7f976d5cf16d0a747098f67831d746fa25f18dbe net: dsa: hellcreek: Report VLAN table occupancy
-8486e83fe1d8534ae964cb12c6852a824c12318b net: dsa: hellcreek: Report FDB table occupancy
-f222a9937659a006e90db921a1ace41cf3a9522e Merge branch 'net-dsa-hellcreek-report-tables-sizes'
-bb3bd157147b6b659dcb3911573c4a0b3522f097 ice: report timeout length for erasing during devlink flash
-b6679c6ea1e8875208e0a7dfb8e8313ce6ee1cd0 ice: create flash_info structure and separate NVM version
-d2127fae7e378edc118fdb2c79f1074b0feb4ee0 ice: introduce context struct for info report
-0e810a123f589e326dfe87e58e6d0ca6c9f25b31 ice: cache NVM module bank information
-79f8d7ed97a775245fb312b67d6286011a942327 ice: introduce function for reading from flash modules
-d30aa0ca965bfd82cd37240f253de88e42b6aafc ice: display some stored NVM versions via devlink info
-e6d42b6081f1add15ba43f730dccce7a96055d8e ice: display stored netlist versions via devlink info
-0c10a872b887e027156ab8619e181e94cb670b3e ice: display stored UNDI firmware version via devlink info
-4dd3db8c266331bbf3e2acbc9450d8da40471db2 ice: Replace one-element array with flexible-array member
-9db0edb5bfd585767f76d50f0c9db305e92f8f9d ice: use flex_array_size where possible
-4b032d058f5b0f6cad9b76f17d3acb9e9ac55750 ice: remove dead code
-648216b19c7950bccb099ef9a2406f13171c2984 ice: report security revisions of flash modules via devlink info
-0581a0d82386aa2171ac78e1a512769a2789cb7b ice: add devlink parameters to read and write minimum security revision
+bdbc13c204ee3e742289730618002ff9f21109bf net/mlx5: DR, Fix potential shift wrapping of 32-bit value
+3a77c238909b354b25c8d58ea541c44e14030ba8 net/mlx5: DR, Add match STEv1 structs to ifc
+10b69418641062b4dc7fabe3c6f2e12432ec6987 net/mlx5: DR, Add HW STEv1 match logic
+9f125ced1750ecf299dc52771410d823a36fbbfd net/mlx5: DR, Allow native protocol support for HW STEv1
+a6098129c781a7b0fe0d518281bce99b60fe7203 net/mlx5: DR, Add STEv1 setters and getters
+4e856c5db9b4d6601337dd5e3ea72a6931e2469b net/mlx5: DR, Add STEv1 action apply logic
+c349b4137cfd9482f30dcd726748d0c4da1427f3 net/mlx5: DR, Add STEv1 modify header logic
+f06d496985f49189dde4506d0ac15494d1a74607 net/mlx5: DR, Use the right size when writing partial STE into HW
+4fe45e1d31efb07bbf0c80a59c211109e389b8e3 net/mlx5: DR, Use HW specific logic API when writing STE
+8fdac12acf32fa327c2da9ded8a460e606cb74ac net/mlx5: DR, Copy all 64B whenever replacing STE in the head of miss-list
+64f45c0fc4c71f577506c5a7a7956ae3bc3388ea net/mlx5: DR, Allow SW steering for sw_owner_v2 devices
+1a2b60f6f16527ce404a41ad4d201df9422e9aad Merge tag 'mlx5-dr-2021-01-29' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 
---===============9067186870902502610==--
+--===============2288673383559362942==--
