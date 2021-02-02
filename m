@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 02 Feb 2021 13:04:40 -0000
-Message-Id: <161227108053.20757.1136509233494751416@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1604699642383461169=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 02 Feb 2021 13:06:12 -0000
+Message-Id: <161227117228.22651.4934057722322425799@gitolite.kernel.org>
+
+--===============1604699642383461169==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kvm-arm64/ptp
-    old: 04a33d1a54b077f14a15b6f1d2841e2f5a20d5d9
-    new: fecd9f021d3220b48d00597bd8e04e4fa6fd9dee
+  - ref: refs/heads/master
+    old: 27dac1e831bc3040c5fec79d1aa1407425916f8a
+    new: 024b690d2b4c16cc883d88ad64444a6f08b01c40
     log: |
-         0f90140a1f02cefb2ce98a94d7f01f5892b95fc2 arm/arm64: Probe for the presence of KVM hypervisor
-         bf68f04b9e5cb9673098dea93f2a31da236aa1e7 KVM: arm64: Advertise KVM UID to guests via SMCCC
-         bd68d61242456bd1de57bb1e953577de4cf8f874 ptp: Reorganize ptp_kvm.c to make it arch-independent
-         c0b055922d2603fdf95c63472527f1ee6ab372d5 time: Add mechanism to recognize clocksource in time_get_snapshot
-         141685f15833c34af3632ad582ff85c47ca6574d clocksource: Add clocksource id for arm arch counter
-         94a0f7196a8634a9dae10b8d14c6c69843eed759 KVM: arm64: Add support for the KVM PTP service
-         fecd9f021d3220b48d00597bd8e04e4fa6fd9dee ptp: arm/arm64: Enable ptp_kvm for arm/arm64
+         024b690d2b4c16cc883d88ad64444a6f08b01c40 4.4-stable patches
          
+
+--===============1604699642383461169==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612271171 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1612271170-58804cf9c0db794299930e56af3df55e2ea6aed0
+
+27dac1e831bc3040c5fec79d1aa1407425916f8a 024b690d2b4c16cc883d88ad64444a6f08b01c40 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAZTkMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3t4P/je0G7103sCathahRYIC
+Z0irOsigaKb8VZVUb0nSyd8G491iry2kA/iy8ZtTidLR+ojsjjifwLbtIy6qOhUP
+xtIwYj3fA4614QY64Vud1lv+GTiGWiMAYdp9xeyzr/9Ah/pTKOxL4aatUZ6i6b1L
+DCl9I9YHTe7CDQIXAiMhfsqayhqZQwMJwzUnVKeP4NRoXUSH9AePrOa4uyAYPGwm
+ycc76+WKlnwuxk9dnxkX3Sd+4pl8vzazb7XA6EG7nrHnHcjuIg6l6r92AftQV2cY
+HLxPqrhYFOo2a9gOQAHaCG5SClN6aIOGYAExRrgQmADfv9xf0v/zeXABLXRpEvAx
+IPh2tZa4dWtrnLmfWzABdfy+63eIAxAPHY+JQy6YtVV0ayk4II/tfa4JUzw2W9i0
+pwH17LdCtJA8vDvP33o+F67StMAEdTH+7ICf4mDIqJMr37i4s5SHFCm4PCNBeWLC
+2JhE5OR/JBG9H5/CnOATDjx1fKejjj2KxMFznEpjYrUDZWqPNRuCWx7Ss6KqhQFu
+KF8+PHEPYUfpctLtHKiH/Z10tRzbq+c4rkMF09Zwa9optzOBdcxfe37iZKTKaJQR
+jn8p0xqVpGSQ62HPbcGJ6YI8fv/rTSDemgKWrHIYyOw6h6jnTUEyZoojljpBQDZK
+5+r3Kvk+hVoJhwPpDox3OJQK
+=uOd0
+-----END PGP SIGNATURE-----
+
+--===============1604699642383461169==--
