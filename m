@@ -1,57 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2319886561463643254=="
+Content-Type: multipart/mixed; boundary="===============4275111735314540310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 02 Feb 2021 15:16:28 -0000
-Message-Id: <161227898844.30099.15631299103540267388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 02 Feb 2021 15:34:34 -0000
+Message-Id: <161228007407.6814.3447118539855087857@gitolite.kernel.org>
 
---===============2319886561463643254==
+--===============4275111735314540310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 17aa02beecbcd35b28d37f5830d0531b01f672e3
-    new: 2b8ff93fd7443d7bd4c085ac0249d87238c755ba
+  - ref: refs/heads/for-5.11
+    old: e8820dbddbcad7e91daacf7d42a49d1d04a4e489
+    new: 6c9123068815ed0bc1e8fa5a5029eef5ee3866c3
     log: |
-         7771bcc7f5a727d6e3f7a80b0b075a75cb664fb2 usb: typec: tcpm: Handle vbus shutoff when in source mode
-         2b8ff93fd7443d7bd4c085ac0249d87238c755ba usb: typec: tcpm: Set in_ams flag when Source caps have been received
+         e1711b1f9dfb712aa72ea25e03e0a3f6ef16c4fb ASoC: SOF: add be_hw_params_fixup() for ALH
+         6c9123068815ed0bc1e8fa5a5029eef5ee3866c3 ASoC: qcom: Fix typo error in HDMI regmap config callbacks
+         
+  - ref: refs/heads/for-5.12
+    old: 1f16aaeef74fd65d31c8046ad3354f2c0faa282e
+    new: 1ecebae4733d8971059f0c514741868ce19f5d24
+    log: |
+         1ecebae4733d8971059f0c514741868ce19f5d24 ASoC: mt6359: reduce log verbosity for optional DT properties
          
 
---===============2319886561463643254==
+--===============4275111735314540310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612278979 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1612278979-fa915a29711d2bc089f41f2d0ba9a08eca99bd33
+pusher C3F436CA30F5D8EB 1612280027 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1612280071-a709cf9cd158ad8ca55174d29fc429d4eab83c0b
 
-17aa02beecbcd35b28d37f5830d0531b01f672e3 2b8ff93fd7443d7bd4c085ac0249d87238c755ba refs/heads/usb-testing
+e8820dbddbcad7e91daacf7d42a49d1d04a4e489 6c9123068815ed0bc1e8fa5a5029eef5ee3866c3 refs/heads/for-5.11
+1f16aaeef74fd65d31c8046ad3354f2c0faa282e 1ecebae4733d8971059f0c514741868ce19f5d24 refs/heads/for-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAZbMMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZggP/0T62YaxPBZjtMDB32dV
-FPS+hk7lbl3FWhJDBL0hjcTLk8/Z9IcTbAKKlRhueT2DWxC6jItUY2XbH4tT2K9D
-NKfyLESvivIvSNSfcFy8UXwXA0SyQTB0nI1tuKvW9iStAW27viYv5TpKcqg875eV
-GBdoyd8Cw242lETSjCc95e0j4aiUlzeJx1WVG1Snmel3oqWmRA8hZyHg6og8UCcz
-gAyko/y3dEYvv8AwBvBFBrgbDOqjOqkdEfeGpfHcqU4Ps0n76etc1g6VEsq1FLz9
-h0ExWwwj3lhNeL2El3nJ01Qu2gEFq1q3USshXSut2OJl6R7DBXMYtjeK2NE/BEPz
-RVzvQWvfwRs7+npzArWcXybat4qDU89ZGjm/SKE5ryt7gCyys2wVoE/Zpc1Lvw7e
-lQ49n2RC9UaIvBKndUSvE+Th1rdctb4o3xodT0HsW9qjfkdrlLr8ih7C7A6Y2ium
-dyH/y7HapW5RFNJ5Kbwk+6CTzSNpsZOq76XQQR7mgQ8Ba1DeRXTSOh5vhDnEMYmH
-JSl4iX7QpCBjFUYyUKUn+3PK985zUmkLq41PkqjCc1zUf6CRQC5ZOurqEgU1SC3v
-FyWs6R5HoLwpdXLf9GysnDdnrdwKDpBCejmjhgB61NVTm7JuwP4shG7WCUATcqCz
-rcbm+4PyimRu2RMsW6IOz2UG
-=IvrD
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAZcNsACgkQJNaLcl1U
+h9BiFQf9EFDHLpbFA5F+72hTGjQM8NKH9jN/Tu4wgaqx6VyWpYfUVSZDJEZDPYqy
+mhSr2OHqjbfAKBaTr2vmspk/avj//dDH78rtkQEz8+S8roMqJmj3Y/yhq82HJiEv
+oBrECjLuuPaS1s3of2c5bZUx8Shiq1wYlbWmGBeizR5WLNNC2iF90uI/DSbx8fyu
+nhIS8Qudlu/rUZ4zBDFx43ik2ZbE2FbrsoUN1JwluKrKyyWlg5yjHsCVyScH4j/t
+hjfAtmX/De4SfXmw9cQ+SK+dCeRZ5a+pQDnZRmka9yn2drI4Vx4y7g7eHAC2zpcf
+xft7aswCdrAaziygTFPw67/Pv62i8Q==
+=awy0
 -----END PGP SIGNATURE-----
 
---===============2319886561463643254==--
+--===============4275111735314540310==--
