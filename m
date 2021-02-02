@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Tue, 02 Feb 2021 07:50:10 -0000
-Message-Id: <161225221058.11869.6413563991370813839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
+Date: Tue, 02 Feb 2021 07:53:59 -0000
+Message-Id: <161225243950.13013.11530798724339113241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: bleung
+repo: pub/scm/linux/kernel/git/i3c/linux
+user: abelloni
 changes:
-  - ref: refs/heads/ib-usb-typec-chrome-platform-cros-ec-typec-changes-for-5.12
-    old: 520f5846108879249326acc14180d874c8a335c0
-    new: 0371616d8bef6926e9aa05757f35b901268d3724
+  - ref: refs/heads/i3c/next
+    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+    new: dd9267034c0e364b49261c3e0070b863286d1242
     log: |
-         14336151fdf1046853fea7c68aa116b8f47bb2a4 Merge remote-tracking branch 'origin/cros-ec-typec-for-5.12' into ib-usb-typec-chrome-platform-cros-ec-typec-changes-for-5.12
-         3b3dd1f0dbfe92781c60f36ea5c22b26360f9909 platform/chrome: cros_ec_typec: Report SOP' PD revision from status
-         cefc011f8daf0ff3003208349b85174cda0b708d platform/chrome: cros_ec_typec: Set Partner PD revision from status
-         0371616d8bef6926e9aa05757f35b901268d3724 platform/chrome: cros_ec_typec: Set opmode to PD on SOP connected
+         9d909f1b1e91b4aa7d016ed14b7b76dbf2675414 i3c/master/mipi-i3c-hci: Specify HAS_IOMEM dependency
+         7456fea589c6ad3422b0c188871ae80e1d307737 i3c: Handle drivers without probe or remove callback
+         dd9267034c0e364b49261c3e0070b863286d1242 i3c: Make remove callback return void
          
