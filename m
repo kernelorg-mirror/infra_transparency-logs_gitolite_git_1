@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 02 Feb 2021 21:28:51 -0000
-Message-Id: <161230133152.18833.2153674149462560586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 02 Feb 2021 21:29:09 -0000
+Message-Id: <161230134947.19007.12318386013665092241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: 83e1265c6b6733118d39a5c08b6ea01cca2580fa
-    new: 2bebb4bdc7ee023da23b655f06694322ae05e99b
-    log: |
-         2bebb4bdc7ee023da23b655f06694322ae05e99b netdev: Handle deauth frames prior to association
-         
+  - ref: refs/heads/broadcom/defconfig
+    old: 0000000000000000000000000000000000000000
+    new: d88b6b834872d51d76a951f89c761e7b12717962
