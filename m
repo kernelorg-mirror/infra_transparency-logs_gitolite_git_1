@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6259402104949812935=="
+Content-Type: multipart/mixed; boundary="===============2929761966145135318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 02 Feb 2021 15:12:01 -0000
-Message-Id: <161227872146.27318.5424968211296087737@gitolite.kernel.org>
+Date: Tue, 02 Feb 2021 15:13:00 -0000
+Message-Id: <161227878080.27682.15816246463428488710@gitolite.kernel.org>
 
---===============6259402104949812935==
+--===============2929761966145135318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/usb-next
     old: 29b01295a829fba7399ee84afff4e64660e49f04
     new: 17aa02beecbcd35b28d37f5830d0531b01f672e3
     log: revlist-29b01295a829-17aa02beecbc.txt
 
---===============6259402104949812935==
+--===============2929761966145135318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612278712 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612278772 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1612278711-939f8fd33dda26e7c12cabb3f3ea50506852730e
+nonce 1612278771-b46b239469e2d4714177dcaaaf8cf4861d3777c7
 
-29b01295a829fba7399ee84afff4e64660e49f04 17aa02beecbcd35b28d37f5830d0531b01f672e3 refs/heads/usb-testing
+29b01295a829fba7399ee84afff4e64660e49f04 17aa02beecbcd35b28d37f5830d0531b01f672e3 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAZa7gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nRUP/1+/Mzj5liDgOxowVc0p
-LGtnXmSPNYzzPGOVLBJsBksl57NjLd8faEzqJ/vXNXXIV+nV4zCPAl0zoMARSkfV
-ko/2wcPSaZYrzFoXJ9+jVsokPnktv4eDfJDzythbzN+72x7gCqjL8orEP0cWnd0i
-dSm2ZXXfr1b+53KubT1RbSlOkQgzrGgWuZGuKOep94S0bp3pNfg2B24hnED01sg1
-nw1AbbU6E8tmbAil5lAPkhOhkMnlSGyN3olnCE9kTEdWJsGuq9Tx/QyE5La4J0Ka
-bUZJtuOeoRQxvyAcJoCxwDBCRRB0n5mP4OJxhFwSzHgtB0mNumW8rRoWs3ypWKnf
-4USamK6faXL/S7A9zV0jpr1vxqQfh5l7EUOodPN+pZRfcYr7imgImIhO3qFJYfZ8
-tLjrMegvAWPoCpUe68k2j1icsWBIxgzv7Kl88OsB4lATNTugRqZScqYjz8eVV3Ym
-gfccmlvhKqNjwwK4ENYYI5D3R8j2EdDttVjJHsBR8cjLFagywAYG2RrJYiOeNHP/
-cFE2MHujRLcvg0BWR8gIzMX96cASqghj5uEeQw0ArwKqbp4ozxrA6wW9IsQ/iZ4Y
-zC0EO74TcKXzQWZwvGb4oIDjsWiT2GKINBoiWJGgEMr1HfUNcc0RoBnSup3zMUW2
-H0wzmN5EeIOflG0Lzl8fTV4/
-=xPXM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAZa/QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BbgQAMh6GNvcqr9zYFbCZv1M
+CtPLjN7oo0D/BS1hBHLo09wBebR2mc5apD8krmoInaUmsH2rNuxVUIZWtzMl660r
+IDA9Q1iCtJQoCkrrTOFr5PFYqIYVxhDV2mZQg1E9hluKUW42RbtQQgw/XubVmr7D
+fGWdcjZZDkaqTSEZIa7SNXu/DnyhgKPD9X66IU2rNhGQgFnA265Y6dMBsG2iculF
+gqN6FVstfMuBk+FSTEERbvnRLpzBq0uxz8hVsuH1UuZb752PW5TJYulRipOGJ+Ns
+ODproGhPeMqg3+NgsfyltZZf/DBYn389hLl2gwaFnfaKiRHxbNEwaEo2m3hFDe5S
+pr8BeyR8xCPCyJkojY1h9jRjX2GlvF5kQ3NpXjG6cMZGjyQwb5hduyIHum/iCJGr
+VUuejYpM2uZcnseOk3ZB6NcxglYpjOiGuBKs1zVxnxnZyJ6bnVOO3BJprfHW0SoK
+7FeLSXRGKtgfYE2/DrpeCiQhZeJd5Rbd5PlrMtAnv2y1SMoEegkfzTJubb1n8BYo
+8awv4fwvgVs0XBRTx85Vv87aT0WiSEL1Ssc5ArekTDu3Dp12HodShud1HrKgGklO
+0yyLthfh7mPffwzpgfT0vsBX1tezr5OR5DtuJC/NlJr/15R6VpmaKuRqpTr3mry6
+uc52j0kCoiUVzmzC9ujYluMI
+=sW1Y
 -----END PGP SIGNATURE-----
 
---===============6259402104949812935==
+--===============2929761966145135318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ cefc011f8daf0ff3003208349b85174cda0b708d platform/chrome: cros_ec_typec: Set Par
 0371616d8bef6926e9aa05757f35b901268d3724 platform/chrome: cros_ec_typec: Set opmode to PD on SOP connected
 17aa02beecbcd35b28d37f5830d0531b01f672e3 Merge tag 'tag-ib-usb-typec-chrome-platform-cros-ec-typec-changes-for-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux into usb-next
 
---===============6259402104949812935==--
+--===============2929761966145135318==--
