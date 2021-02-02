@@ -1,26 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4967414957589794270=="
+Content-Type: multipart/mixed; boundary="===============8929052017588099373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 02 Feb 2021 18:48:17 -0000
-Message-Id: <161229169770.2113.2363834061638482037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Tue, 02 Feb 2021 18:59:23 -0000
+Message-Id: <161229236392.7870.12559887504749870522@gitolite.kernel.org>
 
---===============4967414957589794270==
+--===============8929052017588099373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
     old: 88bb507a74ea7d75fa49edd421eaa710a7d80598
     new: 3aaf0a27ffc29b19a62314edd684b9bc6346f9a8
     log: revlist-88bb507a74ea-3aaf0a27ffc2.txt
 
---===============4967414957589794270==
+--===============8929052017588099373==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612292362 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1612292359-c7a43d11cb42df5cf443988013a24139d6c4b537
+
+88bb507a74ea7d75fa49edd421eaa710a7d80598 3aaf0a27ffc29b19a62314edd684b9bc6346f9a8 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAZoQobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qq4P+gP93/NgnI7a0K/bmpgi
+RboqAi8DLPUx5ZwNNj12gENm7G/KdGKm4d1z171ye5cZoUN4aMUH3a4Pgd1KHn6v
+qb3hranNYBDw4VphHZHHZa+Cj/I8tQkGoWxG2ahoB52AvtbkzQa7/aeftoFHMfWO
+Nyiob1tXSBMIFrxh0uDDFawRzEaj/8m1ONFu00MFAwKEWjiUV04mEpIlziQ4i4fu
+ByUqXaD44fRCOZYuZ/ieInGT2jOdAc8Zlj1pzpnEB+G2Ylsc8GUUFj/GaLIds14D
+bgypeDiGui7hy9r9MSKDtXdZJlervpDm2hrEsuMa5Hm9ZLKyYgha1rqShIk7dmgN
+8dC+6lpfA3r1vz4p3rFTnUjr/U5vLdWcWByigcIHieU1kzqxZxj7uLSZ1ZrTymNg
+KTm8mya3sQF73krNGbtrtEQdtio+N2RuUJpiNwjP56iPvje18sf8HCPoMMpu80Rx
+IRngf2tUsL3987flaTijJldoD+KWc9xnSbo3D5+qk5Z33cE69ITgt0i+vpmi+noG
+YcY/BFBP8/ljsRGSUHxWgD+xui0nJctWgdyu2YajBNQXPOB8Fq4MHbGhpKp6wwSe
+PK8r7Ha+IB5PLckNkOH9aT+9QX7D80ip8Fe4F+EPliNviztwNlXGhrw3EdQe6e0H
+mJmdrW/mkEgiuHa4uNqOASqx
+=FVR8
+-----END PGP SIGNATURE-----
+
+--===============8929052017588099373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +106,4 @@ a9925628727bbbfbd7263cf7c7791709af84296e Merge tag 'net-5.11-rc7' of git://git.k
 7d36ccd4bd07825775b512f654566d3e89e9cfd0 Merge tag 'dma-mapping-5.11-1' of git://git.infradead.org/users/hch/dma-mapping
 3aaf0a27ffc29b19a62314edd684b9bc6346f9a8 Merge tag 'clang-format-for-linux-v5.11-rc7' of git://github.com/ojeda/linux
 
---===============4967414957589794270==--
+--===============8929052017588099373==--
