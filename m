@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9120516699313088147=="
+Content-Type: multipart/mixed; boundary="===============7114974135842197040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 02 Feb 2021 18:43:27 -0000
-Message-Id: <161229140742.31504.15369652394240112180@gitolite.kernel.org>
+Date: Tue, 02 Feb 2021 18:47:00 -0000
+Message-Id: <161229162054.1668.3335782658778250479@gitolite.kernel.org>
 
---===============9120516699313088147==
+--===============7114974135842197040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 2a16e18c3400f7ab1deb826a98cf52153d03653e
-    new: 64eaa0fa66ac55965f793a8b65730299854e55cd
+  - ref: refs/heads/usb-linus
+    old: 54f6a8af372213a254af6609758d99f7c0b6b5ad
+    new: a50ea34d6dd00a12c9cd29cf7b0fa72816bffbcb
     log: |
-         32e9b48d110ef5fae850036eafaf7895a25b37e3 usb: typec: Return void in typec_partner_set_pd_revision
-         64eaa0fa66ac55965f793a8b65730299854e55cd platform/chrome: cros_ec_typec: Fix call to typec_partner_set_pd_revision
+         a50ea34d6dd00a12c9cd29cf7b0fa72816bffbcb usb: xhci-mtk: break loop when find the endpoint to drop
          
 
---===============9120516699313088147==
+--===============7114974135842197040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612291398 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612291611 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1612291397-7890ff4f349dcb8a799af81ef9898fe38a0d845d
+nonce 1612291610-88dc887abd316e5e345545156207fe3ab260d724
 
-2a16e18c3400f7ab1deb826a98cf52153d03653e 64eaa0fa66ac55965f793a8b65730299854e55cd refs/heads/usb-testing
+54f6a8af372213a254af6609758d99f7c0b6b5ad a50ea34d6dd00a12c9cd29cf7b0fa72816bffbcb refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAZnUYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kCgQAIgXgkQGM3Yd/mQUmDyT
-CbZuVcOhw9rUsALiOMfUfFsT8yzOMKapf6aEN4xiIdznAVTYGXhQZHeRBWk3ptxX
-jf9dMHTv3k0/Zg6nLuO/EPDlHEu7P91Q8wkjbMpn3FebOudmwdvHfj2pMXhokuyv
-DyolnTu2wwE3KO4qhxC4tsw3XZ0Pk+OhMjnsE67AArYU9gDrwOvtykWtKQQd27Tb
-GRoJfj3PqhpMwK/O1gqSvaYvyxecVVrOuo+iiNmG5PEvIpYqZgpLk9AsMka530DV
-WaGypxNoRuA0oe7M8ByV6/EBoXQoBBJQFK7x+i07TxmQyDAdBZrVyas3kv8vWhLO
-ImF/fnxCu08q4+8g/rZ3H6al0g/T0kUOmIoraVJ0ZY9bR1Xk4w3yffHNx/HIciSk
-jHR0eZMiiRafhYMvWWi3OFZbx0kKEN6VZoaIpvs0BO/y8fqKMj0vzL1gjGeNGy4I
-Crso5fyF5iO4sdGB98mfCGfrEQndIuTtNzRbRnK5/myVj0LjAUYfcA1nJ0/OzcWf
-+7ZhC5V/nfHEnClkKgpiith63I19Eh6KNYyLL2J9VEe7yHWtzj02LuTAunsiegZo
-tTlDjW0B5W+kaMaTMMRtzpJeLzDagnm4kX2hVeFXTWMrgMJaRNbBH27AM6K8qb+l
-6dy+Z7pkMl9RPGBeOqHL5pon
-=XQGg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAZnhsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LPQQAIv52s6Fp9abxlKsSkto
+VorG+PhieJ5yLRSJhmUmhYMNLpruZj5Au0vOK526/9zeI9sqGpCKe+ts2hFVkBii
+kXKq8q0ZbX7UhcO4ZF+Vd1UMCOMxAQMIDlloshvpjQWW7BN2hE8hvysNiTwMsarQ
+9UqCFgZZ1q1NWK/SZuWB92cFxYc2YLOxpPQWxDqS/c6k3hQYrH8wnYY6ZzpPsTpk
+p/T3f4+DokQuN1hb7DhI1HCtNGWXqCpBavL9JsAmIpNGApAXdB4MNWLab3iEr53p
+OtkydM9iL16U8VZ/nqqJobj9YK+lvsM0Hu3gMo18DWpEqkhk10LkJezeDkrMh3R5
+VC2kPhLwcdq2yc95KOpGUxVvZPuLOWT02YlhOelLs8sAjMuchDo0dTF+VATtOW5/
+bQL5sAV4gHAe44rFNoIVna0zFVTkV3JgSW4sKrfnDxKJcNOhY7gmp0ReDKfSm8Bj
+0sMPwanyof1TPT9zAhSXoKq5sxwzrlPey0ghZNv8tUOqCQwGTLH2OjEO2ImV6LEP
+8EqC6oJL2wlraj9RaLw0vXrUDRwKj8kRlnr5QUOD7+y1e2hNSFLeFUhN/gy8zXZR
+3oG8DvjjFI96Hl40reHM7xd45OEvTvd/kVQyjtyO7vfpVogxCwtGArfk2fE/xLlY
+fGHRmG9RInqodHEZh1v4FmSA
+=MCin
 -----END PGP SIGNATURE-----
 
---===============9120516699313088147==--
+--===============7114974135842197040==--
