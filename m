@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2840002490678182042=="
+Content-Type: multipart/mixed; boundary="===============6489280462585705436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 02 Feb 2021 13:09:11 -0000
-Message-Id: <161227135116.24205.2550245622333067097@gitolite.kernel.org>
+Date: Tue, 02 Feb 2021 13:11:25 -0000
+Message-Id: <161227148576.14214.4476310028301108205@gitolite.kernel.org>
 
---===============2840002490678182042==
+--===============6489280462585705436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,368 +16,370 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: e9b1701a6b1b2a601eb14348df2dd91d8a2c0c0c
-    new: c8e6accbf8be2355c2d27f333d9efcd87b11ab6b
-    log: revlist-e9b1701a6b1b-c8e6accbf8be.txt
+    old: c8e6accbf8be2355c2d27f333d9efcd87b11ab6b
+    new: 55e72b0ab3876dcefd1f489ab9ad363f8f588ee2
+    log: revlist-c8e6accbf8be-55e72b0ab387.txt
   - ref: refs/heads/queue/4.19
-    old: ca734056593afc0f09c5ed06ff4d2d8ade58d2b0
-    new: f75b196e72b1a4dc9844c159834364cb9777b094
-    log: revlist-ca734056593a-f75b196e72b1.txt
+    old: f75b196e72b1a4dc9844c159834364cb9777b094
+    new: d7f9e4bf7a6cb66f583bcddf96626512e9ce98da
+    log: revlist-f75b196e72b1-d7f9e4bf7a6c.txt
   - ref: refs/heads/queue/4.4
-    old: c2dd9a5fa1b2515c2ce5d6913440b52c3f1109a1
-    new: 442ddebc000c087cb08a281cc19560e515ed491b
-    log: revlist-c2dd9a5fa1b2-442ddebc000c.txt
+    old: 442ddebc000c087cb08a281cc19560e515ed491b
+    new: b90b815bdebab1946959aafe133c7e6a810627a5
+    log: revlist-442ddebc000c-b90b815bdeba.txt
   - ref: refs/heads/queue/4.9
-    old: 87f96288f11eb3a74481e57880d90afd5c6d5c4c
-    new: fef90e750ab124eded184a265e7ddc149d1c3f64
-    log: revlist-87f96288f11e-fef90e750ab1.txt
+    old: fef90e750ab124eded184a265e7ddc149d1c3f64
+    new: ce2b219507d260f786119b4f52859bb8cfd1ec5f
+    log: revlist-fef90e750ab1-ce2b219507d2.txt
   - ref: refs/heads/queue/5.10
-    old: 15e17db80755096b6c8d87cd89c52908018991a4
-    new: dbf708662770e44203a7048a505452f75db3709c
-    log: revlist-15e17db80755-dbf708662770.txt
+    old: dbf708662770e44203a7048a505452f75db3709c
+    new: c7e7e446c3675d7e6fd3be11e23b755633262f3b
+    log: revlist-dbf708662770-c7e7e446c367.txt
   - ref: refs/heads/queue/5.4
-    old: ba5a4b0eeaf630e26dc850eef0687680ca5360d2
-    new: 17724a1c413e006efb0737d20989e5fd07d6853b
-    log: revlist-ba5a4b0eeaf6-17724a1c413e.txt
+    old: 17724a1c413e006efb0737d20989e5fd07d6853b
+    new: acee33fcb92383ebefd86f07e79aaa911232b2b4
+    log: revlist-17724a1c413e-acee33fcb923.txt
 
---===============2840002490678182042==
+--===============6489280462585705436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9b1701a6b1b-c8e6accbf8be.txt
+Content-Disposition: attachment; filename=revlist-c8e6accbf8be-55e72b0ab387.txt
 
-f3c285fcdf293e64b9dc1d223c323f8f6324fdf4 nbd: freeze the queue while we're adding connections
-7d874da4d0266f865f87e18780c4a34ccc5118f5 ACPI: sysfs: Prefer "compatible" modalias
-956cc8a6649dc68343fc1d956d84a5570a6cbdf2 ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
-06cd8cba14405ae8c6c0ce30d83fb7f4c26bf1d7 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-29460a9a0dc866c83a5d7a22380a6b0e5e549427 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-4426767a23a52e8e323e42b5e4cdfbe760ac2f3d drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
-441289ca9bc5cbf3e24c36fdaa1fe17ce530905b drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
-b28b07be441ba63606453b9d9fbd24f7825e63d0 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
-ae423154b12c8987deeb2136f91fbd7cfdb11e31 KVM: x86: get smi pending status correctly
-54c5e38f31eb19062f286055ef6f3a069259e52b xen: Fix XenStore initialisation for XS_LOCAL
-a4226321419970cc71e691ee0e7d8557ee0b28b4 leds: trigger: fix potential deadlock with libata
-d7e742154573e7865421e1c79a386f823588cf94 mt7601u: fix kernel crash unplugging the device
-ed635f564f59c96c8950a948a9f42687cfda58d0 mt7601u: fix rx buffer refcounting
-7b08e6560c8c181ca4d65a2a832aca837ca344d1 xen-blkfront: allow discard-* nodes to be optional
-f61e530d0601105bfc0d8fc559bee090747eecbc ARM: imx: build suspend-imx6.S with arm instruction set
-5b43bd5c575abae19c816a2f6f3b8cf6e53d11ba netfilter: nft_dynset: add timeout extension to template
-bf448eb4d0a37b519aabc87203ae5b760835bf9f xfrm: Fix oops in xfrm_replay_advance_bmp
-d94ba31cbe251cbbeab7d8beeef774ebfd60dd41 RDMA/cxgb4: Fix the reported max_recv_sge value
-90ad297f1e7529be374b1fb543d0b98c04f7c154 iwlwifi: pcie: use jiffies for memory read spin time limit
-5216f0fcb525b65dbd5f6238a142e96518986b16 iwlwifi: pcie: reschedule in long-running memory reads
-a8c08b43f4cc6f0974f243666a5b65900cb7819d mac80211: pause TX while changing interface type
-3a53e68c5d9c8d0a476f345e545732fcc25181dc can: dev: prevent potential information leak in can_fill_info()
-d536a690896a6a8578bafb612fe81b6c9299f93f x86/entry/64/compat: Preserve r8-r11 in int $0x80
-c8e6accbf8be2355c2d27f333d9efcd87b11ab6b x86/entry/64/compat: Fix "x86/entry/64/compat: Preserve r8-r11 in int $0x80"
+0f9a5859cbf92e9183cc1cc12e67975f6c497320 nbd: freeze the queue while we're adding connections
+383e5910ce7d7a4470d42e1f6b57fda3fc607a83 ACPI: sysfs: Prefer "compatible" modalias
+80a90beaa8c9af2d500d7ae24169b38a96db5d26 ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
+1421fb969d900b14ab446f498f152cdd23427d4a wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+af434100d486821a74e28b945ebce572fe546e2f net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+1e69dc589e41699f28b83a9c391ab19691e5fe1f drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
+3021d98acf77c02658278efd3d72d947dd980e8b drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
+37d0e8a9bf4a7ef79ebcc6ce9771ae9e96dab5e0 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+64575065833e9bc6442c6c709debbb555e3d40b5 KVM: x86: get smi pending status correctly
+f6a405f5e7e32902d0563e4c8a6f853c1e22611f xen: Fix XenStore initialisation for XS_LOCAL
+1048f2810e4608233b82169d2ed0ec0fb491aeae leds: trigger: fix potential deadlock with libata
+b0e37f08e67a8435c487d6668a1188357cbdf586 mt7601u: fix kernel crash unplugging the device
+88b3679aab7c6699fbff4f8eb2df5c0f2837eab1 mt7601u: fix rx buffer refcounting
+41087f194aa940c3955ca2a83564babcd6b2b9b3 xen-blkfront: allow discard-* nodes to be optional
+f8d3b333c4a3b94c3a28e2f8abe54469d0132446 ARM: imx: build suspend-imx6.S with arm instruction set
+21469eb4b8c6c7ec1f816f6a89c99eaed8fb914a netfilter: nft_dynset: add timeout extension to template
+d98064b5c2f53715d7806be5fa919c64df30ebd7 xfrm: Fix oops in xfrm_replay_advance_bmp
+41daa69d596f00485a983c44df33678dd52331e2 RDMA/cxgb4: Fix the reported max_recv_sge value
+d0254854afa55c9b981c0025846198f789a7317e iwlwifi: pcie: use jiffies for memory read spin time limit
+ffa51e325a2542b43bd5778e6bc5a071a4da8ed8 iwlwifi: pcie: reschedule in long-running memory reads
+a0a5e2043c5105b97e1b60034651baafc30e70f6 mac80211: pause TX while changing interface type
+67ddc01f18160f53ab77c51710dfc12cb097cff5 can: dev: prevent potential information leak in can_fill_info()
+d4c9303bd22e284d266a325739090ecf43ead428 x86/entry/64/compat: Preserve r8-r11 in int $0x80
+cce8606554c51f3a366e14de5760fa517fd10e24 x86/entry/64/compat: Fix "x86/entry/64/compat: Preserve r8-r11 in int $0x80"
+8e37e89ea08b0f7126342f5088698cc7fde98f5d iommu/vt-d: Gracefully handle DMAR units with no supported address widths
+55e72b0ab3876dcefd1f489ab9ad363f8f588ee2 iommu/vt-d: Don't dereference iommu_device if IOMMU_API is not built
 
---===============2840002490678182042==
+--===============6489280462585705436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca734056593a-f75b196e72b1.txt
+Content-Disposition: attachment; filename=revlist-f75b196e72b1-d7f9e4bf7a6c.txt
 
-daa647f8a02d1c84607954441e70788d6ea6b9d8 nbd: freeze the queue while we're adding connections
-bf76e97edfd336c86a1eb06b4f465b950014581f ACPI: sysfs: Prefer "compatible" modalias
-34b2a69554a39aef0767b4a95574c3e67e6d030b kernel: kexec: remove the lock operation of system_transition_mutex
-e864a5c1f5a0cb3495b9ad9dfdbdbe2fd68e5e44 xen/privcmd: allow fetching resource sizes
-6d0a21f1ff499a893b9088f58135bf328ee5d076 ALSA: hda/via: Apply the workaround generically for Clevo machines
-831cc1ed12787b7be1bcb121fb9c8cbeea421d1a media: rc: ensure that uevent can be read directly after rc device register
-e662f09ed6dd4389090347e75919846f85b1a0b4 ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
-063b8b106f17cc14138fa76006b86da972c0eca2 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-219c2bf94d2ee65f302487ff78114b0281ac598c net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-e7618038651a23ad5fc6f32a6014f72b363fec09 PM: hibernate: flush swap writer after marking
-96d3c6aed7d84bfb3b731ace5a122c2ce4803b26 drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
-6a48973373dc1f6f1e6029aeb9268f5a84d30396 drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
-b62dc57f62b382bfb52a13400ac1732609554653 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
-e6b3489bdaa65374e8d33a0a879dea62ddde4471 KVM: x86: get smi pending status correctly
-342567a6040b31e05a6a5f69f9af597b287caf4e xen: Fix XenStore initialisation for XS_LOCAL
-9bf046b9e9b2430fb979fc5ad5bd793f8947cbe5 leds: trigger: fix potential deadlock with libata
-cb9900545724bab490349a359c08f40b8b7496f3 mt7601u: fix kernel crash unplugging the device
-869bcd4d8af7818d24b813b32a12dbf0ec9cc890 mt7601u: fix rx buffer refcounting
-2b63e0428a36b1d32bfa411c619029c0144de5c0 xen-blkfront: allow discard-* nodes to be optional
-af0090daf9a51447f7dec6f0d4245f964e2b84ef ARM: imx: build suspend-imx6.S with arm instruction set
-25af131414a62658e30f147dfd5128335f259b7b netfilter: nft_dynset: add timeout extension to template
-e52dfac58bbf3fba786fc30ab711b0b78c4f8383 xfrm: Fix oops in xfrm_replay_advance_bmp
-eea273f27794b3da5324fab36e5d6773e300e6cd xfrm: fix disable_xfrm sysctl when used on xfrm interfaces
-9bc3cc896b6d84eaef3a7dd46a239e13915b0d56 RDMA/cxgb4: Fix the reported max_recv_sge value
-af239bb6404d6fa8f6e70929bd6e25eb8679e199 pNFS/NFSv4: Fix a layout segment leak in pnfs_layout_process()
-be24c9f3e5b52822ffb43dfe9413926eb8bc0b59 iwlwifi: pcie: use jiffies for memory read spin time limit
-35070918fab349e212cde0dbbf5cb9687ffcfd5c iwlwifi: pcie: reschedule in long-running memory reads
-645f486d4c9a3771f774cac78e6657a1365c62b8 mac80211: pause TX while changing interface type
-3b53e9530b68cc81945ad0e03cc0245579d257a2 net/mlx5: Fix memory leak on flow table creation error flow
-f76c5b3af3513441f10a05020dba0a46c1cd6028 can: dev: prevent potential information leak in can_fill_info()
-504a2b41267c4c5d3dd31ac60b0a8ebe5bfb92ba iommu/vt-d: Gracefully handle DMAR units with no supported address widths
-f75b196e72b1a4dc9844c159834364cb9777b094 iommu/vt-d: Don't dereference iommu_device if IOMMU_API is not built
+ff316f6b5f7483206b6f2d16e8b5ef39d20a2a56 nbd: freeze the queue while we're adding connections
+2c8ebb1da21452cf4b6cbb75b054aedc4ac31d13 ACPI: sysfs: Prefer "compatible" modalias
+4c3f5c98119fd1094b06f57b55a6a72a45111743 kernel: kexec: remove the lock operation of system_transition_mutex
+0d1e23724080c204d52f82baab090b2727539b1c xen/privcmd: allow fetching resource sizes
+c1059249715f116d6494246c2e960c5280ff5432 ALSA: hda/via: Apply the workaround generically for Clevo machines
+20719f4af06c8b2a02d650484f64732948f8134a media: rc: ensure that uevent can be read directly after rc device register
+aa79cf8f2833c712381f00327f596e7a1523f7c5 ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
+824b5b7413099137e0ceed6c08df42622cec5a6f wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+15b61cf0cb6cf50e3b394c499e1836bb4711f5d7 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+73124917fb2cbc16b1b03d4c80531799837b2a89 PM: hibernate: flush swap writer after marking
+5c092f6225675958d0cb08fd525f47e4b2bd7e05 drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
+9de9638fe6fe2161f75bea8ae11521898e2ee962 drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
+f13c3e28436574d91d8bc74de4cbbb2b8cf6ffe7 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+eb8c11f7a63b215e44bfa1e794ffd3556f4a8763 KVM: x86: get smi pending status correctly
+d0fd36f5b4725539534abb7131ff8abbcdacb08f xen: Fix XenStore initialisation for XS_LOCAL
+58c1b457d0aa8aac6921cab417da6c85ef75ac78 leds: trigger: fix potential deadlock with libata
+082a3b79486059ae44c07f70aa7ad05a99d8eaae mt7601u: fix kernel crash unplugging the device
+3c1ba327d3b89a1994583f0635439f5996c8c75f mt7601u: fix rx buffer refcounting
+067bd545ea4182edd2cacedd695b1c1581d980dd xen-blkfront: allow discard-* nodes to be optional
+ed2709dbdadaff76adfe207b5fab3fa49b520a2e ARM: imx: build suspend-imx6.S with arm instruction set
+01b0b63d1a827f6a6455a9903e88b792e1d719e4 netfilter: nft_dynset: add timeout extension to template
+4a388433b86b08acf5cbecb8eb74c178e9e9714c xfrm: Fix oops in xfrm_replay_advance_bmp
+66b7361f3cdae4f00b9d5f97c7db7c1315f856a5 xfrm: fix disable_xfrm sysctl when used on xfrm interfaces
+bc2090847e7bab24936e2c396daa6e32545fd65a RDMA/cxgb4: Fix the reported max_recv_sge value
+00d40f64abdfedcd6f81fdce015dfae3888ab532 pNFS/NFSv4: Fix a layout segment leak in pnfs_layout_process()
+c93a905a6d68cbe5650d4e15ab5cd0f4dfc32e98 iwlwifi: pcie: use jiffies for memory read spin time limit
+e4c7a506269c98c995e14a96a8e76f5d54eaa8db iwlwifi: pcie: reschedule in long-running memory reads
+d1f9004793f466b9f36eac088d36237f718ea18f mac80211: pause TX while changing interface type
+19950aeab21dfa363b70eff2a35365fdcfddd230 net/mlx5: Fix memory leak on flow table creation error flow
+a12af4a483dd67a7d8cc2c499e7a5fffef965258 can: dev: prevent potential information leak in can_fill_info()
+4730373008d7989d6376cd935e343335380e095b iommu/vt-d: Gracefully handle DMAR units with no supported address widths
+d7f9e4bf7a6cb66f583bcddf96626512e9ce98da iommu/vt-d: Don't dereference iommu_device if IOMMU_API is not built
 
---===============2840002490678182042==
+--===============6489280462585705436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2dd9a5fa1b2-442ddebc000c.txt
+Content-Disposition: attachment; filename=revlist-442ddebc000c-b90b815bdeba.txt
 
-8b95fcbaabe9d260b472b52be5c0514cce04f234 ACPI: sysfs: Prefer "compatible" modalias
-92891c7905f6bba75f6c28a9e6034eafa801b834 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-32aae902b52c186bf9c5ab6be6b355d97e6cd4d9 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-87cd55544322760055ee32ef3cf4665e0cdc6b98 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
-97110906293451053ddcd693699e7566fdc86185 mt7601u: fix kernel crash unplugging the device
-eb40db8282215f3ca6870b9ce69125a94033cfe0 mt7601u: fix rx buffer refcounting
-fbb51441cedf88a46e48af863837f99a015f9108 y2038: futex: Move compat implementation into futex.c
-65dda8b4e6295afd26a627e1d430279ec570a802 futex: Move futex exit handling into futex code
-c01064ff2318167e93082d07a13715a045268928 futex: Replace PF_EXITPIDONE with a state
-e4e30d9823378551f3f6e17a396e5700fd629208 exit/exec: Seperate mm_release()
-f1d256f74b210cefc27901cd298f1274f29933e3 futex: Split futex_mm_release() for exit/exec
-e630f803e68cef78e0e12876a6d50d223f8f988e futex: Set task::futex_state to DEAD right after handling futex exit
-7e7b6fee150bd7b6faeb534ac531a72bb619c87a futex: Mark the begin of futex exit explicitly
-022a17acdc83981f9a4270bb3a33d893962bc085 futex: Sanitize exit state handling
-05982df751731bc959835685eb8d37bb80ede490 futex: Provide state handling for exec() as well
-86478cd56ccb19de1238af1f4252d4cc410b7845 futex: Add mutex around futex exit
-6a1ee9008de74966e3f2600ae8639c7eb4fe56a4 futex: Provide distinct return value when owner is exiting
-dc5422432a100bdb9d1701af1e7dafbacc1faee1 futex: Prevent exit livelock
-097cf12683fede8beeba8cdc012f93c96c33aae0 ARM: imx: build suspend-imx6.S with arm instruction set
-36ade9809a70c53394f0d2faa9a1e69ba010fd87 netfilter: nft_dynset: add timeout extension to template
-5482605e8c50ef5c9456c738268a75146add5b0d xfrm: Fix oops in xfrm_replay_advance_bmp
-b4aa1e9dba618e93f0440e80d3775016acd91ba0 RDMA/cxgb4: Fix the reported max_recv_sge value
-b6fac13e57fb9db4648951d7f9a3cd6d06894e43 mac80211: pause TX while changing interface type
-0ef0ae5b1fa4614d4be227cef5b74f53b72fba46 can: dev: prevent potential information leak in can_fill_info()
-286f3f24e32cc9d3e664f9af69bbd44b4d3f011c iommu/vt-d: Gracefully handle DMAR units with no supported address widths
-442ddebc000c087cb08a281cc19560e515ed491b iommu/vt-d: Don't dereference iommu_device if IOMMU_API is not built
+35a1c5241104587f1694ef754a0befd30ccb2093 ACPI: sysfs: Prefer "compatible" modalias
+ec6b6721915e8e133f58f93c4f579abca596a923 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+1e54af1abec063478e6973bd60f48c7948017466 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+a7ff2cf08aeab6793f76d08beb0aae112b61b2c7 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+9964799046281365adf7be75279a8aad475ea3b7 mt7601u: fix kernel crash unplugging the device
+5e1ae576d85d7cd4ee896dc7799a81cbc6774729 mt7601u: fix rx buffer refcounting
+d8f13adb2144bbc5e98c11a7e0975d363a719c7b y2038: futex: Move compat implementation into futex.c
+b06d0d7b2ed18b8eccd05214247e2c267e5aa14e futex: Move futex exit handling into futex code
+06b6eef93a819723d179591c611f8a06f509dbbb futex: Replace PF_EXITPIDONE with a state
+3c4ef717d8e6d744d82bb212d3b2f83d11ded4e2 exit/exec: Seperate mm_release()
+5a0b18a78c8d97ee3a7466aaa4893de9154534a5 futex: Split futex_mm_release() for exit/exec
+88a6670d0182556ea5fbf6051dcc8a6792e86b84 futex: Set task::futex_state to DEAD right after handling futex exit
+550c8affcc5ceb0fb15ac68b81c24449e9e886bd futex: Mark the begin of futex exit explicitly
+03256fb5a9382189478acbd4da406fac41ca62fc futex: Sanitize exit state handling
+d64c59664e4a7277bfbdc6d4959573cbcd08afc6 futex: Provide state handling for exec() as well
+01f4c712f72c176d2705078960488d54f151b11f futex: Add mutex around futex exit
+2cb6e9fdd6beacc4afb758cec47afc4f1ad8989d futex: Provide distinct return value when owner is exiting
+085a7125e7af19fc19b080f82dba2e35e4271315 futex: Prevent exit livelock
+d42cfc6482b7398f379950bbc31b1e9e8274a616 ARM: imx: build suspend-imx6.S with arm instruction set
+eea62f29011f583d1acf1eb81231ca01d05ab546 netfilter: nft_dynset: add timeout extension to template
+3895c7884412d0a6275dc4dc5afe86d76962c7d9 xfrm: Fix oops in xfrm_replay_advance_bmp
+a3963508b90d8a1794f2da96f7a272c56b99f548 RDMA/cxgb4: Fix the reported max_recv_sge value
+13045a7f553786387e72e635c986d1467b99ef85 mac80211: pause TX while changing interface type
+1b78bb8f19c6b83f6ddda7fefb868f89192c721b can: dev: prevent potential information leak in can_fill_info()
+0785c5416f42cd7e01cfb71d7b272118425b92fd iommu/vt-d: Gracefully handle DMAR units with no supported address widths
+b90b815bdebab1946959aafe133c7e6a810627a5 iommu/vt-d: Don't dereference iommu_device if IOMMU_API is not built
 
---===============2840002490678182042==
+--===============6489280462585705436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87f96288f11e-fef90e750ab1.txt
+Content-Disposition: attachment; filename=revlist-fef90e750ab1-ce2b219507d2.txt
 
-48c67efa8473e2c47043f5add02d31e0e0cb8cba ACPI: sysfs: Prefer "compatible" modalias
-9cf861dae70a1c2f4b84896ff5041b46acf58de2 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-7f632a3eb1706e2cc448a844b05828fd9368bc44 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-a1504b87975e2ecbcbf6f77097aba13d2da8cf83 y2038: futex: Move compat implementation into futex.c
-d48847a70175d3fb258af64deadbab4032ff129f futex: Move futex exit handling into futex code
-e8f2633927e898d3d970de8f31ab68d3f038360d futex: Replace PF_EXITPIDONE with a state
-f29b9512a657d085282d220916fe9983be76fedf exit/exec: Seperate mm_release()
-fa8ad5c3b6c5e91ce8cfdb8f0127da4cfa63c14d futex: Split futex_mm_release() for exit/exec
-c2c54e66edf5147169509b47e50660de3e572e80 futex: Set task::futex_state to DEAD right after handling futex exit
-76a7a0b6f422438ef4273645c91ce719d00718bd futex: Mark the begin of futex exit explicitly
-4b02a35664b0d0a456c91b484be6f875d1577cf5 futex: Sanitize exit state handling
-172eb322bb9f0d4554624d18f7f15c113b333e4d futex: Provide state handling for exec() as well
-5537932ec94c3a73add5308185afd4c05bb8baf3 futex: Add mutex around futex exit
-dc2b1156bdce804da1355a31d04c5d241d5a4455 futex: Provide distinct return value when owner is exiting
-20799fa8621ce763ed0fd1d3d804ab175e3ddba2 futex: Prevent exit livelock
-4f6ccd3c1bdb6a98d6ebd15da4615bdff1de4208 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
-d21d552b958fd83b1072dca058ab3444ab346bba KVM: x86: get smi pending status correctly
-f3cdcaa4b7937ea8c5449e83e5972b3d1a23737d leds: trigger: fix potential deadlock with libata
-e448709ad548c6202ea8c64e9a60645238f3da05 mt7601u: fix kernel crash unplugging the device
-0373c4ca7e4ddb5a0308f5c8663b95ff7591c178 mt7601u: fix rx buffer refcounting
-61a675757d340643df8b7db2e497f2c61d963d4e ARM: imx: build suspend-imx6.S with arm instruction set
-b7bbc565b008ffb3e0df465c6f91d6d4838d2294 netfilter: nft_dynset: add timeout extension to template
-f55b742320cb1bdc1cbaff66ba0af5e9b5b1fec1 xfrm: Fix oops in xfrm_replay_advance_bmp
-5c6bbf0a4767813685f3296727e8e0c571f50f53 RDMA/cxgb4: Fix the reported max_recv_sge value
-ca8fa1959258a43d7264298f558da2a818bf82eb iwlwifi: pcie: use jiffies for memory read spin time limit
-ce2e513dde5773e14fc7832d4cc6687ee962b7c9 iwlwifi: pcie: reschedule in long-running memory reads
-5f6e502d2a702268e942e591ca17c3833555881b mac80211: pause TX while changing interface type
-4775117cf9dcf617f3f4b691d9e965d7d5fdead3 can: dev: prevent potential information leak in can_fill_info()
-55b224d8fea14c27b5c3a63cd05b27aa05ed6c33 iommu/vt-d: Gracefully handle DMAR units with no supported address widths
-fef90e750ab124eded184a265e7ddc149d1c3f64 iommu/vt-d: Don't dereference iommu_device if IOMMU_API is not built
+d70708e636f7997cc3b276147f384b1a2b02ffa2 ACPI: sysfs: Prefer "compatible" modalias
+3cdf61ac17dc1ec398e984251346b405b3156e04 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+040eb5ea59a0ff159d1e7dce6fae159d77f71cfe net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+e90f009caa0da31a2fc3d18f69d36dcc39cd11eb y2038: futex: Move compat implementation into futex.c
+7b6bd4aa0a7551326885854d8dee23d1aac4e4bd futex: Move futex exit handling into futex code
+c7bb989dbf4f3eea90426c2c055a03d98ea7788b futex: Replace PF_EXITPIDONE with a state
+74089b3c116f7409a920380c7c1e24ace0b66606 exit/exec: Seperate mm_release()
+300ecbcdd18052ae2998a98079af92cc99c8302d futex: Split futex_mm_release() for exit/exec
+c8664202ba3a82a9cc5aa0ede1e2115f4274ac65 futex: Set task::futex_state to DEAD right after handling futex exit
+c3a6e1c0587cd25e02a48813f753948320e7269c futex: Mark the begin of futex exit explicitly
+bafff42f42090e3f5415c36175d43eb763c263fd futex: Sanitize exit state handling
+eaee3c29fb217508288e2225ff33316a3dd09367 futex: Provide state handling for exec() as well
+5ec293183b51b0354bbe0ea88ac7ea6185425087 futex: Add mutex around futex exit
+db4bc04e1f09ef4cfb3f330b06ea369513364cfe futex: Provide distinct return value when owner is exiting
+695afc08ff17dd2bac7f58160efe6248fcccd3dd futex: Prevent exit livelock
+6dbd08586b773d257a5aa9dc6a6954e25351d4b9 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+bee1924d8f0f3639bc72f6b93ab704ede2679236 KVM: x86: get smi pending status correctly
+90dd6182a5bbd72ea862d219fbbf53f06f9ee1c7 leds: trigger: fix potential deadlock with libata
+69ced180cfabe9cdce204b0960792030298c8160 mt7601u: fix kernel crash unplugging the device
+275ed6789da651d9d4e4d324be2e9979ea009479 mt7601u: fix rx buffer refcounting
+9daaf809bac131ed354893fe6e837dccfa726842 ARM: imx: build suspend-imx6.S with arm instruction set
+3b476674c205ecca65bb5c7dc7f047bed483f1fa netfilter: nft_dynset: add timeout extension to template
+7cdd3038f7cb7c3db7a2158f02c586c026346d8d xfrm: Fix oops in xfrm_replay_advance_bmp
+a9e14e48a8be9f3eb8857c7b30743e068e835c2b RDMA/cxgb4: Fix the reported max_recv_sge value
+96c871c081ecf1934be272da78f008f62bfdaf75 iwlwifi: pcie: use jiffies for memory read spin time limit
+4d7fa520f8b8d3843f10dcbc895e54d2ed9d63e7 iwlwifi: pcie: reschedule in long-running memory reads
+7dcbd1e4844f29a4f5fc821f916a30a149b1d3b5 mac80211: pause TX while changing interface type
+a727d0b0c594a5e707afa02db4c09d110b519ee6 can: dev: prevent potential information leak in can_fill_info()
+bd122a0133459cb86309958a99e17fe3c6fa54aa iommu/vt-d: Gracefully handle DMAR units with no supported address widths
+ce2b219507d260f786119b4f52859bb8cfd1ec5f iommu/vt-d: Don't dereference iommu_device if IOMMU_API is not built
 
---===============2840002490678182042==
+--===============6489280462585705436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15e17db80755-dbf708662770.txt
+Content-Disposition: attachment; filename=revlist-dbf708662770-c7e7e446c367.txt
 
-8712aecbbf00cc61e3394a1319a6912e677de60a iwlwifi: provide gso_type to GSO packets
-c0755939156ece1321268deb75ddf799481535a4 nbd: freeze the queue while we're adding connections
-78962b0064a0440c08e44662e24ca1f2658f9b17 tty: avoid using vfs_iocb_iter_write() for redirected console writes
-141306af84cd2bdfe882c1b607970c9358b3009e ACPI: sysfs: Prefer "compatible" modalias
-748f04c3f0a51ca8b8e1968e40c47e77ffd3e35a ACPI: thermal: Do not call acpi_thermal_check() directly
-15d5efc7d63de9bbbf05ae6ce1fe499220e03a2d kernel: kexec: remove the lock operation of system_transition_mutex
-d49b2377be4ba14ac307db889e670c5fa26f6d93 ALSA: hda/realtek: Enable headset of ASUS B1400CEPE with ALC256
-f4089b581f52be40ed2800b4a9ef954b3fee41a4 ALSA: hda/via: Apply the workaround generically for Clevo machines
-2c1fe62129130a90c4e5ac3de63a157de8abf435 parisc: Enable -mlong-calls gcc option by default when !CONFIG_MODULES
-dd00fd6cbd1119a8be155115cd398805422cd709 media: cec: add stm32 driver
-4e090fd8079d10a19ab20937e182086c04f0d5b8 media: cedrus: Fix H264 decoding
-d7745b11f1fa6a9c25a24f83e63b1186eb41e96f media: hantro: Fix reset_raw_fmt initialization
-25a95fcc45d0d58b9558b36993caa11f1a0f0684 media: rc: fix timeout handling after switch to microsecond durations
-33816d2b658dabac9e32559ad7d975326e6c1645 media: rc: ite-cir: fix min_timeout calculation
-a999a67b1befc9fe0d03f03855c4403a7d0a8dc5 media: rc: ensure that uevent can be read directly after rc device register
-f303d564da44e949470229f74f0116352267e677 ARM: dts: tbs2910: rename MMC node aliases
-93386068b4076d6cb487596035353352f25e5fe6 ARM: dts: ux500: Reserve memory carveouts
-13445155c9431dd12224ed997c01e5f59bcf802a ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
-128b218547869c466da5750c3af076f33f5f9fb2 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-70f37ec2725c867cafc57b68863203b8712f6388 x86/xen: avoid warning in Xen pv guest with CONFIG_AMD_MEM_ENCRYPT enabled
-e9db42539e9c7a8944b40572d53037c33b98a2c4 ASoC: AMD Renoir - refine DMI entries for some Lenovo products
-085c32bfb87d1b41415a87f2f8a6b34c974b649a Revert "drm/amdgpu/swsmu: drop set_fan_speed_percent (v2)"
-6a663feb615e87c7a139f796fd2056703f6dd71d drm/nouveau/kms/gk104-gp1xx: Fix > 64x64 cursors
-7b22a4d98dfb8e2bceefd685294f21087bdd2e95 drm/i915: Always flush the active worker before returning from the wait
-9aadcbb20038dbfa3f778ea1b7383852a4c5936f drm/i915/gt: Always try to reserve GGTT address 0x0
-c355272c2cc1dbc498b979d60f054f7879672961 drivers/nouveau/kms/nv50-: Reject format modifiers for cursor planes
-517ed3526587b7ad3504ec8df11ca4f85361946e bcache: only check feature sets when sb->version >= BCACHE_SB_VERSION_CDEV_WITH_FEATURES
-f814ec9a84ddba54b4b14623e9a124f3856e0a6e net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-29ebe8932b35fc15ea16047f9bbb4ce0f618a45e s390: uv: Fix sysfs max number of VCPUs reporting
-9d1d94131075932517ceb63dd05f9e349b61ff71 s390/vfio-ap: No need to disable IRQ after queue reset
-f1d763f79e5d208252b7bb2d04dd3d5fcdddc32c PM: hibernate: flush swap writer after marking
-9dc67920016012d9c956bae1538d27a510f8ebaf x86/entry: Emit a symbol for register restoring thunk
-c917e7d8939c49167e23202acd1f46e27e9ca654 efi/apple-properties: Reinstate support for boolean properties
-23eaac27128362b3ee875ec46911cb9eb23c294b crypto: marvel/cesa - Fix tdma descriptor on 64-bit
-355e16a8801bb175875d7f23d25a20511b385dcb drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
-b99e13553a2108e034a2cb16e03529ba682e4dfa drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
-0537a3896f5d1f3ca5288897e7cc50ccb1a47cbc btrfs: fix lockdep warning due to seqcount_mutex on 32bit arch
-235e319e9a83bad7bafebb3e1bbbdaf8c5216a29 btrfs: fix possible free space tree corruption with online conversion
-fd53ac4d54e6eaa60d5138f334271d4b42b56901 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
-d4b7e639981b1738529333df7c9c1f7128a0dc61 KVM: x86/pmu: Fix UBSAN shift-out-of-bounds warning in intel_pmu_refresh()
-6f225cac4a64f5845f7b1711d4a8afd7c0514707 KVM: arm64: Filter out v8.1+ events on v8.0 HW
-fdbb79a3b3a6d587e0f5c7ab05d00222751d2b5b KVM: nSVM: cancel KVM_REQ_GET_NESTED_STATE_PAGES on nested vmexit
-0b874da490955d852144e8ecd5ce6720c9b64767 KVM: x86: allow KVM_REQ_GET_NESTED_STATE_PAGES outside guest mode for VMX
-92391072506f9e2e76c0a6c855b35159b3b6fdcd KVM: nVMX: Sync unsync'd vmcs02 state to vmcs12 on migration
-6b23a94424bb6f39e10e90b75b3e0bb77a6097ab KVM: x86: get smi pending status correctly
-0b00ec40f7ff5ef5e8b732da02845aedba61799b KVM: Forbid the use of tagged userspace addresses for memslots
-d6a878a29859c758beb5ab3c169e779087e40d84 io_uring: fix wqe->lock/completion_lock deadlock
-5b05afd6b6acbfea0097bf73ddf2223583577c14 xen: Fix XenStore initialisation for XS_LOCAL
-c5eb0b2d905772cbb2391d0d20094f98819da99e leds: trigger: fix potential deadlock with libata
-990b1766983eab54aec3f1a25c22c056eb1d01fd arm64: dts: broadcom: Fix USB DMA address translation for Stingray
-28f08a57ce3efd031e8d58d2f62bec9e458d5193 mt7601u: fix kernel crash unplugging the device
-8a17fad36de294a837beb3ee5f1f0986d3030b75 mt76: mt7663s: fix rx buffer refcounting
-af52a172661018523edb90805f00ace651484326 mt7601u: fix rx buffer refcounting
-a721ec9b704e0ac298a8fb62d533d289c4a76abe iwlwifi: Fix IWL_SUBDEVICE_NO_160 macro to use the correct bit.
-2207752ae3b97a4389c8d91c6303ed5659ca96ef drm/i915/gt: Clear CACHE_MODE prior to clearing residuals
-4b0707698a5cea5b50f43a69f70476db38cdf96f drm/i915/pmu: Don't grab wakeref when enabling events
-dda99a80ed9624ffe91041fd5d8210e969718d91 net/mlx5e: Fix IPSEC stats
-a7dc24b8275e6073e9a6215463d74f6350ce133d ARM: dts: imx6qdl-kontron-samx6i: fix pwms for lcd-backlight
-4ad051446b4020cf5ace3087c2b1a8876e61e5f4 drm/nouveau/svm: fail NOUVEAU_SVM_INIT ioctl on unsupported devices
-74128605264efa8bac563423df078c5a8eee9eff drm/vc4: Correct lbm size and calculation
-0781f5c01bbb2e0ea878a572c0dc777e32cfa51b drm/vc4: Correct POS1_SCL for hvs5
-18e14984983cb2e93a254d30c4ef657f1a3e810a drm/nouveau/dispnv50: Restore pushing of all data.
-90bd21b8a835465d5bf4feaeefbc5c3b25e1f771 drm/i915: Check for all subplatform bits
-f0161f9bd45d02bf2a79d8f5938ce7139cb8d208 drm/i915/selftest: Fix potential memory leak
-d2b978fa2d54b66439e0d5500d20bd9c3a423aee uapi: fix big endian definition of ipv6_rpl_sr_hdr
-e849ac451fe3d4cca6e657747620e3b73b82dc45 KVM: Documentation: Fix spec for KVM_CAP_ENABLE_CAP_VM
-f7d5bcfb639b886b6670c1063863c71ffdbc2749 tee: optee: replace might_sleep with cond_resched
-8d83187696cf7e8d5d3e892e9647df2ea77b73d9 xen-blkfront: allow discard-* nodes to be optional
-9f5c45506c663cc91aa8953854963dc28b2c947c blk-mq: test QUEUE_FLAG_HCTX_ACTIVE for sbitmap_shared in hctx_may_queue
-edf4b6abbb1755a5d47565a69f61bec209f073ff clk: imx: fix Kconfig warning for i.MX SCU clk
-72fe9128f754e858a70236f8c5f2f9aee8c43a23 clk: mmp2: fix build without CONFIG_PM
-4a118c5cd355c5f907692e6520d83a281724d807 clk: qcom: gcc-sm250: Use floor ops for sdcc clks
-cc2bbd169dc3c03e829d6767a2a9694973b69db2 ARM: imx: build suspend-imx6.S with arm instruction set
-df6d40c2127436450f9cb99b68362078b527b888 ARM: zImage: atags_to_fdt: Fix node names on added root nodes
-f10b1ea7a002331a2f7c886f0234849f3201dd7c netfilter: nft_dynset: add timeout extension to template
-038cf93fe71fca81463bf8e915bf160dc84fde15 Revert "RDMA/mlx5: Fix devlink deadlock on net namespace deletion"
-2bc6d089500b427fb2063146803e9f9dae3dbac2 Revert "block: simplify set_init_blocksize" to regain lost performance
-1eba7c8bfdcf6f479580666debdee460e7feec6f xfrm: Fix oops in xfrm_replay_advance_bmp
-a650fbcc465628d433046a989ec26379804aeada xfrm: fix disable_xfrm sysctl when used on xfrm interfaces
-8732a1e88b4d07706d95b2c8e7d4fb197dea6c60 selftests: xfrm: fix test return value override issue in xfrm_policy.sh
-1171c922d73d8d7515fa033b3b8948322f3f90d7 xfrm: Fix wraparound in xfrm_policy_addr_delta()
-61d3cce07e7e64752f730bd38023dc0d64a3f562 arm64: dts: ls1028a: fix the offset of the reset register
-b49d89a11c3f0afcc46b5271fc99554e352bef94 ARM: imx: fix imx8m dependencies
-8c42fd52fab89869993f238503ba7848e9dd542e ARM: dts: imx6qdl-kontron-samx6i: fix i2c_lcd/cam default status
-f9e5e4e05068ebb3c3758751fa21b65a007e3b4b ARM: dts: imx6qdl-sr-som: fix some cubox-i platforms
-37088b397fbcd333804880058fce173e376d4384 arm64: dts: imx8mp: Correct the gpio ranges of gpio3
-bfbd9c72519c867b143f90c00ed8d7351c44105b firmware: imx: select SOC_BUS to fix firmware build
-24edd9e6142e9b70caef70e9f4b7d33bce648428 RDMA/cxgb4: Fix the reported max_recv_sge value
-1b763f26c8ca23ea15017150eae25a3dfce9b354 ASoC: dt-bindings: lpass: Fix and common up lpass dai ids
-180e55f2a0222a379c2a13dc5d99da9619229410 ASoC: qcom: Fix incorrect volatile registers
-c455b0cfcbe00df0bfe2717b990d130dc2760e33 ASoC: qcom: Fix broken support to MI2S TERTIARY and QUATERNARY
-fbe091a1be55fa4456d6b8807b24915f34333d30 ASoC: qcom: lpass-ipq806x: fix bitwidth regmap field
-7e4fed6e5bd9122a92d515d4e3481e5cb01c04a3 spi: altera: Fix memory leak on error path
-8db9e794b14d4878be2f7d8702edf554752e3274 ASoC: Intel: Skylake: skl-topology: Fix OOPs ib skl_tplg_complete
-d656136b4ccb442c405d70397afb76ea3cabe689 powerpc/64s: prevent recursive replay_soft_interrupts causing superfluous interrupt
-8e5e31bcf99650c54e40eb0450b611ef381cdf5d pNFS/NFSv4: Fix a layout segment leak in pnfs_layout_process()
-a880624ac927a5dffd14b174257cc6b8c1f938ef pNFS/NFSv4: Update the layout barrier when we schedule a layoutreturn
-6681b97d77943108c42ac68ce72a1dd2cf45ec90 ASoC: SOF: Intel: soundwire: fix select/depend unmet dependencies
-71687dd240642a9ac9505fac793d0e3741b8038c ASoC: qcom: lpass: Fix out-of-bounds DAI ID lookup
-50b302482541290ad0d0b721456dc1e897f19548 iwlwifi: pcie: avoid potential PNVM leaks
-7f30bb7330ef24920b1d913af9d9cda87770f838 iwlwifi: pnvm: don't skip everything when not reloading
-ac6e1569246dca455853925130123d3b44d5cfd3 iwlwifi: pnvm: don't try to load after failures
-066378079ec71375050e233267e24365409eb676 iwlwifi: pcie: set LTR on more devices
-f1f79ddf4ae9f91fa82208314f3b310820601f13 iwlwifi: pcie: use jiffies for memory read spin time limit
-31c145a075d811647956006f117d95446424e3c3 iwlwifi: pcie: reschedule in long-running memory reads
-42f723abd6ab77da08bc5486ac3a916664ef7e64 mac80211: pause TX while changing interface type
-82736a59520c4ac9954c581ad1c2de915320fcef ice: fix FDir IPv6 flexbyte
-c4288767266394842641f9bf87b05ff56409c875 ice: Implement flow for IPv6 next header (extension header)
-842dbee9fc3163073d66e9fb39d05529f7f94d6e ice: update dev_addr in ice_set_mac_address even if HW filter exists
-445e45d472f2b790b93059b283b4ee55532b5847 ice: Don't allow more channels than LAN MSI-X available
-d4d4168c128792442da27bb2a4621e6349068c8c ice: Fix MSI-X vector fallback logic
-1c8dc2eebab3707e92913712ce006410ed8568c9 i40e: acquire VSI pointer only after VF is initialized
-db6085bba0b2613b958d2063a91baec1995920b6 igc: fix link speed advertising
-1b19f665660111bf33fa330d453b5baaefc8f8c3 net/mlx5: Fix memory leak on flow table creation error flow
-276feb7052020cea07697e5a0cd47129a1f020e2 net/mlx5e: E-switch, Fix rate calculation for overflow
-5859e2bdca0260f17eb25310b44bcfd68c7b5eb5 net/mlx5e: free page before return
-9b310d253bedd09f8c5933d362eb5e976ec7c67a net/mlx5e: Reduce tc unsupported key print level
-4d17bfda9deeebf82a4fcc74bfe9ab464ad96c31 net/mlx5: Maintain separate page trees for ECPF and PF functions
-b3e9d0161628a2f2be528987c7355481593f1906 net/mlx5e: Disable hw-tc-offload when MLX5_CLS_ACT config is disabled
-92183b21d83bad5129cb763ba11cf9b5e6943d91 net/mlx5e: Fix CT rule + encap slow path offload and deletion
-1fcdce2aba6f805d2ad186d308a290abe791571d net/mlx5e: Correctly handle changing the number of queues when the interface is down
-a90d9f37431fb64403694b9477a70f8fcd9df89e net/mlx5e: Revert parameters on errors when changing trust state without reset
-0e84cb332b86e33ce2bafaf8436f2712796c89a7 net/mlx5e: Revert parameters on errors when changing MTU and LRO state without reset
-866325efe9e01daf171cc6c00aab7bf4aa7f48d9 net/mlx5: CT: Fix incorrect removal of tuple_nat_node from nat rhashtable
-b25e09fa87b9da7f825d2834e13513f4d83d021d can: dev: prevent potential information leak in can_fill_info()
-7c5df5c40afd6269188bfdc653114ac03db71302 ACPI/IORT: Do not blindly trust DMA masks from firmware
-667190979c7dd018fa2c32d4a076fa09de3ced95 of/device: Update dma_range_map only when dev has valid dma-ranges
-840ea41b2d52c7ac1c6bd551fc6ee8af644dfda1 iommu/amd: Use IVHD EFR for early initialization of IOMMU features
-81ddaf48f394a772516be6268f54501d52762f65 iommu/vt-d: Correctly check addr alignment in qi_flush_dev_iotlb_pasid()
-ad658e51032f44ed6b9335689746af2906e0256a nvme-multipath: Early exit if no path is available
-dbf708662770e44203a7048a505452f75db3709c selftests: forwarding: Specify interface when invoking mausezahn
+19bdb58b28839577075c145e8ed4918a89dfe580 iwlwifi: provide gso_type to GSO packets
+840f0e77ee4de1fc40e08fca0b823eefc7427d0f nbd: freeze the queue while we're adding connections
+0d9c9e880a0f2fbc1ccbb5e74def4ea2dbf384b3 tty: avoid using vfs_iocb_iter_write() for redirected console writes
+00e3b132c27f3be869de23348dd1ea17522da468 ACPI: sysfs: Prefer "compatible" modalias
+d06efa4adae2e9245bf79f54e66730670a6a2871 ACPI: thermal: Do not call acpi_thermal_check() directly
+0d3d4ab54701f6d94efecd59733223e2110da1d9 kernel: kexec: remove the lock operation of system_transition_mutex
+53073c86224cd1a38ab8ab584992aec2f0bb9ace ALSA: hda/realtek: Enable headset of ASUS B1400CEPE with ALC256
+d736c5a5bd6a9b64993fa988211ec490d46944d6 ALSA: hda/via: Apply the workaround generically for Clevo machines
+e1563f8308980a80b7eb9cb7e93a2ef0b9bfd8b8 parisc: Enable -mlong-calls gcc option by default when !CONFIG_MODULES
+61142ebf0634049a827286562827c74c66a0a9e0 media: cec: add stm32 driver
+d94bbcc382f2254957968c0f891fdebbc69884e5 media: cedrus: Fix H264 decoding
+b0e785207063ee1f4dc2f76a17e78884c84fe156 media: hantro: Fix reset_raw_fmt initialization
+b25f3b260d1450878d9fe4f272fac33412cdd106 media: rc: fix timeout handling after switch to microsecond durations
+0a8f42bbd7963ed4e8e18e67fad98f76c3fb2174 media: rc: ite-cir: fix min_timeout calculation
+17e1e3f7ae3769b493aab9aadca4e0f312f1a117 media: rc: ensure that uevent can be read directly after rc device register
+9f4e8a056679b61bd950d7dc9d7c82e7b7359767 ARM: dts: tbs2910: rename MMC node aliases
+ae960b9e2aa30646b2c82a3577b20d667d608835 ARM: dts: ux500: Reserve memory carveouts
+5451785462fbe3f8a1621db1e56c4fb0cb5a09f8 ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
+93a8dc3194007c82ab5c1dc3ac9e840d3d3263e9 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+53baacf9ec694566c3524d4212ccee976a7676c8 x86/xen: avoid warning in Xen pv guest with CONFIG_AMD_MEM_ENCRYPT enabled
+f976b7c046755cc3078c6a8e12d6fcad4b7cfb6a ASoC: AMD Renoir - refine DMI entries for some Lenovo products
+52d742db316e661de34824699aff396c62575d33 Revert "drm/amdgpu/swsmu: drop set_fan_speed_percent (v2)"
+cb0a631d6dc6f1acfd194c66a3d5cf046bf257bf drm/nouveau/kms/gk104-gp1xx: Fix > 64x64 cursors
+09d7398de932d10c49f62b2b60cf3ae95d63ecf4 drm/i915: Always flush the active worker before returning from the wait
+3b0acde5a3f781a566907118e3e72bb03adbd09d drm/i915/gt: Always try to reserve GGTT address 0x0
+2311de75a9dbb0160887d1e2beb80e6666745c49 drivers/nouveau/kms/nv50-: Reject format modifiers for cursor planes
+202dc19a025033b1d9443e43f1288dbf0508df7d bcache: only check feature sets when sb->version >= BCACHE_SB_VERSION_CDEV_WITH_FEATURES
+3c09da73b865c82063d7da6c25fb1c19b5fc0376 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+59f0fdd0a69aa349ec98181c86a7fb4547c38f1c s390: uv: Fix sysfs max number of VCPUs reporting
+5957b74e7f4fa9960fd6bf5fcdb40324ae41c30d s390/vfio-ap: No need to disable IRQ after queue reset
+86555b6f5258873fcec00a61dfb1b24ae60af903 PM: hibernate: flush swap writer after marking
+50e559c74b21796486c675302aecb88b8139b3e2 x86/entry: Emit a symbol for register restoring thunk
+ed867ff84e0e8762da03ea1bdac66a8f4122303f efi/apple-properties: Reinstate support for boolean properties
+f2c67697a72d36d3339b462ad2f554cf3628c815 crypto: marvel/cesa - Fix tdma descriptor on 64-bit
+db00b795c603e5cb4673df87985add069a87c734 drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
+743f4d62080e9405b4ce329676988e83c5255fa5 drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
+520e956a4bd83237efce435bf9a9bc22a03502f8 btrfs: fix lockdep warning due to seqcount_mutex on 32bit arch
+15edf39fe62f6c15c34a8b3bf1e9aacc47d8ffee btrfs: fix possible free space tree corruption with online conversion
+352e70a4a336050e927bf7605b6c5fa0f0942bbe KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+211b2ab9cb372a5fbbdf8be0ceb9ff9f94d6719e KVM: x86/pmu: Fix UBSAN shift-out-of-bounds warning in intel_pmu_refresh()
+a0e90a99a4f32d48ddd3e46dd2161108b30a31c0 KVM: arm64: Filter out v8.1+ events on v8.0 HW
+a2cc88fddd2a6bde093d529d2326256e8dc8f284 KVM: nSVM: cancel KVM_REQ_GET_NESTED_STATE_PAGES on nested vmexit
+1b122a02a3546d55ec194a14210c2070718fe816 KVM: x86: allow KVM_REQ_GET_NESTED_STATE_PAGES outside guest mode for VMX
+163987e2669130d3b96859c6805915bcac160bb7 KVM: nVMX: Sync unsync'd vmcs02 state to vmcs12 on migration
+f27662128b2f28e568f214c7412efd23215310c9 KVM: x86: get smi pending status correctly
+7c2f143291f89b1ecd2d6a9fb156d1083184cef9 KVM: Forbid the use of tagged userspace addresses for memslots
+b727cab12d19f1315141d5dafe82169ddb65834c io_uring: fix wqe->lock/completion_lock deadlock
+995c38e897d3f4828067b9777dfdf51c98752365 xen: Fix XenStore initialisation for XS_LOCAL
+ad2ebc55b17865edd8388289dfc7ec82c12bbbd1 leds: trigger: fix potential deadlock with libata
+4fb45aedd048eb35fa4d7311c0c90d4801d16dae arm64: dts: broadcom: Fix USB DMA address translation for Stingray
+c480e51a706e62bfa004bd6f61215fcca609e774 mt7601u: fix kernel crash unplugging the device
+c73a162419e3f58d71096c6d86f41a010d1451f7 mt76: mt7663s: fix rx buffer refcounting
+8357e85eabab9542e00452b53424cfe48044268a mt7601u: fix rx buffer refcounting
+c1f6058de9277f42a6e508b2e8d6af63108b623f iwlwifi: Fix IWL_SUBDEVICE_NO_160 macro to use the correct bit.
+03847d1b825cc16346096921ef72c86728b5efc1 drm/i915/gt: Clear CACHE_MODE prior to clearing residuals
+b89d55b7c78582e5aa8191c6f3182aecf633295c drm/i915/pmu: Don't grab wakeref when enabling events
+5355a0cc1b0ade4527d9b0aca1243b187dbe2474 net/mlx5e: Fix IPSEC stats
+3d716e0722768e5d67e521da5550bb097606f8d8 ARM: dts: imx6qdl-kontron-samx6i: fix pwms for lcd-backlight
+1e8c32c27516e81ec5f4c8fdad009f5d577a8ab6 drm/nouveau/svm: fail NOUVEAU_SVM_INIT ioctl on unsupported devices
+16e57f21c31b2ba0ea462e3da2bfb3a36db91ec3 drm/vc4: Correct lbm size and calculation
+f5a7dbd05c2dd14284bc4006276d3a9232b0f519 drm/vc4: Correct POS1_SCL for hvs5
+54204429434baf389a777d3e6aab2b95d7ecc406 drm/nouveau/dispnv50: Restore pushing of all data.
+f7862bc08a0ce6a4bd2ae05af16ba1493a587790 drm/i915: Check for all subplatform bits
+ee5be2f0ca2853c688153947032f709dad00213e drm/i915/selftest: Fix potential memory leak
+e44d76d1594b7d1bb962c7b2912fe17730b6c741 uapi: fix big endian definition of ipv6_rpl_sr_hdr
+06d7e6eaa494f18baa2df52bc6aa918514c1c3f1 KVM: Documentation: Fix spec for KVM_CAP_ENABLE_CAP_VM
+362ba07660cf17d8c95c6eb9bfa28e96104b4d36 tee: optee: replace might_sleep with cond_resched
+16bb65f5eaef12add7c1ff6211c97a3923a83b4e xen-blkfront: allow discard-* nodes to be optional
+7d9a3c032aad7e52e184b7afbe0e10989b0d5da2 blk-mq: test QUEUE_FLAG_HCTX_ACTIVE for sbitmap_shared in hctx_may_queue
+618969c00b12f38f723c6c151545db417a3b6d35 clk: imx: fix Kconfig warning for i.MX SCU clk
+e872396f55f733f89b0329c345ed560ea155ee16 clk: mmp2: fix build without CONFIG_PM
+b94b8844662f2c5260e75851c07c85d9789f9f75 clk: qcom: gcc-sm250: Use floor ops for sdcc clks
+17f7d6f77ba3781470a346e71ed8afe428323045 ARM: imx: build suspend-imx6.S with arm instruction set
+1e1d1ba93b1c693d12e82865b2ae25db461120bc ARM: zImage: atags_to_fdt: Fix node names on added root nodes
+e3aa51c86023384e7a55dc4d25863668ac6c7253 netfilter: nft_dynset: add timeout extension to template
+bef4956a997e8309678ae4f0c9293933adea9f01 Revert "RDMA/mlx5: Fix devlink deadlock on net namespace deletion"
+bba09754cb7ca51ce2fb95c433e46736d8f06d0d Revert "block: simplify set_init_blocksize" to regain lost performance
+18449d0bc6311f9018f21ed6eabed0945a250313 xfrm: Fix oops in xfrm_replay_advance_bmp
+02d48f4617df29ac32e4277056b4aeb56159485a xfrm: fix disable_xfrm sysctl when used on xfrm interfaces
+4f13c23116041eb3f5f6051fad84617fb9f4a1b5 selftests: xfrm: fix test return value override issue in xfrm_policy.sh
+ea74a33125c22e0294283aa555a8fce08beb37d9 xfrm: Fix wraparound in xfrm_policy_addr_delta()
+250af0e99dbba62379b0e39705b31c83cdaa6303 arm64: dts: ls1028a: fix the offset of the reset register
+350fa3c05fdbdcd0b5af7a5e21e9bf196617524a ARM: imx: fix imx8m dependencies
+8f902e848c6acc54b707dbafc27bb6fa2e43f786 ARM: dts: imx6qdl-kontron-samx6i: fix i2c_lcd/cam default status
+3dce736e945dddc50255c9a0f2340d1817c9b0db ARM: dts: imx6qdl-sr-som: fix some cubox-i platforms
+401d04f9e2a0bfa348c807dec88cde632dc23f07 arm64: dts: imx8mp: Correct the gpio ranges of gpio3
+b997bd83f20acd335927ab351f099130587fdf93 firmware: imx: select SOC_BUS to fix firmware build
+2486e46fcab0942cc4fcffca0361146daad04c60 RDMA/cxgb4: Fix the reported max_recv_sge value
+0b8d270fdb9988559cf7a8d179a8c6b8ee79016f ASoC: dt-bindings: lpass: Fix and common up lpass dai ids
+9b24a291f84c38e5aa5d755f4f0d66869310f7c2 ASoC: qcom: Fix incorrect volatile registers
+e9ef34ef056f32547c21da3b7a250819a4634aab ASoC: qcom: Fix broken support to MI2S TERTIARY and QUATERNARY
+a937d1e185a06e0d9c999fbfc5c50ea44f9c4573 ASoC: qcom: lpass-ipq806x: fix bitwidth regmap field
+73c84d42e6671e849ae730374bf29ac46ed7edb7 spi: altera: Fix memory leak on error path
+a5e7ed7ed5ba9606a538eafd9ce7d9174f80fac8 ASoC: Intel: Skylake: skl-topology: Fix OOPs ib skl_tplg_complete
+c7064779dc3366ebcca9b6690215e05b22310284 powerpc/64s: prevent recursive replay_soft_interrupts causing superfluous interrupt
+6d20937a16eefe6c2b9eddb428d61678adc4d046 pNFS/NFSv4: Fix a layout segment leak in pnfs_layout_process()
+1931a476ba39195e7bc4f988e0fa2fbe05a5b2c7 pNFS/NFSv4: Update the layout barrier when we schedule a layoutreturn
+0f2d9d175f55dda1a7cf7eb34f52bbcd7f042ad6 ASoC: SOF: Intel: soundwire: fix select/depend unmet dependencies
+b82a458ff211674d70a29459b08bf2cda3994cef ASoC: qcom: lpass: Fix out-of-bounds DAI ID lookup
+664599d5d88506fe74894f388a820c8438699a90 iwlwifi: pcie: avoid potential PNVM leaks
+d2d184fd8b75cd69713f8eba3f3d1fb7e50da922 iwlwifi: pnvm: don't skip everything when not reloading
+e06f01fcd1bd09a239cdc2e1adbfae98c2dc5b14 iwlwifi: pnvm: don't try to load after failures
+790500a97902c0971975eab5ff78ead7de05cdbe iwlwifi: pcie: set LTR on more devices
+35d03aecd90caf1214edc4e102e4fb7edcecdba5 iwlwifi: pcie: use jiffies for memory read spin time limit
+c2bfb3a1b66e6e67c672d2a883ed68512543a3f4 iwlwifi: pcie: reschedule in long-running memory reads
+85538b133ba749c783f856b4118f4b3653d5986b mac80211: pause TX while changing interface type
+1718401a73aa43d743ee3b405a5523c4676cf869 ice: fix FDir IPv6 flexbyte
+fed14bdbed27516a0ddc7d21a31cc92ba958e3e9 ice: Implement flow for IPv6 next header (extension header)
+4c08b0547247574ce7702b7425e688432cddc604 ice: update dev_addr in ice_set_mac_address even if HW filter exists
+a4edbb17e23fcd74b83c40a75d4fc25cd8ddff11 ice: Don't allow more channels than LAN MSI-X available
+65ca36e06c59b32b0a3e76bb42875c520dbe57b2 ice: Fix MSI-X vector fallback logic
+65510432d778fa1be57c22a07173b1f3febb8ac5 i40e: acquire VSI pointer only after VF is initialized
+e8e6f7ba9960350fb23cc56cd8adcc8ce94e046c igc: fix link speed advertising
+f66cc172b4ca93aef930b86f5b2eccede156686d net/mlx5: Fix memory leak on flow table creation error flow
+62ea4e58ff95b291835224457046bf6d3775ecaf net/mlx5e: E-switch, Fix rate calculation for overflow
+4bf055c02e1e1040274ac7c941112bd8a8b7986f net/mlx5e: free page before return
+d713d6778d1a08cb22e73d49e13636ec5b0dd7a3 net/mlx5e: Reduce tc unsupported key print level
+11b411e7a71a5c8883baf819e11d7ed57b16cd81 net/mlx5: Maintain separate page trees for ECPF and PF functions
+5b637ec7f39dc11b0464fa02f5deaf15e1b65ed1 net/mlx5e: Disable hw-tc-offload when MLX5_CLS_ACT config is disabled
+e4988577b2806338e670d0662ad87ed5024fc570 net/mlx5e: Fix CT rule + encap slow path offload and deletion
+1ef2ba35f6ec851e1bad7e18dee48a57b85305c5 net/mlx5e: Correctly handle changing the number of queues when the interface is down
+87ab0365e12502f506535a6baf040117f5a56e87 net/mlx5e: Revert parameters on errors when changing trust state without reset
+40e33816b6037bed7f816a673b2e2f99121ce542 net/mlx5e: Revert parameters on errors when changing MTU and LRO state without reset
+3f63e1d467ccfc0a6db84648359ee5e48e0ecc35 net/mlx5: CT: Fix incorrect removal of tuple_nat_node from nat rhashtable
+34c7efa8109208f375970547a69e6b7126086087 can: dev: prevent potential information leak in can_fill_info()
+43654588762cc347bbfb719d67b6d541ecc6bdae ACPI/IORT: Do not blindly trust DMA masks from firmware
+8f85427234f7af2a5edbce5c3d279da0726daa2a of/device: Update dma_range_map only when dev has valid dma-ranges
+b33d9082e91e355661b6d47df4b89568d3a40736 iommu/amd: Use IVHD EFR for early initialization of IOMMU features
+e477d67c92d38626a42a9cda0a73375708ab86bf iommu/vt-d: Correctly check addr alignment in qi_flush_dev_iotlb_pasid()
+191dcbc2cd950437b21aaddceffd06ec76878a4d nvme-multipath: Early exit if no path is available
+c7e7e446c3675d7e6fd3be11e23b755633262f3b selftests: forwarding: Specify interface when invoking mausezahn
 
---===============2840002490678182042==
+--===============6489280462585705436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba5a4b0eeaf6-17724a1c413e.txt
+Content-Disposition: attachment; filename=revlist-17724a1c413e-acee33fcb923.txt
 
-9015be3f0beee3b5f44f8588be7a88b5a30aab16 ICMPv6: Add ICMPv6 Parameter Problem, code 3 definition
-10023409a8986645152cefa0a150d1bc3e469206 IPv6: reply ICMP error if the first fragment don't include all headers
-12f222820e1572081aedf35d7ab87648af230968 nbd: freeze the queue while we're adding connections
-af808f0315ed2d7c85a868c5e94cb9da8dad659a ACPI: sysfs: Prefer "compatible" modalias
-f4588bda3f5a296cdff1bb11d9bfa7b0aef9d051 kernel: kexec: remove the lock operation of system_transition_mutex
-275dd2a25a076250993915e867f76b74e82c50a1 ALSA: hda/realtek: Enable headset of ASUS B1400CEPE with ALC256
-75dc7aa235eb35413ea3f09e83c902033276d8e6 ALSA: hda/via: Apply the workaround generically for Clevo machines
-9bf98adf4c515a6429f2aeec4c264f38cf2cbdd2 media: rc: ensure that uevent can be read directly after rc device register
-85f48222f36c35980a7f0c0e5833db4c418c1de9 ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
-671ef0d1733f5cd9256888aa16da849c99447ff8 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-5baad7e0735c9a8b39c60cbf5d8e30bec8ad39a8 net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-fa8e744fd1641d68852ef5a0e8596e3e8b32732d s390/vfio-ap: No need to disable IRQ after queue reset
-9c27249ab0633f2c7a55dc23b18c076563a7d228 PM: hibernate: flush swap writer after marking
-9927bcde990519dcc3a0a7d8d12ba758cf7041b3 drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
-c5b0be96341bf04dbb9a316ff490de9dd9a22f28 drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
-c8320451641ec865dec4c116c186d99d712f59b7 btrfs: fix possible free space tree corruption with online conversion
-2c393bd86b86215f05ce0bea11b94bddfdfd8279 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
-83a3c2c2eba4db1d71f1afaa2f6670ec16758e5b KVM: x86/pmu: Fix UBSAN shift-out-of-bounds warning in intel_pmu_refresh()
-61731a26183d9470bc29bd77ab7f4a782f2a0cd5 KVM: nVMX: Sync unsync'd vmcs02 state to vmcs12 on migration
-e5905c1ae1648edd01bd1deed20c277d276023ac KVM: x86: get smi pending status correctly
-51e4aa19aa9bd336198b9353d141d5eb8bb42c88 KVM: Forbid the use of tagged userspace addresses for memslots
-23e56ccc065ad3138ae715584e419bf6ea51c8d9 xen: Fix XenStore initialisation for XS_LOCAL
-3b3342c7993760005495c6585363b07e8d1233a2 leds: trigger: fix potential deadlock with libata
-95b76e1361cc962f576c95de5157c39f7d954d02 arm64: dts: broadcom: Fix USB DMA address translation for Stingray
-27fc028ac6812b24a5a3b5a2fba6d4c34a86a32d mt7601u: fix kernel crash unplugging the device
-4c7050d498a71708b0c3cfb2ffbd970df6c87b6b mt7601u: fix rx buffer refcounting
-c0a130c6b4a5b9fd56ef22f56d5d614b8ddabcdf drm/nouveau/svm: fail NOUVEAU_SVM_INIT ioctl on unsupported devices
-33d5590efe5113c7d0075743b07738365210b1b5 drm/i915: Check for all subplatform bits
-24dbd54e2c015fca7b205f3844b37a5b8e3ab27e tee: optee: replace might_sleep with cond_resched
-e69750bab578cca22e8ac8bec2c6b0d07db118db xen-blkfront: allow discard-* nodes to be optional
-3c3c8879b1b41edd2ba63a352afe9ec9884eb301 ARM: imx: build suspend-imx6.S with arm instruction set
-cb63f8762129156612d1f0453f2775f707f85546 netfilter: nft_dynset: add timeout extension to template
-6a92b2d53bafcd3145773f24bcb8cd8f23924875 xfrm: Fix oops in xfrm_replay_advance_bmp
-94a1eaeff0c6ae894301f391725c9678decd8596 xfrm: fix disable_xfrm sysctl when used on xfrm interfaces
-a223dc8f02a4d54bf1e4a0da611538ef2b09bb4e selftests: xfrm: fix test return value override issue in xfrm_policy.sh
-49547cc230b40666fe420313dd33263efd2e7343 xfrm: Fix wraparound in xfrm_policy_addr_delta()
-816da3244032c67a8be5ecafbfb9d8fbc50bbe94 arm64: dts: ls1028a: fix the offset of the reset register
-9dabaea0570cf27969bd5869c1acd003dc7e556b ARM: dts: imx6qdl-kontron-samx6i: fix i2c_lcd/cam default status
-9ee23e913f81d8b75ab1a5f1ba28dd3ba0f3f56b firmware: imx: select SOC_BUS to fix firmware build
-ff7885e53254f832acb7a1e5186c387aa3e5b3a2 RDMA/cxgb4: Fix the reported max_recv_sge value
-a304a0f9ec6992d05d8479060c82b62c13bca530 ASoC: Intel: Skylake: skl-topology: Fix OOPs ib skl_tplg_complete
-95ff9c1e5072502f430608fa4463d6168817a243 pNFS/NFSv4: Fix a layout segment leak in pnfs_layout_process()
-c56e00ac01b694ce521fbd5b842dbcc76cbfd958 iwlwifi: pcie: use jiffies for memory read spin time limit
-91a01a1d7e355cd40d5dcf8855d6fb9b547ce75d iwlwifi: pcie: reschedule in long-running memory reads
-0340eaa5955a02706c04645750270bd7600a3c17 mac80211: pause TX while changing interface type
-fad7ded78cc4da1da1d72bf2b2b4cfcff55b9154 i40e: acquire VSI pointer only after VF is initialized
-434a824bbfbe07c48f7e0efa16eadc56af389a82 igc: fix link speed advertising
-a20133caf482c1933b550dfad0c8365b27c68020 net/mlx5: Fix memory leak on flow table creation error flow
-13a1ea04a4e63c1e5cd6aea8e48fc6e0175966d0 net/mlx5e: E-switch, Fix rate calculation for overflow
-f199e4d1936dfc61414a1c64fb1a31495680df26 net/mlx5e: Reduce tc unsupported key print level
-eb3cfe3c43d511392b92efc3378caf5efa777331 can: dev: prevent potential information leak in can_fill_info()
-40331cde16bf4ec8c500b93f078ae2e322040719 nvme-multipath: Early exit if no path is available
-4124ee1f836029a21b8abc97ba866e595836c612 selftests: forwarding: Specify interface when invoking mausezahn
-f0d0923af035691a81cd2e98c6a00ebed8169b90 iommu/vt-d: Gracefully handle DMAR units with no supported address widths
-17724a1c413e006efb0737d20989e5fd07d6853b iommu/vt-d: Don't dereference iommu_device if IOMMU_API is not built
+ce609fb1b40737ae69568c211b9df5e0338a57a1 ICMPv6: Add ICMPv6 Parameter Problem, code 3 definition
+f815e1196a1c682453832758ae3ec0c89e6e0784 IPv6: reply ICMP error if the first fragment don't include all headers
+56b90b1dcf7763669608c3b935684e25231f9c6b nbd: freeze the queue while we're adding connections
+a2b43302464615b08e31d339a47662cce9ed9b17 ACPI: sysfs: Prefer "compatible" modalias
+9cac8743de60c1c0d465bdfd8fc88474ba6432d8 kernel: kexec: remove the lock operation of system_transition_mutex
+a74009b3dfc6e497300cbcef2b927d245a6fc73f ALSA: hda/realtek: Enable headset of ASUS B1400CEPE with ALC256
+d9acfbe037ce7df23b5b847b11b1ac7a512a4a92 ALSA: hda/via: Apply the workaround generically for Clevo machines
+50a042e1543a7ef5d70958cb82b5849e479c8194 media: rc: ensure that uevent can be read directly after rc device register
+dfa6fdd058edffc7bfafe545e7ccfc370b5e6495 ARM: dts: imx6qdl-gw52xx: fix duplicate regulator naming
+a4aedcbb3aa44b3840e73ee70a75655ae9bd100e wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+abd31ef4502be361d859eb1bb14747f492aa8efd net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+7e43c93742d07bf68997fb2bc427a8f7b5b8215b s390/vfio-ap: No need to disable IRQ after queue reset
+6cc00527217638a0d6cb44e860ff818022ff44fd PM: hibernate: flush swap writer after marking
+f15f60d2e394c2bbf4dbb65c6e617ff9e8d0cb25 drivers: soc: atmel: Avoid calling at91_soc_init on non AT91 SoCs
+26ac58af84171a1c90ea000f23004b1b0035aae8 drivers: soc: atmel: add null entry at the end of at91_soc_allowed_list[]
+80cd34b1fcf7810b087b704e6436890c95a12474 btrfs: fix possible free space tree corruption with online conversion
+e9fd55ea1e0ab58adaf8a57892a6389ad8faba59 KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+3806d21f49849219be91a0f92aa43c98e9a47316 KVM: x86/pmu: Fix UBSAN shift-out-of-bounds warning in intel_pmu_refresh()
+2e3aeace671b3ccd841ccc5270d1599caa6eb5a5 KVM: nVMX: Sync unsync'd vmcs02 state to vmcs12 on migration
+6a5330800228a8f3b244cac95dcdd64a158843a4 KVM: x86: get smi pending status correctly
+eb3e6ebdc36a4461e3b6bdf6cb47bf58f3307711 KVM: Forbid the use of tagged userspace addresses for memslots
+de7dc586050b4630163b06ddc097b3ba85440e87 xen: Fix XenStore initialisation for XS_LOCAL
+de26878470af48be5471b1454c32df6ed1f42da3 leds: trigger: fix potential deadlock with libata
+312ad68ad0f959a1fa098b48d503a564a26b03d7 arm64: dts: broadcom: Fix USB DMA address translation for Stingray
+7f8d258317ceaca05fbb4dcd4257ea6443bbf60e mt7601u: fix kernel crash unplugging the device
+a4bec81463ffe99a0054f672509bd793eed158b4 mt7601u: fix rx buffer refcounting
+f463d889e4d825aad0acc2df592b67592d642c93 drm/nouveau/svm: fail NOUVEAU_SVM_INIT ioctl on unsupported devices
+8d7e7dd1a18f4ccf84dd2c4469cbd61390d102bf drm/i915: Check for all subplatform bits
+8995301dda87a6163b7d3908a39ec833f59e8cf6 tee: optee: replace might_sleep with cond_resched
+eb96fcc24fd7423b151453da43427943137aa12d xen-blkfront: allow discard-* nodes to be optional
+7e9bfc5a51b9cc7ded5d9aca6d31a8e48952800b ARM: imx: build suspend-imx6.S with arm instruction set
+b84641ea16534e055857c6517509ba23e2976a7f netfilter: nft_dynset: add timeout extension to template
+99799a1a6d82b25dedac960360ada10542adbf7c xfrm: Fix oops in xfrm_replay_advance_bmp
+ff719c7643866ebed1541e919a7281e174e5817c xfrm: fix disable_xfrm sysctl when used on xfrm interfaces
+2badbcc289fef26ad1786ce00b412e033c85e87b selftests: xfrm: fix test return value override issue in xfrm_policy.sh
+655dd127f5b30535d8dd97ea0e53266ea35e850c xfrm: Fix wraparound in xfrm_policy_addr_delta()
+9118af6ec0c2523a34271bd4c30ae506e7b44e37 arm64: dts: ls1028a: fix the offset of the reset register
+b98c84c71dc7eb20a94e83e0402d30e27945849c ARM: dts: imx6qdl-kontron-samx6i: fix i2c_lcd/cam default status
+80de22e3d0c199b4badf00db1e7914d1def8b0e0 firmware: imx: select SOC_BUS to fix firmware build
+4c9d9c8ff392d7bff1ba20e1eb1c1f7479f6d623 RDMA/cxgb4: Fix the reported max_recv_sge value
+2ed9c885933125cc8f7f73183e6a5e0caf451911 ASoC: Intel: Skylake: skl-topology: Fix OOPs ib skl_tplg_complete
+80daaa7aa48778a13def805904bc34a05b0189f4 pNFS/NFSv4: Fix a layout segment leak in pnfs_layout_process()
+93178b0b84068b192c02b0e3b03908d1dc67dfce iwlwifi: pcie: use jiffies for memory read spin time limit
+34822a50be556328e862d141db9bf43f4f6b9788 iwlwifi: pcie: reschedule in long-running memory reads
+e6c7170d53701f478244507b2b7c631c2ea9e0f1 mac80211: pause TX while changing interface type
+acc41118c2b5c9ee81e69c9697a9876a6f6f6132 i40e: acquire VSI pointer only after VF is initialized
+c2a44ca7def94a319d9081a57874c8db84519a12 igc: fix link speed advertising
+e773d2bcca071f277bf2153a62eac3a80fd0ff40 net/mlx5: Fix memory leak on flow table creation error flow
+91f6fc6bb4eee1ecc4b28fbb3f8e2be78e68934c net/mlx5e: E-switch, Fix rate calculation for overflow
+e84b0672f95c283dca16bc5784d5780d960c48b1 net/mlx5e: Reduce tc unsupported key print level
+cdc0b9123b9bd6b8ce71972094f6d1783a40328b can: dev: prevent potential information leak in can_fill_info()
+1abb49acbea7087017d7fc45e9f77ffa50cf0c55 nvme-multipath: Early exit if no path is available
+5d82b668ff0023034274c78bb3bb71db7220a1fb selftests: forwarding: Specify interface when invoking mausezahn
+4f8d8155e8963bbb0b98cd3e677e35839230873f iommu/vt-d: Gracefully handle DMAR units with no supported address widths
+acee33fcb92383ebefd86f07e79aaa911232b2b4 iommu/vt-d: Don't dereference iommu_device if IOMMU_API is not built
 
---===============2840002490678182042==--
+--===============6489280462585705436==--
