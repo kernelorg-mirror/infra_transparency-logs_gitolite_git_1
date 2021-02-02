@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 02 Feb 2021 17:29:33 -0000
-Message-Id: <161228697335.16454.7282385580374085786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Tue, 02 Feb 2021 17:29:45 -0000
+Message-Id: <161228698546.16608.6538923346865106147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/asoc-5.11
-    old: 6c9123068815ed0bc1e8fa5a5029eef5ee3866c3
-    new: e681b1a6d706b4e54c3847bb822531b4660234f3
+  - ref: refs/heads/dev-test
+    old: 47361e16aa871a5cfbe2f6e4e4f3d8cf93e31242
+    new: cb7a78f688040d1beb0504484d5d3bdcbd15e387
     log: |
-         e681b1a6d706b4e54c3847bb822531b4660234f3 ASoC: qcom: Fix typo error in HDMI regmap config callbacks
+         39f71b7e40e21805d6b15fc7750bdd9cab6a5010 f2fs: fix a wrong condition in __submit_bio
+         c8e43d55b1aa05d175daac25d228c7c1c71c7b11 f2fs: relocate inline conversion from mmap() to mkwrite()
+         fbc6762dae8ea241e0c84c7309b17e3db7eb201e f2fs: introduce checkpoint=merge mount option
+         b4d40c5d6cd8808666071399b97abd73c696f625 f2fs: rename checkpoint=merge mount option to checkpoint_merge
+         cb7a78f688040d1beb0504484d5d3bdcbd15e387 f2fs: add ckpt_thread_ioprio sysfs node
          
