@@ -1,37 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Tue, 02 Feb 2021 22:56:32 -0000
-Message-Id: <161230659299.9108.8464924361778764938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 02 Feb 2021 22:58:10 -0000
+Message-Id: <161230669073.9600.4351999089783523221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/pci
-    old: 737242ed5be0a7119aad55894148b3f5dec41200
-    new: 41962f573b8b4ff55105bce3f843cfb8b6e55815
+  - ref: refs/heads/for-next
+    old: 016f94feb57d73b2c375f1ccd665bb546d401162
+    new: 3c4ab49ec59b94651dea7c7b0104c781c79c62b5
     log: |
-         41962f573b8b4ff55105bce3f843cfb8b6e55815 acpi: use constants as strncpy limit
+         3c4ab49ec59b94651dea7c7b0104c781c79c62b5 ALSA: core: Fix the debugfs removal at snd_card_free()
          
-  - ref: refs/tags/for_autotest
-    old: be405a0802384e8d77277a43a591c0617f6614b9
-    new: 3e37066a747bf0203bf89f6a8eabefdc0711612a
+  - ref: refs/heads/master
+    old: 9cbed21f462aea6958950731b288d4360d6cc0fe
+    new: 307cfa506ef4e6d7fe9430e513db2353925fb440
     log: |
-         41962f573b8b4ff55105bce3f843cfb8b6e55815 acpi: use constants as strncpy limit
-         
-  - ref: refs/tags/for_autotest_next
-    old: be405a0802384e8d77277a43a591c0617f6614b9
-    new: 3e37066a747bf0203bf89f6a8eabefdc0711612a
-    log: |
-         41962f573b8b4ff55105bce3f843cfb8b6e55815 acpi: use constants as strncpy limit
-         
-  - ref: refs/tags/for_upstream
-    old: be405a0802384e8d77277a43a591c0617f6614b9
-    new: 3e37066a747bf0203bf89f6a8eabefdc0711612a
-    log: |
-         41962f573b8b4ff55105bce3f843cfb8b6e55815 acpi: use constants as strncpy limit
+         3c4ab49ec59b94651dea7c7b0104c781c79c62b5 ALSA: core: Fix the debugfs removal at snd_card_free()
+         307cfa506ef4e6d7fe9430e513db2353925fb440 Merge branch 'for-next'
          
