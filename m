@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5711234008107719760=="
+Content-Type: multipart/mixed; boundary="===============6198579073596613282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Tue, 02 Feb 2021 13:29:45 -0000
-Message-Id: <161227258541.24481.16281625590148259593@gitolite.kernel.org>
+Message-Id: <161227258566.24504.6474164205381780512@gitolite.kernel.org>
 
---===============5711234008107719760==
+--===============6198579073596613282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,75 +16,79 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 03005b0d02c888c6836be5727ebe6d0de6f9d6f1
-    new: 9c98a187325d9be55b09023d4a08cf0e8790065c
-    log: revlist-03005b0d02c8-9c98a187325d.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 50ede7f7df6d275babc87143cbbb4cff24723243
+    new: 70e4b0214c4095d6102b69f30858cfb31d36e1c2
+    log: revlist-50ede7f7df6d-70e4b0214c40.txt
 
---===============5711234008107719760==
+--===============6198579073596613282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612272583 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612272584 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1612272583-d0c730666e1149d06291552d49de93b86f8c9561
+nonce 1612272584-d86f5242b66a3dc1d5257e7f3562b8ac99eba71c
 
-03005b0d02c888c6836be5727ebe6d0de6f9d6f1 9c98a187325d9be55b09023d4a08cf0e8790065c refs/heads/linux-4.4.y
+50ede7f7df6d275babc87143cbbb4cff24723243 70e4b0214c4095d6102b69f30858cfb31d36e1c2 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAZU8cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+itMP/R0LqkA3zz/UHYPGPwD5
-02hORME6qfRaqZFGvSIxPVeZlyBylR7TQni9CmTQoxL0FvfUl5KgWnkhqizoho2p
-IxSLlWimiYOuhbfGZcdRcZGbrGJYEHTy+HdM8l4c/rFrQpLrDhnbbBBXxsdXQhZ1
-UVXMl42cFI82WKMQYA6BTat6T1+n1+3fzerhWHy0b6iqFOjW62EOoAH02bnWiFYB
-xlPF0p9EGpLaJQ4SscOv6DJp2hJGy593vIwG3WBh3qqFGK3tbLmRA3bsDnmlToez
-3+eQ6yxMFq2bjD3V0xsWb8YzuokQfWAqPo/Gs7sDGAl7WMOEtFmqB/deP5EyZx/2
-O2yqh9YC89un4E594tBjktGRmM+LqaJvEedp8aXA8DBR4GtmLwyNITtv3wugaiqs
-Dy7LpdqUYNl8N2jjPGLz3vD/q3YYdJAgU0CwYw46FN7FDwhGCEHyd1moKnVqH+ji
-sAPzV+eHcssGcpt17TupEvIOp/wwh+oHjj0FNlBfzRC297QhBD4lX4Wsvtn18rQs
-nvzDmANswEJwa9A4rcH1/AQcoP5WrwkVEqpXZXMe1VSpTfFGW7P24iZW9rX+o9WK
-mIIcB0W6y9hy6UgMpnQQ+/mn7ny57J+rAYGoWeXfnG5GN0krD2dHEK9Z5IZIIra2
-9nNcn4yqnbdTQsLl3kxnz88p
-=k683
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAZU8gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OAQP/RdGaorkhOrIgrB60F9n
+q5ORquIRXX4mFbVVjpGuqbhxNosgSUmNY8YoY4HfgHO/7nw/MH8+9M1T49sor5H8
+0oU2eQBwGA/Zhf+hhjEhF/xnDGVBNdbxzeTdaaqVANy9xVA5OklIri7TSOgI+T0d
+gAYslrAsMYmotNARF8Osm6KgEY/uAargudak3s6b1+0orFI3OjRXUG3+AY2Cg/uv
+0o0SAJBccu6i31P9igMWUsYSAJD6nYy+efBpATcN6w5ij9Um7nT7my3GYmcqXC62
+GgzPXiDJ5Hdk/pT+ficzalr+8hG1Gi9ghcNdikTsgUkTV8cGYMvTAAqi8gthReMG
+WnyJO14k/kkmTtiFk2unkE+8niffHCBd8ZroOqOgdTirVEEIVGHjKfrZyIQMW2QN
+ziVGa2oxszxfU1i2qNvzETiUxfYsUS4VagcUL5iGwzWs/TkkMk5B/nCtlMPy3NDy
+fnccAeKxxavIkY0ByWTT+FhptoJvqFdzD4h/s7/7fHU16S0gyYj37YXbFhCzwK7J
+am0T92bMtfz11fIz/EQeDp999fV8NdYQ7ErIxdt4oyhIH4s+cxYgy/ycQYDgzGgL
+KmssrlzT0ZIwCgrp4Xx/bu4sDtt5ZAbuFUGVDcbxvUCg4pOXsDT6E6GPME9Q3Let
+DeLffKWGanX8MBVcdKX1o+qv
+=zz5y
 -----END PGP SIGNATURE-----
 
---===============5711234008107719760==
+--===============6198579073596613282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03005b0d02c8-9c98a187325d.txt
+Content-Disposition: attachment; filename=revlist-50ede7f7df6d-70e4b0214c40.txt
 
-46ee1799447cd1ac61476a934e926d78f56d9fb5 ACPI: sysfs: Prefer "compatible" modalias
-e29e185f6f8d9eace49917050340a289d998c690 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
-f5821881f7f3c6ae6294d6bb1eaeeae296bf0d9e net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
-8b15ee1a1e72653b10c404147103974d5dd3215d KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
-c659bb5a8377ac5f700fe106205b3d372a025c1e mt7601u: fix kernel crash unplugging the device
-d0025edc418bd59dfdccc008e85b158b65da997a mt7601u: fix rx buffer refcounting
-8d2ffaf67a5f64c913f734df81064aa83df16a1a y2038: futex: Move compat implementation into futex.c
-70872d37f5f0bbe4c0a3961f09c52716e4de7a40 futex: Move futex exit handling into futex code
-c9640c75816dc7ae47d3e603644d47f23bd5306b futex: Replace PF_EXITPIDONE with a state
-ce36082e2fbb115839b34a1fab74dda3f2815ca9 exit/exec: Seperate mm_release()
-c59e703093ad01f82069871a18d9a2a1b27ec229 futex: Split futex_mm_release() for exit/exec
-3096f98117d2bebb77e777905eb6a5e0a4dbde76 futex: Set task::futex_state to DEAD right after handling futex exit
-8e93dac6be9342fab04ad2ca8bb73b9b6290151f futex: Mark the begin of futex exit explicitly
-957195bb11671bbc610d299b5b76e9da3318e785 futex: Sanitize exit state handling
-e649fd02422a4870abdbf48e2ca56d4fa0ef9e38 futex: Provide state handling for exec() as well
-ea256f34a7836126283fe9aa008be145eceed884 futex: Add mutex around futex exit
-c786bf991ab958f75a0fbdfcaa703a5b4d0540d2 futex: Provide distinct return value when owner is exiting
-7e3f90f4e76bd4791c20a70a8b8d57bacf86e3a0 futex: Prevent exit livelock
-e0df9651ce141b59599368aa2065073900837dd6 ARM: imx: build suspend-imx6.S with arm instruction set
-08a00735ae27be49e22da560134ed1589ac8696c netfilter: nft_dynset: add timeout extension to template
-b03f9af55f9787d43a17460eb6369ed8fa3de3d2 xfrm: Fix oops in xfrm_replay_advance_bmp
-c19f0184c2e4dba6aaf7edd0f1bcd659df7ba824 RDMA/cxgb4: Fix the reported max_recv_sge value
-a62ad201c0a21e53880a6913281f0f6c7b5cb899 mac80211: pause TX while changing interface type
-b6e42925eaaff6559f903f3d3189cc4c27181394 can: dev: prevent potential information leak in can_fill_info()
-74bd74343d3bfe798fd2f7ee9692c36a2ec783c7 iommu/vt-d: Gracefully handle DMAR units with no supported address widths
-010e69b250dfcc2d42756c73d5437be6016f811f iommu/vt-d: Don't dereference iommu_device if IOMMU_API is not built
-4a5749cd11fc25ceab2a1381d211f2f1f04ef310 NFC: fix resource leak when target index is invalid
-4306c32b0ddc083786b4848c0c131578c010bba3 NFC: fix possible resource leak
-9c98a187325d9be55b09023d4a08cf0e8790065c Linux 4.4.255-rc1
+03297c70257cdcc77d15916445a2557aef53b099 ACPI: sysfs: Prefer "compatible" modalias
+3106a17f205b03ca0d1f59bd241dcd98ac5f0c70 wext: fix NULL-ptr-dereference with cfg80211's lack of commit()
+d5b3c93f2ff21406ab8ebcf5b78f3803a338232e net: usb: qmi_wwan: added support for Thales Cinterion PLSx3 modem family
+9e1062edbc89226f3fb3e01391846f8423722006 y2038: futex: Move compat implementation into futex.c
+6b116334231e21a32d90f4d57a07f51cac0c07ab futex: Move futex exit handling into futex code
+2b97d4a2adc929778ff33eaab1f83b9f9fba8ae3 futex: Replace PF_EXITPIDONE with a state
+ce940ebc5e12bec2875f305f86d7f4fc584191b8 exit/exec: Seperate mm_release()
+7cb23b08f752971d40da82927b6934315e46796a futex: Split futex_mm_release() for exit/exec
+0704f602046026f15e5637b88b2be2adb7dd728d futex: Set task::futex_state to DEAD right after handling futex exit
+f49fcdd271b27870a60ad3a7e48de5d22ab975ff futex: Mark the begin of futex exit explicitly
+7edf312d84b4c6d2f92839f176ad07012b767edc futex: Sanitize exit state handling
+e0e50c54f6d00644c3a0463531305b1a547b082e futex: Provide state handling for exec() as well
+5a6acdd5fa1063eeb1dd2f08e9df3c87cef49e9c futex: Add mutex around futex exit
+5b64a6ba83f1d5a8e8ec3a3d3fa3ffed3255e5e0 futex: Provide distinct return value when owner is exiting
+92323c19599477c54db77847128bcba1c0fe10de futex: Prevent exit livelock
+fc7ea99766ed94ec4ed02b82d908a582c16d96eb KVM: x86/pmu: Fix HW_REF_CPU_CYCLES event pseudo-encoding in intel_arch_events[]
+9f44ef0547920b61d9189730a099e35e1c07fc84 KVM: x86: get smi pending status correctly
+bbcf978aab5cf49809a3823f86f7434172bbea2c leds: trigger: fix potential deadlock with libata
+1ff33e41825070554cfb46011f0f654ae52b7c04 mt7601u: fix kernel crash unplugging the device
+c95ff7c46ea49d3d116920bf321b3485dca142f7 mt7601u: fix rx buffer refcounting
+d26ce22dd558011e80830a9db9198229f03286af ARM: imx: build suspend-imx6.S with arm instruction set
+90bc0f328b999f5eba50a9cb746b7a2c316001b4 netfilter: nft_dynset: add timeout extension to template
+7096c655cab51ea837da53ac37390387772b9c3d xfrm: Fix oops in xfrm_replay_advance_bmp
+19461f408564a3fdcee41b1561eb2225f885a3e6 RDMA/cxgb4: Fix the reported max_recv_sge value
+09c89726723660fea5c5510d0890a3c17e6e4fc3 iwlwifi: pcie: use jiffies for memory read spin time limit
+0634d6fe61283b64ce9e2e7bbf22b47f04b78faf iwlwifi: pcie: reschedule in long-running memory reads
+c3b95c0f5404e128832b07d755df001786285531 mac80211: pause TX while changing interface type
+ce1768cb6e37f24c64aa2a5afdee20b6b9cae805 can: dev: prevent potential information leak in can_fill_info()
+fab3f8f5ff2a3cd9397986a486b7dd5df64ba595 iommu/vt-d: Gracefully handle DMAR units with no supported address widths
+a537cc4a36b669fa8dcf4f7a222645f4c1727fd0 iommu/vt-d: Don't dereference iommu_device if IOMMU_API is not built
+03003de7a379b1bf0533a295e8b85d349bd09f00 NFC: fix resource leak when target index is invalid
+770d78fd7957489419a75d3b3154d1d8e95d091b NFC: fix possible resource leak
+70e4b0214c4095d6102b69f30858cfb31d36e1c2 Linux 4.9.255-rc1
 
---===============5711234008107719760==--
+--===============6198579073596613282==--
