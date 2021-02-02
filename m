@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2476525265726941612=="
+Content-Type: multipart/mixed; boundary="===============6913114443445999639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 02 Feb 2021 23:03:57 -0000
-Message-Id: <161230703720.12720.8657424576749797490@gitolite.kernel.org>
+Date: Tue, 02 Feb 2021 23:03:59 -0000
+Message-Id: <161230703950.12837.11624138027311176651@gitolite.kernel.org>
 
---===============2476525265726941612==
+--===============6913114443445999639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.12
-    old: 46a4359f9156f584bf5b17b8220ab6c59e861963
-    new: 7790114893c537176ebab62d002a261b5f01f7a9
-    log: revlist-46a4359f9156-7790114893c5.txt
-  - ref: refs/heads/drivers-for-5.12
-    old: aec8535edccb943adc067d184af1a3370f5b9568
-    new: 01f937ffc4686837d6c43dea80c6ade6cbd2940a
-    log: |
-         01f937ffc4686837d6c43dea80c6ade6cbd2940a soc: qcom: ocmem: don't return NULL in of_get_ocmem
-         
-  - ref: refs/heads/dts-for-5.12
-    old: e14775aa2feac18e7378cb8009b55c13d4236b50
-    new: 9d1ee210ab8ae610285e5d6db9ea47491fce6dc6
-    log: |
-         fe079442db63a712fb5e66456e6d034d74c156b5 ARM: dts: qcom: msm8974: add gpu support
-         4389eeac4867d0fd906cdaf17bf84d4a8681f59c ARM: dts: qcom: msm8974-klte: add support for GPU
-         3657b677d20d4b6bda441bd568d037446bd6d880 ARM: dts: qcom: msm8974-klte: add support for display
-         9d1ee210ab8ae610285e5d6db9ea47491fce6dc6 ARM: dts: qcom: msm8974-klte: Mark essential regulators
-         
+  - ref: refs/heads/for-next
+    old: 3e6a8ce094759be6fa5dcae1c1d4565dcc920373
+    new: d79b47c59576a51d8e288a6b98b75ccf4afb8acd
+    log: revlist-3e6a8ce09475-d79b47c59576.txt
 
---===============2476525265726941612==
+--===============6913114443445999639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46a4359f9156-7790114893c5.txt
+Content-Disposition: attachment; filename=revlist-3e6a8ce09475-d79b47c59576.txt
 
 bd67534d18b4a1ca8755f59702d4acf5a9ba7b1a dt-bindings: vendor-prefixes: add Alcatel
 b32155ff0256dbc053874e61f532a75fdfb5ec31 arm64: dts: qcom: Add device tree for Alcatel Idol 3 (4.7")
@@ -49,6 +34,7 @@ b32155ff0256dbc053874e61f532a75fdfb5ec31 arm64: dts: qcom: Add device tree for A
 80ad7f3349e63a12b9b9ba767884a513df362ec2 dt-bindings: firmware: scm: Add SM8250 and SM8350 compatible
 b7e8f433a673eb875007111a75e9dbdc61ea5c14 arm64: dts: qcom: Add basic devicetree support for SM8350 SoC
 0684074a46e8ef939c7afe6b9c7381563599c33a arm64: dts: qcom: Add basic devicetree support for SM8350-MTP board
+01f937ffc4686837d6c43dea80c6ade6cbd2940a soc: qcom: ocmem: don't return NULL in of_get_ocmem
 e53bdfc009770950dd23023a096542beb5f7df97 arm64: dts: qcom: sm8250: Add PCIe support
 418b4ee165fb225ebe76020d1fdd9bd782292263 arm64: dts: qcom: rb5: Enable PCIe ports and PHY
 b3a6b088289ee0586b7f1f4977ade6dae06a009a arm64: dts: qcom: Add device tree for BQ Aquaris X5 (Longcheer L8910)
@@ -72,6 +58,10 @@ da3a82e35e4b24c0392c4667cd7ee1332c0a15e0 arm64: dts: qcom: msm8994-octagon: Conf
 3aca45f776e1a908c62a7f52877f94d11197337b arm64: dts: qcom: msm8994-octagon: Add sensors on blsp1_i2c5
 caea1f74479dcfa09b4f39d95edc580e67058677 arm64: dts: qcom: msm8994-octagon: Add TAS2553 codec
 c636eeb751f695ac0481626e6bd0c1c0188740dd arm64: dts: qcom: msm8994-octagon: Add AD7147 and APDS9930 sensors
+fe079442db63a712fb5e66456e6d034d74c156b5 ARM: dts: qcom: msm8974: add gpu support
+4389eeac4867d0fd906cdaf17bf84d4a8681f59c ARM: dts: qcom: msm8974-klte: add support for GPU
+3657b677d20d4b6bda441bd568d037446bd6d880 ARM: dts: qcom: msm8974-klte: add support for display
+9d1ee210ab8ae610285e5d6db9ea47491fce6dc6 ARM: dts: qcom: msm8974-klte: Mark essential regulators
 d5ae2528b0b56cf054b27d48b0cb85330900082f arm64: dts: msm8916: Fix reserved and rfsa nodes unit address
 03e6cb3d8af79ff9a4a1b9fecf3866887bfa6465 arm64: dts: qcom: msm8998: Merge in msm8998-pins.dtsi to msm8998.dtsi
 6845359eea47afed5fa81571a526418228b93580 arm64: dts: qcom: msm8998: Add DMA to I2C hosts
@@ -81,5 +71,7 @@ a72848e8a4d761dccddf6af93e8248384986928f arm64: dts: qcom: msm8998: Disable some
 20fd3b37285b02952b1e843281506db4512803bb arm64: dts: qcom: sc7180: Add support for gpu fuse
 564f18f03e91aa770f4ffccf2fee78d61216a4f4 arm64: dts: qcom: msm8996: Add missing device_type under pcie[01]
 7790114893c537176ebab62d002a261b5f01f7a9 arm64: dts: qcom: msm8998: Use rpmpd definitions for opp table levels
+62615face8c1949f523340c5b21875a062776217 Merge branches 'arm64-defconfig-fixes-for-5.11' and 'arm64-fixes-for-5.11' into for-next
+d79b47c59576a51d8e288a6b98b75ccf4afb8acd Merge branches 'arm64-defconfig-for-5.12', 'arm64-for-5.12', 'defconfig-for-5.12', 'drivers-for-5.12' and 'dts-for-5.12' into for-next
 
---===============2476525265726941612==--
+--===============6913114443445999639==--
