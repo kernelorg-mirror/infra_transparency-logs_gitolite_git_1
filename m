@@ -1,46 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4929416409855350579=="
+Content-Type: multipart/mixed; boundary="===============9120516699313088147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 02 Feb 2021 18:41:46 -0000
-Message-Id: <161229130632.30984.18323778436314686080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 02 Feb 2021 18:43:27 -0000
+Message-Id: <161229140742.31504.15369652394240112180@gitolite.kernel.org>
 
---===============4929416409855350579==
+--===============9120516699313088147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 93f0e621cf8467c91a8a495271b278b9ff336b20
-    new: 6b503fabc2e606e0721c4b4780600ab7d0c34e40
-    log: revlist-93f0e621cf84-6b503fabc2e6.txt
+  - ref: refs/heads/usb-testing
+    old: 2a16e18c3400f7ab1deb826a98cf52153d03653e
+    new: 64eaa0fa66ac55965f793a8b65730299854e55cd
+    log: |
+         32e9b48d110ef5fae850036eafaf7895a25b37e3 usb: typec: Return void in typec_partner_set_pd_revision
+         64eaa0fa66ac55965f793a8b65730299854e55cd platform/chrome: cros_ec_typec: Fix call to typec_partner_set_pd_revision
+         
 
---===============4929416409855350579==
+--===============9120516699313088147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93f0e621cf84-6b503fabc2e6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-32285e1553a15de200ad43bc77a5ca70bcca60a0 crypto: michael_mic - fix broken misalignment handling
-10d34074d32529e3e72eecd49d74795475948cc6 crypto: serpent - get rid of obsolete tnepres variant
-c474c2dac9c185f9b036eea329e73f7a9131ecee crypto: serpent - use unaligned accessors instead of alignmask
-7fb2574c4d005cbc4f7f14ed67d91b81d30b0dc9 crypto: blowfish - use unaligned accessors instead of alignmask
-9408a63037019a2c45791af89d1346810397d91d crypto: camellia - use unaligned accessors instead of alignmask
-d643c764f95c38e7b1e2e816a1a39a3089ad3caa crypto: cast5 - use unaligned accessors instead of alignmask
-d6aa0f17c2178d89c79496de54d8a3a0cedc3f06 crypto: cast6 - use unaligned accessors instead of alignmask
-80d69442bfccbcdff2e2821b9ed8944f4c381855 crypto: fcrypt - drop unneeded alignmask
-93d83262ec726246e93cf0e8ec0f7a9cf5868242 crypto: twofish - use unaligned accessors instead of alignmask
-2610af87d95c61ba86053b2a63132c21725a453b crypto: skcipher - reduce request structure alignment and padding
-4e1c0dbbec8d86f9f283e22cde3e023edc3a610f crypto: stm32-crc32 - drop unneeded alignmask
-619b817f837ec476751337905fca0b1b7df42ce7 crypto: arc4 - remove obsolete ecb(arc4) skcipher
-c2e056d8b9ef7ccd6a45d92405cccb26dfbb068e crypto: anubis - remove obsolete algorithm
-a15ee232cb480851f389411a260cc3ae381d3b69 crypto: khazad - remove obsolete algorithm
-53d05e2e08856ea0fb597b30147f104f5db8b5ea crypto: seed - remove obsolete algorithm
-6b503fabc2e606e0721c4b4780600ab7d0c34e40 crypto: tea - remove obsolete TEA/XTEA/XETA algorithms
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612291398 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1612291397-7890ff4f349dcb8a799af81ef9898fe38a0d845d
 
---===============4929416409855350579==--
+2a16e18c3400f7ab1deb826a98cf52153d03653e 64eaa0fa66ac55965f793a8b65730299854e55cd refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAZnUYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kCgQAIgXgkQGM3Yd/mQUmDyT
+CbZuVcOhw9rUsALiOMfUfFsT8yzOMKapf6aEN4xiIdznAVTYGXhQZHeRBWk3ptxX
+jf9dMHTv3k0/Zg6nLuO/EPDlHEu7P91Q8wkjbMpn3FebOudmwdvHfj2pMXhokuyv
+DyolnTu2wwE3KO4qhxC4tsw3XZ0Pk+OhMjnsE67AArYU9gDrwOvtykWtKQQd27Tb
+GRoJfj3PqhpMwK/O1gqSvaYvyxecVVrOuo+iiNmG5PEvIpYqZgpLk9AsMka530DV
+WaGypxNoRuA0oe7M8ByV6/EBoXQoBBJQFK7x+i07TxmQyDAdBZrVyas3kv8vWhLO
+ImF/fnxCu08q4+8g/rZ3H6al0g/T0kUOmIoraVJ0ZY9bR1Xk4w3yffHNx/HIciSk
+jHR0eZMiiRafhYMvWWi3OFZbx0kKEN6VZoaIpvs0BO/y8fqKMj0vzL1gjGeNGy4I
+Crso5fyF5iO4sdGB98mfCGfrEQndIuTtNzRbRnK5/myVj0LjAUYfcA1nJ0/OzcWf
++7ZhC5V/nfHEnClkKgpiith63I19Eh6KNYyLL2J9VEe7yHWtzj02LuTAunsiegZo
+tTlDjW0B5W+kaMaTMMRtzpJeLzDagnm4kX2hVeFXTWMrgMJaRNbBH27AM6K8qb+l
+6dy+Z7pkMl9RPGBeOqHL5pon
+=XQGg
+-----END PGP SIGNATURE-----
+
+--===============9120516699313088147==--
