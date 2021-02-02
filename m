@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2893737938165552011=="
+Content-Type: multipart/mixed; boundary="===============3092015929616746606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Tue, 02 Feb 2021 09:24:59 -0000
-Message-Id: <161225789983.17779.555755138153613195@gitolite.kernel.org>
+Date: Tue, 02 Feb 2021 09:25:12 -0000
+Message-Id: <161225791230.19170.6359282873918666164@gitolite.kernel.org>
 
---===============2893737938165552011==
+--===============3092015929616746606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: d1f3bdd4eaae1222063c2f309625656108815915
-    new: 9ae4bdc6e4c1281ddf8d6335bea35864d086cbf9
-    log: revlist-d1f3bdd4eaae-9ae4bdc6e4c1.txt
+  - ref: refs/heads/testing
+    old: 8e32aefba5fdad283a96111b6b4e464b779a4877
+    new: d0a3b03b6cc39e1a9099d5a92c980d3bb45a7c58
+    log: revlist-8e32aefba5fd-d0a3b03b6cc3.txt
 
---===============2893737938165552011==
+--===============3092015929616746606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1612257895 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1612257907 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1612257895-e5169038d0bcab627b5db2447ddb7dbd0c074012
+nonce 1612257907-dc5e8efb33f2f89604dbf377e441785332851a99
 
-d1f3bdd4eaae1222063c2f309625656108815915 9ae4bdc6e4c1281ddf8d6335bea35864d086cbf9 refs/heads/master
+8e32aefba5fdad283a96111b6b4e464b779a4877 d0a3b03b6cc39e1a9099d5a92c980d3bb45a7c58 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmAZGmcTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqfBUB/0fIB+LYFZ0fTmluRoi+ms60DytlsYb
-PI+vs472RGoef5PCpbCDh1QdZfRFYyCKkdWvzdoLL3MiOo8f+jEWreGjS636EY+A
-4zLN+xbFedjr7o0Sh+sy75ir/vgI/2cdh618kjCTLIuJ4inAl6MmMtimEDGix2JI
-I9s+KF6T7RBjL5rn4nAl2+RpedNcRLIq4ohDROdm+TvXFH7Ts8WRdUREI9rv4x0a
-5QovCk2CqVAifWdAkaAz/Ll9Pz+1cKkd6LRKmam1RDeTf+kDs1DIIuJAIXN3eHfs
-a2R1kI9n7PORiGhnCqQEBfn65NsR9EtDTGJfwt7Os4+sshOvgVv1G9NR
-=v0ef
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmAZGnMTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqUSgCACwTZPn+EY6d2vSxGFaTzbVI7/iA1S1
+JGxw7g/oiAMBm+tCu457J0OnnLB7Aq57d1e6Sg9DSb1/CbsQROrL/KUzj7mBs1q+
+vigrdw66j7wxnhWs5hZh8knu6aJgvp9yLukjmrDlXpxQc3zF3lGgkbzTo64TXaBC
+9nm4fD9IGitWc87R1oZPpc6YB/Y2PVVofXnpDszk4bv0+q5UAL3XD4zmV2nQVcLR
+no1mVyRT3GhoraAJR/DvmWjhPrNqo45rqiO27HxJVG2QXsxjiCNQRrcwKWhJRRvo
+MYuIo0KnD/1BMXPF97uB8blfnUZc2CgnhqREeXLXRhleWaL9P8sIncJC
+=3M01
 -----END PGP SIGNATURE-----
 
---===============2893737938165552011==
+--===============3092015929616746606==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d1f3bdd4eaae-9ae4bdc6e4c1.txt
+Content-Disposition: attachment; filename=revlist-8e32aefba5fd-d0a3b03b6cc3.txt
 
 06fde695ee76429634c1e8c8c1154035aa61191e genirq/msi: Initialize msi_alloc_info before calling msi_domain_prepare_irqs()
 e90f55e0196a66f8e9e445f7f33f876dd889be9a irqchip/irq-sl28cpld: Convert comma to semicolon
@@ -686,17 +686,6 @@ cf3c7c7b371a0c3f0a6b1f3aa66604c1bc494cc7 Merge branch 'add-nci-suit-and-virtual-
 941eff5aea5d4371fb8a496a66e29aa8fc7a0c23 net: flow_offload: Add original direction flag to ct_metadata
 6895cb3a95c9988b9556f179dccc1ef693a981f7 net/mlx5: CT: Add support for matching on ct_state reply flag
 810e754c7bc5ba6bc49abc576b1a33ddc0e64e37 Merge branch 'net-sched-cls_flower-add-support-for-matching-on-ct_state-reply-flag'
-bdbc13c204ee3e742289730618002ff9f21109bf net/mlx5: DR, Fix potential shift wrapping of 32-bit value
-3a77c238909b354b25c8d58ea541c44e14030ba8 net/mlx5: DR, Add match STEv1 structs to ifc
-10b69418641062b4dc7fabe3c6f2e12432ec6987 net/mlx5: DR, Add HW STEv1 match logic
-9f125ced1750ecf299dc52771410d823a36fbbfd net/mlx5: DR, Allow native protocol support for HW STEv1
-a6098129c781a7b0fe0d518281bce99b60fe7203 net/mlx5: DR, Add STEv1 setters and getters
-4e856c5db9b4d6601337dd5e3ea72a6931e2469b net/mlx5: DR, Add STEv1 action apply logic
-c349b4137cfd9482f30dcd726748d0c4da1427f3 net/mlx5: DR, Add STEv1 modify header logic
-f06d496985f49189dde4506d0ac15494d1a74607 net/mlx5: DR, Use the right size when writing partial STE into HW
-4fe45e1d31efb07bbf0c80a59c211109e389b8e3 net/mlx5: DR, Use HW specific logic API when writing STE
-8fdac12acf32fa327c2da9ded8a460e606cb74ac net/mlx5: DR, Copy all 64B whenever replacing STE in the head of miss-list
-64f45c0fc4c71f577506c5a7a7956ae3bc3388ea net/mlx5: DR, Allow SW steering for sw_owner_v2 devices
 a5b88632fc967906a86e16513bae9cc49070934c net: atm: pppoatm: use tasklet_init to initialize wakeup tasklet
 a58745979cdd2ad70cd43ce9f1de8b076ae98e21 net: atm: pppoatm: use new API for wakeup tasklet
 afa4f675aa62467f706f06b67d4c7955b362f949 net/ethernet: convert to use module_platform_driver in octeon_mgmt.c
@@ -731,12 +720,6 @@ e21268efbe26d9ab3f7468577d691b992d76e06a net: dsa: felix: perform switch setup f
 1e16f382ae0ba0a244ebeea5783153f5c4f7e6c1 net: bridge: add warning comments to avoid extending sysfs
 4e146def5855bea30ab14d2a27c13be90b7cd2d1 Merge branch 'net-bridge-drop-hosts-limit-sysfs-and-add-a-comment'
 14e8e0f6008865d823a8184a276702a6c3cbef3d tcp: shrink inet_connection_sock icsk_mtup enabled and probe_size
-7f976d5cf16d0a747098f67831d746fa25f18dbe net: dsa: hellcreek: Report VLAN table occupancy
-8486e83fe1d8534ae964cb12c6852a824c12318b net: dsa: hellcreek: Report FDB table occupancy
-f222a9937659a006e90db921a1ace41cf3a9522e Merge branch 'net-dsa-hellcreek-report-tables-sizes'
-1a2b60f6f16527ce404a41ad4d201df9422e9aad Merge tag 'mlx5-dr-2021-01-29' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-665ab1eb18d7e8eaa8377fb8bf4924bfeb63bbce ibmvnic: rework to ensure SCRQ entry reads are properly ordered
-2719cb445da5fec698e961abdf75cf9e4d61fba4 ibmvnic: remove unnecessary rmb() inside ibmvnic_poll
-9ae4bdc6e4c1281ddf8d6335bea35864d086cbf9 Merge branch 'rework-the-memory-barrier-for-scrq-entry'
+d0a3b03b6cc39e1a9099d5a92c980d3bb45a7c58 can: mcp251xfd: add coredump support
 
---===============2893737938165552011==--
+--===============3092015929616746606==--
