@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 03 Feb 2021 13:49:37 -0000
-Message-Id: <161236017717.17765.7229228224130131609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Wed, 03 Feb 2021 14:04:18 -0000
+Message-Id: <161236105855.25864.390815584520667074@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: 82643a9be507bd20df98d38c8248299d1084ac74
-    new: 9c7a613c82692753a8ac48630c7af89f1805df2a
+  - ref: refs/heads/for-next
+    old: 4add5f175b1e4e71c06493f9a2c52490d2ea4365
+    new: 5680f50cd93cb58f2dc37f067da1043a3030fec6
     log: |
-         61653767371048c805ae8032951476c547d19e09 su: use full tty path for PAM_TTY
-         9c7a613c82692753a8ac48630c7af89f1805df2a login: use full tty path for PAM_TTY
+         5680f50cd93cb58f2dc37f067da1043a3030fec6 parisc: Replace test_ti_thread_flag() with test_tsk_thread_flag()
          
