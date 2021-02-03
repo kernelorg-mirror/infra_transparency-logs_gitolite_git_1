@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0234773867457951557=="
+Content-Type: multipart/mixed; boundary="===============2961077375189186372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 03 Feb 2021 15:14:31 -0000
-Message-Id: <161236527197.8985.2405430398410557764@gitolite.kernel.org>
+Date: Wed, 03 Feb 2021 15:14:51 -0000
+Message-Id: <161236529143.9168.8764557663049540463@gitolite.kernel.org>
 
---===============0234773867457951557==
+--===============2961077375189186372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-5.12
     old: 266917bd4a2184a5e558555d373d368810844c0b
     new: 363880c4eb36bd2a70104c165fbc7a6d49858a91
     log: revlist-266917bd4a21-363880c4eb36.txt
 
---===============0234773867457951557==
+--===============2961077375189186372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ cb728484a7710c202f02b96aa0962ce9b07aa5c2 dm writecache: fix performance degradat
 831475cc0b40f41c886ceb7b25de2598719a5478 dm crypt: replaced #if defined with IS_ENABLED
 363880c4eb36bd2a70104c165fbc7a6d49858a91 dm crypt: support using trusted keys
 
---===============0234773867457951557==--
+--===============2961077375189186372==--
