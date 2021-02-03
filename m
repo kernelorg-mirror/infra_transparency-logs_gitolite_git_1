@@ -1,57 +1,102 @@
-Content-Type: multipart/mixed; boundary="===============4921020399100799161=="
+Content-Type: multipart/mixed; boundary="===============2160266252597116665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 03 Feb 2021 14:58:47 -0000
-Message-Id: <161236432771.31131.1148410196271216351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 03 Feb 2021 14:59:22 -0000
+Message-Id: <161236436259.31371.14411205135445243218@gitolite.kernel.org>
 
---===============4921020399100799161==
+--===============2160266252597116665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 930c922a987a02936000f15ea62988b7a39c27f5
-    new: 94e6a5b9e3bbb0cec6850b3662b7e3d44a008371
-    log: |
-         d7a4bfcac9a5f229aebfe307280e773b5f565443 misc: bcm-vk: unlock on error in bcm_to_h_msg_dequeue()
-         94e6a5b9e3bbb0cec6850b3662b7e3d44a008371 misc: rtsx: Remove unneeded return variable
-         
+  - ref: refs/heads/rdma-next
+    old: 9161ed4cc86b55e9c62b653bd82647d4b4622c54
+    new: 44f5849755353498bcfc09de0d828671b7341628
+    log: revlist-9161ed4cc86b-44f584975535.txt
+  - ref: refs/heads/testing/rdma-next
+    old: 3ef758ff0420f13645c1adf4c77eb653c4fde245
+    new: e8f399d2d534430cb1b4a1fbaeeb985375c476f4
+    log: revlist-3ef758ff0420-e8f399d2d534.txt
 
---===============4921020399100799161==
+--===============2160266252597116665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9161ed4cc86b-44f584975535.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612364318 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1612364315-e37fabc5c562f75f3af90dba4d7bb851554e5fa5
+d286ac1d05210695c312b9018b3aa7c2048e9aca IB/mlx5: Return appropriate error code instead of ENOMEM
+131be26750379592f0dd6244b2a90bbb504a10bb IB/cm: Avoid a loop when device has 255 ports
+6504c772551e809b4cc21fa720d6bba703d5c199 IB/mlx4: Use port iterator and validation APIs
+904f4f647ec3e5b94c58d0484c6e94332293bc01 IB/core: Use valid port number to check link layer
+d6fd59e14ed2975d9b372876c45a09d76d1e70c9 IB/mlx5: Support default partition key for representor port
+4aab68853a7780c150bac1716253184d90244016 IB/mlx5: Move mlx5_port_caps from mlx5_core_dev to mlx5_ib_dev
+ad88288ba4a6e559c0574595150b9a64a0eda53d IB/mlx5: Avoid calling query device for reading pkey table length
+7ade81c381f980b69d10ca825f2736bc13b1c0f3 IB/mlx5: Improve query port for representor port
+361bef14bb8d56e738894c2faeea3e4335c40793 RDMA/core: Introduce and use API to read port immutable data
+e50ce5e9bf7fae01d2855a9f250c91f7a759a70f IB/mlx5: Use rdma_for_each_port for port iteration
+03b8f9b13e780fc844f9156c95b88bda1846a1f3 net/sched: Don't print dump stack in event of transmission timeout
+60c6ca2a915034c4ccea00fdd2fed53f7463fbbd RDMA/cma: Be strict with attaching to CMA device
+d86fb6b2de7f0bbdfa7ee01aa1a173a631e3d712 RDMA/restrack: Add error handling while adding restrack object
+9dc4a6419b7ae342451e332925230115fc54b4cd RDMA/restrack: Drop valid restrack field as source of ambiguity
+e5429cb6346afe329b504ea2489b6428bbeae484 RDMA/mlx5: Add ifc bits for new pattern dm type
+d94615f35d07fb4a84dbb2b6753cc9ecc94e4a96 net/mlx5: Add support for new pattern DM management
+8d4a7abc790285e3b947689c3cc5d411ca779838 RDMA/mlx5: Support allocating modify-header pattern DM
+b215f7768c90b47906ca7f97f7bd889ebcc35ea0 RDMA/mlx5: Support new type of ICM memory to register by MR
+f6e1f79c738d6d6b6c4a5078888a063b91ecd4be RDMA/core: Introduce peer memory interface
+f4457d88527c0aa9829512ee0cf51cf793ae61fc RDMA/mlx5: Cleanup the synchronize_srcu() from the ODP flow
+0d2b2c4f1b10406d623baee651b573284eff21f2 RDMA/ucma: Fix use-after-free bug in ucma_create_uevent
+4e0e07633455289488287da2bcff4977ca8bbf0b PCI: Add sysfs callback to allow MSI-X table size change of SR-IOV VFs
+c6f50e99f0c76562d4b6f789292df4b8568c1e2c net/mlx5: Add dynamic MSI-X capabilities bits
+fb29785b4f9db016f1cef268768fb57b0f365af5 net/mlx5: Dynamically assign MSI-X vectors count
+3c9a673a0325d3721dd5e39933d83d5c49446993 net/mlx5: Allow to the users to configure number of MSI-X vectors
+4f9ce38d8eff384a22c46e95dcccc39c4bb83d1b RDMA/core: Remove racy Subnet Manager sendonly join checks
+be278d842bb3245b9fa7f5aade7097021883afd7 ipv6: silence compilation warning for non-IPV6 builds
+e2d2c1125b74b54d73ca6cc5ee63cd0b90cc4495 ipv6: move udp declarations to net/udp.h
+b2ba9102bb3bc66f38b64e6b6198be0823c8fa9a net/core: move gro function declarations to separate header
+44f5849755353498bcfc09de0d828671b7341628 netfilter: move handlers to net/ip_vs.h
 
-930c922a987a02936000f15ea62988b7a39c27f5 94e6a5b9e3bbb0cec6850b3662b7e3d44a008371 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
+--===============2160266252597116665==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3ef758ff0420-e8f399d2d534.txt
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAauh4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7FgQALe2IHNXP7qCeH8VdcbU
-SoYVK3U/ejN9NAlxPA2KJDdb9S64JeKUUGRkMW/+b9MCw0vmb5G6m9vN1gVbdFVR
-+e6Y7G9klCuJ4Na7BMQS2l683q7E4diOMxtM6AVUNl1z3RN0mRluJN4wYWdSFXab
-VvblEfu9YMB5uYtVgwWMjuozfBVqE3D3+sK8xrrvZqUrZnaB67MtMx5h3BaZwHKx
-KtQhUnPmPgPa0tBVC9ThhP0tTu8GC+WhTAwpwhMnxYrwPajvO1ujfZ9lIQz3DxrL
-omred9RkJ2w11FeUkkgwD9pU8H1VBnwXk7TmI7K1hSOUb57yfaZZiKih2wDXuonO
-0foLrvrvaPz00IYc4HhaN5j3OB+vS2f8Rz0DStZvVeMSTVu8HDPqIxgJWjOrQTtK
-DUR3VYhM9Q0LJl7nbzbadNoGCZrUyDChhC6a3MCbk3LRwXdvggMQ4JRbng89BPn2
-MvZ3JJVSBo2URsWb7YK3HqpJfsZs1k1Hf3MUWrs5hriZKTKUeHGmo1vfYbTOXhPm
-kedV1b1Kc3ceEbOh2fmtYCAjBR4DkxBTUbFaTecaXWvdfurXp1gmgcniOv873twt
-CryGMNoqMI7Qf9dUyGgcZVTbfvCVgjpOB536rFNkq3Q73uPuPFx9Mriqn+u+fr/3
-/VtLLOd7BdYTu0ASwxgqkRjS
-=j1US
------END PGP SIGNATURE-----
+d286ac1d05210695c312b9018b3aa7c2048e9aca IB/mlx5: Return appropriate error code instead of ENOMEM
+131be26750379592f0dd6244b2a90bbb504a10bb IB/cm: Avoid a loop when device has 255 ports
+6504c772551e809b4cc21fa720d6bba703d5c199 IB/mlx4: Use port iterator and validation APIs
+904f4f647ec3e5b94c58d0484c6e94332293bc01 IB/core: Use valid port number to check link layer
+d6fd59e14ed2975d9b372876c45a09d76d1e70c9 IB/mlx5: Support default partition key for representor port
+4aab68853a7780c150bac1716253184d90244016 IB/mlx5: Move mlx5_port_caps from mlx5_core_dev to mlx5_ib_dev
+ad88288ba4a6e559c0574595150b9a64a0eda53d IB/mlx5: Avoid calling query device for reading pkey table length
+7ade81c381f980b69d10ca825f2736bc13b1c0f3 IB/mlx5: Improve query port for representor port
+361bef14bb8d56e738894c2faeea3e4335c40793 RDMA/core: Introduce and use API to read port immutable data
+e50ce5e9bf7fae01d2855a9f250c91f7a759a70f IB/mlx5: Use rdma_for_each_port for port iteration
+03b8f9b13e780fc844f9156c95b88bda1846a1f3 net/sched: Don't print dump stack in event of transmission timeout
+60c6ca2a915034c4ccea00fdd2fed53f7463fbbd RDMA/cma: Be strict with attaching to CMA device
+d86fb6b2de7f0bbdfa7ee01aa1a173a631e3d712 RDMA/restrack: Add error handling while adding restrack object
+9dc4a6419b7ae342451e332925230115fc54b4cd RDMA/restrack: Drop valid restrack field as source of ambiguity
+e5429cb6346afe329b504ea2489b6428bbeae484 RDMA/mlx5: Add ifc bits for new pattern dm type
+d94615f35d07fb4a84dbb2b6753cc9ecc94e4a96 net/mlx5: Add support for new pattern DM management
+8d4a7abc790285e3b947689c3cc5d411ca779838 RDMA/mlx5: Support allocating modify-header pattern DM
+b215f7768c90b47906ca7f97f7bd889ebcc35ea0 RDMA/mlx5: Support new type of ICM memory to register by MR
+f6e1f79c738d6d6b6c4a5078888a063b91ecd4be RDMA/core: Introduce peer memory interface
+f4457d88527c0aa9829512ee0cf51cf793ae61fc RDMA/mlx5: Cleanup the synchronize_srcu() from the ODP flow
+0d2b2c4f1b10406d623baee651b573284eff21f2 RDMA/ucma: Fix use-after-free bug in ucma_create_uevent
+4e0e07633455289488287da2bcff4977ca8bbf0b PCI: Add sysfs callback to allow MSI-X table size change of SR-IOV VFs
+c6f50e99f0c76562d4b6f789292df4b8568c1e2c net/mlx5: Add dynamic MSI-X capabilities bits
+fb29785b4f9db016f1cef268768fb57b0f365af5 net/mlx5: Dynamically assign MSI-X vectors count
+3c9a673a0325d3721dd5e39933d83d5c49446993 net/mlx5: Allow to the users to configure number of MSI-X vectors
+4f9ce38d8eff384a22c46e95dcccc39c4bb83d1b RDMA/core: Remove racy Subnet Manager sendonly join checks
+be278d842bb3245b9fa7f5aade7097021883afd7 ipv6: silence compilation warning for non-IPV6 builds
+e2d2c1125b74b54d73ca6cc5ee63cd0b90cc4495 ipv6: move udp declarations to net/udp.h
+b2ba9102bb3bc66f38b64e6b6198be0823c8fa9a net/core: move gro function declarations to separate header
+44f5849755353498bcfc09de0d828671b7341628 netfilter: move handlers to net/ip_vs.h
+e8f399d2d534430cb1b4a1fbaeeb985375c476f4 Merge branch 'rdma-next' into testing/rdma-next
 
---===============4921020399100799161==--
+--===============2160266252597116665==--
