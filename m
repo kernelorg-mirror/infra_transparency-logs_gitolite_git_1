@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pavel/linux-leds
-Date: Wed, 03 Feb 2021 14:35:02 -0000
-Message-Id: <161236290251.16609.6630008016849418797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 03 Feb 2021 14:48:11 -0000
+Message-Id: <161236369100.25491.11187691885289089997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pavel/linux-leds
-user: pavel
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/heads/for-next
-    old: 9a5ad5c5b2d25508996f10ee6b428d5df91d9160
-    new: d86464527681b72941939258ef68904cae6f8136
+  - ref: refs/heads/master
+    old: 7bd9fb058d77213130e4b3e594115c028b708e7e
+    new: a297f565f299f63c3d44f6fd3bafe06e2accf00d
     log: |
-         6c3384d8f408548df74d27bfa0c95c47988f1480 leds: lm3533: Switch to using the new API kobj_to_dev()
-         d86464527681b72941939258ef68904cae6f8136 leds: gpio: Set max brightness to 1
+         a297f565f299f63c3d44f6fd3bafe06e2accf00d Bluetooth: btusb: Fix typo and correct the log print
          
