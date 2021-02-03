@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 03 Feb 2021 21:04:37 -0000
-Message-Id: <161238627745.26419.14185472374711450832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Wed, 03 Feb 2021 21:04:54 -0000
+Message-Id: <161238629417.26559.8667264993355025361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/dev-test
-    old: cb7a78f688040d1beb0504484d5d3bdcbd15e387
-    new: e65920661708b7c0f3db45c9cd5d0095034ee37f
+  - ref: refs/heads/for-next
+    old: f736d93d76d3e97d6986c6d26c8eaa32536ccc5c
+    new: f69e8091c4a2ae291e1f55225e8116fef05dc156
     log: |
-         261eeb9c1585de4515a770b48a3c89672c08ae7f f2fs: introduce checkpoint_merge mount option
-         e65920661708b7c0f3db45c9cd5d0095034ee37f f2fs: add ckpt_thread_ioprio sysfs node
+         f69e8091c4a2ae291e1f55225e8116fef05dc156 xfs: remove the possibly unused mp variable in xfs_file_compat_ioctl
          
