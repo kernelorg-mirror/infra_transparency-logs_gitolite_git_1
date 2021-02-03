@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0063757903568399456=="
+Content-Type: multipart/mixed; boundary="===============5077270485780965662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 03 Feb 2021 05:28:25 -0000
-Message-Id: <161233010553.22317.2255487034367218321@gitolite.kernel.org>
+Date: Wed, 03 Feb 2021 05:33:59 -0000
+Message-Id: <161233043937.26328.9496252344032427447@gitolite.kernel.org>
 
---===============0063757903568399456==
+--===============5077270485780965662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/testing/net-next
-    old: a36dbc650c6a3dc7aaec13d16d635327a5c4b512
-    new: 1a13fd68e955b3072a4b4fda959efc92cecc8bac
-    log: revlist-a36dbc650c6a-1a13fd68e955.txt
+  - ref: refs/heads/net-next-mlx5
+    old: cb58a761239b95e84c22b78aa0e7a7ea9f9193e5
+    new: cecb2464c0331c5fc540313e251ae36eb565de92
+    log: revlist-cb58a761239b-cecb2464c033.txt
 
---===============0063757903568399456==
+--===============5077270485780965662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a36dbc650c6a-1a13fd68e955.txt
+Content-Disposition: attachment; filename=revlist-cb58a761239b-cecb2464c033.txt
 
 355845b738e76445c8522802552146d96cb4afa7 efi/apple-properties: Reinstate support for boolean properties
 5e6dca82bcaa49348f9e5fcb48df4881f6d6c4ae x86/entry: Emit a symbol for register restoring thunk
@@ -272,5 +272,20 @@ a1a809c4892aa48c465f66b57c608fb5c05a2222 Merge branch 'mptcp-add_addr-enhancemen
 fca23f37f3a7f6296d1ae98606871fd7ed565a0b inet: do not export inet_gro_{receive|complete}
 32d1bbb1d609f5a78b0c95e2189f398a52a3fbf7 net: fec: Silence M5272 build warnings
 1a13fd68e955b3072a4b4fda959efc92cecc8bac Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
+3875755df5570f3f0dea3918be51221d050a67ff net/mlx5: Don't skip vport check
+e4d4870419b36d0c689a797c6916037888369f70 net/mlx5: Remove impossible checks of interface state
+55042613352370adb96d016617b7867c26387844 net/mlx5: Separate probe vs. reload flows
+e1799ec2e5a112dbf40284d2f1f3cb03221393f6 net/mlx5: Remove second FW tracer check
+9c262d5b3ddae01a308a136572883188afbd5374 net/mlx5: Don't rely on interface state bit
+5b7e884ee7955c3144689b0c9f92b4493fc4fe34 net/mlx5: Check returned value from health recover sequence
+7166a456f4577641450e9758c6ac255c1b1210b9 net/mlx5: Fix devlink reload LOCKDEP warning
+4275c33204b391d8d70d74f941dcacf7042cc83d devlink: Expose port function commands to control roce
+511a4ab958bb41f1f28eb71f28932ffc45b06be6 net/mlx5: E-Switch, Implement  devlink port function cmds to control roce
+b8060c78d38fd00e7b7aafbb8da3fd0fe4debd02 net/mlx5: CT: Add support for mirroring
+ff117780155491b3d42495b24c1c2dbd66d87ebf net/mlx5: E-Switch, let user to enable disable metadata
+6f9c5e74fe40202c8a73c9c3c5f8687aac931949 net/mlx5e: CT, Avoid false lock depenency warning
+eed40ff5038e17f6c7fc5d16806883ba77dab1ec net/mlx5: Display the command index in command mailbox dump
+886c6a89f62e1acf4346037716653c43cac00d88 net/mlx5e: Allow to match on ICMP parameters
+cecb2464c0331c5fc540313e251ae36eb565de92 devlink: Fix dmac_filter trap name, align to its documentation
 
---===============0063757903568399456==--
+--===============5077270485780965662==--
