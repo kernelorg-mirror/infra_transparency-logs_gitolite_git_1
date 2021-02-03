@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3755271994247334343=="
+Content-Type: multipart/mixed; boundary="===============5044787267475798780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 03 Feb 2021 17:20:03 -0000
-Message-Id: <161237280355.20071.14666567154188095753@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Wed, 03 Feb 2021 17:20:08 -0000
+Message-Id: <161237280830.20510.6228576883616221731@gitolite.kernel.org>
 
---===============3755271994247334343==
+--===============5044787267475798780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 3aaf0a27ffc29b19a62314edd684b9bc6346f9a8
     log: revlist-88bb507a74ea-3aaf0a27ffc2.txt
 
---===============3755271994247334343==
+--===============5044787267475798780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ a9925628727bbbfbd7263cf7c7791709af84296e Merge tag 'net-5.11-rc7' of git://git.k
 7d36ccd4bd07825775b512f654566d3e89e9cfd0 Merge tag 'dma-mapping-5.11-1' of git://git.infradead.org/users/hch/dma-mapping
 3aaf0a27ffc29b19a62314edd684b9bc6346f9a8 Merge tag 'clang-format-for-linux-v5.11-rc7' of git://github.com/ojeda/linux
 
---===============3755271994247334343==--
+--===============5044787267475798780==--
