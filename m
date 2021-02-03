@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7077607269699022766=="
+Content-Type: multipart/mixed; boundary="===============1709931634411765743=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 03 Feb 2021 21:06:11 -0000
-Message-Id: <161238637185.28346.2341187513500167783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 03 Feb 2021 21:06:18 -0000
+Message-Id: <161238637868.28471.5235858656139778199@gitolite.kernel.org>
 
---===============7077607269699022766==
+--===============1709931634411765743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.12
-    old: be6be67e135e59fb176b1e2e9d47a7436fb161d1
-    new: 1c4273a5b1273028f7c694724c001d9dea253ed9
+  - ref: refs/heads/for-5.12
+    old: 337710b3121a4f4183c38ff056f6f9ef516cc34f
+    new: 41a8a027f4d3f81d83b8942ef29f84223ca35ffc
     log: |
-         e01a03db74a88084fb91a4ff18bb8d47a1e12f62 ASoC: Intel: catpt: remove unneeded semicolon
-         e04e7b8ccd4912e6c823bf7e66f302a53396fb77 ASoC: soc-pcm: tidyup pcm setting
-         7fc6bebd5831a788a74e019e39c43c014a96a110 ASoC: soc-pcm: add soc_get_playback_capture() and simplify soc_new_pcm()
-         2b39123b134e10a3817156bd9b157c9b8f950d6f ASoC: soc-pcm: add soc_create_pcm() and simplify soc_new_pcm()
-         4b260f425497b105acc2baa9d97ef781ef0c667d ASoC: soc-pcm: use snd_pcm_hardware at dpcm_runtime_merge_xxx()
-         dd5abc7834ffae1ca6c399583353e00886817181 ASoC: soc-pcm: fixup snd_pcm_limit_hw_rates() timing
-         1c4273a5b1273028f7c694724c001d9dea253ed9 Merge series "ASoC: soc-pcm: cleanup soc_new_pcm() and bugfix" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
+         41a8a027f4d3f81d83b8942ef29f84223ca35ffc regulator: dt-bindings: Document charger-supply for max8997
          
 
---===============7077607269699022766==
+--===============1709931634411765743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1612386323 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1612386369-f131e07f3c64a5cea9f43415e61b19f12615042c
+pusher C3F436CA30F5D8EB 1612386330 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1612386376-f0517d7621fcb488b2289160dbb0fc1c982a8eb4
 
-be6be67e135e59fb176b1e2e9d47a7436fb161d1 1c4273a5b1273028f7c694724c001d9dea253ed9 refs/heads/asoc-5.12
+337710b3121a4f4183c38ff056f6f9ef516cc34f 41a8a027f4d3f81d83b8942ef29f84223ca35ffc refs/heads/for-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAbEBMACgkQJNaLcl1U
-h9AWkgf+NvDl79Fj0ahKFRW3BfskknhgIQU2zbbbRP3m4tcF9MYCWvkAT1SB+I+1
-dg2oZDT/ufL50oE/B+OvMxiMrvrUV+amJI2BzEqA3o1SOt7tl5JaiymalEf8C9ck
-vujfGdM4SJjnahSDoKgpr7JQ+GYxoMStX7MnM3UnvDyPQlO+wzwPZem8hq/R6oLf
-SqGEU3Fh6SvkFxamVTQilDCtak1pb9wrXBrnxU/QAFinS/nzP9kbvjJ1SGKh2RNR
-mgvoYGtzh5BhEPhvj2gtAFj0+Axo+6tFjwDU6nv1uCdQfaEsHPf1wYgiBtNabu+7
-PjPfNYp/5H1DHGEuWFLYWRtPe1n/rA==
-=yu8D
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAbEBoACgkQJNaLcl1U
+h9A1iQf/SMEFWRCmCvfcc3byRfODl6p3MrEMu3Q4vHpGA12kWEUBiyiT6boaatj1
+uICJHPVDmTkCrhJJpx4+NVQNKvh2tMfpo7LAf+/jfOn7bgT7fhYwA0bwhI2tynZm
+B8kptjC9iaNbMCJt9dIhX8cX62I3/Bvi9PfOeYPhJxN7z0m7zunUGJI7xDg3KWKD
+ZJicGjZ5s9kQNelSv4fUJhuhJcR8Vy1bPM2bTrdyq745TlKSLMJNhLWQ6E3kX7IU
+/yXg+vskTFu090bZUgfft/9iAZLLHEgjc+S1Usy08ufZ7R715OCFq2c0YD051hdg
+qWR1JzCt2u1WvNNIR3ZT7nT59aX0TA==
+=2uwe
 -----END PGP SIGNATURE-----
 
---===============7077607269699022766==--
+--===============1709931634411765743==--
