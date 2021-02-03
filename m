@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 03 Feb 2021 03:03:45 -0000
-Message-Id: <161232142524.30471.2789551345210842651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Wed, 03 Feb 2021 03:13:52 -0000
+Message-Id: <161232203277.4976.9188323154456128697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
   - ref: refs/heads/master
-    old: fca23f37f3a7f6296d1ae98606871fd7ed565a0b
-    new: 32d1bbb1d609f5a78b0c95e2189f398a52a3fbf7
+    old: 9c740a5e26a5faf4440ef19e659b2c8ffe9330d2
+    new: a8392c96e5573251407c16006a437cc3ab705164
     log: |
-         32d1bbb1d609f5a78b0c95e2189f398a52a3fbf7 net: fec: Silence M5272 build warnings
+         a8392c96e5573251407c16006a437cc3ab705164 Add some CGO_ENABLED=0 documentation for the Syscall functions.
          
