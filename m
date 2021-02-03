@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4191323410407891389=="
+Content-Type: multipart/mixed; boundary="===============0536902674984545744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 03 Feb 2021 23:50:45 -0000
-Message-Id: <161239624592.9616.10023010479569061434@gitolite.kernel.org>
+Date: Wed, 03 Feb 2021 23:51:27 -0000
+Message-Id: <161239628772.9814.9772153182616846951@gitolite.kernel.org>
 
---===============4191323410407891389==
+--===============0536902674984545744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 0e1d6f55a12e47942ce207dfb93e23049b454c9e
-    new: 8a61bbfe88812d1b539480fa73c0d579d70c2bb7
+    old: 8a61bbfe88812d1b539480fa73c0d579d70c2bb7
+    new: d021e0694d77ee3cdc5d3fca2c8d53ae7575499a
     log: |
-         5ae01e760d7128682f4e1b7fa2c7fc7acc254db7 dt-bindings: usb: generic-ehci: Add missing compatible strings
-         8a61bbfe88812d1b539480fa73c0d579d70c2bb7 dt-bindings: usb: generic-ohci: Add missing compatible strings
+         d021e0694d77ee3cdc5d3fca2c8d53ae7575499a doc: devicetree: bindings: usb: Change descibe to describe in usbmisc-imx.txt
          
 
---===============4191323410407891389==
+--===============0536902674984545744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612396237 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612396278 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1612396236-182728780282b04348a3ecef7da20e9277b7e4d8
+nonce 1612396278-911ca5a530fcbd96e3b419e95e4fc6eab7c56af2
 
-0e1d6f55a12e47942ce207dfb93e23049b454c9e 8a61bbfe88812d1b539480fa73c0d579d70c2bb7 refs/heads/usb-testing
+8a61bbfe88812d1b539480fa73c0d579d70c2bb7 d021e0694d77ee3cdc5d3fca2c8d53ae7575499a refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAbNs0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n+EP/2FpPxUODy7qpGHzXPfh
-+aVwiTpf+EWxKLcasIZ49CFhNZViFZ3omfucwZOfdq6eKG29T5cBQY1fJVtYCFuG
-R0+C8L7LM0HPHDYAga7IhnELJak56uaEA4X8a5kcD9soYM87zi1Be3QA0tecpyqJ
-RybiOm79SVEFqKTWYOLETqbO5T3JO10wAbijUy2+Y8N+V3Sto2Du8g2ea++qttCE
-Ru+RxmIdvFGVcgltIot+/wAHirrEcUQPwo73dFjXxM1zV13CZysMbC/+uz4TK+SJ
-wCciQIULNdiOi6jdop2vLvR5pIV6xAsfMQEHEe/8CUwzljLb2zXFBABx3caGWqMm
-lK+M9+Hai+VP2Ognr0EkZbiT3mB7R1FdGJwBI7AmStElXOxcQSohSa4o4mujYHPo
-yUuDJ19XEzMrsJRl5iYmuve01LOGXAzI5s8G7/u5bblMmqJl4Pi/TAAYPT/RcLm3
-XOyYcAdtzYmUi/QzIWS1FrYoVLRgYwU0u9Px8y1A0oIbqz1v64ZyDfw4V6nj95sL
-LK/TWJAQOsj65hHbkfLyKeHtUDpW1O+Qm9zNwe8A4S09bwmw3V/5l7sKEsgC5IR0
-XW9+whmkd/1MFJFZARJKB5wbBYpN2JXiZUJbRwSdV4uFHHFaACLRSpZjTGFeU6Sx
-9d2t/ddMse0viabtvI+Gjw0H
-=scaY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAbNvcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/1UP/0/dymslVJ4oDF0DXX1z
+R1/6kzu862/2SFYJtw9UxpNr4fo6XmCGjkTKEVe/mgLZtrZaAApT9V9mrX4gJVr/
+sv/1J+1EBQMarQ2/pkvLxSYXdw+z+DCsIUtHmkEoNneKBTCevXuMxp/o5FzbgK8n
+iPDK4KAKsSEsALGqInjqb2l23SO6qH8skxDltCcLz+7Rnm+kuPxTTrpck1UYmlUZ
+0jXCg4swJDXXywWyluN+MTAzAZHewbLoEniE5gyXDIovA1jF6B2bmiZX2MPbr6Mi
+LF4EyVqCNMpp6Re0bwH1gZwwGbCc99K6iWZ0fsySdtxegvzFWDJ1bZoF3HCspH3P
+6XmHh+2jMFkpNfW6zRVnejmFayTGYVxdZb7VD8whMa04F1pKc88hOyWBaQ4VHOEm
+6RhEQxBCHYboBctx7TGxV6/zNxbKQDgk5t7qCC5fNjtaHo4nNKfz3ZbekNsYJiJz
+vAz5EoJoddIC3gt97XYy6OAFHntNVcBv9SuX6OU2NDCRkWjM0aN8BZnfSExosoqE
+kcTfw4hzZ6eVjSycdB5/MRi3v5ycIEpJwq/90xUE4MtEFF61GpLoBToaPVm3HPa7
+OExtroGeUS14I5gDD0HfPd9ZAcdXkPRxtFiVhnME5YIzSvmRt0CBeJd86TZHTOsR
+uWisAIEaOlmAYOTluSybiejE
+=gMB9
 -----END PGP SIGNATURE-----
 
---===============4191323410407891389==--
+--===============0536902674984545744==--
