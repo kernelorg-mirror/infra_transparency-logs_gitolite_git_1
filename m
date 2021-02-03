@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1943473392125719158=="
+Content-Type: multipart/mixed; boundary="===============6912145264625562167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 03 Feb 2021 12:14:30 -0000
-Message-Id: <161235447006.24670.14416902449760238681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 03 Feb 2021 12:15:17 -0000
+Message-Id: <161235451736.26346.7349374999461331634@gitolite.kernel.org>
 
---===============1943473392125719158==
+--===============6912145264625562167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: fa707a580e77765b968925e4135f8d8c887eb38b
-    new: 60accc011af0ff869875b1ded81cbd0948267f05
-    log: revlist-fa707a580e77-60accc011af0.txt
+  - ref: refs/heads/usb-linus
+    old: 3241929b67d28c83945d3191c6816a3271fd6b85
+    new: d4a610635400ccc382792f6be69427078541c678
+    log: |
+         d4a610635400ccc382792f6be69427078541c678 xhci: fix bounce buffer usage for non-sg list case
+         
 
---===============1943473392125719158==
+--===============6912145264625562167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa707a580e77-60accc011af0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-bfc838f8598eab49d7d3d7557e90a7a0ee9b4464 drm/gma500: Convert to use new SCU IPC API
-25ded39ad064b06757d00609c36c85ab2312a94b drm/gma500: Get rid of duplicate NULL checks
-5f7582aa2d3c2ea0a9c9be17bcb53d29c0417ae5 gpio: intel-mid: Remove driver for deprecated platform
-aee25798acf00978a2d9d39ae8b2c2353757d01d gpio: msic: Remove driver for deprecated platform
-bbb284c007b3be59aed94a202a20c1be3e942caf platform/x86: intel_mid_thermal: Remove driver for deprecated platform
-ae1527948f67d4b8a61f586f792d0971ea44bc92 platform/x86: intel_mid_powerbtn: Remove driver for deprecated platform
-c5158358dffc8c7962f412c2c89fcce4e5fff96f rtc: mrst: Remove driver for deprecated platform
-1b5b5b4eb52216af05ae4eebbe2efebed4f15a1c watchdog: intel_scu_watchdog: Remove driver for deprecated platform
-f285c9532b5bd3de7e37a6203318437cab79bd9a watchdog: intel-mid_wdt: Postpone IRQ handler registration till SCU is ready
-18365d686e1ee953983e04b7beca4362bff56297 platform/x86: intel_scu_wdt: Move driver from arch/x86
-55627c70db6ad41371ed07a64c6e58d258ab0ae9 platform/x86: intel_scu_wdt: Drop SCU notification
-a507e5d90f3d6846a02d9c2c79e6f6395982db92 platform/x86: intel_scu_wdt: Get rid of custom x86 model comparison
-a40f530e77df61d8c91b24efbd357bda43bd3f14 Merge tag 'ib-drm-gpio-pdx86-rtc-wdt-v5.12-1' into for-next
-2691d0ae668ab9d9f3f275ac6ed6029862780084 platform/surface: aggregator: Fix braces in if condition with unlikely() macro
-35d8a973fe4d38afee944db636c3d2b1df3741a7 platform/x86: intel_pmt: Make INTEL_PMT_CLASS non-user-selectable
-f3f6da5014dea3cc005b36948abe3664b5d1f7d3 platform/x86: intel_pmt_telemetry: Add dependency on MFD_INTEL_PMT
-fdd3feb37e36bec2ad75d76f8ac4d0273c5c0a91 platform/x86: intel_pmt_crashlog: Add dependency on MFD_INTEL_PMT
-ae5919d349408e1eeca5dbb5dafe3511464b7e74 platform/x86: touchscreen_dmi: Add info for the Jumper EZpad 7 tablet
-60accc011af0ff869875b1ded81cbd0948267f05 platform/x86/intel-uncore-freq: Add Sapphire Rapids server support
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612354508 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1612354506-af12cadee18d5a39effb875d8eea51520cd537e6
 
---===============1943473392125719158==--
+3241929b67d28c83945d3191c6816a3271fd6b85 d4a610635400ccc382792f6be69427078541c678 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAak8wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GiEP/0VSGpGw72qs0MvzTnz/
+o/SFLhjUYmn95sLzuxlw6jRiFNTx/xonO4PEiBIwpLlSAvEpFibaMV6jf26HH4nT
+m4LAitZKUqfjomhknOTTrxKHtY4spiw3lIuySyIaIdTMq/4qOa9BG0+MZFL46Uj0
+oIU4u50JZ20aiFHjtmEXbNAPhxEArTqfLA35s6XCEdVsbwWDd+IqRxQagILFXJ8I
+8aO58q9+X8+9YdNQDbqRPUjQlL+ZQqVdyeT9o7n20NpqaljcgLNwaY+NMyL4lQcJ
+CxYTdAf30xapMU76OyKlVAa6UCAwH3zKyHfSXqbeFlH01YwmZNhjY5cTPwvpMKF+
+ZLufUazPkQLghGtdgObC2Mi9iAJPOc4sEqZgkqO1sMY9jWMD2JICSa/fstj+33I5
+bM3d7/rm9eX3OiaSDakOHD8hYgca+uFVawJfWzbQ5DO9KxWVyNj1m966EifV5yfh
+Ru13JsFTsnRr1hr8VI92tSC3QfgUx16dDV3FLFToUzxSOdQ8gx922nk1zLO5dl8w
+/AFfQBX7lUsFWVIn+mo/76cH/5joxmEcXmXBsy8Gc8jcr7nrKnaBCGQf8tftMIUA
+UjLBH+wliE3Dvy/4qfeS4nnnyxYPv7Qd4S8WKwGyADxqHmvV+LPs9+ZpZEMBUjGM
+77HJEr2E9zLveQmAegZDs5mn
+=V7Rn
+-----END PGP SIGNATURE-----
+
+--===============6912145264625562167==--
