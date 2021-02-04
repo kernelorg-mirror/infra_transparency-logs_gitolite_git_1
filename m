@@ -1,41 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 04 Feb 2021 14:50:03 -0000
-Message-Id: <161245020374.11497.2527771321269792623@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8091882747603504810=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 04 Feb 2021 14:58:13 -0000
+Message-Id: <161245069346.15188.10854281140379993493@gitolite.kernel.org>
+
+--===============8091882747603504810==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12/drivers
-    old: 0d7389718c32ad6bb8bee7895c91e2418b6b26aa
-    new: ee8f353b1591cef4a29cddeb379c1503559f474e
+  - ref: refs/heads/master
+    old: 8b7becf0ca862c5e29ec6e75a4b525410f2e3b30
+    new: e206221e523cc348424051dbf38d6caa9f4e8c1e
     log: |
-         c5eec74f252dfba25269cd68f9a3407aedefd330 md/raid5: cast chunk_sectors to sector_t value
-         8a0c014cd20516ade9654fc13b51345ec58e7be8 floppy: reintroduce O_NDELAY fix
-         1dced56c3a788ba54df439c004e555164ab90642 Merge tag 'floppy-for-5.12' of https://github.com/evdenis/linux-floppy into for-5.12/drivers
-         203c018079e13510f913fd0fd426370f4de0fd05 Merge branch 'md-next' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-5.12/drivers
-         ee8f353b1591cef4a29cddeb379c1503559f474e block: remove skd driver
+         e206221e523cc348424051dbf38d6caa9f4e8c1e 5.10-stable patches
          
-  - ref: refs/heads/for-next
-    old: 1eea73eaca151c5d1484410cf5bdcd8bca924e52
-    new: e081a1d397314d33e37acd27563619d9897a97e4
-    log: |
-         c5eec74f252dfba25269cd68f9a3407aedefd330 md/raid5: cast chunk_sectors to sector_t value
-         8a0c014cd20516ade9654fc13b51345ec58e7be8 floppy: reintroduce O_NDELAY fix
-         1dced56c3a788ba54df439c004e555164ab90642 Merge tag 'floppy-for-5.12' of https://github.com/evdenis/linux-floppy into for-5.12/drivers
-         203c018079e13510f913fd0fd426370f4de0fd05 Merge branch 'md-next' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-5.12/drivers
-         c9986ee27a03a99a32060362441e2c909bd5451e Merge branch 'for-5.12/drivers' into for-next
-         ee8f353b1591cef4a29cddeb379c1503559f474e block: remove skd driver
-         e081a1d397314d33e37acd27563619d9897a97e4 Merge branch 'for-5.12/drivers' into for-next
-         
-  - ref: refs/heads/io_uring-5.11
-    old: 3a7efd1ad269ccaf9c1423364d97c9661ba6dafa
-    new: d7e10d47691d1702db1cd1edcc689d3031eefc67
-    log: |
-         d7e10d47691d1702db1cd1edcc689d3031eefc67 io_uring: don't modify identity's files uncess identity is cowed
-         
+
+--===============8091882747603504810==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612450692 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1612450691-eb04777b05e4d1f84a6e8c1f90c51b085e3dce46
+
+8b7becf0ca862c5e29ec6e75a4b525410f2e3b30 e206221e523cc348424051dbf38d6caa9f4e8c1e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAcC4QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QMkP/0I0LNmWqjL/R/imdi99
+qo+WQHfEbqpd1gEG17piTHo/icF6QIXNE8WZvp/yJo/r8AwiyTNVDHGAimrTBUwM
+N711P+ZYn1AG7uvt4A+PWC0m/hT3g5dXd+E7ngl9B/rINDJOb4j4957nueeMGvV0
+lbgsBq9GI5lVCtpifTz/1VEGvix4ILqGXPYtT/I2Q54epLBfGvatisBNC4O2YfK3
+ddzRvAWvGwCepFyHkCj+p7Ml2+mIrX46MRC6ACQiNDLy5HP3Dvi2l13VEtpAkVTA
+TFj1AxPpj+PRuKIkei/y05VB1Q+RCSnoI38sgoxefGddS/PN2OAJrU/GGoTIOYUd
+WikbK1gzEWdAr3spk2tK4OMGgZ47BffEiuR/bQ8P04DYJr5P8WVvZSYDarx8zrir
+hk50RORN+4JXmEg8u2zat6PFu1pRxabtObe/qjEq1qFcG4ft89ARxwvH4R/IgrOQ
+esAFAg4iOqNU/PC1d4Ktg8SCZMckzV2kprwcesjhtY1aPLbdkEBtflJveZnaN9Xe
+yfk6UMSGaCZYtDcDuQluKY7gKSlyv/zLG2ZRBMFhlOJHlhxKNoOu/AnynQv9cZW8
++ryyb4pyYdRB7rmT11BgVoCJM09gMHb1ircHZHxrG1Mr/aONVK5ziWs06aEasIW/
+JjCD5L1qEl9sDn/BID6c10+S
+=q1jB
+-----END PGP SIGNATURE-----
+
+--===============8091882747603504810==--
