@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 04 Feb 2021 11:37:07 -0000
-Message-Id: <161243862787.20467.6618999901552486767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Thu, 04 Feb 2021 11:41:37 -0000
+Message-Id: <161243889703.24607.11210976933657997149@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: 8ece53ef7f428ee3f8eab936268b1a3fe2725e6b
-    new: f22fecaf39c30acce701ffc3e9875020ba31f1f5
-    log: |
-         f22fecaf39c30acce701ffc3e9875020ba31f1f5 x86/ptrace: Clean up PTRACE_GETREGS/PTRACE_PUTREGS regset selection
-         
+  - ref: refs/heads/pci/microchip
+    old: 0000000000000000000000000000000000000000
+    new: e9ddffa6a483165edfd4a76b2ee6ed4d55ef3a9e
