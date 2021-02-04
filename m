@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5205914435519284514=="
+Content-Type: multipart/mixed; boundary="===============8401082642895764231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 04 Feb 2021 15:11:43 -0000
-Message-Id: <161245150312.25009.13087900893138151064@gitolite.kernel.org>
+Date: Thu, 04 Feb 2021 15:11:51 -0000
+Message-Id: <161245151151.25105.8222608731310334353@gitolite.kernel.org>
 
---===============5205914435519284514==
+--===============8401082642895764231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
-    old: c52eef0b6ee1a3c57f6fccb30ea0b5ae19358471
+  - ref: refs/heads/for-next
+    old: cb18a7979a35f5f14cab49715e97efe7700fd349
     new: eb90b4f8fb8b73532722b5c29db50faf10b21ab1
-    log: revlist-c52eef0b6ee1-eb90b4f8fb8b.txt
+    log: revlist-cb18a7979a35-eb90b4f8fb8b.txt
 
---===============5205914435519284514==
+--===============8401082642895764231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c52eef0b6ee1-eb90b4f8fb8b.txt
+Content-Disposition: attachment; filename=revlist-cb18a7979a35-eb90b4f8fb8b.txt
 
+a38f3fbc30ec28527aa7dd98d3f4ed24708e7818 media: renesas-ceu: Use of_device_get_match_data()
+0e658fdd4b2d6fd8f3b83f27fd075b7b2a1d686d drivers: net: davinci_mdio: Use of_device_get_match_data()
+d825f0bea20f49a8f413a6acd7c4100ea55edf6d serial: stm32: Use of_device_get_match_data()
+9243eadc3a13c1332a80a8254e48865b09df5339 usb: usb251xb: Use of_device_get_match_data()
+6e09d75513d2670b7ab91ab3584fc5bcf2675a75 hwmon: (lm70) Use device_get_match_data()
+c52eef0b6ee1a3c57f6fccb30ea0b5ae19358471 of/device: Don't NULLify match table in of_match_device() with CONFIG_OF=n
 d7839ddfefc143d4113987296ff3abf96ac08f20 dt-bindings: iio: dac: Fix AD5686 references
 ce598680a22de43ebe0b0e86f6b45bf3a4f9cc4f dt-bindings: thermal: sun8i: Fix misplaced schema keyword in compatible strings
 b775f49fbc8b07b0c3a4079e6f09f192eaf6e92f scripts: dtc: Fetch fdtoverlay.c from external DTC project
@@ -38,4 +44,4 @@ ce88c9c79455fb69c6843b4bd30196fccb978a57 kbuild: Add support to build overlays (
 9183908e70e913d2db052588172968da55d82af5 dt-bindings: Fix errors in 'if' schemas
 eb90b4f8fb8b73532722b5c29db50faf10b21ab1 Merge branch 'dt/dtc-sync' into dt/next
 
---===============5205914435519284514==--
+--===============8401082642895764231==--
