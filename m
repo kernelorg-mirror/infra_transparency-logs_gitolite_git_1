@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8152575992843131211=="
+Content-Type: multipart/mixed; boundary="===============6111144285959900637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 04 Feb 2021 06:24:34 -0000
-Message-Id: <161241987456.10639.17515903256292431871@gitolite.kernel.org>
+Date: Thu, 04 Feb 2021 06:29:39 -0000
+Message-Id: <161242017967.13452.8188551309171776775@gitolite.kernel.org>
 
---===============8152575992843131211==
+--===============6111144285959900637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 64eaa0fa66ac55965f793a8b65730299854e55cd
-    new: d021e0694d77ee3cdc5d3fca2c8d53ae7575499a
+  - ref: refs/heads/usb-testing
+    old: d021e0694d77ee3cdc5d3fca2c8d53ae7575499a
+    new: 2a1673f0f1de78b146bfdbe8c8a773c4a0499790
     log: |
-         0e1d6f55a12e47942ce207dfb93e23049b454c9e usb: pd: Update VDO definitions
-         5ae01e760d7128682f4e1b7fa2c7fc7acc254db7 dt-bindings: usb: generic-ehci: Add missing compatible strings
-         8a61bbfe88812d1b539480fa73c0d579d70c2bb7 dt-bindings: usb: generic-ohci: Add missing compatible strings
-         d021e0694d77ee3cdc5d3fca2c8d53ae7575499a doc: devicetree: bindings: usb: Change descibe to describe in usbmisc-imx.txt
+         2a1673f0f1de78b146bfdbe8c8a773c4a0499790 usb: pd: Reland VDO definitions of PD2.0
          
 
---===============8152575992843131211==
+--===============6111144285959900637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612419860 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612420165 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1612419859-a70aca908c0131d0dfcc736656d1d40a73a34206
+nonce 1612420164-dc805fb75dda0b8df0c448bdd716e287c8d543a1
 
-64eaa0fa66ac55965f793a8b65730299854e55cd d021e0694d77ee3cdc5d3fca2c8d53ae7575499a refs/heads/usb-next
+d021e0694d77ee3cdc5d3fca2c8d53ae7575499a 2a1673f0f1de78b146bfdbe8c8a773c4a0499790 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAbkxQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uU0P/1RK90zbQwUx2GGrgsU2
-PHNOH4atmkGzV5+nopdAxC4xhOmXHqH9356xoin3b8CQUOwcH+KGiCDTo/3Pxpo6
-mxNctQZHych8TODjx5KrBVj2LmdBlJ7sG/S/0cn4TGoguujCnSpKt5zkPj3o4/gT
-FJGsMHZF1mEe80xySnKu/HbDEOno1QKJvUUU3lAZfjBJHWoCJhZAnfzA7R4VNXz0
-Ccyo4Y2dJLv2EeB7qQHR5M3qQeyKUw+dUcOl/3pgvIklIjd19K0kpwJHycAVZeuN
-+h1qtPm8JJ1xIEHNhKMSjxStqi7pv2mXVWiUV9vTcBrVj38/ffM8s4GxSgZ6tbOv
-51miIcIlNM6QlB0lX6eCs/5tc4c8Pcbz/6sn/I3aSVGav4OeX4GoRv4RrGY9Zf9Z
-/FYhZrZaEWXrus4Sw6CcJPYJQXuBrmnxzTAN2lbvrPQNMf3Z9VFhZI8HqsgQVnH1
-KP9K+nS3uUtSKBuHSnJMUXS1v9rSOE/mRAnqKp7KRlZetzhdaFyBxVPyyd2zxUPM
-3I1pMtB5HKn/vxMw26WFU9t78B47hYWdUZoJKGS4lHINMTYyOyXrJ/DfZYiXMkDa
-J7PWCu38gIRWHtdsqPu/NIO1OuMHiaF1XDL9c7Vem2KjcVKiop7O/LJ3cJs8Qmr0
-IlGMt7ck9QKofCX35gSMe1an
-=crDt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAblEUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+18oP/ikb21L7etrtHmDZIJRt
+lqk1SbSP3kfyKu+Qhrfhw3ud2I8a+1iVZ09jmPP9/QC2YzIYAqhjKzKfARw/Rgng
+xe8LYH4eMHVwxFTPccRfeNOyI9AELm93dnB746Wy2UGKsHZr6u8cK0FUmk6hOlsZ
+K69xfJf18B5L2q0Jv2VNiElAkSpddXE6NtlXUSf2PemyB4bFYSykg+OAvd9EWUtD
+r4BHnNuhYmKJ/QG9Kq1FJMT6QX3cRb42vyb73pqhPotE1aYQMwmvAyRF5t206Urp
+zqEQqjSb9q5Lgy/RiJ6GwmRJ46OrXMAz1S66lSomnXVrqkJi0IUHwmlhhmwdOtYt
+7huXT/BtbAagSmGj73VZ8u/eIIdtSr/Fp99RM4CXU2YhAHe6JdqwfXva0f6PJ6Vq
+coC8ukJdgy3wf/swI0z8Cb401UQ9kY1ydRRUWPffs8BoZlCYHQtWkPzoMnUHcDMJ
+jA9sa7jx7wC5ITb0MwX+j4XlGEJKFSQC6o5n/yb2wtVDBt1K/XRLs4ogA9dkN5bW
+Kp2o4teMqm5ECbjixOPUu/JjZdcsD2yK5LnOxGwXwGccZxH7UKFr2bfw6z8fipQN
+ZGGi8MikiYkNWm9atIyOSNMuG45b9IvOQwoNJBrNK0vCmw2ooviIVGa5yuR3cUFl
+xOiFs1q5+5CBukvaNemNMzGE
+=m02Z
 -----END PGP SIGNATURE-----
 
---===============8152575992843131211==--
+--===============6111144285959900637==--
