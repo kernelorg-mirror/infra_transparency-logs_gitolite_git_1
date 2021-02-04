@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 04 Feb 2021 11:22:56 -0000
-Message-Id: <161243777682.12072.11112229675918074830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 04 Feb 2021 11:37:07 -0000
+Message-Id: <161243862787.20467.6618999901552486767@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: 1d614920318b914f86c1fec2adec06ad2f7c3f55
-    new: 86ad9a24f21ea7aac7deed06fe9556392568d88a
+  - ref: refs/heads/x86/cleanups
+    old: 8ece53ef7f428ee3f8eab936268b1a3fe2725e6b
+    new: f22fecaf39c30acce701ffc3e9875020ba31f1f5
     log: |
-         7d8658ef65a4f891d0cff6340fa717b378384642 OPP: Add function to look up required OPP's for a given OPP
-         26f9c7cc42a6dc036edf871544fd0e6b3a0601c1 PM / devfreq: Cache OPP table reference in devfreq
-         86ad9a24f21ea7aac7deed06fe9556392568d88a PM / devfreq: Add required OPPs support to passive governor
+         f22fecaf39c30acce701ffc3e9875020ba31f1f5 x86/ptrace: Clean up PTRACE_GETREGS/PTRACE_PUTREGS regset selection
          
