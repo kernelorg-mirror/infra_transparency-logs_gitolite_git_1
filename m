@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 04 Feb 2021 14:18:12 -0000
-Message-Id: <161244829235.23091.15899101047403886889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Thu, 04 Feb 2021 14:25:43 -0000
+Message-Id: <161244874376.28016.10356421454082210805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
-  - ref: refs/heads/review-hans
-    old: 2c15644ebed06949458bf6956ed124164ef51063
-    new: ef14f0e82c9b225ae19476fa5bed89d55b2a96d5
+  - ref: refs/heads/for-next
+    old: 2c36185526adc8f8398888ad5d19d4a7ea97f4ed
+    new: a23571c2da18e7ce3ec8d8d772877b8d6520455d
     log: |
-         d2386d791cb72e0dcaa5f43d509a4f71c44f47d8 platform/x86: thinkpad_acpi: Fix 'warning: no previous prototype for' warnings
-         9aa422f676c9bbd6621080924c135707510096bc platform/x86: thinkpad_acpi: Replace ifdef CONFIG_ACPI_PLATFORM_PROFILE with depends on
-         ef14f0e82c9b225ae19476fa5bed89d55b2a96d5 platform/x86: acer-wmi: Don't use ACPI_EXCEPTION()
+         55e8a01f436c7df9b6d936f37593656678792d6d nvmem: Kconfig: Correct typo in NVMEM_RMEM
+         a23571c2da18e7ce3ec8d8d772877b8d6520455d nvmem: qcom-spmi-sdam: Fix uninitialized pdev pointer
          
