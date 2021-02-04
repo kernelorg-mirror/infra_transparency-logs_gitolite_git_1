@@ -1,50 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============1193230514711584278=="
+Content-Type: multipart/mixed; boundary="===============5205914435519284514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Thu, 04 Feb 2021 15:05:17 -0000
-Message-Id: <161245111792.20496.7860531905617431642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 04 Feb 2021 15:11:43 -0000
+Message-Id: <161245150312.25009.13087900893138151064@gitolite.kernel.org>
 
---===============1193230514711584278==
+--===============5205914435519284514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/tags/mediatek-drm-next-5.12
-    old: 5247526105116b6f1692ce60d73a14dc23c410dd
-    new: 5f44c3391b26472c650b95e08c959c3c69bd2392
-    log: revlist-524752610511-5f44c3391b26.txt
+  - ref: refs/heads/dt/next
+    old: c52eef0b6ee1a3c57f6fccb30ea0b5ae19358471
+    new: eb90b4f8fb8b73532722b5c29db50faf10b21ab1
+    log: revlist-c52eef0b6ee1-eb90b4f8fb8b.txt
 
---===============1193230514711584278==
+--===============5205914435519284514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-524752610511-5f44c3391b26.txt
+Content-Disposition: attachment; filename=revlist-c52eef0b6ee1-eb90b4f8fb8b.txt
 
-b1d685b6467ac0d98fc63989f71b4ca9186be5d4 drm/mediatek: Check if fb is null
-b59fa7a060b1194fc31413507b89e30fa29aea06 dt-bindings: mediatek: add rdma-fifo-size description for mt8183 display
-f011951489678a9c679489136f5df064a86c84dd drm/mediatek: mtk_dpi: Create connector for bridges
-fb8b6c307c7bcfa099dedfae109b3039509f5ec8 dt-bindings: mediatek: add description for postmask
-71dcadba34203d8dd35152e368720f977e9cdb81 drm/mediatek: Fix aal size config
-4d2598223da500982bc898b22834fc22bda57f46 drm/mediatek: Add fifo_size into rdma private data
-ad19ff82aaa70d42b417fe666318565ec5f98ff2 drm/mediatek: Remove redundant file including
-8125bfa5bc402b0aa69fe2052a27ca75a8939cd6 drm/mediatek: Rename file mtk_drm_ddp to mtk_mutex
-4971593f8eb14fbb79f111b14c2d66db868c46e6 drm/mediatek: Change disp/ddp term to mutex in mtk mutex driver
-42a090b8459892efd97f79a3851928e4df452937 drm/mediatek: Automatically search unclaimed mtk mutex in mtk_mutex_get()
-e1e4f7fea37572f0ccf3887430e52c491e9accb6 soc / drm: mediatek: Move mtk mutex driver to soc folder
-a6b7c98afdcad0f149010ae028b24f2d0dc24cdb drm/mediatek: Add mtk_dither_set_common() function
-69a4237ab1d13acd7b35e9c7cb31a154fae35a34 drm/mediatek: Separate gamma module
-4a15d1ac37eaa1ecce14c76d10e5f66da600b54f drm/mediatek: Add has_dither private data for gamma
-641ef9e7be588e4262f7ed58abad12d446b41315 drm/mediatek: Add support for SoC MT8183
-d41ff4dcf093885dcc253e3861834eea294827cb drm/mediatek: Enable OVL_LAYER_SMI_ID_EN for multi-layer usecase
-49629304b91fc7cdc484bb82047a8b97ae3978db drm/mediatek: Enable dither function
-072a4cb512e71cb82d65269319cce282237386ea drm/mediatek: Separate ccorr module
-dff16681723d872308594875886d161a2f310d25 drm/mediatek: Fix ccorr size config
-738ed4156fbac6f6eb84c23b95cf25aa57707332 drm/mediatek: Add matrix_bits private data for ccorr
+d7839ddfefc143d4113987296ff3abf96ac08f20 dt-bindings: iio: dac: Fix AD5686 references
+ce598680a22de43ebe0b0e86f6b45bf3a4f9cc4f dt-bindings: thermal: sun8i: Fix misplaced schema keyword in compatible strings
+b775f49fbc8b07b0c3a4079e6f09f192eaf6e92f scripts: dtc: Fetch fdtoverlay.c from external DTC project
+79edff12060fe7772af08607eff50c0e2486c5ba scripts/dtc: Update to upstream version v1.6.0-51-g183df9e9c2b9
+0da6bcd9fcc021ff2d6cd7c8173f42dcdff6a00b scripts: dtc: Build fdtoverlay tool
+59b48a715107d5719b75250059864fa775837425 scripts: dtc: Remove the unused fdtdump.c file
+ce88c9c79455fb69c6843b4bd30196fccb978a57 kbuild: Add support to build overlays (%.dtbo)
+91f93c3839929e44dd70aa05c4e199d89c36188f dt-bindings: Fix undocumented compatible strings in examples
+49ec0686b3e8f3afde4af9f906c672069a46c55e dt-bindings: iommu: renesas,ipmmu-vmsa: Make 'power-domains' conditionally required
+9183908e70e913d2db052588172968da55d82af5 dt-bindings: Fix errors in 'if' schemas
+eb90b4f8fb8b73532722b5c29db50faf10b21ab1 Merge branch 'dt/dtc-sync' into dt/next
 
---===============1193230514711584278==--
+--===============5205914435519284514==--
