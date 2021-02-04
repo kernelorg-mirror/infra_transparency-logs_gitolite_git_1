@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Thu, 04 Feb 2021 12:29:12 -0000
-Message-Id: <161244175232.18856.699716175287973044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 04 Feb 2021 12:33:32 -0000
+Message-Id: <161244201294.21559.3542427497969730567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/for_next
-    old: 8e8f048a69412e9ecbea78dc8e41337ccfeade33
-    new: c5b8ccc3da766549a4464b6a30cec755c2a1d393
+  - ref: refs/heads/review-hans
+    old: cb3acb1564b0637beb446e6a9cf40cb40e147e1f
+    new: f807f4b7b32db00fc8622289644362e0695989bb
     log: |
-         01531ac354051667f80d23bb85bf2643ae11260a parser: add unsigned int parser
-         a0b3cb71a1f16942eb7be7483b2568c7b0fe0231 isofs: handle large user and group ID
-         3a9a3aa805af842f7a20adbf7f1006caddb87d31 udf: handle large user and group ID
-         b9bffa10b267b045e2c106db75b311216d669529 parser: Fix kernel-doc markups
-         c5b8ccc3da766549a4464b6a30cec755c2a1d393 Pull udf & isofs UID/GID parsing fixes.
+         f1e1ea516721d1ea0b21327ff9e6cb2c2bb86e28 platform/x86: Move all dell drivers to their own subdirectory
+         f807f4b7b32db00fc8622289644362e0695989bb platform/surface: surface3-wmi: Fix variable 'status' set but not used compiler warning
          
