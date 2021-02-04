@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3564928681157016517=="
+Content-Type: multipart/mixed; boundary="===============6654489610483420926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 04 Feb 2021 15:56:44 -0000
-Message-Id: <161245420449.21073.8551169710011074384@gitolite.kernel.org>
+Date: Thu, 04 Feb 2021 15:59:51 -0000
+Message-Id: <161245439135.22049.8596466356094716496@gitolite.kernel.org>
 
---===============3564928681157016517==
+--===============6654489610483420926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 15b3d7f19019f452f9fed620507e8252eb93582d
-    new: a74ab2ed0def52a993d0cbd9df9d1c4de33c6fbd
+    old: a74ab2ed0def52a993d0cbd9df9d1c4de33c6fbd
+    new: 11a0b5e0ec8c13bef06f7414f9e914506140d5cb
     log: |
-         a74ab2ed0def52a993d0cbd9df9d1c4de33c6fbd misc: pvpanic: sysfs_emit uses should have a newline
+         11a0b5e0ec8c13bef06f7414f9e914506140d5cb random: fix the RNDRESEEDCRNG ioctl
          
 
---===============3564928681157016517==
+--===============6654489610483420926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612454195 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612454382 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1612454193-8dbd0ba4216077676304ef6bbcb58a58edf67463
+nonce 1612454381-ebdf7df58a2ad10ca7d950d2a28f13eeb2e4a049
 
-15b3d7f19019f452f9fed620507e8252eb93582d a74ab2ed0def52a993d0cbd9df9d1c4de33c6fbd refs/heads/char-misc-testing
+a74ab2ed0def52a993d0cbd9df9d1c4de33c6fbd 11a0b5e0ec8c13bef06f7414f9e914506140d5cb refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAcGTMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mfIP/1KVsApZo/SOOb9Ijpk+
-8WwK72ffbRWN0a88396YoN0q3YBHj3NpDUnKS/VkGgfBUrd2BlfSbq+R8Vzd5QCm
-/Nyc4EyhJ0kJ7JQLEJQ/oxYCYqRiVmXUgygVvj5Bl9yhDsZ2pQWcYD3sBUZ+BtnY
-VjX3M3UCwqCJWqJ7uxcVyrP0kykp6cBpE60pFLc0J7X/xPPCIq0LhxlLNJDCEd1X
-MvM4fud8204T6wOHcOzyfO34dLy7mTRalVa/Drieybo2NAeLYYQVV6taH4HeY1+i
-t0l1wD4KJMEp9PnG9mrSaX5Q3GABu+tm7pPW+XfcskW2nnHhngblnOhQB6lLyrr3
-LegTiY41HEbDT2HYuLL4i41Uvsd9nqglxwMYlYaby0FCfu6GsWKAVr6vF28foGqE
-7b9iwFbkmyTnh6Dg3HwzyR8+IMq3aYTA9onnCt7qj+nWEde3ac+tV3FPsfgtTTSH
-4ogQSVnxJmHwzI4e23dQ275yyccZFXnmQ2BhFWM97AcKdHwu2VvTcwPvLbf1vtrX
-2914zNhEMkRYD69pPATKL2RGHKQFNxkIhYb0D+U7y8hYHlKYGG0I3Ov02YhHhtxK
-Ci+wkJ/h24Q8sZSkeRm33D+O533gqfpur8Qfzgse1dJ2bdda9STV6+dnYiY+yIjv
-ZbGReVxvY926uYV0w1WsG29e
-=Bb2u
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAcGe4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lG0P/2TySJahJ/+RsaG2AZpg
+3zTJjSnJPv67eqxDm+aKNhLKvfrgWC00N2L06jCms6282t9c9Lsms3xCYmE6nmCb
+7aQXiwsv+nKi/EMux0IZlagMFxpEXwXEm2N0yZQ/TwKAOOBqDZuSjmZiwpNEyB6R
+4YslYRGZ7l45QTptXxFM809q3hXk4/yhJlaA38zL5xZj8lYRncagXfYohrgzi4/S
+/Ly6sQodAcfXAoD4gcsH5NatXlu7vtc5s/YXHFSVCK+IhCgEuCS+RkYeE96Qg8eJ
+DGy5o51zTe8s1EfUuUj/QjuNR4YgilM/UBGsIW8pm9gdH13U0wbPMVAhInjIUNs3
+VHYg3DSI5h0NF7if2w+pcsLC1CX+h4v1yG55q3+7bwG4ptCtFPIgw1sE9hWEImR/
+kDFSgzEEjtQeFfQexslIR7eV/c++s7p4kvyXa2x8CvwzFdjalt0gPWYLBRd31LyI
+G2tDCca2Q8+D7dSM4evSnhDbO6dWFebvfaXzj8Zi9D4b4b+KtqOhEx4ajB0s3s2I
+hz2+cGCbJ1YoggJrrKDJX/lDGWOJ+1a/FaU7UC+w+S0T16JPt1u5mBK3DfbPSywl
+y0SeiGftNfF3xxbaqHkmzvRihUdgkLJnL8R+aL19A6GgwFKMm/+Y39eihe2vmVFC
+9UtPVE3S+6/8NPqTD6emrwxR
+=+Z2L
 -----END PGP SIGNATURE-----
 
---===============3564928681157016517==--
+--===============6654489610483420926==--
