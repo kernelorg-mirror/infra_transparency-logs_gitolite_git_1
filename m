@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 04 Feb 2021 02:47:59 -0000
-Message-Id: <161240687931.23612.8230426373261175350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 04 Feb 2021 02:56:36 -0000
+Message-Id: <161240739626.28921.8585699429355679595@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 2a80c15812372e554474b1dba0b1d8e467af295d
-    new: d795cc02a297df80910cf4ba23147680d15d8a7d
+  - ref: refs/heads/dev
+    old: a4184cadd52afc8e2eaade420d808bea8ea87076
+    new: 0b76565136d4313218cdbdb20bb344e64348fc79
     log: |
-         d795cc02a297df80910cf4ba23147680d15d8a7d selftests/tls: fix selftest with CHACHA20-POLY1305
+         eebd5e5683ab43b1497c4944be0733f1fbf4487b squash! clocksource: Provide a module parameter to fuzz per-CPU clock checking
+         2e11d84d89e9337fdc8727a2c441f020529df321 kvfree_rcu: Replace __GFP_RETRY_MAYFAIL by __GFP_NORETRY
+         0b76565136d4313218cdbdb20bb344e64348fc79 torture: Provide bare-metal modprobe-based advice
          
