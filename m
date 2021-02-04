@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4314454593850119838=="
+Content-Type: multipart/mixed; boundary="===============2352550303856373491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Thu, 04 Feb 2021 15:02:38 -0000
-Message-Id: <161245095804.18119.8321444497285847089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 04 Feb 2021 15:04:01 -0000
+Message-Id: <161245104168.18615.4213112458410402557@gitolite.kernel.org>
 
---===============4314454593850119838==
+--===============2352550303856373491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: f289eb1db7d7e6132c3ecf5049435ace2967b0fc
-    new: 738ed4156fbac6f6eb84c23b95cf25aa57707332
-    log: revlist-f289eb1db7d7-738ed4156fba.txt
+  - ref: refs/heads/master
+    old: e206221e523cc348424051dbf38d6caa9f4e8c1e
+    new: 1d99d41dc11c08299f0c82130a4a4d413176b6ba
+    log: |
+         1d99d41dc11c08299f0c82130a4a4d413176b6ba 5.4-stable patches
+         
 
---===============4314454593850119838==
+--===============2352550303856373491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f289eb1db7d7-738ed4156fba.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b1d685b6467ac0d98fc63989f71b4ca9186be5d4 drm/mediatek: Check if fb is null
-b59fa7a060b1194fc31413507b89e30fa29aea06 dt-bindings: mediatek: add rdma-fifo-size description for mt8183 display
-f011951489678a9c679489136f5df064a86c84dd drm/mediatek: mtk_dpi: Create connector for bridges
-fb8b6c307c7bcfa099dedfae109b3039509f5ec8 dt-bindings: mediatek: add description for postmask
-71dcadba34203d8dd35152e368720f977e9cdb81 drm/mediatek: Fix aal size config
-4d2598223da500982bc898b22834fc22bda57f46 drm/mediatek: Add fifo_size into rdma private data
-ad19ff82aaa70d42b417fe666318565ec5f98ff2 drm/mediatek: Remove redundant file including
-8125bfa5bc402b0aa69fe2052a27ca75a8939cd6 drm/mediatek: Rename file mtk_drm_ddp to mtk_mutex
-4971593f8eb14fbb79f111b14c2d66db868c46e6 drm/mediatek: Change disp/ddp term to mutex in mtk mutex driver
-42a090b8459892efd97f79a3851928e4df452937 drm/mediatek: Automatically search unclaimed mtk mutex in mtk_mutex_get()
-e1e4f7fea37572f0ccf3887430e52c491e9accb6 soc / drm: mediatek: Move mtk mutex driver to soc folder
-a6b7c98afdcad0f149010ae028b24f2d0dc24cdb drm/mediatek: Add mtk_dither_set_common() function
-69a4237ab1d13acd7b35e9c7cb31a154fae35a34 drm/mediatek: Separate gamma module
-4a15d1ac37eaa1ecce14c76d10e5f66da600b54f drm/mediatek: Add has_dither private data for gamma
-641ef9e7be588e4262f7ed58abad12d446b41315 drm/mediatek: Add support for SoC MT8183
-d41ff4dcf093885dcc253e3861834eea294827cb drm/mediatek: Enable OVL_LAYER_SMI_ID_EN for multi-layer usecase
-49629304b91fc7cdc484bb82047a8b97ae3978db drm/mediatek: Enable dither function
-072a4cb512e71cb82d65269319cce282237386ea drm/mediatek: Separate ccorr module
-dff16681723d872308594875886d161a2f310d25 drm/mediatek: Fix ccorr size config
-738ed4156fbac6f6eb84c23b95cf25aa57707332 drm/mediatek: Add matrix_bits private data for ccorr
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612451040 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1612451040-c22a34d9abe490f9f288e87a83e419807e284a28
 
---===============4314454593850119838==--
+e206221e523cc348424051dbf38d6caa9f4e8c1e 1d99d41dc11c08299f0c82130a4a4d413176b6ba refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAcDOAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0YYP/izCZ26AGrzXI2T4v+Rz
+ybAhbv666g4orVIxTIpplPjeqcyrGfeVfVnyWhLGO4yW2WkQ+9rLQhpBcy5IK5ak
+apaHeS0bwWC3OboSa36OXgj+w2/hQaifHFd7h52oPv6uSc6Djngg4JHf6S/zUEc5
+z2qwvzEWnNVBq1f+xp+58cTDYa3cXb00iBvnM7Gug/tvcxaa7hxYlHNlo8OTlPyo
+2tanbylw87wL1+cmUFq4YCFGr3gL9x0ZISAFqtqKv0ksUKMfdVYsKLJyuzEXFF4D
+xvRiQSOMKVA2afCy8IKgN6rhqg/a2K+PuxkGEeaKsRiSpAxnerTHz0ivJRS7oCWT
+pYlQaYiNFJcYUwJByn7ODYBl80LZWXYTgsUTJL1IGWdOk8j4M5L6B62TUtOpUdgV
+uURFgF1VpkEFKBMiKZu+RPzwy7XfWIYnJ6eH8beLf2QLjavXSH5LQOlT1ut42hUm
+Dq9i4W8tlFzA6pLx7INwk4Lpk/Uk1rM4HGan2Ylw7LaZp9Ao+e56F0ehk4U2DDZW
+T0DFByhVVzaRE4COE3jMPd9rAOrmA92PYiRFl/+QdMTOq+rE9JJSiGBopMJNR0q/
+ljMIXnFASnjOlfPLgnPrwJBv0uGnmCMsNgSpye4cgIXjKlTEbEzP76ncHzYUDAXq
+bAkG3AP237H+QVvS5xq8yPvU
+=Q5FT
+-----END PGP SIGNATURE-----
+
+--===============2352550303856373491==--
