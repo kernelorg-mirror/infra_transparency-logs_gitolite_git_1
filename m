@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Thu, 04 Feb 2021 08:43:17 -0000
-Message-Id: <161242819711.29527.9272903781779247336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Thu, 04 Feb 2021 08:45:40 -0000
+Message-Id: <161242834049.31679.17990207477550785514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/chanwoo/linux
+user: chanwoo
 changes:
-  - ref: refs/heads/testing
-    old: 0c87b1ac604518a0d3f527080c6883d5c2402fb4
-    new: 4ac7a6eecbec90c7f83d5ea6f0498d9fa9c62917
+  - ref: refs/heads/devfreq-testing
+    old: e7c59dfb4afebe0c96de54516e9be23d76d96492
+    new: 82254c87f7c13ff0ca73ca9a8c776ddd1c638f9e
     log: |
-         bf3da527bbc9f0a83a02f4ad3fb762eafdd63ba0 esp: Simplify the calculation of variables
-         4ac7a6eecbec90c7f83d5ea6f0498d9fa9c62917 xfrm: Return the correct errno code
+         fc1745c0e40cfc98c0bc466b95ddedf28e5019b4 PM / devfreq: rk3399_dmc: Remove unneeded semicolon
+         dc1154f4a578537fbf115df19811cd3b17615e21 PM / devfreq: passive: Update frequency when start governor
+         82254c87f7c13ff0ca73ca9a8c776ddd1c638f9e PM / devfreq: Add new up_threshold and down_differential sysfs attrs
          
