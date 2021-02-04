@@ -1,45 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============5526243245654047342=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Thu, 04 Feb 2021 17:11:37 -0000
-Message-Id: <161245869716.3194.4119730955221710411@gitolite.kernel.org>
-
---===============5526243245654047342==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Thu, 04 Feb 2021 17:13:11 -0000
+Message-Id: <161245879103.3690.17907967385247662389@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/memfd-secret/v17
-    old: 2e06303671b5838482c334b174bcf73bb9ac651f
-    new: ea8d16b443a821ad9c55aef82cec8f6f55c4a093
-    log: revlist-2e06303671b5-ea8d16b443a8.txt
-
---===============5526243245654047342==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e06303671b5-ea8d16b443a8.txt
-
-d6f55d939806ef55112f6f1b6abec54c8cf43ca3 Make sure nobody's leaking resources
-49e9e896a5fe5cde6ae97791c45d69a04e10dbc5 Releasing resources with children
-36657f1d182dcebc041d8c24d6bc1daf02669c32 mutex subsystem, synchro-test module
-985cfda799f2fc355909762755ee5888febd9b32 kernel/fork.c: export kernel_thread() to modules
-03b38a206d468874c2ef60819dc0c30f52da412b pci: test for unexpectedly disabled bridges
-438bdc3a46bf0e468d2b25f2f694d464885a1f14 mm: add definition of PMD_PAGE_ORDER
-b432673a75d747879cd28fa115b3d744504d7576 mmap: make mlock_future_check() global
-ae524f449487f939f3289cfc273e53877761e280 riscv/Kconfig: make direct map manipulation options depend on MMU
-36520854aa7528f1cd1a72dc0d7bcefa8562a9f5 set_memory: allow set_direct_map_*_noflush() for multiple pages
-d7a33c0ad5c2a4b4fadca78c4ad34131aca9928c set_memory: allow querying whether set_direct_map_*() is actually enabled
-a6fe4fff733f413c5f9b48a936433569fb0b63ac arm64: kfence: fix header inclusion
-0e664b8fc297075f3951af5ab5826d7a0a057ab9 mm: introduce memfd_secret system call to create "secret" memory areas
-6f27dbbd831dcfc62acea14ffb9f13f7bf22f87c PM: hibernate: disable when there are active secretmem users
-a2c766070d830bdaf5233aaecda88ea571154788 arch, mm: wire up memfd_secret system call where relevant
-ea8d16b443a821ad9c55aef82cec8f6f55c4a093 secretmem: test: add basic selftest for memfd_secret(2)
-
---===============5526243245654047342==--
+  - ref: refs/heads/coverity_scan
+    old: 2d832af4a504b3ea4f436746327c292e6b07c621
+    new: 557ae7b67a41ec2c579f49a3e1889450d954043f
+    log: |
+         3cd158b983fec732268e19f8a1fb5b5082fc7f5c bitlk: Fix parsing startup key metadata
+         56d55a458511911468513ba7799a455119e844e7 Fix an error path memory leak.
+         07bb8b302353c5a460411197f6590b5929579c3a Coverity workaround for tainted warnings.
+         89839cb1cf858fa9b69e7d55ffbfaec4e8ca5955 Do not use const default structure on stack.
+         557ae7b67a41ec2c579f49a3e1889450d954043f Test coverity scan triggered by Travis.
+         
+  - ref: refs/heads/master
+    old: d1ffca31897d2dcb65e4946e084e7c1ba82f1bd9
+    new: 89839cb1cf858fa9b69e7d55ffbfaec4e8ca5955
+    log: |
+         3cd158b983fec732268e19f8a1fb5b5082fc7f5c bitlk: Fix parsing startup key metadata
+         56d55a458511911468513ba7799a455119e844e7 Fix an error path memory leak.
+         07bb8b302353c5a460411197f6590b5929579c3a Coverity workaround for tainted warnings.
+         89839cb1cf858fa9b69e7d55ffbfaec4e8ca5955 Do not use const default structure on stack.
+         
+  - ref: refs/merge-requests/51/merge
+    old: bb6d52219878f5b204a5e97c169fba76257a2e4f
+    new: d1ffca31897d2dcb65e4946e084e7c1ba82f1bd9
+    log: |
+         1e7521c0564936fdbf098ce448e91e0ba25bffae Rephrase lockinging dir warning and move it to debug level.
+         f47f6b7fb4dc7e5f941b2396d38d778286065846 Remove redundant EOL in the previous patch.
+         e21e3b298ae3057b3f11c3731862a1b5c62982a3 Remove WARNING from the debug message.
+         d1ffca31897d2dcb65e4946e084e7c1ba82f1bd9 Avoid "output may be truncated" gcc warnings.
+         
+  - ref: refs/merge-requests/132/head
+    old: 0000000000000000000000000000000000000000
+    new: 3cd158b983fec732268e19f8a1fb5b5082fc7f5c
+  - ref: refs/merge-requests/132/merge
+    old: 0000000000000000000000000000000000000000
+    new: 0c5727faa236cd422108eb47cf933cf35aaeae5e
