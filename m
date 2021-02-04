@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6119227521703052834=="
+Content-Type: multipart/mixed; boundary="===============0297860958120737772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 04 Feb 2021 16:15:01 -0000
-Message-Id: <161245530122.640.15935579454758243918@gitolite.kernel.org>
+Date: Thu, 04 Feb 2021 16:16:01 -0000
+Message-Id: <161245536171.2516.194687657205308643@gitolite.kernel.org>
 
---===============6119227521703052834==
+--===============0297860958120737772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 06b0c0dce88e2aa2f01343db0f26d214d7f264a0
-    new: 0732ce21329d598ffa8ddac02237ad9b3a7fa34c
+    old: 0732ce21329d598ffa8ddac02237ad9b3a7fa34c
+    new: 7a8d2f1908a59003e55ef8691d09efb7fbc51625
     log: |
-         45b754ae5b82949dca2b6e74fa680313cefdc813 staging: most: sound: add sanity check for function argument
-         9810cad7dad02a3a8ef249b7f8dbb85d2fbb74a1 staging: most: sound: use non-safe list iteration
-         0732ce21329d598ffa8ddac02237ad9b3a7fa34c staging: qlge: fix read of an uninitialized pointer
+         1aa291fbcd21e9d4ef62ebab4992b0291c4d4bef staging: rtl8723bs: fix rtw_cfg80211_monitor_if_xmit_entry's return value
+         7a8d2f1908a59003e55ef8691d09efb7fbc51625 staging: rtl8188eu: Add Edimax EW-7811UN V2 to device table
          
 
---===============6119227521703052834==
+--===============0297860958120737772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612455292 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612455352 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1612455291-be3b9a4f046e5ef67be4658b117577b85c0a6106
+nonce 1612455351-b5bdf8c37a244da6f0a80385a5face99b406885b
 
-06b0c0dce88e2aa2f01343db0f26d214d7f264a0 0732ce21329d598ffa8ddac02237ad9b3a7fa34c refs/heads/staging-testing
+0732ce21329d598ffa8ddac02237ad9b3a7fa34c 7a8d2f1908a59003e55ef8691d09efb7fbc51625 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAcHXwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0YwQAJfTZW/p9zYH/qhKR08N
-+V/b8c6CgMtTlJCp+DkUTH6F4KWZRsg8Z3Q03ltzwmplwWbDhRynpEgK1iprIcDs
-7Dl7CxjeBEr2dGnVhojJ5OsWZHybirBK+7Lm+5PzFQnC1HcBoFjQCTLZnpcYvD89
-9JKiP/OXZsz8ICaSTf5eJPRJaagW42mp0U0XeWi/kdJWv7XQbWmYjf6L63IE8CVZ
-EG3aJ+nlwmX8FKpPORcPIPZkS6p/wMCH2erEwrIKR8lyjqjAAaSACh/ngy/RC6Jb
-XFFFPjqyATKtGMdC3IR6Nxf/KTKn1Vf0kM8dkVof5u+Y5+pb8+jf6cfkPn9vxZjT
-NBZjwWLlywOueBDkB1NABqAjMDgDWmHM9gGelGX9FrTOThuqsWxH1tLrRE9YjCEX
-hCo0wj3IlM32gmAjYxYCNH4Hw6MrmIplMaPJOsWD9kcTF1Wg1rEZ8VJM2fZtsyPo
-eXJwQkgoOFaauTo6Mszk+VA1JzKXWqgXcTTbr9ICtpayxsokWEzScCgHRl2AIpM8
-jwsHXOBgV1WhLthfoJ1F3pmS0AlPvAwd4nAJISr4PgBsTXT/jl1X9OMLdCPf5jjC
-3zZZTW0zlTzlmtjf3H7/T+Oic1LSKhRo4O5+UKOp4dQ2Ft3aFG0+fxGa2XIuB/5v
-fXYAORgPqw7akUFlnTG8kFko
-=pIX7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAcHbgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mpgQAM5CohSxCgCqi/h7LI7W
+7ydlCLxvmXndRcwVj5GILkTp9i95GYSul1GDq7yRn9oXQnzp807xhxJdOREmCF2N
+PZNMo6IYNTP2FhnE+Mly6h5Tx7rnEvbg5xG7spieFejK4ejYhtewcosFIPHLsGC8
+QxvJJHkx44rZjwCbgxXYFa4JvIttyxwn6Qdv+4HJsx1cDGgKnQ1MrseZvBfJHqqA
+12OB0AVZqIfv+vn3iuHIUvoZECfCIswiScvSoyVZ8KjhvZQ3EEUkEH8I+TzZdxAv
+zRk/F/UqzXlcHtTdD2g7aLRFnUN7LLv9eHxTToy6DIMbks4XT/XY86G8INEfBkT1
+/cW443QHs5jDoU8NkC+BRmzVDlCAX+PqBWN0SUCt1msvE/YuVqhHz2RinEnEVloC
+4aD/bmtVsiMhSB7Tmv/Rb+koC9oFJ17erU6dxzjhcp/EAJjhw1v0mFOJ45b8D4Ht
+6/DkBNjuJWatTCFLi5epnYv7+ur31gBlpvaiYjGoZ244ML0NwjMa2t/a5HurjDd1
+nth3oYy5SO8F93FcttTYgYnXlic8HjsbXI+FTQty5ZzHk+ShAuCLEAK2DAnQ1NSy
+Bv55fVtzm5KP5n8mLVyjnqt23K7WG+ig9b8onSJ6mU3I/fcb50RQw6sJpDdwkfu6
+5TVZH5PhfR+/E+t2RH+U2SEn
+=KFBL
 -----END PGP SIGNATURE-----
 
---===============6119227521703052834==--
+--===============0297860958120737772==--
