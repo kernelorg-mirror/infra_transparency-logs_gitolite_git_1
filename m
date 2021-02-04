@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3686414183216612478=="
+Content-Type: multipart/mixed; boundary="===============7023050646706531183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 04 Feb 2021 16:06:25 -0000
-Message-Id: <161245478517.27131.17412967252171973932@gitolite.kernel.org>
+Date: Thu, 04 Feb 2021 16:10:01 -0000
+Message-Id: <161245500197.28653.5708792617971192754@gitolite.kernel.org>
 
---===============3686414183216612478==
+--===============7023050646706531183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 0445efacec75b85c2a3c176957ee050ba9be53f0
-    new: 1f7c14afd4ad5aae5220dfc878f29770239911b1
+    old: 1f7c14afd4ad5aae5220dfc878f29770239911b1
+    new: 920fd8a70619074eac7687352c8f1c6f3c2a64a5
     log: |
-         49f259eff82e688d83a9dd3be392fcfcc4f7cde5 speakup ABI: Advertise synth parameters for all synths
-         1f7c14afd4ad5aae5220dfc878f29770239911b1 speakup: Make dectlk flush timeout configurable
+         920fd8a70619074eac7687352c8f1c6f3c2a64a5 misc: rtsx: init of rts522a add OCP power off when no card is present
          
 
---===============3686414183216612478==
+--===============7023050646706531183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612454776 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612454992 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1612454775-84778ce18b0d6621b7172ca75421fca881c7dfaa
+nonce 1612454991-f1d598d66473e40ceded81a7d19d673889f33d70
 
-0445efacec75b85c2a3c176957ee050ba9be53f0 1f7c14afd4ad5aae5220dfc878f29770239911b1 refs/heads/char-misc-testing
+1f7c14afd4ad5aae5220dfc878f29770239911b1 920fd8a70619074eac7687352c8f1c6f3c2a64a5 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAcG3gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MbkQAJKac3DfXprbAB+yVnta
-pumctvkYpbwP1vlGUy1+kNpYCCPgbKKXHPZKI1UpgES9aFKCYKDJzynX2njn20mo
-E/K6447T/ms4dV+CWZWeaCOTrua95Zzpg5XW1nl23IMnVbwtiBS2j6WdAzeD8qUR
-s2QYq9ZB/JQzZq8w26IRndM4xDQd4HXmhr4TIitiws00DRvKHWPO1E14kPzvhTkk
-o/3CZGrreRO77mD9+eC/g9CKNOIKfZL9jqrLDv6G7zJrncKwITBmPQ5Yqgt/ri7V
-JxpQr6hfNgO8s1IKvGFR0E4wbhmc+GTiBF41dk8iVMkyfqpBfJMY5dl8GP9m/rEc
-66elm/J6gDLuD79mxBaBsHTvVMrXFpLL2XOvM0HBnIsvrnZ9ywsPdilJwONSGTAk
-KVqE7KIaOsnpotuvJ9qsAc9p16MZjrrO/kO/T+YQ3d/CxXgZTfu+GQ1VI4gdDlhu
-NSywNfUOiF6qUrlvlRUEgbH+UoOh4FXcw9pVQhMnolvOAApGdVtrE59LT0xjWiMn
-8/DIMs4GyRx51VNyPB1HkysdZ3P84n+JUf2mpY86eWEvO3ZOEWPrbYCmKO+h7FtO
-oPi27KZqQF3XGpoWg2xT5l0F6UCI6eSrHlUJzGtFB3PcYr63V4uoIMPmBZo2e0Uz
-HaVi7Org9QEDy9Rcz8bnw3Nf
-=tRoC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAcHFAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d5IP/AmIgg/nSKe8yllemvcI
+X3/zJgL2AQdTcziKwOND3z3GAGnor4pd7tXTxrnmJpt0s7gCnGLt/KmtiJIB3zIj
+Byeak5Xt3vCOj94d5o8QzTpLBFSpFGBzD9ipLGQ4PZ7rATXliJeJOgPQeUqaFuWc
+IZxXkTxWhJK550YAxapLp50sW0tzCXI4k/u/bo6YR68X/6y5qU7DwBuBfDt5J2rO
+bme1IHqXQx/xczZPvuUrQwntiU5bwsAJs5D1i21FGzzcJaHKTURhkYRBOfxk6bqk
+QeC0clqBrnC5HPletSc1hOVDLioy0OKJ3Y4zrvTiVUCrqmsGpdi5B7r5HTDJn8U2
+N2rvUcATyZ7KSM3XhF+hNsxGm5bPmEeZ0pBfArcYsHdF6Sep6l04ao9mmWFtqT7o
+E4qESToXsyokAmoQ1p0Ktz2pDMnR9hLwcUynsl2+avYnhNsJ+VRwLwyZANPAQmpv
+NjcP9K3Li06tqvKky7RiPuVTmDFuIjpAkBnL76Lvto97URRnmJh/CAbrUbHFE59i
+DaZex+hvLohuqReaO3kxVcCH/LYLU7pXRKefEwG3Qc8HVaIw7pgmLaC2sNXDCqaC
+MikJuNs7FzJQ1CZuq/RyN7pxP1Yv6WfwFTwk9cCPkr/XWB/xcRtGBisg5VTXCBFu
+Y3YfHgXj2CAIrTG6cTWJikNW
+=/uMv
 -----END PGP SIGNATURE-----
 
---===============3686414183216612478==--
+--===============7023050646706531183==--
