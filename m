@@ -1,54 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============0009069843257570363=="
+Content-Type: multipart/mixed; boundary="===============6304847704527289862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 04 Feb 2021 19:53:16 -0000
-Message-Id: <161246839659.2837.9744416162111529814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 04 Feb 2021 19:53:23 -0000
+Message-Id: <161246840375.2924.8666955967694276848@gitolite.kernel.org>
 
---===============0009069843257570363==
+--===============6304847704527289862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.12
-    old: 1c4273a5b1273028f7c694724c001d9dea253ed9
-    new: 6395a6213b8367bb55c3b940f663eda772d7c19c
+  - ref: refs/heads/for-5.12
+    old: 6d2386e36440165da782dbc5c0de40f31665e108
+    new: d290da83cb099d2d259d1dedacdf2f0375b2ecf0
     log: |
-         8e59cf943fa7402f008de4b444beb0c5280317bc ASoC: mediatek: mt8192-mt6359: use asoc_substream_to_rtd()
-         0840706d6c61658e51f42762c5b4f211b7596535 ASoC: mediatek: mt8192: use asoc_substream_to_rtd()
-         4cceb42f4f401463b70d9e69c4771212707c51a8 ASoC: mediatek: mt8192-mt6359: simplify ops for Capture1 DAI link
-         0dd4d3e8c3a8ab63e9368e01d7839afad7b804c7 ASoC: da7218: Drop CONFIG_OF ifdef
-         6395a6213b8367bb55c3b940f663eda772d7c19c Merge series "ASoC: mediatek: mt8192: apply some cleanup" from Tzung-Bi Shih <tzungbi@google.com>:
+         a8af5cc2ff1e804694629a8ef320935629dd15ba spi: realtek-rtl: Add support for Realtek RTL838x/RTL839x SPI controllers
+         6acbd614c2c8d3b8de5fb7605d6e24b9b3a8a17b spi: Realtek RTL838x/RTL839x SPI controller
+         390624119dee8933fef4ab0e22827c20b49a0927 spi: clps711xx: remove redundant white-space
+         d290da83cb099d2d259d1dedacdf2f0375b2ecf0 Merge series "spi: Add support for Realtek RTL838x/RTL839x SoC SPI" from Bert Vermeulen <bert@biot.com>:
          
 
---===============0009069843257570363==
+--===============6304847704527289862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1612468348 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1612468394-897ba7b79251d3135fd1580a282e026b2d6f653d
+pusher C3F436CA30F5D8EB 1612468355 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1612468401-523e1800be734fa2d07fbbc52780af413c0474bd
 
-1c4273a5b1273028f7c694724c001d9dea253ed9 6395a6213b8367bb55c3b940f663eda772d7c19c refs/heads/asoc-5.12
+6d2386e36440165da782dbc5c0de40f31665e108 d290da83cb099d2d259d1dedacdf2f0375b2ecf0 refs/heads/for-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAcUHwACgkQJNaLcl1U
-h9D0agf/fzGaZY59WhaHo9iiY7dhTCAtZkFZH8DRszUkCj4EGsGPj6WhaFRglSHP
-BP0PpN7rSA0b0phyF8L64I74C81zHEqSqdgDj4x4N8GtS1VI2zyyWc4gnMN75vt8
-ZtLLPQMxL3PaHiLxF9NKlT0dT1TTxxejFj8CUsNU8SvHgG1q5RfK6ISRzPRCeuQk
-t8t37Yx7ihGNYTAr0ZaqiByi+mQXWulU37BsI8XWPB2rbCyk/0P+PpwwzEghM+RJ
-CnvstyGvy4XncrmeGcFI0VkaECKOVIdR1hlqKHqLUjUBvztoOGP46o1ZrfmMvmQP
-tPLCtxpRi/gnIKFnnxiN36oCSMZnkg==
-=7gBZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAcUIMACgkQJNaLcl1U
+h9BBHAf/cRRZ6TIUZOVE+SyzAUxt542ylDVx5Dp7i0n51L/98lznK7WTSgzBwu8w
+WTr4bjO5ps3BX7p24zG06uWoGDiIBmODZLPtzjTZeN/7z7RoOzzLQWyp4C9aZ5ER
+4oZWgbvME/BXMI5CK1IWH3mljthjOLhPlzS/P8TVtG9jSrPfif9CBLy54b/yxQWQ
+18l3HOkjuUuRHIW8TqmqVwYm/x/9E5mNDzT9dOXOedA6ZqXw1Dy56GhwydZEoMVw
+mGw0wkropU4RK0P8otQWBa/B8UNJXkZqvtIDCEEFiXj825/+xq/Da0kCf0FXGuql
+AMyBqT0sZOyJYXcjsDao/paSBpZTfA==
+=6iCI
 -----END PGP SIGNATURE-----
 
---===============0009069843257570363==--
+--===============6304847704527289862==--
