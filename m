@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7732648394991646962=="
+Content-Type: multipart/mixed; boundary="===============7421813043976844612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 04 Feb 2021 10:33:29 -0000
-Message-Id: <161243480992.13948.9141306371159498665@gitolite.kernel.org>
+Date: Thu, 04 Feb 2021 10:33:42 -0000
+Message-Id: <161243482279.14159.11444662308959559162@gitolite.kernel.org>
 
---===============7732648394991646962==
+--===============7421813043976844612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/v5.11/ffa
+  - ref: refs/heads/ffa-ts-dev
     old: a85856a848ae35a96bb25374dec03bfece84584a
     new: 31ef391700953fb59ea8755ea38c6085bdec380e
     log: revlist-a85856a848ae-31ef39170095.txt
 
---===============7732648394991646962==
+--===============7421813043976844612==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -389,4 +389,4 @@ d84a64dac7cbf5ab7f2809747422e3020971fa88 firmware: arm_ffa: Add support for SMCC
 4586a44463f8dca0d2f08d5c7ac5ccc6043215e4 firmware: arm_ffa: Setup in-kernel users of FFA partitions
 31ef391700953fb59ea8755ea38c6085bdec380e firmware: arm_ffa: Add support for MEM_* interfaces
 
---===============7732648394991646962==--
+--===============7421813043976844612==--
