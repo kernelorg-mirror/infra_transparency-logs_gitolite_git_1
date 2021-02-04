@@ -1,31 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 04 Feb 2021 19:53:52 -0000
-Message-Id: <161246843268.3291.7527041199239031677@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 04 Feb 2021 19:54:12 -0000
+Message-Id: <161246845292.3474.10820591599615975858@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: c5ea12b798b048d679cc7377900f5031be56621f
-    new: 63e95d1d9392847259a2dae5fe40d38662057096
+    old: 04aa85475c4c618b58c9684d16942717c11cbba6
+    new: 3067e2c6a732d86af4d6f0e152797d014bd0ab99
     log: |
-         63e95d1d9392847259a2dae5fe40d38662057096 Merge remote-tracking branch 'asoc/for-5.11' into asoc-linus
+         3067e2c6a732d86af4d6f0e152797d014bd0ab99 Merge remote-tracking branch 'spi/for-5.11' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 2557c711b87cd42bb22be9ca6ff3fce038624f30
-    new: b5b23ce06294fd95b75a70850c90945af3e049d6
+    old: 590788929d5030c5fc34dd2a51a5d3deee0cb4f9
+    new: c173fdb810754e6e9edb3064cffef4c96e21df29
     log: |
-         8e59cf943fa7402f008de4b444beb0c5280317bc ASoC: mediatek: mt8192-mt6359: use asoc_substream_to_rtd()
-         0840706d6c61658e51f42762c5b4f211b7596535 ASoC: mediatek: mt8192: use asoc_substream_to_rtd()
-         4cceb42f4f401463b70d9e69c4771212707c51a8 ASoC: mediatek: mt8192-mt6359: simplify ops for Capture1 DAI link
-         0dd4d3e8c3a8ab63e9368e01d7839afad7b804c7 ASoC: da7218: Drop CONFIG_OF ifdef
-         6395a6213b8367bb55c3b940f663eda772d7c19c Merge series "ASoC: mediatek: mt8192: apply some cleanup" from Tzung-Bi Shih <tzungbi@google.com>:
-         63e95d1d9392847259a2dae5fe40d38662057096 Merge remote-tracking branch 'asoc/for-5.11' into asoc-linus
-         b5b23ce06294fd95b75a70850c90945af3e049d6 Merge remote-tracking branch 'asoc/for-5.12' into asoc-next
+         a8af5cc2ff1e804694629a8ef320935629dd15ba spi: realtek-rtl: Add support for Realtek RTL838x/RTL839x SPI controllers
+         6acbd614c2c8d3b8de5fb7605d6e24b9b3a8a17b spi: Realtek RTL838x/RTL839x SPI controller
+         390624119dee8933fef4ab0e22827c20b49a0927 spi: clps711xx: remove redundant white-space
+         d290da83cb099d2d259d1dedacdf2f0375b2ecf0 Merge series "spi: Add support for Realtek RTL838x/RTL839x SoC SPI" from Bert Vermeulen <bert@biot.com>:
+         3067e2c6a732d86af4d6f0e152797d014bd0ab99 Merge remote-tracking branch 'spi/for-5.11' into spi-linus
+         c173fdb810754e6e9edb3064cffef4c96e21df29 Merge remote-tracking branch 'spi/for-5.12' into spi-next
          
