@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6304847704527289862=="
+Content-Type: multipart/mixed; boundary="===============2923867895198774760=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 04 Feb 2021 19:53:23 -0000
-Message-Id: <161246840375.2924.8666955967694276848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 04 Feb 2021 19:53:30 -0000
+Message-Id: <161246841093.3080.8582324791956294404@gitolite.kernel.org>
 
---===============6304847704527289862==
+--===============2923867895198774760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/spi-5.12
     old: 6d2386e36440165da782dbc5c0de40f31665e108
     new: d290da83cb099d2d259d1dedacdf2f0375b2ecf0
     log: |
@@ -26,28 +26,28 @@ changes:
          d290da83cb099d2d259d1dedacdf2f0375b2ecf0 Merge series "spi: Add support for Realtek RTL838x/RTL839x SoC SPI" from Bert Vermeulen <bert@biot.com>:
          
 
---===============6304847704527289862==
+--===============2923867895198774760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1612468355 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1612468401-523e1800be734fa2d07fbbc52780af413c0474bd
+pusher C3F436CA30F5D8EB 1612468362 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1612468408-ffc9ea383355da217d9a18514e89d03aab0f2961
 
-6d2386e36440165da782dbc5c0de40f31665e108 d290da83cb099d2d259d1dedacdf2f0375b2ecf0 refs/heads/for-5.12
+6d2386e36440165da782dbc5c0de40f31665e108 d290da83cb099d2d259d1dedacdf2f0375b2ecf0 refs/heads/spi-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAcUIMACgkQJNaLcl1U
-h9BBHAf/cRRZ6TIUZOVE+SyzAUxt542ylDVx5Dp7i0n51L/98lznK7WTSgzBwu8w
-WTr4bjO5ps3BX7p24zG06uWoGDiIBmODZLPtzjTZeN/7z7RoOzzLQWyp4C9aZ5ER
-4oZWgbvME/BXMI5CK1IWH3mljthjOLhPlzS/P8TVtG9jSrPfif9CBLy54b/yxQWQ
-18l3HOkjuUuRHIW8TqmqVwYm/x/9E5mNDzT9dOXOedA6ZqXw1Dy56GhwydZEoMVw
-mGw0wkropU4RK0P8otQWBa/B8UNJXkZqvtIDCEEFiXj825/+xq/Da0kCf0FXGuql
-AMyBqT0sZOyJYXcjsDao/paSBpZTfA==
-=6iCI
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAcUIoACgkQJNaLcl1U
+h9Bsagf/f0ISHfy55CinLn8lgn6T5wBVon5sVrcs5jrRjZph2RMVsbJREJ3TG0Y1
+pj7oy9m44giW9FehtjLneC0zP2CM40qSbIpKhYyNk/3jxvzBED5IeI2hpnFnCWvC
+U2ORCjO+6jSce5X7Re/BifITTepeF+Ds2JXr7MTE8/PKxRgEiLIBfDfYseeLy9G1
+3UwfTparcRxfFvbrwM+w+LJVlkp1BoXEh7ge15ZsPFdd+9ODM0cT6loen9/lBuHA
+n4OmEAlNI+WI6/jKMyFRkxq/Fe98KgmcjJbsUxxE9We2kRtO2YnUnChQvjeJiyMc
+GLF2okj2wkJd+8Zjf4/YVKjuHWkeYg==
+=yqpg
 -----END PGP SIGNATURE-----
 
---===============6304847704527289862==--
+--===============2923867895198774760==--
