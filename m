@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 04 Feb 2021 17:14:18 -0000
-Message-Id: <161245885857.4117.15125884423603664474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Thu, 04 Feb 2021 17:21:45 -0000
+Message-Id: <161245930568.8937.10711508971741185543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
   - ref: refs/heads/master
-    old: 8564baa3cf986b2f61af93128161b9cf25d4139f
-    new: 10888140f09c3472146dc206accd0cfa051d0ed4
+    old: 8d6f06f053a06829589dd3b4b4f88f8a73a21006
+    new: 0d415f68c468b77c5bf8e71965cd08c6efd25fc4
     log: |
-         10888140f09c3472146dc206accd0cfa051d0ed4 Bluetooth: btusb: fix excessive stack usage
+         8fb77416923db0c49dbbc68af98073adeeccf5f2 dwarf_loader: Support DWARF_TAG_call_site{_parameter} also in die__process_inline_expansion
+         7943374ac574b94b00c1c1d30fd106bdf2230140 Revert "libbpf: allow to use packaged version"
+         0d415f68c468b77c5bf8e71965cd08c6efd25fc4 pahole: Prep 1.20
          
