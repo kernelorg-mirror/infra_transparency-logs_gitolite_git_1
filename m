@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0887775080237253655=="
+Content-Type: multipart/mixed; boundary="===============5092709014198366598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 05 Feb 2021 09:27:47 -0000
-Message-Id: <161251726724.17825.17317141702331045346@gitolite.kernel.org>
+Date: Fri, 05 Feb 2021 09:29:07 -0000
+Message-Id: <161251734795.18304.16657895610054347976@gitolite.kernel.org>
 
---===============0887775080237253655==
+--===============5092709014198366598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: c8134c004ccf131ec41e8c58b096927bb8ba1cd8
-    new: 23e32a595e115c09152488aa0508539e6f6a4237
+  - ref: refs/heads/usb-linus
+    old: 0e5a3c8284a30f4c43fd81d7285528ece74563b5
+    new: f670e9f9c8cac716c3506c6bac9e997b27ad441a
     log: |
-         0eaa1a3714db34a59ce121de5733c3909c529463 usb: musb: Fix runtime PM race in musb_queue_resume_work
-         ae2938c358430beab098fbfac843532c25b36372 usb: musb: Fix NULL check on struct musb_request field
-         eb44cef954277584d8c046fe4806937c46487c31 usb: musb: dma: Remove unused variable
-         23e32a595e115c09152488aa0508539e6f6a4237 usb: musb: jz4740: Add missing CR to error strings
+         f670e9f9c8cac716c3506c6bac9e997b27ad441a usb: dwc2: Fix endpoint direction check in ep_from_windex
          
 
---===============0887775080237253655==
+--===============5092709014198366598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612517258 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612517338 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1612517257-194b1d6c99860e8555385ae2aea233db3facb519
+nonce 1612517337-5dae950659c0e78df82c002f1b5690b0212d9796
 
-c8134c004ccf131ec41e8c58b096927bb8ba1cd8 23e32a595e115c09152488aa0508539e6f6a4237 refs/heads/usb-testing
+0e5a3c8284a30f4c43fd81d7285528ece74563b5 f670e9f9c8cac716c3506c6bac9e997b27ad441a refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAdD4obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RT0QAI2ki6uYB4l0JkUeQzne
-5cvufFBgDWpcTgv7xu0DWSNCEvja8Wd/ACSWKNwWebyoQol3qYnsX84/RqEunKlV
-Gi1Op2h1zFj+ooImTKPAN0v6KWb7nL3RjsgkBnYLmR50AZp4QAyY/lEKGB3emZQC
-1v726ZjSaufjjL+388oQsdf2XLJBmjIU3JuhIVfoJxZ4r6qdIuye8KHxB/5l7bYa
-UM+SnYkdl+ebiGSTOD1Sz1sm9O1Ad0vV2H7huLqvR648x/3xHuJEHFLv9uXwewQs
-m+bMYJlTn12MtywPY/6cMlTZY+OEuueHtRmixAzta3FIJDmOLl6tyz57rfU/ubJN
-FCAaFIAQ918CUR9vZsdaCpMbnmMbvOHa//tSBLsG/AxvlpJfItoVOIpxGvCrp9hK
-S5wSC98YYWocNN3hCB0wgjZX9NLty0NgXvRfHvJENf5eRMhgHwP7kG4A4L/WjEE8
-rTV/ctbP71PqFV4F6xhYII97qAcGnz95F41iCdgCCYXMgxXYexZSupIxoK4RsL88
-nYW7x1ypefDk7zlrQDGzIF4BTzARCk+2Tloi0p3ahCod28LyQcWQVog9ufhTZ82X
-2PpK1DdyJ0zPWsha0zSaduqlk5/yt+wVSaITEAUJOc0MpAJcuD4YTn4mHgumdZbd
-AZc/p1fNQaIyRDZN2Z0/9hAe
-=uxKD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAdD9obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+irkP+wdA9NWZ3CdTbINSCnCB
+I5WQSZWvLrDN4BDN+oXLKMS2+ilYdya+5HNAmPJjpqD6IxL594luVh5XEW5mbbCK
+hmuuQnOx+HQRsTt8Aawr6fmDJuAsv7AHAyEAogXj9+Jewp7EeBSYec59eg73iLXk
+YFFgSE3vYN6F3gSYwUUVNW8ECZS14vT23derurKJLD7gofWWxophm4Uros3VI4EI
+hUeVzQdY1MrQ50paYPNMT9gj9cvmnHL1FKbbRqsxQGSdM79qRLt0ugIpVCy29sfI
+PHsNPZ1LQz1yN1T1/WgHaY9Mcy32c8SqkmFKlPHH29kzmoesWqfDT2u1Romqane0
+18JpijscNI0nWVmTmlEDylYKqjYtOpZlVh7vofbgT5nBAToj+hgZjHZQ9kPxlxws
+fvMq/02GqabwtLe8KxrFJys880SKX47x/TRHRmSJ5FQ8BBjn/VrmBXUtZ/6C+RTi
+tKU2+F+/N/xOVwuTRY3ZAw4oAmdYPD6crD/BGmy5as9XEQYe/948BCRbJt6rDU+C
+GD6vYJiQIrh6AMIWhx7GlP4KluRmqwWGDlsRGOD3zGslfiNuLyqhbToxb5bK4+qq
+y78mhhPcIYZ71sSu1k/GK2QQBwTuw+vRooSUG5pP6KBCYVKTa1y2wjIZ95/s7Kzn
+HeGp/i5fJaMW+Q3rfdOsGCgX
+=AoPp
 -----END PGP SIGNATURE-----
 
---===============0887775080237253655==--
+--===============5092709014198366598==--
