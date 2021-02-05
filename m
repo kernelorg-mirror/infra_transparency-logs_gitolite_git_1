@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7841048626749133773=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 05 Feb 2021 13:09:22 -0000
-Message-Id: <161253056272.22171.12864190782124541878@gitolite.kernel.org>
-
---===============7841048626749133773==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Fri, 05 Feb 2021 13:29:31 -0000
+Message-Id: <161253177121.20761.7616454392683210966@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: tudor.ambarus
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 8425a0aecf6782a85dff843ffd0b27cc262b651f
-    new: f5d9863856baa1b79e2f8ba2e51dafba73fc7e9e
+  - ref: refs/heads/spi-nor/next
+    old: fe6653460ee7a7dbe0cd5fd322992af862ce5ab0
+    new: 75386810d3a61f4bb9e180774291454f7235b8b3
     log: |
-         f5d9863856baa1b79e2f8ba2e51dafba73fc7e9e Notes added by 'git notes add'
+         abdf5a5ef9652bad4d58058bc22ddf23543ba3e1 mtd: spi-nor: sfdp: Fix wrong erase type bitmask for overlaid region
+         9166f4af32db74e1544a2149aef231ff24515ea3 mtd: spi-nor: sfdp: Fix last erase region marking
+         969b276718de37dfe66fce3a5633f611e8cd58fd mtd: spi-nor: core: Fix erase type discovery for overlaid region
+         58fa22f68fcaff20ce4d08a6adffa64f65ccd37d mtd: spi-nor: core: Add erase size check for erase command initialization
+         a7a5acba0e06b8f9923faa1a726f0ac1380b719a mtd: spi-nor: Add Global Block Unlock command
+         75386810d3a61f4bb9e180774291454f7235b8b3 mtd: spi-nor: sst: Add support for Global Unlock on sst26vf
          
-
---===============7841048626749133773==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612530561 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1612530559-696ead68259d51824be1bb130b7337c781d8a8d9
-
-8425a0aecf6782a85dff843ffd0b27cc262b651f f5d9863856baa1b79e2f8ba2e51dafba73fc7e9e refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAdQ4EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fY0P/0mSyBOv+1UtI6X547O7
-AljacgH49WPV10QQTsbA4IpZQvVc6ryw8fDpWsU6/uza7qyxMdHdDM/R0w5t1ZJS
-9eFUSrnpYoDPIJ9C9PbGMuKgHF/7KeFfA1CcsZQWu6hRgULlLtcNoWW4UTaj6ZKJ
-Tq7/O8cQeNS5iyQZCNtD4/XOvBKXV7xEH334IZAGL7XF/fRuBOCZeeJFsK4dJJ06
-rYoDmLfsEcp6qyNgVU1qu8iS4KjylIlrFb2kgGvYNpDRw0KQlka/zczwZY41Hw3B
-fFhNGMTLph9+GikkmczjWtKfl8JHuI2gX5UdFr9PfO3obKLrsIstlx8uAeydOCm7
-ev7EzUcmb27tvLpK+tq4P/8Wphp5VxaKtThLYZZXVmaSE85OPVLadn6Sf5CeUkvk
-S7c0wV9E90/7o5de7gjAcKm5bhRu12dF/CYt64LlknbpzLA+RbVolGToRRO+UxJ+
-z2kg5UXAIguXY85ER4LImmFTZtGSxhs1TGM9fDJkhzxHM9thpTQQkFNQtlypru/i
-FsuzIHXb8fxXRwzplVcoTkDj70cPuYaUeTwiwR/PaAIDNEGiX2riK/cagZOcLdkU
-pSdy85K8sf4SLmbw1DU21xFSWQ2uSBP6Ts7l28tFTIZThnvDfqU7Wnvsd6eHpiEF
-ZltHy8nf5mMQmaalzNTSCOdd
-=rZ82
------END PGP SIGNATURE-----
-
---===============7841048626749133773==--
