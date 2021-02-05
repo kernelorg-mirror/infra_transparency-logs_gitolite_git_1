@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 05 Feb 2021 04:49:55 -0000
-Message-Id: <161250059568.5494.580821912602584731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/linux-actions
+Date: Fri, 05 Feb 2021 04:52:37 -0000
+Message-Id: <161250075712.7628.10240683502923105937@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/mani/linux-actions
+user: mani
 changes:
-  - ref: refs/heads/numa
+  - ref: refs/tags/actions-arm-dt-for-v5.12
     old: 0000000000000000000000000000000000000000
-    new: c44abfff6a53d52ab2d5f0ce868158aa09874f22
+    new: 7d67ab0824feb1957c52e51895f931188d90d15b
