@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Thu, 04 Feb 2021 23:02:00 -0000
-Message-Id: <161247972013.18272.17800995755792356886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 05 Feb 2021 00:07:32 -0000
+Message-Id: <161248365265.23747.14355067830859655254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: 2527d196c2e9d0c7ed608dd246376072c0b5bbf9
-    new: 5305f9f94f4419a54d9931dd54fa7d7e41937244
+  - ref: refs/heads/master
+    old: 5c279c4cf206e03995e04fd3404fa95ffd243a97
+    new: dd86e7fa07a3ec33c92c957ea7b642c4702516a0
     log: |
-         309cdd7fd1ff260773421b71df1b09155b97e5ee netfilter: rpfilter: mask ecn bits before fib lookup
-         57a6b4952dddf243a4f8ea9d9c951ada482df027 sh_eth: Fix power down vs. is_opened flag ordering
-         2682ac3ef14b8445a3ef48daf39c46e55499c607 ipv6: create multicast route with RTPROT_KERNEL
-         5305f9f94f4419a54d9931dd54fa7d7e41937244 net_sched: avoid shift-out-of-bounds in tcindex_set_parms()
+         40fb68c7725aee024ed99ad38504f5d25820c6f0 Revert "PCI/ASPM: Save/restore L1SS Capability for suspend/resume"
+         dd86e7fa07a3ec33c92c957ea7b642c4702516a0 Merge tag 'pci-v5.11-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
          
