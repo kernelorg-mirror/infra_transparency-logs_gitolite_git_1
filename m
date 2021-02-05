@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 05 Feb 2021 09:13:45 -0000
-Message-Id: <161251642569.22222.2280726638021223040@gitolite.kernel.org>
+Date: Fri, 05 Feb 2021 09:17:07 -0000
+Message-Id: <161251662734.24744.7897523940881569784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
-  - ref: refs/heads/for-5.12/logitech
-    old: e037acf0b1aed31cb5f3b09ccb602b4768c133d5
-    new: 4d30083301488199a9cef4ffa6ff15149474ebca
+  - ref: refs/heads/for-5.11/upstream-fixes
+    old: 179e8e47c02a1950f1c556f2b854bdb2259078fb
+    new: 2fad0abdfa0389ebb1c838220156804d63c39cb5
     log: |
-         4d30083301488199a9cef4ffa6ff15149474ebca HID: lg-g15: make a const array static, makes object smaller
+         d883312489df262501d635b706be43080b30f1ec HID: wacom: convert sysfs sprintf/snprintf family to sysfs_emit
+         2fad0abdfa0389ebb1c838220156804d63c39cb5 HID: displays: convert sysfs sprintf/snprintf family to sysfs_emit
          
   - ref: refs/heads/for-next
-    old: e71b0cd67ed7d03df7b87e563b03a35e1d487073
-    new: 99de398ef94b36bdd7f2e1ed6b778a801c1e97fc
+    old: 99de398ef94b36bdd7f2e1ed6b778a801c1e97fc
+    new: b40b4d472f136eaace2e62d89501d06db79bc2fa
     log: |
-         4d30083301488199a9cef4ffa6ff15149474ebca HID: lg-g15: make a const array static, makes object smaller
-         99de398ef94b36bdd7f2e1ed6b778a801c1e97fc Merge branch 'for-5.12/logitech' into for-next
+         d883312489df262501d635b706be43080b30f1ec HID: wacom: convert sysfs sprintf/snprintf family to sysfs_emit
+         2fad0abdfa0389ebb1c838220156804d63c39cb5 HID: displays: convert sysfs sprintf/snprintf family to sysfs_emit
+         b40b4d472f136eaace2e62d89501d06db79bc2fa Merge branch 'for-5.11/upstream-fixes' into for-next
          
