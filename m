@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1022084129137201485=="
+Content-Type: multipart/mixed; boundary="===============5089279470907461959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 05 Feb 2021 11:57:01 -0000
-Message-Id: <161252622156.11635.15740473675737639832@gitolite.kernel.org>
+Date: Fri, 05 Feb 2021 11:57:02 -0000
+Message-Id: <161252622200.11676.10267244226853672888@gitolite.kernel.org>
 
---===============1022084129137201485==
+--===============5089279470907461959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 60059b02327e614b30269caf594cd28dc30d3f7d
-    new: 6d97df3eadb5493dfe223e3ba097d70098eaa477
-    log: revlist-60059b02327e-6d97df3eadb5.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 5931cfeee8f6a0fde7901188a0e7121566a58116
+    new: 21db3d70736e47cf63ca267df5d0f47649e59046
+    log: revlist-5931cfeee8f6-21db3d70736e.txt
 
---===============1022084129137201485==
+--===============5089279470907461959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,43 +32,44 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612526220 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1612526213-fef78aa58635184f6c6cc5b7e9ca582bbcdd6936
 
-60059b02327e614b30269caf594cd28dc30d3f7d 6d97df3eadb5493dfe223e3ba097d70098eaa477 refs/heads/linux-4.4.y
+5931cfeee8f6a0fde7901188a0e7121566a58116 21db3d70736e47cf63ca267df5d0f47649e59046 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAdMowbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TQoP/RH9KrZ81NRFzj+BhqcU
-Azg6psl9VhYuJ/6K2PcGWuyy00thIiZokox35iR1K9CRDcMSx9f2Ld3nviji8PE8
-jHpKfJNY8EQXKCDg6EV+MagJW4LZSKvo83Cla/VvB0JhdiO73aH0tZJJwFUqWKHv
-JxgGYLH2wLMgW0abk7Fso9FbrPSiNB2WfsXGuW8+QcI0QMlZTptLQypAccM4URSu
-F8GMw4+poX/HQ09rte5o5UzVLwXmr6yd14fhnKawZcR1UZOArXPNpRmGRfTkptf3
-mFF8BD1DNgkEcETWoo2vvtQPR2vtNP/9YwHz0GqN3Q5K6kPJFNZ5RDTinJL20qya
-WFG349Q8N07mppdI4/9VGfvov2XXj30m12qMO0ItI5gi5m6EvVai90Hijape4u+i
-W2ksuZ2Jv8BTgL+3tNqz42uvAdXFsvi+WA7bLRp8DXx0zcUsZ1IYL16NH5zMNAum
-5z2UVxSZ9G7bILF2HyeGtCxtS4LTs8R3+u+Q9TS8p/P38V3X4WTjQO2s/yKdve/F
-eaHNghqT+SGwx+VpMuuQvwGqYJkZyrMzSxL884K4v1Oxb2bxw29jZ67My2D8H+i8
-Qm4unmBKyEbP7lL8Ykrv2XdxeTY0bYrGTqVSuHzAIfqFLEH4TaerCnVVAlkEU4Cb
-+1ruVvXzv4HuqpeI1LiMs81D
-=z8Gz
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gCYP+wU/dbH7Uia6qOyUvIAn
+y10uEltexal7/Bp9gMqV9O+SjuiJvd9SRdNhkQDALQCoZzMLHXbEm1ugLf5QzAcu
+1JKVYzl4nVRtjjCIx3LCOXtA8xgKLN9DEvB7FXaEG2R+e53slW+WNEI8kNMxgMTP
+kKyj+G7WuKqw34subJasRlE00gqMME+mtSlHxJxQXmd3B3f1eY1QdCEDirBpRuOu
+7ly9rGB49VNT6+WTFr0Fz4wVZTltPEXtcrN1XW3DB978YRY0x1ft3UCNBgsDWEOo
+9GCHR5Zjsbq6EeOZUHJ2RkDv9QEUJ8cRnILjw2PtxYab/Qi6atPOV0FFrveujyMP
+G5mnlI/txKx6DaVudIl2xyvVohQUilh1aE84g0QYP1CUcwRwUNxCf2otYAnN7/JX
+KXm99t5OBJzXWw1UaRZy1XeryXnCFSW5/HlWy92R3M0juzQr41z/yvevrZml0rcT
+D0vc+oIbEPl+GLVUYZmlWIJmf3dqVEIqagPe4IA5UdNutC3edwE3OnK7uqoeiTt5
+GTtXKvdjuQP+Le014quOkccGglJth5P3GIULnTcofm/f9pz6rum5YtoVFjtNNHsZ
+NjUiywE3yhgjKpU1Plio6dxGtHTmKWLJu5MsznZSM/o7bu20LZ1bL0u+0Q7iXIg2
+GfFdl9ZuLS/BIarH7a9ZYJEF
+=yqJ9
 -----END PGP SIGNATURE-----
 
---===============1022084129137201485==
+--===============5089279470907461959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60059b02327e-6d97df3eadb5.txt
+Content-Disposition: attachment; filename=revlist-5931cfeee8f6-21db3d70736e.txt
 
-24a235ab803dcdd9cb32ff7dd91f61964d542e6d net_sched: reject silly cell_log in qdisc_get_rtab()
-698af9922be9a2e74b85201592b3974f76716993 futex,rt_mutex: Provide futex specific rt_mutex API
-99396aa676c74635784ca73868d6bcc825a7d1e5 futex: Remove rt_mutex_deadlock_account_*()
-7ab8c952dca56605ce08f57d1c35c2ff85db6293 futex: Rework inconsistent rt_mutex/futex_q state
-ba829647e4c3da906977fc405137f6519ce9c258 futex: Avoid violating the 10th rule of futex
-e5094ffe0173ce4452a9c2a31d8eb427131f2ade futex: Replace pointless printk in fixup_owner()
-5d627495d0b97d9b10e6eba3b362824ff5d55ce8 futex: Provide and use pi_state_update_owner()
-955a8b1091ae23665dd47acca26e1b62f9e93f8a rtmutex: Remove unused argument from rt_mutex_proxy_unlock()
-1e09da370fd9e0e827593426370d14c2fd4de43b futex: Use pi_state_update_owner() in put_pi_state()
-922adcc43eb203c8edab5c452262059697b3bc22 futex: Simplify fixup_pi_state_owner()
-f20a4b1ec3e250f684049fc9cdb17f87f2a08ec1 futex: Handle faults correctly for PI futexes
-21ed70528f47dbe6e6d493437b78fe1cb8af11cd usb: udc: core: Use lock when write to soft_connect
-6d97df3eadb5493dfe223e3ba097d70098eaa477 Linux 4.4.256-rc1
+11c554947c861b7b556e779562dab826314de650 net: dsa: bcm_sf2: put device node before return
+e6bf71df1c52983e0989c83a9c4321d43c209fb8 net: switchdev: don't set port_obj_info->handled true when -EOPNOTSUPP
+d8c90378b8f4279aa55a6d53df8c28ca5cd21ade ibmvnic: Ensure that CRQ entry read are correctly ordered
+c7d7da5932b5283e9c1b4c5aa2ef778ec7c40eb3 Revert "Revert "block: end bio with BLK_STS_AGAIN in case of non-mq devs and REQ_NOWAIT""
+1233e51f4aec9900fc3bf621935980fca8c2b1fc ACPI: thermal: Do not call acpi_thermal_check() directly
+b6442e3eb353fccbca259d9d13a5e927b2faffbe arm64: Fix kernel address detection of __is_lm_address()
+3374683ae983478af6831badf991402b4123e5f3 arm64: Do not pass tagged addresses to __is_lm_address()
+261426a838d735e1b15c2222086ccb1c57f40631 tcp: make TCP_USER_TIMEOUT accurate for zero window probes
+c040c5d3919625e9e87365919c38d829525712c8 btrfs: backref, only collect file extent items matching backref offset
+90efddcbf11dbbd3b9a81328c5b97eb78ff8939f btrfs: backref, don't add refs from shared block when resolving normal backref
+32d329e415797b71e4fb4da90b42a5d4eb5a5103 btrfs: backref, only search backref entries from leaves of the same root
+2f6bf73c80786b0e68a2379df94bc5a7b741a01d btrfs: backref, use correct count to resolve normal data refs
+07c61eeb400f44b7413d43f58a1fb18af61f496b net_sched: gen_estimator: support large ewma log
+21db3d70736e47cf63ca267df5d0f47649e59046 Linux 5.4.96-rc1
 
---===============1022084129137201485==--
+--===============5089279470907461959==--
