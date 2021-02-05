@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7229451423640577876=="
+Content-Type: multipart/mixed; boundary="===============7356372045422170455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 05 Feb 2021 14:06:57 -0000
-Message-Id: <161253401745.2757.13786677942435715253@gitolite.kernel.org>
+Date: Fri, 05 Feb 2021 14:07:03 -0000
+Message-Id: <161253402319.2921.18272438625799491321@gitolite.kernel.org>
 
---===============7229451423640577876==
+--===============7356372045422170455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,79 +16,104 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: e89428970c23011a2679121c56e9f54f654c6602
-    new: da7c9d56bab5c4eb00d9d1545fcdc390ce75e001
-    log: revlist-e89428970c23-da7c9d56bab5.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 0c245c5fe93f0e9769de4a8b31f129b2759bf802
+    new: 58d18d6d116af323f12152b2e84a9e859a6d52dd
+    log: revlist-0c245c5fe93f-58d18d6d116a.txt
 
---===============7229451423640577876==
+--===============7356372045422170455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612534016 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612534021 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1612534015-a0db97ddf0452c87f0d4721648e6e56aef139d28
+nonce 1612534019-fb551051e19af00df3081cd2a20f364acb3f3c65
 
-e89428970c23011a2679121c56e9f54f654c6602 da7c9d56bab5c4eb00d9d1545fcdc390ce75e001 refs/heads/linux-5.4.y
+0c245c5fe93f0e9769de4a8b31f129b2759bf802 58d18d6d116af323f12152b2e84a9e859a6d52dd refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAdUQAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L/8P+wY5HaD6Osz74tI7vvk0
-QElMqGBSpY3U00f9ZTldZy1vHtcwQ4LtTgLo04ClQhYxbymebKZIUgy6bKumqVgl
-AMr47E1KGMGjddY2/gBBjW+BJYnXRxc9MXEc6ET4ufx2VZHryY7CQ1UWrmDAKY7H
-SQhIBuAQFY4gd26cXhS8RdBFJhaxba3bz3HhCeja1yVYK6ixGexPiNMhSfDpwPI9
-sar509wGm0E9hpO2o8cKZ+KIviCp+gyftyKxifGQRL7Hn7fn++6T7vJiCWsAo8fv
-dEHlra0+/M1ZCUKF2KNyxu12xWfyMkx7LwMaaHqdXuYq73flDoiSbNLBQINn6386
-gsMuf8WYXMV8g5ibLlZ4ICDJPALtfNPnyXIXWYh4d99YEZd35OCryNuxn8kPXi85
-YIxYtYU1r40otMhNSDAq5T5VOmkKC9v86GhV4pc2OfNrJiKjsJwsGHJBPssvSZLM
-XoOxmlAPI/K/Cu59UjBz+j/iJ6BWIBhh/CfUZ5hC4otYNCmiEP2QsH4ru34/BMfN
-YSKxs5/5nToNb0rAbybLRfIQ9CcGH4S/BmDyJH8bafBoNdVmRTF68jZLceE/ELWu
-MZo4XQh0EfI99GlYTLgFluLXeN8lrSOmEfULhPkjEWDqYB5vShUAW1+9eT/+cWq5
-q1iCRQN2NIxkOQQMM1NgXMvP
-=r/AX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAdUQUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0lkQANAw4iWem8EATAk0AlMp
+mL3xc/6nirl4tcy0bJmN59CCzQVrseI8FsvF+FmdqAf9a1nPBw3867c0vtcwwjFd
+JnbGp4o+n6JtOPSvC3UsD1wTpauVfMk7DAnvBR5Wnlo2QNtSGKFOV0qNHXz3eCN8
+wyircv5dD6Bc+KV8SwqrmqaVoeM489xPI4rj7TV3tR9DkErcdtN2SoyrTqav4SmX
+Wxun2QYr3UxZxbk4XWM7F0vJDuSIdZsgbN5C3FsIdbVL1qFnJyewlNx5OJZj5EHY
+HgAxPQ3meoT8rAMXYZSSUm7s9Iqbx00Bn7wQIE49II5GXlP6I+q0/D+R1/l+zPYm
+rNr3fGKPAdUita0IFQlrg4Jr0c407B4yeWp92cZ2C+rOr1ZnokJCwwgygnW2gCoD
+iiD3dpEzVdS3iTVZhlfgP9Xoy9HSetRrqHBkPbx/a/Ysbs7hHlI9/XB2HAkB5ZT7
+BZCCBVfmvF59CzJo9UXic28dxETKT4bGpvkElYLdx7aMOL0FwSv7SZx57CEI1TGW
+nf5ScEF9PeEwLzvno9WJ10VexHIWLY1ANewhQQU9E2z/snQVqy6rnIJdHMsUifPP
+W8ARNsLi0R1raufn5e+zwipv3VOwyFBC/v/S24AZaW4ccLMgkACEjoLzufJkHRrE
+rcIb2JM22az136dGBQgUPqqm
+=/Qc8
 -----END PGP SIGNATURE-----
 
---===============7229451423640577876==
+--===============7356372045422170455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e89428970c23-da7c9d56bab5.txt
+Content-Disposition: attachment; filename=revlist-0c245c5fe93f-58d18d6d116a.txt
 
-a7c0778be69d660b905dc52155f0367a536c7bd3 net: dsa: bcm_sf2: put device node before return
-f9f7ed89efab082f59ecb17466248faa51020556 net: switchdev: don't set port_obj_info->handled true when -EOPNOTSUPP
-fd5334a3ef438b765a7316ced459e7f40d42e1f4 ibmvnic: Ensure that CRQ entry read are correctly ordered
-9385af6704c4ef7144e543ab80967804ec222021 Revert "Revert "block: end bio with BLK_STS_AGAIN in case of non-mq devs and REQ_NOWAIT""
-64efa80dada86ffc30e24d9fc2241894c3f1cf9e ACPI: thermal: Do not call acpi_thermal_check() directly
-50f87121b43f3d39e671835f5c29ac724d95ab58 arm64: Fix kernel address detection of __is_lm_address()
-73ab8be051a06d039e10961881f89dec78530241 arm64: Do not pass tagged addresses to __is_lm_address()
-d2fcd59549ca9dbb496fffd40d7e4a20acfc1463 tcp: make TCP_USER_TIMEOUT accurate for zero window probes
-7a1f22b1c113b4eee61cb4da9cf4ffdc0393dcc6 btrfs: backref, only collect file extent items matching backref offset
-48fd2f5ccb9c1a337f7512ff54e558914ae70895 btrfs: backref, don't add refs from shared block when resolving normal backref
-d80185b4f94bbaa7626e2a9d613fc87283bf1e42 btrfs: backref, only search backref entries from leaves of the same root
-a652e39c91c044289b8da0e703452dde53bd726c btrfs: backref, use correct count to resolve normal data refs
-ad0a2d3a50091ad1f046c719daaca6171ab731d6 net_sched: gen_estimator: support large ewma log
-a70af77811e4672203fed2035f09d1101c4a4ebe phy: cpcap-usb: Fix warning for missing regulator_disable
-5a0cf3dd4b43972a84a9dd0866c4a031d9dd34d8 platform/x86: touchscreen_dmi: Add swap-x-y quirk for Goodix touchscreen on Estar Beauty HD tablet
-6a985ec1197208b2cef97b50b0ef835914f083b2 platform/x86: intel-vbtn: Support for tablet mode on Dell Inspiron 7352
-cd94e3a11093866a171e8b67a7dbfafa9bdd87fe x86: __always_inline __{rd,wr}msr()
-1477409dd7f19c821ecd70828c7d8395d721ec22 scsi: scsi_transport_srp: Don't block target in failfast state
-636cbc9d2ec58a94255de9a5dd6aabe50519eddd scsi: libfc: Avoid invoking response handler twice if ep is already completed
-210890334d21086b1b4ebd87f3209b9ee30a7afb scsi: fnic: Fix memleak in vnic_dev_init_devcmd2
-6ddb532056d1c1dd7e54e24bae5406d22df4e86f ASoC: SOF: Intel: hda: Resume codec to do jack detection
-3c85a2869354aca65f4cc8e414cd63a54dd86fa2 mac80211: fix fast-rx encryption check
-c6aa4781870be3b1d61e596d9aceeccc619c848c scsi: ibmvfc: Set default timeout to avoid crash during migration
-b579c16e16f993edce9bc84b084b6b90a63ced42 ALSA: hda: Add Cometlake-R PCI ID
-21627fca96c137335225c260af1f6c14390f53a2 udf: fix the problem that the disc content is not displayed
-ac11c8707080d9b1b3f22e9d6b56c593af8b5d1f nvme: check the PRINFO bit before deciding the host buffer length
-18ec383527db5ea1eb5034251a58398990328cd8 selftests/powerpc: Only test lwm/stmw on big endian
-92b2cffd5e82bb9d9cf49e9cba3c65167db94a05 drm/amd/display: Update dram_clock_change_latency for DCN2.1
-be7954f40299c651bf94e30b30897f65db895d45 drm/amd/display: Change function decide_dp_link_settings to avoid infinite looping
-24bf2d628fb5e0c8f5c00779629643a1ae406536 objtool: Don't fail on missing symbol table
-40d5e98e9c7d45d45ed40c064bc2a33698bc1e0f kthread: Extract KTHREAD_IS_PER_CPU
-febe6d130dd49ab729e2164d172d011739fbeefd workqueue: Restrict affinity change to rescuer
-da7c9d56bab5c4eb00d9d1545fcdc390ce75e001 Linux 5.4.96-rc1
+f5921f5aada0d51375599e02544c99e5e13a970c net: dsa: microchip: Adjust reset release timing to match reference reset circuit
+356c777925334f3f0085546c9403bdfded91fbf4 net: stmmac: dwmac-intel-plat: remove config data on error
+0b6f8823a9c6eac5ee92e59ec26ac4507326709c net: fec: put child node on error path
+1e4533613d50bb3b67031237289bb5854e16a19f net: octeontx2: Make sure the buffer is 128 byte aligned
+d8fe2310c37acf37d10f7ce6b931938d8f9bf590 stmmac: intel: Configure EHL PSE0 GbE and PSE1 GbE to 32 bits DMA addressing
+db15e6c75a546e2d8e10470ae5303944e185f1ec mlxsw: spectrum_span: Do not overwrite policer configuration
+af1c743d2d6dbb70da40765c3128b37a50da8858 net: dsa: bcm_sf2: put device node before return
+80094cedc509b58783116da45a55b8315e376819 net: switchdev: don't set port_obj_info->handled true when -EOPNOTSUPP
+a5c6957d72084ae866c38c6905619ab9e376067e ibmvnic: Ensure that CRQ entry read are correctly ordered
+da1f23168e54fb4c6a06f3951088350ce807d0e3 iommu/io-pgtable-arm: Support coherency for Mali LPAE
+875b813a35564b7419e539dbc3d5a4dacc9fd6a2 drm/panfrost: Support cache-coherent integrations
+2b11515c6b68df714806998ee261900d2f66dda0 arm64: dts: meson: Describe G12b GPU as coherent
+2ab4dd7633aba6467c273c71cc4c31ca6a595d3c arm64: Fix kernel address detection of __is_lm_address()
+7e20677686081ae960fb98192c8501bb19a801e2 arm64: Do not pass tagged addresses to __is_lm_address()
+9e7ceae446e29453e2484d74ea9b2d4b45753cce Revert "x86/setup: don't remove E820_TYPE_RAM for pfn 0"
+0a22020acd6c2e1ea0bdff5d4c39c10aa4076c97 ARM: 9025/1: Kconfig: CPU_BIG_ENDIAN depends on !LD_IS_LLD
+686951f00bae887bc2ff8ac6c4bd6d57a482a150 iommu/vt-d: Do not use flush-queue when caching-mode is on
+39c57d57159936b27c6b1b024a3982365ffa3232 phy: cpcap-usb: Fix warning for missing regulator_disable
+c129134c67d285353c3953857acbe5aa138a7a03 tools/power/x86/intel-speed-select: Set scaling_max_freq to base_frequency
+3b1d7406fa09ef12023c4312e4cb5da9850fd128 tools/power/x86/intel-speed-select: Set higher of cpuinfo_max_freq or base_frequency
+2890bd4fd7ab94de77f0cad7daa9af7e340b412c platform/x86: touchscreen_dmi: Add swap-x-y quirk for Goodix touchscreen on Estar Beauty HD tablet
+901bf40c409acdc5f8748bd7025ef7fef91bb6b9 platform/x86: intel-vbtn: Support for tablet mode on Dell Inspiron 7352
+4af40be28daabfdee854a6856e1e92175131ef3f habanalabs: fix dma_addr passed to dma_mmap_coherent
+f68e193e4cd4d3fad8ec9e8eecb2076dd5c8a2f6 locking/lockdep: Avoid noinstr warning for DEBUG_LOCKDEP
+020c0bc663b8bf2bab3dd5dc89951a50cc904b78 x86: __always_inline __{rd,wr}msr()
+f9ee03219b4a39a2b0050a5bf94af24fa16b1224 scsi: scsi_transport_srp: Don't block target in failfast state
+f311864afa46dc4aec936b6164c6721fc619e19e scsi: libfc: Avoid invoking response handler twice if ep is already completed
+e85dc2d4f9e2cf60d6e39ec11238d432948f83d9 scsi: fnic: Fix memleak in vnic_dev_init_devcmd2
+895d8f03728afd6925cf9931e96fc58d2cf7e363 ASoC: SOF: Intel: hda: Resume codec to do jack detection
+3426182e5d746f39903dc129146aac6455722746 ALSA: hda: Add AlderLake-P PCI ID and HDMI codec vid
+09d56db61f620960ba033849cb3949ce5e07c6b2 objtool: Don't add empty symbols to the rbtree
+f177c0ab5388b9ae330840b41c622e74c62623b4 mac80211: fix incorrect strlen of .write in debugfs
+4c568bae9739f0f4a918a31503d76a7381d7ae14 mac80211: fix fast-rx encryption check
+aa183930496518ffa8db1867483d5e373b7a5cb8 mac80211: fix encryption key selection for 802.3 xmit
+afc89e9c0d2804306bd757e8980079a83ab78f09 scsi: ibmvfc: Set default timeout to avoid crash during migration
+cf2d04dbdc48c135b473549fb939cf3d849c840a ALSA: hda: Add Cometlake-R PCI ID
+44e0546fd87ae1b675ee603f9fa6857247127d93 i2c: tegra: Create i2c_writesl_vi() to use with VI I2C for filling TX FIFO
+d26fef191bb8dcd21b62e19628e97804ce7e52f1 udf: fix the problem that the disc content is not displayed
+8c294452692f6b59f0d80e0b60168ec31d9197a2 nvme: check the PRINFO bit before deciding the host buffer length
+4a00e2f0fd3914a4d3cfe1a6a93d31a181fa720a nvme-rdma: avoid request double completion for concurrent nvme_rdma_timeout
+53167c1041d6b0769cc1b2876871318d7fa936f2 nvme-tcp: avoid request double completion for concurrent nvme_tcp_timeout
+263189d53175546d15b6eb7eca19b7686d4c9208 nvme-pci: allow use of cmb on v1.4 controllers
+02af82f5e20259b16e2156289fb17b47fca8d92b nvmet: set right status on error in id-ns handler
+60671238453ac785544dfe56ec9cd041cb7cb778 platform/x86: thinkpad_acpi: Add P53/73 firmware to fan_quirk_table for dual fan control
+c906dce37f1bb9b5b0e3d178227bb132fddc82a5 selftests/powerpc: Only test lwm/stmw on big endian
+8ec126a3f6553ffdf1114d577102d0649e7ef080 drm/amd/display: Update dram_clock_change_latency for DCN2.1
+8d58a120e5d8a0df1ce2570c87f1970419b33da1 drm/amd/display: Allow PSTATE chnage when no displays are enabled
+4a60810f98ce5998b218e42d9fafa2056ba03a83 drm/amd/display: Change function decide_dp_link_settings to avoid infinite looping
+7dce6ede788ea351060bd6769706a9e9512da04e drm/amd/display: Use hardware sequencer functions for PG control
+3d014ef6dacf671cb1520d6bfac6f48921b1aa0b drm/amd/display: Fixed corruptions on HPDRX link loss restore
+ca478c441392fbde8330beceb27b70d45b1fab4f habanalabs: zero pci counters packet before submit to FW
+3ab4b9c678d539a15a4bb25f5ee7e216c6456adf habanalabs: fix backward compatibility of idle check
+d6a5942282e33bacb2f8722aa1a1d59bba5adafe habanalabs: disable FW events on device removal
+466c5acd33337bffdba582a75231de0bc0ca3142 objtool: Don't fail the kernel build on fatal errors
+0a7f5c7002cdb26c9ab04a5ad162f8c169a9fd33 x86/cpu: Add another Alder Lake CPU to the Intel family
+821f6394c9e2ec3273362c4ea7626c74b55a83d8 kthread: Extract KTHREAD_IS_PER_CPU
+c0f47ade3f7d71d3a41601a13e03b55f940920e7 workqueue: Restrict affinity change to rescuer
+58d18d6d116af323f12152b2e84a9e859a6d52dd Linux 5.10.14-rc1
 
---===============7229451423640577876==--
+--===============7356372045422170455==--
