@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 05 Feb 2021 12:35:46 -0000
-Message-Id: <161252854694.2627.15060785566086020344@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 05 Feb 2021 12:39:58 -0000
+Message-Id: <161252879832.4219.4156833920022644801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 5f8da9ef1c5d88b9a6de64ad33d98e2edd58ce89
-    new: 1d00b1be1a719272d5afcfff7422be7bddcc5188
+  - ref: refs/heads/master
+    old: 9949d1b63d2ac5d50ada29e555acf7e0a60ffb35
+    new: a418867f9d86eecbb189667d19db4628da15eb40
     log: |
-         f1b8f26eecc1aff5f0923327d092c04f90a10b1b cpufreq: ACPI: Extend frequency tables to cover boost frequencies
-         add4cf1002e2af08f84fa3ce4a83a9e8f778017f cpufreq: ACPI: Update arch scale-invariance max perf ratio if CPPC is not there
-         1d00b1be1a719272d5afcfff7422be7bddcc5188 Merge branch 'pm-cpufreq-fixes' into bleeding-edge
+         eefa541cd573a1278c0fd7052bcef8dff1dcdf56 Fixes for 5.10
+         1f14b50267d6daf49e516b86f5608a2ad1d6e24a Fixes for 5.4
+         ed5ae8b71bdef43ba9f51695b3cb2e30ed23cb8a Fixes for 4.19
+         8a93337b2738d5e5a192ce670ce3e8e5aa39e7bc Fixes for 4.14
+         f384b9213b3f1baee1d1f7775d1bd74964caba6e Fixes for 4.9
+         a418867f9d86eecbb189667d19db4628da15eb40 Fixes for 4.4
          
