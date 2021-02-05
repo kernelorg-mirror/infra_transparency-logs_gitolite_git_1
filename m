@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Fri, 05 Feb 2021 17:49:28 -0000
-Message-Id: <161254736878.9326.17615225235995990390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 05 Feb 2021 18:01:31 -0000
+Message-Id: <161254809132.16754.11109179350350299129@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/gfs2-revoke
-    old: 1390debe28b564d4a2df4fceb4d148b93b889a47
-    new: 201ec458e7c12b02373a4da2198da6c3b5870d5d
+  - ref: refs/heads/wip/jgg-for-next
+    old: 131796524fa346553d9a325ed77bbee0b63d0ca9
+    new: f2b5f0927ad92b591b2ed1083d5ce26164de8c9c
     log: |
-         caaecab58cab559e1a08ecb6a08d92d64968d553 gfs2: Rework the log space allocation logic
-         201ec458e7c12b02373a4da2198da6c3b5870d5d gfs2: Per-revoke accounting in transactions
+         7d9ae80e31df57dd3253e1ec514f0000aa588a81 RDMA/rxe: Fix coding error in rxe_recv.c
+         e328197423e09094aff48619ebef6671ff64d3b2 RDMA/rxe: Remove useless code in rxe_recv.c
+         8fc1b7027fc162738d5a85c82410e501a371a404 RDMA/rxe: Fix coding error in rxe_rcv_mcast_pkt
+         5120bf0a5fc15dec210a0fe0f39e4a256bb6e349 RDMA/rxe: Correct skb on loopback path
+         f2b5f0927ad92b591b2ed1083d5ce26164de8c9c RDMA/rxe: Fix FIXME in rxe_udp_encap_recv()
          
