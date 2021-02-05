@@ -1,68 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============2738191353952783639=="
+Content-Type: multipart/mixed; boundary="===============4270816511160100036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 05 Feb 2021 08:02:14 -0000
-Message-Id: <161251213457.26105.13296447310573912871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
+Date: Fri, 05 Feb 2021 08:07:55 -0000
+Message-Id: <161251247542.29003.11083316121253187841@gitolite.kernel.org>
 
---===============2738191353952783639==
+--===============4270816511160100036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jberg/mac80211
+user: jberg
 changes:
-  - ref: refs/tags/for-linus
-    old: 80a45e9e7a1a10b4fe1766365f0e5a282bb97b4b
-    new: a227a183af495549634a95fbe7042e9a87729c04
-    log: revlist-80a45e9e7a1a-a227a183af49.txt
+  - ref: refs/heads/master
+    old: 3aaf0a27ffc29b19a62314edd684b9bc6346f9a8
+    new: b3d2c7b876d450e1d2624fd67658acc96465a9e6
+    log: revlist-3aaf0a27ffc2-b3d2c7b876d4.txt
 
---===============2738191353952783639==
+--===============4270816511160100036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-3aaf0a27ffc2-b3d2c7b876d4.txt
 
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1612512133 -0500
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1612512132-40fe9bb4ae1234823cf5c36d57cd1032210737f9
+a4dc7eee9106a9d2a6e08b442db19677aa9699c7 NET: usb: qmi_wwan: Adding support for Cinterion MV31
+b1bdde33b72366da20d10770ab7a49fe87b5e190 netfilter: xt_recent: Fix attempt to update deleted entry
+a3005b0f83f217c888393c6bf9cd36e3d1616bca selftests: netfilter: fix current year
+767d1216bff82507c945e92fe719dff2083bb2f4 netfilter: nftables: fix possible UAF over chains from packet path in netns
+8d6bca156e47d68551750a384b3ff49384c67be3 netfilter: flowtable: fix tcp and udp header checksum update
+2a80c15812372e554474b1dba0b1d8e467af295d net/qrtr: restrict user-controlled length in qrtr_tun_write_iter()
+d795cc02a297df80910cf4ba23147680d15d8a7d selftests/tls: fix selftest with CHACHA20-POLY1305
+ec7d8e7dd3a59528e305a18e93f1cb98f7faf83b xen/netback: avoid race in xenvif_rx_ring_slots_available()
+3401e4aa43a540881cc97190afead650e709c418 cxgb4: Add new T6 PCI device id 0x6092
+7b5eab57cac45e270a0ad624ba157c5b30b3d44d rxrpc: Fix clearance of Tx/Rx ring when releasing a call
+81b8be68ef8e8915d0cc6cedd2ac425c74a24813 net: hdlc_x25: Return meaningful error code in x25_open
+1d23a56b0296d29e7047b41fe0a42a001036160d net: ipa: set error code in gsi_channel_setup()
+52cbd23a119c6ebf40a527e53f3402d2ea38eccb udp: fix skb_copy_and_csum_datagram with odd segment sizes
+12bc8dfb83b5292fe387b795210018b7632ee08b hv_netvsc: Reset the RSC count if NVSP_STAT_FAIL in netvsc_receive()
+07bf34a50e327975b21a9dee64d220c3dcb72ee9 net: enetc: initialize the RFS and RSS memories
+8fd54a73b7cda11548154451bdb4bde6d8ff74c7 net: dsa: call teardown method on probe failure
+647b8dd5184665432cc8a2b5bca46a201f690c37 selftests: txtimestamp: fix compilation issue
+b3d2c7b876d450e1d2624fd67658acc96465a9e6 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
 
-80a45e9e7a1a10b4fe1766365f0e5a282bb97b4b a227a183af495549634a95fbe7042e9a87729c04 refs/tags/for-linus
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmAc+4UUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroP5pwf/cy0MFA6vDPrc56dbDRMF6elu0FsI
-3JuliKsYShhe/QM6sBXLWe9hJtd570LblCCaVodWUXbCgFPYoJt2KbbXw/FzBWhx
-vd8F7QXCsWk4fTD0X5cJtJzpnetTAUFF0jAUdBvL/MwwDRBBS11anBp/veMlLKwl
-GIqyy3T3rVAC+GhIpz32Xoe9+O8jcLgVQjQ/yyvjZBbDXGT9zviCawCZb+PkkSWH
-+0C0LXabqtL2zpxodDoLVKJUSIxE2q1D7yGzqzo0oyQPqr/2nmj2TfFQl0wRCJL5
-iUvpVUYE9r8NVv4d4muwPbVvN5IfJ6ELzQy4d4Zf6ZCmtF6lXPFwnuFgEA==
-=QkRT
------END PGP SIGNATURE-----
-
---===============2738191353952783639==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80a45e9e7a1a-a227a183af49.txt
-
-e500b805c39daff2670494fff94909d7e3d094d9 KVM: arm64: Don't clobber x4 in __do_hyp_init
-181f494888d5b178ffda41bed965f187d5e5c432 KVM: x86: fix CPUID entries returned by KVM_GET_CPUID2 ioctl
-074489b77a37c61c0b090d63b2731a951064fd70 Merge tag 'kvmarm-fixes-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-ae000861b95cc4521c498430eb9c61ad62cea51c KVM: Documentation: Fix documentation for nested.
-19a23da53932bc8011220bd8c410cb76012de004 Fix unsynchronized access to sev members through svm_register_enc_region
-7131636e7ea5b50ca910f8953f6365ef2d1f741c KVM: x86: Allow guests to see MSR_IA32_TSX_CTRL even if tsx=off
-b66f9bab1279c281c83dea077c5e808527e3ef69 KVM/x86: assign hva with the right value to vm_munmap the pages
-4683d758f48e6ae87d3d3493ffa00aceb955ee16 KVM: x86: Supplement __cr4_reserved_bits() with X86_FEATURE_PCID check
-943dea8af21bd896e0d6c30ea221203fb3cd3265 KVM: x86: Update emulator context mode if SYSENTER xfers to 64-bit mode
-ccd85d90ce092bdb047a7f6580f3955393833b22 KVM: SVM: Treat SVM as unsupported when running as an SEV guest
-c1c35cf78bfab31b8cb455259524395c9e4c7cd6 KVM: x86: cleanup CR3 reserved bits checks
-87aa9ec939ec7277b730786e19c161c9194cc8ca KVM: x86/mmu: Fix TDP MMU zap collapsible SPTEs
-031b91a5fe6f1ce61b7617614ddde9ed61e252be KVM: x86: Set so called 'reserved CR3 bits in LM mask' at vCPU reset
-
---===============2738191353952783639==--
+--===============4270816511160100036==--
