@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Fri, 05 Feb 2021 17:40:15 -0000
-Message-Id: <161254681598.4944.12195284509149347728@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 05 Feb 2021 17:41:57 -0000
+Message-Id: <161254691788.5642.9550216306024589012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/devel
-    old: 26b300a97e4548d749cebdbd6d52f90d78d42a07
-    new: fe58f1f91902132305641a69ec41998879278edc
+  - ref: refs/heads/wip/jgg-for-next
+    old: b53005d66bb0c3939790d89702333f89ce556c5b
+    new: 131796524fa346553d9a325ed77bbee0b63d0ca9
     log: |
-         fe58f1f91902132305641a69ec41998879278edc wireguard: queueing: get rid of per-peer ring buffers
-         
-  - ref: refs/heads/stable
-    old: 2370a0170e465fc4a8e06fcbc595fd9a18c8ca42
-    new: b9e684afd9e19ac87f05f284548c76bf9c91ea75
-    log: |
-         b9e684afd9e19ac87f05f284548c76bf9c91ea75 crypto: lib/chacha20poly1305 - define empty module exit function
+         3ce60f443b143e649aa26cd3f668d645434647ac IB/mlx5: Move mlx5_port_caps from mlx5_core_dev to mlx5_ib_dev
+         2019d70e919f01c43975b8d9ea2803b890eabba9 IB/mlx5: Avoid calling query device for reading pkey table length
+         7a58779edd75c37352917e8fbc7769efce0e65b6 IB/mlx5: Improve query port for representor port
+         7416790e22452bfa86de6b55638eacf7780c8f6f RDMA/core: Introduce and use API to read port immutable data
+         131796524fa346553d9a325ed77bbee0b63d0ca9 IB/mlx5: Use rdma_for_each_port for port iteration
          
