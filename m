@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1756416615329877108=="
+Content-Type: multipart/mixed; boundary="===============3204182550419312064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 05 Feb 2021 14:56:05 -0000
-Message-Id: <161253696537.608.9423555852629721334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 05 Feb 2021 14:56:13 -0000
+Message-Id: <161253697312.745.2710763444632867284@gitolite.kernel.org>
 
---===============1756416615329877108==
+--===============3204182550419312064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: e681b1a6d706b4e54c3847bb822531b4660234f3
     new: b976a5adf32eee7db928b5b77cffa3b008ebf2ff
     log: |
@@ -30,28 +30,28 @@ changes:
          b976a5adf32eee7db928b5b77cffa3b008ebf2ff Merge series "ASoC: SOF/Intel/SoundWire: add missing quirks and DMIC support" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
          
 
---===============1756416615329877108==
+--===============3204182550419312064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1612536916 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1612536962-f869a392c91b86556a53b7e255ad184fd8334d7c
+pusher C3F436CA30F5D8EB 1612536924 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1612536970-f88da52ab31b756eff96cc59ecbdbabedafd852c
 
-e681b1a6d706b4e54c3847bb822531b4660234f3 b976a5adf32eee7db928b5b77cffa3b008ebf2ff refs/heads/for-5.11
+e681b1a6d706b4e54c3847bb822531b4660234f3 b976a5adf32eee7db928b5b77cffa3b008ebf2ff refs/heads/asoc-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAdXFQACgkQJNaLcl1U
-h9Ctfgf/bSxmy5EbBVT39pmaQLQJLGMh1Yb5C/3raGPOvzacD3PCRP9HB46ifTun
-vXEcIc1IrmtA7knHtiztVC5dfGRlie1R+55TF5TOZw34XM1c2ofouCzTWN6UaS0m
-e7H1MiW7nDNxLeLDb+WjEhnC9n8NAj9GD0TPxkExSRvdOlI9hPhJR9AdteM1asqW
-uwd12pNF2HIGHmMxblo8fsKaM5xqHVwYfbA4g2kVqkY4hPxI+8MOWimOJhIQaZfH
-CaHIJPRFn7v+ZfmoOQi2K/x45RrtwvraHRtv6zhaiESaD5UffQxDrNc/5+xFD5U3
-0DFxgUb/J5jPqSlWfrmcapSqk3BpGw==
-=kx8V
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAdXFwACgkQJNaLcl1U
+h9Ctwwf/eGdFpiGQPvTL7jL0sBtHJcyt8p+ay8BgfpDemsdywY+fcPHdKIynWrCA
+AtzoiTe6JqJ+bNdjSa2Ob6V8JpDqkIXH+eS1IP6R/lHsqq0HiHgn3FHGj9yAQQ1+
+ftBIk+ll3NlYlyMqpZpsZSOi+/DACkDWduMYIc+ENPyHiUXBUOcPYJOzQDIGOu/9
+2fIz5nPn5a6LZ6+IjjF7zLyzp9IfBINsATTK9hCtzc9vhRrazNqWQQHqrNRIDEO2
+A8Id74bqxJRQjqbcB3z29pb0oTtZXvA2SFjm52CxlD2BqxIwJk2lrQlqGeoN/6gC
+d0pp/nSdDyZmEdnvZpqXbLZKll/3Ug==
+=Lvun
 -----END PGP SIGNATURE-----
 
---===============1756416615329877108==--
+--===============3204182550419312064==--
