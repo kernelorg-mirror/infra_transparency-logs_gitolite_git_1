@@ -1,105 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============2968879781264763600=="
+Content-Type: multipart/mixed; boundary="===============2738191353952783639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 05 Feb 2021 07:11:00 -0000
-Message-Id: <161250906074.29735.11580988142323960759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Fri, 05 Feb 2021 08:02:14 -0000
+Message-Id: <161251213457.26105.13296447310573912871@gitolite.kernel.org>
 
---===============2968879781264763600==
+--===============2738191353952783639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: de3daf4733041a4fa41e6bfaa8e198e09aec704e
-    new: 73b0dbfe84596b4aa3dd6321508b247c0d0539d7
-    log: |
-         ea82c4494159b1d01841d207c8fe57f3f94833fb net: dsa: bcm_sf2: put device node before return
-         0e4182633ffd59afc6118ec433dcf1b77f0be39e ibmvnic: Ensure that CRQ entry read are correctly ordered
-         9913c27ff530bc4d13c998b1ba3955ef6d1f7765 ACPI: thermal: Do not call acpi_thermal_check() directly
-         73b0dbfe84596b4aa3dd6321508b247c0d0539d7 net_sched: reject silly cell_log in qdisc_get_rtab()
-         
-  - ref: refs/heads/queue/4.19
-    old: 36b41f5cc5e5fdd48923138320334c2d1eae3467
-    new: 00c3d82a047911b48a45c3894c7d04c6d90c1cd2
-    log: |
-         348cc09766da473c4699f40cacf2337d6ab1a97b net: dsa: bcm_sf2: put device node before return
-         4efc4847f157fec4e937da0f30aefd1b52ab0966 ibmvnic: Ensure that CRQ entry read are correctly ordered
-         00c3d82a047911b48a45c3894c7d04c6d90c1cd2 ACPI: thermal: Do not call acpi_thermal_check() directly
-         
-  - ref: refs/heads/queue/4.4
-    old: 59468a62b7657b0803d1f377d392775b5edecc0b
-    new: 747a76b66d28b6808063a458e1bd7f04d190151d
-    log: |
-         747a76b66d28b6808063a458e1bd7f04d190151d net_sched: reject silly cell_log in qdisc_get_rtab()
-         
-  - ref: refs/heads/queue/4.9
-    old: 43203066862ff13ca7655349f443c84387174832
-    new: 4073287b490087c61d4957d02f2ea7262806e200
-    log: revlist-43203066862f-4073287b4900.txt
-  - ref: refs/heads/queue/5.10
-    old: 1338c0e85347119aa09117f2d0816499ba2c1714
-    new: 57e419dd2516b60fcf487c832b0d733bd2455a46
-    log: revlist-1338c0e85347-57e419dd2516.txt
-  - ref: refs/heads/queue/5.4
-    old: fa04fbb8e98b2e040ebeae8e9923d2974752d80a
-    new: 0a2f09bafabe0e92df1117854c23dc83e915fb1e
-    log: |
-         307195735e128e83d4f1a68941a0814591130cc5 net: dsa: bcm_sf2: put device node before return
-         a1af71b782b458f918d867b0e306d671672dd0e8 net: switchdev: don't set port_obj_info->handled true when -EOPNOTSUPP
-         859ab1380c6ae607aa111c0c9e93459f02079855 ibmvnic: Ensure that CRQ entry read are correctly ordered
-         745944c60452804923b676fe5aa4b88e7b414058 Revert "Revert "block: end bio with BLK_STS_AGAIN in case of non-mq devs and REQ_NOWAIT""
-         0e15538ff72f5c24d57af73b06fc0e11a4929b31 ACPI: thermal: Do not call acpi_thermal_check() directly
-         57d4fe80a14339c64998f7452351e08c33d009f2 arm64: Fix kernel address detection of __is_lm_address()
-         584cc8e55177a0c001054ebe7088ff7e63de8fe6 arm64: Do not pass tagged addresses to __is_lm_address()
-         0a2f09bafabe0e92df1117854c23dc83e915fb1e tcp: make TCP_USER_TIMEOUT accurate for zero window probes
-         
+  - ref: refs/tags/for-linus
+    old: 80a45e9e7a1a10b4fe1766365f0e5a282bb97b4b
+    new: a227a183af495549634a95fbe7042e9a87729c04
+    log: revlist-80a45e9e7a1a-a227a183af49.txt
 
---===============2968879781264763600==
+--===============2738191353952783639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-43203066862f-4073287b4900.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0184fccd80613fa7a267f4e54b66a01ce9d89ed5 net: dsa: bcm_sf2: put device node before return
-760b206f6cf09e9150e8ce030f932b784fcbc10b ibmvnic: Ensure that CRQ entry read are correctly ordered
-9f000ea01784f28bc24f25491c1bb380871102c5 net_sched: reject silly cell_log in qdisc_get_rtab()
-9737d978f55e130ab70da65584f8186b0810a68d futex,rt_mutex: Provide futex specific rt_mutex API
-3ba4692fae77187947f12ce9286ac1702d5a7283 futex: Remove rt_mutex_deadlock_account_*()
-5fcfe799b8cfdd976b36c8a8b9fc63c2d43bc945 futex: Rework inconsistent rt_mutex/futex_q state
-ffaa0d3ce1e5a3c9f357d510d1f7394e7f1f2e1c futex: Avoid violating the 10th rule of futex
-663550856bd07a1a2f9897424e7d8c251e96289a futex: Replace pointless printk in fixup_owner()
-fdf7e12af3ce792d404a6ecd6585434483733857 futex: Provide and use pi_state_update_owner()
-52003d911e12d7eb1d64df535394e53de2aa179b rtmutex: Remove unused argument from rt_mutex_proxy_unlock()
-bfc08f6ece85a943293b12f11a8e0dfe839754d4 futex: Use pi_state_update_owner() in put_pi_state()
-e149245439c559ead61328c0c5da652c54222b6f futex: Simplify fixup_pi_state_owner()
-4073287b490087c61d4957d02f2ea7262806e200 futex: Handle faults correctly for PI futexes
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1612512133 -0500
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1612512132-40fe9bb4ae1234823cf5c36d57cd1032210737f9
 
---===============2968879781264763600==
+80a45e9e7a1a10b4fe1766365f0e5a282bb97b4b a227a183af495549634a95fbe7042e9a87729c04 refs/tags/for-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmAc+4UUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroP5pwf/cy0MFA6vDPrc56dbDRMF6elu0FsI
+3JuliKsYShhe/QM6sBXLWe9hJtd570LblCCaVodWUXbCgFPYoJt2KbbXw/FzBWhx
+vd8F7QXCsWk4fTD0X5cJtJzpnetTAUFF0jAUdBvL/MwwDRBBS11anBp/veMlLKwl
+GIqyy3T3rVAC+GhIpz32Xoe9+O8jcLgVQjQ/yyvjZBbDXGT9zviCawCZb+PkkSWH
++0C0LXabqtL2zpxodDoLVKJUSIxE2q1D7yGzqzo0oyQPqr/2nmj2TfFQl0wRCJL5
+iUvpVUYE9r8NVv4d4muwPbVvN5IfJ6ELzQy4d4Zf6ZCmtF6lXPFwnuFgEA==
+=QkRT
+-----END PGP SIGNATURE-----
+
+--===============2738191353952783639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1338c0e85347-57e419dd2516.txt
+Content-Disposition: attachment; filename=revlist-80a45e9e7a1a-a227a183af49.txt
 
-1091024e0e48e0e3a6b6b6a6de08141d695fbde2 net: dsa: microchip: Adjust reset release timing to match reference reset circuit
-36968fdbceee2abc4e835c1310aa17b94cf65bb4 net: stmmac: dwmac-intel-plat: remove config data on error
-df7dcfb690c584d32a498f882015700468fa4c91 net: fec: put child node on error path
-272a8a679d90f4afe1a46fd9c27d8147a2402c25 net: octeontx2: Make sure the buffer is 128 byte aligned
-7a026ee01aaa58892bacee903c4a0e51dfd03c30 stmmac: intel: Configure EHL PSE0 GbE and PSE1 GbE to 32 bits DMA addressing
-cdabe768eaea51e040c3d1e55819763789b18990 mlxsw: spectrum_span: Do not overwrite policer configuration
-a3337e3ffc99814f984f939d12c960754d0f0b36 net: dsa: bcm_sf2: put device node before return
-e312a40b98a72fe2994f83bd43915c899df1521c net: switchdev: don't set port_obj_info->handled true when -EOPNOTSUPP
-315b01c09a608eb8c72a54853055a94988ad00a8 ibmvnic: Ensure that CRQ entry read are correctly ordered
-492cb10eb4fb9f033a071711f7a38c4dddd21205 iommu/io-pgtable-arm: Support coherency for Mali LPAE
-bf9fb121bf8b9161c9a65d08f0fc85a8bad22d3f drm/panfrost: Support cache-coherent integrations
-b1c9b6f3539f30db8fc5b00613ee945e5d32454b arm64: dts: meson: Describe G12b GPU as coherent
-40a098fae3df09b8b918d13c198bfff9924a7fbc arm64: Fix kernel address detection of __is_lm_address()
-ee28dbf3b3f08a9d92d500352e09f81306ef0eb9 arm64: Do not pass tagged addresses to __is_lm_address()
-57e419dd2516b60fcf487c832b0d733bd2455a46 Revert "x86/setup: don't remove E820_TYPE_RAM for pfn 0"
+e500b805c39daff2670494fff94909d7e3d094d9 KVM: arm64: Don't clobber x4 in __do_hyp_init
+181f494888d5b178ffda41bed965f187d5e5c432 KVM: x86: fix CPUID entries returned by KVM_GET_CPUID2 ioctl
+074489b77a37c61c0b090d63b2731a951064fd70 Merge tag 'kvmarm-fixes-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+ae000861b95cc4521c498430eb9c61ad62cea51c KVM: Documentation: Fix documentation for nested.
+19a23da53932bc8011220bd8c410cb76012de004 Fix unsynchronized access to sev members through svm_register_enc_region
+7131636e7ea5b50ca910f8953f6365ef2d1f741c KVM: x86: Allow guests to see MSR_IA32_TSX_CTRL even if tsx=off
+b66f9bab1279c281c83dea077c5e808527e3ef69 KVM/x86: assign hva with the right value to vm_munmap the pages
+4683d758f48e6ae87d3d3493ffa00aceb955ee16 KVM: x86: Supplement __cr4_reserved_bits() with X86_FEATURE_PCID check
+943dea8af21bd896e0d6c30ea221203fb3cd3265 KVM: x86: Update emulator context mode if SYSENTER xfers to 64-bit mode
+ccd85d90ce092bdb047a7f6580f3955393833b22 KVM: SVM: Treat SVM as unsupported when running as an SEV guest
+c1c35cf78bfab31b8cb455259524395c9e4c7cd6 KVM: x86: cleanup CR3 reserved bits checks
+87aa9ec939ec7277b730786e19c161c9194cc8ca KVM: x86/mmu: Fix TDP MMU zap collapsible SPTEs
+031b91a5fe6f1ce61b7617614ddde9ed61e252be KVM: x86: Set so called 'reserved CR3 bits in LM mask' at vCPU reset
 
---===============2968879781264763600==--
+--===============2738191353952783639==--
