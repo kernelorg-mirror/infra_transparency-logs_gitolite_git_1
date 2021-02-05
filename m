@@ -1,47 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7702724850940056035=="
+Content-Type: multipart/mixed; boundary="===============3184103953929551419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 05 Feb 2021 19:29:49 -0000
-Message-Id: <161255338910.5136.9981353003689652552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 05 Feb 2021 19:34:59 -0000
+Message-Id: <161255369959.8070.3881578835041839753@gitolite.kernel.org>
 
---===============7702724850940056035==
+--===============3184103953929551419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/hack/arm64-early-cpufeature
-    old: 55d9da74539f24269d9fc8ef6cca9098a5d4ffc2
-    new: cb52b87c6d860394f2a5a34f90bc3f1c68ef5879
-    log: revlist-55d9da74539f-cb52b87c6d86.txt
+  - ref: refs/heads/100GbE
+    old: 69fd51c5d7eadbdc36a1c6334f9f6462a228d36b
+    new: bc885731ddb1875181439a4a7553a196159b3489
+    log: revlist-69fd51c5d7ea-bc885731ddb1.txt
 
---===============7702724850940056035==
+--===============3184103953929551419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55d9da74539f-cb52b87c6d86.txt
+Content-Disposition: attachment; filename=revlist-69fd51c5d7ea-bc885731ddb1.txt
 
-d8170e1dad15c553a72a817140ec758349350f63 arm64: Drop early setting of MDSCR_EL2.TPMS
-9c465426af6617a37306e67b08984b4fa2e4ce94 arm64: Move VHE-specific SPE setup to mutate_to_vhe()
-16fd83b3b265d28960b54522f37a71135c3b92a2 arm64: Simplify init_el2_state to be non-VHE only
-9522c629b23c023d1be12c63081334b3ca35b595 arm64: Move SCTLR_EL1 initialisation to EL-agnostic code
-58c4107d27418fc146e6d9854bf83127a5c6f860 arm64: cpufeature: Add global feature override facility
-595ac33ebca14848bd015c5fa3c45bcac7e6b6de arm64: cpufeature: Use IDreg override in __read_sysreg_by_encoding()
-c10bc399ee1db6ed0007556219737e690ff5f06a arm64: Extract early FDT mapping from kaslr_early_init()
-276ec4c0d2753d74280e10dcb97a1fc227962d8b arm64: cpufeature: Add an early command-line cpufeature override facility
-928fea774bfaabfca09a2cc65d61cda56294ed6f arm64: Allow ID_AA64MMFR1_EL1.VH to be overridden from the command line
-24c70d01ff2275a700dc11e33d02f04fc8fe5321 arm64: Honor VHE being disabled from the command-line
-8056d1dd8ed31b75f2d265daff3737033a0a1fa7 arm64: Add an aliasing facility for the idreg override
-dde69ee5dccbb49bd16dd8e2a9d59e09f8aad890 arm64: Make kvm-arm.mode={nvhe, protected} an alias of id_aa64mmfr1.vh=0
-69ab6179ea5e333f5930b4c07370249422cc2128 KVM: arm64: Document HVC_VHE_RESTART stub hypercall
-df9faf9ec1d4a6803e6425358c9d6093d6c9aa60 arm64: Move "nokaslr" over to the early cpufeature infrastructure
-9540ab72e361a34224d60b193a4790c4120d5e3e arm64: cpufeatures: Allow disabling of BTI from the command-line
-4cbe9f52358ae296c9615cf15c77347900c21144 arm64: Defer enabling pointer authentication on boot core
-cb52b87c6d860394f2a5a34f90bc3f1c68ef5879 arm64: cpufeatures: Allow disabling of Pointer Auth from the command-line
+9af368fa9c640ab3f3d8ad98a96f43c605315daa ice: create flash_info structure and separate NVM version
+74789085d9ce9c626102d267eabfbff01a8cd855 ice: introduce context struct for info report
+1fa95e0120ebe4d8953cb86e1617e3ab1dc5ce89 ice: cache NVM module bank information
+0ce50c7066e214545ea4543d73946073725c4421 ice: introduce function for reading from flash modules
+bfe03d0aab5e97a64fed13a11d9ec90b712754d4 ice: display some stored NVM versions via devlink info
+2e4eae7badd0dafb202df52ecec5bc334f7dc909 ice: display stored netlist versions via devlink info
+584c06c65e051d75440b069b3a200cd553f8469b ice: display stored UNDI firmware version via devlink info
+a4502c0a65a0ab27771e84821cd1834a56acf922 ice: Replace one-element array with flexible-array member
+782926dd72392f58a589e535ad7928f6f4bd9974 ice: use flex_array_size where possible
+4b89a5bd520734c397fbb4727c4212adaf9777bf ice: remove dead code
+670cd32b65e35820cfc17394b50cf8c429a21bb8 ice: report security revisions of flash modules via devlink info
+bc885731ddb1875181439a4a7553a196159b3489 ice: add devlink parameters to read and write minimum security revision
 
---===============7702724850940056035==--
+--===============3184103953929551419==--
