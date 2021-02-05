@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1065459920542983587=="
+Content-Type: multipart/mixed; boundary="===============3412647452581775670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 05 Feb 2021 20:14:16 -0000
-Message-Id: <161255605637.32395.3114423511789015306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 05 Feb 2021 20:14:23 -0000
+Message-Id: <161255606316.32514.10859092878154549352@gitolite.kernel.org>
 
---===============1065459920542983587==
+--===============3412647452581775670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/spi-5.12
     old: d290da83cb099d2d259d1dedacdf2f0375b2ecf0
     new: c64e7efe46b7de21937ef4b3594d9b1fc74f07df
     log: |
@@ -30,28 +30,28 @@ changes:
          c64e7efe46b7de21937ef4b3594d9b1fc74f07df spi: stm32: make spurious and overrun interrupts visible
          
 
---===============1065459920542983587==
+--===============3412647452581775670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1612556007 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1612556054-71c4e0a915305f4c578240e6b857b68005f30382
+pusher C3F436CA30F5D8EB 1612556014 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1612556060-79f326da29e9aa0130c607f0b1355724185a3bf0
 
-d290da83cb099d2d259d1dedacdf2f0375b2ecf0 c64e7efe46b7de21937ef4b3594d9b1fc74f07df refs/heads/for-5.12
+d290da83cb099d2d259d1dedacdf2f0375b2ecf0 c64e7efe46b7de21937ef4b3594d9b1fc74f07df refs/heads/spi-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAdpucACgkQJNaLcl1U
-h9DbRAf/Ug16hZXS3E05/F4N780iD016BHBLqVJQR2BpDwiBEJ9J0f4a7DvLCp3l
-SUu+NlyR5YOfbhDoL7h498Crts+ez5vpa1axnwsVdTtSENr3YFUL55+upWKaNto0
-qzXzW0V066qZgSTYLegakUsM11Xizqw4XLi/us5wtoa1J6PYH8djJh2tpzC91SU8
-ENwZlxD5+m7KEruUQIM80UOqAnQ7aKHt7QJlT8Z3aJI1NKHEH9rIaqlLM+dNUhuS
-f/7D6rTruzig+/Hg5yQIj0XFBujAmus+C3gfdd7M5HfhDvl2ZqZKGiZ11tz92EnW
-0RiztM6/Qz4fhuYq1IVT5FoPdwgUzw==
-=/oWR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAdpu4ACgkQJNaLcl1U
+h9CRIgf/U/wu6P0+uR8FkRjG4wCUQlKIQgpsGIuXQ0Mn7GJCIu3E8OfG5TOredc2
+0T9seLjtxRK9/4PF/eXee4t9RVs07ZFMMgRFGwtfY36ST5e1qOS7csuU2tau79uf
+9csWM9LZteHGlAutRXGCggvrIz1VO47h4KF01q6bsLB3ORaXVY86h+IglgGMO7Ij
+tGS3edEfO1y3v4MIQbrWjEpe6nsMtWpJLPzW5oUhe6MrmzJG1RDYCDyR44IauVLO
+kMuAP4wyR2KYe3VAcO/MaGrJ/7biXPaww8n5T35+waICnYb0372hysnrwQYETmPL
+WihKJpWiSb9ZmTIw+oBgPX3VBZYpJg==
+=6Kqe
 -----END PGP SIGNATURE-----
 
---===============1065459920542983587==--
+--===============3412647452581775670==--
