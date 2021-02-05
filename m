@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 05 Feb 2021 18:32:44 -0000
-Message-Id: <161254996438.3522.2313624052445807366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 05 Feb 2021 18:38:56 -0000
+Message-Id: <161255033687.6577.3877485980020669767@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/timers/core
-    old: b5c28ea601b801d0ecd5ec703b8d54f77bfe5365
-    new: 174bcc691f44fdd05046c694fc650933819f72c7
+  - ref: refs/heads/dm-5.12
+    old: 363880c4eb36bd2a70104c165fbc7a6d49858a91
+    new: f0e7035cc237c80b48047b289903af930fad55c8
     log: |
-         174bcc691f44fdd05046c694fc650933819f72c7 timens: Delete no-op time_ns_init()
+         d7d25d0c3343e49f77b96cd3a12c21e5c243c2ec dm: fix iterate_device sanity check
+         f0e7035cc237c80b48047b289903af930fad55c8 dm writecache: return the exact table values that were set
          
