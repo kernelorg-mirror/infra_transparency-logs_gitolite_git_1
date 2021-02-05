@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Fri, 05 Feb 2021 06:26:46 -0000
-Message-Id: <161250640628.1996.2268917029758808683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 05 Feb 2021 06:37:59 -0000
+Message-Id: <161250707965.8180.1670969701808895129@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/tags/cap/v1.2.48
+  - ref: refs/tags/mlx5-updates-2021-02-04
     old: 0000000000000000000000000000000000000000
-    new: ce371953c08cffa5d76cd1d36822d110c3d9c0cc
-  - ref: refs/tags/psx/v1.2.48
-    old: 0000000000000000000000000000000000000000
-    new: cf84c1ab21fee0b14207263a08f86b30cf18809c
+    new: 1a785306f56d1a3af0a45d2064c161479f10340e
