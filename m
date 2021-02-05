@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3526592184783590160=="
+Content-Type: multipart/mixed; boundary="===============6636475318929292308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 05 Feb 2021 16:43:51 -0000
-Message-Id: <161254343147.2301.12412390481590702717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 05 Feb 2021 16:43:59 -0000
+Message-Id: <161254343930.2452.11459352324286402541@gitolite.kernel.org>
 
---===============3526592184783590160==
+--===============6636475318929292308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 6395a6213b8367bb55c3b940f663eda772d7c19c
     new: b6040f9b987e9280de7a0a722668bb2b890f2163
     log: revlist-6395a6213b83-b6040f9b987e.txt
 
---===============3526592184783590160==
+--===============6636475318929292308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1612543381 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1612543428-29ba4aaecdceb1c57d00dde22c1642c29f4a9c3a
+pusher C3F436CA30F5D8EB 1612543389 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1612543436-c9b169fc6e228496d2cec1efa7819c2c2e56938f
 
-6395a6213b8367bb55c3b940f663eda772d7c19c b6040f9b987e9280de7a0a722668bb2b890f2163 refs/heads/for-5.12
+6395a6213b8367bb55c3b940f663eda772d7c19c b6040f9b987e9280de7a0a722668bb2b890f2163 refs/heads/asoc-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAddZUACgkQJNaLcl1U
-h9BvJgf/fT4fokzSKMFC02PEgX7mXap5320QqYwKdYWNnUy1G28r9KIyNqa3GTuh
-Oe3EOYSUNUgJ8MeoDNrB+ccFj2PuT+TefUS2Hpspt4NhWV02PTxWAnDLEEeiLPHb
-WF+cwv7dYzQF1fETPNr5OAz5aanoTIpMoXXr1Zr5jo6KXAbcDuVBXJAYZb3+gyDu
-1HMtEbGUYVvCMCZVpWwE7JNeOdTTPs8vDklVK5w8iSBeGSUa9+AGIv1F1eY3Zt1m
-5jR3xoN6wITLg8f0vA5Y69IgZjRE4fW9Ok3+j6b3FRbOyAEp5ENj2AVgi74Wxn32
-nelY3LSEhfZmK1RYo2ZNDnTDqqVtMA==
-=d6aE
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAddZ0ACgkQJNaLcl1U
+h9CjVwf/Z9vhUjidp4n13zInSwImk2CvQWD9s6JmB92CiGLC01hiDiEV+Cso6ayN
+2Mumkv2sKU7w9B8AxrfqKYoAXJnJFAC4vxdoRKsCWafaeir1hq1CwSmU3Kx87i53
+DR2P9XGJehesk0os8RSutxKvfE49wlQR4yxrFHP4XxXIFeD1nNMGK5PehQJpxiI8
+KpMaMzAoaF00klCVZOB5HDmTKT+OBczhVFpkHbEbIdGKGZzQlZHEbyt0CNpZClM0
+ophgnpAE3RdaK51LLUrpfHbAcX6WSH6UBWCUL7jwaPAi+iZjG3dUaKm+E6Bw2oDY
+K+JR282KKV4AbFYPf7CDJH+c4USlNw==
+=PfLO
 -----END PGP SIGNATURE-----
 
---===============3526592184783590160==
+--===============6636475318929292308==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -113,4 +113,4 @@ df91785a22e2505d2ac668f1d3e6b6e6d8ba627a ASoC: dt-bindings: add mclk provider su
 19657a609b68f37afede259a762765b77914557f ASoC: mediatek: mt8183-mt6358: set playback and capture constraints
 b6040f9b987e9280de7a0a722668bb2b890f2163 Merge series "ASoC: stm32: i2s: add master clock provider" from Olivier Moysan <olivier.moysan@foss.st.com>:
 
---===============3526592184783590160==--
+--===============6636475318929292308==--
