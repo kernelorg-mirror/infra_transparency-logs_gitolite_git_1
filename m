@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1534658435662853050=="
+Content-Type: multipart/mixed; boundary="===============4691591081593157440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 05 Feb 2021 14:01:46 -0000
-Message-Id: <161253370688.28303.15399354753137365468@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 05 Feb 2021 14:03:15 -0000
+Message-Id: <161253379519.28802.588587107871582037@gitolite.kernel.org>
 
---===============1534658435662853050==
+--===============4691591081593157440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: e8919528552ba0cd42cb05980a3ee8967104a7da
-    new: 81067acde190b826c651704abdc37c29355b4f5f
+  - ref: refs/heads/char-misc-testing
+    old: e2057ee29973b9741d43d3f475a6b02fb46a0e61
+    new: 1609faa9e675c8168b640697c82c7b31befd2658
     log: |
-         81067acde190b826c651704abdc37c29355b4f5f move 4.4 and 4.9 queues back in place.
+         1609faa9e675c8168b640697c82c7b31befd2658 coresight: etm4x: Fix merge resolution for amba rework
          
 
---===============1534658435662853050==
+--===============4691591081593157440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612533705 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1612533704-9d84fbf8462e452412aca39ebfd9db477e11543f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612533785 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1612533785-83f051dc4b7480faf4baa83b0b0ba59979d162b0
 
-e8919528552ba0cd42cb05980a3ee8967104a7da 81067acde190b826c651704abdc37c29355b4f5f refs/heads/master
+e2057ee29973b9741d43d3f475a6b02fb46a0e61 1609faa9e675c8168b640697c82c7b31befd2658 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAdT8kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qdMP/31rCv/x3RsVnuzm2FXq
-y4/JKr6wcnlRD9KgFnxf1zt75Y9krswk0ttZJoFIDXgtgbXwJ/7HyYKDKCEkEzPp
-ieefWZ13vvKlUPUkUklATZbNBE4U2y7hn4FWuTSRkN4/yYFZXlj5Tbbf8JQvZVf7
-Pzbgfx5w9Y0h0EfEC5MkccK6kN/PJrZcnkTQpq1vGyRg3a4IMMx5rE4KBS4MjUF6
-09i8lnk4HJRfSfBdygwicIgbY2V0nAcwWaC0CFCwU2x3ufVViyHyyIEeJ3u9zUqH
-P/xaVnbhJuKu06Q5O0hgb5hbDlsHlL7D7X5lqYdyRkavn9L52nNj9Xlgsvf6J85O
-ENFdZH6i5CndERll5LMeGOoGg7QXekea3DGEqDEDwETYmZVaaf4fZADfXq36mqio
-bE3O1DgjQACzuZgEZHW2zmuPGJB8ZuxlchnI9RNgZY+P1ifGg8QTAWf7nDNekis2
-c8TzA2S8wkhAGyR/2OetmDtYMgkl7EdP4aIb20i35HxjOWa8TyVnDbaH43aiTboW
-0tSPVu47D1ck20O6AQFtnEjFgt3cWWcN8MLLsxbBuA2lj35E2ZYEESO6qnBnyaob
-MJslcoMWWwj5QVHIiY4nRYFp1d/iT4vwUCPjDS/kxWF28lSwyNLoTTa+VdhtjooU
-b9FvISH5JcR7s6yj8BhI3XY+
-=slBv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAdUBkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LCcP/2Ipbr5lyahl8l+8EbOc
+Lu4PDk1TvFrbTw82HqCPylvM7ghcNShH6duGDkiWZ3aDmTM0aOUCW+F2nV/rNjDO
+1l8P3273lEeojDAxzVTTt0PuFHCoQnAKsj6c6L5PMbe6bHDZGD50Ng/RfQIWjvWM
+YgRPCLjqLys1tZLDAQ6q9TVO6aEoEp3gJA9aDIAJrSuVldjxAWKFmUTWzUngRZYz
+EqAjulRM+Twt+EELCNUkZlLWtSnpjyDvMkbdqM2zB0yaYG1MCGO67lCzk3YcuUPe
+8fvZFKslzo9Rd0iD5n2hhZPHTQwNzjhNBDhGIoXmg56eyWpjibB6CjDnhZgu7pfc
+mFuB1Gf+M3mqzuv+D8/gbBMVAzIX5nh7qnlSvH5Rwo28A7chYyaAHewyugFE77vC
+uyl8lcI6K1EoyQsFrp04MyqPATZ8YHzfvqGh/TG+QqBPhn3fZ3VOvYDXkg/uYOYq
+48uvCOjGOAgtCI2Qyz+TiyQ1pcvMZs/3k1aEoImHyM2YWuPvv61myhrCFzx5oPDV
+vWo7bWWv7D8c+q6XuBlyDrsXzh241Ak40dOHUlyUdr39uOhTiNMObUxmHI37FOmG
+99yQ3tQ/hiULORtn61z5YOB2PdgJTVYFhfLOO/esBnqWatMvwIkvP+TtoD6F6BKY
+e+fFg05YUcph9Oz4zljJTwLy
+=Akt8
 -----END PGP SIGNATURE-----
 
---===============1534658435662853050==--
+--===============4691591081593157440==--
