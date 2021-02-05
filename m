@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0732676046270652555=="
+Content-Type: multipart/mixed; boundary="===============8464014417532042043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 05 Feb 2021 05:12:30 -0000
-Message-Id: <161250195035.20099.2908056390851694126@gitolite.kernel.org>
+Date: Fri, 05 Feb 2021 05:22:03 -0000
+Message-Id: <161250252301.25578.7897360001676849933@gitolite.kernel.org>
 
---===============0732676046270652555==
+--===============8464014417532042043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,99 +15,77 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 275bbc869ef63800043e6e64490456f8d5654cb5
-    new: b44d9ec473a402b2d453d430722586beb8f73a5f
-    log: revlist-275bbc869ef6-b44d9ec473a4.txt
+  - ref: refs/heads/testing/net-next
+    old: 1a13fd68e955b3072a4b4fda959efc92cecc8bac
+    new: 70508e2e76e5a63e79ddffac4b65a1ff9d44566e
+    log: revlist-1a13fd68e955-70508e2e76e5.txt
 
---===============0732676046270652555==
+--===============8464014417532042043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-275bbc869ef6-b44d9ec473a4.txt
+Content-Disposition: attachment; filename=revlist-1a13fd68e955-70508e2e76e5.txt
 
-305a9f1d3c9171f04c9f85222d12ad282eef4ac5 net/mlx5: Fix memory leak on flow table creation error flow
-e33eda6344813b2f2acde1a0f6b6457a3bcf40e7 net/mlx5e: E-switch, Fix rate calculation for overflow
-63e08f86ac9da1a8cc0c845db16a4e479f459721 net/mlx5e: free page before return
-c4ece0582675cc462824145f8189d7ca15d07073 net/mlx5e: Reduce tc unsupported key print level
-924152fcc189454c696d0abf2d1cf97841972e0a net/mlx5e: Fix IPSEC stats
-392050b7d0edd96ef23711cd2c6bcfb1c9a740f4 net/mlx5: Maintain separate page trees for ECPF and PF functions
-a0995cf7874e66bd6bead2f9723d60cbb2342730 fixup! net/mlx5: Maintain separate page trees for ECPF and PF functions
-c6c25db84c29c517554ae1ce5e6bcfdf81b7f93b fixup! net/mlx5e: E-switch, Fix rate calculation for overflow
-f83d95e31a09169fc91776a7e47db2267357df47 net/mlx5e: Disable hw-tc-offload when MLX5_CLS_ACT config is disabled
-009ea585f77a326157f211706d49dab668532425 net/mlx5e: Check tunnel offload is required before setting SWP
-58d2ae7d98d742c415aac569c3e2f08db0d57b7e net/mlx5e: Revert parameters on errors when changing PTP state without reset
-992387085253bd0a6bb6258b3256f4217512e976 net/mlx5e: Replace synchronize_rcu with synchronize_net
-3875755df5570f3f0dea3918be51221d050a67ff net/mlx5: Don't skip vport check
-e4d4870419b36d0c689a797c6916037888369f70 net/mlx5: Remove impossible checks of interface state
-55042613352370adb96d016617b7867c26387844 net/mlx5: Separate probe vs. reload flows
-e1799ec2e5a112dbf40284d2f1f3cb03221393f6 net/mlx5: Remove second FW tracer check
-9c262d5b3ddae01a308a136572883188afbd5374 net/mlx5: Don't rely on interface state bit
-5b7e884ee7955c3144689b0c9f92b4493fc4fe34 net/mlx5: Check returned value from health recover sequence
-7166a456f4577641450e9758c6ac255c1b1210b9 net/mlx5: Fix devlink reload LOCKDEP warning
-4275c33204b391d8d70d74f941dcacf7042cc83d devlink: Expose port function commands to control roce
-511a4ab958bb41f1f28eb71f28932ffc45b06be6 net/mlx5: E-Switch, Implement  devlink port function cmds to control roce
-b8060c78d38fd00e7b7aafbb8da3fd0fe4debd02 net/mlx5: CT: Add support for mirroring
-ff117780155491b3d42495b24c1c2dbd66d87ebf net/mlx5: E-Switch, let user to enable disable metadata
-6f9c5e74fe40202c8a73c9c3c5f8687aac931949 net/mlx5e: CT, Avoid false lock depenency warning
-eed40ff5038e17f6c7fc5d16806883ba77dab1ec net/mlx5: Display the command index in command mailbox dump
-886c6a89f62e1acf4346037716653c43cac00d88 net/mlx5e: Allow to match on ICMP parameters
-cecb2464c0331c5fc540313e251ae36eb565de92 devlink: Fix dmac_filter trap name, align to its documentation
-436ee23811839b61d1aa365986d045f7118124dc net/mlx5e: E-Switch, Maintain vhca_id to vport_num mapping
-eff3bb0dfc3c2c8acbfc2f0c26a1c20f186b7274 net/mlx5e: Always set attr mdev pointer
-27bf1843f37db0f2e58b53aa8eecb7e962d06c00 net/mlx5: E-Switch, Refactor rule offload forward action processing
-ca72248941a9f45623b941a06f6d6388f6a41b33 net/mlx5e: VF tunnel TX traffic offloading
-f7ca30b1f9e1c7b602882a8950eb1aca6f1d9ea7 net/mlx5e: Refactor tun routing helpers
-141f69a058ae60702ff508220778ec9ad83324ca net/mlx5: E-Switch, Indirect table infrastructure
-7274f8dc3ad52a23ad05623864c898ee26985649 net/mlx5e: Remove redundant match on tunnel destination mac
-8cb6a77633ebcc88597836d471abce1100f88c96 net/mlx5e: VF tunnel RX traffic offloading
-9fb43ed5cc56e73360f9b0b071e766602d5ac068 net/mlx5e: Refactor reg_c1 usage
-20209ac9e2c4290c36c278a59c1b095bd755ca08 net/mlx5e: Match recirculated packet miss in slow table using reg_c1
-20d26462d17b711cbf3afbaf05c27d5e87076bf9 net/mlx5e: Extract tc tunnel encap/decap code to dedicated file
-4b291746577ef99bc99662c023c87a276259bc2d net/mlx5e: Create route entry infrastructure
-0d92446a7ade4d7de060334052bd68201cbb73ba net/mlx5e: Refactor neigh update infrastructure
-dc33b9ccbe393a42ad06d46a282ded9920ec1ca9 net/mlx5e: TC preparation refactoring for routing update event
-41eb4ffef68f3bfb50981e668b8ae6f668e79bbb net/mlx5e: Rename some encap-specific API to generic names
-68087b978d441497f679e2cc7b548dace5280d5f net/mlx5e: Handle FIB events to update tunnel endpoint device
-1146febdded105a93cc847f383e89a9988232543 net/mlx5e: Use net_prefetchw instead of prefetchw in MPWQE TX datapath
+4f4e54366eae20d5867864001db57c5d90693d8c net: usb: cdc_ncm: use new API for bh tasklet
+e43b21906439ed14dda84f9784d38c03d0464607 net: use indirect call helpers for dst_input
+6585d7dc491d9d5e323ed52ee32ad071e04c9dfa net: use indirect call helpers for dst_output
+f67fbeaebdc0356e0cbc94f4b099f45ebe174b02 net: use indirect call helpers for dst_mtu
+bbd807dfbf20506f5548b0297c430a09326e7c4b net: indirect call helpers for ipv4/ipv6 dst_check functions
+2d912da016a7c4754b1ede9d953f6b00181f8954 Merge branch 'net-use-indirect_call-in-some-dst_ops'
+e0c16233577fb8dde90760632df535d7b7846267 net: mscc: ocelot: fix error handling bugs in mscc_ocelot_init_ports()
+4160d9ec5b41738e3a020b5a18cb5e99e2e9244d net: mscc: ocelot: fix error code in mscc_ocelot_probe()
+e0183b974d3008ae769d769cabfa2051c896dd48 net: mdiobus: Prevent spike on MDIO bus reset signal
+de2854c87c64788f94e34217d06e60422e4a1842 octeontx2-af: Mailbox changes for 98xx CPT block
+b0f60fab7805cb013311ede0127f8abbf1bdc986 octeontx2-af: Add support for CPT1 in debugfs
+c57c58fd5c4fd288f5aca0970982c9bd547d6288 octeontx2-af: Handle CPT function level reset
+462e99a18b22609ed40ee0c096775169c2859b21 Merge branch 'support-for-octeontx2-98xx-cpt-block'
+fec7fa0a750c2127b01adb626e4945509da96462 chelsio: cxgb: Replace the workqueue with threaded interrupt
+82154580a7f72ed5b16f0b7829a6514542a6bd98 chelsio: cxgb: Disable the card on error in threaded interrupt
+75b8f78fb91fd7bbd730f2a5795f1f926b3bf0b2 Merge branch 'chelsio-cxgb-use-threaded-interrupts-for-deferred-work'
+99b8202b179fc3dbbca69e8af6da660224c9d676 net: dsa: fix SWITCHDEV_ATTR_ID_BRIDGE_VLAN_FILTERING getting ignored
+189e7a8d94208a26b7f7876d155cf695393f8efa ethtool: Validate master slave configuration before rtnl_lock()
+012ce4dd3102a0f4d80167de343e9d44b257c1b8 ethtool: Extend link modes settings uAPI with lanes
+c8907043c6ac9ed58e6c1a76f2824be714b42228 ethtool: Get link mode in use instead of speed and duplex parameters
+7dc33f0914a9c8f992592cddfab2bab7faf162b9 ethtool: Expose the number of lanes in use
+5fc4053df3d9af1bf728feff90b8494dc036aae2 mlxsw: ethtool: Remove max lanes filtering
+763ece86f0c27c751d6fac6b15863f5124f79a52 mlxsw: ethtool: Add support for setting lanes when autoneg is off
+25a96f057a0fab318376c85bd83afda267f8ad33 mlxsw: ethtool: Pass link mode in use to ethtool
+f72e2f48c71051f54e6fa214dc57f586386173b5 net: selftests: Add lanes setting test
+6fd5eeee1f107e2fb805609779994e3526de184f Merge branch 'support-setting-lanes-via-ethtool'
+f5a5589c72509abaeb705123b64e7f5a078becf0 tcp: use a smaller percpu_counter batch size for sk_alloc
+3dd344ea84e122f791ab55498aab985535f32cba net: tracepoint: exposing sk_family in all tcp:tracepoints
+49ecc587dca2754571791bebd36e9e36e2a0d973 Revert "GTP: add support for flow based tunneling API"
+e21eb3a065a2d90ee3bb06cc2e77acad403ec7cd gtp: set initial MTU
+e1b2914e645caa702ad6ddf4f1c48bdedb3d43cf gtp: include role in link info
+a9c0df76d002111d0796cf04b5ad16f4f5a8d794 gtp: really check namespaces before xmit
+70d132462998dcef701180e047c91933bda33ae2 gtp: drop unnecessary call to skb_dst_drop
+29f53b5c00c1deb27d31603ccf6ee161bd5ebb2f gtp: set device type
+9716178a3abd7e4eb00ac44d664cfb2311e88c3b gtp: update rx_length_errors for abnormally short packets
+493007c1fa8902b9a211532c2849dbfbeec18f7e Merge branch 'gtp'
+e93fac3b51617401df46332499daae000e322ff8 drivers: net: xen-netfront: Simplify the calculation of variables
+7e3ce05e7f650371061d0b9eec1e1cf74ed6fca0 netlink: add tracepoint at NL_SET_ERR_MSG
+0053859496baa17c7675526936677c9213bf5a0d net: add EXPORT_INDIRECT_CALLABLE wrapper
+9c97921a51a013917cfc387998882ecd0795937c net: fix building errors on powerpc when CONFIG_RETPOLINE is not set
+1d7bab6a94458e959f3f55788fd50ddc7d97403b mm: constify page_is_pfmemalloc() argument
+48f971c9c80a728646fc03367a28df747f20d0f4 skbuff: constify skb_propagate_pfmemalloc() "page" argument
+bc38f30f8dbce0afb8af05d917bee084b1329418 net: introduce common dev_page_is_reusable()
+a79afa78e625e4dbe0e07c70929d477ba3386e45 net: use the new dev_page_is_reusable() instead of private versions
+05656132a8745568692c4b505630e65990266101 net: page_pool: simplify page recycling condition tests
+e64ffa887541ba1cfc8e2e5c4bd7f279d26bb08f Merge branch 'net-consolidate-page_is_pfmemalloc-usage'
+c9dca822c72914ff33593b12f9fb229f0c0afd47 net-loopback: set lo dev initial state to UP
+a4a600dd301ccde6ea239804ec1f19364a39d643 udp: call udp_encap_enable for v6 sockets when enabling encap
+5d30c626b67e1c70ba7805d468c7de39f1da2f7e rxrpc: call udp_tunnel_encap_enable in rxrpc_open_socket
+ccdafd226345f19343e97662f12047dd706046a0 Merge branch 'net-enable-udp-v6-sockets-receiving-v4-packets-with-udp'
+d6adfd37e7eb9ec65e6fd95790f718dda85dec2f nfc: pn533: Fix typo issue
+8f8a42ff003aaa3c1424923154c9a92f3bd4c634 net: hns3: remove redundant null check of an array
+1faba27f11c8da244e793546a1b35a9b1da8208e ipv6: silence compilation warning for non-IPV6 builds
+f9a4719cc16fcf4f8816521e0c903a218fa072b6 ipv6: move udp declarations to net/udp.h
+04f00ab2275f60658b5e4996e28f52ab1bc51d75 net/core: move gro function declarations to separate header
+edf597da02a01edb26bddf06890fb81eee3d82cf netfilter: move handlers to net/ip_vs.h
+c56006f89fbc224d61c3a16fe44de9616ad3e3bf Merge branch 'fix-w-1-compilation-warnings-in-net-folder'
 53b823b29aac320b2d4b64fc79af869720c73cf5 drivers: net: ethernet: i825xx: Fix couple of spellings in the file ether1.c
 b53014f0791cbc4925f52d7c46220845e42d0a91 net: dsa: bcm_sf2: Check egress tagging of CFP rule with proper accessor
 add285bce37720675af5b1873f71af8561d0e2fe net: dsa: xrs700x: Correctly address device over I2C
-c7e9a47638efc8df36ae9f49e3270ab09699d802 net/mlx5: E-Switch, Refactor setting source port
-a08c0d309d8c078d22717d815cf9853f6f2c07bd r8152: replace several functions about phy patch request
-80fd850b31f09263ad175b2f640d5c5c6f76ed41 r8152: adjust the flow of power cut for RTL8153B
-6b4950d9501e80ad09060e9e5afb3ca3d12ba65e Merge branch 'r8152-adjust-flow-for-power-cut'
-0102eeedb71757d6589144cf019424f69b3ab289 hv_netvsc: Allocate the recv_buf buffers after NVSP_MSG1_TYPE_SEND_RECV_BUF
-8dff9808e9734fb5b4eddd0a5b1472fade215490 hv_netvsc: Load and store the proper (NBL_HASH_INFO) per-packet info
-8ae90b75714542b007346836741f10438703624e Merge branch 'amend-hv_netvsc-copy-packets-sent-by-hyper-v-out-of-the-receive-buffer'
-80a0334aff57bce1b9e5d860854a4b474c3030b9 net/mlx5e: E-Switch, Maintain vhca_id to vport_num mapping
-e5bd6a42266a5d56dded2896f0d09d7e2a08b335 net/mlx5e: Always set attr mdev pointer
-60cc9f88a27f222619ae1a811325ca1338e8cc77 net/mlx5: E-Switch, Refactor rule offload forward action processing
-e3ea6c587151c87d685aebd8539485f0a1108a3a net/mlx5e: VF tunnel TX traffic offloading
-b2bb96a2061800e334d1784f0741856dd07aad53 net/mlx5e: Refactor tun routing helpers
-bb9c13d4092faeac0d3482de0ee17fa46736fa53 net/mlx5: E-Switch, Indirect table infrastructure
-0a56159395e4686a5d638ca4217efd3a86f2f012 net/mlx5e: Remove redundant match on tunnel destination mac
-65e61221d83d4eb1260c9767a73d2dc337e5a696 net/mlx5e: VF tunnel RX traffic offloading
-0192d5212cff61858670426606b1a08754a0fa65 net/mlx5e: Refactor reg_c1 usage
-2fc0bf9ed1653ad3a6923a0b832075ac45ca7c73 net/mlx5e: Match recirculated packet miss in slow table using reg_c1
-9ce853c8a52ed681a238772a1c5f6ec143f15c1b net/mlx5e: Extract tc tunnel encap/decap code to dedicated file
-d3983eb6021b80fc4f67b298e723ca4303eb6bea net/mlx5e: Create route entry infrastructure
-fd372e4e172ad5134d231efe183a9b1e3584270e net/mlx5e: Refactor neigh update infrastructure
-32eec9880d35814db5828037fbc2498fc8dfa9a0 net/mlx5e: TC preparation refactoring for routing update event
-300f79423c93f0f45ec6f52d30dff505e9f45a12 net/mlx5e: Rename some encap-specific API to generic names
-90fae006cdf5f24ff29eaa98c39c3aab1f1442a8 net/mlx5e: Handle FIB events to update tunnel endpoint device
-5c5a42bb5d698f59a292fe847bfccf65b693ca79 Merge branch 'gerrit/362545' into queue-next
-71d9a0ada835108906c5be090eb442192da497b8 Merge commit 'refs/changes/45/362545/12' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-7aca4fab06e8c683e67ccd76ddeecdfa3a678e58 Merge commit 'refs/changes/78/370678/2' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-84e155ca92dc1b8bf0d190ffafabaae04b8be568 Merge commit 'refs/changes/57/370657/1' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-693d2901895224cb8215fab04e12b90ad355f49c Merge commit 'refs/changes/38/370238/4' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-fae1ce1f24261e780b5e911b9d05b0b76a57a080 Merge commit 'refs/changes/82/371182/3' of http://l-gerrit.mtl.labs.mlnx:8080/upstream/linux into net-next-test
-cc9932fd1dd2d1e9d7e85c06fc42b490d4269634 Merge branch 'net-next-mlx4' into net-next
-3e338b9766a0ca0b9e41214c6871e7d82daa2118 Merge branch 'mlx5-vdpa' into net-next
-69eda7c3f782786aab89b82261c3807c120d6450 Merge branch 'net-next-mlx5' into net-next
-8a7b37ce8da828fb22c769f7d620ac8e63bb6c1a Merge branch 'mlx5-queue' into net-next
-ef8465fdaf53141cc9c001fe2fa5deef79aa2a70 Merge branch 'net-mlx4' into net-next
-b2bda98495da7e18971b580281c7e5395f9d5167 Merge branch 'net-mlx5' into net-next
-b44d9ec473a402b2d453d430722586beb8f73a5f Merge branch 'net-next-test' into net-next
+70508e2e76e5a63e79ddffac4b65a1ff9d44566e Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
 
---===============0732676046270652555==--
+--===============8464014417532042043==--
