@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1266293811582553207=="
+Content-Type: multipart/mixed; boundary="===============0540426912323109478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 05 Feb 2021 14:06:53 -0000
-Message-Id: <161253401325.2515.5450809490349150399@gitolite.kernel.org>
+Date: Fri, 05 Feb 2021 14:06:56 -0000
+Message-Id: <161253401610.2607.2704952708292402077@gitolite.kernel.org>
 
---===============1266293811582553207==
+--===============0540426912323109478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,62 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: a280edf588431d4311f617506fd131cf2d6f2987
-    new: 8daa51cc2c9869f4318875ff8c59ff4cd7280642
-    log: revlist-a280edf58843-8daa51cc2c98.txt
+  - ref: refs/heads/linux-4.14.y
+    old: edf7dfe5d9ae60daeea947324eff5784e9b4036b
+    new: 9bdfeb6e50d88f3dda36f8816b4b8e74d1b4d88f
+    log: revlist-edf7dfe5d9ae-9bdfeb6e50d8.txt
 
---===============1266293811582553207==
+--===============0540426912323109478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612534011 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612534014 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1612534010-14336b38129a7df623d222effb60be2b1c5a5ce6
+nonce 1612534011-950e7a20d4acb21d8913b9fb8da4b5273f763916
 
-a280edf588431d4311f617506fd131cf2d6f2987 8daa51cc2c9869f4318875ff8c59ff4cd7280642 refs/heads/linux-4.4.y
+edf7dfe5d9ae60daeea947324eff5784e9b4036b 9bdfeb6e50d88f3dda36f8816b4b8e74d1b4d88f refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAdUPsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0swP/3Lg4xzUS4FmXoAlsGI/
-kw3BCDjhMgqJz/UxdgsNhKKcxBIfT00y51Q0wBG5nu4MYo23rAN0OXBn1lWDYVBE
-ls24Jr6zZ+SqbYVh7gQ31sUFR4cDvD7Tfdvj+ewQj5zsdLgdjcHTVdXBKRC6D0t0
-6+jSr007/ihs/9iIQoZuoCUIV4W6q1nDTDOMYwKyYb7T2LEEHNr3GqVKDosLTe/6
-hp/7zLZ+2C2D0Z2n23ZPGa7vErLZAyTjB5TWj55YMPvgJljh5hH88XmGM8X9SxoK
-TAq/vN/D32kqTdXJLtQ/9xye8pwyaycS9h+0p92g7WMRNAcu/BMxFfHxw0pNnocL
-z5kvbzGBwtXxZqUrcbt5HUn1LvUgNvuwCOJjWp8UeMA9MS0tYLO7gdi+cASdNaqI
-FdgclByRnHs4F/Jodls7VlRrTUpSIau+tFlFFWWJ54hpUZYK0IUToAkYf3wJbJqW
-ylByb/viTIOMyGBPqI0zHJbUSP51hbmqz6zwCpk98AWTaa0WLRILls9WKgsGpZap
-NJjsPJ+lD6ZGLtVKRpY0HEE+6fYRVJLJAPR9VuAYKgzGSijK2wfgt7NgeyGvyEHP
-Qq2nIqnNS60b5UsMWizPWa5G+5ZXXmwIYTkMfBf5c+EHrsMK//zhguCWdEqTHhLb
-Tk0fa175BmOZvD+Lxt9lKury
-=C+DA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAdUP4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eIgP/1juoTtfu2lmbdKJiv2q
+ZAqWlSgcpQUeaYuojho1ChX34rg+JvIAQtDPxEKU4g61qp+O8K2u1LK0R8R5vA39
++oOlg4v4FREwbNbDCaIV8VKd5ruKvPQiV8roTRx74AgM40X3cokN6I54EoRT/pv9
+ID8GFeWeXnaMmHQaMlpM0Sc1KXLDkUoqLLWTOmPPG+7ujj9lpCdMJ7yhYluyeF5V
+0VSqgzJuGopYIhR63f585aROPCZVLtMqX6b2yhomFwAIGCXZhC4dN3mPSOwKf6Sy
+ioHkk8Go67n6hwE6jY6eLgeqJkiOoPk3Z9Ncde0C9HHWFQ++BdQzSridCsrkqOcN
+j3jZyDz9xJI1yOnYBMaEh3dIIJIG8I3x1uSbRZ5vYWeAQl1llTIk3uubMr4DHqlG
+kPWYJeumynUgfTf/jdh5sThUdH6Ic+treVIDUjUPKXI0mu6LbeyA7rMz7gNIj7JF
+e1agnFrnNe2Z+hKKHqmyhWqKoPLI2FIvvbbhqZIh+jeaAzt8rDLUxo46KkKgFazh
+2na+UDTek94RX+jncn0v7Fjl+iItNjDWqVj88f9u7VdeQAEhKHJZ4OvFxMXgdv+H
+UKwyRYkqzfw6YUJkQgZASRDxAX5mdhOx2UlY5koUAPKyuuZm7ecdi+V2JMRLx6kb
+trV4FHZ/58FxwFlQ17gnC5oW
+=8cR3
 -----END PGP SIGNATURE-----
 
---===============1266293811582553207==
+--===============0540426912323109478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a280edf58843-8daa51cc2c98.txt
+Content-Disposition: attachment; filename=revlist-edf7dfe5d9ae-9bdfeb6e50d8.txt
 
-1d0b71b3f84b9ddccc138a1e4118259f5c4a9bef net_sched: reject silly cell_log in qdisc_get_rtab()
-69a16ee0ca3aadd227a78b292633134d1af84699 futex,rt_mutex: Provide futex specific rt_mutex API
-9f01e90c65b47290214cfe33f47fab910fc266a3 futex: Remove rt_mutex_deadlock_account_*()
-839c85f4d266b588b0b5229f32a9215937eb5548 futex: Rework inconsistent rt_mutex/futex_q state
-19582aa99d32d4b174c611f507532a3a71207040 futex: Avoid violating the 10th rule of futex
-0aa9a1c932e1664c32e1415806bd2d983aea8153 futex: Replace pointless printk in fixup_owner()
-347e150b568eb7685df10887148b5550e42a0b86 futex: Provide and use pi_state_update_owner()
-690cfe9b057d1a5416396af1f86e515fe033a96e rtmutex: Remove unused argument from rt_mutex_proxy_unlock()
-05e2fac064d4a948ec96f43ea08b7c582301d164 futex: Use pi_state_update_owner() in put_pi_state()
-132cf5da26c7a493a8332b6b77516055df6d4e58 futex: Simplify fixup_pi_state_owner()
-c91254111f91fa663c87b65ef6abd629475404f8 futex: Handle faults correctly for PI futexes
-c1f9d81f3b2a3fccb81da236818682bb453c743e usb: udc: core: Use lock when write to soft_connect
-5e8473a7bd28c2e287a2062e980c14de0eff3a9c scsi: libfc: Avoid invoking response handler twice if ep is already completed
-5075e602d445b53d87cb8295b5166a68bd23727c scsi: ibmvfc: Set default timeout to avoid crash during migration
-8daa51cc2c9869f4318875ff8c59ff4cd7280642 Linux 4.4.257-rc1
+aca5c50b509df689ca1a715ebd3644d0c840298e net: dsa: bcm_sf2: put device node before return
+60ef65b88d07ccd42e5b3120e8de3c04a1110b55 ibmvnic: Ensure that CRQ entry read are correctly ordered
+59fa96318438fb65b3700bc70fc2f51745588e9d ACPI: thermal: Do not call acpi_thermal_check() directly
+215521caf95acc8395aeee6c045759f2be902a23 net_sched: reject silly cell_log in qdisc_get_rtab()
+190763fd7e2c77336a4985c32f0c3e964afc7641 net_sched: gen_estimator: support large ewma log
+25c80b6b82c2f627794834e109099251e532892d base: core: Remove WARN_ON from link dependencies check
+e9e8cfccbf07588146e770702e12b28923607211 driver core: Extend device_is_dependent()
+c0154b16f6ba61f6b9a7db3163885ca7b4cd9cb2 phy: cpcap-usb: Fix warning for missing regulator_disable
+3e3fafd16d635a8ce5ef3a4276aa6845097bc04d x86: __always_inline __{rd,wr}msr()
+bd9edfeb1e1ecb7b05850a0112e451ffc5381c1a scsi: scsi_transport_srp: Don't block target in failfast state
+505d862a0ec8c570ad472a40ab2f4a2f606ede38 scsi: libfc: Avoid invoking response handler twice if ep is already completed
+76e5f0380638b6d3257f724587359a5048b4147c mac80211: fix fast-rx encryption check
+f5915779ebafe85179c1ef5b681427a15ca695a9 scsi: ibmvfc: Set default timeout to avoid crash during migration
+591e5937bc964d1b62787f9e28ce762e3dd5b583 objtool: Don't fail on missing symbol table
+f46874ac51087537b290931414ac2d1170464df7 kthread: Extract KTHREAD_IS_PER_CPU
+9bdfeb6e50d88f3dda36f8816b4b8e74d1b4d88f Linux 4.14.220-rc1
 
---===============1266293811582553207==--
+--===============0540426912323109478==--
