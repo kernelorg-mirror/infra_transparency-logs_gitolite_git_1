@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Sat, 06 Feb 2021 17:38:02 -0000
-Message-Id: <161263308261.32372.15781364717973394975@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Sat, 06 Feb 2021 17:39:26 -0000
+Message-Id: <161263316600.564.14649656001923876505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/next
-    old: 6db0bd5475e9defc158a38e59d2ab8356f4a80e9
-    new: 7f96b6a6b07d9f91cd80babee55608da7c4aaf02
+  - ref: refs/tags/scsi-fixes
+    old: faffb91cebddbbfcd8aa9aaaf324fdfc5b2915cf
+    new: 87e8c9ab226da930885e13d1c4b73cf10eddfd3b
     log: |
-         7f96b6a6b07d9f91cd80babee55608da7c4aaf02 habanalabs/gaudi: don't enable clock gating on DMA5
+         8c65830ae1629b03e5d65e9aafae7e2cf5f8b743 scsi: lpfc: Fix EEH encountering oops with NVMe traffic
          
