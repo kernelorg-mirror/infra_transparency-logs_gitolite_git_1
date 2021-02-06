@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/vminstall
-Date: Sat, 06 Feb 2021 10:41:16 -0000
-Message-Id: <161260807651.20415.3773754318636161134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-fixes
+Date: Sat, 06 Feb 2021 11:00:24 -0000
+Message-Id: <161260922417.31176.6843939220760201072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/vminstall
-user: maz
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-fixes
+user: luca
 changes:
-  - ref: refs/heads/master
-    old: 02791c4e73dfcf54ecaa3ed302da50b70d51b4e9
-    new: 8f3ad9eaa0567b7f6a8e6ed3bd12abd094c4a9b6
+  - ref: refs/heads/pending
+    old: 93a1d4791c10d443bc67044def7efee2991d48b7
+    new: 6f0c1849f7dc50ac5875bad6e7f0eed462322e5f
     log: |
-         850ce992e2f0b56252b9f368bd5caef206d8640c runinstallvm: Add TEMPLATE option for self-contained install
-         8f3ad9eaa0567b7f6a8e6ed3bd12abd094c4a9b6 build-cd-image: Add PRESEED_PATH option for alternative pressed file
+         6f0c1849f7dc50ac5875bad6e7f0eed462322e5f iwlwifi: add new cards for So and Qu family
          
+  - ref: refs/tags/iwlwifi-sent-for-review-2021-02-06
+    old: 0000000000000000000000000000000000000000
+    new: 6f0c1849f7dc50ac5875bad6e7f0eed462322e5f
