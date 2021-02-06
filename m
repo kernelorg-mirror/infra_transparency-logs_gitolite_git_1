@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 06 Feb 2021 16:21:33 -0000
-Message-Id: <161262849324.20019.12035542457041619070@gitolite.kernel.org>
+Date: Sat, 06 Feb 2021 16:22:12 -0000
+Message-Id: <161262853275.20248.6396977285095950821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
-    old: e0856bbb23fdde8f2ae483bab1a4c5487d308cab
+  - ref: refs/heads/dev
+    old: d1f4953edfcf4f51c71ba91586e21fc6ce9f6db9
     new: 185b0bcdef4bda061230a26b2e29ae18663ca819
     log: |
          36aee0fa2c3a72cfe141fa1f0edb89ec8bf70df4 erofs-utils: fix memory leak when erofs_fill_inode() fails
