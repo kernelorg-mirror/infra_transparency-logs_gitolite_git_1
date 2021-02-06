@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Sat, 06 Feb 2021 19:34:01 -0000
-Message-Id: <161264004143.4397.3029369920905373712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 06 Feb 2021 19:36:37 -0000
+Message-Id: <161264019755.6506.8280845777702188416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/riscv-for-linus-5.11-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c73d02d9e1a994f71fb60d6b1db6efafac1ae708
-  - ref: refs/tags/v5.11-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 45e6659327a54b98d7715964f2993e44dfb2c318
+  - ref: refs/heads/master
+    old: a64566a22b6a943105b01f47e8ae97779cab1417
+    new: c1fcda2bdfd04179dbc81320a24baa539b476281
+    log: |
+         d698e6a00a6092381f2966ac5410ac2dbcce88bc net: qualcomm: rmnet: Fix rx_handler for non-linear skbs
+         c1fcda2bdfd04179dbc81320a24baa539b476281 net: mhi-net: Add re-aggregation of fragmented packets
+         
