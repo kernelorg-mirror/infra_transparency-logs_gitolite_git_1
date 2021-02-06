@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7145748397296397812=="
+Content-Type: multipart/mixed; boundary="===============2636573706791606387=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 06 Feb 2021 16:45:17 -0000
-Message-Id: <161262991709.2990.3821584660289197898@gitolite.kernel.org>
+Date: Sat, 06 Feb 2021 16:45:20 -0000
+Message-Id: <161262992061.3062.6647747125185523048@gitolite.kernel.org>
 
---===============7145748397296397812==
+--===============2636573706791606387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,62 +16,65 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 8daa51cc2c9869f4318875ff8c59ff4cd7280642
-    new: 285cba60e2a19bcb94fa397398fb1263e9f19d47
-    log: revlist-8daa51cc2c98-285cba60e2a1.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 9a90abe4b6d7ffe084575ce067f9871dc8f7a245
+    new: 7f357603171e0247b1fb880c06e1120bef79685c
+    log: revlist-9a90abe4b6d7-7f357603171e.txt
 
---===============7145748397296397812==
+--===============2636573706791606387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612629915 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612629919 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1612629913-144961eead213725805f56c99702255823ddd634
+nonce 1612629917-f59927985321e5ff8a17256c02548f7481dbd1fe
 
-8daa51cc2c9869f4318875ff8c59ff4cd7280642 285cba60e2a19bcb94fa397398fb1263e9f19d47 refs/heads/linux-4.4.y
+9a90abe4b6d7ffe084575ce067f9871dc8f7a245 7f357603171e0247b1fb880c06e1120bef79685c refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAex5sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YJQP/RSOZVlpPkXuknsbMOFs
-+qYILUA5TwJrarfVauS/JK/dk/nRXqFTHHZvSFH3dAXxSP2QYekgjyLlE8dyuc/E
-eGZk80qaBf7e2pqy1Qlxr5fskIXkjX0tSAXzNDNcVG6j+XV52eV1keOa8EJer3yE
-RUafu5B6+jNT9iFDBw5SrPJxvSVhvFKMxCaPDaPKZT+3mFJ+3pzPFUV4B6mXLUGl
-qIYXqRsak4WeMNuziegkkKaIzTWThBsSHxoZhxeCbRPgJRNv76KfnjQiAghYbahs
-Q8apYZbI6uIsZpabIwsHwCL8J5DyRndcrdRXvVICnn6mcplkqokqAmP+n3sTiV10
-83XwgwDivV5NUoHWu3kzKeqH9qzzIcZrFd+5nRPRD8p5ApJeBHMt51OMz8Yik/kk
-8dbgoPXnjZUnTMR0UhY+9DDJa8Qz2wzPJ5eg9wpwE/msur5hzzs3t98pt5RTduMb
-+z78PS57g8wu34XJBlA0cvvq4G0w+QenB/GsjswsENGM3EWzHf927DZM9H9nIVux
-k1W/90O57We6yd7GC2au4V60JhHo25sR8qUEoqeQ+ANJDKwJoIuKuMGPn5S3Pqae
-O0yiln2+F1sKiy3D7yxBPxI0RHJgqAyGZIh8s3OeEOvUR5kVxwZXFZzoUgsZMqfl
-EuIfsrrsrElNsozR1iq1naRF
-=7Jm5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAex58bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PfsP/i1TXkGCLmmnLeTVGPa+
+hXfz29LMfJd8mSXeVeToued7UqQX8CygSr6VdBedhyLTKv2pHvzLf0ZCg+APkfSr
+oU5CXzBWASggGJmNeLdPaOUgVEtfZM5rR4JF5bpItQcgvFGIT7QkkqW00TF9YPn2
++tbf7thL0Xdr6ROCd6c77NMk4O6ekvw+peJYMM5G9exMvSpagEjUrXPw4T2W8HD3
+XJ5UU5fF8V5qPL+k34azRlweYYSuxgn2c/i3CiIODX6xUSUAdgTcDMaj8zr0LY22
+1iaW0izJuzAsDVaYWx0yS6xnn8Ug+mszH+vpTougCuf6dqmG21hoVcgzeyv0vppd
+1BSvHlUvyqGsEs7teJFUZSZHoRxc0IDeoa9ezF1+5okdsZr7dFMTv2FKP8HfMhix
+ulWE8rIK1o0rGxJL/6NE5Pi+sA8tI3sWh/Ol2ZaN5sbRWnkOyDVkuK+dXANwsMfF
+FcTQcKVbCfc105E7s0aZmHVB8SQFyrO4rE0WnKaztttSrCBD6nD8Wikit7Ns619y
+gu+9VeTwWWthEd/7ehfOBlXmvNDcQlQBGZAxX53myCweMaSAP7NIrC5yJvqWPe9N
+krGNKMkeldzpNPhFGgKsH4v4gy1U86wanz5/OuXRCqqOZLgGX27HaQ9PagmLfpKY
+aVD/fsSLCu7FllIQAfFUvZwX
+=zRdz
 -----END PGP SIGNATURE-----
 
---===============7145748397296397812==
+--===============2636573706791606387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8daa51cc2c98-285cba60e2a1.txt
+Content-Disposition: attachment; filename=revlist-9a90abe4b6d7-7f357603171e.txt
 
-1b36e6c73a90d415c34075e4db4b04fe5fc07be7 net_sched: reject silly cell_log in qdisc_get_rtab()
-7f8d039139981ece469275dd651de4c3cd8dfffd futex,rt_mutex: Provide futex specific rt_mutex API
-f7e9d534aa93bfc711ef3f1b805b175950ab1638 futex: Remove rt_mutex_deadlock_account_*()
-056a0f124446c8f41acec620668df43fe608cd97 futex: Rework inconsistent rt_mutex/futex_q state
-04bd964ce8c6dadfa99a46060aad745fede42f01 futex: Avoid violating the 10th rule of futex
-d0ede8ba149e30cce008a9d51d598c5d17297904 futex: Replace pointless printk in fixup_owner()
-46ae4504d9a42d87627ecbc7efe1059e0111e017 futex: Provide and use pi_state_update_owner()
-8a7e55a63413f7e90f7c09827996138f025f57fc rtmutex: Remove unused argument from rt_mutex_proxy_unlock()
-3d484afe7a203a3ab3190ed5a8266cadf9f303f0 futex: Use pi_state_update_owner() in put_pi_state()
-e17d58a3bdf9a369ee1b2dcf765492239bdbc344 futex: Simplify fixup_pi_state_owner()
-6f6ec811e2155e2d36c4f2c0991fc7adb8dc26c5 futex: Handle faults correctly for PI futexes
-8e7a363c60de624951a9ea7b27db013ca7843d62 usb: udc: core: Use lock when write to soft_connect
-222671dc906316a4a2a85dc1ee2570178a5c1a84 scsi: libfc: Avoid invoking response handler twice if ep is already completed
-5377dcaebb3484096577684958318eaa4eaf6493 scsi: ibmvfc: Set default timeout to avoid crash during migration
-1399dc34ce398cf6e57e1fc4b8e4cb92b9441a25 stable: clamp SUBLEVEL in 4.4 and 4.9
-285cba60e2a19bcb94fa397398fb1263e9f19d47 Linux 4.4.257-rc1
+f61c724c45968e74e0d583f05b7848999da19288 net: dsa: bcm_sf2: put device node before return
+ff6e2a64b5204c2dafb2e21d362bb0d9c6a5058b ibmvnic: Ensure that CRQ entry read are correctly ordered
+38684996efa65db13e74f34c62ad6c7a49ed289a net_sched: reject silly cell_log in qdisc_get_rtab()
+05c3046fc0e8fa860c2ee650c157eb6fd6671e62 futex,rt_mutex: Provide futex specific rt_mutex API
+5725d9053a4c2f673132ab2748e602c1fa6947bd futex: Remove rt_mutex_deadlock_account_*()
+05254c4750d116ef363110d9c71b60a4e4a5b6eb futex: Rework inconsistent rt_mutex/futex_q state
+159be1f7e6ee24fa7df909d655363abe1d2f9f85 futex: Avoid violating the 10th rule of futex
+79f553274269bdfbaebc39b0fba07bced6a7736b futex: Replace pointless printk in fixup_owner()
+cd7cd18f2c0e08657bcea04b529f2202aa667c93 futex: Provide and use pi_state_update_owner()
+b9823e3b56760b018a96c4483a54aa4b5d03ed52 rtmutex: Remove unused argument from rt_mutex_proxy_unlock()
+8e20e4700cafa29d808f6e79f2dc61157e18ce4e futex: Use pi_state_update_owner() in put_pi_state()
+74678c558c8c4a560a55e6cc0e74b7256a4b6ac6 futex: Simplify fixup_pi_state_owner()
+b8acc4c8bb3990b2430e3850f524bab039e4792e futex: Handle faults correctly for PI futexes
+be4d4c3db783a65fd486e8d2559cbd4767b761e5 scsi: libfc: Avoid invoking response handler twice if ep is already completed
+7474f2eb5424921f1e9b6be58016201dbc8549db mac80211: fix fast-rx encryption check
+af01d673e6d437a3de3194859fd715a9065339ba scsi: ibmvfc: Set default timeout to avoid crash during migration
+0f25372218636965a0c0727fed7a10bf0a349d31 objtool: Don't fail on missing symbol table
+c7127cabff9d4c695c6e1a33ba76a5ae05851341 stable: clamp SUBLEVEL in 4.4 and 4.9
+7f357603171e0247b1fb880c06e1120bef79685c Linux 4.9.257-rc1
 
---===============7145748397296397812==--
+--===============2636573706791606387==--
