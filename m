@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-fixes
-Date: Sat, 06 Feb 2021 11:00:24 -0000
-Message-Id: <161260922417.31176.6843939220760201072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sat, 06 Feb 2021 12:10:13 -0000
+Message-Id: <161261341381.8060.1372627686221318246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-fixes
-user: luca
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/pending
-    old: 93a1d4791c10d443bc67044def7efee2991d48b7
-    new: 6f0c1849f7dc50ac5875bad6e7f0eed462322e5f
-    log: |
-         6f0c1849f7dc50ac5875bad6e7f0eed462322e5f iwlwifi: add new cards for So and Qu family
-         
-  - ref: refs/tags/iwlwifi-sent-for-review-2021-02-06
+  - ref: refs/heads/topic/pcm-sync-stop-fixes
     old: 0000000000000000000000000000000000000000
-    new: 6f0c1849f7dc50ac5875bad6e7f0eed462322e5f
+    new: c2e83769bb0b8d0300b01ff3e3c3a1756308ed62
