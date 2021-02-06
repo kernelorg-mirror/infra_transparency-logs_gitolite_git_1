@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8602800825739639081=="
+Content-Type: multipart/mixed; boundary="===============2623260906206571948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Sat, 06 Feb 2021 17:40:59 -0000
-Message-Id: <161263325992.3758.17278135696839915462@gitolite.kernel.org>
+Date: Sat, 06 Feb 2021 17:42:37 -0000
+Message-Id: <161263335705.4429.14012447007484068880@gitolite.kernel.org>
 
---===============8602800825739639081==
+--===============2623260906206571948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-next
+  - ref: refs/heads/next
     old: 7f96b6a6b07d9f91cd80babee55608da7c4aaf02
     new: 5cb6f86e2426810a264259730a8ff1d1b88c5564
     log: revlist-7f96b6a6b07d-5cb6f86e2426.txt
 
---===============8602800825739639081==
+--===============2623260906206571948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -165,4 +165,4 @@ f1fe0ce793c055160caf5efcb4281aa2e177cc13 habanalabs/gaudi: use HBM_ECC_EN bit fo
 e19ee9bb68d3fb52273c97a6d01aab5529c712e7 habanalabs: return block size + block ID
 5cb6f86e2426810a264259730a8ff1d1b88c5564 habanalabs/gaudi: don't enable clock gating on DMA5
 
---===============8602800825739639081==--
+--===============2623260906206571948==--
