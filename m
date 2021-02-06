@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/bcache-tools
-Date: Sat, 06 Feb 2021 07:22:24 -0000
-Message-Id: <161259614416.15018.11467468791766714320@gitolite.kernel.org>
+Date: Sat, 06 Feb 2021 07:25:14 -0000
+Message-Id: <161259631403.17232.15744107772638126130@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/bcache-tools
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: 9e72a28b0faca4754ebcc1d7030d555120b03be4
+  - ref: refs/heads/nvdimm_meta
+    old: f1b923504049ec334cbd48cd3e42e9543d33bbd7
     new: 969cd1b7cb0ce781c1a72af71b838c5e8bda5fce
     log: |
          ebaa3a0fae897b92f172f4514c76b3e954345983 bcache-tools: add initial data structures for nvm_pages
