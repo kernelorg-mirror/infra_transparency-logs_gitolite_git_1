@@ -1,27 +1,63 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Sun, 07 Feb 2021 18:27:50 -0000
-Message-Id: <161272247082.6041.14846947875221128073@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0356472856892889895=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 07 Feb 2021 18:27:57 -0000
+Message-Id: <161272247784.6159.1078838902373880150@gitolite.kernel.org>
+
+--===============0356472856892889895==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/v2.3.x
-    old: a757d84b91ab1a52b48bfbf46dfbd60884f612b8
-    new: 616dd5a304ca03f453129ff100d5f47147154cfe
-    log: |
-         36f424ce71e5042de50269195c07668fdc122d54 Properly prefix all popt variables in veritysetup.
-         5345a73ca060262dea2b435f7ba46bdab1f03408 Group all string options variables together.
-         ed28583f173ad0528f8c7a0c310a992ddc983e34 Do not pass constant strings to option string variables.
-         bc49c83ace6cc39b688978da4a041f59fce4853d Remove const from all opt_ string declarations.
-         74c943c352217a6a7e80aaf3f1dc810e9c662810 Drop unreachable code and useless conditions.
-         4a43a2773a432dbf8601922cfefd653ee34f0405 Add utilities cleanup routine.
-         92b24fd75822cee2db5efc883ca3082f66047280 Fix popt string related memory leaks.
-         79442539c7cd6ff21510efdab8b9e2157a579624 Remove bogus valgrind suppressions.
-         616dd5a304ca03f453129ff100d5f47147154cfe Allow bitlk tests to run with valgrind.
-         
+  - ref: refs/heads/master
+    old: 825b5991a46ef28a05a4646c8fe1ae5cef7c7828
+    new: fc6c0ae53af40f4cd86a504a71778d924cef43df
+    log: revlist-825b5991a46e-fc6c0ae53af4.txt
+
+--===============0356472856892889895==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-825b5991a46e-fc6c0ae53af4.txt
+
+51839e29cb5954470ea4db7236ef8c3d77a6e0bb scripts: switch explicitly to Python 3
+1cabe74f148f7b99d9f08274a62467f96c870f07 Documentation/Kbuild: Remove references to gcc-plugin.sh
+f4c3b83b75b91c5059726cb91e3165cc01764ce7 kbuild: simplify GCC_PLUGINS enablement in dummy-tools/gcc
+9b6164342e981d751e69f5a165dd596ffcdfd6fe doc: gcc-plugins: update gcc-plugins.rst
+cf81c3abe1b84c4b82fbe771f72e6d181a3d1b7c kconfig: mconf: fix HOSTCC call
+2cea4a7a1885bd0c765089afc14f7ff0eb77864e scripts: use pkg-config to locate libcrypto
+ae9162e2be767240065b2f16c3061fc0a3622f61 Revert "checkpatch: add check for keyword 'boolean' in Kconfig definitions"
+20bf2b378729c4a0366a53e2018a0b70ace94bcd x86/build: Disable CET instrumentation in the kernel
+ed4e9e615b7ec4992a4eba1643e62ec2d9d979db Documentation/llvm: Add a section about supported architectures
+4c457e8cb75eda91906a4f89fc39bde3f9a43922 genirq/msi: Activate Multi-MSI early when MSI_FLAG_ACTIVATE_EARLY is set
+d8d2d38275c1b2d3936c0d809e0559e88912fbb5 kbuild: remove PYTHON variable
+9ad22e165994ccb64d85b68499eaef97342c175b x86/debug: Fix DR6 handling
+8acf417805a5f5c69e9ff66f14cab022c2755161 x86/split_lock: Enable the split lock feature on another Alder Lake CPU
+ebb22a05943666155e6da04407cc6e913974c78c rtc: mc146818: Dont test for bit 0-5 in Register D
+074075aea2ff72dade5231b4ee9f2ab9a055f1ec scripts/clang-tools: switch explicitly to Python 3
+7f1b11ba3564a391169420d98162987a12d0795d tools/power/turbostat: Fallback to an MSR read for EPB
+25a068b8e9a4eb193d755d58efcb3c98928636e0 x86/apic: Add extra serialization for non-serializing MSRs
+315da87c0f99a4741a639782d59dae44878199f5 kbuild: fix duplicated flags in DEBUG_CFLAGS
+efe6e3068067212b85c2d0474b5ee3b2d0c7adab kallsyms: fix nonconverging kallsyms table with lld
+24c242ec7abb3d21fa0b1da6bb251521dc1717b5 ntp: Use freezable workqueue for RTC synchronization
+c4bed4b96918ff1d062ee81fdae4d207da4fa9b0 x86/debug: Prevent data breakpoints on __per_cpu_offset
+3943abf2dbfae9ea4d2da05c1db569a0603f76da x86/debug: Prevent data breakpoints on cpu_dr7
+4c7bcb51ae25f79e3733982e5d0cd8ce8640ddfc genirq: Prevent [devm_]irq_alloc_desc from returning irq 0
+2452483d9546de1c540f330469dc4042ff089731 Revert "lib: Restrict cpumask_local_spread to houskeeping CPUs"
+6342adcaa683c2b705c24ed201dc11b35854c88d entry: Ensure trap after single-step on system call return
+36a6c843fd0d8e02506681577e96dabd203dd8e8 entry: Use different define for selector variable in SUD
+816ef8d7a2c4182e19bc06ab65751cb9e3951e94 x86/efi: Remove EFI PGD build time checks
+2db138bb9fa10f5652f55d3c3f427af54626a086 Merge tag 'kbuild-fixes-v5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+e24f9c5f6e3127a0679d5ba5575a181b80f219c9 Merge tag 'x86_urgent_for_v5.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+814daadbf09a364ec22f5aba769e01d8fa339c31 Merge tag 'timers_urgent_for_v5.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+6fed85df5d097298d265dfcc31cf1e0c1633f41e Merge tag 'sched_urgent_for_v5.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+c6792d44d8f08451047051351dfdcc8332a028e3 Merge tag 'core_urgent_for_v5.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fc6c0ae53af40f4cd86a504a71778d924cef43df Merge tag 'irq_urgent_for_v5.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+
+--===============0356472856892889895==--
