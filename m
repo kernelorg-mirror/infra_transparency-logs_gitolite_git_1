@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Sun, 07 Feb 2021 17:30:35 -0000
-Message-Id: <161271903534.5176.13457778583427079574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Sun, 07 Feb 2021 17:45:30 -0000
+Message-Id: <161271993045.14676.10422968308902660897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
+repo: pub/scm/linux/kernel/git/phy/linux-phy
 user: vkoul
 changes:
-  - ref: refs/tags/soundwire-5.12-rc1
+  - ref: refs/tags/phy-for-5.12
     old: 0000000000000000000000000000000000000000
-    new: fe260f7f2f1de51cf11277a3425b3ce14be78afb
+    new: 5545030e58c60482a2e318e36f699bffb81501a7
