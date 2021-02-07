@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Sun, 07 Feb 2021 21:15:02 -0000
-Message-Id: <161273250229.7163.7318100320367458946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 07 Feb 2021 22:00:49 -0000
+Message-Id: <161273524963.1461.17775742149238044784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 3ac517313b929619dbb7ceae005ec66d0859b23b
-    new: 848477782bfa2b6aec738045246abd6cd104006c
+    old: b75dba7f472ca6c2dd0b8ee41f5a4b5a45539306
+    new: 92bf22614b21a2706f4993b278017e437f7785b3
     log: |
-         dc9b7be557ca94301ea5c06c0d72307e642ffb18 x86/sgx: Drop racy follow_pfn() check
-         848477782bfa2b6aec738045246abd6cd104006c MAINTAINERS: Add Dave Hansen as reviewer for INTEL SGX
+         92bf22614b21a2706f4993b278017e437f7785b3 Linux 5.11-rc7
          
+  - ref: refs/tags/v5.11-rc7
+    old: 0000000000000000000000000000000000000000
+    new: d61728d5dac3c065b21f39249b406988aaefa193
