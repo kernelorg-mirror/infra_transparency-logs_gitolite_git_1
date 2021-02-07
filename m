@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Sun, 07 Feb 2021 23:06:53 -0000
-Message-Id: <161273921345.7633.321289890340286883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sun, 07 Feb 2021 23:37:11 -0000
+Message-Id: <161274103172.25088.16714940528820339215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/devel
-    old: 0502a2f6306bfc86e57a09bae1a60ea95749faf9
-    new: 981dd839583e1f5b8e1b70f4993cf3879b42e4e8
+  - ref: refs/heads/master
+    old: 6f4f57f0b9096d44e36b905e0ceb1c6a7afa31e2
+    new: c28b9f4b17dcd4ec094781fac6f4d1fccfedea6b
     log: |
-         981dd839583e1f5b8e1b70f4993cf3879b42e4e8 wireguard: queueing: get rid of per-peer ring buffers
+         922df1604903f3d3ad3fd8b71944285108a7fcb5 tpm: WARN_ONCE() -> dev_warn_once() in tpm_tis_status()
+         adc648804a108af632a571b2a3a70212ea0d367f tpm/ppi: Constify static struct attribute_group
+         824fed39c6b73e1f80e05d194eb2de994859ce2d KEYS: trusted: Fix incorrect handling of tpm_get_random()
+         a91b9ea6e2fb9fadcd806242f9df42b4c017cea2 KEYS: trusted: Fix migratable=1 failing
+         c28b9f4b17dcd4ec094781fac6f4d1fccfedea6b KEYS: trusted: Reserve TPM for seal and unseal operations
          
