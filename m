@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
-Date: Sun, 07 Feb 2021 17:09:09 -0000
-Message-Id: <161271774938.23176.13317080338589271176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Sun, 07 Feb 2021 17:30:35 -0000
+Message-Id: <161271903534.5176.13457778583427079574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
-user: djbw
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
+user: vkoul
 changes:
-  - ref: refs/tags/libnvdimm-fixes-5.11-rc7
+  - ref: refs/tags/soundwire-5.12-rc1
     old: 0000000000000000000000000000000000000000
-    new: 1a3e8f63095d4ad089fc6cba1e219d8bec590e28
+    new: fe260f7f2f1de51cf11277a3425b3ce14be78afb
