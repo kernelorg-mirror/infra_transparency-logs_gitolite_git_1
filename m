@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Sun, 07 Feb 2021 17:45:30 -0000
-Message-Id: <161271993045.14676.10422968308902660897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Sun, 07 Feb 2021 18:09:37 -0000
+Message-Id: <161272137779.26602.5761323596891127054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/tags/phy-for-5.12
-    old: 0000000000000000000000000000000000000000
-    new: 5545030e58c60482a2e318e36f699bffb81501a7
+  - ref: refs/heads/devel
+    old: dce069a6ee04d380be4acff9ef3420eac37c3e08
+    new: 681752b8d3fb369595ca0b83b793647e535da8ae
+    log: |
+         5fd9d78d81b3f116323d99ff00431a7f51cd5dd9 wireguard: selftests: test 4 parallel streams
+         681752b8d3fb369595ca0b83b793647e535da8ae wireguard: queueing: get rid of per-peer ring buffers
+         
