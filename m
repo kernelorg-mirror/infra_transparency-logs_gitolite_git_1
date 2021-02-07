@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0033591171614927078=="
+Content-Type: multipart/mixed; boundary="===============8289159133953757839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 07 Feb 2021 09:05:21 -0000
-Message-Id: <161268872171.14083.11001862430667202041@gitolite.kernel.org>
+Date: Sun, 07 Feb 2021 09:06:06 -0000
+Message-Id: <161268876612.14374.14636088138808165696@gitolite.kernel.org>
 
---===============0033591171614927078==
+--===============8289159133953757839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 18a2615c1f9339d180b292d2fd203860001ab593
-    new: 2faf12c57efe1f905007e866d753af7851205aec
+  - ref: refs/heads/staging-testing
+    old: 2faf12c57efe1f905007e866d753af7851205aec
+    new: f2d4eef5396a21f26e99115f087ff03b7646659d
     log: |
-         0e23570a0cf6b39e216e41d87d29227f598a9de3 staging: qlge/qlge_main: Use min_t instead of min
-         4964a4300660d27907ceb655f219ac47e5941534 staging: bcm2835-audio: Replace unsafe strcpy() with strscpy()
-         af48fc5a4f2a8dc76371b744fe28f4ff2b3cca80 staging: rtl8723bs: fix pointer declaration style
-         f1bfe0982e829b05dde834143be7f727814f4b55 staging: rtl8723bs: remove unused structures
-         2faf12c57efe1f905007e866d753af7851205aec staging: vt665x: fix alignment constraints
+         f2d4eef5396a21f26e99115f087ff03b7646659d staging: octeon: remove braces from single-line block
          
 
---===============0033591171614927078==
+--===============8289159133953757839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612688707 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612688751 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1612688706-dc00dc70570bde63392a2c92598e662d48de63b1
+nonce 1612688750-f627f93d621ed7af48969931185a64d43f2a010b
 
-18a2615c1f9339d180b292d2fd203860001ab593 2faf12c57efe1f905007e866d753af7851205aec refs/heads/staging-next
+2faf12c57efe1f905007e866d753af7851205aec f2d4eef5396a21f26e99115f087ff03b7646659d refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAfrUMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MsQQAIZrVZW7Z3xgk3o7UDgs
-9/RyIzWtIGwxa1ql0x00TumY69H2dJ9wWOqpjMAYtOaX7rrvaeai9wcNl5u7lgDY
-R8HBeO7PBzfRErg8sWAEnTF2WbForglrWN3xDAj3f7ayhQVeiKneFG5FK8d6D8Gw
-N4trxmFSvdtiI8OpH5CEmp2MsbN0ltiWlIN6Xdr/grTbMxy9Yd87QAQR1tKf2SyO
-FkFo+KothcJrd+OEqiIEooxfOcdEoaz4fej+f8U57aI7NSR3pereUqfYgnYkZK2u
-ZoOh13u3cyNWVEpF0X2GskQzPlRyBdwPDfEmr8FfWfoorUymyLJVcUS262UYN6q2
-YqjsgNvi+teCAlzKwLnDdZeaU6mtJunjIxqIByWg9xQzAWP8zBztgoAFd3JmoFDU
-V2kFoR/Cae7j4bOKWwEU3yJF5kpyfEhB0/5BFpDmRrAksUt92+fmhXzduZlRzaM8
-LOugtNL+/x/+6BnfTNVnoI1wf/4gi43xeht4Qn5OGlLMb/nHVKPA5e4eIgB1Y1PC
-ZPr+QkR/JZ+JDyhlP7V+IdLsk07Wra7Lc/PGXKUN4OMo07vrhfe3N05QRn/l/vJN
-GAbcennj4bpbqI8FzRuM8vVFhr5eOAvoE8f6fLD0zKMGjloOObC9819Ineo5d0KB
-6dcwnEUBKVILscMCvLRFjmr8
-=/QuX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAfrW8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+veoP/34D1++S3n4cBXYtusFK
+401HOyAG6AQ3Jrw59yQow6eHyZU6McUZIiCIkLskY2Pi8q4SFgA1dBjQlAiB1jnd
+dkggLoduX2hZFD/YOmyx7DikHjWn2eh+C9LW43W7hh0bwDuslcQ7leph3RWb+VCk
+WqBCUs5MI6NF9T5a1aL1hxY+DtgowCgu1W/X/Y7w9VmMqQVgodO3XE4RQA7XtIhA
+W9n/+SEfg7ixtQiVC/r2rUgPPQs1Xs+xO3e6F55KBa6vRfvo3+OtayyihTcQg9IE
+FoM1HZ5lHVoAw6Fs++Sce6IN0+pUZz18cDBqfLwanCrvIqTER0qQTuJPtkU+3Uws
+FD1FkV9gUEN26AJAv44dO+RAfzFSTv+XpqGFVwT70XZWrtVUSM84aYZrSUpPyoHJ
+dqI7JcE5fOTGS2Ff2Xm5FN2WcfeupCK2lKc9GBISnsvBV+6w4j9xmd1RgLaifOtc
+th1xHxsd7JhcLKiOWRcUf9MKgNy49FXKy1AFCgKiwLu/E4EqELNbrsgCV+ZYCaOU
+VsNeVzJ8wShXz05fAnPmRv448gLbhFQv7M2MXA9pnPAPTjje8bvWfKYbnbdYu7HR
+92vAPANnK6jmyOuMEykBDyCZdCFN9D02IJg6uG6lqQukb5V/+iz/ytQ9He+THJXE
+J3DtkGsZ+H48M5o6ozeDF2tQ
+=E6ON
 -----END PGP SIGNATURE-----
 
---===============0033591171614927078==--
+--===============8289159133953757839==--
