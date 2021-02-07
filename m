@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6927981313255172409=="
+Content-Type: multipart/mixed; boundary="===============0642333761506859459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 07 Feb 2021 15:44:17 -0000
-Message-Id: <161271265791.19738.2727572372447070099@gitolite.kernel.org>
+Date: Sun, 07 Feb 2021 15:44:37 -0000
+Message-Id: <161271267741.19935.14417786238914416443@gitolite.kernel.org>
 
---===============6927981313255172409==
+--===============0642333761506859459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04
+  - ref: refs/heads/usb-linus
+    old: f670e9f9c8cac716c3506c6bac9e997b27ad441a
     new: 825b5991a46ef28a05a4646c8fe1ae5cef7c7828
-    log: revlist-6ee1d745b7c9-825b5991a46e.txt
+    log: revlist-f670e9f9c8ca-825b5991a46e.txt
 
---===============6927981313255172409==
+--===============0642333761506859459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612712647 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612712668 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1612712647-f4a663d60a28bb3dedc4224ef20221f468ccb360
+nonce 1612712668-70764bf639b82a1041d20100a2afbf6e91da0fb5
 
-6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 825b5991a46ef28a05a4646c8fe1ae5cef7c7828 refs/heads/main
+f670e9f9c8cac716c3506c6bac9e997b27ad441a 825b5991a46ef28a05a4646c8fe1ae5cef7c7828 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAgCscbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/ykP/2++b9Vi09cG9EjWy/Eu
-ghI54yhTriwgBJBgqfEuffHMv5Hi2OuUfNQKTdHg9Mt+NIG0273KmbWHYTPXTmku
-EDCclJ3k1i2dcXXgwZFtEsFc8JcIwhN/6vq0bOGv5/HoPuRvyVB+ZfO4bN0GMolQ
-dS2VMsbCu6YQvcjuqVGkF3MnFURTbR9VMtmxCk5ZHctFP6z+7X/46JcFGzjmel4s
-CcGSntFmcPJAxZNlmezIwQAPa1xqqCtyjAaFCHnL4HuvzRJx00SnuEzdaSYuddGX
-aXS+WksoqELg09YM24YNVjg8Y8nroMIENoUvro623TlaUctJMc/TfRfSWBTv4b7S
-Ed3IMk5wMwcsS5PdON2mUqTY6ilaaLllLJjm9SkLTPgoG6aPMEhqnCAO5EcNl+yB
-y2xHF8Q4ADK799P+kxrAtWc586333lWV47AsPOsKCH3jbHYUi++Be79xj6qQXYRX
-BD3/NGvyLE43s8MqSICshpmM0MapuNjJyTGcg19MTfsjGG8fAC697HNFPWZh26Ye
-IyQV4pY4hGJE+cUfYZ6tT8sXs3FKvyPyRLzHK0RLjWiNjBjZAbIFE7BgGn3lQpa4
-veG9iv0iUh1JUNfruwN3RrzbjQdjIpZe8XN51nkBcHoaLSTmTu7bN42Wx2AMlcS2
-sujThIzLtcMH0I6i383QYKBD
-=UbE/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAgCtwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/RcP/3vGEHYZ8yUdplJL4Zoj
+o5Yp9fgnnWF0/OoUNI+SiGQF6rgYTq5YOaFEDMb7TdD7McwqwE1/lTXyWWr2vvU2
+3OMJAFbY9f0tPkln8EJe/y8SHDB4Zym08al3fmUJ3kLbB4U7K5E5WWiNivaVrLIy
+cdznhR1FR99bM8mdhmPZSLMtK2JIZKtBzaA5sdy4IU7pajkg/zSFZ9/WHlSIvw7J
+F2toLf7LukeqTBUx7nvCb/Ps7kLocZXvaApGi7WW3r0F1v1KgacSyCS2PBPZv3FU
+iGLJWGT9QYkfgbU+vnf+SKYs7fil9ZZ5NDsQAYCz/xkzWCyMiikD7HRUAkmwkw6X
+9jHlx3G+iTptJOxVAzI+6IwmdKN68oOiET2IQQKahZFpbQTChwuNYQpEjHGxcIG4
+JmEmJ4JBH7z92YWEC0vthGqu4Qgaz4QiMVtJcNZqtOEjIcdfbscCcHz0vZk2fMSQ
+cb7vZYOs0MH2G7TK1yJ1geOY3tapOkDm/foh3Q++UJp2oRrfPAsXoDtPy8CXkZhc
+1oCbkZrSjTMTG9iRcqNiSEEvcJNWmfatMFJdsKCYDkpr3xe2g3GSwofT+if2xqBd
+rtcJ+bvXDRUcQJLhavs1VnU3MIzywUukaO8eLZUPbExnqpVOniRrEdq0OLRvAICo
+IZqTIGEkrit/uKQuAFBR0CAr
+=L+A7
 -----END PGP SIGNATURE-----
 
---===============6927981313255172409==
+--===============0642333761506859459==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6ee1d745b7c9-825b5991a46e.txt
+Content-Disposition: attachment; filename=revlist-f670e9f9c8ca-825b5991a46e.txt
 
 07af7810e0a5bc4e51682c90f9fa19fc4cb93f18 DTS: ARM: gta04: remove legacy spi-cs-high to make display work again
 6efac0173cd15460b48c91e1b0a000379f341f00 ARM: OMAP1: OSK: fix ohci-omap breakage
@@ -109,7 +109,6 @@ e1def45b5291278590bc3033cc518bf5c964a18d media: rc: ite-cir: fix min_timeout cal
 fd2383093593b23f8814a879093b746e502fe3cf clk: qcom: gcc-sm250: Use floor ops for sdcc clks
 c361c5a6c559d1e0a2717abe9162a71aa602954f clk: mmp2: fix build without CONFIG_PM
 93f2a11580a9732c1d90f9e01a7e9facc825658f arm64: dts: qcom: sdm845: Reserve LPASS clocks in gcc
-43377df70480f82919032eb09832e9646a8a5efb USB: serial: cp210x: add new VID/PID for supporting Teraoka AD2000
 09db7311ca6170d36f2bb8c26eab8fadc4d10b81 Merge v5.11-rc3
 11663111cd49b4c6dd27479774e420f139e4c447 KVM: arm64: Hide PMU registers from userspace when not available
 7ded92e25cac9758a755b8f524b11b509c49afe1 KVM: arm64: Simplify handling of absent PMU system registers
@@ -246,7 +245,6 @@ ed0022da8bd9a3ba1c0e1497457be28d52afa7e1 iwlwifi: pcie: set LTR on more devices
 2d6bc752cc2806366d9a4fd577b3f6c1f7a7e04e iwlwifi: pcie: fix context info memory leak
 6701317476bbfb1f341aa935ddf75eb73af784f9 iwlwifi: pcie: use jiffies for memory read spin time limit
 3d372c4edfd4dffb7dea71c6b096fb414782b776 iwlwifi: pcie: reschedule in long-running memory reads
-3c4f6ecd93442f4376a58b38bb40ee0b8c46e0e6 USB: serial: cp210x: add pid/vid for WSDA-200-USB
 aefbe5c445c7e2f0e082b086ba1e45502dac4b0e iwlwifi: mvm: fix the return type for DSM functions 1 and 2
 e223e42aac30bf81f9302c676cdf58cf2bf36950 iwlwifi: mvm: invalidate IDs of internal stations at mvm start
 16062c12edb8ed2dfb15e6a914ff4edf858ab9e0 iwlwifi: pcie: add rules to match Qu with Hr2
@@ -312,9 +310,6 @@ c5cade200ab9a2a3be9e7f32a752c8d86b502ec7 futex: Provide and use pi_state_update_
 6ccc84f917d33312eb2846bd7b567639f585ad6d futex: Use pi_state_update_owner() in put_pi_state()
 f2dac39d93987f7de1e20b3988c8685523247ae2 futex: Simplify fixup_pi_state_owner()
 34b1a1ce1458f50ef27c54e28eb9b1947012907a futex: Handle faults correctly for PI futexes
-d8c6edfa3f4ee0d45d7ce5ef18d1245b78774b9d USB: usblp: don't call usb_set_interface if there's a single alt
-a55a9a4c5c6253f6e4dea268af728664ac997790 usb: gadget: aspeed: add missing of_node_put
-1d69f9d901ef14d81c3b004e3282b8cc7b456280 usb: xhci-mtk: fix unreleased bandwidth data
 a1bb3cd58913338e1b627ea6b8c03c2ae82d293f io_uring: fix __io_uring_files_cancel() with TASK_UNINTERRUPTIBLE
 ca70f00bed6cb255b7a9b91aa18a2717c9217f70 io_uring: fix cancellation taking mutex while TASK_UNINTERRUPTIBLE
 19f6fe976a61f9afc289b062b7ef67f99b72e7b9 Revert "arm64: dts: amlogic: add missing ethernet reset ID"
@@ -400,7 +395,6 @@ b770753c7b08f1f6008d0d364180fc123f7b25e2 MAINTAINERS: add missing header for bon
 e41aec79e62fa50f940cf222d1e9577f14e149dc ibmvnic: Ensure that CRQ entry read are correctly ordered
 44a674d6f79867d5652026f1cc11f7ba8a390183 Merge tag 'mlx5-fixes-2021-01-26' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 181f494888d5b178ffda41bed965f187d5e5c432 KVM: x86: fix CPUID entries returned by KVM_GET_CPUID2 ioctl
-e478d6029dca9d8462f426aee0d32896ef64f10f USB: serial: option: Adding support for Cinterion MV31
 9efb069de4ba748d284f6129e71de239f801053a ovl: add warning on user_ns mismatch
 554677b97257b0b69378bd74e521edb7e94769ff ovl: perform vfs_getxattr() with mounter creds
 f2b00be488730522d0fb7a8a5de663febdcefe0a cap: fix conversions on getxattr
@@ -422,7 +416,6 @@ bc6fa8676ebbf9c5285f80d7b831663aeabb90bb drm/bridge/lontium-lt9611uxc: move HPD 
 a44092e326d403c7878018ba532369f84d31dbfa iommu/amd: Use IVHD EFR for early initialization of IOMMU features
 2b1b3e544f65f40df5eef99753e460a127910479 drm/ttm: Use __GFP_NOWARN for huge pages in ttm_pool_alloc_page
 494b3688bb11a21af12e92a344a1313486693d47 iommu/vt-d: Correctly check addr alignment in qi_flush_dev_iotlb_pasid()
-4d395c5e74398f664405819330e5a298da37f655 thunderbolt: Fix possible NULL pointer dereference in tb_acpi_add_link()
 41c1a06d1d1544bed9692ba72a5692454eee1945 entry: Unbreak single step reporting behaviour
 2a3e487a3e538b3a87d0a4ea71f185437c38e55e Merge tag 'omap-for-v5.11/fixes-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into arm/fixes
 f2d514b4f428265e418e8fb46adebeb6c0717131 Merge tag 'v5.11-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
@@ -504,7 +497,6 @@ c05d51c773fb365bdbd683b3e4e80679c8b8b176 Merge tag 'for-5.11-rc5-tag' of git://g
 344717a14cd7272f88346022a77742323346299e powerpc/sstep: Fix array out of bound warning
 bce74491c3008e27dd6e8f79a83b4faa77a08f7e powerpc/vdso: fix unnecessary rebuilds of vgettimeofday.o
 66f0a9e058fad50e569ad752be72e52701991fd5 powerpc/vdso64: remove meaningless vgettimeofday.o build rule
-045aef3acf38a490a741ba7bbfdc0d2cfa19d480 Merge tag 'usb-serial-5.11-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 aa880c6f3ee6dbd0d5ab02026a514ff8ea0a3328 arm64: dts: ls1046a: fix dcfg address range
 eb4e8fac00d1e01ada5e57c05d24739156086677 neighbour: Prevent a dead entry from updating gc_list
 e37c0fbabd8e1d50bdd6cd0a1a07b72e1048a9d0 Merge tag 'riscv-for-linus-5.11-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
@@ -518,7 +510,6 @@ ad8b3c1e637cf7b827d26917034fa686af74896b Merge tag 'scsi-fixes' of git://git.ker
 27af8e2c90fba242460b01fa020e6e19ed68c495 leds: trigger: fix potential deadlock with libata
 c8283eb79d879ef898f4224ba30e554f83904b0a dt-bindings: leds: Add DT binding for Richtek RT8515
 e1c6edcbea13de025c3406645b4cce4ac3baf973 leds: rt8515: Add Richtek RT8515 LED driver
-3e1f4a2e1184ae6ad7f4caf682ced9554141a0f4 USB: gadget: legacy: fix an error code in eth_bind()
 c178fae3a9f5b4f2e6c9de34a1fbff1a2b455c46 Merge tag 'nfs-for-5.11-3' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 29bd2d2100dcd98455c5f2dff391a88c5b44a6b2 Merge branch 'for-rc-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 1188866d9cec4987ee465b7a0815f0bcb946641e Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
@@ -532,9 +523,6 @@ ac8c6edd20bcb965b22ceb36752499b3d5cf5dd4 Merge tag 'efi-urgent-for-v5.11' of git
 f92e04f764b86e55e522988e6f4b6082d19a2721 mmc: core: Limit retries when analyse of SDIO tuples fails
 d7fb9c24209556478e65211d7a1f056f2d43cceb mmc: sdhci-pltfm: Fix linking err for sdhci-brcmstb
 c07ea8d0b170c0cf6592a53981841c7973e142ea gpio: gpiolib: remove shadowed variable
-81219f80097ea7616211dddca5438283a05816d4 Merge tag 'thunderbolt-for-v5.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
-9917f0e3cdba7b9f1a23f70e3f70b1a106be54a8 usb: renesas_usbhs: Clear pipe running flag in usbhs_pkt_pop()
-54f6a8af372213a254af6609758d99f7c0b6b5ad usb: xhci-mtk: skip dropping bandwidth of unchecked endpoints
 18fe0fae61252b5ae6e26553e2676b5fac555951 mac80211: fix station rate table updates on assoc
 bad4c6eb5eaa8300e065bd4426727db5141d687d SUNRPC: Fix NFS READs that start at non-page-aligned offsets
 7131636e7ea5b50ca910f8953f6365ef2d1f741c KVM: x86: Allow guests to see MSR_IA32_TSX_CTRL even if tsx=off
@@ -597,7 +585,6 @@ f2539e14f31ed1f888f9e469a41c71e496de1702 Merge branch 'net-ipa-a-few-bug-fixes'
 a9925628727bbbfbd7263cf7c7791709af84296e Merge tag 'net-5.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 2e02677e961fd4b96d8cf106b5979e6a3cdb7362 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 7d36ccd4bd07825775b512f654566d3e89e9cfd0 Merge tag 'dma-mapping-5.11-1' of git://git.infradead.org/users/hch/dma-mapping
-a50ea34d6dd00a12c9cd29cf7b0fa72816bffbcb usb: xhci-mtk: break loop when find the endpoint to drop
 3aaf0a27ffc29b19a62314edd684b9bc6346f9a8 Merge tag 'clang-format-for-linux-v5.11-rc7' of git://github.com/ojeda/linux
 62c31574cdb770c78f67e7aa6e0b0244ad122901 Merge tag 'imx-fixes-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
 89fa15ecdca7eb46a711476b961f70a74765bbe4 drm/amdgpu: fix the issue that retry constantly once the buffer is oversize
@@ -623,8 +610,6 @@ c1c35cf78bfab31b8cb455259524395c9e4c7cd6 KVM: x86: cleanup CR3 reserved bits che
 a900cac3750b9f0b8f5ed0503d9c6359532f644d ARM: dts: sun7i: a20: bananapro: Fix ethernet phy-mode
 5638159f6d93b99ec9743ac7f65563fca3cf413d ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
 459630a3ebb4110c571f103fbc2d8120be001e39 Merge tag 'sunxi-fixes-for-5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
-3241929b67d28c83945d3191c6816a3271fd6b85 usb: host: xhci: mvebu: make USB 3.0 PHY optional for Armada 3720
-d4a610635400ccc382792f6be69427078541c678 xhci: fix bounce buffer usage for non-sg list case
 cb8563f5c735a042ea2dd7df1ad55ae06d63ffeb nvmet-tcp: fix out-of-bounds access when receiving multiple h2cdata PDUs
 4aa2fb4ef799b01dd5d2dcc3970344a9a036c1f2 Merge tag 'platform-drivers-x86-v5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 40615974f88a918d01606ba27d75de2ff50b8d4e Merge tag 'gpio-fixes-for-v5.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -645,8 +630,6 @@ aec18a57edad562d620f7d19016de1fc0cc2208c io_uring: drop mm/files between task_wo
 cfd4951f935c5504e887ed80abaafba210cc0a44 Merge tag 'amd-drm-fixes-5.11-2021-02-03' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 dd86e7fa07a3ec33c92c957ea7b642c4702516a0 Merge tag 'pci-v5.11-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 59854811c08cfbdf52d79231666e7c07c46ff338 Merge tag 'drm-intel-fixes-2021-02-04' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-0e5a3c8284a30f4c43fd81d7285528ece74563b5 usb: dwc3: fix clock issue during resume in OTG mode
-f670e9f9c8cac716c3506c6bac9e997b27ad441a usb: dwc2: Fix endpoint direction check in ep_from_windex
 9c698bff66ab4914bb3d71da7dc6112519bde23e ARM: ensure the signal page contains defined contents
 4d62e81b60d4025e2dfcd5ea531cc1394ce9226f ARM: kexec: fix oops after TLB are invalidated
 91792bb8089b63b7b780251eb83939348ac58a64 smb3: fix crediting for compounding when only one request in flight
@@ -687,4 +670,4 @@ f06279ea1908b9cd2d22645dc6d492e612b82744 Merge tag 'powerpc-5.11-7' of git://git
 f7455e5d6897f275aaf5b6d964103ba295ac0cdd Merge tag 'riscv-for-linus-5.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 825b5991a46ef28a05a4646c8fe1ae5cef7c7828 Merge tag '5.11-rc6-smb3' of git://git.samba.org/sfrench/cifs-2.6
 
---===============6927981313255172409==--
+--===============0642333761506859459==--
