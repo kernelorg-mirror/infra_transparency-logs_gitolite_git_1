@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2626180093693802813=="
+Content-Type: multipart/mixed; boundary="===============6273144602855681437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Sun, 07 Feb 2021 02:12:08 -0000
-Message-Id: <161266392811.15684.18441431403162670222@gitolite.kernel.org>
+Date: Sun, 07 Feb 2021 02:14:11 -0000
+Message-Id: <161266405173.16333.4557900194940841272@gitolite.kernel.org>
 
---===============2626180093693802813==
+--===============6273144602855681437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 4d469ec8ec05e1fa4792415de1a95b28871ff2fa
-    new: badc6ac3212294bd37304c56ddf573c9ba3202e6
-    log: revlist-4d469ec8ec05-badc6ac32122.txt
+  - ref: refs/heads/dev-queue
+    old: 347b1d05938102caf50466ee6d745c0dea71ecbb
+    new: bf227cfa1fbb7eccf30dc006d906bae48c686da7
+    log: revlist-347b1d059381-bf227cfa1fbb.txt
 
---===============2626180093693802813==
+--===============6273144602855681437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d469ec8ec05-badc6ac32122.txt
+Content-Disposition: attachment; filename=revlist-347b1d059381-bf227cfa1fbb.txt
 
 31561e8557cd1eeba5806ac9ce820f8323b2201b ath10k: Fix error handling in case of CE pipe init failure
 5f1aa93ffa1f36577d0c18e91269f0ffd491e822 ath10k: Remove voltage regulator votes during wifi disable
@@ -139,5 +139,95 @@ cd1150098f2cc7bd05740c105488c293f6761f5a net: ipa: avoid field overflow
 7274c4147afbf46f45b8501edbdad6da8cd013b9 r8169: don't try to disable interrupts if NAPI is scheduled already
 c273a20c304f299d4cf24ba0c9c9f54b7d580b77 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf-next
 badc6ac3212294bd37304c56ddf573c9ba3202e6 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+8ae1d367ded665659a332fb9aeb0b381da50641a i40e/i40evf: cleanup i40e_update_nvm_checksum()
+55ec5202b4b0c738e9b1bd006e1ef7f87f05ac7f igc: Add UDP segmentation offload support
+db2a6732b5c36a76dcd06a36b6e12ff9f2181eb0 ice: remove redundant assignment to pointer vsi
+843984241bb63589890c8917bd9a81d973ca67e8 ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
+41ad7ef1aa9d36f9cec8924174833b12a7db82d8 ice: report correct max number of TCs
+19b58b08e71bf080cd421675fe4dd4d4aecfe561 i40e: Add flow director support for IPv6
+c81b2f423a0b6089973cd0fb8066988ee42746e4 i40e: VLAN field for flow director
+34399ebf4bd8eeb16acb576f6f4ad159f1fc0c0e i40e: prepare flash string in a simpler way
+0dc3c820511f43e800cabec03d8160c7f8a8eb1f ice: Fix memleak in ice_set_ringparam
+267e7aa5759602969896b7588f2bfa6230095d83 i40e: Add EEE status getting & setting implementation
+ac67384d891f3efe0ef2d8e6cb7b3dadf21bc9d2 i40e: Fix flow for IPv6 next header (extension header)
+6f3a9c2f91edad05c75215274f244cf5c9899019 ice: report security revisions of flash modules via devlink info
+283ab9bd817533fa5ee1f4f9636aaac3857ee861 ice: add devlink parameters to read and write minimum security revision
+1f5b896503f8114fe2b448e85e00548ad905bbde virtchnl: Use pad byte in virtchnl_ether_addr to specify MAC type
+b94e90e984ce890465d4df7bcdf363a606e49fed ice: Manage VF's MAC address for both legacy and new cases
+3ffba6024d9a0644b37c41d1543ad293673590c1 ice: Save VF's MAC across reboot
+91d4c547f2f5dd737d5349daaf3c3e59f8807ff9 ice: log message when trusted VF goes in/out of promisc mode
+6615dbe620e9bd9eed34ea66a278ad2c3158ff44 ice: Set trusted VF as default VSI when setting allmulti on
+0dcabdf9008afb97d017a5aa9326fdd1f70b7881 ice: Account for port VLAN in VF max packet size calculation
+7941401b0ea946b0ff6e544006c261283f7e9db8 ice: implement new LLDP filter command
+8d543e5ec56d6f06bd61e83aa3a696af1b004e29 i40e: Add info trace at loading XDP program
+a6f18a16510afc0ca48b27cf097fec82b0923487 ixgbe: don't propagate -ENODEV from ixgbe_mii_bus_init()
+751e0aff5909c0f14e7015d16bce54913501f250 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+09001127367a1720fc99613dbe053a7477330449 igc: reinit_locked() should be called with rtnl_lock
+898a97a2dcf9b131b95887ef1f8799c9c12c6411 e1000e: add rtnl_lock() to e1000_reset_task
+b3a45a91be65b26c2c9ae70d173ffe95636191f6 i40e: Add hardware configuration for software based DCB
+231e8366226a7b5fb90ebc9af7f24548182b79ec i40e: Add init and default config of software based DCB
+8b4fb7af167a9c6358f3f457c5d0c710b6f18295 i40e: Add netlink callbacks support for software based DCB
+6519694fd7b94f2d21822269868ca92cd970bdde ice: Remove xsk_buff_pool from VSI structure
+aab425d832c08965d056d8aa93776c4dec36347e i40e: Fix memory leak in i40e_probe
+6935819fe73f00a75e5ed5777682dfbe57fed98a ixgbe: Support external GBE SerDes PHY BCM54616s
+60415b470bb903d612d17ca22b141f76b9b01eca i40e: remove the useless value assignment in i40e_clean_adminq_subtask
+d8927d429325e90bdd8026bd57d5ece01922750e i40e: Add Rx errors aggregation
+a1c7daffc1a0f796f6ad0362c748356c623cebfd i40e: Add zero-initialization of AQ command structures
+ef26ad8952b55e08ddfbdd31a876651aa1f3f05e ice: update the number of available RSS queues
+ae1a73ecd753f54ef75e15be9de203f5496c8e47 ice: Fix state bits on LLDP mode switch
+1e2f9e882acbc9650ea93c05c58b9f9b49d889dd Documentation: ice: update documentation
+dfaab5b51c1a63df4cc4dc3da1dc2648fc81f862 ice: Add initial support framework for LAG
+bdb7374312a37cff7a805ff2d9dbadeddd9f756e ice: create scheduler aggregator node config and move VSIs
+1da60300a5abcb3201d66e88fc5995a6bc3de1ff ice: Fix AF_XDP multi queue TX scaling issue
+c0cb1da596051418c9381322eb01afb1ffabec32 ice: Optimize AF_XDP zero-copy TX completion path
+10356574c9898436bd1bf7db642243e7ca306089 ice: improve AF_XDP single socket performance
+ba1b4be7757ae0628bee378c28700b0cdcaf462a ice: Refactor ice_setup_rx_ctx
+033418b7193ad3207663dd037aa517b4664fafe5 ice: Use PSM clock frequency to calculate RL profiles
+047ecea234d68ddb00574985bf55662685e32db6 ice: fix writeback enable logic
+04f9a81cff785f2ccf4fa1dc86357e38f06c8f9f ice: Refactor DCB related variables out of the ice_port_info struct
+ca2fdafc1f637faf491ac8334c6a0d1ce5b6c387 ice: remove unnecessary casts
+08258b48d06c6f0ad9dd7c7b989b0bd7ba793b8f ice: Fix trivial error message
+c4b3bcc9ce6f1a05fc96eec55855b64154538669 i40e: Fix overwriting flow control settings during driver loading
+eab466f51b6857bbadaec5073af4e2ceb288dd64 i40e: Fix VFs not created
+f4d4b1bc72e21fdefb34c0e2227b3acda01cee5b i40e: Fix addition of RX filters after enabling FW LLDP agent
+cbf9d5e8aeaf38f10bbd6b3a6431fda47e498bc8 e1000e: Leverage direct_complete to speed up s2ram
+db92d60b4e5e96fad47d1ec78c839d1f321d99e6 e1000e: Remove the runtime suspend restriction on CNP+
+6a6769e70f6f9e292735e7ac35c924ce5053149c i40e: optimize for XDP_REDIRECT in xsk path
+4b7eb1b9acb0e4dda317f35e976d6f9d448a2d89 ixgbe: optimize for XDP_REDIRECT in xsk path
+30c3ce879e427eafea4d115225c36f4634f914f2 ice: optimize for XDP_REDIRECT in xsk path
+27a422be3bb1695c1ffe1487569c40b80a372322 ixgbe: aggregate all receive errors through netdev's rx_errors
+e7fa452a486d762d710f053dc33c6fb7e624ad2d i40e: drop redundant check when setting xdp prog
+1c7e9c84b80377599278e7b47aa6ad43b8b70610 i40e: drop misleading function comments
+e62631981e0ac1215b4965abe82428358f0b781a i40e: adjust i40e_is_non_eop
+c1c1d39e8de28e6791dfa3860bbf66fef43f849d ice: simplify ice_run_xdp
+5cb9ec328d5abe50212dc208e9fb55ed4481aa37 ice: move skb pointer from rx_buf to rx_ring
+2eafb75d8571ac827bec1b802a02d2bd61c48eab ice: remove redundant checks in ice_change_mtu
+df4dead46e028e02e96e9b6c899d20086b5df2f1 ice: skip NULL check against XDP prog in ZC path
+2f51124cb7195c6f5f66a1253ddd85e7eb018e0e i40e, xsk: Simplify the do-while allocation loop
+99bcc013ca90122dc3409f0282d88f6552197419 i40e: store the result of i40e_rx_offset() onto i40e_ring
+21163cb54b01390b89a3df35ec2ff6e36440806a ice: store the result of ice_rx_offset() onto ice_ring
+5ff09e962451114560c4b623fb65bfb1f6976bf5 ixgbe: store the result of ixgbe_rx_offset() onto ixgbe_ring
+52288e0ab4b07d1396cb534b08dfe246eff8bccf i40e: Log error for oversized MTU on device
+41730fef4ae7c00341afc5912797a3b012072975 i40e: Fix add tc filter for IPv6
+780a0b26e5167a3e43c574a0a928ce3ecb429885 i40e: Fix setting PF MAC filters when changing MAC address
+6d2c7d20cdacd014f50a418c9cd41aee24b45ead i40e: Add Asym_Pause to supported link modes
+949ac8a8b6af41e59bc3b00b65cc6ba838976c32 ixgbe: Fix memleak in ixgbe_configure_clsu32
+efa8dc7b6c343de0456aa1ac8bf52e6eea8326c2 igc: Remove unused MII_CR_RESET
+5099fdfae3575af84a39188d38e0ebc05f5b3626 i40e: add support for PTP external synchronization clock
+5f4328a50061f6470bc6cc91d9822700e7bea38e igc: Remove unused MII_CR_SPEED
+7006a6ee8da250e86ae87198e4c78d8798ae6116 i40e: remove unnecessary memory writes of the next to clean pointer
+211e7bb6ea61b146e57442785b824ebdc619b081 i40e: remove unnecessary cleaned_count updates
+c41768fd695fc064a3157120149afc088269f27b i40e: remove the redundant buffer info updates
+a2cb6fc34c168b61f9fd5f39ad7ccbcd444a4861 i40: consolidate handling of XDP program actions
+71997bad145e4dbc8b39c769c06e609ae1671b67 igb: avoid premature Rx buffer reuse
+320d1339529e0195447f89412dfd03b777bfb8a2 ice: Improve MSI-X fallback logic
+33f231b3238eb709dce81ec18f135aa3ac850b8f iavf: Fix asynchronous tasks during driver remove
+7cae51ffef93769ab8a18656e88351db7c3014f7 i40e: Fix correct max_pkt_size on VF RX queue
+4617e9402892a77c9869ca74b8df743f2edbc256 igc: Assign boolean values to a bool variable
+6dcc15ec0d2423247636c764a1a5c1ab422b1953 i40e: refactor repeated link state reporting code
+068d46d20e8125afb285ca039fe85d6b4d317599 virtchnl: Fix layout of RSS structures
+de042fb7af81ce085e1e51b87ba1c92318873fe0 igb: Redistribute memory for transmit packet buffers when in Qav mode
+706d28d42773a82dab6167828f2ac3ec55ef3534 i40e: Fix endianness conversions
+bf227cfa1fbb7eccf30dc006d906bae48c686da7 ice: fix napi work done reporting in xsk path
 
---===============2626180093693802813==--
+--===============6273144602855681437==--
