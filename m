@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/bcache-tools
-Date: Sun, 07 Feb 2021 10:16:11 -0000
-Message-Id: <161269297130.10900.12924177625430676856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 07 Feb 2021 10:37:17 -0000
+Message-Id: <161269423713.21961.7231236056906293018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/bcache-tools
-user: colyli
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 969cd1b7cb0ce781c1a72af71b838c5e8bda5fce
-    new: a984927b3ab873cf3d2bf7bb03b37b12ffc0af66
-    log: |
-         f9f28a62d3481681f1b8b1423adfa2122ef369a3 bcache-tools: write nvm namespace super block on nvdimm
-         a984927b3ab873cf3d2bf7bb03b37b12ffc0af66 bcache-tools: support "bcache show -d" for nvdimm-meta device
-         
+  - ref: refs/tags/x86_urgent_for_v5.11_rc7
+    old: 0000000000000000000000000000000000000000
+    new: ee2a99339f29b9e58f99b5a124721ffedc8cd0e6
