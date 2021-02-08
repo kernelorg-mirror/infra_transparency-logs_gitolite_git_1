@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 08 Feb 2021 23:27:10 -0000
-Message-Id: <161282683078.23170.5384884860835271675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Mon, 08 Feb 2021 23:32:48 -0000
+Message-Id: <161282716858.26205.6545834454106313818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/libs/libtrace/libtracefs
+user: rostedt
 changes:
-  - ref: refs/heads/next
-    old: 92bf22614b21a2706f4993b278017e437f7785b3
-    new: 1d317c1ca2930759669bf416d04f2fbd3ce99fa9
+  - ref: refs/heads/libtracefs
+    old: 4b05ae03b8c33eba1ec984f4e7c0e541cd956495
+    new: 809e56077d6ddccf0246a424d83f9078bd16ea23
     log: |
-         64ba3d591c9d2be2a9c09e99b00732afe002ad0d kselftests: dmabuf-heaps: Fix Makefile's inclusion of the kernel's usr/include dir
-         50c65a8342941d30dd5874993052a91c9a52591b kselftests: dmabuf-heaps: Add clearer checks on DMABUF_BEGIN/END_SYNC
-         1b50e10ee6997c795382570eac94ccc874611d61 kselftests: dmabuf-heaps: Softly fail if don't find a vgem device
-         06fc1aaea968949d5413722742f74b2502b6e138 kselftests: dmabuf-heaps: Cleanup test output
-         1d317c1ca2930759669bf416d04f2fbd3ce99fa9 kselftests: dmabuf-heaps: Add extra checking that allocated buffers are zeroed
+         5c013e759325e39c7ac70aa7f57dbf8f589725d9 libtracefs: New APIs for trace options
+         f7951864c7766ba3d683e8676fe0e497991796b2 libtracefs: Unit tests for tracing options APIs
+         2b3dae2caa44460161f5ca6808d65158e473810a libtracefs: Add information about top tracing directory in instance structure
+         90a5400823ac8e1b8b83da5be5dfd65feda11c6f libtracefs: New APIs for getting existing trace instance
+         08bfb492f6f7761848647ca17ae94dcb2c8bf5a5 libtracefs: Unit tests for working with non default tracing dir
+         c90f84645e4847de82c3898c1ecbad9f1301f7f5 tracefs: Use new BUILD_BUG_ON() and ARRAY_SIZE() macros for options_map intergity
+         809e56077d6ddccf0246a424d83f9078bd16ea23 libtracefs: Have the options_map elements be each on their own line
          
