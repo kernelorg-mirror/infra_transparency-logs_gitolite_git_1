@@ -1,22 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Mon, 08 Feb 2021 08:53:01 -0000
-Message-Id: <161277438177.22422.9841587643962536617@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1473471274960055456=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 08 Feb 2021 08:53:25 -0000
+Message-Id: <161277440554.22577.10481100189748962573@gitolite.kernel.org>
+
+--===============1473471274960055456==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/memfd-secret/v17
-    old: d442be532e549a557304fb9ac2df753e0cfc316b
-    new: e923d007da414b9dca277a72a0c89be814a988ea
+  - ref: refs/heads/master
+    old: 4b4c8f1182e648d115df3936df96a03062d4b069
+    new: 11699ea9ec43cc1f63599132b9c768dd8405bb9b
     log: |
-         30244cee249186594af220164779d7ac98687018 mm: introduce memfd_secret system call to create "secret" memory areas
-         f10dfb6e369b37a6d3ebd7624932fe56dd3a409c PM: hibernate: disable when there are active secretmem users
-         4bda68e3117f63b939f47dd186bad276fb05ba1c arch, mm: wire up memfd_secret system call where relevant
-         e923d007da414b9dca277a72a0c89be814a988ea secretmem: test: add basic selftest for memfd_secret(2)
+         11699ea9ec43cc1f63599132b9c768dd8405bb9b 4.14-stable patches
          
+
+--===============1473471274960055456==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612774403 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1612774402-e7047ced4f6f52cdbc6fd92e2c9ee336d8f13832
+
+4b4c8f1182e648d115df3936df96a03062d4b069 11699ea9ec43cc1f63599132b9c768dd8405bb9b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAg/AQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RCUP/1hWVybyuWWNWioVNRAf
+zcpbSp4LrhTl1N8MT8CzPUit54htErh6FkLTYRYoMdGajvWWjfZ+po8bfQLVjulk
+8BQcMnVYNrLgknu1w9dqsIeRmN5kWkWKt9Sb/aHaRZW0rTMVm8OMr8SeTVxSS9pq
+fqiiYV9Hw6c+6TCdP0bhgd20taGYNLtV0poJoA2Rgya5jsBagPaBid4K3yxZV+Jm
+EwOSRKx1AWChN7/ELYq8uE1tmHGE6EIhWU+rSjoHAPpACNUlVqa/599cJ3qoRDgl
+mZH6yeP4VpDIYNOAyNbpdKBehRRLNFqrfnyNoefrnQWyaPy1EsJ804qTpD/wuj44
+S3KF8poRijPGvZXx48SVu6yfifMl29vbb5yR56fELxz1O71zDglzjPXaWpkXmr1h
+DmU9wlcQ4VqA7bgOnpYFRGKTcFXBkvMy10u2CVOciZ/yO7/T7kynzsHkWZ1fzTEj
+0WRKcuKdenFOwDbCnKi5SOoTg4pYkME5tlBGnM8weAYLt4IHaL9wkXh0ti6SdVIy
+OBnqBin0Co02Imfo9KU86CUNtDFpWCSrRdtgFDHo5+8qGAMgijybF1SSbM9DP/8T
+hfg5Gp3z3ec+w3FDNQ6KiFQgKtQwdUjd0Gjen+Fve6f1gGldmzeEe2p8xyLreaus
+I3Vxi/H5+HijWiD/tDhJMj1c
+=EcED
+-----END PGP SIGNATURE-----
+
+--===============1473471274960055456==--
