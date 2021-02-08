@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 08 Feb 2021 12:56:23 -0000
-Message-Id: <161278898383.28474.3256942007610478122@gitolite.kernel.org>
+Date: Mon, 08 Feb 2021 12:57:02 -0000
+Message-Id: <161278902289.28771.635043071960068774@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,21 +11,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/core-build-for-linus
-    old: 6e0bf0e0e55000742a53c5f3b58f8669e0091a11
+  - ref: refs/heads/efi-urgent-for-linus
+    old: 74f85551666fe40bd739e95b5ecb20f53f8ad4df
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/core-debugobjects-for-linus
-    old: 0f85c4805184765ff35e0079b3241ee8f25d1b2b
+  - ref: refs/heads/irq-urgent-for-linus
+    old: aa251fc5b936d3ddb4b4c4b36427eb9aa3347c82
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/core-headers-for-linus
-    old: d19e789f068b3d633cbac430764962f404198022
+  - ref: refs/heads/locking-core-for-linus
+    old: 2116d708b0580c0048fc80b82ec4b53f4ddaa166
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/core-kprobes-for-linus
-    old: 66e9b0717102507e64f638790eaece88765cc9e5
+  - ref: refs/heads/locking-urgent-for-linus
+    old: 91ea62d58bd661827c328a2c6c02a87fa4aae88b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/core-static_call-for-linus
-    old: 69e0ad37c9f32d5aa1beb02aab4ec0cd055be013
+  - ref: refs/heads/objtool-core-for-linus
+    old: ab0a40ea88204e1291b56da8128e2845fec8ee88
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/efi-core-for-linus
-    old: 4d0a4388ccdd9482fef6b26f879d0f6099143f80
+  - ref: refs/heads/objtool-urgent-for-linus
+    old: 44f6a7c0755d8dd453c70557e11687bb080a6f21
     new: 0000000000000000000000000000000000000000
