@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============1059200248291070666=="
+Content-Type: multipart/mixed; boundary="===============0152568832440185958=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 08 Feb 2021 12:05:06 -0000
-Message-Id: <161278590670.28742.15785899984526342410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Mon, 08 Feb 2021 12:06:28 -0000
+Message-Id: <161278598831.29219.3532514954749358690@gitolite.kernel.org>
 
---===============1059200248291070666==
+--===============0152568832440185958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/master
-    old: 80ec0157a70aad895c99e09cc14c8c611be9cb93
-    new: d59d15c4e3efdad5b81b5be022a8feb80d40422d
-    log: |
-         d59d15c4e3efdad5b81b5be022a8feb80d40422d 5.10-stable patches
-         
+  - ref: refs/heads/next
+    old: fdb7ef5b7d36baba1f99bbd33469bf7e51c6b00e
+    new: 0c1a3e8b2e98e8e73453ff86c2ce727441005fb3
+    log: revlist-fdb7ef5b7d36-0c1a3e8b2e98.txt
+  - ref: refs/tags/v5.11-rc7
+    old: 0000000000000000000000000000000000000000
+    new: d61728d5dac3c065b21f39249b406988aaefa193
 
---===============1059200248291070666==
+--===============0152568832440185958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-fdb7ef5b7d36-0c1a3e8b2e98.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612785905 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1612785904-1723480d475ac920a06d5929874032d565f57b4a
+9dbd1ddf74e84289bcaa85371eed64c55ca16eb2 mmc: core: Use host instead of card argument to mmc_spi_send_csd()
+951f6ccfcbb7e4a18bf5fef1fb373d21e5831957 mmc: core: Drop redundant member in struct mmc host
+40c735db06e16bf29c74c3626318719783be3784 mmc: core: Drop redundant bouncesz from struct mmc_card
+1791557ffbafd280c6e566f7f9a70353a470841a mmc: queue: Remove unused define
+f9261eb7d38dc0e69c623e58d4cc2c486f5f27dc mmc: cavium: Replace spin_lock_irqsave with spin_lock in hard IRQ
+82a5d372ed01806c002812d13978abb582866e48 mmc: atmel-mci: Use new tasklet API
+a1149c387c6d5a8021843ae4a387447ff07f195f mmc: au1xmmc: Use new tasklet API
+6078df1565c9bfe580c66009b39538c4ae47a9c9 mmc: dw_mmc: Use new tasklet API
+0f5a7cb639d042392d26353d817bfb60dc2b9467 mmc: omap: Use new tasklet API
+ddf116f96f8ff11fe02ac1925ba846976327a451 mmc: s3cmci: Use new tasklet API
+c36dd04282463aea9414da0b84def5ab081c7f38 mmc: tifm_sd: Use new tasklet API
+39d2969d7b359d4e07966b83ed8b4ec2b6cfb228 mmc: uniphier-sd: Use new tasklet API
+e821afd8e0356e156aa28fa729d5f288c54696df mmc: via-sdmmc: Use new tasklet API
+0c1a3e8b2e98e8e73453ff86c2ce727441005fb3 mmc: wbsd: Use new tasklet API
 
-80ec0157a70aad895c99e09cc14c8c611be9cb93 d59d15c4e3efdad5b81b5be022a8feb80d40422d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAhKPEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OmkP+gMfH/TT2/ps64DUp7k2
-hL6zhTufVi1wp1WNjWuKRT2RE+VvR9AhhpzjZzrjGGMr3BhLzNoDZmc6BcCcFJvE
-J3NLSfd2riig/JDAWhJ3OGVl0ldFamPBZxaDMt8KZsJLRX9ClFVKv+akLKJ+PPa6
-o9+PKayTx5bY/PtPtDoGL/XASMbZM1qrdnqP4JSDP+TPF7WOG9avxQH9eS2aGiG5
-sC1DQjqYaANTIEb7NAj2ysvlsMDQ3IWGPkdJqXSm8fAwcgSTBYBieYMvGTFgvNsh
-Svr/aOSmEEsGzrgJefY7RcbGYny4rHZvGjEYAHO8pD70PwdbYUNcGtf5x7V7eeP/
-7vCLx7F4PMe1aXYN7mKbTCXnf+TFWoRGXL/oBsloO+dzK+2s9gW5dUlmps1jakY7
-ig6RZfQ7xwzL2N7c8FnZB6A6sjpqEqfkx0Rg0RSQEVnXrd31X8Ux4OE8yhaQAQEj
-NrFMaDQmtMzDftOczsMB8wIEiTZ4QEwGkR6LvY9SBydpOegc/e826s74r/kHWYRw
-WgOpRTIvzlyl3Ejjs2gdQAnPYhjWKyvG/6NOwdHfy2nLFNaH8TrKjFTPg57Mprc3
-HdrtGmvNOZa/jUX3Gbsaw7/swRDMs2HbBGNaOvdQnWOweJncGThrA2uYRfgblAdk
-nitaau1bEd1ZEL31JSpB7MZR
-=wvWp
------END PGP SIGNATURE-----
-
---===============1059200248291070666==--
+--===============0152568832440185958==--
