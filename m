@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6229171400016884844=="
+Content-Type: multipart/mixed; boundary="===============7046447739144229172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 08 Feb 2021 14:58:15 -0000
-Message-Id: <161279629589.14346.11717017509915605370@gitolite.kernel.org>
+Date: Mon, 08 Feb 2021 14:58:18 -0000
+Message-Id: <161279629806.14453.11520413293836015059@gitolite.kernel.org>
 
---===============6229171400016884844==
+--===============7046447739144229172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,90 +16,112 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: e7b8d99d56688273d4e1b0bada77ca817db75f02
-    new: cffa06cb070f1ce0015e19c0f54b7a2b86ab4d24
-    log: revlist-e7b8d99d5668-cffa06cb070f.txt
+  - ref: refs/heads/linux-5.4.y
+    old: d67210d1724d0574373c4ee03fc95eba2a0142a4
+    new: 7b6a7cd488bf6be0b5d83709c148c3d69c737a15
+    log: revlist-d67210d1724d-7b6a7cd488bf.txt
 
---===============6229171400016884844==
+--===============7046447739144229172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612796294 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612796295 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1612796291-9409d087c04d7d0357991232d85ad44fa30f121b
+nonce 1612796294-3877f12a4fb16d8ecd5339cbda7b6d23b0565c0a
 
-e7b8d99d56688273d4e1b0bada77ca817db75f02 cffa06cb070f1ce0015e19c0f54b7a2b86ab4d24 refs/heads/linux-4.9.y
+d67210d1724d0574373c4ee03fc95eba2a0142a4 7b6a7cd488bf6be0b5d83709c148c3d69c737a15 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAhUYYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IZ4P/0sHwvKnWVpgY0b5cDIm
-K+Uo/PomfcSdjuB4YOWB17GeqyiP3AY/hhSDvITmQI0TJZJna72JIEzFjpF18R2g
-2rrWdHT1/+L9KA9621jIRR4OgjhD5FmFOBd9yPR4yMMGwgTMv40AbD3VD7BqTf07
-JBqPgcgWXEvtkOQr0f1iACtRZ6m0uSrXlVwEKazOBlm77HoPJ8T9Zi5X+tGGbvt+
-1XUP79qSAMDc6IBXUU+DVW3R78RTBCCBWq/XMo33che28QnFJRb1U0DDJpg7fw0F
-3rTep2oK/FdSVEo/ZR5vUHXERWq9Ly5f8XGIqYAdG/4Rid42CmdOq24aBRl9czmu
-d5l3XoPXCBplc8UU310KA3IWTFV0yy29MqBZwWpWrENXxjMs0A0e8ZMxVuWhBs0m
-uUyebdwJdBvbOPnSqi5isoFIhvL+tGAjr8okyBuqBVxr8WQwTGRjRVDPWBDMacwM
-92Rv8OCdOV3ekJ1nVzzsReogmQCsYv3ItY/GW0JU0c4SW+EFk9Vk4oNgg3Sczf0B
-gs1IltpeETBZTKrLxX9rBBC/Gmuq+0/5Z4JsioP2aC02JiXODJLsgV711WzWEeUz
-9eZ1g4i0x9+VoEgI+LqVmJP1qDjdoYvKgHVwVtk76tJF2FRBrSK89awOEwjCVUnY
-wYnTgdohOR3lQWai7EzuI7Cq
-=gSfo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAhUYcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZpIP/iqenFrSb1ME4gj1d/Xb
+Id/9qhX+25Q7atzqqdRcXHiPs54KwOj0Lzp9JB2sGSRqlIcKE1JVfUQtlT53AcNg
+HNOT8+euGcTsFQNO1i6dZ5Um+3jtWC8ipy4JyEjiGU4uLEZC41DAaoAAs9TPrYb7
+8VyJ7/sCi4YHPyG4FD51nvgqQPMOjO4ct/Vbf9/KrqCm6QsWu75cDWw1oHflVrsU
+Oe89+GQUZoP/SRR7TKOaVBSyXuoVi/BWXsN8N5cfXwBqxq8ZD6tQy5Fe5HVmF1VE
+d1wa0ZDin0zBEso5SXVuHU2hM1qDu1K8Gj7Zjga6oPqEk6FxGAFUbt1KYAky5sT2
+BvJ6SJK0A55aeruSd6v+1hEcN8i2tBHk2TQE2jm/jWxd4Jfvb+3z9yKeXeO0pFPI
+x+SBfaLCmh8AdDMCyGiakjdDUEEAzzizVR5cuDdGxlb6GKidmyXKQ8cTxLWrjmYt
+H3wftvqfo/nA+FyyzWqMx3HRP9Swi0PS5nPbyPYQkh0bzElxswiTwdQbtM1CtYLT
+WF0BOA49soqBmg/VhxpFtp2MH1iE1YtjViTfCdRjKh8AQ2fkLcaPoVRdCyhHmyST
+xaEQznCqC0JySWUdhZACOZSJSsKfEiYu4uhAakU4edPaKfeRDZlJ/F7v8InmHQwZ
+TDnS83yCpVWhqdhC+6JlBXOx
+=rePf
 -----END PGP SIGNATURE-----
 
---===============6229171400016884844==
+--===============7046447739144229172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7b8d99d5668-cffa06cb070f.txt
+Content-Disposition: attachment; filename=revlist-d67210d1724d-7b6a7cd488bf.txt
 
-c0cea0e2e6b27a1017b3fb8e307bcecc52e500e8 net: dsa: bcm_sf2: put device node before return
-db11c499bd5daca8256890deea0f9a8fc3f33a85 ibmvnic: Ensure that CRQ entry read are correctly ordered
-169a6e12fd7e69b48b5643083db2625546502320 net_sched: reject silly cell_log in qdisc_get_rtab()
-7d82b12b4a2fa6fd3011c1eb88bfd5ee4a6724f4 futex,rt_mutex: Provide futex specific rt_mutex API
-8072ee7d6b54ba1ea00e57efcfe7db03ffa8f19a futex: Remove rt_mutex_deadlock_account_*()
-90fbe5bcede0fdb87549553e2467134949914a10 futex: Rework inconsistent rt_mutex/futex_q state
-3111d212c01f45e9afbc6182f13ae02786de7d1b futex: Avoid violating the 10th rule of futex
-748642862af1b68d06ee6b0da7d2d6e32874bab3 futex: Replace pointless printk in fixup_owner()
-9d39382ebcaafa3a9dc3ed9b3b5513159185c628 futex: Provide and use pi_state_update_owner()
-9c34220a97555f8092475cf41e02477d739edf53 rtmutex: Remove unused argument from rt_mutex_proxy_unlock()
-2b437af0101ecdfbde62a926d1b769908571b2e3 futex: Use pi_state_update_owner() in put_pi_state()
-a720ca5703d04f086b534c1d7d57b09b027581c7 futex: Simplify fixup_pi_state_owner()
-635a562a025c118b8a6ec4de7387431fc84111ce futex: Handle faults correctly for PI futexes
-098c1c0c571072e8411f6c5e5bc18a0d3a421b28 scsi: libfc: Avoid invoking response handler twice if ep is already completed
-c561985e2bec853d97bb6d36534323f0196e9375 mac80211: fix fast-rx encryption check
-8d30f07d43196099a3d8d9fd2c098fe000eab638 scsi: ibmvfc: Set default timeout to avoid crash during migration
-1566e3cd8abba9174a4ee88673f88a2ae1ed3776 objtool: Don't fail on missing symbol table
-5a7613b157ab5932a2b0b4dfbd6c82fdb9b3e6e7 stable: clamp SUBLEVEL in 4.4 and 4.9
-34d280cb3c89d12137c68c6d628d6060252f4cf2 USB: serial: cp210x: add pid/vid for WSDA-200-USB
-40495e6c848fb87e78f4e569386980b6c1d2c040 USB: serial: cp210x: add new VID/PID for supporting Teraoka AD2000
-031923a77e2530fb8c8f85bf6126e23d9f3d3c97 USB: serial: option: Adding support for Cinterion MV31
-e5eb8ff982416e265112f6b55526c26cecb4ca9c Input: i8042 - unbreak Pegatron C15B
-aa2d6ed8da334c5d0ba980c98e4ba6c4d4442e0a net: lapb: Copy the skb before sending a packet
-f3e1125e86d152c02003f45461ed2efe49845a95 elfcore: fix building with clang
-30d2dbd3f0bd7ead38abad1ca49cc7e5da5de344 USB: gadget: legacy: fix an error code in eth_bind()
-eee8fdab77c53b245656a098c2cf16e289ab89c5 USB: usblp: don't call usb_set_interface if there's a single alt
-55b5e54d4182bf8cb6cb510d1e5b2abe052d821e usb: dwc2: Fix endpoint direction check in ep_from_windex
-e4fe8d092e9f2e041960bb7969e4b53ae2051969 mac80211: fix station rate table updates on assoc
-a8c41e340cc8d6e99962bcaffd23cfb66109e8f1 kretprobe: Avoid re-registration of the same kretprobe earlier
-2203d681bfe57cb2c4b39a59fe291403d31ae001 xhci: fix bounce buffer usage for non-sg list case
-281a93202643940785d97f25d3e607f2b8d9965a cifs: report error instead of invalid when revalidating a dentry fails
-620ce99296dfc4dc755196d9c73eca2551d118b2 mmc: core: Limit retries when analyse of SDIO tuples fails
-17083e47e782a5c7cb177a670e6738fcd97e2ef1 ARM: footbridge: fix dc21285 PCI configuration accessors
-5a422fb0a6f5bcb26555e85e8f5ba7be3fab7c1a mm: hugetlbfs: fix cannot migrate the fallocated HugeTLB page
-956d7f4664d08c5ca861555277774dbaeaee5635 mm: hugetlb: fix a race between isolating and freeing page
-53120b7e7b7253141eac0e8a38769cf3123ef59a mm: hugetlb: remove VM_BUG_ON_PAGE from page_huge_active
-3659d5ac75bbc1e88baa3067150f31149cca4620 mm: thp: fix MADV_REMOVE deadlock on shmem THP
-71f972c0277cb2b8a6b7a87973d9d81fcc0d34e8 x86/build: Disable CET instrumentation in the kernel
-92f4283101ad8c8333fac1c038684377b66827f2 x86/apic: Add extra serialization for non-serializing MSRs
-123626c89e48102b651c7b61c7cc834a12c3b1ad Input: xpad - sync supported devices with fork on GitHub
-0474ba8ca23c5ea22f441b2449b1a1df0538bcba ACPI: thermal: Do not call acpi_thermal_check() directly
-63d11917a4dccc14bbe42027d32297251ed021df iommu/vt-d: Do not use flush-queue when caching-mode is on
-c3667e27fefb64e69af3fe807b8ca40323d1dfde ALSA: hda/realtek - Fix typo of pincfg for Dell quirk
-cffa06cb070f1ce0015e19c0f54b7a2b86ab4d24 Linux 4.9.257-rc1
+f6ae1e76b56c637c5d17682a1ea68e7a9a0810a7 USB: serial: cp210x: add pid/vid for WSDA-200-USB
+b5845751485c7b115b74427390b9aa6936311119 USB: serial: cp210x: add new VID/PID for supporting Teraoka AD2000
+ec22248aff41c5a917b3dc6e181e28cc0b140d6d USB: serial: option: Adding support for Cinterion MV31
+b417cb1a8cc3d53725ec2ebe319aa9655decd6fe arm64: dts: qcom: c630: keep both touchpad devices enabled
+422652d840969f09d5d84a3c7ee2e85c3e775ac1 Input: i8042 - unbreak Pegatron C15B
+e499e83fc13f364d315ef52141e5c4cb479a50b7 arm64: dts: amlogic: meson-g12: Set FL-adj property value
+b07a0ff6ed5e3409edb1224d5e798946101c41eb arm64: dts: rockchip: fix vopl iommu irq on px30
+b156a4d7651f126c5a7fcac2b002d17b1cc9be8f bpf, cgroup: Fix optlen WARN_ON_ONCE toctou
+dd1001191843e8a8f1997e28aa22d1789fd6ac5f bpf, cgroup: Fix problematic bounds check
+c40f943fbc066e2f019954847c1cf9594ffb3a08 um: virtio: free vu_dev only with the contained struct device
+e27f4092bdb498b23eae41b1577e072b9945be4c rxrpc: Fix deadlock around release of dst cached on udp tunnel
+e72b0598aaa9bf51b7977307eb3d9d126fe13ffa arm64: dts: ls1046a: fix dcfg address range
+3e83ebac7de28d32a1d51aff6cd1873aea541024 igc: set the default return value to -IGC_ERR_NVM in igc_write_nvm_srwr
+c0515c82637841f24b4806a4b0fd3d2617a39874 igc: check return value of ret_val in igc_config_fc_after_link_up
+e1e5fa4987234447ede7227b0d97dffbc879092d i40e: Revert "i40e: don't report link up for a VF who hasn't enabled queues"
+1b9c6ac7e831ef43d8d13cfd02ff3c8368b622f9 net/mlx5: Fix leak upon failure of rule creation
+7bb086af4ac2d32d68e852e9ee0d627062cc760a net: lapb: Copy the skb before sending a packet
+63b1b64ae67f722b41347a58f18854b08b2ccc91 net: mvpp2: TCAM entry enable should be written after SRAM data
+f0d2bb729c1e0c3714eff6e061b2ed834f5d3a52 r8169: fix WoL on shutdown if CONFIG_DEBUG_SHIRQ is set
+d7fdeeff35a994e92b367c5046cf505fad6b739a ARM: dts: sun7i: a20: bananapro: Fix ethernet phy-mode
+83f442b3f826f33ca22d41a0cc40f8e1add0e5c2 nvmet-tcp: fix out-of-bounds access when receiving multiple h2cdata PDUs
+4defb48d0968c9cbd25347390947c1f921594da0 memblock: do not start bottom-up allocations with kernel_end
+f0299641f292c74280d30ae29df5a1ad6d234af9 USB: gadget: legacy: fix an error code in eth_bind()
+13cfe9e766dd581257d9b52133a0cb8f633a4c64 USB: usblp: don't call usb_set_interface if there's a single alt
+ce61c681fe9fa7b6e8efd0b65d8677d116edf025 usb: renesas_usbhs: Clear pipe running flag in usbhs_pkt_pop()
+689c119667b0a3aea470a2d2d1b6544cd59c238d usb: dwc2: Fix endpoint direction check in ep_from_windex
+60a43b13b012422ff433ee6ab63a16938f6d631d usb: dwc3: fix clock issue during resume in OTG mode
+9b269d1ce44e95dcb86f94466300bfa24783cc82 usb: xhci-mtk: fix unreleased bandwidth data
+d38c753cadd03dca6b2ecee096658eccab36b288 usb: xhci-mtk: skip dropping bandwidth of unchecked endpoints
+e8018d6a2b1ba9b37d1c3b7489fa9c5241ffbdf3 usb: xhci-mtk: break loop when find the endpoint to drop
+4d94f6e4d0a2b236e7365637cacc83d4e8801329 usb: host: xhci-plat: add priv quirk for skip PHY initialization
+9b0b238f825022865073c5f3c775d1d494087ec0 ovl: fix dentry leak in ovl_get_redirect
+2d8641634ddd26920de9f8b02106176c828ecdc5 mac80211: fix station rate table updates on assoc
+0aefd5782e864d9b6394698f4b844d91aa198ed5 fgraph: Initialize tracing_graph_pause at task creation
+ef9af37034b906b5ffc7d1e15f87a185eb1ebcaa kretprobe: Avoid re-registration of the same kretprobe earlier
+f32fed0aabe4f1add96d606d6fe88950a557a67f libnvdimm/dimm: Avoid race between probe and available_slots_show()
+bdf5308b74ed83ec63d25974c2e63132a4d3da2f genirq/msi: Activate Multi-MSI early when MSI_FLAG_ACTIVATE_EARLY is set
+3b610f4e15712f94d166ac12a8f23d923fbf845e xhci: fix bounce buffer usage for non-sg list case
+f876b0f71315d301a38e250e425ce896c0f6fec7 cifs: report error instead of invalid when revalidating a dentry fails
+5045589fe534420a6d4131071acf705d77518ec4 smb3: Fix out-of-bounds bug in SMB2_negotiate()
+632069504d81e12b2788b2ca09143d7ebd5418f7 smb3: fix crediting for compounding when only one request in flight
+b701374530b040332bcee6e4b45673a4aadbfe43 mmc: core: Limit retries when analyse of SDIO tuples fails
+027cabd74c2af263fdf035f0b515236d31f39b8a drm/amd/display: Revert "Fix EDID parsing after resume from suspend"
+c254b940e9f00d3471fadb5254dfc15806519bbf nvme-pci: avoid the deepest sleep state on Kingston A2000 SSDs
+946d4cf35c68adebbac3ce242ab76f31cac34e0b KVM: SVM: Treat SVM as unsupported when running as an SEV guest
+dbe73b4cae6f87e7e6ffae1c32348e2de925d578 KVM: x86: Update emulator context mode if SYSENTER xfers to 64-bit mode
+52d36326ff10fcdce1dfd540f8d2aca9b3d5cc52 ARM: footbridge: fix dc21285 PCI configuration accessors
+e3f53ff562b3fb7dd17c54be8e399ee81ea4d80d mm: hugetlbfs: fix cannot migrate the fallocated HugeTLB page
+deb4cb2db0161cbd43a35f785fed3c91cdf7b392 mm: hugetlb: fix a race between freeing and dissolving the page
+b0abaca49079e9272e22963dbbc9ff4572fc15f4 mm: hugetlb: fix a race between isolating and freeing page
+3b4d46104f6d209b9a4b07152a9c583e96b1dfdb mm: hugetlb: remove VM_BUG_ON_PAGE from page_huge_active
+769534be79d666e92b4a61bcd1ff1e64341f1a25 mm, compaction: move high_pfn to the for loop scope
+5b1d20dfec7e18f88fd65d1d676cc48a7209c661 mm: thp: fix MADV_REMOVE deadlock on shmem THP
+08735883a6ab169e633ddf9941d8696b0a6d404f x86/build: Disable CET instrumentation in the kernel
+f41e8793bc09dffde3842fb862a896be36c934bb x86/apic: Add extra serialization for non-serializing MSRs
+37286b55930ab8e85360003851a244ac65d98139 iwlwifi: mvm: don't send RFH_QUEUE_CONFIG_CMD with no queues
+7a127cdd59cc9e2f4d23319d8e69211938aa67b2 Input: xpad - sync supported devices with fork on GitHub
+43ca5181bd687080bf9188750b13e148aebe7bc3 iommu/vt-d: Do not use flush-queue when caching-mode is on
+cf0a339790b1787ad3de895b7e7d362b90eebfd6 md: Set prev_flush_start and flush_bio in an atomic way
+159a241669f9125dc402e7567aa9b0727eda93b1 igc: Report speed and duplex as unknown when device is runtime suspended
+c0484cfd1cfadd4ebb326fe0e3994c1b33b81a2a neighbour: Prevent a dead entry from updating gc_list
+94ddd2c3138fbeccbd6d762dfa1841f1f0d9469f net: ip_tunnel: fix mtu calculation
+498279417d8a6e357063b4e6b6edc188d2446589 net: dsa: mv88e6xxx: override existent unicast portvec in port_fdb_add
+a6fc380d8658b9162c1e772a52eb0466501899a2 net: sched: replaced invalid qdisc tree flush helper in qdisc_replace
+8dac47dc5395dc29f3c8fa4af818503689577cf8 usb: host: xhci: mvebu: make USB 3.0 PHY optional for Armada 3720
+7b6a7cd488bf6be0b5d83709c148c3d69c737a15 Linux 5.4.97-rc1
 
---===============6229171400016884844==--
+--===============7046447739144229172==--
