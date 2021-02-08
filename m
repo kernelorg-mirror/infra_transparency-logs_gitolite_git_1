@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============5364156026782302683=="
+Content-Type: multipart/mixed; boundary="===============7774156408660146036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 08 Feb 2021 18:38:14 -0000
-Message-Id: <161280949495.7901.5318137766333057107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 08 Feb 2021 18:38:30 -0000
+Message-Id: <161280951010.8116.8494499939966572476@gitolite.kernel.org>
 
---===============5364156026782302683==
+--===============7774156408660146036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: f874736f1250268187f3b6ca4ebc0e3033280a46
-    new: 1b6c3cc3b3889057f0a18e4c0678b91774da234c
-    log: revlist-f874736f1250-1b6c3cc3b388.txt
+    old: 157a6686bd26040cc427c077703afee68f8412c7
+    new: 0ea4eb8b1472adf5a947fdb00d83e5855def8cc5
+    log: revlist-157a6686bd26-0ea4eb8b1472.txt
   - ref: refs/heads/for-next
-    old: 887f14625c29dbb000c0855bb781840c46e20b8f
-    new: 8159774c7fc99edc66917bbb3cb82c327e20d5c2
-    log: revlist-887f14625c29-8159774c7fc9.txt
+    old: 000c6f2363b3deb27d734feac416d54819d97ad9
+    new: 1615a9ef6bf5a57fa827b83c116efc1e406c8cc5
+    log: revlist-000c6f2363b3-1615a9ef6bf5.txt
 
---===============5364156026782302683==
+--===============7774156408660146036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f874736f1250-1b6c3cc3b388.txt
+Content-Disposition: attachment; filename=revlist-157a6686bd26-0ea4eb8b1472.txt
 
 07af7810e0a5bc4e51682c90f9fa19fc4cb93f18 DTS: ARM: gta04: remove legacy spi-cs-high to make display work again
 6efac0173cd15460b48c91e1b0a000379f341f00 ARM: OMAP1: OSK: fix ohci-omap breakage
@@ -352,13 +352,13 @@ fc6c0ae53af40f4cd86a504a71778d924cef43df Merge tag 'irq_urgent_for_v5.11_rc7' of
 ff92acb220c506f14aea384a07b130b87ac1489a Merge tag 'dma-mapping-5.11-2' of git://git.infradead.org/users/hch/dma-mapping
 b75dba7f472ca6c2dd0b8ee41f5a4b5a45539306 Merge tag 'libnvdimm-fixes-5.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 92bf22614b21a2706f4993b278017e437f7785b3 Linux 5.11-rc7
-1b6c3cc3b3889057f0a18e4c0678b91774da234c Merge remote-tracking branch 'regulator/for-5.11' into regulator-linus
+0ea4eb8b1472adf5a947fdb00d83e5855def8cc5 Merge remote-tracking branch 'spi/for-5.11' into spi-linus
 
---===============5364156026782302683==
+--===============7774156408660146036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-887f14625c29-8159774c7fc9.txt
+Content-Disposition: attachment; filename=revlist-000c6f2363b3-1615a9ef6bf5.txt
 
 07af7810e0a5bc4e51682c90f9fa19fc4cb93f18 DTS: ARM: gta04: remove legacy spi-cs-high to make display work again
 6efac0173cd15460b48c91e1b0a000379f341f00 ARM: OMAP1: OSK: fix ohci-omap breakage
@@ -682,9 +682,12 @@ fc6c0ae53af40f4cd86a504a71778d924cef43df Merge tag 'irq_urgent_for_v5.11_rc7' of
 ff92acb220c506f14aea384a07b130b87ac1489a Merge tag 'dma-mapping-5.11-2' of git://git.infradead.org/users/hch/dma-mapping
 b75dba7f472ca6c2dd0b8ee41f5a4b5a45539306 Merge tag 'libnvdimm-fixes-5.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 92bf22614b21a2706f4993b278017e437f7785b3 Linux 5.11-rc7
-977fb5b58469c1367aa075e7e913c03cba7d466f regulator: document binding for MT6315 regulator
-7aa382cfe714f61b0c29f02c31d389c506b4e2ae regulator: mt6315: Add support for MT6315 regulator
-1b6c3cc3b3889057f0a18e4c0678b91774da234c Merge remote-tracking branch 'regulator/for-5.11' into regulator-linus
-8159774c7fc99edc66917bbb3cb82c327e20d5c2 Merge remote-tracking branch 'regulator/for-5.12' into regulator-next
+4cea6b8cc34ee61358d681bd2009b8bac1736ffe spi: add power control when set_cs_timing
+0486d9f91d373e7f47276f30898ee0cb12656a70 spi: support CS timing for HW & SW mode
+9f6e7e8d432e39d4f3d5d3c80129aec7f383b2b4 spi: mediatek: add set_cs_timing support
+883c36a32fc031046218ef5802023d5aa54d6cb0 spi: Change provied to provided in the file spi.h
+58898fd82c67350f5be2fc4f22bc9517d66b1115 Merge series "spi: add set_cs_timing support for HW/SW CS mode" from Leilk Liu <leilk.liu@mediatek.com>:
+0ea4eb8b1472adf5a947fdb00d83e5855def8cc5 Merge remote-tracking branch 'spi/for-5.11' into spi-linus
+1615a9ef6bf5a57fa827b83c116efc1e406c8cc5 Merge remote-tracking branch 'spi/for-5.12' into spi-next
 
---===============5364156026782302683==--
+--===============7774156408660146036==--
