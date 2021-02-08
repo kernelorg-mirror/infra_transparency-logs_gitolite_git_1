@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1032545504434940172=="
+Content-Type: multipart/mixed; boundary="===============8507520404428250796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 08 Feb 2021 09:51:32 -0000
-Message-Id: <161277789289.10199.10529980848993761785@gitolite.kernel.org>
+Date: Mon, 08 Feb 2021 09:51:39 -0000
+Message-Id: <161277789939.10285.16419916990470543133@gitolite.kernel.org>
 
---===============1032545504434940172==
+--===============8507520404428250796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: ba69143c0249902349d36552a40ac7ada0a61faf
-    new: 757f4e8adbaa70c189767e5234809bc9c8e20172
-    log: revlist-ba69143c0249-757f4e8adbaa.txt
+  - ref: refs/heads/m68k-queue
+    old: e767b53ad1ef7a017b331f30f57b0dc7f30a17ca
+    new: d7e1915a2c12f7a1aec839dbac697387f307b4a2
+    log: revlist-e767b53ad1ef-d7e1915a2c12.txt
 
---===============1032545504434940172==
+--===============8507520404428250796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba69143c0249-757f4e8adbaa.txt
+Content-Disposition: attachment; filename=revlist-e767b53ad1ef-d7e1915a2c12.txt
 
 07af7810e0a5bc4e51682c90f9fa19fc4cb93f18 DTS: ARM: gta04: remove legacy spi-cs-high to make display work again
 6efac0173cd15460b48c91e1b0a000379f341f00 ARM: OMAP1: OSK: fix ohci-omap breakage
@@ -348,6 +348,9 @@ fc6c0ae53af40f4cd86a504a71778d924cef43df Merge tag 'irq_urgent_for_v5.11_rc7' of
 ff92acb220c506f14aea384a07b130b87ac1489a Merge tag 'dma-mapping-5.11-2' of git://git.infradead.org/users/hch/dma-mapping
 b75dba7f472ca6c2dd0b8ee41f5a4b5a45539306 Merge tag 'libnvdimm-fixes-5.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 92bf22614b21a2706f4993b278017e437f7785b3 Linux 5.11-rc7
-757f4e8adbaa70c189767e5234809bc9c8e20172 Merge tag 'v5.11-rc7'
+cd39179c5b72712634d07dccfd9d72d58552f8f8 macintosh/adb-iop: Use big-endian autopoll mask
+80fc7988836f70acccf0eabe9ffcf7397f78c9f8 m68k: atari: usb: Add ISP1160 USB host controller support
+4ad3889b3b996550703792a3fd30c199177c003d m68k: atari: Update Kconfig.bus help text
+d7e1915a2c12f7a1aec839dbac697387f307b4a2 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1032545504434940172==--
+--===============8507520404428250796==--
