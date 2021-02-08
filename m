@@ -1,38 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============3956312190071914473=="
+Content-Type: multipart/mixed; boundary="===============3747611864133304533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 08 Feb 2021 13:52:55 -0000
-Message-Id: <161279237514.1610.4118916965436471147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 08 Feb 2021 13:53:03 -0000
+Message-Id: <161279238302.1817.6954100962120839878@gitolite.kernel.org>
 
---===============3956312190071914473==
+--===============3747611864133304533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: 1048ba83fb1c00cd24172e23e8263972f6b5d9ac
     new: 92bf22614b21a2706f4993b278017e437f7785b3
     log: revlist-1048ba83fb1c-92bf22614b21.txt
-  - ref: refs/heads/rdma-next
-    old: 36cdd86989a726f7af213e99758764adb0e7bb49
-    new: aadf6d351ad065bc91d08795e7ebb39d05a0819f
-    log: revlist-36cdd86989a7-aadf6d351ad0.txt
-  - ref: refs/heads/testing/rdma-next
-    old: 56ca41ac0e0f8ae998c0682b2628c0f26d7d7659
-    new: 7177c84080379d9c3695d5f1437c5e018152449e
-    log: revlist-56ca41ac0e0f-7177c8408037.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: 1048ba83fb1c00cd24172e23e8263972f6b5d9ac
-    new: ce9917bfd5bb3f9126745be908fbf198cb6fee8e
-    log: revlist-1048ba83fb1c-ce9917bfd5bb.txt
+  - ref: refs/heads/queue-next
+    old: b942388258c60d0c3e27e021066dd5b783aaed4c
+    new: b76dea465c7fa12bf5bae27ab3ce51157c4d3d8b
+    log: revlist-b942388258c6-b76dea465c7f.txt
+  - ref: refs/heads/queue-rc
+    old: 3f9da94c3466d07cb7866cdaf8e0f805b57e2d8f
+    new: 8b7faa665e2ddefe14e2fb72573fc2a0af630a0b
+    log: revlist-3f9da94c3466-8b7faa665e2d.txt
 
---===============3956312190071914473==
+--===============3747611864133304533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -361,53 +357,11 @@ ff92acb220c506f14aea384a07b130b87ac1489a Merge tag 'dma-mapping-5.11-2' of git:/
 b75dba7f472ca6c2dd0b8ee41f5a4b5a45539306 Merge tag 'libnvdimm-fixes-5.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 92bf22614b21a2706f4993b278017e437f7785b3 Linux 5.11-rc7
 
---===============3956312190071914473==
+--===============3747611864133304533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36cdd86989a7-aadf6d351ad0.txt
-
-b53005d66bb0c3939790d89702333f89ce556c5b RDMA/pvrdma: Replace spin_lock_irqsave with spin_lock in hard IRQ
-3ce60f443b143e649aa26cd3f668d645434647ac IB/mlx5: Move mlx5_port_caps from mlx5_core_dev to mlx5_ib_dev
-2019d70e919f01c43975b8d9ea2803b890eabba9 IB/mlx5: Avoid calling query device for reading pkey table length
-7a58779edd75c37352917e8fbc7769efce0e65b6 IB/mlx5: Improve query port for representor port
-7416790e22452bfa86de6b55638eacf7780c8f6f RDMA/core: Introduce and use API to read port immutable data
-131796524fa346553d9a325ed77bbee0b63d0ca9 IB/mlx5: Use rdma_for_each_port for port iteration
-7d9ae80e31df57dd3253e1ec514f0000aa588a81 RDMA/rxe: Fix coding error in rxe_recv.c
-e328197423e09094aff48619ebef6671ff64d3b2 RDMA/rxe: Remove useless code in rxe_recv.c
-8fc1b7027fc162738d5a85c82410e501a371a404 RDMA/rxe: Fix coding error in rxe_rcv_mcast_pkt
-5120bf0a5fc15dec210a0fe0f39e4a256bb6e349 RDMA/rxe: Correct skb on loopback path
-f2b5f0927ad92b591b2ed1083d5ce26164de8c9c RDMA/rxe: Fix FIXME in rxe_udp_encap_recv()
-021eb8b91da389c43ae644e013220bd7663f7918 net/sched: Don't print dump stack in event of transmission timeout
-cc7afaf26e8c41137d06c96f93540f6790bf2cb7 RDMA/cma: Be strict with attaching to CMA device
-4304c7894e156a8c20da0dd807baf88cc4bce47f RDMA/restrack: Add error handling while adding restrack object
-7be17db1b03ff406de93bf25380b5654323899b4 RDMA/restrack: Drop valid restrack field as source of ambiguity
-0d28eb44295f5dc9069c73d493bea2e7e180453f RDMA/mlx5: Add ifc bits for new pattern dm type
-c2903c2a2293911eec244a9fd8bd09ea5945e3b5 net/mlx5: Add support for new pattern DM management
-57551a3c4249c9282877f6ec973a6f64b532a836 RDMA/mlx5: Support allocating modify-header pattern DM
-fbfd41edbcf58141da0cffde0c28f68529eeb678 RDMA/mlx5: Support new type of ICM memory to register by MR
-bea169cdef54c601a39a35c61d7be24b80b6b69f RDMA/core: Introduce peer memory interface
-5cbc10d0b807499522b3b6e4204adc5099943083 RDMA/mlx5: Cleanup the synchronize_srcu() from the ODP flow
-1f24278402d4512a8fa6bef3185a87d7c64e0908 RDMA/ucma: Fix use-after-free bug in ucma_create_uevent
-ff9bbf2006d7f43a5c78952cdd502367d6c8f117 PCI: Add sysfs callback to allow MSI-X table size change of SR-IOV VFs
-66d071cce8407fd92c9e4e16365fdd420361d029 net/mlx5: Add dynamic MSI-X capabilities bits
-5c48ba7c9a7e7173b8ddf381f9d308b1383beb85 net/mlx5: Dynamically assign MSI-X vectors count
-700c9496c7c9023585a76a1a3064fc26b41afb87 net/mlx5: Allow to the users to configure number of MSI-X vectors
-517b01e01f19d83d8afd28f4063221c5b65a5baa RDMA/core: Remove racy Subnet Manager sendonly join checks
-9a11fd0afc6902738c852e74cbd006a4531eebb7 ipv6: silence compilation warning for non-IPV6 builds
-181d5024588daa7d99786c2d4b2783b66953cc3d ipv6: move udp declarations to net/udp.h
-214c2df3013a15a12ebd43e2536c242c8fa523bf net/core: move gro function declarations to separate header
-3473a3c49c39acf4d7c410de5bf698dc3d256506 netfilter: move handlers to net/ip_vs.h
-316673bb2ab84e83e09c0dace045ef80c4f6817d RDMA/mlx5: Support 400Gbps IB rate in mlx5 driver
-84c10704e5c9d618edc6787272f0f1d194cb5587 net/mlx5: Add new timestamp mode bits
-a6365b45d17bf6a1aad2032a703c4c4773edda10 RDMA/mlx5: Fail QP creation if the device can not support the CQE TS
-aadf6d351ad065bc91d08795e7ebb39d05a0819f fixup! RDMA/rxe: Fix FIXME in rxe_udp_encap_recv()
-
---===============3956312190071914473==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56ca41ac0e0f-7177c8408037.txt
+Content-Disposition: attachment; filename=revlist-b942388258c6-b76dea465c7f.txt
 
 07af7810e0a5bc4e51682c90f9fa19fc4cb93f18 DTS: ARM: gta04: remove legacy spi-cs-high to make display work again
 6efac0173cd15460b48c91e1b0a000379f341f00 ARM: OMAP1: OSK: fix ohci-omap breakage
@@ -446,11 +400,7 @@ bcbacfb82c7010431182a8aecb860c752e3aed8c ARM: dts: stm32: Fix GPIO hog names on 
 2a39af3870e99304df81d2a4058408d68efb02e0 ARM: OMAP2+: Fix booting for am335x after moving to simple-pm-bus
 eda080eabf5b9555e4d574ba035b0cb8aa42f052 drivers: bus: simple-pm-bus: Fix compatibility with simple-bus for auxdata
 94a5400f8b966c91c49991bae41c2ef911b935ac arm64: dts: rockchip: remove interrupt-names property from rk3399 vdec node
-710eb8e32d04714452759f2b66884bfa7e97d495 vdpa/mlx5: Fix memory key MTT population
 51839e29cb5954470ea4db7236ef8c3d77a6e0bb scripts: switch explicitly to Python 3
-bb8b81e396f7afbe7c50d789e2107512274d2a35 bpf, cgroup: Fix optlen WARN_ON_ONCE toctou
-f4a2da755a7e1f5d845c52aee71336cee289935a bpf, cgroup: Fix problematic bounds check
-b9557caaf872271671bdc1ef003d72f421eb72f6 bpf, inode_storage: Put file handler if no storage was found
 1cabe74f148f7b99d9f08274a62467f96c870f07 Documentation/Kbuild: Remove references to gcc-plugin.sh
 f4c3b83b75b91c5059726cb91e3165cc01764ce7 kbuild: simplify GCC_PLUGINS enablement in dummy-tools/gcc
 9bbd77d5bbc9aff8cb74d805c31751f5f0691ba8 Input: xpad - sync supported devices with fork on GitHub
@@ -464,7 +414,6 @@ d8c6edfa3f4ee0d45d7ce5ef18d1245b78774b9d USB: usblp: don't call usb_set_interfac
 a55a9a4c5c6253f6e4dea268af728664ac997790 usb: gadget: aspeed: add missing of_node_put
 1d69f9d901ef14d81c3b004e3282b8cc7b456280 usb: xhci-mtk: fix unreleased bandwidth data
 19f6fe976a61f9afc289b062b7ef67f99b72e7b9 Revert "arm64: dts: amlogic: add missing ethernet reset ID"
-78031381ae9c88f4f914d66154f4745122149c58 bpf: Drop disabled LSM hooks from the sleepable set
 cf81c3abe1b84c4b82fbe771f72e6d181a3d1b7c kconfig: mconf: fix HOSTCC call
 e6777b8d35dc140033476b8f5ae21e8e5440baea Merge tag 'stm32-dt-for-v5.11-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/atorgue/stm32 into arm/fixes
 c25644d5db8430514d14752148e69bf9f6c226de Merge tag 'amlogic-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-amlogic into arm/fixes
@@ -479,10 +428,8 @@ f4172b084342fd3f9e38c10650ffe19eac30d8ce um: virtio: free vu_dev only with the c
 a31e9c4e7247d182192e9b85abbea498d63dd850 Revert "um: support some of ARCH_HAS_SET_MEMORY"
 9868c2081d071f7c309796c8dffc94364fc07582 um: fix os_idle_sleep() to not hang
 7f3414226b58b0df0426104c8ab5e8d50ae71d11 um: time: fix initialization in time-travel mode
-150a27328b681425c8cab239894a48f2aeb870e9 bpf, preload: Fix build when $(O) points to a relative path
 03a58ea5905fdbd93ff9e52e670d802600ba38cd gpiolib: cdev: clear debounce period if line set to output
 40fb68c7725aee024ed99ad38504f5d25820c6f0 Revert "PCI/ASPM: Save/restore L1SS Capability for suspend/resume"
-d17405d52bacd14fe7fdbb10c0434934ea496914 dma-mapping: benchmark: fix kernel crash when dma_map_single fails
 daf12bee07b9e2f38216f58aca7ac4e4e66a7146 arm64: dts: meson: switch TFLASH_VDD_EN pin to open drain on Odroid-C4
 2cea4a7a1885bd0c765089afc14f7ff0eb77864e scripts: use pkg-config to locate libcrypto
 ae9162e2be767240065b2f16c3061fc0a3622f61 Revert "checkpatch: add check for keyword 'boolean' in Kconfig definitions"
@@ -504,12 +451,6 @@ e04527fefba6e4e66492f122cf8cc6314f3cf3bf ovl: fix dentry leak in ovl_get_redirec
 03fedf93593c82538b18476d8c4f0e8f8435ea70 ovl: skip getxattr of security labels
 335d3fc57941e5c6164c69d439aec1cb7a800876 ovl: implement volatile-specific fsync error behaviour
 530fe6bf0f9ff91e5156f0423ae8db8d106d0159 soc: sunxi: mbus: Remove DE2 display engine compatibles
-31f190e0ccac8b75d33fdc95a797c526cf9b149e media: rkisp1: uapi: change hist_bins array type from __u16 to __u32
-a76f8dc8be471028540df24749e99a3ec0ac7c94 media: rkisp1: stats: remove a wrong cast to u8
-a802a0430b863f03bc01aaea2d2bf6ff464f03e7 media: rkisp1: stats: mask the hist_bins values
-66d81de7ea9d2b0775e5bfd5e770483a1c24b9ca media: rockchip: rkisp1: reduce number of histogram grid elements in uapi
-fc672d806bd77eff26117479e90ccdcfd2a8ecb4 media: rockchip: rkisp1: carry ip version information
-ef357e02b6c420dc2d668ebf3165838c77358acd media: rockchip: rkisp1: extend uapi array sizes
 053b1b287ccf734cc3b5a40b3b17a63185758c61 drm/bridge/lontium-lt9611uxc: fix waiting for EDID to become available
 1bb7ab402da44e09b4bb3f31cfe24695cdb1b7df drm/bridge/lontium-lt9611uxc: fix get_edid return code
 bc6fa8676ebbf9c5285f80d7b831663aeabb90bb drm/bridge/lontium-lt9611uxc: move HPD notification out of IRQ handler
@@ -522,11 +463,9 @@ e2fc2de8e1aacef4c76f7a4b8c6162874d3e2801 Merge tag 'amlogic-fixes-3' of git://gi
 074489b77a37c61c0b090d63b2731a951064fd70 Merge tag 'kvmarm-fixes-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 ae000861b95cc4521c498430eb9c61ad62cea51c KVM: Documentation: Fix documentation for nested.
 19a23da53932bc8011220bd8c410cb76012de004 Fix unsynchronized access to sev members through svm_register_enc_region
-06cc6e5dc659e1995804cbeda643d0fa45b68999 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 39d3454c3513840eb123b3913fda6903e45ce671 ARM: footbridge: fix dc21285 PCI configuration accessors
 538eea5362a1179dfa7770dd2b6607dc30cc50c6 ARM: 9043/1: tegra: Fix misplaced tegra_uart_config in decompressor
 c351bb64cbe67029c68dea3adbec1b9508c6ff0f gpiolib: free device name on error path to fix kmemleak
-1074f8ec288f537f3b8462d09997a69b40f87e38 clang-format: Update with the latest for_each macro list
 20bf2b378729c4a0366a53e2018a0b70ace94bcd x86/build: Disable CET instrumentation in the kernel
 8c65830ae1629b03e5d65e9aafae7e2cf5f8b743 scsi: lpfc: Fix EEH encountering oops with NVMe traffic
 7e0a9220467dbcfdc5bc62825724f3e52e50ab31 fgraph: Initialize tracing_graph_pause at task creation
@@ -535,15 +474,11 @@ da7f84cdf02fd5f66864041f45018b328911b722 tracing: Use pause-on-trace with the la
 ed4e9e615b7ec4992a4eba1643e62ec2d9d979db Documentation/llvm: Add a section about supported architectures
 0188b87899ffc4a1d36a0badbe77d56c92fd91dc kretprobe: Avoid re-registration of the same kretprobe earlier
 4c457e8cb75eda91906a4f89fc39bde3f9a43922 genirq/msi: Activate Multi-MSI early when MSI_FLAG_ACTIVATE_EARLY is set
-01365633bd1c836240f9bbf86bbeee749795480a net: arcnet: Fix RESET flag handling
-8d520b4de3edca4f4fb242b5ddc659b6a9b9e65e r8169: work around RTL8125 UDP hw bug
-5399d52233c47905bbf97dcbaa2d7a9cc31670ba rxrpc: Fix deadlock around release of dst cached on udp tunnel
 344717a14cd7272f88346022a77742323346299e powerpc/sstep: Fix array out of bound warning
 bce74491c3008e27dd6e8f79a83b4faa77a08f7e powerpc/vdso: fix unnecessary rebuilds of vgettimeofday.o
 66f0a9e058fad50e569ad752be72e52701991fd5 powerpc/vdso64: remove meaningless vgettimeofday.o build rule
 045aef3acf38a490a741ba7bbfdc0d2cfa19d480 Merge tag 'usb-serial-5.11-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 aa880c6f3ee6dbd0d5ab02026a514ff8ea0a3328 arm64: dts: ls1046a: fix dcfg address range
-eb4e8fac00d1e01ada5e57c05d24739156086677 neighbour: Prevent a dead entry from updating gc_list
 3e1f4a2e1184ae6ad7f4caf682ced9554141a0f4 USB: gadget: legacy: fix an error code in eth_bind()
 215164bfb7144c5890dd8021ff06e486939862d4 platform/x86: dell-wmi-sysman: fix a NULL pointer dereference
 d8d2d38275c1b2d3936c0d809e0559e88912fbb5 kbuild: remove PYTHON variable
@@ -553,34 +488,15 @@ c07ea8d0b170c0cf6592a53981841c7973e142ea gpio: gpiolib: remove shadowed variable
 81219f80097ea7616211dddca5438283a05816d4 Merge tag 'thunderbolt-for-v5.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 9917f0e3cdba7b9f1a23f70e3f70b1a106be54a8 usb: renesas_usbhs: Clear pipe running flag in usbhs_pkt_pop()
 54f6a8af372213a254af6609758d99f7c0b6b5ad usb: xhci-mtk: skip dropping bandwidth of unchecked endpoints
-18fe0fae61252b5ae6e26553e2676b5fac555951 mac80211: fix station rate table updates on assoc
 9ad22e165994ccb64d85b68499eaef97342c175b x86/debug: Fix DR6 handling
 bad4c6eb5eaa8300e065bd4426727db5141d687d SUNRPC: Fix NFS READs that start at non-page-aligned offsets
 7131636e7ea5b50ca910f8953f6365ef2d1f741c KVM: x86: Allow guests to see MSR_IA32_TSX_CTRL even if tsx=off
 b66f9bab1279c281c83dea077c5e808527e3ef69 KVM/x86: assign hva with the right value to vm_munmap the pages
 4683d758f48e6ae87d3d3493ffa00aceb955ee16 KVM: x86: Supplement __cr4_reserved_bits() with X86_FEATURE_PCID check
 0f347aa07f15b346a001e557f4a0a45069f7fa3d ACPI: scan: Fix battery devices sometimes never binding
-2e99dedc73f004f650b197c9b269c15c7e01ad15 igc: Report speed and duplex as unknown when device is runtime suspended
-ebc8d125062e7dccb7922b2190b097c20d88ad96 igc: set the default return value to -IGC_ERR_NVM in igc_write_nvm_srwr
-b881145642ce0bbe2be521e0882e72a5cebe93b8 igc: check return value of ret_val in igc_config_fc_after_link_up
-50af06d43eab6b09afc37aa7c8bbf69b14a3b2f7 staging: rtl8723bs: Move wiphy setup to after reading the regulatory settings from the chip
-88bb507a74ea7d75fa49edd421eaa710a7d80598 Merge tag 'media/v5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 8acf417805a5f5c69e9ff66f14cab022c2755161 x86/split_lock: Enable the split lock feature on another Alder Lake CPU
-f559a356043a55bab25a4c00505ea65c50a956fb i40e: Revert "i40e: don't report link up for a VF who hasn't enabled queues"
 7018c897c2f243d4b5f1b94bc6b4831a7eab80fb libnvdimm/dimm: Avoid race between probe and available_slots_show()
-f72f2fb8fb6be095b98af5d740ac50cffd0b0cae net: dsa: mv88e6xxx: override existent unicast portvec in port_fdb_add
-5e9eff5dfa460cd1a74b7c1fde4fced7c04383af ibmvnic: device remove has higher precedence over reset
-938e0fcd3253efdef8924714158911286d08cfe1 net: sched: replaced invalid qdisc tree flush helper in qdisc_replace
-c518adafa39f37858697ac9309c6cf1805581446 vsock: fix the race conditions in multi-transport support
-28e104d00281ade30250b24e098bf50887671ea4 net: ip_tunnel: fix mtu calculation
-c3df39ac9b0e3747bf8233ea9ce4ed5ceb3199d3 udp: ipv4: manipulate network header of NATed UDP GRO fraglist
-31628201545548e1ef167f2c55eb6fd7d3562f12 docs: networking: swap words in icmp_errors_use_inbound_ifaddr doc
-188fa104f2ba93887777ded2e600ce16d60bc3d7 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 8d8d1dbefc423d42d626cf5b81aac214870ebaab smb3: Fix out-of-bounds bug in SMB2_negotiate()
-ed5e83a3c02948dad9dc4e68fb4e535baa5da630 net/mlx5: Fix function calculation for page trees
-a5bfe6b4675e0eefbd9418055b5cc6e89af27eb4 net/mlx5: Fix leak upon failure of rule creation
-5a2ba25a55c4dc0f143567c99aede768b6628ebd net/mlx5e: Update max_opened_tc also when channels are closed
-a34ffec8af8ff1c730697a99e09ec7b74a3423b6 net/mlx5e: Release skb in case of failure in tc update skb
 eaf5bfe37db871031232d2bf2535b6ca92afbad8 drm/i915: Skip vswing programming for TBT
 425cbd1fce10d4d68188123404d1a302a6939e0a drm/i915: Extract intel_ddi_power_up_lanes()
 fad9bae9ee5d578afbe6380c82e4715efaddf118 drm/i915: Power up combo PHY lanes for for HDMI as well
@@ -598,28 +514,11 @@ c8b186a8d54d7e12d28e9f9686cb00ff18fc2ab2 tracepoint: Fix race between tracing an
 882554042d138dbc6fb1a43017d0b9c3b38ee5f5 drm/i915: Fix the MST PBN divider calculation
 2051c890caa50f9d8658335cb9d39bfcb5680a7e drm/i915/dp: Move intel_dp_set_signal_levels() to intel_dp_link_training.c
 88ebe1f572e284ecfe088648e0ae93803a75a459 drm/i915/dp: Fix LTTPR vswing/pre-emp setting in non-transparent mode
-f418bad6ccfa6f0ef6ebc783ba72bb9c5738574f Merge tag 'mac80211-for-net-2021-02-02' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211
-88c7a9fd9bdd3e453f04018920964c6f848a591a net: lapb: Copy the skb before sending a packet
 6102f9e700bb3fee2f37756514885e7b14a70ef6 Merge tag 'ti-k3-maintainer-for-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/nmenon/linux into arm/fixes
-43f4a20a1266d393840ce010f547486d14cc0071 net: mvpp2: TCAM entry enable should be written after SRAM data
-a11148e6fcce2ae53f47f0a442d098d860b4f7db net/rds: restrict iovecs length for RDS_CMSG_RDMA_ARGS
-cc9f07a838c4988ed244d0907cb71d54b85482a5 r8169: fix WoL on shutdown if CONFIG_DEBUG_SHIRQ is set
-4ace7a6e287b7e3b33276cd9fe870c326f880480 net: ipa: pass correct dma_handle to dma_free_coherent()
-e6cdd6d80baedadb96d7060a509f51769e53021d net: ipa: add a missing __iomem attribute
-088f8a2396d813e7ee49272a1a59b55139c81e64 net: ipa: be explicit about endianness
-c13899f187285eaa5bfc30f8692888ba2e7765cb net: ipa: use the right accessor in ipa_endpoint_status_skip()
-113b6ea09ccd46157d8d37fa9fabf1ca2315e503 net: ipa: fix two format specifier errors
-f2539e14f31ed1f888f9e469a41c71e496de1702 Merge branch 'net-ipa-a-few-bug-fixes'
-5a4cb546753ddf8f8182b441755c53f3111c5804 Merge tag 'mlx5-fixes-2021-02-01' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-6c9f18f294c4a1a6d8b1097e39c325481664ee1c net: hsr: align sup_multicast_addr in struct hsr_priv to u16 boundary
 943dea8af21bd896e0d6c30ea221203fb3cd3265 KVM: x86: Update emulator context mode if SYSENTER xfers to 64-bit mode
 91cb2c8b072e00632adf463b78b44f123d46a0fa arm64: Do not pass tagged addresses to __is_lm_address()
 22cd5edb2d9c6d68b6ac0fc9584104d88710fa57 arm64: Use simpler arithmetics for the linear map macros
-a9925628727bbbfbd7263cf7c7791709af84296e Merge tag 'net-5.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-2e02677e961fd4b96d8cf106b5979e6a3cdb7362 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-7d36ccd4bd07825775b512f654566d3e89e9cfd0 Merge tag 'dma-mapping-5.11-1' of git://git.infradead.org/users/hch/dma-mapping
 a50ea34d6dd00a12c9cd29cf7b0fa72816bffbcb usb: xhci-mtk: break loop when find the endpoint to drop
-3aaf0a27ffc29b19a62314edd684b9bc6346f9a8 Merge tag 'clang-format-for-linux-v5.11-rc7' of git://github.com/ojeda/linux
 ebb22a05943666155e6da04407cc6e913974c78c rtc: mc146818: Dont test for bit 0-5 in Register D
 62c31574cdb770c78f67e7aa6e0b0244ad122901 Merge tag 'imx-fixes-5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
 89fa15ecdca7eb46a711476b961f70a74765bbe4 drm/amdgpu: fix the issue that retry constantly once the buffer is oversize
@@ -768,12 +667,13 @@ a6365b45d17bf6a1aad2032a703c4c4773edda10 RDMA/mlx5: Fail QP creation if the devi
 aadf6d351ad065bc91d08795e7ebb39d05a0819f fixup! RDMA/rxe: Fix FIXME in rxe_udp_encap_recv()
 ce9917bfd5bb3f9126745be908fbf198cb6fee8e Merge branch 'master' into testing/rdma-rc
 7177c84080379d9c3695d5f1437c5e018152449e Merge branch 'rdma-next' into testing/rdma-next
+b76dea465c7fa12bf5bae27ab3ce51157c4d3d8b Merge branch 'testing/rdma-next' into queue-next
 
---===============3956312190071914473==
+--===============3747611864133304533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1048ba83fb1c-ce9917bfd5bb.txt
+Content-Disposition: attachment; filename=revlist-3f9da94c3466-8b7faa665e2d.txt
 
 07af7810e0a5bc4e51682c90f9fa19fc4cb93f18 DTS: ARM: gta04: remove legacy spi-cs-high to make display work again
 6efac0173cd15460b48c91e1b0a000379f341f00 ARM: OMAP1: OSK: fix ohci-omap breakage
@@ -1098,5 +998,6 @@ ff92acb220c506f14aea384a07b130b87ac1489a Merge tag 'dma-mapping-5.11-2' of git:/
 b75dba7f472ca6c2dd0b8ee41f5a4b5a45539306 Merge tag 'libnvdimm-fixes-5.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 92bf22614b21a2706f4993b278017e437f7785b3 Linux 5.11-rc7
 ce9917bfd5bb3f9126745be908fbf198cb6fee8e Merge branch 'master' into testing/rdma-rc
+8b7faa665e2ddefe14e2fb72573fc2a0af630a0b Merge branch 'testing/rdma-rc' into queue-rc
 
---===============3956312190071914473==--
+--===============3747611864133304533==--
