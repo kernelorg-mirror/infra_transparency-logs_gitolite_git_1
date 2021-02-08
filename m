@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============9102030160807760136=="
+Content-Type: multipart/mixed; boundary="===============8944313539010109484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 08 Feb 2021 18:36:58 -0000
-Message-Id: <161280941848.6546.5339768007350446341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 08 Feb 2021 18:37:06 -0000
+Message-Id: <161280942687.6664.9743720400540338358@gitolite.kernel.org>
 
---===============9102030160807760136==
+--===============8944313539010109484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 5e3277ab3baff6db96ae44adf6f85d6f0f6502cc
     new: 9037c3bde65d339017ef41d81cb58069ffc321d4
     log: |
          45a2702ce10993eda7a5b12690294782d565519c ASoC: rt5682: Fix panic in rt5682_jack_detect_handler happening during system shutdown
          9037c3bde65d339017ef41d81cb58069ffc321d4 ASoC: SOF: debug: Fix a potential issue on string buffer termination
          
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: f08c74a3b52d126d053c741b906ee1ca2a4f3568
     new: d40dac7ae8c0f213ac1da7896c35ddc2c58419ab
     log: revlist-f08c74a3b52d-d40dac7ae8c0.txt
 
---===============9102030160807760136==
+--===============8944313539010109484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1612809366 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1612809415-94c04d597ecdc5861ac718a2c8e6964fb188276d
+pusher C3F436CA30F5D8EB 1612809374 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1612809423-1a8260b4ce570b8f97225e74c25aefef1f65368e
 
-5e3277ab3baff6db96ae44adf6f85d6f0f6502cc 9037c3bde65d339017ef41d81cb58069ffc321d4 refs/heads/for-5.11
-f08c74a3b52d126d053c741b906ee1ca2a4f3568 d40dac7ae8c0f213ac1da7896c35ddc2c58419ab refs/heads/for-5.12
+5e3277ab3baff6db96ae44adf6f85d6f0f6502cc 9037c3bde65d339017ef41d81cb58069ffc321d4 refs/heads/asoc-5.11
+f08c74a3b52d126d053c741b906ee1ca2a4f3568 d40dac7ae8c0f213ac1da7896c35ddc2c58419ab refs/heads/asoc-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAhhJYACgkQJNaLcl1U
-h9AbiAf/Ums3uYRN6vioNe3QmXnr00sMGFohKz0AEffPIeZCJpPh4syMVIV5+aCF
-LoGL1jDMD8nHAdx1+FCzr1lg2dPrsmZ+rAeXttbZrqmmih7hwuczQ+v4RsRzGKWD
-uu1iok4whcJNGndWK8+X3vka0pU4Lp22Qg6IploByIYYmYPfH8T40sny3co8aME2
-4Y25mp3fnaim/6V7S//sHoL/pJ5ghZPN5Gl91vWwuSBDMuo97G6h9hCeQ2VUQo6p
-f8JKYoeHyq0DvWhFOz+Vl1ZWSV7hKlr+vHySfpuphZUAZ9ZQYjm+woEL/VFy9NwW
-lFM/tNjHQYW6kcL9EQP6scgfloXuzw==
-=V5pA
+iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAhhJ4ACgkQJNaLcl1U
+h9CsRgf3S3dFXAJPwByx+hscZd5qwIhwdFf9xyyisg5zzs1mVuvbbcOZImrvB/kM
+ES8AZHCdQ8yfQ5kRATR5HcS/QKYpLl77PtZCcOR43aq8+0FZ6g0qe2ASmOAgZ98K
+7LMl/KTIQj8tooxLGxS6zzf44G8JDMAeAtpPXjzNeDw6K+xm5c+S6tmJHSYXBiYr
+6fFvFjl2v3DZD1h9a6/NcWR1YZOlrVdL54fuyikxBMHggMilwsFT6Ov49eUI2T8I
+KEJpJdFu8a+HuW9qeVSJOA9B2ZldxDQO9F4yckKmDVJzYApS6CchSUAteYGpZBW0
+ktexvEqXSDjRrPV/2r+EtgL910sx
+=bLdT
 -----END PGP SIGNATURE-----
 
---===============9102030160807760136==
+--===============8944313539010109484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -79,4 +79,4 @@ d9cd22e9c87cb61488d00f7279cfb2abf5238879 ASoC: codec: Add driver for JZ4760 inte
 9a87fc1e061900e81ab13d823e85012a78849244 ASoC: Intel: bytcr_wm5102: Add machine driver for BYT/WM5102
 d40dac7ae8c0f213ac1da7896c35ddc2c58419ab Merge series "MFD/ASoC: Add support for Intel Bay Trail boards with WM5102 codec" from Hans de Goede <hdegoede@redhat.com>:
 
---===============9102030160807760136==--
+--===============8944313539010109484==--
