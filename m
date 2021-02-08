@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
 Date: Mon, 08 Feb 2021 13:21:25 -0000
-Message-Id: <161279048532.13201.4025561234687261028@gitolite.kernel.org>
+Message-Id: <161279048545.13212.7279087066574161605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/linux-bcache
-user: colyli
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-next
-    old: 3dbc906c0fded15412d158076ad9c0f8db9db98b
-    new: 78729af1b480ca5a3edb9547b97b59ed3dd72440
+  - ref: refs/heads/main
+    old: cf6fc2bc77a486386ae71d3e6547888a0dbf951a
+    new: 66970e1165c32a3b7c6b7cccdb4255c087b08b48
     log: |
-         e88789959a44bf1e64fb98f83e2ed9d05bbcd015 bcache: initialize bcache journal for NVDIMM meta device
-         edfe8b536188090cc263b16d7bf443c578bca19a bcache: support storing bcache journal into NVDIMM meta device
-         0bc125d5e2492759e738fcd63cab562760ebaebe bache: read jset from NVDIMM pages for journal replay
-         78729af1b480ca5a3edb9547b97b59ed3dd72440 bcache: add sysfs interface register_nvdimm_meta to register NVDIMM meta device
+         da74cc6f0768bc8339139d54ad0582b272c1bf9d qcom: add firmware files for Adreno a650
+         e55248b5f03fc88a9d3dcaf6161c9c3100caeb7a qcom: Add SM8250 Audio DSP firmware
+         11a1db128573fcecf9ddbf5681f0264f245579f4 qcom: Add SM8250 Compute DSP firmware
+         df822a848cceb185d2d50a39140ba0c9cd9f33e9 qcom: Add venus firmware files for VPU-1.0
+         66970e1165c32a3b7c6b7cccdb4255c087b08b48 Merge branch 'qcom-rb5' of https://github.com/lumag/linux-firmware into main
          
