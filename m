@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3418652143811067980=="
+Content-Type: multipart/mixed; boundary="===============7229119607066494207=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 08 Feb 2021 18:37:29 -0000
-Message-Id: <161280944926.7168.113931242347548432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 08 Feb 2021 18:37:36 -0000
+Message-Id: <161280945686.7336.8683796436454315884@gitolite.kernel.org>
 
---===============3418652143811067980==
+--===============7229119607066494207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/spi-5.12
     old: c64e7efe46b7de21937ef4b3594d9b1fc74f07df
     new: 58898fd82c67350f5be2fc4f22bc9517d66b1115
     log: |
@@ -27,28 +27,28 @@ changes:
          58898fd82c67350f5be2fc4f22bc9517d66b1115 Merge series "spi: add set_cs_timing support for HW/SW CS mode" from Leilk Liu <leilk.liu@mediatek.com>:
          
 
---===============3418652143811067980==
+--===============7229119607066494207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1612809398 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1612809446-4b28cef799c0f354675cb4ab610e4e41f4dfcc1a
+pusher C3F436CA30F5D8EB 1612809405 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1612809454-086fa00e583ead264a7b39a7832567527b2f9ae3
 
-c64e7efe46b7de21937ef4b3594d9b1fc74f07df 58898fd82c67350f5be2fc4f22bc9517d66b1115 refs/heads/for-5.12
+c64e7efe46b7de21937ef4b3594d9b1fc74f07df 58898fd82c67350f5be2fc4f22bc9517d66b1115 refs/heads/spi-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAhhLYACgkQJNaLcl1U
-h9ADXAf/bdKsuD6PV7hWs3OnP12AQBiaOyNENPE2Wc9zrAFGoY7dYI3CAn2Ohy2E
-8kAh6o7guyGpfbCP817W1iANj2kVpTlMaKG2jRUbc5wjiV8yYurl9HhiCY423CDy
-yGmMk7rRAf4v9KWd6XkZ/zi7XGOi/k8g0ruN1nLW9wBoGhWR2XhxLaY9RUl9YKm+
-uQtTrZAASG+FwLBzUHeBXExYNiUPTZ3/6oGkvMaHMJE2Qzo541p+AbyUgBHA1FJd
-X9Alv8qEF1lPksZswqadd+DSWOBMQ8x5u2WfYxjddcCQ19T2t9xM8HkGRoyf2aVn
-ISZ2wujMSCQ+adNXKU0W632FdcNh4g==
-=PNNn
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAhhL0ACgkQJNaLcl1U
+h9Dj1gf/WeqDZzAWjDLJnvP5AWG0YzYAZ4e9kzhW8JlO+3avn/NnB8BrLFEk/4yQ
+zwXSiv3A5O14GK2Hqqtqy7RLYN7sTG+3qZZoC0vN+Q0DnJ3PZRlwJMXXj4qTHgKw
+vN6muYTfU6dmiCZF92YehEKm1sfJU3+B1WT6A1rElD7B3DW/cCw5mLEVAhS0i8mZ
+C3vaYmVRAxPM3qQ+yweo6FSUPiZFwZ8r160+mhjlZbJ8G3gbHLHWyn0xGwfHfIke
+uJTIeE1DrHPoN5wTAvlg0qLBS/VcRv3cu289DKHBDm339vjxHGw74eeycmWOdj+T
+4yFR5NUb1Xx5cgsjjadPCpksJ/PwkQ==
+=sjWa
 -----END PGP SIGNATURE-----
 
---===============3418652143811067980==--
+--===============7229119607066494207==--
