@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 08 Feb 2021 21:47:49 -0000
-Message-Id: <161282086949.28859.564292560283756559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Mon, 08 Feb 2021 21:51:23 -0000
+Message-Id: <161282108371.31243.5684485133282192306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: bleung
 changes:
-  - ref: refs/heads/master
-    old: 897ef661febff43dea13ee5e8127431e0cebc912
-    new: f7df7939e6f41fb562869962b2efb55ec436799f
+  - ref: refs/heads/for-next
+    old: 4daeb395f1754340927d8d58269593e4e3b6afcd
+    new: b4b06c97729547d03a8f49c6774c8bd69150ea4d
     log: |
-         f7df7939e6f41fb562869962b2efb55ec436799f eap-wsc: Fix possible memory leaks
+         d9f12f9e6c3695c32e681e9d266c4dc1c9016f66 platform/chrome: cros_ec_typec: Decouple partner removal
+         38f56061c892c237ad4ee733cf3981a84f6b6aea platform/chrome: cros_ec_typec: Skip port partner check in configure_mux()
+         b4b06c97729547d03a8f49c6774c8bd69150ea4d platform/chrome: cros_ec_types: Support disconnect events without partners
          
