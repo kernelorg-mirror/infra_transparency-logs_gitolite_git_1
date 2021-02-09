@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6775956956049960224=="
+Content-Type: multipart/mixed; boundary="===============7047137299603308809=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 09 Feb 2021 10:59:25 -0000
-Message-Id: <161286836539.14314.13281870411072805696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 09 Feb 2021 11:00:10 -0000
+Message-Id: <161286841025.16077.7765430453725687273@gitolite.kernel.org>
 
---===============6775956956049960224==
+--===============7047137299603308809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/usb-testing
-    old: f5d1d63e7359c6b3c65097b4941756b3d8ac0be0
-    new: fe6ad68e4a6235aef254233c2630096f1cc8e505
-    log: |
-         fe6ad68e4a6235aef254233c2630096f1cc8e505 usb: gadget: Assign boolean values to a bool variable
-         
+  - ref: refs/heads/net-next-mlx5
+    old: b39d8851eab9709d507c0d887d08f5385a0bfe72
+    new: 94b4f1e7ec8160cd98fda2fda6145b4a44067998
+    log: revlist-b39d8851eab9-94b4f1e7ec81.txt
 
---===============6775956956049960224==
+--===============7047137299603308809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b39d8851eab9-94b4f1e7ec81.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612868356 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1612868353-3e2f1ad40326fd496fdcbd19ce47e4ab775df86b
+01b0a7526784bc72cad5c19707bc729bedb48c5a Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
+5bb24e39b364092e2286e6a9eae6a9d0269033dc net/mlx5: Don't skip vport check
+02d5da50f78650f40a3716cd59bd3c20dfce67eb net/mlx5: Remove impossible checks of interface state
+9b11c3cf84dd4a15f0b2ed122e2416c18cafd2d0 net/mlx5: Separate probe vs. reload flows
+1bf49c8ddebe3667a3156a2becb8ded06a81e747 net/mlx5: Remove second FW tracer check
+bd002b3736748ee70f86bab8c86149f4114ffc09 net/mlx5: Don't rely on interface state bit
+d02f5af1350a5926642e7d3fd335bb256fc5f07f net/mlx5: Check returned value from health recover sequence
+9a1372483918757ada6c7d05418c5df50b7e2b9c net/mlx5: Fix devlink reload LOCKDEP warning
+71797dc923516f499c1d00d2f3155e19e23d5864 devlink: Expose port function commands to control roce
+b2dd1ea394373b97d2ae781ad84c223f517c2d90 net/mlx5: E-Switch, Implement  devlink port function cmds to control roce
+e19fbebad2f7817536a6de14364e8ac7ffece6e5 net/mlx5: CT: Add support for mirroring
+029cca56ae110e43a034711a6b00fad6afc45a3e net/mlx5: E-Switch, let user to enable disable metadata
+92def96bd8b81b49c66a287c1f84c3d49434127f net/mlx5e: CT, Avoid false lock depenency warning
+08ab6ca351ba4735405ff14889d1bbaa54f52764 net/mlx5: Display the command index in command mailbox dump
+2591a3d2b63c410d229014e0d849fae1b0a8bc96 net/mlx5e: Allow to match on ICMP parameters
+d048564e6b5ea0ce120bc77e293e6c5c35bee5b2 devlink: Fix dmac_filter trap name, align to its documentation
+3feb84be0ca05288682e7de1caced51adcaa47f3 net/mlx5e: Fix spelling mistake "channles" -> "channels"
+3586e9ebb32dc9f13f84573a7d9a2b5968934182 net/mlx5e: Fix spelling mistake "Unknouwn" -> "Unknown"
+7ed708ca14794e4da994dddb4fda628000753edc net/mlx5: Assign boolean values to a bool variable
+94b4f1e7ec8160cd98fda2fda6145b4a44067998 net/mlx5e: Fix tc_tun.h to verify MLX5_ESWITCH config
 
-f5d1d63e7359c6b3c65097b4941756b3d8ac0be0 fe6ad68e4a6235aef254233c2630096f1cc8e505 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAiawQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1GsQALBkryTsT5Frcd9BcAQ5
-LveTlPyFWDWiR88vVHVb55JkLdjFYAoNSd4bVgH0rx6QrY9d49eM2StXqPEOxsBE
-WAlsHDeSOw1fFNrGp32hbVpPo+fRs6MVvursjGbzkyXMJ4JO3Rr8TzGL12rbK6Nh
-dAvHrjILTx/ALaDBdSSi/73hiihJ7xs2Pr6CRR9LfKwdQ5v7t74hyh2wpm1PRNx2
-y8eT2Knmh8hEVUjhd/znFeZnOmP6N3AY3TCkCtRZVnCy+MPjHT6r1OTuBktKpTgc
-+y9ruS9XlLGYa7HkuHkzT0AYb59KT3RYpL30ANaMvc1Y/VBHztv0cYLJqkrXFYaj
-BTCl2a44vX0K5s8bK1APat7EuGpOar/VMKoEVm3Z2mXo3P/LvDj1OoKmE9Isi+g6
-DQdrPtoX02lpMtR4BysfFRHGUC+Uor/ll/rQzU6bibFz1fy1MPcy+D5otQXV9eKg
-JqGqnbCFxlVvqM2H+eU10zkZL85Iju93EDuzPy/nKw+7PVOrw2rARMkUnFemNTd0
-pqy1qEH9zlxKiZU85xcv90kaMZQFHIKDp+0+oT5z6+kbnVcvack05vpVWPWqKus7
-Z5cz1A+hM0phuH826f9jgaQ2w2gtJb+LaXwpUwsq6mzPXLcsXtdKwkuCZtSgepzv
-nppayN4w+wH+AIDSkkemI2DX
-=JBmR
------END PGP SIGNATURE-----
-
---===============6775956956049960224==--
+--===============7047137299603308809==--
