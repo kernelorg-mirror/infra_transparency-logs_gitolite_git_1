@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 09 Feb 2021 00:14:45 -0000
-Message-Id: <161282968558.19971.4227796176344356138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 09 Feb 2021 00:19:05 -0000
+Message-Id: <161282994528.22614.2197549924745039618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 204cbe423b6ea8368eaa17b0c42542dc4f719c1f
-    new: 01584a5edcc4a04ed4b993f75b6cc4bcf3c21818
+  - ref: refs/heads/master
+    old: ce7536bc7398e2ae552d2fabb7e0e371a9f1fe46
+    new: 3aa6bce9af0e25b735c9c1263739a5639a336ae8
     log: |
-         429fa9698957d1a910535ce5e33aedf5adfdabc1 RDMA/siw: Fix calculation of tx_valid_cpus size
-         01584a5edcc4a04ed4b993f75b6cc4bcf3c21818 RDMA/hns: Add support of direct wqe
+         3aa6bce9af0e25b735c9c1263739a5639a336ae8 net: watchdog: hold device global xmit lock during tx disable
          
