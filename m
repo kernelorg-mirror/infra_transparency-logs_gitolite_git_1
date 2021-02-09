@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2972402187887420932=="
+Content-Type: multipart/mixed; boundary="===============0189132468863574069=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 09 Feb 2021 10:58:11 -0000
-Message-Id: <161286829197.13770.9355873170647929050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 09 Feb 2021 10:58:27 -0000
+Message-Id: <161286830708.13936.9848958108192904429@gitolite.kernel.org>
 
---===============2972402187887420932==
+--===============0189132468863574069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 52487e1ef17cfbdbfe9af9011a3fa450a743453c
-    new: 8f4c073c5f20334d92722ac0d142906570a89029
-    log: revlist-52487e1ef17c-8f4c073c5f20.txt
+  - ref: refs/heads/queue-next
+    old: b76dea465c7fa12bf5bae27ab3ce51157c4d3d8b
+    new: 966d3d42251fac89510cc21823a1099c5c210b11
+    log: revlist-b76dea465c7f-966d3d42251f.txt
 
---===============2972402187887420932==
+--===============0189132468863574069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52487e1ef17c-8f4c073c5f20.txt
+Content-Disposition: attachment; filename=revlist-b76dea465c7f-966d3d42251f.txt
 
 31561e8557cd1eeba5806ac9ce820f8323b2201b ath10k: Fix error handling in case of CE pipe init failure
 5f1aa93ffa1f36577d0c18e91269f0ffd491e822 ath10k: Remove voltage regulator votes during wifi disable
@@ -239,5 +239,7 @@ bd88b6f721e172da2290f12d94a0b795546e3ae6 Merge branch 'mlx5-vdpa' into net-next
 82989911e450e4535f2509c59e78b4a0908d68c3 Merge branch 'net-mlx4' into net-next
 bad73c9ba630c441cda668f48dc6e69c45bf3fe9 Merge branch 'net-mlx5' into net-next
 8f4c073c5f20334d92722ac0d142906570a89029 Merge branch 'net-next-test' into net-next
+691139f8c7df707f174b6589372e98d7da12b1a4 Merge branch 'net-next' into queue-next
+966d3d42251fac89510cc21823a1099c5c210b11 Merge branch 'testing/rdma-next' into queue-next
 
---===============2972402187887420932==--
+--===============0189132468863574069==--
