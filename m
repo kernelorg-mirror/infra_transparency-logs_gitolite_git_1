@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 09 Feb 2021 23:30:34 -0000
-Message-Id: <161291343488.29168.7733019672083443780@gitolite.kernel.org>
+Date: Tue, 09 Feb 2021 23:30:54 -0000
+Message-Id: <161291345437.29313.9575802406928360323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/imx/drivers
+  - ref: refs/heads/imx/soc
     old: 0000000000000000000000000000000000000000
-    new: 7d981405d0fd3cfc0de052e4791f516235d8b858
+    new: 579c6f925e5ae3a70ec32e936908066707dbfef5
