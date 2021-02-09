@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4416695484711726790=="
+Content-Type: multipart/mixed; boundary="===============4723907868315867652=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 09 Feb 2021 11:12:17 -0000
-Message-Id: <161286913718.23553.17201662900294595328@gitolite.kernel.org>
+Date: Tue, 09 Feb 2021 11:13:10 -0000
+Message-Id: <161286919083.23855.7276167254012287926@gitolite.kernel.org>
 
---===============4416695484711726790==
+--===============4723907868315867652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 5b06931d7f8b8059bec8563b2e8d531218e03e2f
-    new: 1077d4367ab3b97f6db2f66c87289af863652215
+    old: 1077d4367ab3b97f6db2f66c87289af863652215
+    new: 5f6805327982d1fd45355730e9d1adda616b995b
     log: |
-         1077d4367ab3b97f6db2f66c87289af863652215 firmware: xilinx: Use explicit values for all enum values
+         5f6805327982d1fd45355730e9d1adda616b995b firmware: google: make coreboot driver's remove callback return void
          
 
---===============4416695484711726790==
+--===============4723907868315867652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612869127 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612869181 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1612869126-7a2a565a3ccfd36b847a1acf3c140e06dc867431
+nonce 1612869181-f3135890384136d19fb939a4621e6aa1bd5f8938
 
-5b06931d7f8b8059bec8563b2e8d531218e03e2f 1077d4367ab3b97f6db2f66c87289af863652215 refs/heads/char-misc-testing
+1077d4367ab3b97f6db2f66c87289af863652215 5f6805327982d1fd45355730e9d1adda616b995b refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAibgcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X0kP/RyqZaHP5yjfPKGClLyA
-+N+mThaOHp/tUuKMkgztIGtSc1KycX87rVoLGVvfrT1UlKv4u9Lpc9d/MX4ZyI9j
-Zh9I3VbkjLbjBCjfmZW4ninJDuIh52gZFHOd/AeZMCZfd1kGS8m63h4GCarSIVgD
-H3Kpoqp5dyurwiM7YWLWV+kXwJ6Hz2x4MGGAyWRHgpK890Hp6fWHjmosODyDOgaH
-WunhJdqMy/vL5Z7oLHNizs6EMK/r0Kz6lIC8izeKxuqhcuABh69WuUaVKNJXeqct
-WOnf3qor5vFeG7utmVeIU0IIeeKPtyWGIXvwSw8MSIdOJtFFEYmH+WCNVxPwBYva
-ubjKb3afWbOe3UGsjJtgcZ3FqNTWEAl44+LNNvnuYfMrjvZTvPSaRL3y3cJrHOCZ
-7I4mMAFSLKM3aGyCHonV2Xz97bGa3+9VEYHwEx+qzCiipIXyTNPCyYSkzNF/QsH/
-p5qADuIretIAvUTvR8/sdbtLJ7aysl5Bf+9F5OlMu/prdywTJh6XHAJNC2Vdqc97
-0A3dSsiW+NbHnfkk1dk6+DA62L7i0SZyKxRkNWikInN8QjN2mebZsRK2upG1e6aU
-sCdKEsQMztcs7AaKQjRd+DLgj/F6sSK0FiX1JcKqSSGvrA2/w2qDNNwWmRFKov1a
-cujweO+SMtH243Qw/xYTu7MV
-=IQVG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAibj0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Zz0QAJKJu97zvWhyP4t7XnM7
+DZ41SZWXmDrQX3MZX+AN6mAgp+lqbfO/cjzx+zKjcCqG2kF+kYIgT5O8OKlED+Gd
+DKll8M/WvjYIzTxg2yIkuwXXWq5l+Y5cJjcG4XAd9oj7Qw1uWaUlah0LKMrROq8v
+35mIn4B6mx/m1yA5TmahYYa31TLCJ8uMUhrrZQ0QMxLyE9rmCnFnf1fVyjLeGOOl
+qOtdwVFxnm0390k7cxgTcSlRdu97WC7d+VLme0o6BxXP4Z0KEGt4cG1QwkwaDKP7
+MKat1yyzEbXx7R2+uN8OJ64el4bBFGX8x9lfwBtWwzKXS3CAIOY/nb8AgRdrZnd/
+teoyqqp95HWuBNzZdLOgmbeowSyun29gHIAihsrTsvm6daDpz5Ey6UB6Cbxcekt6
+Vl+Dbc1lUnKrGPL3wBVveCsANBMk91X4jKL9PZbbKOtFQoT4lH1+5DCB8Je2SkrI
+ylULSj1Ld0zX7wyJHzhPvtItxm2aaqY5jBvz5AgC03E4VFBC4wXJjxNJnSlLemAG
+s5jZfvqPr9GfXr0ZgRIVCSmFuKX2Nze2CPxqBwNTAYfMcXM3s//+DPsVfEnbkk8x
+Jblm3pwzZquOa2yRv+PFsuC/nTzspB37kwFyErLW+K0p63GwnZTcK9x610hS75Ai
+WpitkG76BxE9fCVbfIK2ork3
+=eOCz
 -----END PGP SIGNATURE-----
 
---===============4416695484711726790==--
+--===============4723907868315867652==--
