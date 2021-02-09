@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
-Date: Tue, 09 Feb 2021 15:58:23 -0000
-Message-Id: <161288630346.7388.2732889743166223722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Tue, 09 Feb 2021 15:58:31 -0000
+Message-Id: <161288631137.7517.10697535433365016550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
 user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: 11eab99230b56c8befdfada0d218cae92fc52a34
-    new: 679ba866cd393e5060a1aead432bdd8d687f4d37
+  - ref: refs/heads/devel
+    old: 20ac38615282b1f25eaf4d6b16ff9c866b6550be
+    new: 1f5f8781584ffbc4eb2578a8e94c7173a0a5348d
     log: |
-         679ba866cd393e5060a1aead432bdd8d687f4d37 queueing: get rid of per-peer ring buffers
+         1f5f8781584ffbc4eb2578a8e94c7173a0a5348d wireguard: queueing: get rid of per-peer ring buffers
          
