@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 09 Feb 2021 12:28:46 -0000
-Message-Id: <161287372632.5849.5190265868045964760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Tue, 09 Feb 2021 12:33:35 -0000
+Message-Id: <161287401550.8645.16294038215850781961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/master
-    old: c9b9a599fc65dbe4883ef9a0313b597f62a05d41
-    new: 055811a99ef0b74a0da9d04b2115481d3ca14eba
+  - ref: refs/heads/mips-next
+    old: 1ddc96bd42daeeb58f66c9515e506f245ccb00c6
+    new: fe6c98a115affdb3ff9cfccc5b6207127223d4b8
     log: |
-         acd8a0e37ef75c82429315e3c1fd986eb6634be9 fileno.3: Split fileno(3) content out of ferror(3) into new page
-         15267cb8a11c0a40d03740128a67d40e03873836 ferror.3: Remove fileno(3) content that was migrated to new fileno(3) page
-         5b921fc469049c4bc2002e512a0f1d15d8603d3d ferror.3: Add a RETURN VALUE section
-         a23bf7259c9d4ef0af4a8ede1e81040d4f11e831 ferror.3: POSIX.1-2008: these functions won't change 'errno' if 'stream' is valid
-         ba50f49c69e28433baefca7d2268144fbc761978 getpriority.2, recv.2, fts.3: wfix
-         055811a99ef0b74a0da9d04b2115481d3ca14eba stat.2: Remove <unistd.h> from synopsis
+         d4d3ef8b347b73aa60f60f4be06acf1643e79f34 MIPS: relocatable: Provide kaslr_offset() to get the kernel offset
+         457d2fc54f00b97367a67ef9dadebfd06772d9af MIPS: relocatable: Use __kaslr_offset in show_kernel_relocation
+         fc4cac4cfc437659ce445c3c47b807e1cc625b66 MIPS: compressed: fix build with enabled UBSAN
+         9f0781bac9f3d75d10d6a862e18ff172ce07c202 MIPS: process: Fix no previous prototype warning
+         4088024344672daccfd7fc97ff6e6cc241d4a39e Revert "mips: Manually call fdt_init_reserved_mem() method"
+         fe6c98a115affdb3ff9cfccc5b6207127223d4b8 MIPS: crash_dump.c: Simplify copy_oldmem_page()
          
