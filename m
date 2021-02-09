@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 09 Feb 2021 00:46:14 -0000
-Message-Id: <161283157439.8032.11384862060812043426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 09 Feb 2021 00:50:03 -0000
+Message-Id: <161283180350.9748.5407760405931175650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: db72438c9319cfd37e3c237a7754ca862ae12d63
-    new: a14e3caaaa72e9c5c91e823dde3383122215207d
+  - ref: refs/heads/odirect-pcache
+    old: 7e08f8da46f85fc299871735804b4cd894683554
+    new: 83daaccf828c18d2959b94c17e502f17a5eea8c2
     log: |
-         dc78074a808e2363fd0de92fbc5f5bf44c9d0db1 RDMA/rxe: Fix minor coding style issues
-         086f580c015261b90276fee232e11d76b2d6ece6 RDMA/rxe: Cleanup init_send_wqe
-         a14e3caaaa72e9c5c91e823dde3383122215207d RDMA/qedr: Remove in_irq() usage from debug output
+         89d23c5b61ccfa9fdeb4dc67ca866abeee0c35b2 mm: provide filemap_range_needs_writeback() helper
+         1bdf7548026f872faa8eb03ffa0e7dcb8a234399 mm: use filemap_range_needs_writeback() for O_DIRECT IO
+         83daaccf828c18d2959b94c17e502f17a5eea8c2 iomap: use filemap_range_needs_writeback() for O_DIRECT IO
          
