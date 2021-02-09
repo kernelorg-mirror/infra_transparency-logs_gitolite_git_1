@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 09 Feb 2021 09:37:24 -0000
-Message-Id: <161286344496.26082.17922083658344489733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 09 Feb 2021 09:41:23 -0000
+Message-Id: <161286368366.30002.4116520283228807248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-5.11/upstream-fixes
-    old: 2aefba190f17a3f409292ee9fc8f00c20fed411e
-    new: fab3a95654eea01d6b0204995be8b7492a00d001
+  - ref: refs/heads/mlx5-next
+    old: 60d6c76c42ae37c0f0e8d441ef2d529cf720fd93
+    new: 75f21a43164da17ab51a047abdc9345a5a32737c
     log: |
-         fab3a95654eea01d6b0204995be8b7492a00d001 HID: logitech-dj: add support for the new lightspeed connection iteration
-         
-  - ref: refs/heads/for-next
-    old: 687ec1a18860d3bf5393336bcb3981f6c2ee64fb
-    new: 2d3e7312084f686dc1b7fe695072e9d8e21b5987
-    log: |
-         fab3a95654eea01d6b0204995be8b7492a00d001 HID: logitech-dj: add support for the new lightspeed connection iteration
-         2d3e7312084f686dc1b7fe695072e9d8e21b5987 Merge branch 'for-5.11/upstream-fixes' into for-next
+         06d335aba286c952b729278168f72856d3aa9ade net/mlx5: Add IFC bits needed for single FDB mode
+         1ae8c16f6088383325db46eab540e3bba2392d29 net/mlx5: Add VDPA priority to NIC RX namespace
+         75f21a43164da17ab51a047abdc9345a5a32737c x86/xen: Fix compilation error due to missing nopvspin declaration
          
