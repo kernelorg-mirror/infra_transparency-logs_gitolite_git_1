@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 09 Feb 2021 19:16:10 -0000
-Message-Id: <161289817014.2288.17731384098482227003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 09 Feb 2021 19:18:17 -0000
+Message-Id: <161289829769.3017.11632821437805971852@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/master
-    old: 1e2e61af199652a316d321b0a8f6b08e8dba0b08
-    new: 8cf5d8cc3eae2a6324ff81aa5f2f6c2f52bc5cd0
+  - ref: refs/heads/wip/jgg-for-next
+    old: a14e3caaaa72e9c5c91e823dde3383122215207d
+    new: 0e07cd291dd1b9320845ba592e78fb3d39c905c0
     log: |
-         8cf5d8cc3eae2a6324ff81aa5f2f6c2f52bc5cd0 Documentation: networking: ip-sysctl: Document src_valid_mark sysctl
+         c70f51de85302e76a59f6c6ce3dcd27b6411d23b RDMA/mlx5: Support 400Gbps IB rate in mlx5 driver
+         0e07cd291dd1b9320845ba592e78fb3d39c905c0 RDMA/ipoib: Remove racy Subnet Manager sendonly join checks
          
