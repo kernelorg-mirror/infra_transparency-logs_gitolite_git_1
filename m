@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7289323166026754028=="
+Content-Type: multipart/mixed; boundary="===============6448857841078109099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Tue, 09 Feb 2021 21:14:15 -0000
-Message-Id: <161290525570.9269.5931644577428381116@gitolite.kernel.org>
+Date: Tue, 09 Feb 2021 21:14:34 -0000
+Message-Id: <161290527453.9476.10269338351182639462@gitolite.kernel.org>
 
---===============7289323166026754028==
+--===============6448857841078109099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/nested-svm
-    old: fe175c06470818117ed1525a23310094fd7cba48
-    new: 13c8c08296dad36059e4ff7912c251dad697e65c
-    log: revlist-fe175c064708-13c8c08296da.txt
+  - ref: refs/heads/queue
+    old: 00f3d737216d7c6d9f749d90ed289dc1f685f48c
+    new: 208daa08adc25a8f475f2714ae3177d8a0d29bdb
+    log: revlist-00f3d737216d-208daa08adc2.txt
 
---===============7289323166026754028==
+--===============6448857841078109099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1612905253 -0500
+pusher Paolo Bonzini <pbonzini@redhat.com> 1612905272 -0500
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1612905253-e06471fe0da28f5aee8c07463b299f060f36ecb3
+nonce 1612905272-14b4f1690c12af04b92c2d92e613bab56393b119
 
-fe175c06470818117ed1525a23310094fd7cba48 13c8c08296dad36059e4ff7912c251dad697e65c refs/heads/nested-svm
+00f3d737216d7c6d9f749d90ed289dc1f685f48c 208daa08adc25a8f475f2714ae3177d8a0d29bdb refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmAi+yUUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroOoJAgAkQSsgkNzHllTkIZoLILjKgho2Tth
-W5USVXL+/mWgCzpLZUE4zIO+OgBnBnaj0y+McYSycTyLdh3vrRtIP5YKtIcJv8HX
-scReLHTm0I6vy3z4R9Irfowj2t7VhKNEfRbu2RwQY2uRykxhu9iUcTv0ecXB+bQP
-WoorJew0tjSecNL882SsC0sU2DcADW/kGTblFtlMU3KMGuSvuCaImCPBDnbVa+ER
-skZA8IHTF0MYtyAdM6QygXQp+vlfF7hGRgufQy0q/GTze5VYDWEmzsFqLc+7ES9R
-qq+nIw0KXIp0/SDZ4g5HtwVDLyxZl0P/1hg9JbsUV3+5qlEpCjKAWIcUMg==
-=6Uw+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmAi+zgUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroP7fwf9E+5yJX9CIGAQ7fLUrJ8pNPTDglGl
+HK/xyzUJLBx0bORO3xrNE7r74BST00FXnphZ85Zyu/xlYtrt2ORwFXkk3C9vCEAE
+4f12KXWtjiIYSGTXPytdPrEEAdl+lIrRbO0omPHqFotcL7iVv1yFXip4e9xTjr2I
+YKMw9+1kyTZAC+WZsR/S5f5OxSBy1FBcScVh6fWJ/2q5kDXJTTwwU10iuh7VmgnJ
+JQw8uPy42BtGqXbgcG+ZyRKUen7UXd5a0N2w9+1tgaz//0OpBcWII1atzyniT5CF
+s1me28MYtQw2zd5pWhUyI//pUGnygcG62DhnOUvjJCaflHc7r19sme46yQ==
+=CxTK
 -----END PGP SIGNATURE-----
 
---===============7289323166026754028==
+--===============6448857841078109099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe175c064708-13c8c08296da.txt
+Content-Disposition: attachment; filename=revlist-00f3d737216d-208daa08adc2.txt
 
 897218ff7cf19290ec2d69652ce673d8ed6fedeb KVM: x86: compile out TDP MMU on 32-bit systems
 9fd6dad1261a541b3f5fa7dc5b152222306e6702 mm: provide a saner PTE walking API for modules
@@ -100,5 +100,25 @@ a1067ebc2b4e3b57ef6b3c5fb1642fa9a8356967 KVM: x86: Move trivial instruction-base
 297bb0652b50a0d138b64597fc7eb2cf28099313 KVM: x86: Move RDPMC emulation to common code
 4dfe67c9f9f09bd50b8aa436caee705d63b83839 KVM: SVM: Don't manually emulate RDPMC if nrips=0
 13c8c08296dad36059e4ff7912c251dad697e65c KVM: SVM: Skip intercepted PAUSE instructions after emulation
+68b8afb6013f446ed79189c60b63bb0c5af35cf2 x86/cpufeatures: Add CPUIDs for Control-flow Enforcement Technology (CET)
+505cbafdc05c74e8e31c18bc6fcbb9da2a30806e cet msrs
+56c9936c5dacf013b0e0c93c3e35673edbe4f18f KVM: x86: Report XSS as an MSR to be saved if there are supported features
+3467725411bb3f2827c4893cc127c51c11b0628b KVM: x86: Refresh CPUID on writes to MSR_IA32_XSS
+53a1c449f0275505b02f7a0a46152504b25b4aec KVM: x86: Load guest fpu state when accessing MSRs managed by XSAVES
+d9eb566ccd9f09ae4710edaddb6c2b1b98fff2ac KVM: x86: Add #CP support in guest exception classification.
+8bf00f77eeb03d257a8565123ad78bd6d0eb3d76 KVM: VMX: Introduce CET VMCS fields and flags
+8da426298cdfd7d8574e665b96dff04f7eb2d8c2 KVM: x86: Add fault checks for CR4.CET
+dbae887ee27ceb9671ba774f8cd97c31f0a905e0 KVM: VMX: Emulate reads and writes to CET MSRs
+e5b71e1e411817a2f621c4f2cbbe80585bd0b926 KVM: VMX: Add a synthetic MSR to allow userspace VMM to access GUEST_SSP
+9d133acabf5230dd30c3a2eb3ba1323dc8619931 KVM: x86: Report CET MSRs as to-be-saved if CET is supported
+75f4433ea199ac70471d3555fb4fbac85ac19f45 KVM: x86: Save/Restore GUEST_SSP to/from SMM state save area
+8776cb4d423b6f82e7355a77b434dc9a4b756bbc KVM: x86: Enable CET virtualization for VMX and advertise CET to userspace
+80430c578d78fede1b2a52ff6e152e87e985910e KVM: VMX: Pass through CET MSRs to the guest when supported
+112aea8231b3e04e83511231b3552ae17614b0f8 KVM: nVMX: Add helper to check the vmcs01 MSR bitmap for MSR pass-through
+d4de5dee3ab410e84ca5c4e192731f6717486cd1 KVM: nVMX: Enable CET support for nested VMX
+19bb885f38f08afea5d42e5af9426b9f638f23d3 x86/cpufeatures: Enumerate #DB for bus lock detection
+6e856438b72e296000d1de873c43ef599fd35a2c x86/bus_lock: Handle warn and fatal in #DB for bus lock
+6ddc6784fc4108b3cbded3afb0c2489d1c198492 KVM: X86: Add support for the emulation of DR6_BUS_LOCK bit
+208daa08adc25a8f475f2714ae3177d8a0d29bdb KVM: X86: Expose bus lock debug exception to guest
 
---===============7289323166026754028==--
+--===============6448857841078109099==--
