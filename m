@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 08 Feb 2021 23:59:28 -0000
-Message-Id: <161282876817.10043.10617568869091500767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Tue, 09 Feb 2021 00:05:23 -0000
+Message-Id: <161282912339.14479.13811168099943292421@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 8043c845b63a2dd88daf2d2d268a33e1872800f0
-    new: 4429c5fc3dbd5c6f385860526e5fb5a862d4ea8c
+  - ref: refs/heads/next
+    old: f405ac83fa252dd0e346f2715b66e7d2adba9027
+    new: b1cd3d82a964921a6828588fb52a3502acc7d0ea
     log: |
-         4429c5fc3dbd5c6f385860526e5fb5a862d4ea8c cxgb4: remove unused vpd_cap_addr
+         b1cd3d82a964921a6828588fb52a3502acc7d0ea selftests: breakpoints: Use correct error messages in breakpoint_test_arm64.c
          
