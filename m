@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 09 Feb 2021 15:42:31 -0000
-Message-Id: <161288535142.30506.10843680165723406799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
+Date: Tue, 09 Feb 2021 15:49:53 -0000
+Message-Id: <161288579372.1673.15095804927039468422@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
+user: zx2c4
 changes:
-  - ref: refs/heads/sched/core
-    old: 936eba768e7d4701373115977db1dbe954b6f6af
-    new: 355b3a57ddba71b73a99aa249a99aed6ed904606
+  - ref: refs/heads/master
+    old: 35c5ba921786377d1fe603ae53df7c47539d81fd
+    new: 11eab99230b56c8befdfada0d218cae92fc52a34
     log: |
-         0e79823f55de3cff95894fbb40440b17910e7378 preempt/dynamic: Support dynamic preempt with preempt= boot option
-         b57f3de85c79f9fbfe2fd84cc6ba548e4e73d02d sched: Add /debug/sched_preempt
-         8659343e7612746d595d55e7cf695c46f2ed571a static_call: Allow module use without exposing static_call_key
-         355b3a57ddba71b73a99aa249a99aed6ed904606 sched: Harden PREEMPT_DYNAMIC
+         11eab99230b56c8befdfada0d218cae92fc52a34 queueing: get rid of per-peer ring buffers
          
