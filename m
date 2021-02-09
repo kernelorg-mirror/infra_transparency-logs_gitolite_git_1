@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 09 Feb 2021 19:00:36 -0000
-Message-Id: <161289723684.24363.5879046113933142785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 09 Feb 2021 19:04:48 -0000
+Message-Id: <161289748816.25699.4566237860927498730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 055811a99ef0b74a0da9d04b2115481d3ca14eba
-    new: 8ccbd769d03403546ad1bfd6e20f22cf8fc92f0b
+  - ref: refs/heads/review-hans
+    old: 0f1f7f22f384f34b2f0800a3734aa0fc83eafff2
+    new: e310cbf319775f46ef937c79b9cf03b73d0f8244
     log: |
-         d5ff9ffcdc7f28b0196bef6b0a0232bf0cb78611 rpc.3: ffix
-         56d1311b870f0e422c93988c48f11fd2e92efce7 ipc.2: Fix prototype parameter types
-         71a25d4c79b1ccf538f6b813c834bbc4197f6370 execveat.2: Fix prototype
-         47918752700e27e192008a49ea879a4ffe8cdcd6 execveat.2: srcfix: add a link to glibc bug requesting wrapper
-         5ae403a2d4aa8b78f0e1ee6952b1a4aeb7fdffae mlock.2: mlock2(): Fix prototype parameter types
-         8ccbd769d03403546ad1bfd6e20f22cf8fc92f0b mmap2.2: Fix prototype parameter types
+         006050a6bd5ee4febf35478bfafb0764a609890a tools/power/x86/intel-speed-select: Add new command turbo-mode
+         2c7dc57e9eb83cb005e6c2b8529f5a0a9b57c3ad tools/power/x86/intel-speed-select: Add new command to get/set TRL
+         2a76d235bc7eac32af08af4c7554b74c7540471f tools/power/x86/intel-speed-select: Update version to 1.8
+         e310cbf319775f46ef937c79b9cf03b73d0f8244 Merge remote-tracking branch 'intel-speed-select/intel-sst' into review-hans
          
