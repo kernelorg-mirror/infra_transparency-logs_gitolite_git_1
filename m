@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8245765689735106278=="
+Content-Type: multipart/mixed; boundary="===============2231290341192824542=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 09 Feb 2021 15:50:41 -0000
-Message-Id: <161288584146.3654.11924151708522906958@gitolite.kernel.org>
+Date: Tue, 09 Feb 2021 15:50:47 -0000
+Message-Id: <161288584720.3779.10877784356755589965@gitolite.kernel.org>
 
---===============8245765689735106278==
+--===============2231290341192824542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/master
-    old: 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04
+  - ref: refs/heads/fixes
+    old: e82080e1f456467cc185fe65ee69fe9f9bd0b576
     new: 92bf22614b21a2706f4993b278017e437f7785b3
-    log: revlist-6ee1d745b7c9-92bf22614b21.txt
+    log: revlist-e82080e1f456-92bf22614b21.txt
 
---===============8245765689735106278==
+--===============2231290341192824542==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6ee1d745b7c9-92bf22614b21.txt
+Content-Disposition: attachment; filename=revlist-e82080e1f456-92bf22614b21.txt
 
 07af7810e0a5bc4e51682c90f9fa19fc4cb93f18 DTS: ARM: gta04: remove legacy spi-cs-high to make display work again
 6efac0173cd15460b48c91e1b0a000379f341f00 ARM: OMAP1: OSK: fix ohci-omap breakage
@@ -354,9 +354,6 @@ c730ab423bfa1ae99b688a9abdedf74477d44955 net: fec: Fix temporary RMII clock rese
 5f46400f7a6a4fad635d5a79e2aa5a04a30ffea1 xen: Fix XenStore initialisation for XS_LOCAL
 211e5db19d15a721b2953ea54b8f26c2963720eb rtc: mc146818: Detect and handle broken RTCs
 b552766c872f5b0d90323b24e4c9e8fa67486dd5 can: dev: prevent potential information leak in can_fill_info()
-f21916ec4826766463fe9fb55a5f43d2a365811d s390/vfio-ap: clean up vfio_ap resources when KVM pointer invalidated
-6c12a6384e0c0b96debd88b24028e58f2ebd417b s390/vfio-ap: No need to disable IRQ after queue reset
-e82080e1f456467cc185fe65ee69fe9f9bd0b576 s390: uv: Fix sysfs max number of VCPUs reporting
 a1df829ead5877d4a1061e976a50e2e665a16f24 ACPI/IORT: Do not blindly trust DMA masks from firmware
 2e92493637a09547734f92c62a2471f6f0cb9a2c x86/xen: avoid warning in Xen pv guest with CONFIG_AMD_MEM_ENCRYPT enabled
 03a58ea5905fdbd93ff9e52e670d802600ba38cd gpiolib: cdev: clear debounce period if line set to output
@@ -704,4 +701,4 @@ ff92acb220c506f14aea384a07b130b87ac1489a Merge tag 'dma-mapping-5.11-2' of git:/
 b75dba7f472ca6c2dd0b8ee41f5a4b5a45539306 Merge tag 'libnvdimm-fixes-5.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 92bf22614b21a2706f4993b278017e437f7785b3 Linux 5.11-rc7
 
---===============8245765689735106278==--
+--===============2231290341192824542==--
