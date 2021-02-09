@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 09 Feb 2021 22:32:07 -0000
-Message-Id: <161290992731.25756.1226083093572641277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
+Date: Tue, 09 Feb 2021 22:43:16 -0000
+Message-Id: <161291059694.390.12292791750019088042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/andersson/remoteproc
+user: andersson
 changes:
-  - ref: refs/heads/rockchip/dt64
-    old: 0000000000000000000000000000000000000000
-    new: 7582ad63c9bd09a8f0988c46074481ddd4f92e04
+  - ref: refs/heads/rproc-next
+    old: ca23ecfdbd44bac02cb6964a3793c565a389af96
+    new: 43d3f2c715cefcfb89b10675728e9bf0d8bb98e3
+    log: |
+         43d3f2c715cefcfb89b10675728e9bf0d8bb98e3 remoteproc: core: Fix rproc->firmware free in rproc_set_firmware()
+         
