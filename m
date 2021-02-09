@@ -1,50 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2619192290246536467=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Tue, 09 Feb 2021 09:12:59 -0000
-Message-Id: <161286197909.12169.1550617292552984150@gitolite.kernel.org>
-
---===============2619192290246536467==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 09 Feb 2021 09:27:36 -0000
+Message-Id: <161286285663.20426.4446938016127751879@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/next
-    old: 897218ff7cf19290ec2d69652ce673d8ed6fedeb
-    new: f2215fed054138e40fb4a54a1a2dd03589325e48
+  - ref: refs/heads/for-5.11/upstream-fixes
+    old: ef07c116d98772952807492bd32a61f5af172a94
+    new: 2aefba190f17a3f409292ee9fc8f00c20fed411e
     log: |
-         f2215fed054138e40fb4a54a1a2dd03589325e48 mm: provide a saner PTE walking API for modules
+         2aefba190f17a3f409292ee9fc8f00c20fed411e HID: intel-ish-hid: ipc: Add Tiger Lake H PCI device ID
          
-
---===============2619192290246536467==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1612861977 -0500
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1612861977-dc449de18514f52c8423f454f0875a1445b69eee
-
-897218ff7cf19290ec2d69652ce673d8ed6fedeb f2215fed054138e40fb4a54a1a2dd03589325e48 refs/heads/next
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmAiUhkUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroPGtwf9F4yTR1Rr4n+43fWiT0bowGFTNlmi
-PeI99QMdUM1yvO8EZZwD2uz7UwlHMRrwaEAz9N+XwRqel08PZqmrhK9ktowwZxR5
-WU/3v8iu4+M9NBwfDl0hoU5qlVgncoaBMTlwUPi1ZwtF/GFBSbaadJOmdyccrNF0
-OJU2k8KBKeT5JcoyfNaknjlrgffk43wJM6XEEqCeKmQR3lgjjr3ke8U5MNBcEIe/
-syPSqjpbpab41tCS47Rmh2ZjCylj8sdFh6182R2qI1lcOy4bEN5NWBq95guWqSuW
-lG5N1wozmZ5C/56U576FY6xSrlsFoc6SUBPsj+9bKdJw9G9mekCRwiwL0A==
-=HzzU
------END PGP SIGNATURE-----
-
---===============2619192290246536467==--
+  - ref: refs/heads/for-next
+    old: e3d1dbb6dede5dc2facf583deea3c40fa60fa219
+    new: 687ec1a18860d3bf5393336bcb3981f6c2ee64fb
+    log: |
+         2aefba190f17a3f409292ee9fc8f00c20fed411e HID: intel-ish-hid: ipc: Add Tiger Lake H PCI device ID
+         687ec1a18860d3bf5393336bcb3981f6c2ee64fb Merge branch 'for-5.11/upstream-fixes' into for-next
+         
