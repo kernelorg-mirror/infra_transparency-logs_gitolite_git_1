@@ -1,44 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1245441546694690701=="
+Content-Type: multipart/mixed; boundary="===============6496025571433065003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Tue, 09 Feb 2021 17:37:27 -0000
-Message-Id: <161289224709.4695.18306814829588025539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 09 Feb 2021 17:43:45 -0000
+Message-Id: <161289262599.9355.9255667375248513029@gitolite.kernel.org>
 
---===============1245441546694690701==
+--===============6496025571433065003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andersson/remoteproc
-user: andersson
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 7cb4f293777e5245ab49ddb2566b4d0c766c2bd1
-    new: 1c13d0ff4bdcc441671ca51a00b85a9ec370f165
-    log: revlist-7cb4f293777e-1c13d0ff4bdc.txt
+  - ref: refs/heads/staging-testing
+    old: 18bff59ba2a7c736fa1bba1ea63d84f0756afa75
+    new: 6953026f21092199a59f2c641a880b1c4025f932
+    log: |
+         62301f3a1591eb77688431bfc42fb450a0ca1da7 staging: rtl8723bs: remove typedefs from rtl8723b_recv.h
+         6953026f21092199a59f2c641a880b1c4025f932 staging: rtl8712: Remove multiple blank lines
+         
 
---===============1245441546694690701==
+--===============6496025571433065003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cb4f293777e-1c13d0ff4bdc.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9e19f44d7f081e4c05d64cfcc412ab1fa43fd2bb remoteproc: qcom: add more help text qcom options
-cf34838d591f1fce426fb7823c2f1890b6d1ccc8 remoteproc: stm32: improve debug using dev_err_probe
-bfb44502b8fc865c9962ca335ae9877579ff4a9c remoteproc: qcom: fix glink dependencies
-9a1d27148543da8966aaabb44c5403f3a81cebcb remoteproc: qcom_wcnss: remove unneeded semicolon
-8c545f52dce44368fff524e13116e696e005c074 remoteproc/mediatek: acknowledge watchdog IRQ after handled
-ec8207ae39dc1f498962722d9fdea7bbc3a8233b remoteproc: ingenic: Add module parameter 'auto_boot'
-2e88e8fcdfcd2e5569180944789ff299114c2bf7 remoteproc/mediatek: use devm_platform_ioremap_resource_byname
-ff3ea536023e8a40c499f884bdc3cc5aec5b1e25 remoteproc/mediatek: enable MPU for all memory regions in MT8192 SCP
-503c64cc42f15799ba0fdc654b6640911aaf7c34 dt-bindings: remoteproc: mediatek: add L1TCM memory region
-ca23ecfdbd44bac02cb6964a3793c565a389af96 remoteproc/mediatek: support L1TCM
-387db89ca00fc6db5dc20571e822af9bddbc9695 dt-bindings: hwlock: Update OMAP HwSpinlock binding for AM64x SoCs
-b9ddb2500e7e544410f38476ab928fc2fe01e381 hwspinlock: omap: Add support for K3 AM64x SoCs
-ec4ed648df8f275718fa435c341f6f1079622841 Merge branche 'rproc-fixes' into for-next
-1c13d0ff4bdcc441671ca51a00b85a9ec370f165 Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612892616 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1612892616-7f5aab9fca63d72d410f67913fd244db9b4f5ad3
 
---===============1245441546694690701==--
+18bff59ba2a7c736fa1bba1ea63d84f0756afa75 6953026f21092199a59f2c641a880b1c4025f932 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAiycgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VusP/A/hXYiwx2T09TnybV6a
+Q39bbsvzZXefm/JoMLwNOJdwauVF7zA6jH+bv7RSk65UqIFdRcm1QNtS3RctYzR8
+sO3iSvTxBSudc+YaLDYCwsoTFnyAqQAwZt6vojwRtt+W4eDRh10+ryNuot3fGynA
+BLNMzLPKRdfI+WD2Mf7fxDRjkZ/Ihsgih3sLgPst2QUv2KXvXPLUyQOF8xOYqbl3
+6cqXpZy+UKzIMWtnUyrwI0vU3UezhRq9gX3lIx9fSBr5CSstqMSxT2kvnay9O3HH
+v9pgQBAqYnp/TuuLMsIPllWasbDfTn/4Hq4x5F0B2K/rbxPL7N5TJe1zOkNnPWhJ
+aKll2G9XK3/sxJCAe36RKT2Pfeel27ZldkOiAAIMuGO2+ASjgelvrqDXJuhM6fFF
+J9W5OeY278nOLLq83lPL2IlIKCThXxgsy3ZHIgQoemXWLXHWzOYm5Ih8Nwj0H4Oz
+jvfaVOj20Ii22K1pnuDRMjbv6XG3vaXdJ1dzNoBYzIeKyinYrWkuAhzJjrPciAGu
+qnqVJy/k2AHokfgNlayfdZBW+g1ZMjjVr65+OaGO65e0cr/+jwvQaTtnNcbV/LOS
+O7dfuq5AO4Hwh/GYXthI8vBPfvNR6TkGYE4W1mdSldvGLNK0znY+m0CSWq6xWFJD
+YTjrQnI38M97lqwIfxa8WMXE
+=uPmc
+-----END PGP SIGNATURE-----
+
+--===============6496025571433065003==--
