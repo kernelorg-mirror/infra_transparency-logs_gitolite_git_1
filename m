@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Wed, 10 Feb 2021 03:58:51 -0000
-Message-Id: <161292953147.30981.6858281306254066442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Wed, 10 Feb 2021 05:30:59 -0000
+Message-Id: <161293505925.22307.7377750604233384942@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/fixes
-    old: 24321ac668e452a4942598533d267805f291fdc9
-    new: 8c511eff1827239f24ded212b1bcda7ca5b16203
+  - ref: refs/heads/main
+    old: f527c867a8c6db6d787a0fc30c00415d9c59131e
+    new: 9d2279e7e6ee937d7c47250720c92dd58fa1aa68
     log: |
-         8c511eff1827239f24ded212b1bcda7ca5b16203 powerpc/kuap: Allow kernel thread to access userspace after kthread_use_mm
+         9d2279e7e6ee937d7c47250720c92dd58fa1aa68 checks: Change node-name check to match devicetree spec
+         
+  - ref: refs/heads/master
+    old: f527c867a8c6db6d787a0fc30c00415d9c59131e
+    new: 9d2279e7e6ee937d7c47250720c92dd58fa1aa68
+    log: |
+         9d2279e7e6ee937d7c47250720c92dd58fa1aa68 checks: Change node-name check to match devicetree spec
          
