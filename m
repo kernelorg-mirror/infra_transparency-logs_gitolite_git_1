@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Wed, 10 Feb 2021 14:01:31 -0000
-Message-Id: <161296569107.23025.11395269270625605616@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7304379359056793098=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 10 Feb 2021 14:06:53 -0000
+Message-Id: <161296601356.29361.13907422433018622597@gitolite.kernel.org>
+
+--===============7304379359056793098==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: luca
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pending
-    old: 3ce882473ec4321c8b14ea30f36bfeaa18335413
-    new: 835db8987b8a0266ead5934bf4f16a58fc42b2c8
+  - ref: refs/heads/master
+    old: 5caa2f046472a17295f1f535a319c71d9030b527
+    new: 4d0d74105fc8d74ce0316b802c2e627f614b1814
     log: |
-         2cea55a09bc7a479c51ffce0e9058d706fe8f7ee iwlwifi: mvm: add RFI-M support
-         242bfe3689818ddcb153f15b1584bcb908dddad1 iwlwifi: acpi: add support for DSM RFI
-         c03cc5db67c1872cb4195381f3ed27c7ef6286c4 iwlwifi: mvm: register to mac80211 last
-         a92ee491863d1f7b26db98fa381097ad8263fa26 iwlwifi: mvm: simplify iwl_mvm_dbgfs_register
-         431f31a86ea0bd6f8813c42261f6a9396e124db6 iwlwifi: mvm: isolate the get nvm flow
-         9b8da84086926a3a6527feee05e471d975bc27de iwlwifi: mvm: Support SCAN_CFG_CMD version 5
-         835db8987b8a0266ead5934bf4f16a58fc42b2c8 iwlwifi: mvm: don't check if CSA event is running before removing
+         4d0d74105fc8d74ce0316b802c2e627f614b1814 4.9-stable patches
          
+
+--===============7304379359056793098==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612966009 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1612966007-e5d8b909050e633088bd81e8dfb1a311b838f7b4
+
+5caa2f046472a17295f1f535a319c71d9030b527 4d0d74105fc8d74ce0316b802c2e627f614b1814 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAj6HkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RXcP/10xsRS4Pk36X3nKgHYk
+gtWhGq8IlUjbzlxrgz/SfgH1aJY0uSjCukB/7/C9ntoCjLhadBAr5wOZKVY44QuH
+6p3XhLZ/Gb5iQUsc4YLpJzkNc4oO/GSUo9d5gyRTI+ZmKyV5cS1Tqr98rHdCXcLf
+/dLs6sbmMBL02rQiz0zRbh+CyIgupZUIT4CXFaYoasJE4KBx3ULkDzN2d+nMWDqI
+9Q9TXK/XHPMZaRsPxpTM/nmfkjMVL/WOZGUATXtPQK9E2Z//9j3XUDivCUl2TiA2
+nSExj+JwpGjsky/ENJICD9kpB0QL9W7KsT9716kgWYtNuX+uk79YXTmyv7Gy8Ctw
+YFmLcqFhlStYcALecRM0x3Wr2T9HuqmBdDg0daSy99gFciMYOw1YyBTK5QPcLMUA
+OYF249IcsXeoZVPTkTFz9ZzhxWcDxnqFrm98Vgat6rxsEN3r0mzOYqTKPa1tPxcY
+KD1oFcwDAjyxkcJA3frgfNw/HeCzVtEl6Fh5Z7SEyeSvM91Li7meEE7PQfWk0xxz
+sIyd81Am4QdF7NafYgcdY6b1yJ1t3bD3VS1EZj7mlQ0G8LaqrkTKrcR5GtSDNQKn
+dyeJP9TruxIvm92BroqbbQz9k4ERFMdriOhq4irDBWgbOv0EKyZncg4Ke7q4YIop
+KTUw80qtzqYKnlQjfkCzx+ht
+=ELBG
+-----END PGP SIGNATURE-----
+
+--===============7304379359056793098==--
