@@ -1,64 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============4142199419066878265=="
+Content-Type: multipart/mixed; boundary="===============5849282562201026895=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 10 Feb 2021 09:40:12 -0000
-Message-Id: <161295001221.25554.7175861169776531071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 10 Feb 2021 09:48:13 -0000
+Message-Id: <161295049387.29615.1980830627137052981@gitolite.kernel.org>
 
---===============4142199419066878265==
+--===============5849282562201026895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: db4e8de1935b0202960e9ebb88ab93e8bd1e66b1
-    new: 8e94114a40f2c58637bf99d2fb8f25ddfe497ce2
-    log: |
-         39961bd6b70e5a5d7c4b5483ad8e1db6b5765c60 phy: rockchip-emmc: emmc_phy_init() always return 0
-         aaf316de3bba4b152a1212e5581a57938a57b4f4 phy: cpcap-usb: remove unneeded conversion to bool
-         88d9f40c4b715aa8bf8d08a5188e032e9426219d devicetree: phy: rockchip-emmc optional add vendor prefix
-         c188365402f65fbc1d1561aeaf4a20f09b0b4f22 phy: rockchip: emmc, add vendor prefix to dts properties
-         36acd5e24e3000691fb8d1ee31cf959cb1582d35 phy: lantiq: rcu-usb2: wait after clock enable
-         6b46e60a6943d629d69924be3169d8f214624ab2 phy: USB_LGM_PHY should depend on X86
-         25e3ee590f62772f6016a5ec1a37367a1813e198 phy: phy-brcm-sata: remove unneeded semicolon
-         9a8b9434c60f40e4d2603c822a68af6a9ca710df phy: mediatek: Add missing MODULE_DEVICE_TABLE()
-         8e94114a40f2c58637bf99d2fb8f25ddfe497ce2 Merge tag 'phy-fixes2-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into char-misc-next
-         
+  - ref: refs/heads/stable/v2.36
+    old: 76bb9b30cfcf54b59591a57a3d2a747e514469b2
+    new: fd5ed9a4f5bc371794138528c56ae8053863741c
+    log: revlist-76bb9b30cfcf-fd5ed9a4f5bc.txt
 
---===============4142199419066878265==
+--===============5849282562201026895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-76bb9b30cfcf-fd5ed9a4f5bc.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612950002 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1612950001-c6a70d9ddf367c6c78521acde48a150a03d73c66
+9f704636d0ff547c809c0fe9cf301507359fbe44 lib/procutils: add proc_is_procfs helper.
+15966a2cc4cb02bded8b54cfff97987f9b29484c lib/caputils: add fall back for last cap using prctl.
+db59b66c70fcf290196eeada26025567c9087f66 lib/procutils: improve proc_is_procfs(), add test
+8bf68f78d8a3c470e5a326989aa3e78385e1e79b setpriv: allow using [-+]all for capabilities.
+5e0dc74924354c5251e138cd8d69345aa3ab08ca build-sys: do not build plymouth-ctrl.c w/ disabled plymouth
+262ff9bf04e862dcfca8f3d0cb2c6bd2edaff327 hwclock: do not assume __NR_settimeofday_time32
+0bfa747f0176af4b94a4e1f6f434ddfcd9ce5099 umount: ignore --no-canonicalize,-c for non-root users
+b24fa471728bf671017588e28da63989e3eccc75 lib/signames: change license to public domain
+bef24ecfb990ea8ace96be0a296ec2dd32e85270 setpriv: small clean-up.
+0e2da9740fa09ca752d9646c4aea096dfc06a6b1 libblkid: drbdmanage: use blkid_probe_strncpy_uuid instead of blkid_probe_set_id_label
+a47273628479324ad38d3e3e3ee9ad1f118b3869 lslogins: call close() for usable FD [coverity scan]
+b826a90744ba1fa2d5fe6eec690c355483d6d447 losetup: fix wrong printf() format specifier for ino_t data type
+a9f098231167ddf52797b8b210b6cb96878827f2 lsblk: read SCSI_IDENT_SERIAL also from udev
+58492a2a73ffb3e14767ce75298792530e11691b configure: test -a|o is not POSIX
+3cc000096b4559ded4f550dcc3eaf68337346e3c tests: add checksum for cramfs/mkfs for LE:16384 (ia64)
+ec3a4a3960f05a53910d1cb956210c3fba3f3d36 libfdisk: ignore 33553920 byte optimal I/O size
+607c7402f8bd7788462ece8263b219bbf15e4892 Show the 'r' option in the help menu
+20f7fd6c26c2f4cdcc9fee24de89929be59cf342 fstab.5: NTFS and FAT volume IDs use upper case
+a5cc6323c17f09b1e9f7888d77b57e6b7cadefb1 sys-utils: mount.8: fix a typo
+b471873c34f69a6247652aba6d2d7a232d7db3b8 libfdisk: (script) ignore empty values for start and size
+5affd1f92d2dd9150f7f5210d819db61965adae3 libblkid: make gfs2 prober more extendible
+547130444d893c284ab91d757b98b9435c5f3d01 lib/loopdev: make is_loopdev() more robust
+686efaa4a5c9b714b03a001188d64beafab0fed5 libmount: do not canonicalize ZFS source dataset
+c6ec9f8f514c93a64a2340164b1dc323616ee832 libmount: add vboxsf, virtiofs to pseudo filesystems
+25b8d1a25c0072d115bfc4e42ec6620bab6dad91 fsck.cramfs: fix fsck.cramfs crashes on blocksizes > 4K
+9a48cbd0044cf3ef196cacb7a59592a78391f896 su: use full tty path for PAM_TTY
+f40291fff8fe35ea3b8632e6a24ca17d760e1187 login: use full tty path for PAM_TTY
+0defafdd00a18f23ad4bb136e6e3d0c2d07979e5 libmount: fix /{etc,proc}/filesystems use
+4bd4dde7242c3bf160cefea2d89f6110f4fa34bf github: remove cifuzz from stable branch
+9a768132e5ef7f15c317b55985b650df3eb7226e script: fix compiler warnings [-Wmaybe-uninitialized]
+2c268ffe038d955de60ca1fdd6fc0fd4b18b1749 scriptlive: fix compiler warnings [-Wmaybe-uninitialized]
+546761ecf6f56125ccb8cbefa7d32126d95c8151 hwclock: fix compiler warnings [-Wmaybe-uninitialized]
+91d8a3f960bf19547630ef2a5b307244f84b21ce blkdiscard: fix compiler warnings [-Wmaybe-uninitialized]
+fd5ed9a4f5bc371794138528c56ae8053863741c libmount: (py) do not use pointer as an integer value
 
-db4e8de1935b0202960e9ebb88ab93e8bd1e66b1 8e94114a40f2c58637bf99d2fb8f25ddfe497ce2 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAjqfIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ynkQAIFS9z80lDHf97cEjfHI
-c9jobteoPvbLClv2rUgxKusOGViP1FHY/PkHUWyu2NQ9HSA32SSEDyk8/yZ1Y7E5
-HTg601xr1D1EBN4WXDjiLzGpWeAE9hDzSmQhW6y2EUZTHSetiGYvyWP6NduCJkW0
-Kl9YHZfNwcojVGQzfK/D9SSZsmQKpXVXYQKx5WjLuh4N6vsP1VGjddkjNwWP/5UB
-2uZd+HsSYwyGxkam+YqtJDtFb9UYn7eFAwk7xO9TE3aU9Bme6d1lAV4QwurG2mE/
-ktceWujFAu3cdHCAG+Sc4A4QryjFX64rMMVE5rp8/lYngI/K1FO+4bDy9PLRG0Qi
-Hlj4tFxB56Q+LiRxxyp88pnyHqzO9tm9AT7HC/enXojlFzvZ460ZPkmz26zamVgy
-s1tLhIbkpXNsz3cr6wEPzzM45PhKXSFlrvpMqsTazlB/8dG92tQReNoixgt4PDQp
-GTgL8RUf6KR6aMzy/PNGP98C2SjnOcEybK8xwLbt4T+zPWZZHdjAlctCRiZmNpX7
-pmmOoy1N2NhSQUzRRnnac2p4wBJ5/VvnmyJTg24Z/wvbi3yIokHt87Wd8tHv5kxq
-lUgTNbhvD619y+BWASHcY269EyCASDygqnbFy8yTp3UnM0jLJEgzHWwq9nRxq7wR
-gnpB4N/sgjTFXUZNQaCQdFaI
-=bGU0
------END PGP SIGNATURE-----
-
---===============4142199419066878265==--
+--===============5849282562201026895==--
