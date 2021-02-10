@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
 Date: Wed, 10 Feb 2021 13:47:37 -0000
-Message-Id: <161296485718.13212.10260200111889366136@gitolite.kernel.org>
+Message-Id: <161296485767.13237.17830209865903129510@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/perf/core
-    old: 32451614da2a9cf4296f90d3606ac77814fb519d
-    new: 838342a6d6b7ecc475dc052d4a405c4ffb3ad1b5
+  - ref: refs/heads/gpio/for-current
+    old: 97c6e28d388a5000d780d2a63c32f422827f5aa3
+    new: 28dc10eb77a2db7681b08e3b109764bbe469e347
     log: |
-         b3c3361fe325074d4144c29d46daae4fc5a268d5 perf/x86/kvm: Add Cascade Lake Xeon steppings to isolation_ucodes[]
-         ffb20c2e52e8709b5fc9951e8863e31efb1f2cba perf/x86/rapl: Add msr mask support
-         b6f78d3fba7f605f673185d7292d84af7576fdc1 perf/x86/rapl: Only check lower 32bits for RAPL energy counters
-         838342a6d6b7ecc475dc052d4a405c4ffb3ad1b5 perf/x86/rapl: Fix psys-energy event on Intel SPR platform
+         8b81a7ab8055d01d827ef66374b126eeac3bd108 gpio: ep93xx: fix BUG_ON port F usage
+         28dc10eb77a2db7681b08e3b109764bbe469e347 gpio: ep93xx: Fix single irqchip with multi gpiochips
          
