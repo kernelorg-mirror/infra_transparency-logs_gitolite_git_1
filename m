@@ -1,42 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2613547917028487103=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Wed, 10 Feb 2021 01:34:13 -0000
-Message-Id: <161292085375.9667.15905634978405425824@gitolite.kernel.org>
-
---===============2613547917028487103==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/luto/linux
+Date: Wed, 10 Feb 2021 02:28:48 -0000
+Message-Id: <161292412847.9744.281447556877873467@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/luto/linux
+user: luto
 changes:
-  - ref: refs/heads/ftrace/core
-    old: 4b9091e1c1948dea3b0b097496f308ede897d665
-    new: e0cb42dce764a6ad7783cb6a34e409177faa7539
-    log: revlist-4b9091e1c194-e0cb42dce764.txt
-
---===============2613547917028487103==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b9091e1c194-e0cb42dce764.txt
-
-2d396cb3b12641adcde91104a7c89994f2e876a6 tracing: Do not create "enable" or "filter" files for ftrace event subsystem
-1746fd4416ed5510fe9fdd6a93e49a436187b680 tracepoints: Remove unnecessary "data_args" macro parameter
-d9a1be1be331fc857d3fe29f86c3a305950b35a9 tracepoints: Do not punish non static call users
-7211f0a25781ace5f79b272318b4c60b5dcfd413 tracepoints: Code clean up
-a1320e0c2fc834264fa2125ef5c40670dbb5b736 ftrace: Remove unused ftrace_force_update()
-33b1d14668859626bf96958e38042b0ed8a22a68 kprobes: Warn if the kprobe is reregistered
-d262271d04830e4b5009f4a5cc64934d86b49832 tracing/dynevent: Delegate parsing to create function
-c9e759b1e8456a460f258fcfe9682003fcf03938 tracing: Rework synthetic event command parsing
-8d3e8165232322eb32b1404f97690d05fdfd94ef tracing: Update synth command errors
-8b5ab6bd0b293408ed8c9450831f879ce9903ea2 tracing: Add a backward-compatibility check for synthetic event creation
-b5e7014fe1c4926dc2093b6c30bd332b6f447cf5 selftests/ftrace: Update synthetic event syntax errors
-e0cb42dce764a6ad7783cb6a34e409177faa7539 selftests/ftrace: Add '!event' synthetic event syntax check
-
---===============2613547917028487103==--
+  - ref: refs/heads/x86/fault
+    old: eefc5d2176680683703cf4c056949054da2d5f53
+    new: 8d949fdd79c88e1b37d838b992a86b3bee78cd2c
+    log: |
+         ab8719c7afb8bd501c4eee0e36493150fbbe5f6a x86/fault: Improve kernel-executing-user-memory handling
+         8969c688ee663e99901cf4b0383bc6662ce79707 x86/fault: Skip erratum #93 workaround on new CPUs
+         450f8d8eabafb83a5df349108c8e5ea83a2f939d x86/fault: Split the OOPS code out from no_context()
+         ae0d08c0bc390d354f633319cc1b5c6ceac7ed11 x86/fault: Bypass no_context() for implicit kernel faults from usermode
+         e6b30a3bda4d8bbc5e01105354d3ff4097fa586c x86/fault: Rename no_context() to kernelmode_fixup_or_oops()
+         e37a7cdc19214e1323310976789d3279bf1e69a9 x86/fault: Don't look for extable entries for SMEP violations
+         9448e886003ece5119ba4064214a262dd9b0b240 x86/fault: Don't run fixups for SMAP violations
+         8d949fdd79c88e1b37d838b992a86b3bee78cd2c x86/fault, x86/efi: Fix and rename efi_recover_from_page_fault()
+         
