@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 10 Feb 2021 13:31:53 -0000
-Message-Id: <161296391347.2924.8022211891896176582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 10 Feb 2021 13:46:51 -0000
+Message-Id: <161296481170.12558.2745570936600570701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/tags/keys-cve-2020-26541
-    old: 0000000000000000000000000000000000000000
-    new: 20cd2c5ae96eeebc78c39fff0cefe01f583a6196
-  - ref: refs/tags/keys-misc-20210126
-    old: 0000000000000000000000000000000000000000
-    new: 9a15571a5597d5e20ed41c655d28b0f8338f9d65
+  - ref: refs/heads/objtool/core
+    old: 9077c016a39c78054f03e0354ad8409b47af68dc
+    new: 3452bd27ab6699fb06c53a4a8bcec300b05074ea
+    log: |
+         beff204ed63e51a9042a4f3b5d3fff2b3779bca9 x86/unwind/orc: Change REG_SP_INDIRECT
+         52f6e0b66583fe118b1dfcb67ccf23c0dbe34fbf objtool,x86: Additionally decode: mov %rsp, (%reg)
+         3452bd27ab6699fb06c53a4a8bcec300b05074ea objtool: Support stack-swizzle
+         
