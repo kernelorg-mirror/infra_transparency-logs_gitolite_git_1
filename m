@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Wed, 10 Feb 2021 23:01:06 -0000
-Message-Id: <161299806658.23173.11323588835245597680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Wed, 10 Feb 2021 23:01:42 -0000
+Message-Id: <161299810258.23396.3420351678571573230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 9cadc32a52699a71c00279b1465230b7703bed5f
-    new: db36a61d25bfa7290cfd0744ec3585a5ed56155d
+  - ref: refs/heads/pci/misc
+    old: e8e9aababe60a12928172b5f018d15de3c2cdf31
+    new: 9a1471222189bdab467db0a0043c66b95142d5a5
     log: |
-         db36a61d25bfa7290cfd0744ec3585a5ed56155d trace-cmd: Fix last_timestamp logic to handle multiple files
+         9a1471222189bdab467db0a0043c66b95142d5a5 PCI: Remove WARN_ON(in_interrupt())
          
