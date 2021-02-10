@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Wed, 10 Feb 2021 15:09:29 -0000
-Message-Id: <161296976977.4744.5593461623472086177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Wed, 10 Feb 2021 15:15:24 -0000
+Message-Id: <161297012439.10331.4511023882383542279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: luca
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/tags/iwlwifi-next-sent-for-review-2021-02-10
+  - ref: refs/heads/ch/for-jason
     old: 0000000000000000000000000000000000000000
-    new: bab0e65c49091488b84de1c875eb70dd5f9eff31
-  - ref: refs/tags/iwlwifi-next-sent-for-review-2021-02-10-part2
-    old: 0000000000000000000000000000000000000000
-    new: 7ce41ca918840f6ab88885c296a1755e944310ab
+    new: 4ffadc1e0c589f9bcfb4a721f5625914ef2d496d
