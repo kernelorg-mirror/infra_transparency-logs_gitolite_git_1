@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Wed, 10 Feb 2021 16:19:01 -0000
-Message-Id: <161297394190.2541.3701003196001095502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 10 Feb 2021 16:22:46 -0000
+Message-Id: <161297416666.4986.686647146387835850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/elants-enum-overflow
-    old: 0000000000000000000000000000000000000000
-    new: 076e0e0471faf811c736b456df8319d329ae544b
+  - ref: refs/heads/stable/v2.36
+    old: 65d9baa10feaaa7752601c5846bdc2de70fe8a83
+    new: 1656645e82824495b7ae814f0e961d0608f11d97
+    log: |
+         1656645e82824495b7ae814f0e961d0608f11d97 rfkill: stop execution when rfkill device cannot be opened
+         
