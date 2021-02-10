@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8635287659577881898=="
+Content-Type: multipart/mixed; boundary="===============6843295983901369493=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Wed, 10 Feb 2021 21:34:14 -0000
-Message-Id: <161299285471.663.6906483114313768394@gitolite.kernel.org>
+Date: Wed, 10 Feb 2021 21:35:46 -0000
+Message-Id: <161299294695.2633.16359952935722322733@gitolite.kernel.org>
 
---===============8635287659577881898==
+--===============6843295983901369493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,32 @@ repo: pub/scm/linux/kernel/git/mst/vhost
 user: mst
 changes:
   - ref: refs/heads/linux-next
-    old: 590874fffa4e0bf4baa1b67c41df44d3b0d8acfe
-    new: 282926e85000f0956fa95c591242dc20ea48276b
-    log: revlist-590874fffa4e-282926e85000.txt
+    old: 282926e85000f0956fa95c591242dc20ea48276b
+    new: bd4ff6766f479d29f1686c22d2bb2a3b1b4dd22d
+    log: revlist-282926e85000-bd4ff6766f47.txt
   - ref: refs/heads/vhost
-    old: 590874fffa4e0bf4baa1b67c41df44d3b0d8acfe
-    new: 282926e85000f0956fa95c591242dc20ea48276b
-    log: revlist-590874fffa4e-282926e85000.txt
+    old: 282926e85000f0956fa95c591242dc20ea48276b
+    new: bd4ff6766f479d29f1686c22d2bb2a3b1b4dd22d
+    log: revlist-282926e85000-bd4ff6766f47.txt
 
---===============8635287659577881898==
+--===============6843295983901369493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-590874fffa4e-282926e85000.txt
+Content-Disposition: attachment; filename=revlist-282926e85000-bd4ff6766f47.txt
 
-a21ca58998ed457a28c5830b9e47a99bc37f173a vdpa/mlx5: fix param validation in mlx5_vdpa_get_config()
-29252a4b50e4144b7f227b3e321814fa96d83cee ack! vdpa/mlx5: fix param validation in mlx5_vdpa_get_config()
-7128dc7183bf208e43d7a12769559054cfc65a2d ack! vdpa/mlx5: fix param validation in mlx5_vdpa_get_config()
-90c594a2ff8346ba2fda03a00723b3397173ac3c virtio_mmio: fix one typo
-4770a52fdfb24810264789a1134294a3cd64e9b9 virtio-input: add multi-touch support
-7a321661923913b32d9d53065cd281e3708c2a50 ack! virtio-input: add multi-touch support
-cf054d1098843a10c75332a4eca81f70a2e8c054 vpda: correctly size vdpa_nl_policy
-be1f2f84de9087e1e41ed475d4e2bae0e190775b uapi: virtio_ids: add a sound device type ID from OASIS spec
-64b0c5b8c697afdeb394f9f8154d0ebb8873411d ALSA: virtio: add virtio sound driver
-2b710705b4df49f85cb43a97693f07281d0ced54 ALSA: virtio: handling control messages
-cde4180d9db9ccc4c1b92db64bfabfa6cc91a5ad ALSA: virtio: build PCM devices and substream hardware descriptors
-c976a03ee4e7e24c663b6c2a066fb65b602a43fa ALSA: virtio: handling control and I/O messages for the PCM device
-9141559a73894c0e9ec4101899da17bf8e9f6383 ALSA: virtio: PCM substream operators
-0fc1542e76a28393f61c3f671582268e096d7cb1 ALSA: virtio: introduce jack support
-1afed23f6bbf94f8a96861e364de64b9dd15eaf6 ALSA: virtio: introduce PCM channel map support
-282926e85000f0956fa95c591242dc20ea48276b ALSA: virtio: introduce device suspend/resume support
+dd0734a52ac08f9dde86e78d7de92a62971d472a vdpa/mlx5: fix param validation in mlx5_vdpa_get_config()
+960ee1a4b38fb9a927d8fdfd2d675595d0a01582 virtio_mmio: fix one typo
+79cb4c72c8a91027c7b1eda49855d87c9b718c97 virtio-input: add multi-touch support
+26cc831b8a0c37152420071f00f14059078f0ded vpda: correctly size vdpa_nl_policy
+f2b5b4cb420e8eab0860f64bca4915741e81298b uapi: virtio_ids: add a sound device type ID from OASIS spec
+af2c00bf06691327ead1159f0ecb55cfe0f480f0 ALSA: virtio: add virtio sound driver
+eec5c215788286bc5461153b28c32cf75433ee9c ALSA: virtio: handling control messages
+55ab6828ef9338c3c5aa99472db713cd1e3b4858 ALSA: virtio: build PCM devices and substream hardware descriptors
+6caf033d0888967d4ce3b759fba75a56089856d1 ALSA: virtio: handling control and I/O messages for the PCM device
+4bec79242a6c9b54b9541de467a4bf231c0ad68e ALSA: virtio: PCM substream operators
+4cf27dfcc72da53eb1fb6ea7fb405b33b28a7136 ALSA: virtio: introduce jack support
+bd80b5294a0d7da5debd5886cab55a7b96993992 ALSA: virtio: introduce PCM channel map support
+bd4ff6766f479d29f1686c22d2bb2a3b1b4dd22d ALSA: virtio: introduce device suspend/resume support
 
---===============8635287659577881898==--
+--===============6843295983901369493==--
