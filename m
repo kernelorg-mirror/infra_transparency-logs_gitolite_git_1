@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 10 Feb 2021 13:53:09 -0000
-Message-Id: <161296518903.17829.11938601876365089544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
+Date: Wed, 10 Feb 2021 13:59:08 -0000
+Message-Id: <161296554806.20845.5637791037763734695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/colyli/linux-bcache
+user: colyli
 changes:
-  - ref: refs/heads/perf/core
-    old: 32451614da2a9cf4296f90d3606ac77814fb519d
-    new: 838342a6d6b7ecc475dc052d4a405c4ffb3ad1b5
+  - ref: refs/heads/for-next
+    old: 0bfc540a587d71a8b20c80036620b93337820f3d
+    new: 4abec8296a44a76ba4c59ed09d37a1f13604e57f
     log: |
-         b3c3361fe325074d4144c29d46daae4fc5a268d5 perf/x86/kvm: Add Cascade Lake Xeon steppings to isolation_ucodes[]
-         ffb20c2e52e8709b5fc9951e8863e31efb1f2cba perf/x86/rapl: Add msr mask support
-         b6f78d3fba7f605f673185d7292d84af7576fdc1 perf/x86/rapl: Only check lower 32bits for RAPL energy counters
-         838342a6d6b7ecc475dc052d4a405c4ffb3ad1b5 perf/x86/rapl: Fix psys-energy event on Intel SPR platform
+         92745d0b0079b9088523088bd5c0ad09b7ddd497 bcache: correct return value in register_nvdimm_meta()
+         72b9f74833cf46d6093aa3ad611e3fd30987054b bcache: use div_u64() in init_owner_info()
+         ac9cb260b0c300cfc09b201ea1d0368c109a2734 bcache: unify code comments style in nvm-pages.c
+         4abec8296a44a76ba4c59ed09d37a1f13604e57f bcache: fix a typo in nvme-pages.c
          
