@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2699956819503876473=="
+Content-Type: multipart/mixed; boundary="===============2002886542567559685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 10 Feb 2021 14:29:34 -0000
-Message-Id: <161296737428.12187.14631859437154512427@gitolite.kernel.org>
+Date: Wed, 10 Feb 2021 14:31:18 -0000
+Message-Id: <161296747825.14290.6030067164482950387@gitolite.kernel.org>
 
---===============2699956819503876473==
+--===============2002886542567559685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,66 +16,71 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 04a9f8041bb3300081ee7c8a0671a446cc8a393c
-    new: 48e293b065a8175957ab2d3bf5e5fa8dae77a107
+    old: 48e293b065a8175957ab2d3bf5e5fa8dae77a107
+    new: b8348ef6719260ae0d4b0b99d1f22e4acf559d85
     log: |
-         48e293b065a8175957ab2d3bf5e5fa8dae77a107 fgraph: Initialize tracing_graph_pause at task creation
+         6dace25944c7924a02f91ef5e6d2ef44a00c7e5c fgraph: Initialize tracing_graph_pause at task creation
+         2ab19ddffce6a077536e679d1f938c59d2c4b09d remoteproc: qcom_q6v5_mss: Validate modem blob firmware size before load
+         b8348ef6719260ae0d4b0b99d1f22e4acf559d85 remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
          
   - ref: refs/heads/queue/4.19
-    old: 6fb95842ccda4517c9244752f5498decfbcccad0
-    new: 064c7120b1f3c96903a26dd2eff63f340f47c709
+    old: 064c7120b1f3c96903a26dd2eff63f340f47c709
+    new: e35748e6e84adee9e232e134e637ccef5e5f9c7e
     log: |
-         2b12bcac4f0912791e18bf53e9887ec2df52d033 tracing/kprobe: Fix to support kretprobe events on unloaded modules
-         039077372e811b58b6bdd55e5307fb897e4b0b5f block: fix NULL pointer dereference in register_disk
-         064c7120b1f3c96903a26dd2eff63f340f47c709 fgraph: Initialize tracing_graph_pause at task creation
+         93997727c7117d1cfe923018932a19776dbc65fb tracing/kprobe: Fix to support kretprobe events on unloaded modules
+         34782c05ed56e031ba81bfb6cfa076e0d5c90120 block: fix NULL pointer dereference in register_disk
+         bc83ab7e987ba9d844c15e17017fb0d45e59ab46 fgraph: Initialize tracing_graph_pause at task creation
+         ca130a9258fa5cf62fd2e90a4a8289b08664c934 remoteproc: qcom_q6v5_mss: Validate modem blob firmware size before load
+         e35748e6e84adee9e232e134e637ccef5e5f9c7e remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
          
   - ref: refs/heads/queue/4.4
-    old: 0995bd273514aa46803d32cd006c9824eef4e852
-    new: 53be5a2dbdb5ce20798c5060a41f88a6f47fef0a
+    old: 53be5a2dbdb5ce20798c5060a41f88a6f47fef0a
+    new: e24d33c17551955d24ec3848023945a3abf66c4a
     log: |
-         53be5a2dbdb5ce20798c5060a41f88a6f47fef0a fgraph: Initialize tracing_graph_pause at task creation
+         e24d33c17551955d24ec3848023945a3abf66c4a fgraph: Initialize tracing_graph_pause at task creation
          
   - ref: refs/heads/queue/4.9
-    old: 256b8e046c00da6fc702f922440be44ab43fa189
-    new: fa63487702d61a776fbc4885c29e2b272334ad95
+    old: fa63487702d61a776fbc4885c29e2b272334ad95
+    new: 343972be0e1d61810a687ce0690edb076009e09d
     log: |
-         d5835765135aaa400f474f075a31da462aeaf455 mm: memcontrol: fix NULL pointer crash in test_clear_page_writeback()
-         d6f9b46f5bff2f9ec00a15e32be69b7a3d66a1d3 fgraph: Initialize tracing_graph_pause at task creation
-         fa63487702d61a776fbc4885c29e2b272334ad95 remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
+         f7842aec708b2254daf3950c3abe4af5688d0b92 mm: memcontrol: fix NULL pointer crash in test_clear_page_writeback()
+         01196c225166c7ef67fa3a8830e8050421c2081f fgraph: Initialize tracing_graph_pause at task creation
+         343972be0e1d61810a687ce0690edb076009e09d remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
          
   - ref: refs/heads/queue/5.10
-    old: a860360af441998086ec2579e3b0ab91b8f38679
-    new: 577359c139b2e2a5ff271ca8fcc2b73cd57d1965
-    log: revlist-a860360af441-577359c139b2.txt
+    old: 577359c139b2e2a5ff271ca8fcc2b73cd57d1965
+    new: 1b1b9dcb004170a24c3e1c215268f6558f348063
+    log: revlist-577359c139b2-1b1b9dcb0041.txt
   - ref: refs/heads/queue/5.4
-    old: a13d44bdbfa57ae6922856178e59e83a7496f42b
-    new: 2ed70e1f0a1f723b1a9a69f5b50fdd64ff551509
+    old: 2ed70e1f0a1f723b1a9a69f5b50fdd64ff551509
+    new: 5c086907ef22079878668a495fccc871b5bff243
     log: |
-         2ed70e1f0a1f723b1a9a69f5b50fdd64ff551509 tracing/kprobe: Fix to support kretprobe events on unloaded modules
+         5c086907ef22079878668a495fccc871b5bff243 tracing/kprobe: Fix to support kretprobe events on unloaded modules
          
 
---===============2699956819503876473==
+--===============2002886542567559685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a860360af441-577359c139b2.txt
+Content-Disposition: attachment; filename=revlist-577359c139b2-1b1b9dcb0041.txt
 
-1c4daf236c76135cf4233a59c9a3f473db03e089 io_uring: simplify io_task_match()
-09bf5d42d8bb4065ad20809e8a028bc08647b1ba io_uring: add a {task,files} pair matching helper
-d3da1731a2c8c7f3351855499e3dc11899778171 io_uring: don't iterate io_uring_cancel_files()
-33196844656257ecbab44d248d9556656b885008 io_uring: pass files into kill timeouts/poll
-b6f9ed6a870413bfd32127bd121cd998f383cd94 io_uring: always batch cancel in *cancel_files()
-1866fed2ef1823912fc16186a1c87a25b8fdb09b io_uring: fix files cancellation
-756832258e397cf8f74476cd0676a47d0c3b413a io_uring: account io_uring internal files as REQ_F_INFLIGHT
-c28647bcdac98e5c1df67aab97bdfaae2efb0df1 io_uring: if we see flush on exit, cancel related tasks
-9f0081abf6b047e5eaab15c980d7eb3312df406b io_uring: fix __io_uring_files_cancel() with TASK_UNINTERRUPTIBLE
-7ef2831dbf8a6f4d27577702cb6256bf4b360bb5 io_uring: replace inflight_wait with tctx->wait
-8997a974df2cfbe06bb4861bbeb591cb861a44c1 io_uring: fix cancellation taking mutex while TASK_UNINTERRUPTIBLE
-1fc7b442959c9d014227a6f5aa5faff665ec1990 io_uring: fix flush cqring overflow list while TASK_INTERRUPTIBLE
-c1c2140e9e248a77b8377596b26060730505a0f5 io_uring: fix list corruption for splice file_get
-44e73c84ac3ae5e91972ebb15ab5897cb3e094c0 io_uring: fix sqo ownership false positive warning
-0a18cd6da810fb4a01e3c88a5523118e17387b62 io_uring: reinforce cancel on flush during exit
-c01c11e30f38ebfa81aa5f83040e9be4a1162797 io_uring: drop mm/files between task_work_submit
-577359c139b2e2a5ff271ca8fcc2b73cd57d1965 gpiolib: cdev: clear debounce period if line set to output
+cc4f1ba08cc54a22e2f41d19ba1717e2362c5574 io_uring: simplify io_task_match()
+0dd21838ce85db463fa6aa8f420f3444200789b5 io_uring: add a {task,files} pair matching helper
+6c0e10336e4e2696f426d8d4a214a1606a64540c io_uring: don't iterate io_uring_cancel_files()
+e8a5a3fe205b1c3aee7dfe8e974e8a2a6de92005 io_uring: pass files into kill timeouts/poll
+1b96e1dcd2aa8b7d80506dbf73e906e81de29439 io_uring: always batch cancel in *cancel_files()
+e975b60d349b28cd147b5761be458dd78a224b74 io_uring: fix files cancellation
+68ea80e36353bf0a8d5b1e8ebfb9503b34f312f7 io_uring: account io_uring internal files as REQ_F_INFLIGHT
+e472a609f001544f083ae3652fb81b8710e948dc io_uring: if we see flush on exit, cancel related tasks
+2c6fbb007f2d234a62a6de04f99b407ea66557d0 io_uring: fix __io_uring_files_cancel() with TASK_UNINTERRUPTIBLE
+7684b663f4e48f516f32c328a23f418c4fe91b84 io_uring: replace inflight_wait with tctx->wait
+b44298b1e027245be50ecddf3a8c43099b9d842e io_uring: fix cancellation taking mutex while TASK_UNINTERRUPTIBLE
+750f3b1de2a1beff2ab78ea17feaf2244cdafea0 io_uring: fix flush cqring overflow list while TASK_INTERRUPTIBLE
+4f919f0856895f8ef26e1e9278305cddf4b16f65 io_uring: fix list corruption for splice file_get
+ed342001aa2a7bf0f310fdb3d46fc953ff52c04f io_uring: fix sqo ownership false positive warning
+6dbeee8b6972c35f9e373f4bf5f6c05db26e39c4 io_uring: reinforce cancel on flush during exit
+56fe4d376842dbc634bf05b91856abc882f3247e io_uring: drop mm/files between task_work_submit
+bc7bda031a7753df090d1c3541c447d31fd131bb gpiolib: cdev: clear debounce period if line set to output
+1b1b9dcb004170a24c3e1c215268f6558f348063 powerpc/64/signal: Fix regression in __kernel_sigtramp_rt64() semantics
 
---===============2699956819503876473==--
+--===============2002886542567559685==--
