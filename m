@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8837100057982030502=="
+Content-Type: multipart/mixed; boundary="===============9028790365460248161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 10 Feb 2021 20:11:07 -0000
-Message-Id: <161298786798.16558.12070330430506927379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 10 Feb 2021 20:11:14 -0000
+Message-Id: <161298787492.16720.6777070099142532069@gitolite.kernel.org>
 
---===============8837100057982030502==
+--===============9028790365460248161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.11
+  - ref: refs/heads/asoc-5.11
     old: 9037c3bde65d339017ef41d81cb58069ffc321d4
     new: bd8036eb15263a720b8f846861c180b27d050a09
     log: |
          bd8036eb15263a720b8f846861c180b27d050a09 ASoC: SOF: sof-pci-dev: add missing Up-Extreme quirk
          
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: d40dac7ae8c0f213ac1da7896c35ddc2c58419ab
     new: b165457c5004c9363397d2e051be6fef56f35244
     log: revlist-d40dac7ae8c0-b165457c5004.txt
 
---===============8837100057982030502==
+--===============9028790365460248161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1612987815 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1612987865-c6dc2d316f607df1fd01fc9760f26cb1916f1e68
+pusher C3F436CA30F5D8EB 1612987822 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1612987872-922d391924ebd6c3a0703ec8f6c328430b870635
 
-9037c3bde65d339017ef41d81cb58069ffc321d4 bd8036eb15263a720b8f846861c180b27d050a09 refs/heads/for-5.11
-d40dac7ae8c0f213ac1da7896c35ddc2c58419ab b165457c5004c9363397d2e051be6fef56f35244 refs/heads/for-5.12
+9037c3bde65d339017ef41d81cb58069ffc321d4 bd8036eb15263a720b8f846861c180b27d050a09 refs/heads/asoc-5.11
+d40dac7ae8c0f213ac1da7896c35ddc2c58419ab b165457c5004c9363397d2e051be6fef56f35244 refs/heads/asoc-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAkPacACgkQJNaLcl1U
-h9Cj0wf/T8vVTUCrdeldACGAnEEMEk8jDNRdRy+P6z2TT2fKQDqCfCNLnAxRmyUB
-7X04b5JQ1BaXqqwhy0hxLHaxB14HYIJS0nH17epvoZ6pHjOIu/7vqWBggLYb2JNV
-ROGiBvS70wF2S8hXQLoclijYQOpKIzg8VLbRfMazNx4oSwXE8OJKLBCD6J2A2JOU
-Ygzs5AaPaUxBMgkb8/MNCTZJWXJStxbBDFrLOc8O7B7s9+Ac5aYH1xV+QVt77GRf
-i00dku2LNvUCYbwwMcwdafRyZLcfwa9nrXcPMi9LBWJ0ib5ry1g2aMb6M0VuxL1w
-lDlZotv61kTEP12Pn7MaiO2qQ4ArGQ==
-=wp1+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAkPa4ACgkQJNaLcl1U
+h9ByIQf8D5AqVlbSeDtKRPFddJNtHFQA6kaErYlrMb40/yKnTnKZBc4VaxRK5x+F
+GGVfSRqw+3SW8HBnk0LKG/A7Tgq9T2kRqxY9kEkkfNRB/xdE/sU0d8FPN/SmjzCp
+VQnsFzpiziONXWxxMY9MsWmvpOeGF5oOVFBTR+rWTXp4F81eMi5+Nqv5xbm6hs3c
+fWpAZpMImIwTVw6bnp0xtrVNWO3oP1WAZAwOYh06UljIFuF4SBDVAIIVR7TWrxLl
+KZynVwkTSWr11BRPkhzVEWghJrawu9Q43i8ANtizv/wlo10GBvI7OAnS6gLC2OUA
+hK3t5KBhe6yF1sEY7AVGoB8Acji3ZA==
+=I46y
 -----END PGP SIGNATURE-----
 
---===============8837100057982030502==
+--===============9028790365460248161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ b6eabd247db8bb2d013fb9a9451ecb04a44ee58f ASoC: soc-pcm: change error message to 
 4fc320da5dc6d9d650e9c80b6141299606035cf1 Merge series "ASoC: SOF: cleanups" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 b165457c5004c9363397d2e051be6fef56f35244 Merge series "ASoC: dapm/pins: handle component prefix" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 
---===============8837100057982030502==--
+--===============9028790365460248161==--
