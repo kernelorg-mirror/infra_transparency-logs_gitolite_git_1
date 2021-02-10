@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1596772713850081219=="
+Content-Type: multipart/mixed; boundary="===============4288822158245853251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 10 Feb 2021 17:41:39 -0000
-Message-Id: <161297889968.20733.16131195556149306215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 10 Feb 2021 17:51:00 -0000
+Message-Id: <161297946099.26123.6245862704086688977@gitolite.kernel.org>
 
---===============1596772713850081219==
+--===============4288822158245853251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/x86/mm
-    old: 167dcfc08b0b1f964ea95d410aa496fd78adf475
-    new: c46f52231e79af025e2c89e889d69ec20a4c024f
-    log: revlist-167dcfc08b0b-c46f52231e79.txt
+  - ref: refs/heads/staging-testing
+    old: 6953026f21092199a59f2c641a880b1c4025f932
+    new: 588007fb8ff8b09508dbfe39c0a8697b3cc2bfae
+    log: |
+         588007fb8ff8b09508dbfe39c0a8697b3cc2bfae staging: rtl8723bs: remove blank line from include/autoconf.h
+         
 
---===============1596772713850081219==
+--===============4288822158245853251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-167dcfc08b0b-c46f52231e79.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-35f1c89b0cce247bf0213df243ed902989b1dcda x86/fault: Fix AMD erratum #91 errata fixup for user code
-d24df8ecf9b6f81029f520ae7158a8670a28d70b x86/fault: Skip the AMD erratum #91 workaround on unaffected CPUs
-ec352711ceba890ea3a0c182c2d49c86c1a5e30e x86/fault: Fold mm_fault_error() into do_user_addr_fault()
-f42a40fd53fb5c77bae67d917d66078dbaa46bc2 x86/fault/32: Move is_f00f_bug() to do_kern_addr_fault()
-ef2544fb3f6457b79fc73cea39dafd67ee0f2824 x86/fault: Document the locking in the fault_signal_pending() path
-56e62cd28aaae2fcbec8af67b05843c47c6da170 x86/fault: Correct a few user vs kernel checks wrt WRUSS
-03c81ea3331658f613bb2913d33764a4e0410cbd x86/fault: Improve kernel-executing-user-memory handling
-2cc624b0a7e68ba8957b18600181f7d5b0f3e1b6 x86/fault: Split the OOPS code out from no_context()
-5042d40a264c8a508d58ed71e4c07b05175b3635 x86/fault: Bypass no_context() for implicit kernel faults from usermode
-6456a2a69ee16ad402f26d272d0b67ce1d25061f x86/fault: Rename no_context() to kernelmode_fixup_or_oops()
-66fcd98883816dba3b66da20b5fc86fa410638b5 x86/fault: Don't look for extable entries for SMEP violations
-ca247283781d754216395a41c5e8be8ec79a5f1c x86/fault: Don't run fixups for SMAP violations
-c46f52231e79af025e2c89e889d69ec20a4c024f x86/{fault,efi}: Fix and rename efi_recover_from_page_fault()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612979451 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1612979449-6ac89b219d7ebf38603cf4a893985a3016fb2d47
 
---===============1596772713850081219==--
+6953026f21092199a59f2c641a880b1c4025f932 588007fb8ff8b09508dbfe39c0a8697b3cc2bfae refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAkHPsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/OIP/0ETbE4sUGFQ2FopO9EF
+h1a5x2FohiuPn9/ZgJaFEE/2uWnp7H41XORCzhv3HUL/7LPL/ZAN6LsRDvJjfkXY
+58zXeubxEn1FjL5RGSnIz5tHqvp+OVdjDn1Aroa3u1eL4PDHojM9xbxvGYgGYaCQ
+Mg4C5yiTpbvMzCJsYTgQUAEjvz5Fg1qRh3iSEQZ4R3L5ieyF+kZzIQJNESDwNO62
+rzHQoyTeOGmYnzZzs6S9TU/NvZ36mhzkbBOQLjdCYzmBF38QhAMHs0odFRnJJSc7
+zoqJV3aeAEaccWpfSOETe0WEI+9YG6+H1pfRCoombL75Aj/7LWERso55Qjal660w
+T5GHDv4JkZ3L29B0KmVisiUSxHjotoLUxhez3LiI4cuf1Vz3RwHDNtKr7P3uNW3X
+guQaDha68PzdWnXKeL8xktt5oSvqnV5K/ulxEQlop8Movw0g43+TRf0T5ScJpzK7
+BqApmbJz4kI2dqCi6bMUk6ml9rzaTIIJN9fd1HR7hsP/nmzQ5sR3u5xPHLdfzoF0
+oGkzeLOofpL8QVJozZIsMVvrnN0An2IvM2Xp6AUVWCSFhjivgbbKu7yW+yvrc1dE
+LSW+jZj0XPGIOtDQfa9yEUJgBeH5jLOl686ZljMdyw6G9rA5d1k4++raNNp/2NMW
+xvLiH72ZJtl6U+BMLbF9upbi
+=Mth3
+-----END PGP SIGNATURE-----
+
+--===============4288822158245853251==--
