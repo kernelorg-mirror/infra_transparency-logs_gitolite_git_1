@@ -1,147 +1,175 @@
-Content-Type: multipart/mixed; boundary="===============6931900844117014707=="
+Content-Type: multipart/mixed; boundary="===============4375144975496750763=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 10 Feb 2021 16:37:07 -0000
-Message-Id: <161297502784.13270.14306776924270523736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Wed, 10 Feb 2021 16:38:28 -0000
+Message-Id: <161297510865.13818.292884324564211014@gitolite.kernel.org>
 
---===============6931900844117014707==
+--===============4375144975496750763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/dev-queue
-    old: 0d29e30fb970e3229b2cf44ec5353ecd9d5e1e11
-    new: bd96df32ba5cedce0fba9a79b6f776cfd7324115
-    log: revlist-0d29e30fb970-bd96df32ba5c.txt
+  - ref: refs/heads/queue/4.14
+    old: b8348ef6719260ae0d4b0b99d1f22e4acf559d85
+    new: 9ef7920ed2e266f64799e5c968877c8644a6a870
+    log: revlist-b8348ef67192-9ef7920ed2e2.txt
+  - ref: refs/heads/queue/4.19
+    old: e35748e6e84adee9e232e134e637ccef5e5f9c7e
+    new: 7f1a38c09c08c84b982803b2f9ce575fb0497ad6
+    log: revlist-e35748e6e84a-7f1a38c09c08.txt
+  - ref: refs/heads/queue/4.4
+    old: e24d33c17551955d24ec3848023945a3abf66c4a
+    new: fdf1032a6ada28305dcfd8c3f49c06c93bb6c361
+    log: |
+         c2c0e309bc19d0b73cdd48750f1b2c1948e7d299 fgraph: Initialize tracing_graph_pause at task creation
+         c72e679db7fda30a550dfa4cf13949ca34c064b6 af_key: relax availability checks for skb size calculation
+         8516a39defedcd7b21c430b9eef347a8ae36c136 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
+         c03d85e06d7dc606e2761bddee9483c1d9a4f7b3 iwlwifi: mvm: guard against device removal in reprobe
+         a0cc2dee09c3e43d37aef37b23c4194839ad7132 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
+         fdf1032a6ada28305dcfd8c3f49c06c93bb6c361 SUNRPC: Handle 0 length opaque XDR object data properly
+         
+  - ref: refs/heads/queue/4.9
+    old: 343972be0e1d61810a687ce0690edb076009e09d
+    new: aa8a4bd8e2a8b58a604cfcf974428a9662d915f9
+    log: |
+         e02acddbb55f72e313a431702ecc4d9745310582 mm: memcontrol: fix NULL pointer crash in test_clear_page_writeback()
+         b9997400fe850484df0f42caafa7909958857889 fgraph: Initialize tracing_graph_pause at task creation
+         48d486fa89bec2055f51cdebc5230193a0452876 remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
+         e698e4c900554a96b935e994f470f549fab4d1f0 af_key: relax availability checks for skb size calculation
+         c0960ce9b81e8bc65cce5fe6b6bed426a4da80a4 iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
+         399826e8e60a783a34dc31072c31143b5175c458 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
+         9ee04864ff8178ac8d7421f46a6ba2c07b7f2f97 iwlwifi: mvm: guard against device removal in reprobe
+         786dcc8ef0e2b94143d68bbb88b6eeeda04c6236 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
+         aa8a4bd8e2a8b58a604cfcf974428a9662d915f9 SUNRPC: Handle 0 length opaque XDR object data properly
+         
+  - ref: refs/heads/queue/5.10
+    old: 1b1b9dcb004170a24c3e1c215268f6558f348063
+    new: 03a18eb027aa1c17482deeead2bc1adf7d1bef6b
+    log: revlist-1b1b9dcb0041-03a18eb027aa.txt
+  - ref: refs/heads/queue/5.4
+    old: 5c086907ef22079878668a495fccc871b5bff243
+    new: c2b4efff4b7319fc48bbbe849672198f25358920
+    log: revlist-5c086907ef22-c2b4efff4b73.txt
 
---===============6931900844117014707==
+--===============4375144975496750763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d29e30fb970-bd96df32ba5c.txt
+Content-Disposition: attachment; filename=revlist-b8348ef67192-9ef7920ed2e2.txt
 
-18f976960bca0c32c5a072a2e003a99c156268bc xfrm: interface: enable TSO on xfrm interfaces
-0c87b1ac604518a0d3f527080c6883d5c2402fb4 net: Simplify the calculation of variables
-bf3da527bbc9f0a83a02f4ad3fb762eafdd63ba0 esp: Simplify the calculation of variables
-4ac7a6eecbec90c7f83d5ea6f0498d9fa9c62917 xfrm: Return the correct errno code
-382e0a6880e78e1ab7b5930f871f36c695d1d92a ice: log message when trusted VF goes in/out of promisc mode
-34295a3696fbd0d90ee7c62b3162ffdb112b3497 ice: implement new LLDP filter command
-c7a219048e459cf99c6fec0f7c1e42414e9e6202 ice: Remove xsk_buff_pool from VSI structure
-df006dd4b1dca8c486f73ae76fb77c06afae83f2 ice: Add initial support framework for LAG
-b126bd6bcd6710aa984104e979a5c930f44561b4 ice: create scheduler aggregator node config and move VSIs
-4f8a14976aa4b3304e83ff9b4e0a466a3131df3c ice: Use PSM clock frequency to calculate RL profiles
-1d9f7ca324a9b73bb50ed7df58e155d1c37e1b9a ice: fix writeback enable logic
-fc2d1165d4a424dd325ae1f45806565350a58013 ice: Refactor DCB related variables out of the ice_port_info struct
-7a63dae0fafba1fcecf44731545a06a7d7a8d339 ice: remove unnecessary casts
-fe6cd89050d9c21989fcd3cb7da2004cbf603cf6 ice: Fix trivial error message
-741106f7bd8d3b1c901fae7e4fd6c8921f79674c ice: Improve MSI-X fallback logic
-a851dfa8dfa72c1781667140ba1796597be27f3b Documentation: ice: update documentation
-c8a8ca3408dcd28461d9bc8bceaf981e639272de i40e: remove unnecessary memory writes of the next to clean pointer
-f12738b6ec063b1b63ff2232fd203d13a6ec2468 i40e: remove unnecessary cleaned_count updates
-d4178c31a5622ce972785848637f0910bc00561b i40e: remove the redundant buffer info updates
-f020fa1a79ff276ff6cc742c71004f2b4ec0b8c2 i40e: consolidate handling of XDP program actions
-613142b0bb8840016c7a41b3b681f6130cc49c86 i40e: Log error for oversized MTU on device
-f15008fbaa33bd2701ab173958c28feee4c65ca8 net: phy: drop explicit genphy_read_status() op
-1e2e61af199652a316d321b0a8f6b08e8dba0b08 net: phy: broadcom: remove BCM5482 1000Base-BX support
-8cf5d8cc3eae2a6324ff81aa5f2f6c2f52bc5cd0 Documentation: networking: ip-sysctl: Document src_valid_mark sysctl
-fc1a8db3d560f01e63eb9731ead2b0383349a386 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
-387d1c1819790aa8398c7cffab587f9a050a0d1a dt-bindings: net: document BCM4908 Ethernet controller
-4feffeadbcb2e5b11cbbf191a33c245b74a5837b net: broadcom: bcm4908enet: add BCM4908 controller driver
-898f8015ffe74118e7b461827451f2cc6e51035b net: extract napi poll functionality to __napi_poll()
-29863d41bb6e1d969c62fdb15b0961806942960e net: implement threaded-able napi poll loop support
-5fdd2f0e5c64846bf3066689b73fc3b8dddd1c74 net: add sysfs attribute to control napi threaded mode
-adbb4fb028452b1b0488a1a7b66ab856cdf20715 Merge branch 'implement-kthread-based-napi-poll'
-0256844d0f325c323baf947eaf6bb375d195de26 net: hns3: clean up some incorrect variable types in hclge_dbg_dump_tm_map()
-ae9e492a366433b97be414d2e90a2e24f8446abf net: hns3: remove redundant client_setup_tc handle
-9d2a1cea6997ecd4f05833dfffb9907ffaa41bf5 net: hns3: remove the shaper param magic number
-9393eb5034a040931120f9c6eed9bf0e78029192 net: hns3: clean up unnecessary parentheses in macro definitions
-c5aaf1761883bbc02a8a158a0bc7a5950ad8542b net: hns3: modify some unmacthed types print parameter
-6e7f109ee9d8ed94a8c403e4daf34e752602148b net: hns3: change hclge_parse_speed() param type
-cad8dfe82a9eb8d889cc550ceb8e61112376ae6f net: hns3: change hclge_query_bd_num() param type
-64749c9c38a9b7f64b83b6970b679f2fb7cd6387 net: hns3: remove redundant return value of hns3_uninit_all_ring()
-11ef971f5a6a35cf3bb4d67f0e1e38e0b6eb4f47 net: hns3: remove an unused parameter in hclge_vf_rate_param_check()
-7ceb40b8207ea4aefed96c6dd22625b93aa121f9 net: hns3: remove unused macro definition
-55ff3ed57b5031c3d48aa064333c35c6a547e3ee net: hns3: cleanup for endian issue for VF RSS
-3e566dacc9136ca67514bc347921186d00b0b9d6 Merge branch 'hns3-cleanups'
-74784ee0b935d674a1ae23d6f1403ba67cfe3b2a Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-de1db4a6ed6241e34cab0e5059d4b56f6bae39b9 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-29bf442dd4cabf467dc712a1c38e4ae5fe58b763 i40e/i40evf: cleanup i40e_update_nvm_checksum()
-ab1e2241833d7f8851bf43c0cb6556da6abd6818 igc: Add UDP segmentation offload support
-6317677ecc22465aec7b0eb84452d55bf69474bf ice: remove redundant assignment to pointer vsi
-732f0bf195390271ac5453e9352e50f1a2dc6245 ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
-c31148c115f1bfc5ed095604cfbc17f1e95cc56e ice: report correct max number of TCs
-b891e2b2f80d599f31cc7476e1318d1a818ffe06 i40e: Add flow director support for IPv6
-badf7b9597df603aa3937b46ce7d24e58643ac8c i40e: VLAN field for flow director
-7f4085e43008bd82148c7ec588d13569506da007 i40e: prepare flash string in a simpler way
-886749ee3c15f0e12d463e50b0fe5107f25cfdb1 ice: Fix memleak in ice_set_ringparam
-efa8c5e82ee5c62659b252a01c1bea1949c9def9 i40e: Add EEE status getting & setting implementation
-ea8e6812cfd18be7021edaca2e63a5d0347da608 i40e: Fix flow for IPv6 next header (extension header)
-3c2711170387bd50b69accf0ce9f7bb8fc39fe1d ice: report security revisions of flash modules via devlink info
-199522de0e0e0408066b83a265ff7cb870df8552 ice: add devlink parameters to read and write minimum security revision
-b9f04c39096935fcf818b86cf6c54280345ab4fa virtchnl: Use pad byte in virtchnl_ether_addr to specify MAC type
-be349ab306eff0ed4162135ba4f548f6eb895799 ice: Manage VF's MAC address for both legacy and new cases
-255fb2d50d4f5f42b3f95bdbb0ce5610392099b9 ice: Save VF's MAC across reboot
-d9e93bf32a8df85b28674e89175d24bbb2b95e92 ice: Set trusted VF as default VSI when setting allmulti on
-fb7d26048ab3b7e5254433c725c70ad20c35dff9 ice: Account for port VLAN in VF max packet size calculation
-15bc438d478383c1f1c399209fead3ff78beb512 ixgbe: don't propagate -ENODEV from ixgbe_mii_bus_init()
-8eec5432107d5ba83033986bf132ff37667f1c2b ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
-90e07c0fb63c2e6180cb1362fa9fb98eff261873 igc: reinit_locked() should be called with rtnl_lock
-49e2667e948028359df72d412a3e5fa366b0a56d e1000e: add rtnl_lock() to e1000_reset_task
-bb55b459ffe1d48f90b669e2559e143e0ae19842 i40e: Add hardware configuration for software based DCB
-f2632f01fa2717fc3a31d4ccf1132790485178ad i40e: Add init and default config of software based DCB
-1be38852663e90044c94fc3261db54a37e5db3b7 i40e: Add netlink callbacks support for software based DCB
-cfff2a0db82556557840c44a1c50d098f21e4009 i40e: Fix memory leak in i40e_probe
-ee17777cd286beb2c1a4b23675efb2bf7cb552ac ixgbe: Support external GBE SerDes PHY BCM54616s
-4ccb21a892b55f718a327f3fe9287fa1c43ccc53 i40e: remove the useless value assignment in i40e_clean_adminq_subtask
-605def1ccfa3e95aafbadd7c130956f6d0336e13 i40e: Add Rx errors aggregation
-d0f8725ce680a2cfc6262045c7319f373aa9e144 i40e: Add zero-initialization of AQ command structures
-beb4b371046387cc37821f3e6185e3b174ae1cfc ice: update the number of available RSS queues
-5713dd094271d5f6079ddd01498a4aa94430a9ae ice: Fix state bits on LLDP mode switch
-5d142a977a6f6041b714c22bc11b723d8368d8ec ice: Fix AF_XDP multi queue TX scaling issue
-c383255e7c17baeaeed95e338dabcb88485fcd62 ice: Optimize AF_XDP zero-copy TX completion path
-704cc3bc33800cf9af10b31820f781e908fadc54 ice: improve AF_XDP single socket performance
-07d52770c310cb798a5c729c1b4b6d7bd58fcd20 ice: Refactor ice_setup_rx_ctx
-bb8960ff4e688d05581bb822414dd076332160cf i40e: Fix overwriting flow control settings during driver loading
-9536f9a083fd49a3e9fa21b657e7ef9b0fee2e55 i40e: Fix VFs not created
-04341f79cc070786fc83ebebbff9e1291d5b46f7 i40e: Fix addition of RX filters after enabling FW LLDP agent
-d71046f027224282651f9101f6d2c929062b6756 e1000e: Leverage direct_complete to speed up s2ram
-13f4cf3b3861490ec1e5e3e4504dd300d85457a7 e1000e: Remove the runtime suspend restriction on CNP+
-a2d14547d6fca4ad46ece06886b685cf2ba4db9c i40e: optimize for XDP_REDIRECT in xsk path
-4e9e66b4265b80a8052f72be5de6aa0c22f4db62 ixgbe: optimize for XDP_REDIRECT in xsk path
-08751e1bb07fc7aefe3acaea26aa7a095d90d6ef ice: optimize for XDP_REDIRECT in xsk path
-a9589b04d855bec54b1632c7a18a485ebc8d4953 ixgbe: aggregate all receive errors through netdev's rx_errors
-50e0cf3ab6c615fac07d0702eefdedfa2c0c8f47 i40e: drop redundant check when setting xdp prog
-67a593d2eb2413bae5bc3db6a46b343c195f4376 i40e: drop misleading function comments
-cadb28f8959ade247b86d98a5a0e50fea8f3d13a i40e: adjust i40e_is_non_eop
-928f4fc982d429ba38524e5daa1f030f0e302552 ice: simplify ice_run_xdp
-fe394be3c7280fd0571204ea01a06217c76e4407 ice: move skb pointer from rx_buf to rx_ring
-711fdaa6dea1602d4c35d3180be461c1dd289574 ice: remove redundant checks in ice_change_mtu
-8ea2e0be183778e929b2333e617ffeea3a1bac28 ice: skip NULL check against XDP prog in ZC path
-52e6cba7d0c5012da9df1e2a4ec58202a03d6725 i40e, xsk: Simplify the do-while allocation loop
-ba4248305099d7ea4d805a3659b97e15df586d64 i40e: store the result of i40e_rx_offset() onto i40e_ring
-c1775dd0fc4dee37bf422926400db629e0f7cdb3 ice: store the result of ice_rx_offset() onto ice_ring
-0ea59d35353442243473b9caa1185e6d0988f14d ixgbe: store the result of ixgbe_rx_offset() onto ixgbe_ring
-6bdf7a64db49369e95b7c26de825bddd2f6466fb i40e: Fix add tc filter for IPv6
-b868a2abafc7ad8a2a80aabb327171b7b57031e5 i40e: Fix setting PF MAC filters when changing MAC address
-ceb02dae0aa17cd18a38cc24354625868f04766b i40e: Add Asym_Pause to supported link modes
-bcf687070997c7c687998df26abc82eb7656be85 ixgbe: Fix memleak in ixgbe_configure_clsu32
-fe8ab5661129c8636f78b9150ad6bd34be72a069 igc: Remove unused MII_CR_RESET
-406159b4b81007f323cd5ab8aa321ea9e9e7d5d4 i40e: add support for PTP external synchronization clock
-ff93b9ad78f9fe95ed58d1eec71206983e98ec61 igc: Remove unused MII_CR_SPEED
-fefab131f2eb0f81783051a8b78f9f2ff2c02402 igb: avoid premature Rx buffer reuse
-aad815f237ae7cbda9664260812b36daff5f1bd0 iavf: Fix asynchronous tasks during driver remove
-f7ea126dd6d46d47630adb4b5a61921d7fdac58b i40e: Fix correct max_pkt_size on VF RX queue
-1b7be9eca8efb6c0a0ac0b0d60c12f14d0ab8742 igc: Assign boolean values to a bool variable
-788e3af497705d4da549e465162e2b78ff11b254 i40e: refactor repeated link state reporting code
-aa298f069a9e374bcf4f3f52128c178d210c404a virtchnl: Fix layout of RSS structures
-e7388c23cb21a10e31e9bd71f2ba9bc340863e73 igb: Redistribute memory for transmit packet buffers when in Qav mode
-3f7a510cb5bc65badfe61bd6697e19c3ef7ac465 i40e: Fix endianness conversions
-bd96df32ba5cedce0fba9a79b6f776cfd7324115 ice: fix napi work done reporting in xsk path
+3576251c079a49759dd225a2bfe5353a3a936b65 fgraph: Initialize tracing_graph_pause at task creation
+2c90db78fb9429fb141811ecc8e4db25e3ad211c remoteproc: qcom_q6v5_mss: Validate modem blob firmware size before load
+36442eb86ce8f67732a7cbb483be7c726bd0a48c remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
+44c59486331eb689bf428acf20419c936f2249c1 af_key: relax availability checks for skb size calculation
+05d315c144d896d33d9144559d8319b0455490ef pNFS/NFSv4: Try to return invalid layout in pnfs_layout_process()
+5fd77bae892f74ba4e4e6804e8e670d2e164591d iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
+703521eebce383686e75faf9a89d44582270c438 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
+796edd9d1b936abcbbde59181b29aa79ce0773a7 iwlwifi: mvm: guard against device removal in reprobe
+f57af06e7398ad266e169e6e57ad5bf2d534a73d SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
+9ef7920ed2e266f64799e5c968877c8644a6a870 SUNRPC: Handle 0 length opaque XDR object data properly
 
---===============6931900844117014707==--
+--===============4375144975496750763==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e35748e6e84a-7f1a38c09c08.txt
+
+d2067652e79db5ca6be1ce54441038961c11f2cf tracing/kprobe: Fix to support kretprobe events on unloaded modules
+7efc92a22734614dd6849070e86dd76cbd47afd2 block: fix NULL pointer dereference in register_disk
+f3c6907a9c67cd9a2b3eefd179eaba121d41fff5 fgraph: Initialize tracing_graph_pause at task creation
+a7b005ba9360db012edb537526b8da04b6f9ebc4 remoteproc: qcom_q6v5_mss: Validate modem blob firmware size before load
+088d8fbc7073fef223402712bc0678b47d6e39db remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
+11807998bd5a1d57dd5bde7d599d0b34b0bbbba9 af_key: relax availability checks for skb size calculation
+275964a60b05b865c83380ba395194e597f16dc3 regulator: core: avoid regulator_resolve_supply() race condition
+179df251b9ce3998c5bd760b6e4262014c53081c chtls: Fix potential resource leak
+a7f7b28e5c5e569f6e9c8b7c7058e189662ec7d3 pNFS/NFSv4: Try to return invalid layout in pnfs_layout_process()
+9b760d6a4316608a50aebd3be1b2fcbbf46e633c iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
+12638881dd36996c5b8f107b25694a12d7c4f9b2 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
+91400be9fc432155cfd23630554eb88e3c6b7c7d iwlwifi: pcie: fix context info memory leak
+86c45d786191719fc659316901129e7ffa906555 iwlwifi: mvm: guard against device removal in reprobe
+eadbb7cdb9ea15ba06f0e3b379c0d3de3d6dc479 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
+7f1a38c09c08c84b982803b2f9ce575fb0497ad6 SUNRPC: Handle 0 length opaque XDR object data properly
+
+--===============4375144975496750763==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1b1b9dcb0041-03a18eb027aa.txt
+
+9c4c659f6e2480d22214333200c2ec93b4a93b4e io_uring: simplify io_task_match()
+fa67c5a6716f849d1a0de23ce93cba3fb22713ad io_uring: add a {task,files} pair matching helper
+2bdfb1dd3f5d96f6dea5e4fcf3cab1eff8f1850a io_uring: don't iterate io_uring_cancel_files()
+3039c8207e00cd403ca4b49ac4f0bd4fb564ed1f io_uring: pass files into kill timeouts/poll
+5a1aac3fa46f61331c8e104cb10bcf00d32ac330 io_uring: always batch cancel in *cancel_files()
+dcebbd9263c256d05de348c75e85f0f5571070f5 io_uring: fix files cancellation
+ad279e2ffa449920a949305d28b94a26418961e1 io_uring: account io_uring internal files as REQ_F_INFLIGHT
+3a571c1fff0ce15da90b09b3cfb5070f6eea2b9c io_uring: if we see flush on exit, cancel related tasks
+89fbb623c101fd00d41ea0f866e0cdd11df3f61c io_uring: fix __io_uring_files_cancel() with TASK_UNINTERRUPTIBLE
+98f118c4f4bc2ffc6c7f5b81801f3a934eff3a77 io_uring: replace inflight_wait with tctx->wait
+cc695cc01cba8531f5f5592c0b414b71e87df733 io_uring: fix cancellation taking mutex while TASK_UNINTERRUPTIBLE
+25f45ea6166b25a432c8be3c3697e6781405019d io_uring: fix flush cqring overflow list while TASK_INTERRUPTIBLE
+1baf2463655db98dd715388966b653169d1dd261 io_uring: fix list corruption for splice file_get
+682feeae23edcbd989abe3a7e44226a6dc29744c io_uring: fix sqo ownership false positive warning
+e634551ad568ef8a0dc7c66a81de95f24fb3576e io_uring: reinforce cancel on flush during exit
+83f3fae86a6a55ab8954249293c99dab552d9c1f io_uring: drop mm/files between task_work_submit
+61bc36e8dd7ea31df73c4a588ee6aaff5fb2c7fd gpiolib: cdev: clear debounce period if line set to output
+0d213e32dfd7fbfbb185eadfffbc275d63ae55f9 powerpc/64/signal: Fix regression in __kernel_sigtramp_rt64() semantics
+1599e22944702023c4a7b1860f62f06354009305 af_key: relax availability checks for skb size calculation
+6db3c36fa8b8c191e5c68e5ee2ddb85e59855109 regulator: core: avoid regulator_resolve_supply() race condition
+89304a6ce6782af1628ff205365f274496ddafd5 ASoC: wm_adsp: Fix control name parsing for multi-fw
+b15c7c59f3bda6ee97232ef2505e10439a70f940 drm/nouveau/nvif: fix method count when pushing an array
+052cea5657f31f8ac110f208f10ad25d2d6cd628 mac80211: 160MHz with extended NSS BW in CSA
+c1802fdde4c9fa9ae3f553d750636fb664d23174 ASoC: Intel: Skylake: Zero snd_ctl_elem_value
+2dfc15365d85e98aed0c2f3b4337b7419f8bc4b0 chtls: Fix potential resource leak
+8109a5af7588eadac62c2b00555c35e91ccd1325 pNFS/NFSv4: Try to return invalid layout in pnfs_layout_process()
+676972e8d4afed26e254df03f6bdf40b4ed0c84f pNFS/NFSv4: Improve rejection of out-of-order layouts
+acc363be9e24f6ce844db7e9f75b0659ef2ed8f1 ALSA: hda: intel-dsp-config: add PCI id for TGL-H
+1c98227a3794576d2b414a25b8eb20251a9ea750 ASoC: ak4458: correct reset polarity
+79baad7eb0f35b5b68c3747904ffe0d724bcd9d6 ASoC: Intel: sof_sdw: set proper flags for Dell TGL-H SKU 0A5E
+9d895369800115806bf724548ca36936aaac75f2 iwlwifi: mvm: skip power command when unbinding vif during CSA
+250ed0e16c83762c2ae44513c7e7daad4c1f9255 iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
+c7b4e8bb073a812837212cc60dab775e9f1e6d62 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
+99b1b2ecc81236061855b2ec6575c8ee9c2cf653 iwlwifi: pcie: fix context info memory leak
+7046edff27f04d71b8d2d134cdfc13ffb7733807 iwlwifi: mvm: invalidate IDs of internal stations at mvm start
+c6926b271a55a8721fff6a2135f0daf749d61895 iwlwifi: pcie: add rules to match Qu with Hr2
+7b140899a7f4d0e1fa338dc4efaef3acddba98ff iwlwifi: mvm: guard against device removal in reprobe
+ca5c8e2131b603357ead5f63daf4ca68b3046cff iwlwifi: queue: bail out on invalid freeing
+aee5833123775487d9867aec840b71a4712eab63 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
+b93a95d834caf9a311e06eb5f243c25745194a01 SUNRPC: Handle 0 length opaque XDR object data properly
+83a24f74a549c2f57206d24c8e6c14a688626147 i2c: mediatek: Move suspend and resume handling to NOIRQ phase
+4af90c0f6829ed3d48ad41dc825e8fcb856a4dc6 blk-cgroup: Use cond_resched() when destroy blkgs
+03a18eb027aa1c17482deeead2bc1adf7d1bef6b regulator: Fix lockdep warning resolving supplies
+
+--===============4375144975496750763==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5c086907ef22-c2b4efff4b73.txt
+
+d7b3ae7fd08e3d5f539befa4a3bc63498237d0c1 tracing/kprobe: Fix to support kretprobe events on unloaded modules
+0a7877a69e3aa37f985e00695b194774f0d6733e af_key: relax availability checks for skb size calculation
+adf1fa8433db08113286daa58ebf15b785ea51ca regulator: core: avoid regulator_resolve_supply() race condition
+7d9ac932358f591eb76a08f6adb438ff51173a7f mac80211: 160MHz with extended NSS BW in CSA
+64b5517b1626ff8e9287e613b21c3025e999acf5 ASoC: Intel: Skylake: Zero snd_ctl_elem_value
+0d73ad097dd0e623598736ae938eec2e890d154c chtls: Fix potential resource leak
+62121c66aa300b332caef7bde3aef305e2abc8e9 pNFS/NFSv4: Try to return invalid layout in pnfs_layout_process()
+9c4a06304589bb458818308fe4d2efc4bd815290 ASoC: ak4458: correct reset polarity
+7b5ece07add2ac0ce09c62fdbdbd24840d1a570d iwlwifi: mvm: skip power command when unbinding vif during CSA
+a77c1be5aac5829f7c169558e9c7671665582895 iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
+375a0aa80cb42e89c7cb1b19a1b708d145b07753 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
+4d949aec11b8887e91fb12f9a99a0061b5549f94 iwlwifi: pcie: fix context info memory leak
+c00b907cbd29965ce3ad2ccbe8073c0f311e309d iwlwifi: mvm: invalidate IDs of internal stations at mvm start
+ccc36558126c2c753191865dbd7bb6813a0893c3 iwlwifi: mvm: guard against device removal in reprobe
+6882db4100064a58b8c351a9d637b331321125b6 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
+138cd4ffef2014e1a3f75b566d3cfdab57fa7951 SUNRPC: Handle 0 length opaque XDR object data properly
+ff7882532f629d6414e7f0c34ee722e74a714dfa i2c: mediatek: Move suspend and resume handling to NOIRQ phase
+002a46dde5252e4e379a04b0dce21b88de1ca93d blk-cgroup: Use cond_resched() when destroy blkgs
+c2b4efff4b7319fc48bbbe849672198f25358920 regulator: Fix lockdep warning resolving supplies
+
+--===============4375144975496750763==--
