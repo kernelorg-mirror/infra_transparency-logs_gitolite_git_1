@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5434369533175232701=="
+Content-Type: multipart/mixed; boundary="===============4342838344848207494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 10 Feb 2021 11:30:34 -0000
-Message-Id: <161295663497.26567.8052527176065749273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 10 Feb 2021 11:32:44 -0000
+Message-Id: <161295676442.27247.15101641171525177740@gitolite.kernel.org>
 
---===============5434369533175232701==
+--===============4342838344848207494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 0a25669ba8a276f34dfa41f0eeae96ee9ecb2a17
-    new: 43861d29c0810a70792bf69d37482efb7bb6677d
+  - ref: refs/heads/char-misc-testing
+    old: 8e94114a40f2c58637bf99d2fb8f25ddfe497ce2
+    new: 647bd7e7a93c494d7981ae66c8e7262a266d21c8
     log: |
-         43861d29c0810a70792bf69d37482efb7bb6677d USB: quirks: sort quirk entries
+         647bd7e7a93c494d7981ae66c8e7262a266d21c8 MAINTAINERS: replace my with email with replacements
          
 
---===============5434369533175232701==
+--===============4342838344848207494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612956625 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1612956623-90b0629ba74154d9c5878b1709c61226476356c4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1612956753 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1612956752-3c07e76e743e501542287c72e74d1037f14ff968
 
-0a25669ba8a276f34dfa41f0eeae96ee9ecb2a17 43861d29c0810a70792bf69d37482efb7bb6677d refs/heads/usb-testing
+8e94114a40f2c58637bf99d2fb8f25ddfe497ce2 647bd7e7a93c494d7981ae66c8e7262a266d21c8 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAjw9EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RRYP/A0GHLxq6ZPVTHtc4Acq
-knr6yCf2kAR+4W5nNr/Wc1tY5E+7Q+bmgfQuYN0bfJE/Dot4ZV3CigTZUgp7Oh1Y
-Eli9UisyI02NHK9DAR1sBxXh9Di6vUTWJtuQTLdcAAku0HjbC6eGaW2uTEsHvBmV
-GXANPg0xdT4LEIiAjraE+6Snm8KY79uwGIDapR90tKu/OgzbS9ETPP1xOkBIvplo
-JTQcHsMeySUZWIIX4ApKPpncWb7EOYxOP+LhvawPXee7v/2wR86TXkSntsEZJPYL
-zqwas3LsSXeXrhxrrRdlpZg6bKKaEhOeJfQ5ndrEVB6X1zRS4X07tS/9QmUb3B0R
-xiUjC4A0Gg5ooVPRgHnZsUXAxbmV5ptMLzPLvpjuUjFy9El2sRos9dSZ1BN+TbQc
-PQf+S4vyrzqyjkJ/LPMqb6TkjAEHX5b2wml/sCNYJF3VmpjMvoxV7u5ULZIea+Mj
-bXmTTMmDMGpVSRHU99I45mCgpFC4wpVLr8SlkQcveRWMQ8cK+fena6JaNyBGd09e
-joXh2AmwLWI56XmSRfGDmDe2d3SrFdmWOQV1wbxx0a63v9Rq3j2LzM/j0ZnnXFvD
-y25QeseOjNWO+E59X56sIPijNqnARvmCW+fd365vhi2B1w8u0aKEN9m7fTb+9frM
-ei+G/M5jZov8dnan1gtN7dKF
-=wIbL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAjxFEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MSsP/R2ATjiU46OuZFQLUicJ
+uIvqCLzze1kPwO9oyMAHrdPsQvNSsCFM1SrCHenCYV1tbbYlhWFYlj4QoXtBCq00
+oUXG8BKaAyBym3Mp/X/5pQqn7qs6aN67/3e1LfkX4GP2YMOUwVZjwmFZFd60oFQV
+Vkv5Di7CiDc2J+nYK+pc4a9TM6NpZuO3eaAD52KSPms1LM+5e1X4yPStNRk+lw0F
+rd4LR11V1VsbkWdShqExSmdhm244u8C+uH8RjVbA13cDTTqXf8yZv0ZF+u11xiDH
+svcN+R9b95/48nZWQvTXUW88pxkbKNGTgQnlf8dc0vjDn7reBT6nJhJzaDFnilss
+pz0YYVekCybjgvYdE9GnAFi+vbOiHjtxcBMuZhkttQ4KgdBLHjSGUl4qm06v6CE4
+mg0ev/Xgrm060AEPI/0IvVhPlIho+L4MsBtq+RsGrG3qEnSJkN1XpM1yVvo+wxG0
+RraVOUDsA8HEz34H7Bmlm36RVyHtU7xu5xVUs6wgvD4iewvhEagBXTjYtJARL73f
+mDmJfdPNlI5PeDHv8NbqPkh2UEdZqvajC9AXoiuUByEbjDAaKX+ZT14vV7mIB79g
+dP/uodILPRzjcRESvyhvoujSy9X32Q4Nrfpc5RZ1xQd2d8WBUixk/ZJJTx68Np6c
+cbRjGPfJCYDGEEJu1RNnnZEL
+=dnJ1
 -----END PGP SIGNATURE-----
 
---===============5434369533175232701==--
+--===============4342838344848207494==--
