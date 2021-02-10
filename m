@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 10 Feb 2021 19:50:03 -0000
-Message-Id: <161298660388.1885.181717038436053641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 10 Feb 2021 19:55:27 -0000
+Message-Id: <161298692712.4929.17729299516400441382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/io_uring-5.11
-    old: aec18a57edad562d620f7d19016de1fc0cc2208c
-    new: 92c75f7594d5060a4cb240f0e987a802f8486b11
+  - ref: refs/heads/objtool/core
+    old: 9077c016a39c78054f03e0354ad8409b47af68dc
+    new: aafeb14e9da29e323b0605f8f1bae0d45d5f3acf
     log: |
-         92c75f7594d5060a4cb240f0e987a802f8486b11 Revert "io_uring: don't take fs for recvmsg/sendmsg"
+         87ccc826bf1c9e5ab4c2f649b404e02c63e47622 x86/unwind/orc: Change REG_SP_INDIRECT
+         2a512829840eb97a8b52eca7058e56d484468f2d objtool,x86: Additionally decode: mov %rsp, (%reg)
+         aafeb14e9da29e323b0605f8f1bae0d45d5f3acf objtool: Support stack-swizzle
          
