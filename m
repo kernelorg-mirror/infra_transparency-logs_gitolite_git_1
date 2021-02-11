@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5527813415409949865=="
+Content-Type: multipart/mixed; boundary="===============5135841793928421428=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 11 Feb 2021 20:32:28 -0000
-Message-Id: <161307554848.27393.4626226317611158440@gitolite.kernel.org>
+Date: Thu, 11 Feb 2021 20:33:23 -0000
+Message-Id: <161307560389.27705.14585301059961785443@gitolite.kernel.org>
 
---===============5527813415409949865==
+--===============5135841793928421428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 5e911c3d9dbc96b3e55fe1695107aff3671f53bd
-    new: 79795c6cf82085a161d9089d9caad5b391b337d6
+    old: 79795c6cf82085a161d9089d9caad5b391b337d6
+    new: 6522ad26df0e85c4b52cc39fde269b0c64f9172a
     log: |
-         697805c7b35186a98c1ace59dc26fea53b241558 staging: rtl8723bs: fix function comments to follow kernel-doc
-         79795c6cf82085a161d9089d9caad5b391b337d6 staging: rtl8723bs: remove obsolete commented out code
+         6522ad26df0e85c4b52cc39fde269b0c64f9172a staging: qlge: Remove duplicate word in comment
          
 
---===============5527813415409949865==
+--===============5135841793928421428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613075533 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613075589 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1613075533-564655d154cec04fa3fbb44162877eff5d904015
+nonce 1613075588-c63eea146410eb39793ec988224d6b9e984efddf
 
-5e911c3d9dbc96b3e55fe1695107aff3671f53bd 79795c6cf82085a161d9089d9caad5b391b337d6 refs/heads/staging-testing
+79795c6cf82085a161d9089d9caad5b391b337d6 6522ad26df0e85c4b52cc39fde269b0c64f9172a refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAllE0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4bYP/i9tQIM1PPwHjsObu2sy
-Wa9dX4Zq/fVBx7OVOiYSun8pTRo/1OiT+a0PKSBDRGdx3mVm74pFAQRRH63uBzaf
-h62HHMnIovzPsPMvE9+aMKo8N1oImWXMqKq0aZMoOQz8C4llNHBTkgincAkT1Su9
-XlSBYbWyYHK5SloD1YKTvhp5URCMH9XF4QWNc1wD/wvnCjC1mtK/siGeSWA4y/Qo
-QrY3+kOLe8pU/YQVyEHPnQkxMM3KjffSl5WOhl8ghj+0ceb2Dmt4lp5/vJ53CDTJ
-BA7MD45/zjTNEDT6GPt0mzBvGH6rgtmPM4ZonjAyT5OZrYSvc49KVe2fF4mBgkCO
-SGG+cXCFR/bYUQk1teqo4P4bz9WZIaxu9gmYhUzeDyhKwwmnw39kZN6wxOesesyJ
-3oUq/Cq+xnIJucrSGAxNSZXxMHs6ffFA+/Hcz/E5FiYSitmjy1YV5tdufVnfYT5o
-/QFSEFTrXTgMt9D9XsGqgHrLaEX2nL5Sh5TNPgvGBdsd/7KaY/nSFtc3P+nX1nlq
-u7yS4Nm4aI6Ig4r27yJ85S7RUBDJ8aQHiOwipyKfnZ7Xnk//aMDyw5LMD2epT0Xc
-SPV57Mp27g1TLzdoPJijD8LzdkMxzwK1PhdTtJzjDkSEI+5kLF0l2oWTNkJOLr5u
-/hnTgiRFNuyNqAsIcsLBzo6z
-=uGf+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAllIUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yh4P/RcsJks25TiJDhaVATaw
+6rzOBPjcif3kb6OQ8ff3PSiXtCFJ7S+9LqslNNhrq/HQ3PTtT8fG74jRJ7tAiSUR
+2/RQl4VYS4OtA7mw9nMZFgrCl/sTLZS4SGcRkAu6pjCF4CzhDXQVNITDW4VnpZB/
+0cng8luDxHKovs7tb28ygyNEbSZ7+7E4fijlqPvvXUaRaMY+Kc9hwkQecBQ7lCpp
+P733p2TPUnXSI5hVOf9D9X6a982/hUTjea8+Sf1F9KXA5/0gP6FTVK6HhFv6vNkz
+mpOniEdgiTD/09kjBs0+I1H9xSoO+rGnkFYUVD67iChqGmgHLJgH0fDZIBeXodiu
+NxM1gQ4aHBliX/rnoWECr+vUNKALqmMh8qghQBOHeFAUKfbWmHvqdUQ1208X8nvF
+THenckR+0Qpl5dK3L/f8gKifmspH5+grj6BmZM3yCxBLpFMxbk1qVYMp655uDCTT
+ljLSQoU/v8dDVf4egRZq80yW1HrNWlfIsFCjoNXo4pEZteLOYkJnhOJBw0fcqimJ
+BItZh0VjwoqUyWY7GulAL/f0QC2cJsBcHrXiBVrbJOZpKSewEO4Ouz/2guZDm59G
+P/jhlWQBjLHhYS2pq3ua2n4VRAU04Yvx8/vt/3d4p1/MkUMvXoIVqarZSbY6igH4
+9vs10qujisIsVW8UdlFOHQSV
+=/a5Z
 -----END PGP SIGNATURE-----
 
---===============5527813415409949865==--
+--===============5135841793928421428==--
