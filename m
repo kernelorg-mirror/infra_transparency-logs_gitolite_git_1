@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 11 Feb 2021 22:33:01 -0000
-Message-Id: <161308278136.3440.14433128380790593569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 11 Feb 2021 22:33:27 -0000
+Message-Id: <161308280745.3603.15397476211593413064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: cb456fce0b5a032843038240147450e19cec98b0
-    new: f68cbaed67cb009e2974968c8da32bf01537c428
+    old: 1d1be91254bbdd189796041561fd430f7553bb88
+    new: d4083d3c00f60a09ad82e3bf17ff57fec69c8aa6
     log: |
-         f68cbaed67cb009e2974968c8da32bf01537c428 net: ipconfig: avoid use-after-free in ic_close_devs
+         d4083d3c00f60a09ad82e3bf17ff57fec69c8aa6 ibmvnic: Set to CLOSED state even on error
          
