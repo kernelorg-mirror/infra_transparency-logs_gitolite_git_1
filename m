@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-Date: Thu, 11 Feb 2021 06:46:25 -0000
-Message-Id: <161302598527.21265.7409740353278800988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Thu, 11 Feb 2021 06:50:14 -0000
+Message-Id: <161302621411.23927.7124299208476237549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 8e79106a7dbbfcb9e87644d0ee1d038670fba844
-    new: 6fe91b69ceceea832a73d35185df04b3e877f399
+  - ref: refs/heads/for-linus-5.11
+    old: 2e92493637a09547734f92c62a2471f6f0cb9a2c
+    new: c4295ab0b485b8bc50d2264bcae2acd06f25caaf
     log: |
-         1899e49385fd5678ecd84abf0c66138ddbe1aa58 brcmsmac: Fix the spelling configation to configuration in the file d11.h
-         6fe91b69ceceea832a73d35185df04b3e877f399 wilc1000: Fix use of void pointer as a wrong struct type
+         c4295ab0b485b8bc50d2264bcae2acd06f25caaf arm/xen: Don't probe xenbus as part of an early initcall
          
