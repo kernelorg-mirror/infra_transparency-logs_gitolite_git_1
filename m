@@ -1,24 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Thu, 11 Feb 2021 20:44:35 -0000
-Message-Id: <161307627571.2564.7731386213223761746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 11 Feb 2021 20:50:03 -0000
+Message-Id: <161307660367.6356.7230829905591134649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/patchset/per-userspace-rlimit/v6.0
-    old: b65c26c04e74f26d0ada92c1895e63a082be31b2
-    new: 93312ea22b8aea02518499cfa3670d4921845872
+  - ref: refs/heads/for-5.12/io_uring
+    old: e68a3ff8c342b655f01f74a577c15605eec9aa12
+    new: 2f8e45f16c57360dd4d8b1310c2952a29a8fa890
     log: |
-         ce8a2db93a93def575e175a2f52b8f4a0d89cfff Add a reference to ucounts for each cred
-         490e8fc6e715b425a6070fe47800408b32bf4ad9 Reimplement RLIMIT_NPROC on top of ucounts
-         a8f315f438a4ff2b8914e0d3e45ba5bbedeb899a Reimplement RLIMIT_MSGQUEUE on top of ucounts
-         0651ad6fd56eee242b783acafb936b55681d00c1 Reimplement RLIMIT_SIGPENDING on top of ucounts
-         037cbef1173e48eb473bd50408f5c7a10229067e Reimplement RLIMIT_MEMLOCK on top of ucounts
-         93312ea22b8aea02518499cfa3670d4921845872 kselftests: Add test to check for rlimit changes in different user namespaces
+         3c1a2ead915c1bcb7b1f9e902469ea0ee1f7857f io_uring: move submit side state closer in the ring
+         6e833d538b3123767393c987d11c40b7728b3f79 io_uring: clean up io_req_free_batch_finish()
+         f161340d9e85b9038031b497b32383e50ff00ca1 io_uring: simplify iopoll reissuing
+         23faba36ce287e4af9018dea51893a1067701508 io_uring: move res check out of io_rw_reissue()
+         2f8e45f16c57360dd4d8b1310c2952a29a8fa890 io_uring: inline io_complete_rw_common()
+         
+  - ref: refs/heads/for-next
+    old: 03a69cc22dce39acdea9ed0f0cfa2fe0635e20b2
+    new: 5c0fc5a09175d1840d96506a3af7d5dbf518d734
+    log: |
+         6e833d538b3123767393c987d11c40b7728b3f79 io_uring: clean up io_req_free_batch_finish()
+         f161340d9e85b9038031b497b32383e50ff00ca1 io_uring: simplify iopoll reissuing
+         23faba36ce287e4af9018dea51893a1067701508 io_uring: move res check out of io_rw_reissue()
+         2f8e45f16c57360dd4d8b1310c2952a29a8fa890 io_uring: inline io_complete_rw_common()
+         5c0fc5a09175d1840d96506a3af7d5dbf518d734 Merge branch 'for-5.12/io_uring' into for-next
          
