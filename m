@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 11 Feb 2021 22:26:42 -0000
-Message-Id: <161308240209.32368.6609818746744144739@gitolite.kernel.org>
+Date: Thu, 11 Feb 2021 22:31:32 -0000
+Message-Id: <161308269292.2878.6280461438471652455@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,12 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 3d368ab87cf6681f928de1ddf804d69600671bb2
-    new: 6bda2f6faed8ca1bb4b01616d190f9575a0748a0
+    old: 6bda2f6faed8ca1bb4b01616d190f9575a0748a0
+    new: cb456fce0b5a032843038240147450e19cec98b0
     log: |
-         0d645232ddbfea2ee59fdb6ec48ced4cf69aaf9f net: stmmac: dwmac-intel-plat: remove unnecessary initialization
-         205238f4ed3e14aed07a7b0121b94e404e65e78c net: hns3: fix return of random stack value
-         961aa716235f58088e99acafbe66027d678061ce qede: add netpoll support for qede driver
-         a0d2d97d742cc04817017e4c623256b9583a095d qede: add per queue coalesce support for qede driver
-         b0ec5489c480e4875ee2e19286e3cf228c6905ed qede: preserve per queue stats across up/down of interface
-         6bda2f6faed8ca1bb4b01616d190f9575a0748a0 Merge branch 'qede-netpoll-coalesce'
+         ab73447c38e4f335279d56bd5e688ce601092f50 bonding: 3ad: add support for 200G speed
+         138e3b3cc0bbbd795e3b3f2ab607597e2f0b80f9 bonding: 3ad: add support for 400G speed
+         5edf55ad95b5d5e444a7d104276c4b64a045adc3 bonding: 3ad: Print an error for unknown speeds
+         9c2db446eaa03cd838ea3dd57d0b05717dc914e9 Merge branch 'bond-3ad-200g-400g'
+         cb456fce0b5a032843038240147450e19cec98b0 r8169: disable detection of bogus xid's 308/388
          
