@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1350043241567825730=="
+Content-Type: multipart/mixed; boundary="===============0805062843309390456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 11 Feb 2021 15:37:45 -0000
-Message-Id: <161305786513.10220.16281960966797902180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 11 Feb 2021 15:37:52 -0000
+Message-Id: <161305787227.10320.11599136778912589878@gitolite.kernel.org>
 
---===============1350043241567825730==
+--===============0805062843309390456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: b165457c5004c9363397d2e051be6fef56f35244
     new: ec9d68508ff65df1dc24cf8100eb40ddd196c2fd
     log: |
@@ -32,28 +32,28 @@ changes:
          ec9d68508ff65df1dc24cf8100eb40ddd196c2fd Merge series "Use clocks property in a device node" from Sameer Pujar <spujar@nvidia.com>:
          
 
---===============1350043241567825730==
+--===============0805062843309390456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1613057812 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1613057862-94d494ae8bc7a8f76c0dca8393dca3646c3ce8f6
+pusher C3F436CA30F5D8EB 1613057819 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1613057869-0c2a274413f749273163f555f1fd04acc68c7ecd
 
-b165457c5004c9363397d2e051be6fef56f35244 ec9d68508ff65df1dc24cf8100eb40ddd196c2fd refs/heads/for-5.12
+b165457c5004c9363397d2e051be6fef56f35244 ec9d68508ff65df1dc24cf8100eb40ddd196c2fd refs/heads/asoc-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAlTxQACgkQJNaLcl1U
-h9A1fQf/c4cLatgogLg6591RHW0xHnuo/yPb4SsssYn87F5nG7c6xMVTm8Hzk/cN
-DOAqYiI3ThENEUTqFi6TJ6dNHSkqu1eLSdheQJTkkBR90FnLYPcgiMhJazN7QreE
-jepRp2HO1RF3ta3AoyABvXoc0r3gO5tvFUs8r3sBD6er2BWsKrNr6FbUWWnsZMJA
-g4yid0QUVXu3iczCykPZ2j2iMO7PbeJ0fMmdbSrXPnbzPj0GMxBjl1Wfi974WtW/
-x9gYhOXQ4+cO+gDNH16c+7hxY8mUoVG28tBotE/nBHPmAYpgc02Zmu6G6JA5G4KH
-VfgaLYp4riM7WNCqPFoa+/P8ixg3NA==
-=MH+x
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAlTxsACgkQJNaLcl1U
+h9B+aAf/d4yxHKxVD9rBZEF6fQJXfGtR9XlLi/kZVNjW6Q0O88I0Bc3KJNHr9Og0
+J4rtn9YMkQMVkNOPPbXzc5HXLezRNxOFXhG0+Z4nXnKNiSnHxIusCUBtDkFEnata
+ttiwacg89WiD0YAZh6fd4MzgGEwt/udb9ID0G+55AgXpyyJrGRSKn0qOp63b8aoW
+goUYgAETrpbVLDHejcdyi1b6O9+DrILnQZdGf6l6+CM8z5VL8kfmAoCH6UBL32x7
+LOWlGbndAnDCUwU9d0cH2gYYC6ovv0X0Er8eNUSghR8W1a13cO1FMFLFrR4uZQ/x
+mWfKfBtaCpqK8hDdEOj/zscsMNVkpA==
+=kKbV
 -----END PGP SIGNATURE-----
 
---===============1350043241567825730==--
+--===============0805062843309390456==--
