@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5839080890809992497=="
+Content-Type: multipart/mixed; boundary="===============3814464086813467979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 11 Feb 2021 00:18:47 -0000
-Message-Id: <161300272778.7136.16858561872919546721@gitolite.kernel.org>
+Date: Thu, 11 Feb 2021 00:18:56 -0000
+Message-Id: <161300273666.7227.10840153392924325483@gitolite.kernel.org>
 
---===============5839080890809992497==
+--===============3814464086813467979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.12
+  - ref: refs/heads/for-next
     old: d9928ac5eba5b129299e9d032b79d436336339f6
     new: 7defd0da9dd27ae6261617d0518d8b6c421703d1
     log: revlist-d9928ac5eba5-7defd0da9dd2.txt
 
---===============5839080890809992497==
+--===============3814464086813467979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ a9a82dfd4380b6226b2eff13ffd9cb3564d6c176 dm era: only resize metadata in presume
 7e28f37ea166718d8bf79620d7798794feaf0ee9 dm: set DM_TARGET_PASSES_CRYPTO feature for some targets
 7defd0da9dd27ae6261617d0518d8b6c421703d1 dm: simplify target code conditional on CONFIG_BLK_DEV_ZONED
 
---===============5839080890809992497==--
+--===============3814464086813467979==--
