@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============5135841793928421428=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 11 Feb 2021 20:33:23 -0000
-Message-Id: <161307560389.27705.14585301059961785443@gitolite.kernel.org>
-
---===============5135841793928421428==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
+Date: Thu, 11 Feb 2021 20:44:35 -0000
+Message-Id: <161307627571.2564.7731386213223761746@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/legion/linux
+user: legion
 changes:
-  - ref: refs/heads/staging-testing
-    old: 79795c6cf82085a161d9089d9caad5b391b337d6
-    new: 6522ad26df0e85c4b52cc39fde269b0c64f9172a
+  - ref: refs/heads/patchset/per-userspace-rlimit/v6.0
+    old: b65c26c04e74f26d0ada92c1895e63a082be31b2
+    new: 93312ea22b8aea02518499cfa3670d4921845872
     log: |
-         6522ad26df0e85c4b52cc39fde269b0c64f9172a staging: qlge: Remove duplicate word in comment
+         ce8a2db93a93def575e175a2f52b8f4a0d89cfff Add a reference to ucounts for each cred
+         490e8fc6e715b425a6070fe47800408b32bf4ad9 Reimplement RLIMIT_NPROC on top of ucounts
+         a8f315f438a4ff2b8914e0d3e45ba5bbedeb899a Reimplement RLIMIT_MSGQUEUE on top of ucounts
+         0651ad6fd56eee242b783acafb936b55681d00c1 Reimplement RLIMIT_SIGPENDING on top of ucounts
+         037cbef1173e48eb473bd50408f5c7a10229067e Reimplement RLIMIT_MEMLOCK on top of ucounts
+         93312ea22b8aea02518499cfa3670d4921845872 kselftests: Add test to check for rlimit changes in different user namespaces
          
-
---===============5135841793928421428==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613075589 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1613075588-c63eea146410eb39793ec988224d6b9e984efddf
-
-79795c6cf82085a161d9089d9caad5b391b337d6 6522ad26df0e85c4b52cc39fde269b0c64f9172a refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAllIUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yh4P/RcsJks25TiJDhaVATaw
-6rzOBPjcif3kb6OQ8ff3PSiXtCFJ7S+9LqslNNhrq/HQ3PTtT8fG74jRJ7tAiSUR
-2/RQl4VYS4OtA7mw9nMZFgrCl/sTLZS4SGcRkAu6pjCF4CzhDXQVNITDW4VnpZB/
-0cng8luDxHKovs7tb28ygyNEbSZ7+7E4fijlqPvvXUaRaMY+Kc9hwkQecBQ7lCpp
-P733p2TPUnXSI5hVOf9D9X6a982/hUTjea8+Sf1F9KXA5/0gP6FTVK6HhFv6vNkz
-mpOniEdgiTD/09kjBs0+I1H9xSoO+rGnkFYUVD67iChqGmgHLJgH0fDZIBeXodiu
-NxM1gQ4aHBliX/rnoWECr+vUNKALqmMh8qghQBOHeFAUKfbWmHvqdUQ1208X8nvF
-THenckR+0Qpl5dK3L/f8gKifmspH5+grj6BmZM3yCxBLpFMxbk1qVYMp655uDCTT
-ljLSQoU/v8dDVf4egRZq80yW1HrNWlfIsFCjoNXo4pEZteLOYkJnhOJBw0fcqimJ
-BItZh0VjwoqUyWY7GulAL/f0QC2cJsBcHrXiBVrbJOZpKSewEO4Ouz/2guZDm59G
-P/jhlWQBjLHhYS2pq3ua2n4VRAU04Yvx8/vt/3d4p1/MkUMvXoIVqarZSbY6igH4
-9vs10qujisIsVW8UdlFOHQSV
-=/a5Z
------END PGP SIGNATURE-----
-
---===============5135841793928421428==--
