@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 11 Feb 2021 03:03:50 -0000
-Message-Id: <161301263098.14151.11419202444662036563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Thu, 11 Feb 2021 03:37:29 -0000
+Message-Id: <161301464904.1541.11165758219278534581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: bgix
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/master
-    old: 1ecf167cec1696e266de58db6cd904f43c4b532e
-    new: 1f4ec8fb9d36fb7678385fd631459d80b57fc662
+  - ref: refs/heads/clk-amlogic
+    old: 4c54b96705d1fab861b92be0b28078af803a99af
+    new: e3272b0bc9d6f4cb0032e422c5bd4f93f994a913
     log: |
-         1f4ec8fb9d36fb7678385fd631459d80b57fc662 mesh: Clear node's agent pointer after agent removal
+         dcd48b25c682106335d48c040eeaaf0ff5575c38 clk: meson-axg: remove CLKID_MIPI_ENABLE
+         31035839540e3f1669f9e47222108e9278651943 clk: meson: axg: Remove MIPI enable clock gate
+         e3272b0bc9d6f4cb0032e422c5bd4f93f994a913 Merge tag 'clk-meson-v5.12-1-fixed' of https://github.com/BayLibre/clk-meson into clk-amlogic
          
