@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 11 Feb 2021 03:50:03 -0000
-Message-Id: <161301540397.10120.2485282809133286657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 11 Feb 2021 03:55:56 -0000
+Message-Id: <161301575667.13601.8547759869837124171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/for-5.12/drivers
-    old: a2d52a6c1b6764031b6cac7cc156530cbb38248c
-    new: 597886836164ef18b76faea7304357556fe29da9
+  - ref: refs/heads/dev-test
+    old: 0e9a3c4fae5498e86dd11985143c4858a8300705
+    new: ce063129181312f8781a047a50be439c5859747b
     log: |
-         597886836164ef18b76faea7304357556fe29da9 block: Replace lkml.org links with lore
-         
-  - ref: refs/heads/for-next
-    old: 98dfac43c7dc049298a0a0959ae36b1cdaf0f15e
-    new: 9752fa48fe9d7862c6729bc13d3ffc7df72931a4
-    log: |
-         597886836164ef18b76faea7304357556fe29da9 block: Replace lkml.org links with lore
-         9752fa48fe9d7862c6729bc13d3ffc7df72931a4 Merge branch 'for-5.12/drivers' into for-next
+         bde545295b710bdd13a0fcd4b9fddd2383eeeb3a erofs: fix shift-out-of-bounds of blkszbits
+         ce063129181312f8781a047a50be439c5859747b erofs: initialized fields can only be observed after bit is set
          
