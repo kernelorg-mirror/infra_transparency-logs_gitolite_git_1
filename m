@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5621915113653897798=="
+Content-Type: multipart/mixed; boundary="===============4291967507053415660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 11 Feb 2021 16:25:07 -0000
-Message-Id: <161306070754.9024.6498098744501140748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 11 Feb 2021 16:25:14 -0000
+Message-Id: <161306071430.9171.15410510549313989409@gitolite.kernel.org>
 
---===============5621915113653897798==
+--===============4291967507053415660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/spi-5.12
     old: df6978b7ea6349eb32078c42b917559f5510aebd
     new: d2275139649bc34b8b5c3e33d26d991ab8a1364c
     log: |
@@ -24,28 +24,28 @@ changes:
          d2275139649bc34b8b5c3e33d26d991ab8a1364c spi: cadence-quadspi: Use spi_mem_dtr_supports_op()
          
 
---===============5621915113653897798==
+--===============4291967507053415660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1613060654 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1613060704-a91a3b4bb0e97f596044f430ac95a5798009d6c9
+pusher C3F436CA30F5D8EB 1613060661 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1613060712-66bda2af1faf9460412608bb78f9204bf7c82d19
 
-df6978b7ea6349eb32078c42b917559f5510aebd d2275139649bc34b8b5c3e33d26d991ab8a1364c refs/heads/for-5.12
+df6978b7ea6349eb32078c42b917559f5510aebd d2275139649bc34b8b5c3e33d26d991ab8a1364c refs/heads/spi-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAlWi4ACgkQJNaLcl1U
-h9BTgAgAhn2KF3uMRXUtJ9XHJsWzFkkeXazIWkrJT/enxQyi5pNfQe2/qv7/ahZN
-U0K7QBN/ud5O8W0CkRZFGf94Xgh4vH1CVQNehquOCfhczY5P9VBSzzS/AAuc5NoB
-aV1MteI2bpoJ2qh75hBLltmBmihvmVJmscQvoRZWbeT5FHoGLP8lMtoYrtsPgTc4
-yRuboSYqOMCjSDMJ+4HK67ZAedbFqxB16ylXIpTK31yuoHBVjI/quBDaoJoz1ECh
-NHHmJtSwyiXpj02XY4TDfhP+c5iVbqwqgwBLPWW2HL8by5YhPD4eNv2kbRmNwDAU
-r7uEtGZnCvwbr4FUVL1FXfJo0vAINw==
-=29AU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAlWjUACgkQJNaLcl1U
+h9CvqAf9ElaI+llXj6E6tCUiEbYbgGRwgL31pdyaRY9asKyshnrhEIgc6TMlRMxG
+GkOUuW5Ahbba/WV92S1AgwNwSDmIgqnlFk2sdjyLYWgW3+YsLMLHhh+jsWiy8+D8
+zdJo/7+D/VCNC9M3IBT1SjAtrNznwAKWLuMGGGdaRlAVtuO2ie+F0rUsZ5EMLqq2
+9G6LvriuFASGKB//Dg0iqz8UkukYyq+xzhx1pWse4y7NoEDNTSSMsn4bfW5Cw8oJ
+/arA0IFDbhXYhot8rGvSI9h+WOM7A5kUj5BRpDI/RUXRz5FLdQIjNKgS9G8I0Hkr
++YYA/eaa6HxsgPUrV001PzWLhd3K8g==
+=KFoj
 -----END PGP SIGNATURE-----
 
---===============5621915113653897798==--
+--===============4291967507053415660==--
