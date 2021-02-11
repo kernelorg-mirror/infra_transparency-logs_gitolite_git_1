@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7963310294040262075=="
+Content-Type: multipart/mixed; boundary="===============8380678555918034956=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 11 Feb 2021 04:47:24 -0000
-Message-Id: <161301884438.13580.5801036684819470496@gitolite.kernel.org>
+Date: Thu, 11 Feb 2021 05:14:53 -0000
+Message-Id: <161302049373.29710.15359045065576012513@gitolite.kernel.org>
 
---===============7963310294040262075==
+--===============8380678555918034956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/tags/mlx5-for-upstream-2021-02-10
-    old: 448f67f5c030b49d066eecbd846442864018f1c9
-    new: 493ceaf850ba157beb1a9107b88f00108b963b34
-    log: revlist-448f67f5c030-493ceaf850ba.txt
+  - ref: refs/heads/net-mlx5
+    old: c20b980d40debb73ccdaa4f490a9adfe1f9cebdb
+    new: 172f41dd040c83d78a07a9d0d24451ed9882c5aa
+    log: revlist-c20b980d40de-172f41dd040c.txt
 
---===============7963310294040262075==
+--===============8380678555918034956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-448f67f5c030-493ceaf850ba.txt
+Content-Disposition: attachment; filename=revlist-c20b980d40de-172f41dd040c.txt
 
-1b7eb337502f5654fa5ee6132e6b95020e2e698f net/mlx5: fix spelling mistake in Kconfig "accelaration" -> "acceleration"
-b171fcd29c928d86e094b7e86c68daf77da12e26 net/mlx5_core: remove unused including <generated/utsrelease.h>
-5b74df80f301e872143fa716f3f4361b2e293e19 net/mlx5: Delete device list leftover
-83907506f7ed7d9d233d8ee39a57a4dd48c63161 net/mlx5e: Fix spelling mistake "channles" -> "channels"
-a3f5a4520075cafbce7d58771b2b7fff6832d60b net/mlx5e: Fix spelling mistake "Unknouwn" -> "Unknown"
-793985432daadaf443b213fdd30123778a7e40cf net/mlx5: Assign boolean values to a bool variable
-36280f0797dfca856cda25feec085b03bc4f5609 net/mlx5e: Fix tc_tun.h to verify MLX5_ESWITCH config
-2dd4571b43dcf7921b21d57b9ad2df3a61056e55 net/mlx5: docs: correct section reference in table of contents
-4782c5d8b972ba26a2558f064601ecff743e0d25 net/mlx5: Fix a NULL vs IS_ERR() check
-2b6c3c1e74e53f370074eb03769c9499aa30c55a net/mlx5e: Fix error return code in mlx5e_tc_esw_init()
-b50c4892cb98417df96b73119c54520da34a3e88 net/mlx5: SF, Fix error return code in mlx5_sf_dev_probe()
+9a04af3993d3d0c470f59445d043235976e17190 net/mlx5e: Enable striding RQ for Connect-X IPsec capable devices
+39863bd615051f5af542c00cfadbd72893c1d468 net/mlx5e: Enable XDP for Connect-X IPsec capable devices
+1a4cb0a9c78cc0045fa342ea2ee535b63677b3be net/mlx5e: Don't change interrupt moderation params when DIM is enabled
+68a9209051d97a51b09bebe806edd62d45ac6aee net/mlx5e: Change interrupt moderation channel params also when channels are closed
+7fbbc11fc1d6300c52783cfd36fb891d635b5b1c net/mlx5: Fix health error state handling
+4a4270cee8976f4c40666bdd7263ee2ef86bdff7 net/mlx5e: Replace synchronize_rcu with synchronize_net
+b9a3d89eff466f4e9616e979ed4f84a2ab95bcaf net/mlx5e: Fix CQ params of ICOSQ and async ICOSQ
+8724054030ba0c5ae44519abf4a759a14fed30ec net/mlx5e: kTLS, Use refcounts to free kTLS RX priv context
+19d995b7acb5a23b299a49ff504ea993d28b8c6e net/mlx5: Disable devlink reload for multi port slave device
+1c95c2ef628f802d4bc5e40145fdb7358be90688 net/mlx5: Disallow RoCE on multi port slave device
+55c0d96f7b3ec8256dee99cb1c26a3f02aea731b net/mlx5: Disallow RoCE on lag device
+172f41dd040c83d78a07a9d0d24451ed9882c5aa net/mlx5: Disable devlink reload for lag devices
 
---===============7963310294040262075==--
+--===============8380678555918034956==--
