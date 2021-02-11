@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 11 Feb 2021 13:03:03 -0000
-Message-Id: <161304858390.7971.12462142746235297457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Thu, 11 Feb 2021 13:03:06 -0000
+Message-Id: <161304858651.8037.17817254603690771424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/heads/main
-    old: b79d2396bc630bfd9b4058459d3e82d7c3428599
-    new: 80cb579614ee576ae74e650fa0b43d9f7c212039
-    log: |
-         80cb579614ee576ae74e650fa0b43d9f7c212039 rtw88: RTL8822C: Update normal firmware to v9.9.5
-         
+  - ref: refs/tags/v2.6.39-rc6
+    old: 8630f22a089f0d777893ee6a53eb3e6acef06044
+    new: 0000000000000000000000000000000000000000
