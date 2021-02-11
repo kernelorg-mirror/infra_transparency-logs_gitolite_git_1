@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Thu, 11 Feb 2021 13:04:45 -0000
-Message-Id: <161304868557.9854.15945097207440858551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Thu, 11 Feb 2021 13:04:49 -0000
+Message-Id: <161304868984.9960.9421524820258306478@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/tags/for-linus-5.11-rc8-tag
-    old: 0000000000000000000000000000000000000000
-    new: a86e8f4772a081cb92c2351bc220c915c2fab28b
+  - ref: refs/tags/v3.1-rc9
+    old: 38a181c9f494c81d7d2327861621c0e04018bc6a
+    new: 0000000000000000000000000000000000000000
