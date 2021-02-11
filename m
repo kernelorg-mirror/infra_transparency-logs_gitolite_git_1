@@ -1,42 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3867328322108285003=="
+Content-Type: multipart/mixed; boundary="===============1128130673205063710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Thu, 11 Feb 2021 17:23:25 -0000
-Message-Id: <161306420572.11200.14480841639202954164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 11 Feb 2021 17:32:22 -0000
+Message-Id: <161306474206.16384.13271145157423895859@gitolite.kernel.org>
 
---===============3867328322108285003==
+--===============1128130673205063710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 4b9091e1c1948dea3b0b097496f308ede897d665
-    new: e0cb42dce764a6ad7783cb6a34e409177faa7539
-    log: revlist-4b9091e1c194-e0cb42dce764.txt
+  - ref: refs/heads/char-misc-testing
+    old: 48139bad913d660d1f6a72ee215297e6749bc6f1
+    new: 06c18e28c402ecfb842df8e22a19a097c35ffca9
+    log: |
+         53abf3fe831756261f399dad03ccc07235296acf coresight: etm-perf: Clarify comment on perf options
+         88f11864cf1d1324f620059ec747d74b72d9d736 coresight: etm-perf: Support PID tracing for kernel at EL2
+         06c18e28c402ecfb842df8e22a19a097c35ffca9 Documentation: coresight: Add PID tracing description
+         
 
---===============3867328322108285003==
+--===============1128130673205063710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b9091e1c194-e0cb42dce764.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2d396cb3b12641adcde91104a7c89994f2e876a6 tracing: Do not create "enable" or "filter" files for ftrace event subsystem
-1746fd4416ed5510fe9fdd6a93e49a436187b680 tracepoints: Remove unnecessary "data_args" macro parameter
-d9a1be1be331fc857d3fe29f86c3a305950b35a9 tracepoints: Do not punish non static call users
-7211f0a25781ace5f79b272318b4c60b5dcfd413 tracepoints: Code clean up
-a1320e0c2fc834264fa2125ef5c40670dbb5b736 ftrace: Remove unused ftrace_force_update()
-33b1d14668859626bf96958e38042b0ed8a22a68 kprobes: Warn if the kprobe is reregistered
-d262271d04830e4b5009f4a5cc64934d86b49832 tracing/dynevent: Delegate parsing to create function
-c9e759b1e8456a460f258fcfe9682003fcf03938 tracing: Rework synthetic event command parsing
-8d3e8165232322eb32b1404f97690d05fdfd94ef tracing: Update synth command errors
-8b5ab6bd0b293408ed8c9450831f879ce9903ea2 tracing: Add a backward-compatibility check for synthetic event creation
-b5e7014fe1c4926dc2093b6c30bd332b6f447cf5 selftests/ftrace: Update synthetic event syntax errors
-e0cb42dce764a6ad7783cb6a34e409177faa7539 selftests/ftrace: Add '!event' synthetic event syntax check
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613064732 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1613064732-3ef4b3f19b78cecc1258f10948e8583634e146bf
 
---===============3867328322108285003==--
+48139bad913d660d1f6a72ee215297e6749bc6f1 06c18e28c402ecfb842df8e22a19a097c35ffca9 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAlahwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/BwP/0+n2p/NzyvzmSmFbKYB
+MCVTiOcqotbv8wOTcISQ3QGZXWc1iJlWeQv2eQlhfah+YT//yqxthDrLXU/HRsek
+9xjB4sAhSunj4WaNnJbAfuumksssAXAstCZNxSQdBq8fHMFVBL5XI64hDb01qUdh
+3bm5o37N0QO4Z0F/a1O/qbeNDpdYXW+LlPsieurjcGCanmrqtxa/hsBRzTemI+74
+JC5E/qki/K1TfvI/Wb4t8MrMCOK/CmlpzLSFlCL7bK6Y2PkC41uZE4PAUmsd85Iq
+w5NdYa1Ui8UiGCvgIqPj93JrSoxv8is0tskWbGQHylcFzHkBRG5uobZp5JcnWm4P
+Jjm5/MpRjOsig3YRUU7gA7/N27JwJpSNTUKg30gWuvvCx2FHMgrIMmYJy5x2S0uF
+SpKCd9Bh+mDPg1vPDA04EgW4Bx38ereKYM0GzqXzEoZMHDBTpNce/df5ga7trDhB
+O9i5RpmZfLv46DCxuXR0rGcAh+amqFIxGUC092cEwJEl9wwoinffU9yXL4yyZIMU
+AfkbQKGef+y7MUeG/5bno2tmBJqhjlFvUmi54TDwsUutyRU+NL5iNBXDbIZ7bs88
+Os72R7mTDQN7zSV2LsrxXaHWNwHNCNWn47lm+qGTOhw248mVuybH+gsqp2kbMIX4
+IVWu2WIljY1AXiyte+KVPaSB
+=RJ6f
+-----END PGP SIGNATURE-----
+
+--===============1128130673205063710==--
