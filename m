@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 11 Feb 2021 14:30:33 -0000
-Message-Id: <161305383343.31912.8812496300089125993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 11 Feb 2021 14:31:20 -0000
+Message-Id: <161305388083.32196.18101282048156414301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/dm-5.12
-    old: 4f6914506e64e70d5d88d1a78e01ff0c74b20119
-    new: 8254ebfdb2a37bd57a14fdbe86064f1ce7e81779
+  - ref: refs/heads/main
+    old: 80cb579614ee576ae74e650fa0b43d9f7c212039
+    new: f7915a0c29fee27a310cebd7155b9e3a6eb71a1d
     log: |
-         a764e8287e029175aa452dabc572efce095032f1 dm: simplify target code conditional on CONFIG_BLK_DEV_ZONED
-         8254ebfdb2a37bd57a14fdbe86064f1ce7e81779 dm: fix deadlock when swapping to encrypted device
+         f7915a0c29fee27a310cebd7155b9e3a6eb71a1d amdgpu: add initial firmware for green sardine
          
