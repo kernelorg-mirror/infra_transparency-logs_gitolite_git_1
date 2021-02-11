@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Thu, 11 Feb 2021 03:37:34 -0000
-Message-Id: <161301465499.1717.17469023425696899407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 11 Feb 2021 03:50:03 -0000
+Message-Id: <161301540397.10120.2485282809133286657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/clk-next
-    old: 4a323a5617d4b7e324d5929dab63051b803d09d9
-    new: 33810fcb5437abf2b181d4a2b32882bb2057e4f6
+  - ref: refs/heads/for-5.12/drivers
+    old: a2d52a6c1b6764031b6cac7cc156530cbb38248c
+    new: 597886836164ef18b76faea7304357556fe29da9
     log: |
-         dcd48b25c682106335d48c040eeaaf0ff5575c38 clk: meson-axg: remove CLKID_MIPI_ENABLE
-         31035839540e3f1669f9e47222108e9278651943 clk: meson: axg: Remove MIPI enable clock gate
-         e3272b0bc9d6f4cb0032e422c5bd4f93f994a913 Merge tag 'clk-meson-v5.12-1-fixed' of https://github.com/BayLibre/clk-meson into clk-amlogic
-         33810fcb5437abf2b181d4a2b32882bb2057e4f6 Merge branch 'clk-amlogic' into clk-next
+         597886836164ef18b76faea7304357556fe29da9 block: Replace lkml.org links with lore
+         
+  - ref: refs/heads/for-next
+    old: 98dfac43c7dc049298a0a0959ae36b1cdaf0f15e
+    new: 9752fa48fe9d7862c6729bc13d3ffc7df72931a4
+    log: |
+         597886836164ef18b76faea7304357556fe29da9 block: Replace lkml.org links with lore
+         9752fa48fe9d7862c6729bc13d3ffc7df72931a4 Merge branch 'for-5.12/drivers' into for-next
          
