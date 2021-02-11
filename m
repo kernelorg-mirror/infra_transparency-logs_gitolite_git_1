@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0066673248868131377=="
+Content-Type: multipart/mixed; boundary="===============5376112297266399021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 11 Feb 2021 15:01:53 -0000
-Message-Id: <161305571305.20445.12137152076897979849@gitolite.kernel.org>
+Message-Id: <161305571366.20514.8493082511066574892@gitolite.kernel.org>
 
---===============0066673248868131377==
+--===============5376112297266399021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,71 +16,71 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 8d40649d3948c3872e88968a5188d20d7768d4b7
-    new: 30e16c3fd5acd42264d873aacb75891f3cd202c4
-    log: revlist-8d40649d3948-30e16c3fd5ac.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 5dbf77de83c96954e223d615c54436a24ea8fa7a
+    new: 539f3bba2f5bb16b852f7d0cf50f8d39d0c4c4e3
+    log: revlist-5dbf77de83c9-539f3bba2f5b.txt
 
---===============0066673248868131377==
+--===============5376112297266399021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613055711 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613055712 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1613055710-d97f55ec9b702f03647ff1d177f5ce2784a6f67d
+nonce 1613055711-d146eaff9a3d05fa999dc22935b422ec4f1d7450
 
-8d40649d3948c3872e88968a5188d20d7768d4b7 30e16c3fd5acd42264d873aacb75891f3cd202c4 refs/heads/linux-4.19.y
+5dbf77de83c96954e223d615c54436a24ea8fa7a 539f3bba2f5bb16b852f7d0cf50f8d39d0c4c4e3 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAlRt8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1VoQAMXCyse29numSUd7RbVk
-CNELckit8P8nJ5TwClvTmyx7fpb1eD3WZ2CnOL4GFkDSE41ESA3wPaewSPzcumMJ
-oQKe5fhcI2xBuuoVxyzYhl+jE109lChb7YnicJ/qD+g5cZ2zOpPYysZ0CPBCiM0F
-9mvAS7JIt0gJkBKkTF+yE2I/57kB0bv8iLQATPDTOc/eea4+T7GrW0OLLE9TfGWD
-445oDRzqUBBAuswmBlYFx+aWrnVUayVvernPlIiO8MH/oIvQ0tMN72iDAsJ9bsWJ
-1Bies7NurUM96JdJR5pNWF0+65RVroJzCNBekkVy/etce0FdNdyZG1vSqegpiDtI
-RE/8S8lGh8nkVTjk9nMGXV+GlU4Y6o/9IwcjVCnYrR7NpxKOs1DhXeW1AKVURetK
-70BrRhc/GdK2ZftvD7kVMC8en0kZIK4z/1HKe3Rz7TDv+LSDIQYTt1g56N7qD4JS
-qp+7lJX9pVrM8lCiTPLRlp9CN9EL/scDCn0JjU0WxA1sXpM4reopLS9iQ4WX7Gy0
-D/MkxFn8zKd0JEdE/gYyWth/l0CzetbwXCCu01sJNoAOHyo713X3X44mhpzmPVym
-0Y6nmyfxwySBraIbAynbUjngwQejpQN/jNEcFs2tyftvPE64XyX4fI+2XwRdiie1
-SL7ANcwlNfhFGkV1DsIA4x36
-=E8nW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAlRuAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+76QQAJR8rNOHrkkPtksYSXFB
+HS2fBNhzq4dND0Duu0XDzx7QgqbTrvi2wHU2TTZ+/8IQq4mti5EH7P4YoHblfRDt
+t6Q5mqYLZR42G59sLK5O/aKnf3lrRHlnX/I9GqSksdVdkjsJnytIizNtRcu7fp5n
+piMtcMnFQWob1cJlrDy49Xxgi/lA1/qMxRwg9SWIceq8gpj6Ndcrp7gHwIDDaV8Q
+4rpUGnJmU9VXcT+6tXlIAp9+tQPGqFEamLJtmm7iXr78z5RMArLIvHrxaKhZVM68
+vfyxpqsJPGMz2ZP4ZIBfAWKbKzmP4tAafI668CCkk6lr2QBF+pmhTcYwOin8giYH
+Y+hOoFBoTpJ/hZhHqItZODupLbT+saE4jGN3OwLa7SNDXkqv37jxi8/CixnTVnM4
+Q900++yBxE5yIsgbbK2MFWn8X+ZuX+fYoIPG9chaQKTP7c2p6eh0GOuif7NfeC5A
+ze+nzyy/qVDovgGV7qXTn/RM1EstnBQPKmRlh1fV7eKWtL5D6x+ZzbubC2DpZI92
+UvZ0wJUj1IsDvJ3A4x6sLqs3vN7636X0KYWUQC8T989NtFhKArUUV+6n0ZEYMG2o
+yTSVHGbbF0C/RDp1WIkChKQI+NAsvVEp8eG3VsDT60hI8CAeiZK+g+3h+xolFpAd
+Ts17DRbGMfJ/saP8XyQZHkM6
+=ljip
 -----END PGP SIGNATURE-----
 
---===============0066673248868131377==
+--===============5376112297266399021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d40649d3948-30e16c3fd5ac.txt
+Content-Disposition: attachment; filename=revlist-5dbf77de83c9-539f3bba2f5b.txt
 
-aaecfca743f122fafa390a1431ca8ef341d17509 tracing/kprobe: Fix to support kretprobe events on unloaded modules
-a5c792c8929db1a34b5c0d8e39563dcad171671f block: fix NULL pointer dereference in register_disk
-be853cf9591db0110255801d238f750a965d8621 fgraph: Initialize tracing_graph_pause at task creation
-eaec546bf5c8d5be51c4d7a50d9800a2eaa5cdfc remoteproc: qcom_q6v5_mss: Validate modem blob firmware size before load
-ebb047b1c6a9587f8352ecd15491cfc4c8db58da remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
-e54a86ac77a3474c27e97cb8ab27fe4893b58ec0 af_key: relax availability checks for skb size calculation
-5f760b0a581292d1ecf2c659900d607df985a960 regulator: core: avoid regulator_resolve_supply() race condition
-84960041fd6f25ac6b0af1cb120cd562d6350940 chtls: Fix potential resource leak
-59966804839c4f1af49b1723087a2092a3659665 pNFS/NFSv4: Try to return invalid layout in pnfs_layout_process()
-b56ea52ad0d12bb0a57b26795b20e118d982de46 iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
-4d21f3cf75e72086b4af75de740cba59e9f90b7c iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
-a34f6112eb08cd3976543b6882872345981b3bd4 iwlwifi: pcie: fix context info memory leak
-089dc8689f81aba0c85ca9a940c9946e01f38194 iwlwifi: mvm: guard against device removal in reprobe
-408a645409b525850a61cecb3644ac711edfd6c0 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
-0dfc8b0378f384bd3adf94f2d1bb960335cdfb2f SUNRPC: Handle 0 length opaque XDR object data properly
-7e90bf26f9da362b222f2af90aa9b5bcfa7a22af lib/string: Add strscpy_pad() function
-f6923653f0f14fac9fe4f1d075bd9f917719e612 include/trace/events/writeback.h: fix -Wstringop-truncation warnings
-cc7242a40b24bd59e8367b7db1cdc83f851b493e memcg: fix a crash in wb_workfn when a device disappears
-dc48f317713d67847bd4f4d4d19a359a3944d9c2 Fix unsynchronized access to sev members through svm_register_enc_region
-4c69a65cc082738dd4ebbd1bb86532dd2c39e3d9 block: don't hold q->sysfs_lock in elevator_init_mq
-90f65befae9b039a2b07172cb4abd50c8989db33 blk-mq: don't hold q->sysfs_lock in blk_mq_map_swqueue
-feaf347bf2956f5cfa1fd3e6ecefa58e44134efa squashfs: add more sanity checks in id lookup
-f83436ba3729b3523c447339e805410a124d1bdd squashfs: add more sanity checks in inode lookup
-2cc3d1551196b89f2a622dfd31b407575ba7cf5d squashfs: add more sanity checks in xattr id lookup
-30e16c3fd5acd42264d873aacb75891f3cd202c4 Linux 4.19.176-rc1
+235ce85f09324fd637bc6825b54f2de3ff243644 tracing/kprobe: Fix to support kretprobe events on unloaded modules
+ac5ea849fc4e3630dcc2b309cf3a9ec083b1a6a4 af_key: relax availability checks for skb size calculation
+d51c97aed24c29b89e9051525ae88d085dcaef12 regulator: core: avoid regulator_resolve_supply() race condition
+604131967a714f6a3241354cfd1a45222448880b mac80211: 160MHz with extended NSS BW in CSA
+44a7b727d6c050e8bad01737fa33fecb2843dff8 ASoC: Intel: Skylake: Zero snd_ctl_elem_value
+3252961503ca3a865a4ddafd9b6a73df3d2e3439 chtls: Fix potential resource leak
+4d902e1d48d9bbcfdd41cfd421be8704092cf111 pNFS/NFSv4: Try to return invalid layout in pnfs_layout_process()
+6bf861fa7e73b5d4b79fcd2ff5cba9a716a3286b ASoC: ak4458: correct reset polarity
+76cbed9f080a9d2957bcbf64a8404be952763dc3 iwlwifi: mvm: skip power command when unbinding vif during CSA
+846a70ca03e603708c0499dc5ec542680a343049 iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
+f7ab3057ed6b2cfb06b9161da7294aa5664be5e5 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
+854c2d59022d14c898c18849b7f116782869d3d4 iwlwifi: pcie: fix context info memory leak
+0ee8dd517452f9006b370dd9e207e14a5970df4a iwlwifi: mvm: invalidate IDs of internal stations at mvm start
+81f79368616307949cb6bb31e9a30bf9dee1fbce iwlwifi: mvm: guard against device removal in reprobe
+8073607dd6db22d7c7960de338ae916c57e66a4c SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
+a84a39dd69fccf5b5ad9c9e8b3861f47f274ea15 SUNRPC: Handle 0 length opaque XDR object data properly
+331d6f6b1edf67151a315ce50cbef74979deacdc i2c: mediatek: Move suspend and resume handling to NOIRQ phase
+e87f0d44c8584df0290279be59f47640ef6e29d7 blk-cgroup: Use cond_resched() when destroy blkgs
+ed4701a0fe1c6366bdd1ee567c185a3414f63f8d regulator: Fix lockdep warning resolving supplies
+8c2f34f930412babd7043019a5dbf0fd6950210b bpf: Fix 32 bit src register truncation on div/mod
+0c41860de17c366e7031bfcb5606327dc96b6177 Fix unsynchronized access to sev members through svm_register_enc_region
+4e59103908750253c99d5df7df74fd9dc25c61b5 squashfs: add more sanity checks in id lookup
+1c1dffd4eb43a5f84d738d9226081db29435f0b5 squashfs: add more sanity checks in inode lookup
+bd0a0c416d1f3c7bd69ff1da2c9b5cedb2ef6db0 squashfs: add more sanity checks in xattr id lookup
+539f3bba2f5bb16b852f7d0cf50f8d39d0c4c4e3 Linux 5.4.98-rc1
 
---===============0066673248868131377==--
+--===============5376112297266399021==--
