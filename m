@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Thu, 11 Feb 2021 13:35:43 -0000
-Message-Id: <161305054315.22155.6224256180705096771@gitolite.kernel.org>
+Date: Thu, 11 Feb 2021 13:35:47 -0000
+Message-Id: <161305054780.22224.15612603138364322701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ribalda/linux
 user: ribalda
 changes:
-  - ref: refs/tags/v5.4-rc4
-    old: ec0c8d6258a65ee84f63cd0507aa444f54507d54
+  - ref: refs/tags/v5.4-rc5
+    old: 9e8d1fa52a51b42513fcba3b8aab4fa36d234e99
     new: 0000000000000000000000000000000000000000
