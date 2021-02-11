@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1833575426709427262=="
+Content-Type: multipart/mixed; boundary="===============2535462894788457721=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 11 Feb 2021 15:01:50 -0000
-Message-Id: <161305571002.20264.4483719575266989225@gitolite.kernel.org>
+Date: Thu, 11 Feb 2021 15:01:52 -0000
+Message-Id: <161305571223.20360.15104629279401952256@gitolite.kernel.org>
 
---===============1833575426709427262==
+--===============2535462894788457721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,63 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 320435092324f8b3801dfd86d5a01be85c909669
-    new: 68681141084387f3348c5d97f28aa895673292df
-    log: revlist-320435092324-686811410843.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 15fe25d47ea7a4812dd45cbf09664c6a752a654c
+    new: 0317491e2730fe6d5203cc060f27aeb30719b339
+    log: revlist-15fe25d47ea7-0317491e2730.txt
 
---===============1833575426709427262==
+--===============2535462894788457721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613055708 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613055710 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1613055707-b8bdd67dfd276606c844c37b6842140083532106
+nonce 1613055708-79954986d56900b58cfb6095385a4617156e08ba
 
-320435092324f8b3801dfd86d5a01be85c909669 68681141084387f3348c5d97f28aa895673292df refs/heads/linux-4.4.y
+15fe25d47ea7a4812dd45cbf09664c6a752a654c 0317491e2730fe6d5203cc060f27aeb30719b339 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAlRtwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nh4P/3doY78D2KAs3eR5olF0
-UHk+pGh4JSbuLXOpnqMvkn6FqMLmT1zYh1I5v1tCKEUw+dpLstxhRqX7ep6acCL0
-EWENlgQKm05AAHNSmfrpxqIMTnmQkK0MBYMB2/uk8AJYwEwVY5zH6phwhXc7UG2g
-N0T+VyWRHp9w8XRjL4VIBF5+P7YUXeh/mJwwAAVVlwJ7KUpQyBYP0NxaEdoOkbNc
-n+mF4tR0a58J8qnJt14y4DKEw+o4tfG+y9u4ofuj0JITzaImsJVE+IV80pads9T1
-i/cyZqvhxRnjZeZ7QNQP8iVQ2VH49dGoeHbHtBTElbCRsxqFuCRNhvns41vC0fJH
-99vDUIFeFxFFfn7TZfGdm9EZB1qvP8npJs60VaN8lOH66UmgBR+jU3Y0G03SUFtq
-X4ki+zgqSEanmGw112kIkMWcrb7qAwYmb6tCRUgwv/Gsju6tFQ+n1S6tFzUe2g70
-RUO9LBXIxPRxsSN3cPR9tFiuWxW+HjVO/PVwRiLdHiCvcmyE/ULQCdpzvk7PTm5s
-lQp4zAvkdIhXqIdLqRRAyfTIjk/+qjClQJ2i50Kefc3acLRfCDmaL7zsvelTFhrV
-rD+M4B6nd0ibA/P+uDV81ZnTRUTrNOU16tJp9aQEnUx5hJA7G/cDVLAT/Kwn8Ezq
-bMDo7dBLWUQQrp55T0zewDZi
-=YrD8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAlRt4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P1AQAKCvi68qS7DT832X3sED
+b5Jawcd8CHXCQ9VkPb55zHWR5htTfuFnqbIwAfOVE6ePg5ELc4bKb8MvJNsKErXU
+VFZ49ll3ZFHD8ZjcRUr6Ro2Y0zuiKleySIoYJHVSQDYQlAZB5fM+EKKwQZKFNjJX
++PncMMx32urLKn5s2R8+KaFq57j+syOfXWnRHJ/vDKpFdO+iYdB8wPW+DF6Ye6SI
+kBvgHr+18dIObCdxZgN6HSDYVt+pfvt296GaPFNpuRCoeFQHYA8BiN9VK97mFF8q
+yx3Vce72zLLcy3ysMYrGLHm1tr+O7h2loJ1isbZXYvOb9YBYeKy8QLaZkTdCDb73
+NSpBLcgXCnqxxD+3R+0QwSwJNWHCek0sSCTyQ5uOlkRGvQPuDw/qxAaGGi3E26NO
+o1yGHFHrmX41mHsxzWJjp8Ov/cPMkDMM5hlVaPb2nSzwtuRohmkJsrxg3iG/R3Ez
+RGO+oIlPP3xoXkkjFZY8AHiRyPd8dgWZYa8WmHGjjcbpZmhF8kZlKBbv4d2cWCWD
+yXc0pKnVPC6bQ+96WiQhqLo0eDHMMqNj5HhIdxzfKwEPwROGWsi0zGAhNcFupLBV
+A7lIuirIsTfcxmXoXb0UHdoO7TZ1Behji1yR4K/23EMopCbxUk/5VNxqTgSa5aGu
+eMLnxagpmPYjgw7ueiedhKDa
+=izfR
 -----END PGP SIGNATURE-----
 
---===============1833575426709427262==
+--===============2535462894788457721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-320435092324-686811410843.txt
+Content-Disposition: attachment; filename=revlist-15fe25d47ea7-0317491e2730.txt
 
-2f411bb668ecde21af9e76c4e30b7b978289d5f6 fgraph: Initialize tracing_graph_pause at task creation
-dfa8920795b14c8e3007ee03df5839bcb3935c4f af_key: relax availability checks for skb size calculation
-6763549650379b926c302ffa11e4ec746e9e313d iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
-18a158bc2c480b4a3986918f1f198525ef198cb5 iwlwifi: mvm: guard against device removal in reprobe
-209cd0c61a68cc0ed694f6faeb9e6b0ed76ddfae SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
-d17a2a193a78c0b7e3485c33d3b834adfcf2c34f SUNRPC: Handle 0 length opaque XDR object data properly
-b229e651348881945e66039e0db29a6b66bae592 lib/string: Add strscpy_pad() function
-d676d3d5100dc44276f61b09f89ced96d0450c74 include/trace/events/writeback.h: fix -Wstringop-truncation warnings
-59b40a3817c7fa3870ddd122eb6d59dcdebaeb7e memcg: fix a crash in wb_workfn when a device disappears
-cf8f437c3e2df0942ec036025408d634534d7c6e squashfs: add more sanity checks in id lookup
-666dc4b2eb38805b6d51620236abb2c31ee3cc3a squashfs: add more sanity checks in inode lookup
-a39ce3f606e4f496733aa7b0bdd930fd1e414b58 squashfs: add more sanity checks in xattr id lookup
-68681141084387f3348c5d97f28aa895673292df Linux 4.4.258-rc1
+cf6e45561a65ab06aa6ba7afd699f641efcd256a fgraph: Initialize tracing_graph_pause at task creation
+04e423eb4513c41900083640c11e7d2c3f2b08d0 remoteproc: qcom_q6v5_mss: Validate modem blob firmware size before load
+a4b387ba9b444e2614acf3cef555caa67b62546f remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
+afa4f693bc5c2bb1ec54e894c1656d37262f4bc0 af_key: relax availability checks for skb size calculation
+df957a912555557e204239194ca7f0540aba1206 pNFS/NFSv4: Try to return invalid layout in pnfs_layout_process()
+adce111e7c23601fad9fac091307abe592e810fe iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
+f32c50b9ea85374f39a9849ecec740c829eb69cb iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
+d1f7dfbc9411d9e5245936d10fa935310a9e1b73 iwlwifi: mvm: guard against device removal in reprobe
+f0d8e9d49e76184af1ccffa47ecfd32c02440d9e SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
+f65c54ed6bf874ca40e93357fb904eced6af6fa6 SUNRPC: Handle 0 length opaque XDR object data properly
+410c26d463595668018f5faff491f570f4c8fb01 lib/string: Add strscpy_pad() function
+c56c5c0c34992a565de397212dd37b30ca96090e include/trace/events/writeback.h: fix -Wstringop-truncation warnings
+12d0368c2b8a892a04ba7609925b31a1926bfe89 memcg: fix a crash in wb_workfn when a device disappears
+7c2b0733fb382c0b81220b39ed16808c3f1ff310 squashfs: add more sanity checks in id lookup
+497b15cd1edc43a652becf2d95b8f3cb07372229 squashfs: add more sanity checks in inode lookup
+4d486c648d195a52303a8dd33a9429abde52b91d squashfs: add more sanity checks in xattr id lookup
+0317491e2730fe6d5203cc060f27aeb30719b339 Linux 4.14.222-rc1
 
---===============1833575426709427262==--
+--===============2535462894788457721==--
