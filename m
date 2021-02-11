@@ -1,53 +1,97 @@
-Content-Type: multipart/mixed; boundary="===============1645754788980214840=="
+Content-Type: multipart/mixed; boundary="===============3766066296694403600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Thu, 11 Feb 2021 08:49:56 -0000
-Message-Id: <161303339687.29557.13468501726994042390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Thu, 11 Feb 2021 09:42:05 -0000
+Message-Id: <161303652569.12698.14063712778064290507@gitolite.kernel.org>
 
---===============1645754788980214840==
+--===============3766066296694403600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 9c9e1c68259d6cf8a348289fd13ed8f320c0d662
-    new: fb5ef35165a37ca63ef0227657eabd06f0a39cf9
-    log: revlist-9c9e1c68259d-fb5ef35165a3.txt
+  - ref: refs/heads/rdma-next
+    old: 1c04be2764aa6be0c30fef67c66f7d518c704260
+    new: 5fa8714a888b18f11c954f2ed31c0f9c6dd6e9a7
+    log: revlist-1c04be2764aa-5fa8714a888b.txt
+  - ref: refs/heads/testing/rdma-next
+    old: 773156abbe37e0db5ae1d4a59e09293205db008c
+    new: 6df3d9f33ff1da6e66fed3590445b1a556127af1
+    log: revlist-773156abbe37-6df3d9f33ff1.txt
+  - ref: refs/heads/testing/rdma-rc
+    old: ce7ddcbdef13831b67341d6e9fba6364a3dff56b
+    new: 49d83cd7d3eac142246ebab1032901921c6d405a
+    log: |
+         49d83cd7d3eac142246ebab1032901921c6d405a Merge branch 'master' into testing/rdma-rc
+         
 
---===============1645754788980214840==
+--===============3766066296694403600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c9e1c68259d-fb5ef35165a3.txt
+Content-Disposition: attachment; filename=revlist-1c04be2764aa-5fa8714a888b.txt
 
-c068e3f484268458defea3e1a19d821017f88d26 Drivers: hv: vmbus: Add /sys/bus/vmbus/hibernation
-bdb49526d25b076af4bd31b2fc66986ff0df1127 hv_utils: Fix spelling mistake "Hearbeat" -> "Heartbeat"
-a6c76bb08dc7f7ff2b1c381002eb6c7211746182 x86/hyperv: Load/save the Isolation Configuration leaf
-21a4e356d3588806307555c149b80cec3dedb180 Drivers: hv: vmbus: Restrict vmbus_devices on isolated guests
-7ef4b2f0d9adb73eb66e1f87f22953169c3dc7f8 Drivers: hv: vmbus: Enforce 'VMBus version >= 5.2' on isolated guests
-96854bbda24febe2cc9231e1f6ffbd3059dc57fc hv_netvsc: Restrict configurations on isolated guests
-78785010d428f7755bf51d1c08cb2566a73dc7f5 hv: hyperv.h: Replace one-element array with flexible-array in struct icmsg_negotiate
-8f1d14cb835672cd27f6533f22f4c73e60a30727 asm-generic/hyperv: change HV_CPU_POWER_MANAGEMENT to HV_CPU_MANAGEMENT
-e997720202b363ba8000d769f114e3c2c5822227 x86/hyperv: detect if Linux is the root partition
-7e279d78664aa91107ebff4b03eca367967f5908 Drivers: hv: vmbus: skip VMBus initialization if Linux is root
-7d4163c8315729140ad99d6e1ab10dfc7a685640 clocksource/hyperv: use MSR-based access if running as root
-5d0f077e0f413b7eca827b16ea8bfc4569e3946c x86/hyperv: allocate output arg pages if required
-99a0f46af6a7715147e81c558d558021aad4e207 x86/hyperv: extract partition ID from Microsoft Hypervisor if necessary
-80f73c9f7468b15484e3ee4a29870fc9fa0419cc x86/hyperv: handling hypercall page setup for root
-4f0455cf6f23800c78265c88922c6afd875d08a7 ACPI / NUMA: add a stub function for node_to_pxm()
-86b5ec3552f3c09694e6f7934834b0a2a3aeebbe x86/hyperv: provide a bunch of helper functions
-333abaf5abb396820c4c7c26a8eecc7523c99184 x86/hyperv: implement and use hv_smp_prepare_cpus
-d589ae61bc27b2b9aaac0bf20a9077b6fbda32b6 asm-generic/hyperv: update hv_msi_entry
-b59fb7b60d47b2af3a114daf0ae198aa23921698 asm-generic/hyperv: update hv_interrupt_entry
-12434e5fb6aed4655340ce74cd2a0dd859dff5bd asm-generic/hyperv: introduce hv_device_id and auxiliary structures
-466a9c3f88d04152ca83e840ca940c5f700402ac asm-generic/hyperv: import data structures for mapping device interrupts
-e39397d1fd6851bef4dfb63a631b8e15d1f43329 x86/hyperv: implement an MSI domain for root partition
-fb5ef35165a37ca63ef0227657eabd06f0a39cf9 iommu/hyperv: setup an IO-APIC IRQ remapping domain for root partition
+8b2810fa4e395c243b3f600e3d922a9d189c83a8 RDMA/hns: Adjust definition of FRMR fields
+2b52f1bca948ce2909abd184eb1299b566d4795c RDMA/qedr: Use true and false for bool variable
+2428cde75c69584107931fe9ece6617b2b89eb14 RDMA/core: Fix kernel doc warnings for ib_port_immutable_read()
+3f1ffcb7a922b8f9c00843ec4c11d73d7df24bcc net/sched: Don't print dump stack in event of transmission timeout
+8d95954bfe6f63d0bf1e348eb609139394855304 RDMA/cma: Be strict with attaching to CMA device
+9e182b6a36382ae5ef00e67eb10b92495d3b2eca RDMA/restrack: Add error handling while adding restrack object
+7201b77a8e4e7e782c9332709ce8e0035670c0b4 RDMA/restrack: Drop valid restrack field as source of ambiguity
+640de33d9ea2d23475526484f91760d2e1825075 RDMA/mlx5: Add ifc bits for new pattern dm type
+e18cf3d09e87e22adf2c1123ce8867ecd4544293 net/mlx5: Add support for new pattern DM management
+32c1c394764860801cf01f865bb3251070011c27 RDMA/mlx5: Support allocating modify-header pattern DM
+f72166502d99592f17e701350e11772401d038ae RDMA/mlx5: Support new type of ICM memory to register by MR
+ac1310b219f151ee3686af863f09257b9b62f62b RDMA/core: Introduce peer memory interface
+33867ed349d21cb3f9f6679fddf6527bc2fafe94 ipv6: silence compilation warning for non-IPV6 builds
+b582981a0915a407aa097843df22fce231d2bc54 ipv6: move udp declarations to net/udp.h
+452686239d1f6c453daad2c3556d80e6889882c5 net/core: move gro function declarations to separate header
+aab773e4140f3e7c681d6bc565c400fef073b92b netfilter: move handlers to net/ip_vs.h
+3f70340e4dbc23b8f71db44650c5ecdb524ab54b net/mlx5: Add new timestamp mode bits
+421be2a67800b6bf2e7abb6ee6b18ca2d098820f RDMA/mlx5: Fail QP creation if the device can not support the CQE TS
+4c3f02f8c2a7ea8c6204202db1a2e759c4c00c88 PCI: Add sysfs callback to allow MSI-X table size change of SR-IOV VFs
+7cdf0add5c3c060d2725f1881435188ff4a0a93e net/mlx5: Add dynamic MSI-X capabilities bits
+3637cd68a2cd21fbae245c35a1af327fe729976a net/mlx5: Dynamically assign MSI-X vectors count
+f4af0f4259a444974c353aeca4853a39dec920e1 net/mlx5: Allow to the users to configure number of MSI-X vectors
+af19b84c30b02a75afbf37398ca39b57e31a7119 RDMA/ucma: Fix use-after-free bug in ucma_create_uevent
+5fa8714a888b18f11c954f2ed31c0f9c6dd6e9a7 RDMA/mlx5: Allow CQ creation without attached EQs
 
---===============1645754788980214840==--
+--===============3766066296694403600==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-773156abbe37-6df3d9f33ff1.txt
+
+8b2810fa4e395c243b3f600e3d922a9d189c83a8 RDMA/hns: Adjust definition of FRMR fields
+2b52f1bca948ce2909abd184eb1299b566d4795c RDMA/qedr: Use true and false for bool variable
+2428cde75c69584107931fe9ece6617b2b89eb14 RDMA/core: Fix kernel doc warnings for ib_port_immutable_read()
+3f1ffcb7a922b8f9c00843ec4c11d73d7df24bcc net/sched: Don't print dump stack in event of transmission timeout
+8d95954bfe6f63d0bf1e348eb609139394855304 RDMA/cma: Be strict with attaching to CMA device
+9e182b6a36382ae5ef00e67eb10b92495d3b2eca RDMA/restrack: Add error handling while adding restrack object
+7201b77a8e4e7e782c9332709ce8e0035670c0b4 RDMA/restrack: Drop valid restrack field as source of ambiguity
+640de33d9ea2d23475526484f91760d2e1825075 RDMA/mlx5: Add ifc bits for new pattern dm type
+e18cf3d09e87e22adf2c1123ce8867ecd4544293 net/mlx5: Add support for new pattern DM management
+32c1c394764860801cf01f865bb3251070011c27 RDMA/mlx5: Support allocating modify-header pattern DM
+f72166502d99592f17e701350e11772401d038ae RDMA/mlx5: Support new type of ICM memory to register by MR
+ac1310b219f151ee3686af863f09257b9b62f62b RDMA/core: Introduce peer memory interface
+33867ed349d21cb3f9f6679fddf6527bc2fafe94 ipv6: silence compilation warning for non-IPV6 builds
+b582981a0915a407aa097843df22fce231d2bc54 ipv6: move udp declarations to net/udp.h
+452686239d1f6c453daad2c3556d80e6889882c5 net/core: move gro function declarations to separate header
+aab773e4140f3e7c681d6bc565c400fef073b92b netfilter: move handlers to net/ip_vs.h
+3f70340e4dbc23b8f71db44650c5ecdb524ab54b net/mlx5: Add new timestamp mode bits
+421be2a67800b6bf2e7abb6ee6b18ca2d098820f RDMA/mlx5: Fail QP creation if the device can not support the CQE TS
+4c3f02f8c2a7ea8c6204202db1a2e759c4c00c88 PCI: Add sysfs callback to allow MSI-X table size change of SR-IOV VFs
+7cdf0add5c3c060d2725f1881435188ff4a0a93e net/mlx5: Add dynamic MSI-X capabilities bits
+3637cd68a2cd21fbae245c35a1af327fe729976a net/mlx5: Dynamically assign MSI-X vectors count
+f4af0f4259a444974c353aeca4853a39dec920e1 net/mlx5: Allow to the users to configure number of MSI-X vectors
+af19b84c30b02a75afbf37398ca39b57e31a7119 RDMA/ucma: Fix use-after-free bug in ucma_create_uevent
+5fa8714a888b18f11c954f2ed31c0f9c6dd6e9a7 RDMA/mlx5: Allow CQ creation without attached EQs
+49d83cd7d3eac142246ebab1032901921c6d405a Merge branch 'master' into testing/rdma-rc
+6df3d9f33ff1da6e66fed3590445b1a556127af1 Merge branch 'rdma-next' into testing/rdma-next
+
+--===============3766066296694403600==--
