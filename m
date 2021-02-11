@@ -1,96 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============9175270893797564692=="
+Content-Type: multipart/mixed; boundary="===============7321547516317105351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Thu, 11 Feb 2021 11:14:23 -0000
-Message-Id: <161304206362.22144.11997819138411637574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 11 Feb 2021 11:15:02 -0000
+Message-Id: <161304210230.22904.13563408830445353318@gitolite.kernel.org>
 
---===============9175270893797564692==
+--===============7321547516317105351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: da2f6e9d93070a97e863f131bf3315fec451c7dd
-    new: 1ff2b8525215545eff0ee69cad36e3d2bbb5b7fa
+  - ref: refs/heads/staging-testing
+    old: 7c3a0635cd008eaca9a734dc802709ee0b81cac5
+    new: bc8392e33d9a6f38e5370815c8d21e3be7e57d8a
     log: |
-         12ff94c02f92ce7b4011f99c16907c6269de1911 Rename verion function to avoid conflict with crypto backend.
-         0738ba2451de6d4633514ffa2006f38a129776b1 Do not hide function prototype.
-         11e7e267f7bad62cb931b37961ce5fd7a0d63a2a Use ISO C compatible __typeof__.
-         f05c9833eeeb636fa479349d3e3f374e9ee375b1 Add a missing stdbool include.
-         fe71fd469a865e81c265fd77eed9ec2d25911af4 Remove unused arg argument from tool actions.
-         85f7ee59f8f7365b7ea6840b38d8d52165958de5 Rename local test keyring check to avoid confusion with intenal function.
-         d703301fe86af18056354fabe25f50b848470027 Mark or remove unused parameters.
-         4471452105078f57a0044a2a0f87135ed5674b54 Remove some stale FIXME markings.
-         76301cef4c62312c59da964a4f6357501aaac243 Use one file for macros and basic constants for the whole project.
-         1ff2b8525215545eff0ee69cad36e3d2bbb5b7fa Rename SECTOR_SIZE in tests to avoid conflict with library definition.
-         
-  - ref: refs/heads/v2.3.x
-    old: bce9d695e3d87b48743aa1080c18cf2f9da4c076
-    new: 1380efa1c650a79f16df8b6120472f08da18652c
-    log: |
-         1380efa1c650a79f16df8b6120472f08da18652c Fix compat interactive test to run with valgrind too.
-         
-  - ref: refs/heads/warnings-fixes
-    old: 293d86566b511c104cabf83624825b2bfa58427b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/134/head
-    old: 293d86566b511c104cabf83624825b2bfa58427b
-    new: 1ff2b8525215545eff0ee69cad36e3d2bbb5b7fa
-    log: revlist-293d86566b51-1ff2b8525215.txt
-  - ref: refs/merge-requests/134/merge
-    old: b4feba89a0ce8631c1a7bbac5f409a3e8dc32e2b
-    new: 87efae824a4941a54d6e14300b6f19705cdd8750
-    log: revlist-b4feba89a0ce-87efae824a49.txt
-  - ref: refs/merge-requests/51/merge
-    old: 49b246193be806c75645a12220e03ac05e19c635
-    new: da2f6e9d93070a97e863f131bf3315fec451c7dd
-    log: |
-         da2f6e9d93070a97e863f131bf3315fec451c7dd Fix compat interactive test to run with valgrind too.
+         3b27f646725a6dded3f168acbae93d014027005a Staging: vt6655: Replace a camel case variable name
+         f20be1bc5ce9f079171aa5a3905819af1b4e2b19 staging: Replace lkml.org links with lore
+         bc8392e33d9a6f38e5370815c8d21e3be7e57d8a staging: rtl8723bs: Replace one-element array with flexible-array member in struct ndis_80211_var_ie
          
 
---===============9175270893797564692==
+--===============7321547516317105351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-293d86566b51-1ff2b8525215.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-49b246193be806c75645a12220e03ac05e19c635 po: update sv.po (from translationproject.org)
-da2f6e9d93070a97e863f131bf3315fec451c7dd Fix compat interactive test to run with valgrind too.
-12ff94c02f92ce7b4011f99c16907c6269de1911 Rename verion function to avoid conflict with crypto backend.
-0738ba2451de6d4633514ffa2006f38a129776b1 Do not hide function prototype.
-11e7e267f7bad62cb931b37961ce5fd7a0d63a2a Use ISO C compatible __typeof__.
-f05c9833eeeb636fa479349d3e3f374e9ee375b1 Add a missing stdbool include.
-fe71fd469a865e81c265fd77eed9ec2d25911af4 Remove unused arg argument from tool actions.
-85f7ee59f8f7365b7ea6840b38d8d52165958de5 Rename local test keyring check to avoid confusion with intenal function.
-d703301fe86af18056354fabe25f50b848470027 Mark or remove unused parameters.
-4471452105078f57a0044a2a0f87135ed5674b54 Remove some stale FIXME markings.
-76301cef4c62312c59da964a4f6357501aaac243 Use one file for macros and basic constants for the whole project.
-1ff2b8525215545eff0ee69cad36e3d2bbb5b7fa Rename SECTOR_SIZE in tests to avoid conflict with library definition.
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613042087 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1613042086-56cdeba4f24cefac5bdcb378dbf67b15b79ee3db
 
---===============9175270893797564692==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4feba89a0ce-87efae824a49.txt
+7c3a0635cd008eaca9a734dc802709ee0b81cac5 bc8392e33d9a6f38e5370815c8d21e3be7e57d8a refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
 
-49b246193be806c75645a12220e03ac05e19c635 po: update sv.po (from translationproject.org)
-da2f6e9d93070a97e863f131bf3315fec451c7dd Fix compat interactive test to run with valgrind too.
-12ff94c02f92ce7b4011f99c16907c6269de1911 Rename verion function to avoid conflict with crypto backend.
-0738ba2451de6d4633514ffa2006f38a129776b1 Do not hide function prototype.
-11e7e267f7bad62cb931b37961ce5fd7a0d63a2a Use ISO C compatible __typeof__.
-f05c9833eeeb636fa479349d3e3f374e9ee375b1 Add a missing stdbool include.
-fe71fd469a865e81c265fd77eed9ec2d25911af4 Remove unused arg argument from tool actions.
-85f7ee59f8f7365b7ea6840b38d8d52165958de5 Rename local test keyring check to avoid confusion with intenal function.
-d703301fe86af18056354fabe25f50b848470027 Mark or remove unused parameters.
-4471452105078f57a0044a2a0f87135ed5674b54 Remove some stale FIXME markings.
-76301cef4c62312c59da964a4f6357501aaac243 Use one file for macros and basic constants for the whole project.
-1ff2b8525215545eff0ee69cad36e3d2bbb5b7fa Rename SECTOR_SIZE in tests to avoid conflict with library definition.
-87efae824a4941a54d6e14300b6f19705cdd8750 Merge branch 'warnings-fixes' into 'master'
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAlEacbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sk0P/AhL4mdLI9xsIT7VD2Lj
+LnKqb2IikEj0Zj1KHV/T/Ch/+bZCcEH/X5ft8PsCs9+1PJbTg3O76xlY3EUVkcbG
+XSSyLIoitmHHBhnBq0FW7Yi6OUrWDOttAz0U8TeIqJXxsw2+Knsci76b+owzRxdE
+fX5uHpvfhdmtmQBNtQfr6icTZaXfMt9FOiFeeWTnxWhXPIRo8M4HmF7sKVqWqVcP
+Y4ms4+WXi2Wmu3N/7qVzXEfCPYiPaVhoBhFWkeefDHKxFRU1I5TvXgIMXUxXWnCU
+z243E4lDOk64jh+R3eyxri7eJmozVsgHv7QhG/VraJukfRppLzGEfHVLa9zmZQMq
+G+nqJ5Ei/nl2K6XLTFLYS5/PivRbXKIuuLELIHyP2IypSuYf5nzTAHkSg2sOGqlA
+i0M4NU1HnQvb2iFBgcw9dJz7Y0fNZLe+i0qVSbAfqe0lm+NTADQeGi7/OMJQ0lI3
+nWzX4yF7CkqKvO+ynhfzUPTTNihzKnxlDM5eLy0FKw5PHxdg0ApR7CUuMZyJwE37
+MUNy7nIqL7yQK6+/3bIpzN9wB/RZipP31W+TeTBzKdSxdIS46XN84x+Fr12dIq1y
+xLNmCGpT3JBS17fsT7nL+l0655+t+F8P83XObAwQS53ZFweIoch98v8zC0PRmucg
+0xUtAccuqOiNrKLAtXGE8bk+
+=g9Cd
+-----END PGP SIGNATURE-----
 
---===============9175270893797564692==--
+--===============7321547516317105351==--
