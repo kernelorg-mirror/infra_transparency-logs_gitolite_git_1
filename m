@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0805062843309390456=="
+Content-Type: multipart/mixed; boundary="===============0446653200116493957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 11 Feb 2021 15:37:52 -0000
-Message-Id: <161305787227.10320.11599136778912589878@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 11 Feb 2021 15:37:59 -0000
+Message-Id: <161305787939.10469.372101564976509515@gitolite.kernel.org>
 
---===============0805062843309390456==
+--===============0446653200116493957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.12
-    old: b165457c5004c9363397d2e051be6fef56f35244
-    new: ec9d68508ff65df1dc24cf8100eb40ddd196c2fd
+  - ref: refs/heads/for-5.11
+    old: 64f09ea1b551189f491ffb626fdccc2c31fe2d70
+    new: 20ccc362c3d20da734af896e075b74222589f2c0
     log: |
-         1e30f642cf2939bbdac82ea0dd3071232670b5ab ASoC: simple-card-utils: Fix device module clock
-         0be0f142b8323378df6358c36dd15494134f5b94 ASoC: audio-graph-card: Drop device node clocks property
-         f133de9e32374841c5ed1ad5cf18ed14098a0f4c ASoC: qcom: dt-bindings: add bindings for lpass rx macro codec
-         af3d54b99764f0bdd83fcbd1895d23b83f8276be ASoC: codecs: lpass-rx-macro: add support for lpass rx macro
-         4f692926f562ff48abfcca6b16f36ff8d57473b6 ASoC: codecs: lpass-rx-macro: add dapm widgets and route
-         f3ce6f3c9a994d3fa5057cadfaa1d883e0d938fa ASoC: codecs: lpass-rx-macro: add iir widgets
-         ca955cc980afc066a380567e371480634e48eb7e ASoC: qcom: dt-bindings: add bindings for lpass tx macro codec
-         c39667ddcfc516fee084e449179d54430a558298 ASoC: codecs: lpass-tx-macro: add support for lpass tx macro
-         d207bdea0ca9efde321ff142e9b9f2ef73f9cdf5 ASoC: codecs: lpass-tx-macro: add dapm widgets and route
-         ec9d68508ff65df1dc24cf8100eb40ddd196c2fd Merge series "Use clocks property in a device node" from Sameer Pujar <spujar@nvidia.com>:
+         20ccc362c3d20da734af896e075b74222589f2c0 regulator: qcom-rpmh: fix pm8009 ldo7
+         
+  - ref: refs/heads/for-5.12
+    old: 7aa382cfe714f61b0c29f02c31d389c506b4e2ae
+    new: 27866e3e8a7e93494f8374f48061aa73ee46ceb2
+    log: |
+         8c67a11bae889f51fe5054364c3c789dfae3ad73 regulator: pca9450: Add SD_VSEL GPIO for LDO5
+         f7684f5a048febd2a7bc98ee81d6dce52f7268b8 regulator: pca9450: Enable system reset on WDOG_B assertion
+         27866e3e8a7e93494f8374f48061aa73ee46ceb2 regulator: pca9450: Add sd-vsel GPIO
          
 
---===============0805062843309390456==
+--===============0446653200116493957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1613057819 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1613057869-0c2a274413f749273163f555f1fd04acc68c7ecd
+pusher C3F436CA30F5D8EB 1613057826 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1613057876-21e5a40f50ea9ac7d0bb4a5c468d5055edb85067
 
-b165457c5004c9363397d2e051be6fef56f35244 ec9d68508ff65df1dc24cf8100eb40ddd196c2fd refs/heads/asoc-5.12
+64f09ea1b551189f491ffb626fdccc2c31fe2d70 20ccc362c3d20da734af896e075b74222589f2c0 refs/heads/for-5.11
+7aa382cfe714f61b0c29f02c31d389c506b4e2ae 27866e3e8a7e93494f8374f48061aa73ee46ceb2 refs/heads/for-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAlTxsACgkQJNaLcl1U
-h9B+aAf/d4yxHKxVD9rBZEF6fQJXfGtR9XlLi/kZVNjW6Q0O88I0Bc3KJNHr9Og0
-J4rtn9YMkQMVkNOPPbXzc5HXLezRNxOFXhG0+Z4nXnKNiSnHxIusCUBtDkFEnata
-ttiwacg89WiD0YAZh6fd4MzgGEwt/udb9ID0G+55AgXpyyJrGRSKn0qOp63b8aoW
-goUYgAETrpbVLDHejcdyi1b6O9+DrILnQZdGf6l6+CM8z5VL8kfmAoCH6UBL32x7
-LOWlGbndAnDCUwU9d0cH2gYYC6ovv0X0Er8eNUSghR8W1a13cO1FMFLFrR4uZQ/x
-mWfKfBtaCpqK8hDdEOj/zscsMNVkpA==
-=kKbV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAlTyIACgkQJNaLcl1U
+h9Af7gf/YHtFgf8+Lxih/3ZJb9elgOD9byaMLL12HPS0N/FuV7Bzvx4GEDoPWEna
+eB4hpfWvtdfE6e8FovxcL8uw93OHc6m4Ysxxxa4BracYI7MmVmjgD0HHSRSIu+pS
+B9yx1GjUYu84DaLeE9PWe5a7tb+XyvF9iD/juJ/GfAUp18hDmghVmqtDYdhktyYK
+LbTh7Slp/k5jOKz7J7Iapoi0MCR3rAJT0Y7amMtdbH0uJ/FwTQV5bX8BhfOvu3aF
+ahWy8qh6m+eNOTjzNAsvSto6Eka42rKdynsrLJRs6NZ3glW7hMkEd8zdHHLpPz2R
+lcAlvCb1Fl3ba3p9qTwGrXSENZy5Ig==
+=rLq5
 -----END PGP SIGNATURE-----
 
---===============0805062843309390456==--
+--===============0446653200116493957==--
