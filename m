@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7656169762416142574=="
+Content-Type: multipart/mixed; boundary="===============7915635559726531915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 12 Feb 2021 08:48:23 -0000
-Message-Id: <161311970377.22275.15090251957871393233@gitolite.kernel.org>
+Date: Fri, 12 Feb 2021 08:50:15 -0000
+Message-Id: <161311981531.24269.16542386825523238096@gitolite.kernel.org>
 
---===============7656169762416142574==
+--===============7915635559726531915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 6522ad26df0e85c4b52cc39fde269b0c64f9172a
-    new: 95897fdf1f2afb9800caf238b3decf50668f43a5
+    old: 95897fdf1f2afb9800caf238b3decf50668f43a5
+    new: dc31fc6ce69e0308395ec315322cf0d0d8848467
     log: |
-         95897fdf1f2afb9800caf238b3decf50668f43a5 staging: vt6656: Fixed issue with alignment in rf.c
+         fa7d3e66f67514aa5f3031d5c2b4c1b3b804200e staging: fbtft: add tearing signal detect
+         f34df6764c608565afb2eafb11004381f628159e staging: wimax: Fix some coding style problem
+         dc31fc6ce69e0308395ec315322cf0d0d8848467 staging: nvec: minor coding style fix
          
 
---===============7656169762416142574==
+--===============7915635559726531915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613119694 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613119806 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1613119694-c4fdcfb22d898d867e80dcd2c7cca997221f5e93
+nonce 1613119805-4a9a8b4e6bea796803a3f0300bfd3020cfee5335
 
-6522ad26df0e85c4b52cc39fde269b0c64f9172a 95897fdf1f2afb9800caf238b3decf50668f43a5 refs/heads/staging-testing
+95897fdf1f2afb9800caf238b3decf50668f43a5 dc31fc6ce69e0308395ec315322cf0d0d8848467 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAmQM4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q4wP/27DRt4/EVXOsYWjEZzI
-7OZVHRlPPfXXJ12CQacQYsNpy/UHhA2Fau2NZbrMwt6IKoKlyiVj7xod9BIyMBI3
-REEaIgsykSu2bdr9Eqb3cAPK+KN7ls49BXuQFKTOUJbcafvKmRMW3vzZFgN37acu
-fCIrafLfcXZWSv2NM1gD0DmdzGzhTd4TNppCl/0UyTRWTc7olKohnx07N5lxpXQ1
-wvD/kGPfckvFxZix5IfH4CqfEJt/t2BLkn97KQfdocU+zZOWxbeEgAxK3/t0xCEb
-NlxpeygOsSeFay3TpBb0sYTBd5kM4lv3ntWQ2WubOGES9VqPjwXrkm2qk2gD5XB4
-KIsf6Y5n+O7wVfEdyE3/f6Zw4s1DS0d4Ns34vR9hl1G6+QwmBiYQZOj12yct92Om
-gf69YFVcozCXnp2nQBFcC8gtcgjuo7EbdYzHDdxIVDsxITwzcp50DSs5DdQLih9K
-m1CyLJ22S8MjN8WGuVqKqyBnTW0aYzPjaMgpP3iGVyHiiU6MYivbD8PmpGFQPcZd
-KHx6OxVuNA1wI+8+PXGDEFnDGWRYA0lifJbS5zn17Y861ug5KZfDnkOs0Vu5wNFS
-74A32UnB8kedNwyU/jb8JWt9YVeCIJ++jHE6Qwn31HK17E3h5zmRjDdfjkFRPjqt
-f5viRknbCuWWAu2LuLjmg3VI
-=gXBr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAmQT4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oz8P/0tdmn7Nkbk59dEhDZ5L
+gYtoisxo5molzesoR5rtE6KlK50M+gewwbV5VFpc/VHoAUyoPte5nzTcKLUHiZgg
+637bIy3Sl47hihk5EUpGzmwPwVZk8jfPqJezj2lub0nxn+n0v7VmaAKVzjxpUGFe
+LBaR8f6j4hG+O6XYuDgTvEl+Wtrjc5LZuHg1Fk0x37Mer7S3Y7P3LXfajGj5Urpk
+2yBOkTBHji6cBLAZLSwjkt7rTvCJ9lQGMoBFq6LDPn/Fipt5AczzTVqayA7E2sIc
+GOndd71uMwTEkzKwrKDcGz1WlZu7ZImMW8ykIAJ9fId8BIafTPuGvOTIwkWJmrhG
+T9cr6MAo42Csvj6+Gk5C+VvvgULjD6BLZDMs29c3qqKs+bQkPO3fNauWuPuefN+j
+2m6hWNWNc2Cf22jGYMdPnz5vreNTpMpRsRrnpunB9SdymWWLqjBgRluA2BI7CgFO
+Ny+H7SPLWa1tG7WkhjOdZ1OZrd6VJNseh9s418cucdBD03qP4HmjN7PT/pKgBUDr
+2TFY7WzFz6IBDoFyJOkChhXh7PJ8UdxVTEF+OP4GFSSg27vXXfQXW5UEnatro9eS
+71v275ZuQmBInEAz/q4MKcKLpQceQ1m9deUhIe26kq1p8HijBUqex5YwmBemNiIm
+Yw61lPhsBbWdYb9wQ1RYFhLf
+=wwXS
 -----END PGP SIGNATURE-----
 
---===============7656169762416142574==--
+--===============7915635559726531915==--
