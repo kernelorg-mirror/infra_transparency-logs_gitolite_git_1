@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0664519614076153007=="
+Content-Type: multipart/mixed; boundary="===============4384449204973880638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Fri, 12 Feb 2021 00:32:33 -0000
-Message-Id: <161308995354.11959.8780230455340712926@gitolite.kernel.org>
+Date: Fri, 12 Feb 2021 00:32:37 -0000
+Message-Id: <161308995798.12064.7494401225868247952@gitolite.kernel.org>
 
---===============0664519614076153007==
+--===============4384449204973880638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
-  - ref: refs/heads/v5.12/integ
+  - ref: refs/heads/integ
     old: 9bef1c3d66dddac7b5581ddf7fdc02a9fcc54029
     new: 70994f761efeaf7aadf35ad15b14126a25a30dba
     log: revlist-9bef1c3d66dd-70994f761efe.txt
 
---===============0664519614076153007==
+--===============4384449204973880638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -354,4 +354,4 @@ c9eaf83607129497e89d1c5ed29c635c633e3ffb dt-bindings: arm: amlogic: add support 
 ec811a412a97c4808e700d310cfd3abd41f9f9fa Merge branch 'v5.12/dt64' into tmp/aml-rebuild
 70994f761efeaf7aadf35ad15b14126a25a30dba Merge branch 'v5.12/soc' into tmp/aml-rebuild
 
---===============0664519614076153007==--
+--===============4384449204973880638==--
