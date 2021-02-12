@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwamatsu/linux-visconti
-Date: Fri, 12 Feb 2021 12:59:53 -0000
-Message-Id: <161313479398.12917.11163496711450510592@gitolite.kernel.org>
+Date: Fri, 12 Feb 2021 13:21:10 -0000
+Message-Id: <161313607067.26765.6438694752046346022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/iwamatsu/linux-visconti
 user: iwamatsu
 changes:
   - ref: refs/heads/devel/pwm
-    old: 7e75bc047b3ae5cfa1146db61b2bec36c3a7083a
-    new: 86b421dce6f2911b3ba61bf171e780337c6a8c89
+    old: 86b421dce6f2911b3ba61bf171e780337c6a8c89
+    new: ecae5237afd5642223994dcb6ca90fff8d9c7a29
     log: |
-         4287e91434e89d10234f2827f367fe225665cfaf dt-bindings: pwm: Add bindings for Toshiba Visconti PWM Controller
-         86b421dce6f2911b3ba61bf171e780337c6a8c89 pwm: visconti: Add Toshiba Visconti SoC PWM support
+         ecae5237afd5642223994dcb6ca90fff8d9c7a29 pwm: visconti: Add Toshiba Visconti SoC PWM support
          
