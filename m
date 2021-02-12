@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 12 Feb 2021 18:29:09 -0000
-Message-Id: <161315454934.26958.15315383888179659641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Fri, 12 Feb 2021 18:40:54 -0000
+Message-Id: <161315525436.3234.2232562370616784118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/tags/riscv-for-linus-5.11-rc8
+  - ref: refs/heads/clk_driver_hw_clk
     old: 0000000000000000000000000000000000000000
-    new: bc00de7a253b6e85dc66afba56512c481964bd00
-  - ref: refs/tags/v5.11-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d61728d5dac3c065b21f39249b406988aaefa193
+    new: b5064a70d103e3dc3e452a27daa3097d053e1b8b
