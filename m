@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 12 Feb 2021 02:12:59 -0000
-Message-Id: <161309597908.13082.490801325971818206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 12 Feb 2021 02:17:12 -0000
+Message-Id: <161309623281.15639.1657204838780011997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 8a28af7a3e85ddf358f8c41e401a33002f7a9587
-    new: e185ea30df1f6fee40d10ea98e6e11f9af9846d4
+    old: f79bebad90eff80191fc10aba36f8bfb74cbd563
+    new: 9fbb4a7ac463c9a7240787f6d9481ec6f8048a74
     log: |
-         e185ea30df1f6fee40d10ea98e6e11f9af9846d4 enetc: auto select PHYLIB and MDIO_DEVRES
+         7867299cde34e9c2d2c676f2a384a9d5853b914d net: mvpp2: fix interrupt mask/unmask skip condition
+         3b23a32a63219f51a5298bc55a65ecee866e79d0 net: fix dev_ifsioc_locked() race condition
+         9fbb4a7ac463c9a7240787f6d9481ec6f8048a74 r8169: handle tx before rx in napi poll
          
