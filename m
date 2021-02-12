@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7915635559726531915=="
+Content-Type: multipart/mixed; boundary="===============6170879045565867653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 12 Feb 2021 08:50:15 -0000
-Message-Id: <161311981531.24269.16542386825523238096@gitolite.kernel.org>
+Date: Fri, 12 Feb 2021 08:54:39 -0000
+Message-Id: <161312007918.25621.11521666166733366353@gitolite.kernel.org>
 
---===============7915635559726531915==
+--===============6170879045565867653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 95897fdf1f2afb9800caf238b3decf50668f43a5
-    new: dc31fc6ce69e0308395ec315322cf0d0d8848467
+    old: dc31fc6ce69e0308395ec315322cf0d0d8848467
+    new: ae5e63c32e166e210b1cf06e2a40ff0a91f807f9
     log: |
-         fa7d3e66f67514aa5f3031d5c2b4c1b3b804200e staging: fbtft: add tearing signal detect
-         f34df6764c608565afb2eafb11004381f628159e staging: wimax: Fix some coding style problem
-         dc31fc6ce69e0308395ec315322cf0d0d8848467 staging: nvec: minor coding style fix
+         314fd52f01ead9528a5cda5a868425bb736d93a2 staging: wfx: remove unused included header files
+         a2ea4e1d9091cd8bc69f1c42c15bedc38618f04c staging: greybus: Fixed alignment issue in hid.c
+         ae5e63c32e166e210b1cf06e2a40ff0a91f807f9 staging: greybus: Fixed a misspelling in hid.c
          
 
---===============7915635559726531915==
+--===============6170879045565867653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613119806 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613120069 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1613119805-4a9a8b4e6bea796803a3f0300bfd3020cfee5335
+nonce 1613120069-52b93dec6cd48b17253008b1fa733c60e7c41ceb
 
-95897fdf1f2afb9800caf238b3decf50668f43a5 dc31fc6ce69e0308395ec315322cf0d0d8848467 refs/heads/staging-testing
+dc31fc6ce69e0308395ec315322cf0d0d8848467 ae5e63c32e166e210b1cf06e2a40ff0a91f807f9 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAmQT4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oz8P/0tdmn7Nkbk59dEhDZ5L
-gYtoisxo5molzesoR5rtE6KlK50M+gewwbV5VFpc/VHoAUyoPte5nzTcKLUHiZgg
-637bIy3Sl47hihk5EUpGzmwPwVZk8jfPqJezj2lub0nxn+n0v7VmaAKVzjxpUGFe
-LBaR8f6j4hG+O6XYuDgTvEl+Wtrjc5LZuHg1Fk0x37Mer7S3Y7P3LXfajGj5Urpk
-2yBOkTBHji6cBLAZLSwjkt7rTvCJ9lQGMoBFq6LDPn/Fipt5AczzTVqayA7E2sIc
-GOndd71uMwTEkzKwrKDcGz1WlZu7ZImMW8ykIAJ9fId8BIafTPuGvOTIwkWJmrhG
-T9cr6MAo42Csvj6+Gk5C+VvvgULjD6BLZDMs29c3qqKs+bQkPO3fNauWuPuefN+j
-2m6hWNWNc2Cf22jGYMdPnz5vreNTpMpRsRrnpunB9SdymWWLqjBgRluA2BI7CgFO
-Ny+H7SPLWa1tG7WkhjOdZ1OZrd6VJNseh9s418cucdBD03qP4HmjN7PT/pKgBUDr
-2TFY7WzFz6IBDoFyJOkChhXh7PJ8UdxVTEF+OP4GFSSg27vXXfQXW5UEnatro9eS
-71v275ZuQmBInEAz/q4MKcKLpQceQ1m9deUhIe26kq1p8HijBUqex5YwmBemNiIm
-Yw61lPhsBbWdYb9wQ1RYFhLf
-=wwXS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAmQkUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+npQP/3DzYrPKfRbGuJTPR0sg
+I5Biuo1vJlvl0Pd3CNZGfbtEVtkAMq5BaBMFwR8RyokRrxEn3UOEEr2Fo6HiUnPm
+BSai9obYhivz2JIdK/bSHje9YohL2ojI9xjnyF+QlcCRTNIsdo9UrmXToypyAYLX
+O+7JL5WsWStwSYR1cRdwVJgCRre8ZLFObYlp/T9Cgi0zbE3WiXQp4ZePkv/Wq+vr
+irer1m6WsfjASDhkiPOuVEq1cFTsXDO0QmeFWN0ezlE0BbeYUnhngQqqanA5LnAh
+HCPuZstHRhfKy2+Czj6HKQka9kQs94cDI/KUIcSuJ+dyH98BDuEqhgHKCyaAbHwO
+hFQjIR5xz19VWqkxsLI1lYdFQT6Dt0Rud9LBXHSGPrNUI6mAUhazl8WzdWsvMWSf
+IYG2nL0h3Km1M4Qd2fI7tZ7H25JJP8F/em+bC0k1vnbfdkYvBBrtWYySkvS55AAu
+YpLslPRlLLuZWJvPHl4BzTF24CnzTNIT/YpUJ+YBU9zt+jzO6kAX+pmANnN7d2ni
+ZrDG8e/KNDeTBwHWcrMEoAU5fJdB9C5TAZC+aDSDDBjBeiJ429ol1F0yO76oaPtb
+0E2lw7jOFkZiqwfFJ3tGEPjq+Yx7zpNg+F+xdlgkhp5gPadgyQsJ4VSQ4oUNNwGU
+/mwlCvQzob0XhgvQ20Al+2Lq
+=Fp3u
 -----END PGP SIGNATURE-----
 
---===============7915635559726531915==--
+--===============6170879045565867653==--
