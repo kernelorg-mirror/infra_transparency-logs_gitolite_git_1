@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 12 Feb 2021 21:09:14 -0000
-Message-Id: <161316415417.24609.4673828460889438685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rw/ubifs
+Date: Fri, 12 Feb 2021 21:10:13 -0000
+Message-Id: <161316421315.27482.7113749489353023944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/rw/ubifs
+user: rw
 changes:
-  - ref: refs/heads/for-next
-    old: aca0b81e5c460aa12103d9ba3aae599593dc3889
-    new: 90a82b1fa40d0cee33d1c9306dc54412442d1e57
+  - ref: refs/heads/next
+    old: 3049638329e5858e828b325e5148c3b984173e5d
+    new: 7cefe949aa9ecaadc97780352cba692af9870f3e
     log: |
-         90a82b1fa40d0cee33d1c9306dc54412442d1e57 tools/resolve_btfids: Add /libbpf to .gitignore
+         7cefe949aa9ecaadc97780352cba692af9870f3e ubifs: Fix error return code in alloc_wbufs()
          
