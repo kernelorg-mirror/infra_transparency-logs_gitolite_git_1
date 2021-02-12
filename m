@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 12 Feb 2021 04:34:11 -0000
-Message-Id: <161310445152.448.13460318643208704655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 12 Feb 2021 05:36:32 -0000
+Message-Id: <161310819231.5148.2758013900523211760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 996dc09c8e773f348086d03ded4cb96950f116bb
-    new: de3a46504a58426f1c91117be601ae270180bc93
+  - ref: refs/heads/net-next-mlx5
+    old: 87e49163cde42f8d432c0bc7c4d31bba0dfc303c
+    new: e5e1586de68873e81e8c301f8ffd1e9fda425e59
     log: |
-         9f56b8eb85927c6391216e4f35a7abb34847f0fd hwmon: (amd_energy) Add AMD family 19h model 30h x86 match
-         8c646ef145136a7b1781976c42802391d5b8522b hwmon: (da9052) Switch to using the new API kobj_to_dev()
-         3ee265f75ce831f66bce6c7facdb0499264cc5bb hwmon: (npcm750-pwm-fan) replace spin_lock_irqsave by spin_lock in hard IRQ
-         e74615e40b12e53705b21411af66f9a3b2abbed3 dt-bindings: hwmon: Add TI TPS23861 bindings
-         f7e3b90cde550e81ffd4778156090a1697c8cb1a hwmon: add Texas Instruments TPS23861 driver
-         de3a46504a58426f1c91117be601ae270180bc93 MAINTAINERS: Add entry for Texas Instruments TPS23861 PoE PSE
+         c548c7ef90a67d769d108439ad0afae7554ef0b0 net/mlx5: CT: Add support for mirroring
+         a80408f14bf6aab6466ebe21439a5a59fe561394 net/mlx5: E-Switch, let user to enable disable metadata
+         e2fec8b9d0e648936429ee3370ef6c7680563f1e net/mlx5e: CT, Avoid false lock depenency warning
+         3a4bd2d58bf2a90c06498bc58f2b1dbf0e33842b net/mlx5: Display the command index in command mailbox dump
+         c4d47bee9a760c6c4271f915c8693d0b7f25a68e net/mlx5e: Allow to match on ICMP parameters
+         e88de1d3c8850b08c3502d8d2d90a77bd552bd8c net/mlx5: Don't allow health work when device is probing
+         6f0c734ed4d8ef33735e8d52daf6fb4b17ef9b4d Revert "net/mlx5: Fix fatal error handling during device load"
+         e5e1586de68873e81e8c301f8ffd1e9fda425e59 net/mlx5: SF: Fix memory leak of work item
          
