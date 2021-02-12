@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4861484677989336263=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 12 Feb 2021 15:40:25 -0000
-Message-Id: <161314442557.23165.1230916386426677291@gitolite.kernel.org>
-
---===============4861484677989336263==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 12 Feb 2021 15:41:02 -0000
+Message-Id: <161314446284.23500.18062691343678972544@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/usb-next
-    old: 7a1e838d0cdce7d09a0bd81d45c7b5a660e71ac7
-    new: 4b59b60d896f3ed94921974e916db091bc3a9ba8
+  - ref: refs/heads/wip/jgg-for-next
+    old: 2428cde75c69584107931fe9ece6617b2b89eb14
+    new: a2af1949c9022aea82ae1a15a28cd0a925383c0b
     log: |
-         4b59b60d896f3ed94921974e916db091bc3a9ba8 Documentation: connector: Update the description of sink-vdos
+         388bc6da414068e02a58fc60dc875e38a0775cfd RDMA/ucma: Fix use-after-free bug in ucma_create_uevent
+         00bb6ae045469daae456bc438af3c47f1f206e7e RDMA/rxe: Remove unused pkt->offset
+         a51951f6ff7128c0876363c7f30cb8b6c4011afe RDMA/rtrs-srv: Fix stack-out-of-bounds
+         f0751419d3a15fb06d9b7d9435312472c3cb122d RDMA/rtrs: Only allow addition of path to an already established session
+         1114b1190c01a854052143fe644d40b1307eea05 RDMA/rtrs-srv: fix memory leak by missing kobject free
+         a2af1949c9022aea82ae1a15a28cd0a925383c0b RDMA/rtrs-srv-sysfs: fix missing put_device
          
-
---===============4861484677989336263==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613144417 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1613144416-7367b18097e36572278146d677a91a463a036120
-
-7a1e838d0cdce7d09a0bd81d45c7b5a660e71ac7 4b59b60d896f3ed94921974e916db091bc3a9ba8 refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAmoWEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MdwP/386sms6a1y4vC+ZCuLE
-81wUa4mh/vfGMAMkESR15GmNolgwLzZxoV1DIAdJYERW5GsSRgMOd/kcwKhC4eCG
-PGe2xtbxGqq5eV9zAd77/PnGEqu/eDdV/7YtPtIPtvCvXs8E9i+LXkS389Cn9McA
-v6Ag0bRIGhGqqwMD/UvXtokV1kA51Riqr/OsRhdHvB5ecvCSeKHZdrSEuo/SYPRW
-w6YRKqHXRC5KwQPIEmV5P8esTAg+1+f4C/5MzrhpFRbZJ/YXNzSI3uEqkMeYTNHL
-OcgHib1f1QV7nsVcj6mR4dQ/MPCtthCq8AiEuInCNG5l4E/u1DuiYOQiNP8qAhmw
-8E8OIvcAt/XFT6uK7fmVG0tWyRZ+b57anFC4sI9qBN0Yk1w1GE4rrVHubo0juCWs
-KYtWAC0+aixFsCU0WVUUPoLYKPSDzeMKdCUCew3NstrPKtnFlikeg2LFQy850k9y
-nhp5eg+ZsvR5o4Y30d6GngwKn4rfOmeOWx6G6sC7SQe7JQMInb+GenDRhc6HdJlp
-/6UAt6jK1T41QTR9+T50SIaO0jZcXZFlaMDeiSFhaukaUsmS6RthVZSTRBofCI4p
-rTnldikhBz2rLXYz92BTCY33UQq+Wg3otfCqPyA5EOWNn0ZNTIg6HkgVIZKmL5bW
-PaMMii4xFn1T3Hqy7Y8h4ftu
-=DEim
------END PGP SIGNATURE-----
-
---===============4861484677989336263==--
