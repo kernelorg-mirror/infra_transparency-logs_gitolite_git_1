@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 12 Feb 2021 13:45:01 -0000
-Message-Id: <161313750122.8516.11824233371762136846@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
+Date: Fri, 12 Feb 2021 13:53:56 -0000
+Message-Id: <161313803672.13822.5319856614803202745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/jberg/mac80211-next
+user: jberg
 changes:
-  - ref: refs/tags/v4.4.257-cip54-rebase
+  - ref: refs/tags/mac80211-next-for-net-next-2021-02-12
     old: 0000000000000000000000000000000000000000
-    new: a659c1a831523619d7643ecf7e6fc288460d7cde
+    new: 1ad75d599499653d09feb082eb9aea2ab3deaba2
