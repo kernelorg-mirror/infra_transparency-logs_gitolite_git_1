@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4939694428743384315=="
+Content-Type: multipart/mixed; boundary="===============2961339007153463318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 12 Feb 2021 00:10:41 -0000
-Message-Id: <161308864159.32171.16641382784536127764@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Fri, 12 Feb 2021 00:10:50 -0000
+Message-Id: <161308865091.32314.365356953659485378@gitolite.kernel.org>
 
---===============4939694428743384315==
+--===============2961339007153463318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: d61728d5dac3c065b21f39249b406988aaefa193
 
---===============4939694428743384315==
+--===============2961339007153463318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -387,4 +387,4 @@ a3961497bd9c7ca94212922a46729a9410568eb8 Merge tag 'acpi-5.11-rc8' of git://git.
 c05263df6c1ab82277cc3b2778b183b469a71a60 Merge tag 'gpio-fixes-for-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 dcc0b49040c70ad827a7f3d58a21b01fdb14e749 Merge tag 'powerpc-5.11-8' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 
---===============4939694428743384315==--
+--===============2961339007153463318==--
