@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7121066796307892228=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 12 Feb 2021 11:27:13 -0000
-Message-Id: <161312923316.23052.4958504235397199399@gitolite.kernel.org>
-
---===============7121066796307892228==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 12 Feb 2021 11:55:57 -0000
+Message-Id: <161313095705.8055.13005158737767750086@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: d77b44d0c0174708eaeaf27e8bfcb671a0225897
-    new: d19db80a366576d3ffadf2508ed876b4c1faf959
+  - ref: refs/heads/master
+    old: 291009f656e8eaebbdfd3a8d99f6b190a9ce9deb
+    new: dcc0b49040c70ad827a7f3d58a21b01fdb14e749
     log: |
-         d19db80a366576d3ffadf2508ed876b4c1faf959 spmi: spmi-pmic-arb: Fix hw_irq overflow
+         8c511eff1827239f24ded212b1bcda7ca5b16203 powerpc/kuap: Allow kernel thread to access userspace after kthread_use_mm
+         97c6e28d388a5000d780d2a63c32f422827f5aa3 gpio: mxs: GPIO_MXS should not default to y unconditionally
+         8b81a7ab8055d01d827ef66374b126eeac3bd108 gpio: ep93xx: fix BUG_ON port F usage
+         28dc10eb77a2db7681b08e3b109764bbe469e347 gpio: ep93xx: Fix single irqchip with multi gpiochips
+         c05263df6c1ab82277cc3b2778b183b469a71a60 Merge tag 'gpio-fixes-for-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+         dcc0b49040c70ad827a7f3d58a21b01fdb14e749 Merge tag 'powerpc-5.11-8' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
          
-
---===============7121066796307892228==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613129224 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1613129222-fd5d6df849649bbbc87ce2f30392771a44772c9d
-
-d77b44d0c0174708eaeaf27e8bfcb671a0225897 d19db80a366576d3ffadf2508ed876b4c1faf959 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAmZggbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fb8QAMaimpTVOuV6v/dcXV/a
-XTybSA1bY/SZh/9v3GclSGR/D9sAYyYOs0sXhblhzqb9Vq3uwuP2zmHMmaSZ19kL
-aClWNc09YIKrulCUMdAEr6JXLBeEGXNC8ox01TrSvvxRZDtnyLVVl+L+KPaQns9t
-Sm1p/aoJXOu7DIpJgWtyD4HCiXnZmwXb2wB5QRPXrRQ8u1sNlR5VapaH/KFRCKIo
-0yPI6osr6gqQJAdiKc26V5aYTfgDRkf89dECqrZMw0tOjORJT6uIv9lf4pMHY06G
-rvlGJPolYB7wQLUKfymYGNxUAHz0VEzwyyhzcaGdPQCgDB5aZmCdLxZHbtfipDub
-mFiszPdHgSHZb8V5KkQsfpyUxcpvFBaGv5SSUJWGiFSL4N635QC6f9YR+jJf0zin
-00eLjb+5TVBB/DFNdcHLVD26CgG+PKU5PZi1OKha6n55h4+F6jy/dp25YSs3pw8P
-/kV0Zy+2Jg28WZYq8CbUJW+sTyriXdO50ACWm6Yy2s3ZETx1WSoFRYChHxvkq0bm
-XfqR0q4EhKKb+9ldSRkoSjhVc1FYxQtQA8/6l5SuAG+5wUDXJCMcLxfeNAbs2ALu
-squ62NAUS8G8sQgw/DUhgcweK+WDkgA/dL5E8YcbgrfTur74x8RUvW2HR1/bPt0i
-75wNKm8/dEh23X6RsIcf/sJp
-=F54I
------END PGP SIGNATURE-----
-
---===============7121066796307892228==--
