@@ -1,50 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7885675507503689025=="
+Content-Type: multipart/mixed; boundary="===============3877866838763941054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 12 Feb 2021 14:00:14 -0000
-Message-Id: <161313841480.18760.4120712789022563888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 12 Feb 2021 14:00:21 -0000
+Message-Id: <161313842169.18858.1862647065872629185@gitolite.kernel.org>
 
---===============7885675507503689025==
+--===============3877866838763941054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.11
-    old: 20ccc362c3d20da734af896e075b74222589f2c0
-    new: c294554111a835598b557db789d9ad2379b512a2
+  - ref: refs/heads/for-5.11
+    old: 2395183738a01048584c4b49c502c44b18971597
+    new: b306320322c9cfaa465bc2c7367acf6072b1ac0e
     log: |
-         c294554111a835598b557db789d9ad2379b512a2 regulator: bd718x7, bd71828, Fix dvs voltage levels
+         386f771aad15dd535f2368b4adc9958c0160edd4 spi: dw: Avoid stack content exposure
+         b306320322c9cfaa465bc2c7367acf6072b1ac0e spi: Skip zero-length transfers in spi_transfer_one_message()
          
 
---===============7885675507503689025==
+--===============3877866838763941054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1613138361 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1613138412-c3fbdc5fb4dc08cd23dd13ea93d70cc5aa6a9e90
+pusher C3F436CA30F5D8EB 1613138368 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1613138419-bf850baee5190c300bcc6d5e3a9fb0ba2714a68d
 
-20ccc362c3d20da734af896e075b74222589f2c0 c294554111a835598b557db789d9ad2379b512a2 refs/heads/regulator-5.11
+2395183738a01048584c4b49c502c44b18971597 b306320322c9cfaa465bc2c7367acf6072b1ac0e refs/heads/for-5.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAmibkACgkQJNaLcl1U
-h9AbyQf/ZFpdarguLdz2qzHleAvFQLG1kwxCQ4PC17fzxt2hofgT4F5Nfu+Rjx6f
-oyv8Zn+1xfXrwsSB2HvDJazRobzQqpFtNJQv/Zs9BCbnPo8wmQNZcvr+CVJAkPIw
-OMvFOajexrwVRNoaDVg9zBSg2Rluv3ehJ/wIMc8sEt0J0S9TFAyf6692lD9weAiy
-pMNdXciY+1/tUpDUBxeDDt2nvHC+4xBITIxbJerUKfwNQPAOI44cilTEvtBER8iG
-73PMpiCAp0f8LIGXtv9U91jtBpZ+6gn1ucyUKZ1dfR34uUv4l2Ps3g0O3EgRBRQG
-gRgTElceUuaheu0pSRs5QjuhaqAD5A==
-=yUTU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAmicAACgkQJNaLcl1U
+h9DW8Qf9FYTvcQDKmmnaF1moXG7I41WAOghHZe6rR5euDb4a8iJt/oW/7XmHk6ID
+npMqAHw5frNpYzEPRevVK9DFTebBhg+8a5Zhrkqjr3Ab4I4O9jyuWRwjKg3WEg+W
+9SkIRrV7pJJm8jQVXIy3KXjnJ93vRxNKsHpHCFdk8nJB1DDgBysYMJZY8jYP6Hee
+Ncetxg4OT5UrGVlU346OdmkFavBtC6id/QMMbGGZ3lAfm84wKVub06JnLTcjEOC/
+DmgTRQRsjZtgMdJkmglWHoRZMNQ+EZRrE45qqDgmVBOGwSV6oglKw+ssD0Kqp261
+Zgd3BMKEWx+d00zx2E+PpA0kmnQBKw==
+=XI5a
 -----END PGP SIGNATURE-----
 
---===============7885675507503689025==--
+--===============3877866838763941054==--
