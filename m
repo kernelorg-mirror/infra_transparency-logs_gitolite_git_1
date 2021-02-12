@@ -1,24 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 12 Feb 2021 15:41:02 -0000
-Message-Id: <161314446284.23500.18062691343678972544@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7803475353363679442=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 12 Feb 2021 15:42:47 -0000
+Message-Id: <161314456700.24176.2955949415414111606@gitolite.kernel.org>
+
+--===============7803475353363679442==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 2428cde75c69584107931fe9ece6617b2b89eb14
-    new: a2af1949c9022aea82ae1a15a28cd0a925383c0b
+  - ref: refs/heads/usb-testing
+    old: 4b59b60d896f3ed94921974e916db091bc3a9ba8
+    new: b5a12546e779d4f5586f58e60e0ef5070a833a64
     log: |
-         388bc6da414068e02a58fc60dc875e38a0775cfd RDMA/ucma: Fix use-after-free bug in ucma_create_uevent
-         00bb6ae045469daae456bc438af3c47f1f206e7e RDMA/rxe: Remove unused pkt->offset
-         a51951f6ff7128c0876363c7f30cb8b6c4011afe RDMA/rtrs-srv: Fix stack-out-of-bounds
-         f0751419d3a15fb06d9b7d9435312472c3cb122d RDMA/rtrs: Only allow addition of path to an already established session
-         1114b1190c01a854052143fe644d40b1307eea05 RDMA/rtrs-srv: fix memory leak by missing kobject free
-         a2af1949c9022aea82ae1a15a28cd0a925383c0b RDMA/rtrs-srv-sysfs: fix missing put_device
+         2b9f3ed9378198d98fe6cfc5291281ec34dd6501 dt-bindings: usb: mtk-xhci: add optional assigned clock properties
+         fcad8dd5b9955493ca3f5483394cdb46bdd57852 dt-bindings: usb: mtk-xhci: add compatible for mt2701 and mt7623
+         b5a12546e779d4f5586f58e60e0ef5070a833a64 dt-bindings: usb: mediatek: musb: add mt8516 compatbile
          
+
+--===============7803475353363679442==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613144558 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1613144557-9dfcb6e1e4125659a7cd6a0428ea223adfdc4bb1
+
+4b59b60d896f3ed94921974e916db091bc3a9ba8 b5a12546e779d4f5586f58e60e0ef5070a833a64 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAmoe4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V6UP/jV+coA8DzxkbhABcEBL
+dHhq7mM87WY2I2fKIsZe6x09QCOZvX9qhQyxxuyXNpsdQxzhoXeZcXgVCFT+/hAC
+Sy7Wq6fUr5sy2aKHS+UsjGQKLjVyhHV+vV1uLcf8qO2ineh5P2VPvf8hywWxEGlS
+5xbijB7JRdVSq8MAPSmbI61H8fnKNGOAtzyEk/IxVj/cV++dGMZd8KaEJn4JHiby
+v3jpCAC/lfIs66VGVxgX4vH8/5OqiZo/2IqciJnreoaPPdsyAjMYNNxrDhkhMx8w
+3W+zkRM97tlWyYhXctILkfplGJwFj5YqfvP3Sap2jxHBI7cGp8PrWUoSxn2WpKp2
+NqT836hgiHIt+ETjYeGtaCZeG/IB+BliuWv34lRFffWS+oDaXWfcWKBH+4x0N34Q
+ulWFJAR18o0PfXj1qLSV2yYrI99Vrj1pnSGjBkKpau9CiLvyHXpIXs3wVI77LZjO
+KmmB+kqvPxvlkJJ0nWzFHqjWaQSWIPDkYWv1FPKPuSZsASm3eoEYR/j4M7or9/2w
+pYcXkOFmyFmJlrH5zjRsJqZiBkHOSvw89Za3+ZzSkKoHxT+BNYccVNrVlFXa3z/r
+PskMGwAmxo/s+ME+SEmhIjHl3GJ5FD5tXVzAQvFVGEexqiGrnf3IoVFnB6Yc6ttG
+RTv1KpioHGhRHRdV+3Lrgcvb
+=yYyr
+-----END PGP SIGNATURE-----
+
+--===============7803475353363679442==--
