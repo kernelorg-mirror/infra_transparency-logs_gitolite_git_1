@@ -1,51 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7638536830545029760=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 12 Feb 2021 14:00:28 -0000
-Message-Id: <161313842887.19012.16508327881135465187@gitolite.kernel.org>
-
---===============7638536830545029760==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 12 Feb 2021 14:00:49 -0000
+Message-Id: <161313844944.19239.7507583271116168755@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.11
-    old: 2395183738a01048584c4b49c502c44b18971597
-    new: b306320322c9cfaa465bc2c7367acf6072b1ac0e
+  - ref: refs/heads/for-linus
+    old: c8bca765c4abfa755831a2af2190ed72e67f55fe
+    new: 22c6be9e060e66485c8e9122f0be205e92f7ac36
     log: |
-         386f771aad15dd535f2368b4adc9958c0160edd4 spi: dw: Avoid stack content exposure
-         b306320322c9cfaa465bc2c7367acf6072b1ac0e spi: Skip zero-length transfers in spi_transfer_one_message()
+         22c6be9e060e66485c8e9122f0be205e92f7ac36 Merge remote-tracking branch 'asoc/for-5.11' into asoc-linus
          
-
---===============7638536830545029760==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1613138374 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1613138426-3e740c2b7deb9f47a5e1a965b5e4b0df589ee338
-
-2395183738a01048584c4b49c502c44b18971597 b306320322c9cfaa465bc2c7367acf6072b1ac0e refs/heads/spi-5.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmAmicYACgkQJNaLcl1U
-h9DzUwf/SBlXMZaMB2CZKl/PM1RTStGvHZCTPYi5K0CloR1pZoKZeP0hO6haiLHR
-X4icSkiCgSfnvjphXJPwgvuEVK3sbLLPRBcM4itZGlGhp/kQCYOK9xp1Uc4gMo36
-vWtPz3fGhEl3jvsNSq7XHxYida58eCmTTLevFfBPnm+PF70iWv+W6snj1mT4c5wB
-gPQF9VZDuGskOe8ygPk/acbqQ6plHTMJtZEOEuZKQFjb/iDekHG2/x2EQvc5lPZ5
-uNHJssvyHwsC5vxzNHXCnbYdsd26e/WDQVaQtkmDSDMRNWBq8vHiioLJaREEN8zq
-zsyXl+0swR+wJWMBEfHLxCCeX8aEhA==
-=ZyB1
------END PGP SIGNATURE-----
-
---===============7638536830545029760==--
+  - ref: refs/heads/for-next
+    old: 729eda4f661c5b629e52529309fc389705fa40f6
+    new: 7ceb553bf1c235cc4a0d7ac2a5a89635d2365cde
+    log: |
+         f6c04af5dc4b80e70160acd9a7b04b185e093c71 ASoC: soc-pcm: add soc_pcm_hw_update_rate()
+         6cb56a4549e9e2e0f7f67b99cb1887c0e803245a ASoC: soc-pcm: add soc_pcm_hw_update_chan()
+         debc71f26cdbd45798c63b0dcdabdea93d2f6870 ASoC: soc-pcm: add soc_pcm_hw_update_format()
+         22c6be9e060e66485c8e9122f0be205e92f7ac36 Merge remote-tracking branch 'asoc/for-5.11' into asoc-linus
+         7ceb553bf1c235cc4a0d7ac2a5a89635d2365cde Merge remote-tracking branch 'asoc/for-5.12' into asoc-next
+         
