@@ -1,98 +1,86 @@
-Content-Type: multipart/mixed; boundary="===============3300116680465777863=="
+Content-Type: multipart/mixed; boundary="===============4132478068208069600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 13 Feb 2021 12:59:09 -0000
-Message-Id: <161322114948.19275.10169524585166742949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 13 Feb 2021 13:01:48 -0000
+Message-Id: <161322130810.20327.296358274173305946@gitolite.kernel.org>
 
---===============3300116680465777863==
+--===============4132478068208069600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 334b5dc589a332c143d39cb39fb26178b5d73e71
-    new: 19eee2ea0360e763f4062cbc0a11a9ff02f0bcd0
-    log: revlist-334b5dc589a3-19eee2ea0360.txt
-  - ref: refs/heads/queue/4.4
-    old: 399ae412f5cbb6a3fb40f8d06abbb6bb25258a46
-    new: 33ebe25c0df3028a59d448800a43cfab21d3a74c
-    log: revlist-399ae412f5cb-33ebe25c0df3.txt
-  - ref: refs/heads/queue/4.9
-    old: 76fd05887428a96230a200a94614e038076533cd
-    new: fd6c1720c1c818222f795a5f20fbd26f3fd1eff4
-    log: revlist-76fd05887428-fd6c1720c1c8.txt
+  - ref: refs/heads/master
+    old: dcc0b49040c70ad827a7f3d58a21b01fdb14e749
+    new: c6d8570e4d642a0c0bfbe7362ffa1b1433c72db1
+    log: revlist-dcc0b49040c7-c6d8570e4d64.txt
 
---===============3300116680465777863==
+--===============4132478068208069600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-334b5dc589a3-19eee2ea0360.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d4d752e9d5ed3602e983bc48ecf5e38c92375a34 fgraph: Initialize tracing_graph_pause at task creation
-e7dfefd15e87906f447ea717aa0e95c54a8c1017 remoteproc: qcom_q6v5_mss: Validate modem blob firmware size before load
-9c054cbe46d375c311dfbca70ab657774bd39dbb remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
-c6051beff312e97f74f872f3f30ae31b13f26ebd af_key: relax availability checks for skb size calculation
-507b46f0bb2812af8eff5aa08b8e15b6012923c5 pNFS/NFSv4: Try to return invalid layout in pnfs_layout_process()
-f31b320e50f2692875736d91a7d4e2d1bed2a62c iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
-f9f2ec564f11055a50152e3eef457a2475d93cd6 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
-3be34b93920a863101701ae355756469a3d50fe2 iwlwifi: mvm: guard against device removal in reprobe
-efbc75fd6f9511a32b15f894900f6aea115cdf68 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
-3a59670aa6654b69fcbde772649874f008659136 SUNRPC: Handle 0 length opaque XDR object data properly
-fa1d555bbfae90f026cf106d8b2accd2f1c42b8e lib/string: Add strscpy_pad() function
-1219878b921a698832e7772577905703f77eebc5 include/trace/events/writeback.h: fix -Wstringop-truncation warnings
-81942164e6ae068f1b20efc5360c9137062cba88 memcg: fix a crash in wb_workfn when a device disappears
-9ec819ddb263105c7c98890d8fa22613211a4fa8 squashfs: add more sanity checks in id lookup
-55b5aa30170739c5d9da9c6d438b3dfb90968f7e squashfs: add more sanity checks in inode lookup
-19eee2ea0360e763f4062cbc0a11a9ff02f0bcd0 squashfs: add more sanity checks in xattr id lookup
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613221306 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1613221305-9c18d00a21e6405529011ce19729a6f336a406b0
 
---===============3300116680465777863==
+dcc0b49040c70ad827a7f3d58a21b01fdb14e749 c6d8570e4d642a0c0bfbe7362ffa1b1433c72db1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAnzbobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EbEQAIAQ+TH6al728AYVDYI6
+WN0MwNeUinCzFtX2cKLyM0xyITReNoFEy4qPcAEnjYY0DqbFgzuiymuXBUzdXxDB
+/x5RgkAMjK7jAE6rmtK+exN+NBHL7zauI1bSt/m69ZkUiJ1Dx0timwjJdm+izC1l
+MZY7SbNL7MoTPccFtonN7DD1QIMuLc/+9cWv5h9DzCXOkp+N5rY976m118jhyRDI
+Bxo0M/ApquskWFdcHG7nef/7q0/OBfOPy5w0Ewu1f8qpyZwWV3Bccx2AXt2P5orT
+P/DlTbhU02YQeAdJn3wAySVIg8dFIsDz/lbobdEpcVPZX2ThXb1GEQ1I+KZexZyz
+jVD4Fna45BQt+tu/fihFZn6qnxZlcw9h/xFqMy6f+lTRxVlmsfanelxDBaaBxLbC
+N0x7eiaw06lZMBmWLhKhVW1jUSpgtnLHnUfXCEpWWxtc8/ujdfkfSxBqP/648Hgg
+Ly4yv2GqxaOLOUJsmg82qPD7HznKPowEdZ4INbgMhh6B2fYM9HrlfeY45KM9Od2J
+f2PKYmpq2PjDCsuszFGpp1lcz9CilT8m5CYGLm7J+PYtq4MmP6s8onfM5uStbmEJ
+CM7NQJhSYb3DPea4UYf7/Y5dpXy4KWGAM92cQ8XocxOBh/LrBZnV/a36j7Gtxnk6
+s06gLtgj5FxJ8CP/Gi8wp/aE
+=HYID
+-----END PGP SIGNATURE-----
+
+--===============4132478068208069600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-399ae412f5cb-33ebe25c0df3.txt
+Content-Disposition: attachment; filename=revlist-dcc0b49040c7-c6d8570e4d64.txt
 
-50df2a46753261588734f6f1b4204949b42a02fb fgraph: Initialize tracing_graph_pause at task creation
-a1865dbdae51c6de6e47f7352caf84053f2f908e af_key: relax availability checks for skb size calculation
-8103bee494f45fb1f1e4161b7c2285f1aae474b1 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
-8076542e7d510371ee9bfe417bdc7bbe332f119a iwlwifi: mvm: guard against device removal in reprobe
-37f7c996ac499ea979bea23ca867301f42913129 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
-9bbaf9cfe9aba012b2de8d60fe204238f0dd2233 SUNRPC: Handle 0 length opaque XDR object data properly
-2e2e7aeec01b064677532ba8e56351a6de66eb59 lib/string: Add strscpy_pad() function
-459fde59bb7b5312a67740f5728b3bbe06ce8dfa include/trace/events/writeback.h: fix -Wstringop-truncation warnings
-b0fb8b0f77a8a0ed8c01f41acda37e4c89803131 memcg: fix a crash in wb_workfn when a device disappears
-cbfa90ecbc3be63445195b7576782ce50a2865f3 squashfs: add more sanity checks in id lookup
-fca800cefc47d85c7c23cf50062feac557de1a51 squashfs: add more sanity checks in inode lookup
-33ebe25c0df3028a59d448800a43cfab21d3a74c squashfs: add more sanity checks in xattr id lookup
+facd93f4285c405f9a91b05166147cb39e860666 drm/vc4: hvs: Fix buffer overflow with the dlist handling
+a7e02f7796c163ac8297b30223bf24bade9f8a50 drm/xlnx: fix kmemleak by sending vblank_event in atomic_disable
+873e5bb9fbd99e4a26c448b5c7af942a6d7aa60d drm/dp_mst: Don't report ports connected if nothing is attached to them
+2f51312bebb77962a518b4c6de777dd378b6110a drm/i915/tgl+: Make sure TypeC FIA is powered up when initializing it
+cf050f96e0970a557601953ed7269d07a7885078 Revert "drm/amd/display: Update NV1x SR latency values"
+5feba0e905c495a217aea9db4ea91093d8fe5dde drm/i915: Fix overlay frontbuffer tracking
+50791f5d7b6a14b388f46c8885f71d1b98216d1d drm/sun4i: tcon: set sync polarity for tcon1 channel
+36b53581fe0dc2e25b67de4e58920307f22d195a drm/sun4i: dw-hdmi: always set clock rate
+6a155216c48f2f65c8dcb02c4c27549c170d24a9 drm/sun4i: Fix H6 HDMI PHY configuration
+1926a0508d8947cf081280d85ff035300dc71da7 drm/sun4i: dw-hdmi: Fix max. frequency for H6
+92c75f7594d5060a4cb240f0e987a802f8486b11 Revert "io_uring: don't take fs for recvmsg/sendmsg"
+3da3cc1b5f47115b16b5ffeeb4bf09ec331b0164 Revert "dts: phy: add GPIO number and active state used for phy reset"
+c4295ab0b485b8bc50d2264bcae2acd06f25caaf arm/xen: Don't probe xenbus as part of an early initcall
+811ee9dff58072742644da2c07641728f5e078e4 drm/ttm: make sure pool pages are cleared
+b220c049d5196dd94d992dd2dc8cba1a5e6123bf tracing: Check length before giving out the filter buffer
+d92d3d8f4cc6a9aa8b8f8c229d4b9c43d6eded40 Merge tag 'amd-drm-fixes-5.11-2021-02-10' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+0594bc74be82d0ce50e90de29475b331c1e83382 Merge tag 'drm-intel-fixes-2021-02-11' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+551c81853d6d3ff016269d62612e7cd0a53104ab Merge branch 'drm-misc-fixes' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
+68d54ceeec0e5fee4fb8048e6a04c193f32525ca arm64: mte: Allow PTRACE_PEEKMTETAGS access to the zero page
+93908500b8da0423c9f0511130c8ab86d59576a0 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+f9516259804123c416c4a9de40bc2e14d686478e Merge tag 'riscv-for-linus-5.11-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+2dbbaae5f7b3855697e2decc5de79c7574403254 Merge tag 'for-linus-5.11-rc8-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+e77a6817d413589be35461d0cd5a431a6794b3b9 Merge tag 'trace-v5.11-rc7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+a81bfdf8bf5396824d7d139560180854cb599b06 Merge tag 'drm-fixes-2021-02-12' of git://anongit.freedesktop.org/drm/drm
+c6d8570e4d642a0c0bfbe7362ffa1b1433c72db1 Merge tag 'io_uring-5.11-2021-02-12' of git://git.kernel.dk/linux-block
 
---===============3300116680465777863==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76fd05887428-fd6c1720c1c8.txt
-
-e24ddfb1386ad91882d62a234c00edc704d6c99e mm: memcontrol: fix NULL pointer crash in test_clear_page_writeback()
-0b50e404b7dcbe28484aa64504f6e2acbe363244 fgraph: Initialize tracing_graph_pause at task creation
-9f0ac07d6be0e95b5c594f135dedf826c27b84cb remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
-f566b720646c719efec41920719ca1c45423f7e8 af_key: relax availability checks for skb size calculation
-788f4ce79847f3ad67c81288decba68a22713cfb iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
-973e8f88df2f6691dce431b60fdedc751f64b358 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
-0913aac522f85ff321b934c8fbf80c28d3d9be5d iwlwifi: mvm: guard against device removal in reprobe
-4e2d14fc8f543f395e595f9d96a91f3c44d5c25f SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
-2c1449403bb17beea4dbb24c1fe6599e1ceee91c SUNRPC: Handle 0 length opaque XDR object data properly
-b1856ff315837f7bbc98374b64a08dcb7f72eb08 lib/string: Add strscpy_pad() function
-19979c23b46fbf3128c400f19750c043bd5ca2eb include/trace/events/writeback.h: fix -Wstringop-truncation warnings
-a79743ffe4326087a066c9281f6272e15d1a4e38 memcg: fix a crash in wb_workfn when a device disappears
-d02edc48eb1ae3dda3211be00ccdc64e806aa829 futex: Ensure the correct return value from futex_lock_pi()
-aa6c66998c83cc9be215bc74a83db5baee522fb9 futex: Change locking rules
-c089d695614e98da38be8e33545ff1fa4636c91d futex: Cure exit race
-3365f49d7e073851b6fbc05c4232ffe4719cb6d5 squashfs: add more sanity checks in id lookup
-1d228a44509b442d6c27d65abbed982d381a82f7 squashfs: add more sanity checks in inode lookup
-fd6c1720c1c818222f795a5f20fbd26f3fd1eff4 squashfs: add more sanity checks in xattr id lookup
-
---===============3300116680465777863==--
+--===============4132478068208069600==--
