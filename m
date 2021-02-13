@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7375622015622085322=="
+Content-Type: multipart/mixed; boundary="===============6233203706372516649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Sat, 13 Feb 2021 16:31:46 -0000
-Message-Id: <161323390684.25636.2200579084988695247@gitolite.kernel.org>
+Date: Sat, 13 Feb 2021 16:35:38 -0000
+Message-Id: <161323413882.28090.9747739239653661832@gitolite.kernel.org>
 
---===============7375622015622085322==
+--===============6233203706372516649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 3c5a2fd042d0bfac71a2dfb99515723d318df47b
-    new: 773dc50d71690202afd7b5017c060c6ca8c75dd9
-    log: revlist-3c5a2fd042d0-773dc50d7169.txt
+  - ref: refs/heads/dev-queue
+    old: bb22935dcd88ea17c53dce6000c9bd4ec83aa460
+    new: 9db0da9087c3dcf2f0b2b93b4e5e652310f1bbcd
+    log: revlist-bb22935dcd88-9db0da9087c3.txt
 
---===============7375622015622085322==
+--===============6233203706372516649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c5a2fd042d0-773dc50d7169.txt
+Content-Disposition: attachment; filename=revlist-bb22935dcd88-9db0da9087c3.txt
 
 d18ba9f1351c4675948c87e33a571d28c97d53a7 ath10k: sanitity check for ep connectivity
 3e6b9cf534caa355f569c7cdde7cddd981331433 ath10k: increase rx buffer size to 2048
@@ -349,5 +349,77 @@ f969dc5a885736842c3511ecdea240fbb02d25d9 tcp: fix SO_RCVLOWAT related hangs unde
 eceac9d2590bfcca25d28bd34ac3294dbb73c8ff dt-bindings: net: xilinx_axienet: add xlnx,switch-x-sgmii attribute
 6c8f06bb2e5147b2c25bdd726365df8416c13987 net: axienet: Support dynamic switching between 1000BaseX and SGMII
 773dc50d71690202afd7b5017c060c6ca8c75dd9 Merge branch 'Xilinx-axienet-updates'
+f171a914ef9fa781df324afa33450e1f6be96e36 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+979b8de8140d676a0e576111a458a9f53c2d33ba igc: Add UDP segmentation offload support
+dae110c62fdc53f524e726f8e01bc8fa0245f184 ice: remove redundant assignment to pointer vsi
+0b7304451f278705da339aa9d966907eeeda033a ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
+b07917fe0f8fadbc8a9fb3011fac9b0a9c813cf0 ice: report correct max number of TCs
+87f0560ec289ab22f63e9035637577053aa638b8 ice: Fix memleak in ice_set_ringparam
+145594692df188db4b2941d49d66ee841cf5102e i40e: Fix flow for IPv6 next header (extension header)
+3f2d5b6b014a08076f791be6e3117dc7bb6e1c51 ice: report security revisions of flash modules via devlink info
+b24fe4ecbf821cbbb11078dbed165845712cbdf5 ice: add devlink parameters to read and write minimum security revision
+2b580db65983e6904f2c95b8aeaf8ae97681989e virtchnl: Use pad byte in virtchnl_ether_addr to specify MAC type
+c0c130b667d1cd5ea35f334842b26a8b7d915dfe ice: Manage VF's MAC address for both legacy and new cases
+b3543ea2bdaa0946dfb6fb4e9844b08225712f58 ice: Save VF's MAC across reboot
+00fd25b4a6b6ab902de90f76472fafb85dc69734 ice: Set trusted VF as default VSI when setting allmulti on
+b8b6994d0313f24223c6791e264df341fa371ce2 ice: Account for port VLAN in VF max packet size calculation
+c6a058a152f9992b3a65e8258a823aa74cd208dd ixgbe: don't propagate -ENODEV from ixgbe_mii_bus_init()
+77634f0c0bb72f224a8b7a97d5d363672b961c9e ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+540be7fc0a0cc37a6ecb5bac461b5a1f5636772b igc: reinit_locked() should be called with rtnl_lock
+d76af567237c561966ae6730edb457e266efca40 e1000e: add rtnl_lock() to e1000_reset_task
+58d16349231ca4b6889ba05cc395549210cac338 i40e: Fix memory leak in i40e_probe
+f7a877a0abaae38fab698d8ad3a80536257d9b37 ixgbe: Support external GBE SerDes PHY BCM54616s
+1a714b083c73a06747d99f4ac97bc6dae67a6a4e i40e: Add Rx errors aggregation
+4a0d02090b64fb9605064b8dbd4e75d8fc2c2dc7 i40e: Add zero-initialization of AQ command structures
+b788d4e24f153ba0dd241f16024075f812f15f88 ice: update the number of available RSS queues
+eabd47a6cce293004a278163b09e1142c90e63d8 ice: Fix state bits on LLDP mode switch
+0f12025a22d114e6dc4fdeb9aa35fdeda4e5b1d6 ice: Fix AF_XDP multi queue TX scaling issue
+0be2cb7d030f061dc9fa75a60cbf46cdeb3a297c ice: Optimize AF_XDP zero-copy TX completion path
+68fb14e39a14aa475d1ca5ea70a99b99890883bd ice: improve AF_XDP single socket performance
+f371021c3c95b70a2c1271791079ca4b650864dc ice: Refactor ice_setup_rx_ctx
+12cdcc1fe33cb54c80dc46556207cd28b95057a2 i40e: Fix overwriting flow control settings during driver loading
+244e6c529ed0f7cc1c8be93aa6d13081361f8333 i40e: Fix VFs not created
+679e3c3e8eb280fb1a424257a02b6d36e1b8e0b9 i40e: Fix addition of RX filters after enabling FW LLDP agent
+2f475cb5801a3ea872a85499d5ce2a4848f330a8 e1000e: Leverage direct_complete to speed up s2ram
+a242d2021bc7d73b6f8cd14a50a0b99d37634dcd e1000e: Remove the runtime suspend restriction on CNP+
+fc971da9f49bde47be09455bff4ff28935522d06 i40e: optimize for XDP_REDIRECT in xsk path
+0618e2e326379457507bdfc5cc1f58e9964e09dd ixgbe: optimize for XDP_REDIRECT in xsk path
+e45044178284edce1effd698bf25c2974046c354 ice: optimize for XDP_REDIRECT in xsk path
+970388113bec37a0a69c8f15eca49c6318590317 ixgbe: aggregate all receive errors through netdev's rx_errors
+01873952a6fff7ddc37164cdad8b2e229a8231ee i40e: Fix add tc filter for IPv6
+42249e38a569d480487f06caf9a1d58854c971d4 i40e: Fix setting PF MAC filters when changing MAC address
+e9767fd712e62fc00fd11891fab26f86be39aee1 i40e: Add Asym_Pause to supported link modes
+3fb768a5e3a44fddb6662e4befabc9ca78b42ae7 ixgbe: Fix memleak in ixgbe_configure_clsu32
+15565b938a2c2a523986db27cf864e6c5bca3a4c igc: Remove unused MII_CR_RESET
+6d2f9558d4a4c90c9c0fc041470d8230247ff614 i40e: add support for PTP external synchronization clock
+0b80ca53dcb4fefa855b046939ea6f23ce813fd7 igc: Remove unused MII_CR_SPEED
+d589ab0dcc901d4795c8d06b535749217a977f5b igb: avoid premature Rx buffer reuse
+3fd0451730b3bbc0258d805b1f4f1e3af5771e79 iavf: Fix asynchronous tasks during driver remove
+5499487a7645dceae1f155d09a0dfd5b5efcf0ee i40e: Fix correct max_pkt_size on VF RX queue
+3dbf13ab7011764abc5a942d21b8bb9ae14be43f igc: Assign boolean values to a bool variable
+36185f7cf46e3ef0139d5f55477c92311506dd43 i40e: refactor repeated link state reporting code
+94abca397cb389edd8076cabed4a5b073a5be110 virtchnl: Fix layout of RSS structures
+55d2d8f85a13e6e236e8f1060785934ebf4906ad igb: Redistribute memory for transmit packet buffers when in Qav mode
+b8b64e3d1e9190f87b8bb7d8749308fbd852c837 i40e: Fix endianness conversions
+b517020ef0f4eef3741fadce9dcb62962c9e28c7 ice: fix napi work done reporting in xsk path
+daef0ae2b11236aa094e4e4d2a0da2d447d4a20f igc: Fix igc_ptp_rx_pktstamp()
+11267c2b3d043e28401c9a90bf218cdcdf9dd4a6 igc: Remove unused argument from igc_tx_cmd_type()
+dca2414b590bdada530533ae5a5ba7565629d22b igc: Introduce igc_rx_buffer_flip() helper
+730913bf1fc5bd2c53febc54fbad2ac8704678d2 igc: Introduce igc_get_rx_frame_truesize() helper
+d957884fbaa5c0a6fcfe421a28c53db9f12a66a5 igc: Refactor Rx timestamp handling
+fea6a25e2cad95f018babbc649a431e9c6c1c6a7 igc: Add set/clear large buffer helpers
+3ad4970678c62070c671937a4b3a5a717ec558dd igc: Add initial XDP support
+7f556baa0647e77af4dc396b663037c923daa5d4 igc: Add support for XDP_TX action
+02b2dd86d863d010863bab585a31af7c7f021e42 igc: Add support for XDP_REDIRECT action
+ed7e8c8b119c5fed730c1d213a8bc3dd97029919 igc: Move igc_xdp_is_enabled()
+4229b005940475894478d0c43ae43a83f0d06669 igc: Refactor igc_xdp_run_prog()
+c11a8fcdb37f4841dcd15c226a27dca1820a7f88 igc: Refactor igc_clean_rx_ring()
+1bcba072f1712d867136e1b4ab81824f7cdc874f igc: Refactor XDP rxq info registration
+618cf6e9ea7d5857d4586facc553adfd09714bc0 igc: Introduce TX/RX stats helpers
+3030a204c7bd9d232cab3cfa538676e8ecc2819a igc: Introduce igc_unmap_tx_buffer() helper
+d25aceaaca873945b72834caad170b66224c98b2 igc: Replace IGC_TX_FLAGS_XDP flag by an enum
+d4369d77cd168e64b5dc3fa9b599e37503bea338 igc: Enable RX via AF_XDP zero-copy
+f21ae0c4a3f9c4ea4cf0262ba2526dbaec5a5ec5 igc: Enable TX via AF_XDP zero-copy
+9db0da9087c3dcf2f0b2b93b4e5e652310f1bbcd iavf: Fix return of set the new channel count
 
---===============7375622015622085322==--
+--===============6233203706372516649==--
