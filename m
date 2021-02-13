@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0925655011965048776=="
+Content-Type: multipart/mixed; boundary="===============5888037664043399995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Sat, 13 Feb 2021 16:30:35 -0000
-Message-Id: <161323383510.25103.8081157118600851256@gitolite.kernel.org>
+Date: Sat, 13 Feb 2021 16:30:48 -0000
+Message-Id: <161323384859.25247.630725769529841754@gitolite.kernel.org>
 
---===============0925655011965048776==
+--===============5888037664043399995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
-    old: 1c7673476b82983768c6a4dd78775f817f0e0f88
-    new: 2223318c2862edc7f5b282939b850b19fc934ec4
-    log: revlist-1c7673476b82-2223318c2862.txt
+  - ref: refs/heads/for-next
+    old: f6f3e92ad91ded26f3db86b447dc96683069dd55
+    new: b47f625e102bab9ffb8c6b38fffd6d681b9f23e6
+    log: revlist-f6f3e92ad91d-b47f625e102b.txt
 
---===============0925655011965048776==
+--===============5888037664043399995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c7673476b82-2223318c2862.txt
+Content-Disposition: attachment; filename=revlist-f6f3e92ad91d-b47f625e102b.txt
 
 b0d31159a46787380353426faaad8febc9bef009 s390: open code SWITCH_KERNEL macro
 64985c3a223d15f151204b3aa37e587b9466378d s390: use WRITE_ONCE when re-allocating async stack
@@ -47,5 +47,6 @@ fc4a925f7774fe14f8f6318d0d7ed7d2596f073f s390/crypto: use store_tod_clock_ext()
 540936df443859244e1a76331524600c35b225d0 s390/qdio: rework q->qdio_error indication
 7940eaf2e956ce3d67ac9efb5b621adbb823e049 s390/qdio: improve handling of PENDING buffers for QEBSM devices
 2223318c2862edc7f5b282939b850b19fc934ec4 s390/qdio: remove 'merge_pending' mechanism
+b47f625e102bab9ffb8c6b38fffd6d681b9f23e6 Merge branch 'features' into for-next
 
---===============0925655011965048776==--
+--===============5888037664043399995==--
