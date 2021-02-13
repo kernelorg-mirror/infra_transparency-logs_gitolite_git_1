@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Sat, 13 Feb 2021 01:57:44 -0000
-Message-Id: <161318146406.5370.11733277863893983699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sat, 13 Feb 2021 04:36:39 -0000
+Message-Id: <161319099953.7212.17960811339900261919@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/clk-fixes-for-linus
-    old: d0707e1a56a60d78dcecb73421dc705ebd5412c9
-    new: c88749068391e70e562d90aa1032af416c9010dc
-    log: |
-         245090ab2636c0869527ce563afbfb8aff29e825 clk: sunxi-ng: mp: fix parent rate change flag check
-         
+  - ref: refs/heads/rcu/next
+    old: 8e6a68bd0202c10d30298fd5aaf11ffeacbac197
+    new: c8c430f4a2fb91b9804ed2f749364fc0dcd663fe
