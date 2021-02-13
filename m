@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============7623818172927862184=="
+Content-Type: multipart/mixed; boundary="===============6998312031630590197=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 13 Feb 2021 08:44:17 -0000
-Message-Id: <161320585725.25493.14182873915757584432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sat, 13 Feb 2021 08:44:57 -0000
+Message-Id: <161320589772.25761.3016185937967767177@gitolite.kernel.org>
 
---===============7623818172927862184==
+--===============6998312031630590197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 6522ad26df0e85c4b52cc39fde269b0c64f9172a
-    new: a2ea4e1d9091cd8bc69f1c42c15bedc38618f04c
+  - ref: refs/heads/char-misc-next
+    old: 06c18e28c402ecfb842df8e22a19a097c35ffca9
+    new: d19db80a366576d3ffadf2508ed876b4c1faf959
     log: |
-         95897fdf1f2afb9800caf238b3decf50668f43a5 staging: vt6656: Fixed issue with alignment in rf.c
-         fa7d3e66f67514aa5f3031d5c2b4c1b3b804200e staging: fbtft: add tearing signal detect
-         f34df6764c608565afb2eafb11004381f628159e staging: wimax: Fix some coding style problem
-         dc31fc6ce69e0308395ec315322cf0d0d8848467 staging: nvec: minor coding style fix
-         314fd52f01ead9528a5cda5a868425bb736d93a2 staging: wfx: remove unused included header files
-         a2ea4e1d9091cd8bc69f1c42c15bedc38618f04c staging: greybus: Fixed alignment issue in hid.c
+         957e3f797917b36355766807b1d8a54a1ba0cfc9 soundwire: intel: fix possible crash when no device is detected
+         d288a5712ef961e16d588bbdb2d846e00b5ef154 regmap: sdw: use _no_pm functions in regmap_read/write
+         4038e54b8f8f7fc2d0765a1b65061407ea79f1f7 regmap: sdw: use no_pm routines for SoundWire 1.2 MBQ
+         8d8d958428674518cef083cd97e535ac5ac9f9d8 regmap: sdw-mbq: use MODULE_LICENSE("GPL")
+         d77b44d0c0174708eaeaf27e8bfcb671a0225897 Merge tag 'soundwire-2_5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire into char-misc-next
+         d19db80a366576d3ffadf2508ed876b4c1faf959 spmi: spmi-pmic-arb: Fix hw_irq overflow
          
 
---===============7623818172927862184==
+--===============6998312031630590197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613205843 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1613205842-74dae28e3baa54444cd2645394a7f379d2a06092
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613205884 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1613205883-ade0446261d0130effc12dcd953f97acc7c5ffe8
 
-6522ad26df0e85c4b52cc39fde269b0c64f9172a a2ea4e1d9091cd8bc69f1c42c15bedc38618f04c refs/heads/staging-next
+06c18e28c402ecfb842df8e22a19a097c35ffca9 d19db80a366576d3ffadf2508ed876b4c1faf959 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAnkVMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E34P/R8mDgJWG1b0jSr813cz
-bwxEKu6IjnXdK9k35YqliCpXta0lkSsPws9vAOW8aqF3t8tnpqhrjcG2ENeX5YSR
-Hi2fRpqcy9d4980kFBpHAd2oiCoECFOnYdV/XxG1fzt9fMHbNZmUU1iCiFib0pSQ
-mGXsgg74xqgOtDwq1bGLDrVIBO0L4hx+qCMtY1GK57eihXAdTyfO9L/aXzz9xr7y
-457JraMOVWUKnfWAy61k3DnYl2hV4eMpizhAOYhUb90aq3SJzJjCbV3+XsfCTqi1
-7ZGbAjTGtodPtMhd169ZnXYTz7RGOfmvERR/PX+IzpydAWZKNPRSxoL6NbYH7QXG
-F6aX9cEIiFduIMrAwK6fO8Kq8Yyn4um021k0McGbR+oWZxg7l0mCJxtdOD8T1Dfz
-n8AtUEbHZz+N0QnQAb2/bAAPFKUE5i6vXsi1Zcf4a3E518JzUsLLcCnsatxQcQoU
-uAl2lTKJfcTdDODTolggSfYnggCCG0YwtI5YsqiKaiIJPdPrE78EBioKFtmCfSBE
-dkFJqSkHKt+sqQ/rL0ejhtjpltZ0Tiae0LYDzHw+oOlzJuu0x9y19+ucSkt2l0Wj
-SKdYwhsUDcU57dV85f90hTvrsj4tJNATJhYLu1K0QZB1EEe1FKrhR73dJ6SL4yrg
-pYXIKjLy/1LkMJEDnOoBXZb8
-=NFom
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAnkXwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TP0P/2i2pz5MxEwltVUWJIkE
+rIjBcdTG1guHaFUhEEoPqpmqv3cJNXeDebh6K8jRjMNq5ACaqTgfz+Q4egGuePWw
+1S3ilHaiR6le+r5PlerUkNdjji3K2k7HVULk4MNkjxjYxGmUdujI4/SGvjk83jZQ
+CCiVX24v1yKnjRXZMQ1w6D/P+INHYxWOvyxd1ryej9aPSu1tx67N19qhk56AfkvJ
+5FM4mcL5wS2SvshVhOvrV22Luw/sTNoBHdlZ39P8FutEwz1K6rD+un2N5p8Pf/sH
+uDs7acmnBM8lfhXnpgC22P/psS5AXy2kCTavBpDpzriJNJLph0yBNQEbxOKEI4vA
+/m2lS2pPbzLgE2SfbeelWZCMf9lcoy1nLHffZ9RQudodZfiuxozu3xo+d/Sus01/
+Zsnu9+10o1g04wjyPnovRYVWPT98YHhAvSYWDCQp/pyexiLoMUhx4Dx6LBy1KG2r
+HuTrbSMM2iSo1w8pOSrhO4xSCI3DB1J8f0r9fEKLlxg0F76wFRhpu1Nqcc4XTNVU
+du8x5PkWGEut/TDjCYgUYSLCD8djBY//X8nvdHaa6dvmWC4GnPN0raiN8cLQau9E
+6+3O3kfFHoZ7bEEuSC22zqoez7+u6aCrd5uXp+fjNwEDEhP8hkqfu5r22djczn+A
+b0bvVNcCjnITxCEjllOjGMRx
+=etOi
 -----END PGP SIGNATURE-----
 
---===============7623818172927862184==--
+--===============6998312031630590197==--
