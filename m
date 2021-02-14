@@ -1,22 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 14 Feb 2021 22:38:09 -0000
-Message-Id: <161334228973.24265.2149858070131212063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Sun, 14 Feb 2021 22:39:31 -0000
+Message-Id: <161334237155.24957.4268363580553503052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: 28a17338738839494752c5da3e12c889a55219db
-    new: f40ddce88593482919761f74910f42f4b84c004b
-    log: |
-         f40ddce88593482919761f74910f42f4b84c004b Linux 5.11
-         
-  - ref: refs/tags/v5.11
+  - ref: refs/tags/arm-defconfig-v5.12
     old: 0000000000000000000000000000000000000000
-    new: 2d073d933799ffaa046c773bfffa01f3aa461701
+    new: 7d5f8dde12252d62858c8a1e4ce713c9d6559730
+  - ref: refs/tags/arm-drivers-v5.12
+    old: 0000000000000000000000000000000000000000
+    new: b8c11dda069f023c0ed74be14a0d31a376f17a7f
+  - ref: refs/tags/arm-dt-v5.12
+    old: 0000000000000000000000000000000000000000
+    new: 3b2843672cd5e87b12de82d891ff2892446de2c4
+  - ref: refs/tags/arm-fixes-v5.12
+    old: 0000000000000000000000000000000000000000
+    new: 70162d7cf96c2179f9ad299328eba95bde511c45
+  - ref: refs/tags/arm-platform-removal-v5.12
+    old: 0000000000000000000000000000000000000000
+    new: 7ba68e45fab9411d2ba8eb3b59d2e79440cbd1ba
+  - ref: refs/tags/arm-soc-v5.12
+    old: 0000000000000000000000000000000000000000
+    new: f598af9c4e9c28595f78de25b91f014508b477f2
