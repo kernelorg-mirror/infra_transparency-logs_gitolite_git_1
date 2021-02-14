@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sun, 14 Feb 2021 15:39:10 -0000
-Message-Id: <161331715046.32083.6532756061755033936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sun, 14 Feb 2021 15:43:56 -0000
+Message-Id: <161331743665.3832.3682504477037235042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/experimental
-    old: bfbd8ee056aca57a77034b8723f3f828f806747b
-    new: a78a0c8034ffa3783c2338ad8a94506648317cf9
+  - ref: refs/heads/for-next
+    old: 2c28156d88aa36ee8d45a3e68cc7eaa7d919dd96
+    new: 15447b64789d9ade71eb374d5ae1f37d0bbce0bd
     log: |
-         f1fcad35ce6b09229f6bbd006ab920eb342a400f erofs-utils: fix battach on full buffer blocks
-         d8fe7c996868b2e049818a5aadb76c6a765f7d7b erofs-utils: don't reuse full mapped buffer blocks
-         c0b75f5616bc233b1ae8b7adcdf8425878b39661 erofs-utils: more sanity check for buffer allocation optimization
-         a78a0c8034ffa3783c2338ad8a94506648317cf9 erofs-utils: fuse: fix random readlink error
+         15447b64789d9ade71eb374d5ae1f37d0bbce0bd ALSA: usb-audio: Add implicit fb quirk for BOSS GP-10
+         
+  - ref: refs/heads/master
+    old: de4f24e028f20c7101de152fe59410643eacfeba
+    new: 83bfc55941e3dc4a2f11b0dae519d1c4fc0364e0
+    log: |
+         15447b64789d9ade71eb374d5ae1f37d0bbce0bd ALSA: usb-audio: Add implicit fb quirk for BOSS GP-10
+         83bfc55941e3dc4a2f11b0dae519d1c4fc0364e0 Merge branch 'for-next'
          
