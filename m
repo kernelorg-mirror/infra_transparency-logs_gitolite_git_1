@@ -1,87 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============7933429648579048211=="
+Content-Type: multipart/mixed; boundary="===============1168396294621182577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 14 Feb 2021 07:51:31 -0000
-Message-Id: <161328909119.10159.17797051686654702710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 14 Feb 2021 08:03:42 -0000
+Message-Id: <161328982282.2953.6565394331946709944@gitolite.kernel.org>
 
---===============7933429648579048211==
+--===============1168396294621182577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
   - ref: refs/heads/master
-    old: c6d8570e4d642a0c0bfbe7362ffa1b1433c72db1
-    new: 358feceebbf68f33c44c6650d14455389e65282d
-    log: revlist-c6d8570e4d64-358feceebbf6.txt
+    old: 7a0095a5428e9946b9196965fcf9c8bee1bd2d46
+    new: 33f776b54cd374fb980af2754333cca0f235f9dc
+    log: revlist-7a0095a5428e-33f776b54cd3.txt
 
---===============7933429648579048211==
+--===============1168396294621182577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7a0095a5428e-33f776b54cd3.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613289089 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1613289084-620abbbfdc0d222b59cc2bfa57e30547ac53a1ef
+7a11af70b7176c56b2f14ad388f7bc995917f608 shm_overview.7: SEE ALSO: add memfd_create(2)
+4f1adaa493d9f0ca732f29740d4e7511513f8b01 move_pages.2: Add notes about missing glibc wrappers
+904291a4219f7fd8698f6fec40cdfd2b34aeaf66 process_madvise.2: Add note about missing glibc wrapper
+147ad5cedc08a11c9c8be8defcb6d26b456710da process_madvise.2: SYNOPSIS: Fix prototype parameter type
+8d010a06735b57d7185dfc14f1ca53782d533dc6 process_madvise.2: Minor clarification regarding partial advice scenario
+c9c9ab2e69fd737474e190138db8a172680032e3 madvise.2: Add descriptions of MADV_COLD and MADV_PAGEOUT
+c7faf9452e3a39cbdca2336c66551da2fb1da6df process_madvise.2: Defer to madvise(2) for description of 'advice' flags
+c0499357317a29fe3ff32ccdfe2316b147a2edef process_madvise.2: wfix
+bb5d2db62e981f3dfee6ec5fa9f99b932ecf5adf process_madvise.2: Consistently use the term 'advice'
+e234eef0c6e20858e97ac369d0135dee3f989f01 accept.2: SYNOPSIS: Use 'restrict' in prototypes
+8de93cea54f5faed62b3708193a02cb5aceeee84 getpeername.2: SYNOPSIS: Use 'restrict' in prototypes
+78eb47fc8fdb3752f961bef401a0726b4e1884d0 getsockopt.2: SYNOPSIS: Use 'restrict' in prototypes
+8f5b718ea12c559b9eeaf646d014b969a380a551 readlink.2: SYNOPSIS: Use 'restrict' in prototypes
+04dc013d9bccb18ad3ef8de5885e1cfa90e5b62d recv.2: SYNOPSIS: Use 'restrict' in prototypes
+6b032bf01ee9a5230104c9885ad16c6917deec66 select.2: SYNOPSIS: Use 'restrict' in prototypes
+3d54c17a6dfeb57081af907c449e90d86887ccee sigaction.2: SYNOPSIS: Use 'restrict' in prototypes
+c1603508a1341f945164ece39850f99bc421730f sigaltstack.2: SYNOPSIS: Use 'restrict' in prototypes
+1c227750c035c659196a40e01879faeab6c92459 sigprocmask.2: SYNOPSIS: Use 'restrict' in prototypes
+c59ca53abd5fd1ae90f96d4b791cc53a8e92ad03 sigwaitinfo.2: SYNOPSIS: Use 'restrict' in prototypes
+049d7f92e8c617ed799b36f6debba6334b8cacbc statx.2: SYNOPSIS: Use 'restrict' in prototypes
+caed1954a1597c7e048b6b2f424b687ac1c070ef stat.2: SYNOPSIS: Use 'restrict' in prototypes
+3b184f9c85355088ed2bf19a088cb69a6ec32bb4 timer_create.2: SYNOPSIS: Use 'restrict' in prototypes
+d14c4ba412b6125d41cab1fb339fe1753d6345ab timer_settime.2: SYNOPSIS: Use 'restrict' in prototypes
+33f776b54cd374fb980af2754333cca0f235f9dc execve.2: Correct the versions of Linux that don't have ARG_MAX argv/envp size
 
-c6d8570e4d642a0c0bfbe7362ffa1b1433c72db1 358feceebbf68f33c44c6650d14455389e65282d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAo1oEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k3kP/RUxhKN1l9MO1Q7MoxiR
-J47vCC6YjAwaAWe6Teyh5ZKq1NuGcLzs1Ew/Jbczo0d+sKJE0DYX3YJo8vOl/QWf
-1IKZ3cl45XM6RgbWipQwmgbqKCE/OyUsrPuNsH0t418Gc8h+cJxabQ2yYDgVUbzh
-9CfLjjJhlkUVF0DKwYUPCMb5Hbn9DIvBvswOzCE9D4Ap4kKftXCkwNGgFm7525GO
-4gMtgKsVnWo3O5PtzzIrOEM8yFSWDO8f8SWNX/id93+WLgtjSqc7/BScd2ZSW0tn
-3ATMA1Xc+qDVbbcKrrrWCmhtOIl/YvPMVVdxDlVNzar4H3KKQtP8j8pLHbVkhEtg
-KVNQOU1ul5uglzs5oZ3wyBX12lLRh7tA023e1rcutag9gHdxWeE9VyP8VQ9+/wUm
-LCEAexvpj6B5j7TglRgxnhqL1taZdb7w22yINYTb4+/81CrOXnw9YULSbo1GoBbJ
-vikjTCT4a4lIxKGTH6sdfXrsOBU3APUENyVrMtzCay91TJ6AcnObPjpvRi/0rnh0
-6GNT9eb5Qgk/OfRnpdrsT6xLgJ1PR1VVv5xnbRRSrPb95fMG5VyI9bsTygq6ggFM
-MetsuwPKrs3abXl9NwuFqkgdemifCXkIQC0PW4UOMqXSPFUffDhirke/M3UnlMLi
-n9+AObIMEbkm3ZfNPOEoUReb
-=f+G4
------END PGP SIGNATURE-----
-
---===============7933429648579048211==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6d8570e4d64-358feceebbf6.txt
-
-61e960b07b637f0295308ad91268501d744c21b5 cgroup-v1: add disabled controller check in cgroup1_parse_param()
-00e01f325de1eb5ccb3ead7c0a195187a7a53d7e MAINTAINERS: Remove stale URLs for cpuset
-b5e56576e16236de3c035ca86cd3ef16591722fb MAINTAINERS: Update my email address
-385aac1519417b89cb91b77c22e4ca21db563cd0 cgroup: fix psi monitor for root cgroup
-74bdd45c85d02f695a1cd1c3dccf8b3960a86d8f cgroup: update PSI file description in docs
-f852c596f2ee6f0eb364ea8f28f89da6da0ae7b5 scsi: scsi_debug: Fix a memory leak
-abd4af47d3fb64157133bd35de25d39a21a31122 cifs: fix dfs-links
-a0f85e38a3c23a334d9ea111cfa4fcfa4b3f9b64 cifs: do not disable noperm if multiuser mount option is not provided
-af1a3d2ba9543e99d78914d8fb88b61d0531d9a1 cifs: In the new mount api we get the full devname as source=
-a738c93fb1c17e386a09304b517b1c6b2a6a5a8b cifs: Set CIFS_MOUNT_USE_PREFIX_PATH flag on setting cifs_sb->prepath.
-245090ab2636c0869527ce563afbfb8aff29e825 clk: sunxi-ng: mp: fix parent rate change flag check
-3d6a3d3a2a7a3a60a824e7c04e95fd50dec57812 i2c: stm32f7: fix configuration of the digital filter
-83c68bbcb6ac2dbbcaf12e2281a29a9f73b97d0f btrfs: initialize fs_info::csum_size earlier in open_ctree
-7989807dc0c95c4b787698eba10905a5baac42e8 Merge tag '5.11-rc7-smb3-github' of git://github.com/smfrench/smb3-kernel
-3c62cfdd10c44221050b4b94cfdf8707d31fea53 m68k: make __pfn_to_phys() and __phys_to_pfn() available for !MMU
-93ca696376dd3d44b9e5eae835ffbc84772023ec scripts/recordmcount.pl: support big endian for ARCH sh
-30d320f089d8e1ad369375e02cf62fbe5da18e85 MAINTAINERS: update KASAN file list
-872fad10f8340207a2a6896a1311c5c7b50d2e11 MAINTAINERS: update Andrey Konovalov's email address
-fee92a765fbcc9412680228f8fdc425ab9c8151e MAINTAINERS: add Andrey Konovalov to KASAN reviewers
-ade9679c159d5bbe14fb7e59e97daf6062872e2b h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
-e42ee56fe59759023cb252fabb3d6f279fe8cec8 Merge tag 'for-5.11-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-8cc8e6aaf27db47985f9e1c24ac2f7393390971e Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-25cbda46779418e5ae435707675a312c99a16dff Merge branch 'akpm' (patches from Andrew)
-ac30d8ce28d61c05ac3a8b1452e889371136f3af Merge branch 'for-5.11-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-0001ec9b1418f01a6dd44a83a1caa4b4f3d11f29 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-358feceebbf68f33c44c6650d14455389e65282d Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-
---===============7933429648579048211==--
+--===============1168396294621182577==--
