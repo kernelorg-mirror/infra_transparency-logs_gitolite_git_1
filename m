@@ -1,31 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Sun, 14 Feb 2021 22:39:31 -0000
-Message-Id: <161334237155.24957.4268363580553503052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sun, 14 Feb 2021 23:36:37 -0000
+Message-Id: <161334579791.26171.1461563669009991774@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/tags/arm-defconfig-v5.12
-    old: 0000000000000000000000000000000000000000
-    new: 7d5f8dde12252d62858c8a1e4ce713c9d6559730
-  - ref: refs/tags/arm-drivers-v5.12
-    old: 0000000000000000000000000000000000000000
-    new: b8c11dda069f023c0ed74be14a0d31a376f17a7f
-  - ref: refs/tags/arm-dt-v5.12
-    old: 0000000000000000000000000000000000000000
-    new: 3b2843672cd5e87b12de82d891ff2892446de2c4
-  - ref: refs/tags/arm-fixes-v5.12
-    old: 0000000000000000000000000000000000000000
-    new: 70162d7cf96c2179f9ad299328eba95bde511c45
-  - ref: refs/tags/arm-platform-removal-v5.12
-    old: 0000000000000000000000000000000000000000
-    new: 7ba68e45fab9411d2ba8eb3b59d2e79440cbd1ba
-  - ref: refs/tags/arm-soc-v5.12
-    old: 0000000000000000000000000000000000000000
-    new: f598af9c4e9c28595f78de25b91f014508b477f2
+  - ref: refs/heads/master
+    old: eddaaafd97e7b73c717cc4235a4ce0da103df19d
+    new: 46887e2f1a534f311fe5f7b9346134a6c4ae5ad6
+    log: |
+         d27dc1f89b1d9fbbc5ebeed9e90c67f3ebe5b777 Bibliography update
+         ccc33544f4b1440b1500b09afab6380c0a3f5820 debugging: Updates and wordsmithing, take two
+         c44940604d1b4a5232acbe4c201f38a2068333f3 Bibliography update
+         4732823c59a01714596321f86c953a3483135ef9 debugging: Updates and wordsmithing, take three
+         6ced50ac212210c2859cd9588c3435d593dabcf0 Bibliography update
+         46887e2f1a534f311fe5f7b9346134a6c4ae5ad6 formal: Updates and wordsmithing
+         
