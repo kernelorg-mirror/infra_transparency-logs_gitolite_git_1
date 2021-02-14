@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7337188046248354677=="
+Content-Type: multipart/mixed; boundary="===============3367812241889019947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 14 Feb 2021 17:25:40 -0000
-Message-Id: <161332354076.1199.3930999527784401863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sun, 14 Feb 2021 17:25:47 -0000
+Message-Id: <161332354752.1352.15600598957213395511@gitolite.kernel.org>
 
---===============7337188046248354677==
+--===============3367812241889019947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: b7c803d6e45a3557c7a04a4137799a17e6428466
-    new: 35965dc7f2fa20de0b71c90c4e7c300dd9c9f7eb
-    log: revlist-b7c803d6e45a-35965dc7f2fa.txt
+  - ref: refs/heads/queue-next
+    old: dac5329724fb433033c4674d6991c418d855e9b0
+    new: bb4aa1ee3a347c256c25ea1c0f31dbf0fc4cb80f
+    log: revlist-dac5329724fb-bb4aa1ee3a34.txt
 
---===============7337188046248354677==
+--===============3367812241889019947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7c803d6e45a-35965dc7f2fa.txt
+Content-Disposition: attachment; filename=revlist-dac5329724fb-bb4aa1ee3a34.txt
 
 5c8c656749b5a71d733c929536421427e0c6d11b net/mlx5: Add new timestamp mode bits
 9f9d102cf49d8a407eba5be9508d0f2e796a3490 net/mlx5: Add register layout to support real-time time-stamp
@@ -43,5 +43,7 @@ c0a516e1644094e4695a1c1e4a35aaaf3c64231e Merge branch 'net-next-mlx5' into net-n
 2ba161441b93ea33bb8cd7bd20905f90b076384d Merge branch 'net-mlx4' into net-next
 2477e8caa0f78327ac42a404b5024f11a246e021 Merge branch 'net-mlx5' into net-next
 35965dc7f2fa20de0b71c90c4e7c300dd9c9f7eb Merge branch 'net-next-test' into net-next
+57201a6996a63b1bf5e4a8551aafecb1086928bf Merge branch 'net-next' into queue-next
+bb4aa1ee3a347c256c25ea1c0f31dbf0fc4cb80f Merge branch 'testing/rdma-next' into queue-next
 
---===============7337188046248354677==--
+--===============3367812241889019947==--
