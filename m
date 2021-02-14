@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Sun, 14 Feb 2021 21:59:50 -0000
-Message-Id: <161333999082.1422.9907812443788303234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 14 Feb 2021 22:33:19 -0000
+Message-Id: <161334199926.21336.11575413193560621705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/next
-    old: b9af58abce8aae4ebb295e49cb33b75ab9c1a579
-    new: 0c46f6d74e6f07f66d04bbc83e3ae8c2f30c1115
+  - ref: refs/heads/master
+    old: 91c85fcfb871b53fa2cb57c77b10cfe350ef2fb5
+    new: 7b4b684560eab12245affca04767593b73187cf5
     log: |
-         18e509526a727c594c29622489437c7376f44d32 update UAPI header copies
-         107ee330ec7bf83e8c3938375f3466bc8e102b93 netlink: settings: Add netlink support for lanes parameter
-         db7d457e49833d8a68be03d48cffa1d617498adc netlink: settings: Expose the number of lanes in use
-         c323bcb248c2424cebe533cb2607283aa4538a0b shell-completion: Add completion for lanes
-         e2a120e1d44e6c4d64f53ac78c9c08427922b33b man: Add man page for setting lanes parameter
-         0c46f6d74e6f07f66d04bbc83e3ae8c2f30c1115 Merge branch 'review/lanes-v3' into next
+         7b4b684560eab12245affca04767593b73187cf5 Fixes for 5.4
          
