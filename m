@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5085474517406302912=="
+Content-Type: multipart/mixed; boundary="===============6921623504934676299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sun, 14 Feb 2021 09:05:50 -0000
-Message-Id: <161329355042.25808.5776781030766373989@gitolite.kernel.org>
+Message-Id: <161329355046.25830.1029694386718664531@gitolite.kernel.org>
 
---===============5085474517406302912==
+--===============6921623504934676299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,63 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 5b9a4104c902d7dec14c9e3c5652a638194487c6
-    new: 642aa3284e09f63bf1d4832798dd787b4320ca64
-    log: |
-         7f400da9d608aeeb732b73a10bbe5707fefc0444 gpio: ep93xx: fix BUG_ON port F usage
-         e4ed5e1025935386ae5d0374a9b1d46874ff10e0 gpio: ep93xx: Fix single irqchip with multi gpiochips
-         d81f9473d78ab0eb752155e8034643319a703bd8 tracing: Do not count ftrace events in top level enable output
-         ee6bcced067331f2fb92368424a602c4e6f37b50 tracing: Check length before giving out the filter buffer
-         13a6b0c393de6fbe2fd819ce4cf3bf00b0c0ca76 arm/xen: Don't probe xenbus as part of an early initcall
-         3a0daa1b557474dfa7ecf18f1f27731878598866 cgroup: fix psi monitor for root cgroup
-         642aa3284e09f63bf1d4832798dd787b4320ca64 Linux 5.4.99-rc1
-         
+  - ref: refs/heads/linux-5.10.y
+    old: de53befa79cfd74c01fbbdeb45c700b3e9e13011
+    new: 91ae446e84dab83c823da1072547c781aafab644
+    log: revlist-de53befa79cf-91ae446e84da.txt
 
---===============5085474517406302912==
+--===============6921623504934676299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613293549 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613293548 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1613293542-4a5652a8d90571c8c84fe2fdbc5297c3483d7c00
 
-5b9a4104c902d7dec14c9e3c5652a638194487c6 642aa3284e09f63bf1d4832798dd787b4320ca64 refs/heads/linux-5.4.y
+de53befa79cfd74c01fbbdeb45c700b3e9e13011 91ae446e84dab83c823da1072547c781aafab644 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAo5+0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vSMP/ijcDN6+xTsPYtCxQDPx
-12J178naYl0jzeihIYdvePXqP5O/j13DpqT594PS6Y+1SyJfU3U+bs1xKCY644ab
-UGv4gHCYMXBb9FZwGcbnPeeU1xI1IjlDkFRRaEv37rJAL0CwSR39cd8pNc9wD7HV
-6OVXoDdfJeZ+SoqqnWxFf3kITwndtCrAQeCtXwmygckWxiGWEvw2pynjqPfsQevT
-musX9GIOp5GnVqV17W9RFh21kjxMgA45McxCcCYkN8Sb+BQLckpLBz7h9XTs5Q0e
-N4pfUUxur/DXow2QIVnjMrh3IYcEmg6zm5ceWsheHvqWo6fD3xJ2MsftEazjmYEx
-T9RUdI+V1Q0q0jbcJjo24sw36mZ4tIKZARnbjJM5XVCMBuEV9acyDTQui31iszZh
-LgfEpqMOX9yh0/QKg1vbMsvRnKliIkV9GEEGh+vQGhCeGquVhCZTBoE6WsLnTCfQ
-6JPcGuNXX8E46m+VqMyhuLDMbA/Q09eY9ZabcKsiTGCfQg7RpTZ20LuXmV1xxL3e
-WUXGDqdRyZqfIJg7MtPWAaxx/I+7e69lNrN/9Addikx4hm1ngLiIATcD0yMTYWE1
-CBSJiLK+G2CTRvz3FPNe9aEYFlecgj47JStJIAlZDnbLlnAbyVPbC4PSewEYn6yP
-Lfg6XR0BBb85s6xzOkvtdyeG
-=LjzO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAo5+wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xuUP/iSMYWsYFG+W4wxCurRQ
+9oajHlcNq7Ri95v3cpdu9vvs53ANaI8Qo/EZbcH8DLVQ2WliGY2nxub1pG+iLMNb
+Po75Lf7nM2fL7OWiNZNMQYNit0UNXv0GODxQYuABL3WNIiVUd83XpnJChtAbe5QG
+AsFbH15U8BgtbH0c92Ilj1lTKZq/DFGUNSeNq69/kNj9Kjq6Du2twLhiRyJ9D5M7
+Z6eRZ1R3zwIILJ/EjtBVgBCG6t8s5DfkI+JoIQD1c24S37gUYDYng2kX+Bd8BdjP
+9C5WivIQhg9QZNYv2aXp7Zo33oZVeqCdoG5/ydus6uLM5epliaQgU17MBU1F5acI
+9w6eE3rfE8lwwpuitkZc7LhIr+i6POaBkOC/CmFu+IfkyHuSqzbmKP6cco6ugJNB
+0KvpgYuVMAruK1yo9dOs1354ZZ7TPUvmkKs5cwUo1YL7H+Cma8iie4Ny9ZUeTSor
+yR11lXfMLjqi0h/d4ho8Ojp34Gd3MivE5p19N1ACV/MxLGOuoG8fC30FMJHWZXe/
+BxfVuYxNqTd4A+L1OHTkPdeY1rHfLeuLV0CXIhgIn3HDFJ9+Ya4X7b2cAIpGnul3
+sScQpeVU0Jm2J9QfiPPKYaazovDwCeWjkHWZLIQdBmVXHNEp8s2Ja7BkcT4VqQel
+rWxw/55RjXX1SIoXiY75kTV6
+=trUk
 -----END PGP SIGNATURE-----
 
---===============5085474517406302912==--
+--===============6921623504934676299==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-de53befa79cf-91ae446e84da.txt
+
+b3d3dfc1f0418e4f86e932c1bfdc421edb31862c objtool: Fix seg fault with Clang non-section symbols
+6992185a0f072a90d83c32b574c553ec56f6c7b2 Revert "dts: phy: add GPIO number and active state used for phy reset"
+c3025852b3fb47e7c9c20c7c26733df4cf84bb40 gpio: mxs: GPIO_MXS should not default to y unconditionally
+092bd2c08e487fb08a51714975317cdafe6e3bcc gpio: ep93xx: fix BUG_ON port F usage
+7e5c91bf42576e9289bbaf6a69a0e2cecef61f65 gpio: ep93xx: Fix single irqchip with multi gpiochips
+413cbc23a63a9dc3d8ccf620820625a9b35505d7 tracing: Do not count ftrace events in top level enable output
+7e079695899069ede7e7a7c97e154ef2e86bd046 tracing: Check length before giving out the filter buffer
+1da949772534f1f55b11912143ad256dc874a0f5 drm/i915: Fix overlay frontbuffer tracking
+b9a017b9a668bf4756d507bea1c0065f42e6602a arm/xen: Don't probe xenbus as part of an early initcall
+9d722c75d10b7dd46480c994f063b434ed61a5ff cgroup: fix psi monitor for root cgroup
+c1152b6bcb812cc9d2877821e8f759f884f4b589 Revert "drm/amd/display: Update NV1x SR latency values"
+c66edd306f13816e247663c52d726096374fd331 drm/i915/tgl+: Make sure TypeC FIA is powered up when initializing it
+140bc0bf44f12ab81a9e9ccb152a51bf58a0e1d5 drm/dp_mst: Don't report ports connected if nothing is attached to them
+c8cd203742610fe3bcf5fabf97d63e40d97b83b6 dmaengine: move channel device_node deletion to driver
+e9533874eb3523d422c67b6e90a83ccfbf7e0919 tmpfs: disallow CONFIG_TMPFS_INODE64 on s390
+e7572a204d62faf8fe426846e4d25051c392f137 tmpfs: disallow CONFIG_TMPFS_INODE64 on alpha
+91ae446e84dab83c823da1072547c781aafab644 Linux 5.10.17-rc1
+
+--===============6921623504934676299==--
