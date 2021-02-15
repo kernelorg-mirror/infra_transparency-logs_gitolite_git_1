@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 15 Feb 2021 10:56:16 -0000
-Message-Id: <161338657606.24507.9924969574618003985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Mon, 15 Feb 2021 11:02:21 -0000
+Message-Id: <161338694136.27628.9543215910384919372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/tags/x86_mm_for_v5.12
+  - ref: refs/heads/for-5.12-no_hash_pointers
     old: 0000000000000000000000000000000000000000
-    new: fda4b5f1123cdae9e2c745783b42fb02c0f5db98
+    new: 5ead723a20e0447bc7db33dc3070b420e5f80aa6
