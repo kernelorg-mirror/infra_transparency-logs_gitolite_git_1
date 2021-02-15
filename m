@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5885084841588006488=="
+Content-Type: multipart/mixed; boundary="===============4810641600289848911=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 15 Feb 2021 15:27:19 -0000
-Message-Id: <161340283917.31702.2066088517327326621@gitolite.kernel.org>
+Message-Id: <161340283994.31762.6349294898774538186@gitolite.kernel.org>
 
---===============5885084841588006488==
+--===============4810641600289848911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,81 +16,83 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: efd84463790f185afbd622cea69839216a8a9ae4
-    new: 7844ccc4863f44f339cd31c85322d1dbae9fb91d
-    log: revlist-efd84463790f-7844ccc4863f.txt
+  - ref: refs/heads/linux-4.19.y
+    old: cf32d5f76ea7f8c092d698acc4f7c3df5996abbd
+    new: a4346d5d945c303262908275419f3e36d888fea7
+    log: revlist-cf32d5f76ea7-a4346d5d945c.txt
 
---===============5885084841588006488==
+--===============4810641600289848911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613402837 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613402838 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1613402836-1ca497bf5a1aad980e2067d82b648e02cdef5ed1
+nonce 1613402837-19271640a9bd40284649902f24ee33f032daa90e
 
-efd84463790f185afbd622cea69839216a8a9ae4 7844ccc4863f44f339cd31c85322d1dbae9fb91d refs/heads/linux-4.9.y
+cf32d5f76ea7f8c092d698acc4f7c3df5996abbd a4346d5d945c303262908275419f3e36d888fea7 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAqktUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tRUQAKd5IcehrUwXbQ4+aix9
-gT2xVTgAzezT3uqiysRPaA7wDA/skKLXSW70ahtONyHq+clK6m6Lxshw8sRa0L4E
-LsDtbVyOQuBjnmX4OY705BpfNVfB/594eeZlFxscJesIs331VzyXdeQ2byWvpEzY
-IczcQqeRT6qAg7pqAGsgXZz4gm+EeV6+JVgoDeUcfFPoKZeXTDuDDVkcevluX7Ho
-aV+SR5hVmuugiTdtm1lukFr0CUCS+IuTyd83LKpT7634NXWkh4mb8aQq79/ukV2q
-kM7IlUn++t7QFEI2ikwbUKdqAy/N91k9LAFXFHKt2MzuP3V6cjKuZUa6vR9eEq4G
-gr8hHs8KMJUiGa3QIxTmBc+PqkfN2zUk/YKrBgPNu3YFmBtE910SLlmppTc0GYKQ
-8uAGyUYFaCAgAaFYdAOgvl/CBh8gsD95Hqv4hoTMd5oI7fM0mOKREusy3y8su928
-S4+6repeWdLUTIGTvvrvY8h1fXluTSDseBR/NX1t5r1AWZQdbwgSolBDDhQFoMsU
-dWCD+DVJ7XTnaSUfsLqPzjyJZnCciEV+DfPTRKoJgLFtLfD662O1w2fKJG0CUOge
-EmFcDfkVlyrhhbW2kHTyk4CZQyWgnIKbhKN352X+zkt29p/UU/wOWRiFslPBfuku
-vBttWSmepG53S8RV45HN32Y5
-=PjoP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAqktYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Kg0P/jc75o9px8GZo/rFZBzL
+BJhKEr1wLgVKX2V2IGDZq+ejzQ2NVzz0XutrkdDMT27cW3cRMxtbsfrB5cYsr2FR
+CL0xE1Hr7hBtmx4nCdNaFcNcSLYjWp66o7vDZCkxa+nP3nutXmwieVBHhC4hZ9jk
+MpRvKSgyz7KhX2Coag/WLJfkMGx8n6EQlMubvfrx6MRXaWI1tpU8LpQDs1248jD7
+Czi7KbpNi0bD6aHMK7EhaVwZLmmVNJwUAGu2H5CsfjxaW4NKflXM3ulJmUZvcWKj
+nzupXY+hmw1VT9IXzTa4a4pdxHGozzdQM4eh2EFZCzVIxDzG6RF0Iz1IZC6O3z63
+h2v+VS6tm7CZGywkVqghoYJYIUZ27DwmgLasEynYhWoeHIO+uW9f0HjYOWuvMJbU
+5UCXfZ1tJTQ738h1GbEr2aRkPutrfBUgqgl7N6hVrUetM4M6k/XJzHlFg9aOoch5
+dVTvBFEw9x4988JJsyTIVzuf81yp0j/siqIIgMhEbxvNLsKYsPkamptxAc7t9Eo/
+oCL16m3X4Y2EUspD1jsBCKL9iqqBBBkMToj5huU6ZXk2fZdycxSkxeRjkvLA5Ipj
+HIx6qpmqGIEUz0J1b3Sh3dH8lUJjtmlJf/d8TjOUixCM35KK2ensVueLoy3sIuy4
+ozbkOTLZxqNuTmGKbHfVg+Sm
+=XwCZ
 -----END PGP SIGNATURE-----
 
---===============5885084841588006488==
+--===============4810641600289848911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-efd84463790f-7844ccc4863f.txt
+Content-Disposition: attachment; filename=revlist-cf32d5f76ea7-a4346d5d945c.txt
 
-3d8d69f0a974ecdad70ae3667d0823fe7ed12969 mm: memcontrol: fix NULL pointer crash in test_clear_page_writeback()
-3fb5eb049503f2c0eb820556a13ce6628bc5df46 fgraph: Initialize tracing_graph_pause at task creation
-80d8bf4dc80a041e2fecdf9090e64451a63bb334 remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
-d2e6aeb91b667a9a8ba1f7e40c58ee2fd1da06c6 af_key: relax availability checks for skb size calculation
-6a0f53da15b01dc7b9e5fb086d8f7d87b37a359c iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
-5fe4416b6f4841552443a29fc27d9d85e7331628 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
-efc1e5e1294479d5dab6881a8f5cdcc3d6f8209c iwlwifi: mvm: guard against device removal in reprobe
-be801a307f892d69d0e0133be50a7cff52bcb5e4 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
-f41faa3b7672614ece9778ca97402a2f10c4aed2 SUNRPC: Handle 0 length opaque XDR object data properly
-92e83a27159d9fe8c78f0a48659223116b0027b2 lib/string: Add strscpy_pad() function
-855bdba4da4a29cf62cb201a54fcd3a76c64be5d include/trace/events/writeback.h: fix -Wstringop-truncation warnings
-186f7939b92fa4393f99be733675b62376b075bb memcg: fix a crash in wb_workfn when a device disappears
-c83dfe615a391d48cb61c5e4124cbdc46f2b6f2f futex: Ensure the correct return value from futex_lock_pi()
-6e3e8745ba0ee946542e339c0bc43070214b7e9b futex: Change locking rules
-fa15c9d738c743e3d03526b265b24c753561f950 futex: Cure exit race
-de56b658dbb1e294854815bc49f663c58638fdba squashfs: add more sanity checks in id lookup
-f4444fe78d50877723bdd8f82716d267b7d69e1e squashfs: add more sanity checks in inode lookup
-ae641db377be019ef02dd34bf82c19b944cf565e squashfs: add more sanity checks in xattr id lookup
-cf426735c47ce02bec53129ef4f2edb1d03f7eed tracing: Do not count ftrace events in top level enable output
-7e84f0f20f057f5565469fe97bb1b38ab389a1e2 tracing: Check length before giving out the filter buffer
-c4951645ba4b4bf6acdc905a6ddcf155c6fc3755 ovl: skip getxattr of security labels
-a3b0f20c2537f3c19d7da0aa0a294c98ce12a458 ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
-f05069e9df934d4b8b4448dbe68d316c35ce64e6 memblock: do not start bottom-up allocations with kernel_end
-d65785319b287da087943b7cf51a4eb5c7f4e439 bpf: Check for integer overflow when using roundup_pow_of_two()
-085d33980795724e83a14ae694b7787f4b2f6905 netfilter: xt_recent: Fix attempt to update deleted entry
-a75fb92af8ad28f9a6732921f5da28c17bc35f13 xen/netback: avoid race in xenvif_rx_ring_slots_available()
-60dbdbc41fdd2a796c6f2b9a8943778e239e1d02 netfilter: conntrack: skip identical origin tuple in same zone only
-a4e1bd53c32a9cd35d383bd7c1a568aacbd7d326 h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
-ef0a5942b4f147a78149d4de6459d48b5ecfdd3c usb: dwc3: ulpi: fix checkpatch warning
-3b0558e1b4ac8a88c783cb99de2172910abaaddd usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
-645e1a7708db22da063fb9be5ca232e6d4edba31 net/vmw_vsock: improve locking in vsock_connect_timeout()
-35b0d3c946df91d94ce535021e3d61d900a70449 net: watchdog: hold device global xmit lock during tx disable
-9fae58271c121ab74eef05e397f9e088df2d9a78 vsock/virtio: update credit only if socket is not closed
-806f245e10d60c3aabe22f78cf4e62c530dfcd8e vsock: fix locking in vsock_shutdown()
-7844ccc4863f44f339cd31c85322d1dbae9fb91d Linux 4.9.258-rc1
+13e35564e3862ee78511bd29ac4ea85da6f9020a tracing: Do not count ftrace events in top level enable output
+ae903c105c636504327c3752aa6eb15e769668bb tracing: Check length before giving out the filter buffer
+046c555c31bdbc95ad0de4c462b4477c74b2105c arm/xen: Don't probe xenbus as part of an early initcall
+49b254d5fb8e0c9dc1383079136bd9c2ffcbb33c arm64: dts: rockchip: Fix PCIe DT properties on rk3399
+1f06c8ab1e3bb6327f6f079fc15bd016de06ec5f platform/x86: hp-wmi: Disable tablet-mode reporting by default
+173777c440c66e575a3315572b3b10d0c9b42c51 ovl: perform vfs_getxattr() with mounter creds
+f921c3ac28b057d2e22320644a0621613eef5b9e cap: fix conversions on getxattr
+f75ed94251df4b88e2ab7a832951629525d02aab ovl: skip getxattr of security labels
+6b69abbaf89a145bf8acfa21288249534f2fa1d3 drm/amd/display: Fix dc_sink kref count in emulated_link_detect
+0a7690a9530082ef8624a258f6c3bc49f79dafb9 drm/amd/display: Free atomic state after drm_atomic_commit
+4ed0ed8357b72ab7e005c8514976792b46a832e0 riscv: virt_addr_valid must check the address belongs to linear mapping
+8b7a4f88854236c3ec5f0c86932a7834f110a948 bfq-iosched: Revert "bfq: Fix computation of shallow depth"
+5e5443f21e5aaffa9f75d49e81480a369cb7b70f ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
+aa9dc57ec0106640fc307c227b83a07747039ea8 ARM: ensure the signal page contains defined contents
+6d0de8cf9b51eef9d9b067c683dd3e8d1539fb16 ARM: kexec: fix oops after TLB are invalidated
+9c1c507caa87fc86d8882d4815cbf47339684452 mt76: dma: fix a possible memory leak in mt76_add_fragment()
+56d90b25a0b2e95a017d7e0650cabacb895a2ade bpf: Check for integer overflow when using roundup_pow_of_two()
+5a2bc6503ed154c96f9ef318d66d159ca621471e netfilter: xt_recent: Fix attempt to update deleted entry
+ede1f8eaaf1253bdb8ffd55bdc97e49d7fc38a0b netfilter: flowtable: fix tcp and udp header checksum update
+60107c3d725723504bbc9af31652ab027b1ad600 xen/netback: avoid race in xenvif_rx_ring_slots_available()
+254a798e88c782531d58c5efee54650ea59cdae5 net: stmmac: set TxQ mode back to DCB after disabling CBS
+2d9efb41148c0b8efdc68ef245ef5d17eaec49a0 netfilter: conntrack: skip identical origin tuple in same zone only
+c81c81f80cdc4adae054a5f5f01f9461d5ffe4d0 net: hns3: add a check for queue_id in hclge_reset_vf_queue()
+f58fcbcb430404fbd89b0ebcdce4701fd9560bd9 firmware_loader: align .builtin_fw to 8
+57c00f029a770714efb2a293fb48dd96b205dded i2c: stm32f7: fix configuration of the digital filter
+4f51b9c5a901433e076e02415f11e3c82247e063 h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
+472a715ffe857402b799bb69972caa5f01bcf915 usb: dwc3: ulpi: fix checkpatch warning
+2c3cbad90ac68041ce37c4d2315860132e67df9f usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
+26e26e027568117006d2ea56b77fcdc60ab4adb3 net: fix iteration for sctp transport seq_files
+2bbd5202c67a248dc3f0c0221b1e3b8c10b1ecc2 net/vmw_vsock: improve locking in vsock_connect_timeout()
+89b43547f7fb4a46cbd40ed404493426bc938ba7 net: watchdog: hold device global xmit lock during tx disable
+189b588c72d995ea97967f2ea6a22e3bfa91f234 vsock/virtio: update credit only if socket is not closed
+4390e5a58bed5818fe35070377c7d8f0e9ba3adc vsock: fix locking in vsock_shutdown()
+9181179bfe3323704943c847be19c316ff0a00fb net/rds: restrict iovecs length for RDS_CMSG_RDMA_ARGS
+9f3ee97d3685a7d09f0308e5d8e2aa788edceb4e net/qrtr: restrict user-controlled length in qrtr_tun_write_iter()
+643f2fe2cc16e56e5afc002608a9c529ff2b8bb1 ovl: expand warning in ovl_d_real()
+a4346d5d945c303262908275419f3e36d888fea7 Linux 4.19.177-rc1
 
---===============5885084841588006488==--
+--===============4810641600289848911==--
