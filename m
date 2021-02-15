@@ -1,166 +1,187 @@
-Content-Type: multipart/mixed; boundary="===============8442425690680412739=="
+Content-Type: multipart/mixed; boundary="===============1895657941307868018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 15 Feb 2021 15:27:27 -0000
-Message-Id: <161340284769.31994.1858896376742292437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/boot/dracut/dracut
+Date: Mon, 15 Feb 2021 15:28:34 -0000
+Message-Id: <161340291493.32547.15517609273529275896@gitolite.kernel.org>
 
---===============8442425690680412739==
+--===============1895657941307868018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/boot/dracut/dracut
+user: hhoyer
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: d488c839e68caabebb0bb0def69784ef59a83810
-    new: 643709657afaaebc02f8fc7cd4e96bebe6ad0ccb
-    log: revlist-d488c839e68c-643709657afa.txt
+  - ref: refs/heads/master
+    old: e473057ae1de303340dec297c786c4a701cc61bd
+    new: 095b77bee84a226420be6c151e0c6c91b4db3143
+    log: revlist-e473057ae1de-095b77bee84a.txt
 
---===============8442425690680412739==
+--===============1895657941307868018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e473057ae1de-095b77bee84a.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613402845 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1613402843-aabec7494eaa4f15f8b2377720f5c2d616f0d00d
+1ed4b9f10083fa6436fba85bd9cfe19a32b1be8c docs(development): add HACKING.md
+7c50ed83a3b668e90aa19cf8a0e5b4bd04ab9821 test(conventional): add Conventional Commits PR github action
+28d0fc93476da59498af3814f137b94baf193bb8 ci: add testing with Fedora 33
+08ff88f234bbd68691fb7ab3fd73e7e429467570 chore: Editors
+33920ee6b0f4d7cb50aafb9c819e5a7a5e1d4f85 chore: Add editorconfig
+f1739d42363570a4ec65b7bf4fcaf6a2afc3a937 chore: Add configuration for vim
+77630365aed201a729c73a9ffda0733a75f3fee4 fix(35network-manager): avoid restarting NetworkManager
+58d57fc97709d3b4112d14316864b20b17331941 chore(cleanup): remove logrotate file
+c93df5e0ea18dabeeaa1955c0c66e315b3f3964a chore(github): add CODEOWNERS file
+f3cbff1113b2b78dc3ee624163f7667fa3150963 feat(cli): add --no-uefi option
+1acf52b60e59a6b5c5647cc01302da7ad9942eb6 feat: add addional global variables
+66c27a6d85d74df9af5e1cead0c9490fb074991a chore(removal): eliminate bootchart module
+dd9288bb62846965afcc39d568a90b25e6d8c45c chore(removal): eliminate bootchart module
+8b5a6b91be3833cb6cea3d2643cf5612a83de66e chore(removal): eliminate bootchart module
+093bc9b5cfc071409a20351a669c594c748eb647 fix: add a missing efi support
+db36338053349f0ea6e7e90d8143a779022d4e2a feat: add addional global variables
+a47c3f50b62a10ad98f267302da11ea7881a1fa8 feat: add addional global variables
+951c6655f1726634926c0dd5343b6cfe82e29b33 fix(90kernel-modules): install generic crypto modules with hostonly unset
+560f45b15f33833fa1532dd4506339c0b8fd686b fix(dracut-functions.sh): check kernel config from $dracutsysrootdir
+911c2de9c34a2e96be3973954d368d3a14eb6785 fix(99squash): use kernel config instead of modprobe to check modules
+b955dbf4a9598858a14a4aadb908bdeea558237e fix(dracut-init.sh): make inst_libdir_file work with dracutsysrootdir set
+7b3c6e1bb098791e34b09895b88b82c656b170f6 fix(06dbus): do not hardcode path to systemd unit
+21ee81bfbdc50e201e703a1ff4130a5575fc01f1 fix(06dbus): do not hardcode path to dbus utils
+3c8ca29650ff7fc0876f9523e5434e6f15e22ff4 fix(kernel-network-modules): also install modules from mdio subdirectory
+f824f526755a54969a90785d3b66d20778a9a9d3 fix(1001): use efivars fs over the deprecated sysfs entries
+24ea8390794e9e7c31448e3c411a0dd295afdfaa feat(systemd-sysusers): introducing systemd-sysuser module
+a2472e6e6058b38766295ce704441d097c6782be feat(systemd-sysusers): introducing systemd-sysuser module
+be30c816d4c8ff4b06dcb67237e308ae78bbc50d ci: use our own version of commisery
+bf1a2262ea96842c1930aa1eccd2508cc22d9464 fix(1007): adding shared keyring mode to type unit
+68dd8af21d34c5c2cb8631f7c02c6a6cf1aa6122 fix(skipcpio): edit skipcpio.c: strstr -> memmem
+1149ed2a3e4f7434ad0b8ee1d60ae33b2d5abd35 test: incr. disk size for TEST 35 ISCSI-MULTI
+9553a679f6e0bb6ea72732057325ece04e03efd6 ci: remove Travis and include Fedora-latest
+939b7e11d54d3925b3297aa208c701dad976e199 feat(systemd-coredump): introducing systemd-coredump module
+c35cbd2e561714207388af69820cee2743dbcbc3 fix(watchdog): replace return with echo
+62d52ad2be2c015ed36c61bea5a3740e5a6c67d4 fix(spec): add new systemd-coredump module to spec
+29e269a5225ad8f658a8d7ef64d77d0c02f8e31d fix(mdraid): add grow continue service
+30e49d51751c695be85782cfc162de2a63db471c fix(mdraid): remove offroot
+4026cd3b012be7f06c7572bdf50dd54a18ecb684 feat(network-legacy): send dhcp in parallel on all devices
+8a2edb1e4da9e63a8bee2e06b8a1fad9cf31e444 fix: do not set cmdline for uefi images unless asked
+e918f337b6f58938a27e0d7010e13cf239267220 95nfs: fix rpc.statd installation
+457e7b7a4a0905f8c65e2402b469efe00f7dff9e docs: remove TODO file
+1211d6a3fb7eef14794af3f558abc8ebc9c8fba3 ci: disable TEST 99
+0f62da040543f371992119ab3b5abcdfa6bf5d56 ci: get rid of "mount -o loop"
+860b64b92de629d55bffbbf19c8e094e18a52f2d ci: remove `--privileged` option from docker containers
+0ce79d4c720836f4284b09f8424d1a780e901550 ci: mount host /dev into container
+6032ade3cc9eb7f509523060ec70e3b86364f735 fix(network-legacy): silent check for leaseinfo
+791f392ca69a13f5fd4736af1b217857af19b74d feat(dbus): introducing a meta module for dbus
+38cd8125f63e7f8d6ca7287bee0b2497f5f753db feat(dbus-broker): introducing the dbus-broker module
+7135c81931398352b5873f83d8e6da298f3bbe57 feat(dbus-daemon): introducing the dbus-daemon module
+c3446a7ce0fd73084b8c625f618969e3bb5f5161 feat(systemd-repart): introducing systemd-repart module
+07c671cc51efcdffce90a90c2d9fd2af7bc0012a feat(kernel-modules): add driver memory
+6eff0ebcf85680f0841dfcf2d97ddb1a4a746cc2 fix: move ldconfig after library workaround
+c409108b0489e7d70f5f6a830d874a9384d4f8d2 Fix bad ls parsing
+ddcdee9147b9d49eace7293cf60b7a7e4da959f4 fix(dracut-install): allow globbing for multiple sources
+03d132a76c4ef40c4b6007af6f1cf42e5426ee44 fix: quote globbing in module-setup.sh for inst_multiple
+bbe1434fcab7add6eabacf3277a0321cbbb2b1a3 fix(dracut.sh): don't override path with foreign sysroot
+433a9ec0147e578b91b4c6e20629a0dbeb9d0725 fix: use find_binary
+18d36fabf5ab20404e63ae56f166a5a53a874ba9 feat(dracut.sh): allow overriding the systemctl command for sysroot
+767fbf81b680c9dd24b5798bf9896b5811f2ceb2 fix(network-manager): allow override network manager version
+702e7e83edcb55fbe79784624ca565ab695256ce fix(dbus-daemon): use uid/gid from sysroot is dracutsysrootdir is set
+d1c8083b3a4599b9018745df3417a21ab72393e9 fix: correct the line continuation
+fa06924239f10926068111fc9535978834c769b7 fix(plymouth): install binaries with dependencies
+c46ed697a20798c09ead362443691d810e122996 35network-legacy: discard pointless RTNETLINK message
+b28e4b20f08f888434dc8fc8ab55aa416b24d144 fix(kernel-modules): add reset controllers for arm
+786ca932e85df061ee88c0743179009399465374 fix: BuildRequiring git-core is enough in dracut.spec
+1914a2eba1edc9188934cbe67dfd834ea9a29498 fix: add missing line continuation
+16efdfa25c65c31acc97d91b7baf4f7bb4ea8510 fix: revise all module checks
+a6faf453a8e0aef058b52e6a4bf016909afc9aac ci: reduce CI workload
+35bd0b4ac19a3bb05acd336ef0d3b1bb62e0d82e ci: only bind /dev/kvm into the container
+45907c1d4d293a574bdc4cf0b4cf929b8128c404 ci: disable tests with NFS kernel crashes
+38ef31939056dea30017d782988ba1a46df4784a fix(shutdown): add timeout to umount calls
+fdbe7f9fbf0157d1f21390607723b66a31ab3406 feat(systemd-modules-load): introducing systemd-modules-load module
+1ebf454884bb4c235558f3fc85a3c024689cc28f fix: correct the squash quirk
+b56448ba09ab971a8ee698da41e9002b6a5cc72a docs: fix CI badges in README
+ba2e760b91745c5d8ff5f9b0df9b21c383165d41 fix: adding missing efi paths
+dff9baf3b4daf4043b16c08e24b59655410fb7a2 feat(systemd-sysctl): introducing systemd-sysctl module
+51b36f56d86825b308c0a32e7cd35ca73a91df7d dmsquash-live-root: squashfs in bare device
+ba3f4cdadc6ea1e318c328f725a01c4748888cca Revert "nbd: use systemd-run to start nbd-client"
+dc00256e1282e559682fe3c0625d831f4368bd41 feat(systemd-ask-password): introducing systemd-ask-password module
+5cd1a9fb137a8d74787befb4e9867590ed0e8559 fix: cosmetic comment fixes
+9edabfa6003139ad5d8d7f4aecc3241a884b0f4a fix: add sdaskpw and sdsyctl to spec file
+79ed45e0212a6c2386acf3eab054f71f534423d4 fix: update dbus module directory in spec file
+0f807f49cf4fe0bb019f6188794a6effb30c2386 ci: more disk space for test 30 iscsi
+dbb8a98b29287ed4455392f4094ba3a8c0b02d08 ci: wait for udev before doing sfdisk
+67bcc4930430a1845c4f53d2afacf701fc6467a1 docs: fix dracut.cmdline.7
+836e2ffac6695201e334c8ef13488e2492b58db0 fix: shellcheck for modules.d/99squash/setup-squash.sh
+95013ffce9f845d25ed15062fcaa8d46a340c2d2 fix: shellcheck for 50-dracut.install
+7356c828b0961464287f1e7f25d64e87f48092ed fix: shellcheck for 51-dracut-rescue.install
+f4053eb0c8966db60cca03027f07edde6a423521 fix: shellcheck for configure
+fb7b8be88305fedbfbad9b49442e51d76cbcd17a fix: shellcheck for dracut-bash-completion.sh
+22fceeac80398fc22ebbef886d5c8b37e28f51ca fix: shellcheck for dracut-catimages.sh
+785d1a1edeb7435f55857d66044e128c9c17184e fix: shellcheck for fedora-test-github.sh
+ecf7e74f4a08fc8513df2fe5b2cee65f246a1a19 fix: shellcheck for lsinitrd-bash-completion.sh
+802f8b62180add1c30847cd06c39696e32525f61 fix: shellcheck for mkinitrd-dracut.sh
+e770ad31a6d0c69c9e7054ce10c0fa506e142a12 fix: shellcheck for mkinitrd-suse.sh
+4e3332ffa84b271c2961e51b845feaf846a41752 fix: shellcheck for modules.d/00systemd/module-setup.sh
+4e3133e622779b96d8dcc9a06a15000833e92c0e fix: shellcheck for modules.d/02caps/caps.sh
+e9053b18863c020efbd8400f2a05ab629b30d7a9 fix: shellcheck for modules.d/02systemd-networkd/module-setup.sh
+47f3a3d56d4696377bf4644ba7a7da461cbdceae fix: shellcheck for modules.d/03modsign/module-setup.sh
+f9cbd928ce0911276e354a484a7519cf3fbbe390 fix: shellcheck for modules.d/06dbus-daemon/module-setup.sh
+aa05b741e3c0ca708a0e76445a9aa94b52bc1974 fix: shellcheck for modules.d/10i18n/module-setup.sh
+6d2574d50919a94e754bf89edc4887e51993f336 fix: shellcheck for modules.d/10i18n/parse-i18n.sh
+e7b4442cfc15262d054e3019d07241506a63475d fix: shellcheck for modules.d/40network/module-setup.sh
+10f3b1960631365058757dc8c85822214fbc55c5 fix: shellcheck for modules.d/40network/net-lib.sh
+cdf03476d174794bca544aafa0b44eaf196df88c fix: shellcheck for modules.d/45url-lib/url-lib.sh
+5feb62872ec1a68194a3bc1a0960fbd438f759af fix: shellcheck for modules.d/50gensplash/module-setup.sh
+0412f42771c7e3574b6e16c39fd8a1a90cf1b8b7 fix: shellcheck for modules.d/50plymouth/plymouth-populate-initrd.sh
+7bfe7daa51f4426909e9a2314555d9f0ccf3a7c5 fix: shellcheck for modules.d/90btrfs/btrfs_device_ready.sh
+891ca19c49095849191e9ebe0a845962f29df8dd fix: shellcheck for modules.d/90btrfs/btrfs_finished.sh
+0b920b83f251d6db896269bb60996b360dbc0521 fix: shellcheck for modules.d/90crypt/module-setup.sh
+9c4662d02b2b383c26e27625171676e451820de6 fix: shellcheck for modules.d/90dm/module-setup.sh
+7b1d342e6037579dc691f414f056880e6bdef31f fix: shellcheck for modules.d/90dmsquash-live/apply-live-updates.sh
+8eef563f718b84ee270fd70563c915d2dd67ebc3 fix: shellcheck for modules.d/90kernel-modules-extra/module-setup.sh
+6e70e9f1b1aa9a8772b31308826dbca3e6d2a1fe fix: shellcheck for modules.d/90kernel-network-modules/module-setup.sh
+d586ff7001abc1a881fe47b5d8ff7c75374f382f fix: shellcheck for modules.d/90lvm/lvm_scan.sh
+819b24fe2ed583eb61b993958e2d5df0cbc0f16c fix: shellcheck for modules.d/90lvm/module-setup.sh
+b29b9e9627e13e7f1606f054099b1ee1c5ee9284 fix: shellcheck for modules.d/90mdraid/mdraid_start.sh
+87ea36797f53084d68abed562598ad4d575fd741 fix: shellcheck for modules.d/90mdraid/module-setup.sh
+33e9727ee7ef7c5ac7734fda218ebec64d72608c fix: shellcheck for modules.d/91crypt-gpg/module-setup.sh
+760a4370f03e1045046c9b17013311cb7b540b83 fix: shellcheck for modules.d/95cifs/cifsroot.sh
+e4b1460433370fbe3bd49512a77b30b684ccbac2 fix: shellcheck for modules.d/95cifs/module-setup.sh
+48cc484a4b4f5b865aa481f8cb91986b23ad064e fix: shellcheck for modules.d/95dasd_rules/parse-dasd.sh
+cfac3a5675e633339da069387602c6d883666548 fix: shellcheck for modules.d/95dcssblk/module-setup.sh
+ce15ca57a2b522466e010f8fd265988219262f4b fix: shellcheck for modules.d/95debug/module-setup.sh
+9c0deb9f68649796dda7a3fdacdb4afa391aa4b5 fix: shellcheck for modules.d/95fcoe/cleanup-fcoe.sh
+d4b1d669d706db9432711f2cb5b2fd6fb6fba28a fix: shellcheck for modules.d/95fcoe/module-setup.sh
+865390c7cae898f595bc78cb6f6bdf7720d74b30 fix: shellcheck for modules.d/95fstab-sys/module-setup.sh
+d18e8083588ddab83337ea58779d9b6156f61917 fix: shellcheck for modules.d/95iscsi/cleanup-iscsi.sh
+748293ff56f3356e72344e87faeea62bd3bcf2ac fix: shellcheck for modules.d/95nfs/module-setup.sh
+9fb16311a4a2ba34f95371dbc43ab831a903d283 fix: shellcheck for modules.d/95resume/module-setup.sh
+dbdd7ad4c16764c1dd018409bb82e3356825229c fix: shellcheck for modules.d/95rootfs-block/block-genrules.sh
+a1b3c13e3ae1295d70847043bbc70fbb34c35787 fix: shellcheck for modules.d/95ssh-client/module-setup.sh
+10d01cc45df366f7ff84cc53ea53b451fbde2ff0 fix: shellcheck for modules.d/95terminfo/module-setup.sh
+9eb77ff864802e70fe88b91081d215194f5c02dc fix: shellcheck for modules.d/95udev-rules/module-setup.sh
+9ea66e568238a6c7f8c4c54fbea8d8ba9a2d31ae fix: shellcheck for modules.d/95zfcp_rules/parse-zfcp.sh
+060732d927abcc5b9834cbdb857f3a9f2ac8bfe3 fix: shellcheck for modules.d/99base/dracut-lib.sh
+18ff79021c84a7091922fff3c3ce7af1ce37bd63 fix: shellcheck for modules.d/99base/module-setup.sh
+119bb1b81de179810eaf1045eda8bfa46a38ed29 fix: shellcheck for modules.d/99fs-lib/module-setup.sh
+73f5cc7c3754f9561abe948b4b080a84b34c7d1a fix: shellcheck for modules.d/99squash/clear-squash.sh
+6510ab3f9d6ce555435cf57b716702b5b7663772 fix: shellcheck for modules.d/99squash/module-setup.sh
+aa225ca3b0170cf66dca1017eda273f143b8b8d3 fix: shellcheck for dracut-logger.sh
+3483509ef66ba5d0a55b57e8b2f7ac5ab0877375 fix: shellcheck for dracut-functions.sh
+7310a8484eb3199d275b9f6a639af592b6f68c1e fix: shellcheck for dracut.sh
+6dc1cd052b51875d7f5497b7ef37d266e59084fb fix: shellcheck for dracut.sh
+dd8ff5311f79f475fbd8fa62dc69b5964495e043 fix: shellcheck for dracut.sh
+7b59d15d96654b0fb520876a62f33dde5c74ffb7 fix: shellcheck for dracut.sh
+2c10b29999d0fa62d30c1985fcb11053296231a0 fix: shellcheck for dracut.sh
+510a22116b3d103306bd04c6fecbb45f4fdb151c fix: shellcheck for dracut.sh
+41cfdfc4d37b3075fef02b1775e903ebe5a15283 fix: shellcheck for dracut.sh
+2d4344bca9057a480ccda8ddfb7993356cee5483 fix: shellcheck for dracut-init.sh
+63356d544b2c9f9db1fd07a1beec6bb502427554 fix: shellcheck for dracut-init.sh
+994d003540f00f6877a1bb985faecf0d2efc0878 fix: shellcheck for dracut-init.sh
+cdb714c539aa59f85c8f2ce658e3031572d98e62 fix: shellcheck for dracut-init.sh
+ad64c6864ccfb479e8246d367f5b170b20a0b494 fix: shellcheck for dracut-init.sh
+ebac18baad839863a780b98306d66aff2fa98d79 docs: RELEASE.md
+d85c71fb691bc4e212ab15f61a247a4fe6943bd5 ci: force binary files for grep on disk images
+095b77bee84a226420be6c151e0c6c91b4db3143 docs: move NEWS to NEWS.md
 
-d488c839e68caabebb0bb0def69784ef59a83810 643709657afaaebc02f8fc7cd4e96bebe6ad0ccb refs/heads/linux-5.10.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAqkt0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+76wP/iVDG41gqoVnJ/hkW3hZ
-9m3ruHA6QC+S91cwLWiDlLjoRs68IPfxpRcnT3fDZA/T+Cuao5iH2l1FsRY3rLNM
-UR5jOYLxzWbcHDeIjQStKNP596pb0WttEr2jQraPZOyu7Nz+EvtpjVqgI6aWyHv5
-FiJ6tdLtsEAbSS3rWQSd1CBx5MEW8ynBGcGM1q/SX8gLuOvwK6SMx0wycCWiWjFf
-XwdQ5X44P7XeIlf/VOueUeIPkWsmVAymUBnRa4F9E4lenN2RoHMEodOLYK4yy71+
-rTeUjcvF5UfBH5d0gzPqrN9gYa3OrpA2CscLcN6uix9I1nik9LgZZq/Nsr+iuluV
-P5dDKPvRYMBei4G03FNyOxrIkWaxehMqP7PzsoGseW4ISShurR3aQJeyHwYgD9Kf
-fxzqC0wPRZ6/Mnl6dmCJjBZ6KdhAxtRq6EaVizztvk1vzdJmIeqOfsZ/rdTDSMLs
-ywJxPpvJrb6HaeMRBNbNd7PnNQcJFPHD0rm6+ks+Hj/cxHSPQPzY9oZ5i0X/xww/
-vho3FXstTsl8yVZXpvmCmno6JSLMCfr1VC6085s9DF4mIAS/IxjMXsH5IVdit4+E
-kDzvz5FCguUpcFT8+oq0pyaWtVGvtbv/b6Me/1S9xPC09/c5g+wTHnWqOHphqtEs
-5S4tMj6ktwwPnXTk/ktmGOUp
-=yY7+
------END PGP SIGNATURE-----
-
---===============8442425690680412739==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d488c839e68c-643709657afa.txt
-
-20c31341cf9c1b69185257bbc03054440db5839d objtool: Fix seg fault with Clang non-section symbols
-c36770ff0aabcd3564fc3ac21b8e6c656d77f2e8 Revert "dts: phy: add GPIO number and active state used for phy reset"
-fe4670ef3c624248c09a1c1087007cc3fa981f68 gpio: mxs: GPIO_MXS should not default to y unconditionally
-c4ee4bfba1c24b59064ced8916eaa56fc41d965b gpio: ep93xx: fix BUG_ON port F usage
-f59c036f3140afee1037f4e613a394d1de407405 gpio: ep93xx: Fix single irqchip with multi gpiochips
-13dae5d3f361a5be3afe71d6e5ee06639f0110ca tracing: Do not count ftrace events in top level enable output
-b7c4abdbe4d1a23279e35b1162dfaf5e92b51f44 tracing: Check length before giving out the filter buffer
-54a21aefd28ff24c0b6b2e78efd05bffc7af85fb drm/i915: Fix overlay frontbuffer tracking
-b7abf4ff2a20bd0bb9d0221b8cfa5991ea73f974 arm/xen: Don't probe xenbus as part of an early initcall
-2887fea2182fd0efd8ab6a5bae1560eb7516208c cgroup: fix psi monitor for root cgroup
-48a8d898f2fe13f769cebd0494b5cd12b7d62041 Revert "drm/amd/display: Update NV1x SR latency values"
-9da551d386f2feed47a319be98c1a7f8ccc92fc3 drm/i915/tgl+: Make sure TypeC FIA is powered up when initializing it
-cc7e884bd86e6229441c68dedd286f3dc132e7fd drm/dp_mst: Don't report ports connected if nothing is attached to them
-036698460d9d5f5a1178640f7b40d6bfe150f350 dmaengine: move channel device_node deletion to driver
-c68ce709df3673055b81fa5d556aa6b2519afbe8 tmpfs: disallow CONFIG_TMPFS_INODE64 on s390
-c7b896b4a421d6e8a8f44bdf0a04892efc0d3e2c tmpfs: disallow CONFIG_TMPFS_INODE64 on alpha
-639eb6c49d41b95a8a79c8577cf0936add92497e soc: ti: omap-prm: Fix boot time errors for rst_map_012 bits 0 and 1
-52b045b368544ac8d9e413aae922cf8dc0040e80 arm64: dts: rockchip: Fix PCIe DT properties on rk3399
-75f891a35310ce3db9085e3c66c8918aab4ff849 arm64: dts: qcom: sdm845: Reserve LPASS clocks in gcc
-2e5af719ec1c56d97f11c09f6136fb9bbad4a8c1 ARM: OMAP2+: Fix suspcious RCU usage splats for omap_enter_idle_coupled
-daf9365d38a55aac478e3620fb5b2701b69012be arm64: dts: rockchip: remove interrupt-names property from rk3399 vdec node
-fbb5891c2a38ae9f3dbfa974b1e9ac00abef7c4f kbuild: simplify GCC_PLUGINS enablement in dummy-tools/gcc
-2924ce5ece2ee0f83b9562fc1023ab7e981b2869 platform/x86: hp-wmi: Disable tablet-mode reporting by default
-d98fa540f353805e201f2e0835ba0d091c9dbd45 arm64: dts: rockchip: Disable display for NanoPi R2S
-664c5f240400539179815d1982fde91abbe71448 ovl: perform vfs_getxattr() with mounter creds
-dbd196ae05750e890491a9cd3369fee480da2a2b cap: fix conversions on getxattr
-30276536551662231e38d11fb91865d094e5d18d ovl: skip getxattr of security labels
-aded508be98cbc890fe826eb58526066b02fd60b scsi: lpfc: Fix EEH encountering oops with NVMe traffic
-5bb08af2d14ac3be0bdd601f62722e1d61374e5e x86/split_lock: Enable the split lock feature on another Alder Lake CPU
-a3fa810b4c4a8aa40e44070e51f1cdfe34700de2 nvme-pci: ignore the subsysem NQN on Phison E16
-08a477c34e1d25c62a96778589e0069135055e55 drm/amd/display: Fix DPCD translation for LTTPR AUX_RD_INTERVAL
-e985db5415584980f8afc0c1690d220e59dfca93 drm/amd/display: Add more Clock Sources to DCN2.1
-3b19a396c88c844fe2dab6cf6c7a83d653979989 drm/amd/display: Release DSC before acquiring
-b3989704a0885b0a8487c3c81f62c2260e0514ed drm/amd/display: Fix dc_sink kref count in emulated_link_detect
-ea8f9eb600176af0d5d63795cd52399b9a626af6 drm/amd/display: Free atomic state after drm_atomic_commit
-38b985d722941028b3fcecda228d15a1c187ab02 drm/amd/display: Decrement refcount of dc_sink before reassignment
-0fffb1b87ad4a94ce4431351524e4a71e3b6b699 riscv: virt_addr_valid must check the address belongs to linear mapping
-1a2a7c8b416559189fb65301c127f759742d300f bfq-iosched: Revert "bfq: Fix computation of shallow depth"
-7b910a86fb6c7faa8aea6041b1020d60aa508128 ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
-4e4da09520ca690a42d05fa8aa739db7295b0244 kallsyms: fix nonconverging kallsyms table with lld
-5a2df99062345dcce964c5d4adc726e96710f25e ARM: ensure the signal page contains defined contents
-5f6c51d2e277045022c7e865b505b6c5f36e6ee0 ARM: kexec: fix oops after TLB are invalidated
-5218d89c37faf3290eb11c0d301443a8faf94a53 kasan: add explicit preconditions to kasan_report()
-54264eadf27004c916a9f982323cd1504fd397f1 ubsan: implement __ubsan_handle_alignment_assumption
-07a4450144b52c562367b6388de9a09364889f15 Revert "lib: Restrict cpumask_local_spread to houskeeping CPUs"
-94d9e6f6a65c045b81962475430c660ccadfa33c x86/efi: Remove EFI PGD build time checks
-da341b83fff5666f88ee46b95f470ad09744fd6c lkdtm: don't move ctors to .rodata
-86e616e46fcf2d23dcc0ea600e6739c3fa6a3ba7 KVM: x86: cleanup CR3 reserved bits checks
-1e920104313d2fed2b6801110d877d0445229c66 cgroup-v1: add disabled controller check in cgroup1_parse_param()
-c1036f0ff0ee6554fe65cdaf5f832b5ce002fcbb dmaengine: idxd: fix misc interrupt completion
-1876e3f321533b02d367a13d257ece070b089a7e ath9k: fix build error with LEDS_CLASS=m
-eb8dbe13b629cd878ceebc848b8bd01abcaa6ff6 mt76: dma: fix a possible memory leak in mt76_add_fragment()
-5ced047ef755f09be10bb247611220a5bb046e51 drm/vc4: hvs: Fix buffer overflow with the dlist handling
-fc1e7089ac2413abb74799c55583c702b8713380 dmaengine: idxd: check device state before issue command
-7b5d56967ab92f2cb73f77abbd877a5957329b30 bpf: Unbreak BPF_PROG_TYPE_KPROBE when kprobe is called via do_int3
-c1645c6abced428ffe779e4b61c4d766c9f03e1b bpf: Check for integer overflow when using roundup_pow_of_two()
-acde1b1977045dd37bf40c5e6f4f3d7d8eeeb2c9 netfilter: xt_recent: Fix attempt to update deleted entry
-09e37b44fa64dac76d99cb0b13641f41fd6e16b6 selftests: netfilter: fix current year
-cd17d00719f70132b3e16d651b0adf9cce8ce4e5 netfilter: nftables: fix possible UAF over chains from packet path in netns
-06a026989e2a427f3967799b494a58b36e13d7ca netfilter: flowtable: fix tcp and udp header checksum update
-99f149f40f12cee0d6a6620324db5cedd1471c57 xen/netback: avoid race in xenvif_rx_ring_slots_available()
-623e8b7833357564957aa2cf99116c28ee8edbde net: hdlc_x25: Return meaningful error code in x25_open
-577fa373e834648980f18d063072e81ffe98dc8d net: ipa: set error code in gsi_channel_setup()
-85e6ecb8768f6f398479c2b8b4902de4fb90ea30 hv_netvsc: Reset the RSC count if NVSP_STAT_FAIL in netvsc_receive()
-84f4b80d04ab62cd4ab4775d83dec4cf378fcf3b net: enetc: initialize the RFS and RSS memories
-1555c5721a28950aebfb8c4261add0671047f73c selftests: txtimestamp: fix compilation issue
-0f0f3d33b77c361284bd7afae0e1a06982302a49 net: stmmac: set TxQ mode back to DCB after disabling CBS
-813f03a078e96e2f6e968646c15ebe71d4715b03 ibmvnic: Clear failover_pending if unable to schedule
-3fbab451d17027e232384e8d7fcd4a2cb2262283 netfilter: conntrack: skip identical origin tuple in same zone only
-caa70f8bdbf8578a36286d85f370ecdffb3cdfb9 scsi: scsi_debug: Fix a memory leak
-a29cef643d8a9ff5cc813ce4a0e626a451fb7a3e x86/build: Disable CET instrumentation in the kernel for 32-bit too
-f65cda86e7aeb2306cfb674110bf15f99c46c6e3 net: dsa: felix: implement port flushing on .phylink_mac_link_down
-4e44e61959e65a5750808192d54ef1205bfb4faf net: hns3: add a check for queue_id in hclge_reset_vf_queue()
-45885bdfecd49e99fb57651a28a59a692770a6ad net: hns3: add a check for tqp_index in hclge_get_ring_chain_from_mbx()
-4090e6d10b32ed2e9efee285cda590204fbc2c2b net: hns3: add a check for index in hclge_get_rss_key()
-d7c22d39d8a6d755a1f4fd8e50aa2a2d0a67eacc firmware_loader: align .builtin_fw to 8
-7444f85c73eff8857f1172e3c6430c9f3537dfd3 drm/sun4i: tcon: set sync polarity for tcon1 channel
-d64fd1717c48962a06cb3d628b64dfaedb9aa932 drm/sun4i: dw-hdmi: always set clock rate
-20d0ebb062415b90e839530b247cdd3dac5e441d drm/sun4i: Fix H6 HDMI PHY configuration
-7c2051189c4636c2e5786e774c73726d621471b9 drm/sun4i: dw-hdmi: Fix max. frequency for H6
-9932a4cd1fc5387d1d3173d6e5b6d66ba741daff clk: sunxi-ng: mp: fix parent rate change flag check
-9ba650f72ad7038e6b83b2054122a08338bfc375 i2c: stm32f7: fix configuration of the digital filter
-3d5e51459d476d63321eae0fbbb9e4acc4070dfd h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
-9d33673bb70cb81e29153a332e5991412ee28772 scripts: set proper OpenSSL include dir also for sign-file
-52412559bf734be8df21e073b446bbfac4d9b897 x86/pci: Create PCI/MSI irqdomain after x86_init.pci.arch_init()
-1bcfd3d95666327767f81d1be321eb02ac2dd20c arm64: mte: Allow PTRACE_PEEKMTETAGS access to the zero page
-cf96416607f9f384eff1665519c61e8a1e58336b rxrpc: Fix clearance of Tx/Rx ring when releasing a call
-2c1e6f9524f964bdc358f5e21051910318a12ed8 udp: fix skb_copy_and_csum_datagram with odd segment sizes
-606fc92aa15e2aa92e630b6c09a4fe16a8789745 net: dsa: call teardown method on probe failure
-9940b9cfc2202e0a9a08b9ea793043582936121d cpufreq: ACPI: Extend frequency tables to cover boost frequencies
-24240a56d974495b59ca76b5194c61659e525ef8 cpufreq: ACPI: Update arch scale-invariance max perf ratio if CPPC is not there
-cd1d0277977b666ac20a2bcfc76addf6e59ebb97 net: gro: do not keep too many GRO packets in napi->rx_list
-d2b943e3108986a35969f51480aebcd318b4ff85 net: fix iteration for sctp transport seq_files
-e86fc865f323c1aac9ba30b4e6a9033702899a7d net/vmw_vsock: fix NULL pointer dereference
-132e43aeea2153f23bd86094c6671706a05040c4 net/vmw_vsock: improve locking in vsock_connect_timeout()
-55d3c52abf7191fbb3bc4c552b63f994d5c576ba net: watchdog: hold device global xmit lock during tx disable
-74cdafab908261589bf4e84d57b98eea6bab58dc bridge: mrp: Fix the usage of br_mrp_port_switchdev_set_state
-45be48a02c9a3d77080927efa52cd2cdf13c1c15 switchdev: mrp: Remove SWITCHDEV_ATTR_ID_MRP_PORT_STAT
-879881c0cdc3756dec4c4617c55bf2053d056625 vsock/virtio: update credit only if socket is not closed
-98e3fd4dfebbf884701bb388561470b1673dd83f vsock: fix locking in vsock_shutdown()
-532d971346a30a853993c238dcab5b0aa0fe7fbd net/rds: restrict iovecs length for RDS_CMSG_RDMA_ARGS
-7992f8c4215bd9f78e7019653d7ebba2934695fb net/qrtr: restrict user-controlled length in qrtr_tun_write_iter()
-ebd9d64fe231d43d10e951e5aa14fed85f3833a5 ovl: expand warning in ovl_d_real()
-9456c9b18d35c831e4029b66756705a701b6e86f kcov, usb: only collect coverage from __usb_hcd_giveback_urb in softirq
-643709657afaaebc02f8fc7cd4e96bebe6ad0ccb Linux 5.10.17-rc1
-
---===============8442425690680412739==--
+--===============1895657941307868018==--
