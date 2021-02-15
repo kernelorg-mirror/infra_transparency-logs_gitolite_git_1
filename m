@@ -1,28 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 15 Feb 2021 04:50:03 -0000
-Message-Id: <161336460373.24413.1027554407812043629@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4385312401963228944=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Mon, 15 Feb 2021 04:51:12 -0000
+Message-Id: <161336467295.25435.4063178834601685058@gitolite.kernel.org>
+
+--===============4385312401963228944==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/for-5.12/drivers
-    old: 65fb1b0dbce84aaded750cbb6a8cb7783ae601eb
-    new: f4b64ae6745177642cd9610cfd7df0041e7fca58
-    log: |
-         4cf29e43afc0dea7ccf6b09a20bd598fad47bf60 lightnvm: fix unnecessary NULL check warnings
-         f4b64ae6745177642cd9610cfd7df0041e7fca58 lightnvm: pblk: Replace guid_copy() with export_guid()/import_guid()
-         
   - ref: refs/heads/for-next
-    old: 735f4486a8329199a5ed9916b15a7a5f694f8e88
-    new: 77426206a56edba7d5f0ca857142e30cdbf0f17f
-    log: |
-         4cf29e43afc0dea7ccf6b09a20bd598fad47bf60 lightnvm: fix unnecessary NULL check warnings
-         f4b64ae6745177642cd9610cfd7df0041e7fca58 lightnvm: pblk: Replace guid_copy() with export_guid()/import_guid()
-         77426206a56edba7d5f0ca857142e30cdbf0f17f Merge branch 'for-5.12/drivers' into for-next
-         
+    old: d3e0c0572caf3a26f5d4ef4e0cbd577b9b6f94ff
+    new: 351470b19eba59320c20b63b429b5a16c660498d
+    log: revlist-d3e0c0572caf-351470b19eba.txt
+
+--===============4385312401963228944==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d3e0c0572caf-351470b19eba.txt
+
+432e10330c39ab78df18acdd84d1f0159e574498 dt-bindings: pinctrl: qcom: Add SM8350 pinctrl bindings
+d5d348a3271f4b4d877ed246d0566ad1b9ec7f5b pinctrl: qcom: Add SM8350 pinctrl driver
+6bdafceac1799f479d088ed33320bba62f9c0db2 dt-bindings: pinctrl: qcom: Define common TLMM binding
+332dcd71d14527c1d423e29ec3b1e03d0e5eeb3e dt-bindings: pinctrl: qcom: Add sc8180x binding
+97423113ec4bbfe92c13ff4794d33391ab70ec96 pinctrl: qcom: Add sc8180x TLMM driver
+4739b1b168abce498e8ebe7b157a527f3ec44352 pinctrl: single: set function name when adding function
+d3171b6882be50e3bd6ae4cd4c86f9d90a2d8e7a pinctrl: actions: Add depends on || COMPILE_TEST
+aad018aacb3bb7c6be0107464dc0223162d816fd dt-bindings: pinctrl: at91-pio4: add slew-rate
+c709135e576b593d2ea4aef84b8fcd924a816a2d pinctrl: at91-pio4: add support for slew-rate
+b4435b42aafcdbd98da151158e863b904ad97d80 pinctrl: at91-pio4: fix "Prefer 'unsigned int' to bare use of 'unsigned'"
+5637f556a2b01b80355c4052bde128915c8b7e78 pinctrl: nuvoton: npcm7xx: Fix alignment of table header comment
+74f2dd447900256e8aa986be868bcd835d3c60d1 dt-bindings: pinctrl: Group tuples in pin control properties
+351470b19eba59320c20b63b429b5a16c660498d Merge branch 'devel' into for-next
+
+--===============4385312401963228944==--
