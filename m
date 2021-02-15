@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8740576807762613092=="
+Content-Type: multipart/mixed; boundary="===============9077393236019978651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 15 Feb 2021 16:05:40 -0000
-Message-Id: <161340514094.24475.5684605396911530756@gitolite.kernel.org>
+Date: Mon, 15 Feb 2021 16:05:45 -0000
+Message-Id: <161340514564.24609.13864551650611279352@gitolite.kernel.org>
 
---===============8740576807762613092==
+--===============9077393236019978651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 114f05ab68d8d43771e8967824bdb94adbba432a
-    new: f428a7c8c17327486761a6710b8bc862bbf87378
-    log: revlist-114f05ab68d8-f428a7c8c173.txt
+  - ref: refs/heads/5.12/scsi-queue
+    old: d2aacd36a8e00bc1813841b482e3933acb1ea0b5
+    new: d39bfd0686fd2b21f857c61bb2753db3a932cb24
+    log: revlist-d2aacd36a8e0-d39bfd0686fd.txt
 
---===============8740576807762613092==
+--===============9077393236019978651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1613405139 -0500
+pusher 75C5DE3D 1613405144 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1613405139-5a2d6bf7056ad74a360eb44559415ecb57cf8ffa
+nonce 1613405143-662b67c5f05b6727478aa4b1c60b8b49db39cd45
 
-114f05ab68d8d43771e8967824bdb94adbba432a f428a7c8c17327486761a6710b8bc862bbf87378 refs/tags/mkp-scsi-queue
+d2aacd36a8e00bc1813841b482e3933acb1ea0b5 d39bfd0686fd2b21f857c61bb2753db3a932cb24 refs/heads/5.12/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmAqm9MACgkQ7ulgGnXF
-3j227A//WEwc9JNJCMasEgylCTpDLeeqFawEPfQfNMuc4U3fGPOsXbmb6aG7QsdX
-nbyY/92zlm80Jmx93bO0sWo56cRT7viD2BQFUbYhUiXRE6El8XO5HNron/4rdM56
-sn+zRmwJGLYbb0b7WSAx9psMmj9zN2FtM52otxPv8hqhokZ7vsicfCaxGYQRG89y
-lQGuMVyyj2akn0lH5GOrmFsoIay9Siz9wwNfFccENeb84bB3vgyKnuwndyWO6l4E
-zK+tlIMt9l1QO3h3Leyh9tjxP+/ODmEqwAb9aqsVUrYgbivso6hQBvDM5G+DYII9
-k18972Z/P3cKNp3o222DW5+BZ61hmZOQX7okmjzxg0gp8MbXRtB9IOVQpLaXSGkm
-jIp0fQd1f1GcIqBMAW6E1dP5ehmLRv6ovrom1LdW9veo3koYkXxSkqtkM4tJc4z0
-XbJjEwdAdYMwtJlc05X83BOohee0oTUBz14cEfCjLwCLEyebwVr9hqKoU6swzzrO
-Fq85XnkHc9RnVt+Ao0B5RwWFZD7E1EWuKbdcMCYVcBfl+pg8h9e8JKept4AC1s3d
-itErPd6eLx8MP+3dCt/T6YZZ62UEZo//InK405y19hd/rYTlP6iJVLiRCG1IOQgv
-K1uUvye3DxHRExc5+3AYd6knoBtJscLO6TbzKjwtIfTc7Y349LU=
-=HJHY
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmAqm9gACgkQ7ulgGnXF
+3j1P5RAAkfeXduzvUjb20IvMEkkvrfFnxvqhCe/jYS4Tl+dIb1V75rt92GKpay8P
+I+jW26RvOz1+QUDzAOlBqkcrmgulXHbYyZiZFpGvkGJ+JPoM4yTZI69Ga4I9IpX7
+7b0BrAHKH9RD3XhseWArfGxyNFNavXy4cf+kNCocyOQdvjK4UX9yvT/tTCbLkCeV
+RojNjx4oVl8f70bRKh72fFoy9ayzDPTqCrLdhlwMoZ7rUIVsgJvAhsf/in/Jm+ct
+mdE1C46mRxbmNTcZRy7QjHPxK1PKDAaJAGCjJZS0JqxqMurHMIsWt/FQnJnsgrwr
+c2xF8OMDjtAPlJY39bQ+po/eDozj/Rta4Arlmjv0UZlOExvoHaFq8hh1cl+XRCdz
+ccPVoO385iD7aVx+fyZjGldQz8AhV/rlwLZpN8doWB3xqGJy7DMAKHU1ha9+/fdY
+9OjdHOxK62SMk3d/QaA0w55Vl74mlPoWXulqGRJ4qlPL8tAU1bJ7TKMWreI/pelr
+CSN6lHkRFvor17KjmKWw09KthLBzjd9uAaJHhVGz6zm3Ho9+MZ7KehyuoaZk0x60
+E33CspfYdQgO6UlOmj5gFXHBmACFIcwJMw7N4fcG8HoNwy9HquWPC3jh3/PZUNxB
+6yA6MRv9Dla+HEITN2OQNfsVa14G51kNn1FbfNQY3h0MlHIRf6U=
+=I5KQ
 -----END PGP SIGNATURE-----
 
---===============8740576807762613092==
+--===============9077393236019978651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-114f05ab68d8-f428a7c8c173.txt
+Content-Disposition: attachment; filename=revlist-d2aacd36a8e0-d39bfd0686fd.txt
 
 bf1b4659dc278b68f22b11b2c5fe7e3eb96e75a7 scsi: sd: Warn if unsupported ZBC device is probed
 e92b0b5edfc7c83bd2d791929aa4e0c89ac029aa scsi: pmcraid: Fix 'ioarcb' alignment warning
@@ -76,4 +76,4 @@ c8447e4c2eb77dbb96012ae96e7c83179cecf880 scsi: libiscsi: Reset max/exp cmdsn dur
 5b0ec4cf049446e676276cd3037b9c6bf53b8f94 scsi: qla4xxx: Use iscsi_is_session_online()
 d39bfd0686fd2b21f857c61bb2753db3a932cb24 scsi: iscsi: Drop session lock in iscsi_session_chkready()
 
---===============8740576807762613092==--
+--===============9077393236019978651==--
