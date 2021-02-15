@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0162854323977089832=="
+Content-Type: multipart/mixed; boundary="===============4449132022517644873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Mon, 15 Feb 2021 02:33:47 -0000
-Message-Id: <161335642700.5997.5945418127905488953@gitolite.kernel.org>
+Date: Mon, 15 Feb 2021 02:34:31 -0000
+Message-Id: <161335647123.6292.9933615988758294116@gitolite.kernel.org>
 
---===============0162854323977089832==
+--===============4449132022517644873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
-  - ref: refs/heads/linus
+  - ref: refs/heads/master
     old: 4f6543f28bb05433d87b6de6c21e9c14c35ecf33
     new: 0de9dc80625b0ca1cb9730c5ed1c5a8cab538369
     log: revlist-4f6543f28bb0-0de9dc80625b.txt
 
---===============0162854323977089832==
+--===============4449132022517644873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -183,4 +183,4 @@ fbc75d03fda048bc821cb27f724ff367d5591ce8 crypto: hisilicon/hpre - enable Ellipti
 4cf0806ee92a8820f630c2e1ba4479575e393bf3 crypto: hisilicon/qm - fix printing format issue
 0de9dc80625b0ca1cb9730c5ed1c5a8cab538369 hwrng: timeriomem - Use device-managed registration API
 
---===============0162854323977089832==--
+--===============4449132022517644873==--
