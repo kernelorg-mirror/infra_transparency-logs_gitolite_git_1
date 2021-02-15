@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8392787199664148052=="
+Content-Type: multipart/mixed; boundary="===============6673021673105082780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 15 Feb 2021 15:44:33 -0000
-Message-Id: <161340387380.11842.8241858880489399927@gitolite.kernel.org>
+Date: Mon, 15 Feb 2021 15:45:20 -0000
+Message-Id: <161340392045.13471.7657352213339762130@gitolite.kernel.org>
 
---===============8392787199664148052==
+--===============6673021673105082780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 92bf22614b21a2706f4993b278017e437f7785b3
-    new: f40ddce88593482919761f74910f42f4b84c004b
-    log: revlist-92bf22614b21-f40ddce88593.txt
+  - ref: refs/heads/for-rc
+    old: acb424c286f7913da0e8502dd0d1f1e11a446998
+    new: 0ac24c320c4d89a9de6ec802591398b8675c7b3c
+    log: revlist-acb424c286f7-0ac24c320c4d.txt
 
---===============8392787199664148052==
+--===============6673021673105082780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92bf22614b21-f40ddce88593.txt
+Content-Disposition: attachment; filename=revlist-acb424c286f7-0ac24c320c4d.txt
 
 291b5c9870fc546376d69cf792b7885cd0c9c1b3 i3c/master/mipi-i3c-hci: Fix position of __maybe_unused in i3c_hci_of_match
 61e960b07b637f0295308ad91268501d744c21b5 cgroup-v1: add disabled controller check in cgroup1_parse_param()
@@ -178,5 +178,7 @@ c553021498640050340924bd62fa580e253467ac Merge tag 'x86_urgent_for_v5.11' of git
 ab30c7f9c3ca2599f5ab3e4d29ae56453c8668e5 Merge tag 'kbuild-fixes-v5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 28a17338738839494752c5da3e12c889a55219db Merge branch 'for-rc8-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 f40ddce88593482919761f74910f42f4b84c004b Linux 5.11
+bd5ae9288d6451bd346a1b4a59d4fe7e62ba29b7 nfsd: register pernet ops last, unregister first
+0ac24c320c4d89a9de6ec802591398b8675c7b3c svcrdma: Hold private mutex while invoking rdma_accept()
 
---===============8392787199664148052==--
+--===============6673021673105082780==--
