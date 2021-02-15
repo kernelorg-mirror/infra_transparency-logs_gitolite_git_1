@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Mon, 15 Feb 2021 19:57:00 -0000
-Message-Id: <161341902093.3310.12804742059789405454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Mon, 15 Feb 2021 20:16:25 -0000
+Message-Id: <161342018522.15373.10264383129226183141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/for-next
-    old: e0cb42dce764a6ad7783cb6a34e409177faa7539
-    new: e23db805da2dfc39e5281b5efd3e36d132aa83af
+  - ref: refs/heads/master
+    old: fd71604da9d9bab91f270deacceecc0d5c0fcffd
+    new: d8b31c34a6b487123ee935762bbd3c7046607249
     log: |
-         b5734e997e1117afb479ffda500e36fa91aea3e8 selftests/ftrace: Update synthetic event syntax errors
-         7d5367539ae902a9208c5918e21b0f89e5feb29c selftests/ftrace: Add '!event' synthetic event syntax check
-         efbbdaa22bb78761bff8dfdde027ad04bedd47ce tracing: Show real address for trace event arguments
-         1600cbcf6944dee9f87f52cbceb0b6895c29efd0 tracing: Update the stage 3 of trace event macro comment
-         a345a6718bd5689f7cff7715e902d8739e0d5beb tracing: Add ptr-hash option to show the hashed pointer value
-         99e22ce73c59ac2d6d08893af376483ca7d62850 tracing: Make hash-ptr option default
-         e23db805da2dfc39e5281b5efd3e36d132aa83af tracing/tools: Add the latency-collector to tools directory
+         01ed9af61e239b40514edf527ac87c79377266ac libkmod-config: revamp kcmdline parsing into a state machine
+         d3a1fe67b64cad103ff4f93dfd9f2cf19cab09ba libkmod-config: re-quote option from kernel cmdline
+         b77251f08d3c1acc28f1f453da5e3971d50e0bc2 testsuite: allow to re-use single function for tests
+         d8b31c34a6b487123ee935762bbd3c7046607249 test-modprobe: share single function for kcmdline tests
          
