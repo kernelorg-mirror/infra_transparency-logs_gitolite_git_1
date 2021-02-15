@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 15 Feb 2021 21:24:10 -0000
-Message-Id: <161342425022.23353.17343337731638332521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 15 Feb 2021 21:25:16 -0000
+Message-Id: <161342431693.25119.11534334448855023677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 33794e652ef4fd892814a806cbf3c68bf14a0813
-    new: 2d29ea3b2683cab599f7abcd33f933dff8b804c0
+    old: ca04422afd6998611a81d0ea1b61d5a5f4923f84
+    new: 8841f6e63f2c1cf366872304a7b6ca1900466c9e
     log: |
-         2d29ea3b2683cab599f7abcd33f933dff8b804c0 Fix backport of kvm-x86-cleanup-cr3-reserved-bits-checks.patch to 5.10
+         39354eb29f597aa01b3d51ccc8169cf183c4367f tcp: tcp_data_ready() must look at SOCK_DONE
+         8841f6e63f2c1cf366872304a7b6ca1900466c9e net: dsa: sja1105: make devlink property best_effort_vlan_filtering true by default
          
