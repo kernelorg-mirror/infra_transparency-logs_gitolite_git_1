@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2477786880111780882=="
+Content-Type: multipart/mixed; boundary="===============1484642054416888816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 15 Feb 2021 15:36:28 -0000
-Message-Id: <161340338872.6071.1497339449947315722@gitolite.kernel.org>
+Date: Mon, 15 Feb 2021 15:37:06 -0000
+Message-Id: <161340342626.6327.5553404782104130609@gitolite.kernel.org>
 
---===============2477786880111780882==
+--===============1484642054416888816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 4ac7a6eecbec90c7f83d5ea6f0498d9fa9c62917
     new: c48f86071027af9c8d264194d6aed73f13016a22
     log: revlist-4ac7a6eecbec-c48f86071027.txt
 
---===============2477786880111780882==
+--===============1484642054416888816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c8c0ba4fe2479033be946cfb5651d45c876c4c86 net: dsa: felix: setup MMIO filtering r
 0a6f17c6ae2116809a7b7eb6dd3eab59ef5460ef net: dsa: tag_ocelot_8021q: add support for PTP timestamping
 c48f86071027af9c8d264194d6aed73f13016a22 Merge branch 'PTP-for-DSA-tag_ocelot_8021q'
 
---===============2477786880111780882==--
+--===============1484642054416888816==--
