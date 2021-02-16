@@ -1,64 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5277183937625040398=="
+Content-Type: multipart/mixed; boundary="===============5692192151074161116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 16 Feb 2021 14:24:56 -0000
-Message-Id: <161348549677.21988.12296204714596695511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 16 Feb 2021 14:37:55 -0000
+Message-Id: <161348627595.29651.9360600564374860454@gitolite.kernel.org>
 
---===============5277183937625040398==
+--===============5692192151074161116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: c79ea923884342408b2506fa99328bd51ed81ae1
-    new: 606a1948458764ff9a1ffa47a3d68749b9b93041
+  - ref: refs/heads/debugfs_remove_return_value
+    old: ca1f3650e92b3a71fd64a0e9105e583773c01dc0
+    new: 09c1ecebad76a6c1bfa859e20e9a109fb645c02a
     log: |
-         4f0db3fc3839553910a2169ce766e24fdfac858c Merge branch 'platform-drivers-mid-removal' into linux-next
-         af5b220277382d633ea89de9ac1ea19453e02ed6 Merge branch 'acpi-properties' into linux-next
-         606a1948458764ff9a1ffa47a3d68749b9b93041 Merge branches 'pm-misc', 'pm-cpuidle', 'pm-sleep' and 'powercap' into linux-next
+         09c1ecebad76a6c1bfa859e20e9a109fb645c02a irqdomain: remove debugfs_file from struct irq_domain
          
-  - ref: refs/heads/linux-next
-    old: 5352de4c92b3acb86d4756be6105203619809e07
-    new: 606a1948458764ff9a1ffa47a3d68749b9b93041
-    log: revlist-5352de4c92b3-606a19484587.txt
-  - ref: refs/heads/testing
-    old: 5352de4c92b3acb86d4756be6105203619809e07
-    new: 606a1948458764ff9a1ffa47a3d68749b9b93041
-    log: revlist-5352de4c92b3-606a19484587.txt
 
---===============5277183937625040398==
+--===============5692192151074161116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5352de4c92b3-606a19484587.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-38f3885edbef8a77b25c4d13f3de06a7b93d02de ACPI: property: Remove dead code
-325aa816143228a0b3472074ffb50d55ac3f04fe ACPI: property: Make acpi_node_prop_read() static
-c82ff99eaab83df6b962ce83521c456ba9cf44c2 ACPI: property: Satisfy kernel doc validator (part 1)
-1de359d82576e57963f0d8b2d89cbdb2c9f4f2aa ACPI: property: Satisfy kernel doc validator (part 2)
-3af2f0aa2ed04f07975ba1242002b66cd53e6290 PM: EM: update Kconfig description and drop "default n" option
-c4cc3141b6f8e0097a03f6885cafac957421df9e PM: Kconfig: remove unneeded "default n" options
-1556057413a304b3020180240d798ec135d90844 PM: sleep: Constify static struct attribute_group
-88ffce95764603e13eda4be003ec919e124ec365 powercap: intel_rapl: Use topology interface in rapl_add_package()
-65348ba259e27ad4b69459ef477facd4c702bbf6 powercap: intel_rapl: Use topology interface in rapl_init_domains()
-e1d3209f95a19df16080b069265e172738189807 MAINTAINERS: cpuidle: exynos: include header in file pattern
-3c26db8b289589b1a6dce9f612d6c7a26c2a50c4 media: atomisp: Remove unused header
-73f70d6c200ba85f61818ed3efe7f800c78d2953 cpufreq: sfi-cpufreq: Remove driver for deprecated firmware
-4590d98f5a4f466d17e5c81d7c9fc796da9a8cee sfi: Remove framework for deprecated firmware
-3cc00862a5ddf49e884eb7bb2d198ecb1a9c78f1 x86/PCI: Get rid of custom x86 model comparison
-24c92537ccacb6aded2ba7a02144ddb2e9cf0d62 x86/PCI: Describe @reg for type1_access_ok()
-6517da7aac9df9d5dda4e1e6989db429a8f32de7 x86/platform/intel-mid: Get rid of intel_scu_ipc_legacy.h
-043698c580f441446a1716ea506ecec90c18093a x86/platform/intel-mid: Drop unused __intel_mid_cpu_chip and Co.
-6b80df1787b35287edc099ef61238ab350711f6f x86/platform/intel-mid: Remove unused header inclusion in intel-mid.h
-c9c26882776a7adddb0173778957e690ac47b195 x86/platform/intel-mid: Update Copyright year and drop file names
-4f0db3fc3839553910a2169ce766e24fdfac858c Merge branch 'platform-drivers-mid-removal' into linux-next
-af5b220277382d633ea89de9ac1ea19453e02ed6 Merge branch 'acpi-properties' into linux-next
-606a1948458764ff9a1ffa47a3d68749b9b93041 Merge branches 'pm-misc', 'pm-cpuidle', 'pm-sleep' and 'powercap' into linux-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613486264 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1613486263-38836ed909104e4c20abb32b2a5274bc49788c36
 
---===============5277183937625040398==--
+ca1f3650e92b3a71fd64a0e9105e583773c01dc0 09c1ecebad76a6c1bfa859e20e9a109fb645c02a refs/heads/debugfs_remove_return_value
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAr2LgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aUIP+gMGWjNH3ekVjz9IeuW8
+HmaI7eJa1VDII4sgmSjoZwoEQtUcBbmFt5fzES7CjcPm2acKghWZIcWjxOGG5Su5
+tJFRiL4DGOvcDUkHVQ8sB7hW9bCYCc3VIEHy+HaDLx8lNz7Ia9lplxKMhl0yfove
+drJaE8TZCWOQMdcBfhrwNodC5nzJPGZZaR3mKTrVNP8X/eERMkxu2smeR5w/OorH
+HTVGUSoCi2zaXzKi6G3xJjC7CintH4rd0+dqOZXR/hGBSKWlJzpSHJ+zc4Nv3W+a
+2HqMgkyP1YhwC5U+pwNLjDmmmooAdtGUSGcmfrtmPFO6KTGKQIAQBgaM3+HV2UJQ
++PAVips2sQmM+kjBN49/vPjAEv8uBmc8R9v13xQNHfkfKmMyQ+9MIWRq0QpK7dIC
+RCQLRNVcW0w4CURP39ThDdNVd0tCKFte70B7YGxnfOpVqKRLnrnXZ3H3nUqdE5ea
+dnrA8dELhUNzASOxbbvW485I8SFMYPddRC/emvt/STOZOf8KVVz6/7Sm3uKTNXj9
+PYo7qSj4v2V03XQertL12bXnuhbYGQjTIH5b0Q+yBxy2hk6NxsqRQ6yKFcKiZ7s/
+V7LP6n9ftlh1PvFpoy1iRXd+8wnLn8Fft55elQhArg9/BlehBMGnvYRGIJzJhd/o
+nn1viZDQAITlq3I8Tc/LeEEk
+=RErr
+-----END PGP SIGNATURE-----
+
+--===============5692192151074161116==--
