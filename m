@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4805073506917333628=="
+Content-Type: multipart/mixed; boundary="===============2296271435535929253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 16 Feb 2021 08:40:59 -0000
-Message-Id: <161346485966.19309.9373034170379109505@gitolite.kernel.org>
+Date: Tue, 16 Feb 2021 08:41:20 -0000
+Message-Id: <161346488043.19573.4546368817919574311@gitolite.kernel.org>
 
---===============4805073506917333628==
+--===============2296271435535929253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: a8372c8f40e27559ec81f82eb8e3bb2393dc62ed
+  - ref: refs/heads/next
+    old: 5cb9c551cb13fae790fc1d7f7a6b1eb28929b7b9
     new: 8c657a0590de585b1115847c17b34a58025f2f4b
-    log: revlist-a8372c8f40e2-8c657a0590de.txt
+    log: revlist-5cb9c551cb13-8c657a0590de.txt
 
---===============4805073506917333628==
+--===============2296271435535929253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8372c8f40e2-8c657a0590de.txt
+Content-Disposition: attachment; filename=revlist-5cb9c551cb13-8c657a0590de.txt
 
 07af7810e0a5bc4e51682c90f9fa19fc4cb93f18 DTS: ARM: gta04: remove legacy spi-cs-high to make display work again
 6efac0173cd15460b48c91e1b0a000379f341f00 ARM: OMAP1: OSK: fix ohci-omap breakage
@@ -631,4 +631,4 @@ aab73d9524026caa14aab17fa9b750a6539fd49f tpm: add sysfs exports for all banks of
 8da7520c80468c48f981f0b81fc1be6599e3b0ad KEYS: trusted: Fix migratable=1 failing
 8c657a0590de585b1115847c17b34a58025f2f4b KEYS: trusted: Reserve TPM for seal and unseal operations
 
---===============4805073506917333628==--
+--===============2296271435535929253==--
