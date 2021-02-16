@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1656444863279826219=="
+Content-Type: multipart/mixed; boundary="===============8873058868295451926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 16 Feb 2021 22:26:25 -0000
-Message-Id: <161351438584.27880.14202124641565107308@gitolite.kernel.org>
+Date: Tue, 16 Feb 2021 22:26:48 -0000
+Message-Id: <161351440864.28103.450125446760874140@gitolite.kernel.org>
 
---===============1656444863279826219==
+--===============8873058868295451926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 45159b27637b0fef6d5ddb86fc7c46b13c77960f
     new: 06b334f08b4f0e53be64160392be4c37db28a413
     log: revlist-45159b27637b-06b334f08b4f.txt
-  - ref: refs/tags/v5.11-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 7341df6992e7840498cff6ad21380aa7dd97870b
-  - ref: refs/tags/v5.11-rc5
-    old: 0000000000000000000000000000000000000000
-    new: ccc5e9edc1b189a5c49dc8ac5751f95dc6d83564
-  - ref: refs/tags/v5.11-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 45e6659327a54b98d7715964f2993e44dfb2c318
-  - ref: refs/tags/v5.11-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d61728d5dac3c065b21f39249b406988aaefa193
 
---===============1656444863279826219==
+--===============8873058868295451926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1063,4 +1051,4 @@ cfb971dec56b0ea1afe34b67d9481a9d29e65a58 sfp: add support for 5gbase-t SFPs
 884b6b8ab4e62f70208450f9e71ba3892b5ea392 Merge branch 'Add-5gbase-r-PHY-interface-mode'
 06b334f08b4f0e53be64160392be4c37db28a413 net: phy: marvell: Ensure SGMII auto-negotiation is enabled for 88E1111
 
---===============1656444863279826219==--
+--===============8873058868295451926==--
