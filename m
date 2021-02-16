@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 16 Feb 2021 19:07:52 -0000
-Message-Id: <161350247260.2827.4013165337424455780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Tue, 16 Feb 2021 19:14:14 -0000
+Message-Id: <161350285472.7505.8271920942392089656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
   - ref: refs/heads/master
-    old: d16e84e256ffdcd3143c9439cf1e408d8db61c1a
-    new: c4f5c92fac8a39ffff29d57e99c3c0163358dd7a
+    old: db36a61d25bfa7290cfd0744ec3585a5ed56155d
+    new: eb6f964e90106fd375d90ce111f91f0a72c2381d
     log: |
-         c4f5c92fac8a39ffff29d57e99c3c0163358dd7a engines/io_uring: add verbose error for ENOSYS
+         ad5f9a485461eb3750be9408b7f6060981094e27 trace-cmd: Save command lines in VM agent
+         eb6f964e90106fd375d90ce111f91f0a72c2381d trace-cmd: Removed unused s64 define
          
