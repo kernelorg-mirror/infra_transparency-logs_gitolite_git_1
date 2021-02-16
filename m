@@ -1,130 +1,88 @@
-Content-Type: multipart/mixed; boundary="===============9026164027050845133=="
+Content-Type: multipart/mixed; boundary="===============3458895866488290079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 16 Feb 2021 23:38:35 -0000
-Message-Id: <161351871549.6508.4851813335184501453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 16 Feb 2021 23:39:13 -0000
+Message-Id: <161351875333.6841.16137553318865118313@gitolite.kernel.org>
 
---===============9026164027050845133==
+--===============3458895866488290079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: b24edd0ad20365ec6d3ed342b58f65a2eaa7eded
-    new: acad41d948db537ceac9d50c132653d82222343c
-    log: revlist-b24edd0ad203-acad41d948db.txt
+  - ref: refs/heads/master
+    old: 1bcc51ac0731aab1b109b2cd5c3d495f1884e5ca
+    new: 3af409ca278d4a8d50e91f9f7c4c33b175645cf3
+    log: revlist-1bcc51ac0731-3af409ca278d.txt
 
---===============9026164027050845133==
+--===============3458895866488290079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b24edd0ad203-acad41d948db.txt
+Content-Disposition: attachment; filename=revlist-1bcc51ac0731-3af409ca278d.txt
 
-ab0da5a57188b80d16d3222236c4e184953a5bb4 net/mlx5: Expose ifc bits for query modify header
-a6a217dddcd544f6b75f0e2a60b6e84c1d494b7e net/mlx5: Add new timestamp mode bits
-ae02d41551d6f2a035d3e63ce4415e1b2ba3a7e6 net/mlx5: Add register layout to support real-time time-stamp
-1436de0b991548fd859a00c889b8c4dcbbb5f463 net/mlx5: Refactor init clock function
-d6f3dc8f509ce6288e2537eb4b0614ef444fd84a net/mlx5: Move all internal timer metadata into a dedicated struct
-de19cd6cc9777e258de853c3ddf5d5a7bbadf165 net/mlx5: Move some PPS logic into helper functions
-432119de33d9013467371fc85238d623f64ff67e net/mlx5: Add cyc2time HW translation mode support
-405be6b46b707590f8014d468f4b42f25c6064cb switchdev: mrp: Remove CONFIG_BRIDGE_MRP
-c513efa20c5254ef74c4157a03d515abdc46c503 switchdev: mrp: Extend ring_role_mrp and in_role_mrp
-e1bd99d07e6171ea09b72b13615e0cb25132eefd bridge: mrp: Add 'enum br_mrp_hw_support'
-1a3ddb0b751604215630ca121c090d57e8c68169 bridge: mrp: Extend br_mrp_switchdev to detect better the errors
-cd605d455a445837edb3372addbdd9a9e38df23b bridge: mrp: Update br_mrp to use new return values of br_mrp_switchdev
-d8ea7ff3995ead5193313c72c0d97c9c16c83be9 net: mscc: ocelot: Add support for MRP
-c595c4330da06fff716337239a8d5e528341a502 net: dsa: add MRP support
-a026c50b599fab8ad829f87af372866e229d8175 net: dsa: felix: Add support for MRP
-43d42e65699461c602abf2ee4fe5e6aad032a75b Merge branch 'bridge-mrp-Extend-br_mrp_switchdev_'
-18af77c50fede5b3fc22aa9f0a9b255a5c5285c9 drivers: net: xilinx_emaclite: remove arch limitation
-44c32039751ad1506b188a8ffa8f1a7b9726d29e Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
-cf9bf871280d9e0a8869d98c2602d29caf69dfa3 net: mvneta: Remove per-cpu queue mapping for Armada 3700
-4906887a8ae5f1296f8079bcf4565a6092a8e402 net: mvneta: Implement mqprio support
-80fea53dbecbaec9dadaa9452564b2314caea0f9 Merge branch 'net-mvneta-implement-basic-MQPrio-support'
-a8db76d40e4d568a9e9cc9fb8d81352b5ff530ee lan743x: boost performance on cpu archs w/o dma cache snooping
-966df6ded24d537834402a421d46ef31b3647a78 lan743x: sync only the received area of an rx ring buffer
-3afd0218992a8d1398e9791d6c2edd4c948ae7ee net: phy: broadcom: Set proper 1000BaseX/SGMII interface mode for BCM54616S
-b834489bceccc64641684eee5e93275cdf5f465b net: phy: Add is_on_sfp_module flag and phy_on_sfp helper
-b5d007e2aac8f984f55c11c1de17bdf51963162e net: phy: broadcom: Do not modify LED configuration for SFP module PHYs
-c544fcb4cbae77f7c6106c5e12c39c7c52f4de00 Merge branch 'broadcom-next'
-96770956b5469565319bb45211d7ebf668524366 i40e/i40evf: cleanup i40e_update_nvm_checksum()
-55f448eb335f73d31cc957d74a3e52349b53b3c8 igc: Add UDP segmentation offload support
-e330f5a7173755aac590d721ddbc39daaed5e482 ice: remove redundant assignment to pointer vsi
-f005d4d48bb9b0af5a0c1321e4bde295a7a6ea30 ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
-ac6dd3908ac501366d2800bc29b31bac04ac019f ice: report correct max number of TCs
-ec3ff00f2d8583816787b1ba90ff24fe1bcb0fe2 ice: Fix memleak in ice_set_ringparam
-115d430b0be1dee631aed0392b3fdb2098f4c2ae i40e: Fix flow for IPv6 next header (extension header)
-8c4467e48a6a118dbe3118d1b37f81b350a0c2a2 ice: report security revisions of flash modules via devlink info
-bcc71fb648d237e7e80824b0f2d218f414404735 ice: add devlink parameters to read and write minimum security revision
-a2d7c05a19eba0684e4138e18b7825d7daa21ec0 virtchnl: Use pad byte in virtchnl_ether_addr to specify MAC type
-45958eb101296ac5cdb334818e9d48ebc638ba7f ice: Manage VF's MAC address for both legacy and new cases
-6c74c1b9efd339aeabde23aad87680e057951890 ice: Save VF's MAC across reboot
-57c03a8b9211b4d7017999452391a49642fd560c ice: Set trusted VF as default VSI when setting allmulti on
-f9da4026653305eaa9a80213d281b673be71dff5 ice: Account for port VLAN in VF max packet size calculation
-f06c68e1abf92c89b0c2e2fa9936943e2af9859e ixgbe: don't propagate -ENODEV from ixgbe_mii_bus_init()
-10fcd816baed6f9ade2398a9c50ebb9517d05e06 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
-561640e610f53e309aedb64e67e5b87d13d8e384 igc: reinit_locked() should be called with rtnl_lock
-39eba4ba3eed981d5b758c948bd79e4ebfab1bdf e1000e: add rtnl_lock() to e1000_reset_task
-5b5f5ffac1595d359d1375843c9485e16949ff65 i40e: Fix memory leak in i40e_probe
-4d17fe84aac57b3155e43e4a8cbe77eecdc59942 ixgbe: Support external GBE SerDes PHY BCM54616s
-14eac09f7d1a30759c0a493ce77a01fa27d42ef4 i40e: Add Rx errors aggregation
-3867b39dd3765cd27ad81eb3684f7a8e09d11acf i40e: Add zero-initialization of AQ command structures
-d17ea2ca402410f0e6967ef5f297f382e27d4da4 ice: update the number of available RSS queues
-2cf2c3acd5949ee7ef7c2dd53738130a8507c0c0 ice: Fix state bits on LLDP mode switch
-64c2aecc31e3e213c091bd9c629a158bd6e07ef7 ice: Fix AF_XDP multi queue TX scaling issue
-ae8388477b56aee8ede43d165f5034187ebce002 ice: Optimize AF_XDP zero-copy TX completion path
-63e0c75fd96b175a6a60d947c2ea1f50f87feb99 ice: improve AF_XDP single socket performance
-25b81af5cb45f40de1926b9553f801076b124083 ice: Refactor ice_setup_rx_ctx
-a95313c1142e4734d18d89cf6bb2c6e4ae52d3f7 i40e: Fix overwriting flow control settings during driver loading
-a7e512386b8f53b7b198ceb4ec080c3f680e28e0 i40e: Fix VFs not created
-cb34a591ec8e14d5c42ce013508d5a5bd462358c i40e: Fix addition of RX filters after enabling FW LLDP agent
-6f6d11a1882f1a849a66188797b407f9e7dc674f e1000e: Leverage direct_complete to speed up s2ram
-e7db431069bed141d3f052d695ce286e3635f591 e1000e: Remove the runtime suspend restriction on CNP+
-ae94031414f8ccead546cb015f1f90fc3b3930e2 i40e: optimize for XDP_REDIRECT in xsk path
-6297fad62f26b5e5ab114eef0f28138439e82687 ixgbe: optimize for XDP_REDIRECT in xsk path
-2fee94596376e04d00946b4987672eb4d0d6619e ice: optimize for XDP_REDIRECT in xsk path
-c796de67eebe34dc0d93ab408ad9e4cf64e22b33 ixgbe: aggregate all receive errors through netdev's rx_errors
-3486a3065e0df264f31bdea2e0461a3c813ba179 i40e: Fix add tc filter for IPv6
-996fae333eadc042a6ed6212b737dd89847a54af i40e: Fix setting PF MAC filters when changing MAC address
-d6b05114e607e607c913dcebf1038e463a031669 i40e: Add Asym_Pause to supported link modes
-a3832e4f3ad44ca961a81987db5675d13718366f ixgbe: Fix memleak in ixgbe_configure_clsu32
-f9cca0f93524af8562a4de8bb2acc5914701437b igc: Remove unused MII_CR_RESET
-97daa3bb877ef685bbf04f407611d0fcc8665c0f i40e: add support for PTP external synchronization clock
-43e7c4cee7fb89e666e87daedd09867df5f28ef7 igc: Remove unused MII_CR_SPEED
-c772dcf4171841a95493ff66510d321e554129f7 igb: avoid premature Rx buffer reuse
-b82707f0a5b0e9b51c0cdc81267739d237f1971d iavf: Fix asynchronous tasks during driver remove
-7ef8a9906b7887a48dae083c369c512e58a91fbe i40e: Fix correct max_pkt_size on VF RX queue
-5fa774a75a6ed504f14a57b6e34bc2c683aacd8b igc: Assign boolean values to a bool variable
-f98ed8f3d23123b8ff99c8499f012a2eb4df2c9d i40e: refactor repeated link state reporting code
-ed1f09ca048547b372c69502781c8b72c7b2354a virtchnl: Fix layout of RSS structures
-df634a14a6adf98df15a0555ba1b208de3e1abc6 igb: Redistribute memory for transmit packet buffers when in Qav mode
-5edd4624e24f1040098786e1f351a3ae96ade83d i40e: Fix endianness conversions
-191874e2294cc66a494282583373b00ed91562f1 ice: fix napi work done reporting in xsk path
-63c2b3a533736894e1d703c2487638c02d36cbf8 igc: Fix igc_ptp_rx_pktstamp()
-a1bd9679c37fbb895feec6b7c3e48880e4979a74 igc: Remove unused argument from igc_tx_cmd_type()
-704b46aa337dc32e1a21ad4bf7bd123fffffe53f igc: Introduce igc_rx_buffer_flip() helper
-3797385ecf40fa7f54c7841c917e4c4195780f5a igc: Introduce igc_get_rx_frame_truesize() helper
-9642f09b72eef54fcf1a658c91ab9b09dbe0a459 igc: Refactor Rx timestamp handling
-cc562f46b295f39b39d8f81e1616517c06fa04de igc: Add set/clear large buffer helpers
-df4d7b27ec22b7838345d94bb684054c475c35ec igc: Add initial XDP support
-6ab941a4ba5559325b791a2688fb03ab28df1801 igc: Add support for XDP_TX action
-22ae36b271ae6bf4de3ba8f65e22c79e3cb764aa igc: Add support for XDP_REDIRECT action
-3c74413021243050dd0022d764b3edcc5657ff70 igc: Move igc_xdp_is_enabled()
-230eab6d023340bb7e970062765d24647d612e61 igc: Refactor igc_xdp_run_prog()
-fd0cf9230f0f0ad729603da9d4573f37caef51a8 igc: Refactor igc_clean_rx_ring()
-cd8eed1fff83733f682845223546abe7fdf3cd4e igc: Refactor XDP rxq info registration
-4e01ede4fedef164e44de4eedc5c41b884a5680d igc: Introduce TX/RX stats helpers
-eae3f076956e8c6a236a335ba63a77fd75652f7b igc: Introduce igc_unmap_tx_buffer() helper
-dc4f6f44eb60f74a54ec3ee158ad914ad6d8d6e7 igc: Replace IGC_TX_FLAGS_XDP flag by an enum
-3c37b7e72c3d961d94afb51d54e68bd8a984262f igc: Enable RX via AF_XDP zero-copy
-5d4f8b6f0e698563ed6795f12b13196c2342d331 igc: Enable TX via AF_XDP zero-copy
-72ff7923fe8205f0e4303c822c395779fe352ea9 iavf: Fix return of set the new channel count
-acad41d948db537ceac9d50c132653d82222343c igc: Remove unused MII_CR_LOOPBACK
+732fa32330667a80ce4985ca81b6e9d6b2ad2072 selftests/bpf: Convert test_xdp_redirect.sh to bash
+f1d77b2efbe6151a8c5600ea1953bfce8728c18e netdev-FAQ: answer some questions about the patchwork checks
+1d1be91254bbdd189796041561fd430f7553bb88 tcp: fix tcp_rmem documentation
+d4083d3c00f60a09ad82e3bf17ff57fec69c8aa6 ibmvnic: Set to CLOSED state even on error
+132e0b65dc2b8bfa9721bfce834191f24fd1d7ed bnxt_en: reverse order of TX disable and carrier off
+db28b6c77f4050f62599267a886b61fbd6504633 bnxt_en: Fix devlink info's stored fw.psid version format.
+b1f19639db8be0e692865758e134d0e8e82212b8 Merge branch 'bnxt_en-fixes'
+8a28af7a3e85ddf358f8c41e401a33002f7a9587 net: ethernet: aquantia: Handle error cleanup of start on open
+e185ea30df1f6fee40d10ea98e6e11f9af9846d4 enetc: auto select PHYLIB and MDIO_DEVRES
+e12be9139cca26d689fe1a9257054b76752f725b dpaa2-eth: fix memory leak in XDP_REDIRECT
+4c0d2e96ba055bd8911bb8287def4f8ebbad15b6 net: phy: consider that suspend2ram may cut off PHY power
+15cc10453398c22f78f6c2b897119ecce5e5dd89 mptcp: deliver ssk errors to msk
+dd913410b0a442a53d41a9817ed2208850858e99 mptcp: fix poll after shutdown
+64b9cea7a0afe579dd2682f1f1c04f2e4e72fd25 mptcp: fix spurious retransmissions
+d8b59efa64060d17b7b61f97d891de2d9f2bd9f0 mptcp: init mptcp request socket earlier
+e3859603ba13e7545372b76ab08436993d540a5a mptcp: better msk receive window updates
+d09d818ec2ed31bce94fdcfcc4700233e01f8498 mptcp: add a missing retransmission timer scheduling
+9c899aa6ac6ba1e28feac82871d44af0b0e7e05c Merge branch 'mptcp-Miscellaneous-fixes'
+0e22bfb7c046e7c8ae339f396e78a0976633698c net/mlx5e: E-switch, Fix rate calculation for overflow
+e4484d9df5000a18916e0bbcee50828eac8e293e net/mlx5e: Enable striding RQ for Connect-X IPsec capable devices
+e33f9f5f2d3a5fa97728a43708f41da2d4faae65 net/mlx5e: Enable XDP for Connect-X IPsec capable devices
+019f93bc4ba3a0dcb77f448ee77fc4c9c1b89565 net/mlx5e: Don't change interrupt moderation params when DIM is enabled
+65ba8594a238c20e458b3d2d39d91067cbffd0b1 net/mlx5e: Change interrupt moderation channel params also when channels are closed
+51d138c2610a236c1ed0059d034ee4c74f452b86 net/mlx5: Fix health error state handling
+4d6e6b0c6d4bed8a7128500701354e2dc6098fa3 net/mlx5e: Replace synchronize_rcu with synchronize_net
+ebf79b6be67c0a77a9ab7cdf74c43fd7d9619f0c net/mlx5e: Fix CQ params of ICOSQ and async ICOSQ
+b850bbff965129c34f50962638c0a66c82563536 net/mlx5e: kTLS, Use refcounts to free kTLS RX priv context
+d89ddaae1766f8fe571ea6eb63ec098ff556f1dd net/mlx5: Disable devlink reload for multi port slave device
+c70f8597fcc1399ef6d5b5ce648a31d887d5dba2 net/mlx5: Disallow RoCE on multi port slave device
+7ab91f2b03367f9d25dd807ebdfb0d67295e0e41 net/mlx5: Disallow RoCE on lag device
+edac23c2b3d3ac64cfcd351087295893671adbf5 net/mlx5: Disable devlink reload for lag devices
+a2173131526dc845eb1968a15bc192b3fc2ff000 net/mlx5e: CT: manage the lifetime of the ct entry object
+e1c3940c6003d820c787473c65711b49c2d1bc42 net/mlx5e: Check tunnel offload is required before setting SWP
+308daa19e2d0321ff8b037ea192c48358f9324f5 Merge tag 'mlx5-fixes-2021-02-11' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+9b00f1b78809309163dda2d044d9e94a3c0248a3 bpf: Fix truncation handling for mod32 dst reg wrt zero
+0c9fc2ede9a9835c576d44aa1125825933efbff6 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+39935dccb21c60f9bbf1bb72d22ab6fd14ae7705 appletalk: Fix skb allocation size in loopback case
+d2126838050ccd1dadf310ffb78b2204f3b032b9 flow_dissector: fix TTL and TOS dissection on IPv4 fragments
+a6f2fe5f108c11ff8023d07f9c00cc3c9c3203b8 ibmvnic: change IBMVNIC_MAX_IND_DESCS to 16
+57baf8cc70ea4cf5503c9d42f31f6a86d7f5ff1a net: axienet: Handle deferred probe on clock properly
+d0a0bbe7b0a181c58bd22d6942146cfa3ab9e49a atm: idt77252: fix build broken on amd64
+2355a6773a2cb0d2dce13432dde78497f1d6617b cxgb4/chtls/cxgbit: Keeping the max ofld immediate data size same in cxgb4 and ulds
+4773acf3d4b50768bf08e9e97a204819e9ea0895 b43: N-PHY: Fix the update of coef for the PHY revision >= 3case
+62e69bc419772638369eff8ff81340bde8aceb61 net: wan/lmc: unregister device when no matching device is found
+a67f06161558013b653d666213ecd66714ef3af8 net: wan/lmc: dont print format string when not available
+d6d8a24023bf442645c66b0101cb0fea0fba9957 net: caif: Use netif_rx_any_context().
+7ce189faa7d990f89d36603627ab89588e4218a5 r8169: fix resuming from suspend on RTL8105e if machine runs on battery
+42557dab78edc8235aba5b441f2eb35f725a0ede ibmvnic: add memory barrier to protect long term buffer
+7d3a7b9ea59ddb223aec59b45fa1713c633aaed4 ibmvnic: skip send_request_unmap for timeout reset
+4a41c421f3676fdeea91733cf434dcf319c4c351 ibmvnic: serialize access to work queue on remove
+25c5a7e89b1de80f4b04ad5365b2e05fefd92279 net: ipa: initialize all resources
+30b7edc82ec82578f4f5e6706766f0a9535617d3 net: amd-xgbe: Reset the PHY rx data path when mailbox command timeout
+186edbb510bd60e748f93975989ccba25ee99c50 net: amd-xgbe: Fix NETDEV WATCHDOG transmit queue timeout warning
+84fe68eb67f9499309cffd97c1ba269de125ff14 net: amd-xgbe: Reset link when the link never comes back
+9eab3fdb419916f66a72d1572f68d82cd9b3f963 net: amd-xgbe: Fix network fluctuations when using 1G BELFUSE SFP
+17aff5389d4f46a2ed2f0760922ae6c06dc438f1 Merge branch 'amd-xgbe-fixes'
+396d7f23adf9e8c436dd81a69488b5b6a865acf8 net: sched: fix police ext initialization
+3af409ca278d4a8d50e91f9f7c4c33b175645cf3 net: enetc: fix destroyed phylink dereference during unbind
 
---===============9026164027050845133==--
+--===============3458895866488290079==--
