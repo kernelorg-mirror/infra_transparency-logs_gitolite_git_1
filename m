@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 16 Feb 2021 13:26:14 -0000
-Message-Id: <161348197444.14896.12826358926478427947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 16 Feb 2021 14:11:06 -0000
+Message-Id: <161348466683.13275.10547768742843563250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/mellanox/linux
+user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: fb9e9b6e96e2869b670ecd200219920968838cfd
-    new: 585d32f9b0532ca2407943edec163c23191de488
+  - ref: refs/heads/mlx5-next
+    old: ab0da5a57188b80d16d3222236c4e184953a5bb4
+    new: a6a217dddcd544f6b75f0e2a60b6e84c1d494b7e
     log: |
-         585d32f9b0532ca2407943edec163c23191de488 gen_compile_commands: prune some directories
+         a6a217dddcd544f6b75f0e2a60b6e84c1d494b7e net/mlx5: Add new timestamp mode bits
          
