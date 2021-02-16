@@ -1,27 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
-Date: Tue, 16 Feb 2021 05:47:54 -0000
-Message-Id: <161345447453.10222.2653165660818144878@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7445601450965094536=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Tue, 16 Feb 2021 06:33:02 -0000
+Message-Id: <161345718220.4431.14297395850791804778@gitolite.kernel.org>
+
+--===============7445601450965094536==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
-user: djbw
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/libnvdimm-for-next
-    old: 1048ba83fb1c00cd24172e23e8263972f6b5d9ac
-    new: 2afffa101f07b1445af46a2e47def8622956b59c
-    log: |
-         f2f96cae177a6a726863f7b6e8ac619ddb97b72f cxl/mem: Introduce a driver for CXL-2.0-Type-3 endpoints
-         8e31c6f09c92fb82828d8f80981814e23f492ea5 cxl/mem: Find device capabilities
-         a06e204d89f5bebf46a1697c4b6e82be1371f44a cxl/mem: Register CXL memX devices
-         b754ffbbc0eeaed968c2dd7dc900e654b4ab2d2d cxl/mem: Add basic IOCTL interface
-         df80cfa03ac82b1617cae72660850bd26c670661 cxl/mem: Add a "RAW" send command
-         8107e537645bc2698f0a02007b22bae181b06da2 cxl/mem: Enable commands via CEL
-         0f769db6282fd2cf6b6a023a0ad2f5d95c8ef675 cxl/mem: Add set of informational commands
-         8671c9c7eb945bffadb6d016f7882da2a8a6e75a MAINTAINERS: Add maintainers of the CXL driver
-         2afffa101f07b1445af46a2e47def8622956b59c cxl/mem: Remove redundant initialization of variable rc
-         
+  - ref: refs/heads/kbuild
+    old: 5478b37e294b44d4836c96d132e5be51e251eb08
+    new: fb9e9b6e96e2869b670ecd200219920968838cfd
+    log: revlist-5478b37e294b-fb9e9b6e96e2.txt
+
+--===============7445601450965094536==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5478b37e294b-fb9e9b6e96e2.txt
+
+aec6c60a01d3a3170242d6a99372a388e1136dc6 kbuild: check the minimum compiler version in Kconfig
+ab37d5a43162ab424e36be03684881df438378a7 genksyms: make source_file a local variable in lexer
+e66e13a3c97486416f65343cd66760645b1d27c7 genksyms: remove dead code for ST_TABLE_*
+13940738c2647bac783439a800fd25ead362a110 genksyms: remove useless case DOTS
+3d277907c2ff36b2057c836023ee46f4f79e691c kbuild: doc: remove "Objects which export symbols" section
+0dd77e957a005fa41bf36cdbb0ce841ef7edcdb4 kbuild: stop removing stale <linux/version.h> file
+2047ace96679a146c8573520a080f9dfa06a2c98 kbuild: use always-y instead of extra-y
+1c3fae740aabaeb4d6b4174fc189592eba1b77d0 Kbuild: Make composite object searching more generic
+3c4fa46b30c551b1df2fb1574a684f68bc22067c vmlinux.lds.h: add DWARF v5 sections
+a66049e2cf0ef166dba5bafdbb3062287fc965ad Kbuild: make DWARF version a choice
+98cd6f521f1016171e9e263effc7d6edfbf61da1 Kconfig: allow explicit opt in to DWARF v5
+9b82f13e7ef316cdc0a8858f1349f4defce3f9e0 kbuild: clamp SUBLEVEL to 255
+88a686728b3739d3598851e729c0e81f194e5c53 kbuild: simplify access to the kernel's version
+fb9e9b6e96e2869b670ecd200219920968838cfd gen_compile_commands: prune some directories
+
+--===============7445601450965094536==--
