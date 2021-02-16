@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7445601450965094536=="
+Content-Type: multipart/mixed; boundary="===============7180403361795469937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 16 Feb 2021 06:33:02 -0000
-Message-Id: <161345718220.4431.14297395850791804778@gitolite.kernel.org>
+Date: Tue, 16 Feb 2021 06:37:26 -0000
+Message-Id: <161345744618.7048.12248068394239879268@gitolite.kernel.org>
 
---===============7445601450965094536==
+--===============7180403361795469937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 5478b37e294b44d4836c96d132e5be51e251eb08
     new: fb9e9b6e96e2869b670ecd200219920968838cfd
     log: revlist-5478b37e294b-fb9e9b6e96e2.txt
 
---===============7445601450965094536==
+--===============7180403361795469937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ a66049e2cf0ef166dba5bafdbb3062287fc965ad Kbuild: make DWARF version a choice
 88a686728b3739d3598851e729c0e81f194e5c53 kbuild: simplify access to the kernel's version
 fb9e9b6e96e2869b670ecd200219920968838cfd gen_compile_commands: prune some directories
 
---===============7445601450965094536==--
+--===============7180403361795469937==--
