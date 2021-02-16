@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Tue, 16 Feb 2021 19:55:53 -0000
-Message-Id: <161350535341.1611.18069532263510717311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Tue, 16 Feb 2021 20:01:15 -0000
+Message-Id: <161350567585.4645.16423491448695139694@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/libs/ell/ell
+user: holtmann
 changes:
-  - ref: refs/heads/fixes
-    old: d19db80a366576d3ffadf2508ed876b4c1faf959
-    new: a97fb9bc174a348b32c1e25db25273682d251393
+  - ref: refs/heads/master
+    old: 556081b1dd5462de895b71553fa272841dc9f6d9
+    new: f10e663fde5b6089cec41f9b8d7ea79a4def1ff6
     log: |
-         f88f31ce581c3fb1d64605ca17c253405515dff8 habanalabs: mark hl_eq_inc_ptr() as static
-         a97fb9bc174a348b32c1e25db25273682d251393 drivers: habanalabs: remove unused dentry pointer for debugfs files
+         f10e663fde5b6089cec41f9b8d7ea79a4def1ff6 Release 0.38
          
