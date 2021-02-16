@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3458895866488290079=="
+Content-Type: multipart/mixed; boundary="===============1537216581769780733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 16 Feb 2021 23:39:13 -0000
-Message-Id: <161351875333.6841.16137553318865118313@gitolite.kernel.org>
+Date: Tue, 16 Feb 2021 23:39:21 -0000
+Message-Id: <161351876139.7103.18055217131903844260@gitolite.kernel.org>
 
---===============3458895866488290079==
+--===============1537216581769780733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 1bcc51ac0731aab1b109b2cd5c3d495f1884e5ca
-    new: 3af409ca278d4a8d50e91f9f7c4c33b175645cf3
-    log: revlist-1bcc51ac0731-3af409ca278d.txt
+  - ref: refs/heads/dev-queue
+    old: e90d0afc8dc3ba1419f30bd63d8927ae9db5b908
+    new: 4da500b8a3239e0c11aa7c9543579761874688e5
+    log: revlist-e90d0afc8dc3-4da500b8a323.txt
 
---===============3458895866488290079==
+--===============1537216581769780733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1bcc51ac0731-3af409ca278d.txt
+Content-Disposition: attachment; filename=revlist-e90d0afc8dc3-4da500b8a323.txt
 
 732fa32330667a80ce4985ca81b6e9d6b2ad2072 selftests/bpf: Convert test_xdp_redirect.sh to bash
 f1d77b2efbe6151a8c5600ea1953bfce8728c18e netdev-FAQ: answer some questions about the patchwork checks
@@ -84,5 +84,31 @@ d6d8a24023bf442645c66b0101cb0fea0fba9957 net: caif: Use netif_rx_any_context().
 17aff5389d4f46a2ed2f0760922ae6c06dc438f1 Merge branch 'amd-xgbe-fixes'
 396d7f23adf9e8c436dd81a69488b5b6a865acf8 net: sched: fix police ext initialization
 3af409ca278d4a8d50e91f9f7c4c33b175645cf3 net: enetc: fix destroyed phylink dereference during unbind
+6e77f2101d76a68e18b4a3ab8c90c0c39a4f794b checkpatch: Fix warnings when --no-tree is used
+cd7c5ccbfd6851a85f913a2f703c2dcad087facd igb: re-assign hw address pointer on reset after PCI error
+184d4dc545ba42c1d9c57688f3fd122626ec48ac checkpatch.pl: seed camelcase from the provided kernel tree root
+817711e3edfb4611f83c956780758fdeadec83f4 i40e/iavf: use better trace path
+2f116a1dcf32678e71edc1ebc8d1403d871bba77 ice: Fix a couple off by one bugs
+82cece2d04790ee6f79694fd1e93d9cc4e86a6f2 ice: report correct max number of TCs
+ff9c1d8508c61dafa6fbd317e858b49a95899d36 i40e: Fix flow for IPv6 next header (extension header)
+7ecb45d6ebb8830d80d88962241c77c460e2be01 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+5c9b964cc43f09e397ec7cfbf45d44917b313397 ice: update the number of available RSS queues
+8e3274acc9ef286d401e1afbabfac816e596871e ice: Fix state bits on LLDP mode switch
+2d3e65b846a46a93c06ffec051ecad2b46f2b7f0 i40e: Add zero-initialization of AQ command structures
+a73e6613c1d12478d331cd8c1b302c50b747dd69 i40e: Fix overwriting flow control settings during driver loading
+75f1b1382b0525f5db014f0621082175d7f1a26a i40e: Fix VFs not created
+b3793ff2b2d3c0804b656db739dda8064becbeee i40e: Fix addition of RX filters after enabling FW LLDP agent
+b6db1f4afacaf76ff20ee792ef7db3dc790482ad i40e: Fix add tc filter for IPv6
+6c9c6da95f870d77296d4177afb98d9e08181c5f i40e: Fix setting PF MAC filters when changing MAC address
+c309fd48f3ff9b1ac9f4dd07c85b853ed2607496 ixgbe: Fix memleak in ixgbe_configure_clsu32
+d04f88650d0341052d125ad992bf0ed3953f5436 igb: avoid premature Rx buffer reuse
+1714d2e17d42ccb72714cc9e3dc51fe2e9b286b4 iavf: Fix asynchronous tasks during driver remove
+6c9028c294529e4e223ccdf550bea664cd749ff4 i40e: Fix correct max_pkt_size on VF RX queue
+22d16e72434e6a9114df9d462da85e6c45bbad3a ixgbe: add NULL pointer check before calling xdp_rxq_info_reg
+46c668c7805262573da5115b96e8cb40693ef8d0 virtchnl: Fix layout of RSS structures
+f83fcd952b3542d765eff109f7a5ae48f5f64cf9 i40e: Fix endianness conversions
+62e9598409568b396a594e578750adf7132f6426 ice: fix napi work done reporting in xsk path
+c9e47348fb8cc5a5635b355136f8ae26436655be igc: Fix igc_ptp_rx_pktstamp()
+4da500b8a3239e0c11aa7c9543579761874688e5 iavf: Fix return of set the new channel count
 
---===============3458895866488290079==--
+--===============1537216581769780733==--
