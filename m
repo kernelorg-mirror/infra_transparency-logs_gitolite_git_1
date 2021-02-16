@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/boot/dracut/dracut
-Date: Tue, 16 Feb 2021 07:27:58 -0000
-Message-Id: <161346047855.5688.2870362610103264154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Tue, 16 Feb 2021 07:52:11 -0000
+Message-Id: <161346193183.20661.388847637800040270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/boot/dracut/dracut
-user: hhoyer
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
   - ref: refs/heads/master
-    old: 095b77bee84a226420be6c151e0c6c91b4db3143
-    new: 3fce68bd1d8857ff35e33a572459c12a5092148a
+    old: 785f6f0f700d47408df531fb0630059fd274ac9b
+    new: 746331db6ab36dffa5aa340472f9703dd2a6cb32
     log: |
-         0b86c0607ff8e20a46bab06d3142e5d8f34ed45e docs: update docs/RELEASE.md
-         1a604e2a4a8321073886028f0c86c7c06322fcf5 chore: add `CONTRIBUTORS` target to Makefile
-         3fce68bd1d8857ff35e33a572459c12a5092148a docs: update NEWS.md and AUTHORS
+         075d3c3f0bec72755f9907a47816c8f3e0fd822d Revert "dts: phy: add GPIO number and active state used for phy reset"
+         746331db6ab36dffa5aa340472f9703dd2a6cb32 Merge tag 'v5.11-dts-raw'
          
