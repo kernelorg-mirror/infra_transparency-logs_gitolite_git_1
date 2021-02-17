@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 17 Feb 2021 17:06:09 -0000
-Message-Id: <161358156988.15433.12770692909623143874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 17 Feb 2021 17:37:55 -0000
+Message-Id: <161358347527.1461.15749542419742216982@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/ceph-netfs-lib
-    old: c9a8c2bea8b06a0d73d313271b699f8bcb960e7e
-    new: 1147b94f2c8d567a46fd3550db71b7e2d3c7bb3d
+  - ref: refs/heads/for-5.12/playstation
+    old: 3847d15b41ce43a0c2beb3251ca43a2119b865df
+    new: 3855971c6d4b418d294809df25d2bd71ad37af2c
     log: |
-         bbfd723ad92024664f97fb8c05069a1c9097b70c ceph: disable old fscache readpage handling
-         f2f73d033418280e2f0ec2d6ed21a12705bb3ead ceph: rework PageFsCache handling
-         9f86b0059dca58dfacb4b6814af77a19f9df5553 ceph: fix fscache invalidation
-         a4c56bdbfcd408a31457f881a270b6826bd80636 ceph: convert readpage to fscache read helper
-         c332095c73768570187ff39966d97bcc56d9152f ceph: plug write_begin into read helper
-         1147b94f2c8d567a46fd3550db71b7e2d3c7bb3d ceph: convert ceph_readpages to ceph_readahead
+         57389266a7bd97211522ab138733b4a5a6445f8d Revert "HID: playstation: fix unused variable in ps_battery_get_property."
+         2787f2cf1a93855424260969f6cacdd6beebc07f Revert "HID: playstation: report DualSense hardware and firmware version."
+         21a7584fae7baf31c4fa57bcf6270cccb1335401 Revert "HID: playstation: DualSense set LEDs to default player id."
+         fdd2b479ca47a067c8aeac890f1253414bc077ec Revert "HID: playstation: add DualSense player LEDs support."
+         f1d1a57ded804152a5b3476a1b3bacce47c8372b Revert "HID: playstation: add microphone mute support for DualSense."
+         3855971c6d4b418d294809df25d2bd71ad37af2c Revert "HID: playstation: add DualSense lightbar support"
          
