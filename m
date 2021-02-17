@@ -1,46 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 17 Feb 2021 09:45:16 -0000
-Message-Id: <161355511644.28141.14793085484192085344@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3891490846726563028=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 17 Feb 2021 09:52:54 -0000
+Message-Id: <161355557460.31705.14717556721643708248@gitolite.kernel.org>
+
+--===============3891490846726563028==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/ath-next
-    old: 9c349dbd07523ed175b7f5ec42c4b4a1bc7ae1df
-    new: 4e80946197a83a6115e308334618449b77696d6a
-    log: |
-         7a3aed0c3c36cc08a1b123d752f141797f6ba79a ath11k: Refactor ath11k_msi_config
-         16001e4b2e681b8fb5e7bc50db5522081d46347a ath11k: Move qmi service_ins_id to hw_params
-         fa5f473d764398a09f7deea3a042a1130ee50e90 ath11k: qmi: increase the number of fw segments
-         5f67d306155e6a757f0b6b2b061e3ea13f44c536 ath11k: Update memory segment count for qcn9074
-         a233811ef60081192a2b13ce23253671114308d8 ath11k: Add qcn9074 mhi controller config
-         480a73610c95511e42fb7d0359b523f66883e51a ath11k: add static window support for register access
-         6fe6f68fef7f7d5f6b5b62fde78de91cdc528c58 ath11k: add hal support for QCN9074
-         e678fbd401b9bdca9d1bd64065abfcc87ae66b94 ath11k: add data path support for QCN9074
-         6289ac2b7182d418ee68e5c0f3f83d383d7a72ed ath11k: add CE interrupt support for QCN9074
-         7dc67af063e3f0237c864504bb2188ada753b804 ath11k: add extended interrupt support for QCN9074
-         4e80946197a83a6115e308334618449b77696d6a ath11k: add qcn9074 pci device support
-         
-  - ref: refs/heads/ath-qca
-    old: eff15e84018a61d89db92d77fd632fee12f5733c
-    new: 5716b903d2218b96a22425e778d6de849190bc2c
-    log: |
-         7a3aed0c3c36cc08a1b123d752f141797f6ba79a ath11k: Refactor ath11k_msi_config
-         16001e4b2e681b8fb5e7bc50db5522081d46347a ath11k: Move qmi service_ins_id to hw_params
-         fa5f473d764398a09f7deea3a042a1130ee50e90 ath11k: qmi: increase the number of fw segments
-         5f67d306155e6a757f0b6b2b061e3ea13f44c536 ath11k: Update memory segment count for qcn9074
-         a233811ef60081192a2b13ce23253671114308d8 ath11k: Add qcn9074 mhi controller config
-         480a73610c95511e42fb7d0359b523f66883e51a ath11k: add static window support for register access
-         6fe6f68fef7f7d5f6b5b62fde78de91cdc528c58 ath11k: add hal support for QCN9074
-         e678fbd401b9bdca9d1bd64065abfcc87ae66b94 ath11k: add data path support for QCN9074
-         6289ac2b7182d418ee68e5c0f3f83d383d7a72ed ath11k: add CE interrupt support for QCN9074
-         7dc67af063e3f0237c864504bb2188ada753b804 ath11k: add extended interrupt support for QCN9074
-         4e80946197a83a6115e308334618449b77696d6a ath11k: add qcn9074 pci device support
-         5716b903d2218b96a22425e778d6de849190bc2c Merge branch 'ath-next' into ath-qca
-         
+  - ref: refs/heads/auto-latest
+    old: f1b61f7b4fb971f281978fb905507e9ac9b2d973
+    new: 74b68949724a504c579e0073e23beba7a71602ba
+    log: revlist-f1b61f7b4fb9-74b68949724a.txt
+
+--===============3891490846726563028==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f1b61f7b4fb9-74b68949724a.txt
+
+00e772c4929257b11b51d47e4645f67826ded0fc irqchip: Remove sigma tango driver
+5c1ea0d842b1e73ae04870527ec29d5479c35041 irqchip: Remove sirfsoc driver
+d40341145a2497cb7a18d72fda53cd2220fe10f3 irqchip/gic-v3: Fix typos in PMR/RPR SCR_EL3.FIQ handling explanation
+ad6b47cdef760410311f41876b21eb0c6fda4717 dt-bindings: irq: sun6i-r: Split the binding from sun7i-nmi
+6436eb4417094ea3308b33d8392fc02a1068dc78 dt-bindings: irq: sun6i-r: Add a compatible for the H3
+4e34614636b31747b190488240a95647c227021f irqchip/sun6i-r: Use a stacked irqchip driver
+7ab365f6cd6de1e2b0cb1e1e3873dbf68e6f1003 irqchip/sun6i-r: Add wakeup support
+e6f93c0115cb24ae4b473f28a27294e99faf129a dt-bindings: qcom,pdc: Add compatible for SM8250
+9eaad15e5a409f59660f9fdf867f7d3e6e3db15a dt-bindings: qcom,pdc: Add compatible for SM8350
+c260954177c4f1926b423823bca5728f19b40d67 genirq: Use new tasklet API for resend_tasklet
+c60767421e102dfd1f4d99ad0cc7f8ba24461eb8 irqchip/ls-extirq: add IRQCHIP_SKIP_SET_WAKE to the irqchip flags
+4a2b92a5d3519fc2c1edda4d4aa0e05bff41e8de dt-bindings: interrupt-controller: Add Realtek RTL838x/RTL839x support
+9f3a0f34b84ad1b9a8f2bdae44b66f16685b2143 irqchip: Add support for Realtek RTL838x/RTL839x interrupt controller
+be1abc5ba4d2082df6749ab95ec6f87c4d3dbb23 irqchip/csky-mpintc: Prevent selection on unsupported platforms
+c1f664d2400e73d5ca0fcd067fa5847d2c789c11 irqchip/loongson-pch-msi: Use bitmap_zalloc() to allocate bitmap
+a890caeb2ba40ca183969230e204ab144f258357 irqchip/imx: IMX_INTMUX should not default to y, unconditionally
+0b6d70e571a1c764ab079e5c31d4156feee4b06b Merge tag 'irqchip-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
+3aac798a917be3b8f2f647b834bb06bf2f8df4f1 um: Enforce the usage of asm-generic/softirq_stack.h
+c216cc8c15260b9aba3abeeb571d0776be858497 Merge branch 'x86/entry'
+74b68949724a504c579e0073e23beba7a71602ba Merge branch 'irq/core'
+
+--===============3891490846726563028==--
