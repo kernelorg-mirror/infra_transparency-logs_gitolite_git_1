@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4149915012994880077=="
+Content-Type: multipart/mixed; boundary="===============7248972625285572565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 17 Feb 2021 09:33:39 -0000
-Message-Id: <161355441941.31733.17026526621148518641@gitolite.kernel.org>
+Date: Wed, 17 Feb 2021 09:34:05 -0000
+Message-Id: <161355444526.31938.17008667287043474616@gitolite.kernel.org>
 
---===============4149915012994880077==
+--===============7248972625285572565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/master
     old: 06b334f08b4f0e53be64160392be4c37db28a413
     new: b646acd5eb48ec49ef90404336d7e8ee502ecd05
     log: revlist-06b334f08b4f-b646acd5eb48.txt
 
---===============4149915012994880077==
+--===============7248972625285572565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -116,4 +116,4 @@ c544fcb4cbae77f7c6106c5e12c39c7c52f4de00 Merge branch 'broadcom-next'
 d489ded1a3690d7eca8633575cba3f7dac8484c7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 b646acd5eb48ec49ef90404336d7e8ee502ecd05 net: re-solve some conflicts after net -> net-next merge
 
---===============4149915012994880077==--
+--===============7248972625285572565==--
