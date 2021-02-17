@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Wed, 17 Feb 2021 17:53:57 -0000
-Message-Id: <161358443706.12002.5973444848473929444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Wed, 17 Feb 2021 18:12:26 -0000
+Message-Id: <161358554602.24111.10610948552908594921@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/thermal/linux-next
-    old: 74369d041a0a3e9e57de50efd4bd4bc10564e254
-    new: a51afb13311cd85b2f638c691b2734622277d8f5
+  - ref: refs/heads/for-next/kspp
+    old: 112b6a8e038d793d016e330f53acb9383ac504b3
+    new: 2b8689520520175075ca97bc4eaf51ff3f7253aa
     log: |
-         a51afb13311cd85b2f638c691b2734622277d8f5 thermal: cpufreq_cooling: freq_qos_update_request() returns < 0 on error
+         2b8689520520175075ca97bc4eaf51ff3f7253aa kbuild: prevent CC_FLAGS_LTO self-bloating on recursive rebuilds
          
