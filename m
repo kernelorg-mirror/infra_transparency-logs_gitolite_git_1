@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Thu, 18 Feb 2021 00:02:08 -0000
-Message-Id: <161360652829.10150.10562099345696233804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 18 Feb 2021 00:05:29 -0000
+Message-Id: <161360672944.12522.12598594023901811572@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/tags/linux-kselftest-kunit-5.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: f5b4e5980f9fec13a756c88e5d23859e2d922c77
+  - ref: refs/heads/todo
+    old: 1861aa482a38ae84f597cede48167ab43e7e50a3
+    new: 767fa966fa09ec7aff9257ba65d2ab5ed961d39c
+    log: |
+         767fa966fa09ec7aff9257ba65d2ab5ed961d39c What's cooking (2021/02 #03)
+         
