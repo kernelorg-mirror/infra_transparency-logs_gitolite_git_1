@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1220448285173444416=="
+Content-Type: multipart/mixed; boundary="===============8927580586139214444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 18 Feb 2021 15:25:31 -0000
-Message-Id: <161366193131.22859.529014469796469802@gitolite.kernel.org>
+Date: Thu, 18 Feb 2021 15:27:48 -0000
+Message-Id: <161366206876.23573.17079940068266242234@gitolite.kernel.org>
 
---===============1220448285173444416==
+--===============8927580586139214444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 471b12c43f376d5203dbff0e91316eea11f6f4df
-    new: 56348560d495d2501e87db559a61de717cd3ab02
+  - ref: refs/heads/driver-core-testing
+    old: 56348560d495d2501e87db559a61de717cd3ab02
+    new: 3f59c774f7d2c5ec011a9bf1001c14e48f1c77d9
     log: |
-         bc6de804d36b3709d54fa22bd128cbac91c11526 debugfs: be more robust at handling improper input in debugfs_lookup()
-         56348560d495d2501e87db559a61de717cd3ab02 debugfs: do not attempt to create a new file before the filesystem is initalized
+         3f59c774f7d2c5ec011a9bf1001c14e48f1c77d9 Revert "driver core: Set fw_devlink=on by default"
          
 
---===============1220448285173444416==
+--===============8927580586139214444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613661922 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613662059 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1613661922-222c92dfec8d2d8aa080ff52425b631093f95abc
+nonce 1613662058-5b5e88ee65ada584482ee281277815b0f6f4a949
 
-471b12c43f376d5203dbff0e91316eea11f6f4df 56348560d495d2501e87db559a61de717cd3ab02 refs/heads/driver-core-next
+56348560d495d2501e87db559a61de717cd3ab02 3f59c774f7d2c5ec011a9bf1001c14e48f1c77d9 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAuhuIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ETsP/iR1DSToxi6FdTTWcLIR
-RkK0YJaz+LBsvIN8i3hGifSrWG4x6gRTh+9hdNdfkifPhl9SeI29jbwNhGpP7WBA
-nABZnonJ2xUcILXW3AUfMqdhhXDjiKQl0SnbUl6RbnfiAp2/nHYnwsLXX1OpCAgi
-7pJPWI5zpQB3WF6i6AecMTPh+WnKYKcmxZSI34GKvycP16+6cS8N0bRSr3Z4qLqp
-G6cDscb4usVzGvLdF3KV8AZZhxcEV7+DXZ6lTdmgV6nvO1uOD3jnXvcp+75KBgzO
-upjM3L3x6BshtILqqEELqW8Tapj19te8A76beDL3qZcEA4qm6Q7g82MV0/lUI/MC
-nas7sRqVP3n0B1JWjTBMqkf1Oc0mCsHlyC5VkNTpyhQrTzEfCkW+6VJDQVRqZZUx
-XK8SGyMxReIa3GRfrL5eg1oBwd33YCMxQ5NW/dat+LiZRrU+sGgwvQZt2mqB2sWw
-lAfnhkuwMUCNXB6b+pFXreqnZwdWIt9qKMo3CtaDHJFzoVD20vEI203Aes9A4C87
-hpBEBTq0VgSKZ539CYz0JiZ/N7GvBENVmDZpqFOApdzXfvobFTuomkTeufMb0obd
-J2m7v2MSaZUx0TGRwm6LOwN/nQcWir+VtYguIyGrkSou6Sa7AheXCS01Ws67sXxu
-BqZBlN3iBQPGddMa28QOSg2M
-=cO5t
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAuh2sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5uEP/2r3FRDsn27Wq2J6FOLL
+0tzRzG6pU+BgRO0A/oI2QS4jnExLoIVSq9b8LHQrfQIxAhsvF/mgj+ZFC5E12u0H
+k3/VtPG2cZ8tReIr+uLfL2sQzkrF0SrWnBeG6T2kimdYVpwT+srJrWTbYrQItLOO
+13+0oQEeiXJ2vVPYxUc7iKPIa1cOuwFb9nIrz6PC77qO/v9Kv1OETvf1x6aYb5rJ
+OhSnqzdr0LJozQoNfy6geJSQmU+4W415RbZKrkTDL7QjoyY96CIGWrEJKV3pwNqu
+ICGn4jYuPAu4tbvjIgjpuPgG6BgvWftgQhNWNByUMcoMCmVTfyfPGH0dnYH6YiDQ
+DdxERHWG7gKeo10mjwb5W/Z9urkHb5yrYlZb5z+hJuMu9TmH2s9QKer8RNUaRIX6
++urQt7hIm7hAICINfPPU9AjT6CEyZtp6TOwn5JOWc/3yxVpogK8mzOZLxznFlDTa
+it8AnRZRDQsYisecxgVuh61A+WjgzwkIJPz4Et7TAw3xDVnzJq3eSM3Er/RIPZGP
+3WJ7EO/f7Htd0kFidVdUMe8OsPhagfN0oQp+pyloPKzRbkfTXm5HOtkIX3iXmUrO
+0YFu+epVtEeM46wRD2AQUGvVpfvy/vZW9BvpJvUF2W9oYAkr8fnCm0cxOJ9xURUI
+sIDOcsxa/Npe+RMQQ9kLMc31
+=c5fF
 -----END PGP SIGNATURE-----
 
---===============1220448285173444416==--
+--===============8927580586139214444==--
