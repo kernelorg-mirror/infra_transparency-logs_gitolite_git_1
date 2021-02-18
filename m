@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 18 Feb 2021 01:26:57 -0000
-Message-Id: <161361161703.587.769283912117000591@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Thu, 18 Feb 2021 02:01:40 -0000
+Message-Id: <161361370029.21909.16033146391961549872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
   - ref: refs/heads/master
-    old: 0c102742a8b4bc8d07545fd91d1a930885cc2867
-    new: 60135a7f83dd87570f3b44d0221a32e169e254c7
+    old: 46887e2f1a534f311fe5f7b9346134a6c4ae5ad6
+    new: 522536a127980552bf21ad6f4a2afa851ee77369
     log: |
-         d13f06193cce07e2ad97070ad32e059d76cac4b7 avdtp: Fix setting disconnect timer when there is no local endpoints
-         dfc2829b8cda018d5eb61b98ae1e2a9ee6e01e26 btio: Use G_PRIORITY_HIGH for watches
-         60135a7f83dd87570f3b44d0221a32e169e254c7 avdtp: Remove use of G_PRIORITY_LOW
+         51e2dcc998696538235a86b155ae19a26340ed40 utilities/torelease.sh: Don't generate second Changes.*.txt file
+         1f2308fbd71ccd21f77f31c8803fa43d0402483d formal: Add epigraph to last section
+         0583d382e5da11b53097df3708c272427b327b4b future/tm: Add detail on MV-RLU scalability
+         b2ef4486f7c5c8dc568f2cbb5906073b132617d8 defer/rcurelated: Add MV-RLU discussion to that of RLU
+         58915ba06261eb22d0e0e67baa466b9e26dfd596 together: Updates and wordsmithing, take one
+         522536a127980552bf21ad6f4a2afa851ee77369 defer: Add MVCC aspect of RCU
          
