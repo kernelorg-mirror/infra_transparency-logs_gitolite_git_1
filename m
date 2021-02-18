@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 18 Feb 2021 07:02:30 -0000
-Message-Id: <161363175012.11361.9848158485974082877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Thu, 18 Feb 2021 07:54:31 -0000
+Message-Id: <161363487168.9609.10523560347038499890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/docs/man-pages/man-pages
+user: mtk
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: 86ad9a24f21ea7aac7deed06fe9556392568d88a
-    new: de04241ab87afcaac26f15fcc32a7bd27294dd47
+  - ref: refs/heads/master
+    old: 86e7d291685edb47b3e1a52ef0b1c74976164fb9
+    new: 7dc3250afc46f96a2cbac71f8e251c44cac730e6
     log: |
-         de04241ab87afcaac26f15fcc32a7bd27294dd47 opp: Don't skip freq update for different frequency
+         7dc3250afc46f96a2cbac71f8e251c44cac730e6 process_madvise.2: Add CONFORMING TO
          
