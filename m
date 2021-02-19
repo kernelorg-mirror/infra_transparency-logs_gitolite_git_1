@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0856929704137294867=="
+Content-Type: multipart/mixed; boundary="===============3642198117326469448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 19 Feb 2021 08:00:09 -0000
-Message-Id: <161372160930.15359.14503629407726251535@gitolite.kernel.org>
+Date: Fri, 19 Feb 2021 08:01:27 -0000
+Message-Id: <161372168733.15805.17021452371116856788@gitolite.kernel.org>
 
---===============0856929704137294867==
+--===============3642198117326469448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 4d1506103fe2c6dd7e404ffa0e9351632d6f193a
-    new: 773f655cff486c48b9fb858cbfdba84b80d18e1a
+    old: 773f655cff486c48b9fb858cbfdba84b80d18e1a
+    new: 5dcfb582fce73d58015112b105e44e86e9429078
     log: |
-         773f655cff486c48b9fb858cbfdba84b80d18e1a staging: wlan-ng: Fixed incorrect type warning in p80211netdev.c
+         14a9ddf418bd0cfd45a39a5edc7f67b94cde5560 staging: wlan-ng: Remove unused function pointer typedef freebuf_method_t
+         781fb1dd93cdb230f36563e215b97449e047a759 staging: wfx: logical continuations should be on the previous line
+         5dcfb582fce73d58015112b105e44e86e9429078 staging: wfx: Fix alignment style issue in sta.c
          
 
---===============0856929704137294867==
+--===============3642198117326469448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613721600 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613721678 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1613721599-e121a9ac44aafb562bf58aa6a82ff276222b43c4
+nonce 1613721677-eeb2546a892181c0d958e976ce15cea677f69046
 
-4d1506103fe2c6dd7e404ffa0e9351632d6f193a 773f655cff486c48b9fb858cbfdba84b80d18e1a refs/heads/staging-testing
+773f655cff486c48b9fb858cbfdba84b80d18e1a 5dcfb582fce73d58015112b105e44e86e9429078 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAvcAAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qacP/2m/LA691B6PK5OSPzLg
-Qsatc0Ixw0i2wkihSolALqdQpCgStdc/d1o+pgJ/Ol1V1FBG9+UW2wQREQ8NZ55+
-+5ljYm+mbggtDVxJh0Qll3Hs9XOBOmQ7zoGUQDa5EG1/5urHkntvdMIEnc42g+ph
-wVv/R+lfzj9x7T+KkSCVOcD5cu3QTy4wLPEsoEzJfTArWCf8zYEASUb0dC89AjF5
-ds++RozDHXn/ArFhz5GDTinQvhdF3dliMXwFi5tvtEf2vLJ6J6fmXSSC+d6hYiLf
-K8frKyscWVY1gbhILrB890zCyDgJG4pp95Lo/12sgRcPwraqew6n5ENKlvfuH1/W
-/slS/sNJymZAwsXkwO3HxW7SKNgTRYqtlF1uHJyfTXJAJ2y7UcHNNtFSGq4BC6cU
-FlefhPtulJ79GOtvjGAZ937EjsBbz/Bi+g0bLmirKu0NvgMBoOSA662oHOaKJ2r/
-Mg9dOCmg0x9HQaXhUate6r3WGpJvpsDZc/PqqNGBBqSiX6pHIbsUHJ9zQa03cBSW
-3Cd5Py7tcIksC7RTPuS6ChSQB00A6AUXdQdsBRzStjctipfGiJxPDAIHq5n1lbD6
-is+mf3UVFWwwtygmLAHl6yqv0/b7ww3oCzMPlWDum9Bt7VDHdCK5d1ecJbFqJsnH
-WhlQCIkcEM5MBRhjkpVjppdM
-=EiFD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAvcE4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/ewQAL+orchFrkqD+FRSk5Ts
+3bKRnYJNyqPWxzUASim1Y5pKuNg2Ou/yUTq/aAwRftMduVIggAsCsETUb4m6JZUQ
+mOsxqO3bXDTCbRBN1LyyDjDM40FiMl86rit6dWCub8lRBbhkNZktt82sx/A/l7bS
+8t+99hP+loFPotbvX+tcgyHK8pVUabJJFNUqi4SYJqbZA1P97ageV1J3m2gRdJ2O
+10bbFXYJCZ0CO/AKrxQq4xabZgHyBPUej5x8IuJA6iEYexcG1Qnq34KxyfsJ1/qK
+SNv/ggfU2vGVAQ90Lctj1eb++90rytWouwEuocd/yJirpyZucJyT87bEgdnCklSG
+Beqxyp7vi6T1LTt6RCEeogLODAgnKTGPVrg0hL+nOQoOFxaTH8Umk6JyO/VW09k4
+pZsYTqX2JNHwgGB21qlDqtxvhpT/j3BXTTlPZj7KslEByHmNHptX0nmT50D/+uCp
+2x9YNvUCtxmGqPc4NeEe/is359/oNgpDwl0nZiV+F5RH3vg5pGojHNBs2dl8QemL
+Z3OKNOWZvnhbiYsyfJv7eE0jo6H+fxwmEUPhJ8ssyejGJcaJW8pkER8E6j928+Yg
+ZYPSz4AjNRXS6ZdizzXkFYTm5BASD7CzJFPD9of+ydCxLdfkIeXoG+r53eGlg04j
+vPxgi8+c/km5ZjbjKDPio47l
+=/xYS
 -----END PGP SIGNATURE-----
 
---===============0856929704137294867==--
+--===============3642198117326469448==--
