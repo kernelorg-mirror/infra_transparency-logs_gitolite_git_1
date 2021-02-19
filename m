@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Fri, 19 Feb 2021 23:22:24 -0000
-Message-Id: <161377694473.11933.5058520368545164663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 19 Feb 2021 23:42:53 -0000
+Message-Id: <161377817383.24223.8828733884284009537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 2e97d260d162cc44c06351a474202c212c30f6c9
-    new: dc7a726aa71b21fa1b279bd635df367c8fb716ce
+  - ref: refs/heads/mlx5-queue
+    old: 7f2851b169b8e5be1d2ff05fb9be79316960e1da
+    new: 1599d75deb8c8caea14be6f8fc12a00f4c0823ce
     log: |
-         441ab748ccb51a4199fe2ae1535b40f8d854bc6c vhci: Add vhci_set_debug
-         17e208f6a63fdd888066a83948be99672c62173b emulator: Add option for enabling debug with btvirt
-         dc7a726aa71b21fa1b279bd635df367c8fb716ce btdev: Fix not sending ISO packets
+         561b3ddf356f12df30b26223ce4231f736292c58 net/mlx5e: Fix error flow in change profile
+         104dbefb6a20679d613f4ae69bafb80a2a32078d net/mlx5e: mlx5_tc_ct_init does not fail
+         9216e81aa8710ad18797ad2d189b600883894fe6 net/mlx5: Use order-0 allocations for EQs
+         34ef91322d2b7b34e7bb18cef6aa2b52790c8389 Merge branch 'patchq/375495' into mlx5-queue
+         1599d75deb8c8caea14be6f8fc12a00f4c0823ce Merge branch 'patchq/159334' into mlx5-queue
          
