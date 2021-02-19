@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============5596937389616797860=="
+Content-Type: multipart/mixed; boundary="===============3983679107464558696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 19 Feb 2021 00:49:42 -0000
-Message-Id: <161369578289.8902.9802198991823977174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pablo/nf
+Date: Fri, 19 Feb 2021 00:59:17 -0000
+Message-Id: <161369635741.14265.3674803436869886767@gitolite.kernel.org>
 
---===============5596937389616797860==
+--===============3983679107464558696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/pablo/nf
+user: pablo
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 90d8b8a222fe8b477e8159f9f64f1fb39b547824
-    new: 63cd87106338ba570aec2cf2551fa388ae49daa8
-    log: revlist-90d8b8a222fe-63cd87106338.txt
+  - ref: refs/heads/master
+    old: 57baf8cc70ea4cf5503c9d42f31f6a86d7f5ff1a
+    new: 3af409ca278d4a8d50e91f9f7c4c33b175645cf3
+    log: revlist-57baf8cc70ea-3af409ca278d.txt
 
---===============5596937389616797860==
+--===============3983679107464558696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90d8b8a222fe-63cd87106338.txt
+Content-Disposition: attachment; filename=revlist-57baf8cc70ea-3af409ca278d.txt
 
-1662dad7fb4dfe5cdee4667c0c18d1942946765a Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
-d97a05018458acf64eda28bad4494658fd47b0ac net/mlx5: Don't skip vport check
-170424fb10d216be4d9f861ff9303933aee57c63 net/mlx5: Remove impossible checks of interface state
-e3b32445d55fb569863a58568c14c45b79a92285 net/mlx5: Separate probe vs. reload flows
-063506b88ec53da9b9da1ac723c19af27a26ae95 net/mlx5: Remove second FW tracer check
-76f1859e29d104d05274d6de40c8eb6e8d2c12f6 net/mlx5: Don't rely on interface state bit
-4527d2928f98193d9778d6d972a6f15bac852486 net/mlx5: Check returned value from health recover sequence
-ef3f8d1b881083193ea1e78805478c539b7d675f net/mlx5: Fix devlink reload LOCKDEP warning
-5eead663d0a975684a6d2982254b31c247cd4cdc net/mlx5: CT: Add support for mirroring
-59a39ec178c3b5caca0a20bc802ea02af8dcdc7a net/mlx5: E-Switch, let user to enable disable metadata
-1dc364ff650f56430173ef3b31777be150785c9c net/mlx5e: CT, Avoid false lock depenency warning
-54c6b47141ece055396c1b2c40a3648d926ca6d1 net/mlx5: Display the command index in command mailbox dump
-86337fea77a14831762763096e99dce6f9e75320 net/mlx5e: Allow to match on ICMP parameters
-0ca094bc9f0f803c338eb1ebf036822a2614ee8b net/mlx5: Don't allow health work when device is probing
-42b750ffcc9109b3a52bdae5fb53a4fc652f16e0 Revert "net/mlx5: Fix fatal error handling during device load"
-87cf42e62552940507e7ac0dbfae6d8ad34e724a net/mlx5: SF: Fix memory leak of work item
-210cd78e521290f57493c12e6fa84d34e5e9a93c net/mlx5: SF: Fix error flow of SFs allocation flow
-04eea9267bd07cc81142729737fdabe5ae79e382 net/mlx5e: rep: Improve reg_cX conditions
-6da687113ab055e3d2737ea4afb423bebc59a16b net/mlx5e: Enforce minimum value check for ICOSQ size
-10f3432d755baad079b1cccdc6d9f35f90363099 net/mlx5: DR, Fix potential shift wrapping of 32-bit value in STEv1 getter
-f3c7fd2784132c51bd49bbd63e0574537b691283 net/mlx5: DR, Fixed typo in STE v0
-effc87ff7372e223376dc6cd7d6f09249ef85ca3 net/mlx5: DR, Remove unneeded rx_decap_l3 function for STEv1
-88b9f51b80d345785e9ae58a8a8481ce4456de81 net/mlx5: DR, Add missing vhca_id consume from STEv1
-6b4f0ec3895925d6636381611a102ebc4fce22b9 net/mlx5e: Use net_prefetchw instead of prefetchw in MPWQE TX datapath
-04ceb0d7f6fddf06516d9d6306b5b3a521643e63 net/mlx5: Read congestion counters from all ports when lag is active
-63cd87106338ba570aec2cf2551fa388ae49daa8 net/mlx5: Avoid unnecessary operation
+d0a0bbe7b0a181c58bd22d6942146cfa3ab9e49a atm: idt77252: fix build broken on amd64
+2355a6773a2cb0d2dce13432dde78497f1d6617b cxgb4/chtls/cxgbit: Keeping the max ofld immediate data size same in cxgb4 and ulds
+4773acf3d4b50768bf08e9e97a204819e9ea0895 b43: N-PHY: Fix the update of coef for the PHY revision >= 3case
+62e69bc419772638369eff8ff81340bde8aceb61 net: wan/lmc: unregister device when no matching device is found
+a67f06161558013b653d666213ecd66714ef3af8 net: wan/lmc: dont print format string when not available
+d6d8a24023bf442645c66b0101cb0fea0fba9957 net: caif: Use netif_rx_any_context().
+7ce189faa7d990f89d36603627ab89588e4218a5 r8169: fix resuming from suspend on RTL8105e if machine runs on battery
+42557dab78edc8235aba5b441f2eb35f725a0ede ibmvnic: add memory barrier to protect long term buffer
+7d3a7b9ea59ddb223aec59b45fa1713c633aaed4 ibmvnic: skip send_request_unmap for timeout reset
+4a41c421f3676fdeea91733cf434dcf319c4c351 ibmvnic: serialize access to work queue on remove
+25c5a7e89b1de80f4b04ad5365b2e05fefd92279 net: ipa: initialize all resources
+30b7edc82ec82578f4f5e6706766f0a9535617d3 net: amd-xgbe: Reset the PHY rx data path when mailbox command timeout
+186edbb510bd60e748f93975989ccba25ee99c50 net: amd-xgbe: Fix NETDEV WATCHDOG transmit queue timeout warning
+84fe68eb67f9499309cffd97c1ba269de125ff14 net: amd-xgbe: Reset link when the link never comes back
+9eab3fdb419916f66a72d1572f68d82cd9b3f963 net: amd-xgbe: Fix network fluctuations when using 1G BELFUSE SFP
+17aff5389d4f46a2ed2f0760922ae6c06dc438f1 Merge branch 'amd-xgbe-fixes'
+396d7f23adf9e8c436dd81a69488b5b6a865acf8 net: sched: fix police ext initialization
+3af409ca278d4a8d50e91f9f7c4c33b175645cf3 net: enetc: fix destroyed phylink dereference during unbind
 
---===============5596937389616797860==--
+--===============3983679107464558696==--
