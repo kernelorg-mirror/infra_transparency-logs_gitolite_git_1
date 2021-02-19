@@ -1,31 +1,115 @@
-Content-Type: multipart/mixed; boundary="===============0722110723478273532=="
+Content-Type: multipart/mixed; boundary="===============1617925031541939583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Thu, 18 Feb 2021 23:57:46 -0000
-Message-Id: <161369266605.9140.2130958462550836020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 19 Feb 2021 00:01:25 -0000
+Message-Id: <161369288569.11674.17419814437828699226@gitolite.kernel.org>
 
---===============0722110723478273532==
+--===============1617925031541939583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
+repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/queue-next
-    old: 41ed6dc62a6b77c4b53ef3bd021fe74533c033c1
-    new: 18122351caa1f016595f0f4d0404decd50fcccf0
-    log: revlist-41ed6dc62a6b-18122351caa1.txt
+  - ref: refs/heads/net-rc
+    old: 5850fff3c007e53c77622e1f62015f3170810fe2
+    new: ff18533190ffed400309be99918b429cc0f4f9e5
+    log: revlist-5850fff3c007-ff18533190ff.txt
 
---===============0722110723478273532==
+--===============1617925031541939583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41ed6dc62a6b-18122351caa1.txt
+Content-Disposition: attachment; filename=revlist-5850fff3c007-ff18533190ff.txt
 
+291b5c9870fc546376d69cf792b7885cd0c9c1b3 i3c/master/mipi-i3c-hci: Fix position of __maybe_unused in i3c_hci_of_match
+16e19e11228ba660d9e322035635e7dcf160d5c2 dmaengine: idxd: Fix list corruption in description completion
+f5cc9ace24fbdf41b4814effbb2f9bad7046e988 dmaengine: idxd: fix misc interrupt completion
+e594443196d6e0ef3d3b30320c49b3a4d4f9a547 dmaengine: move channel device_node deletion to driver
+fed1b6a00a191cad4dd843519b590e3d6ad9f843 dmaengine: ti: k3-udma: Fix a resource leak in an error handling path
+b64acb28da8394485f0762e657470c9fc33aca4d ath9k: fix build error with LEDS_CLASS=m
+93a1d4791c10d443bc67044def7efee2991d48b7 mt76: dma: fix a possible memory leak in mt76_add_fragment()
+89e3becd8f821e507052e012d2559dcda59f538e dmaengine: idxd: check device state before issue command
+548f1191d86ccb9bde2a5305988877b7584c01eb bpf: Unbreak BPF_PROG_TYPE_KPROBE when kprobe is called via do_int3
+6183f4d3a0a2ad230511987c6c362ca43ec0055f bpf: Check for integer overflow when using roundup_pow_of_two()
+a4dc7eee9106a9d2a6e08b442db19677aa9699c7 NET: usb: qmi_wwan: Adding support for Cinterion MV31
+b1bdde33b72366da20d10770ab7a49fe87b5e190 netfilter: xt_recent: Fix attempt to update deleted entry
+a3005b0f83f217c888393c6bf9cd36e3d1616bca selftests: netfilter: fix current year
+767d1216bff82507c945e92fe719dff2083bb2f4 netfilter: nftables: fix possible UAF over chains from packet path in netns
+8d6bca156e47d68551750a384b3ff49384c67be3 netfilter: flowtable: fix tcp and udp header checksum update
+2a80c15812372e554474b1dba0b1d8e467af295d net/qrtr: restrict user-controlled length in qrtr_tun_write_iter()
+d795cc02a297df80910cf4ba23147680d15d8a7d selftests/tls: fix selftest with CHACHA20-POLY1305
+ec7d8e7dd3a59528e305a18e93f1cb98f7faf83b xen/netback: avoid race in xenvif_rx_ring_slots_available()
+3401e4aa43a540881cc97190afead650e709c418 cxgb4: Add new T6 PCI device id 0x6092
+7b5eab57cac45e270a0ad624ba157c5b30b3d44d rxrpc: Fix clearance of Tx/Rx ring when releasing a call
+81b8be68ef8e8915d0cc6cedd2ac425c74a24813 net: hdlc_x25: Return meaningful error code in x25_open
+1d23a56b0296d29e7047b41fe0a42a001036160d net: ipa: set error code in gsi_channel_setup()
+52cbd23a119c6ebf40a527e53f3402d2ea38eccb udp: fix skb_copy_and_csum_datagram with odd segment sizes
+12bc8dfb83b5292fe387b795210018b7632ee08b hv_netvsc: Reset the RSC count if NVSP_STAT_FAIL in netvsc_receive()
+07bf34a50e327975b21a9dee64d220c3dcb72ee9 net: enetc: initialize the RFS and RSS memories
+8fd54a73b7cda11548154451bdb4bde6d8ff74c7 net: dsa: call teardown method on probe failure
+647b8dd5184665432cc8a2b5bca46a201f690c37 selftests: txtimestamp: fix compilation issue
+b3d2c7b876d450e1d2624fd67658acc96465a9e6 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
+256cfdd6fdf70c6fcf0f7c8ddb0ebd73ce8f3bc9 tracing: Do not count ftrace events in top level enable output
+8dc1c444df193701910f5e80b5d4caaf705a8fb0 net: gro: do not keep too many GRO packets in napi->rx_list
+275a9c72b420e5051b0e92e49b26bef06c196f29 dpaa_eth: reserve space for the xdp_frame under the A050385 erratum
+c2b0e8455eb76135f505dda81a8869e60f37a861 dpaa_eth: reduce data alignment requirements for the A050385 erratum
+0a9946cca1a30b7236a86757da9df2222eb73ee0 dpaa_eth: try to move the data in place for the A050385 erratum
+fb6221a2013ff7612c61b25bf92c757d6b3abd65 Merge branch 'dpaa_eth-a050385-erratum-workaround-fixes-under-xdp'
+f317e2ea8c88737aa36228167b2292baef3f0430 net: stmmac: set TxQ mode back to DCB after disabling CBS
+2da4b24b1dfbf06c7dc7fd45de258e007e1c5ef5 Merge tag 'wireless-drivers-2021-02-05' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
+ef66a1eace968ff22a35f45e6e8ec36b668b6116 ibmvnic: Clear failover_pending if unable to schedule
+5d1cbcc990f18edaddddef26677073c4e6fad7b7 net/vmw_vsock: fix NULL pointer dereference
+3d0bc44d39bca615b72637e340317b7899b7f911 net/vmw_vsock: improve locking in vsock_connect_timeout()
+225353c070fda18a23785e34e1eec2be508a3a3c net: ena: Update XDP verdict upon failure
+b6c14d7a83802046f7098e9bae78fbde23affa74 dmaengine dw: Revert "dmaengine: dw: Enable runtime PM"
+3c55e94c0adea4a5389c4b80f6ae9927dd6a4501 cpufreq: ACPI: Extend frequency tables to cover boost frequencies
+d11a1d08a082a7dc0ada423d2b2e26e9b6f2525c cpufreq: ACPI: Update arch scale-invariance max perf ratio if CPPC is not there
+fe0af09074bfeb46a35357e67635eefe33cdfc49 Revert "ACPICA: Interpreter: fix memory leak by using existing buffer"
+af8085f3a4712c57d0dd415ad543bac85780375c net: fix iteration for sctp transport seq_files
+e0756cfc7d7cd08c98a53b6009c091a3f6a50be6 Merge tag 'trace-v5.11-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+ce7536bc7398e2ae552d2fabb7e0e371a9f1fe46 vsock/virtio: update credit only if socket is not closed
+07998281c268592963e1cd623fe6ab0270b65ae4 netfilter: conntrack: skip identical origin tuple in same zone only
+664899e85c1312e51d2761e7f8b2f25d053e8489 netfilter: nftables: relax check for stateful expressions in set definition
+3aa6bce9af0e25b735c9c1263739a5639a336ae8 net: watchdog: hold device global xmit lock during tx disable
+b2bdba1cbc84cadb14393d0101a5bfd38d342e0a bridge: mrp: Fix the usage of br_mrp_port_switchdev_set_state
+059d2a1004981dce19f0127dabc1b4ec927d202a switchdev: mrp: Remove SWITCHDEV_ATTR_ID_MRP_PORT_STAT
+6bbc088d6ebfd5a4284641dbe8413ebab0dfeb8c Merge branch 'bridge-mrp'
+eb4733d7cffc547e08fe5a216e4f03663bb71108 net: dsa: felix: implement port flushing on .phylink_mac_link_down
+67a69f84cab60484f02eb8cbc7a76edffbb28a25 net: hns3: add a check for queue_id in hclge_reset_vf_queue()
+326334aad024a60f46dc5e7dbe1efe32da3ca66f net: hns3: add a check for tqp_index in hclge_get_ring_chain_from_mbx()
+532cfc0df1e4d68e74522ef4a0dcbf6ebbe68287 net: hns3: add a check for index in hclge_get_rss_key()
+49c2547b82c6da8875d375e3544354e8bd7cf082 Merge branch 'hns3-fixes'
+1c5fae9c9a092574398a17facc31c533791ef232 vsock: fix locking in vsock_shutdown()
+450bbc3395185963b133177a9ddae305dae7c5fa Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
+ee114dd64c0071500345439fc79dd5e0f9d106ed bpf: Fix verifier jsgt branch analysis on max bound
+fd675184fc7abfd1e1c52d23e8e900676b5a1c1a bpf: Fix verifier jmp32 pruning decision logic
+e88b2c6e5a4d9ce30d75391e4d950da74bb2bd90 bpf: Fix 32 bit src register truncation on div/mod
+ef7d0b599938450c54a8dc0aa4b954d73d9a9370 Merge tag 'i3c/fixes-for-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
+e812cbbbbbb15adbbbee176baa1e8bda53059bf0 squashfs: avoid out of bounds writes in decompressors
+f37aa4c7366e23f91b81d00bafd6a7ab54e4a381 squashfs: add more sanity checks in id lookup
+eabac19e40c095543def79cb6ffeb3a8588aaff4 squashfs: add more sanity checks in inode lookup
+506220d2ba21791314af569211ffd8870b8208fa squashfs: add more sanity checks in xattr id lookup
+1cc4cdb521f9689183474bc89eefc451ac44fa1c kasan: fix stack traces dependency for HW_TAGS
+793f49a87aae24e5bcf92ad98d764153fc936570 firmware_loader: align .builtin_fw to 8
+a30a29091b5a6d4c64b5fc77040720a65e2dd4e6 mm/mremap: fix BUILD_BUG_ON() error in get_extent
+b85a7a8bb5736998b8a681937a9749b350c17988 tmpfs: disallow CONFIG_TMPFS_INODE64 on s390
+ad69c389ec110ea54f8b0c0884b255340ef1c736 tmpfs: disallow CONFIG_TMPFS_INODE64 on alpha
+d52db800846f66d98a4e14c39cf88a06bcd9985f selftests/vm: rename file run_vmtests to run_vmtests.sh
+a0c2eb0a4387322ebc629c01f5adb2d957c343fe MAINTAINERS: update Andrey Ryabinin's email address
+e82553c10b0899994153f9bf0af333c0a1550fd7 Revert "mm: memcontrol: avoid workload stalls when lowering memory.high"
+b8776f14a47046796fe078c4a2e691f58e00ae06 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+3286222fc609dea27bd16ac02c55d3f1c3190063 mm, slub: better heuristic for number of cpus when calculating slab order
+a35d8f016e0b68634035217d06d1c53863456b50 nilfs2: make splice write available again
+4b16b656b1ce04868a31af65c846cf97823d32c5 Merge branch 'akpm' (patches from Andrew)
+6016bf19b3854b6e70ba9278a7ca0fce75278d3a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+708c2e41814209e5dde27c61ad032f4c1ed3624b Merge tag 'dmaengine-fix2-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
+a3961497bd9c7ca94212922a46729a9410568eb8 Merge tag 'acpi-5.11-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+291009f656e8eaebbdfd3a8d99f6b190a9ce9deb Merge tag 'pm-5.11-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 1bcc51ac0731aab1b109b2cd5c3d495f1884e5ca net/sched: cls_flower: Reject invalid ct_state flags rules
 732fa32330667a80ce4985ca81b6e9d6b2ad2072 selftests/bpf: Convert test_xdp_redirect.sh to bash
 f1d77b2efbe6151a8c5600ea1953bfce8728c18e netdev-FAQ: answer some questions about the patchwork checks
@@ -67,9 +151,6 @@ e1c3940c6003d820c787473c65711b49c2d1bc42 net/mlx5e: Check tunnel offload is requ
 d2126838050ccd1dadf310ffb78b2204f3b032b9 flow_dissector: fix TTL and TOS dissection on IPv4 fragments
 a6f2fe5f108c11ff8023d07f9c00cc3c9c3203b8 ibmvnic: change IBMVNIC_MAX_IND_DESCS to 16
 57baf8cc70ea4cf5503c9d42f31f6a86d7f5ff1a net: axienet: Handle deferred probe on clock properly
-fd020332c1563624687a7ad8df119f40151f5f19 netfilter: nftables: add helper function to release one table
-00dfe9bebdf09c37827fb71db89c66a396f1a38c netfilter: nftables: add helper function to release hooks of one single table
-6001a930ce0378b62210d4f83583fc88a903d89d netfilter: nftables: introduce table ownership
 d0a0bbe7b0a181c58bd22d6942146cfa3ab9e49a atm: idt77252: fix build broken on amd64
 2355a6773a2cb0d2dce13432dde78497f1d6617b cxgb4/chtls/cxgbit: Keeping the max ofld immediate data size same in cxgb4 and ulds
 4773acf3d4b50768bf08e9e97a204819e9ea0895 b43: N-PHY: Fix the update of coef for the PHY revision >= 3case
@@ -88,68 +169,10 @@ d6d8a24023bf442645c66b0101cb0fea0fba9957 net: caif: Use netif_rx_any_context().
 17aff5389d4f46a2ed2f0760922ae6c06dc438f1 Merge branch 'amd-xgbe-fixes'
 396d7f23adf9e8c436dd81a69488b5b6a865acf8 net: sched: fix police ext initialization
 3af409ca278d4a8d50e91f9f7c4c33b175645cf3 net: enetc: fix destroyed phylink dereference during unbind
-86dd9868b8788a9063893a97649594af93cd5aa6 net: dsa: tag_rtl4_a: Support also egress tags
-d489ded1a3690d7eca8633575cba3f7dac8484c7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-b646acd5eb48ec49ef90404336d7e8ee502ecd05 net: re-solve some conflicts after net -> net-next merge
-597565556581d59641c0be50acaae87f7391a91b net: mscc: ocelot: select PACKING in the Kconfig
-96313e1db8e5629cc2217616dca78f03e6463008 net: mdio: Remove of_phy_attach()
-32511f8e498045a82f603454b21b34ad892a79c6 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf-next
-80a2a40bd29646d6d411be9b4f06e10282844a74 r8169: use macro pm_ptr
-557ef2dfb58690512af002ba74c24324e8e0a1d0 net: stmmac: dwmac-sun8i: Return void from PHY unpower
-afac1d34bfb482242f5b427aebafcbd8f9ea0490 net: stmmac: dwmac-sun8i: Remove unnecessary PHY power check
-1c22f54696be3b185fec5c8dd03330dc8508b2d0 net: stmmac: dwmac-sun8i: Use reset_control_reset
-2743aa245038fea4bd9f62bf98e25dbc6449f2ec net: stmmac: dwmac-sun8i: Minor probe function cleanup
-96be41d74f2ee94203f2a61e55927b028a10fea6 net: stmmac: dwmac-sun8i: Add a shutdown callback
-857490807368026116a16306ab89e9b71cad60ab Merge branch 'ddwmac-sun8i-cleanup-and-shutdown-hook'
-797d3186544fcd5bfd7a03b9ef3e20c1db3802b8 ptp: ptp_clockmatrix: Add wait_for_sys_apll_dpll_lock.
-e8b4d8b542b167b101aaaa308dc3be39da9f59d0 ptp: ptp_clockmatrix: Add alignment of 1 PPS to idtcm_perout_enable.
-10c270cf25bd3ebffba9c2182d0c9eccecf10d97 ptp: ptp_clockmatrix: Remove unused header declarations.
-1c49d3e947783b1ac9cf5d9a2489baa63a35a371 ptp: ptp_clockmatrix: Clean-up dev_*() messages.
-fcfd37573a09f1998bc58a712be432aa7eae7bc2 ptp: ptp_clockmatrix: Coding style - tighten vertical spacing.
-fde3b3a7069e380f3a8b74e77b9eff15b7f8c878 ptp: ptp_clockmatrix: Simplify code - remove unnecessary `err` variable.
-77fdb168a3e2a633fd8e5a0c9ecadcb86c9372cb ptp: ptp_clockmatrix: clean-up - parenthesis around a == b are unnecessary
-41f1a01bb6c678681147f52180a7c20b0e12e137 Merge branch 'ptp-ptp_clockmatrix-Fix-output-1-PPS-alignment'
-20e07e2c3cf310578ef19fb4f1e64dc9832abd9d net: stmmac: Add PCI bus info to ethtool driver query output
-c77662605d8d715062f15bbf567b5a61082b4967 cteontx2-pf: cn10k: Prevent harmless double shift bugs
-38b5133ad607ecdcc8d24906d1ac9cc8df41acd5 octeontx2-pf: Fix otx2_get_fecparam()
-70f36fd91c07c90b4ed435acca94787a4ad84a6b Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
-6337fcb3bb74980cabe727536d857947dd8dd573 net/mlx5: Don't skip vport check
-8fa41cdba397bc20025a08ea68683eed322512a8 net/mlx5: Remove impossible checks of interface state
-81f780bd41f954390d06cdafd292d41b535b01d5 net/mlx5: Separate probe vs. reload flows
-047155c5cd674b3bf304d298f4542c8db2179297 net/mlx5: Remove second FW tracer check
-d2aa6ccc05ab37cde42a8cf21e2a58c63456e48f net/mlx5: Don't rely on interface state bit
-ef2ef28b51f7540c3783cfbfd8c6ce9ab21fa744 net/mlx5: Check returned value from health recover sequence
-670531c4c5bc5b29f50a4496aa6cb73535164c4b net/mlx5: Fix devlink reload LOCKDEP warning
-5f9767f81a08f5500f05d342c1bbf02ba78e63b0 net/mlx5: CT: Add support for mirroring
-3e8f9752ca8a3e04f1db27c8d897fa210f25fa6d net/mlx5: E-Switch, let user to enable disable metadata
-f7e29f2d7ced3d352d19e04db1b440c3c28d1ca2 net/mlx5e: CT, Avoid false lock depenency warning
-6e936a1d9a888e15e0d92f02673c456c5f0f25e5 net/mlx5: Display the command index in command mailbox dump
-05ded3a237f2e31a3cd439c0fe7bee2ffccfac65 net/mlx5e: Allow to match on ICMP parameters
-e875e547bb70875a5e00f346ba8da49709362ef5 net/mlx5: Don't allow health work when device is probing
-e42228783a4cec8b95e7153be3b31edad76a9c47 Revert "net/mlx5: Fix fatal error handling during device load"
-0b10edc4cf427c50d451b69e155a181e469ca107 net/mlx5: SF: Fix memory leak of work item
-d3934fff233908c13b057dcd748440805487f766 net/mlx5: SF: Fix error flow of SFs allocation flow
-1f8b14b819e98ad3bf3bd8dd822019c61cdb1e6f net/mlx5e: rep: Improve reg_cX conditions
-e308ecf70f430af0b0086f64b0796b3e740586e4 net/mlx5e: Enforce minimum value check for ICOSQ size
-6ae0b5e8a32960145d473d4dc9575cb16eebd06c net/mlx5: DR, Fix potential shift wrapping of 32-bit value in STEv1 getter
-5bc4132793f329e4a7e456f9ea0c4756f2ee0d9f net/mlx5: DR, Fixed typo in STE v0
-a5ec16f6c1904f0ea563965e0844c1849de5f8fd net/mlx5: DR, Remove unneeded rx_decap_l3 function for STEv1
-3ec80027595370046c0b433ad78f20e4bd4b4cd8 net/mlx5: DR, Add missing vhca_id consume from STEv1
-257b7a1f30b77a5002070278fa867c28ae956a49 net/mlx5e: Use net_prefetchw instead of prefetchw in MPWQE TX datapath
-44c601c9d50a0e37a7d3464e7dc811ac5d607836 net/mlx5: Read congestion counters from all ports when lag is active
-90d8b8a222fe8b477e8159f9f64f1fb39b547824 net/mlx5: Avoid unnecessary operation
 97970745bf071217aab649a27e5cb7e185982a3b net/mlx5e: Revert parameters on errors when changing PTP state without reset
 5679a1bd7afea1eee572003841a7bcd50fcf138b net/mlx5e: Don't match on Geneve options in case option masks are all zero
 7ef097b0a91478d618bfa08ab5a4141e277eade5 Merge branch 'patchq/375314' into mlx5-for-net
-c5afe26ed9728827496224e8216c7404c0beb0ef net/mlx5e: mlx5_tc_ct_init does not fail
-e15b50c645c032a73c21fc9a763feedfb7439cf1 net/mlx5: Use order-0 allocations for EQs
-a422012d9b079b895eda5a6827ff0e62e93788c5 Merge branch 'patchq/159334' into mlx5-queue
-e2bba7d6c66583fe0416db3a88c083a4b73210ff Merge branch 'mlx4-queue' into net-next
-bde12da10828d8045b3a2bdc14c09c7d0b5b2d3b Merge branch 'mlx5-vdpa' into net-next
-9fd5de752ba5c237b1f7f7971fa54a639cfed826 Merge branch 'mlx5-queue' into net-next
-5b322d6c8ec7f49eab4acb3bb04f67c3d0de2de9 Merge branch 'mlx4-for-net' into net-next
-4f61f90b1c73fd9ae8cc0034a99fc5c08c9842e4 Merge branch 'mlx5-for-net' into net-next
-3d5d0fe3a9cfd710823cc7af4802e50328b6353f Merge branch 'net-next' into queue-next
-18122351caa1f016595f0f4d0404decd50fcccf0 Merge branch 'testing/rdma-next' into queue-next
+02111c2c85cb946569c64181bd53aa7c9da088af Merge branch 'mlx4-for-net' into net-rc
+ff18533190ffed400309be99918b429cc0f4f9e5 Merge branch 'mlx5-for-net' into net-rc
 
---===============0722110723478273532==--
+--===============1617925031541939583==--
