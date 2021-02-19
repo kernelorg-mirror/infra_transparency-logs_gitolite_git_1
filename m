@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/davem/sparc
-Date: Fri, 19 Feb 2021 00:15:22 -0000
-Message-Id: <161369372261.21585.5820917253677577056@gitolite.kernel.org>
+Date: Fri, 19 Feb 2021 00:16:27 -0000
+Message-Id: <161369378705.21920.10876759896371165107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/davem/sparc
 user: davem
 changes:
   - ref: refs/heads/master
-    old: bda166930c37604ffa93f2425426af6921ec575a
-    new: c599a7821be7952033727a30e93bd2d053073c78
+    old: c599a7821be7952033727a30e93bd2d053073c78
+    new: 520615e1f5b2e617845238c650b58b43592fa923
     log: |
-         c599a7821be7952033727a30e93bd2d053073c78 sparc32: Preserve clone syscall flags argument for restarts due to signals
+         520615e1f5b2e617845238c650b58b43592fa923 sparc64: switch defconfig from the legacy ide driver to libata
          
