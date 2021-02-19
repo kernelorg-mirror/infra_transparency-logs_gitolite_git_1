@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3356576629964070820=="
+Content-Type: multipart/mixed; boundary="===============0707364076582987910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 19 Feb 2021 20:48:36 -0000
-Message-Id: <161376771607.16341.1519684749910361453@gitolite.kernel.org>
+Date: Fri, 19 Feb 2021 20:48:45 -0000
+Message-Id: <161376772503.16484.11776080746785868271@gitolite.kernel.org>
 
---===============3356576629964070820==
+--===============0707364076582987910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/urgent
-    old: 1d489151e9f9d1647110277ff77282fe4d96d09b
-    new: 9f5067b7e2a2cedc0a7daaaba0f65c2a230f6663
-    log: revlist-1d489151e9f9-9f5067b7e2a2.txt
+  - ref: refs/heads/objtool/core
+    old: aafeb14e9da29e323b0605f8f1bae0d45d5f3acf
+    new: f5c8e920115f356fac9015dcca7f13dc0b86bcd3
+    log: revlist-aafeb14e9da2-f5c8e920115f.txt
 
---===============3356576629964070820==
+--===============0707364076582987910==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1d489151e9f9-9f5067b7e2a2.txt
+Content-Disposition: attachment; filename=revlist-aafeb14e9da2-f5c8e920115f.txt
 
-23dd561ad9eae02b4d51bb502fe4e1a0666e9567 ext4: use IS_ERR instead of IS_ERR_OR_NULL and set inode null when IS_ERR
-31e203e09f036f48e7c567c2d32df0196bbd303f ext4: fix wrong list_splice in ext4_fc_cleanup
-6b4b8e6b4ad8553660421d6360678b3811d5deb9 ext4: fix bug for rename with RENAME_WHITEOUT
-e9f53353e166a67dfe4f8295100f8ac39d6cf10b ext4: remove expensive flush on fast commit
-61e960b07b637f0295308ad91268501d744c21b5 cgroup-v1: add disabled controller check in cgroup1_parse_param()
-be82fddca81eefd1edbd9b290dfcb2177e24785b libperf tests: Avoid uninitialized variable warning
-bba2ea17ef553aea0df80cb64399fe2f70f225dd libperf tests: If a test fails return non-zero
-66dd86b2a2bee129c70f7ff054d3a6a2e5f8eb20 libperf tests: Fail when failing to get a tracepoint id
-3ff1e7180abc7f6db413933c110df69157216715 perf stat: Introduce struct runtime_stat_data
-a1bf23052bdfe30ec3c693cf32feb2d79114ac16 perf stat: Take cgroups into account for shadow stats
-5501e9229a80d95a1ea68609f44c447a75d23ed5 perf intel-pt: Fix 'CPU too large' error
 648b054a4647cd62e13ba79f398b8b97a7c82b19 perf inject: Correct event attribute sizes
 00e01f325de1eb5ccb3ead7c0a195187a7a53d7e MAINTAINERS: Remove stale URLs for cpuset
 b5e56576e16236de3c035ca86cd3ef16591722fb MAINTAINERS: Update my email address
@@ -284,6 +273,8 @@ fc705fecf3a0c9128933cc6db59159c050aaca33 perf evlist: Fix id index for heterogen
 3d6e79ee9e8f8c6604312382c2be1d1bd1cffc9e perf metricgroup: Fix system PMU metrics
 8adc0a06d68a2e433b960377e515e7a6b19b429f perf script: Fix overrun issue for dynamically-allocated PMU type number
 51839e29cb5954470ea4db7236ef8c3d77a6e0bb scripts: switch explicitly to Python 3
+655cf86548a3938538642a6df27dd359e13c86bd objtool: Don't fail the kernel build on fatal errors
+1d489151e9f9d1647110277ff77282fe4d96d09b objtool: Don't fail on missing symbol table
 6e1239c13953f3c2a76e70031f74ddca9ae57cd3 x86/cpu: Add another Alder Lake CPU to the Intel family
 f722f5bea1caf6681722aedfd544a17e58e41324 Merge tag 'drm-misc-fixes-2021-01-20' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 5f9986a6cdf2eb40ca3eb514357eb29f9c39be29 Merge tag 'drm-intel-fixes-2021-01-21' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
@@ -1050,5 +1041,14 @@ ab30c7f9c3ca2599f5ab3e4d29ae56453c8668e5 Merge tag 'kbuild-fixes-v5.11-3' of git
 28a17338738839494752c5da3e12c889a55219db Merge branch 'for-rc8-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 f40ddce88593482919761f74910f42f4b84c004b Linux 5.11
 9f5067b7e2a2cedc0a7daaaba0f65c2a230f6663 objtool: Fix stack-swizzle for FRAME_POINTER=y
+d0574b6883aee60e33e9e28a5724c0b630e6443e Merge branch 'objtool/urgent'
+66e234cfae202a244200f2dcb497dea025f9c5f9 objtool: Allow UNWIND_HINT to suppress dodgy stack modifications
+bd5724fe287427001b42407f674157d20bb75886 objtool,x86: Renumber CFI_reg
+0e108cce7521e9b540d558ea73ff6dcba627d39e objtool,x86: Rewrite LEA decode
+0b58492182974fa1987d88ded6258e9f5399eea0 objtool,x86: Rewrite LEAVE
+9f49177328448f165c76ba9d63d927aa5c0c18a5 objtool,x86: Simplify register decode
+155356b9d0d6735ee37d8c76bfba9deff1c962e2 objtool,x86: Support %riz encodings
+300db33f07e6b73439b7c541b794d81841d93d64 objtool,x86: Rewrite ADD/SUB/AND
+f5c8e920115f356fac9015dcca7f13dc0b86bcd3 objtool,x86: More ModRM sugar
 
---===============3356576629964070820==--
+--===============0707364076582987910==--
