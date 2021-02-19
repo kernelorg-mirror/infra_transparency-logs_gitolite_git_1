@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/davem/sparc
-Date: Fri, 19 Feb 2021 00:37:53 -0000
-Message-Id: <161369507323.1308.17472744818508650303@gitolite.kernel.org>
+Date: Fri, 19 Feb 2021 00:40:37 -0000
+Message-Id: <161369523767.4842.13914912348484077236@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/davem/sparc
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 76962e03934e1a77795852c1d64bd8491a00fb52
-    new: 147d8622f2a26ef34beacc60e1ed8b66c2fa457f
+    old: 147d8622f2a26ef34beacc60e1ed8b66c2fa457f
+    new: 356184fb6d67770d7788f316226be810a430937b
     log: |
-         147d8622f2a26ef34beacc60e1ed8b66c2fa457f sparc64: Use arch_validate_flags() to validate ADI flag
+         356184fb6d67770d7788f316226be810a430937b sparc: make xchg() into a statement expression
          
