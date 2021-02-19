@@ -1,43 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============7886929977722781744=="
+Content-Type: multipart/mixed; boundary="===============5076499428133083421=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 19 Feb 2021 17:50:03 -0000
-Message-Id: <161375700385.29829.4334110747877267033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Fri, 19 Feb 2021 17:53:16 -0000
+Message-Id: <161375719610.31074.10897621164400798511@gitolite.kernel.org>
 
---===============7886929977722781744==
+--===============5076499428133083421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/io_uring-worker.v2
-    old: 9fb18a690eaf773cfa51b10bf0ab473ff538d469
-    new: 0ed35371334de739d8a3293408be41f97a8f93bf
-    log: revlist-9fb18a690eaf-0ed35371334d.txt
+  - ref: refs/heads/objtool-crypto
+    old: 041b75aba3dde08c338c3b138007a0be16e1e8be
+    new: 091d82f5aab763584dd050f4f99afb15bb9c4eda
+    log: revlist-041b75aba3dd-091d82f5aab7.txt
 
---===============7886929977722781744==
+--===============5076499428133083421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9fb18a690eaf-0ed35371334d.txt
+Content-Disposition: attachment; filename=revlist-041b75aba3dd-091d82f5aab7.txt
 
-c2365e2e3b8f2af9e948180c7fe0915bc492d793 io-wq: don't pass 'wqe' needlessly around
-3f1be39a8eebed35fabd06f1268be9de2a334b16 arch: setup PF_IO_WORKER threads like PF_KTHREAD
-6d08ba11febc4bb56ba5af16fec006f3ca8349c6 kernel: treat PF_IO_WORKER like PF_KTHREAD for ptrace/signals
-6ca22ba592d9350387a05de2ba3b85d2d4f2c3c7 io-wq: fork worker threads from original task
-7721dd953991ec67ebe46ca37ae5bc603467bead io-wq: worker idling always returns false
-a8b340b6c7131e7f31d56810ada056522b356f72 io_uring: remove any grabbing of context
-eabb9e5b8b81d4e842be6a60f9e3822eb342d712 io_uring: remove io_identity
-5003a71a80a49d70066a0df10e30314617500464 io-wq: only remove worker from free_list, if it was there
-488c0e03b9532b0525e2fba388d72c5cc694cfa9 io-wq: make io_wq_fork_thread() available to other users
-4078bf62a24853d73f383c5fc15a1c4e968300d5 io_uring: move SQPOLL thread io-wq forked worker
-6ce09eef2e308644dd0485baca4f7cc3327de683 Revert "proc: don't allow async path resolution of /proc/thread-self components"
-fa2ab30fbca8fcb2802d50827bd1eed5d5654c40 Revert "proc: don't allow async path resolution of /proc/self components"
-0ed35371334de739d8a3293408be41f97a8f93bf net: remove cmsg restriction from io_uring based send/recvmsg calls
+e0c5301526d47e20aedbd4ac790f2607dcea1bdb objtool: Support asm jump tables
+d42db3e1614c000a5a271833e094672d14d84f53 x86/crypto/aesni-intel_avx: Remove unused macros
+d2194909a981ea925ddc986cc470767226f50afd x86/crypto/aesni-intel_avx: Fix register usage comments
+51e228e23ffacc9449f9edc3c323ee62e03098bd x86/crypto/aesni-intel_avx: Standardize stack alignment prologue
+a193a4dc4fab298a63ee028a85af5a33764a3b5a x86/crypto/camellia-aesni-avx2: Unconditionally allocate stack buffer
+579ab178c907a487811d9731019751646b98396f x86/crypto/crc32c-pcl-intel: Standardize jump table
+d7dabbd340c2bd085669c1b42dc64d807fbceffd x86/crypto/sha_ni: Standardize stack alignment prologue
+108f7cf719862975ed326c4dc2c038a58b91136d x86/crypto/sha1_avx2: Standardize stack alignment prologue
+9206a8d7c24facacbcadc0c1c2a56d47092db9db x86/crypto/sha256-avx2: Standardize stack alignment prologue
+a5b06a7215859bbecef42a1ae70c9058d4f9864b x86/crypto/sha512-avx: Standardize stack alignment prologue
+eb35fd9705feee9be09699d67ed4183bf74722e1 x86/crypto/sha512-avx2: Standardize stack alignment prologue
+95312328156d9c2fbe3e6be5cfb489e140684830 x86/crypto/sha512-ssse3: Standardize stack alignment prologue
+091d82f5aab763584dd050f4f99afb15bb9c4eda x86/crypto: Enable objtool in crypto code
 
---===============7886929977722781744==--
+--===============5076499428133083421==--
