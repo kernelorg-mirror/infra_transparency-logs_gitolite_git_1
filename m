@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 19 Feb 2021 16:50:04 -0000
-Message-Id: <161375340432.27107.17891888563548541963@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
+Date: Fri, 19 Feb 2021 16:53:51 -0000
+Message-Id: <161375363153.28423.12643662647933885987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/utils/rt-tests/rt-tests
+user: jkacur
 changes:
-  - ref: refs/heads/for-5.12/io_uring
-    old: c37375b314a577b3385551b646aed90faa958186
-    new: b1c892df32ebf6f30c995e23dcafeae2392ad1bc
+  - ref: refs/heads/unstable/devel/latest
+    old: 7593a72e010c7951bbe605ecae276c081d64a26a
+    new: 29884cff6352856fee9fffecb4a715efd70e08f5
     log: |
-         a4f2225d1cb2b198c79b51e811bf7cea27e16a8d io_uring: don't hold uring_lock when calling io_run_task_work*
-         b1c892df32ebf6f30c995e23dcafeae2392ad1bc io_uring: make the !CONFIG_NET helpers a bit more robust
-         
-  - ref: refs/heads/for-next
-    old: 171a447a33bfb1e4b07a14285f3ac1f256f87374
-    new: c99a1efb0599ff8e7994866610d99ca8fe4d8626
-    log: |
-         a4f2225d1cb2b198c79b51e811bf7cea27e16a8d io_uring: don't hold uring_lock when calling io_run_task_work*
-         b1c892df32ebf6f30c995e23dcafeae2392ad1bc io_uring: make the !CONFIG_NET helpers a bit more robust
-         c99a1efb0599ff8e7994866610d99ca8fe4d8626 Merge branch 'for-5.12/io_uring' into for-next
+         bdb20cdaa8d58c1b935a215a64cf947944c6e836 signaltest: Add JSON output feature
+         80299f19cb756ffb11fdf4e9de9075955a2e1f4f sigwaittest: Add JSON output feature
+         29884cff6352856fee9fffecb4a715efd70e08f5 oslat: Fix --cpu-list won't allow to schedule on all possible cores
          
