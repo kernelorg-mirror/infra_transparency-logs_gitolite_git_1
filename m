@@ -1,57 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============3234713549275329519=="
+Content-Type: multipart/mixed; boundary="===============3168707664062056112=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 19 Feb 2021 07:57:09 -0000
-Message-Id: <161372142921.12892.15917382683964112154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 19 Feb 2021 07:59:14 -0000
+Message-Id: <161372155460.13604.14798627530323207910@gitolite.kernel.org>
 
---===============3234713549275329519==
+--===============3168707664062056112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 56348560d495d2501e87db559a61de717cd3ab02
-    new: 3e4c982f1ce75faf5314477b8da296d2d00919df
+  - ref: refs/heads/staging-testing
+    old: 4eb839aef182fccf8995ee439fc2b48d43e45918
+    new: 4d1506103fe2c6dd7e404ffa0e9351632d6f193a
     log: |
-         bd6d617aac21502f3042bd472238fbe3f9b77083 of: property: fw_devlink: Ignore interrupts property for some configs
-         3e4c982f1ce75faf5314477b8da296d2d00919df Revert "driver core: Set fw_devlink=on by default"
+         450ef6662ddf3448d936f6f2220ae2589dce6fe1 staging: rtl8723bs: remove DBG_COUNTER calls from os_dep/recv_linux.c
+         6f40fa9aa017902863ea445ed97d54d8663dbcdf staging: rtl8723bs: remove DBG_COUNTER calls from os_dep/xmit_linux.c
+         c7d412bab6eb9814227f4388e83007fd0b5a1fe6 staging: rtl8723bs: remove DBG_COUNTER calls from core/rtw_xmit.c
+         5f68bec7d3e4d7b26bedfacb9517810dbef55b0e staging: rtl8723bs: remove DBG_COUNTER calls from core/rtw_recv.c
+         1836c5095923976693eeee8a1313a8152ebe5d76 staging: rtl8723bs: remove DBG_COUNTER definition from rtw_debug.h
+         95a995bf2862ce6f990d230b9cb56d809c42ea63 staging: rtl8723bs: remove rx_logs/tx_logs/int_logs from drv_types.h
+         4d1506103fe2c6dd7e404ffa0e9351632d6f193a Staging: mt7621-pci: fixed a blank line coding style issue
          
 
---===============3234713549275329519==
+--===============3168707664062056112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613721420 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1613721419-13b4eaf1a55d0bd17a9d8639073c1c8e61c66fbb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613721544 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1613721543-82d8f9f079d10c00830d2483fdfce7431ca89735
 
-56348560d495d2501e87db559a61de717cd3ab02 3e4c982f1ce75faf5314477b8da296d2d00919df refs/heads/driver-core-next
+4eb839aef182fccf8995ee439fc2b48d43e45918 4d1506103fe2c6dd7e404ffa0e9351632d6f193a refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAvb0wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kLwP/jFLQ49lZV3ljPqQoMkJ
-PVFsuHqHXIfWwfaISh4ka+fQpifhSMKu/WHB9EvA8VW+R7ke7bMQwdKAH0Q1bF4j
-uqSEQk9sYQIu6pvtXHaAEDw9baUOHlCvHCMVHTJGPTQ/wbQPVbZULkd2wiMMOs+0
-6XHRkDiV+XeAs6REJ9lDIQwhfBTnpEgOBE3Y9iwaqxV8fPufYDq5w2P6W+tL4Qf5
-t2bDLR8ynfo6Pgxq251BxAMDLqvhKjKoL/AdqAWzyYN35MkYOzwBPC8tElIX08x4
-cqNESE/v2JMMBfhmcNKMm7oIhHsxeJMLhAJR9Rn+GpT9KeDH2dyWj2XasOM31adC
-3WMYE6ijXyFZ+Dpdy5TxRTOOIz9Yppm2EbIbM9JHStm8CT/r2YxRFZTEIUFgo9jt
-L/iFm8682Ddi1SxPtOK/N6xIvIHQ1u3+5GSguczAGuEmU3pCImrMhgqqrYh4Pf+f
-Ci6TYH/suwVV9ixrNVfwWzY89t6GHhJ07D5v0KwlqNyd1orFdYm86vfoN1WabBsJ
-sRNbWBgfDl3TVMWqd+kNqslOSALaVmQ3/D2ubRWgqZI4iDBR5uHbCx2/trLbQgic
-6EYT064I+95WGZFkNKyxsf/RsmDLny56BilACh2Ga2yrWbm3Q9EPzOsjgsPEE00W
-VW2KCcYKnYq8GTzPqm6c7i6O
-=2kyW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAvb8gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WBYQAM36nUH/s9T5BqctMAyE
+JeZb7Oufbxwn962AzTFq3KIkDo12qsxK+G58H+9nXLdVGgh+vyotksS9WleMVjbR
+C6AbhW+E7sOewdEXkUFpb5yR1wgtg9cHyNyPaDr72/mJ1//r4rJsABHO63pP99gF
+vW9NOSSbSz4cX2WuJ5dj0lgH02ZfHFPn2j1wwoKNda+1/RSi0Y8AAGOha4ujO6J+
+OpeCkL1ixM+kYH3vWV5eJjGMAastAwr91LbT+cQZfmGBDwB5WOhzmwU4aJbMxUek
+NvAN3ZPDh/0Ngxib3E+EgLfMZ5yo+PXiXdSHJoSH8C0Kpdjm6stSeMGI/WmbR3Ia
+MET4L6kE+dRhNITBRZm3FmKsZVm19Ne8qbIVR00dJf4WEccfvOy0riYpnHPVK4uC
+q/V3JBbLCXsOW369Z1v86vwriW8CPTspCR8hKo2K5NvmDB7Ib+YLinAxKUqRGeAK
+1xZv1fvxevNtklLUyMkNGnVsY3L9N6w3QGkKbMEYnvvQRju8RhwU3+ZJHgZrR8I0
+2MykeYUvMzwTdv8tv+E1y5qf46zYIV3g3aBrIWXIr6H+98jZO4QfzWhztUuSk1al
+CI2VfYuCBhOKoOKCVuNwCXZKgpZDMf9Os66+zUerKcNwQlv6SePRMGNT27AopKCW
+Fp9LRY+ggQ6mT+LCgTHKOaSc
+=M/Sm
 -----END PGP SIGNATURE-----
 
---===============3234713549275329519==--
+--===============3168707664062056112==--
