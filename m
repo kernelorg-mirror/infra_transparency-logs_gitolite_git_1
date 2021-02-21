@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1821924602310523959=="
+Content-Type: multipart/mixed; boundary="===============8718866924621077738=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 21 Feb 2021 23:22:19 -0000
-Message-Id: <161394973960.13619.4071710296500164982@gitolite.kernel.org>
+Date: Sun, 21 Feb 2021 23:22:33 -0000
+Message-Id: <161394975363.13762.1433433078680123600@gitolite.kernel.org>
 
---===============1821924602310523959==
+--===============8718866924621077738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 835a63af22b06b3dd6f0a09061c5ea8b8b26cf65
     new: 2f9dbf67b29af294856db3d9d8c490e892d8635a
     log: revlist-835a63af22b0-2f9dbf67b29a.txt
 
---===============1821924602310523959==
+--===============8718866924621077738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ cfe93fcafd1949b20329c825b279243a9210f8f8 kconfig: unify rule of config, menuconf
 ee38bf52412c8108ff5c68fa550dd6fc625e25d8 kbuild: parse C= and M= before changing the working directory
 2f9dbf67b29af294856db3d9d8c490e892d8635a kbuild: remove deprecated 'always' and 'hostprogs-y/m'
 
---===============1821924602310523959==--
+--===============8718866924621077738==--
