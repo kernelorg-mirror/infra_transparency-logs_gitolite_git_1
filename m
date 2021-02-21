@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8495551418688715445=="
+Content-Type: multipart/mixed; boundary="===============4374480297390077488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 21 Feb 2021 08:29:44 -0000
-Message-Id: <161389618448.14394.5535025469152097297@gitolite.kernel.org>
+Date: Sun, 21 Feb 2021 08:30:16 -0000
+Message-Id: <161389621630.16000.15241727170252863564@gitolite.kernel.org>
 
---===============8495551418688715445==
+--===============4374480297390077488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: b5a12546e779d4f5586f58e60e0ef5070a833a64
     new: 55f62bc873477dae2c45bbbc30b86cf3e0982f3b
     log: revlist-b5a12546e779-55f62bc87347.txt
 
---===============8495551418688715445==
+--===============4374480297390077488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613896170 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613896202 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1613896169-5a158b156b4e05ca5b06809c4664752529433105
+nonce 1613896201-7e0e78c5c8382f33499c7ab79dc18294cf277f8c
 
-b5a12546e779d4f5586f58e60e0ef5070a833a64 55f62bc873477dae2c45bbbc30b86cf3e0982f3b refs/heads/usb-next
+b5a12546e779d4f5586f58e60e0ef5070a833a64 55f62bc873477dae2c45bbbc30b86cf3e0982f3b refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAyGeobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ElUQAKRyd6quZushRjt8YR5H
-vXzGRIQUuj7syvchMsU7UwL+nxYNwekygwIH7u1lugFkQSsnw7qJ8bSsTsOaJcTA
-HfxmBg1q6pU3lNvHkevwD7Wi7RtJRJHYzgOtKfDYFbsRwTd+hKtRI091FzdWKIav
-F0Y5XNYBXN8qJKtv1Pd8GW+W0mUGWioCA7QCJtuoAMIhgtosQgJNKiRYvdUy4eYS
-vomEgfVKGG2ybsmiSMw5hZ4PtrQYimliWmK8rAEldkEkGiCVb5HgxOiizNGDRqe7
-OsqfamYLBjTcohOyDRkkmrfksuEhYl/RpZRAXr6uEt7kZt/0N03ew5Y+WFsmzhP6
-D0uhCi6sKWmkwoh6YULLGlAPlwAeV/PLvmqhWobUGUvC877c06vnu2R2FG6dp9cW
-i7N/GrfMXfb3kiQYCd3Upq+woFKpLmsn95vc75gCrvbQfDt0/fISUF4g+5vNwfWP
-wZGUMLQAzjTrLds9NldkD/wgyRpZl/T8COreruYZuQMMCo81W+GPeuMmLP4HEGVk
-HX/oamj4lh3LmF8DKap4VNTYU9yaD9xDScOAzOQGYHJszVOfzS8XBo2RyzPnyue+
-BNVI+UmCdGVqMBAKH3IUybpQRQS9+bMpH1+ePoccd7bMuv9lyMBVah4x7FQA96hB
-fBcCW/9SYDCH93/7H05u8kVV
-=F4gz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAyGgobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gocP/j9ieIwEPa3RfZTiuuy9
+lvePg/WNZP8gF87LLAtjWi0oiaU+e6X7j9380674enAQzsqMQvBURzbdg5ptjTcB
+MXTQqdZe9sqsC38kCfZbwUGrA38/2MHbmRVE2FErUe1ZWKTZ/GVEhbROsgoLo5ra
+mLd8vLiSrDsOwxBbA46Vc+Ol3ujTJQIg3KUGfM7pNMJYXaKAtdRWvpVNigj540Fb
+K6JvCpE3gWHcZlIaLn7VLB1+rzxysub8VdG+/dPZej9Qbtkln55DlgFoXXllJ9fa
+nIZjXGc0yYuT4gUDBOCXgpn+31JqSe6AkJGpv0S6TJUOT26cJfJzn/5PJ1HAl+qq
+lginbPv8BIdImD324SrTZmgSldvRrq2OHSh2BuB5mRPnH1twzzlCA7kttTh/sM0W
+CrlwEUF2HCZ2x9pONl+WXFWoLCYpf2+dtdM0PekRJlbpNyFaEvp1HsuaSk4cJHky
+G9o2oXtl7aJeg1L/Dx4R63D6MCZ37jimVey9KnzM4gLGXXEoHcztK6iNxRbCyUuK
+czC2+DxXvaNZ/TTTLxmQlsyUbDXFm4wi9+bHo5GJ1kAUqt6C1c2sd2eU/SybnrxO
++B/DwUxViWz8yH2J2ZCd9fRPOAzxH7eX7PbTwaGFtmv31cZP2nFa6tlEB1MJlW50
+lj24EdmO5q4PhEorJaAe05Yo
+=uuoc
 -----END PGP SIGNATURE-----
 
---===============8495551418688715445==
+--===============4374480297390077488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ e4286926abbbaab9b047c8bc25cae78ec990928f Merge tag 'tty-5.12-rc1' of git://git.k
 3c8f504b3a486e4e984ac8dc619eba3afa24cec4 Merge tag 'acpi-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 55f62bc873477dae2c45bbbc30b86cf3e0982f3b Merge tag 'pnp-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============8495551418688715445==--
+--===============4374480297390077488==--
