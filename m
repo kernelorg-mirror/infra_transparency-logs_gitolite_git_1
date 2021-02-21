@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 21 Feb 2021 21:29:09 -0000
-Message-Id: <161394294950.10388.5697160122515615715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 21 Feb 2021 21:29:47 -0000
+Message-Id: <161394298745.10695.1910031614473757900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
-  - ref: refs/tags/net-5.10-rc7
-    old: 0000000000000000000000000000000000000000
-    new: e6a9e3fe2a8fa7b7a3b6259a5883d32a92f59278
-  - ref: refs/tags/net-next-5.11
-    old: 0000000000000000000000000000000000000000
-    new: d036668bb92786751142520b6e2f50f9256ef9c9
-  - ref: refs/tags/v5.11
-    old: 0000000000000000000000000000000000000000
-    new: 2d073d933799ffaa046c773bfffa01f3aa461701
+  - ref: refs/heads/master
+    old: d310ec03a34e92a77302edb804f7d68ee4f01ba0
+    new: 3a2eb515d1367c0f667b76089a6e727279c688b8
+    log: |
+         3a2eb515d1367c0f667b76089a6e727279c688b8 octeontx2-af: Fix an off by one in rvu_dbg_qsize_write()
+         
