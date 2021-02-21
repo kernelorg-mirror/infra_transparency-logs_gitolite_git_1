@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0754969994433722917=="
+Content-Type: multipart/mixed; boundary="===============2974604020034852791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 21 Feb 2021 08:37:08 -0000
-Message-Id: <161389662842.19996.9615060116765762867@gitolite.kernel.org>
+Date: Sun, 21 Feb 2021 08:37:41 -0000
+Message-Id: <161389666138.20224.15637528970286545737@gitolite.kernel.org>
 
---===============0754969994433722917==
+--===============2974604020034852791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,84 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04
+  - ref: refs/heads/staging-next
+    old: 4eb839aef182fccf8995ee439fc2b48d43e45918
     new: 55f62bc873477dae2c45bbbc30b86cf3e0982f3b
-    log: revlist-6ee1d745b7c9-55f62bc87347.txt
+    log: revlist-4eb839aef182-55f62bc87347.txt
 
---===============0754969994433722917==
+--===============2974604020034852791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613896613 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613896647 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1613896613-1ca3d09b577f1f3a3443a2044f0ee99b17699621
+nonce 1613896645-bc6a50fb6dfe51b3fe81fd342d5367f1aaf268bb
 
-6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 55f62bc873477dae2c45bbbc30b86cf3e0982f3b refs/heads/staging-linus
+4eb839aef182fccf8995ee439fc2b48d43e45918 55f62bc873477dae2c45bbbc30b86cf3e0982f3b refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAyG6UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ta4P+gI1wFdT3LcV5jrH4XPK
-+ThlWO4ZDsBswWvh6zIqRHtYr1Q5qOHbvlQEoxh0DLxkwpP+K/st93RZQ2mOh6mS
-BzZkOoZgyyA6uRtvlK9kfl2aMP56OC/x6kmPYDue1k5D7dR1b93rSg/y0phgNc2J
-8JfM+5Mdm87PHKU8sh4ypn4goTlcEi/rj2OIJp7cBjMnlZkITnLRiUzFaRDXze4B
-lZ5r3qEf9+eguf10W1eBSYHUwrOGh8gtldzDAXw1+f/zOQUZR3YY42W0jNhVZ9Zw
-WhzBs5QmiKs1yk4gKMK01cvt8aoCfrYBwuRjg/DcW5K9LS67yMYCOBQqkulitt0v
-Vl2qhKPPYEMMe/buX8bmNDG0VNF8Q2NZc1Xr1QyYI3qaZqG14Z4rBukpn+EYwdYh
-nrF31BPLDne4IRmrsgCuGZpKyrXaxqF4f4fh0DY4IULg8hzt4Uca92jzkfOjSOD6
-XF047o/sBw6RV8GR1TbtkFVSGnAcfjNaHY1I8owzLTK6LYFgKhMYG/QUtDABijHL
-dVLV3sADeRd1wK5GG3gRzGtLoRyNHnIvMkxhxMSdMM+Oh3QZJ9RZ8LBMMcy0GBUp
-xW/8N7Rs3KvmQB/Qy/j2cq+XWdFtiaNGtvMcETQJMTNRtIJFe6kviM1/P2Q12J8U
-OiifY+OPdMQv0uKsgZvlMgdv
-=DBZX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAyG8cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wjsQAKQtqQ44QdN1118wYpDu
+5ign29v9mmCJF2DS0nPI6xYpgOGZYSefONuWwfTlj8syVFF2FHTgaXsKTBfsZxY1
+eRF+PgPNDVuVzAzka0uYpwJcuaHlYvuvBDeJpWyesC5MSFclD/LJ4E3nXDluc2t3
+L5fZPI92I4hgn2cH360qBKuNkkn6q1P2rKv46+JwTPDcfEMjxIdJzISyFRSMbwPn
+MRaGvICl1PbRK/gO1wP0AxpPxw3EkPOpdoJvWaBV821YnQTlG3fzo4a6KlPLIUOU
+SpIqBLj5qnL/sJrmzZTlw3hAboTwTpHmrUoP8rdiuE10SdMkl1I/HBh4zQpYNGE5
+PE0ak3sa+zK85dYzNqHX+3lAkvXjV6ddOIcUYA4gvOKSDTp1btfjFN1HAsDl2FBq
+OxB9PPicVdyp8qpqTz+6k6wRBpr+64Ir+5DzzFQV58fFxcZ0DPPDmw77IdeYvpwx
+02I1LYG+yZ0EaS6Xoo6jATgoj0kHdrxuV7JwFYTYnHZuZPy/nHv+9wAOxWBkGQPu
+rRr6sJJ8TnG55uQJy2kSbnb1O1/8s05aGOSQh3qSxNY3urxpGwyl7oaO7y5Xwigk
+tfWYjD4e5of9UZjb8PY/1T4eTaH5pIxFmq4hjO68/RfUiakB43OCSsxLx5WmwTkd
+TgHgRTcZgAN2JQovO8/cj7Eb
+=VdJL
 -----END PGP SIGNATURE-----
 
---===============0754969994433722917==
+--===============2974604020034852791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ee1d745b7c9-55f62bc87347.txt
+Content-Disposition: attachment; filename=revlist-4eb839aef182-55f62bc87347.txt
 
+1ee18ded86ece87227a76d7101034fd305b8c803 usb: cdnsp: Removes some useless trace events
+cfa55c6d47b1e75ccc4b950616e881f3fd07712e batman-adv: Drop publication years from copyright info
+576fb6713bc46cf3fd01f05d3ef062a6c79556c8 batman-adv: Avoid sizeof on flexible structure
+25d81f9307ffc166427d93152498f45178f5936a batman-adv: Fix names for kernel-doc blocks
+8c511eff1827239f24ded212b1bcda7ca5b16203 powerpc/kuap: Allow kernel thread to access userspace after kthread_use_mm
+816ef8d7a2c4182e19bc06ab65751cb9e3951e94 x86/efi: Remove EFI PGD build time checks
+7f9942c61fa60eda7cc8e42f04bd25b7d175876e ARM: s3c: fix fiq for clang IAS
+848477782bfa2b6aec738045246abd6cd104006c MAINTAINERS: Add Dave Hansen as reviewer for INTEL SGX
+de4d9ea789530ac0ce3409878422e9389c3a7cd3 dt-binding: usb: Include USB SSP rates in GenXxY
+52c2d15703c3a900d5f78cd599b823db40d5100b usb: common: Parse for USB SSP genXxY
+678481467d2e1460a49e626d8e9ba0c7e9742f53 usb: dwc3: core: Check maximum_speed SSP genXxY
+072cab8a0fe276282272e57138d83299e35455eb usb: dwc3: gadget: Implement setting of SSP rate
+f551037c0770d07e4669d7d4fa423c235291dc59 usb: dwc3: gadget: Track connected SSP rate and lane count
+450b9e9fabd80d7d5fd29e6f915b696a15acd2bd usb: dwc3: gadget: Set speed only up to the max supported
+8cf9045b91382df9fb1eb420daa4d1c2697d2f44 usb: dwc3: gadget: Remove check for bounded driver
+2da4b24b1dfbf06c7dc7fd45de258e007e1c5ef5 Merge tag 'wireless-drivers-2021-02-05' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
+c90597bdebb5ff8d410edd8c556a6b5195503ca5 Merge tag 'wireless-drivers-next-2021-02-05' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+ef66a1eace968ff22a35f45e6e8ec36b668b6116 ibmvnic: Clear failover_pending if unable to schedule
+b91b3a211542bcd69532a8004452d83f499d23cd dpaa2-eth: Simplify the calculation of variables
+a8225efdf31e9498c5696554e5731da893c93f61 net: ethernet: ti: fix netdevice stats for XDP
+1697291dae7cc582d8f737d788991c01b27de90d net: bridge: mcast: Use ERR_CAST instead of ERR_PTR(PTR_ERR())
+247b557ee52a8f404d79d365ac6b2c94d7332381 dccp: Return the correct errno code
+a64566a22b6a943105b01f47e8ae97779cab1417 net: sched: Return the correct errno code
+d698e6a00a6092381f2966ac5410ac2dbcce88bc net: qualcomm: rmnet: Fix rx_handler for non-linear skbs
+c1fcda2bdfd04179dbc81320a24baa539b476281 net: mhi-net: Add re-aggregation of fragmented packets
+a455fcd7c77046d576dcfe41c1361928dd8b5eaf net: dwc-xlgmac: Fix spelling mistake in function name
+b358e2122b9d7aa99f681d4edfafd999845d16ff mm: page_frag: Introduce page_frag_alloc_align()
+3f6e687dff395da43b056c18150a423bc7bf5d14 net: Introduce {netdev,napi}_alloc_frag_align()
+1b041601c798a1a6bb3a651ce17aefd41979a1e2 net: octeontx2: Use napi_alloc_frag_align() to avoid the memory waste
+d0dfbb9912d9477578f41c5200d7eac3da899dce net: dpaa2: Use napi_alloc_frag_align() to avoid the memory waste
+9c2865e3fa426bb4501a161c6b33bb509d535435 Merge branch 'net-avoid-the-memory-waste-in-some-ethernet-drivers'
+8cc8993cbcee7dd4a8763e70ef46aba327dcac00 net: wan: farsync: use new tasklet API
+694a0006c0b15ed22aa53dc4b244d64c5f12e45e net: pcs: add pcs-lynx 1000BASE-X support
+46c518c8145bb23702d5b860c1bcdc7c51bdc3d4 net: dpaa2-mac: add 1000BASE-X support
+085f1776fa03bc771876aabf086de11f3e2ce59c net: dpaa2-mac: add backplane link mode support
+502c65af26697db49b6e456fe72fc10706a190e5 Merge branch 'dpaa2-add-1000base-x-support'
+1002b89f23eaa6d48ca1d2f362e894086bd063f1 selftests: mptcp: add command line arguments for mptcp_join.sh
 3abc05d9ef6fe989706b679e1e6371d6360d3db4 mptcp: pm: add lockdep assertions
 74c05b9f606154489d2587dd538ed017a39e56d2 Merge branch 'mptcp-misc-updates-for-tests-lock-annotation'
 1cef42c8474f22d6a8509a19c0b578e5f60138d9 net: hns3: add api capability bits for firmware
@@ -108,8 +145,6 @@ f7455e5d6897f275aaf5b6d964103ba295ac0cdd Merge tag 'riscv-for-linus-5.11-rc7' of
 825b5991a46ef28a05a4646c8fe1ae5cef7c7828 Merge tag '5.11-rc6-smb3' of git://git.samba.org/sfrench/cifs-2.6
 c273a20c304f299d4cf24ba0c9c9f54b7d580b77 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf-next
 badc6ac3212294bd37304c56ddf573c9ba3202e6 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-f2d4eef5396a21f26e99115f087ff03b7646659d staging: octeon: remove braces from single-line block
-eac859b84ed9a9732d8a74e08d36e6c6ece90864 staging: emxx_udc: Make incorrectly defined global static
 2db138bb9fa10f5652f55d3c3f427af54626a086 Merge tag 'kbuild-fixes-v5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 e24f9c5f6e3127a0679d5ba5575a181b80f219c9 Merge tag 'x86_urgent_for_v5.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 814daadbf09a364ec22f5aba769e01d8fa339c31 Merge tag 'timers_urgent_for_v5.11_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -155,11 +190,6 @@ fe0af09074bfeb46a35357e67635eefe33cdfc49 Revert "ACPICA: Interpreter: fix memory
 7ac839a0a70f97e6ded82ca10e6eec77f351abce Merge branch 'cpufreq/arm/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 234f414efd1164786269849b4fbb533d6c9cdbbf Bluetooth: btusb: Some Qualcomm Bluetooth adapters stop working
 55c0bd77479b60ea29fd390faf4545cfb3a1d79e Bluetooth: hci_qca: Fixed issue during suspend
-56fb37efcae9ead8077fe9657bbd1ae2d374ac50 staging: fieldbus: arcx-anybus: constify static structs
-dc72a882b22e5509af90e2c25bbaeca4b17a31fa staging: gasket: fix indentation and lines ending with open parenthesis
-26df933d9b83ea668304dc4ec641d52ea1fc4091 staging: wfx: fix possible panic with re-queued frames
-9d370869811adf52bf906b9ad3c188ce97a9e434 staging: rtl8192e: remove braces from single-line block
-321dc16d0ac0e10477237b8e838d08daa32fb966 staging: rtl8192e: replace spaces with tab for a closing if brace
 d30337da8677cd73cb19444436b311c13e57356f ARM: at91: use proper asm syntax in pm_suspend
 cfc9e56311075d25ebb3031dc1c0fd27bcdee47f Merge tag 'at91-defconfig-5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/defconfig
 7b9f5793e1f279527e9f155a011e01cd57bccaef Merge tag 'v5.12-rockchip-defconfig64-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/defconfig
@@ -240,10 +270,6 @@ ca9ad549e4042089d55a68f0312647fca4cc6e87 carl9170: fix struct alignment conflict
 97614c59cb72b26ebebec4334921c9ae8fb895e6 ath10k: Add new debug level for sta related logs
 7064e2193cabcdb8faa9008744e6ceb7f86d314d wil6210: Add Support for Extended DMG MCS 12.1
 7dd56ea45a6686719a9d05c3e3f946a85809d322 brcmfmac: add support for CQM RSSI notifications
-643fd47afc3d4d414d05044f514c89297d40b0df staging: hikey9xx: change spaces to tabs
-a8f759e12b42b5e973dc86757798a4246d254a27 staging: hikey9xx: make phy_ops struct const
-7eea86fb8cbbb812911180f9bcc88c44e9967d40 staging: rtl8723bs: fix braces for os_dep/mlme_linux.c
-0f5dcab7671510be465badfc91f6331e9614b470 staging: rtl8723bs: remove braces from two single line if blocks
 68d10458a663881a24c82fe4613985eb88fe6143 Merge tag 'usb-v5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-next
 a1679af85b2ae35a2b78ad04c18bb069c37330cc usb: dwc3: gadget: Fix setting of DEPCFG.bInterval_m1
 4b049f55ed95cd889bcdb3034fd75e1f01852b38 usb: dwc3: gadget: Fix dep->interval for fullspeed interrupt
@@ -271,7 +297,6 @@ a5c5168478d78ee1515487d6e1106381e6678f4d ARM: dts: aspeed: Add Everest BMC machi
 a54af1b7d667927162d13083a8e2d470fb8722e2 USB: serial: drop if with an always false condition
 c5d1448fa353242635fa3e1fed6ab4558e0e7d9a USB: serial: make remove callback return void
 1542d1324be1191d970f69c55e885af5dd810b84 USB: serial: drop bogus to_usb_serial_port() checks
-18bff59ba2a7c736fa1bba1ea63d84f0756afa75 staging: rtl8723bs: fix blank lines and comments in rtl8723b_hal.h
 91a4b9e619c1b8870c8b76ad7c19c82523235ca6 Merge tag 'devfreq-next-for-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
 505ca2f7770b49d6b27d97de7dc7ff6af109f8fa ACPI: OSL: Rework acpi_check_resource_conflict()
 d0236f17c31981b07f21eb824da10fabc7f0d8f8 Merge tag 'optee-simplify-i2c-access_for-v5.12' of git://git.linaro.org/people/jens.wiklander/linux-tee into arm/drivers
@@ -287,8 +312,6 @@ abd4af47d3fb64157133bd35de25d39a21a31122 cifs: fix dfs-links
 48a60549d207c0e5691b88cd91305a7c0521cef5 Merge tag 'imx-dt-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/dt
 60c9579a01321003fd353c8f8c13012cac2128ba Merge tag 'imx-dt64-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/dt
 74d60e2e93fe0f552532165a807c02c1e298ff54 Merge tag 'actions-arm-dt-for-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mani/linux-actions into arm/dt
-62301f3a1591eb77688431bfc42fb450a0ca1da7 staging: rtl8723bs: remove typedefs from rtl8723b_recv.h
-6953026f21092199a59f2c641a880b1c4025f932 staging: rtl8712: Remove multiple blank lines
 2f51312bebb77962a518b4c6de777dd378b6110a drm/i915/tgl+: Make sure TypeC FIA is powered up when initializing it
 f15008fbaa33bd2701ab173958c28feee4c65ca8 net: phy: drop explicit genphy_read_status() op
 1e2e61af199652a316d321b0a8f6b08e8dba0b08 net: phy: broadcom: remove BCM5482 1000Base-BX support
@@ -417,7 +440,6 @@ c85bfed171aaa91a32dcecd7962a4c880bf9d0ab Merge tag 'usb-serial-5.12-rc1' of http
 ca247283781d754216395a41c5e8be8ec79a5f1c x86/fault: Don't run fixups for SMAP violations
 0109a17564fc753d8769a1b8d76db3dba17b959b arm: dts: visconti: Add DT support for Toshiba Visconti5 GPIO driver
 c46f52231e79af025e2c89e889d69ec20a4c024f x86/{fault,efi}: Fix and rename efi_recover_from_page_fault()
-588007fb8ff8b09508dbfe39c0a8697b3cc2bfae staging: rtl8723bs: remove blank line from include/autoconf.h
 8aef273ee88e3e94d5d1bfc0728065b8564d3463 ACPI: OSL: Clean up printing messages
 8a3f1f181d39892e6ca11485a3c3ec15bb8e1a60 Merge back cpufreq updates for v5.12.
 938bdd1d7dad75299201d1cc47c1dcf4d49f9274 Merge back ACPICA material for v5.12.
@@ -505,10 +527,6 @@ c4295ab0b485b8bc50d2264bcae2acd06f25caaf arm/xen: Don't probe xenbus as part of 
 12c8f3d1cdd84f01ee777b756db9dddc1f1c9d17 ath9k: fix data bus crash when setting nf_override via debugfs
 83bae26532ca7318c1308fd80434e1e420bcf407 ath10k: change ath10k_offchan_tx_work() peer present msg to a warn
 811ee9dff58072742644da2c07641728f5e078e4 drm/ttm: make sure pool pages are cleared
-7c3a0635cd008eaca9a734dc802709ee0b81cac5 staging: gdm724x: Fix DMA from stack
-3b27f646725a6dded3f168acbae93d014027005a Staging: vt6655: Replace a camel case variable name
-f20be1bc5ce9f079171aa5a3905819af1b4e2b19 staging: Replace lkml.org links with lore
-bc8392e33d9a6f38e5370815c8d21e3be7e57d8a staging: rtl8723bs: Replace one-element array with flexible-array member in struct ndis_80211_var_ie
 52ded9eaa25a203e59142db252d0bc2aae80a2c2 Merge tag 'aspeed-5.12-devicetree' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/aspeed into arm/dt
 a36c9ff6a2df17295e0050dc9a9d5abff4b21dd7 Merge branch 'dt-for-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/iwamatsu/linux-visconti into arm/dt
 19e1f484a6bb452d28d79cf41f280cdfde3176a9 dt-bindings: spi: zynq: Convert Zynq QSPI binding to yaml
@@ -521,7 +539,6 @@ f464252181dc146220e0fb80b08b4fb4e4093288 Merge tag 'memory-controller-drv-5.12-2
 b9dd1962d9bf6c5247ba97a8b9e1689a10e22be1 usb: Replace lkml.org links with lore
 cdf71946a9b12b04ffcd89662dd7b91a52ab5186 dt-bindings: usb: usb-device: fix typo in required properties
 7a1e838d0cdce7d09a0bd81d45c7b5a660e71ac7 usb: misc: usb3503: Fix logic in usb3503_init()
-5e911c3d9dbc96b3e55fe1695107aff3671f53bd staging: wfx: avoid defining array of flexible struct
 4f79a8b06fccec3dd68935db5a4662435c472abf Merge tag 'aspeed-5.12-soc' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/aspeed into arm/drivers
 700d4796ef59f5faf240d307839bd419e2b6bdff bpf: Optimize program stats
 031d6e02ddbb8dea747c1abb697d556901f07dd4 bpf: Run sleepable programs with migration disabled
@@ -544,9 +561,6 @@ d5395a54865963089792f241756a7562d18262a1 ath11k: qmi: add debug message for allo
 c05263df6c1ab82277cc3b2778b183b469a71a60 Merge tag 'gpio-fixes-for-v5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 b220c049d5196dd94d992dd2dc8cba1a5e6123bf tracing: Check length before giving out the filter buffer
 0e1aa629f1ce9e8cb89e0cefb9e3bfb3dfa94821 kbuild: Do not clean resolve_btfids if the output does not exist
-697805c7b35186a98c1ace59dc26fea53b241558 staging: rtl8723bs: fix function comments to follow kernel-doc
-79795c6cf82085a161d9089d9caad5b391b337d6 staging: rtl8723bs: remove obsolete commented out code
-6522ad26df0e85c4b52cc39fde269b0c64f9172a staging: qlge: Remove duplicate word in comment
 260b6971cba358233c747ee269a43a85e01fbae4 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 429aa36469f95b0e389b512dcbd1065225e9d0a2 ibmvnic: prefer 'unsigned long' over 'unsigned long int'
 bab08bedcdc33a644682197f3c88a6e56c325fcf ibmvnic: fix block comments
@@ -719,12 +733,6 @@ a42fa256f66c425021038f40d9255d377a2d1a8d mac80211: minstrel_ht: use bitfields to
 c0eb09aa7e1cf141f8a623fe46fec8d9a9e74268 mac80211: minstrel_ht: remove sample rate switching code for constrained devices
 549fdd34b5f2dfa63e10855f20796c13a036707b mac80211: add STBC encoding to ieee80211_parse_tx_radiotap
 b6db0f899a16a23f5a9ea6c8b0fafc7bbd38e03d cfg80211/mac80211: Support disabling HE mode
-95897fdf1f2afb9800caf238b3decf50668f43a5 staging: vt6656: Fixed issue with alignment in rf.c
-fa7d3e66f67514aa5f3031d5c2b4c1b3b804200e staging: fbtft: add tearing signal detect
-f34df6764c608565afb2eafb11004381f628159e staging: wimax: Fix some coding style problem
-dc31fc6ce69e0308395ec315322cf0d0d8848467 staging: nvec: minor coding style fix
-314fd52f01ead9528a5cda5a868425bb736d93a2 staging: wfx: remove unused included header files
-a2ea4e1d9091cd8bc69f1c42c15bedc38618f04c staging: greybus: Fixed alignment issue in hid.c
 735a48481cca453525d9199772f9c3733a47cff4 nl80211: add documentation for HT/VHT/HE disable attributes
 3d6a3d3a2a7a3a60a824e7c04e95fd50dec57812 i2c: stm32f7: fix configuration of the digital filter
 40c1fa52cdb7c13ef88232e374b4b8ac8d820c4f Merge branch 'x86/cleanups' into x86/mm
@@ -862,14 +870,6 @@ e42ee56fe59759023cb252fabb3d6f279fe8cec8 Merge tag 'for-5.11-rc7-tag' of git://g
 8cc8e6aaf27db47985f9e1c24ac2f7393390971e Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 25cbda46779418e5ae435707675a312c99a16dff Merge branch 'akpm' (patches from Andrew)
 ac30d8ce28d61c05ac3a8b1452e889371136f3af Merge branch 'for-5.11-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-465e8997e8543f78aac5016af018a4ceb445a21b staging: rtl8192e: remove multiple blank lines
-b2591ab0c96c73033ecbd73a793b2bfae93c51a7 staging:r8188eu: use IEEE80211_FCTL_* kernel definitions
-bc4bf94cc2aed9192184782dbb9f884c5d6b9e82 staging:wlan-ng: use memdup_user instead of kmalloc/copy_from_user
-9a928654011d045ae71fd57ee5da03566cca9310 staging: greybus: minor code style fix
-403119601be5f136cc5ec96dc71e85fa387033be staging: wimax: i2400m: fix some incorrect type warnings
-1aa8f9da5c54ce2ca36ad347c9b820a043475170 staging: wimax/i2400m: fix some byte order issues found by sparse
-51063101f755c4c5b86aafec0438c08f592a66f4 staging: greybus: Fixed a misspelling in hid.c
-4eb839aef182fccf8995ee439fc2b48d43e45918 staging: hikey9xx: Fix alignment of function parameters
 0001ec9b1418f01a6dd44a83a1caa4b4f3d11f29 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 358feceebbf68f33c44c6650d14455389e65282d Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 5381b23d5bf9c06899324a6268a78e1113ea5382 skbuff: move __alloc_skb() next to the other skb allocation functions
@@ -1082,4 +1082,4 @@ e4286926abbbaab9b047c8bc25cae78ec990928f Merge tag 'tty-5.12-rc1' of git://git.k
 3c8f504b3a486e4e984ac8dc619eba3afa24cec4 Merge tag 'acpi-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 55f62bc873477dae2c45bbbc30b86cf3e0982f3b Merge tag 'pnp-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============0754969994433722917==--
+--===============2974604020034852791==--
