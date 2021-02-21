@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4364395304803762123=="
+Content-Type: multipart/mixed; boundary="===============8495551418688715445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 21 Feb 2021 08:29:13 -0000
-Message-Id: <161389615300.14095.17867356376150087@gitolite.kernel.org>
+Date: Sun, 21 Feb 2021 08:29:44 -0000
+Message-Id: <161389618448.14394.5535025469152097297@gitolite.kernel.org>
 
---===============4364395304803762123==
+--===============8495551418688715445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,76 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 92bf22614b21a2706f4993b278017e437f7785b3
+  - ref: refs/heads/usb-next
+    old: b5a12546e779d4f5586f58e60e0ef5070a833a64
     new: 55f62bc873477dae2c45bbbc30b86cf3e0982f3b
-    log: revlist-92bf22614b21-55f62bc87347.txt
+    log: revlist-b5a12546e779-55f62bc87347.txt
 
---===============4364395304803762123==
+--===============8495551418688715445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613896138 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613896170 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1613896137-44b331883ff00716ebd3f9834024fbb6709ceb06
+nonce 1613896169-5a158b156b4e05ca5b06809c4664752529433105
 
-92bf22614b21a2706f4993b278017e437f7785b3 55f62bc873477dae2c45bbbc30b86cf3e0982f3b refs/heads/usb-linus
+b5a12546e779d4f5586f58e60e0ef5070a833a64 55f62bc873477dae2c45bbbc30b86cf3e0982f3b refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAyGcobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MbUP/2UBgHpIngcfIRohHwyi
-wL/Gx1W/oh0BzXUAHNYzeCZxgitggQwrWF274KBhHXdxwrNKZIVgfjHm2GvQgw3H
-Z0EQJ+Tzilp1nlGPN5qIkwbexHD+Nv7pT1V1Anyg3sRbEfJewe0rB7YLlwe60xke
-T7lj5QUWl9L1TYMON0sgBc91QVNOYaspTWKeGD9klV3FDuhZ+tkpCgYwJ8lNc6pS
-r+vNrYd2aYUhZ88lw6YsOzDLpUj0mFTOR9Ez7EYlziSjwRUFaFVmC6qBYXJ2PYnk
-pdDG+VVgn8AErQ/woA2nlDi3sS0wqkKVSDO+bLpiBrLu1OjJqFhUX/lCfRYe+DQP
-HViDcMumAiGf/fncIiY8Vs8N74vgu+BMYTsbsQ/I9KGaXq2nFsZyPVnN3P0/J1Ho
-u7V+9KbpFYGK2EyQk+o4rnq3ya9VNOCzyX7dec8W54ChS/uesFkEeRF3iWtpXiUo
-eOQpw5A0tQbHF7VNmjZcT/THFKP/mHvpcl5SUtyw90ck/Q6FJ2Mc3vj2DywEiO5N
-BGJxZvwJMmk8uUljMABcQnCf9/77ymhxm3GF9bzanfPSAI6zN5fSOyJuDkgnLcbK
-+9FhQ1a0Xl1AZ5kpHLi3lv1TQs5zqHoRjVN6H4Mofl5uPR3QON8JSa29WbhpEla/
-stRHT7a6k7vr4/3T2TU+bbz/
-=8Nfq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAyGeobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ElUQAKRyd6quZushRjt8YR5H
+vXzGRIQUuj7syvchMsU7UwL+nxYNwekygwIH7u1lugFkQSsnw7qJ8bSsTsOaJcTA
+HfxmBg1q6pU3lNvHkevwD7Wi7RtJRJHYzgOtKfDYFbsRwTd+hKtRI091FzdWKIav
+F0Y5XNYBXN8qJKtv1Pd8GW+W0mUGWioCA7QCJtuoAMIhgtosQgJNKiRYvdUy4eYS
+vomEgfVKGG2ybsmiSMw5hZ4PtrQYimliWmK8rAEldkEkGiCVb5HgxOiizNGDRqe7
+OsqfamYLBjTcohOyDRkkmrfksuEhYl/RpZRAXr6uEt7kZt/0N03ew5Y+WFsmzhP6
+D0uhCi6sKWmkwoh6YULLGlAPlwAeV/PLvmqhWobUGUvC877c06vnu2R2FG6dp9cW
+i7N/GrfMXfb3kiQYCd3Upq+woFKpLmsn95vc75gCrvbQfDt0/fISUF4g+5vNwfWP
+wZGUMLQAzjTrLds9NldkD/wgyRpZl/T8COreruYZuQMMCo81W+GPeuMmLP4HEGVk
+HX/oamj4lh3LmF8DKap4VNTYU9yaD9xDScOAzOQGYHJszVOfzS8XBo2RyzPnyue+
+BNVI+UmCdGVqMBAKH3IUybpQRQS9+bMpH1+ePoccd7bMuv9lyMBVah4x7FQA96hB
+fBcCW/9SYDCH93/7H05u8kVV
+=F4gz
 -----END PGP SIGNATURE-----
 
---===============4364395304803762123==
+--===============8495551418688715445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92bf22614b21-55f62bc87347.txt
+Content-Disposition: attachment; filename=revlist-b5a12546e779-55f62bc87347.txt
 
+9e51c0a624925076fe07a09674172495c8c09e59 net/mlx5: E-Switch, Refactor rule offload forward action processing
+10742efc20a429b2040658af685d6bb2aa674a73 net/mlx5e: VF tunnel TX traffic offloading
+6717986e15a067ac49370e3f563063c8154e6854 net/mlx5e: Refactor tun routing helpers
+34ca65352ddf2aaa094f4016369103c4c7b98958 net/mlx5: E-Switch, Indirect table infrastructure
+4ad9116c84ed3243f7b706f07646a995f3bca502 net/mlx5e: Remove redundant match on tunnel destination mac
+a508728a4c8bfaf15839d5b23c19bf6b9908d43d net/mlx5e: VF tunnel RX traffic offloading
+48d216e5596a58e3cfa6d4548343f982c5921b79 net/mlx5e: Refactor reg_c1 usage
+8e404fefa58b6138531e3d4b5647ee79f75ae9a8 net/mlx5e: Match recirculated packet miss in slow table using reg_c1
+0d9f96471493d5483d116c137693f03604332a04 net/mlx5e: Extract tc tunnel encap/decap code to dedicated file
+777bb800c6967517772e882118b414e1c6cb7087 net/mlx5e: Create route entry infrastructure
+2221d954d984d07dc66a4fd0f11a8b2705816a6f net/mlx5e: Refactor neigh update infrastructure
+c7b9038d8af68e351e09a8427fa0264be8dc811f net/mlx5e: TC preparation refactoring for routing update event
+021905f8067d13d9c80db88f1b5398cdd3e35cc5 net/mlx5e: Rename some encap-specific API to generic names
+8914add2c9e5518f6a864936658bba5752510b39 net/mlx5e: Handle FIB events to update tunnel endpoint device
+cfa55c6d47b1e75ccc4b950616e881f3fd07712e batman-adv: Drop publication years from copyright info
+576fb6713bc46cf3fd01f05d3ef062a6c79556c8 batman-adv: Avoid sizeof on flexible structure
+25d81f9307ffc166427d93152498f45178f5936a batman-adv: Fix names for kernel-doc blocks
+8c511eff1827239f24ded212b1bcda7ca5b16203 powerpc/kuap: Allow kernel thread to access userspace after kthread_use_mm
+7f9942c61fa60eda7cc8e42f04bd25b7d175876e ARM: s3c: fix fiq for clang IAS
+0e23570a0cf6b39e216e41d87d29227f598a9de3 staging: qlge/qlge_main: Use min_t instead of min
+4964a4300660d27907ceb655f219ac47e5941534 staging: bcm2835-audio: Replace unsafe strcpy() with strscpy()
+af48fc5a4f2a8dc76371b744fe28f4ff2b3cca80 staging: rtl8723bs: fix pointer declaration style
+f1bfe0982e829b05dde834143be7f727814f4b55 staging: rtl8723bs: remove unused structures
+2faf12c57efe1f905007e866d753af7851205aec staging: vt665x: fix alignment constraints
+848477782bfa2b6aec738045246abd6cd104006c MAINTAINERS: Add Dave Hansen as reviewer for INTEL SGX
+2da4b24b1dfbf06c7dc7fd45de258e007e1c5ef5 Merge tag 'wireless-drivers-2021-02-05' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
+c90597bdebb5ff8d410edd8c556a6b5195503ca5 Merge tag 'wireless-drivers-next-2021-02-05' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+ef66a1eace968ff22a35f45e6e8ec36b668b6116 ibmvnic: Clear failover_pending if unable to schedule
+b91b3a211542bcd69532a8004452d83f499d23cd dpaa2-eth: Simplify the calculation of variables
 a8225efdf31e9498c5696554e5731da893c93f61 net: ethernet: ti: fix netdevice stats for XDP
 1697291dae7cc582d8f737d788991c01b27de90d net: bridge: mcast: Use ERR_CAST instead of ERR_PTR(PTR_ERR())
 247b557ee52a8f404d79d365ac6b2c94d7332381 dccp: Return the correct errno code
@@ -119,9 +148,7 @@ c273a20c304f299d4cf24ba0c9c9f54b7d580b77 Merge git://git.kernel.org/pub/scm/linu
 badc6ac3212294bd37304c56ddf573c9ba3202e6 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 f2d4eef5396a21f26e99115f087ff03b7646659d staging: octeon: remove braces from single-line block
 eac859b84ed9a9732d8a74e08d36e6c6ece90864 staging: emxx_udc: Make incorrectly defined global static
-d8c849037d9398abe6a5f5d065eafc777eb3bdaf Merge 5.11-rc7 into usb-next
 b33f4da7b3efcb7521399d5e18cdd15e60ab34df ARM: configs: sama5_defconfig: add QSPI driver
-6420a569504e212d618d4a4736e2c59ed80a8478 USB: serial: option: update interface mapping for ZTE P685M
 e7bb4e71ab8da12c7ceec0530de729d9c9189a38 Merge ath-next from git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git
 4f432e8bb15b352da72525144da025a46695968f x86/mce: Get rid of mcheck_intel_therm_init()
 ca04217add8e6c9de96ffb32c4acc8da3fde890f rtlwifi: use tasklet_setup to initialize rx_work_tasklet
@@ -244,20 +271,9 @@ ca9ad549e4042089d55a68f0312647fca4cc6e87 carl9170: fix struct alignment conflict
 a8f759e12b42b5e973dc86757798a4246d254a27 staging: hikey9xx: make phy_ops struct const
 7eea86fb8cbbb812911180f9bcc88c44e9967d40 staging: rtl8723bs: fix braces for os_dep/mlme_linux.c
 0f5dcab7671510be465badfc91f6331e9614b470 staging: rtl8723bs: remove braces from two single line if blocks
-68d10458a663881a24c82fe4613985eb88fe6143 Merge tag 'usb-v5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-next
-a1679af85b2ae35a2b78ad04c18bb069c37330cc usb: dwc3: gadget: Fix setting of DEPCFG.bInterval_m1
-4b049f55ed95cd889bcdb3034fd75e1f01852b38 usb: dwc3: gadget: Fix dep->interval for fullspeed interrupt
 256b92af784d5043eeb7d559b6d5963dcc2ecb10 x86/build: Disable CET instrumentation in the kernel for 32-bit too
 151db8c08c90405c14384bbdc5acb136bc42dbf8 vt_ioctl: Remove in_interrupt() check
 a157270fbf37f822e1fa9e9faa8ed8c81da1eb28 serial: core: Remove BUG_ON(in_interrupt()) check
-3c5960c0559c44c6628341a82167ee0d3e40ee50 usb: typec: Manage SVDM version
-31737c27d665bb3bc8ad9396c63fae2543dd8818 usb: pd: Make SVDM Version configurable in VDM header
-5e1d4c49fbc86dab6e005d66f066bd53c9479cde usb: typec: tcpm: Determine common SVDM Version
-372adf075a43028a62e6123b9cd969f8f20e4afc usb: typec: ucsi: Determine common SVDM Version
-4c93cad8cc78bd382aded3155cf05736ecfd0910 usb: typec: displayport: Fill the negotiated SVDM Version in the header
-630dce2810b9f09d312aed4189300e785254c24b dt-bindings: connector: Add SVDM VDO properties
-f5d1d63e7359c6b3c65097b4941756b3d8ac0be0 usb: typec: tcpm: Get Sink VDO from fwnode
-fe6ad68e4a6235aef254233c2630096f1cc8e505 usb: gadget: Assign boolean values to a bool variable
 36652a295266095a5f44bdb1c9f2c6400a9c71cf ARM: dts: aspeed: Add device tree for Ampere's Mt. Jade BMC
 d050d049f8b8077025292c1ecf456c4ee7f96861 ARM: dts: aspeed: Add LCLK to lpc-snoop
 d2dc55b96f876616838b61b2378656effd0e14ba ARM: dts: aspeed: rainier: Add eMMC clock phase compensation
@@ -267,10 +283,6 @@ cc36a99de0fa3e4253a00958fddc64c64a557373 ARM: dts: aspeed: g220a: Enable ipmb
 326e852f2c20f2389ab80f861d566c9e9a98678b ARM: dts: aspeed: inspur-fp5280g2: Add GPIO line names
 8828af99a161d5854509e02e8774ae7248bf0532 ARM: dts: aspeed: inspur-fp5280g2: Add ipsps1 driver
 a5c5168478d78ee1515487d6e1106381e6678f4d ARM: dts: aspeed: Add Everest BMC machine
-0a25669ba8a276f34dfa41f0eeae96ee9ecb2a17 Merge tag 'thunderbolt-for-v5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
-a54af1b7d667927162d13083a8e2d470fb8722e2 USB: serial: drop if with an always false condition
-c5d1448fa353242635fa3e1fed6ab4558e0e7d9a USB: serial: make remove callback return void
-1542d1324be1191d970f69c55e885af5dd810b84 USB: serial: drop bogus to_usb_serial_port() checks
 18bff59ba2a7c736fa1bba1ea63d84f0756afa75 staging: rtl8723bs: fix blank lines and comments in rtl8723b_hal.h
 91a4b9e619c1b8870c8b76ad7c19c82523235ca6 Merge tag 'devfreq-next-for-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
 505ca2f7770b49d6b27d97de7dc7ff6af109f8fa ACPI: OSL: Rework acpi_check_resource_conflict()
@@ -368,7 +380,6 @@ a74c6525f12f35a5af529ff057e63cfdc461704c ARM: dts: aspeed: ast2600evb: Add enabl
 c3d7fa6684b5b3a07a48fc379d27bfb8a96661d9 x86/xen: Use specific Xen pv interrupt entry for MCE
 5b4c6d65019bff65757f61adbbad5e45a333b800 x86/xen: Use specific Xen pv interrupt entry for DF
 53c9d9240944088274aadbbbafc6138ca462db4f x86/pv: Switch SWAPGS to ALTERNATIVE
-43861d29c0810a70792bf69d37482efb7bb6677d USB: quirks: sort quirk entries
 afd30525a659ac0ae0904f0cb4a2ca75522c3123 x86/xen: Drop USERGS_SYSRET64 paravirt call
 ab234a260b1f625b26cbefa93ca365b0ae66df33 x86/pv: Rework arch_local_irq_restore() to not use popf
 d0e72be77e7995923fac73f27cf7a75d3d1a4dec soc: aspeed: socinfo: Add new systems
@@ -412,8 +423,6 @@ ef2544fb3f6457b79fc73cea39dafd67ee0f2824 x86/fault: Document the locking in the 
 66fcd98883816dba3b66da20b5fc86fa410638b5 x86/fault: Don't look for extable entries for SMEP violations
 8b81a7ab8055d01d827ef66374b126eeac3bd108 gpio: ep93xx: fix BUG_ON port F usage
 28dc10eb77a2db7681b08e3b109764bbe469e347 gpio: ep93xx: Fix single irqchip with multi gpiochips
-c85bfed171aaa91a32dcecd7962a4c880bf9d0ab Merge tag 'usb-serial-5.12-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
-1ebe718bb48278105816ba03a0408ecc2d6cf47f usb: quirks: add quirk to start video capture on ELMO L-12F document camera reliable
 ca247283781d754216395a41c5e8be8ec79a5f1c x86/fault: Don't run fixups for SMAP violations
 0109a17564fc753d8769a1b8d76db3dba17b959b arm: dts: visconti: Add DT support for Toshiba Visconti5 GPIO driver
 c46f52231e79af025e2c89e889d69ec20a4c024f x86/{fault,efi}: Fix and rename efi_recover_from_page_fault()
@@ -515,12 +524,7 @@ a36c9ff6a2df17295e0050dc9a9d5abff4b21dd7 Merge branch 'dt-for-v5.12' of git://gi
 78155527283ddb04bb4a5b78320c861e1035d357 Merge tag 'zynq-dt-for-v5.12-v2' of https://github.com/Xilinx/linux-xlnx into arm/dt
 36de760a5a90450bc1bd92b6938ce46f502da54d MAINTAINERS: arm: samsung: include S3C headers in platform entry
 c2bd78de41fc3bdeb183bc24bbb2c4c0f3cfdb9a Merge tag 'samsung-soc-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/soc
-2f8e928408885dad5d8d6afefacb82100b6b62c7 dt-bindings: usb: convert rockchip,dwc3.txt to yaml
-08f4a6b903369ee0147b557931b7075c17e015f6 dt-bindings: usb: dwc3: add description for rk3328
 f464252181dc146220e0fb80b08b4fb4e4093288 Merge tag 'memory-controller-drv-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into arm/drivers
-b9dd1962d9bf6c5247ba97a8b9e1689a10e22be1 usb: Replace lkml.org links with lore
-cdf71946a9b12b04ffcd89662dd7b91a52ab5186 dt-bindings: usb: usb-device: fix typo in required properties
-7a1e838d0cdce7d09a0bd81d45c7b5a660e71ac7 usb: misc: usb3503: Fix logic in usb3503_init()
 5e911c3d9dbc96b3e55fe1695107aff3671f53bd staging: wfx: avoid defining array of flexible struct
 4f79a8b06fccec3dd68935db5a4662435c472abf Merge tag 'aspeed-5.12-soc' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/aspeed into arm/drivers
 700d4796ef59f5faf240d307839bd419e2b6bdff bpf: Optimize program stats
@@ -734,10 +738,6 @@ e1e6bd2995ac0e1ad0c2a2d906a06f59ce2ed293 ACPI: property: Fix fwnode string prope
 325aa816143228a0b3472074ffb50d55ac3f04fe ACPI: property: Make acpi_node_prop_read() static
 c82ff99eaab83df6b962ce83521c456ba9cf44c2 ACPI: property: Satisfy kernel doc validator (part 1)
 1de359d82576e57963f0d8b2d89cbdb2c9f4f2aa ACPI: property: Satisfy kernel doc validator (part 2)
-4b59b60d896f3ed94921974e916db091bc3a9ba8 Documentation: connector: Update the description of sink-vdos
-2b9f3ed9378198d98fe6cfc5291281ec34dd6501 dt-bindings: usb: mtk-xhci: add optional assigned clock properties
-fcad8dd5b9955493ca3f5483394cdb46bdd57852 dt-bindings: usb: mtk-xhci: add compatible for mt2701 and mt7623
-b5a12546e779d4f5586f58e60e0ef5070a833a64 dt-bindings: usb: mediatek: musb: add mt8516 compatbile
 3af2f0aa2ed04f07975ba1242002b66cd53e6290 PM: EM: update Kconfig description and drop "default n" option
 c4cc3141b6f8e0097a03f6885cafac957421df9e PM: Kconfig: remove unneeded "default n" options
 1556057413a304b3020180240d798ec135d90844 PM: sleep: Constify static struct attribute_group
@@ -1082,4 +1082,4 @@ e4286926abbbaab9b047c8bc25cae78ec990928f Merge tag 'tty-5.12-rc1' of git://git.k
 3c8f504b3a486e4e984ac8dc619eba3afa24cec4 Merge tag 'acpi-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 55f62bc873477dae2c45bbbc30b86cf3e0982f3b Merge tag 'pnp-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============4364395304803762123==--
+--===============8495551418688715445==--
