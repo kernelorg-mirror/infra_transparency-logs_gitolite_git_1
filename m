@@ -1,86 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============0533228178758574776=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 20 Feb 2021 22:50:04 -0000
-Message-Id: <161386140423.28859.13210446668735067292@gitolite.kernel.org>
-
---===============0533228178758574776==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Sun, 21 Feb 2021 00:13:33 -0000
+Message-Id: <161386641325.12625.8244668458347624698@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/io_uring-fops.v3
-    old: 230134749c17e5313cf5ac1f5671d79c9cd2df48
-    new: beb0e9f2e6d04c47a4fbba85f60c46d6b3d6df47
-    log: revlist-230134749c17-beb0e9f2e6d0.txt
-  - ref: refs/heads/io_uring-worker.v3
-    old: bc9e4d99964acbb769981eef7cc4b66e1589cd89
-    new: 50e9d477f03e69d29e82d23bf589ce3fc80f1860
-    log: revlist-bc9e4d99964a-50e9d477f03e.txt
-
---===============0533228178758574776==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-230134749c17-beb0e9f2e6d0.txt
-
-eeceb1895754677f1efff2dbecbb33eae7218018 io_uring: remove the need for relying on an io-wq fallback worker
-eb2d7754ded4ee7b5814be1d4af922751dbb3073 io-wq: don't create any IO workers upfront
-e62945fb1cc0aaa6804db6df378af1ebb7f1e40f io_uring: disable io-wq attaching
-6e31966afb67709381b261dfe0fc8ab7abcdf9dc io-wq: get rid of wq->use_refs
-66d44186fc46752b6b39d954fb6cd3ecf253884d io_uring: tie async worker side to the task context
-938911453ffb2f039f24e78a805682fa650d876a io-wq: don't pass 'wqe' needlessly around
-461aa77866443d255320d165ebf29200ab821138 arch: setup PF_IO_WORKER threads like PF_KTHREAD
-bac13eca1139e4bb795a635d1fc0a0e770bd038a kernel: treat PF_IO_WORKER like PF_KTHREAD for ptrace/signals
-b25e04a901a3a07c4d510fbb6dc88ea6d69a9766 io-wq: fork worker threads from original task
-a7b4ca1bbedab501ed2b40297dee5f5d99557d37 io-wq: worker idling always returns false
-4943d6b46d2a53d006268b89199567c53bb1a87e io_uring: remove any grabbing of context
-6abdb6635333d5331b6b5d74853f86c9af9db7e4 io_uring: remove io_identity
-c73b48fe81bee3c30c048e584bce4dfb1a7089d0 io-wq: only remove worker from free_list, if it was there
-e3bbb91b3b4774328966811e55b22beaa4245c80 io-wq: make io_wq_fork_thread() available to other users
-6f168d7d43a4f6118bbf651d0671548c96eb447c io_uring: move SQPOLL thread io-wq forked worker
-7465609c38c04a3058b39b42501f789a4b6240dc io-wq: make buffered file write hashed work map per-ctx
-384f89109a9f5568d89673c72b2c0d0f3a818904 Revert "proc: don't allow async path resolution of /proc/thread-self components"
-a4a5b8d404d8909f449413547ff140e37398b9d2 Revert "proc: don't allow async path resolution of /proc/self components"
-5e9739426555b6db77ce102e86f205d55545f666 net: remove cmsg restriction from io_uring based send/recvmsg calls
-50e9d477f03e69d29e82d23bf589ce3fc80f1860 io_uring: flag new native workers with IORING_FEAT_NATIVE_WORKERS
-cb6f9b64a804948e0040c52effd3f8abd4244011 fs: add file_operations->uring_cmd()
-305646f027ce2d747e95832b74c0b31e247a97b9 io_uring: add support for IORING_OP_URING_CMD
-736cdb43100c5f41951fd6aa5e299692cf6e7fa2 block: wire up support for file_operations->uring_cmd()
-c86e05f3eb150d1b916720664a85406bfbdd4f7b block: add example ioctl
-beb0e9f2e6d04c47a4fbba85f60c46d6b3d6df47 net: wire up support for file_operations->uring_cmd()
-
---===============0533228178758574776==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc9e4d99964a-50e9d477f03e.txt
-
-eeceb1895754677f1efff2dbecbb33eae7218018 io_uring: remove the need for relying on an io-wq fallback worker
-eb2d7754ded4ee7b5814be1d4af922751dbb3073 io-wq: don't create any IO workers upfront
-e62945fb1cc0aaa6804db6df378af1ebb7f1e40f io_uring: disable io-wq attaching
-6e31966afb67709381b261dfe0fc8ab7abcdf9dc io-wq: get rid of wq->use_refs
-66d44186fc46752b6b39d954fb6cd3ecf253884d io_uring: tie async worker side to the task context
-938911453ffb2f039f24e78a805682fa650d876a io-wq: don't pass 'wqe' needlessly around
-461aa77866443d255320d165ebf29200ab821138 arch: setup PF_IO_WORKER threads like PF_KTHREAD
-bac13eca1139e4bb795a635d1fc0a0e770bd038a kernel: treat PF_IO_WORKER like PF_KTHREAD for ptrace/signals
-b25e04a901a3a07c4d510fbb6dc88ea6d69a9766 io-wq: fork worker threads from original task
-a7b4ca1bbedab501ed2b40297dee5f5d99557d37 io-wq: worker idling always returns false
-4943d6b46d2a53d006268b89199567c53bb1a87e io_uring: remove any grabbing of context
-6abdb6635333d5331b6b5d74853f86c9af9db7e4 io_uring: remove io_identity
-c73b48fe81bee3c30c048e584bce4dfb1a7089d0 io-wq: only remove worker from free_list, if it was there
-e3bbb91b3b4774328966811e55b22beaa4245c80 io-wq: make io_wq_fork_thread() available to other users
-6f168d7d43a4f6118bbf651d0671548c96eb447c io_uring: move SQPOLL thread io-wq forked worker
-7465609c38c04a3058b39b42501f789a4b6240dc io-wq: make buffered file write hashed work map per-ctx
-384f89109a9f5568d89673c72b2c0d0f3a818904 Revert "proc: don't allow async path resolution of /proc/thread-self components"
-a4a5b8d404d8909f449413547ff140e37398b9d2 Revert "proc: don't allow async path resolution of /proc/self components"
-5e9739426555b6db77ce102e86f205d55545f666 net: remove cmsg restriction from io_uring based send/recvmsg calls
-50e9d477f03e69d29e82d23bf589ce3fc80f1860 io_uring: flag new native workers with IORING_FEAT_NATIVE_WORKERS
-
---===============0533228178758574776==--
+  - ref: refs/heads/dev
+    old: a5f12854de24988a0c81a342f860e0c572493ce1
+    new: 962ed6561db7da2df7a2d26b802b1c883eadd190
+    log: |
+         d50dfc0c7df7bf037442045fbe63952ae0c4ce46 f2fs: don't grab superblock freeze for flush/ckpt thread
+         938a184265d75ea474f1c6fe1da96a5196163789 f2fs: give a warning only for readonly partition
+         092af2eb180062f5bafe02a75da9856676eb4f89 Documentation: f2fs: fix typo s/automaic/automatic
+         7563b8a40392eb9f51c8a21ffb9dffd1048cbbb3 f2fs: fix to allow migrating fully valid segment
+         1736ab8a7eff71803254fcd668e0b7083585636a f2fs: fix panic during f2fs_resize_fs()
+         f4b7a78618ed1833f9988a3405d5a51ea19aee54 f2fs: avoid unused f2fs_show_compress_options()
+         9292f9ecbb0b23d66229c2c9d29f5423668e275f f2fs: remove unused FORCE_FG_GC macro
+         f5f98ebf3f25e0d4884a84e0d26155908e7119df f2fs: update comments for explicit memory barrier
+         4b0a99b9c38d63378a5e887602496a55fbb744ed f2fs: fix to avoid selecting full segment w/ {AT,}SSR allocator
+         962ed6561db7da2df7a2d26b802b1c883eadd190 f2fs: compress: add compress_inode to cache compressed blocks
+         
