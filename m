@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3680235737462908725=="
+Content-Type: multipart/mixed; boundary="===============2420744356871402824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 21 Feb 2021 08:35:48 -0000
-Message-Id: <161389654845.19379.5269659739223770712@gitolite.kernel.org>
+Date: Sun, 21 Feb 2021 08:36:22 -0000
+Message-Id: <161389658231.19605.1643188431002777035@gitolite.kernel.org>
 
---===============3680235737462908725==
+--===============2420744356871402824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04
+  - ref: refs/heads/tty-next
+    old: a157270fbf37f822e1fa9e9faa8ed8c81da1eb28
     new: 55f62bc873477dae2c45bbbc30b86cf3e0982f3b
-    log: revlist-6ee1d745b7c9-55f62bc87347.txt
+    log: revlist-a157270fbf37-55f62bc87347.txt
 
---===============3680235737462908725==
+--===============2420744356871402824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613896533 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613896567 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1613896533-232508a5552a6bbf0fb6413250150011e96ebba5
+nonce 1613896566-3434c3f9bf3de255296125cf68fc20513774962e
 
-6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 55f62bc873477dae2c45bbbc30b86cf3e0982f3b refs/heads/tty-linus
+a157270fbf37f822e1fa9e9faa8ed8c81da1eb28 55f62bc873477dae2c45bbbc30b86cf3e0982f3b refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAyG1UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OQsQAMjQS90ryNB7otahWthK
-6sg3fv/ohqnDv52PFroOJox8AH8ulBp1DHgIFpv6UgtA/SmEoUUAeuJSBGRGhlgD
-/yfcJ/ZGA2fTHQeLQ7mIUcnrV3XSUr9lv36272sFULn29HYb/KikHS44jcSEKD1X
-uPfw2TXgZFpDgkBz02yb7qMrAo1BSl0zhjOKS7ZGP2HoOMQ3bzEC/3Dd0mUUzJeW
-dlonk6aWNnhTF+XhngBKsEl71kuiqtDIGRteB+thqZre/9IVsl893hJxjHkzpImn
-DN2Gk7SMMUKpf5iefbXTinJ1Z9VtzeeC4oazAxOFS1Om8wl7vkN4XJ1uMXuI9XWa
-HQkicNd3YRkhctJ5Ue9+BZEs264vPF9n7qS3LwmXWkeLC3rpuDesfwLAGDw1yMV0
-HcGgX0ILfIY6MLrLDTqZ+EuT0a198RhcokrDMbUBAU0CuuU0YzRdaUfrt/J1gpj2
-DF6Iwp7zJ4coGcfRHmGAOQ2qWYlOVK5Ehze2YkyhQStr/1Q3ZfDJBuFpqxdlvykx
-f7C1OEaQhfa1ZGaiilJd8JZ6cYulfyoAIqG08T5AMgV1c3GrsUNuTq2aDX2/GAQx
-c62c5lr3rmCZD0g69KCU9q83OjEaW/OlK63tuYNRaFXl6/pBdKKgkbPl/ANxIY3F
-Dep6xzHZmTCW6qvohI7LTy+0
-=c8FO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAyG3cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nHQQAKdphyBvkCPR5hpgwuJQ
+m2M9YwF0k7FCXSdfvfbE9vFiOQlY+HrO7WI01oNABnVjEXfXp/D2qbMyQ9VU7F/A
+IPdMJJ6dIkhIT1nJL68thUPrMc5okHNz47hs84IEsyzJcINLLRAwRgY+j05dPOnK
+zKXa8Yx9uQzEn3hnmkglbCApYJoTg5UoPpZUNyMt2il0ezVmX5s4Z21vvsAPJbG6
+Q2gTTsc/1tLWCIYsWDagFu6NFSLanIGFddJf9D5Ss1LFVwr9nFFUpO7PXjzWcYla
+MEK/hhvYLhCZ1PDeWOi746toF9iMmIMbnpz/0CYaqzG3+SAyK0PVVkcNOiSbtySv
+2Vv6Aq0JQsJEGKAagHtmZcU9tvlGHJoOLgIhRRhf2CpIG0WwfwHgtDodukyP6ySX
+vKyaBjF1BkBmxcTrwRLAQOuVJdGXuYrGFy964Cw6r+7cceSjbgjO3pAFc9xj1pt2
+sIeIMl4hu81OBLI0U3+rONO/kkN+rrzokaw3IDNzhA/R8SVzrtmQ1wfTev2GO+/3
+IYGH0eD8keyR2t1GABd+ML6l5pYonSj2QRnJ/cOTEWPTmX3G2b9555iAvHaPz0Wp
+1guXFqzDvCRKbWmQo+3Vpm23i2wNVKepyOh9v1ff7xq8LBkj/kQaZ0RUjZn3zN5d
+aM/5j7I7KMqIUGZvFZv9hSfO
+=kZz3
 -----END PGP SIGNATURE-----
 
---===============3680235737462908725==
+--===============2420744356871402824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ee1d745b7c9-55f62bc87347.txt
+Content-Disposition: attachment; filename=revlist-a157270fbf37-55f62bc87347.txt
 
+502c65af26697db49b6e456fe72fc10706a190e5 Merge branch 'dpaa2-add-1000base-x-support'
+1002b89f23eaa6d48ca1d2f362e894086bd063f1 selftests: mptcp: add command line arguments for mptcp_join.sh
 3abc05d9ef6fe989706b679e1e6371d6360d3db4 mptcp: pm: add lockdep assertions
 74c05b9f606154489d2587dd538ed017a39e56d2 Merge branch 'mptcp-misc-updates-for-tests-lock-annotation'
 1cef42c8474f22d6a8509a19c0b578e5f60138d9 net: hns3: add api capability bits for firmware
@@ -248,8 +250,6 @@ a8f759e12b42b5e973dc86757798a4246d254a27 staging: hikey9xx: make phy_ops struct 
 a1679af85b2ae35a2b78ad04c18bb069c37330cc usb: dwc3: gadget: Fix setting of DEPCFG.bInterval_m1
 4b049f55ed95cd889bcdb3034fd75e1f01852b38 usb: dwc3: gadget: Fix dep->interval for fullspeed interrupt
 256b92af784d5043eeb7d559b6d5963dcc2ecb10 x86/build: Disable CET instrumentation in the kernel for 32-bit too
-151db8c08c90405c14384bbdc5acb136bc42dbf8 vt_ioctl: Remove in_interrupt() check
-a157270fbf37f822e1fa9e9faa8ed8c81da1eb28 serial: core: Remove BUG_ON(in_interrupt()) check
 3c5960c0559c44c6628341a82167ee0d3e40ee50 usb: typec: Manage SVDM version
 31737c27d665bb3bc8ad9396c63fae2543dd8818 usb: pd: Make SVDM Version configurable in VDM header
 5e1d4c49fbc86dab6e005d66f066bd53c9479cde usb: typec: tcpm: Determine common SVDM Version
@@ -1082,4 +1082,4 @@ e4286926abbbaab9b047c8bc25cae78ec990928f Merge tag 'tty-5.12-rc1' of git://git.k
 3c8f504b3a486e4e984ac8dc619eba3afa24cec4 Merge tag 'acpi-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 55f62bc873477dae2c45bbbc30b86cf3e0982f3b Merge tag 'pnp-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============3680235737462908725==--
+--===============2420744356871402824==--
