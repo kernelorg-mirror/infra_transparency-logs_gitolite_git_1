@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4211584689843136965=="
+Content-Type: multipart/mixed; boundary="===============5345914782238386580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 22 Feb 2021 09:58:55 -0000
-Message-Id: <161398793511.18315.4826635025625831536@gitolite.kernel.org>
+Date: Mon, 22 Feb 2021 09:58:56 -0000
+Message-Id: <161398793620.18366.18436288947417219534@gitolite.kernel.org>
 
---===============4211584689843136965==
+--===============5345914782238386580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,94 +16,95 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 282aeb477a10d09cc5c4d73c54bb996964723f96
-    new: af278fa26f75a68739789db382ba4fdb9df60451
-    log: revlist-282aeb477a10-af278fa26f75.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 255b58a2b3af0baa0ee11507390349217b8b73b0
+    new: e98f21d8cccb40398eafdf01fa4cb856dc3ddcf2
+    log: revlist-255b58a2b3af-e98f21d8cccb.txt
 
---===============4211584689843136965==
+--===============5345914782238386580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613987932 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613987934 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1613987930-0ae1c93e1220486dd0390346dd0f00f0607a2109
 
-282aeb477a10d09cc5c4d73c54bb996964723f96 af278fa26f75a68739789db382ba4fdb9df60451 refs/heads/linux-4.9.y
+255b58a2b3af0baa0ee11507390349217b8b73b0 e98f21d8cccb40398eafdf01fa4cb856dc3ddcf2 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzgFwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aKQQAMp3hqhSdYIixPCZYHv7
-JPVZFbvk7+9MSYzbjzh61yIK6u1VeL4vL6cwaspzvFStfrOiwfLIJAE78rFKjrtj
-JVG5qFRXDC27YQ9Bxe/ZBAp2apO+Q5nJwW3K/KuQO+4bviRrBMXon2/V7BPOTrFb
-VuGZIYHV3PRxYVJyHE12aSVzJHpXFsGGG1YYC6jNYRhLCmIRnAksTu0BAJjXxNYR
-9YmEQOVKTInbpegDo0gnpcS1RXAMKdIsPdd7b5DyTiQeFJYeHuITsFcNx7eqetDO
-EiWNcWPbyQpvEJ7Z0dTo+rzNmejAWcXv25L7pA2WlDKgUzRHzzMVZ23ARvRDOx0u
-VB2h5rm/u4qR+Y0944y5eRoCaiZt4WZ8jgYfOJPWc1BfdHg8yEtjNM1RWt2h0mfq
-+ZwBekENLSYZ3+0fcgGQvnvKQeE1f0iiUPMGbY7CWgocM3JXChRUpOHLcvjJ1JAd
-8SXrOT8iJ0stG2CHbJ/75hI8Oa+J2RRPDOOeKJhz3br0mZJRd3bN+9aYOGlgXJRz
-3J6mETF+L8sf583Ga3dL7JoMmzSqtkhbaNkII1RAK6+nUlV2CkYCwmpQNQqKa1DQ
-QmMoQPSvL8ovzCdJ+9ov5ObFK6WK9jUKrAzvV9I5Pc7IXbTgv4MqkZtA/wmNNny0
-zoqS5XN3/2xfiPOt0SoFaBNv
-=GNbD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzgF4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ow0P/jqbRBafzFjplFsJgqke
+ExUU3wJ3QFqi9E2p6kbO3R1CVp5Un6h+6miNT0AQYlk2zPe85rEj9Z2fO5ZURBAG
++dziB3gmaGYmPnGvwBKZYGc6NjpVfyQ8Ui0yibZsZ8rTeNMzOkpPVyS2oLME9ik5
++zZOj2N8ukNBF+XiIgvo1FxCWcORI+dlPODP8Uf9mgv5vez/BpzW/1mu4w/tgfVG
+RhLTzKrjJn/ybE1Fwz06XkD/gCN29U1qdqIcTnKE004nP+9issxZGUNwxcf99HBt
+t6lknC5PJD+Kv2zH5bhLT1X0nXigbKYPXn9+xMtE+mPiLDeDBEFSVBibPzmaThny
+W58zYAAggTaVtzZBeDcKP/Vs2gswMeU8+Vnho59hiFQSse45xQ5RuUtJ1bqtcme0
+2Md4kdPRm2z0GyCQgd1X6ukRa3OEq4mp31btig5TWJUYyDbIxGUHxiGyvi9TAwqH
+6IVhuSyV1r5XTMx225YjKQBbl04hvRc1RP4EAJliSL3KQrdr0WHFJJlso1+zUj2U
+Hnckufh5Vy3Zuo9qc0dY/ROdX8Q+NrYTyZL4vWkc0r4WZHCHAtjqdg4KuuCH9jqG
+0/HMbIzZF6XRyY2p0B0Vtz4WbnlGGSYKRmefoAMR0+tkmULSwlU3XCE/obCk7KSv
+xNJqao64p36vpILiSrbed1mW
+=kUIf
 -----END PGP SIGNATURE-----
 
---===============4211584689843136965==
+--===============5345914782238386580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-282aeb477a10-af278fa26f75.txt
+Content-Disposition: attachment; filename=revlist-255b58a2b3af-e98f21d8cccb.txt
 
-2b40588d7bbc1bf3975326b810199f5623ea4ad5 mm: memcontrol: fix NULL pointer crash in test_clear_page_writeback()
-e7cb7c96c52cad6f8ee0512f38e8e2daf96abbfb fgraph: Initialize tracing_graph_pause at task creation
-a43892ce57756581cd8086020bda59eb2c857544 remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
-53c6eb377f2e837186dd20f565ba8fe17c3f640f af_key: relax availability checks for skb size calculation
-7eb18dc15cad75dfcb8c2403f2e042b6fa96f19f iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
-b42e0795d20c6a7590d5bbfb5cba64e9c5bcd63a iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
-101ea6881efe57f7eeff0a18bc58ca24607334a8 iwlwifi: mvm: guard against device removal in reprobe
-2019b76bdb88cb4b8578a121c2a16d87e5a06643 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
-61e764397669254c4f2e0629849ad85c5cab1c3d SUNRPC: Handle 0 length opaque XDR object data properly
-3bc4e7c1af7673c8320d9e56711d733c508c19df lib/string: Add strscpy_pad() function
-daadeaa0b23189474b502dbe78f308d624ab0718 include/trace/events/writeback.h: fix -Wstringop-truncation warnings
-7877d1462dac55a6b53a3ac3871c31d8b54ad898 memcg: fix a crash in wb_workfn when a device disappears
-5c4e5884508335da1131dc707be3f465b77f7d24 futex: Ensure the correct return value from futex_lock_pi()
-61945b70d9917b00cea72aedce346ecf52617c88 futex: Change locking rules
-21a275b717b17112e06fe5dc565031ea6646bbc5 futex: Cure exit race
-f4526ea1ff2c92eb01398de23aa954aaa7b079cb squashfs: add more sanity checks in id lookup
-af755133c923d9e9551fedddc7a282c35dc5e375 squashfs: add more sanity checks in inode lookup
-a1b21cda41e04508c61afc306ef262d374cb9faa squashfs: add more sanity checks in xattr id lookup
-0c0377ce3bdba3964e25fba77ff4844f27b0aacf tracing: Do not count ftrace events in top level enable output
-08dcda529cc11b8817159d12e8018383fe5616d4 tracing: Check length before giving out the filter buffer
-dd03b5e77de8bff30c91a3f411736864c1ab8a88 ovl: skip getxattr of security labels
-d5a39bb87d0b943d95868539bac1afa7f0c1ceaf ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
-3ba90fe713427c9b59dab82c87494f8ffde0ec9b memblock: do not start bottom-up allocations with kernel_end
-aea13aee3efd7b89e9535a92c43ab4d6030c6856 bpf: Check for integer overflow when using roundup_pow_of_two()
-d592cd877c80254d0a14180e27cff481a73d33b5 netfilter: xt_recent: Fix attempt to update deleted entry
-1b0ffa86ab2193e13110277395662b73b5835291 xen/netback: avoid race in xenvif_rx_ring_slots_available()
-d5ec1d70c67cf646f196d8440e51d8263b469098 netfilter: conntrack: skip identical origin tuple in same zone only
-8b32a00ac5bdecac4aa3a6955d26f101bb4213b2 h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
-821ac916281b24b3505928d02098f5dc82e886bb usb: dwc3: ulpi: fix checkpatch warning
-c55d5d6d6849214fa37872fb7f5066cc125be831 usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
-4e159afb422c8a39aabcddd3ae59516d6620b091 net/vmw_vsock: improve locking in vsock_connect_timeout()
-a8aa7712c966032273b8ccb2dfd5cfae2266c3d4 net: watchdog: hold device global xmit lock during tx disable
-42e52b9921498737810390c338cfde7d1b19be4c vsock/virtio: update credit only if socket is not closed
-201284658f0e4b8e4753b517a7b77013c1631d31 vsock: fix locking in vsock_shutdown()
-fe764c57657b9930245782a4b7051c27d7f8670c x86/build: Disable CET instrumentation in the kernel for 32-bit too
-19c40763ebff5bbed1d2f5a28ed2c5841c8859d5 trace: Use -mcount-record for dynamic ftrace
-3e3075f36525536198116e14b71c53e950af93d6 tracing: Fix SKIP_STACK_VALIDATION=1 build due to bad merge with -mrecord-mcount
-cd6722e59a980c1ac11212cab74d5c6d84f3726c tracing: Avoid calling cc-option -mrecord-mcount for every Makefile
-9a830e00ac9e9dd70aec614d6af73e8255b5a673 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
-dc740e813275dcd54a315184494d65b53093f013 Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
-78f785569209d674dcfc8ec943e007d1655318f2 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
-17d6b4f32bb401adf3b2789268c29b6443d220ff Xen/gntdev: correct error checking in gntdev_map_grant_pages()
-481d88658744b0128acde2d304648050ef94dc2f xen/arm: don't ignore return errors from set_phys_to_machine
-47217c08f9600bd7aae25113ae0272c285ee873e xen-blkback: don't "handle" error by BUG()
-7586a99d8b5362eafda7862ed98f2d17239ed54f xen-netback: don't "handle" error by BUG()
-e55f0bcb1db89e06e5f6d946e66baee423e41708 xen-scsiback: don't "handle" error by BUG()
-dd1be368c9183835d6e0b3c09b95a71ebc7f8e6c xen-blkback: fix error handling in xen_blkbk_map()
-af278fa26f75a68739789db382ba4fdb9df60451 Linux 4.9.258-rc1
+16d4edfa61a7fad2ee9a618fe4f175eaa3960a3d tracing: Do not count ftrace events in top level enable output
+b12118ddcd1f749da20c8b68d028a2fc6decca1f tracing: Check length before giving out the filter buffer
+9c8a39dedc3bfda2a1e8efaf8ce63a981cba8081 arm/xen: Don't probe xenbus as part of an early initcall
+60de1e7905ddee9aeb75cdae3987aa1fb68f6cc1 arm64: dts: rockchip: Fix PCIe DT properties on rk3399
+a51826343a08fcf2a3402c3ddf207e181f661ca0 platform/x86: hp-wmi: Disable tablet-mode reporting by default
+88b22d8bd7bcc2d057ed610b0d187ff10c6e6b47 ovl: perform vfs_getxattr() with mounter creds
+ffffc0c3203894def97f02d6c852d31c82f22050 cap: fix conversions on getxattr
+7d19a33eff69a384695efc7b63c4d37a16c08ffb ovl: skip getxattr of security labels
+ee241bc3dcf07811c948278980fb9a8a3c0f9d28 drm/amd/display: Fix dc_sink kref count in emulated_link_detect
+fc75fb5ebc0a7550dcd03f07452a5fcc3bfcb7d3 drm/amd/display: Free atomic state after drm_atomic_commit
+f94b2ee6dffa79123bb94d89f8892761399d7bd5 riscv: virt_addr_valid must check the address belongs to linear mapping
+85b7f84d958e0ec1d70dee3434c8b32588385a43 bfq-iosched: Revert "bfq: Fix computation of shallow depth"
+6976eb554a65aaf7d272f751809f011482f8283f ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
+5be633601e9bd1e4eaf72b1b3f57ccd85039de65 ARM: ensure the signal page contains defined contents
+1186fba04e7ade2cbb465451a407dca52e49bee7 ARM: kexec: fix oops after TLB are invalidated
+229c4b8c00fe2c0ae2e7e10222386d989873a864 mt76: dma: fix a possible memory leak in mt76_add_fragment()
+bddf4495118aa531c0959f120f05d39e603d2131 bpf: Check for integer overflow when using roundup_pow_of_two()
+a84ecc8be90d942db6fcef22f9910f89cf103bff netfilter: xt_recent: Fix attempt to update deleted entry
+c142d43a94577d5c53b389c2e814c06f93559817 netfilter: flowtable: fix tcp and udp header checksum update
+92c64272c166421422f861b720f028a197b073ab xen/netback: avoid race in xenvif_rx_ring_slots_available()
+fe4c909e50309ad8896fc03a51355546b3d94826 net: stmmac: set TxQ mode back to DCB after disabling CBS
+dd09333150d47a8e9b8eb86cda9689e9c9bd27a9 netfilter: conntrack: skip identical origin tuple in same zone only
+964c1412358ac5797265bc5e5cb1bb23416e36ae net: hns3: add a check for queue_id in hclge_reset_vf_queue()
+8def1269901ae837ae0ca55ac4c8d51bd80cb135 firmware_loader: align .builtin_fw to 8
+3b00285b7abe3dc6bc928cad0b26b01873acd8b9 i2c: stm32f7: fix configuration of the digital filter
+908fce6c4039a26cbfe75a10ccb409e8a4677c00 h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
+e7a33341088edf34e89b13b12f76fbc031829ffc usb: dwc3: ulpi: fix checkpatch warning
+a308c6146a590fe8cda5d805faf3e1ca6c9e32cd usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
+9f9fd5e432f2482eb52fd363e71e1dfedfdb5969 net: fix iteration for sctp transport seq_files
+7393b02a6cdefe922d3d9e3e36725d3d082cc190 net/vmw_vsock: improve locking in vsock_connect_timeout()
+a9e9f5db96f91231044216def4a6bea733d70c18 net: watchdog: hold device global xmit lock during tx disable
+2dccc61d2ab931ed3f0b7a28b7f6887b8c21c610 vsock/virtio: update credit only if socket is not closed
+6d24fd31791e5f1a2f64c18bbf80c43850fd1906 vsock: fix locking in vsock_shutdown()
+a93f447c00344057df6d411c93793c0a30a13fc6 net/rds: restrict iovecs length for RDS_CMSG_RDMA_ARGS
+8a40f12bcfb4225a2451d918b3a3a3e7f5cf2c68 net/qrtr: restrict user-controlled length in qrtr_tun_write_iter()
+bffa2d9296ee2ecfe33665ce342c8592fd0dd059 ovl: expand warning in ovl_d_real()
+8b5e9d11fa867ec9b5b427750d83e153b344a25d x86/build: Disable CET instrumentation in the kernel for 32-bit too
+08096f88aeea514aa5507eb68447d9066c3def97 KVM: SEV: fix double locking due to incorrect backport
+5c465bc0dd21eb1b78f6c4dc364f12409484b289 net: qrtr: Fix port ID for control messages
+d627156353818c616d03da762cbaa168e6b771ca Xen/x86: don't bail early from clear_foreign_p2m_mapping()
+f151e9e842d326c982c80533e2f7012476cc669e Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
+da7c272cc2c08df4a6c335889f892892dea5ee7d Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
+7a9f8bc7b5647f8e04af46d2ea242597b63017c0 Xen/gntdev: correct error checking in gntdev_map_grant_pages()
+f399e1bca80356895e6d7120ae53a44b958f0ef7 xen/arm: don't ignore return errors from set_phys_to_machine
+77df285d74ac8ed1905231850a03876e88ec1c40 xen-blkback: don't "handle" error by BUG()
+ac1ea864f8afcfa0b44db70e7dbff120f6e60c06 xen-netback: don't "handle" error by BUG()
+c45bbd2c15dfc4014ffd4d80c777bb2be49d7972 xen-scsiback: don't "handle" error by BUG()
+552bdb91fc7e8e41f44c7b9933b520105030ea6a xen-blkback: fix error handling in xen_blkbk_map()
+e98f21d8cccb40398eafdf01fa4cb856dc3ddcf2 Linux 4.19.177-rc1
 
---===============4211584689843136965==--
+--===============5345914782238386580==--
