@@ -1,50 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============4209192924613238682=="
+Content-Type: multipart/mixed; boundary="===============0936632959768253389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Mon, 22 Feb 2021 12:00:44 -0000
-Message-Id: <161399524422.29298.16148683511248196224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Mon, 22 Feb 2021 12:10:27 -0000
+Message-Id: <161399582791.3711.8330202544725993976@gitolite.kernel.org>
 
---===============4209192924613238682==
+--===============0936632959768253389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: e8af691412c7e03138792b76fa9d4e7ba40054b3
-    new: 94269f6a470c81ec931727e5706fe17f21ae58bb
-    log: revlist-e8af691412c7-94269f6a470c.txt
+  - ref: refs/heads/linux-5.11.y
+    old: 22b85c72b01fc6eb7646650002745a16cdee96c7
+    new: 6380656c9227c27a989f750aa7a0c81039d28607
+    log: revlist-22b85c72b01f-6380656c9227.txt
 
---===============4209192924613238682==
+--===============0936632959768253389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8af691412c7-94269f6a470c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-02d0e469d381dbca620a364d47257fae31d11b84 driver core: Don't ignore class_dir_create_and_add() failure.
-0d858b2306e576a407a5fd6f924180057e56bfb3 ALSA: hda: add dock and led support for HP EliteBook 830 G5
-b0e36de03dddf6f66bc8637ab99620b1b1dfc4e5 ALSA: hda: add dock and led support for HP ProBook 640 G4
-6d11d460c25c6fb14813609a49997bf19bf666bb cpufreq: Fix new policy initialization during limits updates via sysfs
-9ec4dbad855de1c6af89ae7fa6d65768f846d2c2 x86/spectre_v1: Disable compiler optimizations over array_index_mask_nospec()
-e908ec7eaf79fa06a2ceb2ff54e34a21b484eeed serial: sh-sci: Use spin_{try}lock_irqsave instead of open coding version
-be32f57f854711c416369a95ef454cc9fc9dd641 1wire: family module autoload fails because of upper/lower case mismatch.
-1e43b51cebd91f4641258304735747403bbb84cb fuse: fix control dir setup and teardown
-bca3f770eb9d6ee1c3c3d87926e7e169debc7d4f IB/qib: Fix DMA api warning with debug kernel
-2e8eee48888f7b48efee374969dfd7d2d59a2678 RDMA/mlx4: Discard unknown SQP work requests
-e33a82f200760798edc54f2b3cd910d88fcd4726 Btrfs: fix clone vs chattr NODATASUM race
-5972a954e987cf37f1bf7018b51141693b2952ab ubi: fastmap: Cancel work upon detach
-b89af662169b36aaf616bed4a70575a02cb522bc xfrm: Ignore socket policies when rebuilding hash tables
-1dbdd06cded60abd0df818d1f4177273e58d2a8f xfrm: skip policies marked as dead while rehashing
-78fea6079323acae508f86091df1a494f07f0f50 Input: elantech - enable middle button of touchpads on ThinkPad P52
-590d571b9b31e7b33688583cdf24263dc040bb7d Input: elantech - fix V4 report decoding for module with middle key
-ce032ca0d8e701ffd4e18e5acf6f45867ac1c203 ALSA: hda/realtek - Add a quirk for FSC ESPRIMO U9210
-89253ccd349ece7247b169c236801f96f9f2317e Btrfs: fix unexpected cow in run_delalloc_nocow
-fe2b599a2288b22425594fcc43c2fa468c2518e8 usb: cdc_acm: Add quirk for Uniden UBC125 scanner
-94269f6a470c81ec931727e5706fe17f21ae58bb USB: serial: cp210x: add CESINEL device ids
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613995826 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1613995821-6a835244b7d1e8a1931d6885583bc38cef797981
 
---===============4209192924613238682==--
+22b85c72b01fc6eb7646650002745a16cdee96c7 6380656c9227c27a989f750aa7a0c81039d28607 refs/heads/linux-5.11.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAznzIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6eMP/0pKCa2bEBQnIWok4X0n
+BFDMnB61OdYdYPR5Fi8N6ElX+PQE1SuWn4CTOvFFE+muWfcmjfZ3EKO6t47ndCjP
+cG2XjAcOKpd+WB1SmF3oWKG4bl5fvSt/uK1Ivl177g1Xe6RssmSNnCiZk7j7w8ti
+Ai4ftY5+wNKP9gpVHbr1On8/7D3J6YsuQpffIdVZj4iHzcE9zABbwNlHO4HDUV51
+6tjkAmtkwWLB6ctJ6nO9yz+qN0ckFhJ+u3OXbVSxcDuIt/Oa3zP9YR4uMvuYqmh4
+2ra/R0R5cL+epjFSaW/o9v6jymxlYRfuW7GD3U8PEd+mI/1BrIC1yDFZtp60UYKb
+tBrXuJ7pwlBlH29oJc9QHog6SDbQp6aPkMtojiL8DYkFDOSYw0/wXz8msSgW6JPk
+s9A/ZaMp4Ig9+PpmZd1EtRZ5Ld/iQKQzztI7NdKHzUhmmi8Bup4Ow8OmBkQ0BPhD
+wSYvKozD5rPPCheGCJL2hkacP9PE6K+w7MFx/ZzC1yOjhB2uF55TzRt9NFfagHGC
+ynOebZO7jDhTk9X1wPIVnkqyPbJTE3IOhfNPVFUbx0/lx4MGG/phKBwoInyxC6oW
+05DtMvkcripb3ctPsudV836hcUgFKyZZ/82Bq/6VudKUk9AOUpXhZWWC3HPzTvFy
+x50QlwRbr1cT7P8WGL8X6Cxh
+=5o6H
+-----END PGP SIGNATURE-----
+
+--===============0936632959768253389==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-22b85c72b01f-6380656c9227.txt
+
+e0a787d2bb161c77f350757a4c57914ca0f19897 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
+0c5e09b3c34b2520e75c3961a7390262de219c63 Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
+656324f0f5e7f7018526a62bc8efb75ed3ea0cb4 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
+08cd88a4110702d7e6f8aa112f2f34de0cd8841f Xen/gntdev: correct error checking in gntdev_map_grant_pages()
+b31dd33bd898fcd169f08b3b55256b0355e8fc52 xen/arm: don't ignore return errors from set_phys_to_machine
+377f08140aeb45b29a5518bac0ecf5813c707ad9 xen-blkback: don't "handle" error by BUG()
+61086f924d19bc35e16223bb6ac811c94c622792 xen-netback: don't "handle" error by BUG()
+b44eac6b281ddbf98cf97fbaea95a58288a4bf57 xen-scsiback: don't "handle" error by BUG()
+0596849fd8f7ea679a4754158d974b9235882c47 xen-blkback: fix error handling in xen_blkbk_map()
+4f76b93c91df31ad20619f3b7ad9adc7ff32fd3e tty: protect tty_write from odd low-level tty disciplines
+cee3d17971851a95eff0e716ef74593de3a5efac Bluetooth: btusb: Always fallback to alt 1 for WBS
+cd89f558415c597db9c333735abc6bd6b9a68ff1 media: pwc: Use correct device for DMA
+6380656c9227c27a989f750aa7a0c81039d28607 Linux 5.11.1-rc1
+
+--===============0936632959768253389==--
