@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4828132893298253265=="
+Content-Type: multipart/mixed; boundary="===============7627006044501235294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 22 Feb 2021 19:23:32 -0000
-Message-Id: <161402181240.15292.17548694349677474066@gitolite.kernel.org>
+Date: Mon, 22 Feb 2021 19:23:56 -0000
+Message-Id: <161402183649.15448.3272182907303339748@gitolite.kernel.org>
 
---===============4828132893298253265==
+--===============7627006044501235294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: bleung
 changes:
-  - ref: refs/heads/for-next
-    old: a59e12218c4f5498d5669a0ee0c725101ca89d52
+  - ref: refs/heads/master
+    old: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
     new: b996c10e0f5b2cfd5b2cbf048cce83982bfe662d
-    log: revlist-a59e12218c4f-b996c10e0f5b.txt
+    log: revlist-e71ba9452f0b-b996c10e0f5b.txt
 
---===============4828132893298253265==
+--===============7627006044501235294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a59e12218c4f-b996c10e0f5b.txt
+Content-Disposition: attachment; filename=revlist-e71ba9452f0b-b996c10e0f5b.txt
 
-b7a9369ae6f2da41b1d9f01a1d84e10e39bca293 drm/nouveau/fb: switch to instanced constructor
 8d056d9987e3fb0189ffd281c7ba065bd265d8b0 drm/nouveau/fuse: switch to instanced constructor
 01055c01ba435cce2e9644a2c1582948f4c64883 drm/nouveau/gpio: switch to instanced constructor
 b240b21261c2a40ed3afbaf811a9f473d3ad926a drm/nouveau/gsp: switch to instanced constructor
@@ -243,6 +242,7 @@ c579bd1b4021c42ae247108f1e6f73dd3f08600c tcp: add some entropy in __inet_hash_co
 f1d77b2efbe6151a8c5600ea1953bfce8728c18e netdev-FAQ: answer some questions about the patchwork checks
 3e0103a35a46b5f3dc7e3fe0f09eb2fc5e0456e6 net: dsa: xrs700x: fix unused warning for of_device_id
 f8a7e0145d58f53647c43fd9dd913da190c6c253 net: dsa: xrs700x: use of_match_ptr() on xrs700x_mdio_dt_ids
+a59e12218c4f5498d5669a0ee0c725101ca89d52 platform/chrome: cros_ec_typec: Flush pending work
 78be9217c4014cebac4d549cc2db1f2886d5a8fb net: hsr: generate supervision frame without HSR/PRP tag
 dcf0cd1cc58b8e88793ad6531db9b3a47324ca09 net: hsr: add offloading support
 18596f504a3e56c4f8e132b2a437cbe23a3f4635 net: dsa: add support for offloading HSR
@@ -1051,4 +1051,4 @@ a2590d69893f232cbb79d149dbbb456a1febca22 Merge tag 'spi-v5.12' of git://git.kern
 f158bbee9403b7bd2ad22f0c03b7e9762c20ad18 Merge tag 'mfd-next-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
 b996c10e0f5b2cfd5b2cbf048cce83982bfe662d Merge tag 'tag-chrome-platform-for-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
 
---===============4828132893298253265==--
+--===============7627006044501235294==--
