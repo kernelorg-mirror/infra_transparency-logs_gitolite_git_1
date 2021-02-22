@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7984875831244443665=="
+Content-Type: multipart/mixed; boundary="===============9089990478454572027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Mon, 22 Feb 2021 21:21:15 -0000
-Message-Id: <161402887562.21789.17008153180280591377@gitolite.kernel.org>
+Date: Mon, 22 Feb 2021 21:23:00 -0000
+Message-Id: <161402898061.22340.8452948880270633864@gitolite.kernel.org>
 
---===============7984875831244443665==
+--===============9089990478454572027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: 2ab38c17aac10bf55ab3efde4c4db3893d8691d2
-    new: 899cbb0e53c6b66c3fb98d8745aa4b0b41cd94f2
-    log: revlist-2ab38c17aac1-899cbb0e53c6.txt
+  - ref: refs/heads/dm-cryptsetup
+    old: a35a56f1bebbf6f95e1f4b2890bcd27fb538af9a
+    new: b35c4b7d860a18b52c47cde8f6b0aab53dfe6f08
+    log: revlist-a35a56f1bebb-b35c4b7d860a.txt
 
---===============7984875831244443665==
+--===============9089990478454572027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ab38c17aac1-899cbb0e53c6.txt
+Content-Disposition: attachment; filename=revlist-a35a56f1bebb-b35c4b7d860a.txt
 
-b565eb81276a975bd2d9d28755df1468ef7854e8 clk: tegra: cvb: Provide missing description for 'tegra_cvb_add_opp_table()'s align param
 d8dbf923e701bb33c145616da4e46c694c9a2b4e clk: ti: dpll44xx: Fix some potential doc-rot
 b92b01bd92c245178b1e89f684b00456fe7d9893 clk: qcom: gcc-ipq4019: Remove unused variable 'ret'
 e28aa9b0ce202c0a0f929c6b80c2443fdc6eea7f clk: clk-fixed-mmio: Demote obvious kernel-doc abuse
@@ -1050,5 +1049,6 @@ ae42c3173ba5cbe12fab0dad330e997c4ff9f68a Merge tag 'for-5.12/block-ipi-2021-02-2
 b2bec7d8a42a3885d525e821d9354b6b08fd6adf Merge tag 'printk-for-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 54ab35d6bbc0d3175b0a74282c3365c80a43a93c Merge tag 'livepatching-for-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 899cbb0e53c6b66c3fb98d8745aa4b0b41cd94f2 Merge tag 'kgdb-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/danielt/linux
+b35c4b7d860a18b52c47cde8f6b0aab53dfe6f08 dm-verity: Fix FEC for RS roots non-aligned to block size
 
---===============7984875831244443665==--
+--===============9089990478454572027==--
