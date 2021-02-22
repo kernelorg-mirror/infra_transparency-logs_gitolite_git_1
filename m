@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0936632959768253389=="
+Content-Type: multipart/mixed; boundary="===============2558181497905852715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 22 Feb 2021 12:10:27 -0000
-Message-Id: <161399582791.3711.8330202544725993976@gitolite.kernel.org>
+Message-Id: <161399582791.3713.1654219590313552964@gitolite.kernel.org>
 
---===============0936632959768253389==
+--===============2558181497905852715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.11.y
-    old: 22b85c72b01fc6eb7646650002745a16cdee96c7
-    new: 6380656c9227c27a989f750aa7a0c81039d28607
-    log: revlist-22b85c72b01f-6380656c9227.txt
+  - ref: refs/heads/linux-5.4.y
+    old: cebaf285f35fe7882703fc68bb6ed731f8a5a49a
+    new: 2a7c65a6c13001aefde3cf54c5c129d3e7fc4362
+    log: revlist-cebaf285f35f-2a7c65a6c130.txt
 
---===============0936632959768253389==
+--===============2558181497905852715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,43 +32,44 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613995826 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1613995821-6a835244b7d1e8a1931d6885583bc38cef797981
 
-22b85c72b01fc6eb7646650002745a16cdee96c7 6380656c9227c27a989f750aa7a0c81039d28607 refs/heads/linux-5.11.y
+cebaf285f35fe7882703fc68bb6ed731f8a5a49a 2a7c65a6c13001aefde3cf54c5c129d3e7fc4362 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAznzIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6eMP/0pKCa2bEBQnIWok4X0n
-BFDMnB61OdYdYPR5Fi8N6ElX+PQE1SuWn4CTOvFFE+muWfcmjfZ3EKO6t47ndCjP
-cG2XjAcOKpd+WB1SmF3oWKG4bl5fvSt/uK1Ivl177g1Xe6RssmSNnCiZk7j7w8ti
-Ai4ftY5+wNKP9gpVHbr1On8/7D3J6YsuQpffIdVZj4iHzcE9zABbwNlHO4HDUV51
-6tjkAmtkwWLB6ctJ6nO9yz+qN0ckFhJ+u3OXbVSxcDuIt/Oa3zP9YR4uMvuYqmh4
-2ra/R0R5cL+epjFSaW/o9v6jymxlYRfuW7GD3U8PEd+mI/1BrIC1yDFZtp60UYKb
-tBrXuJ7pwlBlH29oJc9QHog6SDbQp6aPkMtojiL8DYkFDOSYw0/wXz8msSgW6JPk
-s9A/ZaMp4Ig9+PpmZd1EtRZ5Ld/iQKQzztI7NdKHzUhmmi8Bup4Ow8OmBkQ0BPhD
-wSYvKozD5rPPCheGCJL2hkacP9PE6K+w7MFx/ZzC1yOjhB2uF55TzRt9NFfagHGC
-ynOebZO7jDhTk9X1wPIVnkqyPbJTE3IOhfNPVFUbx0/lx4MGG/phKBwoInyxC6oW
-05DtMvkcripb3ctPsudV836hcUgFKyZZ/82Bq/6VudKUk9AOUpXhZWWC3HPzTvFy
-x50QlwRbr1cT7P8WGL8X6Cxh
-=5o6H
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D0EP/0Zkdcpjff9pgz/PdCK/
+sTIU7TZgdPR6al/veZQcfnEn9glUSghEIuZH3jkQoCi4wqHwm+tA9VTGZkqkDUEb
+viJXOGAF75qmnR/WgQlng8SBEpWpMFPpZZCRujGqfF4rnG0N1H8fzMVeal/YugW0
+0sb3o1Fac8I/QaLOTc1JVFLCLtmmrF9bAfCeV+y/VKNCSS8Iz/xjxn2rCTnlixT/
+ax0q1RjbUDG3B7xaQc/uAdXOvSbW/yzr9mPy0PdYNY52a8llTDJKp//DWiRsM1Md
+Aic5NYyEerSSmqgTWeBFfAnvAb1cYTLIuaQqVfmC+k+D112pCtVLT2cEot1rTQmW
+K1TwCVNNrWFyzIsw8v0/8LMJcTexUdueRdCyyyhOgY9IU2eyoIqV53L/iJxcUGiq
+mxc6HdwxGvn/HTMSCon+QIX/7VLg2WE63F+h7GTYm+V+dWT2JnZP9Bpes+y7Pmlt
+LcAmulWP9Ax1hIvNHkecS0kq/TDPTQHP6dmC9OorRwhnSY9GKdg9xPnQXqIoqWeH
+cspjQE7Rp0uss94rdHB2d6Qq+AGQV3c6aiwE7Diy7u/jvDjlZwFsCefkhpnRp2CC
++Q8kkOQC82b1rF53YQ+lRfZw+7BzjCJ5d+UK/+EseYEiuhXuOpfKhOGS7xLr6mN8
+7W5GpeKzNs5A4KPZ1POGWqVc
+=1mSz
 -----END PGP SIGNATURE-----
 
---===============0936632959768253389==
+--===============2558181497905852715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22b85c72b01f-6380656c9227.txt
+Content-Disposition: attachment; filename=revlist-cebaf285f35f-2a7c65a6c130.txt
 
-e0a787d2bb161c77f350757a4c57914ca0f19897 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
-0c5e09b3c34b2520e75c3961a7390262de219c63 Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
-656324f0f5e7f7018526a62bc8efb75ed3ea0cb4 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
-08cd88a4110702d7e6f8aa112f2f34de0cd8841f Xen/gntdev: correct error checking in gntdev_map_grant_pages()
-b31dd33bd898fcd169f08b3b55256b0355e8fc52 xen/arm: don't ignore return errors from set_phys_to_machine
-377f08140aeb45b29a5518bac0ecf5813c707ad9 xen-blkback: don't "handle" error by BUG()
-61086f924d19bc35e16223bb6ac811c94c622792 xen-netback: don't "handle" error by BUG()
-b44eac6b281ddbf98cf97fbaea95a58288a4bf57 xen-scsiback: don't "handle" error by BUG()
-0596849fd8f7ea679a4754158d974b9235882c47 xen-blkback: fix error handling in xen_blkbk_map()
-4f76b93c91df31ad20619f3b7ad9adc7ff32fd3e tty: protect tty_write from odd low-level tty disciplines
-cee3d17971851a95eff0e716ef74593de3a5efac Bluetooth: btusb: Always fallback to alt 1 for WBS
-cd89f558415c597db9c333735abc6bd6b9a68ff1 media: pwc: Use correct device for DMA
-6380656c9227c27a989f750aa7a0c81039d28607 Linux 5.11.1-rc1
+9dc92ea75702cd084385ea80acb1c14a171d8fc1 KVM: SEV: fix double locking due to incorrect backport
+4ff29b9d486dd08bf7135115d89299c34bf20b24 net: qrtr: Fix port ID for control messages
+cf62680fee509d95c251001439d1c1e242ad4ef6 net: bridge: Fix a warning when del bridge sysfs
+30b3ed0643ec66bfc09cd70d5c619dd45aaef232 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
+3855383d6e5842968cac3e86156b0962a8b4dea0 Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
+a4099e0b733d1e97da3a651c8871f685ee042858 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
+aaabc25d6d47be2d27e7196fa1e9ac03b926f1d6 Xen/gntdev: correct error checking in gntdev_map_grant_pages()
+645d5a6950e84e04456be4ceab609251537dd4dd xen/arm: don't ignore return errors from set_phys_to_machine
+3b1ecf2c3f0a635587f5d111a899fab07ceb934a xen-blkback: don't "handle" error by BUG()
+eaeb8b9f4f586d222f33a1802c474ee856499ae3 xen-netback: don't "handle" error by BUG()
+fb18b396cea955b49b18c7660a0a45aa1c177f79 xen-scsiback: don't "handle" error by BUG()
+327efd531fb6898ab41e013bb402b5f3966a9da8 xen-blkback: fix error handling in xen_blkbk_map()
+d36151704bb450599f344fbf5f089e334fb23576 media: pwc: Use correct device for DMA
+2a7c65a6c13001aefde3cf54c5c129d3e7fc4362 Linux 5.4.100-rc1
 
---===============0936632959768253389==--
+--===============2558181497905852715==--
