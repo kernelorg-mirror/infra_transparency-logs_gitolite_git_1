@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2724434230654089038=="
+Content-Type: multipart/mixed; boundary="===============7600047678984120783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 22 Feb 2021 09:58:46 -0000
-Message-Id: <161398792664.18076.2783607387018812449@gitolite.kernel.org>
+Date: Mon, 22 Feb 2021 09:58:49 -0000
+Message-Id: <161398792906.18149.14638077150791394733@gitolite.kernel.org>
 
---===============2724434230654089038==
+--===============7600047678984120783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,71 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 850e6a95deb5a9e6e922ace64bf2dd0ed290ecb7
-    new: cebaf285f35fe7882703fc68bb6ed731f8a5a49a
-    log: revlist-850e6a95deb5-cebaf285f35f.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 13b6016e96f628ac1cfb3c0b342911fd91c9c005
+    new: 3cef6801d136c0a72d15c3aa7796c212ae887c0d
+    log: revlist-13b6016e96f6-3cef6801d136.txt
 
---===============2724434230654089038==
+--===============7600047678984120783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613987925 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613987927 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1613987923-6b4516f834495234a4f41241a25de7b18c23ced4
+nonce 1613987925-49e0c304a9f3656b325edb81af56a7a77bc05463
 
-850e6a95deb5a9e6e922ace64bf2dd0ed290ecb7 cebaf285f35fe7882703fc68bb6ed731f8a5a49a refs/heads/linux-5.4.y
+13b6016e96f628ac1cfb3c0b342911fd91c9c005 3cef6801d136c0a72d15c3aa7796c212ae887c0d refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzgFUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mMUP/3QHigQxRpcKPzIA3Ta7
-gbPpm6DlMP9aFGoRvIbPynPad+XEwYZz6a2WVFoHuc00i2f9piRRDW1KHKJZdD6X
-R+NGeg3/4sbQ1z0vT8Kzxx60AZ+HnHjoR5m0JdZOZ+szMSJSLXvjhz0nTwGdtNe7
-4wiK1K/F8tUb+I5S4UEIGVKGmufC47SBY6yCl4QepeE9WMpMCYwlHHSn3MyfzV8J
-F8HPb++ABwGXZMDcKAKqfmM0LRPVjbDg0cV8/OmckEmOW0XAkIeLqmjjjNZyEyIP
-tCY7f6hCiQgmliiTEKLTVlhQ+ftwdM3D2XbyOui2hs14RjbulH85NSTWINcV1+eR
-E2B2d+2WnobE10y0jwOXSYuJIeebWxIIiLUHhpvrgCVOwEZcKB7pbmnFyQtP/ZMT
-O9mz/+F09MZe+DN0y9maP4OVapXS4wZWWndRD34PxDT/LpOr8hYHskKpmBvfwOFl
-eRtj4pRNH+82mx6r6i9tbxou2A2OM1VzzxUdNAjWxGsfqbSjiTKBnmlwLSgKzNbC
-d+UyYnXY1uVr5eU+SnXhEP4P7fNdTkoG+R1gtns5LTStNPUHT3i4aDTxQ3+Gng7A
-1C9t2VKqBpiE/ZjDVboumbv3gj2H3fzXf1GK/SACZWCpwCN1VJ5DG9aDXSlQwRKf
-bo/+J1a9YsKPgMjZaqK6EDqe
-=6fFS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzgFcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eGwQANK5VAwdiNVC8jBjI3ny
+k1XPcFKvBI1sajHF7Fbl4pcVNeKEWDGLqi8aeUpPYkJUb1P5a2ZdIjiWAwbUjH35
+2BfifHP5Re5cu+0IZTNvdzgV0OegG1O4RfhK8Ygqle2BO9FfW2OH1ZTPloSugqZv
+NMRF799U+Gq/3nfeTW6FpuS/BpVo3nCEfpKLmvpw8tMLg2n8E4MsjgzEv9iIN88t
+zDolzqTL2hJqOEzBzluolZb0u2iXALG2NB5N1AENHkNR+xFP/v1dMyv/OTncnCOf
+qbMT8zm8pcR6oCMg0Hqfrls48UEuGCX6Nm5RApI6ngVwQ42KzYG/Z8JEmvvNpnsj
+6HjBQdDXVkePt3thh8Kvd3+WRj3l2cWMa5zzz6Y/wLg526gaf5Khw+toHezaDrvY
+tC3IhEKtmhDBOZJVntRmOhhqCG2JQ53+hZ5xxOChfTCPg1IDUSzy1xBDoScKVOUl
+5rASnuDS10Y7/Oulba8pmkpWfOQ4ug4vPZbpXC2PAwUmcOE4pGjp45qWuJ/CtwMw
+obwTKj2XndgACV1nRj32dSQzqC7ImT5q2Y6pFCyHxdo/GlWqyVe2MiRFlXZBbPmx
+IgkfJBkw9YVrybPHvcYX0Y5uO4ONCVY7a+1OIHH4+b8opKIKBbQlq5qnAhVo3BE0
+ILQr4Zp5aSk6mOHhTdn3Vt0x
+=fOKU
 -----END PGP SIGNATURE-----
 
---===============2724434230654089038==
+--===============7600047678984120783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-850e6a95deb5-cebaf285f35f.txt
+Content-Disposition: attachment; filename=revlist-13b6016e96f6-3cef6801d136.txt
 
-6456457da6a216dac9656676387070f6151a2860 KVM: SEV: fix double locking due to incorrect backport
-08ecb019590c02ac15b28980ba2a2c4304b26d38 net: qrtr: Fix port ID for control messages
-bc788be6fdf3886281c85d52add6dea3abeb073c net: bridge: Fix a warning when del bridge sysfs
-ef785198342e9b3a11e521d451ba1b351e0c08f0 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
-edadd9117dccd2e58f3de8fa71147b7837c7601b Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
-22463488684d0dc3d1af8c95d502ff2364daa297 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
-a97e952dc80b56505eb13248c8a6f5738259d4a9 Xen/gntdev: correct error checking in gntdev_map_grant_pages()
-4197790df382f553f89391230e522858fb2a1f17 xen/arm: don't ignore return errors from set_phys_to_machine
-c358dca2ba000667c39f3f6a44a9c7f87ed9d8c9 xen-blkback: don't "handle" error by BUG()
-c8c76f65313f8ecb49946f27e4508e03e7c664c4 xen-netback: don't "handle" error by BUG()
-1d23a751872e33f30294a3b973a6943d92fed6cd xen-scsiback: don't "handle" error by BUG()
-6dd46eb07a5687cd9ab9b33e21a589167314561d xen-blkback: fix error handling in xen_blkbk_map()
-cebaf285f35fe7882703fc68bb6ed731f8a5a49a Linux 5.4.100-rc1
+1ffb731c1d2e7dcb2ea95e6bbbcd828c81b7042e vdpa_sim: remove hard-coded virtq count
+5d13bb9bc6f70ad284e0422b7aa90b3ca0fd9458 vdpa_sim: add struct vdpasim_dev_attr for device attributes
+cbf4858df66b87fdb8d0f1c00c216174e708efac vdpa_sim: store parsed MAC address in a buffer
+7126aeb4286c0b045084f878af865e2ec3d56e81 vdpa_sim: make 'config' generic and usable for any device type
+2c098c147a61a4768d69b6860a2c2f923cfd80cf vdpa_sim: add get_config callback in vdpasim_dev_attr
+a2dd047bd9e1c7aaea1f4f2b41d77296b4f0e112 IB/isert: add module param to set sg_tablesize for IO cmd
+0b0987de2f472ee20b074e24cc9bd77f8f6f87e0 net: qrtr: Fix port ID for control messages
+eddcd6a2e7e2366e6a22c8937bde6225cd10b607 mptcp: skip to next candidate if subflow has unacked data
+a92526f2876264658ebaf86970dc795ba6cb9dd7 net/sched: fix miss init the mru in qdisc_skb_cb
+1874e5b12472a4647237532efb0967bc877fdf50 mt76: mt7915: fix endian issues
+8648b11953131177a0e0f20add20f149be7db8fb mt76: mt7615: fix rdd mcu cmd endianness
+e1a8ef51c7b310dc111c2fe3664921aeda3380b5 net: sched: incorrect Kconfig dependencies on Netfilter modules
+75c3eb212ee1cd92a0dd2421e6823826ddd1af87 net: openvswitch: fix TTL decrement exception action execution
+355c25dc8b8a7208862989830e50b14474ac6c3a net: bridge: Fix a warning when del bridge sysfs
+d8f76b9542bc1fa20035cf144f437721907266e1 net: fix proc_fs init handling in af_packet and tls
+497f15c756a4693501a0ca343f2227b367244c6e Xen/x86: don't bail early from clear_foreign_p2m_mapping()
+b33705ec05204fc535e125f933aac41e3ed45a90 Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
+5ddf7db30e8852e7d5360522adf269f8d9107671 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
+af0e96655b9083367e70b020cccc32a4c37dd975 Xen/gntdev: correct error checking in gntdev_map_grant_pages()
+da0c60a6425ddadd971a55eeba1208fad4430d9a xen/arm: don't ignore return errors from set_phys_to_machine
+a6a3e28733bb7496e3545d86452dfc0cea97eba8 xen-blkback: don't "handle" error by BUG()
+87c3331b22f4e5a5a46a2ee87809aca289c06cf2 xen-netback: don't "handle" error by BUG()
+be8a6642235ce075299eb7e9fe18b7ab1e08dd07 xen-scsiback: don't "handle" error by BUG()
+e96cb7fe54567832712a0ce76db69ada7fa9b01b xen-blkback: fix error handling in xen_blkbk_map()
+3cef6801d136c0a72d15c3aa7796c212ae887c0d Linux 5.10.18-rc1
 
---===============2724434230654089038==--
+--===============7600047678984120783==--
