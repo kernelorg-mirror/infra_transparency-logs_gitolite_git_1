@@ -1,106 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============7522400213508155307=="
+Content-Type: multipart/mixed; boundary="===============7821100970877066277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 22 Feb 2021 06:50:27 -0000
-Message-Id: <161397662775.9213.11751727323815316127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 22 Feb 2021 06:50:29 -0000
+Message-Id: <161397662922.10283.4257889274793814100@gitolite.kernel.org>
 
---===============7522400213508155307==
+--===============7821100970877066277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 55f62bc873477dae2c45bbbc30b86cf3e0982f3b
-    new: 31caf8b2a847214be856f843e251fc2ed2cd1075
-    log: revlist-55f62bc87347-31caf8b2a847.txt
+  - ref: refs/heads/staging-testing
+    old: 686c6713fa9c4a3474efead5c0c1b05ffae40d1e
+    new: 8e35b6c8cfa80be8d21b542795de3c269d07bed9
+    log: revlist-686c6713fa9c-8e35b6c8cfa8.txt
 
---===============7522400213508155307==
+--===============7821100970877066277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613976617 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1613976616-7f3fa6cb6d3741485afa677470fb0579f4bb3b3b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613976616 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1613976615-af6438a70d4ae9c4cfae7eb33293fdc0fa8bb972
 
-55f62bc873477dae2c45bbbc30b86cf3e0982f3b 31caf8b2a847214be856f843e251fc2ed2cd1075 refs/heads/tty-linus
+686c6713fa9c4a3474efead5c0c1b05ffae40d1e 8e35b6c8cfa80be8d21b542795de3c269d07bed9 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzVCkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AQ4P/095l3dITjNmZ/NxmUaR
-BBjCMGHjZ38/5thnc9oADgpYp4GTVpLUaYkaUbEpFKbYlQSkCBrbOsVOGQPGCiYP
-o0qCbc8lmKXapU6GzUg6kz2Y0GBrhGxcQlA6PsvD+7Y8mtnZWjl+/vBoqcLKdPQy
-dw1MoC7HXemhij+PqjeBAozljzrdC/aLFDc7MsAXKCWto8pT7pMhAXlO7ckxQVOl
-UXrSagxtVbowHnG2N39d6JO+jBRI0NKRS87ULUK9eHI3Zs+fxto2CWcGLsNtp0QA
-xoNMQoMFK/QuMIe6LC6vR6qU+lhUXN/8GDmceb/OF06SadJmlbYwvvJQqVTxWUyP
-Q/plNCLF87ezVBNZZNg0pFuqZF+85Qpn+s93EtY7fCkNK4PMwaOAv1wv4jMOWjA4
-8OEaHAk0QQpwSYg9jgs7C8hS1x/NCO+PCfhQUruim8Z1UWWESnQ2IJ1kmN/32nmf
-Vd57N+friR6Nxh5gH41LtBdsSSr76eFaLlM6DZfpqEp/KdsTtI/QNCa041n0bWkX
-1o6XX6T0PwPI4hrdY7VuNeCHsBlzxIq3vKBKVZeTOcsO9TwoOJ6WPURsYaxnkq17
-l+7KQCHq1tljHdezMWxsRcmWjOkpAPHYnBXHXJ4mGT8OzrXv1mEcB+N5cghEj+CA
-2oSof+e3P0QSkaLH/9muF4CN
-=jZEE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzVCgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1+UP/iVXH4yfSgkIKWpTjXuM
+Odz3Nex90uMEkIdUdlYJkAUxPoFVFwyoHY0edJVZauYkKUVbW3ZKRCg34DiuFifJ
+zpRvx3T2wUztfeiGNV9LrBz2cl5DT/wOTXIIXMGcxZ0jfvl7dnaJjt1kTT/CY0MS
+yq5MZsUNQ5WvOXC9XvGe0JuCb+PJQ/YhlHByEN+MOznbzuyqCHMv1BsEGUTQMQCs
+EHINnq5rXdhxmQzLknyzKWhBTdpG2TjtP1BPS3GvfVO1EgwVQciVnfYc2ZAK+yf8
+xFI7zYo3SoaDThuGLSLEgo+KY6XzW/2gMhGy1DyucYQmtJuT4sIf5sEMSeT5o+zR
+Sp56LWEc6S4V6hxFebrz1u9tIQH3ndQkIqK3f0SoLfLuuIoa4hZB9BTiW8dB0CJa
+tJ0dfEwz2oHPx58P9fmy29U3aP8mVIUxGsuBfbUOK/5lcrJiqPlyZb9Cs29apCjp
+PIrwMkHbajB3yg9X+1Jnogs674gbum94fUhZjy6z8YM78lQbXyEIYSvVsQS1fua5
+YpgahWFdXNfGmi52XvH5nCbq5eAsJWAlxQZRcp1T/0GNuJTulDjISyBGUVVjx3ve
+wOUhBpEM9884H3Vc9OZEu9Msv/bL7tImQImTsBf8O60l36Vvw3qimXN/B3788xqc
+zeu3OKno5F7ijqR7AfqenuqY
+=yLIq
 -----END PGP SIGNATURE-----
 
---===============7522400213508155307==
+--===============7821100970877066277==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-55f62bc87347-31caf8b2a847.txt
+Content-Disposition: attachment; filename=revlist-686c6713fa9c-8e35b6c8cfa8.txt
 
-75386810d3a61f4bb9e180774291454f7235b8b3 mtd: spi-nor: sst: Add support for Global Unlock on sst26vf
-2a7808024b195a342779fb5d7b7df1c4af45cc71 io_uring: set msg_name on msg fixup
-5476dfed29ad9b19d4e187685ab71bb9c496f965 io_uring: clean iov usage for recvmsg buf select
-257e84a5377fbbc336ff563833a8712619acce56 io_uring: refactor sendmsg/recvmsg iov managing
-b976a5adf32eee7db928b5b77cffa3b008ebf2ff Merge series "ASoC: SOF/Intel/SoundWire: add missing quirks and DMIC support" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
-2927e6d398d0fca52d8f011a89dcfcabb2b1abfd Merge branch 'asoc-5.11' into asoc-5.12
-df91785a22e2505d2ac668f1d3e6b6e6d8ba627a ASoC: dt-bindings: add mclk provider support to stm32 i2s
-8a262e614ef8675cfde924c6ddf873a95db0be6a ASoC: stm32: i2s: add master clock provider
-19657a609b68f37afede259a762765b77914557f ASoC: mediatek: mt8183-mt6358: set playback and capture constraints
-fb3c293b82c31a9a68fbcf4e7a45fadd8a47ea2b ALSA: usb-audio: Fix PCM buffer allocation in non-vmalloc mode
-7f82e631d236cafd28518b998c6d4d8dc2ef68f6 locking/lockdep: Avoid unmatched unlock
-b6040f9b987e9280de7a0a722668bb2b890f2163 Merge series "ASoC: stm32: i2s: add master clock provider" from Olivier Moysan <olivier.moysan@foss.st.com>:
-5e3277ab3baff6db96ae44adf6f85d6f0f6502cc ASoC: qcom: lpass: Fix i2s ctl register bit map
-500c9f8c58a7c8cd5d9c1483569c046cfcfc47a4 ASoC: dmaengine_pcm: add peripheral configuration
-f08c74a3b52d126d053c741b906ee1ca2a4f3568 ASoC: dt-bindings: renesas, rsnd: Group tuples in playback/capture properties
-b5c28ea601b801d0ecd5ec703b8d54f77bfe5365 alarmtimer: Update kerneldoc
-174bcc691f44fdd05046c694fc650933819f72c7 timens: Delete no-op time_ns_init()
-abd4737f67d75563d1d0cc57bd5daab026e8c2d1 mm/arm64: Correct obsolete comment in do_page_fault()
-a07df82c799013236aa90a140785775eda9f9523 ALSA: usb-audio: Add DJM750 to Pioneer mixer quirk
-fee03efc69345344c8851596d74d93199b175bfe ALSA: usb-audio: add mixer quirks for Pioneer DJM-900NXS2
-b53f2fa136b1b20f03184f4a98fea75eb2705eac media: mxl692: MaxLinear 692 ATSC demod/tuner driver
-688e2dd468ace07b6c6d54f37d50ad03b5ec6cf7 media: em28xx-core: Fix TS2 active led
-1970105af093f2fbbc5578640075ca843575c934 media: em28xx-core: Fix i2c error debug
-2e74a01fb073900c8cc5df6b5e4bcbf575ac6c26 media: em28xx: Add support for Hauppauge USB QuadHD
-6532923237b427ed30cc7b4486f6f1ccdee3c647 media: smipcie: fix interrupt handling and IR timeout
-c0133e9dbac84bc6189ef5896b937201934a4ec5 media: doc: pixfmt-yuv: Fix 4:4:4 subsampling info
-fee20eb5ceaba5a475b9cd735777b48d07d1a3b9 media: media/pci: fix spelling typo of frimware
-08979f160eb96120354cbc6a815e8296f52cdc0d media: media/dvb/dvbstb.svg: Antena -> Antenna
-c90c103c8dc42a6d236491cf9f80145a5aaf968d media: vidtv: adapter->mdev was set too late
-063b811f34650bf88e24998eb9c094607cb3b53e media: uvc: strncpy -> strscpy
-ea12d248b0966d80f478a08e6138c6cb9b3883aa media: i2c: fix spelling mistakes: "enpoint" -> "endpoint"
-7e7618579dcde5b2e533a6f53ae7e26d3ddcc679 media: v4l2-async: Remove V4L2_ASYNC_MATCH_DEVNAME
-0e34fe5beacef8d6cbec5c8486309871bb18e7d5 media: ipu3-cio2: Do not zero reserved fields
-c432147c771d5efe00d0e96ceb7779636cd31300 media: staging/intel-ipu3: Do not zero reserved fields
-e88ccf09e79cf33cac40316ba69c820d9eebc82b media: i2c: max9286: fix access to unallocated memory
-38a50230292f232852f4e648d5e0a1cfaf37081b media: i2c: ov5648: remove unnecessary NULL check
-c1cf3d896d124e3e00794f9bfbde49f0fc279e3f media: v4l2-async: Clean v4l2_async_notifier_add_fwnode_remote_subdev
-d6701f13bd0747a78bb0b78dd45344e475afd512 media: atmel: Use v4l2_async_notifier_add_fwnode_remote_subdev
-49cff8db6c220e85092363c231ee609d3cd147c9 media: stm32: Use v4l2_async_notifier_add_fwnode_remote_subdev
-3a2822bfe45c50abd9f76a8547a77a1f6a0e8c8d media: exynos4-is: Use v4l2_async_notifier_add_fwnode_remote_subdev
-5bbefdefe8a6927e0cdf68bf02f677e06ccc32b6 media: st-mipid02: Use v4l2_async_notifier_add_fwnode_remote_subdev
-88367b1522bf7e777ed86bb9396c645296ee4ecc media: cadence: Use v4l2_async_notifier_add_fwnode_remote_subdev
-50fe0de0fedbc259eb79951f6912b78795dcaeaa media: marvell-ccic: Use v4l2_async_notifier_add_*_subdev
-5fd934d70215a7b7290af96f6d7e894e5957cdbb media: renesas-ceu: Use v4l2_async_notifier_add_*_subdev
 c89502c84b15836d204c442dac221f7ddfb80eb2 media: pxa-camera: Use v4l2_async_notifier_add_*_subdev
 be5ec392bb76d9e1b380deb6b390f6e9fb210172 media: davinci: vpif_display: Remove unused v4l2-async code
 c1cc236250629f3181e2b98c16db2642e295278a media: v4l2-async: Discourage use of v4l2_async_notifier_add_subdev
@@ -1081,5 +1037,49 @@ d643a990891abdb0fd93ff3740a6f7222fbb756c Merge tag 'integrity-v5.12' of git://gi
 177626c6d5ab1f73d41c94bf9fb0071149779bff Merge tag 'seccomp-v5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 a2b095e0efa7229a1a88602283ba1a8a32004851 Merge tag 'tpmdd-next-v5.12-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 31caf8b2a847214be856f843e251fc2ed2cd1075 Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+4deeb0fcfeed46012e09381cc3189aefb91abc27 staging: rtl8723bs: remove DBG_COUNTER calls from os_dep/recv_linux.c
+a09999aba0285947dffc0aa0e34f58b66b6c76af staging: rtl8723bs: remove DBG_COUNTER calls from os_dep/xmit_linux.c
+efa8701a4315c4276d55e6d77759af4fb73560a1 staging: rtl8723bs: remove DBG_COUNTER calls from core/rtw_xmit.c
+9d29e9bae626282bafe96ac097ddd81a4e4fee73 staging: rtl8723bs: remove DBG_COUNTER calls from core/rtw_recv.c
+b3b553c33bf06d5727c3afe96a65b81de44dcf9c staging: rtl8723bs: remove DBG_COUNTER definition from rtw_debug.h
+2db3444134f71b8fc63a5a338b7c794fce17c1be staging: rtl8723bs: remove rx_logs/tx_logs/int_logs from drv_types.h
+ed269bd8657297ec6bdcf630a78274111f085b8f Staging: mt7621-pci: fixed a blank line coding style issue
+b0f11af3646fbc800a6cee4748533676035bb0ed staging: wlan-ng: Fixed incorrect type warning in p80211netdev.c
+1c49a0899fd47dc41fe75e578c7db26aed412d8e staging: wlan-ng: Remove unused function pointer typedef freebuf_method_t
+15cdbd6d8a299a5933eb2d4472494e06c5177a08 staging: wfx: logical continuations should be on the previous line
+ffd80b43f6884032a710414c14f42ca711bcb92d staging: wfx: Fix alignment style issue in sta.c
+41f36148ab33f7d742050d0376ff04dc75f989b5 staging: rtl8192e: fix typo in a comment
+337a2df89d281061cce2d4ffa0789c04c4484b56 staging: rtl8192e: fix typo in a function name
+447c373f70da25cc7b6743c3a3b9197b36946ca2 staging: rtl8192e: Fix comparisons to NULL
+9c1a3f6b762e4335378d8da9bb9184dd84a52260 staging: rtl8192e: rename ShortData to short_data in sequence_control union
+35d3aad36f87780e10670c89d587b5d28a1477c4 staging: rtl8192e: rename FragNum to frag_num in sequence_control union
+246398970869243fd10020bbfe6f46b05772f86b staging: rtl8192e: rename SeqNum to seq_num in sequence_control union
+3ad8e6b1dff2a2eecb8432ce7c735b5d04376ef9 staging: rtl8723bs: Remove unused function pointer typedef wi_act_func
+3939cdd1092b5bd7620841a9776a433e6ada4a45 staging: qlge: fix comment style in qlge_main.c
+62703fe4f8c976e9892e55f154fc7bbdc7cff940 staging: emxx_udc: remove unused variable driver_desc
+16f0a320c25a036d6bc66853ee0963ad443f913c staging: rtl8188eu: Format comments
+b6f60c2ade327931700f8eac9e7847c80120f7fe staging: vt6656: Fix alignment of function args
+a87a5ece88d9558707192b30c18e93548bb9cee9 staging: wimax/i2400m: don't change the endianness of one byte variable
+2ad24834bb5c246e96452d8d8eb1f7454a3ca9ae staging: rtl8192e: rename charData to char_data in ba_param_set union
+ae44c85398dd000954cb3de6242ffc4809a63dbe staging: rtl8192e: rename shortData to short_data in ba_param_set union
+5988e0668a7ec7245d1615169fd9ad35433172df staging: rtl8192e: rename BAPolicy to ba_policy in ba_param_set union
+e2c00502ee10873b8a84b1dd5f721d59f8d4dba0 staging: rtl8192e: rename BufferSize to buffer_size in ba_param_set union
+2d0ea5e70f9f251ce3f9b96145754388778e8cdc staging: rtl8192e: rename AMSDU_Support to amsdu_support in ba_param_set union
+55f5e836a045866aaea45bf8312badecce0c9dd6 staging: rtl8192e: rename TID to tid in ba_param_set union
+ab3d1da7228ebddf840bb329ffd0efb88fd80bf4 staging: hikey9xx: fix warning styling issues
+8ca0d8cf4c2c50be453a3d9a002c742cddc8c538 staging: sm750fb: added identifier names for function declarations
+783adf37c9d24e65eb29e601c7512ff8fec353ae staging: greybus: Fix blank line style issue in sdio.c
+b60b55b15b5b906894c7f4152a852ed8edf1f922 staging: rtl8192u: fix RT_TRACE() in r8190_rtl8256.c
+e4dd0c89a4294d21ea4406053676ace2e81c7f7b staging: rtl8192u: remove unnecessary return in r8190_rtl8256.c
+9fad78527fa4d1e9b328d9553253f69afb38dc9e staging: fwserial: match alignment with open parenthesis
+7cadb7b7bee8a6bb0aa0451433e279fef39e4b9a staging: octeon: cleanup unnecessary parentheses in ethernet-spmi.c
+4c49ce9765cf147141b582adc12987ba9315d36f staging: gasket Fix comparison with Null
+c18c79ae1df1bb13c6d3c0bec19433ecfc826093 staging: gasket: removed unnecessary debug message to fix coding style warning
+191ff8e9bf95acec9f94417d173e5092f7f30164 staging: rtl8723bs: fix code style comparison warning
+60a178f9e311ce1da957771080b0f110f9f404bc staging: rtl8192e: rename charData to char_data in delba_param_set union
+e4d31e51c06083906fd55b83de28764938c3f082 staging: rtl8192e: rename shortData to short_data in delba_param_set union
+7bcddabf7472f6161f311c09cf130c3059831f9b staging: rtl8192e: rename Reserved to reserved in delba_param_set union
+f84125c97cb15bf582508e39c4d2517b30a2ae92 staging: rtl8192e: rename Initiator to initiator in delba_param_set union
+8e35b6c8cfa80be8d21b542795de3c269d07bed9 staging: rtl8192e: rename TID to tid in delba_param_set union
 
---===============7522400213508155307==--
+--===============7821100970877066277==--
