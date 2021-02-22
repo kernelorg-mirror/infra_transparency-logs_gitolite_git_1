@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1219258155972648404=="
+Content-Type: multipart/mixed; boundary="===============4211584689843136965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 22 Feb 2021 09:58:51 -0000
-Message-Id: <161398793177.18234.6916263778451493810@gitolite.kernel.org>
+Date: Mon, 22 Feb 2021 09:58:55 -0000
+Message-Id: <161398793511.18315.4826635025625831536@gitolite.kernel.org>
 
---===============1219258155972648404==
+--===============4211584689843136965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,80 +16,94 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 788437ba4c80d0d5e32ceaa28f872343e87236f5
-    new: 2552cb7195a5d819f946db69913c660d92718986
-    log: revlist-788437ba4c80-2552cb7195a5.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 282aeb477a10d09cc5c4d73c54bb996964723f96
+    new: af278fa26f75a68739789db382ba4fdb9df60451
+    log: revlist-282aeb477a10-af278fa26f75.txt
 
---===============1219258155972648404==
+--===============4211584689843136965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613987929 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613987932 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1613987927-526d8957753a193becbc89bad19ae47471712b95
+nonce 1613987930-0ae1c93e1220486dd0390346dd0f00f0607a2109
 
-788437ba4c80d0d5e32ceaa28f872343e87236f5 2552cb7195a5d819f946db69913c660d92718986 refs/heads/linux-4.4.y
+282aeb477a10d09cc5c4d73c54bb996964723f96 af278fa26f75a68739789db382ba4fdb9df60451 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzgFkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a/4P/ilorBhQbd+I91VfJdhE
-ymdNObpGIV6/8KLuMaq6Xs4szECzJLnZXNx+hXRzfqhAX92/hAjaPt21Jfnt88ux
-Q/37miJy4DSLYUzcfoeCtRuWS3Dg/zF0LIuptKsqMvFPqfnMXsPCZhvQfc3H4rRU
-IqkE948ylFSH39cY57dzApbH4wVBOvaRgjB0shHDPjdf7H8zqzoryg7e14BGQjgi
-Ip5/lNjvJWm5/1Bqv1MKwHIGqFPcpCmC5WwK+wXghYGiCvLGpUddQK9r2dq7CqR4
-oCHg+0ZBMNJ1SUGhEfso7fiyKhNlrXOF2YgZz2k/A8YAt2zLsGoOLt6nZ/oGNFEY
-+ZgUj7NC1oF5nnCu8eKQRJdfFJj45k5MmwNiFi4+iGxhnt15I/mhf8+u5ZpYDT+5
-J9nZLAONzZEVlSsHZGHlkI+0pprWVw3oj3y9uZnGSkzNtigSk+rqTqTOS+/JsFJ0
-hpvuABO3EgfJ0x0bdI+hSwzAYYT4kXZXOe+31UpmJN3T29Y0ls2sQ6mc6Y4qHF9O
-YYgq8UWsYi+yA/RFpHkugF7tiqb1f93zkX2ZyU3zRx89+0igTJZN7ln7jNPf/tN1
-bN+pmq0ZXz2x+Kt8ERop+tJut3el3W6Xxy1uqRXHHHfSicPzIvFFgTEKuAwxMMLQ
-dcoACGBN90Ei6C9n4kY8+wc1
-=AWaG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzgFwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aKQQAMp3hqhSdYIixPCZYHv7
+JPVZFbvk7+9MSYzbjzh61yIK6u1VeL4vL6cwaspzvFStfrOiwfLIJAE78rFKjrtj
+JVG5qFRXDC27YQ9Bxe/ZBAp2apO+Q5nJwW3K/KuQO+4bviRrBMXon2/V7BPOTrFb
+VuGZIYHV3PRxYVJyHE12aSVzJHpXFsGGG1YYC6jNYRhLCmIRnAksTu0BAJjXxNYR
+9YmEQOVKTInbpegDo0gnpcS1RXAMKdIsPdd7b5DyTiQeFJYeHuITsFcNx7eqetDO
+EiWNcWPbyQpvEJ7Z0dTo+rzNmejAWcXv25L7pA2WlDKgUzRHzzMVZ23ARvRDOx0u
+VB2h5rm/u4qR+Y0944y5eRoCaiZt4WZ8jgYfOJPWc1BfdHg8yEtjNM1RWt2h0mfq
++ZwBekENLSYZ3+0fcgGQvnvKQeE1f0iiUPMGbY7CWgocM3JXChRUpOHLcvjJ1JAd
+8SXrOT8iJ0stG2CHbJ/75hI8Oa+J2RRPDOOeKJhz3br0mZJRd3bN+9aYOGlgXJRz
+3J6mETF+L8sf583Ga3dL7JoMmzSqtkhbaNkII1RAK6+nUlV2CkYCwmpQNQqKa1DQ
+QmMoQPSvL8ovzCdJ+9ov5ObFK6WK9jUKrAzvV9I5Pc7IXbTgv4MqkZtA/wmNNny0
+zoqS5XN3/2xfiPOt0SoFaBNv
+=GNbD
 -----END PGP SIGNATURE-----
 
---===============1219258155972648404==
+--===============4211584689843136965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-788437ba4c80-2552cb7195a5.txt
+Content-Disposition: attachment; filename=revlist-282aeb477a10-af278fa26f75.txt
 
-9126443155955d4fdfadcc9b4d9bcf9ed5f208f2 tracing: Do not count ftrace events in top level enable output
-0ec799471dfbc8c5340f53491666a607e236b712 fgraph: Initialize tracing_graph_pause at task creation
-59b313767032bd3d1d588591094e06907861affd af_key: relax availability checks for skb size calculation
-aa8412537a49fa44404ffe8a3294596cba7360ca iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
-fa0896803ed80ee6b6953cb364415c7ae1727b61 iwlwifi: mvm: guard against device removal in reprobe
-e93fbea1c12861dbecffcac9495b60631e74869d SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
-3194073cacf14ef19721c99c870d31b0d3e2c3e5 SUNRPC: Handle 0 length opaque XDR object data properly
-dc94aff44410cc98f3381ad2b73378e3a482208c lib/string: Add strscpy_pad() function
-0f3e123f96c882fb55ef16f1fe98d1560298333e include/trace/events/writeback.h: fix -Wstringop-truncation warnings
-1bea4efb1bb80cd797469df3fb9b3e291818f4ea memcg: fix a crash in wb_workfn when a device disappears
-17707eb4bea5838ab8bef13f19d5ef81e845c84e squashfs: add more sanity checks in id lookup
-c37feade014303266788688b0fd91a6aeab35180 squashfs: add more sanity checks in inode lookup
-33391d1405f8373280b8a209c604104767913af3 squashfs: add more sanity checks in xattr id lookup
-0f183c55747fad5b9eb71d814e1bd2b9abafe8ce memblock: do not start bottom-up allocations with kernel_end
-6147af1e9eb382e8953fcfd8ea67d397ae3a4e60 netfilter: xt_recent: Fix attempt to update deleted entry
-c3dd31df59a57c23a56a7e4e2acb6d6b288d15b1 h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
-17110dc3826b34c621467df523f1beef327775db usb: dwc3: ulpi: fix checkpatch warning
-87ba458c85113b4cfd4285746eb8fb2fde08ed5b usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
-25ab8a50babe9f5e408924dc90cb0ad38b0f1a34 net: watchdog: hold device global xmit lock during tx disable
-e58aa2bea178c4cf23c78c48e9ff0499a9b301a8 vsock: fix locking in vsock_shutdown()
-07e53b3268c840682f5ac80481e42ff3f19d48e2 x86/build: Disable CET instrumentation in the kernel for 32-bit too
-ba30f622859a70a7dedfa2390484664680317180 trace: Use -mcount-record for dynamic ftrace
-b8f80f8e4f16e4c9fa82b4658f6d07d60caf3ab4 tracing: Fix SKIP_STACK_VALIDATION=1 build due to bad merge with -mrecord-mcount
-930b726a88019e629615af6b9b108aa69445ee73 tracing: Avoid calling cc-option -mrecord-mcount for every Makefile
-1f4cb1a3c09078fc78a65ac27548a19b056917fe Xen/x86: don't bail early from clear_foreign_p2m_mapping()
-10639a29ce345c3f9549462ddcb141b644ddd6ab Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
-5bfea63663b7ba0f790ac3c827b74ad88406af75 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
-d7bcfa07d3e38752878e583c3b4de641848b439c Xen/gntdev: correct error checking in gntdev_map_grant_pages()
-5b868343dbdacc91ccfc1cfa02f62461922943ae xen/arm: don't ignore return errors from set_phys_to_machine
-3c72bb9df1697e6ec8eb74d7b48b2e73a5285030 xen-blkback: don't "handle" error by BUG()
-be297dea08ff3a845d6eea8f9c854135251740e6 xen-netback: don't "handle" error by BUG()
-d57acc3f0e3e0ff2172df835b14d0a333312ca2b xen-scsiback: don't "handle" error by BUG()
-bd8534eb1d56d7cc2030b48faab5851609e978f0 xen-blkback: fix error handling in xen_blkbk_map()
-2552cb7195a5d819f946db69913c660d92718986 Linux 4.4.258-rc1
+2b40588d7bbc1bf3975326b810199f5623ea4ad5 mm: memcontrol: fix NULL pointer crash in test_clear_page_writeback()
+e7cb7c96c52cad6f8ee0512f38e8e2daf96abbfb fgraph: Initialize tracing_graph_pause at task creation
+a43892ce57756581cd8086020bda59eb2c857544 remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
+53c6eb377f2e837186dd20f565ba8fe17c3f640f af_key: relax availability checks for skb size calculation
+7eb18dc15cad75dfcb8c2403f2e042b6fa96f19f iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
+b42e0795d20c6a7590d5bbfb5cba64e9c5bcd63a iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
+101ea6881efe57f7eeff0a18bc58ca24607334a8 iwlwifi: mvm: guard against device removal in reprobe
+2019b76bdb88cb4b8578a121c2a16d87e5a06643 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
+61e764397669254c4f2e0629849ad85c5cab1c3d SUNRPC: Handle 0 length opaque XDR object data properly
+3bc4e7c1af7673c8320d9e56711d733c508c19df lib/string: Add strscpy_pad() function
+daadeaa0b23189474b502dbe78f308d624ab0718 include/trace/events/writeback.h: fix -Wstringop-truncation warnings
+7877d1462dac55a6b53a3ac3871c31d8b54ad898 memcg: fix a crash in wb_workfn when a device disappears
+5c4e5884508335da1131dc707be3f465b77f7d24 futex: Ensure the correct return value from futex_lock_pi()
+61945b70d9917b00cea72aedce346ecf52617c88 futex: Change locking rules
+21a275b717b17112e06fe5dc565031ea6646bbc5 futex: Cure exit race
+f4526ea1ff2c92eb01398de23aa954aaa7b079cb squashfs: add more sanity checks in id lookup
+af755133c923d9e9551fedddc7a282c35dc5e375 squashfs: add more sanity checks in inode lookup
+a1b21cda41e04508c61afc306ef262d374cb9faa squashfs: add more sanity checks in xattr id lookup
+0c0377ce3bdba3964e25fba77ff4844f27b0aacf tracing: Do not count ftrace events in top level enable output
+08dcda529cc11b8817159d12e8018383fe5616d4 tracing: Check length before giving out the filter buffer
+dd03b5e77de8bff30c91a3f411736864c1ab8a88 ovl: skip getxattr of security labels
+d5a39bb87d0b943d95868539bac1afa7f0c1ceaf ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
+3ba90fe713427c9b59dab82c87494f8ffde0ec9b memblock: do not start bottom-up allocations with kernel_end
+aea13aee3efd7b89e9535a92c43ab4d6030c6856 bpf: Check for integer overflow when using roundup_pow_of_two()
+d592cd877c80254d0a14180e27cff481a73d33b5 netfilter: xt_recent: Fix attempt to update deleted entry
+1b0ffa86ab2193e13110277395662b73b5835291 xen/netback: avoid race in xenvif_rx_ring_slots_available()
+d5ec1d70c67cf646f196d8440e51d8263b469098 netfilter: conntrack: skip identical origin tuple in same zone only
+8b32a00ac5bdecac4aa3a6955d26f101bb4213b2 h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
+821ac916281b24b3505928d02098f5dc82e886bb usb: dwc3: ulpi: fix checkpatch warning
+c55d5d6d6849214fa37872fb7f5066cc125be831 usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
+4e159afb422c8a39aabcddd3ae59516d6620b091 net/vmw_vsock: improve locking in vsock_connect_timeout()
+a8aa7712c966032273b8ccb2dfd5cfae2266c3d4 net: watchdog: hold device global xmit lock during tx disable
+42e52b9921498737810390c338cfde7d1b19be4c vsock/virtio: update credit only if socket is not closed
+201284658f0e4b8e4753b517a7b77013c1631d31 vsock: fix locking in vsock_shutdown()
+fe764c57657b9930245782a4b7051c27d7f8670c x86/build: Disable CET instrumentation in the kernel for 32-bit too
+19c40763ebff5bbed1d2f5a28ed2c5841c8859d5 trace: Use -mcount-record for dynamic ftrace
+3e3075f36525536198116e14b71c53e950af93d6 tracing: Fix SKIP_STACK_VALIDATION=1 build due to bad merge with -mrecord-mcount
+cd6722e59a980c1ac11212cab74d5c6d84f3726c tracing: Avoid calling cc-option -mrecord-mcount for every Makefile
+9a830e00ac9e9dd70aec614d6af73e8255b5a673 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
+dc740e813275dcd54a315184494d65b53093f013 Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
+78f785569209d674dcfc8ec943e007d1655318f2 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
+17d6b4f32bb401adf3b2789268c29b6443d220ff Xen/gntdev: correct error checking in gntdev_map_grant_pages()
+481d88658744b0128acde2d304648050ef94dc2f xen/arm: don't ignore return errors from set_phys_to_machine
+47217c08f9600bd7aae25113ae0272c285ee873e xen-blkback: don't "handle" error by BUG()
+7586a99d8b5362eafda7862ed98f2d17239ed54f xen-netback: don't "handle" error by BUG()
+e55f0bcb1db89e06e5f6d946e66baee423e41708 xen-scsiback: don't "handle" error by BUG()
+dd1be368c9183835d6e0b3c09b95a71ebc7f8e6c xen-blkback: fix error handling in xen_blkbk_map()
+af278fa26f75a68739789db382ba4fdb9df60451 Linux 4.9.258-rc1
 
---===============1219258155972648404==--
+--===============4211584689843136965==--
