@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5654525343162268302=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 22 Feb 2021 09:29:32 -0000
-Message-Id: <161398617219.31275.11929080200042279024@gitolite.kernel.org>
-
---===============5654525343162268302==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 22 Feb 2021 09:29:49 -0000
+Message-Id: <161398618934.31491.16470935117125507414@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 71df6ce27d2efc130ae64cada9b70463b2c0b75a
-    new: 3cce5b9f340ebb5b4d1b01007a9984f84f358e54
+  - ref: refs/heads/for-kernelci
+    old: d7325d7d9ea34f726e39801933da028ff2d353d8
+    new: 734c937d2e453639d70fc97b8b8934f7e3531b25
     log: |
-         3cce5b9f340ebb5b4d1b01007a9984f84f358e54 4.19-stable patches
+         296a24e88a24ff3ab59099e53a04a6557cb31c9d asm-generic/pgalloc: allow arch to override PMD/PUD alloc/free routines
+         df8f11af0dc8065bb1e8136b19d19be30f93da00 efi: arm: define efi_pgd_alloc to permit arch to provide its backing
+         660bb1c4ea974a9fa89ea53861221f9242df8588 arm64: mm: add helpers to remap page tables read-only/read-write
+         72f448aa19fe0db4b9e87e8773fdf9e25055244e arm64: mm: use a fixmap slot for user page table modifications
+         4ed317d7ad38121381cff3498a86192b3210f2bd arm64: mm: remap PGD pages r/o in the linear region after allocation
+         fbc98d9f49fa3785739c81ee98bccb3c0a00619e arm64: mm: remap PUD pages r/o in linear region
+         c2d7080787a8f5fd2a9c7ae08e97859df2bb4152 arm64: mm: remap PMD pages r/o in linear region
+         734c937d2e453639d70fc97b8b8934f7e3531b25 arm64: mm: remap PTE level user page tables r/o in the linear region
          
-
---===============5654525343162268302==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613986171 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1613986170-cf60993b8fe5b1bc0211eef8b408115c549740fd
-
-71df6ce27d2efc130ae64cada9b70463b2c0b75a 3cce5b9f340ebb5b4d1b01007a9984f84f358e54 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzeXsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+owMP/3KKOkNxbxW64hAX8YmK
-t1voblom/SdyF0ewlB9T0sMhYvTWtqMKa+wiZoBOBxkEbPGHHxKt6tL0lk6Kkrnm
-Ig2xCrYalicEe/iENL6egg9y2uAIuoeaDoAmo9mXmAanxrLV3KRudZUzOcSS29eK
-dE7WsfdBoot6+ssezb20Yi7o1d8LL9ZAF1T8v58pwTbu8/8vLMWTRcDEDSI4dd6a
-GxMv9mIG/bdAuk+2DFqCbh+ire3gWvBRje5ijtiZMF/3WfFFJBnxa6hSwmRvm3XP
-NKqY+Q8wMXkuBTIeXciteBwgiqQNdp+JoTwSn3U3UyYEhcDbKUjOwYFlTdBfQZdc
-a5rnAjMjWCMB2buRHE944wLPW3cpo+dulLGZuZEz1l7uwi1WHrC4Q2HRfhwUFO7K
-7hgk4BTSigCQBjQWfogkms2bEmiaD1NNekxT95qWcehpjnK/gm6G6IPf9+kbueOT
-QRrWW3RvAkCh64YE7bdwLEKDsQJcM0/Nj2pyKxCdlFFb8raO6918IXjq1m/EyLD7
-XyZyGlBipj7CCkKBdL2ZwjwLKBtZsoZ1nKhVdKBha+e2nK3y5ibRb2V+RLnHn+f3
-EGPkTRMVlqqAnPtkR7ZA1yMUiVr7BkCrO+6fhA78L3fz+LHMve1rMRIr8oovfVU1
-Daf+Se68FMfpv/iyFuLT8g/4
-=S0Bj
------END PGP SIGNATURE-----
-
---===============5654525343162268302==--
