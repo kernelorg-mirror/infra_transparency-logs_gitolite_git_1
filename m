@@ -1,61 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8094558289540400327=="
+Content-Type: multipart/mixed; boundary="===============8650284233091041226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usbutils
-Date: Mon, 22 Feb 2021 14:12:35 -0000
-Message-Id: <161400315512.17705.15713643586122178020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 22 Feb 2021 14:16:47 -0000
+Message-Id: <161400340791.20443.4449113705977374902@gitolite.kernel.org>
 
---===============8094558289540400327==
+--===============8650284233091041226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usbutils
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 23b232bf365845f572785b516128bfc2eff32ebb
-    new: 81ee5fb9d6fd14e860f28af64da837e25af1b08e
+    old: dcc7909bb12a1bf40b2c3cfeca7166bf7e601c89
+    new: b38ab012743eab7e90c0fd7d2e112b797735f3ba
     log: |
-         35dae962ac195066493af0f7b84ec0dcc62250b1 LICENSE: rename GPL-3.0.txt -> GPL-3.0-only.txt
-         5ea020b18906682463023cfc25a96d309060a053 usbhid-dump.8.in: add copyright information
-         1a194e8ff1114519b20ce0703095d9bffe546f37 .gitignore: add copyright and SPDX info
-         4440dabbd6fb12c42120598bd13512969170a867 usbhid-dump: add copyright and SPDX info
-         15f6a56174f7f9a36565671d10ed41b34a0aa2a0 SPDX header cleanups from GPL-2.0 -> GPL-2.0-only
-         81ee5fb9d6fd14e860f28af64da837e25af1b08e usbutils.spdx: update with output of latest reuse tool
+         b38ab012743eab7e90c0fd7d2e112b797735f3ba scripts/quilt-mail: add Florian's email address
          
 
---===============8094558289540400327==
+--===============8650284233091041226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614003151 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usbutils.git
-nonce 1614003151-2f7d2889cc1c5962ee1d9bd8a347ea754e85b783
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614003406 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1614003403-a27d18be48ce3a976c69c70116c4e0a104452c40
 
-23b232bf365845f572785b516128bfc2eff32ebb 81ee5fb9d6fd14e860f28af64da837e25af1b08e refs/heads/master
+dcc7909bb12a1bf40b2c3cfeca7166bf7e601c89 b38ab012743eab7e90c0fd7d2e112b797735f3ba refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzu88bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UdgP+wZiYvAM1SsmCc1PJCV2
-rxbHeC8WKhvN4+f6yX+XRl9/tm9xIdGrEIuQa2JMgLkEvSE6pLb7Y5ziHH+Rtin+
-6F0XFlh5UMgKso9noQSpv4N3Caez1B6HfgJGZqRoSV3cLZtWFmYEKSr4LMEnfiuZ
-uqzI7zRuQCEgUmJzxNSUsqNcgOFdyjCwLhietVE+4mlny9gyUIVcPO5Qf9Z/BI+4
-gLYqz9FvbgjrIJaRR28IBeK+7OQFp42gyVvysVyV1TpMbXNUt/jpjtmMf29VP4ER
-EwNzajjNIuOTHsmIDORrHpfh/J1SSYu8pAUaileKYceVVoP699ii9wSqGUsdxqvn
-IVZWa1kb7yCPXhPQeBoVP39cHlr7237jq9FWZnupbbIyeW2lqlH14xCT/xVvbhSp
-7VgdSfNxLpz1SxFzFSuxA8thsgzus2NnKvuMOKwg6JcJYlMrUeFrpHjoJVp+xFzU
-cT0/cx1UAJIJ91XY1jKk9BHvb2wzxcP1HqTI7WHKVTZHNrObFT3TRGP3c6ouwI95
-Ehf+8vDgEoVUF/QzyrSzDciVlODMrArgU0AVPZlRKskPFH8QzGExMHNuGz+xVY9n
-TgMt6pjxtcaCffgJyPani6/IDKe8nAXJC7Bi1+Hv9BsFGgebDw/DOpoSqcOIc4HK
-xltLTKhFyi2Y7XGEVrUB4AVd
-=rYmv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzvM4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RqsP+QENz6Eq/xdTHwpcMT+8
+PrnQvItWVucRlMyg1Vz2nhDRoeOi9MkSIMgamKtYNtYx5SCiaU8FYnYvXftc9joW
+KMS1r1HSDvoWfclE1g9G3XXioGwDepg7zFnEWa7/c/kyi4VJ5O1Jvxke6sUmTp58
+8RFlGWpI7HLh3QnspWoGVQ8i4iHqJmaXm20EMx7d4E6eqTTvhbetOKuR9pCpFIiI
+4VTfPXNwj3aBZ9AdKFIbplp6Qd5OosMf9z1MINPANTtlRMwm7VeXPrvMdciXHuYF
+mo8ZZMpKiDXwv6Yd/6ZolufeUfmkdH2DHNHqTzkSsLvqno1Tly95B+20+8nwhWoB
+Q+YBhjwGJmMj+UqJay5iZQ96X/DR5r7yOSvxOqIn2SNCveq3A1o5m8sVfxAylyHl
+t9SJIrvul/ODCrLEt0Ry5Zh7kYtIM6nIOkDmpWlNd7eVN1/EgRDNZNgMp622lVJr
+1yh2h0xdl144jNlkJYuPub8TThqco3ewcRFx5z4DAIXmd9fPRHi/svb6Kz9yEl0O
+OiTkJt4ALR9Uqf4xpcy+oLMTlQgXO99aLILWcQpmJrA3DZEy2DAgVR1HUz+6GXY2
+H5u5JMtbF8mlswktHJrzrbVTb2HdbDNuLPNQORdIIfX6mapgUExEJfSFpWxIFlRY
+GLt9ELOPT/9QOb+TTJOdqpcv
+=JrPM
 -----END PGP SIGNATURE-----
 
---===============8094558289540400327==--
+--===============8650284233091041226==--
