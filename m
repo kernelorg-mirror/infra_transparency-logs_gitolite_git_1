@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 22 Feb 2021 23:03:41 -0000
-Message-Id: <161403502142.17650.16002359110042202321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Mon, 22 Feb 2021 23:07:20 -0000
+Message-Id: <161403524096.20053.2546881654450264573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/tags/clang-lto-v5.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5fdd98bd4230e0f8c6bbe64971a9d0653919a59d
+  - ref: refs/heads/for-next/testing
+    old: 12577b728c005a482ecee137cda523cebfaa12d0
+    new: 16c90ac027a98f2bb63534c625befee648350153
+    log: |
+         16c90ac027a98f2bb63534c625befee648350153 xfs: Replace one-element arrays with flexible-array members
+         
