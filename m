@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1421333221853449239=="
+Content-Type: multipart/mixed; boundary="===============0717372717929594124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 22 Feb 2021 12:10:32 -0000
-Message-Id: <161399583264.4075.2193082373105744932@gitolite.kernel.org>
+Date: Mon, 22 Feb 2021 12:10:40 -0000
+Message-Id: <161399584056.4176.8094274615545312896@gitolite.kernel.org>
 
---===============1421333221853449239==
+--===============0717372717929594124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,96 +16,104 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: af278fa26f75a68739789db382ba4fdb9df60451
-    new: f0cf73f13b3979117e50a90dc884d48c1738105a
-    log: revlist-af278fa26f75-f0cf73f13b39.txt
+  - ref: refs/heads/linux-4.14.y
+    old: a5c63ab61bfd5efe7354aab7f246e76c84702148
+    new: 5d849f076141b32ff58f296e2db48960d320954a
+    log: revlist-a5c63ab61bfd-5d849f076141.txt
 
---===============1421333221853449239==
+--===============0717372717929594124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613995830 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613995838 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1613995829-0ad54723b40d75d897ce95f70939437856f4f167
+nonce 1613995837-6e3d8d12327d958a9dabd3832e319240a354b417
 
-af278fa26f75a68739789db382ba4fdb9df60451 f0cf73f13b3979117e50a90dc884d48c1738105a refs/heads/linux-4.9.y
+a5c63ab61bfd5efe7354aab7f246e76c84702148 5d849f076141b32ff58f296e2db48960d320954a refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAznzYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ddQP/3Whr6iL/ge7+PbL7axp
-q90c3fLeYjUJqYCImQbpuvdJHNJ7DjLkX8Ye5bUnihT66IcHdWw4+/LRfXojb1S0
-3UmZHbolFBvZ4YE6/X/rHkyppzi6n0/F4ING76vn9Gl0++n6w7D+dK0r6Ei+S3Ux
-tsnpxHeKzujH/+WGwFW34d1jXO3W91MV9agwkNJY12HUOIREK3/dDeVps7ZyC4ZH
-1UyvU8ZUUVfEXDHz8rJV1iplwNzzVdnKcOWlYcF7ErKcoCzb/77n5l6E8DBbYsuB
-b5I5cUAP0nrh/j4CDqX0XHQTn8H1TYhiVHh1ayUCUt4IbmJ04cqsKHlumcdNJiQX
-lP8WYjt37w3jPfnfJhPBAm4CuuEQUSAKK0Fbay9ZeQsY0+LIqPENoueI2wW6htDR
-ERpwtvDdd9NtPM9jQVL8bwWmBHh80u3u+clbXrNhLjWY9OK30N0MBrOxMzviz+ql
-ZURvf3McyT0f4Xi2KfelcKEMWaca66gTzSQPcnjkSEydsjzEMrXbAm3yx/srWjMr
-I09zrNHdmQkdTfVZDPG1GNTRTHuBpUSywL2Sqs3j7km07vB0tzPnwfvjiLLrr/ct
-0SBfuAhKYY0LEESBztnDjHqWFqLQcPS5zCroFOrN6lvgKbU/rUWEydwSBMyFjgl8
-jmmAW7MwDrgFI4HVgoXQBBEm
-=EN1M
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAznz4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SLoQAIS3/VnpyIjTUGVEeypV
++xqnE+qSCU3tcxc6WKnL0yvAk3dx93hH0w+XPFDMYucbg6a607okGVDqAxH57Sdj
+geeryDcTiZJiWTkr2mmkeH918H+IKeH5HjWm/bzeT6wpdEOXxEqGRdGZ5czyZSN9
+YdrV5UQOEIR6tYEk+w5riGgbVnWi8w04dzXzGSa8/+zJOKsMstVjJywHjpe+1NFq
+wjGE2rW3RoRoRdlrRfH+20Aii37UNzZ/ANqqRXDWJxxs4JtGSRJanPVmUHAoQM/W
+juREmwJKO7GGYp7WIPgo8pxm5vMitkUPWV1aMLkSupjNRBKmFD6HlVxH3Hmf8I1I
+/CRMDg9p3Y1Ox+/4kTFCwhQrRYF/OLu1lsMkkjCpiCv0Yc0QB3eut2/kAuCtTA5o
+T6PmaIKOWaEUs1DCjZrsbDZ7Il9IsyXJiTGtLCzdqJLZ/lCBJnmqbCWgL1fcb3Vi
+tBjhp/Ggtpg34GlKoe3AuKWHZQKqVv+dzhPOjcB4bgirz0W021eqwMDa8RL6Z9XC
+RAzka3OJ/j2vGNlxRTWFKGEt4YzqAWjlfX8J8P+EgXsAN1D2cNh/skGlVB4RuCaK
+PL8PZEY5ok9bkbZA60hLwHGKXxaDd8m2R4DtvKwa7VpRQWmCcoYRgk8pXTWEjjkr
+/pebeM8Y2Exe8U4/CipFUWhe
+=SuqR
 -----END PGP SIGNATURE-----
 
---===============1421333221853449239==
+--===============0717372717929594124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af278fa26f75-f0cf73f13b39.txt
+Content-Disposition: attachment; filename=revlist-a5c63ab61bfd-5d849f076141.txt
 
-c23d13ce3aee06830d5b3e129c45635594835b30 mm: memcontrol: fix NULL pointer crash in test_clear_page_writeback()
-210e8e28e1e79acb02550321b54a36ca7488b724 fgraph: Initialize tracing_graph_pause at task creation
-0968b0bec6dbf510a9590d10f8116f1db77e325d remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
-a3fe63d2983f4a9127467bd385c6c2b6fa4fc4ce af_key: relax availability checks for skb size calculation
-9af86542ba5590fe4711737442d285431c356d9b iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
-ee3e3133c36866fecc541abcc3ee7231f904c9bc iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
-ec826fc1e06a72c99bfdc7ad3ca6a1c329c82fd4 iwlwifi: mvm: guard against device removal in reprobe
-e90ac1dfad8d72ec8094559e2e0e8db0067a94f2 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
-a6eb276ef6a1c5410ac05c654b1b2fce37d3e4e6 SUNRPC: Handle 0 length opaque XDR object data properly
-a56fa950b16a6f8913bdad865ada2d490b42822b lib/string: Add strscpy_pad() function
-518ecf79ae367c941df8e719046aacfde10bafae include/trace/events/writeback.h: fix -Wstringop-truncation warnings
-79dc2c7d188b75041c5f0dd73ac1395d02d275ab memcg: fix a crash in wb_workfn when a device disappears
-f22902b850672dd7d248be9fdb829da2d79903ce futex: Ensure the correct return value from futex_lock_pi()
-2170338dd8be6c25ccff19d7f4007c4145d8f823 futex: Change locking rules
-c158b461306df821107fb04be4c50e31d5bd1f82 futex: Cure exit race
-72a13acd6c19b453228df5c3b82296c5d739168b squashfs: add more sanity checks in id lookup
-1a4470ffda9254e5585930e3a03c763daaab6b01 squashfs: add more sanity checks in inode lookup
-5c20c5863b545494acce7773c0840a87a85fb9f9 squashfs: add more sanity checks in xattr id lookup
-4d60ad6af559b5628df8d8fe808abc06c304e7c1 tracing: Do not count ftrace events in top level enable output
-9bb8ba064b474a09d1d7eb3e66217266c8ca2af9 tracing: Check length before giving out the filter buffer
-ef35a0a4b2e64d3d736b0cb76f8ed1a4feb8a347 ovl: skip getxattr of security labels
-fe6c64fbc435dc2637d147efbeb3d0cdb1f8def9 ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
-ca1d767024e6df7da1eb62880007cf1e49b676b1 memblock: do not start bottom-up allocations with kernel_end
-652c46714896f3a6a4e6d4aea507db84aa598502 bpf: Check for integer overflow when using roundup_pow_of_two()
-8c84bfe1fe6f5509d773879433df88ffd02650c7 netfilter: xt_recent: Fix attempt to update deleted entry
-8659ce9d253852ae5fe174a113c571dde70f7f18 xen/netback: avoid race in xenvif_rx_ring_slots_available()
-e6e850cb1de14fb8233dc03b82d902b6e445b4c1 netfilter: conntrack: skip identical origin tuple in same zone only
-d322b2fa6d815a24c0d6e67c157e674bf53649a2 h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
-2a22fc60d021ee10a2d645e0e9ca2a8e6b432b02 usb: dwc3: ulpi: fix checkpatch warning
-a5688aa2800c56cd4cd1e2f7ca332338026aae96 usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
-c7db12474ca38b4179f01fa518c553d82672c043 net/vmw_vsock: improve locking in vsock_connect_timeout()
-780f4f8b6a2134323d4c57cde76a9cfada133d22 net: watchdog: hold device global xmit lock during tx disable
-5f070fad5e467f2377295daa9ddd7c1ac43cab7e vsock/virtio: update credit only if socket is not closed
-ea0fc2e4bff89e9df26997a06ce8dd194468d151 vsock: fix locking in vsock_shutdown()
-c72e9a0bce24cafc2b5d78d46acaa9ee08cfa3e2 x86/build: Disable CET instrumentation in the kernel for 32-bit too
-7ca993b3745ed1c94a3917d2912543b54be835a6 trace: Use -mcount-record for dynamic ftrace
-24dfa9ec48129acabaf167cc4f914848b6bbcb3e tracing: Fix SKIP_STACK_VALIDATION=1 build due to bad merge with -mrecord-mcount
-22b12e9e54bc5c94f1ee49d3d91ff9426b548e3e tracing: Avoid calling cc-option -mrecord-mcount for every Makefile
-eff39a495ef2b629c9ea3576a1ba3b61f3d6adb2 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
-e066eaa6ed26942dbc3ac9bbbe33bdbf0d05735b Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
-34e3757c89753327f1a3b0b5b24f43feab1a433d Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
-1afb43464188454af0fceb6bd549fd1d2665322e Xen/gntdev: correct error checking in gntdev_map_grant_pages()
-d57ab7cbb926d723b20e89695286d6bca2b60cee xen/arm: don't ignore return errors from set_phys_to_machine
-677e635600fe382d49fe0368df25b748fb8bc033 xen-blkback: don't "handle" error by BUG()
-538d04911d1d6ca26b82fe8bee49faadf0839ebe xen-netback: don't "handle" error by BUG()
-826ed5a17afdf7996b015fde5cbc000406c3a675 xen-scsiback: don't "handle" error by BUG()
-b28216e9cd6ffcef3adf41f0735e87780ad6c4d5 xen-blkback: fix error handling in xen_blkbk_map()
-2e6232365d7aeb4d2a9150e8e5eb5b9294b1bc7c scsi: qla2xxx: Fix crash during driver load on big endian machines
-aae54c9d219b3a2bddf86449055a1f464aef2e9f kvm: check tlbs_dirty directly
-f0cf73f13b3979117e50a90dc884d48c1738105a Linux 4.9.258-rc1
+5c78ad41b84bf4f8bd1889af86863831d67a14a6 fgraph: Initialize tracing_graph_pause at task creation
+f6990a0ae3598f520586b8f0dddb33f8db0c584c remoteproc: qcom_q6v5_mss: Validate modem blob firmware size before load
+c00fbe6b764e227bd8ae67f5ff3d9ff688b50dd5 remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
+c1f60b6f8244b6eb9feab103d55c9b21f1c69498 af_key: relax availability checks for skb size calculation
+894cb588fa163d3da173a766d1299c167e5f93ff pNFS/NFSv4: Try to return invalid layout in pnfs_layout_process()
+4f13db4c0bc430835f3efa8663bf9c261c89f19b iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
+a40004c173c30ee780d18d5356b2d1b51340e9f3 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
+7c20377a37dd5cf32888189f3030d94a65539ad4 iwlwifi: mvm: guard against device removal in reprobe
+69f148b2593efd87029bd342e81ee6fc6120e5d7 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
+8d32b0ec1164acd5cdd702e58c2472090039202a SUNRPC: Handle 0 length opaque XDR object data properly
+d1124ef1ce3bb2f664a830c9d844a0084a5ff9c3 lib/string: Add strscpy_pad() function
+44f412bd8651afb8da3745d629c4ddab43c437bf include/trace/events/writeback.h: fix -Wstringop-truncation warnings
+af26691afb09ea9f3400e60c636750cb55700514 memcg: fix a crash in wb_workfn when a device disappears
+485c0b4f2c9729916105b751d5232d6edf7b95d4 squashfs: add more sanity checks in id lookup
+6cf8da40945ee3be3ac142ee8dfcbd5fd981d1ab squashfs: add more sanity checks in inode lookup
+29b963424d18dc841b90c7fe01d870ec4af1c45c squashfs: add more sanity checks in xattr id lookup
+a69795d0f9c459f08b6e871a1ce832f8d8cf9fdb tracing: Do not count ftrace events in top level enable output
+87bbb56eed267a8bf2d18338753dd2f1e2019d9c tracing: Check length before giving out the filter buffer
+16cde1929cf1cebcefc866f4f819cc6bf6d7cb58 arm/xen: Don't probe xenbus as part of an early initcall
+2065aa4dabc0dfe79fc54066f6a18882336e5767 MIPS: BMIPS: Fix section mismatch warning
+b3ba4153fd5732def8fd665261ff093a44c16626 arm64: dts: rockchip: Fix PCIe DT properties on rk3399
+1cd33d1a6615b2f9a1c312d99f2f928615330786 platform/x86: hp-wmi: Disable tablet-mode reporting by default
+52dbbe9fbf3f587fc362ffb7ab69d6860f5b3ee3 ovl: perform vfs_getxattr() with mounter creds
+7b64fe18cbc99f0b6f8e2a4f0cfbac7d3d5d1fbb cap: fix conversions on getxattr
+cd591b7b211c8ca37fb70e52b2e36db5506c3642 ovl: skip getxattr of security labels
+d5bfe0ccbaa9429f4be34ce6ec0fac743ee66d4b ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
+4838cd2146738d420dbd0756e0c3507082264da7 ARM: ensure the signal page contains defined contents
+913968eda1409342fc5a0235709d4e476360085a memblock: do not start bottom-up allocations with kernel_end
+c0f053296b5c526306cc0c4f580417f96dacf9ff bpf: Check for integer overflow when using roundup_pow_of_two()
+2b8b08bcbb205b4d351c967b9b2f3111a69e00d9 netfilter: xt_recent: Fix attempt to update deleted entry
+1cbe8f0e5e740a2c8f2a98b409901a8830021c2a xen/netback: avoid race in xenvif_rx_ring_slots_available()
+b5651ba9a3244b8be0c3ce9769c577b4b8d089ec netfilter: conntrack: skip identical origin tuple in same zone only
+d3267b74c552bf28d493dfd9d840b7b54ebbc28b usb: dwc3: ulpi: fix checkpatch warning
+6a417ce50fe354e3634af81896a7328a17f0b764 usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
+052316e03f47fe8d777a38341d1d9ad39f031ddf net/vmw_vsock: improve locking in vsock_connect_timeout()
+37522b3d4ab522aa2b21e5b4f58f8416de9beed4 net: watchdog: hold device global xmit lock during tx disable
+0097d4829812775b2997bd2a3aed053756a076eb vsock/virtio: update credit only if socket is not closed
+874febe44cd0bd2c683f6cb85e7ee56345d3e187 vsock: fix locking in vsock_shutdown()
+0cfc5af0632208c2518c0b358e79da6ac9264211 i2c: stm32f7: fix configuration of the digital filter
+bd93df9fd8e7bc5aac4dd399034b6310376f193d h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
+82f08c781d9ecb2064182d0102eed60489bddf97 x86/build: Disable CET instrumentation in the kernel for 32-bit too
+f31e46d6e92d0f94e870dbad15a32093aa963ed2 trace: Use -mcount-record for dynamic ftrace
+72e8c3db53f259ad1adb7cf2748c964abf86b0d7 tracing: Fix SKIP_STACK_VALIDATION=1 build due to bad merge with -mrecord-mcount
+cfdb9030f7d5d2eb029679c3b3ce8c209779f70a tracing: Avoid calling cc-option -mrecord-mcount for every Makefile
+c891a900be7ce03dab6e90d6f771d599ec7681d6 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
+b466d78262ad8c152235e631dc8fbcd5ed3948fc Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
+2f80766096e9c4a39bf11b28833b4e58793742a6 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
+c6c25d973d5eb6449c84c16e5eb24f050293b97d Xen/gntdev: correct error checking in gntdev_map_grant_pages()
+50e77e34c4c77763e99974172f7a6a75bbd60cfa xen/arm: don't ignore return errors from set_phys_to_machine
+4886c3fd8fabd987f548f319c523effbb54d9e44 xen-blkback: don't "handle" error by BUG()
+6dd60264fee1598208dc1a3bb3608b5f22505436 xen-netback: don't "handle" error by BUG()
+4c81dafc2d44ddcf7450eb592ca2113a36ae11a3 xen-scsiback: don't "handle" error by BUG()
+c6d47d30236d2f7581b675fcc695e61c7505b328 xen-blkback: fix error handling in xen_blkbk_map()
+e3c90b3ec09035a6a5768f3059fbd47fe84ef672 scsi: qla2xxx: Fix crash during driver load on big endian machines
+d2f0bb2b1716f50d7e6fe8c02dda4bf2b23fa142 USB: Gadget Ethernet: Re-enable Jumbo frames.
+9159689d92d74c7a0dee2f0420b4dbb9a2c8006b usb: gadget: u_ether: Fix MTU size mismatch with RX packet size
+ff0c43284c7a7535d501d21bb0939763c6a41ee2 kvm: check tlbs_dirty directly
+5d849f076141b32ff58f296e2db48960d320954a Linux 4.14.222-rc1
 
---===============1421333221853449239==--
+--===============0717372717929594124==--
