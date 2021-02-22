@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6867708643232290509=="
+Content-Type: multipart/mixed; boundary="===============3731201354206260659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 22 Feb 2021 11:08:11 -0000
-Message-Id: <161399209197.28087.10124887053621336097@gitolite.kernel.org>
+Date: Mon, 22 Feb 2021 11:10:43 -0000
+Message-Id: <161399224312.31687.10806004084935268643@gitolite.kernel.org>
 
---===============6867708643232290509==
+--===============3731201354206260659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,314 +16,323 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 16a23da172ed9205e4295e4a57de65963662653e
-    new: 2b36fcecd1b1c0aa937df840799b8df0a2c4fdee
-    log: revlist-16a23da172ed-2b36fcecd1b1.txt
+    old: 2b36fcecd1b1c0aa937df840799b8df0a2c4fdee
+    new: 7770a2f12ef049ffcab5efc1c3914ead3e007f0f
+    log: revlist-2b36fcecd1b1-7770a2f12ef0.txt
   - ref: refs/heads/queue/4.19
-    old: 2274ae81fdc64f6abb7d2f6064333a232a4a33c0
-    new: d0af9822568e4949093fae14a6e8c4a6249f0b36
-    log: revlist-2274ae81fdc6-d0af9822568e.txt
+    old: d0af9822568e4949093fae14a6e8c4a6249f0b36
+    new: afd7e6a4921c56aed4b3d401c638dfd4faa9eb2f
+    log: revlist-d0af9822568e-afd7e6a4921c.txt
   - ref: refs/heads/queue/4.4
-    old: 503da28c44181b67c1261b1d0fcde82d567388db
-    new: a2239bcf5bbcd34b4e9d48447fe9aa1bb7c322b2
-    log: revlist-503da28c4418-a2239bcf5bbc.txt
+    old: a2239bcf5bbcd34b4e9d48447fe9aa1bb7c322b2
+    new: 2c3095a355d7f10b475d75227962d25d3628d525
+    log: revlist-a2239bcf5bbc-2c3095a355d7.txt
   - ref: refs/heads/queue/4.9
-    old: 5b99a61299552a381cd17b881c2b612fffcead79
-    new: 23e2265318f5b59c3c34cfbaed6d504aa633cfc8
-    log: revlist-5b99a6129955-23e2265318f5.txt
+    old: 23e2265318f5b59c3c34cfbaed6d504aa633cfc8
+    new: b5b73511fc9b1ce37cf73f10942ade26630b269b
+    log: revlist-23e2265318f5-b5b73511fc9b.txt
   - ref: refs/heads/queue/5.10
-    old: a4ca7c5f4d727b85dc83cfe21fd6ae3aa5c23d8d
-    new: d55337d08dcee8172524a804f5931df6ec07c31d
-    log: revlist-a4ca7c5f4d72-d55337d08dce.txt
+    old: d55337d08dcee8172524a804f5931df6ec07c31d
+    new: 4f8835b8ac3fe2efd49358f08c3a4e720434ccf0
+    log: revlist-d55337d08dce-4f8835b8ac3f.txt
   - ref: refs/heads/queue/5.11
-    old: a9d7ee4dc15aa42d7edd8fb13292814cf1d61131
-    new: 6c06ab2a587dbb26974dce08d9dcd867d37ef55c
-    log: revlist-a9d7ee4dc15a-6c06ab2a587d.txt
+    old: 6c06ab2a587dbb26974dce08d9dcd867d37ef55c
+    new: 039215a34973e951f3e4c407a5b88048afb0153c
+    log: revlist-6c06ab2a587d-039215a34973.txt
   - ref: refs/heads/queue/5.4
-    old: e13ea3bf029ec97dc8ae728bc40501e4cd185144
-    new: 98ca779d324a983dc227b0ed5bd69dd2cc48bba0
-    log: revlist-e13ea3bf029e-98ca779d324a.txt
+    old: 98ca779d324a983dc227b0ed5bd69dd2cc48bba0
+    new: d2f50ff90d440a9bfc5f9e4d3a579e37be0c92d5
+    log: revlist-98ca779d324a-d2f50ff90d44.txt
 
---===============6867708643232290509==
+--===============3731201354206260659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16a23da172ed-2b36fcecd1b1.txt
+Content-Disposition: attachment; filename=revlist-2b36fcecd1b1-7770a2f12ef0.txt
 
-e3f08e4704234f0c75918f361990b5b173293990 fgraph: Initialize tracing_graph_pause at task creation
-cd89bf82940bf7a62f24c5a6020cebfb45e78797 remoteproc: qcom_q6v5_mss: Validate modem blob firmware size before load
-b2c694d673d7b2033e9e3ea1039380a5bfaf6d33 remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
-e141a90df33d2fddb991f8df25dea1eaf0a89972 af_key: relax availability checks for skb size calculation
-abd44cce9831ef56b0765e6f7558c81bee009c6c pNFS/NFSv4: Try to return invalid layout in pnfs_layout_process()
-44d69051cb4044099c00e0a2e1c754830f08c84d iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
-2787d5804073f0ed0e76023acb2875ace3b2f253 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
-43af794027efd86a8444a9b3f67e2bdf009e485f iwlwifi: mvm: guard against device removal in reprobe
-14d40159d3df8090d1fd06a4f298d4a256e29bb5 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
-2f60151c2495d5ef7372448ac010406aec664377 SUNRPC: Handle 0 length opaque XDR object data properly
-3cb709c44a94e3ebb601f09bc0b756c98d49ad10 lib/string: Add strscpy_pad() function
-b26f5f3c32a565bf1f7971fc9896d54474fab9cf include/trace/events/writeback.h: fix -Wstringop-truncation warnings
-e2a94949bbf2c724defc5a810eb28ebbdff8f7f5 memcg: fix a crash in wb_workfn when a device disappears
-c73fbbfab75a93b365099850f2013f635b1aa5a1 squashfs: add more sanity checks in id lookup
-f5d4467db6fde101bbf3fe656535a299c2c57205 squashfs: add more sanity checks in inode lookup
-b9fb9deb178f533284e9f1e0e77c201628433961 squashfs: add more sanity checks in xattr id lookup
-2335411c8fe1dcc979c4f16a0a2bcfcbcb7155c6 tracing: Do not count ftrace events in top level enable output
-4c3b74675a68ccb17499191cbc79c73d8ec58230 tracing: Check length before giving out the filter buffer
-50f8591bbd465f731c67f04d64b2148c2715f562 arm/xen: Don't probe xenbus as part of an early initcall
-badb131c0a717bf7a5e84fee2b94b822b68074ac MIPS: BMIPS: Fix section mismatch warning
-7958c5273aec4b815213c285667d97f8a032a93f arm64: dts: rockchip: Fix PCIe DT properties on rk3399
-8fd9ea390d0dd6561b8e6348726f33bb66d73e90 platform/x86: hp-wmi: Disable tablet-mode reporting by default
-7662ee1dbff3edfbf9f984b7edd1a84f93b21c89 ovl: perform vfs_getxattr() with mounter creds
-9c754492c2a0b2f5e698e03e79a4105be475b2c2 cap: fix conversions on getxattr
-d06aabd0a69c2b9d1da4cebca372cd8d5984f1f4 ovl: skip getxattr of security labels
-85cb7c3549f2a15e02e0b896d3f83310576d0b19 ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
-14a98f379361744e2331ec815db1de87538da95e ARM: ensure the signal page contains defined contents
-1ec27b3336e6c3e0c610962196b50fe9db486c02 memblock: do not start bottom-up allocations with kernel_end
-5e6d3c93f7776635e0465c3d1bf3b42e183f6919 bpf: Check for integer overflow when using roundup_pow_of_two()
-f0d8108758e2dc9cea71ce6d3351ed558cd27e6c netfilter: xt_recent: Fix attempt to update deleted entry
-86eeebf59fb5c9d171815072b3fd63b63591013e xen/netback: avoid race in xenvif_rx_ring_slots_available()
-1723cfebf8df8eeeeb7f34babc84f55e3265be98 netfilter: conntrack: skip identical origin tuple in same zone only
-1ce99ade878ca182cdee378f9c0544d2660110db usb: dwc3: ulpi: fix checkpatch warning
-4b777dbb1f40e5f8d7dfb01d7e2752649bd28810 usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
-e0903952a03ad2bec7f32b4cc2f72ed5d2a1eede net/vmw_vsock: improve locking in vsock_connect_timeout()
-7366a416b102cbb62189ee4dab9ca15815dc9224 net: watchdog: hold device global xmit lock during tx disable
-b6ed0db80f81b2acd779b6bd5e6bfca7253609ad vsock/virtio: update credit only if socket is not closed
-7d02c46523465a3ec1d85dffffed3580c2f1b573 vsock: fix locking in vsock_shutdown()
-605b264ad81fdee99b825435fc2e0f8ba8530d72 i2c: stm32f7: fix configuration of the digital filter
-061a3fb21f67d1487489580a92c7dc3de8d89870 h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
-f925a7d6f7d496ddd1e003910b6ebe4cfc2422d6 x86/build: Disable CET instrumentation in the kernel for 32-bit too
-be4dbd9e42c92b5dc9dea2804265a0b72a7f8771 trace: Use -mcount-record for dynamic ftrace
-ad04870718edae02e79a931e093a8863b689d7c9 tracing: Fix SKIP_STACK_VALIDATION=1 build due to bad merge with -mrecord-mcount
-84f15b09c1eed63ded9b6e65cdefb5fd0f8048c3 tracing: Avoid calling cc-option -mrecord-mcount for every Makefile
-3bd20819f0c12b8045064ae59bdb073989201cab Xen/x86: don't bail early from clear_foreign_p2m_mapping()
-6c7611efe12ecbba923fc36783991db0d1cd0af8 Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
-d9b1bf076d66c6a9d6a4e109ac088fe0df10aa1c Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
-9231ef04f5030a913f8a5378cbc6d7b4681b0523 Xen/gntdev: correct error checking in gntdev_map_grant_pages()
-9ddd20baeef03543ccc6f4257cfa81baf8dc5d32 xen/arm: don't ignore return errors from set_phys_to_machine
-7084318a7da76d40c15843d21775541fdd296ee7 xen-blkback: don't "handle" error by BUG()
-98e08e0175315ffc22f90f6d89b26113c940ce6e xen-netback: don't "handle" error by BUG()
-e7ac2a4a6a0562084a2d213e33aa6330a883b1dc xen-scsiback: don't "handle" error by BUG()
-2b36fcecd1b1c0aa937df840799b8df0a2c4fdee xen-blkback: fix error handling in xen_blkbk_map()
+14d3bdc6872d10445526e6ccd8afcc2c5f36b0c8 fgraph: Initialize tracing_graph_pause at task creation
+0c0b435c69ae7bb52983c70d8481d0f40ed409ef remoteproc: qcom_q6v5_mss: Validate modem blob firmware size before load
+51b90c1763d2c2ae75ac2b27c7f778fae4bbdf04 remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
+e738e87ea1aefdd3e3194d83414dc63ba21f7f17 af_key: relax availability checks for skb size calculation
+1b59d7010cc6b5b4addb509cea42505799253b24 pNFS/NFSv4: Try to return invalid layout in pnfs_layout_process()
+420a29a5a6e656ea1352863d385f2204dfaac6a4 iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
+7d2460e0f7a295b86cd1f80f546988bec791ee3c iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
+33abdcd71d8646e62d8c9ec0a8c3b7ac66dec4d1 iwlwifi: mvm: guard against device removal in reprobe
+0a71066d327d27b7025e08184249e9660b3cbf41 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
+d829d7328d15cdd4676d91ef1ee5ffbe29552c87 SUNRPC: Handle 0 length opaque XDR object data properly
+ff743119edc1e37c067230755dc2a6773bf67d87 lib/string: Add strscpy_pad() function
+8744584226f451c16131278cc5b448a5e5fbc0d4 include/trace/events/writeback.h: fix -Wstringop-truncation warnings
+dde01b475ac1124708b6688efcddbb238805e8f7 memcg: fix a crash in wb_workfn when a device disappears
+e6776681b6e74029f1d6405319f27e32b4882cec squashfs: add more sanity checks in id lookup
+45f507c9362d03c0597b9a4b29af512d28330ef5 squashfs: add more sanity checks in inode lookup
+ccd4f9078b96739c0de8bf511850d6b107fab33d squashfs: add more sanity checks in xattr id lookup
+974b1fd700569192d2fa6ddc6e679a46df4e2fa0 tracing: Do not count ftrace events in top level enable output
+1ace31aadfb9df350bd22f1233c52382d3cfabb3 tracing: Check length before giving out the filter buffer
+a17ab10ab8f074c21fbd4dd165f0fe43a0e77394 arm/xen: Don't probe xenbus as part of an early initcall
+9756e261afac2a6b771ef2d9c217cd284b0cdbc5 MIPS: BMIPS: Fix section mismatch warning
+9ab6ee874aab6827d73ef18cde197d9ded5536af arm64: dts: rockchip: Fix PCIe DT properties on rk3399
+6438d8a641380567a834f62eaf1af5e5750e3b2b platform/x86: hp-wmi: Disable tablet-mode reporting by default
+dfd6bae1c64541a4a508a95f93a1db3eee62ead7 ovl: perform vfs_getxattr() with mounter creds
+1ef4901e142f85b7dabc9d424d0656ea30763c77 cap: fix conversions on getxattr
+e79f6ef91c03011b86da2faa4d962bdfb5e22c9b ovl: skip getxattr of security labels
+fcc10c61e70e16bdc58ddc4fd1e11ea763be907a ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
+6f20e215e76d1b2e5ad6a4e38715c2c87b5ec495 ARM: ensure the signal page contains defined contents
+83283c72050a9263660314a6a8199ab5ff11666e memblock: do not start bottom-up allocations with kernel_end
+0afdf2cf01d0a0685e01b9a5494950081875057e bpf: Check for integer overflow when using roundup_pow_of_two()
+2f0f086d69f00f1b540770d30add650d12087daa netfilter: xt_recent: Fix attempt to update deleted entry
+d44290e919dcba3fc9121e750d49125d325c8168 xen/netback: avoid race in xenvif_rx_ring_slots_available()
+34f8cd4e1b1a70701a7de77aef06eb481335692b netfilter: conntrack: skip identical origin tuple in same zone only
+449a1e12699e6dd9c358a4f6a56a84a3096db979 usb: dwc3: ulpi: fix checkpatch warning
+2535145c0f8435730873ea216129cf2c470d25e4 usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
+0a6ffe6626657c7564b8b958862c56f238a9825c net/vmw_vsock: improve locking in vsock_connect_timeout()
+010153ed2d304abac36cb6b03a9f8df81db966fd net: watchdog: hold device global xmit lock during tx disable
+2c926d73a132d0b5366efa9c4314191bb380ac38 vsock/virtio: update credit only if socket is not closed
+b5c19c74a153da07b9fb69e394bcc75c7dea3ab4 vsock: fix locking in vsock_shutdown()
+09d72bc527c1c9f5972431b091c0faf5fb7d326e i2c: stm32f7: fix configuration of the digital filter
+9e656d423ff39070e94fa77af4fac6d34a34d7b2 h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
+397bfe79ac21798bfd57e66feb10487f6dfec49d x86/build: Disable CET instrumentation in the kernel for 32-bit too
+61925bfdfb8b9e0ff92aac6dccfb782b6bb376e9 trace: Use -mcount-record for dynamic ftrace
+4fbca39d937677e14aa1444b7c6da147b9253b9f tracing: Fix SKIP_STACK_VALIDATION=1 build due to bad merge with -mrecord-mcount
+5894f87b237dcb05da0524ef633f4c082b3d9a61 tracing: Avoid calling cc-option -mrecord-mcount for every Makefile
+78a5c1b3ff342d6cdd575e07103b2785a4a527d4 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
+49021ea1106da95e313083fc5fcd60a7bbe6bcba Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
+b9e9b6e1d4bace0652aa3b3fd31f33fb08f88028 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
+73f26dbf7466fecb2d5b014417e0a8b9733dcfd4 Xen/gntdev: correct error checking in gntdev_map_grant_pages()
+05297b58d9292a25f61befee9ad42ef4a8bb74d2 xen/arm: don't ignore return errors from set_phys_to_machine
+b3e2ef2e4d5dac6bb9adbcc59164de19a26b6ecf xen-blkback: don't "handle" error by BUG()
+b39148ff911e571aa929ab4891dfce137ce6b87f xen-netback: don't "handle" error by BUG()
+9813079ab5afd182900935f4fc25bb27abcd9aa7 xen-scsiback: don't "handle" error by BUG()
+71614ce4513c003367d346b3168c299186f22d07 xen-blkback: fix error handling in xen_blkbk_map()
+40790c44244ad5951568d4888a280d04a1d21245 scsi: qla2xxx: Fix crash during driver load on big endian machines
+a4ba1cd6082b729c1b02406c78c2c8ea78fdc4a7 USB: Gadget Ethernet: Re-enable Jumbo frames.
+a02350d7688108a5ec031c24bdb8f3a9f73bf1ae usb: gadget: u_ether: Fix MTU size mismatch with RX packet size
+7770a2f12ef049ffcab5efc1c3914ead3e007f0f kvm: check tlbs_dirty directly
 
---===============6867708643232290509==
+--===============3731201354206260659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2274ae81fdc6-d0af9822568e.txt
+Content-Disposition: attachment; filename=revlist-d0af9822568e-afd7e6a4921c.txt
 
-2ff62676745b6be6405b9828e7175597b9c0849c tracing: Do not count ftrace events in top level enable output
-ed0c5ff5e7fd55892ee0450dd02e6678f569d585 tracing: Check length before giving out the filter buffer
-bcc9c47000a32b570cfb26f8405e978ddfac76d8 arm/xen: Don't probe xenbus as part of an early initcall
-675704988b7f19a37300063116130f1bf43edd6c arm64: dts: rockchip: Fix PCIe DT properties on rk3399
-a671b8f297b3fe7affd9a9e2dc34683aa9777793 platform/x86: hp-wmi: Disable tablet-mode reporting by default
-b0c63f991602e74c5d0f74ca17e96e7f32387b2b ovl: perform vfs_getxattr() with mounter creds
-fa9dd39f6c01cd42bfcb8b3b89824cbbb8b9eff2 cap: fix conversions on getxattr
-d7853ff3e8578d17bd12281c4a55554c358a9d5a ovl: skip getxattr of security labels
-8011ea1b50041426054a013bdb15996ab7fee7f0 drm/amd/display: Fix dc_sink kref count in emulated_link_detect
-4b41155cf29f1a6f57d11279ac0080111b31ad9a drm/amd/display: Free atomic state after drm_atomic_commit
-89add454cbb84e4ba422a05540e6db8741525165 riscv: virt_addr_valid must check the address belongs to linear mapping
-6f5fc6b11997e5dcb2c41eb0e3a16f21928dac24 bfq-iosched: Revert "bfq: Fix computation of shallow depth"
-305c5528f0caf2a7334f0f192fefe1678025aa5c ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
-52e7f7e45c22a4cdc24b7063f17f4b63b2658761 ARM: ensure the signal page contains defined contents
-5d669d972e6df449f9183ecc548cbe5825518b49 ARM: kexec: fix oops after TLB are invalidated
-7824bdf0142e3919a5a9f523152ed95abb5c4f71 mt76: dma: fix a possible memory leak in mt76_add_fragment()
-ffe0e5afe7d5ce2bfe1aaf3b7990fb4e8c898696 bpf: Check for integer overflow when using roundup_pow_of_two()
-4b1d8416a447fa0334c959d0aa1d3055858fac05 netfilter: xt_recent: Fix attempt to update deleted entry
-5a8def2a8e42a14f6bd7238380c62890bfeed2ca netfilter: flowtable: fix tcp and udp header checksum update
-1a29acf132c2321ebe15561b60a6ad2b2ba2413d xen/netback: avoid race in xenvif_rx_ring_slots_available()
-5961b8cbf754ae07719bc56f79230cea58bcc0d6 net: stmmac: set TxQ mode back to DCB after disabling CBS
-5fff4d5e195fc84c3cb05d12f4c82ae4e5726cc7 netfilter: conntrack: skip identical origin tuple in same zone only
-999a406816cb61fcae95c82631e8e35e6041ff85 net: hns3: add a check for queue_id in hclge_reset_vf_queue()
-231a847de04f0e75c9b43204aa37b65cbb8d1e22 firmware_loader: align .builtin_fw to 8
-5bf667aa21731a49f3006dc3ee87225ab0221d90 i2c: stm32f7: fix configuration of the digital filter
-1376692f053133e0c7efe3850306ef03a4146700 h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
-b142d31f0cc8db0604ffea9d239fe27794cf0258 usb: dwc3: ulpi: fix checkpatch warning
-400d5510136915ccdefc5a0407e78f920dca4624 usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
-687aacfc8eda5d63a7565e14643ae876ce40e573 net: fix iteration for sctp transport seq_files
-695becf9034909c52069fe365ab590a4e1a42ba0 net/vmw_vsock: improve locking in vsock_connect_timeout()
-396b71629c3453b9321d3265f9fca1353ebc4b13 net: watchdog: hold device global xmit lock during tx disable
-acabd4a5ac30df5f13aa8f55786b698e8fe967f2 vsock/virtio: update credit only if socket is not closed
-f6aa6164700346ddec42c86558a66f218156e639 vsock: fix locking in vsock_shutdown()
-16620a924a836baa5d9b63c49ce67344da8922ae net/rds: restrict iovecs length for RDS_CMSG_RDMA_ARGS
-6b77733b320a9d55afb176e9eacdee435263612a net/qrtr: restrict user-controlled length in qrtr_tun_write_iter()
-6e25543f7e926824270d25918891ca5d8b7e96e0 ovl: expand warning in ovl_d_real()
-4fb8d41870ea6f8d97032d8c6eff74ef09b3559b x86/build: Disable CET instrumentation in the kernel for 32-bit too
-60fce7ec1f947afd0266812569d9fb61f5710004 KVM: SEV: fix double locking due to incorrect backport
-46da9100e43710df9ae3236360e169a7260afb22 net: qrtr: Fix port ID for control messages
-f9879c4752057873ec9fc5afc22a0812a8825877 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
-e58d35604523600cb08cd084124084e28978b4dc Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
-92a4422052ee3e070592a38ce2e1d08ce844d128 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
-9879344033017907ffd9ebe343736e8855428a81 Xen/gntdev: correct error checking in gntdev_map_grant_pages()
-e255a9865e5b351887fbdd0d9a1bdae2314cadd0 xen/arm: don't ignore return errors from set_phys_to_machine
-da95e17d0a9ef30d5b287350582cee0e4248da43 xen-blkback: don't "handle" error by BUG()
-60ca497bb76c1a7451319d8c5f7ab74a07d2d668 xen-netback: don't "handle" error by BUG()
-177646052aa25c1d12108525dbf28f5c6735107e xen-scsiback: don't "handle" error by BUG()
-d0af9822568e4949093fae14a6e8c4a6249f0b36 xen-blkback: fix error handling in xen_blkbk_map()
+2d90641fce2f452080422989ebe2ffbb1cbcb75d tracing: Do not count ftrace events in top level enable output
+7e02787b5f9f16eca40a070e18799780fcd7c507 tracing: Check length before giving out the filter buffer
+f2192ffc8bf2314556008236edc793a1794e34e6 arm/xen: Don't probe xenbus as part of an early initcall
+1a7b87f50a66ff0c228af3b79e6d796cf524f917 arm64: dts: rockchip: Fix PCIe DT properties on rk3399
+496d9274883137ecac461f0a1659c763d1335d06 platform/x86: hp-wmi: Disable tablet-mode reporting by default
+4a2bd0201bf1ce602a30ef464d283948b4408c79 ovl: perform vfs_getxattr() with mounter creds
+230fca0527fcbc2cc55afcd9daafb5366b164fb8 cap: fix conversions on getxattr
+5d9dc0f382ec2a2120040534a98bc75efa141d0d ovl: skip getxattr of security labels
+9e533b1a7670cd24ccc2e298da77dd67cbdef107 drm/amd/display: Fix dc_sink kref count in emulated_link_detect
+b888da0b8643ccc0e0e497d0f8b8cf1da0a5c7ff drm/amd/display: Free atomic state after drm_atomic_commit
+e4fc1157e1733980409a01d9b901b52eee9f32e6 riscv: virt_addr_valid must check the address belongs to linear mapping
+b9985e42d55e0dbaf9cd49c2746677a0452ac82f bfq-iosched: Revert "bfq: Fix computation of shallow depth"
+2c7243f97eeac6d2311a99972fc6f7b257d95eea ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
+879723bc52f505450e30cd10a19c6bfbe19e1710 ARM: ensure the signal page contains defined contents
+00307719239c6a79dbba83f1dd160f2a3bc6acb2 ARM: kexec: fix oops after TLB are invalidated
+ac1a5dc5a9e47e79e0d2fc82a096f1b9fa6cd4f9 mt76: dma: fix a possible memory leak in mt76_add_fragment()
+46d2b50ca7c91fb0bd888f78d96f37dc0e14677a bpf: Check for integer overflow when using roundup_pow_of_two()
+8aed8d29c118af405d73bd8b17090719caafb74f netfilter: xt_recent: Fix attempt to update deleted entry
+866dfb381715c8988129920b2e78a321655f66a6 netfilter: flowtable: fix tcp and udp header checksum update
+f25c9b24288afff4b8ec44b547740450ed87c759 xen/netback: avoid race in xenvif_rx_ring_slots_available()
+7f271c254474a1c751ee7b4852ae241b45b27d97 net: stmmac: set TxQ mode back to DCB after disabling CBS
+ff80036c375180bbd1d8a698647acc6e8d8cc63e netfilter: conntrack: skip identical origin tuple in same zone only
+a87d1d92cdef25fec568b4e1e5ce1d3815bf99ae net: hns3: add a check for queue_id in hclge_reset_vf_queue()
+71e37a4f06da64e8b239d9349e4e9493095a736b firmware_loader: align .builtin_fw to 8
+ed5ff86a46a427974ad4a2b33f8b709f6bee6098 i2c: stm32f7: fix configuration of the digital filter
+50c99452fc7475b5744245e145d1978efdb11d78 h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
+a6e7c6257bcfdef405d9f46edea24cff114121a8 usb: dwc3: ulpi: fix checkpatch warning
+219a30a299f9e0ea3b61bfcf5b72ef624fd21560 usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
+793d40c5a0fb107fed34adca91a5d853f0d97417 net: fix iteration for sctp transport seq_files
+f97cc2f249d1334070eb7bb4879fe68feb40cf4e net/vmw_vsock: improve locking in vsock_connect_timeout()
+c0f444aeba02161fd27a51c65537bd6876ab0a82 net: watchdog: hold device global xmit lock during tx disable
+25f45ef4e5724da254a6c1ed3ef5fda3115005f1 vsock/virtio: update credit only if socket is not closed
+b727bd9d801161b7ed850eb17d0b47221d7da511 vsock: fix locking in vsock_shutdown()
+987973b07529080b041fd51451a661c12abe565f net/rds: restrict iovecs length for RDS_CMSG_RDMA_ARGS
+5405745b45b4183c6e483e9e6f3c06e281d968cc net/qrtr: restrict user-controlled length in qrtr_tun_write_iter()
+d09a12af9e7f89f955e293bac96c95801b03fbca ovl: expand warning in ovl_d_real()
+d0f212025ac7257a9480c6f0e093a6114ba4d39f x86/build: Disable CET instrumentation in the kernel for 32-bit too
+880f5563cd958c8b3d9fcda9164ee44329326e8e KVM: SEV: fix double locking due to incorrect backport
+e4fea2f1d9c597aef864cdef150642d13cc93a54 net: qrtr: Fix port ID for control messages
+c40684dce8d01f19e75618240b5bce53145036ef Xen/x86: don't bail early from clear_foreign_p2m_mapping()
+9cf575469d55dc5a353e870ed049058362f352b6 Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
+4d7e20de97eb1a0fa3a270f86288ff7b04036fc9 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
+4c91c2886f175b3870789425d8958e1e8e344b4d Xen/gntdev: correct error checking in gntdev_map_grant_pages()
+ac1f42d56f4204c490eebbd298554fdeabff016d xen/arm: don't ignore return errors from set_phys_to_machine
+adf44aa3ef7ddbb35f060377e6bddbf45c8c8687 xen-blkback: don't "handle" error by BUG()
+4e9ead7d035bf4b487e7e11a238d6b8fa451716f xen-netback: don't "handle" error by BUG()
+8c6f8326532a1fe85f7033bc478e45391a7a108c xen-scsiback: don't "handle" error by BUG()
+a4a9b68223e62c43ea5896c8cddd8811069faef1 xen-blkback: fix error handling in xen_blkbk_map()
+ed451fe38ab3df5950df8885d65431b265bb7f9a scsi: qla2xxx: Fix crash during driver load on big endian machines
+afd7e6a4921c56aed4b3d401c638dfd4faa9eb2f kvm: check tlbs_dirty directly
 
---===============6867708643232290509==
+--===============3731201354206260659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-503da28c4418-a2239bcf5bbc.txt
+Content-Disposition: attachment; filename=revlist-a2239bcf5bbc-2c3095a355d7.txt
 
-9d2d4e64b17c5acf536295cc2868ec3b1bc496b4 tracing: Do not count ftrace events in top level enable output
-49d7ee72a95b049b071a67c64e5f0d6d75afb3ac fgraph: Initialize tracing_graph_pause at task creation
-4f4d7cb730cb6ab9fa94d8a230d1e5416fc17577 af_key: relax availability checks for skb size calculation
-3607a0a81ed1aa91f83cf9da00b2d68bb85f11bc iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
-c311002029e90b86ff582e1b317e4bb23505f1bb iwlwifi: mvm: guard against device removal in reprobe
-f24dd143fa6ab322c4c3f6199b56c8721c1fc287 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
-7f50a8a270e90018f4f64677ff16c3b33eb02ef3 SUNRPC: Handle 0 length opaque XDR object data properly
-53bfcd7055861a8c50b75ab8e249c2b2dbd175de lib/string: Add strscpy_pad() function
-3e957da6b34f1bce1387f76272e06378cc5055a6 include/trace/events/writeback.h: fix -Wstringop-truncation warnings
-4176e8414ccec6fd4d56fdd1513e31d3ce6e87f2 memcg: fix a crash in wb_workfn when a device disappears
-60e39fc483e3621fb5835d50f904d5eebd569da6 squashfs: add more sanity checks in id lookup
-f3892c20ed605e1a86e028a869082ad77b030b57 squashfs: add more sanity checks in inode lookup
-07a2f8190a6a8e43e95bcdde9f9a051b0f784340 squashfs: add more sanity checks in xattr id lookup
-b4544414583956de8f009de757ada57d85e98ee2 memblock: do not start bottom-up allocations with kernel_end
-21d1112ba1ed418535934128cfecfa9017cc551c netfilter: xt_recent: Fix attempt to update deleted entry
-639e250d9a1e7683d1d050db800157c37e9c5221 h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
-f0bad3e84a327f9e2ce3b7237bed09e31718ced2 usb: dwc3: ulpi: fix checkpatch warning
-98a4bccff4b6de19854f1ad80f0c7659d8457947 usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
-ddec8699ce9ae3b4811f03758ce5f6664035c293 net: watchdog: hold device global xmit lock during tx disable
-3362b23efa98a1659d851772a74148d9931e649f vsock: fix locking in vsock_shutdown()
-ba24eba95686d56fde7dcdabb5172f0f510cdafc x86/build: Disable CET instrumentation in the kernel for 32-bit too
-ec96381e524c26e6f9fc0fe25d7640d2fa676726 trace: Use -mcount-record for dynamic ftrace
-5bfa32b39b6c2662f5c62a6402413f243d31bee4 tracing: Fix SKIP_STACK_VALIDATION=1 build due to bad merge with -mrecord-mcount
-dc39ebfb85df284dfc8888f79e4c6108f75e262b tracing: Avoid calling cc-option -mrecord-mcount for every Makefile
-e39132c991c754a49252d56b8675753f92685f04 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
-af127b5874a264390967445b51aadf12b3d2ff21 Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
-13c47b98420f7fee05f52712f3db85b35096382c Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
-d4d44dc848ecf0b28e0e2e3f450ed32eab9f8bf9 Xen/gntdev: correct error checking in gntdev_map_grant_pages()
-4b78cb9d51c10b049a3f40fff9829e39e1f15e0c xen/arm: don't ignore return errors from set_phys_to_machine
-6f1793a547cf03d8f9a2150aa1a26f1fb5205208 xen-blkback: don't "handle" error by BUG()
-74298ff92a88b1776f0458becec98c6d777f4b0d xen-netback: don't "handle" error by BUG()
-63613327065425c5193d880ed5e78222b3bf485f xen-scsiback: don't "handle" error by BUG()
-fcf8da3307f2d5797234ce3e539fc31a4f26f695 xen-blkback: fix error handling in xen_blkbk_map()
-e18a9637453e27f0d92bff79f7fb8e16d342c3fc scsi: qla2xxx: Fix crash during driver load on big endian machines
-a2239bcf5bbcd34b4e9d48447fe9aa1bb7c322b2 kvm: check tlbs_dirty directly
+74af860f071598615441b7065e8b9bc0727db71b tracing: Do not count ftrace events in top level enable output
+6f448af8a910145939e1f6113aff2ce6e55d2b68 fgraph: Initialize tracing_graph_pause at task creation
+44442da985f76a25feab21e028dcf2d235619d38 af_key: relax availability checks for skb size calculation
+f557749fc4da921ce4300b84ad5211525eec08d4 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
+767b2e83bd8bb1ab3ecb52d4535bb4f87e593620 iwlwifi: mvm: guard against device removal in reprobe
+b30abcf621694f2a1fd2abe540f81df3e55927c9 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
+6d9e42d5cf65c1d23da6b676799a64ffb9c7da9a SUNRPC: Handle 0 length opaque XDR object data properly
+12e90c5f50cf7b8cd3cca3e7ca22b256b30bfd9a lib/string: Add strscpy_pad() function
+78e7f45fbae8028ea0d9237629cf7b68566941b2 include/trace/events/writeback.h: fix -Wstringop-truncation warnings
+ea14f0a05c3370416321868574226fe42a9e817e memcg: fix a crash in wb_workfn when a device disappears
+bddcca62a6db230c967e29086c965b42c7371c50 squashfs: add more sanity checks in id lookup
+a161e13f85eeac92c19dbd30d4be0886447a8ba0 squashfs: add more sanity checks in inode lookup
+13706a217186c552398f2a6840e602686500f2eb squashfs: add more sanity checks in xattr id lookup
+385cabd91909addb9dded03d878993ac608cfb43 memblock: do not start bottom-up allocations with kernel_end
+40660fe6c4f7fcc80408b11335ea12e266baa9b9 netfilter: xt_recent: Fix attempt to update deleted entry
+09c8c6212d0199cbb481994296751e96daeb1fa6 h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
+9f22d81d823b98532014421c020b2865ce5fe7f7 usb: dwc3: ulpi: fix checkpatch warning
+5ee60eb4ddb524dd63ae4d573f2d8ad44d443b2d usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
+0d3842e5d6f5d49f850fe3d43736091afbf0e790 net: watchdog: hold device global xmit lock during tx disable
+b21985eea735fe3c4af2afce638e2952ee326bd3 vsock: fix locking in vsock_shutdown()
+2c027fe476a3b0b384c21c044c9aaf5af4d52ba4 x86/build: Disable CET instrumentation in the kernel for 32-bit too
+dc6ae689e8f96834da307a0a80f7cc76cda706dd trace: Use -mcount-record for dynamic ftrace
+7241454785f5da02cfc1a7dda4c94e995e1e5f77 tracing: Fix SKIP_STACK_VALIDATION=1 build due to bad merge with -mrecord-mcount
+b72a276e701c82f932cc6c0e66b3c5b0365c256f tracing: Avoid calling cc-option -mrecord-mcount for every Makefile
+26f68f6a6c34971ee0c2715271080576d1a79fd6 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
+465a1d0ea5b8c5e29f231501b50a7cfb4ca9aae6 Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
+ec83c0fd55c4d4a16684437eae59bd7d7ab8eac5 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
+66c9ca20aa9bf276f36d207adc1fd677a779647c Xen/gntdev: correct error checking in gntdev_map_grant_pages()
+a05012d74765ad6e5705d5f60de7be7d3f9e7aa8 xen/arm: don't ignore return errors from set_phys_to_machine
+484436c69394e2ee82065626132948f2bbe1a1af xen-blkback: don't "handle" error by BUG()
+815b9b08fe2cb9a32ebb14ccc435444d41a51054 xen-netback: don't "handle" error by BUG()
+c6b446e1c5826e34afd3106141204b1d8b255fa2 xen-scsiback: don't "handle" error by BUG()
+65a421f2ddacfe8f099913e48948df8a9d518a6e xen-blkback: fix error handling in xen_blkbk_map()
+8d1b4a97ce8fc1def3c72e831227fc716deafc38 scsi: qla2xxx: Fix crash during driver load on big endian machines
+2c3095a355d7f10b475d75227962d25d3628d525 kvm: check tlbs_dirty directly
 
---===============6867708643232290509==
+--===============3731201354206260659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b99a6129955-23e2265318f5.txt
+Content-Disposition: attachment; filename=revlist-23e2265318f5-b5b73511fc9b.txt
 
-478af432bc675c6513a7a29e8bd8496b00f766ff mm: memcontrol: fix NULL pointer crash in test_clear_page_writeback()
-298be3b5833b5b9ba0bbf1586ff2707b79c0bd42 fgraph: Initialize tracing_graph_pause at task creation
-2f8b3be70029c76cd235107a86d237a3f0beb247 remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
-1c58f69f1a7cfbdd0eb5cdd84124bece21d6792f af_key: relax availability checks for skb size calculation
-eede31900ba795322e5dfd6738a186471642ccb9 iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
-5f45d0b146ddf47d8d846b0b18f44eca38bd1955 iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
-d49dee5b6fdc2513b44c113e931d855ec2ddcbad iwlwifi: mvm: guard against device removal in reprobe
-057e8fe37c988ae95b25c40743569d3575416562 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
-63b2e917bc7f8805d78230cbee004abe2549575a SUNRPC: Handle 0 length opaque XDR object data properly
-8f9c4f18d37bbc2a8a6c1ca74a0f48291c08e970 lib/string: Add strscpy_pad() function
-8128bf4045810fc543c9b238bb9a70eec6ce0d32 include/trace/events/writeback.h: fix -Wstringop-truncation warnings
-d214f0ad5a64fb0da7b53a12f05a75f858520596 memcg: fix a crash in wb_workfn when a device disappears
-af7fe5360818c31a86257db450fba1b59ff54f5f futex: Ensure the correct return value from futex_lock_pi()
-8ae41c4ec59fd1a10eb13abec36e8394da20e75a futex: Change locking rules
-a65148c32856b364cbe34d3daa04c2106c259228 futex: Cure exit race
-4be13a7cf871f9323abce20e40180c0f69da813d squashfs: add more sanity checks in id lookup
-c98a1508b13e18660e122fa2c6664fe4562be664 squashfs: add more sanity checks in inode lookup
-577bc20a08468acd8828b29c9157e361efb83d61 squashfs: add more sanity checks in xattr id lookup
-30d273abfa179c4f6c9d40164cd7c22ba9fef309 tracing: Do not count ftrace events in top level enable output
-466d24f393dea1e7a6aa31e82114d8a0b17c699d tracing: Check length before giving out the filter buffer
-aa3d51cdb8e4ba1abad31e2e2d45af9267a6d79c ovl: skip getxattr of security labels
-f5efc2d4ad21c12d5c0ebaba17e07729fb4617fc ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
-55fcd16a04936f84645ea5134ff6fa4f5794ecea memblock: do not start bottom-up allocations with kernel_end
-1741adea1ee8b0e42732d33f56f81bd17f4aafdb bpf: Check for integer overflow when using roundup_pow_of_two()
-4d2e5f072f089dec58ad5e73b15104527b9ee72e netfilter: xt_recent: Fix attempt to update deleted entry
-3e829b987faa1301dc49e4055cf7646f4599c51f xen/netback: avoid race in xenvif_rx_ring_slots_available()
-b1c472536d4b4fb5a83f1c66ec07e6d2e19502ab netfilter: conntrack: skip identical origin tuple in same zone only
-f884785ce078967378d2a170f48646110886ba6e h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
-5bdb6b1f1755c3834d7da88c4cd659bc6ce93d47 usb: dwc3: ulpi: fix checkpatch warning
-359eedc300ec91d4e5427bf6b2a41ff200309ffe usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
-14bdba9918362df7ed91410262da8df582c02c1b net/vmw_vsock: improve locking in vsock_connect_timeout()
-afaed328ac3e0cd78232f40858b991c14220d15c net: watchdog: hold device global xmit lock during tx disable
-f8a3ce5ca05ff3c9b1ab3586a7d083ef750069d0 vsock/virtio: update credit only if socket is not closed
-60cef890f993307561db9e69088044fa4ce91b49 vsock: fix locking in vsock_shutdown()
-5c4cea38f3658ffdb69f4735b3d260147ce92abe x86/build: Disable CET instrumentation in the kernel for 32-bit too
-899e2b7f655d8761230ccb4df4c6898a1416938b trace: Use -mcount-record for dynamic ftrace
-6a6b96f3a4046f93ebf2afe096a4040e1c4e442a tracing: Fix SKIP_STACK_VALIDATION=1 build due to bad merge with -mrecord-mcount
-8ff157c697518674d2ce4cd01503ba7630a82409 tracing: Avoid calling cc-option -mrecord-mcount for every Makefile
-58c6e839e016c0747c17282693c33e5697df59a1 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
-91cdd1940a76f48557ec62e7da778a79c7b57781 Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
-845a88c457283109ac97791d3a4f926ce93a10fd Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
-ffa22083db3c87f442d969b363ff6eac1c8a83d0 Xen/gntdev: correct error checking in gntdev_map_grant_pages()
-2c34d45cba9c6bdf9d8a57a1fac3008f8953124c xen/arm: don't ignore return errors from set_phys_to_machine
-99f9558a65e329d1e596f7b653b2e24fc9d8287e xen-blkback: don't "handle" error by BUG()
-2c0b58dffab7100211de0c8fd6b169686ed843b1 xen-netback: don't "handle" error by BUG()
-fa88b084b3f98b692d6d6ccfbb3e617d4f0c53ca xen-scsiback: don't "handle" error by BUG()
-23e2265318f5b59c3c34cfbaed6d504aa633cfc8 xen-blkback: fix error handling in xen_blkbk_map()
+1f0d35508e317dd406d3a916d5e5086d389de39c mm: memcontrol: fix NULL pointer crash in test_clear_page_writeback()
+0da49a2503d87ec30ff5886f30073f4611f48d4c fgraph: Initialize tracing_graph_pause at task creation
+b3b682fc4e5169b6b24ca0491a2d6b1d4197edcd remoteproc: qcom_q6v5_mss: Validate MBA firmware size before load
+a1390d629b18d7d8a328b1b392d0a9bf3ae6b5ab af_key: relax availability checks for skb size calculation
+7cac214a45251580420dfc21a19d36da3edde1ec iwlwifi: mvm: take mutex for calling iwl_mvm_get_sync_time()
+a78c3df445a8de9ac43db034a493fedcf153045d iwlwifi: pcie: add a NULL check in iwl_pcie_txq_unmap
+19fd46bfa4184643433dacacff74d3660cfa00e5 iwlwifi: mvm: guard against device removal in reprobe
+95535596a5089f2305a1f1cb5c95a49a4abdf975 SUNRPC: Move simple_get_bytes and simple_get_netobj into private header
+5585033db68dc6e5f25f51f6861a8301d4002b5d SUNRPC: Handle 0 length opaque XDR object data properly
+6915b57d0bdeccf4de3a75826b6b92060d2cb9bb lib/string: Add strscpy_pad() function
+9ccef310bcd8adc828e553ac50ea60dbae959932 include/trace/events/writeback.h: fix -Wstringop-truncation warnings
+5296efda860cfdb7ab883d7e9616b87d656cfc8a memcg: fix a crash in wb_workfn when a device disappears
+25db8536c181cfdb021505647c999b303591cc59 futex: Ensure the correct return value from futex_lock_pi()
+87f36a969a9b2ea7a6cc5ea5d442852bcc603ea8 futex: Change locking rules
+5a140364724aa4844e9994b4669834b35265bd55 futex: Cure exit race
+66c7a86c4abbfb3e2ad6c2c7390ef03e37791700 squashfs: add more sanity checks in id lookup
+069d4b7d8598c02b113a3bf02d93b4b897304c13 squashfs: add more sanity checks in inode lookup
+efb63e34f22df53f24ae4974e2df70d7175b6630 squashfs: add more sanity checks in xattr id lookup
+6770ca8cb8865da6f1710122f55516ae4c6a8f37 tracing: Do not count ftrace events in top level enable output
+b9c67e29b25623b4d20ad7a66ce2ad9c1ce31b4d tracing: Check length before giving out the filter buffer
+06b69be436b396af4eb17e457c042018c82ac3e9 ovl: skip getxattr of security labels
+979ecf264526f4b52002f7d112b2013f3054b537 ARM: dts: lpc32xx: Revert set default clock rate of HCLK PLL
+59af6b059fea43357e04988e4e92c6aa9a58e200 memblock: do not start bottom-up allocations with kernel_end
+d8fd11113c185fbb836f6dbf48717c1a1bbbfea6 bpf: Check for integer overflow when using roundup_pow_of_two()
+61b2768b8c5071b79a74b09d727ed35683803067 netfilter: xt_recent: Fix attempt to update deleted entry
+4b44ce6e87bcb6fdcab0ff987c00b3424a689014 xen/netback: avoid race in xenvif_rx_ring_slots_available()
+2cf543c59b491bc9769f5181f54c29f089b3789f netfilter: conntrack: skip identical origin tuple in same zone only
+6d446e80cadf544bdbeee7f06418cbadcc41bfa6 h8300: fix PREEMPTION build, TI_PRE_COUNT undefined
+5867f3bfb0eda85685b7c7dc990eefebcc37d879 usb: dwc3: ulpi: fix checkpatch warning
+4387b4067b5e779e02c539c115b1df7374d49777 usb: dwc3: ulpi: Replace CPU-based busyloop with Protocol-based one
+f4f9945a10855806467e166a980533907a3d9985 net/vmw_vsock: improve locking in vsock_connect_timeout()
+43a990b6bac347719d9e762f25714fa8b644655c net: watchdog: hold device global xmit lock during tx disable
+a11b857bbd79820e9d3b55028c090a2c0089c0f1 vsock/virtio: update credit only if socket is not closed
+2080f7f2327d68f17da7fa3543d371307b79953e vsock: fix locking in vsock_shutdown()
+346285b00deab6d3c27453096d9d621bcb03b46b x86/build: Disable CET instrumentation in the kernel for 32-bit too
+af5765ed18035e39e30e0bd8c5425443a5742190 trace: Use -mcount-record for dynamic ftrace
+cdb2882a9c73ac3e5a0632b193d5cfe42fdbe06b tracing: Fix SKIP_STACK_VALIDATION=1 build due to bad merge with -mrecord-mcount
+60361da67455e43ff378ab7655a1a808da46cb04 tracing: Avoid calling cc-option -mrecord-mcount for every Makefile
+59257076af874916806e2746149eeedaa3a7b3cf Xen/x86: don't bail early from clear_foreign_p2m_mapping()
+dc2d2b39e76456bbe2752bc7cdb1c6e67036c5ef Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
+bfad699bd9b59ae7d2de86fec14bc6c6090f1073 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
+b89e335498ed0181e4b3b2c2b486a4b95258119f Xen/gntdev: correct error checking in gntdev_map_grant_pages()
+1f72949984af707612e3792847fe0eb4ea64f814 xen/arm: don't ignore return errors from set_phys_to_machine
+0a55d1afe5dd9d6c1fe40e897972cf0c3edf3034 xen-blkback: don't "handle" error by BUG()
+67bb7998c21247b41e32765b3a9ce1c0bc95efae xen-netback: don't "handle" error by BUG()
+d00476034a3e1cbb7e6c2974ff178d2bbd78f718 xen-scsiback: don't "handle" error by BUG()
+0709d826cd366688b987162dae8c4a8cec5b0dda xen-blkback: fix error handling in xen_blkbk_map()
+71a93d75dddb596e5ddc329db922e83e8d6bc4a8 scsi: qla2xxx: Fix crash during driver load on big endian machines
+b5b73511fc9b1ce37cf73f10942ade26630b269b kvm: check tlbs_dirty directly
 
---===============6867708643232290509==
+--===============3731201354206260659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4ca7c5f4d72-d55337d08dce.txt
+Content-Disposition: attachment; filename=revlist-d55337d08dce-4f8835b8ac3f.txt
 
-17c6907923d807f320870f4f0273e3becee43b1e vdpa_sim: remove hard-coded virtq count
-5130d3dd92448a94cecd036782bbbce58c13cc31 vdpa_sim: add struct vdpasim_dev_attr for device attributes
-62ca34ee5653a8b08184bedf8f85f84e7098532b vdpa_sim: store parsed MAC address in a buffer
-5cfa4101fd20ffd997db7146822f245f515309db vdpa_sim: make 'config' generic and usable for any device type
-6e9a337a1b968978b21c2e4155f3723ebb22c5e0 vdpa_sim: add get_config callback in vdpasim_dev_attr
-3a580981fd2f5b5216dc8f7af402ebd36d460a59 IB/isert: add module param to set sg_tablesize for IO cmd
-a198fe0961321808a1297693ea2764908c659c36 net: qrtr: Fix port ID for control messages
-c1c1622bf1ba5993e73773f8996161c1213af103 mptcp: skip to next candidate if subflow has unacked data
-d5747d339792a80705bb3f2d1787b76bdf40f4b1 net/sched: fix miss init the mru in qdisc_skb_cb
-da1c3e63f56fdac0342de157f726d074cb0a4c05 mt76: mt7915: fix endian issues
-aaa1b289543812d5bf0c25b652c53fa2b5a15f19 mt76: mt7615: fix rdd mcu cmd endianness
-bd2ec29701f5fbebd74e97df1613403264927047 net: sched: incorrect Kconfig dependencies on Netfilter modules
-1cd14a77ddfc35008e2ec817f6c346c6e8717e0c net: openvswitch: fix TTL decrement exception action execution
-d1c1f2b02f48977664af46628ad8fd4fbea2eeaa net: bridge: Fix a warning when del bridge sysfs
-6f36a9e485272b84f81ad4ea56e841621f39f2b6 net: fix proc_fs init handling in af_packet and tls
-6fddc5b71c6e5e29b118a4e37b8eeb8fc37ddc2d Xen/x86: don't bail early from clear_foreign_p2m_mapping()
-c9b7a655a8f641941c9268dac6d6500d376cb0da Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
-a8934cfcea1612af525ec02ad61098591e3a5e86 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
-58237583b48ae21fa06975e00cb03f7c5f1e4beb Xen/gntdev: correct error checking in gntdev_map_grant_pages()
-006b5530b80e96784d9e170452ec444913f542c1 xen/arm: don't ignore return errors from set_phys_to_machine
-5cc89db26548b5086143b90a39feb6bcd25529ad xen-blkback: don't "handle" error by BUG()
-3fb3504ff4d92fa2a5ae2e1f19a7eaa1f1f1d907 xen-netback: don't "handle" error by BUG()
-80f5e84d30698faba14a5b821e5cb2d405657b5c xen-scsiback: don't "handle" error by BUG()
-a7027f681b7305b23eab50027f6bb78089c30948 xen-blkback: fix error handling in xen_blkbk_map()
-c48a2a8c932bcb9a27d090df0d32edf16f7c17fb tty: protect tty_write from odd low-level tty disciplines
-ef0f80c52cee209883fb7fdad3a3125db11e30e1 Bluetooth: btusb: Always fallback to alt 1 for WBS
-d55337d08dcee8172524a804f5931df6ec07c31d btrfs: fix backport of 2175bf57dc952 in 5.10.13
+cb815565d6563e8bb13a8dd2dbc9ef0930b19fae vdpa_sim: remove hard-coded virtq count
+9f6455993423960c03a67c86a1d2026752310b03 vdpa_sim: add struct vdpasim_dev_attr for device attributes
+bb39c574731afe77951f3b620aedb6c0de37462c vdpa_sim: store parsed MAC address in a buffer
+1aa645218118b2fa19cfd735d8871e816366e638 vdpa_sim: make 'config' generic and usable for any device type
+2b69eedf8546f861d2215a1ede6e2ee0625252f9 vdpa_sim: add get_config callback in vdpasim_dev_attr
+0b4f801f2010406e766422dc1bf906a30c47390a IB/isert: add module param to set sg_tablesize for IO cmd
+fa1af8fbea4d26cd5fb9e49ef3268229ae127f37 net: qrtr: Fix port ID for control messages
+7e37821fa07b3f4278ad05b69ef257555c04339d mptcp: skip to next candidate if subflow has unacked data
+219a585551a1bc34840c2b14ef98609334cf55fd net/sched: fix miss init the mru in qdisc_skb_cb
+aa3d440542d3fed91b2c837a77e581a49b5e2efa mt76: mt7915: fix endian issues
+a262017b732f04e49bce9e754078de0dfd2b2833 mt76: mt7615: fix rdd mcu cmd endianness
+cf705e4ab237d33691fdbce32e6a67a2cde88e81 net: sched: incorrect Kconfig dependencies on Netfilter modules
+a0b5ec5c1342265eedf2eadb2d5938629798ae55 net: openvswitch: fix TTL decrement exception action execution
+52028af918cf102cafa1be7540089174e430112b net: bridge: Fix a warning when del bridge sysfs
+14631a2fd5f329cafa2e8c01c0b86fd5a1e8840a net: fix proc_fs init handling in af_packet and tls
+f1f6bd038864fcc5d6b40e8774afdf064f795c45 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
+78c4e619bd7caba294fb8f2600a74b3002baf4c6 Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
+1f97980fc3690b477dc39dc14388e195504484b5 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
+b59f703aba9730394a2c6fabf496a83eeab0e4a2 Xen/gntdev: correct error checking in gntdev_map_grant_pages()
+dc52fcd249171fd3f7d8f1a053255a56bbed36ce xen/arm: don't ignore return errors from set_phys_to_machine
+236a07a4dfdede1c891fb5a774734ff98c3e3859 xen-blkback: don't "handle" error by BUG()
+823d82a6c7aaa8ccb7a8a9c5ed101029ed90ff14 xen-netback: don't "handle" error by BUG()
+2d3eb878da341bb160b905fd29682b8739c0ea7e xen-scsiback: don't "handle" error by BUG()
+6e1e6f5f59b69d683dab7fed7b46abc4c65abbf8 xen-blkback: fix error handling in xen_blkbk_map()
+6eb3899d0cd9303889ff376bc48cb5771d4516ac tty: protect tty_write from odd low-level tty disciplines
+6f91ef2ca417fff2e8dcaf64b1cb9efd8a86dc95 Bluetooth: btusb: Always fallback to alt 1 for WBS
+a59dd3e454934e29eda47c43fc6b35baccaa8e43 btrfs: fix backport of 2175bf57dc952 in 5.10.13
+4f8835b8ac3fe2efd49358f08c3a4e720434ccf0 btrfs: fix crash after non-aligned direct IO write with O_DSYNC
 
---===============6867708643232290509==
+--===============3731201354206260659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9d7ee4dc15a-6c06ab2a587d.txt
+Content-Disposition: attachment; filename=revlist-6c06ab2a587d-039215a34973.txt
 
-c624a741f988baa0e74b29d9bfb1234e28b57e1c Xen/x86: don't bail early from clear_foreign_p2m_mapping()
-17868cab529722c8543cb71f8b8953cd9a5d33de Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
-fba6a8d4bd9ecefc9f708a0a62d948c6b8846926 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
-28062bf8351094773afecce3511a7a301083bf96 Xen/gntdev: correct error checking in gntdev_map_grant_pages()
-9e5863c60c4a7c5ddac3b2120fd33b2c1d0aaa8c xen/arm: don't ignore return errors from set_phys_to_machine
-702e091f6ac7d1cdba997bdf6dddc8a8dd801346 xen-blkback: don't "handle" error by BUG()
-3686e95e46178abae09049964298afa40e7aed70 xen-netback: don't "handle" error by BUG()
-be94adf341a764263adf48ffcceb123efbf42194 xen-scsiback: don't "handle" error by BUG()
-228b05f4288b067c8de0c461291c4996a8e77ed1 xen-blkback: fix error handling in xen_blkbk_map()
-688df22d5baf234730f033d29f9a62208cc3da24 tty: protect tty_write from odd low-level tty disciplines
-6c06ab2a587dbb26974dce08d9dcd867d37ef55c Bluetooth: btusb: Always fallback to alt 1 for WBS
+6cc3c8824a3e6f65d6a37694f425420f00092240 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
+2777d0e1670b8afa619963f2089f43da4e138b6b Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
+898a759ed6f9ed78108d161bf0e1638ffa6e7036 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
+0fe4736cbd446101140762a4e0f7897ee389761b Xen/gntdev: correct error checking in gntdev_map_grant_pages()
+e691ea175fc642d70db1eae305ec450729869b68 xen/arm: don't ignore return errors from set_phys_to_machine
+20f7f1f6972106667c942dc3d9aa478bef09e096 xen-blkback: don't "handle" error by BUG()
+2efba00e02a2c116d725ec8179caa55f3b63c0f6 xen-netback: don't "handle" error by BUG()
+dcdc6852183f72a89d9c528965c456efeca53c75 xen-scsiback: don't "handle" error by BUG()
+fc95530815135bd8095df4b6ae2b4edc05f30147 xen-blkback: fix error handling in xen_blkbk_map()
+18681ace528ef6e30521d05d012650a30135d4f6 tty: protect tty_write from odd low-level tty disciplines
+039215a34973e951f3e4c407a5b88048afb0153c Bluetooth: btusb: Always fallback to alt 1 for WBS
 
---===============6867708643232290509==
+--===============3731201354206260659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e13ea3bf029e-98ca779d324a.txt
+Content-Disposition: attachment; filename=revlist-98ca779d324a-d2f50ff90d44.txt
 
-68be5ab050f92456771f8a5ab0cc3dab9ac614dc KVM: SEV: fix double locking due to incorrect backport
-d6e54bb66a18027ba1c7b22cd605be37d1ccff64 net: qrtr: Fix port ID for control messages
-cf16201965d3f4545fcfc63472260539bf97aeaa net: bridge: Fix a warning when del bridge sysfs
-ae55265b4049c86dc46c7752ccf10b2bc925a6c6 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
-8b08ae23954dda3283b508f748bffa39012a3520 Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
-d9c1e6baf31c016cd9d182e6b4fb6e43db25cb77 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
-32945ff8819338be1b28749d36798e8c658b91f4 Xen/gntdev: correct error checking in gntdev_map_grant_pages()
-ef628308abb915dbc931c4b3a79cc33c6da7fda6 xen/arm: don't ignore return errors from set_phys_to_machine
-70fa94662679bf82967af33cdf2ee6ca57db00c0 xen-blkback: don't "handle" error by BUG()
-f04b54f864a83328ba259704067fbc7a54cc5aef xen-netback: don't "handle" error by BUG()
-fa2c5997df87ed45d63f88a617f839d80b11d894 xen-scsiback: don't "handle" error by BUG()
-98ca779d324a983dc227b0ed5bd69dd2cc48bba0 xen-blkback: fix error handling in xen_blkbk_map()
+de9e899d70feeb5acd82e89fde66833e6264ce80 KVM: SEV: fix double locking due to incorrect backport
+284e548a6c5d4d0a82c799ee01fb7114adc81e74 net: qrtr: Fix port ID for control messages
+0b8e9ffb52ef095f7aa6a28dc3ccd45dd0f45474 net: bridge: Fix a warning when del bridge sysfs
+9ec7c7294d128add7195c0c9596029f9b96ebc85 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
+cf52bea0d89fdcc8e4b7c2a0f3c7852b682ad643 Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
+a5d141ac69560e89c01148ff967a30478e86fba3 Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
+b87b3c036e2871007356c00de778b6685d85b0aa Xen/gntdev: correct error checking in gntdev_map_grant_pages()
+43f081f0125cb4f9560ae00a0c059af4974f6b55 xen/arm: don't ignore return errors from set_phys_to_machine
+48b335f1bf365810d8b317ddf12a2b4fe649aebc xen-blkback: don't "handle" error by BUG()
+a6e6f1c71be4f8632c0499937ebcd2becebe1d14 xen-netback: don't "handle" error by BUG()
+c0189213616e62d5905e32a97463883d638b059c xen-scsiback: don't "handle" error by BUG()
+d2f50ff90d440a9bfc5f9e4d3a579e37be0c92d5 xen-blkback: fix error handling in xen_blkbk_map()
 
---===============6867708643232290509==--
+--===============3731201354206260659==--
