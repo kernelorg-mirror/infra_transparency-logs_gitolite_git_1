@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Subject: post-receive: pub/scm/bluetooth/bluez
 Date: Mon, 22 Feb 2021 20:00:13 -0000
-Message-Id: <161402401351.5790.10015171600097370139@gitolite.kernel.org>
+Message-Id: <161402401374.5813.1530052501927193171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/bluetooth/bluez
+user: holtmann
 changes:
-  - ref: refs/heads/fixes
-    old: a97fb9bc174a348b32c1e25db25273682d251393
-    new: 15f02a44743efffac2a8bf7b37ef981cbb9efc79
+  - ref: refs/heads/master
+    old: c2c471b75616c1cb9b6a4e2dad388b33509dcb0e
+    new: 66c61b500502216719ed2cb1f4b41e1215cea915
     log: |
-         02ca19f810e8460122539111bd5d502edbf718c9 habanalabs: Call put_pid() when releasing control device
-         15f02a44743efffac2a8bf7b37ef981cbb9efc79 habanalabs: Disable file operations after device is removed
+         66c61b500502216719ed2cb1f4b41e1215cea915 build: Update library version
          
