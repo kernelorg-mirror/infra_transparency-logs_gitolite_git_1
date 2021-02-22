@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7681896518542653434=="
+Content-Type: multipart/mixed; boundary="===============8712815843346926282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 22 Feb 2021 10:39:45 -0000
-Message-Id: <161399038508.10466.9355392400915188825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 22 Feb 2021 11:05:26 -0000
+Message-Id: <161399192687.26690.5712324429264970360@gitolite.kernel.org>
 
---===============7681896518542653434==
+--===============8712815843346926282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/irq/kill_msi_controller
-    old: 52653dbb8a3ebb73cfb4bb29778d1ecaaf59f0bd
-    new: 8c5a76ceb98b73e50753280286257ae76a2d6c15
-    log: revlist-52653dbb8a3e-8c5a76ceb98b.txt
+  - ref: refs/heads/master
+    old: 1149a3e91fd327ce6b0cc17beac0166cd43bc156
+    new: 8aba81cf6dc603bd6d4629ebc890650ace13ea9a
+    log: |
+         8aba81cf6dc603bd6d4629ebc890650ace13ea9a 4.4-stable patches
+         
 
---===============7681896518542653434==
+--===============8712815843346926282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52653dbb8a3e-8c5a76ceb98b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-bfee1737c2b322f26813497fd8ea32e711e9454d PCI: xilinx: Convert to MSI domains
-e1524c116bfb86866fbecb2f7d6fc863dcc40aa2 PCI: hyperv: Drop msi_controller structure
-2dc97ec601e90f4e7e53fd2b1423acef1b1490cf PCI: MSI: Drop use of msi_controller from core code
-722ef35f91de726ffb3e8125aadcb7afd7a49c84 PCI: MSI: Kill msi_controller structure
-18a7c4bd6be3c9c08bfccd3221aa8f1d44b11426 PCI: MSI: Kill default_teardown_msi_irqs()
-1185ee22a58ea399f86291586d3108983b5b994c PCI: MSI: Let PCI host bridges declare their lack of MSI handling
-a0702638b904b3a71ccf863a492c1ef787119643 PCI: mediatek: Advertise lack of MSI handling
-24cd6e82d338ea3d67a11ed4a251463d12121ab8 PCI: MSI: Let PCI host bridges declare their reliance on MSI domains
-6b8b78f53cabd06e4b46dd6ebd9fa53d2e88e961 PCI: Make pci_host_common_probe() declare its reliance on MSI domains
-07d75edd4baa1ff7c6a9be369318f420c003e2a6 PCI: MSI: Document the various ways of ending up with NO_MSI
-8c5a76ceb98b73e50753280286257ae76a2d6c15 PCI: quirks: Refactor advertising of the NO_MSI flag
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613991925 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1613991923-9a1de9e22b97d0778012fdc402c5431dedd44271
 
---===============7681896518542653434==--
+1149a3e91fd327ce6b0cc17beac0166cd43bc156 8aba81cf6dc603bd6d4629ebc890650ace13ea9a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzj/UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5ngP/1BqUH5i92Cm9ev/H2bp
+pmVv1HBG2tpFHtvuiMkNKdiwtknEuFhnTUd39QhSKXvo3ZH7d1mQCEFAxK8wjpnB
+qKRNlb2pu5/hlgljEjbPsrXVfcl0ldh4o5VXEgawMe6FUHa+2xgN0DhjtNdaaa1z
+gElXwyrS51yFbWWfRnU1SjIUkSoCEL8aMGg9Q8xTn2XaQKHxfyXN7RKAWfBBecrs
+D+MRRxGHur0Y9yCWt9R8csejZ0gzc8mfE6mz36hqH7fRNO5lGjABk8TNQW+Z0BeY
+bvwuqYZ7/zuHCYh8XGluXvvGk/LrDJe2EiZI4qXNjKRjQ2fd0C3aBhHj25aYTNMt
+Uiiqt9kS7Pw10aiUZy2BZTSiRrKayHbWtvKlwhWbe/SArA2v2yZLm6cTwLsC+wVy
+je9hWXruA9U/eS3JeCVu0UrJBQFXJZtsJjSTdz1LW3OFtx4nAgbsqt7KA70EwOpx
+zU6OaHN19TkGoS1Og/WNPKl1nKZ4XqXvgVzaIlPZFFb15lIYAa9KnUrjG08ocKVn
+ydWwFlcA46/TFYEz4g3NpQGl016I+af2+QYLM5xYzvJ/WMLf2TJoJZyfadrTeISi
+G/ZWbRTZpJdM8jFvvmGmd7/323d6sq3DqYmcdiCXs4fOgb7nLECYFCTIL4JCYn4w
+LKSHCG+fOS4kqgBXTrxJnYrL
+=Z0p+
+-----END PGP SIGNATURE-----
+
+--===============8712815843346926282==--
