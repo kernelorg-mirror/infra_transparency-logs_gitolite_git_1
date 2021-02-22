@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1541228326127134518=="
+Content-Type: multipart/mixed; boundary="===============1717563847111686334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 22 Feb 2021 15:34:42 -0000
-Message-Id: <161400808298.1291.3814653631468785779@gitolite.kernel.org>
+Date: Mon, 22 Feb 2021 15:36:15 -0000
+Message-Id: <161400817516.3206.13194665243078142218@gitolite.kernel.org>
 
---===============1541228326127134518==
+--===============1717563847111686334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: a8fd1d4cf5827c8aa4dfbef40a0ed796d57ecea4
-    new: 0ff08bebed5394fea6f1b95a2459ba989ffa0b53
+    old: 0ff08bebed5394fea6f1b95a2459ba989ffa0b53
+    new: 425d1dc163eedbfd92f108736cfaad67676af1a5
     log: |
-         bc8db073b1089b98a7875c4b5469bc2f08c2e712 staging: comedi dt2814: Removed unused variables
-         0ff08bebed5394fea6f1b95a2459ba989ffa0b53 staging: android: Remove filename reference from file
+         425d1dc163eedbfd92f108736cfaad67676af1a5 staging: wimax: Fix block comment style issue in stack.c
          
 
---===============1541228326127134518==
+--===============1717563847111686334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614008071 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614008163 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1614008070-c5b76b83f10b9a4f7a9c91f7fcc4bc72eff3d4e6
+nonce 1614008162-ccad19a203fe0362d225373a1f5b8f71c0aabdca
 
-a8fd1d4cf5827c8aa4dfbef40a0ed796d57ecea4 0ff08bebed5394fea6f1b95a2459ba989ffa0b53 refs/heads/staging-testing
+0ff08bebed5394fea6f1b95a2459ba989ffa0b53 425d1dc163eedbfd92f108736cfaad67676af1a5 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzzwcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E7UP+wQcxhx5BIl/i9UBhUUr
-FHUmED77l//W4vKflhbiNfEKHzNxZ2BzE0G7fkT1uj3zSi7jUDB0pFbyzXB8AvLj
-iCM5Q5sgNNbktpkqpSLIq0fte7fB67bFEXSc5tAS00FChaLYq67NL2WAYPvJXLYj
-FcLg60imGuBtR7a9T8q54dOTXs3s5CW7DHZ/9TE5QdYvwl9o24K3qzfHvlL3dcsy
-Ld2CsG1fJh5+0e/LywHfQOMYQ+Qiz4sX83gGtWA3xZ2+883fzEoxoBu6y1IY1sqB
-aKvCOLXpdfMi+WnQfcelfmtUqqzAHbjotOHWXIlnoyJmKVMNR3i8HZXLWrs9lsuF
-DuDe1ySgPcD64yWABhcxXDCElmUSXhbIVnflKxW/Mg3DqTInkg6kpgZbVAxioqVH
-dj+c/Rf1Fz7NOhlTP24EEutZl9QajSGuTG6rfmxlJIIpbmECPtIXIFyqn+2PrDRt
-XojaLcg43PB9Tx7iZOvIZrOlEW+vFaW1g7HiWrJIQuGehLiZ58+KtNlCveUue+JA
-D0GY+RujoC0D9l5VBJsfAPo4unncKp5PgveAa3Wv1vEfjYyG5g2PLToHdDU+JI5e
-oO9Mp8nzXFUqNW+Z7tRNO01w5cjPu2MRmSrxw+0rntq7DrfbSOyryVZkbif+KpzS
-eQuno4EkFr/H0mGooZIxugq9
-=P7WE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzz2MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K90P/17/At7neDg7MaiDqNdW
+5r4ZhsAYYvwLUgy88CcEotcENqmlVxduBDojtMEF9+ygKmoLMqw3q7L9eyA6B6F7
+pt1uKWIBMu9s/Luk4V/wWd9TtXrci0MQ8M0AhCEYmk+XLzIuKwB0eTTUepXENBKn
+I0huhrifrA53zDLf3hgDQU1bvKy5Yh9aT66Oed/+A+wVR/gby+hiwU92yBrSCd6U
+s9nuedyms1OrgEXnwlcZ72bXM4x9GkT+6K0PwNHesrgFLTMbBIYxXbh12EuHZlcX
+qMyW5Gkd3AVs5aP7v5oigMAqVTf8js2nmT1JXzO/Z2Bmh0/AY1mqqNpUmID9SpSF
+HK44d5ozzqIGGsxpOJv//czRpqpWn8UrESkYB/NrTQD1QImVtWVDkKHF7dQAi4UJ
+puHVSWSphMQib5Loq4VR9WOT44pYjTJqlIg82eYiG7LD1CDL0hxHvz1DmpHgi/5J
+P0fYhcVu1L2igR4/J85j5L3aeQqKyUShcg2ZzRLVn1BimTGNiTC3zr+MVLVSC6jH
+3DXZq4MUB7ZFYDpIEAiTXvzwNY82lsGdJJ3zpTuIW21yK8jlYQ6zkvuQfnLFISEc
+YpHLZ9NUar3EyWadtu7MCRTGXUC1TKIEMhCYd9ONc5OBLswzp+T2oz53hW0HQR7V
+f6pDui9ZsOGeXr9HQLAMqT8U
+=rw+Y
 -----END PGP SIGNATURE-----
 
---===============1541228326127134518==--
+--===============1717563847111686334==--
