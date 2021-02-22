@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Mon, 22 Feb 2021 07:35:23 -0000
-Message-Id: <161397932305.10827.4283778206788290061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpirko/libteam
+Date: Mon, 22 Feb 2021 07:39:52 -0000
+Message-Id: <161397959213.12343.16787588710671168850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/jpirko/libteam
+user: jpirko
 changes:
-  - ref: refs/heads/ath-next
-    old: 788f805e8c0a10679fdfa7c6d0e21465e3b62de5
-    new: 14ebaeeff8d0f2d5d59b6df6b59f54345839f9d9
+  - ref: refs/heads/master
+    old: 267f24839536234ca621d4fd0466d3b57cb6dccd
+    new: 69a7494bb77dc10bb27076add07b380dbd778592
     log: |
-         6b7abacb9cbe45894a385ea1766fd4febbd6e0df ath11k: print hardware name and version during initialisation
-         14ebaeeff8d0f2d5d59b6df6b59f54345839f9d9 Revert "ath9k: fix ath_tx_process_buffer() potential null ptr dereference"
-         
-  - ref: refs/heads/ath-qca
-    old: f3cbd2b3254bb198d977b323573874ab37a7d533
-    new: b157d227636eb4fd9854218c4802e8dab2eadf1b
-    log: |
-         6b7abacb9cbe45894a385ea1766fd4febbd6e0df ath11k: print hardware name and version during initialisation
-         14ebaeeff8d0f2d5d59b6df6b59f54345839f9d9 Revert "ath9k: fix ath_tx_process_buffer() potential null ptr dereference"
-         b157d227636eb4fd9854218c4802e8dab2eadf1b Merge branch 'ath-next' into ath-qca
+         69a7494bb77dc10bb27076add07b380dbd778592 teamd: lacp: increase "min_ports" upper limit to 1024
          
