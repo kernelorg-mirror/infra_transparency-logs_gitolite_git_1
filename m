@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2777832310560291936=="
+Content-Type: multipart/mixed; boundary="===============6096071292972184079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
-Date: Mon, 22 Feb 2021 13:54:40 -0000
-Message-Id: <161400208035.2339.2253706642252194932@gitolite.kernel.org>
+Date: Mon, 22 Feb 2021 13:55:08 -0000
+Message-Id: <161400210804.3864.10170764222682855777@gitolite.kernel.org>
 
---===============2777832310560291936==
+--===============6096071292972184079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pali/linux
 user: pali
 changes:
-  - ref: refs/heads/pci-aardvark
-    old: 16f256aa9d587d94ad3d717a4f67344247c05c85
+  - ref: refs/heads/a3720-cpufreq-issues
+    old: 0035895ddbabc9b5916fa28341111a2cfb5824ac
     new: 1c2f3373daa919d624f6c28d0d3b024aec5bf55c
-    log: revlist-16f256aa9d58-1c2f3373daa9.txt
+    log: revlist-0035895ddbab-1c2f3373daa9.txt
 
---===============2777832310560291936==
+--===============6096071292972184079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16f256aa9d58-1c2f3373daa9.txt
+Content-Disposition: attachment; filename=revlist-0035895ddbab-1c2f3373daa9.txt
 
 ff4e9b1be3e48ed22f30145fbccfaa49c8e87d10 arm64: dts: marvell: armada-37xx: add syscon compatible to NB clk node
 a900d6500bd22863d7fea47a25aefa2c9faab0fe cpufreq: armada-37xx: Fix setting TBG parent for load levels
@@ -37,4 +37,4 @@ b7a63d67c67bfe3e807f634ac35aea6b09f7dc1c cpufreq: armada-37xx: Fix determining b
 f3274c42504e42a28a288c80f64309b4a915f9b3 cpufreq: armada-37xx: Remove cur_frequency variable
 1c2f3373daa919d624f6c28d0d3b024aec5bf55c cpufreq: armada-37xx: Fix module unloading
 
---===============2777832310560291936==--
+--===============6096071292972184079==--
