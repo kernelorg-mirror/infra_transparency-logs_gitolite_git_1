@@ -1,64 +1,86 @@
-Content-Type: multipart/mixed; boundary="===============5104606249959334722=="
+Content-Type: multipart/mixed; boundary="===============6022572330709621421=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Mon, 22 Feb 2021 23:17:57 -0000
-Message-Id: <161403587745.27119.9324831901310772608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 22 Feb 2021 23:45:42 -0000
+Message-Id: <161403754287.11798.16432002675989814766@gitolite.kernel.org>
 
---===============5104606249959334722==
+--===============6022572330709621421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/next
-    old: 84c8d3d0b60ea104831658411915c20d81da38d7
-    new: 4cb431e82c251e2152d4ae5bcccd1513e64c1e6d
-    log: revlist-84c8d3d0b60e-4cb431e82c25.txt
+  - ref: refs/heads/dev
+    old: 4d58d475cfa31f5db75218d836dff0d573ceb06b
+    new: d951d3d89898e9c47b6c765fa69c88d238171150
+    log: revlist-4d58d475cfa3-d951d3d89898.txt
+  - ref: refs/heads/dev.2021.02.17a
+    old: 0000000000000000000000000000000000000000
+    new: 893966962a445a0b739c4a786ecc81edc95fd216
 
---===============5104606249959334722==
+--===============6022572330709621421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84c8d3d0b60e-4cb431e82c25.txt
+Content-Disposition: attachment; filename=revlist-4d58d475cfa3-d951d3d89898.txt
 
-f8ee579d53aca887d93f5f411462f25c085a5106 PCI: pci-bridge-emul: Fix array overruns, improve safety
-f6bda644fa3a7070621c3bf12cd657f69a42f170 PCI: Fix pci_register_io_range() memory leak
-1002573ee33efef0988a9a546c075a9fa37d2498 PCI: cadence: Fix DMA range mapping early return error
-fc235fcb0f7c1865ccb2d1f50267eef299a4f3fb PCI: acpiphp: Remove unused acpiphp_callback typedef
-e34a4f0b7001585c20b972c7cb57c82757a1f880 PCI/ASPM: Move LTR save/restore state functions earlier
-d2bb2f9e1af66d70323abaadc3a51afff4538bc2 PCI/ASPM: Move LTR, ASPM L1SS save/restore into PCIe save/restore
-83c2a2f6237dee1342f4ae081c1d49217acba3e1 PCI: rockchip: Tidy whitespace
-7fae24f2b2ccd312444fb401977f8f0603068435 PCI: microchip: Tidy whitespace
-dfa7c1ed2b943d7508c27e08099f8bfd1897392c PCI: dwc: Fix typos
-d2e2cdef518bc83f3ee3b8b624c023ee08e40951 Documentation: PCI: Fix NTB Function typos
-510f9db3cf55417df30c99621e4b6ac304520ae1 Merge branch 'pci/aspm'
-f98ef3d9b5ee44e67050a96c58f36cde22977f43 Merge branch 'pci/enumeration'
-b567be39737f8f270f05daafc2645dd823194c55 Merge branch 'pci/error'
-142637464cfc274d7e020ba1a5c0c3c740cebd89 Merge branch 'pci/hotplug'
-bc92504f79056ac96b4e27cb55f9c178aa7e1ce7 Merge branch 'pci/link'
-6fab38e9bdb1ccdcc258e8da87aefd83e6290a92 Merge branch 'pci/resource'
-460c206c9be7f1b0cf244f154088254066c378d0 Merge branch 'pci/host-probe-refactor'
-b9118f4f1e49efb52d5925043f1c0c7b756a01b1 Merge branch 'pci/misc'
-eb6a76cc14fab7fafe614a3bd6dc4aa361d7cd54 Merge branch 'remotes/lorenzo/pci/brcmstb'
-eae5c241380e87b2ccf0ae35c5ce04b0f4d21965 Merge branch 'remotes/lorenzo/pci/cadence'
-a31c993a5315f2b25eb24b2ce4e8be1d40151c5e Merge branch 'remotes/lorenzo/pci/dwc'
-419774bf13398c30594517f7a0ff4bd2bdd9dd19 Merge branch 'pci/dwc-typos'
-1300986e796fff998d8d61895ef9c66ba616ff74 Merge branch 'remotes/lorenzo/pci/mediatek'
-9b7abafe45e6ecd88665a6b61477ad7771a5acbd Merge branch 'remotes/lorenzo/pci/microchip'
-89cb6e1618ac70175d0d7b0eecad807403cd6932 Merge branch 'pci/microchip-typos'
-c3cf41a4a31b0e78941c2cf161f9625c8fc4c3bb Merge branch 'remotes/lorenzo/pci/ntb'
-bd3e6dc4cec36ea837dca2af6cf4fdf96e6be38c Merge branch 'pci/ntb-typos'
-01a798c1e3a0916e91f812f7483d40299606239a Merge branch 'remotes/lorenzo/pci/qcom'
-c6b773d64dbcd71720a8fa86397fdf668a948895 Merge branch 'remotes/lorenzo/pci/rcar'
-019b222d8dbc2f88279dc7cc0765c94579068037 Merge branch 'remotes/lorenzo/pci/rockchip'
-49affcd1aa05335254f499d5f07f864d8ee1c5af Merge branch 'pci/rockchip-typos'
-d1420a1612321513e681f12386e69c3efb3e5a6c Merge branch 'remotes/lorenzo/pci/tango'
-fc6d2c361d7645c53a221c62b298da2f8fcf2488 Merge branch 'remotes/lorenzo/pci/xilinx'
-4cb431e82c251e2152d4ae5bcccd1513e64c1e6d Merge branch 'remotes/lorenzo/pci/misc'
+4fbb8c3278ca67292df49f738c3d0501b751cec0 torture: Replace torture_init_begin string with %s
+c8bbc1ece3509db1da3e67a37a6c8de75b119f2e rcutorture: Replace rcu_torture_stall string with %s
+7cf39b8a25a010b06fad586b989d752042ff0167 rcu-tasks: Rectify kernel-doc for struct rcu_tasks
+9e787fd652e241e6b3a56d78e118791d4a2ad24f torture: Allow 1G of memory for torture.sh kvfree testing
+f668ed51357cc3b9ec34016067b1da4c800f0599 kvfree_rcu: Replace __GFP_RETRY_MAYFAIL by __GFP_NORETRY
+af10fd916f78e629f7193dc0b308179a708b3b5c torture: Provide bare-metal modprobe-based advice
+5ab93fb7c1698006bd4fb975ac459b6efa8cf290 kvfree_rcu: Use same set of GFP flags as does single-argument
+877583c989122c18bff7d7e062e3efe5c40bbf6e torture: Improve readability of the testid.txt file
+8ce44e6341cf7e93eb2451043474f490ecad742b rcu: Pull deferred rcuog wake up to rcu_eqs_enter() callers
+2a0f9fe096c4db731b0cf9941f73cbc741b40e58 rcu/nocb: Perform deferred wake up before last idle's need_resched() check
+02068cfa95373b10b2e20bb7033352c1ef24e43f rcu/nocb: Trigger self-IPI on late deferred wake up before user resume
+aa8964b1dff3d63d9d3525c49423582d7ba27cb0 entry: Explicitly flush pending rcuog wakeup before last rescheduling points
+cf1b9770e8485130d0d7af616399a2a928ab6060 timer: Report ignored local enqueue in nohz mode
+be010af3478d4a833a4131bd4cb6e210f2a83e30 rcu: Make rcu_read_unlock_special() expedite strict grace periods
+ad2e40f7e724d02a4d72295755d755c3b2da10a7 rcuscale: Disable verbose torture-test output
+95f16d47b3bb75edd4096b6ea7d6f0f674ac0c4d refscale: Disable verbose torture-test output
+c3c3958e0d08db881788547413237b8485fc333a rcu/nocb: Comment the reason behind BH disablement on batch processing
+d5583036705d111fc0506eefda29f622fedf187a rcu/nocb: Forbid NOCB toggling on offline CPUs
+b1345838dd68f49d3f8e00d88e13102e9b8ea679 rcu/nocb: Avoid confusing double write of rdp->nocb_cb_sleep
+9d4524329734518de46646458e66a4e8fd7e8458 rcu/nocb: Only (re-)initialize segcblist when needed on CPU up
+4d7d143d91cc13f2a292244f2cc1ab8f4faa685c rcu/nocb: Rename nocb_gp_update_state to nocb_gp_update_state_deoffloading
+635e8184d83ffbb2e6eba043d745c9a7304e970d torture: Make jitter.sh handle large systems
+ac5327232a1985324e1041d5d3c591a400ea2565 torture: Move build/run synchronization files into scenario directories
+e5801ea216238955d646164a0e1c601b0673b30b torture: Use file-based protocol to mark batch's runs complete
+e92d4e631793c38c12eb62ef665ad1ea3e65b941 torture: Use "jittering" file to control jitter.sh execution
+3bc79c8b8542e709991630f59b8dbeb4eb97d439 torture: Eliminate jitter_pids file
+15cfdb353d1f841a35918b0e934ee5f59971b029 torture: Reverse jittering and duration parameters for jitter.sh
+c1e618f11d4421c7e1e20df397d4eaacee44c849 torture: Abstract jitter.sh start/stop into scripts
+bc1429f8b6b9381938a83fa05eb36e0bee780c3a tools/memory-model: Add access-marking documentation
+d120dcc13e5f4a488b235ed69bd2b365d9c7c078 torture: Record TORTURE_KCONFIG_GDB_ARG in qemu-cmd
+a331323a20a3424f86f7f0b0be4bba5316079428 torture: Extract kvm-test-1-run-qemu.sh from kvm-test-1-run.sh
+275a41e5b4a5a88507cd79215e7897d363c7b943 softirq: Don't try waking ksoftirqd before it has been spawned
+7ccb0c3d18cd0463c8e8af7a6fbd10a57949b7a3 torture: Record jitter start/stop commands
+0f3f366f53972254efde32d26ebdca54a394ae34 torture: Record kvm-test-1-run.sh and kvm-test-1-run-qemu.sh PIDs
+54127685595e1ac502eae5b590dd0d578ef8b5d2 torture: Remove no-mpstat error message
+a00f20d3d292ebad9f9e64b6ae81d6cc25712d0b torture: Make upper-case-only no-dot no-slash scenario names official
+59925af468ff4d2d27b699890655c6c25b23d128 rcuscale: Add kfree_rcu() single-argument scale test
+0881f585d6c048888994f62fe07cf08b6d1b14bd torture: De-capitalize TORTURE_SUITE
+89914e8f981bc439d2da30f3ec6e431e30d93f00 torture: Create a "batches" file for build reuse
+b84a51f74134786ff9cb61764a39d75723b02c67 rcu: Prevent dyntick-idle until ksoftirqd has been spawned
+2f79c8f1a165b8c90dc44f53182db8b5978d16fc torture: Add kvm-again.sh to rerun a previous torture-test
+8a1abae7d099c86914df1e314367aa8e47e829a3 torture: Rename SRCU-t and SRCU-u to avoid lowercase characters
+fac8c7968fc3fcf22c23ec6a10df9efa2d93fcb2 torture: Add --duration argument to kvm-again.sh
+2794e7e89490539a520a5f99464d299a22d8c909 torture: Make kvm-transform.sh update jitter commands
+7ddf999124573f537740f4a4bd82445af2986a71 lib: test_bitmap: clearly separate ERANGE from EINVAL tests.
+ecce770ad38567c231f4a4f089fd47581fbe3e69 lib: test_bitmap: add tests to trigger ERANGE case.
+d9b674598d91f9349d16f93a658a3f85968c7742 lib: test_bitmap: add more start-end:offset/len tests
+35ab7900bd3fb384485ed7aef88b80d0d48bbee5 lib: bitmap: fold nbits into region struct
+c7d12ad18075a271bcbffcb594db59422f0e9ead lib: bitmap: move ERANGE check from set_region to check_region
+9c58a7e319d998143e7da2187d8fcd2195e2d629 lib: bitmap: support "N" as an alias for size of bitmap
+57549cf365b4b6ff08ffa75addaed23d00db7cfc lib: test_bitmap: add tests for "N" alias
+4fa90dd2125cdba061fd05a2132e3a1578cf56c3 rcu: deprecate "all" option to rcu_nocbs=
+d951d3d89898e9c47b6c765fa69c88d238171150 rcutorture: Use "all" and "N" in "nohz_full" and "rcu_nocbs"
 
---===============5104606249959334722==--
+--===============6022572330709621421==--
