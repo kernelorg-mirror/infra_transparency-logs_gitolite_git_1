@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Mon, 22 Feb 2021 21:25:22 -0000
-Message-Id: <161402912203.24436.533088724001578392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Mon, 22 Feb 2021 21:30:19 -0000
+Message-Id: <161402941905.27295.8642054954618176164@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mbroz/linux
-user: mbroz
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/tags/v5.11
-    old: 0000000000000000000000000000000000000000
-    new: 2d073d933799ffaa046c773bfffa01f3aa461701
-  - ref: refs/tags/v5.11-rc5
-    old: 0000000000000000000000000000000000000000
-    new: ccc5e9edc1b189a5c49dc8ac5751f95dc6d83564
-  - ref: refs/tags/v5.11-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 45e6659327a54b98d7715964f2993e44dfb2c318
-  - ref: refs/tags/v5.11-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d61728d5dac3c065b21f39249b406988aaefa193
+  - ref: refs/heads/master
+    old: 063369935f808fbc5940b22778d752312c40eb68
+    new: 9da09c8fc03b91ff25b07e963f7f76c3d94290cd
+    log: |
+         99230b876fc7a6ae97ab654bd74722a06dc65d8a together: Add notes for additional hazptr and applyrcu topics
+         9da09c8fc03b91ff25b07e963f7f76c3d94290cd datastruct: Shorten X label of cat-only lookup performance plot
+         
