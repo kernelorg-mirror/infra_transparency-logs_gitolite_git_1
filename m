@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8289719937910443123=="
+Content-Type: multipart/mixed; boundary="===============4828132893298253265=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 22 Feb 2021 19:23:18 -0000
-Message-Id: <161402179872.15149.14540421138772907249@gitolite.kernel.org>
+Date: Mon, 22 Feb 2021 19:23:32 -0000
+Message-Id: <161402181240.15292.17548694349677474066@gitolite.kernel.org>
 
---===============8289719937910443123==
+--===============4828132893298253265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: bleung
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 6483dc5c7a450f53bf92b2f66d25da485ca9a456
-    new: 6d3150c28267a64f2151eab604ac189830d853b5
-    log: revlist-6483dc5c7a45-6d3150c28267.txt
+  - ref: refs/heads/for-next
+    old: a59e12218c4f5498d5669a0ee0c725101ca89d52
+    new: b996c10e0f5b2cfd5b2cbf048cce83982bfe662d
+    log: revlist-a59e12218c4f-b996c10e0f5b.txt
 
---===============8289719937910443123==
+--===============4828132893298253265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6483dc5c7a45-6d3150c28267.txt
+Content-Disposition: attachment; filename=revlist-a59e12218c4f-b996c10e0f5b.txt
 
+b7a9369ae6f2da41b1d9f01a1d84e10e39bca293 drm/nouveau/fb: switch to instanced constructor
 8d056d9987e3fb0189ffd281c7ba065bd265d8b0 drm/nouveau/fuse: switch to instanced constructor
 01055c01ba435cce2e9644a2c1582948f4c64883 drm/nouveau/gpio: switch to instanced constructor
 b240b21261c2a40ed3afbaf811a9f473d3ad926a drm/nouveau/gsp: switch to instanced constructor
@@ -1049,6 +1050,5 @@ a2590d69893f232cbb79d149dbbb456a1febca22 Merge tag 'spi-v5.12' of git://git.kern
 4512d92b03a6ff4909bcde893752918a88cd4690 Merge tag 'backlight-next-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
 f158bbee9403b7bd2ad22f0c03b7e9762c20ad18 Merge tag 'mfd-next-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
 b996c10e0f5b2cfd5b2cbf048cce83982bfe662d Merge tag 'tag-chrome-platform-for-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
-6d3150c28267a64f2151eab604ac189830d853b5 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
 
---===============8289719937910443123==--
+--===============4828132893298253265==--
