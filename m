@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6797505125207716653=="
+Content-Type: multipart/mixed; boundary="===============3108182348834291249=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 22 Feb 2021 08:32:37 -0000
-Message-Id: <161398275716.12515.5641275286272148980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 22 Feb 2021 08:40:45 -0000
+Message-Id: <161398324502.18727.7993169721035767825@gitolite.kernel.org>
 
---===============6797505125207716653==
+--===============3108182348834291249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: f40ddce88593482919761f74910f42f4b84c004b
     log: revlist-5c8fe583cce5-f40ddce88593.txt
 
---===============6797505125207716653==
+--===============3108182348834291249==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ab30c7f9c3ca2599f5ab3e4d29ae56453c8668e5 Merge tag 'kbuild-fixes-v5.11-3' of git
 28a17338738839494752c5da3e12c889a55219db Merge branch 'for-rc8-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 f40ddce88593482919761f74910f42f4b84c004b Linux 5.11
 
---===============6797505125207716653==--
+--===============3108182348834291249==--
