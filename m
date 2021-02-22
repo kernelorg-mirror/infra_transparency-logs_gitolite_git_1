@@ -1,49 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============3352028350792716482=="
+Content-Type: multipart/mixed; boundary="===============1875167905816399550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Mon, 22 Feb 2021 14:36:02 -0000
-Message-Id: <161400456276.31667.47741452624409506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usbutils
+Date: Mon, 22 Feb 2021 14:43:06 -0000
+Message-Id: <161400498610.4086.18027673161662992395@gitolite.kernel.org>
 
---===============3352028350792716482==
+--===============1875167905816399550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/gregkh/usbutils
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: 94269f6a470c81ec931727e5706fe17f21ae58bb
-    new: 8052a5754fe6addac8b03d91f915f4987eb7106b
-    log: revlist-94269f6a470c-8052a5754fe6.txt
+  - ref: refs/heads/master
+    old: 81ee5fb9d6fd14e860f28af64da837e25af1b08e
+    new: d68bb8328bfdad3ddd9c0cfeab89733213018fca
+    log: |
+         44c9cd24380531d3b6354499aee174ba23bb5e8c lsusb(8): mention the udev's hardware database
+         dda0da44981b64d89a8e7b333387cf13e9649f16 lsusb: Fix spelling of bEndpointAddress in UVC
+         d20ce26a563bc614be309f8a1be3750798a1bb59 lsusb: Decode endpoint addresses in UVC
+         a7aba76ceb865ca09024654c1587a9a4c955e86e Merge pull request #119 from aurel32/master
+         d68bb8328bfdad3ddd9c0cfeab89733213018fca Merge pull request #120 from neuschaefer/uvc
+         
 
---===============3352028350792716482==
+--===============1875167905816399550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94269f6a470c-8052a5754fe6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-acb4063a63c7c5dbcd0c7301cd607ea64f0d2655 USB: serial: cp210x: add Silicon Labs IDs for Windows Update
-564cb9f3f1bc85faea8e6b48ca96bd0c88b4c929 n_tty: Access echo_* variables carefully.
-d2cae7cf4ff283d11579de0c9ec770739b97faab i2c: rcar: fix resume by always initializing registers before transfer
-c6018400ab1a7d34b43581187ca0fed5dabe8342 kprobes/x86: Do not modify singlestep buffer while resuming
-cd4c82f3a71d0629dc3c55867491c78ad8be7906 netfilter: nf_tables: use WARN_ON_ONCE instead of BUG_ON in nft_do_chain()
-f8c117c61c694748bc99dd2db10f6082de2fa1f2 mm: hugetlb: yield when prepping struct pages
-ab2e1386d1e8506fa26286c6a40b383f7de88122 tracing: Fix missing return symbol in function_graph output
-6063903379b7640734ba971f2185735be6d02862 drbd: fix access after free
-36db29999afb1a94d88f56a6d1fabfd4fb1cf524 ext4: include the illegal physical block in the bad map ext4_error msg
-5ab578f975cbe004467fad4f62522e26bf3ffb95 ext4: check superblock mapped prior to committing
-e7936dfba7eb0f36263e5ed3f192be315efbdad9 HID: hiddev: fix potential Spectre v1
-c6c07c3b32044c28cd78a8e8383b31d2c96a341a mm, page_alloc: do not break __GFP_THISNODE by zonelist reset
-cfc37980b86164ce90177e953058ab9a1dda8c22 staging: comedi: quatech_daqp_cs: fix no-op loop daqp_ao_insn_write()
-25c8056d130bc371cdbfd153e897569f1fa90062 ahci: Disable LPM on Lenovo 50 series laptops with a too old BIOS
-ffe4cac22441142b431d4f81f74dadb5631720b4 USB: serial: ch341: fix type promotion bug in ch341_control_in()
-c222564b02601fb81e68662a1684488934657c3d USB: serial: cp210x: add another USB ID for Qivicon ZigBee stick
-b07e5b57c6ed5fee602738b5b636d3a8eab45d9a HID: usbhid: add quirk for innomedia INNEX GENESIS/ATARI adapter
-6075b937b67dd2317e8b9c599f8f4db375d10e67 x86/cpufeature: Move some of the scattered feature bits to x86_capability
-8052a5754fe6addac8b03d91f915f4987eb7106b x86/cpufeature: Cleanup get_cpu_cap()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614004982 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usbutils.git
+nonce 1614004982-5c2551a917a0165e8d410060fa868ff86b9e8f1a
 
---===============3352028350792716482==--
+81ee5fb9d6fd14e860f28af64da837e25af1b08e d68bb8328bfdad3ddd9c0cfeab89733213018fca refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzwvYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fk4P/1Gzu+KNQMR4BR9jkJHR
+c98MxZ0tWlrWDTN66Jh9PGc7n/QdzS9n+xbk6RQmQhjJ8OzH1v7IEMhEZpXXU9lk
+SzXZtLre0nm2e+PDywwas6AdwF8ZgBxIzTbeWVr/kLB9Zu5dHLb43C9tFviItWGe
+32WGmxTb6N0wirlbMjYK3tSNFvSsNcC6wkddSBdPg/YadbA67PIic74vfjC43jMH
+l2lb1xXCZHXIZvJOQAGiARXE8y2XayNf97rOQ1qsBtLkdgTcpFRGD3JksEnmK3NV
+uJQ0NlYLsa/UDBhhUjNCxCoXU1WnLgmsTKaSP8DQRKSQVYj0Crtc/5nAMcgQRNz+
+Tf9DAsij7Kt7WPJgPN2BLczB3OObhcuD5AMenvVfQNkQfJOFZWPSt/WIrihYKQ3Y
+J8wF+rpxkrIff2pUsI1U/up1v4hZJOqATz4/r8fxBdurSsfiX/hPSYs48JY7uLdj
+KyA1odGtsFUqhtobn0JTrkaYxii4wbOrD9Adp0MPaWAGV/C26L7at13ViEyLfUos
+WgwdMEKILxt+a21EMUhVerFVSZ42zfvndjeO/UTj6H1b2E7KYEARg6R5j5n5QBAv
+k+hDbIvlZkv0+oXyXEE4hZnL6Kakijg20ObOHdbdaPUrCCNV2qui34K7htr1BK4x
+F4Cx7Y41AUSJWtk2mpP6ewN7
+=G7La
+-----END PGP SIGNATURE-----
+
+--===============1875167905816399550==--
