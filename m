@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4792306933434489288=="
+Content-Type: multipart/mixed; boundary="===============7672180699526583055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 22 Feb 2021 01:02:15 -0000
-Message-Id: <161395573562.13351.1431329403860377624@gitolite.kernel.org>
+Date: Mon, 22 Feb 2021 01:04:17 -0000
+Message-Id: <161395585784.14069.2295936334939859381@gitolite.kernel.org>
 
---===============4792306933434489288==
+--===============7672180699526583055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 614cb5894306cfa2c7d9b6168182876ff5948735
-    new: f40ddce88593482919761f74910f42f4b84c004b
-    log: revlist-614cb5894306-f40ddce88593.txt
+  - ref: refs/heads/dev
+    old: 61dd9f0b09e0bbb2a2d20480d39dac6b4f18cd01
+    new: f728760aa923f1dd3a4818368dbdbd2c7d63b370
+    log: revlist-61dd9f0b09e0-f728760aa923.txt
 
---===============4792306933434489288==
+--===============7672180699526583055==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-614cb5894306-f40ddce88593.txt
+Content-Disposition: attachment; filename=revlist-61dd9f0b09e0-f728760aa923.txt
 
-31e203e09f036f48e7c567c2d32df0196bbd303f ext4: fix wrong list_splice in ext4_fc_cleanup
-6b4b8e6b4ad8553660421d6360678b3811d5deb9 ext4: fix bug for rename with RENAME_WHITEOUT
 e9f53353e166a67dfe4f8295100f8ac39d6cf10b ext4: remove expensive flush on fast commit
 61e960b07b637f0295308ad91268501d744c21b5 cgroup-v1: add disabled controller check in cgroup1_parse_param()
 be82fddca81eefd1edbd9b290dfcb2177e24785b libperf tests: Avoid uninitialized variable warning
@@ -1050,5 +1048,7 @@ c553021498640050340924bd62fa580e253467ac Merge tag 'x86_urgent_for_v5.11' of git
 ab30c7f9c3ca2599f5ab3e4d29ae56453c8668e5 Merge tag 'kbuild-fixes-v5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 28a17338738839494752c5da3e12c889a55219db Merge branch 'for-rc8-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 f40ddce88593482919761f74910f42f4b84c004b Linux 5.11
+78c276f5495aa53a8beebb627e5bf6a54f0af34f exfat: fix shift-out-of-bounds in exfat_fill_super()
+f728760aa923f1dd3a4818368dbdbd2c7d63b370 exfat: improve performance of exfat_free_cluster when using dirsync mount option
 
---===============4792306933434489288==--
+--===============7672180699526583055==--
