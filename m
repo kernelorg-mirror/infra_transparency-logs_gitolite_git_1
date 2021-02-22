@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2500239960162209106=="
+Content-Type: multipart/mixed; boundary="===============0798064738157310022=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 22 Feb 2021 06:49:03 -0000
-Message-Id: <161397654317.27806.13485081552233495389@gitolite.kernel.org>
+Date: Mon, 22 Feb 2021 06:49:23 -0000
+Message-Id: <161397656372.27987.10206318515088650657@gitolite.kernel.org>
 
---===============2500239960162209106==
+--===============0798064738157310022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 55f62bc873477dae2c45bbbc30b86cf3e0982f3b
     new: 31caf8b2a847214be856f843e251fc2ed2cd1075
     log: revlist-55f62bc87347-31caf8b2a847.txt
 
---===============2500239960162209106==
+--===============0798064738157310022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613976533 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1613976554 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1613976533-1af68affb2cd2dc415fdab124383963b35fa6a9c
+nonce 1613976553-459969138dca3042431911f05a8fdf7207bb4248
 
-55f62bc873477dae2c45bbbc30b86cf3e0982f3b 31caf8b2a847214be856f843e251fc2ed2cd1075 refs/heads/usb-next
+55f62bc873477dae2c45bbbc30b86cf3e0982f3b 31caf8b2a847214be856f843e251fc2ed2cd1075 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzU9UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hFEQAJQ2Fy+84ol0KyrNGHi2
-orSzkohbPf9Hnouh175AlEeJOJElKM6gefoPRedfKHxC31fuxsu9TYvCXkplLgnH
-K1SCXrguSL34QN0/q8baZSdifAqqgQIvLL1pcQ6zrMwU5522EELgjaWWiaMt+nte
-TmxYo0L1F6c4oUEXNz7W1guCKcMR4AFO6mU3ieXiKbDZNufUY/9EkEqlqERd6fK1
-D534YVuku+c/JivH782cVsQK2Un7DGVTYmKHqgWMu4iP3kzTCocx44hpfI2sKbzO
-NjrLfHKm3dLvpFXGNpURVKmmSVjaYAPcAqVrpUgyApwT4UgPRh5hBnF/MpWdY4xa
-CSA5uXCXkBwWr/iyNHhhiW5up8vksyVWDyGIum4KqNBKRBs/ix0cANI1vmtXbBMX
-f4AclBCCJHCkIIc3L60DsHHSoxBv/Rm41SA71A3RhiUYUx8tUzcKVf3Jk3l/Lhb6
-7cTP2jDnXrKv/WWgTVYNxd4xYnWGQnfIjzUb2iC4WwQAgiAElYuFu1ctK9i3j2nm
-fq4YAu2QGkNzZ5Mh8LOU8UQCVDl1a4tUUx+rqkf/1k86kuiVbUfhHAcZmIKqxhwN
-643N8KFth9taDMFUcGrMIAVa2WZybkE5fG47tpjs8wjq5x3b0fdxDKU14XByu5yh
-LXQ98hqfVzuvFL61ubEDEuMs
-=5SNx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmAzU+obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3iAQALy2DcHVz1S6zLOSIztz
+wpCtGn9Xn/Jj+gabPf/E5XVfG0DToQWgXPem5TV3VwsLY9MhJi88nxuZ2jTLMvPW
+0vi3LU4VlmT4Gpd4PgLVPF5gk3+zYs2zxuElYYGvpaOutzuNBwDr9iLzs5eWfCOT
+6cDbkVMhRaMJmGBQhbIYcjumu59XfjSiVOtLfLhLVtovhPheK7yaPftFPEazOyfU
+OTWA288RuuJeSMnNozuzkLm1hFL/MkBQRwTAPEml/6iGv8B0ZKT5iKrttfyd/UBF
+pQA8dg8R95NsmAZIz/xh5TQmagE0nz6qvJaFDrhUIvACjRnORTJEa2pdSA4gJ30S
+3xPSIe+gYSlf//1DNU8BtGxxF4i4jUzZ+aXyEO4cv/3ZtQnEAPJAGeVqh2PT/iuN
+eC87kvVae7KnfpT2rt16cu9f/g6zn5DL7UhjKJjidh6JlzvKOgakFCnP39c72AlK
+qunc5aPPIRDa06lEX+U+ThqdGZmpGeTK6C/ymS3hNses/d2teG9oIjtuEaCsjSyt
+cQ7kdCRy3cRAB2Iejq1SbBqn8MgHQTqTs6a3hq6QJ3aIK+22OGXWCinf1/XPPlfB
+ODKz5x2kIfXvwCfii7vyksXy6q87fwlyyHv2ByS98axZEPESgS8+bxdrxTM0j7uX
+xawZ0u8NNyfSAfkVL7cWrfzm
+=ildd
 -----END PGP SIGNATURE-----
 
---===============2500239960162209106==
+--===============0798064738157310022==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ d643a990891abdb0fd93ff3740a6f7222fbb756c Merge tag 'integrity-v5.12' of git://gi
 a2b095e0efa7229a1a88602283ba1a8a32004851 Merge tag 'tpmdd-next-v5.12-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 31caf8b2a847214be856f843e251fc2ed2cd1075 Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 
---===============2500239960162209106==--
+--===============0798064738157310022==--
