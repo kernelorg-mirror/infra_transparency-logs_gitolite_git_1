@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5633098969737998925=="
+Content-Type: multipart/mixed; boundary="===============6413343567305093375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 22 Feb 2021 16:40:03 -0000
-Message-Id: <161401200370.10972.9937196402436790695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 22 Feb 2021 16:40:09 -0000
+Message-Id: <161401200970.11679.9206635090685755060@gitolite.kernel.org>
 
---===============5633098969737998925==
+--===============6413343567305093375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 2d073d933799ffaa046c773bfffa01f3aa461701
 
---===============5633098969737998925==
+--===============6413343567305093375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1054,4 @@ d643a990891abdb0fd93ff3740a6f7222fbb756c Merge tag 'integrity-v5.12' of git://gi
 a2b095e0efa7229a1a88602283ba1a8a32004851 Merge tag 'tpmdd-next-v5.12-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 31caf8b2a847214be856f843e251fc2ed2cd1075 Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 
---===============5633098969737998925==--
+--===============6413343567305093375==--
