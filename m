@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9168723631714836088=="
+Content-Type: multipart/mixed; boundary="===============1320680243651891244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 23 Feb 2021 22:02:31 -0000
-Message-Id: <161411775176.3028.7883339621080608370@gitolite.kernel.org>
+Date: Tue, 23 Feb 2021 22:05:47 -0000
+Message-Id: <161411794755.5416.51802412793384@gitolite.kernel.org>
 
---===============9168723631714836088==
+--===============1320680243651891244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,60 +16,66 @@ repo: pub/scm/linux/kernel/git/torvalds/linux
 user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 5cf0fd591f2e7833405bdc7ce2176c3502e8a11e
-    new: 7d6beb71da3cc033649d641e1e608713b8220290
-    log: revlist-5cf0fd591f2e-7d6beb71da3c.txt
+    old: 7d6beb71da3cc033649d641e1e608713b8220290
+    new: f6e1e1d1e149802ed4062fa514c2d184d30aacdf
+    log: revlist-7d6beb71da3c-f6e1e1d1e149.txt
 
---===============9168723631714836088==
+--===============1320680243651891244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cf0fd591f2e-7d6beb71da3c.txt
+Content-Disposition: attachment; filename=revlist-7d6beb71da3c-f6e1e1d1e149.txt
 
-a6435940b62f81a1718bf2bd46a051379fc89b9d mount: attach mappings to mounts
-e6c9a71451560edba343cbcbd500bea0a188f0d1 fs: add id translation helpers
-02f92b3868a1b34ab98464e76b0e4e060474ba10 fs: add file and path permissions helpers
-0558c1bf5a0811bf5e3753eed911a15b9bd08271 capability: handle idmapped mounts
-47291baa8ddfdae10663624ff0a15ab165952708 namei: make permission helpers idmapped mount aware
-21cb47be6fb9ece7e6ee63f6780986faa384a77c inode: make init and permission helpers idmapped mount aware
-2f221d6f7b881d95de1f356a3097d755ab1e47d4 attr: handle idmapped mounts
-e65ce2a50cf6af216bea6fd80d771fcbb4c0aaa1 acl: handle idmapped mounts
-c7c7a1a18af4c3bb7749d33e3df3acdf0a95bbb5 xattr: handle idmapped mounts
-71bc356f93a1c589fad13f7487258f89c417976e commoncap: handle idmapped mounts
-0d56a4518d5eaf595a24ab2202e171330bb2ed72 stat: handle idmapped mounts
-ba73d98745be1c10dc3cce68e8d7b95012d07d05 namei: handle idmapped mounts in may_*() helpers
-9fe61450972d3900bffb1dc26a17ebb9cdd92db2 namei: introduce struct renamedata
-6521f8917082928a4cb637eb64b77b5f2f5b30fc namei: prepare for idmapped mounts
-643fe55a0679ae5582a1a2a1df86dc240292cd1b open: handle idmapped mounts in do_truncate()
-b8b546a061884d98ba6ac6b4a0d1ee6566031cf5 open: handle idmapped mounts
-7c02cf73d0e2bfa18b321731dd35212eb6c92265 af_unix: handle idmapped mounts
-d06c26f196dd5b196dfa5ff9703cf6c1ce921b9d utimes: handle idmapped mounts
-9eccd12ce7f1c063a5ff03d8b8456b2b9761c6b6 fcntl: handle idmapped mounts
-b816dd5ddeae3252bb4255105b4c641e4c841501 init: handle idmapped mounts
-0f5d220b42fba0ab17a7353787be3c29bea92e30 ioctl: handle idmapped mounts
-435ac6214e00eab191296cd6cfdc316aa07e7794 would_dump: handle idmapped mounts
-1ab29965b30599c797266eb3b970b4e6c8de3672 exec: handle idmapped mounts
-549c7297717c32ee53f156cd949e055e601f67bb fs: make helpers idmap mount aware
-3cee6079f62f4d3a37d9dda2e0851677e08028ff apparmor: handle idmapped mounts
-a2d2329e30e224ea68d575d2525b866df9805ea0 ima: handle idmapped mounts
-0f16ff0f545d5ec90bbd548afd2983785b546780 ecryptfs: do not mount on top of idmapped mounts
-029a52ada6a774cac457f3be34b79cfc85563ced overlayfs: do not mount on top of idmapped mounts
-899bf2ceb3963b04fa412d7967480578311b1bc7 nfs: do not export idmapped mounts
-68847c941700475575ced191108971d26e82ae29 namespace: take lock_mount_hash() directly when changing flags
-d033cb6784c4f3a19a593cfe11f850e476197388 mount: make {lock,unlock}_mount_hash() static
-e58ace1a0fa9d578f85f556b4b88c5fe9b871d08 namespace: only take read lock in do_reconfigure_mnt()
-fbdc2f6c40f6528fa0db79c73e844451234f3e26 fs: split out functions to hold writers
-5b490500f91b212d862560e7568aa5cdc141f9d0 fs: add attr_flags_to_mnt_flags helper
-2a1867219c7b27f928e2545782b86daaf9ad50bd fs: add mount_setattr()
-9caccd41541a6f7d6279928d9f971f6642c361af fs: introduce MOUNT_ATTR_IDMAP
-01eadc8dd96d7215dda71a1fe74b07b0e3b48af5 tests: add mount_setattr() selftests
-4b78993681083361f19f66b4e9db298945647a3d fat: handle idmapped mounts
-14f3db5542e62bcf6fe088a09760ac52d55306c5 ext4: support idmapped mounts
-f736d93d76d3e97d6986c6d26c8eaa32536ccc5c xfs: support idmapped mounts
-f69e8091c4a2ae291e1f55225e8116fef05dc156 xfs: remove the possibly unused mp variable in xfs_file_compat_ioctl
-d7d29ac76f7efb506bcecc092641e704f791d92d percpu: reduce the number of cpu distance comparisons
-258e0815e2b1706e87c0d874211097aa8a7aa52f percpu: fix clang modpost section mismatch
-aa8e3291729fd885351af0b077330721d4bf5db9 Merge branch 'for-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/dennis/percpu
-7d6beb71da3cc033649d641e1e608713b8220290 Merge tag 'idmapped-mounts-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
+c77b52c0a137994ad796f44544c802b0b766e496 gfs2: Add common helper for holding and releasing the freeze glock
+96b1454f2e8ede4c619fde405a1bb4e9ba8d218e gfs2: move freeze glock outside the make_fs_rw and _ro functions
+2a6fe26ccf0bcebf469887bcc7c382d076751f4c gfs2: make gfs2_log_write_page static
+0eacdd16adc425e61926876f15b58008aa5c4784 gfs2: Turn gfs2_rbm_incr into gfs2_rbm_add
+c65b76b893032a9fa69056656c771f5e2fc9ef0c gfs2: Only use struct gfs2_rbm for bitmap manipulations
+3ed08befeb09e199c258fc4f3878935f57a2bd9a gfs2: Get rid of unnecessary variable in gfs2_alloc_blocks
+4272006d956f49e428f87c476959318301f2d4d2 gfs2: Minor gfs2_inplace_reserve cleanup
+2fdc2fa21bc72ec06c0c9f0e30b88fe1f2486b75 Revert "gfs2: Don't reject a supposedly full bitmap if we have blocks reserved"
+a12c6fa1de8472f0eb56f7e5a60de2ffa4f6c043 gfs2: Don't clear GBF_FULL flags in rs_deltree
+560b8eba6bf685bb2a29fd24e7b3455e7b8f795a gfs2: Set GBF_FULL flags when reading resource group
+736b2f778f0a71ce54abe7e6d2c6f7591b95f7b8 gfs2: Un-obfuscate function jdesc_find_i
+458094c2c6115cda721fd11a56f7e4f27cddd5b1 gfs2: Simplify the buf_limit and databuf_limit definitions
+5a4e9c607e03886815121fa975fcd8e0fa7252fe gfs2: Minor gfs2_write_revokes cleanups
+6188e8777de48c8404b0bcca74a70ac83c37d773 gfs2: Some documentation updates
+625a8edd5e00e7c4c70a125a433ec7598d9f0c27 gfs2: Minor debugging improvement
+e7501bf88cd77ed3a1bc65c451600a847c80485b gfs2: Rename gfs2_{write => flush}_revokes
+6e80674af06c0dca6e0153d492d437f3f07fe3e9 gfs2: Clean up ail2_empty
+00e8e9bc3c46c95bfa191294a60beaf6d2ead01e gfs2: amend SLAB_RECLAIM_ACCOUNT on gfs2 related slab cache
+bff2e532d433a1de3ec11aa0a525ceb08ba8f960 gfs2: Fix invalid block size message
+4a011849f7595c95a221551ced9179aa3ffb4890 Revert "GFS2: Re-add a call to log_flush_wait when flushing the journal"
+f5f02fde9f52b2d769c1c2ddfd3d9c4a1fe739a7 gfs2: fix glock confusion in function signal_our_withdraw
+82218943058d5e3fe692a38b5a549479738dab33 gfs2: keep bios separate for each journal
+15e20a301ab06575482c7ab3b442a6830cec928e gfs2: Use sb_start_intwrite in gfs2_ail_empty_gl
+c968f5788bc91fe4f86df1a68f0d6471396b4d78 gfs2: Clean up on-stack transactions
+f3708fb59f6c2498e8ec4f29010375f600b68642 gfs2: Get rid of sd_reserving_log
+c1eba1b0bca59316f34aa6f70fe5004abba8082d gfs2: Move lock flush locking to gfs2_trans_{begin,end}
+4a3d049db42b42a36ae84eb8b59d2f5119737253 gfs2: Don't wait for journal flush in clean_journal
+5ae8fff8d031b5728f4c0e36e971bba42bb78bea gfs2: Clean up gfs2_log_reserve
+297de3180dd7ecbb3798f32e58691168587a8f85 gfs2: Use a tighter bound in gfs2_trans_begin
+5cb738b5fbd2f3ebe9dec0e428577a4f2128adbe gfs2: Get rid of current_tail()
+76fce6548961a0c6246c4796e71800cdc63d5851 gfs2: Move function gfs2_ail_empty_tr
+834ec3e1ee65029029225a86c12337a6cd385af7 gfs2: Lock imbalance on error path in gfs2_recover_one
+78178ca844f0eb88f21f31c7fde969384be4c901 gfs2: Don't skip dlm unlock if glock has an lvb
+47b7ec1daa511cd82cb9c31e88bfdb664b031d2a gfs2: Enable rgrplvb for sb_fs_format 1802
+866eef48d80234e1ea3a2f78b54afc563be3ea4a gfs2: Add trusted xattr support
+7009fa9cd9a5262944b30eb7efb1f0561d074b68 gfs2: Recursive gfs2_quota_hold in gfs2_iomap_end
+f38e998fbbb5da6a097ecd4b2700ba95eabab0c9 gfs2: Also reflect single-block allocations in rgd->rd_extfail_pt
+3d39fcd16d885ebb0d9a2e345accb0e5ae13fed9 gfs2: Only pass reservation down to gfs2_rbm_find
+b2598965dc84bbcf8dd54accc80f60820e5d4965 gfs2: Don't search for unreserved space twice
+0ec9b9ea4f83303bfd8f052a3d8b2bd179b002e1 gfs2: Check for active reservation in gfs2_release
+07974d2a2a98bc3ce15f3411ebe5175c0af8f1c3 gfs2: Rename rs_{free -> requested} and rd_{reserved -> requested}
+725d0e9d464d567cd9290e29879d8bffc92013f8 gfs2: Add per-reservation reserved block accounting
+9e514605c77451745ea9fca5a26fc3153893686a gfs2: Add local resource group locking
+06e908cd9ead1f215cc30132aac5ce132a352fbe gfs2: Allow node-wide exclusive glock sharing
+4fc7ec31c3c44031e8a8872bb8432cf4f6cb6ddd gfs2: Use resource group glock sharing
+71b219f4e50b12efffbc8107408e17904f9c47e6 gfs2: Minor calc_reserved cleanup
+fe3e397668775e20ad0962459733158838b926af gfs2: Rework the log space allocation logic
+2129b4288852cf872c42870c7f6e813ce0611199 gfs2: Per-revoke accounting in transactions
+803074ad77b91e270c1ce90793a924cdb4547162 Merge branches 'rgrp-glock-sharing' and 'gfs2-revoke' from https://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
+17d77684088510df84ff8285982d0eed52cd5890 gfs2: Don't get stuck with I/O plugged in gfs2_ail1_flush
+f6e1e1d1e149802ed4062fa514c2d184d30aacdf Merge tag 'gfs2-for-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 
---===============9168723631714836088==--
+--===============1320680243651891244==--
