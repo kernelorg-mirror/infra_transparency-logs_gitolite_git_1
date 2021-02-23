@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7285296249839749769=="
+Content-Type: multipart/mixed; boundary="===============8632106420637039447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 23 Feb 2021 23:41:25 -0000
-Message-Id: <161412368567.31233.4947805160370264356@gitolite.kernel.org>
+Date: Tue, 23 Feb 2021 23:41:31 -0000
+Message-Id: <161412369194.31344.6742778781732024543@gitolite.kernel.org>
 
---===============7285296249839749769==
+--===============8632106420637039447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 92bf22614b21a2706f4993b278017e437f7785b3
     new: f40ddce88593482919761f74910f42f4b84c004b
     log: revlist-92bf22614b21-f40ddce88593.txt
 
---===============7285296249839749769==
+--===============8632106420637039447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -179,4 +179,4 @@ ab30c7f9c3ca2599f5ab3e4d29ae56453c8668e5 Merge tag 'kbuild-fixes-v5.11-3' of git
 28a17338738839494752c5da3e12c889a55219db Merge branch 'for-rc8-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 f40ddce88593482919761f74910f42f4b84c004b Linux 5.11
 
---===============7285296249839749769==--
+--===============8632106420637039447==--
