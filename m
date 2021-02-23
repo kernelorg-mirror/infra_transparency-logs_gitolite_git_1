@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Tue, 23 Feb 2021 21:42:45 -0000
-Message-Id: <161411656525.24372.13748202831068084952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Tue, 23 Feb 2021 21:59:08 -0000
+Message-Id: <161411754858.394.16142870500124377465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
+repo: pub/scm/libs/libtrace/libtracefs
 user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: c820227050b6c0e5b5c1a7becd962a7dad6278ed
-    new: 85c6eff1172ebb9f4f04fee825480e70cfa7fd14
+  - ref: refs/heads/libtracefs
+    old: 809e56077d6ddccf0246a424d83f9078bd16ea23
+    new: 3b2fbff23aab74f373a481aadba3eb39e069c436
     log: |
-         85c6eff1172ebb9f4f04fee825480e70cfa7fd14 trace-cmd/timesync: Remove double check of finding the protocol
+         5e272743f1ae729eea13fa7653fcc2a0e326677e libtracefs: Document new instance APIs
+         3b2fbff23aab74f373a481aadba3eb39e069c436 libtracefs: Document APIs for trace options
          
