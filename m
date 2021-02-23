@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Tue, 23 Feb 2021 17:35:56 -0000
-Message-Id: <161410175621.2441.14238067250690902302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Tue, 23 Feb 2021 17:36:05 -0000
+Message-Id: <161410176522.2593.13859482578179219250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/main
-    old: b2d44b9a95270203dd3c2adb38f6c4ba549d4196
-    new: bbddfcec6c32781e5b4915ef4ce6b9b13eed82ef
+  - ref: refs/heads/for-linus
+    old: cbecf716ca618fd44feda6bd9a64a8179d031fc5
+    new: 1bff77f41a805b16b5355497c217656711601282
     log: |
-         bbddfcec6c32781e5b4915ef4ce6b9b13eed82ef v5.11.0
+         1bff77f41a805b16b5355497c217656711601282 Input: st1232 - fix NORMAL vs. IDLE state handling
          
