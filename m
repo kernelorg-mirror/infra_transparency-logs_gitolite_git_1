@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 23 Feb 2021 16:50:03 -0000
-Message-Id: <161409900366.7721.12805670683851893497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Tue, 23 Feb 2021 17:21:46 -0000
+Message-Id: <161410090627.26162.1760191865189873867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/poll-multiple
-    old: 3ede51626c3c450192ecb3882def63249ba2ea56
-    new: af0955e8ab4d8f82d733d3f58bfb81bd5267064b
+  - ref: refs/heads/work.misc
+    old: edbb35cc6bdfc379a2968f17d479567650ddbb16
+    new: 6f24784f00f2b5862b367caeecc5cca22a77faa3
     log: |
-         d9f6c8b60fd424e54faedabb2ad809f1195512d7 io_uring: add multishot mode for IORING_OP_POLL_ADD
-         038bae25dfac13f5928f9d11e4acf9737ef6e341 io_uring: abstract out helper for removing poll waitqs/hashes
-         5b63de1071c1ef9fa90de08616a37f225b7dac71 io_uring: have __io_cqring_fill_event() return success or not
-         af0955e8ab4d8f82d733d3f58bfb81bd5267064b io_uring: terminate multishot poll for CQ ring overflow
+         b1adbdbda458b2ec69bf5915c4dcdbe2bd5e7bad audit_alloc_mark(): don't open-code ERR_CAST()
+         9652c73246b980b9f2387916c35e02638d163472 9p: fix misuse of sscanf() in v9fs_stat2inode()
+         6f24784f00f2b5862b367caeecc5cca22a77faa3 whack-a-mole: don't open-code iminor/imajor
          
