@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2888235937669789032=="
+Content-Type: multipart/mixed; boundary="===============0657192000975082880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Tue, 23 Feb 2021 20:08:48 -0000
-Message-Id: <161411092847.29741.211394026331649386@gitolite.kernel.org>
+Date: Tue, 23 Feb 2021 20:10:21 -0000
+Message-Id: <161411102104.400.9880502279318139826@gitolite.kernel.org>
 
---===============2888235937669789032==
+--===============0657192000975082880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: 899cbb0e53c6b66c3fb98d8745aa4b0b41cd94f2
-    new: 3b9cdafb5358eb9f3790de2f728f765fef100731
-    log: revlist-899cbb0e53c6-3b9cdafb5358.txt
+  - ref: refs/heads/dm-cryptsetup
+    old: b35c4b7d860a18b52c47cde8f6b0aab53dfe6f08
+    new: f799d3c799c8edfb8e895bde4eb8e57b42b3634e
+    log: revlist-b35c4b7d860a-f799d3c799c8.txt
 
---===============2888235937669789032==
+--===============0657192000975082880==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-899cbb0e53c6-3b9cdafb5358.txt
+Content-Disposition: attachment; filename=revlist-b35c4b7d860a-f799d3c799c8.txt
 
 f19b5872d889bb91f5e204c0674e5c0dd1d5895e perf probe: Fixup Arm64 SDT arguments
 feab999efefe3c7df2d83bc5d9a9360e8fd69ecf perf arm64: Add argument support for SDT
@@ -583,5 +583,7 @@ ac9e806c9c018a6cc6e82d50275a4ac185343b4f Merge branch 'for-5.12' of git://git.ke
 e913a8cdc297d51c832bb8e9914333b6ae3fe6ef Merge tag 'topic/iomem-mmap-vs-gup-2021-02-22' of git://anongit.freedesktop.org/drm/drm
 f81f213850ca84b3d5e59e17d17acb2ecfc24076 Merge tag 'for-linus-5.12-1' of git://github.com/cminyard/linux-ipmi
 3b9cdafb5358eb9f3790de2f728f765fef100731 Merge tag 'pinctrl-v5.12-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+27d82bd1487e57fe12149167579030986c5a8ecd dm-bufio: subtract the number of initial sectors in dm_bufio_get_device_size
+f799d3c799c8edfb8e895bde4eb8e57b42b3634e dm-verity: Fix FEC for RS roots non-aligned to block size
 
---===============2888235937669789032==--
+--===============0657192000975082880==--
