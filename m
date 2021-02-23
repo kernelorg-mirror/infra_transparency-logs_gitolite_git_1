@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8901252683317082559=="
+Content-Type: multipart/mixed; boundary="===============5571797823286666009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 23 Feb 2021 23:41:38 -0000
-Message-Id: <161412369805.31413.5969445237713164859@gitolite.kernel.org>
+Date: Tue, 23 Feb 2021 23:41:46 -0000
+Message-Id: <161412370677.31547.7979807817224483157@gitolite.kernel.org>
 
---===============8901252683317082559==
+--===============5571797823286666009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
-    old: 2223318c2862edc7f5b282939b850b19fc934ec4
+  - ref: refs/heads/for-next
+    old: b47f625e102bab9ffb8c6b38fffd6d681b9f23e6
     new: cf6acb8bdb1d829b85a4daa2944bf9e71c93f4b9
-    log: revlist-2223318c2862-cf6acb8bdb1d.txt
+    log: revlist-b47f625e102b-cf6acb8bdb1d.txt
 
---===============8901252683317082559==
+--===============5571797823286666009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2223318c2862-cf6acb8bdb1d.txt
+Content-Disposition: attachment; filename=revlist-b47f625e102b-cf6acb8bdb1d.txt
 
 078ebe35fc0a8ab847809765be34937e656e70a6 KVM: PPC: Book3S HV: No need to clear radix host SLB before loading HPT guest
 7a7f94a3a9c7a5d25ec172c94a42509dce61eb0b KVM: PPC: Book3S HV: Use POWER9 SLBIA IH=6 variant to clear SLB
@@ -1051,4 +1051,4 @@ da6d2c289dbe8871f1977bf7c348309d37b867b0 s390/topology: move cpumasks away from 
 182f709c5cff683e6732d04c78e328de0532284f virtio/s390: implement virtio-ccw revision 2 correctly
 cf6acb8bdb1d829b85a4daa2944bf9e71c93f4b9 s390/cpumf: Add support for complete counter set extraction
 
---===============8901252683317082559==--
+--===============5571797823286666009==--
