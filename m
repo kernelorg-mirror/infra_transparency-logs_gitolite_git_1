@@ -1,23 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 23 Feb 2021 20:38:41 -0000
-Message-Id: <161411272197.16329.13922413128258206879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Tue, 23 Feb 2021 20:47:37 -0000
+Message-Id: <161411325755.23054.17031510240523762918@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: 3aed8b63336c3f81a4fd72808dcf6197fabbbdb2
-    new: 2c8396de7225b25b5c76e92f993aa067b1972217
+  - ref: refs/heads/kspp/lto/sami/v5.12-rc1/part2
+    old: e5ea64a292b16771c946c65c934d456138238156
+    new: b33fff07e3e3817d94dbec7bf2040070ecd96d16
     log: |
-         7a0ae61acde2cebd69665837170405eced86a6c7 r8152: enable U1/U2 for USB_SPEED_SUPER
-         c79515e47935c747282c6ed2ee5b2ef039756eeb r8152: check if the pointer of the function exists
-         156c3207611262266f0eea589ac3f00c5657320e r8152: replace netif_err with dev_err
-         40fa7568ac230446d888b7ad402cff9e20fe3ad5 r8152: spilt rtl_set_eee_plus and r8153b_green_en
-         2c8396de7225b25b5c76e92f993aa067b1972217 Merge branch 'r8152-minor-adjustments'
+         99d0021569c71c325f41a7dd0a08a380010ce95c objtool: Add a pass for generating __mcount_loc
+         18a14575ae31c5a97a5e87e961932a5016d369be objtool: Fix __mcount_loc generation with Clang's assembler
+         0e731dbc18241d68318e0a7d2c2c0087c9073fb9 objtool: Don't autodetect vmlinux.o
+         22c8542d7b220ffc53816d47b371b1fe34341d4a tracing: add support for objtool mcount
+         6dafca97803309c3cb5148d449bfa711e41ddef2 x86, build: use objtool mcount
+         41425ebe20245c99b44d6ba0f017be9bfc28414f objtool: Split noinstr validation from --vmlinux
+         b1a1a1a09b4606d41723a426110382d2077c26fb kbuild: lto: postpone objtool
+         e242db40be271793b248bf0ad1b7d7bd6359dc76 x86, vdso: disable LTO only for vDSO
+         d2dcd3e37475a66012f9702c4f9f0863ccdae716 x86, cpu: disable LTO for cpu.c
+         b33fff07e3e3817d94dbec7bf2040070ecd96d16 x86, build: allow LTO to be selected
          
