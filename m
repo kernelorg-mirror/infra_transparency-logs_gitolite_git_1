@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============2091885662777457802=="
+Content-Type: multipart/mixed; boundary="===============5444043965096698045=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 23 Feb 2021 12:56:58 -0000
-Message-Id: <161408501837.12445.9828031685105403971@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Tue, 23 Feb 2021 12:58:38 -0000
+Message-Id: <161408511895.12992.8646678322658109789@gitolite.kernel.org>
 
---===============2091885662777457802==
+--===============5444043965096698045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 601e4c09cb9b8c32fe3a1015c8ad2dbff30b7c7d
-    new: 666dbf309e8039d518c9a2ca50ff5024b1a63995
-    log: |
-         666dbf309e8039d518c9a2ca50ff5024b1a63995 Notes added by 'git notes add'
-         
+  - ref: refs/heads/linux-next
+    old: 46b2efb5ecc78080ae613fab0ddd3cc9c423c517
+    new: 2ec759d2fc934633b1a2e5582e5be7b394156ab1
+    log: revlist-46b2efb5ecc7-2ec759d2fc93.txt
+  - ref: refs/heads/vhost
+    old: 46b2efb5ecc78080ae613fab0ddd3cc9c423c517
+    new: 2ec759d2fc934633b1a2e5582e5be7b394156ab1
+    log: revlist-46b2efb5ecc7-2ec759d2fc93.txt
 
---===============2091885662777457802==
+--===============5444043965096698045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-46b2efb5ecc7-2ec759d2fc93.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614085017 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1614085016-b6b73106e63d441397dc547c872d8c6ae45f2e82
+80267d5d233681a08c6b236c00c315f168320fe8 uapi: virtio_ids: add a sound device type ID from OASIS spec
+c9265edd3997dd2ae4f057093b368987eeb0d6b2 ALSA: virtio: add virtio sound driver
+571e98a00a3008e522db88bc2b8f90b9fe86eef6 ALSA: virtio: handling control messages
+c85dc54ed490db3028ba07705a90edd2f586e4ae ALSA: virtio: build PCM devices and substream hardware descriptors
+267421ead1acb3ebccd8ad057981f7797a054caf ALSA: virtio: handling control and I/O messages for the PCM device
+b189beae491115af6ee848fabd1e1ca2d8fe0b3e ALSA: virtio: PCM substream operators
+f71f0c21e8083037275f8a3be93ae2a515685775 ALSA: virtio: introduce jack support
+b5a11b6465f458588fa8b516f4f9b228cb58fd92 ALSA: virtio: introduce PCM channel map support
+3a49ec34196040718f64917b593427bc21cf56f9 ALSA: virtio: introduce device suspend/resume support
+ddd50f4495d38d8116db7c29f9c563ad0b491f36 vdpa: set the virtqueue num during register
+010eee82c84e4c2ae2ebb97afe58b97605d0c6ca vdpa: introduce virtio pci driver
+4a4943b0950d1b1785589ee394f18207b737ea9e virtio-mmio: Use to_virtio_mmio_device() to simply code
+f0c97d3841fc4351b05d54bf617192ad9c62332a virtio: remove export for virtio_config_{enable, disable}
+2ec759d2fc934633b1a2e5582e5be7b394156ab1 vdpa_sim: Skip typecasting from void*
 
-601e4c09cb9b8c32fe3a1015c8ad2dbff30b7c7d 666dbf309e8039d518c9a2ca50ff5024b1a63995 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA0+5kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kc0P/AwFruUrNbQYU7n1Lyx2
-VlJ5BqkUj/15F/fD5xqtg2lzFOH/yGh/27pvPPbHsh+kXot1sVyrjIAyGNn5glXa
-Q/mUT+qeIRQvc6X5LnTirXCt9hMC+2Go2j9dxV5osqB6CLGa/GMfbQ0zRmXrYsGw
-nejv3lled9euLFRSGhATd/gv8izZXP2ZtyS4hnBGPC2jRWs09mjUKuPjLY/nspA6
-Z/vnc583gJ4YW1vKegjO0AtKEBYgswQgeMkuwmGUdyOMgD38O3/xccdPIxPlSy6V
-7+ODahl3VX22P+fZXKiznx4R0IW31aYc8IhD/wc5BvZhvkQdTlG5Dileeju1+hcI
-r8QHyFYuqKSdrCeSxWnc/4ks81K2Da0QppXsjNWviyqInQnTy5ydb2e6VumqZZ7w
-UlV4TetRt+ncHV0GqEQrSqTThFBSTdEAtJvcKcCQUkQeeunK2y/C+nlt+7dmZBjm
-Mh+gCixJTNvb+aXIz286crrc6Vou80ZBhIHB0PJ7BS03Ay7evOzdMWknP7wtEVYk
-Ya9aWyaCTRoZNxYMrBalkYdhwS5cdo0/yGK+ifhUNtqLrdnY5Z9v6Yr/j7faxzVt
-ISuwuJdvW4RY8GxjczU2NP0eOXQXARqOpvsdujMHz+mkjHI7HgBcIU8Oji0P7TDT
-eE48zlduVhKlJg01HKTtKUj0
-=lOcn
------END PGP SIGNATURE-----
-
---===============2091885662777457802==--
+--===============5444043965096698045==--
