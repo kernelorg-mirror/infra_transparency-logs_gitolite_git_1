@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6028252831266769721=="
+Content-Type: multipart/mixed; boundary="===============2752889500561472649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 24 Feb 2021 23:04:36 -0000
-Message-Id: <161420787636.4020.3507254934739753737@gitolite.kernel.org>
+Date: Wed, 24 Feb 2021 23:04:43 -0000
+Message-Id: <161420788388.4156.830254122214283649@gitolite.kernel.org>
 
---===============6028252831266769721==
+--===============2752889500561472649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 42870a1a8728ec3c35a12aaf078eaefa0f042772
-    new: 88eee9b7b42e69fb622ddb3ff6f37e8e4347f5b2
-    log: revlist-42870a1a8728-88eee9b7b42e.txt
+  - ref: refs/heads/dev-queue
+    old: 2bfe1da03115beca458954c1918e7811d9c2160e
+    new: 60800566b558b2e853720176d934ed5807699ff5
+    log: revlist-2bfe1da03115-60800566b558.txt
 
---===============6028252831266769721==
+--===============2752889500561472649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42870a1a8728-88eee9b7b42e.txt
+Content-Disposition: attachment; filename=revlist-2bfe1da03115-60800566b558.txt
 
 7dcf7aa01c7b9f18727cbe0f9cb4136f1c6cdcc2 ice: report correct max number of TCs
 37b52be260024069f7f5bdcf304b5d72f77b022a ice: Set trusted VF as default VSI when setting allmulti on
@@ -55,5 +55,24 @@ bce2473927af8de12ad131a743f55d69d358c0b9 wireguard: kconfig: use arm chacha even
 fcb3007371e1a4afb03280af1b336a83287fe115 Merge branch 'wireguard-fixes-for-5-12-rc1'
 6fbd15c096919388c7c2bdf54574d4e99534af25 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 88eee9b7b42e69fb622ddb3ff6f37e8e4347f5b2 net: usb: qmi_wwan: support ZTE P685M modem
+38299e01e7e70ff7e8ada63b8167c658e74895e1 checkpatch: Fix warnings when --no-tree is used
+37b167669bcc0709e21c0527b2683de6592a283a checkpatch.pl: seed camelcase from the provided kernel tree root
+75ce143fb051088ed856f5b75275db2798b10ab8 ice: Fix a couple off by one bugs
+ae808862f93a6a556d4ca67c84597e58b3bc3742 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+9faaa3bded6c2771933f06aaca40d9ce25b03cb4 ixgbe: Fix memleak in ixgbe_configure_clsu32
+981fbaaefef1cdc952bc8a868c6b7c4476d45d91 igb: avoid premature Rx buffer reuse
+c1c3a19ad14198078d35f8468f311ce99108585f iavf: Fix asynchronous tasks during driver remove
+ee62b78b91867be222d38cf1153ddb7d335e3033 i40e: Fix correct max_pkt_size on VF RX queue
+ad391df3a5e9d285d27abfb3988bcbdfa22c1d82 ixgbe: add NULL pointer check before calling xdp_rxq_info_reg
+5b23bff32617e58e83ac90bbb23da8f9fd8c7a75 virtchnl: Fix layout of RSS structures
+ada4a5711aab9461f5a64c156d805c7a2413765e ice: fix napi work done reporting in xsk path
+010c63ceb80c2ee1b2d50c762db4ab9f5716dc1f igc: Fix igc_ptp_rx_pktstamp()
+e7040f6d1a4653b61fee20b71abd9db26f25842f iavf: Fix return of set the new channel count
+cf66b00821dc1630eb7ac9cedb0f983103c100dd i40e: Fix kernel oops when i40e driver removes VF's
+9ba6536247fc73b0b7a31260afeb03d15c8b7472 i40e: Fix oops at i40e_rebuild()
+440348afcc4e9c7275437fc9db3865c54da97e06 igc: Fix Pause Frame Advertising
+f9a352efa5eeb35b76130b79786b99dbeb16e2e2 igc: Fix Supported Pause Frame Link Setting
+876216b7bca8d46940f9a71e26ef239037d33360 e1000e: Fix duplicate include guard
+60800566b558b2e853720176d934ed5807699ff5 igb: Fix duplicate include guard
 
---===============6028252831266769721==--
+--===============2752889500561472649==--
