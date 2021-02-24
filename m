@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3782755138358763351=="
+Content-Type: multipart/mixed; boundary="===============4117905136231622284=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 24 Feb 2021 12:58:24 -0000
-Message-Id: <161417150451.18328.10461485391959244821@gitolite.kernel.org>
+Date: Wed, 24 Feb 2021 12:58:34 -0000
+Message-Id: <161417151499.18462.8776825898711987380@gitolite.kernel.org>
 
---===============3782755138358763351==
+--===============4117905136231622284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: fc17db8aa4c53cbd2d5469bb0521ea0f0a6dbb27
-    new: 9d1f3b74701aafa876c6b2448c39be9a57977913
-    log: revlist-fc17db8aa4c5-9d1f3b74701a.txt
+  - ref: refs/heads/objtool/core
+    old: aafeb14e9da29e323b0605f8f1bae0d45d5f3acf
+    new: 0951f35049a2ec28532374f16c6442931c6b1bdf
+    log: revlist-aafeb14e9da2-0951f35049a2.txt
 
---===============3782755138358763351==
+--===============4117905136231622284==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fc17db8aa4c5-9d1f3b74701a.txt
+Content-Disposition: attachment; filename=revlist-aafeb14e9da2-0951f35049a2.txt
 
-e9f53353e166a67dfe4f8295100f8ac39d6cf10b ext4: remove expensive flush on fast commit
-61e960b07b637f0295308ad91268501d744c21b5 cgroup-v1: add disabled controller check in cgroup1_parse_param()
-be82fddca81eefd1edbd9b290dfcb2177e24785b libperf tests: Avoid uninitialized variable warning
-bba2ea17ef553aea0df80cb64399fe2f70f225dd libperf tests: If a test fails return non-zero
-66dd86b2a2bee129c70f7ff054d3a6a2e5f8eb20 libperf tests: Fail when failing to get a tracepoint id
-3ff1e7180abc7f6db413933c110df69157216715 perf stat: Introduce struct runtime_stat_data
-a1bf23052bdfe30ec3c693cf32feb2d79114ac16 perf stat: Take cgroups into account for shadow stats
-5501e9229a80d95a1ea68609f44c447a75d23ed5 perf intel-pt: Fix 'CPU too large' error
 648b054a4647cd62e13ba79f398b8b97a7c82b19 perf inject: Correct event attribute sizes
 00e01f325de1eb5ccb3ead7c0a195187a7a53d7e MAINTAINERS: Remove stale URLs for cpuset
 b5e56576e16236de3c035ca86cd3ef16591722fb MAINTAINERS: Update my email address
@@ -1048,7 +1040,15 @@ c553021498640050340924bd62fa580e253467ac Merge tag 'x86_urgent_for_v5.11' of git
 ab30c7f9c3ca2599f5ab3e4d29ae56453c8668e5 Merge tag 'kbuild-fixes-v5.11-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 28a17338738839494752c5da3e12c889a55219db Merge branch 'for-rc8-5.11' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 f40ddce88593482919761f74910f42f4b84c004b Linux 5.11
-fb6204eb9a15069705417ebe94c5b9cb953a8dfd perf/core: Flush PMU internal buffers for per-CPU events
-9d1f3b74701aafa876c6b2448c39be9a57977913 perf/x86/intel: Set PERF_ATTACH_SCHED_CB for large PEBS and LBR
+39e64251137be2bad6c676f1a68edac9d73035b1 objtool: Fix stack-swizzle for FRAME_POINTER=y
+0a9c173792c3ec72c2467880a73c122cf1bf7b15 Merge branch 'objtool/urgent'
+3d489aa59e8499fcac1af0b67643950b0791c4d2 objtool: Allow UNWIND_HINT to suppress dodgy stack modifications
+ef955bc1bd247e7c1daf1640ae2151b9b0a8dca2 objtool,x86: Renumber CFI_reg
+d0513c6590d568d7c9b827516a851cff0b7eccd9 objtool,x86: Rewrite LEA decode
+b161066287020af3c190180cfb068456a1a34788 objtool,x86: Rewrite LEAVE
+25fbcaf032d846578c085b96d8fcee36ed765d00 objtool,x86: Simplify register decode
+604ee6a522b9b8efa462c33d2b2a12e41c3fd6bc objtool,x86: Support %riz encodings
+aefdb7862abddcc6a83895ebd5b23a52af76e62c objtool,x86: Rewrite ADD/SUB/AND
+0951f35049a2ec28532374f16c6442931c6b1bdf objtool,x86: More ModRM sugar
 
---===============3782755138358763351==--
+--===============4117905136231622284==--
