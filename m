@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1342390992238405450=="
+Content-Type: multipart/mixed; boundary="===============2607897924892534014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 24 Feb 2021 16:53:52 -0000
-Message-Id: <161418563270.4067.7921441958442587349@gitolite.kernel.org>
+Date: Wed, 24 Feb 2021 16:54:34 -0000
+Message-Id: <161418567451.4396.3507054848105688822@gitolite.kernel.org>
 
---===============1342390992238405450==
+--===============2607897924892534014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 810e7e9786efb00c539b17db7c54b46cdb6c5efb
-    new: d53a6adfb553969809eb2b736a976ebb5146cd95
-    log: revlist-810e7e9786ef-d53a6adfb553.txt
+  - ref: refs/heads/next
+    old: 8c657a0590de585b1115847c17b34a58025f2f4b
+    new: c03c21ba6f4e95e406a1a7b4c34ef334b977c194
+    log: revlist-8c657a0590de-c03c21ba6f4e.txt
 
---===============1342390992238405450==
+--===============2607897924892534014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-810e7e9786ef-d53a6adfb553.txt
+Content-Disposition: attachment; filename=revlist-8c657a0590de-c03c21ba6f4e.txt
 
+4fb37e72e2f1cd67ba9243c04b5b94969dc15523 Merge branch 'sock-rx-qmap'
+ddddfafd94d83233ab28769b96b45f4ebbe21427 clk: BD718x7: Do not depend on parent driver data
 308daa19e2d0321ff8b037ea192c48358f9324f5 Merge tag 'mlx5-fixes-2021-02-11' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 1336c662474edec3966c96c8de026f794d16b804 bpf: Clear per_cpu pointers during bpf_prog_realloc
 9f56b8eb85927c6391216e4f35a7abb34847f0fd hwmon: (amd_energy) Add AMD family 19h model 30h x86 match
@@ -1048,7 +1050,5 @@ e0fbd25bb37e7bb1f5ad9c9f7e5fc89152aec87e Merge branch 'for-linus' of git://git.k
 6dd580b93da8de5cab4ac1f24f343086318b664e Merge git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc
 414eece95b98b209cef0f49cfcac108fd00b8ced Merge tag 'clang-lto-v5.12-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 c03c21ba6f4e95e406a1a7b4c34ef334b977c194 Merge tag 'keys-misc-20210126' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-a5665ec2affdba21bff3b0d4d3aed83b3951e8ff tpm, tpm_tis: Decorate tpm_get_timeouts() with request_locality()
-d53a6adfb553969809eb2b736a976ebb5146cd95 tpm, tpm_tis: Decorate tpm_tis_gen_interrupt() with request_locality()
 
---===============1342390992238405450==--
+--===============2607897924892534014==--
