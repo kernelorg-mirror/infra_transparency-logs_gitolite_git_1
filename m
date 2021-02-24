@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1223748611240142412=="
+Content-Type: multipart/mixed; boundary="===============1316861661401749238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 24 Feb 2021 02:37:48 -0000
-Message-Id: <161413426827.30967.14530903499015554068@gitolite.kernel.org>
+Date: Wed, 24 Feb 2021 02:37:58 -0000
+Message-Id: <161413427843.31117.13119237605127706742@gitolite.kernel.org>
 
---===============1223748611240142412==
+--===============1316861661401749238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: c840864a066a68fd404f554d26bcce7e657949e0
+  - ref: refs/heads/for-next
+    old: 3d235355a7925aee73e9307e5f173979259fdf3a
     new: 31206c6635a194cdf5ef39387faf2b8ac313cce6
-    log: revlist-c840864a066a-31206c6635a1.txt
+    log: revlist-3d235355a792-31206c6635a1.txt
 
---===============1223748611240142412==
+--===============1316861661401749238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c840864a066a-31206c6635a1.txt
+Content-Disposition: attachment; filename=revlist-3d235355a792-31206c6635a1.txt
 
 67cbb9c557599add4fe3c51ec24fb63801de5cf2 Makefile: reuse CC_VERSION_TEXT
 3533c21bb15ea53c9a6549ef63f15e3b3618c71d Makefile: Remove # characters from compiler string
@@ -39,4 +39,4 @@ aa74673eeafe594cd85eecb645379ef86306e1ce kbuild: reuse this-makefile to define a
 781e06c83755143e3c2c450ce379b51db95c0e5c kbuild: remove deprecated 'always' and 'hostprogs-y/m'
 31206c6635a194cdf5ef39387faf2b8ac313cce6 initramfs: Remove redundant dependency of RD_ZSTD on BLK_DEV_INITRD
 
---===============1223748611240142412==--
+--===============1316861661401749238==--
