@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6518801679189839154=="
+Content-Type: multipart/mixed; boundary="===============3403358594677741578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Wed, 24 Feb 2021 17:18:56 -0000
-Message-Id: <161418713682.20100.15133982522237699065@gitolite.kernel.org>
+Date: Wed, 24 Feb 2021 17:21:10 -0000
+Message-Id: <161418727020.22159.8754549782606153136@gitolite.kernel.org>
 
---===============6518801679189839154==
+--===============3403358594677741578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/helgaas/pci
 user: helgaas
 changes:
-  - ref: refs/heads/next
-    old: 26710adebcb44d5ce0d23d026f0e6d891172a8bc
-    new: 2bd36c391515cba855b8db8ae5708154f1082b8e
-    log: revlist-26710adebcb4-2bd36c391515.txt
+  - ref: refs/tags/pci-v5.12-changes
+    old: ce88b195eb79c0cb457a1adb001bab2a3df1251b
+    new: 8a7d934942d0b9c647a10722d782f000fd00244f
+    log: revlist-ce88b195eb79-8a7d934942d0.txt
 
---===============6518801679189839154==
+--===============3403358594677741578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26710adebcb4-2bd36c391515.txt
+Content-Disposition: attachment; filename=revlist-ce88b195eb79-8a7d934942d0.txt
 
 6104033bd25ef48d2013220f66632d8b0fc8cddb PCI: dwc: Work around ECRC configuration issue
 3d0e5cf9c062546216f04bb110fd8dad216a8796 dt-bindings: PCI: qcom: Document ddrss_sf_tbu clock for sm8250
@@ -59,4 +59,4 @@ b42a1e8bbaf4f336c17d2163a4348d10ef40b51a Merge branch 'remotes/lorenzo/pci/rcar'
 db639db9462eca47afb52b6666f9e094b4288a38 Merge branch 'remotes/lorenzo/pci/xilinx'
 2bd36c391515cba855b8db8ae5708154f1082b8e Merge branch 'remotes/lorenzo/pci/misc'
 
---===============6518801679189839154==--
+--===============3403358594677741578==--
