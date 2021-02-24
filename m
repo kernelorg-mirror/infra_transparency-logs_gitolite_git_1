@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Wed, 24 Feb 2021 03:55:57 -0000
-Message-Id: <161413895787.13991.1326734152263627038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 24 Feb 2021 05:13:06 -0000
+Message-Id: <161414358648.29137.17598989290885054042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
   - ref: refs/heads/master
-    old: 1a37c55bba63c4670f2dce38516b2b7a975054b5
-    new: e2fbc9f042c825ab6fdda395f4fd878bc7a8caa3
+    old: 9da09c8fc03b91ff25b07e963f7f76c3d94290cd
+    new: 2060b54a52ffaaea818807f7e602a168d46c4d50
     log: |
-         e2fbc9f042c825ab6fdda395f4fd878bc7a8caa3 gce-xfstests: add GCE_SERIAL_PORT_ACCESS to the uploaded config file
+         bebb0b7697f7558a5715c500d904c5eb034233de Bibliography update
+         2060b54a52ffaaea818807f7e602a168d46c4d50 advsync: Add LIFO Push and pointer zap
          
