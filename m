@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5937771005272921856=="
+Content-Type: multipart/mixed; boundary="===============4037703133147167588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Wed, 24 Feb 2021 14:28:44 -0000
-Message-Id: <161417692430.12780.16584063101189574527@gitolite.kernel.org>
+Date: Wed, 24 Feb 2021 14:29:04 -0000
+Message-Id: <161417694405.12921.1213547298530735999@gitolite.kernel.org>
 
---===============5937771005272921856==
+--===============4037703133147167588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/spdx-linus
     old: 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04
     new: c03c21ba6f4e95e406a1a7b4c34ef334b977c194
     log: revlist-6ee1d745b7c9-c03c21ba6f4e.txt
 
---===============5937771005272921856==
+--===============4037703133147167588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614176915 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614176935 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1614176915-ba85075d0b978c451299eebe3fce043c9608e75b
+nonce 1614176934-00f8f5f69ea76519834363e007653bd55de93a83
 
-6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 c03c21ba6f4e95e406a1a7b4c34ef334b977c194 refs/heads/main
+6ee1d745b7c9fd573fba142a2efdad76a9f1cb04 c03c21ba6f4e95e406a1a7b4c34ef334b977c194 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA2YpMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J+AQAI9DeR9R2M/gF4pvgkDy
-9sIgWlKZUquflnMhOWFGO2KV844KX+rc0ux/H0aTJUPrG8PNoNxgqQdw/O1nC4KK
-HKXZbD3WfltVJzVfYQl3ModDHl2etmAg3nc8rymvLrO1mEuTdbR1zpsx7THsyIpu
-tDpqjI+IwgpSxlHd95a4J8gfDxD5GKklJ1q7Mq6Z4MZOt10wNESgo8OnCx1/64Os
-Z4SRYaukCj+Twzt/XDFNYTTnaixri8+XluVhNplWcHFILGxwLdlOUCOus3A0QnBn
-QyR5LOqDjx2ylt7uqDa6oXl1bcQbqq1/geiqFefz7oyt3Zb7S8rYu/YztfySYiHc
-Hre4il+95m07aKB0zjj3/FyGXeqbmXW08445KLXOG/JuvnvexmeXCAJZstgVU9oa
-d69bnjRdXr26McDoV5uO5v8ymOrCKJhjHSiVEbnwa9Xsm9rrd1AoAED42eGzBh0z
-MsBI8kCOnvemyyUguLh6jOX8Wbxm5+oHcYqROrRK+yuBFQ74rbkSwzw1ENalf0W4
-eJsJDowCga8BMAa8ZjWfWa7tHMe5cgyi5JgnIL9wViVtAb9by9poO8sAnkQbsPYe
-31S+VHe/d1pjEc2e9fOoc7+JSPZWSDXdIm0JNdZZMAxLHaCT6CqsfgVIwv9dsPDS
-Oq7b+VhdfnxoQkKG64qeA1dN
-=nqEX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA2YqcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kJgQAM6FJBwjU0IXngggKYEf
+qpkfRH9rbAxNHVnkMhOt/7AA4wbrqEW/kEpVvpznIzy/LTZpHaeFnlIvn9Fsh6gC
+l/tc57YD3Bt6B/J6b0B5dJCz1FaPjn9Kob2yW0PZN2fCvfnPyQ+ZxLGyxeJP6kjC
+Yuoty0Z/8JQ/Htm6kc9nLT1tOLIqbsT9u3fn0fXCpBiuoMSD5r73/EjPS+7hj3sH
+TXmyXPxt2nhd3Tp6cW9gLUx4UnwIb3OIr4nZz4AorWfiE8chzVrgPnTwNZy0W+h7
+k4j4M9GreZ3kR0IeDQIP4wJt8Yp+O6Si++1ZhaXYqYTKqkvyfnSPjHy9G8kvrr/N
+76GJb6XnAvUQ7Ngi1rqpeRtAVEHU9pIeGRmW3R14G/Y/vhVZ0VfAvJ7+WjUA55Ir
+ZLVBvl/8fF1LXPTSeqljgdNQ6PgGX3e0wQuyyI3Zs/HQBOXrabdn74sKsu61+KzZ
++DmU5T3n+5zXg7k0kWRwzKYSdFwmRZihqGpCgfbWF9aQc/RFr3+AWe+heoN9clzG
+qz+Q/XVM9fCQv/zVvo6rfuhUJ068jXoY+5RNlns7bZh0mlZ0nY8Qt5R9iARcORCa
+8Edt/25O3e78oSaTtwZwHY5gLtN+g+enruQtTKXMvKGX66F5AhHfqsjzwAejwvlv
+waR8mKcsT3fBl5PhseVw1FLb
+=qMMK
 -----END PGP SIGNATURE-----
 
---===============5937771005272921856==
+--===============4037703133147167588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ e0fbd25bb37e7bb1f5ad9c9f7e5fc89152aec87e Merge branch 'for-linus' of git://git.k
 414eece95b98b209cef0f49cfcac108fd00b8ced Merge tag 'clang-lto-v5.12-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 c03c21ba6f4e95e406a1a7b4c34ef334b977c194 Merge tag 'keys-misc-20210126' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
 
---===============5937771005272921856==--
+--===============4037703133147167588==--
