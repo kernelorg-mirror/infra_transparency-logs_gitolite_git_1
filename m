@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3693316689462294089=="
+Content-Type: multipart/mixed; boundary="===============5225741470793991722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Wed, 24 Feb 2021 21:30:18 -0000
-Message-Id: <161420221878.13189.198375417999711928@gitolite.kernel.org>
+Date: Wed, 24 Feb 2021 21:33:50 -0000
+Message-Id: <161420243089.14204.6720414132896277881@gitolite.kernel.org>
 
---===============3693316689462294089==
+--===============5225741470793991722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/helgaas/pci
 user: helgaas
 changes:
-  - ref: refs/heads/next
-    old: 2bd36c391515cba855b8db8ae5708154f1082b8e
-    new: e18fb64b79860cf5f381208834b8fbc493ef7cbc
-    log: revlist-2bd36c391515-e18fb64b7986.txt
+  - ref: refs/tags/pci-v5.12-changes
+    old: 8a7d934942d0b9c647a10722d782f000fd00244f
+    new: b3625ee2bd2b9a5c137ca271f0bd47c625848947
+    log: revlist-8a7d934942d0-b3625ee2bd2b.txt
 
---===============3693316689462294089==
+--===============5225741470793991722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2bd36c391515-e18fb64b7986.txt
+Content-Disposition: attachment; filename=revlist-8a7d934942d0-b3625ee2bd2b.txt
 
 c9f04600026f5ea6bbcfd7b06da265604946efd0 dt-bindings: PCI: qcom: Document ddrss_sf_tbu clock for sm8250
 7081556f81f78c6397a129bd58ceb7ae64750df9 PCI: qcom: Add support for ddrss_sf_tbu clock
@@ -50,4 +50,4 @@ ce96d1d7b8eaf5d21e2537826e86a33882638fb5 Merge branch 'pci/rockchip'
 88d2ec1c0d6434102d236c378d0fc5a6a8b37117 Merge branch 'remotes/lorenzo/pci/xilinx'
 e18fb64b79860cf5f381208834b8fbc493ef7cbc Merge branch 'remotes/lorenzo/pci/misc'
 
---===============3693316689462294089==--
+--===============5225741470793991722==--
