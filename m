@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 24 Feb 2021 16:20:56 -0000
-Message-Id: <161418365683.16868.437947807198900932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
+Date: Wed, 24 Feb 2021 16:22:26 -0000
+Message-Id: <161418374626.17352.916659463727155525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/utils/rt-tests/rt-tests
+user: jkacur
 changes:
-  - ref: refs/heads/master
-    old: b8592e231fb86faed683798daf0b63a60218dd49
-    new: a7c9c25a99bbdaff51da26b874d2faaa8fdd72b5
-    log: |
-         41462c6e730ca0e63f5fed5a517052385d980c54 tools/resolve_btfids: Fix build error with older host toolchains
-         a7c9c25a99bbdaff51da26b874d2faaa8fdd72b5 bpf: Remove blank line in bpf helper description comment
-         
+  - ref: refs/heads/unstable/devel/v1.9
+    old: 0000000000000000000000000000000000000000
+    new: e62593cd40be31dca5a85df880d3f298231d2e17
