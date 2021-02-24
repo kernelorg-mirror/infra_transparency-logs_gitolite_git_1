@@ -1,50 +1,93 @@
-Content-Type: multipart/mixed; boundary="===============5491021509170134847=="
+Content-Type: multipart/mixed; boundary="===============0216842531791050368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 24 Feb 2021 00:31:41 -0000
-Message-Id: <161412670104.28390.2813034881784325445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 24 Feb 2021 00:50:04 -0000
+Message-Id: <161412780402.7593.9377413568550563267@gitolite.kernel.org>
 
---===============5491021509170134847==
+--===============0216842531791050368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 414eece95b98b209cef0f49cfcac108fd00b8ced
-    new: c03c21ba6f4e95e406a1a7b4c34ef334b977c194
-    log: revlist-414eece95b98-c03c21ba6f4e.txt
+  - ref: refs/heads/for-next
+    old: bc7f5c0e4c958c612ec74d57da67958c6e2c1245
+    new: e4a3a28b1ef7a3b2791b771f370483f0417e9081
+    log: revlist-bc7f5c0e4c95-e4a3a28b1ef7.txt
+  - ref: refs/heads/io_uring-fops.v3
+    old: 25d4d5cd67e80a88e67403d422f3b42a0a745cf6
+    new: 6713acc3fa4cd28a76dcad0faeede0b6e1876f04
+    log: revlist-25d4d5cd67e8-6713acc3fa4c.txt
+  - ref: refs/heads/io_uring-worker.v3
+    old: 4545f8716e809a3fee9d89ad74ebeab0743adffa
+    new: 037046789235e30085d64348fcde2cd7ec40b62c
+    log: revlist-4545f8716e80-037046789235.txt
 
---===============5491021509170134847==
+--===============0216842531791050368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-414eece95b98-c03c21ba6f4e.txt
+Content-Disposition: attachment; filename=revlist-bc7f5c0e4c95-e4a3a28b1ef7.txt
 
-634c21bb9867e06221ee1527c5e157e01cd7712c security: keys: Fix fall-through warnings for Clang
-796e46f9e2cb2d823578044598ee8fe77f86e3f7 keys: Remove outdated __user annotations
-8fe62e0c0e2efa5437f3ee81b65d69e70a45ecd2 watch_queue: Drop references to /dev/watch_queue
-272a121940a286d7abaf7ac3ec5a37c5dbfa7b89 security/keys: use kvfree_sensitive()
-60f0f0b3cdfda667a8d1897b3004173a582bcd72 KEYS: asymmetric: Fix kerneldoc
-328c95db01df9d8875f77e49ee4322e60e1337cd security: keys: delete repeated words in comments
-c224926edfc2f774df6aefa865e31a0a00e24dde KEYS: remove redundant memset
-1539dd785a1c7be294fcdfaafc3137dab8321806 crypto: asymmetric_keys: fix some comments in pkcs7_parser.h
-c52b7c807b0a6ae26582208a0b07c2a6a796b50f encrypted-keys: Replace HTTP links with HTTPS ones
-d13fc8747218c1a5c7bdf69c54a4c64ea52f0d81 PKCS#7: drop function from kernel-doc pkcs7_validate_trust_one
-3c0940c4ff078064b9e67f52a18cd543ad467fb3 crypto: pkcs7: Use match_string() helper to simplify the code
-464e96aeb16ab4e071d353f69ebbddfa08c8d731 keys: remove trailing semicolon in macro definition
-09315b2d0d6944b9e249003c04abb88b5594a683 crypto: public_key: Remove redundant header file from public_key.h
-0b2d443bf52756a9c364a41492dae537bc62683f certs/blacklist: fix kernel doc interface issue
-84ffbefd657b25dbca0dbd7772226fb83b8213b8 certs: Fix blacklisted hexadecimal hash string check
-f14602caf4faef18999985bc87a414b552844ad2 PKCS#7: Fix missing include
-4993e1f9479a4161fd7d93e2b8b30b438f00cb0f certs: Fix blacklist flag type confusion
-a6cb0ab7daf78ce87d70212dfdb01a622d833500 certs: Replace K{U,G}IDT_INIT() with GLOBAL_ROOT_{U,G}ID
-8f0bfc25c907f38e7f9dc498e8f43000d77327ef watch_queue: rectify kernel-doc for init_watch()
-c03c21ba6f4e95e406a1a7b4c34ef334b977c194 Merge tag 'keys-misc-20210126' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+37d1e2e3642e2380750d7f35279180826f29660e io_uring: move SQPOLL thread io-wq forked worker
+0a4fff356b4da06e5baed8547490cb221a4eb4b0 io-wq: make buffered file write hashed work map per-ctx
+3da1a61c7d48accfd83d65f220d765257a0b41db Revert "proc: don't allow async path resolution of /proc/thread-self components"
+f97ef2c33baecdf1a1ad0545b37671dd91e72cf0 Revert "proc: don't allow async path resolution of /proc/self components"
+7ee63b7340b889da5442221aafe163b9b9a82c8d net: remove cmsg restriction from io_uring based send/recvmsg calls
+8cec058ab5524123fad0e0edab107504bcc4b34a io_uring: flag new native workers with IORING_FEAT_NATIVE_WORKERS
+4eb4f2de916c07d7975981279b605ffb83f6e568 io-wq: remove nr_process accounting
+361192400d092717aa5b9b4a6e571c641aa79232 io_uring: cleanup ->user usage
+f4d75f00d77f4d55379dc17d511a2b02ea655661 arch: ensure parisc/powerpc handle PF_IO_WORKER in copy_thread()
+7233014cffbdcc8d0e9ec2146c8ef4c7351cc144 io_uring: ensure io-wq context is always destroyed for tasks
+037046789235e30085d64348fcde2cd7ec40b62c io-wq: fix races around manager/worker creation and task exit
+34d4f7a69f126446cc8ebbb32e5a0015fc6e2533 Merge branch 'io_uring-worker.v3' into for-next
+e4a3a28b1ef7a3b2791b771f370483f0417e9081 Merge branch 'block-5.12' into for-next
 
---===============5491021509170134847==--
+--===============0216842531791050368==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-25d4d5cd67e8-6713acc3fa4c.txt
+
+37d1e2e3642e2380750d7f35279180826f29660e io_uring: move SQPOLL thread io-wq forked worker
+0a4fff356b4da06e5baed8547490cb221a4eb4b0 io-wq: make buffered file write hashed work map per-ctx
+3da1a61c7d48accfd83d65f220d765257a0b41db Revert "proc: don't allow async path resolution of /proc/thread-self components"
+f97ef2c33baecdf1a1ad0545b37671dd91e72cf0 Revert "proc: don't allow async path resolution of /proc/self components"
+7ee63b7340b889da5442221aafe163b9b9a82c8d net: remove cmsg restriction from io_uring based send/recvmsg calls
+8cec058ab5524123fad0e0edab107504bcc4b34a io_uring: flag new native workers with IORING_FEAT_NATIVE_WORKERS
+4eb4f2de916c07d7975981279b605ffb83f6e568 io-wq: remove nr_process accounting
+361192400d092717aa5b9b4a6e571c641aa79232 io_uring: cleanup ->user usage
+f4d75f00d77f4d55379dc17d511a2b02ea655661 arch: ensure parisc/powerpc handle PF_IO_WORKER in copy_thread()
+7233014cffbdcc8d0e9ec2146c8ef4c7351cc144 io_uring: ensure io-wq context is always destroyed for tasks
+037046789235e30085d64348fcde2cd7ec40b62c io-wq: fix races around manager/worker creation and task exit
+8351952953d4204adcd02dd4d7943e3d3b874743 fs: add file_operations->uring_cmd()
+0aa1b08b1ad723fb36265bfc9ed1c438229107d7 io_uring: add support for IORING_OP_URING_CMD
+f00ccc0dd0c15d8b79a649db968acd82c1b89b38 block: wire up support for file_operations->uring_cmd()
+ae1e309a068c57153ae00194bfe408280e82c1a0 block: add example ioctl
+98136420375bb367146fbe7aa4c991057cbe4809 net: wire up support for file_operations->uring_cmd()
+6713acc3fa4cd28a76dcad0faeede0b6e1876f04 net: add example SOCKET_URING_OP_SIOCINQ/SOCKET_URING_OP_SIOCOUTQ
+
+--===============0216842531791050368==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4545f8716e80-037046789235.txt
+
+37d1e2e3642e2380750d7f35279180826f29660e io_uring: move SQPOLL thread io-wq forked worker
+0a4fff356b4da06e5baed8547490cb221a4eb4b0 io-wq: make buffered file write hashed work map per-ctx
+3da1a61c7d48accfd83d65f220d765257a0b41db Revert "proc: don't allow async path resolution of /proc/thread-self components"
+f97ef2c33baecdf1a1ad0545b37671dd91e72cf0 Revert "proc: don't allow async path resolution of /proc/self components"
+7ee63b7340b889da5442221aafe163b9b9a82c8d net: remove cmsg restriction from io_uring based send/recvmsg calls
+8cec058ab5524123fad0e0edab107504bcc4b34a io_uring: flag new native workers with IORING_FEAT_NATIVE_WORKERS
+4eb4f2de916c07d7975981279b605ffb83f6e568 io-wq: remove nr_process accounting
+361192400d092717aa5b9b4a6e571c641aa79232 io_uring: cleanup ->user usage
+f4d75f00d77f4d55379dc17d511a2b02ea655661 arch: ensure parisc/powerpc handle PF_IO_WORKER in copy_thread()
+7233014cffbdcc8d0e9ec2146c8ef4c7351cc144 io_uring: ensure io-wq context is always destroyed for tasks
+037046789235e30085d64348fcde2cd7ec40b62c io-wq: fix races around manager/worker creation and task exit
+
+--===============0216842531791050368==--
