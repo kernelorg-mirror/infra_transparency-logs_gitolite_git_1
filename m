@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 24 Feb 2021 12:15:42 -0000
-Message-Id: <161416894204.26505.16582254861186550437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 24 Feb 2021 12:43:41 -0000
+Message-Id: <161417062193.9776.7622639946195744938@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next/fixes
-    old: 2e8acca1911b14e0cc7464db796b804785a3831a
-    new: 430251cc864beb11ac5b6d2f5c6ef54ddd432612
+  - ref: refs/heads/master
+    old: 163a9b33aab5dc128b3fec2b397ba6278bef36bf
+    new: 1f22be49a8e7e8c29e2c49dd56ae0a509fbfde85
     log: |
-         610e4dc8ac463815f5180ae2e6fadae834891b86 KVM: arm64: make the hyp vector table entries local
-         f1b6cff7c98be2747d2fe16e42dcdcf2fc02c7e6 arm64: VHE: Enable EL2 MMU from the idmap
-         9d41053e8dc115c92b8002c3db5f545d7602498b arm64: Add missing ISB after invalidating TLB in __primary_switch
-         430251cc864beb11ac5b6d2f5c6ef54ddd432612 arm64: Add missing ISB after invalidating TLB in enter_vhe
+         d87d0815ce584e7035b0b853144926c591fc37dd Fixes for 5.10
+         c9011941c290eb0574791146254e5043720d0176 Fixes for 5.4
+         9c0b23cb93709b0577d0b4bda1c7c88beaa5b6dc Fixes for 4.19
+         107b836e27fc371566083f0f257374c098d10491 Fixes for 4.14
+         5ec30cc4af31b6084ebea08d0bb58b9826edb788 Fixes for 4.9
+         1f22be49a8e7e8c29e2c49dd56ae0a509fbfde85 Fixes for 4.4
          
