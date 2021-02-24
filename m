@@ -1,62 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============5536740958833623326=="
+Content-Type: multipart/mixed; boundary="===============4119987900761226451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 24 Feb 2021 19:00:18 -0000
-Message-Id: <161419321839.18427.8868808189843933603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 24 Feb 2021 19:00:22 -0000
+Message-Id: <161419322236.18498.13556413155300131409@gitolite.kernel.org>
 
---===============5536740958833623326==
+--===============4119987900761226451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: d19db80a366576d3ffadf2508ed876b4c1faf959
+  - ref: refs/heads/driver-core-next
+    old: 3e4c982f1ce75faf5314477b8da296d2d00919df
     new: 719bbd4a509f403f537adcaefd8ce17532be2e84
-    log: revlist-d19db80a3665-719bbd4a509f.txt
+    log: revlist-3e4c982f1ce7-719bbd4a509f.txt
 
---===============5536740958833623326==
+--===============4119987900761226451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614193209 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1614193208-088c41bab55fab35ede126e26818f84288131599
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614193213 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1614193213-a095fbdc768cc10d3158844776dd4ccad5741b08
 
-d19db80a366576d3ffadf2508ed876b4c1faf959 719bbd4a509f403f537adcaefd8ce17532be2e84 refs/heads/char-misc-next
+3e4c982f1ce75faf5314477b8da296d2d00919df 719bbd4a509f403f537adcaefd8ce17532be2e84 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA2ojkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l0EQAJZ5e97bQnzM9EeLKrtm
-lS7rARD0Qc65hha2MLlDS8uGNxTZwq8FmvM//C+r7ybGk/R79m4Lp+M9wcVS3Q4m
-CKb2xbLvpibOCZLpgw341BTKWo7hfR5KNNKk3Y/LZe4OtL3YEXTlFwYz3t6dOctH
-n3FQy+BtNHC3IXM5yMqcfoSPyCZm9LEDghA9+c+sKzAvvHE1HICSnu+mlJGFVjNO
-yBqIvFkaC9Uy/IKTsRjm71n/QsfM79HssoSgTDz67mltbgKcRylCHh2jx2vH24Lf
-XAINfZUTjIgT1koNxIvqfA9Haw7CG9glt8Y97YAPQQDb41O2LCIv4T5Hqnc6Rzt1
-IseltAn1fcsgh4fHcBwZnJaktK3hG94Mj3zzHEPnpGHPF+sXEZnRAWkr8nSr+yt/
-MTBjTPUddkuBLuO6/1RwARsskiU03h1Ul4WccOxeS9EXe5gEXXQJG75/9oFVaCal
-ZckVUKpdvuiomNJ+UKq2PpTDyWvzsBlKR+t/2y1xZm4NQvo1NcgqVvFo/R6WojDI
-VJHzjVqwvyV7ffs2ElEUZRkhtXwH8geShMXw2e01teBrBL1EDI3L8kICNcd4+FlL
-+w3wpIdgJ7l5zJU2sPc/0P7/mO8IHQGzxtoygS9RIIUxjifrwa0AkhsAdXe90bZ3
-9nKdh29ySo+L4t2h89fPzUDd
-=OneW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA2oj0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VhwP/jpkw6Buf87dVShhjTsr
+RhwAYkWVz03i8GrtQp22bkW5GezsaGDacCQGz1X+zOdrBdQRR+JVtMP+w1mOk2SG
+dENjq54SxfSFl4/ub5m9DEk61tgHbn3nIw+GNz0H3/4Unyql2L13HX5KdAuZz6gQ
+xevKSi1/dN2h0GAIs/lohZ1+McJg0e5/XFPt5dUcc1P1ajSIHnvxDNDEU+pwHEDo
+JsFY/rv9Wa9Ie4Gq51fPfqYD4+SvvMxX00mhkmGPD48XWiiLxTP+62durhyK7Rsg
+9I0fvLqlEPScGRH+IHlClnwVpHi0KPd4KgoBuHLvTqw8fnwZQ41Sga2AVoqCJfeY
+Veh9K1yo6m4XRVvgEHn9mc02xflT9jUad9tBHGlTHCpNPKa3Y/q45U5vqLv9Njvi
+Wc+HyZGO8ghoDS8G0K8XCNa3AJjuTPKmQuI46zlZ/8P/psWmBk4DYvy0ayeq3Scn
+5nn9Xh5vGUaw6w7p2rr9IS5FHFvSHFWDCCKF7QkMh32lCoHbcG/3/BBdmgaAtQT7
+QIDQnVsbeR3KB8VgFqx085FM0wrQPYqBiTYjtKiepI6lGctSXe8FwzBDn+JdD6pK
+yPYnIy6T+d9zfkdWCvYMj+t56QTw27Fr8udanBMeX7QWYmn292B6/8UWvgbFwduB
+87LAYJyyb/+JrpbQfHu9+mQK
+=fk/k
 -----END PGP SIGNATURE-----
 
---===============5536740958833623326==
+--===============4119987900761226451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d19db80a3665-719bbd4a509f.txt
+Content-Disposition: attachment; filename=revlist-3e4c982f1ce7-719bbd4a509f.txt
 
+1d32854ea76331d10d376ed3ac67831b94466ae9 Merge branch 'for-next/misc' into for-next/core
+c974a8e574f9644aba0607958a3abce596699dc1 Merge branch 'for-next/perf' into for-next/core
+cf6a85a85089f2a7750a5eef6f4dd4721b1c441c Merge branch 'for-next/random' into for-next/core
+9dc8313cfd0b13771aedd8a53fca3438c7cbb880 Merge branch 'for-next/rng' into for-next/core
 82a1c2b94ac088674caa246dfe0c09f4e6fe05d0 Merge branch 'for-next/selftests' into for-next/core
 d23fa87cde1dcdcc892d385a7bb5eb6f0420b917 Merge branch 'for-next/stacktrace' into for-next/core
 dcabe10d97f51d0ceca4ef54e607de85d665546f Merge branch 'for-next/topology' into for-next/core
@@ -789,8 +793,6 @@ b0c2793bad0b5f10be2fc5f56df827e0c1bbf4af Revert "MIPS: Add basic support for ptr
 52bcc6031c0b459baa1f2cacd1fd4adc78ae0127 perf tools: Simplify the calculation of variables
 a8002a35935aaefcd6a42ad3289f62bab947f2ca gpio: pcf857x: Fix missing first interrupt
 7289e26f395b583f68b676d4d12a0971e4f6f65c Merge tag 'v5.11' into rdma.git for-next
-bc6de804d36b3709d54fa22bd128cbac91c11526 debugfs: be more robust at handling improper input in debugfs_lookup()
-56348560d495d2501e87db559a61de717cd3ab02 debugfs: do not attempt to create a new file before the filesystem is initalized
 e16c2ce7c5ed5de881066c1fd10ba5c09af69559 perf record: Fix continue profiling after draining the buffer
 8e5198a12d6416f0a1e9393bdb3a533854ed577b HID: playstation: add initial DualSense lightbar support.
 c26e48b150fccb07c4b7f0f419f2b0a2c42e57d2 HID: playstation: add microphone mute support for DualSense.
@@ -852,8 +854,6 @@ f730f39eb981af249d57336b47cfe3925632a7fd Merge tag 'drm-intel-next-fixes-2021-02
 c26958cb5a0d9053d1358258827638773f3d36ed Take mmap lock in cacheflush syscall
 9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
-bd6d617aac21502f3042bd472238fbe3f9b77083 of: property: fw_devlink: Ignore interrupts property for some configs
-3e4c982f1ce75faf5314477b8da296d2d00919df Revert "driver core: Set fw_devlink=on by default"
 c27f3d011b08540e68233cf56274fdc34bebb9b5 ACPICA: Fix race in generic_serial_bus (I2C) and GPIO op_region parameter handling
 8f6493d1b834a4331de139d9808300216fc7712d ACPICA: Remove some code duplication from acpi_ev_address_space_dispatch
 71f1309f4f5b70aa3f1342a52b1460aa454c39ff cpufreq: schedutil: Remove needless sg_policy parameter from ignore_dl_rate_limit()
@@ -1082,4 +1082,4 @@ e229b429bb4af24d9828758c0c851bb6a4169400 Merge tag 'char-misc-5.12-rc1' of git:/
 c4fbde84fedeaf513ec96f0c6ed3f352bdcd61d6 Merge tag 'sfi-removal-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 719bbd4a509f403f537adcaefd8ce17532be2e84 Merge tag 'vfio-v5.12-rc1' of git://github.com/awilliam/linux-vfio
 
---===============5536740958833623326==--
+--===============4119987900761226451==--
