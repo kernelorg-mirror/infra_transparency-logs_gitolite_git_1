@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3909991821342442571=="
+Content-Type: multipart/mixed; boundary="===============8226000715805666080=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 24 Feb 2021 06:13:00 -0000
-Message-Id: <161414718046.32207.5572587075652549078@gitolite.kernel.org>
+Date: Wed, 24 Feb 2021 06:13:59 -0000
+Message-Id: <161414723995.32554.5926109210412994912@gitolite.kernel.org>
 
---===============3909991821342442571==
+--===============8226000715805666080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 31206c6635a194cdf5ef39387faf2b8ac313cce6
     new: 481083ec0bfc14c15f00fbe87c7b06dc01091950
     log: revlist-31206c6635a1-481083ec0bfc.txt
 
---===============3909991821342442571==
+--===============8226000715805666080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ bcf637f54f6d2515d4c9c81808faf01848916152 kbuild: parse C= and M= before changing
 b97652bf10f1d3b0f1ca536377e92f99acfb2fcd kbuild: remove deprecated 'always' and 'hostprogs-y/m'
 481083ec0bfc14c15f00fbe87c7b06dc01091950 initramfs: Remove redundant dependency of RD_ZSTD on BLK_DEV_INITRD
 
---===============3909991821342442571==--
+--===============8226000715805666080==--
