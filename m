@@ -1,22 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Wed, 24 Feb 2021 16:57:43 -0000
-Message-Id: <161418586346.7323.1385572259203693630@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 24 Feb 2021 16:57:56 -0000
+Message-Id: <161418587698.7491.4964976577351571093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/heads/extcon-testing
-    old: 7cb68074f7157e463236aae3f612deed61976c2e
-    new: ebdd94ec8b0590400ad295af727f1c6c4e114821
+  - ref: refs/heads/for-linus
+    old: ecce3daec27ab1ae00b36a2c8022c98c071965a1
+    new: 21b49223c0f5eedf57bd99766d0e38d236e9da0f
     log: |
-         4bd7d1ebf57ce9cb70d955164b58f5c564af7bc5 bindings: pm8941-misc: Convert bindings to YAML
-         9522d934e00f5b0792b8d1967aea29888dc88610 bindings: pm8941-misc: Add support for VBUS detection
-         bb512233bffe4082fb147f89bdb2893f59d8395b extcon: qcom-spmi: Add support for VBUS detection
-         ebdd94ec8b0590400ad295af727f1c6c4e114821 extcon: Fix error handling in extcon_dev_register
+         73ae625da5c36300fccd809738e7c68f49ebce35 spi: bcm63xx-spi: fix pm_runtime
+         216e8e80057a9f0b6366327881acf88eaf9f1fd4 spi: bcm63xx-hsspi: fix pm_runtime
+         f9b5946f4eb6dacd8887cf062103949b627153eb Merge remote-tracking branch 'spi/for-5.11' into spi-linus
+         21b49223c0f5eedf57bd99766d0e38d236e9da0f Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+         
+  - ref: refs/heads/for-next
+    old: ecce3daec27ab1ae00b36a2c8022c98c071965a1
+    new: 21b49223c0f5eedf57bd99766d0e38d236e9da0f
+    log: |
+         73ae625da5c36300fccd809738e7c68f49ebce35 spi: bcm63xx-spi: fix pm_runtime
+         216e8e80057a9f0b6366327881acf88eaf9f1fd4 spi: bcm63xx-hsspi: fix pm_runtime
+         f9b5946f4eb6dacd8887cf062103949b627153eb Merge remote-tracking branch 'spi/for-5.11' into spi-linus
+         21b49223c0f5eedf57bd99766d0e38d236e9da0f Merge remote-tracking branch 'spi/for-5.12' into spi-linus
          
