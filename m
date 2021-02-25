@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 25 Feb 2021 17:56:28 -0000
-Message-Id: <161427578847.27980.16174930895631236979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Thu, 25 Feb 2021 18:13:51 -0000
+Message-Id: <161427683143.5850.5378291635732839161@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 764d31cacfe48440745c4bbb55a62ac9471c9f19
-    new: 6cf739131a15e4177e58a1b4f2bede9d5da78552
-    log: |
-         6cf739131a15e4177e58a1b4f2bede9d5da78552 r8169: fix jumbo packet handling on RTL8168e
-         
+  - ref: refs/heads/fix-event
+    old: 0000000000000000000000000000000000000000
+    new: c1d96fa61eb74b1e211f1653acc5b68ac62c8ef4
