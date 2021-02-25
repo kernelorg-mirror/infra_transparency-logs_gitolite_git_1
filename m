@@ -1,63 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============1052063361975886487=="
+Content-Type: multipart/mixed; boundary="===============5572337056616358991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usbutils
-Date: Thu, 25 Feb 2021 14:12:01 -0000
-Message-Id: <161426232198.23724.17808217216920830396@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
+Date: Thu, 25 Feb 2021 14:19:19 -0000
+Message-Id: <161426275908.27305.2826192349187659086@gitolite.kernel.org>
 
---===============1052063361975886487==
+--===============5572337056616358991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usbutils
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/lee/linux
+user: lee
 changes:
-  - ref: refs/heads/master
-    old: d68bb8328bfdad3ddd9c0cfeab89733213018fca
-    new: 1a3f8b662e3cce40768d45be3dd2c9fb93808065
-    log: |
-         993a9817d5bec161ceeab77062685de58e54c5f7 Fix locating endpoint when it's a directory rather than a symlink
-         14f3c60dbbb7701576d017101d06256359fba48d Add Tx+Rx lanes to tree mode
-         b3c89ad6387135b49b9fed0a78e19df3af007699 Merge pull request #117 from KLZ-0/master
-         1a19bf5d8e5fcd2519d1423ef44ba39a407fe4d4 Fix formatting of interface descriptors to match /sys/kernel/debug/usb/devices
-         fa02764527f3f8275ac89a6a38922b653d4c5097 Fix formatting of endpoint direction to match /sys/kernel/debug/usb/devices
-         9a8fef9f31d723be3bd96f30a0388948dcc51003 Fix formatting of endpoint type to match /sys/kernel/debug/usb/devices
-         d131266685cc74679a3388709e1406ceb66015a4 Fix formatting of max endpoint packet size to match /sys/kernel/debug/usb/devices
-         1a3f8b662e3cce40768d45be3dd2c9fb93808065 Merge pull request #118 from 10110111/master
-         
+  - ref: refs/heads/android-3.18-preview
+    old: 0ffbb3fa494681c04bd82180864094082ab32ef1
+    new: 486f70b95c1634a110ad69db38e9fc3496e6b738
+    log: revlist-0ffbb3fa4946-486f70b95c16.txt
 
---===============1052063361975886487==
+--===============5572337056616358991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0ffbb3fa4946-486f70b95c16.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614262318 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usbutils.git
-nonce 1614262318-34d26ac5bda838e9cddbe2d9f68ef893dcea10aa
+d1f28ba16e05340345960fee1f9a586efdd532ca x86/alternatives: Add an auxilary section
+03dea2aca72433982e05c2cb3d5e1fe7b04daff8 x86/boot: Simplify kernel load address alignment check
+47775ca90169eb93d18c01530349c1de9c22ce99 x86/cpufeature: Speed up cpu_feature_enabled()
+d89a41442fed090fd32151e432440afaa643eac5 uprobes/x86: Remove incorrect WARN_ON() in uprobe_init_insn()
+f7bd0a31a0bb617965eb68ff898e671653252eb5 x86/cpu: Probe CPUID leaf 6 even when cpuid_level == 6
+36865457c10669dd61015be90f0312a34a83a59c compiler, clang: suppress warning for unused static inline functions
+0b61f627b221997f65a213d20d097ffe06199175 compiler, clang: properly override 'inline' for clang
+33ebfa1c18f97273e851a8157a8246ff35ebc709 compiler, clang: always inline when CONFIG_OPTIMIZE_INLINING is disabled
+dd97e7bf50597cab84c59f8f6bcc93afe9824972 compiler-gcc.h: Add __attribute__((gnu_inline)) to all inline declarations
+5656601ebee0ac10352021b1e7e1b07264dcde12 x86/asm: Add _ASM_ARG* constants for argument registers to <asm/asm.h>
+076ff1a9183c9be9e051689b7f8b5ad2bc44cd36 ocfs2: subsystem.su_mutex is required while accessing the item->ci_parent
+2138d819df5adec17afb02ab6ec8805e0afb03f0 net: cxgb3_main: fix potential Spectre v1
+f235850192049271b14c89fd18e1ebcabf47922b KVM/Eventfd: Avoid crash when assign and deassign specific eventfd in parallel.
+1d36dc951346a922ad2bbce6f57a994bce4d0d16 tg3: Add higher cpu clock for 5762.
+58918383b9677da0c26a31707c35039db3da42a4 xhci: Fix perceived dead host due to runtime suspend race with event handler
+e2b3b037239c18435d7ea9f3dd871ac8771e5191 x86/paravirt: Make native_save_fl() extern inline
+486f70b95c1634a110ad69db38e9fc3496e6b738 x86/pti: Do not enable PTI on CPUs which are not vulnerable to Meltdown
 
-d68bb8328bfdad3ddd9c0cfeab89733213018fca 1a3f8b662e3cce40768d45be3dd2c9fb93808065 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA3sC4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7ZkQAM5J6yoNcnxM63t+l4bJ
-Grq16vIJHkah2TeU6r6meUnz5LS0ugh0XSg4E9/IJ47lvwgVtYCY/pIZ2t+LJCYR
-Rhzvql+jP2my3uAgSqrP9Vw0AyuFxDpDU416ynI4bPjmWP7Olyqc8pM5VkXeZ+P+
-+K+fT05dopz2KoSy4Orjn8px6ELE76xgdcCEa7Brbo24vIGZn1IZEYrApXDkTnmY
-hi26jSdGHrHMn2KUOmKCgre9Sd7WBO20Vr4SZqmPtC5jU+2P3hOoManBb6EkWbnd
-7Bqm9H0yLEREIvb/3sayTe4XTvMjqbJGslSPnfGYI4epgIQEEpOL0XIRx3sC6oYp
-GWxfwkF6iz0HRom+omrGS72inqCVTTwPkg/HGO9G8hOVFf48lYmFs3JR5kwUekXR
-1uamRoPzgOL5fqFqcUmRlvHUT0u056V3g8m8U4d8y6xj29dgw2hio8pRh4OOU7li
-fm+SgyFRfMBfKrUTRnbSWwjpBErb6Ui7KcVIg9HdVgyOVLY82ssbAHpuKU4ad/tS
-dWOLNsBUqX28lBLGCMtsHAtPyiRi3QxCR6so9OeYQTJF0XWU522eSAskn0d3Ttrp
-sL8DC47WvvrIMYQK3ivwc9tJpGFfXORwY+7QUnlx9+ZtUk3RBB6fiqltbt1DiLof
-nlxymqT11GFaLu/JUZ3SobOi
-=hKli
------END PGP SIGNATURE-----
-
---===============1052063361975886487==--
+--===============5572337056616358991==--
