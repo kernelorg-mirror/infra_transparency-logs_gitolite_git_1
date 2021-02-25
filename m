@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7462391306553594088=="
+Content-Type: multipart/mixed; boundary="===============3143166555924886117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 25 Feb 2021 09:25:28 -0000
-Message-Id: <161424512840.10462.18229467230908473712@gitolite.kernel.org>
+Date: Thu, 25 Feb 2021 09:25:29 -0000
+Message-Id: <161424512945.10593.15290058571593258162@gitolite.kernel.org>
 
---===============7462391306553594088==
+--===============3143166555924886117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,72 +16,70 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.11.y
-    old: 6380656c9227c27a989f750aa7a0c81039d28607
-    new: 68eabe17bf08272cb338564500da7be0d4aad9a5
-    log: revlist-6380656c9227-68eabe17bf08.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 63b9d2e001fd7ceae418ee124ae228f63f921323
+    new: 6ffb943c0e01d843a06842f9a7bcfc008e10a6d2
+    log: revlist-63b9d2e001fd-6ffb943c0e01.txt
 
---===============7462391306553594088==
+--===============3143166555924886117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614245126 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614245127 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1614245117-005e765c689a3d75f323ba8adfc2a5d1820072e4
+nonce 1614245122-e3ae93b3676c2d0c8c5109b03cf8953125fe0442
 
-6380656c9227c27a989f750aa7a0c81039d28607 68eabe17bf08272cb338564500da7be0d4aad9a5 refs/heads/linux-5.11.y
+63b9d2e001fd7ceae418ee124ae228f63f921323 6ffb943c0e01d843a06842f9a7bcfc008e10a6d2 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA3bQYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OC0QAJROwpxolZeGV+rH7x3w
-oqOUUOo64ZKG29Snwsqccf+JFViOlhSLDvvgWJI/2uClvFLDGdOJqSLHWxpEgrpS
-t/IzZVxDemvgLQ/UJpnuvWBIhg/WCCS97ipQLkN2+QY7YriF6NHpPRh5qVt6fHEh
-jItyqZnwng4nf2/lLsQG7kK87ErgPQbZbeJvsmHYejxGxkmeWk2TMSkfLsTqxxBC
-0wq2JKAW/ye4inh54JyZTXWpdiRwLBQH9QnodEaj3xxibEbWDVv9gttQKya89aiv
-BVDRRYLuudqU8LXQVk9K4XM23hDlv+HOpIvJOzTcgZpkSHrrGNrRySvTwLe8gVmI
-rWQCzTV035uDEhOi7D6n19mSgb8qbf4J/2+iBceGIisHT5Z5z4XMjp3SNsOotk9l
-5r7b0kBbXGmMlGOpm3dJ6YE64S9e+7KgWfIlG5KlFaAf8+YKsiZ1XdBi1lQKxpob
-S+6TWG3Cderf4G3+0gHYGorVtjeM2ODVOlLa2rgS8utQvZIl4VzgRGDy8B9gDwSP
-ZZ/Lb6kccYmuQF9E2Wa+G9i97j0Rna4Za0ArGp2nvlA2rBLteaaEVFVLLZJWIZJS
-tmSffwVU0KQubOLJRTRHQlLuBVDI10e5iL/W+E2STFl+9RQIuwqn+LlXYoLWWRZB
-w6HUNSMhCo8U9rnST99N4xXT
-=5jHq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA3bQcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DjAP/j1q39kzQfppx+xDyNG1
+xmDidrRJfIMV6M8KcoX1kPxCUqBAUIMfVE1MXEKzpKbIOFCzoRQZT89IN9y76yj2
+UL3QQUBB3PqnZaIN37U4doOga6m/N3+XGdlctJGgu6T9uoAI3DbZYS5inLIyWZXB
+DEDNH+M8tc4GPDFOK/Cl6fKJ8riiugQJQxwUgDYQho2jsrWYgHtXl9pM5HS0J7T/
+B9VZh7DtAcNlixH41nXmsFRzAnPnfgag1e/j3VlrGDAENdQIsojomuGC2BpssBjS
+6HfTlUZCHT7hpzpeYMzeo5eGOcTjmfpO4uQMVOpwTVxaAFMs3xd2OQnfRt+M+kH8
+wpU4Jw56uaU2JLRRqc01y+nW0ACoQGZMeV816QiInpX0TuFP6i8AQUsPpjmO98Kl
+zEXPDEjqSidLNF+Mp0xzNbiYg7kfQwkbb0TJkMHbAT/YclGuHxYRg/RpgRHdhWxc
+F+ShcWoQ5HUpO5wCenaN9drRFLC6ypThCULTZbfEP4RLj38h+7/Nx0SoFBZsKnpd
+X03nfdep1TB9ktssz9TQMu17WF/JazNcpcV5DUSJwFJ0q9wR3k+aHp26NTgRAHMP
+cBGg6wWeVQ/+2XRDCCLLuor5kejJtmvgwtRYbHBpwq2/Syiyym7t0WgjDTxAwjVB
+LLvq5yjxNC9hySs+6iqBW+h9
+=Ak2i
 -----END PGP SIGNATURE-----
 
---===============7462391306553594088==
+--===============3143166555924886117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6380656c9227-68eabe17bf08.txt
+Content-Disposition: attachment; filename=revlist-63b9d2e001fd-6ffb943c0e01.txt
 
-76b0be126b8a7448892d851a3c0a304d91c9ee58 Xen/x86: don't bail early from clear_foreign_p2m_mapping()
-86c464450c578fcb8c18dee6597b6453ae6aa21e Xen/x86: also check kernel mapping in set_foreign_p2m_mapping()
-ca0ca64ce9e9bcc6922eab8b85a599451e85730d Xen/gntdev: correct dev_bus_addr handling in gntdev_map_grant_pages()
-5b36827850b367454e72958c501bc3c2012239bb Xen/gntdev: correct error checking in gntdev_map_grant_pages()
-b02356a0f7e41a16d6e43c419c7cf7adb0b1403a xen/arm: don't ignore return errors from set_phys_to_machine
-ea26c8d0f31a7fd14c3e150474b5befb9757555e xen-blkback: don't "handle" error by BUG()
-c87e9ee18fd9697b489fbb9a0be56ba2902bc048 xen-netback: don't "handle" error by BUG()
-790f464ee0251dae1dcdb5cfb18ab54d881a6886 xen-scsiback: don't "handle" error by BUG()
-1ef2744ab96362188ec61b5f9243161bab462126 xen-blkback: fix error handling in xen_blkbk_map()
-312ed553b12d333afedc3a2636867ae769ccaeb3 tty: protect tty_write from odd low-level tty disciplines
-834d68fa4f8fe82bfd8fded8fe5b7b064d12407a Bluetooth: btusb: Always fallback to alt 1 for WBS
-aa4b2eea3ec2b469bac9d72b7a77c0adfacf612c media: pwc: Use correct device for DMA
-b7243c0ab298feb651a19a092ab9ebda02789904 Linux 5.11.1
-f4b3eed788739a1217cd1a501b75cf6d860f3d10 bpf: Fix truncation handling for mod32 dst reg wrt zero
-26f10727a0305e0922fb7f822551514c83c4275b HID: make arrays usage and value to be the same
-def54010fc90649cfad9accfda20f94f6256c0c6 USB: quirks: sort quirk entries
-7ba5207bca96fc2573eb9e55ea7e0caca250a73b usb: quirks: add quirk to start video capture on ELMO L-12F document camera reliable
-93ef74f3baac0c91c7510c4c0e4c2f4827ec5f5e ntfs: check for valid standard information attribute
-eeeef277ccbe0bdab13d213bd81038fc9310fe41 Bluetooth: btusb: Some Qualcomm Bluetooth adapters stop working
-ee86951cc82644b0bb7144636856ed471265bab6 arm64: tegra: Add power-domain for Tegra210 HDA
-4a5a055bdbb93b3ad3d69ef9b3633a73847144e3 hwmon: (dell-smm) Add XPS 15 L502X to fan control blacklist
-147bfd5a2c6e44b1c409c08bbd827ebfbceee781 KVM: x86: Zap the oldest MMU pages, not the newest
-e936e73b1510d3ff76224a8050da3fe56d7d9c20 KVM: do not assume PTE is writable after follow_pfn
-bfddb3f42aece6459719b559d87eeb0558a69af0 mm: provide a saner PTE walking API for modules
-f146015ee06e3c5d10e266bdf3a234e5e34b4530 KVM: Use kvm_pfn_t for local PFN variable in hva_to_pfn_remapped()
-68eabe17bf08272cb338564500da7be0d4aad9a5 Linux 5.11.2-rc1
+b77a9762d079ee63256d9d9e745d739bfcb9dff7 bpf: Fix truncation handling for mod32 dst reg wrt zero
+da08a0227edd3034792404a5de73cc614a2de1e5 HID: make arrays usage and value to be the same
+6fb9fb29017f95e88c9209e08ac1aa68e64cdadd RDMA: Lift ibdev_to_node from rds to common code
+bc668efe59e47058a5a34b7181751d85af9ded09 nvme-rdma: Use ibdev_to_node instead of dereferencing ->dma_device
+10cb9308ee297aa823754bc4ee2ac352fc0d4a3f USB: quirks: sort quirk entries
+0e418722635009ca4d26937a7d26eeb842b2b0a3 usb: quirks: add quirk to start video capture on ELMO L-12F document camera reliable
+6a2e6a63b39a0615283ff15fa1e2763ef0bb15c6 ceph: downgrade warning from mdsmap decode to debug
+22386fb1e8607c01d23ee5fcff7be54f3cde0bfb ntfs: check for valid standard information attribute
+317b7f37d694e045a0e6d22a883a2a36a3790f22 Bluetooth: btusb: Some Qualcomm Bluetooth adapters stop working
+a2169cead4d93763ef077f64c72e702fe3e3341c arm64: tegra: Add power-domain for Tegra210 HDA
+116c6c254d52b126d8b02c1396efc46a5e008dc7 hwmon: (dell-smm) Add XPS 15 L502X to fan control blacklist
+543194b227e3814b4a110668111e55c9c1d8935e KVM: x86: Zap the oldest MMU pages, not the newest
+b7f9d9fc50ac2b73be2671c6cc0b2cd622416b37 mm: unexport follow_pte_pmd
+26b7a156212e999947e5be4efe09e1fcf8e85318 mm: simplify follow_pte{,pmd}
+b7205364abbd12a22cedb91de9dd120d6f12047e KVM: do not assume PTE is writable after follow_pfn
+3f3619c195305a68faf3949e39252e31ec87b70b mm: provide a saner PTE walking API for modules
+095bdd570bf3a227402c8aa5f6d736b720185163 KVM: Use kvm_pfn_t for local PFN variable in hva_to_pfn_remapped()
+6b74d9ed4885fa874f1ad22306e5d01c7a8c5c54 drm/xlnx: fix kmemleak by sending vblank_event in atomic_disable
+a823e2f6a88698b8e0e27da1932fb3d82898efe8 NET: usb: qmi_wwan: Adding support for Cinterion MV31
+1e99a4a47b56365a54be9bcaa3a1cdb506477059 cxgb4: Add new T6 PCI device id 0x6092
+dd8db078803f58b58a2d678ab74dfa9ade2dd628 cifs: Set CIFS_MOUNT_USE_PREFIX_PATH flag on setting cifs_sb->prepath.
+312dc4098c5fa7066fa47bf7dd5d0d46245af0c3 kbuild: fix CONFIG_TRIM_UNUSED_KSYMS build for ppc64
+5bf34427609b9bd605c5cbb6bbe57d472dfaee12 scripts/recordmcount.pl: support big endian for ARCH sh
+6ffb943c0e01d843a06842f9a7bcfc008e10a6d2 Linux 5.10.19-rc1
 
---===============7462391306553594088==--
+--===============3143166555924886117==--
