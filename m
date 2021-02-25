@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8812210145380541848=="
+Content-Type: multipart/mixed; boundary="===============2342155809551967780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 25 Feb 2021 09:25:27 -0000
-Message-Id: <161424512713.10322.7766650007284380437@gitolite.kernel.org>
+Message-Id: <161424512720.10339.13467799009061347651@gitolite.kernel.org>
 
---===============8812210145380541848==
+--===============2342155809551967780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,21 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 3242aa3a635c0958671ee1e4b0958dcc7c4e5c79
-    new: 501fe90c361cfb86207ff5bea032fd7ba729c716
-    log: |
-         e08ff365902ae445f59ee0066ff0a17875cb3963 HID: make arrays usage and value to be the same
-         d2a29cbe36ae30534141aaef67a897a035bf1ed4 usb: quirks: add quirk to start video capture on ELMO L-12F document camera reliable
-         15e0ebea15781b569437c3650e3969a54e556e8e ntfs: check for valid standard information attribute
-         7648c089b8e5ae5f97423f0bff5b3eb95d81132e arm64: tegra: Add power-domain for Tegra210 HDA
-         db07d5c6ea69626a272faeee8dda7a0240b728bc NET: usb: qmi_wwan: Adding support for Cinterion MV31
-         5e573bcd876f52a7d708413438bb9bfd09bc94ec cifs: Set CIFS_MOUNT_USE_PREFIX_PATH flag on setting cifs_sb->prepath.
-         2f2c6440329daf7f34cf0b46ce9b4f6e1398e35f scripts/recordmcount.pl: support big endian for ARCH sh
-         501fe90c361cfb86207ff5bea032fd7ba729c716 Linux 4.14.223-rc1
-         
+  - ref: refs/heads/linux-4.19.y
+    old: 2d19be4653f5e74ed95560b69f94eb6791d49af3
+    new: b6235c7ac1db2173cd999eb30804a7911ee25988
+    log: revlist-2d19be4653f5-b6235c7ac1db.txt
 
---===============8812210145380541848==
+--===============2342155809551967780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,23 +32,45 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614245125 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1614245117-005e765c689a3d75f323ba8adfc2a5d1820072e4
 
-3242aa3a635c0958671ee1e4b0958dcc7c4e5c79 501fe90c361cfb86207ff5bea032fd7ba729c716 refs/heads/linux-4.14.y
+2d19be4653f5e74ed95560b69f94eb6791d49af3 b6235c7ac1db2173cd999eb30804a7911ee25988 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA3bQUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bMoP/i1IHj0bmjJ1I1Zhukus
-yFUGerCd+cuo2CcKGHgNMZr8rtt8W8StyQ/5tMaLBFT79VvgT+u0s5OkGXHb204B
-1uE+MJdmAkMaXK1q/6B+02uvChDhQz+dDyQrELe12xQROtu9o1gzoy20r9XtuxR6
-OCCO0Qz8thUJLSZIrTuaUwW6Qqop6DcHszyhUUBNw6NOS0NE+IwiDNZjg3Ww579e
-NKuzPSMm098Tc5ZLLfQ10NlID93SiUiJihYCNWhz8wvPC3SoQdlHWKkBKZkwaGoR
-uGU7hVulEpEPexfCABGYUCW9vZBW3NBO3MAl+tRF1zDEh6g9qFv/KdFyD0ie1o0g
-EuNF3Thaugl21/wnAsBu4k5GfmImJl1gn9m2McFydiUSY3HtQU7x1lEQIiOsbDlY
-ntdIUsfl5dMocQr2FobNvhF7clZCpwo7eeJ7HsOi9bF2nhQnmVYDhhxet/wXnj9z
-MHKIlChx7MqGdazJ9WBS9uARK0ny1Z2mvsVDCTWcVDhpSEAqZt6ei9GgzWlVg4nD
-UfpTj0y0XIVxg7NIl2NjFU7qex6sge5+fztgjVPQARc5xM0wx9t5TfRZiyvaxzk3
-Y+tFxSfWEbZSqMb6IEf/ijciutd6lKQwbh0f1/xwU0FDEeM6W2aixKfeW8R2gb9M
-fApw9h3GMVAp3V6ofattZPov
-=UTGG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA3bQYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bq0QALR76zQBuVMY1CLcSLSU
+j3ERtrYdFEAbLXTFJDxLmVh37Nkj8lRXFo7VmdGgQGYXKabUnof0YO/PWHdT8DhN
+l2lpoarSLZtkwXSmkS3lleFSKXQHJ15hGZmMEqyJiy7tS2To8uJWgMrOns5mlHP+
+87Eb9FrM805HF8nqJNqNhZuXqtvmwG2FLrAv0bLgJJIg1and6t0hFrw3YqMvP89m
+72RdadnzMULD7vH2KKJgc1rbMR1xWpSFA2ZVdUDTDitUtssXpHarF6WXWmTftxWV
+6+0qMTsF9jwd2EMdYwfvCcEka168bHvJEfl2LYZVxEV5P24O1qrjdO+M8dXSeBaw
+AI/R2gjEctzWo3RwJZjsS1fgTN6h0kuSncReBlc5WtT4/gi2tnEgJGQo9oeHBkiW
+x/XdETqv41RJXspqYDUsqrYE5k4tmUKFj32kmUZC+94xBtqx2hUbccUdQdPxPZdR
+/azm7cHIXo88OO7qwDcyWdkRzWooT5ZnRrNNJrQCuODr/CQpzQACXm5h5M4795Q9
+aF3qMO1sCHoGpxQOdmWkKjf0B0OXNM8PyEJLA8Zyyx+0M3htHTBn4yzbo3W8eDOs
+B1W7i93mHHEFXfk0ezjgEeb3At5PYI7i8oTtPNnA4kZ6i7LzhGRYiaZ+jduUlaL6
+xmxU483V+Z/o9wCYY4Bxt8/l
+=IG+z
 -----END PGP SIGNATURE-----
 
---===============8812210145380541848==--
+--===============2342155809551967780==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2d19be4653f5-b6235c7ac1db.txt
+
+715424e9c22ac47464095b895a98c44a7c0662cd HID: make arrays usage and value to be the same
+17dfb9f221b859c0fbdf091e34a0ec6dcbde1e8d USB: quirks: sort quirk entries
+2ab3a50fb2510ea7b6da791a3d0f1aa8f8f80175 usb: quirks: add quirk to start video capture on ELMO L-12F document camera reliable
+af23729d0491e94b662bac1859fe5cf9f18fc953 ntfs: check for valid standard information attribute
+554d8330644f4fff322d81e12f9fcec9f4772554 arm64: tegra: Add power-domain for Tegra210 HDA
+e4f2002a555408da864d3210b86cd8e08110ac4f scripts: use pkg-config to locate libcrypto
+9a58abd1a23373ac8adba9728655865f15cfdb51 scripts: set proper OpenSSL include dir also for sign-file
+64ed5ad509b7e3f4a8d4d84d0f7c7dc16343f532 block: add helper for checking if queue is registered
+abe4c321ca828b05ebcf7de379d8ad7aa3f0c009 block: split .sysfs_lock into two locks
+c3c3126be950953e8354abe1254efe0eb667cff2 block: fix race between switching elevator and removing queues
+d4b9ba3cab3f9dc13f2d2c3dc085ac2252029b3d block: don't release queue's sysfs lock during switching elevator
+6199578fef4d78e59593a876cd1a135572eb9161 NET: usb: qmi_wwan: Adding support for Cinterion MV31
+bea4eebf65c26829e8561dd553766cf112652db7 cifs: Set CIFS_MOUNT_USE_PREFIX_PATH flag on setting cifs_sb->prepath.
+61eae085fd70e338c5cd616099fa201aba4af38e scripts/recordmcount.pl: support big endian for ARCH sh
+b6235c7ac1db2173cd999eb30804a7911ee25988 Linux 4.19.178-rc1
+
+--===============2342155809551967780==--
