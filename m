@@ -1,30 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 25 Feb 2021 16:50:04 -0000
-Message-Id: <161427180438.21658.4525547194604918817@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7223022831759407317=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 25 Feb 2021 17:14:32 -0000
+Message-Id: <161427327250.2752.16294889210004056989@gitolite.kernel.org>
+
+--===============7223022831759407317==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12/io_uring
-    old: e33abd50eaec750ef0257e4cdf493c5491fdd352
-    new: cb5e1b81304e089ee3ca948db4d29f71902eb575
-  - ref: refs/heads/for-next
-    old: 91ca70008d971a46fa7520f7919da83b24c54606
-    new: 95badb0b1f0859e056014ad6e4d21a3aac5df54f
+  - ref: refs/heads/for-5.12
+    old: fa27f54021df1dba488adc69c146fb2ba7f394b5
+    new: 1045a5c04e16716870cc953872e703258e7896de
     log: |
-         2f7ce0a28c205f74df50b617154ad8da33ae8630 Merge branch 'for-5.12/io_uring' into for-next
-         e941894eae31b52f0fd9bdb3ce20620afa152f45 io-wq: make buffered file write hashed work map per-ctx
-         95badb0b1f0859e056014ad6e4d21a3aac5df54f Merge branch 'io_uring-worker.v3' into for-next
+         1045a5c04e16716870cc953872e703258e7896de ASoC: Intel: bytcr_rt5640: Fix HP Pavilion x2 10-p0XX OVCD current threshold
          
-  - ref: refs/heads/io_uring-worker.v3
-    old: eb2de9418d56b5e6ebf27bad51dbce3e22ee109b
-    new: e941894eae31b52f0fd9bdb3ce20620afa152f45
-    log: |
-         e941894eae31b52f0fd9bdb3ce20620afa152f45 io-wq: make buffered file write hashed work map per-ctx
-         
+
+--===============7223022831759407317==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1614273209 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1614273270-5242486220422fd725c2cb9a7e7a7f49d5cc75e2
+
+fa27f54021df1dba488adc69c146fb2ba7f394b5 1045a5c04e16716870cc953872e703258e7896de refs/heads/for-5.12
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmA32rkACgkQJNaLcl1U
+h9ClQAf/XDiFW/igqXmcqQioTtOcb7L3zi3F10lpNr5YrVx8AkIK4crqkUiiVjF4
+t/eKww0hl63cbo1Ljrr5RmC9LXIVXlSDzkAbbxKvyDOKM7NEanFF8DRnIgVGWKlZ
+59rSe2tZKDXLIGzE3kZjnc3IVO5TX3plx3m9JhbkpIIrpARlOPbKRZ9Y0UBLRliB
+Tff/APBhs5WWw9dtcQZ5ibw49dX0ZJOooA1nUnTTgLY0B4JHSn3ouLkmu35LMiJO
+MtuIHNQS23O5vBYD3f9KZVDImr0vJ4IiaQ70xAnWaqzuPkWaIYJYwpW9FEyV2Deg
+y3y2kYiUh+cY4Cugo/drT2Cjp4vTiA==
+=cDEu
+-----END PGP SIGNATURE-----
+
+--===============7223022831759407317==--
