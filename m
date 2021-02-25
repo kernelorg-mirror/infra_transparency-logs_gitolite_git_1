@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3291680607871214837=="
+Content-Type: multipart/mixed; boundary="===============6795011216247198526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/greentime/linux
-Date: Thu, 25 Feb 2021 06:47:56 -0000
-Message-Id: <161423567645.25851.2541362333642188886@gitolite.kernel.org>
+Date: Thu, 25 Feb 2021 06:48:48 -0000
+Message-Id: <161423572814.26210.6465570113770782511@gitolite.kernel.org>
 
---===============3291680607871214837==
+--===============6795011216247198526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/greentime/linux
 user: greentime
 changes:
-  - ref: refs/heads/nds32
-    old: ba47d845d715a010f7b51f6f89bae32845e6acb7
+  - ref: refs/heads/next
+    old: 54bde873682b467f781f352effdb52d24e0a0c30
     new: 40e0dd851e7b7afe219820fb270b09016e41d4fc
-    log: revlist-ba47d845d715-40e0dd851e7b.txt
+    log: revlist-54bde873682b-40e0dd851e7b.txt
 
---===============3291680607871214837==
+--===============6795011216247198526==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ba47d845d715-40e0dd851e7b.txt
+Content-Disposition: attachment; filename=revlist-54bde873682b-40e0dd851e7b.txt
 
 bba2ea17ef553aea0df80cb64399fe2f70f225dd libperf tests: If a test fails return non-zero
 66dd86b2a2bee129c70f7ff054d3a6a2e5f8eb20 libperf tests: Fail when failing to get a tracepoint id
@@ -1051,4 +1051,4 @@ e99da8af9cbc8f68e27c28ddeb57a40ee1006081 nds32: configs: Cleanup CONFIG_CROSS_CO
 fa2f478a348efa483abd4159c9f5478a3867bcc0 nds32: use get_kernel_nofault in dump_mem
 40e0dd851e7b7afe219820fb270b09016e41d4fc nds32: Fix bogus reference to <asm/procinfo.h>
 
---===============3291680607871214837==--
+--===============6795011216247198526==--
