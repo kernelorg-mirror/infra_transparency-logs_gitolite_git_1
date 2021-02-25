@@ -1,37 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Thu, 25 Feb 2021 17:45:42 -0000
-Message-Id: <161427514280.22008.12263581644201064247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 25 Feb 2021 17:48:09 -0000
+Message-Id: <161427528965.22745.7111988721133243353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/maint
-    old: ed907b1df27111bb717e2aba7492547977c63049
-    new: d6d69857e79aa1e9d6736c9728ca28cebfad5ce0
-    log: |
-         989a4189698c4efa53b521b6ad8236bbfc3452c3 debugfs: fix memory leak problem in read_list()
-         1f4a5aba59f39a33a84152b5ae3ec0a5657b12a1 chattr/lsattr: expose FS_NOCOMP_FL (aka EXT2_NOCOMPR_FL)
-         d6d69857e79aa1e9d6736c9728ca28cebfad5ce0 Remove superfluous break statements
-         
   - ref: refs/heads/master
-    old: ed907b1df27111bb717e2aba7492547977c63049
-    new: d6d69857e79aa1e9d6736c9728ca28cebfad5ce0
+    old: f176411401127a07a9360dec14eca448eb2e9d45
+    new: 4d9274cee40b6a20dd6148c6c81c6733c2678cbc
     log: |
-         989a4189698c4efa53b521b6ad8236bbfc3452c3 debugfs: fix memory leak problem in read_list()
-         1f4a5aba59f39a33a84152b5ae3ec0a5657b12a1 chattr/lsattr: expose FS_NOCOMP_FL (aka EXT2_NOCOMPR_FL)
-         d6d69857e79aa1e9d6736c9728ca28cebfad5ce0 Remove superfluous break statements
-         
-  - ref: refs/heads/next
-    old: ed907b1df27111bb717e2aba7492547977c63049
-    new: d6d69857e79aa1e9d6736c9728ca28cebfad5ce0
-    log: |
-         989a4189698c4efa53b521b6ad8236bbfc3452c3 debugfs: fix memory leak problem in read_list()
-         1f4a5aba59f39a33a84152b5ae3ec0a5657b12a1 chattr/lsattr: expose FS_NOCOMP_FL (aka EXT2_NOCOMPR_FL)
-         d6d69857e79aa1e9d6736c9728ca28cebfad5ce0 Remove superfluous break statements
+         4dc7f09b8becfa35a55430a49d95acf19f996e6b net: broadcom: bcm4908_enet: fix RX path possible mem leak
+         4d9274cee40b6a20dd6148c6c81c6733c2678cbc net: broadcom: bcm4908_enet: fix NAPI poll returned value
          
