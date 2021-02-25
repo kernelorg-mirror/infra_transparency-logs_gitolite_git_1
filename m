@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Thu, 25 Feb 2021 15:19:10 -0000
-Message-Id: <161426635028.30827.552832679366114674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
+Date: Thu, 25 Feb 2021 15:34:07 -0000
+Message-Id: <161426724738.6645.12348054886251153888@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
+user: zx2c4
 changes:
-  - ref: refs/heads/simple_copy
-    old: d6f32b90156624ae9dc06ef5873334a48e9b9806
-    new: 34cf4ecac92082f454a50fadf5571514802909ce
+  - ref: refs/heads/master
+    old: b99af8788946f43454053943cb5b80d971bb27c5
+    new: c3232121124ec76afc1e39759d6e8140e0aa9a53
     log: |
-         34cf4ecac92082f454a50fadf5571514802909ce f2fs: Fixing fio being picked up from global list in last commit.
+         c3232121124ec76afc1e39759d6e8140e0aa9a53 compat: drop unsupported ubuntu
          
