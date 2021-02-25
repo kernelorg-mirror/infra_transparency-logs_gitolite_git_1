@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6447951841098301702=="
+Content-Type: multipart/mixed; boundary="===============8812210145380541848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 25 Feb 2021 09:25:27 -0000
-Message-Id: <161424512702.10310.1436250349041301233@gitolite.kernel.org>
+Message-Id: <161424512713.10322.7766650007284380437@gitolite.kernel.org>
 
---===============6447951841098301702==
+--===============8812210145380541848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,22 +16,21 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 5b1d078507bd33ebf6c2083fa363cf5832809c19
-    new: e98ce504074a75070c405546b8f52b5474ed5c78
+  - ref: refs/heads/linux-4.14.y
+    old: 3242aa3a635c0958671ee1e4b0958dcc7c4e5c79
+    new: 501fe90c361cfb86207ff5bea032fd7ba729c716
     log: |
-         7ad1053e7a65a54de783c6427a49e442fe4dc984 HID: make arrays usage and value to be the same
-         21161a9d9aba9478bb6b7d559f72d2e1b5b50ebf usb: quirks: add quirk to start video capture on ELMO L-12F document camera reliable
-         4e9e5a73c8a12be2910ff8ebb1fe17e53152bed5 ntfs: check for valid standard information attribute
-         a2640f95267a46f83f66364ccef90a2b93f6ab19 igb: Remove incorrect "unexpected SYS WRAP" log message
-         e545e622300934dd2ef98d7fa5479b912dd7f46b arm64: tegra: Add power-domain for Tegra210 HDA
-         ac1484a8e04617224583abdf36a440a0c240fd2a NET: usb: qmi_wwan: Adding support for Cinterion MV31
-         15f33978a2a5cc0b4726d314654e74355778bc13 cifs: Set CIFS_MOUNT_USE_PREFIX_PATH flag on setting cifs_sb->prepath.
-         2dda4d168e4b6fdd59f8e3d057312db258e7a3a5 scripts/recordmcount.pl: support big endian for ARCH sh
-         e98ce504074a75070c405546b8f52b5474ed5c78 Linux 4.9.259-rc1
+         e08ff365902ae445f59ee0066ff0a17875cb3963 HID: make arrays usage and value to be the same
+         d2a29cbe36ae30534141aaef67a897a035bf1ed4 usb: quirks: add quirk to start video capture on ELMO L-12F document camera reliable
+         15e0ebea15781b569437c3650e3969a54e556e8e ntfs: check for valid standard information attribute
+         7648c089b8e5ae5f97423f0bff5b3eb95d81132e arm64: tegra: Add power-domain for Tegra210 HDA
+         db07d5c6ea69626a272faeee8dda7a0240b728bc NET: usb: qmi_wwan: Adding support for Cinterion MV31
+         5e573bcd876f52a7d708413438bb9bfd09bc94ec cifs: Set CIFS_MOUNT_USE_PREFIX_PATH flag on setting cifs_sb->prepath.
+         2f2c6440329daf7f34cf0b46ce9b4f6e1398e35f scripts/recordmcount.pl: support big endian for ARCH sh
+         501fe90c361cfb86207ff5bea032fd7ba729c716 Linux 4.14.223-rc1
          
 
---===============6447951841098301702==
+--===============8812210145380541848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,23 +41,23 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614245125 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1614245117-005e765c689a3d75f323ba8adfc2a5d1820072e4
 
-5b1d078507bd33ebf6c2083fa363cf5832809c19 e98ce504074a75070c405546b8f52b5474ed5c78 refs/heads/linux-4.9.y
+3242aa3a635c0958671ee1e4b0958dcc7c4e5c79 501fe90c361cfb86207ff5bea032fd7ba729c716 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA3bQUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o0kP+wWt2Obt2lLgFtegqCMS
-WO/MagXnPd+M/ZqmTS7nK0f1mvuN3x1LUuszdgGZoJDadXI2p9bgXhsAixr9V/ow
-afuWPRzngmmNFbjNs2di2v7bDZhpvVzTT5JOzwmIdUCci1mE/3+bMPtcTdQojrXg
-OaatLK0E8HL4xA4Yon7XIaIRnYG06iwbIVp84Yk+QxzZnQbZ9jHkzTWIDn+McVUq
-hlU0dMIpD2w8MffYpZ3IrYcJWh8ptX0qfastnCkVKj90ydNhx1JMXi7yCE8r+cdi
-h81SMgkm4LzJx94njzXz35nYFAN/+ZX7BkpN5OnoqC6SyfsrnjJEVWYnrhl+9F8O
-d11NnMBi3TykcgLgUEc2CeJHNeoQUBy95xUEW3PjJFBl4Fu6s+zbIfvs3QFGv6lK
-wZmTTcJgmxf9wnC+kfmrC4AnYD8/Y7i/+F11AmsN8kWimKztHwhopWZTnTmkWKIl
-IqQ9VLxwPLq4rvXKt/bA+HAiQghxEzBK8ovrv2uuK9XA1sVggpWievPMbKMX6H8V
-ozjo9jTDJ2QOM25afIubJUHhROtD0t3BLdPeOM15YGCyBTLijJ+sGY7jjiB4NG7C
-TIoWIxTfsoeZdSybXsaUXYPh6w5EM7h2/Cb8cDY7X5wl7QKVqVcaFTIkBAcEdBQE
-kTw7dfdF5nL2TW09UPF6maL0
-=O9Eo
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bMoP/i1IHj0bmjJ1I1Zhukus
+yFUGerCd+cuo2CcKGHgNMZr8rtt8W8StyQ/5tMaLBFT79VvgT+u0s5OkGXHb204B
+1uE+MJdmAkMaXK1q/6B+02uvChDhQz+dDyQrELe12xQROtu9o1gzoy20r9XtuxR6
+OCCO0Qz8thUJLSZIrTuaUwW6Qqop6DcHszyhUUBNw6NOS0NE+IwiDNZjg3Ww579e
+NKuzPSMm098Tc5ZLLfQ10NlID93SiUiJihYCNWhz8wvPC3SoQdlHWKkBKZkwaGoR
+uGU7hVulEpEPexfCABGYUCW9vZBW3NBO3MAl+tRF1zDEh6g9qFv/KdFyD0ie1o0g
+EuNF3Thaugl21/wnAsBu4k5GfmImJl1gn9m2McFydiUSY3HtQU7x1lEQIiOsbDlY
+ntdIUsfl5dMocQr2FobNvhF7clZCpwo7eeJ7HsOi9bF2nhQnmVYDhhxet/wXnj9z
+MHKIlChx7MqGdazJ9WBS9uARK0ny1Z2mvsVDCTWcVDhpSEAqZt6ei9GgzWlVg4nD
+UfpTj0y0XIVxg7NIl2NjFU7qex6sge5+fztgjVPQARc5xM0wx9t5TfRZiyvaxzk3
+Y+tFxSfWEbZSqMb6IEf/ijciutd6lKQwbh0f1/xwU0FDEeM6W2aixKfeW8R2gb9M
+fApw9h3GMVAp3V6ofattZPov
+=UTGG
 -----END PGP SIGNATURE-----
 
---===============6447951841098301702==--
+--===============8812210145380541848==--
