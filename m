@@ -1,34 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 25 Feb 2021 16:42:52 -0000
-Message-Id: <161427137291.17072.13487899112975992615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 25 Feb 2021 16:50:04 -0000
+Message-Id: <161427180438.21658.4525547194604918817@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
+  - ref: refs/heads/for-5.12/io_uring
+    old: e33abd50eaec750ef0257e4cdf493c5491fdd352
+    new: cb5e1b81304e089ee3ca948db4d29f71902eb575
   - ref: refs/heads/for-next
-    old: 1cd738b13ae9b29e03d6149f0246c61f76e81fcf
-    new: 756b1c343333a5aefcc26b0409f3fd16f72281bf
+    old: 91ca70008d971a46fa7520f7919da83b24c54606
+    new: 95badb0b1f0859e056014ad6e4d21a3aac5df54f
     log: |
-         89e0eb8c13bb842e224b27d7e071262cd84717cb xfs: restore speculative_cow_prealloc_lifetime sysctl
-         06058bc40534530e617e5623775c53bb24f032cb xfs: don't reuse busy extents on extent trim
-         9febcda6f8d1db9f922945d026bb838864b1b6d5 xfs: don't nest transactions when scanning for eofblocks
-         756b1c343333a5aefcc26b0409f3fd16f72281bf xfs: use current->journal_info for detecting transaction recursion
+         2f7ce0a28c205f74df50b617154ad8da33ae8630 Merge branch 'for-5.12/io_uring' into for-next
+         e941894eae31b52f0fd9bdb3ce20620afa152f45 io-wq: make buffered file write hashed work map per-ctx
+         95badb0b1f0859e056014ad6e4d21a3aac5df54f Merge branch 'io_uring-worker.v3' into for-next
          
-  - ref: refs/heads/xfs-5.12-merge
-    old: 1cd738b13ae9b29e03d6149f0246c61f76e81fcf
-    new: 756b1c343333a5aefcc26b0409f3fd16f72281bf
+  - ref: refs/heads/io_uring-worker.v3
+    old: eb2de9418d56b5e6ebf27bad51dbce3e22ee109b
+    new: e941894eae31b52f0fd9bdb3ce20620afa152f45
     log: |
-         89e0eb8c13bb842e224b27d7e071262cd84717cb xfs: restore speculative_cow_prealloc_lifetime sysctl
-         06058bc40534530e617e5623775c53bb24f032cb xfs: don't reuse busy extents on extent trim
-         9febcda6f8d1db9f922945d026bb838864b1b6d5 xfs: don't nest transactions when scanning for eofblocks
-         756b1c343333a5aefcc26b0409f3fd16f72281bf xfs: use current->journal_info for detecting transaction recursion
+         e941894eae31b52f0fd9bdb3ce20620afa152f45 io-wq: make buffered file write hashed work map per-ctx
          
-  - ref: refs/tags/xfs-5.12-merge-6
-    old: 0000000000000000000000000000000000000000
-    new: 78341edbdb55ee7a956d3d95140801eb2a9e8d19
