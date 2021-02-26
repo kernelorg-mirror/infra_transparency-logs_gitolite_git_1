@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 26 Feb 2021 20:34:18 -0000
-Message-Id: <161437165850.8907.4178136166612908366@gitolite.kernel.org>
+Date: Fri, 26 Feb 2021 20:48:42 -0000
+Message-Id: <161437252297.18129.15368282372756034627@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,12 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
   - ref: refs/heads/master
-    old: a83586a7ddba25065ec37323c05deb9019ce4fa9
-    new: 1e0ab70778bd86a90de438cc5e1535c115a7c396
+    old: 1e0ab70778bd86a90de438cc5e1535c115a7c396
+    new: 1e83cbefc40269fb0d61843d253dbf3cb56d0039
     log: |
-         887596095ec2a9ea39ffcf98f27bf2e77c5eb512 bpf: Clean up sockmap related Kconfigs
-         5a685cd94b21a88efa6be77169eddef525368034 skmsg: Get rid of struct sk_psock_parser
-         16137b09a66f2b75090f1e56a9ba0e27ef845ebc bpf: Compute data_end dynamically with JIT code
-         e3526bb92a2084cdaec6cb2855bcec98b280426c skmsg: Move sk_redir from TCP_SKB_CB to skb
-         ae8b8332fbb512f53bf50ff6a7586dd0f90ed18a sock_map: Rename skb_parser and skb_verdict
-         4675e234b9e15159894b90ead9340e1dc202b670 sock_map: Make sock_map_prog_update() static
-         cd81cefb1abc52bd164f4d9760cd22eadc0e4468 skmsg: Make __sk_psock_purge_ingress_msg() static
-         533342322276b06b4db260c413ce907238851e9b skmsg: Get rid of sk_psock_bpf_run()
-         ff9614b81be65d648ec4615b593c6e4b2dac6375 skmsg: Remove unused sk_psock_stop() declaration
-         1e0ab70778bd86a90de438cc5e1535c115a7c396 Merge branch 'sock_map: clean up and refactor code for BPF_SK_SKB_VERDICT'
+         d60ada8c6de8dd41186cbe73e10b354ad21d2581 bpf: Consolidate shared test timing code
+         83cee11b58c8c2c5a767a125f5d1c4aa9dc53a30 bpf: Add PROG_TEST_RUN support for sk_lookup programs
+         3817c8194ed612240cf85a78a4f9201842f54668 selftests: bpf: Convert sk_lookup ctx access tests to PROG_TEST_RUN
+         f6cf1bcaf94e619b2e0ca189aa3f88e11014095f selftests: bpf: Check that PROG_TEST_RUN repeats as requested
+         1e83cbefc40269fb0d61843d253dbf3cb56d0039 Merge branch 'PROG_TEST_RUN support for sk_lookup programs'
          
