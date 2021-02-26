@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers
-Date: Fri, 26 Feb 2021 11:51:43 -0000
-Message-Id: <161434030314.14379.6553914033352199650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 26 Feb 2021 11:55:48 -0000
+Message-Id: <161434054859.16986.17258901401083436686@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers
-user: kvalo
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: fb5fabb192b22293b70bc3351696473c50746d90
-    new: d0bd52c591a1070c54dc428e926660eb4f981099
-    log: |
-         d0bd52c591a1070c54dc428e926660eb4f981099 mt76: dma: do not report truncated frames to mac80211
-         
+  - ref: refs/heads/kernelci-base
+    old: 0000000000000000000000000000000000000000
+    new: ce67bc78f207b26702d6eb4b0697685a38981f8b
