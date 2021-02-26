@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0250377216710307032=="
+Content-Type: multipart/mixed; boundary="===============5581251668710906849=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 26 Feb 2021 07:13:45 -0000
-Message-Id: <161432362576.22184.13757231828503824540@gitolite.kernel.org>
+Date: Fri, 26 Feb 2021 07:15:03 -0000
+Message-Id: <161432370361.23419.2047941864585819393@gitolite.kernel.org>
 
---===============0250377216710307032==
+--===============5581251668710906849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 09f800c562683848511c8a7750d73d50cfd506ef
-    new: 4866d49608322127f73c50802b398ee5433ef776
-    log: revlist-09f800c56268-4866d4960832.txt
+  - ref: refs/heads/main
+    old: 29c395c77a9a514c5857c45ceae2665e9bd99ac7
+    new: 2c87f7a38f930ef6f6a7bdd04aeb82ce3971b54b
+    log: revlist-29c395c77a9a-2c87f7a38f93.txt
 
---===============0250377216710307032==
+--===============5581251668710906849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614323616 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614323695 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1614323616-1c04867b901ed82fc1fcb5c2e7eaa83073c0f6c6
+nonce 1614323694-874501528926ed591bfdaba85f9471077367a02c
 
-09f800c562683848511c8a7750d73d50cfd506ef 4866d49608322127f73c50802b398ee5433ef776 refs/heads/staging-testing
+29c395c77a9a514c5857c45ceae2665e9bd99ac7 2c87f7a38f930ef6f6a7bdd04aeb82ce3971b54b refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA4n6AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6i8P/R5fpaJUUaOkD1RoGpN2
-OKj7gRdlw7Fy8pM1BabIJEjiqYWPFZMNE0xWF6g6Ic4O+BtrfI55jGCwLOUEClyf
-J/Nc2E1ZtRUZkzNkbXchleOGePnwC2sclhvsgb5xk7x4KMCOdJFW36EQbpKcq0jl
-CAsaib8QLn7PgOvngyouw4x9sGe/mDkLZ7GL03tCKfo4cNYEfQhd+13RX2WKKBuO
-X2udOQnQar4cTaL7IRDtjhiB15vjHaBEqWmxrVIp+lAonfuXYSQRtnBDWttQSLG2
-3xJXXMW1YAi31IcG/Ro9kpKpaavKKHFn0ak7MAiLUfh6BU6riW9joeIpJ/HmSQB0
-vHPtKDQCeNaLQwzBHpHjBTpTAXfdJH9TCmgNtVuxgv5ME7CkCKvO3yjbtHJGciqf
-WPIbQ5iTGE7jupDV/2yCIq56BtUp1HX/FCzqragQZ7aO2OIVfzvlio86xObjrl8a
-14Ho4mo6AK+L/OqUvBO9snvBJolceFQ3XVPFqD5NKlYRRExNtJeGJdkdsT1wLM9Y
-6nnC1iAwg3oGPLPS+oU0MW/rvHGacaGFx3df6rEwMl0m0pFu1iB6JkvDLf/7Iqzj
-pcuSbk+0lDZfJGZZStKhi+ok6dvAZJhyKggCwJZHJIRUTKTBywuJjwCZwvFXRVeu
-R7YUR1JYiyf70RFMJa+9D7MA
-=uKwF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA4n+8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fKYQAICXN8rbhhkttynX6KjF
+IVmFf3YPaNVBzql3cbGQujckUnkIQMtqPJme4iUF2pLlGPjyBeGqb7gsIZ9Sqv0N
+WQi5IcOxju9wkcVeknae6orAnhRJXRrFjrM+fyqHDhG4bnYS3M4oYvUYzNiLuRSE
+XtGGC5uXZLXo8PRebyRaC5lrWnnb1pwqkYuueWiX1HDn9aMBDeL1h9s8giVrSXCC
+Chy1Zr/LdV9MvI1wo79rPGhZwM0hol/otYk3mHlsZO6yoR2C7PikiNZ0mJt76Rqe
+6NBmNtz/x8q71Axy2FBjyQmhvx4lP4RX8uHdTG4M/8It9SyH8RcVt2N395LFUwaJ
+Ud77lM/reFmbyI+jWUVUquG5OVCM9V/htYcb1iD0rfeMLr19KnkSGv/prVf4C08n
+UhPu7etIcj+nVFlIJDLPs/CR2y8xPSSrM8gXdH9eU/ajVvhyI5y17sMv+gU9cq2C
+iDRdrK0fWxZZm8fdHi2XuoSYCq8Gidc5SeZYJNrb8fSY+MD8ibQBMArQfGtCqvRy
+MZz7vGwArPr5l6QNWxI6XfJ8kutvUXfDPdhxIIcCaNKfYdESmmFcjkq5FljUFXY1
+j6gIkLypHu4q3UJc6tr92UcqPJxdc7ixsS/Uq0GXN/pvPj2+wANJ1WuPZJANfszr
+/Jvmjq0kZwlci9aHRWaSPx+S
+=Nkv4
 -----END PGP SIGNATURE-----
 
---===============0250377216710307032==
+--===============5581251668710906849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09f800c56268-4866d4960832.txt
+Content-Disposition: attachment; filename=revlist-29c395c77a9a-2c87f7a38f93.txt
 
 729e3a669d1b62e9876a671ac03ccba399a23b68 PCI: Decline to resize resources if boot config must be preserved
 c4e0fec2f7ee013dbf86445394ff47f719408f99 PCI: rcar: Always allocate MSI addresses in 32bit space
@@ -391,86 +391,5 @@ fdce29602f865b016012eadeaec99800da916d3d Merge tag 'drm-next-2021-02-26' of git:
 a6525b999970466b548d41e73d3b814233fa42ca Merge tag 'mips_5.12_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 ffc1759676bed0bff046427dd7d00cb68660190d Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 2c87f7a38f930ef6f6a7bdd04aeb82ce3971b54b Merge tag 'pwm/for-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-7567909c48d25ddf49c9e2adebf6bc2c5a80db6f staging: rtl8723bs: remove DBG_COUNTER calls from os_dep/recv_linux.c
-b9e4e89a7a485fe1f64e88809d0ede619b5f825f staging: rtl8723bs: remove DBG_COUNTER calls from os_dep/xmit_linux.c
-fd78f8f407e25c8446d80877c2241a4b34c848fe staging: rtl8723bs: remove DBG_COUNTER calls from core/rtw_xmit.c
-80e161b417d4e26a12c8fd4d4ca64736701aa05d staging: rtl8723bs: remove DBG_COUNTER calls from core/rtw_recv.c
-ace13fa65d2f16acbbfc81ecacaa1ce9924735de staging: rtl8723bs: remove DBG_COUNTER definition from rtw_debug.h
-b36204ee2021476b8cab248ad30b9c6e379978ef staging: rtl8723bs: remove rx_logs/tx_logs/int_logs from drv_types.h
-a0a25d355f3d0e94454ca066007ba1d2b631edd2 Staging: mt7621-pci: fixed a blank line coding style issue
-1d6eb09a99a0829b259f3f0f58b696339b2b0dae staging: wlan-ng: Fixed incorrect type warning in p80211netdev.c
-61c1e2701b2f53b4ca9e07275bf2f5c88c155bf3 staging: wlan-ng: Remove unused function pointer typedef freebuf_method_t
-ef90b966dc6c6320c9c56b579843b39513e44095 staging: wfx: logical continuations should be on the previous line
-e55a171186ea4159d91f0fbbc23e0c4fe88d911f staging: wfx: Fix alignment style issue in sta.c
-02bd074fd60d524bf70919fa2bd76a9ea05956e5 staging: rtl8192e: fix typo in a comment
-9bfe60129de18200a29cb9d3a8a7025f637af766 staging: rtl8192e: fix typo in a function name
-f84bdb498e11bfb7866bb3e630b0066e4b9a4c82 staging: rtl8192e: Fix comparisons to NULL
-27f26c2634e84b5c199bb7f3d5d96357aa202dc8 staging: rtl8192e: rename ShortData to short_data in sequence_control union
-3d23f15e05e815f27b4b9e446605fa83fb02c48f staging: rtl8192e: rename FragNum to frag_num in sequence_control union
-7ea549da1c01457caaa8ac764ff8493336c33e9b staging: rtl8192e: rename SeqNum to seq_num in sequence_control union
-b8f4f8eb968d73fbe2362e76277a43cf917b1c63 staging: rtl8723bs: Remove unused function pointer typedef wi_act_func
-a720615a7ddeb79bc34c55e627647e31c716159b staging: qlge: fix comment style in qlge_main.c
-4818a9109ea2c5dae07fc1475573464bfd8bd081 staging: emxx_udc: remove unused variable driver_desc
-0075c004753c2c35326e1d7aa3670a1c0ec7bed3 staging: rtl8188eu: Format comments
-c24396740b21879b852d5054a12046ed07e643f1 staging: vt6656: Fix alignment of function args
-b314d157790f947888af8468967ba95896c2dc51 staging: wimax/i2400m: don't change the endianness of one byte variable
-5eb52fd91938ca13f624e7880a294b972812f13b staging: rtl8192e: rename charData to char_data in ba_param_set union
-da651c71e6ac38940b464a7d451a77bd04d6a024 staging: rtl8192e: rename shortData to short_data in ba_param_set union
-b2a26ea8af945c9b6f2a6800168b82a724e958c4 staging: rtl8192e: rename BAPolicy to ba_policy in ba_param_set union
-fd9137a50065d85cdf527cf2f37d88bb4007b6ab staging: rtl8192e: rename BufferSize to buffer_size in ba_param_set union
-fd680145ea317dbf1755e24f780c72fc3557f0e2 staging: rtl8192e: rename AMSDU_Support to amsdu_support in ba_param_set union
-e0884e6e1f96a733e0da716a8d0f390d8c18a1c8 staging: rtl8192e: rename TID to tid in ba_param_set union
-b74458f74256446bec29231effb9d52403160328 staging: hikey9xx: fix warning styling issues
-5920bf6b86a37d67e13db71049d2ed9ab0db742d staging: sm750fb: added identifier names for function declarations
-5137f234f9a0c2153e61a780c272f3aae30ccbb3 staging: greybus: Fix blank line style issue in sdio.c
-3c376987e71678301fc817586a7bbf138a865c8e staging: rtl8192u: fix RT_TRACE() in r8190_rtl8256.c
-46f092a24ad7cbd2fbca09c9fb987987c0b8c6ed staging: rtl8192u: remove unnecessary return in r8190_rtl8256.c
-fd43bfb73863b3e99acdf65b0375ba3195a53647 staging: fwserial: match alignment with open parenthesis
-dd431082b0d62e6a97ea83c33debda67fde00963 staging: octeon: cleanup unnecessary parentheses in ethernet-spmi.c
-56cfc02c1869e187f068e7d4a91ec28f2353406a staging: gasket Fix comparison with Null
-f57e1d251302bdc5b53d4d492317cc28a96ce94a staging: gasket: removed unnecessary debug message to fix coding style warning
-30ac5415eae731741716d358989e883910941531 staging: rtl8723bs: fix code style comparison warning
-be5392808696884a94db753832b066c68581ff9c staging: rtl8192e: rename charData to char_data in delba_param_set union
-ab3ec360613747228b7a5edc7f778e3511b70ca9 staging: rtl8192e: rename shortData to short_data in delba_param_set union
-a2470d3fc98f21645519ffa282519cd6fdb18ae4 staging: rtl8192e: rename Reserved to reserved in delba_param_set union
-3af74b6f0891f87142a6a034d4049d04b09b9256 staging: rtl8192e: rename Initiator to initiator in delba_param_set union
-4fbd7a2ede20e620b80d31929069ddc7fdb0ec59 staging: rtl8192e: rename TID to tid in delba_param_set union
-49a75e31b8cd5d92007c80c36afca5132b171f2b staging: rtl8192e: rename Timer to timer in ba_record struct
-61e99ee3a4a7ed5b42ef7a6c7bac5039e06af97a staging: rtl8192e: rename bValid to b_valid in ba_record struct
-88b5899893f1b9d42c91c59c34db06eeba0c806a staging: rtl8192e: rename DialogToken to dialog_token in ba_record struct
-3c5fc71d7cd5379e9928be53b9a8ceb938a106eb staging: rtl8192e: rename BaParamSet to ba_param_set in ba_record struct
-621475794ace5afa2e6d7215a61ff9b9d480efc3 staging: rtl8192e: rename BaTimeoutValue to ba_timeout_value in ba_record struct
-0ee9ad2cfca311ae9db9f43ef7069a1778c5a730 staging: rtl8192e: rename BaStartSeqCtrl to ba_start_seq_ctrl in ba_record struct
-e53ee405813477a11c99e18010ee0696ceb045f0 staging: rtl8192e: reformat ba_record struct
-ba96bcba28f1573adc400769ae971b6e307bcef3 staging: rtl8192e: fix alignment issues in rtllib_wx.c
-cd0962669cde3466fe809efbec44d7d8f9555e93 staging: kpc2000: code style: match alignment with open parenthesis
-8ac939d2edb8ea7c00db00d56701984cccf6b0c6 staging: kpc2000: code style: fix line length issue
-dec9526c50476556d0bcfc8e4ff42d2bac3e8038 staging: wimax: i2400m: add space before open parenthesis
-9cd8388f2496bb24e40a9b6d0f4d6fd39eb2608c staging: comedi dt2814: Removed unused variables
-09179f6417555c8e751046ad67c84ab3bb0863e6 staging: android: Remove filename reference from file
-afdc3fb82c0137a4d80e28a370f6d50dcaca9d43 staging: wimax: Fix block comment style issue in stack.c
-00a63528270dc249e769866f0886b90c328bf621 staging: rt8192u: Move constant in comparison to the RHS
-6d5c85961e00efa450f4f3b8e7c89830f4eb36f9 staging: vc04_services: fix indent in vchiq_debugfs_node
-3c943ab6e8a65cf02d279a6e1c1d817d53ea4e5c staging: wimax: fix code style issues
-dd89559be241ec366e17f0c22669a327747fa425 staging: rtl8192e: remove blank line in bss_ht struct
-a577ff5614c6a7e7afde12b76d80b49f5211047c staging: rtl8192e: rename bdSupportHT to bd_support_ht in bss_ht struct
-075779beb1205f1c9a852cb21c5e25887d4fce37 staging: rtl8192e: rename bdHTCapBuf to bd_ht_cap_buf in bss_ht struct
-2074fc11c2a3da82c04fee1a593ee01354f47758 staging: rtl8192e: rename bdHTCapLen to bd_ht_cap_len in bss_ht struct
-84cbc7f984b907b2e6e1d98dfe01279063cedd2f staging: rtl8192e: rename bdHTInfoBuf to bd_ht_info_buf in bss_ht struct
-231181f7700e4f89d535cab3f475bde670ebc23f staging: rtl8192e: rename bdHTInfoLen to bd_ht_info_len in bss_ht struct
-11c083715dfeae77b6d0829c97fc938da1093706 staging: rtl8192e: rename bdHTSpecVer to bd_ht_spec_ver in bss_ht struct
-a67e545ab28a947cc60a107eeada81dd7106a8c6 staging: rtl8192e: rename bdBandWidth to bd_bandwidth in bss_ht struct
-cfb216ffd5039ad6757f0f53dd295bce0bdd49fd staging: rtl8192e: rename bdRT2RTAggregation to bd_rt2rt_aggregation in bss_ht struct
-cbe1725b32c35c07a175db88f5f0498cc4b1a270 staging: rtl8192e: rename bdRT2RTLongSlotTime to bd_rt2rt_long_slot_time in bss_ht struct
-601c3a5cd7ff5b84d2d479c15314362ebaa8089e staging: rtl8192e: rename RT2RT_HT_Mode to rt2rt_ht_mode in bss_ht struct
-437fa8c9c27dfc29458212e60fd44064508ffcaa staging: rtl8192e: rename bdHT1R to bd_ht_1r in bss_ht struct
-e1cf47ea5f14a7ffe0217f8a5a22e44bebd814b7 staging: rtl8192e: reformat bss_ht struct
-e7810297d275d4a7555d0c362ed50b167bd168c4 staging: clocking-wizard: Fix kernel-doc warning
-adc0a01229b29a1a1a063f15eb757662d6ee0ac9 staging: clocking-wizard: Rename speed-grade to xlnx,speed-grade
-9ad89a917eac73b40ebe2d58ad57300d9f3c274e staging: clocking-wizard: Update the fixed factor divisors
-6a756bc807f96bd225f0bf99b77a0ac98bfcc093 staging: clocking-wizard: Allow changing of parent rate for single output
-06f7579bb6adeeb5930965945cceab5d7adc00c0 staging: clocking-wizard: Add support for dynamic reconfiguration
-358bb40417933c47986fc64884017d93a620a0a6 staging: clocking-wizard: Add support for fractional support
-4866d49608322127f73c50802b398ee5433ef776 staging: clocking-wizard: Remove the hardcoding of the clock outputs
 
---===============0250377216710307032==--
+--===============5581251668710906849==--
