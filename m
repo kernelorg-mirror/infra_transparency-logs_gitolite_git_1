@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2819477282810161598=="
+Content-Type: multipart/mixed; boundary="===============6814510256517803143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Fri, 26 Feb 2021 13:53:22 -0000
-Message-Id: <161434760265.24550.2117555328322774254@gitolite.kernel.org>
+Date: Fri, 26 Feb 2021 13:53:48 -0000
+Message-Id: <161434762882.24756.8493034005953020821@gitolite.kernel.org>
 
---===============2819477282810161598==
+--===============6814510256517803143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: a56f44138a2c57047f1ea94ea121af31c595132b
+  - ref: refs/heads/fixes
+    old: d7fb9c24209556478e65211d7a1f056f2d43cceb
     new: 2c87f7a38f930ef6f6a7bdd04aeb82ce3971b54b
-    log: revlist-a56f44138a2c-2c87f7a38f93.txt
+    log: revlist-d7fb9c242095-2c87f7a38f93.txt
 
---===============2819477282810161598==
+--===============6814510256517803143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a56f44138a2c-2c87f7a38f93.txt
+Content-Disposition: attachment; filename=revlist-d7fb9c242095-2c87f7a38f93.txt
 
 f5c233c8fe8d24d9e536939f9ff4fa8c359bdd32 Merge branch 'pm-opp' into pm
 332fd9005bd36b9e0277ea51027555cf223bd780 Merge branches 'pm-devfreq' and 'pm-tools'
@@ -1051,4 +1051,4 @@ a6525b999970466b548d41e73d3b814233fa42ca Merge tag 'mips_5.12_1' of git://git.ke
 ffc1759676bed0bff046427dd7d00cb68660190d Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 2c87f7a38f930ef6f6a7bdd04aeb82ce3971b54b Merge tag 'pwm/for-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/thierry.reding/linux-pwm
 
---===============2819477282810161598==--
+--===============6814510256517803143==--
