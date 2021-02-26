@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8679901624571492921=="
+Content-Type: multipart/mixed; boundary="===============0431506052033149839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 26 Feb 2021 23:46:24 -0000
-Message-Id: <161438318432.27932.9591979476156399082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Fri, 26 Feb 2021 23:46:31 -0000
+Message-Id: <161438319121.28064.2314841344384059580@gitolite.kernel.org>
 
---===============8679901624571492921==
+--===============0431506052033149839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: ff18533190ffed400309be99918b429cc0f4f9e5
-    new: ccf0cecbfffb2b756fb8ff90acc4125f02ab9a34
-    log: revlist-ff18533190ff-ccf0cecbfffb.txt
+  - ref: refs/heads/queue-rc
+    old: f3ed26a83d8b3eaa911650d3d97333c9016d4263
+    new: 5de71416ee7c71aa0d73014753b697e353e14238
+    log: revlist-f3ed26a83d8b-5de71416ee7c.txt
 
---===============8679901624571492921==
+--===============0431506052033149839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff18533190ff-ccf0cecbfffb.txt
+Content-Disposition: attachment; filename=revlist-f3ed26a83d8b-5de71416ee7c.txt
 
-fd020332c1563624687a7ad8df119f40151f5f19 netfilter: nftables: add helper function to release one table
-00dfe9bebdf09c37827fb71db89c66a396f1a38c netfilter: nftables: add helper function to release hooks of one single table
 6001a930ce0378b62210d4f83583fc88a903d89d netfilter: nftables: introduce table ownership
 2347961b11d4079deace3c81dceed460c08a8fc1 binfmt_misc: pass binfmt_misc flags to the interpreter
 a9a939cb34dfffb9f43b988a681d2566ca157b74 Merge branches 'powercap' and 'pm-misc'
@@ -1050,5 +1048,7 @@ dbcd1b4bc61378e169253f50bce26c4a75aeb838 net/mlx5e: Don't match on Geneve option
 90bb2b34bf689508565dd58a1c9b58f5ca8a9a33 Merge branch 'patchq/375314' into mlx5-for-net
 4017b2830a1a90e23fd4db163d635cce80731697 Merge branch 'mlx4-for-net' into net-rc
 ccf0cecbfffb2b756fb8ff90acc4125f02ab9a34 Merge branch 'mlx5-for-net' into net-rc
+3c0da960482ca731811d851d2cfbf7806c4d1b28 Merge branch 'net-rc' into queue-rc
+5de71416ee7c71aa0d73014753b697e353e14238 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============8679901624571492921==--
+--===============0431506052033149839==--
