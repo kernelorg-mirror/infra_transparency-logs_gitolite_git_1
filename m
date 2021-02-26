@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6618206413838744233=="
+Content-Type: multipart/mixed; boundary="===============4398510495655446304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Fri, 26 Feb 2021 06:02:47 -0000
-Message-Id: <161431936713.11940.16817758380198290704@gitolite.kernel.org>
+Date: Fri, 26 Feb 2021 06:03:34 -0000
+Message-Id: <161431941486.12233.17421266592819526574@gitolite.kernel.org>
 
---===============6618206413838744233==
+--===============4398510495655446304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-fixes
-    old: 6ee1d745b7c9fd573fba142a2efdad76a9f1cb04
-    new: a73601bc125486cc9f244a5e8050e863c6b6a8e9
-    log: revlist-6ee1d745b7c9-a73601bc1254.txt
+  - ref: refs/heads/extcon-next
+    old: bb512233bffe4082fb147f89bdb2893f59d8395b
+    new: 72f77a5cf9ffbde45cc33cd1aaf82ea2ce78b71a
+    log: revlist-bb512233bffe-72f77a5cf9ff.txt
 
---===============6618206413838744233==
+--===============4398510495655446304==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6ee1d745b7c9-a73601bc1254.txt
+Content-Disposition: attachment; filename=revlist-bb512233bffe-72f77a5cf9ff.txt
 
 07af7810e0a5bc4e51682c90f9fa19fc4cb93f18 DTS: ARM: gta04: remove legacy spi-cs-high to make display work again
 6efac0173cd15460b48c91e1b0a000379f341f00 ARM: OMAP1: OSK: fix ohci-omap breakage
@@ -859,5 +859,8 @@ f40ddce88593482919761f74910f42f4b84c004b Linux 5.11
 012765d846dfbdb3ca2843a78c7163838012b225 extcon: max8997: Add CHGINS and CHGRM interrupt handling
 e0d298647d28268d35a642bda76c397ba508c826 extcon: sm5502: Detect OTG when USB_ID is connected to ground
 a73601bc125486cc9f244a5e8050e863c6b6a8e9 extcon: Fix error handling in extcon_dev_register
+9a78960a1143968aebb9aa721e6d64d9a06a15cd bindings: pm8941-misc: Convert bindings to YAML
+6cbda9512179afc2bd27e3801b26e7741035f378 bindings: pm8941-misc: Add support for VBUS detection
+72f77a5cf9ffbde45cc33cd1aaf82ea2ce78b71a extcon: qcom-spmi: Add support for VBUS detection
 
---===============6618206413838744233==--
+--===============4398510495655446304==--
