@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/konrad/swiotlb
-Date: Fri, 26 Feb 2021 15:53:02 -0000
-Message-Id: <161435478283.3106.5797549180691023934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
+Date: Fri, 26 Feb 2021 16:02:17 -0000
+Message-Id: <161435533735.8412.5437609664630601381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/konrad/swiotlb
-user: konrad
+repo: pub/scm/linux/kernel/git/pali/linux
+user: pali
 changes:
-  - ref: refs/heads/stable/for-linus-5.12
-    old: 3cbacbdfffa8778642da4fb5ed5439c5f9763efd
-    new: daf9514fd5eb098d7d6f3a1247cb8cc48fc94155
+  - ref: refs/heads/pci-aardvark
+    old: 24bb3335245bcb9218c5cb0daef9671248146670
+    new: 194d329049aa58b09f1b077e7adcd035efb2fd81
     log: |
-         1f221a0d0dbf0e48ef3a9c62871281d6a7819f05 swiotlb: respect min_align_mask
-         3d2d861eb03e8ee96dc430a54361c900cbe28afd nvme-pci: set min_align_mask
-         daf9514fd5eb098d7d6f3a1247cb8cc48fc94155 swiotlb: Validate bounce size in the sync/unmap path
+         8f2f91130b098141366363ab9e25b2496820ca6a PCI: aardvark: Remove PCIE_CORE_CTRL0_REG macros not applicable for Root Complex
+         350b7ceb212b411b2239d9eb653403b7935d5588 PCI: aardvark: Show warning when Hot Reset or Link Down event occurs
+         b69d1219075950d5d8d0e350ae7900c8d7005b31 PCI: aardvark: Use Link Down event and PCI_EXP_LNKCTL_RL for checking if card is accessible
+         194d329049aa58b09f1b077e7adcd035efb2fd81 PCI: aardvark: Move enabling of link training to advk_pcie_train_link()
          
