@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6904620638832997408=="
+Content-Type: multipart/mixed; boundary="===============8265488156087431977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 26 Feb 2021 11:16:22 -0000
-Message-Id: <161433818266.6782.5931862289158443277@gitolite.kernel.org>
+Date: Fri, 26 Feb 2021 11:16:40 -0000
+Message-Id: <161433820006.6946.11471633214682633985@gitolite.kernel.org>
 
---===============6904620638832997408==
+--===============8265488156087431977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-rolling-lts
-    old: 6bf8fde62a2c997caa4ad9d07ea39ca7f55ba47d
-    new: 3ac8f76124def83444fd093372c3144aa9a90c18
-    log: revlist-6bf8fde62a2c-3ac8f76124de.txt
+  - ref: refs/heads/linux-rolling-stable
+    old: e0eb2d8775af43505f39756cc4bdac31ce012621
+    new: 9d8eb2aa0ec61bd97ea5ba910c2499e79813b8b3
+    log: revlist-e0eb2d8775af-9d8eb2aa0ec6.txt
 
---===============6904620638832997408==
+--===============8265488156087431977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614338177 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614338198 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1614338172-f66b20ef1b3a6ad7b48122747bbe4d081e9d970e
+nonce 1614338195-c96e27cf27970f4994f8c69cb03ca638c8dfe8d4
 
-6bf8fde62a2c997caa4ad9d07ea39ca7f55ba47d 3ac8f76124def83444fd093372c3144aa9a90c18 refs/heads/linux-rolling-lts
+e0eb2d8775af43505f39756cc4bdac31ce012621 9d8eb2aa0ec61bd97ea5ba910c2499e79813b8b3 refs/heads/linux-rolling-stable
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA42IEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7WoQAIMShkf/ZRbY/4pZdJOc
-iCQakUMrtbR76VdPjmOEgmNtOgreWsQYfMc+RmlEOpSqfz+X9DoCVCjakoMg/asz
-m2V4sOWkceXXhVRcbvA+Y0/iNccRB8cCgMCO5DiYU1GyOGmqG7hxYuXfjjwCtBg7
-ahosJg38rYhB/klC9yUSf0SjIPGPScm5eeOO3S3VPfmZ5GpizqvqcRBmCFB3WI3/
-+Mf3wAXqrz/2B3LfR0bNnM6ed4L/OZAdX2jlzxIEvp8otqEtogyVePrumSq/Owj3
-BqmaMfY0Y/iHfDamE6AK0KVlmaazjybltii833Ri33pOugKTzPk8iP0SY1kSDOgi
-qMpykXlUGtFfRwU0fNVPA4iTh/TcU0emi7uH+s3EzYK92S0QSjE/FglglGyKHOft
-hSc6Z+oT74vFrWcpUkQpHF2B5wTBA5QKqMEJrDlhAZBuHRUJ/2BLatCn4LHp3UbD
-QjHFciMPZ1QwsXAYZGYwEpGTKjs7Qa8DXi2QrV8ED6tlx6mLNZL1HcgmgO0y2D5G
-FHfJeR6yO+1M1LYVlhXpTOb4hwrhsUTykXU2t7pw7d5XH4CDS3m5w+3UIRszou9i
-DhlkdY07dkW081SKT8rVbWjNrZ1ozaxcQj0Pd8aRE9SMwLNp2A3M0lerGj+Zcz54
-avvfgrjjpT3o4oypdiIPdJfC
-=1/ME
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA42JYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LdMQAK7H0Z4tMzJ6gNZwBqIm
+Hl2osV7Td3Hjj1SL7k/DTcxH5DHyHzLxoocCARf3XiU+lwqeKXhFtMFGNiB3DRry
+w1u7gbxC3NeUmPUGfLjYBeH7jDaWDrCcTs/b8XFPL9dJNbR1qZIC6v91S24yFWWp
+rB+lGiPscKRS6whoHuLtaoImMw7IEpaxtg09+G4i4Lo5hUfTUg3NMDEOGLHwSU6e
+Ql0MXo7QfoDkPQIb7qviBuBsrEIdad/6oZMknVgevNDJSPdqePBi6P34qr+ouD03
+Sl85kGaZXOERb03+4w790keY/pDJs8/MLVxwRc1glq1jeM3qEOlHfV24+1erdmgI
+jukhtc+HL//ROJAFJoNSsguaX7XZsgSwT157POQNwbjtcWvyMtC9HsdDOx6iQCVS
+2bJA1MGtcGXjPppcyTRmLSAmFlboE8mQn7Xebl/IQE4fgz/5o5zaBAQChpAnBNl9
+01Ts2lQ34uNvpWCDkGJtkjPVMrwrgzD58mJ0zTLz5GxoSeynl/pJqFlBC2qQAnwQ
+jWbHkJGEsvnWWJ5BiMyaaow5j5EkEl6wDbPQIxbxZcufpiPEqjpgYia4xFDu3b9F
+tBDifdz3Qty8TqvSwX/kFdR85a66mHu+hk0A/YZQZTx3RAfzsEYNafEVQxiu/OO9
+mTGlrv0e8A55+ZoAE+cYOIyb
+=kTxz
 -----END PGP SIGNATURE-----
 
---===============6904620638832997408==
+--===============8265488156087431977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6bf8fde62a2c-3ac8f76124de.txt
+Content-Disposition: attachment; filename=revlist-e0eb2d8775af-9d8eb2aa0ec6.txt
 
 3320bae8c115863b6f17993c2b7970f7f419da57 bpf: Fix truncation handling for mod32 dst reg wrt zero
 77344e18cf84b37548292f2adfdb22f89079e0a6 HID: make arrays usage and value to be the same
@@ -81,6 +81,6 @@ b8b65310e4b995324356c5ed5860a774965fdbae cifs: Set CIFS_MOUNT_USE_PREFIX_PATH fl
 6ca89ac39e48b1e83e97709ba8b4a851132815c1 kbuild: fix CONFIG_TRIM_UNUSED_KSYMS build for ppc64
 983f361bde5e41b497e45098c873d7e39eb132b2 scripts/recordmcount.pl: support big endian for ARCH sh
 7b43ec8a0cc6fefdd63a1443edef0d2693ff99a2 Linux 5.10.19
-3ac8f76124def83444fd093372c3144aa9a90c18 Merge v5.10.19
+9d8eb2aa0ec61bd97ea5ba910c2499e79813b8b3 Merge v5.10.19
 
---===============6904620638832997408==--
+--===============8265488156087431977==--
