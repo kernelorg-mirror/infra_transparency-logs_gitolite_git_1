@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5195069358089785318=="
+Content-Type: multipart/mixed; boundary="===============0509377956003276549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 26 Feb 2021 19:41:14 -0000
-Message-Id: <161436847466.10686.2977208742314840253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Fri, 26 Feb 2021 19:41:22 -0000
+Message-Id: <161436848297.10841.12344706597463648349@gitolite.kernel.org>
 
---===============5195069358089785318==
+--===============0509377956003276549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 4f61f90b1c73fd9ae8cc0034a99fc5c08c9842e4
-    new: 2222b99377abd3661d029a719f5ae40a44f663f1
-    log: revlist-4f61f90b1c73-2222b99377ab.txt
+  - ref: refs/heads/queue-next
+    old: 7f280e1ccf95bd5debf9aea7c1b22b5ba3225176
+    new: 73c6326980ab96d86b0468b39b26931e97907380
+    log: revlist-7f280e1ccf95-73c6326980ab.txt
 
---===============5195069358089785318==
+--===============0509377956003276549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f61f90b1c73-2222b99377ab.txt
+Content-Disposition: attachment; filename=revlist-7f280e1ccf95-73c6326980ab.txt
 
-32451614da2a9cf4296f90d3606ac77814fb519d perf/x86/intel: Support CPUID 10.ECX to disable fixed counters
-d7a4783883d350e33308bf7c9ef0fe4e38f9c8e2 md: check for NULL ->meta_bdev before calling bdev_read_only
 a42e0d70c517c88c52154bf74ec39092d897aaca md: use rdev_read_only in restart_array
 b2d86c7cec35f7f4cc00c41e387bdbc5bde2cf0f Merge branch 'work.namei' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs into for-5.12/io_uring
 3a81fd02045c329f25e5900fa61f613c9b317644 io_uring: enable LOOKUP_CACHED path resolution for filename lookups
@@ -1050,5 +1048,7 @@ e9edbc39704238838e3915886c7d91c41706574c Merge branch 'mlx4-queue' into net-next
 3670c64d7234bd1aedc25df14130a228df2e4740 Merge branch 'mlx5-queue' into net-next
 adbd02c065b6e8272e2deb3a8f8e26e10f4bc507 Merge branch 'mlx4-for-net' into net-next
 2222b99377abd3661d029a719f5ae40a44f663f1 Merge branch 'mlx5-for-net' into net-next
+e83f59a5e51f98a547d281fc46f4cdd7513a01c5 Merge branch 'net-next' into queue-next
+73c6326980ab96d86b0468b39b26931e97907380 Merge branch 'testing/rdma-next' into queue-next
 
---===============5195069358089785318==--
+--===============0509377956003276549==--
