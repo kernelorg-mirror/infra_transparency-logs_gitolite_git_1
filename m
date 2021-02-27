@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Sat, 27 Feb 2021 02:43:01 -0000
-Message-Id: <161439378167.3071.17236644308411895465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Sat, 27 Feb 2021 05:22:55 -0000
+Message-Id: <161440337507.4311.11165526425979288616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/dev-queue
-    old: 19f3e8b7307259211d416e9cc69481ea0b82941d
-    new: 94c839566603f723f6914a6b23014a6110636ec8
+  - ref: refs/heads/fixes
+    old: 0f0c7ebb98b22d0999d19c6dca7ad19319eb4d1a
+    new: f01e631cccab4b299cf005c42a3176595a3f3f9d
     log: |
-         94c839566603f723f6914a6b23014a6110636ec8 igb: unbreak I2C bit-banging on i350
+         f01e631cccab4b299cf005c42a3176595a3f3f9d RISC-V: Make NUMA depend on SMP
          
