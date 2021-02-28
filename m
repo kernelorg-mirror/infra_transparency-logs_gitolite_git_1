@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9046956318257286498=="
+Content-Type: multipart/mixed; boundary="===============0436028360086784046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Sun, 28 Feb 2021 19:18:13 -0000
-Message-Id: <161453989302.16265.13850070501876584598@gitolite.kernel.org>
+Date: Sun, 28 Feb 2021 19:18:50 -0000
+Message-Id: <161453993050.16568.5037286193183617706@gitolite.kernel.org>
 
---===============9046956318257286498==
+--===============0436028360086784046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-next
+  - ref: refs/heads/next
     old: ea2f0a88717ba2634d7e2cc391f9835d943f1612
     new: 2d5a51f8abfb6dec02755d7162d224a0d56b35e0
     log: revlist-ea2f0a88717b-2d5a51f8abfb.txt
 
---===============9046956318257286498==
+--===============0436028360086784046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -822,4 +822,4 @@ fa71fd6547fecd312949bd5f29111cb819d73c3d habanalabs: return current power via IN
 02387f2c68e3d3cbda2541e4ba1d8f61afbd3cc5 habanalabs/gaudi: update extended async event header
 2d5a51f8abfb6dec02755d7162d224a0d56b35e0 habanalabs: replace GFP_ATOMIC with GFP_KERNEL
 
---===============9046956318257286498==--
+--===============0436028360086784046==--
