@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6619160398456980058=="
+Content-Type: multipart/mixed; boundary="===============4520680783219759084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 28 Feb 2021 18:21:53 -0000
-Message-Id: <161453651398.15669.17501430353864249963@gitolite.kernel.org>
+Date: Sun, 28 Feb 2021 18:21:54 -0000
+Message-Id: <161453651402.15683.5003137296138028526@gitolite.kernel.org>
 
---===============6619160398456980058==
+--===============4520680783219759084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: ef1fcccf6e5fe3aabe7c3590964efac6d5220c43
-    new: fb2c1a9e8644e74c6c158407bc9841b7e531b01a
-    log: revlist-ef1fcccf6e5f-fb2c1a9e8644.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 3242aa3a635c0958671ee1e4b0958dcc7c4e5c79
+    new: 575cf23a1a64bad102a483de9597bb4bfb7f40b1
+    log: revlist-3242aa3a635c-575cf23a1a64.txt
 
---===============6619160398456980058==
+--===============4520680783219759084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,43 +32,42 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614536512 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1614536504-86278a3f92bc77185a3fad325d63ef887641e362
 
-ef1fcccf6e5fe3aabe7c3590964efac6d5220c43 fb2c1a9e8644e74c6c158407bc9841b7e531b01a refs/heads/linux-5.4.y
+3242aa3a635c0958671ee1e4b0958dcc7c4e5c79 575cf23a1a64bad102a483de9597bb4bfb7f40b1 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA730AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+25AP/i/jPmoTIg5VKaOQkDRw
-ldcbogsM/89THca4VpZNgGbT9lO9MnZtxeBgQySNJh2eFixUL8RO1pOOUJxgubmy
-UUSdNkepjCkkBYKWxROj+hVAjg58wFWqgrJQyxOYKeUPd7YxWo++xZ0sKoqK0X/X
-fHkvBZtVgLa96wg/lpo71WjBsXxSx0PhrYMDU+xzENdFZZM5r+EqNxD8tPYmeb8v
-S3jIq6f0pM0TZaouOp5pfsARAGz6bw5b8VrCHPT2e5Ep1RkPygixu3dhRunRZgRy
-+hWyHsif+4/7OrM/vnFeLbTFgqx4LBJ9xpxCsm6QSC4Tz/xvL3myoZzxopPtKGXB
-qkWP0m1EiHKcYBCDOcV0imPnUt0blg7LmSns+5JuyE+Yp88HkeCW6znh1EioRZqw
-DLM2gkJpX0mdU41mR5g36BrP8ZFRxahg/oSmZjuGQeEhbwp7yz/9axZXaquB6/DW
-liH9rnrZsxACC6xNYVSInQWhelzv9EOO1L5oHhkV+5xxv4aU36WuoCAm5tRlyAWA
-17sYya8nkhR2PJfRukK/VnRmTE9gAQZlkEZjv3FoU6Cja4NkCaO3tx8nXPV4CnBf
-R+iBsEjPcWZ5TU+2UjRfoVP+GgP03gjmZdHEi5sxHUprrBau2ywK2ZbvLtRyE5Jp
-8YNv97Vl86m4j82mRnrYlMmn
-=ASaV
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TjUQALeuf1ln958mfVFVQBAd
+AGEB9aS24LmsyFpyj6qwahr0y7kC0z/CsBsAYdMJepQOfedXNXT9aPULN4RGcNNQ
+/3M+wl+ilUhjxFtLPieH5v+6sxVQI+9sxCmcmy55i72ZmfnU76+Sp2KB+VQBAqi0
+PS0KBnUwbcpQp3YbpiCidJAoTiniZukoW6FH40yvzlNZUg4fAN3NLnNWFBDpQH4y
+iDq6gXz3B8MVAMjnL8/f6xxsgME+IegdyUv+x5ABuTtMHYQKC1PGN2s7WDkky6wy
+PGFFABFJTPm6M5RlOD9UKbkG/B76NzC11lxsWmnqOJVr5seBuJ1B7mmI6Rg6QHSm
+ZhaX1Bs7EHzJ0pqsfiJF/+DDfCv23LSSCIYfltnDcvHP998oiJyMuEXQLhCEtP5J
+fTvwSYs6DlxxiWfW809nS3HBXhapy/ARCgedpCEnc137Y8k05JIVu/5fS8YZwVgW
+kfonTbZa2WqZWXGNFaKKNnPq20gqatWGSUs4LjfsUmtLOuSxRYXh5LxIzLNrehCs
+28gTaZlxgTHo5WFTBqU/M/daU//pt/Y7RsQEzmBUX0PhtASY3ph3stmODlgZ/grZ
+HZvSH2DiDQxyeOUrHsnAS/8G1ERrIHCwcW1NT7NKM0o3CX12BxsGoCQ8eBnt8O2S
+khy3xqFFnmH9pYNgvmKc+uIa
+=06rn
 -----END PGP SIGNATURE-----
 
---===============6619160398456980058==
+--===============4520680783219759084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef1fcccf6e5f-fb2c1a9e8644.txt
+Content-Disposition: attachment; filename=revlist-3242aa3a635c-575cf23a1a64.txt
 
-8c18917165a7844b254f58fe23e4ec9f9d57227e vmlinux.lds.h: add DWARF v5 sections
-7b08ab22f33a93c28807e77ac77bc0899f93c1fc kvm: x86: replace kvm_spec_ctrl_test_value with runtime test on the host
-af5f4030febc6c19bd1f7a71bfb4aaa164d6b7bc debugfs: be more robust at handling improper input in debugfs_lookup()
-fc4eca2727e31ff80afe27ae1d62596808ed049d debugfs: do not attempt to create a new file before the filesystem is initalized
-8f835dc1c8c03f06ea2e0682ce1a0765e7df178e kdb: Make memory allocations more robust
-71689103c0b53a98301a8a44ce66ca3c42c07a82 PCI: qcom: Use PHY_REFCLK_USE_PAD only for ipq8064
-c79b0f94df8828410d39f4c62a740c04e24adc71 PCI: Decline to resize resources if boot config must be preserved
-1cca132cfa68e8e88ca85fc3c94f870430767aba virt: vbox: Do not use wait_event_interruptible when called from kernel context
-705bf30e70a256747c717517af9505aec13bb4cc bfq: Avoid false bfq queue merging
-650c8d8587fcafe1aaba4faa130d106dd0ee91e2 ALSA: usb-audio: Fix PCM buffer allocation in non-vmalloc mode
-ec0a43b74ed8540b440fe3620084d6be546ba22a MIPS: vmlinux.lds.S: add missing PAGE_ALIGNED_DATA() section
-16a2bb129e7f9a472cf7073baf8373ae848a5818 random: fix the RNDRESEEDCRNG ioctl
-fb2c1a9e8644e74c6c158407bc9841b7e531b01a Linux 5.4.102-rc1
+4c48cd1a1c53179df702a55474aebb52f1de5ef9 HID: make arrays usage and value to be the same
+4603d36ddb5bb8923f9fd36e5de328e75ef70c82 usb: quirks: add quirk to start video capture on ELMO L-12F document camera reliable
+cb40546fab3616f474ef51e6dfaac53e76002949 ntfs: check for valid standard information attribute
+716c961def5b3b4092f1c4913a15a29c3aa88e58 arm64: tegra: Add power-domain for Tegra210 HDA
+4ff9edb0c933dab855e3c0fc025428dbc1a2f728 NET: usb: qmi_wwan: Adding support for Cinterion MV31
+bb78892241be402ee84d34251cbf8e125c40b551 cifs: Set CIFS_MOUNT_USE_PREFIX_PATH flag on setting cifs_sb->prepath.
+3835cf68d9dea8f5aca681b4c3d362e7523bf8c7 scripts/recordmcount.pl: support big endian for ARCH sh
+d3bb1c94c83c7846bb076d390025e9191617b138 vmlinux.lds.h: add DWARF v5 sections
+461b929e2c5fa054ef4742d80f585969ece95dda kdb: Make memory allocations more robust
+4b351b77d7feabd11d126b6196e6a1a11c7d032f MIPS: vmlinux.lds.S: add missing PAGE_ALIGNED_DATA() section
+05a1149be7af310f96e0c6c98f584cf2e943c884 random: fix the RNDRESEEDCRNG ioctl
+575cf23a1a64bad102a483de9597bb4bfb7f40b1 Linux 4.14.223-rc1
 
---===============6619160398456980058==--
+--===============4520680783219759084==--
