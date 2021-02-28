@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4044638554154317083=="
+Content-Type: multipart/mixed; boundary="===============0485969829060148417=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sun, 28 Feb 2021 18:21:54 -0000
-Message-Id: <161453651446.15729.610144595308117085@gitolite.kernel.org>
+Message-Id: <161453651484.15758.1877987459041534107@gitolite.kernel.org>
 
---===============4044638554154317083==
+--===============0485969829060148417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 7b43ec8a0cc6fefdd63a1443edef0d2693ff99a2
-    new: 9b79602baf174af89167d322776b8d2c9c193ae4
-    log: revlist-7b43ec8a0cc6-9b79602baf17.txt
+  - ref: refs/heads/linux-5.11.y
+    old: 27e543cca13fab05689b2d0d61d200a83cfb00b6
+    new: af8b34a455f55d2110df8e6f573356d7c17d3664
+    log: revlist-27e543cca13f-af8b34a455f5.txt
 
---===============4044638554154317083==
+--===============0485969829060148417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,51 +32,53 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614536512 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1614536504-86278a3f92bc77185a3fad325d63ef887641e362
 
-7b43ec8a0cc6fefdd63a1443edef0d2693ff99a2 9b79602baf174af89167d322776b8d2c9c193ae4 refs/heads/linux-5.10.y
+27e543cca13fab05689b2d0d61d200a83cfb00b6 af8b34a455f55d2110df8e6f573356d7c17d3664 refs/heads/linux-5.11.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA730AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++eUQAKSl2jSguAf3m3u3QKnv
-dcnPYHZWLB6a3ydH5DTfUaTQGGgcEzjyoaO1nz9c5INcZsZ/80MrDdI3R3tweZjN
-JwaVoyKVnmBnKbwVEdIb7HVz3zsGY8mV9bbveXmx4ppjWChYak5Ri1WRY6LNrjRX
-CqwdYZ0PcpJ8l3DufpArs0NLReiMrsnXjKgGqx0vrNoOzMT31O6/n7nvBKac+T4e
-j8MdalVryhuOVf1PT65uzb//sqTc/wyzuWSitncrv9fpkZ3AjsitQPRfMiAv//Ys
-Pbl508CEm80HP3ElwFw9HhBxz5khmSVBu907AD7FsJfgSUisCYBl5rsx/fPbrUV4
-PQI+p0QPybB+VZwPNMMMnRKHiFLDhq8byvCBB1iQlrwoO/8OZdcbJyKmjODg+gf7
-PiCfJXlTUrz1B17SnUoRhgNqELYxi7NGL97wkxJXTFee7ddHe2V7JPK92B6QNQ9p
-mt8xF5DrfizpYl7AgQ7YHzdrH75rn26D+gP0dMcQnCgfMOJntHpC1p2H9khiIuoK
-fq6Y+PIv7X4VbhbZppLQBvDpyo2z0UtZOm8n4fbhrrGKUgnwhD6f2iwp1erITlS5
-qoL5fsTNGkmfKpYFdgtUZvtCH6CwvdXT0zdgUL9Hy2latLnXc6I8b8gAB2o0UVI9
-7liFXjP7uXrtQwpHOJkkInYZ
-=p4rQ
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+39wQANds8bxv16fo+iAXYo8q
+j02mVf7iepddouFDLkFA0/lsu2fyboPXXtm2K5vp9DSIdf8jZfEdput+cO+h0JIl
+++bmyZiFQO/pNG6y3NmfD4IrBg0J4SMMKY7MsiwZdxO487lWzirFs0l28r5oRl8U
+gGAtXMp/cH8HvJxOqApkPcfxaueUYKb4SjPkDdrxI014wAIjbvRcUMziFLPmCrGY
+3xFQxJCnvxU0BPCjbKj4ex6V7n3/ua5aCf8C4tZDF5mlMhcyM79K6ky6VlsMSs0W
+gZRfjD58G1cqqVif+TRixutUzUssNyjabKyuUS4cN6FZvdHCwaymbrmJZkd9770+
+QBxgUIW5uU2/RAy7x2hWL/yYCnT7eYbFNLb0y5wO6ot5HQZnrxycV702k8YAeCKY
+g+DXHR9N+EgrWY4liyFuH6fEn7HXq7EquGY8evaCmuWScl2D1ize35Un6v3T4vNi
+WKWxSHcoOPkP+yZmvvqXmtjmp6klxo6ghbWGPlwkHYx4BkjxT0TFmwkTqxk4kCkd
+qBSuRu7gFMg2H4ZJRVCy9zHHsiwFjagKQdtrMqRphj6x9MWiq1DGbjJVCNTw6LNm
+ftsedsS0N5wHfAw4OVdWExuCnYS7kP4acMcOSK0IXC5zAXYp2qMcHtt5LF9pyHmJ
+PbBIsr0Iw+2yVCS6tdzkE7/E
+=nmeU
 -----END PGP SIGNATURE-----
 
---===============4044638554154317083==
+--===============0485969829060148417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b43ec8a0cc6-9b79602baf17.txt
+Content-Disposition: attachment; filename=revlist-27e543cca13f-af8b34a455f5.txt
 
-9e1892d5728062878840e07d09a978f261f3e805 vmlinux.lds.h: add DWARF v5 sections
-134fc4a2c8ae9c94f9ee708d7384be04bfb9076e vdpa/mlx5: fix param validation in mlx5_vdpa_get_config()
-8fc9e13635031ac13d1a7ca309ff1127f1d24293 debugfs: be more robust at handling improper input in debugfs_lookup()
-d9190d470ca122a6298df299895a50a406e30777 debugfs: do not attempt to create a new file before the filesystem is initalized
-651316f53f12cfc7b2319074bf5ddb6eb810bece scsi: libsas: docs: Remove notify_ha_event()
-a17a466bb556150a0d7b47bf8ddf0b7f89aa708f scsi: qla2xxx: Fix mailbox Ch erroneous error
-5696b6bbacaebc90cb15768f775f2d837a8f49b2 kdb: Make memory allocations more robust
-5caabc03677b8f1aaad22d26f8fff01b7453e4fe w1: w1_therm: Fix conversion result for negative temperatures
-6cdf8ec0b61ce8b573425e3ea83eb4714e5f4db3 PCI: qcom: Use PHY_REFCLK_USE_PAD only for ipq8064
-facfc5a6e5acf9e5f5e78121054b8aced7a4d545 PCI: Decline to resize resources if boot config must be preserved
-ed20c295513a8feb53812008c539b5a566079235 virt: vbox: Do not use wait_event_interruptible when called from kernel context
-46ee9ae558a7588c01bbaaf6fc72143aa9391889 bfq: Avoid false bfq queue merging
-035fae75a4c5a8f7c2c0660d28089688fe9d4410 ALSA: usb-audio: Fix PCM buffer allocation in non-vmalloc mode
-5527c462e10ae329574d28958fc567edfec9c487 MIPS: vmlinux.lds.S: add missing PAGE_ALIGNED_DATA() section
-1b6b7f5546dabe1280a24256fd61aeb94ce91031 vmlinux.lds.h: Define SANTIZER_DISCARDS with CONFIG_GCOV_KERNEL=y
-afd05480b09c4ecc895d369dcfee4b992ad04e4d random: fix the RNDRESEEDCRNG ioctl
-e90491fbf0486e1e25688108decdd326f3073db8 ALSA: pcm: Call sync_stop at disconnection
-d0cbab618d075f069c35bf39366e70346937cadb ALSA: pcm: Assure sync with the pending stop operation at suspend
-726723d5906d5ad6ed86e0a67e5f183e2255bef2 ALSA: pcm: Don't call sync_stop if it hasn't been stopped
-ea03545eaba3a55174d49c5d0a48d39cfcb371ed drm/i915/gt: One more flush for Baytrail clear residuals
-9b79602baf174af89167d322776b8d2c9c193ae4 Linux 5.10.20-rc1
+b73b5dd5970bdf05820da88ed1cc3effacf5241f vmlinux.lds.h: add DWARF v5 sections
+d00b2da0b59bd102f7adf81ad132d6cbdb44a604 vdpa/mlx5: fix param validation in mlx5_vdpa_get_config()
+46fe96b97fbdbb3cd38ee00a1dd424d8da773c59 debugfs: be more robust at handling improper input in debugfs_lookup()
+6bea80292eade9d6aad929436cdb0a72f144e3d8 debugfs: do not attempt to create a new file before the filesystem is initalized
+96559922e86e7a81d57f2f06531ce2ccfced5265 driver core: auxiliary bus: Fix calling stage for auxiliary bus init
+df87910aaf3cd8f482d2097f1ebc523c419f6497 scsi: libsas: docs: Remove notify_ha_event()
+2dda105d48ca8dc562b6e4b471de1b587a2b1be4 scsi: qla2xxx: Fix mailbox Ch erroneous error
+f731189d8384b80bc01fcdae31df7231dccf2b11 kdb: Make memory allocations more robust
+54903b426feb12e7f7652870aee7a3dfe3f44187 w1: w1_therm: Fix conversion result for negative temperatures
+fdba493f53e40831f8e8757d2bd5501dd9f23c9c PCI: qcom: Use PHY_REFCLK_USE_PAD only for ipq8064
+fe3b9f967e366f9ad0282333d5e448edd34bb511 PCI: Decline to resize resources if boot config must be preserved
+b7d5938d5a615644e133b3377df34d40d42bcc79 virt: vbox: Do not use wait_event_interruptible when called from kernel context
+78c27217c83ce8d3a5d0f9e39d2856e60cb7af46 bfq: Avoid false bfq queue merging
+4f0cba5bcf6fe2c6bef5778a15385ea2cf574c85 ALSA: usb-audio: Fix PCM buffer allocation in non-vmalloc mode
+d701de2a0e0ebcc4bb489eed3b5a6f7276210e8d zsmalloc: account the number of compacted pages correctly
+a455cabd1ad60b31faa41480b1b1295eecb93764 MIPS: vmlinux.lds.S: add missing PAGE_ALIGNED_DATA() section
+1361a85b0fa10709e9ad7cd3e61b3040d4cd4c3c vmlinux.lds.h: Define SANTIZER_DISCARDS with CONFIG_GCOV_KERNEL=y
+12942fc204f56b067c9c12a4a03d32b8c18e462c random: fix the RNDRESEEDCRNG ioctl
+6b785afc09bb12d3b052d8b7070e468477cbab58 ALSA: pcm: Call sync_stop at disconnection
+9c2815de9afe3d65322caed28b58fdde258ba990 ALSA: pcm: Assure sync with the pending stop operation at suspend
+7b143e1faf05bee7738f1c9e918aabda5bee0767 ALSA: pcm: Don't call sync_stop if it hasn't been stopped
+cde891e399d5e4c13c4937d508c76f1cd5df4f7f drm/i915/gt: One more flush for Baytrail clear residuals
+af8b34a455f55d2110df8e6f573356d7c17d3664 Linux 5.11.3-rc1
 
---===============4044638554154317083==--
+--===============0485969829060148417==--
