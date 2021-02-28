@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1881637108732283891=="
+Content-Type: multipart/mixed; boundary="===============4044638554154317083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sun, 28 Feb 2021 18:21:54 -0000
-Message-Id: <161453651412.15691.5522016657828787314@gitolite.kernel.org>
+Message-Id: <161453651446.15729.610144595308117085@gitolite.kernel.org>
 
---===============1881637108732283891==
+--===============4044638554154317083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,67 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 2d19be4653f5e74ed95560b69f94eb6791d49af3
-    new: 44c7eca98a48cbe850dc8c5f80fa9cfa14808e52
-    log: revlist-2d19be4653f5-44c7eca98a48.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 7b43ec8a0cc6fefdd63a1443edef0d2693ff99a2
+    new: 9b79602baf174af89167d322776b8d2c9c193ae4
+    log: revlist-7b43ec8a0cc6-9b79602baf17.txt
 
---===============1881637108732283891==
+--===============4044638554154317083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614536511 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614536512 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1614536504-86278a3f92bc77185a3fad325d63ef887641e362
 
-2d19be4653f5e74ed95560b69f94eb6791d49af3 44c7eca98a48cbe850dc8c5f80fa9cfa14808e52 refs/heads/linux-4.19.y
+7b43ec8a0cc6fefdd63a1443edef0d2693ff99a2 9b79602baf174af89167d322776b8d2c9c193ae4 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA73z8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i8MP/i5A28PnWPwFbezDXmXo
-HNVxalVtN/PqpfRrhBsN7utHVW08Hzg+fKlIhURsDN0S6jNezJ0FVqfynPrGBQ3d
-JTgjAqRHEdpD1Rk5XCkBXBf+OukIySXHTmCbLkMI7o85PT/wtqTDnSlNKcDZg9RX
-8fVjf8BME4V3eusamTcY8Q/KLPeE2dD1wVL3pI4TpVwMn+eKODTbvz/3q8fRHs3B
-Lklq7tXHGHyGdhKQpnrbjZcXDknFjx0I0wZDAxMAno1iIEFybyFjXSXqEWgvqwoZ
-pPlmF9t/LlDJO9LBaEqpPI0IRB/DyUcD5rZ9jVZcP4JvuQc0hMOg78SqfI9o0Nwx
-wiQDvWoNDzCnwTpF/tYD20GxGZNyqP9/cfce7c34fZZNzy389bU1qbvhfCwcPgMU
-iSjHxi2GCgDG5rUOkfEOl7NbjWGyz8cWhXS+eroLr/IjWm407MweEexxhZoiaELn
-kJtkt/Bpn70JrulGEahkahr4tzvu65naU/Wchwp6hutw3C8rn02YIS2i50wbfW8f
-b5uvROND5UfkVR4SMee1xJWhFwad11WImHu5jFSxaumA9tTyaR1o+As3TCVuBMlw
-/1ZA0b97f5ttF8R90EW51A4hhoUS/xNPpx/dXH9sp9/oc49cjxXb0KS4EgQtK+rT
-vAcD3Ks3lwwhOmhHzX6AYGhy
-=t//+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA730AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++eUQAKSl2jSguAf3m3u3QKnv
+dcnPYHZWLB6a3ydH5DTfUaTQGGgcEzjyoaO1nz9c5INcZsZ/80MrDdI3R3tweZjN
+JwaVoyKVnmBnKbwVEdIb7HVz3zsGY8mV9bbveXmx4ppjWChYak5Ri1WRY6LNrjRX
+CqwdYZ0PcpJ8l3DufpArs0NLReiMrsnXjKgGqx0vrNoOzMT31O6/n7nvBKac+T4e
+j8MdalVryhuOVf1PT65uzb//sqTc/wyzuWSitncrv9fpkZ3AjsitQPRfMiAv//Ys
+Pbl508CEm80HP3ElwFw9HhBxz5khmSVBu907AD7FsJfgSUisCYBl5rsx/fPbrUV4
+PQI+p0QPybB+VZwPNMMMnRKHiFLDhq8byvCBB1iQlrwoO/8OZdcbJyKmjODg+gf7
+PiCfJXlTUrz1B17SnUoRhgNqELYxi7NGL97wkxJXTFee7ddHe2V7JPK92B6QNQ9p
+mt8xF5DrfizpYl7AgQ7YHzdrH75rn26D+gP0dMcQnCgfMOJntHpC1p2H9khiIuoK
+fq6Y+PIv7X4VbhbZppLQBvDpyo2z0UtZOm8n4fbhrrGKUgnwhD6f2iwp1erITlS5
+qoL5fsTNGkmfKpYFdgtUZvtCH6CwvdXT0zdgUL9Hy2latLnXc6I8b8gAB2o0UVI9
+7liFXjP7uXrtQwpHOJkkInYZ
+=p4rQ
 -----END PGP SIGNATURE-----
 
---===============1881637108732283891==
+--===============4044638554154317083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d19be4653f5-44c7eca98a48.txt
+Content-Disposition: attachment; filename=revlist-7b43ec8a0cc6-9b79602baf17.txt
 
-821cecf0ef2be9f5e9e0c82ed88fb572c0943a3b HID: make arrays usage and value to be the same
-2cb047f26c41596fa2acc4a047894849326fe069 USB: quirks: sort quirk entries
-c0304a0c357e7a3d689b89315336887e35d54d25 usb: quirks: add quirk to start video capture on ELMO L-12F document camera reliable
-c9cc92b0a662ca14db88b49e7e7b1fdabd54a304 ntfs: check for valid standard information attribute
-210451b61dca840f51952fffdaca487f906f340c arm64: tegra: Add power-domain for Tegra210 HDA
-572ea7bf8f41a97c849b0d46ad62126b0741b95f scripts: use pkg-config to locate libcrypto
-40c011228a70f67d2e6246171aabd5e8bfe684c5 scripts: set proper OpenSSL include dir also for sign-file
-6d9cc8d55646449b9c5bf3544703ca94a80dfab6 block: add helper for checking if queue is registered
-24d87622ea3ccf934941e2dddb3f1ddc1f53e37b block: split .sysfs_lock into two locks
-38676cdf4370cc5842dcfd5b2474b3f3a6d2dde3 block: fix race between switching elevator and removing queues
-ac02a55e3e3de01b7934e8289d02bba3f667ee0a block: don't release queue's sysfs lock during switching elevator
-677c22bfb12d64f46a7e7386ad4b4f7aa810fed9 NET: usb: qmi_wwan: Adding support for Cinterion MV31
-d15abb22b3694c2aa2802da553b6b3a99b4167a7 cifs: Set CIFS_MOUNT_USE_PREFIX_PATH flag on setting cifs_sb->prepath.
-48016b9dff0b968231d6e0ffc83bb41ff83f0884 scripts/recordmcount.pl: support big endian for ARCH sh
-a697e56938b5eea45c5a3a897f47af7fc2ba718a jump_label/lockdep: Assert we hold the hotplug lock for _cpuslocked() operations
-5abd38774a6f70e90ad3ce68185d6a1cbde6dc12 locking/static_key: Fix false positive warnings on concurrent dec/inc
-f734575c84ea5ff97aaf0ca9821190bb02d33f96 vmlinux.lds.h: add DWARF v5 sections
-7b807ef1060b376f86b5568ddb76c9f3fe3a636e kdb: Make memory allocations more robust
-c22d91a970072808417976928181e818fab201e6 PCI: qcom: Use PHY_REFCLK_USE_PAD only for ipq8064
-a36a002b1d28a949a4740cddee92d2da0f76a067 bfq: Avoid false bfq queue merging
-9e4dee08f3cee61516436e4293ae41a8082db315 ALSA: usb-audio: Fix PCM buffer allocation in non-vmalloc mode
-b8f154520a4057144a9168e8db1ef1c023cfeb38 MIPS: vmlinux.lds.S: add missing PAGE_ALIGNED_DATA() section
-c83d9d0a0070a20583a02bd9998808640093d03b random: fix the RNDRESEEDCRNG ioctl
-44c7eca98a48cbe850dc8c5f80fa9cfa14808e52 Linux 4.19.178-rc1
+9e1892d5728062878840e07d09a978f261f3e805 vmlinux.lds.h: add DWARF v5 sections
+134fc4a2c8ae9c94f9ee708d7384be04bfb9076e vdpa/mlx5: fix param validation in mlx5_vdpa_get_config()
+8fc9e13635031ac13d1a7ca309ff1127f1d24293 debugfs: be more robust at handling improper input in debugfs_lookup()
+d9190d470ca122a6298df299895a50a406e30777 debugfs: do not attempt to create a new file before the filesystem is initalized
+651316f53f12cfc7b2319074bf5ddb6eb810bece scsi: libsas: docs: Remove notify_ha_event()
+a17a466bb556150a0d7b47bf8ddf0b7f89aa708f scsi: qla2xxx: Fix mailbox Ch erroneous error
+5696b6bbacaebc90cb15768f775f2d837a8f49b2 kdb: Make memory allocations more robust
+5caabc03677b8f1aaad22d26f8fff01b7453e4fe w1: w1_therm: Fix conversion result for negative temperatures
+6cdf8ec0b61ce8b573425e3ea83eb4714e5f4db3 PCI: qcom: Use PHY_REFCLK_USE_PAD only for ipq8064
+facfc5a6e5acf9e5f5e78121054b8aced7a4d545 PCI: Decline to resize resources if boot config must be preserved
+ed20c295513a8feb53812008c539b5a566079235 virt: vbox: Do not use wait_event_interruptible when called from kernel context
+46ee9ae558a7588c01bbaaf6fc72143aa9391889 bfq: Avoid false bfq queue merging
+035fae75a4c5a8f7c2c0660d28089688fe9d4410 ALSA: usb-audio: Fix PCM buffer allocation in non-vmalloc mode
+5527c462e10ae329574d28958fc567edfec9c487 MIPS: vmlinux.lds.S: add missing PAGE_ALIGNED_DATA() section
+1b6b7f5546dabe1280a24256fd61aeb94ce91031 vmlinux.lds.h: Define SANTIZER_DISCARDS with CONFIG_GCOV_KERNEL=y
+afd05480b09c4ecc895d369dcfee4b992ad04e4d random: fix the RNDRESEEDCRNG ioctl
+e90491fbf0486e1e25688108decdd326f3073db8 ALSA: pcm: Call sync_stop at disconnection
+d0cbab618d075f069c35bf39366e70346937cadb ALSA: pcm: Assure sync with the pending stop operation at suspend
+726723d5906d5ad6ed86e0a67e5f183e2255bef2 ALSA: pcm: Don't call sync_stop if it hasn't been stopped
+ea03545eaba3a55174d49c5d0a48d39cfcb371ed drm/i915/gt: One more flush for Baytrail clear residuals
+9b79602baf174af89167d322776b8d2c9c193ae4 Linux 5.10.20-rc1
 
---===============1881637108732283891==--
+--===============4044638554154317083==--
