@@ -1,63 +1,85 @@
-Content-Type: multipart/mixed; boundary="===============8417277240329446896=="
+Content-Type: multipart/mixed; boundary="===============4074012512315709640=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 28 Feb 2021 14:03:59 -0000
-Message-Id: <161452103965.23062.17833799947828393996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Sun, 28 Feb 2021 14:05:01 -0000
+Message-Id: <161452110138.23491.2558943812266580130@gitolite.kernel.org>
 
---===============8417277240329446896==
+--===============4074012512315709640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 02ad79ec4186e63885bffa771f24663796544fd0
-    new: b09ba55ab9c100c1dfd159c29a5bfc7bc24ea74e
+  - ref: refs/heads/rdma-next
+    old: 5c4fb67d4fd9d516d72e179257104d09e0017d21
+    new: 5aa7b605908f33f6394d773031b3335eaaf06fe1
+    log: revlist-5c4fb67d4fd9-5aa7b605908f.txt
+  - ref: refs/heads/testing/rdma-next
+    old: 4bf8d60ba4cbffe7951e5927e9e67f706a6b78cf
+    new: 226c5112dfa3d97bd48ba144ec573901f80f97e7
+    log: revlist-4bf8d60ba4cb-226c5112dfa3.txt
+  - ref: refs/heads/testing/rdma-rc
+    old: 0dab147b91e9e79b1f7061913762b52be162e3db
+    new: b806017259eb02415daf44999d4c20fc47ef7747
     log: |
-         341c068e0ff5d45e8707a317225d7dfa440b1fdc 4.4-stable patches
-         1fc774809d38a6f18c716cbead97239022f88827 4.9-stable patches
-         b4a549d771562e464840b1c4777405513df46fcf 4.14-stable patches
-         9c131d5e44488da2bf352cac62a28388c168fef5 4.19-stable patches
-         6e5347de565544b5ee296b0266a130dc37e59dfa 5.4-stable patches
-         280f8fe1010ea67f61843f5765876fc729485cca 5.10-stable patches
-         29b28de0d96ab97e51111fb8bc0df7d79d04fcfc 5.11-stable patches
-         b09ba55ab9c100c1dfd159c29a5bfc7bc24ea74e Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         b806017259eb02415daf44999d4c20fc47ef7747 Merge branch 'master' into testing/rdma-rc
          
 
---===============8417277240329446896==
+--===============4074012512315709640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5c4fb67d4fd9-5aa7b605908f.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614521038 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1614521037-e7d5e5c23976166169cc5d1a141c9c210c7bc644
+f795e68dc20b9f64e285102d470657ee64b4ea3c PCI: Add a sysfs file to change the MSI-X table size of SR-IOV VFs
+6eeb5803e3dc1ac5963d98cc82c749ca33c79a1e net/mlx5: Add dynamic MSI-X capabilities bits
+72d4606f1ae571053152e3e627d6d5bb25c33320 net/mlx5: Dynamically assign MSI-X vectors count
+f893a8ec0eeeadbdb06dab6c03318b05312c92a3 net/mlx5: Implement sriov_get_vf_total_msix/count() callbacks
+04f00efd497cc0123c0fa4098883becfac7c04b2 RDMA/mlx5: Zero out ODP related items in the mlx5_ib_mr
+9e8f21ba5a233dfa493b6bbde979470707d03057 RDMA/mlx5: Use a union inside mlx5_ib_mr
+bea1695162cda800024ace5b2015526f7b8513a2 RDMA/mlx5: Consolidate MR destruction to mlx5_ib_dereg_mr()
+bb65699612ba28095fe2471602df1b0b4cef9cf1 RDMA/mlx5: Rename mlx5_mr_cache_invalidate() to revoke_mr()
+617dd5346db5acd9a1c7be2f635ac55afd087e5e RDMA/core: Introduce peer memory interface
+5c30c6fdc4b9d1d0b988d76f6c91f992bd47f672 RDMA/mlx5: Fix query RoCE port
+95c39c6fbebbcc80a4d8bf18d893b56ecd92e751 RDMA/mlx5: Create ODP EQ only when ODP MR is created
+e3a6ba5d2ecf25d2197d4d797661f770cd6e74ad RDMA/mlx5: Fix timestamp default mode
+fe5442e5d663a9e2586f0d7bf4441f67743efb58 RDMA/mlx5: Don't report pkey_index junk for non-IB devices
+3c23edfd0fe48bb4f7cf174b246483211291a5d0 IB/core: Drop WARN_ON() from ib_umem_find_best_pgsz()
+45f080f137d2926d7e05a749aa6d8c83114addf2 IB/core: Split uverbs_get_const/default to consider target type
+40ab65742c82201e1f676faffb7467298acf9981 RDMA/mlx5: Allow larger pages in DevX umem
+44831c0670eac3d5ff2b5e3a32f607455adcafce debug patch for Issue 2458870
+5aa7b605908f33f6394d773031b3335eaaf06fe1 RDMA/cm: Fix IRQ restore in ib_send_cm_sidr_rep
 
-02ad79ec4186e63885bffa771f24663796544fd0 b09ba55ab9c100c1dfd159c29a5bfc7bc24ea74e refs/heads/master
------BEGIN PGP SIGNATURE-----
+--===============4074012512315709640==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4bf8d60ba4cb-226c5112dfa3.txt
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA7os4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y10QAJqgvytBnFBl8p8JEOzW
-KHlFmjxKxpU9YJhql1ts0+BDy72L3wtT1AUGNPMCjEZ6c2iiGpd0OLtgZrGwwW9x
-6Qi4If5OreaDOZj1IX4cf4vRVCKYBs7J/LoFasiZWFi22PpfECPY9AZ/F7Ix+8s7
-mIdnDGlq1hKm+V2izUdXmUAL4ggmWmNFnW2FzitpDENtoEY0Zg6UC8eyxjslK1gZ
-hPPDh3nWnhGKqhr6R9A3jNXoz2qmyG0F4UOdvNclnHOSvKphkZVpF+Uk9rZ1rIaE
-5kFyETKFVDftIfD5N8LYsnK1rXesn+oKLG7f1CtRo2Sw9+CYTtln6V3H3Qa+aBTX
-8CmE/RZeZsQlWgiGY4iOIx3sJ3YSu8aJPpNhFlTtefBaChKcSAHCzvORdy0CPYWL
-w2m/01fk3CtNYCeZx2NbA5DGh7q+ibKry3kxBaMoVOjNhtHU0Zn+QoSD20+XQcOt
-OD/c+GXZEzn1ZGYTscK6mJMp4g/saV7kd0MeAiubV9hQzsuLBbFuW2cxomvKhyt7
-HdsKo+vWG4mbCDh653BbP0uFwtHTlWzzKf999AlmQVPqbN9g8dKxvV3oTYVrZ67f
-UmQ3hEpUjWUmZYKHxsCRn83i+IcYHNbFWziXheCEjrVPr/3erFezhr1HHj0KPZQk
-x4tst/n3WtpEgxeX03YK9vN3
-=5iB+
------END PGP SIGNATURE-----
+f795e68dc20b9f64e285102d470657ee64b4ea3c PCI: Add a sysfs file to change the MSI-X table size of SR-IOV VFs
+6eeb5803e3dc1ac5963d98cc82c749ca33c79a1e net/mlx5: Add dynamic MSI-X capabilities bits
+72d4606f1ae571053152e3e627d6d5bb25c33320 net/mlx5: Dynamically assign MSI-X vectors count
+f893a8ec0eeeadbdb06dab6c03318b05312c92a3 net/mlx5: Implement sriov_get_vf_total_msix/count() callbacks
+04f00efd497cc0123c0fa4098883becfac7c04b2 RDMA/mlx5: Zero out ODP related items in the mlx5_ib_mr
+9e8f21ba5a233dfa493b6bbde979470707d03057 RDMA/mlx5: Use a union inside mlx5_ib_mr
+bea1695162cda800024ace5b2015526f7b8513a2 RDMA/mlx5: Consolidate MR destruction to mlx5_ib_dereg_mr()
+bb65699612ba28095fe2471602df1b0b4cef9cf1 RDMA/mlx5: Rename mlx5_mr_cache_invalidate() to revoke_mr()
+617dd5346db5acd9a1c7be2f635ac55afd087e5e RDMA/core: Introduce peer memory interface
+5c30c6fdc4b9d1d0b988d76f6c91f992bd47f672 RDMA/mlx5: Fix query RoCE port
+95c39c6fbebbcc80a4d8bf18d893b56ecd92e751 RDMA/mlx5: Create ODP EQ only when ODP MR is created
+e3a6ba5d2ecf25d2197d4d797661f770cd6e74ad RDMA/mlx5: Fix timestamp default mode
+fe5442e5d663a9e2586f0d7bf4441f67743efb58 RDMA/mlx5: Don't report pkey_index junk for non-IB devices
+3c23edfd0fe48bb4f7cf174b246483211291a5d0 IB/core: Drop WARN_ON() from ib_umem_find_best_pgsz()
+45f080f137d2926d7e05a749aa6d8c83114addf2 IB/core: Split uverbs_get_const/default to consider target type
+40ab65742c82201e1f676faffb7467298acf9981 RDMA/mlx5: Allow larger pages in DevX umem
+44831c0670eac3d5ff2b5e3a32f607455adcafce debug patch for Issue 2458870
+5aa7b605908f33f6394d773031b3335eaaf06fe1 RDMA/cm: Fix IRQ restore in ib_send_cm_sidr_rep
+b806017259eb02415daf44999d4c20fc47ef7747 Merge branch 'master' into testing/rdma-rc
+226c5112dfa3d97bd48ba144ec573901f80f97e7 Merge branch 'rdma-next' into testing/rdma-next
 
---===============8417277240329446896==--
+--===============4074012512315709640==--
