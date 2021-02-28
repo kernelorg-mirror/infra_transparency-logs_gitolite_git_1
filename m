@@ -1,58 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============9056517603017422242=="
+Content-Type: multipart/mixed; boundary="===============5948424935041210011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Sun, 28 Feb 2021 17:53:33 -0000
-Message-Id: <161453481380.30434.15768313434772451602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sun, 28 Feb 2021 18:21:45 -0000
+Message-Id: <161453650551.15529.2813899582550773672@gitolite.kernel.org>
 
---===============9056517603017422242==
+--===============5948424935041210011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue-next
-    old: 734820e0e7fa8fce720510eed097bdbd490ee611
-    new: ebfa658d84c4efb81a326cd554a074e03e08b244
-    log: revlist-734820e0e7fa-ebfa658d84c4.txt
-  - ref: refs/heads/queue-rc
-    old: 88f3ecbc119292bf04c4d29c1af5025699f62196
-    new: 4d4ab436b3851def93c6fab80c3183b32d2eb64b
+  - ref: refs/heads/linux-4.4.y
+    old: 312b5d65a03db01974224c76481c0db1786c41ae
+    new: 9c01e920903fe10d7d5ae655eae7dc90026ee21b
     log: |
-         7e1f42fb1d3609158e0aad40c926cdf9a443ba03 Merge branch 'master' into testing/rdma-rc
-         4d4ab436b3851def93c6fab80c3183b32d2eb64b Merge branch 'testing/rdma-rc' into queue-rc
+         ce8d09f0e80400cad4bdae8b449e38b5c3749960 HID: make arrays usage and value to be the same
+         fdffca4068e0a8748c98638032c3967ad142efc5 usb: quirks: add quirk to start video capture on ELMO L-12F document camera reliable
+         e0537b5027e04fa9c236cc97074d325bd0af0697 xen-netback: delete NAPI instance when queue fails to initialize
+         875171afc309307d1a56b6116024b1aa52dc4186 ntfs: check for valid standard information attribute
+         f5014dad990ad8be57dc7a23ce9fd414514ea207 igb: Remove incorrect "unexpected SYS WRAP" log message
+         dfafcf5061759d8aa98ce8c671072b6de3eaa6bd scripts/recordmcount.pl: support big endian for ARCH sh
+         46677787079cb3ae0f6fbc824f1c36f749a4a3e7 kdb: Make memory allocations more robust
+         81a14f8c9b479e301eccaebad23be13cb562265a MIPS: vmlinux.lds.S: add missing PAGE_ALIGNED_DATA() section
+         9c01e920903fe10d7d5ae655eae7dc90026ee21b Linux 4.4.259-rc1
          
 
---===============9056517603017422242==
+--===============5948424935041210011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-734820e0e7fa-ebfa658d84c4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0e219e453bba0755b894a8af99f989f4aca87d55 PCI: Add a sysfs file to change the MSI-X table size of SR-IOV VFs
-efa6245967e6a3e35ca0929e06219a468c607c6e net/mlx5: Add dynamic MSI-X capabilities bits
-2e45d5d6ea956a37d62aafa8ce32ac34eb73d890 net/mlx5: Dynamically assign MSI-X vectors count
-ec9156920168343fff1c9cc99dcfc36306bf02d3 net/mlx5: Implement sriov_get_vf_total_msix/count() callbacks
-3bda43aed1ed7fd88c9c1ce3c74017aedd721a5f RDMA/mlx5: Zero out ODP related items in the mlx5_ib_mr
-962b4e7080eba5ba6919af0dcfb7b6b29b4fced1 RDMA/mlx5: Use a union inside mlx5_ib_mr
-4713ecdce9c3637b6357e5840c326c8dd3ef781d RDMA/mlx5: Consolidate MR destruction to mlx5_ib_dereg_mr()
-b6f3581c7a3721fa2759aed2e37d93dc5c532eae RDMA/mlx5: Rename mlx5_mr_cache_invalidate() to revoke_mr()
-39764dd56f9bf767043e95a7d595c6ce2485d262 RDMA/core: Introduce peer memory interface
-d719f2920811805a6c63250f7e9192567e622448 RDMA/mlx5: Fix query RoCE port
-abcb38fcad0b3f49660d826771a43d4138d4dcaf RDMA/mlx5: Create ODP EQ only when ODP MR is created
-6c77bfc123b611143e50bc7fbf8ea48d6e7e6794 RDMA/mlx5: Fix timestamp default mode
-4c4615d64fdac533e7497c2a0fcbb2cb7cca3e00 RDMA/mlx5: Don't report pkey_index junk for non-IB devices
-7efbe06a102ac7392b71c4b6e5c7cfaaeae7bf44 IB/core: Drop WARN_ON() from ib_umem_find_best_pgsz()
-8eebb2177cf104cdcc5d2db1ee75f74a132d1a53 IB/core: Split uverbs_get_const/default to consider target type
-f07b0a3c45faabf343ed172a51ce29e3c37aa019 RDMA/mlx5: Allow larger pages in DevX umem
-0e0322b0526100de3cd0a79c50fee84760b6937d debug patch for Issue 2458870
-ef0d198ce3bbfbd7fdf22dea0b15ebf18ab9d1e8 RDMA/cm: Fix IRQ restore in ib_send_cm_sidr_rep
-7e1f42fb1d3609158e0aad40c926cdf9a443ba03 Merge branch 'master' into testing/rdma-rc
-9e54ad710220306c2e089b4ad2dbeb15423c46b8 Merge branch 'rdma-next' into testing/rdma-next
-ebfa658d84c4efb81a326cd554a074e03e08b244 Merge branch 'testing/rdma-next' into queue-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614536504 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1614536501-abdd8ed9ddf050b34d036f8d0c8bd6f2929cd1e7
 
---===============9056517603017422242==--
+312b5d65a03db01974224c76481c0db1786c41ae 9c01e920903fe10d7d5ae655eae7dc90026ee21b refs/heads/linux-4.4.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA73zgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LhsP/Rai9I1ckRXceaz66QAW
+hDZkXGajjQd81k4WEqi85NBOlHr9iyD7EGsnNl9PN9T2C4HJa0eDko4HlAZSFq8Y
+7s1eM4FxvypDkQsI/IQJrPLBoQD3rxYbhseK6O7tmsTBGw9rWdnCU7SDKpRRbHG6
+Xvqei0uqnz1YEOdpsAJoa3iaM3oe6/1EGERkVoIbZNJT1Cjf8Em/sOCgo5LK/Vo/
++puM/TaHf/F3UAEBMWeED4kvRMmZqgl55KkPqt5uD3rQd8SP7XH88Me964V7jbsW
+5KcUbAg0LbftBJj/pdif/EhcOkRQ7MWmXguRtDmbV48Eso3NBPC6VfRTv/RJrFiO
+8RkTs0u9Y7DEqXb6kO8LW5cX0BKb3dyxUjPQthRJDfVbSt6InidcgtP9UOruLK4U
+QUxmNLobNn0Lt7gCQdR8f4M8mIflW+HXyDSONfiZeCRF119fzgM1nEdGLGR2zXUc
++VbLiv3sDBVdOCIK1qJpb7kXt+b+VThyZhwm5Plsycjuae1cC5ehPvaeq4DAgMJ2
+TSvVj7fnNz2WaXSibrUiy8s9Fjjk5DqXt4qyhdEfMBlW9LTzXzWdnxH9AOgUeD7Q
+issZHYHImpT6PPKzKSnIgVSmkYdywp38lyw1CP1fQkgQwj8jNDvRr8VSA8KuOyHP
+SQFzcCdNhGALzqJurT8eJMa5
+=wMeV
+-----END PGP SIGNATURE-----
+
+--===============5948424935041210011==--
