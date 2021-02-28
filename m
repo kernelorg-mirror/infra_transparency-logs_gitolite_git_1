@@ -1,78 +1,88 @@
-Content-Type: multipart/mixed; boundary="===============3999570473519504756=="
+Content-Type: multipart/mixed; boundary="===============1933981122789728151=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sun, 28 Feb 2021 17:50:04 -0000
-Message-Id: <161453460436.29116.7754991085486417273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Sun, 28 Feb 2021 17:53:26 -0000
+Message-Id: <161453480684.30284.14517873677379085913@gitolite.kernel.org>
 
---===============3999570473519504756==
+--===============1933981122789728151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: 2d3ec178b73368151301cccdd86d76660815d96f
-    new: ea1ab94e076c3166dcf8f6bb88a4f568164789fd
-    log: revlist-2d3ec178b733-ea1ab94e076c.txt
-  - ref: refs/heads/io_uring-worker.v4
-    old: b72ba1f895c6b19a29cecd2b437d2fa618b44d65
-    new: 523b9b78e11cae37f9a4bc3e47f504b1a8da4cb8
-    log: revlist-b72ba1f895c6-523b9b78e11c.txt
+  - ref: refs/heads/rdma-next
+    old: 5aa7b605908f33f6394d773031b3335eaaf06fe1
+    new: ef0d198ce3bbfbd7fdf22dea0b15ebf18ab9d1e8
+    log: revlist-5aa7b605908f-ef0d198ce3bb.txt
+  - ref: refs/heads/testing/rdma-next
+    old: 226c5112dfa3d97bd48ba144ec573901f80f97e7
+    new: 9e54ad710220306c2e089b4ad2dbeb15423c46b8
+    log: revlist-226c5112dfa3-9e54ad710220.txt
+  - ref: refs/heads/testing/rdma-rc
+    old: b806017259eb02415daf44999d4c20fc47ef7747
+    new: 7e1f42fb1d3609158e0aad40c926cdf9a443ba03
+    log: |
+         7e1f42fb1d3609158e0aad40c926cdf9a443ba03 Merge branch 'master' into testing/rdma-rc
+         
+  - ref: refs/tags/mlx-rc
+    old: f40ddce88593482919761f74910f42f4b84c004b
+    new: 1048ba83fb1c00cd24172e23e8263972f6b5d9ac
 
---===============3999570473519504756==
+--===============1933981122789728151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d3ec178b733-ea1ab94e076c.txt
+Content-Disposition: attachment; filename=revlist-5aa7b605908f-ef0d198ce3bb.txt
 
-3c86b7b49a1151454b06e1947fc93241c214f2fb io-wq: have manager wait for all workers to exit
-95803b355a1bd101d0676bd22d6b65888eedf077 io-wq: don't ask for a new worker if we're exiting
-6891a1df4f68b132ba7a513bd842d9e5999bf049 io-wq: rename wq->done completion to wq->started
-c5030ef4031964af4143a5d1fa743127d2e346b8 io-wq: wait for manager exit on wq destroy
-508e683fc8caf6beff65162a7c6c0863b080a103 io-wq: fix double put of 'wq' in error path
-68554c9229e6135b35aeb2f532ea18f2007aa133 io_uring: SQPOLL stop error handling fixes
-3b4085148da07ef10ca1e7eb3edce83df66a3cd0 io_uring: run fallback on cancellation
-575c655aad6fec3949f211f131c2394d8802f04a io_uring: don't use complete_all() on SQPOLL thread exit
-67217f75a4717f034d678625982347716aabddcf io-wq: provide an io_wq_put_and_exit() helper
-193b758100f2c991b605ae69155a0a41c21992d5 io_uring: fix race condition in task_work add and clear
-502bf82e25822eafbe127c7104e2bf0e2272c973 io_uring: signal worker thread unshare
-b3e195ffdb38c1545f8bf1817312fa1891140c6b io_uring: warn on not destroyed io-wq
-c548df5a8f54cf4b600d20e61f6a705702861567 io_uring: destroy io-wq on exec
-f0a34974d41d017d6080dee77157faa416fcf40e io_uring: kill deferred io_kiocb put
-bf96cedb5bfa3af94c9c00543e738970f289860f io_uring: remove unused argument 'tsk' from io_req_caches_free()
-1ab3c7b4a06f096c9e45977b04182a29b2bc609a io_uring: kill unnecessary REQ_F_WORK_INITIALIZED check
-8dc1d134f3d12d8e45fe0d711a7889bb1f5bcc5f io_uring: move cred assignment into io_issue_sqe()
-523b9b78e11cae37f9a4bc3e47f504b1a8da4cb8 io_uring: don't attempt to re-flush completions
-ea1ab94e076c3166dcf8f6bb88a4f568164789fd Merge branch 'io_uring-worker.v4' into for-next
+0e219e453bba0755b894a8af99f989f4aca87d55 PCI: Add a sysfs file to change the MSI-X table size of SR-IOV VFs
+efa6245967e6a3e35ca0929e06219a468c607c6e net/mlx5: Add dynamic MSI-X capabilities bits
+2e45d5d6ea956a37d62aafa8ce32ac34eb73d890 net/mlx5: Dynamically assign MSI-X vectors count
+ec9156920168343fff1c9cc99dcfc36306bf02d3 net/mlx5: Implement sriov_get_vf_total_msix/count() callbacks
+3bda43aed1ed7fd88c9c1ce3c74017aedd721a5f RDMA/mlx5: Zero out ODP related items in the mlx5_ib_mr
+962b4e7080eba5ba6919af0dcfb7b6b29b4fced1 RDMA/mlx5: Use a union inside mlx5_ib_mr
+4713ecdce9c3637b6357e5840c326c8dd3ef781d RDMA/mlx5: Consolidate MR destruction to mlx5_ib_dereg_mr()
+b6f3581c7a3721fa2759aed2e37d93dc5c532eae RDMA/mlx5: Rename mlx5_mr_cache_invalidate() to revoke_mr()
+39764dd56f9bf767043e95a7d595c6ce2485d262 RDMA/core: Introduce peer memory interface
+d719f2920811805a6c63250f7e9192567e622448 RDMA/mlx5: Fix query RoCE port
+abcb38fcad0b3f49660d826771a43d4138d4dcaf RDMA/mlx5: Create ODP EQ only when ODP MR is created
+6c77bfc123b611143e50bc7fbf8ea48d6e7e6794 RDMA/mlx5: Fix timestamp default mode
+4c4615d64fdac533e7497c2a0fcbb2cb7cca3e00 RDMA/mlx5: Don't report pkey_index junk for non-IB devices
+7efbe06a102ac7392b71c4b6e5c7cfaaeae7bf44 IB/core: Drop WARN_ON() from ib_umem_find_best_pgsz()
+8eebb2177cf104cdcc5d2db1ee75f74a132d1a53 IB/core: Split uverbs_get_const/default to consider target type
+f07b0a3c45faabf343ed172a51ce29e3c37aa019 RDMA/mlx5: Allow larger pages in DevX umem
+0e0322b0526100de3cd0a79c50fee84760b6937d debug patch for Issue 2458870
+ef0d198ce3bbfbd7fdf22dea0b15ebf18ab9d1e8 RDMA/cm: Fix IRQ restore in ib_send_cm_sidr_rep
 
---===============3999570473519504756==
+--===============1933981122789728151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b72ba1f895c6-523b9b78e11c.txt
+Content-Disposition: attachment; filename=revlist-226c5112dfa3-9e54ad710220.txt
 
-3c86b7b49a1151454b06e1947fc93241c214f2fb io-wq: have manager wait for all workers to exit
-95803b355a1bd101d0676bd22d6b65888eedf077 io-wq: don't ask for a new worker if we're exiting
-6891a1df4f68b132ba7a513bd842d9e5999bf049 io-wq: rename wq->done completion to wq->started
-c5030ef4031964af4143a5d1fa743127d2e346b8 io-wq: wait for manager exit on wq destroy
-508e683fc8caf6beff65162a7c6c0863b080a103 io-wq: fix double put of 'wq' in error path
-68554c9229e6135b35aeb2f532ea18f2007aa133 io_uring: SQPOLL stop error handling fixes
-3b4085148da07ef10ca1e7eb3edce83df66a3cd0 io_uring: run fallback on cancellation
-575c655aad6fec3949f211f131c2394d8802f04a io_uring: don't use complete_all() on SQPOLL thread exit
-67217f75a4717f034d678625982347716aabddcf io-wq: provide an io_wq_put_and_exit() helper
-193b758100f2c991b605ae69155a0a41c21992d5 io_uring: fix race condition in task_work add and clear
-502bf82e25822eafbe127c7104e2bf0e2272c973 io_uring: signal worker thread unshare
-b3e195ffdb38c1545f8bf1817312fa1891140c6b io_uring: warn on not destroyed io-wq
-c548df5a8f54cf4b600d20e61f6a705702861567 io_uring: destroy io-wq on exec
-f0a34974d41d017d6080dee77157faa416fcf40e io_uring: kill deferred io_kiocb put
-bf96cedb5bfa3af94c9c00543e738970f289860f io_uring: remove unused argument 'tsk' from io_req_caches_free()
-1ab3c7b4a06f096c9e45977b04182a29b2bc609a io_uring: kill unnecessary REQ_F_WORK_INITIALIZED check
-8dc1d134f3d12d8e45fe0d711a7889bb1f5bcc5f io_uring: move cred assignment into io_issue_sqe()
-523b9b78e11cae37f9a4bc3e47f504b1a8da4cb8 io_uring: don't attempt to re-flush completions
+0e219e453bba0755b894a8af99f989f4aca87d55 PCI: Add a sysfs file to change the MSI-X table size of SR-IOV VFs
+efa6245967e6a3e35ca0929e06219a468c607c6e net/mlx5: Add dynamic MSI-X capabilities bits
+2e45d5d6ea956a37d62aafa8ce32ac34eb73d890 net/mlx5: Dynamically assign MSI-X vectors count
+ec9156920168343fff1c9cc99dcfc36306bf02d3 net/mlx5: Implement sriov_get_vf_total_msix/count() callbacks
+3bda43aed1ed7fd88c9c1ce3c74017aedd721a5f RDMA/mlx5: Zero out ODP related items in the mlx5_ib_mr
+962b4e7080eba5ba6919af0dcfb7b6b29b4fced1 RDMA/mlx5: Use a union inside mlx5_ib_mr
+4713ecdce9c3637b6357e5840c326c8dd3ef781d RDMA/mlx5: Consolidate MR destruction to mlx5_ib_dereg_mr()
+b6f3581c7a3721fa2759aed2e37d93dc5c532eae RDMA/mlx5: Rename mlx5_mr_cache_invalidate() to revoke_mr()
+39764dd56f9bf767043e95a7d595c6ce2485d262 RDMA/core: Introduce peer memory interface
+d719f2920811805a6c63250f7e9192567e622448 RDMA/mlx5: Fix query RoCE port
+abcb38fcad0b3f49660d826771a43d4138d4dcaf RDMA/mlx5: Create ODP EQ only when ODP MR is created
+6c77bfc123b611143e50bc7fbf8ea48d6e7e6794 RDMA/mlx5: Fix timestamp default mode
+4c4615d64fdac533e7497c2a0fcbb2cb7cca3e00 RDMA/mlx5: Don't report pkey_index junk for non-IB devices
+7efbe06a102ac7392b71c4b6e5c7cfaaeae7bf44 IB/core: Drop WARN_ON() from ib_umem_find_best_pgsz()
+8eebb2177cf104cdcc5d2db1ee75f74a132d1a53 IB/core: Split uverbs_get_const/default to consider target type
+f07b0a3c45faabf343ed172a51ce29e3c37aa019 RDMA/mlx5: Allow larger pages in DevX umem
+0e0322b0526100de3cd0a79c50fee84760b6937d debug patch for Issue 2458870
+ef0d198ce3bbfbd7fdf22dea0b15ebf18ab9d1e8 RDMA/cm: Fix IRQ restore in ib_send_cm_sidr_rep
+7e1f42fb1d3609158e0aad40c926cdf9a443ba03 Merge branch 'master' into testing/rdma-rc
+9e54ad710220306c2e089b4ad2dbeb15423c46b8 Merge branch 'rdma-next' into testing/rdma-next
 
---===============3999570473519504756==--
+--===============1933981122789728151==--
