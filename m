@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1274777981515063963=="
+Content-Type: multipart/mixed; boundary="===============7758757674288174331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 28 Feb 2021 07:28:45 -0000
-Message-Id: <161449732552.10839.14371047752834183629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 28 Feb 2021 07:30:23 -0000
+Message-Id: <161449742379.12814.4735783618476412046@gitolite.kernel.org>
 
---===============1274777981515063963==
+--===============7758757674288174331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_remove_return_value
-    old: c7edeca1bc4ae27d8cf08cd6bd781348acbdce5d
-    new: b53e86bd9e06252f937108e7a5f5dfa3a5fa0626
-    log: revlist-c7edeca1bc4a-b53e86bd9e06.txt
+  - ref: refs/heads/staging-testing
+    old: 051ad0e686630b642100e58904f79f49d61d1980
+    new: 7ffc23f46e5d8f4360ebb40d982162b0028b0b81
+    log: revlist-051ad0e68663-7ffc23f46e5d.txt
 
---===============1274777981515063963==
+--===============7758757674288174331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614497315 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1614497314-3c732a37a2c5c7df7262fb65641e5aa0a4c37a2e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614497411 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1614497410-4ef1ee66eb7fa8949775b9ab5e3755e664bb47d3
 
-c7edeca1bc4ae27d8cf08cd6bd781348acbdce5d b53e86bd9e06252f937108e7a5f5dfa3a5fa0626 refs/heads/debugfs_remove_return_value
+051ad0e686630b642100e58904f79f49d61d1980 7ffc23f46e5d8f4360ebb40d982162b0028b0b81 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA7RiMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ANUQAK5uKwLXDYaXIXFOabu3
-bcKpLyNI7QzJALZCuZEFcuscKVD1VjMijALBEm/IDZ9ntFhovnvyESfnOjCB968H
-alf45KlBOiUWE/txROo2hfmF7ida1IBDcE1c1KJWvZEHnAMiTO0KlkHuDPlVLzA/
-y0FP03pjh07pWyFu3OiqyjGmp98VD2VOiaJvOIXuKLZNV+4HrSfFV4qqEda2jREi
-Rnm5WNx+my3o4eOz9IYug9E1AaqvUBjXcC1J8L5iYca/nuKSpMLya1as3IbQ3LAY
-3/dOwx5u3g6RlR75gnxLj+wsq2J0IImPqGEDDr5IQoieJ1lb12tD+v8zwpK0Rbey
-ZB/JbLeI7O4tk0UHrvyThyrQ4yYCJht7n6Gh1Hn4lEOCWVAm18VW0yQ3oI/jyPFN
-NhCvgfd/FeCXjsdhxm/P2sbY9QbolxU/aTwF/4gaTYFJ3RH1B4XW913qJLzUVrW2
-t6qfCCMGNJlO2fBSnM1C9a2h9Jd0hq01n1Jn1Tjm00IUmg6ixp4CHWp73pd5ZVj+
-sksCX00n9ZxZntDdogCX/VcKr439K8l8cEtn/moxDzXt2JNTGjm3KYbtfmjoU3wj
-lBQGtwFpZMVMNv9UmieKRi90pBz/zTjnNbXfNXyZYXP8kmRtps3MhZvGpXWbBknr
-dDkrvLr3tnlBrbM5cH8SJ5e0
-=hdMy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA7RoMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CmwQAMhpeaKNqSC9ZyvDMkpa
+bItYpfRn/U2sKY3++OeyO330cyZhqnydR170pHlNnWV8nlCLCArSZhbD7ZPphoDq
+IjXlf0QJNujsqCF9i2TT0rG5o78XBvpqfOHlpT61vIoOOkAz/VthI0mklVyPwmHL
+T0ImT5Afp5QxLpSsavFFSb4kiG0nAedlVl0B0MBAlEvaJxyQw85HM0Hg7C+MfyVg
+C83/7fKE0TF/Au0CQtL4bth/HSYR6/j5lCZjT1x1H9ga/M4Fn0RdpRt5p/4T5gzd
+uFK7r7PRwSrf6ivc5boXmvE6f7eukvOS1yKQ0yM0jft2F0s8lvACzmW0SJQ0nQdL
+VjDKZA7V96kTPNQRfxKC5WsUzioop2pQnU5aCvQRosalAxeiYJHPL8UP203QKvx6
+A49VL9VHU3HNDQYvzv6HkV1s2QWpRxT1+qlHAyAEHRb+Ue5Lf6qRwmkvfUdHD1ba
+P46k6QuY5jt43AkmcARYrOc1QceSbN2KVl5jlr5lTfZpapr06cV5sNF022uQYzDB
+4mF0mOxQ74UZEWDzshSg1RWyQTeifU7QJUf2KXehoUTL51KETf8cLGtS4yo7Pb4T
+IIDBDm8folCFPIqmYelOf1n4QRWDtxfOVwLg9CrEhQsy/goWJrVvHDtQE7zKZ3UQ
+DI4ml/u9J8Jd3/tdHFa0pVUE
+=m6ya
 -----END PGP SIGNATURE-----
 
---===============1274777981515063963==
+--===============7758757674288174331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7edeca1bc4a-b53e86bd9e06.txt
+Content-Disposition: attachment; filename=revlist-051ad0e68663-7ffc23f46e5d.txt
 
 14e43bf435612639cab01541fce7cc41bf7e370b vfs: don't unnecessarily clone write access for writable fds
 edbb35cc6bdfc379a2968f17d479567650ddbb16 fs/inode.c: make inode_init_always() initialize i_ino to 0
@@ -100,32 +100,86 @@ f4ff0104d4c807a7f96aa3358c03d694895ee8ea i2c: exynos5: Preserve high speed maste
 580cd7736f6b40dbe1d5514eb59744bc24328e4b Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 5ceabb6078b80a8544ba86d6ee523ad755ae6d5e Merge branch 'work.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 5695e51619745d4fe3ec2506a2f0cd982c5e27a4 Merge tag 'io_uring-worker.v3-2021-02-25' of git://git.kernel.dk/linux-block
-92e5eeeb299340b56fba5b520b566b5ea03e6901 scsi: snic: debugfs: remove local storage of debugfs files
-18c9907b57661aa64f65f4714afbd79ea13d613d drm/i915/gvt: remove local storage of debugfs file
-00e5d5233d6ef1e3e15fa7f42204a82609493c2e debugfs: remove return value of debugfs_create_ulong()
-169f4be5c972002500cebf861e2340641e6cca06 USB: core: no need to save usb_devices_root
-36f584de2d32b7012b562ffd64c1b24d35912028 USB: gadget: lpc32xx_udc: remove debugfs dentry variable
-8517afc9fb92618e65f5003a7b4bf22f6dd96c77 USB: gadget: pxa25x_udc: remove dentry storage for debugfs file
-efd0fe9bf44f360fe23804be5efb267b88e5d9c4 USB: gadget: s3c2410_udc: remove dentry storage for debugfs file
-ce24aa40fc345fa8dac140ebf2c48dfde8999c49 driver core: component: remove dentry pointer in "struct master"
-35a2d20d264954afc30c2ecf5b9348ca09e38454 driver core: dd: remove deferred_devices variable
-c670ca1ba1c1ddd0078f9cfa8d0f01bb5d3635ec irqdomain: remove debugfs_file from struct irq_domain
-452fdb00f2a4406679357ff406bb0fd835e3d8ed USB: host: isp116x: remove dentry pointer for debugfs
-140074f10d826584de3cd6e1aa07c0ffd3728039 USB: host: isp1362: remove dentry pointer for debugfs
-cb8be30b51931433c49b7d4e24babef71f4a3625 USB: host: sl811: remove dentry pointer for debugfs
-13216dfe3076bccb14cd382bc3ac955462e706c0 USB: host: uhci: remove dentry pointer for debugfs
-316d00ae065b491f36313e75466cf4fd63de99b6 USB: typec: fusb302: create debugfs subdir for the driver
-57fb62ba2f7f1a1fd09a39c67ef5db2b5ffde1b1 USB: typec: tcpm: create debugfs subdir for the driver
-1f5e233d42b2e85fc55e37fa866d4c136132b49e tty: serial: pch_uart.c: remove debugfs dentry pointer
-5fcf861b77850adc0014c9da29770a80b906a6cd virtio_console: remove pointless check for debugfs_create_dir()
-18a83387675205a48e8d2d32abe25d6b9b15e6c1 drivers: habanalabs: remove unused dentry pointer for debugfs files
-a480fc9dbe8bcaa3da2e37879a3e8cef0343155a drivers: vmw_balloon: remove dentry pointer for debugfs
-ff8d28370caebfc051345009606121292b7c6a5e time: test_udelay:  remove dentry pointer for debugfs
-ceb041de9f9071fe63786cc447afb8881b2f31fc blktrace: remove debugfs file dentries from struct blk_trace
-2843fac0f0db1617b32cbcf05b7ff17804688de5 wireless: b43: don't save dentries for debugfs
-48b9ccbf3ac43c1461294a4a21c6b55aceaaf75f wireless: b43legacy: don't save dentries for debugfs
-155dfc4a3ace972bf50509d67a5b9a9ee3fed85b debugfs: remove return value of debugfs_create_bool()
-b85e7195fa1977f68d040dd18e20f0a5b5038167 e1000e: use proper #include guard name in hw.h
-b53e86bd9e06252f937108e7a5f5dfa3a5fa0626 x86/tools/relocs: add __printf attribute to die()
+6feb64c11f314ec825e355e308cd5b01be54f961 staging: rtl8723bs: remove DBG_COUNTER calls from os_dep/recv_linux.c
+c9b34dd4cda02c9f8b1102b26c5b8fbed381fc0a staging: rtl8723bs: remove DBG_COUNTER calls from os_dep/xmit_linux.c
+a7cb572debf7b33ae29f80b269fa0d2f81488864 staging: rtl8723bs: remove DBG_COUNTER calls from core/rtw_xmit.c
+e91c8ce71473218db68eb5b592475d008e7fbf01 staging: rtl8723bs: remove DBG_COUNTER calls from core/rtw_recv.c
+304e36b5d522cf21921b40dc29a974e1bf89730f staging: rtl8723bs: remove DBG_COUNTER definition from rtw_debug.h
+ee19735926b901f2c84a5b86938108faeb3f808b staging: rtl8723bs: remove rx_logs/tx_logs/int_logs from drv_types.h
+5813cccafc722d5c821c5ddf1a7a89ff9aa407c9 Staging: mt7621-pci: fixed a blank line coding style issue
+604f4a93abb6ded6c4df6ee96573f8f72509326c staging: wlan-ng: Fixed incorrect type warning in p80211netdev.c
+32cd70d2f998023628b7136c08845f9c41cff50e staging: wlan-ng: Remove unused function pointer typedef freebuf_method_t
+1b6445d70ede7b6dc50e455a29bbb9a1333397c0 staging: wfx: logical continuations should be on the previous line
+0c7a875285a586fa515d07ae07f6b6bad4cf85a2 staging: wfx: Fix alignment style issue in sta.c
+236c8894abe4e094dc0d0f02dd7df59982406389 staging: rtl8192e: fix typo in a comment
+fcae644a59c78a034bfe7e6b29d7ed93a041a631 staging: rtl8192e: fix typo in a function name
+aa5924bde2326cf9713914c8512348efeaf4f6eb staging: rtl8192e: Fix comparisons to NULL
+4ccdc94951d80255aeb8ba929cc938513ec95953 staging: rtl8192e: rename ShortData to short_data in sequence_control union
+faf5c15a77da4bdd897019603bde08e1a1d35bab staging: rtl8192e: rename FragNum to frag_num in sequence_control union
+3435e18864313d590ac90233bfeb11d51a6e5e4e staging: rtl8192e: rename SeqNum to seq_num in sequence_control union
+613476ee06d736dde3c9cac9aa05a73da2d82b16 staging: rtl8723bs: Remove unused function pointer typedef wi_act_func
+639a0c94d2803415d00ba0481c50e256acd6ca1f staging: qlge: fix comment style in qlge_main.c
+8896fe521b109f87756d22c5b9d720b07e54565a staging: emxx_udc: remove unused variable driver_desc
+e252a1d034a86e62742f2303698b90de0688b841 staging: rtl8188eu: Format comments
+ffcefa11658080831aeeedbaeb2fc20804fb1261 staging: vt6656: Fix alignment of function args
+a1aaa2c7a92a23354a40182ec00c9c2670d52391 staging: wimax/i2400m: don't change the endianness of one byte variable
+4c10e16722e1a1d56239337a4b85801ddaf66bbc staging: rtl8192e: rename charData to char_data in ba_param_set union
+64f1aa6d72e1188e97953697c2d2014f3d474ffe staging: rtl8192e: rename shortData to short_data in ba_param_set union
+64596efcabc6278ca47fa8c635529e531fec3e03 staging: rtl8192e: rename BAPolicy to ba_policy in ba_param_set union
+87c09fceb48eac526fabdbb9e2b8a0365f478434 staging: rtl8192e: rename BufferSize to buffer_size in ba_param_set union
+927cc70fc1c625d3fa16a32c75ad6c519bc87d41 staging: rtl8192e: rename AMSDU_Support to amsdu_support in ba_param_set union
+6430c2c570e09b0769fbeb039400ffe26dbda599 staging: rtl8192e: rename TID to tid in ba_param_set union
+c8ead26a628ac6f9855b72ddd2d252183f4b192b staging: hikey9xx: fix warning styling issues
+26ec058b72bb69c49881f8e8a5b78084324a0ff1 staging: sm750fb: added identifier names for function declarations
+6f363855f16a631240cd6929dffb5db120e76181 staging: greybus: Fix blank line style issue in sdio.c
+bc3a59c3836be0141e822df016ac1eed9633d364 staging: rtl8192u: fix RT_TRACE() in r8190_rtl8256.c
+6269289fa7f12d71f4321b66357ee0753ac029e0 staging: rtl8192u: remove unnecessary return in r8190_rtl8256.c
+db6ebeafbd7554424a90fc7484d0c17dce3d4222 staging: fwserial: match alignment with open parenthesis
+da681a16be2c271eafe203825e78a347d1b02078 staging: octeon: cleanup unnecessary parentheses in ethernet-spmi.c
+3b414d47be3a18ede8bcf34955b2832ce5fd0f28 staging: gasket Fix comparison with Null
+a275409019e27205b60c0c577dd25c2163d1228b staging: gasket: removed unnecessary debug message to fix coding style warning
+0b09f3d882da62c0bfcfdeb4f842fc0d5b0f6d59 staging: rtl8723bs: fix code style comparison warning
+740716dfcd7fa2c2433b4e4688d95e9a53dcf3c7 staging: rtl8192e: rename charData to char_data in delba_param_set union
+905c5aa6b2b7c49b14add356dc2b746472fb676d staging: rtl8192e: rename shortData to short_data in delba_param_set union
+737e4a1a0f0ba1f51c7db4ad09b0307429d84bef staging: rtl8192e: rename Reserved to reserved in delba_param_set union
+12f0bea7ca368cc249427052db820aeea8bcca67 staging: rtl8192e: rename Initiator to initiator in delba_param_set union
+f49deed22b747ed73935fdd70c56c1b2479a5d98 staging: rtl8192e: rename TID to tid in delba_param_set union
+9eb4651468f5c6c2e3e7a6c8246817e77495514d staging: rtl8192e: rename Timer to timer in ba_record struct
+bf951b95fed6c70097cf708c2619d94ce011c15b staging: rtl8192e: rename bValid to b_valid in ba_record struct
+d961bfb957b824a2946c70b56a7a2d5c9dd51794 staging: rtl8192e: rename DialogToken to dialog_token in ba_record struct
+6313a4c429cfcdec184c043296af48a9b6bd7e24 staging: rtl8192e: rename BaParamSet to ba_param_set in ba_record struct
+d763d1ee02a318212bdb58c6c8ec4576b020c2f4 staging: rtl8192e: rename BaTimeoutValue to ba_timeout_value in ba_record struct
+33c4e068ffd2274e41ad87be99de4e10dce89aac staging: rtl8192e: rename BaStartSeqCtrl to ba_start_seq_ctrl in ba_record struct
+e94d8d9a9a74a6ae85bddb124dbb5b8d0ba28740 staging: rtl8192e: reformat ba_record struct
+6adad418550b63244b3ad1e2f1b552b9bd6201db staging: rtl8192e: fix alignment issues in rtllib_wx.c
+8c1f935bf3fc070f5f9260beefb485cad924d7c7 staging: kpc2000: code style: match alignment with open parenthesis
+a0237b7bdb4964a40976da4e334d6baf3ba614e8 staging: kpc2000: code style: fix line length issue
+cc626d90a670d28d84e5cadda227cb1fcdb5eb07 staging: wimax: i2400m: add space before open parenthesis
+7d40868f8406ab2a290ef3e1c5c3f8cd712f7cba staging: comedi dt2814: Removed unused variables
+33484b1a706940cd990a589cc0a09ba07f9b1b74 staging: android: Remove filename reference from file
+d1a1c2695220bec044a6c599cf8d94614a50e8d8 staging: wimax: Fix block comment style issue in stack.c
+1c8ae1fb2ba316b00788101ccb4469e6e310c4c1 staging: rt8192u: Move constant in comparison to the RHS
+d84c9871980957bc5a7e56c46890b567c9993220 staging: vc04_services: fix indent in vchiq_debugfs_node
+4a20764ac8ebf50ccda57a3ca89580fce44274dd staging: wimax: fix code style issues
+1eb6de16d72c838fd6766af515551666a2e15e96 staging: rtl8192e: remove blank line in bss_ht struct
+12f35f4110967ce5c22977e55cf16fc27018a0ee staging: rtl8192e: rename bdSupportHT to bd_support_ht in bss_ht struct
+f59f57894a343aabb5bfd6ed594f6d3c01766b7e staging: rtl8192e: rename bdHTCapBuf to bd_ht_cap_buf in bss_ht struct
+e8435ea3bd921889da1dfb63ebd5a7583863c8ae staging: rtl8192e: rename bdHTCapLen to bd_ht_cap_len in bss_ht struct
+85d5afd4776ac6a440f10c8b9bbb61300ca7dc28 staging: rtl8192e: rename bdHTInfoBuf to bd_ht_info_buf in bss_ht struct
+d5eace885e05f08f76a78659d020cbb2108aabb1 staging: rtl8192e: rename bdHTInfoLen to bd_ht_info_len in bss_ht struct
+0dd10d85b8c228d42beb3c53d5d10d617004516e staging: rtl8192e: rename bdHTSpecVer to bd_ht_spec_ver in bss_ht struct
+b4c8165542bdb181e73d328885744c1f90b745c7 staging: rtl8192e: rename bdBandWidth to bd_bandwidth in bss_ht struct
+5242e6e48a3a869bd8dd2f424ad33a63b9203650 staging: rtl8192e: rename bdRT2RTAggregation to bd_rt2rt_aggregation in bss_ht struct
+418cfda507a55a25985b38486be53a566d6749a7 staging: rtl8192e: rename bdRT2RTLongSlotTime to bd_rt2rt_long_slot_time in bss_ht struct
+97f4228b453030ef3a29d8d6a6829054499dc9c2 staging: rtl8192e: rename RT2RT_HT_Mode to rt2rt_ht_mode in bss_ht struct
+3fe15ac3c7deda9e83e0831ac92cc62f1b032a3e staging: rtl8192e: rename bdHT1R to bd_ht_1r in bss_ht struct
+64d025879fd3d0ab2ad950fcf7b83f711edca817 staging: rtl8192e: reformat bss_ht struct
+61764de8db8d58f92666ce2d59f37d43f32e59fc staging: clocking-wizard: Fix kernel-doc warning
+6015bdafbfc7b5c7a2b8c7f18630880798bc4cc8 staging: clocking-wizard: Rename speed-grade to xlnx,speed-grade
+fb8cb0c337288585f09d44647dcac8e34e614d2f staging: clocking-wizard: Update the fixed factor divisors
+8e6a87f6ff027c1add9437072181d821dd4ca9c6 staging: clocking-wizard: Allow changing of parent rate for single output
+2f93d6b9db216f6187a2aa23c36e6d6ea3b81727 staging: clocking-wizard: Add support for dynamic reconfiguration
+bbe37c8fb2da3833b6d66908bb62253937f444e8 staging: clocking-wizard: Add support for fractional support
+7ffc23f46e5d8f4360ebb40d982162b0028b0b81 staging: clocking-wizard: Remove the hardcoding of the clock outputs
 
---===============1274777981515063963==--
+--===============7758757674288174331==--
