@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0242049038938216631=="
+Content-Type: multipart/mixed; boundary="===============3054370648973771141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 01 Mar 2021 10:37:20 -0000
-Message-Id: <161459504052.30216.12465044210103523141@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 10:37:26 -0000
+Message-Id: <161459504672.30287.13026667263223874096@gitolite.kernel.org>
 
---===============0242049038938216631==
+--===============3054370648973771141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+  - ref: refs/heads/review-andy
+    old: 0e793a4e283487378e9a5b7db37bc1781bc72fd7
     new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-5c8fe583cce5-fe07bfda2fb9.txt
+    log: revlist-0e793a4e2834-fe07bfda2fb9.txt
 
---===============0242049038938216631==
+--===============3054370648973771141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c8fe583cce5-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-0e793a4e2834-fe07bfda2fb9.txt
 
 9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
@@ -1051,4 +1051,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============0242049038938216631==--
+--===============3054370648973771141==--
