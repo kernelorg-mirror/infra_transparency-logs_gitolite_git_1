@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 01 Mar 2021 23:07:01 -0000
-Message-Id: <161464002139.29024.10666899012763549214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Mon, 01 Mar 2021 23:13:47 -0000
+Message-Id: <161464042752.1406.13699345934931300102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
-user: chanwoo
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/devfreq-testing-passive-gov
-    old: 82d4ff586ae2fb6d89cad871949004bed3438ccb
-    new: 93dd70ce5b255625a1f5f61ee463afdcc172a3e6
+  - ref: refs/heads/testing/xfs
+    old: 244dc78b35e8d11997a6907cbcb5e604b7f83feb
+    new: 0e43a01ba7b6977356cc75b0f1d01d140515e36a
     log: |
-         93dd70ce5b255625a1f5f61ee463afdcc172a3e6 PM / devfreq: Add cpu based scaling support to passive governor
+         0e43a01ba7b6977356cc75b0f1d01d140515e36a xfs: Replace one-element arrays with flexible-array members
          
