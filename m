@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8699624761315477964=="
+Content-Type: multipart/mixed; boundary="===============2629700675874878543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 01 Mar 2021 05:15:47 -0000
-Message-Id: <161457574756.20521.14989955173803600320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Mon, 01 Mar 2021 05:15:49 -0000
+Message-Id: <161457574985.20588.7798628772882582967@gitolite.kernel.org>
 
---===============8699624761315477964==
+--===============2629700675874878543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
     log: revlist-f40ddce88593-fe07bfda2fb9.txt
 
---===============8699624761315477964==
+--===============2629700675874878543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============8699624761315477964==--
+--===============2629700675874878543==--
