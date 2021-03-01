@@ -1,53 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7075102385700976690=="
+Content-Type: multipart/mixed; boundary="===============2351083523222551946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 01 Mar 2021 23:33:56 -0000
-Message-Id: <161464163637.12922.5159346951718349704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 01 Mar 2021 23:34:03 -0000
+Message-Id: <161464164386.13098.12074682099569986268@gitolite.kernel.org>
 
---===============7075102385700976690==
+--===============2351083523222551946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
-    old: 536e9fc6678d7b0e3d17a5d6093733096c62901c
-    new: 44233a5ba2511b85da3c055a0ab7c28976544e47
+  - ref: refs/heads/spi-5.12
+    old: d2275139649bc34b8b5c3e33d26d991ab8a1364c
+    new: 216e8e80057a9f0b6366327881acf88eaf9f1fd4
     log: |
-         9923f8e3039ed0361c2476d5d3c5195c7f766504 spi: omap2-mcspi: Activate pinctrl idle state during runtime suspend
-         d86e880f7a7c5b64a650146a1353f98750863f21 spi: rockchip: avoid objtool warning
-         c5f754fd0a31d2c6f2f8d11f3db1427b5566f1e7 spi: atmel: Drop unused variable
-         44233a5ba2511b85da3c055a0ab7c28976544e47 spi: cadence-quadspi: add missing of_node_put
+         b3c15f78befc6031de7d5bcb683d37018b20c425 spi: spi-ti-qspi: Free DMA resources
+         73ae625da5c36300fccd809738e7c68f49ebce35 spi: bcm63xx-spi: fix pm_runtime
+         216e8e80057a9f0b6366327881acf88eaf9f1fd4 spi: bcm63xx-hsspi: fix pm_runtime
          
+  - ref: refs/heads/spi-5.13
+    old: 0000000000000000000000000000000000000000
+    new: 44233a5ba2511b85da3c055a0ab7c28976544e47
 
---===============7075102385700976690==
+--===============2351083523222551946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1614641570 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1614641633-bf8ebd3181e3a957efc1fdd7deea06e632d1dcc7
+pusher C3F436CA30F5D8EB 1614641577 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1614641641-f4971f04d3c11fcca56795edcaf037473e5bd876
 
-536e9fc6678d7b0e3d17a5d6093733096c62901c 44233a5ba2511b85da3c055a0ab7c28976544e47 refs/heads/for-5.13
+d2275139649bc34b8b5c3e33d26d991ab8a1364c 216e8e80057a9f0b6366327881acf88eaf9f1fd4 refs/heads/spi-5.12
+0000000000000000000000000000000000000000 44233a5ba2511b85da3c055a0ab7c28976544e47 refs/heads/spi-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmA9eaIACgkQJNaLcl1U
-h9B7Ewf/eyTyOhZrEPSGZLOixs0UbZ8CAcobASvRaq404oWC6UuR8Iqz9MSj2lpW
-17zT/95xnG+d7dxyBp1/EQBjFC6CS7OhLl7PIakDPL7hD+t15j79e8gcXkUvWrJS
-BeMZtUSTPnWWWBcVmYVZi1umcvJMTH1pW+xd9Z5M/1ynU6XD36ZZnv9rUVgXen1n
-SckYlnSZv5CkAw6LMRv6VBoFn1JgRZYWSj3CgSb2Mq1PFHusmjgeKNJxlQ5/iEpP
-8OmTQxVJSCz09jrdEP3S1wcUQSY21XdgDXWQyOCdByL5TAFhmVJpM8RsfJRn4WHK
-F4kk2HhiM8TxxnG96kDL4aSrpYULlg==
-=Ta6l
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmA9eakACgkQJNaLcl1U
+h9CSvwf/SB6oRXxR+dtCeEvl9O0phESQ4ufNrpIL3dRN48zL2I0UYJQmxeT20YjU
+9yTA6wSOeql6/PNIo22vvVyA4/zPjy3dsgVmLzTFo1Gn5QyEd36Uy4b7jurnpFLn
+1YY66kbsz5q+vvkSTjHKMD5iJ+9g/qgtp8R0b9KsBTQn/lo05Yg6dKVAzEBTEX7o
+FoGBu3ty6CQupOD7tKZrPBki1kDBLSSkDYiSRtKeeWe10eoRYi/U8IhdCm8TPni9
+uCFWgIFw5bvSNEX/wMm161XeJ6oGcpIbdMTmFYSJnp5Wq1xaNmgbyarkio0ka53F
+9oN2Uij+z169ThXLcWMYLB15Un9KZw==
+=b7Tt
 -----END PGP SIGNATURE-----
 
---===============7075102385700976690==--
+--===============2351083523222551946==--
