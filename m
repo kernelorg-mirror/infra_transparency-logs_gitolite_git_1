@@ -1,48 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4402674654877103922=="
+Content-Type: multipart/mixed; boundary="===============0317630889243815044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Mon, 01 Mar 2021 13:28:45 -0000
-Message-Id: <161460532510.17503.10722688562003599597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 01 Mar 2021 13:29:59 -0000
+Message-Id: <161460539976.17939.5995956472209852535@gitolite.kernel.org>
 
---===============4402674654877103922==
+--===============0317630889243815044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
-user: brauner
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/idmapped_mounts
-    old: cae165f1d0e72f26be61a6b7467952f950aa0d10
-    new: 2c537d06113822797ecb45e6d20e9fcd4227ca71
-    log: revlist-cae165f1d0e7-2c537d061138.txt
+  - ref: refs/heads/master
+    old: 3ccc57b0b8226264541e4740c069329c22967871
+    new: 9757205d5446d10fbc70d16164dff9c8528cfcf1
+    log: |
+         9757205d5446d10fbc70d16164dff9c8528cfcf1 4.4-stable patches
+         
 
---===============4402674654877103922==
+--===============0317630889243815044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cae165f1d0e7-2c537d061138.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3ba859629de1b8e3645b06424c095d69c5b125d7 xfs: test mkfs.xfs config files
-e2072f840804bbf336285dd3eb9c6c0ebe85287f ext4/046: skip test when ext4 doesn't support bs < ps with dioread_nolock
-44a1fbf786a89146e1166b90c7c98b260eddaccb generic: test for lazytime timestamp updates
-d15b1721f2843de0471acf1e1929d947d5697adc ltp/fsstress: don't fail on io_uring ENOSYS
-8e3d3c5815da4d178eea4fb8c59217a81c94a2c4 generic/095: don't silence fio error output
-f961a4b9fe8762731749addbe471773ef2e4f6e5 src/swapon.c: initiate p to NULL
-08a617f21dca5acd0c0dbd54c5e4ea78de912395 xfs: test a regression in dquot type checking
-b13284d992aad356705f7616bd8e2d1e27a75294 _scratch_mkfs_geom(): Filter out 'k' suffix from fs block size
-48aa331f2181f298ea76a88ae3d114093057632a src/splice-test.c: use memalign instead of aligned_alloc
-acb981a4e55b90f0f8dfc51341acb27b42186ef2 xfs: fix filestreams tests when rtinherit=1
-0ac0d8fbf9caa1c6c751b3128ae5bf9010f02bea common: remove _require_no_rtinherit
-b8a84870b34a5323476942d2a7946baff1cca5e2 overlay/030: Update comment w.r.t upstream kernel
-ce4616c9b75b28878d2b00dfa306cca3cd6fca17 src/t_immutable: factor out some helpers
-8911efb91e5e1ca4a63b8a13cc3e0925bff14752 src/t_immutable: Allow setting flags on existing files
-990feb5ac6a788b55ecd8af8a34a1212a44313c6 overlay: Test lost immutable/append-only flags on copy-up
-8cbc48b460b698b62114b1e7593d5c30154005ce overlay: Regression test for deadlock on directory ioctl
-011bfb01f7f9f8f37c01d0a1ae0b0ca28e96a4f5 generic: test mapped write after shutdown and failed writeback
-2c537d06113822797ecb45e6d20e9fcd4227ca71 generic/622: add fstests for idmapped mounts
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614605398 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1614605396-c4aa5b54d8ffda7322bddc8162d8d82ab202eb62
 
---===============4402674654877103922==--
+3ccc57b0b8226264541e4740c069329c22967871 9757205d5446d10fbc70d16164dff9c8528cfcf1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA87FYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2fcP/RLHEhl6DA1yB6Gdhms+
+nG9azb5U2s+ZVCZ9lZL0QRI4kxJw0MPOgKnAJ0/LmaLz3d6ltgA+lXJxqahETD2Z
+CJc/38x1Br1s+5lx7z+f4vQgMfP3QbIRQybUU17JdkvlTfasakasnxyy48KZT3FE
+azi3WG/ILgG169ExuQul7OCw5cictJXaZKEIObBsGb3oAho7VjVQFDditFHkpP21
+jhKLnj4eLZEn36ZlHQ2LnhobpR1S9ZoqEFalxYmHBRZO+DOTCcvjJHZicae7kkmB
+/NlcihTbqFopH8QJpd+G6hxR2qmowIVXS0Y+5+ObdECbOuq3OISU219/969QEIya
+FQ9JPa93trqeMWdn/HNafE0iPHxCUT1CeRx9dU+fo5e5SMZyp8mdc7ue45Z0cPFf
+b61dYSfn+6AXMmktlhckwwnlO1+vtOsmjR28P2su1gHmYZ7wrN4mnjy/dB/XoIa+
+9sbcR7dvcJnaywUIXl2ET/oVZ2zb2AZis0FkYBPHuZHVzJudgFoVAceJNVHIVPdz
+S8OU48hYG9hEKcLKkXX/sujrLMaYJWenWiVwhDF45dhJUqeEXm0NIda9YUBwwWSM
+zPxRqsMDO5gocGkKXMjpEy3IcWlgDD21dF+s7G89y/iwCG25euFxMK+wlkJTmk03
+GcG9tRTd0xD4GY6DF+H6FQ15
+=KpIV
+-----END PGP SIGNATURE-----
+
+--===============0317630889243815044==--
