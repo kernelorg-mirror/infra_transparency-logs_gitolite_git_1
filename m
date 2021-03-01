@@ -1,34 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============8738454320450736543=="
+Content-Type: multipart/mixed; boundary="===============4701778934063087136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 01 Mar 2021 10:11:33 -0000
-Message-Id: <161459349358.15098.15044721681378056047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 01 Mar 2021 10:13:59 -0000
+Message-Id: <161459363946.15880.9070186005179427341@gitolite.kernel.org>
 
---===============8738454320450736543==
+--===============4701778934063087136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: a352e9e72aa3f8d8fbb3c81b76596dba4d5d1195
-    new: 2b8770215620f46a01ee2bbb541b6ab284b14bb3
-    log: revlist-a352e9e72aa3-2b8770215620.txt
-  - ref: refs/heads/sunxi/dt-for-5.13
-    old: 0000000000000000000000000000000000000000
-    new: 2b8770215620f46a01ee2bbb541b6ab284b14bb3
+  - ref: refs/heads/locking/urgent
+    old: 34b1a1ce1458f50ef27c54e28eb9b1947012907a
+    new: 8b97c027dfe4ba195be08fd0e18f716005763b8a
+    log: revlist-34b1a1ce1458-8b97c027dfe4.txt
 
---===============8738454320450736543==
+--===============4701778934063087136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a352e9e72aa3-2b8770215620.txt
+Content-Disposition: attachment; filename=revlist-34b1a1ce1458-8b97c027dfe4.txt
 
+7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
+f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
+fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
+c72160fe05fb978ad859ba053c4462c2bb960b13 initramfs: Provide a common initrd reserve function
 aec33b54af55ef025e03e3dfbab3b8abe00eaa22 riscv: Covert to reserve_initrd_mem()
 e178d670f251b6947d6be99c0014e9a57ad4f0e0 riscv/kasan: add KASAN_VMALLOC support
 5da9cbd2b200369fd190c81bc1253e9a17ab3e8d arch/riscv:fix typo in a comment in arch/riscv/kernel/image-vars.h
@@ -1048,10 +1049,6 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-778ac7a349e14baa19a19d1186d37de0bbf3e626 ARM: dts: sunxi: Use the new r_intc binding
-585df696b691cac2b483d2f43162338e13271c68 ARM: dts: sunxi: h3/h5: Add r_intc node
-93d2795a24a26a4117ed28d4a58db3566c3ae033 ARM: dts: sunxi: Move wakeup-capable IRQs to r_intc
-90f74cf09ff3726db25bc391dae06510f8d591df arm64: dts: allwinner: Use the new r_intc binding
-2b8770215620f46a01ee2bbb541b6ab284b14bb3 arm64: dts: allwinner: Move wakeup-capable IRQs to r_intc
+8b97c027dfe4ba195be08fd0e18f716005763b8a static_call: Fix the module key fixup
 
---===============8738454320450736543==--
+--===============4701778934063087136==--
