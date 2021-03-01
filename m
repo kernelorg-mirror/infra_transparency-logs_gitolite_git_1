@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4701778934063087136=="
+Content-Type: multipart/mixed; boundary="===============0333767417907521790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 01 Mar 2021 10:13:59 -0000
-Message-Id: <161459363946.15880.9070186005179427341@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 10:14:30 -0000
+Message-Id: <161459367051.16126.16878661732880490798@gitolite.kernel.org>
 
---===============4701778934063087136==
+--===============0333767417907521790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 34b1a1ce1458f50ef27c54e28eb9b1947012907a
-    new: 8b97c027dfe4ba195be08fd0e18f716005763b8a
-    log: revlist-34b1a1ce1458-8b97c027dfe4.txt
+  - ref: refs/heads/sched/urgent
+    old: 2452483d9546de1c540f330469dc4042ff089731
+    new: fba111913e51a934eaad85734254eab801343836
+    log: revlist-2452483d9546-fba111913e51.txt
 
---===============4701778934063087136==
+--===============0333767417907521790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-34b1a1ce1458-8b97c027dfe4.txt
+Content-Disposition: attachment; filename=revlist-2452483d9546-fba111913e51.txt
 
-7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
-f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
-fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
-c72160fe05fb978ad859ba053c4462c2bb960b13 initramfs: Provide a common initrd reserve function
-aec33b54af55ef025e03e3dfbab3b8abe00eaa22 riscv: Covert to reserve_initrd_mem()
-e178d670f251b6947d6be99c0014e9a57ad4f0e0 riscv/kasan: add KASAN_VMALLOC support
 5da9cbd2b200369fd190c81bc1253e9a17ab3e8d arch/riscv:fix typo in a comment in arch/riscv/kernel/image-vars.h
 d4c34d09ab03e1e631fe195ddf35365a1273be9c pinctrl: Add RISC-V Canaan Kendryte K210 FPIOA driver
 5dd671333171d1ba44c16e1404f72788412e36f4 RISC-V: probes: Treat the instruction stream as host-endian
@@ -1049,6 +1043,12 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-8b97c027dfe4ba195be08fd0e18f716005763b8a static_call: Fix the module key fixup
+b8e45e2a14bab684713f5dfc70c9e578c333dcdd sched: Fix migration_cpu_stop() requeueing
+6430eb536a97036b1d529cbf383cfe36e41a2f97 sched: Simplify migration_cpu_stop()
+dbf983c0a5c37da2d476564792bd84e0e8f067fc sched: Collate affine_move_task() stoppers
+9eca0f53b1c2f5acb85e84673e263bf996817a24 sched: Optimize migration_cpu_stop()
+de8115ef5c83ef2c9941684019d59f4c2e5d16ce sched: Fix affine_move_task() self-concurrency
+a4c2579076dc6951709a8e425df8369ab6eb2f24 sched: Simplify set_affinity_pending refcounts
+fba111913e51a934eaad85734254eab801343836 sched/membarrier: fix missing local execution of ipi_sync_rq_state()
 
---===============4701778934063087136==--
+--===============0333767417907521790==--
