@@ -1,22 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 01 Mar 2021 23:38:12 -0000
-Message-Id: <161464189299.16082.13894813827989498331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 01 Mar 2021 23:50:03 -0000
+Message-Id: <161464260340.24389.4252746694830904117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 2353db75c3db1dd26ff9c8feccfd3543a9cb73be
-    new: 8811f4a9836e31c14ecdf79d9f3cb7c5d463265d
+  - ref: refs/heads/for-next
+    old: 52f0463ad3f57062c75eb7e8194cbe84efe69b79
+    new: 893c57e60f9db25039af98b7019d28f73a4122d0
     log: |
-         b228c9b058760500fda5edb3134527f629fc2dc3 net: expand textsearch ts_state to fit skb_seq_state
-         9200f515c41f4cbaeffd8fdd1d8b6373a18b1b67 net: dsa: tag_mtk: fix 802.1ad VLAN egress
-         3946688edbc5b629110c339b3babf10aa9e7adad hv_netvsc: Fix validation in netvsc_linkstatus_callback()
-         8811f4a9836e31c14ecdf79d9f3cb7c5d463265d tcp: add sanity tests to TCP_QUEUE_SEQ
+         cb25d9d135c6878d26912da58c44b839342c39e0 io_uring: choose right tctx->io_wq for try cancel
+         8a5aa2e895d5410cc38853a2667f538fe48d249e io_uring: inline io_req_clean_work()
+         3daa9e532470148be3aef47f4bce4b85827d2520 io_uring: inline __io_queue_async_work()
+         01213535bfe0f32d657710f7c41e6234fc9df992 io_uring: remove extra in_idle wake up
+         893c57e60f9db25039af98b7019d28f73a4122d0 Merge branch 'io_uring-5.12' into for-next
+         
+  - ref: refs/heads/io_uring-5.12
+    old: c70bd8b7861c9f27ba3c4fd951c4f2760caa6e8c
+    new: 01213535bfe0f32d657710f7c41e6234fc9df992
+    log: |
+         cb25d9d135c6878d26912da58c44b839342c39e0 io_uring: choose right tctx->io_wq for try cancel
+         8a5aa2e895d5410cc38853a2667f538fe48d249e io_uring: inline io_req_clean_work()
+         3daa9e532470148be3aef47f4bce4b85827d2520 io_uring: inline __io_queue_async_work()
+         01213535bfe0f32d657710f7c41e6234fc9df992 io_uring: remove extra in_idle wake up
          
