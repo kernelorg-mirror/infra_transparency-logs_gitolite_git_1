@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/man-pages
-Date: Mon, 01 Mar 2021 17:22:02 -0000
-Message-Id: <161461932205.12881.7197414749770610810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse-dev
+Date: Mon, 01 Mar 2021 17:22:38 -0000
+Message-Id: <161461935875.13193.17912252604078370649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/man-pages
-user: jarkko
+repo: pub/scm/devel/sparse/sparse-dev
+user: lucvoo
 changes:
   - ref: refs/heads/master
-    old: 974a0c327f3b0c3daba3828c072f1b7c4394d5e7
-    new: c7aa835c544d8841cea37f149fe97aee9c6f8491
+    old: eaceeafad39ade20c28b6634d30379763511c6e6
+    new: acc5c29877eff97d2c8dec9319d27f9dcb699a69
     log: |
-         c7aa835c544d8841cea37f149fe97aee9c6f8491 sgx.7: New page with overview of Software Guard eXtensions (SGX)
+         567dfd4f41d732043876dadc0697ba3b540066da fix eval of the assignment of a non-restricted value to a restricted variable
+         a5485e637222b988cf9d4300b0b58caf04f985a8 linearize.h: fix some 'selfcheck' warnings
+         ba404d63c70f00102dbe46dcc95e91c8c9755699 asm-out0: fix a test failure on 32-bit systems
+         acc5c29877eff97d2c8dec9319d27f9dcb699a69 Merge branch 'fix-restrict' into next
          
