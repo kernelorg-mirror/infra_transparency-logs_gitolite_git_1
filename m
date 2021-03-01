@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============5025287787288354166=="
+Content-Type: multipart/mixed; boundary="===============0941617208514451155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 01 Mar 2021 10:36:22 -0000
-Message-Id: <161459498206.29817.6176599792370151813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 01 Mar 2021 10:37:14 -0000
+Message-Id: <161459503417.30110.2749216215532322598@gitolite.kernel.org>
 
---===============5025287787288354166==
+--===============0941617208514451155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
   - ref: refs/heads/for-next
-    old: c5318e248f527fc8753e361bb61439f4e0c6d745
-    new: a43e36928cf4739aeae4462054746c5feb857941
-    log: revlist-c5318e248f52-a43e36928cf4.txt
+    old: 0e793a4e283487378e9a5b7db37bc1781bc72fd7
+    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    log: revlist-0e793a4e2834-fe07bfda2fb9.txt
 
---===============5025287787288354166==
+--===============0941617208514451155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5318e248f52-a43e36928cf4.txt
+Content-Disposition: attachment; filename=revlist-0e793a4e2834-fe07bfda2fb9.txt
 
+9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
 f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
 fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
@@ -1049,6 +1050,5 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-a43e36928cf4739aeae4462054746c5feb857941 gpiolib: acpi: Add missing IRQF_ONESHOT
 
---===============5025287787288354166==--
+--===============0941617208514451155==--
