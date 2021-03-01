@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8163620101383045116=="
+Content-Type: multipart/mixed; boundary="===============3629049540625753939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 01 Mar 2021 17:21:51 -0000
-Message-Id: <161461931176.12716.13308529261764809392@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 17:22:01 -0000
+Message-Id: <161461932163.12850.6057136544714040582@gitolite.kernel.org>
 
---===============8163620101383045116==
+--===============3629049540625753939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,37 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 88eee9b7b42e69fb622ddb3ff6f37e8e4347f5b2
-    new: 447621e373bd1b22300445639b43c39f399e4c73
-    log: revlist-88eee9b7b42e-447621e373bd.txt
+  - ref: refs/heads/dev-queue
+    old: 045cf476dfdf9cae79a59523d513f3d9bf0699a6
+    new: ed9ffd7ef9d67915081b2cfba3096252e28c3c0f
+    log: revlist-045cf476dfdf-ed9ffd7ef9d6.txt
 
---===============8163620101383045116==
+--===============3629049540625753939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88eee9b7b42e-447621e373bd.txt
+Content-Disposition: attachment; filename=revlist-045cf476dfdf-ed9ffd7ef9d6.txt
 
-1d32854ea76331d10d376ed3ac67831b94466ae9 Merge branch 'for-next/misc' into for-next/core
-c974a8e574f9644aba0607958a3abce596699dc1 Merge branch 'for-next/perf' into for-next/core
-cf6a85a85089f2a7750a5eef6f4dd4721b1c441c Merge branch 'for-next/random' into for-next/core
-9dc8313cfd0b13771aedd8a53fca3438c7cbb880 Merge branch 'for-next/rng' into for-next/core
-82a1c2b94ac088674caa246dfe0c09f4e6fe05d0 Merge branch 'for-next/selftests' into for-next/core
-d23fa87cde1dcdcc892d385a7bb5eb6f0420b917 Merge branch 'for-next/stacktrace' into for-next/core
-dcabe10d97f51d0ceca4ef54e607de85d665546f Merge branch 'for-next/topology' into for-next/core
-1ffa9763828cf73a4d4eaa04c29a4a89fb0708c7 Merge branch 'for-next/vdso' into for-next/core
-93e4f73a93717993bd239e6606689e9ae01c6926 Merge branch 'sched/smp' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip into for-5.12/block-ipi
-0a2efafbb1c752a7041652445bc1232114409633 blk-mq: Always complete remote completions requests in softirq
-f9ab49184af093f0bf6c0e6583f5b25da2c09ff5 blk-mq: Use llist_head for blk_cpu_done
-f286303286f8c2cbef319f6288abb1e053a1b3d9 parisc: Drop out of get_whan() if task is running again
-61c439439cccac7854b9ecac25554ee45175557a parisc: Use the generic devmem_is_allowed()
-c70919bd9d0782a6078ccd37d7f861d514f5481e parisc: Fix IVT checksum calculation wrt HPMC
-31680c1d1595a59e17c14ec036b192a95f8e5f4a parisc: Bump 64-bit IRQ stack size to 64 KB
-ae3c4761c15d96999d1aab6c57aedc3beb7fa004 parisc: Replace test_ti_thread_flag() with test_tsk_thread_flag()
-0d3070f5e6551d8a759619e85736e49a3bf40398 ALSA: hda: Add another CometLake-H PCI ID
-b7795074a04669d0a023babf786d29bf67c68783 parisc: Optimize per-pagetable spinlocks
-f6692213b5045dc461ce0858fb18cf46f328c202 integrity: Make function integrity_add_key() static
-8c6e67bec3192f16fa624203c8131e10cc4814ba Merge tag 'kvmarm-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 99e22ce73c59ac2d6d08893af376483ca7d62850 tracing: Make hash-ptr option default
 e23db805da2dfc39e5281b5efd3e36d132aa83af tracing/tools: Add the latency-collector to tools directory
 13791c80b0cdf54d92fc54221cdf490683b109de printk: avoid prb_first_valid_seq() where possible
@@ -1050,5 +1030,25 @@ ae85ddda0f1b341b2d25f5a5e0eff1d42b6ef3df net: hns3: fix error mask definition of
 c75ec148a316e8cf52274d16b9b422703b96f5ce net: hns3: fix query vlan mask value error for flow director
 b36fc875bcdee56865c444a2cdae17d354a6d5f5 net: hns3: fix bug when calculating the TCAM table info
 447621e373bd1b22300445639b43c39f399e4c73 Merge branch 'net-hns3-fixes-fot-net'
+aa6ef6a6beef6657f295436e56eb85e858138672 checkpatch: Fix warnings when --no-tree is used
+d31b41daefe2d637fe9fd6ab537361377d3e05ac checkpatch.pl: seed camelcase from the provided kernel tree root
+3aecdb4113c7c56983693e6cec0a7bb5f10a42e0 ice: Fix a couple off by one bugs
+952425a5353230dfd3fc9d7d731a69752f59ba82 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+3d96b942372c1f7f011f2de01c81a8b5d034121b ixgbe: Fix memleak in ixgbe_configure_clsu32
+f20353eabb27bfb0a49294e5eb2b1ba20214b7f9 igb: avoid premature Rx buffer reuse
+7b34df08edf1f241c18c9706660bbbb81489c187 iavf: Fix asynchronous tasks during driver remove
+13859e46089a091fa2725419b74c615e20416cc3 i40e: Fix correct max_pkt_size on VF RX queue
+f7c02fa4bf7b65d0c7270f4ecfaa0e43da19f8f8 ixgbe: add NULL pointer check before calling xdp_rxq_info_reg
+51b512e48d704a6fa26fa69657c42fcdc00d13ce virtchnl: Fix layout of RSS structures
+4737ab2e2d008f10a850919884ae4d3ce3446547 ice: fix napi work done reporting in xsk path
+00c98dc25cb7da53e4cf7a3de89904972d269ac9 igc: Fix igc_ptp_rx_pktstamp()
+297775b384ab6163c5654f7561864c36415fb827 iavf: Fix return of set the new channel count
+056c0bdd7e3fa0e9c6919b93b357333eb3cb1102 i40e: Fix kernel oops when i40e driver removes VF's
+3704b6f3355f34fd3f6318a6953f138fac65e26b i40e: Fix oops at i40e_rebuild()
+6263620652768fabbf78c9b0e295547f7e880939 igc: Fix Pause Frame Advertising
+577471e554abaffb1a3f259806d72ebe5f82b41b igc: Fix Supported Pause Frame Link Setting
+34bbfe11974352ec277a81e24cc629969f201dfc e1000e: Fix duplicate include guard
+ab9c61def716b5ec77610b1482a1521f729925f9 igb: Fix duplicate include guard
+ed9ffd7ef9d67915081b2cfba3096252e28c3c0f i40e: Fix NULL ptr dereference on VSI filter sync
 
---===============8163620101383045116==--
+--===============3629049540625753939==--
