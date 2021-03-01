@@ -1,85 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============3435201230150662905=="
+Content-Type: multipart/mixed; boundary="===============3425959572761748505=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 01 Mar 2021 22:01:35 -0000
-Message-Id: <161463609514.21734.14817363846247608503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
+Date: Mon, 01 Mar 2021 22:08:09 -0000
+Message-Id: <161463648941.24899.16444489830043624064@gitolite.kernel.org>
 
---===============3435201230150662905==
+--===============3425959572761748505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
+user: jaegeuk
 changes:
-  - ref: refs/heads/dev-queue
-    old: ed9ffd7ef9d67915081b2cfba3096252e28c3c0f
-    new: 2a030e0923e08bbfb9a0acdfb9471d344c81f4bb
-    log: revlist-ed9ffd7ef9d6-2a030e0923e0.txt
+  - ref: refs/heads/linux-4.14.y
+    old: d27fed54488dec519fbf795afcde6cccdc824035
+    new: 9e7764806659d8f27d7bd4913f7255c5f331df19
+    log: revlist-d27fed54488d-9e7764806659.txt
 
---===============3435201230150662905==
+--===============3425959572761748505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed9ffd7ef9d6-2a030e0923e0.txt
+Content-Disposition: attachment; filename=revlist-d27fed54488d-9e7764806659.txt
 
-73f476aa1975bae6a792b340f5b26ffcfba869a6 net: phy: ti: take into account all possible interrupt sources
-826d82170b539f16e1955ab940222543c012044e xen-netback: use local var in xenvif_tx_check_gop() instead of re-calculating
-9eb8bc593a5eed167dac2029abef343854c5ba75 net: dsa: tag_rtl4_a: fix egress tags
-4372339efc06bc2a796f4cc9d0a7a929dfda4967 net: always use icmp{,v6}_ndo_send from ndo_start_xmit
-d9032dba5a2b2bbf0fdce67c8795300ec9923b43 net: phy: fix save wrong speed and duplex problem if autoneg is on
-4deb550bc3b698a1f03d0332cde3df154d1b6c1e atm: eni: dont release is never initialized
-a2bd45834e83d6c5a04d397bde13d744a4812dfc atm: lanai: dont run lanai_dev_close if not open
-8c91bc3d44dfef8284af384877fbe61117e8b7d1 sh_eth: fix TRSCER mask for SH771x
-75be7fb7f978202c4c3a1a713af4485afb2ff5f6 sh_eth: fix TRSCER mask for R7S72100
-165bc5a4f30eee4735845aa7dbd6b738643f2603 sh_eth: fix TRSCER mask for R7S9210
-5db4f74ec86440fc8c9e391416f3b146d63fef9f Merge branch 'sh_eth-masks'
-093b036aa94e01a0bea31a38d7f0ee28a2749023 net/qrtr: fix __netdev_alloc_skb call
-8bd2a05527349c8627d2b9795d3c7a6f76033676 inetpeer: use div64_ul() and clamp_val() calculate inet_peer_threshold
-c646d10dda2dcde82c6ce5a474522621ab2b8b19 net: enetc: don't overwrite the RSS indirection table when initializing
-3222b5b613db558e9a494bbf53f3c984d90f71ea net: enetc: initialize RFS/RSS memories for unused ports too
-6d36ecdbc4410e61a0e02adc5d3abeee22a8ffd3 net: enetc: take the MDIO lock only once per NAPI poll cycle
-827b6fd046516af605e190c872949f22208b5d41 net: enetc: fix incorrect TPID when receiving 802.1ad tagged packets
-a74dbce9d4541888fe0d39afe69a3a95004669b4 net: enetc: don't disable VLAN filtering in IFF_PROMISC mode
-c76a97218dcbb2cb7cec1404ace43ef96c87d874 net: enetc: force the RGMII speed and duplex instead of operating in inband mode
-96a5223b918c8b79270fc0fec235a7ebad459098 net: enetc: remove bogus write to SIRXIDR from enetc_setup_rxbdr
-3a5d12c9be6f30080600c8bacaf310194e37d029 net: enetc: keep RX ring consumer index in sync with hardware
-8a00946e1a0ed0d01fb0961bd8ba1b115a19a8f4 Merge branch 'enetc-fixes'
-64a30dabe540cb42eaa07ff18f42a2efb0558c36 checkpatch: Fix warnings when --no-tree is used
-65c0e64bad9c1d8551ba702039bf13f9bfa2a493 checkpatch.pl: seed camelcase from the provided kernel tree root
-05c1fef61f799b1db578d100b7aa448881de314b ice: Fix a couple off by one bugs
-2e602b9a96b6c9c4b8d95038a059749dd6a96bae ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
-09e3072e1c149eaaf1ffb13fb9155572d2e73734 ixgbe: Fix memleak in ixgbe_configure_clsu32
-297db937b7869a0a534715b1e9ca2c6ba969711b igb: avoid premature Rx buffer reuse
-e4f97817a566124ba942b286e4cf0043b9b88c45 iavf: Fix asynchronous tasks during driver remove
-afc25e355f94fa960055b810b9efca8efc5ee2dc i40e: Fix correct max_pkt_size on VF RX queue
-a9258519435f542934ab0bff58f8c16fca5abc93 ixgbe: add NULL pointer check before calling xdp_rxq_info_reg
-8b9cd39111c7a1e5427e6a0221aa5944f494a00b virtchnl: Fix layout of RSS structures
-a356238815cacc21b54c3338ea733d64611a2075 ice: fix napi work done reporting in xsk path
-48cd07b01f610790d33b665d3e718d7ea47dcd02 igc: Fix igc_ptp_rx_pktstamp()
-2ac4518fcdd90cc06cc2be1382093138ad241b7e iavf: Fix return of set the new channel count
-7107570da18c0d33730e05c988e7cd6d4ad0a267 i40e: Fix kernel oops when i40e driver removes VF's
-a5ae32df26ea3859ccb72ecb218027cf181caa27 i40e: Fix oops at i40e_rebuild()
-2ab51bad856ac5d02bd922a01c4eeae659faf157 igc: Fix Pause Frame Advertising
-0ebc73fc57508c6c068b388aefc3fc1e420f3853 igc: Fix Supported Pause Frame Link Setting
-44deb5fb5a354d277cad57eda58d9f17a6d95086 e1000e: Fix duplicate include guard
-98b6541a90838752e0fea9e04026312c56296ed9 igb: Fix duplicate include guard
-bd99847c216c1c5cb78a7b0744e84cbbffa13175 i40e: Fix NULL ptr dereference on VSI filter sync
-3b1d9d37ea70431cd6b79c69dcbc62944f436868 ice: Fix allowing VF to request more/less queues via virtchnl
-9ac19590408ea4aa89b4d5743ed963d65e2674f5 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
-568182a5c4569efcfb21c551873d99930818aef0 ice: Continue probe on link/PHY errors
-45e9dde8206464eee1c8e44ec6bb1dc6d8301afe ice: Fix VF true promiscuous mode
-7b6b94d855eeb4aa317fd6e38b4ec593b0cb57ec ice: Increase control queue timeout
-1fbd7f9da8b38ae32aea92a2a5b7dd5fdec0d340 ice: Recognize 860 as iSCSI port in CEE mode
-e34729c2b24dcc1a7473f60a16e2e35086b5e796 ice: prevent ice_open and ice_stop during reset
-67a1874deb2666c6aa9315a5d4a2275cd43525c7 ice: fix memory allocation call
-0b4c485259b3f0dd57dd35734e1a6a82b0f4481e ice: remove DCBNL_DEVRESET bit from PF state
-2a1239bb71392fbbbe2ee538a1356c3f21650535 ice: Fix for dereference of NULL pointer
-1df4ba847e565b8c6c5b41784b53d106b12a721b ice: Use port number instead of PF ID for WoL
-43702e8223b5a6a4463ac1e20b16436b5eab1ccb ice: handle the VF VSI rebuild failure
-2a030e0923e08bbfb9a0acdfb9471d344c81f4bb ice: Cleanup fltr list in case of allocation issues
+873d18e1acc5eaf94cfd3a38d4757091bef665b6 f2fs: handle unallocated section and zone on pinned/atgc
+662061bedb4be6814da56240a0a14b8d62b71d47 f2fs: Replace expression with offsetof()
+41182c89a638ae46c7405f3364d5e63135b5e483 f2fs: fix to set inode->i_mode correctly for posix_acl_update_mode
+3653c9058b40aa8d74f4a5b36fb05ecb35875be8 f2fs: enhance to update i_mode and acl atomically in f2fs_setattr()
+45c81931c587416ab9c69a89d5568086494483b6 f2fs: enforce the immutable flag on open files
+5457f150b80362acf34b74d231694545dde95210 f2fs: relocate f2fs_precache_extents()
+991620a7e2abd6bcfcf844ee699334a46166e80f f2fs: compress: deny setting unsupported compress algorithm
+890f3411af01348eca57b12e3a68985fe058cba7 f2fs: compress: support compress level
+05f0213a3dd289560f0fe28578d78edf64f09aa5 f2fs: introduce a new per-sb directory in sysfs
+611eb470e5fc819420d57af09d44995212345312 f2fs: fix to tag FIEMAP_EXTENT_MERGED in f2fs_fiemap()
+79998baf09419f3843bc49f56130bb853b95f621 f2fs: fix out-of-repair __setattr_copy()
+88864efadc440ac3aeb541d453f348b5352e09d8 f2fs: trival cleanup in move_data_block()
+9c6326f52d3d7b3869e07775fc8a1f4da2cb3a5a f2fs: clean up post-read processing
+c006167056ff89424915f1d6bfc1ab41dbf10327 f2fs: fix null page reference in redirty_blocks
+4ad9c742e32e89185071c2ad3ce4f66626bcbb0f f2fs: fix to set/clear I_LINKABLE under i_lock
+d9190012465599e72032baf9ead366961502aac0 libfs: unexport generic_ci_d_compare() and generic_ci_d_hash()
+936779bb6aedb3c7a45176d8883ae1c8f3a18b6e f2fs: compress: fix potential deadlock
+7a99cfcda50cc7bcf1ebe044f6721860d4e7ee8d f2fs: fix to use per-inode maxbytes
+4f64dc0f34aa63a94ce489866ef9f6fdb71ac886 f2fs: introduce sb_status sysfs node
+287af1172ac6e3f0e81b5895f27da0705bf0dbe7 f2fs: remove unused stat_{inc, dec}_atomic_write
+ff255df93ff0c4be86f949c610ed908679d51433 f2fs: deprecate f2fs_trace_io
+3ec17c2312ab2fa951767475cd93ccc2ea6f98ac f2fs: flush data when enabling checkpoint back
+ea243ec0fc464f62ac3a42b7ce7cf66f79ffa31c f2fs: fix to avoid inconsistent quota data
+0937752318ba6d1f57de4bfd62adcfb416928c07 f2fs: remove unnecessary initialization in xattr.c
+22ad9245734268778732b7bf1e51e26a971fe999 f2fs: fix a wrong condition in __submit_bio
+f5002066aa0db94d40f8ef2efa523615599c6151 f2fs: relocate inline conversion from mmap() to mkwrite()
+af4dbb41f86e7337490749a5504af68bdaef492a f2fs: introduce checkpoint_merge mount option
+4894cee6d06ee51d079e3c4daa8742642b22d820 f2fs: add ckpt_thread_ioprio sysfs node
+a5366f62b3760d3ef70501941b7b1d9f9adddc7e f2fs: don't grab superblock freeze for flush/ckpt thread
+6848b1ddb3882d5baf8e7d06222eb2edbd437b70 f2fs: give a warning only for readonly partition
+7d4bedd9db3740437162e42e64f99ad766dff96b Documentation: f2fs: fix typo s/automaic/automatic
+43f88d2c4fe0a47a3e3cd1b8aaa715b61fb2377d quota: be aware of error from dquot_initialize
+91d515cac5c7e71afbbaff5276c85c07629cd4f9 quota: propagate error from __dquot_initialize
+a398ad72fece683340051b8a7296b6612010e26e quota: Check for register_shrinker() failure.
+5138960220efe25bc8797465866912df55be0487 fs: quota: Replace GFP_ATOMIC with GFP_KERNEL in dquot_init
+a03dd7af982ae90eeed6ecc994af7f3437144968 quota: reclaim least recently used dquots
+6021581237c1ab821e4c64a8d8a2f4bed75f8a5f quota: Cleanup list iteration in dqcache_shrink_scan()
+e9d326dd4769c7cf75e4098da438a88aa3948817 f2fs: remove a few bd_part checks
+7b2abfd901ec27e91f0b21598245f81fe40259d0 f2fs: use blkdev_issue_flush in __submit_flush_wait
+9e7764806659d8f27d7bd4913f7255c5f331df19 f2fs: remove FAULT_ALLOC_BIO
 
---===============3435201230150662905==--
+--===============3425959572761748505==--
