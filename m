@@ -1,37 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============6683091374869236710=="
+Content-Type: multipart/mixed; boundary="===============1526782426750175002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 01 Mar 2021 10:35:32 -0000
-Message-Id: <161459493225.29242.13922891599437323705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 01 Mar 2021 10:35:41 -0000
+Message-Id: <161459494138.29335.17052028546478150052@gitolite.kernel.org>
 
---===============6683091374869236710==
+--===============1526782426750175002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/master
-    old: 33c184d73b47952c64d3d29e808fb4b5379d5046
-    new: c28144dc9685de3293c3672e85b2f8f89b7615f4
-    log: revlist-33c184d73b47-c28144dc9685.txt
-  - ref: refs/heads/renesas-arm-dt-for-v5.13
-    old: 0000000000000000000000000000000000000000
-    new: 292e0f7520a565fe958e0256e0cd09ae1d9a2fcb
-  - ref: refs/heads/renesas-drivers-for-v5.13
-    old: 0000000000000000000000000000000000000000
-    new: fb13bbd6c90ee4fb983c0e9a341bd2832a3857cf
+  - ref: refs/heads/review-andy
+    old: 39b8439e3828d3fd3c78e5129143d7a016306bea
+    new: 3283ebdfe290a4bd969b99b8559568259e173424
+    log: revlist-39b8439e3828-3283ebdfe290.txt
 
---===============6683091374869236710==
+--===============1526782426750175002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33c184d73b47-c28144dc9685.txt
+Content-Disposition: attachment; filename=revlist-39b8439e3828-3283ebdfe290.txt
 
+aec33b54af55ef025e03e3dfbab3b8abe00eaa22 riscv: Covert to reserve_initrd_mem()
+e178d670f251b6947d6be99c0014e9a57ad4f0e0 riscv/kasan: add KASAN_VMALLOC support
+5da9cbd2b200369fd190c81bc1253e9a17ab3e8d arch/riscv:fix typo in a comment in arch/riscv/kernel/image-vars.h
+d4c34d09ab03e1e631fe195ddf35365a1273be9c pinctrl: Add RISC-V Canaan Kendryte K210 FPIOA driver
+5dd671333171d1ba44c16e1404f72788412e36f4 RISC-V: probes: Treat the instruction stream as host-endian
+3449831d92fea50b470d5b22435cfeaf15a6dd54 RISC-V: remove unneeded semicolon
+4cd48bb3b07730214d4e56abd6030c5159eb2572 arch_numa: fix common code printing of phys_addr_t
+65d4b9c5301749d18b5ec1323fdefecefab72687 RISC-V: Implement ASID allocator
 bd6d617aac21502f3042bd472238fbe3f9b77083 of: property: fw_devlink: Ignore interrupts property for some configs
 3e4c982f1ce75faf5314477b8da296d2d00919df Revert "driver core: Set fw_devlink=on by default"
 c060c72ffeb448fbb5864faa1f672ebfe14dd25f KVM: x86/mmu: Expand collapsible SPTE zap for TDP MMU to ZONE_DEVICE and HugeTLB pages
@@ -1043,18 +1045,10 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-4a3aba12a937b771dea785705bc8c0dbec3ee451 ARM: dts: r8a7742-iwg21d-q7-dbcm-ca: Separate out ov5640 nodes
-79360ef45229871fa7aaf0a6341e5a67cef29357 ARM: dts: r8a7742-iwg21d-q7-dbcm-ca: Add support for 8-bit ov7725 sensors
-6a69c7f0b9b6e36718a4033ab1ef744b580a3ac1 ARM: dts: renesas: Group tuples in APMU cpus properties
-afdd414b2a82febcd3e950cce4ef83cea4492ccf ARM: dts: renesas: Group tuples in playback and capture properties
-61e2a977b4cde39f983cd91b4c4df991a3ad7ac8 ARM: dts: renesas: Group tuples in pin control properties
-50aa7c39db151821e4779ded1bb5f2c36ccb8e0e arm64: dts: renesas: Group tuples in playback and capture properties
-4e1fda849052a488b1a578d1e247479086529b60 arm64: dts: renesas: Group tuples in pin control properties
-23cea1bd83cb062eed2f17c788f8e0266dd9770a ARM: dts: renesas: Add mmc aliases into R-Car Gen2 board dts files
-292e0f7520a565fe958e0256e0cd09ae1d9a2fcb arm64: dts: renesas: r8a77961-ulcb: add HDMI Display support
-9d839455a848fae96afae3538f37f9a7ba1c4e5d soc: renesas: rmobile-sysc: Remove unneeded platform includes
-fb13bbd6c90ee4fb983c0e9a341bd2832a3857cf soc: renesas: rmobile-sysc: Mark fwnode when PM domain is added
-3158164f15266c9acdb4d53ec2df89b4723dcde7 Merge branches 'renesas-arm-dt-for-v5.13' and 'renesas-drivers-for-v5.13' into renesas-next
-c28144dc9685de3293c3672e85b2f8f89b7615f4 Merge branch 'renesas-next' into renesas-devel
+a43e36928cf4739aeae4462054746c5feb857941 gpiolib: acpi: Add missing IRQF_ONESHOT
+d99ca3827c2ce7faf6674edc5b2c6389abe290a1 gpiolib: acpi: Add ACPI_GPIO_QUIRK_ABSOLUTE_NUMBER quirk
+98fee149a244bc9fab7d75a189411867df795e89 gpiolib: acpi: Allow to find GpioInt() resource by name and index
+70cd7417a3219de153c6ba040c4d4eab99cd0692 gpio: pca953x: Set IRQ type when handle Intel Galileo Gen 2
+3283ebdfe290a4bd969b99b8559568259e173424 ARM: Drop ARCH_NR_GPIOS definition
 
---===============6683091374869236710==--
+--===============1526782426750175002==--
