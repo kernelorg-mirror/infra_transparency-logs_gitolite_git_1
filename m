@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2943375159344070671=="
+Content-Type: multipart/mixed; boundary="===============1067595709498503221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 01 Mar 2021 08:03:51 -0000
-Message-Id: <161458583139.14163.17395871257975641506@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 08:04:01 -0000
+Message-Id: <161458584154.14307.9295980959625947503@gitolite.kernel.org>
 
---===============2943375159344070671==
+--===============1067595709498503221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-linus
+  - ref: refs/heads/master
     old: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
     new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
     log: revlist-7c53f6b671f4-fe07bfda2fb9.txt
 
---===============2943375159344070671==
+--===============1067595709498503221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============2943375159344070671==--
+--===============1067595709498503221==--
