@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============1225661907230247448=="
+Content-Type: multipart/mixed; boundary="===============8699624761315477964=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 01 Mar 2021 04:34:22 -0000
-Message-Id: <161457326224.26373.11062205411805890895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Mon, 01 Mar 2021 05:15:47 -0000
+Message-Id: <161457574756.20521.14989955173803600320@gitolite.kernel.org>
 
---===============1225661907230247448==
+--===============8699624761315477964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/chanwoo/linux
+user: chanwoo
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 67fc209b527d023db4d087c68e44e9790aa089ef
-    new: 8f9d3ee02bcce8abcfbc9159a260082e4e754c82
-    log: revlist-67fc209b527d-8f9d3ee02bcc.txt
+  - ref: refs/heads/master
+    old: f40ddce88593482919761f74910f42f4b84c004b
+    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    log: revlist-f40ddce88593-fe07bfda2fb9.txt
 
---===============1225661907230247448==
+--===============8699624761315477964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67fc209b527d-8f9d3ee02bcc.txt
+Content-Disposition: attachment; filename=revlist-f40ddce88593-fe07bfda2fb9.txt
 
+9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
+7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
 f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
 fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
 c72160fe05fb978ad859ba053c4462c2bb960b13 initramfs: Provide a common initrd reserve function
@@ -1048,7 +1050,5 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-3b743ed8685307abdef89b50376338e123d50e4e cpufreq: qcom-hw: fix dereferencing freed memory 'data'
-8f9d3ee02bcce8abcfbc9159a260082e4e754c82 cpufreq: blacklist Arm Vexpress platforms in cpufreq-dt-platdev
 
---===============1225661907230247448==--
+--===============8699624761315477964==--
