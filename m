@@ -1,58 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6014868481599297534=="
+Content-Type: multipart/mixed; boundary="===============7075102385700976690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 01 Mar 2021 23:33:49 -0000
-Message-Id: <161464162918.12822.16624531532101058734@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 01 Mar 2021 23:33:56 -0000
+Message-Id: <161464163637.12922.5159346951718349704@gitolite.kernel.org>
 
---===============6014868481599297534==
+--===============7075102385700976690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.12
-    old: 27866e3e8a7e93494f8374f48061aa73ee46ceb2
-    new: 66f9f2d5d94f374605d829b9e690e8cdc9d0d05d
+  - ref: refs/heads/for-5.13
+    old: 536e9fc6678d7b0e3d17a5d6093733096c62901c
+    new: 44233a5ba2511b85da3c055a0ab7c28976544e47
     log: |
-         be86c3fd26c708da4bef59162efd41ec4f4666c5 regulator: mt6315: Return REGULATOR_MODE_INVALID for invalid mode
-         ef4848a6532ba0b241d3b6cad70378ff2c5615ca regulator: pca9450: Fix return value when failing to get sd-vsel GPIO
-         62861a478e06d87dbfbb0ed3684056ba19a9886e regulator: qcom-rpmh: Correct the pmic5_hfsmps515 buck
-         8fb4acb880e9467adca913e51adf5c1f96fbbeb9 regulator: qcom-rpmh: Use correct buck for S1C regulator
-         66f9f2d5d94f374605d829b9e690e8cdc9d0d05d regulator: pca9450: Clear PRESET_EN bit to fix BUCK1/2/3 voltage setting
+         9923f8e3039ed0361c2476d5d3c5195c7f766504 spi: omap2-mcspi: Activate pinctrl idle state during runtime suspend
+         d86e880f7a7c5b64a650146a1353f98750863f21 spi: rockchip: avoid objtool warning
+         c5f754fd0a31d2c6f2f8d11f3db1427b5566f1e7 spi: atmel: Drop unused variable
+         44233a5ba2511b85da3c055a0ab7c28976544e47 spi: cadence-quadspi: add missing of_node_put
          
-  - ref: refs/heads/regulator-5.13
-    old: 0000000000000000000000000000000000000000
-    new: 755a74fc655ee95ce37bb0f552cbd39b52978a05
 
---===============6014868481599297534==
+--===============7075102385700976690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1614641563 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1614641626-56be9a1387b5dd0c81686e9d77e6caeca83a1b7b
+pusher C3F436CA30F5D8EB 1614641570 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1614641633-bf8ebd3181e3a957efc1fdd7deea06e632d1dcc7
 
-27866e3e8a7e93494f8374f48061aa73ee46ceb2 66f9f2d5d94f374605d829b9e690e8cdc9d0d05d refs/heads/regulator-5.12
-0000000000000000000000000000000000000000 755a74fc655ee95ce37bb0f552cbd39b52978a05 refs/heads/regulator-5.13
+536e9fc6678d7b0e3d17a5d6093733096c62901c 44233a5ba2511b85da3c055a0ab7c28976544e47 refs/heads/for-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmA9eZsACgkQJNaLcl1U
-h9ArUwf/Uph3WocQDGikv4MTmNmVmyEU/FR43dLWaMxjWSDeMrhs6K3hpHGSlSjB
-xElTWQnghXZyh3L/Scpr+GiDFOHS1pPOxPR3tMxFuapk1Q0Npv/AdO6ux8vZs/fb
-Ct0/Mf6rxauvT2dySDtJ1o3mlEXEu+sXWiS1fztPDfpjrbRBRrUv2aNX94X/aTZ7
-3PBROgszwj55CUbK2DeUsGh/AEKIJ1z5BqH3crndolTY+Pp77TuxjYcQDf57HvYs
-7Yvc3TqanLxg29eOTQdZ1/fpLQkG3Qz+9zChigkP3aGxFqNkp1KE8xacwlrozitC
-QzuFURs3IIA+VXujtFDg/FocnUefSw==
-=kymh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmA9eaIACgkQJNaLcl1U
+h9B7Ewf/eyTyOhZrEPSGZLOixs0UbZ8CAcobASvRaq404oWC6UuR8Iqz9MSj2lpW
+17zT/95xnG+d7dxyBp1/EQBjFC6CS7OhLl7PIakDPL7hD+t15j79e8gcXkUvWrJS
+BeMZtUSTPnWWWBcVmYVZi1umcvJMTH1pW+xd9Z5M/1ynU6XD36ZZnv9rUVgXen1n
+SckYlnSZv5CkAw6LMRv6VBoFn1JgRZYWSj3CgSb2Mq1PFHusmjgeKNJxlQ5/iEpP
+8OmTQxVJSCz09jrdEP3S1wcUQSY21XdgDXWQyOCdByL5TAFhmVJpM8RsfJRn4WHK
+F4kk2HhiM8TxxnG96kDL4aSrpYULlg==
+=Ta6l
 -----END PGP SIGNATURE-----
 
---===============6014868481599297534==--
+--===============7075102385700976690==--
