@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9199935085349229356=="
+Content-Type: multipart/mixed; boundary="===============0408394361896641163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 01 Mar 2021 17:12:07 -0000
-Message-Id: <161461872777.6903.2956998418866765475@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 17:12:29 -0000
+Message-Id: <161461874941.7121.3625681244819248569@gitolite.kernel.org>
 
---===============9199935085349229356==
+--===============0408394361896641163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit-fixes
-    old: 2b8fdbbf1c616300312f71fe5b21fe8f03129950
+  - ref: refs/heads/devel
+    old: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
     new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-2b8fdbbf1c61-fe07bfda2fb9.txt
+    log: revlist-e71ba9452f0b-fe07bfda2fb9.txt
 
---===============9199935085349229356==
+--===============0408394361896641163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b8fdbbf1c61-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-e71ba9452f0b-fe07bfda2fb9.txt
 
 9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
@@ -1051,4 +1051,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============9199935085349229356==--
+--===============0408394361896641163==--
