@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6169630291575043439=="
+Content-Type: multipart/mixed; boundary="===============6123893779230594134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 01 Mar 2021 05:19:03 -0000
-Message-Id: <161457594330.22071.9465651974552504484@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 05:19:43 -0000
+Message-Id: <161457598338.22390.6136676425154110986@gitolite.kernel.org>
 
---===============6169630291575043439==
+--===============6123893779230594134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: 0547d3e2f5c987fa70a17a423a2fa095e3669dfb
-    new: 0d844b9f317705b3b1f9de2d6e6da352699bd82d
-    log: revlist-0547d3e2f5c9-0d844b9f3177.txt
+  - ref: refs/heads/devfreq-testing
+    old: 245be5c9be5382d16e12c6c7e466ccf22a7b0556
+    new: 0f159b884a873309e658476a6a58b5a6375258c7
+    log: revlist-245be5c9be53-0f159b884a87.txt
 
---===============6169630291575043439==
+--===============6123893779230594134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0547d3e2f5c9-0d844b9f3177.txt
+Content-Disposition: attachment; filename=revlist-245be5c9be53-0f159b884a87.txt
 
-7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
-f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
-fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
 c72160fe05fb978ad859ba053c4462c2bb960b13 initramfs: Provide a common initrd reserve function
 aec33b54af55ef025e03e3dfbab3b8abe00eaa22 riscv: Covert to reserve_initrd_mem()
 e178d670f251b6947d6be99c0014e9a57ad4f0e0 riscv/kasan: add KASAN_VMALLOC support
@@ -1050,5 +1047,8 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 0d844b9f317705b3b1f9de2d6e6da352699bd82d PM / devfreq: rk3399_dmc: Simplify with dev_err_probe()
+dfbc086400c5058ff81240752cfa95ead505e82d PM / devfreq: passive: Update frequency when start governor
+12014bcc2214c6a62256d22a07741d75307fffd0 PM / devfreq: Add new up_threshold and down_differential sysfs attrs
+0f159b884a873309e658476a6a58b5a6375258c7 PM / devfreq: Add devfreq_transitions debugfs file
 
---===============6169630291575043439==--
+--===============6123893779230594134==--
