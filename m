@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0832938237110038183=="
+Content-Type: multipart/mixed; boundary="===============7898235671462344216=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 01 Mar 2021 02:31:44 -0000
-Message-Id: <161456590435.18353.6132989718564638671@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 02:31:49 -0000
+Message-Id: <161456590977.18421.12759669591927434838@gitolite.kernel.org>
 
---===============0832938237110038183==
+--===============7898235671462344216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
     new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
     log: revlist-5c8fe583cce5-fe07bfda2fb9.txt
 
---===============0832938237110038183==
+--===============7898235671462344216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============0832938237110038183==--
+--===============7898235671462344216==--
