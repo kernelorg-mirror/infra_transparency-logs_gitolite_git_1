@@ -1,37 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nmenon/linux
-Date: Mon, 01 Mar 2021 15:11:23 -0000
-Message-Id: <161461148305.25006.12253657461633008154@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6937008946075844380=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 01 Mar 2021 15:13:02 -0000
+Message-Id: <161461158275.25620.9455644114580362061@gitolite.kernel.org>
+
+--===============6937008946075844380==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nmenon/linux
-user: nmenon
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: 40b329e4df7a140d678cb3ce47158267f6625d43
+  - ref: refs/heads/master
+    old: 6b68b7c57073cd1e70e5991209af942a22e5a025
+    new: f5b03863bd010558f9ebd4e52be67f79a92d190e
     log: |
-         0278277fb65ec8c44240d6a8fce553c3dadd8c96 dt-bindings: arm: ti: Add bindings for AM642 SoC
-         05a5095d6fd45c0835a3094ff7f41d95da04f278 dt-bindings: pinctrl: k3: Introduce pinmux definitions for AM64
-         2560bb56251d3d65c5b353ad7f92c51ebd6d2bed arm64: dts: ti: Add support for AM642 SoC
-         926c9cab8221eae6f2246adbbe94ebbaad014785 arm64: dts: ti: k3-am64-main: Enable DMA support
-         8b12ce52b0c6a2fd7a17bbf51cafe90de94174ac arm64: dts: ti: Add support for AM642 EVM
-         905627a3e9f48a094c7e28beba19b687e2e33d98 dt-bindings: arm: ti: Add bindings for AM642 SK
-         40b329e4df7a140d678cb3ce47158267f6625d43 arm64: dts: ti: Add support for AM642 SK
+         f5b03863bd010558f9ebd4e52be67f79a92d190e 5.4-stable patches
          
-  - ref: refs/heads/ti-k3-next
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: 40b329e4df7a140d678cb3ce47158267f6625d43
-    log: |
-         0278277fb65ec8c44240d6a8fce553c3dadd8c96 dt-bindings: arm: ti: Add bindings for AM642 SoC
-         05a5095d6fd45c0835a3094ff7f41d95da04f278 dt-bindings: pinctrl: k3: Introduce pinmux definitions for AM64
-         2560bb56251d3d65c5b353ad7f92c51ebd6d2bed arm64: dts: ti: Add support for AM642 SoC
-         926c9cab8221eae6f2246adbbe94ebbaad014785 arm64: dts: ti: k3-am64-main: Enable DMA support
-         8b12ce52b0c6a2fd7a17bbf51cafe90de94174ac arm64: dts: ti: Add support for AM642 EVM
-         905627a3e9f48a094c7e28beba19b687e2e33d98 dt-bindings: arm: ti: Add bindings for AM642 SK
-         40b329e4df7a140d678cb3ce47158267f6625d43 arm64: dts: ti: Add support for AM642 SK
-         
+
+--===============6937008946075844380==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614611581 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1614611580-5ced6bab662660c9c29c5a398c5fa4866a740698
+
+6b68b7c57073cd1e70e5991209af942a22e5a025 f5b03863bd010558f9ebd4e52be67f79a92d190e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA9BH0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u3sP/i2dUUiEqcz4diX/ebTQ
+Eqg6xOsXtsDOxGvqdC9QjwNFv2NqZ8h5547eGPeLH4v6MjdGTjlk54RrtuP68m0n
+bJZSdBf1metzQfm3oLDhI1uhqrsrzRh6rS8h2g+bakHq8YZrYq4nWouBYIU6+ZfS
+eBPh2BxcyFN2n+EFr05wBEk0CGqEiBf5mp3XNzYWCRZDicoMqtudo9k5nhUPwUGL
+Sm6fzeNuSjrhe3/LYIfp8DNENupzGYTP9jZIrfpWPRXs/KQhPmjO3jz4oio4phXL
+ug1djp2GukXV6HXsrrbYT5ppXkve0+8jFhDO+61eHhDEd9WcL8D6ecoXjRi4OtvY
+HGo67qK/fICa6Nd7nGqK+MRVamH2O57EVtzwaZrgCZDETJgHMu3vhLGqRJNruizf
+/jSa+XU7v9ToJkLF4exK4ZtfaOd9LqAYuRofQEtoo5aCDWVpAGz/4B1jhL0R3ewL
+6fzeVVIMkDFPjYi1W44mjCFdKBcHvUJ135Q44XjREVYqHjRFlEBMcHcH99BkEX+o
++2+m8jqleEyDLcrjqodItaqx/PrUYzmPoKOWA1B86KPunAk47lR49WTWVns0VYrm
+ZrJ9QeiwoV+IcjX8YmtPu6M6WryWf6jTV5nTIaZwzgfdYnw2vJePDkaTg+BOsrP9
+0x9bV/7imnq0zNLmWXE0lkLE
+=qRne
+-----END PGP SIGNATURE-----
+
+--===============6937008946075844380==--
