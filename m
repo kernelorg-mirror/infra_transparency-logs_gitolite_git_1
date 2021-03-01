@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4440681319555955983=="
+Content-Type: multipart/mixed; boundary="===============5025287787288354166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 01 Mar 2021 10:36:10 -0000
-Message-Id: <161459497070.29662.2419673524658016915@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 10:36:22 -0000
+Message-Id: <161459498206.29817.6176599792370151813@gitolite.kernel.org>
 
---===============4440681319555955983==
+--===============5025287787288354166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+  - ref: refs/heads/for-next
+    old: c5318e248f527fc8753e361bb61439f4e0c6d745
     new: a43e36928cf4739aeae4462054746c5feb857941
-    log: revlist-5c8fe583cce5-a43e36928cf4.txt
+    log: revlist-c5318e248f52-a43e36928cf4.txt
 
---===============4440681319555955983==
+--===============5025287787288354166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c8fe583cce5-a43e36928cf4.txt
+Content-Disposition: attachment; filename=revlist-c5318e248f52-a43e36928cf4.txt
 
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
 f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
@@ -1051,4 +1051,4 @@ d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git:
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 a43e36928cf4739aeae4462054746c5feb857941 gpiolib: acpi: Add missing IRQF_ONESHOT
 
---===============4440681319555955983==--
+--===============5025287787288354166==--
