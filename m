@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 01 Mar 2021 09:09:03 -0000
-Message-Id: <161458974384.5291.9725729141514090100@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 09:12:02 -0000
+Message-Id: <161458992220.8889.16390721137691177385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
   - ref: refs/heads/gpio/for-current
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: f21fe4f2433a9838938660ee9b1a9db422418693
+    old: f21fe4f2433a9838938660ee9b1a9db422418693
+    new: 235c2d137007f702b4cfed0dfce2d712b166b584
     log: |
-         f21fe4f2433a9838938660ee9b1a9db422418693 selftests: gpio: update .gitignore
+         9565c9f23e91c01f45f1ffdcb785f812e1113b3a gpio: fix NULL-deref-on-deregistration regression
+         235c2d137007f702b4cfed0dfce2d712b166b584 gpio: fix gpio-device list corruption
          
