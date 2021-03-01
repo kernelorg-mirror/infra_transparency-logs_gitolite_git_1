@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============8023111945380609241=="
+Content-Type: multipart/mixed; boundary="===============2317072860772320726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Mon, 01 Mar 2021 11:57:55 -0000
-Message-Id: <161459987599.26564.10130014085522516578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Mon, 01 Mar 2021 11:58:32 -0000
+Message-Id: <161459991267.26866.734549513675173165@gitolite.kernel.org>
 
---===============8023111945380609241==
+--===============2317072860772320726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/vfs
-    old: 6abc20f8f879d891930f37186b19c9dc3ecc34dd
-    new: 3fc0545be59893b00ba3c6e53d771bb71a5802ae
-    log: revlist-6abc20f8f879-3fc0545be598.txt
+  - ref: refs/heads/master
+    old: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
+    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    log: revlist-7c53f6b671f4-fe07bfda2fb9.txt
 
---===============8023111945380609241==
+--===============2317072860772320726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6abc20f8f879-3fc0545be598.txt
+Content-Disposition: attachment; filename=revlist-7c53f6b671f4-fe07bfda2fb9.txt
 
+9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
+7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
+f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
 fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
 c72160fe05fb978ad859ba053c4462c2bb960b13 initramfs: Provide a common initrd reserve function
 aec33b54af55ef025e03e3dfbab3b8abe00eaa22 riscv: Covert to reserve_initrd_mem()
@@ -1047,8 +1050,5 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-7f28b2c874ee60bc598edbbcf3de87cfa18aa356 fs: libfs: fix kernel-doc for mnt_userns
-d3dea51bf04e9d26c701cf1a76b1073a102bb239 fs: namei: fix kernel-doc for struct renamedata and more
-3fc0545be59893b00ba3c6e53d771bb71a5802ae fs: xattr: fix kernel-doc for mnt_userns and vfs xattr helpers
 
---===============8023111945380609241==--
+--===============2317072860772320726==--
