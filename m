@@ -1,44 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0738901531322033838=="
+Content-Type: multipart/mixed; boundary="===============1443191643867772821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 01 Mar 2021 17:43:24 -0000
-Message-Id: <161462060433.26258.2141449883255313098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 01 Mar 2021 17:48:45 -0000
+Message-Id: <161462092530.29203.15310260840612766168@gitolite.kernel.org>
 
---===============0738901531322033838==
+--===============1443191643867772821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
-user: krzk
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-5c8fe583cce5-fe07bfda2fb9.txt
+  - ref: refs/heads/dt/next
+    old: cb8be8b4b27f6eea88268d6991175df1a27e557e
+    new: 7344960593fcfa8ad0a914cbd20da2453b45dabd
+    log: revlist-cb8be8b4b27f-7344960593fc.txt
 
---===============0738901531322033838==
+--===============1443191643867772821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c8fe583cce5-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-cb8be8b4b27f-7344960593fc.txt
 
-9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
-7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
-f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
-fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
-c72160fe05fb978ad859ba053c4462c2bb960b13 initramfs: Provide a common initrd reserve function
-aec33b54af55ef025e03e3dfbab3b8abe00eaa22 riscv: Covert to reserve_initrd_mem()
-e178d670f251b6947d6be99c0014e9a57ad4f0e0 riscv/kasan: add KASAN_VMALLOC support
-5da9cbd2b200369fd190c81bc1253e9a17ab3e8d arch/riscv:fix typo in a comment in arch/riscv/kernel/image-vars.h
-d4c34d09ab03e1e631fe195ddf35365a1273be9c pinctrl: Add RISC-V Canaan Kendryte K210 FPIOA driver
-5dd671333171d1ba44c16e1404f72788412e36f4 RISC-V: probes: Treat the instruction stream as host-endian
-3449831d92fea50b470d5b22435cfeaf15a6dd54 RISC-V: remove unneeded semicolon
-4cd48bb3b07730214d4e56abd6030c5159eb2572 arch_numa: fix common code printing of phys_addr_t
-65d4b9c5301749d18b5ec1323fdefecefab72687 RISC-V: Implement ASID allocator
 bd6d617aac21502f3042bd472238fbe3f9b77083 of: property: fw_devlink: Ignore interrupts property for some configs
 3e4c982f1ce75faf5314477b8da296d2d00919df Revert "driver core: Set fw_devlink=on by default"
 c060c72ffeb448fbb5864faa1f672ebfe14dd25f KVM: x86/mmu: Expand collapsible SPTE zap for TDP MMU to ZONE_DEVICE and HugeTLB pages
@@ -1050,5 +1037,18 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
+f09e995b5f25fb6a249b3fb7a6b7e6414e2a9bd9 kexec: Move ELF fields to struct kimage
+709e37645c2e93e876dfa58b6a357d98d0f16a14 arm64: Use ELF fields defined in 'struct kimage'
+41969f5b0fc33d28f247e88b5e04aaba7650a771 powerpc: Use ELF fields defined in 'struct kimage'
+b23aaff9f0d9a11680a9b57b49c17aa69bfddb48 x86: Use ELF fields defined in 'struct kimage'
+79f0725f22b6afc7fbece3e22d530cd7e70d72b3 of: Add a common kexec FDT setup function
+76a2aa7509229c816a0783875717f43c93f6ad9c arm64: Use common of_kexec_alloc_and_setup_fdt()
+ca8fa36fc94c618fa7b0b0ee09480938c49cc3d3 powerpc: Use common of_kexec_alloc_and_setup_fdt()
+dced3d1bf7bce96e9d86cfcd1fac52096af22a45 powerpc: Move ima buffer fields to struct kimage
+76fc1f3fc66ebba01522b9a3b5ef52e07cdeeada powerpc: Enable passing IMA log to next kernel on kexec
+dfb7dca973f16dbe8bdec89d740eedd1aec103bc powerpc: Move arch independent ima kexec functions to drivers/of/kexec.c
+2705120f6ed903260fc7a9a75cbd8649bddda615 kexec: Use fdt_appendprop_addrrange() to add ima buffer to FDT
+81e4ba4a99fbd8468daf6b0aea4c71ab0b1e6a86 powerpc: Delete unused function delete_fdt_mem_rsv()
+7344960593fcfa8ad0a914cbd20da2453b45dabd arm64: Enable passing IMA log to next kernel on kexec
 
---===============0738901531322033838==--
+--===============1443191643867772821==--
