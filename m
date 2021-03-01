@@ -1,35 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============8826670664013319740=="
+Content-Type: multipart/mixed; boundary="===============6094809580414403302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 01 Mar 2021 23:35:03 -0000
-Message-Id: <161464170385.14524.4502679300016493309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 01 Mar 2021 23:35:22 -0000
+Message-Id: <161464172285.15272.2124103201295618750@gitolite.kernel.org>
 
---===============8826670664013319740==
+--===============6094809580414403302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 4a8a7d2512014eaf533ff6091e7a1c90d5ffd551
-    new: a077a13f9bafa7a90c433097681503bbd4293f03
-    log: revlist-4a8a7d251201-a077a13f9baf.txt
+    old: 21b49223c0f5eedf57bd99766d0e38d236e9da0f
+    new: 21bb242db52365bb3b2b785fb97b27ee8c7ed225
+    log: revlist-21b49223c0f5-21bb242db523.txt
   - ref: refs/heads/for-next
-    old: 4a8a7d2512014eaf533ff6091e7a1c90d5ffd551
-    new: c54607a8383c00beee65bfd6f14088e1e03c16f7
-    log: revlist-4a8a7d251201-c54607a8383c.txt
+    old: 21b49223c0f5eedf57bd99766d0e38d236e9da0f
+    new: 86afa3913263d832bc8328afa1df68b7bb8c72d4
+    log: revlist-21b49223c0f5-86afa3913263.txt
 
---===============8826670664013319740==
+--===============6094809580414403302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a8a7d251201-a077a13f9baf.txt
+Content-Disposition: attachment; filename=revlist-21b49223c0f5-21bb242db523.txt
 
+7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
 f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
 fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
 c72160fe05fb978ad859ba053c4462c2bb960b13 initramfs: Provide a common initrd reserve function
@@ -1052,14 +1053,13 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-66f9f2d5d94f374605d829b9e690e8cdc9d0d05d regulator: pca9450: Clear PRESET_EN bit to fix BUCK1/2/3 voltage setting
-a077a13f9bafa7a90c433097681503bbd4293f03 Merge remote-tracking branch 'regulator/for-5.12' into regulator-linus
+21bb242db52365bb3b2b785fb97b27ee8c7ed225 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
 
---===============8826670664013319740==
+--===============6094809580414403302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a8a7d251201-c54607a8383c.txt
+Content-Disposition: attachment; filename=revlist-21b49223c0f5-86afa3913263.txt
 
 5da9cbd2b200369fd190c81bc1253e9a17ab3e8d arch/riscv:fix typo in a comment in arch/riscv/kernel/image-vars.h
 d4c34d09ab03e1e631fe195ddf35365a1273be9c pinctrl: Add RISC-V Canaan Kendryte K210 FPIOA driver
@@ -2078,12 +2078,12 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-66f9f2d5d94f374605d829b9e690e8cdc9d0d05d regulator: pca9450: Clear PRESET_EN bit to fix BUCK1/2/3 voltage setting
-f198cbf049ca8099111256e6e161f3521a1d0066 Merge existing fixes from regulator/for-5.12
-b15d870510c0a3910c9980ebceab885a390af60c regulator: spmi: Add support for ULT LV_P50 and ULT P300
-6930ab7ac03c1be5d1944473cbf327c9d4d14ce4 regulator: pf8x00: Use regulator_map_voltage_ascend for pf8x00_buck7_ops
-755a74fc655ee95ce37bb0f552cbd39b52978a05 regulator: add missing call to of_node_put()
-a077a13f9bafa7a90c433097681503bbd4293f03 Merge remote-tracking branch 'regulator/for-5.12' into regulator-linus
-c54607a8383c00beee65bfd6f14088e1e03c16f7 Merge remote-tracking branch 'regulator/for-5.13' into regulator-next
+536e9fc6678d7b0e3d17a5d6093733096c62901c Merge existing fixes from spi/for-5.12
+9923f8e3039ed0361c2476d5d3c5195c7f766504 spi: omap2-mcspi: Activate pinctrl idle state during runtime suspend
+d86e880f7a7c5b64a650146a1353f98750863f21 spi: rockchip: avoid objtool warning
+c5f754fd0a31d2c6f2f8d11f3db1427b5566f1e7 spi: atmel: Drop unused variable
+44233a5ba2511b85da3c055a0ab7c28976544e47 spi: cadence-quadspi: add missing of_node_put
+21bb242db52365bb3b2b785fb97b27ee8c7ed225 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+86afa3913263d832bc8328afa1df68b7bb8c72d4 Merge remote-tracking branch 'spi/for-5.13' into spi-next
 
---===============8826670664013319740==--
+--===============6094809580414403302==--
