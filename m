@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7898235671462344216=="
+Content-Type: multipart/mixed; boundary="===============6201191593222576931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 01 Mar 2021 02:31:49 -0000
-Message-Id: <161456590977.18421.12759669591927434838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Mon, 01 Mar 2021 02:41:54 -0000
+Message-Id: <161456651431.25160.3187620021777843811@gitolite.kernel.org>
 
---===============7898235671462344216==
+--===============6201191593222576931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/fixes
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-5c8fe583cce5-fe07bfda2fb9.txt
+  - ref: refs/heads/for-next
+    old: 8e555af005928a12b7f6a2d8a90efa939d4df290
+    new: 086e94e6f4c3f57895af51a775c11b775e37d967
+    log: revlist-8e555af00592-086e94e6f4c3.txt
 
---===============7898235671462344216==
+--===============6201191593222576931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c8fe583cce5-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-8e555af00592-086e94e6f4c3.txt
 
-9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
 f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
 fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
@@ -438,9 +437,6 @@ dcfde1635e764fd69cc756c7780d144e288608e9 vdpa/mlx5: fix param validation in mlx5
 58b779d1a64ed1798bac900d176093a5f614317b Merge tag 'gvt-next-fixes-2021-02-22' of https://github.com/intel/gvt-linux into drm-intel-next-fixes
 34b07d47dd003168556a1774558240fefbb9b461 drm/i915: Enable -Wuninitialized
 ed428ffc28521b9f1b6a71584d1875318a122859 drm/i915: Nuke INTEL_OUTPUT_FORMAT_INVALID
-b1adbdbda458b2ec69bf5915c4dcdbe2bd5e7bad audit_alloc_mark(): don't open-code ERR_CAST()
-9652c73246b980b9f2387916c35e02638d163472 9p: fix misuse of sscanf() in v9fs_stat2inode()
-6f24784f00f2b5862b367caeecc5cca22a77faa3 whack-a-mole: don't open-code iminor/imajor
 06f45fe96fcd81531b0bcb2a6115da563ae6dbd6 xen/events: add per-xenbus device event statistics and settings
 d56699594046d54f32936a1eec337a62c15f931a xen/evtchn: use smp barriers for user event ring
 6977c0b560f190d0d4786f99d9c120126fe654f2 xen/evtchn: use READ/WRITE_ONCE() for accessing ring indices
@@ -1050,5 +1046,9 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
+c666514c052a23a058ae8752120805425d280ad1 coredump: don't bother with do_truncate()
+a7fa37c10534799cc02f75d8c36124da37b00e39 coredump.h: move CONFIG_COREDUMP-only stuff inside the ifdef
+425599cb22440897cb9f167123531ec9fe43e8e1 qib_fs: switch to simple_recursive_removal()
+086e94e6f4c3f57895af51a775c11b775e37d967 Merge branches 'work.recursive_removal' and 'work.coredump' into for-next
 
---===============7898235671462344216==--
+--===============6201191593222576931==--
