@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1957419489433987453=="
+Content-Type: multipart/mixed; boundary="===============2943375159344070671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 01 Mar 2021 08:03:15 -0000
-Message-Id: <161458579524.13923.1470062515948987051@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 08:03:51 -0000
+Message-Id: <161458583139.14163.17395871257975641506@gitolite.kernel.org>
 
---===============1957419489433987453==
+--===============2943375159344070671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
-    old: 45d5996e034cd5fc20ab0489e3179a6dfe44ca44
-    new: eaa895a2f4df7288106fe68a45d9c2afe1dff9ef
-    log: revlist-45d5996e034c-eaa895a2f4df.txt
+  - ref: refs/heads/gnss-linus
+    old: 7c53f6b671f4aba70ff15e1b05148b10d58c2837
+    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    log: revlist-7c53f6b671f4-fe07bfda2fb9.txt
 
---===============1957419489433987453==
+--===============2943375159344070671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45d5996e034c-eaa895a2f4df.txt
+Content-Disposition: attachment; filename=revlist-7c53f6b671f4-fe07bfda2fb9.txt
 
+9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
 f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
 fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
@@ -1049,6 +1050,5 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-eaa895a2f4df7288106fe68a45d9c2afe1dff9ef gnss: drop stray semicolons
 
---===============1957419489433987453==--
+--===============2943375159344070671==--
