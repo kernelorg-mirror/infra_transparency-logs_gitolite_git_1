@@ -1,35 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============0849424213598153587=="
+Content-Type: multipart/mixed; boundary="===============6418834700207483061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 01 Mar 2021 23:34:30 -0000
-Message-Id: <161464167081.13453.5754273094317964512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Mon, 01 Mar 2021 23:34:44 -0000
+Message-Id: <161464168484.13616.2889915651766658902@gitolite.kernel.org>
 
---===============0849424213598153587==
+--===============6418834700207483061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: cf421c5a84cafa82d356a7a9f72654d6b692818c
-    new: 0bf36bd63292c3335f83abe9b41bd251d1ba06c0
-    log: revlist-cf421c5a84ca-0bf36bd63292.txt
+    old: 19c329f6808995b142b3966301f217c831e7cf31
+    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    log: revlist-19c329f68089-fe07bfda2fb9.txt
   - ref: refs/heads/for-next
-    old: cf421c5a84cafa82d356a7a9f72654d6b692818c
-    new: 1bc068f39415e647ddb93d3f3d5523cf8da98c0f
-    log: revlist-cf421c5a84ca-1bc068f39415.txt
+    old: aa3233086b48e5269cd0b5c16fb9711ce9341244
+    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    log: revlist-aa3233086b48-fe07bfda2fb9.txt
 
---===============0849424213598153587==
+--===============6418834700207483061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf421c5a84ca-0bf36bd63292.txt
+Content-Disposition: attachment; filename=revlist-19c329f68089-fe07bfda2fb9.txt
 
+9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
+7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
+f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
+fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
+c72160fe05fb978ad859ba053c4462c2bb960b13 initramfs: Provide a common initrd reserve function
+aec33b54af55ef025e03e3dfbab3b8abe00eaa22 riscv: Covert to reserve_initrd_mem()
 e178d670f251b6947d6be99c0014e9a57ad4f0e0 riscv/kasan: add KASAN_VMALLOC support
 5da9cbd2b200369fd190c81bc1253e9a17ab3e8d arch/riscv:fix typo in a comment in arch/riscv/kernel/image-vars.h
 d4c34d09ab03e1e631fe195ddf35365a1273be9c pinctrl: Add RISC-V Canaan Kendryte K210 FPIOA driver
@@ -1048,19 +1054,93 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-24a7b77daed8f973bf8a5ed2f83344f44f9f6396 ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
-e4ffab875d32bf4ffa37b5cd725ace9e15d1707d ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
-d74fcdc51afd431ca9d956e032e14d12f0ee4153 ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
-4d4e677a68e770b84c87d1438d9f4e161658536a ASoC: es8316: Simplify adc_pga_gain_tlv table
-d27f8feaf8543cc0e315f8ea13c9d99222bdd783 Merge series "AsoC: rt5640/rt5651: Volume control fixes" from Hans de Goede <hdegoede@redhat.com>:
-0bf36bd63292c3335f83abe9b41bd251d1ba06c0 Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
 
---===============0849424213598153587==
+--===============6418834700207483061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf421c5a84ca-1bc068f39415.txt
+Content-Disposition: attachment; filename=revlist-aa3233086b48-fe07bfda2fb9.txt
 
+9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
+7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
+f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
+fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
+c72160fe05fb978ad859ba053c4462c2bb960b13 initramfs: Provide a common initrd reserve function
+aec33b54af55ef025e03e3dfbab3b8abe00eaa22 riscv: Covert to reserve_initrd_mem()
+e178d670f251b6947d6be99c0014e9a57ad4f0e0 riscv/kasan: add KASAN_VMALLOC support
+5da9cbd2b200369fd190c81bc1253e9a17ab3e8d arch/riscv:fix typo in a comment in arch/riscv/kernel/image-vars.h
+d4c34d09ab03e1e631fe195ddf35365a1273be9c pinctrl: Add RISC-V Canaan Kendryte K210 FPIOA driver
+5dd671333171d1ba44c16e1404f72788412e36f4 RISC-V: probes: Treat the instruction stream as host-endian
+3449831d92fea50b470d5b22435cfeaf15a6dd54 RISC-V: remove unneeded semicolon
+4cd48bb3b07730214d4e56abd6030c5159eb2572 arch_numa: fix common code printing of phys_addr_t
+65d4b9c5301749d18b5ec1323fdefecefab72687 RISC-V: Implement ASID allocator
+bd6d617aac21502f3042bd472238fbe3f9b77083 of: property: fw_devlink: Ignore interrupts property for some configs
+3e4c982f1ce75faf5314477b8da296d2d00919df Revert "driver core: Set fw_devlink=on by default"
+c060c72ffeb448fbb5864faa1f672ebfe14dd25f KVM: x86/mmu: Expand collapsible SPTE zap for TDP MMU to ZONE_DEVICE and HugeTLB pages
+1b6d9d9ed5717157933db77d96bb12884c17ce52 KVM: x86/mmu: Split out max mapping level calculation to helper
+0a234f5dd06582e82edec7cf17a0f971c5a4142e KVM: x86/mmu: Pass the memslot to the rmap callbacks
+9eba50f8d7fcb61774f160890f98239fa3ab68a6 KVM: x86/mmu: Consult max mapping level when zapping collapsible SPTEs
+c3bb9a20834ffe72d3031afe460ff03d3b3b6e90 KVM: nVMX: Disable PML in hardware when running L2
+2855f98265dc579bd2becb79ce0156d08e0df813 KVM: x86/mmu: Expand on the comment in kvm_vcpu_ad_need_write_protect()
+6dd03800b1afe4d3b6f26b0d20f2e1ecebf32b29 KVM: x86/mmu: Make dirty log size hook (PML) a value, not a function
+a018eba53870aa30e5e57465771cb209680f20c2 KVM: x86: Move MMU's PML logic to common code
+52f4607940b18337f01d160aaae346eaac388bf7 KVM: x86: Further clarify the logic and comments for toggling log dirty
+a85863c2ec55edcfd11853014b143fc02b8840a9 KVM: VMX: Dynamically enable/disable PML based on memslot dirty logging
+b6e16ae5d99fa39f0cb3d3f4558c2cbf44af38f8 KVM: x86/mmu: Don't set dirty bits when disabling dirty logging w/ PML
+a1419f8b5bab477d96a71d1c37da0784fb18dc51 KVM: x86: Fold "write-protect large" use case into generic write-protect
+96ad91ae4eaff3697b1124b30d28d73de3557a3d KVM: x86/mmu: Remove a variety of unnecessary exports
+af0bfab907a011e146304d20d81dddce4e4d62d0 leds: led-core: Get rid of enum led_brightness
+b113a7f1981062442b5a5318b6cf6b7ad4097b45 dt-bindings: leds: Add bindings for Intel LGM SoC
+c3987cd2bca34ddfec69027acedb2fae5ffcf7a0 leds: lgm: Add LED controller driver for LGM SoC
+8e5c38a33c84935d66cfcf23c96960b6c4b484ef leds: flash: Add flash registration with undefined CONFIG_LEDS_CLASS_FLASH
+6039b7e87be0b350a5f8fc135adfb5d1f4ba66ad leds: flash: Fix multicolor no-ops registration by return 0
+c27f3d011b08540e68233cf56274fdc34bebb9b5 ACPICA: Fix race in generic_serial_bus (I2C) and GPIO op_region parameter handling
+8f6493d1b834a4331de139d9808300216fc7712d ACPICA: Remove some code duplication from acpi_ev_address_space_dispatch
+71f1309f4f5b70aa3f1342a52b1460aa454c39ff cpufreq: schedutil: Remove needless sg_policy parameter from ignore_dl_rate_limit()
+e209cb51bfcceda7519b8ba1094c8ba41a658ce8 cpufreq: schedutil: Remove update_lock comment from struct sugov_policy definition
+4e6df217b73e4e76a3f08d6b905790e5445db63e cpufreq: Fix typo in kerneldoc comment
+58294927f468a428c7a1ba09cf986fdca14a2747 cxl/mem: Return -EFAULT if copy_to_user() fails
+b9abef43a08ef7faa33477cccb0c08c64eb2b8bf vfio/pci: remove CONFIG_VFIO_PCI_ZDEV from Kconfig
+a2c42bbabbe260b7626d8459093631a6e16ee0ee arm64: spectre: Prevent lockdep splat on v4 mitigation enable path
+656d1d58d8e0958d372db86c24f0b2ea36f50888 arm64: kexec_file: fix memory leakage in create_dtb() when fdt_open_into() fails
+f5c6d0fcf90ce07ee0d686d465b19b247ebd5ed7 arm64 module: set plt* section addresses to 0x0
+61c1e0eb8375def7c891bfe857bb795a57090526 i40e: Fix add TC filter for IPv6
+b32cddd2247cf730731f93f1967d0147a40682c7 i40e: Fix endianness conversions
+182d679b2298d62bf42bb14b12a8067b8e17b617 Input: joydev - prevent potential read overflow in ioctl
+b2e3543b5e193c2be802ae2db0a8ae82ec8c0f66 Input: add missing dependencies on CONFIG_HAS_IOMEM
+b5d6e7ab7fe7d186878142e9fc1a05e4c3b65eb9 Input: i8042 - add ASUS Zenbook Flip to noselftest list
+836f308cb5c72d48e2dff8d3e64c3adb94f4710d Input: zinitix - fix return type of zinitix_init_touch()
+6524d8eac258452e547f8a49c8a965ac6dd8a161 Input: st1232 - add IDLE state as ready condition
+0ce1ac23149c6da939a5926c098c270c58c317a0 Input: applespi - don't wait for responses to commands indefinitely.
+e64123949e6c9581c97fc14594f1cf34bf1d87a8 Input: applespi - fix occasional crc errors under load.
+c85c9a2c6e368dc94907e63babb18a9788e5c9b6 kprobes: Fix to delay the kprobes jump optimization
+1b40faf7e4abe10db2f730cf66b2b47551110940 leds: apu: extend support for PC Engines APU1 with newer firmware
+9a10def9ceb5fa341d96a8b731dc2dc492e48d11 leds: lp50xx: Don't spam logs when probe is deferred
+ea1ff99c9d235b8a54571d4292c71fce60993117 leds: lp50xx: Switch to new style i2c-driver probe function
+556f15fe023ec1d9f9cd2781ba6cd14bda650d22 leds: lp50xx: Reduce level of dereferences
+5d2bfb3fb95b2d448c0fbcaa2c58b215b2fa87fc leds: lp50xx: Get rid of redundant check in lp50xx_enable_disable()
+fb0f236beccbf74da90429d417864cfc6fc6673a leds: lp50xx: Update headers block to reflect reality
+b0a82efa51ad3ba1117817817cbabe9c9a37b893 leds: lp50xx: Get rid of redundant explicit casting
+af982da9a612295a91f367469f8945c916a20dfd cifs: Fix inconsistent IS_ERR and PTR_ERR
+66e8d3b8995c05cb1e17b120f52e0218bc534a49 sdhci: stop poking into swiotlb internals
+36950f2da1ea4cb683be174f6f581e25b2d33e71 driver core: add a min_align_mask field to struct device_dma_parameters
+b5d7ccb7aac3895c2138fe0980a109116ce15eff swiotlb: add a IO_TLB_SIZE define
+c7fbeca757fe74135d8b6a4c8ddaef76f5775d68 swiotlb: factor out an io_tlb_offset helper
+c32a77fd18780a5192dfb6eec69f239faebf28fd swiotlb: factor out a nr_slots helper
+ca10d0f8e530600ec63c603dbace2c30927d70b7 swiotlb: clean up swiotlb_tbl_unmap_single
+eacd9aa8cedeb412842c7b339adbaa0477fdd5ad fix handling of nd->depth on LOOKUP_CACHED failures in try_to_unlazy*
+51e6d17809c85e1934600ec4cdb85552e9bda254 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+a3df769899c0bdc224c94d1d8cc9cbb3f3a72553 io_uring: fail io-wq submission from a task_work
+8bad28d8a305b0e5ae444c8c3051e8744f5a4296 io_uring: don't hold uring_lock when calling io_run_task_work*
+99a10081647168022745859bb2f1c28b2f70dc83 io_uring: make the !CONFIG_NET helpers a bit more robust
+e6cb007c45dedada0a847eaa486c49509d63b1e8 io_uring: zero ref_node after killing it
+f2303b1f8244d88ffca28d3be6166ce4835cc27a io_uring: keep generic rsrc infra generic
+88f171ab7798a1ed0b9e39867ee16f307466e870 io_uring: wait potential ->release() on resurrect
+ebf4a5db690a47e71056381ead8a134de7202694 io_uring: fix leaving invalid req->flags
+7ddfe9a6a3b323c96ceddbdbb92debb9611e32c0 Merge tag 'arm-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+584ce3c9b408a89fe5b7ac5b5b246b85c78defed Merge tag 'arm-platform-removal-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+5011bb9fbb194834dd04ae6c986d439032ecc717 Merge tag 'arm-soc-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+56bf6fc266ca14d2b9276c8a62e4ff6783bfe68b Merge tag 'arm-defconfig-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 82851fce6107d5a3e66d95aee2ae68860a732703 Merge tag 'arm-dt-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 e767b3530acbf651593e3d357fe1168a024d8061 Merge tag 'arm-drivers-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 8518496639123ebcceb1be173c4f00edf178bfbd Merge tag 'edac_updates_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -2005,85 +2085,5 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-24a7b77daed8f973bf8a5ed2f83344f44f9f6396 ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
-e4ffab875d32bf4ffa37b5cd725ace9e15d1707d ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
-d74fcdc51afd431ca9d956e032e14d12f0ee4153 ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
-4d4e677a68e770b84c87d1438d9f4e161658536a ASoC: es8316: Simplify adc_pga_gain_tlv table
-0c493b8d36972630370548859a0e4d9b715ec1ec Merge existing fixes from asoc/for-5.12
-3ebb1b951880d3152547ac4018bfcce0fd7810bd ASoC: rt*: Constify static struct sdw_slave_ops
-84732dd4ff3ad28cc65eedfa3061fe3808e8469b ASoC: rt*: Constify static struct snd_soc_dai_ops
-c85ca92c716bd04981ebcd2c67cd03f96748859e ASoC: rt*: Constify static struct acpi_device_id
-39f9eb61307061eed197eae651ef56cb3544f9b2 ASoc: rt5631: Constify static struct coeff_clk_div
-0bf10fbda55679a3fef86f5fae47105b2d61fecc ASoC: qcom: lpass-hdmi: remove useless return
-25ab7dcdb77e4ecfa1a9e1c7939318b2b90a90f3 ASoC: qcom: lpass-platform: remove useless assignment
-fd565b469d21ab1008f5f4fb5ca5cf9eaff83cc1 ASoC: qcom: q6dsp-dai: clarify expression
-924d4aad24337def5b18cd3225eec7e27dcf0f74 ASoC: qcom: q6afe: remove useless assignments
-7ca70ca9914c23e1f8a9ae68c96f1fc812cc8575 ASoC: qcom: q6afe: align function prototype
-63a372715a3c2c13720774698a08d85de5f40934 ASoC: qcom: q6asm: align function prototypes
-297ef0a73103c59c107f8b7c013b17d27ea2f772 ASoC: wcd-clsh-v2: align function prototypes
-71ea36550bda7359ab055a4572a5f3ae04369b07 ASoC: wcd9335: clarify return value
-5c3252b3f71184f96cf1bcad3a78aa074d6d7db8 ASoC: wcd934x: remove useless return
-0076777b8753e3969516dbd514a2c5ffb3ceba3a ASoC: lpass-wsa-macro: add missing test
-56dc057925b112353a4d920380c537d1f96699a0 ASoC: soc-ops: remove useless assignment
-8f7351ec37b52d22e77d2cab38ddd4aa920af0b4 ASoC: soc-pcm: remove redundant assignment
-52fcd9638da0803c6fe0cfadab7af978c961be37 ASoC: soc-pcm: remove shadowing variable
-56fc1a7fd01ef0984d0272e52a9823ca11eff890 ASoC: soc-pcm: add error log
-761fa730a2e1e9197d89f3e9d1a13a9be165b109 ASoC: soc-topology: clarify expression
-8754b443fa7df24e357b7e707c901eefe373a05c ASoC: generic: simple-card-utils: remove useless assignment
-b832fa1ce0826a915a9e1fe533fc86a1cf5ae8cd ASoC: samsung: i2s: remove unassigned variable
-feb45eb2ecafdfaca5b82f27997e717ae3c70323 ASoC: samsung: s3c24xx_simtec: add missing error check
-1e4a9fcffd56b73acf4e706465be2df261da83de ASoC: samsung: smdk_wm8994: add missing return
-4ff97b8dc7e6a3c5caf733ebad4efaf018829142 ASoC: samsung: snow: remove useless test
-5c8f0b2a8d9ce20f7c3e0065cd8936995bd5ed63 ASoC: rsnd: cleanup ppcheck warning for ssiu.c
-8f5412423337ee61ffa6fa7bd20b0c78dae0b9ce ASoC: rsnd: cleanup ppcheck warning for ssi.c
-d1031c8c058aee7f12dbdff7f4ea4521ee911ae8 ASoC: rsnd: cleanup ppcheck warning for core.c
-783c09cbd1b5dc6fcf14947097f4d767e564acc5 ASoC: rsnd: cleanup ppcheck warning for cmd.c
-ba55cb110dc326da8fa33401bf54727937e5a619 ASoC: rsnd: cleanup ppcheck warning for adg.c
-bae5b4aff2ddb784a536f1960ce415ac5c1ceed8 ASoC: soc-pcm: remove strange format storing
-75c4b5945d017d4c3beb892a58498202a23803e9 ASoC: soc-pcm: unpack dpcm_init_runtime_hw()
-9337e738b96d37de3afa3333961a2af4a2b1dc9e ASoC: soc-pcm: add dpcm_runtime_setup_fe()
-c813f6ed347cd610c239ff8027e8f403cd193648 ASoC: soc-pcm: add dpcm_runtime_setup()
-6503916cefd802994870fe1e7cc6ad282549139e ASoC: soc-pcm: unpack dpcm_set_fe_runtime()
-131036ffae211a9cc3bfb053fadce87484e13fc5 ASoC: mmp-sspa: drop unneeded snd_soc_dai_set_drvdata
-7150186f1edb2fa94554be1bec26aa65a7df3388 ASoC: mxs-saif: drop unneeded snd_soc_dai_set_drvdata
-0c34af2d5c9ba5103637c33c4f52d658172b991d ASoC: sun4i-i2s: drop unneeded snd_soc_dai_set_drvdata
-eb9db3066cdb57dbfd1fb3d85ca143ad5d719bfb ASoC: fsl: drop unneeded snd_soc_dai_set_drvdata
-2497d156c297992ef1254fda2277ce055f48db64 ASoC: sh: dma-sh7760: remove unused variable
-8644cbf296de7440f8d53d333da89f79d3258d25 ASoC: sh: rcar: align function prototypes
-d15737e24a962941bae0373b8a89173e2451e7c9 ASoC: sh: rcar: simplify return
-a029ad994d24c92228b4460cc374846170720a05 ASoC: sh: rcar: ctu: add missing error check
-0711cb41ce02ae8994e4f75551545b114e8922d6 ASoC: sh: rcar: ssi: remove redundant assignment
-075bfe61c88a267755bf4cc54af19cab3141f23f ASoC: sh: siu_pcm: remove useless assignment
-69011a3193be54b04b3cfd652c484e6b77cf59b0 ASoC: sh: siu_pcm: remove unused variable
-ca289c2c70c131dc2d4a37e5f6f5c71acfc7cb8b ASoC: fsl: fsl_asrc: remove useless assignment
-faff74679f510b9e469238b8ff610eb2b8ad5602 ASoC: fsl: fsl_dma: remove unused variable
-e80382fe721f71100cd49e209fbac260042a0106 ASoC: fsl: fsl_easrc: remove useless assignments
-e7347520a4323fafea1df84abb29ae979c595931 ASoC: fsl: fsl_esai: clarify expression
-e06a8f1a7c4ceb9f3f804bbe5e2fd25230bc91b1 ASoC: fsl: fsl_ssi: remove unnecessary tests
-40e2c4450a34429b6343a7c8f80b4c6715bbd393 ASoC: fsl: imx-hdmi: remove unused structure members
-5a6d43108095c2bb94947ccf3f53a7e71ae5774e ASoC: fsl: mpc5200: signed parameter in snprintf format
-3fb0dcec3e60466afd6a3d770c06a8a879160f68 ASoC: fsl: mpc8610: remove useless assignment
-bafe21c9d01b3f39d26ff6271905c5c9ef00dc44 ASoC: fsl: p1022_ds: remove useless assignment
-54928c5c63c83afd5a1c2a91802a9c37e9a4ff88 ASoC: constify of_phandle_args in snd_soc_get_dai_name()
-e3fdb6288dd08d965dea4bf00186e20f79153b2b ASoC: uniphier: Simplify the return expression of uniphier_aio_startup
-6d85d770c171972c0f33f74b84bf0fedc111e89f ASoC: fsl_sai: Add pm qos cpu latency support
-7f7d1c4fce10ca68e87165898e6232353e4be1af ASoC: codecs: lpass-rx-macro: remove redundant initialization of variable hph_pwr_mode
-e067855b814600248234a2a7283a7a9006e5aadc ASoC: Intel: boards: sof-wm8804: add check for PLL setting
-b0fd1b9bd056dfa0e188b44f92efe5f39ac33882 ASoC: SOF: Intel: hda: turn off display power in resume
-0f780e4bef4587f07060109040955d6b6aa179a2 ASoC: fsl_xcvr: move reset assert into runtime_resume
-cfa0faec5fc0544f84b9c599b6cf49cd3cc709f3 ASoC: Intel: Skylake: Compile when any configuration is selected
-a262057df51370aa17ced7add470851784c345f0 ASoC: rt1316: Add RT1316 SDCA vendor-specific driver
-d27f8feaf8543cc0e315f8ea13c9d99222bdd783 Merge series "AsoC: rt5640/rt5651: Volume control fixes" from Hans de Goede <hdegoede@redhat.com>:
-b68d7e812d4ee964d6c9a2547e1231eb40568104 Merge series "ASoC: qcom: remove cppcheck warnings" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
-3b484b4708b5846400e52471794642b99bafaf01 Merge series "ASoC: rt*: Constify static structs" from Rikard Falkeborn <rikard.falkeborn@gmail.com>:
-f8e3cce63e742c93e56df41dd3b04d2778fa2c6b Merge series "ASoC: fsl: remove cppcheck warnings" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
-a2d3fb0a622e55409db633d0798e80d0b4dccf5f Merge series "soc-pcm: tidyup snd_pcm_hardware setup for FE/BE" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
-15f98893b0f376d9a29dfe180cbcbc48bf3ea491 Merge series "ASoC: samsung: remove cppcheck warnings" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
-aecf9b8cf004cba669ebc7d76f36975ccee7350f Merge series "ASoC: core: remove cppcheck warnings" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
-4599b55781efe23ce30efca3f682b3439ef3bc86 Merge series "ASoC: sh: remove cppcheck warnings" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
-fee00af759de7e29e19da52002264030fca5a844 Merge series "drop unneeded snd_soc_dai_set_drvdata" from Julia Lawall <Julia.Lawall@inria.fr>:
-a02321775cb8600b609649298f67c8bbd92cf8bc Merge series "ASoC: rsnd: cleanup ppcheck warning for Renesas sound driver" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
-0bf36bd63292c3335f83abe9b41bd251d1ba06c0 Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
-1bc068f39415e647ddb93d3f3d5523cf8da98c0f Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
 
---===============0849424213598153587==--
+--===============6418834700207483061==--
