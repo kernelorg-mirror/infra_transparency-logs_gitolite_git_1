@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0563841534248915019=="
+Content-Type: multipart/mixed; boundary="===============2771671434982981955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Mon, 01 Mar 2021 05:17:03 -0000
-Message-Id: <161457582315.21150.17332696060550663159@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 05:17:36 -0000
+Message-Id: <161457585670.21404.10224919170502227567@gitolite.kernel.org>
 
---===============0563841534248915019==
+--===============2771671434982981955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-fixes
-    old: a73601bc125486cc9f244a5e8050e863c6b6a8e9
-    new: 767128762a4f3e4766053417a9eb88982cce6b37
-    log: revlist-a73601bc1254-767128762a4f.txt
+  - ref: refs/heads/extcon-next
+    old: 72f77a5cf9ffbde45cc33cd1aaf82ea2ce78b71a
+    new: b906ab5498369f23a5c490fa39582df81141049c
+    log: revlist-72f77a5cf9ff-b906ab549836.txt
 
---===============0563841534248915019==
+--===============2771671434982981955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a73601bc1254-767128762a4f.txt
+Content-Disposition: attachment; filename=revlist-72f77a5cf9ff-b906ab549836.txt
 
-c72160fe05fb978ad859ba053c4462c2bb960b13 initramfs: Provide a common initrd reserve function
-aec33b54af55ef025e03e3dfbab3b8abe00eaa22 riscv: Covert to reserve_initrd_mem()
-e178d670f251b6947d6be99c0014e9a57ad4f0e0 riscv/kasan: add KASAN_VMALLOC support
 5da9cbd2b200369fd190c81bc1253e9a17ab3e8d arch/riscv:fix typo in a comment in arch/riscv/kernel/image-vars.h
 d4c34d09ab03e1e631fe195ddf35365a1273be9c pinctrl: Add RISC-V Canaan Kendryte K210 FPIOA driver
 5dd671333171d1ba44c16e1404f72788412e36f4 RISC-V: probes: Treat the instruction stream as host-endian
@@ -1050,5 +1047,8 @@ fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 7e63f2c4dca7806bb4046b0157dfe3d220532321 extcon: max8997: Add CHGINS and CHGRM interrupt handling
 7134e5eb41fd0fb4cc14c81c1df0f366920a125c extcon: sm5502: Detect OTG when USB_ID is connected to ground
 767128762a4f3e4766053417a9eb88982cce6b37 extcon: Fix error handling in extcon_dev_register
+687bba3899f6ab7748a69d9a8b8bf492209e1d93 bindings: pm8941-misc: Convert bindings to YAML
+43b8382e257cb5838783245f9798b3bc5c5fe7e9 bindings: pm8941-misc: Add support for VBUS detection
+b906ab5498369f23a5c490fa39582df81141049c extcon: qcom-spmi: Add support for VBUS detection
 
---===============0563841534248915019==--
+--===============2771671434982981955==--
