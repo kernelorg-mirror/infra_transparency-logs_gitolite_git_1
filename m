@@ -1,34 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Mon, 01 Mar 2021 21:38:13 -0000
-Message-Id: <161463469346.6894.6696279068547867780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 01 Mar 2021 21:50:03 -0000
+Message-Id: <161463540388.15175.10114097445931710647@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-greg/4.14-2
-    old: 862662664f90e8d424e76d43d2ca1c92ab3a1aef
-    new: 0f27a8595a5645b6bafecf5d0244221f0c8befeb
+  - ref: refs/heads/for-next
+    old: 8b7c99dd0a848c2de798e6e81e4d6f98d9841d8b
+    new: f33071230c2cfb63d11b3ddbda7c28779d8bc797
     log: |
-         86432dfbfcb0a8c0c5ca5264e4300a0a3d3e220b s390/smp: __smp_rescan_cpus() - move cpumask away from stack
-         0f27a8595a5645b6bafecf5d0244221f0c8befeb scsi: libiscsi: Fix iscsi_prep_scsi_cmd_pdu() error handling
+         8cbf6557d894c5cac1526def759f10b740a1f031 io_uring: fix -EAGAIN retry with IOPOLL
+         8f8abaee07f8c21c3112fa8d5919df643847b72a io-wq: deduplicate destroying wq->manager
+         f33071230c2cfb63d11b3ddbda7c28779d8bc797 Merge branch 'io_uring-5.12' into for-next
          
-  - ref: refs/heads/for-greg/4.4-2
-    old: a655fc9f98d6ce6f9e736969637c93193ca2cd11
-    new: 44ee3fcfd26d6586d48606d34080ff9e48f0fdd9
+  - ref: refs/heads/io_uring-5.12
+    old: 80122860323dcce0c95885b772a02271551e4785
+    new: 8f8abaee07f8c21c3112fa8d5919df643847b72a
     log: |
-         b6697cd178832c8da518a1f40b247d3f3ab79011 s390/smp: __smp_rescan_cpus() - move cpumask away from stack
-         44ee3fcfd26d6586d48606d34080ff9e48f0fdd9 scsi: libiscsi: Fix iscsi_prep_scsi_cmd_pdu() error handling
-         
-  - ref: refs/heads/for-greg/4.9-2
-    old: 00c106bbccf162b12264ef63f49b2cd568e2ea23
-    new: df3169d1d20da2c77bf278312999d97cadd1c885
-    log: |
-         e152b4c27207c5e8db6d010d3385d6977f615f10 s390/smp: __smp_rescan_cpus() - move cpumask away from stack
-         df3169d1d20da2c77bf278312999d97cadd1c885 scsi: libiscsi: Fix iscsi_prep_scsi_cmd_pdu() error handling
+         8cbf6557d894c5cac1526def759f10b740a1f031 io_uring: fix -EAGAIN retry with IOPOLL
+         8f8abaee07f8c21c3112fa8d5919df643847b72a io-wq: deduplicate destroying wq->manager
          
