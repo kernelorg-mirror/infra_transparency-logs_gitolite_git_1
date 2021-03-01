@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0507003367406343677=="
+Content-Type: multipart/mixed; boundary="===============7788823554563000806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 01 Mar 2021 18:02:01 -0000
-Message-Id: <161462172135.4706.13217391999971558985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 01 Mar 2021 18:02:08 -0000
+Message-Id: <161462172809.4802.16102862834677426812@gitolite.kernel.org>
 
---===============0507003367406343677==
+--===============7788823554563000806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: d1da37c58e65c4800cce768533c563fa3c89c62f
 
---===============0507003367406343677==
+--===============7788823554563000806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1054,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============0507003367406343677==--
+--===============7788823554563000806==--
