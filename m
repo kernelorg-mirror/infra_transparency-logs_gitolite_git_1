@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7030738906530471460=="
+Content-Type: multipart/mixed; boundary="===============0863513731873493497=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Mon, 01 Mar 2021 22:08:49 -0000
-Message-Id: <161463652976.25230.1357942209957797183@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 22:09:21 -0000
+Message-Id: <161463656178.25698.12104645022281076673@gitolite.kernel.org>
 
---===============7030738906530471460==
+--===============0863513731873493497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,61 +15,56 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
 user: jaegeuk
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 010b090e4e64913748f16c28168be674a4139e14
-    new: 5f4d2c15ba07a95486757b027347a87f7b95a206
-    log: revlist-010b090e4e64-5f4d2c15ba07.txt
+  - ref: refs/heads/linux-5.4.y
+    old: a36743a023d99e89346d798db42be1ac7863af2a
+    new: d0300496d6ee53887f4cd1f340ff06c46d549c02
+    log: revlist-a36743a023d9-d0300496d6ee.txt
 
---===============7030738906530471460==
+--===============0863513731873493497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-010b090e4e64-5f4d2c15ba07.txt
+Content-Disposition: attachment; filename=revlist-a36743a023d9-d0300496d6ee.txt
 
-09ac2b60db1e857aa06633d980415b77b478b3c5 f2fs: handle unallocated section and zone on pinned/atgc
-1bc0d459811e15a2144227dc98f471120bc680ed f2fs: Replace expression with offsetof()
-5f1583810b404e3bca274634b6969d1b813af219 f2fs: fix to set inode->i_mode correctly for posix_acl_update_mode
-46000d2be7209e2f732757c0faaa22262f15fa8c f2fs: enhance to update i_mode and acl atomically in f2fs_setattr()
-a5cf21779ae2cfca9b9fe389f4a93f1f15983c42 f2fs: enforce the immutable flag on open files
-565a750b34cc7106cc2f9bf39c5ec06f1a3f3c05 f2fs: relocate f2fs_precache_extents()
-945a315ae739c7077aff28c54586cbc7068f1ee6 f2fs: compress: deny setting unsupported compress algorithm
-bc20f67bfa05b0bf6ad6949a576f1dd789c2cfa5 f2fs: compress: support compress level
-124a3e77e02c064c7c8bfa4b86d736c752188984 f2fs: introduce a new per-sb directory in sysfs
-03e6a4a94f47a370c065c59a72ec89bee4240730 f2fs: fix to tag FIEMAP_EXTENT_MERGED in f2fs_fiemap()
-569a20e378675f18f54619fd7f6e8466d9df3033 f2fs: fix out-of-repair __setattr_copy()
-4e99026b3dc5ffdf1a7f15c2ec209300c00dcd88 f2fs: trival cleanup in move_data_block()
-314ed3b1794b79002c30feb512da00ff6a69f286 f2fs: clean up post-read processing
-3708f23a900521d1c57202b36f47ab0dc9efe21a f2fs: fix null page reference in redirty_blocks
-7383fd9bc8810390f9d4ea1909b825fbb224097f f2fs: fix to set/clear I_LINKABLE under i_lock
-d0b5341c90c294524434442c597504be2bec3674 libfs: unexport generic_ci_d_compare() and generic_ci_d_hash()
-256b72b2944b247e2c5ab6fa82120d83f08987d0 f2fs: compress: fix potential deadlock
-79ac6fa9f50da225d0d96b03c9f7a1bd5989cc44 f2fs: fix to use per-inode maxbytes
-5e5afb124c4527b04e2d49927e1d039ba4f5d5d0 f2fs: introduce sb_status sysfs node
-5ecffc99fb8bc2e491a1eef1ab48c389efa09adb f2fs: remove unused stat_{inc, dec}_atomic_write
-ff6bdecfa0ad51922ba6f8ee24b827ed52e5316f f2fs: deprecate f2fs_trace_io
-046c59c130006ebc26995a3d70ee0e7eb717b564 f2fs: flush data when enabling checkpoint back
-e7b876906b21f3faea6f651812e0f113d2659071 f2fs: fix to avoid inconsistent quota data
-04dddfa5c2fad441e3ca5d68ce210b556e0442c4 f2fs: remove unnecessary initialization in xattr.c
-406c773c874833ab79c92112c31f132bad328b5d f2fs: fix a wrong condition in __submit_bio
-84893428bd3dc8f66b08015bc7343be37ec07d3c f2fs: relocate inline conversion from mmap() to mkwrite()
-259b547d9abf3bec965021d2912a2dbce82d3e01 f2fs: introduce checkpoint_merge mount option
-0dd64c26c1488b4cc483c2d8d799541676a5a6a3 f2fs: add ckpt_thread_ioprio sysfs node
-ee6e2341a92e5fb683e2457cf9aa776e83ac66e0 f2fs: don't grab superblock freeze for flush/ckpt thread
-3bdc297d53fd4dbb882bb4e321f2ed037a354b3d f2fs: give a warning only for readonly partition
-0018bbabf3415dd9c682b37497d301c845dd3510 Documentation: f2fs: fix typo s/automaic/automatic
-f224aee7aefeb9794ef9870edbc65d6192db5167 fs-verity: use smp_load_acquire() for ->i_verity_info
-e334646d47af63a1acdf73b3cc5c8dfb0e90d7f6 fs-verity: remove filenames from file comments
-8284c77ceb0495a5c1bd3416995aac548de344bd fs-verity: rename fsverity_signed_digest to fsverity_formatted_digest
-58343491fe0980bd183ad47674e1e9bcbcb50fde fs-verity: rename "file measurement" to "file digest"
-8a6f3470939e8f3e2e0aa42bdb1e913883f6024f fs-verity: move structs needed for file signing to UAPI header
-4a7bdcc72022babd33abf2f15cfcc1d57f3a73f5 f2fs: remove a few bd_part checks
-206329e22bb90eb383341ed44897012cc478a4da f2fs: use blkdev_issue_flush in __submit_flush_wait
-aa977bd3d85086a3b2f2a26c802df21006f25693 f2fs: remove FAULT_ALLOC_BIO
-9112146082565dc7e9e9f6e2ef44bf45bea13c48 fs-verity: factor out fsverity_get_descriptor()
-b8dc76de9074256463e4c5f64e8da5e68d174366 fs-verity: don't pass whole descriptor to fsverity_verify_signature()
-aad86a03651462022be1d8a1589f538af149aac6 fs-verity: add FS_IOC_READ_VERITY_METADATA ioctl
-11fa0d75de393ee16a1d2d3e6fd63eed8d015373 fs-verity: support reading Merkle tree with ioctl
-67c2d4aa2ed77afb08a38e2d4bd530ec1168bd6a fs-verity: support reading descriptor with ioctl
-5f4d2c15ba07a95486757b027347a87f7b95a206 fs-verity: support reading signature with ioctl
+49d2233e864e9dc5c7df0c1d42d5fda935eed54c f2fs: handle unallocated section and zone on pinned/atgc
+416afba1985f8467dcc0b0b6cd85400f7b905cfb f2fs: Replace expression with offsetof()
+d42e19fd1633730e20d535b801004a6f23906f83 f2fs: fix to set inode->i_mode correctly for posix_acl_update_mode
+3398d642ca862d928b3cf0508a9de45640c55c80 f2fs: enhance to update i_mode and acl atomically in f2fs_setattr()
+2e5cc4d90134965b44c4163f302ab35a20ffe780 f2fs: enforce the immutable flag on open files
+5a06d338be8fd443090d1a821100e197463d9852 f2fs: relocate f2fs_precache_extents()
+11ac4246449fdd52413eda1465ed2f66cfdb5856 f2fs: compress: deny setting unsupported compress algorithm
+b1fdab742a6cb19912b542040c142c1ba6cb8e4d f2fs: compress: support compress level
+7c9500cbf426a9dde7e12ee061912adb79e54c37 f2fs: introduce a new per-sb directory in sysfs
+f8bee60fc603ef81fc8ee0956d8751ae06f1cd18 f2fs: fix to tag FIEMAP_EXTENT_MERGED in f2fs_fiemap()
+1ea71baf7299d022c55f7ba7d172c7fa6bd4dc8d f2fs: fix out-of-repair __setattr_copy()
+efe8c00c9ee1eb7fdd417eb7e384e612622aee21 f2fs: trival cleanup in move_data_block()
+df0f904d74036f724050cf2aa4ca5200cf4a9b1a f2fs: clean up post-read processing
+dbd1728a57054a53f623926af1c4f42cb9c039cc f2fs: fix null page reference in redirty_blocks
+5f2b10dbbf9caa58bbc698d82dc35af31cf22e19 f2fs: fix to set/clear I_LINKABLE under i_lock
+9b15438304cfc3fa4a36cfaf4c1b92ed306e9cb6 libfs: unexport generic_ci_d_compare() and generic_ci_d_hash()
+dae4a078485b0fd9acdbce5b75fbdf934bbd04be f2fs: compress: fix potential deadlock
+d35971c32af2c23a461da432a0d71256e995051a f2fs: fix to use per-inode maxbytes
+a96222e6991e4841a48cc76d76860c91abfa1682 f2fs: introduce sb_status sysfs node
+7e33332c9cb897f2b934f6cfa6951f8619824afd f2fs: remove unused stat_{inc, dec}_atomic_write
+60a9b088db2967f9feffbdfd0e5e344966bf49d9 f2fs: deprecate f2fs_trace_io
+7464b7d9160111efae7a9f13874f93a389907e07 f2fs: flush data when enabling checkpoint back
+4a15b6ec3b22bdd09b8872c3568cf2527f1f03e6 f2fs: fix to avoid inconsistent quota data
+67733da016a0d509df5b1c12e3e1f79e19ecc0e0 f2fs: remove unnecessary initialization in xattr.c
+067224485e57c6d2b11f1a3fa1709a8ecb125fb1 f2fs: fix a wrong condition in __submit_bio
+58c3b33eb9f1cae97985d762ac12e691859a6fda f2fs: relocate inline conversion from mmap() to mkwrite()
+5996fa8e9f50c2edfdace4bd7275d730b56e205d f2fs: introduce checkpoint_merge mount option
+987b76d845225d516f035735dc5838e91b8e83ff f2fs: add ckpt_thread_ioprio sysfs node
+3636ab3a984ae3a12c3a6181406e09745a7063cf f2fs: don't grab superblock freeze for flush/ckpt thread
+6d49d051c1ff0536ee34270f6aa3ead68759f3ef f2fs: give a warning only for readonly partition
+bea4a8a27d62a5486d008b23261e72cf3aff0d1e Documentation: f2fs: fix typo s/automaic/automatic
+42cfcf6810f91e9369e79bf5c3223471d91ed4dc f2fs: remove a few bd_part checks
+459d1c448ff6fed88ff9d3a66ad133ead2614298 f2fs: use blkdev_issue_flush in __submit_flush_wait
+2dfa4b167b2369bc1e035a319b794605b725f4db f2fs: remove FAULT_ALLOC_BIO
+7e4f9de2a19cc648dfaff77abd58a866899fd6e0 fs-verity: factor out fsverity_get_descriptor()
+c2f925a2279ea6e1d9772fb010ce6051c138bda9 fs-verity: don't pass whole descriptor to fsverity_verify_signature()
+1d99e1408fd3f64a39c3eaef0e7ee844221db645 fs-verity: add FS_IOC_READ_VERITY_METADATA ioctl
+01e17f04594943911fe14c3186ca9b27fcc0ccda fs-verity: support reading Merkle tree with ioctl
+9410f37b7182b78d5309bb1d55cee1cafae7b380 fs-verity: support reading descriptor with ioctl
+d0300496d6ee53887f4cd1f340ff06c46d549c02 fs-verity: support reading signature with ioctl
 
---===============7030738906530471460==--
+--===============0863513731873493497==--
