@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1568962218366367179=="
+Content-Type: multipart/mixed; boundary="===============4582313499881922092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 01 Mar 2021 10:05:13 -0000
-Message-Id: <161459311371.8946.2766517050482173734@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 10:05:24 -0000
+Message-Id: <161459312401.9051.5018968273656325529@gitolite.kernel.org>
 
---===============1568962218366367179==
+--===============4582313499881922092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/mm
-    old: 40c1fa52cdb7c13ef88232e374b4b8ac8d820c4f
-    new: aa995da3b5f1f1add459b630d022db5601ec20c9
-    log: revlist-40c1fa52cdb7-aa995da3b5f1.txt
+  - ref: refs/heads/objtool/core
+    old: aafeb14e9da29e323b0605f8f1bae0d45d5f3acf
+    new: cd135cdd1d3c949829a76c40c3082e71565f2b93
+    log: revlist-aafeb14e9da2-cd135cdd1d3c.txt
 
---===============1568962218366367179==
+--===============4582313499881922092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40c1fa52cdb7-aa995da3b5f1.txt
+Content-Disposition: attachment; filename=revlist-aafeb14e9da2-cd135cdd1d3c.txt
 
-5dd671333171d1ba44c16e1404f72788412e36f4 RISC-V: probes: Treat the instruction stream as host-endian
-3449831d92fea50b470d5b22435cfeaf15a6dd54 RISC-V: remove unneeded semicolon
 4cd48bb3b07730214d4e56abd6030c5159eb2572 arch_numa: fix common code printing of phys_addr_t
 65d4b9c5301749d18b5ec1323fdefecefab72687 RISC-V: Implement ASID allocator
 bd6d617aac21502f3042bd472238fbe3f9b77083 of: property: fw_devlink: Ignore interrupts property for some configs
@@ -1041,14 +1039,16 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-5b9bace1d8d462d4c089e3d0306418c422af3f65 smp: Run functions concurrently in smp_call_function_many_cond()
-a7533c9acd0bdb05ccd310d23d1428cc4f1cf9dd x86/mm/tlb: Unify flush_tlb_func_local() and flush_tlb_func_remote()
-e6c8676a90b7db91fb595aa169331462de97ef9d x86/mm/tlb: Open-code on_each_cpu_cond_mask() for tlb_is_not_lazy()
-bafcfa19effe2d08c7730b4f266bc111424f5d49 x86/mm/tlb: Flush remote and local TLBs concurrently
-0069763755480f71fc6ac06ab9a4eb4708a3dfc3 x86/mm/tlb: Privatize cpu_tlbstate
-bc3131467d58549dc14751bb39c103e1ef5381e6 x86/mm/tlb: Do not make is_lazy dirty for no reason
-f8bdb6251fd5b4513ae8a3d0fdd9a8aaca853b13 cpumask: Mark functions as pure
-a41a020a0f45385898a5589e65f7cbf4b1e1af97 x86/mm/tlb: Remove unnecessary uses of the inline keyword
-aa995da3b5f1f1add459b630d022db5601ec20c9 smp: Inline on_each_cpu_cond() and on_each_cpu()
+30c31f06af281f8cc9d74ba9a209eb9617aa48a5 objtool: Allow UNWIND_HINT to suppress dodgy stack modifications
+c3009ed0f60301496a3907b30d7eab9aa10fef3a objtool,x86: Renumber CFI_reg
+e9ad35dc83cdbf0e69984ebfdace0987e2868b8e objtool,x86: Rewrite LEA decode
+4c3d8d35f115a015de8f1307a6d03413409966f0 objtool,x86: Rewrite LEAVE
+c3597528fc49fbfd5d23c30f3fd4199c8aeff9ef objtool,x86: Simplify register decode
+cec7d92fc0616b5d90b03f69e367cedfed560989 objtool,x86: Support %riz encodings
+ddd612224e474b3c0d76438ea49225ae98efbcfa objtool,x86: Rewrite ADD/SUB/AND
+2c5bd2e84e34f7f38e8a0a0e44179dfa724e729c objtool,x86: More ModRM sugar
+d30bb49bdb1879bd1a889eb69124f24dc49a2e4e objtool: Add --backup
+fdac1192bd91399785e2c33039997681868dd2bd objtool: Collate parse_options() users
+cd135cdd1d3c949829a76c40c3082e71565f2b93 objtool: Parse options from OBJTOOL_ARGS
 
---===============1568962218366367179==--
+--===============4582313499881922092==--
