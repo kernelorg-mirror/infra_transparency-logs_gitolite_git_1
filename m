@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1594165474610061204=="
+Content-Type: multipart/mixed; boundary="===============2142458535724929859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Mon, 01 Mar 2021 05:18:02 -0000
-Message-Id: <161457588248.21634.17345880277198374195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Mon, 01 Mar 2021 05:18:31 -0000
+Message-Id: <161457591163.21854.11401747961291940828@gitolite.kernel.org>
 
---===============1594165474610061204==
+--===============2142458535724929859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-testing
-    old: ebdd94ec8b0590400ad295af727f1c6c4e114821
+  - ref: refs/heads/devfreq-fixes
+    old: f40ddce88593482919761f74910f42f4b84c004b
     new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-ebdd94ec8b05-fe07bfda2fb9.txt
+    log: revlist-f40ddce88593-fe07bfda2fb9.txt
 
---===============1594165474610061204==
+--===============2142458535724929859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ebdd94ec8b05-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-f40ddce88593-fe07bfda2fb9.txt
 
 9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
@@ -1051,4 +1051,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============1594165474610061204==--
+--===============2142458535724929859==--
