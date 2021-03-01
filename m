@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2153439567574583916=="
+Content-Type: multipart/mixed; boundary="===============1107454989146677558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Mon, 01 Mar 2021 10:47:04 -0000
-Message-Id: <161459562462.5370.920927898463039861@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 10:47:13 -0000
+Message-Id: <161459563381.5530.6601049468297995953@gitolite.kernel.org>
 
---===============2153439567574583916==
+--===============1107454989146677558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 44a674d6f79867d5652026f1cc11f7ba8a390183
-    new: 447621e373bd1b22300445639b43c39f399e4c73
-    log: revlist-44a674d6f798-447621e373bd.txt
+  - ref: refs/heads/testing
+    old: b552766c872f5b0d90323b24e4c9e8fa67486dd5
+    new: 2712625200ed69c642b9abc3a403830c4643364c
+    log: revlist-b552766c872f-2712625200ed.txt
 
---===============2153439567574583916==
+--===============1107454989146677558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1614595618 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1614595629 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1614595618-b9d20a919fb25d84b2a54d8c0d84a8d48a5aa2c2
+nonce 1614595629-d222735f020328473785e364250670a22f6e799f
 
-44a674d6f79867d5652026f1cc11f7ba8a390183 447621e373bd1b22300445639b43c39f399e4c73 refs/heads/master
+b552766c872f5b0d90323b24e4c9e8fa67486dd5 2712625200ed69c642b9abc3a403830c4643364c refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmA8xiITHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqVIPB/9XAtLA+4Qiccc8KVQ912xJilKcq/2u
-hpYcRoO8ZLRP98/+/cs3gnjYR1Grf+tbfWpfCzDnWbR4MFPIub6ABEimI3c1G5VD
-MFNsLfJK3OXDnMAnY03Vtnn/dEKF66oyj/VjFzYZO823E/KiAAESTxzYZ5gDudN3
-RIt8EW4zZLgTDtBVGTeVLpcqPozzsXEb0ve7kCKhZa6Hw4yes3xiAM2tZi1SoVgQ
-CitxEHgUjMtjdH4mPapLRzx2dbVRYnxs3dnWwPml19nqIP6K6f805gK9bsVcmdYw
-qDn6kzC238fawiOsAFmyQDLHPTrpSG0GlgZ6VWbN6H+FPKxneA0ylEGN
-=3w8z
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmA8xi0THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqQogCACXNN/BMS37Sxea30637A4HAnkvfEIA
+WDoqSPXhtPrwzSh/QfvSo8VrnfEGGlO3/k24xQ/F9CwpEmHj3r9VKA6F+TQvbNGt
+JT0IYxZQEVrPn7f48gkCqJLCtPrYMiUmEHqMMBC7AARyMay/Cp/l2v/asUHNVGIu
+do58mBzNc7wAnoNwB72QDQpnwxjkqgv1T0xXfT26lpyOcK+/KsjeRwVWrUs82dNK
+uXY+p0QgOSOYk546rOufK2K4jhFdT+1RPTWy65aU3JG9BDhahxWQK+m9AUuKUB76
+zLE5aR9jCkUKhTq2jbfgGDOkjyS1UmnUupFSmWwaZ6Gn//fH0utPIJZZ
+=NOX0
 -----END PGP SIGNATURE-----
 
---===============2153439567574583916==
+--===============1107454989146677558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44a674d6f798-447621e373bd.txt
+Content-Disposition: attachment; filename=revlist-b552766c872f-2712625200ed.txt
 
-df53e4f48e8d2225cf6d1fe3dcf389a693d9ccf6 MAINTAINERS: Add entries for Toshiba Visconti ethernet controller
-ec8a42e7343234802b9054874fe01810880289ce arm: dts: visconti: Add DT support for Toshiba Visconti5 ethernet controller
-ec762403bbe95ded1e7dbca468e928535572da8b Merge branch 'net-stmmac-Add-Toshiba-Visconti-SoCs-glue-driver'
-14b3b46a67f78ade99eafcbf320105615e948569 net: broadcom: bcm4908_enet: set MTU on open & on request
-7f76963b692dd499e697d86e26eda8ca24b45c05 i40e: Fix incorrect argument in call to ipv6_addr_any()
-0caf3ada24e4623d4b2c938a5b6d2d09e4ccee18 mptcp: add local addr info in mptcp_info
 1c7d45e7b2c29080bf6c8cd0e213cc3cbb62a054 ibmvnic: simplify reset_long_term_buff function
 1a42156f52bd4de0e2442671bc24b7ffc7b01c52 ibmvnic: substitute mb() with dma_wmb() for send_*crq* functions
 42557dab78edc8235aba5b441f2eb35f725a0ede ibmvnic: add memory barrier to protect long term buffer
@@ -1075,5 +1069,11 @@ ae85ddda0f1b341b2d25f5a5e0eff1d42b6ef3df net: hns3: fix error mask definition of
 c75ec148a316e8cf52274d16b9b422703b96f5ce net: hns3: fix query vlan mask value error for flow director
 b36fc875bcdee56865c444a2cdae17d354a6d5f5 net: hns3: fix bug when calculating the TCAM table info
 447621e373bd1b22300445639b43c39f399e4c73 Merge branch 'net-hns3-fixes-fot-net'
+449052cfebf624b670faa040245d3feed770d22f can: flexcan: assert FRZ bit in flexcan_chip_freeze()
+ec15e27cc8904605846a354bb1f808ea1432f853 can: flexcan: enable RX FIFO after FRZ/HALT valid
+c63820045e2000f05657467a08715c18c9f490d9 can: flexcan: invoke flexcan_chip_freeze() to enter freeze mode
+2afe72ead5ab672c8012bda83cbe65f8145568e0 can: mcp251xfd: revert "can: mcp251xfd: add BQL support"
+e940e0895a82c6fbaa259f2615eb52b57ee91a7e can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
+2712625200ed69c642b9abc3a403830c4643364c can: tcan4x5x: tcan4x5x_init(): fix initialization - clear MRAM before entering Normal Mode
 
---===============2153439567574583916==--
+--===============1107454989146677558==--
