@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2872729521185836815=="
+Content-Type: multipart/mixed; boundary="===============0005943450945674989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 01 Mar 2021 17:10:06 -0000
-Message-Id: <161461860627.5016.7181507847745026001@gitolite.kernel.org>
+Date: Mon, 01 Mar 2021 17:10:31 -0000
+Message-Id: <161461863175.6066.8886274011494910964@gitolite.kernel.org>
 
---===============2872729521185836815==
+--===============0005943450945674989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/test
+  - ref: refs/heads/master
     old: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
     new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
     log: revlist-e71ba9452f0b-fe07bfda2fb9.txt
 
---===============2872729521185836815==
+--===============0005943450945674989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============2872729521185836815==--
+--===============0005943450945674989==--
