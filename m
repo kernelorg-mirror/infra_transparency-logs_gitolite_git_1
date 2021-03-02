@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5807080232675014919=="
+Content-Type: multipart/mixed; boundary="===============2076200794599509460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 02 Mar 2021 18:47:33 -0000
-Message-Id: <161471085332.2655.10090454847971599544@gitolite.kernel.org>
+Date: Tue, 02 Mar 2021 18:47:40 -0000
+Message-Id: <161471086040.2758.5002921967760613993@gitolite.kernel.org>
 
---===============5807080232675014919==
+--===============2076200794599509460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,88 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: f749d8b7a9896bc6e5ffe104cc64345037e0b152
-    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-f749d8b7a989-fe07bfda2fb9.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 517ad73ca4b9e87d7d4b2145ac462ce8d6eecda5
+    new: cf28d1a7f4c08ec8db81d3064bf67175372d40f5
+    log: revlist-517ad73ca4b9-cf28d1a7f4c0.txt
 
---===============5807080232675014919==
+--===============2076200794599509460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1614710851 -0500
+pusher 75C5DE3D 1614710857 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1614710850-138da669d57c2ce6af661190fef389113e8092de
+nonce 1614710857-f47fc0a2551e9350f76de4dcba66a419de4cb515
 
-f749d8b7a9896bc6e5ffe104cc64345037e0b152 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 refs/heads/queue
+517ad73ca4b9e87d7d4b2145ac462ce8d6eecda5 cf28d1a7f4c08ec8db81d3064bf67175372d40f5 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmA+iEMACgkQ7ulgGnXF
-3j24pA//dzrmLCqwErWcRQn+MRmpIsHJzCi8AgQ7t75lUSAosBMbeUiSHBUGduij
-upK7VMt2J1euFDA6o0c2dWHeICgfpj/IeiDg9CAsyfOefkBL4kGyCDhAEHo0ve/g
-58sbH7K1f608gdHtTGzMoyg/BHLfjkz39ArsEjJNLwVlARW5unQKfYsni2HZtBEC
-C/HFPB2xjpSvvYJhyj4se2Idt0hiaw4qaJz+OJ3bGebsIQ223jDWTfWKGsZx0fpr
-mD8Y2t3nsyUW7RgOHi9RDfwY06qZ1jY3BHPyD6/zMoDTJnF503RPeAoE+wntBMlP
-dOL05gXyYptAzZa17k8zv/IuhceJAMjdisuG6IfDUEgDmt4kd68toWgn4D5j4Pp4
-JkE+hsCAbYAXhOGIVZMlzoipevWDHmDMKrNLL/b7L7elMXS8tBiQq9wO31+kLdC1
-l9622HdmBJL6BAgS0t3ArrNx5i7CA4Khpp8Mu6brOdSwoc4+xKCAOUg3WtXozqUu
-lVeh0bagsCiM/lleqt7QpWdQYaVdyDiEoobYpsjKJD1S8JWLhQxCfuPKu5EfKdhq
-Rgr5Ihhs922vScRnmAXmwzBvr2WX8wisSqbhgDdj4NphnkqyRlBxIzIO0lq5ptbM
-XNNJtQaGl3iTvpQa5l8zjkNCbGaZ+FRs8FtbvjYcEYyPbfgqiis=
-=5qw0
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmA+iEkACgkQ7ulgGnXF
+3j1QKQ/+J8z2uBLOq4LAY05sxZIR6wQM6+sdPxjX0JGYmEyTmDWfH4YYa0M3EA6W
+SR7ajGgk+tBlS0QxCFp/NRo0OXsNAWHB8bm53gXEW+ctEjqcDmynWtHlZACqdGRd
+PnSGF8polGe+ZNmXNvc0j4s/3Lsb3WDl5u9NmUu8pujbu7jCcUgd5mNV7e3srkwJ
+hEFt2KYLWxUWHepz5dKSL58zOSAxOqTApWmg9n8iTpDADJJ/CddLof/2nJgobAze
+rdcGbg/VszQoImV4aCuOPidqAeLWZgwmvElnKufIt0q++IRP3VlkJhvUuazoTMow
+m+S7br37KL0ZeAH9W4UY1mk/ZhhFmwOxprXVf2gJra3vyHbFVy0gYCaOtwKzl8Ie
+fctge9xGBK3+F+c4xnoAkDBMfbYQ2zrsctqA1MIAr7Stf6R034vTpA2AxtAacZGv
+IlzMynJ1TxjzSjEzbxJA/EbD2dnoMUjl8J20HlUZZ4s/dsUquouemJlLCFuPFMgF
+XxdXhr4Pz4ASlhElsgBwU4PqygvElm8TVPEqCFyRvZ5XotUxV0gVDxeJHf29artX
++XG7ztV8itHBVJgg8uHhnEW2x50ReazTso5O9wNw6miM+/jUno/B4FDRa1IG+svE
+3deOeGqonBA2598xPYXSEJVuPZ1CMR7QPKQpmg7KVT8JQ82ZWIs=
+=PApC
 -----END PGP SIGNATURE-----
 
---===============5807080232675014919==
+--===============2076200794599509460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f749d8b7a989-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-517ad73ca4b9-cf28d1a7f4c0.txt
 
-e1d830ab32808dcb63861b63d44d96768f9cf7d3 tty: vcc: Drop unnecessary if block
-60cb8a9073ba81490afe0e5b1e8e9394528de10b tty: hvcs: Drop unnecessary if block
-80bddf5c93a99e11fc9faf7e4b575d01cecd45d3 sparc64: only select COMPAT_BINFMT_ELF if BINFMT_ELF is set
-a970a9764c773ae6daa94db934dfe3d790bfc977 sparc: Fix handling of page table constructor failure
-b3554aa2470b5db1222c31e08ec9c29ab33eabc7 sparc: fix led.c driver when PROC_FS is not enabled
-76962e03934e1a77795852c1d64bd8491a00fb52 sparc32: Fix comparing pointer to 0 coccicheck warning
-147d8622f2a26ef34beacc60e1ed8b66c2fa457f sparc64: Use arch_validate_flags() to validate ADI flag
-356184fb6d67770d7788f316226be810a430937b sparc: make xchg() into a statement expression
-4f8ad4045b385dee8e9c0a4e7ca2042d6114d8e7 Merge tag 'amd-drm-next-5.12-2021-02-18' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
-f730f39eb981af249d57336b47cfe3925632a7fd Merge tag 'drm-intel-next-fixes-2021-02-18' of git://anongit.freedesktop.org/drm/drm-intel into drm-next
-c26958cb5a0d9053d1358258827638773f3d36ed Take mmap lock in cacheflush syscall
-9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
-7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
-f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
-fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
-c72160fe05fb978ad859ba053c4462c2bb960b13 initramfs: Provide a common initrd reserve function
-aec33b54af55ef025e03e3dfbab3b8abe00eaa22 riscv: Covert to reserve_initrd_mem()
-e178d670f251b6947d6be99c0014e9a57ad4f0e0 riscv/kasan: add KASAN_VMALLOC support
-5da9cbd2b200369fd190c81bc1253e9a17ab3e8d arch/riscv:fix typo in a comment in arch/riscv/kernel/image-vars.h
-d4c34d09ab03e1e631fe195ddf35365a1273be9c pinctrl: Add RISC-V Canaan Kendryte K210 FPIOA driver
-5dd671333171d1ba44c16e1404f72788412e36f4 RISC-V: probes: Treat the instruction stream as host-endian
-3449831d92fea50b470d5b22435cfeaf15a6dd54 RISC-V: remove unneeded semicolon
-4cd48bb3b07730214d4e56abd6030c5159eb2572 arch_numa: fix common code printing of phys_addr_t
-65d4b9c5301749d18b5ec1323fdefecefab72687 RISC-V: Implement ASID allocator
-bd6d617aac21502f3042bd472238fbe3f9b77083 of: property: fw_devlink: Ignore interrupts property for some configs
-3e4c982f1ce75faf5314477b8da296d2d00919df Revert "driver core: Set fw_devlink=on by default"
-c060c72ffeb448fbb5864faa1f672ebfe14dd25f KVM: x86/mmu: Expand collapsible SPTE zap for TDP MMU to ZONE_DEVICE and HugeTLB pages
-1b6d9d9ed5717157933db77d96bb12884c17ce52 KVM: x86/mmu: Split out max mapping level calculation to helper
-0a234f5dd06582e82edec7cf17a0f971c5a4142e KVM: x86/mmu: Pass the memslot to the rmap callbacks
-9eba50f8d7fcb61774f160890f98239fa3ab68a6 KVM: x86/mmu: Consult max mapping level when zapping collapsible SPTEs
-c3bb9a20834ffe72d3031afe460ff03d3b3b6e90 KVM: nVMX: Disable PML in hardware when running L2
-2855f98265dc579bd2becb79ce0156d08e0df813 KVM: x86/mmu: Expand on the comment in kvm_vcpu_ad_need_write_protect()
-6dd03800b1afe4d3b6f26b0d20f2e1ecebf32b29 KVM: x86/mmu: Make dirty log size hook (PML) a value, not a function
-a018eba53870aa30e5e57465771cb209680f20c2 KVM: x86: Move MMU's PML logic to common code
-52f4607940b18337f01d160aaae346eaac388bf7 KVM: x86: Further clarify the logic and comments for toggling log dirty
-a85863c2ec55edcfd11853014b143fc02b8840a9 KVM: VMX: Dynamically enable/disable PML based on memslot dirty logging
-b6e16ae5d99fa39f0cb3d3f4558c2cbf44af38f8 KVM: x86/mmu: Don't set dirty bits when disabling dirty logging w/ PML
-a1419f8b5bab477d96a71d1c37da0784fb18dc51 KVM: x86: Fold "write-protect large" use case into generic write-protect
-96ad91ae4eaff3697b1124b30d28d73de3557a3d KVM: x86/mmu: Remove a variety of unnecessary exports
-af0bfab907a011e146304d20d81dddce4e4d62d0 leds: led-core: Get rid of enum led_brightness
-b113a7f1981062442b5a5318b6cf6b7ad4097b45 dt-bindings: leds: Add bindings for Intel LGM SoC
-c3987cd2bca34ddfec69027acedb2fae5ffcf7a0 leds: lgm: Add LED controller driver for LGM SoC
 8e5c38a33c84935d66cfcf23c96960b6c4b484ef leds: flash: Add flash registration with undefined CONFIG_LEDS_CLASS_FLASH
 6039b7e87be0b350a5f8fc135adfb5d1f4ba66ad leds: flash: Fix multicolor no-ops registration by return 0
 c27f3d011b08540e68233cf56274fdc34bebb9b5 ACPICA: Fix race in generic_serial_bus (I2C) and GPIO op_region parameter handling
@@ -1080,5 +1038,47 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
+26b01633fac865efd0b142dab19dcadf9812041e scsi: ufs: Add exception event tracepoint
+8fd31fc2b84f280978d23eed877d67b118a0d609 scsi: ufs: Add exception event definitions
+e1c8b528dd23b2065e6740bc573d9dda90830af5 scsi: ufs: ufs-debugfs: Add user-defined exception_event_mask
+c3f04083d65387f224ea9b0b5904d68b2ff7a855 scsi: ufs: ufs-debugfs: Add user-defined exception event rate limiting
+46d2a58134543da2fe7704848265bc29e11723eb scsi: sbitmap: Remove sbitmap_clear_bit_unlock
+ed9eb92974bc7caa940b2b88975237ae3efd6315 scsi: sbitmap: Maintain allocation round_robin in sbitmap
+a523156a93033172241f52f8b1848799b87b750c scsi: sbitmap: Add helpers for updating allocation hint
+30d4ee6f3a9d15abc0b5a22244ba34203098bc03 scsi: sbitmap: Move allocation hint into sbitmap
+d9ba7618bec379ee8708a2e51ea52f935ebdb1f5 scsi: sbitmap: Export sbitmap_weight
+5d747419d20e98232479b68815f7d0cec36e8604 scsi: sbitmap: Add sbitmap_calculate_shift() helper
+9dda23635dbe693061cc67f60f7dee21d9f23693 scsi: blk-mq: Add callbacks for storing & retrieving budget token
+cd4ef15a289a76613ba804bb774200cd74e0e98c scsi: blk-mq: Return budget token from .get_budget callback
+a8474e7b28a00d2489fd698beb9ee6804d3a43ff scsi: core: Put hot fields of scsi_host_template in one cacheline
+d7afc2ed1447c8a649a3ff73088d2b076c2b849b scsi: megaraid_sas: Replace sdev_busy with local counter
+581b8950b65b4fbf91f03a7d49a3c75bd45d6d7b scsi: Add scsi_device_busy() wrapper
+9fdae7a749ea5df4d212e62e29006faa51f32019 scsi: core: Make sure sdev->queue_depth is <= max(shost->can_queue, 1024)
+ce223b4fc24d1237aa6b0452c13aec032c068092 scsi: core: Replace sdev->device_busy with sbitmap
+fa5cf7e3b66c96c74a29cab30649a2f224a1f70f scsi: target: core: Move t_task_cdb initialization
+753e92b6ed7b8c465a124cec5bd0b0cd12243781 scsi: target: core: Drop kref_get_unless_zero() in target_get_sess_cmd()
+1ca668841c147ecbb538732f8d80237108a4998f scsi: target: core: Rename transport_init_se_cmd()
+b673966b9670ffb8ea3c17d664fd5c679e4d1e5a scsi: target: core: Break up target_submit_cmd_map_sgls()
+b71c3efbff57bb18bb13f8a75f3e5cd272818b7f scsi: target: srpt: Convert to new submission API
+c068c4254dee3578689cb9957c630de16a26c39d scsi: target: ibmvscsi_tgt: Convert to new submission API
+d70637ccce55394a76128281618e9464bbb2e82f scsi: target: qla2xxx: Convert to new submission API
+690c1992a5b920b5ba00b4c6c85630a988468330 scsi: target: tcm_loop: Convert to new submission API
+d19b9007b4bfcdcf128dbe85cfb59cbf35664460 scsi: target: sbp_target: Convert to new submission API
+fc1c4b196205e8384c5b10c67404b73d3f7d8ef0 scsi: target: usb: gadget: Convert to new submission API
+0bfef052dafb0d8a5bdff19d8f9dbb1ebb11e048 scsi: target: vhost-scsi: Convert to new submission API
+896004781238044dda27a31f82ef623410f07ca2 scsi: target: xen-scsiback: Convert to new submission API
+7f8d1706378e3342cbc65707ac5ef8b587768a83 scsi: target: tcm_fc: Convert to new submission API
+4908393a0256ddf98edc4a4e9a5e9d58a3a26bc4 scsi: target: core: Remove target_submit_cmd_map_sgls()
+22fbd771d560a1ec28353e6fd036ac338132525f scsi: target: core: Add gfp_t arg to target_cmd_init_cdb()
+17be974d53cdf022eb67990d962873dde18052fc scsi: target: core: Add workqueue based cmd submission
+318ec74d8cb95d16bd325bf6e044ea26d15a5442 scsi: target: vhost-scsi: Use LIO wq cmd submission helper
+2219a3e935b20caa0dc3baf8bc8039308dc91afa scsi: target: tcm_loop: Use block cmd allocator for se_cmds
+a7f478c6693a13c2208a6af5a41df9068a52e21c scsi: target: tcm_loop: Use LIO wq cmd submission helper
+7a5a03ca4f0ce7916699338ee1ab514c49ed8faa scsi: target: core: Cleanup cmd flag bits
+a52264e0dffd26f78dfee9df71bad138da71c1ee scsi: target: core: Fix backend plugging
+c767801d331fd47c101108bfdc8c8a7479105f6d scsi: target: iblock: Add backend plug/unplug callouts
+e4b11c997d0a2cf434989b2d45d636c7a8c2f2ff scsi: target: tcmu: Add backend plug/unplug callouts
+bfe921923b14ed42eadd802c5752ccb830118bee scsi: target: core: Flush submission work during TMR processing
+756920fdc259a1f6046d7a779e78293741cc028f scsi: target: core: Make completion affinity configurable
 
---===============5807080232675014919==--
+--===============2076200794599509460==--
