@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6398894298531389072=="
+Content-Type: multipart/mixed; boundary="===============5624236147976675699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 02 Mar 2021 18:47:16 -0000
-Message-Id: <161471083625.2382.2476964998202496570@gitolite.kernel.org>
+Date: Tue, 02 Mar 2021 18:47:22 -0000
+Message-Id: <161471084261.2462.14192036230433917172@gitolite.kernel.org>
 
---===============6398894298531389072==
+--===============5624236147976675699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,57 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: f852c596f2ee6f0eb364ea8f28f89da6da0ae7b5
-    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-f852c596f2ee-fe07bfda2fb9.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 8fddbfbabec2048a255f29278d2d920bc9565729
+    new: 35d0af28a07e5d5e200478e59b69352b228912ad
+    log: revlist-8fddbfbabec2-35d0af28a07e.txt
 
---===============6398894298531389072==
+--===============5624236147976675699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1614710834 -0500
+pusher 75C5DE3D 1614710840 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1614710833-92634340bcce4695880c37fa615bd72dfaf46d0e
+nonce 1614710840-eb0aeedaea04e7b628fd20874a39c0da33d6133c
 
-f852c596f2ee6f0eb364ea8f28f89da6da0ae7b5 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 refs/heads/fixes
+8fddbfbabec2048a255f29278d2d920bc9565729 35d0af28a07e5d5e200478e59b69352b228912ad refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmA+iDIACgkQ7ulgGnXF
-3j0rhRAAkTOqfkhuqDIEPSNrgOMn5QZVZoBTM0YKckZjSIxOpXUQsnjH1zeXLowb
-evO2t54jYbf2lAyy1/MQt3FmNHHE2SrhdtejFrDeP1erk9fSQgJRXibivY24lVfp
-AGpU2aMsVGc9RfDwLD5y/Nm/QRou1ftHwtm51lyjn8OIIFjOXZS7tXkGXDocvsBj
-4ewawbFOV4BAB/P85sA2G+8zau6LosZZ3gMbZdL1dwBXHK4AGMAXnzP0UAWjQ4Kl
-oJdJJc6/4J806TUS4A7awYxmiGbNZqNz1+Wp2RmTw/QAzZ2ZBEpBHkdW10e1BN6z
-ZTd7n31B/a7vTLmkqYGx/CZC5z5u9LY92J6ENH1zL5Vm0igGF7hsN81u1NSFfilc
-Ajdlw/rngzdCrNbungyGPv2XjJRB03TJswaKSQJvMAxdM4yD/ha2ISIv8OPYeecu
-1FV2oCCfbm/tlR9ZkdBRHopsEYri1VPaV1/kO/LwexbhoVYBgld9mn3tZBzfRJBx
-GFuQ3vnD4SlZTXXb2+UxA7Utk9GmhRfbCS1lu96AwkSirAVh7pbETMUTx3h4LONw
-4NB9pmS5ooWEOGKknxjQd221EX3mpn7tNmt3VnObJBJopoSiXS316q9lTRgr06F7
-eXsOdhTaA+6CCsEODw703a5oNmfZmEGqtXKxuLzkm+Cl+3oLVB4=
-=NR15
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmA+iDgACgkQ7ulgGnXF
+3j2LCA/9E/mmBzw2ZE2uKFtL2b0Ytl1sKE7tplvMfxdMehK+qaI7xlXz2YIEa/M9
+/8/XLtniBoohL1obwxmw20jXOC0uzwCvFnstJER+CEr4rzSYkjB9eq/yWYGIaHqA
+XOlCUvWlloZ8ru54jq3oBPzKz8+MJ2ZT5HpBXl19Lm/rrGDtMJamqwDyttxIacIS
+JJohdE+zvRVIgpDDjD0OjGYC6cGHVrN4OrPEWyIi0RvWyK0DGsUPN3gn0R07L3dN
+Nj3MBa9U1SmLfngXqecHG2j3XDhE6gpFbzyGlNRfknyrQEc/jtt+oJl6UxlEXIN7
+nnNztNm6FBaNhDBDTjb9KclT5FWjnkzlsOC8TdyboRTquZBneCVjUtRDAcXx3BrC
+e/hbUmYcm+4BTnuld+IYkRaVuFMq4Mo4PwdVBzBJAeM1lkmo9JRVm/yEZriJkq80
+u8ScVpGg25lnSXBZUIQR9Wa0OJZIFh4XKsFYzYRiVHfH6USG2Ci3z9oikkvNzM4f
+k3VNe6v13Np3TPMo+npSo7Q4MLSlK5qFLS9Z9IrRDScVbcN/11mwh/EuaYfAbwlo
+Q3e/DH3GenA0LUL8t15nQafEBdfbYN1pdnyulDUoJht+3O9C3toAHzHBragUFTVd
+gWUUGbBGGrnZyHOzM2mQx5T5Sp/Xf0uBXkqnMlS5+rS70varAU4=
+=y2+C
 -----END PGP SIGNATURE-----
 
---===============6398894298531389072==
+--===============5624236147976675699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f852c596f2ee-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-8fddbfbabec2-35d0af28a07e.txt
 
+e1d830ab32808dcb63861b63d44d96768f9cf7d3 tty: vcc: Drop unnecessary if block
+60cb8a9073ba81490afe0e5b1e8e9394528de10b tty: hvcs: Drop unnecessary if block
+80bddf5c93a99e11fc9faf7e4b575d01cecd45d3 sparc64: only select COMPAT_BINFMT_ELF if BINFMT_ELF is set
+a970a9764c773ae6daa94db934dfe3d790bfc977 sparc: Fix handling of page table constructor failure
+b3554aa2470b5db1222c31e08ec9c29ab33eabc7 sparc: fix led.c driver when PROC_FS is not enabled
+76962e03934e1a77795852c1d64bd8491a00fb52 sparc32: Fix comparing pointer to 0 coccicheck warning
+147d8622f2a26ef34beacc60e1ed8b66c2fa457f sparc64: Use arch_validate_flags() to validate ADI flag
+356184fb6d67770d7788f316226be810a430937b sparc: make xchg() into a statement expression
+4f8ad4045b385dee8e9c0a4e7ca2042d6114d8e7 Merge tag 'amd-drm-next-5.12-2021-02-18' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
+f730f39eb981af249d57336b47cfe3925632a7fd Merge tag 'drm-intel-next-fixes-2021-02-18' of git://anongit.freedesktop.org/drm/drm-intel into drm-next
+c26958cb5a0d9053d1358258827638773f3d36ed Take mmap lock in cacheflush syscall
 9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
 f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
@@ -396,17 +407,6 @@ c12ead71e86f47f4715f61e6dee7b7120532bedb cifs: Fix cifsacl ACE mask for group an
 f5065508897a922327f32223082325d10b069ebc cifs: Retain old ACEs when converting between mode bits and ACL.
 bc3e9dd9d104ca1b75644eab87b38ce8a924aef4 cifs: Change SIDs in ACEs while transferring file ownership.
 23bda5e6511083ec1d76377e8075388e02639147 cifs: cleanup a few le16 vs. le32 uses in cifsacl.c
-1c73e0c5e54d5f7d77f422a10b03ebe61eaed5ad scsi: target: core: Add cmd length set before cmd complete
-14d24e2cc77411301e906a8cf41884739de192de scsi: target: core: Prevent underflow for service actions
-1f9f22acbb5dc4a787852f4ef04eb99edf42bce0 scsi: aic79xx: Fix spelling of version
-9599a1cf23330008d90b7c232efe95de7510ff29 scsi: ufs: Fix a duplicate dev quirk number
-eefb816acb0162e94a85a857f3a55148f671d5a5 scsi: bnx2fc: Fix Kconfig warning & CNIC build errors
-c2f23a96c6e25a3b8aa2e873519b513745bba27c scsi: aic7xxx: Remove unused function pointer typedef ahc_bus_suspend/resume_t
-9acced3f58ad24407c1f9ebf53a8892c1e24cdb5 scsi: sd: sd_zbc: Don't pass GFP_NOIO to kvcalloc
-43bf922cdd62d430e4ca3a20e6940c4a6fc2bc99 scsi: target: tcmu: Move some functions without code change
-8f33bb2400f48a6a319176866af6e7aac9e5211e scsi: target: tcmu: Fix memory leak caused by wrong uio usage
-aaf15f8c6de932861f1fce6aeec6a89ac0e354b6 scsi: sd: Fix Opal support
-f749d8b7a9896bc6e5ffe104cc64345037e0b152 scsi: hpsa: Correct dev cmds outstanding for retried cmds
 415e915fdfc775ad0c6675fde1008f6f43dd6251 Merge tag 'v5.11' into next
 311a27da6271394afdca5773f4272eb6f48fae2d dt-bindings: input: cros-ec-keyb: Add a new property describing top row
 820c8727956da82b7a841c299fabb2fdca9a37d4 Input: cros-ec-keyb - expose function row physical map to userspace
@@ -1081,4 +1081,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============6398894298531389072==--
+--===============5624236147976675699==--
