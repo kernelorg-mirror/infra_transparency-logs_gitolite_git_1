@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7597709953735416716=="
+Content-Type: multipart/mixed; boundary="===============8782903591799420363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 02 Mar 2021 18:23:53 -0000
-Message-Id: <161470943337.19149.16697442987064917142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 02 Mar 2021 18:27:43 -0000
+Message-Id: <161470966388.21611.17611818021310022193@gitolite.kernel.org>
 
---===============7597709953735416716==
+--===============8782903591799420363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
+  - ref: refs/heads/char-misc-testing
     old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: 1f8a51ee324253be71e44fd0efe00a6b053ea621
+    new: 46d61f758482db3a687a104a5eccb7025a98ff05
     log: |
-         1f8a51ee324253be71e44fd0efe00a6b053ea621 tty: serial: pch_uart.c: remove debugfs dentry pointer
+         46d61f758482db3a687a104a5eccb7025a98ff05 virtio_console: remove pointless check for debugfs_create_dir()
          
 
---===============7597709953735416716==
+--===============8782903591799420363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614709424 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1614709424-c474e49696254083fc0c661d58f45f72ea088355
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614709655 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1614709654-b0f90e10b6cf486e1b893271dd69f05cd51ab845
 
-fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 1f8a51ee324253be71e44fd0efe00a6b053ea621 refs/heads/tty-testing
+fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 46d61f758482db3a687a104a5eccb7025a98ff05 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA+grAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uygP/Rdm+UTn4zO+t11jFPcC
-5BDk4Zvx/JEMkppd84Suu3aw+0lfTOLQ4KSoqFU51TkI5Vp6WNANeL1GvUg+hD01
-hqWH3ofxHppCAwyvk0GG8LDDWWgP6FRueQHF+X+eoBELGQbnKagkP1uT73Ymmmc+
-F4V5IAnEwSyjEOHo+LHCNwdGEcdtCjaF7zZ1qQxR989qjDPmEhry7qYqN137+xyH
-AL8A2Yxk5Hg6kOO3GhMp8S25nyId1aOxJ/docyrO6EOtTAhkc3c09PAgFwE62x8I
-sm7orTGKO6q2sNg+m7zlfZKGWEkacNxEn3p2wHMzUDeP+3ldZ16LI8URLr+Mg55+
-CrTjZDUqXQNTFTwu5YVjn8CCixl6G5v0LaVmry+IcH7z7GkPWKpsCo5ciw2OaC+C
-xQJa9eM1IjR9+8Y0yTeg2LhcgqM1Sl67aJUw2f5n6ZV+GLQVnM0aKvBcYHRnks3Q
-bco5Gti42n4t/oLu909C75eo7GU3hZ4dnE7woTiOrC9oFONJ1UubW47xVlyMKTm8
-aOqagNgcCOg0wslWXMi2nJFXAaDtj5d82i/0aQGsVX91xOxdlg+pcPh3yUgiLCsY
-18o5BXRCor74fmDTxLiMmZNeaCheifUMyi+PUJzS1B2eegqLOJzExq7zpJm4l7SR
-9quNDm5b6OAbOeyUIg/HfP9i
-=zc0V
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA+g5cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LkIP/3ld1dgkY9G/lj75atC/
+HFJnq8Tf5EHi8koM/S/JAeDrtQEza3q+VRLPV16plm2b2OajltKq64CnqSqh7J8Q
+sPUVzFAsz2EQ4IcVdSMSavvXwAKVZtsy+Bxcat+G4X506iKBmcssIiyg/n7hszRU
+c4btzyehDDJiyEyhml9V8pQERCgAfznRkTcyJbykq71rEFHXhthJtREbzKg8TFgR
+CPr6x8orCsiSwEdDkhY28CKpZtWHR+8hKqF+rJzQ9iMyzJSILVe0Jf8asv/IXkot
+pfxL3C9hc1ZvccTapKGgU1VYJXICFm/ptmjh7GqFyBs7MAjplGu8yPD06GY2WKlW
+S+pEvReZwj7Jo1ryvSdSGRFA2y6m0PpSU8gkOWgZJDnp5M5mUd6ym2l80NTC7sOg
+qeUdgPoxqDpGiNdGQQMhZ33EawxnKQ58dIpIKeDQRkj023AcHw3neajzfhwqNizj
+wT4raRpFKb/LNXy2+elugZ3TFCfiMZH51812qVBJDu7hQ2PGNinzcOcdkNGa7rn8
+I+JP7v8mSfdgwSEePK0nhqddg/ipn2xH7r2BDZsqDizjiUkTvZA3xQ7SE7uKe4wR
+eb9AZk2wCracLpCMDLMx02uN9xagBVOdcs6v6evIkhl+qszsC2zdgUKpOj7rB9Hn
+WqaiVGy+mXrXu5UFscE+LkCX
+=mbst
 -----END PGP SIGNATURE-----
 
---===============7597709953735416716==--
+--===============8782903591799420363==--
