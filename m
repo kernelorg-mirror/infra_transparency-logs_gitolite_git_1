@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Tue, 02 Mar 2021 13:41:39 -0000
-Message-Id: <161469249928.3768.2392605648237793153@gitolite.kernel.org>
+Date: Tue, 02 Mar 2021 13:48:01 -0000
+Message-Id: <161469288172.7079.8057775336496774489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
 user: brauner
 changes:
   - ref: refs/heads/idmapped_mounts
-    old: 2d7e3778db809bc77b7fe32b011f4a9ef994951c
-    new: ff73592876af3393e02a2bcdb60e6e5f207ab563
+    old: ff73592876af3393e02a2bcdb60e6e5f207ab563
+    new: 0db965167dc65dc5e3c0f2e9546cb583945d0a98
     log: |
-         ff73592876af3393e02a2bcdb60e6e5f207ab563 add mount helper
+         0db965167dc65dc5e3c0f2e9546cb583945d0a98 add mount helper
          
