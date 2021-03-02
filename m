@@ -1,44 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1587337579283145674=="
+Content-Type: multipart/mixed; boundary="===============4083513748518347485=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 02 Mar 2021 16:31:09 -0000
-Message-Id: <161470266920.16050.14812983929477353205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 02 Mar 2021 16:34:47 -0000
+Message-Id: <161470288792.17170.17007567654758341279@gitolite.kernel.org>
 
---===============1587337579283145674==
+--===============4083513748518347485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/next-fixes
-    old: 08b609a13e80452114012ae1c9371e87e578b0a4
-    new: 5ddce1dc95c04de8f7d34e87f9cc45da4e564536
-    log: revlist-08b609a13e80-5ddce1dc95c0.txt
+  - ref: refs/heads/nand/next
+    old: 073abfa7ea9a5b0537d6f92b42baedaf82a04c53
+    new: ff0c6515cf31e133bc3e7c7cd9ddda0fa2efe9ce
+    log: revlist-073abfa7ea9a-ff0c6515cf31.txt
 
---===============1587337579283145674==
+--===============4083513748518347485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08b609a13e80-5ddce1dc95c0.txt
+Content-Disposition: attachment; filename=revlist-073abfa7ea9a-ff0c6515cf31.txt
 
-d4c34d09ab03e1e631fe195ddf35365a1273be9c pinctrl: Add RISC-V Canaan Kendryte K210 FPIOA driver
-5dd671333171d1ba44c16e1404f72788412e36f4 RISC-V: probes: Treat the instruction stream as host-endian
-3449831d92fea50b470d5b22435cfeaf15a6dd54 RISC-V: remove unneeded semicolon
-4cd48bb3b07730214d4e56abd6030c5159eb2572 arch_numa: fix common code printing of phys_addr_t
-65d4b9c5301749d18b5ec1323fdefecefab72687 RISC-V: Implement ASID allocator
-bd6d617aac21502f3042bd472238fbe3f9b77083 of: property: fw_devlink: Ignore interrupts property for some configs
-3e4c982f1ce75faf5314477b8da296d2d00919df Revert "driver core: Set fw_devlink=on by default"
-c060c72ffeb448fbb5864faa1f672ebfe14dd25f KVM: x86/mmu: Expand collapsible SPTE zap for TDP MMU to ZONE_DEVICE and HugeTLB pages
-1b6d9d9ed5717157933db77d96bb12884c17ce52 KVM: x86/mmu: Split out max mapping level calculation to helper
-0a234f5dd06582e82edec7cf17a0f971c5a4142e KVM: x86/mmu: Pass the memslot to the rmap callbacks
-9eba50f8d7fcb61774f160890f98239fa3ab68a6 KVM: x86/mmu: Consult max mapping level when zapping collapsible SPTEs
-c3bb9a20834ffe72d3031afe460ff03d3b3b6e90 KVM: nVMX: Disable PML in hardware when running L2
-2855f98265dc579bd2becb79ce0156d08e0df813 KVM: x86/mmu: Expand on the comment in kvm_vcpu_ad_need_write_protect()
 6dd03800b1afe4d3b6f26b0d20f2e1ecebf32b29 KVM: x86/mmu: Make dirty log size hook (PML) a value, not a function
 a018eba53870aa30e5e57465771cb209680f20c2 KVM: x86: Move MMU's PML logic to common code
 52f4607940b18337f01d160aaae346eaac388bf7 KVM: x86: Further clarify the logic and comments for toggling log dirty
@@ -1042,13 +1029,26 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-aedb9d9089ceb1c86be495bcc70e6021c01f92ff btrfs: ref-verify: use 'inline void' keyword ordering
-4f6a49de64fd1b1dba5229c02047376da7cf24fd btrfs: unlock extents in btrfs_zero_range in case of quota reservation errors
-5011c5a663b9c6d6aff3d394f11049b371199627 btrfs: validate qgroup inherit for SNAP_CREATE_V2 ioctl
-c55a4319c4f2c3ba0a385b1ebc454fa283cfe920 btrfs: fix spurious free_space_tree remount warning
-0f9c03d824f6f522d3bc43629635c9765546ebc5 btrfs: free correct amount of space in btrfs_delayed_inode_reserve_metadata
-80e9baed722c853056e0c5374f51524593cb1031 btrfs: export and rename qgroup_reserve_meta
-4d14c5cde5c268a2bc26addecf09489cb953ef64 btrfs: don't flush from btrfs_delayed_inode_reserve_metadata
-5ddce1dc95c04de8f7d34e87f9cc45da4e564536 Merge branch 'misc-5.12' into next-fixes
+031937ce00a888e4cc8985b01bc80c936409bcb6 mtd: nand: Let ECC engines advertize the exact number of steps
+c16459eb54a1a4331f8beb17631cc01944162a9e mtd: nand: ecc-bch: Populate the public nsteps field
+7e03d3ab7a397dae5db5fbd084cc08ee940a9736 mtd: nand: ecc-hamming: Populate the public nsteps field
+eb973c4f22f4b55353a3d7777392fd3f19548ac5 mtd: nand: Add a helper to retrieve the number of ECC steps
+0c238af656c2398175901b8a28f2a5b7b691594c mtd: nand: Add a helper to retrieve the number of ECC bytes per step
+e92d8e7bb79fcb8024ea53fd1f5228cefe20f138 mtd: rawnand: Try not to use the ECC private structures
+dbe6a6da040cbbc86b9811af2bdc3083b7211576 mtd: rawnand: omap: Use ECC information from the generic structures
+d7756af273389db84c65e2af8de8f4052a9158af mtd: nand: ecc-bch: Use the public nsteps field
+0b92937c03162a305676a5c125f64ec18c644bb9 mtd: nand: ecc-hamming: Use the public nsteps field
+f95add6ff80490872464817653378b8d2c06d692 mtd: rawnand: qcom: Update register macro name for 0x2c offset
+52f67def97f1c56779a86babdc96ea65b3a0af3e mtd: nand: fix error handling in nand_prog_page_op() #1
+19877b2c5de809e6f553e158c263b7a8bb65222d mtd: nand: fix error handling in nand_prog_page_op() #2
+8c599a0d89d91693945b25c112ba48a9db7775f7 mtd: spinand: gigadevice: Support GD5F1GQ5UExxG
+d49ecd70c82d89c7448f5623ae08d0a4a488dc72 mtd: rawnand: fsmc: Fix error code in fsmc_nand_probe()
+7eff256102bd515a0f9e2c9c2a06b6d8b4ee1125 mtd: rawnand: qcom: Convert nandc to chip in Read/Write helper
+3fb2eae8c2cfa3bdb45c388e56ce417145e8f7be mtd: rawnand: qcom: Add helper to check last code word
+050d2d43aa8a077c51684a2a76df6ab3b48a9eb4 mtd: rawnand: qcom: Rename parameter name in macro
+f41e2468e9020cc79fae3e6ccae44fd9c515dcb9 mtd: rawnand: qcom: Add helper to configure location register
+601d45247308b64736bb5fdf5d70a07954bccf00 mtd: rawnand: qcom: update last code word register
+095b4dabff2a929cefd330110c5c578956213188 mtd: rawnand: brcmnand: fix OOB R/W with Hamming ECC
+ff0c6515cf31e133bc3e7c7cd9ddda0fa2efe9ce mtd: rawnand: intel: Use HZ macros
 
---===============1587337579283145674==--
+--===============4083513748518347485==--
