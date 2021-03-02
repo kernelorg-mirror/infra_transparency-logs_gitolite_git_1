@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Tue, 02 Mar 2021 02:08:15 -0000
-Message-Id: <161465089590.13995.5476621588828873391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Tue, 02 Mar 2021 02:10:11 -0000
+Message-Id: <161465101152.16969.7142436376213390150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/xfs/shrink_lastag
-    old: 95891836ec5d4d45e5fab66bff969fa3f4063d77
-    new: f2deef3357742e54c30ac19e7b6425828c0a4977
+  - ref: refs/heads/master
+    old: cb97c0bb7bbe90a4dcf1d29023080eb6b9f8213b
+    new: 163fc536dc0fe6a4d9aa8c61b030ba94ea401d1c
     log: |
-         02e7959679fe3e0ac97e8f07226b27b41b9b5799 xfs: hoist out xfs_resizefs_init_new_ags()
-         c658dcb36f034aca21e3e1d2db9e15263a16c74c xfs: introduce xfs_ag_shrink_space()
-         95870aeb86f990f395c9849e02ed57cc4dff34f6 xfs: support shrinking unused space in the last AG
-         f2deef3357742e54c30ac19e7b6425828c0a4977 xfs: add error injection for per-AG resv failure
+         367aefdc6408f8a3b27c3ed04ab656fb7d8c2582 perfbook-lt: Allow alphanumeric list items
+         163fc536dc0fe6a4d9aa8c61b030ba94ea401d1c easy: Updates and wordsmithing
          
