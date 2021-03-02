@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Tue, 02 Mar 2021 11:08:53 -0000
-Message-Id: <161468333315.3351.2068227455991591391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Tue, 02 Mar 2021 11:13:49 -0000
+Message-Id: <161468362957.7520.487430626751017533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
-user: brauner
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/idmapped_mounts
-    old: 2d201b04d3bed9119780aa2ba09a05cb73f5c700
-    new: 0b878fff4b249ffb88eb1c684b596e9eedc9c59f
+  - ref: refs/heads/master
+    old: ea84f882d5d39b734a5756b3a6950da4896b9a0a
+    new: 55070b0eb6d4eb41b9de9da5ec4ee936ec729c21
     log: |
-         0b878fff4b249ffb88eb1c684b596e9eedc9c59f WIP: xfs with quotas turned on
+         55070b0eb6d4eb41b9de9da5ec4ee936ec729c21 bindings: python: add semicolons to PyObject_HEAD
          
