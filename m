@@ -1,31 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============6482614084484398167=="
+Content-Type: multipart/mixed; boundary="===============6352958339959058734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
 Date: Tue, 02 Mar 2021 08:55:23 -0000
-Message-Id: <161467532328.4141.2970853538590957639@gitolite.kernel.org>
+Message-Id: <161467532391.4165.5939279443315879280@gitolite.kernel.org>
 
---===============6482614084484398167==
+--===============6352958339959058734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: tudor.ambarus
 changes:
-  - ref: refs/heads/sched/core
-    old: c5e6fc08feb2b88dc5dac2f3c817e1c2a4cafda4
-    new: c91b0dcb6482096e7af4adbf39cfe3296af74a78
-    log: revlist-c5e6fc08feb2-c91b0dcb6482.txt
+  - ref: refs/heads/spi-nor/next
+    old: 75386810d3a61f4bb9e180774291454f7235b8b3
+    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    log: revlist-75386810d3a6-fe07bfda2fb9.txt
 
---===============6482614084484398167==
+--===============6352958339959058734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5e6fc08feb2-c91b0dcb6482.txt
+Content-Disposition: attachment; filename=revlist-75386810d3a6-fe07bfda2fb9.txt
 
+9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
+7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
+f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
+fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
+c72160fe05fb978ad859ba053c4462c2bb960b13 initramfs: Provide a common initrd reserve function
+aec33b54af55ef025e03e3dfbab3b8abe00eaa22 riscv: Covert to reserve_initrd_mem()
+e178d670f251b6947d6be99c0014e9a57ad4f0e0 riscv/kasan: add KASAN_VMALLOC support
+5da9cbd2b200369fd190c81bc1253e9a17ab3e8d arch/riscv:fix typo in a comment in arch/riscv/kernel/image-vars.h
+d4c34d09ab03e1e631fe195ddf35365a1273be9c pinctrl: Add RISC-V Canaan Kendryte K210 FPIOA driver
+5dd671333171d1ba44c16e1404f72788412e36f4 RISC-V: probes: Treat the instruction stream as host-endian
+3449831d92fea50b470d5b22435cfeaf15a6dd54 RISC-V: remove unneeded semicolon
+4cd48bb3b07730214d4e56abd6030c5159eb2572 arch_numa: fix common code printing of phys_addr_t
+65d4b9c5301749d18b5ec1323fdefecefab72687 RISC-V: Implement ASID allocator
+bd6d617aac21502f3042bd472238fbe3f9b77083 of: property: fw_devlink: Ignore interrupts property for some configs
+3e4c982f1ce75faf5314477b8da296d2d00919df Revert "driver core: Set fw_devlink=on by default"
+c060c72ffeb448fbb5864faa1f672ebfe14dd25f KVM: x86/mmu: Expand collapsible SPTE zap for TDP MMU to ZONE_DEVICE and HugeTLB pages
+1b6d9d9ed5717157933db77d96bb12884c17ce52 KVM: x86/mmu: Split out max mapping level calculation to helper
+0a234f5dd06582e82edec7cf17a0f971c5a4142e KVM: x86/mmu: Pass the memslot to the rmap callbacks
+9eba50f8d7fcb61774f160890f98239fa3ab68a6 KVM: x86/mmu: Consult max mapping level when zapping collapsible SPTEs
+c3bb9a20834ffe72d3031afe460ff03d3b3b6e90 KVM: nVMX: Disable PML in hardware when running L2
+2855f98265dc579bd2becb79ce0156d08e0df813 KVM: x86/mmu: Expand on the comment in kvm_vcpu_ad_need_write_protect()
+6dd03800b1afe4d3b6f26b0d20f2e1ecebf32b29 KVM: x86/mmu: Make dirty log size hook (PML) a value, not a function
+a018eba53870aa30e5e57465771cb209680f20c2 KVM: x86: Move MMU's PML logic to common code
 52f4607940b18337f01d160aaae346eaac388bf7 KVM: x86: Further clarify the logic and comments for toggling log dirty
 a85863c2ec55edcfd11853014b143fc02b8840a9 KVM: VMX: Dynamically enable/disable PML based on memslot dirty logging
 b6e16ae5d99fa39f0cb3d3f4558c2cbf44af38f8 KVM: x86/mmu: Don't set dirty bits when disabling dirty logging w/ PML
@@ -1027,28 +1050,5 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-b8e45e2a14bab684713f5dfc70c9e578c333dcdd sched: Fix migration_cpu_stop() requeueing
-6430eb536a97036b1d529cbf383cfe36e41a2f97 sched: Simplify migration_cpu_stop()
-dbf983c0a5c37da2d476564792bd84e0e8f067fc sched: Collate affine_move_task() stoppers
-9eca0f53b1c2f5acb85e84673e263bf996817a24 sched: Optimize migration_cpu_stop()
-de8115ef5c83ef2c9941684019d59f4c2e5d16ce sched: Fix affine_move_task() self-concurrency
-a4c2579076dc6951709a8e425df8369ab6eb2f24 sched: Simplify set_affinity_pending refcounts
-fba111913e51a934eaad85734254eab801343836 sched/membarrier: fix missing local execution of ipi_sync_rq_state()
-560c86ed4c1ca92592c04a8b2032fb29f8556a90 sched: Simplify migration_cpu_stop()
-eae7a59d5a1e9bcf9804bcbd006ddce5cf72f8f4 kcov: Remove kcov include from sched.h and move it to its users.
-06a35afe89800789fc47ca5c41fbe435cc77d8e0 sched/fair: Remove update of blocked load from newidle_balance
-81df323258719a0194fadbf4aa93e213a552e460 sched/fair: Remove unused return of _nohz_idle_balance
-8af3f0fbfbaa3b78bb1fc577ee42c3228f3cc822 sched/fair: Remove unused parameter of update_nohz_stats
-c0d2f3b54ed88ce1079f8ffb094205d3f578a9bb sched/fair: Merge for each idle cpu loop of ILB
-0c067f38e1b9640e9121fb7e0bb38fa8f867a248 sched/fair: Reorder newidle_balance pulled_task tests
-1705e3b449f62d957e897239ef6c67ca574acfc6 sched/fair: Trigger the update of blocked load on newly idle cpu
-839ffb99d94f930fecbdee2fdfb883b10c30326b sched/fair: Reduce the window for duplicated update
-8af20c5fe756a9ff556c9b520201b2d158874481 sched/fair: Fix task utilization accountability in compute_energy()
-4537b36ee8a290376174b297d6812cba1375ea79 sched/fair: use lsub_positive in cpu_util_next()
-95d3920902d198b78d489db7e11732661ef79357 sched/fair: Fix shift-out-of-bounds in load_balance()
-78ca1ab2718a5518171f2e7d0afad0b9752c4453 sched/pelt: Fix task util_est update filtering
-e58422d9789d5c61bb039e40e4e10781d8d43ac3 cpu/hotplug: Allowing to reset fail injection
-92e1512c5329c7675b66163d357d00d95107fa03 cpu/hotplug: CPUHP_BRINGUP_CPU failure exception
-c91b0dcb6482096e7af4adbf39cfe3296af74a78 cpu/hotplug: Add cpuhp_invoke_callback_range()
 
---===============6482614084484398167==--
+--===============6352958339959058734==--
