@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0638984982608851081=="
+Content-Type: multipart/mixed; boundary="===============6410855137422528733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 02 Mar 2021 07:40:03 -0000
-Message-Id: <161467080377.21160.11020568002302970986@gitolite.kernel.org>
+Date: Tue, 02 Mar 2021 07:40:44 -0000
+Message-Id: <161467084487.22657.11499852420735953371@gitolite.kernel.org>
 
---===============0638984982608851081==
+--===============6410855137422528733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: 1236c1d95c99e9f34cd7547e53af71142a3854ea
+    old: 1236c1d95c99e9f34cd7547e53af71142a3854ea
+    new: 466b4bed6798e912264325bb4d90dfcd3a8a9128
     log: |
-         c9de574e76bc3862f34b9fca77dfb88ceffd2556 Goodix Fingerprint device is not a modem
-         1016ecc84404411e39849cfc0d8b6f77cb1a8c96 usb: dwc3: qcom: add ACPI device id for sc8180x
-         1236c1d95c99e9f34cd7547e53af71142a3854ea USB: gadget: u_ether: Fix a configfs return code
+         089a8b8c66349bc065ea9e865c68872e7cac8bf1 usb: gadget: f_uac2: always increase endpoint max_packet_size by one audio slot
+         466b4bed6798e912264325bb4d90dfcd3a8a9128 usb: gadget: f_uac1: stop playback on function disable
          
 
---===============0638984982608851081==
+--===============6410855137422528733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614670795 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614670836 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1614670794-77415a65724e72e99f61c70161bf3338485b5520
+nonce 1614670835-f48b5e7ba1155376e009a97a03f3f55f7577a5c1
 
-fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 1236c1d95c99e9f34cd7547e53af71142a3854ea refs/heads/usb-linus
+1236c1d95c99e9f34cd7547e53af71142a3854ea 466b4bed6798e912264325bb4d90dfcd3a8a9128 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA968sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8eIQALJMJVz5yb/5coK+MoIh
-xeTVwbMvX/pXF16qECt38IxEv8KB2mglCHNwh0j2kUCUCn10z6DBudXl2xRKYNUN
-QTzszF/KyrO7Oq6OWL4JJ/pJVf5UqoOY/aQ0hvJrBWp7h3xjRJN2vEglDDLt41A2
-pRLSpmxvokaRAvJ8+JYCnMJVGKK8yUuE8hUwluBt3BvAEf0Ftbbqp9lXl5Vl41+a
-gmI+t7UPUz4h+TAxkqsnh6e1FLSohtueE3P6dHZoHFLJ//M89tQ5LMPNuGOeOrkb
-MybAMlQt55LyC51cucdi/z2TorKdLfKeQNWgkzZHB6wRSUPuu4w0mFl5RGcfXfEH
-R71ZMetHj0OItQPyp5EZJWy0xBEM+d9VpWqPLlWHELoS11z/I8qZ5/7mI5pPCuWz
-gn4AT00eoPQI2aULyksSh2uYE0paPyuVtiOuoHRwLJcV0xS/f65u2A4ZPmO8x0LR
-sV2LiAqsu9g7Gf3JRSSlf0O1UwFtHfU1zuxgeNOov/cnkv5OSL+kmm+q4BMl6EWF
-3mv3NzYNuV1EYbFMfVVx1zlCpQ9tJf5BQXeB61IOj7vGHvr53lccciqdLhFiT+Y2
-dGK59LmGQDUXouazRK2oxlePsUNLjfyCOd8ghU2pSBETGI5YDtaArFA66Sl10Wbg
-CMzOQpPXe9NycbwfKdCQ+5O7
-=jWhl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA96/QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ugkP/3ElnG1hjqhPL24w3p8j
+VmUm14PZPvW5wlzGA6sQpuJfWkRj3nib6sQ/9GOktWm9QreXVAMa3L+C247y/RiU
+Z3+EykD4McURXOZmU41x9OHBakrhc1piUan2OFzmGaLIerbYjtyyuUIxwrX76fuN
+I7GK7AlaVWlCsL4qRoPRFjY1imBZsGSO76g38C6O4QZSz9UJo/8weQcAFVMldLG5
+kg+Sh4mggY89WMSXpw27JACa/3Hkvb8/cfk3xWkVOP4NpXtscC82k2/CRlsSvwoP
+APt4gjOHR03tzT1oCZyTMuWsedr1dMZljN48/u+Q3SIX1rzKkwBpJL/Hh2tPCNpY
+tkztd9UIRpMqldHrZ0vpoZel6F1SwUtkYGEietgJd8ioxBqOPH8s3dp730Iy31Kn
+6A6WUOXpLz3PN3HMl1SmPeG4B1LBjFH1h8QqtHCu8R7uchAZ8VH12RWLDZDiKiT5
+aIXuyxenBjKF8SkNjLMJfJpLKWfvxPpTIMepy3WQsSA+lorvmq4f/poBKtMIjEU/
+mxsgA66akd01/tGF3R74vaASvBdyYPSHgv3q86VAUfBc9GgjNORoDnu4esy9GRF6
+zP7hNwWRlBiDl2mvYcOZOl/N0SQuCVZjHIFnKB2b6NUvkAOHzz4Su+fCjFMIPyKd
+bXp/KBNbToPEnSaVeVUsnI6c
+=lB75
 -----END PGP SIGNATURE-----
 
---===============0638984982608851081==--
+--===============6410855137422528733==--
