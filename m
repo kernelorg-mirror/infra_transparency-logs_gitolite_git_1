@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 02 Mar 2021 09:25:44 -0000
-Message-Id: <161467714400.6383.12002156535322658833@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Tue, 02 Mar 2021 09:25:56 -0000
+Message-Id: <161467715680.6467.12881007956472794762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/for-linus
-    old: 2c9119001dcb1dc7027257c5d8960d30f5ba58be
-    new: a864e8f159b13babf552aff14a5fbe11abc017e4
-    log: |
-         3531ba21f5520d0865004e7d75b6f505d08589f2 ALSA: hda: fix kernel-doc warnings
-         a864e8f159b13babf552aff14a5fbe11abc017e4 ALSA: hda: intel-nhlt: verify config type
-         
-  - ref: refs/heads/master
-    old: 130638b25f97fc400ca7f2d1d21ed78903cbd9a7
-    new: c64faf40fab08bf515d6054fe5d2183e927d0d8c
-    log: |
-         3531ba21f5520d0865004e7d75b6f505d08589f2 ALSA: hda: fix kernel-doc warnings
-         a864e8f159b13babf552aff14a5fbe11abc017e4 ALSA: hda: intel-nhlt: verify config type
-         c64faf40fab08bf515d6054fe5d2183e927d0d8c Merge branch 'for-linus'
-         
+  - ref: refs/heads/v5.11-armsoc/dtsfixes
+    old: 74532de460ec664e5a725507d1b59aa9e4d40776
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/v5.11-rockchip-dtsfixes1
+    old: b00a9afcaf8a53c40d74291b584e766dc2d548c5
+    new: 0000000000000000000000000000000000000000
