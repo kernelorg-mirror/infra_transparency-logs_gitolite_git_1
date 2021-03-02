@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Tue, 02 Mar 2021 15:48:42 -0000
-Message-Id: <161470012205.22290.18130202962579385825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Tue, 02 Mar 2021 15:50:06 -0000
+Message-Id: <161470020602.24143.13631385705799316964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/memfd-secret/v18
-    old: 0000000000000000000000000000000000000000
-    new: 04602dea8b93272eb1ed38c5a271c4a3e8726e61
+  - ref: refs/heads/clk_driver_hw_clk_8
+    old: 548f45193fcff1aa3e561476d9d2c4203ecf4636
+    new: 0000000000000000000000000000000000000000
