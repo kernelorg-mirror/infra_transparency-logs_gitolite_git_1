@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8573716240748502818=="
+Content-Type: multipart/mixed; boundary="===============5583880961336511688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Tue, 02 Mar 2021 08:29:40 -0000
-Message-Id: <161467378011.18886.9371300562893887554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 02 Mar 2021 08:37:14 -0000
+Message-Id: <161467423407.23926.844992743480565935@gitolite.kernel.org>
 
---===============8573716240748502818==
+--===============5583880961336511688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/pinctrl-next
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+  - ref: refs/heads/for-next
+    old: da2f247fcbf421c923e9ab0ade3efb98d3ba3549
     new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-5c8fe583cce5-fe07bfda2fb9.txt
+    log: revlist-da2f247fcbf4-fe07bfda2fb9.txt
 
---===============8573716240748502818==
+--===============5583880961336511688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c8fe583cce5-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-da2f247fcbf4-fe07bfda2fb9.txt
 
 9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
@@ -1051,4 +1051,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============8573716240748502818==--
+--===============5583880961336511688==--
