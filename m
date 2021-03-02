@@ -1,38 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 02 Mar 2021 19:21:42 -0000
-Message-Id: <161471290255.24077.17152411187661040111@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5021394035061082409=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 02 Mar 2021 19:22:29 -0000
+Message-Id: <161471294969.24423.6181918093805337385@gitolite.kernel.org>
+
+--===============5021394035061082409==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev
-    old: f0f4f19ca073a7a0010a1cd1a52ba073d93b7cb9
-    new: 4ee0eb7c0cbccaae8e5e3681d852d4e7f50c4378
+  - ref: refs/heads/master
+    old: cd91a3c678226b2ed501b3553286fd69ec9ce279
+    new: 8b904793e3c5c07d3ebbe7dd43b1808717351428
     log: |
-         302fd54b9ae98f678624cbf9bf7a4ca88455a8f9 rcu/nocb: Fix missed nocb_timer requeue
-         4ee0eb7c0cbccaae8e5e3681d852d4e7f50c4378 rcu/tree: Add a trace event for RCU CPU stall warnings
+         8b904793e3c5c07d3ebbe7dd43b1808717351428 drop drm-mediatek-fix-aal-size-config.patch from 5.10 and 5.11
          
-  - ref: refs/tags/objtool-core-2021-02-23
-    old: 0000000000000000000000000000000000000000
-    new: 63a33993c7cb1cfccf3ec17172d14350b6b89de3
-  - ref: refs/tags/perf-core-2021-02-17
-    old: 0000000000000000000000000000000000000000
-    new: ecbe3ff03818612762ba8c313af37cc3df1cd9bf
-  - ref: refs/tags/timers-urgent-2021-02-22
-    old: 0000000000000000000000000000000000000000
-    new: 6c4cceb295a32012a73a3f8181b9c81fc4f7da00
-  - ref: refs/tags/v5.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d1da37c58e65c4800cce768533c563fa3c89c62f
-  - ref: refs/tags/x86-entry-2021-02-23
-    old: 0000000000000000000000000000000000000000
-    new: 7db76ef409c208f621471b497d4455c2c018b77a
-  - ref: refs/tags/x86-entry-2021-02-24
-    old: 0000000000000000000000000000000000000000
-    new: c5ef2595ec7c1703ff9e143fc94f269fc8562500
+
+--===============5021394035061082409==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614712946 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1614712943-1e796684421cff1981c8455bfabba0972d4ca088
+
+cd91a3c678226b2ed501b3553286fd69ec9ce279 8b904793e3c5c07d3ebbe7dd43b1808717351428 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA+kHIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HX4QANMXjWaLwyvOUzup92Ko
+0EEBVS6RLeIx/ZDkaPNauBggR7A8HQGbphugfIHzMizYD3nWu6FqOJ/xrrbZrvbO
+zCm9XrZuyCdAEYAWKUCH/Qhf66uPixe9H+behZyuN7jn9vsAyVtvpPcPc+UUGkX+
+XxJGADP5m4FAvuVzGd3F5oNN0koSRByEZdYvDzvf+Kxxkfz+dHVrl/z6Onq8UIfP
+iryxg8wKi3DLJYXA6ZOEVvMCaIUQjbmFvoHMgeh+HNmCTjfglLrpKLtg0UJhxrJB
+o6JaJVMtKW0CqCQiVpszO7gXOnoc8Y2wVijvyRyCoycDZzwn9THDz3KWVpoNZQxO
+TKPVOlUbuHBA0pnk7d5CeG0f3yKNWxWIuE7bs9S9Co6lhLcwM3LnyzpxuSHitUIY
+3a878Plj9ucxWsF1Cuqb5T5/cX9a6d7092GPUeLcCfZDPCaZhbeSfaZXeGk9AVWO
+55RT4kbjztUteyGXLM0Eczzk/o9sj9uweIQVaFho0IVMorf7Cby5IBJvcDU5zf2j
+DDHTNJ7om1dt5fzSojP/f1q4ohse9hbEeg/0HsUsbKg7vH5sKmMcPsXnZhUUJ1WU
+QKxiBRuHXWC3heqyh5+twnq4rOMxpl7cbwju0QBBU+mEYn2/pkxZ6PlrwAJoETml
+L6RYZLm60bT2H2IShY2bqE4R
+=R7Dq
+-----END PGP SIGNATURE-----
+
+--===============5021394035061082409==--
