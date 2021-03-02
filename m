@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1015163538028546540=="
+Content-Type: multipart/mixed; boundary="===============0638984982608851081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 02 Mar 2021 07:34:23 -0000
-Message-Id: <161467046314.16867.3779658121716001895@gitolite.kernel.org>
+Date: Tue, 02 Mar 2021 07:40:03 -0000
+Message-Id: <161467080377.21160.11020568002302970986@gitolite.kernel.org>
 
---===============1015163538028546540==
+--===============0638984982608851081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: f88837cc27895d021f9467fe8e740a388075665c
-    new: 5bb9cdb320a5ca631b584a9aa1ba472eb14705af
+  - ref: refs/heads/usb-linus
+    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    new: 1236c1d95c99e9f34cd7547e53af71142a3854ea
     log: |
-         5bb9cdb320a5ca631b584a9aa1ba472eb14705af USB: remove usb_bus_type from usb.h
+         c9de574e76bc3862f34b9fca77dfb88ceffd2556 Goodix Fingerprint device is not a modem
+         1016ecc84404411e39849cfc0d8b6f77cb1a8c96 usb: dwc3: qcom: add ACPI device id for sc8180x
+         1236c1d95c99e9f34cd7547e53af71142a3854ea USB: gadget: u_ether: Fix a configfs return code
          
 
---===============1015163538028546540==
+--===============0638984982608851081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614670454 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614670795 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1614670453-bcbc2942dfde57d94aa24858b23ceaaf1b74c331
+nonce 1614670794-77415a65724e72e99f61c70161bf3338485b5520
 
-f88837cc27895d021f9467fe8e740a388075665c 5bb9cdb320a5ca631b584a9aa1ba472eb14705af refs/heads/usb-testing
+fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 1236c1d95c99e9f34cd7547e53af71142a3854ea refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA96nYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1kAP/Rv/p5O3QNYY3OuacGBA
-nc9TvLwRGzMghaZG0BENqGBgS2L1wOeAulJZxC7jPnC1t+IObXxT4/Mu/yyz2QSo
-5GP5u1hHeEvmm4m7YXniBwGpzSTfe3afeISJQRXRjyDMlODpPFEpT3fLKlIInxnb
-Jj6A+iymadAs3jY2EIIWr0Axt71e3i2W/J4UmQdeiBkDTP7iICl79V0j0XFnYWMV
-2Rv9oK07el0hx5BNSaIMu8vzoZFDO0vfYOaJgKnm/Lq6loUPNtW05LAETzgI897j
-fbxx2tQg3OO0TkhUR9axJ69Tn6hfghX2hyKkPFlQ/V72b28sfLtQx4QVEgNFXl+B
-m68yaxr3fuYgFuBBfeMFeFRv4RkwMIPB34hj2osRYNjjBFNYCbaQUThngqXB02ju
-oI7y3WIeHZA8RPJDXPgF0k1zbokeP06by8r96g1D7afoVijJEbqkWZGpl/g7GI8D
-24OeI7m0HNza3r8E6hn6iaXptKDBdjBXc16rZZPXTfkC9xYNvGSnTsSUFfLHAvdb
-P+YP+3WbIc+5X8fc1UX9TVQOqek8if6UckIlkcukH9jNFzkHe39nRxmDqFfRoIvj
-+o9FF4Gfc2h1tnFOlhtofKwaFC66zPz9N91+8VOvu4I7fTTpwQ/AdY5J1V/K03na
-LK7ll1++XKIw9afY1onz9tB5
-=LXr9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmA968sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8eIQALJMJVz5yb/5coK+MoIh
+xeTVwbMvX/pXF16qECt38IxEv8KB2mglCHNwh0j2kUCUCn10z6DBudXl2xRKYNUN
+QTzszF/KyrO7Oq6OWL4JJ/pJVf5UqoOY/aQ0hvJrBWp7h3xjRJN2vEglDDLt41A2
+pRLSpmxvokaRAvJ8+JYCnMJVGKK8yUuE8hUwluBt3BvAEf0Ftbbqp9lXl5Vl41+a
+gmI+t7UPUz4h+TAxkqsnh6e1FLSohtueE3P6dHZoHFLJ//M89tQ5LMPNuGOeOrkb
+MybAMlQt55LyC51cucdi/z2TorKdLfKeQNWgkzZHB6wRSUPuu4w0mFl5RGcfXfEH
+R71ZMetHj0OItQPyp5EZJWy0xBEM+d9VpWqPLlWHELoS11z/I8qZ5/7mI5pPCuWz
+gn4AT00eoPQI2aULyksSh2uYE0paPyuVtiOuoHRwLJcV0xS/f65u2A4ZPmO8x0LR
+sV2LiAqsu9g7Gf3JRSSlf0O1UwFtHfU1zuxgeNOov/cnkv5OSL+kmm+q4BMl6EWF
+3mv3NzYNuV1EYbFMfVVx1zlCpQ9tJf5BQXeB61IOj7vGHvr53lccciqdLhFiT+Y2
+dGK59LmGQDUXouazRK2oxlePsUNLjfyCOd8ghU2pSBETGI5YDtaArFA66Sl10Wbg
+CMzOQpPXe9NycbwfKdCQ+5O7
+=jWhl
 -----END PGP SIGNATURE-----
 
---===============1015163538028546540==--
+--===============0638984982608851081==--
