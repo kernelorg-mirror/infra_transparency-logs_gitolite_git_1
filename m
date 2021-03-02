@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3329588092924752422=="
+Content-Type: multipart/mixed; boundary="===============8573716240748502818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Tue, 02 Mar 2021 08:29:31 -0000
-Message-Id: <161467377161.18807.3514998901940807016@gitolite.kernel.org>
+Date: Tue, 02 Mar 2021 08:29:40 -0000
+Message-Id: <161467378011.18886.9371300562893887554@gitolite.kernel.org>
 
---===============3329588092924752422==
+--===============8573716240748502818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/pinctrl-next
     old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
     new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
     log: revlist-5c8fe583cce5-fe07bfda2fb9.txt
 
---===============3329588092924752422==
+--===============8573716240748502818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============3329588092924752422==--
+--===============8573716240748502818==--
