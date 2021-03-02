@@ -1,27 +1,70 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/luto/linux
-Date: Tue, 02 Mar 2021 05:52:18 -0000
-Message-Id: <161466433810.20564.17872303281590886155@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5076411053621373542=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 02 Mar 2021 06:14:13 -0000
+Message-Id: <161466565307.1147.8501374145398947262@gitolite.kernel.org>
+
+--===============5076411053621373542==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/luto/linux
-user: luto
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/x86/fixes
-    old: 06ce4d6d9e2df33a4f3fdb5032b73536fb420c05
-    new: 5a71c0b98407b8fc659967e261ce84da00270892
-    log: |
-         487ed5348a43c031b816fa7e9efedb75dc324299 selftests/x86: Add a missing .note.GNU-stack section to thunks_32.S
-         190548211cdab090fc8414ecbb8c38c23b530e40 x86/entry: Fix entry/exit mismatch on failed fast 32-bit syscalls
-         f68d4524e40fb841d5807264d1e34b47f0e52a14 kentry: Rename irqentry to kentry
-         b529690d96d16fa95b3e6f7baed3f303d01e962c x86/entry: Convert ret_from_fork to C
-         0cccd8a7e193e97ec4c70deb472c853d43fb9b23 entry: Check that syscall entries and syscall exits match
-         c3da2288cdaffda89fbff5ec36ecd6d9aec3f942 kentry: Simplify the common syscall API
-         b90e774deeb2313d0144260285b857fc247d13ba entry: Make entry/exit_to_user_mode() arm64-only
-         9cbf3844fc22c00e7c807a7a028c9626a5374991 entry: Make CONFIG_DEBUG_ENTRY available outside x86
-         5a71c0b98407b8fc659967e261ce84da00270892 kentry: Add debugging checks for proper kentry API usage
-         
+  - ref: refs/heads/mlx5-queue
+    old: f93a6061479bd2c9bdaac4ae21db24bc25029ee5
+    new: 7dd197a716a57180e4490ae28ca56bd8961cbc27
+    log: revlist-f93a6061479b-7dd197a716a5.txt
+
+--===============5076411053621373542==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f93a6061479b-7dd197a716a5.txt
+
+75d2e770a1b03292bc254a168bcb6b659cc40ead Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
+ffd0c080befbb1f8576ab5f68a5c8b09e775dc7e net/mlx5: Don't skip vport check
+d2e3a84ec9ac6ceea3955a8018c69990842ae090 net/mlx5: Remove impossible checks of interface state
+b0fa0fbd0ac2d72b4135c4d37e1f3004bb8c855a net/mlx5: Separate probe vs. reload flows
+7477659526f9e1cae66cc2b18e123e23cbd485ab net/mlx5: Remove second FW tracer check
+19927b6e7a4cc20247730c74071f9728aba47a33 net/mlx5: Don't rely on interface state bit
+ac576f70b5e99e0076bf21e4de1fed8676321b03 net/mlx5: Check returned value from health recover sequence
+559f6890f1df41f8beb7c4a654553d7d6ffd270c net/mlx5: Fix devlink reload LOCKDEP warning
+f7fc2ec1473d20d0b6a618e60534f946f0182b05 net/mlx5: CT: Add support for mirroring
+5ce1a43815c9184848a7ee9921f2518248cf446d net/mlx5: E-Switch, let user to enable disable metadata
+00202268af9041319a7539848188c4ff3a122d51 net/mlx5e: CT, Avoid false lock depenency warning
+bdb62b3778d6d67f229e12746effdda22f4163de net/mlx5: Display the command index in command mailbox dump
+55cc425dd5d2c7e82b3dbea2d4d38a60b7a1b937 net/mlx5e: Allow to match on ICMP parameters
+629555d8ef0dfd0cd1624d86be7b48de80d49879 net/mlx5: Don't allow health work when device is probing
+a9cd276e2b1ee9a1cf9754052b1bdb64a7c4b02a Revert "net/mlx5: Fix fatal error handling during device load"
+937e761d52ae6d163102f5adb50bcf3744d73b4e net/mlx5: SF: Fix memory leak of work item
+03a4209e12a23b9aa8068e39caec38730f827a2b net/mlx5: SF: Fix error flow of SFs allocation flow
+2811a96b39fe733861a875171930ce78f7807aee net/mlx5e: rep: Improve reg_cX conditions
+f29c965f3a582ca05f672c138a66efeecdbb5064 net/mlx5e: Enforce minimum value check for ICOSQ size
+d0390285c8ba7365ff728b18302c80303906d714 net/mlx5: DR, Fix potential shift wrapping of 32-bit value in STEv1 getter
+34f6d9b67a8adde5b14ca882e3413bdfce3d38c6 net/mlx5: DR, Fixed typo in STE v0
+4508cb022e0e8b7529d19555179e4ab631fc67d8 net/mlx5: DR, Remove unneeded rx_decap_l3 function for STEv1
+0883a567dbc500279f7788ea6c0f19182e57533a net/mlx5: DR, Add missing vhca_id consume from STEv1
+cd889f555abe01b1ce61ea83bdb169f1cc3827e0 net/mlx5e: Use net_prefetchw instead of prefetchw in MPWQE TX datapath
+a6e23ec0e8f5f6d2ad0bcd3cfea0ba6baee209c7 net/mlx5: Read congestion counters from all ports when lag is active
+ca476348d1925b3c2ec57b3b2c38feea4910f553 net/mlx5: Avoid unnecessary operation
+177b3369ec34ed4748ff41fd89856face2650d9d net/mlx5e: TC: Reserved bit 31 of REG_C1 for IPsec offload
+35fd5ed30ce548caa6f36176e9e7cf6393efedf1 net/mlx5e: Add IPsec support to uplink representor
+07d51c72b0b2ef0576658d003d8ee1441bcfc1b9 net/mlx5e: IPsec/rep_tc: Fix rep_tc_update_skb drops IPsec packet
+2e60cf9c0f5dae59f43e50f143f9145279478348 net/mlx5e: fix mlx5e_tc_tun_update_header_ipv6 dummy definition
+0e1659885d492bb49cc799482cfbac040ebca76b net/mlx5e: Add missing include
+55341d7a5ad08b2710b09bff448185805c0cf9f2 net/mlx5: Fix indir stable stubs
+09c8b14ddd4556333a7024617ae4d009b55878f4 net/mlx5: Disable VF tunnel TX offload if ignore_flow_level isn't supported
+6090f471ee78ce8fed42264ce0856d31e184d685 net/mlx5e: Fix error flow in change profile
+da60b3c25b4cfcc055da0c3b65c1f66be285cba1 net/mlx5e: mlx5_tc_ct_init does not fail
+6ad451271ef43ac5adeb2d6607e0c80c966930eb Merge branch 'patchq/378816' into mlx5-queue
+8df1b6682a7ee64ca5a79d0652058034e5c32a12 Merge branch 'patchq/373859' into mlx5-queue
+25fa227a8149348e4b8f9cb541a683632150b40b net/mlx5: Use order-0 allocations for EQs
+767e1ffee600122b6897a586832e03a33f11ef97 Merge branch 'patchq/375495' into mlx5-queue
+7dd197a716a57180e4490ae28ca56bd8961cbc27 Merge branch 'patchq/159334' into mlx5-queue
+
+--===============5076411053621373542==--
