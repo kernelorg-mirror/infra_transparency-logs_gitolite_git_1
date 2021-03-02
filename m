@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1669298505007783972=="
+Content-Type: multipart/mixed; boundary="===============2475349955700810168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Tue, 02 Mar 2021 08:29:11 -0000
-Message-Id: <161467375118.18487.4605699709814575459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Tue, 02 Mar 2021 08:29:14 -0000
+Message-Id: <161467375493.18599.10116787030664406784@gitolite.kernel.org>
 
---===============1669298505007783972==
+--===============2475349955700810168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
-  - ref: refs/heads/mem-ctrl-next
-    old: 321b36c79c431957c8c599a9f9640096c305cd03
+  - ref: refs/heads/for-next
+    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
     new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-321b36c79c43-fe07bfda2fb9.txt
+    log: revlist-5c8fe583cce5-fe07bfda2fb9.txt
 
---===============1669298505007783972==
+--===============2475349955700810168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-321b36c79c43-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-5c8fe583cce5-fe07bfda2fb9.txt
 
 9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
@@ -1051,4 +1051,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============1669298505007783972==--
+--===============2475349955700810168==--
