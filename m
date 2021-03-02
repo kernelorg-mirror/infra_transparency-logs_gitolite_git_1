@@ -1,111 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7098990339076560562=="
+Content-Type: multipart/mixed; boundary="===============6430435196101052411=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 02 Mar 2021 14:50:05 -0000
-Message-Id: <161469660527.20370.2913035553767553644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mdf/linux-fpga
+Date: Tue, 02 Mar 2021 15:01:15 -0000
+Message-Id: <161469727559.26482.17078879328480001283@gitolite.kernel.org>
 
---===============7098990339076560562==
+--===============6430435196101052411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/mdf/linux-fpga
+user: mdf
 changes:
-  - ref: refs/heads/for-5.13/io_uring
-    old: 7a13ad7f13271506d8b961c6923978ebe3d3251a
-    new: 654f7ef94026d2db9be0b2044d542fdefeab431f
-    log: revlist-7a13ad7f1327-654f7ef94026.txt
-  - ref: refs/heads/io_uring-5.12
-    old: c4b74115176286db38037bf3e73bd696f2477915
-    new: 2238296b91f340ed118fcff2094e1f337728d780
-    log: |
-         9e9258f76d16967dca9ff2ce6a6d41b9779df83c io_uring: fix -EAGAIN retry with IOPOLL
-         2d495dcbd1806a186d3a81aea784eaa6d6247dda io_uring: choose right tctx->io_wq for try cancel
-         51c8671ad5635ca8608dd1d942e9d1bfde80e9d4 io_uring: inline io_req_clean_work()
-         c424a83618dcf636e7f357e09a878c46f84a2103 io_uring: inline __io_queue_async_work()
-         8c1bae8673a8473ba3e183e46fef67621167ac13 io_uring: remove extra in_idle wake up
-         2238296b91f340ed118fcff2094e1f337728d780 io_uring: ensure that threads freeze on suspend
-         
-  - ref: refs/heads/poll-multiple
-    old: af0955e8ab4d8f82d733d3f58bfb81bd5267064b
-    new: 6ad32bd413df3caec77aa3f22305ba424f1c0075
-    log: revlist-af0955e8ab4d-6ad32bd413df.txt
+  - ref: refs/heads/for-next
+    old: e41d4c011706c97f2faea6ef2e46e51f52d8f715
+    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    log: revlist-e41d4c011706-fe07bfda2fb9.txt
 
---===============7098990339076560562==
+--===============6430435196101052411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a13ad7f1327-654f7ef94026.txt
+Content-Disposition: attachment; filename=revlist-e41d4c011706-fe07bfda2fb9.txt
 
-f7389cad3023ad2903f5890066075136c8369d0c io_uring: fix -EAGAIN retry with IOPOLL
-ea218b88a898953250f48281a2eb794bc1ca9fe1 io_uring: choose right tctx->io_wq for try cancel
-4c4ff914f4b76b5abe17ee11cfed910a25b0a0eb io_uring: inline io_req_clean_work()
-c05e7a4471b5445aa10b3c96e5ee30eab6e590b9 io_uring: inline __io_queue_async_work()
-c4b74115176286db38037bf3e73bd696f2477915 io_uring: remove extra in_idle wake up
-20e24b2012d36d66555847aca65585bd803118e4 io_uring: ensure that threads freeze on suspend
-b0dcab4c956439b6945de159084970585e2e8d30 io_uring: avoid taking ctx refs for task-cancel
-1b9dd11fd6e0f05e6419e731d24cdce96200a9d1 io_uring: reuse io_req_task_queue_fail()
-43ead9044087877b4fd554864a36c701d9a4bfa5 io_uring: further deduplicate file slot selection
-6c4681065ca97f7b87970afdbbc809fc6312cbf9 io_uring: add a helper failing not issued requests
-01072b7fef873c8a18decfb7f42e39d05c991ce2 io_uring: refactor provide/remove buffer locking
-bcc84acee384f5dc72b3d32d30ee057dc0e6d07e io_uring: don't restirct issue_flags for io_openat
-1180a55ed78c9a096d6dec4f5ada0e0c995c4e3d io_uring: use better types for cflags
-a612134789226ad0983c3afc0a4123384083b949 io_uring: refactor out send/recv async setup
-e3a2a672fda8cdbea07ab08b31de61e2bf311526 io_uring: untie alloc_async_data and needs_async_data
-2ad67c9dd88624bacf387ba58cda740ba42acc57 io_uring: rethink def->needs_async_data
-77c0aed4c176af755c6dee5e5e1c11cb20cf5de5 io_uring: merge defer_prep() and prep_async()
-654f7ef94026d2db9be0b2044d542fdefeab431f io_uring: simplify io_resubmit_prep()
-
---===============7098990339076560562==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af0955e8ab4d-6ad32bd413df.txt
-
-6af4b60033e0ce0332fcdf256c965ad41942821a perf intel-pt: Fix IPC with CYC threshold
-c840cbfeffcbf2a0fa3856e2ed5ea5c622b9e6b2 perf intel-pt: Add PSB events
-fbefe9c2f87fd392f809f7b78e6d54944800a148 perf tools: Support arch specific PERF_SAMPLE_WEIGHT_STRUCT processing
-c5c97cadd7ed13381cb6b4bef5c841a66938d350 perf test: Fix unaligned access in sample parsing test
-d58b3f7e701408ac41b0a8342f26bbf9a5597f05 perf auxtrace: Automatically group aux-output events
-c025d46cd932ccaa6448e173df88197bc851d3d7 perf script: Add branch types for VM-Entry and VM-Exit
-b7ecc2d73e5b2231be505777e03b3df6f8a5f6c5 perf intel_pt: Add vmlaunch and vmresume as branches
-90af7555c36fa02e686a6a0db8be626ca7bb438f perf intel-pt: Retain the last PIP packet payload as is
-80a038860b5ca3aa864756ad6bfe1af5ac5839b0 perf intel-pt: Amend decoder to track the NR flag
-fcda5ff711d9ddb7a92fff38b2cc153be8123c0e perf machine: Factor out machines__find_guest()
-3035cb6cbd2d62a764fa451ed9534eafdd0b446c perf machine: Factor out machine__idle_thread()
-6e86bfdc4a600accec9f246aab655c5fbf4309c3 perf intel-pt: Support decoding of guest kernel
-65faca5ce8629495092e9ef0731a31a6b7d9234f perf intel-pt: Allow for a guest kernel address filter
-695fc4510615f8db40ebaf7a2c011f0a594b5f77 perf intel-pt: Adjust sample flags for VM-Exit
-19854e45b39a8b6b9ba4f33f07750ca9891572cb perf intel-pt: Split VM-Entry and VM-Exit branches
-865eb3fb3bf0fe072a8920004ced8fccaf9f53c2 perf intel-pt: Add documentation for tracing virtual machines
-067012974c8ae31a8886046df082aeba93592972 perf tools: Fix arm64 build error with gcc-11
-35ac5991cdec9d920a683e74b64fda8512bdd3e9 vfio/iommu_type1: Fix duplicate included kthread.h
-46355e3d793c6d67fbfb4b155abd0869b6a7d79b perf test: Suppress logs in cs-etm testing
-11d45d4fb9239e89751bc79c7029453bee8f498c perf test: Output the sub testing result in cs-etm
-bff8b3072e2d0e455fb4fd1b758c8c7d5ff9c8c2 perf symbol: Remove redundant libbfd checks
-206236d328ee02b171188dfc961aa0d13943c76e perf buildid-cache: Add test for 16-byte build-id
-3027ce36ccbae74f2e7c1afbfc3f69fee0c2a996 perf buildid-cache: Don't skip 16-byte build-ids
-0958351e93fa0ac142f6dd8bd844441594f30a57 Input: elo - fix an error code in elo_connect()
-fc235fcb0f7c1865ccb2d1f50267eef299a4f3fb PCI: acpiphp: Remove unused acpiphp_callback typedef
-8befe0280de4b15832d37e45fef443b7afdd5a5f sparc: Replace test_ti_thread_flag() with test_tsk_thread_flag()
-bda166930c37604ffa93f2425426af6921ec575a sparc32: Limit memblock allocation to low memory
-c599a7821be7952033727a30e93bd2d053073c78 sparc32: Preserve clone syscall flags argument for restarts due to signals
-520615e1f5b2e617845238c650b58b43592fa923 sparc64: switch defconfig from the legacy ide driver to libata
-a57cdeb369ef73066937e06df5bcbb34624b13e8 sparc: sparc64_defconfig: add necessary configs for qemu
-da5447265434045410f579e4257dd64bf64de6c0 tty: vcc: Drop impossible to hit WARN_ON
-e1d830ab32808dcb63861b63d44d96768f9cf7d3 tty: vcc: Drop unnecessary if block
-60cb8a9073ba81490afe0e5b1e8e9394528de10b tty: hvcs: Drop unnecessary if block
-80bddf5c93a99e11fc9faf7e4b575d01cecd45d3 sparc64: only select COMPAT_BINFMT_ELF if BINFMT_ELF is set
-a970a9764c773ae6daa94db934dfe3d790bfc977 sparc: Fix handling of page table constructor failure
-b3554aa2470b5db1222c31e08ec9c29ab33eabc7 sparc: fix led.c driver when PROC_FS is not enabled
-76962e03934e1a77795852c1d64bd8491a00fb52 sparc32: Fix comparing pointer to 0 coccicheck warning
-147d8622f2a26ef34beacc60e1ed8b66c2fa457f sparc64: Use arch_validate_flags() to validate ADI flag
-356184fb6d67770d7788f316226be810a430937b sparc: make xchg() into a statement expression
-c26958cb5a0d9053d1358258827638773f3d36ed Take mmap lock in cacheflush syscall
 9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
 f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
@@ -173,7 +93,83 @@ b5d7ccb7aac3895c2138fe0980a109116ce15eff swiotlb: add a IO_TLB_SIZE define
 c7fbeca757fe74135d8b6a4c8ddaef76f5775d68 swiotlb: factor out an io_tlb_offset helper
 c32a77fd18780a5192dfb6eec69f239faebf28fd swiotlb: factor out a nr_slots helper
 ca10d0f8e530600ec63c603dbace2c30927d70b7 swiotlb: clean up swiotlb_tbl_unmap_single
+eacd9aa8cedeb412842c7b339adbaa0477fdd5ad fix handling of nd->depth on LOOKUP_CACHED failures in try_to_unlazy*
+51e6d17809c85e1934600ec4cdb85552e9bda254 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+a3df769899c0bdc224c94d1d8cc9cbb3f3a72553 io_uring: fail io-wq submission from a task_work
+8bad28d8a305b0e5ae444c8c3051e8744f5a4296 io_uring: don't hold uring_lock when calling io_run_task_work*
+99a10081647168022745859bb2f1c28b2f70dc83 io_uring: make the !CONFIG_NET helpers a bit more robust
+e6cb007c45dedada0a847eaa486c49509d63b1e8 io_uring: zero ref_node after killing it
+f2303b1f8244d88ffca28d3be6166ce4835cc27a io_uring: keep generic rsrc infra generic
+88f171ab7798a1ed0b9e39867ee16f307466e870 io_uring: wait potential ->release() on resurrect
+ebf4a5db690a47e71056381ead8a134de7202694 io_uring: fix leaving invalid req->flags
+7ddfe9a6a3b323c96ceddbdbb92debb9611e32c0 Merge tag 'arm-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+584ce3c9b408a89fe5b7ac5b5b246b85c78defed Merge tag 'arm-platform-removal-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+5011bb9fbb194834dd04ae6c986d439032ecc717 Merge tag 'arm-soc-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+56bf6fc266ca14d2b9276c8a62e4ff6783bfe68b Merge tag 'arm-defconfig-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+82851fce6107d5a3e66d95aee2ae68860a732703 Merge tag 'arm-dt-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+e767b3530acbf651593e3d357fe1168a024d8061 Merge tag 'arm-drivers-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+8518496639123ebcceb1be173c4f00edf178bfbd Merge tag 'edac_updates_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+3e89c7ea7a828fec5694101e0f0ff7240e634470 Merge tag 'ras_updates_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+70cd33d34c6026cbc2efb172f8063fccb2ebeb9a Merge tag 'efi-next-for-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+4bf0b820d146682d997248ff1d49665475f9df16 Merge tag 'x86_sgx_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b9cdab6820ae740dad1e87e609d78dbea7a297f2 Merge tag 'x86_seves_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+4f7a4028d8b48d1dc6b51b0737087f5e3c16c336 Merge tag 'x86_platform_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+1255f44017c02d14e3ad5b63cdf619a734d765a1 Merge tag 'x86_paravirt_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+ae821d2107e378bb086a02afcce82d0f43c29a6f Merge tag 'x86_mm_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+317d4f459393e27b3efedf571bd9e78a23fcd2ed Merge tag 'x86_misc_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d00c4ed02e90c1a4290acdd4f9bc4d056a573859 Merge tag 'x86_microcode_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+8831d718aa5a9540aaeb527a582af5fc140aed6e Merge tag 'x86_fpu_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+0570b69305276a349ef7a17c8c54dfeed76f3954 Merge tag 'x86_cpu_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b0fb29382d822a6cd6f5d8d441471f0072cd3133 Merge tag 'x86_cache_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+26a30ffff952390499a95a0accad0c49379e5301 Merge tag 'x86_build_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+2c405d1ab8b3103df2df541aaacc2113dc6c9fac Merge tag 'x86_asm_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3342ff2698e9720f4040cc458a2744b2b32f5c3a tty: protect tty_write from odd low-level tty disciplines
+e4286926abbbaab9b047c8bc25cae78ec990928f Merge tag 'tty-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+780607b9731feef575514108fc7956c54180f16e Merge tag 'usb-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+5d99aa093b566d234b51b7822c67059e2bd3ed8d Merge tag 'staging-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+02f9fc286e039d0bef7284fb1200ee755b525bde Merge tag 'pm-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+3c8f504b3a486e4e984ac8dc619eba3afa24cec4 Merge tag 'acpi-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+55f62bc873477dae2c45bbbc30b86cf3e0982f3b Merge tag 'pnp-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+054560e961a0ee4067fccfcfa943335e1aa48928 Merge branch 'work.sendfile' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+591fd30eee47ed75d1296d619dd467414d0894e3 Merge branch 'work.elf-compat' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+c57b1f0a5f40e6d35f22a3ce61e69d73fc0b1dbc Merge branch 'work.namei' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+961a9b512d314d133d5158d3a1d11e5cc49ab1a6 Merge tag 'locks-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/jlayton/linux
+d88e8b67a6f2f6dae41c986ed58cb1955e0179b3 Merge tag 'jfs-5.12' of git://github.com/kleikamp/linux-shaggy
+f9d58de23152f2c16f326d7e014cfa2933b00304 Merge tag 'affs-for-5.12-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+6f3952cbe00b74739f540981d1afe84cd4dac879 Merge tag 'for-5.12-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+8b42fe123b013fbdc3172616b27d568d0cb9d2d6 Merge tag 'f2fs-for-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
+681e2abe2191058b320716896cccda05b161eedc Merge tag 'erofs-for-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+99f1a5872b706094ece117368170a92c66b2e242 Merge tag 'nfsd-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+f7b36dc5cb37615b568b7161ddc53d604973ec8b Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt
+f02361639a481771130db5e67933c4f414377fce Merge tag 'pstore-v5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+4f016a316f2243efb0d1c0e7259f07817eb99e67 Merge tag 'iomap-5.12-merge-2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+b52bb135aad99deea9bfe5f050c3295b049adc87 Merge tag 'xfs-5.12-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+24880bef417f6e9069158c750969d18793427a10 Merge tag 'oprofile-removal-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/linux
+bd018bbaa58640da786d4289563e71c5ef3938c7 Merge tag 'for-5.12/libata-2021-02-17' of git://git.kernel.dk/linux-block
+582cd91f69de8e44857cb610ebca661dac8656b7 Merge tag 'for-5.12/block-2021-02-17' of git://git.kernel.dk/linux-block
+9820b4dca0f9c6b7ab8b4307286cdace171b724d Merge tag 'for-5.12/drivers-2021-02-17' of git://git.kernel.dk/linux-block
+5bbb336ba75d95611a7b9456355b48705016bdb1 Merge tag 'for-5.12/io_uring-2021-02-17' of git://git.kernel.dk/linux-block
+b5183bc94b6d2789abb9b5eda6cc3e0601524c79 Merge tag 'irq-core-2021-02-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3f6ec19f2d05d800bbc42d95dece433da7697864 Merge tag 'timers-core-2021-02-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d089f48fba28db14d0fe7753248f2575a9ddfc73 Merge tag 'core-rcu-2021-02-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9eef02334505411667a7b51a8f349f8c6c4f3b66 Merge tag 'locking-core-2021-02-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+7b15c27e2f7b6d114770c2922b2c49d2e8f3867c Merge tag 'core-mm-2021-02-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+657bd90c93146a929c69cd43addf2804eb70c926 Merge tag 'sched-core-2021-02-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d310ec03a34e92a77302edb804f7d68ee4f01ba0 Merge tag 'perf-core-2021-02-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+4a037ad5d115b2cc79a5071a7854475f365476fa Merge tag 'for-linus-5.12-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+99ca0edb41aabd888ca1548fa0391a4975740a83 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+b811b41024afa1271afc5af84f663515d9227554 Merge tag 'm68k-for-v5.12-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
+2671fe5e1d48fe2c14a46bdf8fd9d7b24f88c1e2 Merge tag 'mips_5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+08179b47e1fdf288e5d59f90e5ce31513bb019c3 Merge branch 'parisc-5.12-1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+9c5b80b795e9c847a7b7f5e63c6bcf07873fbcdf Merge tag 'hyperv-next-signed-20210216' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 3a2eb515d1367c0f667b76089a6e727279c688b8 octeontx2-af: Fix an off by one in rvu_dbg_qsize_write()
+3e10585335b7967326ca7b4118cada0d2d00a2ab Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+df24212a493afda0d4de42176bea10d45825e9a0 Merge tag 's390-5.12-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+04471d3f18cb9a2155797c810670196c05dd9f78 Merge tag 'for-linux-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
+69e9b12a27a1b2d099e528928162428df4d6e93f Merge tag 'mtd/for-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+66f73fb3facd42d0a7c899d7f4c712332b28499a Merge tag 'for-linus-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
+de1617578849acab8e16c9ffdce39b91fb50639d Merge tag 'media/v5.12-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+10e2ec8edece2566b40f69bae035a555ece71ab4 Merge tag 'sound-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 d9b2a2bbbb4d0bc89129504eb1503bb8506158ed block: Add n64 cart driver
 f1e19224f5948ae61ff9972d35d3cd7176815cd9 n64: use pr_fmt to avoid duplicate string
 9ee8c9a1c752f6181c1403fa5b4da620b410d9af n64: move module info at the end
@@ -184,12 +180,29 @@ e39e31326305d9bb35f8ab78c4310b9a38bbb3aa n64: move module param at the top
 37772f9136f442a1098d0ae1238def72f1216057 n64: cosmetics changes
 0d424780852eb60467a6f053d92495bb845ac186 n64: cleanup n64cart_probe()
 13d41b537df7d2538f901aa98f82672482b50d12 n64: store dev instance into disk private data
+d99676af540c2dc829999928fb81c58c80a1dce4 Merge tag 'drm-next-2021-02-19' of git://anongit.freedesktop.org/drm/drm
 865fa29f7dd1b6af8498fe08f19b4028c1c8a153 arch: syscalls: add missing FORCE and fix 'targets' to make if_changed work
 29c5c3ac633161f4ae2f4bb5f278b3719391b20e arch: syscalls: remove $(srctree)/ prefix from syscall tables
 9df526b03c01ad98ed64e46c5e15b65fe89e25f6 scripts: add generic syscalltbl.sh
 b9da928abf45c8a9373a6f74765c8d9261dee8c1 scripts: add generic syscallhdr.sh
 05f6bbf2d714309607d5533f0265a95d037610b4 kbuild: remove ld-version macro
 02aff85922043cf175ebbe5fc3430acfeaeb8393 kbuild: check the minimum linker version in Kconfig
+b6c23dd5a483174f386e4c2e1711d9532e090c00 io_uring: run task_work on io_uring_register()
+27131549060ee87f1c50c56539b8f6c4c1a4acec Merge branch 'for-5.12/io_uring' into io_uring-worker.v3
+7c25c0d16ef3c37e49c593ac92f69fa3884d4bb9 io_uring: remove the need for relying on an io-wq fallback worker
+1cbd9c2bcf02a3be91e14c7206d4b6c0346540ed io-wq: don't create any IO workers upfront
+d25e3a3de0d6fb2f660dbc7d643b2c632beb1743 io_uring: disable io-wq attaching
+3b094e727dd5b24b4b259a8617b375dd20c16347 io-wq: get rid of wq->use_refs
+5aa75ed5b93f086c455a3c67239b0471ff5a1526 io_uring: tie async worker side to the task context
+958234d5ec9321445500dc5e69dfefb405b3d82c io-wq: don't pass 'wqe' needlessly around
+4727dc20e0422211a0e0c72b1ace4ed6096df8a6 arch: setup PF_IO_WORKER threads like PF_KTHREAD
+6fb8f43cede0e4bd3ead847de78d531424a96be9 kernel: treat PF_IO_WORKER like PF_KTHREAD for ptrace/signals
+3bfe6106693b6b4ba175ad1f929c4660b8f59ca8 io-wq: fork worker threads from original task
+c6d77d92b7e53b24e8e74a58e6ef2056385cc780 io-wq: worker idling always returns false
+44526bedc2ff8fcd58552e3c5bae928524b6f13c io_uring: remove any grabbing of context
+4379bf8bd70b5de6bba7d53015b0c36c57a634ee io_uring: remove io_identity
+bf1daa4bfc77a60e58bed392e659c9ddd0174340 io-wq: only remove worker from free_list, if it was there
+843bbfd49f02caab7186910480a86378bb84e975 io-wq: make io_wq_fork_thread() available to other users
 e210761fb3ba172ecb44b717711af1d1b5d27cbf Merge tag 'tomoyo-pr-20210215' of git://git.osdn.net/gitroot/tomoyo/tomoyo-test1
 d1fec2214bfbba5c759eb154b3744edb8c460384 Merge tag 'selinux-pr-20210215' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 78c276f5495aa53a8beebb627e5bf6a54f0af34f exfat: fix shift-out-of-bounds in exfat_fill_super()
@@ -1037,58 +1050,5 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-65d43023171edc0d27208f6ac7a1a73732950cf7 io-wq: wait for worker startup when forking a new one
-9196d672605c17d3f3ad8e7019275a79968637d4 io-wq: have manager wait for all workers to exit
-bbdb873fd59e9aa97eddf3847ee37fa66797c084 io-wq: don't ask for a new worker if we're exiting
-57509ec8cdebcea8f5ee7aad31cd6d72fc069037 io-wq: rename wq->done completion to wq->started
-0af12cdcccbda69aa26df22b8c0a0e951449b24c io-wq: wait for manager exit on wq destroy
-bdfffb0f6afcc8f3de569bcf7ae3f261e7163d1d io-wq: fix double put of 'wq' in error path
-469855d180def56ef997faab202a19ca84f939de io_uring: SQPOLL stop error handling fixes
-c994ea22789b4f1408e3d7b5341d3fcc622d54f0 io_uring: run fallback on cancellation
-4c136eabf8838061716a95e3a20bc4a4bfc20328 io_uring: don't use complete_all() on SQPOLL thread exit
-2aa3fa29a64027333fd067f5a7839fe8244d58d3 io-wq: provide an io_wq_put_and_exit() helper
-89f55cf4b7c79e1e3d59aef34c7c8a8b1e0efed9 io_uring: fix race condition in task_work add and clear
-ff392ee5fa0ac693000d003081f7bf3947466850 io_uring: signal worker thread unshare
-9a4f64f46c1e914d7e979a57eb3e5bb3d9ffc79a io_uring: warn on not destroyed io-wq
-2d9cf9f8de66055a204f5949807a61aec4baedb1 io_uring: destroy io-wq on exec
-cec52acacd6bc52723a61b3f35db98ef35b1d37c io_uring: remove unused argument 'tsk' from io_req_caches_free()
-712b77c8c68c093290999f08134f068d7df4decf io_uring: kill unnecessary REQ_F_WORK_INITIALIZED checks
-cb0db8cf695904a060e57042485d1ba8917db013 io_uring: move cred assignment into io_issue_sqe()
-164cebd66a58663fc6074ab85654328948e65bf7 io_uring: kill unnecessary io_run_ctx_fallback() in io_ring_exit_work()
-f4c491e0c0b865ae1bf620aa5fa8352837fd137f io_uring: kill io_uring_flush()
-4d1c882ec1141cfdc2b935d84940849f2c77e26b io_uring: fix __tctx_task_work() ctx race
-84cfdd641ad8ac399b0dbf556dbb75e18add039a io_uring: replace cmpxchg in fallback with xchg
-b02016c3846f9c12f1b13d03def117736a91cd03 io_uring: ensure that SQPOLL thread is started for exit
-fdf3809666d1062a5b39f717d5e5c5fbfef50bd8 io_uring: ignore double poll add on the same waitqueue head
-7fc6dd9e6cbafc7b98f3b29e6d08af00acc11d28 io_uring: kill sqo_dead and sqo submission halting
-f3d5f236fe73817c9550c0375fbef869af747331 io_uring: remove sqo_task
-e60f33200865e1776e1fecd5505d6ac5da997691 io-wq: fix error path leak of buffered write hash map
-f7389cad3023ad2903f5890066075136c8369d0c io_uring: fix -EAGAIN retry with IOPOLL
-ea218b88a898953250f48281a2eb794bc1ca9fe1 io_uring: choose right tctx->io_wq for try cancel
-4c4ff914f4b76b5abe17ee11cfed910a25b0a0eb io_uring: inline io_req_clean_work()
-c05e7a4471b5445aa10b3c96e5ee30eab6e590b9 io_uring: inline __io_queue_async_work()
-c4b74115176286db38037bf3e73bd696f2477915 io_uring: remove extra in_idle wake up
-20e24b2012d36d66555847aca65585bd803118e4 io_uring: ensure that threads freeze on suspend
-b0dcab4c956439b6945de159084970585e2e8d30 io_uring: avoid taking ctx refs for task-cancel
-1b9dd11fd6e0f05e6419e731d24cdce96200a9d1 io_uring: reuse io_req_task_queue_fail()
-43ead9044087877b4fd554864a36c701d9a4bfa5 io_uring: further deduplicate file slot selection
-6c4681065ca97f7b87970afdbbc809fc6312cbf9 io_uring: add a helper failing not issued requests
-01072b7fef873c8a18decfb7f42e39d05c991ce2 io_uring: refactor provide/remove buffer locking
-bcc84acee384f5dc72b3d32d30ee057dc0e6d07e io_uring: don't restirct issue_flags for io_openat
-1180a55ed78c9a096d6dec4f5ada0e0c995c4e3d io_uring: use better types for cflags
-a612134789226ad0983c3afc0a4123384083b949 io_uring: refactor out send/recv async setup
-e3a2a672fda8cdbea07ab08b31de61e2bf311526 io_uring: untie alloc_async_data and needs_async_data
-2ad67c9dd88624bacf387ba58cda740ba42acc57 io_uring: rethink def->needs_async_data
-77c0aed4c176af755c6dee5e5e1c11cb20cf5de5 io_uring: merge defer_prep() and prep_async()
-654f7ef94026d2db9be0b2044d542fdefeab431f io_uring: simplify io_resubmit_prep()
-5d5d553273ac42c967f089917b7159505bc7858d Merge branch 'io_uring-5.12' into poll-multiple
-61d19fc5e3c964580d86e10341195b3436fbfcb2 Merge branch 'for-5.13/io_uring' into poll-multiple
-5e29e4bbf89e8af3e184b755564e24b7fd040f95 io_uring: correct comment on poll vs iopoll
-f485cb691d4635caa834ac5ff22d3d78b1f90a42 io_uring: transform ret == 0 for poll cancelation completions
-3c5b96ec74b63fe81b95bcedba9a977cd7d38364 io_uring: allocate memory for overflowed CQEs
-6342172b1e23db73160734bd5d09a3704374b842 io_uring: include cflags in completion trace event
-f157ce5ea0eac4785664749d29c5983ef3f194c0 io_uring: add multishot mode for IORING_OP_POLL_ADD
-d0bda4d8930e3a710f2699821864b28864747b0d io_uring: abstract out helper for removing poll waitqs/hashes
-6ad32bd413df3caec77aa3f22305ba424f1c0075 io_uring: terminate multishot poll for CQ ring overflow
 
---===============7098990339076560562==--
+--===============6430435196101052411==--
