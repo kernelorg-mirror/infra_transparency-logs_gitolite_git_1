@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0551837981177015321=="
+Content-Type: multipart/mixed; boundary="===============3062155324044967797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mdf/linux-fpga
-Date: Tue, 02 Mar 2021 15:01:57 -0000
-Message-Id: <161469731703.26684.1446166719185319167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 02 Mar 2021 15:07:43 -0000
+Message-Id: <161469766368.29728.11906757244371064734@gitolite.kernel.org>
 
---===============0551837981177015321==
+--===============3062155324044967797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mdf/linux-fpga
-user: mdf
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/fixes
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
-    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-5c8fe583cce5-fe07bfda2fb9.txt
+  - ref: refs/heads/x86/cpu
+    old: fb35d30fe5b06cc24444f0405da8fbe0be5330d1
+    new: 191d799ecaca4d5c7f87c624ae36581237ab8a87
+    log: revlist-fb35d30fe5b0-191d799ecaca.txt
 
---===============0551837981177015321==
+--===============3062155324044967797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c8fe583cce5-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-fb35d30fe5b0-191d799ecaca.txt
 
-9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
 f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
 fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
@@ -1050,5 +1049,6 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
+191d799ecaca4d5c7f87c624ae36581237ab8a87 x86/cpu/hygon: Set __max_die_per_package on Hygon
 
---===============0551837981177015321==--
+--===============3062155324044967797==--
