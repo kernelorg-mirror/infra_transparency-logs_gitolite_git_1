@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gerg/m68knommu
-Date: Tue, 02 Mar 2021 00:30:16 -0000
-Message-Id: <161464501669.16135.18249317600255195626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Tue, 02 Mar 2021 00:42:44 -0000
+Message-Id: <161464576434.23507.14298059623409718580@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gerg/m68knommu
-user: gerg
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/for-linus
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: c7d6a334a37c1b1977645d8a26cf3f612206bda2
+  - ref: refs/heads/dw_timer_memory_leak_fix
+    old: 8e89f7c9df649a34cfa1119c335c6296cf31b324
+    new: 8b4e8be9a6e23be8c45beb9000648f2c8126506a
     log: |
-         c7d6a334a37c1b1977645d8a26cf3f612206bda2 m68k: fix flatmem memory model setup
-         
-  - ref: refs/heads/for-next
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: 751e8e413e59776b8b0285850afdf978b7204f1b
-    log: |
-         751e8e413e59776b8b0285850afdf978b7204f1b m68k: fix flatmem memory model setup
+         8b4e8be9a6e23be8c45beb9000648f2c8126506a clocksource: dw_apb_timer_of: add handling for potential memory leak
          
