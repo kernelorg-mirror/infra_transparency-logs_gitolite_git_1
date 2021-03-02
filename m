@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Tue, 02 Mar 2021 13:03:39 -0000
-Message-Id: <161469021955.10662.13900182790016182525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Tue, 02 Mar 2021 13:07:26 -0000
+Message-Id: <161469044604.13065.10574501177022141496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/master
-    old: 55070b0eb6d4eb41b9de9da5ec4ee936ec729c21
-    new: afb9568444ef9ae6316d279162f71b8160cb48fa
+  - ref: refs/heads/fixes
+    old: c7385820310f7969ae9a0bdd9a216a6031fb872c
+    new: bbcbfc85556ed9b2a15955eb6f9b5b732e6b1795
     log: |
-         afb9568444ef9ae6316d279162f71b8160cb48fa build: add a space between arguments of AC_INIT() in configure.ac
+         bbcbfc85556ed9b2a15955eb6f9b5b732e6b1795 habanalabs: fix debugfs address translation
          
