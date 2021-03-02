@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2038769022610986163=="
+Content-Type: multipart/mixed; boundary="===============7071198538092335919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 02 Mar 2021 09:49:31 -0000
-Message-Id: <161467857190.20186.661591401783329384@gitolite.kernel.org>
+Date: Tue, 02 Mar 2021 09:49:38 -0000
+Message-Id: <161467857811.20279.14594393959888953255@gitolite.kernel.org>
 
---===============2038769022610986163==
+--===============7071198538092335919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/x86/mm
-    old: 7a7fd0de4a9804299793e564a555a49c1fc924cb
-    new: a78eda76b92b81ae3515bcda43a36d671e287c1c
-    log: revlist-7a7fd0de4a98-a78eda76b92b.txt
+  - ref: refs/heads/master
+    old: ed2ad14e646b22aac289a4808f33e065996ddec5
+    new: 9b73e207664cc1da20c3378057f3574f84262e6f
+    log: revlist-ed2ad14e646b-9b73e207664c.txt
 
---===============2038769022610986163==
+--===============7071198538092335919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a7fd0de4a98-a78eda76b92b.txt
+Content-Disposition: attachment; filename=revlist-ed2ad14e646b-9b73e207664c.txt
 
-4b816578c16b92b68fb9842dcec0bc2fdc2b36d8 locking/csd_lock: Add boot parameter for controlling CSD lock debugging
-b3e3bc34b1e938c6447fa8b646010c4016be7fad locking/csd_lock: Prepare more CSD lock debugging
-6bf3195fdbab92b57f3167101a0b651b93dbeae7 locking/csd_lock: Add more data to CSD lock debugging
 b54d50640ca698383fc5b711487f303c17f4b47f smp: Run functions concurrently in smp_call_function_many_cond()
 f4f14f7c20440a442b4eaeb7b6f25cd0fc437e36 x86/mm/tlb: Unify flush_tlb_func_local() and flush_tlb_func_remote()
 bc51e8e6f9c387d8dda1d8dea2b8856d0ade4101 x86/mm/tlb: Open-code on_each_cpu_cond_mask() for tlb_is_not_lazy()
@@ -40,5 +37,6 @@ db73f8099a502be8ed46f6332c91754c74ac76c2 x86/mm/tlb: Do not make is_lazy dirty f
 28344ab0a282a5ab5e4d56bfbcb2b363f4c15447 smp: Inline on_each_cpu_cond() and on_each_cpu()
 dd75cba56151cb3b9dc7eac0221c9b1967f6ddb5 smp: Micro-optimize smp_call_function_many_cond()
 a78eda76b92b81ae3515bcda43a36d671e287c1c Merge branch 'locking/core' into x86/mm, to fix conflicts
+9b73e207664cc1da20c3378057f3574f84262e6f Merge branch 'x86/mm'
 
---===============2038769022610986163==--
+--===============7071198538092335919==--
