@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3535259931914557821=="
+Content-Type: multipart/mixed; boundary="===============7980192659833542782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 03 Mar 2021 09:44:39 -0000
-Message-Id: <161476467936.22500.13285516335006256744@gitolite.kernel.org>
+Date: Wed, 03 Mar 2021 09:45:32 -0000
+Message-Id: <161476473263.24221.15997909997921447724@gitolite.kernel.org>
 
---===============3535259931914557821==
+--===============7980192659833542782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: 738ed4156fbac6f6eb84c23b95cf25aa57707332
+  - ref: refs/heads/mediatek-drm-fixes
+    old: 487778f8d22fcdebb6436f0a5f96484ffa237b0b
     new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-738ed4156fba-fe07bfda2fb9.txt
+    log: revlist-487778f8d22f-fe07bfda2fb9.txt
 
---===============3535259931914557821==
+--===============7980192659833542782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-738ed4156fba-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-487778f8d22f-fe07bfda2fb9.txt
 
 9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
@@ -1051,4 +1051,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============3535259931914557821==--
+--===============7980192659833542782==--
