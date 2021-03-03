@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7980192659833542782=="
+Content-Type: multipart/mixed; boundary="===============1386984340318099746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 03 Mar 2021 09:45:32 -0000
-Message-Id: <161476473263.24221.15997909997921447724@gitolite.kernel.org>
+Date: Wed, 03 Mar 2021 09:48:30 -0000
+Message-Id: <161476491075.25163.16098905196473961216@gitolite.kernel.org>
 
---===============7980192659833542782==
+--===============1386984340318099746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
-  - ref: refs/heads/mediatek-drm-fixes
-    old: 487778f8d22fcdebb6436f0a5f96484ffa237b0b
-    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-487778f8d22f-fe07bfda2fb9.txt
+  - ref: refs/heads/mediatek-cmdq3
+    old: a0ad19aa8862537be5cd96ac2622f226cf2773d3
+    new: 9f5edfff642fd653d940c3e604d4ca9996ea01d6
+    log: revlist-a0ad19aa8862-9f5edfff642f.txt
 
---===============7980192659833542782==
+--===============1386984340318099746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-487778f8d22f-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-a0ad19aa8862-9f5edfff642f.txt
 
-9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
-7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
-f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
-fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
 c72160fe05fb978ad859ba053c4462c2bb960b13 initramfs: Provide a common initrd reserve function
 aec33b54af55ef025e03e3dfbab3b8abe00eaa22 riscv: Covert to reserve_initrd_mem()
 e178d670f251b6947d6be99c0014e9a57ad4f0e0 riscv/kasan: add KASAN_VMALLOC support
@@ -1050,5 +1046,9 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
+ec4f6e864b2cf0cd76b6c4dec9216d3b9e57964f mailbox: mtk-cmdq: Remove cmdq_cb_status
+ff953f61e6d4d4ab1df7175729329178eac0feea mailbox: mtk-cmdq: Use mailbox rx_callback
+13a134cd7cf0ace0427699006731cae3d913aff1 soc / drm: mediatek: Use mailbox rx_callback instead of cmdq_task_cb
+9f5edfff642fd653d940c3e604d4ca9996ea01d6 mailbox: mtk-cmdq: Add struct cmdq_pkt in struct cmdq_cb_data
 
---===============7980192659833542782==--
+--===============1386984340318099746==--
