@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 03 Mar 2021 04:14:26 -0000
-Message-Id: <161474486636.30014.989680136392678259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rteval/rteval
+Date: Wed, 03 Mar 2021 04:24:26 -0000
+Message-Id: <161474546603.4267.9445279804400036496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/utils/rteval/rteval
+user: jkacur
 changes:
   - ref: refs/heads/master
-    old: 85e142cb42a1e7b33971bf035dae432d8670c46b
-    new: 303dcc25b5c782547eb13b9f29426de843dd6f34
+    old: d12487a752ad6ff2453c70c4e26e0d8e60fa0292
+    new: 37384922dec930804d6616e39bffff29c40adf1e
     log: |
-         303dcc25b5c782547eb13b9f29426de843dd6f34 tools/runqslower: Allow substituting custom vmlinux.h for the build
+         37384922dec930804d6616e39bffff29c40adf1e rteval: cyclictest.py: Make build targets architecture independent
          
