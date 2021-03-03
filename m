@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2035359173234432852=="
+Content-Type: multipart/mixed; boundary="===============7728090575743364782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Wed, 03 Mar 2021 13:35:44 -0000
-Message-Id: <161477854419.32301.14171610431491372881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Wed, 03 Mar 2021 13:39:52 -0000
+Message-Id: <161477879292.1414.3930749294452561563@gitolite.kernel.org>
 
---===============2035359173234432852==
+--===============7728090575743364782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
+repo: pub/scm/linux/kernel/git/abelloni/linux
 user: abelloni
 changes:
-  - ref: refs/heads/at91-drivers
-    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
+  - ref: refs/heads/rtc-next
+    old: 49dfc1f16b03a6abc17721d4600f7a0bf3d3e4ed
     new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-5c8fe583cce5-fe07bfda2fb9.txt
+    log: revlist-49dfc1f16b03-fe07bfda2fb9.txt
 
---===============2035359173234432852==
+--===============7728090575743364782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c8fe583cce5-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-49dfc1f16b03-fe07bfda2fb9.txt
 
 9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
@@ -1051,4 +1051,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============2035359173234432852==--
+--===============7728090575743364782==--
