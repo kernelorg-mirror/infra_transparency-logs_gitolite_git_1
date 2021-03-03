@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5144189351487457891=="
+Content-Type: multipart/mixed; boundary="===============5259873491146392823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Wed, 03 Mar 2021 13:19:32 -0000
-Message-Id: <161477757249.22311.12193276861759523650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Wed, 03 Mar 2021 13:29:41 -0000
+Message-Id: <161477818153.27763.689284821289059021@gitolite.kernel.org>
 
---===============5144189351487457891==
+--===============5259873491146392823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/i3c/next
-    old: 5c34b8e7e8bb605925b33e1aa7dc17966811219a
-    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-5c34b8e7e8bb-fe07bfda2fb9.txt
+  - ref: refs/heads/imx/fixes
+    old: aa880c6f3ee6dbd0d5ab02026a514ff8ea0a3328
+    new: 72326fa289646724df0746b0d91a988c99135ae0
+    log: revlist-aa880c6f3ee6-72326fa28964.txt
 
---===============5144189351487457891==
+--===============5259873491146392823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c34b8e7e8bb-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-aa880c6f3ee6-72326fa28964.txt
 
-9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
 f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
 fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
@@ -1050,5 +1049,6 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
+72326fa289646724df0746b0d91a988c99135ae0 ARM: imx: avic: Convert to using IRQCHIP_DECLARE
 
---===============5144189351487457891==--
+--===============5259873491146392823==--
