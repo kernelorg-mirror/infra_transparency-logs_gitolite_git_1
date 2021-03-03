@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7719030326004697939=="
+Content-Type: multipart/mixed; boundary="===============3648187514730416761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 03 Mar 2021 10:16:06 -0000
-Message-Id: <161476656615.10512.11731228928681063493@gitolite.kernel.org>
+Date: Wed, 03 Mar 2021 10:16:22 -0000
+Message-Id: <161476658237.10711.11702750281674997230@gitolite.kernel.org>
 
---===============7719030326004697939==
+--===============3648187514730416761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 0390bf9195b4dd729f8e52416d91120519a51c02
     new: 43e65ddac19c665411ed8554a21155fc0ec3a286
     log: revlist-0390bf9195b4-43e65ddac19c.txt
 
---===============7719030326004697939==
+--===============3648187514730416761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ ea4b565c7bdf6bfe849492430ebf726f681a7e65 Merge branch 'objtool/core'
 c232db123b364eedc5cf4d741a6409071281485f Merge branch 'locking/urgent'
 43e65ddac19c665411ed8554a21155fc0ec3a286 Merge branch 'locking/core'
 
---===============7719030326004697939==--
+--===============3648187514730416761==--
