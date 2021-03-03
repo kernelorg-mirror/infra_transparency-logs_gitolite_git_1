@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6260925290246183910=="
+Content-Type: multipart/mixed; boundary="===============4684153827863089419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Wed, 03 Mar 2021 15:00:18 -0000
-Message-Id: <161478361865.22908.10039361278096730654@gitolite.kernel.org>
+Date: Wed, 03 Mar 2021 15:00:58 -0000
+Message-Id: <161478365859.23195.8107896477332634574@gitolite.kernel.org>
 
---===============6260925290246183910==
+--===============4684153827863089419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: f1bc6ab4a2b38f3dcf24dc29fb79d5a520f4845d
-    new: 43e65ddac19c665411ed8554a21155fc0ec3a286
-    log: revlist-f1bc6ab4a2b3-43e65ddac19c.txt
+  - ref: refs/heads/numa
+    old: b02da0dbc677ff2ed5c1aaeadf73e3038893e349
+    new: 9fc65b918d29ca37b130633776a05420af420abe
+    log: revlist-b02da0dbc677-9fc65b918d29.txt
 
---===============6260925290246183910==
+--===============4684153827863089419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1bc6ab4a2b3-43e65ddac19c.txt
+Content-Disposition: attachment; filename=revlist-b02da0dbc677-9fc65b918d29.txt
 
-96ad91ae4eaff3697b1124b30d28d73de3557a3d KVM: x86/mmu: Remove a variety of unnecessary exports
-af0bfab907a011e146304d20d81dddce4e4d62d0 leds: led-core: Get rid of enum led_brightness
-b113a7f1981062442b5a5318b6cf6b7ad4097b45 dt-bindings: leds: Add bindings for Intel LGM SoC
-c3987cd2bca34ddfec69027acedb2fae5ffcf7a0 leds: lgm: Add LED controller driver for LGM SoC
-8e5c38a33c84935d66cfcf23c96960b6c4b484ef leds: flash: Add flash registration with undefined CONFIG_LEDS_CLASS_FLASH
 6039b7e87be0b350a5f8fc135adfb5d1f4ba66ad leds: flash: Fix multicolor no-ops registration by return 0
 c27f3d011b08540e68233cf56274fdc34bebb9b5 ACPICA: Fix race in generic_serial_bus (I2C) and GPIO op_region parameter handling
 8f6493d1b834a4331de139d9808300216fc7712d ACPICA: Remove some code duplication from acpi_ev_address_space_dispatch
@@ -1050,5 +1045,10 @@ cbf981fd904579286ab69fb7f91327fd1d3ad0df Merge branch 'sched/core'
 ea4b565c7bdf6bfe849492430ebf726f681a7e65 Merge branch 'objtool/core'
 c232db123b364eedc5cf4d741a6409071281485f Merge branch 'locking/urgent'
 43e65ddac19c665411ed8554a21155fc0ec3a286 Merge branch 'locking/core'
+f246d94d9d540387df780f3bc6d4ab35f9e8b620 x86/sgx: Fix a resource leak in sgx_init()
+df6e16d8b421ceb69c4496be15d9aa21c3d70c19 x86/sgx: Use sgx_free_epc_page() in sgx_reclaim_pages()
+f36235b9f090f79de9d345fc7d9a46bba88d1723 x86/sgx: Replace section->init_laundry_list with a temp list
+51f378f07dbb7c4944ba409d3ed4fa4b7d1e25a1 x86/sgx: Replace section->page_list with a global free page list
+9fc65b918d29ca37b130633776a05420af420abe x86/sgx: Add a basic NUMA allocation scheme to sgx_alloc_epc_page()
 
---===============6260925290246183910==--
+--===============4684153827863089419==--
