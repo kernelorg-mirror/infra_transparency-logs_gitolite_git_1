@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 03 Mar 2021 08:09:54 -0000
-Message-Id: <161475899451.10412.16789548028343197049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Wed, 03 Mar 2021 08:09:59 -0000
+Message-Id: <161475899904.10552.5027662846097392367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/locking/core
-    old: 6bf3195fdbab92b57f3167101a0b651b93dbeae7
-    new: de469d82991b905548b5dc6539177f7b881dce1b
-    log: |
-         566a9522381495d27b596ee3bdc9578ba02a895d x86/jump_label: Mark arguments as const to satisfy asm constraints
-         ac1cce36595238680c32c3f197e5aa18db6fa7a3 lockdep: Add lockdep_assert_not_held()
-         298df9652725502bedf3593203721c03b75271f3 lockdep: Add lockdep lock state defines
-         de469d82991b905548b5dc6539177f7b881dce1b ath10k: Detect conf_mutex held ath10k_drain_tx() calls
-         
+  - ref: refs/tags/misc-habanalabs-fixes-2021-03-03
+    old: 0000000000000000000000000000000000000000
+    new: 945c52cfe41ce3c7bc79ac7eb95eadb79eadd984
