@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0784067994478361551=="
+Content-Type: multipart/mixed; boundary="===============3316486248041448747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Wed, 03 Mar 2021 11:36:43 -0000
-Message-Id: <161477140335.25300.16646614262709422645@gitolite.kernel.org>
+Date: Wed, 03 Mar 2021 11:53:20 -0000
+Message-Id: <161477240004.3276.17807908011472815724@gitolite.kernel.org>
 
---===============0784067994478361551==
+--===============3316486248041448747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hyperv/linux
 user: wei.liu
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 3019270282a175defc02c8331786c73e082cd2a8
-    new: 513ef616b19bf502f0aa49f4759c2d77091a3de4
-    log: revlist-3019270282a1-513ef616b19b.txt
+  - ref: refs/heads/hyperv-fixes
+    old: fff7b5e6ee63c5d20406a131b260c619cdd24fd1
+    new: a226621384779d010fa54f6d9eab4aa60f923621
+    log: revlist-fff7b5e6ee63-a22662138477.txt
 
---===============0784067994478361551==
+--===============3316486248041448747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3019270282a1-513ef616b19b.txt
+Content-Disposition: attachment; filename=revlist-fff7b5e6ee63-a22662138477.txt
 
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
 f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
@@ -1049,6 +1049,6 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-513ef616b19bf502f0aa49f4759c2d77091a3de4 drivers: hv: Fix whitespace errors
+a226621384779d010fa54f6d9eab4aa60f923621 Drivers: hv: vmbus: Drop error message when 'No request id available'
 
---===============0784067994478361551==--
+--===============3316486248041448747==--
