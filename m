@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2829382623864129793=="
+Content-Type: multipart/mixed; boundary="===============4357754608949010010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Wed, 03 Mar 2021 13:45:13 -0000
-Message-Id: <161477911384.6936.14262950367150805149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Wed, 03 Mar 2021 13:50:02 -0000
+Message-Id: <161477940284.8480.7725748327813562880@gitolite.kernel.org>
 
---===============2829382623864129793==
+--===============4357754608949010010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
+repo: pub/scm/linux/kernel/git/abelloni/linux
 user: abelloni
 changes:
-  - ref: refs/heads/at91-soc
-    old: cd9168b4377932a6494d464db1ddd3f63e41fce3
+  - ref: refs/heads/rtc-fixes
+    old: 5c8fe583cce542aa0b84adc939ce85293de36e5e
     new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-cd9168b43779-fe07bfda2fb9.txt
+    log: revlist-5c8fe583cce5-fe07bfda2fb9.txt
 
---===============2829382623864129793==
+--===============4357754608949010010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd9168b43779-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-5c8fe583cce5-fe07bfda2fb9.txt
 
 9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
@@ -1051,4 +1051,4 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
 
---===============2829382623864129793==--
+--===============4357754608949010010==--
