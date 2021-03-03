@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 03 Mar 2021 14:36:10 -0000
-Message-Id: <161478217048.7683.11760494487155786745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Wed, 03 Mar 2021 14:58:11 -0000
+Message-Id: <161478349125.20702.12468712134897950007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/for-linus
-    old: 73e7161eab5dee98114987239ec9c87fe8034ddb
-    new: 26af17722a07597d3e556eda92c6fce8d528bc9f
+  - ref: refs/heads/numa
+    old: c0bedcd149efd99421b05e3c5c81c17a3366fb1e
+    new: b02da0dbc677ff2ed5c1aaeadf73e3038893e349
     log: |
-         26af17722a07597d3e556eda92c6fce8d528bc9f ALSA: hda/realtek: Apply dual codec quirks for MSI Godlike X570 board
-         
-  - ref: refs/heads/master
-    old: 7b04177bed81e6052897bf2dd7ba5a6b8a62979b
-    new: 37729c2f85346066c8a0d36a59295520b6d0c2bd
-    log: |
-         26af17722a07597d3e556eda92c6fce8d528bc9f ALSA: hda/realtek: Apply dual codec quirks for MSI Godlike X570 board
-         37729c2f85346066c8a0d36a59295520b6d0c2bd Merge branch 'for-linus'
+         51a24892757027d1bf980f5fa01ff868151a51bf x86/sgx: Fix a resource leak in sgx_init()
+         9c862d625edc643dbeb05e2aba79ec302281abb8 x86/sgx: Use sgx_free_epc_page() in sgx_reclaim_pages()
+         948823901530af39a0cbd84d83b75e35d77e7337 x86/sgx: Replace section->init_laundry_list with a temp list
+         fca9dc1e3940f3c78118b107a8f857a295927453 x86/sgx: Replace section->page_list with a global free page list
+         b02da0dbc677ff2ed5c1aaeadf73e3038893e349 x86/sgx: Add a basic NUMA allocation scheme to sgx_alloc_epc_page()
          
