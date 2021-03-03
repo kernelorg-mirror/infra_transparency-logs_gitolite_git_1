@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nmenon/linux
-Date: Wed, 03 Mar 2021 14:05:09 -0000
-Message-Id: <161478030993.21629.15836101642119004255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Wed, 03 Mar 2021 14:06:38 -0000
+Message-Id: <161478039801.22116.1594739475176269678@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nmenon/linux
-user: nmenon
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 9e3faed4dc176d06dc2bed5f16a33085af10fb1c
-    new: 0d7571c36331aafce485fa105959b498c86615d7
+  - ref: refs/heads/numa-v3
+    old: 85c51a061391c336c7bc4e84024765a2d8b5af27
+    new: b02da0dbc677ff2ed5c1aaeadf73e3038893e349
     log: |
-         0d7571c36331aafce485fa105959b498c86615d7 arm64: dts: ti: k3-am65-main: Add device_type to pcie*_rc nodes
-         
-  - ref: refs/heads/ti-k3-next
-    old: 9e3faed4dc176d06dc2bed5f16a33085af10fb1c
-    new: 0d7571c36331aafce485fa105959b498c86615d7
-    log: |
-         0d7571c36331aafce485fa105959b498c86615d7 arm64: dts: ti: k3-am65-main: Add device_type to pcie*_rc nodes
+         9c862d625edc643dbeb05e2aba79ec302281abb8 x86/sgx: Use sgx_free_epc_page() in sgx_reclaim_pages()
+         948823901530af39a0cbd84d83b75e35d77e7337 x86/sgx: Replace section->init_laundry_list with a temp list
+         fca9dc1e3940f3c78118b107a8f857a295927453 x86/sgx: Replace section->page_list with a global free page list
+         b02da0dbc677ff2ed5c1aaeadf73e3038893e349 x86/sgx: Add a basic NUMA allocation scheme to sgx_alloc_epc_page()
          
