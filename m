@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4624049598617127727=="
+Content-Type: multipart/mixed; boundary="===============8127464646743206947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 03 Mar 2021 19:26:48 -0000
-Message-Id: <161479960869.12320.17605719362478260947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Wed, 03 Mar 2021 19:26:53 -0000
+Message-Id: <161479961358.12413.617838588747776539@gitolite.kernel.org>
 
---===============4624049598617127727==
+--===============8127464646743206947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: d1da37c58e65c4800cce768533c563fa3c89c62f
 
---===============4624049598617127727==
+--===============8127464646743206947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +52,4 @@ f5f4fc4649ae542b1a25670b17aaf3cbb6187acc ia64: don't call handle_signal() unless
 caf6912f3f4af7232340d500a4a2008f81b93f14 swap: fix swapfile read/write offset
 f69d02e37a85645aa90d18cacfff36dba370f797 Merge tag 'misc-5.12-2021-03-02' of git://git.kernel.dk/linux-block
 
---===============4624049598617127727==--
+--===============8127464646743206947==--
