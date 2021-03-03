@@ -1,62 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7978984634577715362=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 03 Mar 2021 18:20:22 -0000
-Message-Id: <161479562215.3578.16689210374904945179@gitolite.kernel.org>
-
---===============7978984634577715362==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 03 Mar 2021 18:24:07 -0000
+Message-Id: <161479584709.4734.8946733712974889418@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-next
-    old: 20bc04ace4e4de98470b43bd09505299aa9e510d
-    new: 944aa7186d59b5afab693812cbd580ee0869c46e
-    log: revlist-20bc04ace4e4-944aa7186d59.txt
-  - ref: refs/heads/next/dt
-    old: e56a80a26facfbdf5b7aa5f0d80678db429771e6
-    new: 8c84f931b62e270b212f629c78d739fa7bd05ba2
-    log: revlist-e56a80a26fac-8c84f931b62e.txt
-
---===============7978984634577715362==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20bc04ace4e4-944aa7186d59.txt
-
-4a66a7a400d16846d554c30c520acb058e0d0d51 ARM: dts: exynos: correct fuel gauge interrupt trigger level on GT-I9100
-0fc150f0dfd712aca5319e5afa08ebafe7d8ea8e ARM: dts: exynos: correct fuel gauge interrupt trigger level on P4 Note family
-64b87f3b5984a29105c4ca438bf9f378f06fdb24 ARM: dts: exynos: correct fuel gauge interrupt trigger level on Midas family
-1a879631aecbb5dbb5fd27d7fbece9b5f8c3645c ARM: dts: exynos: correct MUIC interrupt trigger level on Midas family
-65c1b89d87c3c3e9095a7aec56bfa599d689be94 ARM: dts: exynos: correct PMIC interrupt trigger level on Midas family
-c2e5afc5a4d5588ed36e9a71e702b01d18fa944b ARM: dts: exynos: correct PMIC interrupt trigger level on Odroid X/U3 family
-bca328b1e89682316715f7ca858b906762d558c0 ARM: dts: exynos: correct PMIC interrupt trigger level on P4 Note family
-2ce868c1a9ff4314a01ca85dc4dcbfeeba57c67a ARM: dts: exynos: correct PMIC interrupt trigger level on SMDK5250
-d03b71455f61106c21adf9951983a89af34c6630 ARM: dts: exynos: correct PMIC interrupt trigger level on Snow
-8c84f931b62e270b212f629c78d739fa7bd05ba2 ARM: dts: s5pv210: correct fuel gauge interrupt trigger level on Fascinate family
-944aa7186d59b5afab693812cbd580ee0869c46e Merge branch 'next/dt' into for-next
-
---===============7978984634577715362==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e56a80a26fac-8c84f931b62e.txt
-
-4a66a7a400d16846d554c30c520acb058e0d0d51 ARM: dts: exynos: correct fuel gauge interrupt trigger level on GT-I9100
-0fc150f0dfd712aca5319e5afa08ebafe7d8ea8e ARM: dts: exynos: correct fuel gauge interrupt trigger level on P4 Note family
-64b87f3b5984a29105c4ca438bf9f378f06fdb24 ARM: dts: exynos: correct fuel gauge interrupt trigger level on Midas family
-1a879631aecbb5dbb5fd27d7fbece9b5f8c3645c ARM: dts: exynos: correct MUIC interrupt trigger level on Midas family
-65c1b89d87c3c3e9095a7aec56bfa599d689be94 ARM: dts: exynos: correct PMIC interrupt trigger level on Midas family
-c2e5afc5a4d5588ed36e9a71e702b01d18fa944b ARM: dts: exynos: correct PMIC interrupt trigger level on Odroid X/U3 family
-bca328b1e89682316715f7ca858b906762d558c0 ARM: dts: exynos: correct PMIC interrupt trigger level on P4 Note family
-2ce868c1a9ff4314a01ca85dc4dcbfeeba57c67a ARM: dts: exynos: correct PMIC interrupt trigger level on SMDK5250
-d03b71455f61106c21adf9951983a89af34c6630 ARM: dts: exynos: correct PMIC interrupt trigger level on Snow
-8c84f931b62e270b212f629c78d739fa7bd05ba2 ARM: dts: s5pv210: correct fuel gauge interrupt trigger level on Fascinate family
-
---===============7978984634577715362==--
+  - ref: refs/heads/main
+    old: f7915a0c29fee27a310cebd7155b9e3a6eb71a1d
+    new: 5ecd13ffe8e24385cf4f30f3d0dcaff4dfb24de2
+    log: |
+         58825f74eb0156822065c449a770644a69044d88 brcm: Fix Raspberry Pi 4B NVRAM file
+         aa6c6e75b44b90bf9e46f3ebed95e25b0ceda8ec Add symlink for BananaPi M2 to brcmfmac43430-sdio config
+         048a7cbca7a95799a6af0bcd85874c55b201118d WHENCE: add missing symlink for BananaPi M3
+         e576a1bd790b10f9400f05db7d6729f10bd4c410 rtw89: 8852a: add firmware v0.9.12.2
+         58fb90a0e95540b26127000a7fd832f590902ebf linux-firmware: add frimware for mediatek bluetooth chip (MT7921)
+         5ecd13ffe8e24385cf4f30f3d0dcaff4dfb24de2 Mellanox: Add new mlxsw_spectrum firmware xx.2008.2406
+         
