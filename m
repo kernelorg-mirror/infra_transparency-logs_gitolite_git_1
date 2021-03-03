@@ -1,48 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============0860529853467003987=="
+Content-Type: multipart/mixed; boundary="===============4536527243637365470=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Wed, 03 Mar 2021 09:35:00 -0000
-Message-Id: <161476410086.15645.10315025194705062536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 03 Mar 2021 09:44:06 -0000
+Message-Id: <161476464687.22240.3812945636307812896@gitolite.kernel.org>
 
---===============0860529853467003987==
+--===============4536527243637365470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: b4fbcd8245d6057a9e76d48189a0e4351ba35cfd
-    new: 992e659e3bc9a1d6d9b726868c98df4765426acf
-    log: revlist-b4fbcd8245d6-992e659e3bc9.txt
+  - ref: refs/heads/sched/core
+    old: c91b0dcb6482096e7af4adbf39cfe3296af74a78
+    new: 8b89220650146d59e9a8af2e5f12fc582539609e
+    log: revlist-c91b0dcb6482-8b8922065014.txt
 
---===============0860529853467003987==
+--===============4536527243637365470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4fbcd8245d6-992e659e3bc9.txt
+Content-Disposition: attachment; filename=revlist-c91b0dcb6482-8b8922065014.txt
 
-d0d1a8b43618b586fb75bdec298c4560a4d92c41 x86/asm: Add pud/pmd mask interfaces to handle large PAT bit
-93a357fad3b7482227a0484d09b86814d16822d8 x86/mm: Fix regression with huge pages on PAE
-d545458a4792ae23600e6e534eda5a5c4b3e279e netlink: Do not subscribe to non-existent groups
-eacbf677076bdb91848aee430e78941bcca90677 netlink: Don't shift with UB on nlk->ngroups
-fed15e667f2ff61aee73d566927ea2d2d4304e20 netlink: Don't shift on 64 for ngroups
-57151919c472128a85fad970b4e676066811b3a9 ACPI / PCI: Bail early in acpi_pci_add_bus() if there is no ACPI handle
-385b7ad3f9038556890f11e8b803e3a754887834 tpm: fix race condition in tpm_common_write()
-17b5ba24b01632bed0a747e836a099e301c29168 ipv4+ipv6: Make INET*_ESP select CRYPTO_ECHAINIV
-64a9b4e032418c1178576760cb5930953d2e44d3 fork: unconditionally clear stack on fork
-0c92f08d66b0e83a71664db83a225c183639d967 ACPI / LPSS: Add missing prv_offset setting for byt/cht PWM devices
-9b79dfc9e01d40cfa540a1d33f9da14d8e3d925d scsi: sr: Avoid that opening a CD-ROM hangs with runtime power management enabled
-a4631287ba63fde69eeb0af20331ba62c6c50d45 x86/paravirt: Fix spectre-v2 mitigations for paravirt guests
-dc8f48318fac54298d86b330c66dd3af4c54cfbc x86/irqflags: Provide a declaration for native_save_fl
-6f0727c120f28ebc4b0871e8b1a127ea8c1524f7 x86/speculation/l1tf: Increase 32bit PAE __PHYSICAL_PAGE_SHIFT
-cb73d1d2164ee36a5f29cedfb2cdf1b19570fb14 x86/speculation/l1tf: Protect PROT_NONE PTEs against speculation
-1f83bf19242858ca4292e18cd61c9a1fa4191fcd x86/speculation/l1tf: Make sure the first page is always reserved
-7d4fe01b3cbe5a7ab2d5bfa2c1f48c27a8f2f650 mm: Add vm_insert_pfn_prot()
-992e659e3bc9a1d6d9b726868c98df4765426acf mm: fix cache mode tracking in vm_insert_mixed()
+4c7ee75cccbf0635cbec6528ae7fff4b7bc549fa kcov: Remove kcov include from sched.h and move it to its users.
+1690607f4232c120a2d6ff1f9d0766551d9609f1 sched/fair: Remove update of blocked load from newidle_balance
+f2c0af1dabdae4674fb7ddba0ac88ca78d0fe675 sched/fair: Remove unused return of _nohz_idle_balance
+21c5d27a4c5d9fddb2c35ccdd5cddc11b75f753d sched/fair: Remove unused parameter of update_nohz_stats
+2aa7f2f6d1e4308b81bef079091561445b9cb949 sched/fair: Merge for each idle cpu loop of ILB
+053192dea58da994fb3dd7ad235440accf292a08 sched/fair: Reorder newidle_balance pulled_task tests
+63dbe695827f0f612a0cdbc82a43a974bcd536cd sched/fair: Trigger the update of blocked load on newly idle cpu
+780eec5b50930b34e2f096b4dce5368d90497b55 sched/fair: Reduce the window for duplicated update
+2d120f71df4baeb7694f513c86fe6f85940f6f76 sched/fair: Fix task utilization accountability in compute_energy()
+b641a8b52c6162172ca31590510569eaadcd5e49 sched/fair: use lsub_positive in cpu_util_next()
+9ab8f620eea3a797667add72eae5e235d2ca2fc8 sched/fair: Fix shift-out-of-bounds in load_balance()
+9357e217ba642b39ce89f9cd5b5f3e5a21712283 sched/pelt: Fix task util_est update filtering
+6d06c515e9151dc858e391bd6bebce0b684eec4f cpu/hotplug: Allowing to reset fail injection
+5e7f238920174248049ff840eff43c94f3a2e67e cpu/hotplug: CPUHP_BRINGUP_CPU failure exception
+8b89220650146d59e9a8af2e5f12fc582539609e cpu/hotplug: Add cpuhp_invoke_callback_range()
 
---===============0860529853467003987==--
+--===============4536527243637365470==--
