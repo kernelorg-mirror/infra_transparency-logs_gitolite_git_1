@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============2870531095690406386=="
+Content-Type: multipart/mixed; boundary="===============8583103456785255274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 04 Mar 2021 00:53:35 -0000
-Message-Id: <161481921578.11733.17641879303380147041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 04 Mar 2021 00:53:44 -0000
+Message-Id: <161481922410.11891.2801685380865078577@gitolite.kernel.org>
 
---===============2870531095690406386==
+--===============8583103456785255274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: d27f8feaf8543cc0e315f8ea13c9d99222bdd783
     new: c014170408bcd2e8fc726802ed16794d358742ff
     log: |
          290c323008db6e3a44d981a46b56f7f166979a04 ASoC: SOF: Intel: unregister DMIC device on probe error
          c014170408bcd2e8fc726802ed16794d358742ff ASoC: soc-core: Prevent warning if no DMI table is present
          
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: a02321775cb8600b609649298f67c8bbd92cf8bc
     new: e59287f7dfba5119411166a73db55890145d3aaf
     log: revlist-a02321775cb8-e59287f7dfba.txt
 
---===============2870531095690406386==
+--===============8583103456785255274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1614819147 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1614819212-887008610d38bec1a91dd3ddc08b6662b9cb1dec
+pusher C3F436CA30F5D8EB 1614819156 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1614819220-d24134f609cc140d3a4040c413f0cb05f7e3dace
 
-d27f8feaf8543cc0e315f8ea13c9d99222bdd783 c014170408bcd2e8fc726802ed16794d358742ff refs/heads/for-5.12
-a02321775cb8600b609649298f67c8bbd92cf8bc e59287f7dfba5119411166a73db55890145d3aaf refs/heads/for-5.13
+d27f8feaf8543cc0e315f8ea13c9d99222bdd783 c014170408bcd2e8fc726802ed16794d358742ff refs/heads/asoc-5.12
+a02321775cb8600b609649298f67c8bbd92cf8bc e59287f7dfba5119411166a73db55890145d3aaf refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBAL0sACgkQJNaLcl1U
-h9CWTwf8DvGa6pIeVYJ5xHQlQQQWaTxNy7IqYkQ4b+ZextBi75+4vlDLs8+UzjJG
-zqna78L99VfpS6pmrefDlt1hh3HzLOLya17PsGEf3Ocsx/ApMmiv8Kr30rfEAcK3
-qzZnX5Uh9nsYoZFCULeURV/6D2H0/coKl/vXWZmLHyoqLH3h7SKBMXuxNodROAod
-uhLR1TNmDlMLjE8YABYLAfI52LnKqI+S7W9d1TZL/LYtgqHEoZluiA1Hnp5glu1k
-Vyo/x+JgDNdccE6F0gHq000aPaENU3irrLAMJbrQapu2VSzBqzbhAEWiDYQ98A2F
-vbcQeVMxErNHMgx4ULsoolCtetjGbQ==
-=pZAf
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBAL1QACgkQJNaLcl1U
+h9BXVAf/Vg6gWShorkdDhL/wStGkJIErqAAEypCVxDH5Q6ngXTIzpayKJrrllUVD
+qGq9DFATWEZPq3rSvW6oW671+81UVhU5QOyveA0l+P6mO2+cG3fImpGpCe5w/XUe
+7z/N3WDLsoo2f3IoDdkrXfPrvaJh1axRIKS+9ykBtT6VO0y3p1QoGc92YLo4X1Qr
+kKrCFM5ceXcmMIsMRQjMu7JjxafcHtuNUq6G9KgvBsrneJJgb+oGmkPD+PVY160d
+XLIOgIU0dyxFF/efLgKyadngt/U8bU9LumUgEmp6Xt3hGZTAtn3fhMEAGn3bh9kX
+yrg5+2vkH5dVpjkK//Q7ZqTVVF8V2A==
+=qvLB
 -----END PGP SIGNATURE-----
 
---===============2870531095690406386==
+--===============8583103456785255274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -123,4 +123,4 @@ f87aec4585c3cf0853ba20637bb8c6bdd2689c46 ASoC: rt1316: Fix return value check in
 2b5380e9135c2e9a4afe34219c252710f5eea781 Merge series "ASoC: realtek: fix cppcheck warnings" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 e59287f7dfba5119411166a73db55890145d3aaf Merge series "ASoC: remove more make W=1 warnings" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 
---===============2870531095690406386==--
+--===============8583103456785255274==--
