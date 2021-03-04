@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0266125880765641680=="
+Content-Type: multipart/mixed; boundary="===============5308200402856909267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 04 Mar 2021 15:03:59 -0000
-Message-Id: <161487023923.5890.12383477650272535068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 04 Mar 2021 15:04:06 -0000
+Message-Id: <161487024632.6007.17926705890753519802@gitolite.kernel.org>
 
---===============0266125880765641680==
+--===============5308200402856909267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/spi-5.13
     old: a53a9159a6774b393bb4b620430328940fa853b8
     new: 2b669371ce916f1fef7720a6731d8641a57b3fb1
     log: |
@@ -27,28 +27,28 @@ changes:
          2b669371ce916f1fef7720a6731d8641a57b3fb1 Merge series "parport: Introduce module_parport_driver() and use it" from Andy Shevchenko <andriy.shevchenko@linux.intel.com>:
          
 
---===============0266125880765641680==
+--===============5308200402856909267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1614870172 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1614870236-c694380f7f3811e34a2674dd204e57bd321cd667
+pusher C3F436CA30F5D8EB 1614870179 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1614870243-207bb587d66d677631e3f51aea8413cd159b09dc
 
-a53a9159a6774b393bb4b620430328940fa853b8 2b669371ce916f1fef7720a6731d8641a57b3fb1 refs/heads/for-5.13
+a53a9159a6774b393bb4b620430328940fa853b8 2b669371ce916f1fef7720a6731d8641a57b3fb1 refs/heads/spi-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBA9pwACgkQJNaLcl1U
-h9A7Igf/R+tecWAATl+I0ufxYC1j1ZIFLN3YYdnHNHtzk6oNtEroRnF7LOepB54t
-XT0xHKgxZe0cf1HNI/uf33xIKz2ir4sXeAffSNrJIZxsrZStWSDWv5C//lZhB0ag
-O7asQMUAs1msFaD8UFZESP0JNI/4KfPq/PeLi0woRLhHvg/NMSBNRFraNWb/ss3O
-pXQLIh8i0E8r6RQPUf9CeWfa1jopMu0kvnBcrEk8TQw7ruRJAI1/myyoimmzDbjA
-u6BtaW56vOclF8UcxjIjKzFlSyGOUzZb+tC1loFxhqo8H754osv9L2tepajK/BPb
-2MGDCe3WiK4WPEqC+5oQ08FeBkfIJQ==
-=+HRb
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBA9qMACgkQJNaLcl1U
+h9A/Vwf/QNLuddakaAXnr5rQF+Jv8AMxH2ypDnalnrxIuHvtVp+Bk50+XcwvTyrp
+qnSPs1gi/j6PPqEJaizJKYhy23zVgO6v+kkoHrpCBtdI8Iz3D/DLSpfKJEtmBrpR
+o+flytQSfym0dOLcXIK04U3f8ckwaRVbkgXqbNdnqOhEwnDMxnTOZtSYunJ0Eutt
+3yBzea/gyEY9kFAnN3Hkz5qERHwPc+wBwFHka++qRfwya+eIl/qn0a/Fr/IaU0tM
+MMAY208Az0uhBnZ4FkYzxZYCpe3f5YXWlv2I3eUN1Mvu6ubU6+T5I2fgx3Uls4rt
+7QgxbfmoRcgGCQryjCc41vFIFO7HYQ==
+=zfd+
 -----END PGP SIGNATURE-----
 
---===============0266125880765641680==--
+--===============5308200402856909267==--
