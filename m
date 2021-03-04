@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0253133971037130600=="
+Content-Type: multipart/mixed; boundary="===============6316089073683058664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 04 Mar 2021 22:46:52 -0000
-Message-Id: <161489801292.3503.13003995599364919423@gitolite.kernel.org>
+Date: Thu, 04 Mar 2021 22:47:10 -0000
+Message-Id: <161489803042.3625.16287520265287376867@gitolite.kernel.org>
 
---===============0253133971037130600==
+--===============6316089073683058664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: a99a247e738fb9a809a8360eb6d2f8364e2dcca3
-    new: c0b5bab56cbba68c7f92ea0be327ce19be6c4b5a
-    log: revlist-a99a247e738f-c0b5bab56cbb.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 586754006be32876cf1a23d474c2a9ef12502e9a
+    new: b5826e75f43412d405d622c7dc9d3f75289cef86
+    log: revlist-586754006be3-b5826e75f434.txt
 
---===============0253133971037130600==
+--===============6316089073683058664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1614898010 -0500
+pusher 75C5DE3D 1614898028 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1614898010-97c2a523de2fb7ff76d0f53ff8d22ae6aed91417
+nonce 1614898027-7687b4cde50f5a109a314efda084ee06fd1ca249
 
-a99a247e738fb9a809a8360eb6d2f8364e2dcca3 c0b5bab56cbba68c7f92ea0be327ce19be6c4b5a refs/tags/mkp-scsi-queue
+586754006be32876cf1a23d474c2a9ef12502e9a b5826e75f43412d405d622c7dc9d3f75289cef86 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBBY1oACgkQ7ulgGnXF
-3j2vLQ/9E2mub8jINb9i90nNQLWIgrDEh09/yWPYqaTrDBQO+zJe/D7jLFQWLrDt
-vR8phu9nI7w7RJkVMFTJMXcC72zx7JBE7lcArpqaOtSGSIeUWe18MTXtuLhYfYQf
-CawX7BLmIx2jsrfHnPDqrvQ6EnVHdihJeDNn3Q106XPc1Rdx7o17rD88KdGmJ4hc
-99LBEFIzGdcn++DIDViSJ8eXksxqfyJ+w5bhWA8O/E1V6pZSv+bcA4phhWXaXNDM
-TYy+EFh+64yL0obZkKtYa+TD76U21eSjSdGB6rqBcNLB9y4CeY+W3RrFqV0DwTmg
-zylBgXueUnKQQqaIUPqi9u345UVzGnJEDI5kbzX0AsfVEpq6wNSg7crFs9bDQxt3
-T0wBmAVF9mvaThycZY/eZkqNFDnCGwwOi1lPME0szMDpz46J6E5UYrYhWlYu7+la
-g6jJSt9Uav4txMtOkF1eXEMxyinoGBs7k8HknPRqrjy2XM5UO7IguwsvgQtZnM/A
-jx6wdM2hPIAh0pzVwo0Bw+Wsb8QyfhZjynijC5U9qoHMMKRHFq0PH8VgU+I5eur9
-fjfKx4wh3ixYcdhdk8qlnUjE2s7wdpuLHCALlOeX1vM0i9vtwh6a+uj+vcYz0AlB
-WbdV7Ts7KL0pVQhZyW3SRBuZOMtRp2Ei7XsA7uYP1AqBS6uvoLk=
-=wqmY
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBBY2wACgkQ7ulgGnXF
+3j31vxAAqT3fPWeMESgEOExGTE/2ZJAi+iMxEVBeM8wSFjZv0FGGpMqLVKf+zYsE
+S4KLZobkIAieul8C4Fb9byZKpUqQ+i4bO1oVE2mSwsYrd6cP6EWN807XuLXv1C90
+2/SCAypiek2B4drwz1rL8pqdcWqirUT4Qny1Lp5vVEJfbysz7Q15hccEEx2VLqNd
+RmWOIqhAA9UakHbbABykX0rEB6L6CuahYNOXEbFEuALC5J0D39v11isrpXHddIHd
+sfjrnEVpgOqPgbL8QFag2H8fTjmi6DQT8Z546F8fZcI2ydX1fefG5bJIiXLUUWyD
+xocoPU5SV7mIPhvS8xyWTs9173ccfyCDa9m7uYWbXjbPSnx6TzQj3tPCRsKdm+j8
+Um953mIR1VK9zi0coN1rOaPvijZu5XSl8j2Xq2Q/ggr0Cpv5mWtHrgDnxE2hxoLT
+iTD1t3n8IzoPCn+itbeqqreGEytTdZo5DCkPJYPP7hOMQm+xepjyNofAilpeD7hz
+lG20fDl6cGNLwZJ0OimH0IWyH0SL4mj87HxnyBPNpwfyNWQ6ekmQyeyAF7HGgVQH
+kJzAuLU4YduemRHWdOTDi+D/w2ONGb/ePbBNwTYgW4YVnuaNIhExihUWum+yJNFl
+7LUibSolxRmWxf7NdnhHVOW/t0sfgn7VtYru3pB/4CXjrtBQsJI=
+=KwJG
 -----END PGP SIGNATURE-----
 
---===============0253133971037130600==
+--===============6316089073683058664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a99a247e738f-c0b5bab56cbb.txt
+Content-Disposition: attachment; filename=revlist-586754006be3-b5826e75f434.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -120,5 +120,34 @@ e0eb5d38b732b011cd9ed5b1bf9f59b83c2500d3 scsi: target: tcm_loop: Use block cmd a
 6888da8179fd4cfff4c6b62d5587ec2cd21e316d scsi: target: tcmu: Add backend plug/unplug callouts
 3d75948b8320ac167ec2efe5a8ebf44bdcb3cc14 scsi: target: core: Flush submission work during TMR processing
 39ae3edda325e9cf9e978c9788affe88231f3b34 scsi: target: core: Make completion affinity configurable
+af1830956dc3dca0c87b2d679f7c91a8fe0331e1 scsi: core: Add mq_poll support to SCSI layer
+9e4bec5b2a230066a0dc9f79f24b4c1bcb668c5a scsi: megaraid_sas: mq_poll support
+c4b57d89bad8282c9f461e6b3308df160c50ff8e scsi: scsi_debug: mq_poll support
+4a0c6f432d153156f8f73078c4e6fa43bd3a1752 scsi: scsi_debug: Add new defer type for mq_poll
+4309ea74b0c30f00c6a93b94db018ebb416dc14c scsi: core: Set shost as hctx driver_data
+771f712ba5b0c6a54534421db98f560526a238a4 scsi: scsi_debug: Fix cmd duration calculation
+9302154c07bff4e7f7f43c506a1ac84540303d06 scsi: lpfc: Fix incorrect dbde assignment when building target abts wqe
+58c36e80ee2d3836080b22ba965aa09454c070d6 scsi: lpfc: Fix vport indices in lpfc_find_vport_by_vpid()
+68a6a66c5168f3995baed3fc5bee2d4515eb16d0 scsi: lpfc: Fix reftag generation sizing errors
+2693f5deed16e302297fa591862dd9cc560ec3b5 scsi: lpfc: Fix stale node accesses on stale RRQ request
+618e2ee146d414481c39af61fb018f50bee4ad33 scsi: lpfc: Fix FLOGI failure due to accessing a freed node
+6b6eaf8a5330a4ab37a0d562f24228226e6ac630 scsi: lpfc: Fix lpfc_els_retry() possible null pointer dereference
+bd4f5100424d17d4e560d6653902ef8e49b2fc1f scsi: lpfc: Fix pt2pt connection does not recover after LOGO
+ae960d78ec3ab19023d19d134b066eb453aff602 scsi: lpfc: Fix unnecessary null check in lpfc_release_scsi_buf
+8dd1c125f7f838abad009b64bff5f0a11afe3cb6 scsi: lpfc: Fix null pointer dereference in lpfc_prep_els_iocb()
+8e9a3250dc61ac1a3b8e4c98ed255fdb4d40cddc scsi: lpfc: Fix use after free in lpfc_els_free_iocb
+148bc64d38fe314475a074c4f757ec9d84537d1c scsi: lpfc: Fix status returned in lpfc_els_retry() error exit path
+9dd83f75fc8c2403508d4dbe4b9ebde15ee0bbab scsi: lpfc: Fix dropped FLOGI during pt2pt discovery recovery
+143753059b8b957f1cf4355338a3e3a32f3a85bf scsi: lpfc: Fix PLOGI ACC to be transmit after REG_LOGIN
+309b477462df7542355ac984674a6e89c01c89aa scsi: lpfc: Fix ADISC handling that never frees nodes
+bb6fd33e3a0cf4325a8114f2f2fece881713973c scsi: lpfc: Fix nodeinfo debugfs output
+debbc1e2b978bbacd629e30d93d8eaba1592c358 scsi: lpfc: Fix pt2pt state transition causing rmmod hang
+9628aace0d1f74f81baaa353f38e929fb4580248 scsi: lpfc: Fix crash caused by switch reboot
+a94a40eb64f15f8374699a114cd24fbbf48048ed scsi: lpfc: Change wording of invalid pci reset log message
+cdf811606bd8cac4b0c6fe140acc6511d37542f9 scsi: lpfc: Reduce LOG_TRACE_EVENT logging for vports
+69b8eff25c8beb8073d82ebb4cfb8a241540feba scsi: lpfc: Correct function header comments related to ndlp reference counting
+ef53d5e1b8e49c673672db9c3c2e6c64dd7a0fbb scsi: lpfc: Update lpfc version to 12.8.0.8
+67073c69c8902d5f23845b3689360853826fcfb8 scsi: lpfc: Update copyrights for 12.8.0.7 and 12.8.0.8 changes
+a81a38cc6ddaf128c7ca9e3fffff21c243f33c97 scsi: storvsc: Parameterize number hardware queues
 
---===============0253133971037130600==--
+--===============6316089073683058664==--
