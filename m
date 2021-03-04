@@ -1,57 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============8021389369537541595=="
+Content-Type: multipart/mixed; boundary="===============3426266149611876901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 04 Mar 2021 07:20:31 -0000
-Message-Id: <161484243142.27302.18173531069906736014@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 04 Mar 2021 07:44:04 -0000
+Message-Id: <161484384478.8472.14318744310697406560@gitolite.kernel.org>
 
---===============8021389369537541595==
+--===============3426266149611876901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 5bb9cdb320a5ca631b584a9aa1ba472eb14705af
-    new: 5e17812c22bcd65fa9202595eef4bbf8fa814144
-    log: |
-         d05a12f0478cbae41f26f62af767e86bd550ffb9 usb: dwc3: Fix dereferencing of null dwc->usb_psy
-         5e17812c22bcd65fa9202595eef4bbf8fa814144 usb: dwc3: document usb_psy in struct dwc3
-         
+  - ref: refs/heads/master
+    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    new: f69d02e37a85645aa90d18cacfff36dba370f797
+    log: revlist-fe07bfda2fb9-f69d02e37a85.txt
 
---===============8021389369537541595==
+--===============3426266149611876901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614842423 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1614842423-47d8db2928c071f6c5ea79575de1dbe0742a7892
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614843843 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1614843842-6e6300e6c830b0c1e0b94a6b4cc857d19ddda5cb
 
-5bb9cdb320a5ca631b584a9aa1ba472eb14705af 5e17812c22bcd65fa9202595eef4bbf8fa814144 refs/heads/usb-next
+fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 f69d02e37a85645aa90d18cacfff36dba370f797 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBAijcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GwkQAI05zlp5NMhOLXxFVCnv
-xaJU+vvZHQ06Pwtv9LReq3v23XpkK6Rx59IHq+/rKXJniQYmVOktQy3YOdf2U+5l
-XkZlDPim9K5FjyIcEWYR5iyg5dSGm8j0Zy/bdHuX5y/0IFV+/0w92cXWkMOX/5bY
-a2shI0jRJjIiLZqs5LDYnXedUa6d9oE/wEpbNAj3yVDHd2gEAvUwCF1O7ku5BEZk
-RzybHdd9wesEPQlRjQZeSL4gGQf+IsVW3qIPtO5aPyxTrO28Mnc1iN+ygPJi1AjF
-qf/gKdZHRTuwkfhJaFEe6y0wz9840HGARUPkt6egbwzIbPtGMHsL/Chzk1PtZK2i
-LMv5UyU0f3i9cyO3wFXKZGJ24FFaexwhBILEL2UQKgmCWqp0+AOmvjGNBG0VdZLd
-PjwKCecKKeXDHV2ZgDhpKhsKqQYPOKqCNfkpYpm3el42QYymU6NN0LaZwHJfeZqF
-AakeDd9LB3cQHEWfltZhTOOw4i1h2ml6+9HNPGodMqY0NMj0nUM1rjhUItnYtIEo
-4ymDYZT9S80fr7RkKBPGqTBVxGusy1EKH4XiUFNL9e6kiQMWbhGW81u9P6qaMa38
-wzBJGgDe3hHdTlgd5AB8bLQ9I0eGkWcfX+dJNuUZOtV3Fkui1aXD8DlMCGcNtPsL
-W8I8HSGJY9PqNRuTVZN47Wh/
-=2gW1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBAj8MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5PMQAKiuzXD2SSMYroLwsRzi
+x5jeNjMdhdlBj5fQkDv+XuW3ds8cgX2EvsQRD9MVoQF5Jt+cZjOX4kYgoDZhbvxY
+zuk4nMAT/mE2jWeyueiXcrTp5svmPCON4nhYuOAQjmfjSJHPLXU2969bBNyCVOc8
+BhKtBt3CSDGJfNnc8cVfuSbMhrUThKUaFTRDfRi+8ystvGJEJKI5hDzqjGzbFga1
+7uO1nrGzAE9Ffnu4jAnvx+46vhP0+Wds+Ap2zwTSab7auBY03p2VLdpGTkSVrbbV
+2pESVXrcUGme+6pr5p3k0JqpGvp0KGv9NZS2WHQwVcZeGQDNs8WV4ql6bpRmsm6H
+e519ll+q3tF4WhyfjxGOs3qYEpSfXkaLsr5v306tglDN4qgDoDD0vFw5ymqdT6CN
+hJI1IqVJw04wra/ss+N1f+cVrUlHt1rve3IZSrGgBqwks0V3WNQAczlxBx4iSdDe
+U4UD4V5/usEgi+QtjFUgueNbfjTkT39GTBiRnwbNhXwk1qo+iooxzhi7Sq146BRT
+NCaWfwE6eQ87GwDrwuGZgPyPBs3jpPl8bzexcyHFDYWXavnba8ymaWIDZNk/MVJJ
+o3H4/xqHyXxc9ar4IuS0WwcdxxkCaxxzIZLjwGSwSuo4/AhupriYeTlmtTUaOJwo
+mcTj7NM/4XC7aRdbnXsl+jLu
+=1kzs
 -----END PGP SIGNATURE-----
 
---===============8021389369537541595==--
+--===============3426266149611876901==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-f69d02e37a85.txt
+
+bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
+61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
+6a0996db6879cf09f989c5f44f9edd38240cb346 mm/highmem: Introduce memcpy_page(), memmove_page(), and memset_page()
+ca18f6ea012bf30236b76c3480ac2c97131b6f8f mm/highmem: Add VM_BUG_ON() to mem*_page() calls
+d70cef0d46729808dc53f145372c02b145c92604 btrfs: fix raid6 qstripe kmap
+be6a13613fd35602ea9e65d6634cf7af79f0a93d btrfs: make btrfs_submit_compressed_read() subpage compatible
+04d4ba4c90759844fb4ffa735214c1c41508d2f7 btrfs: make check_compressed_csum() to be subpage compatible
+3c17916510428dbccdf657de050c34e208347089 btrfs: fix race between extent freeing/allocation when using bitmaps
+20903032cd9f0260b99aeab92e6540f0350e4a23 btrfs: avoid checking for RO block group twice during nocow writeback
+195a49eaf655eb914896c92cecd96bc863c9feb3 btrfs: fix race between writes to swap files and scrub
+dd0734f2a866f9d619d4abf97c3d71bcdee40ea9 btrfs: fix race between swap file activation and snapshot creation
+1119a72e223f3073a604f8fccb3a470ccd8a4416 btrfs: tree-checker: do not error out if extent ref hash doesn't match
+3660d0bcdb82807d434da9d2e57d88b37331182d btrfs: fix stale data exposure after cloning a hole with NO_HOLES enabled
+95c85fba1f64c3249c67f0078a29f8a125078189 btrfs: avoid double put of block group when emptying cluster
+6e37d245994189ba757df7dc2950a44d31421ac6 btrfs: zoned: fix deadlock on log sync
+3590ec58991bcf0f3512c4353a786079a6619758 btrfs: use memcpy_[to|from]_page() and kmap_local_page()
+80cc83842394e5ad3e93487359106aab3420bcb7 btrfs: use copy_highpage() instead of 2 kmaps()
+c608aca57dd034d09f307b109b670d1cfb829279 Merge tag 'for-5.12-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+7a7fd0de4a9804299793e564a555a49c1fc924cb Merge branch 'kmap-conversion-for-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+f5f4fc4649ae542b1a25670b17aaf3cbb6187acc ia64: don't call handle_signal() unless there's actually a signal queued
+caf6912f3f4af7232340d500a4a2008f81b93f14 swap: fix swapfile read/write offset
+f69d02e37a85645aa90d18cacfff36dba370f797 Merge tag 'misc-5.12-2021-03-02' of git://git.kernel.dk/linux-block
+
+--===============3426266149611876901==--
