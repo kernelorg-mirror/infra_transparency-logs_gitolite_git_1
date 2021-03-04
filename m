@@ -1,85 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============7165975957224004316=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 04 Mar 2021 11:32:10 -0000
-Message-Id: <161485753060.27624.15239419911380577626@gitolite.kernel.org>
-
---===============7165975957224004316==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Thu, 04 Mar 2021 12:16:15 -0000
+Message-Id: <161486017573.22104.12759936831768647797@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/tags/v4.14.223
-    old: 0000000000000000000000000000000000000000
-    new: ccec28c0704985d4add4a3f3c9978aaa8e416b6a
-  - ref: refs/tags/v4.19.178
-    old: 0000000000000000000000000000000000000000
-    new: 4fc37b8c5b18fc4040c81b738c3a3609b4725e97
-  - ref: refs/tags/v4.4.259
-    old: 0000000000000000000000000000000000000000
-    new: 0581bf2538bbb2518ea3402d723095170b22197d
-  - ref: refs/tags/v4.9.259
-    old: 0000000000000000000000000000000000000000
-    new: 7ec3947bd1ac11dd0f61596eacd767d38312802f
-  - ref: refs/tags/v5.10.20
-    old: 0000000000000000000000000000000000000000
-    new: 502b1e6e233b4d71f29ef19f9b08338be824ab96
-  - ref: refs/tags/v5.11.3
-    old: 0000000000000000000000000000000000000000
-    new: 11838854ed44e02b23c6dc4d4840edae2e9defbd
-  - ref: refs/tags/v5.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d1da37c58e65c4800cce768533c563fa3c89c62f
-  - ref: refs/tags/v5.12-rc1-dontuse
-    old: 0000000000000000000000000000000000000000
-    new: d1da37c58e65c4800cce768533c563fa3c89c62f
-  - ref: refs/tags/v5.4.102
-    old: 0000000000000000000000000000000000000000
-    new: 96d4ca76c5b21a087e7400c5ca9e659028269533
-
---===============7165975957224004316==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614857528 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1614857527-534b4076e42e0a070800b3791903d3e4b31ca585
-
-0000000000000000000000000000000000000000 ccec28c0704985d4add4a3f3c9978aaa8e416b6a refs/tags/v4.14.223
-0000000000000000000000000000000000000000 4fc37b8c5b18fc4040c81b738c3a3609b4725e97 refs/tags/v4.19.178
-0000000000000000000000000000000000000000 0581bf2538bbb2518ea3402d723095170b22197d refs/tags/v4.4.259
-0000000000000000000000000000000000000000 7ec3947bd1ac11dd0f61596eacd767d38312802f refs/tags/v4.9.259
-0000000000000000000000000000000000000000 502b1e6e233b4d71f29ef19f9b08338be824ab96 refs/tags/v5.10.20
-0000000000000000000000000000000000000000 11838854ed44e02b23c6dc4d4840edae2e9defbd refs/tags/v5.11.3
-0000000000000000000000000000000000000000 d1da37c58e65c4800cce768533c563fa3c89c62f refs/tags/v5.12-rc1
-0000000000000000000000000000000000000000 d1da37c58e65c4800cce768533c563fa3c89c62f refs/tags/v5.12-rc1-dontuse
-0000000000000000000000000000000000000000 96d4ca76c5b21a087e7400c5ca9e659028269533 refs/tags/v5.4.102
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBAxTgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RusQAJ/tBSTcrVd9xZUCbtvG
-A7rTAXqjwmej4mwWjWEaxm1CS8SBOsIm9qt8o8m+I7FwL8i13ILsKPI5Nw7e9rax
-xGSpXeX47q5fOGsO/dyG5LYIgN3mh9+2Qfr9BBztLOmPFFnZBNf/P/PgwjBFDmLp
-8i84+XWRTu3Q3j8A8KhhfzsCrhpdfcQwRHIr3A5Qr0aDdSiC06wav/ECVEhI9Yeb
-SOsvO3ke5ECYLiC2RDp6D80XNd8z2imSKcEaEEdZOH3i3Hl9zcBXt2e8VQZkvzuv
-Ls8MbRhf41XEBjD2RvGcoy8OETh55oIbIeyO2NQBqZkMqGjb6brIRp75GFzs6zE3
-BFjKxC9iBS1EM3f9UbVXihFwH6vMwoowJRIn3vUwNbE6RLmla9uOIe1u0JICigVR
-vRrnHd9TgsOEM6+PC7HW9TWjhw5E/yU3Yb0Jo32jL5SnXF6cMr+WaLC1mpHjGcV9
-VIA/wuZpm5ZJrYz4WeScloWdUiEGXM3Zyy8h3b4qfa+StUIVm6fNpbL/7MtnK19U
-KvXJnPSfZY7903dNNf89YnaeiDlycD64kKDyulgG8590S9BDBh4Hkqtu5iBtiGFX
-1WPhYkrIJUDmiTg+UE0ETByi/jdKGkLWIPG+WhGWBp6dMidXKy7dyhYhKU1xRSbT
-zu67e/I5E6Yu7eDsRGwnf7VS
-=X3Q5
------END PGP SIGNATURE-----
-
---===============7165975957224004316==--
+  - ref: refs/heads/master
+    old: f22a6613ebbaaf58cf83a163a4b221f6237909dd
+    new: 25a943ad017512fef1a6a2ae32bbf49cda758e88
+    log: |
+         25a943ad017512fef1a6a2ae32bbf49cda758e88 Update Readme.md.
+         
+  - ref: refs/merge-requests/51/merge
+    old: 3e712b2dcd88951084e88989608f46a67f872a90
+    new: 25a943ad017512fef1a6a2ae32bbf49cda758e88
+    log: |
+         8914ae468b738aac2e5824644424554df084896e Add release notes for 2.3.5-rc.
+         f22a6613ebbaaf58cf83a163a4b221f6237909dd Fix typo.
+         25a943ad017512fef1a6a2ae32bbf49cda758e88 Update Readme.md.
+         
