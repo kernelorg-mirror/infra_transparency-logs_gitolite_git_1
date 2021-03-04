@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7722723612781393444=="
+Content-Type: multipart/mixed; boundary="===============0253133971037130600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 04 Mar 2021 22:46:46 -0000
-Message-Id: <161489800640.3417.16065454879106503049@gitolite.kernel.org>
+Date: Thu, 04 Mar 2021 22:46:52 -0000
+Message-Id: <161489801292.3503.13003995599364919423@gitolite.kernel.org>
 
---===============7722723612781393444==
+--===============0253133971037130600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 1dbafd931d90d0d3af72a9b8afd5650a81943b75
-    new: 1112963427d6d186f8729cf36fefb70d5ca5a84a
-    log: revlist-1dbafd931d90-1112963427d6.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: a99a247e738fb9a809a8360eb6d2f8364e2dcca3
+    new: c0b5bab56cbba68c7f92ea0be327ce19be6c4b5a
+    log: revlist-a99a247e738f-c0b5bab56cbb.txt
 
---===============7722723612781393444==
+--===============0253133971037130600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1614898004 -0500
+pusher 75C5DE3D 1614898010 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1614898004-3944edec8f62fdf046379a5c6b19be4be1c446d9
+nonce 1614898010-97c2a523de2fb7ff76d0f53ff8d22ae6aed91417
 
-1dbafd931d90d0d3af72a9b8afd5650a81943b75 1112963427d6d186f8729cf36fefb70d5ca5a84a refs/heads/fixes
+a99a247e738fb9a809a8360eb6d2f8364e2dcca3 c0b5bab56cbba68c7f92ea0be327ce19be6c4b5a refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBBY1QACgkQ7ulgGnXF
-3j0+MA//czLi13pDsZcDgGnfwQP2nsXe/XT90ez2GTspgUr8H0kHxlZ/aOiYBiT8
-Y8wsNz4ymBlHyVFOy1r6l8i3OHBxpFDacZtnN/+v7QiOScFBegDsXY8SdUvN84cB
-Y0+XZTxSAUkINqlDDtFdxQ7kf6Es5SYTBIU2pxZfFQglv4ODwGsiH4Rj4xbYZXUE
-AaKJy3zI+dvKKmEXBdcmMolPmv31cBoKPM21LIQLuV8cInJTMsBwRLcRjSiNQtyw
-NDNuCtXgb/zu7rdG3gFQyDG0Av6YyKuytFJQQ/9rRz5YZUjPKw5npH96hNE1EU6Q
-vtqWxJ2sqc1LpNqw+w+z19yfQoid1RtD5QEHHPHAgOS7k2aSNMeJvWEYiXbJtY4r
-Ano4enD/0nxsCX8gBe0aVIOUJt74AnizwjATi4/nWjuecE9Us2/TpQcrFIDQh8ne
-6nN1G3jMlLo4XAZKgfbTcudY6CcRG10il7DuQEhk22+Mmfcu4SSNGfqRDTBKjl+t
-malsVQRmYTemJQuAvJZJU7JHaTXL8MonPF5vCNhFvvG8aor75Kt67QCTgEcKOhFS
-nFfVnwtn2EcBDHFynZCCAw2pY+yxdypK9z1+koZl+bFiP2vbVgbc6Uou+2Y79He2
-FUrhXcXHiH3Qg/Na/V4TdHVfcn/gSiPzaBvI3lLwJcUZ4O1HV0g=
-=N0QR
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBBY1oACgkQ7ulgGnXF
+3j2vLQ/9E2mub8jINb9i90nNQLWIgrDEh09/yWPYqaTrDBQO+zJe/D7jLFQWLrDt
+vR8phu9nI7w7RJkVMFTJMXcC72zx7JBE7lcArpqaOtSGSIeUWe18MTXtuLhYfYQf
+CawX7BLmIx2jsrfHnPDqrvQ6EnVHdihJeDNn3Q106XPc1Rdx7o17rD88KdGmJ4hc
+99LBEFIzGdcn++DIDViSJ8eXksxqfyJ+w5bhWA8O/E1V6pZSv+bcA4phhWXaXNDM
+TYy+EFh+64yL0obZkKtYa+TD76U21eSjSdGB6rqBcNLB9y4CeY+W3RrFqV0DwTmg
+zylBgXueUnKQQqaIUPqi9u345UVzGnJEDI5kbzX0AsfVEpq6wNSg7crFs9bDQxt3
+T0wBmAVF9mvaThycZY/eZkqNFDnCGwwOi1lPME0szMDpz46J6E5UYrYhWlYu7+la
+g6jJSt9Uav4txMtOkF1eXEMxyinoGBs7k8HknPRqrjy2XM5UO7IguwsvgQtZnM/A
+jx6wdM2hPIAh0pzVwo0Bw+Wsb8QyfhZjynijC5U9qoHMMKRHFq0PH8VgU+I5eur9
+fjfKx4wh3ixYcdhdk8qlnUjE2s7wdpuLHCALlOeX1vM0i9vtwh6a+uj+vcYz0AlB
+WbdV7Ts7KL0pVQhZyW3SRBuZOMtRp2Ei7XsA7uYP1AqBS6uvoLk=
+=wqmY
 -----END PGP SIGNATURE-----
 
---===============7722723612781393444==
+--===============0253133971037130600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1dbafd931d90-1112963427d6.txt
+Content-Disposition: attachment; filename=revlist-a99a247e738f-c0b5bab56cbb.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -78,15 +78,47 @@ c608aca57dd034d09f307b109b670d1cfb829279 Merge tag 'for-5.12-rc1-tag' of git://g
 f5f4fc4649ae542b1a25670b17aaf3cbb6187acc ia64: don't call handle_signal() unless there's actually a signal queued
 caf6912f3f4af7232340d500a4a2008f81b93f14 swap: fix swapfile read/write offset
 f69d02e37a85645aa90d18cacfff36dba370f797 Merge tag 'misc-5.12-2021-03-02' of git://git.kernel.dk/linux-block
-443cc4b45c1be0b25313c9a507b033074334b490 scsi: ibmvfc: Simplify handling of sub-CRQ initialization
-5cf529649be20dc27500c1141d58ba57131e2530 scsi: ibmvfc: Fix invalid sub-CRQ handles after hard reset
-2162dc23f80770e355ef00b43573b67b80466001 scsi: ibmvfc: Treat H_CLOSED as success during sub-CRQ registration
-0217a272fe134578d88a4e9c7f5e968551bf952a scsi: ibmvfc: Store return code of H_FREE_SUB_CRQ during cleanup
-dbdbb81bde2440d9a1653acf1333c6c812f9c4b0 scsi: ibmvfc: Reinitialize sub-CRQs and perform channel enquiry after LPM
-aa53f580e67b49ec5f4d9bd1de81eb9eb0dc079f scsi: ufs: Minor adjustments to error handling
-4a791574a0ccf36eb3a0a46fbd71d2768df3eef9 scsi: ufs: ufs-qcom: Disable interrupt in reset path
-4d195dc451570db79251a58022309728cc7b29de scsi: ufs: Remove redundant checks of !hba in suspend/resume callbacks
-1481b7fe438fff3bd918bcb344e75bdf7ce47bb8 scsi: ufs: Convert sysfs sprintf/snprintf family to sysfs_emit
-1112963427d6d186f8729cf36fefb70d5ca5a84a scsi: vmw_pvscsi: MAINTAINERS: Update maintainer
+f7733625ec2f7bd628e4fd5014f72a2983830a74 scsi: ufs: Add exception event tracepoint
+37b97b18704f77f711e7a2c532fcad00268ac025 scsi: ufs: Add exception event definitions
+cd4694756188dcca0f631e60da26053be1ffdc91 scsi: ufs: ufs-debugfs: Add user-defined exception_event_mask
+7deedfdaeccfec5a9c41dbb83f1725cf11e3ff39 scsi: ufs: ufs-debugfs: Add user-defined exception event rate limiting
+4ec591790356f0e5a95f8d278b0cfd04aea2ae52 scsi: sbitmap: Remove sbitmap_clear_bit_unlock
+efe1f3a1d5833c0ddd61ee50dbef8908f65a0a5e scsi: sbitmap: Maintain allocation round_robin in sbitmap
+bf2c4282a10a92810ba83e85677a5273d6ca0df5 scsi: sbitmap: Add helpers for updating allocation hint
+c548e62bcf6adc7066ff201e9ecc88e536dd8890 scsi: sbitmap: Move allocation hint into sbitmap
+cbb9950b41dd9dfb7c2be3429ba09f83b8b1ff98 scsi: sbitmap: Export sbitmap_weight
+2d13b1ea9f4affdaa7af0e0e4a1358d28f80c54f scsi: sbitmap: Add sbitmap_calculate_shift() helper
+d022d18c045fc2ccf92d0f14cf80f98eb0a8e119 scsi: blk-mq: Add callbacks for storing & retrieving budget token
+2a5a24aa83382a88c43d18a901fab66e6ffe1199 scsi: blk-mq: Return budget token from .get_budget callback
+9ebb4d70dc0e0e8989a13d156020db9d55fcfafd scsi: core: Put hot fields of scsi_host_template in one cacheline
+6cb9b15238a389a8892a6ed08f5c68a0ac45d720 scsi: megaraid_sas: Replace sdev_busy with local counter
+8278807abd338f2246b6ae8057f2ec61a80a5614 scsi: core: Add scsi_device_busy() wrapper
+ca44532139514f5fb0a5a081cd8576e4abe54e65 scsi: core: Make sure sdev->queue_depth is <= max(shost->can_queue, 1024)
+020b0f0a31920e5b7e7e120d4560453b67b70733 scsi: core: Replace sdev->device_busy with sbitmap
+a9294d86743298c87fd9c39d9ddebf4b04d5da10 scsi: target: core: Move t_task_cdb initialization
+cb222a013dca1872deeb49fe8c7176f8aa656d5f scsi: target: core: Drop kref_get_unless_zero() in target_get_sess_cmd()
+a78b713618c02752310b2be7da465a34fb660ed9 scsi: target: core: Rename transport_init_se_cmd()
+750a1d93f90583a270eb62f36e6d32ebbb6af779 scsi: target: core: Break up target_submit_cmd_map_sgls()
+50ab9c47f51dbe3419e414ac6880273f58ac2849 scsi: target: srpt: Convert to new submission API
+7d676851de8485ccf99288134eee184e9fd5dac0 scsi: target: ibmvscsi_tgt: Convert to new submission API
+919ba0ad7d5a52cb83ae9aebe4500d8bed0a0830 scsi: target: qla2xxx: Convert to new submission API
+17ae18a6efed92ce1bb1a61fa9e7360d3d8fd5b9 scsi: target: tcm_loop: Convert to new submission API
+c7e086b8d7539f1eafa7748e9c1c19bf33dd269f scsi: target: sbp_target: Convert to new submission API
+12340930a3e10a3bec110f808be9eeb301969abf scsi: target: usb: gadget: Convert to new submission API
+eb929804db7c3525bc302aa043369193edd36542 scsi: target: vhost-scsi: Convert to new submission API
+1f48b065dad168eebc4f184e97d4aab7a732bd6a scsi: target: xen-scsiback: Convert to new submission API
+47edc84f3376980cc2f573d25844c0260e756166 scsi: target: tcm_fc: Convert to new submission API
+0fa50a8b1244e7fc7363712e2c14a27db740cdcb scsi: target: core: Remove target_submit_cmd_map_sgls()
+08694199477da412baf1852c6d1bf5fedbd40c7e scsi: target: core: Add gfp_t arg to target_cmd_init_cdb()
+eb44ce8c8c7d3b45f9204c7f34577960c00d5919 scsi: target: core: Add workqueue based cmd submission
+6ec29cb8ad333c1b4efd3acaf7451538c30220ae scsi: target: vhost-scsi: Use LIO wq cmd submission helper
+e0eb5d38b732b011cd9ed5b1bf9f59b83c2500d3 scsi: target: tcm_loop: Use block cmd allocator for se_cmds
+1130b499b4a74baa8248002a4fd4275bf137b7f4 scsi: target: tcm_loop: Use LIO wq cmd submission helper
+802ec4f672ed64fc3e6a09aa0e4a92a018383767 scsi: target: core: Cleanup cmd flag bits
+302990ac3b1b1a2b7b66f59a5c88038a51fbe18e scsi: target: core: Fix backend plugging
+415ccd9811da38aed04f54051c8ae87699c4e6c2 scsi: target: iblock: Add backend plug/unplug callouts
+6888da8179fd4cfff4c6b62d5587ec2cd21e316d scsi: target: tcmu: Add backend plug/unplug callouts
+3d75948b8320ac167ec2efe5a8ebf44bdcb3cc14 scsi: target: core: Flush submission work during TMR processing
+39ae3edda325e9cf9e978c9788affe88231f3b34 scsi: target: core: Make completion affinity configurable
 
---===============7722723612781393444==--
+--===============0253133971037130600==--
