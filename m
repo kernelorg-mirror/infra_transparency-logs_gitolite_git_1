@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 04 Mar 2021 15:38:57 -0000
-Message-Id: <161487233733.27799.12058328979551827582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/luto/linux
+Date: Thu, 04 Mar 2021 15:40:11 -0000
+Message-Id: <161487241168.30787.14766013872152166870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: rpeterso
+repo: pub/scm/linux/kernel/git/luto/linux
+user: luto
 changes:
-  - ref: refs/heads/for-next
-    old: 0e787a0bfabb8be323f575d5cdda48e607840eb5
-    new: 407b64868534dea316f90c2b3e49045201126321
+  - ref: refs/heads/x86/fixes
+    old: f0ef84509f5738e802b98644cb90a49ed184954b
+    new: e050adeaa0402332a8cc259bf67957e39c870fd3
     log: |
-         407b64868534dea316f90c2b3e49045201126321 gfs2: make function gfs2_make_fs_ro() to void type
+         84193ef33d3ffa009cdbc3ea755f7946db113296 kentry: Add debugging checks for proper kentry API usage
+         3624baaac8d803b6b1237d9521d8ec89938adec4 kentry: Check that syscall entries and syscall exits match
+         e050adeaa0402332a8cc259bf67957e39c870fd3 kentry: Verify kentry state in instrumentation_begin/end()
          
