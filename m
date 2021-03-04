@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 04 Mar 2021 15:33:05 -0000
-Message-Id: <161487198578.24846.17806787039530305486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Thu, 04 Mar 2021 15:38:57 -0000
+Message-Id: <161487233733.27799.12058328979551827582@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: rpeterso
 changes:
-  - ref: refs/heads/master
-    old: 303dcc25b5c782547eb13b9f29426de843dd6f34
-    new: 6ed6e1c761f6c8391af654facbbbf1748ae9f386
+  - ref: refs/heads/for-next
+    old: 0e787a0bfabb8be323f575d5cdda48e607840eb5
+    new: 407b64868534dea316f90c2b3e49045201126321
     log: |
-         6ed6e1c761f6c8391af654facbbbf1748ae9f386 skmsg: Add function doc for skb->_sk_redir
+         407b64868534dea316f90c2b3e49045201126321 gfs2: make function gfs2_make_fs_ro() to void type
          
