@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5004815333840186486=="
+Content-Type: multipart/mixed; boundary="===============7906493727402387594=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 04 Mar 2021 18:30:11 -0000
-Message-Id: <161488261132.3332.5639671181154382642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 04 Mar 2021 18:30:17 -0000
+Message-Id: <161488261784.3506.13743742591899611498@gitolite.kernel.org>
 
---===============5004815333840186486==
+--===============7906493727402387594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/spi-5.12
     old: 216e8e80057a9f0b6366327881acf88eaf9f1fd4
     new: 6a7e4db6eb8930a26469200a8b2e5bda7ca773fb
     log: |
@@ -24,28 +24,28 @@ changes:
          6a7e4db6eb8930a26469200a8b2e5bda7ca773fb spi: ath79: remove spi-master setup and cleanup assignment
          
 
---===============5004815333840186486==
+--===============7906493727402387594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1614882544 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1614882609-a6e56f5a6bdca535dc0037e9d76d64e2a01a66ee
+pusher C3F436CA30F5D8EB 1614882550 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1614882615-94785b8429b228b52dff14a94714ebe105728fc5
 
-216e8e80057a9f0b6366327881acf88eaf9f1fd4 6a7e4db6eb8930a26469200a8b2e5bda7ca773fb refs/heads/for-5.12
+216e8e80057a9f0b6366327881acf88eaf9f1fd4 6a7e4db6eb8930a26469200a8b2e5bda7ca773fb refs/heads/spi-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBBJvAACgkQJNaLcl1U
-h9BsBwf/awHjIbHHSYZFYBMZ3W1oXLNpP6wIWQlP+2BjaDxpQEtctV1RUBNzUhs6
-SHbFRWzi8vHsvpLDQ3slaZAO6pW1zvRit5m0VQteeQ8EwMAJD2Tb40AS8FvskfMr
-PsNk4emWoMwWlW0y06O0qhTv5X1jxdtg8iHoupsTvWwmWv5P3gIlZtpTwHLtETlJ
-/zTL4y9I/E+W7X/bKl4Xri5h2XZwPu2q1povBklsj7k6CJ59MNtQru9iC6HH2cgS
-nMMFP9wpSFF6dnhyUR/HC5y/dTsTO6R469UM08/DOKSoikgjtx2Ry15MKPmx01tH
-Z0agDA0+dkrl1XJWSsCbwyMiKI6A0g==
-=FPuF
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBBJvYACgkQJNaLcl1U
+h9DjqAf/TsmWFkRs1EUj/giP3Mg56oxS6khl8MkY+n/bWRwGOBJaYlWhgl1q2Z7t
+U0dLykRVNUVcPgpPew2vMDHXtawgTkodFtWn18wd+pcm0lqZ+Z0AEIfetbC5pwaW
+PWp2ftRu692DdSsIm7S+tcSkMSvVEn54L3PpDHCCOeeDQ6dHOVEwnIJaRGn33neD
++TxWHXQFlKj7TkQthoKyMgI6zVlwkpNXjg8JpQr8Lm0YkW/1QeRhPNdRXEEok8rB
+j7fuM5tSY0mjWoPaY7O1r6uxYUZs3ZPDb70iJzFOoS/B4scc2You9H+rm/TsdaVD
+fSd5Xm2Wvj2yAhE9MhdUJyT9DFvROg==
+=JmUO
 -----END PGP SIGNATURE-----
 
---===============5004815333840186486==--
+--===============7906493727402387594==--
