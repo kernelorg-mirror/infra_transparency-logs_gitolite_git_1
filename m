@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Thu, 04 Mar 2021 03:23:58 -0000
-Message-Id: <161482823891.10412.9490286338956064713@gitolite.kernel.org>
+Date: Thu, 04 Mar 2021 03:26:53 -0000
+Message-Id: <161482841349.12592.5163943905883466422@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/gustavoars/linux
 user: gustavoars
 changes:
   - ref: refs/heads/testing/scsi/aacraid
-    old: b3519d554ac927b6d1dd3a65831b5e464a5a1347
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: eae919a32e577ba5cdbe353ce1eabebd969c04df
