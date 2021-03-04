@@ -1,26 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 04 Mar 2021 08:51:11 -0000
-Message-Id: <161484787132.12422.11129520347547299888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 04 Mar 2021 08:57:42 -0000
+Message-Id: <161484826216.15681.16139585563531917873@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/for-linus
-    old: fec60c3bc5d1713db2727cdffc638d48f9c07dc3
-    new: 06abcb18b3a021ba1a3f2020cbefb3ed04e59e72
-    log: |
-         06abcb18b3a021ba1a3f2020cbefb3ed04e59e72 ALSA: usb-audio: Apply the control quirk to Plantronics headsets
-         
-  - ref: refs/heads/master
-    old: 70f5be766be32fef8e1a3755a0daf12dc3e05760
-    new: dceddc82d41c0702ae2cfadd625a3a33505b4b2e
-    log: |
-         06abcb18b3a021ba1a3f2020cbefb3ed04e59e72 ALSA: usb-audio: Apply the control quirk to Plantronics headsets
-         dceddc82d41c0702ae2cfadd625a3a33505b4b2e Merge branch 'for-linus'
-         
+  - ref: refs/heads/sched/hotplug
+    old: 0000000000000000000000000000000000000000
+    new: 724674e5d1dae3d4de4cb3cb3ccd3674a4cb3e13
