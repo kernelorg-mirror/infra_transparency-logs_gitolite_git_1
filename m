@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0024503020702263183=="
+Content-Type: multipart/mixed; boundary="===============4181366737884291170=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 04 Mar 2021 10:48:01 -0000
-Message-Id: <161485488130.13619.15635100987560414950@gitolite.kernel.org>
+Date: Thu, 04 Mar 2021 10:48:58 -0000
+Message-Id: <161485493837.14258.10558930702932953146@gitolite.kernel.org>
 
---===============0024503020702263183==
+--===============4181366737884291170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -13,18 +13,18 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+user: tglx
 changes:
-  - ref: refs/heads/x86/vdso
-    old: cd2f45b7514cdddabbf3f81a98a20ae02f99efa1
-    new: 6bdbe1760651484b0fe6f6d0cc3a2fe8741e6f87
-    log: revlist-cd2f45b7514c-6bdbe1760651.txt
+  - ref: refs/heads/irq/core
+    old: 0b6d70e571a1c764ab079e5c31d4156feee4b06b
+    new: e749df1bbd23f4472082210650514548d8a39e9b
+    log: revlist-0b6d70e571a1-e749df1bbd23.txt
 
---===============0024503020702263183==
+--===============4181366737884291170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd2f45b7514c-6bdbe1760651.txt
+Content-Disposition: attachment; filename=revlist-0b6d70e571a1-e749df1bbd23.txt
 
 7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
 f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
@@ -1049,6 +1049,6 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
-6bdbe1760651484b0fe6f6d0cc3a2fe8741e6f87 x86/vdso: Use proper modifier for len's format specifier in extract()
+e749df1bbd23f4472082210650514548d8a39e9b genirq: Add IRQF_NO_AUTOEN for request_irq/nmi()
 
---===============0024503020702263183==--
+--===============4181366737884291170==--
