@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Thu, 04 Mar 2021 03:26:53 -0000
-Message-Id: <161482841349.12592.5163943905883466422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
+Date: Thu, 04 Mar 2021 03:31:06 -0000
+Message-Id: <161482866666.15332.5329296543248976842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/andrea/aa
+user: andrea
 changes:
-  - ref: refs/heads/testing/scsi/aacraid
+  - ref: refs/heads/main-5.10.y
     old: 0000000000000000000000000000000000000000
-    new: eae919a32e577ba5cdbe353ce1eabebd969c04df
+    new: 102342e86565e012d1b717b9ed383b5c2c3ef8d0
