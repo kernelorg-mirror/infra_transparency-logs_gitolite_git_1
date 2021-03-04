@@ -1,52 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7683847830899281356=="
+Content-Type: multipart/mixed; boundary="===============1402863807479818074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 04 Mar 2021 12:54:40 -0000
-Message-Id: <161486248096.17732.1258900020891296338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 04 Mar 2021 13:25:28 -0000
+Message-Id: <161486432807.4468.3476083333263393093@gitolite.kernel.org>
 
---===============7683847830899281356==
+--===============1402863807479818074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: f69d02e37a85645aa90d18cacfff36dba370f797
-    log: revlist-fe07bfda2fb9-f69d02e37a85.txt
+    old: 4c13d14f110e9a2d78de5513172a1b66eb4b3901
+    new: 6bb0e846c60086b55d2d7bc30cc52053a15286c9
+    log: |
+         f04f2151300acd02e26dfaeaaa6f66c1119d8072 4.4-stable patches
+         6bb0e846c60086b55d2d7bc30cc52053a15286c9 4.9-stable patches
+         
 
---===============7683847830899281356==
+--===============1402863807479818074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-f69d02e37a85.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
-61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
-6a0996db6879cf09f989c5f44f9edd38240cb346 mm/highmem: Introduce memcpy_page(), memmove_page(), and memset_page()
-ca18f6ea012bf30236b76c3480ac2c97131b6f8f mm/highmem: Add VM_BUG_ON() to mem*_page() calls
-d70cef0d46729808dc53f145372c02b145c92604 btrfs: fix raid6 qstripe kmap
-be6a13613fd35602ea9e65d6634cf7af79f0a93d btrfs: make btrfs_submit_compressed_read() subpage compatible
-04d4ba4c90759844fb4ffa735214c1c41508d2f7 btrfs: make check_compressed_csum() to be subpage compatible
-3c17916510428dbccdf657de050c34e208347089 btrfs: fix race between extent freeing/allocation when using bitmaps
-20903032cd9f0260b99aeab92e6540f0350e4a23 btrfs: avoid checking for RO block group twice during nocow writeback
-195a49eaf655eb914896c92cecd96bc863c9feb3 btrfs: fix race between writes to swap files and scrub
-dd0734f2a866f9d619d4abf97c3d71bcdee40ea9 btrfs: fix race between swap file activation and snapshot creation
-1119a72e223f3073a604f8fccb3a470ccd8a4416 btrfs: tree-checker: do not error out if extent ref hash doesn't match
-3660d0bcdb82807d434da9d2e57d88b37331182d btrfs: fix stale data exposure after cloning a hole with NO_HOLES enabled
-95c85fba1f64c3249c67f0078a29f8a125078189 btrfs: avoid double put of block group when emptying cluster
-6e37d245994189ba757df7dc2950a44d31421ac6 btrfs: zoned: fix deadlock on log sync
-3590ec58991bcf0f3512c4353a786079a6619758 btrfs: use memcpy_[to|from]_page() and kmap_local_page()
-80cc83842394e5ad3e93487359106aab3420bcb7 btrfs: use copy_highpage() instead of 2 kmaps()
-c608aca57dd034d09f307b109b670d1cfb829279 Merge tag 'for-5.12-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-7a7fd0de4a9804299793e564a555a49c1fc924cb Merge branch 'kmap-conversion-for-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-f5f4fc4649ae542b1a25670b17aaf3cbb6187acc ia64: don't call handle_signal() unless there's actually a signal queued
-caf6912f3f4af7232340d500a4a2008f81b93f14 swap: fix swapfile read/write offset
-f69d02e37a85645aa90d18cacfff36dba370f797 Merge tag 'misc-5.12-2021-03-02' of git://git.kernel.dk/linux-block
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614864324 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1614864322-169d65899cc76965c77aefd50eb77dc0db0dd52b
 
---===============7683847830899281356==--
+4c13d14f110e9a2d78de5513172a1b66eb4b3901 6bb0e846c60086b55d2d7bc30cc52053a15286c9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBA38QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1zIP/AiYseBZHHjssAB6pUzQ
+JCUlBOtp8/sICQ8UmGm9xw/qi5GKJ6thI0pvHmYMgvAwncnHs6ISKurfeV9Zs71u
+0N2NBegy7MW44zd74Nokoj+0DODEykbZshX/sf/ROpm6QKSs8L5YOkBd5Fbzlqo7
+/rM7hJvcJKgbu6NdUQvbqGwJ8XSSQONYXar4AOQrAtmvzVPr3ETB55iMBwYxHxqf
+c0d9Xq8P9NFC+uYhys5Jfolk1Z+5cJw0KTW7gHWgtI+2Q89+i7GWVqUAs3WMN50u
+6m8qpEaTco+RtzUWSmH7AnWWHWlWGW1IIiKGvb5wbKtFxa5r6GUn88aXdT7AGOyW
+J45QIXwLxQFFb1GeINKODoy3j+qIQ94PabwRl8EfOGuteJdhoiYaMAXpqtHQUVcl
+NognxqgOqicl+B4CamwPcuG8OD9QSMvXNoCR+m2ZTXAkCYpagoKSncFPPo+z7Krt
+pTJPFDjnqsioyZCfJbnF/ZvxoNHmE8Ds8ByHu44ntRoAH7zhlihjNPB0SnDDxN1c
+x2JbhSuNt3vzv4tATBUN0Qgcnk4ByFZb5qF2lZK85ArwFyxPZf5rG26+9eVBbwaD
+zT0wmItjLX9nyse3vEbR7wXYngdfZTta0Qb5oyozIFNiQvpoZ5JJCY0gGW9EOQLe
+7e1o2dCY8kbwSR2TGbgzRo9E
+=gTQZ
+-----END PGP SIGNATURE-----
+
+--===============1402863807479818074==--
