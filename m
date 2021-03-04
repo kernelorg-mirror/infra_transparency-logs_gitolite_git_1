@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Thu, 04 Mar 2021 10:59:05 -0000
-Message-Id: <161485554503.20045.12776928671346357082@gitolite.kernel.org>
+Date: Thu, 04 Mar 2021 10:59:21 -0000
+Message-Id: <161485556124.20212.970913478033337819@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/linux-next
-    old: 53f131c284e83c29c227c0938926a82b2ed4d7ba
-    new: 882213990d32fd224340a4533f6318dd152be4b2
-    log: |
-         8310b77b48c5558c140e7a57a702e7819e62f04e Xen/gnttab: handle p2m update errors on a per-slot basis
-         2991397d23ec597405b116d96de3813420bdcbc3 xen-netback: respect gnttab_map_refs()'s return value
-         882213990d32fd224340a4533f6318dd152be4b2 xen: fix p2m size in dom0 for disabled memory hotplug case
-         
+  - ref: refs/tags/for-linus-5.12b-rc2-tag
+    old: 0000000000000000000000000000000000000000
+    new: 2a6cda8d9adebf3c44e9fbd1e2ec56e33a5d81d7
