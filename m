@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4690366479704144493=="
+Content-Type: multipart/mixed; boundary="===============4278066661108564816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 04 Mar 2021 14:57:52 -0000
-Message-Id: <161486987270.1431.10360771331091178498@gitolite.kernel.org>
+Date: Thu, 04 Mar 2021 14:57:59 -0000
+Message-Id: <161486987959.1614.942085723332579764@gitolite.kernel.org>
 
---===============4690366479704144493==
+--===============4278066661108564816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,48 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc-base
-    old: d2aacd36a8e00bc1813841b482e3933acb1ea0b5
-    new: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    log: revlist-d2aacd36a8e0-fe07bfda2fb9.txt
+  - ref: refs/heads/misc
+    old: f749d8b7a9896bc6e5ffe104cc64345037e0b152
+    new: 100d21c4ff2993f93b8ffa805a69024dd3347e04
+    log: revlist-f749d8b7a989-100d21c4ff29.txt
 
---===============4690366479704144493==
+--===============4278066661108564816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2aacd36a8e0-fe07bfda2fb9.txt
+Content-Disposition: attachment; filename=revlist-f749d8b7a989-100d21c4ff29.txt
 
-9abcfcb20320e8f693e89d86573b58e6289931cb nios2: fixed broken sys_clone syscall
-7f7bc20bc41a4fbcd2db75b375ac95e5faf958ae nios2: Don't use _end for calculating min_low_pfn
-f105aa940e78a87b6b6c82d7c230db86386ff013 riscv: add BUILTIN_DTB support for MMU-enabled targets
-fade5cad9339a627c5ad029e3577582b6292df03 initrd: Add the preprocessor guard in initrd.h
-c72160fe05fb978ad859ba053c4462c2bb960b13 initramfs: Provide a common initrd reserve function
-aec33b54af55ef025e03e3dfbab3b8abe00eaa22 riscv: Covert to reserve_initrd_mem()
-e178d670f251b6947d6be99c0014e9a57ad4f0e0 riscv/kasan: add KASAN_VMALLOC support
-5da9cbd2b200369fd190c81bc1253e9a17ab3e8d arch/riscv:fix typo in a comment in arch/riscv/kernel/image-vars.h
-d4c34d09ab03e1e631fe195ddf35365a1273be9c pinctrl: Add RISC-V Canaan Kendryte K210 FPIOA driver
-5dd671333171d1ba44c16e1404f72788412e36f4 RISC-V: probes: Treat the instruction stream as host-endian
-3449831d92fea50b470d5b22435cfeaf15a6dd54 RISC-V: remove unneeded semicolon
-4cd48bb3b07730214d4e56abd6030c5159eb2572 arch_numa: fix common code printing of phys_addr_t
-65d4b9c5301749d18b5ec1323fdefecefab72687 RISC-V: Implement ASID allocator
-bd6d617aac21502f3042bd472238fbe3f9b77083 of: property: fw_devlink: Ignore interrupts property for some configs
-3e4c982f1ce75faf5314477b8da296d2d00919df Revert "driver core: Set fw_devlink=on by default"
-c060c72ffeb448fbb5864faa1f672ebfe14dd25f KVM: x86/mmu: Expand collapsible SPTE zap for TDP MMU to ZONE_DEVICE and HugeTLB pages
-1b6d9d9ed5717157933db77d96bb12884c17ce52 KVM: x86/mmu: Split out max mapping level calculation to helper
-0a234f5dd06582e82edec7cf17a0f971c5a4142e KVM: x86/mmu: Pass the memslot to the rmap callbacks
-9eba50f8d7fcb61774f160890f98239fa3ab68a6 KVM: x86/mmu: Consult max mapping level when zapping collapsible SPTEs
-c3bb9a20834ffe72d3031afe460ff03d3b3b6e90 KVM: nVMX: Disable PML in hardware when running L2
-2855f98265dc579bd2becb79ce0156d08e0df813 KVM: x86/mmu: Expand on the comment in kvm_vcpu_ad_need_write_protect()
-6dd03800b1afe4d3b6f26b0d20f2e1ecebf32b29 KVM: x86/mmu: Make dirty log size hook (PML) a value, not a function
-a018eba53870aa30e5e57465771cb209680f20c2 KVM: x86: Move MMU's PML logic to common code
-52f4607940b18337f01d160aaae346eaac388bf7 KVM: x86: Further clarify the logic and comments for toggling log dirty
-a85863c2ec55edcfd11853014b143fc02b8840a9 KVM: VMX: Dynamically enable/disable PML based on memslot dirty logging
-b6e16ae5d99fa39f0cb3d3f4558c2cbf44af38f8 KVM: x86/mmu: Don't set dirty bits when disabling dirty logging w/ PML
-a1419f8b5bab477d96a71d1c37da0784fb18dc51 KVM: x86: Fold "write-protect large" use case into generic write-protect
-96ad91ae4eaff3697b1124b30d28d73de3557a3d KVM: x86/mmu: Remove a variety of unnecessary exports
-af0bfab907a011e146304d20d81dddce4e4d62d0 leds: led-core: Get rid of enum led_brightness
-b113a7f1981062442b5a5318b6cf6b7ad4097b45 dt-bindings: leds: Add bindings for Intel LGM SoC
-c3987cd2bca34ddfec69027acedb2fae5ffcf7a0 leds: lgm: Add LED controller driver for LGM SoC
 8e5c38a33c84935d66cfcf23c96960b6c4b484ef leds: flash: Add flash registration with undefined CONFIG_LEDS_CLASS_FLASH
 6039b7e87be0b350a5f8fc135adfb5d1f4ba66ad leds: flash: Fix multicolor no-ops registration by return 0
 c27f3d011b08540e68233cf56274fdc34bebb9b5 ACPICA: Fix race in generic_serial_bus (I2C) and GPIO op_region parameter handling
@@ -366,17 +335,6 @@ c12ead71e86f47f4715f61e6dee7b7120532bedb cifs: Fix cifsacl ACE mask for group an
 f5065508897a922327f32223082325d10b069ebc cifs: Retain old ACEs when converting between mode bits and ACL.
 bc3e9dd9d104ca1b75644eab87b38ce8a924aef4 cifs: Change SIDs in ACEs while transferring file ownership.
 23bda5e6511083ec1d76377e8075388e02639147 cifs: cleanup a few le16 vs. le32 uses in cifsacl.c
-1c73e0c5e54d5f7d77f422a10b03ebe61eaed5ad scsi: target: core: Add cmd length set before cmd complete
-14d24e2cc77411301e906a8cf41884739de192de scsi: target: core: Prevent underflow for service actions
-1f9f22acbb5dc4a787852f4ef04eb99edf42bce0 scsi: aic79xx: Fix spelling of version
-9599a1cf23330008d90b7c232efe95de7510ff29 scsi: ufs: Fix a duplicate dev quirk number
-eefb816acb0162e94a85a857f3a55148f671d5a5 scsi: bnx2fc: Fix Kconfig warning & CNIC build errors
-c2f23a96c6e25a3b8aa2e873519b513745bba27c scsi: aic7xxx: Remove unused function pointer typedef ahc_bus_suspend/resume_t
-9acced3f58ad24407c1f9ebf53a8892c1e24cdb5 scsi: sd: sd_zbc: Don't pass GFP_NOIO to kvcalloc
-43bf922cdd62d430e4ca3a20e6940c4a6fc2bc99 scsi: target: tcmu: Move some functions without code change
-8f33bb2400f48a6a319176866af6e7aac9e5211e scsi: target: tcmu: Fix memory leak caused by wrong uio usage
-aaf15f8c6de932861f1fce6aeec6a89ac0e354b6 scsi: sd: Fix Opal support
-f749d8b7a9896bc6e5ffe104cc64345037e0b152 scsi: hpsa: Correct dev cmds outstanding for retried cmds
 415e915fdfc775ad0c6675fde1008f6f43dd6251 Merge tag 'v5.11' into next
 311a27da6271394afdca5773f4272eb6f48fae2d dt-bindings: input: cros-ec-keyb: Add a new property describing top row
 820c8727956da82b7a841c299fabb2fdca9a37d4 Input: cros-ec-keyb - expose function row physical map to userspace
@@ -1050,5 +1008,47 @@ cd278456d4ca0e6b3d5e10ace4566524baa144eb Merge tag 'csky-for-linus-5.12-rc1' of 
 06d5d309a3f17e32cd59926f391db1e1ea652184 Merge tag 'kbuild-fixes-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 d346da4a4a4485e3e728569a48bec6bfbf9e53d5 Merge tag 'ide-5.11-2021-02-28' of git://git.kernel.dk/linux-block
 fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 Linux 5.12-rc1
+26b01633fac865efd0b142dab19dcadf9812041e scsi: ufs: Add exception event tracepoint
+8fd31fc2b84f280978d23eed877d67b118a0d609 scsi: ufs: Add exception event definitions
+e1c8b528dd23b2065e6740bc573d9dda90830af5 scsi: ufs: ufs-debugfs: Add user-defined exception_event_mask
+c3f04083d65387f224ea9b0b5904d68b2ff7a855 scsi: ufs: ufs-debugfs: Add user-defined exception event rate limiting
+46d2a58134543da2fe7704848265bc29e11723eb scsi: sbitmap: Remove sbitmap_clear_bit_unlock
+ed9eb92974bc7caa940b2b88975237ae3efd6315 scsi: sbitmap: Maintain allocation round_robin in sbitmap
+a523156a93033172241f52f8b1848799b87b750c scsi: sbitmap: Add helpers for updating allocation hint
+30d4ee6f3a9d15abc0b5a22244ba34203098bc03 scsi: sbitmap: Move allocation hint into sbitmap
+d9ba7618bec379ee8708a2e51ea52f935ebdb1f5 scsi: sbitmap: Export sbitmap_weight
+5d747419d20e98232479b68815f7d0cec36e8604 scsi: sbitmap: Add sbitmap_calculate_shift() helper
+9dda23635dbe693061cc67f60f7dee21d9f23693 scsi: blk-mq: Add callbacks for storing & retrieving budget token
+cd4ef15a289a76613ba804bb774200cd74e0e98c scsi: blk-mq: Return budget token from .get_budget callback
+a8474e7b28a00d2489fd698beb9ee6804d3a43ff scsi: core: Put hot fields of scsi_host_template in one cacheline
+d7afc2ed1447c8a649a3ff73088d2b076c2b849b scsi: megaraid_sas: Replace sdev_busy with local counter
+c300d118233169e6432ed77927d9f9d905b3b66e scsi: core: Add scsi_device_busy() wrapper
+b0a4b45dc841ec1cf67eb36c32db825cfc293ba3 scsi: core: Make sure sdev->queue_depth is <= max(shost->can_queue, 1024)
+62b38e49fcf7b7f928b2294320287ab90d06a0eb scsi: core: Replace sdev->device_busy with sbitmap
+eccc70ccfb15a42ab873c693c19e62da6ba159a6 scsi: target: core: Move t_task_cdb initialization
+14e025be793e75c4902b3f5f8cd54543ab9adc76 scsi: target: core: Drop kref_get_unless_zero() in target_get_sess_cmd()
+ed58729a69f4d825371f1c8622cdae9acd0bdd7e scsi: target: core: Rename transport_init_se_cmd()
+4a3f993e79db1e550984cc785a09252412a93845 scsi: target: core: Break up target_submit_cmd_map_sgls()
+834e8c13acc9791521b11585fd108aedccc2c96a scsi: target: srpt: Convert to new submission API
+3b168220e47979115f6b45ef68ba4975b35e7ea3 scsi: target: ibmvscsi_tgt: Convert to new submission API
+9e54e530349ae75243abacd14def203fb3d8f342 scsi: target: qla2xxx: Convert to new submission API
+5f3e979db0efcf9d9f8e701b301f78e33bda8b8c scsi: target: tcm_loop: Convert to new submission API
+207c30be067c03137f6005d7de8268084ce5b938 scsi: target: sbp_target: Convert to new submission API
+1edc02440bdef5d87c37694a9bae6f232f59757a scsi: target: usb: gadget: Convert to new submission API
+e4edee8ac14a7a972b159feb771b53e580e775ea scsi: target: vhost-scsi: Convert to new submission API
+4d1d39e3a2e7db381f0825f43aa3309eb67e0218 scsi: target: xen-scsiback: Convert to new submission API
+bde30acd9bd618e09bf70ef6f71c3137de397b2d scsi: target: tcm_fc: Convert to new submission API
+4d3a1c5293734b7bef40b19e9b41c9258323796e scsi: target: core: Remove target_submit_cmd_map_sgls()
+22be5fc090a194e9c7c18b12be4d1d2542871440 scsi: target: core: Add gfp_t arg to target_cmd_init_cdb()
+1a8ce8031c2c4d67387b6a0ddfc312aa8ed1a81f scsi: target: core: Add workqueue based cmd submission
+f4e69b337bd555bca4c9384a33df8613d4a0f71e scsi: target: vhost-scsi: Use LIO wq cmd submission helper
+93239a54b60d14f2630c41b000163fdb9a0c6790 scsi: target: tcm_loop: Use block cmd allocator for se_cmds
+3f335d8914bb0a07abdfc9857c6baf24d9762a87 scsi: target: tcm_loop: Use LIO wq cmd submission helper
+74493992906fe5a62f03c7fdb80fdbc041ef42b8 scsi: target: core: Cleanup cmd flag bits
+1518827a9c95abb7dcb229a4b34e843a84ccf909 scsi: target: core: Fix backend plugging
+18a45511925bdbb552a847dfa8b7a24e964da73d scsi: target: iblock: Add backend plug/unplug callouts
+dfe49a322758cbf58f0309b31098579a02937184 scsi: target: tcmu: Add backend plug/unplug callouts
+b0ab4acf2df850da83d0e221e9ea05a8825cd3f7 scsi: target: core: Flush submission work during TMR processing
+100d21c4ff2993f93b8ffa805a69024dd3347e04 scsi: target: core: Make completion affinity configurable
 
---===============4690366479704144493==--
+--===============4278066661108564816==--
