@@ -1,56 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============8137460346344418629=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 04 Mar 2021 13:35:07 -0000
-Message-Id: <161486490741.10050.4634984279663282689@gitolite.kernel.org>
-
---===============8137460346344418629==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 04 Mar 2021 13:36:23 -0000
+Message-Id: <161486498342.10528.159378685845850900@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 6bb0e846c60086b55d2d7bc30cc52053a15286c9
-    new: 907975b09f139bd6388de5e756bfa682a9694d69
+  - ref: refs/heads/queue/4.4
+    old: 16b736432390b9228cd6dce772c5794b25ff01e5
+    new: 5c6b0393693848d85ef540c211804e2a56276a30
     log: |
-         907975b09f139bd6388de5e756bfa682a9694d69 4.4-stable patches
+         9a208c65e8d5ca4c22b9a79608340426fe3a87e4 futex: Ensure the correct return value from futex_lock_pi()
+         861db06add9bd01e1cdc8491c9656c7e0335c7a3 net: usb: qmi_wwan: support ZTE P685M modem
+         bf1fe3812034c8490e43bec8928212644c390f01 iwlwifi: pcie: fix to correct null check
+         3a1c9a88103134cc85356454eae75574080b1b8b mmc: sdhci-esdhc-imx: fix kernel panic when remove module
+         efe9552a56f2591c032be123a98454741ecd9f69 scripts: use pkg-config to locate libcrypto
+         5c6b0393693848d85ef540c211804e2a56276a30 scripts: set proper OpenSSL include dir also for sign-file
          
-
---===============8137460346344418629==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614864906 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1614864904-7b9bfda94c5ce4f133703e038d646f5299972a60
-
-6bb0e846c60086b55d2d7bc30cc52053a15286c9 907975b09f139bd6388de5e756bfa682a9694d69 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBA4gobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jUYP/3s9Y+ko2ubrbIOUt4FV
-RRxGsmJLlQsp4e/2LtwNk1YTnc4uDKoMieRM38d+r/KEkKHqEspky/qNsrQeU9YI
-cXJV7OJsUbbM3AVZVyh3M4JC8Ot3slVy92Be99g3D26js7o7AZ69dF/VpGET4mr1
-QzVUHySYj3VhLH2AlEGir51jKcIOnMpUf399BuPIHEyraAOtU6i8Bz+biUENNzoU
-fGlwSKQDrSYK7LluTUcxkt5ZLr3yH2bk1nahFvGiUWmWdnJBeSDhnF1fd4JR3DdL
-GZ0BgP4/EkEjRPOblXXzoBFGGf3NSgdZtdmCll/w7Kgu7/NFQMSOHTir8vDraxbo
-8ymtvVSk5iPeCkryCW/B/fmf7gNVBqK/tiALzic5gDGMelAtfJ8pEx/mlA3zLFsF
-4yQP53APBBoak5LtUI77zm4lbyHmvWqG9DVYjKROHsNBRt238/2tdSGI+y8K/dYq
-ePyxvp/sfo+q5utOMO8IKAMHGWTB9glFmqoyg8JrSohHlRgWA/GQrl7OXtUHLwKu
-SbinsznQdHQzCP3B/UvSKMjboxM5t7FwgIUUsMoE+ER/rKM42IP9W3Ko3w+hRLWH
-juWZHdqOBq2MAsh5379rA6xyZlVb7IUStb+L5GW6xPo+kW/ushKNyg26QjTtHcn5
-oGkrBRCqMklX/l1hMDYpgFZ7
-=SqgD
------END PGP SIGNATURE-----
-
---===============8137460346344418629==--
+  - ref: refs/heads/queue/4.9
+    old: 4e0caeaebdf93946b7adf5d9b244ca4429b8bb22
+    new: e115c80aa2fd6c7672923ea7541707386894935f
+    log: |
+         6482ab5d5b0f370ac45b6db9b6cdb1207ed8844f futex: Cleanup variable names for futex_top_waiter()
+         488e042efd40ded2644d86ecad943eadc85e1a82 futex: Cleanup refcounting
+         e60a38562643e84b9b802a9b536594874c4ae81a futex: Pull rt_mutex_futex_unlock() out from under hb->lock
+         95c251a35465c37a7b9f42ea200e58a5bd064adb futex: Futex_unlock_pi() determinism
+         f7f2da9bf3a7d4c02cae24e0c3b2de0410e83c5e futex: Fix pi_state->owner serialization
+         77471798e62b4b863d3ceedd161f143784e4c0aa futex: Fix more put_pi_state() vs. exit_pi_state_list() races
+         e115c80aa2fd6c7672923ea7541707386894935f futex: Don't enable IRQs unconditionally in put_pi_state()
+         
