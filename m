@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Thu, 04 Mar 2021 17:42:16 -0000
-Message-Id: <161487973699.6531.519034919452169176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 04 Mar 2021 17:45:28 -0000
+Message-Id: <161487992866.8905.3936916334638823627@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/i3c/next
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: 437f5e2af73081ec08ec5d73d82c650377a4bb17
-    log: |
-         437f5e2af73081ec08ec5d73d82c650377a4bb17 i3c: master: svc: remove redundant assignment to cmd->read_len
-         
+  - ref: refs/heads/ext4-pending
+    old: 0000000000000000000000000000000000000000
+    new: e66e7bdf881ead638ae8c33faf595bdbea540373
