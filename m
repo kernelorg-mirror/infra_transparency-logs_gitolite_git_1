@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3426266149611876901=="
+Content-Type: multipart/mixed; boundary="===============4571614222630875554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 04 Mar 2021 07:44:04 -0000
-Message-Id: <161484384478.8472.14318744310697406560@gitolite.kernel.org>
+Date: Thu, 04 Mar 2021 07:44:08 -0000
+Message-Id: <161484384852.8547.3671873955691972649@gitolite.kernel.org>
 
---===============3426266149611876901==
+--===============4571614222630875554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,68 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: f69d02e37a85645aa90d18cacfff36dba370f797
-    log: revlist-fe07bfda2fb9-f69d02e37a85.txt
+  - ref: refs/tags/v5.12-rc1-dontuse
+    old: 0000000000000000000000000000000000000000
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
 
---===============3426266149611876901==
+--===============4571614222630875554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614843843 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1614843847 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1614843842-6e6300e6c830b0c1e0b94a6b4cc857d19ddda5cb
+nonce 1614843846-b83fbd7faf9fc5f344d88dd02f89a4770416ff38
 
-fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 f69d02e37a85645aa90d18cacfff36dba370f797 refs/heads/master
+0000000000000000000000000000000000000000 d1da37c58e65c4800cce768533c563fa3c89c62f refs/tags/v5.12-rc1-dontuse
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBAj8MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5PMQAKiuzXD2SSMYroLwsRzi
-x5jeNjMdhdlBj5fQkDv+XuW3ds8cgX2EvsQRD9MVoQF5Jt+cZjOX4kYgoDZhbvxY
-zuk4nMAT/mE2jWeyueiXcrTp5svmPCON4nhYuOAQjmfjSJHPLXU2969bBNyCVOc8
-BhKtBt3CSDGJfNnc8cVfuSbMhrUThKUaFTRDfRi+8ystvGJEJKI5hDzqjGzbFga1
-7uO1nrGzAE9Ffnu4jAnvx+46vhP0+Wds+Ap2zwTSab7auBY03p2VLdpGTkSVrbbV
-2pESVXrcUGme+6pr5p3k0JqpGvp0KGv9NZS2WHQwVcZeGQDNs8WV4ql6bpRmsm6H
-e519ll+q3tF4WhyfjxGOs3qYEpSfXkaLsr5v306tglDN4qgDoDD0vFw5ymqdT6CN
-hJI1IqVJw04wra/ss+N1f+cVrUlHt1rve3IZSrGgBqwks0V3WNQAczlxBx4iSdDe
-U4UD4V5/usEgi+QtjFUgueNbfjTkT39GTBiRnwbNhXwk1qo+iooxzhi7Sq146BRT
-NCaWfwE6eQ87GwDrwuGZgPyPBs3jpPl8bzexcyHFDYWXavnba8ymaWIDZNk/MVJJ
-o3H4/xqHyXxc9ar4IuS0WwcdxxkCaxxzIZLjwGSwSuo4/AhupriYeTlmtTUaOJwo
-mcTj7NM/4XC7aRdbnXsl+jLu
-=1kzs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBAj8cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Uc4QANO7UI7a9M0nzILi56Jl
+P36pi9BwB/bQDoekdKW1vJ6xo5yKspqniakzv8SJsSR/d7Yda/TRhaHNbMfvV3Ld
+XnZ512rHlblwF5Y7Ror6adIpLOpQ1URvFcQvA+4O2IhSZCqmNkEjGsHSjZpE+W6J
+FbcPhJGpG3VIWu+OhDy5em0e9aEE6wQRA+ag5b7Z7Ye7a7x8SFFMvvwK3s5QHN/k
+F/0ali90POxsHx0GJ2MTpTucFVmbTfbmZVK8y4L2BWwO+8RTlrTysGKapXCtHtDM
+wgVoSedHYNzXsjnuorvJgd/iAHEHeMPdJlTuQ51hD3t7Bug+POU/IS8p4dDT/XES
+GLNYShQWsoXuYgn8mDmBbVlEILr9lAfXzdYYYAkPO1DCHbmVTPalnyLwP3vfmePS
+HL87RUfzJW1Q2iMr1335XFLxSz3IQV6RcJOD5ExH2aSfkVwI53HNGMaJs6X6C6GE
+JgTI75U3stoyX0oCHAyRX5AKi9sHLHgRiHkvG6DIZGWslomms3DUfQA/G1eT7RLh
+OqLcsvDtPzD49OdrxqNNQZ65kN3plR+whdEvNBI+V16AoN882LUwpX3kmin8XHP5
+V4rHXZAEkb7rHp4egxmg1xEHpAoEHbbKwAN95DrubXOk5ckPZdnYMexIdO6ZeG9K
+eMCK02ynAr0M6BMea8E08p5e
+=ACPi
 -----END PGP SIGNATURE-----
 
---===============3426266149611876901==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-f69d02e37a85.txt
-
-bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
-61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
-6a0996db6879cf09f989c5f44f9edd38240cb346 mm/highmem: Introduce memcpy_page(), memmove_page(), and memset_page()
-ca18f6ea012bf30236b76c3480ac2c97131b6f8f mm/highmem: Add VM_BUG_ON() to mem*_page() calls
-d70cef0d46729808dc53f145372c02b145c92604 btrfs: fix raid6 qstripe kmap
-be6a13613fd35602ea9e65d6634cf7af79f0a93d btrfs: make btrfs_submit_compressed_read() subpage compatible
-04d4ba4c90759844fb4ffa735214c1c41508d2f7 btrfs: make check_compressed_csum() to be subpage compatible
-3c17916510428dbccdf657de050c34e208347089 btrfs: fix race between extent freeing/allocation when using bitmaps
-20903032cd9f0260b99aeab92e6540f0350e4a23 btrfs: avoid checking for RO block group twice during nocow writeback
-195a49eaf655eb914896c92cecd96bc863c9feb3 btrfs: fix race between writes to swap files and scrub
-dd0734f2a866f9d619d4abf97c3d71bcdee40ea9 btrfs: fix race between swap file activation and snapshot creation
-1119a72e223f3073a604f8fccb3a470ccd8a4416 btrfs: tree-checker: do not error out if extent ref hash doesn't match
-3660d0bcdb82807d434da9d2e57d88b37331182d btrfs: fix stale data exposure after cloning a hole with NO_HOLES enabled
-95c85fba1f64c3249c67f0078a29f8a125078189 btrfs: avoid double put of block group when emptying cluster
-6e37d245994189ba757df7dc2950a44d31421ac6 btrfs: zoned: fix deadlock on log sync
-3590ec58991bcf0f3512c4353a786079a6619758 btrfs: use memcpy_[to|from]_page() and kmap_local_page()
-80cc83842394e5ad3e93487359106aab3420bcb7 btrfs: use copy_highpage() instead of 2 kmaps()
-c608aca57dd034d09f307b109b670d1cfb829279 Merge tag 'for-5.12-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-7a7fd0de4a9804299793e564a555a49c1fc924cb Merge branch 'kmap-conversion-for-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-f5f4fc4649ae542b1a25670b17aaf3cbb6187acc ia64: don't call handle_signal() unless there's actually a signal queued
-caf6912f3f4af7232340d500a4a2008f81b93f14 swap: fix swapfile read/write offset
-f69d02e37a85645aa90d18cacfff36dba370f797 Merge tag 'misc-5.12-2021-03-02' of git://git.kernel.dk/linux-block
-
---===============3426266149611876901==--
+--===============4571614222630875554==--
