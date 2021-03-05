@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9200878051723285355=="
+Content-Type: multipart/mixed; boundary="===============5197000265830643590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 05 Mar 2021 14:05:54 -0000
-Message-Id: <161495315455.20842.7621789815868456157@gitolite.kernel.org>
+Date: Fri, 05 Mar 2021 14:06:17 -0000
+Message-Id: <161495317798.21068.6550556350544124073@gitolite.kernel.org>
 
---===============9200878051723285355==
+--===============5197000265830643590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/for-5.12-rc1
-    old: 6e37d245994189ba757df7dc2950a44d31421ac6
-    new: badae9c86979c459bd7d895d6d7ddc7a01131ff7
-    log: revlist-6e37d2459941-badae9c86979.txt
+  - ref: refs/tags/for-5.12-rc1-tag
+    old: 411101928cdc09676f4b153e201d834289fd44cb
+    new: d92fc0ace1833187f759e49c1b21c9d3bae99462
+    log: revlist-411101928cdc-d92fc0ace183.txt
 
---===============9200878051723285355==
+--===============5197000265830643590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e37d2459941-badae9c86979.txt
+Content-Disposition: attachment; filename=revlist-411101928cdc-d92fc0ace183.txt
 
 aedb9d9089ceb1c86be495bcc70e6021c01f92ff btrfs: ref-verify: use 'inline void' keyword ordering
 4f6a49de64fd1b1dba5229c02047376da7cf24fd btrfs: unlock extents in btrfs_zero_range in case of quota reservation errors
@@ -38,4 +38,4 @@ c28ea613fafad910d08f67efe76ae552b1434e44 btrfs: subpage: fix the false data csum
 d734492a14a2da6e7bcce8cf66436a9cf4e51ddf btrfs: zoned: use sector_t for zone sectors
 badae9c86979c459bd7d895d6d7ddc7a01131ff7 btrfs: zoned: do not account freed region of read-only block group as zone_unusable
 
---===============9200878051723285355==--
+--===============5197000265830643590==--
