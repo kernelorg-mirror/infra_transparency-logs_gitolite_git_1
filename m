@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Fri, 05 Mar 2021 00:53:12 -0000
-Message-Id: <161490559274.13472.5158786652512157797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Fri, 05 Mar 2021 01:12:14 -0000
+Message-Id: <161490673492.29390.700426785409005996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: 78660e52bc27bfd02d8519b49f1cfcf428c768a1
-    new: f9f344479d8b40b3b001c913fb992d85d19261d0
+  - ref: refs/heads/xfs/shrink_lastag
+    old: dd2149fbe83e838e4819b90b2233dad20a876f5c
+    new: 2e5c68d16b7cf61c3cf9120f2203b0e55c63d15e
     log: |
-         70d443d8463339869f371e77fa594b850f374565 tracing: Remove duplicate declaration from trace.h
-         69268094a1c16f3f44b369f9da78ce98bab5f244 tracing: Fix help text of TRACEPOINT_BENCHMARK in Kconfig
-         6f6be606e763f2da9fc21de00538c97fe4ca1492 ring-buffer: Force before_stamp and write_stamp to be different on discard
-         6549de1fe34162d7ace8b870ae11ca6cae5b8609 ring-buffer: Add a little more information and a WARN when time stamp going backwards is detected
-         f40fc799afc598b3d130d5a0ada994c9d4fb6cf8 tracing: Fix memory leak in __create_synth_event()
-         ee666a185558ac9a929e53b902a568442ed62416 tracing: Skip selftests if tracing is disabled
-         f9f344479d8b40b3b001c913fb992d85d19261d0 tracing: Fix comment about the trace_event_call flags
+         6ae7dcb2ffb8720f648ef0c7586f1d68900ed73a xfs: update lazy sb counters immediately for resizefs
+         3dab47d864971fda45a096a0677136e94a518b41 xfs: hoist out xfs_resizefs_init_new_ags()
+         6af7faae75072e2414bf27384f4398fb616c8702 xfs: introduce xfs_ag_shrink_space()
+         474f7d1b7686f580ad321522b98d27f858de37ea xfs: support shrinking unused space in the last AG
+         2e5c68d16b7cf61c3cf9120f2203b0e55c63d15e xfs: add error injection for per-AG resv failure
          
