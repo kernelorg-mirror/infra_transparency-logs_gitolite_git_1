@@ -1,50 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1289276908771379446=="
+Content-Type: multipart/mixed; boundary="===============0612702738026771904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Fri, 05 Mar 2021 09:58:00 -0000
-Message-Id: <161493828023.27270.3989016517840078213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Fri, 05 Mar 2021 10:09:33 -0000
+Message-Id: <161493897388.1049.16633781714674082797@gitolite.kernel.org>
 
---===============1289276908771379446==
+--===============0612702738026771904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/next
-    old: 1c761ee9da1ac6ba7e40d14457fac94c87eaff35
-    new: afd61855ef5d81d9f535da25bc78768c0fabc842
-    log: revlist-1c761ee9da1a-afd61855ef5d.txt
+  - ref: refs/heads/softirq
+    old: 7bfdc01b78093fd3cd1253a0f6f2e44c36884a43
+    new: 7f692e68932b191ec564bd6306a7c0d7150b9bd0
+    log: revlist-7bfdc01b7809-7f692e68932b.txt
 
---===============1289276908771379446==
+--===============0612702738026771904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c761ee9da1a-afd61855ef5d.txt
+Content-Disposition: attachment; filename=revlist-7bfdc01b7809-7f692e68932b.txt
 
-56bf6fc266ca14d2b9276c8a62e4ff6783bfe68b Merge tag 'arm-defconfig-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-82851fce6107d5a3e66d95aee2ae68860a732703 Merge tag 'arm-dt-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-e767b3530acbf651593e3d357fe1168a024d8061 Merge tag 'arm-drivers-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-8518496639123ebcceb1be173c4f00edf178bfbd Merge tag 'edac_updates_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-3e89c7ea7a828fec5694101e0f0ff7240e634470 Merge tag 'ras_updates_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-70cd33d34c6026cbc2efb172f8063fccb2ebeb9a Merge tag 'efi-next-for-v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4bf0b820d146682d997248ff1d49665475f9df16 Merge tag 'x86_sgx_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b9cdab6820ae740dad1e87e609d78dbea7a297f2 Merge tag 'x86_seves_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4f7a4028d8b48d1dc6b51b0737087f5e3c16c336 Merge tag 'x86_platform_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-1255f44017c02d14e3ad5b63cdf619a734d765a1 Merge tag 'x86_paravirt_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ae821d2107e378bb086a02afcce82d0f43c29a6f Merge tag 'x86_mm_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-317d4f459393e27b3efedf571bd9e78a23fcd2ed Merge tag 'x86_misc_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d00c4ed02e90c1a4290acdd4f9bc4d056a573859 Merge tag 'x86_microcode_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8831d718aa5a9540aaeb527a582af5fc140aed6e Merge tag 'x86_fpu_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-0570b69305276a349ef7a17c8c54dfeed76f3954 Merge tag 'x86_cpu_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b0fb29382d822a6cd6f5d8d441471f0072cd3133 Merge tag 'x86_cache_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-26a30ffff952390499a95a0accad0c49379e5301 Merge tag 'x86_build_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2c405d1ab8b3103df2df541aaacc2113dc6c9fac Merge tag 'x86_asm_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3342ff2698e9720f4040cc458a2744b2b32f5c3a tty: protect tty_write from odd low-level tty disciplines
 e4286926abbbaab9b047c8bc25cae78ec990928f Merge tag 'tty-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 780607b9731feef575514108fc7956c54180f16e Merge tag 'usb-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 5d99aa093b566d234b51b7822c67059e2bd3ed8d Merge tag 'staging-5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
@@ -1049,6 +1030,25 @@ a727df407ca4f9bc0e9c30b7b469fc990a235be3 Merge branch '00.00-inst' of git://gith
 a1f1054124936c717a64e47862e3d0d820f67a87 Merge tag 'amd-drm-fixes-5.12-2021-03-03' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 44195bd7711b8a463aa4a0f93c25ce27c5e68cb5 Merge tag 'mkp-scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi
 280d542f6ffac0e6d65dc267f92191d509b13b64 Merge tag 'drm-fixes-2021-03-05' of git://anongit.freedesktop.org/drm/drm
-afd61855ef5d81d9f535da25bc78768c0fabc842 efi: stub: omit SetVirtualAddressMap() if marked unsupported in RT_PROP table
+0cbb22ee9edf4054ba4cabe68cdf4bea1f0f8960 softirq: Replace barrier() with cpu_relax() in tasklet_unlock_wait()
+ad3c44ceafe9ba641ad4275b86049dfe7848743b tasklets: Use static inlines for stub implementations
+aaed73eaa008692a3ababbc5069c94700634e10a tasklets: Provide tasklet_disable_in_atomic()
+b72ec4a15779f217504025ed624ad95a1bcd66ae tasklets: Use spin wait in tasklet_disable() temporarily
+6cd2578260c2f3438bd14d850a975d6f2d970ac6 tasklets: Replace spin wait in tasklet_unlock_wait()
+93b960d7c74174acc19ea62bb092d5de94a58381 tasklets: Replace spin wait in tasklet_kill()
+fcdf4543b5a744d835300887405ec5149c1f8a40 tasklets: Prevent tasklet_unlock_spin_wait() deadlock on RT
+589aa69c7c8c5918139d4f8214fc8f7400216e40 softirq: Add RT specific softirq accounting
+f4555d37094eefebf12f9a8b4ec84a94753e1e87 irqtime: Make accounting correct on RT
+23fb54bc2a8d0ce306ec7064af0a626db751940c softirq: Move various protections into inline helpers
+549d4669243859bedac702c5b96cbc51bb945137 softirq: Make softirq control and processing RT aware
+a88533d1742a5d04e699d4fc1a79a06225a53c7b tick/sched: Prevent false positive softirq pending warnings on RT
+02f50969ab4fb376f19f946f4db5e8c3052e5275 rcu: Prevent false positive softirq warning on RT
+f878593643adcb0ee1abb1a1dd347756397999ee net: jme: Replace link-change tasklet with work
+7719136daab32a77563c31613c0f33c53a955ad8 net: sundance: Use tasklet_disable_in_atomic().
+c3ee44f022f107af668dee0b3cc9c2d698110fa2 ath9k: Use tasklet_disable_in_atomic()
+416b1484099154325e501088435ee43bb06db108 atm: eni: Use tasklet_disable_in_atomic() in the send() callback
+e1ba9536e8e42025458402a81e7171021509c775 PCI: hv: Use tasklet_disable_in_atomic()
+8a3d0a9133209e5bc271373c598a2ed1d2afa9c2 firewire: ohci: Use tasklet_disable_in_atomic() where required
+7f692e68932b191ec564bd6306a7c0d7150b9bd0 tasklets: Switch tasklet_disable() to the sleep wait variant
 
---===============1289276908771379446==--
+--===============0612702738026771904==--
