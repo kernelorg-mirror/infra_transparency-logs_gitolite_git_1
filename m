@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8446543540399356899=="
+Content-Type: multipart/mixed; boundary="===============3812731578385572670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 05 Mar 2021 00:36:49 -0000
-Message-Id: <161490460902.2900.14190503306906318070@gitolite.kernel.org>
+Date: Fri, 05 Mar 2021 00:36:55 -0000
+Message-Id: <161490461553.2990.8218824656443726594@gitolite.kernel.org>
 
---===============8446543540399356899==
+--===============3812731578385572670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes-base
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: f69d02e37a85645aa90d18cacfff36dba370f797
-    log: revlist-fe07bfda2fb9-f69d02e37a85.txt
+  - ref: refs/heads/fixes
+    old: 1dbafd931d90d0d3af72a9b8afd5650a81943b75
+    new: 1112963427d6d186f8729cf36fefb70d5ca5a84a
+    log: revlist-1dbafd931d90-1112963427d6.txt
 
---===============8446543540399356899==
+--===============3812731578385572670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-f69d02e37a85.txt
+Content-Disposition: attachment; filename=revlist-1dbafd931d90-1112963427d6.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -48,5 +48,15 @@ c608aca57dd034d09f307b109b670d1cfb829279 Merge tag 'for-5.12-rc1-tag' of git://g
 f5f4fc4649ae542b1a25670b17aaf3cbb6187acc ia64: don't call handle_signal() unless there's actually a signal queued
 caf6912f3f4af7232340d500a4a2008f81b93f14 swap: fix swapfile read/write offset
 f69d02e37a85645aa90d18cacfff36dba370f797 Merge tag 'misc-5.12-2021-03-02' of git://git.kernel.dk/linux-block
+443cc4b45c1be0b25313c9a507b033074334b490 scsi: ibmvfc: Simplify handling of sub-CRQ initialization
+5cf529649be20dc27500c1141d58ba57131e2530 scsi: ibmvfc: Fix invalid sub-CRQ handles after hard reset
+2162dc23f80770e355ef00b43573b67b80466001 scsi: ibmvfc: Treat H_CLOSED as success during sub-CRQ registration
+0217a272fe134578d88a4e9c7f5e968551bf952a scsi: ibmvfc: Store return code of H_FREE_SUB_CRQ during cleanup
+dbdbb81bde2440d9a1653acf1333c6c812f9c4b0 scsi: ibmvfc: Reinitialize sub-CRQs and perform channel enquiry after LPM
+aa53f580e67b49ec5f4d9bd1de81eb9eb0dc079f scsi: ufs: Minor adjustments to error handling
+4a791574a0ccf36eb3a0a46fbd71d2768df3eef9 scsi: ufs: ufs-qcom: Disable interrupt in reset path
+4d195dc451570db79251a58022309728cc7b29de scsi: ufs: Remove redundant checks of !hba in suspend/resume callbacks
+1481b7fe438fff3bd918bcb344e75bdf7ce47bb8 scsi: ufs: Convert sysfs sprintf/snprintf family to sysfs_emit
+1112963427d6d186f8729cf36fefb70d5ca5a84a scsi: vmw_pvscsi: MAINTAINERS: Update maintainer
 
---===============8446543540399356899==--
+--===============3812731578385572670==--
