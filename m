@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 05 Mar 2021 14:52:22 -0000
-Message-Id: <161495594232.16024.1093340108563266895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 05 Mar 2021 15:00:23 -0000
+Message-Id: <161495642322.21017.17528006207855470332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 66b472321623e2ae9d88be46a1f232a900a7352a
-    new: fe6f4153c5ee8d44c0d1228f43a759a2ad8fd74c
+  - ref: refs/heads/for-next
+    old: 2c48653c1bc3aa6894e45e6037c7693949008816
+    new: 04f7791b7a4ba6ff3f53b3f3978b353924d10e78
     log: |
-         fe6f4153c5ee8d44c0d1228f43a759a2ad8fd74c client: add missing bracket for "ap <wlan> show"
+         04f7791b7a4ba6ff3f53b3f3978b353924d10e78 ALSA: hda - bind headset buttons to the headphone jack
+         
+  - ref: refs/heads/master
+    old: dceddc82d41c0702ae2cfadd625a3a33505b4b2e
+    new: e12521ec4538dcecdb8138f51245c5961d405f05
+    log: |
+         04f7791b7a4ba6ff3f53b3f3978b353924d10e78 ALSA: hda - bind headset buttons to the headphone jack
+         e12521ec4538dcecdb8138f51245c5961d405f05 Merge branch 'for-next'
          
