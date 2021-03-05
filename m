@@ -1,57 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3703049498600248033=="
+Content-Type: multipart/mixed; boundary="===============8223877190454665981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 05 Mar 2021 17:14:56 -0000
-Message-Id: <161496449663.4512.4735597924462206236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 05 Mar 2021 17:50:03 -0000
+Message-Id: <161496660343.25856.11312686804039863119@gitolite.kernel.org>
 
---===============3703049498600248033==
+--===============8223877190454665981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 2f2defdc442de857134919fc517d0b9ee7df17df
-    new: 5c476073a9df062a501edf9ea7b11ccc53c27bf7
+  - ref: refs/heads/for-5.13/io_uring
+    old: 45c7c743bab78364126fd5dd05cb8603d154a75c
+    new: a1b93f6571b19137cea2f232ba1ec2ed5c94eef9
+    log: revlist-45c7c743bab7-a1b93f6571b1.txt
+  - ref: refs/heads/io_uring-5.12
+    old: 86e0d6766cf909813474857bd22fdc04c97c0b36
+    new: e45cff58858883290c98f65d409839a7295c95f3
     log: |
-         aba537552f18112b2a488837c21456c423604bb0 Merge branches 'acpi-pci' and 'acpi-processor' into linux-next
-         d2e5e648ec68f85fdf87b842f04e03fbd83d4722 Merge branch 'acpi-messages' into linux-next
-         5c476073a9df062a501edf9ea7b11ccc53c27bf7 Merge branches 'acpi-drivers' and 'acpi-bus' into linux-next
+         e45cff58858883290c98f65d409839a7295c95f3 io_uring: don't restrict issue_flags for io_openat
          
-  - ref: refs/heads/linux-next
-    old: 51165d52eceb9a6a227e39c9b369b4f437e4e620
-    new: 5c476073a9df062a501edf9ea7b11ccc53c27bf7
-    log: revlist-51165d52eceb-5c476073a9df.txt
-  - ref: refs/heads/testing
-    old: 51165d52eceb9a6a227e39c9b369b4f437e4e620
-    new: 5c476073a9df062a501edf9ea7b11ccc53c27bf7
-    log: revlist-51165d52eceb-5c476073a9df.txt
 
---===============3703049498600248033==
+--===============8223877190454665981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51165d52eceb-5c476073a9df.txt
+Content-Disposition: attachment; filename=revlist-45c7c743bab7-a1b93f6571b1.txt
 
-a09aac3c582710238ecf6f4e3939bbb5ab242ecb ACPI: PCI: IRQ: Consolidate printing diagnostic messages
-58112e94b63ee9182843f5c0cd32a0025c742fc8 ACPI: PCI: Replace ACPI_DEBUG_PRINT() and ACPI_EXCEPTION()
-3f5156c3cf22ad721f0ba288c81fb9967f465e12 ACPI: PCI: Drop ACPI_PCI_COMPONENT that is not used any more
-4d31b6886e7faa643e6bfbfbef0af69a529a7ee8 ACPI: PCI: Replace direct printk() invocations in pci_link.c
-06842b775f26c2bef5a49f31dde70a7360650bb9 ACPI: processor: Remove initialization of static variable
-21d5de9fa87bef9de19e012bf2d798279453c88d ACPI: processor: idle: Drop extra prefix from pr_notice()
-775c8762b6762ff042fae1ade065271ccd361028 ACPI: processor: Get rid of ACPICA message printing
-63c1564e30f846491147118df0e9619a42145ef4 Merge branch 'acpi-pci' into acpi-messages
-3a45fc03a03f3c5be32ddd51c4deb05d26c3c530 ACPI: sysfs: Get rid of ACPICA message printing
-74f3ecbb4b49efb596deac45b750ff4dc7f2f084 ACPI: Drop unused ACPI_*_COMPONENT definitions and update documentation
-9db5549530f266f5c88702b480b9db4dfc85e77c ACPI: HED: Drop unused ACPI_MODULE_NAME() definition
-ff70784ab9f89e78e67d5d172bf7644de673f61f ACPI: bus: Constify is_acpi_node() and friends (part 2)
-aba537552f18112b2a488837c21456c423604bb0 Merge branches 'acpi-pci' and 'acpi-processor' into linux-next
-d2e5e648ec68f85fdf87b842f04e03fbd83d4722 Merge branch 'acpi-messages' into linux-next
-5c476073a9df062a501edf9ea7b11ccc53c27bf7 Merge branches 'acpi-drivers' and 'acpi-bus' into linux-next
+e45cff58858883290c98f65d409839a7295c95f3 io_uring: don't restrict issue_flags for io_openat
+e99c4b3524bff20d85e8bc3b602eaaa7efa6cf20 io_uring: avoid taking ctx refs for task-cancel
+f6ba84453bb8664a64f9a57d09094098fe1f15cf io_uring: reuse io_req_task_queue_fail()
+51338fa9f42fe40cea98a567f4ea1128e49c7e4b io_uring: further deduplicate file slot selection
+3b788557fe1217ed4b66e6b89860318e4c9bfa80 io_uring: add a helper failing not issued requests
+7c8f2dea8b710861ce3311f719b6033433974245 io_uring: refactor provide/remove buffer locking
+7233ef4fc39437e6909146256a96011c57cf4a78 io_uring: use better types for cflags
+614817e8ffbb68d8d28bbbdb3507863ee169cca3 io_uring: refactor out send/recv async setup
+0c5f0560596a9ab4fd5d11c5413cc91956174322 io_uring: untie alloc_async_data and needs_async_data
+f40d3c5989f2b6ce16696b9174aca16feb350349 io_uring: rethink def->needs_async_data
+ffcf257cc14a8b10afd7237433e7b9fec879c803 io_uring: merge defer_prep() and prep_async()
+6963a2d06f1cc9ff97a870677cf38a3341797dce io_uring: simplify io_resubmit_prep()
+fbfe6e37f14a01d3d9d1a0cbd71315280b948d9c io_uring: wrap io_kiocb reference count manipulation in helpers
+a1b93f6571b19137cea2f232ba1ec2ed5c94eef9 io_uring: switch to atomic_t for io_kiocb reference count
 
---===============3703049498600248033==--
+--===============8223877190454665981==--
