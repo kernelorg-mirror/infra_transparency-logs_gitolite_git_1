@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 05 Mar 2021 00:50:04 -0000
-Message-Id: <161490540405.12370.4139500882130247658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Fri, 05 Mar 2021 00:53:12 -0000
+Message-Id: <161490559274.13472.5158786652512157797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
   - ref: refs/heads/for-next
-    old: ec0f2717c6c803ef694dc57d5158ef23c15e6906
-    new: a278c3396abdfb98ee955bb3ade59a7488e5599d
+    old: 78660e52bc27bfd02d8519b49f1cfcf428c768a1
+    new: f9f344479d8b40b3b001c913fb992d85d19261d0
     log: |
-         701b8b187525e3b90cbcab4dbc073f42dbcc4059 io_uring: don't keep looping for more events if we can't flush overflow
-         a278c3396abdfb98ee955bb3ade59a7488e5599d Merge branch 'io_uring-5.12' into for-next
-         
-  - ref: refs/heads/io_uring-5.12
-    old: c3c9a3194bd0ead2317e08d5ac8565bebb598684
-    new: 701b8b187525e3b90cbcab4dbc073f42dbcc4059
-    log: |
-         701b8b187525e3b90cbcab4dbc073f42dbcc4059 io_uring: don't keep looping for more events if we can't flush overflow
+         70d443d8463339869f371e77fa594b850f374565 tracing: Remove duplicate declaration from trace.h
+         69268094a1c16f3f44b369f9da78ce98bab5f244 tracing: Fix help text of TRACEPOINT_BENCHMARK in Kconfig
+         6f6be606e763f2da9fc21de00538c97fe4ca1492 ring-buffer: Force before_stamp and write_stamp to be different on discard
+         6549de1fe34162d7ace8b870ae11ca6cae5b8609 ring-buffer: Add a little more information and a WARN when time stamp going backwards is detected
+         f40fc799afc598b3d130d5a0ada994c9d4fb6cf8 tracing: Fix memory leak in __create_synth_event()
+         ee666a185558ac9a929e53b902a568442ed62416 tracing: Skip selftests if tracing is disabled
+         f9f344479d8b40b3b001c913fb992d85d19261d0 tracing: Fix comment about the trace_event_call flags
          
