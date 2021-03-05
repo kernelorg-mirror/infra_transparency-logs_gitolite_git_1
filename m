@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Fri, 05 Mar 2021 15:09:28 -0000
-Message-Id: <161495696853.25116.6293460670495889028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 05 Mar 2021 15:14:40 -0000
+Message-Id: <161495728016.29155.8849327753353851011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: 3f9b9efd82a84f27e95d0414f852caf1fa839e83
-    new: 166ddcdeea0bb0498a87e6418f8b2332a1cd0d56
+  - ref: refs/heads/master
+    old: f3a7b057ac28adaaf81c503abab2d8731cdc9b0c
+    new: 81329c8d1c4f6b22bcd521a70e3754d810ff9eac
     log: |
-         d2d8b5f6b94fa2176782f690f183a52b6cbee3f4 fs: generic function to convert iocb to rw flags
-         166ddcdeea0bb0498a87e6418f8b2332a1cd0d56 fuse: 32-bit user space ioctl compat for fuse device
+         81329c8d1c4f6b22bcd521a70e3754d810ff9eac hwclock: use pointer to adjtime data
          
