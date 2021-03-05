@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2782838088642017342=="
+Content-Type: multipart/mixed; boundary="===============8088013710591244191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 05 Mar 2021 21:13:43 -0000
-Message-Id: <161497882360.20105.7297197588872787853@gitolite.kernel.org>
+Date: Fri, 05 Mar 2021 21:13:53 -0000
+Message-Id: <161497883306.20200.9623449546464509739@gitolite.kernel.org>
 
---===============2782838088642017342==
+--===============8088013710591244191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: a9ecb0cbf03746b17a7c13bd8e3464e6789f73e8
-    new: 155b23e6e53475ca3b8c2a946299b4d4dd6a5a1e
-    log: revlist-a9ecb0cbf037-155b23e6e534.txt
+  - ref: refs/heads/dev-queue
+    old: 186a1a583de24452bb9e93c9e4cdf53aaa577e69
+    new: 51999ff83450138f139af479d485190fbbbb2108
+    log: revlist-186a1a583de2-51999ff83450.txt
 
---===============2782838088642017342==
+--===============8088013710591244191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9ecb0cbf037-155b23e6e534.txt
+Content-Disposition: attachment; filename=revlist-186a1a583de2-51999ff83450.txt
 
 42a382a466a967dc053c73b969cd2ac2fec502cf selftests/bpf: Use the last page in test_snprintf_btf on s390
 6185266c5a853bb0f2a459e3ff594546f277609b selftests/bpf: Mask bpf_csum_diff() return value to 16 bits in test_verifier
@@ -70,5 +70,44 @@ e233febda6ebab750e30662a7cc9b9efad127685 CIPSO: Fix unaligned memory access in c
 abbf9a0ef8848dca58c5b97750c1c59bbee45637 r8169: fix r8168fp_adjust_ocp_cmd function
 85554bcd123e307282631defe6bf6fac5031cf60 net/hamradio/6pack: remove redundant check in sp_encaps()
 155b23e6e53475ca3b8c2a946299b4d4dd6a5a1e sun/niu: fix wrong RXMAC_BC_FRM_CNT_COUNT count
+0548ee0b2eaf729bff120e548009be79b2d23f43 checkpatch: Fix warnings when --no-tree is used
+1ad8a809fe55ba809cc169e16ab47d04b36324c1 checkpatch.pl: seed camelcase from the provided kernel tree root
+2cdb2fa12b0b9d8b26a5db853fddd171f3ce77d4 ice: Fix a couple off by one bugs
+0439c8f2ef76f92668ee3833b975e3c49c8f2590 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+68099103029fcf76d3137ba37969b29c96078b77 igb: avoid premature Rx buffer reuse
+a791e0447f0d1330d831bb3412287a1594202fd7 iavf: Fix asynchronous tasks during driver remove
+707fce8d5f983cceab8e6a2be177be67713725cc i40e: Fix correct max_pkt_size on VF RX queue
+a26b67722f8813fe17c199ca353f54f2e11dbb9c ixgbe: add NULL pointer check before calling xdp_rxq_info_reg
+9b5ec896459a53ce5ec416861829e62c1e8a3304 virtchnl: Fix layout of RSS structures
+7c3d28497fd2e687d594c7f06ac39751cf3fc990 ice: fix napi work done reporting in xsk path
+8c2746a30aa5ddb6c72d4018ee1aebb8753145e7 igc: Fix igc_ptp_rx_pktstamp()
+9ac76292bc994ce0a4cd8d5b746d231607548d7f iavf: Fix return of set the new channel count
+13f269f21f7ff685fb0d71dfef567e4dd168a817 i40e: Fix kernel oops when i40e driver removes VF's
+42c8d44f949441b53ebba388321d7613f340e8f0 i40e: Fix oops at i40e_rebuild()
+3114345d6c22525e4aad89429f058362dd8333d4 igc: Fix Pause Frame Advertising
+6a78aebad2066770891727446b29ccbb8e6424d6 igc: Fix Supported Pause Frame Link Setting
+1abd332a8f0ae533532b5b3fa44d728a04e9d701 e1000e: Fix duplicate include guard
+ad3bc5a13df6da72fdb634e7c71e42aff15b9783 igb: Fix duplicate include guard
+25895c41683f805cb3324d39c20908106dca52a0 i40e: Fix NULL ptr dereference on VSI filter sync
+b575db5d3b979eb62c3fc3241902d1e18426b7cb ice: Fix allowing VF to request more/less queues via virtchnl
+5f071b730d90442a7580f1e405df58b45292403e ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+158a9d1e350d72c2e12d92c236e7a1c3265043ef ice: Continue probe on link/PHY errors
+f6cd9f3e2677dfd742322ba951a5e066e270319b ice: Fix VF true promiscuous mode
+ea4f912a6b03238fdde66eeb8bbdefe19af37ff9 ice: Increase control queue timeout
+62534d9a8dc668c4dbb3357923f1a0f40222f9dd ice: Recognize 860 as iSCSI port in CEE mode
+3de7e625c97ada0708bf783b91a1b8d077be5f84 ice: prevent ice_open and ice_stop during reset
+270f446c5635065b758bec11cebbfbc19ebe84a7 ice: fix memory allocation call
+ab05d5c2c64aeec801ae445224acac50deaa0401 ice: remove DCBNL_DEVRESET bit from PF state
+24927018b1d7b57dbc200e2407462421986633ac ice: Fix for dereference of NULL pointer
+a50d2d1a4a6c440dc6acc47b731fcc250e773140 ice: Use port number instead of PF ID for WoL
+e04c34cb69f470de8c214598d75f08ac0970cb65 ice: handle the VF VSI rebuild failure
+3a71dffc0eae5e2fbcf9a46b88c80d7493d37b37 ice: Cleanup fltr list in case of allocation issues
+287b447d41483ee91fd4f046f9b180eba2fb8538 e1000e: Fix error handling in e1000_set_d0_lplu_state_82571
+98f77d674d0169b8bb689739cbd71a30c0cbae90 i40e: Fix error handling in i40e_vsi_open
+7d4cc9e2d8a5287c2acdfbd20d0513a55ef5dddc i40e: Fix display statistics for veb_tc
+cb02dad205347ef0193071b1ffd588b5e15c819f i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+051c352e4d7e50c32e3d386a2b2f6485da373bf0 i40e: move headroom initialization to i40e_configure_rx_ring
+04fa103d542923bc3bdc1f3ee6549c755ad505d5 ice: move headroom initialization to ice_setup_rx_ctx
+51999ff83450138f139af479d485190fbbbb2108 ixgbe: move headroom initialization to ixgbe_configure_rx_ring
 
---===============2782838088642017342==--
+--===============8088013710591244191==--
