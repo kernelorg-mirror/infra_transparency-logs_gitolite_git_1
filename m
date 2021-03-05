@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 05 Mar 2021 02:34:02 -0000
-Message-Id: <161491164224.13258.7058559406534621155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Fri, 05 Mar 2021 02:39:31 -0000
+Message-Id: <161491197136.16412.1162932183391672297@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 86a35af628e539f7ae9796f1984761e8d3232ac0
-    new: 13ec0216c3ace494ea8fafab5aa6925a5bc41796
+  - ref: refs/heads/xfs/shrink_lastag
+    old: 2e5c68d16b7cf61c3cf9120f2203b0e55c63d15e
+    new: 32aa090f17d00347af4790f17b67896cf2a0ac10
     log: |
-         8fd886911a6a99acf4a8facf619a2e7b5225be78 bpf: Add BTF_KIND_FLOAT to uapi
-         1b1ce92b24331b569a444858fc487a1ca19dc778 libbpf: Fix whitespace in btf_add_composite() comment
-         22541a9eeb0d968c133aaebd95fa59da3208e705 libbpf: Add BTF_KIND_FLOAT support
-         737e0f919a8d2a313618d8ac67d50e8223bc5d74 tools/bpftool: Add BTF_KIND_FLOAT support
-         eea154a852e827c003215f7beed3e10f05471a86 selftests/bpf: Use the 25th bit in the "invalid BTF_INFO" test
-         b1828f0b04828aa8cccadf00a702f459caefeed9 bpf: Add BTF_KIND_FLOAT support
-         7e72aad3a15c06e40e3ccd2352e5010e978f1acf selftest/bpf: Add BTF_KIND_FLOAT tests
-         7999cf7df899caf244236dcc11cce844347dab4a selftests/bpf: Add BTF_KIND_FLOAT to the existing deduplication tests
-         6be6a0baffc1357b6d2023155753f111624c4fec bpf: Document BTF_KIND_FLOAT in btf.rst
-         13ec0216c3ace494ea8fafab5aa6925a5bc41796 Merge branch 'Add BTF_KIND_FLOAT support'
+         845811a40a2cb21b48d416a74fb6161edb917bcf xfs: introduce xfs_ag_shrink_space()
+         3f19f1af3699b209fb4a2d13cfbcb9128c11df3d xfs: support shrinking unused space in the last AG
+         32aa090f17d00347af4790f17b67896cf2a0ac10 xfs: add error injection for per-AG resv failure
          
