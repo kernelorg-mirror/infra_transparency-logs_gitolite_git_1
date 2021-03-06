@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1076513766041535082=="
+Content-Type: multipart/mixed; boundary="===============2012813369296654440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 06 Mar 2021 22:24:23 -0000
-Message-Id: <161506946351.15257.18114441127479148951@gitolite.kernel.org>
+Date: Sat, 06 Mar 2021 22:25:16 -0000
+Message-Id: <161506951644.16941.5603149359286890559@gitolite.kernel.org>
 
---===============1076513766041535082==
+--===============2012813369296654440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/for-rc
-    old: 76f3011fc5160933dbb8f233e0a8320e3368fc12
-    new: 7d9c35a9f719120b693484bef782377b4a5e789c
-    log: revlist-76f3011fc516-7d9c35a9f719.txt
+  - ref: refs/heads/for-next
+    old: 26d89fd782b05014544dde42daa8a3f90846a0f8
+    new: e0924d9bf4840152194cca6fb984e41882f61760
+    log: revlist-26d89fd782b0-e0924d9bf484.txt
 
---===============1076513766041535082==
+--===============2012813369296654440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76f3011fc516-7d9c35a9f719.txt
+Content-Disposition: attachment; filename=revlist-26d89fd782b0-e0924d9bf484.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -227,5 +227,55 @@ c7de87ff9dac5f396f62d584f3908f80ddc0e07b NFSD: Repair misuse of sv_lock in 5.10.
 f1442d6349a2e7bb7a6134791bdc26cb776c79af sunrpc: fix refcount leak for rpc auth modules
 0ddc942394013f08992fc379ca04cffacbbe3dae rpc: fix NULL dereference on kmalloc failure
 7d9c35a9f719120b693484bef782377b4a5e789c NFSD: dst server needs to unmount src server's export after copy is done.
+585cb68911494f3b924514295f11a78028d801ac NFSD: Extract the svcxdr_init_encode() helper
+277925af2c861019d5c0c6caa72ee8eceb2c3479 NFSD: Update the GETATTR3res encoder to use struct xdr_stream
+cfbb4edd690373e5f6a3cdc33a0d9bffd94c8fc9 NFSD: Update the NFSv3 ACCESS3res encoder to use struct xdr_stream
+dac659c7ffb619a809f9e7dfea0df09ff638dd49 NFSD: Update the NFSv3 LOOKUP3res encoder to use struct xdr_stream
+84d50baf2274c82e51aa429ed34e827c45b01f12 NFSD: Update the NFSv3 wccstat result encoder to use struct xdr_stream
+9e796cd310b2680080add4c5165e5b9f657f8037 NFSD: Update the NFSv3 READLINK3res encoder to use struct xdr_stream
+66a720121efa12405f93af4b03b8b01f124eade9 NFSD: Update the NFSv3 READ3res encode to use struct xdr_stream
+5b11c32111a99bf470ae77a694bfa1ecaececa26 NFSD: Update the NFSv3 WRITE3res encoder to use struct xdr_stream
+de31a6cf93365d5579bc4e8f2cd198ac3cd09771 NFSD: Update the NFSv3 CREATE family of encoders to use struct xdr_stream
+6ed95e831ffcf3f9cadd34f1b158033aa160a55e NFSD: Update the NFSv3 RENAMEv3res encoder to use struct xdr_stream
+9f49676745e0369a20477e1f354fd7485c751391 NFSD: Update the NFSv3 LINK3res encoder to use struct xdr_stream
+7c606b2ecddb7ea0ed1fac4095a45473474c66c1 NFSD: Update the NFSv3 FSSTAT3res encoder to use struct xdr_stream
+c6919c6b0a7fae32a5520f385d97b8580a273d95 NFSD: Update the NFSv3 FSINFO3res encoder to use struct xdr_stream
+06d9dc6edc3636f6d151679fa524d01a97e6cc79 NFSD: Update the NFSv3 PATHCONF3res encoder to use struct xdr_stream
+9a53dca3f7db076988ac650a014c57526431abd3 NFSD: Update the NFSv3 COMMIT3res encoder to use struct xdr_stream
+204306aae7afd957050552a0134e6aaa91851255 NFSD: Add a helper that encodes NFSv3 directory offset cookies
+00ec801131ef59d158a4d25fce10d4dc114a6c63 NFSD: Count bytes instead of pages in the NFSv3 READDIR encoder
+b4fdceb0e04eb14907989773edeadf0c7d0ddf39 NFSD: Update the NFSv3 READDIR3res encoder to use struct xdr_stream
+78b33677e627a96a66bae30e9f1262fd2fa3fd8e NFSD: Update NFSv3 READDIR entry encoders to use struct xdr_stream
+17d57a4cb8267edb15c5f21a9ede192f5c041ef5 NFSD: Remove unused NFSv3 directory entry encoders
+79bc4bd3c8ec19a6a6fd328774917c443a4a0ecd NFSD: Reduce svc_rqst::rq_pages churn during READDIR operations
+26c87540ea44656648415082effb4dfae7c81478 NFSD: Update the NFSv2 stat encoder to use struct xdr_stream
+f400f5c28780b1ddaea98adb22ee63c875a31cf4 NFSD: Update the NFSv2 attrstat encoder to use struct xdr_stream
+fd1c3ef6346c41bd9ccdec4478035ade94b2888e NFSD: Update the NFSv2 diropres encoder to use struct xdr_stream
+47dc62aeb3c68bda2b1349ef870bcaf1c28cc810 NFSD: Update the NFSv2 READLINK result encoder to use struct xdr_stream
+ca2071e50946cf5b230d37efd40ee6b0b1e8f135 NFSD: Update the NFSv2 READ result encoder to use struct xdr_stream
+96bb00cd56e880e1e3d700aa094160a58c66b4ed NFSD: Update the NFSv2 STATFS result encoder to use struct xdr_stream
+5640ecef3cf5cf764fe5ee737b99d89a69af5984 NFSD: Add a helper that encodes NFSv3 directory offset cookies
+e378db9abf42c9e6026dfdacae5b9373c257e227 NFSD: Count bytes instead of pages in the NFSv2 READDIR encoder
+e4e00b736fcbe3bf1c0e02e9b331ed2dee6074f1 NFSD: Update the NFSv2 READDIR result encoder to use struct xdr_stream
+b33953eea38216185b4cd60d283e84d1dbc34698 NFSD: Update the NFSv2 READDIR entry encoder to use struct xdr_stream
+79117b9452e597bd2cbc9527429e310b4062e7f8 NFSD: Remove unused NFSv2 directory entry encoders
+3d5a60cc1fc70328345e20581faee10782fb820c NFSD: Add an xdr_stream-based encoder for NFSv2/3 ACLs
+99643b990785d9579ce3a5089b1e4a79ba128e20 NFSD: Update the NFSv2 GETACL result encoder to use struct xdr_stream
+57afc507bc3a49c7b3474de866558aefe10497f3 NFSD: Update the NFSv2 SETACL result encoder to use struct xdr_stream
+194e08097e999a4b02beb0c96dc0b6f7a37d1de9 NFSD: Update the NFSv2 ACL GETATTR result encoder to use struct xdr_stream
+03c3818d1f1d8dba592726817197b6f03d5f5bbb NFSD: Update the NFSv2 ACL ACCESS result encoder to use struct xdr_stream
+745d001643ebe0875244987a98f1174747c6b4a4 NFSD: Clean up after updating NFSv2 ACL encoders
+baf441059913c2887eecbe36d53e6fecf4941a97 NFSD: Update the NFSv3 GETACL result encoder to use struct xdr_stream
+5f2cc74445d4476070ae23f644f92a0f467f8901 NFSD: Update the NFSv3 SETACL result encoder to use struct xdr_stream
+3508620a0c08c32fb52f34d0d66dac534904ac80 NFSD: Clean up after updating NFSv3 ACL encoders
+ef6fca8ab501cabf77a0cf8d44bfd05f2df0582b NFSD: Add a tracepoint to record directory entry encoding
+7149a4b9c2477ca12c1ee94b638b98bed96af613 NFSD: Clean up NFSDDBG_FACILITY macro
+f3015192742b1eb88846b2255490ec0fd23c0425 nfsd: helper for laundromat expiry calculations
+5c4eb1afd68dbae6a0aa55f1f6e18dfa6e2dcd7b svcrdma: RPCDBG_FACILITY is no longer used
+b6c4bfbf0d083acce2fc1424c054a4d51bd3d57b svcrdma: Provide an explanatory comment in CMA event handler
+898d455e72777e1e437736f7c32a2e1399cda180 svcrdma: Add a "deferred close" helper
+9e436e5efb34337cb50f5d1f8f03a2ca8f51c095 svcrdma: Normalize Send page handling
+48935242ee428802e064eec68e5ac14f9d7858a9 svcrdma: Remove unused sc_pages field
+e0924d9bf4840152194cca6fb984e41882f61760 svcrdma: Retain the page backing rq_res.head[0].iov_base
 
---===============1076513766041535082==--
+--===============2012813369296654440==--
