@@ -1,29 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Sat, 06 Mar 2021 01:30:07 -0000
-Message-Id: <161499420799.13185.844887731325612439@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4436344578128307498=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 06 Mar 2021 01:35:18 -0000
+Message-Id: <161499451871.16019.7301256198717574167@gitolite.kernel.org>
+
+--===============4436344578128307498==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/syscall
-    old: ceac4b39610ab66e8918c95da870bae33e41f6f6
-    new: 7bd10347ec32131b9957b278ac5f8ea224293fb9
-    log: |
-         d01b59c9ae94560fbcceaafeef39784d72765033 bpf: Add bpf_skb_adjust_room flag BPF_F_ADJ_ROOM_ENCAP_L2_ETH
-         256becd450172eec74566f1aa7819ce80181d7e1 selftests, bpf: Extend test_tc_tunnel test with vxlan
-         1372c380d40b3d7a748c32505b9e31ae081875e6 bpf: Introduce bpf_sys_bpf() helper and program type.
-         2d12a53afe350a5b2bb69db43a198c1d36b8ab57 bpf: Prepare bpf syscall to be used from kernel and user space.
-         1ff7277db59651f9eea9214e78f8663255408f0d libbpf: Support for syscall program type
-         ce15f10cf8f38adbb63f9d012eab24dc28fa573a selftests/bpf: Test for syscall program type
-         f7bb27977daa014bfecf2d0d3322668166222fb5 bpf: Make btf_load command to be bpfptr_t compatible.
-         7f077ba3c1144f4c07c3412e274b780669c03752 selftests/bpf: Test for btf_load command.
-         f7e636eac6af3d7692e72819fd5a88144c8bd12e bpf: Introduce fd_idx
-         0e54b0d2c7f35fcc767e09c13a97019e7ffcbb38 libbpf: Support for fd_idx
-         7bd10347ec32131b9957b278ac5f8ea224293fb9 libbpf: Generate loader program out of BPF ELF file.
-         
+  - ref: refs/heads/master
+    old: 63dcd69d9b497c045c4169cddc6a24e1a7428f88
+    new: a38fd8748464831584a19438cbb3082b5a2dab15
+    log: revlist-63dcd69d9b49-a38fd8748464.txt
+  - ref: refs/tags/v5.12-rc2
+    old: 0000000000000000000000000000000000000000
+    new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
+
+--===============4436344578128307498==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-63dcd69d9b49-a38fd8748464.txt
+
+9c7d83ae6ba67d6c6199cce24573983db3b56332 pstore: Fix warning in pstore_kill_sb()
+221384df6123747d2a75517dd06cc01752f81518 RDMA/cm: Fix IRQ restore in ib_send_cm_sidr_rep
+475f23b8c66d2892ad6acbf90ed757cafab13de7 RDMA/rxe: Fix missing kconfig dependency on CRYPTO
+3a9b3d4536e0c25bd3906a28c1f584177e49dd0f IB/mlx5: Add missing error code
+b924a8197ac7660eb358ed0277bd5b12f9b40fe2 gcc-plugins: structleak: remove unneeded variable 'ret'
+5477edcacaacb8af8169450180a1d3bd0dfb9c99 gcc-plugins: latent_entropy: remove unneeded semicolon
+7db688e99c0f770ae73e0f1f3fb67f9b64266445 pstore/ram: Rate-limit "uncorrectable error in header" message
+f91803998cf60fbbd4f10d24def676bf8b2a1a7e RDMA/mlx5: Set correct kernel-doc identifier
+cca7f12b939bd75f3a5e2b0fa20e3de67d1d33b1 RDMA/uverbs: Fix kernel-doc warning of _uverbs_alloc
+21e27ac82db637d2f48f07b3777aae8e7ca52613 RDMA/rxe: Fix missed IB reference counting in loopback
+5e4a7ccc965d951b0885875e903a32c6d4368573 RDMA/rxe: Fix extra deref in rxe_rcv_mcast_pkt()
+545c4ab463c2224557e56b2609f88ed5be265405 RDMA/rxe: Fix errant WARN_ONCE in rxe_completer()
+8b24ef44789c990329a15a287ae0e634720745e8 Merge tag 'pstore-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
+
+--===============4436344578128307498==--
