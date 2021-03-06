@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3304183722895797855=="
+Content-Type: multipart/mixed; boundary="===============5628518696799960082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Sat, 06 Mar 2021 11:27:39 -0000
-Message-Id: <161503005972.7662.17926841690965476253@gitolite.kernel.org>
+Date: Sat, 06 Mar 2021 11:28:47 -0000
+Message-Id: <161503012797.8080.3706697790605488852@gitolite.kernel.org>
 
---===============3304183722895797855==
+--===============5628518696799960082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-fe07bfda2fb9-a38fd8748464.txt
+    new: 0733e545fa5966701bc056cf62e3195ee92e4191
+    log: revlist-fe07bfda2fb9-0733e545fa59.txt
 
---===============3304183722895797855==
+--===============5628518696799960082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-a38fd8748464.txt
+Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-0733e545fa59.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,5 +219,22 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
+fc622b3d36e6d91330fb21506b9ad1e3206a4dde platform/surface: Set up Surface Aggregator device registry
+797e78564634275ed4fe6b3f586c4b96eb1d86bc platform/surface: aggregator_registry: Add base device hub
+17590927f7684b297a64ac64b332dd589d64d5a5 platform/surface: aggregator_registry: Add battery subsystem devices
+7b5ee8d095ef27bcb90d8e405c5c7568481ce220 platform/surface: aggregator_registry: Add platform profile device
+f68aaf85e08e75a0588c14e9936dfd8edf098e89 platform/surface: aggregator_registry: Add DTX device
+aebf0a11a8c1fb6444d1365db97f90672199a867 platform/surface: aggregator_registry: Add HID subsystem devices
+b78b4982d7637ededbc40b5f4aa59394acee8a60 platform/surface: Add platform profile driver
+b5b5ff84fd93ccc447d1d61204ffda99db4d0cf6 platform/surface: aggregator: Make SSAM_DEFINE_SYNC_REQUEST_x define static functions
+d6814836d97bd4883a0e57f6b1df6dc892a37d8f platform/x86: thinkpad_acpi: Handle keyboard cover attach/detach events
+e4c0e2025a0efad1144717c9a5020d56639fd8da MAINTAINERS: update MELLANOX HARDWARE PLATFORM SUPPORT maintainers
+96f03acc9b5c170d50a643fccb30b9f2d1a93030 platform/x86: Fix typo in Kconfig
+6fefcfaefc495740216f31e6fb6456ebbf2ab5b8 platform/x86: hp-wmi: rename "thermal policy" to "thermal profile"
+7fa24912b14bafdc888d14ab13c6f2be42550f7b platform/x86: hp-wmi: add platform profile support
+d2fa06e4046e17065ef631b151a0722c27590ca5 platform/x86: intel-hid: Support Lenovo ThinkPad X1 Tablet Gen 2
+b903fa1784c717dadb712d930bc176ef7b551ac2 platform: x86: ACPI: Get rid of ACPICA message printing
+c113f9f3ef006985618d3cc3e82bcaa6ea552d0d platform/x86: wmi: Make remove callback return void
+0733e545fa5966701bc056cf62e3195ee92e4191 platform/x86: touchscreen_dmi: Handle device properties with software node API
 
---===============3304183722895797855==--
+--===============5628518696799960082==--
