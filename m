@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8660609849718760455=="
+Content-Type: multipart/mixed; boundary="===============1707079539419435030=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Sat, 06 Mar 2021 17:39:36 -0000
-Message-Id: <161505237688.6702.2394109732580010623@gitolite.kernel.org>
+Date: Sat, 06 Mar 2021 17:39:41 -0000
+Message-Id: <161505238137.6784.16211927846567392261@gitolite.kernel.org>
 
---===============8660609849718760455==
+--===============1707079539419435030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
     new: a38fd8748464831584a19438cbb3082b5a2dab15
     log: revlist-fe07bfda2fb9-a38fd8748464.txt
 
---===============8660609849718760455==
+--===============1707079539419435030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -220,4 +220,4 @@ de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of gi
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
 
---===============8660609849718760455==--
+--===============1707079539419435030==--
