@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1344108592929703116=="
+Content-Type: multipart/mixed; boundary="===============8660609849718760455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Sat, 06 Mar 2021 17:39:24 -0000
-Message-Id: <161505236411.6539.7417513221712803320@gitolite.kernel.org>
+Date: Sat, 06 Mar 2021 17:39:36 -0000
+Message-Id: <161505237688.6702.2394109732580010623@gitolite.kernel.org>
 
---===============1344108592929703116==
+--===============8660609849718760455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/for-next
-    old: ef11d03735aca78adea3e4f0cb45eac8670e460f
-    new: 2552e38dc8ad601ff8defb8051126277a165a991
-    log: revlist-ef11d03735ac-2552e38dc8ad.txt
+  - ref: refs/heads/master
+    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    new: a38fd8748464831584a19438cbb3082b5a2dab15
+    log: revlist-fe07bfda2fb9-a38fd8748464.txt
 
---===============1344108592929703116==
+--===============8660609849718760455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef11d03735ac-2552e38dc8ad.txt
+Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-a38fd8748464.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,12 +219,5 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-c018b5322a449ec98888b734805d0bc0ed7b2da0 power: supply: max8997-charger: remove unneeded semicolon
-bf3841073bf34c9568ee5d6a6020b3902b3eef81 power: supply: cw2015: Add CHARGE_NOW support
-f05d29333bb4b35d31f0704096e98fb8c2d1e85a MAINTAINERS: power: supply: add entry for S3C ADC battery driver
-d6ce6e81085221ccf7899291a0fa1ffbe31d5218 power: supply: s3c_adc_battery: add SPDX license identifier
-c8bbab8f2d5f8b292d568449584bef7ef10d609e power: supply: s3c_adc_battery: remove unused pdata in suspend/resume
-d33b3f7e34a108ce4ad2ed11b0111aa804666c99 power: supply: smb347-charger: Improve interrupt initialization
-2552e38dc8ad601ff8defb8051126277a165a991 power: supply: smb347-charger: Clean up whitespaces in the code
 
---===============1344108592929703116==--
+--===============8660609849718760455==--
