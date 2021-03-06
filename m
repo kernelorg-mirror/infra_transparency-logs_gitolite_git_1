@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2685808230840422227=="
+Content-Type: multipart/mixed; boundary="===============1671153847419283042=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sat, 06 Mar 2021 00:14:31 -0000
-Message-Id: <161498967151.857.16477592476789882549@gitolite.kernel.org>
+Date: Sat, 06 Mar 2021 00:14:33 -0000
+Message-Id: <161498967390.945.12972115621818471610@gitolite.kernel.org>
 
---===============2685808230840422227==
+--===============1671153847419283042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.13
-    old: 7822de1a2946fff2a00f161576125d551ccf945c
-    new: 107e4a5bb20c15878f152d0e0ebe9def0698cdab
-    log: revlist-7822de1a2946-107e4a5bb20c.txt
-  - ref: refs/heads/drivers-for-5.13
-    old: 0000000000000000000000000000000000000000
-    new: 706520f647c7577c902b25c8e9cfc39fcbcaacba
+  - ref: refs/heads/for-next
+    old: d242adf2067e468f1fdcd8987dc901405d07bc98
+    new: 6c8b0f64270a46b64e923b1473be04123bbf9d7d
+    log: revlist-d242adf2067e-6c8b0f64270a.txt
 
---===============2685808230840422227==
+--===============1671153847419283042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7822de1a2946-107e4a5bb20c.txt
+Content-Disposition: attachment; filename=revlist-d242adf2067e-6c8b0f64270a.txt
 
 c0e93b029bee7ec08f1de9d8886e234644cf7627 arm64: dts: qcom: sc7180: Rename the qmp node to power-controller
 0cc147305586efc2744f7f83b5abaaec09cb11f8 arm64: dts: qcom: sdm845: Rename the qmp node to power-controller
@@ -50,5 +47,9 @@ d53655e39ae5627038274b181003a35c25d09ce8 arm64: dts: qcom: sm8350: Add remotepro
 b7dba535034132315e8b2877bdcd1d719bcc7d45 arm64: dts: qcom: sm8350-mtp: Enable remoteprocs
 cda25fd0b1eb9de1c8b3b6013bca67030d10b4ea arm64: dts: qcom: sm8350: Use enums for GCC
 107e4a5bb20c15878f152d0e0ebe9def0698cdab arm64: dts: qcom: sm8350: Add cpufreq node
+4297c9b3ab2236481e4afa59c798589c2d138798 dt-bindings: power: Add rpm power domain bindings for SM8350
+706520f647c7577c902b25c8e9cfc39fcbcaacba soc: qcom: rpmhpd: Add SM8350 power domains
+7ee6a48db9b8f26a7f85c619d6c0c72667f00be9 Merge branch 'drivers-fixes-for-5.12' into for-next
+6c8b0f64270a46b64e923b1473be04123bbf9d7d Merge branches 'arm64-for-5.13' and 'drivers-for-5.13' into for-next
 
---===============2685808230840422227==--
+--===============1671153847419283042==--
