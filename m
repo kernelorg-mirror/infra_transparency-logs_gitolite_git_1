@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7365880962685154792=="
+Content-Type: multipart/mixed; boundary="===============0758393813683488813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 06 Mar 2021 11:42:44 -0000
-Message-Id: <161503096408.17522.11888191373272759585@gitolite.kernel.org>
+Date: Sat, 06 Mar 2021 11:47:38 -0000
+Message-Id: <161503125821.20301.1693924696973721263@gitolite.kernel.org>
 
---===============7365880962685154792==
+--===============0758393813683488813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/urgent
-    old: fba111913e51a934eaad85734254eab801343836
-    new: ce29ddc47b91f97e7f69a0fb7cbb5845f52a9825
-    log: revlist-fba111913e51-ce29ddc47b91.txt
+  - ref: refs/heads/objtool/core
+    old: b52eb21aeca75790869c26b91b1d7b80b3946430
+    new: 900b4df347bbac4874149a226143a556909faba8
+    log: revlist-b52eb21aeca7-900b4df347bb.txt
 
---===============7365880962685154792==
+--===============0758393813683488813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fba111913e51-ce29ddc47b91.txt
+Content-Disposition: attachment; filename=revlist-b52eb21aeca7-900b4df347bb.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,12 +219,16 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-8a6edb5257e2a84720fe78cb179eca58ba76126f sched: Fix migration_cpu_stop() requeueing
-c20cf065d4a619d394d23290093b1002e27dff86 sched: Simplify migration_cpu_stop()
-58b1a45086b5f80f2b2842aa7ed0da51a64a302b sched: Collate affine_move_task() stoppers
-3f1bc119cd7fc987c8ed25ffb717f99403bb308c sched: Optimize migration_cpu_stop()
-9e81889c7648d48dd5fe13f41cbc99f3c362484a sched: Fix affine_move_task() self-concurrency
-50caf9c14b1498c90cf808dbba2ca29bd32ccba4 sched: Simplify set_affinity_pending refcounts
-ce29ddc47b91f97e7f69a0fb7cbb5845f52a9825 sched/membarrier: fix missing local execution of ipi_sync_rq_state()
+d54dba41999498b38a40940e1123019d50b26496 objtool: Allow UNWIND_HINT to suppress dodgy stack modifications
+d473b18b2ef62563fb874f9cae6e123f99129e3f objtool,x86: Renumber CFI_reg
+2ee0c363492f1acc1082125218e6a80c0d7d502b objtool,x86: Rewrite LEA decode
+ffc7e74f36a2c7424da262a32a0bbe59669677ef objtool,x86: Rewrite LEAVE
+16ef7f159c503c7befec7018ee0e82fdc311721e objtool,x86: Simplify register decode
+78df6245c3c82484200b9f8e306dc86fb19e9c02 objtool,x86: Support %riz encodings
+961d83b9073b1ce5834af50d3c69e5e2461c6fd3 objtool,x86: Rewrite ADD/SUB/AND
+36d92e43d01cbeeec99abdf405362243051d6b3f objtool,x86: More ModRM sugar
+8ad15c6900840e8a2163012f4581c52127622e02 objtool: Add --backup
+a2f605f9ff57397d05a8e2f282b78a69f574d305 objtool: Collate parse_options() users
+900b4df347bbac4874149a226143a556909faba8 objtool: Parse options from OBJTOOL_ARGS
 
---===============7365880962685154792==--
+--===============0758393813683488813==--
