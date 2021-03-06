@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2439480721384353485=="
+Content-Type: multipart/mixed; boundary="===============0804697944859978637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 06 Mar 2021 11:55:13 -0000
-Message-Id: <161503171349.25644.3825516983569767225@gitolite.kernel.org>
+Date: Sat, 06 Mar 2021 11:57:07 -0000
+Message-Id: <161503182788.26230.6449963595099172672@gitolite.kernel.org>
 
---===============2439480721384353485==
+--===============0804697944859978637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -13,18 +13,18 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+user: bp
 changes:
-  - ref: refs/heads/x86/cpu
-    old: 191d799ecaca4d5c7f87c624ae36581237ab8a87
-    new: 59eca2fa1934de42d8aa44d3bef655c92ea69703
-    log: revlist-191d799ecaca-59eca2fa1934.txt
+  - ref: refs/heads/x86/platform
+    old: 2430915f8291212f2bd2155176b817c34a18a2b1
+    new: e93d757c3f33c8a09f4aae579da4dc4500707471
+    log: revlist-2430915f8291-e93d757c3f33.txt
 
---===============2439480721384353485==
+--===============0804697944859978637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-191d799ecaca-59eca2fa1934.txt
+Content-Disposition: attachment; filename=revlist-2430915f8291-e93d757c3f33.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,6 +219,6 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-59eca2fa1934de42d8aa44d3bef655c92ea69703 x86/cpu/hygon: Set __max_die_per_package on Hygon
+e93d757c3f33c8a09f4aae579da4dc4500707471 x86/platform/uv: Fix indentation warning in Documentation/ABI/testing/sysfs-firmware-sgi_uv
 
---===============2439480721384353485==--
+--===============0804697944859978637==--
