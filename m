@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8928230493641699329=="
+Content-Type: multipart/mixed; boundary="===============7680683778182331845=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 06 Mar 2021 11:48:34 -0000
-Message-Id: <161503131495.20672.2019684781359915223@gitolite.kernel.org>
+Date: Sat, 06 Mar 2021 11:49:21 -0000
+Message-Id: <161503136192.20989.2459148737360217028@gitolite.kernel.org>
 
---===============8928230493641699329==
+--===============7680683778182331845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/irq/core
-    old: e749df1bbd23f4472082210650514548d8a39e9b
-    new: cbe16f35bee6880becca6f20d2ebf6b457148552
-    log: revlist-e749df1bbd23-cbe16f35bee6.txt
+  - ref: refs/heads/locking/urgent
+    old: 8b97c027dfe4ba195be08fd0e18f716005763b8a
+    new: 50bf8080a94d171e843fc013abec19d8ab9f50ae
+    log: revlist-8b97c027dfe4-50bf8080a94d.txt
 
---===============8928230493641699329==
+--===============7680683778182331845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e749df1bbd23-cbe16f35bee6.txt
+Content-Disposition: attachment; filename=revlist-8b97c027dfe4-50bf8080a94d.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,6 +219,6 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-cbe16f35bee6880becca6f20d2ebf6b457148552 genirq: Add IRQF_NO_AUTOEN for request_irq/nmi()
+50bf8080a94d171e843fc013abec19d8ab9f50ae static_call: Fix the module key fixup
 
---===============8928230493641699329==--
+--===============7680683778182331845==--
