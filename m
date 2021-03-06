@@ -1,46 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3339924251505445139=="
+Content-Type: multipart/mixed; boundary="===============2179930744986504527=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sat, 06 Mar 2021 20:42:30 -0000
-Message-Id: <161506335086.20926.8825440438499352145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Sat, 06 Mar 2021 20:42:56 -0000
+Message-Id: <161506337658.21106.16122909033282155154@gitolite.kernel.org>
 
---===============3339924251505445139==
+--===============2179930744986504527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
-  - ref: refs/heads/fixes
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-fe07bfda2fb9-a38fd8748464.txt
-  - ref: refs/heads/next/defconfig
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-fe07bfda2fb9-a38fd8748464.txt
-  - ref: refs/heads/next/drivers
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-fe07bfda2fb9-a38fd8748464.txt
-  - ref: refs/heads/next/soc
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-fe07bfda2fb9-a38fd8748464.txt
-  - ref: refs/heads/next/soc64
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-fe07bfda2fb9-a38fd8748464.txt
+  - ref: refs/heads/mem-ctrl-next
+    old: cd6eb67425788696a2a745a1edbb3c7480452679
+    new: 67f7508aba9142c996f11f9d5655cf4a890a62e7
+    log: revlist-cd6eb6742578-67f7508aba91.txt
 
---===============3339924251505445139==
+--===============2179930744986504527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-a38fd8748464.txt
+Content-Disposition: attachment; filename=revlist-cd6eb6742578-67f7508aba91.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -235,5 +219,7 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
+2a358981e236d545fba2bbabafb6df38e4149903 memory: gpmc: fix out of bounds read and dereference on gpmc_cs[]
+67f7508aba9142c996f11f9d5655cf4a890a62e7 memory: tegra: replace DEFINE_SIMPLE_ATTRIBUTE with DEFINE_DEBUGFS_ATTRIBUTE
 
---===============3339924251505445139==--
+--===============2179930744986504527==--
