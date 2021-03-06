@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4022795337637178733=="
+Content-Type: multipart/mixed; boundary="===============7365880962685154792=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 06 Mar 2021 11:40:50 -0000
-Message-Id: <161503085079.16737.3530137558965275439@gitolite.kernel.org>
+Date: Sat, 06 Mar 2021 11:42:44 -0000
+Message-Id: <161503096408.17522.11888191373272759585@gitolite.kernel.org>
 
---===============4022795337637178733==
+--===============7365880962685154792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/core
-    old: e6560d58334ca463061ade733674abc8dd0df9bd
-    new: 4117cebf1a9fcbf35b9aabf0e37b6c5eea296798
-    log: revlist-e6560d58334c-4117cebf1a9f.txt
+  - ref: refs/heads/sched/urgent
+    old: fba111913e51a934eaad85734254eab801343836
+    new: ce29ddc47b91f97e7f69a0fb7cbb5845f52a9825
+    log: revlist-fba111913e51-ce29ddc47b91.txt
 
---===============4022795337637178733==
+--===============7365880962685154792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6560d58334c-4117cebf1a9f.txt
+Content-Disposition: attachment; filename=revlist-fba111913e51-ce29ddc47b91.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -226,26 +226,5 @@ c20cf065d4a619d394d23290093b1002e27dff86 sched: Simplify migration_cpu_stop()
 9e81889c7648d48dd5fe13f41cbc99f3c362484a sched: Fix affine_move_task() self-concurrency
 50caf9c14b1498c90cf808dbba2ca29bd32ccba4 sched: Simplify set_affinity_pending refcounts
 ce29ddc47b91f97e7f69a0fb7cbb5845f52a9825 sched/membarrier: fix missing local execution of ipi_sync_rq_state()
-e140749c9f194d65f5984a5941e46758377c93c0 sched: Simplify migration_cpu_stop()
-183f47fcaa54a5ffe671d990186d330ac8c63b10 kcov: Remove kcov include from sched.h and move it to its users.
-0826530de3cbdc89e60a89e86def94a5f0fc81ca sched/fair: Remove update of blocked load from newidle_balance
-ab2dde5e98db23387147fb4e7a52b6cf8141cdb3 sched/fair: Remove unused return of _nohz_idle_balance
-64f84f273592d17dcdca20244168ad9f525a39c3 sched/fair: Remove unused parameter of update_nohz_stats
-7a82e5f52a3506bc35a4dc04d53ad2c9daf82e7f sched/fair: Merge for each idle cpu loop of ILB
-6553fc18179113a11835d5fde1735259f8943a55 sched/fair: Reorder newidle_balance pulled_task tests
-c6f886546cb8a38617cdbe755fe50d3acd2463e4 sched/fair: Trigger the update of blocked load on newly idle cpu
-39b6a429c30482c349f1bb3746470fe473cbdb0f sched/fair: Reduce the window for duplicated update
-0372e1cf70c28de6babcba38ef97b6ae3400b101 sched/fair: Fix task utilization accountability in compute_energy()
-736cc6b31102236a55470c72523ed0a65eb3f804 sched/fair: use lsub_positive in cpu_util_next()
-39a2a6eb5c9b66ea7c8055026303b3aa681b49a5 sched/fair: Fix shift-out-of-bounds in load_balance()
-b89997aa88f0b07d8a6414c908af75062103b8c9 sched/pelt: Fix task util_est update filtering
-3ae70c251f344976428d1f6ee61ea7b4e170fec3 cpu/hotplug: Allowing to reset fail injection
-62f250694092dd5fef9900dc3126f07110bf9d48 cpu/hotplug: CPUHP_BRINGUP_CPU failure exception
-453e41085183980087f8a80dada523caf1131c3c cpu/hotplug: Add cpuhp_invoke_callback_range()
-585b6d2723dc927ebc4ad884c4e879e4da8bc21f sched/topology: fix the issue groups don't span domain->span for NUMA diameter > 2
-e7fcd762282332f765af2035a9568fb126fa3c01 psi: Add PSI_CPU_FULL state
-7fae6c8171d20ac55402930ee8ae760cf85dff7b psi: Use ONCPU state tracking machinery to detect reclaim
-fddc8bab531e217806b84906681324377d741c6c psi: Pressure states are unlikely
-4117cebf1a9fcbf35b9aabf0e37b6c5eea296798 psi: Optimize task switch inside shared cgroups
 
---===============4022795337637178733==--
+--===============7365880962685154792==--
