@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0012621062896335324=="
+Content-Type: multipart/mixed; boundary="===============7173767872049095379=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 06 Mar 2021 12:06:59 -0000
-Message-Id: <161503241983.32006.3830376916876695227@gitolite.kernel.org>
+Date: Sat, 06 Mar 2021 12:07:11 -0000
+Message-Id: <161503243133.32137.6706069964490920927@gitolite.kernel.org>
 
---===============0012621062896335324==
+--===============7173767872049095379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/x86/mm
-    old: a78eda76b92b81ae3515bcda43a36d671e287c1c
-    new: a500fc918f7b8dc3dff2e6c74f3e73e856c18248
-    log: revlist-a78eda76b92b-a500fc918f7b.txt
+  - ref: refs/heads/auto-latest
+    old: 43e65ddac19c665411ed8554a21155fc0ec3a286
+    new: eb61be168a9dcec0397e1ff8c6dd1849663d8ba0
+    log: revlist-43e65ddac19c-eb61be168a9d.txt
+  - ref: refs/heads/master
+    old: 6c9d16834a81149d2d5d056791d2dbb6fd4f5773
+    new: eb61be168a9dcec0397e1ff8c6dd1849663d8ba0
+    log: revlist-6c9d16834a81-eb61be168a9d.txt
+  - ref: refs/tags/v5.12-rc2
+    old: 0000000000000000000000000000000000000000
+    new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
 
---===============0012621062896335324==
+--===============7173767872049095379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a78eda76b92b-a500fc918f7b.txt
+Content-Disposition: attachment; filename=revlist-43e65ddac19c-eb61be168a9d.txt
 
 9c7d83ae6ba67d6c6199cce24573983db3b56332 pstore: Fix warning in pstore_kill_sb()
 a3cb15cda1b8213387f258caad6b13afcc378fd5 dt-bindings: bcm2711-hdmi: Fix broken schema
@@ -200,6 +207,52 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
+70c9d959226b7c5c48c119e2c1cfc1424f87b023 x86/vdso: Use proper modifier for len's format specifier in extract()
+8bd7b3980ca62904814d536b3a2453001992a0c3 x86/unwind/orc: Disable KASAN checking in the ORC unwinder, part 2
+d072f941c1e234f8495cc4828370b180318bf49b x86/unwind/orc: Silence warnings caused by missing ORC data
+e59ba7bf71a09e474198741563e0e587ae43d1c7 x86/entry: Fix entry/exit mismatch on failed fast 32-bit syscalls
+f3db3365c069c2a8505cdee8033fe3d22d2fe6c0 x86/sev-es: Remove subtraction of res variable
+e93d757c3f33c8a09f4aae579da4dc4500707471 x86/platform/uv: Fix indentation warning in Documentation/ABI/testing/sysfs-firmware-sgi_uv
+8a6edb5257e2a84720fe78cb179eca58ba76126f sched: Fix migration_cpu_stop() requeueing
+c20cf065d4a619d394d23290093b1002e27dff86 sched: Simplify migration_cpu_stop()
+e140749c9f194d65f5984a5941e46758377c93c0 sched: Simplify migration_cpu_stop()
+183f47fcaa54a5ffe671d990186d330ac8c63b10 kcov: Remove kcov include from sched.h and move it to its users.
+0826530de3cbdc89e60a89e86def94a5f0fc81ca sched/fair: Remove update of blocked load from newidle_balance
+58b1a45086b5f80f2b2842aa7ed0da51a64a302b sched: Collate affine_move_task() stoppers
+ab2dde5e98db23387147fb4e7a52b6cf8141cdb3 sched/fair: Remove unused return of _nohz_idle_balance
+3f1bc119cd7fc987c8ed25ffb717f99403bb308c sched: Optimize migration_cpu_stop()
+64f84f273592d17dcdca20244168ad9f525a39c3 sched/fair: Remove unused parameter of update_nohz_stats
+9e81889c7648d48dd5fe13f41cbc99f3c362484a sched: Fix affine_move_task() self-concurrency
+7a82e5f52a3506bc35a4dc04d53ad2c9daf82e7f sched/fair: Merge for each idle cpu loop of ILB
+50caf9c14b1498c90cf808dbba2ca29bd32ccba4 sched: Simplify set_affinity_pending refcounts
+6553fc18179113a11835d5fde1735259f8943a55 sched/fair: Reorder newidle_balance pulled_task tests
+ce29ddc47b91f97e7f69a0fb7cbb5845f52a9825 sched/membarrier: fix missing local execution of ipi_sync_rq_state()
+c6f886546cb8a38617cdbe755fe50d3acd2463e4 sched/fair: Trigger the update of blocked load on newly idle cpu
+39b6a429c30482c349f1bb3746470fe473cbdb0f sched/fair: Reduce the window for duplicated update
+0372e1cf70c28de6babcba38ef97b6ae3400b101 sched/fair: Fix task utilization accountability in compute_energy()
+736cc6b31102236a55470c72523ed0a65eb3f804 sched/fair: use lsub_positive in cpu_util_next()
+39a2a6eb5c9b66ea7c8055026303b3aa681b49a5 sched/fair: Fix shift-out-of-bounds in load_balance()
+b89997aa88f0b07d8a6414c908af75062103b8c9 sched/pelt: Fix task util_est update filtering
+3ae70c251f344976428d1f6ee61ea7b4e170fec3 cpu/hotplug: Allowing to reset fail injection
+62f250694092dd5fef9900dc3126f07110bf9d48 cpu/hotplug: CPUHP_BRINGUP_CPU failure exception
+453e41085183980087f8a80dada523caf1131c3c cpu/hotplug: Add cpuhp_invoke_callback_range()
+585b6d2723dc927ebc4ad884c4e879e4da8bc21f sched/topology: fix the issue groups don't span domain->span for NUMA diameter > 2
+e7fcd762282332f765af2035a9568fb126fa3c01 psi: Add PSI_CPU_FULL state
+7fae6c8171d20ac55402930ee8ae760cf85dff7b psi: Use ONCPU state tracking machinery to detect reclaim
+fddc8bab531e217806b84906681324377d741c6c psi: Pressure states are unlikely
+4117cebf1a9fcbf35b9aabf0e37b6c5eea296798 psi: Optimize task switch inside shared cgroups
+d54dba41999498b38a40940e1123019d50b26496 objtool: Allow UNWIND_HINT to suppress dodgy stack modifications
+d473b18b2ef62563fb874f9cae6e123f99129e3f objtool,x86: Renumber CFI_reg
+2ee0c363492f1acc1082125218e6a80c0d7d502b objtool,x86: Rewrite LEA decode
+ffc7e74f36a2c7424da262a32a0bbe59669677ef objtool,x86: Rewrite LEAVE
+16ef7f159c503c7befec7018ee0e82fdc311721e objtool,x86: Simplify register decode
+78df6245c3c82484200b9f8e306dc86fb19e9c02 objtool,x86: Support %riz encodings
+961d83b9073b1ce5834af50d3c69e5e2461c6fd3 objtool,x86: Rewrite ADD/SUB/AND
+36d92e43d01cbeeec99abdf405362243051d6b3f objtool,x86: More ModRM sugar
+8ad15c6900840e8a2163012f4581c52127622e02 objtool: Add --backup
+a2f605f9ff57397d05a8e2f282b78a69f574d305 objtool: Collate parse_options() users
+900b4df347bbac4874149a226143a556909faba8 objtool: Parse options from OBJTOOL_ARGS
+cbe16f35bee6880becca6f20d2ebf6b457148552 genirq: Add IRQF_NO_AUTOEN for request_irq/nmi()
 50bf8080a94d171e843fc013abec19d8ab9f50ae static_call: Fix the module key fixup
 8d0968cc6b8ffd8496c2ebffdfdc801f949a85e5 locking/csd_lock: Add boot parameter for controlling CSD lock debugging
 de7b09ef658d637eed0584eaba30884e409aef31 locking/csd_lock: Prepare more CSD lock debugging
@@ -208,6 +261,10 @@ a5aabace5fb8abf2adcfcf0fe54c089b20d71755 locking/csd_lock: Add more data to CSD 
 3e31f94752e454bdd0ca4a1d046ee21f80c166c5 lockdep: Add lockdep_assert_not_held()
 f8cfa46608f8aa5ca5421ce281ab314129c15411 lockdep: Add lockdep lock state defines
 bdb1050ee1faaec1e78c15de8b1959176f26c655 ath10k: Detect conf_mutex held ath10k_drain_tx() calls
+a5398bffc01fe044848c5024e5e867e407f239b8 perf/core: Flush PMU internal buffers for per-CPU events
+afbef30149587ad46f4780b1e0cc5e219745ce90 perf/x86/intel: Set PERF_ATTACH_SCHED_CB for large PEBS and LBR
+eca8f0c80a005aea84df507a446fc0154fc55a32 hrtimer: Update softirq_expires_next correctly after __hrtimer_get_next_event()
+59eca2fa1934de42d8aa44d3bef655c92ea69703 x86/cpu/hygon: Set __max_die_per_package on Hygon
 a32a4d8a815c4eb6dc64b8962dc13a9dfae70868 smp: Run functions concurrently in smp_call_function_many_cond()
 4c1ba3923e6c8aa736e40f481a278c21b956c072 x86/mm/tlb: Unify flush_tlb_func_local() and flush_tlb_func_remote()
 6035152d8eebe16a5bb60398d3e05dc7799067b0 x86/mm/tlb: Open-code on_each_cpu_cond_mask() for tlb_is_not_lazy()
@@ -219,5 +276,214 @@ a32a4d8a815c4eb6dc64b8962dc13a9dfae70868 smp: Run functions concurrently in smp_
 a5aa5ce300597224ec76dacc8e63ba3ad7a18bbd smp: Inline on_each_cpu_cond() and on_each_cpu()
 d43f17a1da25373580ebb466de7d0641acbf6fd6 smp: Micro-optimize smp_call_function_many_cond()
 a500fc918f7b8dc3dff2e6c74f3e73e856c18248 Merge branch 'locking/core' into x86/mm, to resolve conflict
+7c8cb4d62982fb32bfbdf5c7e1728e5c894bfe7c Merge branch 'x86/urgent'
+1c962b40edf8f99a4dc41fd896a38e4b1e26d51c Merge branch 'x86/seves'
+35dcfeb56223b46ab2e5ed0c97c39cef230f9e8d Merge branch 'x86/platform'
+2d9bb285951c0220efcf3dc30abeabe51c1da452 Merge branch 'x86/mm'
+b5806235c82fcae0b48ab5062eb86cc5a90d7857 Merge branch 'x86/cpu'
+e8daa340b4ac8d1e89ef4cd63c73730b276e4a61 Merge branch 'timers/urgent'
+e86a4648c510870e9389b61d609a1e7933318c31 Merge branch 'sched/urgent'
+e3adc0350dc92f56ffd222e0cc0e8f6905067741 Merge branch 'sched/core'
+65707343d56bf9179b45d032aa49bd7ce3ad3f8d Merge branch 'perf/urgent'
+e90fe65fe8eb7135325bcfee4fe68e031414d2a9 Merge branch 'objtool/core'
+eb61be168a9dcec0397e1ff8c6dd1849663d8ba0 Merge branch 'irq/core'
 
---===============0012621062896335324==--
+--===============7173767872049095379==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6c9d16834a81-eb61be168a9d.txt
+
+9c7d83ae6ba67d6c6199cce24573983db3b56332 pstore: Fix warning in pstore_kill_sb()
+a3cb15cda1b8213387f258caad6b13afcc378fd5 dt-bindings: bcm2711-hdmi: Fix broken schema
+497a4dc8276d25130ef0034363c68c106447d9f5 dts: drop dangling c6x symlink
+0f47227705d88382d9a8f98013d56442066d90ca block: revert "block: fix bd_size_lock use"
+44cc89f764646b2f1f2ea5d1a08b230131707851 PM: runtime: Update device status before letting suppliers suspend
+f3c141057976120148ca32d9d030a2256a5ffb7b powercap/drivers/dtpm: Fix root node initialization
+9e2be308f023a741a0d4024bef508ef88dfb3a43 powercap/drivers/dtpm: Add the experimental label to the option description
+5218e12e9f3a324f41c05da4874d76d7ea3677cb block: Drop leftover references to RQF_SORTED
+65d43023171edc0d27208f6ac7a1a73732950cf7 io-wq: wait for worker startup when forking a new one
+b5a95bb1883e2bac1009cc88e65c71cff6f931e6 dt-bindings: media: Use graph and video-interfaces schemas, round 2
+221384df6123747d2a75517dd06cc01752f81518 RDMA/cm: Fix IRQ restore in ib_send_cm_sidr_rep
+475f23b8c66d2892ad6acbf90ed757cafab13de7 RDMA/rxe: Fix missing kconfig dependency on CRYPTO
+3a9b3d4536e0c25bd3906a28c1f584177e49dd0f IB/mlx5: Add missing error code
+b924a8197ac7660eb358ed0277bd5b12f9b40fe2 gcc-plugins: structleak: remove unneeded variable 'ret'
+5477edcacaacb8af8169450180a1d3bd0dfb9c99 gcc-plugins: latent_entropy: remove unneeded semicolon
+aedb9d9089ceb1c86be495bcc70e6021c01f92ff btrfs: ref-verify: use 'inline void' keyword ordering
+4f6a49de64fd1b1dba5229c02047376da7cf24fd btrfs: unlock extents in btrfs_zero_range in case of quota reservation errors
+5011c5a663b9c6d6aff3d394f11049b371199627 btrfs: validate qgroup inherit for SNAP_CREATE_V2 ioctl
+c55a4319c4f2c3ba0a385b1ebc454fa283cfe920 btrfs: fix spurious free_space_tree remount warning
+0f9c03d824f6f522d3bc43629635c9765546ebc5 btrfs: free correct amount of space in btrfs_delayed_inode_reserve_metadata
+80e9baed722c853056e0c5374f51524593cb1031 btrfs: export and rename qgroup_reserve_meta
+4d14c5cde5c268a2bc26addecf09489cb953ef64 btrfs: don't flush from btrfs_delayed_inode_reserve_metadata
+fd57a98d6f0c98fa295813087f13afb26c224e73 btrfs: fix warning when creating a directory with smack enabled
+c28ea613fafad910d08f67efe76ae552b1434e44 btrfs: subpage: fix the false data csum mismatch error
+e4ef09e512940846fad77b1934065c166870b85a rsxx: remove unused including <linux/version.h>
+4168a8d27ed3a00f160e7f885c956f060d2a0741 block/bfq: update comments and default value in docs for fifo_expire
+7db688e99c0f770ae73e0f1f3fb67f9b64266445 pstore/ram: Rate-limit "uncorrectable error in header" message
+999340d51174ce4141dd723105d4cef872b13ee9 ftrace: Have recordmcount use w8 to read relp->r_info in arm64_is_fake_mcount
+77516d25f54912a7baedeeac1b1b828b6f285152 rsxx: Return -EFAULT if copy_to_user() fails
+f91803998cf60fbbd4f10d24def676bf8b2a1a7e RDMA/mlx5: Set correct kernel-doc identifier
+cca7f12b939bd75f3a5e2b0fa20e3de67d1d33b1 RDMA/uverbs: Fix kernel-doc warning of _uverbs_alloc
+ff70784ab9f89e78e67d5d172bf7644de673f61f ACPI: bus: Constify is_acpi_node() and friends (part 2)
+140456f994195b568ecd7fc2287a34eadffef3ca iommu/amd: Fix sleeping in atomic in increase_address_space()
+765a9d1d02b2f5996b05f5f65faa8a634adbe763 iommu/tegra-smmu: Fix mc errors on tegra124-nyan
+82c3cefb9f1652e7470f442ff96c613e8c8ed8f4 iommu: Don't use lazy flush for untrusted device
+444d66a23c1f1e4c4d12aed4812681d0ad835d60 iommu/vt-d: Fix status code for Allocate/Free PASID command
+fb3a1f6c745ccd896afadf6e2d6f073e871d38ba io-wq: have manager wait for all workers to exit
+613eeb600e3e636a1d3b3711dddaf2b134d5a32c io-wq: don't ask for a new worker if we're exiting
+dbf996202e28c6b1eb30afad534abe45a691499e io-wq: rename wq->done completion to wq->started
+d364d9e5db41678b77ed95c41e3ccaad9ab99ba0 io-wq: wait for manager exit on wq destroy
+470ec4ed8c91b4db398ad607c700e9ce88365202 io-wq: fix double put of 'wq' in error path
+e54945ae947fb881212a4b97d5599a01bba6ad06 io_uring: SQPOLL stop error handling fixes
+ba50a036f23c44608b1d903c34644a1acd5d21fa io_uring: run fallback on cancellation
+8629397e6e2753bb4cc62ba48a12e1d4d912b6a4 io_uring: don't use complete_all() on SQPOLL thread exit
+afcc4015d1bf5659b8c722aff679e9b8c41ee156 io-wq: provide an io_wq_put_and_exit() helper
+1d5f360dd1a3c04e00a52af74dd84fdb0e1d454b io_uring: fix race condition in task_work add and clear
+ef8eaa4e65facb1f51a64dbb4f5500134622c67c io_uring: warn on not destroyed io-wq
+8452d4a674b0e59bd53baef0b30b018690dde594 io_uring: destroy io-wq on exec
+4010fec41fd9fc5ca6956b958d14b32e41aded48 io_uring: remove unused argument 'tsk' from io_req_caches_free()
+1575f21a09206e914b81dace0add693346d97594 io_uring: kill unnecessary REQ_F_WORK_INITIALIZED checks
+5730b27e84fdb37353c7cc2b11c24a4f9d73626e io_uring: move cred assignment into io_issue_sqe()
+914390bcfdd6351a4d308da7f43294476ea7d3bf io_uring: kill unnecessary io_run_ctx_fallback() in io_ring_exit_work()
+0d30b3e7eea94cc818fadf2ac0dd189c616028f8 io_uring: kill io_uring_flush()
+2c32395d8111037ae2cb8cab883e80bcdbb70713 io_uring: fix __tctx_task_work() ctx race
+28c4721b80a702462fb77373c23428ee698fa5dd io_uring: replace cmpxchg in fallback with xchg
+3ebba796fa251d042be42b929a2d916ee5c34a49 io_uring: ensure that SQPOLL thread is started for exit
+1c3b3e6527e57156bf4082f11c2151957560fe6a io_uring: ignore double poll add on the same waitqueue head
+70aacfe66136809d7f080f89c492c278298719f4 io_uring: kill sqo_dead and sqo submission halting
+16270893d71219816513a255e6c3163bc7224ce4 io_uring: remove sqo_task
+dc7bbc9ef361bea331bf5258a35abcdef619d44d io-wq: fix error path leak of buffered write hash map
+3e6a0d3c7571ce3ed0d25c5c32543a54a7ebcd75 io_uring: fix -EAGAIN retry with IOPOLL
+64c7212391e778949aa3055fb3863439417ddba9 io_uring: choose right tctx->io_wq for try cancel
+f85c310ac376ce81a954507315ff11be4ddbf214 io_uring: inline io_req_clean_work()
+ebf936670721be805a9cb87781a5ee9271ba4633 io_uring: inline __io_queue_async_work()
+b23fcf477f85164f3b33b2e8c2c99b2ec61ba902 io_uring: remove extra in_idle wake up
+e4b4a13f494120c475580927864cc1dd96f595d1 io_uring: ensure that threads freeze on suspend
+f01272541d2cd7b7f24909d63ea2b028a6a66293 io-wq: ensure all pending work is canceled on exit
+70d443d8463339869f371e77fa594b850f374565 tracing: Remove duplicate declaration from trace.h
+69268094a1c16f3f44b369f9da78ce98bab5f244 tracing: Fix help text of TRACEPOINT_BENCHMARK in Kconfig
+6f6be606e763f2da9fc21de00538c97fe4ca1492 ring-buffer: Force before_stamp and write_stamp to be different on discard
+6549de1fe34162d7ace8b870ae11ca6cae5b8609 ring-buffer: Add a little more information and a WARN when time stamp going backwards is detected
+f40fc799afc598b3d130d5a0ada994c9d4fb6cf8 tracing: Fix memory leak in __create_synth_event()
+ee666a185558ac9a929e53b902a568442ed62416 tracing: Skip selftests if tracing is disabled
+f9f344479d8b40b3b001c913fb992d85d19261d0 tracing: Fix comment about the trace_event_call flags
+d734492a14a2da6e7bcce8cf66436a9cf4e51ddf btrfs: zoned: use sector_t for zone sectors
+badae9c86979c459bd7d895d6d7ddc7a01131ff7 btrfs: zoned: do not account freed region of read-only block group as zone_unusable
+a14e5ec66a7a66e57b24e2469f9212a78460207e dm bufio: subtract the number of initial sectors in dm_bufio_get_device_size
+df7b59ba9245c4a3115ebaa905e3e5719a3810da dm verity: fix FEC for RS roots unaligned to block size
+b05a1bcd40184f12f2cd87db79e871aa8c17563f io_uring: cancel-match based on flags
+dd59a3d595cc10230ded4c8b727b096e16bceeb5 io_uring: reliably cancel linked timeouts
+cc440e8738e5c875297ac0e90316745093be7e28 kernel: provide create_io_thread() helper
+5e112d3fb89703a4981ded60561b5647db3693bf nvme-pci: mark Seagate Nytro XM1440 as QUIRK_NO_NS_DESC_LIST.
+dc22c1c058b5c4fe967a20589e36f029ee42a706 nvme-pci: mark Kingston SKC2000 as not supporting the deepest power state
+6e6a6828c517fb6819479bf5187df5f39084eb9e nvme-pci: add quirks for Lexar 256GB SSD
+78570f8873c8cd44c12714c7fa7db2601ec5617d nvme-hwmon: Return error code when registration fails
+32feb6de47242e54692eceab52cfae8616aa0518 nvme-fabrics: fix kato initialization
+d9f273b7585c380d7a10d4b3187ddc2d37f2740b nvmet: model_number must be immutable once set
+7bff4c26b6d2c82bebf8630f31b1cca11b1bd562 Merge branch 'powercap'
+46fe18b16c4656969347fc0a3d83a034e47d9119 io_uring: move to using create_io_thread()
+ca0a26511c679a797f86589894a4523db36d833e io_uring: don't keep looping for more events if we can't flush overflow
+b5b0ecb736f1ce1e68eb50613c0cfecff10198eb io_uring: clear IOCB_WAITQ for non -EIOCBQUEUED return
+09ca6c40c2024211657fdb2c50522a355610c3b7 io-wq: kill hashed waitqueue before manager exits
+86e0d6766cf909813474857bd22fdc04c97c0b36 io_uring: make SQPOLL thread parking saner
+a2b658e4a07d05fcf056e2b9524ed8cc214f486a Merge tag 'nvme-5.12-2021-03-05' of git://git.infradead.org/nvme into block-5.12
+e45cff58858883290c98f65d409839a7295c95f3 io_uring: don't restrict issue_flags for io_openat
+21e27ac82db637d2f48f07b3777aae8e7ca52613 RDMA/rxe: Fix missed IB reference counting in loopback
+5e4a7ccc965d951b0885875e903a32c6d4368573 RDMA/rxe: Fix extra deref in rxe_rcv_mcast_pkt()
+545c4ab463c2224557e56b2609f88ed5be265405 RDMA/rxe: Fix errant WARN_ONCE in rxe_completer()
+54663cf398e7b2c9e44aeffe41be04cecb9d47c5 Merge tag 'trace-v5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+6bf331d5ce8332a47534b5092cd06a7a22451beb Merge tag 'devicetree-fixes-for-5.12-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+f09b04cc6447331e731629e8b72587287f3a4490 Merge tag 'for-5.12-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+fc2c8d0af05af4c380824e40ff99ede398913ae5 Merge tag 'iommu-fixes-v5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
+ea6be461cbedefaa881711a43f2842aabbd12fd4 Merge tag 'acpi-5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+6d47254c063426541e7134fc5632243356ee74b1 Merge tag 'pm-5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of git://git.kernel.dk/linux-block
+47454caf45f0481988912a4980ef751a1c637b76 Merge tag 'block-5.12-2021-03-05' of git://git.kernel.dk/linux-block
+63dcd69d9b497c045c4169cddc6a24e1a7428f88 Merge tag 'for-5.12/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+8b24ef44789c990329a15a287ae0e634720745e8 Merge tag 'pstore-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
+70c9d959226b7c5c48c119e2c1cfc1424f87b023 x86/vdso: Use proper modifier for len's format specifier in extract()
+8bd7b3980ca62904814d536b3a2453001992a0c3 x86/unwind/orc: Disable KASAN checking in the ORC unwinder, part 2
+d072f941c1e234f8495cc4828370b180318bf49b x86/unwind/orc: Silence warnings caused by missing ORC data
+e59ba7bf71a09e474198741563e0e587ae43d1c7 x86/entry: Fix entry/exit mismatch on failed fast 32-bit syscalls
+f3db3365c069c2a8505cdee8033fe3d22d2fe6c0 x86/sev-es: Remove subtraction of res variable
+e93d757c3f33c8a09f4aae579da4dc4500707471 x86/platform/uv: Fix indentation warning in Documentation/ABI/testing/sysfs-firmware-sgi_uv
+8a6edb5257e2a84720fe78cb179eca58ba76126f sched: Fix migration_cpu_stop() requeueing
+c20cf065d4a619d394d23290093b1002e27dff86 sched: Simplify migration_cpu_stop()
+e140749c9f194d65f5984a5941e46758377c93c0 sched: Simplify migration_cpu_stop()
+183f47fcaa54a5ffe671d990186d330ac8c63b10 kcov: Remove kcov include from sched.h and move it to its users.
+0826530de3cbdc89e60a89e86def94a5f0fc81ca sched/fair: Remove update of blocked load from newidle_balance
+58b1a45086b5f80f2b2842aa7ed0da51a64a302b sched: Collate affine_move_task() stoppers
+ab2dde5e98db23387147fb4e7a52b6cf8141cdb3 sched/fair: Remove unused return of _nohz_idle_balance
+3f1bc119cd7fc987c8ed25ffb717f99403bb308c sched: Optimize migration_cpu_stop()
+64f84f273592d17dcdca20244168ad9f525a39c3 sched/fair: Remove unused parameter of update_nohz_stats
+9e81889c7648d48dd5fe13f41cbc99f3c362484a sched: Fix affine_move_task() self-concurrency
+7a82e5f52a3506bc35a4dc04d53ad2c9daf82e7f sched/fair: Merge for each idle cpu loop of ILB
+50caf9c14b1498c90cf808dbba2ca29bd32ccba4 sched: Simplify set_affinity_pending refcounts
+6553fc18179113a11835d5fde1735259f8943a55 sched/fair: Reorder newidle_balance pulled_task tests
+ce29ddc47b91f97e7f69a0fb7cbb5845f52a9825 sched/membarrier: fix missing local execution of ipi_sync_rq_state()
+c6f886546cb8a38617cdbe755fe50d3acd2463e4 sched/fair: Trigger the update of blocked load on newly idle cpu
+39b6a429c30482c349f1bb3746470fe473cbdb0f sched/fair: Reduce the window for duplicated update
+0372e1cf70c28de6babcba38ef97b6ae3400b101 sched/fair: Fix task utilization accountability in compute_energy()
+736cc6b31102236a55470c72523ed0a65eb3f804 sched/fair: use lsub_positive in cpu_util_next()
+39a2a6eb5c9b66ea7c8055026303b3aa681b49a5 sched/fair: Fix shift-out-of-bounds in load_balance()
+b89997aa88f0b07d8a6414c908af75062103b8c9 sched/pelt: Fix task util_est update filtering
+3ae70c251f344976428d1f6ee61ea7b4e170fec3 cpu/hotplug: Allowing to reset fail injection
+62f250694092dd5fef9900dc3126f07110bf9d48 cpu/hotplug: CPUHP_BRINGUP_CPU failure exception
+453e41085183980087f8a80dada523caf1131c3c cpu/hotplug: Add cpuhp_invoke_callback_range()
+585b6d2723dc927ebc4ad884c4e879e4da8bc21f sched/topology: fix the issue groups don't span domain->span for NUMA diameter > 2
+e7fcd762282332f765af2035a9568fb126fa3c01 psi: Add PSI_CPU_FULL state
+7fae6c8171d20ac55402930ee8ae760cf85dff7b psi: Use ONCPU state tracking machinery to detect reclaim
+fddc8bab531e217806b84906681324377d741c6c psi: Pressure states are unlikely
+4117cebf1a9fcbf35b9aabf0e37b6c5eea296798 psi: Optimize task switch inside shared cgroups
+d54dba41999498b38a40940e1123019d50b26496 objtool: Allow UNWIND_HINT to suppress dodgy stack modifications
+d473b18b2ef62563fb874f9cae6e123f99129e3f objtool,x86: Renumber CFI_reg
+2ee0c363492f1acc1082125218e6a80c0d7d502b objtool,x86: Rewrite LEA decode
+ffc7e74f36a2c7424da262a32a0bbe59669677ef objtool,x86: Rewrite LEAVE
+16ef7f159c503c7befec7018ee0e82fdc311721e objtool,x86: Simplify register decode
+78df6245c3c82484200b9f8e306dc86fb19e9c02 objtool,x86: Support %riz encodings
+961d83b9073b1ce5834af50d3c69e5e2461c6fd3 objtool,x86: Rewrite ADD/SUB/AND
+36d92e43d01cbeeec99abdf405362243051d6b3f objtool,x86: More ModRM sugar
+8ad15c6900840e8a2163012f4581c52127622e02 objtool: Add --backup
+a2f605f9ff57397d05a8e2f282b78a69f574d305 objtool: Collate parse_options() users
+900b4df347bbac4874149a226143a556909faba8 objtool: Parse options from OBJTOOL_ARGS
+cbe16f35bee6880becca6f20d2ebf6b457148552 genirq: Add IRQF_NO_AUTOEN for request_irq/nmi()
+50bf8080a94d171e843fc013abec19d8ab9f50ae static_call: Fix the module key fixup
+8d0968cc6b8ffd8496c2ebffdfdc801f949a85e5 locking/csd_lock: Add boot parameter for controlling CSD lock debugging
+de7b09ef658d637eed0584eaba30884e409aef31 locking/csd_lock: Prepare more CSD lock debugging
+a5aabace5fb8abf2adcfcf0fe54c089b20d71755 locking/csd_lock: Add more data to CSD lock debugging
+864b435514b286c0be2a38a02f487aa28d990ef8 x86/jump_label: Mark arguments as const to satisfy asm constraints
+3e31f94752e454bdd0ca4a1d046ee21f80c166c5 lockdep: Add lockdep_assert_not_held()
+f8cfa46608f8aa5ca5421ce281ab314129c15411 lockdep: Add lockdep lock state defines
+bdb1050ee1faaec1e78c15de8b1959176f26c655 ath10k: Detect conf_mutex held ath10k_drain_tx() calls
+a5398bffc01fe044848c5024e5e867e407f239b8 perf/core: Flush PMU internal buffers for per-CPU events
+afbef30149587ad46f4780b1e0cc5e219745ce90 perf/x86/intel: Set PERF_ATTACH_SCHED_CB for large PEBS and LBR
+eca8f0c80a005aea84df507a446fc0154fc55a32 hrtimer: Update softirq_expires_next correctly after __hrtimer_get_next_event()
+59eca2fa1934de42d8aa44d3bef655c92ea69703 x86/cpu/hygon: Set __max_die_per_package on Hygon
+a32a4d8a815c4eb6dc64b8962dc13a9dfae70868 smp: Run functions concurrently in smp_call_function_many_cond()
+4c1ba3923e6c8aa736e40f481a278c21b956c072 x86/mm/tlb: Unify flush_tlb_func_local() and flush_tlb_func_remote()
+6035152d8eebe16a5bb60398d3e05dc7799067b0 x86/mm/tlb: Open-code on_each_cpu_cond_mask() for tlb_is_not_lazy()
+4ce94eabac16b1d2c95762b40f49e5654ab288d7 x86/mm/tlb: Flush remote and local TLBs concurrently
+2f4305b19fe6a2a261d76c21856c5598f7d878fe x86/mm/tlb: Privatize cpu_tlbstate
+09c5272e48614a30598e759c3c7bed126d22037d x86/mm/tlb: Do not make is_lazy dirty for no reason
+291c4011dd7ac0cd0cebb727a75ee5a50d16dcf7 cpumask: Mark functions as pure
+1608e4cf31b88c8c448ce13aa1d77969dda6bdb7 x86/mm/tlb: Remove unnecessary uses of the inline keyword
+a5aa5ce300597224ec76dacc8e63ba3ad7a18bbd smp: Inline on_each_cpu_cond() and on_each_cpu()
+d43f17a1da25373580ebb466de7d0641acbf6fd6 smp: Micro-optimize smp_call_function_many_cond()
+a500fc918f7b8dc3dff2e6c74f3e73e856c18248 Merge branch 'locking/core' into x86/mm, to resolve conflict
+7c8cb4d62982fb32bfbdf5c7e1728e5c894bfe7c Merge branch 'x86/urgent'
+1c962b40edf8f99a4dc41fd896a38e4b1e26d51c Merge branch 'x86/seves'
+35dcfeb56223b46ab2e5ed0c97c39cef230f9e8d Merge branch 'x86/platform'
+2d9bb285951c0220efcf3dc30abeabe51c1da452 Merge branch 'x86/mm'
+b5806235c82fcae0b48ab5062eb86cc5a90d7857 Merge branch 'x86/cpu'
+e8daa340b4ac8d1e89ef4cd63c73730b276e4a61 Merge branch 'timers/urgent'
+e86a4648c510870e9389b61d609a1e7933318c31 Merge branch 'sched/urgent'
+e3adc0350dc92f56ffd222e0cc0e8f6905067741 Merge branch 'sched/core'
+65707343d56bf9179b45d032aa49bd7ce3ad3f8d Merge branch 'perf/urgent'
+e90fe65fe8eb7135325bcfee4fe68e031414d2a9 Merge branch 'objtool/core'
+eb61be168a9dcec0397e1ff8c6dd1849663d8ba0 Merge branch 'irq/core'
+
+--===============7173767872049095379==--
