@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1325470613200085391=="
+Content-Type: multipart/mixed; boundary="===============3842215970270934913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Sat, 06 Mar 2021 20:38:18 -0000
-Message-Id: <161506309818.16778.10402496355123662131@gitolite.kernel.org>
+Date: Sat, 06 Mar 2021 20:41:18 -0000
+Message-Id: <161506327859.20416.17994702517721290246@gitolite.kernel.org>
 
---===============1325470613200085391==
+--===============3842215970270934913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
+    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    new: a38fd8748464831584a19438cbb3082b5a2dab15
+    log: revlist-fe07bfda2fb9-a38fd8748464.txt
+  - ref: refs/heads/for-next
+    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    new: a38fd8748464831584a19438cbb3082b5a2dab15
+    log: revlist-fe07bfda2fb9-a38fd8748464.txt
+  - ref: refs/heads/pinctrl-next
     old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
     new: a38fd8748464831584a19438cbb3082b5a2dab15
     log: revlist-fe07bfda2fb9-a38fd8748464.txt
 
---===============1325470613200085391==
+--===============3842215970270934913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -220,4 +228,4 @@ de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of gi
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
 
---===============1325470613200085391==--
+--===============3842215970270934913==--
