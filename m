@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7680683778182331845=="
+Content-Type: multipart/mixed; boundary="===============3985388800106499845=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 06 Mar 2021 11:49:21 -0000
-Message-Id: <161503136192.20989.2459148737360217028@gitolite.kernel.org>
+Date: Sat, 06 Mar 2021 11:51:59 -0000
+Message-Id: <161503151997.23148.1902745425557581388@gitolite.kernel.org>
 
---===============7680683778182331845==
+--===============3985388800106499845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 8b97c027dfe4ba195be08fd0e18f716005763b8a
-    new: 50bf8080a94d171e843fc013abec19d8ab9f50ae
-    log: revlist-8b97c027dfe4-50bf8080a94d.txt
+  - ref: refs/heads/locking/core
+    old: de469d82991b905548b5dc6539177f7b881dce1b
+    new: bdb1050ee1faaec1e78c15de8b1959176f26c655
+    log: revlist-de469d82991b-bdb1050ee1fa.txt
 
---===============7680683778182331845==
+--===============3985388800106499845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b97c027dfe4-50bf8080a94d.txt
+Content-Disposition: attachment; filename=revlist-de469d82991b-bdb1050ee1fa.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -220,5 +220,12 @@ de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of gi
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
 50bf8080a94d171e843fc013abec19d8ab9f50ae static_call: Fix the module key fixup
+8d0968cc6b8ffd8496c2ebffdfdc801f949a85e5 locking/csd_lock: Add boot parameter for controlling CSD lock debugging
+de7b09ef658d637eed0584eaba30884e409aef31 locking/csd_lock: Prepare more CSD lock debugging
+a5aabace5fb8abf2adcfcf0fe54c089b20d71755 locking/csd_lock: Add more data to CSD lock debugging
+864b435514b286c0be2a38a02f487aa28d990ef8 x86/jump_label: Mark arguments as const to satisfy asm constraints
+3e31f94752e454bdd0ca4a1d046ee21f80c166c5 lockdep: Add lockdep_assert_not_held()
+f8cfa46608f8aa5ca5421ce281ab314129c15411 lockdep: Add lockdep lock state defines
+bdb1050ee1faaec1e78c15de8b1959176f26c655 ath10k: Detect conf_mutex held ath10k_drain_tx() calls
 
---===============7680683778182331845==--
+--===============3985388800106499845==--
