@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sun, 07 Mar 2021 23:42:34 -0000
-Message-Id: <161516055449.25965.5960738584323113536@gitolite.kernel.org>
+Date: Sun, 07 Mar 2021 23:46:07 -0000
+Message-Id: <161516076742.28543.14416588267987749806@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/libs/libcap/libcap
 user: morgan
 changes:
   - ref: refs/heads/master
-    old: 6bcf0e24a74333508baad2b7dc6185196921b1c2
-    new: 03433213deee3447971cefa36bb6c37373f0e374
+    old: 03433213deee3447971cefa36bb6c37373f0e374
+    new: fd5271195dc27b017b2470be12356c49369e0058
     log: |
-         b381e6e2ef83fce7c5476b428c27ab3e94acf1f8 Fix the README reference to the License file.
-         03433213deee3447971cefa36bb6c37373f0e374 Update the man pages with a page for cap_launch.3
+         fd5271195dc27b017b2470be12356c49369e0058 Make the cap_launch.3 documentation and code use common conventions
          
