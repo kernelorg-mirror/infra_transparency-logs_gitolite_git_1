@@ -1,81 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============8123067712985366319=="
+Content-Type: multipart/mixed; boundary="===============5005956321125783902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
-Date: Sun, 07 Mar 2021 20:34:57 -0000
-Message-Id: <161514929775.10050.7445389079641896085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 07 Mar 2021 21:29:55 -0000
+Message-Id: <161515259598.9659.16900173836651962464@gitolite.kernel.org>
 
---===============8123067712985366319==
+--===============5005956321125783902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/random-fixes-5.12
-    old: 0ee6306ef49ecb6b31e9b940360aee23f76f3d56
-    new: ac1485db9662eb5e223790049a09c2c47e10a02b
-    log: |
-         0a90a1a76f14f2e652a4de596158c637bf5d9ea4 xfs: fix quota accounting when a mount is idmapped
-         b0e755fa527b79653acf7403b4dd3667a1e181b1 xfs: avoid buffer deadlocks when walking fs inodes
-         9af07c0aa50dac4075c721f77c3ed43a629abbe1 xfs: force log and push AIL to clear pinned inodes when aborting mount
-         ac1485db9662eb5e223790049a09c2c47e10a02b xfs: drop freeze protection when running GETFSMAP
-         
-  - ref: refs/heads/random-fixes-5.13
-    old: 60d9248890f90f08b5ed3ea52c475f0ed61d388e
-    new: 53a386ec746c22277d9520166f1f8874870bd7ea
-    log: revlist-60d9248890f9-53a386ec746c.txt
-  - ref: refs/tags/random-fixes-5.12_2021-03-07
-    old: 624889922182b16bc0bf64fe2b9226e6e265b919
-    new: b6f087ed6af0590e6d993e58cbb05841a8ea1c7d
-    log: |
-         0a90a1a76f14f2e652a4de596158c637bf5d9ea4 xfs: fix quota accounting when a mount is idmapped
-         b0e755fa527b79653acf7403b4dd3667a1e181b1 xfs: avoid buffer deadlocks when walking fs inodes
-         9af07c0aa50dac4075c721f77c3ed43a629abbe1 xfs: force log and push AIL to clear pinned inodes when aborting mount
-         ac1485db9662eb5e223790049a09c2c47e10a02b xfs: drop freeze protection when running GETFSMAP
-         
-  - ref: refs/tags/random-fixes-5.13_2021-03-07
-    old: 9cca389138dd470c60b9bab81dee8af4e0a9ea88
-    new: c3f2f1a109209af28484ffca81b7a6f5f1cbfa6a
-    log: revlist-9cca389138dd-c3f2f1a10920.txt
+  - ref: refs/heads/master
+    old: a38fd8748464831584a19438cbb3082b5a2dab15
+    new: 3bb48a8506275f4d9e4593acf9f2fc0880a42f73
+    log: revlist-a38fd8748464-3bb48a850627.txt
 
---===============8123067712985366319==
+--===============5005956321125783902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60d9248890f9-53a386ec746c.txt
+Content-Disposition: attachment; filename=revlist-a38fd8748464-3bb48a850627.txt
 
-0a90a1a76f14f2e652a4de596158c637bf5d9ea4 xfs: fix quota accounting when a mount is idmapped
-b0e755fa527b79653acf7403b4dd3667a1e181b1 xfs: avoid buffer deadlocks when walking fs inodes
-9af07c0aa50dac4075c721f77c3ed43a629abbe1 xfs: force log and push AIL to clear pinned inodes when aborting mount
-ac1485db9662eb5e223790049a09c2c47e10a02b xfs: drop freeze protection when running GETFSMAP
-055e5638cde496720d6527c5cf6ef4f9b90c18be xfs: fix uninitialized variables in xrep_calc_ag_resblks
-c82c312391a548630ba57e16cdda3a610fc14ade xfs: fix dquot scrub loop cancellation
-2a788427fd35de0ed203bfec99a42f0a37704b27 xfs: bail out of scrub immediately if scan incomplete
-d6cae8ce872ae87420ca9bea04f603c8df9dd285 xfs: mark a data structure sick if there are cross-referencing errors
-b0572a6ca3ee1189777bcea5c54b86d5ab0144c1 xfs: set the scrub AG number in xchk_ag_read_headers
-6a36df0cb2787e6b0fc8efa67e51906102dfd141 xfs: remove return value from xchk_ag_btcur_init
-53a386ec746c22277d9520166f1f8874870bd7ea xfs: validate ag btree levels using the precomputed values
+eead089311f4d935ab5d1d8fbb0c42ad44699ada powerpc/4xx: Fix build errors from mfdcr()
+f9619d5e5174867536b7e558683bc4408eab833f powerpc/pseries: Don't enforce MSI affinity with kdump
+c119565a15a628efdfa51352f9f6c5186e506a1c powerpc/603: Fix protection of user pages mapped with PROT_NONE
+91b6c5dbe9e072dbdb181eed89c5c824e92ac0f5 powerpc/syscall: Force inlining of __prep_irq_for_enabled_exit()
+386a966f5ce71a0364b158c5d0a6971f4e418ea8 vio: make remove callback return void
+acdad8fb4a1574323db88f98a38b630691574e16 powerpc: Force inlining of mmu_has_feature to fix build failure
+5ae5fbd2107959b68ac69a8b75412208663aea88 powerpc/perf: Fix handling of privilege level checks in perf interrupt context
+5c88a17e15795226b56d83f579cbb9b7a4864f79 powerpc/sstep: Fix VSX instruction emulation
+778e45d7720d663811352943dd515b41f6849637 parisc: Enable -mlong-calls gcc option with CONFIG_COMPILE_TEST
+460c9f1c944b4bf04f2934478fd3f865b730b771 arch/parisc/kernel: remove duplicate include in ptrace
+a65a802aadba072ca7514fc0c301fd7fdc6fc6cb m68k: Fix virt_addr_valid() W=1 compiler warnings
+dac518707880617a2beaffc01fb1d7adf4b8008a Merge tag 'm68k-for-v5.12-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
+fbda7904302499dd7ffc073a3c84eb7c9275db0a Merge tag 'powerpc-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+3bb48a8506275f4d9e4593acf9f2fc0880a42f73 Merge branch 'parisc-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============8123067712985366319==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9cca389138dd-c3f2f1a10920.txt
-
-0a90a1a76f14f2e652a4de596158c637bf5d9ea4 xfs: fix quota accounting when a mount is idmapped
-b0e755fa527b79653acf7403b4dd3667a1e181b1 xfs: avoid buffer deadlocks when walking fs inodes
-9af07c0aa50dac4075c721f77c3ed43a629abbe1 xfs: force log and push AIL to clear pinned inodes when aborting mount
-ac1485db9662eb5e223790049a09c2c47e10a02b xfs: drop freeze protection when running GETFSMAP
-055e5638cde496720d6527c5cf6ef4f9b90c18be xfs: fix uninitialized variables in xrep_calc_ag_resblks
-c82c312391a548630ba57e16cdda3a610fc14ade xfs: fix dquot scrub loop cancellation
-2a788427fd35de0ed203bfec99a42f0a37704b27 xfs: bail out of scrub immediately if scan incomplete
-d6cae8ce872ae87420ca9bea04f603c8df9dd285 xfs: mark a data structure sick if there are cross-referencing errors
-b0572a6ca3ee1189777bcea5c54b86d5ab0144c1 xfs: set the scrub AG number in xchk_ag_read_headers
-6a36df0cb2787e6b0fc8efa67e51906102dfd141 xfs: remove return value from xchk_ag_btcur_init
-53a386ec746c22277d9520166f1f8874870bd7ea xfs: validate ag btree levels using the precomputed values
-
---===============8123067712985366319==--
+--===============5005956321125783902==--
