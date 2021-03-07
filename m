@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============4755862443427353700=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 07 Mar 2021 14:16:06 -0000
-Message-Id: <161512656630.12842.14977058716550390517@gitolite.kernel.org>
-
---===============4755862443427353700==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sun, 07 Mar 2021 14:21:39 -0000
+Message-Id: <161512689928.15825.12147765266206418688@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 98894534e8d36a7f510a2be24316d9505af0c5da
-    new: 818e5a8f1919cbd5382ecc722a2f94c4fb966e73
+  - ref: refs/heads/queue/4.14
+    old: 1d177c0872ab99ac8d1fe09376a56c2911a837c0
+    new: e2b7b761409dd6e99b482b5f2ad490bb92a36395
     log: |
-         818e5a8f1919cbd5382ecc722a2f94c4fb966e73 5.11-stable patches
+         9ed5340f2848a84fd509b293af754ac9a87d974e btrfs: raid56: simplify tracking of Q stripe presence
+         66f4745bf1eff3df31014a61ca8b45a77607cfd5 btrfs: fix raid6 qstripe kmap
+         e2b7b761409dd6e99b482b5f2ad490bb92a36395 PM: runtime: Update device status before letting suppliers suspend
          
-
---===============4755862443427353700==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615126565 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1615126564-089c2c8d458d4af05b4c595c9adbffbd0bca396e
-
-98894534e8d36a7f510a2be24316d9505af0c5da 818e5a8f1919cbd5382ecc722a2f94c4fb966e73 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBE4CUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lpAQAJSoUao9quL7UiaHQbiS
-6I9GE+nFhI0A5D8e//tsGgao1SR+RNQGSBCVogNkA+bwibt9e8DtqBmfh9U4j7bJ
-XbktqBGoI3S7waSiR+1sYIQMepd4cO8javEf2i8zQgiTekCwBegj3v3HbAaX1KYr
-fBRknYnIGcJiCL+m1SI8UUiVgAO+AXZi5iWZYVL8y3+97xIziLfDIYw/aahmFWKH
-xor55/al3PJK1+yj1SWsHbl12aejr8XqwHX0maCKbXUBs+dl91cQGWTgnERjapi8
-yiew7YoSbA8GTyjtYe7VcP0Rux28xl0q+lnW9+qbCeaM6h3qoYoRAN+GdF9pptlR
-6CJxyRNgz2cjSO+eIIZQXD9LgGV3zeI2cI9tKyoUVTfEocGYzHLArCklktaXso2m
-QVMgm1v167myhrcVCpGS4OOEqK4MpM5hxa9z2/xJdlCbFZDdDSmA97hicojLXMoF
-aJHpXTRH8eyv7Onv/yKgKgbrZ9qV05sP1G7RYQeTnj6KnwnzUl8CzM1zKh2q8QEo
-cXIHuun0vpmCNu/fvqrOEhUuPpZjtXVlSsRj2F4QdejDrzJ4qB1wLn2Nb5WtkWGk
-oPhxyY1Kcatw282AGAXe9jGtcL6QxlHofuR/HpGhnHAoYVUlhzROKzJUJc/keFau
-70CfYIh5752NrkSLhr5Vepcm
-=Ikvx
------END PGP SIGNATURE-----
-
---===============4755862443427353700==--
+  - ref: refs/heads/queue/4.19
+    old: 2cae3e25b70668fd413311277d56b6fe41900789
+    new: 04acdf9216054619107550a30a7000d6ad0a6e13
+    log: |
+         87ddf2ecbdfa5396148ecb1d4a8ebf0bd8a61265 btrfs: raid56: simplify tracking of Q stripe presence
+         2328f1978711f43171b43bab7708fdf368c487cd btrfs: fix raid6 qstripe kmap
+         497bd9fcee5190680d590db114da3b65913d9e9b btrfs: validate qgroup inherit for SNAP_CREATE_V2 ioctl
+         90a09e16a30df9b996d8f4e1133dd1a2082e050a btrfs: free correct amount of space in btrfs_delayed_inode_reserve_metadata
+         1726795cd71ac7e5cca6f08d5eeb73209886582e btrfs: unlock extents in btrfs_zero_range in case of quota reservation errors
+         8c2f2368824a7ec7c0da180478af1af1bd6aace4 PM: runtime: Update device status before letting suppliers suspend
+         a2e5f74c86b72fe0673684ed87b94f2063d67b9a dm bufio: subtract the number of initial sectors in dm_bufio_get_device_size
+         04acdf9216054619107550a30a7000d6ad0a6e13 drm/amdgpu: fix parameter error of RREG32_PCIE() in amdgpu_regs_pcie
+         
+  - ref: refs/heads/queue/4.9
+    old: 9c469b9101b3ca4597f1b993279c0da12565eb4f
+    new: 2b8dd037f08b3e5733682761d666c2f391f0de91
+    log: |
+         8d578bd6237a7969f4c00a6b8d08627ae95f47ab btrfs: raid56: simplify tracking of Q stripe presence
+         2b8dd037f08b3e5733682761d666c2f391f0de91 btrfs: fix raid6 qstripe kmap
+         
