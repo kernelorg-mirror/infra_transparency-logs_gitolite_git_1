@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 07 Mar 2021 17:31:10 -0000
-Message-Id: <161513827037.887.14475919036891120232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Sun, 07 Mar 2021 17:51:11 -0000
+Message-Id: <161513947174.13153.13008620312575061210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/bluetooth/bluez
+user: holtmann
 changes:
-  - ref: refs/heads/m/devlink-core
-    old: aedc105c5a8f35e62bbb6cf164a83b2f32c1b6f8
-    new: ec84ccbfc3770f42a9f0bb9bc987d795101c9240
+  - ref: refs/heads/master
+    old: 547ddcf0561a6d82ed712262f1bb50361d5ec6d3
+    new: 632bac1ba24b8a7d5354f17cbdb2d52377e9f77c
     log: |
-         ec84ccbfc3770f42a9f0bb9bc987d795101c9240 devlink: Separate read and writes locks of devlink list
+         632bac1ba24b8a7d5354f17cbdb2d52377e9f77c monitor: Decode Broadcom LM Diag vendor events
          
