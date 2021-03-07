@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Sun, 07 Mar 2021 17:08:39 -0000
-Message-Id: <161513691905.18959.10207204522980815484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Sun, 07 Mar 2021 17:27:34 -0000
+Message-Id: <161513805483.30838.15123294852194810151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/bluetooth/bluez
+user: holtmann
 changes:
-  - ref: refs/heads/next
-    old: 4e6f211fadf42a9f1a36c7058e6853bf594b433a
-    new: af6e3e61fe5623a7890807b0b13004ecb876fa1f
+  - ref: refs/heads/master
+    old: 0b6c29c86411c293c658182d2070496ef753eb3e
+    new: 547ddcf0561a6d82ed712262f1bb50361d5ec6d3
     log: |
-         9e9888a0fe97b9501a40f717225d2bef7100a2c1 efi: stub: omit SetVirtualAddressMap() if marked unsupported in RT_PROP table
-         af6e3e61fe5623a7890807b0b13004ecb876fa1f efi/apple-properties: Handle device properties with software node API
+         547ddcf0561a6d82ed712262f1bb50361d5ec6d3 monitor: Fix random address decoding for extending advertising
          
