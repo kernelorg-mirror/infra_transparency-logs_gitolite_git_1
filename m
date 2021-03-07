@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Sun, 07 Mar 2021 00:40:02 -0000
-Message-Id: <161507760297.29148.3651096715819696515@gitolite.kernel.org>
+Date: Sun, 07 Mar 2021 00:47:04 -0000
+Message-Id: <161507802493.2226.15151425786717496838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
   - ref: refs/heads/mediatek-drm-next
-    old: 564beb827c6d34f781d6ed8890f20abf6c7110e0
-    new: 6efaa9de12890a96a126ca1c40a0a69b15e54d53
+    old: 6efaa9de12890a96a126ca1c40a0a69b15e54d53
+    new: be202fe68d61f481790cb6ab6170a09d6515c939
     log: |
-         6efaa9de12890a96a126ca1c40a0a69b15e54d53 dt-bindings: mediatek,dpi: add mt8192 to mediatek,dpi
+         8debf84ad8342b808aa4f65aeba4747b6e3737a4 drm/mediatek: dsi: Fine tune the line time caused by EOTp
+         be202fe68d61f481790cb6ab6170a09d6515c939 dt-bindings: mediatek,dpi: add mt8192 to mediatek,dpi
          
