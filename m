@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1846279836056818579=="
+Content-Type: multipart/mixed; boundary="===============0358325509166371231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 08 Mar 2021 16:05:51 -0000
-Message-Id: <161521955135.23421.18420241394615954079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 08 Mar 2021 16:05:59 -0000
+Message-Id: <161521955917.23562.13259844694059805026@gitolite.kernel.org>
 
---===============1846279836056818579==
+--===============0358325509166371231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: c014170408bcd2e8fc726802ed16794d358742ff
     new: 04012dd7d029dc5909131568172271ea42667e42
     log: |
@@ -30,7 +30,7 @@ changes:
          016e0d0920451ccdc29ad6a11be92ba71254c1e1 ASoC: remove remnants of sirf prima/atlas audio codec
          04012dd7d029dc5909131568172271ea42667e42 Merge series "Report jack and button detection + Capture Support" from Lucas Tanure <tanureal@opensource.cirrus.com>:
          
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: e59287f7dfba5119411166a73db55890145d3aaf
     new: 1cd2219246bd8a07d490e463ee24d2c813bb5b7c
     log: |
@@ -43,29 +43,29 @@ changes:
          1cd2219246bd8a07d490e463ee24d2c813bb5b7c ASoC: rt711-sdca: Add RT711 SDCA vendor-specific driver
          
 
---===============1846279836056818579==
+--===============0358325509166371231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1615219480 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1615219548-7a2feb9d8b0144eb56b5982d6ecab5dc09a508bc
+pusher C3F436CA30F5D8EB 1615219488 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1615219556-4305bd06d0826cb0d6b8fa91d2ccc9a4439661da
 
-c014170408bcd2e8fc726802ed16794d358742ff 04012dd7d029dc5909131568172271ea42667e42 refs/heads/for-5.12
-e59287f7dfba5119411166a73db55890145d3aaf 1cd2219246bd8a07d490e463ee24d2c813bb5b7c refs/heads/for-5.13
+c014170408bcd2e8fc726802ed16794d358742ff 04012dd7d029dc5909131568172271ea42667e42 refs/heads/asoc-5.12
+e59287f7dfba5119411166a73db55890145d3aaf 1cd2219246bd8a07d490e463ee24d2c813bb5b7c refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBGSxgACgkQJNaLcl1U
-h9AVqwf+PgftJ+IooVxeklrJY9sHXzA2fW21hIO55frpMvxzLDAY+hi2ARojrICa
-+hT4iXnY9djnypG7ZlXAFjNnUyFvDg/BDHlbzSWk+fSKAH9yxugazB2OkeRslF8d
-9RMBGz2VRPiIjOmHdIlKXfh0t8ISrYuScruzKA0i2Vemapy2GqvC3ixLjOoG91Z4
-jpTsHajtUBP/B5IMJ56bdtyetAN+D3iHOHyD6r0A05Hej8Q1KWEMeOp9atbapOFC
-OnGYBgsmjhm5AVHNZYevSMyNZnMkXr95DxPWfl21jAxv+DGQzOqEFB//3HpeU/HR
-KyKRDyo+lPkpE5gPGFZiZy/6MFVghA==
-=kH2l
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBGSyAACgkQJNaLcl1U
+h9BsAwf+OCzht1FHIPu9xphGlIt/8UQ85Hfz7dGG9FAktJonz8m1VsBg9Bhi8S+F
+5V4Xz8sExvSWlQLPiISGHzdkSmmUTEiYzdVrK+jExL6BKRBKmpMYuwH2SGupZCL6
+ElGODQSuDMEXBVcIyNevdNvtjnpB+VKagXB547g1sZYyqHfooryN6Qw/s5TmvNxI
+uSP1ujijqIij8hoe82xbUW0Di380kktfISe0U+Lp8DODhIMKGJn0DnG36c74Cpk6
+ayzBEJv8e+RS0qKmFnu6dsgvvH6zNAe7WQ67/dZcYfKAiZTqyxwzLadpA8qttjqe
+73TCUethXMmsgfXvLuzNyi2GHk/kNA==
+=0rVT
 -----END PGP SIGNATURE-----
 
---===============1846279836056818579==--
+--===============0358325509166371231==--
