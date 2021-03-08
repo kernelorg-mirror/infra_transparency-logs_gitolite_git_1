@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1413482274028624852=="
+Content-Type: multipart/mixed; boundary="===============0247030507636243046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 08 Mar 2021 18:03:03 -0000
-Message-Id: <161522658386.31103.130649855666448037@gitolite.kernel.org>
+Date: Mon, 08 Mar 2021 18:12:38 -0000
+Message-Id: <161522715875.5549.7949705795587280927@gitolite.kernel.org>
 
---===============1413482274028624852==
+--===============0247030507636243046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: 437b57d2085950a813c028215513fe941ca2e616
-    new: b41ba2ec54a70908067034f139aa23d0dd2985ce
-    log: revlist-437b57d20859-b41ba2ec54a7.txt
+  - ref: refs/heads/for-next
+    old: ddf89f8b293b1eb51d548611c34f067a4aa26265
+    new: ee5e9cdffebe8f26b23b0159a29c0413f9feaabb
+    log: revlist-ddf89f8b293b-ee5e9cdffebe.txt
 
---===============1413482274028624852==
+--===============0247030507636243046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-437b57d20859-b41ba2ec54a7.txt
+Content-Disposition: attachment; filename=revlist-ddf89f8b293b-ee5e9cdffebe.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -227,5 +227,12 @@ cf25ef6b631c6fc6c0435fc91eba8734cca20511 gpio: fix gpio-device list corruption
 809390219fb9c2421239afe5c9eb862d73978ba0 gpiolib: acpi: Allow to find GpioInt() resource by name and index
 eb441337c7147514ab45036cadf09c3a71e4ce31 gpio: pca953x: Set IRQ type when handle Intel Galileo Gen 2
 b41ba2ec54a70908067034f139aa23d0dd2985ce gpiolib: Read "gpio-line-names" from a firmware node
+9a53c44c534effe02ee2dfba41decaf99d30ae58 lib/cmdline: Export next_arg() for being used in modules
+6793484b7cc2c41ed19704063fdb88cc5a587dac gpio: aggregator: Replace custom get_arg() with a generic next_arg()
+7655fd2a772268c82c5dbe58cd17b85cae650379 irqdomain: Introduce irq_domain_create_simple() API
+1106c6cf8e253b417070f8995ab22d199459ea2c gpiolib: Unify the checks on fwnode type
+39fd7c1a175caaa93d3491a538881302c3245038 gpiolib: Move of_node operations to gpiolib-of and correct fwnode use
+de232781108c8c11765c744e5cb0b86d56f031d6 gpiolib: Introduce acpi_gpio_dev_init() and call it from core
+ee5e9cdffebe8f26b23b0159a29c0413f9feaabb gpiolib: Reuse device's fwnode to create IRQ domain
 
---===============1413482274028624852==--
+--===============0247030507636243046==--
