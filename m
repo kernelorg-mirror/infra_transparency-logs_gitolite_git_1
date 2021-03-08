@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7297718202283497076=="
+Content-Type: multipart/mixed; boundary="===============1553991651559715341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 08 Mar 2021 10:42:00 -0000
-Message-Id: <161520012008.13943.13404051093548087137@gitolite.kernel.org>
+Date: Mon, 08 Mar 2021 10:42:36 -0000
+Message-Id: <161520015684.14152.1422514764509279057@gitolite.kernel.org>
 
---===============7297718202283497076==
+--===============1553991651559715341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/next
-    old: a5b18338eb390cc56cffce1ad27a3b6f7af8e651
-    new: d59b8faa047ead7187e333ac967b8df40870ce2c
-    log: revlist-a5b18338eb39-d59b8faa047e.txt
+  - ref: refs/heads/fixes
+    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    new: a38fd8748464831584a19438cbb3082b5a2dab15
+    log: revlist-fe07bfda2fb9-a38fd8748464.txt
 
---===============7297718202283497076==
+--===============1553991651559715341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5b18338eb39-d59b8faa047e.txt
+Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-a38fd8748464.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,7 +219,5 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-815f421b6f6d1aedc3ebc73bf46887e02e4349fd thunderbolt: debugfs: Handle fail reading block
-d59b8faa047ead7187e333ac967b8df40870ce2c thunderbolt: Drop unused functions tb_switch_is_[ice|tiger]_lake()
 
---===============7297718202283497076==--
+--===============1553991651559715341==--
