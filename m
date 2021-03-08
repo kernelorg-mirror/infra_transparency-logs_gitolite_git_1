@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============5051609991532686693=="
+Content-Type: multipart/mixed; boundary="===============1908218226639628464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 08 Mar 2021 16:06:55 -0000
-Message-Id: <161521961511.24248.18387996113123690542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 08 Mar 2021 16:07:15 -0000
+Message-Id: <161521963590.24464.15750782483080695214@gitolite.kernel.org>
 
---===============5051609991532686693==
+--===============1908218226639628464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: e57c62bd692c7d7bf0d6ec3bddcad22579fd69ca
-    new: 96a00096e50f22f0a91f075025c15af4caee389c
-    log: revlist-e57c62bd692c-96a00096e50f.txt
+    old: a077a13f9bafa7a90c433097681503bbd4293f03
+    new: 406951a914e4b09b33e0c414395ebbd92b3e0c87
+    log: revlist-a077a13f9baf-406951a914e4.txt
   - ref: refs/heads/for-next
-    old: 32b182d3078735d54593a96874eb38643abbfd9f
-    new: 9db86c2095842b1274f603010a4d5a1d0f0b96b6
-    log: revlist-32b182d30787-9db86c209584.txt
+    old: c54607a8383c00beee65bfd6f14088e1e03c16f7
+    new: 5fa184afc97dd3704a0adf91b9f4159060fd708a
+    log: revlist-c54607a8383c-5fa184afc97d.txt
 
---===============5051609991532686693==
+--===============1908218226639628464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e57c62bd692c-96a00096e50f.txt
+Content-Disposition: attachment; filename=revlist-a077a13f9baf-406951a914e4.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -199,8 +199,7 @@ dc22c1c058b5c4fe967a20589e36f029ee42a706 nvme-pci: mark Kingston SKC2000 as not 
 78570f8873c8cd44c12714c7fa7db2601ec5617d nvme-hwmon: Return error code when registration fails
 32feb6de47242e54692eceab52cfae8616aa0518 nvme-fabrics: fix kato initialization
 d9f273b7585c380d7a10d4b3187ddc2d37f2740b nvmet: model_number must be immutable once set
-adda199c1ea2bfb02e73829e6f1d374075958c1f ASoC: codecs: lpass-va-macro: mute/unmute all active decimators
-810c4ac485e9de34624469a1c5ad1453699b993c ASoC: codecs: lpass-wsa-macro: fix RX MIX input controls
+2a105d168e74eedbccd9b040c3ee8b8b00604a33 regulator: rt4831: Fix return value check in rt4831_regulator_probe()
 7bff4c26b6d2c82bebf8630f31b1cca11b1bd562 Merge branch 'powercap'
 46fe18b16c4656969347fc0a3d83a034e47d9119 io_uring: move to using create_io_thread()
 ca0a26511c679a797f86589894a4523db36d833e io_uring: don't keep looping for more events if we can't flush overflow
@@ -225,20 +224,13 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-97e2b5e5dcd543cd4d85ecb1bfa2a9721a08f411 ASoC: cs42l42: Fix Bitclock polarity inversion
-3656667e66858fef45017c8e7c73e9918ed23915 ASoC: cs42l42: Fix channel width support
-a2ddc577ee4641889bf105d4d6e05be415bd4462 ASoC: cs42l42: Fix mixer volume control
-9ad4f9ea976e05d4eba62ea58c7c7c45705b80a1 ASoC: cs42l42: Don't enable/disable regulator at Bias Level
-ddaa9bea4ffaba50f814585f294a5d98641b41ad ASoC: cs42l42: Always wait at least 3ms after reset
-016e0d0920451ccdc29ad6a11be92ba71254c1e1 ASoC: remove remnants of sirf prima/atlas audio codec
-04012dd7d029dc5909131568172271ea42667e42 Merge series "Report jack and button detection + Capture Support" from Lucas Tanure <tanureal@opensource.cirrus.com>:
-96a00096e50f22f0a91f075025c15af4caee389c Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+406951a914e4b09b33e0c414395ebbd92b3e0c87 Merge remote-tracking branch 'regulator/for-5.12' into regulator-linus
 
---===============5051609991532686693==
+--===============1908218226639628464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32b182d30787-9db86c209584.txt
+Content-Disposition: attachment; filename=revlist-c54607a8383c-5fa184afc97d.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -293,6 +285,13 @@ b924a8197ac7660eb358ed0277bd5b12f9b40fe2 gcc-plugins: structleak: remove unneede
 3531ba21f5520d0865004e7d75b6f505d08589f2 ALSA: hda: fix kernel-doc warnings
 a864e8f159b13babf552aff14a5fbe11abc017e4 ALSA: hda: intel-nhlt: verify config type
 78652ff69be439f7e925067c6a61b1839e531c01 drm/nouveau/fifo/gk104-gp1xx: fix creation of sw class
+c7929b15b6e926c7150d9ec64844aceecf8a7a4a ASoC: soc-acpi: allow for partial match in parent name
+8a49cd11e68ed0e6a687de04d25c06553bf96b0c ASoC: SOF: ACPI: avoid reverse module dependency
+8d4ba1be3d2257606e04aff412829d8972670750 ASoC: SOF: pci: split PCI into different drivers
+194fe0fc3422d695a277cf9ccb39fa35c9c7d00a ASoC: SOF: pci: move DSP_CONFIG use to platform-specific drivers
+cf5807f5f814fcb14fd6c78878e2441918796af9 ASoC: SOF: Intel: SoundWire: simplify Kconfig
+08c2a4bc9f2acaefbd0158866db5cb3238a68674 ALSA: hda: move Intel SoundWire ACPI scan to dedicated module
+ffd7e705fad695fc0abd5809ef8dc72cda7e49a6 ALSA: hda: intel-sdw-acpi: add missing include files
 aedb9d9089ceb1c86be495bcc70e6021c01f92ff btrfs: ref-verify: use 'inline void' keyword ordering
 4f6a49de64fd1b1dba5229c02047376da7cf24fd btrfs: unlock extents in btrfs_zero_range in case of quota reservation errors
 5011c5a663b9c6d6aff3d394f11049b371199627 btrfs: validate qgroup inherit for SNAP_CREATE_V2 ioctl
@@ -402,8 +401,7 @@ dc22c1c058b5c4fe967a20589e36f029ee42a706 nvme-pci: mark Kingston SKC2000 as not 
 78570f8873c8cd44c12714c7fa7db2601ec5617d nvme-hwmon: Return error code when registration fails
 32feb6de47242e54692eceab52cfae8616aa0518 nvme-fabrics: fix kato initialization
 d9f273b7585c380d7a10d4b3187ddc2d37f2740b nvmet: model_number must be immutable once set
-adda199c1ea2bfb02e73829e6f1d374075958c1f ASoC: codecs: lpass-va-macro: mute/unmute all active decimators
-810c4ac485e9de34624469a1c5ad1453699b993c ASoC: codecs: lpass-wsa-macro: fix RX MIX input controls
+2a105d168e74eedbccd9b040c3ee8b8b00604a33 regulator: rt4831: Fix return value check in rt4831_regulator_probe()
 7bff4c26b6d2c82bebf8630f31b1cca11b1bd562 Merge branch 'powercap'
 46fe18b16c4656969347fc0a3d83a034e47d9119 io_uring: move to using create_io_thread()
 ca0a26511c679a797f86589894a4523db36d833e io_uring: don't keep looping for more events if we can't flush overflow
@@ -428,21 +426,7 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-97e2b5e5dcd543cd4d85ecb1bfa2a9721a08f411 ASoC: cs42l42: Fix Bitclock polarity inversion
-3656667e66858fef45017c8e7c73e9918ed23915 ASoC: cs42l42: Fix channel width support
-a2ddc577ee4641889bf105d4d6e05be415bd4462 ASoC: cs42l42: Fix mixer volume control
-9ad4f9ea976e05d4eba62ea58c7c7c45705b80a1 ASoC: cs42l42: Don't enable/disable regulator at Bias Level
-ddaa9bea4ffaba50f814585f294a5d98641b41ad ASoC: cs42l42: Always wait at least 3ms after reset
-51309c5bec7cfe567a00a667adbffea444845543 ASoC: wm8962: Relax bit clock divider searching
-c5f48a78e0cb950eb821af36b8790b794cc745b1 ASoC: fsl_xcvr: Use devm_platform_ioremap_resource_byname() to simplify code
-393c52d2d109c802e211bbfc2f66f123620775ef ASoC: rt715-sdca: Add RT715 sdca vendor-specific driver
-0f76a915201916dd3a21cebd7d528ca4b3112eb5 ASoC: codecs/jz4770: Remove superfluous error message
-b0c95242ebc233f8907366ae815ce1d8e7516907 ASoC: rt5645: Move rt5645_platform_data to sound/soc/codecs/rt5645.c
-2eac35f48c075dcd939bc418fe786f4f221aee8e ASoC: rt5645: The ALC3270 variant does not have a headset-mic pin
-1cd2219246bd8a07d490e463ee24d2c813bb5b7c ASoC: rt711-sdca: Add RT711 SDCA vendor-specific driver
-016e0d0920451ccdc29ad6a11be92ba71254c1e1 ASoC: remove remnants of sirf prima/atlas audio codec
-04012dd7d029dc5909131568172271ea42667e42 Merge series "Report jack and button detection + Capture Support" from Lucas Tanure <tanureal@opensource.cirrus.com>:
-96a00096e50f22f0a91f075025c15af4caee389c Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
-9db86c2095842b1274f603010a4d5a1d0f0b96b6 Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
+406951a914e4b09b33e0c414395ebbd92b3e0c87 Merge remote-tracking branch 'regulator/for-5.12' into regulator-linus
+5fa184afc97dd3704a0adf91b9f4159060fd708a Merge remote-tracking branch 'regulator/for-5.13' into regulator-next
 
---===============5051609991532686693==--
+--===============1908218226639628464==--
