@@ -1,214 +1,223 @@
-Content-Type: multipart/mixed; boundary="===============6059138787879504090=="
+Content-Type: multipart/mixed; boundary="===============5153459879525910755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 08 Mar 2021 10:02:08 -0000
-Message-Id: <161519772823.19187.17764489837067055049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Mon, 08 Mar 2021 10:06:03 -0000
+Message-Id: <161519796320.21726.12273176487627345217@gitolite.kernel.org>
 
---===============6059138787879504090==
+--===============5153459879525910755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 755149b36d913cb156762ac55e0853f48b8c39f7
-    new: 608880337fbf5e438446638a9014d1b6a8920614
-    log: |
-         451d90f6bac117363a6cfa7c1d76e65ada70b516 btrfs: raid56: simplify tracking of Q stripe presence
-         ad158b3dabdc494c7e8b59ac1876295d3f24b7f5 btrfs: fix raid6 qstripe kmap
-         f2a8ec6ce449a2dedc2b239ac340c50541ff2610 PM: runtime: Update device status before letting suppliers suspend
-         50537cc8203b38439b1d16df2011ab5f1cce8b32 usbip: tools: fix build error for multiple definition
-         cdfa8391c879e8c9f344dfeb1570ada79bb4cfdb ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
-         608880337fbf5e438446638a9014d1b6a8920614 rsxx: Return -EFAULT if copy_to_user() fails
-         
-  - ref: refs/heads/queue/4.19
-    old: 265578f5dd1fe465bb09b958af3f964ddd3209c3
-    new: ffc71f02188597b871bff68c43cf957dfdd9d75d
-    log: revlist-265578f5dd1f-ffc71f021885.txt
-  - ref: refs/heads/queue/4.4
-    old: aa7c5505201ed174eb1424b161b3eb32a4fc6452
-    new: 7dd14717305dc3c0db2af4005b4ca465cfd183e0
-    log: |
-         61d47e1240807da59ccee8499802db7f8764f4f6 futex: fix irq self-deadlock and satisfy assertion
-         0277a29cd6113f6193cc6b31a6b290716feefb60 futex: fix spin_lock() / spin_unlock_irq() imbalance
-         d43558ad05319ce351ccdce7ddde3243e195b396 ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
-         7dd14717305dc3c0db2af4005b4ca465cfd183e0 rsxx: Return -EFAULT if copy_to_user() fails
-         
-  - ref: refs/heads/queue/4.9
-    old: a72abe756a5efd78426c23759abc472cdd3635b8
-    new: ab568a069ecd458f3a85f1790089f7e843a24b06
-    log: |
-         337c1e94a7cc87ddeae27844a242bec4bd5610a6 btrfs: raid56: simplify tracking of Q stripe presence
-         6079837008e47aece81f37a5d0709550048dce1a btrfs: fix raid6 qstripe kmap
-         288943af8cf5099c72397430eeea8155149e22ef usbip: tools: fix build error for multiple definition
-         0bf50cf741d8d266bc86658dcc58548f7923538d ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
-         ab568a069ecd458f3a85f1790089f7e843a24b06 rsxx: Return -EFAULT if copy_to_user() fails
-         
-  - ref: refs/heads/queue/5.10
-    old: 399d512602cb11f2c5636b0c9218cad1f9d20009
-    new: 87399f3dc687784625186b2c2ecee8167f2e0c9b
-    log: revlist-399d512602cb-87399f3dc687.txt
-  - ref: refs/heads/queue/5.11
-    old: bad332485911bb460fe44ad85ca55294a87e0f92
-    new: 26c3ef335d24d8bcb117fdcc0f1f5b832992922a
-    log: revlist-bad332485911-26c3ef335d24.txt
-  - ref: refs/heads/queue/5.4
-    old: eb81dae4b3276e801ef53f4976312340ea3637ff
-    new: 19fd62fce5a760c35a203898196d0e36f4889cba
-    log: revlist-eb81dae4b327-19fd62fce5a7.txt
+  - ref: refs/heads/for-next/core
+    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    new: a38fd8748464831584a19438cbb3082b5a2dab15
+    log: revlist-fe07bfda2fb9-a38fd8748464.txt
 
---===============6059138787879504090==
+--===============5153459879525910755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-265578f5dd1f-ffc71f021885.txt
+Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-a38fd8748464.txt
 
-f2c48f617d1d32f7321712722c397d5a6c38636e btrfs: raid56: simplify tracking of Q stripe presence
-17ced1b3a6c4e261a745cd695ffda3660b66ac57 btrfs: fix raid6 qstripe kmap
-9fe49cec7eebb005f24ba49b9d8d327c76afb641 btrfs: validate qgroup inherit for SNAP_CREATE_V2 ioctl
-300e0f0a0fd042ee6af0fa6e825ae67da0c15a89 btrfs: free correct amount of space in btrfs_delayed_inode_reserve_metadata
-02e4ee584ccb3604d19a21cb7f43268a0bceecfe btrfs: unlock extents in btrfs_zero_range in case of quota reservation errors
-5180e0018fc42f657a825fedfba3570fc0b5122d PM: runtime: Update device status before letting suppliers suspend
-3e5298eb19b4323291f377fcc7f45b7f17181b0d dm bufio: subtract the number of initial sectors in dm_bufio_get_device_size
-e3f561f29812fea3f251496326c5bd411b7adc85 drm/amdgpu: fix parameter error of RREG32_PCIE() in amdgpu_regs_pcie
-289d6a2133a8a9639bf4f2eb33b0db4bbe475c46 usbip: tools: fix build error for multiple definition
-58d805ace12588641ca6f225695fecbc1aba7a17 Revert "zram: close udev startup race condition as default groups"
-b30e861ac0b69d7df0c40f6b258af5efc0cbd934 block: genhd: add 'groups' argument to device_add_disk
-c0ebe3ae052fbd02e795ab26612f0b6051436f7b nvme: register ns_id attributes as default sysfs groups
-d101acaa8c63818c18bd33e468c6e5afbc15592e aoe: register default groups with device_add_disk()
-e95aa6e87a5b4660dcf5d31515aff52c4014badf zram: register default groups with device_add_disk()
-8d334e289a37999a4bf6c7581a0fe50012b7042d virtio-blk: modernize sysfs attribute creation
-e5f7a38e00950ec2dc5c0b4cacd784967850e9fd ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
-3d9d19953c33efefc666fdddd2f244791d75aa81 RDMA/rxe: Fix missing kconfig dependency on CRYPTO
-ffc71f02188597b871bff68c43cf957dfdd9d75d rsxx: Return -EFAULT if copy_to_user() fails
+bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
+61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
+6a0996db6879cf09f989c5f44f9edd38240cb346 mm/highmem: Introduce memcpy_page(), memmove_page(), and memset_page()
+ca18f6ea012bf30236b76c3480ac2c97131b6f8f mm/highmem: Add VM_BUG_ON() to mem*_page() calls
+d70cef0d46729808dc53f145372c02b145c92604 btrfs: fix raid6 qstripe kmap
+be6a13613fd35602ea9e65d6634cf7af79f0a93d btrfs: make btrfs_submit_compressed_read() subpage compatible
+04d4ba4c90759844fb4ffa735214c1c41508d2f7 btrfs: make check_compressed_csum() to be subpage compatible
+3c17916510428dbccdf657de050c34e208347089 btrfs: fix race between extent freeing/allocation when using bitmaps
+20903032cd9f0260b99aeab92e6540f0350e4a23 btrfs: avoid checking for RO block group twice during nocow writeback
+195a49eaf655eb914896c92cecd96bc863c9feb3 btrfs: fix race between writes to swap files and scrub
+dd0734f2a866f9d619d4abf97c3d71bcdee40ea9 btrfs: fix race between swap file activation and snapshot creation
+1119a72e223f3073a604f8fccb3a470ccd8a4416 btrfs: tree-checker: do not error out if extent ref hash doesn't match
+3660d0bcdb82807d434da9d2e57d88b37331182d btrfs: fix stale data exposure after cloning a hole with NO_HOLES enabled
+95c85fba1f64c3249c67f0078a29f8a125078189 btrfs: avoid double put of block group when emptying cluster
+6e37d245994189ba757df7dc2950a44d31421ac6 btrfs: zoned: fix deadlock on log sync
+9c7d83ae6ba67d6c6199cce24573983db3b56332 pstore: Fix warning in pstore_kill_sb()
+a3cb15cda1b8213387f258caad6b13afcc378fd5 dt-bindings: bcm2711-hdmi: Fix broken schema
+497a4dc8276d25130ef0034363c68c106447d9f5 dts: drop dangling c6x symlink
+a5665ec2affdba21bff3b0d4d3aed83b3951e8ff tpm, tpm_tis: Decorate tpm_get_timeouts() with request_locality()
+d53a6adfb553969809eb2b736a976ebb5146cd95 tpm, tpm_tis: Decorate tpm_tis_gen_interrupt() with request_locality()
+c88fb897c1fb5a590dc6353ac4b01c8f46a347b3 ALSA: n64: Fix return value check in n64audio_probe()
+e2a0fcac6b1dac0fd15bb449a20233f8f91a8a85 Documentation: kvm: fix messy conversion from .txt to .rst
+96564d777366417cca0f5b39fc13202a1d7d9881 KVM: Documentation: rectify rst markup in kvm_run->flags
+ffe76c24c5c1851e5ef949d8726d57e78cd0cf34 KVM: x86: remove misplaced comment on active_mmu_pages
+919f4ebc598701670e80e31573a58f1f2d2bf918 KVM: x86: hyper-v: Fix Hyper-V context null-ptr-deref
+44ac5958a6c1fd91ac8810fbb37194e377d78db5 KVM: x86/mmu: Set SPTE_AD_WRPROT_ONLY_MASK if and only if PML is enabled
+c462f859f895840e7cd4f20f822ad4c6df2db489 KVM: xen: flush deferred static key before checking it
+3590ec58991bcf0f3512c4353a786079a6619758 btrfs: use memcpy_[to|from]_page() and kmap_local_page()
+80cc83842394e5ad3e93487359106aab3420bcb7 btrfs: use copy_highpage() instead of 2 kmaps()
+dcf269b3f703f5dbc2101824d9dbe95feed87b3d ALSA: usb-audio: Don't abort even if the clock rate differs
+21cba9c5359dd9d1bffe355336cfec0b66d1ee52 ALSA: usb-audio: Drop bogus dB range in too low level
+5f5e6a3e8b1df52f79122e447855cffbf1710540 ALSA: usb-audio: Allow modifying parameters with succeeding hw_params calls
+26a9630c72ebac7c564db305a6aee54a8edde70e ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
+d0e185616a0331c87ce3aa1d7dfde8df39d6d002 ALSA: hda/realtek: Enable headset mic of Acer SWIFT with ALC256
+0f47227705d88382d9a8f98013d56442066d90ca block: revert "block: fix bd_size_lock use"
+11302bb69e72d0526bc626ee5c451a3d22cde904 ALSA: usb-audio: use Corsair Virtuoso mapping for Corsair Virtuoso SE
+2c9119001dcb1dc7027257c5d8960d30f5ba58be ALSA: usb-audio: Fix Pioneer DJM devices URB_CONTROL request direction to set samplerate
+44cc89f764646b2f1f2ea5d1a08b230131707851 PM: runtime: Update device status before letting suppliers suspend
+f3c141057976120148ca32d9d030a2256a5ffb7b powercap/drivers/dtpm: Fix root node initialization
+9e2be308f023a741a0d4024bef508ef88dfb3a43 powercap/drivers/dtpm: Add the experimental label to the option description
+5218e12e9f3a324f41c05da4874d76d7ea3677cb block: Drop leftover references to RQF_SORTED
+65d43023171edc0d27208f6ac7a1a73732950cf7 io-wq: wait for worker startup when forking a new one
+b5a95bb1883e2bac1009cc88e65c71cff6f931e6 dt-bindings: media: Use graph and video-interfaces schemas, round 2
+221384df6123747d2a75517dd06cc01752f81518 RDMA/cm: Fix IRQ restore in ib_send_cm_sidr_rep
+475f23b8c66d2892ad6acbf90ed757cafab13de7 RDMA/rxe: Fix missing kconfig dependency on CRYPTO
+3a9b3d4536e0c25bd3906a28c1f584177e49dd0f IB/mlx5: Add missing error code
+c608aca57dd034d09f307b109b670d1cfb829279 Merge tag 'for-5.12-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+7a7fd0de4a9804299793e564a555a49c1fc924cb Merge branch 'kmap-conversion-for-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+b924a8197ac7660eb358ed0277bd5b12f9b40fe2 gcc-plugins: structleak: remove unneeded variable 'ret'
+5477edcacaacb8af8169450180a1d3bd0dfb9c99 gcc-plugins: latent_entropy: remove unneeded semicolon
+3531ba21f5520d0865004e7d75b6f505d08589f2 ALSA: hda: fix kernel-doc warnings
+a864e8f159b13babf552aff14a5fbe11abc017e4 ALSA: hda: intel-nhlt: verify config type
+78652ff69be439f7e925067c6a61b1839e531c01 drm/nouveau/fifo/gk104-gp1xx: fix creation of sw class
+c7929b15b6e926c7150d9ec64844aceecf8a7a4a ASoC: soc-acpi: allow for partial match in parent name
+8a49cd11e68ed0e6a687de04d25c06553bf96b0c ASoC: SOF: ACPI: avoid reverse module dependency
+8d4ba1be3d2257606e04aff412829d8972670750 ASoC: SOF: pci: split PCI into different drivers
+194fe0fc3422d695a277cf9ccb39fa35c9c7d00a ASoC: SOF: pci: move DSP_CONFIG use to platform-specific drivers
+cf5807f5f814fcb14fd6c78878e2441918796af9 ASoC: SOF: Intel: SoundWire: simplify Kconfig
+08c2a4bc9f2acaefbd0158866db5cb3238a68674 ALSA: hda: move Intel SoundWire ACPI scan to dedicated module
+ffd7e705fad695fc0abd5809ef8dc72cda7e49a6 ALSA: hda: intel-sdw-acpi: add missing include files
+aedb9d9089ceb1c86be495bcc70e6021c01f92ff btrfs: ref-verify: use 'inline void' keyword ordering
+4f6a49de64fd1b1dba5229c02047376da7cf24fd btrfs: unlock extents in btrfs_zero_range in case of quota reservation errors
+5011c5a663b9c6d6aff3d394f11049b371199627 btrfs: validate qgroup inherit for SNAP_CREATE_V2 ioctl
+c55a4319c4f2c3ba0a385b1ebc454fa283cfe920 btrfs: fix spurious free_space_tree remount warning
+0f9c03d824f6f522d3bc43629635c9765546ebc5 btrfs: free correct amount of space in btrfs_delayed_inode_reserve_metadata
+80e9baed722c853056e0c5374f51524593cb1031 btrfs: export and rename qgroup_reserve_meta
+4d14c5cde5c268a2bc26addecf09489cb953ef64 btrfs: don't flush from btrfs_delayed_inode_reserve_metadata
+fd57a98d6f0c98fa295813087f13afb26c224e73 btrfs: fix warning when creating a directory with smack enabled
+c28ea613fafad910d08f67efe76ae552b1434e44 btrfs: subpage: fix the false data csum mismatch error
+9b838a3c32d7a1edd7edeec1bc455eca76622218 Merge tag 'tags/sound-sdw-kconfig-fixes' into for-linus
+48698c973e6b4dde94d87cd1ded56d9436e9c97d ALSA: hda/realtek: Add quirk for Clevo NH55RZQ
+13046370c4d143b629adc1a51659a8a6497fbbe6 ALSA: hda/hdmi: let new platforms assign the pcm slot dynamically
+e4ef09e512940846fad77b1934065c166870b85a rsxx: remove unused including <linux/version.h>
+4168a8d27ed3a00f160e7f885c956f060d2a0741 block/bfq: update comments and default value in docs for fifo_expire
+b59b153d1026b73deb032d01bb9319ebba896006 KVM: x86: allow compiling out the Xen hypercall interface
+7d2cdad0da9dc0b1eb74c498c155be8c35a49ee6 KVM: Documentation: Fix index for KVM_CAP_PPC_DAWR1
+6528fc0a11de3d16339cf17639e2f69a68fcaf4d selftests: kvm: Mmap the entire vcpu mmap area
+7d7c5f76e54131ed05b057103b5278b6b852148b KVM: x86/xen: Fix return code when clearing vcpu_info and vcpu_time_info
+30b5c851af7991ad08abe90c1e7c31615fa98a1a KVM: x86/xen: Add support for vCPU runstate information
+9e46f6c6c959d9bb45445c2e8f04a75324a0dfd0 KVM: SVM: Clear the CR4 register on reset
+7db688e99c0f770ae73e0f1f3fb67f9b64266445 pstore/ram: Rate-limit "uncorrectable error in header" message
+999340d51174ce4141dd723105d4cef872b13ee9 ftrace: Have recordmcount use w8 to read relp->r_info in arm64_is_fake_mcount
+f5f4fc4649ae542b1a25670b17aaf3cbb6187acc ia64: don't call handle_signal() unless there's actually a signal queued
+caf6912f3f4af7232340d500a4a2008f81b93f14 swap: fix swapfile read/write offset
+f69d02e37a85645aa90d18cacfff36dba370f797 Merge tag 'misc-5.12-2021-03-02' of git://git.kernel.dk/linux-block
+8310b77b48c5558c140e7a57a702e7819e62f04e Xen/gnttab: handle p2m update errors on a per-slot basis
+2991397d23ec597405b116d96de3813420bdcbc3 xen-netback: respect gnttab_map_refs()'s return value
+882213990d32fd224340a4533f6318dd152be4b2 xen: fix p2m size in dom0 for disabled memory hotplug case
+73e7161eab5dee98114987239ec9c87fe8034ddb ALSA: hda/realtek: Add quirk for Intel NUC 10
+77516d25f54912a7baedeeac1b1b828b6f285152 rsxx: Return -EFAULT if copy_to_user() fails
+26af17722a07597d3e556eda92c6fce8d528bc9f ALSA: hda/realtek: Apply dual codec quirks for MSI Godlike X570 board
+232a37ea3aee9cb37bbc154fb1440a66ae4743f4 tpm: Remove unintentional dump_stack() call
+f91803998cf60fbbd4f10d24def676bf8b2a1a7e RDMA/mlx5: Set correct kernel-doc identifier
+cca7f12b939bd75f3a5e2b0fa20e3de67d1d33b1 RDMA/uverbs: Fix kernel-doc warning of _uverbs_alloc
+ff70784ab9f89e78e67d5d172bf7644de673f61f ACPI: bus: Constify is_acpi_node() and friends (part 2)
+31ada99bdd1b4d6b80462eeb87d383f374409e2a drm/amdgpu: Only check for S0ix if AMD_PMC is configured
+0c61ac8134ffc851681ce5d4bd60d97c3d5aed27 drm/amdgpu:disable VCN for Navi12 SKU
+e3746696e78f2185633ae9b47c40fabf88bdcf99 drm/amdgpu/pm: make unsupported power profile messages debug
+992ace410c32955eb5b2cee602ea68ac9557e35b drm/amdgpu/swsmu/vangogh: Only use RLCPowerNotify msg for disable
+6efda1671312e8432216ee8b106e71fa3102e1d3 drm/amd/pm: correct Arcturus mmTHM_BACO_CNTL register address
+25951362db7b3791488ec45bf56c0043f107b94b drm/amdgpu: enable BACO runpm by default on sienna cichlid and navy flounder
+b934dd9b44e8ad180b3203ce7d6df3133453ee91 drm/amd/display: fix the return of the uninitialized value in ret
+1aa46901ee51c1c5779b3b239ea0374a50c6d9ff drm/amdgpu: fix parameter error of RREG32_PCIE() in amdgpu_regs_pcie
+140456f994195b568ecd7fc2287a34eadffef3ca iommu/amd: Fix sleeping in atomic in increase_address_space()
+765a9d1d02b2f5996b05f5f65faa8a634adbe763 iommu/tegra-smmu: Fix mc errors on tegra124-nyan
+82c3cefb9f1652e7470f442ff96c613e8c8ed8f4 iommu: Don't use lazy flush for untrusted device
+444d66a23c1f1e4c4d12aed4812681d0ad835d60 iommu/vt-d: Fix status code for Allocate/Free PASID command
+fb3a1f6c745ccd896afadf6e2d6f073e871d38ba io-wq: have manager wait for all workers to exit
+613eeb600e3e636a1d3b3711dddaf2b134d5a32c io-wq: don't ask for a new worker if we're exiting
+dbf996202e28c6b1eb30afad534abe45a691499e io-wq: rename wq->done completion to wq->started
+d364d9e5db41678b77ed95c41e3ccaad9ab99ba0 io-wq: wait for manager exit on wq destroy
+470ec4ed8c91b4db398ad607c700e9ce88365202 io-wq: fix double put of 'wq' in error path
+e54945ae947fb881212a4b97d5599a01bba6ad06 io_uring: SQPOLL stop error handling fixes
+ba50a036f23c44608b1d903c34644a1acd5d21fa io_uring: run fallback on cancellation
+8629397e6e2753bb4cc62ba48a12e1d4d912b6a4 io_uring: don't use complete_all() on SQPOLL thread exit
+afcc4015d1bf5659b8c722aff679e9b8c41ee156 io-wq: provide an io_wq_put_and_exit() helper
+1d5f360dd1a3c04e00a52af74dd84fdb0e1d454b io_uring: fix race condition in task_work add and clear
+ef8eaa4e65facb1f51a64dbb4f5500134622c67c io_uring: warn on not destroyed io-wq
+8452d4a674b0e59bd53baef0b30b018690dde594 io_uring: destroy io-wq on exec
+4010fec41fd9fc5ca6956b958d14b32e41aded48 io_uring: remove unused argument 'tsk' from io_req_caches_free()
+1575f21a09206e914b81dace0add693346d97594 io_uring: kill unnecessary REQ_F_WORK_INITIALIZED checks
+5730b27e84fdb37353c7cc2b11c24a4f9d73626e io_uring: move cred assignment into io_issue_sqe()
+914390bcfdd6351a4d308da7f43294476ea7d3bf io_uring: kill unnecessary io_run_ctx_fallback() in io_ring_exit_work()
+0d30b3e7eea94cc818fadf2ac0dd189c616028f8 io_uring: kill io_uring_flush()
+2c32395d8111037ae2cb8cab883e80bcdbb70713 io_uring: fix __tctx_task_work() ctx race
+28c4721b80a702462fb77373c23428ee698fa5dd io_uring: replace cmpxchg in fallback with xchg
+3ebba796fa251d042be42b929a2d916ee5c34a49 io_uring: ensure that SQPOLL thread is started for exit
+1c3b3e6527e57156bf4082f11c2151957560fe6a io_uring: ignore double poll add on the same waitqueue head
+70aacfe66136809d7f080f89c492c278298719f4 io_uring: kill sqo_dead and sqo submission halting
+16270893d71219816513a255e6c3163bc7224ce4 io_uring: remove sqo_task
+dc7bbc9ef361bea331bf5258a35abcdef619d44d io-wq: fix error path leak of buffered write hash map
+3e6a0d3c7571ce3ed0d25c5c32543a54a7ebcd75 io_uring: fix -EAGAIN retry with IOPOLL
+64c7212391e778949aa3055fb3863439417ddba9 io_uring: choose right tctx->io_wq for try cancel
+f85c310ac376ce81a954507315ff11be4ddbf214 io_uring: inline io_req_clean_work()
+ebf936670721be805a9cb87781a5ee9271ba4633 io_uring: inline __io_queue_async_work()
+b23fcf477f85164f3b33b2e8c2c99b2ec61ba902 io_uring: remove extra in_idle wake up
+e4b4a13f494120c475580927864cc1dd96f595d1 io_uring: ensure that threads freeze on suspend
+f01272541d2cd7b7f24909d63ea2b028a6a66293 io-wq: ensure all pending work is canceled on exit
+70d443d8463339869f371e77fa594b850f374565 tracing: Remove duplicate declaration from trace.h
+69268094a1c16f3f44b369f9da78ce98bab5f244 tracing: Fix help text of TRACEPOINT_BENCHMARK in Kconfig
+6f6be606e763f2da9fc21de00538c97fe4ca1492 ring-buffer: Force before_stamp and write_stamp to be different on discard
+6549de1fe34162d7ace8b870ae11ca6cae5b8609 ring-buffer: Add a little more information and a WARN when time stamp going backwards is detected
+f40fc799afc598b3d130d5a0ada994c9d4fb6cf8 tracing: Fix memory leak in __create_synth_event()
+ee666a185558ac9a929e53b902a568442ed62416 tracing: Skip selftests if tracing is disabled
+f9f344479d8b40b3b001c913fb992d85d19261d0 tracing: Fix comment about the trace_event_call flags
+d734492a14a2da6e7bcce8cf66436a9cf4e51ddf btrfs: zoned: use sector_t for zone sectors
+badae9c86979c459bd7d895d6d7ddc7a01131ff7 btrfs: zoned: do not account freed region of read-only block group as zone_unusable
+43df5242af4ed67e8811257ab1bfe6a07e4a5858 Merge tag 'sound-5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+c5a58f877ca645a3303f7a57476f2de837fdb97a Merge tag 'for-linus-5.12b-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+cee407c5cc427a7d9b21ee964fbda613e368bdff Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+a14e5ec66a7a66e57b24e2469f9212a78460207e dm bufio: subtract the number of initial sectors in dm_bufio_get_device_size
+df7b59ba9245c4a3115ebaa905e3e5719a3810da dm verity: fix FEC for RS roots unaligned to block size
+3cb60ee6323968b694208c4cbd56a7176396e931 Merge tag 'tpmdd-next-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+b05a1bcd40184f12f2cd87db79e871aa8c17563f io_uring: cancel-match based on flags
+dd59a3d595cc10230ded4c8b727b096e16bceeb5 io_uring: reliably cancel linked timeouts
+cc440e8738e5c875297ac0e90316745093be7e28 kernel: provide create_io_thread() helper
+688e8128b7a92df982709a4137ea4588d16f24aa scsi: iscsi: Restrict sessions and handles to admin capabilities
+ec98ea7070e94cc25a422ec97d1421e28d97b7ee scsi: iscsi: Ensure sysfs attributes are limited to PAGE_SIZE
+f9dbdf97a5bd92b1a49cee3d591b55b11fd7a6d5 scsi: iscsi: Verify lengths on passthrough PDUs
+a727df407ca4f9bc0e9c30b7b469fc990a235be3 Merge branch '00.00-inst' of git://github.com/skeggsb/linux into drm-fixes
+a1f1054124936c717a64e47862e3d0d820f67a87 Merge tag 'amd-drm-fixes-5.12-2021-03-03' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+44195bd7711b8a463aa4a0f93c25ce27c5e68cb5 Merge tag 'mkp-scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi
+280d542f6ffac0e6d65dc267f92191d509b13b64 Merge tag 'drm-fixes-2021-03-05' of git://anongit.freedesktop.org/drm/drm
+5e112d3fb89703a4981ded60561b5647db3693bf nvme-pci: mark Seagate Nytro XM1440 as QUIRK_NO_NS_DESC_LIST.
+dc22c1c058b5c4fe967a20589e36f029ee42a706 nvme-pci: mark Kingston SKC2000 as not supporting the deepest power state
+6e6a6828c517fb6819479bf5187df5f39084eb9e nvme-pci: add quirks for Lexar 256GB SSD
+78570f8873c8cd44c12714c7fa7db2601ec5617d nvme-hwmon: Return error code when registration fails
+32feb6de47242e54692eceab52cfae8616aa0518 nvme-fabrics: fix kato initialization
+d9f273b7585c380d7a10d4b3187ddc2d37f2740b nvmet: model_number must be immutable once set
+7bff4c26b6d2c82bebf8630f31b1cca11b1bd562 Merge branch 'powercap'
+46fe18b16c4656969347fc0a3d83a034e47d9119 io_uring: move to using create_io_thread()
+ca0a26511c679a797f86589894a4523db36d833e io_uring: don't keep looping for more events if we can't flush overflow
+b5b0ecb736f1ce1e68eb50613c0cfecff10198eb io_uring: clear IOCB_WAITQ for non -EIOCBQUEUED return
+09ca6c40c2024211657fdb2c50522a355610c3b7 io-wq: kill hashed waitqueue before manager exits
+86e0d6766cf909813474857bd22fdc04c97c0b36 io_uring: make SQPOLL thread parking saner
+a2b658e4a07d05fcf056e2b9524ed8cc214f486a Merge tag 'nvme-5.12-2021-03-05' of git://git.infradead.org/nvme into block-5.12
+e45cff58858883290c98f65d409839a7295c95f3 io_uring: don't restrict issue_flags for io_openat
+21e27ac82db637d2f48f07b3777aae8e7ca52613 RDMA/rxe: Fix missed IB reference counting in loopback
+5e4a7ccc965d951b0885875e903a32c6d4368573 RDMA/rxe: Fix extra deref in rxe_rcv_mcast_pkt()
+545c4ab463c2224557e56b2609f88ed5be265405 RDMA/rxe: Fix errant WARN_ONCE in rxe_completer()
+54663cf398e7b2c9e44aeffe41be04cecb9d47c5 Merge tag 'trace-v5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+6bf331d5ce8332a47534b5092cd06a7a22451beb Merge tag 'devicetree-fixes-for-5.12-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+f09b04cc6447331e731629e8b72587287f3a4490 Merge tag 'for-5.12-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+fc2c8d0af05af4c380824e40ff99ede398913ae5 Merge tag 'iommu-fixes-v5.12-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
+ea6be461cbedefaa881711a43f2842aabbd12fd4 Merge tag 'acpi-5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+6d47254c063426541e7134fc5632243356ee74b1 Merge tag 'pm-5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of git://git.kernel.dk/linux-block
+47454caf45f0481988912a4980ef751a1c637b76 Merge tag 'block-5.12-2021-03-05' of git://git.kernel.dk/linux-block
+63dcd69d9b497c045c4169cddc6a24e1a7428f88 Merge tag 'for-5.12/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+8b24ef44789c990329a15a287ae0e634720745e8 Merge tag 'pstore-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
 
---===============6059138787879504090==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-399d512602cb-87399f3dc687.txt
-
-3255b4bd0ccb1b542bf6c53a45a0f2be744b1933 ALSA: hda/realtek: Enable headset mic of Acer SWIFT with ALC256
-7b0ec6fc2f807654379e69d2c12bc287032e05ac ALSA: usb-audio: use Corsair Virtuoso mapping for Corsair Virtuoso SE
-cd6ad0d473afdaecbde0f5f0abb5b8fe8d4506bf ALSA: usb-audio: Drop bogus dB range in too low level
-6a4a313d7d309fd62894288a6cf222ccf3c624bc tpm, tpm_tis: Decorate tpm_tis_gen_interrupt() with request_locality()
-f5935f89638ce6b31b9158da505295be08c8c86e tpm, tpm_tis: Decorate tpm_get_timeouts() with request_locality()
-0e5713ed1f8477c0dbdb4b7e7d32f7cb04eec096 btrfs: avoid double put of block group when emptying cluster
-b890e39f7899f8485dd16c310918d4929d6b6f59 btrfs: fix raid6 qstripe kmap
-e1a1b6d6f7124f34c5d36af586c77947105ebd12 btrfs: fix race between writes to swap files and scrub
-8c17934b6995f3b31b17c0ab70a4af0afbe94dbb btrfs: fix race between swap file activation and snapshot creation
-3b1a4a0e5ee3cbec720472dc5c325a8e71202924 btrfs: fix stale data exposure after cloning a hole with NO_HOLES enabled
-d8bcee6b058ba8a79926b8b71c23735e97289a7a btrfs: fix race between extent freeing/allocation when using bitmaps
-122cd047915f0b8ff92d56107f8b63f3a69dcdfc btrfs: validate qgroup inherit for SNAP_CREATE_V2 ioctl
-158a8eb975bca5b09b51e96e88cae4c899d44865 btrfs: free correct amount of space in btrfs_delayed_inode_reserve_metadata
-b1873969b49927d450a3fc2c0a07820c43694605 btrfs: unlock extents in btrfs_zero_range in case of quota reservation errors
-fb90679aff21d3a0cd6c7b04d3b6a94100d1d4ae btrfs: fix warning when creating a directory with smack enabled
-4bdfbcc90ed23213661a3285b34d993b2bc72e2c PM: runtime: Update device status before letting suppliers suspend
-04ad31292a244fe1e29b8f0b326edb07652c6ee0 ring-buffer: Force before_stamp and write_stamp to be different on discard
-c9477e82b259f04c628ab5ef04e7a126c7b2447e io_uring: ignore double poll add on the same waitqueue head
-50c25795fb3e550908c37aaf671ec66b0e1b6f6d dm bufio: subtract the number of initial sectors in dm_bufio_get_device_size
-393e075a80bf2819bc0a0851c0ea4a5bc27d573b dm verity: fix FEC for RS roots unaligned to block size
-07bbb85ddd13c071b5e83c3f9cf710ad4094752b drm/amdgpu:disable VCN for Navi12 SKU
-28c94d6d22e44b62e529ae29174e1cf87a939be9 drm/amdgpu: fix parameter error of RREG32_PCIE() in amdgpu_regs_pcie
-13076c2e2699bd5683a293fbe7e457b28f1966da crypto - shash: reduce minimum alignment of shash_desc structure
-fa442114fca6e343b29ca4ba2ee3280d13811faf arm64: mm: Move reserve_crashkernel() into mem_init()
-54c7c75cdb9247fea13f89b3cc45dbaab01e8959 arm64: mm: Move zone_dma_bits initialization into zone_sizes_init()
-7312a29d51b61039804b0e7940ae59deeb9991d5 of/address: Introduce of_dma_get_max_cpu_address()
-2e1bf718b9d881193a0364d8a9f2ea9c118cdf62 of: unittest: Add test for of_dma_get_max_cpu_address()
-ec1ca178729bbe4d644f0ee7bddd2a3d10d10c22 arm64: mm: Set ZONE_DMA size based on devicetree's dma-ranges
-5d3ee8f43c18793bdd4ac1453fbf9e34dd5319a7 arm64: mm: Set ZONE_DMA size based on early IORT scan
-a0ccf58b2492950f9799b0cf7d55bc8f4e68cad8 mm: Remove examples from enum zone_type comment
-29d4ae88140561745beaaca6aecbddf6256af9b5 ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
-21dc14ae15d0ce1b6de47b9f23082f0dd2c06b7b RDMA/cm: Fix IRQ restore in ib_send_cm_sidr_rep
-ab1dfeb588c12924d1c60e75e3c3b51244a15839 RDMA/rxe: Fix missing kconfig dependency on CRYPTO
-9e7f5bbe395082ef245f7140e051f6d6ca36efe2 IB/mlx5: Add missing error code
-0130e05cfe22b4558404d0a1dae8c825ebcb76a6 ALSA: hda: intel-nhlt: verify config type
-a5f58067bd3929c3c5b8c5d3b2da03cad47abf2b ftrace: Have recordmcount use w8 to read relp->r_info in arm64_is_fake_mcount
-167eff16ac3e72c61e1f6e909a67323973419a47 rsxx: Return -EFAULT if copy_to_user() fails
-aa89c29b7d132601df0e7cfc5112fb273d029cc2 iommu/vt-d: Fix status code for Allocate/Free PASID command
-926487c3831d9ed768bfaba0f44360dd9f424c06 Revert "arm64: dts: amlogic: add missing ethernet reset ID"
-87399f3dc687784625186b2c2ecee8167f2e0c9b of: unittest: Fix build on architectures without CONFIG_OF_ADDRESS
-
---===============6059138787879504090==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bad332485911-26c3ef335d24.txt
-
-00dfdc5d7d1900da7372d6ec0b40ccff8cb90ea6 ALSA: hda/realtek: Enable headset mic of Acer SWIFT with ALC256
-78ccef07d68b4f33a8f545f801f9ec60e6587345 ALSA: usb-audio: use Corsair Virtuoso mapping for Corsair Virtuoso SE
-5416eaf9fdc59b9d9688037f4947a22268d1ce8a ALSA: usb-audio: Don't abort even if the clock rate differs
-df62356b3a45d44bec6c2cb998c0e56af684e547 ALSA: usb-audio: Drop bogus dB range in too low level
-540265ac1a9e9e7dcf6225726f9a88ca1586b43b ALSA: usb-audio: Allow modifying parameters with succeeding hw_params calls
-d95dd1e439f927476a59fd816a66a9fabea88b7e tpm, tpm_tis: Decorate tpm_tis_gen_interrupt() with request_locality()
-a822a0d6fd2d9f729f159f48ffb8d0f1101aa26a tpm, tpm_tis: Decorate tpm_get_timeouts() with request_locality()
-04c33c6630401ad853aef19a51082f29cf86deeb btrfs: avoid double put of block group when emptying cluster
-8174a9dd43ce7d079be79e566310f35404c38f0d btrfs: fix raid6 qstripe kmap
-a0c2c7ab5f80ce0f03b47a0d0f9a219a8a90407d btrfs: fix race between writes to swap files and scrub
-4aca402ab97f76b3dcb1346ea99ca94161824ccb btrfs: fix race between swap file activation and snapshot creation
-ecb7cdb6635639aa14f6b6b3abdd19bfc606abbd btrfs: fix stale data exposure after cloning a hole with NO_HOLES enabled
-dec83569dfde13a35c02f9bc444140c73b261cb8 btrfs: tree-checker: do not error out if extent ref hash doesn't match
-73215ab3de8a880a9ccb5656e05b411d2b31e461 btrfs: fix race between extent freeing/allocation when using bitmaps
-b0e2a8d3695fdbfc831a40e7e2ae1b4c36d0f952 btrfs: validate qgroup inherit for SNAP_CREATE_V2 ioctl
-7f93ccd576cf49c75a242ac820b439ea3701c590 btrfs: free correct amount of space in btrfs_delayed_inode_reserve_metadata
-a9fde17da123b780e4cedfdf42b5a1382ef4c95a btrfs: fix spurious free_space_tree remount warning
-b742baa1efd8c5a6a21b1efce93c8e129885536d btrfs: unlock extents in btrfs_zero_range in case of quota reservation errors
-1cbe1e9f62730cecb52c5f5e070696fc1b15aeaf btrfs: fix warning when creating a directory with smack enabled
-6514e8d843e28cce4eaf283c32399b2de10a940e PM: runtime: Update device status before letting suppliers suspend
-f3793d47419efb61b838e3530150daae2554b927 ring-buffer: Force before_stamp and write_stamp to be different on discard
-0740078fc1ea8c944b2f0616d748f6414cfe2ee8 io_uring: ignore double poll add on the same waitqueue head
-9b076d3f2255f44843a0a9ad1401ebae87c2940f dm bufio: subtract the number of initial sectors in dm_bufio_get_device_size
-5b1071881b015ad831ad40af453e7cc7a2ce6047 dm verity: fix FEC for RS roots unaligned to block size
-834e09f25e85f52079f542f4696f8305050ea592 drm/amd/pm: correct Arcturus mmTHM_BACO_CNTL register address
-40242152641602e086c2a7065af33209d1abc8a9 drm/amdgpu:disable VCN for Navi12 SKU
-f65136a90973803f5a6c50ca7b74047c9f54993a drm/amdgpu: Only check for S0ix if AMD_PMC is configured
-47b25c0d2267c3a1cc01d312caf55eb8bd4074b9 drm/amdgpu: fix parameter error of RREG32_PCIE() in amdgpu_regs_pcie
-2fa118cc5a99c899a6f58099b74c6900cdf98acc crypto - shash: reduce minimum alignment of shash_desc structure
-9a93ee56105bd81498cd26a452412ad1a6e08ad7 ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
-6b7855550b8299a97b339bf0b42f506eb62a0c77 ALSA: usb-audio: Fix Pioneer DJM devices URB_CONTROL request direction to set samplerate
-2cba058a0acfe5b21345bfc1561f1c3d30f8af22 RDMA/cm: Fix IRQ restore in ib_send_cm_sidr_rep
-80b53feb3b70d97f2c55383169099534a501419b RDMA/rxe: Fix missing kconfig dependency on CRYPTO
-c9cbec170a1eb4e9e790737888ae6b76f22e67c7 IB/mlx5: Add missing error code
-83ad39572ba90b41526504fa901c3e6098a89844 ALSA: hda: intel-nhlt: verify config type
-13c0ee9d45fee15931448e61ef3d44af39c755a4 ftrace: Have recordmcount use w8 to read relp->r_info in arm64_is_fake_mcount
-1ce27852833aeaa8433fa5370c5763891a5f06de ia64: don't call handle_signal() unless there's actually a signal queued
-be40f88849c992e794c7e1df5ae522830ca0a67d rsxx: Return -EFAULT if copy_to_user() fails
-faede9fa8c3fde906d155b82c3c8bd366c7ab382 iommu/tegra-smmu: Fix mc errors on tegra124-nyan
-98504f62998c49cf06345bfff5ea997ef4203b9c iommu: Don't use lazy flush for untrusted device
-45ebb203185549362f5b50641593ed35526e767d iommu/vt-d: Fix status code for Allocate/Free PASID command
-26c3ef335d24d8bcb117fdcc0f1f5b832992922a btrfs: zoned: use sector_t for zone sectors
-
---===============6059138787879504090==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb81dae4b327-19fd62fce5a7.txt
-
-77c1ee8f9f3002bc7aee9179313b01da21249c47 tpm, tpm_tis: Decorate tpm_tis_gen_interrupt() with request_locality()
-716d52101b1cc54c9377dcb168bf737bf468146c tpm, tpm_tis: Decorate tpm_get_timeouts() with request_locality()
-97608cc91ec5cca7e7dbbe5a9cec51a75b7ddc95 btrfs: raid56: simplify tracking of Q stripe presence
-673a2ec13c86a6ad9296db671c712ecb7e7e5e79 btrfs: fix raid6 qstripe kmap
-fa921a20884fff6483a65482e1bd60b42804d9bc btrfs: validate qgroup inherit for SNAP_CREATE_V2 ioctl
-463b3c4475340c52709c4244c38d732d3d25d239 btrfs: free correct amount of space in btrfs_delayed_inode_reserve_metadata
-3deba0a829d5abe444f58b56b787b58eb0575796 btrfs: unlock extents in btrfs_zero_range in case of quota reservation errors
-ef6f03ab5f62f37c19b5255c11526af4de09e29a btrfs: fix warning when creating a directory with smack enabled
-1a5f5bea70ee0025e08abe729b0ad342517e749d PM: runtime: Update device status before letting suppliers suspend
-7997bd751ded0d258f4200fc647206a3e1db0b71 dm bufio: subtract the number of initial sectors in dm_bufio_get_device_size
-72d48385b62a34bdf4bb218dbdf6e7e6a28d5814 dm verity: fix FEC for RS roots unaligned to block size
-71a40687fdf0878faf19acfdc95feb94e7cf6a48 drm/amdgpu: fix parameter error of RREG32_PCIE() in amdgpu_regs_pcie
-bbd92889185baf669433fd9d35a0296fd99c0e72 arm64: ptrace: Fix seccomp of traced syscall -1 (NO_SYSCALL)
-6a5d301c0dd400c59c0687eb4112b305c4b22437 crypto - shash: reduce minimum alignment of shash_desc structure
-42e2df83f61601023bac5f80892685cde06c80bb usbip: tools: fix build error for multiple definition
-1fbc95a5957ed2f25f37fce7a6e5fcaa185b5671 ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
-160330bcb682b3c06471f78f52452c06a28dc6f4 RDMA/rxe: Fix missing kconfig dependency on CRYPTO
-0540263ed40f84ace12bfaf4e4d6406ad892d35f IB/mlx5: Add missing error code
-d36daafa111a13d1843353246bc071caaf1286e3 ALSA: hda: intel-nhlt: verify config type
-155a674dd6965bd76675fffb7632a82ea2daaee1 ftrace: Have recordmcount use w8 to read relp->r_info in arm64_is_fake_mcount
-19fd62fce5a760c35a203898196d0e36f4889cba rsxx: Return -EFAULT if copy_to_user() fails
-
---===============6059138787879504090==--
+--===============5153459879525910755==--
