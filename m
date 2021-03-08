@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5860192248808726134=="
+Content-Type: multipart/mixed; boundary="===============5307470888996729961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 08 Mar 2021 12:27:20 -0000
-Message-Id: <161520644041.14217.12481275071188389097@gitolite.kernel.org>
+Message-Id: <161520644065.14237.13072675241572731299@gitolite.kernel.org>
 
---===============5860192248808726134==
+--===============5307470888996729961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 5b43dca0d7981af5805a09d4704d8a7451ecef22
-    new: 1d493929c06100abd14b955538afa461dc2c8b69
-    log: revlist-5b43dca0d798-1d493929c061.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 9179fcc895be7fd413c5b09fec97ab0e73ca3085
+    new: f762c2b38d8c35bbff24048b06b88be5f46bddbe
+    log: revlist-9179fcc895be-f762c2b38d8c.txt
 
---===============5860192248808726134==
+--===============5307470888996729961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,53 +32,51 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615206438 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1615206436-c3f444382ad2980e860cd4310e5b462d19efbe36
 
-5b43dca0d7981af5805a09d4704d8a7451ecef22 1d493929c06100abd14b955538afa461dc2c8b69 refs/heads/linux-5.4.y
+9179fcc895be7fd413c5b09fec97ab0e73ca3085 f762c2b38d8c35bbff24048b06b88be5f46bddbe refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBGGCYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+peAP+Olivod0Ms2F2hzjCnVd
-6WZG2utfN6mcDljK0x+FoFN+iYJDBvhVqxPoXyRUsOYuL/f3/tukePAwXctXBJmL
-4MhhddMa9uPlN5Zy7FjYylrXl/yV/28FTU4qWRaBzlADeu8HvhJqHSxYw839hOFM
-dyNAoVBDJZYyGD8J8/fg6azXJQkj1seVkHiKZzT7eOinVg8fOhI094NIvHqKpIhJ
-aoFohcuh8+sZcY8vSK1XGI4BGD4ZNgCQMFT+wDNsnTZSo6eF2Yjfi5QHiuYMGw2H
-MJSIZhTtnKnYW85xDCyNFE3CTXU9liy5S+KIc1Y0PE8JZux40DB3mcaFARxujW7a
-stu01Yq2CMVx9ws154RjLKfgKArpCsdAS3hjRP6KYK/nlzGaJmRJinXGPPAtajlb
-ZkhNvgZEabVTDrNekicx+dg3E+JFglSItCDjDvMQ2u3zTBvmRv74y04pfPwonfhZ
-2+tSc0BzXPzXvqmXapiSu7xF9D9zh3w9JwomtMSM7WFL54lUrdOFgYbipnScZfPg
-4qiiNm+GkTYEv2czJT4Do5cws/NeHPsF3zmB5xlCYUlvw2VwLQlesjrFTPskIHk1
-k6q8XcnAegFFPRiTuWVuB2fJAfwnJc+KrcgUgCPssGiyk5MPcHgCCivcwcCcPBuF
-y278dK9TeOdQDl2Cj/QunIQ=
-=nQpW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBGGCYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6GIQAIpqiPUuDum2Qi70aBoo
+k5W70Y02/1bQYX/CceXVdT1dscV6ZTU7d8PudiBR/nUe0YTAvp1SHs5Rqq1C+mvc
+CVWXC8fDLLhdgvZfupZ/eFdxdjJMXQWXKK4AnO3I0UKvIc9azUC0Th1I6H/Xqvmo
+WG39dJkHEWolXppqG9HFCrpb0rGCpQneVi2zZSUHFtLKjDlkWRn6vd25395KWikb
+8juj49yGFk4Q2ZGtjpow8xSfRrOY1Z9prlUj9R5OnW8lytlx0Uwm53S0ADUTz3gA
+s8CGWhU+9Opj97Xd81qm6xD4b56KxzxyazK2nhouTW2kewX8zjorpUiUmLJQvCp/
+QBPjQ2y4I7QxEBSucK6xkP1qSSdZRwoxqw0NwwVNSOTTqNb8qgerVeuh3Jyf7a6M
+Ry6djJubVhTvWla9BKmXa57IVHdVBpS1RDn4moud3VA8ovEt6r19Mfjcu6ZG9B0v
+GihBOBI9dgdlcL5Uf0ZO4ZFiV7mCXxifdf7p/HlpAgmYHSz4Pt5fE5ktJto47fSH
+A3aBK5PwpRa1R5HRsdXHhkwTKVJoRPmqRHaGfOXjbPbrrHuWtMCavQmixmOJWKZU
+ThCnCGgPSdlOvY5QUJwcpPFUdIB20ymvL1PGx0Tcrklbg6BHOEcZfSbvDg29HHLm
+1jYN05f5gyiOeV+JjvqoIHHJ
+=Vlbr
 -----END PGP SIGNATURE-----
 
---===============5860192248808726134==
+--===============5307470888996729961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b43dca0d798-1d493929c061.txt
+Content-Disposition: attachment; filename=revlist-9179fcc895be-f762c2b38d8c.txt
 
-04cd92f3bef2d32aa6c3fa844f5e42c98cf498f3 tpm, tpm_tis: Decorate tpm_tis_gen_interrupt() with request_locality()
-02afac4206efc3945cb1cc86fc66d62a3d044cfe tpm, tpm_tis: Decorate tpm_get_timeouts() with request_locality()
-709d14669c90540328d11d48b23404c13bd4d95b btrfs: raid56: simplify tracking of Q stripe presence
-51ab900138ade6b70bc99c0d3c3bf1c2153ca2b6 btrfs: fix raid6 qstripe kmap
-afac2be904725c85d165bb90d7da0d886a23187f btrfs: validate qgroup inherit for SNAP_CREATE_V2 ioctl
-a3c8c9ed447e14cfea9babdb5daad76456035ebf btrfs: free correct amount of space in btrfs_delayed_inode_reserve_metadata
-d465f3e92fb1604b17f9580282cb77c99600ff05 btrfs: unlock extents in btrfs_zero_range in case of quota reservation errors
-093c4679993b07f6f5eb3e7f1c8b85a9e94bef37 btrfs: fix warning when creating a directory with smack enabled
-f6f3277a3ea603860d9ff777cfc2f031a799994e PM: runtime: Update device status before letting suppliers suspend
-7decf3615c744cb2344658fb571118cf583fee61 dm bufio: subtract the number of initial sectors in dm_bufio_get_device_size
-389ceb005484a54570b6e2caa1c3f80be9574826 dm verity: fix FEC for RS roots unaligned to block size
-f003cd4f3ebb6358a6de63da2f2e5d5e6ddf6cc5 drm/amdgpu: fix parameter error of RREG32_PCIE() in amdgpu_regs_pcie
-ea13364fa13685077c7e18846f0917b6d0c870d0 arm64: ptrace: Fix seccomp of traced syscall -1 (NO_SYSCALL)
-7a5630686e4a6a7b2fd09e2398191f5a688d6a55 crypto - shash: reduce minimum alignment of shash_desc structure
-a443bdb8193c6d6add91a00836fe330b1c29ffb1 usbip: tools: fix build error for multiple definition
-15bb0dc7588a4806da22bcf27e1d7d399b70aeac ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
-f5d26921d50e6245b836a00edf500ad92446f167 RDMA/rxe: Fix missing kconfig dependency on CRYPTO
-da007b5ad615a8c85c7d5a7966137ca99151650e IB/mlx5: Add missing error code
-02c6077dd24e5fa4bcba746b122912d5fe8282ae ALSA: hda: intel-nhlt: verify config type
-cea9d0335acc908f54c4c2e73649e66163a58e41 ftrace: Have recordmcount use w8 to read relp->r_info in arm64_is_fake_mcount
-510bd319af07b143507bfdae1d74d31c47cd218a rsxx: Return -EFAULT if copy_to_user() fails
-c57058ae99dc050ef4809f95877ee2bb6dc6e6dd r8169: fix resuming from suspend on RTL8105e if machine runs on battery
-1d493929c06100abd14b955538afa461dc2c8b69 Linux 5.4.104-rc1
+3431671b7a2bc8d7c659e3537defc3c59ca2963e btrfs: raid56: simplify tracking of Q stripe presence
+8bcbfe0e5c4ca7619498a0160641c8ec03e256f9 btrfs: fix raid6 qstripe kmap
+3f9d3d532e7b5fec6f350d6d63fd6fb5ab60b0d8 btrfs: validate qgroup inherit for SNAP_CREATE_V2 ioctl
+7819ac926ff819f3499ce0cf8efd9a27c22d1ae2 btrfs: free correct amount of space in btrfs_delayed_inode_reserve_metadata
+77f5815be77ddb4b74c0cb7eb255d83710011d70 btrfs: unlock extents in btrfs_zero_range in case of quota reservation errors
+e65105ec8ce8db85882570ef305e8fc7a0add5fc PM: runtime: Update device status before letting suppliers suspend
+a07048f7d91d0aa1687a7a21938af256f48f251a dm bufio: subtract the number of initial sectors in dm_bufio_get_device_size
+54ffb6af2c983dc8d75d1f6c5429f9bb4ebd4351 drm/amdgpu: fix parameter error of RREG32_PCIE() in amdgpu_regs_pcie
+58f170a6a03639bf97077c288eca70591e240746 usbip: tools: fix build error for multiple definition
+e0718a114474cf02fd24b0a04cd4acf2dd4a5c31 Revert "zram: close udev startup race condition as default groups"
+79d7c9496f51baed2ebec7b735e5a94cea1d1ef3 block: genhd: add 'groups' argument to device_add_disk
+f931fbc5436b990822a5ecfb0125d584d4539743 nvme: register ns_id attributes as default sysfs groups
+6b5b3647acb8817298da9d23ef875995a7084a36 aoe: register default groups with device_add_disk()
+d0bf3987bc0e5a10b487c89850f35bc3940cc164 zram: register default groups with device_add_disk()
+249a013419faa675457c340a2bf5f2994603224c virtio-blk: modernize sysfs attribute creation
+b92acacf90982d4cc350009efe0101bbbbfc7b11 ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
+001f9cce8083fae8f7edfd4ca0162ef774957efb RDMA/rxe: Fix missing kconfig dependency on CRYPTO
+c8956499ffc3d9cdca931eac9d803cae28861930 rsxx: Return -EFAULT if copy_to_user() fails
+918feda83073c4608d66410d99ca603e753f095d dm verity: fix FEC for RS roots unaligned to block size
+90c9b28ba4a6361b0059753412735540ed8e5f91 r8169: fix resuming from suspend on RTL8105e if machine runs on battery
+f762c2b38d8c35bbff24048b06b88be5f46bddbe Linux 4.19.180-rc1
 
---===============5860192248808726134==--
+--===============5307470888996729961==--
