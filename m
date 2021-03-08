@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3372151767866716120=="
+Content-Type: multipart/mixed; boundary="===============3337387560847247362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 08 Mar 2021 09:50:16 -0000
-Message-Id: <161519701661.11776.3087367969378693840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 08 Mar 2021 09:51:48 -0000
+Message-Id: <161519710810.12313.9097422732880757118@gitolite.kernel.org>
 
---===============3372151767866716120==
+--===============3337387560847247362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/fixes
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-fe07bfda2fb9-a38fd8748464.txt
+  - ref: refs/heads/master
+    old: c28144dc9685de3293c3672e85b2f8f89b7615f4
+    new: 4e589d84c7429ff697e741961eda21ac05f0b7b8
+    log: revlist-c28144dc9685-4e589d84c742.txt
 
---===============3372151767866716120==
+--===============3337387560847247362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-a38fd8748464.txt
+Content-Disposition: attachment; filename=revlist-c28144dc9685-4e589d84c742.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,5 +219,20 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
+97ed7c0a638d95452d3852f66e81dba8105ed58d ARM: dts: r8a7742-iwg21d-q7-dbcm-ca: Separate out ov5640 nodes
+22650045d9399bc760e34307e947599ebbb87be3 ARM: dts: r8a7742-iwg21d-q7-dbcm-ca: Add support for 8-bit ov7725 sensors
+e0f0c7066f20052845008b59012d544b059d071c ARM: dts: renesas: Group tuples in APMU cpus properties
+23d2ed63cda07c614b85a8c5b9ccd13cfc627482 ARM: dts: renesas: Group tuples in playback and capture properties
+de16af56663214c94cf1c1c88703a14a03f698d9 ARM: dts: renesas: Group tuples in pin control properties
+86a5feadedeeaee689e3f1279ff8dc214bf6e084 arm64: dts: renesas: Group tuples in playback and capture properties
+3ebf49c020217d2a322fedc3ea1fe6eec0460f09 arm64: dts: renesas: Group tuples in pin control properties
+da926e813fc7f9f0912fa413981a1f5ba63a536d ARM: dts: renesas: Add mmc aliases into R-Car Gen2 board dts files
+e8ae8db17029f2057b65bfb8abc1650bbd8492ef arm64: dts: renesas: r8a77961-ulcb: add HDMI Display support
+d765a4f302cc046ca23453ba990d21120ceadbbd arm64: dts: renesas: Add mmc aliases into board dts files
+af6f9b49874dc2f6af82b336c5f8c31eb4fa3261 arm64: dts: renesas: r8a779a0: Add TMU support
+2fb72440b697e1f2cb12790873df159160c22bcf soc: renesas: rmobile-sysc: Remove unneeded platform includes
+1d9ffbc6b185561c65a5a599562dbb6c5d66e7d1 soc: renesas: rmobile-sysc: Mark fwnode when PM domain is added
+6f56f6c260995c9bcecd0b8a520d80b0d6c11007 Merge branches 'renesas-arm-dt-for-v5.13' and 'renesas-drivers-for-v5.13' into renesas-next
+4e589d84c7429ff697e741961eda21ac05f0b7b8 Merge branch 'renesas-next' into renesas-devel
 
---===============3372151767866716120==--
+--===============3337387560847247362==--
