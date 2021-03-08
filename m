@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 08 Mar 2021 22:57:41 -0000
-Message-Id: <161524426153.15693.11542500236418050704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dborkman/pw
+Date: Mon, 08 Mar 2021 23:03:01 -0000
+Message-Id: <161524458125.18710.6870609949454019966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/dborkman/pw
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 29d98f54a4fe1b6a9089bec8715a1b89ff9ad59c
-    new: 2055a99da8a253a357bdfd359b3338ef3375a26c
+    old: 7df42757ec4250e0f53fc0521b9ebc5a197f315c
+    new: 1867a92570347493d96a1169d38b4cca90ff2d12
     log: |
-         2055a99da8a253a357bdfd359b3338ef3375a26c net: bonding: fix error return code of bond_neigh_init()
+         1867a92570347493d96a1169d38b4cca90ff2d12 pw-apply: Add support for wrapped multi-line series subjects
          
