@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1908218226639628464=="
+Content-Type: multipart/mixed; boundary="===============5965562040124810084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 08 Mar 2021 16:07:15 -0000
-Message-Id: <161521963590.24464.15750782483080695214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 08 Mar 2021 16:07:33 -0000
+Message-Id: <161521965325.24625.1972546639552160403@gitolite.kernel.org>
 
---===============1908218226639628464==
+--===============5965562040124810084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: a077a13f9bafa7a90c433097681503bbd4293f03
-    new: 406951a914e4b09b33e0c414395ebbd92b3e0c87
-    log: revlist-a077a13f9baf-406951a914e4.txt
+    old: 43f3e675547a0803fa0e840f1687a9d24b0641b9
+    new: 2a84b6123c49cf568cfa78ba8b383e46f0101f2c
+    log: revlist-43f3e675547a-2a84b6123c49.txt
   - ref: refs/heads/for-next
-    old: c54607a8383c00beee65bfd6f14088e1e03c16f7
-    new: 5fa184afc97dd3704a0adf91b9f4159060fd708a
-    log: revlist-c54607a8383c-5fa184afc97d.txt
+    old: ab9124c5332468752237ae38cbb7a82c543d7ba0
+    new: 62b99fc9b80dd0eb8363522ece8654cd1b61331d
+    log: revlist-ab9124c53324-62b99fc9b80d.txt
 
---===============1908218226639628464==
+--===============5965562040124810084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a077a13f9baf-406951a914e4.txt
+Content-Disposition: attachment; filename=revlist-43f3e675547a-2a84b6123c49.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -199,7 +199,6 @@ dc22c1c058b5c4fe967a20589e36f029ee42a706 nvme-pci: mark Kingston SKC2000 as not 
 78570f8873c8cd44c12714c7fa7db2601ec5617d nvme-hwmon: Return error code when registration fails
 32feb6de47242e54692eceab52cfae8616aa0518 nvme-fabrics: fix kato initialization
 d9f273b7585c380d7a10d4b3187ddc2d37f2740b nvmet: model_number must be immutable once set
-2a105d168e74eedbccd9b040c3ee8b8b00604a33 regulator: rt4831: Fix return value check in rt4831_regulator_probe()
 7bff4c26b6d2c82bebf8630f31b1cca11b1bd562 Merge branch 'powercap'
 46fe18b16c4656969347fc0a3d83a034e47d9119 io_uring: move to using create_io_thread()
 ca0a26511c679a797f86589894a4523db36d833e io_uring: don't keep looping for more events if we can't flush overflow
@@ -224,13 +223,13 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-406951a914e4b09b33e0c414395ebbd92b3e0c87 Merge remote-tracking branch 'regulator/for-5.12' into regulator-linus
+2a84b6123c49cf568cfa78ba8b383e46f0101f2c Merge remote-tracking branch 'spi/for-5.12' into spi-linus
 
---===============1908218226639628464==
+--===============5965562040124810084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c54607a8383c-5fa184afc97d.txt
+Content-Disposition: attachment; filename=revlist-ab9124c53324-62b99fc9b80d.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -401,7 +400,7 @@ dc22c1c058b5c4fe967a20589e36f029ee42a706 nvme-pci: mark Kingston SKC2000 as not 
 78570f8873c8cd44c12714c7fa7db2601ec5617d nvme-hwmon: Return error code when registration fails
 32feb6de47242e54692eceab52cfae8616aa0518 nvme-fabrics: fix kato initialization
 d9f273b7585c380d7a10d4b3187ddc2d37f2740b nvmet: model_number must be immutable once set
-2a105d168e74eedbccd9b040c3ee8b8b00604a33 regulator: rt4831: Fix return value check in rt4831_regulator_probe()
+55794b1d8623f73d9a4bf12e4343bc8fc96024e1 spi: cadence-quadspi: Silence shiftTooManyBitsSigned warning
 7bff4c26b6d2c82bebf8630f31b1cca11b1bd562 Merge branch 'powercap'
 46fe18b16c4656969347fc0a3d83a034e47d9119 io_uring: move to using create_io_thread()
 ca0a26511c679a797f86589894a4523db36d833e io_uring: don't keep looping for more events if we can't flush overflow
@@ -426,7 +425,7 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-406951a914e4b09b33e0c414395ebbd92b3e0c87 Merge remote-tracking branch 'regulator/for-5.12' into regulator-linus
-5fa184afc97dd3704a0adf91b9f4159060fd708a Merge remote-tracking branch 'regulator/for-5.13' into regulator-next
+2a84b6123c49cf568cfa78ba8b383e46f0101f2c Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+62b99fc9b80dd0eb8363522ece8654cd1b61331d Merge remote-tracking branch 'spi/for-5.13' into spi-next
 
---===============1908218226639628464==--
+--===============5965562040124810084==--
