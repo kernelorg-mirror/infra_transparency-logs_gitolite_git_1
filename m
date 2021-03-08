@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5537583973679863851=="
+Content-Type: multipart/mixed; boundary="===============6347666270629754586=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 08 Mar 2021 10:34:28 -0000
-Message-Id: <161519966858.7361.12265684252132971774@gitolite.kernel.org>
+Date: Mon, 08 Mar 2021 10:35:09 -0000
+Message-Id: <161519970983.8929.16764968060756339027@gitolite.kernel.org>
 
---===============5537583973679863851==
+--===============6347666270629754586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/review-hans
+  - ref: refs/heads/for-next
     old: 0733e545fa5966701bc056cf62e3195ee92e4191
     new: 87eaede45385e384faf5b15d9c718a951667bdd0
     log: revlist-0733e545fa59-87eaede45385.txt
 
---===============5537583973679863851==
+--===============6347666270629754586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ d9ff4ec3324fa34dad0e7ea2e3500536fe216b49 platform/x86: intel-hid: Support Lenovo
 2b329f5694aec86107931584413c7d2ebc6b548d platform/x86: wmi: Make remove callback return void
 87eaede45385e384faf5b15d9c718a951667bdd0 platform/x86: touchscreen_dmi: Handle device properties with software node API
 
---===============5537583973679863851==--
+--===============6347666270629754586==--
