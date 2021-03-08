@@ -1,38 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============5184995500574861539=="
+Content-Type: multipart/mixed; boundary="===============9109410169281208274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Mon, 08 Mar 2021 09:14:30 -0000
-Message-Id: <161519487011.1786.16948512419611821336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Mon, 08 Mar 2021 09:21:29 -0000
+Message-Id: <161519528923.25975.4623171852417817152@gitolite.kernel.org>
 
---===============5184995500574861539==
+--===============9109410169281208274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/for-kernelci
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-fe07bfda2fb9-a38fd8748464.txt
-  - ref: refs/heads/for-next/fixes
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-fe07bfda2fb9-a38fd8748464.txt
-  - ref: refs/heads/master
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-fe07bfda2fb9-a38fd8748464.txt
+  - ref: refs/heads/for-usb-next
+    old: d9f9d67fa76319c2dc3d5b61dd3e3c9cb55cfbd5
+    new: 04002a65415b9646f2ffacbc81b4dba42dd1ce50
+    log: revlist-d9f9d67fa763-04002a65415b.txt
+  - ref: refs/tags/v5.12-rc1-dontuse
+    old: 0000000000000000000000000000000000000000
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v5.12-rc2
+    old: 0000000000000000000000000000000000000000
+    new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
 
---===============5184995500574861539==
+--===============9109410169281208274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-a38fd8748464.txt
+Content-Disposition: attachment; filename=revlist-d9f9d67fa763-04002a65415b.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -227,5 +225,9 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
+c7a63cd331e55f6d34ef1875ab43744058a0dff0 xhci: check port array allocation was successful before dereferencing it
+fce732d0ff1daee7937e841e322a2e2682209d61 xhci: check control context is valid before dereferencing it.
+baa4e8184909b4cdb3d8fcc3269a97c66029b918 xhci: fix potential array out of bounds with several interrupters
+04002a65415b9646f2ffacbc81b4dba42dd1ce50 xhci: prevent double-fetch of transfer and transfer event TRBs
 
---===============5184995500574861539==--
+--===============9109410169281208274==--
