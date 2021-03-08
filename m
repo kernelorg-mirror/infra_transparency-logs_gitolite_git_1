@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 08 Mar 2021 23:33:09 -0000
-Message-Id: <161524638981.4518.10952715214263843754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 08 Mar 2021 23:50:03 -0000
+Message-Id: <161524740362.15568.2998945334284733598@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 632bac1ba24b8a7d5354f17cbdb2d52377e9f77c
-    new: f3e4937bc6a4fd01e21a5b26d40807c33572e7cb
+  - ref: refs/heads/wq-no-manager
+    old: a91ab2dfc03aad93bc21a6aec7cf7a52236ca1d7
+    new: 2a2782876d76ed152e8d73d257a79cb5b31ae619
     log: |
-         f3e4937bc6a4fd01e21a5b26d40807c33572e7cb monitor: Fix invalid access
+         2a2782876d76ed152e8d73d257a79cb5b31ae619 io-wq: eliminate the need for a manager thread
          
