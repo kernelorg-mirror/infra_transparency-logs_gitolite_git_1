@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 08 Mar 2021 17:47:34 -0000
-Message-Id: <161522565461.22558.17670688884889596582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Mon, 08 Mar 2021 17:51:25 -0000
+Message-Id: <161522588561.25019.10257368712855626445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 6c810cf20feef0d4338e9b424ab7f2644a8b353e
-    new: 6654111c893fec1516d83046d2b237e83e0d5967
-    log: |
-         6654111c893fec1516d83046d2b237e83e0d5967 MIPS: vmlinux.lds.S: align raw appended dtb to 8 bytes
-         
+  - ref: refs/tags/arm64-fiq-20210308
+    old: 0000000000000000000000000000000000000000
+    new: 35dd6f877edfbca31184f131090f3b3bcd245a35
