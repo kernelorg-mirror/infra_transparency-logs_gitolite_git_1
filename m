@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 08 Mar 2021 18:21:09 -0000
-Message-Id: <161522766996.10959.7105648132062760986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 08 Mar 2021 18:36:10 -0000
+Message-Id: <161522857053.19298.6404079835691445445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 85818fbef4da5240dfffc3880fb2b94d68bd8902
-    new: eb0334444dd84085548b809944ee8025397e2243
+  - ref: refs/heads/master
+    old: bbb41728e61a602ec76cbfec2a49ccc763d305b7
+    new: a6aac408c56112f73d28ea8567c29b2a7fe8fccc
     log: |
-         eb0334444dd84085548b809944ee8025397e2243 Merge branch 'acpi-gpiolib' into bleeding-edge
+         a6aac408c56112f73d28ea8567c29b2a7fe8fccc libbpf: Fix arm64 build
          
