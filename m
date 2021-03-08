@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1148559352620308972=="
+Content-Type: multipart/mixed; boundary="===============8577276695391963036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 08 Mar 2021 16:40:39 -0000
-Message-Id: <161522163958.13834.11124652121529938227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 08 Mar 2021 16:40:44 -0000
+Message-Id: <161522164408.13990.5760420656432651913@gitolite.kernel.org>
 
---===============1148559352620308972==
+--===============8577276695391963036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
 
---===============1148559352620308972==
+--===============8577276695391963036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -220,4 +220,4 @@ fbda7904302499dd7ffc073a3c84eb7c9275db0a Merge tag 'powerpc-5.12-2' of git://git
 3bb48a8506275f4d9e4593acf9f2fc0880a42f73 Merge branch 'parisc-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 144c79ef33536b4ecb4951e07dbc1f2b7fa99d32 Merge tag 'perf-tools-fixes-for-v5.12-2020-03-07' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============1148559352620308972==--
+--===============8577276695391963036==--
