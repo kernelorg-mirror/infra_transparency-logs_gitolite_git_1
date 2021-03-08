@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0247030507636243046=="
+Content-Type: multipart/mixed; boundary="===============7568569325590762288=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 08 Mar 2021 18:12:38 -0000
-Message-Id: <161522715875.5549.7949705795587280927@gitolite.kernel.org>
+Date: Mon, 08 Mar 2021 18:12:55 -0000
+Message-Id: <161522717545.5740.8181601601793374151@gitolite.kernel.org>
 
---===============0247030507636243046==
+--===============7568569325590762288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: ddf89f8b293b1eb51d548611c34f067a4aa26265
-    new: ee5e9cdffebe8f26b23b0159a29c0413f9feaabb
-    log: revlist-ddf89f8b293b-ee5e9cdffebe.txt
+  - ref: refs/heads/review-andy
+    old: 53f6b1344bbe7c65620ca6b95574ff43d2d83cd7
+    new: 1d83b70c24b04ff4f1c34da315cc6ce156324611
+    log: revlist-53f6b1344bbe-1d83b70c24b0.txt
 
---===============0247030507636243046==
+--===============7568569325590762288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ddf89f8b293b-ee5e9cdffebe.txt
+Content-Disposition: attachment; filename=revlist-53f6b1344bbe-1d83b70c24b0.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -234,5 +234,7 @@ b41ba2ec54a70908067034f139aa23d0dd2985ce gpiolib: Read "gpio-line-names" from a 
 39fd7c1a175caaa93d3491a538881302c3245038 gpiolib: Move of_node operations to gpiolib-of and correct fwnode use
 de232781108c8c11765c744e5cb0b86d56f031d6 gpiolib: Introduce acpi_gpio_dev_init() and call it from core
 ee5e9cdffebe8f26b23b0159a29c0413f9feaabb gpiolib: Reuse device's fwnode to create IRQ domain
+0ea51a4be19b633b91cd25f2f100dc03369cb71b genirq/irq_sim: Fix typos in kernel doc (fnode -> fwnode)
+1d83b70c24b04ff4f1c34da315cc6ce156324611 ARM: Drop ARCH_NR_GPIOS definition
 
---===============0247030507636243046==--
+--===============7568569325590762288==--
