@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3657748326257302050=="
+Content-Type: multipart/mixed; boundary="===============1413482274028624852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 08 Mar 2021 17:51:47 -0000
-Message-Id: <161522590751.25259.8670030056672669676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 08 Mar 2021 18:03:03 -0000
+Message-Id: <161522658386.31103.130649855666448037@gitolite.kernel.org>
 
---===============3657748326257302050==
+--===============1413482274028624852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/arm64/fiq
-    old: 6be45230fc531e1c50b4c04e8cf6a1925b192e3c
-    new: 35dd6f877edfbca31184f131090f3b3bcd245a35
-    log: revlist-6be45230fc53-35dd6f877edf.txt
+  - ref: refs/heads/fixes
+    old: 437b57d2085950a813c028215513fe941ca2e616
+    new: b41ba2ec54a70908067034f139aa23d0dd2985ce
+    log: revlist-437b57d20859-b41ba2ec54a7.txt
 
---===============3657748326257302050==
+--===============1413482274028624852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6be45230fc53-35dd6f877edf.txt
+Content-Disposition: attachment; filename=revlist-437b57d20859-b41ba2ec54a7.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,13 +219,13 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-ee9e301798c9b50225beb8fd50e04d6981c72e2e ARM: ep93xx: Select GENERIC_IRQ_MULTI_HANDLER directly
-434b3eeef4c29b1da21b6a7624034e4dd12dda23 irqchip: Do not blindly select CONFIG_GENERIC_IRQ_MULTI_HANDLER
-ee6c8141f6cf32fad47a7bde4685f45efc485c27 genirq: Allow architectures to override set_handle_irq() fallback
-fd4999c5d8fe0db1f78e48e77c936fcf81987b9a arm64: don't use GENERIC_IRQ_MULTI_HANDLER
-04b9fcc08b6106e0643cd7643797b633cc2e3618 arm64: irq: rework root IRQ handler registration
-f53a41f5a6d73c4ac71922ad1722e6e715988fb1 arm64: entry: factor irq triage logic into macros
-2b341e504d6e6ce554d88df20df457b713ea8754 arm64: Always keep DAIF.[IF] in sync
-35dd6f877edfbca31184f131090f3b3bcd245a35 arm64: irq: allow FIQs to be handled
+542104ee0cafe789cc07291b71818c143df8d623 selftests: gpio: update .gitignore
+a6112998ee45514def58200a7914706c0703f3d7 gpio: fix NULL-deref-on-deregistration regression
+cf25ef6b631c6fc6c0435fc91eba8734cca20511 gpio: fix gpio-device list corruption
+6e5d5791730b55a1f987e1db84b078b91eb49e99 gpiolib: acpi: Add missing IRQF_ONESHOT
+62d5247d239d4b48762192a251c647d7c997616a gpiolib: acpi: Add ACPI_GPIO_QUIRK_ABSOLUTE_NUMBER quirk
+809390219fb9c2421239afe5c9eb862d73978ba0 gpiolib: acpi: Allow to find GpioInt() resource by name and index
+eb441337c7147514ab45036cadf09c3a71e4ce31 gpio: pca953x: Set IRQ type when handle Intel Galileo Gen 2
+b41ba2ec54a70908067034f139aa23d0dd2985ce gpiolib: Read "gpio-line-names" from a firmware node
 
---===============3657748326257302050==--
+--===============1413482274028624852==--
