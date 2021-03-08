@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 08 Mar 2021 10:16:51 -0000
-Message-Id: <161519861177.30092.16331362745760944892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Mon, 08 Mar 2021 10:18:43 -0000
+Message-Id: <161519872313.30773.9428914272475931370@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: tudor.ambarus
 changes:
-  - ref: refs/heads/for-5.12/upstream-fixes
-    old: 36b87cf302a4f13f8b4344bcf98f67405a145e2f
-    new: 9a0b44fbfea1932196a4879b44a37dd182e984c5
+  - ref: refs/heads/spi-nor/next
+    old: ae2177cf318d169e349319b24a26881ba0e5248f
+    new: 47f25032c0e34ea492e88a68db373c92eae1d70a
     log: |
-         9a0b44fbfea1932196a4879b44a37dd182e984c5 HID: asus: Add support for 2021 ASUS N-Key keyboard
-         
-  - ref: refs/heads/for-next
-    old: 419614e599ab715b52e9c8f7b93c2d9471e4bd23
-    new: 4d1493efc2b700f690c1353ccc4c29cf2110237d
-    log: |
-         9a0b44fbfea1932196a4879b44a37dd182e984c5 HID: asus: Add support for 2021 ASUS N-Key keyboard
-         4d1493efc2b700f690c1353ccc4c29cf2110237d Merge branch 'for-5.12/upstream-fixes' into for-next
+         47f25032c0e34ea492e88a68db373c92eae1d70a MAINTAINERS: Add Michael and Pratyush as designated reviewers for SPI NOR
          
