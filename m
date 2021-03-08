@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 08 Mar 2021 16:16:21 -0000
-Message-Id: <161522018166.31404.1232983246219634676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Mon, 08 Mar 2021 16:25:27 -0000
+Message-Id: <161522072722.4249.2025439300398103878@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/for-next
-    old: 78b657e1c51958b6276103154ea7f4dd471da087
-    new: e453304975b0973fb2447305263f27ea00bf4f23
+  - ref: refs/heads/mediatek-cmdq3
+    old: 9f5edfff642fd653d940c3e604d4ca9996ea01d6
+    new: fbddda0dc7d779f3ec72643b4c4cc451367f3abb
     log: |
-         464956f75e9e26bcbbcbef435213e8f5fa854d07 HID: intel-ish-hid: Drop if block with an always false condition
-         7c746603b5c58939ec823cff5dca3894cc3afb3b HID: intel-ish-hid: Simplify logic in ishtp_cl_device_remove()
-         e71da1fd0e84bc5c87a78b405e40713840eecc80 HID: intel-ish-hid: Make remove callback return void
-         e453304975b0973fb2447305263f27ea00bf4f23 Merge branch 'for-5.13/intel-ish' into for-next
+         d344253ea57eae94ce8880cce9b60979d373e14b mailbox: mtk-cmdq: Add struct cmdq_pkt in struct cmdq_cb_data
+         fbddda0dc7d779f3ec72643b4c4cc451367f3abb soc / drm: mediatek: Use mailbox rx_callback instead of cmdq_task_cb
          
-  - ref: refs/heads/for-5.13/intel-ish
-    old: 0000000000000000000000000000000000000000
-    new: e71da1fd0e84bc5c87a78b405e40713840eecc80
