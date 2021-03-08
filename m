@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6429448035740708071=="
+Content-Type: multipart/mixed; boundary="===============2289147526701086315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 08 Mar 2021 11:41:27 -0000
-Message-Id: <161520368718.18806.14833399653403450373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 08 Mar 2021 11:41:38 -0000
+Message-Id: <161520369891.18950.17859183635099691228@gitolite.kernel.org>
 
---===============6429448035740708071==
+--===============2289147526701086315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/efi/urgent
-    old: 355845b738e76445c8522802552146d96cb4afa7
-    new: 9e9888a0fe97b9501a40f717225d2bef7100a2c1
-    log: revlist-355845b738e7-9e9888a0fe97.txt
+  - ref: refs/heads/opp/linux-next
+    old: de04241ab87afcaac26f15fcc32a7bd27294dd47
+    new: 021c503e15083e7ed1b28c048322baa904b6bc8e
+    log: revlist-de04241ab87a-021c503e1508.txt
 
---===============6429448035740708071==
+--===============2289147526701086315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-355845b738e7-9e9888a0fe97.txt
+Content-Disposition: attachment; filename=revlist-de04241ab87a-021c503e1508.txt
 
 8acb54abc1db4e1e3913359e4108e04e88ce4d92 Merge tag 'timers-v5.11-rc5' of https://git.linaro.org/people/daniel.lezcano/linux into timers/urgent
 2596b6ae412be3d29632efc63976a2132032e620 kexec: move machine_kexec_post_load() to public interface
@@ -1049,6 +1049,6 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-9e9888a0fe97b9501a40f717225d2bef7100a2c1 efi: stub: omit SetVirtualAddressMap() if marked unsupported in RT_PROP table
+021c503e15083e7ed1b28c048322baa904b6bc8e opp: Invalidate current opp when draining the opp list
 
---===============6429448035740708071==--
+--===============2289147526701086315==--
