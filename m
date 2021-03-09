@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 09 Mar 2021 23:10:49 -0000
-Message-Id: <161533144994.32018.15502670626344853241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 09 Mar 2021 23:12:02 -0000
+Message-Id: <161533152219.32540.4003412956179476160@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 05a68ce5fa51a83c360381630f823545c5757aa2
-    new: de920fc64cbaa031f947e9be964bda05fd090380
+    old: e5767adc537a95b8860106712d40462433dd70a5
+    new: 11d39cfeecfc9d92a5faa2a55c228e796478e0cb
     log: |
-         de920fc64cbaa031f947e9be964bda05fd090380 bpf, x86: Use kvmalloc_array instead kmalloc_array in bpf_jit_comp
+         11d39cfeecfc9d92a5faa2a55c228e796478e0cb selftests/bpf: Fix compiler warning in BPF_KPROBE definition in loop6.c
          
