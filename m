@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4172700390822457460=="
+Content-Type: multipart/mixed; boundary="===============7244412689139741857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 09 Mar 2021 08:14:37 -0000
-Message-Id: <161527767725.29919.5797320026370768250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Tue, 09 Mar 2021 08:14:50 -0000
+Message-Id: <161527769027.30114.12155192290647623972@gitolite.kernel.org>
 
---===============4172700390822457460==
+--===============7244412689139741857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
     new: a38fd8748464831584a19438cbb3082b5a2dab15
     log: revlist-fe07bfda2fb9-a38fd8748464.txt
 
---===============4172700390822457460==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615277672 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1615277671-1bb99b5b472a5a8ec6eaabe2c6811d2d5b6fc435
-
-fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 a38fd8748464831584a19438cbb3082b5a2dab15 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBHLmgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q5UQALKrjcfslCM/IxCKgAJX
-U1d81d1k/gPF2rUg+XL4rQigMVTfbU/8HX7cyb3KNAF7oZ6x29YCY7guprIWCENq
-OP0IXv9Za/4Eme+4o5Ep4OxmnNuK7uuet0Md/DLd5kVoUPUYbRRBfjXbF+AGOQwz
-g/oEpNnxmpTH35LOZCTOgmLyptf+CqPH43p1fDQUv3fy9igKFU4aO5E/+F9FUWZR
-A3HmZASXvvo8BDsJ3ML8v/x7x8eowbSXXjh4+oRDxuvu5b/jqGXe1tTcXj44lr8r
-3yRFzk8WCflUBAcSyu9cOQKvRDYZ7GhnfGZpqqJEDLXIrxv9AEv6YRVIjUz1QBXG
-t1TLVMUQ5MzhY4pIoPMagxJ8fDcOo++XUzKTsyk0r8u7KVX+uGatebqnUQwcsZUA
-ciQ50OhIGGXmRpTWevspTDrhp/soCXiRPidqXzKr9Qe4neDhg+fMJaz5yV1HCJme
-4ErKh/h4olfnSDl4BUYLWQ1oL4yB3EoiitJxHxPIkw2r78hoiTaXCLV+cqvMbA3z
-p+iZrIS1VsIpfB42fZ0VDNQj+40cpSllh5+YsNHKDk7hymC1O0vCyke6ttvh+3Ww
-9M34A1rlg87iBj5xrP3/9m15EzRiyoWbA2hqe/UgqhYbnNkif8VhdUQvoxAxmGZY
-OpVp+zlCobczaYhnJdyFwL73
-=tKy/
------END PGP SIGNATURE-----
-
---===============4172700390822457460==
+--===============7244412689139741857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -251,4 +220,4 @@ de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of gi
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
 
---===============4172700390822457460==--
+--===============7244412689139741857==--
