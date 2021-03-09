@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Tue, 09 Mar 2021 11:56:09 -0000
-Message-Id: <161529096982.16200.1979445602619599405@gitolite.kernel.org>
+Date: Tue, 09 Mar 2021 11:58:36 -0000
+Message-Id: <161529111640.16997.3342881272867432327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
 user: brauner
 changes:
   - ref: refs/heads/detached_mounts_propagation
-    old: a6bf45fbe695f40b41162a84ae1419650ae02eb7
-    new: 3da01c36ddaa121b36f5cfea5255f39d5b555827
+    old: 3da01c36ddaa121b36f5cfea5255f39d5b555827
+    new: 85b2f340a8bc0003388366b1fec7c69f7d7fddd2
     log: |
-         3da01c36ddaa121b36f5cfea5255f39d5b555827 generic/626: add test for detached mount propagation
+         85b2f340a8bc0003388366b1fec7c69f7d7fddd2 generic/626: add test for detached mount propagation
          
