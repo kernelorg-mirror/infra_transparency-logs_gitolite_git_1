@@ -1,61 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8962577358929012571=="
+Content-Type: multipart/mixed; boundary="===============8238289208451335390=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 09 Mar 2021 08:09:38 -0000
-Message-Id: <161527737862.24658.9106724756736267690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Tue, 09 Mar 2021 08:09:42 -0000
+Message-Id: <161527738211.24731.1033117547235630959@gitolite.kernel.org>
 
---===============8962577358929012571==
+--===============8238289208451335390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/usb-testing
-    old: a14ecf9f692a8f460d26935c7e8bdb77ed6c918b
-    new: bebccc4bc6585c04be862db92631aab8c161bc8c
-    log: revlist-a14ecf9f692a-bebccc4bc658.txt
+  - ref: refs/heads/usb-linus
+    old: aefe09d59fae297ce8c2f2b9fe9a0722533dada9
+    new: cfdc67acc785e01a8719eeb7012709d245564701
+    log: revlist-aefe09d59fae-cfdc67acc785.txt
 
---===============8962577358929012571==
+--===============8238289208451335390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615277370 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1615277369-b6afe0d191b060d18ab628e3fe4516488fd2c951
-
-a14ecf9f692a8f460d26935c7e8bdb77ed6c918b bebccc4bc6585c04be862db92631aab8c161bc8c refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBHLTobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FXMP/1KoDqz2f2c+pUNpHqb0
-n2vbaMhWpcsgRAqLkKGg28nlZjeRt5FdrQzW5NrpwcIhs4lv7B+LQIHp1C4Gg3cH
-rYzwdbxvlF4OG4ANUzl3w2s9TVGaHrgYyS5mf+yQgGOG9STaP7Mxsz9Mdh+28CUM
-2Yqw7G2QLDe62tK9xW+M01l67xrIG86ZzUfOCH6seayxnSYAzidG/qQ6Eo1q5mv5
-KZyYrpQEXc855OlSMTpmA7QVekp9Wk2ECaJYrd0ukJDQ/IMewtki2Fu5q9pafXwY
-zgvPBKFWr3+6PJY635IsxGbcU6HW1HdN5351jQqMHiRuP+7x6NwjqFTl0DURoqHd
-3h5zA5QbtYe43gOdCYyMbthkGbYqlh7/bPqDZGGyxK4am8DJlyvwPcYkCBVze8lC
-bkIhIohbdIFmJmCsTMMC9fG02HUcMHcp+8EoMkVHgFSnX9zcF3iYF+XY3DFcAdLJ
-JpigukGXWEzuuRe7s1pS2ugG1h7eJW8wFSXEduqFLAd+iDa7ZG/PgzgcC/DiT6bZ
-rU3Y2U6GP1rIYSu0MnN4hMFa3MW2VvjK0KKJ9ofZ9sRT97Mz/fI0FXDuQ7hfFtxq
-Mm+d1BDdDuZDzzwntJ2VY4UYdkRoqwNTOWMf2eZvvltf5diZmzINufH+X/4BeIxq
-Zn8TH+TZkkuRJIBxczz0pcZI
-=/tlM
------END PGP SIGNATURE-----
-
---===============8962577358929012571==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a14ecf9f692a-bebccc4bc658.txt
+Content-Disposition: attachment; filename=revlist-aefe09d59fae-cfdc67acc785.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -250,6 +219,10 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-bebccc4bc6585c04be862db92631aab8c161bc8c Merge v5.12-rc2 into usb-next
+ca667a33207daeaf9c62b106815728718def60ec USB: serial: cp210x: add ID for Acuity Brands nLight Air Adapter
+42213a0190b535093a604945db05a4225bf43885 USB: serial: cp210x: add some more GE USB IDs
+f164f5d8a70245217bee89b246dc4fcfececa526 USB: serial: xr: fix NULL-deref on disconnect
+5563b3b6420362c8a1f468ca04afe6d5f0a8d0a3 USB: serial: ch341: add new Product ID
+cfdc67acc785e01a8719eeb7012709d245564701 USB: serial: io_edgeport: fix memory leak in edge_startup
 
---===============8962577358929012571==--
+--===============8238289208451335390==--
