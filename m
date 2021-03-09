@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7127522012636590248=="
+Content-Type: multipart/mixed; boundary="===============6582215911748872896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 09 Mar 2021 18:13:18 -0000
-Message-Id: <161531359836.26576.14733110984109780450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Tue, 09 Mar 2021 18:17:38 -0000
+Message-Id: <161531385835.29221.6820954498234445226@gitolite.kernel.org>
 
---===============7127522012636590248==
+--===============6582215911748872896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/arm64-ro-page-tables-pkvm
-    old: ac9916b95f58353008b7d0dc1ac8552bde419ebd
-    new: 013c3cfada2933235858e3db49db939379e7003f
-    log: revlist-ac9916b95f58-013c3cfada29.txt
+  - ref: refs/heads/next
+    old: 5116bf54af6f64ae6dc89547e60fbff4083b447b
+    new: 1596679e40ad45bb8f3a9f5eed110728e30375e3
+    log: revlist-5116bf54af6f-1596679e40ad.txt
 
---===============7127522012636590248==
+--===============6582215911748872896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac9916b95f58-013c3cfada29.txt
+Content-Disposition: attachment; filename=revlist-5116bf54af6f-1596679e40ad.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,68 +219,27 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-5544850ef54b4dc20e22ade2f19f1d1ed57341fb KVM: arm64: Avoid corrupting vCPU context register in guest exit
-9a9a299cdf530681f04ccd7f14a6397d22bbc9f5 arm64: lib: Annotate {clear,copy}_page() as position-independent
-d72d3b06cef008aa21e33126cf91ac2ed680d835 KVM: arm64: Link position-independent string routines into .hyp.text
-52b206196a51badb7528cd87c58e81323a7cf6b1 arm64: kvm: Add standalone ticket spinlock implementation for use at hyp
-bc22b2db07b078198018b4e4fd978698535bab74 KVM: arm64: Initialize kvm_nvhe_init_params early
-8f13070bc07488d99c8d1082770b1630170ec6be KVM: arm64: Avoid free_page() in page-table allocator
-461760b11d26c8452073ea8b7e32de0d6d745b5b KVM: arm64: Factor memory allocation out of pgtable.c
-c21a99bb454b66b6b6723eb27847a8c2a034e29c KVM: arm64: Introduce a BSS section for use at Hyp
-1fdadd76a1557ffda9f9837fc31438e1d089dcc0 KVM: arm64: Make kvm_call_hyp() a function call at Hyp
-432dc137b1700190e775b8406b34cb497bc0e9b6 KVM: arm64: Allow using kvm_nvhe_sym() in hyp code
-f94a3dbc3fadd2be88d2f721e5a04a46f54c5f22 KVM: arm64: Introduce an early Hyp page allocator
-8e0dfd8368ea66994fe4d55be674ff56b3372a3e KVM: arm64: Stub CONFIG_DEBUG_LIST at Hyp
-497f77654ef58285b8d5a434d51536f0534b57bd KVM: arm64: Introduce a Hyp buddy page allocator
-b2b7e323266f89ad7f9f93a8526cffd0e944bbe8 KVM: arm64: Enable access to sanitized CPU features at EL2
-26e3a1573933bea5aef00a874f3670894c0bf9e4 KVM: arm64: Factor out vector address calculation
-29b2445ac0f488f573fc8c8c2b9f310251d561fd KVM: arm64: Prepare Hyp memory protection
-d826e8c4798c84f380a5732bf4651e5a3d61f7b1 KVM: arm64: Elevate Hyp mappings creation at EL2
-14c87b2819508976707664d16d764413dc918899 KVM: arm64: Use kvm_arch for stage 2 pgtable
-cb50cb8743852895719b93d75565cd91f5d0a669 KVM: arm64: Use kvm_arch in kvm_s2_mmu
-5b59c35a612d2ea241b011dced7395c7c7a8579f KVM: arm64: Set host stage 2 using kvm_nvhe_init_params
-d6cf28b582f6d5adb075b64c4e962ce7b123dbfb KVM: arm64: Refactor kvm_arm_setup_stage2()
-046c43021f69b299852fe1a3693deed198e932f1 KVM: arm64: Refactor __load_guest_stage2()
-04b9b39757d688d2ef85bef7d631e01d1ffb93e2 KVM: arm64: Refactor __populate_fault_info()
-6b28fc119ae094428f3633ef1a8339dc348470ce KVM: arm64: Make memcache anonymous in pgtable allocator
-db7e6851d2bd34a7087c48c2bbbf08d39da295c6 KVM: arm64: Reserve memory for host stage 2
-80d750833ca89981ad1e04cc2b4945ebcced0fa1 KVM: arm64: Sort the Hyp memblocks
-dc0c84d7040b932d79db91ad13dda7b6e58d4b12 KVM: arm64: Introduce PROT_NONE mappings for stage 2
-a8cea4ed7c6839740e597ed9adc20c01e8d6234e KVM: arm64: Refactor stage2_map_set_prot_attr()
-e2a87127725649a8c66ee5a2fb3b852ee2f4423d KVM: arm64: Add kvm_pgtable_stage2_idmap_greedy()
-29e0a8981dbc577527390ba9057721f3d74e6bbe KVM: arm64: Wrap the host with a stage 2
-083fa42a7c3dfa3b644673db0dcfdb2cf679a487 KVM: arm64: Page-align the .hyp sections
-50705ba57c3b73953157d79f9bc88eb61c8ab98b WiP: KVM: arm64: Protect the .hyp sections from the host
-605c91c5509f735b232af467b1c092503da627a2 [DEBUG] KVM: arm64: Add debug UART hacks at EL2
-674a44bccf6c5d39cd2d21d92c4972cb55d8a9a0 [DEBUG] Enable UART at EL2
-6cbef3082455385e033878a3dc85682e5f639d0e [DEBUG] poke: Add sysctl to poke abitrary VAs
-a503f0b89693230728dfe1b732f39346c6b2e630 [DEBUG] Disable VHE
-19bc0f573511f500c4e8a9dd87b7295f52b80f8f [DEBUG] debug-pl011.h: split out hyp_puteol()
-e8704ae43567a04f9d8368d92c2f74a102b0658c arm64: mm: add missing P4D definitions and use them consistently
-837690a3e4baca71483581367621d0e4d1d72f19 arm64: mm: use XN table mapping attributes for the linear region
-75ab95031cb63802736842cf7837756e3bdcd485 arm64: mm: use XN table mapping attributes for user/kernel mappings
-a11ba8155fa003f19f083079cb495656e0a004ad asm-generic/pgalloc: allow arch to override PMD/PUD alloc/free routines
-f2ae6f345c64fcae9d7ffd269ba0bd5c4a3e3d1a arm64: mm: add helpers to remap page tables read-only/read-write
-a109acf1d84ed920ae8435a5ee3d1a8ee7562c78 arm64: mm: use a fixmap slot for user page table modifications
-c15a85e9cb2028d2ee490104dacb96b0c220e7c7 arm64: mm: remap PGD pages r/o in the linear region after allocation
-a0bd57f579f0a113a039694a712fd5e4cf7ab234 arm64: mm: remap PUD pages r/o in linear region
-ad36e320a402e9b535bff8f027af567d9a14b4cb arm64: mm: remap PMD pages r/o in linear region
-fd733afb54fe46ff9bbb43f5684bd04462cea229 arm64: mm: remap PTE level user page tables r/o in the linear region
-09aa2c3845865e2278230a05982ce2a03492e0f0 arm64: mm: remap kernel PTE level page tables r/o in the linear region
-59506fde9b32a0e08798f244f00ffa12a87f4cea arm64: mm: remap kernel page tables read-only at end of init
-54fd748c49646ff7167d2e99491d97eadde2c61a mm: add default definition of p4d_index()
-79f92b274ee918e3741e22650ae1d12dc2608a7d arm64: efi: use set_pte_at() not set_pte() in order to pass mm pointer
-a4a459ac2bd08a98bd2106d1e5b1882469ebf2be arm64: hugetlb: use set_pte_at() not set_pte() to provide mm pointer
-f57c9d452970947b3ef7d671f5b96b83e756805d HACK arm64/kvm: force crash in the host on stage permission fault
-12d40551426d0a4eabfc809dedb4f5fc35537b8a arm64: kvm: use HYP helpers to perform page table updates
-3b9d34c3652d112c5854379ce08208286fe94e86 arm64: kvm: introduce stage2 attributes to track EL1 page tables
-1ff130a768a9dd1294572c007dfd625a8322eb2c arm64: kvm: enable trapping of host VM controls
-1665f7cdeadf9bdcf8e4383674a600130c77b2bd arm64: kvm: track root page table state at hyp and remap r/o when active
-b0a5132e3e9fa804a3fc190ce20f00b03fe86ac6 arm64: kvm: validate TTBR0_EL1 updates
-c8d20ce0d1a718c50e8df5094ffafc57cac2ef20 arm64: mm: add 'address' parameter to page table manipulation helpers
-4503b684154ff657a5d7ca012cb31261d48c3d6a arm64: kvm: track intermediate page tables at EL2
-3a2f73268620c324d112d71e87ff3c19111784eb arm64: kvm: cover all ignored bits in stage2 attr mask
-3234509660c14af6003e5b918657f0e1055ef5fb arm64: mm: clean up phys_to_ttbr() and introduce ttbr_to_phys()
-013c3cfada2933235858e3db49db939379e7003f mm: HACK provide target address when migrating a PMD entry
+e39e727aa078b4c08a116ea1e9f521b71c628382 drivers: misc: ad525x_dpot: Add missing check in dpot_read_spi
+080951f99de1e483a9a48f34c079b634f2912a54 Merge v5.12-rc2 into char-misc-next
+52835528e6106e3ec1e0f39843f6d2b7525e12e4 habanalabs: set max asid to 2
+5b130f6f66afbaeb3ed86701dc72b383384ecfb1 habanalabs: add reset support when user closes FD
+0751fca71c13ace35c4c1259463055ad0ae5cca2 habanalabs: reset after device is actually released
+12cfa0cfbcf56f735a9c153693ff6882c0504a8e habanalabs: fail reset if device is not idle
+dfb214cc3d0b2f25c15fe4f762f13258faecd5f8 habanalabs: reset_upon_device_release is for bring-up
+f6d1b95c1e14aede84faf1c3e01bc1f0fadb5187 habanalabs: print if device is used on FD close
+6dfffacbb76dffb90dea7cc24df576ebba1d3daa habanalabs: change default CS timeout to 30 seconds
+0ff9e0cb40d8a1b597eb6eef7a77510d97238da5 habanalabs: reset device in case of sync error
+804037f35fb985403b2b85b44802485c6c5b28a0 habanalabs: enable all IRQs for user interrupt support
+72fec1285f02cb84dd432f79abc669bfe1e1e034 habanalabs: wait for interrupt support
+3e41cd41092715cbcdf4394e60ceaceb16115e63 habanalabs: use correct define for 32-bit max value
+227e2b4b8e32273529382c16e8374d13de96119c habanalabs: use a single FW loading bringup flag
+d4eeee4e224bab856a75d42c245f2a500d0557ca habanalabs: support HW blocks vm show
+ddb1b17c700f1979b84b75da522363c2ddccf079 habanalabs: return current power via INFO IOCTL
+d64d8f24005f90d5a66dd8b7b1195feeee09deca habanalabs/gaudi: update extended async event header
+9b388a4a62dac542af82ba4fdec96584c978c1aa habanalabs: replace GFP_ATOMIC with GFP_KERNEL
+c714ba9f64453159d60057611a1f2cf044b5245e habanalabs: skip DISABLE PCI packet to FW on heartbeat
+0cf7778d2aefc3681577070f9a46fb4849f3e220 habanalabs: update hl_boot_if.h
+27f74d2839173198a8ef4e58567fa7d760f4142e habanalabs: Switch to using the new API kobj_to_dev()
+1596679e40ad45bb8f3a9f5eed110728e30375e3 habanalabs: debugfs access to user mapped host addresses
 
---===============7127522012636590248==--
+--===============6582215911748872896==--
