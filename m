@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5653707123318897917=="
+Content-Type: multipart/mixed; boundary="===============2714407304518210539=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 09 Mar 2021 13:44:19 -0000
-Message-Id: <161529745919.16008.17334231447156767616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 09 Mar 2021 13:46:00 -0000
+Message-Id: <161529756095.17988.969397449668592320@gitolite.kernel.org>
 
---===============5653707123318897917==
+--===============2714407304518210539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: ea5af40224af4fde4c5e8376d5a0c95238331218
-    new: 8de2af767b55dc4512a804837f5e42170ac12adc
+  - ref: refs/heads/master
+    old: 7ad45f0808962957b67484b8197828b8d7c10d77
+    new: 931a41548750a50433611623b1979399f4845640
     log: |
-         3b897cb890d5cfb8111987b10f675525cacdab2a staging: rtl8192u: fix ->ssid overflow in r8192_wx_set_scan()
-         2b5d923c01cf6abf0ae2768891421612452d2ffa staging: rtl8188eu: fix potential memory corruption in rtw_check_beacon_data()
-         8de2af767b55dc4512a804837f5e42170ac12adc staging: rtl8188eu: prevent ->ssid overflow in rtw_wx_set_scan()
+         931a41548750a50433611623b1979399f4845640 5.4-stable patches
          
 
---===============5653707123318897917==
+--===============2714407304518210539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615297443 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1615297443-17a5578c9e9f4342f9d47e89c75226df6ca90b64
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615297560 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1615297559-38bcbfe576842c8e49e3fb9d3e7bd08e2a26af1e
 
-ea5af40224af4fde4c5e8376d5a0c95238331218 8de2af767b55dc4512a804837f5e42170ac12adc refs/heads/staging-linus
+7ad45f0808962957b67484b8197828b8d7c10d77 931a41548750a50433611623b1979399f4845640 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBHe6MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gFsQAM0Bt7dfc9G2Mq5i2sDR
-UVMA8e5YsxEmaj5Bd1fl/RjTQQ6CuueoI1Eurrk5UUp8YfIzO0k7w4EodwTQFvzt
-l4SHf4orH77lgeRH8wZbbOB9Yxl34WKKdXq1k4EGhsu2EyR2g0+BIyuNVXlsUYRD
-Ht1wK0C6mqMjK/AZcvB7yFS/5l5KDYJwqAblkTY+DDNMpsirROp+ooyPZphoqkNu
-OTfq5DYrGFdq0hOCrtTzxFg+HnMlYLCuLWJMfabAPruDm+Sk5KJBR8eGqeSLOhER
-ckkr5St3ItOabqGC26naJWsqzFye26K7EUzbHwX7TWlz9ocDmBY/T9ubLPF0c9fB
-44DDz+Ml+bf3qp6vbSMB4uvvmuAP6w0DmYtsNPD1ZeWzU3l7R2DXLlcTiXh1J4e3
-mLKlGvDdEjLBw0G8T2ybV+nSxTtOAVluBJUsxqplyZuvbZZHnS5ap1+z1PS7PWy5
-+q2s2R+gExc7G6ooYR93TmW3Zr8/JqD7v5YsyqkWdfbXPV2coQnnLx4ycHHBGzlR
-Fd/VO4HZJSNAccuKERO/KZlO72D6qnjuBmtJt4SqekmCX1tLTzF3MQey/iDkOuQE
-Y+CIOtUOjlvvl4icAs3c4kAFq6lWVoPbgZpMxBPZxI3WD1qnLxxZe0rXXA38bqHi
-reva3I4n1I+O9asI9mQW1WPw
-=tWfX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBHfBgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sJoQALh0257dLBigWg2X+zBI
+0JyNzE1jTXyMQo8xUvBu5Khiid4BT8//+Hu+bl5I2TYBeY5jJhFR8S69Tw9vnGA0
+Xilk/PG0zRgEzKOXAicpfSvS9a0KTMuUW8IJvtgk+nHaZcXEem9/b3QwgRyBzTsY
+WEYvsU9FmT7j/0+eIc4va9J6U8ifhdxxTQdfkC5Aj1/ICotZN1JZLRNb+9ZO8/FF
+0BUA/chp3+kFePUhamCWAy4pFGIA0fEmufbUk/rBIvVT2pzTmVia5U7ZF0eUnlxZ
+BtUdcOZPzNrk9CBXNocIvDw6ixhNAnJsVeW9y8UevqPPF2Ad6Hr1V+/PXaq5Hq8j
+aXDbESTxRP0SuDv6cd9q20GsJ151ywPlWmwC/xtRNfyqMLR6S11HgXDtP0aJslHt
+T474IiGeIW0yjj/8nwuB/8HboB3Z70IqAdQTuUV2gYrMXWB1JxOU3stEOnLvtZBe
+24/nSjJypQ8iFXyMzt0LUq/Pghx/+jgk4HaUV8bjUF8/UB9GwdkDtSD3Qo674+C0
+kXsSGcVpmP24BqWvSXnnGUAI5nfEtwYReur2qnNCCrw9+2JgL+Ep6Z52CwQvDowT
+0/UgaQkIfJqNutUbbEbRPGeSspCFqKxWUCOPDqIukXheCtq7wkNRqI2MKRyv/kSO
+03DGAPD2gd6ckcqefYoWLWJg
+=oaEc
 -----END PGP SIGNATURE-----
 
---===============5653707123318897917==--
+--===============2714407304518210539==--
