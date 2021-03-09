@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0002609856589173800=="
+Content-Type: multipart/mixed; boundary="===============2188518499710470860=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 09 Mar 2021 08:10:58 -0000
-Message-Id: <161527745840.27731.14374024539213168499@gitolite.kernel.org>
+Date: Tue, 09 Mar 2021 08:11:20 -0000
+Message-Id: <161527748037.27988.15185042608367052073@gitolite.kernel.org>
 
---===============0002609856589173800==
+--===============2188518499710470860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-fe07bfda2fb9-a38fd8748464.txt
+  - ref: refs/heads/char-misc-next
+    old: e39e727aa078b4c08a116ea1e9f521b71c628382
+    new: 080951f99de1e483a9a48f34c079b634f2912a54
+    log: revlist-e39e727aa078-080951f99de1.txt
 
---===============0002609856589173800==
+--===============2188518499710470860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615277453 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615277472 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1615277452-f05a932195b4d988ac9402e13c3adedcda7b74e5
+nonce 1615277471-83ae9b3763faa0ae4c6413f304f1ab9b76c0d8a7
 
-fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8 a38fd8748464831584a19438cbb3082b5a2dab15 refs/heads/main
+e39e727aa078b4c08a116ea1e9f521b71c628382 080951f99de1e483a9a48f34c079b634f2912a54 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBHLY0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aNIP/1Ph+c78iqBAkLLT8Mvi
-0PX/37VWkSWlldGKSxHdTvLo5FJaxyFmx0+ThTW9eEUDvbAestHtDJcMtSCFMvbM
-Vro7H0BtXwb8IBm/n0TVYcqeeeHKOoHtVQYiPfy49XPBmtsj5u0f8b5VfIJJ+WgH
-cs+Hbaepirg2CO5qw+EGBP2XRHih64KbdVt71HlFdR9aEs5lT1fZnmuKfjPovEHt
-0AmhZFJKKxDT3v54cbLoKkfISG/nfBWUDa8XFMVlIlAw+wFxKircg6QZzvx7UM6q
-ztUQavuJzgHiGFoQimeck4CekKqjlqrbuPCEFZQe1IJFK0wQF0dg2uptJFE/Ohgc
-OpxVrnSLsr3VRDTDyG6ewH5FGuK4F2k/CwKQNJH2HVaE6CUf8OfGmmLN//xDOC1q
-ABhDf61l5R7zVhvO3YlnCaeCGPF3AML8861lJUzhLXhPU4qcFgZvEyH1QEisUdk2
-e9PD3KPk/WxjlmB87jUymPHwWDy1i6uoDAFuTShITYk8xh9nhwzgFVtUrVXF6atV
-vN7UdiwZ3bp9u0SCc93WmTrh5B3l9WAnnwNiy6r4whCaVr/ldzmmPRtszVlgVcpD
-jPWfrZYKx/7xTn2sgqkmX1ey0KeHAZTzi04HUnRWWFX1JMgRYynCv3BX/zUJK6dI
-TYIv3Eee8Yunh6eR5ers/aT4
-=QDc4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBHLaAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pAMQAIFXNfEu2GSZBtBtXMlr
+T7FIXWvCdALxpOeMRNTJeSgdnGTbRL2FFiU9CYKhuLPvt0/HF801q6UvX5DZZV3K
+xgXnAL8bXUXJ0aF9UERuja12BgRjUS6O6Gko3htm6f1BNyP6B95u8/GGKTzx89GD
+fMQRSuJYDs7PJcmn0G/Vci+aSDh+aGwWs34T1Xcl5fZyH7agh9Y2/orSCOIaS1lQ
+QzQ/BcPjQx/e3AoFu+yKgpbQBnKjEBD7s/3E8vDpKwv9Y8Q5OaesyLHyUPc+aOpu
+ZgkuDVcNLUkbinocTaOAYP/F/EuYTB7mnhKw4QuelqooXVMGJtgGVkqq0UobSssh
+5bfsmY3OHwjUTDnTI/w/cOaFzvvY17rEsRTKE2WrnmREBsgG3We8j/5fQMfRVDV4
+Q4/Q7xYhk7PS/J+0m1P9lGZ+cxUWjW+LNNTKGYK30yvZmzFdXMvXz51nR5VLLEdB
+GfhYNO4t6SUGpIkbsvDk24sNtkSuv+dV7UuUhnYAZxN7VvNo/x7o2xDd6GfyVjRb
+/Y6bi7P7wSqfKZHqoHp2LBDr7BdKRON83FbgOflAVnV0+dnn5vOPsYhANu6TyhPe
+pCGwRETi0+F5xpeKHeC/5wmgCF6RuIfw4k2BZf1BOeL+9haSZUoLjYJ9KtDk/3bn
+FSCOFk94Cdc2n/B8iYD2WO66
+=Tqw/
 -----END PGP SIGNATURE-----
 
---===============0002609856589173800==
+--===============2188518499710470860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-a38fd8748464.txt
+Content-Disposition: attachment; filename=revlist-e39e727aa078-080951f99de1.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -250,5 +250,6 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
+080951f99de1e483a9a48f34c079b634f2912a54 Merge v5.12-rc2 into char-misc-next
 
---===============0002609856589173800==--
+--===============2188518499710470860==--
