@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 09 Mar 2021 23:02:12 -0000
-Message-Id: <161533093272.25644.6918374423688740063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 09 Mar 2021 23:10:49 -0000
+Message-Id: <161533144994.32018.15502670626344853241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 23c975c221e34050efe375f99495d5fd0b0537a3
-    new: 4bd0cc9c6a6617f4b0a9844384a37147d587717d
+  - ref: refs/heads/master
+    old: 05a68ce5fa51a83c360381630f823545c5757aa2
+    new: de920fc64cbaa031f947e9be964bda05fd090380
     log: |
-         4bd0cc9c6a6617f4b0a9844384a37147d587717d net/mlx5e: Enforce minimum value check for ICOSQ size
+         de920fc64cbaa031f947e9be964bda05fd090380 bpf, x86: Use kvmalloc_array instead kmalloc_array in bpf_jit_comp
          
