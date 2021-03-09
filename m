@@ -1,56 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============7985730054417433018=="
+Content-Type: multipart/mixed; boundary="===============5742679531722183180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 09 Mar 2021 10:42:51 -0000
-Message-Id: <161528657142.3367.16298908554738446447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Tue, 09 Mar 2021 10:44:25 -0000
+Message-Id: <161528666586.3957.10620379282524803944@gitolite.kernel.org>
 
---===============7985730054417433018==
+--===============5742679531722183180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 27ad4745bf5b0610b6155642b6ff3719a57444ad
-    new: ef3393e054359afcb4e14e34c0abc4b0b50c4b45
+  - ref: refs/heads/queue/4.14
+    old: 5662b8174b0327e731cacb3f4fe241e53e52482b
+    new: 87947eea5b9c201abfb4b33d146d06db7041feae
     log: |
-         ef3393e054359afcb4e14e34c0abc4b0b50c4b45 4.19-stable patches
+         e024f6b25e651d7ce4699bd284ee69202e61b57e btrfs: raid56: simplify tracking of Q stripe presence
+         f911ea28f32207438c361e6a10a05458e759a466 btrfs: fix raid6 qstripe kmap
+         59a29c27cce7f4a5a952a22471e4a9a27f6c6a91 PM: runtime: Update device status before letting suppliers suspend
+         f67c54f43f70671cf14391da8a9539cbe20264ee usbip: tools: fix build error for multiple definition
+         94e94b71dd8ff33599d526f00abf2fd37ea08baa ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
+         87947eea5b9c201abfb4b33d146d06db7041feae rsxx: Return -EFAULT if copy_to_user() fails
+         
+  - ref: refs/heads/queue/4.19
+    old: 3ba2bfadf1ba3531e9677c5830debd2bf9d67d36
+    new: aab4fb7b1ffaf9ae4f131431b3b6b8a1dd406f02
+    log: revlist-3ba2bfadf1ba-aab4fb7b1ffa.txt
+  - ref: refs/heads/queue/4.4
+    old: 8d31541f34e42964f6eeb7afd62345aae46665a5
+    new: 5b048ab79e9933b6381d4d37b77e36e791877e2f
+    log: |
+         f8cbd3df1cf354b205f0e5e545b569f2e21bf8dd futex: fix irq self-deadlock and satisfy assertion
+         c7b4933b83db09bb44a478d2ca57877912513f4d futex: fix spin_lock() / spin_unlock_irq() imbalance
+         803a2430e6c45d388a4c4a92bfd52e5c2a4bb595 ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
+         5b048ab79e9933b6381d4d37b77e36e791877e2f rsxx: Return -EFAULT if copy_to_user() fails
+         
+  - ref: refs/heads/queue/4.9
+    old: 7aa8b2ab43f37331fe6fb3c170338e394f5e7d87
+    new: 5ea2e1b3a389a5ac109662ce723516aeb68c7b5e
+    log: |
+         736ffc8285bcdcec901c2ebf909f4e01dbf5686c btrfs: raid56: simplify tracking of Q stripe presence
+         6faccaba4493b26013f8c5788f8e2d19783e42c8 btrfs: fix raid6 qstripe kmap
+         6a014d4595f49a7cf8eef58e33dd66e999e3eac5 usbip: tools: fix build error for multiple definition
+         be6498502b7d51981c7436da82549dd8205ad132 ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
+         5ea2e1b3a389a5ac109662ce723516aeb68c7b5e rsxx: Return -EFAULT if copy_to_user() fails
          
 
---===============7985730054417433018==
+--===============5742679531722183180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-3ba2bfadf1ba-aab4fb7b1ffa.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615286570 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1615286569-82d8dc4a081a3a51ec6e2ab928ab2dbbee25401d
+9056f71527f811cbc6d61697bc58ef6229da2353 btrfs: raid56: simplify tracking of Q stripe presence
+fe37a71f8f9a2ec5a6c9f4a2d589bcfdb63e6a29 btrfs: fix raid6 qstripe kmap
+93aa74ad68e648f10f69933c3ff290d5090496f8 btrfs: validate qgroup inherit for SNAP_CREATE_V2 ioctl
+48170dcfbe3d9fd3abb8df4ec9f31a80858a8186 btrfs: free correct amount of space in btrfs_delayed_inode_reserve_metadata
+2dfaa14ada0739564f3157063ff359b08a3e7174 btrfs: unlock extents in btrfs_zero_range in case of quota reservation errors
+7a399732d2aece60dfe262e7d108326890629aad PM: runtime: Update device status before letting suppliers suspend
+44e3f1e1922aad10869fc94905d7b46c0b9ee3e8 dm bufio: subtract the number of initial sectors in dm_bufio_get_device_size
+44701a831fcec6b3279140ce4d751a52992867c4 drm/amdgpu: fix parameter error of RREG32_PCIE() in amdgpu_regs_pcie
+4a25bda2ee45209bffb52cd89f04207937403721 usbip: tools: fix build error for multiple definition
+6e1e74d6a3d095f84a3cc41eb123b8c34b30a1e4 Revert "zram: close udev startup race condition as default groups"
+f6a69f4baa423aa97bc95aec9b04b859845a6372 block: genhd: add 'groups' argument to device_add_disk
+ebda6aa51b9b10b6d8739db38c717123154735d8 nvme: register ns_id attributes as default sysfs groups
+1770ae5a8e4ac252382d7f5e42ec6138df2bbd9f aoe: register default groups with device_add_disk()
+9e81759200df89b200ca6ff11ce9d7023efefe0a zram: register default groups with device_add_disk()
+b4e3f2ca759abb5c62ab9fb97c10404eb7bb0dbe virtio-blk: modernize sysfs attribute creation
+b183d7e79a2489dc45cffcee48ed61fd8d1e23f6 ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
+bfc08161668005bc16f181f19400432a2d3daecc RDMA/rxe: Fix missing kconfig dependency on CRYPTO
+0e3d3fa6d2ee330e1b7dd0eb3ddf2634a8ffad77 rsxx: Return -EFAULT if copy_to_user() fails
+549d0c8e7fdae719204dca10c48552d46fd1e911 dm verity: fix FEC for RS roots unaligned to block size
+b7ac27930e967de12192f8d82ef454c2d394350d r8169: fix resuming from suspend on RTL8105e if machine runs on battery
+aab4fb7b1ffaf9ae4f131431b3b6b8a1dd406f02 net: dsa: add GRO support via gro_cells
 
-27ad4745bf5b0610b6155642b6ff3719a57444ad ef3393e054359afcb4e14e34c0abc4b0b50c4b45 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBHUSobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kjcP/3aboAXbYLGDBkhs4E2T
-QSwXzt3vvZMz9Yu4JmxNtstOxdGhCMbsylqOzOy497srJF+suX+nauj8T4FFUk6v
-3G1DFqB7f9/0IV1xLcd3XERZt1l74ZTcdtRdixScNb65SavYoUg7XKDEhEBviNnu
-bap1vuJK0+lbFAc2lkHWZV/qIdh1IQ3P44fnIVRR9cJFgM44Rg4FWRcDfpdfmjMW
-NxKdEoN3gd0Uqnj0sBoHfQNdiudpciyb0jA8B8lGjCB6WZg0F39V2brMxgF1klUq
-zJZldBO8DKmI6oGBqXZZdqNjh0OdTYvxilL+Kxkv42M2hLi3EIFs49hQtS2DKyvc
-9aLhtnOig5zrdt0zfbgHEE9gTSPDZ40godpvlxKlGtKzgwwef93w5YVWNWQLw1MB
-GP1PjCqknk4Lj55vGtrXktu/YuqUb0M8eiujMwFFL8kxI2R+WtgGpS/OEWswrVGm
-yZDp7sZM6sMcyBF3H83SXFXxj3o2rRr0OR7aFPp0ywvjGu1cM82+VYEpzg713uly
-Ki5IoR6cpORCDUOi9mB7GADBgJEBfDejRQKbR7P5M4XtH44hyTM5hoIKs1/nXH5L
-Bsua6CrHVIV0V9iB/F/Exi/KETJZELgWzvWlGOB4XxGkSbvE00D59NL4U/N6T0x9
-fewG/vK1wcak9GbltEW6y+18
-=xWGL
------END PGP SIGNATURE-----
-
---===============7985730054417433018==--
+--===============5742679531722183180==--
