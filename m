@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5899233507666254565=="
+Content-Type: multipart/mixed; boundary="===============5459741205019716081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 09 Mar 2021 16:45:09 -0000
-Message-Id: <161530830947.4450.8356662497026586906@gitolite.kernel.org>
+Date: Tue, 09 Mar 2021 16:45:18 -0000
+Message-Id: <161530831815.4589.17215267992134649965@gitolite.kernel.org>
 
---===============5899233507666254565==
+--===============5459741205019716081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: d8861bab48b6c1fc3cdbcab8ff9d1eaea43afe7f
-    new: 4416e98594dc04590ebc498fc4e530009535c511
-    log: revlist-d8861bab48b6-4416e98594dc.txt
+  - ref: refs/heads/dev-queue
+    old: 78fddd8df963fe8cb7fde445ce682488784098e3
+    new: aae42c90452d0909429efbe43123c5aef5c19ceb
+    log: revlist-78fddd8df963-aae42c90452d.txt
 
---===============5899233507666254565==
+--===============5459741205019716081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8861bab48b6-4416e98594dc.txt
+Content-Disposition: attachment; filename=revlist-78fddd8df963-aae42c90452d.txt
 
 c33cb0020ee6dd96cc9976d6085a7d8422f6dbed uapi: nfnetlink_cthelper.h: fix userspace compilation error
 c57ea2d7d81fbaa72c7d0ffbff61ade1039f4a0c netfilter: conntrack: Remove a double space in a log message
@@ -56,5 +56,45 @@ cf9e60aa69ae6c40d3e3e4c94dd6c8de31674e9b net: davicom: Fix regulator not turned 
 1019d7923d9d4cc878a1a85d4fc2d6619cfe1a6a atm: fix a typo in the struct description
 3153724fc084d8ef640c611f269ddfb576d1dcb1 atm: uPD98402: fix incorrect allocation
 4416e98594dc04590ebc498fc4e530009535c511 atm: idt77252: fix null-ptr-dereference
+2af1af8ffd7aeb19d5d099c7251288bde757f10a checkpatch: Fix warnings when --no-tree is used
+76a7287c436e478f78e587921e0c4bc5eb761fd7 checkpatch.pl: seed camelcase from the provided kernel tree root
+2fa0ea6d6eea1c3b39475dc09b2569ac626b22fd ice: Fix a couple off by one bugs
+614e05ee73005ac263d8106d60b3b1b4cdd14e5b igb: avoid premature Rx buffer reuse
+e0b71871d5e29924e03e22564c7fb2510cbc587e iavf: Fix asynchronous tasks during driver remove
+1d5c8194c75f073883810f93e40603faf7374e4f i40e: Fix correct max_pkt_size on VF RX queue
+ec66277ad29848af8dbec055a79b23b3569c5683 virtchnl: Fix layout of RSS structures
+281c46f192ea62187408e387b980944cd10023af ice: fix napi work done reporting in xsk path
+de16ce6945df9239bafa558e2fb0e67962dc29ff igc: Fix igc_ptp_rx_pktstamp()
+8c6867b6cfbf350fd03e5a325c339faf6ba0a790 iavf: Fix return of set the new channel count
+6ecf3386057d7cb7b975b03fb7b9f698290fb36e i40e: Fix kernel oops when i40e driver removes VF's
+2889f18ede47a6b091d02e79ddfd0d68e6b3e65e i40e: Fix oops at i40e_rebuild()
+1a04688bd06501191a36df73beb9519e0fafcfd7 igc: Fix Pause Frame Advertising
+5da6a79ec4854a45733fc8b6c07ce43592643172 igc: Fix Supported Pause Frame Link Setting
+6ea7110cf885c7e4d5a114dfd7b7f42323c0a8ca e1000e: Fix duplicate include guard
+188ce5740a32359e17aec697900d2e1ce29a4a74 igb: Fix duplicate include guard
+c02b0530a01582ec569ab68ebab3e1e9b3f95378 i40e: Fix NULL ptr dereference on VSI filter sync
+ae029d726ad5679b776366c786ff69c1c5f28386 ice: Fix allowing VF to request more/less queues via virtchnl
+f3cd5c3ce73bbdb01cd960fabb6c27820f749b5f ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+ae11737369338477fb1b39d7857a374b3a9ecdc5 ice: Continue probe on link/PHY errors
+f7501b3d9e2bde252de9155785a77b02436a508c ice: Fix VF true promiscuous mode
+569612f9753ba938833bbe2e0a3c518631ad3440 ice: Increase control queue timeout
+81487a8607a1209dd64b2066d7a41c78e3e33544 ice: Recognize 860 as iSCSI port in CEE mode
+54c439230b8502b124eaf02e82b9028db1eb1280 ice: prevent ice_open and ice_stop during reset
+d4805b196f48b70eb763ba820e3046d2c1c52364 ice: fix memory allocation call
+2e3d51be25ae2a45ac77d019533f96dbfe231314 ice: remove DCBNL_DEVRESET bit from PF state
+9e6048599bdf73d6611f44a84dfea640e070dd30 ice: Fix for dereference of NULL pointer
+3567925642b345fbb99ae591f415c1d727044bee ice: Use port number instead of PF ID for WoL
+dc456e0112bb543b9f735854462f73cef5dd0552 ice: handle the VF VSI rebuild failure
+5de35f0b7e4fb43f4f4642f1612064a512335d0a ice: Cleanup fltr list in case of allocation issues
+a6a5707d9a6a9655565d6d6a2809346fb6f295c6 e1000e: Fix error handling in e1000_set_d0_lplu_state_82571
+1c1437f23466c36e70d2ccbe052d9478d71524b7 i40e: Fix error handling in i40e_vsi_open
+7bbb535f7ce5228116a96e16094415756425ad17 i40e: Fix display statistics for veb_tc
+d2ae800cac5139fcbe2a7771aac050b1d13f98b2 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+ef3cd3198baa982dae913170d8e0e81aec6cd163 i40e: move headroom initialization to i40e_configure_rx_ring
+650632a1493bc52fdda712174c6e229a0dec81a0 ice: move headroom initialization to ice_setup_rx_ctx
+d3aa686ba09b4723fd05bd8882addf028049e2b1 ixgbe: move headroom initialization to ixgbe_configure_rx_ring
+46e9e1046775d44ef65eeb52310ea6aa87167cca igb: check timestamp validity
+832a5c90a60304768ade7f5f60ab28c62d485431 i40e: improve locking of mac_filter_hash
+aae42c90452d0909429efbe43123c5aef5c19ceb ixgbe: Fix NULL pointer dereference in ethtool loopback test
 
---===============5899233507666254565==--
+--===============5459741205019716081==--
