@@ -1,75 +1,84 @@
-Content-Type: multipart/mixed; boundary="===============0451930435173044648=="
+Content-Type: multipart/mixed; boundary="===============7686250956617432031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Tue, 09 Mar 2021 08:06:51 -0000
-Message-Id: <161527721144.23249.13758942895534902280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 09 Mar 2021 08:07:02 -0000
+Message-Id: <161527722239.23416.14721058849356269883@gitolite.kernel.org>
 
---===============0451930435173044648==
+--===============7686250956617432031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue-next
-    old: 611db8278316a9003e2b7d7363d2aa0528d9b639
-    new: 731ffe2b6c2ff8d41b30b0e3383f5b8415383599
-    log: revlist-611db8278316-731ffe2b6c2f.txt
-  - ref: refs/heads/queue-rc
-    old: 062a3f9314b04fd349565bb3dc6b85580de72701
-    new: ba63526b7bfa962a850db69e2dce674d2a3cfc14
-    log: |
-         ba63526b7bfa962a850db69e2dce674d2a3cfc14 Merge branch 'testing/rdma-rc' into queue-rc
-         
+  - ref: refs/heads/usb-next
+    old: 5e17812c22bcd65fa9202595eef4bbf8fa814144
+    new: a14ecf9f692a8f460d26935c7e8bdb77ed6c918b
+    log: revlist-5e17812c22bc-a14ecf9f692a.txt
 
---===============0451930435173044648==
+--===============7686250956617432031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-611db8278316-731ffe2b6c2f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-695b582c037fbad3d67e8c4241acbdde33536496 net/sched: Don't print dump stack in event of transmission timeout
-714c31b13455adb8c326db96e73e781492a0a5a9 RDMA: Support more than 255 rdma ports
-7a77522abe9c48629349c2f9d2c86baee2d89407 RDMA/cma: Be strict with attaching to CMA device
-26cca2ac97daeb2e40a52ffd89dc4f0ea9e8411b PCI: Add a sysfs file to change the MSI-X table size of SR-IOV VFs
-62b4bb7174134d138a03fa13e79e7d7b508eff55 net/mlx5: Add dynamic MSI-X capabilities bits
-65dfde3c7f62ab651a352583d2dcbd1532fcf0ef net/mlx5: Dynamically assign MSI-X vectors count
-89c6b8250d9f55237be0c80996397f3de0be94c1 net/mlx5: Implement sriov_get_vf_total_msix/count() callbacks
-4e56625de78a44c5e1a42dd3c8607f37ec0a5bd4 RDMA/mlx5: Zero out ODP related items in the mlx5_ib_mr
-96eb677aa5f8fa88c53144c21089283b50d0bc3d RDMA/mlx5: Use a union inside mlx5_ib_mr
-7ff6e9ca6e32391cc7ca9efc480b208ed64c9505 RDMA/mlx5: Consolidate MR destruction to mlx5_ib_dereg_mr()
-449088a83dc0c2f19bf61e410450ad308ee7e715 RDMA/mlx5: Rename mlx5_mr_cache_invalidate() to revoke_mr()
-e1135edf44124f96750f4197234bc7bb56eb260b RDMA/mlx5: Fix query RoCE port
-b1f197cb82fdb50c76ee2a7116cf533c1a325c10 RDMA/mlx5: Create ODP EQ only when ODP MR is created
-bd77696586bcdb21d2c62ab72c84e0c6783a5131 RDMA/mlx5: Fix mlx5 rates to IB rates map
-7f8990073bbb6fda974d2c83db8d50f8614d18ad IB/core: Drop WARN_ON() from ib_umem_find_best_pgsz()
-318b2dd7c112d11266bddc13c8b0ed867079e624 IB/core: Split uverbs_get_const/default to consider target type
-0c87034082ad49efc29565af461a4916d1fa0dce RDMA/mlx5: Allow larger pages in DevX umem
-a37d67d85277bfddad41b370de3be6676817959e RDMA/core: Introduce peer memory interface
-0cb18464b7b8de53a41d9f53adab04ef57ce5f27 debug patch for Issue 2458870
-63900ac1f0de0f9d1ed4ae1acb60f598111957e1 Revert "IB/cm: Mark stale CM id's whenever the mad agent was unregistered"
-1b86433bdec135f531dc52b1108577d6b6dec88a IB/cm: Remove "mad_agent" parameter of ib_cancel_mad
-149204aa63b7c003e00a11b0c103d40c9e9609de IB/cm: Remove "mad_agent" parameter of ib_modify_mad
-6424a4c493a337024734bcf1177e8ce658f211c4 IB/cm: Clear all associated AV's ports when remove a cm device
-2d423d3d37b50e89cc6e79cd0e590b9bdd424682 IB/cm: Add lock protection when access av/alt_av's port of a cm_id
-73eff3ed863f3455554b91af2d05a29ae36c2dd2 IB/cm: Initialize av before aquire the spin lock in cm_lap_handler
-5673ed69939ab3f20cf33b0539b932cab54a0875 RDMA/counters: Refactor rdma_counter_set_auto_mode and __counter_set_mode
-c5ac64eeb89e48d054610ad0c1659919559fb43d net/mlx5: Add MEMIC operations related bits
-b5adb4a6ddafb19d8b882065b696fd0017baa118 RDMA/uverbs: Make UVERBS_OBJECT_METHODS to consider line number
-f3e02790cde4df5664a00ffc4483b7a29ba129ea RDMA/mlx5: Avoid use after free in allocate MEMIC bad flow
-00594daab1fa792f35e9876b5cb94fafb8b1bac0 RDMA/mlx5: Move all DM logic to separate file
-67efb8e5475af68e80757a1c501198fceeb57b03 RDMA/mlx5: Add support to MODIFY_MEMIC command
-caa4e62dd2a81e6ead7a70189bb4c1d5b109afef RDMA/mlx5: Add support in MEMIC operations
-b764f249813cc8e6437e880ab96266a3776c3867 RDMA/mlx5: Expose UAPI to query DM
-eeee9fe49016d1c4a6f2087e6e738507467ae112 RDMA/mlx5: Add ifc bits for new pattern dm type
-35ff02b85f2836bc647e7eefd86c56ebbd34e732 net/mlx5: Add support for new pattern DM management
-d700314ae343a435b5e6e88fccc4ab6f78caacd7 RDMA/mlx5: Support allocating modify-header pattern DM
-8fcb01a88105626f349b52c10e07f3cca9efbd08 RDMA/mlx5: Support new type of ICM memory to register by MR
-b6867e15afaef3926639272faa47502cd820d0ff Merge branch 'rdma-next' into testing/rdma-next
-731ffe2b6c2ff8d41b30b0e3383f5b8415383599 Merge branch 'testing/rdma-next' into queue-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615277214 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1615277214-b9012df698d7cd2a6087a13e332631d5a07f8a89
 
---===============0451930435173044648==--
+5e17812c22bcd65fa9202595eef4bbf8fa814144 a14ecf9f692a8f460d26935c7e8bdb77ed6c918b refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBHLJ4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9tQP/jJDjanlwlLuIUikZAzm
+RbVVlrif2deOtHY9uKiKedEg2qY15yyr31FtIYRtQTLtopBVtywENr48QkJgEMuD
+9aUeAiarOsVxkvPafPGj4Su2ClgQ+AKz4JQi935stR0scne/sp5i/B6pt4SHoBrh
+A11uJXxnMry4yvM03BqdUGu8cDegLlF5rUvBNPTN4MZARaGjwGGvTB7+49d1rZRL
+H4m6w+tQ+ayETUw1NGSl3OhMj6w1ATBSvpRb+nAP3Ii4iC0hSz6jJF12f+fwQYSe
+CrLrhvc4KR+TsP/N9RwJuISN15iy2UcyxhPFW/PnsAgoWgFWGhQkF5ZZXRWfNPkK
+pRASswkTkQJ3tDGg6cj6jrOguDT5v6jGtrErC/IB1Cb8XLmLbUo0vPNOx4eLFhA0
+T6TKTcUr9pJw79ik0qYPXmdlFeXUVj3TWswHCKqpVlFv3hlWgv94p56r8GB7yLUE
+gmENGimNToXH7tMJTqkshWKOAjnE1f9/GPKcd9bUmNBePaVYT74shUvpz1XhQ95m
+/ww/zNfsyCfwM46hznPx4QHgZOPQ+IA3bJ6I8W4tgQ3aXiA1M1v4p/NNTLWvvmvO
+jtztp2NEvkamIX3kblX9r/volPM5Eei4DK0JLJp/Iw9chnsFNTyhDYDL0FvQM8yc
+jMVuMOGLbmjQNrSF63jp23lc
+=Pvdh
+-----END PGP SIGNATURE-----
+
+--===============7686250956617432031==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5e17812c22bc-a14ecf9f692a.txt
+
+f6e1ab32bf6843c592ac6e241f89caf90b132b76 usb: xhci-mtk: remove or operator for setting schedule parameters
+99ea56bd89aa3a644d6af34301a0b0f3f5f92314 usb: xhci-mtk: improve bandwidth scheduling with TT
+71886ee0d3f3ce2bbc339ab80f0e9befabcbcec1 usb: xhci-mtk: get the microframe boundary for ESIT
+fe2ee2b69416f3696b0b0f1eafe6b869cc0448bf usb: xhci-mtk: add only one extra CS for FS/LS INTR
+5893cf518fc9e529d16ddded2cbe77237855deba usb: xhci-mtk: use @sch_tt to check whether need do TT schedule
+d228a4d1239729480625fbe45572fbc5fd5c3f9b usb: xhci-mtk: add a function to (un)load bandwidth info
+a192e637cf26df3ca9220e1a260a9581ecd877a8 usb: xhci-mtk: add a function to get bandwidth boundary
+477466fa9ed3dd0afbf7c83d779b13b7fb46c6c8 usb: xhci-mtk: remove unnecessary members of mu3h_sch_tt struct
+0959129b7a4ae7a3add6ec7a2dce3788bb20191c usb: xhci-mtk: use clear type instead of void
+b52e681620546f338eb224a6e04bde7ef23a9c15 usb: xhci-mtk: add a member @speed in mu3h_sch_ep_info struct
+8d1363876ec7de584dbcad685ce24fe9522e7b62 usb: xhci-mtk: use @tt_info to check the FS/LS device is under a HS hub
+bb179eb8e64bd0ad745b534ca7f6fd179a90c5e8 usb: xhci-mtk: rebuild the way to get bandwidth domain
+1c1fbff974495bb62a994ed47e657436d6ca2c40 usb: xhci-mtk: add some schedule error number
+0c4c4f32ede22b81a93d67a98a35c98761be333e usb: xhci-mtk: remove declaration of xhci_mtk_setup()
+78ed99b75c7b7753a546ddbdab0d5549fbaea394 usb: xhci-mtk: support to build xhci-mtk-hcd.ko
+1b121617a69e8e4f2a7b6005ee1c0b4bcb8451fc usb: common: add function to get interval expressed in us unit
+5808746d6c41fc935ce595e333b2548f76a85cfa usb: xhci-mtk: print debug info of endpoint interval
+855b35ea96c4e08f21ae607bad4668a266d63be6 usb: common: move function's kerneldoc next to its definition
+175d5cd62631dedbaee68ec88f1103cbac679518 usb: typec: tcpci: Check ROLE_CONTROL while interpreting CC_STATUS
+f8aea504e509e16e70f907480691fa87fe245a7e usb: typec: tcpm: turn tcpm_ams_finish into void function
+cb518f3b783e41a5a6e1d8021abce3bc057359a7 usb: typec: tps6598x: Fix return value check in tps6598x_probe()
+e74fa668af3e2e5df1a58d758194b2cb5ce05f92 usb: typec: stusb160x: fix return value check in stusb160x_probe()
+a14ecf9f692a8f460d26935c7e8bdb77ed6c918b usb: usb-mx2: Remove unused file
+
+--===============7686250956617432031==--
