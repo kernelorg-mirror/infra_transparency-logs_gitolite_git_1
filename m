@@ -1,57 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============6424206734195838554=="
+Content-Type: multipart/mixed; boundary="===============0012974182919198458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 09 Mar 2021 13:52:08 -0000
-Message-Id: <161529792881.22066.4319372852881019203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Tue, 09 Mar 2021 13:56:47 -0000
+Message-Id: <161529820793.24840.10088578634868299252@gitolite.kernel.org>
 
---===============6424206734195838554==
+--===============0012974182919198458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 6663ffaebf5fffc58d10c9511a50cea40ab2cff4
-    new: 94984f1c5bdd827d01d3f6a6c72f9fdd2d213fee
+  - ref: refs/heads/tty-testing
+    old: ead791522faf8957e716731dcba3027aef2a9275
+    new: ab3ded3085a04ace94f223e806639a309eb836a4
     log: |
-         74a6724b8e2cddf34b508313825eebf4e009dced staging: unisys: visornic: enhance visornic to use channel_interrupt
-         94984f1c5bdd827d01d3f6a6c72f9fdd2d213fee staging: unisys: visornic: Fix repeated words in comments
+         d423394d52f624020c26ff995a8b622dec676e7a tty: serial: samsung_tty: Add ucon_mask parameter
+         2dfa943d7628b58db87ae344f1220fb52f5d5f7f tty: serial: samsung_tty: Separate S3C64XX ops structure
+         b8224ccbc45e8a1807671729dbd6659ec6286054 tty: serial: samsung_tty: Add s3c24xx_port_type
+         ab3ded3085a04ace94f223e806639a309eb836a4 tty: serial: samsung_tty: IRQ rework
          
 
---===============6424206734195838554==
+--===============0012974182919198458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615297920 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1615297920-a4252fdae055ffac54b229461eca1dbda937ee99
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615298199 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1615298199-84deeddb2861108b6aac4b2d723a9aaa385061ac
 
-6663ffaebf5fffc58d10c9511a50cea40ab2cff4 94984f1c5bdd827d01d3f6a6c72f9fdd2d213fee refs/heads/staging-testing
+ead791522faf8957e716731dcba3027aef2a9275 ab3ded3085a04ace94f223e806639a309eb836a4 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBHfYAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Vw0P/RhsMYTDqUKoJIUdwwGB
-DP7YlVIhX3SG7HfW8ZlyixMkX/qs7ZyE9GNKxJ0+mvfmWyqavK0PHjaYg7w+7LMD
-R8CRKxGB3G04i3qasEeO4LpWlF+gUvr7CojgnXk27ddTbQKf7KW1ywcH2TV2TYYj
-Pg+7Uv0kNKYPs+vIz516mX3FHz1u3h1bCaZD4ixcMs3jmm7VGRb/ybvxK3fmYcPu
-mA38HVDLahHa68SbzWC5c+S33a5SenrhAgiBkB8T81pc9WJUn0OyeYiquC0w8YEF
-RcJu28Mghxg12/HKUHp9Ibim61WOmtXIFsndtuLqtDvXm8Adw2zBBMeoCuGHd5NC
-C1JW8NwegUR6M0Q9+sKHNiohuPgIfXPvTyxR7CeOmvl5XQ5e3ygO3aKN36sEaFFD
-ts6sRMWnKe6ghmjpP7GVRR4eWaskeHzDT8dgITy2jbfu56XZoxhEcsMKCnNBiXiR
-p3PuzQoVD0ptxciCeU3TYhFZZyWD9o0NETK29yzldZNsl6nDycn8Dy77fN/90Ou0
-JbaT/64QULLrXOB2Gk5jt5OY9M2xs7s6/ewgp7sNl6T+mTz5lm1qI7qFDUs13f2P
-dbTyv0gEj3Zr8Fg23fcxNeWb1/9pNegR9BLad5k6ql2o565moJcosVCBP88yq6QZ
-2umyYc31GgQY9Glrc6BZA54C
-=RMMq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBHfpcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AlcP/A2ah0lQ8AOLq0pf6Bln
+W1HYtad6NPFuLJt8hGuRU1USpaGxcYL94gmbZeTVLHIBPi0kgBV2JMThML2IonzV
+OUHf3lo4+P3girP36vMx8Zw3wZhHlx0ouuKtcpnAOO5oTMNkcOjaWkgten7jJmPd
+D2CUWvIC16AHDxiklZOvOIXzNa5l01N8BgSKLJP4bKG7k6UBc/y1OXisuvpfj9ck
+324Snd9uj5iY6hYQ6pap8GQ+q3pn0GhmatSsh4zbuh9QyqxB3a6kNreMVhZv7RPB
+ei1XmA/U1FE+l8aCuKo/eFJ+6YYstQgN4fCOnOub9+nTgFJ4l7HaFQrWt4lf/WcX
+Na81EVKEmTB3GZ19iNeDK4ab5QWonyeKQtqzxUi5xojVEtzJUNmtqcSmP2oE2w9X
+/FDD5w6V6cySHyXT2y0JnX2BaczSMVGqbnAsHe6mGvQdC4nLXQWWvMXVqeZ5mL50
+wxbFdj9o46i/ZjD3YNl8Vi7B/fUUxZuyub7m+FPG3hZFRtv97dqUwRSkPV3IAZZr
+IYrdwgNIN1acf3/JPKcX4XBxUalooxfc7KFUGcLOIkDXhyOjgQw9P+0sAAsEthEv
+frXpg4vuyH6NaWm0EA8IUGMz1fekVTZM/Hq/3yQZ0GiroIc7K2zywrwaTXeF8vS2
+hQUP/09stXL8Tie1E5lS2UHP
+=e2Ix
 -----END PGP SIGNATURE-----
 
---===============6424206734195838554==--
+--===============0012974182919198458==--
