@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2674842336445666247=="
+Content-Type: multipart/mixed; boundary="===============0454864976324906124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 09 Mar 2021 09:01:06 -0000
-Message-Id: <161528046618.26339.2446880398623708239@gitolite.kernel.org>
+Date: Tue, 09 Mar 2021 09:01:39 -0000
+Message-Id: <161528049943.18327.15027995159813539251@gitolite.kernel.org>
 
---===============2674842336445666247==
+--===============0454864976324906124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 1c7ee2902a66cad46a0c19435cf9d54f2b2237f8
-    new: f06391c45e83f9a731045deb23df7cc3814fd795
-    log: revlist-1c7ee2902a66-f06391c45e83.txt
+  - ref: refs/heads/next
+    old: cfe8feea5b047b3de80e016bd167c82bdc743dd3
+    new: a592fb89354c124ca252fb2294fac06e41661b8d
+    log: revlist-cfe8feea5b04-a592fb89354c.txt
+  - ref: refs/tags/v5.12-rc1-dontuse
+    old: 0000000000000000000000000000000000000000
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v5.12-rc2
+    old: 0000000000000000000000000000000000000000
+    new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
 
---===============2674842336445666247==
+--===============0454864976324906124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c7ee2902a66-f06391c45e83.txt
+Content-Disposition: attachment; filename=revlist-cfe8feea5b04-a592fb89354c.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,8 +225,34 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
+adc6d2a82e3cff60927579dad4dc7225e5b54e03 mmc: core: Do a power cycle when the CMD11 fails
+b5ec67fd5c3b476f8b91c1645df60d9e376978b6 mmc: core: Drop superfluous validations in mmc_hw|sw_reset()
+88f4ec81a00f36e429b3e4f32397443b0a99c506 mmc: core: Drop reference counting of the bus_ops
+2a538dec717342b6b1c5fdd8aa0ac51fd69d02ac mmc: dw_mmc: Drop redundant call to ->card_event callback
+2d08fddfed8122b0b4a4d4c32f38d95715a1c4e9 mmc: core: Reduce code duplication to mmc_spi_send_{csd|cid}
+04a41e01cb07bf987df143509ed133cf0f9e2d76 mmc: tmio: remove workaround for NON_REMOVABLE
+40be988e75170713320767ec02944ae973db432c mmc: uniphier-sd: Fix an error handling path in uniphier_sd_probe()
+0aefdb2dd6491abaeed7b3a91b21b2fce2ca46db mmc: uniphier-sd: Fix a resource leak in the remove function
+9c3cf7a3ab2d08d6db0e354d421bb7ebb50977c9 mmc: core: Set read only for SD cards with permanent write protect bit
+fa0d85fe70b5960a0798ee517d823d611aff1fde mmc: tmio: support custom irq masks
+3968209a11746ec692f85aafbd50bc920ee024b6 dt-bindings: mmc: fsl-imx-esdhc: add pinctrl bindings
+980557ac89d4503488ee6c472aea73fa7b57efcd dt-bindings: mmc: fsl-imx-esdhc: add clock bindings
+4af89af7254a7987a247d01c1c0fd5fca2f2c688 mmc: sdhci-esdhc-imx: validate pinctrl before use it
+f3d825f21a86a0908664e9258a1343f390229039 mmc: sdhci-pci-gli: Enable short circuit protection mechanism of GL9755
+08b6f65273ffa2d0e80cb44dfd8429034e116485 mmc: sdhci-pci-o2micro: Add missing checks in sdhci_pci_o2_probe
+5a4d8769b27e15ee040be9b93726ef5dec4b3bd9 mmc: sdhci: Check for reset prior to DMA address unmap
+d4df2805fabcc4eb11b366a798857ec8ba2e4b65 mmc: renesas_sdhi: use custom mask for TMIO_MASK_ALL
+cc959f659ca1ccf063b0bf98c7e98aca3aa03ba7 mmc: block: Drop use of unlikely() in mmc_blk_probe()
+f9a7aa06f4005317aae54920ab6855074575ba72 mmc: block: Simplify logging during probe about added partitions
+17d3a0a4f0bd6db621fa91dfa6b055e7f8fca989 mmc: block: Fix error path in mmc_blk_probe()
+cc1e932b1d6de893df82c4d2d8b4dcb30bcf9e41 mmc: core: Remove mq->use_cqe from the struct mmc_queue
+cd4820a00889edc791ea8c65d9ab1a92c62846af memstick: core: Assign error code of mspro_block_resume()
+1bf16ee52089b4e6d740b8fdd0aa61f9c15af07a mmc: sdhci-st: simplify optional reset handling
+a7856f326331a970eeb9e5f47fb4f47a93e53ff8 mmc: dw_mmc: simplify optional reset handling
+0c0ea6d111bc0eb34451974c322a23b68b69d8b8 mmc: via-sdmmc: remove unneeded variable 'ret'
 774514bf977377c9137640a0310bd64eed0f7323 mmc: mmci: Add MMC_CAP_NEED_RSP_BUSY for the stm32 variants
 66fbacccbab91e6e55d9c8f1fc0910a8eb6c81f7 mmc: core: Fix partition switch time for eMMC
 f06391c45e83f9a731045deb23df7cc3814fd795 mmc: cqhci: Fix random crash when remove mmc module/card
+a592fb89354c124ca252fb2294fac06e41661b8d Merge branch 'fixes' into next
 
---===============2674842336445666247==--
+--===============0454864976324906124==--
