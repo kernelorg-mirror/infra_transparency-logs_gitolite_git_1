@@ -1,61 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7683079479208279159=="
+Content-Type: multipart/mixed; boundary="===============0042422427683284328=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 09 Mar 2021 08:11:38 -0000
-Message-Id: <161527749884.28155.1299714537639852325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Tue, 09 Mar 2021 08:12:09 -0000
+Message-Id: <161527752911.28388.11268951849086454604@gitolite.kernel.org>
 
---===============7683079479208279159==
+--===============0042422427683284328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: e39e727aa078b4c08a116ea1e9f521b71c628382
-    new: 080951f99de1e483a9a48f34c079b634f2912a54
-    log: revlist-e39e727aa078-080951f99de1.txt
+  - ref: refs/heads/usb-next
+    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    new: a38fd8748464831584a19438cbb3082b5a2dab15
+    log: revlist-fe07bfda2fb9-a38fd8748464.txt
 
---===============7683079479208279159==
+--===============0042422427683284328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615277490 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1615277490-b1d4f36a0021940aed8261bc972a6796f729a923
-
-e39e727aa078b4c08a116ea1e9f521b71c628382 080951f99de1e483a9a48f34c079b634f2912a54 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBHLbIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VhUQAMYxMowgYvaHLfHYQUpz
-XeYAJgg/VG+G1zx5t/KTmBwj2j0M0774+gXwZiwxcz+ufTki2at+5Ij04Ftt5QFV
-eJNTyjbXedV8UmzJGe+tHp6VKZpBNLs3rmWXbIOUorOC7q7Qg8kvZDd8lv8QaGZH
-0ST9Ko1vQa9q3o1JG2Jee+l41/k2iYKbA+yrKeaCBj1T6QISxR1Apx7sJVwxaau5
-4xnMIkTc9xm1Euw23tXsZtvCdDtX+esRlYDEn8Jxacn9dYmZBX+7lAsysuk/eKgZ
-/kgXATS8Zb4D0kzO3ydkUav4cat2mIp/N8wF5KQLhjsMcL+Knv3RGPniq9Wwvq+/
-Po+Cbasm6oiOnLEVkWbHyrOKcgCH9NhH3LJWI9HIGT8VSpzjG0Lf5F3x6HmB3cWk
-sacvqvosFvwvgtazVZUPvHnHgNHHPIWPrm1Le+pxK2OQItEI0L4B20q20m5U+cxS
-pOfYVLlOoAoLG2iVxsZakqTaM2PQtSz8u8qTDmzqFZ0Lg6QaD4N0BWCINuvBZtOy
-+fET/dNGEI7PRgV46djFszN6HoF35idE0NlbUMmSITmwgCFXn3wWsTKkHSD218g6
-hxpXGRkibQ9VHzaOTCQRpumgHzPRda+ynLaQ/0+FVZYSqpwOrl8KwyNCbKK39eM0
-PZ5ehV7RnXLvLWdaC7ZYanIh
-=AilO
------END PGP SIGNATURE-----
-
---===============7683079479208279159==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e39e727aa078-080951f99de1.txt
+Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-a38fd8748464.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -250,6 +219,5 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-080951f99de1e483a9a48f34c079b634f2912a54 Merge v5.12-rc2 into char-misc-next
 
---===============7683079479208279159==--
+--===============0042422427683284328==--
