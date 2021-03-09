@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 09 Mar 2021 08:45:59 -0000
-Message-Id: <161527955956.18487.8186012124242405344@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Tue, 09 Mar 2021 08:47:54 -0000
+Message-Id: <161527967465.19072.13769358979960632466@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: a79f7051cccb6f3bcd3d2a0a058c7d5c79bb0371
-    new: 5fbecd2389f48e1415799c63130d0cdce1cf3f60
-    log: |
-         673433e7c288927f7244658788f203c660d7a6f6 dt-bindings/irq: Add compatible string for the JZ4760B
-         5fbecd2389f48e1415799c63130d0cdce1cf3f60 irqchip/ingenic: Add support for the JZ4760
-         
+  - ref: refs/tags/kvmarm-fixes-5.12-1-kvm-next
+    old: 0000000000000000000000000000000000000000
+    new: 357ad203d45c0f9d76a8feadbd5a1c5d460c638b
