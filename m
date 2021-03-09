@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3761014369699292308=="
+Content-Type: multipart/mixed; boundary="===============8077042325325073525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 09 Mar 2021 13:58:47 -0000
-Message-Id: <161529832736.25525.7135689199824564504@gitolite.kernel.org>
+Date: Tue, 09 Mar 2021 14:03:24 -0000
+Message-Id: <161529860458.31746.11480216928808652417@gitolite.kernel.org>
 
---===============3761014369699292308==
+--===============8077042325325073525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: ab3ded3085a04ace94f223e806639a309eb836a4
-    new: 30afb75166786508505f65ddf5dc031ad23653f5
+    old: 30afb75166786508505f65ddf5dc031ad23653f5
+    new: d04b878cf8f7a0d6c9ea8c74c4f129d65144c580
     log: |
-         23fc51dae6c546a8d1f8e1e967ed287d38991e0f tty: serial: samsung_tty: Use devm_ioremap_resource
-         72905f124fc9795bc2614b6a0d45d4ed036178f8 dt-bindings: serial: samsung: Add apple,s5l-uart compatible
-         94c7cfea302f98ddba93e92791b03909bc5e5605 tty: serial: samsung_tty: Add support for Apple UARTs
-         30afb75166786508505f65ddf5dc031ad23653f5 tty: serial: samsung_tty: Add earlycon support for Apple UARTs
+         d04b878cf8f7a0d6c9ea8c74c4f129d65144c580 serial: 8250_exar: Constify the software nodes
          
 
---===============3761014369699292308==
+--===============8077042325325073525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615298318 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615298596 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1615298318-94dc7f2a38802ea352b95f721840b430ec4b3ac7
+nonce 1615298595-2a2bacedf9900f39d7603a3f5b1e5db9c4e6d7e7
 
-ab3ded3085a04ace94f223e806639a309eb836a4 30afb75166786508505f65ddf5dc031ad23653f5 refs/heads/tty-testing
+30afb75166786508505f65ddf5dc031ad23653f5 d04b878cf8f7a0d6c9ea8c74c4f129d65144c580 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBHfw4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nT4QANZh8MDPcXEQ58BySm1W
-iaogEutEGcpPOUWXs3oJbHUukC7ZtFSPESy9QwkjcSIxYJgav0VNrGa1J8kFASm7
-3LNe/5+VGN0b3vhLTeexN531bKKf3GLbLE6rUAX1p1k/9ohv582oS5+J+SAh65GV
-Gnik2tDThSQc5L/KqhawpUtZ88I5cY26g4kGJKJXhpewhZdjw43QoF5tjabcW/fn
-RAfYiRJRIYHVj2TG3JuYb5cce1cDItE+l92D0bWVD2/Dv+N3CmtRt1Scfj3AVgyW
-ZD94CEyRKWd9CmK4+pQexc5QSuHHnEQU4LRVcHge3SZjJT/DAC0jmmaCY+W6dfL4
-+j32vYVmUd4YS8gLnWoi2pejNNQJv9XdZb7ef1Z5OmjAdLoDDZ4wFJSg8Qx/8Z+M
-u/4m/l+NNl9mwAqJrlxJ1U4QeHy8X7vTMPsNiKNwr9ffbYzYltesoqGDo6XMjwc1
-wHAg3kFPakEyQ58+pH5sTKL4JabJiXo3Ugwo96NvohKRea9kkeyiJM1jH4OaSj3o
-NZjCrzsbJGE9GAX9mplUYkBPofpKAiCloyjhmqYHjC2v5ko/A0w1b7rJGmrM0jz3
-fnB/Jd40F64cEh+s8UR3zp6ZStonIxSyLJvyEv/WUrOvjbS5COf0WNpz7iLmJ+wN
-a8b4VyISQvC/wOEgeDeoOYt8
-=HadV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBHgCQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1cEQAJtGIoHoveUvRvtGd+H/
+Q9ytSD8zI1OoG3ckW8pFcE28fVuv4iLeWJSNTL7di8xsBwypWktv/hFVjzUzVCaJ
++3//EX9Hu7GKMIkyE1Qwa2W9Fy++PtyGvaGfVXikxHpg76N/WHLX2AWBArsGkuCM
+3rTl3qTFslQ21H4PO/09jT++WipnLKxW4nYHm2UEhl7LPFRzYUbAtbANWr+/im3G
+7d1srkIGnCg0slunBsn1L56S6b0HH7WEg3OYW1wX5hskUlJWM6nchLo9wMrAjopJ
+VPpVJtjhtDtsCKOz9zldM3TpoT6xwd5fO4Lebxl2KEMw4USDZpkB1QRc7EjsRkdR
+FyzG6QLqbPnCVW7S7o0Z8mWEBXe/TYcJhtbNwCfAOZY/WWv0K/6lrwDO0fuoUyuY
+GBv9r2Vx7cLy1ob7fipghXYg67jpbMLr6WLBWXVPmpXqCcwM4jM5dbtAHnWw3neL
+QN0TdBEekyN7UMX/O8P7fs9FV87521gs44lA7EK6xmLDwHsmzAWtOsO0O+vWV9e+
+KAYGhHnmJPyu9pY6B977GzCO2aFdqjEXNhhtw673m7N9VJ3ZQAYxwxmxyp5jl1Bz
+lVe4ef3pam+4b3YKM3qN88YQ0lAXui75rjYLIlwrCS1CokzaFc29TWbqle4wqF/Z
+rUL96jslSgupjqZJW+zuW7pf
+=D+ZL
 -----END PGP SIGNATURE-----
 
---===============3761014369699292308==--
+--===============8077042325325073525==--
