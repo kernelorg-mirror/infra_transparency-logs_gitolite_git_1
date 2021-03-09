@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1338291677423513047=="
+Content-Type: multipart/mixed; boundary="===============1196343328575096418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Tue, 09 Mar 2021 08:13:56 -0000
-Message-Id: <161527763645.29430.7451029127078588416@gitolite.kernel.org>
+Date: Tue, 09 Mar 2021 08:14:19 -0000
+Message-Id: <161527765920.29629.15967428113077389832@gitolite.kernel.org>
 
---===============1338291677423513047==
+--===============1196343328575096418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
-    old: eaa895a2f4df7288106fe68a45d9c2afe1dff9ef
-    new: 994adcbd37148acfa593c9ec2880a81ef97c7041
-    log: revlist-eaa895a2f4df-994adcbd3714.txt
+  - ref: refs/heads/gnss-linus
+    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    new: a38fd8748464831584a19438cbb3082b5a2dab15
+    log: revlist-fe07bfda2fb9-a38fd8748464.txt
 
---===============1338291677423513047==
+--===============1196343328575096418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eaa895a2f4df-994adcbd3714.txt
+Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-a38fd8748464.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,6 +219,5 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-994adcbd37148acfa593c9ec2880a81ef97c7041 gnss: drop stray semicolons
 
---===============1338291677423513047==--
+--===============1196343328575096418==--
