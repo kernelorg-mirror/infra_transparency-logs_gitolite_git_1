@@ -1,61 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3732253013905822435=="
+Content-Type: multipart/mixed; boundary="===============1338291677423513047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 09 Mar 2021 08:13:48 -0000
-Message-Id: <161527762888.29319.2347228702658202305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
+Date: Tue, 09 Mar 2021 08:13:56 -0000
+Message-Id: <161527763645.29430.7451029127078588416@gitolite.kernel.org>
 
---===============3732253013905822435==
+--===============1338291677423513047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/johan/gnss
+user: johan
 changes:
-  - ref: refs/heads/staging-testing
-    old: 4e1c5d4c35d8d5a5f861019f1392ebaa0abb490b
-    new: e44ad3f1815837c681988aeeb899dcfab5e033ca
-    log: revlist-4e1c5d4c35d8-e44ad3f18158.txt
+  - ref: refs/heads/gnss-next
+    old: eaa895a2f4df7288106fe68a45d9c2afe1dff9ef
+    new: 994adcbd37148acfa593c9ec2880a81ef97c7041
+    log: revlist-eaa895a2f4df-994adcbd3714.txt
 
---===============3732253013905822435==
+--===============1338291677423513047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615277621 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1615277620-0b3fe3c997d6d181f741088579801ba9e71b073d
-
-4e1c5d4c35d8d5a5f861019f1392ebaa0abb490b e44ad3f1815837c681988aeeb899dcfab5e033ca refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBHLjUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++sIP/Atq9cxQ18VadcKaXgQH
-ZnYCYaSTgWuSBEHs+HweIM70d9KqNyWA/eAMhqG8qiDMq4pMsSuApwYCysrwiWkI
-Fhm4b6uISBxTIhJwytJekptze2miMTGGfYY7ezHmfZ3yGpFzx05fVCuazxsqpw+4
-JR5xEfyFvb4kZ4jNIAxns08w+4SG147mleZeTeiW3ZoLHw/bEOJPvFuwDJi57/Ng
-u5kpfO3wMz/qVZfFCS568GGRi2CagRArM7NxXUNz4sx6scSz8itScrc38vZVMqlI
-iTZNg16UIfjOLgF9oHIN3HJe0jA4Jf+lL7Ip15k4GZoDU6h2kdfov1sY+Rz0lZgl
-xOVGILcKgI+XiIpRnSqxj6w3PkOrcyEAaprhf3ESpSCRFY/nZY6G952GnMcjUWoq
-08+Yd1zzAWEBNRPBtSMUvTwhn6gZ7eBevVQZqSZ2El4Ya/cUgnxp7SF05htlO/sD
-EpdgtRfeLTQa3e4HmS9mBBpK92+Q0V+qxL8YUCnAQQRQFfvRuL9B9kDVfSn/iCBe
-XE9/a8m042jkwQJykM7aR4upQJA+0LMsmgDKN8cYrMIY3bQpPRyc5GrGPbM3AQGi
-gSRbXTybyA2rg64E7qn4n22YdV5Q6J9N5jW7R4y6FosU0G3pQmWwR9y8s+W2Sfng
-2Tu2n1wR1nU82JWzYYj0S8VG
-=blzV
------END PGP SIGNATURE-----
-
---===============3732253013905822435==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e1c5d4c35d8-e44ad3f18158.txt
+Content-Disposition: attachment; filename=revlist-eaa895a2f4df-994adcbd3714.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -250,6 +219,6 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-e44ad3f1815837c681988aeeb899dcfab5e033ca Merge v5.12-rc1 into staging-next
+994adcbd37148acfa593c9ec2880a81ef97c7041 gnss: drop stray semicolons
 
---===============3732253013905822435==--
+--===============1338291677423513047==--
