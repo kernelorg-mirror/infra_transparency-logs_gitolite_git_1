@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1196343328575096418=="
+Content-Type: multipart/mixed; boundary="===============1720388428070525558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Tue, 09 Mar 2021 08:14:19 -0000
-Message-Id: <161527765920.29629.15967428113077389832@gitolite.kernel.org>
+Date: Tue, 09 Mar 2021 08:14:29 -0000
+Message-Id: <161527766918.29767.2299446932140649522@gitolite.kernel.org>
 
---===============1196343328575096418==
+--===============1720388428070525558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-linus
+  - ref: refs/heads/master
     old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
     new: a38fd8748464831584a19438cbb3082b5a2dab15
     log: revlist-fe07bfda2fb9-a38fd8748464.txt
 
---===============1196343328575096418==
+--===============1720388428070525558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -220,4 +220,4 @@ de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of gi
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
 
---===============1196343328575096418==--
+--===============1720388428070525558==--
