@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7406709980099512987=="
+Content-Type: multipart/mixed; boundary="===============8059240240887958675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Tue, 09 Mar 2021 04:08:51 -0000
-Message-Id: <161526293113.11768.419548728469364921@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
+Date: Tue, 09 Mar 2021 04:09:01 -0000
+Message-Id: <161526294175.11940.9226603277127809293@gitolite.kernel.org>
 
---===============7406709980099512987==
+--===============8059240240887958675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
+repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
 user: rostedt
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 50ed4d64dc07041ead2c8706f352df59e6d6d780
     log: revlist-0ec53d4fc8b5-50ed4d64dc07.txt
 
---===============7406709980099512987==
+--===============8059240240887958675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ ae5134a9075f52ed20c7c66205324c2627debb4a trace-cmd: Have tracecmd_get_file_state
 379e5f0b311f29adc01330701b76d6b6c093e9e6 trace-cmd: Enable TS correction by default
 50ed4d64dc07041ead2c8706f352df59e6d6d780 trace-cmd: Remove APIs for pairing a tracing peer.
 
---===============7406709980099512987==--
+--===============8059240240887958675==--
