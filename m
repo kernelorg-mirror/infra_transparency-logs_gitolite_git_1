@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9035261441008356380=="
+Content-Type: multipart/mixed; boundary="===============6240952695127522549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Wed, 10 Mar 2021 20:13:05 -0000
-Message-Id: <161540718583.16909.3644795571841663637@gitolite.kernel.org>
+Date: Wed, 10 Mar 2021 20:13:27 -0000
+Message-Id: <161540720767.17055.149994326793854283@gitolite.kernel.org>
 
---===============9035261441008356380==
+--===============6240952695127522549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: bleung
 changes:
-  - ref: refs/heads/for-next
-    old: b996c10e0f5b2cfd5b2cbf048cce83982bfe662d
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-b996c10e0f5b-a38fd8748464.txt
+  - ref: refs/heads/for-kernelci
+    old: 6d3150c28267a64f2151eab604ac189830d853b5
+    new: 9bf072827030107a84fe872a202f6af3601419e6
+    log: revlist-6d3150c28267-9bf072827030.txt
 
---===============9035261441008356380==
+--===============6240952695127522549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b996c10e0f5b-a38fd8748464.txt
+Content-Disposition: attachment; filename=revlist-6d3150c28267-9bf072827030.txt
 
-4727dc20e0422211a0e0c72b1ace4ed6096df8a6 arch: setup PF_IO_WORKER threads like PF_KTHREAD
 6fb8f43cede0e4bd3ead847de78d531424a96be9 kernel: treat PF_IO_WORKER like PF_KTHREAD for ptrace/signals
 3bfe6106693b6b4ba175ad1f929c4660b8f59ca8 io-wq: fork worker threads from original task
 c6d77d92b7e53b24e8e74a58e6ef2056385cc780 io-wq: worker idling always returns false
@@ -1050,5 +1049,6 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
+9bf072827030107a84fe872a202f6af3601419e6 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
 
---===============9035261441008356380==--
+--===============6240952695127522549==--
