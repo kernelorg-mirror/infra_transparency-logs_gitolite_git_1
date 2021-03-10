@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8440275010440178380=="
+Content-Type: multipart/mixed; boundary="===============6881818759324652691=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Wed, 10 Mar 2021 13:25:34 -0000
-Message-Id: <161538273476.23033.8980061768761312142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 10 Mar 2021 13:25:42 -0000
+Message-Id: <161538274223.23138.9014983847187798249@gitolite.kernel.org>
 
---===============8440275010440178380==
+--===============6881818759324652691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/regmap-5.12
     old: ffe96a97642021e96ff27b29710401590ec19a5d
     new: e41a962f82e7afb5b1ee644f48ad0b3aee656268
     log: revlist-ffe96a976420-e41a962f82e7.txt
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/regmap-5.13
     old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
     new: e41a962f82e7afb5b1ee644f48ad0b3aee656268
     log: revlist-fe07bfda2fb9-e41a962f82e7.txt
 
---===============8440275010440178380==
+--===============6881818759324652691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1055,7 +1055,7 @@ f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kern
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
 e41a962f82e7afb5b1ee644f48ad0b3aee656268 regmap: set debugfs_name to NULL after it is freed
 
---===============8440275010440178380==
+--===============6881818759324652691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1256,4 +1256,4 @@ f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kern
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
 e41a962f82e7afb5b1ee644f48ad0b3aee656268 regmap: set debugfs_name to NULL after it is freed
 
---===============8440275010440178380==--
+--===============6881818759324652691==--
