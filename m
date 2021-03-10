@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7703024171599931389=="
+Content-Type: multipart/mixed; boundary="===============5047005146102661797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Wed, 10 Mar 2021 15:38:26 -0000
-Message-Id: <161539070698.8876.15218292606537420973@gitolite.kernel.org>
+Date: Wed, 10 Mar 2021 15:40:19 -0000
+Message-Id: <161539081954.12065.974728708016481413@gitolite.kernel.org>
 
---===============7703024171599931389==
+--===============5047005146102661797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: nferre
 changes:
-  - ref: refs/heads/at91-fixes
-    old: 664aa272ee77d885b581bbb6a80e060dc992b2c3
-    new: 2c69c8a1736eace8de491d480e6e577a27c2087c
-    log: revlist-664aa272ee77-2c69c8a1736e.txt
+  - ref: refs/heads/at91-next
+    old: 63ec390152e4c981ef5f9e135f71059f21fb821a
+    new: b95bbae19954b1cfaa2fb92f91b02f956ab3b197
+    log: revlist-63ec390152e4-b95bbae19954.txt
 
---===============7703024171599931389==
+--===============5047005146102661797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-664aa272ee77-2c69c8a1736e.txt
+Content-Disposition: attachment; filename=revlist-63ec390152e4-b95bbae19954.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -222,5 +222,6 @@ a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
 221c3a09ddf70a0a51715e6c2878d8305e95c558 ARM: dts: at91-sama5d27_som1: fix phy address to 7
 664979bba8169d775959452def968d1a7c03901f ARM: dts: at91: sam9x60: fix mux-mask for PA7 so it can be set to A, B and C
 2c69c8a1736eace8de491d480e6e577a27c2087c ARM: dts: at91: sam9x60: fix mux-mask to match product's datasheet
+b95bbae19954b1cfaa2fb92f91b02f956ab3b197 Merge branch 'at91-fixes' into at91-next
 
---===============7703024171599931389==--
+--===============5047005146102661797==--
