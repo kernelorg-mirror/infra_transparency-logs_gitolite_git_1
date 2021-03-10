@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Wed, 10 Mar 2021 15:12:30 -0000
-Message-Id: <161538915020.27205.12041188199553320394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 10 Mar 2021 15:16:40 -0000
+Message-Id: <161538940047.29798.2570973759773446321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 6b8cadb66c62394420a39b46af1a2967b916c829
-    new: b0a711c790e099d1cf083c88ea07f1cf63838e1d
-    log: |
-         f7cf63bf4d0488c1f47b8cb957ac881fd9ecec41 options: allow separate values for max_latency
-         b0a711c790e099d1cf083c88ea07f1cf63838e1d Merge branch 'master' of https://github.com/venkatrag1/fio
-         
+  - ref: refs/heads/kvm-arm64/nvhe-wxn
+    old: 0000000000000000000000000000000000000000
+    new: d94d2534efb0a3fcc2f95d8712be56f21707515e
