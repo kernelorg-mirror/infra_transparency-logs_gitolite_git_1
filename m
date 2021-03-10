@@ -1,39 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============6881818759324652691=="
+Content-Type: multipart/mixed; boundary="===============4943992480584111396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 10 Mar 2021 13:25:42 -0000
-Message-Id: <161538274223.23138.9014983847187798249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 10 Mar 2021 13:25:57 -0000
+Message-Id: <161538275798.23335.3450750172348383@gitolite.kernel.org>
 
---===============6881818759324652691==
+--===============4943992480584111396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/regmap-5.12
-    old: ffe96a97642021e96ff27b29710401590ec19a5d
-    new: e41a962f82e7afb5b1ee644f48ad0b3aee656268
-    log: revlist-ffe96a976420-e41a962f82e7.txt
-  - ref: refs/heads/regmap-5.13
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: e41a962f82e7afb5b1ee644f48ad0b3aee656268
-    log: revlist-fe07bfda2fb9-e41a962f82e7.txt
+  - ref: refs/heads/for-5.12
+    old: 6a7e4db6eb8930a26469200a8b2e5bda7ca773fb
+    new: ffb597b2bd3cd78b9bfb68f536743cd46dbb2cc4
+    log: revlist-6a7e4db6eb89-ffb597b2bd3c.txt
+  - ref: refs/heads/for-5.13
+    old: 55794b1d8623f73d9a4bf12e4343bc8fc96024e1
+    new: 31890269c0a031e704f995bbd39e1fd77a381207
+    log: revlist-55794b1d8623-31890269c0a0.txt
 
---===============6881818759324652691==
+--===============4943992480584111396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffe96a976420-e41a962f82e7.txt
+Content-Disposition: attachment; filename=revlist-6a7e4db6eb89-ffb597b2bd3c.txt
 
-8acb54abc1db4e1e3913359e4108e04e88ce4d92 Merge tag 'timers-v5.11-rc5' of https://git.linaro.org/people/daniel.lezcano/linux into timers/urgent
-2596b6ae412be3d29632efc63976a2132032e620 kexec: move machine_kexec_post_load() to public interface
-2a8c3a6410f042e89e36df20b465845852aa3d9f Merge branch 'for-5.12-no_hash_pointers' into for-linus
-16182ac1f02c8a5fc9753f9b8b5f3ef8c01707d8 Merge branch 'printk-rework' into for-linus
 fd749fe4bcb00ad80d9eece709f804bb4ac6bf1e ARM: 9065/1: OABI compat: fix build when EPOLL is not enabled
 90e53c5e09251edb2cee367f6cb472e4bac121f2 Merge branch 'devel-stable' into for-linus
 8e5c66c485a8af3f39a8b0358e9e09f002016d92 io_uring: clear request count when freeing caches
@@ -1053,13 +1049,17 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-e41a962f82e7afb5b1ee644f48ad0b3aee656268 regmap: set debugfs_name to NULL after it is freed
+1d309cd688a76fb733f0089d36dc630327b32d59 spi: spi-ti-qspi: Free DMA resources
+2d13f2ff60732a7f7accc250da8856650beb0d6f spi: bcm63xx-spi: fix pm_runtime
+fb8695e3749ee6f19e0b524ec6dd78b1f8a82586 spi: bcm63xx-hsspi: fix pm_runtime
+19e2132174583beb90c1bd3e9c842bc6d5c944d1 spi: ath79: always call chipselect function
+ffb597b2bd3cd78b9bfb68f536743cd46dbb2cc4 spi: ath79: remove spi-master setup and cleanup assignment
 
---===============6881818759324652691==
+--===============4943992480584111396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-e41a962f82e7.txt
+Content-Disposition: attachment; filename=revlist-55794b1d8623-31890269c0a0.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -1254,6 +1254,25 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-e41a962f82e7afb5b1ee644f48ad0b3aee656268 regmap: set debugfs_name to NULL after it is freed
+1d309cd688a76fb733f0089d36dc630327b32d59 spi: spi-ti-qspi: Free DMA resources
+2d13f2ff60732a7f7accc250da8856650beb0d6f spi: bcm63xx-spi: fix pm_runtime
+fb8695e3749ee6f19e0b524ec6dd78b1f8a82586 spi: bcm63xx-hsspi: fix pm_runtime
+19e2132174583beb90c1bd3e9c842bc6d5c944d1 spi: ath79: always call chipselect function
+ffb597b2bd3cd78b9bfb68f536743cd46dbb2cc4 spi: ath79: remove spi-master setup and cleanup assignment
+a0521f70aee008f8b574f13ebdf0010f2f90db62 parport: Introduce module_parport_driver() helper macro
+8c7e98f74cebf22f693494c0a7fe9afe77bd6576 spi: butterfly: Switch to use module_parport_driver()
+529bee9ed1b507d668dec8529f7a436e7bfd559e spi: lm70llp: Switch to use module_parport_driver()
+d098738eb3a14d8a08c6866dd63b5134bcb11782 Merge existing fixes from spi/for-5.12
+abdc5db39d7202a4038bf9041ee8b3e1ea03bc0d spi: omap2-mcspi: Activate pinctrl idle state during runtime suspend
+e50989527faeafb79f45a0f7529ba8e01dff1fff spi: rockchip: avoid objtool warning
+120a9e8155cbc0f50315f79a18cb03a1ee6f3211 spi: atmel: Drop unused variable
+87d62d8fa66622d75a76836ecc0fd2edbbcb38d3 spi: cadence-quadspi: add missing of_node_put
+31e92cbfb9cd9f7dcb2c04858f6cdcb3cbca914f spi: spi-nxp-fspi: Add support for IP read only
+c791e3c31cb209e6f25a5f3767707d16c1a6069a spi: spi-nxp-fspi: Add imx8dxl driver support
+82ce7d0e74b6f6d1fcddfc674e3f4d3d65965511 spi: spi-nxp-fspi: Implement errata workaround for LS1028A
+32f298481add01d8c39e11a414bdc4d5037541ed spi: spi-nxp-fspi: Add imx8dxl support
+260864f797f259143c52cd8b031a5727a3bedc5c spi: mt6779: update spi document
+2c94b1b7dda187f654f925f32985d9121431730e Merge series "parport: Introduce module_parport_driver() and use it" from Andy Shevchenko <andriy.shevchenko@linux.intel.com>:
+31890269c0a031e704f995bbd39e1fd77a381207 spi: cadence-quadspi: Silence shiftTooManyBitsSigned warning
 
---===============6881818759324652691==--
+--===============4943992480584111396==--
