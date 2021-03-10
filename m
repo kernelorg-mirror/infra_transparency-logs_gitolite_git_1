@@ -1,22 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 10 Mar 2021 05:25:47 -0000
-Message-Id: <161535394757.7606.8363064223307651638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 10 Mar 2021 05:42:38 -0000
+Message-Id: <161535495871.17582.6920660557773103380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: fbb31cb805fd3574d3be7defc06a7fd2fd9af7d2
-    new: ce4e7ba5489187d9dc4490987aff833eeb9c9987
+  - ref: refs/heads/for-linus
+    old: 30b3f68715595dee7fe4d9bd91a2252c3becdf0a
+    new: 2d8aaa1720c6128ce263a2afcd3f8ee2e5551af8
     log: |
-         eec73529a9321616ed13cf732cd21a17eb1a2836 arch_topology: Rename freq_scale as arch_freq_scale
-         01e055c120a46e78650b5f903088badbbdaae9ad arch_topology: Allow multiple entities to provide sched_freq_tick() callback
-         19029cf5b16c7be54fc83ba5044d8d2493f8d39a arch_topology: Export arch_freq_scale and helpers
-         ce4e7ba5489187d9dc4490987aff833eeb9c9987 cpufreq: CPPC: Add support for frequency invariance
+         2d8aaa1720c6128ce263a2afcd3f8ee2e5551af8 Input: n64joy - fix return value check in n64joy_probe()
+         
+  - ref: refs/heads/master
+    old: ad117c558e838f9fa93af265d8f9dd54e87e15b1
+    new: ea16ef967ec88bd67466d564d461c3fdf7f85bd9
+    log: |
+         ea16ef967ec88bd67466d564d461c3fdf7f85bd9 Input: elan_i2c - reduce the resume time for new devices
+         
+  - ref: refs/heads/next
+    old: ad117c558e838f9fa93af265d8f9dd54e87e15b1
+    new: ea16ef967ec88bd67466d564d461c3fdf7f85bd9
+    log: |
+         ea16ef967ec88bd67466d564d461c3fdf7f85bd9 Input: elan_i2c - reduce the resume time for new devices
          
