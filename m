@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7543809231228782065=="
+Content-Type: multipart/mixed; boundary="===============4120315572707244458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 10 Mar 2021 19:42:06 -0000
-Message-Id: <161540532642.30497.17119624333387548703@gitolite.kernel.org>
+Date: Wed, 10 Mar 2021 19:42:21 -0000
+Message-Id: <161540534132.30621.1271038569162295464@gitolite.kernel.org>
 
---===============7543809231228782065==
+--===============4120315572707244458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 232a37ea3aee9cb37bbc154fb1440a66ae4743f4
     new: 9b1ea29bc0d7b94d420f96a0f4121403efc3dd85
     log: revlist-232a37ea3aee-9b1ea29bc0d7.txt
 
---===============7543809231228782065==
+--===============4120315572707244458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d0df9aabefda4d0a64730087f939f53f91e29ee6 Merge tag '5.12-rc2-smb3' of git://git.
 d3110f256d126b44d34c1f662310cd295877c447 Merge tag 'for-linus-2021-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
 9b1ea29bc0d7b94d420f96a0f4121403efc3dd85 Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
 
---===============7543809231228782065==--
+--===============4120315572707244458==--
