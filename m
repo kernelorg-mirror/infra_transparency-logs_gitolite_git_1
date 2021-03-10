@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 10 Mar 2021 00:11:13 -0000
-Message-Id: <161533507337.3387.6338375057487864826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 10 Mar 2021 00:13:43 -0000
+Message-Id: <161533522366.4263.14028767248905679777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 11d39cfeecfc9d92a5faa2a55c228e796478e0cb
-    new: 32f91529e2bdbe0d92edb3ced41dfba4beffa84a
+    old: 286a8624d7f9c6505cd568d947772eb59646514b
+    new: b005c9ef5adaf1357b7faa977330eaae18647300
     log: |
-         e6a4750ffe9d701c4d55212b14b615e63571d235 bpf, xdp: Make bpf_redirect_map() a map operation
-         ee75aef23afe6e88497151c127c13ed69f41aaa2 bpf, xdp: Restructure redirect actions
-         32f91529e2bdbe0d92edb3ced41dfba4beffa84a Merge branch 'bpf-xdp-redirect'
+         924a9bc362a5223cd448ca08c3dde21235adc310 net: check if protocol extracted by virtio_net_hdr_set_proto is correct
+         d348ede32e99d3a04863e9f9b28d224456118c27 net: avoid infinite loop in mpls_gso_segment when mpls_hlen == 0
+         b005c9ef5adaf1357b7faa977330eaae18647300 Merge branch 'virtio_net-infinite-loop'
          
