@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 10 Mar 2021 15:16:40 -0000
-Message-Id: <161538940047.29798.2570973759773446321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Wed, 10 Mar 2021 15:37:38 -0000
+Message-Id: <161539065800.8548.10666868425282606953@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/at91/linux
+user: nferre
 changes:
-  - ref: refs/heads/kvm-arm64/nvhe-wxn
-    old: 0000000000000000000000000000000000000000
-    new: d94d2534efb0a3fcc2f95d8712be56f21707515e
+  - ref: refs/heads/at91-fixes
+    old: e2b1d702771382035e7d17aaace67b9841932ceb
+    new: 664aa272ee77d885b581bbb6a80e060dc992b2c3
+    log: |
+         664aa272ee77d885b581bbb6a80e060dc992b2c3 ARM: dts: at91: sam9x60: fix mux-mask to match product's datasheet
+         
