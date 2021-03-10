@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 10 Mar 2021 21:08:24 -0000
-Message-Id: <161541050454.17480.13597738971195905618@gitolite.kernel.org>
+Date: Wed, 10 Mar 2021 21:10:45 -0000
+Message-Id: <161541064576.20834.3783197214617374718@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/wireless/iwd
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: e84f257bff60c009182e9013a9613978ba0c352e
-    new: f89270325fd60a0695951066bae602abb49026d1
+    old: f89270325fd60a0695951066bae602abb49026d1
+    new: bc3d285c5e81211aa3a46263a5a6f31ca2980e7b
     log: |
-         f89270325fd60a0695951066bae602abb49026d1 nl80211util: add WIPHY_FREQ to parse_attrs support
+         bc3d285c5e81211aa3a46263a5a6f31ca2980e7b netdev: use NL80211_STA_INFO_SIGNAL rather than average
          
