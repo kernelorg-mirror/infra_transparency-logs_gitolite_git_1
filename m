@@ -1,35 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============5660877298062534069=="
+Content-Type: multipart/mixed; boundary="===============8440275010440178380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 10 Mar 2021 13:25:25 -0000
-Message-Id: <161538272538.22868.3263658655743777282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Wed, 10 Mar 2021 13:25:34 -0000
+Message-Id: <161538273476.23033.8980061768761312142@gitolite.kernel.org>
 
---===============5660877298062534069==
+--===============8440275010440178380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
-  - ref: refs/heads/regulator-5.12
-    old: 2a105d168e74eedbccd9b040c3ee8b8b00604a33
-    new: e9e7fce0384b43f9b6c42dee1a79c0a1c332f326
-    log: revlist-2a105d168e74-e9e7fce0384b.txt
-  - ref: refs/heads/regulator-5.13
-    old: 755a74fc655ee95ce37bb0f552cbd39b52978a05
-    new: 45ee8b79d67905ac57408b30314757981531def9
-    log: revlist-755a74fc655e-45ee8b79d679.txt
+  - ref: refs/heads/for-5.12
+    old: ffe96a97642021e96ff27b29710401590ec19a5d
+    new: e41a962f82e7afb5b1ee644f48ad0b3aee656268
+    log: revlist-ffe96a976420-e41a962f82e7.txt
+  - ref: refs/heads/for-5.13
+    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    new: e41a962f82e7afb5b1ee644f48ad0b3aee656268
+    log: revlist-fe07bfda2fb9-e41a962f82e7.txt
 
---===============5660877298062534069==
+--===============8440275010440178380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a105d168e74-e9e7fce0384b.txt
+Content-Disposition: attachment; filename=revlist-ffe96a976420-e41a962f82e7.txt
 
+8acb54abc1db4e1e3913359e4108e04e88ce4d92 Merge tag 'timers-v5.11-rc5' of https://git.linaro.org/people/daniel.lezcano/linux into timers/urgent
+2596b6ae412be3d29632efc63976a2132032e620 kexec: move machine_kexec_post_load() to public interface
+2a8c3a6410f042e89e36df20b465845852aa3d9f Merge branch 'for-5.12-no_hash_pointers' into for-linus
+16182ac1f02c8a5fc9753f9b8b5f3ef8c01707d8 Merge branch 'printk-rework' into for-linus
+fd749fe4bcb00ad80d9eece709f804bb4ac6bf1e ARM: 9065/1: OABI compat: fix build when EPOLL is not enabled
 90e53c5e09251edb2cee367f6cb472e4bac121f2 Merge branch 'devel-stable' into for-linus
 8e5c66c485a8af3f39a8b0358e9e09f002016d92 io_uring: clear request count when freeing caches
 9fb407179c6fd910005040bebb040094ef959b6c block: Remove unused blk_pm_*() function definitions
@@ -1048,18 +1053,13 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-fbc102fb4ccfaebf1f9c178bb78cc76108e954e7 regulator: mt6315: Return REGULATOR_MODE_INVALID for invalid mode
-5fe5f17dc59e508cae1ec2a898a0801f54aeeaae regulator: pca9450: Fix return value when failing to get sd-vsel GPIO
-e610e072c87a30658479a7b4c51e1801cb3f450c regulator: qcom-rpmh: Correct the pmic5_hfsmps515 buck
-dfe03bca8db4957d4b60614ff7df4d136ba90f37 regulator: qcom-rpmh: Use correct buck for S1C regulator
-98b94b6e38ca0c4eeb29949c656f6a315000c23e regulator: pca9450: Clear PRESET_EN bit to fix BUCK1/2/3 voltage setting
-e9e7fce0384b43f9b6c42dee1a79c0a1c332f326 regulator: rt4831: Fix return value check in rt4831_regulator_probe()
+e41a962f82e7afb5b1ee644f48ad0b3aee656268 regmap: set debugfs_name to NULL after it is freed
 
---===============5660877298062534069==
+--===============8440275010440178380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-755a74fc655e-45ee8b79d679.txt
+Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-e41a962f82e7.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -1254,15 +1254,6 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-fbc102fb4ccfaebf1f9c178bb78cc76108e954e7 regulator: mt6315: Return REGULATOR_MODE_INVALID for invalid mode
-5fe5f17dc59e508cae1ec2a898a0801f54aeeaae regulator: pca9450: Fix return value when failing to get sd-vsel GPIO
-e610e072c87a30658479a7b4c51e1801cb3f450c regulator: qcom-rpmh: Correct the pmic5_hfsmps515 buck
-dfe03bca8db4957d4b60614ff7df4d136ba90f37 regulator: qcom-rpmh: Use correct buck for S1C regulator
-98b94b6e38ca0c4eeb29949c656f6a315000c23e regulator: pca9450: Clear PRESET_EN bit to fix BUCK1/2/3 voltage setting
-e9e7fce0384b43f9b6c42dee1a79c0a1c332f326 regulator: rt4831: Fix return value check in rt4831_regulator_probe()
-eca1851aa3e110d742ad966ef3e787ad979131cb Merge existing fixes from regulator/for-5.12
-438421b07bf84988a819a635cd8bdf6a4d7f72f2 regulator: spmi: Add support for ULT LV_P50 and ULT P300
-1e50433c5705c7e5d6733458e387866289f9b544 regulator: pf8x00: Use regulator_map_voltage_ascend for pf8x00_buck7_ops
-45ee8b79d67905ac57408b30314757981531def9 regulator: add missing call to of_node_put()
+e41a962f82e7afb5b1ee644f48ad0b3aee656268 regmap: set debugfs_name to NULL after it is freed
 
---===============5660877298062534069==--
+--===============8440275010440178380==--
