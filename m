@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 10 Mar 2021 11:20:15 -0000
-Message-Id: <161537521500.22078.9385581636417174074@gitolite.kernel.org>
+Date: Wed, 10 Mar 2021 11:20:41 -0000
+Message-Id: <161537524195.22250.12950048071779575555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 50bf8080a94d171e843fc013abec19d8ab9f50ae
-    new: 4817a52b306136c8b2b2271d8770401441e4cf79
+  - ref: refs/heads/sched/core
+    old: 4117cebf1a9fcbf35b9aabf0e37b6c5eea296798
+    new: 13c2235b2b2870675195f0b551275d1abdd81068
     log: |
-         d5b0e0677bfd5efd17c5bbb00156931f0d41cb85 u64_stats,lockdep: Fix u64_stats_init() vs lockdep
-         4817a52b306136c8b2b2271d8770401441e4cf79 seqlock,lockdep: Fix seqcount_latch_init()
+         1e17fb8edc5ad6587e9303ccdebce853bc8cf30c sched: Optimize __calc_delta()
+         13c2235b2b2870675195f0b551275d1abdd81068 sched: Remove unnecessary variable from schedule_tail()
          
