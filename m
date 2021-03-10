@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2069118932773204536=="
+Content-Type: multipart/mixed; boundary="===============5660877298062534069=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 10 Mar 2021 13:25:16 -0000
-Message-Id: <161538271695.22715.6972432281857426589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 10 Mar 2021 13:25:25 -0000
+Message-Id: <161538272538.22868.3263658655743777282@gitolite.kernel.org>
 
---===============2069118932773204536==
+--===============5660877298062534069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/regulator-5.12
     old: 2a105d168e74eedbccd9b040c3ee8b8b00604a33
     new: e9e7fce0384b43f9b6c42dee1a79c0a1c332f326
     log: revlist-2a105d168e74-e9e7fce0384b.txt
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/regulator-5.13
     old: 755a74fc655ee95ce37bb0f552cbd39b52978a05
     new: 45ee8b79d67905ac57408b30314757981531def9
     log: revlist-755a74fc655e-45ee8b79d679.txt
 
---===============2069118932773204536==
+--===============5660877298062534069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1055,7 +1055,7 @@ dfe03bca8db4957d4b60614ff7df4d136ba90f37 regulator: qcom-rpmh: Use correct buck 
 98b94b6e38ca0c4eeb29949c656f6a315000c23e regulator: pca9450: Clear PRESET_EN bit to fix BUCK1/2/3 voltage setting
 e9e7fce0384b43f9b6c42dee1a79c0a1c332f326 regulator: rt4831: Fix return value check in rt4831_regulator_probe()
 
---===============2069118932773204536==
+--===============5660877298062534069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1265,4 +1265,4 @@ eca1851aa3e110d742ad966ef3e787ad979131cb Merge existing fixes from regulator/for
 1e50433c5705c7e5d6733458e387866289f9b544 regulator: pf8x00: Use regulator_map_voltage_ascend for pf8x00_buck7_ops
 45ee8b79d67905ac57408b30314757981531def9 regulator: add missing call to of_node_put()
 
---===============2069118932773204536==--
+--===============5660877298062534069==--
