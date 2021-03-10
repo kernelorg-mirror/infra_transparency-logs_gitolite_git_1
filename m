@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 10 Mar 2021 08:54:34 -0000
-Message-Id: <161536647425.8611.12242000469076817225@gitolite.kernel.org>
+Date: Wed, 10 Mar 2021 08:54:45 -0000
+Message-Id: <161536648572.8777.16920578230591008533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: afbef30149587ad46f4780b1e0cc5e219745ce90
-    new: b39c34210e6d284209b66b465b1bb2a7bebd1ba3
+  - ref: refs/heads/sched/core
+    old: 4117cebf1a9fcbf35b9aabf0e37b6c5eea296798
+    new: 13c2235b2b2870675195f0b551275d1abdd81068
     log: |
-         b39c34210e6d284209b66b465b1bb2a7bebd1ba3 x86/perf: Use RET0 as default for guest_get_msrs to handle "no PMU" case
+         1e17fb8edc5ad6587e9303ccdebce853bc8cf30c sched: Optimize __calc_delta()
+         13c2235b2b2870675195f0b551275d1abdd81068 sched: Remove unnecessary variable from schedule_tail()
          
