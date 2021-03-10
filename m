@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4943992480584111396=="
+Content-Type: multipart/mixed; boundary="===============8306580571280129947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 10 Mar 2021 13:25:57 -0000
-Message-Id: <161538275798.23335.3450750172348383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 10 Mar 2021 13:26:05 -0000
+Message-Id: <161538276585.23476.15286701717497605466@gitolite.kernel.org>
 
---===============4943992480584111396==
+--===============8306580571280129947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/spi-5.12
     old: 6a7e4db6eb8930a26469200a8b2e5bda7ca773fb
     new: ffb597b2bd3cd78b9bfb68f536743cd46dbb2cc4
     log: revlist-6a7e4db6eb89-ffb597b2bd3c.txt
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/spi-5.13
     old: 55794b1d8623f73d9a4bf12e4343bc8fc96024e1
     new: 31890269c0a031e704f995bbd39e1fd77a381207
     log: revlist-55794b1d8623-31890269c0a0.txt
 
---===============4943992480584111396==
+--===============8306580571280129947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1055,7 +1055,7 @@ fb8695e3749ee6f19e0b524ec6dd78b1f8a82586 spi: bcm63xx-hsspi: fix pm_runtime
 19e2132174583beb90c1bd3e9c842bc6d5c944d1 spi: ath79: always call chipselect function
 ffb597b2bd3cd78b9bfb68f536743cd46dbb2cc4 spi: ath79: remove spi-master setup and cleanup assignment
 
---===============4943992480584111396==
+--===============8306580571280129947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1275,4 +1275,4 @@ c791e3c31cb209e6f25a5f3767707d16c1a6069a spi: spi-nxp-fspi: Add imx8dxl driver s
 2c94b1b7dda187f654f925f32985d9121431730e Merge series "parport: Introduce module_parport_driver() and use it" from Andy Shevchenko <andriy.shevchenko@linux.intel.com>:
 31890269c0a031e704f995bbd39e1fd77a381207 spi: cadence-quadspi: Silence shiftTooManyBitsSigned warning
 
---===============4943992480584111396==--
+--===============8306580571280129947==--
