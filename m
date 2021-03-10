@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2852063295477900032=="
+Content-Type: multipart/mixed; boundary="===============2056933620535789916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Wed, 10 Mar 2021 13:23:30 -0000
-Message-Id: <161538261043.20310.7548119048461711719@gitolite.kernel.org>
+Message-Id: <161538261071.20357.4998168846925711046@gitolite.kernel.org>
 
---===============2852063295477900032==
+--===============2056933620535789916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.11.y
-    old: f8df82da750c7427ad0270e629dcab206efeef55
-    new: 4107fbb88ee5fa94c8e94ffe5833b7fbda792c96
-    log: revlist-f8df82da750c-4107fbb88ee5.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 2cae3e25b70668fd413311277d56b6fe41900789
+    new: fffeea4063954b09866c112dad21a991ba52a914
+    log: revlist-2cae3e25b706-fffeea406395.txt
 
---===============2852063295477900032==
+--===============2056933620535789916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,67 +32,70 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615382608 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1615382603-d3bddf2f007fe761838248b7ee15b52c9951b789
 
-f8df82da750c7427ad0270e629dcab206efeef55 4107fbb88ee5fa94c8e94ffe5833b7fbda792c96 refs/heads/linux-5.11.y
+2cae3e25b70668fd413311277d56b6fe41900789 fffeea4063954b09866c112dad21a991ba52a914 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBIyFAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dhQQAKUJZX1hFJyBoyScNJdj
-wmHnV87iqG6pRphc+yduU1WPD1HRrYUUekcfl0Xgq+62zqMh4PrWjuHvaJX2e/WV
-u8Tjn9LxMlOh7mHK8FJ1cL6TYZlkU0C947KKdeiwaTqPw1wSfxIe3/o/ap+I9/Hg
-lZI0Dn0+vqQrXffC0NvpdsEH9RKiiVQ/rWiwhmnKyd4R7+cOTlqu9rm5D0H8S2d9
-2rkpi1Y2lM61MIcYGQ/IzC4R+U2mR6T6CLn0i+ydnXL+KNTeRVP3K1bu+lB5vJXs
-RHOnRmwaz/oefyuxfvFRnSshzvj4er5CvpZGM7doOuQ+OAcA/80vJ2c/KuZdpdZi
-PHUGell1BLJ7CTZY1fFHSRmZikE7YuS0LZ3UdpIw8O8gxXa48xitBjK1NzCt6Wy0
-iIlyEgtdR5ubOV046s1FTmoKokOZHHzr2m2PR6c2cz9+QP5hIrIJkOjIwoy+/vt4
-muP2xCQ92OhMZfk+uRz6ClqD6bj16hPryx+xUmny9MlW6lZsWr7TJ2abN1iFEWSU
-u8yVYYKbip5q8yntR7tG8gFBMI42knT2m/nPGcvuEPMIem2gG3GSxmDNN69U83Rt
-v11rWnughF8zwgKPAGQ7DOTqiIBxQXveaKYaqR/mOtE3oOTuylgi0ai0FH6z8b3f
-Z8g36YD+Wk1OdHZ5dsbExJAp
-=HDLW
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ptgQAIqegmSK/4cKPKjLxwiS
+PLgI/Rk9JPlyEsZKxeb7jeLFiylf+Z40JQZ9YxuUY/y5QWgwKuBUsb6lkt3StE7e
+anwGYJVEIU/VPzXgqaFErpl92DdOKAGu7Bj0ppp1mqEfz6vLzS+1fpI2MqFTeueE
+OhBIGRVRXsbXIBN9g7W38wRPMNVDEp6igttpKTGeam0Ub7U3T23Nbbn9PvWGYmUa
+efTdy7v6XiBYw91AgBC3E/2Uow3P/e4Tx4gGEE9aiGis7cSUErIm2uEmzkIIB8S7
+8JTxElbcwLcYbCfT2Z+jx6/QrK76IjkC97/uIRqSlXB5IwzOA8Cw436yxiBv4EhO
+O2xqrhvEJFEi9zWA7nmBtcfg1Df2/99ZYomy0o1LSCW37p0anS7rWt4uu2hamOSn
+6EvKZpR48BkMBjLHBDna1wdceJR9jDrXomp1qgDPZXrzNcuSLfNaPEFfG+Y8l9ko
+9T79U0b/hwZy8333wkk7b3ezOBj8gzBDrDsM/+cesHPp0eCl1Y2yhnvmjFLt52rT
+yVp1emp4RxiuElB1q8YPuNGiQliIeAE8WZq1+pPKbjhoyjnxam7itSaMxhXeCIY4
+b3VXPPls0QlPBtPQPrRWyWLQWvJgNTsX4ZULfThV8EGkwHHzA+Vy02rTfCVjoWGr
+2njd98HDnbEir0NuRJ6wc6AQ
+=GL5D
 -----END PGP SIGNATURE-----
 
---===============2852063295477900032==
+--===============2056933620535789916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8df82da750c-4107fbb88ee5.txt
+Content-Disposition: attachment; filename=revlist-2cae3e25b706-fffeea406395.txt
 
-9c09610ab6cf77ea4a27d59f49b02f1c20366c48 ACPICA: Fix race in generic_serial_bus (I2C) and GPIO op_region parameter handling
-f6cb8a692e50d0f32332e68e9740d7a6031b0424 io_uring: fix inconsistent lock state
-6e83e680b0627a6b5add9e26efcc31e2dbfa33c2 io_uring: deduplicate core cancellations sequence
-587870b9da71eb5918117631872dedc9faf33c0a io_uring: unpark SQPOLL thread for cancelation
-756caaaf6b31cda99f2c5574e9512d91de19acdb io_uring: deduplicate failing task_work_add
-4f3290e439f261bb24d055fd586ecbad24c00cdf fs: provide locked helper variant of close_fd_get_file()
-43a60c6653af32f1084af2c47eb6cbcb6db28ba1 io_uring: get rid of intermediate IORING_OP_CLOSE stage
-c8b07dcd66d1de72af42f4c4466881e396121028 io_uring/io-wq: kill off now unused IO_WQ_WORK_NO_CANCEL
-c6f4de719e972a185f2edc3be41ee2d16d0a4f0f io_uring/io-wq: return 2-step work swap scheme
-ef677aad0bc5ec1d09d3c1c39fc1d45d9a75de09 io_uring: don't take uring_lock during iowq cancel
-1ef138303a455a55720996f70493ca32afd9d5cf media: cedrus: Remove checking for required controls
-c237e68269a221679ecca6dfb6c181f5a6868260 nvme-pci: mark Kingston SKC2000 as not supporting the deepest power state
-1f3655eacfa958439f60991e46e258de1a0b589b parisc: Enable -mlong-calls gcc option with CONFIG_COMPILE_TEST
-048cdb9a07b03142d3a7e1e1abb370218e63c47b arm64: Make CPU_BIG_ENDIAN depend on ld.bfd or ld.lld 13.0.0+
-25948786b9cb0e732f58e7f41801bd4218443c20 btrfs: export and rename qgroup_reserve_meta
-fa2de45d0bd4793fc996d540a7e6e30f46819b4c btrfs: don't flush from btrfs_delayed_inode_reserve_metadata
-764ca15a2162400ec5fecf9b86c237fcbac1efd3 iommu/amd: Fix sleeping in atomic in increase_address_space()
-1309bd43f4ccabbb6a223f844c4785c6aa11c7cb scsi: ufs-mediatek: Enable UFSHCI_QUIRK_SKIP_MANUAL_WB_FLUSH_CTRL
-9a23d2321d4b64002002c69123b75680d5448c04 scsi: ufs: Add a quirk to permit overriding UniPro defaults
-69449d24be1d4cfd1b030cb4527f1071cbbf4ef5 misc: eeprom_93xx46: Add quirk to support Microchip 93LC46B eeprom
-139803060ac0286bf72373f7f6b5ef5952755fdf scsi: ufs: Introduce a quirk to allow only page-aligned sg entries
-1ede17d2beef54c715b1c9d762721c1bf6678a9c scsi: ufs: ufs-exynos: Apply vendor-specific values for three timeouts
-81e1bf30e47137860c236ffb7eb337b04e1d5543 scsi: ufs: ufs-exynos: Use UFSHCD_QUIRK_ALIGN_SG_WITH_PAGE_SIZE
-c3f8ece6598549bc6fc486d72bf8159543b6ad0f drm/msm/a5xx: Remove overwriting A5XX_PC_DBG_ECO_CNTL register
-9d9bf238cd12c5f7798c585b313ab23c1ca58b6c mmc: sdhci-of-dwcmshc: set SDHCI_QUIRK2_PRESET_VALUE_BROKEN
-5c53173b74a568a5576607aa77790f059dfecffa HID: i2c-hid: Add I2C_HID_QUIRK_NO_IRQ_AFTER_RESET for ITE8568 EC on Voyo Winpad A15
-5c627b8b2f1f651d4e0dad896a30ad49d30f04ce ALSA: usb-audio: Add DJM750 to Pioneer mixer quirk
-d468690ad91b2578fb071986028e1922660b2fe6 ALSA: usb-audio: add mixer quirks for Pioneer DJM-900NXS2
-ec31a798f4c1eb89bc3387e6e36476c593eca523 HID: ite: Enable QUIRK_TOUCHPAD_ON_OFF_REPORT on Acer Aspire Switch 10E
-eef3781dd5462a98aa736c789150d818ccfebc13 PCI: cadence: Retrain Link to work around Gen2 training defect
-0324211c732843e6d76ecc3d8120ddb2a2de593d ASoC: Intel: sof_sdw: reorganize quirks by generation
-5ccd00534a4923d0820cdea8b9e12c76254dec63 ASoC: Intel: sof_sdw: add quirk for HP Spectre x360 convertible
-70f6fb347501650d51d075953f68ebc96c469718 scsi: ufs: Fix a duplicate dev quirk number
-53d52c5dbed85c0e70de8007458a2550258b26f2 KVM: SVM: Clear the CR4 register on reset
-6677987bc50d7c5a6372cbd65f37f120bfa7d057 nvme-pci: mark Seagate Nytro XM1440 as QUIRK_NO_NS_DESC_LIST.
-6e66e2c2b3a353311fa880733438b4837a70e54e nvme-pci: add quirks for Lexar 256GB SSD
-4107fbb88ee5fa94c8e94ffe5833b7fbda792c96 Linux 5.11.6-rc1
+ce1e006891fbf7209357df1e5d2350b65a767f3c btrfs: raid56: simplify tracking of Q stripe presence
+cd978597f3d859a5ad82edfee29f09169967aab9 btrfs: fix raid6 qstripe kmap
+22e8ea8db7cd88fcecb70cfa2d3efcb439e0b4dc btrfs: validate qgroup inherit for SNAP_CREATE_V2 ioctl
+5cabc07f4d1cf70f7b5f1c9e9afc4277adfdf17b btrfs: free correct amount of space in btrfs_delayed_inode_reserve_metadata
+1a60f37abcf603fc35a678a9ce24880aaac1ec1f btrfs: unlock extents in btrfs_zero_range in case of quota reservation errors
+bbf3e1f66ece3587ab804f2ce5e0e6c84f03c73d PM: runtime: Update device status before letting suppliers suspend
+b1940b74a1fde89532a2f7eea5c823b4c4ad9131 dm bufio: subtract the number of initial sectors in dm_bufio_get_device_size
+48f8cf190d6ff5028dc01deefde2a9eccf97865f drm/amdgpu: fix parameter error of RREG32_PCIE() in amdgpu_regs_pcie
+693480b13c5b93901dd5a8c9b61856bedd104dbe usbip: tools: fix build error for multiple definition
+4122bd8cf544e0c0341235ff750fb79adb95640d Revert "zram: close udev startup race condition as default groups"
+daa1b2b144749345509641c4866988992c500a93 block: genhd: add 'groups' argument to device_add_disk
+10da885da2909f2e8fb414103649a59e814c30c7 nvme: register ns_id attributes as default sysfs groups
+f7482e7d38a2bc715a10080999aae280ef4c2761 aoe: register default groups with device_add_disk()
+dfc756658764fa2b182fd2e163c61c8025cb79d1 zram: register default groups with device_add_disk()
+56196108d65ea0473847387caf912138cc7fdc0e virtio-blk: modernize sysfs attribute creation
+2fba96c8e3372941b42615baf22bec320fe261bf ALSA: ctxfi: cthw20k2: fix mask on conf to allow 4 bits
+c1f16efa6744edf4822cccd2af41ae2d3b0c86cd RDMA/rxe: Fix missing kconfig dependency on CRYPTO
+1026acb2477844d5f376bfc141be9385a935923c rsxx: Return -EFAULT if copy_to_user() fails
+c5db5dcb98dd65e175135877d975588d76dccafc dm verity: fix FEC for RS roots unaligned to block size
+7b772db89ee2fe3d548d69f1e365d6f4342d1542 r8169: fix resuming from suspend on RTL8105e if machine runs on battery
+ceeb771de48bddc786ce012d60d85dff0458eb4f net: dsa: add GRO support via gro_cells
+516c9fbb625034723349d3c216be8d228db09682 dm table: fix iterate_devices based device capability checks
+21e000af1651f3f5061f2e095cd5e8b71cc0bf19 dm table: fix DAX iterate_devices based device capability checks
+48c42138dc4e5c99f969f02428ad6a85d42f0787 dm table: fix zoned iterate_devices based device capability checks
+56b94472171d7e303371db59699d36e3ee86ae72 iommu/amd: Fix sleeping in atomic in increase_address_space()
+a99b7062cae6b4c70eaa0fad9cc8cb67b5763896 mwifiex: pcie: skip cancel_work_sync() on reset failure path
+858e288d5bbbb69613401c4e34bb8f7385c39d1a platform/x86: acer-wmi: Cleanup ACER_CAP_FOO defines
+9a9f2135f3a9887504c8987f37666a3c1b161d52 platform/x86: acer-wmi: Cleanup accelerometer device handling
+e7fcd6c82520ef66900dfa66f5886c4cebb9192c platform/x86: acer-wmi: Add new force_caps module parameter
+192b9e184a4e924694032418042de6fe27e5fad3 platform/x86: acer-wmi: Add ACER_CAP_SET_FUNCTION_MODE capability flag
+0946317366478108bce4883825fc644dc964e7f8 platform/x86: acer-wmi: Add support for SW_TABLET_MODE on Switch devices
+33a9baf9e99c82442018aa2b288e428fede81293 platform/x86: acer-wmi: Add ACER_CAP_KBD_DOCK quirk for the Aspire Switch 10E SW3-016
+e3b4392c1058dc9bdf7ffdff29121618248a05bd HID: mf: add support for 0079:1846 Mayflash/Dragonrise USB Gamecube Adapter
+14082b379be2e4c2fa5486fd2726f60cd0b191dd media: cx23885: add more quirks for reset DMA on some AMD IOMMU
+9b19c02898ce127b843b01942a93c1431b734648 ASoC: Intel: bytcr_rt5640: Add quirk for ARCHOS Cesium 140
+f287918f75e336aa1e3cce1c53babe6e902327b5 PCI: Add function 1 DMA alias quirk for Marvell 9215 SATA controller
+487d7b17a7edba3068ece1fc2af06934b57aa994 misc: eeprom_93xx46: Add quirk to support Microchip 93LC46B eeprom
+2f6ede89269561141ebb5063a787c62f967f28c6 drm/msm/a5xx: Remove overwriting A5XX_PC_DBG_ECO_CNTL register
+85bc561d359083ea7978e19457e78452d73d5e29 mmc: sdhci-of-dwcmshc: set SDHCI_QUIRK2_PRESET_VALUE_BROKEN
+fffeea4063954b09866c112dad21a991ba52a914 Linux 4.19.180-rc1
 
---===============2852063295477900032==--
+--===============2056933620535789916==--
