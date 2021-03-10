@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1190620319838673770=="
+Content-Type: multipart/mixed; boundary="===============3816189370139092554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 10 Mar 2021 13:24:59 -0000
-Message-Id: <161538269936.21101.436182564683416491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 10 Mar 2021 13:25:08 -0000
+Message-Id: <161538270858.22506.14167605769337381584@gitolite.kernel.org>
 
---===============1190620319838673770==
+--===============3816189370139092554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 8b1ef4d4ef454925e56d8a17767f80e7c34b7ccc
     new: e92a309be437b761c6972502386ea717c6fed027
     log: revlist-8b1ef4d4ef45-e92a309be437.txt
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 3a4caf37b5bcd434e88d879eeb9168b6a09cb88f
     new: 64682e1b774475c9f156163ca2ab39cc36f60254
     log: revlist-3a4caf37b5bc-64682e1b7744.txt
 
---===============1190620319838673770==
+--===============3816189370139092554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1055,7 +1055,7 @@ ac101985cad3912e484295bd0ec22d117fee9f17 ASoC: remove remnants of sirf prima/atl
 fd8299181995093948ec6ca75432e797b4a39143 ASoC: SOF: intel: fix wrong poll bits in dsp power down
 e92a309be437b761c6972502386ea717c6fed027 Merge series "ASoC: sdm845: array out of bound issues" from Srinivas Kandagatla <srinivas.kandagatla@linaro.org>:
 
---===============1190620319838673770==
+--===============3816189370139092554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1432,4 +1432,4 @@ d59cfc6544dc19a1d1c1e47d95dd2150da3daf56 ASoC: rt715-sdca: Remove unused includi
 9bcf56c9647acfd70fa4917de925b3bb04103e34 Merge series "Add I2S-MCC support for Microchip's SAMA7G5" from Codrin Ciubotariu <codrin.ciubotariu@microchip.com>:
 64682e1b774475c9f156163ca2ab39cc36f60254 Merge series "Report jack and button detection + Capture Support" from Lucas Tanure <tanureal@opensource.cirrus.com>:
 
---===============1190620319838673770==--
+--===============3816189370139092554==--
