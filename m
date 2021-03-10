@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2029431542063994719=="
+Content-Type: multipart/mixed; boundary="===============7157988683594459200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Wed, 10 Mar 2021 07:30:59 -0000
-Message-Id: <161536145917.18970.1202451982300682264@gitolite.kernel.org>
+Date: Wed, 10 Mar 2021 07:31:23 -0000
+Message-Id: <161536148305.19130.4091145115190469502@gitolite.kernel.org>
 
---===============2029431542063994719==
+--===============7157988683594459200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/ext4-pending
-    old: e66e7bdf881ead638ae8c33faf595bdbea540373
-    new: c8d754b8ed04f5b39a407cca714bd956a4da46d3
-    log: revlist-e66e7bdf881e-c8d754b8ed04.txt
+  - ref: refs/heads/random-pending
+    old: 422397cbe3083f12cf95b53135875fbd46af37b0
+    new: c9fb6f4672d145c3e24f37d36f8758296c7af278
+    log: revlist-422397cbe308-c9fb6f4672d1.txt
 
---===============2029431542063994719==
+--===============7157988683594459200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e66e7bdf881e-c8d754b8ed04.txt
+Content-Disposition: attachment; filename=revlist-422397cbe308-c9fb6f4672d1.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,6 +219,7 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-c8d754b8ed04f5b39a407cca714bd956a4da46d3 ext4: fix error handling in ext4_end_enable_verity()
+1662718319e552cbcf9c5d9a8a0999450644d22b random: remove dead code left over from blocking pool
+c9fb6f4672d145c3e24f37d36f8758296c7af278 random: initialize ChaCha20 constants with correct endianness
 
---===============2029431542063994719==--
+--===============7157988683594459200==--
