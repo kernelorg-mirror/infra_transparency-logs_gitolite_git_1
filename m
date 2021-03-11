@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0919302813995671752=="
+Content-Type: multipart/mixed; boundary="===============7279471384904244625=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 11 Mar 2021 08:18:44 -0000
-Message-Id: <161545072467.32356.2794146532413742723@gitolite.kernel.org>
+Date: Thu, 11 Mar 2021 08:20:35 -0000
+Message-Id: <161545083580.1964.6920230656457234535@gitolite.kernel.org>
 
---===============0919302813995671752==
+--===============7279471384904244625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,45 +15,57 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: ab7bc9007c0d49b5b7b4c9cedb0c7bfa1712afbc
-    new: 660c9c83de65e0d3fa448846a3a1d78a3e6ca5d4
-    log: revlist-ab7bc9007c0d-660c9c83de65.txt
+  - ref: refs/heads/net-mlx5
+    old: 384e222d0e336356850725461f8ff7c9401123f1
+    new: eb0f924c197dd67cc855356371811e004f7a5bb0
+    log: revlist-384e222d0e33-eb0f924c197d.txt
 
---===============0919302813995671752==
+--===============7279471384904244625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab7bc9007c0d-660c9c83de65.txt
+Content-Disposition: attachment; filename=revlist-384e222d0e33-eb0f924c197d.txt
 
-f41e5e1f3827ffc4ee9b25823baf0b3a2cbadb5e x86/xen: Fix compilation error due to missing nopvspin declaration
-300c0bb68fc4348c874acc4670a1e6815ced73c7 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
-0c7befcbc2aad1b279889cac4deaaf15acb373c2 Revert "net: bonding: fix error return code of bond_neigh_init()"
-034e36e620a90786b8c6ef5aeef0f51cce255a84 net/mlx5: Cleanup prototype warning
-8e0e93a50d334bde42d27b632406528d5796988f net/mlx5: Don't skip vport check
-4178f8c33f830783ff1b1be2bf346cf86db8ae8d net/mlx5: Remove impossible checks of interface state
-bbe97c4568909300e01ee4181e382dfe27a71c44 net/mlx5: Separate probe vs. reload flows
-33b210539af49acdd9a6847f6f1213317f9a0dc5 net/mlx5: Remove second FW tracer check
-9e8856b47d7eb0ce371dbb134dffb8d8ef835cdc net/mlx5: Don't rely on interface state bit
-2e54b07c98dc7bb0f24a53de07dcae40362ba61f net/mlx5: Check returned value from health recover sequence
-70f56875743706aa9c7ab0df3c2626c2e44e0dff net/mlx5: Fix devlink reload LOCKDEP warning
-a2b67cbdd848f3e0b1ab60c18dc8b84114cee603 net/mlx5: CT: Add support for mirroring
-fdb71146b02e7530df9ebc3914328c5d724726f9 net/mlx5: E-Switch, let user to enable disable metadata
-e960debfd5fff5ad5ebf68aa41563cae5ec5ef1a net/mlx5e: CT, Avoid false lock depenency warning
-2aa8874eb4df957bee2c5894e16048d238a72d64 net/mlx5: Display the command index in command mailbox dump
-1dd3cd3d1c70977f6e92aa450a0a6bd01d151569 net/mlx5e: Allow to match on ICMP parameters
-884cf2077ca6c4422a428a0a4e9bbf4b7c3c622c net/mlx5: Don't allow health work when device is probing
-98d0f567df69337aca7003c697e69aa04d5aff14 Revert "net/mlx5: Fix fatal error handling during device load"
-eff6e70ca4d1a5e2bc21398abb180a0f87bda283 net/mlx5: SF: Fix memory leak of work item
-88f385911bed3e70fa0921c18a7f22c51addb5c9 net/mlx5: SF: Fix error flow of SFs allocation flow
-5266b84e2bdacc168121427cee0ec15dfea95c63 net/mlx5e: rep: Improve reg_cX conditions
-b4368180122e7d9efabf0554f35eeff9ca266a08 net/mlx5e: Enforce minimum value check for ICOSQ size
-f60262aa08bb381ca21aa9e5cfeeb9d644ac4060 net/mlx5: DR, Fix potential shift wrapping of 32-bit value in STEv1 getter
-56e389aadc5976fb22d89e86410785ef18c5a9ed net/mlx5: DR, Fixed typo in STE v0
-44381b11476af3e3611b9b637cc8392578c376a9 net/mlx5: DR, Remove unneeded rx_decap_l3 function for STEv1
-a040d4f063465a7d6e1d3e61f97a9f2d9b7811bc net/mlx5: DR, Add missing vhca_id consume from STEv1
-e48c2f2ba2faf15f8546b2ca85b767d57a453120 net/mlx5e: Use net_prefetchw instead of prefetchw in MPWQE TX datapath
-2ca97c0e3467ac89fbf9bb9bf787f64f1b665305 net/mlx5: Read congestion counters from all ports when lag is active
-660c9c83de65e0d3fa448846a3a1d78a3e6ca5d4 net/mlx5: Avoid unnecessary operation
+edbea922025169c0e5cdca5ebf7bf5374cc5566c veth: Store queue_mapping independently of XDP prog presence
+350a5c4dd2452ea999cc5e1d4a8dbf12de2f97ef bpf: Dont allow vmlinux BTF to be used in map_create and prog_load.
+769c18b254ca191b45047e1fcb3b2ce56fada0b6 bpf: Change inode_storage's lookup_elem return value from NULL to -EBADF
+e7fb6465d4c8e767e39cbee72464e0060ab3d20c libbpf: Fix INSTALL flag order
+e5e35e754c28724d5c619f2ec805fd221f8d59ce bpf: BPF-helper for MTU checking add length input
+e5e010a3063ad801cb3f85793cbada9c2a654e40 selftests/bpf: Tests using bpf_check_mtu BPF-helper input mtu_len param
+05a68ce5fa51a83c360381630f823545c5757aa2 bpf: Don't do bpf_cgroup_storage_set() for kuprobe/tp programs
+de920fc64cbaa031f947e9be964bda05fd090380 bpf, x86: Use kvmalloc_array instead kmalloc_array in bpf_jit_comp
+5115daa675ccf70497fe56e8916cf738d8212c10 net/mlx5e: Enforce minimum value check for ICOSQ size
+d5dd03b26ba49c4ffe67ee1937add82293c19794 net/mlx5e: RX, Mind the MPWQE gaps when calculating offsets
+354521eebd02db45168b9c8c3795078f90c327b7 net/mlx5e: Accumulate port PTP TX stats with other channels stats
+1c2cdf0b603a3b0c763288ad92e9f3f1555925cf net/mlx5e: Set PTP channel pointer explicitly to NULL
+e5eb01344e9b09bb9d255b9727449186f7168df8 net/mlx5e: When changing XDP program without reset, take refs for XSK RQs
+74640f09735f935437bd8df9fe61a66f03eabb34 net/mlx5e: Revert parameters on errors when changing PTP state without reset
+385d40b042e60aa0b677d7b400a0fefb44bcbaf4 net/mlx5e: Don't match on Geneve options in case option masks are all zero
+55affa97d6758b6aeab0bc68f4884c4b5a6828af net/mlx5: Fix turn-off PPS command
+1e74152ed065ef491c30ccbbe119992e3e5200be net/mlx5e: Check correct ip_version in decapsulation route resolution
+f574531a0b77261478408e9c8f70d96dc701a35a net/mlx5: Disable VF tunnel TX offload if ignore_flow_level isn't supported
+469549e4778a1e5ac4a7c6659c4b1a75a648bfdf net/mlx5e: Fix error flow in change profile
+4806f1e2fee84c053cb68cd5be5817170bf0aab6 net/mlx5: Set QP timestamp mode to default
+8256c69b2d9c35e94d0e424184c0d27b59bdee12 RDMA/mlx5: Fix timestamp default mode
+8b90d897823b28a51811931f3bdc79f8df79407e net/mlx5e: E-switch, Fix rate calculation division
+6a3717544ce9ee8a2058fbc75c67060515435937 net/mlx5: SF, Correct vhca context size
+6fa37d66ef2dc850ff18b2a057a84cd7ca8499bb net/mlx5: SF: Fix memory leak of work item
+dc694f11a7593b7fd5aabe15a0e6c8fd2de24ebf net/mlx5: SF: Fix error flow of SFs allocation flow
+84076c4c800d1be77199a139d65b8b136a61422e net/mlx5: DR, Fix potential shift wrapping of 32-bit value in STEv1 getter
+c4c877b2732466b4c63217baad05c96f775912c7 net: Consolidate common blackhole dst ops
+a188bb5638d41aa99090ebf2f85d3505ab13fba5 net, bpf: Fix ip6ip6 crash with collect_md populated skbs
+c89489b47289e222c4363c20515e0ac321acbae4 Merge branch 'ip6ip6-crash'
+28259bac7f1dde06d8ba324e222bbec9d4e92f2b ipv6: fix suspecious RCU usage warning
+547fd083770ab8353e7aa7f9e802b499e30fd4ef Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+9398e9c0b1d44eeb700e9e766c02bcc765c82570 drop_monitor: Perform cleanup upon probe registration failure
+dd4fa1dae9f4847cc1fd78ca468ad69e16e5db3e macvlan: macvlan_count_rx() needs to be aware of preemption
+0571a753cb07982cc82f4a5115e0b321da89e1f3 net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
+8373a0fe9c7160a55482effa8a3f725efd3f8434 net: dsa: bcm_sf2: use 2 Gbps IMP port link on BCM4908
+1e1e73ee1adf8047f186fa519b7be4e8f895e35b Merge tag 'mlx5-fixes-2021-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+e323d865b36134e8c5c82c834df89109a5c60dab net: sched: validate stab values
+d45c36bafb94e72fdb6dee437279b61b6d97e706 net: dsa: b53: VLAN filtering is global to all users
+47142ed6c34d544ae9f0463e58d482289cbe0d46 net: dsa: bcm_sf2: Qualify phydev->dev_flags based on port
+8998620cdbabec150b07d08828e305fbbb517729 Revert "net: bonding: fix error return code of bond_neigh_init()"
+eb0f924c197dd67cc855356371811e004f7a5bb0 net/mlx5: Cleanup prototype warning
 
---===============0919302813995671752==--
+--===============7279471384904244625==--
