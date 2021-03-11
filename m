@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
-Date: Thu, 11 Mar 2021 17:45:59 -0000
-Message-Id: <161548475922.4626.17222708901151309182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 11 Mar 2021 17:46:09 -0000
+Message-Id: <161548476973.4720.15415025950519934080@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
-user: zx2c4
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/ke/freebsd
-    old: 91f0eb577c713f55d0097778dc5c8a5e52c6a7c6
-    new: ff9283799c45589f110c33449a596b43067bdb51
+  - ref: refs/heads/for-next
+    old: a38fd8748464831584a19438cbb3082b5a2dab15
+    new: e35ecb466eb63c2311783208547633f90742d06d
     log: |
-         ff9283799c45589f110c33449a596b43067bdb51 ipc: freebsd: fix typo in allowed-ip traversal
+         0f00571f94339fa27f592d157ccc0b909dc0625e RDMA/hns: Use new SQ doorbell register for HIP09
+         e35ecb466eb63c2311783208547633f90742d06d RDMA/iwcm: Allow AFONLY binding for IPv6 addresses
          
