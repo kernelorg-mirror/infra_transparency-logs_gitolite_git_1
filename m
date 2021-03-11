@@ -1,57 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============2933017973866648487=="
+Content-Type: multipart/mixed; boundary="===============0334371169385101413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 11 Mar 2021 06:53:58 -0000
-Message-Id: <161544563888.25352.7718283654507095677@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 11 Mar 2021 07:06:01 -0000
+Message-Id: <161544636174.1192.6034654532731984084@gitolite.kernel.org>
 
---===============2933017973866648487==
+--===============0334371169385101413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 84b78b7b993fff3868ce6d4dcc753b5012905b17
-    new: ab7bc9007c0d49b5b7b4c9cedb0c7bfa1712afbc
-    log: revlist-84b78b7b993f-ab7bc9007c0d.txt
+  - ref: refs/heads/staging-next
+    old: 31673785d5353b8a8e882fc51ef315cc197f4483
+    new: c972c2d821ca3eda001a20dbe2ca0b4718838caf
 
---===============2933017973866648487==
+--===============0334371169385101413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84b78b7b993f-ab7bc9007c0d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0fcbea84beb0ac48bd3822268b141ad3e707690f Revert "net: bonding: fix error return code of bond_neigh_init()"
-a5d49be9d5f1aafdd9da5146ed9aa363ffae2282 net/mlx5: Cleanup prototype warning
-60883b3fb3f78aa057640bb1908f24d15b446cfb net/mlx5: Don't skip vport check
-38d1737e30e9f9e357cc73a6c9b60fdafe3be0b0 net/mlx5: Remove impossible checks of interface state
-ec330834880ec824a421fffce699154255edbb94 net/mlx5: Separate probe vs. reload flows
-1e34ed0227552d917b88683ecc6ba9768c654bfe net/mlx5: Remove second FW tracer check
-a345040769a4f63dfa932f4912fd7b3241ad5f02 net/mlx5: Don't rely on interface state bit
-bd24f3b1ebb91d9e8710a952970e72acc529172d net/mlx5: Check returned value from health recover sequence
-ec58f4e260529897136dcbbfb28c7934fca8fe4a net/mlx5: Fix devlink reload LOCKDEP warning
-8648513c236abb3946acc5dc6dd69d5c4fb3d849 net/mlx5: CT: Add support for mirroring
-026468f9c6a0f195711bf5e6c5d082c24eface1c net/mlx5: E-Switch, let user to enable disable metadata
-ee31004d7d52ed94a52aa594ed48f18def3bee21 net/mlx5e: CT, Avoid false lock depenency warning
-67168af047dd314192e54bc2c0513d1b2b9efe19 net/mlx5: Display the command index in command mailbox dump
-bd6ee3192a17626bb3a6f653829022dde2ad40ee net/mlx5e: Allow to match on ICMP parameters
-29439d93115ac362cc43094cd1cc9345737db7b0 net/mlx5: Don't allow health work when device is probing
-c4248fd862b8cc43fdeedb026ac8ce7f0677893d Revert "net/mlx5: Fix fatal error handling during device load"
-5b2316f70792b8ba15fccbd3aebdffa4c77fb674 net/mlx5: SF: Fix memory leak of work item
-fb6af80da56d7a4dad8d61ce269b85965e01f33d net/mlx5: SF: Fix error flow of SFs allocation flow
-928600f3a52049072c3e8daf7398ce7b0fd97ac0 net/mlx5e: rep: Improve reg_cX conditions
-fcc2343635cb5250fb999ddc6c63e3bcbbca3c1b net/mlx5e: Enforce minimum value check for ICOSQ size
-8b2ba0aac353690ebced09795041cb3d418388e7 net/mlx5: DR, Fix potential shift wrapping of 32-bit value in STEv1 getter
-6f7008d0cf095387bedec04f9e135794a4ce80e2 net/mlx5: DR, Fixed typo in STE v0
-09fe43c91fb7d81c9bebfdf2b651a1dbe9d1f79f net/mlx5: DR, Remove unneeded rx_decap_l3 function for STEv1
-3ad7558d7a2df056068c5f2949d9c412b085bbc0 net/mlx5: DR, Add missing vhca_id consume from STEv1
-5215124d64b9c8703547074984bad3edcca80d60 net/mlx5e: Use net_prefetchw instead of prefetchw in MPWQE TX datapath
-edccb7bfa9fbfbcfcf1a572ef03e8cee69013408 net/mlx5: Read congestion counters from all ports when lag is active
-ab7bc9007c0d49b5b7b4c9cedb0c7bfa1712afbc net/mlx5: Avoid unnecessary operation
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615446351 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1615446350-dbc4f98bf263715410e7f064402f8a6abb526c33
 
---===============2933017973866648487==--
+31673785d5353b8a8e882fc51ef315cc197f4483 c972c2d821ca3eda001a20dbe2ca0b4718838caf refs/heads/staging-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBJwU8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7JcQANV5+UDF6wwUnLW1EjRA
+xmyWqEM6WdalKeWGa72EFomeVtguyuaSeYjoIUYSbFyIUs5+lC4bAXZqTy6fw0tU
+tHkZEFMThd2zMsThPt/7TvLqOd0ubuQgokZaOHJHi2rw1NJvz1m5vYGvJ4iAgKiG
+bQkcxCBgjQPUzFLCwaQgwlQH1DdIVtO6ryvc3enQiIXq6bw3q0kqjvjmPPvk40nN
+kU8p88FIYIVA1vWGfqqRfGPwQFzqQogKR9cmRgdsQkO9arSKF5+HjzplN6reB1tB
+3ZsXogrkgoztpBL4+nlL5lhY6V81+JvlIJ7tDX/S/xFmRaGGzMKMhjYh3R7sgJvw
+AhbabX3dhzxi6hdz3d1xlacHIIFXT98nHEkSQ80SMUBLnxWvmiavVjXOEU+M/+Pb
+ousclL6QhEe9EXWCAXz1KxCN+jS5DPQ4FEXxCI2+T9t4mEQFskWYNOxMgDGZTohj
+qqQu5n2rGFV+XQNryg/7qRzvpnEdHuy2yCQ/31MNyw1x7WQ9goShrBEPmQje5aaB
+BoluREepF4fhBcC0FRIT32Ty5UJJOmkzPuZq+3eJaRKCv9X/ZKPX61jko/esNcfo
+z52gjepmyuV8AvuuJQ9/OJ5tN07gPEjLRMBeySBM+YmhyPWO2kkxzK6MLv2Upl5p
+6OQsv4kptQa7wrzMPVt9i91I
+=EOWf
+-----END PGP SIGNATURE-----
+
+--===============0334371169385101413==--
