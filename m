@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Thu, 11 Mar 2021 13:25:46 -0000
-Message-Id: <161546914663.13072.1028945699789546869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 11 Mar 2021 13:25:50 -0000
+Message-Id: <161546915071.13144.6796058675079222281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/extcon-fixes
-    old: 767128762a4f3e4766053417a9eb88982cce6b37
-    new: f7b0a4ff716577424ed18f5aa7240354767e4e8e
+  - ref: refs/heads/for-next/fixes
+    old: 7bb8bc6eb550116c504fb25af8678b9d7ca2abc5
+    new: 30b2675761b8a1a2b6ef56b535ef51b789bb7150
     log: |
-         f7b0a4ff716577424ed18f5aa7240354767e4e8e extcon: Fix error handling in extcon_dev_register
+         7ba8f2b2d652cd8d8a2ab61f4be66973e70f9f88 arm64: mm: use a 48-bit ID map when possible on 52-bit VA builds
+         30b2675761b8a1a2b6ef56b535ef51b789bb7150 arm64: mm: remove unused __cpu_uses_extended_idmap[_level()]
          
