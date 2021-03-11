@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Thu, 11 Mar 2021 17:46:30 -0000
-Message-Id: <161548479007.4925.13223108776215357305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 11 Mar 2021 17:50:04 -0000
+Message-Id: <161548500429.7067.12517180218159805273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
-user: brauner
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/idmapped_mounts
-    old: 3bad4c0335784f413ae507021a1df78db8a049cb
-    new: bd88c8406b475b83243ea704d50d5dc9ee7b8b48
+  - ref: refs/heads/for-next
+    old: fee14707bc6b4929682e424fce2dcbb40dfeff73
+    new: e668545e5450545d2bd8dcdf1592b85f26f2dbb4
     log: |
-         b39238658db97780ed767b24cbc1428d7f53a4fd xfs/528: quotas and idmapped mounts
-         bd88c8406b475b83243ea704d50d5dc9ee7b8b48 xfs/529: quotas on idmapped mounts
+         5c2469e0a22e035d52f3ba768151cc75e3d4a1cd io_uring: force creation of separate context for ATTACH_WQ and non-threads
+         e668545e5450545d2bd8dcdf1592b85f26f2dbb4 Merge branch 'io_uring-5.12' into for-next
+         
+  - ref: refs/heads/io_uring-5.12
+    old: 7d41e8543d809c3c900d1212d6ea887eb284b69a
+    new: 5c2469e0a22e035d52f3ba768151cc75e3d4a1cd
+    log: |
+         5c2469e0a22e035d52f3ba768151cc75e3d4a1cd io_uring: force creation of separate context for ATTACH_WQ and non-threads
          
