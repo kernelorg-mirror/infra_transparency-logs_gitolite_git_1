@@ -1,50 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8726233010222592360=="
+Content-Type: multipart/mixed; boundary="===============0919302813995671752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Thu, 11 Mar 2021 08:17:15 -0000
-Message-Id: <161545063557.31813.10521616396072747697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 11 Mar 2021 08:18:44 -0000
+Message-Id: <161545072467.32356.2794146532413742723@gitolite.kernel.org>
 
---===============8726233010222592360==
+--===============0919302813995671752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
-user: brauner
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/idmapped_mounts
-    old: 27712465751576c20fd378cfb35efc7f120f0658
-    new: e1ea7401a8279bd3f5256d972dfe1e6ed2eff7b1
-    log: revlist-277124657515-e1ea7401a827.txt
+  - ref: refs/heads/net-next-mlx5
+    old: ab7bc9007c0d49b5b7b4c9cedb0c7bfa1712afbc
+    new: 660c9c83de65e0d3fa448846a3a1d78a3e6ca5d4
+    log: revlist-ab7bc9007c0d-660c9c83de65.txt
 
---===============8726233010222592360==
+--===============0919302813995671752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-277124657515-e1ea7401a827.txt
+Content-Disposition: attachment; filename=revlist-ab7bc9007c0d-660c9c83de65.txt
 
-2d4fb6bb3078547be73abf4f9913c20813c1e467 config: wrap xfs_metadump as $XFS_METADUMP_PROG like the other tools
-5baeea6fe8c216debd3b05426e6907ec509bf52b check: allow '-e testid' to exclude a single test
-3d79e8ea242462f8555455318147e662048b306c check: don't abort on non-existent excluded groups
-49c09b5bad5effab656eb3dba1dc2df1f56a3ed9 check: run tests in exactly the order specified
-656e1b10820d9f05cfecf90f79d91c78cb77b0ae fuzzy: capture core dumps from repair utilities
-bdad282d47daddc0f2f7f18f30bd25a636535de4 btrfs: clone a hole post eof when using NO_HOLES feature
-46f896c0a55d4fd979f473dcd5742f67746e66ec btrfs: make sure we rescan all devices after unregistering
-9b298bdf540f29a0571998dfd150dc614ef7f34b check: add CLI option to repeat and stop tests in case of failure
-8fe4fdf8ca22c8194889def2378bf20406af1f13 fstests: remove _require_no_rtinherit completely
-71636cfbaf358931012d94fbaeed53ddfa6cea7d generic/623: don't fail on core dumps
-5c076a5adbd15dc06128d7eea2747677b5eba704 xfs/271: fix test failure on non-reflink filesystems
-e05491b34134f37e0e6f20b50b58014c4ec7b70d common/rc: fix detection of device-mapper/persistent memory incompatibility
-976ca65307d2f0d16acb523833d15437bd0349f8 generic/60[78]: ensure the initial DAX file flag state before test
-c363e7a1fca59895520b2747c5d0ffc43d181950 generic: factor out helpers for fs-verity built-in signatures
-45495efc38292e7f121e3e6f28720ca7800149af generic: add helpers for dumping fs-verity metadata
-c4ef001021eee73e71760a5c1180ab29b9335c4a generic: test retrieving verity Merkle tree and descriptor
-456734557033b389e05dbee39aa2bd2d4c36d2fa generic: test retrieving verity signature
-52a3700b26e15a7267527463766ef1f22768ae25 btrfs: Add simple stress test when qgroup limits are reached
-6240f927ee8f99bc328a855992ce597a565b5ea0 generic/626: add test for detached mount propagation
-e1ea7401a8279bd3f5256d972dfe1e6ed2eff7b1 generic/627: add fstests for idmapped mounts
+f41e5e1f3827ffc4ee9b25823baf0b3a2cbadb5e x86/xen: Fix compilation error due to missing nopvspin declaration
+300c0bb68fc4348c874acc4670a1e6815ced73c7 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
+0c7befcbc2aad1b279889cac4deaaf15acb373c2 Revert "net: bonding: fix error return code of bond_neigh_init()"
+034e36e620a90786b8c6ef5aeef0f51cce255a84 net/mlx5: Cleanup prototype warning
+8e0e93a50d334bde42d27b632406528d5796988f net/mlx5: Don't skip vport check
+4178f8c33f830783ff1b1be2bf346cf86db8ae8d net/mlx5: Remove impossible checks of interface state
+bbe97c4568909300e01ee4181e382dfe27a71c44 net/mlx5: Separate probe vs. reload flows
+33b210539af49acdd9a6847f6f1213317f9a0dc5 net/mlx5: Remove second FW tracer check
+9e8856b47d7eb0ce371dbb134dffb8d8ef835cdc net/mlx5: Don't rely on interface state bit
+2e54b07c98dc7bb0f24a53de07dcae40362ba61f net/mlx5: Check returned value from health recover sequence
+70f56875743706aa9c7ab0df3c2626c2e44e0dff net/mlx5: Fix devlink reload LOCKDEP warning
+a2b67cbdd848f3e0b1ab60c18dc8b84114cee603 net/mlx5: CT: Add support for mirroring
+fdb71146b02e7530df9ebc3914328c5d724726f9 net/mlx5: E-Switch, let user to enable disable metadata
+e960debfd5fff5ad5ebf68aa41563cae5ec5ef1a net/mlx5e: CT, Avoid false lock depenency warning
+2aa8874eb4df957bee2c5894e16048d238a72d64 net/mlx5: Display the command index in command mailbox dump
+1dd3cd3d1c70977f6e92aa450a0a6bd01d151569 net/mlx5e: Allow to match on ICMP parameters
+884cf2077ca6c4422a428a0a4e9bbf4b7c3c622c net/mlx5: Don't allow health work when device is probing
+98d0f567df69337aca7003c697e69aa04d5aff14 Revert "net/mlx5: Fix fatal error handling during device load"
+eff6e70ca4d1a5e2bc21398abb180a0f87bda283 net/mlx5: SF: Fix memory leak of work item
+88f385911bed3e70fa0921c18a7f22c51addb5c9 net/mlx5: SF: Fix error flow of SFs allocation flow
+5266b84e2bdacc168121427cee0ec15dfea95c63 net/mlx5e: rep: Improve reg_cX conditions
+b4368180122e7d9efabf0554f35eeff9ca266a08 net/mlx5e: Enforce minimum value check for ICOSQ size
+f60262aa08bb381ca21aa9e5cfeeb9d644ac4060 net/mlx5: DR, Fix potential shift wrapping of 32-bit value in STEv1 getter
+56e389aadc5976fb22d89e86410785ef18c5a9ed net/mlx5: DR, Fixed typo in STE v0
+44381b11476af3e3611b9b637cc8392578c376a9 net/mlx5: DR, Remove unneeded rx_decap_l3 function for STEv1
+a040d4f063465a7d6e1d3e61f97a9f2d9b7811bc net/mlx5: DR, Add missing vhca_id consume from STEv1
+e48c2f2ba2faf15f8546b2ca85b767d57a453120 net/mlx5e: Use net_prefetchw instead of prefetchw in MPWQE TX datapath
+2ca97c0e3467ac89fbf9bb9bf787f64f1b665305 net/mlx5: Read congestion counters from all ports when lag is active
+660c9c83de65e0d3fa448846a3a1d78a3e6ca5d4 net/mlx5: Avoid unnecessary operation
 
---===============8726233010222592360==--
+--===============0919302813995671752==--
