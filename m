@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Thu, 11 Mar 2021 01:33:33 -0000
-Message-Id: <161542641329.21366.14770749056192340509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 11 Mar 2021 01:49:27 -0000
+Message-Id: <161542736790.31266.18043358708005571418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/tags/v5.12-rc1-dontuse
-    old: 0000000000000000000000000000000000000000
-    new: d1da37c58e65c4800cce768533c563fa3c89c62f
-  - ref: refs/tags/v5.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
+  - ref: refs/heads/1GbE
+    old: 869baf7ca589aa4c384b6171e0cba24da418b167
+    new: 75e3560bc704ed78377869fa362223a6b17916f5
+    log: |
+         86435d596b1a3e50a59d988dc7769d8da1c162f8 e1000e: add rtnl_lock() to e1000_reset_task
+         75e3560bc704ed78377869fa362223a6b17916f5 e1000e: Fix error handling in e1000_set_d0_lplu_state_82571
+         
