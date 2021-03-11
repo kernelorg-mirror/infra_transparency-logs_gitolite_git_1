@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4280693947085701981=="
+Content-Type: multipart/mixed; boundary="===============0875411981177022964=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 11 Mar 2021 10:51:14 -0000
-Message-Id: <161545987400.13048.10007693966035036322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 11 Mar 2021 10:51:19 -0000
+Message-Id: <161545987989.13148.10449278931348991172@gitolite.kernel.org>
 
---===============4280693947085701981==
+--===============0875411981177022964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 4c8c0cc10784cf191e22f04798e07531de47f01f
-    new: d1b63bd3ea856cd019a1d30e2a83ad6dac6c564c
-    log: revlist-4c8c0cc10784-d1b63bd3ea85.txt
+  - ref: refs/heads/queue-rc
+    old: 2270a0c7c7a7431c2732cf5e26e87051f63e122a
+    new: 2e74d8166fee6c3f97215f5fb17b0e38cc0e1c4c
+    log: revlist-2270a0c7c7a7-2e74d8166fee.txt
 
---===============4280693947085701981==
+--===============0875411981177022964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c8c0cc10784-d1b63bd3ea85.txt
+Content-Disposition: attachment; filename=revlist-2270a0c7c7a7-2e74d8166fee.txt
 
 edbea922025169c0e5cdca5ebf7bf5374cc5566c veth: Store queue_mapping independently of XDP prog presence
 350a5c4dd2452ea999cc5e1d4a8dbf12de2f97ef bpf: Dont allow vmlinux BTF to be used in map_create and prog_load.
@@ -70,5 +70,6 @@ eb0f924c197dd67cc855356371811e004f7a5bb0 net/mlx5: Cleanup prototype warning
 caa312f649d5f9d6250a75d875b980302c39ecec net/mlx5e: Accumulate port PTP TX stats with other channels stats
 ce2514e0c7e2cf4d6d553fa7525a25ba5f80ab57 Merge branch 'mlx4-for-net' into net-rc
 d1b63bd3ea856cd019a1d30e2a83ad6dac6c564c Merge branch 'mlx5-for-net' into net-rc
+2e74d8166fee6c3f97215f5fb17b0e38cc0e1c4c Merge branch 'net-rc' into queue-rc
 
---===============4280693947085701981==--
+--===============0875411981177022964==--
