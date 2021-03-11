@@ -1,46 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4663615491194631672=="
+Content-Type: multipart/mixed; boundary="===============4829121533882611601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/hook-test
-Date: Thu, 11 Mar 2021 16:22:32 -0000
-Message-Id: <161547975296.17233.9082922710972865912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 11 Mar 2021 16:36:37 -0000
+Message-Id: <161548059743.25175.3979679694600451342@gitolite.kernel.org>
 
---===============4663615491194631672==
+--===============4829121533882611601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/hook-test
-user: mricon
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: eda29b016878311866a0d144af88487bb7f581d2
-    new: 2667d928fa31a7d3967610a8a733f59f2df93f10
+  - ref: refs/heads/for-5.12
+    old: ea94191e584b146878f0b7fd4b767500d7aae870
+    new: 9922f50f7178496e709d3d064920b5031f0d9061
     log: |
-         2667d928fa31a7d3967610a8a733f59f2df93f10 New test
+         9922f50f7178496e709d3d064920b5031f0d9061 ASoC: qcom: lpass-cpu: Fix lpass dai ids parse
          
 
---===============4663615491194631672==
+--===============4829121533882611601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1615479752 -0500
-pushee pdx-korg-gitolite-2.ci:pub/scm/linux/kernel/git/mricon/hook-test
-nonce 1615479752-b3ab27183d6b8dcc254d7c0174793e82cebdc205
+pusher C3F436CA30F5D8EB 1615480525 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1615480594-73058a7c23c7221c75a29e22236106a1d100e1da
 
-eda29b016878311866a0d144af88487bb7f581d2 2667d928fa31a7d3967610a8a733f59f2df93f10 refs/heads/main
+ea94191e584b146878f0b7fd4b767500d7aae870 9922f50f7178496e709d3d064920b5031f0d9061 refs/heads/for-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYEpDyAAKCRC2xBzjVmSZ
-bJhMAQCFSnm1Et97tUNUjwUPnuC9FEBz2923xkhTXYIrt0MH2AD+IpckaIoR0m0t
-Oo2cSWVp16zf8HJDEqraOuIlyU9f/gc=
-=+yR6
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBKRs0ACgkQJNaLcl1U
+h9AgYQf8DaQqRWObX5Rxz/YaUVo5CBqOTmuESNVSrtce+Oj+gWNDUZvhi2PmyrGc
+Yu9GKO89GlavGIFaVBKq3TEQFsdKtj3G1axGpQ9IMYjMsQuOieFCFp80U/bbir6L
+m5SE//rc+5PkGzg5tNj/kM4cuRkbx4QBY7iRO7eo6H+4EDwh2/O6NcNJAnguYGlF
+xU2vYWkQgGjvEBQIFm5mAHL/ThmTHBfBedTrWYcj4Z14to667fdsMKK3YOSl6JZ3
+lH4gusE79ROi6Clcyo9Dt3stDfgxJE9pmwrIQ1lF7x2y94PjaT2dXammGiGo8dBB
+wszk3wbDIpwFYFZ5ig23IwjDCau6CQ==
+=YA8R
 -----END PGP SIGNATURE-----
 
---===============4663615491194631672==--
+--===============4829121533882611601==--
