@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0648440448340564407=="
+Content-Type: multipart/mixed; boundary="===============8012368784800223479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Thu, 11 Mar 2021 21:38:46 -0000
-Message-Id: <161549872678.15252.4510018635951519671@gitolite.kernel.org>
+Date: Thu, 11 Mar 2021 21:39:50 -0000
+Message-Id: <161549879041.15828.9764425334217152169@gitolite.kernel.org>
 
---===============0648440448340564407==
+--===============8012368784800223479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit-fixes
-    old: d50ffcd2c371fa3468fd44b22b021d5a50caf880
-    new: 7fd53f41f771d250eb08db08650940f017e37c26
-    log: revlist-d50ffcd2c371-7fd53f41f771.txt
+  - ref: refs/heads/master
+    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
+    new: a38fd8748464831584a19438cbb3082b5a2dab15
+    log: revlist-fe07bfda2fb9-a38fd8748464.txt
 
---===============0648440448340564407==
+--===============8012368784800223479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d50ffcd2c371-7fd53f41f771.txt
+Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-a38fd8748464.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,7 +219,5 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-7421b1a4d10c633ca5f14c8236d3e2c1de07e52b kunit: tool: Fix a python tuple typing error
-7fd53f41f771d250eb08db08650940f017e37c26 kunit: tool: Disable PAGE_POISONING under --alltests
 
---===============0648440448340564407==--
+--===============8012368784800223479==--
