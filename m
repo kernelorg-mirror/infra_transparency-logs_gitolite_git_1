@@ -1,29 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nmenon/linux
-Date: Thu, 11 Mar 2021 18:36:59 -0000
-Message-Id: <161548781981.4198.8567414268218870648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Thu, 11 Mar 2021 18:41:40 -0000
+Message-Id: <161548810062.8211.7639542738889913815@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nmenon/linux
-user: nmenon
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 4fb6c04683aa5b45f3876f45465e13265e09eb56
-    new: e180f76d06412bb412ab675dadeb8c2b64da1dcf
+  - ref: refs/heads/urgent
+    old: 9e9888a0fe97b9501a40f717225d2bef7100a2c1
+    new: 62cd88c884628f80313441fc5de19a32b94fdafc
     log: |
-         61a9114b891f0a4e5e4bee2bc93745343234973e dt-bindings: Add Siemens vendor prefix
-         807a2b86269e6eea9ac9d4cd3aafccf8478449ee dt-bindings: arm: ti: Add bindings for Siemens IOT2050 boards
-         e180f76d06412bb412ab675dadeb8c2b64da1dcf arm64: dts: ti: Add support for Siemens IOT2050 boards
-         
-  - ref: refs/heads/ti-k3-next
-    old: 4fb6c04683aa5b45f3876f45465e13265e09eb56
-    new: e180f76d06412bb412ab675dadeb8c2b64da1dcf
-    log: |
-         61a9114b891f0a4e5e4bee2bc93745343234973e dt-bindings: Add Siemens vendor prefix
-         807a2b86269e6eea9ac9d4cd3aafccf8478449ee dt-bindings: arm: ti: Add bindings for Siemens IOT2050 boards
-         e180f76d06412bb412ab675dadeb8c2b64da1dcf arm64: dts: ti: Add support for Siemens IOT2050 boards
+         62cd88c884628f80313441fc5de19a32b94fdafc efi: use 32-bit alignment for efi_guid_t literals
          
