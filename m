@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8535579709441912981=="
+Content-Type: multipart/mixed; boundary="===============8727410811517206916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Thu, 11 Mar 2021 23:15:19 -0000
-Message-Id: <161550451906.10372.18103843390043124499@gitolite.kernel.org>
+Date: Thu, 11 Mar 2021 23:15:22 -0000
+Message-Id: <161550452231.10438.3073400555648673607@gitolite.kernel.org>
 
---===============8535579709441912981==
+--===============8727410811517206916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/heads/hwspinlock-next
-    old: b9ddb2500e7e544410f38476ab928fc2fe01e381
+  - ref: refs/heads/rpmsg-next
+    old: 3e35772bc1e42287c8f4c70055deb5e3f5a3e8b5
     new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-b9ddb2500e7e-a38fd8748464.txt
+    log: revlist-3e35772bc1e4-a38fd8748464.txt
 
---===============8535579709441912981==
+--===============8727410811517206916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9ddb2500e7e-a38fd8748464.txt
+Content-Disposition: attachment; filename=revlist-3e35772bc1e4-a38fd8748464.txt
 
 67f1120381df022a7016f4acc8d4880da9a66c03 drm/i915/gvt: Introduce per object locking in GVT scheduler.
 8acb54abc1db4e1e3913359e4108e04e88ce4d92 Merge tag 'timers-v5.11-rc5' of https://git.linaro.org/people/daniel.lezcano/linux into timers/urgent
@@ -1051,4 +1051,4 @@ de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of gi
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
 
---===============8535579709441912981==--
+--===============8727410811517206916==--
