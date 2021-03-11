@@ -1,46 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6482496759700859264=="
+Content-Type: multipart/mixed; boundary="===============0534703499338022939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 11 Mar 2021 08:40:15 -0000
-Message-Id: <161545201517.14468.6260277587302418451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 11 Mar 2021 08:54:15 -0000
+Message-Id: <161545285548.21333.11193950030215465701@gitolite.kernel.org>
 
---===============6482496759700859264==
+--===============0534703499338022939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: ea5c764c6e8e1e01f4275b24e2d1a11bd7503fe8
-    new: de50ef4f3d687387a87b43a5be38ef98fe2ca389
-    log: revlist-ea5c764c6e8e-de50ef4f3d68.txt
+  - ref: refs/heads/usb-linus
+    old: 46613c9dfa964c0c60b5385dbdf5aaa18be52a9c
+    new: a949b9eab039eb668ff2a15fdec04dfae8ec82ec
+    log: |
+         ca667a33207daeaf9c62b106815728718def60ec USB: serial: cp210x: add ID for Acuity Brands nLight Air Adapter
+         42213a0190b535093a604945db05a4225bf43885 USB: serial: cp210x: add some more GE USB IDs
+         f164f5d8a70245217bee89b246dc4fcfececa526 USB: serial: xr: fix NULL-deref on disconnect
+         5563b3b6420362c8a1f468ca04afe6d5f0a8d0a3 USB: serial: ch341: add new Product ID
+         cfdc67acc785e01a8719eeb7012709d245564701 USB: serial: io_edgeport: fix memory leak in edge_startup
+         a949b9eab039eb668ff2a15fdec04dfae8ec82ec Merge tag 'usb-serial-5.12-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+         
 
---===============6482496759700859264==
+--===============0534703499338022939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea5c764c6e8e-de50ef4f3d68.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-eba8e1af5a61e61e5d77e1dfe1e8e20735ebc9c6 s390/time,idle: get rid of unsigned long long
-f9d8cbf33e9fceee671a49760cdcfa4be6a55102 s390/topology: remove always false if check
-c41b20de1a7c9a41ceab293a6f08927312ada679 s390/cpumf: remove 60 seconds read limit
-7449ca87312a5b0390b765be65a126e6e5451026 s390/zcore: no need to check return value of debugfs_create functions
-dabdfac0e85c8c1e811b10c08742f49285e78a17 s390/zcore: release dump save area on restart or power down
-46b635b6abcf2ee106d36f2e84e942f56030c8f5 s390/cpumf: rename header file to hwctrset.h
-51c44babdc19aaf882e1213325a0ba291573308f s390/cio: return -EFAULT if copy_to_user() fails
-942df4be7ab40195e2a839e9de81951a5862bc5b s390/crypto: return -EFAULT if copy_to_user() fails
-1c0a9c7997325ef7a8f71fca2e1e6091e757c94b s390/cpumf: remove unneeded semicolon
-db232eb42c21b7bca8e46c7e74676754b8fe06ea s390/tty3270: avoid comma separated statements
-d9c48a948d29bcb22f4fe61a81b718ef6de561a0 s390/cio: return -EFAULT if copy_to_user() fails
-d0ed78e1780eb3738f9c106fbaff6a1181017cd3 s390,alpha: make TMPFS_INODE64 available again
-d50aa69d36be43fa8927fd8ef305c4af88b6b450 s390: update defconfigs
-78c7cccaab9d5f9ead44579d79dd7d13a05aec7e s390: remove IBM_PARTITION and CONFIGFS_FS from zfcpdump defconfig
-a74e6a014c9d4d4161061f770c9b4f98372ac778 Merge tag 's390-5.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-de50ef4f3d687387a87b43a5be38ef98fe2ca389 Merge branch 'linus'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615452846 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1615452844-f408a83589c78017f9a20a84c0da8999e3060f10
 
---===============6482496759700859264==--
+46613c9dfa964c0c60b5385dbdf5aaa18be52a9c a949b9eab039eb668ff2a15fdec04dfae8ec82ec refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBJ2q4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+anMP/Akk8lVc4u4wl0wzLsS1
+f16z+TYyfdN/jU0wsuDZQPieJ5OXiVO7y6jK3+xoB6mMMau0aUft+Jm5uXDgDn2p
+5gImIE0Bqn9WIVWosCEapr7GCW1mhZylS/0ZIfzQCbWxf68daUgBt8KDm4jjzgwc
+aOmnbLY+QE8Q27szkmhBoH5YnGL1fF+bF2EPowxquOf8Fx0CrewNpRWrB9zBAHGx
+2zRlUut1Wxw6nvg2loYiu/DOpE5sj1aZyPM+c20zRCoGowdma4pitoL9ESdz1/rH
+aDSVamQ+C3B/chx1PPKrm2Rj2TJ8VXhSRcSHHVxmqMKXy1Xqcz3Sdehcz7nxvNjS
+9bf1X6UZqvXr4rCUOr5OvfMwLqwHzGgzSuESkbwU5qSTPaCNscIP1ORIXK4GzRl9
+omy4FWTQE3a2/lCy4SpKpbREqBzud4ocXzuz9uJECpV1GeEmQqCKGx4iTzqrGlEB
+xzHGuYClfLY5sYeTSv1wqddIyOILSMzqzgAm8MtzE7U7nwuyL0hxmoIA2Lt9TJ4o
+VzsVdAJ+Ykkf1+iW9kQBqnmImDzpsAjaqQ0eSK1R4VnV4lH/Xl7iLpWGWuCA2sVS
+ACs1eGPWChgaK1TfursdloHyy251K1oi9SLJ2nDrA6PrWX38G+ycKqSYfpkr7ld9
+8iK1yai3CKLDW7cheo1jtEoG
+=zkdR
+-----END PGP SIGNATURE-----
+
+--===============0534703499338022939==--
