@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 11 Mar 2021 18:48:41 -0000
-Message-Id: <161548852136.11896.10124137398989540173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Thu, 11 Mar 2021 18:49:21 -0000
+Message-Id: <161548856152.12240.10673878983404230612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/dev
-    old: a7933665e0e3fad60118e141db9709d2cc1f42ed
-    new: 33a04d87bb7dad7d39b1e11f1aa458f90e5f4cd2
+  - ref: refs/heads/urgent
+    old: 62cd88c884628f80313441fc5de19a32b94fdafc
+    new: db9b21d7497cac1f4ff45af10f24d03f9194ebee
     log: |
-         33a04d87bb7dad7d39b1e11f1aa458f90e5f4cd2 refscale: Add acqrel, lock, and lock-irq
+         db9b21d7497cac1f4ff45af10f24d03f9194ebee efi: use 32-bit alignment for efi_guid_t literals
          
-  - ref: refs/heads/dev.2021.03.08a
-    old: 0000000000000000000000000000000000000000
-    new: a7933665e0e3fad60118e141db9709d2cc1f42ed
