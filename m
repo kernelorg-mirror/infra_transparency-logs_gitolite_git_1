@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 11 Mar 2021 20:36:18 -0000
-Message-Id: <161549497891.11827.5611130178047700176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Thu, 11 Mar 2021 20:45:34 -0000
+Message-Id: <161549553471.18382.7883054840564947738@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 34bb975126419e86bc3b95e200dc41de6c6ca69c
-    new: ee47ed08d75e8f16b3cf882061ee19c2ea19dd6c
-    log: |
-         ee47ed08d75e8f16b3cf882061ee19c2ea19dd6c net: dsa: b53: Add debug prints in b53_vlan_enable()
-         
+  - ref: refs/heads/ib-iio-scmi-5.12-rc2
+    old: 0000000000000000000000000000000000000000
+    new: f937d8c1ef246d99d2174ed88c629f6e24823918
