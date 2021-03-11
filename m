@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 11 Mar 2021 01:49:27 -0000
-Message-Id: <161542736790.31266.18043358708005571418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 11 Mar 2021 02:06:57 -0000
+Message-Id: <161542841782.9344.2726510215903919769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/1GbE
-    old: 869baf7ca589aa4c384b6171e0cba24da418b167
-    new: 75e3560bc704ed78377869fa362223a6b17916f5
+  - ref: refs/heads/dev
+    old: 7fbd8302cf0b1a49696bfb654d0c00d12180c139
+    new: a7933665e0e3fad60118e141db9709d2cc1f42ed
     log: |
-         86435d596b1a3e50a59d988dc7769d8da1c162f8 e1000e: add rtnl_lock() to e1000_reset_task
-         75e3560bc704ed78377869fa362223a6b17916f5 e1000e: Fix error handling in e1000_set_d0_lplu_state_82571
+         a7933665e0e3fad60118e141db9709d2cc1f42ed refscale: Add locking, both irqsave and otherwise
          
