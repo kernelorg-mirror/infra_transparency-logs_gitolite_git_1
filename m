@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6275789650604105105=="
+Content-Type: multipart/mixed; boundary="===============2627025713416701186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Thu, 11 Mar 2021 23:15:25 -0000
-Message-Id: <161550452592.10523.4946292482104130893@gitolite.kernel.org>
+Date: Thu, 11 Mar 2021 23:15:29 -0000
+Message-Id: <161550452938.10635.4750598718451299556@gitolite.kernel.org>
 
---===============6275789650604105105==
+--===============2627025713416701186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: e8b4e9a21af77b65ea68bd698acf4abe04afd051
-    new: 2df7062002d0263bde70b453f671bb4f8493e169
-    log: revlist-e8b4e9a21af7-2df7062002d0.txt
+  - ref: refs/heads/for-next
+    old: fcb4c469244ba9934c3594755b04aca79efc5932
+    new: b07cb939c7e2dfd373ace364d5bd0a613bdaf559
+    log: revlist-fcb4c469244b-b07cb939c7e2.txt
 
---===============6275789650604105105==
+--===============2627025713416701186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8b4e9a21af7-2df7062002d0.txt
+Content-Disposition: attachment; filename=revlist-fcb4c469244b-b07cb939c7e2.txt
 
-b357e4a694ac4b95096715df253548f7e1f2723f block: get rid of the trace rq insert wrapper
-6b09b4d33bd964f49d07d3cabfb4204d58cf9811 block: fix potential IO hang when turning off io_poll
-72d6b2459dbd539c1369149e501fdc3dc8ddef16 pwm: iqs620a: Fix overflow and optimize calculations
-28208c7b4a2c38ea91b6ee04f6023d3145257f5d pwm: iqs620a: Correct a stale state variable
-9a9dd7e473517b68412fd2da3da8a4aeb4ecb38a pwm: lpc18xx-sct: remove unneeded semicolon
-4ceddce55eb35d15b0f87f5dcf6f0058fd15d3a4 loop: fix I/O error on fsync() in detached loop devices
 d70cef0d46729808dc53f145372c02b145c92604 btrfs: fix raid6 qstripe kmap
 be6a13613fd35602ea9e65d6634cf7af79f0a93d btrfs: make btrfs_submit_compressed_read() subpage compatible
 04d4ba4c90759844fb4ffa735214c1c41508d2f7 btrfs: make check_compressed_csum() to be subpage compatible
@@ -1037,7 +1031,11 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
+7029e783027706b427bbfbdf8558252c1dac6fa0 remoteproc: qcom: pil_info: avoid 64-bit division
+5f140174988edc739530ed9f2220e458a488b10a MAINTAINERS: Add co-maintainer for remoteproc/RPMSG subsystems
+e6d9423d31b2f9bdd0220fd0584e3bb6ed2c4e52 remoteproc: pru: Fix loading of GNU Binutils ELF
 145e1da374bcba14c9ca069646f68b76c422612a remoteproc: sysfs: Use sysfs_emit instead of sprintf
+d9a69846241cc8ff888ee3304b2399e9a98a40cf rpmsg: qcom_glink_native: fix error return code of qcom_glink_rx_data()
 780a980e2b047768130ddb68d39fbde84b049630 remoteproc: pru: Replace DEFINE_SIMPLE_ATTRIBUTE with DEFINE_DEBUGFS_ATTRIBUTE
 2bf2346159bc99cf0679e25be20f4daca60f3f5c remoteproc: core: Remove casting to rproc_handle_resource_t
 9e4c31799cbdcf271b81e1ed169cd2c131c4e079 dt-bindings: remoteproc: convert imx rproc bindings to json-schema
@@ -1050,5 +1048,7 @@ b29b4249f8f0cad1a1787cbe59e638ff23d489ed remoteproc: imx_rproc: add i.MX specifi
 4ab8f9607aad6323826c9b945dee52e565975fcc remoteproc: imx_rproc: support i.MX8MQ/M
 8f2d8961640f0346cbe892273c3260a0d30c1931 remoteproc: imx_rproc: ignore mapping vdev regions
 2df7062002d0263bde70b453f671bb4f8493e169 remoteproc: imx_proc: enable virtio/mailbox
+0690f2745dfd583882ce1c7b271df5455a4a199b Merge branche 'rpmsg-fixes' and 'rproc-fixes' into for-next
+b07cb939c7e2dfd373ace364d5bd0a613bdaf559 Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
 
---===============6275789650604105105==--
+--===============2627025713416701186==--
