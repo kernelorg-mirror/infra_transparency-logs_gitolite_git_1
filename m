@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8727410811517206916=="
+Content-Type: multipart/mixed; boundary="===============6275789650604105105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Thu, 11 Mar 2021 23:15:22 -0000
-Message-Id: <161550452231.10438.3073400555648673607@gitolite.kernel.org>
+Date: Thu, 11 Mar 2021 23:15:25 -0000
+Message-Id: <161550452592.10523.4946292482104130893@gitolite.kernel.org>
 
---===============8727410811517206916==
+--===============6275789650604105105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/heads/rpmsg-next
-    old: 3e35772bc1e42287c8f4c70055deb5e3f5a3e8b5
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-3e35772bc1e4-a38fd8748464.txt
+  - ref: refs/heads/rproc-next
+    old: e8b4e9a21af77b65ea68bd698acf4abe04afd051
+    new: 2df7062002d0263bde70b453f671bb4f8493e169
+    log: revlist-e8b4e9a21af7-2df7062002d0.txt
 
---===============8727410811517206916==
+--===============6275789650604105105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e35772bc1e4-a38fd8748464.txt
+Content-Disposition: attachment; filename=revlist-e8b4e9a21af7-2df7062002d0.txt
 
-67f1120381df022a7016f4acc8d4880da9a66c03 drm/i915/gvt: Introduce per object locking in GVT scheduler.
-8acb54abc1db4e1e3913359e4108e04e88ce4d92 Merge tag 'timers-v5.11-rc5' of https://git.linaro.org/people/daniel.lezcano/linux into timers/urgent
-2596b6ae412be3d29632efc63976a2132032e620 kexec: move machine_kexec_post_load() to public interface
-2a8c3a6410f042e89e36df20b465845852aa3d9f Merge branch 'for-5.12-no_hash_pointers' into for-linus
-16182ac1f02c8a5fc9753f9b8b5f3ef8c01707d8 Merge branch 'printk-rework' into for-linus
-fd749fe4bcb00ad80d9eece709f804bb4ac6bf1e ARM: 9065/1: OABI compat: fix build when EPOLL is not enabled
-90e53c5e09251edb2cee367f6cb472e4bac121f2 Merge branch 'devel-stable' into for-linus
-8e5c66c485a8af3f39a8b0358e9e09f002016d92 io_uring: clear request count when freeing caches
-9fb407179c6fd910005040bebb040094ef959b6c block: Remove unused blk_pm_*() function definitions
-179d1600723670dc0d6ae8ce572e0e2c44b64763 block: remove superfluous param in blk_fill_rwbs()
-1f83bb4b491472310ae7aeca505ed3725149906c blktrace: add blk_fill_rwbs documentation comment
-c7ff651960a6ef11cef55479658aff504c34872f blktrace: fix blk_rq_issue documentation
-b0719245098c27b36a9b52969af0300ae6219591 blktrace: fix blk_rq_merge documentation
 b357e4a694ac4b95096715df253548f7e1f2723f block: get rid of the trace rq insert wrapper
 6b09b4d33bd964f49d07d3cabfb4204d58cf9811 block: fix potential IO hang when turning off io_poll
 72d6b2459dbd539c1369149e501fdc3dc8ddef16 pwm: iqs620a: Fix overflow and optimize calculations
@@ -1050,5 +1037,18 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
+145e1da374bcba14c9ca069646f68b76c422612a remoteproc: sysfs: Use sysfs_emit instead of sprintf
+780a980e2b047768130ddb68d39fbde84b049630 remoteproc: pru: Replace DEFINE_SIMPLE_ATTRIBUTE with DEFINE_DEBUGFS_ATTRIBUTE
+2bf2346159bc99cf0679e25be20f4daca60f3f5c remoteproc: core: Remove casting to rproc_handle_resource_t
+9e4c31799cbdcf271b81e1ed169cd2c131c4e079 dt-bindings: remoteproc: convert imx rproc bindings to json-schema
+bc403b4dfcbcefe489c94df9e568b8f57c2aaae7 dt-bindings: remoteproc: imx_rproc: add i.MX8MQ/M support
+2cfc056ef2c28b4961bff5e2f6deed94afb14024 remoteproc: introduce is_iomem to rproc_mem_entry
+40df0a91b2a5228ded8e5f75b80d28c96c6831cd remoteproc: add is_iomem to da_to_va
+1896b3d82c555eaec6f6bde0c8d12377060bb22d remoteproc: imx_rproc: correct err message
+ecadcc47492cc73a9bb92fbf16098192df514b87 remoteproc: imx_rproc: use devm_ioremap
+b29b4249f8f0cad1a1787cbe59e638ff23d489ed remoteproc: imx_rproc: add i.MX specific parse fw hook
+4ab8f9607aad6323826c9b945dee52e565975fcc remoteproc: imx_rproc: support i.MX8MQ/M
+8f2d8961640f0346cbe892273c3260a0d30c1931 remoteproc: imx_rproc: ignore mapping vdev regions
+2df7062002d0263bde70b453f671bb4f8493e169 remoteproc: imx_proc: enable virtio/mailbox
 
---===============8727410811517206916==--
+--===============6275789650604105105==--
