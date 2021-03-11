@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1202623075441847965=="
+Content-Type: multipart/mixed; boundary="===============8535579709441912981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Thu, 11 Mar 2021 23:15:15 -0000
-Message-Id: <161550451584.10272.7819992635092871671@gitolite.kernel.org>
+Date: Thu, 11 Mar 2021 23:15:19 -0000
+Message-Id: <161550451906.10372.18103843390043124499@gitolite.kernel.org>
 
---===============1202623075441847965==
+--===============8535579709441912981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/heads/rproc-fixes
-    old: 4399e18a9998f7b66e56b846571081b98d667d97
-    new: e6d9423d31b2f9bdd0220fd0584e3bb6ed2c4e52
-    log: revlist-4399e18a9998-e6d9423d31b2.txt
+  - ref: refs/heads/hwspinlock-next
+    old: b9ddb2500e7e544410f38476ab928fc2fe01e381
+    new: a38fd8748464831584a19438cbb3082b5a2dab15
+    log: revlist-b9ddb2500e7e-a38fd8748464.txt
 
---===============1202623075441847965==
+--===============8535579709441912981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4399e18a9998-e6d9423d31b2.txt
+Content-Disposition: attachment; filename=revlist-b9ddb2500e7e-a38fd8748464.txt
 
+67f1120381df022a7016f4acc8d4880da9a66c03 drm/i915/gvt: Introduce per object locking in GVT scheduler.
+8acb54abc1db4e1e3913359e4108e04e88ce4d92 Merge tag 'timers-v5.11-rc5' of https://git.linaro.org/people/daniel.lezcano/linux into timers/urgent
+2596b6ae412be3d29632efc63976a2132032e620 kexec: move machine_kexec_post_load() to public interface
 2a8c3a6410f042e89e36df20b465845852aa3d9f Merge branch 'for-5.12-no_hash_pointers' into for-linus
 16182ac1f02c8a5fc9753f9b8b5f3ef8c01707d8 Merge branch 'printk-rework' into for-linus
 fd749fe4bcb00ad80d9eece709f804bb4ac6bf1e ARM: 9065/1: OABI compat: fix build when EPOLL is not enabled
@@ -1047,8 +1050,5 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-7029e783027706b427bbfbdf8558252c1dac6fa0 remoteproc: qcom: pil_info: avoid 64-bit division
-5f140174988edc739530ed9f2220e458a488b10a MAINTAINERS: Add co-maintainer for remoteproc/RPMSG subsystems
-e6d9423d31b2f9bdd0220fd0584e3bb6ed2c4e52 remoteproc: pru: Fix loading of GNU Binutils ELF
 
---===============1202623075441847965==--
+--===============8535579709441912981==--
