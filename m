@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 11 Mar 2021 09:52:22 -0000
-Message-Id: <161545634242.8905.14267797327954627883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 11 Mar 2021 09:53:01 -0000
+Message-Id: <161545638193.9211.14846929928384821545@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: b4f60062090bbfdad539cbb050832db510351f39
-    new: 70a7b61a846714842222209af12d63850b908220
+  - ref: refs/heads/kvm-arm64/ipa-fixes
+    old: 9523592a3d712c38d05f9bee00b0099fa1df1283
+    new: 9f35af892b0ba658385992526a741de724010485
     log: |
-         2b1322f478d0149d3d570025dbec7cdf897b99a1 docs: update TODO
-         c173ba11ec3b3c537a5e853298dff17e04c3df80 libsmartcols: add comments to private header file
-         6b6dbcbae6d1fb2ba195236c22722c701e026546 docs: update TODO
-         e0ecd196414c03699cd8e8dd2c6f4fe533999837 mountpoint: different exit status for errors and non-mountpoint situation
-         70a7b61a846714842222209af12d63850b908220 tests: update mountpoint tests
+         c819f8c9623bc5d48df99655ee148c338b9c4dcd KVM: arm64: Reject VM creation when the default IPA size is unsupported
+         9f35af892b0ba658385992526a741de724010485 KVM: arm64: Fix exclusive limit for IPA size
          
