@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3390251713230964871=="
+Content-Type: multipart/mixed; boundary="===============5195717365645906350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 11 Mar 2021 23:50:33 -0000
-Message-Id: <161550663336.31582.1626925062352293695@gitolite.kernel.org>
+Date: Thu, 11 Mar 2021 23:50:53 -0000
+Message-Id: <161550665337.31741.2426281768176464427@gitolite.kernel.org>
 
---===============3390251713230964871==
+--===============5195717365645906350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
-    log: revlist-fe07bfda2fb9-a38fd8748464.txt
+  - ref: refs/heads/hwmon-next
+    old: f61b7c730d9ad1837fbe763621646eba19c23ece
+    new: 08145f58b2bb5180bac76211ae8e88dc477b271f
+    log: revlist-f61b7c730d9a-08145f58b2bb.txt
 
---===============3390251713230964871==
+--===============5195717365645906350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-a38fd8748464.txt
+Content-Disposition: attachment; filename=revlist-f61b7c730d9a-08145f58b2bb.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,5 +219,15 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
+c7e64f0c5d6c5c5e80b30e2148330017b0c424a9 hwmon: (adm9240) Drop log messages from detect function
+9411f8e24ba6549232dc05559c13df29b728eeaf hwmon: (adm9240) Store i2c device instead of client in local data
+a2a946b41b4719e6b435fc1a5565f3753b873c27 hwmon: (adm9240) Convert to devm_hwmon_device_register_with_info API
+306c2a8ed07c658ccd985b3b31b168b3a5bba7e3 hwmon: Switch to using the new API kobj_to_dev()
+307acabf6443362b1acbd46ba3ca7046ce99ff0b hwmon: (corsair-psu) Update calculation of LINEAR11 values
+3238080ac33a4670eb8064bafe6abdabf91b4d5d dt-bindings: trivial-devices: Add infineon,ir36021
+43335e16c763737767a134940184608343be620a hwmon: (pmbus) Add driver for Infineon IR36021
+ab12771c9957f741fe5d3467d610d1c26838aba6 hwmon: (nct6683) Support NCT6686D
+b7493a101c82ac84d7b6498a95b01697783232dc hwmon: (pmbus) Add pmbus_set_update() function to set update flag
+08145f58b2bb5180bac76211ae8e88dc477b271f hwmon: (pmbus/stpddc60) Add ST STPDDC60 pmbus driver
 
---===============3390251713230964871==--
+--===============5195717365645906350==--
