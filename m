@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4680536552778322669=="
+Content-Type: multipart/mixed; boundary="===============1860069159939097385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 12 Mar 2021 08:17:48 -0000
-Message-Id: <161553706852.17403.14691146464846841445@gitolite.kernel.org>
+Date: Fri, 12 Mar 2021 08:17:58 -0000
+Message-Id: <161553707852.17540.18242024007666885553@gitolite.kernel.org>
 
---===============4680536552778322669==
+--===============1860069159939097385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/urgent
-    old: 1d489151e9f9d1647110277ff77282fe4d96d09b
-    new: ba08abca66d46381df60842f64f70099d5482b92
-    log: revlist-1d489151e9f9-ba08abca66d4.txt
+  - ref: refs/heads/perf/core
+    old: 8bcfdd7cad3dffdd340f9a79098cbf331eb2cd53
+    new: 40224f8f2486017ebf2d9675efee9103a0c51587
+    log: revlist-8bcfdd7cad3d-40224f8f2486.txt
 
---===============4680536552778322669==
+--===============1860069159939097385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d489151e9f9-ba08abca66d4.txt
+Content-Disposition: attachment; filename=revlist-8bcfdd7cad3d-40224f8f2486.txt
 
-8acb54abc1db4e1e3913359e4108e04e88ce4d92 Merge tag 'timers-v5.11-rc5' of https://git.linaro.org/people/daniel.lezcano/linux into timers/urgent
 2596b6ae412be3d29632efc63976a2132032e620 kexec: move machine_kexec_post_load() to public interface
 2a8c3a6410f042e89e36df20b465845852aa3d9f Merge branch 'for-5.12-no_hash_pointers' into for-linus
 16182ac1f02c8a5fc9753f9b8b5f3ef8c01707d8 Merge branch 'printk-rework' into for-linus
@@ -1049,6 +1048,7 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-ba08abca66d46381df60842f64f70099d5482b92 objtool,x86: Fix uaccess PUSHF/POPF validation
+513208856fe19a1a097bdf9bf1c0c630970d34f9 perf core: Add a kmem_cache for struct perf_event
+40224f8f2486017ebf2d9675efee9103a0c51587 perf core: Allocate perf_event in the target node memory
 
---===============4680536552778322669==--
+--===============1860069159939097385==--
