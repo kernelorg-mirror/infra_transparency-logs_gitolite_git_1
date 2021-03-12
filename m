@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8713251878027309168=="
+Content-Type: multipart/mixed; boundary="===============5926483844407640293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 12 Mar 2021 20:23:49 -0000
-Message-Id: <161558062952.23748.6412371594997719877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 12 Mar 2021 20:23:56 -0000
+Message-Id: <161558063683.23893.15010223631720442528@gitolite.kernel.org>
 
---===============8713251878027309168==
+--===============5926483844407640293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/spi-5.12
     old: ffb597b2bd3cd78b9bfb68f536743cd46dbb2cc4
     new: 8d559a64f00b59af9cc02b803ff52f6e6880a651
     log: |
          8d559a64f00b59af9cc02b803ff52f6e6880a651 spi: stm32: drop devres version of spi_register_master
          
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/spi-5.13
     old: 31890269c0a031e704f995bbd39e1fd77a381207
     new: d11233e0dee693fa28cd5023a0e4a212f4c80ed4
     log: revlist-31890269c0a0-d11233e0dee6.txt
 
---===============8713251878027309168==
+--===============5926483844407640293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1615580556 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1615580626-16edc64270d8a2dc7c38f39fd43f5955dddba7f1
+pusher C3F436CA30F5D8EB 1615580563 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1615580634-7f32cbafb774a6964ea9e77676b1af9acac31253
 
-ffb597b2bd3cd78b9bfb68f536743cd46dbb2cc4 8d559a64f00b59af9cc02b803ff52f6e6880a651 refs/heads/for-5.12
-31890269c0a031e704f995bbd39e1fd77a381207 d11233e0dee693fa28cd5023a0e4a212f4c80ed4 refs/heads/for-5.13
+ffb597b2bd3cd78b9bfb68f536743cd46dbb2cc4 8d559a64f00b59af9cc02b803ff52f6e6880a651 refs/heads/spi-5.12
+31890269c0a031e704f995bbd39e1fd77a381207 d11233e0dee693fa28cd5023a0e4a212f4c80ed4 refs/heads/spi-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBLzYwACgkQJNaLcl1U
-h9Bvfwf+IvYr4eJ1WQGJyX869AwxDBOCE75GmAxn6fUwjTZtfUszyaA8iLp1JV08
-41mw8rbxnY4BrNRh0Vvu/Xm9TiBaf0ALMebALt4ZQKJoLwXhSeE3/jG3CNZLx3QN
-DGJMhyE9MPSpNqcJfr53Yw/tz7zYNKM++Q9VFnozYXua82VXhR2okUlYEdpYUfGU
-WJITvJv6XTJYP1GKgao/ukhW3iMvIOYxhIcdtasYoXzmOiPFMg/J9K1OD0nEMDEh
-CapqaNFoi2v+UeaYYNceBsiIOhALJBIZ+BG68Tl4kOj97x7LOyQQAdk5eBquXlE4
-5BZpJFC5coul4Ihs1Te/gi3k/Pk3sg==
-=tpa1
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBLzZMACgkQJNaLcl1U
+h9Bpewf+J8NselJvovg/1CvBBFv+zxoXFYZ1NKg8PYduGXnQ+R7RSmbSZOwybl1q
+ixQJyyQRVAx4/b2q7hXpm7EXXe5nO+y+RB9wF9qygOXcDOpqSakwW3XyIvgpEhui
+TyBPLFXz8bhoCLCX5pD7inrMXSv1ncT6Lx4YPGT3rwjaH2sulDxo+ZS/453jy6TN
+BuNGNgnDfB6l6G4pD+5CeiFjacXW4NPX8ZwviIJM6nfHyJfZGx7SMYtQxZj7LQ89
+ht4/CxVOO+PKON0o4jdygML5qGK5ZpAa98xk1ODYNaGioZ1vX8kMH3GdN6P0N18U
+GrZ6HnzMXJdDJQuLXnnSOltmsF3fNg==
+=H4sy
 -----END PGP SIGNATURE-----
 
---===============8713251878027309168==
+--===============5926483844407640293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ a886010c69718988756fd7873522caa0f26af398 spi: spi-falcon: remove check for 'dela
 12ef51b116693bd77395a19ba135df68ee1673f0 spi: stm32: avoid ifdef CONFIG_PM for pm callbacks
 d11233e0dee693fa28cd5023a0e4a212f4c80ed4 Merge series "spi: finalize 'delay_usecs' removal/transition" from Alexandru Ardelean <aardelean@deviqon.com>:
 
---===============8713251878027309168==--
+--===============5926483844407640293==--
