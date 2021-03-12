@@ -1,82 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/bridge/bridge-utils
-Date: Fri, 12 Mar 2021 22:30:19 -0000
-Message-Id: <161558821943.5165.8188853786806666436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Fri, 12 Mar 2021 22:31:22 -0000
+Message-Id: <161558828263.5543.19122952454196210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/bridge/bridge-utils
-user: shemminger
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/tags/ChangeLog
-    old: 0000000000000000000000000000000000000000
-    new: e601dc1094107999de050b7104bf01ce865fe60f
-  - ref: refs/tags/begin
-    old: 0000000000000000000000000000000000000000
-    new: 2a80f890ecf53f7b087f0cf6d5da4f09dac5e8e7
-  - ref: refs/tags/v0.9.3
-    old: 0000000000000000000000000000000000000000
-    new: 5dc5fb7b3250a491ac88d83bae5b2f2b3d6eed49
-  - ref: refs/tags/v0.9.7
-    old: 0000000000000000000000000000000000000000
-    new: 2facdcaf9f933a9b02d0e5ad8a0ccba37f394dd5
-  - ref: refs/tags/v0.9.8
-    old: 0000000000000000000000000000000000000000
-    new: d9994cb5766639db1ec636b97d35fe73df1c848b
-  - ref: refs/tags/v1.0
-    old: 0000000000000000000000000000000000000000
-    new: d3f3e4763587a46d7eb6f5053b91e5e2700e766a
-  - ref: refs/tags/v1.0.1
-    old: 0000000000000000000000000000000000000000
-    new: f83d5b42ce4660315d6270c0524a96b5aaf20a28
-  - ref: refs/tags/v1.0.2
-    old: 0000000000000000000000000000000000000000
-    new: 28849e1adaa3b443da10c2680c0efc595c07e806
-  - ref: refs/tags/v1.0.3
-    old: 0000000000000000000000000000000000000000
-    new: ed5ed6795315fa4b2dccfe838617924831091a87
-  - ref: refs/tags/v1.0.4
-    old: 0000000000000000000000000000000000000000
-    new: 299ad70f2249ba65560f612f68c75994189aecbe
-  - ref: refs/tags/v1.0.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 55db8d2af152acd3447e58b4d77c478493bc7131
-  - ref: refs/tags/v1.0.4-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 5cefc0c0144a59adb939b9647210bc270e350b08
-  - ref: refs/tags/v1.0.4-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 146a2440630e72bb4b5b2f6392a99136e3a4da56
-  - ref: refs/tags/v1.0.5
-    old: 0000000000000000000000000000000000000000
-    new: 71d0e515f745256272bf75960c1fe3d5d53087d6
-  - ref: refs/tags/v1.0.6
-    old: 0000000000000000000000000000000000000000
-    new: 6370170e81d4b47e8ed7ce32be0dc8af519407f8
-  - ref: refs/tags/v1.1
-    old: 0000000000000000000000000000000000000000
-    new: b5956bc943acfd2fba72040c512b29da67681731
-  - ref: refs/tags/v1.2
-    old: 0000000000000000000000000000000000000000
-    new: 29cd6d997cacb9191d1f869ec83fc86045885527
-  - ref: refs/tags/v1.3
-    old: 0000000000000000000000000000000000000000
-    new: 6907ae6731516f3fcc508ba8d6dc187604383eb5
-  - ref: refs/tags/v1.4
-    old: 0000000000000000000000000000000000000000
-    new: 0c20fa4ec6ba2933ac07008e1f288574a6941e79
-  - ref: refs/tags/v1.5
-    old: 0000000000000000000000000000000000000000
-    new: fd647340f15f868573a119bb38cbe8caa7c59a2c
-  - ref: refs/tags/v1.6
-    old: 0000000000000000000000000000000000000000
-    new: b9841b03ed7403fc992e6216a5b08c74362b13e5
-  - ref: refs/tags/v1.7
-    old: 0000000000000000000000000000000000000000
-    new: ab8a2cc330253321be7bc69dea88bfaa3d48415e
-  - ref: refs/tags/v1.7.1
-    old: 0000000000000000000000000000000000000000
-    new: 75d949b9fae9718201422f0bd3d1103e67dd597c
+  - ref: refs/heads/queue-5.10
+    old: 63d2eb31238f3d25ec31314b900292dcb2288cdb
+    new: b1670b113b0c23315d3fc95af7f119378084459d
+    log: |
+         0f24b33cc67c55b0f1bc65b8c35475ac6c4e7eb6 ath11k: peer delete synchronization with firmware
+         fa7bf57f7938aea2770df6d7b069b36da3cce238 ath11k: start vdev if a bss peer is already created
+         b1670b113b0c23315d3fc95af7f119378084459d ath11k: fix AP mode for QCA6390
+         
+  - ref: refs/heads/queue-5.11
+    old: 3303449b997b8cbace4b95958a3be4078e3fdcd8
+    new: d04fcd890780596c9ccc4949140052e6f27c5cf2
+    log: |
+         7a0642a351326d1f0a2d9fd3b1a861dfb9e6aa81 mptcp: always graft subflow socket to parent
+         d04fcd890780596c9ccc4949140052e6f27c5cf2 mptcp: reset last_snd on subflow close
+         
