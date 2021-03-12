@@ -1,43 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============5439131492224743434=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 12 Mar 2021 22:24:49 -0000
-Message-Id: <161558788972.702.5557147257411746424@gitolite.kernel.org>
-
---===============5439131492224743434==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/network/bridge/bridge-utils
+Date: Fri, 12 Mar 2021 22:30:19 -0000
+Message-Id: <161558821943.5165.8188853786806666436@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/network/bridge/bridge-utils
+user: shemminger
 changes:
-  - ref: refs/heads/master
-    old: 9afc1163794707a304f107bf21b8b37e5c6c34f4
-    new: f296bfd5cd04cbb49b8fc9585adc280ab2b58624
-    log: revlist-9afc11637947-f296bfd5cd04.txt
-
---===============5439131492224743434==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9afc11637947-f296bfd5cd04.txt
-
-a0590473c5e6c4ef17c3132ad08fbad170f72d55 nfs: fix PNFS_FLEXFILE_LAYOUT Kconfig default
-ad3dbe35c833c2d4d0bbf3f04c785d32f931e7c9 NFS: Correct size calculation for create reply length
-f0940f4b3284a00f38a5d42e6067c2aaa20e1f2e SUNRPC: Set memalloc_nofs_save() for sync tasks
-82e7ca1334ab16e2e04fafded1cab9dfcdc11b40 NFS: Don't revalidate the directory permissions on a lookup failure
-47397915ede0192235474b145ebcd81b37b03624 NFS: Don't gratuitously clear the inode cache when lookup failed
-fd6d3feed041e96b84680d0bfc1e7abc8f65de92 NFS: Clean up function nfs_mark_dir_for_revalidate()
-ac46b3d768e4c2754f7b191b81e1bea582e11907 NFS: Fix open coded versions of nfs_set_cache_invalid()
-b6f80a2ebb97f184c4679518ac83074598bf9bf4 NFS: Fix open coded versions of nfs_set_cache_invalid() in NFSv4
-53cb245454df5b13d7063162afd7a785aed6ebf2 NFSv4.2: fix return value of _nfs4_get_security_label()
-4f8be1f53bf615102d103c0509ffa9596f65b718 nfs: we don't support removing system.nfs4_acl
-3b0c2d3eaa83da259d7726192cf55a137769012f Revert 95ebabde382c ("capabilities: Don't allow writing ambiguous v3 file capabilities")
-b6b8aa27a3c64a958c8cc57ce3d37d3fbddfa3d6 Merge branch 'for-v5.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-f296bfd5cd04cbb49b8fc9585adc280ab2b58624 Merge tag 'nfs-for-5.12-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
-
---===============5439131492224743434==--
+  - ref: refs/tags/ChangeLog
+    old: 0000000000000000000000000000000000000000
+    new: e601dc1094107999de050b7104bf01ce865fe60f
+  - ref: refs/tags/begin
+    old: 0000000000000000000000000000000000000000
+    new: 2a80f890ecf53f7b087f0cf6d5da4f09dac5e8e7
+  - ref: refs/tags/v0.9.3
+    old: 0000000000000000000000000000000000000000
+    new: 5dc5fb7b3250a491ac88d83bae5b2f2b3d6eed49
+  - ref: refs/tags/v0.9.7
+    old: 0000000000000000000000000000000000000000
+    new: 2facdcaf9f933a9b02d0e5ad8a0ccba37f394dd5
+  - ref: refs/tags/v0.9.8
+    old: 0000000000000000000000000000000000000000
+    new: d9994cb5766639db1ec636b97d35fe73df1c848b
+  - ref: refs/tags/v1.0
+    old: 0000000000000000000000000000000000000000
+    new: d3f3e4763587a46d7eb6f5053b91e5e2700e766a
+  - ref: refs/tags/v1.0.1
+    old: 0000000000000000000000000000000000000000
+    new: f83d5b42ce4660315d6270c0524a96b5aaf20a28
+  - ref: refs/tags/v1.0.2
+    old: 0000000000000000000000000000000000000000
+    new: 28849e1adaa3b443da10c2680c0efc595c07e806
+  - ref: refs/tags/v1.0.3
+    old: 0000000000000000000000000000000000000000
+    new: ed5ed6795315fa4b2dccfe838617924831091a87
+  - ref: refs/tags/v1.0.4
+    old: 0000000000000000000000000000000000000000
+    new: 299ad70f2249ba65560f612f68c75994189aecbe
+  - ref: refs/tags/v1.0.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 55db8d2af152acd3447e58b4d77c478493bc7131
+  - ref: refs/tags/v1.0.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 5cefc0c0144a59adb939b9647210bc270e350b08
+  - ref: refs/tags/v1.0.4-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 146a2440630e72bb4b5b2f6392a99136e3a4da56
+  - ref: refs/tags/v1.0.5
+    old: 0000000000000000000000000000000000000000
+    new: 71d0e515f745256272bf75960c1fe3d5d53087d6
+  - ref: refs/tags/v1.0.6
+    old: 0000000000000000000000000000000000000000
+    new: 6370170e81d4b47e8ed7ce32be0dc8af519407f8
+  - ref: refs/tags/v1.1
+    old: 0000000000000000000000000000000000000000
+    new: b5956bc943acfd2fba72040c512b29da67681731
+  - ref: refs/tags/v1.2
+    old: 0000000000000000000000000000000000000000
+    new: 29cd6d997cacb9191d1f869ec83fc86045885527
+  - ref: refs/tags/v1.3
+    old: 0000000000000000000000000000000000000000
+    new: 6907ae6731516f3fcc508ba8d6dc187604383eb5
+  - ref: refs/tags/v1.4
+    old: 0000000000000000000000000000000000000000
+    new: 0c20fa4ec6ba2933ac07008e1f288574a6941e79
+  - ref: refs/tags/v1.5
+    old: 0000000000000000000000000000000000000000
+    new: fd647340f15f868573a119bb38cbe8caa7c59a2c
+  - ref: refs/tags/v1.6
+    old: 0000000000000000000000000000000000000000
+    new: b9841b03ed7403fc992e6216a5b08c74362b13e5
+  - ref: refs/tags/v1.7
+    old: 0000000000000000000000000000000000000000
+    new: ab8a2cc330253321be7bc69dea88bfaa3d48415e
+  - ref: refs/tags/v1.7.1
+    old: 0000000000000000000000000000000000000000
+    new: 75d949b9fae9718201422f0bd3d1103e67dd597c
