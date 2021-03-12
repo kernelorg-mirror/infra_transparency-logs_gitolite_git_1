@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Fri, 12 Mar 2021 08:46:35 -0000
-Message-Id: <161553879500.4615.660456070194809379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Fri, 12 Mar 2021 09:04:50 -0000
+Message-Id: <161553989098.30184.16687949487730145293@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/renesas-clk
-    old: c66424ea75640a205c34d0ba6986307179516fd4
-    new: 0eedab655ec1817d450085dcb12219726cb415ff
+  - ref: refs/heads/testing
+    old: 34bb975126419e86bc3b95e200dc41de6c6ca69c
+    new: f076835a8bf2aa6ea48f718e4506587c815ab99f
     log: |
-         95acd758fe4bcbbf6e43a7229e2518facb87212f clk: renesas: r8a7795: Add TMU clocks
-         0eedab655ec1817d450085dcb12219726cb415ff clk: renesas: r8a779a0: Add CMT clocks
-         
-  - ref: refs/heads/renesas-clk-for-v5.13
-    old: c66424ea75640a205c34d0ba6986307179516fd4
-    new: 0eedab655ec1817d450085dcb12219726cb415ff
-    log: |
-         95acd758fe4bcbbf6e43a7229e2518facb87212f clk: renesas: r8a7795: Add TMU clocks
-         0eedab655ec1817d450085dcb12219726cb415ff clk: renesas: r8a779a0: Add CMT clocks
+         1d9bfacd52ece918b7861e205202912231ca6166 esp4: Simplify the calculation of variables
+         f076835a8bf2aa6ea48f718e4506587c815ab99f esp6: remove a duplicative condition
          
