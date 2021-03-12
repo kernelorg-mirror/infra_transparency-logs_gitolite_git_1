@@ -1,45 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7402618826946291102=="
+Content-Type: multipart/mixed; boundary="===============4356772324968822165=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 12 Mar 2021 12:09:04 -0000
-Message-Id: <161555094469.2712.16973066332127251717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 12 Mar 2021 12:15:38 -0000
+Message-Id: <161555133865.8711.5615678237914936739@gitolite.kernel.org>
 
---===============7402618826946291102==
+--===============4356772324968822165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/auto-latest
-    old: 50eee036f9b2904e2ae954178fad74425d30fcee
-    new: 3dab85132681e8bded7f91e552cd73e69772674a
-    log: revlist-50eee036f9b2-3dab85132681.txt
+  - ref: refs/heads/master
+    old: b0a6d220195201e500f9ff0ffa87751152eea6c0
+    new: 03df22c0ba01bc95a5977ab3d1411e531dbf4ee0
+    log: |
+         0ce079bd9401a5612b56d67f4c2e9ab00e1760b6 scripts/mbox2send: handle the 5.x queue properly for the X-KernelTest-* fields
+         6396d71a8a9f0b755019cffac3da7f3280507bb9 scripts/quilt-mail: use the in-tree version of mbox2send
+         03df22c0ba01bc95a5977ab3d1411e531dbf4ee0 4.14-stable patches
+         
 
---===============7402618826946291102==
+--===============4356772324968822165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50eee036f9b2-3dab85132681.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-5e21a3ecad1500e35b46701e7f3f232e15d78e69 x86/alternative: Merge include files
-b046664872dd78a8bebe3d5f3bb9da9baa93f5ca static_call: Move struct static_call_key definition to static_call_types.h
-6ea312d95e0226b306bb4b8ee3a0727d880378cb static_call: Add function to query current function
-a0e2bf7cb7006b5a58ee81f4da4fe575875f2781 x86/paravirt: Switch time pvops functions to use static_call()
-dda7bb76484978316bb412a353789ebc5901de36 x86/alternative: Support not-feature
-e208b3c4a9748b2c17aa09ba663b5096ccf82dce x86/alternative: Support ALTERNATIVE_TERNARY
-2fe2a2c7a97c9bc32acc79154b75e754280f7867 x86/alternative: Use ALTERNATIVE_TERNARY() in _static_cpu_has()
-4e6292114c741221479046515b1aa8145cf1e3f6 x86/paravirt: Add new features for paravirt patching
-33634e42e38be61f320183dfc264b9caba292d4e x86/paravirt: Remove no longer needed 32-bit pvops cruft
-0b8d366a942fd48a83dfa728e9f8a8d8b20e735f x86/paravirt: Simplify paravirt macros
-ae755b5a45482b5de4d96d6f35823076af77445e x86/paravirt: Switch iret pvops to ALTERNATIVE
-00aa3193ab7a04b25bb8c68e377815696eb5bf56 x86/paravirt: Add new PVOP_ALT* macros to support pvops in ALTERNATIVEs
-fafe5e74229fd3f425e3cbfc68b90e615aa6d62f x86/paravirt: Switch functions with custom code to ALTERNATIVE
-054ac8ad5ebe4a69e1f0e842483821ddbe560121 x86/paravirt: Have only one paravirt patch function
-3dab85132681e8bded7f91e552cd73e69772674a Merge branch 'tip-x86-alternatives' into tip-master
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615551337 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1615551336-f4f6ce147fc5d9733161ed4bd399a314c72026ac
 
---===============7402618826946291102==--
+b0a6d220195201e500f9ff0ffa87751152eea6c0 03df22c0ba01bc95a5977ab3d1411e531dbf4ee0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBLW2kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aWgQALSw3s8idGc0SG//Ft9Z
+lWkPVg0n/RUJngxrIGW0R8b2G2WRXbBXyk7QHI472ZOaEsTWuRVEoZE8+VQhZ34P
+tHet/K0ce7KfC6sSFDHyoKgpi1WzH35PNleVQmzHiX8piKveTROVvCPS7p1P/9iY
+iFfRfjJHnTsM9VqurqcGnAQgRZwQSC68vU+c9GwZoAphmjhyE7B6/FG/cKvpZsmh
+WWmlCXvSzdS/oOpzroEd4FpiCIHPSl5u07Gps7l2H41ptdIgVnoL1Gw/T+4dZwnj
+ccK1qPpIrfVrn6+n7i8hh3GzAgAjKuktkxZeJiI84UT2Ehc9RUvECuS/9iH4mNq3
+OE8xXPdYJDjP2Tu/95eIBiH4fFO9q//uhQwS9vCDQ3z8HUGnDY0MqLyMCCm9ms3u
+pzucRA6yJD/Wkj3yIgAqugSn3IgiQhiSjStRNesqwD889dkV9lBhw020lgfaTyEm
+HFdVdEOn7RS/rU0RpL81uNiZC6kMcEWYqE+wpbjcrX6TpnPd1HKTKJrz1mHD846l
+8FnpNcppVoolGA6nnM+Lwuw5cCWJwIUJcxPSvM2v9TvjaTPfv0wBVI2AhnTVPWxE
+3mvMDOgs2rSxyeYls7moFBZkqR/uTZn+J0nkrVDIyIco+5IvFlCENpGSXa4oRYq9
+RQUe+ZLxE5dK6bJOfmD+3mcU
+=V0f1
+-----END PGP SIGNATURE-----
+
+--===============4356772324968822165==--
