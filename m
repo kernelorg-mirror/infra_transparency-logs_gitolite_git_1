@@ -1,25 +1,77 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 12 Mar 2021 20:16:57 -0000
-Message-Id: <161558021744.20299.10092318784204510535@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1584615987939222557=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 12 Mar 2021 20:23:34 -0000
+Message-Id: <161558061458.23460.16337510121457503148@gitolite.kernel.org>
+
+--===============1584615987939222557==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/auto-latest
-    old: 3dab85132681e8bded7f91e552cd73e69772674a
-    new: 013b16d0327a637f130c6697117f5bf78cc1d3dc
+  - ref: refs/heads/for-5.12
+    old: 9922f50f7178496e709d3d064920b5031f0d9061
+    new: 8d06b9633a66f41fed520f6eebd163189518ba79
     log: |
-         013b16d0327a637f130c6697117f5bf78cc1d3dc Merge branch 'x86/alternatives'
+         8d06b9633a66f41fed520f6eebd163189518ba79 ASoC: mediatek: mt8192: fix tdm out data is valid on rising edge
          
-  - ref: refs/heads/master
-    old: 3dab85132681e8bded7f91e552cd73e69772674a
-    new: 013b16d0327a637f130c6697117f5bf78cc1d3dc
-    log: |
-         013b16d0327a637f130c6697117f5bf78cc1d3dc Merge branch 'x86/alternatives'
-         
+  - ref: refs/heads/for-5.13
+    old: 0befe3a0c6126a464caa19c335afff95fb543971
+    new: 464b489a7885d6a89b0dfa7b7f1f56e2db80700d
+    log: revlist-0befe3a0c612-464b489a7885.txt
+
+--===============1584615987939222557==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1615580541 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1615580611-ab4f1280607c2d8144842920e938665af7cf5aa2
+
+9922f50f7178496e709d3d064920b5031f0d9061 8d06b9633a66f41fed520f6eebd163189518ba79 refs/heads/for-5.12
+0befe3a0c6126a464caa19c335afff95fb543971 464b489a7885d6a89b0dfa7b7f1f56e2db80700d refs/heads/for-5.13
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBLzX0ACgkQJNaLcl1U
+h9DEtAf9FbN4T5QV0yF01AXxkb/WJh9BrIzvl4FKCTVHrWFgY1SBumHBnThF/Lrs
+CFHWL09WdSBS6m8Xqk9MWwOGg0+xG9w1tZoRUpiaCWITJkacthR+hFHXcJLcI8V3
+vBTzxxoqjEuCHtMFvarvBvPE67PeTu3lkUWTZnPhqxeRjWtXHOc4bSQ8JQlN+RzJ
+0fdYIn+NptMrv62gUeiTCGGKoWsCRtjrx8CANQcx69+NEDyj/cfb2aMGx9lsd9qG
+WjaKUS5gO/aO4bQK9qD4bQ2vkr1bW15fP3mVB3p/gjQAvZhbLfNtaoowpFw45Cko
+OR4aBo9wekbDXnhl4EWwDlXhnwB05Q==
+=KW6X
+-----END PGP SIGNATURE-----
+
+--===============1584615987939222557==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0befe3a0c612-464b489a7885.txt
+
+f8fc9ec56f341c2a7aa263049340b11c9956962f ASoC: soc-pcm: check DAI activity under soc_pcm_apply_symmetry()
+6fb8944cd2892e018d13955c2d51579a30744904 ASoC: soc-pcm: add soc_cpu/codec_dai_name() macro
+56e749ba756fdc2eff332b8eadda8fca231ad782 ASoC: soc-pcm: direct copy at snd_soc_set_runtime_hwparams()
+68cbc557375e22e921c9fd007dfcb35faeff4908 ASoC: soc-pcm: add soc_pcm_update_symmetry()
+c393281a3c1cb252735c46efbf8501a3782f9afa ASoC: soc-pcm: add soc_hw_sanity_check()
+1db19c151819dea7a0dc4d888250d25abaf229ca ASoC: soc-pcm: fixup dpcm_be_dai_startup() user count
+20048a9a4070d046a868c3be3b4f7bdc139cc203 ASoC: soc-pcm: remove unneeded !rtd->dai_link check
+531590bb40f827fb3c4398148af0797f95bbaee2 ASoC: soc-pcm: share DPCM BE DAI stop operation
+2e5e57f085a3243aae7e4af88dc2c40e5ff4d3be ASoC: mediatek: mtk-btcvsd: remove useless assignment
+57f1379e77a7432759e2f35b720c71863e2d83bc ASoC: mediatek: mt2701: align function prototype
+d9cdc1335622866c52a463325b3aaea9844cff1b ASoC: mediatek: mt2701: rename shadowed array
+14667403a5631ce2fd2935d90c6d36f7975f61f3 ASoC: mediatek: mt8173: rename local irq variable
+c00af5f32ce1940a6ff204a8b90fcf3119fbb7e6 Merge series "ASoC: soc-pcm: cleanup each functions" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
+b7c7203a1f751348f35fc4bcb157572d303f7573 ASoC: Intel: bytcr_rt5640: Enable jack-detect support on Asus T100TAF
+464b489a7885d6a89b0dfa7b7f1f56e2db80700d ASoC: rt1015p: add acpi device id for rt1015p
+
+--===============1584615987939222557==--
