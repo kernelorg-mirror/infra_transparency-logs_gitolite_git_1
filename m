@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1190456360281525116=="
+Content-Type: multipart/mixed; boundary="===============1914409023388562285=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 12 Mar 2021 14:13:48 -0000
-Message-Id: <161555842818.24051.6111308498770764425@gitolite.kernel.org>
+Date: Fri, 12 Mar 2021 14:17:19 -0000
+Message-Id: <161555863955.26533.17623931385909999088@gitolite.kernel.org>
 
---===============1190456360281525116==
+--===============1914409023388562285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,452 +16,475 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 088a256eaf1d8d113e54c73e834ffa504cdef368
-    new: fbf9680fd1635f92ca876709c396573540a9186e
-    log: revlist-088a256eaf1d-fbf9680fd163.txt
+    old: fbf9680fd1635f92ca876709c396573540a9186e
+    new: 76cdeeabd808403c2ec0bf25d309d0576f060f30
+    log: revlist-fbf9680fd163-76cdeeabd808.txt
   - ref: refs/heads/queue/4.19
-    old: 2433fe4c50784891a50f72a8229fe4afd17641d8
-    new: 93a4200f6b0416fbc54978a4c4adb1ac81d9ee10
-    log: revlist-2433fe4c5078-93a4200f6b04.txt
+    old: 93a4200f6b0416fbc54978a4c4adb1ac81d9ee10
+    new: 3f0127cea9d86870a0a6342cc18c80dc128b7d7e
+    log: revlist-93a4200f6b04-3f0127cea9d8.txt
   - ref: refs/heads/queue/4.4
-    old: e43a9bd78f22f1e57462cfb29c89536449e7b740
-    new: 304347ed1711731ad908ba644a38ff7f7ba4583b
-    log: revlist-e43a9bd78f22-304347ed1711.txt
+    old: 304347ed1711731ad908ba644a38ff7f7ba4583b
+    new: 7637372647e6dba75f35dedcd043c2bf2265ee1d
+    log: revlist-304347ed1711-7637372647e6.txt
   - ref: refs/heads/queue/4.9
-    old: f88dfca0ee111741406e8fe19c83ff6aaa747026
-    new: 45e5a4317f56afce9974d1b0b126c2e868cc5f41
-    log: revlist-f88dfca0ee11-45e5a4317f56.txt
+    old: 45e5a4317f56afce9974d1b0b126c2e868cc5f41
+    new: 572bdaa0c9af5135f0896863abefe49442599855
+    log: revlist-45e5a4317f56-572bdaa0c9af.txt
   - ref: refs/heads/queue/5.10
-    old: a828ca6e1e68ec12a502c5047bb863019b1216a7
-    new: a824f2875329807d691ae2004c4ac0313ab374ec
-    log: revlist-a828ca6e1e68-a824f2875329.txt
+    old: a824f2875329807d691ae2004c4ac0313ab374ec
+    new: 78b73fb5a5f438e0eb0f31046ed064b741d3fab3
+    log: revlist-a824f2875329-78b73fb5a5f4.txt
   - ref: refs/heads/queue/5.11
-    old: a219f9903eacd99a625a084adbc4ea414090a4ec
-    new: 86187bf73d7566c3fc121791a6c29a0aae96e440
-    log: revlist-a219f9903eac-86187bf73d75.txt
+    old: 86187bf73d7566c3fc121791a6c29a0aae96e440
+    new: fd759a72389528d04a45fd0b7be9db3083ba2516
+    log: revlist-86187bf73d75-fd759a723895.txt
   - ref: refs/heads/queue/5.4
-    old: 4ece041da5804befd921ce85f1d150e07f244a70
-    new: db348a78a4f00d9c0ed1fcee6350be6664b7ed64
-    log: revlist-4ece041da580-db348a78a4f0.txt
+    old: db348a78a4f00d9c0ed1fcee6350be6664b7ed64
+    new: e07ad67f9cf4dfca302a9bae57d8197df1c8d5ed
+    log: revlist-db348a78a4f0-e07ad67f9cf4.txt
 
---===============1190456360281525116==
+--===============1914409023388562285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-088a256eaf1d-fbf9680fd163.txt
+Content-Disposition: attachment; filename=revlist-fbf9680fd163-76cdeeabd808.txt
 
-2f448393043bafe006cbbc63a5c216d8931a9a30 uapi: nfnetlink_cthelper.h: fix userspace compilation error
-f80636bc1606b0b35b1f0aadbf8443f81ad6c2be ethernet: alx: fix order of calls on resume
-d4cb8dfdf691c1d3a56e13426d4574a1bea915bf ath9k: fix transmitting to stations in dynamic SMPS mode
-6172da655982b819a22fd4a7a103dcb762849d50 net: Fix gro aggregation for udp encaps with zero csum
-feccfb1beae2d9f983193d49613e5e5520e92bdb net: Introduce parse_protocol header_ops callback
-668804c2e55226d87e5bf7e3d2cea3facc2b7758 net: check if protocol extracted by virtio_net_hdr_set_proto is correct
-dddaff31958f205f9bc0ad7568f9d930753ead14 net: avoid infinite loop in mpls_gso_segment when mpls_hlen == 0
-aa56d2838a72d73da3e2c9c557786600ba52b669 can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
-f6d318fb319c7245cb6ccf4363c76e40d4dfa398 can: flexcan: assert FRZ bit in flexcan_chip_freeze()
-732c0b407f6b45529c230e91d241affcc091bf79 can: flexcan: enable RX FIFO after FRZ/HALT valid
-578ba4f63c55fc15d3d567cd80cee9d2b34a4002 netfilter: x_tables: gpf inside xt_find_revision()
-c41c2e00b53b792c0f3f6a4afdf7207702912bf4 cifs: return proper error code in statfs(2)
-701224f3ca4a49ad0a79c08b91633fc77f913c24 scripts/recordmcount.{c,pl}: support -ffunction-sections .text.* section names
-e4828735fbde4746659e8fc0016fabb66ec4355f Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
-ab240fde95e8571090d45fb5559404840319d211 sh_eth: fix TRSCER mask for SH771x
-d11b858886c8dc1aeaff1e678df83f1dedd6587d net/mlx4_en: update moderation when config reset
-e71f6cb216a7bd94f07410f7b3b306f6a3168828 net: stmmac: fix incorrect DMA channel intr enable setting of EQoS v4.10
-4ca8f85c07051b152f6116dd8d8f7dff18ce3f3a net: sched: avoid duplicates in classes dump
-55ed423c5e7a2a5bab8eaf39d9767ddb864439db net: usb: qmi_wwan: allow qmimux add/del with master up
-efefe79677872bf94c8395054748e920fc422504 cipso,calipso: resolve a number of problems with the DOI refcounts
-dfff682a091e6df6b98d028c030095b9988beb72 net: lapbether: Remove netif_start_queue / netif_stop_queue
-84af86f42665f2d554a852c058ea2451e55849fb net: davicom: Fix regulator not turned off on failed probe
-7e17b0ea1bfad33f5b58ca169ffa3235a5120b73 net: davicom: Fix regulator not turned off on driver removal
-4479c13e3dbdad6090c21ea68f8224d82700ce52 net: stmmac: stop each tx channel independently
-6c864b26c206e557b62c6494d6e9d7eba1b3fb2f perf traceevent: Ensure read cmdlines are null terminated.
-2cd61ad658b444fcd67fb853ddf53bc773277124 s390/cio: return -EFAULT if copy_to_user() fails
-32cd66292a0c8cd567d980de2e1ea48b1a3d7f43 drm/compat: Clear bounce structures
-fd4eb797ebe60adc18e9208b15f9fc9b4f78d888 drm: meson_drv add shutdown function
-fbf9680fd1635f92ca876709c396573540a9186e s390/cio: return -EFAULT if copy_to_user() fails
+d8fdb52ab193455a0ed1fc0991f8515c54e1f2c0 uapi: nfnetlink_cthelper.h: fix userspace compilation error
+e52bd5e63cdf019f0d68b8a8fbac1b5dce3bc469 ethernet: alx: fix order of calls on resume
+cfa56a3603059d144adfc4ead178097e44cd630f ath9k: fix transmitting to stations in dynamic SMPS mode
+24b3bc7ca06cd66c48e27de2ea75bcf8f601f41a net: Fix gro aggregation for udp encaps with zero csum
+1a7f3b055786c5d5717d381451b88add303dda31 net: Introduce parse_protocol header_ops callback
+a4410ed8feffbd1f60c3e518a3fc2e2103935767 net: check if protocol extracted by virtio_net_hdr_set_proto is correct
+0f9b12683197ecda094217adaf3167bb7d1e0da3 net: avoid infinite loop in mpls_gso_segment when mpls_hlen == 0
+8b2c965b9334a69b5997908b5a860801d1c47512 can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
+b5616841ae035613f70ddaf9f97e412c5c5a9648 can: flexcan: assert FRZ bit in flexcan_chip_freeze()
+d0613f135dd213aa569c92aef1956d6ba16d0932 can: flexcan: enable RX FIFO after FRZ/HALT valid
+3f168d0ee384badb48614da3c754020c67125e86 netfilter: x_tables: gpf inside xt_find_revision()
+7bca17039874348ecaf8d6e7c54a18e36135e862 cifs: return proper error code in statfs(2)
+988c89f02f882d7ea6f0a6fe7f41d8347bcb4af9 scripts/recordmcount.{c,pl}: support -ffunction-sections .text.* section names
+f79b11e0628de2ec33795582a3de4a8f2b4a2ff0 Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
+be51e529a42ba7d00e3b2902ee4eb6dee7e8b3ca sh_eth: fix TRSCER mask for SH771x
+0b356fad4c685620a904f7d3e6c326e99559e94a net/mlx4_en: update moderation when config reset
+46f6da52ab4ccb790810b7c9fc1b7deab2aa2f7b net: stmmac: fix incorrect DMA channel intr enable setting of EQoS v4.10
+3013105f7e716b81b3207beafce7f1f9e6889381 net: sched: avoid duplicates in classes dump
+eb20d0702b7561b27da534a7295d59fca9f4bead net: usb: qmi_wwan: allow qmimux add/del with master up
+62f1453fd1ae7d8e62794d69f835cc721353b338 cipso,calipso: resolve a number of problems with the DOI refcounts
+cffbecd3aa8325a2662ea70c794920a8201932ec net: lapbether: Remove netif_start_queue / netif_stop_queue
+83ac1afaf46054e843cc2d23750e1d15deb73339 net: davicom: Fix regulator not turned off on failed probe
+73566492b5fab61828242c8c7ae71f16ec33ee97 net: davicom: Fix regulator not turned off on driver removal
+96f42d022f7182a9f7d8b8c8fbdaebaba7c70a88 net: stmmac: stop each tx channel independently
+8ee9bc307e11aa2be2edd935cf0560237b355151 perf traceevent: Ensure read cmdlines are null terminated.
+88c668646433cca8dec2ccc9aca92260dee3951c s390/cio: return -EFAULT if copy_to_user() fails
+328c8578e3c1b0a80e48818f5192ac896af8be2b drm/compat: Clear bounce structures
+9d72eaa9fa6ea888bae606f41e3c7141d9094a8d drm: meson_drv add shutdown function
+6e5714c0b47ef34114bca68873140c41d5625970 s390/cio: return -EFAULT if copy_to_user() fails
+76cdeeabd808403c2ec0bf25d309d0576f060f30 media: usbtv: Fix deadlock on suspend
 
---===============1190456360281525116==
+--===============1914409023388562285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2433fe4c5078-93a4200f6b04.txt
+Content-Disposition: attachment; filename=revlist-93a4200f6b04-3f0127cea9d8.txt
 
-50b19146d8ba49fb52e2edcf104245978fcba596 uapi: nfnetlink_cthelper.h: fix userspace compilation error
-01191e6ff2d80ebcd1bf1ebede20e797f4036ea3 ethernet: alx: fix order of calls on resume
-ba870cf2064052198e4bf7515040cbef2c6be193 ath9k: fix transmitting to stations in dynamic SMPS mode
-abfdc177f7877cc26c487d4293990c6cc071bbc5 net: Fix gro aggregation for udp encaps with zero csum
-2665a6dcf6ea08c224a6794520e627146b7af2e2 net: Introduce parse_protocol header_ops callback
-806bd2ee73a64896b21ee99e9f5f3337b73fe963 can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
-981ff3dde25d0fa2a5801906192f0bddda6e5f7e can: flexcan: assert FRZ bit in flexcan_chip_freeze()
-1e39dc04f07df4fcb3d415ba73d34d9caace3183 can: flexcan: enable RX FIFO after FRZ/HALT valid
-918fe8adc1dd1e848c7391262ec429f1556b61ab netfilter: x_tables: gpf inside xt_find_revision()
-407c15d614d7a1cdeec046a79851b74955747237 mt76: dma: do not report truncated frames to mac80211
-ddb27632f5207225c09573a484b4fd8183fcf69f tcp: annotate tp->copied_seq lockless reads
-1a03a2b99afff2d4455a6265f141c7b4ce79574f tcp: annotate tp->write_seq lockless reads
-9726292fc19c8910f0a62606aa6992ba071ae6a8 tcp: add sanity tests to TCP_QUEUE_SEQ
-a981371b8289142220de2af089e1d68bc8b345a4 cifs: return proper error code in statfs(2)
-cb4299aba00b4a749bfb86ec0071ff3cd6243a56 scripts/recordmcount.{c,pl}: support -ffunction-sections .text.* section names
-c76a9666f5f8de66f3bdccb93242efc927f61c6a Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
-8ee510501331be1a1aafdfd66d9aea3a6e698b1e sh_eth: fix TRSCER mask for SH771x
-9b50bb9ed5d9ff88ea34cd24c821fe8c15e2f856 net: check if protocol extracted by virtio_net_hdr_set_proto is correct
-dbc0629bb5b6ba600e9dc20d159320e2abc6d7d8 net: avoid infinite loop in mpls_gso_segment when mpls_hlen == 0
-cfc81f30eb4078aeaba7de324d1b9b5b5857c3cb net/mlx4_en: update moderation when config reset
-6796cf6b2bfa6b71f969d5633ee3ce0e8eb9a86d net: stmmac: fix incorrect DMA channel intr enable setting of EQoS v4.10
-5e22faddefe8119b6e4a799df53c8e96204e2a46 net: sched: avoid duplicates in classes dump
-746de19eb2a11a7ff169e87181b7791112441f79 net: usb: qmi_wwan: allow qmimux add/del with master up
-d45c96d646d096e9f644fd2d450edd1eeec200f6 cipso,calipso: resolve a number of problems with the DOI refcounts
-57ff316c2a2503a6590117fbce769456b5543522 net: lapbether: Remove netif_start_queue / netif_stop_queue
-28c45c300b457471f7003e35006d7bae3f6cf503 net: davicom: Fix regulator not turned off on failed probe
-733c6a399aa22697bd2045cec2cdaec42f7c6dfe net: davicom: Fix regulator not turned off on driver removal
-ce220f46583275ba10b504e747d01a5f54c0da84 net: qrtr: fix error return code of qrtr_sendmsg()
-398f953b0b5d8ad22f563f021cce5fdb165aae1a net: stmmac: stop each tx channel independently
-1c627f27f09874342d6dc9fb21906f08db48389b net: stmmac: fix watchdog timeout during suspend/resume stress test
-84f7d4184f971249b2321e9d6f6bc14f12e2a117 selftests: forwarding: Fix race condition in mirror installation
-ba6c6420aa96d0b9150e293aae3760ed8c393292 perf traceevent: Ensure read cmdlines are null terminated.
-d274ecdad13a6b1654d31c7cc7e64e142f8faf02 s390/cio: return -EFAULT if copy_to_user() fails
-4574ed8b372dd8b87ba627abfb03a95832a7fcab drm/compat: Clear bounce structures
-15d20d64ef1895be465149d86a2fbb1ea4f6f6da drm: meson_drv add shutdown function
-93a4200f6b0416fbc54978a4c4adb1ac81d9ee10 s390/cio: return -EFAULT if copy_to_user() fails
+dadabe68954e97f9f44edbc4d9b6ed18d75d8b71 uapi: nfnetlink_cthelper.h: fix userspace compilation error
+63ff4c2c4766e3ecf47e7e5da185d253cf03eb41 ethernet: alx: fix order of calls on resume
+399939061425a2fa5b1b76754f244e5024d0d74d ath9k: fix transmitting to stations in dynamic SMPS mode
+128676b907c997a27b8bdd20a79b711120681301 net: Fix gro aggregation for udp encaps with zero csum
+3324ce9184c2ddbf36411a99375727bec0c8e4df net: Introduce parse_protocol header_ops callback
+88366726a86a4bf74a2b34385e6767c6f766fcc3 can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
+29d062478c4964b632dfa0c95a9c2f136c28ffbe can: flexcan: assert FRZ bit in flexcan_chip_freeze()
+41fc6260be6d1c3abb9d43917007ac9f91f5be54 can: flexcan: enable RX FIFO after FRZ/HALT valid
+33aee55ee13cb45381117d84dd4996c4ef767dc0 netfilter: x_tables: gpf inside xt_find_revision()
+16db94fb2022951d85f08052b9ef53bd2e06120f mt76: dma: do not report truncated frames to mac80211
+adcbf3e0430231f74b279ef73a6138cd3fd02ad7 tcp: annotate tp->copied_seq lockless reads
+74a55c1dbb0978f7e770b4e7062edeb01d444f38 tcp: annotate tp->write_seq lockless reads
+57c1515fbc203389aead0bbd009f9a215510ebaf tcp: add sanity tests to TCP_QUEUE_SEQ
+f1be7fca0976dcca0bf61354eea3c9b0230e9cce cifs: return proper error code in statfs(2)
+2f31f82a50ccebab164d3830feafb890c007b3d1 scripts/recordmcount.{c,pl}: support -ffunction-sections .text.* section names
+5654a73501ec56529a5d0b4a894f448d0bc99a46 Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
+78b155d7317c1d51bf2e3c3da94ce798d1c5239c sh_eth: fix TRSCER mask for SH771x
+af6323c36979322193704a21e5dbcda84f522354 net: check if protocol extracted by virtio_net_hdr_set_proto is correct
+b3bdfe44e2f49ccfee04ee34cef1b4dd509e8cb0 net: avoid infinite loop in mpls_gso_segment when mpls_hlen == 0
+1dfbad99981b1988f17aaa54160b5c69d445b2f2 net/mlx4_en: update moderation when config reset
+23ff3b75790030b4065df64c94e5c695a6c474cd net: stmmac: fix incorrect DMA channel intr enable setting of EQoS v4.10
+810fd0540011ea13c19215df90f6c35e0b0dda1d net: sched: avoid duplicates in classes dump
+1a4b19a1c7a42ff27d13ea7431c1c3f2fa6e4b22 net: usb: qmi_wwan: allow qmimux add/del with master up
+7f552bf5cbc29190c293ffc6ef89eeb2bf136f82 cipso,calipso: resolve a number of problems with the DOI refcounts
+a69ce54f04af437abdf75b730144e8484bb95126 net: lapbether: Remove netif_start_queue / netif_stop_queue
+a051481b488efdbdf52d9a8eef5c23afac4cc894 net: davicom: Fix regulator not turned off on failed probe
+a90a5b7c18f47f4955ea7760e60aa8d0ea4b6729 net: davicom: Fix regulator not turned off on driver removal
+fd63d1d8f4d7581a45f6dc670974633e5693cc6d net: qrtr: fix error return code of qrtr_sendmsg()
+1cfe46b9e444d6431e80ef121eeb477f0213c85e net: stmmac: stop each tx channel independently
+40df5734ab093039bf11922f1e721701e92842c5 net: stmmac: fix watchdog timeout during suspend/resume stress test
+a70fe007dac7861e5a103a17d08de7beadb07394 selftests: forwarding: Fix race condition in mirror installation
+2cdbf358708886ed28c6d095ef50875440c200fa perf traceevent: Ensure read cmdlines are null terminated.
+950d02aa1df4a0e8a1a168cf42d88901a3b00c28 s390/cio: return -EFAULT if copy_to_user() fails
+b5032b1180ec5c975fd7d0877f0d73acc4277729 drm/compat: Clear bounce structures
+40ee925b5097374a52a892255c3ac08a20ed98b4 drm: meson_drv add shutdown function
+4ee438502e9032623fa3320fe01f682bcf4aa910 s390/cio: return -EFAULT if copy_to_user() fails
+898a5c6daa7cd8bfa13ed509055cedf78b3ec4eb sh_eth: fix TRSCER mask for R7S9210
+e38b6428718236acdd2e57ed12e242fca5089022 media: usbtv: Fix deadlock on suspend
+9f3804208322bd99d3511b83832303b00da64d2c media: v4l: vsp1: Fix uif null pointer access
+3f0127cea9d86870a0a6342cc18c80dc128b7d7e media: v4l: vsp1: Fix bru null pointer access
 
---===============1190456360281525116==
+--===============1914409023388562285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e43a9bd78f22-304347ed1711.txt
+Content-Disposition: attachment; filename=revlist-304347ed1711-7637372647e6.txt
 
-5361b5e0082a5f60aa03ef0d7f89f22e49347f7f uapi: nfnetlink_cthelper.h: fix userspace compilation error
-0463be45cd335af411a1d121de2ecf3c9a25b81e ath9k: fix transmitting to stations in dynamic SMPS mode
-a5659e90f2f86436b451eba445deda00dbfef082 net: Fix gro aggregation for udp encaps with zero csum
-baf567e88326ac2924c170dc909f9e5e817141cc can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
-a4232f730535a5078358850b4621da2b39c55d84 can: flexcan: assert FRZ bit in flexcan_chip_freeze()
-e058fccd3904752eccfc30cd4291ae0a2bb042d1 can: flexcan: enable RX FIFO after FRZ/HALT valid
-af3c72155f47dc98a52d51d1c44a9f414fe0ed8b netfilter: x_tables: gpf inside xt_find_revision()
-a9820bc824f01f9805ed703e0f65761f8bad6e1c cifs: return proper error code in statfs(2)
-e5aefe7f830c4ebdbe00bc31c5ae86bc06bee75d floppy: fix lock_fdc() signal handling
-c97572badc8c4a32aac34e308358402085387cca Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
-d15768e4791df8236aacd4aaf07c0e6e552d0302 futex: Change locking rules
-0805b649b35ba7016e217fbb7290f5c32b12b73d futex: Cure exit race
-3b27e47c3c8249132713cd17032d0411c81dcc03 futex: fix dead code in attach_to_pi_owner()
-d9a3d5acad318507cb0a80d8b19b295f5075adc2 net/mlx4_en: update moderation when config reset
-524a992c10300f93f8547ddbfd0407ce2c9b3425 net: lapbether: Remove netif_start_queue / netif_stop_queue
-a9c0d69e672a19db21cd59873d2a9764fdb44a0b net: davicom: Fix regulator not turned off on failed probe
-b28ff6a08293bdb9959058c79d03c80647ebb8bb net: davicom: Fix regulator not turned off on driver removal
-304347ed1711731ad908ba644a38ff7f7ba4583b media: usbtv: Fix deadlock on suspend
+5e71a6f27b4e66fe2c392460f20fd185277a2f4c uapi: nfnetlink_cthelper.h: fix userspace compilation error
+1b0e1453c30f7f52ee21c33c1ae42d1366e8d146 ath9k: fix transmitting to stations in dynamic SMPS mode
+5f60805ee7d9c66129653ba7afaab87490d72e89 net: Fix gro aggregation for udp encaps with zero csum
+03ce7a92d92e6fe8c00903bf82a859677ba5645b can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
+b27ceaf1b8d5f2546507d83d6223bb5d6f1ff7b1 can: flexcan: assert FRZ bit in flexcan_chip_freeze()
+5a930c555179d817171a6dbe4df6e897ee60ee85 can: flexcan: enable RX FIFO after FRZ/HALT valid
+e0602fcf316a3c12b7736263af21a57f614ed035 netfilter: x_tables: gpf inside xt_find_revision()
+4d6c5125f194181721d1cb59eb306608f288e5d2 cifs: return proper error code in statfs(2)
+42c7db0e714bfe2aede638e8f29c591838e950aa floppy: fix lock_fdc() signal handling
+4da4c5e1069ea152fa7645e70e57e332f8312cbe Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
+a6ccdda06ea566bd9dfffd22980b60ca9b14dce9 futex: Change locking rules
+56c93b19f82a5e1d0e28b9683bcd138d6c0f2e65 futex: Cure exit race
+1ce16033a765e53bce0f14b61fc0ae1872e98ded futex: fix dead code in attach_to_pi_owner()
+52b134dc062e97246e8e38c4178f53780cf3157e net/mlx4_en: update moderation when config reset
+863983b7fe453bb3b81a49c768db3fd77f4bbc29 net: lapbether: Remove netif_start_queue / netif_stop_queue
+37e881453f66ff3a53f35035a65458a0b122708b net: davicom: Fix regulator not turned off on failed probe
+107a2e9cf2f42bf33efa351b3cc0eff1441a928a net: davicom: Fix regulator not turned off on driver removal
+7637372647e6dba75f35dedcd043c2bf2265ee1d media: usbtv: Fix deadlock on suspend
 
---===============1190456360281525116==
+--===============1914409023388562285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f88dfca0ee11-45e5a4317f56.txt
+Content-Disposition: attachment; filename=revlist-45e5a4317f56-572bdaa0c9af.txt
 
-f8d0809b4a9af8861be06a9c4ee3af7607a6da8d uapi: nfnetlink_cthelper.h: fix userspace compilation error
-66f22bd55368ea772ec1ae5cd401e86bc9915688 ethernet: alx: fix order of calls on resume
-18257844582661aee169248ca91fcad8c0e763c2 ath9k: fix transmitting to stations in dynamic SMPS mode
-a958bdee05fa7b21548ac2e27eab47e9118d7989 net: Fix gro aggregation for udp encaps with zero csum
-db7678de20902c7ca8f7966683da5d034c3898c9 net: avoid infinite loop in mpls_gso_segment when mpls_hlen == 0
-3a88976f7ea237c04174a4f628177911edd893ec can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
-19c14f143cf5a785ae7a2b9a2dd5bc8222d612d3 can: flexcan: assert FRZ bit in flexcan_chip_freeze()
-4c93dc66f69d395e28bd9b54829b837d97fc21d2 can: flexcan: enable RX FIFO after FRZ/HALT valid
-f9c954ef604577a6ef9f3fec2a905fe6a25cba3a netfilter: x_tables: gpf inside xt_find_revision()
-d49597167c336311131163a054da979c552aa712 cifs: return proper error code in statfs(2)
-dd97f8ee5ef781b201d68fd204eef71841431307 Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
-b4a537ab311965ba612e90d05197ded1f8f3b0f6 net/mlx4_en: update moderation when config reset
-e146db3973e8aa3239c61e5fda49d3de40fba278 net: sched: avoid duplicates in classes dump
-caf6890c3ab0275665f353336edc2f22e3d3960d net: lapbether: Remove netif_start_queue / netif_stop_queue
-264622d02db501a0c9ed5798bb21f937162eea16 net: davicom: Fix regulator not turned off on failed probe
-26d8f38868f428e6892ebbd86a5e45177bb69a73 net: davicom: Fix regulator not turned off on driver removal
-45e5a4317f56afce9974d1b0b126c2e868cc5f41 media: usbtv: Fix deadlock on suspend
+2c80da1de373dcdc6d23599c5d0190e2425a5f02 uapi: nfnetlink_cthelper.h: fix userspace compilation error
+eef67cb73774e9dfe025eca4b6f7aaa02b0ca880 ethernet: alx: fix order of calls on resume
+93a03401a38bb465712f982f1ac6f9b89dcaed98 ath9k: fix transmitting to stations in dynamic SMPS mode
+aee062e7f67e3cbe2fc76e5327d497e34e4d6fcf net: Fix gro aggregation for udp encaps with zero csum
+00a07738e41383e0a137796603415ccdcc7e6468 net: avoid infinite loop in mpls_gso_segment when mpls_hlen == 0
+a3fc2b1aa7b3af85d17d908a5e3e67462c7c1567 can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
+1bcc3f6a466e7fbd868a32f393c830add62c1bcf can: flexcan: assert FRZ bit in flexcan_chip_freeze()
+83438381b26f8a8707d92d4568ad040cd32c7f56 can: flexcan: enable RX FIFO after FRZ/HALT valid
+4eb0ff03c7fb006672cdeb9a1e05fca164fead75 netfilter: x_tables: gpf inside xt_find_revision()
+c28f37e4a7e7970df460c487e13506ca8bad83cb cifs: return proper error code in statfs(2)
+d86bc6f53e898dfca0ade813ce6077f5410346e8 Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
+1add456733782e24c2197802c748c911fea32d05 net/mlx4_en: update moderation when config reset
+1b97053a57bad544014d12396b506db33bb352b3 net: sched: avoid duplicates in classes dump
+1065f3c841806b4d04b68c0e0ab353d4fd17cbcb net: lapbether: Remove netif_start_queue / netif_stop_queue
+1afba1612ed99e4b0597e8ed7a14891c397e91c9 net: davicom: Fix regulator not turned off on failed probe
+968a3b86c4bf85f51c1e9762337c5422a836c0fc net: davicom: Fix regulator not turned off on driver removal
+572bdaa0c9af5135f0896863abefe49442599855 media: usbtv: Fix deadlock on suspend
 
---===============1190456360281525116==
+--===============1914409023388562285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a828ca6e1e68-a824f2875329.txt
+Content-Disposition: attachment; filename=revlist-a824f2875329-78b73fb5a5f4.txt
 
-4d1d11288de3936c14e5237d77860b27201abb24 uapi: nfnetlink_cthelper.h: fix userspace compilation error
-c297fef46f2487adb38e6413d3c69b54d51e373c powerpc/perf: Fix handling of privilege level checks in perf interrupt context
-c26df8a28358d72e3f484a1de7221fc75939138c powerpc/pseries: Don't enforce MSI affinity with kdump
-382228cdad454515f73b5734296ba0385d04c044 ethernet: alx: fix order of calls on resume
-98203a06f8ce63926a01bc0660607afa23cf0977 crypto: mips/poly1305 - enable for all MIPS processors
-387190fff19e02be92c96b92eaca95ecc7939c78 ath9k: fix transmitting to stations in dynamic SMPS mode
-6d9e1a67698a3057ad783399edb2c146cfcb3119 net: Fix gro aggregation for udp encaps with zero csum
-83c898faa3ef179c6678616e7e23923b36ebfa5a net: check if protocol extracted by virtio_net_hdr_set_proto is correct
-880e13e875bb25a2fce3e7202ee5ee075e37beaa net: avoid infinite loop in mpls_gso_segment when mpls_hlen == 0
-78ea3056ddf04e6cf9d9325515f29091fb7dcafb net: l2tp: reduce log level of messages in receive path, add counter instead
-ec1c884f3d59feb12130d3d177b68583dd9001c8 can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
-90bc1558eb85c20cee1ebe3bdf9d13fcd7873d7f can: flexcan: assert FRZ bit in flexcan_chip_freeze()
-81ab13d6d3524dfcbd2091e4f0cb0f9992b2b6e6 can: flexcan: enable RX FIFO after FRZ/HALT valid
-ba5dbf17c4ca8d61274ed8ecb52e7df476ac9466 can: flexcan: invoke flexcan_chip_freeze() to enter freeze mode
-973244c152f7491ef44b0b6f187636a1c4a48e84 can: tcan4x5x: tcan4x5x_init(): fix initialization - clear MRAM before entering Normal Mode
-da57f1e8d36993120080012af69ed04f79fbc8f4 tcp: Fix sign comparison bug in getsockopt(TCP_ZEROCOPY_RECEIVE)
-96088f6320eacd4733d4e14b1b20564daa72ff9c tcp: add sanity tests to TCP_QUEUE_SEQ
-74ac242dba28475ff4f21edbfef7b20ae682ada4 netfilter: nf_nat: undo erroneous tcp edemux lookup
-426a7cfc284c8f7b4cfa119d8c36a54502e03563 netfilter: x_tables: gpf inside xt_find_revision()
-85957abff25f54594f379c9d0e259532cb09eb44 net: always use icmp{,v6}_ndo_send from ndo_start_xmit
-82742c7a226d5f2937187e9013ecbb9d8315f5b0 net: phy: fix save wrong speed and duplex problem if autoneg is on
-87596acd6eaedfc4c2a8a72705cf70d3a688d747 selftests/bpf: Use the last page in test_snprintf_btf on s390
-786e798e3d1234dec8fb24df4d941a306f3e8441 selftests/bpf: No need to drop the packet when there is no geneve opt
-b438d5cbf2cbafb85836f917b8b5089cd4fd7368 selftests/bpf: Mask bpf_csum_diff() return value to 16 bits in test_verifier
-93c8ed5a35fffd569198f56e61e5156035c326fe samples, bpf: Add missing munmap in xdpsock
-7e4901ba11d6c0de4e16175c092d105ee47b1a52 libbpf: Clear map_info before each bpf_obj_get_info_by_fd
-d306819d20377897f43db2738de85cfcc5fa0f56 ibmvnic: Fix possibly uninitialized old_num_tx_queues variable warning.
-5ad4c7cfe2569bf00a9ea49708f336aee554db5a ibmvnic: always store valid MAC address
-7fd97d5305dcbcac97c3918d61c5d28530692cab mt76: dma: do not report truncated frames to mac80211
-9fae1c2524742d260968f993c4e1cf17004ea1cf powerpc/603: Fix protection of user pages mapped with PROT_NONE
-8cf6f60c33d8a4162328918328d74c72d300ddda mount: fix mounting of detached mounts onto targets that reside on shared mounts
-876016caf86dada10ac1350427e6db0f0340bbb0 cifs: return proper error code in statfs(2)
-1654302bc0694b01692baca36bc6d296da7248e1 Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
-9d58296428732441d938ac15c2741470999f9ec2 docs: networking: drop special stable handling
-737eced30ab89a5c7b64c4aa8c4e08c0d5cf24fd net: dsa: tag_rtl4_a: fix egress tags
-575971cec8d1d3b34f7bc61522eecacc0737acf2 sh_eth: fix TRSCER mask for SH771x
-47a5d77a1c1cfe02cf5d4c519e0d8e263562402f net: enetc: don't overwrite the RSS indirection table when initializing
-9914bb8c634ee8b4d7d11313bfb1c670b6d5393e net: enetc: take the MDIO lock only once per NAPI poll cycle
-be6843399cd08d6140edb1f6d992824af7193e1c net: enetc: fix incorrect TPID when receiving 802.1ad tagged packets
-3535a8ce9566ee191cb72da22b29c17e2709294f net: enetc: don't disable VLAN filtering in IFF_PROMISC mode
-f424751d654cbc44a151620d6967cd60a9c68623 net: enetc: force the RGMII speed and duplex instead of operating in inband mode
-205a690ad8d8c25019f3d492efcbc7ab74559ee3 net: enetc: remove bogus write to SIRXIDR from enetc_setup_rxbdr
-5e07dfd80553d462144d67335a86c30bf0333191 net: enetc: keep RX ring consumer index in sync with hardware
-47bae9aec1b4916d07cd8eb053f638220c3eee4b net: ethernet: mtk-star-emac: fix wrong unmap in RX handling
-26d50fd7665a7b314fa5e4d4567f7b0c293dfb12 net/mlx4_en: update moderation when config reset
-5ea41ae70b769e562e16154e9c675b3307e260a2 net: stmmac: fix incorrect DMA channel intr enable setting of EQoS v4.10
-82fd05ee668341282b8e4f8c15b3841ec72602a0 nexthop: Do not flush blackhole nexthops when loopback goes down
-e65b51a3cdb986dedea355b0420c861ccd15ceca net: sched: avoid duplicates in classes dump
-0591b60601c3d0f15d7b2b7f803253e30e88f199 net: mscc: ocelot: properly reject destination IP keys in VCAP IS1
-13e25c441fa0ff2cd432274cdfb73e66713bfd82 net: dsa: sja1105: fix SGMII PCS being forced to SPEED_UNKNOWN instead of SPEED_10
-122710db6d6e023722e4bbe9e81b8cc4e977318d net: usb: qmi_wwan: allow qmimux add/del with master up
-eb8547b71693bcfe8a2e280fad2576dc145ded55 netdevsim: init u64 stats for 32bit hardware
-931df9f87327c2fe87725cf9ceb8510da2be1b92 cipso,calipso: resolve a number of problems with the DOI refcounts
-dab67f79229c86000c1dde8a0167cbe6b76171cc net: stmmac: Fix VLAN filter delete timeout issue in Intel mGBE SGMII
-d8c791c109cc1c781372f00d7461840adaff8f90 stmmac: intel: Fixes clock registration error seen for multiple interfaces
-d10f9bf840c86107b6b96ba408b5f6eda3066fdc net: lapbether: Remove netif_start_queue / netif_stop_queue
-626d920970ba600d8c07c6a6ee1dadeeb82716cd net: davicom: Fix regulator not turned off on failed probe
-1aae6e28474ac3b52169ef72a5220875356bbc9b net: davicom: Fix regulator not turned off on driver removal
-58119171d66a7690fb18ee319ba8d29951a395b8 net: enetc: allow hardware timestamping on TX queues with tc-etf enabled
-95a66339136b0ab814c169b1831b09828ab38038 net: bonding: fix error return code of bond_neigh_init()
-18af227ad0485401fb6e04ba8e23b0fcd0bf8440 net: qrtr: fix error return code of qrtr_sendmsg()
-babf6883ee6f9ae92e3149e3ba5113d803902d54 s390/qeth: fix memory leak after failed TX Buffer allocation
-47863997a03b8458b5b4a22ca3248d5fd602a16d r8169: fix r8168fp_adjust_ocp_cmd function
-a943c91fd90c7c148ad08ea9e2642380888e0bbe ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
-9dfc688999498042e4786abecae8aec3a513a8e1 tools/resolve_btfids: Fix build error with older host toolchains
-7b12c405cc52a1dac13a322b629b17201ec3a4db perf build: Fix ccache usage in $(CC) when generating arch errno table
-4a608faa5a6baeeccda9253c4ca086468fdb19c6 net: stmmac: stop each tx channel independently
-2f02782657fb1077f13b7ad36beb3261b6e2442b net: stmmac: fix watchdog timeout during suspend/resume stress test
-82c9ed730fa6e3f2ac044a6e5f4e5925b7d92883 net: stmmac: fix wrongly set buffer2 valid when sph unsupport
-a09d2cd8544989dc8fe8c3fdac5b005ff9678376 ethtool: fix the check logic of at least one channel for RX/TX
-6c11949c3fcd561eb69757f2c7a4764ceee33889 net: phy: make mdio_bus_phy_suspend/resume as __maybe_unused
-283145922bfd887b7b6620ba67e2c3fdc7da1066 selftests: forwarding: Fix race condition in mirror installation
-6d74015706ba6a1d3b22773bab5bfa445acf187b mlxsw: spectrum_ethtool: Add an external speed to PTYS register
-2569ee32a445683d716fa1770096f57dac759b05 perf traceevent: Ensure read cmdlines are null terminated.
-230804a12039ad42c305b7f701246589de7e928e perf report: Fix -F for branch & mem modes
-ddaf052b152be794f585dbfb2476e23f8904326c net: hns3: fix query vlan mask value error for flow director
-6aac158dbc610a210834126e880e29b12ea219c1 net: hns3: fix bug when calculating the TCAM table info
-feb505b14c36d405b35fcf941102806e76f68e54 s390/cio: return -EFAULT if copy_to_user() fails
-2530b88334328b4395298d0f9487d5dee286b130 bnxt_en: reliably allocate IRQ table on reset to avoid crash
-6a662e2cbb9e67d9307b7a6683134d42d8585057 gpiolib: acpi: Add ACPI_GPIO_QUIRK_ABSOLUTE_NUMBER quirk
-f42ae621b662e80ce10c96cb38dcca2b53708a99 gpiolib: acpi: Allow to find GpioInt() resource by name and index
-5401938b0e6a30ea878053aa3c77eeb3b55be62c gpiolib: Read "gpio-line-names" from a firmware node
-dc603cb79788d21cd8d29fa0e50f337c2ab88768 gpio: pca953x: Set IRQ type when handle Intel Galileo Gen 2
-3ef002756b0a683947d14128761899757ccf60a2 gpio: fix gpio-device list corruption
-d666347e24d7c53522566f7cd4a31fcc9473fc10 drm/compat: Clear bounce structures
-484a35ff252b88bdc56ea8edb36c14da633f47d0 drm/amd/display: Add a backlight module option
-c481a99d6ac29e840b1f10a0632820e98c8101b1 drm/amdgpu/display: use GFP_ATOMIC in dcn21_validate_bandwidth_fp()
-fd8b225da0f29a70e86e47275f1f43b397df1635 drm/amd/display: Fix nested FPU context in dcn21_validate_bandwidth()
-e4c2030ab381c3770c25ce959524637fa3aa5ca0 drm/amd/pm: bug fix for pcie dpm
-0343da3e95d776c874d4937b0efa8a567253f633 drm/amdgpu/display: simplify backlight setting
-fcd8a47b0a3f359774de37cda0d17ab083e68ce3 drm/amdgpu/display: don't assert in set backlight function
-b079c2f56f30897d622bce30902226d30d882e00 drm/amdgpu/display: handle aux backlight in backlight_get_brightness
-38e9966f928fe9048031a074cb30e24794b0a8fb drm/shmem-helper: Check for purged buffers in fault handler
-effebc1f488294fe994431139dd07392f4228b3f drm/shmem-helper: Don't remove the offset in vm_area_struct pgoff
-fbf8e15d21154370c1981d78c854064a7bf0cea0 drm: Use USB controller's DMA mask when importing dmabufs
-c1de89d35e64758efa1d518225dfde0519ecd54b drm: meson_drv add shutdown function
-38de42890519339788fd50ff879db98513a53e66 drm/shmem-helpers: vunmap: Don't put pages for dma-buf
-55155019445aaf39fdfb0ae84cea7cda1bad67c8 drm/i915: Wedge the GPU if command parser setup fails
-06f24252e2dcc71ae48fa01e0b79789290fe702a s390/cio: return -EFAULT if copy_to_user() fails
-3b580551c15fcdf689d88dceca4216c10090ac7f s390/crypto: return -EFAULT if copy_to_user() fails
-a824f2875329807d691ae2004c4ac0313ab374ec qxl: Fix uninitialised struct field head.surface_id
+d7f854cc9a4a2d48fc749524d76466f6e471eb16 uapi: nfnetlink_cthelper.h: fix userspace compilation error
+48c1f57428a727550bd16d81280d17b379ebe441 powerpc/perf: Fix handling of privilege level checks in perf interrupt context
+1df06d1f95e66ee904648ea52137cb03fee1de6b powerpc/pseries: Don't enforce MSI affinity with kdump
+9e9923edb2beefae4224e212751fc45d645036df ethernet: alx: fix order of calls on resume
+3e8dd6219dff21c52b20ed8bd438c083f7627db4 crypto: mips/poly1305 - enable for all MIPS processors
+5b56736068628675d12f977878f74d1f3f9a2f84 ath9k: fix transmitting to stations in dynamic SMPS mode
+ebdc21b19f88638b107464ee12bc53bb1c06a8a2 net: Fix gro aggregation for udp encaps with zero csum
+4e04dbf509faf3969cb2e3054cef05042e995686 net: check if protocol extracted by virtio_net_hdr_set_proto is correct
+dfc524a7875a8888b541d6b43a71fca7a8a36872 net: avoid infinite loop in mpls_gso_segment when mpls_hlen == 0
+38df3b046c02dfda3f718a1de52d4dc574a1812d net: l2tp: reduce log level of messages in receive path, add counter instead
+657f213c7f72b3d32421a178930168e5a8f876a9 can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
+3f223df58c992a5937c41ed1331fb0a7fc0c764c can: flexcan: assert FRZ bit in flexcan_chip_freeze()
+0dd849f21289898d1d2e572bc1bf66a1c066f566 can: flexcan: enable RX FIFO after FRZ/HALT valid
+23ac9dc1402d322f95fb3e91ccde17ee499de634 can: flexcan: invoke flexcan_chip_freeze() to enter freeze mode
+11d433df2c8452b22ca6a75d24cd6a24894ed329 can: tcan4x5x: tcan4x5x_init(): fix initialization - clear MRAM before entering Normal Mode
+f8a8de28e3518acdc5bef3f47b52b2264ef19b5d tcp: Fix sign comparison bug in getsockopt(TCP_ZEROCOPY_RECEIVE)
+c8cb33674e21e9229ce96cbca8282c5c4e241b02 tcp: add sanity tests to TCP_QUEUE_SEQ
+3412b3b97b0a3a4e259eecae817111afe9c1ba42 netfilter: nf_nat: undo erroneous tcp edemux lookup
+f72533d5cedc10d7da92c37cc9f06b4da1410981 netfilter: x_tables: gpf inside xt_find_revision()
+f776f5afe5d8d1f20f51f63ef661fc02fc091bfa net: always use icmp{,v6}_ndo_send from ndo_start_xmit
+3d62df826239e39b4dc7cd5c09cb820f129c525c net: phy: fix save wrong speed and duplex problem if autoneg is on
+c94d5b433def2860c63b5f41e53e04968676223b selftests/bpf: Use the last page in test_snprintf_btf on s390
+e90131cfd2957b4dc04f058c6bdc6de2c36d9545 selftests/bpf: No need to drop the packet when there is no geneve opt
+6c5d023d09871d26d4e59ed1fbafddf5c31af8ec selftests/bpf: Mask bpf_csum_diff() return value to 16 bits in test_verifier
+54f614ce6e71e3c9fa244375b90542eaea291854 samples, bpf: Add missing munmap in xdpsock
+b69ca42572191d0e57f1da2fbc4c2b29fb7606a1 libbpf: Clear map_info before each bpf_obj_get_info_by_fd
+ad8cb4add641455397f6de8cfb58ff8ed06c5091 ibmvnic: Fix possibly uninitialized old_num_tx_queues variable warning.
+758ecff127ed58c361639b66615025da17b7306f ibmvnic: always store valid MAC address
+61014f3215de479c6292e423deac685e3d80c9eb mt76: dma: do not report truncated frames to mac80211
+49ce1b705618f1ea0ba2b275aa569c6457a1640c powerpc/603: Fix protection of user pages mapped with PROT_NONE
+02608e743392f241f99c67dd37ae9d897ce6d771 mount: fix mounting of detached mounts onto targets that reside on shared mounts
+2309b73f58e73bad41223a76b0105cb9e20f9a39 cifs: return proper error code in statfs(2)
+e87dc9a306ef457a088aaacfe1b02d0055cdcaa0 Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
+b1878d11f8f56db4e9a2f4fdf87c913d384e080f docs: networking: drop special stable handling
+c28bc8e6dbfe14f400878e9cb256f6491bb8c98f net: dsa: tag_rtl4_a: fix egress tags
+86a9786ce02010b0df657ea5d84d52ac644e1f5d sh_eth: fix TRSCER mask for SH771x
+d67c526d21d605d817b77d6b8aa74335094d325b net: enetc: don't overwrite the RSS indirection table when initializing
+aabeb0c07c4353a00a6f3caa7d43ecbfb168af95 net: enetc: take the MDIO lock only once per NAPI poll cycle
+d2204b6bf47a43ed246a31a4af4bfffdf0892b07 net: enetc: fix incorrect TPID when receiving 802.1ad tagged packets
+f21ed8952fda91888cb3b0bbacd23ad7515e0d39 net: enetc: don't disable VLAN filtering in IFF_PROMISC mode
+1ad73701f2ef78509f2cf1c77bdfc8c73a36c5fe net: enetc: force the RGMII speed and duplex instead of operating in inband mode
+270d0a2ca025cec110db4e595d6114321b90de48 net: enetc: remove bogus write to SIRXIDR from enetc_setup_rxbdr
+f53b9a56f231d8fd1cd95b90f68f34f4616054f4 net: enetc: keep RX ring consumer index in sync with hardware
+edbf2a89a0d309b7d4361465d61e00df9c28b548 net: ethernet: mtk-star-emac: fix wrong unmap in RX handling
+93ab7eaf83ba9fbea2682a1ed04519dedc6bce64 net/mlx4_en: update moderation when config reset
+cd78cf06f9d6ffd0daf7da123951e29687c3e83b net: stmmac: fix incorrect DMA channel intr enable setting of EQoS v4.10
+14dc45887d89d93fd1a7f6e9be5ddfa1919f70c3 nexthop: Do not flush blackhole nexthops when loopback goes down
+0cec8f3066127ed5d27adcc6b39adbe94ba66f02 net: sched: avoid duplicates in classes dump
+8f2e47070e06d329a68c675d83f6569383779735 net: mscc: ocelot: properly reject destination IP keys in VCAP IS1
+9be970a2467521409be8d553c9a5340a434fb76a net: dsa: sja1105: fix SGMII PCS being forced to SPEED_UNKNOWN instead of SPEED_10
+0461caef3efa7b64b5b5740d72f2cb93b5f7453a net: usb: qmi_wwan: allow qmimux add/del with master up
+b736511ac26997a3f848bd56e22320d3d33ab9e2 netdevsim: init u64 stats for 32bit hardware
+f1acd43bf36efd046cc4e1884e13410a98118b32 cipso,calipso: resolve a number of problems with the DOI refcounts
+83bd332f6fe96e1c63fc79fdae58981c61948d81 net: stmmac: Fix VLAN filter delete timeout issue in Intel mGBE SGMII
+cefcc483f591a51e075057554250591655642f0a stmmac: intel: Fixes clock registration error seen for multiple interfaces
+89cd54c29a612641338f797196f2b81023487ae9 net: lapbether: Remove netif_start_queue / netif_stop_queue
+d32816e0b81d6f89fb3016cdf4902e86ee3e1341 net: davicom: Fix regulator not turned off on failed probe
+0e1424eef3148f7a9bdae147d4402a274c3a3982 net: davicom: Fix regulator not turned off on driver removal
+e0d155abbaf1c942bced9d78cf53e73237291be3 net: enetc: allow hardware timestamping on TX queues with tc-etf enabled
+311263938380e0addb5df1e8c6d3d5777222c358 net: bonding: fix error return code of bond_neigh_init()
+cddd98c99ecb05fadb42abc1014d800e1f595068 net: qrtr: fix error return code of qrtr_sendmsg()
+af6b45deb58629bc5d60c4bfcd7f00e9d7188159 s390/qeth: fix memory leak after failed TX Buffer allocation
+9fba47086c76305ae1a8ef3667daea4a956ab049 r8169: fix r8168fp_adjust_ocp_cmd function
+22e0c59d818e2b115de317becc817cf96ae7ae32 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+1550c649e6e93ec3b125d109f92b74f8ca476936 tools/resolve_btfids: Fix build error with older host toolchains
+7fc3fd0563beab60585032387bc27888127c8f26 perf build: Fix ccache usage in $(CC) when generating arch errno table
+c6cfeefdc867400ee193a04ca85afae653f422e9 net: stmmac: stop each tx channel independently
+ee0b2784035aaad3255b8fabb331144d8367d27f net: stmmac: fix watchdog timeout during suspend/resume stress test
+051964216bae5a3f5ade3af65c6d973c1ff610e1 net: stmmac: fix wrongly set buffer2 valid when sph unsupport
+848fb44f0a8c2dbf09d23e95b16a6391682f2645 ethtool: fix the check logic of at least one channel for RX/TX
+773e2c763b82458b499980f1f464b02ed5e5d778 net: phy: make mdio_bus_phy_suspend/resume as __maybe_unused
+78d678d334a24f7aa833407236baa01c0f55c484 selftests: forwarding: Fix race condition in mirror installation
+cfb69edfa2cf0066a2f8056136cc4f1ce8ed07dc mlxsw: spectrum_ethtool: Add an external speed to PTYS register
+014eb73ad4ca357e8d8b9247d7b091be1c991589 perf traceevent: Ensure read cmdlines are null terminated.
+9ff234ec140c1c33fd74900ce443fa3d71938d95 perf report: Fix -F for branch & mem modes
+954333e64945b0715e5b7ace7384ec80daacd0f5 net: hns3: fix query vlan mask value error for flow director
+aa88c1c15de23a7d07a675744ad4ce8cfed2ab6a net: hns3: fix bug when calculating the TCAM table info
+e7e1bdcb5cae271639ca6521204aac1781651ed6 s390/cio: return -EFAULT if copy_to_user() fails
+f144835f3d1c463476c10d5e7f79dc54a21bc5a1 bnxt_en: reliably allocate IRQ table on reset to avoid crash
+88a65cbe878bbea81e239e2f747026bf7c7c86be gpiolib: acpi: Add ACPI_GPIO_QUIRK_ABSOLUTE_NUMBER quirk
+19fae677e46b945715e696f8fc0cbe89603d8f02 gpiolib: acpi: Allow to find GpioInt() resource by name and index
+0ac0ae7fd8beef92de0ad3dfbbb927e8517aee31 gpiolib: Read "gpio-line-names" from a firmware node
+b4a0743c7bcbb1b703dcbeabdb28d6645912780b gpio: pca953x: Set IRQ type when handle Intel Galileo Gen 2
+0a8ce90a52764f71b943c058af266d052f7d0fb4 gpio: fix gpio-device list corruption
+61f59006a84d1c9278b56c8333088b02b906f113 drm/compat: Clear bounce structures
+8e166efbd4987927f427e745fc52f43c7615235a drm/amd/display: Add a backlight module option
+d8fe2d305cbf6380d64994dda6e08adb9c9346ac drm/amdgpu/display: use GFP_ATOMIC in dcn21_validate_bandwidth_fp()
+110fedf97c97ed090f1417cd3b37ef38c06df3d9 drm/amd/display: Fix nested FPU context in dcn21_validate_bandwidth()
+16768bbc8587851258473e266798f56da3a80ce8 drm/amd/pm: bug fix for pcie dpm
+04492b7fbf068d153d12e258bee278025bc67013 drm/amdgpu/display: simplify backlight setting
+79ba85a3a60c8564afc000fce274d3b4d1c26f87 drm/amdgpu/display: don't assert in set backlight function
+3ecc20e14958408ee2b63201b4f35d7011ead1c5 drm/amdgpu/display: handle aux backlight in backlight_get_brightness
+39ac4af0fb32824f578316c0906de0b5cbcbc8c4 drm/shmem-helper: Check for purged buffers in fault handler
+6ac64c00f18cbd7c27a0e1d34d0095eee735c5c3 drm/shmem-helper: Don't remove the offset in vm_area_struct pgoff
+2498a3f9f49fe939ee08546a37f767990442d82e drm: Use USB controller's DMA mask when importing dmabufs
+79282a9ac526a47f1bc05360da270c5db268eef0 drm: meson_drv add shutdown function
+a9d6288925d1a32b94725e6d819e41f5c6f4c1cb drm/shmem-helpers: vunmap: Don't put pages for dma-buf
+5d331232b94c90a3cdd99ba53563acb444610a99 drm/i915: Wedge the GPU if command parser setup fails
+b46657cf02f251c060a9398cd6ad39e3c51f8f88 s390/cio: return -EFAULT if copy_to_user() fails
+e495a8495f0e05ef88d3fc8342ddb3c40042f8c4 s390/crypto: return -EFAULT if copy_to_user() fails
+ef7accd86a4d83c28aae938ec51e198ad4fea0d6 qxl: Fix uninitialised struct field head.surface_id
+e76e25af7e92934437ad70f295e875db90c09bd5 sh_eth: fix TRSCER mask for R7S9210
+3079c1b6a0f4f72a115d70cab2f7bbf17c30af1a media: usbtv: Fix deadlock on suspend
+f6f7f414be76e9461867cf3c1172e749b02a4066 media: rkisp1: params: fix wrong bits settings
+995a27560b81b2a461e67e79e1ebcaeb14030296 media: v4l: vsp1: Fix uif null pointer access
+e0952d28f1485aa7cf645cc23bc729c145eac14d media: v4l: vsp1: Fix bru null pointer access
+d04d001b561be895590864fb758aa9a36e985229 media: rc: compile rc-cec.c into rc-core
+78b73fb5a5f438e0eb0f31046ed064b741d3fab3 cifs: fix credit accounting for extra channel
 
---===============1190456360281525116==
+--===============1914409023388562285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a219f9903eac-86187bf73d75.txt
+Content-Disposition: attachment; filename=revlist-86187bf73d75-fd759a723895.txt
 
-6fb8c014442f75e4a5fc957ed38d92281c837f0e uapi: nfnetlink_cthelper.h: fix userspace compilation error
-f037ad50d45f88924a75fdd1a84b98efacd894e6 powerpc/603: Fix protection of user pages mapped with PROT_NONE
-790f7677a457d7a0aa07b48dd3c818277db7d43d powerpc/perf: Fix handling of privilege level checks in perf interrupt context
-f5b2e2e938695adbddb1ccc7e3bcbf4a8b2f9200 powerpc/pseries: Don't enforce MSI affinity with kdump
-e9c60540774bde21c2ae0325564d73c944a40f46 ethernet: alx: fix order of calls on resume
-b5c3cd2d7e2a6005678053cf9a25833366595200 crypto: mips/poly1305 - enable for all MIPS processors
-06a66bc668121fc9a13411aaf81b3a45b0f97f75 mptcp: fix length of ADD_ADDR with port sub-option
-3d6ec98c81731d2462fa13c4a24eb4f032cb9d1d ath9k: fix transmitting to stations in dynamic SMPS mode
-43b41a4b84496f6ecd40370c09bf8c7fbb9e656f net: Fix gro aggregation for udp encaps with zero csum
-aaff99a0c8f50be9e95143f87fcbef58b854ef2b net: check if protocol extracted by virtio_net_hdr_set_proto is correct
-591aa1522e1dfdb698fe3ed950ef75da233d33dd net: avoid infinite loop in mpls_gso_segment when mpls_hlen == 0
-f35fb0ebbc6c99e8ad0559262c31c0e7db49553f ath11k: fix AP mode for QCA6390
-76c4fca03d7c303ac6df901ad85166775d7d8906 net: l2tp: reduce log level of messages in receive path, add counter instead
-58ebbc5023c4c9b87b2ab184ab60eb69f27b9e5f gpiolib: acpi: Add ACPI_GPIO_QUIRK_ABSOLUTE_NUMBER quirk
-667b9f3e3c5eaa5d300ef456cf58f9183aab0404 gpiolib: acpi: Allow to find GpioInt() resource by name and index
-4ffb3e60b52db9aec3608cec313fe785caa1e3a2 gpiolib: Read "gpio-line-names" from a firmware node
-8449f72e6ec2602b0e82e381ce4b07a4ecb78bfd can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
-e6ba4177ee07c3aeda8571907a40f084ce6f34d6 gpio: pca953x: Set IRQ type when handle Intel Galileo Gen 2
-a24c4ba37f9056ec045c1c931cf92d10cbc7c606 can: flexcan: assert FRZ bit in flexcan_chip_freeze()
-61eaa047691da86d99353eb89fc8c83cf699043a can: flexcan: enable RX FIFO after FRZ/HALT valid
-abdb46be83cada323845ba0ffe8a23813672e3c1 can: flexcan: invoke flexcan_chip_freeze() to enter freeze mode
-c2eabe68d5b8728662563ba9cd81fca7d3d6c803 can: tcan4x5x: tcan4x5x_init(): fix initialization - clear MRAM before entering Normal Mode
-d429dbe9d91227544812bae1fa0e6375d77ee88f tcp: Fix sign comparison bug in getsockopt(TCP_ZEROCOPY_RECEIVE)
-c59ec4d06bc494d419a0d80d4827580b7c35146f tcp: add sanity tests to TCP_QUEUE_SEQ
-738ac7e3943fc10cb1367aa44e21fc176c7d16ad netfilter: nf_nat: undo erroneous tcp edemux lookup
-a3a7a6db2070dd8e260a93b5a4da06c00bb799b6 netfilter: x_tables: gpf inside xt_find_revision()
-e19e261f48e244b0052b3fb6235a34498b6de3d1 net: always use icmp{,v6}_ndo_send from ndo_start_xmit
-a28a0a4f61221862e33d5fbdce41deac4e65ef19 net: phy: fix save wrong speed and duplex problem if autoneg is on
-5df1776484ab22c965f329436a94f2568c23f87d selftests/bpf: Use the last page in test_snprintf_btf on s390
-e5519cefc2419b6562b9586abe7dbecfdcd5737e selftests/bpf: No need to drop the packet when there is no geneve opt
-97f0ff5abeb7cef91b2cadaa7e857ed4812032b0 selftests/bpf: Mask bpf_csum_diff() return value to 16 bits in test_verifier
-85004c675e4abe9e4d99f68510a267b5b62eb86b samples, bpf: Add missing munmap in xdpsock
-6dcefdce363057b0a5cc35f89bd0de29fbcd657b libbpf: Clear map_info before each bpf_obj_get_info_by_fd
-2b0bd900dc8bb0fa40735f0987271e8297d28c9d ibmvnic: Fix possibly uninitialized old_num_tx_queues variable warning.
-b4634d21b3b4441e145837a19a741d43ead2fad1 ibmvnic: always store valid MAC address
-cac48b2820ca6716358250d4dc0bf5778562d7a7 ibmvnic: remove excessive irqsave
-1849e958c625245ef5a91eb40d7f0428883c6445 mt76: dma: do not report truncated frames to mac80211
-1133ed9a76305f327fce78821d49b5f5f371e5ef gpio: fix gpio-device list corruption
-10b45a409b35dab31050de41e9e3a1baf4b0a9c3 mount: fix mounting of detached mounts onto targets that reside on shared mounts
-1afef332965bddadfa9a5064a43a86d8cb9d5a2b cifs: fix credit accounting for extra channel
-5903b8a000d5ea646e267dc186eeed3d6429f4a9 cifs: return proper error code in statfs(2)
-26c89b9d5d234d7e6097769711536bb0469f02ca Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
-e845208b35e76d1923de14f542108903d0ac2b1a docs: networking: drop special stable handling
-2e8edfd54bd8f61210bc7d87765ecb58cf4361b5 net: dsa: tag_rtl4_a: fix egress tags
-e2f718e802933277398e9ef185bad272fac6b785 sh_eth: fix TRSCER mask for SH771x
-84905651f6cb7b322eb05ab0840a04b5298968e4 net: enetc: don't overwrite the RSS indirection table when initializing
-13cb351f4479a4dc6e98524af9ffb41e61a0c9dd net: enetc: initialize RFS/RSS memories for unused ports too
-93a9221c3416b5633d9826b088e3ed0ca17450a2 net: enetc: take the MDIO lock only once per NAPI poll cycle
-321e130a0e9fc401c1c5e873b749b33c6a6762bd net: enetc: fix incorrect TPID when receiving 802.1ad tagged packets
-c9f22ccf3d748c80687d3a81d88803ac2502e63d net: enetc: don't disable VLAN filtering in IFF_PROMISC mode
-97bd93fa52bbb69cc2ed6680dd2fc6d164207985 net: enetc: force the RGMII speed and duplex instead of operating in inband mode
-5e592307266b097ccf1423cb4e48b415fbf2d6b5 net: enetc: remove bogus write to SIRXIDR from enetc_setup_rxbdr
-6b06cc0395035b0d5a89a8fdbd94b5f7ae58c227 net: enetc: keep RX ring consumer index in sync with hardware
-4ba092bfd0fd715d5478a19385fcdcdfeefd3a16 net: dsa: tag_mtk: fix 802.1ad VLAN egress
-6868357aceea2a33d1782ba11a9c929a92209032 net: ethernet: mtk-star-emac: fix wrong unmap in RX handling
-9886e7dc72be20c3938c739ab136dc85fc39b6e9 net/mlx4_en: update moderation when config reset
-5d197b34f8a900e2249c0eca7bc2f951bffa09fd net: stmmac: fix incorrect DMA channel intr enable setting of EQoS v4.10
-47d81f13a05e450b69c4ccdaae94ffa81a0cb8a7 nexthop: Do not flush blackhole nexthops when loopback goes down
-2deab3578a59653edcd03c14769f7bf51f2141f7 net: sched: avoid duplicates in classes dump
-94bb9f073b3ccb74bedf4d4e4db3bf09ccf3a63c net: mscc: ocelot: properly reject destination IP keys in VCAP IS1
-23a9b1d5837c73cdfe56ab466fca9a92df0e8af3 net: dsa: sja1105: fix SGMII PCS being forced to SPEED_UNKNOWN instead of SPEED_10
-312abd453bd2ed3079c1ee55c5fac74eba5bec94 net: usb: qmi_wwan: allow qmimux add/del with master up
-8e0deca330b64c98dcda91b7f127addbfc2d13f0 netdevsim: init u64 stats for 32bit hardware
-cabead5c0255769d97cec05a84ed9dcd221638e1 cipso,calipso: resolve a number of problems with the DOI refcounts
-1a11657d79b30dbb7f226a39081ee817652d06fe net: stmmac: Fix VLAN filter delete timeout issue in Intel mGBE SGMII
-f4ab32e9299744910bb0670f7a26fcfe0bbb6985 stmmac: intel: Fixes clock registration error seen for multiple interfaces
-3109fb3b7fbecc9170670f37838f8fe4c5756674 net: lapbether: Remove netif_start_queue / netif_stop_queue
-c4c89e57a259ba4874374108a0a48b72b405d32d net: davicom: Fix regulator not turned off on failed probe
-39c615b5fba2507e3b013e5e896db8cd52448b6a net: davicom: Fix regulator not turned off on driver removal
-d0c5057ac2c85ef51f49618e6b93437a750a2239 net: enetc: allow hardware timestamping on TX queues with tc-etf enabled
-8f278457a7cd58a66fff91513d422849f0ea9f06 net: bonding: fix error return code of bond_neigh_init()
-10457cf630619bdf3d6ad5e40c1249a1a61ee4eb net: qrtr: fix error return code of qrtr_sendmsg()
-94e43e43a0e275dc5c5156b1fe4ead74aa6e1287 s390/qeth: fix memory leak after failed TX Buffer allocation
-e5cc4ba8c4e7c5eee658e46d179f6e4805cce178 s390/qeth: improve completion of pending TX buffers
-fd6e1056ed0a735313b271e8a41676d7ec97cc89 s390/qeth: schedule TX NAPI on QAOB completion
-092a669b3c3caa5b86bb9223cea5200f66966f26 s390/qeth: fix notification for pending buffers during teardown
-3ccfb4ee7a3d6afc1355f4bdaca2d697551db782 r8169: fix r8168fp_adjust_ocp_cmd function
-8946e75be8e2706ac6ad21044527af27372e1fe2 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
-2e222864076606e09e30ad0e9f07d119422fad48 tools/resolve_btfids: Fix build error with older host toolchains
-a1a1cf22b2f500e856d00c7f0466cb498657c22c perf build: Fix ccache usage in $(CC) when generating arch errno table
-ee5d5b4fc908917f9c25aac83f2a81312ac48513 net: stmmac: stop each tx channel independently
-972b48d76245f9ef82b2e77d14fd3cf8ae428bed net: stmmac: fix watchdog timeout during suspend/resume stress test
-09754392acb907b46176481f80f73e97f36737c5 net: stmmac: fix wrongly set buffer2 valid when sph unsupport
-cfb08e530701a79158e644817655b4a17a2e3df7 ethtool: fix the check logic of at least one channel for RX/TX
-44e5081762a19573f1c8387c718e4b35cc82e164 net: phy: make mdio_bus_phy_suspend/resume as __maybe_unused
-0ac384fdd509f7984a01e8e3102b6ceeb46ebd09 selftests: forwarding: Fix race condition in mirror installation
-e35cca9b6ead39e17f990b7853f4acc02cffea78 mlxsw: spectrum_ethtool: Add an external speed to PTYS register
-906a03e2b1835e23b42daa82806b1c2fc70058cc perf traceevent: Ensure read cmdlines are null terminated.
-b27a5d282a2b5e37d14951fa845ecf04f8b16fa9 perf report: Fix -F for branch & mem modes
-706d1866ab20ac7334ad150fcb1b1b9b2a4f357c net: hns3: fix error mask definition of flow director
-ece1cd6158f11ae4ec8ddaf2d45828be11b13f82 net: hns3: fix query vlan mask value error for flow director
-d0603137163117cbdb2a2b2dad3858e846a62c53 net: hns3: fix bug when calculating the TCAM table info
-016678a3825c86d781144fda3ecbe7aedcec831d s390/cio: return -EFAULT if copy_to_user() fails
-9b217f446164d1dea4bc5ea0fe328d4926df84bd bnxt_en: reliably allocate IRQ table on reset to avoid crash
-dcfcd0a8649b9cef1051ac3e10f2997a7d8b3822 drm/fb-helper: only unmap if buffer not null
-9377161ed2525dd4a5c67a99481d7efa53e4737f drm/compat: Clear bounce structures
-dccfaf92869555c9bdd89cd392ab6eb117ade369 drm/radeon: also init GEM funcs in radeon_gem_prime_import_sg_table
-1506b0a473fb66c974bae328b06facde8f87ba34 drm/amd/display: Add a backlight module option
-53cad9cf611bdb8c4ee84a3655ce73cb00e182cb drm/amdgpu/display: use GFP_ATOMIC in dcn21_validate_bandwidth_fp()
-39fe1c148a16e988f948f276113a5d234498aab0 drm/amd/display: Fix nested FPU context in dcn21_validate_bandwidth()
-a8d64da9620b3f2eab5d1f404bcf6654e09fb19c drm/amd/pm: correct the watermark settings for Polaris
-b6d82707ccf7ab0b0a79e328f90589f881a7014c drm/amd/pm: bug fix for pcie dpm
-48f1c5541a3a6b25e107006e1a2260f64f4ec385 drm/amdgpu/display: simplify backlight setting
-7410a69d2cf33de57bccbf37bcfe684d2b8f9b6b drm/amdgpu/display: don't assert in set backlight function
-810be7b56b45cd9462d05972bc3f8040d476cd50 drm/amdgpu/display: handle aux backlight in backlight_get_brightness
-86c9dc20ce8fcb1849207869fb6dc3d77b86bab7 drm/shmem-helper: Check for purged buffers in fault handler
-4026bfd4d6230452f37c0b6b501e7a5deecbf221 drm/shmem-helper: Don't remove the offset in vm_area_struct pgoff
-dbd601d5ba3400c02a33fd866eca8d0764bf9a28 drm: Use USB controller's DMA mask when importing dmabufs
-b9b0512847e2b4d8b5b92941f90d52178a6554bf drm/amdgpu: fix S0ix handling when the CONFIG_AMD_PMC=m
-5dd13292e6ef1c6d9b4b3be7e613e20d35f00652 drm: meson_drv add shutdown function
-3ed1f9b5e96714e359ed3fdb268387cbfe9d6269 drm/shmem-helpers: vunmap: Don't put pages for dma-buf
-325e77a8f97ced12052d6a8cf7cc36aa534474f8 drm/i915: Wedge the GPU if command parser setup fails
-baa408504e80b0cda73d70c4d23d79af2179406b s390/cio: return -EFAULT if copy_to_user() fails
-939a0c3e34a644b5b117fdf7dfd80043672d20a7 s390/crypto: return -EFAULT if copy_to_user() fails
-86187bf73d7566c3fc121791a6c29a0aae96e440 qxl: Fix uninitialised struct field head.surface_id
+c4006e2052d16b1ea5421a1622af1defb7c0e793 uapi: nfnetlink_cthelper.h: fix userspace compilation error
+b7d7fa435d9d8a799475af175cc8d7f156634743 powerpc/603: Fix protection of user pages mapped with PROT_NONE
+c452a28fd1b72950e5c33c2f787543e1754ef54a powerpc/perf: Fix handling of privilege level checks in perf interrupt context
+67f649c393005b07ca74a1a1c4eb8d229ce0f257 powerpc/pseries: Don't enforce MSI affinity with kdump
+42db223ae95e34209b1c93e5daa7e2dba49cef45 ethernet: alx: fix order of calls on resume
+674fa8ab6b6fc088c628e41a4391c46b73f1775c crypto: mips/poly1305 - enable for all MIPS processors
+e900fb155f654301718123046b835196542e71d4 mptcp: fix length of ADD_ADDR with port sub-option
+b83516471d476db30cfb3b483037684b8250a38c ath9k: fix transmitting to stations in dynamic SMPS mode
+2a07b19cb59e956d576e45442b5c5f7fc7417ea9 net: Fix gro aggregation for udp encaps with zero csum
+931dce8bf0540b5aacf4b8d1517d1cae3d8c66e3 net: check if protocol extracted by virtio_net_hdr_set_proto is correct
+92c08d44e575667ad1f5d05d4af5dbe8c83d1c8a net: avoid infinite loop in mpls_gso_segment when mpls_hlen == 0
+0a62cbd2480a6f91e1d155cad41b77bedcabb894 ath11k: fix AP mode for QCA6390
+cccaba53cad843ccd1ab2922f8d99703d96005f6 net: l2tp: reduce log level of messages in receive path, add counter instead
+52bfda44ca9622397d47497ee4f8ca4aee5b1391 gpiolib: acpi: Add ACPI_GPIO_QUIRK_ABSOLUTE_NUMBER quirk
+a97c8d324f90a9e2a1fbc27c2496a54a04caee0a gpiolib: acpi: Allow to find GpioInt() resource by name and index
+210141ddd933645883c9e59640bdf7e9159b1d0f gpiolib: Read "gpio-line-names" from a firmware node
+299045adb63230ceb7e1e7e0723cc3ab69f297fb can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
+0cf13fb529bc6694f04ecf60fe526bb04a55430a gpio: pca953x: Set IRQ type when handle Intel Galileo Gen 2
+8999ba5660c42c5a5ebe4bc29194fdcc4b2964a4 can: flexcan: assert FRZ bit in flexcan_chip_freeze()
+956c9b43b70612be5cd531d1573af7b02a428e3c can: flexcan: enable RX FIFO after FRZ/HALT valid
+85d58fe6d3a47513abbe969455064a0e4dfb9039 can: flexcan: invoke flexcan_chip_freeze() to enter freeze mode
+4fc58c87dd2eb14c130056e1a0526a2292ffc5c1 can: tcan4x5x: tcan4x5x_init(): fix initialization - clear MRAM before entering Normal Mode
+b6f677a675015f0b304855361ec0eb43ea645ebe tcp: Fix sign comparison bug in getsockopt(TCP_ZEROCOPY_RECEIVE)
+ef7e44286cf9a2ebe9a73801ebda363a2262d48a tcp: add sanity tests to TCP_QUEUE_SEQ
+8216108dde3791c3f3f7d46dd99883962bfaec10 netfilter: nf_nat: undo erroneous tcp edemux lookup
+5d59d9e0083d56d555db54437720233388835e69 netfilter: x_tables: gpf inside xt_find_revision()
+74822db567cc9c6e17948df82919c0a218458d80 net: always use icmp{,v6}_ndo_send from ndo_start_xmit
+a720d0129a1556232ffca7fe752de8fec18f86fd net: phy: fix save wrong speed and duplex problem if autoneg is on
+748bd55d69598446b5457385353e42f9834b1492 selftests/bpf: Use the last page in test_snprintf_btf on s390
+fdd1a6ec05c74ca7b8e726bfe10de9015ac91963 selftests/bpf: No need to drop the packet when there is no geneve opt
+8d2944d25a2e68d87e17b978d71826c697b46dec selftests/bpf: Mask bpf_csum_diff() return value to 16 bits in test_verifier
+7dfc029bdfbbb42248327fd049042ad12aa03ad6 samples, bpf: Add missing munmap in xdpsock
+ff58c7129e9e4139a5c760c6d67d7453c0db9d00 libbpf: Clear map_info before each bpf_obj_get_info_by_fd
+f92017806c17016fcacbba1eb68900f3c77bdacb ibmvnic: Fix possibly uninitialized old_num_tx_queues variable warning.
+6ff810d11673fb95a315910b48c9504c5d2848da ibmvnic: always store valid MAC address
+488c9eb7c3dde6d0f5235e461ccd3ce93770493e ibmvnic: remove excessive irqsave
+8ffb322ca283fdf2f18983d152a1a68b5fa10b66 mt76: dma: do not report truncated frames to mac80211
+47a85a11fbc24d609da798e79b30ed9b177e47f3 gpio: fix gpio-device list corruption
+5770a53f7cdbf7f42abd307e9c0529dc18ace387 mount: fix mounting of detached mounts onto targets that reside on shared mounts
+7f02fe4392e510c4c03e1830cbe509d86a0973c0 cifs: fix credit accounting for extra channel
+0b01049c5b8ca8caa772693d7191b3c91279735d cifs: return proper error code in statfs(2)
+bf9efe70fe0ebc7b282f223a29f0f66c22f8d959 Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
+f12b96e09ddbc4d8b785d886961f860e1486b5bc docs: networking: drop special stable handling
+5c921a9d4d602b2ff4f15bb8cdfe24712ecda2d1 net: dsa: tag_rtl4_a: fix egress tags
+919bbe3ad023910891fc403aeead691cdcd6d47e sh_eth: fix TRSCER mask for SH771x
+1948ca8a669010a6c4178cf5b3fb5e3af3fdefe9 net: enetc: don't overwrite the RSS indirection table when initializing
+9417ba7c5f66ce6b472a8bee2f66ee6105b0bc13 net: enetc: initialize RFS/RSS memories for unused ports too
+9171fcd992ae555770adfed337b4201c6f81e71f net: enetc: take the MDIO lock only once per NAPI poll cycle
+81102cd8890efa36fd66b567a82646ebf915ce58 net: enetc: fix incorrect TPID when receiving 802.1ad tagged packets
+8ea65459067d0b916f4dac888185d6507c25227a net: enetc: don't disable VLAN filtering in IFF_PROMISC mode
+60d411c0d29e19577711b17de6367ba516d62052 net: enetc: force the RGMII speed and duplex instead of operating in inband mode
+6f9250109e6e076ce3bc8b8b7b6734cffd2b8b6d net: enetc: remove bogus write to SIRXIDR from enetc_setup_rxbdr
+904719a381d4ed1e14828057c09ca9a2839a3b3c net: enetc: keep RX ring consumer index in sync with hardware
+802ab39e787a2f752b4836bdf048e80eb5b354a5 net: dsa: tag_mtk: fix 802.1ad VLAN egress
+ccce0d725e823002ca115dc342a68c7917c68b68 net: ethernet: mtk-star-emac: fix wrong unmap in RX handling
+706c6f30f26f045d57bd98333e1e48e6e38655af net/mlx4_en: update moderation when config reset
+af3569f4b8b64547e687be028831b122bc86ce1b net: stmmac: fix incorrect DMA channel intr enable setting of EQoS v4.10
+1b23efdf4fd4e2abae8d7e42f379dd179e2363e5 nexthop: Do not flush blackhole nexthops when loopback goes down
+9a76c64e1de1c0d272eb404cd4d8542cffaf4b66 net: sched: avoid duplicates in classes dump
+9c4a6c51f9ffbcd2caaf7e69661927b456248714 net: mscc: ocelot: properly reject destination IP keys in VCAP IS1
+44b379323067b1d8bd2dd3f5ede459c6ee6a30de net: dsa: sja1105: fix SGMII PCS being forced to SPEED_UNKNOWN instead of SPEED_10
+5d8e2baec5b1be8d21523ea13cbcb52f8d859e90 net: usb: qmi_wwan: allow qmimux add/del with master up
+858eb3efccaae29c5071a0e7f907698216ed2724 netdevsim: init u64 stats for 32bit hardware
+349d28ccf8849470c5e8b84c57733ace1b050843 cipso,calipso: resolve a number of problems with the DOI refcounts
+7e124c23c010ddba7cc67cd782a07eb18dfe3400 net: stmmac: Fix VLAN filter delete timeout issue in Intel mGBE SGMII
+26c159a409e750e1800ff4a6abb9a572d0261287 stmmac: intel: Fixes clock registration error seen for multiple interfaces
+29c5afa1b6e028981fb3f86d6a323f43547ed01c net: lapbether: Remove netif_start_queue / netif_stop_queue
+528466ad258d88c4ccc7528c28f6184b234a59d4 net: davicom: Fix regulator not turned off on failed probe
+7a89b91712891cde797438849083a9f30b0ce147 net: davicom: Fix regulator not turned off on driver removal
+e8ab74d117319fbe2a26f729ae15f8de7db22d6a net: enetc: allow hardware timestamping on TX queues with tc-etf enabled
+5629e40ca577fbc4117f9c7a5e41aca8e2f5346c net: bonding: fix error return code of bond_neigh_init()
+6fe950245fac818150d6cad1ab727e7c6fd45cb1 net: qrtr: fix error return code of qrtr_sendmsg()
+a8d7c25651e2e2b7ea3b12470b00d9234cfddb38 s390/qeth: fix memory leak after failed TX Buffer allocation
+2fbe2e7f4d9fd963ad34c2e32474364afeaf9d4a s390/qeth: improve completion of pending TX buffers
+238d22c0d69ea9be27cc12b623117a85ee4113b7 s390/qeth: schedule TX NAPI on QAOB completion
+c0769029a06d795efd2e42114ef2c20ebba64eb4 s390/qeth: fix notification for pending buffers during teardown
+84cec90c072a14305afbd5428c6706d83fcf8298 r8169: fix r8168fp_adjust_ocp_cmd function
+bab0ec04a61d68566e1317ab18ce6c9d06076908 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+bab6082dac6afcfdcb0b99ff2f888d8d244d59a6 tools/resolve_btfids: Fix build error with older host toolchains
+603cae1a03759c7e0f670d24cb08f799cea7dbb9 perf build: Fix ccache usage in $(CC) when generating arch errno table
+eb2110b65acd34be3f6967aed5b90560ce5afdb8 net: stmmac: stop each tx channel independently
+116f350f4441244aeed4e6e2aba67ae2b9821e5f net: stmmac: fix watchdog timeout during suspend/resume stress test
+862eab9c13b9035196565fa3016cd92c153a4ae7 net: stmmac: fix wrongly set buffer2 valid when sph unsupport
+5aea4b1f4f48bb94cc85eef818c93fdc79c08af5 ethtool: fix the check logic of at least one channel for RX/TX
+6d175482966d834fef20cba09c04d834f8293831 net: phy: make mdio_bus_phy_suspend/resume as __maybe_unused
+efb4dea66d485a6680d318b2bb893103dbd2c4ca selftests: forwarding: Fix race condition in mirror installation
+375780c723364899fe6a28648d99b334508c369f mlxsw: spectrum_ethtool: Add an external speed to PTYS register
+1933cafe7887de018eeb1632b451c0f06a7f02ec perf traceevent: Ensure read cmdlines are null terminated.
+07450ca61ae1eea3b4ab380cb192b5ab8cd84306 perf report: Fix -F for branch & mem modes
+92112e35356da30b9638b2b7c9c7c8a0df398d25 net: hns3: fix error mask definition of flow director
+af4d779324f9d90b716c4817be167198fed50eb6 net: hns3: fix query vlan mask value error for flow director
+a0b0a80e699636bbb0d9e108bf9ff3dbd6a176f1 net: hns3: fix bug when calculating the TCAM table info
+6cc1e25313498fc254b1ab5783d4b4259cef9a40 s390/cio: return -EFAULT if copy_to_user() fails
+e26aeff768a622c3aefd687275364aede6878513 bnxt_en: reliably allocate IRQ table on reset to avoid crash
+0eb368fca1f8b70c661d1a13b0222097b5a00b6a drm/fb-helper: only unmap if buffer not null
+3bc81c6211adb5ea3a8af15f0305463641bc0edc drm/compat: Clear bounce structures
+bc7ebd567d5f0c9d7c4e9662901e098dfd37e2b2 drm/radeon: also init GEM funcs in radeon_gem_prime_import_sg_table
+2259a777967ecaa07bb623cee63e8276dfd562ed drm/amd/display: Add a backlight module option
+0068874bc5a696b36dcbfaaf910332bc26a8264e drm/amdgpu/display: use GFP_ATOMIC in dcn21_validate_bandwidth_fp()
+44c2b2b5d7da0b2d3455432b8f576483c1cec325 drm/amd/display: Fix nested FPU context in dcn21_validate_bandwidth()
+0f8c5415d9903bebc1db6f2f65e032db98318420 drm/amd/pm: correct the watermark settings for Polaris
+f08803700ba58bcaa9886d7c27416af7e7e2a967 drm/amd/pm: bug fix for pcie dpm
+7e893cd3e530efed1e13dba59bf8a2d9102a6f14 drm/amdgpu/display: simplify backlight setting
+a46af36c4fd03e5802e163bcb767a6ad679553d2 drm/amdgpu/display: don't assert in set backlight function
+5216d94937108c1400f2d16871284b52aa68e9e6 drm/amdgpu/display: handle aux backlight in backlight_get_brightness
+8421b10bfba63a6a394d8e50422dfe19750bef33 drm/shmem-helper: Check for purged buffers in fault handler
+aba7aad1bf5259377c2b3c3635dffb13fa97e6d6 drm/shmem-helper: Don't remove the offset in vm_area_struct pgoff
+f7631ce73d723a5109ca8f06a0032eb607362a91 drm: Use USB controller's DMA mask when importing dmabufs
+83ef3aed3b2f00828cf93ff1b887d678684e2175 drm/amdgpu: fix S0ix handling when the CONFIG_AMD_PMC=m
+453a7a5b3112db874190c5c2cd2202ca0e2ae1c6 drm: meson_drv add shutdown function
+c2fd98970086cdef680dd000ba271c4f2c7451e0 drm/shmem-helpers: vunmap: Don't put pages for dma-buf
+a033ac04a929e7695301705a02c972b90141637c drm/i915: Wedge the GPU if command parser setup fails
+d60f217e9f77916db81633d1665259567af91028 s390/cio: return -EFAULT if copy_to_user() fails
+c95fc901e61502037b18de5acf412481877c2dca s390/crypto: return -EFAULT if copy_to_user() fails
+1525637519053dad0a3e493f5662ac63b25efc58 qxl: Fix uninitialised struct field head.surface_id
+a941a88e04e7c6390cc79bba0d5585c466262fa3 sh_eth: fix TRSCER mask for R7S9210
+db6acf3cea082943013d7172871058666d994d25 media: usbtv: Fix deadlock on suspend
+4f3e1c53acc44f063f666eb60fd2b53b4fb85b60 media: rkisp1: params: fix wrong bits settings
+e43dbf08ef527e931eb56bf0d40b4f141851e1d2 media: v4l: vsp1: Fix uif null pointer access
+5945b606acfe3fc1f1d2665c2775e4c559afe400 media: v4l: vsp1: Fix bru null pointer access
+fd759a72389528d04a45fd0b7be9db3083ba2516 media: rc: compile rc-cec.c into rc-core
 
---===============1190456360281525116==
+--===============1914409023388562285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ece041da580-db348a78a4f0.txt
+Content-Disposition: attachment; filename=revlist-db348a78a4f0-e07ad67f9cf4.txt
 
-22af5e6d7257797909e5f03a569add7d45bef8bd uapi: nfnetlink_cthelper.h: fix userspace compilation error
-209929657cb0fef09967baf2757ca8cda30e39dd powerpc/pseries: Don't enforce MSI affinity with kdump
-d7985c5dda4327323164f1d87d7ccd787464a353 ethernet: alx: fix order of calls on resume
-9e9f5d5b7702398433b72c5910bc67a6a3a9b783 ath9k: fix transmitting to stations in dynamic SMPS mode
-e56dc4deffb8f73f761066b6751a1d1d97eb5b4c net: Fix gro aggregation for udp encaps with zero csum
-c62656419a58c541fedded971c9c0bf19fed1cc1 net: check if protocol extracted by virtio_net_hdr_set_proto is correct
-d7d4a89a514d0ac865d2fcee3baba28a61e55b69 net: avoid infinite loop in mpls_gso_segment when mpls_hlen == 0
-0f2203e28410bee72873a528c9f5d706cbb2b7e9 sh_eth: fix TRSCER mask for SH771x
-d63b6a0ab8d157d4533c7a9ccb284ef46e0438b1 can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
-75f6f02539955397ebd6d009f7f58fd575da3c96 can: flexcan: assert FRZ bit in flexcan_chip_freeze()
-fe3f4e8f9e6c73c4e534465601ae3a0076271431 can: flexcan: enable RX FIFO after FRZ/HALT valid
-5f6bf1e2799ea36612a97c697b985eb49656bbfb can: flexcan: invoke flexcan_chip_freeze() to enter freeze mode
-239272267b22a82d7bd4d42b7baebbf932394f69 can: tcan4x5x: tcan4x5x_init(): fix initialization - clear MRAM before entering Normal Mode
-03cf1b62ae8e460f861d053dbf04bd026c455d9b tcp: add sanity tests to TCP_QUEUE_SEQ
-b9386ee247fb7e5e49b49c6df5b6b96999ef970b netfilter: nf_nat: undo erroneous tcp edemux lookup
-3454dc95fe29a0dc456750fffdee20217f193393 netfilter: x_tables: gpf inside xt_find_revision()
-e91b85ea534d992cd681d01d10bb5ec8fa2b4204 selftests/bpf: No need to drop the packet when there is no geneve opt
-a9bd5ababf629945a9bcbe60ed98e1c945bf06b5 selftests/bpf: Mask bpf_csum_diff() return value to 16 bits in test_verifier
-e592c0947bd14d55c0eb61f577adc760cca90170 samples, bpf: Add missing munmap in xdpsock
-bf196be73c64efd0cba7d95c0995ccc2410baa4c ibmvnic: always store valid MAC address
-f31bcf5172aee31b918d7a4014bc4f0b3fa89f24 mt76: dma: do not report truncated frames to mac80211
-78a34dd74cccac751369f2982a81631293b76ec0 powerpc/603: Fix protection of user pages mapped with PROT_NONE
-10abee1ae17e513adfe3406ff84802ba8f7a469e mount: fix mounting of detached mounts onto targets that reside on shared mounts
-e05447a441fb54ecf38c7daf345a1eed94c99468 cifs: return proper error code in statfs(2)
-5bab838207246521fb2ca3ba0842c07bed742eb2 Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
-ef97d60882e1882e9d5f01a17475b45f16a399ea net: enetc: don't overwrite the RSS indirection table when initializing
-198dec65cf8bcf9f2b6a44a3dc6bee32fb616875 net: enetc: keep RX ring consumer index in sync with hardware
-c304c1299fb89b8a8fd67db3a773b08e6374b5fe net/mlx4_en: update moderation when config reset
-9ab4a1a02498863c314c9c4de9c389463116664e net: stmmac: fix incorrect DMA channel intr enable setting of EQoS v4.10
-11814a6861c59e20d551a28faa86968d175cb9a6 nexthop: Do not flush blackhole nexthops when loopback goes down
-617bde228887471edddd403c9354f7f524604134 net: sched: avoid duplicates in classes dump
-a912040e863984262c83e10c6a047e827eb477be net: usb: qmi_wwan: allow qmimux add/del with master up
-7e42968f3d4bcc1f476e2d495b19c51fdc943263 netdevsim: init u64 stats for 32bit hardware
-9766c3cc13946d642d210b643a04534449ac279b cipso,calipso: resolve a number of problems with the DOI refcounts
-c98a507055ed0d56d0eb13d43b1a045e6b8168bb net: lapbether: Remove netif_start_queue / netif_stop_queue
-13a9bf72dbd1cc64fe9a06680c5a93e588031d5b net: davicom: Fix regulator not turned off on failed probe
-73d24b900f1046e5131a9cfb167ceecc96669bed net: davicom: Fix regulator not turned off on driver removal
-5fbee2e9cf614157da5ca553d72f40be883e436a net: bonding: fix error return code of bond_neigh_init()
-6ba4874e7b59ff7c55c9c1531494ff6331451ae9 net: qrtr: fix error return code of qrtr_sendmsg()
-9df0c7bba14a7002e97155a77372418bda5164e9 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
-e61809c66b285588a3bdfbd0a77a7bedf2f2436e net: stmmac: stop each tx channel independently
-7adff1437bd8205713a4f0d2a8f036decb3367d4 net: stmmac: fix watchdog timeout during suspend/resume stress test
-8ac6ea0489c0c87b9c434e8d284d02ff640830ad selftests: forwarding: Fix race condition in mirror installation
-2e790e42755bbddbe656c3d84a0ce771634d8c33 perf traceevent: Ensure read cmdlines are null terminated.
-374743771a6e04ef86285cb80e62447387451088 net: hns3: fix query vlan mask value error for flow director
-e77cae47b1782e305fc090d81ca85f85f1692aa9 net: hns3: fix bug when calculating the TCAM table info
-8100af77f63af9315c307c5c28ad88af61336ab3 s390/cio: return -EFAULT if copy_to_user() fails
-2420b8b3c359c8a2bca2eb523ff28ef0b3acfa43 bnxt_en: reliably allocate IRQ table on reset to avoid crash
-f0e41c71f1b9145cebb39c7df1c9c894f62411c8 drm/compat: Clear bounce structures
-47eb33951a993179576bf0497b6d4cdd3f3dc3ae drm/shmem-helper: Check for purged buffers in fault handler
-f41e284ac29a86a9c1ffa769ab9b2cdc185658d6 drm/shmem-helper: Don't remove the offset in vm_area_struct pgoff
-50c8ff991fd3d77038fbcf047a446cdcf143663d drm: meson_drv add shutdown function
-36b573a03bc10682c2878583544a5992227e55b5 s390/cio: return -EFAULT if copy_to_user() fails
-6fe9efdf2fffa088e49869d63c469c80c5981d8c s390/crypto: return -EFAULT if copy_to_user() fails
-db348a78a4f00d9c0ed1fcee6350be6664b7ed64 qxl: Fix uninitialised struct field head.surface_id
+6ed201d3d945d5a0e28b82c09347927de5a3b394 uapi: nfnetlink_cthelper.h: fix userspace compilation error
+c9887dc7628382ad412a02790a8ae53bad1b755e powerpc/pseries: Don't enforce MSI affinity with kdump
+593af1bb7ad0e800000a90f7d00700be4449db22 ethernet: alx: fix order of calls on resume
+6446c8dfd7ddd9390a47f11764634ace90758537 ath9k: fix transmitting to stations in dynamic SMPS mode
+e7f5686efa4b8cc707bcfa2240c10e862d3b356e net: Fix gro aggregation for udp encaps with zero csum
+2d38b06fa5fcbf5beb0c3d2f641a34724b180893 net: check if protocol extracted by virtio_net_hdr_set_proto is correct
+56e8375fb4ec68543b9ccf57ff87fea1a4f2404f net: avoid infinite loop in mpls_gso_segment when mpls_hlen == 0
+59a62213e3b0f1d2d0f3eaf624c4501b56350298 sh_eth: fix TRSCER mask for SH771x
+2ffc21c579a98f97911764028b51f2940ae0d97a can: skb: can_skb_set_owner(): fix ref counting if socket was closed before setting skb ownership
+d4db25dde0d8b4abb4c87907260fec387045cf72 can: flexcan: assert FRZ bit in flexcan_chip_freeze()
+c8c693118b65d61307061c674ba699289250434e can: flexcan: enable RX FIFO after FRZ/HALT valid
+b65dc73e1c0663948d27ac1d3602f0cd41c5236c can: flexcan: invoke flexcan_chip_freeze() to enter freeze mode
+7569ac1bea598bc04024cdd1bd3b4625bf27f394 can: tcan4x5x: tcan4x5x_init(): fix initialization - clear MRAM before entering Normal Mode
+8fafb93d52e7f6fecaea8531b9eea56e4214d706 tcp: add sanity tests to TCP_QUEUE_SEQ
+d755a5d9e89423fa45d2517fe6640972c2d5a34c netfilter: nf_nat: undo erroneous tcp edemux lookup
+6ff2a5836feb6224ecc493b36d9ce95382cb9d64 netfilter: x_tables: gpf inside xt_find_revision()
+d1cbd99db00a70670547793cf557926bd892944c selftests/bpf: No need to drop the packet when there is no geneve opt
+0b6f2fac1216c384b8e9b6f8d0ee7b1e27711171 selftests/bpf: Mask bpf_csum_diff() return value to 16 bits in test_verifier
+3308f7fc87b05198896694316401d899159550af samples, bpf: Add missing munmap in xdpsock
+747b6873bbe7d8a8a349e090c3a5b2a1de72fc55 ibmvnic: always store valid MAC address
+572e1a5d5d5e67e18b621598a48eb091fdc35668 mt76: dma: do not report truncated frames to mac80211
+86102ec7dcfc641fe7157cccb3ff97bab10a18fa powerpc/603: Fix protection of user pages mapped with PROT_NONE
+df09cc3c6e504e23bf776a83f361af1ce850a7b2 mount: fix mounting of detached mounts onto targets that reside on shared mounts
+5abfa12f16202371398427d7ff4045c374a1889b cifs: return proper error code in statfs(2)
+4e002a16c67b618c5725982f2ef499e0173ca2d6 Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
+9685db6f68a8ed604eb39f53f36d6af47467e491 net: enetc: don't overwrite the RSS indirection table when initializing
+208c221488c24273ea2ea588b0c66f29acb2d338 net: enetc: keep RX ring consumer index in sync with hardware
+e1cdca04673c382b8bdb8cae95a7166187cbf3d2 net/mlx4_en: update moderation when config reset
+538cfdf520821a6a289cbf3af2e31c68a821b58a net: stmmac: fix incorrect DMA channel intr enable setting of EQoS v4.10
+b76a7c3f42dcba88a93fb84dd11d15b6d358fa0e nexthop: Do not flush blackhole nexthops when loopback goes down
+c0fdff470b5593e4fa67ee803f1b840e2d0f7639 net: sched: avoid duplicates in classes dump
+ce42c8b3b1ecfca9791097cc041c4374e3a7b2d8 net: usb: qmi_wwan: allow qmimux add/del with master up
+f9d302deb18f0e4f9c96f3a4664892270ff36fab netdevsim: init u64 stats for 32bit hardware
+ef29fb090629f262fa0b44f8856479dd9f2cf14a cipso,calipso: resolve a number of problems with the DOI refcounts
+04255c7437050db5e30dd561389560d2e3e4807c net: lapbether: Remove netif_start_queue / netif_stop_queue
+f1e75b07213a390f80bfcc5f8bab033b519863d0 net: davicom: Fix regulator not turned off on failed probe
+8b32bbdd4dbaa98b1ee9562b576ed01b1df268c5 net: davicom: Fix regulator not turned off on driver removal
+2636106594d0f426c34fa11f6d791d1927b2737a net: bonding: fix error return code of bond_neigh_init()
+50de2b6d5ec1b390a2b326608f61641498231cc8 net: qrtr: fix error return code of qrtr_sendmsg()
+d24893db4bb50dc6d2ebf23c6dcdf54293908099 ixgbe: fail to create xfrm offload of IPsec tunnel mode SA
+ee72b924fdd4e529a31940578824aafcf5a1c6a1 net: stmmac: stop each tx channel independently
+09352141c2ecc706c168fb7944b1a566bc9c1206 net: stmmac: fix watchdog timeout during suspend/resume stress test
+035c0cebfc4585c9bde002cf07bd136fc941de24 selftests: forwarding: Fix race condition in mirror installation
+41cc8ae19133ee156143e80722e1105785cc5291 perf traceevent: Ensure read cmdlines are null terminated.
+ce9045accf747c626bc36ea8d6ebaf3e19dcfafc net: hns3: fix query vlan mask value error for flow director
+bb566a0035d06ac12dadb0612e8e730a0796bf87 net: hns3: fix bug when calculating the TCAM table info
+0f31bf84dcc4372673e0004858ca72479a0ca9b0 s390/cio: return -EFAULT if copy_to_user() fails
+d636cb4eb7da4c1975f194d6899fbc1c0ce0bfaf bnxt_en: reliably allocate IRQ table on reset to avoid crash
+82ba1fd179458dbfce83ea2a1cd7b7862ca16d59 drm/compat: Clear bounce structures
+dac4fa9f32a9146e23926daabba108aa3f8e76e8 drm/shmem-helper: Check for purged buffers in fault handler
+0c030863c4b5c6ca05aef1c18a3b710df73e6fe8 drm/shmem-helper: Don't remove the offset in vm_area_struct pgoff
+bde758d629a70b3510c4cdc31fba88f57dbc5de1 drm: meson_drv add shutdown function
+c41fef31db752856a223b46b988ef892972afa49 s390/cio: return -EFAULT if copy_to_user() fails
+791cf368ab85b78c1ed455e9506c815fc258518d s390/crypto: return -EFAULT if copy_to_user() fails
+6eae99089c9baef3ae7d3611bf0a2ec5b0a08105 qxl: Fix uninitialised struct field head.surface_id
+4f5b4782ce48b959e2be713876b27decde5e6d71 sh_eth: fix TRSCER mask for R7S9210
+d6698a061ade748b1cb8973020a24100e7ab41e8 media: usbtv: Fix deadlock on suspend
+76a96b0cd28feb1a2de2f9eadf74e540f565c338 media: v4l: vsp1: Fix uif null pointer access
+4900cc9410215d115da969b51c0e728e44c07301 media: v4l: vsp1: Fix bru null pointer access
+e07ad67f9cf4dfca302a9bae57d8197df1c8d5ed media: rc: compile rc-cec.c into rc-core
 
---===============1190456360281525116==--
+--===============1914409023388562285==--
