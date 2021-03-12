@@ -1,37 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 12 Mar 2021 18:17:05 -0000
-Message-Id: <161557302599.12263.11941699464020033247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Fri, 12 Mar 2021 18:17:32 -0000
+Message-Id: <161557305231.12467.1481913180942549653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 8608bdeb4cdb5608b4073077e6e5d7bdedefd169
-    new: 42326a293954f11eadf31161b8315bf6dc2279da
+  - ref: refs/heads/arm64/entry/rework
+    old: c7071810c4aa3f59ecec504f7661d6cb8bb9b94f
+    new: 3e54b97cd19bedc6dc6327162b54d7e26680c5e0
     log: |
-         606a5d4227e4610399c61086ac55c46068a90b03 opp: Don't drop extra references to OPPs accidentally
-         bee7359f65af0c67f3c8a39810619d7e517cac9e Merge branch 'opp/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-         42326a293954f11eadf31161b8315bf6dc2279da Merge branch 'pm-opp' into linux-next
-         
-  - ref: refs/heads/linux-next
-    old: 8608bdeb4cdb5608b4073077e6e5d7bdedefd169
-    new: 42326a293954f11eadf31161b8315bf6dc2279da
-    log: |
-         606a5d4227e4610399c61086ac55c46068a90b03 opp: Don't drop extra references to OPPs accidentally
-         bee7359f65af0c67f3c8a39810619d7e517cac9e Merge branch 'opp/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-         42326a293954f11eadf31161b8315bf6dc2279da Merge branch 'pm-opp' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 8608bdeb4cdb5608b4073077e6e5d7bdedefd169
-    new: 42326a293954f11eadf31161b8315bf6dc2279da
-    log: |
-         606a5d4227e4610399c61086ac55c46068a90b03 opp: Don't drop extra references to OPPs accidentally
-         bee7359f65af0c67f3c8a39810619d7e517cac9e Merge branch 'opp/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-         42326a293954f11eadf31161b8315bf6dc2279da Merge branch 'pm-opp' into linux-next
+         49f8196d81203d5c6e2565411146b1826680e79d arm64: entry: convert SError handlers to C
+         328bc4292e5598c529787884a0818a30f1456dde arm64: entry: unmask IRQ after EL0 handling
+         6db67e25f91cb443255e6be9171ec0f5251e0fc3 arm64: entry: move arm64_preempt_schedule_irq to entry-common.c
+         67e9869dfdfcf4b9a5a56f34dd7289ba50c37339 arm64: entry: move preempt logic to C
+         f91b0ccbea10a0aed4b479aebdd3c6e673fff4fb arm64: entry: add a call_on_irq_stack helper
+         3e54b97cd19bedc6dc6327162b54d7e26680c5e0 arm64: entry: convert irq handlers to C
          
