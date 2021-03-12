@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
-Date: Fri, 12 Mar 2021 21:29:06 -0000
-Message-Id: <161558454615.30527.6386490352318392224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Fri, 12 Mar 2021 21:33:42 -0000
+Message-Id: <161558482237.936.16603112530372942521@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
-user: ebiederm
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/for-v5.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 3b0c2d3eaa83da259d7726192cf55a137769012f
+  - ref: refs/heads/next
+    old: a38fd8748464831584a19438cbb3082b5a2dab15
+    new: 5504a69a4219170ad00fe5eebc57672a357813ad
+    log: |
+         5504a69a4219170ad00fe5eebc57672a357813ad audit: further cleanup of AUDIT_FILTER_ENTRY deprecation
+         
