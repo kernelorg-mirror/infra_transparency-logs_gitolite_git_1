@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 12 Mar 2021 02:26:25 -0000
-Message-Id: <161551598532.1558.15111563827889268927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Fri, 12 Mar 2021 03:38:10 -0000
+Message-Id: <161552029071.11029.789674187476955886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: a9f81244d2e33e6dfcef120fefd30c96b3f7cdb0
-    new: 7a1468ba0e02eee24ae1353e8933793a27198e20
+    old: 9252257ebd50965dfcb593479d7f469ca3aebda0
+    new: 2a682421b06e41c45098217a686157f576847021
     log: |
-         7a1468ba0e02eee24ae1353e8933793a27198e20 net: phy: broadcom: Add power down exit reset state delay
+         a9870fda2aaf67fb1e98523c5a11a8351db9957e asn1: Drop use of unlikely in private header
+         6072b78fa6867905bd359341ec111600b9af566a tools: Drop unlikely macro usage
+         2a682421b06e41c45098217a686157f576847021 useful: Move likely and unlikely from util.h
          
