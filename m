@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Fri, 12 Mar 2021 10:46:55 -0000
-Message-Id: <161554601515.18609.13087278750474138992@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Fri, 12 Mar 2021 10:51:03 -0000
+Message-Id: <161554626358.21260.12405278234442545814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/uvc-compliance-v3
-    old: fa4bbf9bac48ec4a0cf27c0d68a9ff50374aca87
-    new: 6350f67c79ea55a6cb0d6ad570ef9f5398ed3d62
+  - ref: refs/heads/next
+    old: af6e3e61fe5623a7890807b0b13004ecb876fa1f
+    new: 92654ade792fc369b32cfdd968d1cc13853110db
     log: |
-         d519be68ce129642c7f4053946c0d2b2cabc3611 media: uvcvideo: Add support for V4L2_CTRL_TYPE_CTRL_CLASS
-         e98d1814941fdb70c3b4d6c92e791e22a4e9225a media: uvcvideo: Set a different name for the metadata entity
-         6350f67c79ea55a6cb0d6ad570ef9f5398ed3d62 uvc: use vb2 ioctl and fop helpers
+         9b5235309e9f43461c4f6dc814b495279735839f efi: use 32-bit alignment for efi_guid_t literals
+         3eb6328b0a677e518969aa66cbbccd9d512c87d6 efi: use const * formal paramaters for by-ref arguments specified as IN
+         92654ade792fc369b32cfdd968d1cc13853110db efi: use explicit const efi_guid_t type for EFI_GUID literals
          
