@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7391872513483548147=="
+Content-Type: multipart/mixed; boundary="===============7402618826946291102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 12 Mar 2021 12:08:33 -0000
-Message-Id: <161555091350.2437.15254855993194344120@gitolite.kernel.org>
+Date: Fri, 12 Mar 2021 12:09:04 -0000
+Message-Id: <161555094469.2712.16973066332127251717@gitolite.kernel.org>
 
---===============7391872513483548147==
+--===============7402618826946291102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 50eee036f9b2904e2ae954178fad74425d30fcee
     new: 3dab85132681e8bded7f91e552cd73e69772674a
     log: revlist-50eee036f9b2-3dab85132681.txt
 
---===============7391872513483548147==
+--===============7402618826946291102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ fafe5e74229fd3f425e3cbfc68b90e615aa6d62f x86/paravirt: Switch functions with cus
 054ac8ad5ebe4a69e1f0e842483821ddbe560121 x86/paravirt: Have only one paravirt patch function
 3dab85132681e8bded7f91e552cd73e69772674a Merge branch 'tip-x86-alternatives' into tip-master
 
---===============7391872513483548147==--
+--===============7402618826946291102==--
