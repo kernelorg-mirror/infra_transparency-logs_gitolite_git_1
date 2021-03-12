@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Fri, 12 Mar 2021 05:06:03 -0000
-Message-Id: <161552556362.32255.10688595967792694942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Fri, 12 Mar 2021 05:14:00 -0000
+Message-Id: <161552604049.4974.14860474524333826675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: ce4e7ba5489187d9dc4490987aff833eeb9c9987
-    new: d214de951171119173eedfe2db6aec971c298294
+  - ref: refs/heads/master
+    old: 2e0451fe3ff4ad83464288d86f238a0b2c62a3bf
+    new: a6d74b11149866141f3b99461f46cfccf84fe32f
     log: |
-         2f5339582e7b540851bfb37e184d4dee0ab9e387 arch_topology: Export arch_freq_scale and helpers
-         d214de951171119173eedfe2db6aec971c298294 cpufreq: CPPC: Add support for frequency invariance
+         0417f00ce99923c44dc635fa28e7c41332ecf5ee glossary: Fix TM and TLE definitions
+         a6d74b11149866141f3b99461f46cfccf84fe32f future: Fix grammar blow
          
