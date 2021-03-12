@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Fri, 12 Mar 2021 08:46:13 -0000
-Message-Id: <161553877396.4451.2567587636475205906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Fri, 12 Mar 2021 08:46:35 -0000
+Message-Id: <161553879500.4615.660456070194809379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/tags/renesas-devel-2021-03-12-v5.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e7abaa7a15e26f3ee8c3cabf1197158f0097ae5c
-  - ref: refs/tags/renesas-next-2021-03-12-v5.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: be727490b09a312e6e96a5b24e04829d21bfa5a7
+  - ref: refs/heads/renesas-clk
+    old: c66424ea75640a205c34d0ba6986307179516fd4
+    new: 0eedab655ec1817d450085dcb12219726cb415ff
+    log: |
+         95acd758fe4bcbbf6e43a7229e2518facb87212f clk: renesas: r8a7795: Add TMU clocks
+         0eedab655ec1817d450085dcb12219726cb415ff clk: renesas: r8a779a0: Add CMT clocks
+         
+  - ref: refs/heads/renesas-clk-for-v5.13
+    old: c66424ea75640a205c34d0ba6986307179516fd4
+    new: 0eedab655ec1817d450085dcb12219726cb415ff
+    log: |
+         95acd758fe4bcbbf6e43a7229e2518facb87212f clk: renesas: r8a7795: Add TMU clocks
+         0eedab655ec1817d450085dcb12219726cb415ff clk: renesas: r8a779a0: Add CMT clocks
+         
