@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8027681095951304549=="
+Content-Type: multipart/mixed; boundary="===============7968221887290002571=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 13 Mar 2021 00:39:31 -0000
-Message-Id: <161559597151.19684.5623984343257462929@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sat, 13 Mar 2021 00:39:37 -0000
+Message-Id: <161559597727.19792.11361613688918096571@gitolite.kernel.org>
 
---===============8027681095951304549==
+--===============7968221887290002571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: d1b63bd3ea856cd019a1d30e2a83ad6dac6c564c
-    new: 9fa8b4a571f8ad5ccb9b2f0c82009ca6d5e959e0
-    log: revlist-d1b63bd3ea85-9fa8b4a571f8.txt
+  - ref: refs/heads/queue-rc
+    old: 2e74d8166fee6c3f97215f5fb17b0e38cc0e1c4c
+    new: 7fa13c321d2b8a2782e5fb0fa285c85de7a6f30c
+    log: revlist-2e74d8166fee-7fa13c321d2b.txt
 
---===============8027681095951304549==
+--===============7968221887290002571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1b63bd3ea85-9fa8b4a571f8.txt
+Content-Disposition: attachment; filename=revlist-2e74d8166fee-7fa13c321d2b.txt
 
 6da262378c99b17b1a1ac2e42aa65acc1bd471c7 igc: reinit_locked() should be called with rtnl_lock
 8876529465c368beafd51a70f79d7a738f2aadf4 igc: Fix Pause Frame Advertising
@@ -42,5 +42,6 @@ a9f81244d2e33e6dfcef120fefd30c96b3f7cdb0 mISDN: fix crash in fritzpci
 0c79ab1b51f1740bdc0fb7b5f5beb06cfdf6eb5d net/mlx5: SF, do not use ecpu bit for vhca state processing
 7f17852f2b59be2e0a6b7f2d8f32013380caa8f6 Merge branch 'mlx4-for-net' into net-rc
 9fa8b4a571f8ad5ccb9b2f0c82009ca6d5e959e0 Merge branch 'mlx5-for-net' into net-rc
+7fa13c321d2b8a2782e5fb0fa285c85de7a6f30c Merge branch 'net-rc' into queue-rc
 
---===============8027681095951304549==--
+--===============7968221887290002571==--
