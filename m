@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sat, 13 Mar 2021 17:12:37 -0000
-Message-Id: <161565555757.16563.7626818736182924685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 13 Mar 2021 18:14:03 -0000
+Message-Id: <161565924314.19690.12555674655346222230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 053c14ecc60e8584199f4ff1c69e71b67ad45ea6
-    new: 885d067c2ac5e9671526133b497c8619b658938d
+  - ref: refs/heads/testing
+    old: e940afcabb1fb23a7192e6d9cc7ee0a98da73e6e
+    new: fd926080c2666b52c4bb320e3cee07c31dca39e2
     log: |
-         3aa22ae33298daca1ea016f51ab11b3e6327bf2a Bibliography update
-         c82e506f15bb562bcc4611ffb5ff245eda7eaa3e howto: Add fourth part of Paolo Bonzini's LWN series
-         67b6aa36db760b6679cacb1bff6efc666c74365d summary: Add to preview of book and rename
-         885d067c2ac5e9671526133b497c8619b658938d summary: Self-review and wordsmithing
+         8d44eedbaed3164fde2d8e4dcb90f61e8a07f009 iio: set default trig->dev.parent
+         fbeb6f891c6918f034905f716e4bb9b966904493 iio: fix devm_iio_trigger_alloc with parent.cocci
+         6378ba2a02e39d3bd841f9779dd871bc22c789ce iio: adis_trigger: Remove code to set trigger parent
+         a5152494bff17bcb1b05837b60f74e34713e9704 iio: gp2ap020a00f: Remove code to set trigger parent
+         dce8c1633460e47805049c83feb71f064c420b86 iio: lmp91000: Remove code to set trigger parent
+         add3e634fc00733e3b35ee250002ee4ac813d88e iio: chemical: atlas: Remove code to set trigger parent
+         79d710efd165b3d7f74596df5a24f20bef1c5ee4 iio: as3935: Remove code to set trigger parent
+         fd926080c2666b52c4bb320e3cee07c31dca39e2 iio: xilinx-xadc: Remove code to set trigger parent
          
