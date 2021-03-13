@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Sat, 13 Mar 2021 15:56:00 -0000
-Message-Id: <161565096053.3187.18091160416588777622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 13 Mar 2021 16:37:16 -0000
+Message-Id: <161565343651.26683.3714448642563759656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: bd8437a2ef3daf5d1176a1157b2edfa8af2304b7
-    new: d4a7fbf1de1b9452b50d2e2574a5170349106bdd
+  - ref: refs/heads/testing
+    old: 2b4c2c6c4c2987aea269ead1cf763a720a768be7
+    new: 2e508b57532abbc1a0c19336de5a23eaadbf0ee7
     log: |
-         0c961843fe6c7ad0ff734e99ded664e6fae41ff8 x86/sgx: Use sgx_free_epc_page() in sgx_reclaim_pages()
-         43ced65a7f382ad164247f2a39dd395c15c82a37 x86/sgx: Replace section local dirty page lists with a global list
-         d4a7fbf1de1b9452b50d2e2574a5170349106bdd x86/sgx: Add a basic NUMA allocation scheme to sgx_alloc_epc_page()
+         17438f8e4086874b97a414a0a49a96b5607c39a7 iio: imu: st_lsm6dsx: Drop unneeded explicit castings
+         bd1e9e48c59f801650431d13cb634a9c51849989 iio: light: gp2ap002: Drop unneeded explicit casting
+         2e508b57532abbc1a0c19336de5a23eaadbf0ee7 iio: adc: ad7124: allow more than 8 channels
          
