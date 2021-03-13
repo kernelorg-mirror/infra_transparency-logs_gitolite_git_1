@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 13 Mar 2021 18:25:35 -0000
-Message-Id: <161565993512.27007.3660689940149873706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 13 Mar 2021 19:24:11 -0000
+Message-Id: <161566345175.28016.1997719206986811487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/testing
-    old: 6f559ca990f03ef3ee8dc3cc78892d7345ad1615
-    new: 22a70790bd71feb8cf340f671f3f0bc859da067d
+  - ref: refs/heads/master
+    old: 96ab6364998982e91457de88e1c5557c249af3b7
+    new: b781fc4d037c1a29c670f8ad225ff258cb0281e7
     log: |
-         58fa061fee7681b2de21bc1b6300d8083d25b3f4 iio: Provide iio_read_channel_processed_scale() API
-         22a70790bd71feb8cf340f671f3f0bc859da067d hwmon: (ntc_thermistor): try reading processed
+         b781fc4d037c1a29c670f8ad225ff258cb0281e7 Sat 13 Mar 2021 07:12:30 PM UTC
          
