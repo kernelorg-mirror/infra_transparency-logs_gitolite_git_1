@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5319347527052355948=="
+Content-Type: multipart/mixed; boundary="===============1194160448113754840=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/balbi/usb
-Date: Sat, 13 Mar 2021 10:14:22 -0000
-Message-Id: <161563046214.30545.10492392806852103174@gitolite.kernel.org>
+Date: Sat, 13 Mar 2021 10:15:59 -0000
+Message-Id: <161563055928.32536.2159354076493844906@gitolite.kernel.org>
 
---===============5319347527052355948==
+--===============1194160448113754840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,41 @@ repo: pub/scm/linux/kernel/git/balbi/usb
 user: balbi
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.10
+  - ref: refs/tags/v5.12-rc1
     old: 0000000000000000000000000000000000000000
-    new: 3f995f8e0b540342612d3f6b1fc299f5bf486987
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v5.12-rc2
+    old: 0000000000000000000000000000000000000000
+    new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
 
---===============5319347527052355948==
+--===============1194160448113754840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 0x35CAA444 1615630449 +0200
+pusher 0x35CAA444 1615630545 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/balbi/usb.git
-nonce 1615630448-fd64272ed3d5e8a60220297741126df97150fe87
+nonce 1615630545-243a2d767d413322dff472a2e83bd95a239d62f5
 
-0000000000000000000000000000000000000000 3f995f8e0b540342612d3f6b1fc299f5bf486987 refs/tags/v5.10
+0000000000000000000000000000000000000000 d1da37c58e65c4800cce768533c563fa3c89c62f refs/tags/v5.12-rc1
+0000000000000000000000000000000000000000 b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b refs/tags/v5.12-rc2
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEElLzh7wn96CXwjh2IzL64meEamQYFAmBMkHEACgkQzL64meEa
-mQaDBRAAxZXYE6WprDsuYva1Cx8L3aTaJnQJ/9brSdIOCYLHAdPBdpR/ezoRiO/y
-vprcj96Ya2g+JFa/GAjRPV0pWg2SvsdTBkps4IBRiO658v19sOTMLpk2VEgWG4qY
-j6HRwW6CGt5s79s57OC7UhaUD2rVcfUYv9Whk+3LzIMMwBQ96l5qsKd1CYi8QRgv
-OKsouPqbhm5OyEBBJ3wW7UMxg9XOr2VooeCUZwK/pQq7XVGLMZawgG0QTRbakmFv
-wnNkFezJrkWJ7vquG3K6KEfp3xLoQVlXtwb7BoWSyLPHO4iZGjzjvcnQnmIHCN2Q
-oO9E8duGb+RFsNRcWzWS0UKcP7UZQ7YnLPBS5E+4HpkCPSz2DpQEmqgr2+Ly1Jgd
-yVJIlFNyfLqkEKVj/ImxtWnuw+M4aKL66tKxO3achtjtboi8AL4otbbofrPRjQpM
-RKHeWRpqQXsaw1SPG7WFEwE1Je9sVwfTmQnXy/tGi0TK57p9/aMnmevVGUs0zvo7
-IKgQz/039I3X2jpWX1RmQ4+DENzm3v+bisFCut+s3JaLmiHwlYbcAQKLJcGWEO0h
-pEKQ15VWv4kkYh+ahR7iMOf0UWwiQyi5jyljMk9tCzyGJNbmyW9ttgcLfgVw/v1a
-Pw6+HUSowLwIJcWVYLHmpdpoMTeOZoV3JRT1Wr5IJ52wu/8ecsY=
-=2e/q
+iQIzBAABCAAdFiEElLzh7wn96CXwjh2IzL64meEamQYFAmBMkNEACgkQzL64meEa
+mQaQEg//fY6OlLKk1+i+5njbsMVVk/TGGPKsRiam5eKV7jmVLUxxr3bccZGVb8AO
+61UWQgNLkcpL+aJr5UWq+qK5Pz3ok7ejysMEa76640TMtp3vlcVduNhVOsC4qwjN
+bgul2Cm5X3YaQ9iyuHhKWhAApqUy5FoiVWCuwO6aauAm/8SJxlWodsYsWIqo0gvd
+cRDmTF4mu04ReRk5Qt5i7CO53JKlzR4P576oaq7KlvYJ9CdEOLkfWKxRnJhwhhlJ
+2YD7dAMDPMeXNCos6KjGcIh2I25v8mnJF5rFmIemk3tgnay7XRvokL11IHM1+SFS
+UU3a9UiOUWmLriQM4e5EbyF/RwmUuye6Rzls9hzyOWVZqEppsTPwXAC4JBBbFMWI
+BZqxe2q+JbAzwknC0BUgOJbhUnVJqYuAgX/HZ8ouDsJ4GbSoH81OaTS2kscCNpII
+6/PXCFm0ckt3ca9RfuulsBaFnGMuE43g6H0Yqhp/yjsDmsdkLx4pFt0fxUTYbjHp
+LhoDLsATVTOHuAEjGVZyW/WoHTVAhIjCQVMalyeWzU0BDrZAj2WAK2AfrYJaXhbs
+TSf/R6Pa/82wwiNkkig5iOGOpYr950y8iZiN6iHX3fg52r/e2SWfW2C1xiSzxFdV
+zongjpL2ZnsWKwJlW1G64ceU1qGisKSmJQd1jCtRQaf3GiUd9Hg=
+=3HFV
 -----END PGP SIGNATURE-----
 
---===============5319347527052355948==--
+--===============1194160448113754840==--
