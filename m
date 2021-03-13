@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Sat, 13 Mar 2021 14:23:55 -0000
-Message-Id: <161564543518.11500.16400905320813844579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Sat, 13 Mar 2021 14:27:48 -0000
+Message-Id: <161564566896.14011.705464942901310730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/2021-03-13/obvious_naming
-    old: cf560e3827483d63ea260af3e9aea9b934c8f61a
-    new: 2f316f7de3ac96ecc8cc889724c0132e96b47b51
+  - ref: refs/heads/master
+    old: 5275f05ac30c06cba1b2d89c43599a9883e90d77
+    new: 1f810960333b88f6197b87c6f13f3f3b2ffb5993
     log: |
-         1bab0249295d0cad359f39a38e6171bcd2d68a60 fs: introduce fsuidgid_has_mapping() helper
-         2f316f7de3ac96ecc8cc889724c0132e96b47b51 fs: introduce two little fs{u,g}id inode initialization helpers
+         1f810960333b88f6197b87c6f13f3f3b2ffb5993 x86/sgx: Add a basic NUMA allocation scheme to sgx_alloc_epc_page()
          
