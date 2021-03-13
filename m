@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 13 Mar 2021 01:52:40 -0000
-Message-Id: <161560036073.505.4486552600063887686@gitolite.kernel.org>
+Date: Sat, 13 Mar 2021 01:53:22 -0000
+Message-Id: <161560040251.770.10068986253857255034@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: c3b8e07909dbe67b0d580416c1a5257643a73be7
-    new: a673321aa74fc5604643d6a4653684c0bc9fa617
+    old: a673321aa74fc5604643d6a4653684c0bc9fa617
+    new: 6afa455e6153bcbde879dd408f7ac83668b0ac4a
     log: |
-         a673321aa74fc5604643d6a4653684c0bc9fa617 selftests: mptcp: Restore packet capture option in join tests
+         6afa455e6153bcbde879dd408f7ac83668b0ac4a ibmvnic: update MAINTAINERS
          
