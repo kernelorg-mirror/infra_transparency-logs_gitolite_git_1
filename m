@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sat, 13 Mar 2021 04:14:11 -0000
-Message-Id: <161560885128.24438.4660094381114042209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sat, 13 Mar 2021 05:31:03 -0000
+Message-Id: <161561346342.7389.15974840938611267680@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/work.inode-type-fixes
-    old: 80a28b0e35340ed031583315366b60aadf9f5da1
-    new: c4ab036a2f41184ba969f86dda73be361c9ab39d
+  - ref: refs/heads/master
+    old: a6d74b11149866141f3b99461f46cfccf84fe32f
+    new: 053c14ecc60e8584199f4ff1c69e71b67ad45ea6
     log: |
-         c4ab036a2f41184ba969f86dda73be361c9ab39d spufs: fix bogosity in S_ISGID handling
+         053c14ecc60e8584199f4ff1c69e71b67ad45ea6 summary: Misc. fixes/tweaks
          
