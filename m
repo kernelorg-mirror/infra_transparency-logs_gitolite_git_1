@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 13 Mar 2021 19:24:11 -0000
-Message-Id: <161566345175.28016.1997719206986811487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sat, 13 Mar 2021 19:36:11 -0000
+Message-Id: <161566417119.3073.6524955465097227339@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 96ab6364998982e91457de88e1c5557c249af3b7
-    new: b781fc4d037c1a29c670f8ad225ff258cb0281e7
+  - ref: refs/heads/dev
+    old: 77ccccd1b8fcd324456c8c32271a1a4b1949e419
+    new: bc5f240ef0001ba83c3d2862e46734c5a9f9a690
     log: |
-         b781fc4d037c1a29c670f8ad225ff258cb0281e7 Sat 13 Mar 2021 07:12:30 PM UTC
+         253f23e0d621621f3340d82f32890eeac451c603 rcu-tasks: Add an RCU tasks longsleep for arbitrary blocking
+         6d034a2a147e5237b548d6fcbdd9cd2359558aed rcutorture: Add the ability to torture RCU longsleep
+         bc5f240ef0001ba83c3d2862e46734c5a9f9a690 fixup! rcu-tasks: Add an RCU tasks longsleep for arbitrary blocking
          
