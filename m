@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5052529523491010374=="
+Content-Type: multipart/mixed; boundary="===============8041494813326636359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse-dev
-Date: Sat, 13 Mar 2021 10:02:13 -0000
-Message-Id: <161562973304.22822.4235006908439712284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse
+Date: Sat, 13 Mar 2021 10:02:21 -0000
+Message-Id: <161562974106.22912.1415488868291036806@gitolite.kernel.org>
 
---===============5052529523491010374==
+--===============8041494813326636359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse-dev
+repo: pub/scm/devel/sparse/sparse
 user: lucvoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: c089cd2dc771e5bf175a390966e454df3334955d
     log: revlist-5e674421d5f1-c089cd2dc771.txt
 
---===============5052529523491010374==
+--===============8041494813326636359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ a0709118c62cffdecc2ec34c624884287ef3c088 simplify (x | M) cmps C
 eb4cdd21b7d0cedbbeff7f70e24473706ccce5a6 simplify (x | M) cmpu C
 c089cd2dc771e5bf175a390966e454df3334955d Merge branches 'fix-ssa' and 'cmp-and-or' into next
 
---===============5052529523491010374==--
+--===============8041494813326636359==--
