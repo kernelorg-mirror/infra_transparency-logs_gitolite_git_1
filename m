@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7809166374824768504=="
+Content-Type: multipart/mixed; boundary="===============6380296374111192562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 14 Mar 2021 15:57:28 -0000
-Message-Id: <161573744888.23868.17702697249634573184@gitolite.kernel.org>
+Date: Sun, 14 Mar 2021 15:59:44 -0000
+Message-Id: <161573758460.24587.7344439093051245752@gitolite.kernel.org>
 
---===============7809166374824768504==
+--===============6380296374111192562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 55c9731662b8bf0bc48aabdbf9f54d779bc072a1
-    new: 0102ecac649157fb4738d19cec9d6531ef88a8b1
+    old: 0102ecac649157fb4738d19cec9d6531ef88a8b1
+    new: dff20ceb9116be0c5ddd9591bce648ecc6281abb
     log: |
-         8ac51bf0fab33829a6d14e0d63f8621ed847d783 staging: rtl8723bs: remove unused code blocks conditioned by never set CONFIG_PNO_SET_DEBUG
-         0102ecac649157fb4738d19cec9d6531ef88a8b1 staging: rtl8723bs: remove unused code blocks conditioned by never set CONFIG_TCP_CSUM_OFFLOAD_RX
+         49b47c9e656c94502441c5c1b9827f4812b78918 staging: wimax: fix block comment style check in op-rfkill.c
+         23df3c40da780a146767f5ad3d3883e3f77d6fff staging: wimax: add a blank line after declaration in op-rfkill.c
+         dff20ceb9116be0c5ddd9591bce648ecc6281abb staging: wimax: fix quoted string split across lines in op-rfkill.c
          
 
---===============7809166374824768504==
+--===============6380296374111192562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615737443 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615737579 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1615737443-0db69363c19d2d508233826b849d5a6486bfcffd
+nonce 1615737579-b22f2258ea1dc90ad60f4f707df3183aea322ccb
 
-55c9731662b8bf0bc48aabdbf9f54d779bc072a1 0102ecac649157fb4738d19cec9d6531ef88a8b1 refs/heads/staging-testing
+0102ecac649157fb4738d19cec9d6531ef88a8b1 dff20ceb9116be0c5ddd9591bce648ecc6281abb refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBOMmMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ursQAIXmHcgA7katt6y9IxDe
-BoXmpUm7pUHKmrGaLX1J6nU3WgqJO8jlvA/VOX0jHNo5sJf8WhMW+tXjahgge0kV
-0DEYaqF2AtSdGiO1v6i0FSccz0ZtGEbgXzPDW7cVUpP6vPjzAZi0blXncAuGhl+b
-T18UQRZdBjubJBUbu+0yqWcCVaW4qt7A/GuBDh2/Pz0fq9UGb4XhUC3Qgrwfqjcs
-V0S2GoC/G+GUQvw834mLCtoobwixb7e2MGSp+c33IeKY8cVfzGF+CD1N68Z4Dg2c
-gpkTVXODTcVzwYFEYkCxe2pRKgCRqUIw/qv1YenloHOGz+RUsrb5wKpl12SilLM+
-hRFEHDTxbkqSRwPznrqF9siHVfKDk1D3kbJ2WRQjpKEzHlAi+weFHPcjAPqiJdce
-iy82MVC1JioReJlBIH+waOwYy7f91F6djogsW3hk4aTEjkYeXg2BraB4ajJ5IPrQ
-4qRbfcEbF0ZlNNANQ49bNTRo0R2pS8OcJAZNlW8GBPlojYLcGnVDPzPXP0SeIU9+
-jIeqO+pFku1tNF5RFpa/8zwVH42PIlX4LTK38K2nFUXR0A3WHWUpsHXU2rN2whvm
-n56x7El0KUH47v9PCFVwdgAA1Wr/ougvPT7FouGltnqlez/P6X9sf8PdW2OAY0ia
-9LnwJuC6CxxILoAI/QsOrjfd
-=VCkn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBOMusbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jvAQAMQtzg7i8hEFusuymmHk
+8km81SwphBjLQtAUKNsmZF4XHcjSGgJSs9wS2dR/ZiBWWwUwvt+W3iz2y7sjJxOZ
+aE182C4gAMNQqXyL/L4aN276IkpNSh76iWufcOjb0VbL4jLvjW6JuCSEkd6bo7xD
+lmEWo3QZCaIfA2ttoDOtaRHDBpfbKZryQbVOQxlvEKHq9t8NK8LSRCbhztn59TIK
+9jW67NV2dHgM1iCGaCrqtw7UxK5A5w3u+1dd+ybZDzc6y0px1xjlyMnsW9+IdaSA
+C8cnlJaS6aLtPiXr2SUdVhjNHXzwC8fF2B5TVPW8cgh+fIs39SBv18Q0tE6qfsz9
+CBnmE85KayN9BbSw5SsGx42Rj1cW4zkFuKiYgHncQyOgU8vWDOisSB6lrdCztqoM
+43+QhH/oj4dPMzQ9O0356t4fGF9dcySG4TpMwtFCh2XsiW2pvQ/xFmhpmZobr7Cr
+3T7sgE8qEHBQEWgWc49INP9/cWFBeUz2go2b6sbjTkOy8P26a+vFEQU7Eh8LPffg
+Gu1XSEXHgaZe+wZHyQO/d5/e0S2YMQtVaqsner6KvKlMwCAgE1yC59nOcZ3QoIS/
+h96qTQkqDtzUxHxwTiMzgV6hCx8FNMJZscyH9uTXbNG+OStmnQU5e7YCwZNn4X5t
+7b16LcRfmIQM92qqFqp1sMVR
+=ovZx
 -----END PGP SIGNATURE-----
 
---===============7809166374824768504==--
+--===============6380296374111192562==--
