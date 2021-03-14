@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4284101929183947726=="
+Content-Type: multipart/mixed; boundary="===============8902181092346457949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Sun, 14 Mar 2021 12:54:35 -0000
-Message-Id: <161572647566.5138.16165226735935577872@gitolite.kernel.org>
+Date: Sun, 14 Mar 2021 12:55:13 -0000
+Message-Id: <161572651368.6753.9285248745365845391@gitolite.kernel.org>
 
---===============4284101929183947726==
+--===============8902181092346457949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-next
+  - ref: refs/heads/next
     old: f7cd22b9568556815c0dcaece8e19ab767a42f6c
     new: cbffa973bf11096544dae58737db503438c896a6
     log: revlist-f7cd22b95685-cbffa973bf11.txt
 
---===============4284101929183947726==
+--===============8902181092346457949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ b3e76c6235eb6a2b440f74d4d786dfc7387ca05a habanalabs: debugfs access to user mapp
 1cf5709d8241a38227710063275aae5c0f549d3d habanalabs/gaudi: reset device upon BMC request
 cbffa973bf11096544dae58737db503438c896a6 habanalabs/gaudi: always use single-msi mode
 
---===============4284101929183947726==--
+--===============8902181092346457949==--
