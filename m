@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 14 Mar 2021 21:22:52 -0000
-Message-Id: <161575697265.21054.4055735525625149654@gitolite.kernel.org>
+Date: Sun, 14 Mar 2021 21:38:36 -0000
+Message-Id: <161575791671.29263.5280877467037338768@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 6f1629093399303bf19d6fcd5144061d1e25ec23
-    new: 0f88e6f35b314500ba4c2f7d62c4598bf2c1229b
+    old: 0f88e6f35b314500ba4c2f7d62c4598bf2c1229b
+    new: f4e6d7cdbfae502788bc468295b232dec76ee57e
     log: |
-         ef700f2ea27e54f640c3957374469132e8bf46f5 samples: pktgen: allow to specify delay parameter via new opt
-         c8fd4852022ca8ae85ac4d30d05950eaf506b828 samples: pktgen: new append mode
-         0f88e6f35b314500ba4c2f7d62c4598bf2c1229b Merge branch 'pktgen-scripts-improvements'
+         bd49fea7586b9d39a38846e9ef4ac056e4eb6e59 hv_netvsc: Add a comment clarifying batching logic
+         f4e6d7cdbfae502788bc468295b232dec76ee57e net: dsa: bcm_sf2: Fill in BCM4908 CFP entries
          
