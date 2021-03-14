@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7916038725463972439=="
+Content-Type: multipart/mixed; boundary="===============5952846434838046007=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 14 Mar 2021 09:40:04 -0000
-Message-Id: <161571480461.18726.9335228379827500105@gitolite.kernel.org>
+Date: Sun, 14 Mar 2021 09:40:41 -0000
+Message-Id: <161571484192.20178.11235939992690919249@gitolite.kernel.org>
 
---===============7916038725463972439==
+--===============5952846434838046007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: a38fd8748464831584a19438cbb3082b5a2dab15
+  - ref: refs/heads/usb-linus
+    old: d26c00e7276fc92b18c253d69e872f6b03832bad
     new: 88fe49249c99de14e543c632a46248d85411ab9e
-    log: revlist-a38fd8748464-88fe49249c99.txt
+    log: revlist-d26c00e7276f-88fe49249c99.txt
 
---===============7916038725463972439==
+--===============5952846434838046007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615714787 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615714825 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1615714785-a49f84d93f0c3fccf3f5ea7919a19fbca49ee3f3
+nonce 1615714823-bc1a5fb230e8b5135f346beb9d9d4bf826188269
 
-a38fd8748464831584a19438cbb3082b5a2dab15 88fe49249c99de14e543c632a46248d85411ab9e refs/heads/main
+d26c00e7276fc92b18c253d69e872f6b03832bad 88fe49249c99de14e543c632a46248d85411ab9e refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBN2eMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vGUP/1f9I0+P7nE4k3Lc76FD
-GFW3gFriPgMGlU9Wdlb7ItSoZR3S5/4Y/6NYo4MAHqb6e8MjuFiu9PetYhM6cHW0
-dhLv1QRHNLVBTHS0dzJPjQMtE/vAWE7lRux9Xjs+2sHMarixbqsXrrLCje0sPMQz
-93798aSG9JjCv9wUGMwXfHFBsZSFuYXqJhqe5Joej2h4DvjGSjGdTGSel8K5Z+ko
-p+Tgr5HJEHOeO6K8+tYj/Ip3fQnOhwdMSJpR9I/82Po1/qOf3NcTATOG0xwAt9kN
-/k9cZ0H3d7HRaMx9coVUdViJrVl926jxsIpnkofkpcEPashmRC7tfYarvmTKz+ru
-CyHKTnqG/Mj3KkOiXC9iZpsNB83ycm9d5VrX1LuAaNpck1qQAczDUrZLbuGXjbJj
-A53KfOU+MNkBDXhGy7DVKKMrO6RPfOwdqe/+bry7sHU6nSYiBrUrHH2E3d0dvBdx
-kWy3JGUt6Uxop8L0uOtdfgNmCZD4XiE0C4lAIP0qh5n4hobVo6oGDBR2Bfk9Q624
-GByRobwlRghamCl5MTamutVoWCctgJdwV3qum2UElXl+PGW7JQKj/MxTIh/8w9z0
-XbTIeNU+LFw/bJ3YAce4u8+DrKivsCXdoFzijq8Edp74ZmpEg+3Ro5W7qcjsEiYy
-eowj/LakhAkRS7CUBQj+89Ev
-=Lnj6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBN2gkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YsAP/jzhIIxBa6o2uNaY9AbM
+FT/gQKtBVr1qNJTVmK5T5bDn+raumrSWl7Gg/UsohybddEOcIq2QMkkcsRa9QSbJ
+p1tOxydNkRNU82eyIWHoxxUS2kds2q/X1o61YFn++cKM2K4p1ly+T43s86AI76Ow
+t9J/X0OCn2LVXFcheNpp+UGjPWpMW9thu1bKPJjydBlGizfAeE5hGFM2EVp7szu6
+dfJKSHVDvl2L64bpp/9HB2YBjGiT5NC9U9l+UpmXYYkvf4KluIbAoNiFeelgHRCN
+gmrcsa+xKO2W6AVbYqvcnDi4azGO+XG3MpP8I/TMl/KKZx43cGvF7/Jx/eLt0YCs
+iHtRsQZL08VLUfzWcVjVl4qsrnHo05deXlMhKmxJtqRIhKK7F/MJF+EhURhsOdDv
+AD/3QmAsbfn5TqX135H/6B8cpDTvbDNWUsZo9pjL/o3bOIdP8HpNoGR7oZW4XyX8
+RdC6JQAcuK+XedkpLnTmAt4QQ1rpG72PsuAA2vboF5CvYJrfjqIZPM81qn7dFooJ
+4lbdxsKRHsPGM/EmSBltrKgp0bSkgEuvouHEFqt99bj1tsaZidFCKNLEtVPDgyA0
+uPJKmDQHFtL+V0c1uXJwvIRmj9W4o0lM74SCS7/mTT8K6sF+qGlPQF6NYggWwy0c
+2nsmzQLissYk4pSFgwNgELho
+=GdhO
 -----END PGP SIGNATURE-----
 
---===============7916038725463972439==
+--===============5952846434838046007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a38fd8748464-88fe49249c99.txt
+Content-Disposition: attachment; filename=revlist-d26c00e7276f-88fe49249c99.txt
 
 e51ea5442996261d4bc3a5b934d27cc0ce6a991c sparc32: don't bother with lookup_fault() in __bzero()
 5f99d33810b00666825784342868240e5790c704 sparc32: kill lookup_fault()
@@ -390,11 +390,6 @@ e3d100eae44b42f309c1366efb8397368f1cf8ed cifs: change noisy error message to FYI
 f15c5c11abfbf8909eb30598315ecbec2311cfdc ALSA: hda/ca0132: Add Sound BlasterX AE-5 Plus support
 30dea07180de3aa0ad613af88431ef4e34b5ef68 ALSA: usb-audio: fix NULL ptr dereference in usb_audio_probe
 c5aa956eaeb05fe87e33433d7fd9f5e4d23c7416 ALSA: usb-audio: fix use after free in usb_audio_disconnect
-ca667a33207daeaf9c62b106815728718def60ec USB: serial: cp210x: add ID for Acuity Brands nLight Air Adapter
-42213a0190b535093a604945db05a4225bf43885 USB: serial: cp210x: add some more GE USB IDs
-f164f5d8a70245217bee89b246dc4fcfececa526 USB: serial: xr: fix NULL-deref on disconnect
-5563b3b6420362c8a1f468ca04afe6d5f0a8d0a3 USB: serial: ch341: add new Product ID
-cfdc67acc785e01a8719eeb7012709d245564701 USB: serial: io_edgeport: fix memory leak in edge_startup
 774514bf977377c9137640a0310bd64eed0f7323 mmc: mmci: Add MMC_CAP_NEED_RSP_BUSY for the stm32 variants
 66fbacccbab91e6e55d9c8f1fc0910a8eb6c81f7 mmc: core: Fix partition switch time for eMMC
 f06391c45e83f9a731045deb23df7cc3814fd795 mmc: cqhci: Fix random crash when remove mmc module/card
@@ -456,16 +451,6 @@ d4ac640322b06095128a5c45ba4a1e80929fe7f3 staging: rtl8188eu: fix potential memor
 ba8a86e4dadb332c41454f02e27d28321e0f03d5 leds: trigger/tty: Use led_set_brightness_sync() from workqueue
 2334de198fed3da72e9785ecdd691d101aa96e77 Revert "serial: max310x: rework RX interrupt handling"
 c776b77a279c327fe9e7710e71a3400766554255 Revert "drivers:tty:pty: Fix a race causing data loss on close"
-4d8654e81db7346f915eca9f1aff18f385cab621 Goodix Fingerprint device is not a modem
-1edbff9c80ed32071fffa7dbaaea507fdb21ff2d usb: dwc3: qcom: add ACPI device id for sc8180x
-650bf52208d804ad5ee449c58102f8dc43175573 USB: gadget: u_ether: Fix a configfs return code
-789ea77310f0200c84002884ffd628e2baf3ad8a usb: gadget: f_uac2: always increase endpoint max_packet_size by one audio slot
-cc2ac63d4cf72104e0e7f58bb846121f0f51bb19 usb: gadget: f_uac1: stop playback on function disable
-2664deb0930643149d61cddbb66ada527ae180bd usb: dwc3: qcom: Honor wakeup enabled/disabled state
-b1d25e6ee57c2605845595b6c61340d734253eb3 usb: renesas_usbhs: Clear PIPECFG for re-enabling pipe with other EPNUM
-414c20df7d401bcf1cb6c13d2dd944fb53ae4acf USB: gadget: udc: s3c2410_udc: fix return value check in s3c2410_udc_probe()
-9de2c43acf37a17dc4c69ff78bb099b80fb74325 USB: usblp: fix a hang in poll() if disconnected
-1cffb1c66499a9db9a735473778abf8427d16287 usb: dwc3: qcom: Add missing DWC3 OF node refcount decrement
 a758b7c4c6f21f8e117fc8097c56fd9967363c15 virt: acrn: Use EPOLLIN instead of POLLIN
 d15dfd31384ba3cb93150e5f87661a76fa419f74 arm64: mte: Map hotplugged memory as Normal Tagged
 07e644885bf6727a48db109fad053cb43f3c9859 kselftest: arm64: Fix exit code of sve-ptrace
@@ -506,12 +491,6 @@ df66617bfe87487190a60783d26175b65d2502ce block: rsxx: fix error return code of r
 d0df9aabefda4d0a64730087f939f53f91e29ee6 Merge tag '5.12-rc2-smb3' of git://git.samba.org/sfrench/cifs-2.6
 d3110f256d126b44d34c1f662310cd295877c447 Merge tag 'for-linus-2021-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
 9b1ea29bc0d7b94d420f96a0f4121403efc3dd85 Revert "mm, slub: consider rest of partial list if acquire_slab() fails"
-47ccc8fc2c9c94558b27b6f9e2582df32d29e6e8 usbip: fix stub_dev to check for stream socket
-f55a0571690c4aae03180e001522538c0927432f usbip: fix vhci_hcd to check for stream socket
-6801854be94fe8819b3894979875ea31482f5658 usbip: fix vudc to check for stream socket
-9380afd6df70e24eacbdbde33afc6a3950965d22 usbip: fix stub_dev usbip_sockfd_store() races leading to gpf
-718ad9693e3656120064b715fe931f43a6201e67 usbip: fix vhci_hcd attach_store() races leading to gpf
-46613c9dfa964c0c60b5385dbdf5aaa18be52a9c usbip: fix vudc usbip_sockfd_store races leading to gpf
 a2f8d988698d7d3645b045f4940415b045140b81 drm/amdgpu/display: simplify backlight setting
 dfd8b7fbd985ec1cf76fe10f2875a50b10833740 drm/amdgpu/display: don't assert in set backlight function
 0ad3e64eb46d8c47de3af552e282894e3893e973 drm/amdgpu/display: handle aux backlight in backlight_get_brightness
@@ -541,7 +520,6 @@ bf3c255150619b71badb328c4dab48401a7ed62d kbuild: Allow LTO to be selected with K
 f9bc754be475582e2cc44296f7de0aaedbdbefeb kbuild: dummy-tools: adjust to scripts/cc-version.sh
 64bfc99429a5c9613fffb0e54f2f8c2ddc8c1d04 kbuild: remove unneeded -O option to dtc
 4c273d23c44ad49c73353737b303e78585a4503f kbuild: remove LLVM=1 test from HAS_LTO_CLANG
-a949b9eab039eb668ff2a15fdec04dfae8ec82ec Merge tag 'usb-serial-5.12-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 285a65f1a10f87088cefd6c7ea6ff26b143339b3 kbuild: remove meaningless parameter to $(call if_changed_rule,dtc)
 874a52f9b693ed8bf7a92b3592a547ce8a684e6f drm/fb-helper: only unmap if buffer not null
 e8dd3506dcf380d4cbe983422dfed1909011b02a drm/qxl: unpin release objects
@@ -573,10 +551,6 @@ f20ef34d71abc1fc56b322aaa251f90f94320140 nvme-fc: fix racing controller reset an
 abec6561fc4e0fbb19591a0b35676d8c783b5493 nvme-rdma: Fix a use after free in nvmet_rdma_write_data_done
 abbb5f5929ec6c52574c430c5475c158a65c2a8c nvme-pci: add the DISABLE_WRITE_ZEROES quirk for a Samsung PM1725a
 14fbbc8297728e880070f7b077b3301a8c698ef9 configfs: fix a use-after-free in __configfs_open_file
-a4a251f8c23518899d2078c320cf9ce2fa459c9f usb: xhci: do not perform Soft Retry for some xHCI hosts
-253f588c70f66184b1f3a9bbb428b49bbda73e80 xhci: Improve detection of device initiated wake signal.
-b71c669ad8390dd1c866298319ff89fe68b45653 usb: xhci: Fix ASMedia ASM1042A and ASM3242 DMA addressing
-d26c00e7276fc92b18c253d69e872f6b03832bad xhci: Fix repeated xhci wake after suspend due to uncleared internal wake state
 7ba8f2b2d652cd8d8a2ab61f4be66973e70f9f88 arm64: mm: use a 48-bit ID map when possible on 52-bit VA builds
 30b2675761b8a1a2b6ef56b535ef51b789bb7150 arm64: mm: remove unused __cpu_uses_extended_idmap[_level()]
 d450293c55005a3b0a25d209e981ac425483fead regulator: mt6315: Fix off-by-one for .n_voltages
@@ -628,4 +602,4 @@ cc14086f22980fd15bec4488ecfbecb4f904cd35 Merge tag 'tty-5.12-rc3' of git://git.k
 be61af330e09cfdde29fa5516b2ee015ebdc8bea Merge tag 'staging-5.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 88fe49249c99de14e543c632a46248d85411ab9e Merge tag 'char-misc-5.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 
---===============7916038725463972439==--
+--===============5952846434838046007==--
