@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1773684360542474709=="
+Content-Type: multipart/mixed; boundary="===============5447873046699166559=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 14 Mar 2021 09:34:42 -0000
-Message-Id: <161571448253.13987.8543206013428257780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Date: Sun, 14 Mar 2021 09:35:44 -0000
+Message-Id: <161571454458.15668.3599507936461201666@gitolite.kernel.org>
 
---===============1773684360542474709==
+--===============5447873046699166559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 16d7586dccf83785819f5b66f4d20fac9bfcd644
+  - ref: refs/heads/main
+    old: a38fd8748464831584a19438cbb3082b5a2dab15
     new: 88fe49249c99de14e543c632a46248d85411ab9e
-    log: revlist-16d7586dccf8-88fe49249c99.txt
+    log: revlist-a38fd8748464-88fe49249c99.txt
 
---===============1773684360542474709==
+--===============5447873046699166559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615714466 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1615714463-8940d638b4658c229b9a3a7970d808a5528d1165
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615714526 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1615714526-cd3297effa469d3b5a9a9e05573ab391c6575b8d
 
-16d7586dccf83785819f5b66f4d20fac9bfcd644 88fe49249c99de14e543c632a46248d85411ab9e refs/heads/staging-linus
+a38fd8748464831584a19438cbb3082b5a2dab15 88fe49249c99de14e543c632a46248d85411ab9e refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBN2KIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JNQP/A4MkHwcGhpwl3YgwE3k
-cxXuN6BtcTTQHBgrTUouio+PTqhAm7K7m+RM/8io/wOCGtLA/oHi/Cy6pDOqJqtG
-AnQ0pVd4PHZFdf9ndbD1+k4YciQsfkN3BdiSepOqecqCWp90oaN1ECjfZzCDML0i
-dKcPeYgL7K72ys+kstGhvunJscZlJs33I/J6Yp3muNRF0tG2/Gb0bOJUBCTQDpN4
-tO/pS7yS0Ftw40KFqGITnA9KD9dTOuD3p/oBpz4c21+DMXFUcNoLKoY4Df6W2LNX
-hLT6Zlut2h+PskqEbwryzZcJf5TO1/Jbu+sWGeAkFoiMI+zoVZGWmWuQZJ0OETn1
-eW+aAInV9ELxrOIpHFm4wnYe3D+rID2bDx4srJ8fDhJ7EhhaQO87WM1cM5ifjk7q
-SRlmSrsS6YMIBX4rcsd3+/+iQjzsYxfH2On6kwyzfgKARQLKDOc51/SmA4clMkGH
-4vjLjUGE9AY+nuF5IdbDopCWeQVfHFYpsSRsZXq0z0UOSdqO+nKrps7KOw41LjJd
-Ou2UOwjHC5CndIYmR45SfSbNHxdjWDb5MPGnqR7gJGbf3/XPeSExrKWuZCKc/bvg
-p4bsdg+etADpdEe3ikajk56NwIzVsi90C5DtmvfBGIe+oVpqbeyMJcRIST6Jq50g
-+DUe6mDXHaTSXNuzJeHwhoif
-=Rc3W
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBN2N4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YJgQAJlIoculi4FayUgW1w2B
+ccgk5DuoSTo2DFxlOHD7BszJ51MTinWxo/AA6R6YPkPg2SLTDKZ2GhtPczm22gpX
+JbqTyygc17LvA9kQE6Wxfeq2B3vrQ4DcgA5yZeB6Ul2GK6bTbyCsHgjjBHLCJvQ3
+HRDn1+VujR5WxDY7iReXvCRC+zYZLiqS4gi5wepswgLfTwY613rwPLsMkV4++1H7
+Qb2p6/ru/DMHs8Rm2F/eXx7+YfRxyNg8M772nGJrkkwYn7SmaVT1k8csWor1IrMu
+itqNJnc26vg77eofBEV00clTnDcvhWhICNM+wH2uAHkccO0mrl7CWymcf1hIGxKe
+eqNVs9/iE1jOcsdKlRpPOOKv5kPC+UaqSuuQRx6JugtKsRRic7ElniNdPt/mkLjl
+675RN4PNvmvWWNrcn0y1uD5Eg5+hPGEOSLyj5dMsY9rQoFpxV3rF/8IbyE60mba8
+sNUH+z6PCWG3wJE9RnJGWQoOrvVq9QsCPhVpx+WzlmA0dQy25jT1rq7M/2TkOJhE
+9D97hBRB0T0zXTYuQEOJynkapZB1miqGZmX1KjzXoGJRNo2utJtOLg/wSnpiPssk
+jlW8qxmSgXwmMIfvVWZew9hC3AwOmwcRqMkC6npV1B4EACjFXZWWZ1uumnn34Lfk
+QSlabG4CAyGWov6X2PGtkZ8X
+=3r6g
 -----END PGP SIGNATURE-----
 
---===============1773684360542474709==
+--===============5447873046699166559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16d7586dccf8-88fe49249c99.txt
+Content-Disposition: attachment; filename=revlist-a38fd8748464-88fe49249c99.txt
 
 e51ea5442996261d4bc3a5b934d27cc0ce6a991c sparc32: don't bother with lookup_fault() in __bzero()
 5f99d33810b00666825784342868240e5790c704 sparc32: kill lookup_fault()
@@ -429,6 +429,29 @@ ffd123fe839700366ea79b19ac3683bf56817372 habanalabs: Disable file operations aft
 51f24030358bdeeb9e75a38618dd029c5a53beeb cpu/hotplug: Fix build error of using {add,remove}_cpu() with !CONFIG_SMP
 e54b78886949e16301e8ac3cc4b2b43969bfe5fa virt: acrn: Make remove_cpu sysfs invisible with !CONFIG_HOTPLUG_CPU
 dcf9625f2adf33cf3ea14c72b436b7c212807e51 virt: acrn: Use vfs_poll() instead of f_op->poll()
+7c36194558cf49a86a53b5f60db8046c5e3013ae staging: rtl8192e: fix kconfig dependency on CRYPTO
+d660f4f42ccea50262c6ee90c8e7ad19a69fb225 staging: rtl8712: unterminated string leads to read overflow
+8687bf9ef9551bcf93897e33364d121667b1aadf staging: rtl8192e: Fix possible buffer overflow in _rtl92e_wx_set_scan
+b93c1e3981af19527beee1c10a2bef67a228c48c staging: rtl8712: Fix possible buffer overflow in r8712_sitesurvey_cmd
+e163b9823a0b08c3bb8dc4f5b4b5c221c24ec3e5 staging: ks7010: prevent buffer overflow in ks_wlan_set_scan()
+25317f428a78fde71b2bf3f24d05850f08a73a52 staging: comedi: addi_apci_1032: Fix endian problem for COS sample
+ac0bbf55ed3be75fde1f8907e91ecd2fd589bde3 staging: comedi: addi_apci_1500: Fix endian problem for command sample
+b2e78630f733a76508b53ba680528ca39c890e82 staging: comedi: adv_pci1710: Fix endian problem for AI command data
+1c0f20b78781b9ca50dc3ecfd396d0db5b141890 staging: comedi: das6402: Fix endian problem for AI command data
+459b1e8c8fe97fcba0bd1b623471713dce2c5eaf staging: comedi: das800: Fix endian problem for AI command data
+54999c0d94b3c26625f896f8e3460bc029821578 staging: comedi: dmm32at: Fix endian problem for AI command data
+b39dfcced399d31e7c4b7341693b18e01c8f655e staging: comedi: me4000: Fix endian problem for AI command data
+a084303a645896e834883f2c5170d044410dfdb3 staging: comedi: pcl711: Fix endian problem for AI command data
+148e34fd33d53740642db523724226de14ee5281 staging: comedi: pcl818: Fix endian problem for AI command data
+8536749d4952649ada4a88396079e6ec69c1fc9f staging: comedi: amplc_pc236_common: Use 16-bit 0 for interrupt data
+a1acdbc55403d94ac8dddcb0311360bc6dae659f staging: comedi: comedi_parport: Use 16-bit 0 for interrupt data
+33444638ae54fa2eb8e9269d70ce2d5bc8b52751 staging: comedi: ni_6527: Use 16-bit 0 for interrupt data
+5ff1c08c28c331eee1ac6a02e8e3eabb329fa953 staging: comedi: ni_65xx: Use 16-bit 0 for interrupt data
+fd3ce6557da0e7557a451ee56fc8f5700d3bd08f staging: comedi: pcl726: Use 16-bit 0 for interrupt data
+87107518d7a93fec6cdb2559588862afeee800fb staging: rtl8192u: fix ->ssid overflow in r8192_wx_set_scan()
+d4ac640322b06095128a5c45ba4a1e80929fe7f3 staging: rtl8188eu: fix potential memory corruption in rtw_check_beacon_data()
+74b6b20df8cfe90ada777d621b54c32e69e27cd7 staging: rtl8188eu: prevent ->ssid overflow in rtw_wx_set_scan()
+16d7586dccf83785819f5b66f4d20fac9bfcd644 Revert "staging: wfx: remove unused included header files"
 1487e7bae809d73461940a6ef8c1ffc7c4faa0d3 leds: trigger: Fix error path to not unlock the unlocked mutex
 ba8a86e4dadb332c41454f02e27d28321e0f03d5 leds: trigger/tty: Use led_set_brightness_sync() from workqueue
 2334de198fed3da72e9785ecdd691d101aa96e77 Revert "serial: max310x: rework RX interrupt handling"
@@ -605,4 +628,4 @@ cc14086f22980fd15bec4488ecfbecb4f904cd35 Merge tag 'tty-5.12-rc3' of git://git.k
 be61af330e09cfdde29fa5516b2ee015ebdc8bea Merge tag 'staging-5.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 88fe49249c99de14e543c632a46248d85411ab9e Merge tag 'char-misc-5.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 
---===============1773684360542474709==--
+--===============5447873046699166559==--
