@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 14 Mar 2021 02:12:55 -0000
-Message-Id: <161568797587.11244.17635150063554141583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
+Date: Sun, 14 Mar 2021 04:21:17 -0000
+Message-Id: <161569567724.22531.10893233434209652296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
+user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: e127906b68b49ddb3ecba39ffa36a329c48197d3
-    new: 6f1629093399303bf19d6fcd5144061d1e25ec23
+    old: 4e4867dc95126f27bbb487a5d72c58916ca53e93
+    new: 9c811e0f2d87b84388d1a3b78865384940b30e10
     log: |
-         3cc9b29ac0e1739091ccfe9ada2ffdd230312f2e docs: net: tweak devlink health documentation
-         6f1629093399303bf19d6fcd5144061d1e25ec23 docs: net: add missing devlink health cmd - trigger
+         9c811e0f2d87b84388d1a3b78865384940b30e10 wg-quick: freebsd: avoid writing private keys to /tmp
          
