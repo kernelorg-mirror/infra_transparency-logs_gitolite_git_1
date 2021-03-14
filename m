@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3727046475478152900=="
+Content-Type: multipart/mixed; boundary="===============7511914751428715167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 14 Mar 2021 09:38:19 -0000
-Message-Id: <161571469999.16585.6457911412101337845@gitolite.kernel.org>
+Date: Sun, 14 Mar 2021 09:38:58 -0000
+Message-Id: <161571473877.16868.5372463170587147253@gitolite.kernel.org>
 
---===============3727046475478152900==
+--===============7511914751428715167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: a38fd8748464831584a19438cbb3082b5a2dab15
+  - ref: refs/heads/tty-linus
+    old: c776b77a279c327fe9e7710e71a3400766554255
     new: 88fe49249c99de14e543c632a46248d85411ab9e
-    log: revlist-a38fd8748464-88fe49249c99.txt
+    log: revlist-c776b77a279c-88fe49249c99.txt
 
---===============3727046475478152900==
+--===============7511914751428715167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615714682 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615714722 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1615714681-2772686538a5e58f0a8487d60a08a0eda476ee9f
+nonce 1615714720-b155331ac0df5098345823ab19cfd656e7cf71fe
 
-a38fd8748464831584a19438cbb3082b5a2dab15 88fe49249c99de14e543c632a46248d85411ab9e refs/heads/main
+c776b77a279c327fe9e7710e71a3400766554255 88fe49249c99de14e543c632a46248d85411ab9e refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBN2XobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a00P/0UB8nDpUzGGM4tba+bo
-V+5QNH0+LYg4rIGkaWMI9XYPjM+ePZmRTU1c1ueY9O9nEAsOIZ3yCZQR29eJ9fbe
-b+uPRM5BlpGcEcyeBLapdFnUZ5kMqjnI6T3dPcF0IKY30pasC2iqu+ZEwlCx9xxT
-FQkMom1yhkOVXLCCNVlVUdMuN27mTuH2eLemXD028la05YJc9OyU3AiqD+9+mxXz
-Kae263BFzYgPOKaQTH4wRN6O5mNu2AZNLEUz/8y7G9HcAJOsabnn9WcledR2dpof
-zC0a42RdGS4oPGW61yAZXzor1g41FazpcqOMaGJRKFuVZ5cuMRK3ZU9plWflagQG
-SfpPLflGorR5A8RaskL+/ZkC66hfi9Sr+byiniOc/EtyaMwyfCVL0d+4le/YTx3x
-iGDjSOGtUxgQxr7AAV+Buu5ciRXFZcvjqSsu4kEJ48DvNUTR+RDxZcUi4LkfkmHs
-hlz2lqaJKLz7rehMZwiliOXNjElxOmjOg5MwvsvG1DAoOQ+WbiHHskAqxhiBP2OR
-KnyzX0qlxZZuQFAgb+X2GsSkaZYkEwy4R9itKiaDpGV+alDqRfCHHDUt0tDvE0k7
-c2VMzSLg8ZwiuCZyBVurFkfTM56cKF4nr8kp43BS2xGaO/NXt5mw14+CtKOvBKfb
-jy9h4oDgrNwBaf3ovlmrxxfC
-=O00m
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBN2aIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7NEP/ijxTPDZvnlVG+085yGU
+IbJSO7wcrqSVDVkurypto6LLUewqEOo34l6qIB58nixJ1wQNhHreZwTMmeSmU261
+pykhj9KNXiGUbJsKmZUFCu2Igv3BfxSV+4CybdVRxZS+dFQgiKj/qce7OUhgG9Oh
+hOwd6Ao6k3//H3dvhXEZ/7not4a7TdJ9cu0EJnOPHdu62vjKOgexJuFW1+qUi2C9
+u8Ja2oGmkgtT42OH6Di6X8XPue0t9zfBu9eKd/RH1UvyJOEBHuVbuADvRt1edVvh
+Tc+R004WGBoX4E11WyUnV5CnDFCFuf3XP7iczGY7nw1H5aXLMk5EFFbNEOg0JVKf
+hMFnVuB6onKQHZMVGTIPikD18K4vVpJzdvvbhvJxpDIzYd8bs4d/QM+B3+PEWmj3
+GnjVM3Hzh7rDkoASjENUD+rAxZ+dCwH3sNczTbDirV+ACzgmaDBTN7lWxWpe9sR5
+o+MarlsOLqSAu1sMAbW/rusgySQa4B/plkOTdLjiGUGUP6ssXPTQFFKKczjU/Oa2
+230ybK6tvl3e0M9NCWD3n+zHlEGxALGimiLXAUsfHxqCEcFx+rtXlIEist8QUwx0
+Rje001h4eGeOV0oafvpZpKII52O8HHb7k67CrGjzHFFY5BmRHdHxM6IcRA760KEL
+JqqVaZZw0pHrxWjRRxbN1VD1
+=6jZy
 -----END PGP SIGNATURE-----
 
---===============3727046475478152900==
+--===============7511914751428715167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a38fd8748464-88fe49249c99.txt
+Content-Disposition: attachment; filename=revlist-c776b77a279c-88fe49249c99.txt
 
 e51ea5442996261d4bc3a5b934d27cc0ce6a991c sparc32: don't bother with lookup_fault() in __bzero()
 5f99d33810b00666825784342868240e5790c704 sparc32: kill lookup_fault()
@@ -452,10 +452,6 @@ fd3ce6557da0e7557a451ee56fc8f5700d3bd08f staging: comedi: pcl726: Use 16-bit 0 f
 d4ac640322b06095128a5c45ba4a1e80929fe7f3 staging: rtl8188eu: fix potential memory corruption in rtw_check_beacon_data()
 74b6b20df8cfe90ada777d621b54c32e69e27cd7 staging: rtl8188eu: prevent ->ssid overflow in rtw_wx_set_scan()
 16d7586dccf83785819f5b66f4d20fac9bfcd644 Revert "staging: wfx: remove unused included header files"
-1487e7bae809d73461940a6ef8c1ffc7c4faa0d3 leds: trigger: Fix error path to not unlock the unlocked mutex
-ba8a86e4dadb332c41454f02e27d28321e0f03d5 leds: trigger/tty: Use led_set_brightness_sync() from workqueue
-2334de198fed3da72e9785ecdd691d101aa96e77 Revert "serial: max310x: rework RX interrupt handling"
-c776b77a279c327fe9e7710e71a3400766554255 Revert "drivers:tty:pty: Fix a race causing data loss on close"
 4d8654e81db7346f915eca9f1aff18f385cab621 Goodix Fingerprint device is not a modem
 1edbff9c80ed32071fffa7dbaaea507fdb21ff2d usb: dwc3: qcom: add ACPI device id for sc8180x
 650bf52208d804ad5ee449c58102f8dc43175573 USB: gadget: u_ether: Fix a configfs return code
@@ -628,4 +624,4 @@ cc14086f22980fd15bec4488ecfbecb4f904cd35 Merge tag 'tty-5.12-rc3' of git://git.k
 be61af330e09cfdde29fa5516b2ee015ebdc8bea Merge tag 'staging-5.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 88fe49249c99de14e543c632a46248d85411ab9e Merge tag 'char-misc-5.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 
---===============3727046475478152900==--
+--===============7511914751428715167==--
