@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 14 Mar 2021 21:44:31 -0000
-Message-Id: <161575827181.1382.10830812588876560463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 14 Mar 2021 21:44:38 -0000
+Message-Id: <161575827872.1505.1411732331974206584@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: f4e6d7cdbfae502788bc468295b232dec76ee57e
-    new: 3f79eb3c3a6abaa8f9900b5e40994060d7341cbc
+    old: 70404fe3030ec2dcf339a9730bc03bf0e1f2acf5
+    new: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
     log: |
-         0ccf4d50d14f360dfae5b25b8ffcb27f98e591f0 gro: simplify gro_list_prepare()
-         9dc2c313378528afe1bddf12cad88dbfe0998820 gro: consistentify napi->gro_hash[x] access in dev_gro_receive()
-         d0eed5c325149002c364a1439ae1afe1992beae4 gro: give 'hash' variable in dev_gro_receive() a less confusing name
-         3f79eb3c3a6abaa8f9900b5e40994060d7341cbc Merge branch 'gro-micro-optimize-dev_gro_receive'
+         c995f12ad8842dbf5cfed113fb52cdd083f5afd1 prctl: fix PR_SET_MM_AUXV kernel stack leak
+         1e28eed17697bcf343c6743f0028cc3b5dd88bf0 Linux 5.12-rc3
          
+  - ref: refs/tags/v5.12-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a6d574dee98b6bc676391ba747e348b7705732c0
