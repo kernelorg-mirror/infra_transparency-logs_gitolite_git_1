@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1597731826816540065=="
+Content-Type: multipart/mixed; boundary="===============1516081649935819212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 15 Mar 2021 09:17:31 -0000
-Message-Id: <161579985133.8945.14417905477444376599@gitolite.kernel.org>
+Date: Mon, 15 Mar 2021 09:20:48 -0000
+Message-Id: <161580004817.11345.8410209399018294466@gitolite.kernel.org>
 
---===============1597731826816540065==
+--===============1516081649935819212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: dae5b2d6cd2e9f37e254b8c6cd88f07143f862fc
-    new: eda747f79904c267a3a672d591e6f0917c66c875
+    old: eda747f79904c267a3a672d591e6f0917c66c875
+    new: e9b968a6fa24c064286496aae78c2f7b1139b528
     log: |
-         eda747f79904c267a3a672d591e6f0917c66c875 drop a bunch of 4.19 arm32 patches
+         e9b968a6fa24c064286496aae78c2f7b1139b528 drop mips patch from 5.4 and 5.10
          
 
---===============1597731826816540065==
+--===============1516081649935819212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615799850 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615800047 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1615799849-b70e848b3deab81b4af43c4185d0e2f7e82c87e5
+nonce 1615800045-07611ae19828e0570c8e59b5e806fb1793e148b2
 
-dae5b2d6cd2e9f37e254b8c6cd88f07143f862fc eda747f79904c267a3a672d591e6f0917c66c875 refs/heads/master
+eda747f79904c267a3a672d591e6f0917c66c875 e9b968a6fa24c064286496aae78c2f7b1139b528 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBPJiobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S08P/j+koQbrrx7X/xFrWIlu
-K466Isf8yKR3aPscXr+Z9LjvvNIti02BGHwMdS50Jyd5z42A+InrzxrAHo0eA26v
-96wTnjveWiH3a2KZhJIN8B0IFMvtIn8f6bqUlD7qgdTKhhDt3GIuJ8PvaL1/zpJR
-48roqqX9Yf3CRHGeuKKtmEdwiIM/9MpQ1rAyJ+pRP5ptrg+muVniCxkZkBl7FvCb
-jnBqm220lQF6C/lCrvI0uIUmE8SMklMdlPNQa6JRXwqfGL4SEVcCGys8/mPrYMWy
-Hf64ry2CNMKGC7xpLLIykgicIOXAOq367nGNf+2LA303Uor+bd5MzY9GekhiWN+J
-WiV/k1tDYhmCwFzs1Uy5O3yaU6zdIdDzmEyfr3GC27p5qCIx37yshTsSKRgF4CKw
-d8dN7dcaBJIi1oszbPG6lcypO4JM9EnxLWG6Jp5rWVw5+1/u0BEiTPjlBN/K8rTG
-XW+JAOn3dLsmY3LHO/6TTCp/FLA2/pYMiYpckKsk13QPYAQM+5uPzVi8aea/fb1z
-J5kufK9RAfkXZXfIaSTU0lFRk/VCSipOHBf5aA1jiVucAjcvCrF9/eI1bEGzI0Cx
-czOupc+gG5vzNZqiiWIz+khUPkl3cL4CRPmUKILM/9CFhOgFEIRl/QB6OOyVPrCo
-hI2NnbaGGR9ZqeN/4qBGjC48
-=G0ru
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBPJu8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+khUQAI66DGsjET0yPaJ1y0pr
+mI+FN3EhzVuJGkOnJoDCzAmswPu+Wsfo1cuSZIrmvI+3wfl0fIBF1XTIWQet1IbX
+ZL4SU04qlqgl6kdTWFmw3R8Z56P0QK02LWGtGCiAiyfuubVcwbGYJ4z1X5c9/9H/
+mxMgODkOE6RUUWqRdAz5In6o6KRE5cK4X7g3kt46+yzf4YxRiD//YcpuhgKA07eN
+dzngZSuZAUh7ARIjqBR8Jd5A1gPhflkN+Jcx0qh6qGMdAWfCF6JMCnI/0oFxWtwn
+Y8W0dRj2/O9VrH6C2OBba0KQyOFcHpe9pv195LYYHw611+8GIkwGVr1fMLFQjwBA
+0QGil2rkKEKU7H08Xp1kG/VM1N54iNXHbHjpMD8Be+ohTLVZ6kjv8CJ3nLqPSLWh
+gbAFXvWm/x5XCNWg7e0kUnr5k8MJnMs9HRM9KhvjaZRGlF9Kl+H/BC44hwJhtNAf
+y45vSEN11jSUqLbVmg512bk59oURscuxyhwPVNJ+gbKsh25+fcRaLuaeRBNFXaoV
+NQkKdh4odMhSBQ09hLSOuFbhanOArfZ2O9Hd9AoD/HspMVmZ3+EEzHKQjrGi4OyX
+CzbHzR6GfbtjXldIwEAYtPgVyxrbxz7axYzBzIPXq38vzIzVYZVIxdbcgCwVI/fT
+hTzsl8w7Zw42OgYbvdu9y08c
+=KP4r
 -----END PGP SIGNATURE-----
 
---===============1597731826816540065==--
+--===============1516081649935819212==--
