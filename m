@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============0133483503586894156=="
+Content-Type: multipart/mixed; boundary="===============2656805319588685542=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 15 Mar 2021 16:55:47 -0000
-Message-Id: <161582734782.13418.18165806548734816816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 15 Mar 2021 16:56:14 -0000
+Message-Id: <161582737453.13641.9345443096866382959@gitolite.kernel.org>
 
---===============0133483503586894156==
+--===============2656805319588685542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 8d06b9633a66f41fed520f6eebd163189518ba79
-    new: f7d3d0e3a34517ca2210943964dc7db603b39015
-    log: revlist-8d06b9633a66-f7d3d0e3a345.txt
+    old: d450293c55005a3b0a25d209e981ac425483fead
+    new: 595bd434897b9aad7cd601a1e33c392399471505
+    log: revlist-d450293c5500-595bd434897b.txt
   - ref: refs/heads/for-next
-    old: 1de8cdfdeedeaa722a73deeeae0191f7e14dc85e
-    new: 8b97204b28963e7d12682a1648508b446a460eb5
-    log: revlist-1de8cdfdeede-8b97204b2896.txt
+    old: 1850ce9767a844347bad6dc702b561575b784c58
+    new: 5afe322aaf980ea142ee190938d3019d9de3b782
+    log: revlist-1850ce9767a8-5afe322aaf98.txt
 
---===============0133483503586894156==
+--===============2656805319588685542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d06b9633a66-f7d3d0e3a345.txt
+Content-Disposition: attachment; filename=revlist-d450293c5500-595bd434897b.txt
 
 e51ea5442996261d4bc3a5b934d27cc0ce6a991c sparc32: don't bother with lookup_fault() in __bzero()
 5f99d33810b00666825784342868240e5790c704 sparc32: kill lookup_fault()
@@ -491,12 +491,6 @@ d15dfd31384ba3cb93150e5f87661a76fa419f74 arm64: mte: Map hotplugged memory as No
 13661fc48461282e43fe8f76bf5bf449b3d40687 ALSA: hda: Flush pending unsolicited events before suspend
 5ff9dde42e8c72ed8102eb8cb62e03f9dc2103ab ALSA: hda: Avoid spurious unsol event handling during S3/S4
 eea46a0879bcca23e15071f9968c0f6e6596e470 ALSA: hda/hdmi: Cancel pending works before suspend
-fbc102fb4ccfaebf1f9c178bb78cc76108e954e7 regulator: mt6315: Return REGULATOR_MODE_INVALID for invalid mode
-5fe5f17dc59e508cae1ec2a898a0801f54aeeaae regulator: pca9450: Fix return value when failing to get sd-vsel GPIO
-e610e072c87a30658479a7b4c51e1801cb3f450c regulator: qcom-rpmh: Correct the pmic5_hfsmps515 buck
-dfe03bca8db4957d4b60614ff7df4d136ba90f37 regulator: qcom-rpmh: Use correct buck for S1C regulator
-98b94b6e38ca0c4eeb29949c656f6a315000c23e regulator: pca9450: Clear PRESET_EN bit to fix BUCK1/2/3 voltage setting
-e9e7fce0384b43f9b6c42dee1a79c0a1c332f326 regulator: rt4831: Fix return value check in rt4831_regulator_probe()
 9e77d96b8e2724ed00380189f7b0ded61113b39f xen/events: reset affinity of 2-level event when tearing it down
 8891123f9cbb9c1ee531e5a87fa116f0af685c48 software node: Fix node registration
 2a92c90f2ecca4475d6050f2f938a1755a8954cc software node: Fix device_add_software_node()
@@ -597,7 +591,6 @@ b71c669ad8390dd1c866298319ff89fe68b45653 usb: xhci: Fix ASMedia ASM1042A and ASM
 d26c00e7276fc92b18c253d69e872f6b03832bad xhci: Fix repeated xhci wake after suspend due to uncleared internal wake state
 7ba8f2b2d652cd8d8a2ab61f4be66973e70f9f88 arm64: mm: use a 48-bit ID map when possible on 52-bit VA builds
 30b2675761b8a1a2b6ef56b535ef51b789bb7150 arm64: mm: remove unused __cpu_uses_extended_idmap[_level()]
-d450293c55005a3b0a25d209e981ac425483fead regulator: mt6315: Fix off-by-one for .n_voltages
 a8affc03a9b375e19bc81573de0c9108317d78c7 block: rename BIO_MAX_PAGES to BIO_MAX_VECS
 5c2469e0a22e035d52f3ba768151cc75e3d4a1cd io_uring: force creation of separate context for ATTACH_WQ and non-threads
 d052d1d685f5125249ab4ff887562c88ba959638 io_uring: perform IOPOLL reaping if canceler is thread itself
@@ -695,13 +688,16 @@ c72cbc936141eac737b24f43e742cefaab35edd6 Merge tag 'sched-urgent-2021-03-14' of 
 70404fe3030ec2dcf339a9730bc03bf0e1f2acf5 Merge tag 'irq-urgent-2021-03-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c995f12ad8842dbf5cfed113fb52cdd083f5afd1 prctl: fix PR_SET_MM_AUXV kernel stack leak
 1e28eed17697bcf343c6743f0028cc3b5dd88bf0 Linux 5.12-rc3
-f7d3d0e3a34517ca2210943964dc7db603b39015 Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+3b6e7088afc919f5b52e4d2de8501ad34d35b09b regulator: bd9571mwv: Fix AVS and DVFS voltage range
+9cbc23f7d51fb0b1363bdfdd0b770aa7b5982f2f regulator: bd9571mwv: Fix regulator name printed on registration failure
+1deceabbdc0dd3162def1e26acb2e57a93275909 regulator: bd9571mwv: Convert device attribute to sysfs_emit()
+595bd434897b9aad7cd601a1e33c392399471505 Merge remote-tracking branch 'regulator/for-5.12' into regulator-linus
 
---===============0133483503586894156==
+--===============2656805319588685542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1de8cdfdeede-8b97204b2896.txt
+Content-Disposition: attachment; filename=revlist-1850ce9767a8-5afe322aaf98.txt
 
 e51ea5442996261d4bc3a5b934d27cc0ce6a991c sparc32: don't bother with lookup_fault() in __bzero()
 5f99d33810b00666825784342868240e5790c704 sparc32: kill lookup_fault()
@@ -1164,12 +1160,6 @@ d15dfd31384ba3cb93150e5f87661a76fa419f74 arm64: mte: Map hotplugged memory as No
 13661fc48461282e43fe8f76bf5bf449b3d40687 ALSA: hda: Flush pending unsolicited events before suspend
 5ff9dde42e8c72ed8102eb8cb62e03f9dc2103ab ALSA: hda: Avoid spurious unsol event handling during S3/S4
 eea46a0879bcca23e15071f9968c0f6e6596e470 ALSA: hda/hdmi: Cancel pending works before suspend
-fbc102fb4ccfaebf1f9c178bb78cc76108e954e7 regulator: mt6315: Return REGULATOR_MODE_INVALID for invalid mode
-5fe5f17dc59e508cae1ec2a898a0801f54aeeaae regulator: pca9450: Fix return value when failing to get sd-vsel GPIO
-e610e072c87a30658479a7b4c51e1801cb3f450c regulator: qcom-rpmh: Correct the pmic5_hfsmps515 buck
-dfe03bca8db4957d4b60614ff7df4d136ba90f37 regulator: qcom-rpmh: Use correct buck for S1C regulator
-98b94b6e38ca0c4eeb29949c656f6a315000c23e regulator: pca9450: Clear PRESET_EN bit to fix BUCK1/2/3 voltage setting
-e9e7fce0384b43f9b6c42dee1a79c0a1c332f326 regulator: rt4831: Fix return value check in rt4831_regulator_probe()
 9e77d96b8e2724ed00380189f7b0ded61113b39f xen/events: reset affinity of 2-level event when tearing it down
 8891123f9cbb9c1ee531e5a87fa116f0af685c48 software node: Fix node registration
 2a92c90f2ecca4475d6050f2f938a1755a8954cc software node: Fix device_add_software_node()
@@ -1270,7 +1260,6 @@ b71c669ad8390dd1c866298319ff89fe68b45653 usb: xhci: Fix ASMedia ASM1042A and ASM
 d26c00e7276fc92b18c253d69e872f6b03832bad xhci: Fix repeated xhci wake after suspend due to uncleared internal wake state
 7ba8f2b2d652cd8d8a2ab61f4be66973e70f9f88 arm64: mm: use a 48-bit ID map when possible on 52-bit VA builds
 30b2675761b8a1a2b6ef56b535ef51b789bb7150 arm64: mm: remove unused __cpu_uses_extended_idmap[_level()]
-d450293c55005a3b0a25d209e981ac425483fead regulator: mt6315: Fix off-by-one for .n_voltages
 a8affc03a9b375e19bc81573de0c9108317d78c7 block: rename BIO_MAX_PAGES to BIO_MAX_VECS
 5c2469e0a22e035d52f3ba768151cc75e3d4a1cd io_uring: force creation of separate context for ATTACH_WQ and non-threads
 d052d1d685f5125249ab4ff887562c88ba959638 io_uring: perform IOPOLL reaping if canceler is thread itself
@@ -1368,7 +1357,11 @@ c72cbc936141eac737b24f43e742cefaab35edd6 Merge tag 'sched-urgent-2021-03-14' of 
 70404fe3030ec2dcf339a9730bc03bf0e1f2acf5 Merge tag 'irq-urgent-2021-03-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c995f12ad8842dbf5cfed113fb52cdd083f5afd1 prctl: fix PR_SET_MM_AUXV kernel stack leak
 1e28eed17697bcf343c6743f0028cc3b5dd88bf0 Linux 5.12-rc3
-f7d3d0e3a34517ca2210943964dc7db603b39015 Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
-8b97204b28963e7d12682a1648508b446a460eb5 Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
+3b6e7088afc919f5b52e4d2de8501ad34d35b09b regulator: bd9571mwv: Fix AVS and DVFS voltage range
+9cbc23f7d51fb0b1363bdfdd0b770aa7b5982f2f regulator: bd9571mwv: Fix regulator name printed on registration failure
+1deceabbdc0dd3162def1e26acb2e57a93275909 regulator: bd9571mwv: Convert device attribute to sysfs_emit()
+320fcd6bbd2b500923db518902c2c640242d2b50 regulator: bd9576: Fix return from bd957x_probe()
+595bd434897b9aad7cd601a1e33c392399471505 Merge remote-tracking branch 'regulator/for-5.12' into regulator-linus
+5afe322aaf980ea142ee190938d3019d9de3b782 Merge remote-tracking branch 'regulator/for-5.13' into regulator-next
 
---===============0133483503586894156==--
+--===============2656805319588685542==--
