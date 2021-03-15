@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 15 Mar 2021 16:41:17 -0000
-Message-Id: <161582647779.4823.13996706315070335214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 15 Mar 2021 16:44:07 -0000
+Message-Id: <161582664777.5687.617600496938687355@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/whatamess
-    old: b4fb3e7e478b7721610ecd64476637ce060de28d
-    new: 6dffd74cef26d0fe6a98da229c453907cbf3c0de
+  - ref: refs/heads/dt/next
+    old: 065cac6c686d755e8379ee1e8d00e7c7ba79f49a
+    new: eeb9d117f9d6ab4e5564328794c2988c815e6dad
     log: |
-         d336f7ebc65007f5831e2297e6f3383ae8dbf8ed xfs: force log and push AIL to clear pinned inodes when aborting mount
-         08a204387e8063ba7375481281701137bd553dee docs: ABI: Fix the spelling oustanding to outstanding in the file sysfs-fs-xfs
-         8723d5ba8bdae1c41be7a6fc8469dc9aa551e7d0 xfs: also reject BULKSTAT_SINGLE in a mount user namespace
-         6dffd74cef26d0fe6a98da229c453907cbf3c0de Merged korg/for-next at Mon Mar 15 09:41:04 PDT 2021.
+         e2b0d9987920f3dc727e08a1bf42296be9b5d6da dt-bindings: Bump dtschema version required to v2021.2.1
+         ebefeab15fdc8dbea5956b674b58f7ed6f03ec63 kbuild: Enable DT undocumented compatible checks
+         eeb9d117f9d6ab4e5564328794c2988c815e6dad dt-bindings: i3c: Fix silvaco,i3c-master-v1 compatible string
          
