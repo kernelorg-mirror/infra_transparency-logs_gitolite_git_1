@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1808485341514838799=="
+Content-Type: multipart/mixed; boundary="===============1260178024726418337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Mon, 15 Mar 2021 01:51:06 -0000
-Message-Id: <161577306632.22360.3451828920821089906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Mon, 15 Mar 2021 01:51:16 -0000
+Message-Id: <161577307616.22494.4345333870535059621@gitolite.kernel.org>
 
---===============1808485341514838799==
+--===============1260178024726418337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
     log: revlist-fe07bfda2fb9-1e28eed17697.txt
 
---===============1808485341514838799==
+--===============1260178024726418337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -885,4 +885,4 @@ c72cbc936141eac737b24f43e742cefaab35edd6 Merge tag 'sched-urgent-2021-03-14' of 
 c995f12ad8842dbf5cfed113fb52cdd083f5afd1 prctl: fix PR_SET_MM_AUXV kernel stack leak
 1e28eed17697bcf343c6743f0028cc3b5dd88bf0 Linux 5.12-rc3
 
---===============1808485341514838799==--
+--===============1260178024726418337==--
