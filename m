@@ -1,31 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Mon, 15 Mar 2021 15:08:21 -0000
-Message-Id: <161582090100.11631.4575455551217162408@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 15 Mar 2021 15:27:05 -0000
+Message-Id: <161582202515.23767.12832001684710236096@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: c54e7bd60547d74bb89b99fd63f4c3e04fdf1d75
-    new: 27ca8989c118b8f3562e53c0e20595f5f6eb050c
-    log: |
-         6739068fb08a5b699f4a1136894b26690401f968 iproute: fix printing resolved localhost
-         9f366536edb5158343152604e82b968be46dbf26 dcb: Fix compilation warning about reallocarray
-         60204c81e47dfdb1ef066c3cb2cfd0f3f19570df q_cake: Fix incorrect printing of signed values in class statistics
-         27ca8989c118b8f3562e53c0e20595f5f6eb050c Merge branch 'main' into next
-         
   - ref: refs/heads/master
-    old: c54e7bd60547d74bb89b99fd63f4c3e04fdf1d75
-    new: 27ca8989c118b8f3562e53c0e20595f5f6eb050c
+    old: 676fb001d6b092470d5390adbd0424dfdecafa3c
+    new: ff3a3c3c49f0344d9db8f471974005b66f69a34f
     log: |
-         6739068fb08a5b699f4a1136894b26690401f968 iproute: fix printing resolved localhost
-         9f366536edb5158343152604e82b968be46dbf26 dcb: Fix compilation warning about reallocarray
-         60204c81e47dfdb1ef066c3cb2cfd0f3f19570df q_cake: Fix incorrect printing of signed values in class statistics
-         27ca8989c118b8f3562e53c0e20595f5f6eb050c Merge branch 'main' into next
+         c65953d72bbc7412f32e566d9fa6e780d84f0696 Automake: use EXTRA_LTLIBRARIES instead of noinst_LTLIBRARIES
+         e18f057b5635e17c6f6272add4b3da4204f4600a Automake: install uuidgen bash completion only if it is built
+         ef7e258b3d5e5b24a89800710f84497c1461e5f6 libsmratcols: print title color only when wanted
+         ff3a3c3c49f0344d9db8f471974005b66f69a34f Merge branch 'extra_ltlibraries' of https://github.com/bluca/util-linux
          
