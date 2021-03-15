@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7951540219532173605=="
+Content-Type: multipart/mixed; boundary="===============2136802346792754474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 15 Mar 2021 07:43:45 -0000
-Message-Id: <161579422583.29612.5420472288695654491@gitolite.kernel.org>
+Date: Mon, 15 Mar 2021 07:43:56 -0000
+Message-Id: <161579423603.29746.16642148273776327301@gitolite.kernel.org>
 
---===============7951540219532173605==
+--===============2136802346792754474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/usb-next
     old: a38fd8748464831584a19438cbb3082b5a2dab15
     new: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
     log: revlist-a38fd8748464-1e28eed17697.txt
 
---===============7951540219532173605==
+--===============2136802346792754474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -692,4 +692,4 @@ c72cbc936141eac737b24f43e742cefaab35edd6 Merge tag 'sched-urgent-2021-03-14' of 
 c995f12ad8842dbf5cfed113fb52cdd083f5afd1 prctl: fix PR_SET_MM_AUXV kernel stack leak
 1e28eed17697bcf343c6743f0028cc3b5dd88bf0 Linux 5.12-rc3
 
---===============7951540219532173605==--
+--===============2136802346792754474==--
