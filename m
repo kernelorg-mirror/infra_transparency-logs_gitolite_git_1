@@ -1,28 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Mon, 15 Mar 2021 15:48:59 -0000
-Message-Id: <161582333995.4787.10404936444818107582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 15 Mar 2021 15:50:03 -0000
+Message-Id: <161582340351.5772.11820191914635372933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 7c93464b2b0c818bc4248494644f40cff4ea444c
-    new: c8c8afa591ec830eb784392ceb0aedeb9ebd4d4f
+  - ref: refs/heads/io_uring-5.12
+    old: 9e15c3a0ced5a61f320b989072c24983cb1620c1
+    new: 02934d39a08a57ce5226e3063b2b4e059f59c454
     log: |
-         87a8d9e6acff4f628d074aa12486ef1a09600858 memorder: Shrink large figures in 2c builds
-         2ac1cd11c00e018415bae6d1963d9519c2d2bfe0 formal: Add v5.11 rcu-test data in Figure 12.4
-         b40226572118c7486b1741f9c5acfb17349d8722 formal, together: Prevent intrusion of floats into non float snippets
-         55b3e5d7aa5191777a52b7d6e3e48d9c72c59040 defer: Fix staccato of 'and and'
-         6fc12d4226008027becdcc0325341a284fe82bf0 defer: Place sub captions below sub figures in Figure 9.14
-         ab89d611a5ba314319fefc59ff10936dcbbd9f9e advsync/rt: Adjust placement of Figures 14.12, 14.13, 14.15, and 14.16
-         4786a1582f499a1607cf9ee0c6cb9862539f026e advsync/rt: Move float away from section heading
-         4234ac6a70af8f44856147fd6dc3b600483ce3f2 defer: Add a couple of \FloatBarrier macros for 1c builds
-         b9ee4242f3b5b1a371ec6d19c87c985aefdf1e98 SMPdesign: Align 'Index L' in Figure 6.7
-         c8c8afa591ec830eb784392ceb0aedeb9ebd4d4f locking: Add citation to 2nd edition of Herlihy's and Shavit's textbook
+         efe814a471e0e58f28f1efaf430c8784a4f36626 io_uring: fix ->flags races by linked timeouts
+         d725bc04d5408c48598d03fecc17b9f01a87a1e5 io_uring: fix complete_post use ctx after free
+         f5ca390a27d505ef191389c6b7ab5236c2a624c8 io_uring: replace sqd rw_semaphore with mutex
+         8f2f1b95b1b0e16396293ccdb9f0734e100ac2e2 io_uring: halt SQO submission on ctx exit
+         1bdd8b75b5e3e7ce06ada934e85982e795b38756 io_uring: fix concurrent parking
+         3f62f5a7ed8b545c5aeb124e69b70964a35b655d io_uring: add generic callback_head helpers
+         02934d39a08a57ce5226e3063b2b4e059f59c454 io_uring: fix sqpoll cancellation via task_work
          
