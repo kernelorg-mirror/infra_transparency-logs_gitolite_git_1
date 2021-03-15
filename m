@@ -1,43 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============7241661525848698138=="
+Content-Type: multipart/mixed; boundary="===============5202359353416392194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Mon, 15 Mar 2021 03:49:16 -0000
-Message-Id: <161578015663.30482.12943186422687016621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 15 Mar 2021 04:05:42 -0000
+Message-Id: <161578114298.8138.17782972840312237819@gitolite.kernel.org>
 
---===============7241661525848698138==
+--===============5202359353416392194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/testing
-    old: 35c31b81f19728220652d588ed464d75d1a8f05f
-    new: 87602aeb8ad5bb1b2e23285a9d1322ac033f86c9
-    log: revlist-35c31b81f197-87602aeb8ad5.txt
+  - ref: refs/heads/opp/linux-next
+    old: 606a5d4227e4610399c61086ac55c46068a90b03
+    new: 4c279ccfb320a6ef5067ae9679d826385187c088
+    log: revlist-606a5d4227e4-4c279ccfb320.txt
 
---===============7241661525848698138==
+--===============5202359353416392194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35c31b81f197-87602aeb8ad5.txt
+Content-Disposition: attachment; filename=revlist-606a5d4227e4-4c279ccfb320.txt
 
-e042e95bcab34b2265b0aaeb497030ea13c6c251 thermal: amlogic: Omit superfluous error message in amlogic_thermal_probe()
-6606800192008bd2929c55614697645f53e07427 thermal: Fix a typo in the file soctherm.c
-76d6329534ae3b2f344aa72cc978ef4cfd69c0c8 thermal: Fix couple of spellos in the file sun8i_thermal.c
-7fd49ca05be35a85c424a3ca8df931bd70c34535 thermal: rcar_gen3_thermal: Add support for up to five TSC nodes
-7440e912b0fe755d80b958a65859ebabb5338cf8 thermal:ti-soc-thermal: Remove duplicate include in ti-bandgap
-45c7eaeb29d67224db4ba935deb575586a1fda09 thermal: thermal_of: Fix error return code of thermal_of_populate_bind_params()
-9468e7b031876935230182628f8d5f216c071784 dt-bindings: thermal: rcar-gen3-thermal: Support five TSC nodes on r8a779a0
-312e3f8aefb5dc9c2f052ba0ee35a2fd6baa5bcd thermal: Fix spelling mistake "disabed" -> "disabled"
-58483761810087e5ffdf36e84ac1bf26df909097 thermal/drivers/core: Use a char pointer for the cooling device name
-ef37d1f9acb57b7a5993e93ae582ba5f4108919e thermal/drivers/cpufreq_cooling: Use device name instead of auto-numbering
-f8d354e821b268c23a6cd548b7154e55c3954496 thermal/drivers/devfreq_cooling: Use device name instead of auto-numbering
-6fd1b186d900acf4cef9d3c23ec2839022a46345 thermal/drivers/cpuidle_cooling: Use device name instead of auto-numbering
-87602aeb8ad5bb1b2e23285a9d1322ac033f86c9 thermal/drivers/cpufreq_cooling: Remove unused list
+a74f681c3710b47a093d910ca7c6666b3d1e3a2c opp: Add devres wrapper for dev_pm_opp_set_clkname
+32aee78bc5184c7a51a081939721e97cfad4a44e opp: Add devres wrapper for dev_pm_opp_set_regulators
+9c4f220f3dc260e325c92e8588ade2affcb6528c opp: Add devres wrapper for dev_pm_opp_set_supported_hw
+3d5cfbb69508db7d092475be01c66edc86066717 opp: Add devres wrapper for dev_pm_opp_of_add_table
+357b804aa0b9b213d81c28628e1d6c3a3f17876d opp: Change return type of devm_pm_opp_register_set_opp_helper()
+3553b03edc3f3ec07c0c74ef26768c1e3e7cfe74 opp: Change return type of devm_pm_opp_attach_genpd()
+36e184cf7bde0420f9ff587e38121e6c48f9cfd2 serial: qcom_geni_serial: Convert to use resource-managed OPP API
+8e23e0bdf0494ea16b92b646df5d9c2fb5ceda94 spi: spi-geni-qcom: Convert to use resource-managed OPP API
+93eb3b7c905e4e27f6442a9ce12db292c0635b05 spi: spi-qcom-qspi: Convert to use resource-managed OPP API
+2c2353d5c5cec85e55e53fe77ec998cbc4431d62 mmc: sdhci-msm: Convert to use resource-managed OPP API
+4bc64829decc4ffce079838237c0082995355706 drm/lima: Convert to use resource-managed OPP API
+a1f3309f992d6707cf8981c346571b4a4aa168d8 drm/panfrost: Convert to use resource-managed OPP API
+ab0cb9fa83ec4f314e33dff7297573ca878e9e73 media: venus: Convert to use resource-managed OPP API
+4c279ccfb320a6ef5067ae9679d826385187c088 memory: samsung: exynos5422-dmc: Convert to use resource-managed OPP API
 
---===============7241661525848698138==--
+--===============5202359353416392194==--
