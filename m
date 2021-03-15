@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7771101049397379776=="
+Content-Type: multipart/mixed; boundary="===============4653972218925527017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 15 Mar 2021 13:24:31 -0000
-Message-Id: <161581467144.7226.1764874518803066652@gitolite.kernel.org>
+Date: Mon, 15 Mar 2021 13:24:53 -0000
+Message-Id: <161581469374.7426.13997795315414822021@gitolite.kernel.org>
 
---===============7771101049397379776==
+--===============4653972218925527017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/juno
-    old: 68a28da8912592f51508d8d1756aca6a98720207
-    new: d9df28ba587f646b50a7e307bbb0e6f85c7deb21
-    log: revlist-68a28da89125-d9df28ba587f.txt
+  - ref: refs/heads/for-next/scmi
+    old: dac7a57d2a89dbd7f943df07a793ca0ad8093405
+    new: 80a064dbd556cde36f0b7f1778e8d8a1dc50f19f
+    log: revlist-dac7a57d2a89-80a064dbd556.txt
 
---===============7771101049397379776==
+--===============4653972218925527017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68a28da89125-d9df28ba587f.txt
+Content-Disposition: attachment; filename=revlist-dac7a57d2a89-80a064dbd556.txt
 
 bb90d4bc7b6a536b2e4db45f4763e467c2008251 mm/highmem: Lift memcpy_[to|from]_page to core
 61b205f579911a11f0b576f73275eca2aed0d108 mm/highmem: Convert memcpy_[to|from]_page() to kmap_local_page()
@@ -219,7 +219,7 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-4ac4d146cb63cd4709c4729e5eca563e38106195 arm64: dts: juno: Describe PCI dma-ranges
-d9df28ba587f646b50a7e307bbb0e6f85c7deb21 arm64: dts: juno: Enable more SMMUs
+71a37cd6a59dc58df3f4e58db3f4f04c9e69da43 scmi-cpufreq: Remove deferred probe
+80a064dbd556cde36f0b7f1778e8d8a1dc50f19f scmi-cpufreq: Get opp_shared_cpus from opp-v2 for EM
 
---===============7771101049397379776==--
+--===============4653972218925527017==--
