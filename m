@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 15 Mar 2021 19:31:06 -0000
-Message-Id: <161583666603.9704.10320337029667957308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 15 Mar 2021 19:34:12 -0000
+Message-Id: <161583685255.10644.7587397214615162143@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: a25f822285420486f5da434efc8d940d42a83bce
-    new: bf0ffea336b493c0a8c8bc27b46683ecf1e8f294
+  - ref: refs/heads/for-linus
+    old: e1c86210fe27428399643861b81b080eccd79f87
+    new: b95bc12e0412d14d5fc764f0b82631c7bcaf1959
     log: |
-         bf0ffea336b493c0a8c8bc27b46683ecf1e8f294 net: hdlc_x25: Prevent racing between "x25_close" and "x25_xmit"/"x25_rx"
+         b95bc12e0412d14d5fc764f0b82631c7bcaf1959 ALSA: hda/realtek: apply pin quirk for XiaomiNotebook Pro
+         
+  - ref: refs/heads/master
+    old: e07cad49fefb3c6e375c13e9165bf3c415d079d8
+    new: 55bda0d621b22e239574a3ff2af59e338d47f320
+    log: |
+         b95bc12e0412d14d5fc764f0b82631c7bcaf1959 ALSA: hda/realtek: apply pin quirk for XiaomiNotebook Pro
+         55bda0d621b22e239574a3ff2af59e338d47f320 Merge branch 'for-linus'
          
