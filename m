@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5403297750671062185=="
+Content-Type: multipart/mixed; boundary="===============1351823281527238529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 15 Mar 2021 10:36:52 -0000
-Message-Id: <161580461206.26003.7170067744806556579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Mon, 15 Mar 2021 10:40:11 -0000
+Message-Id: <161580481132.29378.9502048562702713401@gitolite.kernel.org>
 
---===============5403297750671062185==
+--===============1351823281527238529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
-user: geert
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/m68k-queue
-    old: ec8f60c8dbb23370cd6961554b032fc03c5e97b8
-    new: d6b0560b674e495827e418f83e622bab02d0f090
-    log: revlist-ec8f60c8dbb2-d6b0560b674e.txt
+  - ref: refs/heads/fixes
+    old: ee2e3f50629f17b0752b55b2566c15ce8dafb557
+    new: 71a54e08a3b4a54b946dbe4e8fadabdf48e05df4
+    log: revlist-ee2e3f50629f-71a54e08a3b4.txt
 
---===============5403297750671062185==
+--===============1351823281527238529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec8f60c8dbb2-d6b0560b674e.txt
+Content-Disposition: attachment; filename=revlist-ee2e3f50629f-71a54e08a3b4.txt
 
 e51ea5442996261d4bc3a5b934d27cc0ce6a991c sparc32: don't bother with lookup_fault() in __bzero()
 5f99d33810b00666825784342868240e5790c704 sparc32: kill lookup_fault()
@@ -244,6 +244,7 @@ afbef30149587ad46f4780b1e0cc5e219745ce90 perf/x86/intel: Set PERF_ATTACH_SCHED_C
 e504e74cc3a2c092b05577ce3e8e013fae7d94e6 x86/unwind/orc: Disable KASAN checking in the ORC unwinder, part 2
 b59cc97674c947861783ca92b9a6e7d043adba96 x86/unwind/orc: Silence warnings caused by missing ORC data
 5d5675df792ff67e74a500c4c94db0f99e6a10ef x86/entry: Fix entry/exit mismatch on failed fast 32-bit syscalls
+a65a802aadba072ca7514fc0c301fd7fdc6fc6cb m68k: Fix virt_addr_valid() W=1 compiler warnings
 a249cc8bc2e2fed680047d326eb9a50756724198 cifs: fix credit accounting for extra channel
 88fd98a2306755b965e4f4567f84e73db3b6738c cifs: ask for more credit on async read/write code paths
 886d0137f104a440d9dfa1d16efc1db06c9a2c02 io-wq: fix race in freeing 'wq' and worker access
@@ -344,7 +345,6 @@ cae118b6acc309539b33339e846cbb19187c164c arm64: Drop support for CMDLINE_EXTEND
 07fb6dc327f108937881a096ec6e367a07a7395d arm64/mm: Drop redundant ARCH_WANT_HUGE_PMD_SHARE
 79cc2ed5a716544621b11a3f90550e5c7d314306 arm64/mm: Drop THP conditionality from FORCE_MAX_ZONEORDER
 78a81d88f60ba773cbe890205e1ee67f00502948 x86/sev-es: Introduce ip_within_syscall_gap() helper
-ee2e3f50629f17b0752b55b2566c15ce8dafb557 mount: fix mounting of detached mounts onto targets that reside on shared mounts
 b7dea0cb3d37bc2ee9e7b78722e8729aac7aa1de Merge branch 'cpufreq/arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 28e96c1693ec1cdc963807611f8b5ad400431e82 ALSA: hda: Drop the BATCH workaround for AMD controllers
 0a0be72f93571d327c22b4e575467e198d13c0f8 Merge branch 'for-linus-5.12-rc1' into for-linus
@@ -690,10 +690,7 @@ c72cbc936141eac737b24f43e742cefaab35edd6 Merge tag 'sched-urgent-2021-03-14' of 
 70404fe3030ec2dcf339a9730bc03bf0e1f2acf5 Merge tag 'irq-urgent-2021-03-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c995f12ad8842dbf5cfed113fb52cdd083f5afd1 prctl: fix PR_SET_MM_AUXV kernel stack leak
 1e28eed17697bcf343c6743f0028cc3b5dd88bf0 Linux 5.12-rc3
-5c649ec08ca2aa8c276ae100b382da668d03700c m68k: syscalls: switch to generic syscalltbl.sh
-2851953e8bfde3967e68d738eb4f0ec9124a2a71 m68k: syscalls: switch to generic syscallhdr.sh
-5b038e856bfd8b4074a495a31c0895c18fcbda6e m68k: atari: usb: Add ISP1160 USB host controller support
-d54ae0fe10fa588f98be53e32874ed0637e5c588 m68k: atari: Update Kconfig.bus help text
-d6b0560b674e495827e418f83e622bab02d0f090 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+5ba03c813a5f8f56776dfc44b6b6b01ccd3a8a45 fs: introduce fsuidgid_has_mapping() helper
+71a54e08a3b4a54b946dbe4e8fadabdf48e05df4 fs: introduce two little fs{u,g}id inode initialization helpers
 
---===============5403297750671062185==--
+--===============1351823281527238529==--
