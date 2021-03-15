@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7205108207976291845=="
+Content-Type: multipart/mixed; boundary="===============7951540219532173605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 15 Mar 2021 07:43:20 -0000
-Message-Id: <161579420083.29378.1937281086367049058@gitolite.kernel.org>
+Date: Mon, 15 Mar 2021 07:43:45 -0000
+Message-Id: <161579422583.29612.5420472288695654491@gitolite.kernel.org>
 
---===============7205108207976291845==
+--===============7951540219532173605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: cfdc67acc785e01a8719eeb7012709d245564701
+  - ref: refs/heads/master
+    old: a38fd8748464831584a19438cbb3082b5a2dab15
     new: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
-    log: revlist-cfdc67acc785-1e28eed17697.txt
+    log: revlist-a38fd8748464-1e28eed17697.txt
 
---===============7205108207976291845==
+--===============7951540219532173605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfdc67acc785-1e28eed17697.txt
+Content-Disposition: attachment; filename=revlist-a38fd8748464-1e28eed17697.txt
 
 e51ea5442996261d4bc3a5b934d27cc0ce6a991c sparc32: don't bother with lookup_fault() in __bzero()
 5f99d33810b00666825784342868240e5790c704 sparc32: kill lookup_fault()
@@ -389,6 +389,11 @@ e3d100eae44b42f309c1366efb8397368f1cf8ed cifs: change noisy error message to FYI
 f15c5c11abfbf8909eb30598315ecbec2311cfdc ALSA: hda/ca0132: Add Sound BlasterX AE-5 Plus support
 30dea07180de3aa0ad613af88431ef4e34b5ef68 ALSA: usb-audio: fix NULL ptr dereference in usb_audio_probe
 c5aa956eaeb05fe87e33433d7fd9f5e4d23c7416 ALSA: usb-audio: fix use after free in usb_audio_disconnect
+ca667a33207daeaf9c62b106815728718def60ec USB: serial: cp210x: add ID for Acuity Brands nLight Air Adapter
+42213a0190b535093a604945db05a4225bf43885 USB: serial: cp210x: add some more GE USB IDs
+f164f5d8a70245217bee89b246dc4fcfececa526 USB: serial: xr: fix NULL-deref on disconnect
+5563b3b6420362c8a1f468ca04afe6d5f0a8d0a3 USB: serial: ch341: add new Product ID
+cfdc67acc785e01a8719eeb7012709d245564701 USB: serial: io_edgeport: fix memory leak in edge_startup
 673433e7c288927f7244658788f203c660d7a6f6 dt-bindings/irq: Add compatible string for the JZ4760B
 5fbecd2389f48e1415799c63130d0cdce1cf3f60 irqchip/ingenic: Add support for the JZ4760
 dbaee836d60a8e1b03e7d53a37893235662ba124 KVM: arm64: Don't use cbz/adr with external symbols
@@ -687,4 +692,4 @@ c72cbc936141eac737b24f43e742cefaab35edd6 Merge tag 'sched-urgent-2021-03-14' of 
 c995f12ad8842dbf5cfed113fb52cdd083f5afd1 prctl: fix PR_SET_MM_AUXV kernel stack leak
 1e28eed17697bcf343c6743f0028cc3b5dd88bf0 Linux 5.12-rc3
 
---===============7205108207976291845==--
+--===============7951540219532173605==--
