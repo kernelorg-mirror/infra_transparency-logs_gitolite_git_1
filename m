@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0636887475403787334=="
+Content-Type: multipart/mixed; boundary="===============3911554532671142725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 15 Mar 2021 11:28:31 -0000
-Message-Id: <161580771196.26293.4885055682425438231@gitolite.kernel.org>
+Date: Mon, 15 Mar 2021 11:29:48 -0000
+Message-Id: <161580778886.26746.6008400995262904817@gitolite.kernel.org>
 
---===============0636887475403787334==
+--===============3911554532671142725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mark/linux
 user: mark
 changes:
-  - ref: refs/heads/arm64/fiq
-    old: 35dd6f877edfbca31184f131090f3b3bcd245a35
-    new: f06c384f29f1e109d1d7cc4be8beda7cfbbc751a
-    log: revlist-35dd6f877edf-f06c384f29f1.txt
+  - ref: refs/heads/arm64/entry/rework
+    old: 3e54b97cd19bedc6dc6327162b54d7e26680c5e0
+    new: 9f9fead7110aebdceceba071eebca31677477b4d
+    log: revlist-3e54b97cd19b-9f9fead7110a.txt
 
---===============0636887475403787334==
+--===============3911554532671142725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35dd6f877edf-f06c384f29f1.txt
+Content-Disposition: attachment; filename=revlist-3e54b97cd19b-9f9fead7110a.txt
 
 e51ea5442996261d4bc3a5b934d27cc0ce6a991c sparc32: don't bother with lookup_fault() in __bzero()
 5f99d33810b00666825784342868240e5790c704 sparc32: kill lookup_fault()
@@ -697,5 +697,13 @@ a59fa18a643d640b0ceef85bd180958bc4e81ab4 arm64: irq: rework root IRQ handler reg
 70acbccb131dd182c7a1acda9734cba2a866b372 arm64: entry: factor irq triage logic into macros
 86f22ab42667605bc2fe5a4a4edfe092065c278d arm64: Always keep DAIF.[IF] in sync
 f06c384f29f1e109d1d7cc4be8beda7cfbbc751a arm64: irq: allow FIQs to be handled
+abaf825fbcc77431d69eac9d815a1dd860b80293 arm64: entry: remove test_irqs_unmasked macro
+dfee498caeb71fcd4e1382a080199cc65096a13f arm64: rename `pmr_save` -> `pmr`
+f35bfc58488f7124ba7f8370f82bfdd8b8bb1264 arm64: entry: convert SError handlers to C
+381a2667e0925c3abe0abf81165a2081d761def7 arm64: entry: unmask IRQ after EL0 handling
+fde28d3a6aed6b27758ef3055aa932bde8fa8818 arm64: entry: move arm64_preempt_schedule_irq to entry-common.c
+3b7e1715d80bd905826005f0d1f3c1699ce0164d arm64: entry: move preempt logic to C
+6ff3e7d9de8813e07a7e7a52567c197dcc37ed52 arm64: entry: add a call_on_irq_stack helper
+9f9fead7110aebdceceba071eebca31677477b4d arm64: entry: convert irq handlers to C
 
---===============0636887475403787334==--
+--===============3911554532671142725==--
