@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3172932952819302486=="
+Content-Type: multipart/mixed; boundary="===============8362901901907595345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Tue, 16 Mar 2021 08:02:09 -0000
-Message-Id: <161588172946.12745.1182641200702698993@gitolite.kernel.org>
+Date: Tue, 16 Mar 2021 08:02:21 -0000
+Message-Id: <161588174135.12874.1339890837359957145@gitolite.kernel.org>
 
---===============3172932952819302486==
+--===============8362901901907595345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 4416e98594dc04590ebc498fc4e530009535c511
-    new: 13832ae2755395b2585500c85b64f5109a44227e
-    log: revlist-4416e98594dc-13832ae27553.txt
+  - ref: refs/heads/testing
+    old: b28c55c0604a6949f55410509e0a5f166f54f3ec
+    new: e98d9ee64ee2cc9b1d1a8e26610ec4d0392ebe50
+    log: revlist-b28c55c0604a-e98d9ee64ee2.txt
 
---===============3172932952819302486==
+--===============8362901901907595345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1615881724 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1615881737 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1615881724-8f41276aef434b55720ca255a0ca3abb1e8e0115
+nonce 1615881736-b85104482abaf1efc8f2019195a5ff75345123d7
 
-4416e98594dc04590ebc498fc4e530009535c511 13832ae2755395b2585500c85b64f5109a44227e refs/heads/master
+b28c55c0604a6949f55410509e0a5f166f54f3ec e98d9ee64ee2cc9b1d1a8e26610ec4d0392ebe50 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmBQZfwTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqUr/B/45z7rTKBBUUqHuwSPF7x18WpNOkqnK
-fojjaFQ4ZTydU/j69aywh8Jr28y2s4eVBuyf9KcJz9a1hXiZ825vgfGyReUN8QRp
-dUnp35hhbQZfNHw6+BGp+Xr/NmDx5HH4UOEQJZwsMZoTRuuw6U2dnzTTorvFEn9p
-4hlSfFZ8Nl4wzBWgLuY7hWuz10fqPx0CGiauTfmXgitOx62jZ+iHZOiZZdzyoBK3
-7mkRtGVxdC/XcrGoufxlZJySR1Y5nDfEHbf+6H54RLuJuhMynI7VUfw1v6kF4QZY
-9mYLP9dtvzB+DyNAmYpravk265eIl5vjgR/NNFmoxpmygUbpQM+9/E2v
-=6vQe
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmBQZgkTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqZLHCACA56WicYzyEhXbJeszn7hAo977cWrl
+U8HZaWd1tRc56W5aaPWW277PtikFeV2euaErs9A3To+GP28+/fJwW4TtCPS/GkeO
+zdhTCx9t6iMaZtVuC6PVa8Xup5AU6IlIhpLEWTBO9QEHf6arYLhepZ8LO1oQK+eJ
+kIuH4iLs2LSPQ4eQ8xNz+LL/fY37Jw+mXoxquURz+UL5Pg1J7B3zbtU86iJfPBCX
+r0DAl7DT9zu5Br269mZwQNiLiLmKgBAEBY718YHM+J5ia24nQrL2UC+TxPpfBOdG
+B+hT7zUjJDA7fWL3pWT6ggybI7mi6tdjXF5Y7H+zJfHXMnGohkqiAzsY
+=U1tn
 -----END PGP SIGNATURE-----
 
---===============3172932952819302486==
+--===============8362901901907595345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4416e98594dc-13832ae27553.txt
+Content-Disposition: attachment; filename=revlist-b28c55c0604a-e98d9ee64ee2.txt
 
 5ccfa39ddd474fc2edc844539528d10f5f462b54 leds: Use DEVICE_ATTR_{RW, RO, WO} macros
 66898f3fe906364e36fddd5d6292d52022357cf4 leds: ss4200: simplify the return expression of register_nasgpio_led()
@@ -970,5 +970,16 @@ d82c6c1aaccd2877b6082cebcb1746a13648a16d net: phylink: Fix phylink_err() functio
 0217ed2848e8538bcf9172d97ed2eeb4a26041bb tipc: better validate user input in tipc_nl_retrieve_key()
 7233da86697efef41288f8b713c10c2499cffe85 tcp: relookup sock for RST+ACK packets handled by obsolete req sock
 13832ae2755395b2585500c85b64f5109a44227e mptcp: fix ADD_ADDR HMAC in case port is specified
+3a5ca857079ea022e0b1b17fc154f7ad7dbc150f can: dev: Move device back to init netns on owning netns delete
+e4912459bd5edd493b61bc7c3a5d9b2eb17f5a89 can: isotp: isotp_setsockopt(): only allow to set low level TX flags for CAN-FD
+d4eb538e1f48b3cf7bb6cb9eb39fe3e9e8a701f7 can: isotp: TX-path: ensure that CAN frame flags are initialized
+59ec7b89ed3e921cd0625a8c83f31a30d485fdf8 can: peak_usb: add forgotten supported devices
+47c5e474bc1e1061fb037d13b5000b38967eb070 can: flexcan: flexcan_chip_freeze(): fix chip freeze for missing bitrate
+7c6e6bce08f918b64459415f58061d4d6df44994 can: kvaser_pciefd: Always disable bus load reporting
+7507479c46b120c37ef83e59be7683a526e98e1a can: kvaser_usb: Add support for USBcan Pro 4xHS
+0429d6d89f97ebff4f17f13f5b5069c66bde8138 can: c_can_pci: c_can_pci_remove(): fix use-after-free
+6e2fe01dd6f98da6cae8b07cd5cfa67abc70d97d can: c_can: move runtime PM enable/disable to c_can_platform
+c0e399f3baf42279f48991554240af8c457535d1 can: m_can: m_can_do_rx_poll(): fix extraneous msg loss warning
+e98d9ee64ee2cc9b1d1a8e26610ec4d0392ebe50 can: m_can: m_can_rx_peripheral(): fix RX being blocked by errors
 
---===============3172932952819302486==--
+--===============8362901901907595345==--
