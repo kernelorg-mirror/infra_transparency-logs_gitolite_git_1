@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 16 Mar 2021 19:23:48 -0000
-Message-Id: <161592262831.24981.14500985555540162599@gitolite.kernel.org>
+Date: Tue, 16 Mar 2021 19:25:42 -0000
+Message-Id: <161592274252.26932.13529245193706419690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
   - ref: refs/heads/master
-    old: ba3b86b9cef0c72ae78173f2c4db8a08bf4d3770
-    new: 6bd45f2e78f31bde335f7720e570a07331031110
+    old: 6bd45f2e78f31bde335f7720e570a07331031110
+    new: 4d0b93896ff8d6795ad8d1b604e41aa850d5a635
     log: |
-         6bd45f2e78f31bde335f7720e570a07331031110 kernel/bpf/: Fix misspellings using codespell tool
+         4d0b93896ff8d6795ad8d1b604e41aa850d5a635 bpf: Make symbol 'bpf_task_storage_busy' static
          
