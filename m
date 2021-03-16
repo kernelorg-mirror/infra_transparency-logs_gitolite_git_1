@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0374542766967242209=="
+Content-Type: multipart/mixed; boundary="===============5507474062444280771=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 16 Mar 2021 09:59:12 -0000
-Message-Id: <161588875213.2915.11018742456894275752@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
+Date: Tue, 16 Mar 2021 10:14:00 -0000
+Message-Id: <161588964085.12483.13600905616096742073@gitolite.kernel.org>
 
---===============0374542766967242209==
+--===============5507474062444280771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/lee/linux
+user: lee
 changes:
-  - ref: refs/heads/auto-latest
-    old: e7bd01538559f1235bcd6e3509b282a73594d0d3
-    new: de66c932c41f308495ad62bbd8dd6accd05bbb9e
-    log: revlist-e7bd01538559-de66c932c41f.txt
-  - ref: refs/heads/master
-    old: e7bd01538559f1235bcd6e3509b282a73594d0d3
-    new: de66c932c41f308495ad62bbd8dd6accd05bbb9e
-    log: revlist-e7bd01538559-de66c932c41f.txt
+  - ref: refs/heads/android-3.18-preview
+    old: 21da7c5953d172fdc33e7abaca825777189f2757
+    new: 6a8941296f212c113147b6fd02a1f691edc15f51
+    log: revlist-21da7c5953d1-6a8941296f21.txt
 
---===============0374542766967242209==
+--===============5507474062444280771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7bd01538559-de66c932c41f.txt
+Content-Disposition: attachment; filename=revlist-21da7c5953d1-6a8941296f21.txt
 
-64fcbb6158ecc684d84c64424830a9c37c77c5b9 afs: Fix accessing YFS xattrs on a non-YFS server
-a7889c6320b9200e3fe415238f546db677310fa9 afs: Stop listxattr() from listing "afs.*" attributes
-1a4431a5db2bf800c647ee0ed87f2727b8d6c29c Merge tag 'afs-fixes-20210315' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
-3b06ad7c47bdfd78612b24a48f8f9c35d2f040f6 Merge branch 'x86/vdso'
-88be71de45e5093cc301a4cbe7c9f9f47fa05a07 Merge branch 'x86/seves'
-e647b9cd7edf2470046a94768c5693495611d276 Merge branch 'x86/platform'
-74551686365c21da0611ed2619d88aebbbc9d625 Merge branch 'x86/mm'
-1465b34a030b9e25f3e4ee2f799ad70971e0c5ee Merge branch 'x86/misc'
-8b72d53fef77dad788c598862bb48867b6d12ad2 Merge branch 'x86/cpu'
-1867b988ed9f3dfc2119bfa469ced2e0bce3e618 Merge branch 'x86/core'
-4324553ffa6d4f51567a540b3d8dbd1453dca2d5 Merge branch 'x86/cleanups'
-4ab29d5b6771a42eeda51765db42b080f838f1f1 Merge branch 'x86/alternatives'
-abfcae0bb7f1d4ed9feb8290c0df2b1ed027cd4d Merge branch 'sched/core'
-fac02e2c57721d90bc9c1a362b399aff83069885 Merge branch 'objtool/core'
-ab15532c32cebc81027a877846fb10b0fd1f946e Merge branch 'locking/core'
-de66c932c41f308495ad62bbd8dd6accd05bbb9e Merge branch 'irq/core'
+c36f680677aa11061e12a58a25adc7714cd22aba JFS: more checks for invalid superblock
+3b729e74c3e02e534ec85ff31ed80df6bae9a5e1 xfs: Fix assert failure in xfs_setattr_size()
+f6382ea9276fd485de8c5ab4d8989f372648eac7 net: fix up truesize of cloned skb in skb_prepare_for_shift()
+7536c55f069cb4b9b6115457fa0ff72c360e3da2 staging: fwserial: Fix error handling in fwserial_create
+825d29c189f91f37f2113e940168ccbfdaf09247 x86/reboot: Add Zotac ZBOX CI327 nano PCI reboot quirk
+9d74aab15456c246db374fab10a10ad4656586db vt/consolemap: do font sum unsigned
+5e811a12b4d4f50a8f32c151e3094f913f1ac9ac wlcore: Fix command execute failure 19 for wl12xx
+1fe63461afb33d87faae4c2d7c7f69d58446f020 pktgen: fix misuse of BUG_ON() in pktgen_thread_worker()
+7b2ac98f25ed75ee8f8fd9835fc779ac8d164a96 x86/build: Treat R_386_PLT32 relocation as R_386_PC32
+62233699043d5d06df88728ee94e82d6f833d933 Bluetooth: Fix null pointer dereference in amp_read_loc_assoc_final_data
+ecd6dab857d355db84712f0e7d2e6493a94ab872 media: uvcvideo: Allow entities with no pads
+df3c021c895a00ee06d6d7fb3eebb826eeeeb0e3 scsi: iscsi: Restrict sessions and handles to admin capabilities
+2ff1cee0ce5ef36c8289e97f24ed774fb00d5182 sysfs: Add sysfs_emit and sysfs_emit_at to format sysfs output
+c014f2971b87e79aa35750802c41028b86993414 scsi: iscsi: Ensure sysfs attributes are limited to PAGE_SIZE
+ec9c3d12bb31db416fe2942a56687368db570656 scsi: iscsi: Verify lengths on passthrough PDUs
+a8da1cf4b2fe34029a2783af2b53ebd3f4cc4378 xen-netback: respect gnttab_map_refs()'s return value
+88408d4451d2422c8e5a2a379a1940f2d756cc3a swap: fix swapfile read/write offset
+7733c2000fa2dde956e436741279e3a40582b187 media: v4l: ioctl: Fix memory leak in video_usercopy
+67db83396c59423dc4a8b3195b011c50450310e6 vmw_balloon: fix VMCI use when balloon built into kernel
+6a8941296f212c113147b6fd02a1f691edc15f51 ubifs: Check data node size before truncate
 
---===============0374542766967242209==--
+--===============5507474062444280771==--
