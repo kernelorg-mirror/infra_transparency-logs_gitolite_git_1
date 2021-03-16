@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 16 Mar 2021 07:25:34 -0000
-Message-Id: <161587953459.24036.11112945089570192282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Tue, 16 Mar 2021 07:50:19 -0000
+Message-Id: <161588101973.6666.5022932106872015313@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/for-next
-    old: e453304975b0973fb2447305263f27ea00bf4f23
-    new: 438f5ee62165894828bb04c0b3c0f8a52aabcd61
+  - ref: refs/heads/rtc-next
+    old: a38fd8748464831584a19438cbb3082b5a2dab15
+    new: 9346ff0bc6ff3c3a495d50a43b57df8fed7bc562
     log: |
-         6a82582d9fa438045191074856f47165334f2777 HID: ft260: add usb hid to i2c host bridge driver
-         438f5ee62165894828bb04c0b3c0f8a52aabcd61 Merge branch 'for-5.13/ft260' into for-next
+         55cc33fab5ac9f7e2a97aa7c564e8b35355886d5 rtc: m48t59: use platform_get_irq_optional
+         936d3685e62436a378f02b8b74759b054d4aeca1 rtc: tps65910: include linux/property.h
+         6e00b6d0083ea5f529b057e87c0236747871b6a8 rtc: rv3028: correct weekday register usage
+         198da7be18c47637d69cdab1f65581b04ebd759d rtc: imxdi: Convert to a DT-only driver
+         9346ff0bc6ff3c3a495d50a43b57df8fed7bc562 rtc: mxc: Remove unneeded of_match_ptr()
          
-  - ref: refs/heads/for-5.13/ft260
-    old: 0000000000000000000000000000000000000000
-    new: 6a82582d9fa438045191074856f47165334f2777
