@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 16 Mar 2021 20:21:03 -0000
-Message-Id: <161592606300.27835.14928867271325130774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Tue, 16 Mar 2021 20:27:16 -0000
+Message-Id: <161592643631.30903.1570633975469972082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 38c015f15b0707719fc50208a5c0c39896cd1389
-    new: d0a456998812d63be4a0952a273f602f49450512
+  - ref: refs/heads/master
+    old: d4a7fbf1de1b9452b50d2e2574a5170349106bdd
+    new: 28d897078b5ff4e4aa366295b596bcb92576d41d
     log: |
-         eabf289e9c64205474bfb667a440cbaa5671b06d net/mlx5e: CT, Avoid false lock dependency warning
-         a6faf480689f3f31da85b882056d643e241f421a net/mlx5e: fix mlx5e_tc_tun_update_header_ipv6 dummy definition
-         d4ef66d1dba028f0bc6e55df8ddbeeaf7165b842 net/mlx5e: Add missing include
-         d0a456998812d63be4a0952a273f602f49450512 net/mlx5: Fix indir stable stubs
+         11a83e92be358711a4ed68b2c3369966992499cf x86/sgx: Replace section local dirty page lists with a global list
+         28d897078b5ff4e4aa366295b596bcb92576d41d x86/sgx: Add a basic NUMA allocation scheme to sgx_alloc_epc_page()
          
