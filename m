@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0060789184171112988=="
+Content-Type: multipart/mixed; boundary="===============7456152708852014402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Tue, 16 Mar 2021 15:27:27 -0000
-Message-Id: <161590844721.10740.8608082487495178619@gitolite.kernel.org>
+Date: Tue, 16 Mar 2021 15:27:48 -0000
+Message-Id: <161590846867.10927.3770212064092812006@gitolite.kernel.org>
 
---===============0060789184171112988==
+--===============7456152708852014402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/linux
 user: xiang
 changes:
-  - ref: refs/heads/erofs/compr_cfgs
-    old: 55a0af72ff27aefaa628c9e350c8ef6e22803978
-    new: 9f621151cbbb3d02f029426e75d7ea130309ad68
-    log: revlist-55a0af72ff27-9f621151cbbb.txt
+  - ref: refs/heads/erofs/bigpcluster
+    old: 31aa11888b41e7f11010971f8a70e2cdf1ae2a09
+    new: 51486d41cf7f6365b1872fc3bbdf62aa09e673a7
+    log: revlist-31aa11888b41-51486d41cf7f.txt
 
---===============0060789184171112988==
+--===============7456152708852014402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55a0af72ff27-9f621151cbbb.txt
+Content-Disposition: attachment; filename=revlist-31aa11888b41-51486d41cf7f.txt
 
-4c9f948142a550af416a2bfb5e56d29ce29e92cf cifs: Add new mount parameter "acdirmax" to allow caching directory metadata
-ddaf6d4a9253939036fa70d71534e482ee7413f6 cifs: convert revalidate of directories to using directory metadata cache timeout
-5780464614f6abe6026f00cf5a0777aa453ba450 cifs: Add new parameter "acregmax" for distinct file and directory metadata timeout
-a93dcaada2ddb58dbc72652b42548adedd646d7a net: psample: Fix netlink skb length with tunnel info
-d814567942ff6ac73869052bdb8ca911364e5eb0 mm, tracing: Fix kmem_cache_free trace event to not print stale pointers
-6c15f9e805f22566d7547551f359aba04b611f9d Merge tag 'nds32-for-linux-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/greentime/linux
-764d31cacfe48440745c4bbb55a62ac9471c9f19 net: phy: micrel: set soft_reset callback to genphy_soft_reset for KSZ8081
 c1d96fa61eb74b1e211f1653acc5b68ac62c8ef4 tracing/tools: fix a couple of spelling mistakes
 6cf739131a15e4177e58a1b4f2bede9d5da78552 r8169: fix jumbo packet handling on RTL8168e
 5b47b10e8fb92f8beca6aa8a7d97fc84e090384c Merge tag 'pci-v5.12-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
@@ -1050,5 +1043,12 @@ feabf6f2f5beeb0804a80e5aede2f39db0cc7c7b erofs: introduce erofs_sb_has_xxx() hel
 c9dcfe1e58589de3f55092f55549a1d5150d6c32 erofs: support adjust lz4 history window size
 7b0d3cbe68478c508004bcbca3c860741b89cf81 erofs: introduce on-disk lz4 fs configurations
 9f621151cbbb3d02f029426e75d7ea130309ad68 erofs: add on-disk compression configurations
+43e94fadd7e14fa0e72e4d7ea83b045a38f72813 erofs: introduce multipage per-CPU buffers
+a80e008399d8f11537f98b35b5f59f2f1b6702e7 erofs: introduce a physical cluster slab pool
+999f10ffabecc71561eb69865f4b869fb9826773 erofs: clean up icpage_ptr
+045715fe2faaa76fd38c6d88834051ae254cc9ab erofs: add bigpcluster definition
+2081c286852c2a6a917876ee8899ce0342f5c6c4 erofs: adjust per-CPU buffers according to max_pclusterblks
+c6972e8df6a44d0e1f218a98437bfce4baff72e4 erofs: support parsing bigpcluster compress index
+51486d41cf7f6365b1872fc3bbdf62aa09e673a7 erofs: support decompress big pcluster for lz4 backend
 
---===============0060789184171112988==--
+--===============7456152708852014402==--
