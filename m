@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Tue, 16 Mar 2021 13:57:08 -0000
-Message-Id: <161590302833.16556.751139280127690058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 16 Mar 2021 13:59:54 -0000
+Message-Id: <161590319494.17390.4761131775970077282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/tags/fuse-fixes-5.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 269f1add7407bb17d84ebb76efa3dba009e7b70e
+  - ref: refs/heads/master
+    old: 7cf3b1dd6aa603fd80969e9e7160becf1455a0eb
+    new: 2e1614f7d61e407f1a8e7935a2903a6fa3cb0b11
+    log: |
+         2e1614f7d61e407f1a8e7935a2903a6fa3cb0b11 Bluetooth: SMP: Convert BT_ERR/BT_DBG to bt_dev_err/bt_dev_dbg
+         
