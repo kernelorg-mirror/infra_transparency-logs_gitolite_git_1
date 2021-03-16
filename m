@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7401538122441828950=="
+Content-Type: multipart/mixed; boundary="===============7079262964594010106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 16 Mar 2021 09:22:46 -0000
-Message-Id: <161588656687.13715.744167367204661654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 16 Mar 2021 09:22:59 -0000
+Message-Id: <161588657999.13890.2213447578411316849@gitolite.kernel.org>
 
---===============7401538122441828950==
+--===============7079262964594010106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 6517f5f596817f7adb7a2da08956bbd0e03927d9
-    new: 18dd2c8671fe023bdfb63af3af758583180b9a03
-    log: revlist-6517f5f59681-18dd2c8671fe.txt
+  - ref: refs/heads/queue-next
+    old: 99d500e61d9ef230db4c2511492549ccede8e019
+    new: f0332d7a529c27064b0e1541cec44f79871c44a5
+    log: revlist-99d500e61d9e-f0332d7a529c.txt
 
---===============7401538122441828950==
+--===============7079262964594010106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6517f5f59681-18dd2c8671fe.txt
+Content-Disposition: attachment; filename=revlist-99d500e61d9e-f0332d7a529c.txt
 
 b1de0f01b0115575982cf24c88b35106449e9aa7 batman-adv: Use netif_rx_any_context().
 93bde210c4341e79f0cd9cb160d889f4577e40b1 sch_htb: Fix select_queue for non-offload mode
@@ -226,5 +226,7 @@ cf2890ea25c6e865cf0aaebfb82b59156273f286 net/mlx5: E-Switch, Change mode lock fr
 1f170e841e67fb16052d3a120597385121e09b82 Merge branch 'mlx5-queue' into net-next
 5cdeb10ff91562df1351568ac63a501849042bf3 Merge branch 'mlx4-for-net' into net-next
 18dd2c8671fe023bdfb63af3af758583180b9a03 Merge branch 'mlx5-for-net' into net-next
+148e4ae0914b36fffae5e1f95aa38dfeb5f805a3 Merge branch 'net-next' into queue-next
+f0332d7a529c27064b0e1541cec44f79871c44a5 Merge branch 'testing/rdma-next' into queue-next
 
---===============7401538122441828950==--
+--===============7079262964594010106==--
