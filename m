@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3938600164586698828=="
+Content-Type: multipart/mixed; boundary="===============5791785973958425001=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 16 Mar 2021 03:14:15 -0000
-Message-Id: <161586445544.32144.16585188838640182442@gitolite.kernel.org>
+Date: Tue, 16 Mar 2021 03:14:20 -0000
+Message-Id: <161586446071.32219.16544509600120095232@gitolite.kernel.org>
 
---===============3938600164586698828==
+--===============5791785973958425001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 5cba631b2829625e293e60663618e8d8a9dadeec
-    new: 625488dc4c712c684d4d5e1846eb9690a6fa8b25
-    log: revlist-5cba631b2829-625488dc4c71.txt
+  - ref: refs/heads/5.13/scsi-queue
+    old: a81a38cc6ddaf128c7ca9e3fffff21c243f33c97
+    new: 4524a0b159028c2910dfe40469ed6512c455df61
+    log: revlist-a81a38cc6dda-4524a0b15902.txt
 
---===============3938600164586698828==
+--===============5791785973958425001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1615864453 -0400
+pusher 75C5DE3D 1615864459 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1615864453-83c892923580d4930be9c6ef2d7312b1f829ad3a
+nonce 1615864458-578e57cb6a8e08eedec2a6ed0148bb858142e6b1
 
-5cba631b2829625e293e60663618e8d8a9dadeec 625488dc4c712c684d4d5e1846eb9690a6fa8b25 refs/tags/mkp-scsi-queue
+a81a38cc6ddaf128c7ca9e3fffff21c243f33c97 4524a0b159028c2910dfe40469ed6512c455df61 refs/heads/5.13/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBQIoUACgkQ7ulgGnXF
-3j34nxAAkhMDRoTpUZO63JrQKLjtRfq7ht9AgkP3TXGs3AV/EYTPOv15V+ksNZBs
-pAHQ+FgW1ISZTDgB4U5Ut+hJuIHYN7aEkoWQsAO2EPL+7cFJAJOZDcUMqvonK1ph
-E9bRchFDTWteYq0UCaKYq9nFoRIXjpvOe129UUCZAIL2a2+m0CsWWEjMWZ+2o9pZ
-wjqRKETvn/Js7dPv5EBz50UTuLuUCHA/gK0zlKaWfmxZsxO3QsKdpWkHPSRS52HN
-eCXVGJm9HhBKqf564BINMoPD14WBBcHo6uljTkKCdfDdo8ItfbzLW+KrzCVNSVIY
-o3vE087JYhwbMEIp5ic9jw7ndgzDXQWFuXSk6lUkBQrMh1p3PyLwqGbzX+7j4a8X
-4UHP9oZFh+ZVNwn91PeZ9Lxetb/xelJViwi2FmDZzmWigZ6244zLXG1yo8ymw87D
-X5+NVN3Crehx+WKF9qWkVYyeXxZByHjfsX0kIhPPszb3muuCcSp8N4F6YMIH/Kij
-5rwQ7FA+bAHdHi8uSIhXCSTsciikXyUcySC/qi0wHuz/65J3iV40I00VBbORu6TT
-Xfoo9NGoYwvI3KaDkWGV6ipEqKGHkP45UheE9Gw5P+YWHwxiG3gy4SgWAbJoV4mZ
-IIZZsj9z+Huxx1CCoc4jkixHA2aOGtKRzkRI63ecDK51PEj4Owc=
-=nVMu
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBQIosACgkQ7ulgGnXF
+3j2m6A/+Nh4F2g8MiU7+Z4OW9jETUdVFb6YgoF7HX7q8+oJAF/0ckUqOqnhNznHc
+6Ym1IcLYHEai5xAaVl1egN9LBC9Lru5OVwP74MtxDFPIEx0h/9yZz/HbZgUqfDI7
+9vTvhqZY7Qfzi8Fco7XRsFJTmUHtcwQsf7LwesvVbiRChfa+feTrsrsDDyNcCttt
+0odRxDwM/tPVK4vY0HzaXlnRCINBsLYh8tOAe4Qea+SQ2sO8D4Mejgkhr8a0WiDV
+S39nrJ7VRFM/KSrx6TpdvQTK5y87vL2eKwSJWOfVsUWPuuWjlnqkCasCGhrCnW/d
+fMy87YR+cDdWL2zklclEZwcfu30eSB4dLK/DFGLVztxrId2kdkNI6GOQVQcx6+PX
+kMkM0dDbEtv/WSAktylIA7YfxIIP7pj4wv0ZiCgYTXjh0CsZI9SAl+2Ye4HpqRs8
+vIf1gEloYwbdpQF54Nm0IpNvDoHDmsXCcmSfsK8Yj0yz+iSiImKPFWXokHQguMio
+Wuint/6BxER0YXDPdRyQ0D1SbL8CCn8NbRL3yWLj9Bk0t/HGWsZER2LCDDOjUUSW
+wj4eyIbSFX9KkPQTDK+dcSqu/5hQjet9Ngep36OsnGcGFQ6oaKvrk7CtBt0S72oh
+M3Wsb0vu8OEyXfNe0hm1jvsuQrOtolk7hLfEewHP54YXypqn4vM=
+=SVJN
 -----END PGP SIGNATURE-----
 
---===============3938600164586698828==
+--===============5791785973958425001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cba631b2829-625488dc4c71.txt
+Content-Disposition: attachment; filename=revlist-a81a38cc6dda-4524a0b15902.txt
 
 5b1be37f773b24885a6066732661c804bc32bf53 scsi: pm80xx: Remove list entry from pm8001_ccb_info
 9ec3d4c1056533d09092f9f2b055d48f925506fe scsi: pm80xx: Replace magic numbers with device state defines
@@ -80,4 +80,4 @@ c22659fbb98b24538b1a049fb5504f5a756d09a0 scsi: target: iscsi: Initialize arrays 
 4db6dfe62c5f76ce9eef28967c2e2000efde10d5 scsi: target: core: pr: Initialize arrays at declaration time
 4524a0b159028c2910dfe40469ed6512c455df61 scsi: target: core: file: Don't duplicate memset(0xff)
 
---===============3938600164586698828==--
+--===============5791785973958425001==--
