@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3997834040797085192=="
+Content-Type: multipart/mixed; boundary="===============4876144012840309408=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 16 Mar 2021 17:55:55 -0000
-Message-Id: <161591735545.4731.16262378293143570867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 16 Mar 2021 17:56:02 -0000
+Message-Id: <161591736294.4836.15459413048298337652@gitolite.kernel.org>
 
---===============3997834040797085192==
+--===============4876144012840309408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 8d06b9633a66f41fed520f6eebd163189518ba79
     new: f9dc51cc6676e0360dfcb1836b3d426a3ccf3093
     log: |
@@ -26,7 +26,7 @@ changes:
          9deef665f5811a7ad22b5e6eb80fe2a14ba4494c ASoC: dt-bindings: fsl_spdif: Add compatible string for new platforms
          f9dc51cc6676e0360dfcb1836b3d426a3ccf3093 Merge series "Do not handle MCLK device clock in simple-card-utils" from Sameer Pujar <spujar@nvidia.com>:
          
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 54d796b86eb3a5f99e22dca58b8e991ebcadd826
     new: 081634599bb1f159415e4ff87567cd9a4b24124a
     log: |
@@ -40,29 +40,29 @@ changes:
          081634599bb1f159415e4ff87567cd9a4b24124a Merge series "ASoC: SOF: debug: cleanups" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
          
 
---===============3997834040797085192==
+--===============4876144012840309408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1615917352 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1615917352-ce902e1a4a007b2bd8afd3da590e40db4b70b101
+pusher C3F436CA30F5D8EB 1615917360 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1615917359-31b5a7f879b9117a531d09ce3eaed7a161a241cc
 
-8d06b9633a66f41fed520f6eebd163189518ba79 f9dc51cc6676e0360dfcb1836b3d426a3ccf3093 refs/heads/for-5.12
-54d796b86eb3a5f99e22dca58b8e991ebcadd826 081634599bb1f159415e4ff87567cd9a4b24124a refs/heads/for-5.13
+8d06b9633a66f41fed520f6eebd163189518ba79 f9dc51cc6676e0360dfcb1836b3d426a3ccf3093 refs/heads/asoc-5.12
+54d796b86eb3a5f99e22dca58b8e991ebcadd826 081634599bb1f159415e4ff87567cd9a4b24124a refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBQ8SgACgkQJNaLcl1U
-h9AQOAgAhkO93VEfLAUd8GTfO/R6t1FhQuOcF17x0fl1C6SF9Pa/gKP95DS29a+v
-nmeov9pCY2xf53bXPzVXKERO+pW/g64biX64d86XcJrLEgs64JkD2KHlE9YHAQYT
-T376vrrfMfk3P5pfj8s/HtxuVpobxTPOgjUYFdYcvxGgvmmwzVoCqbAxStKvyo4O
-Q8bnGxOvEzdurrWdiDYe9gdiUxdHE1gZhDmaAyMMdPCrZyqxn48F8bco3dGEuN4C
-6oaL6AYqpioBXJK9bvgT9KZwlddeGUY6YRYIy6+s1kclEL7qNSGnBzZA4WtCLY+/
-zvJh26YnTSp8n3SV/mSrIKrb8mdfmQ==
-=0S27
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBQ8TAACgkQJNaLcl1U
+h9ALoQf8C/B1/7zvLEiK7eyTAAKs1Y0k5+hhPKKGmMEppfnxglxkL8G4TGtiaJ/U
+KAMQBsz//diag30D1DS0kLptDklnALB2SMJ9NOsr62QQrnX0ZmtR1RMOBKcPJS9h
+W3P0EtHfiIXp9W2Xx9HD3BTtaP5DUA5wbryEKL9eLOhjnDnZLhWbJsZDB+cPbd2K
+1fUjBt3CGn99UNt6dajtD4ffk766gxQ6ZX+anCzIEEj0n0jrJJL/F7W7T5wQYI+T
+RNxJ/y8PxcYMwKin3gVgmEBl4DzNx4rhzbXrokImyW7vgBDeT5PkN2ZkfxwAjJeY
+7i/Rimy84Oeo6yxnAT1v4ySV7mfLaQ==
+=T/01
 -----END PGP SIGNATURE-----
 
---===============3997834040797085192==--
+--===============4876144012840309408==--
