@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 16 Mar 2021 09:20:14 -0000
-Message-Id: <161588641416.12792.14834814080889254037@gitolite.kernel.org>
+Date: Tue, 16 Mar 2021 09:22:32 -0000
+Message-Id: <161588655246.13525.12354503190821350351@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 3875721e825cf3ab05fc1a52b6cbd76c8d16da51
-    new: 6cb59afe9e5b45a035bd6b97da6593743feefc72
+  - ref: refs/heads/gpio/for-next
+    old: b33fdbdca01155208a7c0bfdd09a7cecb93a748f
+    new: 951cde7376ecb86ca62e86bda50109f644aa0c04
     log: |
-         6cb59afe9e5b45a035bd6b97da6593743feefc72 gpiolib: Assign fwnode to parent's if no primary one provided
+         951cde7376ecb86ca62e86bda50109f644aa0c04 gpio: mockup: Drop duplicate NULL check in gpio_mockup_unregister_pdevs()
          
