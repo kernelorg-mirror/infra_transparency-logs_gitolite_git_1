@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6158828456740314537=="
+Content-Type: multipart/mixed; boundary="===============8357766106778344622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 17 Mar 2021 04:53:51 -0000
-Message-Id: <161595683151.19141.12129958955728614850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 17 Mar 2021 04:53:57 -0000
+Message-Id: <161595683761.19277.12562573168210936925@gitolite.kernel.org>
 
---===============6158828456740314537==
+--===============8357766106778344622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 9fa8b4a571f8ad5ccb9b2f0c82009ca6d5e959e0
-    new: 0fef4a42f42ce1abb16e87c954553572b9272194
-    log: revlist-9fa8b4a571f8-0fef4a42f42c.txt
+  - ref: refs/heads/queue-rc
+    old: 8861684f6d51e2f54b218dea47ead458cb385227
+    new: 7bb999fc4449ac8d598f2155314f591bbee2a012
+    log: revlist-8861684f6d51-7bb999fc4449.txt
 
---===============6158828456740314537==
+--===============8357766106778344622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9fa8b4a571f8-0fef4a42f42c.txt
+Content-Disposition: attachment; filename=revlist-8861684f6d51-7bb999fc4449.txt
 
 93bde210c4341e79f0cd9cb160d889f4577e40b1 sch_htb: Fix select_queue for non-offload mode
 fb3a3e37de337ec2941c71ff0bcb83e701f3c9f4 sch_htb: Fix offload cleanup in htb_destroy on htb_init failure
@@ -89,5 +89,7 @@ b75e9e6fcc247abee301295ba065d655fdbd35a4 Merge branch 'patchq/379044' into mlx5-
 65f4fcaa9b097d158ef7d716c1ea1092b8c89562 Merge branch 'patchq/382368' into mlx5-for-net
 e68ae6fd3c5e8cdf885a28d64e7a69ad6f5f0bf1 Merge branch 'mlx4-for-net' into net-rc
 0fef4a42f42ce1abb16e87c954553572b9272194 Merge branch 'mlx5-for-net' into net-rc
+ca954f0bd2964249c6c1a8c36245f6902d3d219a Merge branch 'net-rc' into queue-rc
+7bb999fc4449ac8d598f2155314f591bbee2a012 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============6158828456740314537==--
+--===============8357766106778344622==--
