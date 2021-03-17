@@ -1,21 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Wed, 17 Mar 2021 13:22:19 -0000
-Message-Id: <161598733985.31504.12312407360932201819@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8915786620818590071=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 17 Mar 2021 13:38:14 -0000
+Message-Id: <161598829451.8068.6947372545013136302@gitolite.kernel.org>
+
+--===============8915786620818590071==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tmlind/linux-omap
-user: tmlind
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 5c04e2e0cc34b7e6a7b61eec3c16e3737ade2132
-    new: c9260dd4623adb5faa4d7b47288f3f2dbf0d44e7
+  - ref: refs/heads/for-5.13
+    old: 081634599bb1f159415e4ff87567cd9a4b24124a
+    new: c00f4f2598d334470b49385f811ca8f5c966a63e
     log: |
-         30916faa1a6009122e10d0c42338b8db44a36fde ARM: OMAP4: Fix PMIC voltage domains for bionic
-         b3d09a06d89f474cb52664e016849315a97e09d9 ARM: OMAP4: PM: update ROM return address for OSWR and OFF
-         c9260dd4623adb5faa4d7b47288f3f2dbf0d44e7 Merge branch 'fixes' into for-next
+         c00f4f2598d334470b49385f811ca8f5c966a63e ASoC: ti: Fix a typo in the file ams-delta.c
          
+
+--===============8915786620818590071==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1615988292 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1615988292-2a3a98cd5ee3ef4b448e4370e98ef6b776994019
+
+081634599bb1f159415e4ff87567cd9a4b24124a c00f4f2598d334470b49385f811ca8f5c966a63e refs/heads/for-5.13
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBSBkQACgkQJNaLcl1U
+h9B+Rgf+KKGo0TEOirtD01sSbACE2Ofc4k9mHAnrgtnQ5bqFzBnCK/Os6wYjSNce
+DBy11vrqsZaHneDuoA381c03Qo1hqT1QC9gYIYJyjYO9BPz+WS7cliHOPmwN+33P
+KMGAVQDE4mlxYQAMe4hQ0wMtgh1Gi8nyyFFi1AzFrXpManS8Xm94XLsw7Zasn4ED
+asTD4VQrHu1V0d+LBb0by3ADESedRrfT2ZfDvWM1GD3fEbidaJbBZe4n6qSawtR0
+Ayf+v53MLOzTGXlzl3G8s/XI8FsmKX1cGZ/c4uhWzD9P40/QOh6LfpZk/tZ3/jzl
+b2beYIj9PSVRVs7QAQ8Rf4GcZI9/Gg==
+=sLVR
+-----END PGP SIGNATURE-----
+
+--===============8915786620818590071==--
