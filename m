@@ -1,50 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4367178927079192957=="
+Content-Type: multipart/mixed; boundary="===============2207496427452228478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 17 Mar 2021 13:38:22 -0000
-Message-Id: <161598830242.8167.15476624851900220911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 17 Mar 2021 13:38:30 -0000
+Message-Id: <161598831060.8310.5402813857055440702@gitolite.kernel.org>
 
---===============4367178927079192957==
+--===============2207496427452228478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.13
-    old: 081634599bb1f159415e4ff87567cd9a4b24124a
-    new: c00f4f2598d334470b49385f811ca8f5c966a63e
+  - ref: refs/heads/for-5.13
+    old: 4152c4d0d939e6863f9814d7d346787b19f771f7
+    new: 92bad4a4c755cdf286f6b303dd482a573f2b89e6
     log: |
-         c00f4f2598d334470b49385f811ca8f5c966a63e ASoC: ti: Fix a typo in the file ams-delta.c
+         9d902c2a9a258e1e17cfcce7ea558b1c427b2757 spi: Fix spelling mistake "softwade" -> "software"
+         92bad4a4c755cdf286f6b303dd482a573f2b89e6 spi: imx: Improve driver description
          
 
---===============4367178927079192957==
+--===============2207496427452228478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1615988299 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1615988299-97465e174f6548fa737d1fd7e5e0c34d9b42c3b0
+pusher C3F436CA30F5D8EB 1615988308 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1615988307-cc357af1b58a648f4f8c72ad097abc9bfc1c3e16
 
-081634599bb1f159415e4ff87567cd9a4b24124a c00f4f2598d334470b49385f811ca8f5c966a63e refs/heads/asoc-5.13
+4152c4d0d939e6863f9814d7d346787b19f771f7 92bad4a4c755cdf286f6b303dd482a573f2b89e6 refs/heads/for-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBSBkwACgkQJNaLcl1U
-h9D0bgf/eFQ5froEkRQGTAhNksLcHBH6jprm44iXpx0JU4wzFmUCaqnvoI4IUK/y
-JzX6RLchov7m/waD2OJkACtgA3s1SmrIwaNfLTVn3zKKcygCDLxgFt+u6n95lL/1
-4lkvXtgpBEe/3voNMvEIeWzJYPuc7wVVNdI643ISVTzBpfZgmqd1QIsyGx4S0bNq
-xcgeYC5Zb57TZxp/3PkKnFQ3GrIZ0XDrxS9IAlpRGpEJclMCaVfLbIHshacO6mWK
-679QOvDBmR+CMC8V7tQnUW9M42Uru7Yd7NkdNH60ek4nO6yzv8a8p5qjHDpg6ge7
-1XI482VxMshcWS0QIuBiwAUizkrHsg==
-=z6O2
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBSBlQACgkQJNaLcl1U
+h9DQzgf/Qx48vf7nDVAiS/ajBcnf+lTdpbjBJe++/cC0HXHqs2i8klrQaMYaI1zE
+9rNTqPzgzAcBlMpaK7Ds3t2TUFwmV5US8KLRphLVxRTBIEuVe62bVKHWM+ZgGndm
+Ur/AxC92RVWu1zjuKbcO+fkx8xm1x2Mhmsf+idqoBrgJCFNlDJcsj7qUxbeq6VGp
+BCqHFcdSjUIVnXLHDgrKtwYaT8lvPB0fuZwdMR6bQnyw845MGS2Yelec72OT97PE
+AxBjebgDqiVCtqbGPr9vmgVUqt0IvJ1fpXxd25r/5L1tYI8FJ2NBl+FxAqnC1qPc
+/CdYIEPrDEtkKyYN9jQ2sMbZhag9xA==
+=wjtU
 -----END PGP SIGNATURE-----
 
---===============4367178927079192957==--
+--===============2207496427452228478==--
