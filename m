@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 17 Mar 2021 18:31:56 -0000
-Message-Id: <161600591640.7976.4558794419205456731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 17 Mar 2021 18:33:06 -0000
+Message-Id: <161600598622.8397.14632713419344039299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: fc649670ba50160dd29280c0d91c1635623e88e1
-    new: d2c21422323b06938b3c070361dc544f047489d7
+    old: 571e41a19a25f527daad2911f0b4e76a640d6ef4
+    new: 2af9ef2fa0a3aee7bbeb7fd2c10205dd5fcfd2d3
     log: |
-         d2c21422323b06938b3c070361dc544f047489d7 ionic: linearize tso skb with too many frags
+         ced871671806fbe191609d04adaada1a4dba31f5 advertising: Add SupportedFeatures to LEAdvertisingManager1
+         0b8e166fd8a93ce455e2501112f31d3426ae723c client: Add adv SupportedFeatures to bluetoothctl
+         2af9ef2fa0a3aee7bbeb7fd2c10205dd5fcfd2d3 doc/advertising-api: Add adv SupportedFeatures to doc
          
