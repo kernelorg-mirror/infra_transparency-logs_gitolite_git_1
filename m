@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7570569704931422662=="
+Content-Type: multipart/mixed; boundary="===============5907813139751473296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 17 Mar 2021 20:31:23 -0000
-Message-Id: <161601308310.18930.8062553723662032420@gitolite.kernel.org>
+Date: Wed, 17 Mar 2021 20:35:35 -0000
+Message-Id: <161601333572.21594.3170053785728529926@gitolite.kernel.org>
 
---===============7570569704931422662==
+--===============5907813139751473296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: eb9238e53717a46191db2d3bc5c18b13b6c8cb64
-    new: 3cac9104bea41099cf622091f0c0538bcb19050d
+    old: 3cac9104bea41099cf622091f0c0538bcb19050d
+    new: 86629e098a077922438efa98dc80917604dfd317
     log: |
-         9858af27e69247c5d04c3b093190a93ca365f33d usbip: Fix incorrect double assignment to udc->ud.tcp_rx
-         98f153a10da403ddd5e9d98a3c8c2bb54bb5a0b6 usb: gadget: configfs: Fix KASAN use-after-free
-         546aa0e4ea6ed81b6c51baeebc4364542fa3f3a7 usb-storage: Add quirk to defeat Kindle's automatic unload
-         3cac9104bea41099cf622091f0c0538bcb19050d usb: typec: Remove vdo[3] part of tps6598x_rx_identity_reg struct
+         86629e098a077922438efa98dc80917604dfd317 usb: typec: tcpm: Invoke power_supply_changed for tcpm-source-psy-
          
 
---===============7570569704931422662==
+--===============5907813139751473296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616013077 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616013330 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1616013077-94ce2e0bd89ad0685ecc15395b3f4084929a751b
+nonce 1616013330-df4c822400d403cbb4bb00a96709c278560a7360
 
-eb9238e53717a46191db2d3bc5c18b13b6c8cb64 3cac9104bea41099cf622091f0c0538bcb19050d refs/heads/usb-linus
+3cac9104bea41099cf622091f0c0538bcb19050d 86629e098a077922438efa98dc80917604dfd317 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBSZxUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JuYP/jdw80zwVzxFyb2TrLbo
-GVp6F9PftP397jhepmtl7rvUOBqsiwh1IJqVC3P3jdpchFMDOaqAhmro5w2pGT44
-kSUCEgNT1BDTgoIk7N1Xr0QRKc+drdw7fqtijRJUuMhYd/zvJ5uFu07qE3M79eaj
-esUSGrHivIfxsBzEZi3w0mokD+wfcBtmZpyAvcZP6KoJjpcGoeC00JcK8q8K14Vx
-fyjZ4CQvFuAJtn113/6N78cf7NteJtqX8t1Jll/T04rVsPdOFSVrQkKtRTUoy51y
-VdL7aqJredyX60fqFW1M+cVRjVCMhwoQhcvjcZ2w2OL8BrhGogr6VLhTVYZDBJoj
-/3etdVXW6UjfL3yvEdqogdgD4947Ev7QLYNnKyhfe0kGGqm8iy3uXkPIiDk79yvx
-JXox1g4nJ+QOvMplvEk2d0yWowEU2M84wAGGBgj7IBbRnYrV3xcd1oA0+I6jJICR
-tKM7aoNUvWO4ds6+6EjewupfW63445AmlOcloO79bxN1f6PHNXUcn11yWwLWCzIM
-d51wY+DGsv9QBebXIHZy+OL49BUDB3xMWh0OsO5ZtNuhZcJpEIoSc7tw0bm7THjV
-VZbK5k5XcAhTbq1t9bDTEzKLlSH1O1p1Jjijfcc1W4mSFU4Mh8szWqsEc5Ljxtav
-Os5VwCJMoCoNRBIJIXw3purp
-=Q9Bh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBSaBIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kMMP/ir7lHvMpM+Y4yccZ5pO
+wih1VrWr2bE+7Xxie5ZWGm9huuSRXIgmeoClHsO0KzKRmfyQxQLaOoRb0BLPp1kN
+DoxkQYIuAUYLaAY7u02bU+rrz9m7nazJ8V4D2IJjIthdDcsfYrtvcXtyLP/I9tg+
+/NZSk/QskvJ1i3MYToaxS+wKhL1cjhCAUuonz9lxd2IwEiD0W9taRA35Zz8+TQbB
+Quj/96oGeVZl5GpkYSENIMyyeVwcog8EQcVlBWZwRwBFgk3QPPYurfE0ohjZ72g9
+3T7sW/KhesxgsewVT+WYcwYfFOS9hKvdk5aZTIMc9lP4SuaZnBhG0VeB/KBR8Kv9
+r9z87uZWEU9GvvSItomdcB9BpmmQaGn2qECHlEivLq3b/qW2qeVZtr61h4jHMyqw
+UGV1jQ2y0PhFDExCcflmoxo9cEvDz0MWxHiI/H/YR7RZaxE8QhIan/KWRcgj5gxu
+3ZeQ2MXqyzHyi/eY4vPHVkGujTl7qlLZlKMZ92GF0cFVJjBrsP58YpWYM5vkvjo9
+zWXRY1lVCvhxIQUfCEOOWpcM4mj5q+dKlroG4KCZvHrl64TwCEpvzRZ2ckK5v2uQ
+leXyuRWCSztqjjGnq7h3UwwvuuqG6QyVflyfkGwFswJUSORbz6VOXvZhg1+QlRvZ
+P8FfIUVQApUkr4qcYZMVrx+8
+=oy0N
 -----END PGP SIGNATURE-----
 
---===============7570569704931422662==--
+--===============5907813139751473296==--
