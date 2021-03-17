@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1962694188297942276=="
+Content-Type: multipart/mixed; boundary="===============8111855421098694268=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 17 Mar 2021 15:42:07 -0000
-Message-Id: <161599572785.12783.12839162457145585673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 17 Mar 2021 15:44:08 -0000
+Message-Id: <161599584860.13489.16067198129649140840@gitolite.kernel.org>
 
---===============1962694188297942276==
+--===============8111855421098694268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 7758cdc0bbab589b5193e4c9930fd2b559dc8661
-    new: f09c4e9779b3ff81e1f0a01b06b0587bcad9dbed
-    log: |
-         f09c4e9779b3ff81e1f0a01b06b0587bcad9dbed Notes added by 'git notes add'
-         
+  - ref: refs/heads/irq/core
+    old: 6b2c339df90788ce6aeecee78d6494f262929206
+    new: ba9e6cab49c1465c2c322dcb03d771d5cbecb692
+    log: revlist-6b2c339df907-ba9e6cab49c1.txt
 
---===============1962694188297942276==
+--===============8111855421098694268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6b2c339df907-ba9e6cab49c1.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615995726 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1615995724-f2ce625860d1119e7a4ca23f46b35c6f465ba44c
+d2da74d1278a1b51ef18beafa9da770f0db1c617 tasklets: Replace barrier() with cpu_relax() in tasklet_unlock_wait()
+6951547a1399c8f56468ed93bea8f769b891aec3 tasklets: Use static inlines for stub implementations
+ca5f625118955fc544c3cb3dee7055d33ecadafb tasklets: Provide tasklet_disable_in_atomic()
+b0cd02c2a9494dbf0a1cc7dc7a3b8b400c158d37 tasklets: Use spin wait in tasklet_disable() temporarily
+da044747401fc16202e223c9da970ed4e84fd84d tasklets: Replace spin wait in tasklet_unlock_wait()
+697d8c63c4a2991a22a896a5e6adcdbb28fefe56 tasklets: Replace spin wait in tasklet_kill()
+eb2dafbba8b824ee77f166629babd470dd0b1c0a tasklets: Prevent tasklet_unlock_spin_wait() deadlock on RT
+c62c38e349c73cad90f59f00fe8070b3648b6d08 net: jme: Replace link-change tasklet with work
+25cf87df1a3a85959bf1bf27df0eb2e6e04b2161 net: sundance: Use tasklet_disable_in_atomic().
+3250aa8a293b1859d76577714a3e1fe95732c721 ath9k: Use tasklet_disable_in_atomic()
+405698ca359a23b1ef1a502ef2bdc4597dc6da36 atm: eni: Use tasklet_disable_in_atomic() in the send() callback
+be4017cea0aec6369275df7eafbb09682f810e7e PCI: hv: Use tasklet_disable_in_atomic()
+f339fc16fba0167d67c4026678ef4c405bca3085 firewire: ohci: Use tasklet_disable_in_atomic() where required
+6fd4e861250b5c89ad460a9f265caeb1bbbfc323 tasklets: Switch tasklet_disable() to the sleep wait variant
+728b478d2d358480b333b42d0e10e0fecb20114c softirq: Add RT specific softirq accounting
+6516b386d8a07102aac353daf9c0fe0045faeb74 irqtime: Make accounting correct on RT
+f02fc963e91160e7343933823e8b73a0b2ab0a16 softirq: Move various protections into inline helpers
+8b1c04acad082dec76f3f8f7e1fa13493d6cbb79 softirq: Make softirq control and processing RT aware
+47c218dcae6587fb5bce30f1656b13e22391c8e3 tick/sched: Prevent false positive softirq pending warnings on RT
+ba9e6cab49c1465c2c322dcb03d771d5cbecb692 rcu: Prevent false positive softirq warning on RT
 
-7758cdc0bbab589b5193e4c9930fd2b559dc8661 f09c4e9779b3ff81e1f0a01b06b0587bcad9dbed refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBSI04bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Pm4P/1U7igdzjvkpf5kc9hIV
-aUdHjGE1PVxybH1VnLziaUuOVDqPfA/m91Zuu82KunJCc/I/0FxGX10joy9Uzuze
-pw0zM0mJ1a06NTjX0Dh7WEU7pyEWgq4jl4x0wQzqYx0HTQcgC1p8iFuIRAeH9O/M
-wcfhoQvNDwGudHC7/eV1z+P94q2Z0asCNFo+DQzuaNJskF/3faVNiPCkuOn0lo3w
-VyMnW2cOmjQ46O45gP5uIiW54AUIlxoT5YIEUpyGgzIs/VF9zKoaL5CGV7XRRKZB
-OBl7QRshcwlH7nMJKI4S8m4QUi3QT6UBRKA7XFafx6h1+4o/YksaBxKMLeBm30k0
-CFlJx4lo/UwM53CmjDJqldDLr5nCMwJAp/f434Ril0a1khOD5ihAKpEAFw81UY6o
-8/vru3Cj/Pcd47hX+R8PFDpR0CMHp4U1mQgwogDcT8Y77kujcBEAOey+iEssp9e9
-+3GqXjrAv5IDLXNFwGE6FnqyQOHwGjumofGuiu32g3xJh8fnzwboizoIi9q9LL0I
-y++m61dNwSwYhe4+9Ge1ZNsI9KXvkh/NsO5y5YX5dGm/9yFsl93KgLNb3bU3eRCR
-qdR/Zjb78J8h4rdgP1qlhKdE4Nos+T6+H+YaXtEBoeGPFCnyjqZqPpk0BkNCxTBg
-/Mp5h3yRsAqc4IqhKlrxMPk7
-=f4d2
------END PGP SIGNATURE-----
-
---===============1962694188297942276==--
+--===============8111855421098694268==--
