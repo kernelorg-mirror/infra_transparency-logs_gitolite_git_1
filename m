@@ -1,50 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4622291125845780253=="
+Content-Type: multipart/mixed; boundary="===============0051015500293764923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Wed, 17 Mar 2021 18:19:14 -0000
-Message-Id: <161600515472.10732.12231473215847644262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 17 Mar 2021 18:19:17 -0000
+Message-Id: <161600515796.10804.2239713255893350570@gitolite.kernel.org>
 
---===============4622291125845780253==
+--===============0051015500293764923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: 6a8941296f212c113147b6fd02a1f691edc15f51
-    new: e7f5d59624ec5c3e02b4b4f273f0b4835ae8b4e0
-    log: revlist-6a8941296f21-e7f5d59624ec.txt
+  - ref: refs/heads/x86/core
+    old: f935178b5c1c32ff803b15892a8ba85a1280cb01
+    new: 919e30f1dc469cd655f0d59d256cbe536d8d94d2
+    log: revlist-f935178b5c1c-919e30f1dc46.txt
 
---===============4622291125845780253==
+--===============0051015500293764923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a8941296f21-e7f5d59624ec.txt
+Content-Disposition: attachment; filename=revlist-f935178b5c1c-919e30f1dc46.txt
 
-ac6b4a2c05fdb91957fd1a851eb692d308fae839 x86: Use new cache mode type in mm/iomap_32.c
-d4e63a6d98bd83920594fafe6a2ff49eab53497a x86: Make page cache mode a real type
-1b27804c938c6ada8a56b9e5b4cd32b8fe7e0e5a fs/quota: Fix spectre gadget in do_quotactl
-49c87b87fae7066eb7c2f7c12edb50ba6c49fbda x86/io: add interface to reserve io memtype for a resource range. (v1.1)
-ede66278088f09b7673f2bcb6c4ef905c54989e3 qlge: Fix netdev features configuration.
-a2801a378e1a577c215a5847370220203cc4a54e tcp: do not restart timewait timer on rst reception
-e3a0de385e8e3fc197a52f10c9eb3fd7e29fe075 x86/pae: use 64 bit atomic xchg function in native_ptep_get_and_clear
-c682e8ac992f07cd5bfca6e7f4956d46511f1921 genirq: Delay incrementing interrupt count if it's disabled/pending
-896d9e1cd9f8e7084bc00130f72f9de13e4d9614 irqchip/gic: Make interrupt ID 1020 invalid
-7e2fc76ccd38ac3539f5578254115dea1cd76d02 ovl: rename is_merge to is_lowest
-f98a5ef907c94178a1562d7a3534621168a2cb13 sch_htb: fix crash on init failure
-b0521b05866581be05218e0975869b50f7e5c7f6 sch_multiq: fix double free on init failure
-88ebacd5294fbb340c9a28b21040920afdf5d4d1 sch_hhf: fix null pointer dereference on init failure
-e9de0328a548813022d6406ae918a47ea69cd7aa sch_netem: avoid null pointer deref on init failure
-74674ce0db10ed15b3e6892db15bf36ce3688ee3 sch_tbf: fix two null pointer dereferences on init failure
-3642629995f541f25b88035ca8c5891c2ed20437 locking/rwsem-xadd: Fix missed wakeup due to reordering of load
-804d58534cc7caf83224c2bc308fb46070ae02dd selinux: use GFP_NOWAIT in the AVC kmem_caches
-49e5ec5724ae416ad4d8abee84fb21c97a999bf4 misc: ti-st: Fix memory leak in the error path of probe()
-095997af77a073d3ca29c25b9abb2810ee372116 NFSv4.0 fix client reference leak in callback
-e7f5d59624ec5c3e02b4b4f273f0b4835ae8b4e0 Input: atmel_mxt_ts - only use first T9 instance
+59eca2fa1934de42d8aa44d3bef655c92ea69703 x86/cpu/hygon: Set __max_die_per_package on Hygon
+db16e07269c2b4346e4332e43f04e447ef14fd2f x86/alternative: Drop unused feature parameter from ALTINSTR_REPLACEMENT()
+5e21a3ecad1500e35b46701e7f3f232e15d78e69 x86/alternative: Merge include files
+b046664872dd78a8bebe3d5f3bb9da9baa93f5ca static_call: Move struct static_call_key definition to static_call_types.h
+6ea312d95e0226b306bb4b8ee3a0727d880378cb static_call: Add function to query current function
+a0e2bf7cb7006b5a58ee81f4da4fe575875f2781 x86/paravirt: Switch time pvops functions to use static_call()
+dda7bb76484978316bb412a353789ebc5901de36 x86/alternative: Support not-feature
+e208b3c4a9748b2c17aa09ba663b5096ccf82dce x86/alternative: Support ALTERNATIVE_TERNARY
+2fe2a2c7a97c9bc32acc79154b75e754280f7867 x86/alternative: Use ALTERNATIVE_TERNARY() in _static_cpu_has()
+4e6292114c741221479046515b1aa8145cf1e3f6 x86/paravirt: Add new features for paravirt patching
+33634e42e38be61f320183dfc264b9caba292d4e x86/paravirt: Remove no longer needed 32-bit pvops cruft
+0b8d366a942fd48a83dfa728e9f8a8d8b20e735f x86/paravirt: Simplify paravirt macros
+ae755b5a45482b5de4d96d6f35823076af77445e x86/paravirt: Switch iret pvops to ALTERNATIVE
+00aa3193ab7a04b25bb8c68e377815696eb5bf56 x86/paravirt: Add new PVOP_ALT* macros to support pvops in ALTERNATIVEs
+fafe5e74229fd3f425e3cbfc68b90e615aa6d62f x86/paravirt: Switch functions with custom code to ALTERNATIVE
+054ac8ad5ebe4a69e1f0e842483821ddbe560121 x86/paravirt: Have only one paravirt patch function
+a89dfde3dc3c2dbf56910af75e2d8b11ec5308f6 x86: Remove dynamic NOP selection
+301cddc21a157a3072d789a3097857202e550a24 objtool/x86: Use asm/nops.h
+56be8f9ccbe74c0f02516c9df162b56445dac2c2 Merge branch 'tip/x86/cpu'
+acabbc4445caccabff9684805b196af1d5a74b94 Merge branch 'tip/x86/alternatives'
+fa74ceacfc005e24b48080a2c5f78e1edb7ab78b x86: Add insn_decode_kernel()
+402759594f56c2d63202e96a810175fe1d66c9a0 x86/alternatives: Optimize optimize_nops()
+919e30f1dc469cd655f0d59d256cbe536d8d94d2 x86/retpoline: Simplify retpolines
 
---===============4622291125845780253==--
+--===============0051015500293764923==--
