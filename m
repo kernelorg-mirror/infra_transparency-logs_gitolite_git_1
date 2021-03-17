@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 17 Mar 2021 07:08:51 -0000
-Message-Id: <161596493126.5197.6322778977476158275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Wed, 17 Mar 2021 07:13:46 -0000
+Message-Id: <161596522604.9496.14463792225893214798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/dev-test
-    old: f8e769f774034432a4cd8ccdc331586224989657
-    new: 49f9e359229ccfb3a8c7df7e6ef793b7fbd3fb52
+  - ref: refs/heads/urgent
+    old: 854941b1caf5432705e5f3b3afbcea20107a5dc7
+    new: 556ced091e0677a716ea6e54fbd4b1add1c1df24
     log: |
-         3f664b3468cb5ff3a08136f87194b78f89bdc0c0 erofs: use workqueue decompression for atomic contexts only
-         49f9e359229ccfb3a8c7df7e6ef793b7fbd3fb52 erofs: use sync decompression for atomic contexts only
+         556ced091e0677a716ea6e54fbd4b1add1c1df24 efivars: respect EFI_UNSUPPORTED return from firmware
          
