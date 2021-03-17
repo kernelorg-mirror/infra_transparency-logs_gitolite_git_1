@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7579495801978905005=="
+Content-Type: multipart/mixed; boundary="===============2167703246962851868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 17 Mar 2021 04:09:13 -0000
-Message-Id: <161595415349.22868.15534657374241475169@gitolite.kernel.org>
+Date: Wed, 17 Mar 2021 04:09:18 -0000
+Message-Id: <161595415851.22973.14629317982759758969@gitolite.kernel.org>
 
---===============7579495801978905005==
+--===============2167703246962851868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 50206253d68140e8579eecfb6ef2ebd70c5e262c
-    new: b593f828f9adadf12b295645e5c344620c7b29f8
-    log: revlist-50206253d681-b593f828f9ad.txt
+  - ref: refs/heads/5.13/scsi-staging
+    old: 471ee95ccca9c417344453f73a39681cfde39af1
+    new: 52ee471a5c124f46d786e3fc2acf981bae218251
+    log: revlist-471ee95ccca9-52ee471a5c12.txt
 
---===============7579495801978905005==
+--===============2167703246962851868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1615954151 -0400
+pusher 75C5DE3D 1615954157 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1615954151-7b6e6e2d929909ca8dfb4ce9b19526eee7196d3b
+nonce 1615954156-5c63c983e85c3b29bf8f17e47ecab04f3d570a8c
 
-50206253d68140e8579eecfb6ef2ebd70c5e262c b593f828f9adadf12b295645e5c344620c7b29f8 refs/tags/mkp-scsi-staging
+471ee95ccca9c417344453f73a39681cfde39af1 52ee471a5c124f46d786e3fc2acf981bae218251 refs/heads/5.13/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBRgOcACgkQ7ulgGnXF
-3j1ETA/9FBd66feaqgnhx9jiEQiscNe5BijhUi34FJkNVxcCwz/hsxg8py4Hz55G
-KTaEfFC0bPqqO3HLqkxOMKPlbLXuXSRJWKwo8pyjH5ns9RxGl8yca0wRmaFb2fOw
-Xyxd9G80jp5c5seM2sScf4Sk+XRjUKmAtMefwE/l83oZQoMigaAIK/qPnM83fc25
-RxC3V0du1OpNxrUNbvuhENBpbMsZSpt0AquTXEPiGXzXKSepOeBGGF0hfv1AYuHk
-taav9RsFo9WI5mJxikAFQJDu5LEW/nkJgW/tR5MfRCsVzS37x8KOQODRnGJrp16i
-23Fx9n/oAUaEYzHX+kOoegKPZ7Fz3bZbA9snCyC6Cq1FerkCw1xIMvZa8Iq1kJ1W
-srgjQ4KeIRb3oV8nDe6SpVYwtf8gGyEwEaK/U3AV0gYPgM/0oEWDTftjP53t8VGe
-xYbQ9/ob64eh9RMAt7m8jYJkqTg5JXXTJpewrU789K2RHikerH2Gstn82W5zB+O0
-G1M5aZOqMy+ZjjOSDuGCDUMbZ4Sb7kYDChV6zShV9v2dDzZUoYnp8ssKhcZWYYaW
-uU10ZFVcMgoow8exPdJkqt0aC7YaqZpr0w/wtqBOTJLlY0+khN9cPfYsjvEkUuH5
-u7KZ7QB4jSZSfssarEn8T02/dnLtNJ27FDyNZvYed1uANYGztlU=
-=KCxw
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBRgO0ACgkQ7ulgGnXF
+3j18KA/9EgSGlDVoSbs9aw5sJq6q5rfEHsNpZvqAuPN5ylIDzsD7h4j7AXVZiW0m
+GO8DGgoVK2z3KDnLDdS4KWs/SWlGeL3gGvucUbeIjbVx+D/BQT8D+93hMNVlPKhq
+xMyhnN1Ij4w5dJPzgywF5sImvvj+zT97MMSHc6eEdgWItK7ZcmLP4rPsapeoytyW
+Db2kyYzxjTen+H7xyu8Q2klMqQypcT7ryODtX+V8j+Nme1RFGN8Xt3g8vCuGFohM
+ZT/0SNEmNvpQzSABCTMqxfuGH/vKkjPoOWk2VcHnRp9zGCOUaAP4bFLG3o9z2U6V
+hPbrOVFi0SkLx0JfHrRTJMiOk6TvhiGuRttOdb0+4RoxoCFQpSg5DNpFqWO21Y6X
+x4isyhrXdArgt9H1ACZMtB7yIf+ketrte1/9/RvX9j5ZGA9CljOkHf1tQ4HSlELT
+ptYZ2brWjy5yKc63DaPh6avv5bPdTX/JF5yBoItFWbbRHmfKMZIXqomz3eDTRGwR
+HxhsqagMzZTUtwPAUKT0iVZui7PYY9rLi4WKad7/b1T9FIy+tnFc9ZJFNbSdJgSF
+4YP1O9lVJnuU9I9CvlHBHZZPmNDsibu7GUPfxoIo359bWgjL/DCNUXeDhX6UiTci
+G/7rn3QVvztt72wzpbICA2f+66X7+t+1iXeA/z95iHzkgf/RDZE=
+=MYnQ
 -----END PGP SIGNATURE-----
 
---===============7579495801978905005==
+--===============2167703246962851868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50206253d681-b593f828f9ad.txt
+Content-Disposition: attachment; filename=revlist-471ee95ccca9-52ee471a5c12.txt
 
 3d9c3dcc58e968403f29767726407bc680e087b5 scsi: storvsc: Enable scatterlist entry lengths > 4Kbytes
 4517e77eb83d875c61e11dec01dec4ad49e4c5e7 scsi: ufs: dt-bindings: Add sm8250, sm8350 compatible strings
@@ -77,4 +77,4 @@ ecdb59160970654de4645932bbba2ec1572670f7 scsi: csiostor: Assign boolean values t
 3fa480b4a33bd4be3cdfab514a3c1c82f14631ec scsi: qla1280: Spelling fixes
 52ee471a5c124f46d786e3fc2acf981bae218251 scsi: 53c700: Fix spelling of conditions
 
---===============7579495801978905005==--
+--===============2167703246962851868==--
