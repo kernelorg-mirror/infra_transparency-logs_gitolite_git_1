@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2207496427452228478=="
+Content-Type: multipart/mixed; boundary="===============1216178440769808976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 17 Mar 2021 13:38:30 -0000
-Message-Id: <161598831060.8310.5402813857055440702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 17 Mar 2021 13:38:37 -0000
+Message-Id: <161598831783.8405.7642054633332006412@gitolite.kernel.org>
 
---===============2207496427452228478==
+--===============1216178440769808976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/spi-5.13
     old: 4152c4d0d939e6863f9814d7d346787b19f771f7
     new: 92bad4a4c755cdf286f6b303dd482a573f2b89e6
     log: |
@@ -24,28 +24,28 @@ changes:
          92bad4a4c755cdf286f6b303dd482a573f2b89e6 spi: imx: Improve driver description
          
 
---===============2207496427452228478==
+--===============1216178440769808976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1615988308 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1615988307-cc357af1b58a648f4f8c72ad097abc9bfc1c3e16
+pusher C3F436CA30F5D8EB 1615988315 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1615988315-b550ab73264d670d8cf9698f0e27af08c5cd8b6b
 
-4152c4d0d939e6863f9814d7d346787b19f771f7 92bad4a4c755cdf286f6b303dd482a573f2b89e6 refs/heads/for-5.13
+4152c4d0d939e6863f9814d7d346787b19f771f7 92bad4a4c755cdf286f6b303dd482a573f2b89e6 refs/heads/spi-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBSBlQACgkQJNaLcl1U
-h9DQzgf/Qx48vf7nDVAiS/ajBcnf+lTdpbjBJe++/cC0HXHqs2i8klrQaMYaI1zE
-9rNTqPzgzAcBlMpaK7Ds3t2TUFwmV5US8KLRphLVxRTBIEuVe62bVKHWM+ZgGndm
-Ur/AxC92RVWu1zjuKbcO+fkx8xm1x2Mhmsf+idqoBrgJCFNlDJcsj7qUxbeq6VGp
-BCqHFcdSjUIVnXLHDgrKtwYaT8lvPB0fuZwdMR6bQnyw845MGS2Yelec72OT97PE
-AxBjebgDqiVCtqbGPr9vmgVUqt0IvJ1fpXxd25r/5L1tYI8FJ2NBl+FxAqnC1qPc
-/CdYIEPrDEtkKyYN9jQ2sMbZhag9xA==
-=wjtU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBSBlsACgkQJNaLcl1U
+h9BVYAf9GzW2uaNFLYPUkBUCzVR2l+1PQfujiBhcT/KH+IbU8+q8uiAn49MSxaxV
+/o5xo5McXBwdNAC8IXN28KDU+Vl1GIdyw3ABzAy1tmOLOrrR5w91DVtjelje0gU+
+weaXlpMIJ+uv1es+Te+qA2x0Ek/qEgx0buA61uViE8YeGIlkP5v5BTfjASQ7MsY7
+g9FzR+XOScig8R2NTQAcSQQxRuHs1WgFsxYmYP4VKDwTkYqHsR/tr7gSwVekGgcN
+rq2WwQJhpixAtp1S1Ar8HfX/NXpjfZ8457vKfLnPYQR7nOfJFMY21Bm+F2n9LWHV
+Hq7EMBNJPewKYI4ldRKlIxkdKYYRUA==
+=4xBx
 -----END PGP SIGNATURE-----
 
---===============2207496427452228478==--
+--===============1216178440769808976==--
