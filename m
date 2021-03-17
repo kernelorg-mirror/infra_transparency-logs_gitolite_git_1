@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 17 Mar 2021 18:04:49 -0000
-Message-Id: <161600428905.31571.8530459639065121387@gitolite.kernel.org>
+Date: Wed, 17 Mar 2021 18:04:57 -0000
+Message-Id: <161600429800.31718.7594542331864491672@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/jump_label
+  - ref: refs/heads/sched/hotplug
     old: 0000000000000000000000000000000000000000
-    new: a7289d4dd38c70e2ec0fd47a14d5b448c9e2f270
+    new: f558c4e4cbe2fd18878d9c598d05f6db8b2c0bd2
