@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Wed, 17 Mar 2021 01:18:20 -0000
-Message-Id: <161594390083.15698.18274017229305741499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 17 Mar 2021 01:21:11 -0000
+Message-Id: <161594407163.18113.17500545621121058722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/usbip_test
-    old: 443cfb98f44b4919afbc7be46bf0a79a1b974dbb
-    new: e7a65d4669217c1839358bec94df722480b18da4
+  - ref: refs/heads/master
+    old: acccac28dbb2b9a026756c4f5634a01065cbc784
+    new: 571e41a19a25f527daad2911f0b4e76a640d6ef4
     log: |
-         e7a65d4669217c1839358bec94df722480b18da4 usbip: fix vhci races in connection tear down
+         571e41a19a25f527daad2911f0b4e76a640d6ef4 build: Fix build with latest ELL tree
          
