@@ -1,67 +1,102 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Wed, 17 Mar 2021 12:08:22 -0000
-Message-Id: <161598290252.15595.13189132666719875568@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6863876393090456248=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Wed, 17 Mar 2021 12:11:34 -0000
+Message-Id: <161598309479.19434.12409136110684423401@gitolite.kernel.org>
+
+--===============6863876393090456248==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
 changes:
+  - ref: refs/heads/fixes
+    old: eed5fae00593ab9d261a0c1ffc1bdb786a87a55a
+    new: cc7a0bb058b85ea03db87169c60c7cfdd5d34678
+    log: |
+         cc7a0bb058b85ea03db87169c60c7cfdd5d34678 PCI: rpadlpar: Fix potential drc_name corruption in store functions
+         
+  - ref: refs/heads/fixes-test
+    old: eed5fae00593ab9d261a0c1ffc1bdb786a87a55a
+    new: cc7a0bb058b85ea03db87169c60c7cfdd5d34678
+    log: |
+         cc7a0bb058b85ea03db87169c60c7cfdd5d34678 PCI: rpadlpar: Fix potential drc_name corruption in store functions
+         
   - ref: refs/heads/master
-    old: 2cc320f180047ba57b9f5bc51047ea952b61c259
-    new: d4cd675f3324add3760291c471e7a853dac682ab
+    old: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
+    new: 1df27313f50a57497c1faeb6a6ae4ca939c85a7d
+    log: revlist-1e28eed17697-1df27313f50a.txt
+  - ref: refs/heads/merge
+    old: 0512161accb8b6f6dacc85d165350b1812ddcc33
+    new: 87d76f542a24ecfa797e9bd3bb56c0f19aabff57
+    log: revlist-0512161accb8-87d76f542a24.txt
+  - ref: refs/heads/next-test
+    old: 1e97f67cc191d74dfacb2a6f4a4ad1db2682a036
+    new: 11aa533b82d5785e0475fd1e2f47db1ccf8f5be4
     log: |
-         c3328a123c6be983efc72c64f1ac3136cace7170 Add list of required packages
-         d4cd675f3324add3760291c471e7a853dac682ab Remove redundant plain-text README and other unused files.
+         11aa533b82d5785e0475fd1e2f47db1ccf8f5be4 powerpc/mm: Remove unneeded #ifdef CONFIG_PPC_MEM_KEYS
          
-  - ref: refs/merge-requests/135/head
-    old: 4ce7de61d471a4f8bd35a493a9f065121dd8ce93
-    new: df695b4ff5663f07ea2e9246e0cfbf148753cecb
-    log: |
-         cb9cb7154dfdcb0ed6293e53ead6e5ccfb5723cd Update libpasswdqc support
-         9d559bba8ffa2aff61760d8bee215b6f2b373000 Add note for passwdqc change to release notes.
-         6f26d7a77f08e00da7ba6cbddf606e0a3d7c7a80 Prepare Readme for version 2.3.5.
-         2cc320f180047ba57b9f5bc51047ea952b61c259 Update Release notes version.
-         b8ab4d4b64432655ac118af2578fddcaa2cbe3b1 Add support for larger block size in loop.
-         4510622a0aa4332fe7b2b80d09730c5fbc0cbdcb Set data device loop block size to encryption sector size.
-         df695b4ff5663f07ea2e9246e0cfbf148753cecb Autodetect optimal encryption sector size on LUKS2 format.
-         
-  - ref: refs/merge-requests/135/merge
-    old: dae608250ce4ff24ba5442cfb70d6e2598b80379
-    new: 10986c74b4657062a3ffdefb2ae2945f2f9ba164
-    log: |
-         cb9cb7154dfdcb0ed6293e53ead6e5ccfb5723cd Update libpasswdqc support
-         9d559bba8ffa2aff61760d8bee215b6f2b373000 Add note for passwdqc change to release notes.
-         6f26d7a77f08e00da7ba6cbddf606e0a3d7c7a80 Prepare Readme for version 2.3.5.
-         2cc320f180047ba57b9f5bc51047ea952b61c259 Update Release notes version.
-         b8ab4d4b64432655ac118af2578fddcaa2cbe3b1 Add support for larger block size in loop.
-         4510622a0aa4332fe7b2b80d09730c5fbc0cbdcb Set data device loop block size to encryption sector size.
-         df695b4ff5663f07ea2e9246e0cfbf148753cecb Autodetect optimal encryption sector size on LUKS2 format.
-         10986c74b4657062a3ffdefb2ae2945f2f9ba164 Merge branch 'default-sector-size' into 'master'
-         
-  - ref: refs/merge-requests/51/merge
-    old: 9d559bba8ffa2aff61760d8bee215b6f2b373000
-    new: 2cc320f180047ba57b9f5bc51047ea952b61c259
-    log: |
-         6f26d7a77f08e00da7ba6cbddf606e0a3d7c7a80 Prepare Readme for version 2.3.5.
-         2cc320f180047ba57b9f5bc51047ea952b61c259 Update Release notes version.
-         
-  - ref: refs/heads/blake-hash
-    old: 0000000000000000000000000000000000000000
-    new: 7af031810c25bb018341cee9e5fa9efe28e176c5
-  - ref: refs/merge-requests/151/head
-    old: 0000000000000000000000000000000000000000
-    new: fb5d956c87541ae32714e50781b25cbe640bc441
-  - ref: refs/merge-requests/151/merge
-    old: 0000000000000000000000000000000000000000
-    new: e09e9d498780e285bd156421bd038c757a4ee7f6
-  - ref: refs/merge-requests/152/head
-    old: 0000000000000000000000000000000000000000
-    new: 7af031810c25bb018341cee9e5fa9efe28e176c5
-  - ref: refs/merge-requests/152/merge
-    old: 0000000000000000000000000000000000000000
-    new: bc7733459d9976196dfd8d0987761acd11fa62e0
+
+--===============6863876393090456248==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1e28eed17697-1df27313f50a.txt
+
+775c5033a0d164622d9d10dd0f0a5531639ed3ed fuse: fix live lock in fuse_iget()
+3f9b9efd82a84f27e95d0414f852caf1fa839e83 virtiofs: Fail dax mount if device does not support it
+d30881f573e565ebb5dbb50b31ed6106b5c81328 nfsd: Don't keep looking up unhashed files in the nfsd file cache
+6820bf77864d5894ff67b5c00d7dba8f92011e3d svcrdma: disable timeouts on rdma backchannel
+7005227369079963d25fb2d5d736d0feb2c44cf6 fs: nfsd: fix kconfig dependency warning for NFSD_V4
+bfdd89f232aa2de5a4b3fc985cba894148b830a8 nfsd: don't abort copies early
+c7de87ff9dac5f396f62d584f3908f80ddc0e07b NFSD: Repair misuse of sv_lock in 5.10.16-rt30.
+f1442d6349a2e7bb7a6134791bdc26cb776c79af sunrpc: fix refcount leak for rpc auth modules
+0ddc942394013f08992fc379ca04cffacbbe3dae rpc: fix NULL dereference on kmalloc failure
+4aa5e002034f0701c3335379fd6c22d7f3338cce Revert "nfsd4: remove check_conflicting_opens warning"
+6ee65a773096ab3f39d9b00311ac983be5bdeb7c Revert "nfsd4: a client's own opens needn't prevent delegations"
+614c9750173e412663728215152cc6d12bcb3425 NFSD: fix dest to src mount in inter-server COPY
+b4250dd868d1b42c0a65de11ef3afbee67ba5d2f NFSD: fix error handling in NFSv4.0 callbacks
+bade4be69a6ea6f38c5894468ede10ee60b6f7a0 svcrdma: Revert "svcrdma: Reduce Receive doorbell rate"
+64fcbb6158ecc684d84c64424830a9c37c77c5b9 afs: Fix accessing YFS xattrs on a non-YFS server
+a7889c6320b9200e3fe415238f546db677310fa9 afs: Stop listxattr() from listing "afs.*" attributes
+1a4431a5db2bf800c647ee0ed87f2727b8d6c29c Merge tag 'afs-fixes-20210315' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+f8425c9396639cc462bcce44b1051f8b4e62fddb fuse: 32-bit user space ioctl compat for fuse device
+4108e101972ce4e25d87fd4806b182505ef22ee8 Merge tag 'nfsd-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+1df27313f50a57497c1faeb6a6ae4ca939c85a7d Merge tag 'fuse-fixes-5.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
+
+--===============6863876393090456248==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0512161accb8-87d76f542a24.txt
+
+775c5033a0d164622d9d10dd0f0a5531639ed3ed fuse: fix live lock in fuse_iget()
+3f9b9efd82a84f27e95d0414f852caf1fa839e83 virtiofs: Fail dax mount if device does not support it
+d30881f573e565ebb5dbb50b31ed6106b5c81328 nfsd: Don't keep looking up unhashed files in the nfsd file cache
+6820bf77864d5894ff67b5c00d7dba8f92011e3d svcrdma: disable timeouts on rdma backchannel
+7005227369079963d25fb2d5d736d0feb2c44cf6 fs: nfsd: fix kconfig dependency warning for NFSD_V4
+bfdd89f232aa2de5a4b3fc985cba894148b830a8 nfsd: don't abort copies early
+c7de87ff9dac5f396f62d584f3908f80ddc0e07b NFSD: Repair misuse of sv_lock in 5.10.16-rt30.
+f1442d6349a2e7bb7a6134791bdc26cb776c79af sunrpc: fix refcount leak for rpc auth modules
+0ddc942394013f08992fc379ca04cffacbbe3dae rpc: fix NULL dereference on kmalloc failure
+4aa5e002034f0701c3335379fd6c22d7f3338cce Revert "nfsd4: remove check_conflicting_opens warning"
+6ee65a773096ab3f39d9b00311ac983be5bdeb7c Revert "nfsd4: a client's own opens needn't prevent delegations"
+614c9750173e412663728215152cc6d12bcb3425 NFSD: fix dest to src mount in inter-server COPY
+b4250dd868d1b42c0a65de11ef3afbee67ba5d2f NFSD: fix error handling in NFSv4.0 callbacks
+bade4be69a6ea6f38c5894468ede10ee60b6f7a0 svcrdma: Revert "svcrdma: Reduce Receive doorbell rate"
+64fcbb6158ecc684d84c64424830a9c37c77c5b9 afs: Fix accessing YFS xattrs on a non-YFS server
+a7889c6320b9200e3fe415238f546db677310fa9 afs: Stop listxattr() from listing "afs.*" attributes
+1a4431a5db2bf800c647ee0ed87f2727b8d6c29c Merge tag 'afs-fixes-20210315' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+f8425c9396639cc462bcce44b1051f8b4e62fddb fuse: 32-bit user space ioctl compat for fuse device
+4108e101972ce4e25d87fd4806b182505ef22ee8 Merge tag 'nfsd-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+1df27313f50a57497c1faeb6a6ae4ca939c85a7d Merge tag 'fuse-fixes-5.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
+cc7a0bb058b85ea03db87169c60c7cfdd5d34678 PCI: rpadlpar: Fix potential drc_name corruption in store functions
+86db1b28a007d9e0e0d6753fca6b0ed5918b087a Automatic merge of 'master' into merge (2021-03-17 14:13)
+87d76f542a24ecfa797e9bd3bb56c0f19aabff57 Automatic merge of 'fixes' into merge (2021-03-17 14:13)
+
+--===============6863876393090456248==--
