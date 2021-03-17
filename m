@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 17 Mar 2021 09:16:09 -0000
-Message-Id: <161597256984.6625.10814324527584358570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/zonefs
+Date: Wed, 17 Mar 2021 09:28:56 -0000
+Message-Id: <161597333634.13233.123339908318405601@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/dlemoal/zonefs
+user: dlemoal
 changes:
-  - ref: refs/heads/for-next
-    old: 45caa853b4833d9afb12b50bc81327832708f418
-    new: 884a7fa1b090ccab785f9fa2a9168238d473d801
+  - ref: refs/heads/for-5.12-fixes
+    old: ebfd68cd0c1e81267c757332385cb96df30dacce
+    new: 6980d29ce4da223ad7f0751c7f1d61d3c6b54ab3
     log: |
-         9fc2872b700a35208c485ac01411a633475a7145 Makefile: Remove '--gcc-toolchain' flag
-         71eb5c859a5914e14a2223d053f3e545811e741c Makefile: Only specify '--prefix=' when building with clang + GNU as
-         5946d42d6d426a560eaa6f6e5f05ad87c23535d4 docs: kbuild: Fix a typo in the file Kconfig.recursion-issue-02
-         884a7fa1b090ccab785f9fa2a9168238d473d801 kbuild: replace sed with $(subst ) or $(patsubst )
+         6980d29ce4da223ad7f0751c7f1d61d3c6b54ab3 zonefs: fix to update .i_wr_refcnt correctly in zonefs_open_zone()
          
