@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 17 Mar 2021 19:33:48 -0000
-Message-Id: <161600962850.14838.14183128662822243420@gitolite.kernel.org>
+Date: Wed, 17 Mar 2021 19:34:55 -0000
+Message-Id: <161600969558.15282.30116092688004947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,13 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 930a3a622935e7cf28445f61826253f8eee56f45
-    new: f16569420d597987cca0d966809a882f04d3f465
+    old: f16569420d597987cca0d966809a882f04d3f465
+    new: 6ef4f40993e7ba1f132845c211dbba711af0623e
     log: |
-         63f925dc55b33e8c4edd0de5e83904cd179d3095 octeontx2-af: refactor function npc_install_flow for default entry
-         d450a23515e00b3c0701f4ae7f3e47dc71aa7bca octeontx2-af: Add support for multi channel in NIX promisc entry
-         56bcef528bd87d66ddf81f0fb1b8837cce1b2667 octeontx2-af: Use npc_install_flow API for promisc and broadcast entries
-         b6b0e3667e1b2c796cd282d5ec385d5864ccb1ce octeontx2-af: Avoid duplicate unicast rule in mcam_rules list
-         058fa3d915eac6e0babbe3c4776e8ca382415c2c octeontx2-af: Modify the return code for unsupported flow keys
-         f16569420d597987cca0d966809a882f04d3f465 Merge branch 'octeontx2-refactor'
+         cfeb961a2b5f1a7c6e0dc43a1673b28fab05baf8 Documentation: networking: switchdev: separate bulleted items with new line
+         6b38c57198366a86dd73fb250db5dfcbdc45763f Documentation: networking: switchdev: add missing "and" word
+         8794be45cd456089b0582b7e72c686baa9d6f9b7 Documentation: networking: dsa: add missing new line in devlink section
+         e322bacb914d5cb69783045f3c639521827b30e8 Documentation: networking: dsa: demote subsections to simple emphasized words
+         0929ff71cf9272a2b47d6708fc7eff9c381db7b7 Documentation: networking: dsa: mention that the master is brought up automatically
+         6ef4f40993e7ba1f132845c211dbba711af0623e Merge branch 'dsa-doc-fixups'
          
