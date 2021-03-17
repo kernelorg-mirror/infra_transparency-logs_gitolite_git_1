@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3088304863240630749=="
+Content-Type: multipart/mixed; boundary="===============5457263048682718296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 17 Mar 2021 20:44:48 -0000
-Message-Id: <161601388861.27649.18186851072881125744@gitolite.kernel.org>
+Date: Wed, 17 Mar 2021 20:45:40 -0000
+Message-Id: <161601394051.29445.4401318954099800772@gitolite.kernel.org>
 
---===============3088304863240630749==
+--===============5457263048682718296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 47a14ef3f9782c4c0aa2af32b1e13edf866b20c7
-    new: fa90b937607981c9a54b3f98eef030658f837f7a
+  - ref: refs/heads/usb-linus
+    old: 86629e098a077922438efa98dc80917604dfd317
+    new: f09ddcfcb8c569675066337adac2ac205113471f
     log: |
-         fa90b937607981c9a54b3f98eef030658f837f7a usb: mtu3: Fix spelling mistake "disabed" -> "disabled"
+         f09ddcfcb8c569675066337adac2ac205113471f usb: dwc3: gadget: Prevent EP queuing while stopping transfers
          
 
---===============3088304863240630749==
+--===============5457263048682718296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616013883 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616013935 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1616013883-41beb803577dfd101e4a6db46c7344ed2afe94cd
+nonce 1616013934-1d30a5133e8667b2dbc4c5685dd18418627d4db8
 
-47a14ef3f9782c4c0aa2af32b1e13edf866b20c7 fa90b937607981c9a54b3f98eef030658f837f7a refs/heads/usb-testing
+86629e098a077922438efa98dc80917604dfd317 f09ddcfcb8c569675066337adac2ac205113471f refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBSajsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UMcQAJJYfueIgCxXPmcqG8/K
-A8J+wEOUDQRBfmeie1mxBGITw2Tm/etCHSDSamN/9dXjBksr5hb87NI5nb5QWPqk
-4e7SHyV1nvYw0KVW9fgCCJSv1mhon59p8qHhY5CqE4wEvDB4AfTV/CzSqIhEs5qw
-xSdiK7EeGQ8006Sq3gm9FBuMoRPH7YCV4jbEET3ccM6ooNrXD0KukaT/RkW7O8ua
-vv7STpsoyS+rQ19WYtsUIfe7VltzzD1BLJprB/hZPSjUVlU1amCEuweE7FxeOk1l
-fUmxFwrgWQpBl5iknupPe8jTxmj+5VNagx/vLbw7Tolan0QSHscSgk6mKSUBnA6z
-5B4n9VQHDrYLw8zBeduvtUy9MteT/La+lseN6ThPYs41oJJf4ImOGpRxS1RpebsL
-7zAJ8BvUpFcvAMaIEuV4qEufzOeyscbLS3aEOf75U1cjkrLeXuTulRyRXFSl+JLL
-bDx29wwnVs5HD0u2duAbimHxVPzRmSHXfeakT9hIyZjp1j4Z9RkOBDHsL20ROjSB
-vnFCb2TCMz82zscmrDbY6dZrIwWAK3t1FapxHy8hz3M1oFK2LRIU87Xkfd8I++PY
-3saruQA15aUgKCfDChNNHM+8QV2ssxT6DvW1BpcmNl/lEqxu7hIq1LuwzpBQJtW0
-OGwbSB9Wc8K8KzW2tOu4gvFp
-=X84G
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBSam8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P1MP/i0xxETi+OVRNdeaBCwt
+XI4a6v3FkTavyxwDsV6UO4GJA3P7pDLugmNtnwyHLS+IN5XhTKb6xBh2Su90xayy
+IvZUwgi8Nv8M9jLEy4EZf3KvM1KMMU9VSqo5iSOXflcVHMeGJeJ9OOwUp2RItFk7
+GgZO8vCcZ5PTZazQp0jIZwO0N0D4rjE2aobcvsKhyDCXCWVDMO1d1VwbvTvEvYbD
+7BVlqpizfZ8daR8YfmEgiaowNoM7lO1+OK5YI/BHgXIqHxJqjfkUCMnU5GQtgE5b
+Y5AxQC3D56gUxikAGcrm0cCEhHsrUYYYrzYiBqM9nNnaXPRw/xcD5ltD+E2Wlr0T
+jNm0WQHR7YGhB4gAbSUAU8413fcWlUfXNE8Sth+mgvnX2C9vqfiG0k3LFzjq4C3O
+GDoDqNyMKGzD2r/DxrQLNTEdapHGSkULqi68wZbe35shQ8xytrCRgD9USgsgYqQY
+ZeRCMab++rDXXVU8sF9vgxsbtjDtzTgoylDHtb9owty3m2jcE6NzNj1ct1T5ojQb
+Mfa60Vbv4euu2o4Wa59QB3dJuYhesU94y6h7e12gKMvI8Z4b1KT7xxDxH9ZCoMV5
+2S0edw5msxTUsf4KJx8mG7vBTwzoMb5/KUcDgAG7lRP6fQ4e4872tunnfJacQbvB
+XzHjY0qOk3+HO7wqxh0pqy9x
+=LK1W
 -----END PGP SIGNATURE-----
 
---===============3088304863240630749==--
+--===============5457263048682718296==--
