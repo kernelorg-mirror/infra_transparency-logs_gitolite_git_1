@@ -1,57 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0885102171744435966=="
+Content-Type: multipart/mixed; boundary="===============7570569704931422662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 17 Mar 2021 19:59:25 -0000
-Message-Id: <161601116576.30870.16657980689727256292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 17 Mar 2021 20:31:23 -0000
+Message-Id: <161601308310.18930.8062553723662032420@gitolite.kernel.org>
 
---===============0885102171744435966==
+--===============7570569704931422662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/auto-latest
-    old: 1db137851ed85a3c722044dcb3600b95af1ab792
-    new: 77c781e43bc2f110ce8f73c4f81ca3d9f349ef72
-    log: revlist-1db137851ed8-77c781e43bc2.txt
-  - ref: refs/heads/master
-    old: 1db137851ed85a3c722044dcb3600b95af1ab792
-    new: 77c781e43bc2f110ce8f73c4f81ca3d9f349ef72
-    log: revlist-1db137851ed8-77c781e43bc2.txt
+  - ref: refs/heads/usb-linus
+    old: eb9238e53717a46191db2d3bc5c18b13b6c8cb64
+    new: 3cac9104bea41099cf622091f0c0538bcb19050d
+    log: |
+         9858af27e69247c5d04c3b093190a93ca365f33d usbip: Fix incorrect double assignment to udc->ud.tcp_rx
+         98f153a10da403ddd5e9d98a3c8c2bb54bb5a0b6 usb: gadget: configfs: Fix KASAN use-after-free
+         546aa0e4ea6ed81b6c51baeebc4364542fa3f3a7 usb-storage: Add quirk to defeat Kindle's automatic unload
+         3cac9104bea41099cf622091f0c0538bcb19050d usb: typec: Remove vdo[3] part of tps6598x_rx_identity_reg struct
+         
 
---===============0885102171744435966==
+--===============7570569704931422662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1db137851ed8-77c781e43bc2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d2da74d1278a1b51ef18beafa9da770f0db1c617 tasklets: Replace barrier() with cpu_relax() in tasklet_unlock_wait()
-6951547a1399c8f56468ed93bea8f769b891aec3 tasklets: Use static inlines for stub implementations
-ca5f625118955fc544c3cb3dee7055d33ecadafb tasklets: Provide tasklet_disable_in_atomic()
-b0cd02c2a9494dbf0a1cc7dc7a3b8b400c158d37 tasklets: Use spin wait in tasklet_disable() temporarily
-da044747401fc16202e223c9da970ed4e84fd84d tasklets: Replace spin wait in tasklet_unlock_wait()
-697d8c63c4a2991a22a896a5e6adcdbb28fefe56 tasklets: Replace spin wait in tasklet_kill()
-eb2dafbba8b824ee77f166629babd470dd0b1c0a tasklets: Prevent tasklet_unlock_spin_wait() deadlock on RT
-c62c38e349c73cad90f59f00fe8070b3648b6d08 net: jme: Replace link-change tasklet with work
-25cf87df1a3a85959bf1bf27df0eb2e6e04b2161 net: sundance: Use tasklet_disable_in_atomic().
-3250aa8a293b1859d76577714a3e1fe95732c721 ath9k: Use tasklet_disable_in_atomic()
-405698ca359a23b1ef1a502ef2bdc4597dc6da36 atm: eni: Use tasklet_disable_in_atomic() in the send() callback
-be4017cea0aec6369275df7eafbb09682f810e7e PCI: hv: Use tasklet_disable_in_atomic()
-f339fc16fba0167d67c4026678ef4c405bca3085 firewire: ohci: Use tasklet_disable_in_atomic() where required
-6fd4e861250b5c89ad460a9f265caeb1bbbfc323 tasklets: Switch tasklet_disable() to the sleep wait variant
-728b478d2d358480b333b42d0e10e0fecb20114c softirq: Add RT specific softirq accounting
-6516b386d8a07102aac353daf9c0fe0045faeb74 irqtime: Make accounting correct on RT
-f02fc963e91160e7343933823e8b73a0b2ab0a16 softirq: Move various protections into inline helpers
-8b1c04acad082dec76f3f8f7e1fa13493d6cbb79 softirq: Make softirq control and processing RT aware
-47c218dcae6587fb5bce30f1656b13e22391c8e3 tick/sched: Prevent false positive softirq pending warnings on RT
-ba9e6cab49c1465c2c322dcb03d771d5cbecb692 rcu: Prevent false positive softirq warning on RT
-0705ef64d1ff52b817e278ca6e28095585ff31e1 tools/insn: Restore the relative include paths for cross building
-2434bdae24738511aace6036206ebbe74b9c5c59 Merge branch 'x86/core'
-77c781e43bc2f110ce8f73c4f81ca3d9f349ef72 Merge branch 'irq/core'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616013077 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1616013077-94ce2e0bd89ad0685ecc15395b3f4084929a751b
 
---===============0885102171744435966==--
+eb9238e53717a46191db2d3bc5c18b13b6c8cb64 3cac9104bea41099cf622091f0c0538bcb19050d refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBSZxUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JuYP/jdw80zwVzxFyb2TrLbo
+GVp6F9PftP397jhepmtl7rvUOBqsiwh1IJqVC3P3jdpchFMDOaqAhmro5w2pGT44
+kSUCEgNT1BDTgoIk7N1Xr0QRKc+drdw7fqtijRJUuMhYd/zvJ5uFu07qE3M79eaj
+esUSGrHivIfxsBzEZi3w0mokD+wfcBtmZpyAvcZP6KoJjpcGoeC00JcK8q8K14Vx
+fyjZ4CQvFuAJtn113/6N78cf7NteJtqX8t1Jll/T04rVsPdOFSVrQkKtRTUoy51y
+VdL7aqJredyX60fqFW1M+cVRjVCMhwoQhcvjcZ2w2OL8BrhGogr6VLhTVYZDBJoj
+/3etdVXW6UjfL3yvEdqogdgD4947Ev7QLYNnKyhfe0kGGqm8iy3uXkPIiDk79yvx
+JXox1g4nJ+QOvMplvEk2d0yWowEU2M84wAGGBgj7IBbRnYrV3xcd1oA0+I6jJICR
+tKM7aoNUvWO4ds6+6EjewupfW63445AmlOcloO79bxN1f6PHNXUcn11yWwLWCzIM
+d51wY+DGsv9QBebXIHZy+OL49BUDB3xMWh0OsO5ZtNuhZcJpEIoSc7tw0bm7THjV
+VZbK5k5XcAhTbq1t9bDTEzKLlSH1O1p1Jjijfcc1W4mSFU4Mh8szWqsEc5Ljxtav
+Os5VwCJMoCoNRBIJIXw3purp
+=Q9Bh
+-----END PGP SIGNATURE-----
+
+--===============7570569704931422662==--
