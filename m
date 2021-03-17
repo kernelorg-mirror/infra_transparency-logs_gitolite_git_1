@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2898318729548776331=="
+Content-Type: multipart/mixed; boundary="===============6280081063910426388=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 17 Mar 2021 20:42:27 -0000
-Message-Id: <161601374762.26579.10906632406276028066@gitolite.kernel.org>
+Date: Wed, 17 Mar 2021 20:43:10 -0000
+Message-Id: <161601379011.26849.15540059372625254534@gitolite.kernel.org>
 
---===============2898318729548776331==
+--===============6280081063910426388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 55986146e103607ba5a7aba3c6110736b809a887
-    new: 44fcea24f1bf227b3ca90974b185956b9be09713
+    old: 44fcea24f1bf227b3ca90974b185956b9be09713
+    new: 47a14ef3f9782c4c0aa2af32b1e13edf866b20c7
     log: |
-         50414475bb6eb267a50bb85dbf70e458753dd98f usb: host: Mundane spello fix in the file sl811_cs.c
-         b5fd5f386756d6829fd3a433ea8cfe3a7ae1c92b drivers: usb: Fix a typo in dwc3-qcom.c
-         13dd51b27a2a9ded4025235523d45a1717ffde28 usb: gadget: uvc: add bInterval checking for HS mode
-         44fcea24f1bf227b3ca90974b185956b9be09713 usb: gadget: uvc: Updating bcdUVC field to 0x0110
+         47a14ef3f9782c4c0aa2af32b1e13edf866b20c7 usb: webcam: Invalid size of Processing Unit Descriptor
          
 
---===============2898318729548776331==
+--===============6280081063910426388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616013742 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616013785 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1616013742-a870a983e07bcf95a9adbdbe4ae8fcdfd2f3299b
+nonce 1616013784-ae3ab4bc316f88f4338bc869609874943fe32f88
 
-55986146e103607ba5a7aba3c6110736b809a887 44fcea24f1bf227b3ca90974b185956b9be09713 refs/heads/usb-testing
+44fcea24f1bf227b3ca90974b185956b9be09713 47a14ef3f9782c4c0aa2af32b1e13edf866b20c7 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBSaa4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QF4P+gMXNzW3WegIbZyAGsaO
-9VMebPUn/TZa3IZdAifSzJjgZaS+tdP7j8g3i0KPio3FEUXelgiZLH5Zdcqsh+9p
-zBQTWkbnz2JAEzDz1B3wPZ7wQ6+pEUI1drvhVZvNPnibKjo8wagi1rD1Y+YBxhFs
-UiXzu6ESq5WYO82Nhb2PhNryZq3BT67vG3D8uQ6tPqokbwCy+jWtTZSwLqXj7WFw
-ZLX4EJd6xkCcq8kt1AVlB1IE73k8UDkuGVWytMNyvXk1kc5TET26GDD8JoWxIl0Z
-yr3uZsIWPCQvBhyJOKWP2zUjuhcpg16XSunqbdpSIRI9WsgemO3rryesprf7VSF0
-VTN57S3dm1YQkkhLucdRVUvow3c7Hzcq++YvXiQrl7hOX+/aA8uCi5QR0JY0Go8y
-dQbrtIdUJk5Yoc/YXggRXPoY9GVJO+2/j4PW32yDPtlA6NH0nHupLObwu2utZVrI
-mbtgqgQutnBP+oIlpKkG5nu+0ucZiUt24hLaneYhbpeTi7GFLY/g8+9BiWwHQmSB
-qvjousObLnbPTy0Ap/NQfp/hseTjdtjjq6K0hG50HchNFB2ej5Li+LMG75/EYv6B
-AC4evt5uG/h+TCunlmrVSE+G42gC22i8YWc8dfJMAnaSv4ul9eN95ZmjPnTQNKeo
-u34aV5cfbpbPXinkOrqh/D+f
-=XT07
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBSadkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wVAP/jUTOiGJ67l+PsNeWR1Z
+yF7iqHi0aCDR1GIWw2u3j4Q/B4ptNFej5MeKok7rdijkgTONPUs9lK/IK3HOJFol
+IShxovX0G7IHYBQ3HgEZjsMcpPILf7AbrHFJ9WdzMKzrm6Qe0JwClD/YOqjosTk8
+D1A1L+FBkASyw6bOK9zatVxzZ1viGS/ewSQCjTw+W1k/FwOJLsM0FzgKTTmmlnBO
+sCfoW5Y269/ktO8cZTiRttqZTujs1jqNso2VHYu6D0v4NkfPR9l8a1NquWxqk5BO
+BuZB2+BGDjfRp1ySM5JVU+JrSZWbDeF3rblr2J9WH/mftuWWzvzA4EDQviPkHtN3
+siOIUZvObvcMZdDpwwddWRZEmljF++vYLs4oKafQKFX+gA6uwS+Jm8rqsBqMP4l/
+2NABe6Qv6Shn2W0FLn0ZbpDWU5aFBl4OoyIDp+go2yRmCMvl4AmgMLQMUVn55dsA
+2uBNxVAxny1h268Oxc975RY2tcB4eKvzvH+3KWzU6iEIlVV6irtxx5rwmKDLPrDw
+Cm+gGeOHeC+zc2rHVppFtyAtQ8CNkEHFS1tGjJNFjpjGY1jGohIGMvWQwJ0KtGPw
+6pjhxRjzIJHrtNWqXlsCFi7defrqErY31enqgG1E82pNWRLFUWoFJGSGrsSRjbOM
+zYSa40HaCmmqNRROAwUIRciS
+=Tc4o
 -----END PGP SIGNATURE-----
 
---===============2898318729548776331==--
+--===============6280081063910426388==--
