@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8111855421098694268=="
+Content-Type: multipart/mixed; boundary="===============5772552916829966700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 17 Mar 2021 15:44:08 -0000
-Message-Id: <161599584860.13489.16067198129649140840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 17 Mar 2021 15:44:24 -0000
+Message-Id: <161599586472.13643.14460337786414614628@gitolite.kernel.org>
 
---===============8111855421098694268==
+--===============5772552916829966700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/irq/core
-    old: 6b2c339df90788ce6aeecee78d6494f262929206
-    new: ba9e6cab49c1465c2c322dcb03d771d5cbecb692
-    log: revlist-6b2c339df907-ba9e6cab49c1.txt
+  - ref: refs/heads/master
+    old: b8859ee9980de374e5ac7edf530406a043cc9a37
+    new: a58492c18f46d81e00b8d9f4e9a932d30785a335
+    log: |
+         a58492c18f46d81e00b8d9f4e9a932d30785a335 Linux 4.19.181
+         
 
---===============8111855421098694268==
+--===============5772552916829966700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b2c339df907-ba9e6cab49c1.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d2da74d1278a1b51ef18beafa9da770f0db1c617 tasklets: Replace barrier() with cpu_relax() in tasklet_unlock_wait()
-6951547a1399c8f56468ed93bea8f769b891aec3 tasklets: Use static inlines for stub implementations
-ca5f625118955fc544c3cb3dee7055d33ecadafb tasklets: Provide tasklet_disable_in_atomic()
-b0cd02c2a9494dbf0a1cc7dc7a3b8b400c158d37 tasklets: Use spin wait in tasklet_disable() temporarily
-da044747401fc16202e223c9da970ed4e84fd84d tasklets: Replace spin wait in tasklet_unlock_wait()
-697d8c63c4a2991a22a896a5e6adcdbb28fefe56 tasklets: Replace spin wait in tasklet_kill()
-eb2dafbba8b824ee77f166629babd470dd0b1c0a tasklets: Prevent tasklet_unlock_spin_wait() deadlock on RT
-c62c38e349c73cad90f59f00fe8070b3648b6d08 net: jme: Replace link-change tasklet with work
-25cf87df1a3a85959bf1bf27df0eb2e6e04b2161 net: sundance: Use tasklet_disable_in_atomic().
-3250aa8a293b1859d76577714a3e1fe95732c721 ath9k: Use tasklet_disable_in_atomic()
-405698ca359a23b1ef1a502ef2bdc4597dc6da36 atm: eni: Use tasklet_disable_in_atomic() in the send() callback
-be4017cea0aec6369275df7eafbb09682f810e7e PCI: hv: Use tasklet_disable_in_atomic()
-f339fc16fba0167d67c4026678ef4c405bca3085 firewire: ohci: Use tasklet_disable_in_atomic() where required
-6fd4e861250b5c89ad460a9f265caeb1bbbfc323 tasklets: Switch tasklet_disable() to the sleep wait variant
-728b478d2d358480b333b42d0e10e0fecb20114c softirq: Add RT specific softirq accounting
-6516b386d8a07102aac353daf9c0fe0045faeb74 irqtime: Make accounting correct on RT
-f02fc963e91160e7343933823e8b73a0b2ab0a16 softirq: Move various protections into inline helpers
-8b1c04acad082dec76f3f8f7e1fa13493d6cbb79 softirq: Make softirq control and processing RT aware
-47c218dcae6587fb5bce30f1656b13e22391c8e3 tick/sched: Prevent false positive softirq pending warnings on RT
-ba9e6cab49c1465c2c322dcb03d771d5cbecb692 rcu: Prevent false positive softirq warning on RT
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615995863 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1615995862-ee03bca253b61956c099b1003e5056d2a02cb6ce
 
---===============8111855421098694268==--
+b8859ee9980de374e5ac7edf530406a043cc9a37 a58492c18f46d81e00b8d9f4e9a932d30785a335 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBSI9cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pegQANXhfHuK3XAFE/Ry+yiY
+t1Re/FNGEXGdRJAMdwKQWmPOPRGPe8krpey+K5qneSD43BkaJxnG0DN0UColNtkV
+EBY0/rNpitd5bKhOt9+2Ovj8+q0ROT5ji+U8dQwJardMYaf0m4FVRbWvjHtKJ49q
+aueFfLbRx/tm986Ztny/R9X/CLTU1Bo4FP95UdPYtQDd69eEkfJn/BhW8T7vhHgh
+UulmxBW++QsALk7ANY9FvcaVGp2ewbKMq6TqkkF/uJzDww8A6bHN5WNzC65WmG7x
+Z4shFNP81kFKhcsJiRKw72BJO0I5yBgxwbUyXDHS7dVmaHNaCrS7UDCGEwB5iQWi
+abCiZCzbZ2An9RruplcMcWz71z/saEAJ84Y+hZFhlYEea7FcfiCE8qh5oZFe3YdB
+3Qc+XHv0z+OEmkaG71XGI7yq2JEY4za9SMQa6e4rWUybOEZZAMLbBxR4xhYMs3FU
+qrZ8zvM5fzXdDnD45AlUd6nxKUSytOOI1MDMcvTgH1xgFhpe4RbjNgylONZqM4F0
+4biXpo8wxKiztHtPIVElxGj1EQLEfctT45mOOz6g5OOx/gVFrxYku/p/p8h8sH2O
+HdtgXJIlGwsd480Y+l1Ysi3M6A9vYLxkyS9jy6IUU74LiAAXK0MFvOYTpZIuSh3t
+N/yXgge4KuXzpO/IdTYuFAZn
+=gEoS
+-----END PGP SIGNATURE-----
+
+--===============5772552916829966700==--
