@@ -1,54 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1566044789643441164=="
+Content-Type: multipart/mixed; boundary="===============2127975882103490017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Wed, 17 Mar 2021 15:38:30 -0000
-Message-Id: <161599551029.21204.216464673194246700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 17 Mar 2021 15:39:27 -0000
+Message-Id: <161599556765.21801.14875952357522564926@gitolite.kernel.org>
 
---===============1566044789643441164==
+--===============2127975882103490017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/softirq
-    old: dbcd5bff0e70cf1aee3d6065c841880689c9ed4e
-    new: ba9e6cab49c1465c2c322dcb03d771d5cbecb692
-    log: revlist-dbcd5bff0e70-ba9e6cab49c1.txt
+  - ref: refs/heads/master
+    old: d1a2ef72c208fb1371ab1e9e0b5fa4c807887aec
+    new: b8859ee9980de374e5ac7edf530406a043cc9a37
+    log: |
+         b8859ee9980de374e5ac7edf530406a043cc9a37 Linux 4.14.226
+         
 
---===============1566044789643441164==
+--===============2127975882103490017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dbcd5bff0e70-ba9e6cab49c1.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-cbe16f35bee6880becca6f20d2ebf6b457148552 genirq: Add IRQF_NO_AUTOEN for request_irq/nmi()
-3a0ade0c521a542f8a25e96ce8ea0dfaa532ac75 tasklet: Remove tasklet_kill_immediate
-5c982c58752118b6c1f295024d3fda5ff22d3c52 genirq: Fix typos and misspellings in comments
-6b2c339df90788ce6aeecee78d6494f262929206 softirq: s/BUG/WARN_ONCE/ on tasklet SCHED state not set
-d2da74d1278a1b51ef18beafa9da770f0db1c617 tasklets: Replace barrier() with cpu_relax() in tasklet_unlock_wait()
-6951547a1399c8f56468ed93bea8f769b891aec3 tasklets: Use static inlines for stub implementations
-ca5f625118955fc544c3cb3dee7055d33ecadafb tasklets: Provide tasklet_disable_in_atomic()
-b0cd02c2a9494dbf0a1cc7dc7a3b8b400c158d37 tasklets: Use spin wait in tasklet_disable() temporarily
-da044747401fc16202e223c9da970ed4e84fd84d tasklets: Replace spin wait in tasklet_unlock_wait()
-697d8c63c4a2991a22a896a5e6adcdbb28fefe56 tasklets: Replace spin wait in tasklet_kill()
-eb2dafbba8b824ee77f166629babd470dd0b1c0a tasklets: Prevent tasklet_unlock_spin_wait() deadlock on RT
-c62c38e349c73cad90f59f00fe8070b3648b6d08 net: jme: Replace link-change tasklet with work
-25cf87df1a3a85959bf1bf27df0eb2e6e04b2161 net: sundance: Use tasklet_disable_in_atomic().
-3250aa8a293b1859d76577714a3e1fe95732c721 ath9k: Use tasklet_disable_in_atomic()
-405698ca359a23b1ef1a502ef2bdc4597dc6da36 atm: eni: Use tasklet_disable_in_atomic() in the send() callback
-be4017cea0aec6369275df7eafbb09682f810e7e PCI: hv: Use tasklet_disable_in_atomic()
-f339fc16fba0167d67c4026678ef4c405bca3085 firewire: ohci: Use tasklet_disable_in_atomic() where required
-6fd4e861250b5c89ad460a9f265caeb1bbbfc323 tasklets: Switch tasklet_disable() to the sleep wait variant
-728b478d2d358480b333b42d0e10e0fecb20114c softirq: Add RT specific softirq accounting
-6516b386d8a07102aac353daf9c0fe0045faeb74 irqtime: Make accounting correct on RT
-f02fc963e91160e7343933823e8b73a0b2ab0a16 softirq: Move various protections into inline helpers
-8b1c04acad082dec76f3f8f7e1fa13493d6cbb79 softirq: Make softirq control and processing RT aware
-47c218dcae6587fb5bce30f1656b13e22391c8e3 tick/sched: Prevent false positive softirq pending warnings on RT
-ba9e6cab49c1465c2c322dcb03d771d5cbecb692 rcu: Prevent false positive softirq warning on RT
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1615995566 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1615995563-39470dff65b4904dd49a7753651f09b1f745444b
 
---===============1566044789643441164==--
+d1a2ef72c208fb1371ab1e9e0b5fa4c807887aec b8859ee9980de374e5ac7edf530406a043cc9a37 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBSIq4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7OAQAJazzSphKEOYGNOnDZID
+yasrvJLOX4pELZrrtEnLi6aW+hUpyMzl3z14DuKjPPvlIrqSpT3UkBkS/oJ3nSlr
+Q/yumE7i4aopDJJTbdQun6ZO3RdUMd1vYD/r2fHc97b7QNjqmEKQysF6ieSfJA99
+DFs/JiOOSIY4JwmyYQuiD8MQ2ViSpvMW9ZhPSE00wmtRwPG6fhKKttq0tEASz1Qo
+xVAPlKBLHd0Bb1OlqRJMiLm82copR4uCz+IG5Pxq94AtEedWavs4DjHwJaFefH8C
+QebL7Boc9IIRopq8Ba4EAQD0CJzOP+ZLS/+Gb60meoZR/K4oqQmDWiA485ba2WZu
+fDFADKcUi1tO7Gh/0w1sTQs2JbuOauDltLi1uyJd8EZgA8pAPVjzJxsecH4UZpBQ
+DLtUH0cU0B+wJIHQeOafKEeG8yp5MeB1g/9gVVjHrHMazKrrPA6+NhDBsCV8kXwQ
+JmCn4RooGPZfVejYEUKXSZcm5R3zdZNcL1P3xDmUF0yYd0FETbKK97Wipn0D51mz
+5T/Att4dFayyj0Hgg28HFjJ3x5it9Eya9DsfqIhaQ8ElF5LbIjGPE3JdLx7g6ljR
+WeBUkhdYF8zeEqM+zLUa0YbeFQyAlFH5MGde2TuKdLCyAITlWwtFFAj1UaAD9uGo
+ibMr6Pqsrua4BxPKR7unNRqR
+=g/D6
+-----END PGP SIGNATURE-----
+
+--===============2127975882103490017==--
