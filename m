@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6715551873947289718=="
+Content-Type: multipart/mixed; boundary="===============2898318729548776331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 17 Mar 2021 20:36:51 -0000
-Message-Id: <161601341171.22080.1992732634370188226@gitolite.kernel.org>
+Date: Wed, 17 Mar 2021 20:42:27 -0000
+Message-Id: <161601374762.26579.10906632406276028066@gitolite.kernel.org>
 
---===============6715551873947289718==
+--===============2898318729548776331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: aa403f257e992eac33cd9afd1d87ce9299f6db7a
-    new: 55986146e103607ba5a7aba3c6110736b809a887
+    old: 55986146e103607ba5a7aba3c6110736b809a887
+    new: 44fcea24f1bf227b3ca90974b185956b9be09713
     log: |
-         55986146e103607ba5a7aba3c6110736b809a887 usb: typec: tcpci: Added few missing TCPCI register definitions
+         50414475bb6eb267a50bb85dbf70e458753dd98f usb: host: Mundane spello fix in the file sl811_cs.c
+         b5fd5f386756d6829fd3a433ea8cfe3a7ae1c92b drivers: usb: Fix a typo in dwc3-qcom.c
+         13dd51b27a2a9ded4025235523d45a1717ffde28 usb: gadget: uvc: add bInterval checking for HS mode
+         44fcea24f1bf227b3ca90974b185956b9be09713 usb: gadget: uvc: Updating bcdUVC field to 0x0110
          
 
---===============6715551873947289718==
+--===============2898318729548776331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616013406 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616013742 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1616013406-0a566a49f0d8f3adc33586645d40e6578b8451a8
+nonce 1616013742-a870a983e07bcf95a9adbdbe4ae8fcdfd2f3299b
 
-aa403f257e992eac33cd9afd1d87ce9299f6db7a 55986146e103607ba5a7aba3c6110736b809a887 refs/heads/usb-testing
+55986146e103607ba5a7aba3c6110736b809a887 44fcea24f1bf227b3ca90974b185956b9be09713 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBSaF4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BBAQAJ84qorm0CR//R3+pZK4
-z0d6RY02XnE14LIbUubL1G4SPYLvY5hdQ187Uvqafml3WvBCo5+6HCgsJnNyVMkO
-T1/pPij23wk6qF40xsqPavKcxteRoLaM/f8Cb40vgT5xlIRg3q5xUa+8H8eNq/51
-zDqNhJbdZPa1coTDi44Gt6lI0g0Te4JsIF9Mx7iH0K/4lVLmOh1I4AwLSWPlI5QH
-VUmOFaqTQCl769SvR/ktF+QW68wuTr0LtIgyF4IrUGPWMF5q3He8SFKRUSg6VGnD
-lrZF9jMDeQwQyl6mR9evzd492NCWxAVHYVjkPayW14mowIGQBA8AEPIiBNuu5fZM
-oHwhYJ4mV8QdMh0T5nRrWkHX0HX9MyGErPKCTp/vLh6NFVz2UtiJBA5iP7Bidw8i
-+62OAX3MvJJ7GJ+mkLgbvM2A3MvRI17Xg04UETqlkgs8G3JU3ZmnjL1s85zaMBwH
-eI966v+v6aF2E256obYeDy9AbOato2OmKnL0gganXFXzNSbImnNhoh+U5XWmttZv
-mSSqrz5fjfR3zbe8tzYzvFBsO7sEA1LVOQ/SDBVtSF+ZKlxC1518EbXXO3NAcugS
-VNk27FIGQh5Wg6IYBc4eNVWjQokmmCms4QyDajQo4PfBYYB3EyWK5YQpGwH47r/L
-OjPQVGPfEgCwlOge/OFXgEYz
-=HK4v
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBSaa4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QF4P+gMXNzW3WegIbZyAGsaO
+9VMebPUn/TZa3IZdAifSzJjgZaS+tdP7j8g3i0KPio3FEUXelgiZLH5Zdcqsh+9p
+zBQTWkbnz2JAEzDz1B3wPZ7wQ6+pEUI1drvhVZvNPnibKjo8wagi1rD1Y+YBxhFs
+UiXzu6ESq5WYO82Nhb2PhNryZq3BT67vG3D8uQ6tPqokbwCy+jWtTZSwLqXj7WFw
+ZLX4EJd6xkCcq8kt1AVlB1IE73k8UDkuGVWytMNyvXk1kc5TET26GDD8JoWxIl0Z
+yr3uZsIWPCQvBhyJOKWP2zUjuhcpg16XSunqbdpSIRI9WsgemO3rryesprf7VSF0
+VTN57S3dm1YQkkhLucdRVUvow3c7Hzcq++YvXiQrl7hOX+/aA8uCi5QR0JY0Go8y
+dQbrtIdUJk5Yoc/YXggRXPoY9GVJO+2/j4PW32yDPtlA6NH0nHupLObwu2utZVrI
+mbtgqgQutnBP+oIlpKkG5nu+0ucZiUt24hLaneYhbpeTi7GFLY/g8+9BiWwHQmSB
+qvjousObLnbPTy0Ap/NQfp/hseTjdtjjq6K0hG50HchNFB2ej5Li+LMG75/EYv6B
+AC4evt5uG/h+TCunlmrVSE+G42gC22i8YWc8dfJMAnaSv4ul9eN95ZmjPnTQNKeo
+u34aV5cfbpbPXinkOrqh/D+f
+=XT07
 -----END PGP SIGNATURE-----
 
---===============6715551873947289718==--
+--===============2898318729548776331==--
