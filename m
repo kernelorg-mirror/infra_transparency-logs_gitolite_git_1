@@ -1,43 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5218519445078907749=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 18 Mar 2021 23:17:45 -0000
-Message-Id: <161610946505.10614.2970011338641347448@gitolite.kernel.org>
-
---===============5218519445078907749==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 18 Mar 2021 23:20:01 -0000
+Message-Id: <161610960105.11356.10791359899607241409@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: fdc13979f91e664717f47eb8c49094e4b7f202e3
-    new: 6d8b271682e2e0ff6a793c76803a5506b5535a5a
-    log: revlist-fdc13979f91e-6d8b271682e2.txt
-
---===============5218519445078907749==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdc13979f91e-6d8b271682e2.txt
-
-e14ef4bf011192b61b48c4f3a35b3041140073ff libbpf: Expose btf_type_by_id() internally
-f36e99a45dbe76949eb99bba413c67eda5cd2591 libbpf: Generalize BTF and BTF.ext type ID and strings iteration
-3b029e06f624efa90c9a4354e408acf134adb185 libbpf: Rename internal memory-management helpers
-90d76d3ececc74bf43b2a97f178dadfa1e52be54 libbpf: Extract internal set-of-strings datastructure APIs
-9af44bc5d4d70b37c9ada24d8e0367b34b805bd3 libbpf: Add generic BTF type shallow copy API
-faf6ed321cf61fafa17444fe01e7e336b8e89acc libbpf: Add BPF static linker APIs
-8fd27bf69b864b1c2a6e64cf5673603f3959a6ef libbpf: Add BPF static linker BTF and BTF.ext support
-c41226654550b0a8aa75e91ce0a1cdb6ce2316ee bpftool: Add ability to specify custom skeleton object name
-d80b2fcbe0a023619e0fc73112f2a02c2662f6ab bpftool: Add `gen object` command to perform BPF static linking
-cab62c37be057379a2a17b1b2eacd9dcba1e14dc selftests/bpf: Re-generate vmlinux.h and BPF skeletons if bpftool changed
-14137f3c62186799b01eea8a338f90c9cbc57f00 selftests/bpf: Pass all BPF .o's through BPF static linker
-a0964f526df6facd4e12a4c416185013026eecf9 selftests/bpf: Add multi-file statically linked BPF object file test
-6d8b271682e2e0ff6a793c76803a5506b5535a5a Merge branch 'BPF static linking'
-
---===============5218519445078907749==--
+  - ref: refs/heads/master
+    old: c2ed62b9975e3e47a8b12f5fc4ed7958104b427b
+    new: 5108802abcb979cec1de97a77f4d704bc8fcd446
+    log: |
+         e47ded97f9728da5ced038c627c6b607e9706a13 s390/qeth: allocate initial TX Buffer structs with GFP_KERNEL
+         ad4bbd7285ad0f04f2cfd8bada1755c3c5c75143 s390/qeth: enable napi_consume_skb() for pending TX buffers
+         d96a8c693d0a09cd89efbb17373ded5b275b2960 s390/qeth: remove RX VLAN filter stubs in L3 driver
+         5108802abcb979cec1de97a77f4d704bc8fcd446 Merge branch 's390-qeth-next'
+         
