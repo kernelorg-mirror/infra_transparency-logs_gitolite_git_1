@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
-Date: Thu, 18 Mar 2021 22:51:33 -0000
-Message-Id: <161610789392.26073.10913310620108949193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 18 Mar 2021 22:55:08 -0000
+Message-Id: <161610810891.28588.16721562830253442740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/playground
+repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/platform-removal-rest
+  - ref: refs/heads/arm/fixes
     old: 0000000000000000000000000000000000000000
-    new: 1b4b0583a917f4fb00cd207fec305c62a4a0860d
+    new: 67335b8d28cd2ee279d6ab3c72856b76411ba48a
