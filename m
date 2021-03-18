@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 18 Mar 2021 12:49:00 -0000
-Message-Id: <161607174015.25697.4898753819714524339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 18 Mar 2021 12:49:34 -0000
+Message-Id: <161607177464.25909.11148039791853221126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/asoc-fix-v5.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: aff0f584ecc981aecd1eaece0d7b94bece6c9414
+  - ref: refs/heads/sched/core
+    old: 90f093fa8ea48e5d991332cee160b761423d55c1
+    new: 7aacb8c62f621e9f6f1b5f11bb19eb37ddbf00e2
+    log: |
+         7aacb8c62f621e9f6f1b5f11bb19eb37ddbf00e2 sched: Fix various typos
+         
