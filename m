@@ -1,41 +1,101 @@
-Content-Type: multipart/mixed; boundary="===============8135196034519930477=="
+Content-Type: multipart/mixed; boundary="===============6682510823924963388=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 18 Mar 2021 18:23:46 -0000
-Message-Id: <161609182687.14914.15067949085065580735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 18 Mar 2021 18:27:27 -0000
+Message-Id: <161609204785.17436.5554876451267938108@gitolite.kernel.org>
 
---===============8135196034519930477==
+--===============6682510823924963388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 6417f03132a6952cd17ddd8eaddbac92b61b17e0
-    new: bf152b0b41dc141c8d32eb6e974408f5804f4d00
-    log: revlist-6417f03132a6-bf152b0b41dc.txt
+  - ref: refs/heads/for-5.13
+    old: c00f4f2598d334470b49385f811ca8f5c966a63e
+    new: bb9faeccbd6c05c6c2525be90f663f8694dd8bf6
+    log: revlist-c00f4f2598d3-bb9faeccbd6c.txt
 
---===============8135196034519930477==
+--===============6682510823924963388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6417f03132a6-bf152b0b41dc.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f00bdce0455233a0b76dae6364442dca717a574c vdpa: set the virtqueue num during register
-5808fecc572391867fcd929662b29c12e6d08d81 iomap: Fix negative assignment to unsigned sis->pages in iomap_swapfile_activate
-da98b54d02981de5b07d8044b2a632bf6ba3ac45 virtio-mmio: Use to_virtio_mmio_device() to simply code
-bc22ed2ea1121f9d9ba3f85c524cb857d54a2d00 virtio: remove export for virtio_config_{enable, disable}
-aa443ac20445ad79afc9aa589727e5d9ee88dc2f vdpa_sim: Skip typecasting from void*
-4c050286bb202cffd5467c1cba982dff391d62e1 vhost_vdpa: fix the missing irq_bypass_unregister_producer() invocation
-beb691e69f4dec7bfe8b81b509848acfd1f0dbf9 vhost: Fix vhost_vq_reset()
-f6bbf0010ba004f5e90c7aefdebc0ee4bd3283b9 vhost-vdpa: fix use-after-free of v->config_ctx
-0bde59c1723a29e294765c96dbe5c7fb639c2f96 vhost-vdpa: set v->config_ctx to NULL if eventfd_ctx_fdget() fails
-8ff0f3bf5d6513dfb7462246d9c656da7c02b37e Merge branch 'iomap-5.12-fixes' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-bf152b0b41dc141c8d32eb6e974408f5804f4d00 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1616092044 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1616092044-afca87ecb97443cb5fa871e4b4ca356330ec83b0
 
---===============8135196034519930477==--
+c00f4f2598d334470b49385f811ca8f5c966a63e bb9faeccbd6c05c6c2525be90f663f8694dd8bf6 refs/heads/for-5.13
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBTm4wACgkQJNaLcl1U
+h9D9Owf/eFsWNvUB51N8LPpURLwcYC+iQXlko3MhglNCW9rhm+7qVj0nA+dMtO7+
+olcpivq9RKWESfpKHLNJEZJpgzGO5Izonyz/5aQH6gu3wV0TZ9X4Zf8dav7uwZaG
+aisFCuFe9xtp65yO+4G+Uo2Ea0Usft5kWoEUxNCYDn/SjlSTTUu1Lj0HXxj8SwMq
+Z0SbxhVphsBglqlGM5eXOkhKAQHuztCcmyj+TWyhNFyWuGHQBBY3msqLXcWW69HR
+tTxYUAjEH3zcJsmJ+k1ePo1Qq1urET0mcRQSJ6dL4BlRkvILP/aRgMgCQ5w56Us+
+XIGHjRw8MQSMUflmYC2073uCu+dcwQ==
+=xUCC
+-----END PGP SIGNATURE-----
+
+--===============6682510823924963388==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c00f4f2598d3-bb9faeccbd6c.txt
+
+a46b78247b852345ae4458711a4aec6744a7838c ASoC: tegra20: ac97: Add reset control
+9c648ef82d7d4696e80b286d37dae07b67a9a32d ASoC: tegra20: i2s: Add reset control
+0bbcecaaab15a74ba69f93df46c753f2a64eadca ASoC: tegra30: i2s: Restore hardware state on runtime PM resume
+48d71395896d54eec989179dd265e569fcecb15a reset: Add reset_control_bulk API
+050086eb6dc945207b1db1d15cd81e9366dfd2f1 ASoC: tegra30: ahub: Switch to use reset-bulk API
+0911f154a2ae264ee2a7c868c1267a102396d016 ASoC: tegra20: spdif: Correct driver removal order
+c53b396f0dd49a626ea2b1fc0a8b9e0a0bf95d4d ASoC: tegra20: spdif: Remove handing of disabled runtime PM
+e33fdd9bee12be35d080bfd4acc9d1e3a0d04001 ASoC: tegra20: i2s: Add system level suspend-resume callbacks
+ca6e960ed6b10ba9236da8b3614574bb4524c65e ASoC: tegra20: i2s: Correct driver removal order
+d3c6ef98dadd1e500445e4c5a9d684cbf3182c7d ASoC: tegra20: i2s: Use devm_clk_get()
+80ec4a4cb36d3f8bb56b5aa89faceb1145ef7aea ASoC: tegra20: i2s: Remove handing of disabled runtime PM
+f852e1e4acf4ebde4c960bab6f89407fa18ca489 ASoC: tegra30: i2s: Correct driver removal order
+52674aef9eb678f30d99f77fd53f6c564d5e2d92 ASoC: tegra30: i2s: Use devm_clk_get()
+b5f6f781fcb27b3ae5a2f04312a190115b5cbbd1 ASoC: tegra30: i2s: Remove handing of disabled runtime PM
+5d956e3cb806870012c443bc265e6ac6188d3c36 ASoC: tegra30: ahub: Reset global variable
+e2965c2ca139e780dc353cef1474103bb037136e ASoC: tegra30: ahub: Correct suspend-resume callbacks
+b5571449e6186bd37e8da16e7bce53f621c05e72 ASoC: tegra30: ahub: Remove handing of disabled runtime PM
+73b4fe4a03db519977a22cdf34303bd0ac21c69d ASoC: ab8500-codec: remove useless structure
+ca6b3a6ca047d23b9b2a54af9f7f4d6f41200719 ASoC: ad1836: remove useless return
+5b349c8f355ae4bd1de462f1f1b6164d14796b0e ASoC: adau1977: remove useless return
+157c4df677569daad6f204c63cfaf226c941bf03 ASoC: cros_ec_codec: remove null pointer dereference warning
+4d753b6642ee7304fc56f9fc463bb69ec641a037 ASoC: cx2070x: remove useless assignment
+8d41c1ab248fa6e6bfd4728a31eec6d3b9e0f924 ASoC: cx2070x: remove duplicate else branch
+f8a684a4c2c9a6f922453f0e5dc6d20b1bdb082b ASoC: da7219-aad: remove useless initialization
+426b3bbcee199e1e96ec62b1c1d9cb7019a84efb ASoC: hdac_hdmi: remove useless initializations
+997994d7e6fab713d1c03843c9698919e64cc135 ASoC: hdac_hdmi: align function arguments
+3c011ef344cddd15be0a9b2256f7886f6b5eeec5 ASoC: hdmi-codec: remove useless initialization
+9ad869fee5c598d914fa5cf8fb26f5e106e90956 ASoC: hdmi-codec: remove unused spk_mask member
+226a783f3dcf7f565c173627d565135424ee0be9 ASoC: max98090: remove useless assignment
+2b5e8cd53ffad8c586d8a9d47087fdb058a21287 ASoC: mt6358: remove useless initializations
+d068ab4eab0de3224b32ac37234d4d33452d5b01 ASoC: mt6359: remove useless assignment
+a3966b254c481ee1890f75d809a52e5aa358c4b1 ASoC: nau8825: remove useless assignment
+f10280d5c59b8d83ae9e9e2307075cc7ad32a6b8 ASoC: pcm1681: remove useless assignment
+17d74e68e9765d9549acf1c36caa8b7559dc99ce ASoC: sigmadsp: align function prototype
+02a70d7f26e7a3d87c9a5af39ca399b52a451a1a ASoC: sti-sas: remove unused struct members
+e83c47861c266f704d2344f51031ee67a93309ab ASoC: tas2562: remove useless assignment
+2e40b21cd4f697a761f1c5e4f08aac1a5c6c6018 ASoC: tas2562: remove warning on return value
+ffab1215bdbea7358051f8dd87b1240e4c6d56e6 ASoC: tas2770: remove useless initialization
+39e69cef0aa9f6897161a11ed84362f5805c43fd ASoC: tlv320dac33: clarify expression
+a2cc1568dc50020a807c94bd14a053dd54e9c35e ASoC: tscs454: remove useless test on PLL disable
+bef2897d31b97852d80b38e9376ed5ef3a90b309 ASoC: Intel: Skylake: skl-topology: fix -frame-larger-than
+8dd855334736f275e9de71096d816c8d9da46bf7 ASoC: Fix a typo in the file rt5682.txt
+7ec79d3850d0cb6dc52e6aa472886ab3adf15863 ASoC: rt1019: add rt1019 amplifier driver
+ad83b1adc58d6693036fd330d6af95a33564eaae ASoC: Intel: sof_rt5682: Add ALC1015Q-VB speaker amp support
+cdd23ae6e68f5d1ee40e0de304a42c94dc98dc22 Merge series "Fix reset controls and RPM of NVIDIA Tegra ASoC drivers" from Dmitry Osipenko <digetx@gmail.com>:
+bb9faeccbd6c05c6c2525be90f663f8694dd8bf6 Merge series "ASoC: codecs: remove cppcheck warnings" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
+
+--===============6682510823924963388==--
