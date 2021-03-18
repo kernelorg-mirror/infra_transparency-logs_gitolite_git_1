@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1297081752563029159=="
+Content-Type: multipart/mixed; boundary="===============5218519445078907749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 18 Mar 2021 23:17:32 -0000
-Message-Id: <161610945209.10433.3811808322129471525@gitolite.kernel.org>
+Date: Thu, 18 Mar 2021 23:17:45 -0000
+Message-Id: <161610946505.10614.2970011338641347448@gitolite.kernel.org>
 
---===============1297081752563029159==
+--===============5218519445078907749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: fdc13979f91e664717f47eb8c49094e4b7f202e3
     new: 6d8b271682e2e0ff6a793c76803a5506b5535a5a
     log: revlist-fdc13979f91e-6d8b271682e2.txt
 
---===============1297081752563029159==
+--===============5218519445078907749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ cab62c37be057379a2a17b1b2eacd9dcba1e14dc selftests/bpf: Re-generate vmlinux.h an
 a0964f526df6facd4e12a4c416185013026eecf9 selftests/bpf: Add multi-file statically linked BPF object file test
 6d8b271682e2e0ff6a793c76803a5506b5535a5a Merge branch 'BPF static linking'
 
---===============1297081752563029159==--
+--===============5218519445078907749==--
