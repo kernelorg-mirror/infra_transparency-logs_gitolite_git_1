@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Thu, 18 Mar 2021 13:02:54 -0000
-Message-Id: <161607257497.2088.13408271380245529320@gitolite.kernel.org>
+Date: Thu, 18 Mar 2021 13:02:57 -0000
+Message-Id: <161607257730.2194.13380933393091552380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/heads/rproc-fixes
-    old: e6d9423d31b2f9bdd0220fd0584e3bb6ed2c4e52
-    new: 9afeefcf06fc7b4bdab06a6e2cb06745bded34dd
+  - ref: refs/heads/hwspinlock-next
+    old: a38fd8748464831584a19438cbb3082b5a2dab15
+    new: 1cb8f3e2d8fe7533c26df9925a83bd3d185b312e
     log: |
-         9afeefcf06fc7b4bdab06a6e2cb06745bded34dd remoteproc: pru: Fix firmware loading crashes on K3 SoCs
+         1cb8f3e2d8fe7533c26df9925a83bd3d185b312e hwspinlock: remove sirf driver
          
