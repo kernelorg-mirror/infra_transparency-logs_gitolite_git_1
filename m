@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 18 Mar 2021 12:01:02 -0000
-Message-Id: <161606886272.8612.10355007959994164811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 18 Mar 2021 12:14:51 -0000
+Message-Id: <161606969190.16848.17273823703975050013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: b781fc4d037c1a29c670f8ad225ff258cb0281e7
-    new: e178d53dfbdf805c8c4b0bbf2a0ba4672893bc0e
+  - ref: refs/heads/fixes
+    old: 56678a5f44ef5f0ad9a67194bbee2280c6286534
+    new: 053191b6a4bc2d429e94e866e3b2bc611d5add31
     log: |
-         e178d53dfbdf805c8c4b0bbf2a0ba4672893bc0e Thu 18 Mar 2021 05:09:39 AM UTC
+         053191b6a4bc2d429e94e866e3b2bc611d5add31 platform/x86: thinkpad_acpi: check dytc version for lapmode sysfs
          
