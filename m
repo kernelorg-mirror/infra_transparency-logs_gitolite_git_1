@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5200914922319901552=="
+Content-Type: multipart/mixed; boundary="===============8719526099068653626=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Thu, 18 Mar 2021 13:03:02 -0000
-Message-Id: <161607258217.2348.2599887816494846445@gitolite.kernel.org>
+Date: Thu, 18 Mar 2021 13:03:04 -0000
+Message-Id: <161607258478.2418.2268382793574987098@gitolite.kernel.org>
 
---===============5200914922319901552==
+--===============8719526099068653626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: 18cda8018a4b5f4819e02ad2cabf40c3666c6366
-    new: bb91c9ee518cd7353f2301f4bd6b65ea42a750d4
-    log: revlist-18cda8018a4b-bb91c9ee518c.txt
+  - ref: refs/heads/for-next
+    old: 6da9742ca68b7bcc099f79753e77bfef6170aaab
+    new: 2b81aa17008ef6bea36a8034809cbea5eb37f0f7
+    log: revlist-6da9742ca68b-2b81aa17008e.txt
 
---===============5200914922319901552==
+--===============8719526099068653626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18cda8018a4b-bb91c9ee518c.txt
+Content-Disposition: attachment; filename=revlist-6da9742ca68b-2b81aa17008e.txt
 
+9afeefcf06fc7b4bdab06a6e2cb06745bded34dd remoteproc: pru: Fix firmware loading crashes on K3 SoCs
+60d7b22d25930e5c3e03eca32047e3313fa76897 rpmsg: char: Rename rpmsg_char_init to rpmsg_chrdev_init
+3093c3c7c136458af692d5c3d309a66c3c12d9f4 rpmsg: Move RPMSG_ADDR_ANY in user API
+809328b40cfb152f75541aa3dcbbe4903098963b rpmsg: Add short description of the IOCTL defined in UAPI.
+b4ce7e2ebcc52ff907c5a922bf19c3dfa39dddb1 rpmsg: char: Use rpmsg_sendto to specify the message destination address
+c486682ae1e2b149add22f44cf413b3103e3ef39 rpmsg: virtio: Register the rpmsg_char device
+964e8bedd5a13a662e8e418ed763351c07d0dac7 rpmsg: char: Return an error if device already open
+1cb8f3e2d8fe7533c26df9925a83bd3d185b312e hwspinlock: remove sirf driver
 9af2a2a9c64ee68a5dc8271d54235609191f1cd1 remoteproc: qcom_q6v5_mss: Provide errors for firmware-name parsing
 3d2ee78906af5f08d499d6aa3aa504406fa38106 remoteproc: qcom_q6v5_mss: Validate p_filesz in ELF loader
 16324fc8def1c08a92261089aaf503aca3381aa6 remoteproc: Remove useless check in rproc_del()
@@ -49,5 +57,7 @@ d2008a96833082713094ba8a545141be1b01b266 remoteproc: Properly deal with a stop r
 34364712fcc48d589e88517395021a14f82fad2e dt-bindings: remoteproc: qcom: Add Q6V5 Modem PIL binding for QCS404
 0af65b9b915e52019aee91db3e1f8b39a7ec8d08 remoteproc: qcom: wcss: Add non pas wcss Q6 support for QCS404
 bb91c9ee518cd7353f2301f4bd6b65ea42a750d4 remoteproc: qcom: wcss: explicitly request exclusive reset control
+c1e957d990f529b8b509a5999704d5d1f05678e0 Merge branche 'rpmsg-fixes' and 'rproc-fixes' into for-next
+2b81aa17008ef6bea36a8034809cbea5eb37f0f7 Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
 
---===============5200914922319901552==--
+--===============8719526099068653626==--
