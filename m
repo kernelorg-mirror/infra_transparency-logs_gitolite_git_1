@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 18 Mar 2021 18:41:16 -0000
-Message-Id: <161609287664.27853.9209317340554954173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 18 Mar 2021 18:43:49 -0000
+Message-Id: <161609302924.28772.16987812221850842367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/next
-    old: 1c7c039b8fc60eab2f3ff68e9a961429601306ee
-    new: 2e2f7548094b0cdb93282bb9340f5a0106719480
+  - ref: refs/heads/bleeding-edge
+    old: 512aa74936fe8a015cf83e5f7be50e91231ff49e
+    new: 221e32b99dc554a80bafd5bd52a9c96e18341d35
     log: |
-         5b08709313718e95ba06ef49aa82f964a605bd9c KVM: arm64: Fix host's ZCR_EL2 restore on nVHE
-         2e2f7548094b0cdb93282bb9340f5a0106719480 Merge branch 'kvm-arm64/nvhe-sve' into kvmarm-master/next
+         d484b8bfc6fa71a088e4ac85d9ce11aa0385867e intel_idle: update ICX C6 data
+         db91df5cfe7fccc1cee03636a273f9b8bcc2c015 Merge branch 'pm-cpuidle' into bleeding-edge
+         c1df456d0f06eb9275c1cd4c66548fc5738ea428 PM: domains: Don't runtime resume devices at genpd_prepare()
+         9bb8114d5563faad355bb6ad27746f2e2627f3a0 Merge branch 'pm-domains' into bleeding-edge
+         a740561201ebf75326188e4e899fe9c2526046be powercap: Add Hygon Fam18h RAPL support
+         221e32b99dc554a80bafd5bd52a9c96e18341d35 Merge branch 'powercap' into bleeding-edge
          
