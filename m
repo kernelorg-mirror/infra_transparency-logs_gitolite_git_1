@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8627469379826294098=="
+Content-Type: multipart/mixed; boundary="===============3046335086238377295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 18 Mar 2021 08:02:47 -0000
-Message-Id: <161605456705.2211.13209828042188170000@gitolite.kernel.org>
+Date: Thu, 18 Mar 2021 08:10:01 -0000
+Message-Id: <161605500141.6116.4185031584826013301@gitolite.kernel.org>
 
---===============8627469379826294098==
+--===============3046335086238377295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,8 +16,8 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: fa90b937607981c9a54b3f98eef030658f837f7a
+  - ref: refs/heads/usb-next
+    old: aa403f257e992eac33cd9afd1d87ce9299f6db7a
     new: 18106234c0e99f21bd50574d92dbd26d9b97d789
     log: |
          a55235820dcdbc7af0ac72844c6d25ae5454e8bf usb: typec: tcpci: Added few missing TCPCI register definitions
@@ -29,34 +29,34 @@ changes:
          18106234c0e99f21bd50574d92dbd26d9b97d789 usb: mtu3: Fix spelling mistake "disabed" -> "disabled"
          
 
---===============8627469379826294098==
+--===============3046335086238377295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616054559 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616054996 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1616054558-d49077ce5dc124c550139c7e80f8f2d1ad8abae1
+nonce 1616054996-614975ba7a13dbbedb4c84463c1cfbbca6e3b81a
 
-fa90b937607981c9a54b3f98eef030658f837f7a 18106234c0e99f21bd50574d92dbd26d9b97d789 refs/heads/usb-testing
+aa403f257e992eac33cd9afd1d87ce9299f6db7a 18106234c0e99f21bd50574d92dbd26d9b97d789 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBTCR8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YXUP/2nvsCCFy9f5WkDSVFJD
-81FVcLcks5fziU7JeY+KMIyTF1hI/Oc1S5/pYUV5WcPbMTKkkGEZ0jSIijzBv1d5
-kWNvpHqVZOVSArFpvw2qHrXD/zuMFn1Slln76FEHjar0NXaj8NPw0IAbPW0kt60L
-CHBioN3Dm6MrTx54RU3X7kaOOYzFNPCCuWnnVYqZ5BvOx2FUsCg05Jh1S0ZMgO+0
-RCgODR/fftaq8vStoxbV09IJCjk6/tNAVcEDo63yLBsQvlkWeOeCfZRNH1cOYczP
-k90CQkUp1cMRcO+U+Ff8bLt/0sC9ZUoHsj7pNMvGPVy7e2VnH0GTOwufQOOGXjfv
-kwX1PC5ycmn2yjpi+AKDUqQ2ODs4WRCSXMDvWSThNH22jX1sS5V3VVdYMPnVEbZm
-Rcdi4cEnx+FSsipJyKWtTu0cfgvIfcKxBEUZEsJslRw3GJKesV2SPhnYZPg3LFvL
-OfdCV2cZbSD2MLcChtMdCuJ7MErHtvtPpp+x5T3mYgURpflCGsT/roxSAheVaZ2C
-qsYrZPIofIj+y2pCC1mVPFXsKzxj+0FOCsfwvQBnvKJTCeEf9SEzik+wRcf0HJYN
-V3Phjt5IrtLXUJVfJ/4tkT+8zGFHIju+Z+yMVJxXFT/ABnouubU5lNQuP+oNB3S9
-4vOXG05zPCknbw/VlZGHkFJj
-=Mo5G
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBTCtQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ep0P/izQ0rwPwHiaFm29ieur
+j46F0v2gclsHo9np2/G+22+nGJMAV4dzPcU6h/qA/cGhcY/G4o/dBI7JFpb5n4An
+KK0d4YDG9aYo4tgrZDcUpDFiMAHhT5D372GKwSDKMW4rwIaaTHTbnzglphYD2vbc
+qznAXPWDdtDUTENlEc/9RHSWnY7yam/bRtPr6o2K02pw8Qp/trJB6eEL5zLvAyvG
+1GS14xaUeQpObigYiEAhYu9xYL/3F2OBiNya8FSkUHQNJhzEJTn3ifMmltRI/ClC
+AB7G0nQSqIjan0nYm2K23PvzAiMiV2i55+1oP1FyZc6hGQ/zfu9mr1hPRbdJ7Lq3
+xHegoDf1Ciw/RNMo4e86f73j/R09DJ5pvm4MctE943a+uIv6vl9s7e4Q2o/AOysC
+rkgd5mExtHoVTdyb27PS8m0zGjAJPKBVcQN5xUyIFWZAxWuFklEkDhT5Q6WCzsTV
+SVPEhP1neQINdsUlaiy5cGUwKoKsg3gxG2zkFHdtGT7lfi69y2nAMlzh1Ta+Vq1v
+kVFuFEAgxbU6u8LncPekTT1aR/qGWOPvQg0YAoFgGJ/mgJM6NI71bvRuw2Jb2G+8
+cxAPdWrjKQ5WJbsIykBqJxV80DzjdyQrWbwy2klgRfL3S9gFw/pC9YFfdi5YKSa/
+JmPND0ToAPda6yhn+QEESb5l
+=Y7SS
 -----END PGP SIGNATURE-----
 
---===============8627469379826294098==--
+--===============3046335086238377295==--
