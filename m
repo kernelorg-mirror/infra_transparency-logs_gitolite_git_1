@@ -1,39 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8674069861097812293=="
+Content-Type: multipart/mixed; boundary="===============6742062752519666453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 18 Mar 2021 15:50:04 -0000
-Message-Id: <161608260463.16121.18061162648677264943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 18 Mar 2021 15:52:24 -0000
+Message-Id: <161608274446.17249.138862255029104027@gitolite.kernel.org>
 
---===============8674069861097812293==
+--===============6742062752519666453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/io_uring-5.12
-    old: 717e93cba781676d24b5776f8e4329f7bc7bc4b6
-    new: 92d8b93e90725d6de7198a0edbc7d509fbfd51f7
-    log: |
-         596123b91a22c62de5860feea8f31ba5f44736f3 io_uring: imply MSG_NOSIGNAL for send[msg]()/recv[msg]() calls
-         d12a506b42f86a1d5961914198e784f20487ae57 io_uring: remove structures from include/linux/io_uring.h
-         4989745df6354896b1ca2c2c0f2de5dfed7d4625 io_uring: use typesafe pointers in io_uring_task
-         92d8b93e90725d6de7198a0edbc7d509fbfd51f7 io_uring: don't leak creds on SQO attach error
-         
-  - ref: refs/heads/io_uring-bio-cache
-    old: 7c3dbc10ed6c80f7d24ce62fbae7920ced5dd431
-    new: 6ed783f1c8ef9c48d369b1e3026d354898ccc67a
-    log: revlist-7c3dbc10ed6c-6ed783f1c8ef.txt
+  - ref: refs/heads/kvm-arm64/nvhe-wxn
+    old: 593f622117091884c50d7b036e5930beb250ae92
+    new: c8a4b35f5063c256451a3508e9f0b9e6b49debbb
+    log: revlist-593f62211709-c8a4b35f5063.txt
 
---===============8674069861097812293==
+--===============6742062752519666453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c3dbc10ed6c-6ed783f1c8ef.txt
+Content-Disposition: attachment; filename=revlist-593f62211709-c8a4b35f5063.txt
 
 e51ea5442996261d4bc3a5b934d27cc0ce6a991c sparc32: don't bother with lookup_fault() in __bzero()
 5f99d33810b00666825784342868240e5790c704 sparc32: kill lookup_fault()
@@ -256,6 +247,8 @@ b59cc97674c947861783ca92b9a6e7d043adba96 x86/unwind/orc: Silence warnings caused
 a65a802aadba072ca7514fc0c301fd7fdc6fc6cb m68k: Fix virt_addr_valid() W=1 compiler warnings
 a249cc8bc2e2fed680047d326eb9a50756724198 cifs: fix credit accounting for extra channel
 88fd98a2306755b965e4f4567f84e73db3b6738c cifs: ask for more credit on async read/write code paths
+886d0137f104a440d9dfa1d16efc1db06c9a2c02 io-wq: fix race in freeing 'wq' and worker access
+003e8dccdb22712dae388e682182d5f08b32386f io-wq: always track creds for async issue
 3ae0415d0bb401abad1db7468105e3d3756e153f tools headers UAPI: Update tools's copy of drm.h headers
 c2446944b3f588d6a0186f2022a2999c90e0cb63 tools headers UAPI: Sync drm/i915_drm.h with the kernel sources
 1e61463cfcd0b3e7a19ba36b8a98c64ebaac5c6e tools headers UAPI: Sync openat2.h with the kernel sources
@@ -304,6 +297,16 @@ c1f272df510c6b1db68ca6597724d17b557d1407 perf tests x86: Move insn.h include to 
 9e9888a0fe97b9501a40f717225d2bef7100a2c1 efi: stub: omit SetVirtualAddressMap() if marked unsupported in RT_PROP table
 eb602521f43876b3f76c4686de596c9804977228 gfs2: make function gfs2_make_fs_ro() to void type
 1a5a2cfd34c17db73c53ef127272c8c1ae220485 gfs2: fix use-after-free in trans_drain
+2941267bd3dad018de1d51fe2cd996b7bc1e5a5d io_uring: make del_task_file more forgiving
+13bf43f5f4739739751c0049a1582610c283bdde io_uring: introduce ctx to tctx back map
+d56d938b4bef3e1421a42023cdcd6e13c1f50831 io_uring: do ctx initiated file note removal
+eebd2e37e662617a6b8041db75205f0a262ce870 io_uring: don't take task ring-file notes
+baf186c4d345f5a105e63df01100936ad622f369 io_uring: index io_uring->xa by ctx not file
+b5bb3a24f69da92e0ec2a301452364333e45be03 io_uring: warn when ring exit takes too long
+1b00764f09b6912d25e188d972a7764a457926ba io_uring: cancel reqs of all iowq's on ring exit
+678eeba481d8c161203382832a4379d507050aed io-wq: warn on creating manager while exiting
+7c30f36a98ae488741178d69662e4f2baa53e7f6 io_uring: run __io_sq_thread() with the initial creds from io_uring_setup()
+041474885e9707a38fad081abe30159eb6d463f9 io_uring: kill io_sq_thread_fork() and return -EOWNERDEAD if the sq_thread is gone
 dac518707880617a2beaffc01fb1d7adf4b8008a Merge tag 'm68k-for-v5.12-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
 fbda7904302499dd7ffc073a3c84eb7c9275db0a Merge tag 'powerpc-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 3bb48a8506275f4d9e4593acf9f2fc0880a42f73 Merge branch 'parisc-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
@@ -493,6 +496,21 @@ e9e7fce0384b43f9b6c42dee1a79c0a1c332f326 regulator: rt4831: Fix return value che
 9e77d96b8e2724ed00380189f7b0ded61113b39f xen/events: reset affinity of 2-level event when tearing it down
 8891123f9cbb9c1ee531e5a87fa116f0af685c48 software node: Fix node registration
 2a92c90f2ecca4475d6050f2f938a1755a8954cc software node: Fix device_add_software_node()
+05962f95f9ac7af25fea037ef51b37c0eccb5590 io_uring: SQPOLL parking fixes
+f458dd8441e56d122ddf1d8e2af0b6ee62f52af9 io_uring: fix unrelated ctx reqs cancellation
+0298ef969a110ca03654f0cea9b50e3f3b331acc io_uring: clean R_DISABLED startup mess
+61cf93700fe6359552848ed5e3becba6cd760efa io_uring: Convert personality_idr to XArray
+cc20e3fec682700b673fcd286e6bef8e9da947e2 io-wq: remove unused 'user' member of io_wq
+97a73a0f9fbfb2be682fd037814576dbfa0e0da8 io_uring: fix io_sq_offload_create error handling
+33cc89a9fc248a486857381584cc6b67d9405fab io_uring: add io_disarm_next() helper
+7a612350a989866510dc5c874fd8ffe1f37555d2 io_uring: fix complete_post races for linked req
+70e35125093b05b0e607ba1f5358ddf76946756c io-wq: fix ref leak for req in case of exit cancelations
+93e68e036c2fc1ce18e784418e4e19975a5882b4 io_uring: move all io_kiocb init early in io_init_req()
+5199328a0d415b3e372633096b1b92f36b8ac9e5 io_uring: remove unneeded variable 'ret'
+e8f98f24549d62cc54bf608c815904a56d4437bc io_uring: always wait for sqd exited when stopping SQPOLL thread
+e22bc9b481a90d7898984ea17621f04a653e2cd1 kernel: make IO threads unfreezable by default
+78d7f6ba82edb7f8763390982be29051c4216772 io_uring: fix invalid ctx->sq_thread_idle
+7d41e8543d809c3c900d1212d6ea887eb284b69a io_uring: remove indirect ctx into sqo injection
 faa44c69daf9ccbd5b8a1aee13e0e0d037c0be17 block: Fix REQ_OP_ZONE_RESET_ALL handling
 df66617bfe87487190a60783d26175b65d2502ce block: rsxx: fix error return code of rsxx_pci_probe()
 c8e2fe13d1d1f3a02842b7b909d4e4846a4b6a2c x86/perf: Use RET0 as default for guest_get_msrs to handle "no PMU" case
@@ -625,8 +643,6 @@ ce307084c96d0ec92c04fcc38b107241b168df11 Merge tag 'block-5.12-2021-03-12-v2' of
 b6b8aa27a3c64a958c8cc57ce3d37d3fbddfa3d6 Merge branch 'for-v5.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
 f296bfd5cd04cbb49b8fc9585adc280ab2b58624 Merge tag 'nfs-for-5.12-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
 bcbcf50f521843445c9ea320a0569874f88c4b7a kbuild: fix ld-version.sh to not be affected by locale
-15b2219facadec583c24523eed40fa45865f859f kernel: freezer should treat PF_IO_WORKER like PF_KTHREAD for freezing
-16efa4fce3b7af17bb45d635c3e89992d721e0f3 io_uring: allow IO worker threads to be frozen
 34dc2efb39a231280fd6696a59bbe712bf3c5c4a memblock: fix section mismatch warning
 cbf78d85079cee662c45749ef4f744d41be85d48 stop_machine: mark helpers __always_inline
 ea29b20a828511de3348334e529a3d046a180416 init/Kconfig: make COMPILE_TEST depend on HAS_IOMEM
@@ -662,7 +678,6 @@ cc14086f22980fd15bec4488ecfbecb4f904cd35 Merge tag 'tty-5.12-rc3' of git://git.k
 be61af330e09cfdde29fa5516b2ee015ebdc8bea Merge tag 'staging-5.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 88fe49249c99de14e543c632a46248d85411ab9e Merge tag 'char-misc-5.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 b470ebc9e0e57f53d1db9c49b8a3de4086babd05 Merge tag 'irqchip-fixes-5.12-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
-9e15c3a0ced5a61f320b989072c24983cb1620c1 io_uring: convert io_buffer_idr to XArray
 50eb842fe517b2765b7748c3016082b484a6dbb8 Merge branch 'akpm' (patches from Andrew)
 9d0c8e793f0eb0613efe81d2cdca8c2efa0ad33c Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 c3c7579f5e3b4826d32af0521e53d5d565ed5a73 Merge tag 'powerpc-5.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
@@ -676,41 +691,9 @@ c72cbc936141eac737b24f43e742cefaab35edd6 Merge tag 'sched-urgent-2021-03-14' of 
 70404fe3030ec2dcf339a9730bc03bf0e1f2acf5 Merge tag 'irq-urgent-2021-03-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c995f12ad8842dbf5cfed113fb52cdd083f5afd1 prctl: fix PR_SET_MM_AUXV kernel stack leak
 1e28eed17697bcf343c6743f0028cc3b5dd88bf0 Linux 5.12-rc3
-efe814a471e0e58f28f1efaf430c8784a4f36626 io_uring: fix ->flags races by linked timeouts
-d725bc04d5408c48598d03fecc17b9f01a87a1e5 io_uring: fix complete_post use ctx after free
-f5ca390a27d505ef191389c6b7ab5236c2a624c8 io_uring: replace sqd rw_semaphore with mutex
-8f2f1b95b1b0e16396293ccdb9f0734e100ac2e2 io_uring: halt SQO submission on ctx exit
-1bdd8b75b5e3e7ce06ada934e85982e795b38756 io_uring: fix concurrent parking
-3f62f5a7ed8b545c5aeb124e69b70964a35b655d io_uring: add generic callback_head helpers
-02934d39a08a57ce5226e3063b2b4e059f59c454 io_uring: fix sqpoll cancellation via task_work
-7033e63330f3c68f9abac8dad42d5b2f9d2574c3 io_uring: call req_set_fail_links() on short send[msg]()/recv[msg]() calls
-25e3eeb13260d2e9c388c19aed9e33720d49c158 io_uring: imply MSG_NOSIGNAL for send[msg]()/recv[msg]() calls
-ef1fbeaa8d757c5b590b0796d22dd07a06b42985 io_uring: avoid taking ctx refs for task-cancel
-4a9e4863521c7878a2e8adb25473907bd7cee46f io_uring: reuse io_req_task_queue_fail()
-d5e0a0180f0514e02128da71fef63698f9f52334 io_uring: further deduplicate file slot selection
-c80713cd26798463aaa3991d92f42b7a1abe33cd io_uring: add a helper failing not issued requests
-377585da3526d0fe0deff4876ebbecb9ab1f3f8e io_uring: refactor provide/remove buffer locking
-156050ecbb7508a26aa3ae3a15d6c6e5d867663b io_uring: use better types for cflags
-c61d59ec92b78f229fd948d07940769aa0fd1ea5 io_uring: refactor out send/recv async setup
-b6f981151b4907b3f660ea771d71556098ffce9c io_uring: untie alloc_async_data and needs_async_data
-42e106c2956be250fe6bb96a9e72db425e9df8b8 io_uring: rethink def->needs_async_data
-c047b8d9d9c7abe51bc69bc4c1c71b99a0952a28 io_uring: merge defer_prep() and prep_async()
-55874aef340483d854aa4c07c1975777cd680bda io_uring: simplify io_resubmit_prep()
-c70b4fb5fe4f041d085721b80d2a0317fdaa081a io_uring: wrap io_kiocb reference count manipulation in helpers
-a0e68808ea847380aff56e9862288a5b6c9f928f io_uring: switch to atomic_t for io_kiocb reference count
-3d61283a44164fe702039c698b6163c5d3837a7a io_uring: simplify io_sqd_update_thread_idle()
-397d452cd73aafe4e74b7c6f70dbf2c7db844972 io_uring: don't check for io_uring_fops for fixed files
-c999128d995ca56594dde22a72955869f9437803 io_uring: cache async and regular file state for fixed files
-b7692d4c29e6ddc30947d6ee6a12f97380020583 io_uring: remove structures from include/linux/io_uring.h
-e066b62efc0cc9a16027728c3ded5878ffc2341a io_uring: use typesafe pointers in io_uring_task
-717e93cba781676d24b5776f8e4329f7bc7bc4b6 io_uring: don't leak creds on SQO attach error
-48ec14d6f5ccbcf9274db29cb3928cba89e5f5eb Merge branch 'io_uring-5.12' into io_uring-bio-cache
-90f922bae0253bbb959c292e58de0531caeaadb4 Merge branch 'for-5.13/io_uring' into io_uring-bio-cache
-4d33ed08a622939db8d35119f8b97560f9772a6f bio: add allocation cache abstraction
-692d97b10b8177bc3741796ddb9487a8ed92797e fs: add a struct bio_alloc_cache pointer to kiocb
-eafd350ceb1c61e243b55059313ee7218688e7ca io_uring: wire up bio allocation cache
-b5d54061594c1a16a13129c54aeea7d6a0d82d26 block: enable use of bio allocation cache
-e438dcd986bb59391b9c4fab0bb70ba65300289a iomap: enable use of bio allocation cache
-6ed783f1c8ef9c48d369b1e3026d354898ccc67a io_uring: use kiocb->private to hold rw_len
+45879a57751d272ced9ed5ccfd28c58e2095ceb7 arm64: Use INIT_SCTLR_EL1_MMU_OFF to disable the MMU on CPU restart
+bc6ddaa67abc9345370b219d07b079d25665f868 KVM: arm64: Use INIT_SCTLR_EL2_MMU_OFF to disable the MMU on KVM teardown
+fe2c8d19189e23a951e45fdb73aade25b1665bce KVM: arm64: Turn SCTLR_ELx_FLAGS into INIT_SCTLR_EL2_MMU_ON
+c8a4b35f5063c256451a3508e9f0b9e6b49debbb KVM: arm64: Force SCTLR_EL2.WXN when running nVHE
 
---===============8674069861097812293==--
+--===============6742062752519666453==--
