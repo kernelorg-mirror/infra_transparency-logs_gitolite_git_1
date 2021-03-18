@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6682510823924963388=="
+Content-Type: multipart/mixed; boundary="===============5264777573398897873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 18 Mar 2021 18:27:27 -0000
-Message-Id: <161609204785.17436.5554876451267938108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 18 Mar 2021 18:27:35 -0000
+Message-Id: <161609205550.17531.350967221845102410@gitolite.kernel.org>
 
---===============6682510823924963388==
+--===============5264777573398897873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: c00f4f2598d334470b49385f811ca8f5c966a63e
     new: bb9faeccbd6c05c6c2525be90f663f8694dd8bf6
     log: revlist-c00f4f2598d3-bb9faeccbd6c.txt
 
---===============6682510823924963388==
+--===============5264777573398897873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1616092044 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1616092044-afca87ecb97443cb5fa871e4b4ca356330ec83b0
+pusher C3F436CA30F5D8EB 1616092051 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1616092052-d09446abc1a471053094e4e297cb94812b23444e
 
-c00f4f2598d334470b49385f811ca8f5c966a63e bb9faeccbd6c05c6c2525be90f663f8694dd8bf6 refs/heads/for-5.13
+c00f4f2598d334470b49385f811ca8f5c966a63e bb9faeccbd6c05c6c2525be90f663f8694dd8bf6 refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBTm4wACgkQJNaLcl1U
-h9D9Owf/eFsWNvUB51N8LPpURLwcYC+iQXlko3MhglNCW9rhm+7qVj0nA+dMtO7+
-olcpivq9RKWESfpKHLNJEZJpgzGO5Izonyz/5aQH6gu3wV0TZ9X4Zf8dav7uwZaG
-aisFCuFe9xtp65yO+4G+Uo2Ea0Usft5kWoEUxNCYDn/SjlSTTUu1Lj0HXxj8SwMq
-Z0SbxhVphsBglqlGM5eXOkhKAQHuztCcmyj+TWyhNFyWuGHQBBY3msqLXcWW69HR
-tTxYUAjEH3zcJsmJ+k1ePo1Qq1urET0mcRQSJ6dL4BlRkvILP/aRgMgCQ5w56Us+
-XIGHjRw8MQSMUflmYC2073uCu+dcwQ==
-=xUCC
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBTm5MACgkQJNaLcl1U
+h9CJZwf+I3M/HBpxyhELYQWsasdO3UgYn7fFpLWQoObgIZXrQLrFtD0rS4mYcLK/
+N7Yk4cR5NS40QcdMR6V19CPJt/Nmog+rixLwMDo2nNciODD5MWldVv7bZ+AHHwDx
++tFUjas8zGab/hyYBIupUf3OGRBhMdZrEGbR+k6Os6nOBDVC14K7hnr+jqOei77u
+0XPfe1HEKoPzk9sI9JXrlnu8X6OKzud3ClUAYESO/HZZ1UoSSW9SRtSEUDpCLKJJ
+gnRyN5Cs2YLZlvPIl1GbsJQ0wWpnZVZuvLxQ6munybBJOLOhoS2xf48ko/Y7VU3S
+b9A/olyQtQ7X7iqO+DbfQPmUJB2ZDA==
+=O0Qt
 -----END PGP SIGNATURE-----
 
---===============6682510823924963388==
+--===============5264777573398897873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -98,4 +98,4 @@ ad83b1adc58d6693036fd330d6af95a33564eaae ASoC: Intel: sof_rt5682: Add ALC1015Q-V
 cdd23ae6e68f5d1ee40e0de304a42c94dc98dc22 Merge series "Fix reset controls and RPM of NVIDIA Tegra ASoC drivers" from Dmitry Osipenko <digetx@gmail.com>:
 bb9faeccbd6c05c6c2525be90f663f8694dd8bf6 Merge series "ASoC: codecs: remove cppcheck warnings" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 
---===============6682510823924963388==--
+--===============5264777573398897873==--
