@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4761205464603558266=="
+Content-Type: multipart/mixed; boundary="===============1958230025382636890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 18 Mar 2021 22:09:07 -0000
-Message-Id: <161610534772.29379.12056881149362247332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Thu, 18 Mar 2021 22:09:13 -0000
+Message-Id: <161610535373.29511.11267696539658045536@gitolite.kernel.org>
 
---===============4761205464603558266==
+--===============1958230025382636890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: a6d574dee98b6bc676391ba747e348b7705732c0
 
---===============4761205464603558266==
+--===============1958230025382636890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -694,4 +694,4 @@ c73891c922f5934b826fe5eb743fbdb28aee3f99 Merge tag 'xfs-5.12-fixes-3' of git://g
 dc0337999d87a5e749ef1ac0bcc1a06d2a3f9ec0 Merge tag 'vfio-v5.12-rc4' of git://github.com/awilliam/linux-vfio
 81aa0968b7ea6dbabcdcda37dc8434dca6e1565b Merge tag 'for-5.12-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============4761205464603558266==--
+--===============1958230025382636890==--
