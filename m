@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 18 Mar 2021 16:15:14 -0000
-Message-Id: <161608411448.377.10813943150248624397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Thu, 18 Mar 2021 16:20:27 -0000
+Message-Id: <161608442743.3534.8217922680755649639@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: e65eaded4cc4de6bf153def9dde6b25392d9a236
-    new: eddbe8e6521401003e37e7848ef72e75c10ee2aa
+    old: 1487c122c651191b34d8f0b2ac1c6ee5cd343874
+    new: e7e536b665bd6a9d3e936e0847dbbb6957101da4
     log: |
-         eddbe8e6521401003e37e7848ef72e75c10ee2aa selftest/bpf: Add a test to check trampoline freeing logic.
+         5cb8a8cdb35b2753c78b26068d17aec2e32dfeaf Add functionality to the unified_rw_reporting parameter to output separate and mixed stats when set to 'both' or 2.
+         e7e536b665bd6a9d3e936e0847dbbb6957101da4 Merge branch 'unified-merge' of https://github.com/jeffreyalien/fio
          
