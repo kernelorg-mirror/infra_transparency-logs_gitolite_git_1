@@ -1,42 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============0969446899884228059=="
+Content-Type: multipart/mixed; boundary="===============3306064830937665960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 18 Mar 2021 19:41:30 -0000
-Message-Id: <161609649067.1710.5223225803022539210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Thu, 18 Mar 2021 19:47:57 -0000
+Message-Id: <161609687721.5165.5982394254083940610@gitolite.kernel.org>
 
---===============0969446899884228059==
+--===============3306064830937665960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: bf152b0b41dc141c8d32eb6e974408f5804f4d00
-    new: dc0337999d87a5e749ef1ac0bcc1a06d2a3f9ec0
-    log: revlist-bf152b0b41dc-dc0337999d87.txt
+  - ref: refs/heads/rdma-next
+    old: b46d6712fb37671cc975ad38683394b38c9a9a81
+    new: 63baf41873939a0a4e4ddd86ca70aeeda21e4276
+    log: |
+         f9e1ae11dee54ab0dd7bd7673597c1b74997f736 RDMA: Add access flags to ib_alloc_mr() and ib_mr_pool_init()
+         11ac866df6c9c205851506cbdaa9ace961db286e RDMA/core: Enable Relaxed Ordering in __ib_alloc_pd()
+         2e41078c1ed2d1348b7d6caa80b7d462ec0cabdb RDMA/iser: Enable Relaxed Ordering
+         8903d541959c17ab7ff587ceb46cbf9620486c5b RDMA/rtrs: Enable Relaxed Ordering
+         7b8ce7af2da418ce1d9d17fd00a266df71286b58 RDMA/srp: Enable Relaxed Ordering
+         4f2aede47ce53eeb6af7a7ab2fe12abf84457a5f nvme-rdma: Enable Relaxed Ordering
+         f201c069364e500971ff401bc1630e5e8176dbe6 cifs: smbd: Enable Relaxed Ordering
+         5a780bcf075dd2e874fac45b134ece8fa3978990 net/rds: Enable Relaxed Ordering
+         b57b1fd46d31e1844ce47746d44571cba4befeee net/smc: Enable Relaxed Ordering
+         adafc0cddea309dec84a4f0c0b179142991c45e4 xprtrdma: Enable Relaxed Ordering
+         63baf41873939a0a4e4ddd86ca70aeeda21e4276 RDMA/cma: Skip device which doesn't support CM
+         
+  - ref: refs/heads/rdma-rc
+    old: 22053df0a3647560e6aa11cb6ddcb0da04f505cc
+    new: 508574769d23d147fb5833c52acc8dc5032a1533
+    log: |
+         508574769d23d147fb5833c52acc8dc5032a1533 net/mlx5e: Add missing include
+         
+  - ref: refs/heads/testing/rdma-next
+    old: 35a82e87a1942e53d53a86f4c18e38fc5bfd726c
+    new: 4c232bcfe6befe8cad5359c107c2cdf87f1a7f95
+    log: revlist-35a82e87a194-4c232bcfe6be.txt
+  - ref: refs/heads/testing/rdma-rc
+    old: c02e05a6204328eb0a7353a8386ce4aea379a994
+    new: 550ef36e93705f141522118aac7a06a0de34abe7
+    log: |
+         508574769d23d147fb5833c52acc8dc5032a1533 net/mlx5e: Add missing include
+         550ef36e93705f141522118aac7a06a0de34abe7 Merge branch 'master' into testing/rdma-rc
+         
 
---===============0969446899884228059==
+--===============3306064830937665960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf152b0b41dc-dc0337999d87.txt
+Content-Disposition: attachment; filename=revlist-35a82e87a194-4c232bcfe6be.txt
 
-b5a08423da9da59c7f38ed8dbb6dd6cbbe9024a4 xfs: fix quota accounting when a mount is idmapped
-d336f7ebc65007f5831e2297e6f3383ae8dbf8ed xfs: force log and push AIL to clear pinned inodes when aborting mount
-08a204387e8063ba7375481281701137bd553dee docs: ABI: Fix the spelling oustanding to outstanding in the file sysfs-fs-xfs
-8723d5ba8bdae1c41be7a6fc8469dc9aa551e7d0 xfs: also reject BULKSTAT_SINGLE in a mount user namespace
-7dc4b2fdb27242faf40fc20ef83372b7033af050 vfio/type1: fix unmap all on ILP32
-179209fa12709a3df8888c323b37315da2683c24 vfio: IOMMU_API should be selected
-d3d72a6dfffd3fcaac969786118162b596227f70 vfio-platform: Add COMPILE_TEST to VFIO_PLATFORM
-3b49dfb08c750d4745ad42ec042288aba932b9d5 ARM: amba: Allow some ARM_AMBA users to compile with COMPILE_TEST
-b2b12db53507bc97d96f6b7cb279e831e5eafb00 vfio: Depend on MMU
-4ab4fcfce5b540227d80eb32f1db45ab615f7c92 vfio/type1: fix vaddr_get_pfns() return in vfio_pin_page_external()
-c73891c922f5934b826fe5eb743fbdb28aee3f99 Merge tag 'xfs-5.12-fixes-3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-dc0337999d87a5e749ef1ac0bcc1a06d2a3f9ec0 Merge tag 'vfio-v5.12-rc4' of git://github.com/awilliam/linux-vfio
+508574769d23d147fb5833c52acc8dc5032a1533 net/mlx5e: Add missing include
+f9e1ae11dee54ab0dd7bd7673597c1b74997f736 RDMA: Add access flags to ib_alloc_mr() and ib_mr_pool_init()
+11ac866df6c9c205851506cbdaa9ace961db286e RDMA/core: Enable Relaxed Ordering in __ib_alloc_pd()
+2e41078c1ed2d1348b7d6caa80b7d462ec0cabdb RDMA/iser: Enable Relaxed Ordering
+8903d541959c17ab7ff587ceb46cbf9620486c5b RDMA/rtrs: Enable Relaxed Ordering
+7b8ce7af2da418ce1d9d17fd00a266df71286b58 RDMA/srp: Enable Relaxed Ordering
+4f2aede47ce53eeb6af7a7ab2fe12abf84457a5f nvme-rdma: Enable Relaxed Ordering
+f201c069364e500971ff401bc1630e5e8176dbe6 cifs: smbd: Enable Relaxed Ordering
+5a780bcf075dd2e874fac45b134ece8fa3978990 net/rds: Enable Relaxed Ordering
+b57b1fd46d31e1844ce47746d44571cba4befeee net/smc: Enable Relaxed Ordering
+adafc0cddea309dec84a4f0c0b179142991c45e4 xprtrdma: Enable Relaxed Ordering
+63baf41873939a0a4e4ddd86ca70aeeda21e4276 RDMA/cma: Skip device which doesn't support CM
+550ef36e93705f141522118aac7a06a0de34abe7 Merge branch 'master' into testing/rdma-rc
+4c232bcfe6befe8cad5359c107c2cdf87f1a7f95 Merge branch 'rdma-next' into testing/rdma-next
 
---===============0969446899884228059==--
+--===============3306064830937665960==--
