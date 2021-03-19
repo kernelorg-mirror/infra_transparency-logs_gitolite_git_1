@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Fri, 19 Mar 2021 00:30:04 -0000
-Message-Id: <161611380494.23361.14502833981299977191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 19 Mar 2021 00:31:29 -0000
+Message-Id: <161611388991.23887.9006824076781118172@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
 user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 7ba42c109c79fc8b18a97f42490ae9a675f6ac52
-    new: 82599ee517da15ce3957bc94b82f8702a2357d14
+  - ref: refs/heads/dev
+    old: 5a69b77de1cce79900a6c1dbe839b34fe92f2c6f
+    new: 32d47bd5626c9a920e71f4698e21992664bba3b7
     log: |
-         82599ee517da15ce3957bc94b82f8702a2357d14 memorder: Fix typos and grammar, take two
+         32d47bd5626c9a920e71f4698e21992664bba3b7 fixup! torture: Add prototype kvm-remote.sh script
          
