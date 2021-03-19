@@ -1,83 +1,61 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Fri, 19 Mar 2021 17:03:01 -0000
-Message-Id: <161617338119.24455.8714929901749068777@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5821183834450369801=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 19 Mar 2021 17:06:01 -0000
+Message-Id: <161617356185.26814.16294235687177771266@gitolite.kernel.org>
+
+--===============5821183834450369801==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/blake-hash
-    old: 7af031810c25bb018341cee9e5fa9efe28e176c5
-    new: 1bf49bc5411ead60628814eada0e71c1c1c631ee
+  - ref: refs/heads/bleeding-edge
+    old: 7a609f428401ce2a530f918020b647b9a79b9a63
+    new: d2e6cdcbaeb304fff490aa7e0fd814e3bbeb0b6a
+    log: revlist-7a609f428401-d2e6cdcbaeb3.txt
+  - ref: refs/heads/linux-next
+    old: 7a609f428401ce2a530f918020b647b9a79b9a63
+    new: 4bcad1ff6cfaa94d624c70322135621042c25124
     log: |
-         c3328a123c6be983efc72c64f1ac3136cace7170 Add list of required packages
-         d4cd675f3324add3760291c471e7a853dac682ab Remove redundant plain-text README and other unused files.
-         1bf49bc5411ead60628814eada0e71c1c1c631ee Add Blake2b and Blake2s hash support for crypto backend.
+         c1d1e25a8c542816ae8dee41b81a18d30c7519a0 ACPI: video: Add missing callback back for Sony VPCEH3U1E
+         4bcad1ff6cfaa94d624c70322135621042c25124 Merge branch 'acpi-video' into linux-next
          
-  - ref: refs/heads/master
-    old: d4cd675f3324add3760291c471e7a853dac682ab
-    new: 78797ae078604f268e6b1f4af5ad2121f9dc0ae5
+  - ref: refs/heads/testing
+    old: 7a609f428401ce2a530f918020b647b9a79b9a63
+    new: 4bcad1ff6cfaa94d624c70322135621042c25124
     log: |
-         5d0a11a21bffb42ce957bee242271eb44aece5fe Add pin size parameter in crypt_active_by_pin_token.
-         36805b3cfeb326daf18d453f7ab7b31b01788dda Allow dash and underscore chars in external token names.
-         96d83455ca8c6ca49d34121702f0b94ebe36eeb7 Add API for activating device by specific token type.
-         78797ae078604f268e6b1f4af5ad2121f9dc0ae5 Rename PIN enable token activation API function.
+         c1d1e25a8c542816ae8dee41b81a18d30c7519a0 ACPI: video: Add missing callback back for Sony VPCEH3U1E
+         4bcad1ff6cfaa94d624c70322135621042c25124 Merge branch 'acpi-video' into linux-next
          
-  - ref: refs/merge-requests/135/merge
-    old: 10986c74b4657062a3ffdefb2ae2945f2f9ba164
-    new: c64e283152ec6d749588ab3dcff2b5f1f686f9ec
-    log: |
-         c3328a123c6be983efc72c64f1ac3136cace7170 Add list of required packages
-         d4cd675f3324add3760291c471e7a853dac682ab Remove redundant plain-text README and other unused files.
-         c64e283152ec6d749588ab3dcff2b5f1f686f9ec Merge branch 'default-sector-size' into 'master'
-         
-  - ref: refs/merge-requests/151/head
-    old: fb5d956c87541ae32714e50781b25cbe640bc441
-    new: 78797ae078604f268e6b1f4af5ad2121f9dc0ae5
-    log: |
-         c3328a123c6be983efc72c64f1ac3136cace7170 Add list of required packages
-         d4cd675f3324add3760291c471e7a853dac682ab Remove redundant plain-text README and other unused files.
-         5d0a11a21bffb42ce957bee242271eb44aece5fe Add pin size parameter in crypt_active_by_pin_token.
-         36805b3cfeb326daf18d453f7ab7b31b01788dda Allow dash and underscore chars in external token names.
-         96d83455ca8c6ca49d34121702f0b94ebe36eeb7 Add API for activating device by specific token type.
-         78797ae078604f268e6b1f4af5ad2121f9dc0ae5 Rename PIN enable token activation API function.
-         
-  - ref: refs/merge-requests/151/merge
-    old: e09e9d498780e285bd156421bd038c757a4ee7f6
-    new: 47f5abd7840e94e3485af3139b7b657cc7878a88
-    log: |
-         5d0a11a21bffb42ce957bee242271eb44aece5fe Add pin size parameter in crypt_active_by_pin_token.
-         36805b3cfeb326daf18d453f7ab7b31b01788dda Allow dash and underscore chars in external token names.
-         96d83455ca8c6ca49d34121702f0b94ebe36eeb7 Add API for activating device by specific token type.
-         78797ae078604f268e6b1f4af5ad2121f9dc0ae5 Rename PIN enable token activation API function.
-         47f5abd7840e94e3485af3139b7b657cc7878a88 Merge branch 'fix-activate-by-pin' into 'master'
-         
-  - ref: refs/merge-requests/152/head
-    old: 7af031810c25bb018341cee9e5fa9efe28e176c5
-    new: 1bf49bc5411ead60628814eada0e71c1c1c631ee
-    log: |
-         c3328a123c6be983efc72c64f1ac3136cace7170 Add list of required packages
-         d4cd675f3324add3760291c471e7a853dac682ab Remove redundant plain-text README and other unused files.
-         1bf49bc5411ead60628814eada0e71c1c1c631ee Add Blake2b and Blake2s hash support for crypto backend.
-         
-  - ref: refs/merge-requests/152/merge
-    old: bc7733459d9976196dfd8d0987761acd11fa62e0
-    new: e7e77e429e0b64fdca9677e457d5d12c729f1f94
-    log: |
-         c3328a123c6be983efc72c64f1ac3136cace7170 Add list of required packages
-         d4cd675f3324add3760291c471e7a853dac682ab Remove redundant plain-text README and other unused files.
-         1bf49bc5411ead60628814eada0e71c1c1c631ee Add Blake2b and Blake2s hash support for crypto backend.
-         e7e77e429e0b64fdca9677e457d5d12c729f1f94 Merge branch 'blake-hash' into 'master'
-         
-  - ref: refs/merge-requests/51/merge
-    old: 2cc320f180047ba57b9f5bc51047ea952b61c259
-    new: d4cd675f3324add3760291c471e7a853dac682ab
-    log: |
-         c3328a123c6be983efc72c64f1ac3136cace7170 Add list of required packages
-         d4cd675f3324add3760291c471e7a853dac682ab Remove redundant plain-text README and other unused files.
-         
+
+--===============5821183834450369801==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7a609f428401-d2e6cdcbaeb3.txt
+
+922e5ddef973f2a8a155b41f3bb9d3269c79017a MAINTAINERS: Add DTPM subsystem maintainer
+0073ca596b2f3072712efac297afd960fe761c30 Merge branch 'powercap' into bleeding-edge
+4c56f573bd941dcdcbbcd58d91489e994715eb47 ia64: fix format string for ia64-acpi-cpu-freq
+0fdf9a12029d83d88a0205e953fd5c1ac2dd461a cpufreq: intel_pstate: Clean up frequency computations
+a952a66d95cad237594e5d8d9a211d2b72b39f82 Merge branch 'pm-cpufreq' into bleeding-edge
+fc3a068d6b21a7a8b787e5c03a61bf3809c99bbd ACPI: CPPC: Add emtpy stubs of functions for CONFIG_ACPI_CPPC_LIB unset
+c6f2d3dba1b73ac8efa321ad85365500f83c1b99 ACPI: CPPC: A typo fix in the file cppc_acpi.h
+2d10d2754ceedf7e89b01240992a58808b096da3 Merge branch 'acpi-cppc' into bleeding-edge
+645e5b447b9024bec8aafc7232474f48357090d4 ACPI: scan: Turn off unused power resources during initialization
+97819464840c374bca9e4c97a5450cc87ba02485 ACPI: power: Turn off unused power resources unconditionally
+f181bbb0ec904a9876d0bac49d960680be96b7f0 Merge branch 'acpi-pm' into bleeding-edge
+46b37c6e4b072d1440e82558aadd5b678627fec6 MAINTAINERS: Add entry for the software nodes
+977ef0631d664a8aa9a95150de30368c3f55e0d7 Merge branch 'devprop' into bleeding-edge
+c1d1e25a8c542816ae8dee41b81a18d30c7519a0 ACPI: video: Add missing callback back for Sony VPCEH3U1E
+99d990191f972c550d2870ef91f796a9fc0116ed Merge branch 'acpi-video' into bleeding-edge
+935ab8509ccb277c536c9fad96b1a90d3bed98fc ACPI: fix various typos in comments
+d2e6cdcbaeb304fff490aa7e0fd814e3bbeb0b6a Merge branch 'acpi-misc' into bleeding-edge
+
+--===============5821183834450369801==--
