@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2928944673691051062=="
+Content-Type: multipart/mixed; boundary="===============4595800533056641056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Fri, 19 Mar 2021 07:18:57 -0000
-Message-Id: <161613833743.26701.11561252112753223647@gitolite.kernel.org>
+Date: Fri, 19 Mar 2021 07:24:09 -0000
+Message-Id: <161613864940.29882.16878504891274916776@gitolite.kernel.org>
 
---===============2928944673691051062==
+--===============4595800533056641056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
-    new: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
-    log: revlist-fe07bfda2fb9-1e28eed17697.txt
+  - ref: refs/heads/dev
+    old: df7dc15619e5c970755a850610a68b5a1cc0fd5a
+    new: fe06f036ef36582bce0fd4b2d921fc10267159cc
+    log: revlist-df7dc15619e5-fe06f036ef36.txt
 
---===============2928944673691051062==
+--===============4595800533056641056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe07bfda2fb9-1e28eed17697.txt
+Content-Disposition: attachment; filename=revlist-df7dc15619e5-fe06f036ef36.txt
 
 e51ea5442996261d4bc3a5b934d27cc0ce6a991c sparc32: don't bother with lookup_fault() in __bzero()
 5f99d33810b00666825784342868240e5790c704 sparc32: kill lookup_fault()
@@ -884,5 +884,9 @@ c72cbc936141eac737b24f43e742cefaab35edd6 Merge tag 'sched-urgent-2021-03-14' of 
 70404fe3030ec2dcf339a9730bc03bf0e1f2acf5 Merge tag 'irq-urgent-2021-03-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c995f12ad8842dbf5cfed113fb52cdd083f5afd1 prctl: fix PR_SET_MM_AUXV kernel stack leak
 1e28eed17697bcf343c6743f0028cc3b5dd88bf0 Linux 5.12-rc3
+47292dce3d12e595027d47ed8818ac101f8fc2d8 exfat: fix erroneous discard when clear cluster bit
+2f076d6885f14e9a4e8198f1a40a17848d08015c exfat: introduce bitmap_lock for cluster bitmap access
+62f18bfc7632af00a988de84e469c2c0c4e1fc33 exfat: add support ioctl and FITRIM function
+fe06f036ef36582bce0fd4b2d921fc10267159cc exfat: improve write performance when dirsync enabled
 
---===============2928944673691051062==--
+--===============4595800533056641056==--
