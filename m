@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0418304141474714671=="
+Content-Type: multipart/mixed; boundary="===============3454207965869717062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 19 Mar 2021 10:51:44 -0000
-Message-Id: <161615110430.6473.17510756015439171422@gitolite.kernel.org>
+Message-Id: <161615110489.6519.1664389147421330887@gitolite.kernel.org>
 
---===============0418304141474714671==
+--===============3454207965869717062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,65 +16,78 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 0437de26e28dd844f51fde7a749a82cb2d3694ad
-    new: fc40bcd3ba10b0a3d4a89dedf10b9fcaf2763907
-    log: revlist-0437de26e28d-fc40bcd3ba10.txt
+  - ref: refs/heads/linux-5.11.y
+    old: dd5ae3523018ed0d6e58591910cd61bc596fc89c
+    new: e855631f5b13567fb6db541007f03cd99d82e7c0
+    log: revlist-dd5ae3523018-e855631f5b13.txt
 
---===============0418304141474714671==
+--===============3454207965869717062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616151101 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616151102 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1616151098-b5aba63124ea3fbf0760178f9787a5841c817897
+nonce 1616151101-445bbdb9105acbac5ea2bdec94a142d4258eadfa
 
-0437de26e28dd844f51fde7a749a82cb2d3694ad fc40bcd3ba10b0a3d4a89dedf10b9fcaf2763907 refs/heads/linux-5.4.y
+dd5ae3523018ed0d6e58591910cd61bc596fc89c e855631f5b13567fb6db541007f03cd99d82e7c0 refs/heads/linux-5.11.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBUgj0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1QYP/jOKkCZJ1LE66H8iVTrx
-U+uIj0PQtn6S+9eG0t0Tww6xQ5MalTi35GhoMoNpEVwmOtyPYHH4HF4+fcmg3iwQ
-09GRa7AjW/vYQGJCZ36AwS0JtbREfVsb0+UW2N98/SEhK6IsB9hKfuenjqAnQRS3
-78JM+hFLcu1qbPA4LfLuZdCm/LsjsWljKc07Y2x61xZZfBGg7n8PXzwzzOPiyz3o
-dPXsYyTelngf8EhDS7bof+hRmLcUX5VYGhNMwfSHbpiy/dY1CVSJ5iD0E6D8dYwV
-D1JmHebxC3BUo4cPXpceICbRTcLvbMneyZ+xJBaW3NEZswpOxNHrjpN0aqJdpcn9
-7ebClWM6A2ELCuSjm+P1NvWjo1IObLWtM+K2PT839nwEN1E2AU/2jroVZ5/x6/UB
-RRera4FYB5M32CnduKJ6lUFAGjkOsftZf6sK9MR6zHTBzL9AMrBl0R80JV3y17EV
-IX0h3wcnOk82jgSTDM30hADxlQcM+MwGsrxcGuMKLfg4Wzp/J8Cj0fpBQ3+94YQg
-1KtbOGa8AtvjbtaA1gb3RAOq/6TAzrmhq9Un8nZTW6oaKRVF+ThmMwoNwCp8pyL3
-euhLaWd6E+s5qvL9QAlmlVQgvIYKE+tnX6vH1h2BaYAXLUoHYWHGAQbPtR/V3qTg
-Xx5mDyap1enjJcuXdwKj92u0
-=RAAi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBUgj4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L4IP/1rmlYSSI8PD4cDEFE9G
+baHvLV2hj0a6DnJNgX/AEasnLLt+SE5Cub404pMnFTo7eDEqgwvvj4decGVKN+hk
+pp7dBKhf3JowTF+LrUme4x9OSPYuK68kefoE+unltGEbU7ZPBzh+LkJe3UoBheEB
+uSryD7ATafZWAMKiW80BLFZgfAq5olqOktZfFqXp76qXVx6wQzsEqgin/iu8BRGG
+IZ+jWTjVlt69UeQPOpG3tWEmzgS42PJ1lHhretHHx0CjbNle/gclSc6I2NfaBwx5
+nrVU4ARDUnyhh3htejM9mz05WrNTo4YpswRVEIuQ5QK8EZZOnGTF1dWWR1j1oXbm
+PqyPoYFzyhPXqIriFyOn1rbUbR5mSeLrWgk2kHu5A0VJ6NKokYE7D0cYQuRTt2rv
+MwzfTfBIBQrhOacoX0i2pOt2Rsp+ljXdVpo016kvRVxq9YonkntGvSPQe3fqcOoJ
+ekq0fPKSDyaps7EF7TI/1oDSNbVTIcLYPra5yloM9XtKyvwzjeosgJAn/qX44B5l
+2kch26DWVvODpLxZgd4wGgpWH2YOHIgrBuOkDhfH8aqITu8Ff7V1+VKD0+xQanli
+JfpQaXqrWqPuH8DShlXWp5a68Zu18IHkVfRTbJFW35AKo264I8uvijNH5afLrSV0
+cP3cIkmg39uUOf1QhI23s6An
+=Rywy
 -----END PGP SIGNATURE-----
 
---===============0418304141474714671==
+--===============3454207965869717062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0437de26e28d-fc40bcd3ba10.txt
+Content-Disposition: attachment; filename=revlist-dd5ae3523018-e855631f5b13.txt
 
-766bcec9c66f1662927590b80a9300ff52095323 KVM: arm64: nvhe: Save the SPE context early
-4704d1aef8a78d5eb8a5d11c77217cbfd5746dd6 bpf: Prohibit alu ops for pointer types not defining ptr_limit
-5077746db5af7d9a80a6eecb8a02803f1fb80aa5 bpf: Fix off-by-one for area size in creating mask to left
-ab03e2d12b4274240f48492a5244a2c9fa4909f4 bpf: Simplify alu_limit masking for pointer arithmetic
-b7aeb634ac030e8fb9819c9f8780a9dd66c4ba08 bpf: Add sanity check for upper ptr_limit
-f28deb608f1ca5852908b5cb96810615682abf5a bpf, selftests: Fix up some test_verifier cases for unprivileged
-cb3e423c9a45bd3307510a8d321c4e53919e3410 btrfs: scrub: Don't check free space before marking a block group RO
-b0be428b44c93d1f2a2a47ccb3a9c30936a2aced drm/i915/gvt: Set SNOOP for PAT3 on BXT/APL to workaround GPU BB hang
-f5527c37838929fbf3cd2e2f04f44080d396f03e drm/i915/gvt: Fix mmio handler break on BXT/APL.
-45a567d6460e554bf0d241d95803686e88ff8ef6 drm/i915/gvt: Fix virtual display setup for BXT/APL
-89e83b861a5bd949fbb795354f4bd5dbfbe5af39 drm/i915/gvt: Fix port number for BDW on EDID region setup
-80cfc8bf30764c62414f6fe1e15ce91980ab2668 drm/i915/gvt: Fix vfio_edid issue for BXT/APL
-9320ed2fd854cdc868f6fb7f215eeb035755d99e fuse: fix live lock in fuse_iget()
-cc432dd640f63613a7e00bb2950f9ec951c7ef40 crypto: x86 - Regularize glue function prototypes
-b5bad9cf01d37ee91f662de038811dcacf77f809 crypto: aesni - Use TEST %reg,%reg instead of CMP $0,%reg
-5da4da4599ae3debdb7d34a16b76a09d0aa3db77 crypto: x86/aes-ni-xts - use direct calls to and 4-way stride
-953d151716ef807fc4a9ab3edcab8d09b09302ce net: dsa: tag_mtk: fix 802.1ad VLAN egress
-c5baa42305f3e243eda27dc6ca2edb288d794295 net: dsa: b53: Support setting learning on port
-fc40bcd3ba10b0a3d4a89dedf10b9fcaf2763907 Linux 5.4.107-rc1
+59f3cd257eb3cd46d28220a33c3addc7be132700 io_uring: don't attempt IO reissue from the ring exit path
+ea0f27cdab80a49a67fd74e3b47367f99919f37c KVM: x86/mmu: Expand on the comment in kvm_vcpu_ad_need_write_protect()
+8ac02e48efe39f271e05bc33f96f54c787d5dcfe KVM: x86/mmu: Set SPTE_AD_WRPROT_ONLY_MASK if and only if PML is enabled
+19e40833f43bb4ece70e74e8f4f4867d3f94319c mptcp: send ack for every add_addr
+dec9b0950102ccb167eab854dabb7b69fdeb9e08 mptcp: pm: add lockdep assertions
+d0666f077f5a9e77cff13530335fe9259f04fe71 mptcp: dispose initial struct socket when its subflow is closed
+6a575b7f167c401ec37369305a3ed1a677ac876d io_uring: refactor scheduling in io_cqring_wait
+83e461eca74fa038412907dfe6791baad124c474 io_uring: refactor io_cqring_wait
+bcc3b5914c71fdb95dfdd4b4d417789bcde44bc0 io_uring: don't keep looping for more events if we can't flush overflow
+47d89eff06a70c731f59a48641a42fba4a159359 io_uring: simplify do_read return parsing
+9910717f8dc9e98c14fb2ac9e215a331c43ce876 io_uring: clear IOCB_WAITQ for non -EIOCBQUEUED return
+ed7e43eba14369195c560e39717c5823dbe44fbf gpiolib: Read "gpio-line-names" from a firmware node
+1702983b5730e6ff2e842202e02cb2262f109563 net: bonding: fix error return code of bond_neigh_init()
+721a63adfd5062b6ab041309c4544085f2fae89f regulator: pca9450: Add SD_VSEL GPIO for LDO5
+7560444ed698c1ecc12cfb3b53b8406fe60c8708 regulator: pca9450: Enable system reset on WDOG_B assertion
+2d379a4d44350a77fb8a3893238e4397256a72c5 regulator: pca9450: Clear PRESET_EN bit to fix BUCK1/2/3 voltage setting
+afbbd434cfae769df72a9e402c68d3df3dc38c64 gfs2: Add common helper for holding and releasing the freeze glock
+52d20bccc870a6d72d0117d689a96ae586acad44 gfs2: move freeze glock outside the make_fs_rw and _ro functions
+dfbe76c13b872b309aae0f4d3c2f0fef701b9419 gfs2: bypass signal_our_withdraw if no journal
+988281239703478bcf166cb61685904bb460eede bpf: Prohibit alu ops for pointer types not defining ptr_limit
+6428e940c0d73fbb997b126a5185240ff2fc5d7d bpf: Fix off-by-one for area size in creating mask to left
+2a7dcfe0c639947657569193b65c5f39382ec5da bpf: Simplify alu_limit masking for pointer arithmetic
+340b182d3dd08d588b3016399117e97ac52c3118 bpf: Add sanity check for upper ptr_limit
+9ccd1e5c3c53863c87dc47c7b7322cbfcb97f810 bpf, selftests: Fix up some test_verifier cases for unprivileged
+f0ab9296482b800bd578a68706f25722f874eaa2 arm64: Unconditionally set virtual cpu id registers
+e68cb7f0b389882353eb872518a3300c9e5e1efc RDMA/srp: Fix support for unpopulated and unbalanced NUMA nodes
+3ba6d528e7c960925aa95a6596c30ea82f4ffc8a fuse: fix live lock in fuse_iget()
+4511c57888b3b8f47c7b1b3c61e8869cea6b7bfa Revert "nfsd4: remove check_conflicting_opens warning"
+333362fb5652a1f704c2527bda1e9378a7dd06aa Revert "nfsd4: a client's own opens needn't prevent delegations"
+17e26acc65f86c46f9ee967436ad8af0c9c20944 net: dsa: b53: Support setting learning on port
+38d926869871ec47d9e4dbe50ac2bb69f89dd6a0 crypto: x86/aes-ni-xts - use direct calls to and 4-way stride
+e855631f5b13567fb6db541007f03cd99d82e7c0 Linux 5.11.8-rc1
 
---===============0418304141474714671==--
+--===============3454207965869717062==--
