@@ -1,34 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Fri, 19 Mar 2021 22:31:27 -0000
-Message-Id: <161619308712.20265.9456022427766876563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 19 Mar 2021 22:50:04 -0000
+Message-Id: <161619420496.32767.5094735888131060927@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
-user: bigeasy
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/tags/v5.12-rc3
+  - ref: refs/tags/block-5.12-2021-03-19
     old: 0000000000000000000000000000000000000000
-    new: a6d574dee98b6bc676391ba747e348b7705732c0
-  - ref: refs/tags/v5.12-rc3-rt2
+    new: 63106906becbd55594550fe41516ecf2918fbf6e
+  - ref: refs/tags/io_uring-5.12-2021-03-19
     old: 0000000000000000000000000000000000000000
-    new: 8f0ca1446299b85caa825090d62702f9c11c529b
-  - ref: refs/tags/v5.12-rc3-rt2-patches
-    old: 0000000000000000000000000000000000000000
-    new: 8f320f671c666647ef1c91bf4b2b0f67b6ce52d9
-  - ref: refs/tags/v5.12-rc3-rt2-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 14c59e9398989702bbb09153dc7b3fbb64862c0f
-  - ref: refs/tags/v5.12-rc3-rt3
-    old: 0000000000000000000000000000000000000000
-    new: e1ef2c4f44e5b9950dbedbd575bc6874371b6c4e
-  - ref: refs/tags/v5.12-rc3-rt3-patches
-    old: 0000000000000000000000000000000000000000
-    new: a0969d347db98090e87871862dba504154dc2d7e
-  - ref: refs/tags/v5.12-rc3-rt3-rebase
-    old: 0000000000000000000000000000000000000000
-    new: b288643e59bc6133bab53f76601e036efaeb5215
+    new: c45160f27f43b65b9e5df5335114c246b14ec3f7
