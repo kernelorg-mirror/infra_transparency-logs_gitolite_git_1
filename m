@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0747476203132292347=="
+Content-Type: multipart/mixed; boundary="===============6419919696621581899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 19 Mar 2021 14:35:46 -0000
-Message-Id: <161616454610.25812.4880702497118641497@gitolite.kernel.org>
+Date: Fri, 19 Mar 2021 14:35:53 -0000
+Message-Id: <161616455391.25901.3941142213604643041@gitolite.kernel.org>
 
---===============0747476203132292347==
+--===============6419919696621581899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 13832ae2755395b2585500c85b64f5109a44227e
-    new: c79a707072fe3fea0e3c92edee6ca85c1e53c29f
-    log: revlist-13832ae27553-c79a707072fe.txt
+  - ref: refs/heads/dev-queue
+    old: 6daa42ab1b5274127023d189aa8c17d286f734da
+    new: 65e92c63f6a062663c0c13d84e79bb6b668708ca
+    log: revlist-6daa42ab1b52-65e92c63f6a0.txt
 
---===============0747476203132292347==
+--===============6419919696621581899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13832ae27553-c79a707072fe.txt
+Content-Disposition: attachment; filename=revlist-6daa42ab1b52-65e92c63f6a0.txt
 
 31254dc9566221429d2cfb45fd5737985d70f2b6 selftests/bpf: Set gopt opt_class to 0 if get tunnel opt failed
 abe7034b9a8d57737e80cc16d60ed3666990bdbf Revert "netfilter: x_tables: Update remaining dereference to RCU"
@@ -94,5 +94,37 @@ f12098ce9b43e1a6fcaa524acbd90f9118a74c0a octeontx2-pf: Clear RSS enable flag on 
 6c015a2256801597fadcbc11d287774c9c512fa5 net: check all name nodes in __dev_alloc_name
 84f4aced67b102c2f2631c2a48332fcabc826ed2 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
 c79a707072fe3fea0e3c92edee6ca85c1e53c29f net: cdc-phonet: fix data-interface release on probe failure
+113ff0959e1075d619074f18475e17886846982d checkpatch: Fix warnings when --no-tree is used
+05632602b9f0de4f2e08579c2dc8f2d468f3bd0f checkpatch.pl: seed camelcase from the provided kernel tree root
+086e371a17d1dcef51bf4d25b8e541212a42357d ice: Fix a couple off by one bugs
+2f25f1b482472a0732159665537212346bd88881 iavf: Fix asynchronous tasks during driver remove
+0029b08745f2542db1d11e805fa68adec774687d i40e: Fix correct max_pkt_size on VF RX queue
+01b7871e55f70043de83bbd8f972b0832ed291c0 virtchnl: Fix layout of RSS structures
+5d2e36af8e347d9da5de3de74c391901fc789813 iavf: Fix return of set the new channel count
+39291cb9656f685c06a45318fa823bea9475046a i40e: Fix kernel oops when i40e driver removes VF's
+1e417890709b70948490659b18ea5c43fc2d01da i40e: Fix oops at i40e_rebuild()
+90143ecf2fc6c4ae8068230be8ef2bd7c975f892 e1000e: Fix duplicate include guard
+b1eebf1e7a264e2c206d0654f39b6e9fa5ce2b9f igb: Fix duplicate include guard
+e81fbfbdc4c02118d359a851645c815caa506b5a i40e: Fix NULL ptr dereference on VSI filter sync
+18b46d41a112e7de74939c92dee19e2ab4fd9d01 ice: Fix allowing VF to request more/less queues via virtchnl
+463000d140357d08bffdb758a57feb3d8486b6eb ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+89dc54b746479d164e484bb8b981937dae2a025a ice: Continue probe on link/PHY errors
+e22e94c58b94863639337f4acb67ba7109b6ea5d ice: Fix VF true promiscuous mode
+7fb67226184848e56596a45f497c41445fda49ba ice: Increase control queue timeout
+0ffb26951a0bee9a187400c3eac06933d64029af ice: Recognize 860 as iSCSI port in CEE mode
+72f4771d8a02e3eace7592ddbf5b114b8c9a5d0f ice: prevent ice_open and ice_stop during reset
+51b1894de36f673998af2f5aac6a5832ce7a67ed ice: fix memory allocation call
+406dc6b7bbb3e72d17e30234c29139effd1d0e96 ice: remove DCBNL_DEVRESET bit from PF state
+5a87aad55d2d5fc698bd670e1f64b094689a8eb5 ice: Fix for dereference of NULL pointer
+fd043e521d09ae581357872ba06a4d5e536839d2 ice: Use port number instead of PF ID for WoL
+dcbb5b8ee6df8af5e95ec730e8f92e20cc507ecb ice: handle the VF VSI rebuild failure
+6c7d237209c0915d611ffa6b6edef58f7d2d39f9 ice: Cleanup fltr list in case of allocation issues
+25115f49488214c47dbfbdbe0c8606a044bf80bb i40e: Fix error handling in i40e_vsi_open
+87685ea4bf38c4222348345da604e4d740860e11 i40e: Fix display statistics for veb_tc
+f41518d66c2ef78ba22ef43c2576545c1ab2945e i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+f2c33e1a9abb57a6ae3edf7ae71e170655795381 igb: check timestamp validity
+099f0dcc0540e9c7ceba99e01e15ce76c9819d11 i40e: improve locking of mac_filter_hash
+c3f49e5333141bc19dc79e76c039ef57f25c9670 ixgbe: Fix NULL pointer dereference in ethtool loopback test
+65e92c63f6a062663c0c13d84e79bb6b668708ca i40e: Fix autoneg disabling for non-10GBaseT links
 
---===============0747476203132292347==--
+--===============6419919696621581899==--
