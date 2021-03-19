@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 19 Mar 2021 02:17:29 -0000
-Message-Id: <161612024980.30853.13192902326125230506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 19 Mar 2021 02:21:08 -0000
+Message-Id: <161612046876.947.12876875140185816924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: df291e54ccca0ef357f07a7b89263f7918d6ed7a
-    new: 84b9000a4b27836b17f3c6828fb8101bababeb7f
+    old: 6c015a2256801597fadcbc11d287774c9c512fa5
+    new: 84f4aced67b102c2f2631c2a48332fcabc826ed2
     log: |
-         25cc5a5fac15c8e140c17f7c13c6874736f3e883 ionic: code cleanup details
-         2103ed2fab7de8df7ad035d8a3053e1ba3cb76e2 ionic: simplify the intr_index use in txq_init
-         9b761574fefcead1c9c86b338a321e7ef392b833 ionic: fix unchecked reference
-         acc606d3e4cd8d03a368fb207a0ae868d8cbe9d7 ionic: update ethtool support bits for BASET
-         8c775344c76806c75c4bf94f8ba1e6ac3c069b62 ionic: block actions during fw reset
-         9e8eaf8427b6e07e8359a565f1f43c499fce6fa7 ionic: stop watchdog when in broken state
-         e768929de1e4521ff3b3d5e8a74d62e7eeb50cf9 ionic: protect adminq from early destroy
-         84b9000a4b27836b17f3c6828fb8101bababeb7f Merge branch 'ionic-fixes'
+         abe7034b9a8d57737e80cc16d60ed3666990bdbf Revert "netfilter: x_tables: Update remaining dereference to RCU"
+         d3d40f237480abf3268956daf18cdc56edd32834 Revert "netfilter: x_tables: Switch synchronization to RCU"
+         175e476b8cdf2a4de7432583b49c871345e4f8a1 netfilter: x_tables: Use correct memory barriers.
+         b58f33d49e426dc66e98ed73afb5d97b15a25f2d netfilter: ctnetlink: fix dump of the expect mask attribute
+         8b2030b4305951f44afef80225f1475618e25a73 netfilter: conntrack: Fix gre tunneling over ipv6
+         7e6136f1b7272b2202817cff37ada355eb5e6784 netfilter: nftables: report EOPNOTSUPP on unsupported flowtable flags
+         7b35582cd04ace2fd1807c1b624934e465cc939d netfilter: nftables: allow to update flowtable flags
+         740b486a8d1f966e68ac0666f1fd57441a7cda94 netfilter: flowtable: Make sure GC works periodically in idle system
+         86fe2c19eec4728fd9a42ba18f3b47f0d5f9fd7c netfilter: nftables: skip hook overlap logic if flowtable is stale
+         84f4aced67b102c2f2631c2a48332fcabc826ed2 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
          
