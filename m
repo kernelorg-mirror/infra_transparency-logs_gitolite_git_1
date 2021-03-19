@@ -1,28 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 19 Mar 2021 12:49:39 -0000
-Message-Id: <161615817994.17666.7624770131204650884@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4748868314392605306=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 19 Mar 2021 12:50:03 -0000
+Message-Id: <161615820324.18650.1589882393726343317@gitolite.kernel.org>
+
+--===============4748868314392605306==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/auto-latest
-    old: 8fe53a94e83b6561f78f594bcbc6682a2262953f
-    new: 68644c505bc74972676d4557b060546d4c6e9326
-    log: |
-         79713a1fa1b9cd9d650b1ff0657ddbadc5dbbeaa selftests/sgx: Improve error detection and messages
-         48903b405a408e1e7694ec7688a2c10411ed6d2a Merge branch 'x86/sgx'
-         a501b048a95b79e1e34f03cac3c87ff1e9f229ad x86/ioapic: Ignore IRQ2 again
-         68b1eddd421d2b16c6655eceb48918a1e896bbbc static_call: Fix static_call_set_init()
-         698bacefe993ad2922c9d3b1380591ad489355e9 static_call: Align static_call_is_init() patching condition
-         38c93587375053c5b9ef093f4a5ea754538cba32 static_call: Fix static_call_update() sanity check
-         21d6a7dcbfba5e7b31f4e9d555a9be362578bfc3 x86/kaslr: Return boolean values from a function returning bool
-         35d218770156891f5f222e67a09f22f0dfd11723 Merge branch 'x86/urgent'
-         cecb4b1a763a1f7f9c5d6317839970b05ff2c548 Merge branch 'x86/cleanups'
-         68644c505bc74972676d4557b060546d4c6e9326 Merge branch 'locking/urgent'
-         
+  - ref: refs/heads/block-5.12
+    old: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
+    new: d38b4d289486daee01c1fdf056b46b7cdfe72e9e
+    log: revlist-1e28eed17697-d38b4d289486.txt
+
+--===============4748868314392605306==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1e28eed17697-d38b4d289486.txt
+
+ed01fee283a067c72b2d6500046080dbc1bb9dae nvme-fabrics: only reserve a single tag
+06c3c3365b4bae5ef0f0525d3683b73cbae1e69c nvme: merge nvme_keep_alive into nvme_keep_alive_work
+985c5a329dfe5ecb782551cddef48912961b83f1 nvme: allocate the keep alive request using BLK_MQ_REQ_NOWAIT
+b94e8cd2e6a94fc7563529ddc82726a7e77e04de nvme: fix Write Zeroes limitations
+fd0823f405090f9f410fc3e3ff7efb52e7b486fa nvme-tcp: fix a NULL deref when receiving a 0-length r2t PDU
+bb83337058a7000644cdeffc67361d2473534756 nvme-tcp: fix misuse of __smp_processor_id with preemption enabled
+72f572428b83d0bc7028e7c4326d1a5f45205e44 nvme-tcp: fix possible hang when failing to set io queues
+c4c6df5fc84659690d4391d1fba155cd94185295 nvme-rdma: fix possible hang when failing to set io queues
+d218a8a3003e84ab136e69a4e30dd4ec7dab2d22 nvmet: don't check iosqes,iocqes for discovery controllers
+bac04454ef9fada009f0572576837548b190bf94 nvmet-tcp: fix kmap leak when data digest in use
+d38b4d289486daee01c1fdf056b46b7cdfe72e9e Merge tag 'nvme-5.12-20210319' of git://git.infradead.org/nvme into block-5.12
+
+--===============4748868314392605306==--
