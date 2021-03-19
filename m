@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 19 Mar 2021 16:50:03 -0000
-Message-Id: <161617260324.16557.16489781658229021479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 19 Mar 2021 17:00:18 -0000
+Message-Id: <161617321832.23321.15435234176266463334@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/bluetooth/bluez
+user: holtmann
 changes:
-  - ref: refs/heads/poll-multiple
-    old: 3e1bc6990eef67e3ef3a231404c359a60a0dcad8
-    new: ada3a81f8966877523165b40ea6d3c7942c982e8
+  - ref: refs/heads/master
+    old: 50296ced49d90eab875719a33f2bcaeab33d2583
+    new: e8cae81974bd48357e002ad4c2ed4eb297278848
     log: |
-         ada3a81f8966877523165b40ea6d3c7942c982e8 io_uring: always mask in error/nval/hangup for poll
+         e8cae81974bd48357e002ad4c2ed4eb297278848 tools: Add command for enabling/disabling LL privacy feature
          
