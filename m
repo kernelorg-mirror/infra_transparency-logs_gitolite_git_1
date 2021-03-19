@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5581998434231996417=="
+Content-Type: multipart/mixed; boundary="===============3915262277821629345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 19 Mar 2021 16:31:55 -0000
-Message-Id: <161617151529.2646.4915821167514359892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 19 Mar 2021 16:32:04 -0000
+Message-Id: <161617152470.2752.4324131370061054868@gitolite.kernel.org>
 
---===============5581998434231996417==
+--===============3915262277821629345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: bb9faeccbd6c05c6c2525be90f663f8694dd8bf6
     new: 3722e4ecefb38a62a98a798653685078de475e75
     log: revlist-bb9faeccbd6c-3722e4ecefb3.txt
 
---===============5581998434231996417==
+--===============3915262277821629345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1616171511 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1616171512-40486dc1f0fc944a4c29fcfc7ae8d7e0be4511a1
+pusher C3F436CA30F5D8EB 1616171521 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1616171520-df2f4fbeed5ea7156719f1c3ea40a55d8cb444ad
 
-bb9faeccbd6c05c6c2525be90f663f8694dd8bf6 3722e4ecefb38a62a98a798653685078de475e75 refs/heads/for-5.13
+bb9faeccbd6c05c6c2525be90f663f8694dd8bf6 3722e4ecefb38a62a98a798653685078de475e75 refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBU0fcACgkQJNaLcl1U
-h9ByGgf/UoMQP5F0zGxMSSlaYE/eDrg+j4EpaJecFRZihBe0xUNBIDOKKzobT7bP
-7bo2kEzjjcAGWTKqmD+fDtvRu2ccbdwfbZG4NOXxfl4LjUJBDM90ckutR6Q2j5vY
-BUDVv7/oOpDaA+IbqrjK7yYyc6dphlqWjREdV8g5D63180rqPmGZEvKloGBrShVz
-qLdheHE4RL4CXBgRZstz+8CfO5pBqW+OpT+lNtq4T7lc+ky4Bb0ZoFFjSD1fHFv1
-6SWGehRT7zX9WnRU1mOjNJe5TTuoxnaBcgvgxQ3RuU3hSueQkp9zxpPGB71QFc80
-BYJBEY9l3lT0Npq87FkIoQh0IEqDcA==
-=PN4W
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBU0gEACgkQJNaLcl1U
+h9CWPQf/atCs0Ixsnt97mej26T4T4a8dfEVX7NR6wIAs1fIuXYX3nNldeLJAH6wr
+YtjTLe7vHpmbNvX6YoXQwop8dl1s+4zyl9Md/uWz+X6rCFvmyDlocsWA1WJorodm
+0Ni51B7YCsqgsWhPZyIftucBLfA7J2SKrg7aFbDXlrp6Fjup1EtfL1V2uFlfpY5u
+wn4b/oPZlXjNDPfhYiYdwatHIZ9UUqcNTCC9xmVk2ufkwvzjJb6gMZ941yfumMCH
+D1mazmKNKvl4/v0UxydR2kHzI0KxKPlJXdssb2M82Ft9qgBlYJH2VTd68K/9TFCW
+vClUII5SszKdhQjSBOA2vvQd3VRa4Q==
+=9esz
 -----END PGP SIGNATURE-----
 
---===============5581998434231996417==
+--===============3915262277821629345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ f52366e6831ecb2da133b6ecfc7c69266086660c ASoC: soc-pcm: don't indicate error mes
 e6d8af6687fa7730885d5c8d8f62e75e8dff29f0 ASoC: rt1019: make symbol 'rt1019_i2c_driver' static
 3722e4ecefb38a62a98a798653685078de475e75 Merge series "ASoC: tidyup error message timing" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 
---===============5581998434231996417==--
+--===============3915262277821629345==--
