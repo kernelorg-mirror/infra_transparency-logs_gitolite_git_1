@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0626321364515334133=="
+Content-Type: multipart/mixed; boundary="===============9193476405422380857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Fri, 19 Mar 2021 13:40:35 -0000
-Message-Id: <161616123574.19993.11953031736535801667@gitolite.kernel.org>
+Date: Fri, 19 Mar 2021 13:42:08 -0000
+Message-Id: <161616132856.20713.2686305211177192601@gitolite.kernel.org>
 
---===============0626321364515334133==
+--===============9193476405422380857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rostedt/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/ftrace/urgent
     old: f9f344479d8b40b3b001c913fb992d85d19261d0
     new: 83b62687a05205847d627f29126a8fee3c644335
     log: revlist-f9f344479d8b-83b62687a052.txt
 
---===============0626321364515334133==
+--===============9193476405422380857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -878,4 +878,4 @@ c995f12ad8842dbf5cfed113fb52cdd083f5afd1 prctl: fix PR_SET_MM_AUXV kernel stack 
 1e28eed17697bcf343c6743f0028cc3b5dd88bf0 Linux 5.12-rc3
 83b62687a05205847d627f29126a8fee3c644335 workqueue/tracing: Copy workqueue name to buffer in trace event
 
---===============0626321364515334133==--
+--===============9193476405422380857==--
