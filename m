@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Fri, 19 Mar 2021 03:29:16 -0000
-Message-Id: <161612455607.9828.5403060488627254946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 19 Mar 2021 03:39:00 -0000
+Message-Id: <161612514062.15561.10111565657188546436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/stable-5.12
-    old: 365982aba1f264dba26f0908700d62bfa046918c
-    new: ee5de60a08b7d8d255722662da461ea159c15538
+  - ref: refs/heads/master
+    old: dea6328b2ea811b8f2f4d5d3829aaa8d7449b6dc
+    new: 38cb57602369cf194556460a52bd18e53c76e13d
     log: |
-         519dad3bcd809dc1523bf80ab0310ddb3bf00ade selinux: don't log MAC_POLICY_LOAD record on failed policy load
-         6406887a12ee5dcdaffff1a8508d91113d545559 selinux: fix variable scope issue in live sidtab conversion
-         ee5de60a08b7d8d255722662da461ea159c15538 selinuxfs: unify policy load error reporting
+         38cb57602369cf194556460a52bd18e53c76e13d selftests: net: forwarding: Fix a typo
          
