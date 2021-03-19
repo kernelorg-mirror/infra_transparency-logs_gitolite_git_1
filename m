@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mel/linux
-Date: Fri, 19 Mar 2021 15:39:26 -0000
-Message-Id: <161616836670.32702.9328333478715168537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 19 Mar 2021 15:42:23 -0000
+Message-Id: <161616854330.3852.16754901573803935635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mel/linux
-user: mel
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/mm-bulk-rebase-v5r6
-    old: 0000000000000000000000000000000000000000
-    new: c01d9e85468de49039da026c35df6eb7574ecc55
+  - ref: refs/heads/master
+    old: 93737ad3518b98c3b42b4373cdd5d50376560f61
+    new: 7f8b7774074867686bafac99c08157bce6cddc8f
+    log: |
+         7f8b7774074867686bafac99c08157bce6cddc8f findmnt: add PARENT column
+         
