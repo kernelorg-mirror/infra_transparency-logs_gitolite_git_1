@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 19 Mar 2021 22:02:00 -0000
-Message-Id: <161619132074.548.2171004483901376372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 19 Mar 2021 22:08:43 -0000
+Message-Id: <161619172376.4247.15836656810434959569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/x86/urgent
-    old: a501b048a95b79e1e34f03cac3c87ff1e9f229ad
-    new: dd926880da8dbbe409e709c1d3c1620729a94732
+  - ref: refs/heads/master
+    old: ea24b19562fe5f72c78319dbb347b701818956d9
+    new: 9ef05281e5d01dffdf75a4ae5c1aee7cbd7aaa73
     log: |
-         dd926880da8dbbe409e709c1d3c1620729a94732 x86/apic/of: Fix CPU devicetree-node lookups
+         9ef05281e5d01dffdf75a4ae5c1aee7cbd7aaa73 bpf: Remove insn_buf[] declaration in inner block
          
