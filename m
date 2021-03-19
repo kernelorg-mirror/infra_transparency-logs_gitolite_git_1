@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 19 Mar 2021 19:17:47 -0000
-Message-Id: <161618146783.22587.16349163561939685308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 19 Mar 2021 19:23:06 -0000
+Message-Id: <161618178684.25598.11816397952946108623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next/core
-    old: 98c5ec77c7c5e19e2112825525db5cede8d3f939
-    new: 68b64ad601c99c58104130f0ec8958628fe01988
+  - ref: refs/heads/master
+    old: c54f042dcc1b258ad15d2be0f0b3ba371f758329
+    new: 96a2be51393675c85563595c87a4be96f304a1b3
     log: |
-         c1fd78a77704318de34ba4b780cd99a5ef96d162 arm64: mm: add missing P4D definitions and use them consistently
-         87143f404f338dbf0b51374ea48ab05e598af564 arm64: mm: use XN table mapping attributes for the linear region
-         59511cfd08f32d0e9d363ffa0fdaaa75afdc52b1 arm64: mm: use XN table mapping attributes for user/kernel mappings
-         68b64ad601c99c58104130f0ec8958628fe01988 Merge branch 'for-next/xntable' into for-next/core
+         df4771783d6447b9c260bbb2692af15c4046c15b net: phy: mscc: Applying LCPLL reset to VSC8584
+         23d12335752fc08877d64719a679723d7e0a3962 net: phy: mscc: improved serdes calibration applied to VSC8584
+         36d021d1049f252c2bc1e20123b4cce9e9dc60af net: phy: mscc: coma mode disabled for VSC8584
+         96a2be51393675c85563595c87a4be96f304a1b3 Merge branch 'mscc-VSC8584-fixes'
          
-  - ref: refs/heads/for-next/kselftest
-    old: 0000000000000000000000000000000000000000
-    new: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
-  - ref: refs/heads/for-next/xntable
-    old: 0000000000000000000000000000000000000000
-    new: 59511cfd08f32d0e9d363ffa0fdaaa75afdc52b1
