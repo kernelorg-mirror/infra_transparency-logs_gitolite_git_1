@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8630321347041376132=="
+Content-Type: multipart/mixed; boundary="===============8603220853969989300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Sat, 20 Mar 2021 08:33:43 -0000
-Message-Id: <161622922374.16103.4673801033909472608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 20 Mar 2021 09:21:31 -0000
+Message-Id: <161623209168.31085.18270619798753900443@gitolite.kernel.org>
 
---===============8630321347041376132==
+--===============8603220853969989300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can-next
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/etas_es58x
-    old: 0000000000000000000000000000000000000000
-    new: 2151792b512d227fe114fe5daaa38c6ff5ca7931
+  - ref: refs/heads/master
+    old: da677bb2a03ba91a18f59769b000845310b86edf
+    new: 1902a1894137ee7866f0ea5801f4421e43e73f71
+    log: |
+         1902a1894137ee7866f0ea5801f4421e43e73f71 drop net-bonding-fix-error-return-code-of-bond_neigh_init.patch from 5.11
+         
 
---===============8630321347041376132==
+--===============8603220853969989300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1616229218 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1616229218-587c0de6d7edf29852424930ce3ca59a401a818b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616232087 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1616232087-9eca8b66a83c234f2e0be32461d16312694619fa
 
-0000000000000000000000000000000000000000 2151792b512d227fe114fe5daaa38c6ff5ca7931 refs/tags/etas_es58x
+da677bb2a03ba91a18f59769b000845310b86edf 1902a1894137ee7866f0ea5801f4421e43e73f71 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmBVs2ITHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqcLyCACEW1DAaFt/KUE+rNbyIV7oaSOQVKTN
-h3kSXJoVC5eCWxw20N1XToIZe4KbFQpch0yISadzoJP5fCPPX2wL9OeXfCCIzevs
-XMg385298oc0vT4kIDomX5qavGB/7+ZfLDEbl12138+oze/vIwdI1gwFkdkYmzs3
-V/djdsuLGPAFTwLaescCW2A6yY0pheR7+OURF9zNO8GYM/LMv+1sQqhNPcIVPII6
-WzFTbQ8ZIYlA4TZ5vV6g+7VI+XS0h0kPZXB8RsYQXjJQQWQaD/BcaItb02K7F53d
-65ZQbAqsqsHkp3r+NPQGga0U25/YIXzavI4rd4J02umJxy1iMO5uniTk
-=YURD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBVvpcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o9UQAKyLTkt/oqkF4HmREB0Q
+hdq/YULo8Q38mpWAkc4UlI/pyOWKxxsWj7U6xnYzdU01fC8t1qvSIuJbONStsb2N
+S0Rf3nP1HuqPBKoSTcywMjMuzViq3+S2Y+JKPXilM8Vu4e8Xvxsnw9Qn3KcveWSc
+3wFjHycf4cyeHiav/pWIYq99QWtdmVZ5Q2NaNgIDQ5O7Nz3WVDOB0Emt5OPL223j
+0hR8Vo3zINufpsOPAU7P8NmTpxquXVpDGLjP1sJldC2mWJ0dO0z/UK4I0sntF2ql
+H7wWj66qXSdbVgWdqOq2RZZAkA9wJ7U9HlpYZ2GjaM5XAAPX1u20UdSYALdodrco
+C0ElWVLu8BuOKLSrv7GWyOyg7dF2GI0ae7jQfNJMpTRLTNiEVUr+3uPjOeFDbVTm
+FQlzmSsrJc+jmJx29y0h0DkVFh73jAbQ6uW53KeudS84PnxY+Q8YP5WO27a+jABQ
+89hRcEOzFVvM375rU3Sn5XDi1a0luXTmW9rBVJHl+7ktDQyJ5lbuJeRLO21n2hpV
+PC4pPcc89LrMAYuCkwrWv/t70C6HLAUKfHNk6Hl0klgq0VI6LMakFmFQHHicS8is
+5AGeV49VHpimNnh9oUwqBWHsE1UTa5QUl1zyM3qXntN/MxK4jP1qAz2RrgDnvZTq
+CJeFKEbQSU6Wbx0BP+TIqFOw
+=9sOS
 -----END PGP SIGNATURE-----
 
---===============8630321347041376132==--
+--===============8603220853969989300==--
