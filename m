@@ -1,103 +1,87 @@
-Content-Type: multipart/mixed; boundary="===============6098386642968265155=="
+Content-Type: multipart/mixed; boundary="===============0025237923557443728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sat, 20 Mar 2021 13:09:51 -0000
-Message-Id: <161624579168.31059.3014828100704345110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable
+Date: Sat, 20 Mar 2021 13:10:23 -0000
+Message-Id: <161624582308.1210.14219895113440829330@gitolite.kernel.org>
 
---===============6098386642968265155==
+--===============0025237923557443728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
+repo: pub/scm/linux/kernel/git/stable/linux-stable
 user: sashal
 changes:
-  - ref: refs/heads/queue-5.4
-    old: 253f4029443a234f15db0d8f11386910cae43f43
-    new: 4bd8020d6c753ab56df4d7bd75833fd880e1995a
-    log: revlist-253f4029443a-4bd8020d6c75.txt
+  - ref: refs/heads/linux-rolling-lts
+    old: eec4de499ed916939674fd88c5c5a3a38a3cc9dd
+    new: 5da7b971885a271c0a16b89762726937a848c476
+    log: revlist-eec4de499ed9-5da7b971885a.txt
+  - ref: refs/heads/linux-rolling-stable
+    old: 42c4659cc6f462d11440edd120a71a82a9b1cc17
+    new: 399a6e60ad5fcd57ace333040481fdad8ebee167
+    log: revlist-42c4659cc6f4-399a6e60ad5f.txt
 
---===============6098386642968265155==
+--===============0025237923557443728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-253f4029443a-4bd8020d6c75.txt
+Content-Disposition: attachment; filename=revlist-eec4de499ed9-5da7b971885a.txt
 
-bd04bf89cd6b11920006dacae873e341a5f33220 scsi: block: Do not accept any requests while suspended
-7570ba45aff2a266516ad8e3177cf8f00f38e5f3 usb: dwc3: ulpi: Fix USB2.0 HS/FS/LS PHY suspend regression
-a9c418a0cd4b87ab1e19c07b3acc4bace4a9f592 usb: gadget: Add UDC driver for tegra XUSB device mode controller
-f2d26fb026d875318d52c8dbcc4213393e5b06c0 usb: gadget: Use fallthrough pseudo-keyword
-e6107f4b92dcc24c8cd2838264ca119876efc53a USB: Gadget: dummy-hcd: Fix shift-out-of-bounds bug
-a7b2cef1822c1a84fe1ceadc0b12cfcede66e9f9 blk-iocost: fix NULL iocg deref from racing against initialization
-9e65ac0ebdd91994830247becef19db5f71864ce ALSA: doc: Fix reference to mixart.rst
-15ad5a7b29ae02cb1d6970f39db4568079e1f87e cifs: Clean up DFS referral cache
-b275734a6d15ec23a664ba8a94e7a902d26adcd7 cifs: Introduce helpers for finding TCP connection
-b5ec118680ea8d8d0ebe3f7f09ba78e9292110bc cifs: Fix potential deadlock when updating vol in cifs_reconnect()
-348a05b2fc50ddc5bad7c4c8c8d1d7c479670f2a cifs: check pointer before freeing
-4a6a62555de04d27c86bf6dd61d454c2bfcc8710 MIPS: Fix malformed NT_FILE and NT_SIGINFO in 32bit coredumps
-b464acc3a97d56549396d2bdd50d2ec053abda86 mmc: sdhci-of-dwcmshc: implement specific set_uhs_signaling
-6e410484d1965d92632fd149b9842bafca482e40 mmc: sdhci-of-dwcmshc: fix rpmb access
-89c8639821685a4f9611aa15868d1413746b0fe7 drm/amd/display: DCN2X Find Secondary Pipe properly in MPO + ODM Case
-de67dbcb9793c03ace22e553153c8a8bfc6c6a61 iio: st_sensors: Join string literals back
-4634f1289d093571e4f900650e8902147cceeecd iio: common: st_sensors: fix possible infinite loop in st_sensors_irq_thread
-a6609fefbc639141e5c7fb06b91a24baf2cbf6ee powerpc: Add POWER10 architected mode
-649e6846094f7473d7820e06fa7ab2c779963abe x86: Fix typos in comments
-a599733873f43fdd874d4a05351028a99a275770 x86/setup: don't remove E820_TYPE_RAM for pfn 0
-3394557a2837b1ac6ff223a1baeaac8e2a1efb82 USB: gadget: dummy-hcd: Fix errors in port-reset handling
-2e4afc5fd464fc65e370d59b3ac7adbf99ab8c7a HID: multitouch: Remove MT_CLS_WIN_8_DUAL
-e18c208e6f7e624b478681b576f7df25af7d2bbe HID: multitouch: Apply MT_QUIRK_CONFIDENCE quirk for multi-input devices
-c7b195b927b9579e141a0531251226ccbc2853c6 ARM: dts: ux500: Break out DB8500 DTSI
-17a002aac5c05337e568f62473f052ebec26e64c ARM: dts: ux500: Add devicetree for HREF520
-887987ce470ea40708149734c13ea38b853f2e60 ARM: dts: ux500: Reserve memory carveouts
-e223272bdcd5b2218c61f937b1f4f25fd8aa55aa Revert "x86/setup: don't remove E820_TYPE_RAM for pfn 0"
-cd3621c522cc40ceeefd6ff11b51562517e048cd gpiolib: Add GPIOCHIP_NAME definition
-487ff280b39e2c9da245cd4275d98e90b36c142e gpiolib: free device name on error path to fix kmemleak
-b192ff63b835c8d55cbce1d9550dcf22d1ae0557 scsi: libsas: docs: Remove notify_ha_event()
-a9b02331bc79d88b9658cda3ca87617761bccb14 scsi: qla2xxx: Use ARRAY_SIZE() instead of open-coding it
-e9550a09f17fcbdaf58b712ad2fa20856d14a201 scsi: qla2xxx: Fix spelling of a variable name
-7c1b373f8a53fcbe685302417524634374ebd304 scsi: sd: Add zoned capabilities device attribute
-9210bc16e171b7165e0816670e267a68c8ea439f scsi: sd: Allow user to configure command retries
-60e52328f4957407b2e7ad2f58970ff1dc27a896 scsi: sd: Fix Opal support
-b23a87849f4acd54638b6c1de40a779bddab76e3 Revert "MIPS: Octeon: Remove special handling of CONFIG_MIPS_ELF_APPENDED_DTB=y"
-22a8c5198a63272cfe444189e30d95d7e068e8cd Revert "drm/amd/display: Update NV1x SR latency values"
-2327b6414bb73303c0a8b99002661050b7f0c154 tpm: Add a flag to indicate TPM power is managed by firmware
-5c3a268908d504dba690b3e9d144ca7ef543056e tpm: use GFP_KERNEL instead of GFP_HIGHMEM for tpm_buf
-62f06ada20ff5493be11f5ae97a3bf278b02687b tpm: Move tpm_buf code to include/linux/
-4e896a38fb41abf69a6f6e3901ab586713285dfb KEYS: Use common tpm_buf for trusted and asymmetric keys
-9b357027845f155b206566f55031051e5c9fd2a9 KEYS: trusted: Fix incorrect handling of tpm_get_random()
-35bbb1036c7d76986634e3ed60d1afe10e310eaf crypto: sun4i-ss - IV register does not work on A10 and A13
-282825b26b87cefa4823cb7ee35bef57a2f28ea0 media: rc: add support for Infrared Toy and IR Droid devices
-78c5dd8def2470417fdc050d205979b7ef250314 media: ir_toy: add another IR Droid device
-c6c94fc05016e3380cdcd0c94a0afa11b1b7200b coresight: etm4x: Handle accesses to TRCSTALLCTLR
-a8b66e145ef16017ba73b065597bb7b5bcce1e12 seccomp: test SECCOMP_USER_NOTIF_FLAG_CONTINUE
-cdc42f3c5d44e6501a8eea1a7bce51dea071e809 selftests/seccomp: Make kcmp() less required
-58bc834a679e27ed15b7f9c6fe23e8117316447e kcmp: Support selection of SYS_kcmp without CHECKPOINT_RESTORE
-4c29bdf902b06d229c2e8246bdb72167cd8f5733 proc: don't allow async path resolution of /proc/thread-self components
-d25860affeb8f0553f6f02628f4578c3b9ccc4a4 dm writecache: do direct write if the cache is full
-7c9ada4789d0d2072ed57bf55ddb679fa63ea393 ALSA: usb-audio: Drop bogus dB range in too low level
-48f568870cb52dcdb49511db9e5dd9618e644378 btrfs: avoid double put of block group when emptying cluster
-a0a4cd61e290c355876c4409f2541f1724836ec9 btrfs: transaction: Cleanup unused TRANS_STATE_BLOCKED
-c3771eae43047c609d0890676d1eb2ebb102c7b1 btrfs: qgroup: remove ASYNC_COMMIT mechanism in favor of reserve retry-after-EDQUOT
-af0f61eba0cda0329809e6773266df5850b6bf9a btrfs: enumerate the type of exclusive operation in progress
-58120fdd30820f5e43afc14d8fc9962dd838c2b1 btrfs: fix race between swap file activation and snapshot creation
-d930629115e931885e06100c269c73d3cb8448ce arm64: mm: Move reserve_crashkernel() into mem_init()
-16196be8aad88bd7d0da17f8d443aff9afc0f694 arm64: mm: use arm64_dma_phys_limit instead of calling max_zone_dma_phys()
-900c0af04b188f8dade91775d12691c8c609ba24 of/address: Introduce of_dma_get_max_cpu_address()
-6687b052e1764c3694ae019f261cc66f46679c77 of/unittest: Add dma-ranges address translation tests
-29781545778b4400c43c4b22c158b57829c77f72 of: unittest: Add test for of_dma_get_max_cpu_address()
-ec2643f7d1707fec2eb35829410a2272abb3a97f mm: refresh ZONE_DMA and ZONE_DMA32 comments in 'enum zone_type'
-7f8cabb6d5261b73c49be6bec990f8b51979c577 mm: Remove examples from enum zone_type comment
-436719bfe261daacc8da6f1fed8638ae1d9b9f94 drm/amdgpu/display: use GFP_ATOMIC in dcn21_validate_bandwidth_fp()
-aa457bfe463f543c83a701352c00ac8d31b9e8cb ALSA: hda/conexant: Convert to cdev-variant of mic-mute LED controls
-98cf79c0d309e209ea168933479fef4be29ed58c ALSA: hda/conexant: Use the new vmaster mute LED helper
-8378ca8d8de3893363b27bf3eccaa64c700ec6e0 ALSA: hda/conexant: Add quirk for mute LED control on HP ZBook G5
-8021e93083e1c5afb7d063caa945c264e3691c0e usb: dwc3: qcom: add ACPI device id for sc8180x
-e82d51ce5ddf333f678d0b8cd392192800a19a18 MIPS: compressed: fix build with enabled UBSAN
-27af04f62d7c811be63d85ebe8c550b3ed667d61 rcu/nocb: Trigger self-IPI on late deferred wake up before user resume
-01775009695fb35304f355e0a80af3aaa26cb585 KVM: kvmclock: Fix vCPUs > 64 can't be online/hotpluged
-4bd8020d6c753ab56df4d7bd75833fd880e1995a gpio: fix gpio-device list corruption
+fcfab1a9aa40bda4bb401a58946e30bb77a6c371 crypto: aesni - Use TEST %reg,%reg instead of CMP $0,%reg
+bf93113d46f8556efe53fd386057fc892d79c4af crypto: x86/aes-ni-xts - use direct calls to and 4-way stride
+c4d37eea1c641a9319baf34253cc373abb39d3e1 bpf: Prohibit alu ops for pointer types not defining ptr_limit
+ac1b87a18c1ffbe3d093000b762121b5aae0a3f9 bpf: Fix off-by-one for area size in creating mask to left
+6a3504bf4006dd903eac93d37cdbad45726272b1 bpf: Simplify alu_limit masking for pointer arithmetic
+1010f17aaa78837bfe411aeb89343e648fb79f60 bpf: Add sanity check for upper ptr_limit
+3672c3ce622e039d9469e5c875a2cbf2f59b93ba bpf, selftests: Fix up some test_verifier cases for unprivileged
+2d7888b2c4cd531e3c6593ffcb3d5160ebc1f52c RDMA/srp: Fix support for unpopulated and unbalanced NUMA nodes
+d955f13ea2120269319d6133d0dd82b66d1eeca3 fuse: fix live lock in fuse_iget()
+894ecf0cb505561b9f37b302b7479eea939b0790 Revert "nfsd4: remove check_conflicting_opens warning"
+df8596f5774387f92133e0e5b7e05808ff6595d7 Revert "nfsd4: a client's own opens needn't prevent delegations"
+0f6cab2350d5d5cc26daa8c2321d069ec874c3c6 ALSA: usb-audio: Don't avoid stopping the stream at disconnection
+dd0b7edb779466e29c375b04ff1a2b19d929e70f net: dsa: b53: Support setting learning on port
+3ba56f490c7ab26974806f8c2f14fc49652efe10 Linux 5.10.25
+5da7b971885a271c0a16b89762726937a848c476 Merge v5.10.25
 
---===============6098386642968265155==--
+--===============0025237923557443728==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-42c4659cc6f4-399a6e60ad5f.txt
+
+62c8121d230a849670d98f13af0bb1e74e8b9ea8 io_uring: don't attempt IO reissue from the ring exit path
+2c23de8cbf13adbf5f5c3e4997b2c21ec571e49b KVM: x86/mmu: Expand on the comment in kvm_vcpu_ad_need_write_protect()
+fae013c419c17ab5a1dac7d95e97c594e20cca82 KVM: x86/mmu: Set SPTE_AD_WRPROT_ONLY_MASK if and only if PML is enabled
+00f7d503e29229ee08e6d8efccd9c70a15b4902d mptcp: send ack for every add_addr
+a7171755c6cdccb23063e1c4de3f23210342f71f mptcp: pm: add lockdep assertions
+bda646bb954fb0974bff508819e87ce6783c35b1 mptcp: dispose initial struct socket when its subflow is closed
+f6acca687580deb89a1a24a53d8b2fba104668de io_uring: refactor scheduling in io_cqring_wait
+7eae0ee0eb3c16e1bfeaa3dd1cbd3617a5c766ac io_uring: refactor io_cqring_wait
+ee8869b7a07181d24bb4fd355a4482b17621d409 io_uring: don't keep looping for more events if we can't flush overflow
+308f41d96630aeca838b4f4bce8056a0f35ea64c io_uring: simplify do_read return parsing
+9b7ba5ae234d8b4838e649cc67c6adbe9b388d98 io_uring: clear IOCB_WAITQ for non -EIOCBQUEUED return
+06d05cf7216c4a478775c7ab3a847aa8c8d3e1cd regulator: pca9450: Add SD_VSEL GPIO for LDO5
+22b6cb4fb1a60e6f52e1270052f4384324943777 regulator: pca9450: Enable system reset on WDOG_B assertion
+7bd6bd2a9e7d386c40e431b0b399dc35ec157d89 regulator: pca9450: Clear PRESET_EN bit to fix BUCK1/2/3 voltage setting
+d21188031bf2d1e11d08159dc8262930723c2a09 gfs2: Add common helper for holding and releasing the freeze glock
+0b150ae395ce1b73867981efc7537fd092ca3de1 gfs2: move freeze glock outside the make_fs_rw and _ro functions
+4da985773cbb92cbf9659bdddf9789d699b5bfc6 gfs2: bypass signal_our_withdraw if no journal
+6bf7609666f6b2a9169c39c79a47ef8d6082afae bpf: Prohibit alu ops for pointer types not defining ptr_limit
+c4f3aa4343deccf5b8e1bfcc7c36224aaf3a8b26 bpf: Fix off-by-one for area size in creating mask to left
+6bc7314a685952608e32e8776a39173130540d7f bpf: Simplify alu_limit masking for pointer arithmetic
+d94b5b83f42d50bd847f848b56d3a2b70ec7004b bpf: Add sanity check for upper ptr_limit
+bd3cc4be01bf91cd99c68427789df03cb6762868 bpf, selftests: Fix up some test_verifier cases for unprivileged
+167a6f9124114f5d188a70b867f932d12745a444 arm64: Unconditionally set virtual cpu id registers
+e1a7ca048f05ae769ec4e9c50da06f2a3334872e RDMA/srp: Fix support for unpopulated and unbalanced NUMA nodes
+5676df54d7d44f497b8dbf7bff04f2f1b165da93 fuse: fix live lock in fuse_iget()
+c9c48d3c779b970e11fd8fb279883bf92404865a Revert "nfsd4: remove check_conflicting_opens warning"
+f8d4030a8a6787bd0aa5580c2f9dda4a6fafe1ec Revert "nfsd4: a client's own opens needn't prevent delegations"
+6c5ebdff4ae0d64e34770c4d4793bff33c06035b net: dsa: b53: Support setting learning on port
+8e9707717debce5b53b204520ed829d69cfc0162 crypto: x86/aes-ni-xts - use direct calls to and 4-way stride
+8e0969d06a58c7078fa5ad6f9a82e2595239b58f Linux 5.11.8
+399a6e60ad5fcd57ace333040481fdad8ebee167 Merge v5.11.8
+
+--===============0025237923557443728==--
