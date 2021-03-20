@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 20 Mar 2021 14:41:29 -0000
-Message-Id: <161625128910.18004.9809305255057115989@gitolite.kernel.org>
+Date: Sat, 20 Mar 2021 15:04:49 -0000
+Message-Id: <161625268974.30793.12139421761367304029@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: de8c2f5c45950b3b023adf7eb072b174f57d9358
-    new: accbc1ce4abf3c95078c9c35c28d407426a80830
+    old: accbc1ce4abf3c95078c9c35c28d407426a80830
+    new: 8f2c34c7d8bff44ee345d4b5ee760b848e305927
     log: |
-         6259a9caa1c79e29293ef64583b3be112edd0b55 iio:cros_ec_sensors: Fix a wrong function name in kernel doc.
-         a213fb0cb99a34415b462aa6f1542f01cc0b4297 iio:dac:max517.c: Use devm_iio_device_register()
-         accbc1ce4abf3c95078c9c35c28d407426a80830 staging: iio: ad9832: kernel-doc fixes
+         644306b87aa29323a1dcc87654a77d3ca764cc80 dt-bindings: iio: st,st-sensors add IIS2MDC.
+         1e2330960322bb8fdfe636dfc141866c6dc90ac9 iio:magnetometer: Add Support for ST IIS2MDC
+         8f2c34c7d8bff44ee345d4b5ee760b848e305927 dt-bindings: iio: adc: Add compatible for Mediatek MT8195
          
