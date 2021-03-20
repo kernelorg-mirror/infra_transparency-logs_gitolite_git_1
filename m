@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 20 Mar 2021 15:04:49 -0000
-Message-Id: <161625268974.30793.12139421761367304029@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Sat, 20 Mar 2021 15:10:21 -0000
+Message-Id: <161625302159.4308.6024673910002463605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/testing
-    old: accbc1ce4abf3c95078c9c35c28d407426a80830
-    new: 8f2c34c7d8bff44ee345d4b5ee760b848e305927
+  - ref: refs/heads/x86/core
+    old: 0705ef64d1ff52b817e278ca6e28095585ff31e1
+    new: 093f105ac06147f483738525509ad62652ff376f
     log: |
-         644306b87aa29323a1dcc87654a77d3ca764cc80 dt-bindings: iio: st,st-sensors add IIS2MDC.
-         1e2330960322bb8fdfe636dfc141866c6dc90ac9 iio:magnetometer: Add Support for ST IIS2MDC
-         8f2c34c7d8bff44ee345d4b5ee760b848e305927 dt-bindings: iio: adc: Add compatible for Mediatek MT8195
+         758a535627faf4885095170c18302f69e7091b6e x86/kprobes: Retrieve correct opcode for group instruction
+         a09383e9009d40b35610f4ae7df0202520c1080d x86/kprobes: Identify far indirect JMP correctly
+         093f105ac06147f483738525509ad62652ff376f x86/kprobes: Use int3 instead of debug trap for single-step
          
