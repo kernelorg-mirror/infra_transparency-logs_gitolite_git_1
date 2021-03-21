@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 21 Mar 2021 10:59:35 -0000
-Message-Id: <161632437569.5761.11229714418279734937@gitolite.kernel.org>
+Date: Sun, 21 Mar 2021 11:00:24 -0000
+Message-Id: <161632442444.7511.315003187714689138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,8 +9,11 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+user: mingo
 changes:
-  - ref: refs/tags/x86_urgent_for_v5.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 17df833258d179db5b49ffb308dd9af31feff27d
+  - ref: refs/heads/perf/urgent
+    old: 2dc0572f2cef87425147658698dce2600b799bd3
+    new: 3a85969e9d912d5dd85362ee37b5f81266e00e77
+    log: |
+         3a85969e9d912d5dd85362ee37b5f81266e00e77 lockdep: Add a missing initialization hint to the "INFO: Trying to register non-static key" message
+         
