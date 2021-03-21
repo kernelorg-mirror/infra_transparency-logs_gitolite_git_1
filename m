@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5818701058846479456=="
+Content-Type: multipart/mixed; boundary="===============5292181126254166587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sun, 21 Mar 2021 16:53:00 -0000
-Message-Id: <161634558066.8655.18223140523454437140@gitolite.kernel.org>
+Date: Sun, 21 Mar 2021 16:57:54 -0000
+Message-Id: <161634587441.11568.17355976187617823655@gitolite.kernel.org>
 
---===============5818701058846479456==
+--===============5292181126254166587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,35 @@ repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
   - ref: refs/heads/queue-5.10
-    old: 0768e2f13316f0e5dc8b948f91e425ce35f3b622
-    new: ca73f929ad78315d398809de114d72302a44d9f3
-    log: revlist-0768e2f13316-ca73f929ad78.txt
+    old: ca73f929ad78315d398809de114d72302a44d9f3
+    new: aef3857bcd6ddec39a24f3e1f44ae8bbb12acebc
+    log: revlist-ca73f929ad78-aef3857bcd6d.txt
 
---===============5818701058846479456==
+--===============5292181126254166587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0768e2f13316-ca73f929ad78.txt
+Content-Disposition: attachment; filename=revlist-ca73f929ad78-aef3857bcd6d.txt
 
-9374506c78b69a7e31c680b8ad25ec89845f2a61 io_uring: fix inconsistent lock state
-792c820b434932b59742ba3055248fb07f1ec786 io_uring/io-wq: kill off now unused IO_WQ_WORK_NO_CANCEL
-8fc82a548ce3f3eaec50a4d3b0a637c5251eaff9 media: cedrus: Add support for VP8 decoding
-ea04c116b10a07d0672bb3bedd137273e1d7917f media: cedrus: h264: Support profile controls
-48d7c9f72098a4a5a6b7b16ee94df837de16ea94 media: cedrus: Remove checking for required controls
-08d5079cfa82a25ae6b1dc17ac2b9cc2ab6201bd ibmvnic: remove excessive irqsave
-7412ce12dff9237c87cc0cbc19f739c7d5a0fd65 s390/qeth: schedule TX NAPI on QAOB completion
-098c337d32f93779427f731fda08b8efb746adda drm/amd/pm: fulfill the Polaris implementation for get_clock_by_type_with_latency()
-c6c995ff725c6e05f3f6da7a4bb89a9ad7969236 MIPS: kernel: Reserve exception base early to prevent corruption
-14a950c90534698c04d0658fdf3b56033dc5be36 mptcp: put subflow sock on connect error
-1a84c7c12d5db42fdf7448963c6e0b9b848eb179 io_uring: don't attempt IO reissue from the ring exit path
-0dbfa2230fe05953a1fbe1ad33bbbda47ef69a66 io_uring: clear IOCB_WAITQ for non -EIOCBQUEUED return
-e26cbd421f5639967f10c8ed5fce52db7278a254 gpiolib: Read "gpio-line-names" from a firmware node
-c5f7dcbadc66425fb4359eb1eb05cbcd6ce8d248 net: bonding: fix error return code of bond_neigh_init()
-0be471d5ccc93c2c2ad316034950b0faf3d171e2 regulator: pca9450: Add SD_VSEL GPIO for LDO5
-7939ea565156ba2ea586ccb17313a44831dc75db regulator: pca9450: Enable system reset on WDOG_B assertion
-5da4e64cb0c973e4bfc8d1a6a787d8398bbe8f54 regulator: pca9450: Clear PRESET_EN bit to fix BUCK1/2/3 voltage setting
-aa87fdc3d22b34f003bd4fc6064fefd92714dd5d gfs2: Add common helper for holding and releasing the freeze glock
-e3267f93a5d401c33a966aa1c4d47d8b2cfcd41a gfs2: move freeze glock outside the make_fs_rw and _ro functions
-ca73f929ad78315d398809de114d72302a44d9f3 gfs2: bypass signal_our_withdraw if no journal
+89655eec0fd7c2ff3a0ec039905d78286a04ecc2 mptcp: split mptcp_clean_una function
+6f65555924be9db4459b44d48782c5faf95254ae mptcp: reduce the arguments of mptcp_sendmsg_frag
+c80d0e6f10911073269b5300455fec3aecc885be io_uring: fix inconsistent lock state
+25a39939d29575fab8881c606bd3aee57860184f io_uring/io-wq: kill off now unused IO_WQ_WORK_NO_CANCEL
+57bac7274f6cd3137e268090e41f9da292d11806 media: cedrus: h264: Support profile controls
+ccbea072f97dedca037615822e5d53e68015a031 ibmvnic: remove excessive irqsave
+f6fa8d9aa6c3b7c03f4d53b1ef415f0322245270 s390/qeth: schedule TX NAPI on QAOB completion
+746432f9c00c497de437155578636d3dddbff699 drm/amd/pm: fulfill the Polaris implementation for get_clock_by_type_with_latency()
+084d05b7a7215abafe1788c89c06e40cb3441dd0 MIPS: kernel: Reserve exception base early to prevent corruption
+6f9ca5e1edddcc3bd351982ccaf9cb93d881a525 mptcp: put subflow sock on connect error
+02c03e92dbaa83ff36847b4b1ae8dd798ade81e1 io_uring: don't attempt IO reissue from the ring exit path
+a711497bfe35c900ef2821f21004c3a59f77e863 io_uring: clear IOCB_WAITQ for non -EIOCBQUEUED return
+dcf16292cca8b7c12109b78330af872f840c35c3 gpiolib: Read "gpio-line-names" from a firmware node
+042675d3ad76d4e6d38abd6298a21d2319e73912 net: bonding: fix error return code of bond_neigh_init()
+6de15125f39a1fec77e27e9d1b1454ee17d6331c regulator: pca9450: Add SD_VSEL GPIO for LDO5
+b4af59ed40e44e0d5c53dfd04c0dad4e1cd2e67b regulator: pca9450: Enable system reset on WDOG_B assertion
+754c172ae86ad98c81da7acfa61c91497339a40e regulator: pca9450: Clear PRESET_EN bit to fix BUCK1/2/3 voltage setting
+458a2d74a21e9ad6302c356d239b66d927dde105 gfs2: Add common helper for holding and releasing the freeze glock
+62e7a8e1cc5a75d4601698c49466b68656c273eb gfs2: move freeze glock outside the make_fs_rw and _ro functions
+aef3857bcd6ddec39a24f3e1f44ae8bbb12acebc gfs2: bypass signal_our_withdraw if no journal
 
---===============5818701058846479456==--
+--===============5292181126254166587==--
