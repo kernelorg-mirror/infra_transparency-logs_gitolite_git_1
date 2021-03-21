@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8900704104442231207=="
+Content-Type: multipart/mixed; boundary="===============1556932823443337926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 21 Mar 2021 22:51:12 -0000
-Message-Id: <161636707273.8779.2584522867296155920@gitolite.kernel.org>
+Date: Sun, 21 Mar 2021 22:51:28 -0000
+Message-Id: <161636708821.8979.290903006850797902@gitolite.kernel.org>
 
---===============8900704104442231207==
+--===============1556932823443337926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 6a669aa00a756266b742a772c4a2110582cabbe1
     new: 77e2a2bab0868c7ec74fb440afbc1f3f2d633473
     log: revlist-6a669aa00a75-77e2a2bab086.txt
 
---===============8900704104442231207==
+--===============1556932823443337926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ a5b3abfead00b595ba224e6ad9fa19687c37d416 Merge branch 'sched/core'
 1fb68f9b2c93f778c9b9f3d58e44cfc5a38f4312 Merge branch 'locking/core'
 77e2a2bab0868c7ec74fb440afbc1f3f2d633473 Merge branch 'irq/core'
 
---===============8900704104442231207==--
+--===============1556932823443337926==--
