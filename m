@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Sun, 21 Mar 2021 18:16:46 -0000
-Message-Id: <161635060698.29524.11293833672824456010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
+Date: Sun, 21 Mar 2021 18:22:59 -0000
+Message-Id: <161635097985.32764.16909083582141823465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
+repo: pub/scm/linux/kernel/git/tytso/ext4
 user: tytso
 changes:
-  - ref: refs/heads/master
-    old: 05052f21dd0b30f474efacf2023bcf6599f66f4e
-    new: d69441ab2fe694a374ad032e8b6a7df3d041883d
-    log: |
-         d69441ab2fe694a374ad032e8b6a7df3d041883d {android,gce,kvm}-xfstests: add the install-kconfig command
-         
+  - ref: refs/tags/ext4_for_linus_stable
+    old: 37b324d4d1c4783f0c97d38ec89f0b4fb4df27ef
+    new: 0000000000000000000000000000000000000000
