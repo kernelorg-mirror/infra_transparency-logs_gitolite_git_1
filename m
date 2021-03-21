@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Sun, 21 Mar 2021 22:52:04 -0000
-Message-Id: <161636712499.9250.15105991539754955903@gitolite.kernel.org>
+Date: Sun, 21 Mar 2021 23:02:27 -0000
+Message-Id: <161636774773.15269.12489128677699610565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,14 @@ repo: pub/scm/linux/kernel/git/dtor/input
 user: dtor
 changes:
   - ref: refs/heads/master
-    old: 3f17a25b2d868b0d387a5eff4d6d34635e93a7da
-    new: 09fde2078dfa03607ad3b70de90ff56a86203622
+    old: 09fde2078dfa03607ad3b70de90ff56a86203622
+    new: 18c767824daa0fe1a96d497335f5d89c66a5336d
     log: |
-         09fde2078dfa03607ad3b70de90ff56a86203622 dt-bindings: input: atmel,maxtouch: add wakeup-source
+         18c767824daa0fe1a96d497335f5d89c66a5336d Input: rotary-encoder - update docs according to the latest API changes
          
   - ref: refs/heads/next
-    old: 3f17a25b2d868b0d387a5eff4d6d34635e93a7da
-    new: 09fde2078dfa03607ad3b70de90ff56a86203622
+    old: 09fde2078dfa03607ad3b70de90ff56a86203622
+    new: 18c767824daa0fe1a96d497335f5d89c66a5336d
     log: |
-         09fde2078dfa03607ad3b70de90ff56a86203622 dt-bindings: input: atmel,maxtouch: add wakeup-source
+         18c767824daa0fe1a96d497335f5d89c66a5336d Input: rotary-encoder - update docs according to the latest API changes
          
