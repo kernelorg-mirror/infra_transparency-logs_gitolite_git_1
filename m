@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 22 Mar 2021 20:10:19 -0000
-Message-Id: <161644381928.12800.12241248739398227720@gitolite.kernel.org>
+Date: Mon, 22 Mar 2021 20:11:01 -0000
+Message-Id: <161644386188.13165.7145669441877429448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: c2fbd3c542b455d4292c4406bea017c820cf68f3
-    new: 3de43dc98615b15516ec65591ebe28ceb7d8d921
+    old: 3de43dc98615b15516ec65591ebe28ceb7d8d921
+    new: c3c3791ce31eb7b4fa140df20985285516ef99f2
     log: |
-         3de43dc98615b15516ec65591ebe28ceb7d8d921 net: dsa: mv88e6xxx: fix up kerneldoc some more
+         c3c3791ce31eb7b4fa140df20985285516ef99f2 cxgb4: Remove redundant NULL check
          
