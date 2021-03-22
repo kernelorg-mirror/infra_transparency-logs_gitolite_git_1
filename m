@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5688040548273222390=="
+Content-Type: multipart/mixed; boundary="===============5632561292887500596=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 22 Mar 2021 07:56:49 -0000
-Message-Id: <161639980927.27119.4773537213475913016@gitolite.kernel.org>
+Date: Mon, 22 Mar 2021 07:57:02 -0000
+Message-Id: <161639982282.27342.5828714929773886073@gitolite.kernel.org>
 
---===============5688040548273222390==
+--===============5632561292887500596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,54 +16,67 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 2cafd46a714af1e55354bc6dcea9dcc13f9475b5
-    new: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
-    log: revlist-2cafd46a714a-0d02ec6b3136.txt
+  - ref: refs/heads/staging-next
+    old: 21ae24cce84f3384a00f9ba4df26eab19bee666c
+    new: c7f57fd6b7f0a889b0f847611c9075c37dd31810
+    log: revlist-21ae24cce84f-c7f57fd6b7f0.txt
 
---===============5688040548273222390==
+--===============5632561292887500596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616399804 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616399816 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1616399803-9628b13395c2fba8e2bd37b4856cbd4f660fe207
+nonce 1616399816-ab6a5a03e83319d589fb2a2fff1f72d37c4ed20f
 
-2cafd46a714af1e55354bc6dcea9dcc13f9475b5 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b refs/heads/staging-linus
+21ae24cce84f3384a00f9ba4df26eab19bee666c c7f57fd6b7f0a889b0f847611c9075c37dd31810 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBYTbwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Dx8QAIExqqXMZHQ8G1+WWuTH
-m9NR9wlA7kGCCwUUCb7CvbHigsmWlOV23zhqanXHazxDqJHhyt+Uk9pUh5fXbbVT
-KsNY8ildcCGgy9oUgUvPWlfn71aXRgzGxATljECN4cESLrgb3354wWG2PAR+vjhK
-Y0StrReZS5mj32XrsCf2U8VxSvXelpbSC6/33mqHEcxEyo6A/WifOAZWP8FHO6zq
-t46NYo/FVrdBDiPKjH+rA8vJ+ZQo1wBlIW/iZgl30/GTkGNrwAoXQID1umtkP8NE
-NZd221WSACCWvwyFe57zdFRTTdPiPnyFbC7Y4J9f92i1ADjLEXxpiqDOmWLGxKzx
-BKmChEX/bJ9216lz5sSdtx70AvOAJHffIe6Z5otAQx2h0huSqbxuoUR6/sZhprUN
-CcCw+z0qbKYIfVH4/sO4zagG8iTE0UR/AZx/NMa3WL0kKVKgonfp8eBTw0amH5VT
-YfA8yEoqenODROeaGlY6gmTiZaiMVu+p2rq6m1eBDUiuZen0Hrcfsp/MondjV1Md
-wNnYvlGZEV2gLfdpemaaA4AlweBbAYFJkdEgabVq7lzMPRLw3CGAimR9B5BB7ta8
-LL0j3TzimyXMclDQjkY2iWzbppt37BuFgmnRKDIrfdW2ULSZhrW9KPxWAL1246eI
-DTyTKgrCXLwWoy5bN5NtInRq
-=ag9K
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBYTcgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TasP/jCxFUIM/HBj4/rp7Q8t
+tFBgZR1Z1mBWbKLAL4kMJTKehPor1iF99OMy+RqR1/VJUYSpk/bPIIR7TAttyFFo
+9yGmJ66Xisa/1mMBSSHH3yz+kqQhQIMDU/x0UlT9sK0EbzJZdOOxeZZX6hx8DWlg
+pLTysLPTNwdsOd4rpEB2kUGzV60x6LUOA15IyYDn3N5d1Z61I+NIzQ9qzTDHaEvv
+5aRcDZTRUx2DjDYPwyovJwD6ky4EVJx4bdBSJHrnSv/LA1Sv88MGj7V4TaZwA3iS
+DY9Y64cDiiL5305fhkpiHtTTVGK3ibC2VB3qX0yv4Qz7GpM3lfCkPAkjVjVgs1/t
+ibKTNzDstpG5s0vSzKzG4afWc865KPpZoDXAribaQwopDKjIZpETcK1U5kwQhqkY
+sLIPxb06msQwzycUTKAVOIhxRv27uAPjxJOBFVEiw+EeRmfjQ8kfPGQL4Z6bkIIV
+7YNGbUxzJj1yxqb0oIOGC2FZXliLQ4BKLm967pPYlLrz/cVt7dB79wyNekx7HL0g
+vmjBvAZp13yncmRizX9TKQLW2MdfDr3KhXFKlJwG4xPVDmHmgwMgxHDXVYLpBFkD
+1PqTFbWw5IC5FCJwAbzKexmy9BifT/c0raKrDyvcJoqs6hDv5DykYs6oyuBvlLuP
+mv/ReHxix+4AQAkDmxtQ5HhA
+=MT2J
 -----END PGP SIGNATURE-----
 
---===============5688040548273222390==
+--===============5632561292887500596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2cafd46a714a-0d02ec6b3136.txt
+Content-Disposition: attachment; filename=revlist-21ae24cce84f-c7f57fd6b7f0.txt
 
+7d200b283aa049fcda0d43dd6e03e9e783d2799c iio:adc:qcom-spmi-vadc: add default scale to LR_MUX2_BAT_ID channel
+d68c592e02f6f49a88e705f13dfc1883432cf300 iio: hid-sensor-prox: Fix scale not correct issue
+f890987fac8153227258121740a9609668c427f3 iio: adc: ad7949: fix wrong ADC result due to incorrect bit mask
+be24c65e9fa2486bb8ec98d9f592bdcf04bedd88 iio: adc: adi-axi-adc: add proper Kconfig dependencies
+a71266e454b5df10d019b06f5ebacd579f76be28 iio: adis16400: Fix an error code in adis16400_initial_setup()
+121875b28e3bd7519a675bf8ea2c2e793452c2bd iio:adc:stm32-adc: Add HAS_IOMEM dependency
+4f5434086d9223f20b3128a7dc78b35271e76655 iio: adc: ab8500-gpadc: Fix off by 10 to 3
 f00bdce0455233a0b76dae6364442dca717a574c vdpa: set the virtqueue num during register
+fae6f62e6a580b663ecf42c2120a0898deae9137 counter: stm32-timer-cnt: Report count function when SLAVE_MODE_DISABLED
 775c5033a0d164622d9d10dd0f0a5531639ed3ed fuse: fix live lock in fuse_iget()
 3f9b9efd82a84f27e95d0414f852caf1fa839e83 virtiofs: Fail dax mount if device does not support it
+e4c3e133294c0a292d21073899b05ebf530169bd counter: stm32-timer-cnt: fix ceiling write max value
+b14d72ac731753708a7c1a6b3657b9312b6f0042 counter: stm32-timer-cnt: fix ceiling miss-alignment with reload register
 efc61345274d6c7a46a0570efbc916fcbe3e927b ext4: shrink race window in ext4_should_retry_alloc()
 163f0ec1df33cf468509ff38cbcbb5eb0d7fac60 ext4: add reclaim checks to xattr code
 f91436d55a279f045987e8b8c1385585dca54be9 fs/ext4: fix integer overflow in s_log_groups_per_flex
 c915fb80eaa6194fa9bd0a4487705cd5b0dda2f1 ext4: fix bh ref count on error paths
+37e89e574dc238a4ebe439543c5ab4fbb2f0311b iio: hid-sensor-humidity: Fix alignment issue of timestamp channel
+141e7633aa4d2838d1f6ad5c74cccc53547c16ac iio: hid-sensor-temperature: Fix issues of timestamp channel
+6dbbbe4cfd398704b72b21c1d4a5d3807e909d60 iio: gyro: mpu3050: Fix error handling in mpu3050_trigger_handler
 d30881f573e565ebb5dbb50b31ed6106b5c81328 nfsd: Don't keep looking up unhashed files in the nfsd file cache
 6820bf77864d5894ff67b5c00d7dba8f92011e3d svcrdma: disable timeouts on rdma backchannel
 7005227369079963d25fb2d5d736d0feb2c44cf6 fs: nfsd: fix kconfig dependency warning for NFSD_V4
@@ -155,6 +168,7 @@ f6d54255f4235448d4bbe442362d4caa62da97d5 io_uring: halt SQO submission on ctx ex
 9e138a48345427fa42f6076396ea069cebf3c08f io_uring: fix concurrent parking
 9b46571142e47503ed4f3ae3be5ed3968d8cb9cc io_uring: add generic callback_head helpers
 b7f5a0bfe2061b2c7b2164de06fa4072d7373a45 io_uring: fix sqpoll cancellation via task_work
+12ec5408d2135bfcdec14ff7e4248f1be8597f31 Merge tag 'iio-fixes-for-5.12a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-linus
 d336f7ebc65007f5831e2297e6f3383ae8dbf8ed xfs: force log and push AIL to clear pinned inodes when aborting mount
 08a204387e8063ba7375481281701137bd553dee docs: ABI: Fix the spelling oustanding to outstanding in the file sysfs-fs-xfs
 8723d5ba8bdae1c41be7a6fc8469dc9aa551e7d0 xfs: also reject BULKSTAT_SINGLE in a mount user namespace
@@ -183,6 +197,10 @@ ebfd68cd0c1e81267c757332385cb96df30dacce zonefs: Fix O_APPEND async write handli
 6cb59afe9e5b45a035bd6b97da6593743feefc72 gpiolib: Assign fwnode to parent's if no primary one provided
 d9bb77d51e668a1a6d4530c1ea471574d0ce465f btrfs: subpage: fix wild pointer access during metadata read failure
 60484cd9d50117017cf53d5310c6cd629600dc69 btrfs: subpage: make readahead work properly
+f8d70fd6a5a7a38a95eb8021e00d2e547f88efec MAINTAINERS: move some real subsystems off of the staging mailing list
+e06da9ea3e3f6746a849edeae1d09ee821f5c2ce MAINTAINERS: move the staging subsystem to lists.linux.dev
+2e5848a3d86f03024ae096478bdb892ab3d79131 staging: comedi: cb_pcidas: fix request_irq() warn
+d2d106fe3badfc3bf0dd3899d1c3f210c7203eab staging: comedi: cb_pcidas64: fix request_irq() warn
 8ca88d53351cc58d535b2bfc7386835378fb0db2 ASoC: simple-card-utils: Do not handle device clock
 dbf54a9534350d6aebbb34f5c1c606b81a4f35dd ASoC: rt5659: Update MCLK rate in set_sysclk()
 899b12542b0897f92de9ba30944937c39ebb246d ASoC: rt711: add snd_soc_component remove callback
@@ -256,6 +274,7 @@ c4c6df5fc84659690d4391d1fba155cd94185295 nvme-rdma: fix possible hang when faili
 d218a8a3003e84ab136e69a4e30dd4ec7dab2d22 nvmet: don't check iosqes,iocqes for discovery controllers
 bac04454ef9fada009f0572576837548b190bf94 nvmet-tcp: fix kmap leak when data digest in use
 2b8c956ea6ba896ec18ae36c2684ecfa04c1f479 usb: typec: tcpm: Skip sink_cap query only when VDM sm is busy
+2cafd46a714af1e55354bc6dcea9dcc13f9475b5 staging: vt665x: fix alignment constraints
 072a03e0a0b1bc22eb5970727877264657c61fd3 iommu/amd: Move Stoney Ridge check to detect_ivrs()
 9f81ca8d1fd68f5697c201f26632ed622e9e462f iommu/amd: Don't call early_amd_iommu_init() when AMD IOMMU is disabled
 4b8ef157ca832f812b3302b1800548bd92c207de iommu/amd: Keep track of amd_iommu_irq_remap state
@@ -339,5 +358,6 @@ b35660a7cebdf438e01bba05075ae2bcc0125650 Merge tag 'powerpc-5.12-4' of git://git
 2c41fab1c60b02626c8153a1806a7a1e5d62aaf1 Merge tag 'io_uring-5.12-2021-03-21' of git://git.kernel.dk/linux-block
 d7f5f1bd3c240c4d527c0871a38dc3d61255ea9e Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b Linux 5.12-rc4
+c7f57fd6b7f0a889b0f847611c9075c37dd31810 Merge v5.12-rc4 into staging-next
 
---===============5688040548273222390==--
+--===============5632561292887500596==--
