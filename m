@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5929660952956233245=="
+Content-Type: multipart/mixed; boundary="===============3746510770042932834=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 22 Mar 2021 23:50:29 -0000
-Message-Id: <161645702979.25008.15928381274395878060@gitolite.kernel.org>
+Date: Mon, 22 Mar 2021 23:50:32 -0000
+Message-Id: <161645703290.25076.4755388200244699086@gitolite.kernel.org>
 
---===============5929660952956233245==
+--===============3746510770042932834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: ec8136cdcb1531b12c0b896fcc1a930035495c1d
+  - ref: refs/heads/dev-queue
+    old: 80e3cf550932478bca3c799fb36b3a93abf00f56
     new: 0ca99c84df6b589b4673460c48ac4064181098cc
-    log: revlist-ec8136cdcb15-0ca99c84df6b.txt
+    log: revlist-80e3cf550932-0ca99c84df6b.txt
 
---===============5929660952956233245==
+--===============3746510770042932834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec8136cdcb15-0ca99c84df6b.txt
+Content-Disposition: attachment; filename=revlist-80e3cf550932-0ca99c84df6b.txt
 
 390bd141808d5019506f0f53a777c3b9cb7c5c62 ice: Add more basic protocol support for flow filter
 b199dddbd399536d5470e10e6bfd7d0e1b5fb71a ice: Support non word aligned input set field
@@ -57,4 +57,4 @@ b54eb093f5ce784ca00170d4512c47cdc755397e dpaa2-switch: add support for configuri
 b175dfd7e691ba264d190f23197cc29d0ba8bc67 dpaa2-switch: mark skbs with offload_fwd_mark
 0ca99c84df6b589b4673460c48ac4064181098cc Merge branch 'dpaa2-switch-offload-port-flags'
 
---===============5929660952956233245==--
+--===============3746510770042932834==--
