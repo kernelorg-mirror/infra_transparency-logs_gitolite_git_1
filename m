@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2272761882136838458=="
+Content-Type: multipart/mixed; boundary="===============7072139812732209409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 22 Mar 2021 07:59:05 -0000
-Message-Id: <161639994552.28246.8573481467982658256@gitolite.kernel.org>
+Date: Mon, 22 Mar 2021 07:59:19 -0000
+Message-Id: <161639995901.28332.15970576654305604665@gitolite.kernel.org>
 
---===============2272761882136838458==
+--===============7072139812732209409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
+  - ref: refs/heads/usb-linus
+    old: 2b8c956ea6ba896ec18ae36c2684ecfa04c1f479
     new: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
-    log: revlist-1e28eed17697-0d02ec6b3136.txt
+    log: revlist-2b8c956ea6ba-0d02ec6b3136.txt
 
---===============2272761882136838458==
+--===============7072139812732209409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616399940 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616399954 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1616399939-041e9a7088b05a5278dbe305d7ca9e41bcef6b98
+nonce 1616399952-d1a15df89038c19e20bb1e3447a01c8a7127bfcf
 
-1e28eed17697bcf343c6743f0028cc3b5dd88bf0 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b refs/heads/main
+2b8c956ea6ba896ec18ae36c2684ecfa04c1f479 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBYTkQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+as0QAIPUf/sz5+f5ewHp6Y4z
-1rFr4wBta0SYQ8lfBg5Usbvt2BcLJGjeqx2uRuSJsIujIwatB/UYuUdy6Y+PLNyK
-xAnRqiyonDaSM0azHSh+73it63FE2XJa7Uq45Xj4Asi05oj5gVgLnTTIgd0rG209
-FfzvSPFEV70K/6pLayzZ0ybwymCc4QIERm7h+NJ0BRLD/Vsm+Bgo3SVticUT4iR3
-pCdVsEOObNYUSUIBZCETQrD4Dv9VQmCOkCZGzw5LRZ1MfBDfabizxXTqBJtajcmt
-jk9JptPWxHl/Qg1eThY/+cGVs+mzDCSlH14EBu2WNgpvSPNgdieiFYK1SilvvJVS
-Xqwr+LXHcRsj5QIHwUHS//5Bph9qbKUJrWiZRwLlzACfiuclFSYT8Hca4A0jliKm
-uQqBoSsxSaojUv5uFy7j+sS4ec1aEMxKmk+V94d69TQ7SrI0g7p7ODzxtU4+qrpg
-odP8XIzvZBPQodbDO0VAv+cdzdS0zBwqF23dTUYYSi9/hPom9LuEuoEeRd4RBCBn
-qAtysBZ1WAyAHxQONi8twz5xyb+MhsSulOH5+pqodSe3Yqt5RyA4Xtx5EfkrAuv2
-RKc9SSXCGz2Zj2qpFruSORBPWupJV13TBBzlnhzqFa757fq4ih7DiWGv3Uqc3abk
-GSQ1cZGUxAXRI4BzOPUJuAMM
-=zaS9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBYTlIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U94QALoTu3gDP7zsE3/XyROV
+OID+U4sYTKBY2BR0UShikOYEWrlGEMy9l36PwrS0xK9euf61hfCRaGvX6zMj8qK9
+5UUQSg3dg+dWXso6tps3/MXe52nIzrQImnb+m4nMXHPbkwrPytPKxWhUiJmZEmva
+NVe5OOKNMN2f81fhaVosrJy7QKtUdYVJWc9h5oY0uBULCZ5DyxLnYZrIGKNHt0xk
+0bBT59EcVhIA8HaPcCycMNYhuidQJeg74c2Tyxm50GdIIibJz/wUNaHkNDXCMSSW
+ongNW8b4YRWBcRHZMUUxJY1p97rxyaf+QlFuDTGZw0zjRtcPmydOzm5MUiW9wk2N
+2E1vW71b47moMKvwSBZ+w8p5l9EsXxlHISVk+2gjH+5gqKq11UEjiuLsz6Vb1wUu
+Aj7URtgy/vRzLeLdAJk6Mc/SCbvffVCsW2h6kPIsh2SSB8zbu7H++5Y1MMc90FHt
+qkyPC0OUbfpezHtTHmF3WsvDWhgzliWjIqy4XniD+myUCo8b44L4cY6BrYlqTzrU
+hWIgGieY0Z4mGi8dZagTdvWHhKvoGFwukgge7OQ9dIuL7WNW7sT/cxSlE2V91bif
+l7KCjlCHZKFhgo2yvgJ9mm9nX4MPb0UAgRo7CDvmplek8Yas+5s224AVZXBFbkIG
+pwGBiZhdi53nwLBf0eSfda6A
+=HsbE
 -----END PGP SIGNATURE-----
 
---===============2272761882136838458==
+--===============7072139812732209409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e28eed17697-0d02ec6b3136.txt
+Content-Disposition: attachment; filename=revlist-2b8c956ea6ba-0d02ec6b3136.txt
 
 7d200b283aa049fcda0d43dd6e03e9e783d2799c iio:adc:qcom-spmi-vadc: add default scale to LR_MUX2_BAT_ID channel
 d68c592e02f6f49a88e705f13dfc1883432cf300 iio: hid-sensor-prox: Fix scale not correct issue
@@ -84,8 +84,6 @@ bfdd89f232aa2de5a4b3fc985cba894148b830a8 nfsd: don't abort copies early
 c7de87ff9dac5f396f62d584f3908f80ddc0e07b NFSD: Repair misuse of sv_lock in 5.10.16-rt30.
 f1442d6349a2e7bb7a6134791bdc26cb776c79af sunrpc: fix refcount leak for rpc auth modules
 0ddc942394013f08992fc379ca04cffacbbe3dae rpc: fix NULL dereference on kmalloc failure
-781e14eaa7d168dc07d2a2eea5c55831a5bb46f3 thunderbolt: Initialize HopID IDAs in tb_switch_alloc()
-c94732bda079ee66b5c3904cbb628d0cb218ab39 thunderbolt: Increase runtime PM reference count on DP tunnel discovery
 4aa5e002034f0701c3335379fd6c22d7f3338cce Revert "nfsd4: remove check_conflicting_opens warning"
 6ee65a773096ab3f39d9b00311ac983be5bdeb7c Revert "nfsd4: a client's own opens needn't prevent delegations"
 5808fecc572391867fcd929662b29c12e6d08d81 iomap: Fix negative assignment to unsigned sis->pages in iomap_swapfile_activate
@@ -145,7 +143,6 @@ dd7b836d6bc935df95c826f69ff4d051f5561604 ALSA: dice: fix null pointer dereferenc
 8d06b9633a66f41fed520f6eebd163189518ba79 ASoC: mediatek: mt8192: fix tdm out data is valid on rising edge
 15b2219facadec583c24523eed40fa45865f859f kernel: freezer should treat PF_IO_WORKER like PF_KTHREAD for freezing
 16efa4fce3b7af17bb45d635c3e89992d721e0f3 io_uring: allow IO worker threads to be frozen
-d0dcd90b7f472691de122515eb0d1765808b6d91 usb: cdnsp: Fixes incorrect value in ISOC TRB
 e1c86210fe27428399643861b81b080eccd79f87 ALSA: hda/realtek: Apply headset-mic quirks for Xiaomi Redmibook Air
 da98b54d02981de5b07d8044b2a632bf6ba3ac45 virtio-mmio: Use to_virtio_mmio_device() to simply code
 bc22ed2ea1121f9d9ba3f85c524cb857d54a2d00 virtio: remove export for virtio_config_{enable, disable}
@@ -159,7 +156,6 @@ f6bbf0010ba004f5e90c7aefdebc0ee4bd3283b9 vhost-vdpa: fix use-after-free of v->co
 0bde59c1723a29e294765c96dbe5c7fb639c2f96 vhost-vdpa: set v->config_ctx to NULL if eventfd_ctx_fdget() fails
 5171317dfd9afcf729799d31fffdbb9e71e45402 cifs: update new ACE pointer after populate_new_aces.
 05946d4b7a7349ae58bfa2d51ae832e64a394c2d cifs: Fix preauth hash corruption
-132da018fa3290addede3b269100efb1b7d74c92 Merge tag 'thunderbolt-for-v5.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 6c5403173a13a08ff61dbdafa4c0ed4a9dedbfe0 drm/ttm: make ttm_bo_unpin more defensive
 efe814a471e0e58f28f1efaf430c8784a4f36626 io_uring: fix ->flags races by linked timeouts
 180f829fe4026bd192447d261e712b6cb84f6202 io_uring: fix complete_post use ctx after free
@@ -190,7 +186,6 @@ c8c165dea4c8f5ad67b1240861e4f6c5395fa4ac scsi: st: Fix a use after free in st_op
 5999b9e5b1f8a2f5417b755130919b3ac96f5550 scsi: qla2xxx: Fix broken #endif placement
 19f1bc7edf0f97186810e13a88f5b62069d89097 scsi: lpfc: Fix some error codes in debugfs
 ca6883393f0fa7f13ec8b860dbcef423a759c4a2 ALSA: hda/realtek: fix mute/micmute LEDs for HP 840 G8
-eb9238e53717a46191db2d3bc5c18b13b6c8cb64 Merge tag 'usb-v5.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
 e7d66cf799390166e90f9a5715f2eede4fe06d51 ALSA: hda/realtek: fix mute/micmute LEDs for HP 440 G8
 1601ea068b886da1f8f8d4e18b9403e9e24adef6 zonefs: prevent use of seq files as swap file
 ebfd68cd0c1e81267c757332385cb96df30dacce zonefs: Fix O_APPEND async write handling
@@ -255,12 +250,6 @@ bee645788e07eea63055d261d2884ea45c2ba857 locking/ww_mutex: Fix acquire/release i
 35d8c39d0e52f5230716f61910881b309e4b1a04 Merge tag 'thermal-v5.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/thermal/linux
 e69beeabac6dae8d4318f46c7aa0c70b9599afb1 Merge tag 'mips-fixes_5.12_2' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 6417f03132a6952cd17ddd8eaddbac92b61b17e0 module: remove never implemented MODULE_SUPPORTED_DEVICE
-9858af27e69247c5d04c3b093190a93ca365f33d usbip: Fix incorrect double assignment to udc->ud.tcp_rx
-98f153a10da403ddd5e9d98a3c8c2bb54bb5a0b6 usb: gadget: configfs: Fix KASAN use-after-free
-546aa0e4ea6ed81b6c51baeebc4364542fa3f3a7 usb-storage: Add quirk to defeat Kindle's automatic unload
-3cac9104bea41099cf622091f0c0538bcb19050d usb: typec: Remove vdo[3] part of tps6598x_rx_identity_reg struct
-86629e098a077922438efa98dc80917604dfd317 usb: typec: tcpm: Invoke power_supply_changed for tcpm-source-psy-
-f09ddcfcb8c569675066337adac2ac205113471f usb: dwc3: gadget: Prevent EP queuing while stopping transfers
 34fa493a565cc6fcee6919787c11e264f55603c6 drm/amd/display: Correct algorithm for reversed gamma
 beb6b2f97e0a02164c7f0df6e08c49219cfc2b80 drm/amd/display: Remove MPC gamut remap logic for DCN30
 ed01fee283a067c72b2d6500046080dbc1bb9dae nvme-fabrics: only reserve a single tag
@@ -273,7 +262,6 @@ bb83337058a7000644cdeffc67361d2473534756 nvme-tcp: fix misuse of __smp_processor
 c4c6df5fc84659690d4391d1fba155cd94185295 nvme-rdma: fix possible hang when failing to set io queues
 d218a8a3003e84ab136e69a4e30dd4ec7dab2d22 nvmet: don't check iosqes,iocqes for discovery controllers
 bac04454ef9fada009f0572576837548b190bf94 nvmet-tcp: fix kmap leak when data digest in use
-2b8c956ea6ba896ec18ae36c2684ecfa04c1f479 usb: typec: tcpm: Skip sink_cap query only when VDM sm is busy
 2cafd46a714af1e55354bc6dcea9dcc13f9475b5 staging: vt665x: fix alignment constraints
 072a03e0a0b1bc22eb5970727877264657c61fd3 iommu/amd: Move Stoney Ridge check to detect_ivrs()
 9f81ca8d1fd68f5697c201f26632ed622e9e462f iommu/amd: Don't call early_amd_iommu_init() when AMD IOMMU is disabled
@@ -359,4 +347,4 @@ b35660a7cebdf438e01bba05075ae2bcc0125650 Merge tag 'powerpc-5.12-4' of git://git
 d7f5f1bd3c240c4d527c0871a38dc3d61255ea9e Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b Linux 5.12-rc4
 
---===============2272761882136838458==--
+--===============7072139812732209409==--
