@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4167339726111473696=="
+Content-Type: multipart/mixed; boundary="===============2797088872003442893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 22 Mar 2021 21:50:35 -0000
-Message-Id: <161644983567.14185.3670430854396385044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 22 Mar 2021 21:50:41 -0000
+Message-Id: <161644984179.14307.924379137840866318@gitolite.kernel.org>
 
---===============4167339726111473696==
+--===============2797088872003442893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
 
---===============4167339726111473696==
+--===============2797088872003442893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -277,4 +277,4 @@ d7f5f1bd3c240c4d527c0871a38dc3d61255ea9e Merge tag 'ext4_for_linus_stable' of gi
 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b Linux 5.12-rc4
 84196390620ac0e5070ae36af84c137c6216a7dc Merge tag 'selinux-pr-20210322' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 
---===============4167339726111473696==--
+--===============2797088872003442893==--
