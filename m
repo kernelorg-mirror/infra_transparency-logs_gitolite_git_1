@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4462428165037107680=="
+Content-Type: multipart/mixed; boundary="===============5305154407796482103=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 22 Mar 2021 16:57:13 -0000
-Message-Id: <161643223344.17234.587406418705573111@gitolite.kernel.org>
+Date: Mon, 22 Mar 2021 16:57:38 -0000
+Message-Id: <161643225807.17466.5247287791926190038@gitolite.kernel.org>
 
---===============4462428165037107680==
+--===============5305154407796482103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.13
+  - ref: refs/heads/for-next
     old: 88cc16b9b3ac9b1f0dbd76606eddc8b8eafc946f
     new: c962a55c4bcd7f874165ca549c2157a396d5036e
     log: revlist-88cc16b9b3ac-c962a55c4bcd.txt
+  - ref: refs/tags/v5.12-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a6d574dee98b6bc676391ba747e348b7705732c0
+  - ref: refs/tags/v5.12-rc4
+    old: 0000000000000000000000000000000000000000
+    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
 
---===============4462428165037107680==
+--===============5305154407796482103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1007,4 +1013,4 @@ ec0eab7ee4730b6827141cb1f021a49d5580e2c1 dm thin: remove needless request_queue 
 1af4654885ace6b6077983eca54bacd1d0bce196 dm cache: remove needless request_queue NULL pointer checks
 c962a55c4bcd7f874165ca549c2157a396d5036e dm persistent data: remove unused return from exit_shadow_spine()
 
---===============4462428165037107680==--
+--===============5305154407796482103==--
