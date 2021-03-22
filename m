@@ -1,38 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============7308489845310565630=="
+Content-Type: multipart/mixed; boundary="===============6409142262235742647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 22 Mar 2021 15:22:15 -0000
-Message-Id: <161642653558.19961.11328099564529925766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 22 Mar 2021 15:22:24 -0000
+Message-Id: <161642654413.20114.14885107372423850884@gitolite.kernel.org>
 
---===============7308489845310565630==
+--===============6409142262235742647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
     new: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
     log: revlist-1e28eed17697-0d02ec6b3136.txt
-  - ref: refs/heads/rdma-next
-    old: 63baf41873939a0a4e4ddd86ca70aeeda21e4276
-    new: a586ee1f22f2742abf831d9ec370337a2cffbc30
-    log: revlist-63baf4187393-a586ee1f22f2.txt
-  - ref: refs/heads/testing/rdma-next
-    old: 4c232bcfe6befe8cad5359c107c2cdf87f1a7f95
-    new: 0210cf4fd7f8ac6d6c76d3ba021e94cf834f0f5b
-    log: revlist-4c232bcfe6be-0210cf4fd7f8.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: 550ef36e93705f141522118aac7a06a0de34abe7
-    new: 6b6d419ed3a6da394f36113e0d250adec3a6c6b4
-    log: revlist-550ef36e9370-6b6d419ed3a6.txt
+  - ref: refs/heads/queue-next
+    old: 81a5ce7b0ee9ea2fae89e43379a6d65db332617b
+    new: 5881c83cedba9200702d111c76053a8bb3d78704
+    log: revlist-81a5ce7b0ee9-5881c83cedba.txt
+  - ref: refs/heads/queue-rc
+    old: a98122d87416b890b4a4116450e519e5dc174ec9
+    new: fd78d78c28f73685b09c35bfbfabce63c6905084
+    log: revlist-a98122d87416-fd78d78c28f7.txt
 
---===============7308489845310565630==
+--===============6409142262235742647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -340,35 +336,11 @@ b35660a7cebdf438e01bba05075ae2bcc0125650 Merge tag 'powerpc-5.12-4' of git://git
 d7f5f1bd3c240c4d527c0871a38dc3d61255ea9e Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b Linux 5.12-rc4
 
---===============7308489845310565630==
+--===============6409142262235742647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63baf4187393-a586ee1f22f2.txt
-
-aaa3890e706baa74b6e64dfc9915dfa570f16715 RDMA/mlx5: Expose private query port
-66568633ee3063080b18ee0f6003bf10b6c83d45 RDMA: Fix kernel-doc compilation warnings
-7bcd9e715e6e23f494035a22ba9fc878c968fa3f RDMA: Delete not-used static inline functions
-dc9ba811bbc4252148608dd268141798dd5b4784 RDMA/mlx5: Add missing returned error check of mlx5_ib_dereg_mr
-4b30f804d6939184e2c455538d5e6dacdc0189b9 RDMA/mlx5: Set ODP caps only if device profile support ODP
-a5036bc41ee7cb66a5f87c6b278221958f2d9bf9 module: remove never implemented MODULE_SUPPORTED_DEVICE
-dd6fe68a45bdf1ae0d15c692de6ad1c852457ea8 RDMA: Add access flags to ib_alloc_mr() and ib_mr_pool_init()
-9d06e0e17055d577512c52f31eaf4db1bedcb985 RDMA/core: Enable Relaxed Ordering in __ib_alloc_pd()
-5e1018c6cbe1bdd0cf3d93e0fcca453fda1327ca RDMA/iser: Enable Relaxed Ordering
-7d7dbe27316811d96b66ff8aeb1b113040f700d1 RDMA/rtrs: Enable Relaxed Ordering
-c141a71f2030af8e8d490375140a35017e6ad681 RDMA/srp: Enable Relaxed Ordering
-f373256f55cd34ebe908f028afda8f5ed7fde154 nvme-rdma: Enable Relaxed Ordering
-00494bac881cff97ba3bac072945fd0559982df6 cifs: smbd: Enable Relaxed Ordering
-26b99ddadb89eab9b6b5998f10702587653a0efa net/rds: Enable Relaxed Ordering
-5856adcda94bf49bbbb3b3544d28a4fbace47e7f net/smc: Enable Relaxed Ordering
-f03a5534f799a00a52ed5f41f16d063662df949d xprtrdma: Enable Relaxed Ordering
-a586ee1f22f2742abf831d9ec370337a2cffbc30 RDMA/cma: Skip device which doesn't support CM
-
---===============7308489845310565630==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c232bcfe6be-0210cf4fd7f8.txt
+Content-Disposition: attachment; filename=revlist-81a5ce7b0ee9-5881c83cedba.txt
 
 7d200b283aa049fcda0d43dd6e03e9e783d2799c iio:adc:qcom-spmi-vadc: add default scale to LR_MUX2_BAT_ID channel
 d68c592e02f6f49a88e705f13dfc1883432cf300 iio: hid-sensor-prox: Fix scale not correct issue
@@ -690,12 +662,13 @@ f03a5534f799a00a52ed5f41f16d063662df949d xprtrdma: Enable Relaxed Ordering
 a586ee1f22f2742abf831d9ec370337a2cffbc30 RDMA/cma: Skip device which doesn't support CM
 6b6d419ed3a6da394f36113e0d250adec3a6c6b4 Merge branch 'master' into testing/rdma-rc
 0210cf4fd7f8ac6d6c76d3ba021e94cf834f0f5b Merge branch 'rdma-next' into testing/rdma-next
+5881c83cedba9200702d111c76053a8bb3d78704 Merge branch 'testing/rdma-next' into queue-next
 
---===============7308489845310565630==
+--===============6409142262235742647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-550ef36e9370-6b6d419ed3a6.txt
+Content-Disposition: attachment; filename=revlist-a98122d87416-fd78d78c28f7.txt
 
 7d200b283aa049fcda0d43dd6e03e9e783d2799c iio:adc:qcom-spmi-vadc: add default scale to LR_MUX2_BAT_ID channel
 d68c592e02f6f49a88e705f13dfc1883432cf300 iio: hid-sensor-prox: Fix scale not correct issue
@@ -999,5 +972,6 @@ b35660a7cebdf438e01bba05075ae2bcc0125650 Merge tag 'powerpc-5.12-4' of git://git
 d7f5f1bd3c240c4d527c0871a38dc3d61255ea9e Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b Linux 5.12-rc4
 6b6d419ed3a6da394f36113e0d250adec3a6c6b4 Merge branch 'master' into testing/rdma-rc
+fd78d78c28f73685b09c35bfbfabce63c6905084 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============7308489845310565630==--
+--===============6409142262235742647==--
