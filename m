@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 22 Mar 2021 18:20:40 -0000
-Message-Id: <161643724075.7059.14325961570587479891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 22 Mar 2021 18:29:51 -0000
+Message-Id: <161643779196.11151.12968225444328360341@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 7c491595c3d24cfaeffb094fb2d639e7b76fb2e0
-    new: 5d0a31ea29408e96120935c5be46642f3f3b345f
+  - ref: refs/heads/master
+    old: d773b7957e4fd7b732a163df0e59d31ad4237302
+    new: a1e6f641e3075fa83403c699e64623ae272080e2
     log: |
-         12da5cf2a2566b9f23edae6945a48b011fd67964 net/mlx5: Don't allow health work when device is probing
-         597842cef62b240e12f167aa77fdc932600f1c2b Revert "net/mlx5: Fix fatal error handling during device load"
-         f3e5f77b0dccb72832058f180f5a1b2a0ae390af net/mlx5: SF: Fix memory leak of work item
-         b79dc1daae75c0f94be9fc9aa26307dd24888c93 net/mlx5: SF: Fix error flow of SFs allocation flow
-         07daa5f22eadd397a8d45624c541793a6002d94c net/mlx5e: Enforce minimum value check for ICOSQ size
-         fceef0f20ae0963b9931426f151f4021d10ef15b net/mlx5: DR, Fix potential shift wrapping of 32-bit value in STEv1 getter
-         5d0a31ea29408e96120935c5be46642f3f3b345f net/mlx5e: alloc the correct size for indirection_rqt
+         b29648ad5b2ade03edd3f4364b5616b07d74abe4 net: decnet: Fixed multiple coding style issues
+         8a81efac9417b7e4b2d3e19442f22dcf727944d5 net: ipa: use configuration data for QSB settings
+         b9aa0805ed31ed95c720f1a0bb606de2988b3ef5 net: ipa: implement MAX_READS_BEATS QSB data
+         8ee5df6598ff3c04f3842c87fa326d7cdbec9dd2 net: ipa: split sequencer type in two
+         1690d8a75d873bf3c45ddce319f4902956d84bb0 net: ipa: sequencer type is for TX endpoints only
+         b259cc2a036fc5cead5e838aa8e0c660299c4eef net: ipa: update some comments in "ipa_data.h"
+         e0e7af0d275c0149bf6bb69f037ed51b1539684c Merge branch 'ipa-cfg-data-updates'
+         dc4aa50b13f1d33fdd813b56bb414714268025ad r8169: add support for ethtool get_ringparam
+         a1e6f641e3075fa83403c699e64623ae272080e2 Revert "net: dsa: sja1105: Clear VLAN filtering offload netdev feature"
          
