@@ -1,56 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1057769366698180669=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 22 Mar 2021 12:04:48 -0000
-Message-Id: <161641468871.13452.2045112278286958771@gitolite.kernel.org>
-
---===============1057769366698180669==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 22 Mar 2021 12:07:57 -0000
+Message-Id: <161641487784.15885.8588994150246959653@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 18476e1052a4fcbe8d3fda738dc2bf8d013e744c
-    new: 0f1065d1238dd95907b473143d2f7d9805229f5d
+  - ref: refs/heads/main
+    old: 3568f962908cd9be9128de5cb732f4f58880a41f
+    new: c82cb46356fe72832d56554f31c9cd94608a5dd9
     log: |
-         0f1065d1238dd95907b473143d2f7d9805229f5d update genirq patch for older kernels
+         a29bdb2e59be9e3f5a1f3d021e63ab4b05df3468 amdgpu: add initial support for navy flounder
+         4df488ff4f7848ea59aec4e2a74a6de810ab8229 amdgpu: update raven firmware for 20.50
+         1a62f28fe86f97f67bbfc5234e9e05d0fbc95543 amdgpu: update raven2 firmware for 20.50
+         b55d063be51f9521287d08cbb28f93d2c402ddd4 amdgpu: update navi10 firmware for 20.50
+         2542ba7a487ee42e36d0256718ed0fc4fef94f3d amdgpu: update renoir firmware for 20.50
+         b938597b06893cb1deee840a191023d84385afad amdgpu: update vega10 firmware for 20.50
+         25451a4f4292967fac6419f59c4b9f10a87e94ed amdgpu: update navi12 firmware for 20.50
+         b2fc03753bde31196d30bdd2abcee8c6b249f373 amdgpu: update vega12 firmware for 20.50
+         76d07cdb2c98cce959996de27c00a4df7f4d0892 amdgpu: update navi14 firmware for 20.50
+         e05d19798706bf26846406d4af4a0ef7a9ba640c amdgpu: update picasso firmware for 20.50
+         24fe696b95948491eb98108fdd46b1e67aefb6c1 amdgpu: update vega20 firmware for 20.50
+         c82cb46356fe72832d56554f31c9cd94608a5dd9 amdgpu: update sienna cichlid firmware for 20.50
          
-
---===============1057769366698180669==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616414684 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1616414681-fb1ebfbeebc84c070e2b4a0a0ae839407480696f
-
-18476e1052a4fcbe8d3fda738dc2bf8d013e744c 0f1065d1238dd95907b473143d2f7d9805229f5d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBYh9wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KKIP+wc5LrP1b/WV2pH25jvo
-wg0y4KVMAjw6VvhC6nJdNgumEilFDOb/BWa6EZ4DiSoRh0zS8+6brz9AQkZjZCE6
-ZEnBNua888ty44lCii6vOzjUtdELzY2pDFsxOOnJXTgzLXrR7maBapgxm7ab8Xr0
-fh3MXnu55IJ9nCh9tXeJHPeBDwlujl8TR/FJgQnwGS4Mn39sGykROX48QvDFhziW
-ZKjjK8W+zGW60OgPac0G/qZ4pjhQNlADa1m7b3o2rOCg+cfthzrgONvffksu4bj1
-S86zz1pBmZB86Ve0ERGAO7d4D8kCQLU0agqQe+CwyJamKjNi0Q6MkiRaxcTrA3lG
-+mr566KFn5KYlhpg+ncXdLal4s9vR2SQAvZLTz3qc9BHNViwMjnEJKa/NTiSh55Q
-8R+fJ30lPubm6M8iNSPfBXVFu4QHpQJv/bd1xPPGhlJF6PUr2aeDnnU6sw/D2N+V
-WuezgqcY8uAiJ5+FF4O4W2mTs6xxXGdAump/7L/IUjQslBwTATT6RkJ/Ko9zathS
-F6uNfh50nrBuWmFeEC/MuWH05h3RClPTXASD9dg04govWwD7zUqFDDCeKkEp6+LN
-6ySToaE+sfZfRDlt4rm5JXhH3R94dlBteGuWnQWNUh42H6roWMYjExvLl4QaJfnT
-eSDlcayZ4bhy1GdtkNNORd0C
-=edVB
------END PGP SIGNATURE-----
-
---===============1057769366698180669==--
