@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 22 Mar 2021 19:16:47 -0000
-Message-Id: <161644060795.10103.12001910721098370570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 22 Mar 2021 19:18:21 -0000
+Message-Id: <161644070147.10665.1567424144807740308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/master
-    old: e7c7e7de41802afb4a192d2c5d729467f3dcb4ca
-    new: 0b38aabde3c2aa9200f54b5463eba7eac7431bd3
+  - ref: refs/heads/next
+    old: 431c3be16bd08728325814320e3603ec3284d542
+    new: ec1ade6a0448e3bfb07bb905aca1bc18836220c7
     log: |
-         af3d0d21a09425ab163f6aece5fd90fc65f858bc wiphy: add getter for 'supports_cmds_auth_assoc'
-         3e3ef284de8e89a97a4b4a6c7f24b7d1c04551fa wiphy: check SAE offload in wiphy_select_akm
-         997c54f185d90925df488aa3557c109a19bf5363 wiphy: check SAE offload in wiphy_can_connect
-         edad26b4be56d81b8535d42614f795155961e272 handshake: add offload flag
-         b17f27f04dd09cfe753ff59d1540798ac5de89dd netdev: add SAE offload support
-         0b38aabde3c2aa9200f54b5463eba7eac7431bd3 station: set handshake offload if required
+         69c4a42d72eb9b41e1c6e4bc9ab7f3650bf35f62 lsm,selinux: add new hook to compare new mount to an existing mount
+         8c6d76a3144154773339be5e29c8bf42586dc3d1 nfs: remove unneeded null check in nfs_fill_super()
+         ec1ade6a0448e3bfb07bb905aca1bc18836220c7 nfs: account for selinux security context when deciding to share superblock
          
