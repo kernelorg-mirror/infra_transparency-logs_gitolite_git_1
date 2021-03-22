@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4738826334531323192=="
+Content-Type: multipart/mixed; boundary="===============7416936631178842005=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 22 Mar 2021 02:29:48 -0000
-Message-Id: <161638018848.21502.14501617021080153997@gitolite.kernel.org>
+Date: Mon, 22 Mar 2021 02:31:28 -0000
+Message-Id: <161638028849.23507.1779300287849387636@gitolite.kernel.org>
 
---===============4738826334531323192==
+--===============7416936631178842005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
-    new: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
-    log: revlist-1e28eed17697-0d02ec6b3136.txt
+  - ref: refs/heads/dev-test
+    old: 49f9e359229ccfb3a8c7df7e6ef793b7fbd3fb52
+    new: 1c56e334e6fcfc1a2aba2d859b89c156aea4957b
+    log: revlist-49f9e359229c-1c56e334e6fc.txt
 
---===============4738826334531323192==
+--===============7416936631178842005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e28eed17697-0d02ec6b3136.txt
+Content-Disposition: attachment; filename=revlist-49f9e359229c-1c56e334e6fc.txt
 
 7d200b283aa049fcda0d43dd6e03e9e783d2799c iio:adc:qcom-spmi-vadc: add default scale to LR_MUX2_BAT_ID channel
 d68c592e02f6f49a88e705f13dfc1883432cf300 iio: hid-sensor-prox: Fix scale not correct issue
@@ -327,5 +327,8 @@ b35660a7cebdf438e01bba05075ae2bcc0125650 Merge tag 'powerpc-5.12-4' of git://git
 2c41fab1c60b02626c8153a1806a7a1e5d62aaf1 Merge tag 'io_uring-5.12-2021-03-21' of git://git.kernel.dk/linux-block
 d7f5f1bd3c240c4d527c0871a38dc3d61255ea9e Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b Linux 5.12-rc4
+9dff37e442d4f680e6a2dc0a82dccf2235f30082 erofs: avoid memory allocation failure during rolling decompression
+caddcc1cf9c2966fb1d24e2128c575505a633629 erofs: use workqueue decompression for atomic contexts only
+1c56e334e6fcfc1a2aba2d859b89c156aea4957b erofs: use sync decompression for atomic contexts only
 
---===============4738826334531323192==--
+--===============7416936631178842005==--
