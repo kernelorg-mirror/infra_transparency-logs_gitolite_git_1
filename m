@@ -1,41 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============7489821353708187672=="
+Content-Type: multipart/mixed; boundary="===============0489858610661789673=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Mon, 22 Mar 2021 13:14:57 -0000
-Message-Id: <161641889757.28604.5260251005257769915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 22 Mar 2021 13:50:05 -0000
+Message-Id: <161642100516.19387.8436510342253522839@gitolite.kernel.org>
 
---===============7489821353708187672==
+--===============0489858610661789673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 30b2675761b8a1a2b6ef56b535ef51b789bb7150
-    new: a61be843e1b115495d79dc0b810e20b3b3f4df0d
-    log: revlist-30b2675761b8-a61be843e1b1.txt
-  - ref: refs/heads/for-next/fixes
-    old: 0710442a88d1c646d37ac83c52de85f456e99171
-    new: 7011d72588d16a9e5f5d85acbc8b10019809599c
+  - ref: refs/heads/for-5.13/io_uring
+    old: 2a25185656843f95da8d4f20cf8736b5ee4d15dd
+    new: 323c02f2db0efb9fd1eab84ec48690cb10e9a53b
+    log: revlist-2a2518565684-323c02f2db0e.txt
+  - ref: refs/heads/io_uring-5.12
+    old: 0b8cfa974dfc964e6382c9e25fa6c1bdac6ef499
+    new: d81269fecb8ce16eb07efafc9ff5520b2a31c486
     log: |
-         c607ab4f916d4d5259072eca34055d3f5a795c21 arm64: stacktrace: don't trace arch_stack_walk()
-         e14a371f732b969d4dc881bdd874c93f1b4fdd30 Documentation: arm64/acpi : clarify arm64 support of IBFT
-         d1296f1265f7ebb66c2bfab387bc1a0f969a5968 arm64: cpuinfo: Fix a typo
-         141f8202cfa4192c3af79b6cbd68e7760bb01b5a arm64: kdump: update ppos when reading elfcorehdr
-         ee7febce051945be28ad86d16a15886f878204de arm64: mm: correct the inside linear map range during hotplug check
-         7011d72588d16a9e5f5d85acbc8b10019809599c kselftest/arm64: sve: Do not use non-canonical FFR register value
+         d07f1e8a42614cc938c9c88866d4474a5a7fee31 io_uring: correct io_queue_async_work() traces
+         b65c128f963df367a8adcfb08f5ecf8721052723 io_uring: don't skip file_end_write() on reissue
+         d81269fecb8ce16eb07efafc9ff5520b2a31c486 io_uring: fix provide_buffers sign extension
          
 
---===============7489821353708187672==
+--===============0489858610661789673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30b2675761b8-a61be843e1b1.txt
+Content-Disposition: attachment; filename=revlist-2a2518565684-323c02f2db0e.txt
 
 e51ea5442996261d4bc3a5b934d27cc0ce6a991c sparc32: don't bother with lookup_fault() in __bzero()
 5f99d33810b00666825784342868240e5790c704 sparc32: kill lookup_fault()
@@ -278,8 +275,6 @@ c915fb80eaa6194fa9bd0a4487705cd5b0dda2f1 ext4: fix bh ref count on error paths
 6dbbbe4cfd398704b72b21c1d4a5d3807e909d60 iio: gyro: mpu3050: Fix error handling in mpu3050_trigger_handler
 a249cc8bc2e2fed680047d326eb9a50756724198 cifs: fix credit accounting for extra channel
 88fd98a2306755b965e4f4567f84e73db3b6738c cifs: ask for more credit on async read/write code paths
-886d0137f104a440d9dfa1d16efc1db06c9a2c02 io-wq: fix race in freeing 'wq' and worker access
-003e8dccdb22712dae388e682182d5f08b32386f io-wq: always track creds for async issue
 3ae0415d0bb401abad1db7468105e3d3756e153f tools headers UAPI: Update tools's copy of drm.h headers
 c2446944b3f588d6a0186f2022a2999c90e0cb63 tools headers UAPI: Sync drm/i915_drm.h with the kernel sources
 1e61463cfcd0b3e7a19ba36b8a98c64ebaac5c6e tools headers UAPI: Sync openat2.h with the kernel sources
@@ -335,16 +330,6 @@ f1442d6349a2e7bb7a6134791bdc26cb776c79af sunrpc: fix refcount leak for rpc auth 
 9e9888a0fe97b9501a40f717225d2bef7100a2c1 efi: stub: omit SetVirtualAddressMap() if marked unsupported in RT_PROP table
 eb602521f43876b3f76c4686de596c9804977228 gfs2: make function gfs2_make_fs_ro() to void type
 1a5a2cfd34c17db73c53ef127272c8c1ae220485 gfs2: fix use-after-free in trans_drain
-2941267bd3dad018de1d51fe2cd996b7bc1e5a5d io_uring: make del_task_file more forgiving
-13bf43f5f4739739751c0049a1582610c283bdde io_uring: introduce ctx to tctx back map
-d56d938b4bef3e1421a42023cdcd6e13c1f50831 io_uring: do ctx initiated file note removal
-eebd2e37e662617a6b8041db75205f0a262ce870 io_uring: don't take task ring-file notes
-baf186c4d345f5a105e63df01100936ad622f369 io_uring: index io_uring->xa by ctx not file
-b5bb3a24f69da92e0ec2a301452364333e45be03 io_uring: warn when ring exit takes too long
-1b00764f09b6912d25e188d972a7764a457926ba io_uring: cancel reqs of all iowq's on ring exit
-678eeba481d8c161203382832a4379d507050aed io-wq: warn on creating manager while exiting
-7c30f36a98ae488741178d69662e4f2baa53e7f6 io_uring: run __io_sq_thread() with the initial creds from io_uring_setup()
-041474885e9707a38fad081abe30159eb6d463f9 io_uring: kill io_sq_thread_fork() and return -EOWNERDEAD if the sq_thread is gone
 dac518707880617a2beaffc01fb1d7adf4b8008a Merge tag 'm68k-for-v5.12-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
 fbda7904302499dd7ffc073a3c84eb7c9275db0a Merge tag 'powerpc-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 3bb48a8506275f4d9e4593acf9f2fc0880a42f73 Merge branch 'parisc-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
@@ -380,6 +365,10 @@ eb441337c7147514ab45036cadf09c3a71e4ce31 gpio: pca953x: Set IRQ type when handle
 b41ba2ec54a70908067034f139aa23d0dd2985ce gpiolib: Read "gpio-line-names" from a firmware node
 781e14eaa7d168dc07d2a2eea5c55831a5bb46f3 thunderbolt: Initialize HopID IDAs in tb_switch_alloc()
 c94732bda079ee66b5c3904cbb628d0cb218ab39 thunderbolt: Increase runtime PM reference count on DP tunnel discovery
+df304c2d0dfd63c40561a8107a217e84fc3515e8 arm64: cpufeatures: Fix handling of CONFIG_CMDLINE for idreg overrides
+cae118b6acc309539b33339e846cbb19187c164c arm64: Drop support for CMDLINE_EXTEND
+07fb6dc327f108937881a096ec6e367a07a7395d arm64/mm: Drop redundant ARCH_WANT_HUGE_PMD_SHARE
+79cc2ed5a716544621b11a3f90550e5c7d314306 arm64/mm: Drop THP conditionality from FORCE_MAX_ZONEORDER
 78a81d88f60ba773cbe890205e1ee67f00502948 x86/sev-es: Introduce ip_within_syscall_gap() helper
 ee2e3f50629f17b0752b55b2566c15ce8dafb557 mount: fix mounting of detached mounts onto targets that reside on shared mounts
 b7dea0cb3d37bc2ee9e7b78722e8729aac7aa1de Merge branch 'cpufreq/arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
@@ -387,6 +376,8 @@ b7dea0cb3d37bc2ee9e7b78722e8729aac7aa1de Merge branch 'cpufreq/arm/fixes' of git
 0a0be72f93571d327c22b4e575467e198d13c0f8 Merge branch 'for-linus-5.12-rc1' into for-linus
 a0590473c5e6c4ef17c3132ad08fbad170f72d55 nfs: fix PNFS_FLEXFILE_LAYOUT Kconfig default
 6654111c893fec1516d83046d2b237e83e0d5967 MIPS: vmlinux.lds.S: align raw appended dtb to 8 bytes
+eeb0753ba27b26f609e61f9950b14f1b934fe429 arm64/mm: Fix pfn_valid() for ZONE_DEVICE based memory
+093bbe211ea566fa828536275e09ee9d75df1f25 arm64/mm: Reorganize pfn_valid()
 ad3dbe35c833c2d4d0bbf3f04c785d32f931e7c9 NFS: Correct size calculation for create reply length
 bf9279cd63dcc144b2a3c4c76d8b6b4c30b05c22 net: dsa: bcm_sf2: simplify optional reset handling
 a4813dc7baa4898f66c84ef68274bbbd1a0ae224 net: ethernet: chelsio: inline_crypto: Mundane typos fixed throughout the file chcr_ktls.c
@@ -439,6 +430,7 @@ cea15316ceee2d4a51dfdecd79e08a438135416c powerpc/64s: Fix instruction encoding f
 545ac14c16b5dbd909d5a90ddf5b5a629a40fa94 x86/sev-es: Check regs->sp is trusted before adjusting #VC IST stack
 62441a1fb53263bda349b6e5997c3cc5c120d89e x86/sev-es: Correctly track IRQ states in runtime #VC handler
 bffe30dd9f1f3b2608a87ac909a224d6be472485 x86/sev-es: Use __copy_from_user_inatomic()
+86c83365ab76e4b43cedd3ce07a07d32a4dc79ba arm64: kasan: fix page_alloc tagging with DEBUG_VIRTUAL
 4aa5e002034f0701c3335379fd6c22d7f3338cce Revert "nfsd4: remove check_conflicting_opens warning"
 6ee65a773096ab3f39d9b00311ac983be5bdeb7c Revert "nfsd4: a client's own opens needn't prevent delegations"
 5808fecc572391867fcd929662b29c12e6d08d81 iomap: Fix negative assignment to unsigned sis->pages in iomap_swapfile_activate
@@ -528,6 +520,10 @@ b1d25e6ee57c2605845595b6c61340d734253eb3 usb: renesas_usbhs: Clear PIPECFG for r
 a758b7c4c6f21f8e117fc8097c56fd9967363c15 virt: acrn: Use EPOLLIN instead of POLLIN
 d5b0e0677bfd5efd17c5bbb00156931f0d41cb85 u64_stats,lockdep: Fix u64_stats_init() vs lockdep
 4817a52b306136c8b2b2271d8770401441e4cf79 seqlock,lockdep: Fix seqcount_latch_init()
+d15dfd31384ba3cb93150e5f87661a76fa419f74 arm64: mte: Map hotplugged memory as Normal Tagged
+07e644885bf6727a48db109fad053cb43f3c9859 kselftest: arm64: Fix exit code of sve-ptrace
+26f55386f964cefa92ab7ccbed68f1a313074215 arm64/mm: Fix __enable_mmu() for new TGRAN range values
+7bb8bc6eb550116c504fb25af8678b9d7ca2abc5 arm64: perf: Fix 64-bit event counter read truncation
 13661fc48461282e43fe8f76bf5bf449b3d40687 ALSA: hda: Flush pending unsolicited events before suspend
 5ff9dde42e8c72ed8102eb8cb62e03f9dc2103ab ALSA: hda: Avoid spurious unsol event handling during S3/S4
 eea46a0879bcca23e15071f9968c0f6e6596e470 ALSA: hda/hdmi: Cancel pending works before suspend
@@ -573,21 +569,6 @@ e92a309be437b761c6972502386ea717c6fed027 Merge series "ASoC: sdm845: array out o
 9e77d96b8e2724ed00380189f7b0ded61113b39f xen/events: reset affinity of 2-level event when tearing it down
 8891123f9cbb9c1ee531e5a87fa116f0af685c48 software node: Fix node registration
 2a92c90f2ecca4475d6050f2f938a1755a8954cc software node: Fix device_add_software_node()
-05962f95f9ac7af25fea037ef51b37c0eccb5590 io_uring: SQPOLL parking fixes
-f458dd8441e56d122ddf1d8e2af0b6ee62f52af9 io_uring: fix unrelated ctx reqs cancellation
-0298ef969a110ca03654f0cea9b50e3f3b331acc io_uring: clean R_DISABLED startup mess
-61cf93700fe6359552848ed5e3becba6cd760efa io_uring: Convert personality_idr to XArray
-cc20e3fec682700b673fcd286e6bef8e9da947e2 io-wq: remove unused 'user' member of io_wq
-97a73a0f9fbfb2be682fd037814576dbfa0e0da8 io_uring: fix io_sq_offload_create error handling
-33cc89a9fc248a486857381584cc6b67d9405fab io_uring: add io_disarm_next() helper
-7a612350a989866510dc5c874fd8ffe1f37555d2 io_uring: fix complete_post races for linked req
-70e35125093b05b0e607ba1f5358ddf76946756c io-wq: fix ref leak for req in case of exit cancelations
-93e68e036c2fc1ce18e784418e4e19975a5882b4 io_uring: move all io_kiocb init early in io_init_req()
-5199328a0d415b3e372633096b1b92f36b8ac9e5 io_uring: remove unneeded variable 'ret'
-e8f98f24549d62cc54bf608c815904a56d4437bc io_uring: always wait for sqd exited when stopping SQPOLL thread
-e22bc9b481a90d7898984ea17621f04a653e2cd1 kernel: make IO threads unfreezable by default
-78d7f6ba82edb7f8763390982be29051c4216772 io_uring: fix invalid ctx->sq_thread_idle
-7d41e8543d809c3c900d1212d6ea887eb284b69a io_uring: remove indirect ctx into sqo injection
 faa44c69daf9ccbd5b8a1aee13e0e0d037c0be17 block: Fix REQ_OP_ZONE_RESET_ALL handling
 df66617bfe87487190a60783d26175b65d2502ce block: rsxx: fix error return code of rsxx_pci_probe()
 c8e2fe13d1d1f3a02842b7b909d4e4846a4b6a2c x86/perf: Use RET0 as default for guest_get_msrs to handle "no PMU" case
@@ -668,14 +649,14 @@ a4a251f8c23518899d2078c320cf9ce2fa459c9f usb: xhci: do not perform Soft Retry fo
 253f588c70f66184b1f3a9bbb428b49bbda73e80 xhci: Improve detection of device initiated wake signal.
 b71c669ad8390dd1c866298319ff89fe68b45653 usb: xhci: Fix ASMedia ASM1042A and ASM3242 DMA addressing
 d26c00e7276fc92b18c253d69e872f6b03832bad xhci: Fix repeated xhci wake after suspend due to uncleared internal wake state
+7ba8f2b2d652cd8d8a2ab61f4be66973e70f9f88 arm64: mm: use a 48-bit ID map when possible on 52-bit VA builds
+30b2675761b8a1a2b6ef56b535ef51b789bb7150 arm64: mm: remove unused __cpu_uses_extended_idmap[_level()]
 d450293c55005a3b0a25d209e981ac425483fead regulator: mt6315: Fix off-by-one for .n_voltages
 ea94191e584b146878f0b7fd4b767500d7aae870 spi: cadence: set cqspi to the driver_data field of struct device
 a8affc03a9b375e19bc81573de0c9108317d78c7 block: rename BIO_MAX_PAGES to BIO_MAX_VECS
 f053cf7aa66cd9d592b0fc967f4d887c2abff1b7 ext4: fix error handling in ext4_end_enable_verity()
 b4250dd868d1b42c0a65de11ef3afbee67ba5d2f NFSD: fix error handling in NFSv4.0 callbacks
 9922f50f7178496e709d3d064920b5031f0d9061 ASoC: qcom: lpass-cpu: Fix lpass dai ids parse
-5c2469e0a22e035d52f3ba768151cc75e3d4a1cd io_uring: force creation of separate context for ATTACH_WQ and non-threads
-d052d1d685f5125249ab4ff887562c88ba959638 io_uring: perform IOPOLL reaping if canceler is thread itself
 4f8be1f53bf615102d103c0509ffa9596f65b718 nfs: we don't support removing system.nfs4_acl
 28806e4d9b97865b450d72156e9ad229f2067f0b Merge tag 'media/v5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 9ec491447b90ad6a4056a9656b13f0b3a1e83043 block: Suppress uevent for hidden device when removed
@@ -695,15 +676,10 @@ c8e3866836528a4ba3b0535834f03768d74f7d8e perf/arm_dmc620_pmu: Fix error return c
 dd7b836d6bc935df95c826f69ff4d051f5561604 ALSA: dice: fix null pointer dereference when node is disconnected
 d5bf630f355d8c532bef2347cf90e8ae60a5f1bd gfs2: bypass signal_our_withdraw if no journal
 d4b64fd702cf08dfcac9e294a10884de51c6af63 Merge tag 'nvme-5.12-2021-03-12' of git://git.infradead.org/nvme into block-5.12
-e1915f76a8981f0a750cf56515df42582a37c4b0 io_uring: cancel deferred requests in try_cancel
-0df8ea602b3fe80819a34361027ad40485e78909 io_uring: remove useless ->startup completion
 8d06b9633a66f41fed520f6eebd163189518ba79 ASoC: mediatek: mt8192: fix tdm out data is valid on rising edge
 0efc4976e3da40b09c592b21f722022d8f12a16b gfs2: bypass log flush if the journal is not live
 7d717558dd5ef10d28866750d5c24ff892ea3778 KVM: arm64: Reject VM creation when the default IPA size is unsupported
 262b003d059c6671601a19057e9fe1a5e7f23722 KVM: arm64: Fix exclusive limit for IPA size
-26984fbf3ad9d1c1fb56a0c1e0cdf9fa3b806f0c io_uring: prevent racy sqd->thread checks
-521d6a737a31c08dbab204a95cd4fb5bee725f0f io_uring: cancel sqpoll via task_work
-58f99373834151e1ca7edc49bc5578d9d40db099 io_uring: fix OP_ASYNC_CANCEL across tasks
 bee7359f65af0c67f3c8a39810619d7e517cac9e Merge branch 'opp/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 7180323227702b46677e51d0da71f452615efd8c Merge branch 'pm-opp'
 6fcd9cbc6a903f48eebaa14657aeccb003f69a3d kvm: x86: annotate RCU pointers
@@ -727,8 +703,6 @@ ce307084c96d0ec92c04fcc38b107241b168df11 Merge tag 'block-5.12-2021-03-12-v2' of
 b6b8aa27a3c64a958c8cc57ce3d37d3fbddfa3d6 Merge branch 'for-v5.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
 f296bfd5cd04cbb49b8fc9585adc280ab2b58624 Merge tag 'nfs-for-5.12-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
 bcbcf50f521843445c9ea320a0569874f88c4b7a kbuild: fix ld-version.sh to not be affected by locale
-15b2219facadec583c24523eed40fa45865f859f kernel: freezer should treat PF_IO_WORKER like PF_KTHREAD for freezing
-16efa4fce3b7af17bb45d635c3e89992d721e0f3 io_uring: allow IO worker threads to be frozen
 d0dcd90b7f472691de122515eb0d1765808b6d91 usb: cdnsp: Fixes incorrect value in ISOC TRB
 34dc2efb39a231280fd6696a59bbe712bf3c5c4a memblock: fix section mismatch warning
 cbf78d85079cee662c45749ef4f744d41be85d48 stop_machine: mark helpers __always_inline
@@ -772,7 +746,6 @@ aa443ac20445ad79afc9aa589727e5d9ee88dc2f vdpa_sim: Skip typecasting from void*
 08c18b63d9656e0389087d1956d2b37fd7019172 powerpc/vdso32: Add missing _restgpr_31_x to fix build failure
 eed5fae00593ab9d261a0c1ffc1bdb786a87a55a powerpc: Force inlining of cpu_has_feature() to avoid build failure
 b470ebc9e0e57f53d1db9c49b8a3de4086babd05 Merge tag 'irqchip-fixes-5.12-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
-9e15c3a0ced5a61f320b989072c24983cb1620c1 io_uring: convert io_buffer_idr to XArray
 50eb842fe517b2765b7748c3016082b484a6dbb8 Merge branch 'akpm' (patches from Andrew)
 9d0c8e793f0eb0613efe81d2cdca8c2efa0ad33c Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 c3c7579f5e3b4826d32af0521e53d5d565ed5a73 Merge tag 'powerpc-5.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
@@ -791,16 +764,8 @@ f6bbf0010ba004f5e90c7aefdebc0ee4bd3283b9 vhost-vdpa: fix use-after-free of v->co
 0bde59c1723a29e294765c96dbe5c7fb639c2f96 vhost-vdpa: set v->config_ctx to NULL if eventfd_ctx_fdget() fails
 5171317dfd9afcf729799d31fffdbb9e71e45402 cifs: update new ACE pointer after populate_new_aces.
 05946d4b7a7349ae58bfa2d51ae832e64a394c2d cifs: Fix preauth hash corruption
-0710442a88d1c646d37ac83c52de85f456e99171 arm64: csum: cast to the proper type
 132da018fa3290addede3b269100efb1b7d74c92 Merge tag 'thunderbolt-for-v5.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 6c5403173a13a08ff61dbdafa4c0ed4a9dedbfe0 drm/ttm: make ttm_bo_unpin more defensive
-efe814a471e0e58f28f1efaf430c8784a4f36626 io_uring: fix ->flags races by linked timeouts
-180f829fe4026bd192447d261e712b6cb84f6202 io_uring: fix complete_post use ctx after free
-09a6f4efaa6536e760385f949e24078fd78305ad io_uring: replace sqd rw_semaphore with mutex
-f6d54255f4235448d4bbe442362d4caa62da97d5 io_uring: halt SQO submission on ctx exit
-9e138a48345427fa42f6076396ea069cebf3c08f io_uring: fix concurrent parking
-9b46571142e47503ed4f3ae3be5ed3968d8cb9cc io_uring: add generic callback_head helpers
-b7f5a0bfe2061b2c7b2164de06fa4072d7373a45 io_uring: fix sqpoll cancellation via task_work
 12ec5408d2135bfcdec14ff7e4248f1be8597f31 Merge tag 'iio-fixes-for-5.12a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-linus
 d336f7ebc65007f5831e2297e6f3383ae8dbf8ed xfs: force log and push AIL to clear pinned inodes when aborting mount
 08a204387e8063ba7375481281701137bd553dee docs: ABI: Fix the spelling oustanding to outstanding in the file sysfs-fs-xfs
@@ -917,10 +882,6 @@ cc9cfddb0433961107bb156fa769fdd7eb6718de KVM: x86: hyper-v: Track Hyper-V TSC pa
 f4df9ee6d7f329d32d756e54f78c084c7e509b24 Merge tag 'asoc-fix-v5.12-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 50b1affc891cbc103a2334ce909a026e25f4c84d ALSA: usb-audio: Fix unintentional sign extension issue
 2c7f76b4c42bd5d953bc821e151644434865f999 selftests: kvm: Add basic Hyper-V clocksources tests
-76cd979f4f38a27df22efb5773a0d567181a9392 io_uring: imply MSG_NOSIGNAL for send[msg]()/recv[msg]() calls
-53e043b2b432ef2294efec04dd8a88d96c024624 io_uring: remove structures from include/linux/io_uring.h
-ee53fb2b197b72b126ca0387ae636da75d969428 io_uring: use typesafe pointers in io_uring_task
-de75a3d3f5a14c9ab3c4883de3471d3c92a8ee78 io_uring: don't leak creds on SQO attach error
 9d3fcb28f9b9750b474811a2964ce022df56336e Revert "PM: ACPI: reboot: Use S5 for reboot"
 83b62687a05205847d627f29126a8fee3c644335 workqueue/tracing: Copy workqueue name to buffer in trace event
 77a3aa26a00fe55325ae2a51d80a56836d1edce8 selftests: kvm: add get_msr_index_features
@@ -989,14 +950,46 @@ b35660a7cebdf438e01bba05075ae2bcc0125650 Merge tag 'powerpc-5.12-4' of git://git
 3001c3554f1dfac3f2561a6b34c5d209e3592dc0 Merge tag 'usb-5.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 1d4345eb51a185b2ecd11834dbddca79cb922eb5 Merge tag 'staging-5.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 2c41fab1c60b02626c8153a1806a7a1e5d62aaf1 Merge tag 'io_uring-5.12-2021-03-21' of git://git.kernel.dk/linux-block
+0b8cfa974dfc964e6382c9e25fa6c1bdac6ef499 io_uring: don't use {test,clear}_tsk_thread_flag() for current
 d7f5f1bd3c240c4d527c0871a38dc3d61255ea9e Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b Linux 5.12-rc4
-c607ab4f916d4d5259072eca34055d3f5a795c21 arm64: stacktrace: don't trace arch_stack_walk()
-e14a371f732b969d4dc881bdd874c93f1b4fdd30 Documentation: arm64/acpi : clarify arm64 support of IBFT
-d1296f1265f7ebb66c2bfab387bc1a0f969a5968 arm64: cpuinfo: Fix a typo
-141f8202cfa4192c3af79b6cbd68e7760bb01b5a arm64: kdump: update ppos when reading elfcorehdr
-ee7febce051945be28ad86d16a15886f878204de arm64: mm: correct the inside linear map range during hotplug check
-7011d72588d16a9e5f5d85acbc8b10019809599c kselftest/arm64: sve: Do not use non-canonical FFR register value
-a61be843e1b115495d79dc0b810e20b3b3f4df0d Merge branch 'for-next/fixes' into for-kernelci
+d07f1e8a42614cc938c9c88866d4474a5a7fee31 io_uring: correct io_queue_async_work() traces
+b65c128f963df367a8adcfb08f5ecf8721052723 io_uring: don't skip file_end_write() on reissue
+d81269fecb8ce16eb07efafc9ff5520b2a31c486 io_uring: fix provide_buffers sign extension
+1fc12ced00922f1c9db117db10f2db005ff9d9e5 Merge branch 'io_uring-5.12' into for-5.13/io_uring
+0a2349da83f4e47ccc0b7e730a5b79ed06d77b90 io_uring: avoid taking ctx refs for task-cancel
+832cc913ee21fae445f1050acefde6f3a1e0b794 io_uring: reuse io_req_task_queue_fail()
+87c6cf0a58f38329741c93fe3546afaadb8794bd io_uring: further deduplicate file slot selection
+23319fde7214a99e2feed2b23da6c5648572ff79 io_uring: add a helper failing not issued requests
+c17564d14eecbae099b0151227d6fe4d2fe7da3d io_uring: refactor provide/remove buffer locking
+92f7be35883ab51f54993a332ab3c0b714218c68 io_uring: use better types for cflags
+05287ed6e02d5746f91a9dc8e6767476f5e10077 io_uring: refactor out send/recv async setup
+153a153fc3811771f163a633dfcd3ec31b64edb2 io_uring: untie alloc_async_data and needs_async_data
+07e1b01191060904411dca01d16f20f1c90812e9 io_uring: rethink def->needs_async_data
+25bb73f91c4bbc26e10dca608aa3e745953736f5 io_uring: merge defer_prep() and prep_async()
+455566a865c5176ea95415d534742ecaa7419319 io_uring: simplify io_resubmit_prep()
+7dc619bca1b6017c436126a85bce6b2a58ce1c7b io_uring: wrap io_kiocb reference count manipulation in helpers
+b99623f84b6ab9a368761130d421f9ef2171c10b io_uring: switch to atomic_t for io_kiocb reference count
+42c4c31b0e776c42b72cb4d0117cf726516da4d2 io_uring: simplify io_sqd_update_thread_idle()
+1b22041e8f2c568b6cb2c0cd47e87637c701b398 io_uring: don't check for io_uring_fops for fixed files
+6d9decbd529ee490695fa3e9ee004edd832bbe0e io_uring: cache async and regular file state for fixed files
+3db49de1c03ed1839e86e162f914d08822d4b41c io_uring: correct comment on poll vs iopoll
+dee392e3da803617285137b5787af2afdfe92372 io_uring: transform ret == 0 for poll cancelation completions
+8626b0f4facf48ee74bcb892c73139e76adc572c io_uring: don't take ctx refs in task_work handler
+f8f54b198ca05708b4e4be49a13b307e5b156c63 io_uring: optimise io_uring_enter()
+2c6353e42a8703504c9afe3f7143fbece4f1dce5 io_uring: optimise tctx node checks/alloc
+31895283d5795b9f2c2e87263f799e7b5d711236 io_uring: keep io_req_free_batch() call locality
+613e0b91174371238eb442d04c71c75905678b8d io_uring: inline __io_queue_linked_timeout()
+f9e6fab247d8b34a4ff6113cd18c137c9ea5da45 io_uring: optimise success case of __io_queue_sqe
+2b3cde03e323a729db1bf79dc12ec69a16331ec3 io_uring: refactor io_flush_cached_reqs()
+8179a85ebf5ccc415b221faaa71a79bb2ec5a7f6 io_uring: refactor rsrc refnode allocation
+8670066c4f73bf6dff42619f7f75a7bcc447fe05 io_uring: inline io_put_req and friends
+97f31f52f72171f0e263abf3c392a55f708a5147 io_uring: refactor io_free_req_deferred()
+208b07fa8faf7496dccb13586197bdc22a0c5ea1 io_uring: add helper flushing locked_free_list
+20564fde0025480f2c7eac0f68f8e6140c8dffcb io_uring: remove __io_req_task_cancel()
+4e6928e22b07ed50d1a79208ba3089e38a9eee43 io_uring: inline io_clean_op()'s fast path
+a0211d2fd63ea4198ade0a5a131049ebeba8a695 io_uring: optimise io_dismantle_req() fast path
+fdad776c2b2b2a70b3cd74d221eecc66628be22e io_uring: abolish old io_put_file()
+323c02f2db0efb9fd1eab84ec48690cb10e9a53b io_uring: optimise io_req_task_work_add()
 
---===============7489821353708187672==--
+--===============0489858610661789673==--
