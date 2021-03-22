@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 22 Mar 2021 19:06:41 -0000
-Message-Id: <161644000150.2847.9579826467690404434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 22 Mar 2021 19:15:55 -0000
+Message-Id: <161644055574.9768.6818329841700908816@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 88ab6420373c8708d81537c4a64122a26caa19ef
-    new: 7dd5887243b0bc9e05b172235f2701c72564e4ae
+  - ref: refs/heads/master
+    old: a1e6f641e3075fa83403c699e64623ae272080e2
+    new: 227d72063fccb2d19b30fb4197fba478514f7d83
     log: |
-         7dd5887243b0bc9e05b172235f2701c72564e4ae dt-bindings: i2c: xiic: Fix a typo
+         227d72063fccb2d19b30fb4197fba478514f7d83 dsa: simplify Kconfig symbols and dependencies
          
