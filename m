@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 22 Mar 2021 20:37:18 -0000
-Message-Id: <161644543801.29056.16033292742229694683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 22 Mar 2021 20:42:06 -0000
+Message-Id: <161644572650.970.15680389515613396458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: f2c6c222f6016e1fdc8938d58a29437b073fa9e8
-    new: 9fad107e9625e776fbbfc06122a9c47e8760381e
+  - ref: refs/heads/ceph-fscache-iter-experimental
+    old: f0ef922eb71a68dd40c0999cab507807e9c4b165
+    new: ddec2748a0f2a6df54a7baafcb6a8c9d646502b9
     log: |
-         396a66aa1172ef2b78c21651f59b40b87b2e5e1e x86/msr: Fix wr/rdmsr_safe_regs_on_cpu() prototypes
-         9fad107e9625e776fbbfc06122a9c47e8760381e Merge branch 'x86/cleanups'
+         0c5cf27cda0a2bc1cae51ba6e4e4b920d181dc21 ceph: re-enable fscache
+         224e41c3721acae4718026ffe418a38bc80267bb ceph: rework fscache cookie handling for new API
+         ddec2748a0f2a6df54a7baafcb6a8c9d646502b9 ceph: add fscache writeback support
          
