@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 22 Mar 2021 14:14:06 -0000
-Message-Id: <161642244651.6017.8508589720469262296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 22 Mar 2021 14:17:30 -0000
+Message-Id: <161642265008.8499.1895085193189544864@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-next
-    old: c77b26e327dc09a53417dba87637824260389bf5
-    new: bd3689a64ecdb92a8f24fef1365635b7ed6b90dc
+  - ref: refs/heads/main
+    old: c82cb46356fe72832d56554f31c9cd94608a5dd9
+    new: 3f026a2f13a8f130cde849168a111ec80f12e27b
     log: |
-         bd3689a64ecdb92a8f24fef1365635b7ed6b90dc power: supply: max1721x: Correct spelling
+         3f026a2f13a8f130cde849168a111ec80f12e27b rtl_bt: Update RTL8822C BT(UART I/F) FW to 0x59A_76A3
          
