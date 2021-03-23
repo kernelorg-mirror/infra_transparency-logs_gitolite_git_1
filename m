@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 23 Mar 2021 00:45:17 -0000
-Message-Id: <161646031707.27571.4307775295297464678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 23 Mar 2021 00:47:08 -0000
+Message-Id: <161646042899.28271.13553716770142295267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/todo
-    old: dfe9970c3ecba4619efeac0f2cb837c6f4530a01
-    new: 5b24ed8d987d654154feb2e89bf822b05a648217
+  - ref: refs/heads/wip/jgg-for-next
+    old: 7610ab57de5616631b664ea31c11bad527810391
+    new: 783cf673b05ebf290317f583ee7eb6967ed9c964
     log: |
-         7d9ec4c25ffefe4d12935c855bb49e65083be227 Meta/Dothem: support --cocci
-         d5b41051d7547ce0110b11bee32c2f6c693c232e Meta/cook: disable 'tangled with' for now
-         2f8517ffbace60c203fb0413eeaf68726f26b5b9 What's cooking (2021/03 #06)
-         8b76b1495f082229d40cf4c0fed84a247beddd71 Meta/cycle-run: build each branch separately
-         cd76584d3ae36a8d15d6eadf1c15246c4669f9ae Meta/cycle-run: prune garbage before each run
-         6ab646e998fc66e68c3571d5caded7784dcfd431 What's cooking (2021/03 #07)
-         5b24ed8d987d654154feb2e89bf822b05a648217 Meta/cycle-run: try building each individual step
+         b5486430bb0fbb4f2bd1e06bd85921395ba357a6 RDMA/mlx5: Add missing returned error check of mlx5_ib_dereg_mr
+         ae360f41b1263887ada64d9a708e12c1f52f91b9 RDMA: Fix kernel-doc compilation warnings
+         fdb68dd30e92c5a2e0897f644b58b6d3616db44a RDMA: Delete not-used static inline functions
+         871159515cd1c9a5cde1132870ecb9a99d6d76a8 RDMA/cma: Remove unused leftovers in cma code
+         50feda23152ed574c0a197116b23ef6786201bee RDMA/include: Mundane typo fixes throughout the file
+         e1ce4de68054847326f1f220e163b881736cce69 IB/hns: Fix mispelling of subsystem
+         783cf673b05ebf290317f583ee7eb6967ed9c964 RDMA/hns: Fix memory corruption when allocating XRCDN
          
