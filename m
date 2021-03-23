@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 23 Mar 2021 18:07:13 -0000
-Message-Id: <161652283355.18885.822278635811652094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Tue, 23 Mar 2021 18:08:31 -0000
+Message-Id: <161652291112.19445.1233024273101267360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/dev
-    old: ec12fc105f67b9ace4f09de85ab8487072bc876d
-    new: c898b4dc578cc7b98561665b839d9b6e31eb8eb9
+  - ref: refs/heads/master
+    old: 0d415f68c468b77c5bf8e71965cd08c6efd25fc4
+    new: ffe0ef4d73906c18425dc81ae833cbd6507e0b39
     log: |
-         e1175f02291141bbd924fc578299305fcde35855 f2fs: fix to align to section for fallocate() on pinned file
-         ef76af2f0e47aa91c8ce4cee0519bd4d204fd46a f2fs: allow to change discard policy based on cached discard cmds
-         6c739e5302a90d97f785bf3d5986a5b6be41a87f f2fs: fix to use per-inode maxbytes in f2fs_fiemap
-         895bc59ef2478cca1254a8431aa98a92e220f24b f2fs: add sysfs nodes to get runtime compression stat
-         f8f1fbc306a4b5587ab3b13695525a9602ae5488 f2fs: do not use AT_SSR mode in FG_GC & high urgent BG_GC
-         12aeff2169c7ba85b435373e7d9cb60a26e13d6b f2fs: don't start checkpoint thread in readonly mountpoint
-         c898b4dc578cc7b98561665b839d9b6e31eb8eb9 f2fs: avoid kernel panic at dqput on uninitialized quota
+         7d8e829f636f47aba2e1b6eda57e74d8e31f733c btf_encoder: Sanitize non-regular int base type
+         0125de3a4c055cdf60dd96322ebfb838b0cd63b7 btf_encoder: Funnel ELF error reporting through a macro
+         9fecc77ed82d429fd3fe49ba275465813228e617 dwarf_loader: Use a better hashing function, from libbpf
+         8e1f8c904e303d5d142d24e820f01b47a35bb72a btf_encoder: Match ftrace addresses within ELF functions
+         f2889ff163726336da2421ac103d825088d252c4 Avoid warning when building with NDEBUG
+         4b7f8c04d009942b6a7d61bf0990035eb18f70e2 fprintf: Honour conf_fprintf.hex when printing enumerations
+         de708b33114d42c2f844552d02036ef318af98e2 btf: Add support for the floating-point types
+         ffe0ef4d73906c18425dc81ae833cbd6507e0b39 btf: Add --btf_gen_all flag
          
