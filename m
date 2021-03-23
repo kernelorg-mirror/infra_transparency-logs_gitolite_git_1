@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 23 Mar 2021 18:23:13 -0000
-Message-Id: <161652379330.29608.9447506654859775257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
+Date: Tue, 23 Mar 2021 18:28:51 -0000
+Message-Id: <161652413114.313.7506055435077973658@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
+user: zx2c4
 changes:
-  - ref: refs/heads/dev
-    old: c898b4dc578cc7b98561665b839d9b6e31eb8eb9
-    new: 12aeff2169c7ba85b435373e7d9cb60a26e13d6b
+  - ref: refs/heads/master
+    old: a43f0b634e714cd5cddff373b00c964a57e7b7fc
+    new: 9b3aa6d5c9b9b157041667c2e750d5fb625cf3a9
+    log: |
+         9b3aa6d5c9b9b157041667c2e750d5fb625cf3a9 wg-quick: freebsd: do not assume POINTTOPOINT mode
+         
