@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Tue, 23 Mar 2021 16:11:21 -0000
-Message-Id: <161651588119.10934.2400225996652134974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 23 Mar 2021 16:13:10 -0000
+Message-Id: <161651599035.11558.8532253943730175782@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/kunit
-    old: a38fd8748464831584a19438cbb3082b5a2dab15
-    new: 2f9f21cdcd71d0c523676f551ea5c4f78d8e6f61
+  - ref: refs/heads/kvm-trng
+    old: 9a2cbc20b3f73bb9ce4bc8254a09a3b79ed2aa24
+    new: 94fdc71bfdb207a747cdcddb2fc69e81e92cc464
     log: |
-         2f9f21cdcd71d0c523676f551ea5c4f78d8e6f61 kunit: Match parenthesis alignment to improve code readability
+         94fdc71bfdb207a747cdcddb2fc69e81e92cc464 arm64: random: use hyp entropy under pkvm
          
