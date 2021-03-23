@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 23 Mar 2021 10:51:44 -0000
-Message-Id: <161649670408.7259.17209088255896314345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 23 Mar 2021 10:59:39 -0000
+Message-Id: <161649717926.11000.3279520006702126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
-    new: 84196390620ac0e5070ae36af84c137c6216a7dc
+    old: e46a58809165e0a056b1adf81254a77c3ec630d1
+    new: d8f5aa21befa81079ffb8ae38b49039774c94cd2
     log: |
-         519dad3bcd809dc1523bf80ab0310ddb3bf00ade selinux: don't log MAC_POLICY_LOAD record on failed policy load
-         6406887a12ee5dcdaffff1a8508d91113d545559 selinux: fix variable scope issue in live sidtab conversion
-         ee5de60a08b7d8d255722662da461ea159c15538 selinuxfs: unify policy load error reporting
-         84196390620ac0e5070ae36af84c137c6216a7dc Merge tag 'selinux-pr-20210322' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+         ebdbd41bf2536ac57bf315ce9690245e08c5e506 locking/mutex: Fix non debug version of mutex_lock_io_nested()
+         a5b640238abd72780ef28c3e21c13d6c0ac225cf Merge branch 'x86/microcode'
+         bd3de454a6c8e97272ba0d43377ea2ac44c7e1ae Merge branch 'x86/cleanups'
+         b00d79b40ac7b3f8b81a3e5b7d8f4a31bb17444f Merge branch 'x86/boot'
+         8dc3762567cdb6bad6f79c4d39d935220cddd75f Merge branch 'timers/core'
+         a6bcd02efaa10ac99bbdff5db1fe51ba9eca1306 Merge branch 'perf/urgent'
+         d8f5aa21befa81079ffb8ae38b49039774c94cd2 Merge branch 'locking/core'
          
