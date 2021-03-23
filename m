@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Tue, 23 Mar 2021 18:08:31 -0000
-Message-Id: <161652291112.19445.1233024273101267360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 23 Mar 2021 18:17:55 -0000
+Message-Id: <161652347553.26518.5782779671771119930@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 0d415f68c468b77c5bf8e71965cd08c6efd25fc4
-    new: ffe0ef4d73906c18425dc81ae833cbd6507e0b39
+  - ref: refs/heads/x86/boot
+    old: e14cfb3bdd0f82147d09e9f46bedda6302f28ee1
+    new: 4c674481dcf9974834b96622fa4b079c176f36f9
     log: |
-         7d8e829f636f47aba2e1b6eda57e74d8e31f733c btf_encoder: Sanitize non-regular int base type
-         0125de3a4c055cdf60dd96322ebfb838b0cd63b7 btf_encoder: Funnel ELF error reporting through a macro
-         9fecc77ed82d429fd3fe49ba275465813228e617 dwarf_loader: Use a better hashing function, from libbpf
-         8e1f8c904e303d5d142d24e820f01b47a35bb72a btf_encoder: Match ftrace addresses within ELF functions
-         f2889ff163726336da2421ac103d825088d252c4 Avoid warning when building with NDEBUG
-         4b7f8c04d009942b6a7d61bf0990035eb18f70e2 fprintf: Honour conf_fprintf.hex when printing enumerations
-         de708b33114d42c2f844552d02036ef318af98e2 btf: Add support for the floating-point types
-         ffe0ef4d73906c18425dc81ae833cbd6507e0b39 btf: Add --btf_gen_all flag
+         a799c2bd29d19c565f37fa038b31a0a1d44d0e4d x86/setup: Consolidate early memory reservations
+         4c674481dcf9974834b96622fa4b079c176f36f9 x86/setup: Merge several reservations of start of memory
          
