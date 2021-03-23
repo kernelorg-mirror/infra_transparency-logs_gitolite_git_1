@@ -1,64 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============3438417797371915378=="
+Content-Type: multipart/mixed; boundary="===============4976737142018256120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 23 Mar 2021 14:22:51 -0000
-Message-Id: <161650937137.17287.3936622678018889475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 23 Mar 2021 14:24:22 -0000
+Message-Id: <161650946220.17846.16608435786707420130@gitolite.kernel.org>
 
---===============3438417797371915378==
+--===============4976737142018256120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: f8028fd96f918aeada08fa5e2df1ed80961c7d26
-    new: d010995736cb581de55e99268d66937085b45ea0
+  - ref: refs/heads/driver-core-testing
+    old: 53f95c55349e75b73f69ce36b0ae2a83b3f28fde
+    new: a7d30f3f41cf40aad1c4557fa180fe320d5b7c74
     log: |
-         644651d2da089858601595bf41b3688578846e2f staging: rtl8723bs: removed function prototypes in core/rtw_efuse.c
-         938d4e0305f9288c0abd3d6903547c0f1b5eba53 staging: rtl8723bs: moved function prototype out of core/rtw_ioctl_set.c and core/rtw_mlme.c
-         7a246f17dd3f52c46fa1caaeadb7ebb75664fb5f staging: rtl8723bs: removed function prototypes and made statics in core/rtw_recv.c
-         0e377e489079753686f427fe0e1f5fd3054b4a23 staging: rtl8723bs: delete extern declarations in core/rtw_wlan_util.c
-         f6df723d1ab5ff99d0f8ea9e3c50d253b5233fce staging: rtl8723bs: remove function prototypes in hal/odm.c
-         d5e5f6d36932f23df845127945802e7f673c016d staging: rtl8723bs: move function prototypes out of os_dep/int_fs.c
-         c6fbbb17e5ea3760185afbc8d92ae7daba106682 staging: rtl8723bs: remove undefined function prototype in of os_dep/sdio_intf.c
-         838c96a29a80fad08c1d7dbe01fbc68d6b995314 staging: rtl8723bs: remove unnecessary extern in os_dep/sdio_intf.c
-         d010995736cb581de55e99268d66937085b45ea0 staging: rtl8723bs: remove blank line os_dep/os_intfs.c
+         0341ce5443949588e93581b49b934cdde2befbf8 workqueue: Add resource managed version of delayed work init
+         2077ca682169afb212d8a887c70057a660290df9 MAINTAINERS: Add entry for devm helpers
+         f94a5becabf43e17490aded8bddc5f924b00338b extconn: Clean-up few drivers by using managed work init
+         96dc2b31abd0ed8a2a59a6672d4f16e4718d3701 hwmon: raspberry-pi: Clean-up few drivers by using managed work init
+         b82a7b018b93d282d0f1a41a854ca3d071e02759 platform/x86: gpd pocket fan: Clean-up by using managed work init
+         6d0c5de2fd84a0ad07f0cecea24def3987675192 power: supply: Clean-up few drivers by using managed work init
+         b6688015151857ed3f61fa2344c4b220bc9dc4d7 regulator: qcom_spmi-regulator: Clean-up by using managed work init
+         a7d30f3f41cf40aad1c4557fa180fe320d5b7c74 watchdog: retu_wdt: Clean-up by using managed work init
          
 
---===============3438417797371915378==
+--===============4976737142018256120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616509365 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1616509364-be1c1e07a799cbdda2d63333689fb078a91fce2c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616509452 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1616509452-c38d30ce7a0ee62e63e5ad7021a94829ecbe371c
 
-f8028fd96f918aeada08fa5e2df1ed80961c7d26 d010995736cb581de55e99268d66937085b45ea0 refs/heads/staging-testing
+53f95c55349e75b73f69ce36b0ae2a83b3f28fde a7d30f3f41cf40aad1c4557fa180fe320d5b7c74 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ+bUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NR8QAKfwrIrqOxOT+xSJWLlB
-QgqH6HvzfG9V1CfCZrs0YzFapHQ44z56aa1xwsqSq1yieDMXEx5njgrOX4dKT+yI
-iwzFkSuW79JVc1jBbjZmDhpe7z8oi3zUCHU6DyMoGZROHXLTq3EG9gJluPZjZUji
-5lfRK01ZMsymxWG2KedvM6vD0u+CGmBzmK1hyurc7WYT3kEkAhBgaVFTvFCxYcJr
-EyM5c3D0wiKqtam3n2iGZH3EkSA6a+vsSMCeiPZQcfJJ2GMQ9MrTFOr5SSHTzKNz
-AV/r+UPn3gNpCebJ8HcF/EkA9Bs6Qew97Rdya8HR8/Np3TJPuS7Bh8u3KLNMyNb0
-BNfV8+pPn64WxZZrPhNjvOM0m2LuRuMB8gihGXxK385NJXaC3dBhWAbfoCc/Kbmi
-4x3tj+qACEBClUIPc9fu34YgyoQ0Ma5S43CpWTRgd1NmSn/TnUyqdCnVsCPmH8BT
-9LWQEsXN9Nnwuiq7hRDMmUH5HC4YljUD82AvsKvFZzJAPAN7VqK57KZhluLdEC0d
-d+HYF8ZePtIDQtCKyY0ACB4UlR2r+dDo2JRiguTTDImg8tn8R6m+Ml6+rlmKpyBV
-NoJACMtmk+teuSZiEkTw+88mG3l8CRB8xpioF55IrHmDeQnVfM/rHujsnsB2JUaX
-ZiQN1+C/GO4aF0/Gd8eRvBIM
-=VIUi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ+gwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qpEQAKbiuGjrtvLylS07OVxs
+Ln6dMGE55JOTPt9LkL+KgZVrTHlxVwxlojTb9GApdqgGw+6AuHbSaXxbqNdR9MwF
+2ZsSZa6cym18sRKjxFYTZSRZx5ZsPidAtlb4Ck5rfGJZYKQnK5uxUEC7j9A7VT+W
+DdwLXm2lMx9kSOdYXPrA1K0+bLW/rE4h8uLtOGR3TyGWptgTaxtWvqwrrFo1FmAy
+7c5Jf4WnE2bCQ8yrEfetlGDOa4L0R21yFzYLwkrPjYNQWE6ZrIn9GUMxyZcflDgH
+wgt7niZQYYuPUID4IKt96nxkCWIeRLZtziiH0XytxPGywTI2KR+b6+Jdhqh6XA+k
+s6B4Afe0ekCOXSF5BugKKu1UmUFNFyPzr5X5s+e/Cv4dfjOT2hzzdH2X7MRFs6j4
+JnHriptPHxTo50gzqdqGIPSIY8PPXNC7Av6+ElteMI+mobwHMOlCMd6qPmfCgcki
+IsIiluT+SIxu167j8OX3a3iXQp05rgLAYFzetVWv2Vlq4ukoGlOBdHu+Af622bPb
+LbxHA2hVuwPKquCEkG2/L1rW228nxgcVk7XVfLnzv+nXqJRQOWzK2wO7ORBDUQwN
+adBDeSB849qtOPCNzyKknvyA3ppLRB+/Z9WMQiqMPQnDX0kV1hvLZKveNV4Ycr7Y
+oArcCG7AWqYBOjraot6/5QRM
+=ic0H
 -----END PGP SIGNATURE-----
 
---===============3438417797371915378==--
+--===============4976737142018256120==--
