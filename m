@@ -1,27 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 23 Mar 2021 19:49:50 -0000
-Message-Id: <161652899020.20091.17016647351831343057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 23 Mar 2021 20:10:23 -0000
+Message-Id: <161653022304.1806.10868956826189809508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/dev-test
-    old: ec12fc105f67b9ace4f09de85ab8487072bc876d
-    new: edb2ddf3807773796a6dc77e77275ec5716c6a5c
+  - ref: refs/heads/review-hans
+    old: 3feb52a2b8d97989823f1aa9cfff281b8475ff4e
+    new: 49702bace77db951d9f23c37f7d6647e5b008848
     log: |
-         e1175f02291141bbd924fc578299305fcde35855 f2fs: fix to align to section for fallocate() on pinned file
-         ef76af2f0e47aa91c8ce4cee0519bd4d204fd46a f2fs: allow to change discard policy based on cached discard cmds
-         6c739e5302a90d97f785bf3d5986a5b6be41a87f f2fs: fix to use per-inode maxbytes in f2fs_fiemap
-         895bc59ef2478cca1254a8431aa98a92e220f24b f2fs: add sysfs nodes to get runtime compression stat
-         f8f1fbc306a4b5587ab3b13695525a9602ae5488 f2fs: do not use AT_SSR mode in FG_GC & high urgent BG_GC
-         12aeff2169c7ba85b435373e7d9cb60a26e13d6b f2fs: don't start checkpoint thread in readonly mountpoint
-         78189e45478267a9ed979e57e4dc9e8f3b592d57 f2fs: fix to avoid out-of-bounds memory access
-         265217bc0c6cc84d5b2b32347e86fc63ff24c5ea f2fs: fix wrong comment of nat_tree_lock
-         edb2ddf3807773796a6dc77e77275ec5716c6a5c f2fs: avoid kernel panic at dqput on uninitialized quota
+         501bb68a66cfc0bc2a2458483400cb49daca974f platform/x86: intel_pmt_class: Initial resource to 0
+         d4dc4bf28263f25e0907072ce163dd454c6aa51a platform/x86: intel_pmt_crashlog: Fix incorrect macros
+         3b329cfec7522b5685a0fed11c5f2f95cab04fa3 platform/x86: Typo fix in the file classmate-laptop.c
+         04cdaf6d8f52e5a7589cb5463b27b23dd5d0de74 platform/mellanox: Typo fix in the file mlxbf-bootctl.c
+         70505a71d845a3ee5e011577fc5d9ac82e5c052a platform/x86: asus-laptop: fix kobj_to_dev.cocci warnings
+         e4899ff6a9120ca5dfa82035d51d4d118260be6e platform/surface: fix semicolon.cocci warnings
+         49702bace77db951d9f23c37f7d6647e5b008848 platform/x86: thinkpad_acpi: Correct minor typo
          
