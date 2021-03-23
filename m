@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Tue, 23 Mar 2021 15:57:34 -0000
-Message-Id: <161651505440.663.18192691804846749859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Tue, 23 Mar 2021 16:00:46 -0000
+Message-Id: <161651524647.3291.12929330553194189812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-next
-    old: 37ad56aa82be0b524c0912ab571b70a343927265
-    new: 3aeaf509380990271f8b0e7babfa978a3f43f67c
-    log: |
-         3aeaf509380990271f8b0e7babfa978a3f43f67c power: reset: replace curly brackets in Makefile
-         
+  - ref: refs/tags/linux-kselftest-kunit-fixes-5.12-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 3e25f78b447b29695c94dbc3557843bb3b9ab731
