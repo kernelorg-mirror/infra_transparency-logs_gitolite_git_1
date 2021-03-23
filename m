@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2238536562519516489=="
+Content-Type: multipart/mixed; boundary="===============5276061791950261952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 23 Mar 2021 12:25:25 -0000
-Message-Id: <161650232599.3102.15589268391445502371@gitolite.kernel.org>
+Date: Tue, 23 Mar 2021 12:26:03 -0000
+Message-Id: <161650236313.3380.14575497466528036736@gitolite.kernel.org>
 
---===============2238536562519516489==
+--===============5276061791950261952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 93f1d43c5767d70a1af89f54ef16a7d3e99af048
-    new: 72035f4954f0bca2d8c47cf31b3629c42116f5b7
+    old: 72035f4954f0bca2d8c47cf31b3629c42116f5b7
+    new: 08dff274edda54310d6f1cf27b62fddf0f8d146e
     log: |
-         b522f830d35189e0283fa4d5b4b3ef8d7a78cfcb usb: dwc3: pci: Enable dis_uX_susphy_quirk for Intel Merrifield
-         72035f4954f0bca2d8c47cf31b3629c42116f5b7 usb: gadget: udc: amd5536udc_pci fix null-ptr-dereference
+         08dff274edda54310d6f1cf27b62fddf0f8d146e cdc-acm: fix BREAK rx code path adding necessary calls
          
 
---===============2238536562519516489==
+--===============5276061791950261952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616502320 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616502357 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1616502320-8ed11c45231c7c178b2fce871bf1f58592e71203
+nonce 1616502357-af802dc94b03048d0a14cfc09597f37e8d1ab97a
 
-93f1d43c5767d70a1af89f54ef16a7d3e99af048 72035f4954f0bca2d8c47cf31b3629c42116f5b7 refs/heads/usb-linus
+72035f4954f0bca2d8c47cf31b3629c42116f5b7 08dff274edda54310d6f1cf27b62fddf0f8d146e refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ3jAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SqIP+gM6YMpuhTelyfptyLWd
-oST6Cr3ZfSbHyLP2NJlPWEZr1VfTLsUoIcZ52v183EZUUpOEqqA9sDQy0mJwitH3
-igXopW7V7Z4jQ+EE6PFcW9P04eXnqB/XvMsd9TY/c4KuPz0qDN3aAFJHc1RiRpfs
-k+BP9fvxHgaPgq41zHVZ7OYFI+5N5oxER614l6tl4F8CgCDQoLBhuA3KN5mnE/kM
-EqwlrmhRTxb5lJaVM2QvnJ6tuu69fvsZcQIRcJb7+Ci2hx/yYommQ2Y6zUsdKgGL
-ZPLDUbh7A+WiE7qyBBI0aYuX4YhnOdQvQ6Eg0o5Xw/tBYPN8j2tb0u97WokRL4YI
-0rXbVgMvJG5YjoiAk1PqdNCFDUIRPizUA2S4Ozmv2l7iDR/IuB+fjgCdAaFYzW9R
-3POqN7IGjme1DEAFV/8hJ32acCCIstHpVLXp4+sk6ffBt4QByfAeXNddpNp0EOjw
-l8PTdGCmcQA30xQLVjZ/czVeaZbcL4w7Md5lKN07S2EMsuPoLCl/0H0xST1uekuy
-scx23jUvMyJatLmGhH7TPjsSonTj7ZF0KJFIMJuvI/JnJFs+znDCapsBts/IY6A4
-WzxWg2XeDXsUXky/MV5menG7LlHnJ1WMR8igdo6m/jniuWK/exdTaRvvahd4yUDJ
-zegTradZN26k9t6Q/Zg5J4CG
-=pq29
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ3lUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++TsP/2U+MQbd6qbODoI2UrIH
+DX7Zd83Y2CUnYYb3zF6/RLP7FmRnV/Kgvs0Tct7mhK/QkUyoBA4FP693WyR6IUOg
+GCf+QyzFvB+cGmtZsXAO02C0VxGNT/3Wwd9oWr262ysRqQpV01EXvHh4Qqcaib9s
+/z416r2t1gJYLJukTbQ8jgVEqfssLFjqgLd0eHaSoZU4SsDScKDId4OLkefenSaR
+O8scdePDLDgKeLR+IzEHjB1wlAcFI7OoQFh8RA1jGz4rG5gKicqvgQvqTYSpQRV6
+O3Tfx0qYg7l21XMU1kW9zHSoLQxoAiwztDYaYEHHQNEJVPmbI9C0rfXufBabcbS8
+TRx2k+3ykrhF56NrRd+Vu6iuDnQsgJeW5SCqAUZDrtB5lnr+fnNU07M1s2uYIclh
+OOQoNpM4zbumdMh7JCvsILPaQbg84AdYu5c5GoIgxjVdaJUr6kCwrgTyXP+wwsAz
+eRWGd/QeFTStx2pGTk8ZIN964tbtU9C/gaZ8OVUWNwwBec1sezwQJ1FeO7Jly3GY
+oNq4CjEL26nsWE0HrLrIWT1eyYZ8M5kRkpitX7C9sUdwXumESVLppTUNNGHptVwH
+5dvBY7XGD2pyHihrqQ4eeXRdTfEQQeOor0u8u+Wtn+rLfqV950egg+94cYi5F9J7
+bn1Fb+LnxgOztSSIHXOzdQ88
+=diyV
 -----END PGP SIGNATURE-----
 
---===============2238536562519516489==--
+--===============5276061791950261952==--
