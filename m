@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3507962250857907028=="
+Content-Type: multipart/mixed; boundary="===============1933609455535131472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 23 Mar 2021 11:48:52 -0000
-Message-Id: <161650013291.11388.14423278149432348294@gitolite.kernel.org>
+Date: Tue, 23 Mar 2021 11:55:21 -0000
+Message-Id: <161650052159.16037.1357983759398972548@gitolite.kernel.org>
 
---===============3507962250857907028==
+--===============1933609455535131472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,46 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 3af32605289e9f508cc40ff1046e15ac6c80d2fa
-    new: 84770f028fabab4cb66188d583ed12652f30576b
+    old: 84770f028fabab4cb66188d583ed12652f30576b
+    new: 254cb1e0d78cfa2c189171cacb88fc85d915bc84
     log: |
-         caef9f0716b4b24daea36f8af74d6b1698221051 dt-bindings: usb: dwc3-xilinx: Add documentation for Versal DWC3 Controller
-         84770f028fabab4cb66188d583ed12652f30576b usb: dwc3: Add driver for Xilinx platforms
+         55b74ce7d2ce0b0058f3e08cab185a0afacfe39e usb: gadget/function/f_fs string table fix for multiple languages
+         fb9b31e4ea2f55fc3acee29f30c7c65460df8996 usb: chipidea: tegra: Silence deferred probe error
+         f8cb3d556be31d2f41f54a7d7623930b05c9b340 usb: f_uac2: adds support for SS and SSP
+         c021e02357703b959e20c458d64b6d4e0d5b8012 usb: gadget: legacy: fix error return code of multi_bind()
+         3713d5ceb04d5ab6a5e2b86dfca49170053f3a5e usb: gadget: f_uac2: validate input parameters
+         a59c68a6a3d1b18e2494f526eb19893a34fa6ec6 usb: gadget: f_uac1: validate input parameters
+         254cb1e0d78cfa2c189171cacb88fc85d915bc84 usb: gadget: f_uac1: disable IN/OUT ep if unused
          
 
---===============3507962250857907028==
+--===============1933609455535131472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616500127 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616500515 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1616500126-8b91081149128664b7ae6e15c3781dab38d2e34a
+nonce 1616500514-444b740d3fb1297fbf044df1c379dc5b0dccb578
 
-3af32605289e9f508cc40ff1046e15ac6c80d2fa 84770f028fabab4cb66188d583ed12652f30576b refs/heads/usb-testing
+84770f028fabab4cb66188d583ed12652f30576b 254cb1e0d78cfa2c189171cacb88fc85d915bc84 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ1Z8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zlIP/jhoU7kkwC3BBh2G2z4L
-YDNZLA6FqJoDn0VXG66SM2rhNFDMfCWerUxbm+o6/jQ4zinB1ft49bmrGvc/+R9S
-mvlG6ixE+VMlHdfQjpDEtRBWz9KkSPjlF1ykrdtI3tx8oLsIecqOliGqPIi6fhIX
-Vz4GtPRi1rarTXoeBHvhOyIzhqZNKMI4aJ+Gu18u9JOa/uw/4R3pbsWjdoFqhH4x
-3DFd1eE8ehElpFxe19z9BcgmhwJWI8X4jxynVWaudEfHpjgWXQ+N+IctOavyjQhE
-VXmfYiM9C0wLNtmwjneGPz3CwPL7vfv36qmRCuhck+bgilo6T7sTLgKsLh/MRE0q
-brbpraX9cUkVPoz0dfLfPNjK6aKSokL4hstdxYMMdRfpqlLXvsfp30fIze5kqLYU
-QHO/l/20e6A7HbvT7x465PLJEVEDj7af1PBJQU4R24EvvPN6vUgvyWqepe03320r
-8oDaxvJ/8ZND57liRZqi4aaBRE/TlJ7GQrcWr7N8kgvQ/zKzmBWPKUkRAaKtSUah
-jOGSc5tD/P3eeYR59X1GgzQITP5wvrkLPAtxB/uEHdAdrt6agil2XdqqX0/sqbfu
-bW9kqAVCfy0vfTUUrLzfHitPNhgoljeKX+t+PYCTraVMk4LvTCP3K4GeOS8V2w8a
-zlSt2PWeKG7D0geoZEWb/tSz
-=aKaJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ1yMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MAkP/2CL9ShS9zQSSWcxvj27
+4i3PLdQa7mtIaa3yUexLHHCyrVv0yFGobKFsKIdve3juEXtwFLmI9+NZ+V2MhMSG
+CK/w0fsuhOtb/HNYa8xXUFNTVwFI/cLRmz7OTa+ObwRPwABndfiQlJFCGN6hYZ7F
+0g69z/kJg07P0oDtjIXegbPXDj0VeErD9tlmRpiBsWsvan+PJ9wLemNS6c6xUygJ
+mkY/7GsPbSdIvAzzkmBxJjMtGODY+44c9PTUku7VzBh7GAQoCktfaenhJtGEt2j6
+oFZBQTq8bBrXFqab2T3lfmcAwu9gC7/iyIm2lQ/xzABb8TxUGI1VUl2gGdEi7eIs
+6vJhgn1NpvZH5oc/mu+wkdK/tQyj3Jd5ZmPiqJ2UvnZNVkdsYWA8Sgx5ZgyRCqRB
+W4rXYzcomm0QLVlIboAuadH+eLYhqIVzr/8aAgvcr2dPSemMXpPn+R4KtHStTXVD
+ve64TbmWsPiccSt7jVqNt6hIiLhWpJp88zeuDxoYeEFUIRJr3Pg4GEOxHbUg4PjJ
+s+1Al+hY/Rv3QHwLnlQPJVNJQvPxEjsqIOv8xcZSjc9Xh6mp2RPUkHRnXJVbyNbd
+3RrQGrOErsuyKBHK1eksQIdlfxmzrfS26kVoFU55tX1Z6CLtkZ5a6veTFVi9jahL
+DAmY6RD6g/+aEdFMPbyGEEjP
+=xQal
 -----END PGP SIGNATURE-----
 
---===============3507962250857907028==--
+--===============1933609455535131472==--
