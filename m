@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Tue, 23 Mar 2021 08:17:54 -0000
-Message-Id: <161648747403.22402.9963760823197020682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Tue, 23 Mar 2021 08:53:59 -0000
+Message-Id: <161648963985.11647.9347246699234348667@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/dev
-    old: fe06f036ef36582bce0fd4b2d921fc10267159cc
-    new: 33070f7ad15a242466e0c21804ad5f89713bfa6c
-    log: |
-         33070f7ad15a242466e0c21804ad5f89713bfa6c exfat: speed up iterate/lookup by fixing start point of traversing cluster chain
-         
+  - ref: refs/heads/ib-mfd-power-5.13
+    old: ee0975c3089e1c3357ccc3ada7a94a95b61e708c
+    new: 0000000000000000000000000000000000000000
