@@ -1,53 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============2186905884518446868=="
+Content-Type: multipart/mixed; boundary="===============1337187060945093974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 23 Mar 2021 22:10:20 -0000
-Message-Id: <161653742047.13001.7116434131154113345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 23 Mar 2021 22:10:41 -0000
+Message-Id: <161653744152.13231.11842328121704882367@gitolite.kernel.org>
 
---===============2186905884518446868==
+--===============1337187060945093974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.13
-    old: 79c6246ae8793448c05da86a4c82298eed8549b0
-    new: 1527b09bc80018f02fe0b6d14e97c95f93596221
-    log: |
-         08b020d3e9a87fb6d94b02782c42c001a4e084f4 spi: update spi master bindings for MT8195 SoC
-         f42698a8dc589dc7cc8e36641e86e6a9b3b32f9b spi: update spi slave bindings for MT8195 SoC
-         d666a833b0b9f5b8e08ecdc002a4cf5d34932b7a spi: mediatek: add mtk_spi_compatible support
-         1527b09bc80018f02fe0b6d14e97c95f93596221 spi: mediatek: add mt8195 spi slave support
-         
+  - ref: refs/heads/for-linus
+    old: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
+    new: 3fcef2d205f90910f98f52a5d9998882e5b1e5ae
+    log: revlist-0d02ec6b3136-3fcef2d205f9.txt
+  - ref: refs/heads/for-next
+    old: ca108ca13d7b625778dd93504bfdc4c2124d52d6
+    new: 1d04e14211a2cf96ec42dadc1fd33ff6fb6ea8ce
+    log: revlist-ca108ca13d7b-1d04e14211a2.txt
 
---===============2186905884518446868==
+--===============1337187060945093974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0d02ec6b3136-3fcef2d205f9.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1616537414 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1616537418-7bdae1096390600e34e328a4d51949ecdda499b8
+927280909fa7d8e61596800d82f18047c6cfbbe4 ASoC: SOF: Intel: HDA: fix core status verification
+91ec48f540f83022377723a774a0a37a630801af ASoC: SOF: core: harden shutdown helper
+3c429f861ed483517a0a352281a16503bcc60b55 ASoC: SOF: Intel: TGL: fix EHL ops
+22aa9e021ad1ee7ce640270e75f4bdccff65d287 ASoC: SOF: Intel: TGL: set shutdown callback to hda_dsp_shutdown
+4939e49ea5804f89941df86d35f1a1e1cd8b435b ASoC: SOF: Intel: ICL: set shutdown callback to hda_dsp_shutdown
+b0503e8410e5ee43da116772576dbdeb2a414e0b ASoC: SOF: Intel: CNL: set shutdown callback to hda_dsp_shutdown
+d3aa96bf349882763b9903e5800d2e83fc086886 ASoC: SOF: Intel: APL: set shutdown callback to hda_dsp_shutdown
+8bb84ca873d2222ca220e58a097090775b1fd8df ASoC: SOF: Intel: move ELH chip info
+16b82e75c15a7dbd564ea3654f3feb61df9e1e6f ASoC: wm8960: Fix wrong bclk and lrclk with pll enabled for some chips
+2c0d7f9186d06f1f3f6c52387195c8f89070af93 Merge series "ASoC: SOF: Intel: shutdown and core handling corrections" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
+3fcef2d205f90910f98f52a5d9998882e5b1e5ae Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
 
-79c6246ae8793448c05da86a4c82298eed8549b0 1527b09bc80018f02fe0b6d14e97c95f93596221 refs/heads/spi-5.13
------BEGIN PGP SIGNATURE-----
+--===============1337187060945093974==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ca108ca13d7b-1d04e14211a2.txt
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBaZ0YACgkQJNaLcl1U
-h9DnHQf/bpZB31samOYxVdwaMr6H8AsG38BFKCwN3waGZ413KI9pOwB2xKmHtZae
-6AgVvpNhhHgsZyLwqbJ/tLG2VlfDJlFv+Y1y2asQmAZ/okCc7/KMWkqcvOx8+VnL
-6Fdx9h0xq20WfxnnC6urqol6CoTBVy7IuKi+SHMzHJLpgzTALPKy9/ChihD7gmb9
-8wu7PLdiCmqxx96dHm8iqqHzsRPfU53w9gnXpySIqN6NyyQv1ridMeSzt+M1jOfc
-4C7XZHFrxlpAfQP/LiFZxU0x+vzIhkidMivOp6pbJL5OF0V9uhX/nMH8a7uT+knR
-cAYSUJcL2SL3iOCSC8BZeDkaaIjEUg==
-=sNCV
------END PGP SIGNATURE-----
+927280909fa7d8e61596800d82f18047c6cfbbe4 ASoC: SOF: Intel: HDA: fix core status verification
+91ec48f540f83022377723a774a0a37a630801af ASoC: SOF: core: harden shutdown helper
+3c429f861ed483517a0a352281a16503bcc60b55 ASoC: SOF: Intel: TGL: fix EHL ops
+22aa9e021ad1ee7ce640270e75f4bdccff65d287 ASoC: SOF: Intel: TGL: set shutdown callback to hda_dsp_shutdown
+4939e49ea5804f89941df86d35f1a1e1cd8b435b ASoC: SOF: Intel: ICL: set shutdown callback to hda_dsp_shutdown
+b0503e8410e5ee43da116772576dbdeb2a414e0b ASoC: SOF: Intel: CNL: set shutdown callback to hda_dsp_shutdown
+d3aa96bf349882763b9903e5800d2e83fc086886 ASoC: SOF: Intel: APL: set shutdown callback to hda_dsp_shutdown
+8bb84ca873d2222ca220e58a097090775b1fd8df ASoC: SOF: Intel: move ELH chip info
+16b82e75c15a7dbd564ea3654f3feb61df9e1e6f ASoC: wm8960: Fix wrong bclk and lrclk with pll enabled for some chips
+dfb81e3b5f47aa0ea5e4832eeb720bc22f07d0c1 ASoC: SOF: Intel: hda: drop display power on/off in D0i3 flows
+2c0d7f9186d06f1f3f6c52387195c8f89070af93 Merge series "ASoC: SOF: Intel: shutdown and core handling corrections" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
+3fcef2d205f90910f98f52a5d9998882e5b1e5ae Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+1d04e14211a2cf96ec42dadc1fd33ff6fb6ea8ce Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
 
---===============2186905884518446868==--
+--===============1337187060945093974==--
