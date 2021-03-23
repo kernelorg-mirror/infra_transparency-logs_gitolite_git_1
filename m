@@ -1,58 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============6727143073469154672=="
+Content-Type: multipart/mixed; boundary="===============3647023825774586525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Tue, 23 Mar 2021 22:07:48 -0000
-Message-Id: <161653726885.9250.15729794707265752850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 23 Mar 2021 22:09:56 -0000
+Message-Id: <161653739684.10348.13083527384314255551@gitolite.kernel.org>
 
---===============6727143073469154672==
+--===============3647023825774586525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fscache-netfs-lib
-    old: 3fd17a34cfb6c3056bc23ec05ebb9a657addb4bc
-    new: fc307ae9cffffb17be171fb6613a788746e0b564
-    log: revlist-3fd17a34cfb6-fc307ae9cfff.txt
+  - ref: refs/heads/for-5.12
+    old: f9dc51cc6676e0360dfcb1836b3d426a3ccf3093
+    new: 2c0d7f9186d06f1f3f6c52387195c8f89070af93
+    log: revlist-f9dc51cc6676-2c0d7f9186d0.txt
+  - ref: refs/heads/for-5.13
+    old: bf939446c357242b3306e88c5f48976940d29679
+    new: dfb81e3b5f47aa0ea5e4832eeb720bc22f07d0c1
+    log: |
+         dfb81e3b5f47aa0ea5e4832eeb720bc22f07d0c1 ASoC: SOF: Intel: hda: drop display power on/off in D0i3 flows
+         
 
---===============6727143073469154672==
+--===============3647023825774586525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3fd17a34cfb6-fc307ae9cfff.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4c1cb4a498b6c16d2314c1b09e287b91080118d6 iov_iter: Add ITER_XARRAY
-a9e1626c4d3c876c864422ac4388d859dcb801c0 mm: Add wait_on_page_writeback_killable()
-f28214f150c49b4e276f3e769fbd51ec651cf934 mm: Add set/end/wait functions for PG_private_2
-9a6137157205c21aaf11bc152153bafd58d20d0e mm: Implement readahead_control pageset expansion
-9e830ab88e414d4ba23578c0d99a75ee6282b12b netfs: Make a netfs helper module
-06c9211260f08110e76a5a3f099ca87a417f9eda netfs: Documentation for helper library
-643d1fd4ca6fee1c1a8aaf25845201187bca6628 netfs, mm: Move PG_fscache helper funcs to linux/netfs.h
-ebd9b2998f08095a96f8a102a5e6843921492009 netfs, mm: Add set/end/wait_on_page_fscache() aliases
-f48fe23962b83e7e4d0b820d1e09c2534cef6f10 netfs: Provide readahead and readpage netfs helpers
-3e0be3bebb385a13781603be9c4ccf52464c4b30 netfs: Add tracepoints
-89f50735e489747132573f5737529cf91c636d57 netfs: Gather stats
-dc51583578df7a50726afdd9c13f320982303e25 netfs: Add write_begin helper
-e068dbdf05497a7419e8444b0024f6883d72bd29 netfs: Define an interface to talk to a cache
-e6b757125cfcedd40709262cd4d1a863382712b3 fscache, cachefiles: Add alternate API to use kiocb for read/write to cache
-fbb08e1112f19bf7bbffc2d0cc7869aae8057288 afs: Disable use of the fscache I/O routines
-2734c648af3d7340b925e5d9cdf7408679c53058 afs: Pass page into dirty region helpers to provide THP size
-4b31ee51ef11e8c857211eaa99e2d4f7d7ac42c2 afs: Print the operation debug_id when logging an unexpected data version
-06912c02373a9ccba39011e3aea38ce1e5afb2ca afs: Move key to afs_read struct
-ddf3a4fbfcf9cb4d4481ff5115e71c2e96986f75 afs: Don't truncate iter during data fetch
-bc43c4ca0fcd3b0b7de788e2b3ce0d083da781bf afs: Log remote unmarshalling errors
-7433bf262586a21cd8829d7f6e6edf13c7a8814a afs: Set up the iov_iter before calling afs_extract_data()
-11141e295a18dc9e1995dbd0e68ddc1c9081740a afs: Use ITER_XARRAY for writing
-a46401718c5c15260912092addd7e2556d5d3c8b afs: Wait on PG_fscache before modifying/releasing a page
-e70631120d03d9b28ecf67aaeda4e84f4b3bfcab afs: Extract writeback extension into its own function
-5515ece67141335abc718ceb116ab8f03ebd47ce afs: Prepare for use of THPs
-b87fa6c86f9b1d3567141d551e71b986e916773f afs: Use the fs operation ops to handle FetchData completion
-31542bcef9aa3a0cc04cb4f9dfb47361d15453a4 afs: Use new fscache read helper API
-fc307ae9cffffb17be171fb6613a788746e0b564 afs: Use the fscache_write_begin() helper
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1616537390 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1616537394-9d280c67393fca26092c56dba03166a99d67e642
 
---===============6727143073469154672==--
+f9dc51cc6676e0360dfcb1836b3d426a3ccf3093 2c0d7f9186d06f1f3f6c52387195c8f89070af93 refs/heads/for-5.12
+bf939446c357242b3306e88c5f48976940d29679 dfb81e3b5f47aa0ea5e4832eeb720bc22f07d0c1 refs/heads/for-5.13
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBaZy4ACgkQJNaLcl1U
+h9Ai4gf/U/fYQrkUlDQvS2MHwRJmruUg9eHQYWDhyNujHoh+inan2r8j4x/ivXFF
+9aoKYynCoDVZ+CwFyinxf53iQO4s/kd41fShdNGmDH6wWGm8so8+BKaBKiF2r9SP
+5a6uwursa6jE9IGfK2UKgceqi8w/On56VSXCugEslYPEN/EYQ7Om2Qegg8Y/avWb
+7VOKuuYfhrJIpCh5dP4CidF/lF4ZE1EZQVzKAyuK3RFPivfTE5oQUl6m2Q+V5h6I
+q4XaKN1Xv5nZasfl+npBq9/MroRqTTUv8FMVyqqwVQ4lP1AygMnk5Bbfx2EknoyP
+bLI6mBEk/byIRwUOJpwZykokn5Cx3g==
+=f106
+-----END PGP SIGNATURE-----
+
+--===============3647023825774586525==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f9dc51cc6676-2c0d7f9186d0.txt
+
+927280909fa7d8e61596800d82f18047c6cfbbe4 ASoC: SOF: Intel: HDA: fix core status verification
+91ec48f540f83022377723a774a0a37a630801af ASoC: SOF: core: harden shutdown helper
+3c429f861ed483517a0a352281a16503bcc60b55 ASoC: SOF: Intel: TGL: fix EHL ops
+22aa9e021ad1ee7ce640270e75f4bdccff65d287 ASoC: SOF: Intel: TGL: set shutdown callback to hda_dsp_shutdown
+4939e49ea5804f89941df86d35f1a1e1cd8b435b ASoC: SOF: Intel: ICL: set shutdown callback to hda_dsp_shutdown
+b0503e8410e5ee43da116772576dbdeb2a414e0b ASoC: SOF: Intel: CNL: set shutdown callback to hda_dsp_shutdown
+d3aa96bf349882763b9903e5800d2e83fc086886 ASoC: SOF: Intel: APL: set shutdown callback to hda_dsp_shutdown
+8bb84ca873d2222ca220e58a097090775b1fd8df ASoC: SOF: Intel: move ELH chip info
+16b82e75c15a7dbd564ea3654f3feb61df9e1e6f ASoC: wm8960: Fix wrong bclk and lrclk with pll enabled for some chips
+2c0d7f9186d06f1f3f6c52387195c8f89070af93 Merge series "ASoC: SOF: Intel: shutdown and core handling corrections" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
+
+--===============3647023825774586525==--
