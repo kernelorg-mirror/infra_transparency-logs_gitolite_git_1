@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3848432472513357395=="
+Content-Type: multipart/mixed; boundary="===============9065835198403854070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 23 Mar 2021 09:36:49 -0000
-Message-Id: <161649220993.23943.8956693655258344323@gitolite.kernel.org>
+Date: Tue, 23 Mar 2021 09:36:59 -0000
+Message-Id: <161649221979.24084.16738010690579804250@gitolite.kernel.org>
 
---===============3848432472513357395==
+--===============9065835198403854070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
+  - ref: refs/heads/for-linux-next
+    old: 1bd3e162a603c02a471ef7228196d6ce03c2fc7c
     new: 84196390620ac0e5070ae36af84c137c6216a7dc
-    log: revlist-1e28eed17697-84196390620a.txt
+    log: revlist-1bd3e162a603-84196390620a.txt
 
---===============3848432472513357395==
+--===============9065835198403854070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e28eed17697-84196390620a.txt
+Content-Disposition: attachment; filename=revlist-1bd3e162a603-84196390620a.txt
 
 7d200b283aa049fcda0d43dd6e03e9e783d2799c iio:adc:qcom-spmi-vadc: add default scale to LR_MUX2_BAT_ID channel
 d68c592e02f6f49a88e705f13dfc1883432cf300 iio: hid-sensor-prox: Fix scale not correct issue
@@ -332,4 +332,4 @@ d7f5f1bd3c240c4d527c0871a38dc3d61255ea9e Merge tag 'ext4_for_linus_stable' of gi
 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b Linux 5.12-rc4
 84196390620ac0e5070ae36af84c137c6216a7dc Merge tag 'selinux-pr-20210322' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 
---===============3848432472513357395==--
+--===============9065835198403854070==--
