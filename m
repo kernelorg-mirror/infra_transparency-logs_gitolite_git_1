@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 23 Mar 2021 05:37:02 -0000
-Message-Id: <161647782284.20169.8816477883935309184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Tue, 23 Mar 2021 06:50:14 -0000
+Message-Id: <161648221499.1173.6977361330909818295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
+user: vkoul
 changes:
-  - ref: refs/heads/dev
-    old: 8bbc1dd7fd4b8c92cc0545df74757951ca3413cf
-    new: 27cbc21bc1b24dd014f778e95711bfa91ac15564
+  - ref: refs/heads/next
+    old: bb877bebae0f38048e844aad9ed93127a5eecc5c
+    new: e6cb15b500658ef5e39c1e9170d7e521904752b7
     log: |
-         33417878a60c4e0b7135c428d5e8f663f70228bc squash! rcu: Provide polling interfaces for Tiny RCU grace periods
-         27cbc21bc1b24dd014f778e95711bfa91ac15564 rcu: Fix various typos in comments
+         4e3ea93e1399e808852b33753e0caf394b869ba3 soundwire: intel: add missing \n in dev_err()
+         0eb7c387e625f012fd951ff7530d51c46605e07b soundwire: bandwidth_allocation: add missing \n in dev_err()
+         7dbdcd611066879d1065e71351d72d6a30fd3402 soundwire: cadence: add missing \n in dev_err()
+         6122d3be2e9aa496434345dbe86c8ebe8084007d soundwire: stream: add missing \n in dev_err()
+         e6cb15b500658ef5e39c1e9170d7e521904752b7 soundwire: qcom: add missing \n in dev_err()
          
