@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6538256414856287434=="
+Content-Type: multipart/mixed; boundary="===============3950706801724043057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 23 Mar 2021 14:03:15 -0000
-Message-Id: <161650819520.32689.12160588304480680464@gitolite.kernel.org>
+Date: Tue, 23 Mar 2021 14:04:34 -0000
+Message-Id: <161650827477.4310.7117786711949031586@gitolite.kernel.org>
 
---===============6538256414856287434==
+--===============3950706801724043057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: ea718c699055c8566eb64432388a04974c43b2ea
-    new: 6579c8d97ad7fc5671ee60234f3b8388abee5f77
+    old: 6579c8d97ad7fc5671ee60234f3b8388abee5f77
+    new: 7f2fac70b729d68a34e5eba8d1fb68eb69b05169
     log: |
-         6579c8d97ad7fc5671ee60234f3b8388abee5f77 clk: Mark fwnodes when their clock provider is added
+         0b8bf06f67191e6a3184802a690d3f521c6d7e78 device property: Sync descriptions of swnode array and group APIs
+         7f2fac70b729d68a34e5eba8d1fb68eb69b05169 device property: Add test cases for fwnode_property_count_*() APIs
          
 
---===============6538256414856287434==
+--===============3950706801724043057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616508186 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616508266 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1616508185-830445185ea7d582f16e528c45cad496cb5f6767
+nonce 1616508265-1952d18f6571c1852567e7d7b5c536ac6dbed486
 
-ea718c699055c8566eb64432388a04974c43b2ea 6579c8d97ad7fc5671ee60234f3b8388abee5f77 refs/heads/driver-core-testing
+6579c8d97ad7fc5671ee60234f3b8388abee5f77 7f2fac70b729d68a34e5eba8d1fb68eb69b05169 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ9RobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cKwP/RskmL+LnUFupRp6+XRw
-aGRhJp21u7zrMdKKR//u5Bol6d9f1ezKSe0btn8eDSGazGhOdN/nnr0okIbqNY+y
-Uka2i9rMfxLBzHufvueacYuhXAtrHfBzYdbl4zMDSwVvNlbnKw6XiAyOK7waFKze
-DEyBDFjQ6lQeRA7bFXmtSw48cM38dLrzswGUDT5CLcSUsj+C0XMQKkEzRlI+6Rgm
-QBlM1FMAsqlT54Ep19N2VaB8c+AhYlMktPaOt8BpFgFmfZu28p4o3eGyBXSL2p3k
-Tk5yX6SKgf3MDB4iwhrj05SvcSg5zHvtILRCjwB5yJQb1tTTC9tvPgw2iCOkJCM8
-W8U6nUlAiu2WGCHmKrg4YoWTUpRkwxz8vBxnUVHwP6B7zuduUO+9xaVI56qhUVuu
-8wptq5aZ5ZhT55j4jt6og9PZJaQiBdLunvjCski810+WD7cqWdFmJvFSHV9T1gK0
-NNrHaxTd5c+ry+FVh3/XEihVeEzMd3fCiyNe2XygdCyKN+bRcowtfP5N862OhfpC
-rKJigDKLz6ZxRKT7sZllC081EUPV4XC952FOU7vP5+NHurFKtLjvfndC95uGekES
-AetwBN1v0s//HnrvGRs4jvtV09g9ce28EMcCTQ8/m05X7B2a8kmSZdI+jrvWK6VP
-C3IOKSYkotRwnxMmsPasvP4u
-=HFec
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ9WobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8YkP/1vO+us+/419FVHsRPsf
+AwviuMOUOvTmSkSNiZUGXp/i9o7j8I83zIOKQ0l70bJ6NdKCcm0JKbh2pj7Rb4ty
++UFFLCg3neW4dg9izUzAo/BTc85F20qVjJ18YOCgmA1UID5gDMsA/BCrWr2MI0fD
+0bwU8YmJ5prTtuD9LpWcR1EvP6L/NUpz7CFQ2BR8xp7MLGsaLyEMoeqg5ux4zNy0
+YX0KT398L2S6WNWW9YfbFUvsiebXyo/JdC3dvhOobMAuG5u2rd+BygxnoIuu5XOr
+QAKuTikIP0koLGsYe2t63C4zU183qRummUZmSTCUI7aSsp0u9QRgHGwfgZzanjke
+f0+xHTsEG4gThyVwVYarj8uVjQBMhn+A2yt+3tVvSsjwUsbaJOoCZdR1GXN4V+3f
+twoKySCFUrMm6lqRTnsdX/SnktaAu5sthixlSSOIOVsP4lAcdg32IpvOCIkX7fIT
+nLUzzQz+IQ5hZGv4S0yJk9MY4UEBkTJcZtnHYfDXDq/YvdgHVAbAk5zXzNb/hQPX
+ct+T1GHI/gWxIjnOp41PpzXVAXehLUZle/RavzoqV6Yn7dwZ3Ng8OuESWa2On7e5
+K/he92hMcfPdMvMTpmYo1x+eop62ezdjO4TzvTaiilzgVGlZqYnJjSlJNnDahFus
+PM2U0J7UgobP4D+272MHtpfe
+=0yjm
 -----END PGP SIGNATURE-----
 
---===============6538256414856287434==--
+--===============3950706801724043057==--
