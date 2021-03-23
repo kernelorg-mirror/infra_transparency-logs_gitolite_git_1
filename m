@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8840514673489797093=="
+Content-Type: multipart/mixed; boundary="===============3198791676408362904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 23 Mar 2021 14:08:14 -0000
-Message-Id: <161650849409.6820.5545682254221270139@gitolite.kernel.org>
+Date: Tue, 23 Mar 2021 14:14:23 -0000
+Message-Id: <161650886350.11706.9547024490859898508@gitolite.kernel.org>
 
---===============8840514673489797093==
+--===============3198791676408362904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 7f2fac70b729d68a34e5eba8d1fb68eb69b05169
-    new: 53f95c55349e75b73f69ce36b0ae2a83b3f28fde
+  - ref: refs/heads/driver-core-linus
+    old: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
+    new: f0acf637d60ffcef3ccb6e279f743e587b3c7359
     log: |
-         53f95c55349e75b73f69ce36b0ae2a83b3f28fde devcoredump: avoid -Wempty-body warnings
+         f0acf637d60ffcef3ccb6e279f743e587b3c7359 driver core: clear deferred probe reason on probe retry
          
 
---===============8840514673489797093==
+--===============3198791676408362904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616508485 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616508855 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1616508484-b922393c5854fc7bd78da5f01d5a2e7be1c287f0
+nonce 1616508854-20bedbb09d7bce4a203b2a9f99305b65ccd1eb20
 
-7f2fac70b729d68a34e5eba8d1fb68eb69b05169 53f95c55349e75b73f69ce36b0ae2a83b3f28fde refs/heads/driver-core-testing
+0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b f0acf637d60ffcef3ccb6e279f743e587b3c7359 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ9kUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+29MQAMo/dQy2vKRjQwKoXbPS
-jLJeuQtIdC1wITJtTx30en0n9F0pVjZVEb+bmEtp+lRQzOYAC8erPwWPlGmy1Y++
-ULtIUbKqULQY/FDDpuNZUwq/CFNiFjFkvS5wyUHswJOYZrfkaxbKx/y6oAfWz6SL
-qBhpiALUZo/NyCRtlOjGFKWaYHVOhpLKNBpFlKfYPYa7q0pnkpFclpClU2/dNCJg
-xHzXvsGx1Hw5nv45boETXbQmf7CHlNWPxJXuczW96aneAGuk4aUdHG0sEcURM5qp
-30Uqk42HmPLyYeDWILwEcTKWBIfJnZR2aZFCIgEdy7lt3P1TnUIoi+5623PZaHxc
-jp5JBi5gVaZSm6Qk/BoG2iNOdMN/JysqXxiRkf7XuEtLDSPMyBJm5XC13/ln2Qec
-E0+YClSteb1pk9dQVTAVn+IoP99kmsFfxV8RxknUxAyQDxSMTYO/U90vhQ4JX397
-0CnSWmb3dI3PJGJ8xjDjwDrNRY4s5YFXqrYT7nIkIYdb21bka6P9Dqvuu8aeVJ75
-TOPyxpwm9o6ExVBdlmrmqteR9u+GdL18AgogOwaEv2dUEu5Ti+mYlSp8Tgrwj7vu
-sfleHGY8Hwh5bRjn4dpYI+oqjG+QohgSyQtidBIGxWctSFnpkcYemC8gdlNCLEJp
-uVXWHD2SyHp5N3odsK+bwux1
-=XKfa
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ97cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+43sQANHXO5kaxDe1WjpLRAJ0
+X0TITKK+8rEYr0Ps7DlC4E0poObDVxXbHSK0+BF2wkdps2jH9cAjnsWoA1T3V5R5
+pZOfBr9QgCR8phgKBJl3CNEJTc4ebw5NK4bvnTb9jKrkg3i+u6Ee0RuhdSIWHnQz
+n4p4d/gEKQx0ZPsp1U7sQXSixVXY+uSxJQzjCokLLObhEcF1+mOOZz8yA7fyPoft
+MnoBmQMApgIPBo5ScVf2vw2NWwmV89l8v3aLVGgRPZz5nU5HcjC5/um+X7SFFC1N
+teRRSR5X/NJNwSw8mHlHGUDTaWodbFgpGlQEC5Pngr+QKOg3q7W4d01dfnhYso+M
+Epfocl4zli5OtfY/G05+Mauu7+sIXcFaPISOQjKL8FPKxPgNGnAlDojfpd8d0KLK
+qtoV2BsVVbzlrWRfR4G1SA5DqVUeVad07zainKWlTKSDGOdaT2eXo1m3mBWVbZb8
+/9bHnqplXdSRGXvizhqDLswiWi57gQhnZSTBIuQbVkgBUU3D8MDcWJlzpE4W4OQ4
+loMD9Ez4FbdxcnScdoTGJI5aHbdbrC86aNIQfP9shHnI6uTMVkZLOOf7LBo17cDT
+7IrvZSAtyPSSNdFoQMyprfzIynnkcMLdb9nJ+Au7Uni97Xi/U2WqLr6VUgtmvwsY
+2Vjvcw+UIsDcDf/Kquw92oEH
+=lmTf
 -----END PGP SIGNATURE-----
 
---===============8840514673489797093==--
+--===============3198791676408362904==--
