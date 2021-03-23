@@ -1,57 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============3543531456025277583=="
+Content-Type: multipart/mixed; boundary="===============5290021991147139105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 23 Mar 2021 09:39:54 -0000
-Message-Id: <161649239487.25629.13802427727326211719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 23 Mar 2021 09:41:46 -0000
+Message-Id: <161649250623.28639.7158599786119622523@gitolite.kernel.org>
 
---===============3543531456025277583==
+--===============5290021991147139105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/tty-testing
-    old: 214df75d5662c989eb309f95072d763ddd2508c6
-    new: 22fce66c19caab5a86b085d147a0e77aaf0ca638
-    log: |
-         c6a419afe324dda15b8a7e05597c4a31d0b8fc17 vt: keyboard, Fix typo in the doc for vt_get_shift_state()
-         22fce66c19caab5a86b085d147a0e77aaf0ca638 tty: vt: Mundane typo fix in the file vt.c
-         
+  - ref: refs/heads/for-linux-next
+    old: 84196390620ac0e5070ae36af84c137c6216a7dc
+    new: 17d69bed53b4c841e9cac7c218afe63ee7872ca5
+    log: revlist-84196390620a-17d69bed53b4.txt
 
---===============3543531456025277583==
+--===============5290021991147139105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-84196390620a-17d69bed53b4.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616492389 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1616492389-db1a20a6f27707363a260f7ac499d65ec35b2e56
+f774117c96f94c7c4d2f076e4cacc80218b0df48 iio/scmi: Adding support for IIO SCMI Based Sensors
+4ac4d146cb63cd4709c4729e5eca563e38106195 arm64: dts: juno: Describe PCI dma-ranges
+d9df28ba587f646b50a7e307bbb0e6f85c7deb21 arm64: dts: juno: Enable more SMMUs
+71a37cd6a59dc58df3f4e58db3f4f04c9e69da43 scmi-cpufreq: Remove deferred probe
+80a064dbd556cde36f0b7f1778e8d8a1dc50f19f scmi-cpufreq: Get opp_shared_cpus from opp-v2 for EM
+908a4f778dc7cc0087a862bf43c8bba8821b610c Merge branch 'ib-iio-scmi-5.12-rc2-take3' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into for-next/scmi
+3c4674cf60ec816e8f33c9dea2c1e43d91c8d14f firmware: arm_scmi: review protocol registration interface
+2ff87d1b6c7ace63d7b4a9c083c94eb816463868 firmware: arm_scmi: introduce protocol handle definitions
+bdc7d3958c2ada84fcee09b5592f0311cf6b2170 firmware: arm_scmi: introduce devres get/put protocols operations
+b53d07141cc5bde46eea012c46acf1455fb89584 firmware: arm_scmi: make notifications aware of protocols users
+c1c37e831ed6af50d1609dba6f9bfb7eaddf2ff8 firmware: arm_scmi: introduce new devres notification ops
+7dcb7bdaf6df55de4690919727e6c3bac627ad78 firmware: arm_scmi: refactor events registration
+53ef147c2b8f4410628f764d37275912dc1a812f firmware: arm_scmi: convert events registration to protocol handles
+efb19e8135aceae47671e197ed89411b88126a62 firmware: arm_scmi: add new protocol handle core xfer ops
+18ef53be95f87c9620c8ed29b5aea342e8c7e580 firmware: arm_scmi: add helper to access revision area memory
+98e5ea3c1720b7c7bfc932a0a6b930873990c4d1 firmware: arm_scmi: port Base protocol to new interface
+f95b5b9744403186cf02fc66f0f64e40ee6a03e6 firmware: arm_scmi: port Perf protocol to new protocols interface
+838065b52c1de7ce9ccb600cee9717a136de1240 cpufreq: scmi: port driver to the new scmi_perf_proto_ops interface
+6ffea0bd753f338427406f3311a6412c91908014 firmware: arm_scmi: remove legacy scmi_perf_ops protocol interface
+8131096111e1014dce5d5b5100dd203b7f824b95 firmware: arm_scmi: port Power protocol to new protocols interface
+c850ba90da14663b32770b2301ff0ea29b330840 firmware: arm_scmi: port GenPD driver to the new scmi_power_proto_ops interface
+7adbf1336edafa868f9021a69720c23e4233ab7e firmware: arm_scmi: remove legacy scmi_power_ops protocol interface
+d10e2f5708d7532ec05a131d03070b8fd3ccb305 firmware: arm_scmi: port Clock protocol to new protocols interface
+cf63a9f141a3adf03de0bfb9afb821454c439ab7 clk: scmi: port driver to the new scmi_clk_proto_ops interface
+16751599b139bc352dbb53158227162ce30ad232 firmware: arm_scmi: remove legacy scmi_clk_ops protocol interface
+30bc5ae14fc036a861df1bdf9705963122f228e3 firmware: arm_scmi: port Reset protocol to new protocols interface
+9b2f3dd3ff6257475fd23810c7a7717a74afc2fd reset: reset-scmi: port driver to the new scmi_reset_proto_ops interface
+eb5f4626b79def01872e82aec9deecb3b8de90ad firmware: arm_scmi: remove legacy scmi_reset_ops protocol interface
+14b8f9718ed7ca3adbb307ee5e55a0fb13bd5716 firmware: arm_scmi: port Sensor protocol to new protocols interface
+4a73c408c021eba18804b1c31702f7ee850f7a2b hwmon: (scmi) port driver to the new scmi_sensor_proto_ops interface
+fc91d6b6f0baa0159e9b6e28630f14c6971c61fb iio/scmi: port driver to the new scmi_sensor_proto_ops interface
+6c1b6d08f79d16e1d7cf32e1e7076e6ebd05360e firmware: arm_scmi: remove legacy scmi_sensor_ops protocol interface
+74376e9f220ccdbbfbea1e38ff638658990aea8d firmware: arm_scmi: port SystemPower protocol to new protocols interface
+61cf41cc000619e6b44cd7865343bf1921310d63 firmware: arm_scmi: port Voltage protocol to new protocols interface
+1beb576f10738b17c4b6154e16e4c60dea0502fb regulator: scmi: port driver to the new scmi_voltage_proto_ops interface
+468531d3206e80f82e9dafa3e42b140dcf1b3981 firmware: arm_scmi: remove legacy scmi_voltage_ops protocol interface
+d41a3a7b0e5187073a1128a45b15c9855dc42594 firmware: arm_scmi: make references to handle const
+82c9805099c9149c5a460c30dede1b2017594d79 firmware: arm_scmi: cleanup legacy protocol init code
+bba4a67c95cb1164f2b96d8ac10b55e3b3af87cd firmware: arm_scmi: cleanup unused core xfer wrappers
+f703716b6f4dd802a669af1ef78f9221e3b24581 firmware: arm_scmi: cleanup events registration transient code
+4d6ce61bbe97993b422b1943fd458b2014367346 firmware: arm_scmi: make notify_priv really private
+ccec0ee28aa11117176364911ff236a1dafff0fc firmware: arm_scmi: rename non devres notify_ops
+2e33cc8ad8d919bd2360d3d0767b2865f7589192 firmware: arm_scmi: add protocol modularization support
+6028c6640029bf5cdd8b6888da6cab81745d662d firmware: arm_scmi: add dynamic scmi devices creation
+768d93ce95e148a57b2e63674963fda72e2c6856 Merge branch 'for-next/juno' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+17d69bed53b4c841e9cac7c218afe63ee7872ca5 Merge branch 'for-next/scmi' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
-214df75d5662c989eb309f95072d763ddd2508c6 22fce66c19caab5a86b085d147a0e77aaf0ca638 refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZt2UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ct8QAKYSz/tWTQeYptKzpVdc
-Vd1qEWDxeJx1VZYiz0eDaLt0w82R2K8gPpY4RlDvKPnUordIStf3MSbAR+eTWXrH
-8dcTui0SlxBJxqDJWhpi6mxC3oKCazew9skFoZsTiHN1OSMo80tzUoxC0halLVb/
-2q+T1L9GAw64I6aVbP83BmVBOecZqnBwxKcgEvHK0R1LFerQyrPVhNYCbeCaKklx
-fZ9Dgd2FWCMe9UTcOUOItnv+ymiPYFXKi3Zzq4Dl+mMBthA6+DIvSALEmliczLfE
-53VTottCARJlrSZ4ZaKpKTboqChSPTLim3AhSfQdDtKup9rlMdRnRNQHYYAA2iET
-VO45U/1PhQp5/Byt5xa0T4A0qj4vWNL7N15CHgH4csKu7DneBZE3j7Ivwa8elgSZ
-ZZU6HHDt2IQcv7KbufaaMdH6h7Li+qZFwyAupeuGfpBbnsCuN/NelLhOYQpbVWZS
-Qln/Nd2vdaZr7OpmqQuE6djPHE3wr3fDVsf4keXfhb1YpOAp0xvFqPP+Y/rPe1cN
-arhKhfnxQsOn2+DNPcUT1AgDzoXSMQMMaBMxHrPeSp4o58r/ph7+QP6anXcouRv2
-c5mpJ4puJsrdy+IlIyxGH/0VpFyQxBszaM75Hdiu6dRyFtiHa20AE6d1BfX9KSmf
-BKQwgZ1e6VjEpa0NRqKMutxR
-=oyZR
------END PGP SIGNATURE-----
-
---===============3543531456025277583==--
+--===============5290021991147139105==--
