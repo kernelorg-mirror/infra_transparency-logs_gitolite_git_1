@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
-Date: Tue, 23 Mar 2021 18:28:51 -0000
-Message-Id: <161652413114.313.7506055435077973658@gitolite.kernel.org>
+Date: Tue, 23 Mar 2021 18:29:49 -0000
+Message-Id: <161652418958.707.15300994648323736886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
 user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: a43f0b634e714cd5cddff373b00c964a57e7b7fc
-    new: 9b3aa6d5c9b9b157041667c2e750d5fb625cf3a9
+    old: 9b3aa6d5c9b9b157041667c2e750d5fb625cf3a9
+    new: 163cef8b9013898bbe0d0b8d4afd25264e999858
     log: |
-         9b3aa6d5c9b9b157041667c2e750d5fb625cf3a9 wg-quick: freebsd: do not assume POINTTOPOINT mode
+         163cef8b9013898bbe0d0b8d4afd25264e999858 wg-quick: freebsd: do not assume point-to-point interface flag
          
