@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1933609455535131472=="
+Content-Type: multipart/mixed; boundary="===============4395079702889034875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 23 Mar 2021 11:55:21 -0000
-Message-Id: <161650052159.16037.1357983759398972548@gitolite.kernel.org>
+Date: Tue, 23 Mar 2021 11:56:27 -0000
+Message-Id: <161650058738.16440.17935575306143359997@gitolite.kernel.org>
 
---===============1933609455535131472==
+--===============4395079702889034875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 84770f028fabab4cb66188d583ed12652f30576b
-    new: 254cb1e0d78cfa2c189171cacb88fc85d915bc84
+    old: 254cb1e0d78cfa2c189171cacb88fc85d915bc84
+    new: d23922fcac48e57f3bf00b1dc4c9c0f5b4f6fe59
     log: |
-         55b74ce7d2ce0b0058f3e08cab185a0afacfe39e usb: gadget/function/f_fs string table fix for multiple languages
-         fb9b31e4ea2f55fc3acee29f30c7c65460df8996 usb: chipidea: tegra: Silence deferred probe error
-         f8cb3d556be31d2f41f54a7d7623930b05c9b340 usb: f_uac2: adds support for SS and SSP
-         c021e02357703b959e20c458d64b6d4e0d5b8012 usb: gadget: legacy: fix error return code of multi_bind()
-         3713d5ceb04d5ab6a5e2b86dfca49170053f3a5e usb: gadget: f_uac2: validate input parameters
-         a59c68a6a3d1b18e2494f526eb19893a34fa6ec6 usb: gadget: f_uac1: validate input parameters
-         254cb1e0d78cfa2c189171cacb88fc85d915bc84 usb: gadget: f_uac1: disable IN/OUT ep if unused
+         d23922fcac48e57f3bf00b1dc4c9c0f5b4f6fe59 usb: gadget: u_audio: convert to strscpy
          
 
---===============1933609455535131472==
+--===============4395079702889034875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616500515 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616500582 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1616500514-444b740d3fb1297fbf044df1c379dc5b0dccb578
+nonce 1616500581-774afb71b4e04f605d42b65c1fcaeca4d830effe
 
-84770f028fabab4cb66188d583ed12652f30576b 254cb1e0d78cfa2c189171cacb88fc85d915bc84 refs/heads/usb-testing
+254cb1e0d78cfa2c189171cacb88fc85d915bc84 d23922fcac48e57f3bf00b1dc4c9c0f5b4f6fe59 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ1yMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MAkP/2CL9ShS9zQSSWcxvj27
-4i3PLdQa7mtIaa3yUexLHHCyrVv0yFGobKFsKIdve3juEXtwFLmI9+NZ+V2MhMSG
-CK/w0fsuhOtb/HNYa8xXUFNTVwFI/cLRmz7OTa+ObwRPwABndfiQlJFCGN6hYZ7F
-0g69z/kJg07P0oDtjIXegbPXDj0VeErD9tlmRpiBsWsvan+PJ9wLemNS6c6xUygJ
-mkY/7GsPbSdIvAzzkmBxJjMtGODY+44c9PTUku7VzBh7GAQoCktfaenhJtGEt2j6
-oFZBQTq8bBrXFqab2T3lfmcAwu9gC7/iyIm2lQ/xzABb8TxUGI1VUl2gGdEi7eIs
-6vJhgn1NpvZH5oc/mu+wkdK/tQyj3Jd5ZmPiqJ2UvnZNVkdsYWA8Sgx5ZgyRCqRB
-W4rXYzcomm0QLVlIboAuadH+eLYhqIVzr/8aAgvcr2dPSemMXpPn+R4KtHStTXVD
-ve64TbmWsPiccSt7jVqNt6hIiLhWpJp88zeuDxoYeEFUIRJr3Pg4GEOxHbUg4PjJ
-s+1Al+hY/Rv3QHwLnlQPJVNJQvPxEjsqIOv8xcZSjc9Xh6mp2RPUkHRnXJVbyNbd
-3RrQGrOErsuyKBHK1eksQIdlfxmzrfS26kVoFU55tX1Z6CLtkZ5a6veTFVi9jahL
-DAmY6RD6g/+aEdFMPbyGEEjP
-=xQal
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ12YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lVAQAIpsmEYHkf0uN3CF3nqc
+e4AWeLJZUFSqcFjg72qjt9oMP0fldXWayjFqObmxV0XJWlK5XkmECJ1YoOUQdUo+
+cmK67R84x4wrI/ykrMfiGO/rs++mIBCntwlH1OKMrWJKMhXYeg5B8xHOKBWHyzeN
+xJXzTHUvGM3XFHgCE3aD1LdN4XIvqjhDgXKrzSI/cqsVW96gL/Bvud1Yggn7eIOM
+wvkgWo//93fL4QVvSWBVphu8L3tlIU2vFxCTb4yPf3BvTKFewIunZS/gWkJ+ILow
+RoJgXaFH7tug/IlYqo9GJ0BNVDN5zV9QWR0zYBJr7im0NDxLEJWvdW8qnDT14DYL
+W4sq29hirwS8iCRgyHTxlTjvg0npHHWFHDotU+AkF8OhCAUq4rEZDNRTXQrlApG6
+9M1R60smUADfdgN38vvFlXf9I//GDd4bhVxOH4jC+xV9hjkC405fA0vo+u7GA9V9
+FF6gGPdR1clzFdRJfkkvAuwoDM9n0pdO/RXo0GSlEIxYUW4dkpP7jTUJVFG2d2pA
+uUN+nYWWWYOoOWxcD3Lkj0Mq9EPYm0KfCgb885MpDJrQS0I2aWch16GBkj/1fohK
++DhwZ7ewWxSiriKQBAvPfO2HjQdcJ4dONSTDtq3YpXs/MUk0u0NO80Swu8xsX40y
+7gfUIMSsv9H5YXRGmyimI1sK
+=ikdV
 -----END PGP SIGNATURE-----
 
---===============1933609455535131472==--
+--===============4395079702889034875==--
