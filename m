@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 23 Mar 2021 16:26:36 -0000
-Message-Id: <161651679613.20102.10330344548525187171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Tue, 23 Mar 2021 16:38:11 -0000
+Message-Id: <161651749164.26280.1830772102978728098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/dm-5.13
-    old: c962a55c4bcd7f874165ca549c2157a396d5036e
-    new: 625e61dbd65dd8a9b9094b8f9972283dd5d9c02b
+  - ref: refs/heads/fixes
+    old: 262b003d059c6671601a19057e9fe1a5e7f23722
+    new: eed31b2332ed02ffb368eba7654350746185e6e7
     log: |
-         625e61dbd65dd8a9b9094b8f9972283dd5d9c02b dm integrity: add the "reset_recalculate" feature flag
+         9114cec38c2e50ff88167a5077178cfee3d7a1a2 KVM: arm64: Fix CPU interface MMIO compatibility detection
+         4af0afe252a2701732c317585f7c3ef6596b8f3d KVM: arm64: Hide system instruction access to Trace registers
+         eed31b2332ed02ffb368eba7654350746185e6e7 KVM: arm64: Disable guest access to trace filter controls
          
