@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5228194643596206528=="
+Content-Type: multipart/mixed; boundary="===============6144510835418769176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 23 Mar 2021 12:56:51 -0000
-Message-Id: <161650421168.23202.7361483907085761204@gitolite.kernel.org>
+Date: Tue, 23 Mar 2021 13:01:08 -0000
+Message-Id: <161650446845.25969.7221268427665408271@gitolite.kernel.org>
 
---===============5228194643596206528==
+--===============6144510835418769176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: bc30f6d2c0996966c04e8e7b571214b4ac681ba6
-    new: 8d28b0e72d83aae88a3f8c65aae0331263dd61d4
+    old: 8d28b0e72d83aae88a3f8c65aae0331263dd61d4
+    new: 2e6054c910fed81d68fa84e0d27a36b201fa752a
     log: |
-         8d28b0e72d83aae88a3f8c65aae0331263dd61d4 drivers/misc: sysgenid: add system generation id driver
+         2e6054c910fed81d68fa84e0d27a36b201fa752a misc/sgi-xp: use NULL instead of using plain integer as pointer
          
 
---===============5228194643596206528==
+--===============6144510835418769176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616504204 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616504463 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1616504204-84465b7d893d30e892bd7be1274ddcd707f17279
+nonce 1616504462-38783e13793397652eb73616870a5f105896d0ed
 
-bc30f6d2c0996966c04e8e7b571214b4ac681ba6 8d28b0e72d83aae88a3f8c65aae0331263dd61d4 refs/heads/char-misc-testing
+8d28b0e72d83aae88a3f8c65aae0331263dd61d4 2e6054c910fed81d68fa84e0d27a36b201fa752a refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ5YwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Vt4QAJiBK0LDT0hXKxHf8whK
-qAaUcxOyrlHGc8AgexST1frdZJ5/y2PNlFu0k1IdulNPQcKiKi3KeBPNWyiaG3E1
-O8fLThEcLB5wPlb/OktTl++ZBzdOkR4ciAjfBQbVeg9WewKrGGgLFoR5c7r9CLN+
-39G9fgsighS0QXtCWNl1UnXlMAAwq3rZUC/GPxpwRQILi5zV3GRx+XbFIJcZFotk
-u+jdOGvsYPfRtXjK5uQZsLff03mPlAWfcljHodIxlEWuawSLcZgMJtzv9IhblAkF
-1p5z/NuI40SB4S3cwR/0SQQnhMVXPddZZmpruIYHMmeh7h8ycRT2S6FaJFzBG1h0
-lUQdSWAeSTOV7AZyYjrB98DlMWLJtI5E2H+QtW8p9ZKFwJDayaFLR0g4mkUaGFQ7
-1zDBfOsn8I73rKuKd1Sss29ZHNv23fNnU43GTZqxeN9rH1gI42FqYRxhThEWj0vD
-xFtAl+lHvBcSvg7CDCxLYzuj2PT8ZApaRbd1l+enOf/X9pDLHZA9x3m+xVc4ou2V
-Jsc6mA4L6pYrSRq/lghCRYSTzjHbMmEI0GURP8WMZOZX0fVOa3QPK3jk3tSZHiov
-tpazlTp8pi0GqhhIkuUwzX09+vJj1r6MLpXieYb9qVM08wbqxHRya0OoOFA+ALxr
-pnmMa76Utr59hYZZpQvLvzb4
-=FnOq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ5o8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mI4QAIu2vHzixKaVMF0F7EQi
+vna4cL9z3phmXxWFWp2AB6DZOLUqfuDA7MTzMWp/TJczNZHFeRJ0iRMMT5DxsBpc
+kkICuyfzSzPUKd0nXITLCPOfIxVunogR+T1sBbyVuoT6v22HCSm/8iIdh9JUgBaU
+apk3uQbxlsidZ+LBltKTK7YrNQ6l0psdmfDJVHtGT9Rw2uR0AgFcCHaDa5sDvrAC
+unKvirkb7ql8W3X/pLHyq76NasgBk0b2S/0gElVzB3mcOIrIxMuIEsCa1tSyWt1T
+Iovs1AebRycFbhbrU9RZYl2yy25HqvP62ejMDjzHE0QyBBM5KCQU+8PV42LwakFX
+NrrZgLbhnghPdx2s3i/VXw0WSpDLGuLwERmM+gCGU3qlONi/mIB9FWokDQ8eSBEh
+LScKVl1oN6ZULZsjN26tRDfWBSbkrU0bHWruhBKnz3AmuWkLisScxJEq6P/mjddT
+rvQ9CeWh32IjawPIDu5NCvA6SJWJBKb5PMwRadTZ0apGka2Y01+lkJFM8lnMV5rq
+flpqBjYPf7Q3jsdLFmF3wIKosGrJRITgDQZ6pM7L2r3xZbaiKaHQdtUIcswXGQ0s
+BBhFLIZR+kLUmpz3jHreMtmVHuKxA5rARHINXonzG3YdeIw9V44buVwRFu9afJyq
+k5nhUoKMzYgi8I/B11TgLbdv
+=ptIH
 -----END PGP SIGNATURE-----
 
---===============5228194643596206528==--
+--===============6144510835418769176==--
