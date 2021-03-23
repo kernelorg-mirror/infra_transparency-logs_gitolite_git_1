@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3647023825774586525=="
+Content-Type: multipart/mixed; boundary="===============7401062669913454798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 23 Mar 2021 22:09:56 -0000
-Message-Id: <161653739684.10348.13083527384314255551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 23 Mar 2021 22:10:04 -0000
+Message-Id: <161653740461.11583.844879463614339017@gitolite.kernel.org>
 
---===============3647023825774586525==
+--===============7401062669913454798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: f9dc51cc6676e0360dfcb1836b3d426a3ccf3093
     new: 2c0d7f9186d06f1f3f6c52387195c8f89070af93
     log: revlist-f9dc51cc6676-2c0d7f9186d0.txt
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: bf939446c357242b3306e88c5f48976940d29679
     new: dfb81e3b5f47aa0ea5e4832eeb720bc22f07d0c1
     log: |
          dfb81e3b5f47aa0ea5e4832eeb720bc22f07d0c1 ASoC: SOF: Intel: hda: drop display power on/off in D0i3 flows
          
 
---===============3647023825774586525==
+--===============7401062669913454798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1616537390 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1616537394-9d280c67393fca26092c56dba03166a99d67e642
+pusher C3F436CA30F5D8EB 1616537397 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1616537401-f4121486adc40be0f29c522b06fd9666726d1486
 
-f9dc51cc6676e0360dfcb1836b3d426a3ccf3093 2c0d7f9186d06f1f3f6c52387195c8f89070af93 refs/heads/for-5.12
-bf939446c357242b3306e88c5f48976940d29679 dfb81e3b5f47aa0ea5e4832eeb720bc22f07d0c1 refs/heads/for-5.13
+f9dc51cc6676e0360dfcb1836b3d426a3ccf3093 2c0d7f9186d06f1f3f6c52387195c8f89070af93 refs/heads/asoc-5.12
+bf939446c357242b3306e88c5f48976940d29679 dfb81e3b5f47aa0ea5e4832eeb720bc22f07d0c1 refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBaZy4ACgkQJNaLcl1U
-h9Ai4gf/U/fYQrkUlDQvS2MHwRJmruUg9eHQYWDhyNujHoh+inan2r8j4x/ivXFF
-9aoKYynCoDVZ+CwFyinxf53iQO4s/kd41fShdNGmDH6wWGm8so8+BKaBKiF2r9SP
-5a6uwursa6jE9IGfK2UKgceqi8w/On56VSXCugEslYPEN/EYQ7Om2Qegg8Y/avWb
-7VOKuuYfhrJIpCh5dP4CidF/lF4ZE1EZQVzKAyuK3RFPivfTE5oQUl6m2Q+V5h6I
-q4XaKN1Xv5nZasfl+npBq9/MroRqTTUv8FMVyqqwVQ4lP1AygMnk5Bbfx2EknoyP
-bLI6mBEk/byIRwUOJpwZykokn5Cx3g==
-=f106
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBaZzUACgkQJNaLcl1U
+h9B13Qf+NEBBg1CWKsCxuiwsvmOUxgx0KDxz8bHDTZ4PhLCfPtdQxCgFNm/C532V
+DLnQHeesDWl9GyJ7Z9ELYJleIjBW+G0EU3QJ9ZeeMtUJdrNs0ymlUmz6yyvTBx60
++UaO8hLwq4EgbFBwDQtnafRyaszptcaoq9n+IvwY18SSiJ2sBOi1ARnHvT3hf5Nq
+kfeCDkQu+y7YmoZomamKCK2qJBcnYYRXq70yAvJEYC5S35Sfbhh9DQmXYthS/ZCr
+D4YIoq9D2cV3KIAK9mVPwQf7mdwkrSrlDG6JTMGssW0g363ldQDXITavQFFy3zLX
+0svzpoBbZmG4sWmYRD+908qcSkH5lQ==
+=GrQ4
 -----END PGP SIGNATURE-----
 
---===============3647023825774586525==
+--===============7401062669913454798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ d3aa96bf349882763b9903e5800d2e83fc086886 ASoC: SOF: Intel: APL: set shutdown cal
 16b82e75c15a7dbd564ea3654f3feb61df9e1e6f ASoC: wm8960: Fix wrong bclk and lrclk with pll enabled for some chips
 2c0d7f9186d06f1f3f6c52387195c8f89070af93 Merge series "ASoC: SOF: Intel: shutdown and core handling corrections" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 
---===============3647023825774586525==--
+--===============7401062669913454798==--
