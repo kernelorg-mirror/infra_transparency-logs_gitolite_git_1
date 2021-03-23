@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9068554976737513207=="
+Content-Type: multipart/mixed; boundary="===============3554436323213819004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 23 Mar 2021 11:41:06 -0000
-Message-Id: <161649966693.7199.17450045411109642201@gitolite.kernel.org>
+Date: Tue, 23 Mar 2021 11:42:43 -0000
+Message-Id: <161649976380.7860.4285230694430423066@gitolite.kernel.org>
 
---===============9068554976737513207==
+--===============3554436323213819004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 8219ab4c9a09bc746614daaf5240fec82e7fe0e7
-    new: 0c59f678fcfc6dd53ba493915794636a230bc4cc
+    old: 0c59f678fcfc6dd53ba493915794636a230bc4cc
+    new: 3af32605289e9f508cc40ff1046e15ac6c80d2fa
     log: |
-         8460f6003a1d2633737b89c4f69d6f4c0c7c65a3 usb: sl811-hcd: improve misleading indentation
-         a2a28c25c25a0d35517e16c37e2586de1879242c USB: core: drop outdated interface-binding comment
-         aaadc6aea6935e2f36c57056ff756fba0bbc4975 USB: core: rename usb_driver_claim_interface() data parameter
-         4e6e85100256937ccb60a67405db5112a33d8741 drivers: usb: host: fotg210-hcd.c: Fix indentation error
-         575b1ac410a2da1b76c9662dbeb8e500d061fbf2 drivers: usb: host: fotg210-hcd.c: Fix alignment of comment
-         0c59f678fcfc6dd53ba493915794636a230bc4cc usb: dwc3: gadget: Remove invalid low-speed setting
+         3af32605289e9f508cc40ff1046e15ac6c80d2fa usb: renesas_usbhs: fix error return code of usbhsf_pkt_handler()
          
 
---===============9068554976737513207==
+--===============3554436323213819004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616499659 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616499758 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1616499659-601edbc3c759c5f734c0b3866d9a4c3bdd562470
+nonce 1616499757-6688d1110aaa355e01da6942b911d08fe36f4a41
 
-8219ab4c9a09bc746614daaf5240fec82e7fe0e7 0c59f678fcfc6dd53ba493915794636a230bc4cc refs/heads/usb-testing
+0c59f678fcfc6dd53ba493915794636a230bc4cc 3af32605289e9f508cc40ff1046e15ac6c80d2fa refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ08sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iLIQAMNsfyshzx3l1Jyx96ol
-C4RRiz1XaT/k8aGJ6//Ks92YQyXdPgwec6nnIGO8NOZApjieKZrsEAmnfqaw1MzH
-1lt3w5CZk/0A1FC44vk6soOGtoDHwx5Xa0LGfDirtn8MDvi61n/OU8+H5G1isGLN
-yaceYUgeTnxiguJHPeyP6lEyIgTfNCHW8xkYGNxwbovPmh30UGbnyiWemQ7sP60d
-Dc3VuR6esp/71aGivQyQB+mM55VmraHy5gK1t9WdyQc8128e4tl6gaVkxUXIM20f
-cXEcrT8pMPGrqkC6pH+PxbZtjJxiSEcAPs8tj5iURmAQoqQ5QPFLQfsoEjaSw+Zg
-u7fcVOqQ5VFGdEUbKa9I13SkXKglFcc8lRcbqwuUXzSp/FxbcPwqRa7FPErELGzi
-wPGRfYw5cS+cbySacm3tdk+cZQbpr2jW/1ATg4zlKd2d42rq78n4b7Lt5DDNkef3
-iE5GG3ANveBo63s15KAzDt7E3VbKXL5D/n532YwgA+7Q2b12OgifEOp6fgTIxNqo
-pmgZeEIJPxWoYf9NGv2FW6ZLrY7tJnARgweBxPpekMvGJimelyyq5RqyPR7vxzvI
-Ush2xzWDaToI143fqcMZG7bc/ELjTm3PhUnUkqG8E0zXe9Xo6HrKnhfmY97LOEAz
-JtxULF5baS0JdWs+oECWVlwr
-=WpJJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZ1C4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Lb4P/i+csA6pJrG9HQu/xAwy
+vxPhW8nJd6lzvX9jiEBI3avzFonUhL0GFLGF6qfu1DCNl1JF7Sp+4h0aUpH+e+tc
+d2O4FkQJocm1rgadqJVNCYyM6G61IJEVNSM+LzBljVBiibT/0QZdkLklmWyQaJ/A
+fhOSlpjgyval9dZHWwWxTi3NPReTxhA4bTo0KMzdt5lVkWSZDWBc3sLNRha9FhWq
+BOGX1KqYCR5HUTHGvf+f7XsoGXF+se4I/714Xo6lJOOyGaMwS6vZ4P2WqMTyqfrL
+hWtkN3Cr3y4Gmy5Yu6aGN2RXYAUrIZofk1DVbWBRKs5In2zUhYJmmds5HC6yDtXp
+y0wVwNy/gNbgsRPaQHhTxSJR5HMVJHwml60ctK3Kw3cmSia5S/UhGbcFbtdOsXpr
+V3gQDtqiP9WX7nSkoaEW0DjPN0dCHXeVZdjpL31Yeq321jsTdYr96zui9vQRz00g
+/sbPkB/0MkjzUxvU5GkOuX5w9PbZ8z5LLUOrcF9fqefJQjh8cZNEEk1t+QDNMD2z
+cwkKH+BzN9yBuSVU+9oAaE+aEh/LNdDKjtgvQr2jqtV3e0qPk/1YIudks6OV66e2
+WWKjKMF78z1fiyid8kMVQ0Cudde8Jrpg/DMCMjn1JFnaESSLXWGspROgCFMuHiEE
+Q8aoK4/QBp2Au4eXU5U4Z+1/
+=KKPE
 -----END PGP SIGNATURE-----
 
---===============9068554976737513207==--
+--===============3554436323213819004==--
