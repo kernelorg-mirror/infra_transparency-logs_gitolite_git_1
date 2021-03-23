@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4353807105688132490=="
+Content-Type: multipart/mixed; boundary="===============4893628166594830157=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 23 Mar 2021 09:26:36 -0000
-Message-Id: <161649159677.17701.3186431164103473143@gitolite.kernel.org>
+Date: Tue, 23 Mar 2021 09:28:46 -0000
+Message-Id: <161649172650.18444.9854021475299790096@gitolite.kernel.org>
 
---===============4353807105688132490==
+--===============4893628166594830157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 77124a427749fc0ed63c818d02f18dbf3a9fcd11
-    new: 0ae798fd96f8c28850e09d22d3f0d455071ed8eb
+    old: 0ae798fd96f8c28850e09d22d3f0d455071ed8eb
+    new: 1657ca6e28fa781ab3a8e1fa0223688f5e1edb43
     log: |
-         0ae798fd96f8c28850e09d22d3f0d455071ed8eb vgacon: drop unused vga_init_done
+         1631eeeaf084acdc29ca0370db8ea436692f71f5 serial: stm32: rework wakeup management
+         c0f3332cb5f2e370c041594fa1ff59db4ee68925 serial: stm32: clean wakeup handling in serial_suspend
+         986e9f6038575d447393d393dc2022a91488110a irqchip/stm32: add usart instances exti direct event support
+         3d530017bef1de7f7773eb9d3c65fbce924894a2 serial: stm32: update wakeup IRQ management
+         1657ca6e28fa781ab3a8e1fa0223688f5e1edb43 ARM: dts: stm32: Add wakeup management on stm32mp15x UART nodes
          
 
---===============4353807105688132490==
+--===============4893628166594830157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616491591 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616491720 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1616491590-93c1cfd0761bc48981636c4275a5e8bd7893a9b1
+nonce 1616491719-8496375f1f1bb8762b1947e480380abafcfd7875
 
-77124a427749fc0ed63c818d02f18dbf3a9fcd11 0ae798fd96f8c28850e09d22d3f0d455071ed8eb refs/heads/tty-testing
+0ae798fd96f8c28850e09d22d3f0d455071ed8eb 1657ca6e28fa781ab3a8e1fa0223688f5e1edb43 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZtEcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0rsP/2R3DoC6gEJrHb3k0pbt
-NCyUA3fFbv302cV9GbYLnEcoZGEqmmA+4Ef5b3p4mpmuPIlPL501kQVsHVgzWftC
-oRaXSjcwGe45hPwd0D9zWUPNpYmpBX31UmeVwtn9arVI9JlAKBftYmuhIKCDwjoj
-wfEZ/ERXSCcrivPGbxKetW4v2PN0MuQgTRhQhvDql9ILpZtVHV75mNKcoBfYUQRl
-KBFR58MZIicuM5Uja9ZFwLTHW0pmuyRkAilbtf2USt7f/i9JV00l4qTB3yPd087H
-lS/JaoqOuBZBpD4K/vgpqEUSjR+7PzrGxDWXvlTP8xuCRnHgiS12q3lLmE+8RfdD
-w4OSqLK30eHhL1Lla/z8Ian8EwTGczTh3sfDdi8Q/Vn/Z9XPqOfh9O3yfq+Q7CmF
-h6BE6U83ag7qwDHcwFbrVhPaEp16Na0baXYPzkcAW/XG0r7iYqTN5gw6n59zh8JR
-Unmsd8PUBRxB1SEUHsJHCbfwVJuCXJ+lxFjOsX1GJIkGvQSnJy8vDzeaFXRnBtYH
-byC3EBScKjNong41wlSqn5f2XFDV+FUJa+iCX8c3I0dWItd8+Mt5sIwgrbj7ORoH
-U6kSK/Kzr3pM5LV+/Ifsw2W+y90ghiw3rPAVN8lRP3WvphERLq9JGkaZzaI6zELT
-G0o9WKran5J6Jd85gFtucjNe
-=89xT
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBZtMgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DJgP/33mEFBrsNdMG+mhcz3K
+mLU0McG66ksUFgtDc2jT5b4nXUuVLTyMtwghJfx+CnLMio0HLOWQST028IoZR2MO
+umAyn5bESTRD9rEhi1Gwf4werulm3eLb4qTOwVph5FYo4dzIom1g8mafnrVm4PgU
+8NAiX6VXKRCdvuPxoWm3o+AGWzIxL45TTXJPUeY1PJdVZblLYRGGEk2rVcxcKkIl
+SopuplyNKfMXAv7NRkJSc8WiGbgp1iGlk7tcYWg9wDv7Hq6OtpCvMTq8XE4iptG9
+sE2iPetFzfcxiUmYfxy1cNRKw8b1gIP5nqGodqt//d7HKgOiaWV4wMx/YArGLhDV
+9gKJwAMIBbj1dPWQY5h1YfLxn4yrg9DYY182mU9zM6hv7xjDrfBZ2/a/ZVqvqVho
+l63dnzRABg8MCvSSOp+g9se2oW8gebz+KvxNuHTag6DKPL3gVVimqYL+IUxIHuT1
+YHmtHH8PrrRsfwOuI4KfOF1NkOAxvMzHChu0BSNpoZnsRtLzASHUsDNvYZstlmhO
+Hi+2Uqq1Py+4FLwZ0AzP8TB+db2RkzAl8uCVcTaQxFoVmpiYh9T8ZMATtWDoW0Z1
+ZjuHS3//ujPxGQQI0y48S/Ti0K0OSg02K4kj1n8gW4rkUSAIqohbRXSgkqyXRZgX
+D73sg3h2aGW6geMUr+xiMP71
+=74KS
 -----END PGP SIGNATURE-----
 
---===============4353807105688132490==--
+--===============4893628166594830157==--
