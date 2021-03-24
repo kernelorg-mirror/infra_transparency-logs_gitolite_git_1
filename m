@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5230643979697767028=="
+Content-Type: multipart/mixed; boundary="===============0432688455256000681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 24 Mar 2021 23:29:49 -0000
-Message-Id: <161662858971.9121.8230295509305012896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 24 Mar 2021 23:29:58 -0000
+Message-Id: <161662859825.9266.2720542990046332242@gitolite.kernel.org>
 
---===============5230643979697767028==
+--===============0432688455256000681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 2c0d7f9186d06f1f3f6c52387195c8f89070af93
     new: 632aeebe1b7a3a8b193d71942a10e66919bebfb8
     log: |
          aa65bacdb70e549a81de03ec72338e1047842883 ASoC: intel: atom: Stop advertising non working S24LE support
          632aeebe1b7a3a8b193d71942a10e66919bebfb8 ASoC: intel: atom: Remove 44100 sample-rate from the media and deep-buffer DAI descriptions
          
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: dfb81e3b5f47aa0ea5e4832eeb720bc22f07d0c1
     new: 3f994c25868729fb63a4eef42a7040e563eff365
     log: revlist-dfb81e3b5f47-3f994c258687.txt
 
---===============5230643979697767028==
+--===============0432688455256000681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1616628581 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1616628586-57587a3e7c7ba7761182551ba9373c078da1088d
+pusher C3F436CA30F5D8EB 1616628589 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1616628594-4d8573f07d1b4de174a5fa8563575dbd5061af38
 
-2c0d7f9186d06f1f3f6c52387195c8f89070af93 632aeebe1b7a3a8b193d71942a10e66919bebfb8 refs/heads/for-5.12
-dfb81e3b5f47aa0ea5e4832eeb720bc22f07d0c1 3f994c25868729fb63a4eef42a7040e563eff365 refs/heads/for-5.13
+2c0d7f9186d06f1f3f6c52387195c8f89070af93 632aeebe1b7a3a8b193d71942a10e66919bebfb8 refs/heads/asoc-5.12
+dfb81e3b5f47aa0ea5e4832eeb720bc22f07d0c1 3f994c25868729fb63a4eef42a7040e563eff365 refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBby2UACgkQJNaLcl1U
-h9CKywf/f2snPAkidczXy9ABgbG+TVo0nnj4r6AAjBtcqtWTS3siqNkifP/FYDyz
-nlf6pHxp1iO0x6b9ZGZWzNjUV/gvY1xtvmr7Z1DZu5OpwpHVQmtEEq9untj6s776
-vBn5NKXgqJNEye2KQ0VohIu0nyzVttAPO7Nrk8GYDWniV3p14RyPERng71YoaQC/
-QlefAWxV+RJoaMVmZ4tX2XxGawIhMJr4Lumyj5JkHt+24XkiaCoswpr7F2q51TP3
-EUT6WzncCll7LTSHJNMXTiMfdcW3Zu/uBtFCDiFO7yjQn0qoxSH0ZhUHV33HS89z
-sN1pnt2tC89sF7fcixBAHIfNAVGrLw==
-=tpZL
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBby20ACgkQJNaLcl1U
+h9DV+gf6AlhGjnMV46Uk9kZDyYJ6gzU1Eoki3YpkJaoqF9Csl1KmKzliwu2rjJuS
+DojBDaUzfp/Rjejd7AX8fTq8XIc8fQf5Qu/td6AKENhg6xnXUkVidXtTFa5Hghl/
+6yCHqvUue5D3iO5VWbga5p8owr43ZjQ2KTWmWTniO15sEr6B6Ue4R2q0eGR3xpnk
+ibMqC93amO0aYmY7gNTZclKeZc6qR79Vh4E81gNl4SbIvXxmCEv6i6hFjnqJXaNI
+xG6EfUrh5ULpxem+cY+F81bb4UEstEGdtTafdqu5rNk+Y5qLV0X0XxGH5yH88T65
+2lHeQKfGeQTCH0iczteZtF1X/26Zyw==
+=SADZ
 -----END PGP SIGNATURE-----
 
---===============5230643979697767028==
+--===============0432688455256000681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -81,4 +81,4 @@ ffcc84b9e814c8654e15e08816d0078d521a2724 ASoC: arizona-jack: convert into a help
 ecd77d494ec995fb07102b408954c94f38374084 ASoC: Intel: bytcr_wm5102: Add jack detect support
 3f994c25868729fb63a4eef42a7040e563eff365 Merge series "MFD/extcon/ASoC: Rework arizona codec jack-detect support" from Hans de Goede <hdegoede@redhat.com>:
 
---===============5230643979697767028==--
+--===============0432688455256000681==--
