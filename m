@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6673935753643404963=="
+Content-Type: multipart/mixed; boundary="===============3345627244734188981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 24 Mar 2021 07:27:12 -0000
-Message-Id: <161657083222.5491.4068918221682999048@gitolite.kernel.org>
+Date: Wed, 24 Mar 2021 07:29:02 -0000
+Message-Id: <161657094251.6144.17268748172648046888@gitolite.kernel.org>
 
---===============6673935753643404963==
+--===============3345627244734188981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: ef9746e3a0694d16816296262c5fdf348f1f0acc
+  - ref: refs/heads/char-misc-next
+    old: 83be46e944f630fde26ce03cb93f61a3066448e3
     new: 95e04eb04c68b8a9f71ff09abea1ed617a67a0a2
-    log: revlist-ef9746e3a069-95e04eb04c68.txt
+    log: revlist-83be46e944f6-95e04eb04c68.txt
 
---===============6673935753643404963==
+--===============3345627244734188981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616570819 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616570930 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1616570815-c01c09d80e3061ee6f7184b2d3f2231e0c1bbffb
+nonce 1616570928-90a50f9d8d266d297ac49b43d744b7565104f093
 
-ef9746e3a0694d16816296262c5fdf348f1f0acc 95e04eb04c68b8a9f71ff09abea1ed617a67a0a2 refs/heads/char-misc-testing
+83be46e944f630fde26ce03cb93f61a3066448e3 95e04eb04c68b8a9f71ff09abea1ed617a67a0a2 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBa6cMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T4EQALx/2F1f2eAbZJhV4lZ3
-cRoaWKHVvz0PCi+XEqPqc5DbAZ1fbu4U+Zw4jPLCMfl4ZHhs1CoNSwo+OA5KDVS7
-nUgMfmIeG+46g0KUiB+hFOhOHKQyX7UR1Wx7fXKsYbVmFpTIoePFskKPmZ/Ehh6r
-mpWe7J32ZNHPOxcEx12C/zmXhRrLMjSUqlWSrFvJiLK5Y5GGzi9uTaL9b+tOJ72u
-4r6RARCuD949wRqLf483XZPbHcj5bsUVeg9N2mpAeyYEsT4E6Kg6CkOvoAQgWxSb
-DxmyrfaVxyvVh7OQc3VuYWyCgpcVCf5ZHRDnptNyrVXsOJc4TQNaFUIEiSsolvVG
-njQqAp7E/nNXAMwQisQEaoEZR8gzK+qPbyKLi3t4CrBGG2oZm2QOoUrE19EqEoqv
-3nhf6aU5Lw2GocB0gDU9nl5OAQ6NwSk+Zvgw6GWbvhQ52S0IPcNI5az98PoLHvh0
-7tDCpaZOojk3vkPYbugmDnBF219FR4iAKxMY7U+MGJogZ/OksZ9RCc3gZVbBQVoy
-LRA3E88a2ROndfWUtCRzXoHLikiS4FOkYSiXDSHuOr9YXzbKpvvxYFmwtFsLhYAa
-vsNFebjGcxAT9B85vM6GIC9XOkV5DIdU+y3IbDKQJ/EwW7gfCKrwB7kKpwhBSepu
-g0Gpxb39JfxXkHGHQrEdKzyS
-=xOZu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBa6jIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8fsQAJhqnfCrpJBLc9I9eNp+
+C76pEP7amve1Sw1pbNqIEFOcotsBM/ylj/mV5/ViepBFUDX9DSvvhOgP/A1XDWC3
+krqd51MBTxfZn5PBX0JZjzB8elZTM92eExScNE+1SUdvsf1yfGsLW2UGEP2Ii4eX
+/xAM+ZHfHczfgEWwBhOsw4Ux2y4bd45kSaROdm65kdQEw/aI1ZKyp9J1n+N7CWFc
+wtgtG7AXiRB1kkYclckiWT95QkpRKGUHm8a3vNy84sAyVAGV++uOx46rWYCGNzXP
+G3mYsCoZU3hIU8oQwhTb8yaAVmmNJCS3vbFRk+xIAdbbP3O7MATwQfeBslA48Pw3
+MuRqlDWg/ZjgnyY8Zbab6Q1jnj2iELCyFYK5/toQjJ4LeevMN5xRW7B3umQ6f3+O
+oyTHVlLSk985RsCkzyM4IXDdbLnZxMydEsO6cIH1GinQMqOxrIiU08v/Tyg0Dz/k
+7rLvAmFAOAjg6V6Z4M2nN7E2RBThTQAozPZpSqOen5vc0Gkrjzh4Y/E1eI4PZ6Ql
+q3vUCML8YoNBbX64DROJx+p7cqnGPa8Z1LQeolrhJLctnqJqi737RUsNsuRYEPWK
+PD5tHtUN80dglxPailroDrniCdk0DLPASeRpyUq7l+y/GWuqIa19ZcPpk+Neco3c
+heIUBbboMT/ZU2GHRM6hDZmw
+=/VYa
 -----END PGP SIGNATURE-----
 
---===============6673935753643404963==
+--===============3345627244734188981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef9746e3a069-95e04eb04c68.txt
+Content-Disposition: attachment; filename=revlist-83be46e944f6-95e04eb04c68.txt
 
 ce453ee6df018a8522373faae56e6032045a9606 fpga: fpga-mgr: xilinx-spi: fix error messages on -EPROBE_DEFER
 b5c6ecfd471ead372a158c7ca9167e4dcc2a1deb fpga: xilinx-pr-decoupler: Simplify code by using dev_err_probe()
@@ -87,4 +87,4 @@ ee89646619ba07d054348c0240da4b953cd1e72f pps: clients: gpio: Get rid of legacy p
 6b3bc8286529a78fa9befa329900f847ae02cc0c pps: clients: gpio: Rearrange optional stuff in pps_gpio_setup()
 95e04eb04c68b8a9f71ff09abea1ed617a67a0a2 char: lp: remove redundant space around (inside) parenthesized expressions
 
---===============6673935753643404963==--
+--===============3345627244734188981==--
