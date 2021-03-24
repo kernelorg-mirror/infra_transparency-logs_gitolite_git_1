@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1672101471163822995=="
+Content-Type: multipart/mixed; boundary="===============5975970266346958779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 24 Mar 2021 23:22:16 -0000
-Message-Id: <161662813699.4959.156513040297838674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 24 Mar 2021 23:22:30 -0000
+Message-Id: <161662815022.5162.10045227507003332331@gitolite.kernel.org>
 
---===============1672101471163822995==
+--===============5975970266346958779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 86ce2825e6abf27865785b8cdb26ee59978ace99
-    new: 7ca6651c9eeb2ea0e26c516b40d1ecf71a7322df
-    log: revlist-86ce2825e6ab-7ca6651c9eeb.txt
+  - ref: refs/heads/queue-next
+    old: b9568ac06e0e43250ac38e325d7142538492d93a
+    new: 1025decdd1dca13989ebc2197a60c8b8e6e1ac62
+    log: revlist-b9568ac06e0e-1025decdd1dc.txt
 
---===============1672101471163822995==
+--===============5975970266346958779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86ce2825e6ab-7ca6651c9eeb.txt
+Content-Disposition: attachment; filename=revlist-b9568ac06e0e-1025decdd1dc.txt
 
 31254dc9566221429d2cfb45fd5737985d70f2b6 selftests/bpf: Set gopt opt_class to 0 if get tunnel opt failed
 abe7034b9a8d57737e80cc16d60ed3666990bdbf Revert "netfilter: x_tables: Update remaining dereference to RCU"
@@ -441,5 +441,7 @@ a28cf48647efb17c3fba778d9d8dd060ed4fa739 Merge branch 'mlx4-queue' into net-next
 f304d257537db9fd021f4f4ef436825caba987bc Merge branch 'mlx5-queue' into net-next
 c68698f75539a71d41fa089b8a43ce3d5b96a1bf Merge branch 'mlx4-for-net' into net-next
 7ca6651c9eeb2ea0e26c516b40d1ecf71a7322df Merge branch 'mlx5-for-net' into net-next
+e0aa8c930aa55fedac7577f8585bf8fcfbf07fdc Merge branch 'net-next' into queue-next
+1025decdd1dca13989ebc2197a60c8b8e6e1ac62 Merge branch 'testing/rdma-next' into queue-next
 
---===============1672101471163822995==--
+--===============5975970266346958779==--
