@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6551923640838445984=="
+Content-Type: multipart/mixed; boundary="===============0162019658878845511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 24 Mar 2021 10:20:28 -0000
-Message-Id: <161658122836.19275.8687007019225516824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 24 Mar 2021 10:28:01 -0000
+Message-Id: <161658168144.22842.15743228304815832240@gitolite.kernel.org>
 
---===============6551923640838445984==
+--===============0162019658878845511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 308a91fa2ced925fc3a973a448739a71bd67d271
-    new: b7b2feb44c61ed9d9017a941dde32b0b655edea3
-    log: revlist-308a91fa2ced-b7b2feb44c61.txt
+  - ref: refs/heads/master
+    old: 17c5c83ff28b93df205f560340d53da37aea66f5
+    new: 9b01945ec902c98d2a6381d556def77a9f61212c
+    log: |
+         9b01945ec902c98d2a6381d556def77a9f61212c Linux 5.4.108
+         
 
---===============6551923640838445984==
+--===============0162019658878845511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-308a91fa2ced-b7b2feb44c61.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8ca3469759061ca5541eafa7822a00d4d5b2148a mmc: core: Fix hanging on I/O during system suspend for removable cards
-bdf1929d4eb1cfef65331173651fa9186e694360 memstick: Remove useless else branch
-a04cfce00bf28179ffc81578594f9be8f43ded73 mmc: sdhci-esdhc-imx: Remove non-DT stub
-69a8fb3fe94dbce94eced1e8ed033f4e828a719c mmc: sdhci-esdhc-imx: Use device_get_match_data()
-f7181d2d558957003db2da5e134ad5d75ddfa84d dt-bindings: mmc: sdhci-of-dwcmhsc: Convert to yaml file
-a3eefc8be3a8f7a9a2e1d79ef6cfa3343b5b366c dt-bindings: mmc: sdhci-of-dwcmhsc: Add rockchip support
-4772724a3660662782f4eab4e46fb99fc0aaec0c mmc: sdhci-of-dwcmshc: add rockchip platform support
-154df0b45e9ea5131663ff2762ba5b442c9c3241 mmc: tmio: abort DMA before reset
-6e4762d9da60302ca7a09fee81089ae3074d2e13 mmc: renesas_sdhi: break SCC reset into own function
-9bedcfaebbf72c568475301da9c74aee5cd8928b mmc: renesas_sdhi: do hard reset if possible
-cdc39ce1793c6be2044e749cf9669e37af008f81 dt-bindings: mmc: Add compatible for Mediatek MT8195
-3b9be1000761137162b5ffcf444e63e92c8e466c mmc: sdhci-acpi: Add device ID for the AMDI0041 variant of the AMD eMMC controller.
-992ff63dd0d88a76b494e8788ff6376c5ef32386 mmc: cavium: Use '"%s...", __func__' to print function name
-326535641ba0226019357d03a4ab38761e9c11f0 mmc: tmio: restore bus width when resetting
-396799abae0fff90425caa62dc397670d2650978 mmc: tmio: always flag retune when resetting and a card is present
-a49721b722ff423ec8f5f58ed18413c1e3dc618c mmc: sdhci-pci: Add PCI IDs for Intel LKF
-9a329ca29777b150316bfab56d146b61939e3468 mmc: sdhci-of-dwcmshc: add ACPI support for BlueField-3 SoC
-bd84498cd3e20422399da6894688ae7c784d4dbc mmc: sdhci-of-dwcmshc: fix error return code in dwcmshc_probe()
-4137f3ad5494acc1624667f51890e5ce8cbfd59f mmc: sdhci-of-dwcmshc: set MMC_CAP_WAIT_WHILE_BUSY
-b7b2feb44c61ed9d9017a941dde32b0b655edea3 mmc: sdhci: replace mmc->parent with mmc_dev() for consistency
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616581680 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1616581679-d1a128ec387880cc62de5c554de95e7733a287de
 
---===============6551923640838445984==--
+17c5c83ff28b93df205f560340d53da37aea66f5 9b01945ec902c98d2a6381d556def77a9f61212c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBbFDAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RscQAJl2gAgS+5eF2iZTP/h/
+Zo5G0w2k7lCUbtEE/d5qKbB8N/kL1ooWMo8ikzSdmczA6QGJ4LROO9H90CdmzD4+
+ET7HWJMieIX7lwbnuZbHXf2at+fQ615o9eBHS1dy6Q38GUQqjJ9VQ3Ga+rbGiSYn
+wWyWgjYBc5cyR9tbBz1aAdQs4y/i5gfud9gZvaFbLdDJKWp5Q4qT07/QhYbsH2qK
+QBITgkgN2K+hO4LJxgvG9/TDOGAOuGUuK+BD0aHA8JWUS64TDQOfC6XLHest3qtK
+f5opd7QFNmhVJpwwIlLgdJV+kMVA+JLFQ599QDAKEqZfrBGrTXhZuBX7crW7OWe0
+l7/rrw9X9CkUfnPZdayu+oH/1JM7wGEzD1mvlpt08+8ky1kz5fLS4wD33gk6i4hI
+RNNdgvuoL+TtmLAH3gCXXbiMIbdnLiHqYtUZO0THeoQZSgZ7vLhBd8g+T8IZgB+a
+oZ8MuO59GbTz8H1cAOlzTGUmYgicd4s4yDdKttMRkmcYKYdCICbjS9c+CGX+RY5J
+93FrqUAHzH+S6uUsaiXJRpOlKSgVkZJdsUqtGN0rXr0+r81O1K2i+y/SCkilghz/
+d2fqdKicWiHHQ1hwus51M6kWR9dQsvijEpPp4PHW7XgT2YpiRicuMPFmKwrC2+lc
+2FKOSMrolwcrG1n+Wbo8O6Mn
+=GCiz
+-----END PGP SIGNATURE-----
+
+--===============0162019658878845511==--
