@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 24 Mar 2021 16:56:36 -0000
-Message-Id: <161660499648.20482.1397318029965795582@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7200342242359752774=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 24 Mar 2021 17:25:57 -0000
+Message-Id: <161660675770.6755.6723936623808896251@gitolite.kernel.org>
+
+--===============7200342242359752774==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next/core
-    old: 9da2c4414bbe845dda74817574f1f13d82143149
-    new: 8534daf5cf1641c922842a25591c41cbd4e8ef00
+  - ref: refs/heads/master
+    old: c1a2d971cf6a465987970a6fc91b72e66439611d
+    new: 74b71abae9c744acf447ae703469bb58e514c9a4
     log: |
-         7cd6ca1d7902260b54528054d729f2a3b27e5a00 arm64: vdso: Use GFP_KERNEL for allocating compat vdso and signal pages
-         e9be47eab1cdaf0a2a3c0af96a6a4be1cf9a95c1 arm64: vdso: Remove redundant calls to flush_dcache_page()
-         7adbf10e29c2323f5eb6d6bdd13050c70900b993 arm64: compat: Allow signal page to be remapped
-         77ec462536a13d4b428a1eead725c4818a49f0b1 arm64: vdso: Avoid ISB after reading from cntvct_el0
-         6e554abd07002405fd9175284a10729e2f54be43 arm64: compat: Poison the compat sigpage
-         8534daf5cf1641c922842a25591c41cbd4e8ef00 Merge branches 'for-next/misc', 'for-next/kselftest', 'for-next/xntable' and 'for-next/vdso' into for-next/core
+         74b71abae9c744acf447ae703469bb58e514c9a4 5.4-stable patches
          
-  - ref: refs/heads/for-next/vdso
-    old: 0000000000000000000000000000000000000000
-    new: 6e554abd07002405fd9175284a10729e2f54be43
+
+--===============7200342242359752774==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616606754 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1616606753-1c45d8f0601425b6c546d7545dba22ddd5b84b92
+
+c1a2d971cf6a465987970a6fc91b72e66439611d 74b71abae9c744acf447ae703469bb58e514c9a4 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBbdiIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a4QQALwbWutYxnVMzoBLP7az
+dcWviYuOZ47wMSWpmDQATb4QSTf+C9ZVzloNiTUChUWEAdC41XLdvNuE5caPOCWv
+KVQj9axWmybAZzI1SHw/RdBE9BOjSKaNdNOQUC1Hqy1oKaJ3OUdswzbxIgNUWHNO
+VzVLcbVlQwL2bLu5iXAE4y4WwExwCfxVw/d0kl8CNCIBMgTcsop/luAXq3YBHaof
+/bzK2kXGmZ7wcoZzeFbOHE62Ui9QprUuFAtyoPPdM+AOf52GlMWC3d7kjb+DH+iG
+p540TDWoowQJ41F3HcbeDOZ+nlqbmjZZPR0T60/A3aTtUP+2Bb9nSaUHq0oihswp
+4Cwjo8f344I0DePRNvKAya0gbtgpLnywTcFQLoHh+8qc58Z/3wQtbiDb3I+XZQYJ
+uN3UWAHNGmfRBxR4NRvXbY8rWE1L6orprQLfQhBjmBT7D1WfAXJ6Tpb+tXxpYOTD
+S5hmzflnJJwQcktobx8cdckMTCa9ppmn8lTUoEG89OTbEi8EQrDHDHwZ65oSbI6e
+IEZYlSiU/OeeLWW6nRzOxcH/0hPSIQonk8+WgtneGjC7E2HWc2uNqhwkmrTjZRYa
+ObveB9sRFYWRO96g7L+itdIDp+A5qea5RP/pLfxl3CRV7VNq35NKr8JwXjXYfoKl
+XzABxgXYGYacVW0k3dL+YrNs
+=kG4F
+-----END PGP SIGNATURE-----
+
+--===============7200342242359752774==--
