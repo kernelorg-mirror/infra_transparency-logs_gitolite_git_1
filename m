@@ -1,29 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Wed, 24 Mar 2021 23:30:10 -0000
-Message-Id: <161662861073.10919.4456789441815932628@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4421825885058177899=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 24 Mar 2021 23:30:14 -0000
+Message-Id: <161662861467.11005.1492475545845603191@gitolite.kernel.org>
+
+--===============4421825885058177899==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/md-next
-    old: 4ab9303daf9d0834fdc41e50c2632bf9c2a0d8fa
-    new: 7abfabaf5f805f5171d133ce6af9b65ab766e76a
+  - ref: refs/heads/regulator-5.13
+    old: 320fcd6bbd2b500923db518902c2c640242d2b50
+    new: f56f2b953bccabb9bd283a734c7e35a1bb1c1ff8
     log: |
-         86f0a011e548774fd8eb952f67bfeb19f3174dd0 s390/dasd: remove dasd_fba_probe() wrapper
-         1987c55139c9ebe1bed48490c49cfe266cd35ac8 s390/dasd: let driver core manage the sysfs attributes
-         2907f851f64a2f1ec5d75e60740e0819a660c5c0 xsysace: Remove SYSACE driver
-         f66116f7b2138b584b9fa4ddeedb4bcc670f1942 rsxx: remove extraneous 'const' qualifier
-         14d97622448acbea0348be62f62e25d9a361e16b drivers/block: remove the umem driver
-         cf78408f937a67f59f5e90ee8e6cadeed7c128a8 md: add md_submit_discard_bio() for submitting discard bio
-         c2968285925adb97b9aa4ede94c1f1ab61ce0925 md/raid10: extend r10bio devs to raid disks
-         f2e7e269a7525317752d472bb48a549780e87d22 md/raid10: pull the code that wait for blocked dev into one function
-         d30588b2731fb01e1616cf16c3fe79a1443e29aa md/raid10: improve raid10 discard request
-         254c271da0712ea8914f187588e0f81f7678ee2f md/raid10: improve discard request for far layout
-         7abfabaf5f805f5171d133ce6af9b65ab766e76a md: Fix missing unused status line of /proc/mdstat
+         f56f2b953bccabb9bd283a734c7e35a1bb1c1ff8 regulator: mt6360: remove redundant error print
          
+
+--===============4421825885058177899==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1616628607 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1616628611-4b8c882c62444eed057f9161b7584b550dc8fbfe
+
+320fcd6bbd2b500923db518902c2c640242d2b50 f56f2b953bccabb9bd283a734c7e35a1bb1c1ff8 refs/heads/regulator-5.13
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBby38ACgkQJNaLcl1U
+h9C4Cwf8CKIPfAU99obtq/GsaTzjK9EhNrHQa9e/RFxfNGAfSNwXcTL/SE4c5PW5
+3WhK4AQ35M0tIuJzJEjoet/q1ShjEOV6sFrUWEqoL0SCmMHGB6Bjf2x3s8HquI1/
+aBYdpEqJ15zpQTZ4IJi/A3BqTCiHenLJsFOicNctlslmRecHUtxHw/BkRWMcQHan
+VFnVqtWgKBCZCEN7lYksijMXFaX7Y6OmHv3+g6Fc0f0gvA9gBd+06QbPLDFgGwQp
+KM0d4KOilnuwQZBA3xsEObbuVKpPqDnDFDGfyOP/3Rc/W2HQjMkk4n5yeiULlSOM
+Vo0BaRpp33zPWm8J1paL2/aMvIRaVw==
+=Ivu2
+-----END PGP SIGNATURE-----
+
+--===============4421825885058177899==--
