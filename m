@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Wed, 24 Mar 2021 22:25:33 -0000
-Message-Id: <161662473324.2990.17566286567127098743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Wed, 24 Mar 2021 22:43:49 -0000
+Message-Id: <161662582917.13836.2845944041405525963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: 92063f3ca73aab794bd5408d3361fd5b5ea33079
-    new: 7990ccafaa37dc6d8bb095d4d7cd997e8903fd10
+  - ref: refs/heads/usbip_test
+    old: e7a65d4669217c1839358bec94df722480b18da4
+    new: e40fd6d1792e67fea5d2b3d1e8176aded069292f
     log: |
-         f873b28f260e6f6ea98eb46f6c42d581379c91b1 ima: without an IMA policy loaded, return quickly
-         7990ccafaa37dc6d8bb095d4d7cd997e8903fd10 ima: Fix the error code for restoring the PCR value
+         e40fd6d1792e67fea5d2b3d1e8176aded069292f usbip: vhci_hcd fix shift out-of-bounds in vhci_hub_control()
          
