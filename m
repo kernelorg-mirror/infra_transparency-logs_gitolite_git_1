@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 24 Mar 2021 19:37:12 -0000
-Message-Id: <161661463267.24917.8591251622868309914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 24 Mar 2021 19:38:39 -0000
+Message-Id: <161661471941.25472.4155618515596549299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: f51d7bf1dbe5522c51c93fe8faa5f4abbdf339cd
-    new: 6f235a69e59484e382dc31952025b0308efedc17
+    old: d958239da9fbfc70ff3d60eb615cda5e6fd8b967
+    new: b531444a7c89a91e6b1e0a8df4b273c292e6045f
     log: |
-         9e0a537d06fc36861e4f78d0a7df1fe2b3592714 octeontx2-af: Fix memory leak of object buf
-         6f235a69e59484e382dc31952025b0308efedc17 ch_ktls: fix enum-conversion warning
+         9a67a21bd21efd042bc266e610f34cc02cc604d0 station: Add a warning of rekey fails
+         b531444a7c89a91e6b1e0a8df4b273c292e6045f monitor: print out extended feature name
          
