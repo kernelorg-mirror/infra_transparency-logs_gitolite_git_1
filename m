@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/luto/linux
-Date: Wed, 24 Mar 2021 01:26:27 -0000
-Message-Id: <161654918715.7485.5738092364868000497@gitolite.kernel.org>
+Date: Wed, 24 Mar 2021 01:46:54 -0000
+Message-Id: <161655041461.21319.12766142463502964148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/luto/linux
 user: luto
 changes:
-  - ref: refs/heads/x86/fixes
-    old: 825cc79966034d2ab820a693fcb3b84565edd715
-    new: b5b90fd66990fa97616ebb87afea30193dd6a75c
+  - ref: refs/heads/x86/kentry
+    old: b50f197bb27da9ad7871aa53b2791204923f1f6d
+    new: a366636036a9a69b953f4818bbe73b49cdf9a8e5
     log: |
-         f7ba193000da5f181333c3ce7a717f8dad1f9454 x86/mm: Handle unlazying membarrier core sync in the arch code
-         efab1f34838e4639edfcfdca2c70026684a85d5b membarrier: Remove membarrier_arch_switch_mm() prototype in core code
-         d97bdfc0fdad6b14ef075fef1d6c90e3e139038f membarrier: Make the post-switch-mm barrier explicit
-         f1cdff7900854fc325a1d8039c92a79bfb061828 membarrier, kthread: Use _ONCE accessors for task->mm
-         b83046c7b38ec9ceb1608a5a4b9278b244a57153 powerpc/membarrier: Remove special barrier on mm switch
-         155b721937be13e24e685902e2d2335b557fbb1d membarrier: Remove arm (32) support for SYNC_CORE
-         17523f1069a48097ea9718c5961c7f8d26736299 membarrier: Rewrite sync_core_before_usermode() and improve documentation
-         b5b90fd66990fa97616ebb87afea30193dd6a75c selftests/x86: Add a missing .note.GNU-stack section to thunks_32.S
+         7c229ab1594d683f9bc7493a4fba9a86453ac6f6 [NEEDS MAINTAINER HELP] s390/syscall: Fix generic syscall use
+         e0ea2e8fdc883c355ddca0f60b20c9ff613ed326 kentry: Rename irqentry to kentry
+         04474ffc1926bc08016dee39c16e53a63942fb65 x86/dumpstack: Remove unnecessary range check fetching opcode bytes
+         251eb6c58fa45331c5829567172615311f836928 x86/kthread,dumpstack: Set task_pt_regs->cs.RPL=3 for kernel threads
+         748f1b7ae22f5b5841a1873c0ea2d1a54d270806 x86/entry: Convert ret_from_fork to C
+         7dce4d6490060407a6a22c17f1791aa2affebd20 kentry: Simplify the common syscall API
+         e8cb9d8a32c76b8a900edaa07d2fae01de48aedb kentry: Remove enter_from/exit_to_user_mode()
+         e52fea90039390f525a81f8eddadeea7713a97a3 entry: Make CONFIG_DEBUG_ENTRY generic
+         ac59256ff04f857d088d4df9a471c042fb3b6e66 kentry: Add debugging checks for proper kentry API usage
+         07cd4a6ae6aaeca25452c5c656822f17322ca5b1 kentry: Check that syscall entries and syscall exits match
+         a366636036a9a69b953f4818bbe73b49cdf9a8e5 kentry: Verify kentry state in instrumentation_begin/end()
          
