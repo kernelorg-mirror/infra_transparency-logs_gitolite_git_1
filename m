@@ -1,106 +1,84 @@
-Content-Type: multipart/mixed; boundary="===============1099615600429480347=="
+Content-Type: multipart/mixed; boundary="===============0724169120514116192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 24 Mar 2021 06:01:31 -0000
-Message-Id: <161656569108.17333.3996515835700034451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 24 Mar 2021 06:01:44 -0000
+Message-Id: <161656570442.17463.14617815108311419870@gitolite.kernel.org>
 
---===============1099615600429480347==
+--===============0724169120514116192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: f85142af36415cdd5be59eb4b00a231c8b6dcb49
-    new: 049d3db625a652e23488db88b6104de4d5b62f16
-    log: revlist-f85142af3641-049d3db625a6.txt
+  - ref: refs/heads/driver-core-next
+    old: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
+    new: a7d30f3f41cf40aad1c4557fa180fe320d5b7c74
+    log: revlist-0d02ec6b3136-a7d30f3f41cf.txt
 
---===============1099615600429480347==
+--===============0724169120514116192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616565686 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1616565685-4582d364257d8b143611fa14eaf58de5757843bf
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616565696 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1616565696-5c7db63f059aa868d68d2c0d8a162cef18096b2d
 
-f85142af36415cdd5be59eb4b00a231c8b6dcb49 049d3db625a652e23488db88b6104de4d5b62f16 refs/heads/usb-next
+0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b a7d30f3f41cf40aad1c4557fa180fe320d5b7c74 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBa1bYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p/YQAKAtV1f7ftXRCbPo3KdA
-IDiGVKybWLjFXHdLQC1GbHsUMnSKKR+kCo8GBTyG7z+Z6Y+XJagD4N98zICfnSL1
-6Yhbq/z2X5Mtokwqrpo5Wk8iEOi8NZuCwcOc0tYtIzu4CTLQlsowV+B8YHElCGnK
-51ET9q25MRnI8w0uTPXv+BOJwv6N90ODg1qrX9of5Er9OrZzIXaT+cPPkLRDqepM
-kTC+71fmiNAJw1JUxnDg3WM9dJflVFHraQZiwURIC+KSYpukhJ03mZc9KLSdZkoK
-Zm9TU/9DaSCwCe/kzqyU1y8ar8oKKItPGOjWp4xvztBB/GmrQgYcSsixTNsiG3Xq
-0/gu2DSLZokZLcQAualkyAxq9Avk3arGA/7qiUkwEj/QjKVuCr+BVoDuX4NBPiit
-2bRcNB8LGYfr/BfAmawBKdsdvQ2Ns8RAwttqedgVcMt9q0tGpcwmH4QRhKbY44g/
-kMY99eQhq9pgzslBVpQWAiQIXJlEdnSz7a29Mje/1N8qm85e3mOaInpw9Y03tSGe
-pfQuQcpXS6unIXeEElqLnlluu9p7YjPQ0IDKcdjkQsssyjDlOBbLEL/RFdsW2C52
-kwVVxuq1B7sWeeX6X9qOnyJE0aPuOXZXzbSFWyRYfm6g1T6BRGigjOexu7UBL5Dz
-rhzeM5zMxpO9T2DV2dyJb3QX
-=AAG+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBa1cAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p6IQAKLb88dRSclVEpN+wH0w
+6VkFWoDiPiHL+IxvEssILbzrJN2pFUUjqtBjkiPXOYKjXgRJP8bEzX/phHnDN+nI
+Kw0PFuMtSlcK2erDfwax2+v+XtjifpfZUzdRA1nRivWuzQxkI//3x7IrSuJngCWN
+cvCRCxEiAUpMsPoJ/27eh9NqSacIKV2mVBo7PkUuQVPNPQoHh0/suTX2CF88WMQX
+3gURvV2AsaNdF91b5PuQ8Hf0GMSIIdHwVHuwdK64KiTCmVX3tKMNCWn6iF5WAr5o
+LNs7vJ/6GPgnfyAF7E8E5foIe5Pak1nknUtgLesSdq3KuGxTpGJtWeTYKAQ7220X
+qaYD2i6XctDIUJzE2CenVqvJ2OCj3bHESnHHHy+7l5mi+YCE+15Hd6rMTvTbGZCk
+vuR37IFumYkKudmM59LAN04ZDvjbBJu1fIk6yhsqNuO/AtxLmnHz2GtVKriTraew
+YjZcPsHysekwujyjPH1vYys/rsESQIMIzaOXdiKLKbeK5cHfDuKORgHyQdy6/4qL
+FyuQirAFFUVAReGMuzMu5bwpnmXNjtQnzaUo/KXVNrV8YMIVY/KGZsl+Bw4QLDRG
+wPTMnGdSAzxBTJjqKLSSRBg10PttyETK3CgD/JBwRjhkjkCMlC85JzxQfWabKidv
+C9gox1k36QhpkwjEfRVI7GVe
+=/dD4
 -----END PGP SIGNATURE-----
 
---===============1099615600429480347==
+--===============0724169120514116192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f85142af3641-049d3db625a6.txt
+Content-Disposition: attachment; filename=revlist-0d02ec6b3136-a7d30f3f41cf.txt
 
-729979e16451233b34f3082bd16b93c354252c50 dt-bindings: usb: fix yamllint check warning
-2d5ba37461013253d2ff0a3641b727fd32ea97a9 usb: ehci: add spurious flag to disable overcurrent checking
-81d23855553aefdc952e8a5eb79c8c352148557e dt-bindings: usb: generic-ehci: document spurious-oc flag
-4da57dbbffdfa7fe4e2b70b047fc5ff95ff25a3d usb: host: ehci-platform: add spurious_oc DT support
-d50229cee69b826815b8e816e4954b594fec4e3c ARM: multi_v7_defconfig: Stop using deprecated USB_EHCI_TEGRA
-0b9828763aeafa5e527b9d98b8789bdb34937fbc usb: host: ehci-tegra: Select USB_GADGET Kconfig option
-8219ab4c9a09bc746614daaf5240fec82e7fe0e7 USB: ehci: drop workaround for forced irq threading
-8460f6003a1d2633737b89c4f69d6f4c0c7c65a3 usb: sl811-hcd: improve misleading indentation
-a2a28c25c25a0d35517e16c37e2586de1879242c USB: core: drop outdated interface-binding comment
-aaadc6aea6935e2f36c57056ff756fba0bbc4975 USB: core: rename usb_driver_claim_interface() data parameter
-4e6e85100256937ccb60a67405db5112a33d8741 drivers: usb: host: fotg210-hcd.c: Fix indentation error
-575b1ac410a2da1b76c9662dbeb8e500d061fbf2 drivers: usb: host: fotg210-hcd.c: Fix alignment of comment
-0c59f678fcfc6dd53ba493915794636a230bc4cc usb: dwc3: gadget: Remove invalid low-speed setting
-3af32605289e9f508cc40ff1046e15ac6c80d2fa usb: renesas_usbhs: fix error return code of usbhsf_pkt_handler()
-caef9f0716b4b24daea36f8af74d6b1698221051 dt-bindings: usb: dwc3-xilinx: Add documentation for Versal DWC3 Controller
-84770f028fabab4cb66188d583ed12652f30576b usb: dwc3: Add driver for Xilinx platforms
-55b74ce7d2ce0b0058f3e08cab185a0afacfe39e usb: gadget/function/f_fs string table fix for multiple languages
-fb9b31e4ea2f55fc3acee29f30c7c65460df8996 usb: chipidea: tegra: Silence deferred probe error
-f8cb3d556be31d2f41f54a7d7623930b05c9b340 usb: f_uac2: adds support for SS and SSP
-c021e02357703b959e20c458d64b6d4e0d5b8012 usb: gadget: legacy: fix error return code of multi_bind()
-3713d5ceb04d5ab6a5e2b86dfca49170053f3a5e usb: gadget: f_uac2: validate input parameters
-a59c68a6a3d1b18e2494f526eb19893a34fa6ec6 usb: gadget: f_uac1: validate input parameters
-254cb1e0d78cfa2c189171cacb88fc85d915bc84 usb: gadget: f_uac1: disable IN/OUT ep if unused
-d23922fcac48e57f3bf00b1dc4c9c0f5b4f6fe59 usb: gadget: u_audio: convert to strscpy
-6fcf11295eb2b63ce5974b78bd07d419e79d58ec USB: gadget: legacy: remove left-over __ref annotations
-5e7121723d5b8280c9f37e04d9b5c20beae33c12 USB: xhci: drop workaround for forced irq threading
-02fa4b980245087a04ea34ae7541ebdc56a5daa4 usb: dwc3: gadget: Avoid continuing preparing TRBs during teardown
-71ca43f30df9c642970f9dc9b2d6f463f4967e7b usb: dwc3: gadget: Ignore EP queue requests during bus reset
-0299809be415567366b66f248eed93848b8dc9f3 usb: core: Track SuperSpeed Plus GenXxY
-a59918cb6193b58e6293f58a094466504393f9c4 usb: core: hub: Remove port_speed_is_ssp()
-2d0e82c905b8d802031665eb9dd3b9acddac7580 usb: core: hub: Print speed name based on ssp rate
-d07247ff2515d7d2db60e6492cd4662d87bf7bf2 usb: core: sysfs: Check for SSP rate in speed attr
-f2b6ebf61e8fcd0b1f03a084d39742b1f6113ac4 usb: gadget: legacy: fix error return code of msg_bind()
-423432072d163acf0089bf2821d98404539d7d4c USB: gadget: f_fs: fix memdup_user.cocci warnings
-cd8d66cfae4989ed4b99c98b0c24d0eecba7005f usb: xhci: Init root hub SSP rate
-64364bc912c01b33bba6c22e3ccb849bfca96398 usb: xhci: Fix port minor revision
-eb02aaf21f29ea8706ab3ebdb41cb33a090b3bfc usb: xhci: Rewrite xhci_create_usb3_bos_desc()
-325c3b9a0b5c25471e85c048609f7177e91c9934 usb: xhci: Remove unused function
-91356fed6afd1c83bf0d3df1fc336d54e38f0458 usb: gadget: pch_udc: Replace cpu_to_le32() by lower_32_bits()
-fbdbbe6d3ee502b3bdeb4f255196bb45003614be usb: gadget: pch_udc: Check if driver is present before calling ->setup()
-4a28d77e359009b846951b06f7c0d8eec8dce298 usb: gadget: pch_udc: Check for DMA mapping error
-5af196df27c9a1173685148b368a9167b5a65d93 usb: gadget: pch_udc: Move pch_udc_init() to satisfy kernel doc
-50a318cc9b54a36f00beadf77e578a50f3620477 usb: gadget: pch_udc: Revert d3cb25a12138 completely
-971d080212be4ce2b91047d25a657f46d3e39635 usb: gadget: pch_udc: Initialize device pointer before use
-049d3db625a652e23488db88b6104de4d5b62f16 usb: gadget: pch_udc: Provide a GPIO line used on Intel Minnowboard (v1)
+5dd5f9347a927c169205f7385e5cf4e18c41e21a driver core: Trivial typo fix
+bbf44abeeabfe05a124535e6c3a9fd7d682d42bf driver core: auxiliary bus: Remove unneeded module bits
+c654cea59dbc352fceafddd44893f3523fdcc08e driver core: component: remove dentry pointer in "struct master"
+2942df675128b156b0bc8571e2cb2d006fc26e84 driver core: dd: remove deferred_devices variable
+2c137388d685e11cf621b56bf06c4f3a1a8ff7be firmware_loader: Remove unnecessary conversion to bool
+6b72cf128282a4c2191fc2278ba5010c85b51fb6 drivers/base/cpu: remove redundant assignment of variable retval
+38f087de8947700d3b06d3d1594490e0f611c5d1 devtmpfs: fix placement of complete() call
+01085e24ff0ae775e7407a6e40c2156a724ae884 devtmpfs: actually reclaim some init memory
+f2db85b64f0af1410ccb8ebcc9d7fa38e99feee9 driver core: Avoid pointless deferred probe attempts
+b6f617df4fa936c1ab1831c2b23563f6c1add6c4 driver core: Update device link status properly for device_bind_driver()
+ea718c699055c8566eb64432388a04974c43b2ea Revert "Revert "driver core: Set fw_devlink=on by default""
+6579c8d97ad7fc5671ee60234f3b8388abee5f77 clk: Mark fwnodes when their clock provider is added
+0b8bf06f67191e6a3184802a690d3f521c6d7e78 device property: Sync descriptions of swnode array and group APIs
+7f2fac70b729d68a34e5eba8d1fb68eb69b05169 device property: Add test cases for fwnode_property_count_*() APIs
+53f95c55349e75b73f69ce36b0ae2a83b3f28fde devcoredump: avoid -Wempty-body warnings
+0341ce5443949588e93581b49b934cdde2befbf8 workqueue: Add resource managed version of delayed work init
+2077ca682169afb212d8a887c70057a660290df9 MAINTAINERS: Add entry for devm helpers
+f94a5becabf43e17490aded8bddc5f924b00338b extconn: Clean-up few drivers by using managed work init
+96dc2b31abd0ed8a2a59a6672d4f16e4718d3701 hwmon: raspberry-pi: Clean-up few drivers by using managed work init
+b82a7b018b93d282d0f1a41a854ca3d071e02759 platform/x86: gpd pocket fan: Clean-up by using managed work init
+6d0c5de2fd84a0ad07f0cecea24def3987675192 power: supply: Clean-up few drivers by using managed work init
+b6688015151857ed3f61fa2344c4b220bc9dc4d7 regulator: qcom_spmi-regulator: Clean-up by using managed work init
+a7d30f3f41cf40aad1c4557fa180fe320d5b7c74 watchdog: retu_wdt: Clean-up by using managed work init
 
---===============1099615600429480347==--
+--===============0724169120514116192==--
