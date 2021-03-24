@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 24 Mar 2021 02:09:09 -0000
-Message-Id: <161655174915.1061.16018214050835795608@gitolite.kernel.org>
+Date: Wed, 24 Mar 2021 02:22:13 -0000
+Message-Id: <161655253310.10608.9367483983549479532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,13 @@ repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
   - ref: refs/heads/mlx5-queue
-    old: 723acb13769267081fdc8b9723a1db390c736b22
-    new: d2b73c540bdb28bd8e9b594126263eda4a2d89d9
+    old: d2b73c540bdb28bd8e9b594126263eda4a2d89d9
+    new: 93d059a28f5876092ef97e4f2aa150c2f3507c6c
     log: |
-         8a0bfeb55ede6c8bdafa9e822569f42c62c6eb19 net/mlx5e: Reject tc rules which redirect from a VF to itself
-         f235637b9a84ca3c50acc2aafd74c026afb25f24 net/mlx5e: Dynamic alloc arfs table for netdev when needed
-         2b5014d627a0c891e831c6dc7cfab8115b5f67af net/mlx5e: Dynamic alloc vlan table for netdev when needed
-         a9da443f3049ab14091219ded4d8a7402e5d410a net/mlx5: Use ida_alloc_range() instead of ida_simple_alloc()
-         c08993fbfb0531c74729653c725b16c3dc1c8e2b Merge branch 'patchq/378313' into mlx5-queue
-         d2b73c540bdb28bd8e9b594126263eda4a2d89d9 Merge branch 'patchq/383006' into mlx5-queue
+         42009c5ca15f0e8830b3a92b56147de0b70e4ffe net/mlx5e: Dynamic alloc arfs table for netdev when needed
+         17151846a9cb774b5bbeca42a67f18d8014056b0 net/mlx5e: Reject tc rules which redirect from a VF to itself
+         f9e17cd31c2f8cc9aed2c099fa00b321b264d309 net/mlx5e: Dynamic alloc vlan table for netdev when needed
+         905da251c8230b50700fae9784df43651bb0c6e6 net/mlx5: Use ida_alloc_range() instead of ida_simple_alloc()
+         3947142cd7a941c40e68e845df1ea77cee5f58c7 Merge branch 'patchq/378313' into mlx5-queue
+         93d059a28f5876092ef97e4f2aa150c2f3507c6c Merge branch 'patchq/383006' into mlx5-queue
          
