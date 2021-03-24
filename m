@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3668296498327690751=="
+Content-Type: multipart/mixed; boundary="===============4001802868770801809=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mripard/linux
-Date: Wed, 24 Mar 2021 09:04:17 -0000
-Message-Id: <161657665713.5088.14235387333620951934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 24 Mar 2021 09:33:38 -0000
+Message-Id: <161657841832.23384.11484639310675841824@gitolite.kernel.org>
 
---===============3668296498327690751==
+--===============4001802868770801809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mripard/linux
-user: mripard
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/sunxi/h6-emmc-inline-encryption
-    old: 0000000000000000000000000000000000000000
-    new: 00099e67ddf03c548afe5c1bdbf21e6d7ed7dba4
+  - ref: refs/heads/master
+    old: 814bf7c4be3abfabbd881c30f2affefa3648c0da
+    new: 578770753e035843ab3e52264072107d8c455f2d
+    log: |
+         578770753e035843ab3e52264072107d8c455f2d drop 3 mptcp patches from 5.10 queue
+         
 
---===============3668296498327690751==
+--===============4001802868770801809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1616576464 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mripard/linux.git
-nonce 1616576463-ba5a2749855cd856e8fbfe41b4f67b47a44fefc0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616578414 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1616578414-d621a896a90055dd9bb4fb880da6a042c8a278a0
 
-0000000000000000000000000000000000000000 00099e67ddf03c548afe5c1bdbf21e6d7ed7dba4 refs/heads/sunxi/h6-emmc-inline-encryption
+814bf7c4be3abfabbd881c30f2affefa3648c0da 578770753e035843ab3e52264072107d8c455f2d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCYFr/0AAKCRDj7w1vZxhR
-xY1+AP4l1LgIitJ7/YioeLWjpAECYVyBZf/OWsIv15SKxEHxUQEAq8OvpdGLqhj2
-pB9aWJ955BmP2tnoiPfGV4y48WYJVgY=
-=pb8w
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBbB24bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sg0QANg7oSUCrm+644l4zbzj
+FpxpXxQTnupEkTqpZb8vNCSNQTeMzfUOYMjIiWEbrKWOmklkSQ3jdkcAM+KZEnQ8
+GE/Y3hDOibMB2KrH7Xb4jaGIL/uoP2yQ+c+Oym9hXcTiN7EN3SFO1AR2qzN0NJ4h
+77HENBVaNlSkIOOzTRvoxZKq8VKDsMkmDA4mAWZ9a92boy0zpKNJ18rf9a+u2kye
+vHpJQZ3W6ToWiYfyxwiuvFtsNUlifLqcn1HW7RZAC+LRNAx5cmrJuKl+VZ02u2iW
+VKm8n0vG6gpZhn8zXWMDHTAfromjtk5ulPMPqMjVzDF0pUJS5xi0KgrN5smEftsY
+L8QzuvlvK/7JBC2p/Cek8BqlID9y2r72awhlfJ83J7ZWwKVjAJelk6Fx1VmzWBMe
+P6SHEry8h+Xk4wPlwMjj9ozOf7psUJeljAHCm45fDvoy3lOdFkzw23mJ0DTLD3LB
+lpobVaddNC52PxrSiCC2l1v+t8g1Q7tpGwsItH5oz38+U6410fWb0KlVcXuzhPSO
+qV0KuxC7sjgxV3/8qF8rS9xta749zn4y/gUmWYOmrkTLUUq9sWFkYXtWXwyC8DP2
+jwtZcZRxV80SCWZ5tSXJdzlCpeUDeJZpjcIp0MK8josSBOd3Sbgkbdm3J2CrpXkZ
+HZ9FLXAKlopTxPLzDUQnKBaB
+=pd/D
 -----END PGP SIGNATURE-----
 
---===============3668296498327690751==--
+--===============4001802868770801809==--
