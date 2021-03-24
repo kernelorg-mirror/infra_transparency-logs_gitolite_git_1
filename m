@@ -1,56 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4001802868770801809=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 24 Mar 2021 09:33:38 -0000
-Message-Id: <161657841832.23384.11484639310675841824@gitolite.kernel.org>
-
---===============4001802868770801809==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Wed, 24 Mar 2021 09:33:40 -0000
+Message-Id: <161657842014.23456.9234217843943365284@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: borntraeger
 changes:
-  - ref: refs/heads/master
-    old: 814bf7c4be3abfabbd881c30f2affefa3648c0da
-    new: 578770753e035843ab3e52264072107d8c455f2d
+  - ref: refs/heads/next
+    old: 3a43df7dd4b60ece6c78c7c2a38a9a2f9d114ee8
+    new: c3171e94cc1cdcc3229565244112e869f052b8d9
     log: |
-         578770753e035843ab3e52264072107d8c455f2d drop 3 mptcp patches from 5.10 queue
+         5ac14bac08ae827b619f21bcceaaac3b8c497e31 KVM: s390: extend kvm_s390_shadow_fault to return entry pointer
+         bdf7509bbefa20855d5f6bacdc5b62a8489477c9 KVM: s390: VSIE: correctly handle MVPG when in VSIE
+         c5d1f6b531e68888cbe6718b3f77a60115d58b9c KVM: s390: split kvm_s390_real_to_abs
+         c3171e94cc1cdcc3229565244112e869f052b8d9 KVM: s390: VSIE: fix MVPG handling for prefixing and MSO
          
-
---===============4001802868770801809==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616578414 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1616578414-d621a896a90055dd9bb4fb880da6a042c8a278a0
-
-814bf7c4be3abfabbd881c30f2affefa3648c0da 578770753e035843ab3e52264072107d8c455f2d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBbB24bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sg0QANg7oSUCrm+644l4zbzj
-FpxpXxQTnupEkTqpZb8vNCSNQTeMzfUOYMjIiWEbrKWOmklkSQ3jdkcAM+KZEnQ8
-GE/Y3hDOibMB2KrH7Xb4jaGIL/uoP2yQ+c+Oym9hXcTiN7EN3SFO1AR2qzN0NJ4h
-77HENBVaNlSkIOOzTRvoxZKq8VKDsMkmDA4mAWZ9a92boy0zpKNJ18rf9a+u2kye
-vHpJQZ3W6ToWiYfyxwiuvFtsNUlifLqcn1HW7RZAC+LRNAx5cmrJuKl+VZ02u2iW
-VKm8n0vG6gpZhn8zXWMDHTAfromjtk5ulPMPqMjVzDF0pUJS5xi0KgrN5smEftsY
-L8QzuvlvK/7JBC2p/Cek8BqlID9y2r72awhlfJ83J7ZWwKVjAJelk6Fx1VmzWBMe
-P6SHEry8h+Xk4wPlwMjj9ozOf7psUJeljAHCm45fDvoy3lOdFkzw23mJ0DTLD3LB
-lpobVaddNC52PxrSiCC2l1v+t8g1Q7tpGwsItH5oz38+U6410fWb0KlVcXuzhPSO
-qV0KuxC7sjgxV3/8qF8rS9xta749zn4y/gUmWYOmrkTLUUq9sWFkYXtWXwyC8DP2
-jwtZcZRxV80SCWZ5tSXJdzlCpeUDeJZpjcIp0MK8josSBOd3Sbgkbdm3J2CrpXkZ
-HZ9FLXAKlopTxPLzDUQnKBaB
-=pd/D
------END PGP SIGNATURE-----
-
---===============4001802868770801809==--
