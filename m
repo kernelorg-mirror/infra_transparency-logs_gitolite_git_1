@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Wed, 24 Mar 2021 11:36:33 -0000
-Message-Id: <161658579376.10361.13185484078349555834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 24 Mar 2021 11:55:44 -0000
+Message-Id: <161658694456.22867.4397902828793196518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 9c780083badb828c54b04511ef6de397a1a6ffc5
-    new: 6dc2a774cb4fdb524b7eb0b8db74198a1b4815ea
+  - ref: refs/heads/master
+    old: d928b9afe2e928032e6cb7ed3dfc4ff63d535458
+    new: 1630e65371efaa70c154f312d32496d1228f93ee
     log: |
-         6bbdc3db76ccc6d9ff1c3d6ad36c8ae5bd67ee1f hv: hyperv.h: a few mundane typo fixes
-         13c4d4626a4b205e496eb65d6316a3dcb89a7d62 x86/hyperv: Fix unused variable 'msr_val' warning in hv_qlock_wait
-         1b60280834683dddf4975bbf9662a74f123ba770 x86/hyperv: Fix unused variable 'hi' warning in hv_apic_read
-         6dc2a774cb4fdb524b7eb0b8db74198a1b4815ea x86/Hyper-V: Support for free page reporting
+         20fae1bde21e7924b8b52f1e1a21ca9593cc08cc rfkill: add "toggle" command
+         c59d442809ebb51b6bde17c541e51253fc2cba5b libsmartcols: add sort sunction to the sample
+         529b51706ef06611a8165023f14e6593e06901de libsmartcols: introduce default sort column
+         1630e65371efaa70c154f312d32496d1228f93ee Merge branch 'topic/rfkill'
          
