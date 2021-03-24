@@ -1,29 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 24 Mar 2021 05:10:00 -0000
-Message-Id: <161656260062.16362.5140931101894326811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 24 Mar 2021 05:11:48 -0000
+Message-Id: <161656270895.19372.4051347234217250555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/seen
-    old: db7b2a124867c599d57e1b72b961b93cc4201646
-    new: b5d9e1cd483218886e5b1c2d8ac69b5036f3a29c
+  - ref: refs/heads/mlx5-queue
+    old: 93d059a28f5876092ef97e4f2aa150c2f3507c6c
+    new: e4acd074ab08c762640435a4965c8de9e7151813
     log: |
-         279b7b49020b5b3e5a50721e5b66494d66dbc136 userdiff: refactor away the parse_bool() function
-         8794183ca2831c53231bbd9007e0c8b16aec6b0d userdiff style: re-order drivers in alphabetical order
-         ce6b052a3f15b84719ea144e6c41d1ec26b8793e userdiff style: declare patterns with consistent style
-         2f593442b49828a48a5b367132c2c676ffa98579 userdiff style: normalize pascal regex declaration
-         5634df3eae5ada408fe27cecf11e1d029db6c801 userdiff: add and use for_each_userdiff_driver()
-         5385931b5ab1ae25c905f66620a686780b1b12d2 userdiff tests: explicitly test "default" pattern
-         3eed2128d12bd3f047192835203c44d2945c5e26 userdiff tests: list builtin drivers via test-tool
-         7665224d2083397b2db2e933932f3a4793f3785e userdiff: remove support for "broken" tests
-         fc1d485b11ba8501d951e88b310d62b655a1b3d6 blame tests: don't rely on t/t4018/ directory
-         6843f758ead99fb8275911fe393d2f6801f755dd blame tests: simplify userdiff driver test
-         b5d9e1cd483218886e5b1c2d8ac69b5036f3a29c Merge branch 'ab/userdiff-tests' into seen
+         438e0a8318c72f4bd69963aa14532aadd5e289f6 net/mlx5e: RX, Add checks for calculated Striding RQ attributes
+         cf602a794e1c1a406b94a95a6e6f7839b83a1d63 net/mlx5: DR, Alloc cmd buffer with kvzalloc() instead of kzalloc()
+         7c327c41d5c0ffc88b4068a83a34ce42e3bf8dae net/mlx5e: Dynamic alloc arfs table for netdev when needed
+         644e01cc2ed5518357456504038a2cbc4c75cb5b net/mlx5e: Reject tc rules which redirect from a VF to itself
+         b4694a8273d517ac6d2888cd177dc2c416075449 net/mlx5e: Dynamic alloc vlan table for netdev when needed
+         4d2c6fc6b29d403ee4afadfaccc75fac0311cdad net/mlx5: Use ida_alloc_range() instead of ida_simple_alloc()
+         e513fb918617a6f5370e727b1bb84a66b0e7a0a6 Merge branch 'patchq/382907' into mlx5-queue
+         259dbcc0aadca8dc20f59c931b9c88c245f8b265 Merge branch 'patchq/382373' into mlx5-queue
+         8d51c6b5d999d12edce4662ca424d86699906d19 Merge branch 'patchq/378313' into mlx5-queue
+         e4acd074ab08c762640435a4965c8de9e7151813 Merge branch 'patchq/383006' into mlx5-queue
          
