@@ -1,84 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============0724169120514116192=="
+Content-Type: multipart/mixed; boundary="===============7625348462824704627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 24 Mar 2021 06:01:44 -0000
-Message-Id: <161656570442.17463.14617815108311419870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 24 Mar 2021 06:02:04 -0000
+Message-Id: <161656572495.17628.4215129195952921855@gitolite.kernel.org>
 
---===============0724169120514116192==
+--===============7625348462824704627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
-    new: a7d30f3f41cf40aad1c4557fa180fe320d5b7c74
-    log: revlist-0d02ec6b3136-a7d30f3f41cf.txt
+  - ref: refs/heads/tty-next
+    old: 280def1e1c17d35b21206881937d4498bcc1f503
+    new: 22fce66c19caab5a86b085d147a0e77aaf0ca638
+    log: revlist-280def1e1c17-22fce66c19ca.txt
 
---===============0724169120514116192==
+--===============7625348462824704627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616565696 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1616565696-5c7db63f059aa868d68d2c0d8a162cef18096b2d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616565720 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1616565720-98854e1c72496df2e328a3267861ca3e0068be20
 
-0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b a7d30f3f41cf40aad1c4557fa180fe320d5b7c74 refs/heads/driver-core-next
+280def1e1c17d35b21206881937d4498bcc1f503 22fce66c19caab5a86b085d147a0e77aaf0ca638 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBa1cAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p6IQAKLb88dRSclVEpN+wH0w
-6VkFWoDiPiHL+IxvEssILbzrJN2pFUUjqtBjkiPXOYKjXgRJP8bEzX/phHnDN+nI
-Kw0PFuMtSlcK2erDfwax2+v+XtjifpfZUzdRA1nRivWuzQxkI//3x7IrSuJngCWN
-cvCRCxEiAUpMsPoJ/27eh9NqSacIKV2mVBo7PkUuQVPNPQoHh0/suTX2CF88WMQX
-3gURvV2AsaNdF91b5PuQ8Hf0GMSIIdHwVHuwdK64KiTCmVX3tKMNCWn6iF5WAr5o
-LNs7vJ/6GPgnfyAF7E8E5foIe5Pak1nknUtgLesSdq3KuGxTpGJtWeTYKAQ7220X
-qaYD2i6XctDIUJzE2CenVqvJ2OCj3bHESnHHHy+7l5mi+YCE+15Hd6rMTvTbGZCk
-vuR37IFumYkKudmM59LAN04ZDvjbBJu1fIk6yhsqNuO/AtxLmnHz2GtVKriTraew
-YjZcPsHysekwujyjPH1vYys/rsESQIMIzaOXdiKLKbeK5cHfDuKORgHyQdy6/4qL
-FyuQirAFFUVAReGMuzMu5bwpnmXNjtQnzaUo/KXVNrV8YMIVY/KGZsl+Bw4QLDRG
-wPTMnGdSAzxBTJjqKLSSRBg10PttyETK3CgD/JBwRjhkjkCMlC85JzxQfWabKidv
-C9gox1k36QhpkwjEfRVI7GVe
-=/dD4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBa1dgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BXYP/RfDz9C2W1LpuPjc4GeC
+foSXjKGvnbMFwmXIrp7OFGHJX9Ox+gsHH5rA1ox2BpLQQmljvX83jlsf35/e9O9g
+x4OyJhpeeVeZw9TAg3CtXKgsoTzWeJ2MYMj3QUklaQie6FAAqHW0mefbP2b3MdrQ
+kQZObQ2Tqx0ia8kmYo/YWFNg/94zDM7KDzLxPQRn8BRdkiUdyYeTSbUYqA1NVKVs
+3fPoICVaamBslanh6U2n2ffXZxu1Xp2yV2cAzItPW+koTOV21MHVFho0LsytscDD
+nN8ajbI6bjIOdV7Wzfamg/yXbqI3TiLTqPmTAh3xEf1hM863utd6F8F3TMUFFW6T
+s1qGk8pA3SLCTV+XEU0jX0Alhi6ToGohrj+IVxoz/AxL++TWDxn94ham66a5/57X
+mSAw6+oslI30lOOcbzlCQ5zttqzlDhwFnbgk9veo+vq+hdCGpYrOTnoT5xObyBhG
+NDX/XbRbh2n8JHpDsNITaYrSiC4iWBbl0jw5zWJcCOBsPGXAPpSdYqF2OWXRmpSb
+BM4qgHfKEeHJMU5TFNn7zwmr/RH0stHP0KIfZCg6yR5WO16g6ut6eOQItyGyrG63
+aMoykr73UdmPPZTXzaJdEON1TZoCEn6YQMUp8V+C9IjMDliMNjLocmTlr6lNp+Di
+ekhtNiXx3e04cMN8yjyU/kcZ
+=HdEN
 -----END PGP SIGNATURE-----
 
---===============0724169120514116192==
+--===============7625348462824704627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d02ec6b3136-a7d30f3f41cf.txt
+Content-Disposition: attachment; filename=revlist-280def1e1c17-22fce66c19ca.txt
 
-5dd5f9347a927c169205f7385e5cf4e18c41e21a driver core: Trivial typo fix
-bbf44abeeabfe05a124535e6c3a9fd7d682d42bf driver core: auxiliary bus: Remove unneeded module bits
-c654cea59dbc352fceafddd44893f3523fdcc08e driver core: component: remove dentry pointer in "struct master"
-2942df675128b156b0bc8571e2cb2d006fc26e84 driver core: dd: remove deferred_devices variable
-2c137388d685e11cf621b56bf06c4f3a1a8ff7be firmware_loader: Remove unnecessary conversion to bool
-6b72cf128282a4c2191fc2278ba5010c85b51fb6 drivers/base/cpu: remove redundant assignment of variable retval
-38f087de8947700d3b06d3d1594490e0f611c5d1 devtmpfs: fix placement of complete() call
-01085e24ff0ae775e7407a6e40c2156a724ae884 devtmpfs: actually reclaim some init memory
-f2db85b64f0af1410ccb8ebcc9d7fa38e99feee9 driver core: Avoid pointless deferred probe attempts
-b6f617df4fa936c1ab1831c2b23563f6c1add6c4 driver core: Update device link status properly for device_bind_driver()
-ea718c699055c8566eb64432388a04974c43b2ea Revert "Revert "driver core: Set fw_devlink=on by default""
-6579c8d97ad7fc5671ee60234f3b8388abee5f77 clk: Mark fwnodes when their clock provider is added
-0b8bf06f67191e6a3184802a690d3f521c6d7e78 device property: Sync descriptions of swnode array and group APIs
-7f2fac70b729d68a34e5eba8d1fb68eb69b05169 device property: Add test cases for fwnode_property_count_*() APIs
-53f95c55349e75b73f69ce36b0ae2a83b3f28fde devcoredump: avoid -Wempty-body warnings
-0341ce5443949588e93581b49b934cdde2befbf8 workqueue: Add resource managed version of delayed work init
-2077ca682169afb212d8a887c70057a660290df9 MAINTAINERS: Add entry for devm helpers
-f94a5becabf43e17490aded8bddc5f924b00338b extconn: Clean-up few drivers by using managed work init
-96dc2b31abd0ed8a2a59a6672d4f16e4718d3701 hwmon: raspberry-pi: Clean-up few drivers by using managed work init
-b82a7b018b93d282d0f1a41a854ca3d071e02759 platform/x86: gpd pocket fan: Clean-up by using managed work init
-6d0c5de2fd84a0ad07f0cecea24def3987675192 power: supply: Clean-up few drivers by using managed work init
-b6688015151857ed3f61fa2344c4b220bc9dc4d7 regulator: qcom_spmi-regulator: Clean-up by using managed work init
-a7d30f3f41cf40aad1c4557fa180fe320d5b7c74 watchdog: retu_wdt: Clean-up by using managed work init
+c69b11f3a6d1d205ad4da620baa93fe594aaed7f tty: serial: samsung_tty: remove spinlock flags in interrupt handlers
+b9edc6823d18751a0070f915da097705074a30f0 tty: serial: 8250: delete redundant printing of return value
+8ba0f967ff6e312da80054b9a91743734814ea79 tty: max310x: fix flexible_array.cocci warnings
+77124a427749fc0ed63c818d02f18dbf3a9fcd11 drivers: tty: serial: sh-sci: fix spelling typo of 'wheter'
+0ae798fd96f8c28850e09d22d3f0d455071ed8eb vgacon: drop unused vga_init_done
+1631eeeaf084acdc29ca0370db8ea436692f71f5 serial: stm32: rework wakeup management
+c0f3332cb5f2e370c041594fa1ff59db4ee68925 serial: stm32: clean wakeup handling in serial_suspend
+986e9f6038575d447393d393dc2022a91488110a irqchip/stm32: add usart instances exti direct event support
+3d530017bef1de7f7773eb9d3c65fbce924894a2 serial: stm32: update wakeup IRQ management
+1657ca6e28fa781ab3a8e1fa0223688f5e1edb43 ARM: dts: stm32: Add wakeup management on stm32mp15x UART nodes
+df5d151ee6a034cb4ebf1c7a88be2c46c828e20a serial: pch_uart: fix build error with !CONFIG_DEBUG_FS
+9baedb7baeda68494bc96005612de0ca8d360a5d serial: imx: drop workaround for forced irq threading
+214df75d5662c989eb309f95072d763ddd2508c6 dt-bindings: serial: Add compatible for Mediatek MT8195
+c6a419afe324dda15b8a7e05597c4a31d0b8fc17 vt: keyboard, Fix typo in the doc for vt_get_shift_state()
+22fce66c19caab5a86b085d147a0e77aaf0ca638 tty: vt: Mundane typo fix in the file vt.c
 
---===============0724169120514116192==--
+--===============7625348462824704627==--
