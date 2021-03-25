@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2944994334529993682=="
+Content-Type: multipart/mixed; boundary="===============8072865671595374268=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 25 Mar 2021 03:50:36 -0000
-Message-Id: <161664423603.19418.17669191816770766386@gitolite.kernel.org>
+Date: Thu, 25 Mar 2021 03:50:41 -0000
+Message-Id: <161664424171.19515.12777890055113412142@gitolite.kernel.org>
 
---===============2944994334529993682==
+--===============8072865671595374268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 99bc4d5bc815d4423c510e356696d527bdb8854a
-    new: df401a155b9c218d065b821e6cf8334d12d58718
-    log: revlist-99bc4d5bc815-df401a155b9c.txt
+  - ref: refs/heads/5.13/scsi-staging
+    old: cba3ebfc008e89a58788b2055e82c95331aaefa7
+    new: c2255ece2be2454dff0b549e2ceb234bfe798181
+    log: revlist-cba3ebfc008e-c2255ece2be2.txt
 
---===============2944994334529993682==
+--===============8072865671595374268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1616644234 -0400
+pusher 75C5DE3D 1616644240 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1616644233-9d13fc804b21366f795d01dfadbac1fa8179a868
+nonce 1616644239-a0f87ef8e6314f733a4265c42e4f40afb423d9f7
 
-99bc4d5bc815d4423c510e356696d527bdb8854a df401a155b9c218d065b821e6cf8334d12d58718 refs/tags/mkp-scsi-staging
+cba3ebfc008e89a58788b2055e82c95331aaefa7 c2255ece2be2454dff0b549e2ceb234bfe798181 refs/heads/5.13/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBcCIoACgkQ7ulgGnXF
-3j0fmg/9ERymM0ZHclKrMtGGZ0KWTr4UBXP9GMxKmKbkLLNGDKEYRPwa3LuJ8uNv
-wu2L7xPgdmbHL4u5xNSlnF6g2fCaVgFiQCLABTCGjJ9YKJ2tUzUkREmyuYwJX+dc
-qCILfwnPVDFfnTFtECaXOCcLvomakd91eZ6d5cAO006aiLljQCU5QFixuA7UQHZ4
-13uSxqmbysPgypfePUgL30nsh/VDa1Rndk315YaqJ0Xvbgt9wzEJ2x9tzkloBZYB
-m0iRF3iBbqtOfW/41PxjGh5Lwz1nE6WAprHnMYvqhqGKo0hmFxiE4nrOA950G7Rv
-UZt6dL773hL7oiTjW6AllIMjlMQLPkpeRIV05tf35x3VvaZ2YZCF/rF7nJKcax2N
-cMV5qksU0ftNBdoqnTlxvt8vrndjbHdvQM4Xpkuw9bmlSjasF8ZqZztBv992qEJx
-kZMHQYI2xqviUj9SAZCWYAqNAYCci0u4h+76T4qt1jhyfZtim+hzCKybn57D+qsW
-G6Iguy79jJ7amYuNJ6jwk2xOfI57NIAOZl5GwiNRUab5qG3ObYE+h1OKYEoA1r1G
-mnzL8QVJw59EMiOb6BRtBL8ev2fHnj/U/TrC8Fd4+K2jlNABPzPvVhO7jTWS6Ebs
-XGQKuJLtfeun+9Sg+vXPjnHKsBmLlO0DM6+eBb9zuOG4+u0SsMA=
-=lw75
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBcCJAACgkQ7ulgGnXF
+3j1SVA//a/gl4vgzZi0oGCSwqGEY6y0K0Fn5jk2Pe1liUnop72RRCht1wiZ9CSGl
+JnwbgYqlidKSZKJTXMZIBT0+Ml+sNGy6DGWPKs4/ovt8iswijot1ub1HV1j28B9S
+3v2k0HIV5xjvated1f52zpDd6sPnuqyfFU868/xCDygqIntuYrMsadY6TbRaNr84
+bjHBAhTgQoxeZNkRiZS8BqMoYwTFz+FXCmQF7STIF0vxLWJhZsVCCHBq0anYBHE7
+GyssgsgZzaKOsO3pYG5Kl4Wkc73jzWQQN/FalD6jBUMpjBKlB7FZ0ulBH9ARZ9Ho
+dwm2wQng9uswQwGSVuOlH2x2FaxFwCqGrag+5JfevF3Dva+vq1hFB86zRtqPHhUR
+Xo5X5aUJ+6IiZHPJ+sLCBoCeHuwceAjSfD2WJy+V9zjuwjBtRull3ZIo4ilBQ9HK
+dlWByHFg7AJV/eY4QhUJVWakk4A0kh/c0lpQqFz+3oRdtIsCH+MdUEKnwRT563qS
+sozka/PvglEtuJCIf4zwmAQ8GUa1gRDzRXYlVk/CaYlJqeZ6+fjGjtI1KPktowZf
+td7qTfN5Sqg7Liz5Zf+0UUfaF38ej5MuJVyV+LeSDm4sE0nVwaxJPPD4GVUKGaoi
+A9Ww4rtvvKJWbSXyK89zFITr1GVQzbzIzr3OBlBIgY3XepXF1J4=
+=o61y
 -----END PGP SIGNATURE-----
 
---===============2944994334529993682==
+--===============8072865671595374268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-99bc4d5bc815-df401a155b9c.txt
+Content-Disposition: attachment; filename=revlist-cba3ebfc008e-c2255ece2be2.txt
 
 634b9774d335020e2cd55950a6c1242e7e3bd1e7 scsi: qla2xxx: Constify struct qla_tgt_func_tmpl
 37ce4f3531d4a38f3f598fab45d80be5b46aee3c scsi: qla2xxx: Fix endianness annotations
@@ -83,4 +83,4 @@ ae98ddf05fdb92d5ce6d890911b8ee6f5075678b scsi: scsi_dh: Fix a typo
 f1891f9bbc46f83099cbd0911b81b7225258ac03 scsi: lpfc: Fix a typo
 c2255ece2be2454dff0b549e2ceb234bfe798181 scsi: pm8001: Avoid -Wrestrict warning
 
---===============2944994334529993682==--
+--===============8072865671595374268==--
