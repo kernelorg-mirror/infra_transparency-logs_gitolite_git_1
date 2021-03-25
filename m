@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6676905092887746498=="
+Content-Type: multipart/mixed; boundary="===============8439968998234483128=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 25 Mar 2021 03:49:59 -0000
-Message-Id: <161664419968.17375.17739338489497239777@gitolite.kernel.org>
+Date: Thu, 25 Mar 2021 03:50:05 -0000
+Message-Id: <161664420543.18892.10832810054473178383@gitolite.kernel.org>
 
---===============6676905092887746498==
+--===============8439968998234483128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: dd136b33ff5ef33dbd162095db8d8c838f9223cf
-    new: fa528b1d514dc89f32a5d39b9a6f9014e05127ff
+  - ref: refs/heads/5.12/scsi-fixes
+    old: a50bd64616907ed126ffbdbaa06c5ce708c4a404
+    new: 36fa766faa0c822c860e636fe82b1affcd022974
     log: |
          8b1c9b2025491d7c86255fb773b00ecf94b53acc scsi: ibmvfc: Fix potential race in ibmvfc_wait_for_ops()
          62fc2661482b6beccfab8a5987419e96a9499fb4 scsi: ibmvfc: Make ibmvfc_wait_for_ops() MQ aware
@@ -29,33 +29,33 @@ changes:
          36fa766faa0c822c860e636fe82b1affcd022974 scsi: target: pscsi: Clean up after failure in pscsi_map_sg()
          
 
---===============6676905092887746498==
+--===============8439968998234483128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1616644197 -0400
+pusher 75C5DE3D 1616644203 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1616644197-de1d935a01438ffa5fdb472336914e3edb5037df
+nonce 1616644203-26fe5aa805218b34368212f6f3ed924f429cce1f
 
-dd136b33ff5ef33dbd162095db8d8c838f9223cf fa528b1d514dc89f32a5d39b9a6f9014e05127ff refs/tags/mkp-scsi-fixes
+a50bd64616907ed126ffbdbaa06c5ce708c4a404 36fa766faa0c822c860e636fe82b1affcd022974 refs/heads/5.12/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBcCGUACgkQ7ulgGnXF
-3j1pkA/+IBdjtKP0pq/DfvQTKx3cczGVCpokLA8BVItYjA0pCLEUwsyExyoVEyxU
-FJRrEzG6EuWA41yue8T50tj8qA1fLvmAFQGZfaZBg88lpSEFgpqumxAdIsRNVjO2
-jenb+qrpdnG+YQInaxzVWgt6R9EnmRQBv6O5boTR4l1OLL2KGvgThWFplRnODPb/
-jyQ7cOyjWaIgexMQar1y2dQy5qrSBJSiqNgJHVKrkQCCB+64KYg7E8zYN1SaY2i/
-Qt4Z3+61lwW0dHXe7jcoC87Hur8NBHEsQbI3c4SSRgdHE5WkeHcinUiuxJqT3scg
-cVgVikxRRmHRSxjN4xEn+FXobbV9SGu6r1jovQV3b3S15HB9edcXmtKxVH1CgQQh
-5f7eZSNpOTnqNwoov/E5oL26XGSexZ4TR2pFctSEhZ0QLwUPfcyecZuArcFxo7Mx
-g2eFtgWvarXPB/sC/MkMYv/5AmIujEifbcuEyZ0zYEjJk/eqfGAogF11TTnxVr54
-Aw2sS+WsX4C1Q9zb+nR5PXou0sWHB1VMc2Usk5tMuSyiyudsIFPMsX4wWX1CPZ8U
-0zmEcF2vGERCHB12AFWA24UhRD05joAFACPoS8hsbLjNEnekvlPnPVtyMU8JmgUt
-yoVSVhjC5QNXnEqrW3L/AlLUqBMv7vRre1z+JuZ34q86B0oJ0xY=
-=zHYb
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBcCGsACgkQ7ulgGnXF
+3j0SBQ//T08RR/mwdw4pstKf/c9Fv9dHUvEuhULZduohZtrOvAcDPmLX/vQnGNPB
+JWCuqNN1TzXopCowLIa17G0Nowkw6+G6CTWnMhKfplC3i66F4AvhW7s+9m7UwaF4
+CApQww8J0T4Q+ywz18mbCH9v8SLLgNICatbbMEeKRDid6AyysvzyYL18Zqbbj3EQ
+ZE78ezFcpl8zGoBoeQO0Xotxo21+LTgbRNbe1vibvRjHU/YWp6w8ZUhvOodAj0em
+xlFIsCSlcuOAxqAAa4S+QVVWhMRhqbyZQEHH9U1DmSVTzMc+NxkkTgmUEFnmCxVn
+S7ubc2Rw5fmYLQgVos2JMAQixfnXGFRPE+AjtjCIikvDA9TgpHAhubndrSoo7i1z
+CAvbp+ae8zNe+lKLISdHIuBz1jEyZ1ZPjhfQQ3jshsn27T/8mkyUVRD14qlVXDCb
+hGAtBWdLWxqJVmcvU7SXQkHbuhvxkoa8z7WOSE82W8xeJDMNeQOZXC4ZP3P7MfwU
+VcSskKdg5GSG34fQCo6/HGAoDLbzT0e0CGdo0npvB1/C7OB1rjEVsWOI3nE8SGw8
+/vEupNyRpN1+h1lbRJmlM9BIOGB9phLGcQixmRZOXoC5+SbAglYlfjKnlSRC1m3n
+v3niA2LSV7svBWhbAjpV7iRRn0wOmMtr/v7w1UkBKh4cP7Aws34=
+=xY2d
 -----END PGP SIGNATURE-----
 
---===============6676905092887746498==--
+--===============8439968998234483128==--
