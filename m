@@ -1,19 +1,58 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Thu, 25 Mar 2021 05:55:37 -0000
-Message-Id: <161665173750.1438.10469955105129146982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Thu, 25 Mar 2021 06:33:16 -0000
+Message-Id: <161665399673.23520.1438475044740860274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
-user: chanwoo
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/devfreq-fixes
-    old: e5171e6d46fc423625ba72c9129131c75e122c90
-    new: e3600b04636176d5995c6dba0260d48cf970c963
-    log: |
-         e3600b04636176d5995c6dba0260d48cf970c963 PM / devfreq: Use more accurate returned new_freq as resume_freq
-         
+  - ref: refs/tags/for-3.4/core
+    old: f6ccde14da2bd44605d608b258873119a6373dee
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-3.4/drivers
+    old: 2b7c08539af99ec0b794ab125ce93fffd4b5148b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-3.6/core
+    old: a3d30f556b3de1c2cd68eea6c5df32b5c4089185
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-3.6/drivers
+    old: 2e4a47a8dd00ddd846f277fd3e2374d5d0b3099c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-3.7/core
+    old: d89ebf228776c729a9e4bc539a0368219bb5f69c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-3.8/core
+    old: e7f46f6a2fcfe196683754fcb6c1ee2d25a5e0f5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-3.8/drivers
+    old: 32bb9257d78b5c8151c9711e43cfd2f337cffc80
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-3.9/core
+    old: db24ca21dd58f7ba3a950432c8358d0f1174cdb3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-3.9/drivers
+    old: b669e98d8c7aa50d842764f01660fc66f8fb323b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-linus-20120211
+    old: 45d24974654a83e5b0a8dd35fc04d84d91678d03
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-linus-20120531
+    old: b658b19610e2c6527649c7100818bc3f015e758a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-linus-20121123
+    old: 74ed17edd00efe5ae95e6fcedc159ff664c41cd7
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-linus-20130206
+    old: 7ea88b151fbbe4362d7d2835ad06d1ccc19293c6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-linus-20130331
+    old: e15fc495ee8b67be379a4ab0f56fa99e8354e888
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-linus-20130409
+    old: d49a8328541fe35d7eb10216902e99039c1c6486
+    new: 0000000000000000000000000000000000000000
