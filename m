@@ -1,49 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============4638518886248925526=="
+Content-Type: multipart/mixed; boundary="===============3033889421947709027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Thu, 25 Mar 2021 14:24:52 -0000
-Message-Id: <161668229256.1320.8520281639952755948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Thu, 25 Mar 2021 14:28:45 -0000
+Message-Id: <161668252506.4071.12571555575168572081@gitolite.kernel.org>
 
---===============4638518886248925526==
+--===============3033889421947709027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/queue-next
-    old: 1025decdd1dca13989ebc2197a60c8b8e6e1ac62
-    new: a4c75dbfde42b5935110dab46a633ac59b6d8900
-    log: revlist-1025decdd1dc-a4c75dbfde42.txt
-  - ref: refs/heads/queue-rc
-    old: ec3b16447dff9b17c702ad6738f8e1bb66ddd4b9
-    new: 5588ebe733d4fbd17a270df9ab01f639df04fc87
-    log: |
-         cc16872b6c5f49e33542b7b38057c7435e135dbf Merge branch 'master' into testing/rdma-rc
-         5588ebe733d4fbd17a270df9ab01f639df04fc87 Merge branch 'testing/rdma-rc' into queue-rc
-         
+  - ref: refs/heads/rtmutex
+    old: fc303b2d08a0706442cd0fd964470f20645eafeb
+    new: ae63048e16d132a0862e1af95df13c7025cfdbaa
+    log: revlist-fc303b2d08a0-ae63048e16d1.txt
 
---===============4638518886248925526==
+--===============3033889421947709027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1025decdd1dc-a4c75dbfde42.txt
+Content-Disposition: attachment; filename=revlist-fc303b2d08a0-ae63048e16d1.txt
 
-88a178caa6aaba3acc7eced7f9e6f7bb2176eec0 RDMA/core: Check if client supports IB device or not
-b604ca7091b6921942e90ce867d4a6a7062c0f4e RDMA/cma: Skip device which doesn't support CM
-f8d8c88261c2ee0e4c5847842c736233d9e86ac4 IB/cm: Skip device which doesn't support IB CM
-aed0d5117938cd04c016f1829d769d3a68d99ad5 IB/core: Skip device which doesn't have necessary capabilities
-16023ff986f87c381c0b59745046a4a126895ca2 IB/IPoIB: Skip device which doesn't have InfiniBand port
-e47cfda36579e3463963877a240d6cc5aca3740c IB/opa_vnic: Move to client_supported callback
-2231e4929c5e28e35bd158947ad132c9c6a0cf14 net/smc: Move to client_supported callback
-2a6a8abb94432ac91fda38fd14ead64597188bcc net/rds: Move to client_supported callback
-a386c0e13663d966a5fa02f10e39af230df86055 RDMA/restrack: Delay QP deletion till all users are gone
-cc16872b6c5f49e33542b7b38057c7435e135dbf Merge branch 'master' into testing/rdma-rc
-e16365158948b02fa896e2d1d55133ffcbb3851e Merge branch 'rdma-next' into testing/rdma-next
-a4c75dbfde42b5935110dab46a633ac59b6d8900 Merge branch 'testing/rdma-next' into queue-next
+58e3bb21e0843e30891c656cf910239b6e23b159 locking/rtmutex: Remove rt_mutex_timed_lock()
+3fe905ff554620e291068031645e1178758bfa61 locking/rtmutex: Remove rtmutex deadlock tester leftovers
+11c775022495a16cebde00a1a3071dc8778e4c7d locking/rtmutex: Remove output from deadlock detector.
+6cf5e196371a4e34237d9e5170d564e0e3fdf300 locking/rtmutex: Consolidate rt_mutex_init()
+7513d6ed4d8306d5a51d026f8fb8c86d3675dc1f locking/rtmutex: Remove empty and unused debug stubs
+d65046fb72d25377cb321fad9e1859cfa1723436 locking/rtmutex: Move rt_mutex_debug_task_free() to rtmutex.c
+ac9a95535409ab5c4d38cc663f75c16fa239d818 locking/rtmutex: Inline chainwalk depth check
+562d789f56fbeafd194edc4b031e88d259b319fa locking/rtmutex: Remove pointless CONFIG_RT_MUTEXES=n stubs
+ac5f8a9d55facf0edae8d9bcc564f21f5da1c152 locking/rtmutex: Decrapify __rt_mutex_init()
+6f46ce388cc5412f5bca25fc38ca9290d5fbed8d locking/rtmutex: Move debug functions as inlines into common header
+576aacb2e734ceeb59d4225adc483486d39376f0 locking/rtmutex: Make text section and inlining consistent
+5eacad1db8ab29ff8163642735c964c85cb36f81 locking/rtmutex: Consolidate the fast/slowpath invocation
+36b63fb6022f37fc87d2bcfed3414e96629c263d locking/rtmutex: Fix misleading comment in rt_mutex_postunlock()
+84d335f42bdf047cae905d60b464a97d1388caf1 locking/rtmutex: Restrict the trylock WARN_ON() to debug
+ae63048e16d132a0862e1af95df13c7025cfdbaa locking/rtmutex: Cleanup signal handling in __rt_mutex_slowlock()
 
---===============4638518886248925526==--
+--===============3033889421947709027==--
