@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8104972961363852092=="
+Content-Type: multipart/mixed; boundary="===============3434914496879534026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 25 Mar 2021 17:33:20 -0000
-Message-Id: <161669360010.25088.17036010857072001506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 25 Mar 2021 17:33:28 -0000
+Message-Id: <161669360807.25205.10134372069472376237@gitolite.kernel.org>
 
---===============8104972961363852092==
+--===============3434914496879534026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 632aeebe1b7a3a8b193d71942a10e66919bebfb8
     new: 3a27875e91fb9c29de436199d20b33f9413aea77
     log: |
          a23f9099ff1541f15704e96b784d3846d2a4483d ASoC: max98373: Changed amp shutdown register as volatile
          3a27875e91fb9c29de436199d20b33f9413aea77 ASoC: max98373: Added 30ms turn on/off time delay
          
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 3f994c25868729fb63a4eef42a7040e563eff365
     new: e49bcf4f5579828d4d77e5fcc9cb799db69d1f85
     log: revlist-3f994c258687-e49bcf4f5579.txt
 
---===============8104972961363852092==
+--===============3434914496879534026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1616693591 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1616693597-4aafb502aff718560491309459635b6f907c2fdb
+pusher C3F436CA30F5D8EB 1616693599 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1616693605-951d73df88b8ea10ab37daf5a62e1dd820e6a964
 
-632aeebe1b7a3a8b193d71942a10e66919bebfb8 3a27875e91fb9c29de436199d20b33f9413aea77 refs/heads/for-5.12
-3f994c25868729fb63a4eef42a7040e563eff365 e49bcf4f5579828d4d77e5fcc9cb799db69d1f85 refs/heads/for-5.13
+632aeebe1b7a3a8b193d71942a10e66919bebfb8 3a27875e91fb9c29de436199d20b33f9413aea77 refs/heads/asoc-5.12
+3f994c25868729fb63a4eef42a7040e563eff365 e49bcf4f5579828d4d77e5fcc9cb799db69d1f85 refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBcyVcACgkQJNaLcl1U
-h9D/rwf/SIzKFXR15+QRVrcsxPxZWaYXuPMgeRk36l0OSRzz3sPD/yuGZg7V6ToB
-TaxVF53lVlqH7dt79wStMCQBBfYR+PcGFy+TjL4Bczd2/6qr2X7RO72DCZGRQy56
-pK8+afvQ2LaYxCVyUyIWBxomInmwFcWcW8GV5AqQZt6mX/2L8GIv6pagtH1khcKt
-Bt6TQ7WJ5KQA1gjf6DYj8NAkVQ2GEOqyLPnAPTp3YD+m7yQObaunCwkdKLlQc9Jf
-oAx+8YSP/VrnrRMNdt5cjbvF6EfFW4sIWeXYGfKOWs2aza9CFUWZkkuj92hZJcz8
-VKL8ODe0e+MNDyBVTftnuXflYpPjWg==
-=jWhC
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBcyV8ACgkQJNaLcl1U
+h9Djmwf+PMMeynqr/o8n9Zat0Lv0tvQIOkRQantjxOtPSFs2wXML9BOU2mZ6L+sU
+pBbP9rD1a3320UIL/SytDAMMVTq3Yx/9CtTx518PUSCMhZh6DTiiFuNLIFG9c08V
+PR6g2Q1HKBknKfQatwcxq0+TKDgmwLdub4PMsa37DhNo5oRjWs/qjSC9xJYSEIrm
+jZC4dbMINBNy7fiewUQ4zSY/3aSv0HULc6mduljNJZhladX+dMrHZ+tyO3oDspYv
+gDl5rp6iB9lY5MApiiuD3F///IcW6sphmkn/FqCWitaGEWQXzJuyEHaj4PW+AeVe
+rF1lAAZPI5PLjey7olLgiWRLSUeWzA==
+=tMzp
 -----END PGP SIGNATURE-----
 
---===============8104972961363852092==
+--===============3434914496879534026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ df8077c6fe64fe98c1b1c1f9ecf84afc773e726f ASoC: bindings: fsl-asoc-card: add comp
 b9af3fb7759d891eb7895f8d6ad737905c6806b2 Merge series "ASoC: soc.h: small cleanups" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 e49bcf4f5579828d4d77e5fcc9cb799db69d1f85 Merge series "Add audio driver base on rpmsg on i.MX platform" from Shengjiu Wang <shengjiu.wang@nxp.com>:
 
---===============8104972961363852092==--
+--===============3434914496879534026==--
