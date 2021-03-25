@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0587429171038937853=="
+Content-Type: multipart/mixed; boundary="===============1162747718469428389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 25 Mar 2021 08:55:34 -0000
-Message-Id: <161666253421.25941.17257559477379673148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 25 Mar 2021 08:55:58 -0000
+Message-Id: <161666255869.26158.18194449379283703124@gitolite.kernel.org>
 
---===============0587429171038937853==
+--===============1162747718469428389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 7384a5f7a2822022ee32bd9ca007424bd3a01c3c
-    new: 3cefdc143263faccab45578dedd8799111e332de
+  - ref: refs/heads/linux-5.11.y
+    old: bf768299cb38404592f5f8189bd0e4bfaf3fa7c3
+    new: 7ab86fca27ce1eaa7c1ab1bf951dc9c770397a6a
     log: |
-         3cefdc143263faccab45578dedd8799111e332de 5.11-stable patches
+         300f35dba20398f8e6c62a48034809272883ca91 Revert "drm/ttm: make ttm_bo_unpin more defensive"
+         09a4bfb44b10b915b57f7b1226b3b12907f199cd Revert "drm/ttm: Warn on pinning without holding a reference"
+         7ab86fca27ce1eaa7c1ab1bf951dc9c770397a6a Linux 5.11.10-rc1
          
 
---===============0587429171038937853==
+--===============1162747718469428389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616662533 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1616662532-a3e6bd492ba6c91c91bd9e69a5cb1e468abfcd6a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616662557 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1616662555-b9f041879b9585a2f6c9f67e65a9d7c95ceee2ac
 
-7384a5f7a2822022ee32bd9ca007424bd3a01c3c 3cefdc143263faccab45578dedd8799111e332de refs/heads/master
+bf768299cb38404592f5f8189bd0e4bfaf3fa7c3 7ab86fca27ce1eaa7c1ab1bf951dc9c770397a6a refs/heads/linux-5.11.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBcUAUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vZgQAIkE2P35wArjEieQaKHm
-fuorrlS8LCCbEYj2VnmL0QRNL0gwf1UlRp8xboGMNtv0Gv+TIS6Iusvfe93LTQf4
-xUMciBPKR985uihJZYSBXVyvIOZuhwob5e118cOJ5SJOF0RRWLnecgNAHjEvVrKI
-DcuOda+OmAfCe/nJFJOGK60jIJ+Q6Ic8ybR0BkpIUkOvNyXTcB7Y/pWZGm8HbBqI
-CIH67eGBM7KHHzCMYxa6dfZWQMgnp/cxoUBwhmACPwOYfWBkrj9AhVHJXbIKws4T
-zf9JjjM8yTjAA55SIVWh9sLUAwe5kdQwdmQW3OsSGvdbWdqRs66xDIUykKvUO2BJ
-i/69GwsVyPrFTRhD7bSsxdDeTRFnpch0GA5jGL1pHIqq7d+ZUjvOOa0y6g1I6mxQ
-ZObUU4zXg8nq68DDHFkspEoEyrdUHz+rBbDqjyjmYCz6aXTH5uRD8RzlHRMuBjdU
-GutmH4tgjC4eAs90yj/jvKv31wrij+m/TAVowT/7rzKrduV+2mN3PG3c0VAO+Gmi
-zGya9EgR9ak/ABiozfzMGeRarYcFqSIOg0j2M22jt4NDolVh0OcnFAN1u5AU+6z0
-JTDy0Aulk1ADH1aqzwnqknftz0OF23c9uHdoBZku4Jpw4VzWwAYy3SEVZYI/eRKB
-n0WCk2t4Z2Aya+HL7FqPRg6L
-=klIv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBcUB0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YW0P/i+3aJwGdFrpBWcc3sN7
+QQTIoliKwzaYzApeF5r9Ttdnu76H2qcrpTVZ6tkODgRUA8h43yyci+cQR4VSDo5Z
+ruMflJLd63xzO49oyq09K9imT4HDiGPlSUeFH6iWu2kJvHtQmgtY3Wr25N+WCxj+
+gIe76/AKwcD+ZCf+kXIpIT45Bf0eNOSKDsNd7nlla8m1tWwYBnRBKSAG0AEh/aUQ
+gS72u249Fvc50pGfol8ruQRwZv+1zYjwF/Em1WX+nm6jOMp7ZmgWu3p7jypojA5G
+/V9+aDayFl083vQMHNQMw9EY3f27BD8znLfzwvCNlTWgo6CjxhoU1miNVaZWpy3a
+VYcOG6bYKNXy524ikFNrvi+R1BR/XTgAY4E5LFedeU0q93rbln26ysMDtErMvUfB
+JSVfMWeaDnK9mPwI/XifLMuy62W1woq6lv6pOYDwh/AqnHHVnC10aRnC0cD/i3dk
+lWCstJ2gYToxBK8Y1SJpDsSX6132PPoo1o9pbaMBeHcK8r+JD3nA7opACSDd7571
+mIrIxTH/Uv7khHBAf4i3VE3SOfUvvuUsQjGj987q1pNXN0YLVd6lVKwL6hZ5rmHy
+83Dt0rjEABFq2WNFOIaBG1tpKzCw82nTIpazyZaZ5DTcDWIkRisvG6IXTWCu1q4D
+MsZ9WJBdnFHwCf1N+QaN/GAw
+=ofu2
 -----END PGP SIGNATURE-----
 
---===============0587429171038937853==--
+--===============1162747718469428389==--
