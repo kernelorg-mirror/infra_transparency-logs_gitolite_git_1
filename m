@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 25 Mar 2021 23:10:32 -0000
-Message-Id: <161671383249.13257.12714374220227133487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 25 Mar 2021 23:22:46 -0000
+Message-Id: <161671456600.19638.11295807561467877596@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/bluetooth/bluez
+user: bgix
 changes:
-  - ref: refs/tags/v5.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: a6d574dee98b6bc676391ba747e348b7705732c0
-  - ref: refs/tags/v5.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
+  - ref: refs/heads/master
+    old: 03987faa52806511bed3d199bb77cfa22be39679
+    new: f6eccfa66baf9897b805a5749a489a13ca7cd96a
+    log: |
+         f6eccfa66baf9897b805a5749a489a13ca7cd96a mesh: Fix segmented msg RX with friendship
+         
