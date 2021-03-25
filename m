@@ -1,45 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============3033889421947709027=="
+Content-Type: multipart/mixed; boundary="===============6446139088407677480=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Thu, 25 Mar 2021 14:28:45 -0000
-Message-Id: <161668252506.4071.12571555575168572081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 25 Mar 2021 14:37:16 -0000
+Message-Id: <161668303648.9662.9295820237833740862@gitolite.kernel.org>
 
---===============3033889421947709027==
+--===============6446139088407677480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/rtmutex
-    old: fc303b2d08a0706442cd0fd964470f20645eafeb
-    new: ae63048e16d132a0862e1af95df13c7025cfdbaa
-    log: revlist-fc303b2d08a0-ae63048e16d1.txt
+  - ref: refs/heads/sched/core
+    old: 0a2b65c03e9b47493e1442bf9c84badc60d9bffb
+    new: 5ed0e3fe88a19f308e9816ea9b367d91ca403051
+    log: revlist-0a2b65c03e9b-5ed0e3fe88a1.txt
 
---===============3033889421947709027==
+--===============6446139088407677480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc303b2d08a0-ae63048e16d1.txt
+Content-Disposition: attachment; filename=revlist-0a2b65c03e9b-5ed0e3fe88a1.txt
 
-58e3bb21e0843e30891c656cf910239b6e23b159 locking/rtmutex: Remove rt_mutex_timed_lock()
-3fe905ff554620e291068031645e1178758bfa61 locking/rtmutex: Remove rtmutex deadlock tester leftovers
-11c775022495a16cebde00a1a3071dc8778e4c7d locking/rtmutex: Remove output from deadlock detector.
-6cf5e196371a4e34237d9e5170d564e0e3fdf300 locking/rtmutex: Consolidate rt_mutex_init()
-7513d6ed4d8306d5a51d026f8fb8c86d3675dc1f locking/rtmutex: Remove empty and unused debug stubs
-d65046fb72d25377cb321fad9e1859cfa1723436 locking/rtmutex: Move rt_mutex_debug_task_free() to rtmutex.c
-ac9a95535409ab5c4d38cc663f75c16fa239d818 locking/rtmutex: Inline chainwalk depth check
-562d789f56fbeafd194edc4b031e88d259b319fa locking/rtmutex: Remove pointless CONFIG_RT_MUTEXES=n stubs
-ac5f8a9d55facf0edae8d9bcc564f21f5da1c152 locking/rtmutex: Decrapify __rt_mutex_init()
-6f46ce388cc5412f5bca25fc38ca9290d5fbed8d locking/rtmutex: Move debug functions as inlines into common header
-576aacb2e734ceeb59d4225adc483486d39376f0 locking/rtmutex: Make text section and inlining consistent
-5eacad1db8ab29ff8163642735c964c85cb36f81 locking/rtmutex: Consolidate the fast/slowpath invocation
-36b63fb6022f37fc87d2bcfed3414e96629c263d locking/rtmutex: Fix misleading comment in rt_mutex_postunlock()
-84d335f42bdf047cae905d60b464a97d1388caf1 locking/rtmutex: Restrict the trylock WARN_ON() to debug
-ae63048e16d132a0862e1af95df13c7025cfdbaa locking/rtmutex: Cleanup signal handling in __rt_mutex_slowlock()
+8925fe3d62d51e87b8882591c11b37d5ca7f2b28 static_call: Relax static_call_update() function argument type
+dfd5ded35574a02560984484c603958c7ab9d12f sched: stop using magic values in sched_dynamic_mode
+7c02620670565aeba35fd05cdfc598fb7136514d sched: use -EINVAL in sched_dynamic_mode
+274145a6cb8746e3e716692629bc4c9f078abfbf sched/numa: Allow runtime enabling/disabling of NUMA balance without SCHED_DEBUG
+cf13061e48d06fd39bcbb1828ba942341f984301 sched: Remove sched_schedstats sysctl out from under SCHED_DEBUG
+d224c19c379329262f70f6621e0aea5818bb7baf sched: Don't make LATENCYTOP select SCHED_DEBUG
+d6440884f64faae3355f0bceb2d9d6dcfb4fc387 sched: Move SCHED_DEBUG to debugfs
+fa7df4cc199f5374ff00d928fe0fb2ebd0346fb7 sched,preempt: Move preempt_dynamic to debug.c
+d4a09308ecc5119f19b5058d08473df79ecd6a66 debugfs: Implement debugfs_create_str()
+47eebbd000aacff463f9551511e58d1f235262fb sched,debug: Convert sysctl sched_domains to debugfs
+3e87262c6dca97ec0b76630e357205a2e4a26009 Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
+c9e3021c0bde9d6032a04af3a7c50084f882b138 sched,fair: Alternative sched_slice()
+5ed0e3fe88a19f308e9816ea9b367d91ca403051 sched: Warn on long periods of pending need_resched
 
---===============3033889421947709027==--
+--===============6446139088407677480==--
