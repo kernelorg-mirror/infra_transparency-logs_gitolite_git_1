@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1107035161597314401=="
+Content-Type: multipart/mixed; boundary="===============1183740439529874846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 25 Mar 2021 01:04:29 -0000
-Message-Id: <161663426959.8794.17321137854290231189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 25 Mar 2021 01:04:36 -0000
+Message-Id: <161663427633.8943.17890199670878024183@gitolite.kernel.org>
 
---===============1107035161597314401==
+--===============1183740439529874846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 071e1a8458c2a9aab0ab8916aabb9a00f68d0ab2
-    new: a072d9f4ab8c3372c9f4c8450a10f6f8c8a2d22e
-    log: revlist-071e1a8458c2-a072d9f4ab8c.txt
+  - ref: refs/heads/queue-rc
+    old: bfa6cc7271c4a9f0e88a0abb096faf04e7264c52
+    new: ec3b16447dff9b17c702ad6738f8e1bb66ddd4b9
+    log: revlist-bfa6cc7271c4-ec3b16447dff.txt
 
---===============1107035161597314401==
+--===============1183740439529874846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-071e1a8458c2-a072d9f4ab8c.txt
+Content-Disposition: attachment; filename=revlist-bfa6cc7271c4-ec3b16447dff.txt
 
 abe7034b9a8d57737e80cc16d60ed3666990bdbf Revert "netfilter: x_tables: Update remaining dereference to RCU"
 d3d40f237480abf3268956daf18cdc56edd32834 Revert "netfilter: x_tables: Switch synchronization to RCU"
@@ -105,5 +105,7 @@ f51d7bf1dbe5522c51c93fe8faa5f4abbdf339cd ptp_qoriq: fix overflow in ptp_qoriq_ad
 3bae20868c909b9759cdc8c258dbf3879ad2095a net/mlx5e: Consider geneve_opts for encap contexts
 b8480ac5d2f65c75bbcab6f07741c8042c119939 Merge branch 'mlx4-for-net' into net-rc
 a072d9f4ab8c3372c9f4c8450a10f6f8c8a2d22e Merge branch 'mlx5-for-net' into net-rc
+96610efe2a5e9c12265cbdbefd32ea42c59764da Merge branch 'net-rc' into queue-rc
+ec3b16447dff9b17c702ad6738f8e1bb66ddd4b9 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============1107035161597314401==--
+--===============1183740439529874846==--
