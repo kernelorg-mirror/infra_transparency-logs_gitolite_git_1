@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8379126063325903083=="
+Content-Type: multipart/mixed; boundary="===============7842276165007290102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kabel/linux
-Date: Thu, 25 Mar 2021 02:11:54 -0000
-Message-Id: <161663831478.22524.18324096007780768880@gitolite.kernel.org>
+Date: Thu, 25 Mar 2021 02:12:00 -0000
+Message-Id: <161663832027.22602.13624390709001416857@gitolite.kernel.org>
 
---===============8379126063325903083==
+--===============7842276165007290102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kabel/linux
 user: kabel
 changes:
-  - ref: refs/tags/net-next
-    old: 4c94fe88cde4bb5c8e1baa01106c4e6db1c75738
-    new: 84c7f6c33f42a12eb036ebf0f0e3670799304120
-    log: revlist-4c94fe88cde4-84c7f6c33f42.txt
+  - ref: refs/heads/marvell10g-updates
+    old: 4f567c27e58edd88aa9a1fec066325ced8e9f521
+    new: 891655285097e3f5ea06cd0469d3cb62b72512b1
+    log: revlist-4f567c27e58e-891655285097.txt
 
---===============8379126063325903083==
+--===============7842276165007290102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c94fe88cde4-84c7f6c33f42.txt
+Content-Disposition: attachment; filename=revlist-4f567c27e58e-891655285097.txt
 
 5aa3afe107d9099fc0dea2acf82c3e3c8f0f20e2 net: make unregister netdev warning timeout configurable
 e7eae3ad191e0239d837e9824bc327d613e60e64 net: hns: remove unused get_autoneg()
@@ -105,5 +105,16 @@ d280a2c2b740ed6d90827004625e605c0a06a696 Simplify the code by using module_platf
 da1da87fa7fcf55871635f3f545c3b2932019213 6lowpan: Fix some typos in nhc_udp.c
 5a5586112b929546e16029261a987c9197bfdfa2 net: stmmac: support FPE link partner hand-shaking procedure
 84c7f6c33f42a12eb036ebf0f0e3670799304120 hinic: avoid gcc -Wrestrict warning
+ba0ce86d2fe5fd5e526a693dd8f8733234ff3f0d net: phy: marvell10g: rename register
+c933f38517e9788632c9d9f2db20f23bb6ca6a56 net: phy: marvell10g: fix typo
+0af2b44cfc52ae886ce2f56c396fc31a9f609355 net: phy: marvell10g: allow 5gbase-r and usxgmii
+0d71a2d2f38c586e0e2600590eacfdf53bef86a6 net: phy: marvell10g: indicate 88X33X0 only port control registers
+970b563114534d5d00acb566b3a5e2403c48705c net: phy: marvell10g: add MACTYPE definitions for 88X33X0/88X33X0P
+c578f98c941c53bbdf6712c38937bba24d511172 net: phy: marvell10g: add MACTYPE definitions for 88E21XX
+d0e541002225c6d67ec54bc19ca898264ff54cbf net: phy: marvell10g: add code to determine number of ports
+7b871bf4ea6bff2579dc06af8f395548c072089d net: phy: marvell10g: support all rate matching modes
+a6564e50fdda96924829f5472a81205e9c891ee0 net: phy: marvell10g: support other MACTYPEs
+0d9ed8bc8737306315b36b65c46e7e5d0d8e023b net: phy: add constants for 2.5G and 5G speed in PCS speed register
+891655285097e3f5ea06cd0469d3cb62b72512b1 net: phy: marvell10g: print exact model
 
---===============8379126063325903083==--
+--===============7842276165007290102==--
