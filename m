@@ -1,53 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============3081299405795651582=="
+Content-Type: multipart/mixed; boundary="===============6323285509274298931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 25 Mar 2021 09:30:04 -0000
-Message-Id: <161666460409.19728.11248025061029179517@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Thu, 25 Mar 2021 09:35:44 -0000
+Message-Id: <161666494457.22859.6481130646939078547@gitolite.kernel.org>
 
---===============3081299405795651582==
+--===============6323285509274298931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/tags/v5.11.10
-    old: 0000000000000000000000000000000000000000
-    new: de0e07d2c370815e93a5aac9068e697e1749cf14
+  - ref: refs/heads/rtmutex
+    old: 238baaf7afb02f83cf7f455b92b2c6ed961d43cd
+    new: fe3bd2ec35913332f248170edb18ad229fc76ec2
+    log: revlist-238baaf7afb0-fe3bd2ec3591.txt
 
---===============3081299405795651582==
+--===============6323285509274298931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-238baaf7afb0-fe3bd2ec3591.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616664603 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1616664601-891aba8beb33e63a9ba7a783b9daae7e9ff37c1f
+93b02d29fbdbc221c866664adcaf0e85be9f8008 locking/mutex: Remove repeated declaration
+45643ecce0f77677eb0bc2ae9e149a9d368c4513 locking/rtmutex: Remove rt_mutex_timed_lock()
+eead5f6e60dec261a9ed1f77243434d54b59a565 locking/rtmutex: Remove rtmutex deadlock tester leftovers
+1ac4c6cdc085509b995528769540385f645cce97 locking/rtmutex: Remove output from deadlock detector.
+3941d9e215da83e344703b3afdfee48d563ca7f9 locking/rtmutex: Consolidate rt_mutex_init()
+5b9768264ca84a3739c1bf400e12ce0ab49f08a1 locking/rtmutex: Remove empty and unused debug stubs
+ef1ca96cdfb19dc0e0bae648452634358e6affc4 locking/rtmutex: Move rt_mutex_debug_task_free() to rtmutex.c
+4435338abc919c891e8fb6eeda55f42f6fefe717 locking/rtmutex: Inline chainwalk depth check
+6fc020e7a4be4208b7efcdd078b1b4a514d38847 locking/rtmutex: Remove pointless CONFIG_RT_MUTEXES=n stubs
+d393ff4e095f64b990597b569bb3609dcb1ab88e locking/rtmutex: Decrapify __rt_mutex_init()
+4615c1ee020a47b523253927a7c30c4356ec96cf locking/rtmutex: Move debug functions as inlines into common header
+47816df3077bded75abc8adcc3389e9474fdd8c9 locking/rtmutex: Make text section and inlining consistent
+4008eb7e6fa2713d6eaa1eb934252304ce273044 locking/rtmutex: Consolidate the fast/slowpath invocation
+6fc3dd599cf3e02d6a5fda748cf5f1d3f75a2809 locking/rtmutex: Fix misleading comment in rt_mutex_postunlock()
+18121c036ed8113b4003537f8217f307fdd4735b locking/rtmutex: Restrict the trylock WARN_ON() to debug
+fe3bd2ec35913332f248170edb18ad229fc76ec2 locking/rtmutex: Cleanup signal handling in __rt_mutex_slowlock()
 
-0000000000000000000000000000000000000000 de0e07d2c370815e93a5aac9068e697e1749cf14 refs/tags/v5.11.10
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBcWBsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gkcQAKlzyQEjUoEb5ziX3rO4
-q7HIxj1kXNijyyvSdUTq7UkQ/0dfJw1T7ex3iOOYEahRqr1wWAmE+hKXeMMkoVQ5
-cThDit4T2VfE7j1Ft4+/0b3/h8ARXbYNgEKLgwO5qDwafDU+5SJLreY3HArkcVHb
-lwHJh3HKPq0GEwu9qMY7B3+H8fZ9cNaiGy7bPxhTCVzWoANRFIzGbPWiCdJe5Oli
-yGrbFsAyqnpCCDgR6Y1XA8BAnMu1PF+BIP28xwIbZHBk7XI41OzaRAEqY/5nJSbi
-c9KEOtYdmSMz69vTrEZrtJc541m1JPew2XkFr+lC2WfWaFqLgIxhb1AQH4PDocPQ
-uEfKsHeM6/3pFTNYDmr9mcTAYaQBnvpFLw2NpmmoY1xbU7+KPdfr2gsqbk5IK+RZ
-bMZfCpjCrvjtSZoU/lAZvMe/S3QyksqJvESTD7875XrBoZ8HgRFyDjKsrTTqVeFC
-8SJCzvcWZR34EAaXUlSnwy2j8Mo45Y8S0WcuzmHSr1LwD6q0IytNVanLmyge3TOk
-2hvGmlhm8Nick/H6gI80ZJTlGF22l36P6gseZL1ziY8TpUijbEhv7F6l+omzsoqI
-CL8VCHy8pzF/Eyx/Q6UbtJVVzD3FQPodPHee5ETzZodgg0or/ETO31gy09C8YEUI
-28senYVYgUAdZMJ6aRQ+aUan
-=8GqM
------END PGP SIGNATURE-----
-
---===============3081299405795651582==--
+--===============6323285509274298931==--
