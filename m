@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1221279399761711820=="
+Content-Type: multipart/mixed; boundary="===============6486410823078858076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 25 Mar 2021 23:57:37 -0000
-Message-Id: <161671665725.9285.13010189546187595126@gitolite.kernel.org>
+Date: Thu, 25 Mar 2021 23:57:59 -0000
+Message-Id: <161671667991.9456.5752889962163819901@gitolite.kernel.org>
 
---===============1221279399761711820==
+--===============6486410823078858076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/for-next
-    old: 8723d5ba8bdae1c41be7a6fc8469dc9aa551e7d0
-    new: 25dfa65f814951a33072bcbae795989d817858da
-    log: revlist-8723d5ba8bda-25dfa65f8149.txt
-  - ref: refs/heads/xfs-5.13-merge
-    old: 0000000000000000000000000000000000000000
-    new: 25dfa65f814951a33072bcbae795989d817858da
-  - ref: refs/tags/xfs-5.13-merge-1
-    old: 0000000000000000000000000000000000000000
-    new: 9d608754c5c068f1a03fdfc3da89210a7e85bb38
+  - ref: refs/heads/master
+    old: a38fd8748464831584a19438cbb3082b5a2dab15
+    new: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
+    log: revlist-a38fd8748464-0d02ec6b3136.txt
 
---===============1221279399761711820==
+--===============6486410823078858076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8723d5ba8bda-25dfa65f8149.txt
+Content-Disposition: attachment; filename=revlist-a38fd8748464-0d02ec6b3136.txt
 
 e51ea5442996261d4bc3a5b934d27cc0ce6a991c sparc32: don't bother with lookup_fault() in __bzero()
 5f99d33810b00666825784342868240e5790c704 sparc32: kill lookup_fault()
@@ -444,6 +438,7 @@ bffe30dd9f1f3b2608a87ac909a224d6be472485 x86/sev-es: Use __copy_from_user_inatom
 4aa5e002034f0701c3335379fd6c22d7f3338cce Revert "nfsd4: remove check_conflicting_opens warning"
 6ee65a773096ab3f39d9b00311ac983be5bdeb7c Revert "nfsd4: a client's own opens needn't prevent delegations"
 5808fecc572391867fcd929662b29c12e6d08d81 iomap: Fix negative assignment to unsigned sis->pages in iomap_swapfile_activate
+b5a08423da9da59c7f38ed8dbb6dd6cbbe9024a4 xfs: fix quota accounting when a mount is idmapped
 01dc9262ff5797b675c32c0c6bc682777d23de05 KVM: arm64: Ensure I-cache isolation between vcpus of a same VM
 614c9750173e412663728215152cc6d12bcb3425 NFSD: fix dest to src mount in inter-server COPY
 53cb245454df5b13d7063162afd7a785aed6ebf2 NFSv4.2: fix return value of _nfs4_get_security_label()
@@ -808,6 +803,9 @@ f6d54255f4235448d4bbe442362d4caa62da97d5 io_uring: halt SQO submission on ctx ex
 9b46571142e47503ed4f3ae3be5ed3968d8cb9cc io_uring: add generic callback_head helpers
 b7f5a0bfe2061b2c7b2164de06fa4072d7373a45 io_uring: fix sqpoll cancellation via task_work
 12ec5408d2135bfcdec14ff7e4248f1be8597f31 Merge tag 'iio-fixes-for-5.12a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-linus
+d336f7ebc65007f5831e2297e6f3383ae8dbf8ed xfs: force log and push AIL to clear pinned inodes when aborting mount
+08a204387e8063ba7375481281701137bd553dee docs: ABI: Fix the spelling oustanding to outstanding in the file sysfs-fs-xfs
+8723d5ba8bdae1c41be7a6fc8469dc9aa551e7d0 xfs: also reject BULKSTAT_SINGLE in a mount user namespace
 d2dcc8ed8ec650a793e81d8b2222146eb6ddd84f btrfs: fix wrong offset to zero out range beyond i_size
 fbf48bb0b197e6894a04c714728c952af7153bf3 btrfs: track qgroup released data in own variable in insert_prealloc_file_extent
 a3ee79bd8fe17812d2305ccc4bf81bfeab395576 btrfs: fix qgroup data rsv leak caused by falloc failure
@@ -994,35 +992,5 @@ b35660a7cebdf438e01bba05075ae2bcc0125650 Merge tag 'powerpc-5.12-4' of git://git
 2c41fab1c60b02626c8153a1806a7a1e5d62aaf1 Merge tag 'io_uring-5.12-2021-03-21' of git://git.kernel.dk/linux-block
 d7f5f1bd3c240c4d527c0871a38dc3d61255ea9e Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b Linux 5.12-rc4
-e424aa5f547d2510f8ea1199e7b4ed8ef2d9439d xfs: drop freeze protection when running GETFSMAP
-1aa26707ebd65e1260f4a912cae1fb4c37cc4ebd xfs: fix uninitialized variables in xrep_calc_ag_resblks
-05237032fdec14a7f393259620d522e9c9a92685 xfs: fix dquot scrub loop cancellation
-7716ee54cb88e1b76e6a9b61416e286b8150f61d xfs: bail out of scrub immediately if scan incomplete
-9de4b514494a3b49fa708186c0dc4611f1fe549c xfs: mark a data structure sick if there are cross-referencing errors
-de9d2a78add1a4c9508be96bad7e29d899e0ff0f xfs: set the scrub AG number in xchk_ag_read_headers
-f53acface7a9765ba03b491485bcc53d72810aeb xfs: remove return value from xchk_ag_btcur_init
-973975b72a36ee86c8c59057f06fcde03478ff4f xfs: validate ag btree levels using the precomputed values
-383e32b0d0db464dc53052a97bf7f9ee3a1937cc xfs: prevent metadata files from being inactivated
-3fef46fc43ca12a0006d6683c8ac114628ad53a1 xfs: rename the blockgc workqueue
-0f98b4ece18da9d8287bb4cc4e8f78b8760ea0d0 xfs: rename variable mp to parsing_mp
-92cf7d36384b99d5a57bf4422904a3c16dc4527a xfs: Skip repetitive warnings about mount options
-b2c2974b8cdf1eb3ef90ff845eb27b19e2187b7e xfs: ensure xfs_errortag_random_default matches XFS_ERRTAG_MAX
-e6a688c3323840f3e388ba28fd2db86675b79917 xfs: initialise attr fork on inode create
-accc661bf99a47b93ecb5fe0ed3fefd5d8b505ef xfs: reduce buffer log item shadow allocations
-c81ea11e033221a94182e1d0fee303def944303a xfs: xfs_buf_item_size_segment() needs to pass segment offset
-929f8b0deb8365122826135b36ddae55b12b4852 xfs: optimise xfs_buf_item_size/format for contiguous regions
-ec08c14ba28ce073b3f63c8edbee0f3c38e1b6a1 xfs: type verification is expensive
-39d3c0b5968b5421922e2fc939b6d6158df8ac1c xfs: No need for inode number error injection in __xfs_dir3_data_check
-1fea323ff00526dcc04fbb4ee6e7d04e4e2ab0e1 xfs: reduce debug overhead of dir leaf/node checks
-5825bea05265d2938c4c20a1c0f8b7d7ab59523d xfs: __percpu_counter_compare() inode count debug too expensive
-bd24a4f5f7fd9720c3484821729027cad0816dbb xfs: Rudimentary typo fixes
-0145225e353eb5db9cb89e2ab1baf9a55da7a492 xfs: Rudimentary spelling fix
-f9dd7ba4308cd95c57f284253c5fb99623d7b715 xfs: Fix a typo
-014695c0a78ea3054aa2105ba23cc107c3c27c74 xfs: update lazy sb counters immediately for resizefs
-c789c83c7ef8f98f9f6f0864ce6a58dc4c4012d1 xfs: hoist out xfs_resizefs_init_new_ags()
-46141dc891f7d28cc5cac473ad1a54a312c021c1 xfs: introduce xfs_ag_shrink_space()
-fb2fc172018599a6564aab4ac0dce79bf94bd6bc xfs: support shrinking unused space in the last AG
-2b92faed551173f065ee2a8cf087dc76cf40303b xfs: add error injection for per-AG resv failure
-25dfa65f814951a33072bcbae795989d817858da xfs: fix xfs_trans slab cache name
 
---===============1221279399761711820==--
+--===============6486410823078858076==--
