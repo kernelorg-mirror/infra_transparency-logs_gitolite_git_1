@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Thu, 25 Mar 2021 12:07:19 -0000
-Message-Id: <161667403985.7742.1040279273714573027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 25 Mar 2021 12:08:17 -0000
+Message-Id: <161667409700.8115.12456114454547266877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next
-    old: 49fa475634be6c1b8fc507c435a367687a3196a9
-    new: 12484a4ecc927fb1e3c5536bb29fc464cf99a503
+  - ref: refs/heads/x86/core
+    old: 2f706e0e5e263c0d204e37ea496cbb0e98aac2d2
+    new: 2304d14db6595bea5292bece06c4c625b12d8f89
     log: |
-         ac2be863a98fc56eb6da368a7cb0df3b8a15a4f5 gpio: sch: Add edge event support
-         12484a4ecc927fb1e3c5536bb29fc464cf99a503 gpio: sch: Hook into ACPI GPE handler to catch GPIO edge events
+         2304d14db6595bea5292bece06c4c625b12d8f89 x86/kprobes: Move 'inline' to the beginning of the kprobe_is_ss() declaration
          
