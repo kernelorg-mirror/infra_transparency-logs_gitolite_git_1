@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 25 Mar 2021 21:06:34 -0000
-Message-Id: <161670639438.30292.11577111755154901257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Thu, 25 Mar 2021 21:22:44 -0000
+Message-Id: <161670736494.9952.16797830669885610384@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
-  - ref: refs/heads/for-next
-    old: 84fa3962d5ff8cd23e85bea242cb32f27d879608
-    new: dc3b3e044f0a6f8da6096e9c3bb43018a1adbd7f
+  - ref: refs/heads/master
+    old: 20d3ee2c52b4ad160f1b849900c7a42ca9bb44d5
+    new: e0f24a3996a35e9c5d30198a75dc906ad5a64948
     log: |
-         72bbc226ed2ef0a46c165a482861fff00dd6d4e1 s390/vdso: copy tod_steering_delta value to vdso_data page
-         b24bacd67ffddd9192c4745500fd6f73dbfe565e s390/vdso: fix tod_steering_delta type
-         5b43bd184530af6b868d8273b0a743a138d37ee8 s390/vdso: fix initializing and updating of vdso_data
-         7dd7108f7a626b55e8e08b98ca1a5e8cadb28315 Merge branch 'fixes' into for-next
-         dc3b3e044f0a6f8da6096e9c3bb43018a1adbd7f Merge branch 'features' into for-next
+         e0f24a3996a35e9c5d30198a75dc906ad5a64948 KernelShark: Version 1.3
          
