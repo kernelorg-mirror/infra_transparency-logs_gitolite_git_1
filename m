@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Thu, 25 Mar 2021 21:40:10 -0000
-Message-Id: <161670841023.21451.6535274997364444762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Thu, 25 Mar 2021 21:55:43 -0000
+Message-Id: <161670934306.30612.13379782914729748186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/xen/tip
+user: ostr
 changes:
-  - ref: refs/tags/kernelshark-v1.3
-    old: f80afec215470d3d6c9d8c2da665267b8fd26803
-    new: b5b9f551c5ac70d473f7379186341fd2720f60f0
+  - ref: refs/heads/for-linus-5.12b
+    old: f1d20d8643e54dcde242fd2c8748063ed75702a8
+    new: af44a387e743ab7aa39d3fb5e29c0a973cf91bdc
+    log: |
+         2b514ec72706a31bea0c3b97e622b81535b5323a xen/x86: make XEN_BALLOON_MEMORY_HOTPLUG_LIMIT depend on MEMORY_HOTPLUG
+         af44a387e743ab7aa39d3fb5e29c0a973cf91bdc Revert "xen: fix p2m size in dom0 for disabled memory hotplug case"
+         
