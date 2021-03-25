@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3968865726118025787=="
+Content-Type: multipart/mixed; boundary="===============6617454434475423059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 25 Mar 2021 17:33:37 -0000
-Message-Id: <161669361711.25360.2087038638326269359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 25 Mar 2021 17:33:44 -0000
+Message-Id: <161669362450.25455.13091401006657426777@gitolite.kernel.org>
 
---===============3968865726118025787==
+--===============6617454434475423059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/spi-5.13
     old: 9d5376872162dc70c16ae8379dba0266f35883f9
     new: 85c0ed12f72f1f39df76aefcfe3184c62cf47c3c
     log: |
@@ -26,28 +26,28 @@ changes:
          85c0ed12f72f1f39df76aefcfe3184c62cf47c3c Merge series "enable flexspi support on imx8mp" from Heiko Schocher <hs@denx.de>:
          
 
---===============3968865726118025787==
+--===============6617454434475423059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1616693609 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1616693614-d4084705b191c76ead0f89f24e80d074b6439c6f
+pusher C3F436CA30F5D8EB 1616693616 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1616693622-c627f9eac989b11a1521774727c7f5f3b4ba1396
 
-9d5376872162dc70c16ae8379dba0266f35883f9 85c0ed12f72f1f39df76aefcfe3184c62cf47c3c refs/heads/for-5.13
+9d5376872162dc70c16ae8379dba0266f35883f9 85c0ed12f72f1f39df76aefcfe3184c62cf47c3c refs/heads/spi-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBcyWkACgkQJNaLcl1U
-h9Apvwf/V1ZMph5hbYaEpzf5lspI9/Ktcoj7u20JvurU+NEzVMlEGMjLZ7365mEj
-CYRc0OwoDjK+bq+EnUFkS96hYUjfdmkn3QHDQF2SUNFaJcQRyaS0uVzuQMOMFghC
-Mdo+TRo/dDf/FRg8gi2ZwjTBY75UZ8soGD10bsfFcVjDnwFaslsvhBhBYVp68tu3
-xeVnADkYwozJjIxrlFxTXch8Xe8epYwqyRLiv22PGGy7XaeNLWGbx58g1d+2iP+l
-mzqIGRsgErWTeHQ1MYDK3jqgreYZVzIZyRqs4nh+aoIIGtV+WHCw1NBOh4e2xq5B
-DEzwVrN/yZHo94eXQ4k2TuIpvjyA5A==
-=VxVh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBcyXAACgkQJNaLcl1U
+h9Dmegf+PGWCqi7JIvY21LhGxOR9GJO4se6Mg867QGZ9PX3CKbo56+Eduj3tBl8O
+RXDtU/gp197ArWrglFYkei1cGR5VDnGUeGaPV+ocqMMiIs+VTEQZSfqY1Lq+CqJW
+4SbtjS073TtRlteBTciFMmnlhAaW/fXAJj11AKBPgtCpIpaMjcaANPuWsWOBr2hZ
+vVjgH2aVL4bE60e61WH7TMbeCgSc1bqtRNtAiKlNv6dkVviXbnK72DbH/SpICkp5
+7AzNg/m03nzm1Xi1ZC7N0n81kmhus72TUdCiepQqCF7/XEFrQnDjb92tJ4NO4XKl
+Lgnvkm6EtD+8a60votbokE3G1oRFwg==
+=gVnM
 -----END PGP SIGNATURE-----
 
---===============3968865726118025787==--
+--===============6617454434475423059==--
