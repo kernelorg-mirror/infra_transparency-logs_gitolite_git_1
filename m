@@ -1,28 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 26 Mar 2021 13:50:04 -0000
-Message-Id: <161676660440.17985.4978600740472308872@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8305359305843878044=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 26 Mar 2021 13:50:24 -0000
+Message-Id: <161676662422.18207.3756803498148981549@gitolite.kernel.org>
+
+--===============8305359305843878044==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/io_uring-5.12
-    old: a8ff6a3b20bd16d071ef66824ae4428529d114f9
-    new: 26a666ffc593ef1a97b4586a94a5f829df4f5127
+  - ref: refs/heads/usb-linus
+    old: 0bd860493f81eb2a46173f6f5e44cc38331c8dbd
+    new: 5aef629704ad4d983ecf5c8a25840f16e45b6d59
     log: |
-         2b1b2ca5162dbf77ac3a43a8374bebded25fc8a8 io_uring: handle signals for IO threads like a normal thread
-         7b3c9ae80e2bee25f4a26a023bdd5a89dc49d79b kernel: unmask SIGSTOP for IO threads
-         fdfab75045ceb6ec7ed7a6ee26fa219dc40dfbc3 Revert "signal: don't allow sending any signals to PF_IO_WORKER threads"
-         384e0ce90a75c9fadced4e109a2b6eb0c47b490b Revert "kernel: treat PF_IO_WORKER like PF_KTHREAD for ptrace/signals"
-         046c5cb95263e80c70202cbbb13c4f56fc20b163 Revert "kernel: freezer should treat PF_IO_WORKER like PF_KTHREAD for freezing"
-         27f994d9dbc2009f08287577eee24d7a25ba3ed0 Revert "signal: don't allow STOP on PF_IO_WORKER threads"
-         355c66aae364ef44ce85b054cc1470b7921f907b io_uring: fix timeout cancel return code
-         8a983501f5f175a50d3fca58ef20ee6c258a16b3 io_uring: do post-completion chore on t-out cancel
-         bb6e50219880e5abcf3196c45ce4d988e8621cac io_uring: don't cancel-track common timeouts
-         26a666ffc593ef1a97b4586a94a5f829df4f5127 io_uring: don't cancel extra on files match
+         1cc5ed25bdade86de2650a82b2730108a76de20c usbip: vhci_hcd fix shift out-of-bounds in vhci_hub_control()
+         5aef629704ad4d983ecf5c8a25840f16e45b6d59 usb: dwc3: gadget: Clear DEP flags after stop transfers in ep disable
          
+
+--===============8305359305843878044==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616766618 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1616766617-9f0fd13df9d4fa625f0a36a819069d029a485b44
+
+0bd860493f81eb2a46173f6f5e44cc38331c8dbd 5aef629704ad4d983ecf5c8a25840f16e45b6d59 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBd5pobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vrQP/3Cu/mzBjMjg8wZghx5u
+rYvpjUynXwAIqrV8JeTHHOS24SQDUSHhcj3z1c4s1cWJq5mKsMqQC6n02s/3K4nH
+BIxb7+NAWJxwggeLuWazsmX6G7CMJi5dZZqg1iWhCah1HP4UYVdjKcxrv6u9z/ta
+2FqaNYkyFlXs7vgz1ODRMROk0+SLflJr4NopQhtbihwQ8pBhtbvnrDN/8DIAxpH5
+jv0XQZuhILDwZaeGU24+DPkb4ermwWZv5tCPw8zI7ZZOYrhLYV4orxxQiMCQUYai
+g5vGxuA14tLbYc5kl38R8NVJbm/V8sDNGSW+fMIjhy0EIghR+lK3tPbApXmkazgp
+ITmaTAPgBZ/ZydFzy8qfbmHJPMUAPeLONOckbBJ5UR6AgBqhcYWgH/9x053bcY6s
+nHVvaR6xscnuTnfHLeMV50QR9aWjM+OjdQYY1ID2GWn6+fnMcheImeddnt3h3uQi
+IYbT7oAdjXUOVFWXrRgGnkCvAthuoXka6mfXWnCVKty03TWFxwMkozUTuE9AzwiX
+Zdyvy6i9xW1/T1stAQDop1U8AldLi3w+77Rvdlhlhk8BeUu4g3ru/Nnh0KEjDPJb
+oSQnc+J15xUWQQ6eCB7v1eibFmanwZdfJjPdi/vx2/cZ/3PZwYU3Fak2K6F7jIwv
+i9ls90WdpxDVeRsI5ScCPQ2Q
+=Ci8G
+-----END PGP SIGNATURE-----
+
+--===============8305359305843878044==--
