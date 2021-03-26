@@ -1,113 +1,98 @@
-Content-Type: multipart/mixed; boundary="===============3424567364279983881=="
+Content-Type: multipart/mixed; boundary="===============9160214262975720972=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 26 Mar 2021 18:47:12 -0000
-Message-Id: <161678443250.12979.8284245998264126232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 26 Mar 2021 18:50:04 -0000
+Message-Id: <161678460477.15160.5627087166884805346@gitolite.kernel.org>
 
---===============3424567364279983881==
+--===============9160214262975720972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: db24726bfefa68c606947a86132591568a06bfb4
-    new: 7931c531fc527da650e1761d35216ff8edf28a94
-    log: revlist-db24726bfefa-7931c531fc52.txt
+  - ref: refs/heads/for-5.13/io_uring
+    old: ec835319bb82b5e15a6e71fe491c0a7756297561
+    new: 29813c0a9e1273061e66433f9946c35a486781b2
+    log: revlist-ec835319bb82-29813c0a9e12.txt
 
---===============3424567364279983881==
+--===============9160214262975720972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db24726bfefa-7931c531fc52.txt
+Content-Disposition: attachment; filename=revlist-ec835319bb82-29813c0a9e12.txt
 
-7d7275b3e866cf8092bd12553ec53ba26864f7bb bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
-9bbce32a20d6a72c767a7f85fd6127babd1410ac ARM: dts: am33xx: add aliases for mmc interfaces
-b22ac48b0a4d74415beef10e49e434e8f228a2bf MAINTAINERS: rectify BROADCOM PMB (POWER MANAGEMENT BUS) DRIVER
-a249ca66d15fa4b54dc6deaff4155df3db1308e1 soc: ti: omap-prm: Fix reboot issue with invalid pcie reset map for dra7
-fbfa463be8dc7957ee4f81556e9e1ea2a951807d ARM: OMAP2+: Fix smartreflex init regression after dropping legacy data
-857de6fe2f86b009df620f7cdb07c262cc17070d Merge branch 'fixes-v5.11' into fixes
-a7b5d7c4969aba8d1f04c29048906abaa71fb6a9 bus: ti-sysc: Fix warning on unbind if reset is not deasserted
-effe89e40037038db7711bdab5d3401fe297d72c soc: ti: omap-prm: Fix occasional abort on reset deassert for dra7 iva
-743c97ca9dc989b0b08ca1fbfd134a83b37fe9ec drm/msm/kms: Use nested locking for crtc lock instead of custom classes
-65aee407a0f5d0548c560e5fc3cad21e51b6f7fd drm/msm: fix a6xx_gmu_clear_oob
-8490f02a3ca45fd1bbcadc243b4db9b69d0e3450 drm/msm: a6xx: Make sure the SQE microcode is safe
-7bf168c8fe8c6166b5dc10005fe7f250164da0ad drm/msm: Fix speed-bin support not to access outside valid memory
-221c3a09ddf70a0a51715e6c2878d8305e95c558 ARM: dts: at91-sama5d27_som1: fix phy address to 7
-664979bba8169d775959452def968d1a7c03901f ARM: dts: at91: sam9x60: fix mux-mask for PA7 so it can be set to A, B and C
-2c69c8a1736eace8de491d480e6e577a27c2087c ARM: dts: at91: sam9x60: fix mux-mask to match product's datasheet
-e2c1b0ff38c961d49ce34efda48fa45eb1cb5f19 ARM: imx: avic: Convert to using IRQCHIP_DECLARE
-9c3a16f88385e671b63a0de7b82b85e604a80f42 arm64: dts: ls1046a: mark crypto engine dma coherent
-4fb3a074755b7737c4081cffe0ccfa08c2f2d29d arm64: dts: ls1043a: mark crypto engine dma coherent
-ba8da03fa7dff59d9400250aebd38f94cde3cb0f arm64: dts: ls1012a: mark crypto engine dma coherent
-412627f6ffe32211863e1dcd76dab98c90556fc7 arm64: dts: imx8mp-phyboard-pollux-rdk: Add missing pinctrl entry
-69cbbf6be5d5c25deeddd9450ae538e769480dc3 ARM: imx6ul-14x14-evk: Do not reset the Ethernet PHYs independently
-7a1adbd2399023177508836c2b13a6c723035409 drm: rcar-du: Use drmm_encoder_alloc() to manage encoder
-3b24cdfc721a5f1098da22f9f68ff5f4a5efccc9 drm/msm/dsi: fix check-before-set in the 7nm dsi_pll code
-19f4a055abf2a69a1c0109456c3758b5697730c9 drm/msm/dsi_pll_7nm: Solve TODO for multiplier frac_bits assignment
-9daaf31307856defb1070685418ce5a484ecda3a drm/msm/dsi_pll_7nm: Fix variable usage for pll_lockdet_rate
-413b7a320e238d1a79dfca24c35ce4e1a0e7a8d6 drm/msm/dp: Restore aux retry tuning logic
-4a9d36b0610aa7034340e976652e5b43320dd7c5 drm/msm/adreno: a5xx_power: Don't apply A540 lm_setup to other GPUs
-7ad48d27a2846bfda29214fb454d001c3e02b9e7 drm/msm: Ratelimit invalid-fence message
-e4817a1b6b77db538bc0141c3b138f2df803ce87 ARM: dts: imx6ull: fix ubi filesystem mount failed
-a21ddeb227b115bc7945d5af66c0d167359c8c31 MAINTAINERS: Update some st.com email addresses to foss.st.com
-7a2e796173fbb17635c5ce822ede0ace8843209d MAINTAINERS: Remove Vincent Abriou for STM/STI DRM drivers.
-303a91f15f3499e47b256dc8647e3e0cfa0ff7b5 MAINTAINERS: Add Alain Volmat as STM32 I2C/SMBUS maintainer
-0144337563811adec7589f530f0c06a93ddcd361 Merge tag 'arm-soc/for-5.12/drivers-part2' of https://github.com/Broadcom/stblinux into arm/fixes
-ebccfa8a74dd02564838d3e4cc7c744b41d7bc90 Merge tag 'omap-for-v5.12/fixes-rc1-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into arm/fixes
-3848421f9d1fe51912ec472dbb5d7990d2fc441c Merge tag 'at91-fixes-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
-67335b8d28cd2ee279d6ab3c72856b76411ba48a Merge tag 'imx-fixes-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
-c1d1e25a8c542816ae8dee41b81a18d30c7519a0 ACPI: video: Add missing callback back for Sony VPCEH3U1E
-cd5297b0855f17c8b4e3ef1d20c6a3656209c7b3 drm/etnaviv: Use FOLL_FORCE for userptr
-50891bead80bc79871528c2962d65c781c02330b drm/etnaviv: User FOLL_LONGTERM in userptr
-623f279c77811475ac8fd5635cc4e4451aa71291 drm/msm: fix shutdown hook in case GPU components failed to bind
-a9748134ea4aad989e52a6a91479e0acfd306e5b drm/msm: Fix suspend/resume on i.MX5
-d27ce83fa4baa5cb908a42e9878564cad6ea0eb3 Merge tag 'du-fixes-20210316' of git://linuxtv.org/pinchartl/media into drm-fixes
-5244f5e2d801259af877ee759e8c22364c607072 PM: runtime: Defer suspending suppliers
-eb50aaf960e3bedfef79063411ffd670da94b84b ACPI: scan: Use unique number for instance_no
-9aa26019c1a60013ea866d460de6392acb1712ee drm/amdgpu: fix the hibernation suspend with s0ix
-8914089a205be1042f99d49d2087663efc6fafa3 drm/amdgpu: rework S3/S4/S0ix state handling
-e13d002bbf1d211cfe831ad2b2ae229a351eb196 drm/amdgpu: don't evict vram on APUs for suspend to ram (v4)
-ca8ee26d616b5e1818a0c69285d8f01feec35af9 drm/amdgpu: clean up non-DC suspend/resume handling
-3aa2cacf79b37f703d6b8f7bd0252c8fe8c3f420 drm/amdgpu: move s0ix check into amdgpu_device_ip_suspend_phase2 (v3)
-9adb125dde699ffcf5d3e64d2c1476efce00a6f3 drm/amdgpu: re-enable suspend phase 2 for S0ix
-4021229e32bd9e35f2813715e056f59bb3739e7d drm/amdgpu/swsmu: skip gfx cgpg on s0ix suspend
-9bb735abcbd83ec0b75cb2edf8885cff841fc096 drm/amdgpu: update comments about s0ix suspend/resume
-10cb67eb8a1b21419a7cd8e12f002a36bfef12fd drm/amdgpu: skip CG/PG for gfx during S0ix
-264705005e6bc7f484652c1d7aee798034c82e12 drm/amdgpu: drop S0ix checks around CG/PG in suspend
-ac5789ef927006a8449ea235a866922b2d8f8290 drm/amdgpu: skip kfd suspend/resume for S0ix
-627dc55c273dab308303a5217bd3e767d7083ddb drm/msm/disp/dpu1: icc path needs to be set before dpu runtime resume
-3f3a9bc1f6df5a1a9ec39e3a5bee420328811be4 drm/i915/ilk-glk: Fix link training on links with LTTPRs
-7dffbdedb96a076843719d4ea5b2cd666481c416 drm/i915: Disable LTTPR support when the DPCD rev < 1.4
-ab03631087f5c296030dd86265ea02dcdacc6802 drm/i915: Disable LTTPR support when the LTTPR rev < 1.4
-ff2628ed95e42d5245119eed3c1f669db9222285 drm/i915: Fix enabled_planes bitmask
-b61fde1beb6b1847f1743e75f4d9839acebad76a drm/i915/dsc: fix DSS CTL register usage for ICL DSI transcoders
-9d03730ecbc5afabfda26d4dbb014310bc4ea4d9 drm/amd/pm: workaround for audio noise issue
-fb9d62b27ab1e07d625591549c314b7d406d21df PM: EM: postpone creating the debugfs dir till fs_initcall
-c933b111094f2818571fc51b81b98ee0d370c035 drm/amdgpu: Add additional Sienna Cichlid PCI ID
-5c458585c0141754cdcbf25feebb547dd671b559 drm/amdgpu/display: restore AUX_DPHY_TX_CONTROL for DCN2.x
-8840e3bd981f128846b01c12d3966d115e8617c9 drm/i915: Fix the GT fence revocation runtime PM logic
-25928deeb1e4e2cdae1dccff349320c6841eb5f8 ACPICA: Always create namespace nodes using acpi_ns_create_node()
-2b514ec72706a31bea0c3b97e622b81535b5323a xen/x86: make XEN_BALLOON_MEMORY_HOTPLUG_LIMIT depend on MEMORY_HOTPLUG
-af44a387e743ab7aa39d3fb5e29c0a973cf91bdc Revert "xen: fix p2m size in dom0 for disabled memory hotplug case"
-d3999c1f7bbbc100c167d7ad3cd79c1d10446ba2 drm/nouveau/kms/nve4-nv108: Limit cursors to 128x128
-0f43ad782cd41a9b5513c645af7ed033544a6f84 Merge tag 'drm-misc-fixes-2021-03-25' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-5165fe0bd1fcca7038ecc3d32012e7d01228938c Merge tag 'drm-intel-fixes-2021-03-25-1' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-815404281e5df8c684a93eeaede88de262a37023 Merge branch 'linux-5.12' of git://github.com/skeggsb/linux into drm-fixes
-4e8d123fca536d1b55f5f9927ad9ee5a444ac41b Merge tag 'amd-drm-fixes-5.12-2021-03-24' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-09d78dde88ef95a27b54a6e450ee700ccabdf39d Merge tag 'drm-msm-fixes-2021-02-25' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
-6f3a283c2f6bbbb5a9a6801a0befa61cb60195f1 Merge branch 'pm-em'
-e1db18b59729e24f001459b98955019344d5b12b Merge branches 'acpi-video' and 'acpi-scan'
-57a9006240b229b9d77ef60fadb30d2067438437 remove Dan Murphy from TI from MAINTAINERS
-f944d061f847b0ccf0ebc095b5a6ba9ea9caec4e Merge tag 'drm-fixes-2021-03-26' of git://anongit.freedesktop.org/drm/drm
-6c20f6df61ee7b8b562143504cf3e89ae802de87 Merge tag 'for-linus-5.12b-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-eb3991ef2c0ebb7dc49c260e12ae1575d1e153b2 Merge tag 'soc-fixes-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-8a3cbdda181024f9ee7200504e748d2e91adad1a Merge tag 'pm-5.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-7931c531fc527da650e1761d35216ff8edf28a94 Merge tag 'acpi-5.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+90b8749022bbdd0c94a13182a78f4903b98fd0d7 io_uring: maintain CQE order of a failed link
+3815c1e9392194deea2573efd9d32f3df9cfb44e kernel: don't call do_exit() for PF_IO_WORKER threads
+be6dcf083c4a405f6b90d273c208d956b01360f2 io_uring: handle signals for IO threads like a normal thread
+87d874f4bca7379be54af6f3576b880f685a8bfe kernel: stop masking signals in create_io_thread()
+8c9a38c1376bb7e98a4f8681270c06a32f5555b5 Revert "signal: don't allow sending any signals to PF_IO_WORKER threads"
+d409f57cec877f2b4e0662bc7e7ebacda3895b1e Revert "kernel: treat PF_IO_WORKER like PF_KTHREAD for ptrace/signals"
+62229d2540d98a34238885d2b03dbaba877a9640 Revert "kernel: freezer should treat PF_IO_WORKER like PF_KTHREAD for freezing"
+34851291b14a1a67964c9ca9285a791211fcb325 Revert "signal: don't allow STOP on PF_IO_WORKER threads"
+88b7bb22395983e06e06b000d9ad8f074d591774 io_uring: fix timeout cancel return code
+e5d7257ca2a6bb2b215d7809f45192df7ae54731 io_uring: do post-completion chore on t-out cancel
+7e16d9795d0f0dc06b6929de3fcc798c3e829b87 io_uring: don't cancel-track common timeouts
+90864ecee44fff9c0f29d1caf77d905309f202a6 io_uring: don't cancel extra on files match
+4087af07e707f51e753da4c5ddaeb566e6b80d07 Merge branch 'io_uring-5.12' into for-5.13/io_uring
+625673ec4e140a921f6ff71b743e11b629bd0c0d io_uring: avoid taking ctx refs for task-cancel
+403dd9c9a1cc2c3fdae4d4e7d0c29f9f4972e3ab io_uring: reuse io_req_task_queue_fail()
+5d1ef1f7d2b82effd89b59e7c4e72568b7618b32 io_uring: further deduplicate file slot selection
+20c4ff2d44a07e98b35ac71d69008a0b2abb08fa io_uring: add a helper failing not issued requests
+fe2b7c8580179da64bf789fc2e3ce707b03499f8 io_uring: refactor provide/remove buffer locking
+dd93a5f47ec08aa50968d7692dc9133175df0bf8 io_uring: use better types for cflags
+e98a4911211625a8e023fb8008fd7bbfeb742c05 io_uring: refactor out send/recv async setup
+e2a6c7bf546cd85720b38421c36a4c79410db668 io_uring: untie alloc_async_data and needs_async_data
+d98e1292b9885481efba8c132f0978a6ea98f3fd io_uring: rethink def->needs_async_data
+12d1dd510a7829f2740218a5600758b8da05ff79 io_uring: merge defer_prep() and prep_async()
+0b61a569a97fa29df1402ea48f60aae6a9ef2229 io_uring: simplify io_resubmit_prep()
+19c210beff79692ca00185093ffcebcac24eb3c7 io_uring: wrap io_kiocb reference count manipulation in helpers
+e009c395c96bf11ed7b2b0e2888f5329430006ef io_uring: switch to atomic_t for io_kiocb reference count
+f04257452585f40de0e52a86d221d951ccad30a5 io_uring: simplify io_sqd_update_thread_idle()
+a89baab6ac724b8878f9bbc4d635e0347dd50bec io_uring: don't check for io_uring_fops for fixed files
+8f2d67f6bf57b3a81299f9240cd89e247695ec5e io_uring: cache async and regular file state for fixed files
+1d5478945248494b505526873409e03715a80211 io_uring: correct comment on poll vs iopoll
+4b71f3eb9d5497630c1ecc325cbfe653fe182e7f io_uring: transform ret == 0 for poll cancelation completions
+96cc2673f9629870b2c4b5eb9c06fff8b3082918 io_uring: don't take ctx refs in task_work handler
+cf242605d6433ffaaf91fc8b87b0db6f982b000b io_uring: optimise io_uring_enter()
+47947f62fb998ac8eafbf5f646f1f5af43fd437c io_uring: optimise tctx node checks/alloc
+19c24304e43c4ceed0df6c503412767a30c64753 io_uring: keep io_req_free_batch() call locality
+8229f88288f10f8a28de44791b81aaadf998ec34 io_uring: inline __io_queue_linked_timeout()
+772ebcdd1608d2daa4101e2fdee9e1e5289893b3 io_uring: optimise success case of __io_queue_sqe
+9347c8691d8fab5350593ee25d625a1575e6f348 io_uring: refactor io_flush_cached_reqs()
+efd6eb062e017571b9fecb51eb4e3bbfca57b993 io_uring: refactor rsrc refnode allocation
+fa94f7b4b0020df687f529d915380c5490946b27 io_uring: inline io_put_req and friends
+41805c49ecfcfac80a304c427623244b441d5847 io_uring: refactor io_free_req_deferred()
+0cb1a72a6a9bc07e3967bdc3366249ba28a0b635 io_uring: add helper flushing locked_free_list
+433f5a1a29c2021a9933b911f066f7a9cd46ff7c io_uring: remove __io_req_task_cancel()
+0bcfed1b256764e4058f1b007867dc1669854792 io_uring: inline io_clean_op()'s fast path
+af026fe0e2b5cd8925bcb07b18c4018d2cd123a5 io_uring: optimise io_dismantle_req() fast path
+c7187943fdc88c9ce24bbef0cb4395ce932f190a io_uring: abolish old io_put_file()
+2c3287671197ddb2054451d2ab67b769b4f34c0d io_uring: optimise io_req_task_work_add()
+2ee995865fdc5d7c9c96d62f4af2fd031634f9da io_uring: don't clear REQ_F_LINK_TIMEOUT
+3769ad8567054851185ac81fee52730aa8503f73 io_uring: don't do extra EXITING cancellations
+9caccad920032cffab6db91b871e127195398160 io_uring: remove tctx->sqpoll
+36a9e2cbe37d4ae40df5141ae83d67f9c1a25dea io-wq: refactor *_get_acct()
+8cf35519ab0fc2258c74e8af2b118d0ad1f5ae4a io_uring: don't init req->work fully in advance
+04def3377c2887e4c644ddb8aab0233602bfcf20 io_uring: kill unused REQ_F_NO_FILE_TABLE
+d063faeb130ac058bdd7172ed7bbfaab070e9cbd io_uring: optimise kiocb_end_write for !ISREG
+c3cf93a63d8df56719c801154339ff4ae83f7bd2 io_uring: don't alter iopoll reissue fail ret code
+d64b4c7b5e06522abcfadd67c029010e3b139b54 io_uring: hide iter revert in resubmit_prep
+b3c507855f0943c1dcd31588fc0becd774caa79f io_uring: optimise rw complete error handling
+7faadd710e97b630cb1f6fa5a999052763913c8d io_uring: mask in error/nval/hangup consistently for poll
+132f62238271fc746b979e707f089d87afdb1a4d io_uring: allocate memory for overflowed CQEs
+6d702c1a9f60a2e8d7fa3df85afee37989dc9777 io_uring: include cflags in completion trace event
+038b98d86d70734e8e9ca40443b1f3574af71379 io_uring: add multishot mode for IORING_OP_POLL_ADD
+810d5fa126869ea3a9826273f15b2b1b42574abc io_uring: abstract out helper for removing poll waitqs/hashes
+826a858f10c6c7419aca8750f11d9c46a44b068f io_uring: terminate multishot poll for CQ ring overflow
+0c6fc977feafd1396d93b29474cc00291d6dbaa0 io_uring: abstract out a io_poll_find_helper()
+3a384bd5f88bcab6ce3bfd14693da825222328eb io_uring: allow events and user_data update of running poll requests
+4706341f62ac7ba3171cca740c7523011ac402f2 io-wq: eliminate the need for a manager thread
+b53906dfd6d9e000306e2af0918e52e956b929d4 io_uring: allow SQPOLL without CAP_SYS_ADMIN or CAP_SYS_NICE
+29813c0a9e1273061e66433f9946c35a486781b2 io_uring: reg buffer overflow checks hardening
 
---===============3424567364279983881==--
+--===============9160214262975720972==--
