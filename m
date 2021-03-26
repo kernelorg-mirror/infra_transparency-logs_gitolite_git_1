@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1053749025730784576=="
+Content-Type: multipart/mixed; boundary="===============6017948714115722878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 26 Mar 2021 13:44:08 -0000
-Message-Id: <161676624868.13267.1949380598168756323@gitolite.kernel.org>
+Date: Fri, 26 Mar 2021 13:44:35 -0000
+Message-Id: <161676627576.13522.3757881798304647749@gitolite.kernel.org>
 
---===============1053749025730784576==
+--===============6017948714115722878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 12c30bb016a819893387b0b5c97d12bc21dfbf97
-    new: 75bb93be0027123b5db6cbcce89eb62f0f6b3c5b
+    old: 75bb93be0027123b5db6cbcce89eb62f0f6b3c5b
+    new: d31b63f194d21220bfb557ed4ffbcef830185eca
     log: |
-         755915fc28edfc608fa89a163014acb2f31c1e19 fotg210-udc: Fix DMA on EP0 for length > max packet size
-         078ba935651e149c92c41161e0322e3372cc2705 fotg210-udc: Fix EP0 IN requests bigger than two packets
-         c7f755b243494d6043aadcd9a2989cb157958b95 fotg210-udc: Remove a dubious condition leading to fotg210_done
-         9aee3a23d6455200702f3a57e731fa11e8408667 fotg210-udc: Mask GRP2 interrupts we don't handle
-         fe8f103ab3e0eef5b6863da6f02b928af38e7c2d fotg210-udc: Call usb_gadget_udc_reset
-         3e7c2510bdfe89a9ec223dd7acd6bfc8bb1cbeb6 fotg210-udc: Don't DMA more than the buffer can take
-         75bb93be0027123b5db6cbcce89eb62f0f6b3c5b fotg210-udc: Complete OUT requests on short packets
+         de620c3b5999e9584cb55841fc65d305fa6b9c7b usb: gadget: pch_udc: switch over to usb_gadget_map/unmap_request()
+         cc62ff3e6ae69f365842cd6840ed1bee90fa08d8 usb: gadget: pch_udc: Remove CONFIG_PM_SLEEP ifdefery
+         dfc03e0bae868f0bf20f82fd19a43c2d6b38c4af usb: gadget: pch_udc: Use PCI sub IDs instead of DMI
+         d31b63f194d21220bfb557ed4ffbcef830185eca usb: gadget: pch_udc: Convert Intel Quark quirk to use driver data
          
 
---===============1053749025730784576==
+--===============6017948714115722878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616766243 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616766270 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1616766242-c5fd6a6d2daf848862bef4f46c90d262c2adb7f0
+nonce 1616766269-c2d596c8ce5df72fc75af52446a49a6c8de8cea3
 
-12c30bb016a819893387b0b5c97d12bc21dfbf97 75bb93be0027123b5db6cbcce89eb62f0f6b3c5b refs/heads/usb-testing
+75bb93be0027123b5db6cbcce89eb62f0f6b3c5b d31b63f194d21220bfb557ed4ffbcef830185eca refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBd5SMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3XkP/3tg4GUtBJMJ0w91GFMl
-kKciAMv+JWgzfb6kMGo97h2PMvwjcMLK0gtgpjVz0wPSdQuM5vgx86D5jaY1aoNp
-Y306rtzBrXPjil1gcndzmxVNRdcg8g8zqAdR5/0OjPTuduJLzV8O1ZnNquX1qj/w
-QJLa/NcabYOSpZ0tPPYRDRmhUtGGY7NIMXSPOvFpsI4DAIJI9HoKNkXB745/0BhD
-7S7CaTFnveJezMoTmlM50eNsQLPs1IpfNYCBhaxh1sJuIj/PvojiF12aOUMIuJXf
-wlUt20Lp/CmbowuZjWpWPIo2K/LMMD619DvcfYDy5WP70mItRmXxdL2J8jX+6wLd
-+fWSXmFGdTkfWMnNe4m3MhFgUCeqnerUvHXQ8oOWYz8/WUKwSC0nDYNooc73Odl4
-hLscnB92UE6l2U0f8Gz7e+H3OYsYReeuDYJREOwTGeKBsPWyhh3VX+Hmlqj1cots
-/PbnKRfJITz9h13B3S1re15BEmPgVAwqXkKcOOCclRfwjDk5I7Ik12w17p9gbJh/
-Mpn9SgXNMLR3LvUXeaMFSFfi6TT+DsBaMGeacq1jIwfsQEgW84A1u/zVLNTVgzJl
-OOe8rSZMQtFggcp1z2XpswVKT+AAq/S3Yx34QQUgpTzuwSDkUmwyFcStECma2Rkm
-ezzqZi+7u+2/Bcqw+SFm0ZFe
-=t2XI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBd5T4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oKcQAKccxuc8dUXel9E4qHYN
+mrChkTkRGVLLjGNAkyYyBtGO6ucwMA/PQ1lUer2phpQ04O9NF95T2t8jdD+gGc9r
+1+BZgZ/v/UZ2E6BxPYgxwD2K7vgG7tk202Vymw17tdKOOSLI9fZJU6FqUJbT5sdj
+AhkqXj33Ven5QkFJakbh21DRQc+x0vprWY+2RV1OQ7hbuLu2nhBu51nhvNur98PL
+HAoWjbwvnr+DWv0byJHqTeTtZQiCCvindXxfUcbU6LGj2EC+Ely8j4tEDCB3B4Pp
+nC/Wk4zx8VfEgQ5h29bGPhWKDodTFIDiQXrznolrnJRn1PjSlhwgx7ExG53Ro1wj
+HcG2FTF2+hEFIRk9tmyBZiftBh9+NqoRWc8/n0Cuo1OaTpHUNG1HT5kjNAZ0s3zi
+2B/LP7FbpchZBe2OTMdkTYASQ0sTaAC4bvKUPYgcxM9kLLkDa8CalVyWz0G7rVjE
+FCTdYBtIsJisuqM8hVTejoff5T7Hg+o2JW7oP+U3GNnKcSpgXdkaTePEC5d2HYRU
+PSxTYm3NWvUKTb990MuLk4n2qi0tLLTH5klDiix5cF0rN5pEeU7sfQop7xIx0FA8
+2tXwUwHFIwWqmaK98u3kLJPgLReQ2TcVlA+Z/BRQkTokdURRWA7CGzTHApd3aBTi
+gihFST3zKTXfj2zXDSHQDVUC
+=VA9I
 -----END PGP SIGNATURE-----
 
---===============1053749025730784576==--
+--===============6017948714115722878==--
