@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 26 Mar 2021 00:23:25 -0000
-Message-Id: <161671820542.27598.8542903546762155647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Fri, 26 Mar 2021 00:23:48 -0000
+Message-Id: <161671822881.27814.13433917169155316573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: ae8f5867d59086670ef61e0cbeabde927d4e13a0
-    new: b01483a81a2c18b109d79598bdf781954b2f24ce
+  - ref: refs/heads/for-next-base
+    old: 1112963427d6d186f8729cf36fefb70d5ca5a84a
+    new: a50bd64616907ed126ffbdbaa06c5ce708c4a404
     log: |
-         b8ecdaaaf328cf2914da99217368dc847fb9e968 net: ipa: update IPA register comments
-         cc5199ed50f2939743185fac94f1bcb47200684a net: ipa: update component config register
-         e666aa978a55d352b76bfa1f9f19c19ef9261467 net: ipa: support IPA interrupt addresses for IPA v4.7
-         4f57b2fa0744f2fffd61936facd258897834aad5 net: ipa: GSI register cleanup
-         42839f9585a00b53691bc56e6a238029f1466959 net: ipa: update GSI ring size registers
-         2ad6f03b59332cd875d20c52ab18bb6a927a3213 net: ipa: expand GSI channel types
-         b01483a81a2c18b109d79598bdf781954b2f24ce Merge branch 'ipa-reg-versions'
+         febb0cc847e7efd0b2b6cabf9f0e82b13dbadbec scsi: ibmvfc: Free channel_setup_buf during device tear down
+         2bb817712e2f77486d6ee17e7efaf91997a685f8 scsi: myrs: Fix a double free in myrs_cleanup()
+         c8c165dea4c8f5ad67b1240861e4f6c5395fa4ac scsi: st: Fix a use after free in st_open()
+         5999b9e5b1f8a2f5417b755130919b3ac96f5550 scsi: qla2xxx: Fix broken #endif placement
+         19f1bc7edf0f97186810e13a88f5b62069d89097 scsi: lpfc: Fix some error codes in debugfs
+         2db4215f47557703dade2baccfa8da7b7e42a7e4 scsi: sd_zbc: Update write pointer offset cache
+         0fdc7d5d8f3719950478cca452cf7f0f1355be10 scsi: ufs: ufs-mediatek: Correct operator & -> &&
+         a50bd64616907ed126ffbdbaa06c5ce708c4a404 scsi: mpt3sas: Do not use GFP_KERNEL in atomic context
          
