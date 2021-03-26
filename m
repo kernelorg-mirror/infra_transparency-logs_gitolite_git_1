@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 26 Mar 2021 02:01:08 -0000
-Message-Id: <161672406862.29399.7350507584481926090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Fri, 26 Mar 2021 02:13:49 -0000
+Message-Id: <161672482995.4945.14567782257784487329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: cff908463d91a6b2fb8c8ab6c41d9c308c29fd42
-    new: 3ac3f314c325d76deefa34925e11ad52df77cdc3
-    log: |
-         f56387c534cc54d2578b962692e574e3edd8c3f6 bpf: Add support for batched ops in LPM trie maps
-         e9bd8cbd970bedd3cca8ee334c76ab90feb78760 bpf: selftests: Add tests for batched ops in LPM trie maps
-         3ac3f314c325d76deefa34925e11ad52df77cdc3 Merge branch 'add support for batched ops in LPM trie'
-         
+  - ref: refs/heads/xfs/shrink_lastag3
+    old: e95ee9d83410295e250f3d38595e41947e01b3c1
+    new: 0000000000000000000000000000000000000000
