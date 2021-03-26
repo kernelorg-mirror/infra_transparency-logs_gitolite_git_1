@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7378004689547295494=="
+Content-Type: multipart/mixed; boundary="===============5479709468956912088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 26 Mar 2021 14:18:58 -0000
-Message-Id: <161676833802.7071.12973593353817995973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 26 Mar 2021 14:46:01 -0000
+Message-Id: <161676996127.24277.8619205377777379972@gitolite.kernel.org>
 
---===============7378004689547295494==
+--===============5479709468956912088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 22fce66c19caab5a86b085d147a0e77aaf0ca638
-    new: 41a469482de257ea8db43cf74b6311bd055de030
+  - ref: refs/heads/driver-core-testing
+    old: a7d30f3f41cf40aad1c4557fa180fe320d5b7c74
+    new: ecdc996baf291b903342cc704f4086a88c361967
     log: |
-         88a499cd70d4f205092b2ac6bc66354c1b30464c dt-bindings: Add support for the Broadcom UART driver
-         41a469482de257ea8db43cf74b6311bd055de030 serial: 8250: Add new 8250-core based Broadcom STB driver
+         ecdc996baf291b903342cc704f4086a88c361967 power: supply: axp20x_usb_power: fix work-queue init
          
 
---===============7378004689547295494==
+--===============5479709468956912088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616768331 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1616768330-1397d836d16aacde811d408ad1d4d7d0c787ebad
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616769952 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1616769952-3c652c3674a51ed0d58cb8e8fce8674c54160789
 
-22fce66c19caab5a86b085d147a0e77aaf0ca638 41a469482de257ea8db43cf74b6311bd055de030 refs/heads/tty-testing
+a7d30f3f41cf40aad1c4557fa180fe320d5b7c74 ecdc996baf291b903342cc704f4086a88c361967 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBd7UsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yToP/irHAQ4gpoThuQHa5bY6
-xY5IO0vknZbYCHzSayHq4RkoAxNLX4FS8M/hGASw7RxtQPe53TihIsauuimmhMGO
-DpNr3XWRGjIl5pFErZQixFFYEadmwtvrMBQQ6R876cY96RPhAIPLgg1eUug6clft
-HprRcXK9U7So+aa8pmdVYOGxPFW3cl6yQEU4+iNocbfeFXfIJx88kF40J6JntL/w
-Gb0zV/vo8MitPOe9EVKyhkvMInMKn2XDIJfDMUt33iQEEmswTpwJeFGyLj7T2T0S
-CwYQN3EjRaBgq/7eyUP255ynbfHLE4+U54OSBzPCiMoYs4YmmaqepaBc+dmepVZJ
-xFYw6VBMW6YY1AC7WCPhdkzu4hlSn0/BzsSzYsjjhBnBkn9zfG+t1LPwjgJBh5PI
-nEGwGZD2jw7yUjnX95YhfS1gLW95HBiZVUTVUademrWlVXFlYAxE6QRVyCOoHN5J
-EVtOrUFebMNtiNtCr+GZ3zXLNKFED7JgQk3it1b8LTsAFxMNrMU+c3WgSw3Hj7vo
-oA9oZWadoYRAToJt9oJDvGQCJxO8hwcsONNFGGmRvDDjwmHUpDgg8hMoGwY56Gmi
-OvWi6N3LCJmkpWZj+HtyjbLq0rVbTpP+F+J0iBiGLvJoHd+sYpv/3douvGXr2Kvj
-N+KOfEp+sEsdMFpqD3cyJNvz
-=PdRI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBd86AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/VQQAIqN5CqG+r718vQDUE7I
+tb0UR4Xo2M1/SHOtljSAxt6s7wiWX/ZHN/gRQAoDMRak+YyHJ1RPlenJz/562BfG
+9JZBRrBfMxJQuG1rcylGUQI7mGiXc/75wTfpELOd5HdXFLlhD2h4SrD+pGVugrLs
+EgJMH2gTQx3RXo4JIFQ1L5dr5iZnAKTzk/wevVGv84HWhnlDbCQzUaN+u5ADxSrj
+oCh8IchJgWHnvO+RNGHsCcW3si620jTmxC5Tfs5xivur4pFxnNO//asX2U/hypY5
+iGntMhcifhiJK5fEmAzttlOu6qWG+njxfQg5g3imG7IYjU5o0Rz67fozoEMqanza
+n85UJwyrZCSNTtyJZsqeA6zpGhaxJb1cxiWA54MCc22hVUUkIog8QruHrc6fwnS+
+340NzI1JogdxwSs06FMdUlAfZivO3uwlwBcqAw092pOCatJk4RX2w8ts3KHgvrsu
+4eXDqqTY7PRqaKA2458APbIX/x3/e6pFyz4yS8k1Njfg4w6p8TdY2Q/E+N1fpG9A
+kmibKvXqLO+COJkDwBA+JTpfjMlyKyhGKkuQIKxVczPnsYXVaS2mHV+a0sq6c3VT
++xXqDIxH5PC7FhCIi0exNJL3u96DS3E/XnS4/6Ox1fzYkAL72aj0GJunHLBKDjs3
+czIILd0GBzeT2J39cxtVlwtu
+=Ch9R
 -----END PGP SIGNATURE-----
 
---===============7378004689547295494==--
+--===============5479709468956912088==--
