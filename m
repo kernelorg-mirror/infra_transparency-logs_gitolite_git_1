@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7414625730495696839=="
+Content-Type: multipart/mixed; boundary="===============5300955876312399535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Fri, 26 Mar 2021 21:26:51 -0000
-Message-Id: <161679401117.13174.16246508665675644450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
+Date: Fri, 26 Mar 2021 21:26:56 -0000
+Message-Id: <161679401674.13274.5399323333812293223@gitolite.kernel.org>
 
---===============7414625730495696839==
+--===============5300955876312399535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
+repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
 user: rostedt
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: b80e926715fe567a5af51c2e23545a04c75cb912
     log: revlist-e0f24a3996a3-b80e926715fe.txt
 
---===============7414625730495696839==
+--===============5300955876312399535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ df7746a67126de14609fed501c361065cbe03e79 trace-cmd: Print times in TimeShift opt
 82ed252786b476ae0aa289c9f92b3736b7301054 trace-cmd: Get current clock for host-guest tracing session
 b80e926715fe567a5af51c2e23545a04c75cb912 trace-cmd: Save the trace clocks in TRACECLOCK option
 
---===============7414625730495696839==--
+--===============5300955876312399535==--
