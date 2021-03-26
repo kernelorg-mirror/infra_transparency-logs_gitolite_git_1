@@ -1,59 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8975383764653075970=="
+Content-Type: multipart/mixed; boundary="===============0972651419836133557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 26 Mar 2021 13:51:58 -0000
-Message-Id: <161676671822.18683.9247612005803808434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 26 Mar 2021 13:58:31 -0000
+Message-Id: <161676711118.22000.4891499367760744785@gitolite.kernel.org>
 
---===============8975383764653075970==
+--===============0972651419836133557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 5aef629704ad4d983ecf5c8a25840f16e45b6d59
-    new: 93f672804bf2d7a49ef3fd96827ea6290ca1841e
+  - ref: refs/heads/staging-testing
+    old: 9c15db92a8e56bcde0f58064ac1adc28c0579b51
+    new: d8827ae8e22badd339e1b6225c03a1e417765a3d
     log: |
-         6f978a30c9bb12dab1302d0f06951ee290f5e600 usb: xhci-mtk: fix broken streams issue on 0.96 xHCI
-         92af4fc6ec331228aca322ca37c8aea7b150a151 usb: musb: Fix suspend with devices connected for a64
-         5e3bbae8ee3d677a0aa2919dc62b5c60ea01ba61 usb: dwc2: Fix HPRT0.PrtSusp bit setting for HiKey 960 board.
-         93f672804bf2d7a49ef3fd96827ea6290ca1841e usb: dwc2: Prevent core suspend when port connection flag is 0
+         d8827ae8e22badd339e1b6225c03a1e417765a3d staging: qlge: deal with the case that devlink_health_reporter_create fails
          
 
---===============8975383764653075970==
+--===============0972651419836133557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616766711 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1616766710-bf669f8d4cb2b7cbcd23d2af8d0106c6b11d8a20
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616767105 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1616767105-0e617ebb789a97796f2e9f2114dbba2fc886003b
 
-5aef629704ad4d983ecf5c8a25840f16e45b6d59 93f672804bf2d7a49ef3fd96827ea6290ca1841e refs/heads/usb-linus
+9c15db92a8e56bcde0f58064ac1adc28c0579b51 d8827ae8e22badd339e1b6225c03a1e417765a3d refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBd5vcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6AYP/0oLG3rUEbtpju7bx6A+
-wNJdClIzyRcUC3KMHVS6JZ86pUF5hophS6v0WkW/YwxwZUUuiwBfGrRAVTmGtPJG
-oAs0DjPogDylVIq5WVBaAoY0D7WD2EAwX6ZYBlgrLQIT7eB0pdLZhjQgkRE5fLjs
-ijbevpLn/GQFgiR4OPSGGY6mhN59RFlY2POqss0HT4C5plufacBCNkxVM7hxyBGn
-HYVDCHCYk8Je3wEN01L5AOqw8WgUpJRB4VNBwORTdFL/tRFIph2Maiyc5hID1l53
-uwiK6dBOXSscxH9jKiaNqywstt5wAUI2rOWH96UTok51GFZJxAOe2c0a48rD2Buh
-ui6YwA7qlJ9LLPHlMwWb+qh/jHp07sSaEzJJt1lO4vaASuvgyFo361DGM2mPv/dU
-OJvO9fO6Z9hPNwvBDGk91m5G1pKYtsxqHBhnMRmev49DIUXka6k9fyGOIbzXqW/c
-laXaXSrub3kAYaA0P7dkQyLH4sFJB83Z8brMzspzt+hXfaGr3v7WUgPYZEoLxjEK
-W4PE5LHWnzX5YmdY5lpeOAClSkUgT+d57r2m/fkZq49lYa9P7a1VVgVHIs2l/6Gm
-OrUr18KaV/dcKALWZGxUVJJEvlEWbNslIush+deQSQCdCoaXQBg8WMBcBMDTKekn
-UjiRuj3ziQeTBxOCsIdYgTnN
-=euXf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBd6IEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Xj8QAJ1NTBz2ZJnAq5PdvvVp
+VaUoR3qrssc23LVmyuFu+ps6E/0krRc9fjivD+ph5EXLG+Wcj7x6HyUtLy4K93xo
+MXMXlZItBas/zm5JnX9hXIskr5pZYxGdmaLDk6LcfXgOZtPCNNe74/kHLb/UffRg
+UoSJA5KyFW7CPMRMGLEZCY3vuvihstBBiHdFTdxWoyCyBEkgpznox2RjBw+jGlSp
+2UiC+LSOlwU4WLn2MGlU5L7xXjQZVpFcOAXez8ubHlIsR4/xTjRZlqqrTnwyYLqy
+IGs7tYlhSgLfCdFDL4E41lHlf1DSrL+RUtwIcXdj7qG2ZiaGAZAKGFRAGloPwUtP
+9RKkAqRGZhuIfNaMVML4Sce7X3mQ3Q6BOBe3rqD68oF9yJko951Sr0RJ6DuSv9SK
+31GpD25pap7P3u/qsOiT1BMO6JLMjuRs9fCaek6VWFKo8Im2K0/yET6ltO0VebTh
+13hyz4Rz6IrYiZkXNZlc6QlH0wadQ9SeiyqxHkfgixX+pWKLH1hAq+W8vCLVD4Vk
+4Rs+RPJJnyhEAdlUqXSUWD2LHZsJStiQUHf6L+T2h03W9oO+9cwsOMM2iiPuBtLM
+sb5X1FJxh9K4oHwGggBuUtSk5i8gQbPL68yFDr07mSbWGdMAof93rtSMQ8K6t2/9
+rqjMVgIdiQIDsRhuZHlbvT6i
+=udF/
 -----END PGP SIGNATURE-----
 
---===============8975383764653075970==--
+--===============0972651419836133557==--
