@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3719696705403447737=="
+Content-Type: multipart/mixed; boundary="===============2856692058873585432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 26 Mar 2021 11:13:05 -0000
-Message-Id: <161675718530.18620.193593693539531572@gitolite.kernel.org>
+Date: Fri, 26 Mar 2021 11:19:45 -0000
+Message-Id: <161675758507.22004.2936631298709474429@gitolite.kernel.org>
 
---===============3719696705403447737==
+--===============2856692058873585432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
+  - ref: refs/heads/staging-next
     old: d010995736cb581de55e99268d66937085b45ea0
     new: 9c15db92a8e56bcde0f58064ac1adc28c0579b51
     log: revlist-d010995736cb-9c15db92a8e5.txt
 
---===============3719696705403447737==
+--===============2856692058873585432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616757179 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616757580 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1616757178-294ef19a378279ed52a7e639df30b96d3f3efd6c
+nonce 1616757579-d7a3833b9bb9cfa57a090e74301925d7a1392f4e
 
-d010995736cb581de55e99268d66937085b45ea0 9c15db92a8e56bcde0f58064ac1adc28c0579b51 refs/heads/staging-testing
+d010995736cb581de55e99268d66937085b45ea0 9c15db92a8e56bcde0f58064ac1adc28c0579b51 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBdwbsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xLIP/ifyKP5HA4eqWkyIdhMV
-+5CgWNYW2g6nwo2J4/drvtbVXws5INCYIaDs8HwvmvtQw/Ya4I6ImYXXMpStzDc+
-Vywd7IJ20E+nkTNavPVFhiorFNEhQ6S2vpp6J0sDILpwWinEAhSxU4bt/9tjHmc0
-/woSjgYMw26uPt0pQQ4j6lzDVShQbaR2XBQ1cw6D7hDxMuI2OVbnWylyEBqw0edA
-PmsiEIjgplKLLyAsTBnH9FCIaXA3g04SRhlqBHC5Sl+yg8wjDXp+N+CxxwsVn0vJ
-P/m8gIwrQtfbybFRs1gz7yZDGYiDjSsjuFmh4TI28OZQGtYf0UJYv9FvVJgORTtD
-eG0L0xbQHEYdA6+Sj0T4a2Q/XgMsLZTtsYUgZ9mIUjjUfedhVyU6zVMoZNQXclL0
-dTIh53DFFFpDvB2UcdXiuZcuAmIDR6/vX7M7tKpdU2Y3IsHx9EdjdpmlgY6VT9VL
-Lu3fjWrugjeMtd1R9KVQxD6o0mqXuWYDS4PefmPpyxRI8Puc6AzXSNWP7Qf8/S1x
-sfJvQ0GWPR4/TxwySt23XyTgOgbh3blHFdL7MnV9vQLw2mpOZrcLQxkDCjLXsmov
-v5M44gW3T8BOLLDCuJpKd0QTITxjaqg+SDFJT2JczkKU8t5tdSYpZJkJ6nNeiq/4
-qgrrjkIwzHHqC+z+aaZJlpvC
-=iEAS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBdw0wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GtcQAKeJrtRYjQBSTzx/Ky4D
+mBMpQeVfN0enHjk2WszG1hanoe7v1Q2V0BJyILlR94lRistjeHvBHhss7aWUorU3
+cwOY1UdytwuCX1bxQyLCvtORVOGsOcIO9SeNKjyeGEt2dn4s+7CntxIUgh3h/aus
+uwMTlmyjJafT1AOsQjvSVJHIVBlvZhX9pK9rzSlqPn+eI6B57Yc4h8gkSeh1lElS
+zaS6e7NcGKBeATgMqm5zQhh76eqKK3ej7Nb83Lpud1q0BwvjbxT9yVjmRa84tAOL
+2XlQNnfswC0gGjH/wLP3niK8zi1HpLXQGG1yWH0u1/ubVNSGZQ4FUbOgEQoh1aJR
+AXwc3hUBmsLlKZ2SgmzGX8E8xHshNsN4wtYgVv04bK2p0ErlTTj2RGzq02qBr42t
+hT6osz/D6hYSMIRhzb91kFv3xqWxPh4ABFPArxPrE/qiyFRbjY5j42mK0nYN0iyH
+blMVFm78E2klius3lA3lb7CvR6Qbrv095SUn9VxI4Wx1IiaBOCW49Yju1UQ681GT
+9r2jJw2W2k7IRl727vcAyDztSLlp6ZKezqcuiMjCVBJbPNtrVvIB/LSlEEz4J2lC
+EMbHgKg7eFzlOGCLzS2jskfcIKMqkfs+vl5kBHBApca8kbGIDnfbSV4xibUipsst
+pP+Y0XcvgN+fVpaAdTAOiZzV
+=6wmE
 -----END PGP SIGNATURE-----
 
---===============3719696705403447737==
+--===============2856692058873585432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -179,4 +179,4 @@ ddaf14dab78c915b52f6c359b3f00ef3b97bccf6 iio: acpi_als: Add local variable dev i
 1b33dfa5d5f165782a1cb18ba1350a42d5d7a579 Merge remote-tracking branch 'local/ib-iio-scmi-5.12-rc2-take3' into togreg
 9c15db92a8e56bcde0f58064ac1adc28c0579b51 Merge tag 'iio-for-5.13a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-next
 
---===============3719696705403447737==--
+--===============2856692058873585432==--
