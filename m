@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============5035035283997716396=="
+Content-Type: multipart/mixed; boundary="===============8965444705324340474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Fri, 26 Mar 2021 16:36:35 -0000
-Message-Id: <161677659579.27217.10588948914061391866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mdf/linux-fpga
+Date: Fri, 26 Mar 2021 16:40:48 -0000
+Message-Id: <161677684874.31080.1723221494425678638@gitolite.kernel.org>
 
---===============5035035283997716396==
+--===============8965444705324340474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/mdf/linux-fpga
+user: mdf
 changes:
-  - ref: refs/heads/icc-fixes
-    old: 16294c6de733c0cae5d33421a612867ce042372e
-    new: 491aef7caeb345ccfd658a7fc8a42944a7f82494
-    log: revlist-16294c6de733-491aef7caeb3.txt
+  - ref: refs/heads/for-5.12
+    old: e41d4c011706c97f2faea6ef2e46e51f52d8f715
+    new: 2e8496f31d0be8f43849b2980b069f3a9805d047
+    log: revlist-e41d4c011706-2e8496f31d0b.txt
 
---===============5035035283997716396==
+--===============8965444705324340474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16294c6de733-491aef7caeb3.txt
+Content-Disposition: attachment; filename=revlist-e41d4c011706-2e8496f31d0b.txt
 
+8acb54abc1db4e1e3913359e4108e04e88ce4d92 Merge tag 'timers-v5.11-rc5' of https://git.linaro.org/people/daniel.lezcano/linux into timers/urgent
+2596b6ae412be3d29632efc63976a2132032e620 kexec: move machine_kexec_post_load() to public interface
 2a8c3a6410f042e89e36df20b465845852aa3d9f Merge branch 'for-5.12-no_hash_pointers' into for-linus
 16182ac1f02c8a5fc9753f9b8b5f3ef8c01707d8 Merge branch 'printk-rework' into for-linus
 fd749fe4bcb00ad80d9eece709f804bb4ac6bf1e ARM: 9065/1: OABI compat: fix build when EPOLL is not enabled
@@ -1047,8 +1049,6 @@ f292e8730a349577aaf13635399b39a50b8f5910 Merge tag 'io_uring-5.12-2021-03-05' of
 de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
-7c911f9de7abb89f46254d2fecb11dcb4a7a6c30 interconnect: qcom: msm8939: remove rpm-ids from non-RPM nodes
-715ea61532e731c62392221238906704e63d75b6 interconnect: core: fix error return code of icc_link_destroy()
-491aef7caeb345ccfd658a7fc8a42944a7f82494 interconnect: Fix kerneldoc warning
+2e8496f31d0be8f43849b2980b069f3a9805d047 firmware: stratix10-svc: reset COMMAND_RECONFIG_FLAG_PARTIAL to 0
 
---===============5035035283997716396==--
+--===============8965444705324340474==--
