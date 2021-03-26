@@ -1,46 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============5085721697519725821=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Fri, 26 Mar 2021 17:53:42 -0000
-Message-Id: <161678122222.11771.14884513759186756995@gitolite.kernel.org>
-
---===============5085721697519725821==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 26 Mar 2021 17:59:41 -0000
+Message-Id: <161678158147.14900.13791519069657347526@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: fc1d9b014771b4e3d3638c3171d55b1df98d1f5a
-    new: f6cffe97cd15dd547517ed5063c9712d85a8b61c
+  - ref: refs/heads/net-next-mlx5
+    old: df5aa8e3a1ae0c58c0325898c51be2542cf47bb1
+    new: 7163705ecc97add8f07cd5f3ebacd78e0e7ccdf9
     log: |
-         f6cffe97cd15dd547517ed5063c9712d85a8b61c A couple of minor key updates
+         41e36c2c01eb48213ab1894a440b0c789adbe4e4 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
+         0c7f35601d6843289db033cca7b9215b36e6c5fc Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux into net-next
+         8310d8611fee270fc560e268bada35509a773348 net/mlx5: Fix devlink reload LOCKDEP warning
+         d6d7040103953fe154565cd4e14f481c31763ec3 net/mlx5: Don't allow health work when device is probing
+         b734c01aef942eddbd0a04a2ef8781b774023949 Revert "net/mlx5: Fix fatal error handling during device load"
+         7163705ecc97add8f07cd5f3ebacd78e0e7ccdf9 net/mlx5e: alloc the correct size for indirection_rqt
          
-
---===============5085721697519725821==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1616781221 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1616781221-0c81a6c30c56819f09509fc7601c5310a6100d8f
-
-fc1d9b014771b4e3d3638c3171d55b1df98d1f5a f6cffe97cd15dd547517ed5063c9712d85a8b61c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYF4fpQAKCRC2xBzjVmSZ
-bAEIAQC9Vaj76tDgOvEXzsQ0oHx/ck2qKxO39gdPHq3SePyxDQD/WiUI1Kyy0sZi
-ENVXfDyEA8H3tCM7+vUemMxfiFY8yQU=
-=OraP
------END PGP SIGNATURE-----
-
---===============5085721697519725821==--
