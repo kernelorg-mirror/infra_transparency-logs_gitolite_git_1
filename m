@@ -1,182 +1,109 @@
-Content-Type: multipart/mixed; boundary="===============2856692058873585432=="
+Content-Type: multipart/mixed; boundary="===============0068020238885587725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 26 Mar 2021 11:19:45 -0000
-Message-Id: <161675758507.22004.2936631298709474429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Fri, 26 Mar 2021 12:17:34 -0000
+Message-Id: <161676105438.25231.2747579559154851697@gitolite.kernel.org>
 
---===============2856692058873585432==
+--===============0068020238885587725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/staging-next
-    old: d010995736cb581de55e99268d66937085b45ea0
-    new: 9c15db92a8e56bcde0f58064ac1adc28c0579b51
-    log: revlist-d010995736cb-9c15db92a8e5.txt
+  - ref: refs/heads/for-5.13/arm64/dt
+    old: bb05e11fff09d341047ce1984aa0d975ed8613e7
+    new: 405fa9e9d8664e830982c5fbcb70f9ba8656bafc
+    log: |
+         405fa9e9d8664e830982c5fbcb70f9ba8656bafc arm64: tegra: Move clocks from RT5658 endpoint to device node
+         
+  - ref: refs/heads/for-5.13/phy
+    old: a285c7bbc45b202f8b4906673eaa40a8229e618d
+    new: fd50990ac3861a6397b03580061f2a5bdf55b0e2
+    log: |
+         9d5e7c3e36ebae838c3427ed943e14f976715bbb soc/tegra: pmc: Provide USB sleepwalk register map
+         9f18691c9cac98eeac471335fb0a165602b87b19 Merge commit 'for-5.13/soc' into for-5.13/phy
+         1883495673131ba01183fcb8abe0dabea5e1d1a4 phy: tegra: xusb: Move usb3 port init for Tegra210
+         a86041aeadd72d67cf78b8b013a2b99467e50472 phy: tegra: xusb: Rearrange UPHY init on Tegra210
+         e395c43a6358905ddb4dfaa5fa66d922cfda49c2 phy: tegra: xusb: Add Tegra210 lane_iddq operation
+         cf0a550cfc515ce7a20d4c8ecf66380fd2a6aa49 phy: tegra: xusb: Add sleepwalk and suspend/resume
+         8f6f09f05aef22c7f5bbce877563c14d0aec2ce0 phy: tegra: xusb: Add wake/sleepwalk for Tegra210
+         3215ad58963aa5e21c3f4a9ac67af01763e89512 phy: tegra: xusb: Tegra210 host mode VBUS control
+         fd50990ac3861a6397b03580061f2a5bdf55b0e2 phy: tegra: xusb: Add wake/sleepwalk for Tegra186
+         
+  - ref: refs/heads/for-5.13/soc
+    old: f5b1d27df6c4f5d99baf62a2eb1cf58d2066e40b
+    new: 366d7c643a8a9db652341e314b33d3fc80595e6c
+    log: |
+         9d5e7c3e36ebae838c3427ed943e14f976715bbb soc/tegra: pmc: Provide USB sleepwalk register map
+         ef85bb582c41524e9e68dfdbde48e519dac4ab3d soc/tegra: regulators: Fix locking up when voltage-spread is out of range
+         19221e3083020bd9537624caa0ee0145ed92ba36 soc/tegra: pmc: Fix imbalanced clock disabling in error code path
+         c45e66a6b9f40f2e95bc6d97fbf3daa1ebe88c6b soc/tegra: pmc: Fix completion of power-gate toggling
+         66ee50c6e23432efded0c34ea71428f97cac808a soc/tegra: pmc: Ensure that clock rates aren't too high
+         366d7c643a8a9db652341e314b33d3fc80595e6c soc/tegra: pmc: Print out domain name when reset fails to acquire
+         
+  - ref: refs/heads/for-5.13/usb
+    old: ee79ae889e92fc5f9b5dc307251ea3e746d9580c
+    new: e95d8878c10e36f1609450039d20b4f32cec0f34
+    log: revlist-ee79ae889e92-e95d8878c10e.txt
+  - ref: refs/heads/for-next
+    old: 9e2409c6eacd7c453e25b1031bba200946280a65
+    new: c79ca2d6635bc5660d9aa28290143641394e638d
+    log: revlist-9e2409c6eacd-c79ca2d6635b.txt
 
---===============2856692058873585432==
+--===============0068020238885587725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ee79ae889e92-e95d8878c10e.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616757580 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1616757579-d7a3833b9bb9cfa57a090e74301925d7a1392f4e
+9d5e7c3e36ebae838c3427ed943e14f976715bbb soc/tegra: pmc: Provide USB sleepwalk register map
+9f18691c9cac98eeac471335fb0a165602b87b19 Merge commit 'for-5.13/soc' into for-5.13/phy
+1883495673131ba01183fcb8abe0dabea5e1d1a4 phy: tegra: xusb: Move usb3 port init for Tegra210
+a86041aeadd72d67cf78b8b013a2b99467e50472 phy: tegra: xusb: Rearrange UPHY init on Tegra210
+e395c43a6358905ddb4dfaa5fa66d922cfda49c2 phy: tegra: xusb: Add Tegra210 lane_iddq operation
+cf0a550cfc515ce7a20d4c8ecf66380fd2a6aa49 phy: tegra: xusb: Add sleepwalk and suspend/resume
+8f6f09f05aef22c7f5bbce877563c14d0aec2ce0 phy: tegra: xusb: Add wake/sleepwalk for Tegra210
+3215ad58963aa5e21c3f4a9ac67af01763e89512 phy: tegra: xusb: Tegra210 host mode VBUS control
+fd50990ac3861a6397b03580061f2a5bdf55b0e2 phy: tegra: xusb: Add wake/sleepwalk for Tegra186
+311a81f74636a86717384b3653ce081f40e4507a Merge branch 'for-5.13/phy' into for-5.13/usb
+7b0be91cd73022b08516b8599c4a49ac29c36db7 usb: xhci: tegra: Unlink power domain devices
+e95d8878c10e36f1609450039d20b4f32cec0f34 usb: xhci: tegra: Enable ELPG for runtime/system PM
 
-d010995736cb581de55e99268d66937085b45ea0 9c15db92a8e56bcde0f58064ac1adc28c0579b51 refs/heads/staging-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBdw0wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GtcQAKeJrtRYjQBSTzx/Ky4D
-mBMpQeVfN0enHjk2WszG1hanoe7v1Q2V0BJyILlR94lRistjeHvBHhss7aWUorU3
-cwOY1UdytwuCX1bxQyLCvtORVOGsOcIO9SeNKjyeGEt2dn4s+7CntxIUgh3h/aus
-uwMTlmyjJafT1AOsQjvSVJHIVBlvZhX9pK9rzSlqPn+eI6B57Yc4h8gkSeh1lElS
-zaS6e7NcGKBeATgMqm5zQhh76eqKK3ej7Nb83Lpud1q0BwvjbxT9yVjmRa84tAOL
-2XlQNnfswC0gGjH/wLP3niK8zi1HpLXQGG1yWH0u1/ubVNSGZQ4FUbOgEQoh1aJR
-AXwc3hUBmsLlKZ2SgmzGX8E8xHshNsN4wtYgVv04bK2p0ErlTTj2RGzq02qBr42t
-hT6osz/D6hYSMIRhzb91kFv3xqWxPh4ABFPArxPrE/qiyFRbjY5j42mK0nYN0iyH
-blMVFm78E2klius3lA3lb7CvR6Qbrv095SUn9VxI4Wx1IiaBOCW49Yju1UQ681GT
-9r2jJw2W2k7IRl727vcAyDztSLlp6ZKezqcuiMjCVBJbPNtrVvIB/LSlEEz4J2lC
-EMbHgKg7eFzlOGCLzS2jskfcIKMqkfs+vl5kBHBApca8kbGIDnfbSV4xibUipsst
-pP+Y0XcvgN+fVpaAdTAOiZzV
-=6wmE
------END PGP SIGNATURE-----
-
---===============2856692058873585432==
+--===============0068020238885587725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d010995736cb-9c15db92a8e5.txt
+Content-Disposition: attachment; filename=revlist-9e2409c6eacd-c79ca2d6635b.txt
 
-f40e8005305418522eeff217cb72e806eeaa3598 iio: st_sensors: fix typo in comment
-c03e2df6e1d51f4e1252318275007214a3bd8e85 iio:adc:stm32-adc: Add HAS_IOMEM dependency
-01f68f067dc39df9c9d95d759ee61517eb4b0fcf counter: stm32-lptimer-cnt: remove iio counter abi
-e357e81fcf115bce68f3c8ca76cfc89caf24ec5a counter: 104-quad-8: Remove IIO counter ABI
-6c3b615379d7cd90d2f70b3cf9860c5a4910546a iio: hid-sensor-rotation: Fix quaternion data not correct
-8a09054f3e8afd0521309b15baab716fa7454785 iio: adc: stm32-adc: enable timestamping for non-DMA usage
-53fa791ada020da84dcd1c1c595510a4ca588693 MAINTAINERS: iio: move Peter Meerwald-Stadler to CREDITS
-0071aa300271a4c6328e4d2c43f53c5a91ddd2ba iio:adc:dac:ad5791 typo fix of regster
-14aae60174db9415b2db8a9d57586a11d8280961 dt-bindings: iio: accel: Add bmi088 accelerometer bindings
-c19ae6be7555abbee985d73372d0e78878a337f8 iio: accel: Add support for the Bosch-Sensortec BMI088
-d935eddd2799f2559d3c909e5977c0a85a5af1b7 iio: adc: Add driver for Texas Instruments ADS131E0x ADC family
-f3c52f01b4274239c1945aca1f27360b20b83f39 bindings: iio: adc: Add documentation for ADS131E0x ADC driver
-6f71bf1991b6f04dc87a4f5b9d6823535f51a50d iio: core: Allow drivers to specify a label without it coming from of
-788348a5f788f976908231962c6d9ee9d1e6f2db iio: accel: bmc150: Set label based on accel-location on 2-accel yoga-style 2-in-1s
-30132fe46669a16846fa5412f92040a2fb9243ec iio: accel: kxcjk-1013: Set label based on accel-location on 2-accel yoga-style 2-in-1s
-a04e3db5146e49807bb6000302fd2d9efbd964c1 iio: proximity: sx9500: Fix a spelling postive to positive
-2646a95df94e5d2aaeb22fa912179831ebd0095b iio: iio_format_value(): Use signed temporary for IIO_VAL_FRACTIONAL_LOG2
-38a52cdef5b3ba2e4ac6b24a073a231e04d2c552 iio: iio_format_value(): Fix IIO_VAL_FRACTIONAL_LOG2 values between -1.0 and 0.0
-0bf49ffbfe949df21e95b8f95b5f308db379ac74 iio: Add basic unit test for iio_format_value()
-e36db6a06937c6fce3291f0c362d4f757b8ec703 iio: kfifo: add devm_iio_kfifo_buffer_setup() helper
-17395ce299211a8148ee45d1d71eb740a3fec48d iio: make use of devm_iio_kfifo_buffer_setup() helper
-e03ed893e2cf7305183b3314ae80daa1e97667b2 iio: accel: sca3000: use devm_iio_kfifo_buffer_setup() helper
-99f6e8215b627730e2e6d371430a1f81e8ed6c27 iio: kfifo: un-export devm_iio_kfifo_allocate() function
-a02c09e42b3ed6cefae671e302835f1f04bf474e iio: buffer-dma,adi-axi-adc: introduce devm_iio_dmaengine_buffer_setup()
-c127161865bc21a3fc6adad07b38ce8276ba2f8e docs: ioctl-number.rst: reserve IIO subsystem ioctl() space
-8ebaa3ff1e71d428912423f7f4f8001bfb368cc5 iio: core: register chardev only if needed
-e64506bf69b680975c47dcbca2a33fc672b368b5 iio: core-trigger: make iio_device_register_trigger_consumer() an int return
-32f171724e5cbecc80594fb6eced057cfdd6eb6f iio: core: rework iio device group creation
-e2b4d7aca9db5c1f0789e5a8e0fd1f4953d0be9e iio: buffer: group attr count and attr alloc
-d9a625744ed0e452f5c495cd8c51eed4b6623a4c iio: core: merge buffer/ & scan_elements/ attributes
-3e3d11b2e43b9a967d98261250c19636b893b7ed iio: add reference to iio buffer on iio_dev_attr
-15097c7a1adc0554ce8eb6f5fd6758d063bfea44 iio: buffer: wrap all buffer attributes into iio_dev_attr
-4991f3ea2aec5dd8c5abdb40a360258dd71eddf4 iio: buffer: dmaengine: obtain buffer object from attribute
-be24dcb113675f72c2b95c96a55d8aae4964cdc6 iio: core: wrap iio device & buffer into struct for character devices
-0224af85a77be1ebdf5256f0d6738b0f7250f41d iio: buffer: move __iio_buffer_free_sysfs_and_mask() before alloc
-738f6ba1180046904402ffbe210fbd2fa2c4b050 iio: dummy: iio_simple_dummy_buffer: use triggered buffer core calls
-ee708e6baacd3afdace9b721c25fbbe106cebb94 iio: buffer: introduce support for attaching more IIO buffers
-f73f7f4da581875f9b1f2fb8ebd1ab15ed634488 iio: buffer: add ioctl() to support opening extra buffers for IIO device
-0d596bb2ad0dbefc7c3e6072acb64b379888ee3d iio: core: rename 'dev' -> 'indio_dev' in iio_device_alloc()
-a605c8f4e71c35fddb9b13785f4ea5c24e273aa2 tools: iio: make iioutils_get_type() private in iio_utils
-ebe5112535b5cf389ca7d337cf6a0c1d885f9880 tools: iio: privatize globals and functions in iio_generic_buffer.c file
-8827faab2c8b52e848071a039a945db6f3ae8365 tools: iio: convert iio_generic_buffer to use new IIO buffer API
-b624fd14a9275bd546b63cf103cee6c9f57a4f55 iio: use getter/setter functions
-c1d82dbcb0a6b660bc44f7e9c1ba606b671f1b71 docs: iio: fix example formatting
-f2163c1e365bef19bb371933272f2327d286fbbb docs: iio: fix directory naming
-bd9a013d2988321ef1122e41874f9cbd141e480a docs: iio: document the 'index' attribute too
-218977dcdb2aac1ec0492b51e8473ca6d3387c50 docs: iio: fix bullet list formatting
-6bc5ebe8aa08637355cd891e596b5bce63497cb5 docs: iio: mark "repeat" sysfs attribute as optional
-0e41fd515f94dcfcc24b6e510d29528431e46f60 iio: hid-sensors: Move get sensitivity attribute to hid-sensor-common
-4efd13c3c2bc9a5fc37fa34b7d4d2ec1bdf0d127 hid-sensors: Add more data fields for sensitivity checking
-1c71a2863a0c56123e5a67880cf658083c0a0b1e iio: Add relative sensitivity support
-84dbc231a6f56c810fdd1908c723c0c23c9e169b iio: hid-sensor-als: Add relative hysteresis support
-3a826f7c64080ec2789abc229d8012430fa092b7 iio: Add relative hysteresis in ABI documentation
-6505dfab33c519368e54ae7f3ea1bf4d9916fdc5 iio: documentation: Document proximity sensor label use
-9a6df4b1ab0e467f23ccdcbb82700cfb3eaf44a3 iio: documentation: Document accelerometer label use
-477bd010c20efc377c55e6077b0526201a7a33b3 iio: dac: ad5686: Add support for AD5673R/AD5677R
-63cd35f34d2e75dde3dd3ab51ae09b5daad755e7 iio: Documentation: update definitions for bufferY and scan_elements
-aa29cf932fb345e111cd7fef04320846fa73e372 iio: adc: adi-axi-adc: fix typo in doc-string
-0463e60f087069adf25a815cd88753946aca2565 iio: adis16480: fix pps mode sampling frequency math
-39c024b51b5607e9d2fc6c04c2573e4a778c728d iio: adis16475: improve sync scale mode handling
-3b15e6a532b30691e7c464e7d74c2d699c23d439 dt-bindings: adis16475: remove property
-15aacc980dcb326ef33dfc32772faea1067f9178 iio: adis: add helpers for locking
-b923561fabc33664b25470b101857712339e1021 iio: adc: mt6360: Include right header
-f774117c96f94c7c4d2f076e4cacc80218b0df48 iio/scmi: Adding support for IIO SCMI Based Sensors
-4abbaf29dfd8336334c1791ae0e96095ae1cf438 iio:ABI docs: Combine sysfs-bus-iio-humidity-hdc2010/hdc100x into one file
-2a94469f736c264a2647abbb9a1862c3fe4d9f66 iio:ABI docs: Combine the two instances of docs for sensor_sensitivity
-31e2d42a86201d32c345bebd4d324b8d8424f4c2 iio: adc: spear_adc: Replace indio_dev->mlock with own device lock
-3a27d11fbf58e7b29930376b0b869882c780dd5b iio: adc: palmas_gpadc: Replace indio_dev->mlock with own device lock
-08dfc6f8aa5d443c81347f6ea876d833f5aedcf6 iio: adc: npcm_adc: Replace indio_dev->mlock with own device lock
-6a878e70e88b53c015cae1a3898c17db4b4cb199 iio: proximity: vcnl3020: add proximity rate
-9013b1d970455d50154e8dec31b7c0e3040f01c3 iio: accel: mma8452: fix indentation
-7b3589f49b824e718c319dbd31535c608a410a55 staging: iio: remove mention of defunct list
-dafcf4ed8392476099c9e95642d2daa6e61ee1b6 iio: hrtimer: Allow sub Hz granularity
-bbc1308de79368879580635ded6df51d232845ef iio: kfifo: mask flags without zero-check in devm_iio_kfifo_buffer_setup()
-b9d453a53d5e3a47790675bc972de99bd163052e iio: Remove kernel-doc keyword in file header comment
-374be283ad429bf703d9036b799331dda793aeb7 platform/chrome: cros_ec: Add SW_FRONT_PROXIMITY MKBP define
-19ad93bc82e7d0ea7b02ada623cddfeab20c9046 dt-bindings: iio: Add cros ec proximity yaml doc
-7792225b7b671800d1c9b562ace8e167a3d0e2e7 iio: proximity: Add a ChromeOS EC MKBP proximity driver
-d612eb13ba9f407d38c9f040e5691abcee763dfe iio: chemical: bmp680: Drop unneeded explicit castings
-897cd10a962c0c4bacd88885e41610a776877384 iio: imu: fxos8700: Drop unneeded explicit castings
-9e301ea77ddfc3e8607fa21ebcd61397c828ab0a iio: imu: st_lsm6dsx: Drop unneeded explicit castings
-941f66765a32e9a1985b0815102423cf63fc343e iio: light: gp2ap002: Drop unneeded explicit casting
-7b8d045e497a04dd88546da51f34fa3b102778d2 iio: adc: ad7124: allow more than 8 channels
-995071d36bb9804b644265450142fcb91c427ee8 iio: set default trig->dev.parent
-8a2252201656a147a9d7b1892028cef15869032e iio: fix devm_iio_trigger_alloc with parent.cocci
-5c68f05305874dd2c755fa911e93a8819dde42e2 iio: adis_trigger: Remove code to set trigger parent
-cd214139471a2b2135b4fbc2a7f9355a5df68f86 iio: gp2ap020a00f: Remove code to set trigger parent
-4d031666560da23dfae3892335551b2405ee92e1 iio: lmp91000: Remove code to set trigger parent
-e3c9b034e7d6280eef20d753d4a9c33abb200cf6 iio: chemical: atlas: Remove code to set trigger parent
-86e52a25f38cc47f24000671a9581c7b7e94749e iio: as3935: Remove code to set trigger parent
-86073fa2b538847f4a623c040f66d1ec96e0643a iio: xilinx-xadc: Remove code to set trigger parent
-635ef601b2387c3215252c9931786524d122c0e7 iio: Provide iio_read_channel_processed_scale() API
-4f2d9cced4c1ccda7ca0c888892954361c8a397e hwmon: (ntc_thermistor): try reading processed
-218bc53dc70022ac31381b43c82f4097a95b8605 iio: buffer: fix use-after-free for attached_buffers array
-70da64153123460a10f3cb53fa9edca3a0ec2727 iio: temperature: tmp007: use device-managed functions in probe
-b627e3b5f73b8decc3ebfe46d93b23ecf6f143ab staging: iio: ad9834: convert to device-managed functions in probe
-0b8061c340b643e01da431dd60c75a41bb1d31ec dt-bindings: counter: add interrupt-counter binding
-a55ebd47f21f6f0472766fb52c973849e31d1466 counter: add IRQ or GPIO based counter
-44f14695bd936043de25313cfeb1c863a1060ad7 iio: pressure: zpa2326: kernel-doc fixes
-b863ff94197f3118a18ceade7854bbaa53e0fc58 iio: adc: ti-adc084s021: kernel-doc fixes, missing function names
-e0549f34328f7f9b8058cfb6a9e779c5fcd3d6dc iio: dac: ad5770r: kernel-doc fix case of letter R wrong in structure name
-92e212e597ac5118dd31108b7ca5871f04005b24 iio: dac: ad5504: fix wrong part number in kernel-doc structure name.
-a80aeec0878edb6ac931609a1b67b958499f8313 iio: adc: cpcap-adc: kernel-doc fix - that should be _ in structure name
-63abed2a1ee8270c369db8111da2ad59f43bf9d4 iio: adc: adi-axi-adc: Drop false marking for kernel-doc
-d7f1c0c313580d8243031978117f9b9fe0b3ddab iio: accel: sca3000: kernel-doc fixes. Missing - and wrong function names.
-831aaea663acecddfc1b2d0851f6d0d36248c0f4 iio: buffer: kfifo_buf: kernel-doc, typo in function name.
-85ece364065eb068439ca3fe4f11d096575d3074 iio:cros_ec_sensors: Fix a wrong function name in kernel doc.
-2662e81745fc00cafcbbb532018013607cae84e0 iio:dac:max517.c: Use devm_iio_device_register()
-e5b64caaad768f78668d0d8563b4f98c0f4d4b6a staging: iio: ad9832: kernel-doc fixes
-ac62f90c9636c5b7004f6696a9e8c0d109509898 dt-bindings: iio: st,st-sensors add IIS2MDC.
-c71cfe5576d1f6e2d53b5fb9b74438eadf097b05 iio:magnetometer: Add Support for ST IIS2MDC
-346e19ec04e07789d1fc9982d6adc016582620cd dt-bindings: iio: adc: Add compatible for Mediatek MT8195
-e1d392dc8875556d8a742d4be38ab452516428eb iio: event_monitor: Enable events before monitoring
-0a21526bc1d41456f1b320cce35c9c66238fb1c9 iio: kfifo: add devm_iio_triggered_buffer_setup_ext variant
-80346b2b55fcbb042acd0b90120004da8738101f iio: cros: unify hw fifo attributes without API changes
-707182b4ff3e644393f785aba36b6edfcc316b16 iio: adc: ad7292: Modify the bool initialization assignment
-dbd7e992a55dd5c9b3e0771b2c417187c5de059e iio: acpi_als: Add timestamp channel
-ddaf14dab78c915b52f6c359b3f00ef3b97bccf6 iio: acpi_als: Add local variable dev in probe
-24b84444eb6f8d6a5090f6fdf172cacfa43f89e9 iio: acpi_als: Add trigger support
-1b33dfa5d5f165782a1cb18ba1350a42d5d7a579 Merge remote-tracking branch 'local/ib-iio-scmi-5.12-rc2-take3' into togreg
-9c15db92a8e56bcde0f58064ac1adc28c0579b51 Merge tag 'iio-for-5.13a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-next
+405fa9e9d8664e830982c5fbcb70f9ba8656bafc arm64: tegra: Move clocks from RT5658 endpoint to device node
+ef85bb582c41524e9e68dfdbde48e519dac4ab3d soc/tegra: regulators: Fix locking up when voltage-spread is out of range
+19221e3083020bd9537624caa0ee0145ed92ba36 soc/tegra: pmc: Fix imbalanced clock disabling in error code path
+c45e66a6b9f40f2e95bc6d97fbf3daa1ebe88c6b soc/tegra: pmc: Fix completion of power-gate toggling
+66ee50c6e23432efded0c34ea71428f97cac808a soc/tegra: pmc: Ensure that clock rates aren't too high
+9d5e7c3e36ebae838c3427ed943e14f976715bbb soc/tegra: pmc: Provide USB sleepwalk register map
+366d7c643a8a9db652341e314b33d3fc80595e6c soc/tegra: pmc: Print out domain name when reset fails to acquire
+9f18691c9cac98eeac471335fb0a165602b87b19 Merge commit 'for-5.13/soc' into for-5.13/phy
+1883495673131ba01183fcb8abe0dabea5e1d1a4 phy: tegra: xusb: Move usb3 port init for Tegra210
+a86041aeadd72d67cf78b8b013a2b99467e50472 phy: tegra: xusb: Rearrange UPHY init on Tegra210
+e395c43a6358905ddb4dfaa5fa66d922cfda49c2 phy: tegra: xusb: Add Tegra210 lane_iddq operation
+cf0a550cfc515ce7a20d4c8ecf66380fd2a6aa49 phy: tegra: xusb: Add sleepwalk and suspend/resume
+8f6f09f05aef22c7f5bbce877563c14d0aec2ce0 phy: tegra: xusb: Add wake/sleepwalk for Tegra210
+3215ad58963aa5e21c3f4a9ac67af01763e89512 phy: tegra: xusb: Tegra210 host mode VBUS control
+fd50990ac3861a6397b03580061f2a5bdf55b0e2 phy: tegra: xusb: Add wake/sleepwalk for Tegra186
+311a81f74636a86717384b3653ce081f40e4507a Merge branch 'for-5.13/phy' into for-5.13/usb
+7b0be91cd73022b08516b8599c4a49ac29c36db7 usb: xhci: tegra: Unlink power domain devices
+e95d8878c10e36f1609450039d20b4f32cec0f34 usb: xhci: tegra: Enable ELPG for runtime/system PM
+fac76d31468bc8deeefa5f214f00003ea696cfc6 Merge branch for-5.13/dt-bindings into for-next
+4b68848f7a703bb901375a37e5f171bb03d6c776 Merge branch for-5.13/clk into for-next
+caa870140c5f914da5dcaf045cbf48cf1e094b58 Merge branch for-5.13/soc into for-next
+ae527bb63fc31ec193edf13d777cfd910ee6e4ec Merge branch for-5.13/phy into for-next
+6103e8f2e7676403c2d3c50349a4da78dab0b584 Merge branch for-5.13/usb into for-next
+aa3ca33c4cb0fd02ee417e4a7e58a03480cb9967 Merge branch for-5.13/arm/dt into for-next
+c79ca2d6635bc5660d9aa28290143641394e638d Merge branch for-5.13/arm64/dt into for-next
 
---===============2856692058873585432==--
+--===============0068020238885587725==--
