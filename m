@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2384023883619577607=="
+Content-Type: multipart/mixed; boundary="===============4939610516348318601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 26 Mar 2021 22:04:08 -0000
-Message-Id: <161679624809.3553.15164391415866620783@gitolite.kernel.org>
+Date: Fri, 26 Mar 2021 22:07:37 -0000
+Message-Id: <161679645729.5949.11468677974503571552@gitolite.kernel.org>
 
---===============2384023883619577607==
+--===============4939610516348318601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,29 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 4d656b706db3609618e863ee81d9f3944bc2f8e7
-    new: 6cb502a3684ea55ee76c5b070450b3caa4151565
-    log: revlist-4d656b706db3-6cb502a3684e.txt
+    old: 6cb502a3684ea55ee76c5b070450b3caa4151565
+    new: f59798b8f683ec16e724d0a0a43c75cfa4822ec1
+    log: revlist-6cb502a3684e-f59798b8f683.txt
 
---===============2384023883619577607==
+--===============4939610516348318601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d656b706db3-6cb502a3684e.txt
+Content-Disposition: attachment; filename=revlist-6cb502a3684e-f59798b8f683.txt
 
-ee3e6beaa015ff1526440bf31f1782b6daa772da net: ipa: introduce ipa_resource.c
-a749c6c03762f71ba4d04ead60b4f5df9ca2bf5e net: ipa: fix bug in resource group limit programming
-47f71d6e677cfa2853203ea77c0a47c23fea92c0 net: ipa: identify resource groups
-9ab7e72882668c5223c55581bdcd44fdf5e9d882 net: ipa: add some missing resource limits
-fd2b7bc3211342e003d00625973318613e0aa2fe net: ipa: combine resource type definitions
-4bcfb35e7af9413a4715ec2c74f51e20043c70e2 net: ipa: index resource limits with type
-cf9a10bd7c49ab59ef476711e8c8467ce738b6d9 net: ipa: move ipa_resource_type definition
-d9d1cddf8b98e9752bbe528b7085d3a5d155fb2d net: ipa: combine source and destination group limits
-7336ce1a7ae70335b895901f4b1893c7f40b6be5 net: ipa: combine source and destation resource types
-93c03729c548ea30b8bb38f2ab51008f11babe2a net: ipa: pass data for source and dest resource config
-4fd704b3608a4c89260ea33895a694bc5385e00f net: ipa: record number of groups in data
-3219953bedc563ef988fa423f8ac67a441f69b4b net: ipa: support more than 6 resource groups
-6cb502a3684ea55ee76c5b070450b3caa4151565 Merge branch 'ipa-resource'
+2d6f5a2b5720cd3fdbaa21d8f5a6a192257b2a3c mptcp: clean-up the rtx path
+f7efc7771eac1d149c8981a6d203bce6f1c49210 mptcp: drop argument port from mptcp_pm_announce_addr
+d84ad04941c3e30dec193d4c39fce07a4c513cb4 mptcp: skip connecting the connected address
+62535200be178fe9360420557cfbcb94c1b93694 mptcp: drop unused subflow in mptcp_pm_subflow_established
+348d5c1dec60f5f50869a8e40315a66006897732 mptcp: move to next addr when timeout
+2e580a63b5c214a89bcc3e243ee2058691cee001 selftests: mptcp: add cfg_do_w for cfg_remove
+8da6229b9524d9a4ea91ed1308f7e45bfe0b2799 selftests: mptcp: timeout testcases for multi addresses
+d88c476f4a7dd69a2588470f6c4f8b663efa16c6 mptcp: export lookup_anno_list_by_saddr
+557963c383e8209b14de91bf2a0301a41b94d8c4 mptcp: move to next addr when subflow creation fail
+b65d95adb802b41a501b75ee4646f4a49fc66eb4 mptcp: drop useless addr_signal clear
+8dd5efb1f91b09975295bd162441fe4a23edb3e2 mptcp: send ack for rm_addr
+b46a023810939c2839250711282bb66946666d27 mptcp: rename mptcp_pm_nl_add_addr_send_ack
+ef360019db4043d53d631aec1e630bd6e6ce54f4 selftests: mptcp: signal addresses testcases
+f59798b8f683ec16e724d0a0a43c75cfa4822ec1 Merge branch 'mptcp-cleanups'
 
---===============2384023883619577607==--
+--===============4939610516348318601==--
