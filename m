@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2436376026247480689=="
+Content-Type: multipart/mixed; boundary="===============0401765702015314431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Fri, 26 Mar 2021 16:32:24 -0000
-Message-Id: <161677634458.24525.15092209322108463775@gitolite.kernel.org>
+Date: Fri, 26 Mar 2021 16:32:33 -0000
+Message-Id: <161677635356.24604.5582847212378741824@gitolite.kernel.org>
 
---===============2436376026247480689==
+--===============0401765702015314431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: abelloni
 changes:
-  - ref: refs/heads/at91-dt
+  - ref: refs/heads/at91-defconfig
     old: fe07bfda2fb9cdef8a4d4008a409bb02f35f1bd8
     new: a38fd8748464831584a19438cbb3082b5a2dab15
     log: revlist-fe07bfda2fb9-a38fd8748464.txt
 
---===============2436376026247480689==
+--===============0401765702015314431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -220,4 +220,4 @@ de5bd6c54b200aee3157d3eb1ff2808c18b43c09 Merge tag 'gcc-plugins-v5.12-rc2' of gi
 f3ed4de6cc8327e4ef79e6c7892b2b5cbbc02405 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 a38fd8748464831584a19438cbb3082b5a2dab15 Linux 5.12-rc2
 
---===============2436376026247480689==--
+--===============0401765702015314431==--
