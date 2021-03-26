@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7282486277619853894=="
+Content-Type: multipart/mixed; boundary="===============2583079801841903844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 26 Mar 2021 13:59:52 -0000
-Message-Id: <161676719262.22597.2644283059833501452@gitolite.kernel.org>
+Date: Fri, 26 Mar 2021 14:00:33 -0000
+Message-Id: <161676723340.24296.1867716670130901956@gitolite.kernel.org>
 
---===============7282486277619853894==
+--===============2583079801841903844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 0933e51a0b3ce66eb2cf21b0dda265655fa43f53
-    new: 6f08cc6c2fdd3e87098afb8cb86ed31ab6597eff
+    old: 6f08cc6c2fdd3e87098afb8cb86ed31ab6597eff
+    new: d70fb897113d885a8b457ac2bcbb7802b46770b3
     log: |
-         6f08cc6c2fdd3e87098afb8cb86ed31ab6597eff drivers: staging: rtl8712: _adapter is declared twice
+         d70fb897113d885a8b457ac2bcbb7802b46770b3 Staging: comedi: remove unnecessary else statement
          
 
---===============7282486277619853894==
+--===============2583079801841903844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616767187 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616767228 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1616767187-47b99a9c4cbd8a9dcb0bed1158e5a8e9f63abaf3
+nonce 1616767227-1d52caf3251f51bf17d80cbb88518e139ff0e533
 
-0933e51a0b3ce66eb2cf21b0dda265655fa43f53 6f08cc6c2fdd3e87098afb8cb86ed31ab6597eff refs/heads/staging-testing
+6f08cc6c2fdd3e87098afb8cb86ed31ab6597eff d70fb897113d885a8b457ac2bcbb7802b46770b3 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBd6NMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eDYP/jpUBXAXsy5TZ3x9tBKy
-zN7AKOXGnDC33c9JToOXYLKsWsn0K79QA6F5AYGrHxC6ghVGwDMKG/T6prDv7k/g
-FgKlQUehc+MVPS6KRA7ILC0tDv6nhmiBS9QEjgBjDVxaiL4zm2orokxIN58mhKl7
-Ema5WO44ZDLz9xdOOY3g66eN3k9CGc0VrT8KTY9oAg01QEhtSnTvStcJhqstHjMu
-OZduKwNgTcHob6D9Y5hSJ9MyVgU2baJM5hdvmlsqufSX6Qc8/nBgxiHsHGqYT0kH
-xVic1A9ikgs6IzlDQQc4hfLXSvf7qHKx9TdMgUfNGMP9xW4DpWYasF7YWM2ltrwX
-wxu/bScttdVUL/P67eGngoHT9mBtmWpxA04IujUzFKw8V9arUOYdvBslyP+6JRVI
-P0z7OQ0D8kS8WM400Z0p96pQ3WycSDxobPS18KJFqqfoxN5sH3R3iF8Tho5NBwio
-0CpC6l0FOLdTUJcXtuz8l33Ct4QObaAB569enfllnKj4dxPQwdz9DNTN/C0h6NCN
-gopU8bnLPTk6hMx9bu87sfYOdKIRkXHcEYL86a3c8IZRSujt1OAOzPxlEv8pDm4Q
-8iPINT7haav8xPVBe0OYWyhqWi8ht/yl9CzD0jJFMy3yj+tfCdhFVvkvhQxqu5vl
-IkMRVxO1koH0ZmmkQKAInxl2
-=6y0y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBd6PwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SToQALyGj7uCg7iZe45v+I9F
+eO8RbbHe6/sA8a3tHhv4ZbphB4erahYHHztPhaM6EX7099py32uqIFuuvJnzZOZU
+EiOOjtA+TlQ6qJR1urrc+JkGJ9xjwpYrLqE6A4YdF3tQk+qtCXywAMg/bqweW1V1
+ezlAKRiXsFgKSQ+3YyKsnSp0pcu3Guvp3KfLGnVUFvGhLBYkHWnB7F0WNNYMvIRY
+fOlYzEYMY3Ri7kNFEjhJ7CJz2nhnGMeyfGsDyuqngqK9WhJJelm+SGCwQ44GvzWT
+b7WHQ5Mi/bfiRwlfLF+vCRPEsn4a74okE/8UuBRMYqZY19kOnJ6DqM5XS4tWngHO
+aKBnPkz+6Vel8jyxKQGP4sU/+23Hv/qEAJsbiNC15NRGXbzYmp3m4p+ffg1Or6V/
+0U257A+rMQmvd3qaOHgMHPpOPxlB5FD7MCitk5pfimL2JnHKj1LjdmQlw7TXG4JF
+1LUOWFwKzPLpiFn5YA6fARFSAxPXX3mhsuSWd+VY6QLJ7Z6kkyo4AMX6KXQiL4x8
+bqawL7KLndPK9Ys1OgxnktytBewzGR210z/cAYFQwG/37jw+hlZUy8XkRoM67oGh
+8HxDeKQi+38PtK70QDDZETyGDoTv8jWgSmN85C4KzyrPVej/jE5MaFgLOTUWI6if
+D4+rGM9v9272yps+GBb1tjz2
+=oCvU
 -----END PGP SIGNATURE-----
 
---===============7282486277619853894==--
+--===============2583079801841903844==--
