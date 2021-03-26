@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 26 Mar 2021 20:59:10 -0000
-Message-Id: <161679235050.27826.8973024314356864913@gitolite.kernel.org>
+Date: Fri, 26 Mar 2021 21:06:00 -0000
+Message-Id: <161679276071.32538.10794221962977696556@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 5153ceb9e622f4e27de461404edc73324da70f8c
-    new: 21dd118f8de318df2bebfcd44a722168bb705be7
+    old: 21dd118f8de318df2bebfcd44a722168bb705be7
+    new: d58cf00dcedb9882ba6e933443371444d8a23b77
     log: |
-         353cac0e108f0484b101fd8cc6c2c0c5d9100ca6 Bluetooth: Fix mgmt status for LL Privacy experimental feature
-         21dd118f8de318df2bebfcd44a722168bb705be7 Bluetooth: Fix wrong opcode error for read advertising features
+         02431b6cdb753e099df32a337f083c9502ceb0a0 Bluetooth: Add missing entries for PHY configuration commands
+         3d34a71ff8f8f95abd757c4fac70f07091b13314 Bluetooth: Move the advertisement monitor events to correct list
+         d58cf00dcedb9882ba6e933443371444d8a23b77 Bluetooth: Increment management interface revision
          
