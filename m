@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 26 Mar 2021 19:26:47 -0000
-Message-Id: <161678680787.4744.3249128834118572673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Fri, 26 Mar 2021 19:51:59 -0000
+Message-Id: <161678831991.20220.6503507151989836597@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/next
-    old: a38fd8748464831584a19438cbb3082b5a2dab15
-    new: ea2c679edc4120354ff15818f78ad64921534c03
+  - ref: refs/heads/for-next
+    old: 592485bcb56750333f13dc671c4ad69319c80bfa
+    new: 8657375165bc9de4d1387d94895f2e100db697e5
     log: |
-         cb4969e6f9f5ee12521aec764fa3d4bbd91bc797 selftests: fix prepending $(OUTPUT) to $(TEST_PROGS)
-         ea2c679edc4120354ff15818f78ad64921534c03 selftests/timers: Fix spelling mistake "clocksourc" -> "clocksource"
+         8657375165bc9de4d1387d94895f2e100db697e5 dt-bindings: media: video-interfaces: Drop the example
          
