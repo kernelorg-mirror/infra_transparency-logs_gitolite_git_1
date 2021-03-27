@@ -1,24 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Sat, 27 Mar 2021 03:22:56 -0000
-Message-Id: <161681537606.3680.11535586390374867389@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4779729622025597542=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 27 Mar 2021 03:44:39 -0000
+Message-Id: <161681667913.16958.11592424374095105349@gitolite.kernel.org>
+
+--===============4779729622025597542==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/erofs/bigpcluster
-    old: 27b1c850353fbd6e949b69345c0c273ad5846115
-    new: 5b420e92aa35047302bdf4ed29c1a4c968295cb1
-    log: |
-         c6f0756734e3a5a1e4ffd5129278fd0cb06f3485 erofs: introduce a physical cluster slab pool
-         8e9ce1189b40abf77262fb46b7b5714a6a315fde erofs: clean up icpage_ptr
-         7eb3a6c24b4087089fce1b766624bf237988a1f8 erofs: add bigpcluster definition
-         8bb8352d129d0bd070de8b00fec16419d741769d erofs: adjust per-CPU buffers according to max_pclusterblks
-         70dffdefb7d839a4f6df07031df92daf3cb88438 erofs: support parsing bigpcluster compress index
-         5b420e92aa35047302bdf4ed29c1a4c968295cb1 erofs: support decompress big pcluster for lz4 backend
-         
+  - ref: refs/heads/master
+    old: 36e7985160782bc683001afe09e33a288435def0
+    new: fddbf4b6dc9970d7c20fb6ed9a595131444ff026
+    log: revlist-36e798516078-fddbf4b6dc99.txt
+
+--===============4779729622025597542==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-36e798516078-fddbf4b6dc99.txt
+
+e16301fbe1837c9594f9c1957c28fd1bb18fbd15 bpf: Simplify freeing logic in linfo and jited_linfo
+34747c4120418143097d4343312a0ca96c986d86 bpf: Refactor btf_check_func_arg_match
+e6ac2450d6dee3121cd8bbf2907b78a68a8a353d bpf: Support bpf program calling kernel function
+797b84f727bce9c64ea2c85899c1ba283df54c16 bpf: Support kernel function call in x86-32
+d22f6ad18709e93622b6115ec9a5e42ed96b5d82 tcp: Rename bictcp function prefix to cubictcp
+e78aea8b2170be1b88c96a4d138422986a737336 bpf: tcp: Put some tcp cong functions in allowlist for bpf-tcp-cc
+933d1aa32409ef4209c8065ee4ede68236659cd2 libbpf: Refactor bpf_object__resolve_ksyms_btf_id
+774e132e83d0f10a7ebbfe7db1debdaed6013f83 libbpf: Refactor codes for finding btf id of a kernel symbol
+0c091e5c2d37696589a3e0131a809b5499899995 libbpf: Rename RELO_EXTERN to RELO_EXTERN_VAR
+aa0b8d43e9537d371cbd3f272d3403f2b15201af libbpf: Record extern sym relocation first
+5bd022ec01f060f30672cc6383b8b04e75a4310d libbpf: Support extern kernel function
+39cd9e0f6783fd2dd2b0e95500e34575b3707ed8 bpf: selftests: Rename bictcp to bpf_cubic
+78e60bbbe8e8f614b6a453d8a780d9e6f77749a8 bpf: selftests: Bpf_cubic and bpf_dctcp calling kernel functions
+7bd1590d4eba1583f6ee85e8cfe556505f761e19 bpf: selftests: Add kfunc_call test
+fddbf4b6dc9970d7c20fb6ed9a595131444ff026 Merge branch 'bpf: Support calling kernel function'
+
+--===============4779729622025597542==--
