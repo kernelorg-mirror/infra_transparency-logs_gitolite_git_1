@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4779729622025597542=="
+Content-Type: multipart/mixed; boundary="===============5430360795519251720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 27 Mar 2021 03:44:39 -0000
-Message-Id: <161681667913.16958.11592424374095105349@gitolite.kernel.org>
+Date: Sat, 27 Mar 2021 03:44:51 -0000
+Message-Id: <161681669108.17138.7278370123796542289@gitolite.kernel.org>
 
---===============4779729622025597542==
+--===============5430360795519251720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 36e7985160782bc683001afe09e33a288435def0
     new: fddbf4b6dc9970d7c20fb6ed9a595131444ff026
     log: revlist-36e798516078-fddbf4b6dc99.txt
 
---===============4779729622025597542==
+--===============5430360795519251720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ aa0b8d43e9537d371cbd3f272d3403f2b15201af libbpf: Record extern sym relocation fi
 7bd1590d4eba1583f6ee85e8cfe556505f761e19 bpf: selftests: Add kfunc_call test
 fddbf4b6dc9970d7c20fb6ed9a595131444ff026 Merge branch 'bpf: Support calling kernel function'
 
---===============4779729622025597542==--
+--===============5430360795519251720==--
