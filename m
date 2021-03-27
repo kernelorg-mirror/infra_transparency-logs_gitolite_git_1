@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Sat, 27 Mar 2021 05:31:19 -0000
-Message-Id: <161682307926.23175.6508113164365387075@gitolite.kernel.org>
+Date: Sat, 27 Mar 2021 05:33:42 -0000
+Message-Id: <161682322245.24235.4025462138789695064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,15 @@ repo: pub/scm/linux/kernel/git/xiang/linux
 user: xiang
 changes:
   - ref: refs/heads/erofs/bigpcluster
-    old: 5cd41d7f6b4526be13cc393133261f3b26506ebc
-    new: 397fd734aacba1c3016f304dfd7751eee9b14028
+    old: 397fd734aacba1c3016f304dfd7751eee9b14028
+    new: c2865135ef35c9035aecb131a7f7255088e31784
     log: |
-         dfc55da53e8e59e35544f923c7714ee827a3a871 erofs: reserve physical_clusterbits[]
-         42b5e29f0bb780923744618282dcd3a6a9414dc1 erofs: introduce multipage per-CPU buffers
-         7942cb239b76f2ce6af83b03b9a9160620dbb170 erofs: introduce a physical cluster slab pool
-         38a1457bf44a93b94b73406572c8e7526da6f5a5 erofs: clean up icpage_ptr
-         996fb9ca09734e8d27cd0a1549d787b01764a021 erofs: add bigpcluster definition
-         d2b0f6d9b4f25b4aafdfeae8fdb96925e752b969 erofs: adjust per-CPU buffers according to max_pclusterblks
-         5e9af933cf147555690afafa43fe954e932d2943 erofs: support parsing bigpcluster compress index
-         397fd734aacba1c3016f304dfd7751eee9b14028 erofs: support decompress big pcluster for lz4 backend
+         a26073d21012c1f07881aaecc4c49f9cf8208d10 erofs: reserve physical_clusterbits[]
+         6065739897a3ee3c43872bc18d7ec5fdcfcc134d erofs: introduce multipage per-CPU buffers
+         95f53eed50c18552abd9428b281ba701a5dd42b1 erofs: introduce a physical cluster slab pool
+         91b135f15eaccc8be822818645f48c507e3c3791 erofs: clean up icpage_ptr
+         d91804e423156f7a335c1b8f389a0046c5f4a888 erofs: add bigpcluster definition
+         a3565545b1f6f1fc9bb73e93712c378de7fafd4c erofs: adjust per-CPU buffers according to max_pclusterblks
+         bd433a24e3dfc4fc5b2f0a944ee3ec06add02d35 erofs: support parsing bigpcluster compress index
+         c2865135ef35c9035aecb131a7f7255088e31784 erofs: support decompress big pcluster for lz4 backend
          
