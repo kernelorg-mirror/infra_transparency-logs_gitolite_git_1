@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 28 Mar 2021 22:50:54 -0000
-Message-Id: <161697185427.24586.11388309522784383147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sun, 28 Mar 2021 23:17:21 -0000
+Message-Id: <161697344172.7928.16645429579252258812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: f9e2bb42cf0db3a624d295122db3475aa3e7ad18
-    new: a5e13c6df0e41702d2b2c77c8ad41677ebb065b3
+  - ref: refs/heads/for-next
+    old: dc4acf529044f2c16600f27f7617dde8ed09738c
+    new: 8ce0655e44493b0cf2c7e117b1674ac8711938a3
     log: |
-         a5e13c6df0e41702d2b2c77c8ad41677ebb065b3 Linux 5.12-rc5
+         8ce0655e44493b0cf2c7e117b1674ac8711938a3 fix
          
-  - ref: refs/tags/v5.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
