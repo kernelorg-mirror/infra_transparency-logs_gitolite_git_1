@@ -1,60 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============1748279852536583969=="
+Content-Type: multipart/mixed; boundary="===============5222346376772992953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 28 Mar 2021 12:38:00 -0000
-Message-Id: <161693508093.4458.10388716196681090710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sun, 28 Mar 2021 12:41:43 -0000
+Message-Id: <161693530381.8317.983918492571050919@gitolite.kernel.org>
 
---===============1748279852536583969==
+--===============5222346376772992953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 78a626383e4f3bcec60fd2d1919b3f04c4d76eea
-    new: 305271ab4f54f9ae7b9080473d1699c9511ae235
+  - ref: refs/heads/char-misc-testing
+    old: 95e04eb04c68b8a9f71ff09abea1ed617a67a0a2
+    new: f20b2c2a07f88c9a7532578674a60e501a07b839
     log: |
-         e88231febb48f1b151596f597c61aba01863fb0f staging: rtl8723bs: put parentheses on macros with complex values in include/wifi.h
-         f87d0b34c535e32372a920889c1debac1323679e staging: rtl8723bs: remove macros updating unused fields in struct security_priv
-         777f9d9ba5c5e4db5d56bc525c015d7d411a9569 staging: rtl8723bs: remove unused fields in struct security_priv
-         c84b189cd284c57e13ae2b5239ba6b7291515809 staging: rtl8723bs: include macro in a do - while loop in core/rtw_security.c
-         305271ab4f54f9ae7b9080473d1699c9511ae235 staging: rtl8723bs: remove unused macros in include/drv_types.c
+         d0e874705ef9ec028f0de6f65e3781c6b10d3fa1 misc: sgi-xp: xp_main: make some symbols static
+         dbdc671d5c855f05125e3a002b819978ac2190b9 misc: genwqe: Rudimentary typo fixes
+         1114ab22e417427d8dced25be02c15f479de8d41 kgdbts: Switch to do_sys_openat2() for breakpoint testing
+         f20b2c2a07f88c9a7532578674a60e501a07b839 uacce: delete unneeded variable initialization
          
 
---===============1748279852536583969==
+--===============5222346376772992953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616935075 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1616935074-ff2778d063c40f2838147a2eaf347ef86b917aef
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616935298 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1616935297-4be0390661709989941f06f264c57be6d37332e7
 
-78a626383e4f3bcec60fd2d1919b3f04c4d76eea 305271ab4f54f9ae7b9080473d1699c9511ae235 refs/heads/staging-testing
+95e04eb04c68b8a9f71ff09abea1ed617a67a0a2 f20b2c2a07f88c9a7532578674a60e501a07b839 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBgeKMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2n4QAI/NrutI+cuYCxrSJ8Rc
-DbQ5LX03jtpm/rdn9nGHpa9OJMUGzER3d36UlFBOPbG8+RfDgBXMMzPd5t8uQVnP
-A7brufg8DRokdTY8JsOiGg7UMGBi+5/LsO2c629qxXtg6M1Y3Rk5WxrkiRzsrR4M
-560r54Xw1yxTmgMyuBMjkVX27zrrc8/X3YpLYCZL5NYb/b0Onm2hWcoMLjtWATB5
-3y0j0wgmK/vri0zP0qBKjR1UuZbmaXqNOG+rdEaK1IYdFu5KwhEVtxlkNOuJSICG
-m0DXseMC1XkjTxTB+tXw60rsvDlklj/fAervbTQCFuYRkWbmJ+vZdfq1rKQhMJQU
-rc0P6o5yk6n5OTfmuw/MY6f70/AJshwKeGt6MN7JGqdUhcwKnTKGfK+I6oHwStB/
-AnlNLnOp+pl7sVSWDBDUQz2Qqt0DolShhet4BVSn5tPaJJ7r060Hov05tStziXqE
-neTNyIcfZ87MtoQCLzWjO3oYduPUOrcnwXmShKpD8IJ37eRZM1rzQyShRjnDQU+0
-CETtKox0+MTBxAoODBTbOR6BD6NU9QxA1tL6Vyt5/xGyAcs5iex0HnuL5PaEQdyA
-9RqfLYpTheAA7UMvUSB7uup1wdpz3lPudsINHlEPYGVnhZ5U0/Nelkhw+mxEM0hg
-4abDV8iYbBs4L9s5+q/dHVrl
-=sUUf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBgeYIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pV4QAJ7NPHQY3GRpUpo3A5n8
+W6ij2w0w7F8agWYIA07+y75uTh/yw9kjGIslusdZ+dTQiORlM9X+wydSlCGpSK7r
+QF+Uu+EM/Pbfj+d/LvIOHoH7wa0mBlRN8YYL6oC7svB9UD9HOwI03YAKUk9Tencn
+EbS4dDXlI2P8lzvQfFjnCQD9G2UweT63m+FHKGXA6bIe7FWAZGHsaaNF22kfXHgq
+mvpHdWbGuUmOvw752PnLv9A2iwFVmrbOmMFQaKIFeE5bH/PR61mu5NmsUKbgbbiZ
+8/G21o5/zu4R9GbfaYN1d/DziTRXCc3YKkcHWPBtvVx8nqkeJ1w583Qv7NM4po40
+aKT4UKWwZv4irI97whYvUDBM9jL2Z8shjmIhqN2xgpS/zHgiRaTjKc26VKi84D1X
+Wfd4jOhW4ygVJOEjjG75IneVaUKHSziO/j47sNf2H45xKf1ak6RHTsKVIPi2Fwxg
+Zn6zj+K5NyP89YadbEhKkjheZFia/oN4mw/DSWgquMB+Ycbg6jHWyWc1mGqQuV8B
+u/xLxFtPBHtv6tYihEBZm0L90GT0pBBCnhh7BFTMyZPLs3ll89a3uJuX5zxU1CKH
++ec5w0mY/BQYItgWaftp5u+/llvtgZrkKkBbmct/dLeaUA/yOi3IJ3kngII+5v+F
+tRmta/hZPWZGgChoCodz1kRE
+=F5Uf
 -----END PGP SIGNATURE-----
 
---===============1748279852536583969==--
+--===============5222346376772992953==--
