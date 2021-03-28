@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4829514468848453345=="
+Content-Type: multipart/mixed; boundary="===============7555523909327475430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 28 Mar 2021 12:34:18 -0000
-Message-Id: <161693485850.1789.6798664127259934853@gitolite.kernel.org>
+Date: Sun, 28 Mar 2021 12:35:14 -0000
+Message-Id: <161693491435.3526.6459107287893809393@gitolite.kernel.org>
 
---===============4829514468848453345==
+--===============7555523909327475430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: a5bf1a101a19dbb38be7ffebe2650449e344c892
-    new: 2e2b93ac2e97a1b2308d38d4ea4bf715f491fcd8
+    old: 2e2b93ac2e97a1b2308d38d4ea4bf715f491fcd8
+    new: 7a151e9c0a74ff18b2aad16ae6ec931e40c1f148
     log: |
-         e3f480cf4ba65bb929798ffcfad37bd37d57c6eb staging: rtl8723bs: sdio_ops: removing unused variable
-         babb5b8e2b912d47b6d7d7b20d877cbcdd280458 staging: rtl8723bs: hal: remove unused variable in HalBtc8723b1Ant.c
-         2e2b93ac2e97a1b2308d38d4ea4bf715f491fcd8 staging: rtl8723bs: fix broken indentation
+         f632c6142779f3a85a7ab2d7d7890ad20db39494 Staging: rtl8723bs: remove obsolete comments
+         7a151e9c0a74ff18b2aad16ae6ec931e40c1f148 Staging: rtl8723bs: remove useless macros
          
 
---===============4829514468848453345==
+--===============7555523909327475430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616934852 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616934908 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1616934851-08dafbf1c853157705a1d457ef788b72f76976d8
+nonce 1616934907-31fa4f63cd0ec746e9ddb109b784b75ef98f28d3
 
-a5bf1a101a19dbb38be7ffebe2650449e344c892 2e2b93ac2e97a1b2308d38d4ea4bf715f491fcd8 refs/heads/staging-testing
+2e2b93ac2e97a1b2308d38d4ea4bf715f491fcd8 7a151e9c0a74ff18b2aad16ae6ec931e40c1f148 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBgd8QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yJUP/jsBZTqO5O6GnUkC90l7
-ZQqt6M7/1m5HZg/COh/1u2KSi/lXEpHdvGMUVF1umz5C5XAyEXuRXNKgLoIWEF1n
-SBv3mIyMDiXG6AjRB1Pl4dl4Hz7Yuutg6E4AKP1PTkUFmoic0iUfaTq793lw+/Bc
-LFdAiRv/PFmz03JvMx+K3X+1nFnZqnbGiAj9F6JvcOGdgwY1XwpGKfFL91eY/TfS
-8qzjIZh+QX8WUw1R7e7g+kMJCyHCihk/p3IulCea0Eb220zU+kKmKlyqvBN0L3DL
-WLuwQCWFi1N6RlyOdPKM1L26+B5bMGU0BextzUFEOUEKnapt0qoG9L+rOa9Dw3D4
-ECKaEb88Ij0Ur5hdp7ogl/xqfpH7aNDIwJ5/PWriC/iXMQ0KGbGVap55f8StwFzA
-MFmM6C/xKYjHygs0YqLM5VHfkr01Pnfd+0SkTngGRbrNVjygJGWUfb8xPGkQBJVK
-re9PX4m2gaLzYy2IEwKaSM8sVlg9BbgEpFQgRwArUXkdVj32yc5wyffNvGBIfNSg
-u3uq5IPrx8szzMLAgaP0xl3jl+37Z+Zb0ADw54Y4B+4WmcR06y0dhFqf0l0V2jYv
-qqlm9j82I5sx0TVNw0TWD2+hsUe8GtPzTGa9E37OTmfEVU9KMzhwDZArDlKQJQfX
-d6aWlIGAY+kkzO5g3Tajx4lM
-=RYr+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBgd/wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZjkQAJA2CtUPWAXmE6oCs7D5
+QiTrULWcY/esK17Ma7gTwwR5L8kU6/31cjJdwQr7pJ7ov1bJZHihI6j2DPzfuFqN
+XZns9Ro34pwV/2aNQUhP3E3v/EVNkM7ksqY1/mYJzR7pGED8e2irb+Z2MhB4O2oc
+liddx1DfaOHu3u/vDfMa6Uc3qCvedmk/zL2cgqoSwE9Z7FOJfy7TovhqhroLV6wk
+RaH4licLIZJ98iShVPA8YPU+RVEYmOFNRmzE6bSm72o3NL/jOrWiiHVYoBYdkRzk
+LvUY0MSdYhYnYHZ/5EWgTBtJf84P7yqXZTtwuaeRokloiCxN81j/0P3rsKtzlxCe
+r9dW+HA1PCCBfAvb8vYAPJmgihEwdMYfDuVm8lwU0O2eZ10zzN2CO0ZYIDwUHwk9
+F5N7rJA6vyq0TFF858qHwJVZM6kiefXGiYYgoY3JpBvlu7te7ceLhfroTE8kRIvG
++++/MtxOBp/dV3m+ZJS8C8HGipb9bE3IMHUJ6nXd75VJ5Tz5v2MjMXIX1nM+lYDR
+fZA65d98SpLhGwz6ZTJ3HEfQSZgbbaBYurF3RqG5kIzdYkn3maAXQBBDQmGO02ug
+N42shASPtV9Q3craGVLPj6xmwcLDPI9wXOnnTIawK2NHfj0y3HhyRUeZ7vaDHwcI
+YbzKDNK4+0SzCEUnjwrTsgrY
+=04hl
 -----END PGP SIGNATURE-----
 
---===============4829514468848453345==--
+--===============7555523909327475430==--
