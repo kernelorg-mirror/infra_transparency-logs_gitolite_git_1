@@ -1,88 +1,60 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Sun, 28 Mar 2021 11:42:04 -0000
-Message-Id: <161693172493.3710.3056679834343251205@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7276038274689143287=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 28 Mar 2021 11:43:27 -0000
+Message-Id: <161693180709.4228.5977949854367945234@gitolite.kernel.org>
+
+--===============7276038274689143287==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mbroz/linux
-user: mbroz
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/block-5.11-2020-12-23
-    old: 0000000000000000000000000000000000000000
-    new: 6afbd653e83cf5b4144e8c4c24e701bc2949c305
-  - ref: refs/tags/block-5.11-2021-01-01
-    old: 0000000000000000000000000000000000000000
-    new: 1b74853dc9d839a24971029292593e46bef5c753
-  - ref: refs/tags/block-5.11-2021-01-10
-    old: 0000000000000000000000000000000000000000
-    new: b3ad609c3bba6228851d3b82ebb5ea63ea606e60
-  - ref: refs/tags/block-5.11-2021-01-16
-    old: 0000000000000000000000000000000000000000
-    new: 7708a80bf01c65bdd39afa3f03cac53e0d93789d
-  - ref: refs/tags/block-5.11-2021-01-24
-    old: 0000000000000000000000000000000000000000
-    new: 2332cdf168e74ce23df1f75fbcf92175dd9a3892
-  - ref: refs/tags/block-5.11-2021-01-29
-    old: 0000000000000000000000000000000000000000
-    new: 87e06921d583fd6aa7459bb8df94cb91acb13ee7
-  - ref: refs/tags/block-5.11-2021-02-05
-    old: 0000000000000000000000000000000000000000
-    new: 8364c3dfb5f124ec855f918e735a77abfb35a8a6
-  - ref: refs/tags/for-5.11/dm-fixes-2
-    old: 0000000000000000000000000000000000000000
-    new: aa8380e9c5ebb7ae020a21c941a569720b349aeb
-  - ref: refs/tags/for-5.12/dm-changes
-    old: 0000000000000000000000000000000000000000
-    new: f12d530966ccb2525fc286295ec4d89b016b7d78
-  - ref: refs/tags/for-5.12/dm-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 8cfb7824cc9c308d7e2b94728d19bd00cd5e46f7
-  - ref: refs/tags/for-5.12/dm-fixes-2
-    old: 0000000000000000000000000000000000000000
-    new: d42743ea06a552d6c39f70e0adfe82059712fbc9
-  - ref: refs/tags/io_uring-5.11-2020-12-23
-    old: 0000000000000000000000000000000000000000
-    new: 81400b3cdbe21dfb72aff8158465368c190188c9
-  - ref: refs/tags/io_uring-5.11-2021-01-01
-    old: 0000000000000000000000000000000000000000
-    new: ee39b1a890d05701055d642ebbb1926dc5968660
-  - ref: refs/tags/io_uring-5.11-2021-01-10
-    old: 0000000000000000000000000000000000000000
-    new: 917290d9890266c6d59fc48cd68c0f48b2e76d19
-  - ref: refs/tags/io_uring-5.11-2021-01-16
-    old: 0000000000000000000000000000000000000000
-    new: 27e29f676a603f18b74b7f3b149377294e21884a
-  - ref: refs/tags/io_uring-5.11-2021-01-24
-    old: 0000000000000000000000000000000000000000
-    new: 315d6b6e9d3c8f74c6394d30edea4f067c8ed2b5
-  - ref: refs/tags/io_uring-5.11-2021-01-29
-    old: 0000000000000000000000000000000000000000
-    new: 5f337107c23931c02ad6f7b72c752377de045cdb
-  - ref: refs/tags/io_uring-5.11-2021-02-05
-    old: 0000000000000000000000000000000000000000
-    new: d9cd07a01001badbf1d40ea27a891966b0813bb9
-  - ref: refs/tags/io_uring-5.11-2021-02-12
-    old: 0000000000000000000000000000000000000000
-    new: 3fd1628ac99ffdfa3274594e409602ca463767f6
-  - ref: refs/tags/task_work-2021-01-19
-    old: 0000000000000000000000000000000000000000
-    new: a0123caed4cf22c839f856d516c9e126310675a0
-  - ref: refs/tags/tif-task_work.arch-2020-12-14
-    old: 0000000000000000000000000000000000000000
-    new: cb963c764f037caaea697f257bb9d114f05721b9
-  - ref: refs/tags/v5.12-rc1-dontuse
-    old: 0000000000000000000000000000000000000000
-    new: d1da37c58e65c4800cce768533c563fa3c89c62f
-  - ref: refs/tags/v5.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
-  - ref: refs/tags/v5.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: a6d574dee98b6bc676391ba747e348b7705732c0
-  - ref: refs/tags/v5.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
+  - ref: refs/heads/usb-testing
+    old: 38833cbda2c2bd2a0968e038248dda31af51d841
+    new: 016381f3c13671e934428da30e782c13d94aa5bd
+    log: |
+         52445887492ce9a4633f1548f85d6d75cef6437a dt-bindings: usb: mtk-xhci: add support wakeup for mt8183 and mt8192
+         275af512425cfa54850efc2d7d5b98dc00693af4 dt-bindings: usb: mtu3: support wakeup for mt8183 and mt8192
+         6144ef35ab11cab6037d575bacd09bd6c9253a52 usb: xhci-mtk: drop CONFIG_OF
+         cec96bc53a87955c5ff76f1220bd5a3b198f6d82 usb: xhci-mtk: remove MODULE_ALIAS
+         016381f3c13671e934428da30e782c13d94aa5bd arm64: dts: mt8183: update wakeup register offset
+         
+
+--===============7276038274689143287==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616931801 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1616931800-70d784a62012fc4b9002732dc5382ea8c0af0961
+
+38833cbda2c2bd2a0968e038248dda31af51d841 016381f3c13671e934428da30e782c13d94aa5bd refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBga9kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6j0QAJGUpmbkm1SyPn34kiGR
+y/1F2Z/iHsEJn/iQodacA/cFDB7xKhDnms/RqS8YEwNB2FfEohgwO2OnWHSqkb6q
+3z90GqPV2y/zBNnli/VY4CHaYG4l0tO9RY8xAKy6LU4yrPY08dnz5sGJLT0n1lyD
+sg61afn24hSch7i6UeA3BYJ3l7nP3fGzxJRjgjbI0zd7hkttT0OArYzZhYnActz7
+45NtALPEw/YmZPud7AvSnzkL86/ijR0YdTSu4v7Z+NvkBMkHV+Qpbl5tWF5zSyM8
+TxJEdxb9I07aA/zsgW+EafP6I81XMBH9wxzJN1wRToABsYAfJLOaOPF1r4You7vN
+SJL4eHCBf1iXuNCANpLxnRU8iiM0HKw/R2wnTPX7HsL8nvSJ1aOycr5ISyYXWa8H
++9SQpYCz77+7IdkrqnUTkEsTE6k/yDgqdltW40GFmiN2AFW18N6xLMvjQEGrahLQ
+cXRmdyDRWq17V/JpTscpfFsFih/H6II/kLvMs38AQFNnQJNMafULGfXueHsvojrH
+ojEixFtswGSiURAfUab7Efcnjm7FSHxc/gTCO1f0rt64p4dpzxcm4bCJntxgmI7B
+z2Fb6Csj7r6dOMuEV30wD2vuJLwRVzTr2g06R73hQY1YNtPghQUfo1k28DpzzEhJ
+76HjcNfM9ZQoeqseRc86BbO/
+=UeLd
+-----END PGP SIGNATURE-----
+
+--===============7276038274689143287==--
