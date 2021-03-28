@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Sun, 28 Mar 2021 17:35:02 -0000
-Message-Id: <161695290207.23839.89506863967900150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Sun, 28 Mar 2021 17:42:37 -0000
+Message-Id: <161695335775.29998.14128547083733274778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/nand/next
-    old: 25fefc88c71f47db0466570335e3f75f10952e7a
-    new: bd9c9fe2ad04546940f4a9979d679e62cae6aa51
+  - ref: refs/heads/erofs/bigpcluster
+    old: 27c2dd51009696dd2c0d88bb69b947218e59a6be
+    new: 4b730316b256c7e533bc183ac42eace2ad21fc7f
     log: |
-         bd9c9fe2ad04546940f4a9979d679e62cae6aa51 mtd: rawnand: bbt: Skip bad blocks when searching for the BBT in NAND
+         c3c08c448675f865701b32e9555519c80c3d5204 erofs: support parsing big pcluster compact indexes
+         4b730316b256c7e533bc183ac42eace2ad21fc7f erofs: support decompress big pcluster for lz4 backend
          
