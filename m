@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8210071834214063502=="
+Content-Type: multipart/mixed; boundary="===============8694814274301766839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 28 Mar 2021 12:55:03 -0000
-Message-Id: <161693610367.15973.8974740727455791520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sun, 28 Mar 2021 12:56:07 -0000
+Message-Id: <161693616719.16730.18075721816794884244@gitolite.kernel.org>
 
---===============8210071834214063502==
+--===============8694814274301766839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 40635128fee8c762b4b3e8ab805a15f01d60b859
-    new: 6880149e5a78962a055720981d37e5069f296ef7
+  - ref: refs/heads/driver-core-testing
+    old: ecdc996baf291b903342cc704f4086a88c361967
+    new: d225ef6fda7ce9ff7d28764bd1cceea2d0215e8b
     log: |
-         6880149e5a78962a055720981d37e5069f296ef7 applicom: fix some err codes returned by ac_ioctl
+         e611f8cd8717c8fe7d4229997e6cd029a1465253 driver core: Use unbound workqueue for deferred probes
+         d225ef6fda7ce9ff7d28764bd1cceea2d0215e8b base: dd: fix error return code of driver_sysfs_add()
          
 
---===============8210071834214063502==
+--===============8694814274301766839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616936098 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1616936097-84376ba192b88625f730615ab660a8dedaa46eee
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616936158 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1616936157-d0c3d5e6056649771e7386223edbade29241a4f4
 
-40635128fee8c762b4b3e8ab805a15f01d60b859 6880149e5a78962a055720981d37e5069f296ef7 refs/heads/char-misc-testing
+ecdc996baf291b903342cc704f4086a88c361967 d225ef6fda7ce9ff7d28764bd1cceea2d0215e8b refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBgfKIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tFcQAL0hKgPiU6Psi+fCRaGi
-BrP5Z/p74NFmFIAB/hTVTwlALcBogLkZu/4IVAeBwJh13hWsB75iwTh+tx3/K8y1
-nO9HhH6qhtnW4f5777tLWdBv6oTg/2H5nAFVrSINeOJEjhZIM56MaoFhKzH7YcN0
-bOgB5zGflQ+CVmHIW7wlleXzReBjcsisMA0rR07gqTg1yB85iCpuElk7eMLKLApE
-Thorf23p3cjfj2bbnIX4q9B2aBpScjXhmMhvpDn3z4C+GgPKFNIbGEe++frYbXaw
-x+Gtah+SGPXXH/sX6P1lpguHHGlnpUTaPA9fGSJ0M8LOjYth4NQYwuHD9oxhn+aZ
-ANE0YRuLghrY+0xE8PiSITgKwOpu43R8jKudIekhBIJ2VlysDP68u+Fm5W09Yb8T
-kCwPEq8Sj/3qwVnKrR2CAF/2iSn6WlCWaO+MXGdLqRACjp+RngvPQN7nTPFKabmb
-XT98XrwN5Tuda54I93yXBNYlc7q/WGEB+jIfu5OwSeOLsvZpoK2gq1dwaDN027c7
-9ZgqCZbp5uJrs5yQDY38ZgXcN/447SGQ+YhnwPNgPk3BHUeKXEnXcIVFdYMnGrJ6
-zKidtQ1QaCvlKkFy2HPWrMpKcINhESAaGAJ8XW17DmbHHOxZQ/wJQed7ESNsrMv2
-mFGyhulqcCLD8VQNGfqzZ54I
-=3ox2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBgfN4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4AQP/0Dsal0oSjdzqmR0oAB7
+WbRctfZTrBgqLuQEvWvHFYzOU3kSQk1tfuXQQaKeosEiNRdLIb4S6MzarsSJ1fOK
+5PkmB1oCq69yT3WM4cjjIyPgbFBEmbqxZbE+GEW/KwKwIyECFd7M8XwrJJ3HQovV
+vw0MkQbwR6OkOR/fqwd/NgF2V5Lbp3mtWkFBy60tx5UlmXIZ2EzWLtm2aHlDAr1Y
+RNn0OIDbAlNx7F9d0S5qaNnlJqMqrSaPmc2va9j8tiAOMhX3YIIyp1KjqJTFi14x
+eiNOQKts9yrp25ERz/23fqBRE2hWt6aMMfnar8rIrFmUKjhbkddZeODodRN+UJVb
+uMIwY+LZI2yfA8+hOz/1C8JXZVdqXruPVFA8ZJ4z28q2wn8vNmG1a4q4qmVhZtEj
+e9yFgS1dUwQMXTufnh0QccBTL3Bb0F11qHLk9DOsFYxTNwYyGq4enWutOqKelzz9
+cuoZEBLWkKplkTJbflrvHgpILuy9Ep9g/VHgYFb5YTKfqMWyTipr57lWIC4rLXxr
+cuN7/izw5gij0wab2dzu+7glSeWcq11tXgjWbeJ5MfTZEtc8hFm7bs3eWAKBGwWE
+d+lVrBKKnBM8XXnSJ/zP6OLqyhhDpGJlwvZ1oRYtm97uKnFHxEm8EOfD2iMZQtGw
+F50yVQL0MQ+EOX+hwlL4trRB
+=mA4D
 -----END PGP SIGNATURE-----
 
---===============8210071834214063502==--
+--===============8694814274301766839==--
