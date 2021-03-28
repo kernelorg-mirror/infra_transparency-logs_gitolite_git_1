@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5222346376772992953=="
+Content-Type: multipart/mixed; boundary="===============7353680156160175931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 28 Mar 2021 12:41:43 -0000
-Message-Id: <161693530381.8317.983918492571050919@gitolite.kernel.org>
+Date: Sun, 28 Mar 2021 12:42:06 -0000
+Message-Id: <161693532601.8556.18271381442099899530@gitolite.kernel.org>
 
---===============5222346376772992953==
+--===============7353680156160175931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 95e04eb04c68b8a9f71ff09abea1ed617a67a0a2
-    new: f20b2c2a07f88c9a7532578674a60e501a07b839
+    old: f20b2c2a07f88c9a7532578674a60e501a07b839
+    new: 40635128fee8c762b4b3e8ab805a15f01d60b859
     log: |
-         d0e874705ef9ec028f0de6f65e3781c6b10d3fa1 misc: sgi-xp: xp_main: make some symbols static
-         dbdc671d5c855f05125e3a002b819978ac2190b9 misc: genwqe: Rudimentary typo fixes
-         1114ab22e417427d8dced25be02c15f479de8d41 kgdbts: Switch to do_sys_openat2() for breakpoint testing
-         f20b2c2a07f88c9a7532578674a60e501a07b839 uacce: delete unneeded variable initialization
+         40635128fee8c762b4b3e8ab805a15f01d60b859 scripts/spdxcheck.py: Fix a typo
          
 
---===============5222346376772992953==
+--===============7353680156160175931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616935298 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616935321 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1616935297-4be0390661709989941f06f264c57be6d37332e7
+nonce 1616935320-32139964171f344b36d5853482bedfb3e58af454
 
-95e04eb04c68b8a9f71ff09abea1ed617a67a0a2 f20b2c2a07f88c9a7532578674a60e501a07b839 refs/heads/char-misc-testing
+f20b2c2a07f88c9a7532578674a60e501a07b839 40635128fee8c762b4b3e8ab805a15f01d60b859 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBgeYIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pV4QAJ7NPHQY3GRpUpo3A5n8
-W6ij2w0w7F8agWYIA07+y75uTh/yw9kjGIslusdZ+dTQiORlM9X+wydSlCGpSK7r
-QF+Uu+EM/Pbfj+d/LvIOHoH7wa0mBlRN8YYL6oC7svB9UD9HOwI03YAKUk9Tencn
-EbS4dDXlI2P8lzvQfFjnCQD9G2UweT63m+FHKGXA6bIe7FWAZGHsaaNF22kfXHgq
-mvpHdWbGuUmOvw752PnLv9A2iwFVmrbOmMFQaKIFeE5bH/PR61mu5NmsUKbgbbiZ
-8/G21o5/zu4R9GbfaYN1d/DziTRXCc3YKkcHWPBtvVx8nqkeJ1w583Qv7NM4po40
-aKT4UKWwZv4irI97whYvUDBM9jL2Z8shjmIhqN2xgpS/zHgiRaTjKc26VKi84D1X
-Wfd4jOhW4ygVJOEjjG75IneVaUKHSziO/j47sNf2H45xKf1ak6RHTsKVIPi2Fwxg
-Zn6zj+K5NyP89YadbEhKkjheZFia/oN4mw/DSWgquMB+Ycbg6jHWyWc1mGqQuV8B
-u/xLxFtPBHtv6tYihEBZm0L90GT0pBBCnhh7BFTMyZPLs3ll89a3uJuX5zxU1CKH
-+ec5w0mY/BQYItgWaftp5u+/llvtgZrkKkBbmct/dLeaUA/yOi3IJ3kngII+5v+F
-tRmta/hZPWZGgChoCodz1kRE
-=F5Uf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBgeZkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L1oP/1/wqoD2mngy1fqeqlu3
+bVQbzDCTLhuRcsqt2UuXOmpYXRCy4BVYOvnwLm0KHIuUoPrm75ML46ryK9hppXH3
+X7fWy9yxWDPyrsy0ofFZGRdgx1ZwjgVm9t0k0UJ7J5o4ph56YTMWd6Z3frFX1Vk3
+MNhjfV9Rkq0AeNN12oUgt/EbHB41AHl6CnQSMGEFD3r2fMvXBscTN6ol+sRkKsAy
+hD+Qrn7s/15B0EK109zXjQDTFUdvIUfWJPZ2WJGeZmon1QV/7Ilx/CvpI8elVXdr
+zAzpWRGmdu8AYyxBdpVxQDoO0BrfAHFIOKOt8+zFHDMN6dSsfUrJgwf+YgmzuV4f
+r0EytMREtMAy1YuRCC0InOVT/RWNJlXXa2/N6i7Sni6UWGe1diBcsk5sSCr6y/ZC
+ZkXz7BzSJcMODddyi0fTlVkEysBSCuTZejo+98Ht3y4vw1JrdB16zlHMV883035p
+JbOxpsBQBP0pQrMOqvD8S8NViYD00/+61VnzEs3dCXqVIeVPETyInYlLO2N8rB9W
+Glzq9KRJ1bbX/EvIFQoypsyYjyzvp1zEeR2s3J0ZI58RiCPHTszn26ZamGq2WX5s
+MoGzpq7LkJL8lFQuiqrw/d7dHOTKEAJc2nUGW7zbDVNoty147UuAMm8Xk1gVwoAZ
+h9U6OSaoJ8D5xrQ1mpYlF0EO
+=ROBM
 -----END PGP SIGNATURE-----
 
---===============5222346376772992953==--
+--===============7353680156160175931==--
