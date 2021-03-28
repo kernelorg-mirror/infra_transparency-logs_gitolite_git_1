@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Sun, 28 Mar 2021 22:39:38 -0000
-Message-Id: <161697117864.16078.14107987225492327226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 28 Mar 2021 22:50:54 -0000
+Message-Id: <161697185427.24586.11388309522784383147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
-user: brauner
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/idmapped_mounts_v12
-    old: 2f86f0fbc5617c7c95dfcde7566f5af8efd566fd
-    new: 25c11aaa10f9c561a0996ae98b42d46f619cc4b4
+  - ref: refs/heads/master
+    old: f9e2bb42cf0db3a624d295122db3475aa3e7ad18
+    new: a5e13c6df0e41702d2b2c77c8ad41677ebb065b3
     log: |
-         29057b80dac34d570480610f2757e8fdf5e87b1a generic/632: add fstests for idmapped mounts
-         a0c658003bda336f7c3e9d16541fd512ef277580 common/rc: add _scratch_{u}mount_idmapped() helpers
-         88c6973ca6b7022ad174b5ed3c6de8e8a3736bdc common/quota: move _qsetup() helper to common code
-         b1b2acef60f91dd2cb3836f891971caf6297b7fd xfs/529: quotas and idmapped mounts
-         25c11aaa10f9c561a0996ae98b42d46f619cc4b4 xfs/530: quotas on idmapped mounts
+         a5e13c6df0e41702d2b2c77c8ad41677ebb065b3 Linux 5.12-rc5
          
+  - ref: refs/tags/v5.12-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
