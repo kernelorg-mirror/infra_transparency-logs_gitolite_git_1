@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1093104621839054600=="
+Content-Type: multipart/mixed; boundary="===============6572407022969247849=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 28 Mar 2021 12:15:10 -0000
-Message-Id: <161693371003.24616.1177099445281092490@gitolite.kernel.org>
+Date: Sun, 28 Mar 2021 12:17:19 -0000
+Message-Id: <161693383977.25248.1433164553121974889@gitolite.kernel.org>
 
---===============1093104621839054600==
+--===============6572407022969247849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 8465df70e49c05f537607f81814c560ef37c8ca2
-    new: 9f299d3264c67a892af87337dbaa0bdd20830c0c
+    old: 9f299d3264c67a892af87337dbaa0bdd20830c0c
+    new: 211b4d42b70f1c1660feaa968dac0efc2a96ac4d
     log: |
-         9f299d3264c67a892af87337dbaa0bdd20830c0c dt-bindings: serial: stm32: Use 'type: object' instead of false for 'additionalProperties'
+         211b4d42b70f1c1660feaa968dac0efc2a96ac4d tty: fix memory leak in vc_deallocate
          
 
---===============1093104621839054600==
+--===============6572407022969247849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616933705 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616933834 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1616933703-8d91f276cf819d3b03b65804c61b44aeee2a5aac
+nonce 1616933833-0e0cc60bc44b2975c6984254bf4cf8692c1f625c
 
-8465df70e49c05f537607f81814c560ef37c8ca2 9f299d3264c67a892af87337dbaa0bdd20830c0c refs/heads/tty-testing
+9f299d3264c67a892af87337dbaa0bdd20830c0c 211b4d42b70f1c1660feaa968dac0efc2a96ac4d refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBgc0kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PegP/RKgMnojBwY5XuzPjqnx
-TEnuZy26mjwJOQN/akmi4z28TGaGwKPi7vw28Rs/+VAMzYpr59b9wn7/Adjw/w0n
-NsQpwWFBJFztOuyd3fmnofFVADW+zEwzA/yb2qq/IDnPS2h+ZvQhm1N8U+gDyvz0
-zTTr++FXS3YOk0XidNqHYR2keGyIWoEFaH9gGUl5zJyw4e87m1dYGeU6KKZtmk4T
-X4naLSglGDAW8J5fPboNPjfntcvYsoLH2yh6ukd8wC0fA9a15PYaGJwtbQjKrVZ9
-46JeT5CRuAFZcP3+9cyauNnNhJEtM09uHoGK02tU6laFY4YzOlDs9zrrLRT3Bls5
-vINS774Hb3/UEkAB250TAWQDd6Ua5pMQ7mLA2NfkBpxUHJsi7FKjlcRxO09z+AVE
-Mm1kbhwD7Q2Q3UQi4BqxaH0njPvoGGNsxnmqFVB+otb56CKWW2r3z2gY3dHRvlyW
-+Pd/exeES8bYJUo8TY7BI4FlvBtmrMzvNjCI0NmcSO5TrlfvIn2V0qleWkasRVdM
-sepQdYz3s8ef4anVxLgL9RLSLeGMM4jpUOaJjmIIGNN4xbN5Hf/7DZBUfZLpVNnE
-l1flR4Tdx2MH1iXDKIp/4khTFdz120TYqKXOZjnW7va5N0LDZaJj3LQRXx4IUrZ3
-7WocO8YESFrdqBbnImXREcdW
-=9Vka
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBgc8obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cM0P/1t/gV/zUKZ4m/lae7NP
+mWbxLMtdz2IpYPAxyPP6o3qGQLApg3J0oSFKHT1QzxkFRk4oqnqyFh91DylzZL5D
+fNqMrGkJsxJg9oK7UbUU8qBETCMlVO4MCyS7PYuCMqVFMgY9o2UslHqaTYsrIwab
+QXcQzfOmbwEiWXh1Se0IzL76oFrltntyEbmRQTUJ77yAE51qgrHrsTfdrzcmgpPN
+CQd9JkxS6ZWTmRK2KPZXRurgxyB0CEOqvo8WLHxosU1ZSNvIUPDn+W4qywEpWfVG
+yodyEOwE8vGg9LjThGnT4vJoriDtaGBnf3rAQS/p27m/apumP3ayRNyaoUNwKK+m
+vRQhXHQubo3RHSexkTMP2mEA4la4toQTRfKfT+NdfzOK6pkO3XzKLmN6FOG9QfBq
+pZQVThC5vmv4gqQxXIy3KPJc8UGtth2Dg7doR0PJmrXRGYWH5zpNf9t+wrA7tb0s
+uv14KasAOjNbjl9/F6sCJFvyyjSSzlt8hyuxee9d1e7a25z9c9T2qoamHRfgkCdw
+AJ4pK7873VwzftymkijnKdySkt4LLj0/YUdQIA8uI2YZeykvjAwV3bb6cb0b4RoZ
+3MBB3khIgt68g6ODPq7NwdWJP8d9JX0lJKtbpAct2CyGLZNzq51UR+eoBElOM+w3
+7WOQL/br/K8UwYHxevFXL7YA
+=5pUp
 -----END PGP SIGNATURE-----
 
---===============1093104621839054600==--
+--===============6572407022969247849==--
