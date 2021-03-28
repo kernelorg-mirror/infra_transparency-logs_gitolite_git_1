@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6572407022969247849=="
+Content-Type: multipart/mixed; boundary="===============4829514468848453345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 28 Mar 2021 12:17:19 -0000
-Message-Id: <161693383977.25248.1433164553121974889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 28 Mar 2021 12:34:18 -0000
+Message-Id: <161693485850.1789.6798664127259934853@gitolite.kernel.org>
 
---===============6572407022969247849==
+--===============4829514468848453345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 9f299d3264c67a892af87337dbaa0bdd20830c0c
-    new: 211b4d42b70f1c1660feaa968dac0efc2a96ac4d
+  - ref: refs/heads/staging-testing
+    old: a5bf1a101a19dbb38be7ffebe2650449e344c892
+    new: 2e2b93ac2e97a1b2308d38d4ea4bf715f491fcd8
     log: |
-         211b4d42b70f1c1660feaa968dac0efc2a96ac4d tty: fix memory leak in vc_deallocate
+         e3f480cf4ba65bb929798ffcfad37bd37d57c6eb staging: rtl8723bs: sdio_ops: removing unused variable
+         babb5b8e2b912d47b6d7d7b20d877cbcdd280458 staging: rtl8723bs: hal: remove unused variable in HalBtc8723b1Ant.c
+         2e2b93ac2e97a1b2308d38d4ea4bf715f491fcd8 staging: rtl8723bs: fix broken indentation
          
 
---===============6572407022969247849==
+--===============4829514468848453345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616933834 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1616933833-0e0cc60bc44b2975c6984254bf4cf8692c1f625c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1616934852 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1616934851-08dafbf1c853157705a1d457ef788b72f76976d8
 
-9f299d3264c67a892af87337dbaa0bdd20830c0c 211b4d42b70f1c1660feaa968dac0efc2a96ac4d refs/heads/tty-testing
+a5bf1a101a19dbb38be7ffebe2650449e344c892 2e2b93ac2e97a1b2308d38d4ea4bf715f491fcd8 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBgc8obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cM0P/1t/gV/zUKZ4m/lae7NP
-mWbxLMtdz2IpYPAxyPP6o3qGQLApg3J0oSFKHT1QzxkFRk4oqnqyFh91DylzZL5D
-fNqMrGkJsxJg9oK7UbUU8qBETCMlVO4MCyS7PYuCMqVFMgY9o2UslHqaTYsrIwab
-QXcQzfOmbwEiWXh1Se0IzL76oFrltntyEbmRQTUJ77yAE51qgrHrsTfdrzcmgpPN
-CQd9JkxS6ZWTmRK2KPZXRurgxyB0CEOqvo8WLHxosU1ZSNvIUPDn+W4qywEpWfVG
-yodyEOwE8vGg9LjThGnT4vJoriDtaGBnf3rAQS/p27m/apumP3ayRNyaoUNwKK+m
-vRQhXHQubo3RHSexkTMP2mEA4la4toQTRfKfT+NdfzOK6pkO3XzKLmN6FOG9QfBq
-pZQVThC5vmv4gqQxXIy3KPJc8UGtth2Dg7doR0PJmrXRGYWH5zpNf9t+wrA7tb0s
-uv14KasAOjNbjl9/F6sCJFvyyjSSzlt8hyuxee9d1e7a25z9c9T2qoamHRfgkCdw
-AJ4pK7873VwzftymkijnKdySkt4LLj0/YUdQIA8uI2YZeykvjAwV3bb6cb0b4RoZ
-3MBB3khIgt68g6ODPq7NwdWJP8d9JX0lJKtbpAct2CyGLZNzq51UR+eoBElOM+w3
-7WOQL/br/K8UwYHxevFXL7YA
-=5pUp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBgd8QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yJUP/jsBZTqO5O6GnUkC90l7
+ZQqt6M7/1m5HZg/COh/1u2KSi/lXEpHdvGMUVF1umz5C5XAyEXuRXNKgLoIWEF1n
+SBv3mIyMDiXG6AjRB1Pl4dl4Hz7Yuutg6E4AKP1PTkUFmoic0iUfaTq793lw+/Bc
+LFdAiRv/PFmz03JvMx+K3X+1nFnZqnbGiAj9F6JvcOGdgwY1XwpGKfFL91eY/TfS
+8qzjIZh+QX8WUw1R7e7g+kMJCyHCihk/p3IulCea0Eb220zU+kKmKlyqvBN0L3DL
+WLuwQCWFi1N6RlyOdPKM1L26+B5bMGU0BextzUFEOUEKnapt0qoG9L+rOa9Dw3D4
+ECKaEb88Ij0Ur5hdp7ogl/xqfpH7aNDIwJ5/PWriC/iXMQ0KGbGVap55f8StwFzA
+MFmM6C/xKYjHygs0YqLM5VHfkr01Pnfd+0SkTngGRbrNVjygJGWUfb8xPGkQBJVK
+re9PX4m2gaLzYy2IEwKaSM8sVlg9BbgEpFQgRwArUXkdVj32yc5wyffNvGBIfNSg
+u3uq5IPrx8szzMLAgaP0xl3jl+37Z+Zb0ADw54Y4B+4WmcR06y0dhFqf0l0V2jYv
+qqlm9j82I5sx0TVNw0TWD2+hsUe8GtPzTGa9E37OTmfEVU9KMzhwDZArDlKQJQfX
+d6aWlIGAY+kkzO5g3Tajx4lM
+=RYr+
 -----END PGP SIGNATURE-----
 
---===============6572407022969247849==--
+--===============4829514468848453345==--
