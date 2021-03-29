@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2119251939130439091=="
+Content-Type: multipart/mixed; boundary="===============1027385736625072848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 29 Mar 2021 08:56:39 -0000
-Message-Id: <161700819911.7616.15147353912912282818@gitolite.kernel.org>
+Date: Mon, 29 Mar 2021 08:57:12 -0000
+Message-Id: <161700823258.7849.16866353815668138350@gitolite.kernel.org>
 
---===============2119251939130439091==
+--===============1027385736625072848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: f2e7e4bf38fd95aa8c0fdb8b2ad4104a9fc96d64
-    new: 152ec0d0d0e1643cd6392b691c3dd6d1fb0fe391
-    log: |
-         152ec0d0d0e1643cd6392b691c3dd6d1fb0fe391 m68k: defconfig: Update defconfigs for v5.12-rc1
-         
-  - ref: refs/heads/for-v5.13
-    old: f2e7e4bf38fd95aa8c0fdb8b2ad4104a9fc96d64
-    new: 152ec0d0d0e1643cd6392b691c3dd6d1fb0fe391
-    log: |
-         152ec0d0d0e1643cd6392b691c3dd6d1fb0fe391 m68k: defconfig: Update defconfigs for v5.12-rc1
-         
-  - ref: refs/heads/master
-    old: 611c7df4a24ea84bfe4bf1ecb7d090889f990143
-    new: 2eb05a181bda0875199521407134f6b98109d0a9
-    log: revlist-611c7df4a24e-2eb05a181bda.txt
+  - ref: refs/heads/m68k-queue
+    old: 90876e359e2f71b0a401bbb8950944afc823bdf9
+    new: 32b06d2b83993b1146cae6c176724b4c3495d4b8
+    log: revlist-90876e359e2f-32b06d2b8399.txt
 
---===============2119251939130439091==
+--===============1027385736625072848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-611c7df4a24e-2eb05a181bda.txt
+Content-Disposition: attachment; filename=revlist-90876e359e2f-32b06d2b8399.txt
 
 7d7275b3e866cf8092bd12553ec53ba26864f7bb bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
 9bbce32a20d6a72c767a7f85fd6127babd1410ac ARM: dts: am33xx: add aliases for mmc interfaces
@@ -452,6 +440,10 @@ b44d1ddcf835b39a8dc14276d770074deaed297c Merge tag 'io_uring-5.12-2021-03-27' of
 3fef15f872eec8292d4e53e307c1d17530fb16ba Merge tag 'auxdisplay-for-linus-v5.12-rc6' of git://github.com/ojeda/linux
 f9e2bb42cf0db3a624d295122db3475aa3e7ad18 Merge tag 'perf-tools-fixes-for-v5.12-2020-03-28' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 a5e13c6df0e41702d2b2c77c8ad41677ebb065b3 Linux 5.12-rc5
-2eb05a181bda0875199521407134f6b98109d0a9 Merge tag 'v5.12-rc5'
+3d4687569613dc817b7702291e4b0d0e7e61b5cf m68k: syscalls: switch to generic syscalltbl.sh
+7b691e671017c8afb4a102878a919e273544d27f m68k: syscalls: switch to generic syscallhdr.sh
+ea0e8546091d489bb8b8c5f6880824db84eb91be m68k: atari: usb: Add ISP1160 USB host controller support
+8b5af185fb5d0b10e4bca0b7319ef6216d753fb2 m68k: atari: Update Kconfig.bus help text
+32b06d2b83993b1146cae6c176724b4c3495d4b8 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2119251939130439091==--
+--===============1027385736625072848==--
