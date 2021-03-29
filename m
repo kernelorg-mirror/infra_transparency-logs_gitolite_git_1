@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3802810838010281583=="
+Content-Type: multipart/mixed; boundary="===============5929517538348663259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 29 Mar 2021 06:57:46 -0000
-Message-Id: <161700106629.27345.12468007640186218030@gitolite.kernel.org>
+Date: Mon, 29 Mar 2021 06:57:59 -0000
+Message-Id: <161700107921.27497.12068827103050645359@gitolite.kernel.org>
 
---===============3802810838010281583==
+--===============5929517538348663259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,80 +16,105 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: c4a83ef21f40e89509a849e674d87a5741f60eb4
-    new: 72f74c537c2e9ab6d6cb0b582025e18571cde3c8
-    log: revlist-c4a83ef21f40-72f74c537c2e.txt
+  - ref: refs/heads/linux-4.14.y
+    old: aaaf04029b8104334aff982c80c3b5659be1f192
+    new: fc4f40c99a419b864b413b877fd8fc5a492ce058
+    log: revlist-aaaf04029b81-fc4f40c99a41.txt
 
---===============3802810838010281583==
+--===============5929517538348663259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617001064 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617001076 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1617001060-6153fe4b7b52316a7c88628185b6ccbde4d42210
+nonce 1617001064-96013b400d67bcce8b711faafc6ebb9a473a0c89
 
-c4a83ef21f40e89509a849e674d87a5741f60eb4 72f74c537c2e9ab6d6cb0b582025e18571cde3c8 refs/heads/linux-4.4.y
+aaaf04029b8104334aff982c80c3b5659be1f192 fc4f40c99a419b864b413b877fd8fc5a492ce058 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBhemgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kkwQALUR4AySjRVlpz8K3CXg
-cMuCTo+ANhEW+PI6vbzSaBPXRp+ZE9bDV5qO1StSRkhlKfu6/tmQjaNdkZLRD4Cg
-ZWo2/nuuGXzTsyyqjB1Kql/JTOtDO2HYM72EZlvpc0DocdMBTSOaKaDDv6ymBzvK
-P4N+gtwtqjz9iJUIZ9QwXaVS6P0wO94g/5m5h2HHTA1gdpH/PaRw06RRrGs8BrYt
-h4WuK93wleItIzkeSpx1B3LOcBjqNevUGCGhq63iMetvMRmU5mxFJycSUv5Hwch8
-EAdGLDP8tpjixY65ipAXU+Pr5QdNTlnVPcovyksRdTzYnm8lr9gm0V3cT0pJO0e3
-40VZyryyAt3O24GPHY0lHHrLIO2oHxe+y69seDvwEWVIYHdYprkZgwEnVpoOhf/a
-Q/UPvi2CiQDh9uOEtIsvRDsUfyvcDUzWf5Gr6eQFAeAx3gQfWkDD5s9/vXktv6lC
-sk4Y0nYAFaeqvByudZQACxsrh6m8MAE+NF2gtLmhSGS9MNdVk+tKQ4mNz6HpBQPf
-jLJemtBb0PyzBl9dadbIO3T8us5bm1AnEc0Jj8RVaW5El9soSZq89jrDCeWrSBn1
-L0VZmEDsTHPfupGbh3/4X9O1VbnKMo2qFv0QUFsG9btAfnTA5qoA2rKAi7fC6ly6
-p2mYOi6DYAgKdQCV187SJ/z5
-=V59g
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBhenQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tyYP/RbfkzHWQKfFDPZ0VfD4
++yn2W5SmeVRJdUkn7IB8UAJhjJflahoVtKxiT6GCuADZ/SOg5N27U5Teirixtkc6
+6QkK8KBpGetr7YmVVwjD4cbtUS8t0tj2OpcSMOdUMFnH5EpVM++qk/QpUNdA+5kp
+m4xYxd0nya0XleQHziUKdaWSqHKDdtgvMDIO2iO/yaMFYyQ/1XfWbx8ytRA03ryZ
+iJAoI3uoy8CCkdUCCJlOm2e84gPafwi2v57CgwpsVbShfqnts0m+fbwoe5L/pZCt
+sXyumAHJE6cAKoyXUXNgWLBL6zQ8YEyYe/0zVKIpXYLRhomo7Qm0rah8ni3Bu1np
+yezNN7mGDmQuKjJrHI20syQzoLQj8N0C4vyBIGqckT09j+B9P14nGuE0QZZN6f89
+f4vsTSewfpzBQiM+QxeLOEPP7RTy7JMg0YWsBy4BZkfb9POF2DqnZyd9nY9mpNgd
+y2VkSZxSmxGLcwO6jF4udi9HIGUo/eP07kTyp1u/mDsDGmnwSxhmeJLsW8qOtCo1
+OjgXkjJXQ3prjdfeRGT+phWYlEgoU1IwO8v+6bqY5nOojsePbzy2eCGQwNCU1/RO
+z3h2TMWtOOslgmFYzF1BpWtpukwTfTLpkdqeVk7zW39p5LwTz2AcVtrvfPgiNyBR
+SF04mwJAAuZoKrRO8M3135Zf
+=VOye
 -----END PGP SIGNATURE-----
 
---===============3802810838010281583==
+--===============5929517538348663259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4a83ef21f40-72f74c537c2e.txt
+Content-Disposition: attachment; filename=revlist-aaaf04029b81-fc4f40c99a41.txt
 
-094342f5b8b5fbbdc3fc6e8f4fddef4923a03087 net: fec: ptp: avoid register access when ipg clock is disabled
-7bc8721a503c9dfeb483b421c7d19eded9144ade powerpc/4xx: Fix build errors from mfdcr()
-6b0df629ba1f70ffd28e308204283a6968204f66 atm: eni: dont release is never initialized
-c23e0f1ee0db62638252ed306b23485c61a5b049 atm: lanai: dont run lanai_dev_close if not open
-8bf15b25e9a2acd82b52d8c9677eaecd89393a7b net: tehuti: fix error return code in bdx_probe()
-b31aaf5c492ad6e9027e0a7ddc9343fc54ac4603 sun/niu: fix wrong RXMAC_BC_FRM_CNT_COUNT count
-bf434bc9a09431984f21f7eab0a007ebb168e04f nfs: fix PNFS_FLEXFILE_LAYOUT Kconfig default
-83176a6848d6b17b2de1385d85101518ba6fb405 NFS: Correct size calculation for create reply length
-a5c0353a15a95ccd93537a67049db1f626830fc6 atm: uPD98402: fix incorrect allocation
-dfe96294f3bf3faf8e90396eb4db0a1a5df02a07 atm: idt77252: fix null-ptr-dereference
-a4d811067735f74be4ea5d6225a4b9a066e56126 u64_stats,lockdep: Fix u64_stats_init() vs lockdep
-f0e3455945aa54e459a56810ebf6a9727dfa0989 nfs: we don't support removing system.nfs4_acl
-50de8d9ff40cad7dd0af2baefaf8553e254ba58a ia64: fix ia64_syscall_get_set_arguments() for break-based syscalls
-2754271a8031d506a205a582d9f1f4f8afa52029 ia64: fix ptrace(PTRACE_SYSCALL_INFO_EXIT) sign
-93930ea4ab6d4b726a65e27945208eb821328989 x86/tlb: Flush global mappings when KAISER is disabled
-3704ec7227b42516706c858af5e907f2efdad648 squashfs: fix inode lookup sanity checks
-9ed620486ea1e3d8a4bc5bc1d27c1c9c5fe5d3ae squashfs: fix xattr id and id lookup sanity checks
-f8d4d5611acb4edb2f6ae6d840a7b2e1c09a7dc7 bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
-0e1eab68a78e41cbd0777580e256ffadd6d158b7 macvlan: macvlan_count_rx() needs to be aware of preemption
-d8616d0e2d2ce1c67ac9727f5902fd957168361b net: dsa: bcm_sf2: Qualify phydev->dev_flags based on port
-7b7764c089b28c6ffb1a8aca9e6d55ccdd71d096 e1000e: add rtnl_lock() to e1000_reset_task
-694f11a6371c78207af8551e7512b62f9e0850f6 e1000e: Fix error handling in e1000_set_d0_lplu_state_82571
-8da953496473ea3e01620f81d62b9c31a9639b2d net/qlcnic: Fix a use after free in qlcnic_83xx_get_minidump_template
-1a2d9bd29f8b7c3e11af458b3e57482696ac5df0 can: c_can_pci: c_can_pci_remove(): fix use-after-free
-05617b02870778ca5dac79c2460566963bf13ba3 can: c_can: move runtime PM enable/disable to c_can_platform
-b0b7d3da59381ab71ca8f24c990ab25de8f6032c can: m_can: m_can_do_rx_poll(): fix extraneous msg loss warning
-03bf816e079c61186e940230fe7a42c2c29662ec mac80211: fix rate mask reset
-72fc1648cd7813909e13bd0ba8cc534955fb7dc2 net: cdc-phonet: fix data-interface release on probe failure
-98c3dcba77aa2cfaa81886a9eccff1c2bbbc49e2 RDMA/cxgb4: Fix adapter LE hash errors while destroying ipv6 listening server
-914162cab9fe2e3316b13a6ef3655531e4c65e22 perf auxtrace: Fix auxtrace queue conflict
-9b960824e29f9e91904e5627c1a55a19072d58be can: dev: Move device back to init netns on owning netns delete
-809a576e19ea5cffa303e5263851493d57445961 net: sched: validate stab values
-2c5565caff694431cb8ba52f346ac6ad6642b172 mac80211: fix double free in ibss_leave
-72f74c537c2e9ab6d6cb0b582025e18571cde3c8 Linux 4.4.264-rc1
+6afd67b092dc8471f6ad8e1a2b696833dd5b2d57 net: fec: ptp: avoid register access when ipg clock is disabled
+a57b1b0c226ed7dc8750ea73f9f16f5d061d1259 powerpc/4xx: Fix build errors from mfdcr()
+bd1f0ecbcd36a219769de40aaa7e3490504d6cfe atm: eni: dont release is never initialized
+800454af8713000b066d641f66312d4f9dc60355 atm: lanai: dont run lanai_dev_close if not open
+50bf48485e7bdca28b39396d393137b5e0b79249 Revert "r8152: adjust the settings about MAC clock speed down for RTL8153"
+e943b397d26419f4231f0c1936ecd3ac4ae9e282 ixgbe: Fix memleak in ixgbe_configure_clsu32
+71d51b46d71dd483699358f7c19f602c06aee926 net: tehuti: fix error return code in bdx_probe()
+66c6b3a1a2d14034bfe7de1409ec1ed2acd351a2 sun/niu: fix wrong RXMAC_BC_FRM_CNT_COUNT count
+6d6f3978c581dba02d4c5c275a194b55a53b05c2 gpiolib: acpi: Add missing IRQF_ONESHOT
+174dc00127014d681005c5f049c48ebbe2f8c5e5 nfs: fix PNFS_FLEXFILE_LAYOUT Kconfig default
+eb7d0a43246f4c673924002e6fdc9d348997a8eb NFS: Correct size calculation for create reply length
+813c49db1dc449e70f4c28326dc90ce700d3483c net: hisilicon: hns: fix error return code of hns_nic_clear_all_rx_fetch()
+750d8511c05065bb130068a0b2468b913c698e73 net: wan: fix error return code of uhdlc_init()
+8cdf06b039c6975f68fb2cfe567e8237513050d0 atm: uPD98402: fix incorrect allocation
+4941b9c411989725728c9ddb82ba67f5bab3ad77 atm: idt77252: fix null-ptr-dereference
+6107380fffe58fe15dba85facfedb046f6189161 sparc64: Fix opcode filtering in handling of no fault loads
+8f58a872500f1ca4e96cfe320476bcf344f3c6d5 u64_stats,lockdep: Fix u64_stats_init() vs lockdep
+e6175088ef149f984bfadd583f41bf569406e0cc drm/radeon: fix AGP dependency
+58755a8e5849bf8cb0f8e60303fc1d6be8224111 nfs: we don't support removing system.nfs4_acl
+0369f451b37bc81e38dda2dc442172f6fd4b4a29 ia64: fix ia64_syscall_get_set_arguments() for break-based syscalls
+937d7617426ba64a75bee214fa7873d67f309194 ia64: fix ptrace(PTRACE_SYSCALL_INFO_EXIT) sign
+436ff527cabe5fae8caa62ebba1e7c6fe1340052 squashfs: fix inode lookup sanity checks
+f377a2c5a4b5fae92c1ba0a8a6e24155f63c3dae squashfs: fix xattr id and id lookup sanity checks
+4915e6b43520f0d745dbb19adf41f2faa7e732ff arm64: dts: ls1046a: mark crypto engine dma coherent
+b4335a2d395fc05f1de4e3eedd2354a30507281f arm64: dts: ls1012a: mark crypto engine dma coherent
+2d567e2f5d9ceec745c1b448025e07912065aab7 arm64: dts: ls1043a: mark crypto engine dma coherent
+9b55ab3f19bb6cd9861a60a1e14a87a831252d2f ARM: dts: at91-sama5d27_som1: fix phy address to 7
+4c9cf776a70ae4a96e89823046a38613eca593fb dm ioctl: fix out of bounds array access when no devices
+9f5eb5924909aadadee201c755e653205c210326 bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
+b5b52c9d05892a7a9ecf440a5aa36342cb3810c8 libbpf: Fix INSTALL flag order
+fab94ff7f5912eb4535d7dec8400cc6397d4e5b5 macvlan: macvlan_count_rx() needs to be aware of preemption
+9ffe8d4b7e70b972f1d0ba0d1fcf1b28b4c1a48d net: dsa: bcm_sf2: Qualify phydev->dev_flags based on port
+07a202da70e1d810d84714c37d5bb17156b9cc63 e1000e: add rtnl_lock() to e1000_reset_task
+fea9f3da2ae723ee6aa189f2f5c72b0210a9d184 e1000e: Fix error handling in e1000_set_d0_lplu_state_82571
+10ddcf20eb8be7f63112d384bd8023457e1a86c1 net/qlcnic: Fix a use after free in qlcnic_83xx_get_minidump_template
+1ed159fd9a09ecfbc1ca3bd5544a63936bb3d936 ftgmac100: Restart MAC HW once
+a3f19407905ce1381af013fc3cc27fcdeee3609b can: peak_usb: add forgotten supported devices
+50a1a4eb081e44478441c328d193bbd125bb37ce can: c_can_pci: c_can_pci_remove(): fix use-after-free
+f16abd6980265e23c1986d1b9e3df77a433f9481 can: c_can: move runtime PM enable/disable to c_can_platform
+ec64b95a125d6fe4046be4a8395a969f7b2c5a0d can: m_can: m_can_do_rx_poll(): fix extraneous msg loss warning
+f902bce0dceb804e729da02a0a0efad3c38da272 mac80211: fix rate mask reset
+08d91f2610e349aef8c79ed5733b1746c68bcd75 net: cdc-phonet: fix data-interface release on probe failure
+ae8177d9dd483c40e45b935fee03d00fc756acbf net: stmmac: dwmac-sun8i: Provide TX and RX fifo sizes
+352f3bb0d888ee036a4e09f716685b0872ff5e28 drm/msm: fix shutdown hook in case GPU components failed to bind
+230adbafdbd92a8949824eeef7e706c3bdd5da6f arm64: kdump: update ppos when reading elfcorehdr
+c7a36bb18025b9b0ed3515ae529038c8c135f221 net/mlx5e: Fix error path for ethtool set-priv-flag
+cf458367f63d4f50be14c146e54af06f9001d2a4 RDMA/cxgb4: Fix adapter LE hash errors while destroying ipv6 listening server
+1828bbf5bf3220813931ab07b86c9e51909dbb83 ACPI: scan: Rearrange memory allocation in acpi_device_add()
+2ebf9798a854c29a825914c8124bfb88a53606ea ACPI: scan: Use unique number for instance_no
+768f621b6895ac67a2719d59d65d87ab5b47cba2 perf auxtrace: Fix auxtrace queue conflict
+53ef4a573585e60a16384b23f380f242c48d3914 scsi: qedi: Fix error return code of qedi_alloc_global_queues()
+70aa81557477823433a25cb50a393b76995c016c scsi: mpt3sas: Fix error return code of mpt3sas_base_attach()
+ef4857da72aa61c0b0fcbd1f046b8aa342df26f2 locking/mutex: Fix non debug version of mutex_lock_io_nested()
+9bc695bde041eccc99d176adec018cd7eac269ec can: dev: Move device back to init netns on owning netns delete
+58b7856c1026ab8e04e96a5fc1ee7cfff5ebadb5 net: sched: validate stab values
+d5aa184879c685062b1f1b5c442ae4344eb31403 net: qrtr: fix a kernel-infoleak in qrtr_recvmsg()
+53320109eda94c7e45e8e7798a6ba4398de8671d mac80211: fix double free in ibss_leave
+5dda7994e33664031739b1f20e005bb267c377a2 ext4: add reclaim checks to xattr code
+fc4f40c99a419b864b413b877fd8fc5a492ce058 Linux 4.14.228-rc1
 
---===============3802810838010281583==--
+--===============5929517538348663259==--
