@@ -1,49 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============4304721624860022772=="
+Content-Type: multipart/mixed; boundary="===============2769557081324391049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 29 Mar 2021 00:34:24 -0000
-Message-Id: <161697806498.20333.8633974745189594999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Mon, 29 Mar 2021 00:44:21 -0000
+Message-Id: <161697866176.27173.17535057321595386525@gitolite.kernel.org>
 
---===============4304721624860022772==
+--===============2769557081324391049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/master
-    old: a1281601f88e924a2e8c7572065d3e9fecf3c3fb
-    new: a7fd0e6d758f0f29268438287ecf7873c069a3ae
-    log: revlist-a1281601f88e-a7fd0e6d758f.txt
+  - ref: refs/heads/linux-4.19.y-cip
+    old: 0e469137cd784e952b10670400ce2b9143741fd2
+    new: 9701ebc154a80d8752b3fa4a81a19b467168203a
+    log: revlist-0e469137cd78-9701ebc154a8.txt
 
---===============4304721624860022772==
+--===============2769557081324391049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1281601f88e-a7fd0e6d758f.txt
+Content-Disposition: attachment; filename=revlist-0e469137cd78-9701ebc154a8.txt
 
-8406d38fde5c3a2d3182b30f9a3b457aa79949e4 af_x25.c: Fix a spello
-e919ee389c18c04c2eb9d4b0fdbc9b52545cce37 bearer.h: Spellos fixed
-a66e04ce0e01ec8be981a583ae200ac1f0dbd736 ipv4: ip_output.c: Couple of typo fixes
-e5ca43e82d91212e24686fafca118f25cf985bfb ipv4: tcp_lp.c: Couple of typo fixes
-912b519afc8f13743b473910504e8bfb9eb7de77 ipv6: addrconf.c: Fix a typo
-89e8347f0ff4b8bfe23e174e6661902582754394 ipv6: route.c: A spello fix
-bf05d48dbda80d864dbdb46c6641954df3bf45d3 iucv: af_iucv.c: Couple of typo fixes
-71a2fae50895b32cd600c0c4eff5df9c9c9933da kcm: kcmsock.c: Couple of typo fixes
-61f8406010843584eaf04d195fbd707f654cfb89 llc: llc_core.c: COuple of typo fixes
-b18dacab6bc4a31b08b134a23d67f9fb2dd5a844 mac80211: cfg.c: A typo fix
-55320b82d634b15a6ac6c5cdbbde1ced2cbfa06d mptcp: subflow.c: Fix a typo
-195a8ec4033b4124f6864892e71dcef24ba74a5a ncsi: internal.h: Fix a spello
-f60d94f0d7b42dd1caed258ff23b93e038bde745 netfilter: ipvs: A spello fix
-bcae6d5faf3fe4746b9e96a8a3d6918cc05dc252 netfilter: nf_conntrack_acct.c: A typo fix
-0184235ec6d1decb56740d9c99fdd0035b1d4c9d node.c: A typo fix
-f2e3093172b9726f3e16a47d5d83ce2edf4060f0 reg.c: Fix a spello
-fb373c8455af40faf72d7b8c7f53ed302bd554d9 sm_statefuns.c: Mundane spello fixes
-aa8ef1b9abd413d5c062d16e3d6b2fb418f9091c xfrm_policy.c : Mundane typo fix
-a7fd0e6d758f0f29268438287ecf7873c069a3ae xfrm_user.c: Added a punctuation
+25a09f4aad56d6990f161341ef7155c63b7a3d02 ASoC: ak4458: Add MODULE_DEVICE_TABLE
+04bb225a482451f6b4c0d8d9841632b40fc07aaf ASoC: ak5558: Add MODULE_DEVICE_TABLE
+5812307cceb2b9f3b14f617ae7e0f0fd974836c1 ALSA: hda: generic: Fix the micmute led init state
+f68e0080674da512f9dbe2cae059c641a076c593 Revert "PM: runtime: Update device status before letting suppliers suspend"
+c0387536edaf98592dd01d7081cc1d9c3c08e446 vmlinux.lds.h: Create section for protection against instrumentation
+ce1ad429d5a14a7114f7947b1706231a7f3d07e9 lkdtm: don't move ctors to .rodata
+89a0a5d6ff6a8373a7cbdb71d8122ac6f5f38162 perf tools: Use %define api.pure full instead of %pure-parser
+b1e75d8ec5229bbed85f6c776f4dd36b5236a024 tools build feature: Check if get_current_dir_name() is available
+65e8604da2e75190c03734e449a8957a614579f2 tools build feature: Check if eventfd() is available
+02aa2574350fcf64a977e156e55afc8f822c8710 tools build: Check if gettid() is available before providing helper
+12dc6889bcff1bc2921a1587afca55ca4091b73e btrfs: fix race when cloning extent buffer during rewind of an old root
+412795cfdde0f33c4f9ee76990c61d53c0f504a7 btrfs: fix slab cache flags for free space tree bitmap
+fac089ce7b334aede2a859492d668b71b10edaf0 ASoC: fsl_ssi: Fix TDM slot setup for I2S mode
+268b3c60897f013cdf25408ec308656eace38ce8 nvmet: don't check iosqes,iocqes for discovery controllers
+ca2cc2ee95b8069ef8f48e58423fea9584a1f6c7 NFSD: Repair misuse of sv_lock in 5.10.16-rt30.
+6ae439d1872401866d729debe55e0a03d867b4e0 svcrdma: disable timeouts on rdma backchannel
+98982cf7997414245477ffa90c9cdf8492c0b4bc sunrpc: fix refcount leak for rpc auth modules
+c5d4f79b3c2491865d4ad6bc265e7db26f302fc0 net/qrtr: fix __netdev_alloc_skb call
+934aa852f836beb80044efe532e633b7b4ee6f3d scsi: lpfc: Fix some error codes in debugfs
+5d9873e46c6d5a3c358341e40c373b79677f14e2 nvme-rdma: fix possible hang when failing to set io queues
+734b262cf7cb243816d4ef9cbd904e93c9af6087 powerpc: Force inlining of cpu_has_feature() to avoid build failure
+b5bb40b33647b6ad454a5e65d880c43eda271f10 usb-storage: Add quirk to defeat Kindle's automatic unload
+682517dce5ff03bfa952b2a9aec8733461750d32 usbip: Fix incorrect double assignment to udc->ud.tcp_rx
+eac35ed3f8349727259ce15f1d68ca87e1adf1a3 USB: replace hardcode maximum usb string length by definition
+c3a4fc9f37af3aeed79a0c1f60f4513a61abde84 usb: gadget: configfs: Fix KASAN use-after-free
+bf348faad0e786a3d4617393bee72b05a4bd484d iio:adc:stm32-adc: Add HAS_IOMEM dependency
+ed1323e4d5915bb4bec7c85e06def4fa9fd4e82f iio:adc:qcom-spmi-vadc: add default scale to LR_MUX2_BAT_ID channel
+f8ff441921fbc824137565c60459b2cc3abd1ca0 iio: adis16400: Fix an error code in adis16400_initial_setup()
+9f275ea15dec3099223de3878fe080a79a4e3f7c iio: gyro: mpu3050: Fix error handling in mpu3050_trigger_handler
+42cae14ad2a8c8bcb87a62ec99e7f8ecedb6fffb iio: hid-sensor-humidity: Fix alignment issue of timestamp channel
+33cbca990289cd3c318557379c4fa75525204bc9 iio: hid-sensor-prox: Fix scale not correct issue
+c230ae35740eaa031fd25aa543b25d325378f9da iio: hid-sensor-temperature: Fix issues of timestamp channel
+f27a00f0d5b0646a52633e98f5fc3ef719004dcd PCI: rpadlpar: Fix potential drc_name corruption in store functions
+b35214c541365c7dd7c9d5f44a02b0633a1cc83f perf/x86/intel: Fix a crash caused by zero PEBS status
+2409e66dfeff8f97e5af54c1fba6b07275c56418 x86/ioapic: Ignore IRQ2 again
+6cd1e19841fc245b44277d73e449c1dc82a56c73 kernel, fs: Introduce and use set_restart_fn() and arch_set_restart_data()
+2c79ceeec4fdeb21183a6693a64856b37f4dd28d x86: Move TS_COMPAT back to asm/thread_info.h
+1454a47fb97adcf17535316481f70d43c8e4f500 x86: Introduce TS_COMPAT_RESTART to fix get_nr_restart_syscall()
+5cdacb4181694713d849f80890bc8cb66143d99d ext4: find old entry again if failed to rename whiteout
+a8fb57ec924feec102d477c34a1e21685ff865e9 ext4: do not try to set xattr into ea_inode if value is empty
+1b59600cd8ac90cf259f59f89a2b2d5efcd9eb7c ext4: fix potential error in ext4_do_update_inode
+b6e961646de67d2b453dc148a846bd9808537695 genirq: Disable interrupts for force threaded handlers
+c18a5f637b147a27e79662325935fd7264108b4d x86/apic/of: Fix CPU devicetree-node lookups
+b0834edc70e402244ed8da96664368c15d869582 cifs: Fix preauth hash corruption
+78fec1611cbf7b0bdaddfdbf174a3a2463663bff Linux 4.19.183
+114fc32f2d6f597871aebcc763ab58d6204c8e01 Merge tag 'v4.19.183' into linux-4.19.y-cip
+9701ebc154a80d8752b3fa4a81a19b467168203a CIP: Bump version suffix to -cip46 after merge from stable
 
---===============4304721624860022772==--
+--===============2769557081324391049==--
