@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============9028895050304294237=="
+Content-Type: multipart/mixed; boundary="===============0202296823018050299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 29 Mar 2021 19:46:28 -0000
-Message-Id: <161704718838.12248.2373718900108187666@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 29 Mar 2021 19:46:50 -0000
+Message-Id: <161704721077.12510.14023016970462756674@gitolite.kernel.org>
 
---===============9028895050304294237==
+--===============0202296823018050299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 983b899a1f62afc654c19d13837d475b8045dd2f
-    new: c5affe19d65fa76d77cc6c11654a4b7d7f552e7b
-    log: revlist-983b899a1f62-c5affe19d65f.txt
+    old: b4ee593e233114de4c0a4465c7ad6a180f7fa95b
+    new: b1f30c16e9baba76bd818fb35e79153ebf0f78fb
+    log: revlist-b4ee593e2331-b1f30c16e9ba.txt
   - ref: refs/heads/for-next
-    old: 3cac585bcd41c577486545aa89603ab5d19db45f
-    new: 080e8232d61e62418106321f075030eabb0d4cee
-    log: revlist-3cac585bcd41-080e8232d61e.txt
+    old: 811ba6ea42f6662dc8b253827a1ea4b774800e0e
+    new: 16382481bda77d4a3c2f765f55650e8555379d59
+    log: revlist-811ba6ea42f6-16382481bda7.txt
 
---===============9028895050304294237==
+--===============0202296823018050299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-983b899a1f62-c5affe19d65f.txt
+Content-Disposition: attachment; filename=revlist-b4ee593e2331-b1f30c16e9ba.txt
 
 7d7275b3e866cf8092bd12553ec53ba26864f7bb bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
 9bbce32a20d6a72c767a7f85fd6127babd1410ac ARM: dts: am33xx: add aliases for mmc interfaces
@@ -444,14 +444,13 @@ b44d1ddcf835b39a8dc14276d770074deaed297c Merge tag 'io_uring-5.12-2021-03-27' of
 3fef15f872eec8292d4e53e307c1d17530fb16ba Merge tag 'auxdisplay-for-linus-v5.12-rc6' of git://github.com/ojeda/linux
 f9e2bb42cf0db3a624d295122db3475aa3e7ad18 Merge tag 'perf-tools-fixes-for-v5.12-2020-03-28' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 a5e13c6df0e41702d2b2c77c8ad41677ebb065b3 Linux 5.12-rc5
-aa320c7cd45647b75af2233430d36a8d154703d4 ASoC: cygnus: fix for_each_child.cocci warnings
-c5affe19d65fa76d77cc6c11654a4b7d7f552e7b Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+b1f30c16e9baba76bd818fb35e79153ebf0f78fb Merge remote-tracking branch 'spi/for-5.12' into spi-linus
 
---===============9028895050304294237==
+--===============0202296823018050299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3cac585bcd41-080e8232d61e.txt
+Content-Disposition: attachment; filename=revlist-811ba6ea42f6-16382481bda7.txt
 
 7d7275b3e866cf8092bd12553ec53ba26864f7bb bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
 9bbce32a20d6a72c767a7f85fd6127babd1410ac ARM: dts: am33xx: add aliases for mmc interfaces
@@ -816,8 +815,6 @@ f2a419cf495f95cac49ea289318b833477e1a0e2 ia64: mca: allocate early mca with GFP_
 a024b7c2850dddd01e65b8270f0971deaf272f27 mm: memblock: fix section mismatch warning again
 487cfade12fae0eb707bdce71c4d585128238a7d mm/highmem: fix CONFIG_DEBUG_KMAP_LOCAL_FORCE_MAP
 d3e2ff28ca27352d43a41053263d620202324c1f mailmap: update Andrey Konovalov's email address
-e61c589587c772c5f672b22683c3e0b38be20702 ASoC: mt6359: add ASoC mt6359 ASoC accdet jack document
-eef07b9e0925e16457ab9444b56a7f93b541aee3 ASoC: mediatek: mt6359: add MT6359 accdet jack driver
 7aae5432ac61ffae3e5afadbd2713bb73177f11d mailmap: update the email address for Chris Chiu
 43f0b562590e7ac16b74b298ab80b5fb290d02af Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 58e4b9de9d98599d539ad71c7c31f53c0d1f5aba Merge tag 'mfd-fixes-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
@@ -869,16 +866,8 @@ b44d1ddcf835b39a8dc14276d770074deaed297c Merge tag 'io_uring-5.12-2021-03-27' of
 3fef15f872eec8292d4e53e307c1d17530fb16ba Merge tag 'auxdisplay-for-linus-v5.12-rc6' of git://github.com/ojeda/linux
 f9e2bb42cf0db3a624d295122db3475aa3e7ad18 Merge tag 'perf-tools-fixes-for-v5.12-2020-03-28' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 a5e13c6df0e41702d2b2c77c8ad41677ebb065b3 Linux 5.12-rc5
-aa320c7cd45647b75af2233430d36a8d154703d4 ASoC: cygnus: fix for_each_child.cocci warnings
-0803a5cb5b7cf369c3e2af4108ee44d0b6e1c197 ASoC: dwc: Fix -Wmissing-prototypes warnings
-23f23db29ac996a824dce2b3a800c7a002f1c480 ASoC: amd: update spdx license for acp machine driver
-d463cead11ace05c81de31a0fb9c2507c5c1d0a2 ASoC: amd: fix acpi dependency kernel warning
-502e5321d89214a34a7b8bda697fc98d14b51cae ASoC: fsl_rpmsg: initialise pointers to NULL
-c1c03888f1e89e669aa6da0c9a491f02fd6a999e ASoC: SOF: parse multiple SSP DAI and hw configs
-e12be9fbfb91173b3aa358466ce0474823be2695 ASoC: SOF: Intel: HDA: add hw params callback for SSP DAIs
-c943a586f6e49998b323afbd7f788afabf6ed89b ASoC: SOF: match SSP config with pcm hw params
-3de72d6a282271f82000fe163296d95f8db05632 Merge series "Add mediatek MT6359 ASoC accdet jack driver" from Argus Lin <argus.lin@mediatek.com>:
-c5affe19d65fa76d77cc6c11654a4b7d7f552e7b Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
-080e8232d61e62418106321f075030eabb0d4cee Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
+413c601e8fd0e4adab67e0775dd84e63be6d803e spi: pl022: User more sensible defaults
+b1f30c16e9baba76bd818fb35e79153ebf0f78fb Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+16382481bda77d4a3c2f765f55650e8555379d59 Merge remote-tracking branch 'spi/for-5.13' into spi-next
 
---===============9028895050304294237==--
+--===============0202296823018050299==--
