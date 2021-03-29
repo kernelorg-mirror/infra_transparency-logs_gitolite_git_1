@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 29 Mar 2021 01:02:29 -0000
-Message-Id: <161697974928.9591.946633564937732034@gitolite.kernel.org>
+Date: Mon, 29 Mar 2021 01:05:26 -0000
+Message-Id: <161697992671.11995.6633000574514422739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 284fda1eff8a8b27d2cafd7dc8fb423d13720f21
-    new: 30f347ae7cc1178c431f968a89d4b4a375bc0d39
+    old: 30f347ae7cc1178c431f968a89d4b4a375bc0d39
+    new: 8e99ca3fdb31051372b9e8f3a563e59147e0ee10
     log: |
-         30f347ae7cc1178c431f968a89d4b4a375bc0d39 net: stmmac: fix missing unlock on error in stmmac_suspend()
+         8d93a4f9ccfdeba2c6a2b6d1e070e4974734fe8c mt76: Convert to DEFINE_SHOW_ATTRIBUTE
+         8e99ca3fdb31051372b9e8f3a563e59147e0ee10 mt76: mt7615: remove redundant dev_err call in mt7622_wmac_probe()
          
