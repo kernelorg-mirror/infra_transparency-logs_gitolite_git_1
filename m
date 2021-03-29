@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7564920962715272729=="
+Content-Type: multipart/mixed; boundary="===============2832165221263193410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Mon, 29 Mar 2021 02:28:37 -0000
-Message-Id: <161698491773.32160.3439864609654035018@gitolite.kernel.org>
+Date: Mon, 29 Mar 2021 02:29:11 -0000
+Message-Id: <161698495146.32459.13591215513553267491@gitolite.kernel.org>
 
---===============7564920962715272729==
+--===============2832165221263193410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/linux
 user: xiang
 changes:
-  - ref: refs/heads/erofs/compr_cfgs
-    old: 3a81fe7bb35323a80352b30f8336ca2f9621eab2
-    new: 101d9e957038bc4502154ab30f508a352bb60c7b
-    log: revlist-3a81fe7bb353-101d9e957038.txt
+  - ref: refs/heads/erofs/bigpcluster
+    old: 71607e38370719978b2c86cbbed3c642c0edc38d
+    new: 14f80280bf1d2c4f0637a873274a4792b29e2cc5
+    log: revlist-71607e383707-14f80280bf1d.txt
 
---===============7564920962715272729==
+--===============2832165221263193410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a81fe7bb353-101d9e957038.txt
+Content-Disposition: attachment; filename=revlist-71607e383707-14f80280bf1d.txt
 
 7d7275b3e866cf8092bd12553ec53ba26864f7bb bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
 9bbce32a20d6a72c767a7f85fd6127babd1410ac ARM: dts: am33xx: add aliases for mmc interfaces
@@ -450,5 +450,15 @@ de06a6a375414be03ce5b1054f2d836591923a1d erofs: introduce erofs_sb_has_xxx() hel
 5d50538fc567c6f3692dec1825fb38c5a0884d93 erofs: support adjust lz4 history window size
 46249cded18ac0c4ffb7b177219510a133a51c00 erofs: introduce on-disk lz4 fs configurations
 101d9e957038bc4502154ab30f508a352bb60c7b erofs: add on-disk compression configurations
+ecfb3a3b230191ea83c74a7a1d8f7f470669781d erofs: reserve physical_clusterbits[]
+bc39c0a60dfd391463942901cd06134b9362f43c erofs: introduce multipage per-CPU buffers
+3fea6d38f08884caebfc3b8b0dd7395fb1a36fbd erofs: introduce physical cluster slab pools
+9c40cf8252a47327d7df818f3bc9dfbe48d35b71 erofs: fix up inplace I/O pointer for big pcluster
+75ee57ac5fbaacff450a4b87a65eebb785bd36de erofs: add big physical cluster definition
+38e04194ec96a1de79234fb3f9e689e08ead5779 erofs: adjust per-CPU buffers according to max_pclusterblks
+2a9752a8854e91879c39f95ea8aa84804af2a1a2 erofs: support parsing big pcluster compress indexes
+4bb8073a623994a359de7f72a00c5720c11c6df2 erofs: support parsing big pcluster compact indexes
+51f0da8036340fbfab97c302342e4b7724f5491e erofs: support decompress big pcluster for lz4 backend
+14f80280bf1d2c4f0637a873274a4792b29e2cc5 erofs: enable big pcluster feature
 
---===============7564920962715272729==--
+--===============2832165221263193410==--
