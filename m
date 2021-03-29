@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Mon, 29 Mar 2021 12:17:49 -0000
-Message-Id: <161702026931.21919.16595104861142766196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 29 Mar 2021 12:25:12 -0000
+Message-Id: <161702071249.26738.9045270203739825551@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: holtmann
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/tags/0.39
-    old: 0000000000000000000000000000000000000000
-    new: 50ccbd0574db6e8c6e03e810775f6b9f04392479
+  - ref: refs/heads/testing
+    old: e045c3815d72e888510522e864cbb1a87597f5d6
+    new: 3e55bb6f2ac0bbd7ab8e5bde7b4f8b574afe2c52
+    log: |
+         3e55bb6f2ac0bbd7ab8e5bde7b4f8b574afe2c52 iio: adc: ad7923: register device with devm_iio_device_register
+         
