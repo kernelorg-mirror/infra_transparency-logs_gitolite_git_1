@@ -1,73 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============0619053324015052661=="
+Content-Type: multipart/mixed; boundary="===============0482825495956223149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Mon, 29 Mar 2021 02:33:19 -0000
-Message-Id: <161698519902.3153.4344253700074181762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Mon, 29 Mar 2021 02:37:26 -0000
+Message-Id: <161698544663.5772.6905094761314944954@gitolite.kernel.org>
 
---===============0619053324015052661==
+--===============0482825495956223149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: 58b195fac435730b1324c27d3ea4b12335b2a490
-    new: a2db8d39cbcb03057301f21eba323a80d000c953
-    log: revlist-58b195fac435-a2db8d39cbcb.txt
+  - ref: refs/heads/seen
+    old: 21b06d630433588e25d5730af365df670049ea32
+    new: 1a2053d4d30acae6a32156d799bfdbbf80818a6f
+    log: revlist-21b06d630433-1a2053d4d30a.txt
 
---===============0619053324015052661==
+--===============0482825495956223149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58b195fac435-a2db8d39cbcb.txt
+Content-Disposition: attachment; filename=revlist-21b06d630433-1a2053d4d30a.txt
 
-7c6b0892b0c5009d5eb8715070a18862f18d7df5 firmware: imx: scu-pd: Update comments for single global power domain
-6937d8c71f69b680fd6ccc7b439581a9216d9899 arm64: configs: Select REALTEK_PHY as built-in
-f63af5f3b8e2cba1b0b19b5cc4aa00d152f84599 firmware: imx: scu-pd: add missed ADC1 pd
-94c586e5941a472fd114815f0eed2f2bb6b83a11 arm64: configs: enable FlexTimer alarm timer
-974bdace1aeca78ffe4d6741d33bde4330d49f7f dt-bindings: Add vendor prefix for reMarkable
-6634b2d252accd3fcdc94a5e0a1319009363892e dt-bindings: arm: fsl: Add the reMarkable 2 e-Ink tablet
-c11d56b3761c77f50368b4828cc5d9f5f343148d ARM: imx7d-remarkable2: Initial device tree for reMarkable2
-5dbadc848259bbe83c2ef3522f4ef78d6d9132b8 arm64: dts: fsl: add support for Kontron pitx-imx8m board
-36133cb5db3c59f29ba05a53ac3f76b730309377 arm64: dts: imx8mp: add wdog2/3 nodes
-c75c6d584092752b543d457d38c082ea421968ac arm64: dts: imx8qxp: add fallback compatible string for scu pd
-b1484229a5adcf64f8ce133ff9b6f197af647af4 arm64: dts: imx8qxp: move scu pd node before scu clock node
-0dcd27bda232a5232ddf0750e876d4065d9aa1f8 arm64: dts: imx8qxp: orginize dts in subsystems
-438ae46b8e8635fe12af8d7e0b94a6fa155892a5 arm64: dts: imx8: add lsio lpcg clocks
-9de8a226758b8813d6e789fbf70af7329c1a2613 arm64: dts: imx8: add conn lpcg clocks
-e783b6bc8992d7bcb6d63f1f8323d6cc4248bfd3 arm64: dts: imx8: add adma lpcg clocks
-26de33a1e273ea2b66c5470a4434754d6386d2e2 arm64: dts: imx8: switch to two cell scu clock binding
-16c4ea7501b197b5da02f23c0d9df194fe0692e2 arm64: dts: imx8: switch to new lpcg clock binding
-d486c5b60eb97090850f309ace11b71fb04dbd13 arm64: dts: imx8qm: add lsio ss support
-3a3e72f1ed3a2d957ab076b12c814ace4c291133 arm64: dts: imx8qm: add conn ss support
-35f4e9d7530f691a5595d107c69def63b0274391 arm64: dts: imx8: split adma ss into dma and audio ss
-3ccc3515ba251f11009cde6b4883a599ecef6863 arm64: dts: imx8qm: add dma ss support
-f2180be18a63c7a75af6f89e3abe6ada43d1b326 arm64: dts: imx: add imx8qm common dts file
-307fd14d4b14c8cfda5870e1af3962f7b58e59d7 arm64: dts: imx: add imx8qm mek support
-4eac5e728b9d753611817bd30c14881aa950a318 arm64: dts: imx8mm-nitrogen-r2: add ecspi2 support
-2c832fe41a8d79d40bba8c5b7147ba47a1d15615 arm64: dts: ls1028a: set up the real link speed for ENETC port 2
-9eaf9984221b18612da5a6404a7d54e02c1bcc32 arm64: dts: imx8mm: Reorder flexspi clock-names entry
-f29fa74453160ba67661a12f70c56be2672c9ccb arm64: dts: imx8mn: Reorder flexspi clock-names entry
-846f752866bd366749fcc341f38af5e65628d18b arm64: dts: imx8mp-phyboard-pollux-rdk: Change debug UART
-312a46148513d8567d013c3474e64543aeea5950 arm64: dts: lx2160a-clearfog-itx: add SFP support
-7fffadcf7218f17deed66b57dbbc37487f442964 arm64: dts: imx8mq-librem5: Hog the correct gpio
-a362b0cc94d476b097ba0ff466958c1d4e27e219 arm64: dts: imx8mq-librem5-r3: Mark buck3 as always on
-798a1807ab13a38e21c6fecd8d22a513d6786e2d arm64: dts: imx8mp-evk: Improve the Ethernet PHY description
-aa4943300e185eb6da27016f2294862aca6895a6 arm64: dts: fsl-ls1028a-kontron-sl28: move MTD partitions
-b3535535922d63c97c20eeea3637346a1534bc71 arm64: dts: fsl-ls1028a-kontron-sl28: combine unused partitions
-c75dc98b58dbfc023cab5b862e26ab8753c0d94d arm64: dts: ls1028a: move rtc alias to individual boards
-51c8eaa1b73e39d4f36a2a55ba5c68404b53fa78 arm64: dts: fsl-ls1028a-kontron-sl28: add rtc0 alias
-5cfad4f45806f6f898b63b8c77cea7452c704cb3 arm64: dts: imx8mm/q: Fix pad control of SD1_DATA0
-9db48cefcc99363bd32d8bcd19f594306dc68109 Merge branch 'imx/drivers' into for-next
-7f7191528696ceb1a74d5c8dcce7d2146bffb848 Merge branch 'imx/soc' into for-next
-5097aaef6029ea7c0e41f9cde67ee5bc09ec1ca0 Merge branch 'imx/bindings' into for-next
-d9a89547482292a83c37054dc99ca04cc66d49ce Merge branch 'imx/dt' into for-next
-bb4d035b13c90ba85d292ef5a0f0cf33a18920d0 Merge branch 'imx/dt64' into for-next
-a2db8d39cbcb03057301f21eba323a80d000c953 Merge branch 'imx/defconfig' into for-next
+d385784f89b3350db16380441bc8a18ebe54179a fsck.h: use designed initializers for FSCK_OPTIONS_{DEFAULT,STRICT}
+a1aad71601a7a2052058d735ef86624b3cc774cf fsck.h: use "enum object_type" instead of "int"
+f1abc2d0e146dc7f1549fd3ddb119e1b7f0ea645 fsck.c: rename variables in fsck_set_msg_type() for less confusion
+034a7b7bcc0ce5a7c3713173a1699ca8c9e722d5 fsck.c: remove (mostly) redundant append_msg_id() function
+35af754b0694eb26a253edf551efe400f30b3864 fsck.c: rename remaining fsck_msg_id "id" to "msg_id"
+e35d65a78ab7520b2705b27062758ab20a60e462 fsck.c: refactor fsck_msg_type() to limit scope of "int msg_type"
+1b32b59f9bd78b3475195a6e99c629a5ffefdea0 fsck.h: move FSCK_{FATAL,INFO,ERROR,WARN,IGNORE} into an enum
+30cf618eef09573a2f411e0b420e19f2f2e5a1c1 fsck.h: re-order and re-assign "enum fsck_msg_type"
+c72da1a22bb3996ab8740b91ad2af6a54bd22777 fsck.c: call parse_msg_type() early in fsck_set_msg_type()
+b5495024ec655c56a98bdd3f9a5d4dfe578aa08f fsck.c: undefine temporary STR macro after use
+901f2f6742d55b2b73186a05261885dc824ed5cf fsck.c: give "FOREACH_MSG_ID" a more specific name
+44e07da8bb346c203246eae4f1a498844ee6d1ba fsck.[ch]: move FOREACH_FSCK_MSG_ID & fsck_msg_id from *.c to *.h
+394d5d31b0d3096aed4513bdacf48fb73003f1df fsck.c: pass along the fsck_msg_id in the fsck_error callback
+53692df2b82f9d5ce15779da7d5227f1b027e193 fsck.c: add an fsck_set_msg_type() API that takes enums
+c15087d17bd3c146696bfe6abf86322d79bf61ca fsck.c: move gitmodules_{found,done} into fsck_options
+462f5cae0f764569da4e6a7ab40ee1d3b85353ed fetch-pack: don't needlessly copy fsck_options
+c96e184cae4294a4ebd18a1bdf8d6514445f32e4 fetch-pack: use file-scope static struct for fsck_options
+3745e2693de3dd5420221782ed050cae6ebf6fec fetch-pack: use new fsck API to printing dangling submodules
+dacf9fb8acf2b6f051771ddd59ace4d9e9d4249b Merge branch 'en/ort-readiness' into seen
+7814354c303ef0c8b6df20c8fa9cfde43f38ea0c Merge branch 'ab/fsck-api-cleanup' into seen
+b2c782d16aaa548cad26dafb64f2ded45fe5c028 Merge branch 'ag/merge-strategies-in-c' into seen
+0d6d85ae6f52a51bcebb1bbc3935cb9c201e92b5 Merge branch 'hn/reftable' into seen
+cd5c518ff936321703f1df3151eb52bf4b9e9659 Merge branch 'es/config-hooks' into seen
+173c26d8415821f98f9514654308207773473e0e Merge branch 'tb/reverse-midx' into seen
+983bd2cef513ec5d51609ac3df3abd6bca688418 Merge branch 'mt/parallel-checkout-part-2' into seen
+bdf01c7c559f1910488edd4676ac39425ea6202f Merge branch 'ds/sparse-index' into seen
+13a5efe3764f9e0dbcfcb818375a7ab75d2cb3f1 Merge branch 'ds/sparse-index-protections' into seen
+17ac309fb1c0c972c23c5b8409facc920a1ffbc2 Merge branch 'zh/commit-trailer' into seen
+97ba507a6c095c9a5daa5d6aabe6bcaa5f9c9125 Merge branch 'ab/unexpected-object-type' into seen
+8986904b83d4b7ae5f93bf56fcf8a8850902f660 Merge branch 'ab/tests-cleanup-around-sha1' into seen
+9468270d6a2520534b492063595adb4b615bff51 Merge branch 'en/ort-perf-batch-11' into seen
+1a2053d4d30acae6a32156d799bfdbbf80818a6f Merge branch 'en/sequencer-edit-upon-conflict-fix' into seen
 
---===============0619053324015052661==--
+--===============0482825495956223149==--
