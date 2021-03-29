@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8621300419919964148=="
+Content-Type: multipart/mixed; boundary="===============3925530252016134794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Mon, 29 Mar 2021 10:17:08 -0000
-Message-Id: <161701302894.13114.15208616288538208759@gitolite.kernel.org>
+Date: Mon, 29 Mar 2021 10:21:18 -0000
+Message-Id: <161701327802.15789.8200084822052716415@gitolite.kernel.org>
 
---===============8621300419919964148==
+--===============3925530252016134794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,41 @@ repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
 user: linusw
 changes:
   - ref: refs/heads/devel
-    old: cb62168fb19dff62c66f7db25a306b590438de03
-    new: 50622b61f55b644c14cdcea31a776500aec0b789
-    log: revlist-cb62168fb19d-50622b61f55b.txt
+    old: 50622b61f55b644c14cdcea31a776500aec0b789
+    new: 1822bb0aa5abe036abba9335c5001f5af191af27
+    log: revlist-50622b61f55b-1822bb0aa5ab.txt
+  - ref: refs/heads/ib-bcm63xx
+    old: 0000000000000000000000000000000000000000
+    new: d28039fccf948a407de69106465caa465b1dcf32
 
---===============8621300419919964148==
+--===============3925530252016134794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb62168fb19d-50622b61f55b.txt
+Content-Disposition: attachment; filename=revlist-50622b61f55b-1822bb0aa5ab.txt
 
-2f9162a5b139d6d816d8311ceaed76ddd7129f01 gpio: guard gpiochip_irqchip_add_domain() with GPIOLIB_IRQCHIP
-ae9371a4592be90d236de0c24baf8350576c168f gpio: regmap: set gpio_chip of_node
-6f8125d9b1ca5b7439634c5ee3b3ab131c456d38 dt-bindings: improve BCM6345 GPIO binding documentation
-e1847b026470e4baa09a2213229b80900a0d7f97 pinctrl: bcm: add bcm63xx base code
-b7383dabf4dea90d0b3bc5de28f08f75a7a9ce2d dt-bindings: add BCM6328 pincontroller binding documentation
-353fd2c52797df8813861e7dd2ec1045397f5c35 dt-bindings: add BCM6328 GPIO sysctl binding documentation
-23f51c24c22abbe5336401e1ebed89760bfa57bf pinctrl: add a pincontrol driver for BCM6328
-6eb1c17c5e34f70fac9921ef2bfde895f224e420 dt-bindings: add BCM6358 pincontroller binding documentation
-f3cf843c104f6c3437b5adcddf55ba3dd37913af dt-bindings: add BCM6358 GPIO sysctl binding documentation
-a9700ff0cb68379820b5080f5b0661c136067b5f pinctrl: add a pincontrol driver for BCM6358
-a8d91c36165569242aa7c3bb69db31a2642baedd dt-bindings: add BCM6362 pincontroller binding documentation
-7f9ea4ffcdd40e7f2ca1910f2e79d88c002eb810 dt-bindings: add BCM6362 GPIO sysctl binding documentation
-f7acf9399399b4b700cdb11c3bccff19769b3bc2 pinctrl: add a pincontrol driver for BCM6362
-8d1f6629b5c12643668ce5bf94e6f418e97c7580 dt-bindings: add BCM6368 pincontroller binding documentation
-9f8b64beb9c27eb339ac8004a3a744af4a8d179a dt-bindings: add BCM6368 GPIO sysctl binding documentation
-fa7f5b9bb17b7329221aef04e8658338bacf97ad pinctrl: add a pincontrol driver for BCM6368
-7933e3c7699bd7aff2481f7683550bd2958f3062 dt-bindings: add BCM63268 pincontroller binding documentation
-5309f6d6d35dfcdf9f4c2918d7524c094e22c154 dt-bindings: add BCM63268 GPIO sysctl binding documentation
-9c20c505f7380046bab770fd2c2c0fd027c64c59 pinctrl: add a pincontrol driver for BCM63268
-1f9759a00608886b2799ed626631467ff3f046e7 dt-bindings: add BCM6318 pincontroller binding documentation
-f8e6be699465d771d512151ae70700fa4e6cb5a9 dt-bindings: add BCM6318 GPIO sysctl binding documentation
-50622b61f55b644c14cdcea31a776500aec0b789 pinctrl: add a pincontrol driver for BCM6318
+9c7d24693d864f90b27aad5d15fbfe226c02898b gpio: guard gpiochip_irqchip_add_domain() with GPIOLIB_IRQCHIP
+d46bf9ec4596654f36245e3b14765bcb422be6ad gpio: regmap: set gpio_chip of_node
+fb9da17bd26552f48cda4f2f658379e7f5860691 dt-bindings: improve BCM6345 GPIO binding documentation
+132f95016db0a0a0659e99b471a7d3fd0c60f961 pinctrl: bcm: add bcm63xx base code
+44dbcd8eb08a0febbb46ac7b9331f28a320bdf9a dt-bindings: add BCM6328 pincontroller binding documentation
+7f9dfaa2afb6bc3481e531c405b05acf6091af29 dt-bindings: add BCM6328 GPIO sysctl binding documentation
+9bf34ac5ab5805f0a798d40423c05596b7a0cee6 pinctrl: add a pincontrol driver for BCM6328
+6d591614bfe881bb7664c9bebb6a48231c059411 dt-bindings: add BCM6358 pincontroller binding documentation
+cfb1b98bc8d5ffd813428cb03c63b54cf63dd785 dt-bindings: add BCM6358 GPIO sysctl binding documentation
+9494b16976e1ae3afc643abf638a25f2ce4c3f2b pinctrl: add a pincontrol driver for BCM6358
+6e4b5e1fc77513359989112e002e08553d0d8d5c dt-bindings: add BCM6362 pincontroller binding documentation
+7ca989eafbd6ce1c216a775556c4893baab1959b dt-bindings: add BCM6362 GPIO sysctl binding documentation
+705791e23ecd93d6c2697234fdf0c22b499c0a5b pinctrl: add a pincontrol driver for BCM6362
+9fbf8303796c89ecab026eb3dbadae7f98c49922 dt-bindings: add BCM6368 pincontroller binding documentation
+fd22635f222f44dcb4dd6382d97de13144edad2b dt-bindings: add BCM6368 GPIO sysctl binding documentation
+50554accf7a79980cd04481e8903073bdb706daf pinctrl: add a pincontrol driver for BCM6368
+9b3303413379af8bed307cd465fe7aa1bc3569ea dt-bindings: add BCM63268 pincontroller binding documentation
+ff8324355d7ae2e4ebbd304de27bb5fa75e20c6a dt-bindings: add BCM63268 GPIO sysctl binding documentation
+155cca1b0794a8f541e7eaa45be70df0a49964f3 pinctrl: add a pincontrol driver for BCM63268
+b2f215141b985d5d39ed16fe7e2089d5aa162302 dt-bindings: add BCM6318 pincontroller binding documentation
+b6d46b9454742a25f9d923be072869e40b2ecebb dt-bindings: add BCM6318 GPIO sysctl binding documentation
+d28039fccf948a407de69106465caa465b1dcf32 pinctrl: add a pincontrol driver for BCM6318
+1822bb0aa5abe036abba9335c5001f5af191af27 Merge branch 'ib-bcm63xx' into devel
 
---===============8621300419919964148==--
+--===============3925530252016134794==--
