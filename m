@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 29 Mar 2021 23:24:00 -0000
-Message-Id: <161706024033.14123.107891708395789773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 29 Mar 2021 23:24:18 -0000
+Message-Id: <161706025896.14311.11901632726798745443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 87f2c6716f6408b9992d7f2247d1fcc190de2c92
-    new: 24ad92c841c9fa548dc944821721944405ef7963
+    old: 6bf24dc0cc0cc43b29ba344b66d78590e687e046
+    new: af9d316f3dd6d1385fbd1631b5103e620fc4298a
     log: |
-         24ad92c841c9fa548dc944821721944405ef7963 ieee802154: hwsim: remove redundant initialization of variable res
+         af9d316f3dd6d1385fbd1631b5103e620fc4298a dt-bindings: net: ethernet-controller: fix typo in NVMEM
          
