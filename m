@@ -1,44 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============1782321375866083205=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Mon, 29 Mar 2021 13:46:09 -0000
-Message-Id: <161702556953.12347.9457420965622322311@gitolite.kernel.org>
-
---===============1782321375866083205==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 29 Mar 2021 13:50:04 -0000
+Message-Id: <161702580469.14641.4377814264311345432@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/v5.12-next/dts64
-    old: 2d7ee6989a3ba60607cf1708192d40618965f432
-    new: d1c9c70a88232104aa8686e3cb7742e5260a3062
-    log: revlist-2d7ee6989a3b-d1c9c70a8823.txt
-
---===============1782321375866083205==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d7ee6989a3b-d1c9c70a8823.txt
-
-d3cbc7f82caa9bebe058c7e2947405af39eb7ea6 arm64: dts: mt8183: update wakeup register offset
-02e744a11a014db4666aea5488a5754e332b84c4 dt-bindings: arm64: dts: mediatek: Add mt8183-kukui-jacuzzi-damu
-c60dd29e2d11ee99fbfd27804e2d696de409c82f dt-bindings: arm64: dts: mediatek: Add mt8183-kukui-jacuzzi-juniper
-cabc71b08eb597c53e6c6a988027df4b5a6903de arm64: dts: mt8183: Add kukui-jacuzzi-damu board
-124d64392de21db356a30051bb2f9d167a111f06 arm64: dts: mt8183: Add kukui-jacuzzi-juniper board
-ac75c32e821b7f4fbfbe44b502c1d86498809301 dt-bindings: timer: Add compatible for Mediatek MT8195
-8c7713c00488bf3ac067db3e9a203e8d1ef3613b dt-bindings: serial: Add compatible for Mediatek MT8195
-13225a5c7b1c3680068722b53d85b51722b09b80 dt-bindings: arm: Add compatible for Mediatek MT8195
-e4e5d030bd779fb8321d3b8bd65406fbe0827037 arm64: dts: mt8173: fix property typo of 'phys' in dsi node
-c61872d5cc44510c1b4dd3955d7d34d96a4d3e8a arm64: dts: mediatek: mt8173: fix dtbs_check warning
-357c5f717ea4e35c11eb1f0e948e2ea2662d1ce0 arm64: dts: mediatek: mt2712: harmonize node names
-86c5ed12cf729abda5a9166cc32abd0a7208cd1f arm64: dts: mediatek: mt8516: harmonize node names and compatibles
-6029cae696c8344f3fcfe9f0f76f736bc415af03 arm64: dts: mediatek: mt7622: harmonize node names and compatibles
-d1c9c70a88232104aa8686e3cb7742e5260a3062 arm64: dts: mediatek: mt8183: fix dtbs_check warning
-
---===============1782321375866083205==--
+  - ref: refs/heads/for-5.13/drivers
+    old: f8d62edfe2563fc86d12b80b07407dc095cdf0d2
+    new: 80755855f808c27c7154937667436f30e47bc820
+    log: |
+         4bae7afdd789baedbc0b82a4b9ef51501dd7d4fe paride/pd: remove ->revalidate_disk
+         0f00b82e5413571ed225ddbccad6882d7ea60bc7 block: remove the revalidate_disk method
+         acf8aec3501cac6fd67e2653267ed61a22617c37 mtip32xx: use DEFINE_SPINLOCK() for spinlock
+         80755855f808c27c7154937667436f30e47bc820 mtip32xx: use LIST_HEAD() for list_head
+         
+  - ref: refs/heads/for-next
+    old: 13c8804ec329ea618470f7d906497ac9cf9253b1
+    new: 1f471c70f327ca2f1cc1045316e59837b04ed6aa
+    log: |
+         4bae7afdd789baedbc0b82a4b9ef51501dd7d4fe paride/pd: remove ->revalidate_disk
+         0f00b82e5413571ed225ddbccad6882d7ea60bc7 block: remove the revalidate_disk method
+         df7d9c7c62ac6e1be7f23d4a02b3fa1e1bb2de7e Merge branch 'for-5.13/drivers' into for-next
+         acf8aec3501cac6fd67e2653267ed61a22617c37 mtip32xx: use DEFINE_SPINLOCK() for spinlock
+         80755855f808c27c7154937667436f30e47bc820 mtip32xx: use LIST_HEAD() for list_head
+         1f471c70f327ca2f1cc1045316e59837b04ed6aa Merge branch 'for-5.13/drivers' into for-next
+         
+  - ref: refs/heads/io_uring-5.12
+    old: 5a978dcfc0f054e4f6983a0a26355a65e34708cb
+    new: 2e64c22af09e5bf962a7d877d80876917bdca79f
+    log: |
+         51520426f4bc3e61cbbf7a39ccf4e411b665002d io_uring: handle setup-failed ctx in kill_timeouts
+         2e64c22af09e5bf962a7d877d80876917bdca79f io_uring: drop sqd lock before handling signals for SQPOLL
+         
