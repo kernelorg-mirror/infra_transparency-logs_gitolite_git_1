@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6088072834053207336=="
+Content-Type: multipart/mixed; boundary="===============2470764618024278821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 29 Mar 2021 17:00:02 -0000
-Message-Id: <161703720280.4847.8645006107217132095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 29 Mar 2021 17:00:08 -0000
+Message-Id: <161703720842.5892.5438326965280514651@gitolite.kernel.org>
 
---===============6088072834053207336==
+--===============2470764618024278821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
 
---===============6088072834053207336==
+--===============2470764618024278821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -440,4 +440,4 @@ b44d1ddcf835b39a8dc14276d770074deaed297c Merge tag 'io_uring-5.12-2021-03-27' of
 f9e2bb42cf0db3a624d295122db3475aa3e7ad18 Merge tag 'perf-tools-fixes-for-v5.12-2020-03-28' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 a5e13c6df0e41702d2b2c77c8ad41677ebb065b3 Linux 5.12-rc5
 
---===============6088072834053207336==--
+--===============2470764618024278821==--
