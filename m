@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1122724081725015114=="
+Content-Type: multipart/mixed; boundary="===============8908711853091571319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 29 Mar 2021 14:25:45 -0000
-Message-Id: <161702794508.7329.2170275375451091779@gitolite.kernel.org>
+Date: Mon, 29 Mar 2021 14:26:44 -0000
+Message-Id: <161702800436.7667.3167460845164749970@gitolite.kernel.org>
 
---===============1122724081725015114==
+--===============8908711853091571319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-rc
     old: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
     new: a5e13c6df0e41702d2b2c77c8ad41677ebb065b3
     log: revlist-0d02ec6b3136-a5e13c6df0e4.txt
 
---===============1122724081725015114==
+--===============8908711853091571319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -441,4 +441,4 @@ b44d1ddcf835b39a8dc14276d770074deaed297c Merge tag 'io_uring-5.12-2021-03-27' of
 f9e2bb42cf0db3a624d295122db3475aa3e7ad18 Merge tag 'perf-tools-fixes-for-v5.12-2020-03-28' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 a5e13c6df0e41702d2b2c77c8ad41677ebb065b3 Linux 5.12-rc5
 
---===============1122724081725015114==--
+--===============8908711853091571319==--
