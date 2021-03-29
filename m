@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1696982033397263267=="
+Content-Type: multipart/mixed; boundary="===============7243496089647290950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 29 Mar 2021 09:09:20 -0000
-Message-Id: <161700896072.30994.4245174333545537256@gitolite.kernel.org>
+Date: Mon, 29 Mar 2021 09:10:47 -0000
+Message-Id: <161700904756.1552.13219855087524125913@gitolite.kernel.org>
 
---===============1696982033397263267==
+--===============7243496089647290950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 4b3ff7dd4b69698c08ca1d51741fe773a7b30b0a
-    new: 576f42f5847fec7eb9e1902bce1c1dd6d6efe1e6
-    log: revlist-4b3ff7dd4b69-576f42f5847f.txt
+    new: 2c8d6de2e475ada309de5fe47925c450752e0647
+    log: revlist-4b3ff7dd4b69-2c8d6de2e475.txt
+  - ref: refs/heads/master
+    old: 576f42f5847fec7eb9e1902bce1c1dd6d6efe1e6
+    new: 2c8d6de2e475ada309de5fe47925c450752e0647
+    log: revlist-576f42f5847f-2c8d6de2e475.txt
 
---===============1696982033397263267==
+--===============7243496089647290950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b3ff7dd4b69-576f42f5847f.txt
+Content-Disposition: attachment; filename=revlist-4b3ff7dd4b69-2c8d6de2e475.txt
 
 0b8cfa974dfc964e6382c9e25fa6c1bdac6ef499 io_uring: don't use {test,clear}_tsk_thread_flag() for current
 d07f1e8a42614cc938c9c88866d4474a5a7fee31 io_uring: correct io_queue_async_work() traces
@@ -69,14 +73,64 @@ b44d1ddcf835b39a8dc14276d770074deaed297c Merge tag 'io_uring-5.12-2021-03-27' of
 47fbbc94dab61a1385f21a0a209c61b5d6b0a215 Merge tag 'locking-urgent-2021-03-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bd9a5fc2edb0bdcb0756298daa31ddd6a02f0634 MAINTAINERS: Add myself as futex reviewer
 36a14638f7c06546717cc1316fcfee6da42b98cc Merge tag 'x86-urgent-2021-03-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-637b2bb01554a8e4a658b18ccbbce9ef7e89f9d9 Merge branch 'linus'
 1591584e2e762edecefde403c44d9c26c9ff72c9 x86/process/64: Move cpu_current_top_of_stack out of TSS
 f21d4d3b97a8603567e5d4250bd75e8ebbd520af x86/cpufeatures: Enumerate #DB for bus lock detection
 ebb1064e7c2e90b56e4d40ab154ef9796060a1c3 x86/traps: Handle #DB for bus lock
 ebca17707e38f2050b188d837bd4646b29a1b0c2 Documentation/admin-guide: Change doc for split_lock_detect parameter
-44efb83852e06e19e28cbce05f793dd0ccba32c2 Merge branch 'x86/vmware'
-39b042a3b9dec0dca179e2eb4552dc45a93cebe1 Merge branch 'locking/core'
-98c0b3a5dd9a3d62480b488628f8737f7ca44a97 Merge branch 'x86/splitlock'
-576f42f5847fec7eb9e1902bce1c1dd6d6efe1e6 Merge branch 'x86/cleanups'
+b8a4824f87d254239590e7c43b98e0f2008eb997 Merge branch 'x86/vmware'
+ebbb0fc7fe4678bcefd9189354ffbf6253c4052e Merge branch 'x86/vdso'
+bd5d736b18a964e7ab24e1b6e8bfd86cc0bde624 Merge branch 'x86/splitlock'
+342dd5b27fe8dd4c897dacffa8a9e88dd76d5b4b Merge branch 'x86/sgx'
+592632b4b6410f39d1b7fff949ca9f94cdeaaf84 Merge branch 'x86/seves'
+12555c6d02f1d411a84d3687d874b617975c207a Merge branch 'x86/platform'
+f01c5544c12f798bc51ade6eaa9e533508c6c5e0 Merge branch 'x86/mm'
+788811cf29933c83775948f61ef26ae0f360294d Merge branch 'x86/misc'
+e69b64b4f6ac98f1cd2ee71208d9bd0689cfa6c5 Merge branch 'x86/microcode'
+6fe0916153e5a1a6df9d2c4fa32ca188d0b1bc01 Merge branch 'x86/cpu'
+3ee5f91e38b9a97f6110faf2766b7d4976bbd029 Merge branch 'x86/core'
+7780f5e47091b38bb85c819401e378185d3d5bd8 Merge branch 'x86/cleanups'
+004e48a1c41a6c99a7611c036b67da728bb0d57a Merge branch 'x86/build'
+deb2650b8e65e1740d322e3336345185adda1264 Merge branch 'x86/boot'
+1f4bc6fe992b3e0b8b71c8e475521101edad537d Merge branch 'x86/alternatives'
+3048017595eb052f286f0fbf2d3350635a2723e5 Merge branch 'timers/core'
+8fee7abfc11ffc6384c9c2bf297ec3c05e6e4e79 Merge branch 'sched/core'
+0764aeaf33b9de20c6e0de216d735814cbebd175 Merge branch 'ras/core'
+5f80f9ea3b91579b87570a81477bf1f0f68f3703 Merge branch 'perf/core'
+bade80d362d71fbf429644fe734213387ebe19bd Merge branch 'objtool/core'
+d2f0873182713cd3ebdde14cdd451aae2bde83cf Merge branch 'locking/urgent'
+c8694d99377f5f176a9054cbce4410b153507995 Merge branch 'locking/core'
+97da9810142f2b2dd86d3dd549cc05100a84e2af Merge branch 'irq/core'
+2c8d6de2e475ada309de5fe47925c450752e0647 Merge branch 'core/entry'
 
---===============1696982033397263267==--
+--===============7243496089647290950==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-576f42f5847f-2c8d6de2e475.txt
+
+b8a4824f87d254239590e7c43b98e0f2008eb997 Merge branch 'x86/vmware'
+ebbb0fc7fe4678bcefd9189354ffbf6253c4052e Merge branch 'x86/vdso'
+bd5d736b18a964e7ab24e1b6e8bfd86cc0bde624 Merge branch 'x86/splitlock'
+342dd5b27fe8dd4c897dacffa8a9e88dd76d5b4b Merge branch 'x86/sgx'
+592632b4b6410f39d1b7fff949ca9f94cdeaaf84 Merge branch 'x86/seves'
+12555c6d02f1d411a84d3687d874b617975c207a Merge branch 'x86/platform'
+f01c5544c12f798bc51ade6eaa9e533508c6c5e0 Merge branch 'x86/mm'
+788811cf29933c83775948f61ef26ae0f360294d Merge branch 'x86/misc'
+e69b64b4f6ac98f1cd2ee71208d9bd0689cfa6c5 Merge branch 'x86/microcode'
+6fe0916153e5a1a6df9d2c4fa32ca188d0b1bc01 Merge branch 'x86/cpu'
+3ee5f91e38b9a97f6110faf2766b7d4976bbd029 Merge branch 'x86/core'
+7780f5e47091b38bb85c819401e378185d3d5bd8 Merge branch 'x86/cleanups'
+004e48a1c41a6c99a7611c036b67da728bb0d57a Merge branch 'x86/build'
+deb2650b8e65e1740d322e3336345185adda1264 Merge branch 'x86/boot'
+1f4bc6fe992b3e0b8b71c8e475521101edad537d Merge branch 'x86/alternatives'
+3048017595eb052f286f0fbf2d3350635a2723e5 Merge branch 'timers/core'
+8fee7abfc11ffc6384c9c2bf297ec3c05e6e4e79 Merge branch 'sched/core'
+0764aeaf33b9de20c6e0de216d735814cbebd175 Merge branch 'ras/core'
+5f80f9ea3b91579b87570a81477bf1f0f68f3703 Merge branch 'perf/core'
+bade80d362d71fbf429644fe734213387ebe19bd Merge branch 'objtool/core'
+d2f0873182713cd3ebdde14cdd451aae2bde83cf Merge branch 'locking/urgent'
+c8694d99377f5f176a9054cbce4410b153507995 Merge branch 'locking/core'
+97da9810142f2b2dd86d3dd549cc05100a84e2af Merge branch 'irq/core'
+2c8d6de2e475ada309de5fe47925c450752e0647 Merge branch 'core/entry'
+
+--===============7243496089647290950==--
