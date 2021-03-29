@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1401229933813407253=="
+Content-Type: multipart/mixed; boundary="===============2596430703727282961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 29 Mar 2021 15:47:32 -0000
-Message-Id: <161703285267.25247.5640030167626661284@gitolite.kernel.org>
+Date: Mon, 29 Mar 2021 15:47:50 -0000
+Message-Id: <161703287010.25483.3693011704793010553@gitolite.kernel.org>
 
---===============1401229933813407253==
+--===============2596430703727282961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 4390eafe5ee738a90ab2ae0e3eb2c81330107d05
-    new: 2bd08150d54f26aa2991e55a3f2e5c11f33b08bf
-    log: revlist-4390eafe5ee7-2bd08150d54f.txt
+  - ref: refs/heads/1GbE
+    old: d9a6793b3468848b6bae93e55173fcb84adfae58
+    new: b3ade61ecec9e494acff6137a14fbf2953797a92
+    log: revlist-d9a6793b3468-b3ade61ecec9.txt
 
---===============1401229933813407253==
+--===============2596430703727282961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4390eafe5ee7-2bd08150d54f.txt
+Content-Disposition: attachment; filename=revlist-d9a6793b3468-b3ade61ecec9.txt
 
 01dc080be6b8318c3a6d3df3486f8d919f5b89a0 drivers: net: ethernet: struct sk_buff is declared duplicately
 3f9143f10c3d5055093b18fd3eaa8fc6d1b460f5 net: ceph: Fix a typo in osdmap.c
@@ -178,114 +178,13 @@ b6908cf795e9687d6323834cf5c6c67a52f64464 NFC: digital: Correct function name in 
 656151aaa623c20bbfcbd5b4e43acbea8d23410f net: dsa: hellcreek: Remove redundant dev_err call in hellcreek_probe()
 d759c1bd2696c8d72d0f824eb32eadac6eb210c8 net: lantiq: Remove redundant dev_err call in xrx200_probe()
 9d0365448b5b954bba1b551ade5b273d629446bb net: moxa: remove redundant dev_err call in moxart_mac_probe()
-aa3eff6653178ee9c2b98e41088293d5893926df i40e/i40evf: cleanup i40e_update_nvm_checksum()
-e65001a6fe847ab435e5457e70b3d5911b2452d9 igc: Add UDP segmentation offload support
-866d7af49b9a0e66082fd44299f39f1fa9d7b2aa ice: remove redundant assignment to pointer vsi
-4180762c0f39c29db10d373ccd2395c998ea68b4 ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
-75c2fd06ce1714791d9bb400d22ab23d2da3374d ice: report security revisions of flash modules via devlink info
-940b0c67d54444c8fb81b3c2844b920a558e584f ice: add devlink parameters to read and write minimum security revision
-eb21d3c2dc92cb4dd13893e5382624544d7af676 virtchnl: Use pad byte in virtchnl_ether_addr to specify MAC type
-a05193d201b129f79cae9f844965c29c47982d93 ice: Manage VF's MAC address for both legacy and new cases
-e8bf2e6225555a4eb39d3440cd1ec249b3c7fda2 ice: Save VF's MAC across reboot
-7f0c347901a9cdfc9d7f1e2db8f37d63af0a22cc ixgbe: Support external GBE SerDes PHY BCM54616s
-2f7c9f91e3ca629d9f467cd1e4ee1bb2efb0fd29 i40e: Add Rx errors aggregation
-af0a4cfc6642af99faf68f492d008c01ec88ba65 ice: Fix AF_XDP multi queue TX scaling issue
-355f90522c7dcb6864505521a378fc5eb699031e ice: Optimize AF_XDP zero-copy TX completion path
-39a2598a680f48e048bdf9dfac5955e65493863f ice: improve AF_XDP single socket performance
-ec56943bc6a4db1a8c91c04ad77b322f614fc515 ice: Refactor ice_setup_rx_ctx
-5dceac295668bd1bc16c40725f7037a43c7c673b ixgbe: aggregate all receive errors through netdev's rx_errors
-d9ef419a6accfca26f15d57db8420a7ba4029c8d i40e: Add Asym_Pause to supported link modes
-f0188d8ae092d635d4abb6a0543ab9e1fa75a780 i40e: add support for PTP external synchronization clock
-5300d6888abb8bc506dcc08c39c829f58739e8bf iavf: Fix asynchronous tasks during driver remove
-bd95b2f2a5fc4333e62e829552c96f498f3f856d i40e: Fix correct max_pkt_size on VF RX queue
-2c574169355cf029c14abd2d999dc0004cc4de8b i40e: refactor repeated link state reporting code
-e7b4c1562c0fad2440dc824962e280bcd06f1f7d virtchnl: Fix layout of RSS structures
-e617c990ce58cb5f245eb923ebaea83dc21a895d igb: Redistribute memory for transmit packet buffers when in Qav mode
-48a16afe48a7166f0635de62cda402d13461904c igc: Remove unused argument from igc_tx_cmd_type()
-f7c58282f205861b6429ac8e5c1b15a59a5f0ee9 igc: Introduce igc_rx_buffer_flip() helper
-6f391542b88aabd4d0dcba79fe096b61fa697e6d igc: Introduce igc_get_rx_frame_truesize() helper
-f35b96451b1dfc5a604fa1ebd4dae23bd90e13f4 igc: Refactor Rx timestamp handling
-172d7e5974e350f15667cd9aa5132300323bd365 igc: Add set/clear large buffer helpers
-b5dcc1a5777a0f844b3f10fcf7b215d1f646513a igc: Add initial XDP support
-993bed827b1550d592c52f295813df543b3112db igc: Add support for XDP_TX action
-1028371e1a59d795f50b7e2f7995f3004d09a656 igc: Add support for XDP_REDIRECT action
-89609aa7900df48a9fcb29f123b2328f05ba4e1b iavf: Fix return of set the new channel count
-8710217a77528f53ff3f0b5014360091652b4363 igc: Enable internal i225 PPS
-38de26041b100e6348b573b4009c14ad803a66fa igc: enable auxiliary PHC functions for the i225
-19a69abd347df10ebdb093e173026fe7cb329f91 ixgbe: Remove unused function pointer typedef ixgbe_mc_addr_itr
-91b828ab73cf518dd6e691dc040fb0e711ae25b7 i40e: Fix inconsistent indenting
-9a04a7f89f1e7469cc863ee15e400b84e5eafc49 i40e: Fix kernel oops when i40e driver removes VF's
-c5406e53672eb585a55f15f87ddfa12f57adb424 i40e: Fix oops at i40e_rebuild()
-70676c3a25bf8b9ac08c69cdad56846a26c18c24 i40e: Fix NULL ptr dereference on VSI filter sync
-6ed72414b06cc39ebbdff4cf7f0805c81b7008a7 igb: Add double-check MTA_REGISTER for i210 and i211
-69a00341288b54c76931d30611bf2f3300d92afa ice: report hash type such as L2/L3/L4
-78cb75a2decd5ae52d182aa9e40e01249445fc5b ice: Fix allowing VF to request more/less queues via virtchnl
-4a5f1cc3dbada9b8181112ff9eb77244a96df439 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
-67aefb65adc7f960cbaa6ba180cd4c3691434086 ice: Continue probe on link/PHY errors
-907d01c62ffdfe43d7f456f1dcafc876cddf4355 ice: Fix VF true promiscuous mode
-971a85e22db38d6ece73bde0e21c86b628e3b3e4 ice: Increase control queue timeout
-3c7f985e88ee481b50408dd47f62c9b184920a0b ice: Recognize 860 as iSCSI port in CEE mode
-2c4bb3b4d700424a0418393afabdbfdc72b87342 ice: prevent ice_open and ice_stop during reset
-10ee1e5aaae89ab9545f5cadc340485710d0753c ice: fix memory allocation call
-45b61ef29b9df225866a9eaedcecb2042ff8ea6d ice: remove DCBNL_DEVRESET bit from PF state
-9cecbff0d055e66c722fc66745ece9594f64c42d ice: Fix for dereference of NULL pointer
-c5fa8cf8948b8d44f03727267db39c4032262a63 ice: Use port number instead of PF ID for WoL
-d31be2e27f4cc8bc515a77eb0e978a60da938fd6 ice: handle the VF VSI rebuild failure
-f9d9e145e2fcf0db1b873bddbdae64ff478c3e33 ice: Cleanup fltr list in case of allocation issues
-bd48b0e67c0c10bd805a7f4b43f4149519c06351 i40e: clean up packet type lookup table
-b31f78248aa36e76bba840c10d0a138eb1bc982e iavf: clean up packet type lookup table
-aba447827753faa5f6cd7d94d9a91d6975b581c0 igc: Move igc_xdp_is_enabled()
-412c924d2dbfd51d39f921aba808e942dfe7f253 igc: Refactor __igc_xdp_run_prog()
-cabd84f4843b61ca9b36ae3d7bcd3a4538d97f26 igc: Refactor igc_clean_rx_ring()
-df076231d4e5d61e8fc24f796e46d3d9c31cd9a8 igc: Refactor XDP rxq info registration
-976823f272032a4b82a9e5d7292891e9adeeee8f igc: Introduce TX/RX stats helpers
-dd8df0035a5c40bb559f720c66cc2c4acfcd94a7 igc: Introduce igc_unmap_tx_buffer() helper
-29f17fb586433819151a50de36836c0082112cb6 igc: Replace IGC_TX_FLAGS_XDP flag by an enum
-7a0b50ea5b223858e5b7f408d57d65b0e880b0a0 igc: Enable RX via AF_XDP zero-copy
-b0621bdb281012756de2cb2d681445c2a96c14db igc: Enable TX via AF_XDP zero-copy
-77f63c7f94d18f0c05cd5818f9618f70fc953803 igb: unbreak I2C bit-banging on i350
-5dabd180b18c635078ced33e6503e4f3949f4ad9 i40e: Fix error handling in i40e_vsi_open
-e78b4ea31c63c84f21bcf6f842bf928f93ce15cd i40e: Fix display statistics for veb_tc
-729178d706ad5d901aabcf7e298452874b1b6eb1 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
-3ed154cb045493e6ccd3f50b86e64d2554ed6d7c ice: warn about potentially malicious VFs
-219159ad505d31a5d141f5920af70ddd6ab4761c ice: Allow ignoring opcodes on specific VF
-d74bb3d4c489ad339dcac6f74ec010aa0dcc8682 ice: Add Support for XPS
-061cf1225c1ef02df799c75f635803ff0164b5ff ice: Delay netdev registration
-0ccd2076c5e5c35760b469e937d59593e09a71a4 ice: Update to use package info from ice segment
-74350632bb7a39816fff3b06d45bcd0fbec2c380 ice: handle increasing Tx or Rx ring sizes
-7b917c0fb947aeae1880bafae4a03501d0c9759f ice: use kernel definitions for IANA protocol ports and ether-types
-9b2434446e07ec8b69f7af4092de1af2a46b8297 ice: change link misconfiguration message
-a3aeea8a72c7639e0fbd4f596426b766b31a63d5 ice: remove unnecessary duplicated AQ command flag setting
-6273a052c2c56a0a13f841133e32a9f6e697eeeb ice: Check for bail out condition early
-35e2cf964ac2758df8ad1b7407b51d545428d2f9 ice: correct memory allocation call
-097f9efa7c2f52bf18e91718ec2147f96df486cd ice: rename ptype bitmap
-03a7edad0851cca8d3be601b210a2daeb0c6f568 ice: Advertise virtchnl UDP segmentation offload capability
-83351d034b2a2748b225b96b8482f0fb50c6c092 iavf: add support for UDP Segmentation Offload
-c7e2c91f372f6d4377ff74142cad63538952b7bc ice: Change ice_vsi_setup_q_map() to not depend on RSS
-ee9b5a2a4478509b21633a97821bde9b7e85a51d ice: Refactor promiscuous functions
-a4d029e7d9385782cd68c6288318a1bcd5b4580e ice: Refactor get/set RSS LUT to use struct parameter
-7aabc9f9d43af40b60ff98d1b16ef6255bd4e185 ice: Refactor ice_set/get_rss into LUT and key specific functions
-1abc30e3300db1e6fd835c64989017ed7862b2e9 ice: Consolidate VSI state and flags
-00d75dc98c4a7c2e773d9349b6090ee3aadc1f4b ice: Drop leading underscores in enum ice_pf_state
-6bb067ed28df4a528744883ed2c86be86e22da7f ice: Add helper function to get the VF's VSI
-a129c9417908ee4078b94b76232af409c3ee07cb ice: Refactor VIRTCHNL_OP_CONFIG_VSI_QUEUES handling
-2bcd1197f9159f54b6daf68f1f3dd84b5c032101 ice: Add new VSI states to track netdev alloc/registration
-bfdfac7cebdf5ed790852eefa38a89871a1a2613 ice: cleanup style issues
-071f18ad1a04d38ed2a2369f5ed4a4136f507e41 ice: Correct comment block style
-47261cdd0c4210d3de4182fbfa78dc5a2c87ba62 ice: Remove unnecessary blank line
-ed54334be09f665f306f60ca71383c2134ecec0d i40e: improve locking of mac_filter_hash
-1687d9451a8ce87613fd637e1a99213ffe8a43e8 i40e: use minimal tx and rx pairs for kdump
-7d5c72d6d2417aac9240018615555615ce86735f i40e: use minimal rx and tx ring buffers for kdump
-719371057e17c5ccee320c62208a844047fda562 i40e: use minimal admin queue for kdump
-2b312805cb25735098d00411c1f2aa9b41f6eaea e1000e: Add support for Lunar Lake
-3788cd8308adf553dca67f0ac1ce9cab6650979e ixgbe: Fix NULL pointer dereference in ethtool loopback test
-f24576b80c723e2b27074d4aab565ed8907437c0 iavf: remove duplicate free resources calls
-de7416debca0448e90969d57411e68ac81158b51 i40e: Fix autoneg disabling for non-10GBaseT links
-93b2d812f92d4caa2390f9b77717be109eeb960f net: ethernet: intel: Fix a typo in the file ixgbe_dcb_nl.c
-5651a543ca52638952720cfd981a95788cdf46e1 i40e: fix receiving of single packets in xsk zero-copy mode
-9903006c079bbc07dabe5e8565ed57ad080e7d47 i40e: Fix parameters in aq_get_phy_register()
-261b442f664e5e14f3629b064be367d7ee435f90 ixgbe: fix unbalanced device enable/disable in suspend/resume
-e455d0c9bb5e327a79a449906743569fdb905c6f igc: Fix overwrites return value
-2bd08150d54f26aa2991e55a3f2e5c11f33b08bf igc: Expose LPI counters
+2f019ebd5330c38e3c28fc8d35cc0bce6f4ddfe4 igc: Remove unused argument from igc_tx_cmd_type()
+613cf199fd10a610d46dd6b3a6eb3b14fe2b1104 igc: Introduce igc_rx_buffer_flip() helper
+a39f5e530559e0e39ab26b28ce5fa9550fd3ec5b igc: Introduce igc_get_rx_frame_truesize() helper
+e1ed4f92a6256ec11445de51c2b5a7d89289f8d1 igc: Refactor Rx timestamp handling
+1bf33f71f9813688bf5ca5a4db0743bb4a4dd563 igc: Add set/clear large buffer helpers
+c76142cc08ef76758f3b3c66493391a2c94bcfdc igc: Add initial XDP support
+9d6c2b5ff956b19dc129fbb3b58f2eebaa2878fc igc: Add support for XDP_TX action
+b3ade61ecec9e494acff6137a14fbf2953797a92 igc: Add support for XDP_REDIRECT action
 
---===============1401229933813407253==--
+--===============2596430703727282961==--
