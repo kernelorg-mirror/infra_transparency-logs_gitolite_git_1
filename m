@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Mon, 29 Mar 2021 21:48:58 -0000
-Message-Id: <161705453837.21204.8267019212194914142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 29 Mar 2021 21:50:26 -0000
+Message-Id: <161705462672.23087.10526630726428524743@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 4e4a4d421a8d7875674bbc0edd11e88fe71ccace
-    new: 65f77f46a4065d8f01e70847fd1da7c81f95153b
+    old: 038ff2d38c8bed11ffda84b92da257c0f6039dae
+    new: 018a628fd9ac7ea5004624e121cfe55a2ae1cb1b
     log: |
-         1f3962a8d816aaef0b9210f0437a173306423b81 test-appliance: add better support for specifying the kernel config
-         0792a7b2543cf9e795f20a5a534f6749430eb4a4 test-appliance: use e2fsprogs from buster-backports for the GCE test appliance
-         65f77f46a4065d8f01e70847fd1da7c81f95153b kernel-configs: add nvme support into the 64-bit configs
+         018a628fd9ac7ea5004624e121cfe55a2ae1cb1b Mon 29 Mar 2021 09:50:02 PM UTC
          
