@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3616961846048704560=="
+Content-Type: multipart/mixed; boundary="===============2856052837828580419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 29 Mar 2021 09:45:25 -0000
-Message-Id: <161701112523.25497.13995696326684729970@gitolite.kernel.org>
+Date: Mon, 29 Mar 2021 09:46:10 -0000
+Message-Id: <161701117003.25763.13432272159347769593@gitolite.kernel.org>
 
---===============3616961846048704560==
+--===============2856052837828580419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 7acac4b3196caee5e21fb5ea53f8bc124e6a16fc
-    new: a5e13c6df0e41702d2b2c77c8ad41677ebb065b3
-    log: revlist-7acac4b3196c-a5e13c6df0e4.txt
+  - ref: refs/heads/for-linux-next
+    old: 17d69bed53b4c841e9cac7c218afe63ee7872ca5
+    new: f7d6bd038a2749f11844da5d82152454f4665aac
+    log: revlist-17d69bed53b4-f7d6bd038a27.txt
 
---===============3616961846048704560==
+--===============2856052837828580419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7acac4b3196c-a5e13c6df0e4.txt
+Content-Disposition: attachment; filename=revlist-17d69bed53b4-f7d6bd038a27.txt
 
 7d7275b3e866cf8092bd12553ec53ba26864f7bb bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
 9bbce32a20d6a72c767a7f85fd6127babd1410ac ARM: dts: am33xx: add aliases for mmc interfaces
@@ -92,6 +92,8 @@ d45c36bafb94e72fdb6dee437279b61b6d97e706 net: dsa: b53: VLAN filtering is global
 fc9e5020971d57d7d0b3fef9e2ab2108fcb5588b igc: Fix igc_ptp_rx_pktstamp()
 21f857f0321d0d0ea9b1a758bd55dc63d1cb2437 e1000e: add rtnl_lock() to e1000_reset_task
 b52912b8293f2c496f42583e65599aee606a0c18 e1000e: Fix error handling in e1000_set_d0_lplu_state_82571
+7421b1a4d10c633ca5f14c8236d3e2c1de07e52b kunit: tool: Fix a python tuple typing error
+7fd53f41f771d250eb08db08650940f017e37c26 kunit: tool: Disable PAGE_POISONING under --alltests
 b80350f393703fa2e733921430276c98bbc092de net: sock: simplify tw proto registration
 ce6c13e4f5b9d26e77f8ffcf9cf8e904d7658d9b Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 db74623a3850db99cb9692fda9e836a56b74198d net/qlcnic: Fix a use after free in qlcnic_83xx_get_minidump_template
@@ -232,6 +234,9 @@ ebccfa8a74dd02564838d3e4cc7c744b41d7bc90 Merge tag 'omap-for-v5.12/fixes-rc1-sig
 67335b8d28cd2ee279d6ab3c72856b76411ba48a Merge tag 'imx-fixes-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
 84f4aced67b102c2f2631c2a48332fcabc826ed2 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
 c79a707072fe3fea0e3c92edee6ca85c1e53c29f net: cdc-phonet: fix data-interface release on probe failure
+519dad3bcd809dc1523bf80ab0310ddb3bf00ade selinux: don't log MAC_POLICY_LOAD record on failed policy load
+6406887a12ee5dcdaffff1a8508d91113d545559 selinux: fix variable scope issue in live sidtab conversion
+ee5de60a08b7d8d255722662da461ea159c15538 selinuxfs: unify policy load error reporting
 896ea5dab25ef12f7d0988b8f0b053a287faf889 e1000e: Fix duplicate include guard
 a75519a84855bca029ce7d8a27de9409d9b84956 igb: Fix duplicate include guard
 f0a03a026857d6c7766eb7d5835edbf5523ca15c igb: check timestamp validity
@@ -288,6 +293,7 @@ d81269fecb8ce16eb07efafc9ff5520b2a31c486 io_uring: fix provide_buffers sign exte
 2d669ceb69c276f7637cf760287ca4187add082e dm table: Fix zoned model check and zone sectors check
 5424a0b867e65f1ecf34ffe88d091a4fcbb35bc1 dm: don't report "detected capacity change" on device creation
 eb50aaf960e3bedfef79063411ffd670da94b84b ACPI: scan: Use unique number for instance_no
+84196390620ac0e5070ae36af84c137c6216a7dc Merge tag 'selinux-pr-20210322' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 92063f3ca73aab794bd5408d3361fd5b5ea33079 integrity: double check iint_cache was initialized
 9aa26019c1a60013ea866d460de6392acb1712ee drm/amdgpu: fix the hibernation suspend with s0ix
 8914089a205be1042f99d49d2087663efc6fafa3 drm/amdgpu: rework S3/S4/S0ix state handling
@@ -324,6 +330,7 @@ b61fde1beb6b1847f1743e75f4d9839acebad76a drm/i915/dsc: fix DSS CTL register usag
 9fcb51c14da2953de585c5c6e50697b8a6e91a7b x86/build: Turn off -fcf-protection for realmode targets
 5116784039f0421e9a619023cfba3e302c3d9adc block: clear GD_NEED_PART_SCAN later in bdev_disk_changed
 a958937ff166fc60d1c3a721036f6ff41bfa2821 block: recalculate segment count for multi-segment discards correctly
+7acac4b3196caee5e21fb5ea53f8bc124e6a16fc Merge tag 'linux-kselftest-kunit-fixes-5.12-rc5.1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 fb9d62b27ab1e07d625591549c314b7d406d21df PM: EM: postpone creating the debugfs dir till fs_initcall
 7547deff8a221e6bf1e563cf1b636844a8e5378a platform/x86: intel_pmt_class: Initial resource to 0
 10c931cdfe64ebc38a15a485dd794915044f2111 platform/x86: intel_pmt_crashlog: Fix incorrect macros
@@ -433,5 +440,45 @@ b44d1ddcf835b39a8dc14276d770074deaed297c Merge tag 'io_uring-5.12-2021-03-27' of
 3fef15f872eec8292d4e53e307c1d17530fb16ba Merge tag 'auxdisplay-for-linus-v5.12-rc6' of git://github.com/ojeda/linux
 f9e2bb42cf0db3a624d295122db3475aa3e7ad18 Merge tag 'perf-tools-fixes-for-v5.12-2020-03-28' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 a5e13c6df0e41702d2b2c77c8ad41677ebb065b3 Linux 5.12-rc5
+48dc16e2e52ca386d97435f257ef8a754becb0b8 firmware: arm_scmi: Extend protocol registration interfaces
+d7b6cc563a600762597ff608f487f90dc8b66f16 firmware: arm_scmi: Introduce protocol handle definitions
+23934efe3748f6d9d8ac0760178a5ef1ed8320f4 firmware: arm_scmi: Introduce devres get/put protocols operations
+3dd2c81475564e604fd5b0a21813b9c2f2950fa3 firmware: arm_scmi: Make notifications aware of protocols users
+5ad3d1cf7d34c00aa5b425d93373b5c0044aa0a9 firmware: arm_scmi: Introduce new devres notification ops
+533c7095b1ff9271a32e5a4b45b2d35f1432ea04 firmware: arm_scmi: Refactor events registration
+b9f7fd907c38a38aea6869c91e38a7d745825442 firmware: arm_scmi: Convert events registration to protocol handles
+a4a20b0975dc7b137e5de4b73f23579fccd57cf9 firmware: arm_scmi: Add new protocol handle core transfer ops
+3d5d6e84ea0e9cf985b1d0d8d359fe693f2466e4 firmware: arm_scmi: Add helper to access protocol revision/version
+8d3581c2526fcc6716d6bd13e4a5c0badd36a034 firmware: arm_scmi: Port base protocol to new interface
+1fec5e6b5233a08ebf43011703b8baf9c9856862 firmware: arm_scmi: Port perf protocol to new protocols interface
+eb1d35c6e3fc71ae6ec1c8c3f433af8a56d46781 cpufreq: scmi: Port driver to the new scmi_perf_proto_ops interface
+f58315a49ce98007870e1206ca5d79fee09cf36e firmware: arm_scmi: Remove legacy scmi_perf_ops protocol interface
+9bc8069c85678e9a61584b58951b7c5fcdd5d357 firmware: arm_scmi: Port power protocol to new protocols interface
+26f19496a9764c0cd73f4f90c669210a59c09be9 firmware: arm_scmi: Port genpd driver to the new scmi_power_proto_ops interface
+0f84576a62c4b42ae7110f1c27bbb51183f232fb firmware: arm_scmi: Remove legacy scmi_power_ops protocol interface
+887281c7519d6e291be5353449d1e1bc00aa63af firmware: arm_scmi: Port clock protocol to new protocols interface
+41c78904afd23a76211a9c5931693d209871eff7 clk: scmi: Port driver to the new scmi_clk_proto_ops interface
+28ce34d990b0067f82de084282f9273c99135580 firmware: arm_scmi: Remove legacy scmi_clk_ops protocol interface
+784c12e102b18c747e24c30ead962524e8836a16 firmware: arm_scmi: Port reset protocol to new protocols interface
+45758dc9c8a8fae1c5c682a55d4e9af76805c4bc reset: reset-scmi: Port driver to the new scmi_reset_proto_ops interface
+5f186fb7017340d85f0eff1517659dcabbb9f232 firmware: arm_scmi: Remove legacy scmi_reset_ops protocol interface
+e1925d101d0b94fbfda131c20dca80e4670bf000 firmware: arm_scmi: Port sensor protocol to new protocols interface
+51a34aed07d76f21bcb89b6a0b575f00e0a25cf3 hwmon: (scmi) port driver to the new scmi_sensor_proto_ops interface
+ce2ede214ed7994f781355ff509c4070c149b503 iio/scmi: port driver to the new scmi_sensor_proto_ops interface
+21ecef9fa25acde5b1914561c0ac4d777a02f12f firmware: arm_scmi: Remove legacy scmi_sensor_ops protocol interface
+009ab8776a5f4c5c309530b0614bb362229dbe47 firmware: arm_scmi: Port systempower protocol to new protocols interface
+772254b3a17bb7b732c5a8fa34ef79e076502fe7 firmware: arm_scmi: Port voltage protocol to new protocols interface
+6e4c8b84d5f48fc86477598ca20177f1abb8affc regulator: scmi: Port driver to the new scmi_voltage_proto_ops interface
+5667619811f0e7a72e8d14e13f675df7ad257b42 firmware: arm_scmi: Remove legacy scmi_voltage_ops protocol interface
+e74f45d0dee99b0fe27ca63afd918a72dcdd0cfa firmware: arm_scmi: Make references to handle const
+690104870afed0c266bd5049300c1c8c61c097df firmware: arm_scmi: Cleanup legacy protocol init code
+71770534d2f1d710d357123594cf690b02788be5 firmware: arm_scmi: Cleanup unused core transfer helper wrappers
+1bff600e9fd9dac3f9d1c3662cc967320168ef8c firmware: arm_scmi: Cleanup events registration transient code
+d8efe72eecb2988fe2828a9ec5220fd2af1b345b firmware: arm_scmi: Make notify_priv really private
+24d47aef641dc0b8702154e2a4fbdafb6b46a169 firmware: arm_scmi: Rename non devres notify_ops
+5bc0f7d8be33d5e1f178fa6821d42ab3ebab152c firmware: arm_scmi: Add protocol modularization support
+8271b0ea84e197c62e5f78083056fe884e7dd9b2 firmware: arm_scmi: Add dynamic scmi devices creation
+6ebaeceed9e9bf355c694efc0951d611860a19b6 Merge branch 'for-next/juno' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+f7d6bd038a2749f11844da5d82152454f4665aac Merge branch 'for-next/scmi' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============3616961846048704560==--
+--===============2856052837828580419==--
