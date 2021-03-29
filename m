@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1125648646619909500=="
+Content-Type: multipart/mixed; boundary="===============0808760693136933953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 29 Mar 2021 02:18:38 -0000
-Message-Id: <161698431866.25943.1934082296220517620@gitolite.kernel.org>
+Date: Mon, 29 Mar 2021 02:21:05 -0000
+Message-Id: <161698446573.28136.1747919744123935663@gitolite.kernel.org>
 
---===============1125648646619909500==
+--===============0808760693136933953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev
+  - ref: refs/heads/dev-test
     old: f3382f3159d7a1b7228f844940fe8534f9beab98
-    new: 0b964600d3aae56ff9d5bdd710a79f39a44c572c
-    log: revlist-f3382f3159d7-0b964600d3aa.txt
+    new: 24a806d849c0b0c1d0cd6a6b93ba4ae4c0ec9f08
+    log: revlist-f3382f3159d7-24a806d849c0.txt
 
---===============1125648646619909500==
+--===============0808760693136933953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f3382f3159d7-0b964600d3aa.txt
+Content-Disposition: attachment; filename=revlist-f3382f3159d7-24a806d849c0.txt
 
 7d7275b3e866cf8092bd12553ec53ba26864f7bb bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
 9bbce32a20d6a72c767a7f85fd6127babd1410ac ARM: dts: am33xx: add aliases for mmc interfaces
@@ -444,5 +444,7 @@ b4892fa3e7fd69e78a82356de45b90758589cafc erofs: avoid memory allocation failure 
 648f2de053a882c87c05f0060f47d3b11841fdbe erofs: use workqueue decompression for atomic contexts only
 30048cdac4b92f39ee50e2a1344f5899f8e70cb6 erofs: use sync decompression for atomic contexts only
 0b964600d3aae56ff9d5bdd710a79f39a44c572c erofs: complete a missing case for inplace I/O
+8137824eddd2e790c61c70c20d70a087faca95fa erofs: don't use erofs_map_blocks() any more
+24a806d849c0b0c1d0cd6a6b93ba4ae4c0ec9f08 erofs: add unsupported inode i_format check
 
---===============1125648646619909500==--
+--===============0808760693136933953==--
