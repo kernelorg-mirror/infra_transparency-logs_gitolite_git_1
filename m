@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 29 Mar 2021 23:22:59 -0000
-Message-Id: <161706017974.13729.3422127982508996708@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 29 Mar 2021 23:24:00 -0000
+Message-Id: <161706024033.14123.107891708395789773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 1bfb3dea965ff9f6226fd1709338f227363b6061
-    new: 6bf24dc0cc0cc43b29ba344b66d78590e687e046
+    old: 87f2c6716f6408b9992d7f2247d1fcc190de2c92
+    new: 24ad92c841c9fa548dc944821721944405ef7963
     log: |
-         6bf24dc0cc0cc43b29ba344b66d78590e687e046 net:tipc: Fix a double free in tipc_sk_mcast_rcv
+         24ad92c841c9fa548dc944821721944405ef7963 ieee802154: hwsim: remove redundant initialization of variable res
          
