@@ -1,76 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Mon, 29 Mar 2021 11:07:34 -0000
-Message-Id: <161701605406.10515.16295991013412710622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Mon, 29 Mar 2021 11:08:18 -0000
+Message-Id: <161701609869.10858.10222116197154806746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/at91/linux
+user: nferre
 changes:
-  - ref: refs/tags/drm-fixes-2020-12-04
-    old: 0000000000000000000000000000000000000000
-    new: 8b898a493bd4db989a645da46a7981e81fcb928e
-  - ref: refs/tags/drm-fixes-2020-12-11
-    old: 0000000000000000000000000000000000000000
-    new: 75d21d33468b8c29cc3d25cf0fe5cbb3d07ac248
-  - ref: refs/tags/drm-fixes-2021-01-08
-    old: 0000000000000000000000000000000000000000
-    new: 69ff34189db0ad1674d594ee4196e07c75081304
-  - ref: refs/tags/drm-fixes-2021-01-15
-    old: 0000000000000000000000000000000000000000
-    new: eb3e1695ec1cd5a927a0ed4c47ccddce69061c62
-  - ref: refs/tags/drm-fixes-2021-01-22
-    old: 0000000000000000000000000000000000000000
-    new: 87861af746b28749a1bc12f8989dca1f56714236
-  - ref: refs/tags/drm-fixes-2021-01-29
-    old: 0000000000000000000000000000000000000000
-    new: 60a235ceb99adb35ffa654699d68201b96b10518
-  - ref: refs/tags/drm-fixes-2021-02-05-1
-    old: 0000000000000000000000000000000000000000
-    new: 97156d78332837f4d557c96641de90d95b2f22c1
-  - ref: refs/tags/drm-fixes-2021-02-12
-    old: 0000000000000000000000000000000000000000
-    new: f14fb1b74acf4fee7a560aed2767bcde849831f3
-  - ref: refs/tags/drm-fixes-2021-03-05
-    old: 0000000000000000000000000000000000000000
-    new: 06f14a0949eb3164c3061f83e2d2842a77db5928
-  - ref: refs/tags/drm-fixes-2021-03-12-1
-    old: 0000000000000000000000000000000000000000
-    new: 9e5cf36cf0ba9787983ddfdacc03e9c917932456
-  - ref: refs/tags/drm-fixes-2021-03-19
-    old: 0000000000000000000000000000000000000000
-    new: a255a50b7a9fa0c157cd945013f9e1f62a2cb565
-  - ref: refs/tags/drm-fixes-2021-03-26
-    old: 0000000000000000000000000000000000000000
-    new: 548c3d74101d17a245a9b032fbefb594153c9c8b
-  - ref: refs/tags/drm-next-2020-12-11
-    old: 0000000000000000000000000000000000000000
-    new: 78e07376f6b2928a203e505eb79ab9dee0bffd99
-  - ref: refs/tags/drm-next-2020-12-18
-    old: 0000000000000000000000000000000000000000
-    new: f28f66fce53bb94888f9d275814c2967cd1405f3
-  - ref: refs/tags/drm-next-2020-12-24
-    old: 0000000000000000000000000000000000000000
-    new: 231d7e9ebc17dfc3ca531da27fe196b46b6ba46a
-  - ref: refs/tags/drm-next-2021-02-19
-    old: 0000000000000000000000000000000000000000
-    new: ee2da13c61b6c0bf7c1eaae35ff3fd3fd1827caa
-  - ref: refs/tags/drm-next-2021-02-26
-    old: 0000000000000000000000000000000000000000
-    new: 62b9d60da7dac82656100832fea8ced6529f38d9
-  - ref: refs/tags/exynos-drm-fixes-for-v5.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d5ff77a2ab52a59433030f4b2061a0bbe8dc0ed5
-  - ref: refs/tags/topic/iomem-mmap-vs-gup-2021-02-22
-    old: 0000000000000000000000000000000000000000
-    new: e032d4c13043c57cd2b6dacb431d3b79d8c508f0
-  - ref: refs/tags/topic/kcmp-kconfig-2021-02-22
-    old: 0000000000000000000000000000000000000000
-    new: e8f9abee24fa57c158307c843fe0d18dceb6ccba
-  - ref: refs/tags/topic/nouveau-ampere-modeset-2021-01-15
-    old: 0000000000000000000000000000000000000000
-    new: ee07b70509cc5c719353902a90fe27c49ddeb65d
+  - ref: refs/heads/at91-defconfig
+    old: a38fd8748464831584a19438cbb3082b5a2dab15
+    new: 4136c4443efce6f028eca74885870ac649981da1
+    log: |
+         7e53ba4e13c287bdb04bb99771bddafa72067dc3 ARM: configs: at91: sama5: update with savedefconfig
+         a0e6830c95b79c865b4195e4f0a14672c6023ce5 ARM: configs: at91: sama5: enable the Hantro G1 engine
+         759835d5aa1e9d839a2ab657528c33b44820eabd ARM: configs: at91: sama5: MCP16502 regulator as built-in
+         3133badba54c6c92ad628a1671b5e6dc6cdd060d ARM: configs: at91: sama5: PIOBU as built-in
+         c016d98eb43bb90e0ef59e1b5a273794277a1a98 ARM: configs: at91: sama5: Enable LAN78XX as module
+         78529d0252093bbd0e52d560e1767497f00673ae ARM: configs: at91: sama5: Add audio MIKROE PROTO board
+         529ab9039a52d8d1366973ab3bbc28eb27365c86 ARM: configs: at91: Add mtd tests as modules
+         48a22e1bdfbc59876f468fead502a5c27fe1289b ARM: configs: at91: Add USB Video webcam class
+         4136c4443efce6f028eca74885870ac649981da1 ARM: configs: at91: Modernize UBI defconfig part
+         
