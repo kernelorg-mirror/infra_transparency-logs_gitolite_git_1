@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Mon, 29 Mar 2021 09:31:51 -0000
-Message-Id: <161701031181.14176.10457122277099795769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 29 Mar 2021 09:39:26 -0000
+Message-Id: <161701076666.18031.7280542041863095785@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/pci/xgene
-    old: 2a8a4f0ce31fcdd118672e33404d52e1362d1ada
-    new: f243b619b42cf565c44b5cf795099579cad822f8
-    log: |
-         f243b619b42cf565c44b5cf795099579cad822f8 PCI: xgene: Fix cfg resource mapping
-         
+  - ref: refs/heads/sched/hotplug
+    old: 0000000000000000000000000000000000000000
+    new: 66baf60a2e980c2c031cac8687bdecf13e313039
