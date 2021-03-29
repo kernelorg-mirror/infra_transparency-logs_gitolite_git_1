@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 29 Mar 2021 00:59:03 -0000
-Message-Id: <161697954380.3873.8283344092261602078@gitolite.kernel.org>
+Date: Mon, 29 Mar 2021 01:02:29 -0000
+Message-Id: <161697974928.9591.946633564937732034@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: b6908cf795e9687d6323834cf5c6c67a52f64464
-    new: 284fda1eff8a8b27d2cafd7dc8fb423d13720f21
+    old: 284fda1eff8a8b27d2cafd7dc8fb423d13720f21
+    new: 30f347ae7cc1178c431f968a89d4b4a375bc0d39
     log: |
-         284fda1eff8a8b27d2cafd7dc8fb423d13720f21 sit: use min
+         30f347ae7cc1178c431f968a89d4b4a375bc0d39 net: stmmac: fix missing unlock on error in stmmac_suspend()
          
