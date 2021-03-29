@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 29 Mar 2021 00:50:04 -0000
-Message-Id: <161697900467.32020.5551704077593205233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 29 Mar 2021 00:51:45 -0000
+Message-Id: <161697910583.32569.3732645463914117812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/io_uring-5.12
-    old: 2b8ed1c94182dbbd0163d0eb443a934cbf6b0d85
-    new: 5a978dcfc0f054e4f6983a0a26355a65e34708cb
+  - ref: refs/heads/master
+    old: 72642f4127c3b560516127408e8f9b92a56e486e
+    new: 214037a146ffb796d3f4b012e818360d2bb29f6b
     log: |
-         5a978dcfc0f054e4f6983a0a26355a65e34708cb io_uring: always go for cancellation spin on exec
+         214037a146ffb796d3f4b012e818360d2bb29f6b drivers: net: smc91x: remove redundant initialization of pointer gpio
          
