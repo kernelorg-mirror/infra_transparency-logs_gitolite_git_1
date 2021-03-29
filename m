@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 29 Mar 2021 07:27:18 -0000
-Message-Id: <161700283831.15510.6366575128364154587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Mon, 29 Mar 2021 07:27:25 -0000
+Message-Id: <161700284504.15651.16883510980776619435@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/master
-    old: 63e59c1c203094e02882841ad263a60e7ed61e96
-    new: 038ff2d38c8bed11ffda84b92da257c0f6039dae
-    log: |
-         038ff2d38c8bed11ffda84b92da257c0f6039dae Mon 29 Mar 2021 07:26:53 AM UTC
-         
+  - ref: refs/tags/v5.12-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
