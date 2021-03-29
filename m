@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5929517538348663259=="
+Content-Type: multipart/mixed; boundary="===============6592066352213180425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 29 Mar 2021 06:57:59 -0000
-Message-Id: <161700107921.27497.12068827103050645359@gitolite.kernel.org>
+Message-Id: <161700107959.27525.10296516309358243976@gitolite.kernel.org>
 
---===============5929517538348663259==
+--===============6592066352213180425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: aaaf04029b8104334aff982c80c3b5659be1f192
-    new: fc4f40c99a419b864b413b877fd8fc5a492ce058
-    log: revlist-aaaf04029b81-fc4f40c99a41.txt
+  - ref: refs/heads/linux-4.9.y
+    old: e0cb3d54252fae6195bd6e3b7898679a6fa34511
+    new: 77a834dcff5f5a07a0ca3272a9795d9cfe0b1aad
+    log: revlist-e0cb3d54252f-77a834dcff5f.txt
 
---===============5929517538348663259==
+--===============6592066352213180425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,89 +32,84 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617001076 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1617001064-96013b400d67bcce8b711faafc6ebb9a473a0c89
 
-aaaf04029b8104334aff982c80c3b5659be1f192 fc4f40c99a419b864b413b877fd8fc5a492ce058 refs/heads/linux-4.14.y
+e0cb3d54252fae6195bd6e3b7898679a6fa34511 77a834dcff5f5a07a0ca3272a9795d9cfe0b1aad refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBhenQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tyYP/RbfkzHWQKfFDPZ0VfD4
-+yn2W5SmeVRJdUkn7IB8UAJhjJflahoVtKxiT6GCuADZ/SOg5N27U5Teirixtkc6
-6QkK8KBpGetr7YmVVwjD4cbtUS8t0tj2OpcSMOdUMFnH5EpVM++qk/QpUNdA+5kp
-m4xYxd0nya0XleQHziUKdaWSqHKDdtgvMDIO2iO/yaMFYyQ/1XfWbx8ytRA03ryZ
-iJAoI3uoy8CCkdUCCJlOm2e84gPafwi2v57CgwpsVbShfqnts0m+fbwoe5L/pZCt
-sXyumAHJE6cAKoyXUXNgWLBL6zQ8YEyYe/0zVKIpXYLRhomo7Qm0rah8ni3Bu1np
-yezNN7mGDmQuKjJrHI20syQzoLQj8N0C4vyBIGqckT09j+B9P14nGuE0QZZN6f89
-f4vsTSewfpzBQiM+QxeLOEPP7RTy7JMg0YWsBy4BZkfb9POF2DqnZyd9nY9mpNgd
-y2VkSZxSmxGLcwO6jF4udi9HIGUo/eP07kTyp1u/mDsDGmnwSxhmeJLsW8qOtCo1
-OjgXkjJXQ3prjdfeRGT+phWYlEgoU1IwO8v+6bqY5nOojsePbzy2eCGQwNCU1/RO
-z3h2TMWtOOslgmFYzF1BpWtpukwTfTLpkdqeVk7zW39p5LwTz2AcVtrvfPgiNyBR
-SF04mwJAAuZoKrRO8M3135Zf
-=VOye
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YF8P/AkkO6D5taSiYI4RuHRS
+zlkrIZG/LbmJwdqyBQ8/U7oiHLFTr9nDFkPt5ZNJJPD/mCMf2wG1i1XPyViWfiOM
+C46IkQK3aXlxL2jdDU52G9f4ZHpjQ77YHXuqDxXCkUxJGtO9oy5psdcqdbL4x3lN
+Xi7tDnz9WTvA/RJPw2uU2oH85DxlayA4o1ZPN3No3M/i7EcdrnMupCD7AjV7s4xf
+PD3RzCA/E23+W0fSK3QQ+dHUKmH6MnHMESmUwnxVdIZXDMBUqgbFCh4MpFM0YjyQ
+Qo43hOFIpXVEcs5zvjdR1hHG+3xEFW2Jr7Xr4MdZMohMlkUutoVtcSw7acSxLBYO
+ICHCMomSoeN7I7XwguF4s/7JJPS2ezrw8ybXh0DMQ6HIHdljVQYY30Tgj6X/b6Kk
+yIUOY7AQlWftmVeZSug5MbaE74gYsqlyPwUTRJ9YNjf8yScdtK3nyWaNDKoqG4IN
+4nISk/6Wj7FdmHron4SjDaG1l1ijwLteZTH2aAPEldvF8a1ngsElP6rBpPFXJeoQ
+cFEGV6MElgGou8VyLFT0gF7xh2LUQtPwriqJfXQzS6Xd9ktLPwoXQ6G/nDAXCdVp
+K/Qwo7hFCwWsAkg9L3xbcGvsQQamsdC9Qr3UXSmyE4/JV97pOr06PZBmiRa1nx4K
+53I6cO1/2A8/3kWUmMI8+He4
+=FtMV
 -----END PGP SIGNATURE-----
 
---===============5929517538348663259==
+--===============6592066352213180425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aaaf04029b81-fc4f40c99a41.txt
+Content-Disposition: attachment; filename=revlist-e0cb3d54252f-77a834dcff5f.txt
 
-6afd67b092dc8471f6ad8e1a2b696833dd5b2d57 net: fec: ptp: avoid register access when ipg clock is disabled
-a57b1b0c226ed7dc8750ea73f9f16f5d061d1259 powerpc/4xx: Fix build errors from mfdcr()
-bd1f0ecbcd36a219769de40aaa7e3490504d6cfe atm: eni: dont release is never initialized
-800454af8713000b066d641f66312d4f9dc60355 atm: lanai: dont run lanai_dev_close if not open
-50bf48485e7bdca28b39396d393137b5e0b79249 Revert "r8152: adjust the settings about MAC clock speed down for RTL8153"
-e943b397d26419f4231f0c1936ecd3ac4ae9e282 ixgbe: Fix memleak in ixgbe_configure_clsu32
-71d51b46d71dd483699358f7c19f602c06aee926 net: tehuti: fix error return code in bdx_probe()
-66c6b3a1a2d14034bfe7de1409ec1ed2acd351a2 sun/niu: fix wrong RXMAC_BC_FRM_CNT_COUNT count
-6d6f3978c581dba02d4c5c275a194b55a53b05c2 gpiolib: acpi: Add missing IRQF_ONESHOT
-174dc00127014d681005c5f049c48ebbe2f8c5e5 nfs: fix PNFS_FLEXFILE_LAYOUT Kconfig default
-eb7d0a43246f4c673924002e6fdc9d348997a8eb NFS: Correct size calculation for create reply length
-813c49db1dc449e70f4c28326dc90ce700d3483c net: hisilicon: hns: fix error return code of hns_nic_clear_all_rx_fetch()
-750d8511c05065bb130068a0b2468b913c698e73 net: wan: fix error return code of uhdlc_init()
-8cdf06b039c6975f68fb2cfe567e8237513050d0 atm: uPD98402: fix incorrect allocation
-4941b9c411989725728c9ddb82ba67f5bab3ad77 atm: idt77252: fix null-ptr-dereference
-6107380fffe58fe15dba85facfedb046f6189161 sparc64: Fix opcode filtering in handling of no fault loads
-8f58a872500f1ca4e96cfe320476bcf344f3c6d5 u64_stats,lockdep: Fix u64_stats_init() vs lockdep
-e6175088ef149f984bfadd583f41bf569406e0cc drm/radeon: fix AGP dependency
-58755a8e5849bf8cb0f8e60303fc1d6be8224111 nfs: we don't support removing system.nfs4_acl
-0369f451b37bc81e38dda2dc442172f6fd4b4a29 ia64: fix ia64_syscall_get_set_arguments() for break-based syscalls
-937d7617426ba64a75bee214fa7873d67f309194 ia64: fix ptrace(PTRACE_SYSCALL_INFO_EXIT) sign
-436ff527cabe5fae8caa62ebba1e7c6fe1340052 squashfs: fix inode lookup sanity checks
-f377a2c5a4b5fae92c1ba0a8a6e24155f63c3dae squashfs: fix xattr id and id lookup sanity checks
-4915e6b43520f0d745dbb19adf41f2faa7e732ff arm64: dts: ls1046a: mark crypto engine dma coherent
-b4335a2d395fc05f1de4e3eedd2354a30507281f arm64: dts: ls1012a: mark crypto engine dma coherent
-2d567e2f5d9ceec745c1b448025e07912065aab7 arm64: dts: ls1043a: mark crypto engine dma coherent
-9b55ab3f19bb6cd9861a60a1e14a87a831252d2f ARM: dts: at91-sama5d27_som1: fix phy address to 7
-4c9cf776a70ae4a96e89823046a38613eca593fb dm ioctl: fix out of bounds array access when no devices
-9f5eb5924909aadadee201c755e653205c210326 bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
-b5b52c9d05892a7a9ecf440a5aa36342cb3810c8 libbpf: Fix INSTALL flag order
-fab94ff7f5912eb4535d7dec8400cc6397d4e5b5 macvlan: macvlan_count_rx() needs to be aware of preemption
-9ffe8d4b7e70b972f1d0ba0d1fcf1b28b4c1a48d net: dsa: bcm_sf2: Qualify phydev->dev_flags based on port
-07a202da70e1d810d84714c37d5bb17156b9cc63 e1000e: add rtnl_lock() to e1000_reset_task
-fea9f3da2ae723ee6aa189f2f5c72b0210a9d184 e1000e: Fix error handling in e1000_set_d0_lplu_state_82571
-10ddcf20eb8be7f63112d384bd8023457e1a86c1 net/qlcnic: Fix a use after free in qlcnic_83xx_get_minidump_template
-1ed159fd9a09ecfbc1ca3bd5544a63936bb3d936 ftgmac100: Restart MAC HW once
-a3f19407905ce1381af013fc3cc27fcdeee3609b can: peak_usb: add forgotten supported devices
-50a1a4eb081e44478441c328d193bbd125bb37ce can: c_can_pci: c_can_pci_remove(): fix use-after-free
-f16abd6980265e23c1986d1b9e3df77a433f9481 can: c_can: move runtime PM enable/disable to c_can_platform
-ec64b95a125d6fe4046be4a8395a969f7b2c5a0d can: m_can: m_can_do_rx_poll(): fix extraneous msg loss warning
-f902bce0dceb804e729da02a0a0efad3c38da272 mac80211: fix rate mask reset
-08d91f2610e349aef8c79ed5733b1746c68bcd75 net: cdc-phonet: fix data-interface release on probe failure
-ae8177d9dd483c40e45b935fee03d00fc756acbf net: stmmac: dwmac-sun8i: Provide TX and RX fifo sizes
-352f3bb0d888ee036a4e09f716685b0872ff5e28 drm/msm: fix shutdown hook in case GPU components failed to bind
-230adbafdbd92a8949824eeef7e706c3bdd5da6f arm64: kdump: update ppos when reading elfcorehdr
-c7a36bb18025b9b0ed3515ae529038c8c135f221 net/mlx5e: Fix error path for ethtool set-priv-flag
-cf458367f63d4f50be14c146e54af06f9001d2a4 RDMA/cxgb4: Fix adapter LE hash errors while destroying ipv6 listening server
-1828bbf5bf3220813931ab07b86c9e51909dbb83 ACPI: scan: Rearrange memory allocation in acpi_device_add()
-2ebf9798a854c29a825914c8124bfb88a53606ea ACPI: scan: Use unique number for instance_no
-768f621b6895ac67a2719d59d65d87ab5b47cba2 perf auxtrace: Fix auxtrace queue conflict
-53ef4a573585e60a16384b23f380f242c48d3914 scsi: qedi: Fix error return code of qedi_alloc_global_queues()
-70aa81557477823433a25cb50a393b76995c016c scsi: mpt3sas: Fix error return code of mpt3sas_base_attach()
-ef4857da72aa61c0b0fcbd1f046b8aa342df26f2 locking/mutex: Fix non debug version of mutex_lock_io_nested()
-9bc695bde041eccc99d176adec018cd7eac269ec can: dev: Move device back to init netns on owning netns delete
-58b7856c1026ab8e04e96a5fc1ee7cfff5ebadb5 net: sched: validate stab values
-d5aa184879c685062b1f1b5c442ae4344eb31403 net: qrtr: fix a kernel-infoleak in qrtr_recvmsg()
-53320109eda94c7e45e8e7798a6ba4398de8671d mac80211: fix double free in ibss_leave
-5dda7994e33664031739b1f20e005bb267c377a2 ext4: add reclaim checks to xattr code
-fc4f40c99a419b864b413b877fd8fc5a492ce058 Linux 4.14.228-rc1
+254e506ae043bf0945cc3090f8487bb163f64943 net: fec: ptp: avoid register access when ipg clock is disabled
+67b17e00a08634eec68652a9a9fab74f3085cc14 powerpc/4xx: Fix build errors from mfdcr()
+c63d7e045487730804bd32eef67c3267adcbb0d0 atm: eni: dont release is never initialized
+5a649eabc5a4de52afb553be749f1d7954323fee atm: lanai: dont run lanai_dev_close if not open
+9389481a99d051871942874a87c8a660375d9034 ixgbe: Fix memleak in ixgbe_configure_clsu32
+62d90be6afd4bd2d749d7462e75a1b72c9374f8f net: tehuti: fix error return code in bdx_probe()
+dcc5195b453487f4e3b537e6dfbbcdbeef70ce77 sun/niu: fix wrong RXMAC_BC_FRM_CNT_COUNT count
+1b99919642ee0a7542c7652a8bc4f2e932d17c11 nfs: fix PNFS_FLEXFILE_LAYOUT Kconfig default
+db079c5c34b4565a73d0b589c17b35ee67b848e7 NFS: Correct size calculation for create reply length
+f2d1ac26f849b88961b523176858ff53f4a28eb0 net: wan: fix error return code of uhdlc_init()
+ed03fe7164c6298168de94c77822a5b8520ed7e9 atm: uPD98402: fix incorrect allocation
+78bdcaaf7aea183d0b0a625d0563e05e52df77a7 atm: idt77252: fix null-ptr-dereference
+0d21fb22395799eab3ae148699dd66dd91ba9164 u64_stats,lockdep: Fix u64_stats_init() vs lockdep
+7f0e2b6d1af064f6b0bbb8f0d57e59994b43d34e nfs: we don't support removing system.nfs4_acl
+c8d946ff1dbd24812a609f5f79c2c47dda402417 ia64: fix ia64_syscall_get_set_arguments() for break-based syscalls
+e814ca39e1f40fcbc56667cdb796990b73066775 ia64: fix ptrace(PTRACE_SYSCALL_INFO_EXIT) sign
+96d2c41151f741dba15cbee233a61677b0383a45 x86/tlb: Flush global mappings when KAISER is disabled
+d48599da8e32d9e70dc5ccfe4d6952c5e5268e6c squashfs: fix inode lookup sanity checks
+8462b329d418c1c2faceb186b1eb8cec04b3ff53 squashfs: fix xattr id and id lookup sanity checks
+6ffc8f15b754cc846f4d71a2723a41a3715010fc arm64: dts: ls1043a: mark crypto engine dma coherent
+a11132a0a06fac07ec2b67324e8e0de1eeed6a13 bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
+ba2474e4a69674afbd273821e2cc5dd5cc425596 macvlan: macvlan_count_rx() needs to be aware of preemption
+ee605c9ffc405120d1feb689872129f18c5a6762 net: dsa: bcm_sf2: Qualify phydev->dev_flags based on port
+0da807f5ea56e1389c9e6ddbc49d0f4df6753ae8 e1000e: add rtnl_lock() to e1000_reset_task
+6dffd66334b8e558135983f2d800b17f79ec6658 e1000e: Fix error handling in e1000_set_d0_lplu_state_82571
+169cd0fcdabbe80430a9b948bede79419d36b58f net/qlcnic: Fix a use after free in qlcnic_83xx_get_minidump_template
+43608bbd149fb1c22b67f4226e6372178d42d252 can: c_can_pci: c_can_pci_remove(): fix use-after-free
+631b92329e0c4d4f2f59a6506de84fff865dbc25 can: c_can: move runtime PM enable/disable to c_can_platform
+f34d12f923381a076fc1e0c9c4753578792111af can: m_can: m_can_do_rx_poll(): fix extraneous msg loss warning
+9fa2af1898ecc19f92bac5998ed76c0f91ab8345 mac80211: fix rate mask reset
+639673150a7dff4906765a0e3136de7efa2bb5cb net: cdc-phonet: fix data-interface release on probe failure
+5c9ba8a28ca0d30325ca038c3a832ee8773a2df4 RDMA/cxgb4: Fix adapter LE hash errors while destroying ipv6 listening server
+fb8d28a7003dfbfec3886ca5d183f834f8b967d0 ACPI: scan: Rearrange memory allocation in acpi_device_add()
+2d6d6d038432c08f56be249e67663f556ed9025b ACPI: scan: Use unique number for instance_no
+0333519b7b7da1a337cf2068bd41f2c4aad02ff2 perf auxtrace: Fix auxtrace queue conflict
+52351d61150346395b3bbd4e1600d01415d97308 idr: add ida_is_empty
+da47e14375018d1311ff04932186a7568e060406 futex: Use smp_store_release() in mark_wake_futex()
+58f08fd83c74e38235a63b27dc2a5c1439b7b31e futex,rt_mutex: Introduce rt_mutex_init_waiter()
+c04d751b36f206c0b780797f7fa68d9d2175eb56 futex: Rework futex_lock_pi() to use rt_mutex_*_proxy_lock()
+63bb6fc101b6eecddbee7d02b1991f4d6566ebf6 futex: Drop hb->lock before enqueueing on the rtmutex
+34d6236fbd5d701afbd3c066bceee0509a1d0304 futex: Avoid freeing an active timer
+0475411c5e314f8e5229441ba91a539af3142ff1 futex,rt_mutex: Fix rt_mutex_cleanup_proxy_lock()
+bc311d8fcc0448820b342fd85996ec1cb8702500 futex: Handle early deadlock return correctly
+3cfe109ab5860d1aa543dc32c536868cafa03847 futex: Fix (possible) missed wakeup
+1122b29a8f1a8a61acbf7c25525aa27d0fac374a locking/futex: Allow low-level atomic operations to return -EAGAIN
+e41a4bb7c4d44647639d075b4dbc05a349b1c4f4 arm64: futex: Bound number of LDXR/STXR loops in FUTEX_WAKE_OP
+0ed146f463b93822d56a8db2201d7b4697b55498 futex: Prevent robust futex exit race
+99891fc81bd0ffb54ba6685141dc535e1b4d89ea futex: Fix incorrect should_fail_futex() handling
+629cf4ade84e3737bd7c3ae122ae1dbc764676c1 futex: Handle transient "ownerless" rtmutex state correctly
+ee1aedb0fa4a72e8568120c01a5400ccaedb554a can: dev: Move device back to init netns on owning netns delete
+2e20b7e588bb5b482029f5dfa296a78cd1a408bc net: sched: validate stab values
+7dd712d6d80f026e06ea8134fc20d802bddf398a net: qrtr: fix a kernel-infoleak in qrtr_recvmsg()
+e4d7d474fc9ab4653e023f49a33b2be4e469f68f mac80211: fix double free in ibss_leave
+77a834dcff5f5a07a0ca3272a9795d9cfe0b1aad Linux 4.9.264-rc1
 
---===============5929517538348663259==--
+--===============6592066352213180425==--
