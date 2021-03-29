@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8990176618398086648=="
+Content-Type: multipart/mixed; boundary="===============2185892156533792162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 29 Mar 2021 13:04:30 -0000
-Message-Id: <161702307060.16537.6468074391792406582@gitolite.kernel.org>
+Date: Mon, 29 Mar 2021 13:04:39 -0000
+Message-Id: <161702307977.16679.11311340783572547158@gitolite.kernel.org>
 
---===============8990176618398086648==
+--===============2185892156533792162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/urgent
-    old: ddce028eb68918bf6ceb1097b0141d7c4775fbee
+  - ref: refs/heads/perf/urgent
+    old: 1dc481c0b0cf18d3952d93a73c4ece90dec277f0
     new: a5e13c6df0e41702d2b2c77c8ad41677ebb065b3
-    log: revlist-ddce028eb689-a5e13c6df0e4.txt
+    log: revlist-1dc481c0b0cf-a5e13c6df0e4.txt
 
---===============8990176618398086648==
+--===============2185892156533792162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ddce028eb689-a5e13c6df0e4.txt
+Content-Disposition: attachment; filename=revlist-1dc481c0b0cf-a5e13c6df0e4.txt
 
 7d200b283aa049fcda0d43dd6e03e9e783d2799c iio:adc:qcom-spmi-vadc: add default scale to LR_MUX2_BAT_ID channel
 d68c592e02f6f49a88e705f13dfc1883432cf300 iio: hid-sensor-prox: Fix scale not correct issue
@@ -692,7 +692,6 @@ d3e2ff28ca27352d43a41053263d620202324c1f mailmap: update Andrey Konovalov's emai
 701c09c988bd60d950d49c48993b6c06efbfba7f Merge tag 'for-5.12-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 db24726bfefa68c606947a86132591568a06bfb4 Merge tag 'integrity-v5.12-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
 09d78dde88ef95a27b54a6e450ee700ccabdf39d Merge tag 'drm-msm-fixes-2021-02-25' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
-1dc481c0b0cf18d3952d93a73c4ece90dec277f0 perf test: Change to use bash for daemon test
 45a4546c6167a2da348a31ca439d8a8ff773b6ea cifs: Adjust key sizes and key generation routines for AES256 encryption
 6f3a283c2f6bbbb5a9a6801a0befa61cb60195f1 Merge branch 'pm-em'
 e1db18b59729e24f001459b98955019344d5b12b Merge branches 'acpi-video' and 'acpi-scan'
@@ -731,4 +730,4 @@ b44d1ddcf835b39a8dc14276d770074deaed297c Merge tag 'io_uring-5.12-2021-03-27' of
 f9e2bb42cf0db3a624d295122db3475aa3e7ad18 Merge tag 'perf-tools-fixes-for-v5.12-2020-03-28' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 a5e13c6df0e41702d2b2c77c8ad41677ebb065b3 Linux 5.12-rc5
 
---===============8990176618398086648==--
+--===============2185892156533792162==--
