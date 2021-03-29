@@ -1,29 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3603101923703879476=="
+Content-Type: multipart/mixed; boundary="===============5316705544375646361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 29 Mar 2021 00:21:09 -0000
-Message-Id: <161697726988.13869.15527739602827716298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Mon, 29 Mar 2021 00:21:23 -0000
+Message-Id: <161697728370.14012.11777292183459510966@gitolite.kernel.org>
 
---===============3603101923703879476==
+--===============5316705544375646361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
+repo: pub/scm/linux/kernel/git/xiang/linux
 user: xiang
 changes:
   - ref: refs/heads/master
     old: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
     new: a5e13c6df0e41702d2b2c77c8ad41677ebb065b3
     log: revlist-0d02ec6b3136-a5e13c6df0e4.txt
-  - ref: refs/tags/v5.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
 
---===============3603101923703879476==
+--===============5316705544375646361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -444,4 +441,4 @@ b44d1ddcf835b39a8dc14276d770074deaed297c Merge tag 'io_uring-5.12-2021-03-27' of
 f9e2bb42cf0db3a624d295122db3475aa3e7ad18 Merge tag 'perf-tools-fixes-for-v5.12-2020-03-28' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 a5e13c6df0e41702d2b2c77c8ad41677ebb065b3 Linux 5.12-rc5
 
---===============3603101923703879476==--
+--===============5316705544375646361==--
