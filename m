@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 30 Mar 2021 17:21:09 -0000
-Message-Id: <161712486951.23523.16075111211474336968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Tue, 30 Mar 2021 17:25:47 -0000
+Message-Id: <161712514782.26176.11299331835137778938@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
   - ref: refs/heads/master
-    old: 018a628fd9ac7ea5004624e121cfe55a2ae1cb1b
-    new: 40d47da3b0dc888165835929130b509cb1a77a26
+    old: fe629c771c4408fe00f30e1626addc165a2f3061
+    new: 7ac27369299ca355f957d54d54368924605c0809
     log: |
-         40d47da3b0dc888165835929130b509cb1a77a26 Tue 30 Mar 2021 05:20:44 PM UTC
+         7ac27369299ca355f957d54d54368924605c0809 Tweak wording in "Work Partitioning" in intro.tex
          
