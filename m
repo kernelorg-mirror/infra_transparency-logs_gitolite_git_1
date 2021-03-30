@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0710269324884855633=="
+Content-Type: multipart/mixed; boundary="===============0299919615694437186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 30 Mar 2021 10:42:17 -0000
-Message-Id: <161710093780.27822.8295429410459120855@gitolite.kernel.org>
+Date: Tue, 30 Mar 2021 10:43:43 -0000
+Message-Id: <161710102344.28339.12330470214415528887@gitolite.kernel.org>
 
---===============0710269324884855633==
+--===============0299919615694437186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,76 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: f06391c45e83f9a731045deb23df7cc3814fd795
-    new: a5e13c6df0e41702d2b2c77c8ad41677ebb065b3
-    log: revlist-f06391c45e83-a5e13c6df0e4.txt
-  - ref: refs/tags/v5.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: a6d574dee98b6bc676391ba747e348b7705732c0
-  - ref: refs/tags/v5.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
-  - ref: refs/tags/v5.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
+  - ref: refs/heads/next
+    old: b7b2feb44c61ed9d9017a941dde32b0b655edea3
+    new: 25e8b9eb096d057bd5c8095d6a95c16091331e82
+    log: revlist-b7b2feb44c61-25e8b9eb096d.txt
 
---===============0710269324884855633==
+--===============0299919615694437186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f06391c45e83-a5e13c6df0e4.txt
+Content-Disposition: attachment; filename=revlist-b7b2feb44c61-25e8b9eb096d.txt
 
-eb441337c7147514ab45036cadf09c3a71e4ce31 gpio: pca953x: Set IRQ type when handle Intel Galileo Gen 2
-b41ba2ec54a70908067034f139aa23d0dd2985ce gpiolib: Read "gpio-line-names" from a firmware node
-781e14eaa7d168dc07d2a2eea5c55831a5bb46f3 thunderbolt: Initialize HopID IDAs in tb_switch_alloc()
-c94732bda079ee66b5c3904cbb628d0cb218ab39 thunderbolt: Increase runtime PM reference count on DP tunnel discovery
-350a5c4dd2452ea999cc5e1d4a8dbf12de2f97ef bpf: Dont allow vmlinux BTF to be used in map_create and prog_load.
-df304c2d0dfd63c40561a8107a217e84fc3515e8 arm64: cpufeatures: Fix handling of CONFIG_CMDLINE for idreg overrides
-cae118b6acc309539b33339e846cbb19187c164c arm64: Drop support for CMDLINE_EXTEND
-07fb6dc327f108937881a096ec6e367a07a7395d arm64/mm: Drop redundant ARCH_WANT_HUGE_PMD_SHARE
-79cc2ed5a716544621b11a3f90550e5c7d314306 arm64/mm: Drop THP conditionality from FORCE_MAX_ZONEORDER
-78a81d88f60ba773cbe890205e1ee67f00502948 x86/sev-es: Introduce ip_within_syscall_gap() helper
-ee2e3f50629f17b0752b55b2566c15ce8dafb557 mount: fix mounting of detached mounts onto targets that reside on shared mounts
-769c18b254ca191b45047e1fcb3b2ce56fada0b6 bpf: Change inode_storage's lookup_elem return value from NULL to -EBADF
-b7dea0cb3d37bc2ee9e7b78722e8729aac7aa1de Merge branch 'cpufreq/arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-28e96c1693ec1cdc963807611f8b5ad400431e82 ALSA: hda: Drop the BATCH workaround for AMD controllers
-0a0be72f93571d327c22b4e575467e198d13c0f8 Merge branch 'for-linus-5.12-rc1' into for-linus
-a0590473c5e6c4ef17c3132ad08fbad170f72d55 nfs: fix PNFS_FLEXFILE_LAYOUT Kconfig default
-6654111c893fec1516d83046d2b237e83e0d5967 MIPS: vmlinux.lds.S: align raw appended dtb to 8 bytes
-eeb0753ba27b26f609e61f9950b14f1b934fe429 arm64/mm: Fix pfn_valid() for ZONE_DEVICE based memory
-093bbe211ea566fa828536275e09ee9d75df1f25 arm64/mm: Reorganize pfn_valid()
-ad3dbe35c833c2d4d0bbf3f04c785d32f931e7c9 NFS: Correct size calculation for create reply length
-e7fb6465d4c8e767e39cbee72464e0060ab3d20c libbpf: Fix INSTALL flag order
-bf9279cd63dcc144b2a3c4c76d8b6b4c30b05c22 net: dsa: bcm_sf2: simplify optional reset handling
-a4813dc7baa4898f66c84ef68274bbbd1a0ae224 net: ethernet: chelsio: inline_crypto: Mundane typos fixed throughout the file chcr_ktls.c
-492bbe7f8a43ff20bb9bfc6b98220dcfb7e5992f net: usb: cdc_ncm: emit dev_err on error paths
-4d8c79b7e9ff05030aad68421f7584b129933ba6 net: usb: log errors to dmesg/syslog
-143c253f42bad20357e7e4432087aca747c43384 net: hisilicon: hns: fix error return code of hns_nic_clear_all_rx_fetch()
-62765d39553cfd1ad340124fe1e280450e8c89e2 net: wan: fix error return code of uhdlc_init()
-03cbb87054c17b50a6ead63ed3ab02e094a785b1 net: dsa: fix switchdev objects on bridge master mistakenly being applied on ports
-ac88c531a5b38877eba2365a3f28f0c8b513dc33 net: davicom: Fix regulator not turned off on failed probe
-cf9e60aa69ae6c40d3e3e4c94dd6c8de31674e9b net: davicom: Fix regulator not turned off on driver removal
-2e2696223676d56db1a93acfca722c1b96cd552d net: davicom: Use platform_get_irq_optional()
-1b2395dfff5bb40228a187f21f577cd90673d344 net: enetc: set MAC RX FIFO to recommended value
-29d98f54a4fe1b6a9089bec8715a1b89ff9ad59c net: enetc: allow hardware timestamping on TX queues with tc-etf enabled
-2055a99da8a253a357bdfd359b3338ef3375a26c net: bonding: fix error return code of bond_neigh_init()
-69dd4503a7e6bae3389b8e028e5768008be8f2d7 irqdomain: Remove debugfs_file from struct irq_domain
-3e895f4cbd158c31f1295d097a73ea4fe50f88f4 ARM: ep93xx: Select GENERIC_IRQ_MULTI_HANDLER directly
-a79f7051cccb6f3bcd3d2a0a058c7d5c79bb0371 irqchip: Do not blindly select CONFIG_GENERIC_IRQ_MULTI_HANDLER
-f0940f4b3284a00f38a5d42e6067c2aaa20e1f2e SUNRPC: Set memalloc_nofs_save() for sync tasks
-82e7ca1334ab16e2e04fafded1cab9dfcdc11b40 NFS: Don't revalidate the directory permissions on a lookup failure
-47397915ede0192235474b145ebcd81b37b03624 NFS: Don't gratuitously clear the inode cache when lookup failed
-fd6d3feed041e96b84680d0bfc1e7abc8f65de92 NFS: Clean up function nfs_mark_dir_for_revalidate()
-ac46b3d768e4c2754f7b191b81e1bea582e11907 NFS: Fix open coded versions of nfs_set_cache_invalid()
-b6f80a2ebb97f184c4679518ac83074598bf9bf4 NFS: Fix open coded versions of nfs_set_cache_invalid() in NFSv4
-e5e35e754c28724d5c619f2ec805fd221f8d59ce bpf: BPF-helper for MTU checking add length input
-e5e010a3063ad801cb3f85793cbada9c2a654e40 selftests/bpf: Tests using bpf_check_mtu BPF-helper input mtu_len param
-27ab92d9996e4e003a726d22c56d780a1655d6b4 mptcp: fix length of ADD_ADDR with port sub-option
-179d0ba0c454057a65929c46af0d6ad986754781 net: qrtr: fix error return code of qrtr_sendmsg()
-1019d7923d9d4cc878a1a85d4fc2d6619cfe1a6a atm: fix a typo in the struct description
-3153724fc084d8ef640c611f269ddfb576d1dcb1 atm: uPD98402: fix incorrect allocation
-4416e98594dc04590ebc498fc4e530009535c511 atm: idt77252: fix null-ptr-dereference
 bf1bc694b6b0cf49756cb06f8f38501b9b2c5527 cifs: print MIDs in decimal notation
 e3d100eae44b42f309c1366efb8397368f1cf8ed cifs: change noisy error message to FYI
 14302ee3301b3a77b331cc14efb95bf7184c73cc cifs: return proper error code in statfs(2)
@@ -1059,5 +1000,55 @@ b44d1ddcf835b39a8dc14276d770074deaed297c Merge tag 'io_uring-5.12-2021-03-27' of
 3fef15f872eec8292d4e53e307c1d17530fb16ba Merge tag 'auxdisplay-for-linus-v5.12-rc6' of git://github.com/ojeda/linux
 f9e2bb42cf0db3a624d295122db3475aa3e7ad18 Merge tag 'perf-tools-fixes-for-v5.12-2020-03-28' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 a5e13c6df0e41702d2b2c77c8ad41677ebb065b3 Linux 5.12-rc5
+147186f531ae49c18b7a9091a2c40e83b3d95649 mmc: core: Do a power cycle when the CMD11 fails
+fefdd3c91e0a7b3cbb3f25925d93a57c45cb0f31 mmc: core: Drop superfluous validations in mmc_hw|sw_reset()
+e9ce2ce17da626d930812199568bd426b2832f57 mmc: core: Drop reference counting of the bus_ops
+6bfe4f749e098b441eec19c0a789415a7cf35065 mmc: dw_mmc: Drop redundant call to ->card_event callback
+b53f0bee7e7ef83ab9496e267a639c2d954c9548 mmc: core: Reduce code duplication to mmc_spi_send_{csd|cid}
+c29b84d6d5577edea7c6a6e6052eb048f963963c mmc: tmio: remove workaround for NON_REMOVABLE
+b03aec1c1f337dfdae44cdb0645ecac34208ae0a mmc: uniphier-sd: Fix an error handling path in uniphier_sd_probe()
+e29c84857e2d51aa017ce04284b962742fb97d9e mmc: uniphier-sd: Fix a resource leak in the remove function
+917a5336f2c27928be270226ab374ed0cbf3805d mmc: core: Set read only for SD cards with permanent write protect bit
+0d856c4c68c639f96cb12c26aaeb906353b9a76e mmc: tmio: support custom irq masks
+f2bdda2ac5ad2d0a025bc2c82c3c0cdc7c1d60fe dt-bindings: mmc: fsl-imx-esdhc: add pinctrl bindings
+d1840f28e12752fc40c087e0a7e168492f021f8f dt-bindings: mmc: fsl-imx-esdhc: add clock bindings
+f410ee0aa2df050a9505f5c261953e9b18e21206 mmc: sdhci-esdhc-imx: validate pinctrl before use it
+f46b54cc72bd71d1b2e620bfa00a95837078261f mmc: sdhci-pci-gli: Enable short circuit protection mechanism of GL9755
+d599005afde8dd86b819d353fd77568c35295337 mmc: sdhci-pci-o2micro: Add missing checks in sdhci_pci_o2_probe
+21e35e898aa9ef7781632959db8613a5380f2eae mmc: sdhci: Check for reset prior to DMA address unmap
+9f12cac1bb88e3296990e760d867a98308d6b0ac mmc: renesas_sdhi: use custom mask for TMIO_MASK_ALL
+1d848c28874e9bf12460dc085ec116d062de8e68 mmc: block: Drop use of unlikely() in mmc_blk_probe()
+ce999ed15e23cbe3d6310e10dffdd585674a393d mmc: block: Simplify logging during probe about added partitions
+6f1d3247662acef35ef6882528028b4b470baab4 mmc: block: Fix error path in mmc_blk_probe()
+407a1c570f9248886be21a396c0ea7f7f5e7b3cc mmc: core: Remove mq->use_cqe from the struct mmc_queue
+8c87dab92f90c4c8f45d7ac302da878e269d3695 memstick: core: Assign error code of mspro_block_resume()
+95211a98e3b202479d81026ceeae58529bbc4d02 mmc: sdhci-st: simplify optional reset handling
+baf6fe4036421ca9ebf5087c117ffe5bdb5dc436 mmc: dw_mmc: simplify optional reset handling
+3a75283a6b12e60c902f5ca84b8a27010024ce69 mmc: via-sdmmc: remove unneeded variable 'ret'
+ba8734dfbe87b9dd68c9d525c0a3a52e8da42167 mmc: sdhci-pci: Avoid comma separated statements
+d2f025b08e9eb5e8e96c65c2b5dc01318801059a mmc: sdhci: Use "mmc" directly rather than "host->mmc"
+18bbda900ffa7770b93daa1bc1ce3be39e643101 mmc: sdio: fix a typo in the comment of SDIO_SD_REV_3_00
+17a17bf50612e6048a9975450cf1bd30f93815b5 mmc: core: Fix hanging on I/O during system suspend for removable cards
+9a8a369bd0b0c172b880f3393bb0322de98dc97c memstick: Remove useless else branch
+ebe9572fd28c0336bb98e5856b03344660c25a5e mmc: sdhci-esdhc-imx: Remove non-DT stub
+91b3d2e5b7af086d74c15c0b62dcb5073ce8055d mmc: sdhci-esdhc-imx: Use device_get_match_data()
+169162ca4781480ea5bb67b0610f3efbecaf3e66 dt-bindings: mmc: sdhci-of-dwcmhsc: Convert to yaml file
+dd12261e7fd9a3c7f6ddf76152764861ad4f0e12 dt-bindings: mmc: sdhci-of-dwcmhsc: Add rockchip support
+08f3dff799d43bd2ec9d5e05c819ae3f253fe5cd mmc: sdhci-of-dwcmshc: add rockchip platform support
+ab0cdefec052825303c05687d9416bafc867fe3d mmc: tmio: abort DMA before reset
+0e5870145840e91fc33cd4eca6e228b009d86705 mmc: renesas_sdhi: break SCC reset into own function
+b4d86f37eacb724690d0d300576b82806bc743d5 mmc: renesas_sdhi: do hard reset if possible
+eb9cb7227e5c4ca81d988ada577a6d5c054ee111 dt-bindings: mmc: Add compatible for Mediatek MT8195
+955047f3c35a3116416ffbddcaeeb6499afaf43b mmc: sdhci-acpi: Add device ID for the AMDI0041 variant of the AMD eMMC controller.
+6b0e0fce4074c1fd6d7d56face140ce67110b3b2 mmc: cavium: Use '"%s...", __func__' to print function name
+0a446288aa9f28ab00a31b8b51fdb005953f9f99 mmc: tmio: restore bus width when resetting
+6e5c951b4c3a0bd9aa5838ecec98f3c795c83ff1 mmc: tmio: always flag retune when resetting and a card is present
+ee629112be8b4eff71d4d3d108a28bc7dc877e13 mmc: sdhci-pci: Add PCI IDs for Intel LKF
+eb81ed518079eaf8aca1053ffba54c56271b9f35 mmc: sdhci-of-dwcmshc: add ACPI support for BlueField-3 SoC
+34884c4f6483b9d9f14973cd0c9c06404fe6e13d mmc: sdhci-of-dwcmshc: fix error return code in dwcmshc_probe()
+57ac3084f598d238ae829d595bfc20afaf0feb38 mmc: sdhci-of-dwcmshc: set MMC_CAP_WAIT_WHILE_BUSY
+bac53336ca816624581a3de5f2c0991343ae5341 mmc: sdhci: replace mmc->parent with mmc_dev() for consistency
+f0bdf98fab058efe7bf49732f70a0f26d1143154 mmc: sdhci-brcmstb: Remove CQE quirk
+25e8b9eb096d057bd5c8095d6a95c16091331e82 mmc: sdhci-esdhc-imx: separate 100/200 MHz pinctrl states check
 
---===============0710269324884855633==--
+--===============0299919615694437186==--
