@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1555180407607699818=="
+Content-Type: multipart/mixed; boundary="===============5610592073498705203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 30 Mar 2021 16:31:02 -0000
-Message-Id: <161712186242.4299.8261899713513946664@gitolite.kernel.org>
+Date: Tue, 30 Mar 2021 16:31:12 -0000
+Message-Id: <161712187241.4442.842846333912376762@gitolite.kernel.org>
 
---===============1555180407607699818==
+--===============5610592073498705203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 05d817031ff9686a8206039b19e37616cf9e1d44
     new: 2976706f3408da99c0d44190a160c5e075c2ec73
     log: revlist-05d817031ff9-2976706f3408.txt
 
---===============1555180407607699818==
+--===============5610592073498705203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ ef9280789773c974b45f809d58b47b481f2cf9f5 selftests: xsk: Remove thread for netns
 ae6b6a17800f34dd5215286b44a4e99a0a1cf862 selftests: xsk: Remove unused defines
 2976706f3408da99c0d44190a160c5e075c2ec73 Merge branch 'AF_XDP selftests improvements & bpf_link'
 
---===============1555180407607699818==--
+--===============5610592073498705203==--
