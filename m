@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7927983691896111761=="
+Content-Type: multipart/mixed; boundary="===============5481740914020197978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 30 Mar 2021 15:35:25 -0000
-Message-Id: <161711852532.13957.15828804578019112181@gitolite.kernel.org>
+Date: Tue, 30 Mar 2021 15:36:05 -0000
+Message-Id: <161711856514.14261.1022517003097284726@gitolite.kernel.org>
 
---===============7927983691896111761==
+--===============5481740914020197978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi
-    old: b51e3a4e210457c5fdc295e7d81e7716353d0189
-    new: d4f9dddd21f39395c62ea12d3d91239637d4805f
-    log: revlist-b51e3a4e2104-d4f9dddd21f3.txt
+  - ref: refs/heads/for-linux-next
+    old: f7d6bd038a2749f11844da5d82152454f4665aac
+    new: 6f3b0a67ecd5f3a912f78bfa2e4d16da91a018e5
+    log: revlist-f7d6bd038a27-6f3b0a67ecd5.txt
 
---===============7927983691896111761==
+--===============5481740914020197978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b51e3a4e2104-d4f9dddd21f3.txt
+Content-Disposition: attachment; filename=revlist-f7d6bd038a27-6f3b0a67ecd5.txt
 
+87c524639ee63f1aa651f3602496cae22e439b90 Merge branch 'for-next/juno' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 beb076bb181b0135ee582d1bc18dfe924270da48 clk: scmi: Port driver to the new scmi_clk_proto_ops interface
 137e68659e90b242049bfd1fab2700bbcf476140 firmware: arm_scmi: Remove legacy scmi_clk_ops protocol interface
 7e029344223824dbf21e759bf9c0d08f633edb16 firmware: arm_scmi: Port reset protocol to new protocols interface
@@ -47,5 +48,6 @@ a02d7c93c1f3cc892b69b50069ae757c92c03b0d firmware: arm_scmi: Make notify_priv re
 aa1fd3e4cb976248651c319bb0ef929345958cf4 firmware: arm_scmi: Rename non devres notify_ops
 f5800e0bf6f9b7ff7dfa4db8b0681bd062eb16a4 firmware: arm_scmi: Add protocol modularization support
 d4f9dddd21f39395c62ea12d3d91239637d4805f firmware: arm_scmi: Add dynamic scmi devices creation
+6f3b0a67ecd5f3a912f78bfa2e4d16da91a018e5 Merge branch 'for-next/scmi' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============7927983691896111761==--
+--===============5481740914020197978==--
