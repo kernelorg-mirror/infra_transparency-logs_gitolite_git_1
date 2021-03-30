@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2106757859673528401=="
+Content-Type: multipart/mixed; boundary="===============8879464780210868317=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 30 Mar 2021 03:52:20 -0000
-Message-Id: <161707634021.20314.7836349627977523629@gitolite.kernel.org>
+Date: Tue, 30 Mar 2021 03:52:27 -0000
+Message-Id: <161707634735.20407.7832379040450452237@gitolite.kernel.org>
 
---===============2106757859673528401==
+--===============8879464780210868317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,71 +16,66 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: cba3ebfc008e89a58788b2055e82c95331aaefa7
-    new: c2255ece2be2454dff0b549e2ceb234bfe798181
-    log: revlist-cba3ebfc008e-c2255ece2be2.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: df401a155b9c218d065b821e6cf8334d12d58718
+    new: 8e469d7d52b9802d420668e71587f16d7901e7b6
+    log: revlist-df401a155b9c-8e469d7d52b9.txt
 
---===============2106757859673528401==
+--===============8879464780210868317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1617076338 -0400
+pusher 75C5DE3D 1617076345 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1617076338-a84c5e5c542790e37c5bad56df28d1270907e2fb
+nonce 1617076345-c627a8b899ef309dcf751ff211ac31feab6af929
 
-cba3ebfc008e89a58788b2055e82c95331aaefa7 c2255ece2be2454dff0b549e2ceb234bfe798181 refs/heads/queue
+df401a155b9c218d065b821e6cf8334d12d58718 8e469d7d52b9802d420668e71587f16d7901e7b6 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBioHIACgkQ7ulgGnXF
-3j0m7g//Tw0YPWuB4jdWjNyoHPfXtIxtljFECWlBm2V7voS1inhbhnxCZT0y3J8r
-9b4il1bgQ6HPH7HssduslmhZoqNL4CnjPwsQ9ajD9NMF+B054laEVdw46xB3V5aI
-/AzJ625SjBTtygZAEGDJEwNaZZPUxO0OJOaat957s7pVeVw7PrFPJrs9eGyRqOHQ
-ZcxKlFPCODvZ14cB+MnkOp4uoEOK+WAVGHNjaebyYb12MDDBmV86+02KL0UQhA64
-7pEU8z6uerhyosSdwUTTIcwukvMCOGTrtfzWIoclo9wlrg50pqG0JDF4n4GZ6vWQ
-xLm7fBbUxd8hEQ2N8daS6qWsDXXuFLl31/1IkhOMuuH4L0eSR64O8smYLPw74exx
-oPVJ58w1S/zOOEws+SJbKjZP6hjMOB2Cp/rPxN3bYwT+0T+DKWGRfMadco3bj92J
-Wl1A9PayjOp1XemUVhwwAAc+pBosjtkTnFzWmQOhVAiDacP6H+Bk821ONmyVcM9a
-sSWPUmaunRCAAguWpDBYSaFD+R7rVKR3VC1bxRsIZxoxDoe+kaW5KuoSxl5oZ/+9
-25Xddln2fHmd8C2lC5JPBMHCpGf+tdcuhdgNSoa9tt9Nl2vtJRdf9T6IAdNRuCIE
-EFIRrl1xeYC1YhVA1L8EqxVNdgMwkRmcaHq74Y+ntiE+ypuamag=
-=KFTR
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBioHkACgkQ7ulgGnXF
+3j2aaA/+MIuPvNAWAfS8ShvC7Fk54PoF5k6qFpwbxCerIoSM7/avl25OSvCKGcBM
+cPACc2lC0tXmEk+vvvwiWPqaUgxx9ay/bNeKSa1c/uK/jNMGYiwSOFQq2LxQ7o8a
+YJCJiHcw1vcqXczcOchNyBcNOwHNrLMfFiY8lURIs5KehK4T3vGWkzPwA38skbud
+qIhgLHAjwfRlw/G7bNBIexaf446+qI40iajYfA8j+V3Q3/iGAr/29kHebkwbyyJq
+sp9ZFASJ8UpPflNAcGS0P96i6uQEq1zDS8FTIxk/fD0aPJEEDVMWf93g5eZ8nypr
+Gy+s2j1dvhY7jmhqvNtuRkId35wW7PHG3qxGWVWS3lmtOi7EyPJn6OsXkR2o13AG
+5Btttbbmvx2kREuOjtBp9ov4TMOfWZ/tc5s0Iwfiuk7dWTddv6ort7kUGc8Xf7q0
+GNcpaNhfIuCQLDzyU50bDpGzf8JM0JcurEWnMRLlLA0SMG6qIawMa3BnXpuLnMnD
+E0w2uyW9CIaHNG+se2pRt4Qt4/mjU7H0ZR5s7FX291MB+VaRwf5LfYQ3WsJ1D9mQ
+9xNM3KxgPJ90xF9W+RKlPob8X+RQfEYQ22syOpYwZgUAAZjx/dO8AhU/UykOXDfo
+nX1XFuCpJjeRxcuACCgcLstZgLiB4e29TfhNOahuBg1IWnvsvOE=
+=NiMq
 -----END PGP SIGNATURE-----
 
---===============2106757859673528401==
+--===============8879464780210868317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cba3ebfc008e-c2255ece2be2.txt
+Content-Disposition: attachment; filename=revlist-df401a155b9c-8e469d7d52b9.txt
 
-634b9774d335020e2cd55950a6c1242e7e3bd1e7 scsi: qla2xxx: Constify struct qla_tgt_func_tmpl
-37ce4f3531d4a38f3f598fab45d80be5b46aee3c scsi: qla2xxx: Fix endianness annotations
-17603237f789cfb135fd8e01a7edca27a46a6f6e scsi: qla2xxx: Suppress Coverity complaints about dseg_r*
-a20821e3f4719458a888af634c10c286365ecd6f scsi: qla2xxx: Simplify qla8044_minidump_process_control()
-a2b2cc660822cae08c351c7f6b452bfd1330a4f7 scsi: qla2xxx: Always check the return value of qla24xx_get_isp_stats()
-e5406d8ad4a1659f4d4d1b39fe203855c4eaef2d scsi: qla2xxx: Check kzalloc() return value
-973c920811bc60e1e824be0ec355a9b0a7a3d4d5 scsi: dc395x: Use bitwise instead of arithmetic operator for flags
-be20b96b63197eb2e87ffa8973fadb194a16ee80 scsi: mac53c94: Fix warning comparing pointer to 0
-adb253433dc8bc8dd569ee03b233fed21afc1dc7 scsi: bnx2i: Make bnx2i_process_iscsi_error() simpler and more robust
-7a0c0e6ce130f506449549c5c5fe7902cf83a200 scsi: ufs: core: Correct status type in ufshcd_vops_pwr_change_notify()
-dfd35e1d5934ca5fb6a8f30cdaa24d919c23d7a3 scsi: ufs: ufs-exynos: Remove pwr_max from parameter list of exynos_ufs_post_pwr_mode()
-690209d5ebefc8a2f05b8edb1af7769f1bf15440 scsi: message: fusion: Remove unnecessary cast
-3ba9f38ed43de60ca93afd2aaf3d27572e0352eb scsi: fnic: Remove unnecessary cast
-0d556a21a9dae9ec4e2373825da653447e4eb79c scsi: ibmvscsi: Remove unnecessary cast
-3070c72155c5bba86c02f0a8a7493b0c16a9bfdd scsi: qla1280: Fix warning comparing pointer to 0
-1630e752fb8340b188c45eed4fe52a9f2a918e27 scsi: bfa: Fix warning comparing pointer to 0
-0873045f63c474db5c9f816a01fb1a7f64ea21b2 scsi: ufs: Remove unnecessary NULL checks in ufshcd_find_max_sup_active_icc_level()
-a89562e31f01457c4a9529d6271ce21995784aa8 scsi: csiostor: Fix a typo
-206a3afa9482a85e386b8c9e9961489e12027149 scsi: mpt3sas: Fix a typo
-5fae809faec6708a86abcbefc8a820de41e43bea scsi: bnx2fc: Fix a typo
-ae98ddf05fdb92d5ce6d890911b8ee6f5075678b scsi: scsi_dh: Fix a typo
-89bbf550eafccd120eb9c6c962f6eeda3b8a254c scsi: lpfc: Fix a typo
-9991ca001b9c12e5beb22d00157c766ebb131b5f scsi: bfa: Fix a typo in two places
-835b8c16a0e32403b9e07d2b5ea2fa69cefbab6a scsi: esp_scsi: Trivial typo fixes
-f1891f9bbc46f83099cbd0911b81b7225258ac03 scsi: lpfc: Fix a typo
-c2255ece2be2454dff0b549e2ceb234bfe798181 scsi: pm8001: Avoid -Wrestrict warning
+bcafad6c2d520df42c86f28357d639deac15bad7 scsi: qla2xxx: Fix IOPS drop seen in some adapters
+a63f4c45414951ad4fbaeb5b744e37ffd137b689 scsi: qla2xxx: Add H:C:T info in the log message for fc ports
+c358a3d92b32be89ea1c44fe75721448c0a0fec1 scsi: qla2xxx: Fix stuck session
+5777fef788a59f5ac9ab6661988a95a045fc0574 scsi: qla2xxx: Consolidate zio threshold setting for both FCP & NVMe
+2ce35c0821afc2acd5ee1c3f60d149f8b2520ce8 scsi: qla2xxx: Fix use after free in bsg
+6641df81ab799f28a5d564f860233dd26cca0d93 scsi: qla2xxx: Fix crash in qla2xxx_mqueuecommand()
+610d027b1e6372ffe3e85e8e095a562e920fd5cd scsi: qla2xxx: Fix RISC RESET completion polling
+f7a0ed479e66ab177801301a1a72c37775c40450 scsi: qla2xxx: Fix crash in PCIe error handling
+daafc8d33ff62009e52225106f1a6c20fe1b6ccd scsi: qla2xxx: Fix mailbox recovery during PCIe error
+1cbcc531d01f813e6a93cefdc7476f858ff2b301 scsi: qla2xxx: Update default AER debug mask
+022a2d211ce0eb410a2f4d0d0903a5ddf7687b55 scsi: qla2xxx: Do logout even if fabric scan retries got exhausted
+10d91a15f26e76aec9e6fed31df7e8065f40770f scsi: qla2xxx: Update version to 10.02.00.106-k
+d2478dd256915fd0a971a1daba23cb9cadde1132 scsi: fnic: Remove bogus ratelimit messages
+eee8910fe0b502740e5dbb167e130dae791d3d13 scsi: core: Fix comment typo
+fe515ac827689d6f71d967c8e300a59cfeded42b scsi: core: Remove duplicate declarations
+8dc60252968178a132898ea2e1dc7a8e9a05e635 scsi: qedi: Remove redundant assignment to variable err
+6bfe9855daa3e952faca691dbb2895c523c81b36 scsi: core: scsi_host_cmd_pool is declared twice
+92b4c52c43e1309368bc858a56b4e5d6db159d99 scsi: a100u2w: Remove unused variable biosaddr
+ce0b6e38877258a5a8f2f583b53957d4a778da36 scsi: advansys: Fix spelling of 'is'
+182ad87c95e7fded2134e5aae170b7074bd778c6 scsi: myrb: Make symbols DAC960_{LA/PG/PD/P}_privdata static
+e27f3c88e2500556b2f1f0ed134a2a4834f88ba3 scsi: myrs: Make symbols DAC960_{GEM/BA/LP}_privdata static
 
---===============2106757859673528401==--
+--===============8879464780210868317==--
