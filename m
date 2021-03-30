@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Tue, 30 Mar 2021 05:15:11 -0000
-Message-Id: <161708131171.7862.11918225578026819556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Tue, 30 Mar 2021 05:26:41 -0000
+Message-Id: <161708200152.13708.4011250306892278419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/fixes
-    old: 0dbea4ac10f316ee0d4d94d83a0b5df8c5662059
-    new: e641318db4c24873d77b27182c4310e53229f429
+  - ref: refs/heads/master
+    old: b1e3a5607034aa0a481c6f69a6893049406665fb
+    new: c7dbf4c08868d9db89b8bfe8f8245ca61b01ed2f
     log: |
-         e641318db4c24873d77b27182c4310e53229f429 riscv: Drop const annotation for sp
+         c7dbf4c08868d9db89b8bfe8f8245ca61b01ed2f xfrm: Provide private skb extensions for segmented and hw offloaded ESP packets
          
