@@ -1,22 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 30 Mar 2021 19:24:48 -0000
-Message-Id: <161713228807.1894.9159400349601322404@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 30 Mar 2021 19:43:52 -0000
+Message-Id: <161713343251.14178.8814476690297432996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 9d493f8060ee17cf7cab3e6d9d3387c8c840a266
-    new: 09080c0022ba11ddf70b8b0c4f5119072017e04e
+  - ref: refs/heads/bleeding-edge
+    old: a70fdf61936ab0200d31bebea4b44bb67454ce07
+    new: 506a524e05e240d2878cf86a56c47e72e09d329f
     log: |
-         b175b8504c61c9684d6f5e37949161c296d5d65d adv_monitor: split rssi_parameters into its own struct
-         820dfd11f794f21d79326e4779e9c877fce9b930 adv_monitor: merge monitors with the same pattern
-         9f11632b1fca71af4ae7de58ea757a5bf7de20da test: Fix AdvMonitor RSSI filter properties
-         09080c0022ba11ddf70b8b0c4f5119072017e04e profiles/battery: Reset battery value cache on disconnect
+         3e759425cc3cf9a43392309819d34c65a3644c59 ACPI: scan: Fix _STA getting called on devices with unmet dependencies
+         bc5706eaeae0b51385d3859b0fdf17a2c8fdc134 ACPI: processor: Fix CPU0 wakeup in acpi_idle_play_dead()
+         506a524e05e240d2878cf86a56c47e72e09d329f Merge branches 'acpi-scan' and 'acpi-processor-fixes' into linux-next
+         
+  - ref: refs/heads/linux-next
+    old: 1d535f1c735a0cbe50c8446d81760a1d07605610
+    new: 506a524e05e240d2878cf86a56c47e72e09d329f
+    log: |
+         3e759425cc3cf9a43392309819d34c65a3644c59 ACPI: scan: Fix _STA getting called on devices with unmet dependencies
+         bc5706eaeae0b51385d3859b0fdf17a2c8fdc134 ACPI: processor: Fix CPU0 wakeup in acpi_idle_play_dead()
+         506a524e05e240d2878cf86a56c47e72e09d329f Merge branches 'acpi-scan' and 'acpi-processor-fixes' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 1d535f1c735a0cbe50c8446d81760a1d07605610
+    new: 506a524e05e240d2878cf86a56c47e72e09d329f
+    log: |
+         3e759425cc3cf9a43392309819d34c65a3644c59 ACPI: scan: Fix _STA getting called on devices with unmet dependencies
+         bc5706eaeae0b51385d3859b0fdf17a2c8fdc134 ACPI: processor: Fix CPU0 wakeup in acpi_idle_play_dead()
+         506a524e05e240d2878cf86a56c47e72e09d329f Merge branches 'acpi-scan' and 'acpi-processor-fixes' into linux-next
          
