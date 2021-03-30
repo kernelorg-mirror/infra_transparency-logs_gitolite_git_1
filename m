@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 30 Mar 2021 21:53:45 -0000
-Message-Id: <161714122507.28998.18384368048181387947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 30 Mar 2021 21:59:11 -0000
+Message-Id: <161714155152.31919.14086362633655701119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 6ac86aae89289121db784161fe318819778f7f2a
-    new: 5e46d1b78a03d52306f21f77a4e4a144b6d31486
+  - ref: refs/heads/dev
+    old: a5cb04fd22216335414dfe26142d98d019b977aa
+    new: 3f0d0d00b8f3fe58754071eb7726c5128b5816da
     log: |
-         5e46d1b78a03d52306f21f77a4e4a144b6d31486 reiserfs: update reiserfs_xattrs_initialized() condition
+         c301d0657435c59d1931ac26837853e6a0714b7e rcu: Remove the unused rcu_irq_exit_preempt() function
+         3f0d0d00b8f3fe58754071eb7726c5128b5816da rcu: Improve tree.c comments and add code cleanups
          
