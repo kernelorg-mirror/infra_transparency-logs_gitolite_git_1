@@ -1,24 +1,39 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Tue, 30 Mar 2021 19:45:42 -0000
-Message-Id: <161713354277.16188.4576739225695751942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Tue, 30 Mar 2021 19:52:30 -0000
+Message-Id: <161713395097.19520.4159718445329319083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/for-next
-    old: 9a6944fee68e25084130386c608c5ac8db487581
-    new: 70193038a6ec9bbf10990a126432b0cbf56aa339
+  - ref: refs/heads/master
+    old: 0a7c13207d6be589312614415caf2ed51ddaa63f
+    new: ec3a9746a98be0abeba0ab5ec7f6c0830e8b7656
     log: |
-         2cf3af7aa6df0e173f2bff57b73427bb05b30ba0 scripts/recordmcount.pl: Make indent spacing consistent
-         b700fc3a63f16d6e130433fdcbe3f5f223c7662c scripts/recordmcount.pl: Make vim and emacs indent the same
-         f2cc020d7876de7583feb52ec939a32419cf9468 tracing: Fix various typos in comments
-         4613bdcc122e9e60e0763c5851337470d25d7e40 kernel: trace: Mundane typo fixes in the file trace_events_filter.c
-         30c3d39f7f78f3b232f6a6f6357a545cbe23cc16 tracing: A minor cleanup for create_system_filter()
-         70193038a6ec9bbf10990a126432b0cbf56aa339 tracing: Update create_system_filter() kernel-doc comment
+         bd4f374b47e7c5f82a1f617e3c27e635da58f7d1 Fix supposed debug message.
+         530bcfd4fad2ac6ef04ae746156e6285fc70bbd3 Allow CRYPT_BUSY also a a valid check for active device.
+         ec3a9746a98be0abeba0ab5ec7f6c0830e8b7656 integritysetup: add recalculate-reset flag.
          
+  - ref: refs/merge-requests/153/head
+    old: 0000000000000000000000000000000000000000
+    new: bd4f374b47e7c5f82a1f617e3c27e635da58f7d1
+  - ref: refs/merge-requests/153/merge
+    old: 0000000000000000000000000000000000000000
+    new: a88d8a912d7743cde38d1f1ad2a2a0665ab7eed7
+  - ref: refs/merge-requests/154/head
+    old: 0000000000000000000000000000000000000000
+    new: 530bcfd4fad2ac6ef04ae746156e6285fc70bbd3
+  - ref: refs/merge-requests/154/merge
+    old: 0000000000000000000000000000000000000000
+    new: b8d3c20fa11ead231f127af70fea16b318f6e856
+  - ref: refs/merge-requests/155/head
+    old: 0000000000000000000000000000000000000000
+    new: 4ff608229dcddba8b00e0398b698b86d535dcb54
+  - ref: refs/merge-requests/155/merge
+    old: 0000000000000000000000000000000000000000
+    new: 80f6e41a0b044c286c1f3d27f5342577ec4bf5c5
