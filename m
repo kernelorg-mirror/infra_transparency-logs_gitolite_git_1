@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 30 Mar 2021 16:26:15 -0000
-Message-Id: <161712157536.1050.10697267916216107279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Tue, 30 Mar 2021 16:26:25 -0000
+Message-Id: <161712158579.1189.10485034980525727344@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: eballetbo
 changes:
-  - ref: refs/heads/testing/warray-bounds
-    old: 2b78dd4170719aec471fd65ee266aecabb18581b
-    new: d0311082facc64f0f864f8b75ada2728d3aa7cba
+  - ref: refs/heads/for-kernelci
+    old: 9bf072827030107a84fe872a202f6af3601419e6
+    new: 97d3b25936a07d840dfa29c50eb999c704312262
     log: |
-         d0311082facc64f0f864f8b75ada2728d3aa7cba scsi: ufs: Fix out-of-bounds warnings in ufshcd_exec_raw_upiu_cmd
+         dbc334fb411f2e87ca0e812dc7ba13464aa89504 platform/chrome: wilco_ec: convert stream-like files from nonseekable_open -> stream_open
+         639ff208cb37c5a3f0198e62d04962b677d25c9c platform/chrome: cros_ec_typec: Check for device within remove function
+         97d3b25936a07d840dfa29c50eb999c704312262 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
          
