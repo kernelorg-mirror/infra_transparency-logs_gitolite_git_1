@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 30 Mar 2021 23:39:43 -0000
-Message-Id: <161714758345.28059.9495417794619283033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 30 Mar 2021 23:41:36 -0000
+Message-Id: <161714769620.31188.8308332237281294144@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: e7e536b665bd6a9d3e936e0847dbbb6957101da4
-    new: db760d8843632ecad8655f3599cb8a8cf98dfeba
+    old: 46bd86485389e85ab5644a32c340ee5814e2e937
+    new: b08507aa2d4c60715ba1de7e3b61fb91538b80f7
     log: |
-         deb859d67f4951614037969d2657f30c50667936 configure: add test case for pthread_getaffinity_np()
-         874d55e50cac071bf64fceb7e739b9b8bf8d4deb os/os-linux: add pthread CPU affinity helper
-         db760d8843632ecad8655f3599cb8a8cf98dfeba gettime: check affinity for thread, if we have it
+         b08507aa2d4c60715ba1de7e3b61fb91538b80f7 Tue 30 Mar 2021 11:41:04 PM UTC
          
