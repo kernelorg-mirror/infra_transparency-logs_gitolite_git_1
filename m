@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7347798260235601484=="
+Content-Type: multipart/mixed; boundary="===============5430977194417819445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 30 Mar 2021 00:00:05 -0000
-Message-Id: <161706240504.4383.7689102912515086245@gitolite.kernel.org>
+Date: Tue, 30 Mar 2021 00:00:14 -0000
+Message-Id: <161706241450.4477.16398245655855318058@gitolite.kernel.org>
 
---===============7347798260235601484==
+--===============5430977194417819445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 1b479fb801602b22512f53c19b1f93a4fc5d5d9d
-    new: ca441a7129904a62fbc5692bb202e4694097bd45
-    log: revlist-1b479fb80160-ca441a712990.txt
+  - ref: refs/heads/dev-queue
+    old: 479f946104f8042c9c1e151476dbc30a54f27883
+    new: 291cae45e184510a2dba7e8e1900a3a7d734b59a
+    log: revlist-479f946104f8-291cae45e184.txt
 
---===============7347798260235601484==
+--===============5430977194417819445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b479fb80160-ca441a712990.txt
+Content-Disposition: attachment; filename=revlist-479f946104f8-291cae45e184.txt
 
 9e9714742fb70467464359693a73b911a630226f can: bcm/raw: fix msg_namelen values depending on CAN_REQUIRED_SIZE
 f522d9559b07854c231cf8f0b8cb5a3578f8b44e can: isotp: fix msg_namelen values depending on CAN_REQUIRED_SIZE
@@ -51,5 +51,29 @@ fb6ec87f7229b92baa81b35cbc76f2626d5bfadb net: dsa: Fix type was not set for devl
 af9d316f3dd6d1385fbd1631b5103e620fc4298a dt-bindings: net: ethernet-controller: fix typo in NVMEM
 4cd7bd599e273bb75804a406b50cd2c58c40e2e0 dt-bindings: net: bcm4908-enet: fix Ethernet generic properties
 ca441a7129904a62fbc5692bb202e4694097bd45 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+2e91f1b63bf95fa77667194e7493d43604b5c1db checkpatch: Fix warnings when --no-tree is used
+e9e263b99689f76f532645672ca731dbfe297fbe checkpatch.pl: seed camelcase from the provided kernel tree root
+6c15b42e4a992e01c2ccd41adb1ceb772d5f918d ice: Fix a couple off by one bugs
+3df7868822533a1ec73b784f087ac34b48058583 iavf: Fix asynchronous tasks during driver remove
+7eb223a0043c9de961c2875466f6407e69bac0f3 i40e: Fix correct max_pkt_size on VF RX queue
+026693437424e7f4c9e49916fcae89d82f43efe6 iavf: Fix return of set the new channel count
+e90812236044e92d6fc57296274bd67b6c90a386 i40e: Fix NULL ptr dereference on VSI filter sync
+00dd02a2398253596277e22c5fed2317e1f2a17d ice: Fix allowing VF to request more/less queues via virtchnl
+92405f533539eb07b11c1332785ac49a147812ee ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+c9c8e0e8bad0c779497c8c2c8395ca075675c697 ice: Fix VF true promiscuous mode
+1f9648771220308a51648d8943db6634277733fb ice: handle the VF VSI rebuild failure
+edb4a1aee3438cc870a8f35cfc45bb87a2eb0071 i40e: Fix error handling in i40e_vsi_open
+eb1b1fee7910f37f5d64e6c66ae0822867f4dd63 i40e: Fix display statistics for veb_tc
+452bdc3fac29a4ff3c3d9c37a22716f16605308e i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+705af3e1fdaa45353b6c7e07a1d8819508243ba5 i40e: improve locking of mac_filter_hash
+3a315d0453fc96dd9e393b1fc17dfaa273ff8447 ixgbe: Fix NULL pointer dereference in ethtool loopback test
+6d67da78ff099ca3c0e05009daeeed5355914052 i40e: Fix autoneg disabling for non-10GBaseT links
+b1a3542be8a6d5fca1643c741001416d73b97f92 i40e: fix receiving of single packets in xsk zero-copy mode
+d8add69dfcb0e90ab39e329d42b00636ba7e2d00 i40e: Fix parameters in aq_get_phy_register()
+47be277e1e9e41a79860c712f5b3732833b07261 ixgbe: fix unbalanced device enable/disable in suspend/resume
+acd91d8425d99386bbb3e98794982f2b2e01194c i40e: Fix sparse errors in i40e_txrx.c
+a0fac28594e4bf1bafbb41c0a8f1541d0f1219d2 i40e: Fix sparse error: uninitialized symbol 'ring'
+075d76ced1ae67c8634bedca82cfb03311c08394 i40e: Fix sparse error: 'vsi->netdev' could be null
+291cae45e184510a2dba7e8e1900a3a7d734b59a i40e: Fix sparse warning: missing error code 'err'
 
---===============7347798260235601484==--
+--===============5430977194417819445==--
