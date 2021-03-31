@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 31 Mar 2021 22:15:43 -0000
-Message-Id: <161722894391.25306.10969332920183113425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 31 Mar 2021 22:22:52 -0000
+Message-Id: <161722937263.29972.8406072360762560946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 9dc22c0d04a2f9734146e6f1e757160d78800e3c
-    new: 622d13694b5f048c01caa7ba548498d9880d4cb0
+    old: b494ba5a3cf822fa99fb941cd1c293da21f4f927
+    new: 917e2e6c57980e2255c5eb8ddd77ed670ae49752
     log: |
-         c609e6aae4efcf383fe86b195d1b060befcb3666 Revert "net: correct sk_acceptq_is_full()"
-         622d13694b5f048c01caa7ba548498d9880d4cb0 xdp: fix xdp_return_frame() kernel BUG throw for page_pool memory model
+         917e2e6c57980e2255c5eb8ddd77ed670ae49752 net: mediatek: add flow offload for mt7623
          
