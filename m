@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 31 Mar 2021 05:34:43 -0000
-Message-Id: <161716888366.23129.3214980591817255533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
+Date: Wed, 31 Mar 2021 06:39:46 -0000
+Message-Id: <161717278696.28593.11409607697878196011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/tmlind/linux-omap
+user: tmlind
 changes:
-  - ref: refs/heads/for-next/seccomp
-    old: 15a2fd51384a2ae7e2fa677f3e01dd971b1e05f7
-    new: a3fc712c5b37aec802438fe0de095d7f6f3827a3
+  - ref: refs/heads/omap-for-v5.13/soc
+    old: 0db1f107f83f19d56ef23965cfd0cfac8c0f66b3
+    new: 206fa766ca2151d728a0894bdb03688d48564aa0
     log: |
-         64bdc0244054f7d4bb621c8b4455e292f4e421bc seccomp: Fix CONFIG tests for Seccomp_filters
-         a3fc712c5b37aec802438fe0de095d7f6f3827a3 seccomp: Fix "cacheable" typo in comments
+         235e384526e44e902087fd5012e6ac6e8877f1d1 ARM: OMAP2+: Use DEFINE_SPINLOCK() for spinlock
+         7c4a0b3e5cb092ebedd95d31bd8cb93bd0f86b1d ARM: OMAP2+: fix incorrect kernel-doc comment syntax in file
+         206fa766ca2151d728a0894bdb03688d48564aa0 ARM: OMAP1: fix incorrect kernel-doc comment syntax in file
          
