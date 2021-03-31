@@ -1,31 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Wed, 31 Mar 2021 09:16:25 -0000
-Message-Id: <161718218520.11472.12168176533495126673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Wed, 31 Mar 2021 09:30:01 -0000
+Message-Id: <161718300113.17987.15525829912707714412@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: luca
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/pending
-    old: ac80474e01ecc159077ea5087b2cea8fb06c2eda
-    new: 449b3092c33029becb64e9d96babab03e45bda5d
+  - ref: refs/heads/pci/xgene
+    old: f243b619b42cf565c44b5cf795099579cad822f8
+    new: d4707d79fae08c8996a1ba45965a491045a22dda
     log: |
-         deb71fce883ae13e215a5b1c8ca81a5d2e0119fa iwlwifi: move iwl_configure_rxq to be used by other op_modes
-         055654e7707ed94c5224aeb96b72dfb65b1d60ba iwlwifi: mvm: support BIOS enable/disable for 11ax in Ukraine
-         a24af3551aacc754f024a549f43a8bd36befc5ee iwlwifi: mvm: refactor ACPI DSM evaluation function
-         449b3092c33029becb64e9d96babab03e45bda5d iwlwifi: mvm: Use IWL_INFO in fw_reset_handshake()
-         
-  - ref: refs/tags/iwlwifi-next-sent-for-review-2021-03-31
-    old: ac80474e01ecc159077ea5087b2cea8fb06c2eda
-    new: 449b3092c33029becb64e9d96babab03e45bda5d
-    log: |
-         deb71fce883ae13e215a5b1c8ca81a5d2e0119fa iwlwifi: move iwl_configure_rxq to be used by other op_modes
-         055654e7707ed94c5224aeb96b72dfb65b1d60ba iwlwifi: mvm: support BIOS enable/disable for 11ax in Ukraine
-         a24af3551aacc754f024a549f43a8bd36befc5ee iwlwifi: mvm: refactor ACPI DSM evaluation function
-         449b3092c33029becb64e9d96babab03e45bda5d iwlwifi: mvm: Use IWL_INFO in fw_reset_handshake()
+         d4707d79fae08c8996a1ba45965a491045a22dda PCI: xgene: Fix cfg resource mapping
          
