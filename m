@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 31 Mar 2021 00:39:57 -0000
-Message-Id: <161715119784.32407.1578861322248034488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 31 Mar 2021 00:42:53 -0000
+Message-Id: <161715137336.3353.6710093527453695579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 3c7a83fa427daf08c46a9af41be3cd3267832fe6
-    new: b8128656a5edd23a91542c9da849cd878a54148d
+    old: c056d480b40a68f2520ccc156c7fae672d69d57d
+    new: 61431a5907fc36d0738e9a547c7e1556349a03e9
     log: |
-         b8128656a5edd23a91542c9da849cd878a54148d net: fix icmp_echo_enable_probe sysctl
+         61431a5907fc36d0738e9a547c7e1556349a03e9 net: ensure mac header is set in virtio_net_hdr_to_skb()
          
