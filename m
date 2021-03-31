@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Wed, 31 Mar 2021 06:51:13 -0000
-Message-Id: <161717347356.5020.1683576292909052005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 31 Mar 2021 07:33:12 -0000
+Message-Id: <161717599211.28389.12180963829509872917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tmlind/linux-omap
-user: tmlind
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: fcc341051d0775ca4feab28cd1cb464d098804a8
-    new: 44e97f6fb29badd34311b72e3f970dc2908672e0
+  - ref: refs/heads/gpio/for-next
+    old: 9d940ab7264574be59ce3a953dc33de9250429eb
+    new: 9195faa7e5a6bd1c1feaf8d24451d5f94f040884
     log: |
-         a1ebdb3741993f853865d1bd8f77881916ad53a7 ARM: dts: Fix swapped mmc order for omap3
-         fc85dc42a38405099f97aa2af709fe9504a82508 ARM: OMAP2+: Fix uninitialized sr_inst
-         185a04b96883d03ef9242ad6cf8f88160fd67fa4 MAINTAINERS: remove obsolete OMAP HWMOD DATA FOR OMAP4-BASED DEVICES
-         a912fd5163f4fc108e8eef964be03f650ff90c7d Merge branch 'omap-for-v5.13/genpd-cleanup' into for-next
-         44e97f6fb29badd34311b72e3f970dc2908672e0 Merge branch 'fixes' into for-next
+         9195faa7e5a6bd1c1feaf8d24451d5f94f040884 gpio: sim: actually use the OF module table
          
