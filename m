@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 31 Mar 2021 10:10:14 -0000
-Message-Id: <161718541412.12793.8795589479640276822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Wed, 31 Mar 2021 10:14:04 -0000
+Message-Id: <161718564491.14500.12644277496168651411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/kvm-arm64/nvhe-sve
-    old: 5b08709313718e95ba06ef49aa82f964a605bd9c
-    new: a9f8696d4be5228de9d1d4f0e9f027b64d77dab6
-    log: |
-         a9f8696d4be5228de9d1d4f0e9f027b64d77dab6 arm64: sve: Provide sve_cond_update_zcr_vq fallback when !ARM64_SVE
-         
+  - ref: refs/heads/v5.12-next/defconfig
+    old: 0000000000000000000000000000000000000000
+    new: f6dc45610879f88b1c37c07c8342f6764bcd55f4
