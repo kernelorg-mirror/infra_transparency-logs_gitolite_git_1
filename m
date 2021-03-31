@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 31 Mar 2021 20:49:02 -0000
-Message-Id: <161722374299.2203.18178784317361147642@gitolite.kernel.org>
+Date: Wed, 31 Mar 2021 20:49:12 -0000
+Message-Id: <161722375238.2319.17097512171254069642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/retpoline
+  - ref: refs/heads/objtool/retpoline
     old: 0000000000000000000000000000000000000000
-    new: ec2ce546c2468fbc6618eacda2cc18501a432bbd
+    new: 5d0588c8d1020b346b1944bcc4cb6de83deed274
