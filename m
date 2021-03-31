@@ -1,21 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/nf-next
-Date: Wed, 31 Mar 2021 18:29:20 -0000
-Message-Id: <161721536035.15413.4517274861005950951@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0042764877426020897=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/firmware
+Date: Wed, 31 Mar 2021 18:29:34 -0000
+Message-Id: <161721537421.15596.1711523842708147104@gitolite.kernel.org>
+
+--===============0042764877426020897==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/nf-next
-user: pablo
+repo: pub/scm/linux/kernel/git/jkirsher/firmware
+user: jkirsher
 changes:
   - ref: refs/heads/master
-    old: e9a46fdd02b9609b43fe9c23679ac5f6e4c01db8
-    new: d91f250126665c32fa7873d24c6353e38b08110a
-    log: |
-         ebdc297856c76d1960f40e0dc12894180b17f668 netfilter: nftables: add helper function to set the base sequence number
-         272df565abcc4e0af5fae94484783aabd4a73983 netfilter: add helper function to set up the nfnetlink header and use it
-         d91f250126665c32fa7873d24c6353e38b08110a netfilter: nf_log_bridge: Fix missing assignment of ret on a call to nf_log_register
-         
+    old: 3568f962908cd9be9128de5cb732f4f58880a41f
+    new: 3f026a2f13a8f130cde849168a111ec80f12e27b
+    log: revlist-3568f962908c-3f026a2f13a8.txt
+
+--===============0042764877426020897==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3568f962908c-3f026a2f13a8.txt
+
+a29bdb2e59be9e3f5a1f3d021e63ab4b05df3468 amdgpu: add initial support for navy flounder
+4df488ff4f7848ea59aec4e2a74a6de810ab8229 amdgpu: update raven firmware for 20.50
+1a62f28fe86f97f67bbfc5234e9e05d0fbc95543 amdgpu: update raven2 firmware for 20.50
+b55d063be51f9521287d08cbb28f93d2c402ddd4 amdgpu: update navi10 firmware for 20.50
+2542ba7a487ee42e36d0256718ed0fc4fef94f3d amdgpu: update renoir firmware for 20.50
+b938597b06893cb1deee840a191023d84385afad amdgpu: update vega10 firmware for 20.50
+25451a4f4292967fac6419f59c4b9f10a87e94ed amdgpu: update navi12 firmware for 20.50
+b2fc03753bde31196d30bdd2abcee8c6b249f373 amdgpu: update vega12 firmware for 20.50
+76d07cdb2c98cce959996de27c00a4df7f4d0892 amdgpu: update navi14 firmware for 20.50
+e05d19798706bf26846406d4af4a0ef7a9ba640c amdgpu: update picasso firmware for 20.50
+24fe696b95948491eb98108fdd46b1e67aefb6c1 amdgpu: update vega20 firmware for 20.50
+c82cb46356fe72832d56554f31c9cd94608a5dd9 amdgpu: update sienna cichlid firmware for 20.50
+3f026a2f13a8f130cde849168a111ec80f12e27b rtl_bt: Update RTL8822C BT(UART I/F) FW to 0x59A_76A3
+
+--===============0042764877426020897==--
