@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3234078670517646584=="
+Content-Type: multipart/mixed; boundary="===============0283182083731926542=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 31 Mar 2021 16:16:45 -0000
-Message-Id: <161720740511.13763.7986297203133176119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 31 Mar 2021 16:16:54 -0000
+Message-Id: <161720741468.13905.9384692878048943152@gitolite.kernel.org>
 
---===============3234078670517646584==
+--===============0283182083731926542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 8b01a0d0b5c1327296b37a13c37ca7ab31841577
     new: ad858508fd6ac58258dd25fd2063a6f6e10426f7
     log: revlist-8b01a0d0b5c1-ad858508fd6a.txt
 
---===============3234078670517646584==
+--===============0283182083731926542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e896ec390870287dcc92f3b46d80da88f3b4b1f8 ASoC: rt1019: add address-cells and siz
 326b0037fd6b5fc5640f3d37c80b62e2b3329017 Merge series "ASoC: simple-card: cleanup and prepare for Multi CPU/Codec support" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 ad858508fd6ac58258dd25fd2063a6f6e10426f7 Merge tag 'mute-led-rework' of https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound into asoc-5.13
 
---===============3234078670517646584==--
+--===============0283182083731926542==--
