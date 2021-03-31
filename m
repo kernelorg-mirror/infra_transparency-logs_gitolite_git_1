@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 31 Mar 2021 00:39:48 -0000
-Message-Id: <161715118882.32136.11378635301012160433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 31 Mar 2021 00:39:57 -0000
+Message-Id: <161715119784.32407.1578861322248034488@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 2ea538dbee1c79f6f6c24a6f2f82986e4b7ccb78
-    new: c056d480b40a68f2520ccc156c7fae672d69d57d
+    old: 3c7a83fa427daf08c46a9af41be3cd3267832fe6
+    new: b8128656a5edd23a91542c9da849cd878a54148d
     log: |
-         c056d480b40a68f2520ccc156c7fae672d69d57d net: phy: broadcom: Only advertise EEE for supported modes
+         b8128656a5edd23a91542c9da849cd878a54148d net: fix icmp_echo_enable_probe sysctl
          
