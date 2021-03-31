@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Wed, 31 Mar 2021 07:39:19 -0000
-Message-Id: <161717635928.31519.2684161480296455150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mel/linux
+Date: Wed, 31 Mar 2021 07:40:49 -0000
+Message-Id: <161717644999.2236.4668150836745474679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: eballetbo
+repo: pub/scm/linux/kernel/git/mel/linux
+user: mel
 changes:
-  - ref: refs/heads/for-next
-    old: a38fd8748464831584a19438cbb3082b5a2dab15
-    new: c6e939c63c80c26460b25cf1150ebe8396e8adcf
-    log: |
-         dbc334fb411f2e87ca0e812dc7ba13464aa89504 platform/chrome: wilco_ec: convert stream-like files from nonseekable_open -> stream_open
-         639ff208cb37c5a3f0198e62d04962b677d25c9c platform/chrome: cros_ec_typec: Check for device within remove function
-         c6e939c63c80c26460b25cf1150ebe8396e8adcf platform/chrome: cros_ec_typec: fix clang -Wformat warning
-         
+  - ref: refs/heads/mm-percpu-local_lock-v1r16
+    old: 0000000000000000000000000000000000000000
+    new: cb9fa338e16260f05c662d3ca65222e6cc1023f7
