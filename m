@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Wed, 31 Mar 2021 03:52:20 -0000
-Message-Id: <161716274012.25649.17474548488618528136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 31 Mar 2021 03:58:23 -0000
+Message-Id: <161716310374.28755.8099824426593051659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/tags/imx-dt64-5.13
-    old: 0000000000000000000000000000000000000000
-    new: 57c0cb29dcdb63cd266fa497c1f6508e6891ce2c
+  - ref: refs/heads/dev
+    old: 5911d2d1d1a38b26585383478bd71d9254e48bdf
+    new: 23738e74472f9c5f3a05a68724a2ccfba97d283d
+    log: |
+         23738e74472f9c5f3a05a68724a2ccfba97d283d f2fs: fix to restrict mount condition on readonly block device
+         
