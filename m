@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5145499801877026872=="
+Content-Type: multipart/mixed; boundary="===============1962510481055359414=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 01 Apr 2021 09:28:04 -0000
-Message-Id: <161726928430.29209.4449875182456214737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 01 Apr 2021 09:28:12 -0000
+Message-Id: <161726929296.29341.1585102285284157335@gitolite.kernel.org>
 
---===============5145499801877026872==
+--===============1962510481055359414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/spi-5.13
     old: 413c601e8fd0e4adab67e0775dd84e63be6d803e
     new: e667450802e4ee46ba6a00c212f7841293204662
     log: |
@@ -28,28 +28,28 @@ changes:
          e667450802e4ee46ba6a00c212f7841293204662 Merge series "Convert Cadence QSPI bindings to yaml" from Pratyush Yadav <p.yadav@ti.com>:
          
 
---===============5145499801877026872==
+--===============1962510481055359414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1617269270 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1617269280-e077457a1d4ea201f7fd268bfdbbc1355f98c586
+pusher C3F436CA30F5D8EB 1617269280 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1617269290-922e4447879e876c05f977912769cef8a1616748
 
-413c601e8fd0e4adab67e0775dd84e63be6d803e e667450802e4ee46ba6a00c212f7841293204662 refs/heads/for-5.13
+413c601e8fd0e4adab67e0775dd84e63be6d803e e667450802e4ee46ba6a00c212f7841293204662 refs/heads/spi-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBlkhYACgkQJNaLcl1U
-h9Co8gf/cAtPUyCTAdxfkhN81Pkya/isQyaD90EEa7KaiUJ1BRh0R15lBt0HSJSR
-Cc86w78rsqZ08/xgVQ4Jz8Ko1I1Kfxn0WIV4MfUy7iAyM3rRZb9uL0NxlYt7AzaH
-C71eDfgEMVuXoYB5xT9JGfFXLLU2KexPBcUXFgwPXiQ8bx3zSFjjYxN+GTiQWSYL
-AoEWrXS5cy+pUfm9DbnOWYBOfyiUteNxDfJZj7SHbRpLsMROBhl8ejSySuakENw/
-+uOcfMiXwvEM1w1KERxNmScG0AFa3/aEY6kEgnrBoGq5g2qy0NFSLu4GptfpQpMV
-3sp9LhM/+VmehUqIdZJd5ALasxao/Q==
-=xoDr
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBlkiAACgkQJNaLcl1U
+h9Af7Af+NIbLIQaf2yrTmEYlzDcYfz+AaIgH5rMyiYdJYplixQ/ASaCz754oQOU5
+0lA6P2bdbZ0lMbferhRwAR4rQfOWa2cdtSN2U9Rwebk/yCznkIge5yMFHG4EiVj2
+qbHionz3qgA+omZaWLeFwqNIDcmaEPXzYLeNRLyuQL92HpaTkNtbIg+WBUIlWkVi
+CNf5BmbOkKEVpUcpYRaoyFb5NJJppvYySMySj4i6Mgw5wfMmg8hIhL3gsryi5t9V
+5D1CFCnNsDZwcjke4cwygBrT+HNkIih6xQb/TRUM0Y/X19eCkOig2+wdAi/IToDr
+MBWOp7cIQZ5UWG9F60/wRhU5IRZe3g==
+=0X3t
 -----END PGP SIGNATURE-----
 
---===============5145499801877026872==--
+--===============1962510481055359414==--
