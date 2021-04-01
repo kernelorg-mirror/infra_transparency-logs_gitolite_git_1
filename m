@@ -1,32 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 01 Apr 2021 16:07:56 -0000
-Message-Id: <161729327632.15694.1337439215186950500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 01 Apr 2021 16:08:17 -0000
+Message-Id: <161729329745.15905.17695216791440547724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: e34829356d62f98343ef1a092a6625b0c310c16d
-    new: f8a44dc7cdbeef7baf7b856edde89aea5481e61f
+    old: 92e712a47c5dba7d3e71fd6963ca298491baef53
+    new: aee1cf9f09fad9618dc182cf45063fdbe3f31881
     log: |
-         b861106f3cd693f944ba46d9ea8744a3fbfd14db ASoC: codecs: lpass-tx-macro: set npl clock rate correctly
-         adfc3ed7dcb98f7411d3632e3bdf81690294fe7d ASoC: codecs: lpass-rx-macro: set npl clock rate correctly
-         f8a44dc7cdbeef7baf7b856edde89aea5481e61f Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+         aee1cf9f09fad9618dc182cf45063fdbe3f31881 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
          
   - ref: refs/heads/for-next
-    old: a9c7da2aa081ef52f0a5f176b8676ec62c955832
-    new: e3be7747d279ed9913f79fdd0c541dce4a337c5f
+    old: af1f19e60e0d664cb3df54f3e570e7ef131bb5e2
+    new: 4438fb942495b8a962dca2f469e7d007b93984ed
     log: |
-         b861106f3cd693f944ba46d9ea8744a3fbfd14db ASoC: codecs: lpass-tx-macro: set npl clock rate correctly
-         adfc3ed7dcb98f7411d3632e3bdf81690294fe7d ASoC: codecs: lpass-rx-macro: set npl clock rate correctly
-         ebf721fbbb6e077864783c8d0146021815bb1f24 ASoC: Intel: Fix a typo
-         52cad756b777e82fabe05c728cc62b63b3c61fd3 ASoC: intel, keembay-i2s: Fix a dt_binding_check warning
-         f8a44dc7cdbeef7baf7b856edde89aea5481e61f Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
-         e3be7747d279ed9913f79fdd0c541dce4a337c5f Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
+         d6644a1c2e17febf261fd692bb32271e5779bbd2 spi: Remove repeated struct declaration
+         aee1cf9f09fad9618dc182cf45063fdbe3f31881 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+         4438fb942495b8a962dca2f469e7d007b93984ed Merge remote-tracking branch 'spi/for-5.13' into spi-next
          
