@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Thu, 01 Apr 2021 14:09:28 -0000
-Message-Id: <161728616847.8345.5550672663863573660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Thu, 01 Apr 2021 14:11:50 -0000
+Message-Id: <161728631009.10466.10914160624994869665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/fscache-cache-2
-    old: 62b8b745edb02283b51525fd6a7a1a74f5144ea6
-    new: 8c0dade745a9bacc037c10f7fb0f1900738ebd47
+  - ref: refs/heads/mediatek-drm-next
+    old: fdcbe17c6090acdeb766c0383ce101fdf64177e1
+    new: 2e477391522354e763aa62ee3e281c1ad9e8eb1b
     log: |
-         8c0dade745a9bacc037c10f7fb0f1900738ebd47 cachefiles: Overhaul index
+         053d231f369ca05cd563ca9738b5a4c73908e697 drm/mediatek: Switch the hdmi bridge ops to the atomic versions
+         2e477391522354e763aa62ee3e281c1ad9e8eb1b drm/mediatek: Don't support hdmi connector creation
          
