@@ -1,75 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============3803511348171037147=="
+Content-Type: multipart/mixed; boundary="===============7618258262392294908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
-Date: Thu, 01 Apr 2021 21:22:25 -0000
-Message-Id: <161731214585.7254.2486024344194643195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 01 Apr 2021 21:22:49 -0000
+Message-Id: <161731216920.7466.11665071002170826830@gitolite.kernel.org>
 
---===============3803511348171037147==
+--===============7618258262392294908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pali/linux
-user: pali
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/pci-aardvark
-    old: 27411f0001b403b71ad759873b7c3863780b98ae
-    new: bf3898f52339d4453a72cf3f73d3226f97f8efdf
-    log: revlist-27411f0001b4-bf3898f52339.txt
+  - ref: refs/heads/net-mlx5
+    old: 45d30c0272ae942367cb9c91b8d014351dc44a39
+    new: 7e281de762190f6c91680d8bfb1b820b8c61198a
+    log: revlist-45d30c0272ae-7e281de76219.txt
 
---===============3803511348171037147==
+--===============7618258262392294908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27411f0001b4-bf3898f52339.txt
+Content-Disposition: attachment; filename=revlist-45d30c0272ae-7e281de76219.txt
 
-b88321b98848f0749a425649df2c6234ca6a5c1a arm64: dts: marvell: armada-37xx: Set linux,pci-domain to zero
-7d156fb7a9e099074e76cfa0e9a2b02332cf9b98 PCI: Add PCI_EXP_DEVCTL_PAYLOAD_* macros
-efeabc6981024bc08c25a90eb8888e6a7954a854 PCI: aardvark: Fix PCIe Max Payload Size setting
-17a69992dc25a85bc6fbe58928242458d573d88f PCI: aardvark: Implement workaround for the readback value of VEND_ID
-bee318e45caafd41aefe9bcdc53a3890a4f4190a PCI: aardvark: Fix link training
-edec5120a077ea92bc3dde6200af3eec5d1124d5 PCI: aardvark: Fix checking for PIO Non-posted Request
-b9dcf1fb0127ed2885237f77bae8cdd3e4ef240f PCI: aardvark: Fix checking for PIO status
-acae4e9fa6141e9f2665193f2fe8db6104c78587 PCI: aardvark: Increase polling delay to 1.5s while waiting for PIO response
-c2645506ff2ab8a3807998e5e8f09c590611e21a PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
-46f86890631a5c7a2f21fae797eb3f8eb6b0aa92 PCI: aardvark: Fix reporting CRS Software Visibility on emulated bridge
-c3a8ed06238df9432a2f2164aaee7054da3d0f74 PCI: aardvark: Do not touch status bits of masked interrupts in interrupt handler
-f0af6f7eb0f128efa655f5273e8b6e57c4613dad PCI: aardvark: When processing INTx IRQ check that it has virq mapping
-e8a05aaeb64fe00063846fafe00a5bb62f716e27 PCI: aardvark: Remove irq_mask_ack callback for INTx interrupts
-e3ff8a39b48e118d88f2d2344842e7438a9ace21 PCI: aardvark: Remove calling advk_pcie_irq_mask() during advk_pcie_irq_map()
-8e86ac1e5eaf115584e82d7b3217b9d2c3fae226 PCI: aardvark: Change name of INTx irq_chip to advk-INT
-33eaaceb267087d3b55575ea1798dae717d8dba9 PCI: aardvark: Fix support for MSI interrupts
-fdc53a6cfb8a36a77a2693f8557e83d138be2540 PCI: aardvark: Correctly clear and unmask all MSI interrupts
-f557ca9606b54591f2a13823340630fa55502098 PCI: aardvark: Fix setting MSI address
-2dfc80d756c6b9d48c7f5730e234139efd55daf3 PCI: aardvark: Add support for more than 32 MSI interrupts
-89d6f263f1300baad02e132d80c9363ce9a64d4a PCI: aardvark: Add support for masking MSI interrupts
-17869f8f94dc1871414589e8e8d90d3cdde9be3b PCI: aardvark: Fix support for ERR interrupt on emulated bridge
-7a6bec6ff24fa345e3699cbee57bfed69d0ba8c2 PCI: aardvark: Fix support for PME on emulated bridge
-ece83e4bd44d87540fdfc520377b7d66c2ebd34e PCI: aardvark: Fix support for PME requester on emulated bridge
-9d95d3ba527b4d366f904c6609c2caba6ba7631f PCI: aardvark: Fix support for bus mastering and PCI_COMMAND on emulated bridge
-3a61a40fda0789de82a2e80afe2f4633720cfe55 PCI: aardvark: Disable bus mastering and mask all interrupts when unbinding driver
-06e8924025eb30c4b9c33b28bf638190d4ced589 PCI: aardvark: Free config space for emulated root bridge when unbinding driver to fix memory leak
-0d6469bc61f42abd0920bc5a9dc91be336829a59 PCI: aardvark: Reset PCIe card and disable PHY when unbinding driver
-2bd2a0b04889976f1ad66088ee0c9ad31fb1e862 PCI: aardvark: Rewrite irq code to chained irq handler
-e517f12629318c4c0f38fb48ea22fa7292252c37 PCI: aardvark: Use separate INTA interrupt for emulated root bridge
-f3b9f44bb4e1f7f6bf5e759ded01372922b46533 PCI: pci-bridge-emul: Add description for class_revision field
-1236f856b15e5718f3d2efd3be42a49d737038fa PCI: pci-bridge-emul: Add definitions for missing capabilities registers
-465b3858b9b25efa37c2e942ed29eaf589fedcee PCI: aardvark: Add support for DEVCAP2, DEVCTL2, LNKCAP2 and LNKCTL2 registers on emulated bridge
-313032e1e2068af159ffeb5001c237f8c1cf6f0c PCI: aardvark: Add support for PCI_BRIDGE_CTL_BUS_RESET on emulated bridge
-16304f7a8d9b90e3f90ca8908916e96d794ea245 PCI: aardvark: Replace custom PCIE_CORE_ERR_CAPCTL_* macros by linux/pci_regs.h macros
-eaefb6bd1ab59924ddd214eef3085e4d1257e30b PCI: aardvark: Replace custom PCIE_CORE_INT_* macros by linux PCI_INTERRUPT_* values
-cff789a03e5a066a28db44d734ef25e922a32f24 PCI: aardvark: Cleanup some register macros
-33097052a3c7dae0710d123c05bf58d3a0e754b5 PCI: aardvark: Add comments for OB_WIN_ENABLE and ADDR_WIN_DISABLE
-7e9946506dbcf76149d1b2e6b531fa93710b1788 PCI: pci-bridge-emul: re-arrange register tests
-49fc4f40aaf71ba5846c34a35288244b41dcc434 PCI: pci-bridge-emul: add support for PCIe extended capabilities
-ffb57c3a504d3fd6eb731e8b8010360064ce86fa PCI: aardvark: Add support for Advanced Error Reporting registers on emulated bridge
-1267211b7458343e372ce1c3a12e8c3355c23ded Initial take on the PCI sysfs objects creation race.
-f60fcab16488038c8cd54023bcfdb84f4c149482 PCI: aardvark: Run link training in separate worker
-66c993534cbb453c3545d850e8ae07ccb9ad59b1 PCI: pciehp: Do not enable Data Link Layer State Changed interrupt when it is unsupported
-3edd1ebeadf29e01c6c0be6a575e044221edf42f PCI: pciehp: Do not enable Command Completed Interrupt when it is unsupported
-bf3898f52339d4453a72cf3f73d3226f97f8efdf PCI: aardvark: Add support for Data Link Layer State via Slot registers and hotplug interrupt via emulated root bridge
+8fc0e3b6a8666d656923d214e4dc791e9a17164a xfrm: interface: fix ipv4 pmtu check to honor ip header df
+c7c1abfd6d42be8f09d390ab912cd84983000fa2 vti: fix ipv4 pmtu check to honor ip header df
+4c38255892c06b9de2fb3bf6aea63f4ebdff3d11 vti6: fix ipv4 pmtu check to honor ip header df
+9ab1265d52314fce1b51e8665ea6dbc9ac1a027c xfrm: Use actual socket sk instead of skb socket for xfrm_output_resume
+e88add19f68191448427a6e4eb059664650a837f net: xfrm: Localize sequence counter per network namespace
+bc8e0adff343d992ca76d871e8b5e6cb86e1fad9 net: xfrm: Use sequence counter with associated spinlock
+154deab6a3ba47792936edf77f2f13a1cbc4351d esp: delete NETIF_F_SCTP_CRC bit from features for esp offload
+68dc022d04eb0fd60a540e242dcb11ec1bee07e2 xfrm: BEET mode doesn't support fragments for inner packets
+b1e3a5607034aa0a481c6f69a6893049406665fb xfrm: Fix NULL pointer dereference on policy lookup
+c7dbf4c08868d9db89b8bfe8f8245ca61b01ed2f xfrm: Provide private skb extensions for segmented and hw offloaded ESP packets
+ef19e111337f6c3dca7019a8bad5fbc6fb18d635 xfrm/compat: Cleanup WARN()s that can be user-triggered
+d24f847e54214049814b9515771622eaab3f42ab net/mlx5e: Fix mapping of ct_label zero
+1f90aedfb496ccccf862c7b7c0889af20c2fc61a net/mlx5: Delete auxiliary bus driver eth-rep first
+3211434dfe7a66fcf55e43961ea524b78336c04c net/mlx5e: Fix ethtool indication of connector type
+e929e3da537e3c2d97aabbd00530040997dde9ce net/mlx5: E-switch, Create vport miss group only if src rewrite is supported
+a51bce9698e951fec3fc0624060f124794ec3558 net/mlx5e: kTLS, Fix TX counters atomicity
+6f4fdd530a09c8e2c7368ba5a5b1711e6e5ced10 net/mlx5e: kTLS, Fix RX counters atomicity
+a7b76002ae78cd230ee652ccdfedf21aa94fcecc net/mlx5: Don't request more than supported EQs
+929a2faddd55290fbb0b73f453b200ed1b2b2947 net/mlx5e: Consider geneve_opts for encap contexts
+3ff3874fa0b261ef74f2bfb008a82ab1601c11eb net/mlx5e: Guarantee room for XSK wakeup NOP on async ICOSQ
+d47ec7a0a7271dda08932d6208e4ab65ab0c987c neighbour: Disregard DEAD dst in neigh_update
+bdc2ab5c61a5c07388f4820ff21e787b4dfd1ced net/rds: Fix a use after free in rds_message_map_pages
+c9170f132178cdafefcff7d16434ff3c1b13a988 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+9dc22c0d04a2f9734146e6f1e757160d78800e3c Merge tag 'mlx5-fixes-2021-03-31' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+c609e6aae4efcf383fe86b195d1b060befcb3666 Revert "net: correct sk_acceptq_is_full()"
+622d13694b5f048c01caa7ba548498d9880d4cb0 xdp: fix xdp_return_frame() kernel BUG throw for page_pool memory model
+b9b7fda5efddb4535cf30a270d16d7f0ad01f892 net/mlx5: Cleanup prototype warning
+21e2350c989c0c3fa68b3db3728c1447cdf66fd4 net/mlx5e: CT, Avoid false lock dependency warning
+fc47997605eaa42519a9658aecdf9bfbece724b8 net/mlx5e: fix mlx5e_tc_tun_update_header_ipv6 dummy definition
+42fe7e251e7a47aff0745506b1e4286b015c36e4 net/mlx5e: Add missing include
+71c34ff2f5a1446c825ee1c5aa713302c52da35d net/mlx5: Fix indir stable stubs
+4ce3058bbf6a037d687f10d9bfc8726a2de79f68 net/mlx5: Remove impossible checks of interface state
+120ccf9b7c158728209bc5d9f6bb3a4f0dc33fb6 net/mlx5: Separate probe vs. reload flows
+143c87f57f241448cd32fedff382f20d3f776509 net/mlx5: Remove second FW tracer check
+bb9af3026f482318060bb791e2bf18e0816549d8 net/mlx5: Don't rely on interface state bit
+b39ca232c3e26bc6fcfa3ac38c60a73d15b5884a net/mlx5: Check returned value from health recover sequence
+7e281de762190f6c91680d8bfb1b820b8c61198a net/mlx5: Fix devlink reload LOCKDEP warning
 
---===============3803511348171037147==--
+--===============7618258262392294908==--
