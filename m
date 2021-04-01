@@ -1,54 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4798919675649023231=="
+Content-Type: multipart/mixed; boundary="===============4642402526528358559=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 01 Apr 2021 22:42:28 -0000
-Message-Id: <161731694807.21624.16845940621154155418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 01 Apr 2021 22:43:07 -0000
+Message-Id: <161731698737.21923.13923497938812523807@gitolite.kernel.org>
 
---===============4798919675649023231==
+--===============4642402526528358559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 9bb455330d58d97747250f73c1c7fe012e341d6d
-    new: 56b865c9883486520591e722b9261f2c9bc1f5c0
-    log: revlist-9bb455330d58-56b865c98834.txt
+  - ref: refs/heads/master
+    old: 040806343bb4ef6365166eae666ced8a91b95321
+    new: 247ca657e20460375bf3217073d6477440f48025
+    log: revlist-040806343bb4-247ca657e204.txt
 
---===============4798919675649023231==
+--===============4642402526528358559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9bb455330d58-56b865c98834.txt
+Content-Disposition: attachment; filename=revlist-040806343bb4-247ca657e204.txt
 
-c4f03ac866760a1cca5938e5b681f7f23d492c4a net/mlx5: E-Switch, cut down mlx5_vport_info structure size by 8 bytes
-e71281edafb988daf1920b9d2fb9c93845127082 net/mlx5: CT: Add support for matching on ct_state inv and rel flags
-b9b5db96c719c55e1b0b5ec5d89619a6cfe06215 net/mlx5: E-Switch, move QoS specific fields to existing qos struct
-faa703348928ef69d9b8c5b4d56b4881606474c3 net/mlx5: Use unsigned int for free_count
-bde9ae5f4be38b9bad3bcadbd6fe5a0912af2bd1 net/mlx5: Pack mlx5_rl_entry structure
-48310ee03e6c741870ab101a5ea6927219f86ee0 net/mlx5: Do not hold mutex while reading table constants
-9a8bb366f98405eef0bbf20485fc545c69277d9c net/mlx5: Use helpers to allocate and free rl table entries
-4ba1dafac76fe5e9c0d4d7abc43465d896e8f51f net/mlx5: Use helper to increment, decrement rate entry refcount
-76a3e86a7f54995e9296962fe20585b34f6a22b4 net/mlx5: Allocate rate limit table when rate is configured
-f8a99d7c66a57b072008f5d1c8c2e8cd560585e1 net/mlx5: E-Switch, cut down mlx5_vport_info structure size by 8 bytes
-5ef602c88e3d8890cb5ba2416971e8fd0290dbd0 net/mlx5: Pair mutex_destory with mutex_init for rate limit table
-0e7aae7384fd45b7a0c6a8ced7741898597e6bda net/mlx5: E-Switch, move QoS specific fields to existing qos struct
-2ab6da27168416a1772dedb207ef7be0aefc7eb3 net/mlx5: DR, Alloc cmd buffer with kvzalloc() instead of kzalloc()
-1146f7b0c560988c7707da4fd969a67e2f413382 net/mlx5e: Dynamic alloc arfs table for netdev when needed
-2bab079bde74d6d85e39431cd21639d67c47a519 net/mlx5e: Reject tc rules which redirect from a VF to itself
-6158f721d0b9d13c356d8164a75a041efeecfd1c net/mlx5e: Dynamic alloc vlan table for netdev when needed
-46c09eccddb354f6d964bece1fc1365c8f4ce127 Merge branch 'patchq/377516' into mlx5-queue
-d1e6ebccc28c9c84593b29e258a0e47660a36b9e Merge branch 'patchq/376242' into mlx5-queue
-79970fa3a8de32ff25d6192be0be7fd6f8254904 Merge branch 'patchq/371961' into mlx5-queue
-4d35c134e637bd222e1f569b63cb731be8d59eac net/mlx5: Use ida_alloc_range() instead of ida_simple_alloc()
-d27519acd456750ff0c44e92c92796d240fd95ea Merge branch 'patchq/382907' into mlx5-queue
-b4ddaa87de89bdbf221e000bac1cd8cecf696193 Merge branch 'patchq/382373' into mlx5-queue
-8231becdf22614239c92c04f3f6ef8a83752dde1 Merge branch 'patchq/378313' into mlx5-queue
-56b865c9883486520591e722b9261f2c9bc1f5c0 Merge branch 'patchq/383006' into mlx5-queue
+634da4c118434cf8a0c5eabce9eb58502ef1521c ice: Add Support for XPS
+1e23f076b25424508d4576fba176888944b9b2b0 ice: Delay netdev registration
+a05983c3d024d173af0a80dc7197a21f64d52df6 ice: Update to use package info from ice segment
+2ec5638559c13b923250eccf495d2a033fccb3e7 ice: handle increasing Tx or Rx ring sizes
+5c57145a49bd93b72878ef9b4a1d798753b9faff ice: change link misconfiguration message
+800c1443cbe1bd17f11e3580744894c3ee1a5c8e ice: remove unnecessary duplicated AQ command flag setting
+805f980bfe0e7d07cd4cd5d1183722f0355c0f4a ice: Check for bail out condition early
+36ac7911fae7575b8cebf9326a23901cba28c015 ice: correct memory allocation call
+94a936981a3eae3f1e9d1bf02c32d3f559a7aa95 ice: rename ptype bitmap
+8134d5ff9788d3e7f63f963a211927a60ce462d6 ice: Change ice_vsi_setup_q_map() to not depend on RSS
+e3c53928a3b2b3ec983955a838547aa7344822be ice: Refactor get/set RSS LUT to use struct parameter
+b66a972abb6b4a2fe8e0444ba2a2d3718c79d5ad ice: Refactor ice_set/get_rss into LUT and key specific functions
+e97fb1aea9056299d013aa30783d6a995136a2c8 ice: Consolidate VSI state and flags
+0c3e94c247938b63218e661fcd1a935edb0db215 ice: cleanup style issues
+a07cc1786dab69b896af226cf58163237837ee72 ice: Correct comment block style
+247ca657e20460375bf3217073d6477440f48025 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============4798919675649023231==--
+--===============4642402526528358559==--
