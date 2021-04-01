@@ -1,48 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============2689252369822063483=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 01 Apr 2021 17:11:47 -0000
-Message-Id: <161729710770.22674.2277420409497012328@gitolite.kernel.org>
-
---===============2689252369822063483==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Thu, 01 Apr 2021 17:15:41 -0000
+Message-Id: <161729734149.25336.6973778115078099443@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/master
-    old: d19cc4bfbff1ae72c3505a00fb8ce0d3fa519e6c
-    new: ffd9fb546d498b2105dca6efc58a5cd0c17f0807
-    log: revlist-d19cc4bfbff1-ffd9fb546d49.txt
-
---===============2689252369822063483==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d19cc4bfbff1-ffd9fb546d49.txt
-
-febf22565549ea7111e7d45e8f2d64373cc66b11 ALSA: hda/realtek: fix a determine_headset_type issue for a Dell AIO
-e54f30befa7990b897189b44a56c1138c6bfdbb5 ALSA: hda/realtek: call alc_update_headset_mode() in hp_automute_hook
-4e53d1701b574b1ee9d500b4913a1ece2fac8911 tomoyo: don't special case PF_IO_WORKER for PF_KTHREAD
-625bd5a616ceda4840cd28f82e957c8ced394b6a ALSA: usb-audio: Apply sample rate quirk to Logitech Connect
-c8f79808cd8eb5bc8d14de129bd6d586d3fce0aa ALSA: hda: Re-add dropped snd_poewr_change_state() calls
-66affb7bb0dc0905155a1b2475261aa704d1ddb5 ALSA: hda: Add missing sanity checks in PM prepare/complete callbacks
-417eadfdd9e25188465280edf3668ed163fda2d0 ALSA: hda/realtek: fix mute/micmute LEDs for HP 640 G8
-12efebab09e383bf366bec323bd296b7d90e1c43 XArray: Fix split documentation
-3012110d71f41410932924e1d188f9eb57f1f824 XArray: Fix splitting to non-zero orders
-df59d0a461bc5935232bf56a279e4d7a71c566a5 XArray: Add xa_limit_16b
-7487de534dcbe143e6f41da751dd3ffcf93b00ee radix tree test suite: Fix compilation
-1bb4bd266cf39fd2fa711f2d265c558b92df1119 radix tree test suite: Register the main thread with the RCU library
-703586410da69eb40062e64d413ca33bd735917a idr test suite: Take RCU read lock in idr_find_test_1
-094ffbd1d8eaa27ed426feb8530cb1456348b018 idr test suite: Create anchor before launching throbber
-2c7e57a02708a69d0194f9ef2a7b7e54f5a0484a idr test suite: Improve reporting from idr_find_test_1
-e8d1895883da8048266a7da43b0a381588dca87d Merge tag 'xarray-5.12' of git://git.infradead.org/users/willy/xarray
-5d17c1ba3ee7271346f459d9015c13e7a5fb2b39 Merge tag 'tomoyo-pr-20210401' of git://git.osdn.net/gitroot/tomoyo/tomoyo-test1
-ffd9fb546d498b2105dca6efc58a5cd0c17f0807 Merge tag 'sound-5.12-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-
---===============2689252369822063483==--
+  - ref: refs/heads/for-5.13/usb
+    old: d64d362f1d8b5da18da24b8209c9a42e435a9756
+    new: ddef49c7bc9b045494de820c33ea14894637b1e2
+    log: |
+         4f7da355e2a846be6c6c273460193870d5c914dd usb: xhci: tegra: Unlink power domain devices
+         ddef49c7bc9b045494de820c33ea14894637b1e2 usb: xhci: tegra: Enable ELPG for runtime/system PM
+         
+  - ref: refs/tags/tegra-for-5.13-dt-bindings
+    old: 0000000000000000000000000000000000000000
+    new: a97ee149945cd08d6c94d0a59e8910542328532f
+  - ref: refs/tags/tegra-for-5.13-clk
+    old: 0000000000000000000000000000000000000000
+    new: 87f32ee1a399f355e35e14b0d1d715f317189a41
+  - ref: refs/tags/tegra-for-5.13-soc
+    old: 0000000000000000000000000000000000000000
+    new: 8f7c88a4b6070b9a1ee38194b2774773a7599031
+  - ref: refs/tags/tegra-for-5.13-phy
+    old: 0000000000000000000000000000000000000000
+    new: 7877a53175db7d59eadd516c3db1aefffa4b6e13
+  - ref: refs/tags/tegra-for-5.13-usb
+    old: 0000000000000000000000000000000000000000
+    new: 696159be9b81e1ad98cfbd5863545161241be0d2
+  - ref: refs/tags/tegra-for-5.13-arm-dt
+    old: 0000000000000000000000000000000000000000
+    new: f0bd6c288805a761a7fb2ff724e67517011f83a9
+  - ref: refs/tags/tegra-for-5.13-arm64-dt
+    old: 0000000000000000000000000000000000000000
+    new: 0a5e0010182ae04a052670a779b8f3972f998d33
