@@ -1,48 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============9116509143333958367=="
+Content-Type: multipart/mixed; boundary="===============6797432548148790185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Thu, 01 Apr 2021 12:38:53 -0000
-Message-Id: <161728073314.15103.131012051709299459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Thu, 01 Apr 2021 12:40:13 -0000
+Message-Id: <161728081334.16892.6595310960523117749@gitolite.kernel.org>
 
---===============9116509143333958367==
+--===============6797432548148790185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/dev
-    old: ce061638418a84b041fa37f2dbb1f429d62e2f9b
-    new: dfd528550eadd5957d01998a3449add6ee5ed282
-    log: revlist-ce061638418a-dfd528550ead.txt
+  - ref: refs/heads/for-5.13/phy
+    old: 0b84bf68cffad0fb6de5b71084cbdca6499e11ea
+    new: 8e57df828e0d323565c1f9921f2a76dc08f4efec
+    log: |
+         f1f4af6819b2635c1ea1d52a6ccde838c096847d phy: tegra: xusb: Move usb3 port init for Tegra210
+         42c8bdff611c5f35a321af5ae53a7df572013183 phy: tegra: xusb: Rearrange UPHY init on Tegra210
+         0b7f6fb80827ad327ae28a384d7a642ca43e2b09 phy: tegra: xusb: Add Tegra210 lane_iddq operation
+         b8bb3d9c9b74cb2c3a9d5a230d8715cf9de07b8e phy: tegra: xusb: Add sleepwalk and suspend/resume
+         14b702068625f183bfaa68bc767c36bd4658181c phy: tegra: xusb: Add wake/sleepwalk for Tegra210
+         f60879f6620ad81f2afe541781f82fb15b38ca9a phy: tegra: xusb: Tegra210 host mode VBUS control
+         8e57df828e0d323565c1f9921f2a76dc08f4efec phy: tegra: xusb: Add wake/sleepwalk for Tegra186
+         
+  - ref: refs/heads/for-5.13/usb
+    old: 6792cf1226ebb7d8697c5c32581456a1f43bc51f
+    new: 202b2e01a47bb2979c7cf2320cf70193f35ca549
+    log: |
+         f1f4af6819b2635c1ea1d52a6ccde838c096847d phy: tegra: xusb: Move usb3 port init for Tegra210
+         42c8bdff611c5f35a321af5ae53a7df572013183 phy: tegra: xusb: Rearrange UPHY init on Tegra210
+         0b7f6fb80827ad327ae28a384d7a642ca43e2b09 phy: tegra: xusb: Add Tegra210 lane_iddq operation
+         b8bb3d9c9b74cb2c3a9d5a230d8715cf9de07b8e phy: tegra: xusb: Add sleepwalk and suspend/resume
+         14b702068625f183bfaa68bc767c36bd4658181c phy: tegra: xusb: Add wake/sleepwalk for Tegra210
+         f60879f6620ad81f2afe541781f82fb15b38ca9a phy: tegra: xusb: Tegra210 host mode VBUS control
+         8e57df828e0d323565c1f9921f2a76dc08f4efec phy: tegra: xusb: Add wake/sleepwalk for Tegra186
+         97f120a05209309d5a37d4d191aba1dff668d257 Merge branch 'for-5.13/phy' into for-5.13/usb
+         2fdd33b41a8e8c0e6dc9a288f652901acf0b01e9 usb: xhci: tegra: Unlink power domain devices
+         202b2e01a47bb2979c7cf2320cf70193f35ca549 usb: xhci: tegra: Enable ELPG for runtime/system PM
+         
+  - ref: refs/heads/for-next
+    old: 39583a7084227ea1102302d5df5a8170158e4198
+    new: f82fbb0620814b55ead4108b9ed53be61a7e20be
+    log: revlist-39583a708422-f82fbb062081.txt
 
---===============9116509143333958367==
+--===============6797432548148790185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce061638418a-dfd528550ead.txt
+Content-Disposition: attachment; filename=revlist-39583a708422-f82fbb062081.txt
 
-0bb2045ce5ce67b0428301c117ec960b3f705a44 f2fs: fix to use per-inode maxbytes in f2fs_fiemap
-5ac443e26a096429065349c640538101012ce40d f2fs: add sysfs nodes to get runtime compression stat
-ac2d750b2043cbe10d42ac974e07b9876cddfff8 f2fs: do not use AT_SSR mode in FG_GC & high urgent BG_GC
-3f7070b05052f997d571a51e750583b9dea726f8 f2fs: don't start checkpoint thread in readonly mountpoint
-b862676e371715456c9dade7990c8004996d0d9e f2fs: fix to avoid out-of-bounds memory access
-f3e367d4fe2bcccb51d64cb974f73153d23adf15 f2fs: fix wrong comment of nat_tree_lock
-3fd9735908287cdcd7dd04912e8ba7d749313f13 f2fs: fix error path of f2fs_remount()
-88f2cfc5fa90326edb569b4a81bb38ed4dcd3108 f2fs: fix to update last i_size if fallocate partially succeeds
-61461fc921b756ae16e64243f72af2bfc2e620db f2fs: fix to avoid touching checkpointed data in get_victim()
-d6d2b491a82e1e411a6766fbfb87c697d8701554 f2fs: allow to change discard policy based on cached discard cmds
-2c718feead3533647a061501122457a16a355736 f2fs: fix a typo in inode.c
-e8bf1f522aee3b3e1e7658e8f224dca1d88c3338 f2fs: delete empty compress.h
-753a8ed0ae9c196a7d09a17aae1e354cabd1233d f2fs: fix wrong alloc_type in f2fs_do_replace_block
-823d13e12b6cbaef2f6e5d63c648643e7bc094dd f2fs: fix to cover __allocate_new_section() with curseg_lock
-5911d2d1d1a38b26585383478bd71d9254e48bdf f2fs: introduce gc_merge mount option
-23738e74472f9c5f3a05a68724a2ccfba97d283d f2fs: fix to restrict mount condition on readonly block device
-be1ee45d51384161681ecf21085a42d316ae25f7 f2fs: Fix a hungtask problem in atomic write
-dfd528550eadd5957d01998a3449add6ee5ed282 f2fs: compress: add compress_inode to cache compressed blocks
+f1f4af6819b2635c1ea1d52a6ccde838c096847d phy: tegra: xusb: Move usb3 port init for Tegra210
+42c8bdff611c5f35a321af5ae53a7df572013183 phy: tegra: xusb: Rearrange UPHY init on Tegra210
+0b7f6fb80827ad327ae28a384d7a642ca43e2b09 phy: tegra: xusb: Add Tegra210 lane_iddq operation
+b8bb3d9c9b74cb2c3a9d5a230d8715cf9de07b8e phy: tegra: xusb: Add sleepwalk and suspend/resume
+14b702068625f183bfaa68bc767c36bd4658181c phy: tegra: xusb: Add wake/sleepwalk for Tegra210
+f60879f6620ad81f2afe541781f82fb15b38ca9a phy: tegra: xusb: Tegra210 host mode VBUS control
+8e57df828e0d323565c1f9921f2a76dc08f4efec phy: tegra: xusb: Add wake/sleepwalk for Tegra186
+97f120a05209309d5a37d4d191aba1dff668d257 Merge branch 'for-5.13/phy' into for-5.13/usb
+2fdd33b41a8e8c0e6dc9a288f652901acf0b01e9 usb: xhci: tegra: Unlink power domain devices
+202b2e01a47bb2979c7cf2320cf70193f35ca549 usb: xhci: tegra: Enable ELPG for runtime/system PM
+5029f8d032095e8c8d968b866a468540e9085c20 Merge branch for-5.13/dt-bindings into for-next
+d7a9ce8eb42d20ca805d79e0852579abed1dc9e3 Merge branch for-5.13/clk into for-next
+9eea1c1c6dd4b0510b45d00bd7f3444e3c906113 Merge branch for-5.13/soc into for-next
+d91c5d4180d6568bdcef9c09973c9755c8289efc Merge branch for-5.13/phy into for-next
+0a0d67bf029e7a66a37e5e87426a5ba24774225e Merge branch for-5.13/usb into for-next
+9ed61a3f9faf06728268454e0a75c5e6329c4a8c Merge branch for-5.13/arm/dt into for-next
+f82fbb0620814b55ead4108b9ed53be61a7e20be Merge branch for-5.13/arm64/dt into for-next
 
---===============9116509143333958367==--
+--===============6797432548148790185==--
