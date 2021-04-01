@@ -1,55 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============6487997455917413486=="
+Content-Type: multipart/mixed; boundary="===============5660968701462293023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Thu, 01 Apr 2021 17:59:10 -0000
-Message-Id: <161729995007.20567.10859806315076328955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 01 Apr 2021 18:01:49 -0000
+Message-Id: <161730010910.10498.6734298046791868354@gitolite.kernel.org>
 
---===============6487997455917413486==
+--===============5660968701462293023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 6553fa57cb1707396ad3a27dc78fa61e1750ab31
-    new: e839617e745d0bcf958da967b234c61f707b7c04
-    log: revlist-6553fa57cb17-e839617e745d.txt
-  - ref: refs/heads/for-v5.13/tegra
-    old: 6553fa57cb1707396ad3a27dc78fa61e1750ab31
-    new: d8d5cbc619e86b8f2167ae40d029a9d07e97b303
-    log: |
-         e47faa54c3a30af87b0b441b3fc0960dba17c9a2 memory: tegra: replace DEFINE_SIMPLE_ATTRIBUTE with DEFINE_DEBUGFS_ATTRIBUTE
-         fbd31f5aa60259bfa836dccb35159a7e17a60314 memory: tegra20: Add debug statistics
-         7ebb09db5b265701b70a4c8980513825dbc57584 memory: tegra20: Correct comment to MC_STAT registers writes
-         289471984f1c226c9e0e50d31d0db6b3678e6f5a memory: tegra20: Protect debug code with a lock
-         f012ade8aa07fc6e12af73dbfeea683b017598b5 memory: tegra: Print out info-level once per driver probe
-         4be3973c001ee627d220037d2be67a8e39cecc66 dt-bindings: memory: tegra20: emc: Replace core regulator with power domain
-         7885db0ce77426df8bc82bb71d295263772afc3e dt-bindings: memory: tegra30: emc: Replace core regulator with power domain
-         21e4e0d114d7f4341935cce3b0c2a93d9a0925b7 dt-bindings: memory: tegra124: emc: Replace core regulator with power domain
-         d8d5cbc619e86b8f2167ae40d029a9d07e97b303 dt-bindings: memory: tegra20: mc: Convert to schema
-         
+  - ref: refs/heads/master
+    old: e27bfefb21f28d5295432f042b5d9d7871100c35
+    new: 89d69c5d0fbcabd8656459bc8b1a476d6f1efee4
+    log: revlist-e27bfefb21f2-89d69c5d0fbc.txt
 
---===============6487997455917413486==
+--===============5660968701462293023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6553fa57cb17-e839617e745d.txt
+Content-Disposition: attachment; filename=revlist-e27bfefb21f2-89d69c5d0fbc.txt
 
-b11a188aef6d19fe3ca505831d9c627ef683476f memory: fsl-corenet-cf: Remove redundant dev_err call in ccf_probe()
-e47faa54c3a30af87b0b441b3fc0960dba17c9a2 memory: tegra: replace DEFINE_SIMPLE_ATTRIBUTE with DEFINE_DEBUGFS_ATTRIBUTE
-fbd31f5aa60259bfa836dccb35159a7e17a60314 memory: tegra20: Add debug statistics
-7ebb09db5b265701b70a4c8980513825dbc57584 memory: tegra20: Correct comment to MC_STAT registers writes
-289471984f1c226c9e0e50d31d0db6b3678e6f5a memory: tegra20: Protect debug code with a lock
-f012ade8aa07fc6e12af73dbfeea683b017598b5 memory: tegra: Print out info-level once per driver probe
-4be3973c001ee627d220037d2be67a8e39cecc66 dt-bindings: memory: tegra20: emc: Replace core regulator with power domain
-7885db0ce77426df8bc82bb71d295263772afc3e dt-bindings: memory: tegra30: emc: Replace core regulator with power domain
-21e4e0d114d7f4341935cce3b0c2a93d9a0925b7 dt-bindings: memory: tegra124: emc: Replace core regulator with power domain
-d8d5cbc619e86b8f2167ae40d029a9d07e97b303 dt-bindings: memory: tegra20: mc: Convert to schema
-e839617e745d0bcf958da967b234c61f707b7c04 Merge branch 'for-v5.13/tegra' into for-next
+37f0e514db660f03f8982b8f4fbbd4b2740abe7d skmsg: Lock ingress_skb when purging
+b01fd6e802b6d0a635176f943315670b679d8d7b skmsg: Introduce a spinlock to protect ingress_msg
+0739cd28f2645e814586c7536ba5da9825cb8029 net: Introduce skb_send_sock() for sock_map
+799aa7f98d53e0f541fa6b4dc9aa47b4ff2178e3 skmsg: Avoid lock_sock() in sk_psock_backlog()
+7786dfc41a74e0567557b5c4a28fc8482f5f5691 skmsg: Use rcu work for destroying psock
+190179f65ba8bc18dc1d38435b7932505ca5544f skmsg: Use GFP_KERNEL in sk_psock_create_ingress_msg()
+2004fdbd8a2b56757691717639f86d0eea3ab5b4 sock_map: Simplify sock_map_link() a bit
+b017055255d620b365299c3824610e0098414664 sock_map: Kill sock_map_link_no_progs()
+a7ba4558e69a3c2ae4ca521f015832ef44799538 sock_map: Introduce BPF_SK_SKB_VERDICT
+8a59f9d1e3d4340659fdfee8879dc09a6f2546e1 sock: Introduce sk->sk_prot->psock_update_sk_prot()
+d7f571188ecf25c244789b883c878ec7c64b5b08 udp: Implement ->read_sock() for sockmap
+2bc793e3272a13e337416c057cb81c5396ad91d1 skmsg: Extract __tcp_bpf_recvmsg() and tcp_bpf_wait_data()
+1f5be6b3b063767202f815d5571f7d03729f1282 udp: Implement udp_bpf_recvmsg() for sockmap
+122e6c79efe1c25816118aca9cfabe54e99c2432 sock_map: Update sock type checks for UDP
+d6378af615275435ce6e390a538c980ac19b6659 selftests/bpf: Add a test case for udp sockmap
+8d7cb74f2ccb5486ab8c631a8fcdc7621bbbc42c selftests/bpf: Add a test case for loading BPF_SK_SKB_VERDICT
+89d69c5d0fbcabd8656459bc8b1a476d6f1efee4 Merge branch 'sockmap: introduce BPF_SK_SKB_VERDICT and support UDP'
 
---===============6487997455917413486==--
+--===============5660968701462293023==--
