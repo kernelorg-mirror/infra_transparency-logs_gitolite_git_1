@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5893921548187585666=="
+Content-Type: multipart/mixed; boundary="===============2051862307813352567=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 01 Apr 2021 09:27:33 -0000
-Message-Id: <161726925323.28731.4982060773628609404@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 01 Apr 2021 09:27:41 -0000
+Message-Id: <161726926106.28842.17935578722951513122@gitolite.kernel.org>
 
---===============5893921548187585666==
+--===============2051862307813352567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: aa320c7cd45647b75af2233430d36a8d154703d4
     new: 7c0d6e482062eb5c06ecccfab340abc523bdca00
     log: |
          7c0d6e482062eb5c06ecccfab340abc523bdca00 ASoC: sunxi: sun4i-codec: fill ASoC card owner
          
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: ad858508fd6ac58258dd25fd2063a6f6e10426f7
     new: df421a3a6f00c6b377759bbf0747fe42a9021d89
     log: revlist-ad858508fd6a-df421a3a6f00.txt
 
---===============5893921548187585666==
+--===============2051862307813352567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1617269240 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1617269250-2632b747d9028dd1e94b272cc310c8a0be73157b
+pusher C3F436CA30F5D8EB 1617269247 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1617269257-d0024128e0051c6dddcf5f1531cd2ee760e3046d
 
-aa320c7cd45647b75af2233430d36a8d154703d4 7c0d6e482062eb5c06ecccfab340abc523bdca00 refs/heads/for-5.12
-ad858508fd6ac58258dd25fd2063a6f6e10426f7 df421a3a6f00c6b377759bbf0747fe42a9021d89 refs/heads/for-5.13
+aa320c7cd45647b75af2233430d36a8d154703d4 7c0d6e482062eb5c06ecccfab340abc523bdca00 refs/heads/asoc-5.12
+ad858508fd6ac58258dd25fd2063a6f6e10426f7 df421a3a6f00c6b377759bbf0747fe42a9021d89 refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBlkfgACgkQJNaLcl1U
-h9DUKAf+NdCh1xTgjoArWjZYPCyDGzfk+EKPBOZXoeUJFHz7rpMAwDQ9Ud2+zAEN
-BuPiV//u38TrhssYk50JwdtOFVisqxnefgEQJGvG0lZyZdi/krf31pses8xd8Geb
-4nR0oscLB4QiZE4iyzV9OVdTwJzZEcv/4x0txSAD4X68raA5l69nFQG3bqfY5l3O
-agUW15yKoh/Im2zGxntcIkzgBDqChnOI9g55QDUmC+6nLben9sTehQi5xhlg7mnw
-vr/j57yT9YnLZMKmHRUIA35wm5MWvF/uauesumZK7hKtQsxd/LXIV7RhwHNH1o+F
-w2YXY2EqGXavGPN2iIjS/1lGS5D3/g==
-=yvZq
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBlkf8ACgkQJNaLcl1U
+h9DDVAf9HJerzFccxNeQRKsl/rMoJyC0e8rlB4zEa57CLSHMu7F2kqO9iOXFGbVe
+F2he6pFun/GYcJx2uy9ytVoNsZFNSyExVK69r4X7/xO64TH4Qt80ZDcb3dfCS7AP
+mA6e75Bbfgi1g9lsfkaE3aMOm8WT1xR91V7l/yghpGroUy+6BgzJvyflQgjiPpmr
+7i6a2y1Sn5BdMoXVoLElVp46rPEjwzlCBFVBwbZ/lsfDPZMT5hsqUa2u0edaHoA2
+DPUkO1Lsu8+SlSpLGO4oSBfBHWSlIAvIflh6gZasJc/vM2D2EiTAhmTSWr/hGtW+
+dYQcHfDwZvucBlvAALQiELXetVad1A==
+=INhV
 -----END PGP SIGNATURE-----
 
---===============5893921548187585666==
+--===============2051862307813352567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -88,4 +88,4 @@ bb0f78e59777d55e0065d16d070b5d43ae80b769 ASoC: Intel: Fix a typo
 75c324d5ab14c70670985c49ac59393c90077a56 Merge series "ASoC: dt-bindings: Rework audio-graph-port schema" from Rob Herring <robh@kernel.org>:
 df421a3a6f00c6b377759bbf0747fe42a9021d89 Merge series "ASoC: remove cppchecks warnings on lm49453 and da732x" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 
---===============5893921548187585666==--
+--===============2051862307813352567==--
