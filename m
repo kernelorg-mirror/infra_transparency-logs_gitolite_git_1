@@ -1,75 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0461244956605284834=="
+Content-Type: multipart/mixed; boundary="===============4473127276308870377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 01 Apr 2021 16:03:34 -0000
-Message-Id: <161729301485.12727.2536789678324781469@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 01 Apr 2021 16:07:14 -0000
+Message-Id: <161729323465.15110.189236137084728765@gitolite.kernel.org>
 
---===============0461244956605284834==
+--===============4473127276308870377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 15ec2cad2685227fcf2bf4e4f336977e58438164
-    new: 92b7387214d8d636ce5f6b3b830f6ec5fd455648
-    log: revlist-15ec2cad2685-92b7387214d8.txt
+  - ref: refs/heads/for-5.12
+    old: 7c0d6e482062eb5c06ecccfab340abc523bdca00
+    new: adfc3ed7dcb98f7411d3632e3bdf81690294fe7d
+    log: |
+         b861106f3cd693f944ba46d9ea8744a3fbfd14db ASoC: codecs: lpass-tx-macro: set npl clock rate correctly
+         adfc3ed7dcb98f7411d3632e3bdf81690294fe7d ASoC: codecs: lpass-rx-macro: set npl clock rate correctly
+         
+  - ref: refs/heads/for-5.13
+    old: df421a3a6f00c6b377759bbf0747fe42a9021d89
+    new: 52cad756b777e82fabe05c728cc62b63b3c61fd3
+    log: |
+         ebf721fbbb6e077864783c8d0146021815bb1f24 ASoC: Intel: Fix a typo
+         52cad756b777e82fabe05c728cc62b63b3c61fd3 ASoC: intel, keembay-i2s: Fix a dt_binding_check warning
+         
 
---===============0461244956605284834==
+--===============4473127276308870377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15ec2cad2685-92b7387214d8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-1e5d1f69d9fb8ea0679f9e85915e8e7fdacfbe7a ethtool: support FEC settings over netlink
-0d7f76dc11e6df6b883f625c8343aa8fa1f6874b netdevsim: add FEC settings support
-1da07e5db3564789eb598bc772ea50b547194691 selftests: ethtool: add a netdevsim FEC test
-e3f685aa738c8914ba273834f4bd1e2774579026 Merge branch 'ethtool-fec-netlink'
-48bb5697269a7cbe5194dbb044dc38c517e34c58 ip6_tunnel: sit: proper dev_{hold|put} in ndo_[un]init methods
-53f7c5e1406110b9b8da4b7e2c66023a16bb8714 net: ethernet: stmicro: Remove duplicate struct declaration
-3cbf7530a163d048a6376cd22fecb9cdcb23b192 qrtr: Convert qrtr_ports from IDR to XArray
-b788ff0a7d7dc04da4c938d56cbe96c7fa261983 net: ena: fix inaccurate print type
-e355fa6a3f405d3a3a1d86f2e2e332fb3d4e05d8 net: ena: remove extra words from comments
-ca3fc0aa08370260a1180ac4366cf58fbefc841c net: amd8111e: fix inappropriate spaces
-3f6ebcffaf673490ec95024a8d6e67b890cc53e2 net: amd: correct some format issues
-1f78ff4ff7089b8265278d0bbf937fd8e5958dcf net: ocelot: fix a trailling format issue with block comments
-142c1d2ed96604ec09bbc4076d2a8d09271850d3 net: toshiba: fix the trailing format of some block comments
-44d043b53d3867523960f79c6a909c976e15f3f7 net: lpc_eth: fix format warnings of block comments
-30b8817f5f7a66151b7b772cb9a216706494aa2e Merge branch 'net-coding-style'
-1caf8d39c58f3f63193d02928c8dce3fa07cee52 inet: shrink inet_timewait_death_row by 48 bytes
-490f33c4e70431d0a4d01666a6525fdd43299cde inet: shrink netns_ipv4 by another cache line
-b2908fac5b7b23c03fa1d3e1055ad95ba305c871 ipv4: convert fib_notify_on_flag_change sysctl to u8
-cd04bd022258f4aa6e8392c8133dbbf31da0f12f ipv4: convert udp_l3mdev_accept sysctl to u8
-be205fe6ec4ffd6875f69e61205163fb686a5c74 ipv4: convert fib_multipath_{use_neigh|hash_policy} sysctls to u8
-7d4b37ebb934aa32a54666fe9153d127c33ff89a ipv4: convert igmp_link_local_mcast_reports sysctl to u8
-1c3289c931740f235b29be5182e5f2dfb004593d tcp: convert tcp_comp_sack_nr sysctl to u8
-a6175633a2af0eae07127311563d2a75096c111a ipv6: convert elligible sysctls to u8
-0dd39d952f75a678b2ebcac8bd60f449f303c755 ipv6: move ip6_dst_ops first in netns_ipv6
-ab1b4f0a836f437d44f97cb8a6f444e4c5176cef Merge branch 'inet-shrink-netns'
-ac1db7acea67777be1ba86e36e058c479eab6508 net/tipc: fix missing destroy_workqueue() on error in tipc_crypto_start()
-0d7a7b2014b1a499a0fe24c9f3063d7856b5aaaf ipv6: remove extra dev_hold() for fallback tunnels
-2fa423f5f0c6891effd4d5c8bdb91d418001da11 net: enetc: consume the error RX buffer descriptors in a dedicated function
-a800abd3ecb9acc55821f7ac9bba6c956b36a595 net: enetc: move skb creation into enetc_build_skb
-d504498d2eb3bfcbef4ddf3f51eb9f1391c8149f net: enetc: add a dedicated is_eof bit in the TX software BD
-1ee8d6f3bebbdaa7692732c91685b27ae4c612be net: enetc: clean the TX software BD on the TX confirmation path
-65d0cbb414cee012ceee9991d09f5e7c30b49fcc net: enetc: move up enetc_reuse_page and enetc_page_reusable
-d1b15102dd16adc17fd5e4db8a485e6459f98906 net: enetc: add support for XDP_DROP and XDP_PASS
-7ed2bc80074ed4ed30e0cab323305bde851f7a87 net: enetc: add support for XDP_TX
-d6a2829e82cff9e5ec10b8ee293488b57399ed01 net: enetc: increase RX ring default size
-9d2b68cc108db2fdb35022ed2d88cfb305c441a6 net: enetc: add support for XDP_REDIRECT
-77890db10ef04cae55fb858cbb861414f33039a3 Merge branch 'nxp-enetc-xdp'
-b494ba5a3cf822fa99fb941cd1c293da21f4f927 net: stmmac: enable MTL ECC Error Address Status Over-ride by default
-917e2e6c57980e2255c5eb8ddd77ed670ae49752 net: mediatek: add flow offload for mt7623
-040806343bb4ef6365166eae666ced8a91b95321 selftests/net: so_txtime multi-host support
-7267fab4fc11ef6643ecfca26093408c6a1572dd Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
-8a44d416e793c3d6d97ce1db5d5f8c6b29f0ebb8 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux into net-next
-6301da213c4f6425a27ad20cf5e9236d44c4924a net/mlx5: Fix devlink reload LOCKDEP warning
-556b6aa10119b98a38379bb53f3f2de391627b0d net/mlx5: Don't allow health work when device is probing
-92b7387214d8d636ce5f6b3b830f6ec5fd455648 Revert "net/mlx5: Fix fatal error handling during device load"
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1617293221 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1617293232-a42cda80bf37563034decd1cc6b0615ac93c74dc
 
---===============0461244956605284834==--
+7c0d6e482062eb5c06ecccfab340abc523bdca00 adfc3ed7dcb98f7411d3632e3bdf81690294fe7d refs/heads/for-5.12
+df421a3a6f00c6b377759bbf0747fe42a9021d89 52cad756b777e82fabe05c728cc62b63b3c61fd3 refs/heads/for-5.13
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBl76UACgkQJNaLcl1U
+h9CkwAf/aC2VMm8RfdpAb+N/0DeZfYbZDHmCURmJWwx0wvM9+1gSTvVjuA95k4h6
+9ZIHv3U2riCUqg9HeHuGqWZ0WN9fQKW91NSpbT6WvvlhH3fexTGt5ExDuvZb6Qt3
+XN+Q3HD8xMZkj24MFLKIdh0OPZdUexXljrTU3Ey3ufarblwQlMFH5UugZZnQ1389
+mfpuPCvpzBihfWKq5bt7SnRcluAN8NkmYv4fAQXWYqnBW76I4pAqro3NW6jdY3q+
+WusQpftIpkDTCfX1JZGyjGbTTejoBgfOPfhvy1YUChwjWLEyJMGTC4lzP48Q5LYb
+wlJvGue67gdiB8Z5TGpZQvD6IjHB4Q==
+=8eVk
+-----END PGP SIGNATURE-----
+
+--===============4473127276308870377==--
