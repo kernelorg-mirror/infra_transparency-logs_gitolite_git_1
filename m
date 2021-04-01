@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 01 Apr 2021 20:40:51 -0000
-Message-Id: <161730965158.13751.17075715363196489351@gitolite.kernel.org>
+Date: Thu, 01 Apr 2021 20:53:53 -0000
+Message-Id: <161731043346.21598.2529057203688291887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/imx/defconfig
+  - ref: refs/heads/at91/defconfig
     old: 0000000000000000000000000000000000000000
-    new: 94c586e5941a472fd114815f0eed2f2bb6b83a11
+    new: 4136c4443efce6f028eca74885870ac649981da1
