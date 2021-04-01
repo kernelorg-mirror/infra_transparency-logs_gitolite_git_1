@@ -1,90 +1,99 @@
-Content-Type: multipart/mixed; boundary="===============3632742785502637042=="
+Content-Type: multipart/mixed; boundary="===============5865121934341739410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 01 Apr 2021 21:35:33 -0000
-Message-Id: <161731293380.15199.15752515329263202152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 01 Apr 2021 21:37:59 -0000
+Message-Id: <161731307922.15984.6292633051368641281@gitolite.kernel.org>
 
---===============3632742785502637042==
+--===============5865121934341739410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/seen
-    old: e04ad09ab55e586ba8f8bb8559d36edf1b1f541e
-    new: de70c8adca457d9cbcffa9ef764a86428eb3a9ff
-    log: revlist-e04ad09ab55e-de70c8adca45.txt
+  - ref: refs/heads/mlx5-queue
+    old: b4328a193ef6e80f3a85b2784339142814e28e2b
+    new: 02a7a0b93fe59de816093cff87429fa641bc9e4d
+    log: revlist-b4328a193ef6-02a7a0b93fe5.txt
 
---===============3632742785502637042==
+--===============5865121934341739410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e04ad09ab55e-de70c8adca45.txt
+Content-Disposition: attachment; filename=revlist-b4328a193ef6-02a7a0b93fe5.txt
 
-c6854508808dd32e3fc20c5b021c4064d25f6438 ref-filter: fix NULL check for parse object failure
-4fe788b1b0ee6150173580d8fa70e7d5788cf7d3 builtin/clone.c: add --reject-shallow option
-9218c6a40c37023a1f434222d501218cf8157857 midx: allow marking a pack as preferred
-7240cc4b65b6684c403487889cce396e45ad30cd midx: don't free midx_name early
-9f19161172412086f50b660a07731d636458cdc8 midx: keep track of the checksum
-62f2c1b509e35baddcc4a57fd1c36d1a796e5440 midx: make some functions non-static
-b25fd24c00a6670a940d998287736c5abe4ce09d Documentation/technical: describe multi-pack reverse indexes
-f894081deae88e875536bd53c56b8b189474770c pack-revindex: read multi-pack reverse indexes
-a587b5a7869e9a399d4de6edea0b3f32a3548639 pack-write.c: extract 'write_rev_file_order'
-38ff7cabb6b8e51df78ce20c20632eba24265ee4 pack-revindex: write multi-pack reverse indexes
-30077524611cae8f25111e2c8b8d42136aa58787 midx.c: improve cache locality in midx_pack_order_cmp()
-ff338b5790f041168373ac4728718f1162b2931a Merge branch 'jh/simple-ipc' into jh/rfc-builtin-fsmonitor
-2d4e48b8ee15c83d431b143eae4e1a0fd0080c2b fsmonitor--daemon: man page and documentation
-ea582a9d99d46aa5945c30a2c0295fb51b54657a fsmonitor-ipc: create client routines for git-fsmonitor--daemon
-062f50f493b9515c6f5c80beaaf5894f3a56ecd9 config: FSMonitor is repository-specific
-76f6fb124bf3051beee25a20d1673e78d7b31c28 fsmonitor: introduce `core.useBuiltinFSMonitor` to call the daemon via IPC
-412f1882051949e448e46b6b456b5cfbec61d5f0 fsmonitor--daemon: add a built-in fsmonitor daemon
-869d123ae39ba499e6f55f5f125da60400b8a5ee fsmonitor--daemon: implement client command options
-74de458cad1404c69120058b7d87c4816d8b14c1 fsmonitor-fs-listen-win32: stub in backend for Windows
-b16332e1f8a9ce733395f0ca45f6802e453dc1ff fsmonitor-fs-listen-macos: stub in backend for MacOS
-36c125b5de6bea7576ea1a8a53212a9b941c900c fsmonitor--daemon: implement daemon command options
-61f7e5d0ea3c1ebdb95320e3d034e2e9d60886a6 fsmonitor--daemon: add pathname classification
-cc91e6e90c1564454689253c7e0051dc1d850506 fsmonitor--daemon: define token-ids
-09f1b91d34658cf1e1e908a95fe84234b4e160ef fsmonitor--daemon: create token-based changed path cache
-d5a698fa331a81d2b6bff5436c68ff9e323172c4 fsmonitor-fs-listen-win32: implement FSMonitor backend on Windows
-ff5aa18c81998b125aa9602261561c6cda9338e7 fsmonitor-fs-listen-macos: add macos header files for FSEvent
-7e465336a1e2ba08606d0c937d04c35067dcda3f fsmonitor-fs-listen-macos: implement FSEvent listener on MacOS
-dd4508d2a02f9554465f6c243648b5e2d4895496 fsmonitor--daemon: implement handle_client callback
-c470d14e3bda64df8f6ff56422b3b151bb9318f0 fsmonitor--daemon: periodically truncate list of modified files
-44ad1ce8c22c3ba6493f877e43fc30f62b20badd fsmonitor--daemon:: introduce client delay for testing
-31a837dca1639765abe5e964a23a70084d4d3b08 fsmonitor--daemon: use a cookie file to sync with file system
-8967b70dc9ad48d75a38bd01ad62d354073f6de2 fsmonitor: force update index when fsmonitor token advances
-7be1909e0d565ef9d7da0cf7fa268b4e729de9e7 t7527: create test for fsmonitor--daemon
-64a5e2c99df10285aee6a6c65ee592465ea6054d p7519: add fsmonitor--daemon
-c1a8d3d832b9e40650089ec8b4e144ff5a0a713d t7527: test status with untracked-cache and fsmonitor--daemon
-f7b03a0f878ffb123c88ba695739e42866a78d45 Merge branch 'tb/reverse-midx' into jch
-e770d96927b625d5a6627ebb87ce89687bd1d2d8 Merge branch 'en/ort-perf-batch-9' into jch
-714d220c56c1269d88f66df991fdfe51d1fde898 Merge branch 'en/sequencer-edit-upon-conflict-fix' into jch
-9aebb239163973291b3b477f5ab370af089e6271 Merge branch 'mt/add-rm-in-sparse-checkout' into jch
-7e0b01dc7b0afd580a7a7fcae2fd5bce825909ba Merge branch 'rs/daemon-sanitize-dir-sep' into jch
-aca7c431c5660d3b3e48942753dfd3db90034496 Merge branch 'ar/userdiff-scheme' into jch
-a77bf9c0f7b75702b9ae0c295a31846b7916aeb1 Merge branch 'ab/make-tags-quiet' into jch
-d0076f3a89c6304641ef415f573b34700d74c6de Merge branch 'gk/gitweb-redacted-email' into jch
-945525d25d82a1caeb69a705606e4f1b2d4e4f47 Merge branch 'jk/ref-filter-segfault-fix' into jch
-012446c4edfcee76fdbc416f772650de7e8b2d1b Merge branch 'll/clone-reject-shallow' into jch
-81b7ee18470b86d88e6a23b003c6bb8573d3dbb4 Merge branch 'ab/describe-tests-fix' into seen
-eb305b4b6519abd0616fd6d0c5f0f342362319ba Merge branch 'ab/userdiff-tests' into seen
-8621346fd78e27afb788c3262eed53c636a8b748 Merge branch 'ab/pickaxe-pcre2' into seen
-05f0762991868010cfeaec9b058cf1c25ee35d3b Merge branch 'ag/merge-strategies-in-c' into seen
-aaf228f7a507d63458bc1b075c780e99686aa8e2 Merge branch 'hn/reftable' into seen
-81464ac7db1ff58014d10ef4a82e6857c59a7b4b Merge branch 'es/config-hooks' into seen
-8333f59030f6816522a229c78186b2efbbb53896 Merge branch 'mt/parallel-checkout-part-2' into seen
-7cc239861af97a02cea1de1776d0a2d9cf59525f Merge branch 'ab/unexpected-object-type' into seen
-0fbe62d1cc88283d6d35cc466d37c36585b4da79 Merge branch 'ab/tests-cleanup-around-sha1' into seen
-7dd4a9b03baf1d5c549a9d58e30d2dcaffe89ea0 Merge branch 'en/ort-perf-batch-10' into seen
-17001d056b27af682339c93b0caeb352407fbc16 Merge branch 'en/ort-readiness' into seen
-d75b943b30af7a6ff45eecafd6e079d75c5d028f Merge branch 'ds/sparse-index' into seen
-d206e62fbe2c0046a1823e46a5f7500bab4287d6 Merge branch 'tb/pack-preferred-tips-to-give-bitmap' into seen
-60c7edaced893d527683d65ac22cad987dd241d4 Merge branch 'ds/sparse-index-protections' into seen
-de70c8adca457d9cbcffa9ef764a86428eb3a9ff Merge branch 'jh/rfc-builtin-fsmonitor' into HEAD
+1e5d1f69d9fb8ea0679f9e85915e8e7fdacfbe7a ethtool: support FEC settings over netlink
+0d7f76dc11e6df6b883f625c8343aa8fa1f6874b netdevsim: add FEC settings support
+1da07e5db3564789eb598bc772ea50b547194691 selftests: ethtool: add a netdevsim FEC test
+e3f685aa738c8914ba273834f4bd1e2774579026 Merge branch 'ethtool-fec-netlink'
+48bb5697269a7cbe5194dbb044dc38c517e34c58 ip6_tunnel: sit: proper dev_{hold|put} in ndo_[un]init methods
+53f7c5e1406110b9b8da4b7e2c66023a16bb8714 net: ethernet: stmicro: Remove duplicate struct declaration
+3cbf7530a163d048a6376cd22fecb9cdcb23b192 qrtr: Convert qrtr_ports from IDR to XArray
+b788ff0a7d7dc04da4c938d56cbe96c7fa261983 net: ena: fix inaccurate print type
+e355fa6a3f405d3a3a1d86f2e2e332fb3d4e05d8 net: ena: remove extra words from comments
+ca3fc0aa08370260a1180ac4366cf58fbefc841c net: amd8111e: fix inappropriate spaces
+3f6ebcffaf673490ec95024a8d6e67b890cc53e2 net: amd: correct some format issues
+1f78ff4ff7089b8265278d0bbf937fd8e5958dcf net: ocelot: fix a trailling format issue with block comments
+142c1d2ed96604ec09bbc4076d2a8d09271850d3 net: toshiba: fix the trailing format of some block comments
+44d043b53d3867523960f79c6a909c976e15f3f7 net: lpc_eth: fix format warnings of block comments
+30b8817f5f7a66151b7b772cb9a216706494aa2e Merge branch 'net-coding-style'
+1caf8d39c58f3f63193d02928c8dce3fa07cee52 inet: shrink inet_timewait_death_row by 48 bytes
+490f33c4e70431d0a4d01666a6525fdd43299cde inet: shrink netns_ipv4 by another cache line
+b2908fac5b7b23c03fa1d3e1055ad95ba305c871 ipv4: convert fib_notify_on_flag_change sysctl to u8
+cd04bd022258f4aa6e8392c8133dbbf31da0f12f ipv4: convert udp_l3mdev_accept sysctl to u8
+be205fe6ec4ffd6875f69e61205163fb686a5c74 ipv4: convert fib_multipath_{use_neigh|hash_policy} sysctls to u8
+7d4b37ebb934aa32a54666fe9153d127c33ff89a ipv4: convert igmp_link_local_mcast_reports sysctl to u8
+1c3289c931740f235b29be5182e5f2dfb004593d tcp: convert tcp_comp_sack_nr sysctl to u8
+a6175633a2af0eae07127311563d2a75096c111a ipv6: convert elligible sysctls to u8
+0dd39d952f75a678b2ebcac8bd60f449f303c755 ipv6: move ip6_dst_ops first in netns_ipv6
+ab1b4f0a836f437d44f97cb8a6f444e4c5176cef Merge branch 'inet-shrink-netns'
+ac1db7acea67777be1ba86e36e058c479eab6508 net/tipc: fix missing destroy_workqueue() on error in tipc_crypto_start()
+0d7a7b2014b1a499a0fe24c9f3063d7856b5aaaf ipv6: remove extra dev_hold() for fallback tunnels
+2fa423f5f0c6891effd4d5c8bdb91d418001da11 net: enetc: consume the error RX buffer descriptors in a dedicated function
+a800abd3ecb9acc55821f7ac9bba6c956b36a595 net: enetc: move skb creation into enetc_build_skb
+d504498d2eb3bfcbef4ddf3f51eb9f1391c8149f net: enetc: add a dedicated is_eof bit in the TX software BD
+1ee8d6f3bebbdaa7692732c91685b27ae4c612be net: enetc: clean the TX software BD on the TX confirmation path
+65d0cbb414cee012ceee9991d09f5e7c30b49fcc net: enetc: move up enetc_reuse_page and enetc_page_reusable
+d1b15102dd16adc17fd5e4db8a485e6459f98906 net: enetc: add support for XDP_DROP and XDP_PASS
+7ed2bc80074ed4ed30e0cab323305bde851f7a87 net: enetc: add support for XDP_TX
+d6a2829e82cff9e5ec10b8ee293488b57399ed01 net: enetc: increase RX ring default size
+9d2b68cc108db2fdb35022ed2d88cfb305c441a6 net: enetc: add support for XDP_REDIRECT
+77890db10ef04cae55fb858cbb861414f33039a3 Merge branch 'nxp-enetc-xdp'
+b494ba5a3cf822fa99fb941cd1c293da21f4f927 net: stmmac: enable MTL ECC Error Address Status Over-ride by default
+917e2e6c57980e2255c5eb8ddd77ed670ae49752 net: mediatek: add flow offload for mt7623
+040806343bb4ef6365166eae666ced8a91b95321 selftests/net: so_txtime multi-host support
+abf1e5bdf9bf899b0249df694100a7d8b0bddf18 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
+d453a9213986d6ccb5f527b4f394dcfba149780f Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux into net-next
+2a4965b0ab3088305290064c3f86bee47cdf2625 net/mlx5: Fix devlink reload LOCKDEP warning
+f04ecf7a782322f95e7187bb122eac3722a598d7 net/mlx5: Don't allow health work when device is probing
+54672397739cf63e27340082812e3e042414ba93 Revert "net/mlx5: Fix fatal error handling during device load"
+4ddc30655020ec1084e61213203bdc398fa485dd net/mlx5: CT: Add support for matching on ct_state inv and rel flags
+df51f6ba24e0e098ad1414a0c639119851400246 net/mlx5: E-Switch, cut down mlx5_vport_info structure size by 8 bytes
+b0f77ac493971526949bc7e25ed03f3eb83ffffc net/mlx5: E-Switch, move QoS specific fields to existing qos struct
+e1f80bbff1018d1b2a9cfa8d457da27bb2170c6b net/mlx5: Use unsigned int for free_count
+fbaeab2965610f1831b9f2903785633eed76d87d net/mlx5: Pack mlx5_rl_entry structure
+68eff6b2267c2518ff6811d3b3d16f420f1f7cdc net/mlx5: Do not hold mutex while reading table constants
+ab89819db6f177825c2051dfc6d7b18a676403f4 net/mlx5: Use helpers to allocate and free rl table entries
+99481f1b38929477771a6ca52bd5ea7297147b8e net/mlx5: Use helper to increment, decrement rate entry refcount
+2050994d076827db33216d2533510f4e5d2a6634 net/mlx5: Allocate rate limit table when rate is configured
+6c1ed6a6f6c244289744efc05d3b04fcf66e0800 net/mlx5: E-Switch, cut down mlx5_vport_info structure size by 8 bytes
+c625a4975661e8fd5ea3474eff23b3ef0717947d net/mlx5: Pair mutex_destory with mutex_init for rate limit table
+a24c2d76417ad87d9f17a8d390d3ff8499b329e1 net/mlx5: E-Switch, move QoS specific fields to existing qos struct
+3dbc553ea1626994e5edbd78179fc9bd67b9a287 net/mlx5: DR, Alloc cmd buffer with kvzalloc() instead of kzalloc()
+f3b92046b3cffdd7e654676bf6c08f4ac1aa59fc net/mlx5e: Dynamic alloc arfs table for netdev when needed
+910272d47ba2617ee315e00b386889205f06251f net/mlx5e: Reject tc rules which redirect from a VF to itself
+24fe012e83d8fb5c0e72c7b2611fb7744faaf07b net/mlx5e: Dynamic alloc vlan table for netdev when needed
+638a8c8d0866fb666291b63fbdf28f1441faabd7 Merge branch 'patchq/377516' into mlx5-queue
+243da7827a2e266f78b7d1dff2452238a46bfef1 net/mlx5: Use ida_alloc_range() instead of ida_simple_alloc()
+47b11463e90aa319b848be0abb1af373ea175069 Merge branch 'patchq/376242' into mlx5-queue
+0ed9340331dfa85d618129882ceacea6450dae6a Merge branch 'patchq/371961' into mlx5-queue
+ae2a45ec82f56d1e881df90a415efd336b714995 Merge branch 'patchq/382907' into mlx5-queue
+417081858d5dceb33357b8e239f1991936ae4963 Merge branch 'patchq/382373' into mlx5-queue
+6c52f2ec815f43e6273f0b5af8281222e58ec43d Merge branch 'patchq/378313' into mlx5-queue
+02a7a0b93fe59de816093cff87429fa641bc9e4d Merge branch 'patchq/383006' into mlx5-queue
 
---===============3632742785502637042==--
+--===============5865121934341739410==--
