@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 02 Apr 2021 21:28:11 -0000
-Message-Id: <161739889173.13549.18257800858669679634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 02 Apr 2021 21:31:25 -0000
+Message-Id: <161739908532.15945.3700163829520922928@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 8577dd8a07cc2183e3790aa8f8da3d8c6a87803d
-    new: ca4d4c34ae9aa5c3c0da76662c5e549d2fc0cc86
+    old: 990b03b05b2fba79de2a1ee9dc359fc552d95ba6
+    new: a14d273ba15968495896a38b7b3399dba66d0270
     log: |
-         ca4d4c34ae9aa5c3c0da76662c5e549d2fc0cc86 nfc: pn533: prevent potential memory corruption
+         a14d273ba15968495896a38b7b3399dba66d0270 net: macb: restore cmp registers on resume path
          
