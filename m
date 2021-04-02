@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mdf/linux-fpga
-Date: Fri, 02 Apr 2021 16:59:46 -0000
-Message-Id: <161738278643.8644.1839604538888441550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Fri, 02 Apr 2021 17:06:53 -0000
+Message-Id: <161738321333.13631.9582387870407026452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mdf/linux-fpga
-user: mdf
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: 9a8d3cda8daf54b1f8e67ccb360876379b7e7895
-    new: f9d2d86dc52118bc237ed081128df30faa4a5761
+  - ref: refs/heads/master
+    old: b5b815ef1690e497232fc8c8fa4297c4bb4b7e21
+    new: ca085d799d7483f1709cb2e325e7f4a3e956e56b
     log: |
-         f9d2d86dc52118bc237ed081128df30faa4a5761 dt-bindings: fpga: fpga-region: Convert to sugar syntax
+         fa3fad37ce80a24142a2a3f7c90310f70adec56c ie: Ad IE_AKM_IS_FT
+         e30345d699d309d9e4f7132a87698c78bd8643c1 ie: Add IE_AKM_IS_FILS macro
+         d79e883e93dfd5effe4cabaa0c3acaf7040b1a10 netdev: Introduce connection types
+         ca085d799d7483f1709cb2e325e7f4a3e956e56b station: Do not set or use the offload bit
          
