@@ -1,57 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0422734446368657124=="
+Content-Type: multipart/mixed; boundary="===============0820205200114295699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 02 Apr 2021 12:57:11 -0000
-Message-Id: <161736823122.20381.10158862993554421476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Fri, 02 Apr 2021 13:04:58 -0000
+Message-Id: <161736869813.24034.14040606736002628489@gitolite.kernel.org>
 
---===============0422734446368657124==
+--===============0820205200114295699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: mripard
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/staging-testing
-    old: 305271ab4f54f9ae7b9080473d1699c9511ae235
-    new: f032e2cdf9003ed076c8866a2e7f5003eeabcff8
+  - ref: refs/heads/sunxi/dt-for-5.13
+    old: 531fdbeedeb89bd32018a35c6e137765c9cc9e97
+    new: d580e6f0ec3ab42e81f3825ef4438836ead88c5f
     log: |
-         0778f04b0b36dcd51c1dfcaf77a326eacff73329 staging: greybus: arche-platform: Ending line with argument
-         f032e2cdf9003ed076c8866a2e7f5003eeabcff8 staging: greybus: camera: Switch to memdup_user_nul()
+         d580e6f0ec3ab42e81f3825ef4438836ead88c5f ARM: dts: sun8i: h3: beelink-x2: Add power button
          
+  - ref: refs/heads/sunxi/fixes-for-5.12
+    old: 0000000000000000000000000000000000000000
+    new: a3797571964d80ff3abebb1cd5047d4ae6d8db4e
 
---===============0422734446368657124==
+--===============0820205200114295699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617368225 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1617368225-9a20bd9ef104ae7f2c75468d4dc5ba2db9e3e61d
+pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1617368691 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sunxi/linux
+nonce 1617368691-dccb446ede8b6866d7f46e3af4c562d1c6cd7848
 
-305271ab4f54f9ae7b9080473d1699c9511ae235 f032e2cdf9003ed076c8866a2e7f5003eeabcff8 refs/heads/staging-testing
+531fdbeedeb89bd32018a35c6e137765c9cc9e97 d580e6f0ec3ab42e81f3825ef4438836ead88c5f refs/heads/sunxi/dt-for-5.13
+0000000000000000000000000000000000000000 a3797571964d80ff3abebb1cd5047d4ae6d8db4e refs/heads/sunxi/fixes-for-5.12
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBnFKEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FuYQAMMeTmiINB+phCMyAs5q
-epym6Gb9I1LDVbHt33joq+K+wjYSGnzKaCryuWfcadhnXMiYBwKMHbp0M6u1gB82
-e9nmF+rmlszOJ0EdeeY0gl5OBe47H8pk+RRrzlybhgsT7dwi787xm3U9opShrktg
-slddh98D0VbJi3MXtLBVVHSWOkWqgl9+uE1Z8qaTWtZ+K3M+ustWXwsCcy3k7fWr
-zPYkbWr/wSzNvDOaOSByjMG9sSW4Q4rqa3hEA9Dh205cV84A//U9OSiW6eYiXLZl
-jvQttFpIAnI1VjMZ1KB057tw8x23+oISC+Ung1klO90Ey3XqJYl45zV9XVL0C1cF
-Gn3J1M+i9JKBEtv2wTDcY/tADHEV+OBPpk2BDwm0TBobKblUGNTKNL9LK5QmOcVX
-hpvime0oQ2676qIh0nl56uRmdWuW60HDQFLGkDS9djDOh/5fkIL3aTKkzMlulwBb
-+I6bWAUPMVQEm5IWfE403EDiKeIjgntICYPVMjh4mrcjegDosF37taDVURnhNQT6
-cjDgMffcBY2NYHPwvCyX9jIEr80+ahOUWstuTcfjxxFeMf5Nk/EijsYY6HBDEQr3
-gcIQFW7Lmw6Exbb6rUmXs0M0o6KF6VB3eBhJaBBDaNLnLjjQxxq0e6MXaJcJSwDU
-whqWkwKrznW3rxzl2R1cTnTc
-=0jLG
+iHUEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCYGcWcwAKCRDj7w1vZxhR
+xdiUAPwO5MNB7k2UTSYdnRjxTwAvH6zMgUTTEu90B8oTFMfHogD+KpnNtcayd8Bv
+8Q7z9YHwZ1Rj69Jx1P865WGM9ScVmwQ=
+=mbgM
 -----END PGP SIGNATURE-----
 
---===============0422734446368657124==--
+--===============0820205200114295699==--
