@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3910225094804956383=="
+Content-Type: multipart/mixed; boundary="===============0422618387725082456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 02 Apr 2021 12:09:28 -0000
-Message-Id: <161736536857.23159.5907861142327952540@gitolite.kernel.org>
+Date: Fri, 02 Apr 2021 12:10:30 -0000
+Message-Id: <161736543044.24850.6302012163770132824@gitolite.kernel.org>
 
---===============3910225094804956383==
+--===============0422618387725082456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,52 +16,67 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 4a98623d5d90175c0f99d185171e60807391e487
-    new: 657f1d86a38e4b5d13551948c02cc8fc6987e3a5
-    log: revlist-4a98623d5d90-657f1d86a38e.txt
+  - ref: refs/heads/mmu-notifier-queue
+    old: c5af57e50d51b6c96b482bddcaedd48af40a781a
+    new: 5cb20c30e8469b33b0c2e0eebbf874b383d4e46d
+    log: revlist-c5af57e50d51-5cb20c30e846.txt
 
---===============3910225094804956383==
+--===============0422618387725082456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1617365367 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1617365428 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1617365366-b9a6f6963167c9a0d7c2be3b602081beff8aef35
+nonce 1617365428-36aeaf624c56fb5485e9de6c18e9f247302a8bf2
 
-4a98623d5d90175c0f99d185171e60807391e487 657f1d86a38e4b5d13551948c02cc8fc6987e3a5 refs/heads/next
+c5af57e50d51b6c96b482bddcaedd48af40a781a 5cb20c30e8469b33b0c2e0eebbf874b383d4e46d refs/heads/mmu-notifier-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmBnCXcUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroPpoAgAliGx4P7YmkmigXZQ7CjmfhX+Kj8g
-O6ZBZ4gPuu5lCjkTLNwhCr3IWHnuIZdA6MjB+TgnAlbb9ebKIFyEa1YOu++O83g+
-ttM6+ucZ3n7vYFuC5pF17yvPyVBGlH+tXs8acf47Jj8/RWk4GGage25rFeVO676/
-oqhTRBb070DiTuB8IwNSnDbUgGFLi5szaCNKTaBliao+znsMavIMx7lkljRYll19
-YJt55wvwfTByxKC8MMzOr4G0STniAKJ4kzMMYSeHp4JGi8jW09j+/YLEsfpK1htF
-Qk1IqM+lL5CfG2/dCbpV44nQK1/wMmKwvOp6VFMPtP64b49punKXwqUCAA==
-=g3Q2
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmBnCbQUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroP+ggf/eaUXB3wjYnWQBHLQsTBf3fvR0w4+
+F6EbCM9LkISt1NjwAs6Vnf/3u2ICUrwrBG1geUodyhe0TsN8TXX5McjBqWZkdsYx
+GBTh9nTNPVi+PdKEdXJ27vL2Vh+BGHgy0MPMkslCu6JxSywYrXxdsh3dSzIoVUn8
+F0M3YHcwX4y8LeKEpTSZfhXlv6+Kxcs0GIS57CJEznV5NpYSlT8oMqROneh/JOhv
+YRCq6VH1J6hUbgvjuAmV/AVDOTqiC3bZBdUOUsE1KQm5u1zk5wydn2S5jJNYXdQ/
+sCzOZOCBPyL6AwRKKNb0Xbxux9IpvtgH80jd9uHqS9vI62i2LXahJf7KnQ==
+=my2F
 -----END PGP SIGNATURE-----
 
---===============3910225094804956383==
+--===============0422618387725082456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a98623d5d90-657f1d86a38e.txt
+Content-Disposition: attachment; filename=revlist-c5af57e50d51-5cb20c30e846.txt
 
-70fb3e41a97a5fecc0aedc9a429479d702c3ab66 KVM: x86/mmu: Fix RCU usage in handle_removed_tdp_mmu_page
-14f6fec2e8e04b83c87c339b8d8ff4cc62b23d35 KVM: x86/mmu: Fix RCU usage when atomically zapping SPTEs
-b601c3bc9d5053065acdaa1481c21481d0dc3f10 KVM: x86/mmu: Factor out tdp_iter_return_to_root
-08889894cc82bc3b213bdb192f274358e5a6b78d KVM: x86/mmu: Store the address space ID in the TDP iterator
-a835429cda91621fca915d80672a157b47738afb KVM: x86/mmu: Ensure TLBs are flushed when yielding during GFN range zap
-048f49809c526348775425420fb5b8e84fd9a133 KVM: x86/mmu: Ensure TLBs are flushed for TDP MMU during NX zapping
-33a3164161fc86b9cc238f7f2aa2ccb1d5559b1c KVM: x86/mmu: Don't allow TDP MMU to yield when recovering NX pages
-a58d9166a756a0f4a6618e4f593232593d6df134 KVM: SVM: load control fields from VMCB12 before checking them
-3c346c0c60ab06a021d1c0884a0ef494bc4ee3a7 KVM: SVM: ensure that EFER.SVME is set when running nested guest or on nested vmexit
-cb9b6a1b199b9a4f409d4b8fd70434c80f5389c2 Merge branch 'kvm-fix-svm-races' into HEAD
-57e45ea487750bdf0a4b4bfd36e250db86d63161 Merge branch 'kvm-tdp-fix-flushes' into HEAD
-657f1d86a38e4b5d13551948c02cc8fc6987e3a5 Merge branch 'kvm-tdp-fix-rcu' into HEAD
+ef749edfaa114fd7b6c1cf33dd9fbffc0788a586 KVM: MMU: protect TDP MMU pages only down to required level
+bf4d22bf0fd085c1c0e9b6f425204907da00b838 KVM: MIPS: rework flush_shadow_* callbacks into one that prepares the flush
+bad44167bd8929c6abe7a0314b9e4ef9b0418ddf KVM: MIPS: call prepare_flush_shadow if TLBs are flushed from generic code
+7f74e3cb5a8e5c43d13b08ad0afffc716ffec61f KVM: MIPS: defer flush to generic MMU notifier code
+bbcff86c7aaf556c0d8e45f6a50faee3648e6054 KVM: Assert that notifier count is elevated in .change_pte()
+f194e4ebb5b4e89159559a2f39a084fd9a41b1be KVM: Move x86's MMU notifier memslot walkers to generic code
+b6c27f964e3dca5c6a85852f4596bc44499dfc92 KVM: arm64: Convert to the gfn-based MMU notifier callbacks
+b469cf474bec571f894dcfcdd30825f55ac7057c KVM: MIPS/MMU: Convert to the gfn-based MMU notifier callbacks
+b6bd6fad1855d58bd5242f2c76d9b25e8ed78a63 KVM: PPC: Convert to the gfn-based MMU notifier callbacks
+7d5368a04af0f2f02f84ab698fe929bd9e4e08ec KVM: Kill off the old hva-based MMU notifier callbacks
+3357bab8591b8942cd7d9b6596d5c2d5c7e231fc KVM: Move MMU notifier's mmu_lock acquisition into common helper
+4231eb759ec9a5b811b51bf9099262002066583a KVM: Take mmu_lock when handling MMU notifier iff the hva hits a memslot
+1e06ef47bc070b076fa0266072a1d4c999701a2d KVM: Don't take mmu_lock for range invalidation unless necessary
+579d3316b7e05d7f92883c6e9bb928ff094e0a9c KVM: x86/mmu: Allow yielding during MMU notifier unmap/zap, if possible
+76d172d7e924abab9e1f7dc7f7fe79aac19edac6 KVM: x86/mmu: Re-add const qualifier in kvm_tdp_mmu_zap_collapsible_sptes
+cdb22222f7239f1febfefd650f7b3bfd08e01cbb KVM: x86/mmu: Move kvm_mmu_(get|put)_root to TDP MMU
+1522c3e34ae0d7c4c386121d93180e402afd8195 KVM: x86/mmu: use tdp_mmu_free_sp to free roots
+ae8cb2daa0069b3482b0d3eb567666a2ff0ee985 KVM: x86/mmu: Merge TDP MMU put and free root
+1d90cf6509fc301494add85a8b94f6b39461ed1b KVM: x86/mmu: Refactor yield safe root iterator
+177b5f87e1664c291a9720cceb0f3c11819920e5 KVM: x86/mmu: Make TDP MMU root refcount atomic
+97c9acaa58ecedb1881271699c37251348e7d285 KVM: x86/mmu: handle cmpxchg failure in kvm_tdp_mmu_get_root
+48fe47f97926c8c80c1d65e85cae62e5b10deba3 KVM: x86/mmu: Protect the tdp_mmu_roots list with RCU
+d062ada9ba1c8cab29c9302b41ec98d9e4628826 KVM: x86/mmu: Allow zap gfn range to operate under the mmu read lock
+296647d7c1bf41e8bb1d348921c6840b49921127 KVM: x86/mmu: Allow zapping collapsible SPTEs to use MMU read lock
+4fc5ea4a6f3d03a1b3f27b9bcae8f1ea103b5728 KVM: x86/mmu: Allow enabling/disabling dirty logging under MMU read lock
+4b0b7921410ba242e51e72a5ff40ea7271f75ef8 KVM: x86/mmu: Fast invalidation for TDP MMU
+5cb20c30e8469b33b0c2e0eebbf874b383d4e46d KVM: x86/mmu: Tear down roots before kvm_mmu_zap_all_fast returns
 
---===============3910225094804956383==--
+--===============0422618387725082456==--
