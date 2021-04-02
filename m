@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6976815010386744614=="
+Content-Type: multipart/mixed; boundary="===============5634092890862061237=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 02 Apr 2021 14:28:45 -0000
-Message-Id: <161737372580.14741.13458020351736044518@gitolite.kernel.org>
+Date: Fri, 02 Apr 2021 14:29:17 -0000
+Message-Id: <161737375794.15014.8640617609648774521@gitolite.kernel.org>
 
---===============6976815010386744614==
+--===============5634092890862061237==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,49 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 5751564085e70caf4a5fb31d75cbaeaa723a7511
-    new: 5a1bea2a2572ce5eb4bdcf432a6929681ee381f2
+    old: 5a1bea2a2572ce5eb4bdcf432a6929681ee381f2
+    new: 38ab861493de18c672b101765751f5e6bb17ec0d
     log: |
-         2a1405a14c3a741cc6a9154422b852fbafed6c9a dt-bindings: nvmem: mediatek: add support for MediaTek mt8192 SoC
-         e050f160d4832ce5227fb6ca934969cec0fc48be nvmem: convert comma to semicolon
-         9ec4f4b0e9fd3ad4b9a38bddb75b516ea09f4628 drivers: nvmem: Fix voltage settings for QTI qfprom-efuse
-         5783bd1970b3046cd3b4493138155a5a22fde873 dt-bindings: nvmem: add Broadcom's NVRAM
-         3fef9ed0627af30753a2404b8bd59d92cdb4c0ce nvmem: brcm_nvram: new driver exposing Broadcom's NVRAM
-         a28e824fb8270eda43fd0f65c2a5fdf33f55c5eb nvmem: core: Add functions to make number reading easy
-         55022fdeace8e432f008787ce03703bdcc9c3ca9 nvmem: core: Fix unintentional sign extension issue
-         cc1bc56fdc76a55bb8fae9a145a2e60bf22fb129 nvmem: rmem: fix undefined reference to memremap
-         b1f20fd04577a24bef4616a67a61c6dfe1eedb6b dt-bindings: nvmem: Add SoC compatible for sc7280
-         5a1bea2a2572ce5eb4bdcf432a6929681ee381f2 nvmem: qfprom: Add support for fuse blowing on sc7280
+         5c777233c90f80a75cbd79c1b2fd713453dd02ff mux: gpio: Use bitmap API instead of direct assignment
+         7fef54e25541c49c99ba5787bfb45216c30df3e7 mux: gpio: Make it OF independent
+         38ab861493de18c672b101765751f5e6bb17ec0d mux: gpio: Simplify code by using dev_err_probe()
          
 
---===============6976815010386744614==
+--===============5634092890862061237==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617373720 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617373752 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1617373719-a9773180da44cb3e2973738a665192d6c163854d
+nonce 1617373752-888f9a628f4dab54a7d042c63e68ae6430d0f20f
 
-5751564085e70caf4a5fb31d75cbaeaa723a7511 5a1bea2a2572ce5eb4bdcf432a6929681ee381f2 refs/heads/char-misc-testing
+5a1bea2a2572ce5eb4bdcf432a6929681ee381f2 38ab861493de18c672b101765751f5e6bb17ec0d refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBnKhgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yJMQAMR4Koc/7qvR9mEHltEo
-U3HYWm7WricECmD9M4liZhofZKVQdZtoKl9l4DFe7rKgtlff92x4Vgg1AXk8q0U0
-uf69YAaua8medv87OdHsREXyW3os7M6pA7OM9zRehu4UI5dst3YK2ypoROxleaLv
-MBW9wkM2IUqnBPA8x6m+nTKHYV87TILJ96MYX86OjMXIuN/MdXsdZ6vHAI1MPZmH
-tF+D+n02g30WlcjAVu986W9C8xtRNVC4ww3MPW+AJUHHbVKy4vqGlZsqd/qFSOBC
-Ox8nCsPSgG24RybGM6iG0IDKd1GTEoWb8ZobUWO2wVlphRXioOb3LbUuYsP05yl3
-2Euf6z6dmyG3HFTg7hapTgZhk250Gplafg59CH0bLfkiX+ZMeGWKOOqKx2zptGU2
-+9KupPat64xHPFSpOxLg0YsStStwNTv6gFewZe0fCiEDwjonR3hyzEslhksFeiT9
-TjRWAkiCm7Ix60KEChpfj6sxLQXBzEwMSw+dLdX2dBq328n6hUUzC/kvPPNk2Dpt
-f9OqtTz3s4P9CJ/Py/yKwN0rHRI1b9orrBOCnuQJIc9KH4Tsxp726r0yrB8vuYkX
-ZhTVvZYAGkH+3Ujj5QM8+6S343CV7eio4opqkygSAocSldn542t9GQo76HqLPfsW
-qvzM2iagpUlNnnrppk5yYj+g
-=tMTq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBnKjgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nVsQAKV5XXHsM2Lpnn3RfjKk
+Os91ANTGB4gKZX780GNj+HNpYFxdrOlNmX1iI9Uwxsobe1CH8358apWYhKCO8Z2Y
+tkCJt3VTeMBFd4WE37PSGyeYEf07tGCEd+UHYM8qq6/GWxaVXtCJY3cSOj+dh2Wi
+xGVfIzU6dKAIFAZ0vKmO5boQeEPHG1m7sy5c4Jq0+OoL0M5MQoGQMYG8uWuGsVpL
+p6OdGaWVjm5BiFJIMtiZNQgy9OsNJ6S9Rk57tSFRaly/HZFz5JNFOBnkdTaTdY1X
+NI8cGVT7fhNiL8JK6Vukae0BO9qE/N8VLUGsp17398ArJ53WSOgrAVZe8uUy8BLb
+t5OcMh1jzzz1Ga8Q0A6QbQQu1Ot9GFaJorkQsq7LJU4ZX6PWcjJosxhidaN9ctWN
+pBStQOIjuHhqjGXbTqB2wQSluQwO3snupSGmrhnvxrulkpsriyXolAJa1GRO1Ga7
+4eWPKj0mINDDFoc0w+n5UJZvYwDgSgCWcCVB2T/ViFnXlHaUDclyOb3l6R8to8na
+sg08z1Ojj+ljffeXEtu3Ofw6BjYb6+wMzJ32dXWC5GcJpgXLITVQ0JMiheKBY2jf
+30k3o4S9PQYg63a2NlhQiate7GdD/wr+s/dAemv2oOCfEClQ/4fWdXzS7WGZhsQY
+p9j1atGIK1+VFI2TtreSbNou
+=0UdV
 -----END PGP SIGNATURE-----
 
---===============6976815010386744614==--
+--===============5634092890862061237==--
