@@ -1,52 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============4807388523676617427=="
+Content-Type: multipart/mixed; boundary="===============8095946695819989166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Fri, 02 Apr 2021 13:55:03 -0000
-Message-Id: <161737170348.24254.351512468587649273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 02 Apr 2021 13:57:17 -0000
+Message-Id: <161737183767.25411.4757372095871887458@gitolite.kernel.org>
 
---===============4807388523676617427==
+--===============8095946695819989166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: mripard
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 582cfdb9d206cd513048d79b272a22d48982ef1e
-    new: 9fa021aa01fdc9576f4b523543210017af22fbb8
+  - ref: refs/heads/usb-testing
+    old: 2e3d055bf27d70204cae349335a62a4f9b7c165a
+    new: bee1f89aad2a51cd3339571bc8eadbb0dc88a683
     log: |
-         3b493ac0ac04488e13ddfe1e516a8bdb7b03247f arm64: dts: allwinner: h6: Switch to macros for RSB clock/reset indices
-         50421957308ec296593819c77cdeb5465050a236 arm64: dts: allwinner: Fix SD card CD GPIO for SOPine systems
-         d580e6f0ec3ab42e81f3825ef4438836ead88c5f ARM: dts: sun8i: h3: beelink-x2: Add power button
-         9f04e11410e44ed7c78e7420b5705bb45eaee501 MAINTAINERS: Add our new mailing-list
-         f5956522d3a003e9fbd5176913b6c902ae42ba92 MAINTAINERS: Match on allwinner keyword
-         a3797571964d80ff3abebb1cd5047d4ae6d8db4e arm64: dts: allwinner: h6: beelink-gs1: Remove ext. 32 kHz osc reference
-         9fa021aa01fdc9576f4b523543210017af22fbb8 Merge tags 'sunxi-dt-for-5.13-1' and 'sunxi-fixes-for-5.12' into sunxi/for-next
+         d8fca036ef6d5c7e93157edeab614c8cd2758e90 usb: xhci-mtk: fix wrong remainder of bandwidth budget
+         f351f4b63dac127079bbd77da64b2a61c09d522d usb: xhci-mtk: fix oops when unbind driver
+         ba0058b7b8cd57bc8956b5f5820f543616ee7a01 dt-bindings: usb: mtk-xhci: support property usb2-lpm-disable
+         967f6d162d9fa415cf140d3eef5576d566632292 dt-bindings: usb: mtk-xhci: remove redefinitions of usb3-lpm-capable
+         1f743c8749eacd906dd3ce402b7cd540bb69ad3e usb: xhci-mtk: fix broken streams issue on 0.96 xHCI
+         bee1f89aad2a51cd3339571bc8eadbb0dc88a683 usb: xhci-mtk: support quirk to disable usb2 lpm
          
 
---===============4807388523676617427==
+--===============8095946695819989166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1617371702 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sunxi/linux
-nonce 1617371701-8a94e802b97462a5e46d8125ea29f0fd453c2e90
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617371832 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1617371830-69cf18e648db1408dbec381ee72ba2f312484c84
 
-582cfdb9d206cd513048d79b272a22d48982ef1e 9fa021aa01fdc9576f4b523543210017af22fbb8 refs/heads/sunxi/for-next
+2e3d055bf27d70204cae349335a62a4f9b7c165a bee1f89aad2a51cd3339571bc8eadbb0dc88a683 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iHQEABYIAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCYGciNgAKCRDj7w1vZxhR
-xS4HAP9527vuo5iiC8fTPZ3F06jkRNb1gTLHTeliUcGhXvgmGAD3S8Q4Uih7Nywy
-ly/wy/PK93wl2qK9Fv/cicGoyCBlDw==
-=gkZa
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBnIrgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fBsP/0+yvBNmmhuAdSxjSLV6
+GcqMloofJOs8e9JnbGg01rfwzSk5TzjK49pWtJiStoFjt5Zynk9qboXWIWyB2e6X
+FkCxsGgwzspOgWqyqaR4AWZmqgfEZZxCRNIUwgvzREVaSo8mqJGNVj0GeePru5jm
+wl2qJ3OKIrdHuqGECBlxz37KwtQCDNp1N1tYi07Y6uc4162j6hawX+xxXyfa0I6C
+EqtrCkpQQsbRIQRzP3SgBV89GcYB5ue0gkm5yNF6SIT9veUAYdz0HI6zN1s0xYva
+604NVRyF/PnPuL9wfRyEzvwxsI6WLKPRsokkiBZL+Dib8mKHkwwNTZ/IBEkd6CMe
+4aBlFGQL1yBU/F8ZGQKEQboEnI2KJfQXZdVMTh2apiPP9D/V3HXljhQSLUof9JYv
+dQkTpxAzsWM+iWTyXQRd46bVnJS1nfLGO54rOlA4LlDM74Y+GHBpbMDm77HHMJcv
+YhorCp0zUY8Uo9UQYpR+2iHwxHx39MNeKH4BlyB5o+91xHrcBMnMlaOGun5cF3Ok
+iFkM+sUoEF07+QBhBmINDVDLewEF7ZoYBHkxZziUS8aw+TubfcDkDDfjBGUUuA+q
+ZLvR/iT82T35Q581po3wG4uPsw0DlgsKHRzfwPx+etYhmNAlWKF3BhlxxEmxYLqM
+eM7gCj8W1mJQfV42WRvtQmpf
+=QvU1
 -----END PGP SIGNATURE-----
 
---===============4807388523676617427==--
+--===============8095946695819989166==--
