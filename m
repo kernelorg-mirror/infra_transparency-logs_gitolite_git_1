@@ -1,63 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5993950251895356727=="
+Content-Type: multipart/mixed; boundary="===============7303251167192530231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 02 Apr 2021 14:31:22 -0000
-Message-Id: <161737388232.17231.16299548333186438446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 02 Apr 2021 14:33:15 -0000
+Message-Id: <161737399549.17779.279620886985807822@gitolite.kernel.org>
 
---===============5993950251895356727==
+--===============7303251167192530231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: c20b316b737542fe51b019938cc5dd816f204c66
-    new: 4b1524595637659ece56d9454c0e3e0691ea18b9
-    log: revlist-c20b316b7375-4b1524595637.txt
+  - ref: refs/heads/master
+    old: 040806343bb4ef6365166eae666ced8a91b95321
+    new: bd78980be1a68d14524c51c4b4170782fada622b
+    log: revlist-040806343bb4-bd78980be1a6.txt
 
---===============5993950251895356727==
+--===============7303251167192530231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c20b316b7375-4b1524595637.txt
+Content-Disposition: attachment; filename=revlist-040806343bb4-bd78980be1a6.txt
 
-7a75a8412fdd52a64ee860bd9708d16b1b2aa77a i40e: Fix inconsistent indenting
-528060ef3e1105c5c3eba66ffbfc80e0825e2cce i40e: fix receiving of single packets in xsk zero-copy mode
-c3214de929dbf1b7374add8bbed30ce82b197bbb i40e: Fix display statistics for veb_tc
-6b9fbe16955152626557ec6f439f3407b7769941 drivers: net: fix memory leak in atusb_probe
-98184612aca0a9ee42b8eb0262a49900ee9eef0d net: udp: Add support for getsockopt(..., ..., UDP_GRO, ..., ...);
-a0b96b4a62745397aee662670cfc2157bac03f55 drivers: net: fix memory leak in peak_usb_create_dev
-86581852d7710990d8af9dadfe9a661f0abf2114 mptcp: forbit mcast-related sockopt on MPTCP sockets
-0a3cc57978d1d1448312f8973bd84dca4a71433a mptcp: revert "mptcp: provide subflow aware release function"
-efd2e92dd2fba35802fefffa776cf9151270d41d Merge branch 'mptcp-deadlock'
-9256ce33110174decc04caf6ef733409012e5b1c Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-34774c76204fdbbeacf519860bf35282c4b82c7f checkpatch: Fix warnings when --no-tree is used
-17d5804f02e98a94d994a6c88c4c8168e4ed0eec checkpatch.pl: seed camelcase from the provided kernel tree root
-5121d71b93d8290a578783003ea4819c9f114443 ice: Fix a couple off by one bugs
-beee2439ca20b2ad436b833567dc727a1b8328a9 iavf: Fix asynchronous tasks during driver remove
-d9ea0dbea9e37b79ece69a400e648f951315e34a i40e: Fix correct max_pkt_size on VF RX queue
-e05936dffc74bd664f118d8fd8abbb5f235604b7 iavf: Fix return of set the new channel count
-7afb4fdcae33480ac8f04d87e8fa64cfad5ae0b2 i40e: Fix NULL ptr dereference on VSI filter sync
-322bf93855cd2fa27f9756e82a3a75f57c3aad8c ice: Fix allowing VF to request more/less queues via virtchnl
-b832aac96381b920094f971a564d87cd094dab38 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
-d85273b37a703b1939c64b4eced409e7b917107e ice: Fix VF true promiscuous mode
-c8490fdf68d06a33166b8824b4693ab74ab7d0e0 ice: handle the VF VSI rebuild failure
-ad363eb9f841ca4c53312105de355e77af46f2c2 i40e: Fix error handling in i40e_vsi_open
-8af4b78c16b2ba11327b6d4fa7876ec01f4d6f51 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
-a4093b1a5f91a491a9141149e0ecd95103ce5363 i40e: improve locking of mac_filter_hash
-f6e4e6edb0360c9fd475be98e84c5c9f63ba9fa8 ixgbe: Fix NULL pointer dereference in ethtool loopback test
-835161fe5caf9231579e0a2a998ef2a122616ac5 i40e: Fix autoneg disabling for non-10GBaseT links
-a8ba291589ef238916c350fba68592fd4917a1c5 i40e: Fix parameters in aq_get_phy_register()
-a68016cf84725c642d0a65d4bccb11de9eb19f28 ixgbe: fix unbalanced device enable/disable in suspend/resume
-eae268f3722009612406fb7436036ad7ee0cf1d4 i40e: Fix sparse errors in i40e_txrx.c
-bd9ba11222327bb0843b4f7a0b359edc35a19588 i40e: Fix sparse error: uninitialized symbol 'ring'
-73d8037cbcb9de120d20baef193d2eb7e43b6a47 i40e: Fix sparse error: 'vsi->netdev' could be null
-b755a7105d37682c2b00a414ed83c9516cb609ea i40e: Fix sparse warning: missing error code 'err'
-4b1524595637659ece56d9454c0e3e0691ea18b9 ice: fix memory leak of aRFS after resuming from suspend
+634da4c118434cf8a0c5eabce9eb58502ef1521c ice: Add Support for XPS
+1e23f076b25424508d4576fba176888944b9b2b0 ice: Delay netdev registration
+a05983c3d024d173af0a80dc7197a21f64d52df6 ice: Update to use package info from ice segment
+2ec5638559c13b923250eccf495d2a033fccb3e7 ice: handle increasing Tx or Rx ring sizes
+5c57145a49bd93b72878ef9b4a1d798753b9faff ice: change link misconfiguration message
+800c1443cbe1bd17f11e3580744894c3ee1a5c8e ice: remove unnecessary duplicated AQ command flag setting
+805f980bfe0e7d07cd4cd5d1183722f0355c0f4a ice: Check for bail out condition early
+36ac7911fae7575b8cebf9326a23901cba28c015 ice: correct memory allocation call
+94a936981a3eae3f1e9d1bf02c32d3f559a7aa95 ice: rename ptype bitmap
+8134d5ff9788d3e7f63f963a211927a60ce462d6 ice: Change ice_vsi_setup_q_map() to not depend on RSS
+e3c53928a3b2b3ec983955a838547aa7344822be ice: Refactor get/set RSS LUT to use struct parameter
+b66a972abb6b4a2fe8e0444ba2a2d3718c79d5ad ice: Refactor ice_set/get_rss into LUT and key specific functions
+e97fb1aea9056299d013aa30783d6a995136a2c8 ice: Consolidate VSI state and flags
+0c3e94c247938b63218e661fcd1a935edb0db215 ice: cleanup style issues
+a07cc1786dab69b896af226cf58163237837ee72 ice: Correct comment block style
+247ca657e20460375bf3217073d6477440f48025 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+f20a46c3044c3f75232b3d0e2d09af9b25efaf45 tipc: fix unique bearer names sanity check
+b7a320c3a1ecb20d24173b668288441dbb7fe7dd net: ipv6: Refactor in rt6_age_examine_exception
+8accc467758efd3a03368f9fec633b04dde80895 stmmac: intel: use managed PCI function on probe and resume
+2237778d8c215fe7921da02d25fd32e964aa8ee5 net: stmmac: remove unnecessary pci_enable_msi() call
+9fadafa46f4813b9e3d8f76d3525c83499a26d36 include: net: Remove repeated struct declaration
+ec7e48ca4bc765e5460ec118ff84de6260dac855 net: smc: Remove repeated struct declaration
+c8ad0cf37c0061043e52a992f6d5f4dc54dea8f1 net: hns: Fix some typos
+e228c0de904c8c5eb732dafb49a8446c1794dc72 lan743x: remove redundant semi-colon
+a7a80b17c750c0f4b2c15cc61be5ff7c1d29f8d6 net: document a side effect of ip_local_reserved_ports
+5a32fcdb1e686e90a2c5f2d095fb79aa2fb3f176 net: phy: broadcom: Add statistics for all Gigabit PHYs
+bd78980be1a68d14524c51c4b4170782fada622b net: usb: ax88179_178a: initialize local variables before use
 
---===============5993950251895356727==--
+--===============7303251167192530231==--
