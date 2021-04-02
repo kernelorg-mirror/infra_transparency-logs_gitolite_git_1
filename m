@@ -1,23 +1,40 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Fri, 02 Apr 2021 06:38:11 -0000
-Message-Id: <161734549107.5256.3351680293518600876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Fri, 02 Apr 2021 07:36:27 -0000
+Message-Id: <161734898795.7790.4525887458440416685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: tudor.ambarus
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/spi-nor/next
-    old: 79321e752aff36569fb2b5b121f6e1dca9fc5f74
-    new: b206b82d1726f6f878891791069ab0aea2e31113
+  - ref: refs/heads/master
+    old: bb48e88392ae845729086cf17d765fd2a3a60f2a
+    new: 61f98817b996ae8435e7809a3e41d8113556f1d1
     log: |
-         c4c795105f2924c80752c30ffd3c7029a8e0ef28 mtd: spi-nor: Move Software Write Protection logic out of the core
-         b6cbd9167d442389614c079b7a8816d952114b90 mtd: spi-nor: swp: Improve code around spi_nor_check_lock_status_sr()
-         069089acf88b2216b667c1e5994e08b4d2e1ea12 mtd: spi-nor: add OTP support
-         cad3193fe9d1f0af4d05ed86693f99984409b188 mtd: spi-nor: implement OTP support for Winbond and similar flashes
-         b206b82d1726f6f878891791069ab0aea2e31113 mtd: spi-nor: winbond: add OTP support to w25q32fw/jw
+         297214f064b4c4725055568fce5d7c27d60254c9 arm64: dts: renesas: r8a77950: Drop operating points above 1.5 GHz
+         35e732d7990ddae3ca759c09498dd2c049511297 arm64: dts: renesas: salvator-common: Add cpu-supply property to a57_0 node
+         2b35ca2fe605f85aa1a52c713571baf04a5f434a arm64: dts: renesas: ulcb: Add cpu-supply property to a57_0 node
+         e9903a1559e0802fcdc79f28c7e79db04a59678d Merge branch 'renesas-arm-dt-for-v5.13' into renesas-next
+         61f98817b996ae8435e7809a3e41d8113556f1d1 Merge branch 'renesas-next' into renesas-devel
+         
+  - ref: refs/heads/next
+    old: d084e52e5b7b16d25a5e32c4625fb205a2b272d8
+    new: e9903a1559e0802fcdc79f28c7e79db04a59678d
+    log: |
+         297214f064b4c4725055568fce5d7c27d60254c9 arm64: dts: renesas: r8a77950: Drop operating points above 1.5 GHz
+         35e732d7990ddae3ca759c09498dd2c049511297 arm64: dts: renesas: salvator-common: Add cpu-supply property to a57_0 node
+         2b35ca2fe605f85aa1a52c713571baf04a5f434a arm64: dts: renesas: ulcb: Add cpu-supply property to a57_0 node
+         e9903a1559e0802fcdc79f28c7e79db04a59678d Merge branch 'renesas-arm-dt-for-v5.13' into renesas-next
+         
+  - ref: refs/heads/renesas-arm-dt-for-v5.13
+    old: bbbf6db5a0b56199702bb225132831bced2eee41
+    new: 2b35ca2fe605f85aa1a52c713571baf04a5f434a
+    log: |
+         297214f064b4c4725055568fce5d7c27d60254c9 arm64: dts: renesas: r8a77950: Drop operating points above 1.5 GHz
+         35e732d7990ddae3ca759c09498dd2c049511297 arm64: dts: renesas: salvator-common: Add cpu-supply property to a57_0 node
+         2b35ca2fe605f85aa1a52c713571baf04a5f434a arm64: dts: renesas: ulcb: Add cpu-supply property to a57_0 node
          
