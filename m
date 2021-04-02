@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8183926378930022761=="
+Content-Type: multipart/mixed; boundary="===============0876262518484771554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 02 Apr 2021 15:23:37 -0000
-Message-Id: <161737701712.16684.469105411490879152@gitolite.kernel.org>
+Date: Fri, 02 Apr 2021 15:23:47 -0000
+Message-Id: <161737702734.16786.12684284021767036017@gitolite.kernel.org>
 
---===============8183926378930022761==
+--===============0876262518484771554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/pm
-    old: 6f3a283c2f6bbbb5a9a6801a0befa61cb60195f1
-    new: ac1790ad78f8f0cf9a588ffb530c700ad758e8b6
-    log: revlist-6f3a283c2f6b-ac1790ad78f8.txt
-  - ref: refs/tags/pm-5.12-rc6
+  - ref: refs/heads/acpi
+    old: e1db18b59729e24f001459b98955019344d5b12b
+    new: 91463ebff32d3e6fc71134784ae6aa91402bfe3d
+    log: revlist-e1db18b59729-91463ebff32d.txt
+  - ref: refs/tags/acpi-5.12-rc6
     old: 0000000000000000000000000000000000000000
-    new: ab6da54dc53b351f8acd48d4ed83ea7c3aed429d
+    new: 373855d1eae3f1f5d51ae2634fffc73c32a7f97a
 
---===============8183926378930022761==
+--===============0876262518484771554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f3a283c2f6b-ac1790ad78f8.txt
+Content-Disposition: attachment; filename=revlist-e1db18b59729-91463ebff32d.txt
 
 7d7275b3e866cf8092bd12553ec53ba26864f7bb bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
 9bbce32a20d6a72c767a7f85fd6127babd1410ac ARM: dts: am33xx: add aliases for mmc interfaces
@@ -243,7 +243,6 @@ ee5de60a08b7d8d255722662da461ea159c15538 selinuxfs: unify policy load error repo
 896ea5dab25ef12f7d0988b8f0b053a287faf889 e1000e: Fix duplicate include guard
 a75519a84855bca029ce7d8a27de9409d9b84956 igb: Fix duplicate include guard
 f0a03a026857d6c7766eb7d5835edbf5523ca15c igb: check timestamp validity
-c1d1e25a8c542816ae8dee41b81a18d30c7519a0 ACPI: video: Add missing callback back for Sony VPCEH3U1E
 8ff0b1f08ea73e5c08f5addd23481e76a60e741c sctp: move sk_route_caps check and set into sctp_outq_flush_transports
 8a2dc6af67a0c9f65a22ea40fc79974ee8f368c7 sch_red: Fix a typo
 f91a50d8b51b5c8ef1cfb08115a005bba4250507 r8152: limit the RX buffer size of RTL8153A for USB 2.0
@@ -291,10 +290,10 @@ ee7febce051945be28ad86d16a15886f878204de arm64: mm: correct the inside linear ma
 d07f1e8a42614cc938c9c88866d4474a5a7fee31 io_uring: correct io_queue_async_work() traces
 b65c128f963df367a8adcfb08f5ecf8721052723 io_uring: don't skip file_end_write() on reissue
 d81269fecb8ce16eb07efafc9ff5520b2a31c486 io_uring: fix provide_buffers sign extension
+5244f5e2d801259af877ee759e8c22364c607072 PM: runtime: Defer suspending suppliers
 160f99db943224e55906dd83880da1a704c6e6b9 dm verity: fix DM_VERITY_OPTS_MAX value
 2d669ceb69c276f7637cf760287ca4187add082e dm table: Fix zoned model check and zone sectors check
 5424a0b867e65f1ecf34ffe88d091a4fcbb35bc1 dm: don't report "detected capacity change" on device creation
-eb50aaf960e3bedfef79063411ffd670da94b84b ACPI: scan: Use unique number for instance_no
 84196390620ac0e5070ae36af84c137c6216a7dc Merge tag 'selinux-pr-20210322' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 92063f3ca73aab794bd5408d3361fd5b5ea33079 integrity: double check iint_cache was initialized
 9aa26019c1a60013ea866d460de6392acb1712ee drm/amdgpu: fix the hibernation suspend with s0ix
@@ -333,6 +332,7 @@ b61fde1beb6b1847f1743e75f4d9839acebad76a drm/i915/dsc: fix DSS CTL register usag
 5116784039f0421e9a619023cfba3e302c3d9adc block: clear GD_NEED_PART_SCAN later in bdev_disk_changed
 a958937ff166fc60d1c3a721036f6ff41bfa2821 block: recalculate segment count for multi-segment discards correctly
 7acac4b3196caee5e21fb5ea53f8bc124e6a16fc Merge tag 'linux-kselftest-kunit-fixes-5.12-rc5.1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+fb9d62b27ab1e07d625591549c314b7d406d21df PM: EM: postpone creating the debugfs dir till fs_initcall
 7547deff8a221e6bf1e563cf1b636844a8e5378a platform/x86: intel_pmt_class: Initial resource to 0
 10c931cdfe64ebc38a15a485dd794915044f2111 platform/x86: intel_pmt_crashlog: Fix incorrect macros
 269b04a50992d8defab869079049ecfc60b6b3e5 platform/x86: intel_pmc_core: Update Kconfig
@@ -350,7 +350,6 @@ a185f1db59f13de73aa470559030e90e50b34d93 io_uring: do ctx sqd ejection in a clea
 9f177fd8f20b46bbd76dbcc90184caf3b8548a9f perf daemon: Return from kill functions
 eb8f998bbc3d51042ff290b9f6480c1886f6cfb9 perf test: Remove now useless failing sub test "BPF relocation checker"
 41d585411311abf187e5f09042978fe7073a9375 perf record: Fix memory leak in vDSO found using ASAN
-25928deeb1e4e2cdae1dccff349320c6841eb5f8 ACPICA: Always create namespace nodes using acpi_ns_create_node()
 bf1c82a5389061d989f5e07f1c958db4efaf2141 cachefiles: do not yet allow on idmapped mounts
 8a9d2e133e2fb6429d7503eb1d382ca4049219d7 Merge tag 'afs-cachefiles-fixes-20210323' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
 7de55b7d6f09a2865279d3c41c0fbdbfdb87486a block: support zone append bvecs
@@ -405,8 +404,7 @@ db24726bfefa68c606947a86132591568a06bfb4 Merge tag 'integrity-v5.12-fix' of git:
 09d78dde88ef95a27b54a6e450ee700ccabdf39d Merge tag 'drm-msm-fixes-2021-02-25' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
 1dc481c0b0cf18d3952d93a73c4ece90dec277f0 perf test: Change to use bash for daemon test
 45a4546c6167a2da348a31ca439d8a8ff773b6ea cifs: Adjust key sizes and key generation routines for AES256 encryption
-e1db18b59729e24f001459b98955019344d5b12b Merge branches 'acpi-video' and 'acpi-scan'
-a95d8f581901c560ff1b63bc02107eb34a6efb1b cpufreq: Fix scaling_{available,boost}_frequencies_show() comments
+6f3a283c2f6bbbb5a9a6801a0befa61cb60195f1 Merge branch 'pm-em'
 57a9006240b229b9d77ef60fadb30d2067438437 remove Dan Murphy from TI from MAINTAINERS
 f944d061f847b0ccf0ebc095b5a6ba9ea9caec4e Merge tag 'drm-fixes-2021-03-26' of git://anongit.freedesktop.org/drm/drm
 6c20f6df61ee7b8b562143504cf3e89ae802de87 Merge tag 'for-linus-5.12b-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
@@ -441,8 +439,9 @@ b44d1ddcf835b39a8dc14276d770074deaed297c Merge tag 'io_uring-5.12-2021-03-27' of
 3fef15f872eec8292d4e53e307c1d17530fb16ba Merge tag 'auxdisplay-for-linus-v5.12-rc6' of git://github.com/ojeda/linux
 f9e2bb42cf0db3a624d295122db3475aa3e7ad18 Merge tag 'perf-tools-fixes-for-v5.12-2020-03-28' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 a5e13c6df0e41702d2b2c77c8ad41677ebb065b3 Linux 5.12-rc5
-c0c33442f7203704aef345647e14c2fb86071001 PM: runtime: Fix ordering in pm_runtime_get_suppliers()
-9dfacc54a8661bc8be6e08cffee59596ec59f263 PM: runtime: Fix race getting/putting suppliers at probe
-ac1790ad78f8f0cf9a588ffb530c700ad758e8b6 Merge branch 'pm-cpufreq'
+1a1c130ab7575498eed5bcf7220037ae09cd1f8a ACPI: tables: x86: Reserve memory occupied by ACPI tables
+3e759425cc3cf9a43392309819d34c65a3644c59 ACPI: scan: Fix _STA getting called on devices with unmet dependencies
+8cdddd182bd7befae6af49c5fd612893f55d6ccb ACPI: processor: Fix CPU0 wakeup in acpi_idle_play_dead()
+91463ebff32d3e6fc71134784ae6aa91402bfe3d Merge branches 'acpi-tables' and 'acpi-scan'
 
---===============8183926378930022761==--
+--===============0876262518484771554==--
