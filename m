@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1686526713773587807=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 02 Apr 2021 14:30:38 -0000
-Message-Id: <161737383890.16867.14713066238843380614@gitolite.kernel.org>
-
---===============1686526713773587807==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 02 Apr 2021 14:31:14 -0000
+Message-Id: <161737387468.17095.18055927542981766039@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 38ab861493de18c672b101765751f5e6bb17ec0d
-    new: b0077b4b085f636e5f8a1fd9cd6e568907471b24
+  - ref: refs/heads/master
+    old: 622d13694b5f048c01caa7ba548498d9880d4cb0
+    new: 9256ce33110174decc04caf6ef733409012e5b1c
     log: |
-         b0077b4b085f636e5f8a1fd9cd6e568907471b24 firmware: google: Enable s0ix logging by default
+         7a75a8412fdd52a64ee860bd9708d16b1b2aa77a i40e: Fix inconsistent indenting
+         528060ef3e1105c5c3eba66ffbfc80e0825e2cce i40e: fix receiving of single packets in xsk zero-copy mode
+         c3214de929dbf1b7374add8bbed30ce82b197bbb i40e: Fix display statistics for veb_tc
+         6b9fbe16955152626557ec6f439f3407b7769941 drivers: net: fix memory leak in atusb_probe
+         98184612aca0a9ee42b8eb0262a49900ee9eef0d net: udp: Add support for getsockopt(..., ..., UDP_GRO, ..., ...);
+         a0b96b4a62745397aee662670cfc2157bac03f55 drivers: net: fix memory leak in peak_usb_create_dev
+         86581852d7710990d8af9dadfe9a661f0abf2114 mptcp: forbit mcast-related sockopt on MPTCP sockets
+         0a3cc57978d1d1448312f8973bd84dca4a71433a mptcp: revert "mptcp: provide subflow aware release function"
+         efd2e92dd2fba35802fefffa776cf9151270d41d Merge branch 'mptcp-deadlock'
+         9256ce33110174decc04caf6ef733409012e5b1c Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
          
-
---===============1686526713773587807==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617373833 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1617373833-7890f35d1c4534b6fc5c748c08835090db0b13f3
-
-38ab861493de18c672b101765751f5e6bb17ec0d b0077b4b085f636e5f8a1fd9cd6e568907471b24 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBnKokbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+b08P/RPm725oXnDya4WLhUHw
-0Z0nhLTWXzZlNaURTKCKO4eipk9IV4ADTC4oDBkI1vmlSx0iCg/8iPFIZ/9ikLQo
-1wDElZzIDFirbbU7weGw2neSqgI8D1+xlwUihtpsBeclBngl6G7qF7Lwnkk5aIlE
-5rl0lU/CHokoCuDyzuvN/JqN2pDutku8Q0Zj5znSIEvT0rxR0K+rV5FITKNnBciD
-+94bbtW/g1NZVhyszXAcBs5uiYUtk3nmAHAQBVkRzezrlMok3lsgIXeX3BLVn46i
-zbjxxukI63OyTmRJKQXVCDQrRB+tcMjnR+Wrbo+jvPExUf6e90oxcj9zYxfO8jzd
-nRhlou6obfCsxnSvoeaaDUayCeJu/XsXjhEA3NxPNffKO2xsx+8ntgi2OQDWc3QH
-V6yBl6dT/mENQb1cI8ylYxQZohpHOc7oQczsWBnu9BRAigv+in5s4ePLkU10mEpF
-q/g8XrDDGrxJxnZfwr3qK+9RLspmqwxGhBn9dSkBtWUar14IH0l7hxdt/FjSIlGc
-OM+452KE5lCgxD4y2XRSFiog/vS2K94dpIY4o2BgbNX7MGsoddADQMyF2JFnZOA9
-Q1/Nb58QgaWFHwGUyN3nbBJlSCHRooA2MYgtUbxXUzpX/v6iS4mIWdG7m8SOoGin
-z6pQyHXZTcl6fIysf2MVLt6T
-=TYdH
------END PGP SIGNATURE-----
-
---===============1686526713773587807==--
