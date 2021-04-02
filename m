@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1557224292455155054=="
+Content-Type: multipart/mixed; boundary="===============7985042060202553236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 02 Apr 2021 13:22:05 -0000
-Message-Id: <161736972541.3765.11089437826700595164@gitolite.kernel.org>
+Date: Fri, 02 Apr 2021 13:28:20 -0000
+Message-Id: <161737010030.6827.14262013212460406513@gitolite.kernel.org>
 
---===============1557224292455155054==
+--===============7985042060202553236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 048b14e1f28b72d8dde7af2808346de2c67fe230
-    new: d1689cd3c0f449de92d9ec13707dfea1f96c3dbd
+    old: d1689cd3c0f449de92d9ec13707dfea1f96c3dbd
+    new: 04dd6e76b228891d29e49759e2351eb4a4303fc9
     log: |
-         9ea6feb681daa22b99c0840d23b8ee53c394d164 dt-bindings: usb: dwc3-imx8mp: Use the correct name for child node "snps, dwc3"
-         d1689cd3c0f449de92d9ec13707dfea1f96c3dbd arm64: dts: imx8mp: Use the correct name for child node "snps, dwc3"
+         04dd6e76b228891d29e49759e2351eb4a4303fc9 usb: dwc3: add cancelled reasons for dwc3 requests
          
 
---===============1557224292455155054==
+--===============7985042060202553236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617369720 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617370094 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1617369719-01674b4fffcbd46cd6fbd66b1031e7c489d4e910
+nonce 1617370094-f5ef630003feb4c117f30f4cd8de9fe7bdfb8624
 
-048b14e1f28b72d8dde7af2808346de2c67fe230 d1689cd3c0f449de92d9ec13707dfea1f96c3dbd refs/heads/usb-testing
+d1689cd3c0f449de92d9ec13707dfea1f96c3dbd 04dd6e76b228891d29e49759e2351eb4a4303fc9 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBnGngbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+buwQAM9Zy1joTJhiCg0WDdVJ
-yinCI/nDnDQ3Mq8kS54EIjMszF3of42YUM/NpgzUtVxA6nuT4Vwh98ApHF0QCupM
-jFsf408pxRBXK4jeQngB5cs1GHoTkCkeCuzhtZySnG2Ga+P8ml9ZK8beaDwKei/W
-+5KY0KRvxOrOweMU9PSYSS3BsedL57hrR5J5MGO7iEMTeb279PJLbAin60C2H5ve
-fko0AYezEa3Y2XOKAG+dyz02RW+GJT/KPgvismWbEAciOwpd6jXvJEFmS+EyRXsP
-lVwn51V7C9++amG6dR6k8swLZleMIZY8aXoKgW1A1QilNZCHEKtwrHZf3TBf0yW6
-VfKA5G+xEMR/aVG6lJPLu1KKS5kWZFLrfqqZQ5qgu1JMLLePp5/u3hjgD0VSHfkd
-+CTKq7NnfRGFw53b21+IROE7zmEazcU/62Mbx2NBLxCAksudS5lnjnp2vJlHzNfx
-wQrJLP91wDmLcCOwdDYagN0CFCTbiUHZwnCucGaGvgZM1nyQQDTi5mLK2+i8jDsa
-Wa/QcVSDQSySJQWrbxHPrCJT/PQpqj7IM7cf3YyNoln7RtOFYcqOiVhapGbfpPu+
-fhe0JlZPnJT4nM238SJbL3aHUbp8X+WoyfSHDiABoyZO5erKpm6sYuqJqFqczRgW
-4o6kuPYyRErcBU5irg54/P2K
-=WJnX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBnG+8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cOcP/iczl3PvnhiVmb8dCzR1
+I6jL0JiWxvbNNrXusyuBc/6oUW0RfNXFCWamd5bQa9j/JkD7WxGfS7r8GvcAK9CZ
+IS5zoQreoK4vPiwqIZPCfQMggXbd8W7p+MXtQrWUvk2L7PWTeakikXs7ePRk0CoY
+On8LmxczBq8NH3KjVaGd2YHL6oJ6Q5f/wLK8wTybj8soLFBWGoHHMp09yBw6Je9S
+xkJS1bwzIAkdsYdU5t7OIyJu0dAqHm6ElL+9AvqQAn8qYRpelGSdZVGnvWr8DVCA
+X24Mm6MO/KR1IVXD7q/WfmOQ9HzDguUfGx7xIsoOaHC/WVLNjRwGawU4Zs5xuZ1k
+WXuYVmzvlR9WWTkoEjfFrYur7KDqGIEIm3JJsxZFAtUVA46uYXJ0JwVDO1O9qTfD
+kqVLzfnRS/ztZErnla0RE20Vvr0WIjIWnUwzMIVFDp0hPRqOaS62VvzHTkJ0opog
+24IT1H+AHPVPnRen3WBvkvqROoQ9qOEO4yHJoHsdgs+a2JzyYefiEA8weMZcWhFe
+L2TrGequlzR0lbAnjyphL6SkzOPsZ8cQq3AumicCDHTw63rabkIX9B1Um2VM/2zs
+W6fdxnMumg6gXRm4eN0e2pou6FLbnk4GrNukWqcYdoBPrAy3XBECYWc0m9SP8qrR
+4V4xEq+BOtgI1WLjeAwYO34d
+=GZqZ
 -----END PGP SIGNATURE-----
 
---===============1557224292455155054==--
+--===============7985042060202553236==--
