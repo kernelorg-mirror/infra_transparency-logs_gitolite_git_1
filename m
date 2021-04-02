@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 02 Apr 2021 17:40:00 -0000
-Message-Id: <161738520044.1727.9157277326647073212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 02 Apr 2021 17:50:03 -0000
+Message-Id: <161738580331.9049.749379304467780932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/irq/domain_cleanup
-    old: 030b710111da1eda73dbeccdf0fec496518492c3
-    new: add585b2a291ff145b3fc7ffe48f82bc191bfe93
+  - ref: refs/heads/block-5.12
+    old: f8b78caf21d5bc3fcfc40c18898f9d52ed1451a5
+    new: f06c609645ecd043c79380fac94145926603fb33
     log: |
-         add585b2a291ff145b3fc7ffe48f82bc191bfe93 mips: netlogic: Use irq_domain_simple_ops for XLP PIC
+         b9c6cdc37ee1fe5866d3b1c10efb9d03191a76af block: update a few comments in uapi/linux/blkpg.h
+         f06c609645ecd043c79380fac94145926603fb33 block: remove the unused RQF_ALLOCED flag
          
