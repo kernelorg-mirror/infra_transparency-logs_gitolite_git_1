@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Fri, 02 Apr 2021 08:27:40 -0000
-Message-Id: <161735206093.6074.14743733791591928971@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 02 Apr 2021 08:41:38 -0000
+Message-Id: <161735289893.13899.11773510625902673271@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/bluetooth/bluez
+user: holtmann
 changes:
-  - ref: refs/tags/renesas-arm-dt-for-v5.13-tag2
-    old: 0000000000000000000000000000000000000000
-    new: ba94c62fdd1de96183fb43b4cbce275427e68b40
+  - ref: refs/heads/master
+    old: 45dd8276744c31241cc4e10d8d0c5182b204b2fd
+    new: 727a88a9013344ff0af5620707da2a619e1b9597
+    log: |
+         727a88a9013344ff0af5620707da2a619e1b9597 build: Update library version
+         
