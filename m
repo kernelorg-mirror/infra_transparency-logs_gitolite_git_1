@@ -1,55 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5266778442163375701=="
+Content-Type: multipart/mixed; boundary="===============1796757623711994409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 02 Apr 2021 19:29:24 -0000
-Message-Id: <161739176411.4371.9065216634998808562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 02 Apr 2021 19:29:32 -0000
+Message-Id: <161739177209.4487.4108839445645048014@gitolite.kernel.org>
 
---===============5266778442163375701==
+--===============1796757623711994409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/regulator-5.13
     old: be724fd5b60dd083c8e39a4a2652e5017d2f7a20
     new: aaa8c4e05e3295d5c62163ca25776c83541764ef
     log: revlist-be724fd5b60d-aaa8c4e05e32.txt
-  - ref: refs/heads/topic/list-linear
-    old: 0000000000000000000000000000000000000000
-    new: a38fd8748464831584a19438cbb3082b5a2dab15
 
---===============5266778442163375701==
+--===============1796757623711994409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1617391750 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1617391760-c41a56943bdfcab6525c0121dd141db090ea5879
+pusher C3F436CA30F5D8EB 1617391758 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1617391768-7ff688421ee73d78611a8ea9e720e2f20d0f9168
 
-be724fd5b60dd083c8e39a4a2652e5017d2f7a20 aaa8c4e05e3295d5c62163ca25776c83541764ef refs/heads/for-5.13
-0000000000000000000000000000000000000000 a38fd8748464831584a19438cbb3082b5a2dab15 refs/heads/topic/list-linear
+be724fd5b60dd083c8e39a4a2652e5017d2f7a20 aaa8c4e05e3295d5c62163ca25776c83541764ef refs/heads/regulator-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBncIYACgkQJNaLcl1U
-h9C+GQf/S9RKPom9zTT66XiE6DBgwRWfbwGheqLq8KFucbe7AlOADjtOUQIwVQbw
-4n9705INNJ7b5K0TAzTaagWXhuUjdgjI6h9Jm/+TwVlsEPAOLBUo+LO12Jvw50vg
-d+wmavoakWgnnFbi0zrFRoz5YB6ve8l+0jNBm/0gJi+R97Qbfirk4szM2/1Mm6HE
-tCMVCiU97TC2BXqmDYiZptSjOUBkM8mPOtS84V0s/r0ipuU7LDG7jMHTi9EHMG59
-5lKeYK5WAxxtjIooCZjTHVHl+5Ekk7GFvRvgVg5r0QXxmzo6RuYQxR5Sesdbg/Gy
-1CT2IHGhV+7eJ1+aHHeUaIYhuj+P5A==
-=sKyS
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBncI4ACgkQJNaLcl1U
+h9B06wf+JBqgxiQ1Zum/+1/EePka4CLsyWrX5rUfd7X5UaNal0Os2a9t0tfPYzn0
+x1muk6kGe2p+NUsJev+bBt5ZjYVGBO4KzKljcN7nXruzc7P8wMovzKW3DivGDZFf
+zKcH+ASKT9B1c6LqioEhN5AOUpPnN1LCStn/r1QBRE1hbigHiha5lBx8cGR6psYG
+ZsJesPwn0FW8UalJHNLebSY1df2jpjO0sMrmd1xfBelcv4AuFP0sJYwK0qFmNRaU
+dbMpzTinnzmbo2CNer94PYytD5NE6cvRml/0RMweDbj55jTU8wGLdWYZseep+ivV
+0cExe/0+afzKGHcJcBvwH68isb1xcA==
+=ZS76
 -----END PGP SIGNATURE-----
 
---===============5266778442163375701==
+--===============1796757623711994409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1019,4 +1015,4 @@ e3baacf54275647a018ee35bff3bc775a8a2a01a regulator: helpers: Export helper volta
 fb8fee9efdcf084d9e31ba14cc4734d97e5dd972 regulator: Add regmap helper for ramp-delay setting
 aaa8c4e05e3295d5c62163ca25776c83541764ef Merge series "Support ROHM BD71815 PMIC" from Matti Vaittinen <matti.vaittinen@fi.rohmeurope.com>:
 
---===============5266778442163375701==--
+--===============1796757623711994409==--
