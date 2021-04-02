@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 02 Apr 2021 21:25:00 -0000
-Message-Id: <161739870074.11159.9317081852808317671@gitolite.kernel.org>
+Date: Fri, 02 Apr 2021 21:27:42 -0000
+Message-Id: <161739886211.13300.1197492015559808844@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: f3f409a9b7f5bb3619d648b9b4ba3df4c7723da8
-    new: 3e8db6365f233a110815a4c34cae5d6ee74b1db8
+    old: 3e8db6365f233a110815a4c34cae5d6ee74b1db8
+    new: 8577dd8a07cc2183e3790aa8f8da3d8c6a87803d
     log: |
-         a16195e35cd013fc10023e79640bb1612e5d4457 mptcp: add mib for token creation fallback
-         5695eb8891f9eb5317ca0c3af7a773468524022d mptcp: add active MPC mibs
-         781bf13d4f3b033002f7f6728ac0b0d1ebe8f176 mptcp: remove unneeded check on first subflow
-         dc87efdb1a5cd46134a9d490480160e303bc6eef mptcp: add mptcp reset option support
-         5888a61cb4e00695075bbacfd86f3fa73af00413 selftests: mptcp: launch mptcp_connect with timeout
-         76e5e27ca98748242ba7c1fc24f06c09002eee45 selftests: mptcp: init nstat history
-         c2a55e8fd80f1cd9a16a24a08f6df50fc20a65ed selftests: mptcp: dump more info on mpjoin errors
-         3e8db6365f233a110815a4c34cae5d6ee74b1db8 Merge branch 'mptcp-misc'
+         28d137cc8c0bd2c9501b8eb0855b631289c7b4a3 dpaa2-eth: rename dpaa2_eth_xdp_release_buf into dpaa2_eth_recycle_buf
+         50f826999a80a100218b0cbf4f14057bc0edb3a3 dpaa2-eth: add rx copybreak support
+         8ed3cefc260e2ef2107cbd9484e4025f60c37bb5 dpaa2-eth: export the rx copybreak value as an ethtool tunable
+         8577dd8a07cc2183e3790aa8f8da3d8c6a87803d Merge branch 'dpaa2-rx-copybreak'
          
