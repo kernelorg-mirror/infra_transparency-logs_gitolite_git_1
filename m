@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2520953473299974504=="
+Content-Type: multipart/mixed; boundary="===============2604947646808871897=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 02 Apr 2021 13:06:36 -0000
-Message-Id: <161736879605.25906.12437098994331668089@gitolite.kernel.org>
+Date: Fri, 02 Apr 2021 13:07:53 -0000
+Message-Id: <161736887344.26312.1848014624337391605@gitolite.kernel.org>
 
---===============2520953473299974504==
+--===============2604947646808871897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: f032e2cdf9003ed076c8866a2e7f5003eeabcff8
-    new: ff7e47409d428995bff7028f4a0e15ff893cb0ad
+    old: ff7e47409d428995bff7028f4a0e15ff893cb0ad
+    new: a6463cc5e35e17b5e9d12d9d4d4433a187fe1f08
     log: |
-         30310e0fa5a7d7a80450cb166405ed10e02a8141 staging: rtl8188eu: remove unused function parameter
-         8bc5cbf5b65cac4fcdc11a38c5fd36db6884ebd0 staging: rtl8188eu: (trivial) remove a duplicate debug print
-         6d72d5f601c251d5302a60730acf0f9f03229cb8 staging: rtl8723bs: core: add comma within a comment
-         c460c22211e0a59f01c03db0cbcc7628edfc0ccc staging: rtl8723bs: core: add * to block comments
-         ff7e47409d428995bff7028f4a0e15ff893cb0ad staging: rtl8723bs: core: remove empty comment
+         d8365ba3ee53c6822f7ff90b96773fd8326949d8 staging: rtl8723bs: use print_hex_dump_debug instead of private RT_PRINT_DATA
+         a6463cc5e35e17b5e9d12d9d4d4433a187fe1f08 staging: rtl8723bs: remove unused macro RT_PRINT_DATA
          
 
---===============2520953473299974504==
+--===============2604947646808871897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617368790 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617368867 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1617368789-7b62025385e7185800c7e9f3c052ddc8de0db90f
+nonce 1617368867-70df1fd0ebee702b69c177bbc1d4d6a30d7ee782
 
-f032e2cdf9003ed076c8866a2e7f5003eeabcff8 ff7e47409d428995bff7028f4a0e15ff893cb0ad refs/heads/staging-testing
+ff7e47409d428995bff7028f4a0e15ff893cb0ad a6463cc5e35e17b5e9d12d9d4d4433a187fe1f08 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBnFtYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r2oP/0VhCM0I72wRjFCi0H/8
-swY3fbIpSXUMAfQgnzBEogUqucA0nuL2f0AVB46MmOLVKKfWz4X2kzyK3KINgIeh
-QcoPyDZULGkRVjyj2WXntjpIQNRKYq3VxjhohNgVEp8R/c62hNSTe2CaR2ecDEAQ
-701Hwfcy/lnyt5Jez89UmlN8BRMLC4FfUeqsOVktI2qBCBFTM3kkGxYahO8b0jVj
-Ca9REgQMXYts2FvO+H+yBv+fAgr9aMsCObiX7BNG/2AGm3NnQ0uFU/ss2oDKYbvf
-/XgFgDvCNbcKymOobRy/QyvrDMoKt/jvIluEuBJBG/magIumgWlBLUe+vj4blesw
-p9sTwKrqdHi14fd4PL3SpIlH7Swz15PU+8TVU51Elv2slgz+j6S+DbSVvw7vasE0
-0BGLliYPUmtXggoVPpoPooyLGQgDMRQKnFN8ZpcSqAFPK2I3ATLkxxZwleURFql3
-i2ToqNC9XL4OIpu8v0DUbGQyGpZHi0Mmeq7lYKabgvJF5xBpT2yex280nmdetvUe
-2k3zqkTkja6HZXmIL3SG/p+/AKggwwWF9lLjtslX6au7KuXX+xaprzkXnSi3TNQG
-7KPIbYFSzBlIQadK65ZdNwHdlu2mURIELoWRk0RqN9EfbR1ljT9umnUkLT2+x62k
-iDxdRYHuXlAic7hAX2VIutGc
-=TPbh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBnFyMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5A8P/RCuZI49wEez7bHMbR13
+7nXejABQczgVDVLws0zstBjLHP2mZZWJckINTl3+ylafsQDQTe26yXuziUfa8CbW
+Y8bMXNwtO//nNMgwm4eukJKPFKL6kDeUWaQ/Dlem1O2kjV7hvOh338FE0zkEzDum
+GNSAo88jrDlgZVMlMlQLRtaFkBB7/HhZxbVOOrLknzDQQyUnvbf60TmwhfqALOBy
+CSkmhT+Cvv4Eb2apP6r9T4JAne8g9S5we1TDWihAjWZ3bTE5dmsSkIAvewKwkVv9
+Bh3rwiQjPh4fO8rLxzsYgYPC0V6m6nVa5BXAp2QJWqDwpHiK5QufY173gbLORxxJ
+DhMVevIQSagoR5RceH/IDiEwzX1cXm5wFR0jRHDk3lm8NYVu9p9cZJJZDLzbTJvt
+Ym8D9TnWQJnVvxXdVvgHcXbMqQyAsHyRjPTSZpNElgPg6rgnPSyG3QNYWxVQC5y3
+3QdsAZKhtbEP61lJzLnZ4HRfuO5UDrowGmB8nC7iaSx0g7ZRUXd4qTbhGzX7FmVG
+foFIwW6NTIO912k6yeX/M56k2B6IhEiBnDTzXMRzq6jdTL9B13MvZXjCGlZ0k8Nc
+sQLEppI+Ecy+2C4bXRdaQtNWY5hSOi7Jw+DjhUbtSD6MriL/LihyqRzto1/gmrSr
+njYSLoxuhkXskKuZyDc5PFA1
+=WTlJ
 -----END PGP SIGNATURE-----
 
---===============2520953473299974504==--
+--===============2604947646808871897==--
