@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Fri, 02 Apr 2021 12:13:55 -0000
-Message-Id: <161736563575.25934.3840056542343421998@gitolite.kernel.org>
+Date: Fri, 02 Apr 2021 12:15:49 -0000
+Message-Id: <161736574939.27973.13782454405343151845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
   - ref: refs/heads/for-next
-    old: 9f45275a3499229137d8c0ce0fe400d0729581a4
-    new: 416682f27a23e3f19fde37abf5ce11d11abe79fd
+    old: 416682f27a23e3f19fde37abf5ce11d11abe79fd
+    new: 33ae8b03462e6cab130b505f97633feacf1743d0
     log: |
-         416682f27a23e3f19fde37abf5ce11d11abe79fd power: supply: max8997_charger: Switch to new binding
+         33ae8b03462e6cab130b505f97633feacf1743d0 power: supply: 88pm860x_battery: Remove unnecessary int for long long
          
