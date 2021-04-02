@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6507622910694223166=="
+Content-Type: multipart/mixed; boundary="===============6917807164980374380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 02 Apr 2021 03:52:30 -0000
-Message-Id: <161733555068.16469.5576358573614315374@gitolite.kernel.org>
+Date: Fri, 02 Apr 2021 03:52:35 -0000
+Message-Id: <161733555551.16596.16732691000255878460@gitolite.kernel.org>
 
---===============6507622910694223166==
+--===============6917807164980374380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 253a4c55c44d26b2e6fcf6e346d5b3322ceba5bf
-    new: af031f83a908074a07f154afd03dfe51577bff86
+  - ref: refs/heads/5.12/scsi-fixes
+    old: 9e67600ed6b8565da4b85698ec659b5879a6c1c6
+    new: 4b42d557a8add52b9a9924fb31e40a218aab7801
     log: |
          5482a9a1a8fd23fbb57afc6d409e12713aa93fa5 scsi: hpsa: Use __packed on individual structs, not header-wide
          02ec144292bc424a5800d45d4cb472c66e97c520 scsi: hpsa: Fix boot on ia64 (atomic_t alignment)
@@ -27,33 +27,33 @@ changes:
          4b42d557a8add52b9a9924fb31e40a218aab7801 scsi: ufs: core: Fix wrong Task Tag used in task management request UPIUs
          
 
---===============6507622910694223166==
+--===============6917807164980374380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1617335548 -0400
+pusher 75C5DE3D 1617335554 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1617335548-ef2d79d23dd02e480cf11575a4d74c7341acc82c
+nonce 1617335553-b6ad7d99d9056033fe750af1319d0f7ff98ba54c
 
-253a4c55c44d26b2e6fcf6e346d5b3322ceba5bf af031f83a908074a07f154afd03dfe51577bff86 refs/tags/mkp-scsi-fixes
+9e67600ed6b8565da4b85698ec659b5879a6c1c6 4b42d557a8add52b9a9924fb31e40a218aab7801 refs/heads/5.12/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBmlPwACgkQ7ulgGnXF
-3j2jRxAAuWdZitRcaWDpXAeEU80yNUop8wCMpVkjeJIw+vBlB0oWlt7FxsnsEmMr
-npTMj7SSGJ+iMeFZlWGMMi9G8JWTNbPGwzIC/13bkNfviuYLzcySryJ0lPFqEKPJ
-Gar6XnjedC1dFQXlGoVJ+oBq7B/wYDMkpQRG9shGWyX0h6AyN4EF2si8Yf+GzXKA
-WTLEJOeJ6VDDjcC5cYM3uqwr5vYf+UMSBsqVAEgwy0VtI3Z3jH+1zY9JeAM0Ncow
-LtZV1eyCW4RcxDqas5IAS7cCDZAGm23IRpKLr04YTC/Vmc8Ls/hw6r9nbcb1Fg6L
-LXLJq2MxQbgP2MOtHfHO7Iu2w1nr/Q5JnXw+yYqAlRjMQJwc/yrMjTivU2hZkV3F
-hoSQV4g7C79ZL//rYfqyPAOHnfYbl9Kwz5wIVX8n5epBUA2R62X0NLTtgu4XwyGT
-mLgWMo6oJ/R3rcYfddrEup6vFu9Ut0+pNGmeH4k8tPpxGZ98vTfReRm8qZN77qzZ
-oxfjw61RoUJg9HIt+LiOvRtXa7MtXKjqEKySUZq0+Pn/vm6Q/XcVHZPNc/CSabdv
-bAyjX6MvyX5+bEUHdgNiOPMSJnUhfI6ywuwzeVGNuj2qr+lUL4Manr6KmVBpmYVG
-0jHIdVnbzhN9Ag8pDTzAe3LK97ZPHD2euijoXaKxHDEQt+11WSU=
-=FfDf
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBmlQIACgkQ7ulgGnXF
+3j0SFg//WK2BDornUZ3ezy4GhtXKb2FM34/iHf4/jmqlkJZHGLd5lTuDsaoN4rCp
+qYA7HNGryo3nGFJvEvK3YeXEkM4aQuhf/3VNTIppdYYKnL4WGAdgHuZxGCpZZZQS
+1RhowlTpR5mhHFz0knjQ1ToB5cvnPPi9RiO9TUDFdne7DJ1xWhv+3VVkP7JUFDfu
+kqMIajyI/PzkwGvUT+6geWbAwMVtbwn2jeiywWJ4pfLcXU44KIy4WfQ7xqmPocpK
+8RUYas58qglFuDaQL653ZwIsZn8IhO3jq4AbYyxlPArVnilXmUIuPw4md2m2v3qy
+/IG0NThLI16W/owfySsc2BEjCeCqFBZSkxOQ5iN3KYXY9CCaG5mMR+U6rQAQ6Nhi
+HE1q2GzJQHwtJAVE0ga4DSEPYMOfRXkKjDO1a15W8FUtLixWwehgk+jeMcjekqpL
+DPbosp54XWMoWGlJ6vR12h7KdO8l2E74MVdGBBadDeFc4AEgWbmdHOHtxtf+XdZj
+uXmxnBik0FEY6dtZIua0R49nCq/yhq6c84QfUHbiEn0QMM5t/PNlKH2Ana9nXxGW
+aUi7E2A2Chgyop5SHVII8CFPmrmeK8SR3r9MYMB7iX+7yoQnvxb7tH2LttMznaEK
+TDyw4B+bnEky5b/+187kzh9GPklzrdZsaisr9vqhP8Xr1mpPrRI=
+=H1wg
 -----END PGP SIGNATURE-----
 
---===============6507622910694223166==--
+--===============6917807164980374380==--
