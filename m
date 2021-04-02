@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6454139765150559839=="
+Content-Type: multipart/mixed; boundary="===============1557224292455155054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 02 Apr 2021 13:21:14 -0000
-Message-Id: <161736967466.3441.10792313078429375149@gitolite.kernel.org>
+Date: Fri, 02 Apr 2021 13:22:05 -0000
+Message-Id: <161736972541.3765.11089437826700595164@gitolite.kernel.org>
 
---===============6454139765150559839==
+--===============1557224292455155054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: e5242861ec6a0bce25b4cd10af0fc8a508fd067d
-    new: 048b14e1f28b72d8dde7af2808346de2c67fe230
+    old: 048b14e1f28b72d8dde7af2808346de2c67fe230
+    new: d1689cd3c0f449de92d9ec13707dfea1f96c3dbd
     log: |
-         ed577c325b646464c4b51575073e4c678536f699 usb: dwc3: imx8mp: fix incorrect kernel-doc comment syntax
-         c9714d65eac862071749ea964585ae933872c721 usb: dwc3: st: fix incorrect kernel-doc comment syntax in file
-         27088e00b623a9581bcd4e443a6f9380524edfce usb: dwc3: fix incorrect kernel-doc comment syntax in files
-         048b14e1f28b72d8dde7af2808346de2c67fe230 usb: dwc3: exynos: fix incorrect kernel-doc comment syntax
+         9ea6feb681daa22b99c0840d23b8ee53c394d164 dt-bindings: usb: dwc3-imx8mp: Use the correct name for child node "snps, dwc3"
+         d1689cd3c0f449de92d9ec13707dfea1f96c3dbd arm64: dts: imx8mp: Use the correct name for child node "snps, dwc3"
          
 
---===============6454139765150559839==
+--===============1557224292455155054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617369669 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617369720 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1617369669-4437caf354bdaebb5874f18ecc0639828289a3ff
+nonce 1617369719-01674b4fffcbd46cd6fbd66b1031e7c489d4e910
 
-e5242861ec6a0bce25b4cd10af0fc8a508fd067d 048b14e1f28b72d8dde7af2808346de2c67fe230 refs/heads/usb-testing
+048b14e1f28b72d8dde7af2808346de2c67fe230 d1689cd3c0f449de92d9ec13707dfea1f96c3dbd refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBnGkUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nywQAIjIXPYF8tDLkY63JgQX
-GkVy9c3McY/Mwx8+gpUzSNwwJSv8/MDOXETbn82M8yiY9a5BTz3k+gj8YE38IwOP
-hyEqETUvu8RVtc5s2MFm8czi/aTXVAUGmVJlnq9cJsbYzE7UNxDPyfuMt6SMJD+P
-uQyJcJH8swiuBJqESXtdK4sVc1XKGET6GLM9Oiu1yC2xj08WPYJDlz3jH9KFEuVf
-EDwLxQyfRdmSi1MfsyYvDvCMU9ezngd85qeJXXdcFb7iQTgS6Bg9/DOIdCkTF+k6
-f1sYPmeIYJk2NAo0cqu/4IV6Grn+T11rH1Ko1d75V+aZf2H1mATr6eo99n3K9UHd
-oGVZwvEpwTQVFc2JSXrIYOWpmPcIbFoXMJQyH6OccyxDBVku0y/BD0XUwMLS5TjJ
-cjG9LmHO9ohDYjhj5uO9uwyeU+PIg8xY0UE/t0IyP7jnqmQPlBSRgqrpn/190Hom
-pIT/pjK/7RVAWJdMl/8HJl5/DfyMlb116c/D+xCjfl9DbDmXccu/6cRb+gVNNEhb
-5s7MLWyxj9a2Awjvzgu+OwEasBOt9vTPc+3JkQcQHniyAHljHBcDzn7SL7RwxWIR
-g/9WeBLcMn57OqYA2PV43NSWr/XVoI2DQHwSugoSAHbZggWU6fA2bsf4Ga4Kmbpi
-7BcROuRH4TdVyCiDt0lI+CMd
-=Q9PN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBnGngbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+buwQAM9Zy1joTJhiCg0WDdVJ
+yinCI/nDnDQ3Mq8kS54EIjMszF3of42YUM/NpgzUtVxA6nuT4Vwh98ApHF0QCupM
+jFsf408pxRBXK4jeQngB5cs1GHoTkCkeCuzhtZySnG2Ga+P8ml9ZK8beaDwKei/W
++5KY0KRvxOrOweMU9PSYSS3BsedL57hrR5J5MGO7iEMTeb279PJLbAin60C2H5ve
+fko0AYezEa3Y2XOKAG+dyz02RW+GJT/KPgvismWbEAciOwpd6jXvJEFmS+EyRXsP
+lVwn51V7C9++amG6dR6k8swLZleMIZY8aXoKgW1A1QilNZCHEKtwrHZf3TBf0yW6
+VfKA5G+xEMR/aVG6lJPLu1KKS5kWZFLrfqqZQ5qgu1JMLLePp5/u3hjgD0VSHfkd
++CTKq7NnfRGFw53b21+IROE7zmEazcU/62Mbx2NBLxCAksudS5lnjnp2vJlHzNfx
+wQrJLP91wDmLcCOwdDYagN0CFCTbiUHZwnCucGaGvgZM1nyQQDTi5mLK2+i8jDsa
+Wa/QcVSDQSySJQWrbxHPrCJT/PQpqj7IM7cf3YyNoln7RtOFYcqOiVhapGbfpPu+
+fhe0JlZPnJT4nM238SJbL3aHUbp8X+WoyfSHDiABoyZO5erKpm6sYuqJqFqczRgW
+4o6kuPYyRErcBU5irg54/P2K
+=WJnX
 -----END PGP SIGNATURE-----
 
---===============6454139765150559839==--
+--===============1557224292455155054==--
