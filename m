@@ -1,84 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============4522254129309628158=="
+Content-Type: multipart/mixed; boundary="===============6542174129342553402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 02 Apr 2021 16:01:04 -0000
-Message-Id: <161737926426.7241.14287290457394250771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 02 Apr 2021 16:25:59 -0000
+Message-Id: <161738075921.21905.17496826041204842802@gitolite.kernel.org>
 
---===============4522254129309628158==
+--===============6542174129342553402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/mmu-notifier-queue
-    old: 5cb20c30e8469b33b0c2e0eebbf874b383d4e46d
-    new: dc9a0cb12fb63c1b229f33c47f8879197f2f679e
-    log: revlist-5cb20c30e846-dc9a0cb12fb6.txt
+  - ref: refs/heads/for-5.12
+    old: adfc3ed7dcb98f7411d3632e3bdf81690294fe7d
+    new: e7a48c710defa0e0fef54d42b7d9e4ab596e2761
+    log: |
+         e7a48c710defa0e0fef54d42b7d9e4ab596e2761 ASoC: fsl_esai: Fix TDM slot setup for I2S mode
+         
+  - ref: refs/heads/for-5.13
+    old: 628166c37c16250612da926c010fe6c84d086ac1
+    new: e992a51b1d14317f414d4b9935966dca96ac0b36
+    log: |
+         ebbb165d2c0c44ffbf480e209f745ed4b0d5560a ASoC: Intel: Unify the thinkpad10 and aegex10 byt-match quirks
+         17d49b07a8bb3fdc630a44240c7d7e2a18e14b93 ASoC: Intel: Baytrail: Add quirk for the Dell Venue 10 Pro 5055 tablet
+         c9b3c63392e578ea74411b29a720ace77ae9041f ASoC: Intel: cht_bsw_rt5672: Add support for Bay Trail CR / SSP0
+         84cb0d5581b6a7bd5d96013f67e9f2eb0c7b4378 ASoC: rt5670: Add a quirk for the Dell Venue 10 Pro 5055
+         3d534537648bd7d7a82f2becc9ded99a4b228a6a ASoC: rt5670: Add a rt5670_components() helper
+         e992a51b1d14317f414d4b9935966dca96ac0b36 ASoC: Intel: cht_bsw_rt5672: Set card.components string
+         
 
---===============4522254129309628158==
+--===============6542174129342553402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1617379262 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1617379262-693c12a7be0afb7a4ec16be164316c67ed0281ff
+pusher C3F436CA30F5D8EB 1617380746 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1617380756-463540e3ffd271c73b54174e7fcc8154d5eb41b9
 
-5cb20c30e8469b33b0c2e0eebbf874b383d4e46d dc9a0cb12fb63c1b229f33c47f8879197f2f679e refs/heads/mmu-notifier-queue
+adfc3ed7dcb98f7411d3632e3bdf81690294fe7d e7a48c710defa0e0fef54d42b7d9e4ab596e2761 refs/heads/for-5.12
+628166c37c16250612da926c010fe6c84d086ac1 e992a51b1d14317f414d4b9935966dca96ac0b36 refs/heads/for-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmBnP74UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroOOGAf+P7ziE5JdHDt4ZQNk1SRRhUmwP/V0
-DKUAf4yXlFUk3EzhViuS3nuNIOXqQtjV71nKMo4Ksq0FYSSrUeqOFImcMC+hWqzZ
-j4WocAxCgGkwfqKZw9/ZioFMbdRLAfDPVnD+Vs3CsyCnJXSxwTvS6/G2AnZdf3WJ
-/lh3FDixOSTWDEsubJ8sHj6aX7gSeUW0zm315vtJfOcL7s8owUpYfOCViRqU3Cw/
-HpDXbXM/p+HifyFXcz097ChKek7Jy+5a/I2wfsxTDMtcKc5f6N5JSpjA8/aVbYl1
-imCPL7YLLOlmHObBfqz1sqS2mSCV9pjHmFP2P+bao32QIk+8JGQFPucykA==
-=W0cU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBnRYoACgkQJNaLcl1U
+h9DBrQf9FytOgvlf2s3o0Fbzsv79YhQXPBGDra4nEHxsXHzZqESo31Hd3AjYnlac
+t6rSFZ6L9VI4+K13TNjwzkzUceTdDpUern0dURsM2ErR4MDVmPeTeQp66mTVV+rv
+aSv6EDJTHFGv7fW6HACW8xKRFCERU4ZTmLwOQZdbMgAxYQT+62GWwHliKofeM8Q9
+d+0w5MQL3gfbmwGmFTxuhf4+gko8P0wiLsZz+B++ahtHvEOFlPIfc+/PfyqyDRLj
+URgaGD35xaQXNt+IZTDZTg/q+47EMZlPi+Fv1LSiCLTrJSkgbX6y42Qm7QUUMgbz
+yddXTlYhIAHGVV7VEqy+CDXE9kvwWQ==
+=P/PF
 -----END PGP SIGNATURE-----
 
---===============4522254129309628158==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cb20c30e846-dc9a0cb12fb6.txt
-
-f96be2deac9bca3ef5a2b0b66b71fcef8bad586d KVM: x86: Support KVM VMs sharing SEV context
-30dd73eb3282ce66246c106b7c206ab42515de0e KVM: MMU: protect TDP MMU pages only down to required level
-15969e65aa8a61bf4841f346fd53f890fb91173a KVM: constify kvm_arch_flush_remote_tlbs_memslot
-2e5d839f1ed1d95555280bd3bed962e45a771950 KVM: MIPS: rework flush_shadow_* callbacks into one that prepares the flush
-94c70885532f98e47578e93e9262e99b9d3114fc KVM: MIPS: let generic code call prepare_flush_shadow
-e9ce6261b9cb2649b63e64c2ea735349d8103c4e KVM: MIPS: defer flush to generic MMU notifier code
-476181d5cd1d99390145f65228e8e9c96742e9d3 KVM: Assert that notifier count is elevated in .change_pte()
-d10638709155ce61e163d85abccf383c9be891e5 KVM: Move x86's MMU notifier memslot walkers to generic code
-c1fcbc1de3e650a293b79076d4bca9af22b1f1d5 KVM: arm64: Convert to the gfn-based MMU notifier callbacks
-4c8b601c4d2864b39a46c319fbdf28d05ba8e2ed KVM: MIPS/MMU: Convert to the gfn-based MMU notifier callbacks
-3982082ba4580d2cb5e5fb823bca01765e9631cd KVM: PPC: Convert to the gfn-based MMU notifier callbacks
-ab0fcfeded6d9719e60995c8914ed9299ee30463 KVM: Kill off the old hva-based MMU notifier callbacks
-11ccd8dc999ddb146cf78b51529e672768c72779 KVM: Move MMU notifier's mmu_lock acquisition into common helper
-e4b1970f56fdddf661f0a5ea48064711423aeec7 KVM: Take mmu_lock when handling MMU notifier iff the hva hits a memslot
-1ddbba0073f73d9314c472595e8bc6ff50b5eb80 KVM: Don't take mmu_lock for range invalidation unless necessary
-742d817a4ac0e112e78fdc010688d52d6c955a4c KVM: x86/mmu: Allow yielding during MMU notifier unmap/zap, if possible
-fcb01e5ce2f057644a94f60940dbaddc22af1097 KVM: x86/mmu: Re-add const qualifier in kvm_tdp_mmu_zap_collapsible_sptes
-f702917f93664f3991ae49f859b157f9313d4ee5 KVM: x86/mmu: Move kvm_mmu_(get|put)_root to TDP MMU
-8945b871d5e28101e10b0b108290926b78a26271 KVM: x86/mmu: use tdp_mmu_free_sp to free roots
-8a2115fd52ef8c680b2c2e175d6b81be98f5f0d1 KVM: x86/mmu: Merge TDP MMU put and free root
-a9d151f2bbc83db6a752b4150ad3e5c73c0f9699 KVM: x86/mmu: Refactor yield safe root iterator
-739948a87a91f79850244b59899d186e0405c6c4 KVM: x86/mmu: Make TDP MMU root refcount atomic
-d440900ac538760d94ab676bc1b943f6ee5d1248 KVM: x86/mmu: handle cmpxchg failure in kvm_tdp_mmu_get_root
-77fb99948df7226dda5b4ef6d4f5cc68c46f828a KVM: x86/mmu: Protect the tdp_mmu_roots list with RCU
-6d877f80b9b58b338db46d5e57abdfc8da39c229 KVM: x86/mmu: Allow zap gfn range to operate under the mmu read lock
-5e31fb81de8ebf479abef2a6c8ca142cf779bf61 KVM: x86/mmu: Allow zapping collapsible SPTEs to use MMU read lock
-50ee4e806c8a81ae91fc081ab803906ade1845c3 KVM: x86/mmu: Allow enabling/disabling dirty logging under MMU read lock
-6093689a2d0e5cb17f815ab76845763e3e0dda1c KVM: x86/mmu: Fast invalidation for TDP MMU
-dc9a0cb12fb63c1b229f33c47f8879197f2f679e KVM: x86/mmu: Tear down roots before kvm_mmu_zap_all_fast returns
-
---===============4522254129309628158==--
+--===============6542174129342553402==--
