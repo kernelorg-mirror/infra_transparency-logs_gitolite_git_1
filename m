@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 02 Apr 2021 23:40:38 -0000
-Message-Id: <161740683877.28964.18280129216362279252@gitolite.kernel.org>
+Date: Fri, 02 Apr 2021 23:44:13 -0000
+Message-Id: <161740705378.30007.17397994734291622188@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: 007bdc12d4b466566784c1a39b9fb3985f875b3d
-    new: 2ec9898e9c70b93a5741af3f6af6dbceca569a47
+  - ref: refs/heads/master
+    old: 2ec9898e9c70b93a5741af3f6af6dbceca569a47
+    new: 2daae89666ad253281bb3d6a027c00a702c02eff
     log: |
-         2ec9898e9c70b93a5741af3f6af6dbceca569a47 bpf: Remove unused parameter from ___bpf_prog_run
+         2daae89666ad253281bb3d6a027c00a702c02eff bpf, cgroup: Delete repeated struct bpf_prog declaration
          
