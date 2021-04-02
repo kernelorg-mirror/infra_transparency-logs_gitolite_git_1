@@ -1,103 +1,104 @@
-Content-Type: multipart/mixed; boundary="===============8020604426980172811=="
+Content-Type: multipart/mixed; boundary="===============7283011725580672592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 02 Apr 2021 05:59:42 -0000
-Message-Id: <161734318225.26804.3295269244322538823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 02 Apr 2021 06:13:00 -0000
+Message-Id: <161734398084.2359.11456966221283900108@gitolite.kernel.org>
 
---===============8020604426980172811==
+--===============7283011725580672592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 30c3303dbaf85710ca150389dcaad72f7529afd6
-    new: 9ea45b61b81e7b30f9a880a116bf360bcf5783da
-    log: revlist-30c3303dbaf8-9ea45b61b81e.txt
-  - ref: refs/heads/seen
-    old: de70c8adca457d9cbcffa9ef764a86428eb3a9ff
-    new: d557153962df8f83a7b0ffbe8aeaf4a9d73ae9e3
-    log: revlist-de70c8adca45-d557153962df.txt
+  - ref: refs/heads/master
+    old: ffd9fb546d498b2105dca6efc58a5cd0c17f0807
+    new: 1678e493d530e7977cce34e59a86bb86f3c5631e
+    log: revlist-ffd9fb546d49-1678e493d530.txt
 
---===============8020604426980172811==
+--===============7283011725580672592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30c3303dbaf8-9ea45b61b81e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-11875561bf29cadc91fe43b7383ae05e4ab112b5 Merge branch 'ds/chunked-file-api' into tb/reverse-midx
-9799889f2e2caddee00d59aec3e4ff605a275f98 diffcore-rename: enable filtering possible rename sources
-32a56dfb99b6e26151626eb9763d30b3b731891f merge-ort: precompute subset of sources for which we need rename detection
-beb06145f83813505397d420bddef0231c127426 merge-ort: add data structures for an alternate tree traversal
-a68e6cea59a38a3be4feaf9cba9a409a8da92475 merge-ort: introduce wrappers for alternate tree traversal
-2fd9eda462088b7ef992e9f5abd1658d942b3923 merge-ort: precompute whether directory rename detection is needed
-174791f0fb23e29de1d879c1aae3a164bb998885 merge-ort: use relevant_sources to filter possible rename sources
-f89b4f2beef515b583419b311665545b6c1dd948 merge-ort: skip rename detection entirely if possible
-e4fd06e7e2fa9c433597b76245e38e545eec9ec0 diffcore-rename: avoid doing basename comparisons for irrelevant sources
-9a7f1ce8b78dae09cf4510a98bd6b81d0d478772 daemon: sanitize all directory separators
-f7c4d63e35b4358f93efc8d2f124056c246f912e builtin/multi-pack-index.c: inline 'flags' with options
-cf1f5389ec9eed5453c090cba347f68a3c3da3f7 builtin/multi-pack-index.c: don't handle 'progress' separately
-b25b727494f4782c7af1db31fdfde1cc9b30f7c4 builtin/multi-pack-index.c: define common usage with a macro
-60ca94769ce45161c4bcfb4aa92212585d3da0f6 builtin/multi-pack-index.c: split sub-commands
-690eb057198275b314b776688240fcc7f9e789d0 builtin/multi-pack-index.c: don't enter bogus cmd_mode
-cd57bc41bbcc8d260040243946d19075eff0bfaf builtin/multi-pack-index.c: display usage on unrecognized command
-86d174b7246b634ddb991d67e1ee4575fcc8d1e4 t/helper/test-read-midx.c: add '--show-objects'
-39edfd5cbc4d168db19ec1bc867d78ec7211ec39 sequencer: fix edit handling for cherry-pick and revert messages
-4fe788b1b0ee6150173580d8fa70e7d5788cf7d3 builtin/clone.c: add --reject-shallow option
-9218c6a40c37023a1f434222d501218cf8157857 midx: allow marking a pack as preferred
-7240cc4b65b6684c403487889cce396e45ad30cd midx: don't free midx_name early
-9f19161172412086f50b660a07731d636458cdc8 midx: keep track of the checksum
-62f2c1b509e35baddcc4a57fd1c36d1a796e5440 midx: make some functions non-static
-b25fd24c00a6670a940d998287736c5abe4ce09d Documentation/technical: describe multi-pack reverse indexes
-f894081deae88e875536bd53c56b8b189474770c pack-revindex: read multi-pack reverse indexes
-a587b5a7869e9a399d4de6edea0b3f32a3548639 pack-write.c: extract 'write_rev_file_order'
-38ff7cabb6b8e51df78ce20c20632eba24265ee4 pack-revindex: write multi-pack reverse indexes
-30077524611cae8f25111e2c8b8d42136aa58787 midx.c: improve cache locality in midx_pack_order_cmp()
-3c80fcb5910eddf9e347e637fce2b6fbc6d7dcbd Makefile: add QUIET_GEN to "tags" and "TAGS" targets
-17c9542606f7ee5df6946baddef25f99bfa28a26 Merge branch 'tb/reverse-midx' into next
-9b13372e1a641f031050bf69a7fc4712bc0aa6aa Merge branch 'll/clone-reject-shallow' into next
-2e3c705a73d2065fdb87c7635eb38f9e42248315 Merge branch 'en/sequencer-edit-upon-conflict-fix' into next
-cc5254aadc0916f6bf631e04d7d4cc9ba6e4c93e Merge branch 'en/ort-perf-batch-9' into next
-c8f43b1c8d411697923d82c69cdc9a2676477232 Merge branch 'rs/daemon-sanitize-dir-sep' into next
-9ea45b61b81e7b30f9a880a116bf360bcf5783da Merge branch 'ab/make-tags-quiet' into next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617343978 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1617343978-d99b03258273c9ac935c86ea736827c95bcb4eea
 
---===============8020604426980172811==
+ffd9fb546d498b2105dca6efc58a5cd0c17f0807 1678e493d530e7977cce34e59a86bb86f3c5631e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBmtesbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P2cQAMz/6pOGDQEKpQw4YX4G
+0Qwa7iJ5RmLpsfBPOKoPpyQtL75/5JVJwcNaOLHiBbSEj+bN6q9M6SR9yLgzbQDS
+ueJwnG9kYW+hLX4Nxprsrp+YgfpKzUWVay+/Luzs09Ixx+UxwRcdo1XVmL//Q63t
+g/2a+Xa3L27jK57Ba7XLPRp4ggHMEx2Q0Ysa11sGJaISmHiM0IiMUevCfvIaiYJl
+NFAcp3w4fN1pbQTcci7g6T2B9ZJQiMfJl6vYUROMfzoQXWqi4KSJFXlWM/6g0OIx
+K37w9j1/asUE0UbcUCWVzGuW9zULeb1UOb1pwcJtq8zsm723Eywrl/aKRhV54b9y
+k/ifBHa3LIt02gxQxgl5La2GdknmIZ68rka29tFDgipQ5J0vaKdZgsdK2nu4jWTY
+rGJl2wLedNFuh+kO23Q1oSNaztjLTOzwO6S4RTtNQO8e+PYV3+DfxLzB3qU7q5Hh
+NeaOsw3PI642BRTRtbpjzeLwgYXNQnE2mc+jicSWb67cCTRhdsvZTqj3BDjAI8We
+yPs1Unw9AWL1ns+7ZBpVMWsfFlUSCR8nR/x3j+pBYTX7J5g0iYmGNvoCfaEAv05v
+GAAkZe0m8MIphrYPwa0aFiykWC0pRT9g5U7MjyQWFGXbKbtzTczsaHDrAf/m6WKq
+lXT5SbmK5JODctegEioBk7kg
+=mAv+
+-----END PGP SIGNATURE-----
+
+--===============7283011725580672592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de70c8adca45-d557153962df.txt
+Content-Disposition: attachment; filename=revlist-ffd9fb546d49-1678e493d530.txt
 
-3c80fcb5910eddf9e347e637fce2b6fbc6d7dcbd Makefile: add QUIET_GEN to "tags" and "TAGS" targets
-1126f41341a50b2336a62588619f8824eea1fd88 Merge branch 'tb/reverse-midx' into jch
-461045e754492257c0466e4ea0fb2a012a41b2fe Merge branch 'll/clone-reject-shallow' into jch
-3abfba551a01eb7996e721e7011023e4b633c67c Merge branch 'en/sequencer-edit-upon-conflict-fix' into jch
-187f96dee593e7affc40abcf16beddab96d46b67 Merge branch 'en/ort-perf-batch-9' into jch
-2ded1e6ded8970196bdfc47498d836f0547bdadb Merge branch 'rs/daemon-sanitize-dir-sep' into jch
-f273a0ddd31dea0c6e74abc21e9cf68ba0f372e3 Merge branch 'ab/make-tags-quiet' into jch
-3726ed4fc85aeb36137b414702cbc1d6c95bdacb ### match next
-7d3ba20b57084d776e4f841c9310f430d9747d1a Merge branch 'jk/ref-filter-segfault-fix' into jch
-c2a35d8ba10d8bef41c3581f39feb8223b1d7ecb Merge branch 'mt/add-rm-in-sparse-checkout' into jch
-4b803aa260454111c88b645a0c0ca4f891bf65b4 Merge branch 'ar/userdiff-scheme' into jch
-04eda8c68e0ffb3e67880f94d3079c503b8785bd Merge branch 'gk/gitweb-redacted-email' into jch
-18d368a2af03bce46643a634fac39b55f757bd2a Merge branch 'ab/describe-tests-fix' into seen
-0136d18e2c435bc4076ccae96082f95df0a98162 Merge branch 'ab/userdiff-tests' into seen
-b794ecedd7dc476893d70df428b4ebda463fa0cf Merge branch 'ab/pickaxe-pcre2' into seen
-b5586d7de6fce1d97344686ecee2aa48894460db Merge branch 'ag/merge-strategies-in-c' into seen
-0d1ceabdf920a12e98f8d148a8d10c792254a90a Merge branch 'hn/reftable' into seen
-1914b454d7c54c5b4f80fcb0e88c0f06ef790692 Merge branch 'es/config-hooks' into seen
-624546d529d48932f6dff4e9b5fefb7327304df7 Merge branch 'mt/parallel-checkout-part-2' into seen
-02286bb59563f201024eefcce671826ad56b5280 Merge branch 'ab/unexpected-object-type' into seen
-511410512268390d818c61c957b23074bb536dd9 Merge branch 'ab/tests-cleanup-around-sha1' into seen
-be266b824827dddc625e3a9559ad39037599576e Merge branch 'en/ort-perf-batch-10' into seen
-4cc959d8a2a6efee69705641983a7ed1dba8a69d Merge branch 'en/ort-readiness' into seen
-af532ecb69c53017e0d2a1d0499c3b81c0aadc9b Merge branch 'ds/sparse-index' into seen
-5ccb560a6175dd1088fcb48d44cb477ace0d00cc Merge branch 'tb/pack-preferred-tips-to-give-bitmap' into seen
-d15cf31e0412bda0c55506fd11cba82d3cd2bf68 Merge branch 'ds/sparse-index-protections' into seen
-d557153962df8f83a7b0ffbe8aeaf4a9d73ae9e3 Merge branch 'jh/rfc-builtin-fsmonitor' into seen
+1d676673d665fd2162e7e466dcfbe5373bfdb73e KVM: arm64: Hide system instruction access to Trace registers
+a354a64d91eec3e0f8ef0eed575b480fd75b999c KVM: arm64: Disable guest access to trace filter controls
+af22df997d71c32304d6835a8b690281063b8010 KVM: arm64: Fix CPU interface MMIO compatibility detection
+69c3ed7282a143439bbc2d03dc00d49c68fcb629 drm/imx: fix memory leak when fails to init
+12d0ca80bffdad9e9b2a7a68784bfca54c8cf1a1 drm/imx: imx-ldb: Register LDB channel1 when it is the only channel to be used
+33ce7f2f95cabb5834cf0906308a5cb6103976da drm/imx: imx-ldb: fix out of bounds array access warning
+6161a435c1910d07ee00cc25af010889010e1f08 drm/exynos/decon5433: Remove the unused include statements
+acc7baafeb0b52a5b91be64c4776f827a163dda1 drm/amd/pm: no need to force MCLK to highest when no display connected
+5e61b84f9d3ddfba73091f9fbc940caae1c9eb22 drm/amdgpu: fix offset calculation in amdgpu_vm_bo_clear_mappings()
+41793e7f274e48c9c4a727e522eb22c875b77a0b Merge tag 'kvmarm-fixes-5.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+75f94ecbd0dfd2ac4e671f165f5ae864b7301422 tools/kvm_stat: Add restart delay
+d632826f26f2361e6ef18881611928036fac30e6 KVM: clean up the unused argument
+ecaf088f53fcc893cd00c846f53042a536b9630d KVM: x86: remove unused declaration of kvm_write_tsc()
+1973cadd4cca08eaeca944f60598f04ab0d80682 KVM: x86/vPMU: Forbid writing to MSR_F15H_PERF MSRs when guest doesn't have X86_FEATURE_PERFCTR_CORE
+f982fb62a304235397ec092936432199ca50ac4d selftests: kvm: make hardware_disable_test less verbose
+6fb3084ab5d9331cfadf07c59cf4a0bd4059bf4a KVM: make: Fix out-of-source module builds
+a835429cda91621fca915d80672a157b47738afb KVM: x86/mmu: Ensure TLBs are flushed when yielding during GFN range zap
+048f49809c526348775425420fb5b8e84fd9a133 KVM: x86/mmu: Ensure TLBs are flushed for TDP MMU during NX zapping
+33a3164161fc86b9cc238f7f2aa2ccb1d5559b1c KVM: x86/mmu: Don't allow TDP MMU to yield when recovering NX pages
+f8fb97c915954fc6de6513cdf277103b5c6df7b3 drm/tegra: dc: Don't set PLL clock to 0Hz
+a24f98176d1efae2c37d3438c57a624d530d9c33 gpu: host1x: Use different lock classes for each client
+a31500fe7055451ed9043c8fff938dfa6f70ee37 drm/tegra: dc: Restore coupling of display controllers
+ac097aecfef0bb289ca53d2fe0b73fc7e1612a05 drm/tegra: sor: Grab runtime PM reference across reset
+825e34d3c9e21ad1243b4464d23739de3c63a48b Merge commit 'kvm-tdp-fix-flushes' into kvm-master
+e92049ae4548ba09e53eaa9c8f6964b07ea274c9 drm/amdkfd: dqm fence memory corruption
+6951c3e4a260f65a16433833d2511e8796dc8625 drm/amdgpu/vangogh: don't check for dpm in is_dpm_running when in suspend
+566c6e25f957ebdb0b6e8073ee291049118f47fb drm/amdgpu: Set a suitable dev_info.gart_page_size
+e3512fb67093fabdf27af303066627b921ee9bd8 drm/amdgpu: check alignment on CPU page for bo map
+7344c82777a753c87973b1554899592390a95781 Merge tag 'exynos-drm-fixes-for-v5.12-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-fixes
+dcdb7aa452ef9503a9a90dc807475e2d5b78ba21 Merge tag 'amd-drm-fixes-5.12-2021-03-31' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+a58d9166a756a0f4a6618e4f593232593d6df134 KVM: SVM: load control fields from VMCB12 before checking them
+3c346c0c60ab06a021d1c0884a0ef494bc4ee3a7 KVM: SVM: ensure that EFER.SVME is set when running nested guest or on nested vmexit
+6ebae23c072bb865048d2b2500ee1fae71944263 Merge branch 'kvm-fix-svm-races' into kvm-master
+c2c647f91aec192f45f0849c225f134183cf4e90 KVM: x86: reduce pvclock_gtod_sync_lock critical sections
+a83829f56c7ce17d5d05370820e185d9a23d3090 KVM: x86: disable interrupts while pvclock_gtod_sync_lock is taken
+77fcbe823f002ad18426545351fa2fb94f8d5e61 KVM: x86: Prevent 'hv_clock->system_time' from going negative in kvm_guest_time_update()
+55626ca9c6909d077eca71bccbe15fef6e5ad917 selftests: kvm: Check that TSC page value is small after KVM_SET_CLOCK(0)
+a0497251f2b055a137d62ed065286ba999647b3c Merge tag 'drm/tegra/for-5.12-rc6' of ssh://git.freedesktop.org/git/tegra/linux into drm-fixes
+6fdb8e5aba6a33fe5f1a0bd1bcf0cf2884437ead Merge tag 'imx-drm-fixes-2021-04-01' of git://git.pengutronix.de/git/pza/linux into drm-fixes
+a80314c327a937ff1213288adf0d11414c40a898 Merge tag 'drm-fixes-2021-04-02' of git://anongit.freedesktop.org/drm/drm
+6905b1dc3c32a094f0da61bd656a740f0a97d592 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+6a3193cdd5e5b96ac65f04ee42555c216da332af kbuild: lto: Merge module sections if and only if CONFIG_LTO_CLANG is enabled
+1678e493d530e7977cce34e59a86bb86f3c5631e Merge tag 'lto-v5.12-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 
---===============8020604426980172811==--
+--===============7283011725580672592==--
