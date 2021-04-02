@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 02 Apr 2021 21:50:03 -0000
-Message-Id: <161740020396.27527.1229987610866030371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Fri, 02 Apr 2021 22:13:03 -0000
+Message-Id: <161740158374.7372.2158387949945211291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/tags/block-5.12-2021-04-02
-    old: 0000000000000000000000000000000000000000
-    new: 16513f4fdc051be0fd1e2f06e26d778c1f15eea7
-  - ref: refs/tags/io_uring-5.12-2021-04-02
-    old: 0000000000000000000000000000000000000000
-    new: 3e0d751f26d6e77fb8da9ae1c59eef7d7d1ee6d0
+  - ref: refs/heads/hyperv-next
+    old: 6dc2a774cb4fdb524b7eb0b8db74198a1b4815ea
+    new: 0975694befc06a235cfce5b40d20206c5d8c6593
+    log: |
+         90b9bfa4707c85c02cc1b22b57bc8abc24a6a5f0 x86/hyperv: remove unused linux/version.h header
+         0975694befc06a235cfce5b40d20206c5d8c6593 Drivers: hv: vmbus: Remove unused linux/version.h header
+         
