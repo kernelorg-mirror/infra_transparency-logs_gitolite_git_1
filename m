@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 02 Apr 2021 23:50:10 -0000
-Message-Id: <161740741065.3807.435797552608911148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/usb
+Date: Fri, 02 Apr 2021 23:57:52 -0000
+Message-Id: <161740787274.7420.2135325285385405168@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/peter.chen/usb
+user: peter.chen
 changes:
-  - ref: refs/heads/for-next
-    old: 6ac4c6f887f5a8efb6a6952798c09a2562022966
-    new: f07669df4c8df0b7134ae94be20a8b61bd157168
+  - ref: refs/heads/for-usb-next
+    old: 0534e39c95a07dfa4d77c664d13e840e4fd57fdc
+    new: d93e69558522c4adfc7b4281d188464255257d17
     log: |
-         f07669df4c8df0b7134ae94be20a8b61bd157168 libbpf: Remove redundant semi-colon
+         d93e69558522c4adfc7b4281d188464255257d17 usb: cdns3: delete repeated clear operations
          
