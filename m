@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2393312046270210479=="
+Content-Type: multipart/mixed; boundary="===============3857282057331258374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 03 Apr 2021 08:37:15 -0000
-Message-Id: <161743903590.21908.26501934934746864@gitolite.kernel.org>
+Date: Sat, 03 Apr 2021 08:40:44 -0000
+Message-Id: <161743924411.24420.16443670908723589203@gitolite.kernel.org>
 
---===============2393312046270210479==
+--===============3857282057331258374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,338 +16,386 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 72fe35c56dacb6161f7bd2af30d983e92820bddf
-    new: 580014ed178912ceeaba1d5d8b85d6e970372b1c
-    log: revlist-72fe35c56dac-580014ed1789.txt
+    old: 580014ed178912ceeaba1d5d8b85d6e970372b1c
+    new: f99270b7891fb3f0938eaf7b251a72450acf1452
+    log: revlist-580014ed1789-f99270b7891f.txt
   - ref: refs/heads/queue/4.19
-    old: c4bed3fcf416b473ff01b761309c643778ca5519
-    new: 4f8c47c8b1c6b8ef8a665d65565c2001c1e8f03e
-    log: revlist-c4bed3fcf416-4f8c47c8b1c6.txt
+    old: 4f8c47c8b1c6b8ef8a665d65565c2001c1e8f03e
+    new: 7021cef8ab8285e3746879b7e36c05c95332895a
+    log: revlist-4f8c47c8b1c6-7021cef8ab82.txt
   - ref: refs/heads/queue/4.4
-    old: 4e04cf3d321d723689e538e319bacf47fa2929de
-    new: 55d94fba3ae77b8a6a269c1b55b54a74188dc4cd
-    log: revlist-4e04cf3d321d-55d94fba3ae7.txt
+    old: 55d94fba3ae77b8a6a269c1b55b54a74188dc4cd
+    new: e8ba7eb3a326cfdb3f855a69fd931720230c40d5
+    log: revlist-55d94fba3ae7-e8ba7eb3a326.txt
   - ref: refs/heads/queue/4.9
-    old: 9b22594cfa90d958ade724c64f59c8a814dae17b
-    new: 417b30d0f7cfcd102d80245b83c668743cd03130
-    log: revlist-9b22594cfa90-417b30d0f7cf.txt
+    old: 417b30d0f7cfcd102d80245b83c668743cd03130
+    new: 41149c94f96b7fc2320dcb2dfc97c953ed357f1e
+    log: revlist-417b30d0f7cf-41149c94f96b.txt
   - ref: refs/heads/queue/5.10
-    old: 8aa2b80077aabcb75a9f53bb67525d12f4114bca
-    new: c814171e92189fd232e7aac69fdd819e2d9ad900
-    log: revlist-8aa2b80077aa-c814171e9218.txt
+    old: c814171e92189fd232e7aac69fdd819e2d9ad900
+    new: 046c6ce6dd0562e419f2a24d6419938559035f9c
+    log: revlist-c814171e9218-046c6ce6dd05.txt
   - ref: refs/heads/queue/5.11
-    old: 49c2a2e5e4f63646d76d3182d7ad95e368a975bf
-    new: faec08a7f32ae68d3b885ee9dbeb6a7726796fe1
-    log: revlist-49c2a2e5e4f6-faec08a7f32a.txt
+    old: faec08a7f32ae68d3b885ee9dbeb6a7726796fe1
+    new: dac72e1ecda93cfcad68c28fd43f0bdc1429f742
+    log: revlist-faec08a7f32a-dac72e1ecda9.txt
   - ref: refs/heads/queue/5.4
-    old: 23a8195f73043e603fb20dfedd2e52a321c8f719
-    new: 8f19eb908876719b43deb33611c8f3283c9f87aa
-    log: revlist-23a8195f7304-8f19eb908876.txt
+    old: 8f19eb908876719b43deb33611c8f3283c9f87aa
+    new: d468c677daac4304fef662919b33bf6ad0b55d82
+    log: revlist-8f19eb908876-d468c677daac.txt
 
---===============2393312046270210479==
+--===============3857282057331258374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72fe35c56dac-580014ed1789.txt
+Content-Disposition: attachment; filename=revlist-580014ed1789-f99270b7891f.txt
 
-f866adc40f764eacd48350acd1ea313d500e3651 selinux: vsock: Set SID for socket returned by accept()
-7ff1e0b8b101fce0d256886c12eb70e07b13a561 ipv6: weaken the v4mapped source check
-c1ab20015286ef4449ce8b0c04a503554bf0adbf ext4: fix bh ref count on error paths
-ed45433a39feacff581d742354b90e5ac03a701f rpc: fix NULL dereference on kmalloc failure
-bac404e001bd8c4e928a6ea2d2b9ccc442b38e91 ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
-14014ba1f1be6b58837f2a8698ebc6f745f384f4 ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
-826df3fb42550cc93b20d026763cb049f16655e8 ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
-0bab4e6279d6aee5262519a28c246688ae848d92 ASoC: es8316: Simplify adc_pga_gain_tlv table
-de466932f5324b1072330a977b2d1db89c9c2097 ASoC: cs42l42: Fix mixer volume control
-9a8394efdc915a7627f9c6e6a085132a99faaf6e ASoC: cs42l42: Always wait at least 3ms after reset
-eae4158878ce4e994099258864ef5bc713fc1076 powerpc: Force inlining of cpu_has_feature() to avoid build failure
-5f6f4564d79e62f42cd91089445a95876d9152d4 vhost: Fix vhost_vq_reset()
-e4240a14adb420bc361cab273ca3d2537df15781 scsi: st: Fix a use after free in st_open()
-361a70cd92c74361adae9aaa3294f17e827844cc scsi: qla2xxx: Fix broken #endif placement
-e48270f991f08adccdafc0b9bd83f3f85c394d05 staging: comedi: cb_pcidas: fix request_irq() warn
-6fcf55b5e0b36df945d367681f3ebd10650ff109 staging: comedi: cb_pcidas64: fix request_irq() warn
-7b31783c41d50bc846513e2ae225c962a69a0c1f ASoC: rt5659: Update MCLK rate in set_sysclk()
-4b01ca9a7af3617dcb0c4d798502c8061b127994 ext4: do not iput inode under running transaction in ext4_rename()
-be8949dd62b3ddd7affae63c4bd127c022cfebf1 brcmfmac: clear EAP/association status bits on linkdown events
-541a9c579c73024776479a4486f611b981cf2091 net: ethernet: aquantia: Handle error cleanup of start on open
-6aceffe44a259ccaa5e7a6ee9df6cee98005feeb appletalk: Fix skb allocation size in loopback case
-18fbb5e16803edfbfd60f5e184c1935724664ef9 net: wan/lmc: unregister device when no matching device is found
-87b202b5506213825e37341f6d1ac49b1b9c1e10 bpf: Remove MTU check in __bpf_skb_max_len
-1d83cf862a3bbbb7d4dd4fb0de808e13047be4c5 ALSA: usb-audio: Apply sample rate quirk to Logitech Connect
-8da06419f2191e8243c43389b57898809fc65879 ALSA: hda/realtek: fix a determine_headset_type issue for a Dell AIO
-7bb42a4ba995203bf6af4b28682e663a943b0320 ALSA: hda/realtek: call alc_update_headset_mode() in hp_automute_hook
-580014ed178912ceeaba1d5d8b85d6e970372b1c tracing: Fix stack trace event size
+363b62523853009af9e9467f31c0e310e82f7c7b selinux: vsock: Set SID for socket returned by accept()
+3f33794e7bb4fb9bfc30d3a578829a0c6d87a6ce ipv6: weaken the v4mapped source check
+1e02e1d4c985c625eea08a18f240d810d5f4ab4e ext4: fix bh ref count on error paths
+9f564455a74d5d8a6d28e3cfaa29b91df822b43e rpc: fix NULL dereference on kmalloc failure
+e6c8289131428ecbfbc2ac09edf8330d48046003 ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
+7de7e3cf714d13cec99ccfbce531ff1ad3bfb6c4 ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
+57241465d4ecd024f3de0836e1641d00f560969b ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
+0ea7764cef352432728b547e57bfba2da5e096d5 ASoC: es8316: Simplify adc_pga_gain_tlv table
+16c36050c24030d47cf98a094e0e29d1c2a9f5af ASoC: cs42l42: Fix mixer volume control
+0b35bcaf7db91a59dc9eda830ae6d2c74b77a1d6 ASoC: cs42l42: Always wait at least 3ms after reset
+1802f7ac1aaa8ddc2e898edf92f07fedd471ffb3 powerpc: Force inlining of cpu_has_feature() to avoid build failure
+52bcb0712aee070c77581eadc58615b7370ca04c vhost: Fix vhost_vq_reset()
+d0fc9df308f1e847ee0e7519623f42dedd8a4575 scsi: st: Fix a use after free in st_open()
+aa68646e6cb861cca92ba6fdd713305f278e0d1d scsi: qla2xxx: Fix broken #endif placement
+3d5ff859525dabc700af8448aad741fd8062e60d staging: comedi: cb_pcidas: fix request_irq() warn
+ebadd6f631835093ff5899fbb142068f8c5d3190 staging: comedi: cb_pcidas64: fix request_irq() warn
+8089187f8510f88324ad7735641b653b520aac96 ASoC: rt5659: Update MCLK rate in set_sysclk()
+55b790a5d0eabed016e6555086819c3e9cd3fc6e ext4: do not iput inode under running transaction in ext4_rename()
+bf76dd21fedf03e8ad2892f1725b8a6befb45048 brcmfmac: clear EAP/association status bits on linkdown events
+a0078c26f566dc2474ce9da83fdaea84fe862cab net: ethernet: aquantia: Handle error cleanup of start on open
+a1d11c036a2bbad9f633581cde72684ab39b9eb3 appletalk: Fix skb allocation size in loopback case
+3867f27d27f1fc919d981f52e80701a8faf78d20 net: wan/lmc: unregister device when no matching device is found
+f4ec7249f8b360616d1e0c5d6dfb71ba90c52766 bpf: Remove MTU check in __bpf_skb_max_len
+6aa001124e3db2bf6065abc064187919ddadbe86 ALSA: usb-audio: Apply sample rate quirk to Logitech Connect
+9435824cedbf0f9de397cb1a33fafca907f3782e ALSA: hda/realtek: fix a determine_headset_type issue for a Dell AIO
+ea9918ebd96730b74f45fd234f878c6936f16c94 ALSA: hda/realtek: call alc_update_headset_mode() in hp_automute_hook
+f99270b7891fb3f0938eaf7b251a72450acf1452 tracing: Fix stack trace event size
 
---===============2393312046270210479==
+--===============3857282057331258374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4bed3fcf416-4f8c47c8b1c6.txt
+Content-Disposition: attachment; filename=revlist-4f8c47c8b1c6-7021cef8ab82.txt
 
-9de47da8c91a3489ec0d044798545bbfec80fd07 selinux: vsock: Set SID for socket returned by accept()
-b6541eb6524a748cfbbfaebb51a3331f6df49100 tcp: relookup sock for RST+ACK packets handled by obsolete req sock
-0455d0640068adf2079aeb3ae7b45656659efc4a ipv6: weaken the v4mapped source check
-a223eb7dfbc9a94f6847fbc4fdc1e4db9decc3d7 ext4: fix bh ref count on error paths
-3aa5b7147515c1d5798443dda4476a66aaeaa6df rpc: fix NULL dereference on kmalloc failure
-93f3e18a9dc566cf91d817bb785fbcb0a6db7790 ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
-e196f78b0d9f79680f890d0bb594b7690929bd50 ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
-8cccea09b83f5b2e65bbf7b6c660316fdc4d2941 ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
-e0877434b0599158a9b95893bc0129b5ab7bca86 ASoC: es8316: Simplify adc_pga_gain_tlv table
-8df101e1b7f34a26cc7654eda53cebbb86267b60 ASoC: cs42l42: Fix Bitclock polarity inversion
-720650c6f656b4c6f4e7f8baadfcaa5aa879e677 ASoC: cs42l42: Fix channel width support
-d6131045c79e8dfdf8c642a4bfbec11155ac587b ASoC: cs42l42: Fix mixer volume control
-f88504497f537804fab68ac6f0125898d31eef41 ASoC: cs42l42: Always wait at least 3ms after reset
-e152efc68616cd01f0b7ff4875212b52e6a0b7b4 vhost: Fix vhost_vq_reset()
-ff20a42fa312e4fc000001cd3d1098c1ccf82660 scsi: st: Fix a use after free in st_open()
-4d2fc691edfd614bb8a6b330eb7e21f658c7a2ba scsi: qla2xxx: Fix broken #endif placement
-0b6a54b6e6698269d9608db19b8ec92eaf1178fa staging: comedi: cb_pcidas: fix request_irq() warn
-ca7b5873cf968833709b4d099b5c2b3aabcc0435 staging: comedi: cb_pcidas64: fix request_irq() warn
-f5a77b9206aca5f01c8098962777e7c636589970 ASoC: rt5659: Update MCLK rate in set_sysclk()
-d964e74c57d2c780102d935a39e8d9ad2a443c84 thermal/core: Add NULL pointer check before using cooling device stats
-3cbd4f531ebe1bbb03f5faf85b34cc78ce5ace5d locking/ww_mutex: Simplify use_ww_ctx & ww_ctx handling
-2a7f59a6a208b2b20550b5b61edacd7adcd537b7 ext4: do not iput inode under running transaction in ext4_rename()
-69c6a23530cdc656d57f172d4a9950761e876a7e brcmfmac: clear EAP/association status bits on linkdown events
-6bb2b8d01d0e588b20f670c91c7094c109e96197 ath10k: hold RCU lock when calling ieee80211_find_sta_by_ifaddr()
-50df87def66201e65be10177bfd78d7ccb033b85 net: ethernet: aquantia: Handle error cleanup of start on open
-be1425939f610e72a92f63e27f7ff2879ea8cf9f appletalk: Fix skb allocation size in loopback case
-747e6a040e1e6d42986a21f5351c4e5422e7a1b3 net: wan/lmc: unregister device when no matching device is found
-28efbae6ac6f0f8dbb79b1ed01918f33e53c8244 bpf: Remove MTU check in __bpf_skb_max_len
-3481186a3367914dfa194b4f3ad73506775c4342 ALSA: usb-audio: Apply sample rate quirk to Logitech Connect
-9f47f0125bb3059ecdf20083273475bd24bcfd5a ALSA: hda/realtek: fix a determine_headset_type issue for a Dell AIO
-194d6b19abc8a56c5391a4545cec092a7146c588 ALSA: hda/realtek: call alc_update_headset_mode() in hp_automute_hook
-c137b8629d47d8c289d4af072f2ccb4f6caeb825 PM: runtime: Fix race getting/putting suppliers at probe
-4eeca64e155d310950f708c8b7f14484cedd6302 PM: runtime: Fix ordering in pm_runtime_get_suppliers()
-4f8c47c8b1c6b8ef8a665d65565c2001c1e8f03e tracing: Fix stack trace event size
+04557a60f0e5d6d578e7f68c3f23079dd33d7121 selinux: vsock: Set SID for socket returned by accept()
+f4c1eaa12e1ef377d5a23022a9677c9226dacdbc tcp: relookup sock for RST+ACK packets handled by obsolete req sock
+d75bc9152948887860337fd8a987967a65d87333 ipv6: weaken the v4mapped source check
+33059d9e4e95647ac8b6b4e97e57dee1f71140c0 ext4: fix bh ref count on error paths
+5cb370fa684674d9a1443acc173180886874527a rpc: fix NULL dereference on kmalloc failure
+e67206f1042b6a676ac3ae45a4e621d2fc01f95a ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
+bb419a9bb86a6bc5b38010195e3b19e71c788383 ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
+6dbfac3d0b4e1a4ea1b538fbc3af6a87c6848ece ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
+b41eeb3663fb86766a31417c64e818f023815836 ASoC: es8316: Simplify adc_pga_gain_tlv table
+4b507db0bf413c8b866c199252f431093b5c6e48 ASoC: cs42l42: Fix Bitclock polarity inversion
+c582764dbd297ba87154eac8cfb4cd72e89ebeca ASoC: cs42l42: Fix channel width support
+f0e7a48d7ee835a330b5dde0fec878f3a130941d ASoC: cs42l42: Fix mixer volume control
+a5788cf04fe892e26df2ca665c25594f3a6bf0ff ASoC: cs42l42: Always wait at least 3ms after reset
+a488e40976d405f20f14cb64578e9083939b3b78 vhost: Fix vhost_vq_reset()
+cc9c608aa79cc9f0364a4b54ef749758c324e9bb scsi: st: Fix a use after free in st_open()
+495401dbfb1d4a78e5456f59d4d1aa0e9d690adb scsi: qla2xxx: Fix broken #endif placement
+7b15cf69a91a90b1e6543c82d65b1cfcd9fdcfa0 staging: comedi: cb_pcidas: fix request_irq() warn
+519bd4a4688fa79cee329f1433605d9049775b49 staging: comedi: cb_pcidas64: fix request_irq() warn
+93a91aad7fb1530d5cdcb4dcf34d1d382443300d ASoC: rt5659: Update MCLK rate in set_sysclk()
+9ae7584efb8c53729effd0b63497e5498a766631 thermal/core: Add NULL pointer check before using cooling device stats
+9f2df4644f897f14be8a06fbedb3b80dd63c69ce locking/ww_mutex: Simplify use_ww_ctx & ww_ctx handling
+07811055b3c44272ff1d060240398eb46b3af82a ext4: do not iput inode under running transaction in ext4_rename()
+176034c5bd546480c6ce4fa402fd99c2d0c11ca3 brcmfmac: clear EAP/association status bits on linkdown events
+336f9cc84adab2fee4f34ddae7c31a0d6576b9ab ath10k: hold RCU lock when calling ieee80211_find_sta_by_ifaddr()
+c95b1c1588726ebcbfcfcb46a7d422197682e7fc net: ethernet: aquantia: Handle error cleanup of start on open
+aa55c1e3614b1da348d47ad96031ddacfda37f0d appletalk: Fix skb allocation size in loopback case
+b9d878c90c8995eeb75285472809b1a74dc6cad0 net: wan/lmc: unregister device when no matching device is found
+81b564276d7a5417544008b17acf17d9e93573d6 bpf: Remove MTU check in __bpf_skb_max_len
+732bfaf16b5b506a666c369b1976c20713d95f79 ALSA: usb-audio: Apply sample rate quirk to Logitech Connect
+6c5418d7502cfeadd71de82315b48964a7d88629 ALSA: hda/realtek: fix a determine_headset_type issue for a Dell AIO
+45adee03fac3fdadf5d72800727482b2ea3b5468 ALSA: hda/realtek: call alc_update_headset_mode() in hp_automute_hook
+531c78abb871a323f9482a890d6d300b60a1a979 PM: runtime: Fix race getting/putting suppliers at probe
+324134fdc08fbe866ff8c6945980698c8093959d PM: runtime: Fix ordering in pm_runtime_get_suppliers()
+7021cef8ab8285e3746879b7e36c05c95332895a tracing: Fix stack trace event size
 
---===============2393312046270210479==
+--===============3857282057331258374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e04cf3d321d-55d94fba3ae7.txt
+Content-Disposition: attachment; filename=revlist-55d94fba3ae7-e8ba7eb3a326.txt
 
-b379d08eb4e0c87a6da90069a98cb6351fa1d664 selinux: vsock: Set SID for socket returned by accept()
-43fc07f823bbcd68dda3d7c125b2a48a293fda7f ipv6: weaken the v4mapped source check
-ed87fbeb3caf3841d96e29433ac27d480eb38165 ext4: fix bh ref count on error paths
-5a9b87dfad82c80090aeddb4a961b7b7f6772e2e rpc: fix NULL dereference on kmalloc failure
-24b6a69bc8b4588ded8ecd38e2daba798241f3fe ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
-edaf27e922fed4d4bde6e8e13a9258ff3edb1cf3 ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
-e294312d92db54c735b7241978113c6265fec7db ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
-19c3a358fe9bb15423888eba2fb6b497b98fc7eb scsi: st: Fix a use after free in st_open()
-dd1b767a8d672077768aaae1b2fb94b411a9aad3 scsi: qla2xxx: Fix broken #endif placement
-9524fafa00cc68cbe9a134422dc6fb474c16e4c3 staging: comedi: cb_pcidas: fix request_irq() warn
-3734393501440e23f8dbead05bec8c66ea495599 staging: comedi: cb_pcidas64: fix request_irq() warn
-2de7db37b7508eb192e53181d71ad9f705d7779f ext4: do not iput inode under running transaction in ext4_rename()
-5046ba50cba78179a73592054588b60d5b791fb3 appletalk: Fix skb allocation size in loopback case
-29c7be0600019fa6be70897a8fe828961d10474a net: wan/lmc: unregister device when no matching device is found
-987d9d522478291b3f041860272d4a11c9a07ff3 ALSA: usb-audio: Apply sample rate quirk to Logitech Connect
-13ddad2322003ddf7e0d0df6e496b6ebe3f5831a ALSA: hda/realtek: call alc_update_headset_mode() in hp_automute_hook
-55d94fba3ae77b8a6a269c1b55b54a74188dc4cd tracing: Fix stack trace event size
+93886d277dc3615dafb1fc2b2986cc386d8a9c7a selinux: vsock: Set SID for socket returned by accept()
+c341aecd7e6ea76f72119476c8c4ee4c726905b5 ipv6: weaken the v4mapped source check
+ac5e874a7126a8c0bc79f6ce0f4fec9f2763fa17 ext4: fix bh ref count on error paths
+11715dcc784dec3f3e7b42d3534822f7fb29c61d rpc: fix NULL dereference on kmalloc failure
+53fd5c41f5e8f5c5cf717ec7112543cf1a3eb608 ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
+4b4f730957a674f7dcdab24246b0ebf4f26c81b2 ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
+0f9f79d0a063d00bd0bd8f622687a9452f35b46b ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
+8aa02a80152c7aaf400e71b5b217ec3f1859f2b5 scsi: st: Fix a use after free in st_open()
+01e3a1cae5e41ddddcab24e0adfe8ee4ce6267a9 scsi: qla2xxx: Fix broken #endif placement
+bc96bf9338d040e75f78ad2cff4a6d8a27162bf4 staging: comedi: cb_pcidas: fix request_irq() warn
+dc5bdf26a9a160421c0b6fa16cd3fb95d0b82cda staging: comedi: cb_pcidas64: fix request_irq() warn
+ea3c08fcc7adca26dec044fd1888263cf99625ef ext4: do not iput inode under running transaction in ext4_rename()
+df88fa11e6a8acb3ff5b66dcb4a0be935b07fcc6 appletalk: Fix skb allocation size in loopback case
+bf08ea186c06085074c485443b7f6fa6057af866 net: wan/lmc: unregister device when no matching device is found
+5fa51e81ac3c58a95e9280fa2994fec972c2e155 ALSA: usb-audio: Apply sample rate quirk to Logitech Connect
+4924ce2f86d75304d6114268211d04b382b19387 ALSA: hda/realtek: call alc_update_headset_mode() in hp_automute_hook
+e8ba7eb3a326cfdb3f855a69fd931720230c40d5 tracing: Fix stack trace event size
 
---===============2393312046270210479==
+--===============3857282057331258374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b22594cfa90-417b30d0f7cf.txt
+Content-Disposition: attachment; filename=revlist-417b30d0f7cf-41149c94f96b.txt
 
-93fd8c6d5270a44a1c154379e042078834f7db1b selinux: vsock: Set SID for socket returned by accept()
-f3c472fad7cdba18ace5df6a313450ffa04fb7df ipv6: weaken the v4mapped source check
-2fc0effac76a6e4669945959504d2c1eae28ecbe ext4: fix bh ref count on error paths
-9411e5e0638531ae3a2ea60ea518f9f588c3d761 rpc: fix NULL dereference on kmalloc failure
-dd45406c5010e61a40c9fd09f2bfcedf762e8520 ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
-5118b946e76da535bb2eb777d20295b6046bfa99 ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
-b8ab09516d7b5fc3df9bf8ffdf657e6ac026ff80 ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
-c48dacc71721f48b55ae2953f610bbd5f9054130 powerpc: Force inlining of cpu_has_feature() to avoid build failure
-84708aa5e25235ebebe1a830820e485dc121fa47 vhost: Fix vhost_vq_reset()
-b0ab09ebff82b6f949811f33f34fde1933e3dbc1 scsi: st: Fix a use after free in st_open()
-12d84fa8d9e10deebb256ab911d024af4cd80614 scsi: qla2xxx: Fix broken #endif placement
-586acb2bdd612c6223a610171b8c40e9803d4dd5 staging: comedi: cb_pcidas: fix request_irq() warn
-59ae56a7ed0d816d23607d8f53374711eb674d95 staging: comedi: cb_pcidas64: fix request_irq() warn
-78a1f091424b6e85c49a1293aefb32af8fbba37f ASoC: rt5659: Update MCLK rate in set_sysclk()
-71c51f43d56a92a0a28e8264115c841fba337a31 ext4: do not iput inode under running transaction in ext4_rename()
-371da0f9220654f5c3dd0a647338fed70d0edd61 appletalk: Fix skb allocation size in loopback case
-a910d785f6a90d0a1a26e945fd3940a052ad1548 net: wan/lmc: unregister device when no matching device is found
-f1b6b07d409d996367113b624d8152da0e46230c bpf: Remove MTU check in __bpf_skb_max_len
-6a0c59fdd77b3d55240d4676a4f2501aa64de27a ALSA: usb-audio: Apply sample rate quirk to Logitech Connect
-45942588e38ebbf3108c7393f26229902d1761d6 ALSA: hda/realtek: call alc_update_headset_mode() in hp_automute_hook
-417b30d0f7cfcd102d80245b83c668743cd03130 tracing: Fix stack trace event size
+255c2705e8f925adeea246ece4a9ab92dca72992 selinux: vsock: Set SID for socket returned by accept()
+cd82fbbd4de74db7f5377c2ce971001d8c43995d ipv6: weaken the v4mapped source check
+5f9053effa7b54214e55fb45eb469dbddc98f3e9 ext4: fix bh ref count on error paths
+4c02a046d2c4670cbb32e74ee9b1463e2cc87bd5 rpc: fix NULL dereference on kmalloc failure
+8138b037eb5396810596034479424f6bda7592b4 ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
+29cbeef689c826cb710da36137a88903e3f62ca9 ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
+2cbd9db527e3f02f72360cfba4db334793130359 ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
+be4cd52b323e8105cc6cdaaba2e1bcda76f4902d powerpc: Force inlining of cpu_has_feature() to avoid build failure
+903013a9eb1c6c51f04d43196aef60c5327ee4e1 vhost: Fix vhost_vq_reset()
+43e01c8c292dcd06bc5b6ac30de8083b429c23f5 scsi: st: Fix a use after free in st_open()
+4a640a22c2c8370c6742ad178b7d12140922a1d5 scsi: qla2xxx: Fix broken #endif placement
+22fd78d8288555ffc1d4e76f06b199bb57426a73 staging: comedi: cb_pcidas: fix request_irq() warn
+8dd570f2c1a7e7d79aab2f096c6c38afcd1ee003 staging: comedi: cb_pcidas64: fix request_irq() warn
+152bb446cd77f4ecba163b73c5e65bbdaf2c6057 ASoC: rt5659: Update MCLK rate in set_sysclk()
+8eca15be8d5ed9b820c6401b18a6ed07ab2afec7 ext4: do not iput inode under running transaction in ext4_rename()
+83e63ae2237ca38c2f556b00721b69700044e9c0 appletalk: Fix skb allocation size in loopback case
+389c2a60cc2ff09c45632e637d8cae75eedbd638 net: wan/lmc: unregister device when no matching device is found
+f9ecd65e95400c31e43966a9c90243f8fa19d5e0 bpf: Remove MTU check in __bpf_skb_max_len
+7459a4671871d887aa6c9a8a46404d8463751e99 ALSA: usb-audio: Apply sample rate quirk to Logitech Connect
+0aaf05b2100906c4d74434f423ec117758925217 ALSA: hda/realtek: call alc_update_headset_mode() in hp_automute_hook
+41149c94f96b7fc2320dcb2dfc97c953ed357f1e tracing: Fix stack trace event size
 
---===============2393312046270210479==
+--===============3857282057331258374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8aa2b80077aa-c814171e9218.txt
+Content-Disposition: attachment; filename=revlist-c814171e9218-046c6ce6dd05.txt
 
-6da3e1f6bf87055d1b849012694386c07d642090 arm64: mm: correct the inside linear map range during hotplug check
-0eea6388e04a1fcaaccae427a01e10e5070ebb78 bpf: Fix fexit trampoline.
-53cb6e53c6a254fd21abf3c7e94c0f6c1e163185 virtiofs: Fail dax mount if device does not support it
-ffc1253810f752a64638c8e1be80e6084b36bbdc ext4: shrink race window in ext4_should_retry_alloc()
-8d89766b608ff800e554c86275ad20e3bc1bb38d ext4: fix bh ref count on error paths
-9fcebb1442e426f95acd9d5ff3cc449441125f74 fs: nfsd: fix kconfig dependency warning for NFSD_V4
-0cbad4c94e5291cbb1a2bf32102a2a705a4b89e3 rpc: fix NULL dereference on kmalloc failure
-4fdd57f9e5ac1d4be464b90c8c8d8b901b0a2260 iomap: Fix negative assignment to unsigned sis->pages in iomap_swapfile_activate
-d216c3d6bf249ab03b789e2d2f5a8f6d4b366294 ASoC: rt1015: fix i2c communication error
-bdcee46b7a7b54783fa7cd201d6f09e0c8890806 ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
-1de3389adf0ca067f49938cf0a398740735ccbab ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
-64f184ec24e28f87116a249f6e99316b6aacb297 ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
-0d496a5aef8800ad019f55fdd330896fef054164 ASoC: es8316: Simplify adc_pga_gain_tlv table
-c6172bca7a8e9e2ba320e34ad978a4e2ee263c2e ASoC: soc-core: Prevent warning if no DMI table is present
-91247d2d895e1234f89d31f47542a2f38cf72805 ASoC: cs42l42: Fix Bitclock polarity inversion
-ac983161d713bf164b90bb2158cce67940d842cc ASoC: cs42l42: Fix channel width support
-1cdd2d5ebcb38e41aa826f82f0f4f7c51112b688 ASoC: cs42l42: Fix mixer volume control
-251ace1a0dae177801360a1177f9dcf733d33f6c ASoC: cs42l42: Always wait at least 3ms after reset
-9ec217d00f8806b64867c4c74a1cbebe219b6401 NFSD: fix error handling in NFSv4.0 callbacks
-203c869d81abcb95c9584374c33940d96a08a0da kernel: freezer should treat PF_IO_WORKER like PF_KTHREAD for freezing
-be8d0731b34d89914fc56d828147147edee04f6e vhost: Fix vhost_vq_reset()
-1e8caedecdc8c0c22ffcf70c8d8a58d64f261da9 io_uring: fix ->flags races by linked timeouts
-91390495b2f3b6b60ff64baed92d437ba49e4d75 scsi: st: Fix a use after free in st_open()
-cba56ceb4f4a6e1af9362bf82244388b39fa09b6 scsi: qla2xxx: Fix broken #endif placement
-1102ef14fd7eccceb684ada5113af140635240b2 staging: comedi: cb_pcidas: fix request_irq() warn
-ccc682699b7e102a331b5e6385bb9728cea248b7 staging: comedi: cb_pcidas64: fix request_irq() warn
-7c43876f99e5e42f43644db1a9c322a8fdb01987 ASoC: rt5659: Update MCLK rate in set_sysclk()
-395a9a85d1e33775b0a258ead4201634e94592f8 ASoC: rt711: add snd_soc_component remove callback
-357ff24315c1b0d4ccc93ac9b813e1062e218034 thermal/core: Add NULL pointer check before using cooling device stats
-622d773dd65faf8bfb8c3ebcced080cc5c9d1342 locking/ww_mutex: Simplify use_ww_ctx & ww_ctx handling
-26fbb35073f58c5d1353e20032432f7c251e06e4 locking/ww_mutex: Fix acquire/release imbalance in ww_acquire_init()/ww_acquire_fini()
-205ae162b6afdc0b3380ae483d1f58ed05395c5f nvmet-tcp: fix kmap leak when data digest in use
-223880427bdbf02c57139f283f60e86eabe6936a io_uring: imply MSG_NOSIGNAL for send[msg]()/recv[msg]() calls
-e6e7144819f026c80c9a05a0b8324971bd1ac8a9 static_call: Align static_call_is_init() patching condition
-04eb9f474543931bd9465807c3d80f517b70a466 ext4: do not iput inode under running transaction in ext4_rename()
-330b266e444700ecbf74eaebf0c2d3d3718dff32 io_uring: call req_set_fail_links() on short send[msg]()/recv[msg]() with MSG_WAITALL
-0248c82982e2385f141ad30b01514a8c6437efbe net: mvpp2: fix interrupt mask/unmask skip condition
-f1f284da2a185564e88367a6d7bdf165c0373426 flow_dissector: fix TTL and TOS dissection on IPv4 fragments
-edc1ae36bce77ef3dc51a98085f7b6798134db0f can: dev: move driver related infrastructure into separate subdir
-1ef9c463e9f776148d24d7428f98a031aa4dd9c0 net: introduce CAN specific pointer in the struct net_device
-f3e1aae3ea064eb59685b628912e626de0379f94 can: tcan4x5x: fix max register value
-7ccd6413d4a2aa2b50d4f169e747f5d4040b46bc brcmfmac: clear EAP/association status bits on linkdown events
-73807b789d18dd1cf4319c7117a529d5ea73370a ath11k: add ieee80211_unregister_hw to avoid kernel crash caused by NULL pointer
-5a3f0eeaa4ffb2ca1b638696ad76d9e3cdf7305a rtw88: coex: 8821c: correct antenna switch function
-6865dedc3e9e7a830812ae9c75da838d7a92239c netdevsim: dev: Initialize FIB module after debugfs
-10195327639d7313b997e936b09ca2ebfdd59ba3 iwlwifi: pcie: don't disable interrupts for reg_lock
-06121fe5cf8b882cff59c954b92deb6a235551f0 ath10k: hold RCU lock when calling ieee80211_find_sta_by_ifaddr()
-d4738ab01346f839c9bd1cd3627cb7432fb85107 net: ethernet: aquantia: Handle error cleanup of start on open
-66e4b461a62353102b0a681498917322a203f49b appletalk: Fix skb allocation size in loopback case
-dd10a83664c8e68b11dc70c4deb908c537b61ec1 net: ipa: remove two unused register definitions
-4bac3679b40da0dd448691c5e2abece3578fa465 net: ipa: fix register write command validation
-2f1b4dc0091ee39e0d788c64bf5719788c6a6b33 net: wan/lmc: unregister device when no matching device is found
-c814171e92189fd232e7aac69fdd819e2d9ad900 net: 9p: advance iov on empty read
+bf306b77e244096aa262d881012deb932d33c204 arm64: mm: correct the inside linear map range during hotplug check
+e2e93b856f28031193a9679eac270e85db727fd3 bpf: Fix fexit trampoline.
+c0bb525074620ee917c6cffb39a1b6dd1825b669 virtiofs: Fail dax mount if device does not support it
+388cf862493c36a327149e91d4d1e60dbe808b95 ext4: shrink race window in ext4_should_retry_alloc()
+eb13bc26b4502008a79878d783081fa89c23504c ext4: fix bh ref count on error paths
+5641d7cbfa7d35c34eb34a82236daf4311c2f838 fs: nfsd: fix kconfig dependency warning for NFSD_V4
+eadb9c73f2aa69a687e243d0035ad9f11242fd0d rpc: fix NULL dereference on kmalloc failure
+a55cce2e4b73ad1803f15cbceaeeed11b9a58b94 iomap: Fix negative assignment to unsigned sis->pages in iomap_swapfile_activate
+e39d7658973cf4064756f6111d7eb43581be6ffa ASoC: rt1015: fix i2c communication error
+ed7462e1d0282a3fbf63e2794be1b4707d978bac ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
+33514808d778d48dfa34f8173a4f9bbcc28f65a6 ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
+be450e409aaa9c9dde5b795d9f41b2af2da194df ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
+9da0fcaf78b8096b073c16fc9fdc76580707de97 ASoC: es8316: Simplify adc_pga_gain_tlv table
+21a90bc93a3716d4a1abe66e9c3ebfa2cb27308e ASoC: soc-core: Prevent warning if no DMI table is present
+83862593235c567fad9e9327542f6e38b930dcfc ASoC: cs42l42: Fix Bitclock polarity inversion
+4e6d93df32548d5b5a029ed03d70fdea49a59f5d ASoC: cs42l42: Fix channel width support
+33259de1ae65c1309390c754d52c49fd1984eedb ASoC: cs42l42: Fix mixer volume control
+d839068035d8c1ac69b5666fb125bb83e7777493 ASoC: cs42l42: Always wait at least 3ms after reset
+b179fb909f8a7d010a38e7d4511a6ef62f9aa4f8 NFSD: fix error handling in NFSv4.0 callbacks
+7b0f47476eb7d6620333eee190a19fef2ed4e0ee kernel: freezer should treat PF_IO_WORKER like PF_KTHREAD for freezing
+da028029fe261373c6a6b4cd023352943f7f3d7a vhost: Fix vhost_vq_reset()
+7aed21620eebbc6a56a9b92f5752f6796cc7b65c io_uring: fix ->flags races by linked timeouts
+1d1e54a8e6edccde05c17d9addb423ce6e2e71df scsi: st: Fix a use after free in st_open()
+3d46028af365b7221baedf9d4279732c958d546d scsi: qla2xxx: Fix broken #endif placement
+4e45b0540a5ddafb1c47a1a5c00cc0c9e7f7aa62 staging: comedi: cb_pcidas: fix request_irq() warn
+84b3b3af5ec3e076011a636394466c682defd517 staging: comedi: cb_pcidas64: fix request_irq() warn
+927e07a284ad64c5ec40f37b9f1a15ce5bfdadda ASoC: rt5659: Update MCLK rate in set_sysclk()
+6ba524b0b6b63f992034798019eb30d15e00c8db ASoC: rt711: add snd_soc_component remove callback
+89e0f1ea20c07d36a903a25e5dfeffa4a5962a74 thermal/core: Add NULL pointer check before using cooling device stats
+403d51f4fd5beec0ef090b26d35fd782d650d8b6 locking/ww_mutex: Simplify use_ww_ctx & ww_ctx handling
+08d06e77bb5f9d8768494a44f15197c2e67a7bbf locking/ww_mutex: Fix acquire/release imbalance in ww_acquire_init()/ww_acquire_fini()
+93d346f6ec61b0479eb38b8ba163372d1124c6a3 nvmet-tcp: fix kmap leak when data digest in use
+cb899622fd81493ab91141f40df0b45bd4626ece io_uring: imply MSG_NOSIGNAL for send[msg]()/recv[msg]() calls
+07db72e5ea1cf58fb1520c773701d18b644587e9 static_call: Align static_call_is_init() patching condition
+6fee9c0aab970417a711c2018ad4fffe438b616c ext4: do not iput inode under running transaction in ext4_rename()
+4b4da0bfbe4a838083c36f52dfc117eacde394de io_uring: call req_set_fail_links() on short send[msg]()/recv[msg]() with MSG_WAITALL
+a3e072ad535f2596a68516f573697757496b5050 net: mvpp2: fix interrupt mask/unmask skip condition
+858f2566086f634dd51863f03b4b638d5b56f64e flow_dissector: fix TTL and TOS dissection on IPv4 fragments
+b818d787936138f954d061a299b5b3ab91e86ea7 can: dev: move driver related infrastructure into separate subdir
+65337706f7766994d8122528a4881d2f010c1e1e net: introduce CAN specific pointer in the struct net_device
+931abf9e26f5be6cb6714631d784b2404afedcf3 can: tcan4x5x: fix max register value
+b8f9738cd51f01c2753f1fa85cb57fb0c82a8fb9 brcmfmac: clear EAP/association status bits on linkdown events
+2ea4fda73f8faa8ad245783e3af8f555b1418ecb ath11k: add ieee80211_unregister_hw to avoid kernel crash caused by NULL pointer
+da9c409f3c3de8ea910b97cc9fb72c904fa1fb3d rtw88: coex: 8821c: correct antenna switch function
+8d5c5daad3cd2215df28ae2abda9c11d7766d086 netdevsim: dev: Initialize FIB module after debugfs
+2f99fe5de3692d263f50fce2d357780176de7940 iwlwifi: pcie: don't disable interrupts for reg_lock
+fb854cde7ab2f5e52e331a648b1a6c06172a7ba7 ath10k: hold RCU lock when calling ieee80211_find_sta_by_ifaddr()
+4a1a5f37f02ad04892e347c8099eb377d99840aa net: ethernet: aquantia: Handle error cleanup of start on open
+14ba2d3b380d76ff3ed7c457ce0fc4dfae889bd9 appletalk: Fix skb allocation size in loopback case
+f0bbc5c031e7109f7ac4cc9ebdc37c1b284c415a net: ipa: remove two unused register definitions
+10ba3d5363f3af37bdddd9a874ad0f9bf22e1ae8 net: ipa: fix register write command validation
+225696e825d94f8f59f7b10db3cfe9725fb36185 net: wan/lmc: unregister device when no matching device is found
+81e6fdf116428f63014c60aba1a78755725094ae net: 9p: advance iov on empty read
+2979dfdde177b93473af43664d2360753634880d bpf: Remove MTU check in __bpf_skb_max_len
+604731dfe928789ff0d7498d15136e9ecc487c22 ACPI: tables: x86: Reserve memory occupied by ACPI tables
+ba5cb58b2e6c9a0d8272143dbf76a61aa6a12db9 ACPI: processor: Fix CPU0 wakeup in acpi_idle_play_dead()
+d895f4ee6007ab8bf3b9d841b9dd0d78cccc3987 ALSA: usb-audio: Apply sample rate quirk to Logitech Connect
+00f0ec7c474e3ff261a9189caa0f1c441cfeccc4 ALSA: hda: Re-add dropped snd_poewr_change_state() calls
+989a987b477a7173c7382a7ae9961fd0d4736110 ALSA: hda: Add missing sanity checks in PM prepare/complete callbacks
+7b9c57d90e50135cb973224cdf01a6711ccdfb49 ALSA: hda/realtek: fix a determine_headset_type issue for a Dell AIO
+f084650d63099c453dde34442a97aa7d15843bde ALSA: hda/realtek: call alc_update_headset_mode() in hp_automute_hook
+d759d94e35c228eef1244463b2090c2c31d03bd5 ALSA: hda/realtek: fix mute/micmute LEDs for HP 640 G8
+5b50f02c4413f05235d44338d0500aa7452482bd xtensa: fix uaccess-related livelock in do_page_fault
+4324e0e53679da0460bc39346b433003e954c02a xtensa: move coprocessor_flush to the .text section
+27e6a5dbcb0289156f9eef311eaae58e88d97d1a KVM: SVM: load control fields from VMCB12 before checking them
+8feedbe303a81054018fbc2b34634e6c86ba0ee0 KVM: SVM: ensure that EFER.SVME is set when running nested guest or on nested vmexit
+e821e8f0f8d638ea7ece41ab9f4a8afe4d7b375e PM: runtime: Fix race getting/putting suppliers at probe
+5a45e506b210416c1542483cb23c2daa39b2c040 PM: runtime: Fix ordering in pm_runtime_get_suppliers()
+5a2ac1ef5425356a02744e155c7470a752bb90cd tracing: Fix stack trace event size
+aa75028767b1200bfac544f4eabbe96d1b107dfd s390/vdso: copy tod_steering_delta value to vdso_data page
+046c6ce6dd0562e419f2a24d6419938559035f9c s390/vdso: fix tod_steering_delta type
 
---===============2393312046270210479==
+--===============3857282057331258374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49c2a2e5e4f6-faec08a7f32a.txt
+Content-Disposition: attachment; filename=revlist-faec08a7f32a-dac72e1ecda9.txt
 
-2ffee56487a4fc66ea6531b2fd461d484e2f6f03 arm64: mm: correct the inside linear map range during hotplug check
-ad8a7f9d1c9249b62b2856d78e829876882ef157 virtiofs: Fail dax mount if device does not support it
-4c5d0667c16b71e873c578729c1dc13ce9171660 ext4: shrink race window in ext4_should_retry_alloc()
-c3abbaf5e7603422391d4b53597da8b414e6cf2a ext4: fix bh ref count on error paths
-407e02b5b39861e2404566e4ec4df55c6caca34d fs: nfsd: fix kconfig dependency warning for NFSD_V4
-fdabe3dd829b7a7e92a2b52f863053d139c07094 rpc: fix NULL dereference on kmalloc failure
-5aa31a0499e612df47d134ca714dbacd6f5ab302 iomap: Fix negative assignment to unsigned sis->pages in iomap_swapfile_activate
-99ec72bb3bcdf04dd5585b70d5b9edac3c2853a7 ASoC: rt1015: fix i2c communication error
-79c4a59e0821c21496ae3605c3832a16e6747a01 ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
-747143ef8df02be51de7704493c36a2d6af746c5 ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
-4be838c5791f08e409d0eb06b4e31812a9959ff5 ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
-475de782a6859a2996467911037a95ff6e41ca50 ASoC: es8316: Simplify adc_pga_gain_tlv table
-671bd083ffaab8fc34b11d0eb562b15c30c32319 ASoC: soc-core: Prevent warning if no DMI table is present
-ff5755482d7c9bd60ec3d4718345b13e8d98597e ASoC: cs42l42: Fix Bitclock polarity inversion
-32a51979f25b5fea82e34df492459ba4f5a5c4ad ASoC: cs42l42: Fix channel width support
-fd0c99d706b157cc0284c35f1d98897a7bc45364 ASoC: cs42l42: Fix mixer volume control
-3fa4835b35b41a648596923b4d9b81abfbe4a641 ASoC: cs42l42: Always wait at least 3ms after reset
-150718aa824532c9fa5dbbdff04b4cfbc07f18ff NFSD: fix error handling in NFSv4.0 callbacks
-051ec10936f387e488b6a0a4ef73f90eb498ff4c ASoC: mediatek: mt8192: fix tdm out data is valid on rising edge
-7539a2ee0749aefa3bf1eb1f78717ff5f47ec141 kernel: freezer should treat PF_IO_WORKER like PF_KTHREAD for freezing
-7560f481d8ab036964020990439d100e39ca4c78 vhost: Fix vhost_vq_reset()
-01c147b18c32140cbaff10b5265412263f150391 io_uring: fix ->flags races by linked timeouts
-53e5f6e80493f22b414eeebcb4d996da9e8f60c3 io_uring: halt SQO submission on ctx exit
-861edc7289e2f0ca5fc677fa82569daffeca36a8 scsi: st: Fix a use after free in st_open()
-92336a10881c275cc9fb2a6d6d68372f6c8231a4 scsi: qla2xxx: Fix broken #endif placement
-7d63c9096baadbf68dfed50d50cb00b0bcca7bf6 staging: comedi: cb_pcidas: fix request_irq() warn
-9271d5cad7e3eb4c8b943da9a4f17daa6ba9c182 staging: comedi: cb_pcidas64: fix request_irq() warn
-49d707b4950bb59f0fc3f9db9e7c997572fca4c2 ASoC: rt5659: Update MCLK rate in set_sysclk()
-77ebfaffc3d058d135f3100d4d5b79a1886b5f89 ASoC: rt711: add snd_soc_component remove callback
-c9e567162125715934b64a5a046b58efc105f5ca thermal/core: Add NULL pointer check before using cooling device stats
-a29a08b2df7631798286deb3c6e621617f4f6b94 locking/ww_mutex: Simplify use_ww_ctx & ww_ctx handling
-4e85651d5c0cef20944a0f45ccc7d8524cbf84ff locking/ww_mutex: Fix acquire/release imbalance in ww_acquire_init()/ww_acquire_fini()
-95947cf2ddf3be543c8b24e18bba695a377386b8 nvmet-tcp: fix kmap leak when data digest in use
-1356ffda26dda1c39acf663dac5f1c81df254427 io_uring: imply MSG_NOSIGNAL for send[msg]()/recv[msg]() calls
-6ebb7aedc9f4ee57dfcb62f24d7125e3715a57fd Revert "PM: ACPI: reboot: Use S5 for reboot"
-7e5aa8c8ae4eca0b0ccf9751d02af0a43ef4607b nouveau: Skip unvailable ttm page entries
-8a77710fe76b059db130bcca7acb08aef1d905c7 static_call: Align static_call_is_init() patching condition
-1cc32d3b0096772a021de30835439fa883c5f8ca ext4: do not iput inode under running transaction in ext4_rename()
-9a251bc641f22c93e5c2284e1984b83fd612de28 io_uring: call req_set_fail_links() on short send[msg]()/recv[msg]() with MSG_WAITALL
-dfec2b344d2bba4a11ca007a59d11325794cb5eb net: mvpp2: fix interrupt mask/unmask skip condition
-94fa6bf5e9f29c794858ff3c3ab677948c995b05 mptcp: deliver ssk errors to msk
-02109c4794c1318390feca3c2a378cf518a72294 mptcp: fix poll after shutdown
-4a73049e1fa87d23f82ac889598f307a839262bf mptcp: init mptcp request socket earlier
-3d9d59e2b98433f6ce4d89a3cf1f21c0f258a4f9 mptcp: add a missing retransmission timer scheduling
-e91088c922e4feb3d1a0248696ac90c1f217a0e9 flow_dissector: fix TTL and TOS dissection on IPv4 fragments
-e16235c15edde07484a4f83c32a81a900e439b04 mptcp: fix DATA_FIN processing for orphaned sockets
-b0ff84d891c2cb22b79d26e7bd2bfc6fa9f63c46 mptcp: provide subflow aware release function
-4f2464b971963d19353c334ff421fe029e3686c2 can: dev: move driver related infrastructure into separate subdir
-92eeec15d0642cfaad633e2db9f8b62ebd699a1f net: introduce CAN specific pointer in the struct net_device
-db3982386f004a19ee5357f8357c80ff291b666f mptcp: fix race in release_cb
-7d5f641870d94a97d6e14aa92328d3c0f3d193dd net: bonding: fix error return code of bond_neigh_init()
-b5b00b50ab825bb6cbd4f34c29278dfa06fb0863 mptcp: fix bit MPTCP_PUSH_PENDING tests
-aab73be69ecf21e5183cee43dfe98e8dc30da891 can: tcan4x5x: fix max register value
-804fbc53e910a319e1339ac8b9b33f401d16d506 brcmfmac: clear EAP/association status bits on linkdown events
-cf8fbfc543c6792d3187d914b6283cb9b3347af7 ath11k: add ieee80211_unregister_hw to avoid kernel crash caused by NULL pointer
-ae3aac373a7a07c38e131afc47ede302b7203528 rtw88: coex: 8821c: correct antenna switch function
-9eea268ccc0bf3ad0a73c5f471cf02ac2118281f netdevsim: dev: Initialize FIB module after debugfs
-04dde7f0de32d20c15699cb917cb2a8f4357d53f iwlwifi: pcie: don't disable interrupts for reg_lock
-6fd66dce4f890474e3f89e027b061e698910346f ath10k: hold RCU lock when calling ieee80211_find_sta_by_ifaddr()
-83cc5fd4ce628d9029fdfc35a32da28735f00dd1 net: ethernet: aquantia: Handle error cleanup of start on open
-785cf4bcd80c157ec13e360b84311b8a024fd09d appletalk: Fix skb allocation size in loopback case
-6a056f1e77970a2ef5b3cb0906b921c605f278a4 net: ipa: remove two unused register definitions
-7f338dfff4e6dda1f974c0f594cd4369c3b4e046 net: ipa: use a separate pointer for adjusted GSI memory
-050651e6c1842ff76ba93c4bbd362e2ed631cdf3 net: ipa: fix register write command validation
-9eecf8253ca2ec2cde9f221b3f6721dd12a53372 net: wan/lmc: unregister device when no matching device is found
-faec08a7f32ae68d3b885ee9dbeb6a7726796fe1 net: 9p: advance iov on empty read
+3b4dbc8ed1e7109ef568f4182cf0033f2af018fd arm64: mm: correct the inside linear map range during hotplug check
+d2bb63d3c113126ce32bf3464cb5b533505f53ac virtiofs: Fail dax mount if device does not support it
+618a8d3ad8d45b4f5a3e2aca1647f88a51ac72e2 ext4: shrink race window in ext4_should_retry_alloc()
+f1077e6a5f0bad485cfd18fb2accde595b85dd59 ext4: fix bh ref count on error paths
+0c139cf8ebd6c22316f099543185e0d2e8597703 fs: nfsd: fix kconfig dependency warning for NFSD_V4
+dea009a1a2068aa3bfa39118f06467949477ae04 rpc: fix NULL dereference on kmalloc failure
+48120765064237c39154fd1a6c26e55c3b2b88da iomap: Fix negative assignment to unsigned sis->pages in iomap_swapfile_activate
+28d7ace416ec16d7b87bd5e8ae9b32197fa79c0c ASoC: rt1015: fix i2c communication error
+65d3be7f9535c88681dc6474c238a85a1f6fce91 ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
+194623e35a5f571eba76dc7bc8ea6794e8afe71e ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
+1e1dc8778a04e1e7d84fdeefb269afeba35e9f06 ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
+d340a21259e38ab98716ab528cf9c6dedf2b427a ASoC: es8316: Simplify adc_pga_gain_tlv table
+83fb89c53a3eea3d813d564110e5b40b80608fde ASoC: soc-core: Prevent warning if no DMI table is present
+8b285157b4e2c32507a5ee758c4b6d6551e314b2 ASoC: cs42l42: Fix Bitclock polarity inversion
+73cc1ecbd9f42fa038f0f4438027f858af882ee8 ASoC: cs42l42: Fix channel width support
+85379b3564830c6c4283e0d3af808537d950fbc2 ASoC: cs42l42: Fix mixer volume control
+77e2550a34676859cea5a3408c40634b74895232 ASoC: cs42l42: Always wait at least 3ms after reset
+ba9118fbcedbd64a937d154c5b22e8ef51ee787c NFSD: fix error handling in NFSv4.0 callbacks
+eb194ff0645175ad2c26f7052f0a9707469a0614 ASoC: mediatek: mt8192: fix tdm out data is valid on rising edge
+14ccdca1bf77ffa4fb98aabac38e1a6a91415cbf kernel: freezer should treat PF_IO_WORKER like PF_KTHREAD for freezing
+297f07acdb543a3ac7af9380308ae93081a28f5c vhost: Fix vhost_vq_reset()
+cd011be4fe4e6cc6aae2d21ac2c82e2a1b68e4c9 io_uring: fix ->flags races by linked timeouts
+4b87cf25c0bfe87e574681ee620e2d20c860505e io_uring: halt SQO submission on ctx exit
+b9d6c261a944a070c02994c255d99cd7e38925db scsi: st: Fix a use after free in st_open()
+434cd5ba5e089ec63241348f3b2c2c7e1afaeca2 scsi: qla2xxx: Fix broken #endif placement
+a6d7e5ec63c15cb164cd4228eb6b915993e942ef staging: comedi: cb_pcidas: fix request_irq() warn
+5760d4084a873348c800d0e9c89aebdd8a485674 staging: comedi: cb_pcidas64: fix request_irq() warn
+d8404b9923fa1018c0c92aad8c5d56954aa29523 ASoC: rt5659: Update MCLK rate in set_sysclk()
+3773a7dd729245fb59965590d5862355b1bd7a3f ASoC: rt711: add snd_soc_component remove callback
+4379bb943c3a9741c2be007de39e188cf3a3e0b3 thermal/core: Add NULL pointer check before using cooling device stats
+cfba91b0b91e21e6b67e44ca79e6a749c0a774e5 locking/ww_mutex: Simplify use_ww_ctx & ww_ctx handling
+b316c36d26a3a5fab3bfce25bce81008c5c81f99 locking/ww_mutex: Fix acquire/release imbalance in ww_acquire_init()/ww_acquire_fini()
+901100a385582aa3d7843e0ead18aea1413fe4bd nvmet-tcp: fix kmap leak when data digest in use
+ab95f992ef02d0952e29909646e30d3dc8b4d84a io_uring: imply MSG_NOSIGNAL for send[msg]()/recv[msg]() calls
+3b5c87339d8168f6551b7ad15dd4c82349582a5e Revert "PM: ACPI: reboot: Use S5 for reboot"
+0ee3fc20d5c029576deff5259ff738b8547103d8 nouveau: Skip unvailable ttm page entries
+ab807bb8ba0cb7070ab59af4d3e413c86943c090 static_call: Align static_call_is_init() patching condition
+c680cf55e25616721ea878fc119da67271221ccb ext4: do not iput inode under running transaction in ext4_rename()
+75051ed5cfd2eb554bb2da6b05f1f733a99a078d io_uring: call req_set_fail_links() on short send[msg]()/recv[msg]() with MSG_WAITALL
+bed42733ff47a4b6987aaa467313c910cfbfa688 net: mvpp2: fix interrupt mask/unmask skip condition
+60fb17deb82d2c771dbddeba507244703f9a3ffc mptcp: deliver ssk errors to msk
+e563cead7c18d68f5452413c8aa773ad7bd6c24e mptcp: fix poll after shutdown
+93370a7d6a64c4ae51ec16f415a5c4268475cef2 mptcp: init mptcp request socket earlier
+33fa3b9feb0d90ef10a2533b9e476bc86fe7a2fe mptcp: add a missing retransmission timer scheduling
+549b671cc5ea277ed56bbd4b49ee76ecb8faaf84 flow_dissector: fix TTL and TOS dissection on IPv4 fragments
+ffac72b938067ea28a264c632687f88135f5143d mptcp: fix DATA_FIN processing for orphaned sockets
+152b8f89013f6d6a8dc4b5f6a3d057c0a2f0a477 mptcp: provide subflow aware release function
+e8a7a2b26d73e61f21c8b6c8e4dc2faedbe3efd2 can: dev: move driver related infrastructure into separate subdir
+5ff5122b52a62e5bf9ec9c0032e8529f4ae04714 net: introduce CAN specific pointer in the struct net_device
+5fb0c3dd034e948d58101170ddeab61ddad83a21 mptcp: fix race in release_cb
+fd5adfe0582a64b71f3e7ac6ce2007a30864b6d2 net: bonding: fix error return code of bond_neigh_init()
+59de737ae02cf59c2a59037a92a3d164ed990bab mptcp: fix bit MPTCP_PUSH_PENDING tests
+71602aba07846dd4ac0845e34ad142165e7f9089 can: tcan4x5x: fix max register value
+2863749a225ffef57ab5510afeb7fbd965ded050 brcmfmac: clear EAP/association status bits on linkdown events
+e0cff8505079570cef6ac98b036ecae628bdf814 ath11k: add ieee80211_unregister_hw to avoid kernel crash caused by NULL pointer
+ac27b84401e7b57a87a155d59618a2c42aeb3630 rtw88: coex: 8821c: correct antenna switch function
+5908862707c7d1d857a63e566e7a5d8e3f8bb88a netdevsim: dev: Initialize FIB module after debugfs
+673d706f715a0db7b6b0edff2f043246e00b3a2e iwlwifi: pcie: don't disable interrupts for reg_lock
+f5ba18613995e8c6392018e2364426ff64044b3f ath10k: hold RCU lock when calling ieee80211_find_sta_by_ifaddr()
+23f0355c47e005f85b557589ec91f3b33eb56a08 net: ethernet: aquantia: Handle error cleanup of start on open
+facfb771d5f890ba2c477e976edc5af8b52d8a4c appletalk: Fix skb allocation size in loopback case
+0cf1f6a70efd7d2bd2046329e9ccff022c04f067 net: ipa: remove two unused register definitions
+a3b0da2448451326764aaa305ec26cf6198f8a62 net: ipa: use a separate pointer for adjusted GSI memory
+410a9717e16500e4294a9a798b4a1aa162fa2a58 net: ipa: fix register write command validation
+b81ccd04c794a629bb3aa8795ac2cea0da433e03 net: wan/lmc: unregister device when no matching device is found
+e9906a19c7888ee4b8ccc48130e262ba4fdfe88f net: 9p: advance iov on empty read
+4f892b8d455f3b64ecb1e8accd94b7d0d08bd5b3 bpf: Remove MTU check in __bpf_skb_max_len
+d2c6855b55d2bf39c3e410694810e9c070702f37 ACPI: tables: x86: Reserve memory occupied by ACPI tables
+2a4346355e4ea6c872a46de133a5913840512f4e ACPI: processor: Fix CPU0 wakeup in acpi_idle_play_dead()
+25d5da166f7d594ecf1e9b7790c1e67ead7881e0 ACPI: scan: Fix _STA getting called on devices with unmet dependencies
+eef4805104b9c0040a08682e4e230aad9b4ac355 ALSA: usb-audio: Apply sample rate quirk to Logitech Connect
+1e97066a1cfc6acd006d00b642db5f77e40fab85 ALSA: hda: Re-add dropped snd_poewr_change_state() calls
+55d77c148ff01323cab39b22dd3cd6c0e42da6ae ALSA: hda: Add missing sanity checks in PM prepare/complete callbacks
+497e4e71bf0471de81eca62d4c642cd146c475bf ALSA: hda/realtek: fix a determine_headset_type issue for a Dell AIO
+0284f496e1be7365c9ec4fdb7875f33acb635baf ALSA: hda/realtek: call alc_update_headset_mode() in hp_automute_hook
+97eeb9bf6e360a84acd1d5e41a6b9647bd5ba363 ALSA: hda/realtek: fix mute/micmute LEDs for HP 640 G8
+f2c13ff8c514f20d8bdaa4aeab776fa6ee28f4e8 xtensa: fix uaccess-related livelock in do_page_fault
+8af3c999aaa4a4b7eeaa19bcdb8d5e9b0ae381bf xtensa: move coprocessor_flush to the .text section
+9cfdc085f3f25d3b1c6b07cea846990f4b6bec48 KVM: SVM: load control fields from VMCB12 before checking them
+46f0e426f2485560736aa80f46fc3b07c0abac9c KVM: SVM: ensure that EFER.SVME is set when running nested guest or on nested vmexit
+67f53e8687972e3fd4cf8aa90f38bb9d252444ae PM: runtime: Fix race getting/putting suppliers at probe
+9c8a4e10ad35868fabd2ec4af0a3b03e6da870b0 PM: runtime: Fix ordering in pm_runtime_get_suppliers()
+ca7ae7d524d4381b893e394bbce916f8d62b62ca tracing: Fix stack trace event size
+d413d22596791f0fe8a58931aaa09825cbb44959 s390/vdso: copy tod_steering_delta value to vdso_data page
+0561019e7f521b1cc736af99f4d93baffb1713bf s390/vdso: fix tod_steering_delta type
+dac72e1ecda93cfcad68c28fd43f0bdc1429f742 drm/ttm: make ttm_bo_unpin more defensive
 
---===============2393312046270210479==
+--===============3857282057331258374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23a8195f7304-8f19eb908876.txt
+Content-Disposition: attachment; filename=revlist-8f19eb908876-d468c677daac.txt
 
-6b2c767a0bebcedb4161d8411cebb78212fda14d selinux: vsock: Set SID for socket returned by accept()
-6120ee9c50f4df0255e24d8344601b26b6cfdb11 ipv6: weaken the v4mapped source check
-09b9c15cbc12578ba22e7ae98999ac8fa8f5f9b1 module: merge repetitive strings in module_sig_check()
-98c24048e3720f2b9ab132b6a0beb4132bec658a module: avoid *goto*s in module_sig_check()
-619a52ae044877959e5cde6f0ace4a7976b7d4b6 module: harden ELF info handling
-94daa6be82ebf517f8ad636e45505e4fe67ccc46 ext4: shrink race window in ext4_should_retry_alloc()
-0229f62acf929dd0ce28626d6ed9123e2a9327a4 ext4: fix bh ref count on error paths
-4cbf869f9e938bdffab06b04c74a3986511f443c fs: nfsd: fix kconfig dependency warning for NFSD_V4
-4d40c184adb8877e5f9493024d46c7ff6fe5fdee rpc: fix NULL dereference on kmalloc failure
-0977903d90ff3c4e8ae1694a230872eced4f6f8d iomap: Fix negative assignment to unsigned sis->pages in iomap_swapfile_activate
-5b6b4039d9951c80c54716432b1fe3b55ef4bd4d ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
-7d4c1530593c659035df6da83b02460e3b552eda ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
-680af9c8ce2a9fbb3561c2428fde7268b39be472 ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
-00de33143b2e3af2e7ecc5b6efa587e0e01ea9e9 ASoC: es8316: Simplify adc_pga_gain_tlv table
-b98b9f597f7d5f7899efb5fd27ccf7d3775953a8 ASoC: cs42l42: Fix Bitclock polarity inversion
-078a443bbc98bf97e7490f28d127c55bf48988a0 ASoC: cs42l42: Fix channel width support
-f89bbb1a7cde16cf0c6eef1360b94e1926e5d7d5 ASoC: cs42l42: Fix mixer volume control
-c17b280f651ec06a79768a4f2ff7308f8392a2b5 ASoC: cs42l42: Always wait at least 3ms after reset
-dc15cb9426bd55a81efa8025d40c4b57eeb4a47e NFSD: fix error handling in NFSv4.0 callbacks
-ff5d29427ed54cf866d180b73a02034565a6daf8 powerpc: Force inlining of cpu_has_feature() to avoid build failure
-41f654a0f02c4350fa4b5a3b1e6b7c58ed86c782 vhost: Fix vhost_vq_reset()
-3dc327cbfed8ddeff048aeb604f280c70e011f93 scsi: st: Fix a use after free in st_open()
-7a5f1a3cdbab0c57d7019f484fcc3d39446980ff scsi: qla2xxx: Fix broken #endif placement
-b514d116995852cabaf312e2f7a5d3b419836a99 staging: comedi: cb_pcidas: fix request_irq() warn
-a9ce7bfe2467cebd3787efdcfca9965f16a7f144 staging: comedi: cb_pcidas64: fix request_irq() warn
-cbfa6d4dfc23f8026702d499c5f188dc79854ba9 ASoC: rt5659: Update MCLK rate in set_sysclk()
-e2b7eaedd4eb2354bcc79a0391f7f7d10cfa4609 thermal/core: Add NULL pointer check before using cooling device stats
-2b7d959a4ea044ec76f80541a71ba147f24f9cd2 locking/ww_mutex: Simplify use_ww_ctx & ww_ctx handling
-c0f854558be5abd917a9ccc9f49b3182e98fe6d9 ext4: do not iput inode under running transaction in ext4_rename()
-2bf8533be3c5fbc83b6549fba53a674fdbe1d628 net: mvpp2: fix interrupt mask/unmask skip condition
-c1e3e98ad9d9d4b1b2e9a087a8cbc9079ec581a5 flow_dissector: fix TTL and TOS dissection on IPv4 fragments
-f2d1ed90ae6e31785abb38fed949a10371600c77 can: dev: move driver related infrastructure into separate subdir
-32f84934eb4f834afc8cb330d638a73541e52912 net: introduce CAN specific pointer in the struct net_device
-f15d1a2106bca2d0a7c2313d3afe67e3aa9c8dcb can: tcan4x5x: fix max register value
-90b0d20af191b140e6e0b8f860e5de07618ff6f4 brcmfmac: clear EAP/association status bits on linkdown events
-448bd8ae697af12e1009cc90510f62377aac82cf ath10k: hold RCU lock when calling ieee80211_find_sta_by_ifaddr()
-8786be4dfc3aee428d7906d09b88cbe5a9b35f35 net: ethernet: aquantia: Handle error cleanup of start on open
-c6c15666a09597b487ea8726be95a4c392595482 appletalk: Fix skb allocation size in loopback case
-8f19eb908876719b43deb33611c8f3283c9f87aa net: wan/lmc: unregister device when no matching device is found
+fee08a07ecc85e182921e4550bce22c670a552cd selinux: vsock: Set SID for socket returned by accept()
+443d05762e5625f231aae1111b5b27935b7732f1 ipv6: weaken the v4mapped source check
+41ed05ddcb17931d0b9952b2f02fdc2dc322aee6 module: merge repetitive strings in module_sig_check()
+62eb62a85a513365036bc665a85c5c19a0a066f1 module: avoid *goto*s in module_sig_check()
+b705c0152be027a2ac379754a9f37aca939bea4a module: harden ELF info handling
+37a1687567ae641f410bd5771473ad7cfc24e200 ext4: shrink race window in ext4_should_retry_alloc()
+1c92f1e2918ac094cb06874156fbdda6b29f50c2 ext4: fix bh ref count on error paths
+93a50d4884dc3987737661cb07c908a2151268a8 fs: nfsd: fix kconfig dependency warning for NFSD_V4
+dfee99bf309c142bd686a8b2f340ce910b46ffe3 rpc: fix NULL dereference on kmalloc failure
+304677fc605b0283b9052f845eefa61b9054ffe8 iomap: Fix negative assignment to unsigned sis->pages in iomap_swapfile_activate
+cc8983d5a36c9338ed2237fca00ef3d1d7f18bd4 ASoC: rt5640: Fix dac- and adc- vol-tlv values being off by a factor of 10
+18543811a9d29d8306d2a659912c455e385109af ASoC: rt5651: Fix dac- and adc- vol-tlv values being off by a factor of 10
+80eb59880082c6d692ad7d9605846a173f740a3f ASoC: sgtl5000: set DAP_AVC_CTRL register to correct default value on probe
+c44dbe9553f3ffa182d0c0e2c80711ed11de11da ASoC: es8316: Simplify adc_pga_gain_tlv table
+d5e75ccb352cd3096fdee67e9d98c399c9c32517 ASoC: cs42l42: Fix Bitclock polarity inversion
+c1a3f240d87fc7e013ef8a68d5f48dd6b94e8a28 ASoC: cs42l42: Fix channel width support
+772c0077e28fca7581e449eb5cd29f9a905e2910 ASoC: cs42l42: Fix mixer volume control
+74c3a71b29c66423708e07df13b3bf4e0cad8d9f ASoC: cs42l42: Always wait at least 3ms after reset
+a8cde82c19ce49f4f0640078eab0768db982966c NFSD: fix error handling in NFSv4.0 callbacks
+ceba3dcd310cf7a1735b88c797d3ab565ac8eac2 powerpc: Force inlining of cpu_has_feature() to avoid build failure
+18d1e27c116f927af23f75fcb432072725802d9f vhost: Fix vhost_vq_reset()
+0eef2852811c3a3286326cabcf8d54fb0a8655ba scsi: st: Fix a use after free in st_open()
+bc8176082f4bb8beeee9540f6c7c10cc75c6a1b5 scsi: qla2xxx: Fix broken #endif placement
+c202c556d31a66c256a687d9243c0d9042d27161 staging: comedi: cb_pcidas: fix request_irq() warn
+e9e6a45c154b86c351bffcd53bcd6a3a8299bca5 staging: comedi: cb_pcidas64: fix request_irq() warn
+cc5ae6f6e082c3956e31470d2aad156b041d538c ASoC: rt5659: Update MCLK rate in set_sysclk()
+dfd6c0dd49b6ba97b42bdb8f185141aa85037eb9 thermal/core: Add NULL pointer check before using cooling device stats
+8d76977096a34b6df0675d7b2f8079cfff7ba592 locking/ww_mutex: Simplify use_ww_ctx & ww_ctx handling
+4c2ebd77bc4740ced9d7b77441dc43e6f654f243 ext4: do not iput inode under running transaction in ext4_rename()
+a208f3bf7c80450c25dda22d6304f4fde88e6413 net: mvpp2: fix interrupt mask/unmask skip condition
+0eaf7fbd0bdd67544eb8493341fd22dd0f34c925 flow_dissector: fix TTL and TOS dissection on IPv4 fragments
+57cc949ac9aed51fc59bd59a7f57286cffcf4f83 can: dev: move driver related infrastructure into separate subdir
+d8c174b080ac198a25980c7eee930247c9161115 net: introduce CAN specific pointer in the struct net_device
+bbb218980831d821628aefaee06e4df4a28a64b8 can: tcan4x5x: fix max register value
+31189a634e0a7ceda28f6f4c170fbf6cbcb45e99 brcmfmac: clear EAP/association status bits on linkdown events
+f1324629dc258e5e4819741ac6883ad9cd162db6 ath10k: hold RCU lock when calling ieee80211_find_sta_by_ifaddr()
+eb8bfee546537a36f852e3ac36dcbf2697e06c03 net: ethernet: aquantia: Handle error cleanup of start on open
+707193c162ad7a7e4314343c23bf36e520f8a797 appletalk: Fix skb allocation size in loopback case
+c13d79d68eafec24b3d8ad83b93734714202c4d6 net: wan/lmc: unregister device when no matching device is found
+4fbf22ca77620892839dd37f463bfe9d103244c1 bpf: Remove MTU check in __bpf_skb_max_len
+3b070d55a31ae8e765e09643ac4d63c437ed0970 ALSA: usb-audio: Apply sample rate quirk to Logitech Connect
+71180a68da97e6905b0029a2bebccf44a22fc541 ALSA: hda: Re-add dropped snd_poewr_change_state() calls
+0b518cbafd4b820087ddab7869d4f6e362d5e54e ALSA: hda: Add missing sanity checks in PM prepare/complete callbacks
+b14c88ac2ce77eeb6ef8e33151240e41ba16381b ALSA: hda/realtek: fix a determine_headset_type issue for a Dell AIO
+fdfa066feb4b08303e76dab992ccd96cf8c818f3 ALSA: hda/realtek: call alc_update_headset_mode() in hp_automute_hook
+ed56d0b26203bf5e73c0cf3c52638eeaad84183a xtensa: move coprocessor_flush to the .text section
+ae119e6e9ea896b629977f93480a2b1a1b49e3eb PM: runtime: Fix race getting/putting suppliers at probe
+1b799f08cd0909a638590ae6a0712a2fb9f5ecd3 PM: runtime: Fix ordering in pm_runtime_get_suppliers()
+d468c677daac4304fef662919b33bf6ad0b55d82 tracing: Fix stack trace event size
 
---===============2393312046270210479==--
+--===============3857282057331258374==--
