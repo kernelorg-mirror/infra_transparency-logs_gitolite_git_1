@@ -1,72 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============6870590241548823236=="
+Content-Type: multipart/mixed; boundary="===============1504554605628889606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 03 Apr 2021 06:34:06 -0000
-Message-Id: <161743164650.23141.14591045537224999548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sat, 03 Apr 2021 06:34:53 -0000
+Message-Id: <161743169320.23451.15802833925813105330@gitolite.kernel.org>
 
---===============6870590241548823236==
+--===============1504554605628889606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 305271ab4f54f9ae7b9080473d1699c9511ae235
-    new: 507614ba25ffedcc53f24ca6686c877ff1e2e694
-    log: revlist-305271ab4f54-507614ba25ff.txt
+  - ref: refs/heads/char-misc-next
+    old: d72260cc7879c72c186900e7c153007a6137ed8e
+    new: b0077b4b085f636e5f8a1fd9cd6e568907471b24
+    log: revlist-d72260cc7879-b0077b4b085f.txt
 
---===============6870590241548823236==
+--===============1504554605628889606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617431641 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1617431641-a28beea6cddcf0d68f27787d5a2c912d5ba2c6b6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617431688 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1617431688-cfa4d3f4d7d5f99c98be30d4df0b8dd53f8ef937
 
-305271ab4f54f9ae7b9080473d1699c9511ae235 507614ba25ffedcc53f24ca6686c877ff1e2e694 refs/heads/staging-next
+d72260cc7879c72c186900e7c153007a6137ed8e b0077b4b085f636e5f8a1fd9cd6e568907471b24 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBoDFkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VxgQAJS82beFga740gb/MGRZ
-rW9GmV21u7gZczSrenze47y8r4oUj/5c1IuL0n+LFY/PKUjRyI7sq8TtUiNn3iRN
-651UWtAWDXNgsoi92jmyUcnteUSBJcdH7R8hrr8vBoT46WH5PeZu+h4Wj5lNLfOy
-pPhLjbC8HokYxQZWwceldfSNAna2+1bKl6OQFm0kxUzmcHML/eWK91SUiPFZ7eQ3
-0P0GfoooX42RBtYiEnbqgmYxWrrVBmcBWfJ/1pWpBcg0Ve4RhOvrUA241YObzapL
-CdUBlnTOpjgAN3tR+n6JkQV5ki+Tf5irvO5KjWjTtG2pFyLA+I1RcisW4U8DrGtT
-4Orz4SBWIHuaQElfh8HCrlzsoERNayqe2NOXEAMrYH7vxGGOrNMpt4T8YTwUElxw
-UpoE2cX5sIgRVbfMchqcgifJJPzhuzBdsVoOrjwrCZfTiENXkZzyAwH7G0Nacz1p
-0dtMGKwKQDGvVAftYHjyOOsRzqlhEq6HOv20T/a4FIXxT4l2rq8Rv43sAUEvYG1Z
-Aqv3wew7PjIDWgTi03FjGmo2YFdX2Oq8AnzqVrESC3R15Lm+MaoSp4KAUmqUfWaT
-Wp2Z4W+9CiMqBdR/JxgxWSaDD85qV0rpQ/5fWXCbPeoP1DukIuNKryFM+4xEg+u+
-v4+eIlsxdvNzhhbPhlS++h30
-=o8d6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBoDIgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RAEP/ibH5+9eDeHtIu4GagNZ
+2nTC6UT5b2Uzhl0FQqz1VrHarvioR7g9o8+tuSW+mkaYTKj4s8O1r5bivrFxKgY+
+WzCMSV754cxT6p0C0O6w1LVFISKHH9oMMZ3anrunckQwPbXYOmVZM27PaZkGrSPI
+LEk/1NIZlih8kKNtnE89fZtC4xuzzZLRTqG+FH2Y7efJWcKpqk8GnwhiqtKl8JU9
+cZJgM+FppmI1NwHDRHQalWSByegbtdx2fDYt6+DVF6cRO0gAsLcm4e65w0Nujlfi
+AdHh/4gMfmMPTVBe9AEKNKQqEJXK6WU0PP42MxZJdqx8SjUEwj0NVIEdOJmImae7
+8k0N9zlQOuWDQ3K81DiSy/wZUc+KgESm1clmefDKFY7yNgNqHRdRYZo1Y/sR9OGb
+0yod/jT0q926PIZGwSx+ANoZnffXAV4hBr6qxxxgxXFsdgoBNyXixt5ll0aUDdiY
+iqvTk2qQ6FgEf+FjtLEVhbFJDYPKp+9VRfGYHqqr4eh0cCJ2p+0wAsk8duCfducf
+M30Eqxjslf1WpFzmHnNv0A2pk2aFR+hjTiAbEJxOu11bbXI/zSa2mJwYsHkFfpFl
+xzaPYczmWmdd9pzEv4OZG12GwbPfirwwYVi4PmZkHBpeO27cGydIjebUYtqQc7H8
+nDKztX8Lxt+UVGRncjeN5L0X
+=X83H
 -----END PGP SIGNATURE-----
 
---===============6870590241548823236==
+--===============1504554605628889606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-305271ab4f54-507614ba25ff.txt
+Content-Disposition: attachment; filename=revlist-d72260cc7879-b0077b4b085f.txt
 
-0778f04b0b36dcd51c1dfcaf77a326eacff73329 staging: greybus: arche-platform: Ending line with argument
-f032e2cdf9003ed076c8866a2e7f5003eeabcff8 staging: greybus: camera: Switch to memdup_user_nul()
-30310e0fa5a7d7a80450cb166405ed10e02a8141 staging: rtl8188eu: remove unused function parameter
-8bc5cbf5b65cac4fcdc11a38c5fd36db6884ebd0 staging: rtl8188eu: (trivial) remove a duplicate debug print
-6d72d5f601c251d5302a60730acf0f9f03229cb8 staging: rtl8723bs: core: add comma within a comment
-c460c22211e0a59f01c03db0cbcc7628edfc0ccc staging: rtl8723bs: core: add * to block comments
-ff7e47409d428995bff7028f4a0e15ff893cb0ad staging: rtl8723bs: core: remove empty comment
-d8365ba3ee53c6822f7ff90b96773fd8326949d8 staging: rtl8723bs: use print_hex_dump_debug instead of private RT_PRINT_DATA
-a6463cc5e35e17b5e9d12d9d4d4433a187fe1f08 staging: rtl8723bs: remove unused macro RT_PRINT_DATA
-45bca1886886ec82cc6bdc0f3ff6b574dd68dfbb staging: hisilicon,hisi-spmi-controller.yaml cleanup schema
-507614ba25ffedcc53f24ca6686c877ff1e2e694 regulator: hi6421v600-regulator: move it from staging
+642fa28bb5ee2cf72e7d86b2fa9d06f2b04c9fb3 misc/pvpanic: fix return value check in pvpanic_pci_probe()
+391e2415e9668a47d423c6c935a25340f02b0685 misc/pvpanic: Make some symbols static
+cb4a2d5486b80cf23f11729cd5933f6e2b72a3c1 misc: hpilo: MAINTAINERS: add entry for hpilo
+012ac583aa9b512707b39b5a9afb303089a222fe greybus: remove stray nul byte in apb_log_enable_read output
+c23146e15e570e64b5d8d0ce3b7b82a0bc00ff8f MAINTAINERS: Update entry for ibmvmc driver
+2c4134e78203eb3a1506f9fc51012a3fda4068cb drivers: most: use DEFINE_SPINLOCK() for spinlock
+5751564085e70caf4a5fb31d75cbaeaa723a7511 drivers: most: use LIST_HEAD() for list_head
+2a1405a14c3a741cc6a9154422b852fbafed6c9a dt-bindings: nvmem: mediatek: add support for MediaTek mt8192 SoC
+e050f160d4832ce5227fb6ca934969cec0fc48be nvmem: convert comma to semicolon
+9ec4f4b0e9fd3ad4b9a38bddb75b516ea09f4628 drivers: nvmem: Fix voltage settings for QTI qfprom-efuse
+5783bd1970b3046cd3b4493138155a5a22fde873 dt-bindings: nvmem: add Broadcom's NVRAM
+3fef9ed0627af30753a2404b8bd59d92cdb4c0ce nvmem: brcm_nvram: new driver exposing Broadcom's NVRAM
+a28e824fb8270eda43fd0f65c2a5fdf33f55c5eb nvmem: core: Add functions to make number reading easy
+55022fdeace8e432f008787ce03703bdcc9c3ca9 nvmem: core: Fix unintentional sign extension issue
+cc1bc56fdc76a55bb8fae9a145a2e60bf22fb129 nvmem: rmem: fix undefined reference to memremap
+b1f20fd04577a24bef4616a67a61c6dfe1eedb6b dt-bindings: nvmem: Add SoC compatible for sc7280
+5a1bea2a2572ce5eb4bdcf432a6929681ee381f2 nvmem: qfprom: Add support for fuse blowing on sc7280
+5c777233c90f80a75cbd79c1b2fd713453dd02ff mux: gpio: Use bitmap API instead of direct assignment
+7fef54e25541c49c99ba5787bfb45216c30df3e7 mux: gpio: Make it OF independent
+38ab861493de18c672b101765751f5e6bb17ec0d mux: gpio: Simplify code by using dev_err_probe()
+b0077b4b085f636e5f8a1fd9cd6e568907471b24 firmware: google: Enable s0ix logging by default
 
---===============6870590241548823236==--
+--===============1504554605628889606==--
