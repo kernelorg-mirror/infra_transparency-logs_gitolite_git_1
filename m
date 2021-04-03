@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 03 Apr 2021 16:10:06 -0000
-Message-Id: <161746620667.28619.718706882226127244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 03 Apr 2021 16:10:09 -0000
+Message-Id: <161746620978.28731.5396085752359840494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: f07669df4c8df0b7134ae94be20a8b61bd157168
-    new: f73ea1eb4cce66376cc1dd94b4a083ffb9eeb123
+  - ref: refs/heads/master
+    old: d93a0d43e3d0ba9e19387be4dae4a8d5b175a8d7
+    new: 57fbdb15ec427ca3a6f35d4b71fc90ca9af301ea
     log: |
-         f73ea1eb4cce66376cc1dd94b4a083ffb9eeb123 bpf: selftests: Specify CONFIG_DYNAMIC_FTRACE in the testing config
+         9e67600ed6b8565da4b85698ec659b5879a6c1c6 scsi: iscsi: Fix race condition between login and sync thread
+         57fbdb15ec427ca3a6f35d4b71fc90ca9af301ea Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
          
