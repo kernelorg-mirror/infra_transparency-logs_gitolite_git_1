@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Sun, 04 Apr 2021 07:19:24 -0000
-Message-Id: <161752076444.15947.12462722914218374143@gitolite.kernel.org>
+Date: Sun, 04 Apr 2021 07:22:19 -0000
+Message-Id: <161752093904.19334.14349557586410849153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
   - ref: refs/heads/next
-    old: 61a55f1e93861832de6c1f8f6341a0eca8dd74ff
-    new: f0c447b5bb2101365c5e21cb746d04f8fd5ae5b3
+    old: f0c447b5bb2101365c5e21cb746d04f8fd5ae5b3
+    new: 3636ab2082a13d6da4fcb77a9832b9ca52719086
     log: |
-         a21656b2778458dc191ec2fd22abf1655b8baec4 habanalabs/gaudi: add debugfs to DMA from the device
-         8f0f856e09ab2212c8fedebd45d94041bd301bdf habanalabs: remove the store jobs array from CS IOCTL
-         f0c447b5bb2101365c5e21cb746d04f8fd5ae5b3 habanalabs: use strscpy instead of sprintf and strlcpy
+         3636ab2082a13d6da4fcb77a9832b9ca52719086 habanalabs: support DEVICE_UNUSABLE error indication from FW
          
