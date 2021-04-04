@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 04 Apr 2021 21:18:30 -0000
-Message-Id: <161757111046.16059.8883782686387086517@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+Date: Sun, 04 Apr 2021 21:28:10 -0000
+Message-Id: <161757169042.22773.18418419866020459710@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+user: jejb
 changes:
   - ref: refs/heads/master
-    old: 2023a53bdf41b7646b1d384b6816af06309f73a5
-    new: e49d033bddf5b565044e2abe4241353959bc9120
+    old: 42d8f9121f9846eeb01e8d8c48f5c552e90685f6
+    new: 7cffabd7ddff8aa762256fc6195e2d8b656ab6f2
     log: |
-         829933ef05a951c8ff140e814656d73e74915faf firewire: nosy: Fix a use-after-free bug in nosy_ioctl()
-         e49d033bddf5b565044e2abe4241353959bc9120 Linux 5.12-rc6
+         b6eb84902340909f4acc0f4360a43c213b709c66 Introduce env variables to set owner and group of TSS dir
+         204eef58e671cdaeed9cae9b6bfdfeb4a93840b9 Fix memory leaks by rewriting engine init/finish logic
+         ad18860bf40d45922dcf9c482b744d74107554f1 Handle memory allocation errors too
+         7cffabd7ddff8aa762256fc6195e2d8b656ab6f2 Version: 3.0.1
          
-  - ref: refs/tags/v5.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
