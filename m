@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sun, 04 Apr 2021 18:18:08 -0000
-Message-Id: <161756028898.6896.11989819711352920625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
+Date: Sun, 04 Apr 2021 19:42:39 -0000
+Message-Id: <161756535955.24204.6081294380564208942@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/abelvesa/linux
+user: abelvesa
 changes:
-  - ref: refs/heads/seen
-    old: 569dc3dbf9adcb82a3998702a67391502a2852ba
-    new: cbbe58f09fdc0e0d8fc41d28f958c5c05427fecc
+  - ref: refs/heads/clk/imx
+    old: 457bf98dda5ae0b1c7a7f932a468a55d8b40f504
+    new: 054ef44ea3ef2883e0f63c9a54c91c07f321a0b4
     log: |
-         0dc7a54fe38491f3acf5f8f6ad2dc6b5b6b5af10 precompose_utf8: Make precompose_string_if_needed() public
-         9e18638b48d78f9e7f163932909796c3b8c8a769 macOS: Precompose startup_info->prefix
-         cbbe58f09fdc0e0d8fc41d28f958c5c05427fecc Merge branch 'tb/precompose-prefix-simplify' into seen
+         379c9a24cc239000b1dec53db02fe17a86947423 clk: imx: Fix reparenting of UARTs not associated with stdout
+         1840518ae7de0e1eeb9075069cbe632fde16c88d clk: imx8mp: Remove the none exist pcie clocks
+         8304b15e132f1608973aca4527a8e12af41ddc0e clk: imx8mq: Correct the pcie1 sels
+         054ef44ea3ef2883e0f63c9a54c91c07f321a0b4 clk: imx: Reference preceded by free
          
