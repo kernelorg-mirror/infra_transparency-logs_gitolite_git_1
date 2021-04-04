@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8005666804168690185=="
+Content-Type: multipart/mixed; boundary="===============0320071982999406365=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Sun, 04 Apr 2021 20:45:45 -0000
-Message-Id: <161756914536.29750.12773597641785177973@gitolite.kernel.org>
+Date: Sun, 04 Apr 2021 20:46:16 -0000
+Message-Id: <161756917631.30000.14793076337987326344@gitolite.kernel.org>
 
---===============8005666804168690185==
+--===============0320071982999406365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thermal/linux
 user: daniel.lezcano
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/thermal/linux-next
     old: 348d1c120f3f81b08c7824bf88da2091960a36b1
     new: 523d7429aa26a219ee5c52e49d6c90a777b3ad57
     log: revlist-348d1c120f3f-523d7429aa26.txt
 
---===============8005666804168690185==
+--===============0320071982999406365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ b60f78d269263ffa676a7a83aca043b33923e6ef thermal/drivers/tsens: Drop unused defi
 96303bc4a751e650468180e4e2653be72c1b1317 thermal/drivers/tsens: Add support for ipq8064-tsens
 523d7429aa26a219ee5c52e49d6c90a777b3ad57 dt-bindings: thermal: tsens: Document ipq8064 bindings
 
---===============8005666804168690185==--
+--===============0320071982999406365==--
