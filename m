@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1991406929686008859=="
+Content-Type: multipart/mixed; boundary="===============7397616399279131313=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 05 Apr 2021 07:14:55 -0000
-Message-Id: <161760689558.10418.16987905671795659824@gitolite.kernel.org>
+Date: Mon, 05 Apr 2021 07:18:27 -0000
+Message-Id: <161760710708.12872.11938189997334966508@gitolite.kernel.org>
 
---===============1991406929686008859==
+--===============7397616399279131313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: e49d033bddf5b565044e2abe4241353959bc9120
-    new: eed6e41813deb9ee622cd9242341f21430d7789f
+  - ref: refs/heads/driver-core-testing
+    old: b20e82939034a79e9af50853d63163fe21f205a9
+    new: d46f3e3ed5276e756caf40f760d4902d15c12dcb
     log: |
-         eed6e41813deb9ee622cd9242341f21430d7789f driver core: Fix locking bug in deferred_probe_timeout_work_func()
+         d46f3e3ed5276e756caf40f760d4902d15c12dcb driver core: Improve fw_devlink & deferred_probe_timeout interaction
          
 
---===============1991406929686008859==
+--===============7397616399279131313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617606890 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617607101 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1617606889-c3bcb467c170c1209a00dac591cf656f6fddd54c
+nonce 1617607100-e97704aef351c6f464c99cdb457d494cf52cc258
 
-e49d033bddf5b565044e2abe4241353959bc9120 eed6e41813deb9ee622cd9242341f21430d7789f refs/heads/driver-core-linus
+b20e82939034a79e9af50853d63163fe21f205a9 d46f3e3ed5276e756caf40f760d4902d15c12dcb refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBquOobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1hAP/16uttxkc7bWWMnuE3fv
-kAoIPCT/Z3WGgfA5OW2VQLuNcwC+MiT1yTVeGzF1o75w1SJPLhlMiO+jI4MsK7rW
-bDHE/Ssh0qzxCAZYH3qlh2FGQ2ZeqXKUlfgj/RMND1RPPMs+UaLcGArpGPlZCti1
-50lVH74SgzCJZjo98g/4rjBKVnR8gvQX5TPG65nID5KT1tEvNswEAtsj7N7u40WY
-wyaBWNLqgV8wyPfkzS+SuFJOVbfE7HQEjoHu/Z4V+OdlPwvSCTURzMUK8ApVgFu5
-4nQxo0m2Rgeq0ZhQOkfBy9e6GXq1Ub0mQ765BVFwvV+ATVReVxGQkY3WwjUMS4Yo
-POTX5rdGE6gYtOIYf9fAxxY3A4TZwAfXEyfabkrNW0HLhfIhcEeE4Hhm3cM6pysN
-Fd1FkCPNeOBcQ9MRVbZ6/HO+SMjtyOkIQbYdwlOuxLmcdKi8vDlv3vx5+dJN4xXQ
-a4DVXV/3P+wfi9X8YpuzDLyTYgw0IaR2a9g4khXzci7szlZm0Ks4LbZ5l+KHwoXn
-tGtH6DKAJ2fvgZH48HJXWX5UKxh8sioQdtdPkVYN0fcXR1FzsA0CXR3b29ThDIYF
-FEWAUUlLuhPz0jkd6mb6wC4BM6Y0EaOQ8k8iph4NG4rA2pgEknUy/fFrkrQOo/mw
-lZKp9SI4t1Udu243+J+2x0wb
-=SUjk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBqub0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LvQQAJlmmvLtw4ZKXYSnACET
+6PNUeyS7DFMYIRFzqLbU7bosdtw8iRDPSC62GBHHOCUUd+bXXIEmFQeq5Xih3I3A
+7fQQVhP82lT9yhtmmVS91rkWVEj9rEjECJtbIRFbk3VKADFgvM+5xKFXq/SV82Zt
+qcNXJ8k4Xb6NxUbfBYdVrlgGOrHB2UlQVGB5JsiQoE0juPf6U3aiHtSKDm4lRi28
+WJJifRjgo+K0MbX4QDhvEhQBj4SL82O268ZoqZ+7Pb0p0jxkih8Dh/9BuzJkvPdh
+U8fFPua+WJ+frBG6o3UyC2alHlrHc5wWIR2/yyfZP5cVvzzpkoEfgJELxeRx5pqD
+EHzmylDj7B3KUwJgxWrs7sQiPHEh6mY8srpU1Wa7HuXVnCpaivnjGDzsea4cArG0
+bXBfk35mMVG2kywTbXPOUtFCjmrBRRokqrUSV5rxUgOpSvmFusVO5fGL91fgwEaz
+xxH+s+YeJvqFh58gJDhe3OWi/IlpkQby3flyi6YoL+ojlVOttWufLK4hScQJxsb9
+y8S2eM5DGRs40v+UC5EcZpS02XodIp7C+UnwPgw9KSqxSqh9HlW/CaXruJ4gGh5G
+kCqmyjpzUby1BlsGcavCdUPD9TiDlUmH1BoTqk/3avEvjzXhTrQ0tCbSwm8vU9Yl
+85QisXplMajjyqPldPI0waaR
+=g7R+
 -----END PGP SIGNATURE-----
 
---===============1991406929686008859==--
+--===============7397616399279131313==--
