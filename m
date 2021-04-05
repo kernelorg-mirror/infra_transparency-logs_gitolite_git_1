@@ -1,39 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Mon, 05 Apr 2021 18:45:12 -0000
-Message-Id: <161764831299.1739.10322341311634867039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 05 Apr 2021 18:46:53 -0000
+Message-Id: <161764841317.2288.1261666551175293195@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/dev
-    old: 1db3a292995beb6248f9f5c6ae05c18369c44a94
-    new: c072a1b3091df7730540bc50ac7da11dca32378f
+  - ref: refs/heads/net-next-mlx5
+    old: a96ce72cda5d78f130bc018caf9c13ed46094585
+    new: bdb9cdf903c0cb91de3fa3413dd05beae0db6cd5
     log: |
-         c24b3bc90e3e34428c2e487edea9c6465c12cace lockdep: Explicitly flag likely false-positive report
-         601296fd321cfd69a562cb64ef5c1533f5cafed8 rcu: Reject RCU_LOCKDEP_WARN() false positives
-         c072a1b3091df7730540bc50ac7da11dca32378f fixup! torture: Add kvm-remote.sh script for distributed rcutorture test runs
+         f332c28d144c1629f91a5a86f9b3a9c92c38f77a Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
+         4ffbd8da880e18e8a07d34662b203f2147850d05 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux into net-next
+         3e05ea259b9dbcbd6f130d302c609dd0f8024dfd net/mlx5: Fix devlink reload LOCKDEP warning
+         760393fc694895353908934aec8823bbc1a01f0b net/mlx5: Don't allow health work when device is probing
+         bdb9cdf903c0cb91de3fa3413dd05beae0db6cd5 Revert "net/mlx5: Fix fatal error handling during device load"
          
-  - ref: refs/tags/irq-no-autoen-2021-03-25
-    old: 0000000000000000000000000000000000000000
-    new: dcea378640dee24fdd913cad5d0b23f94c2ea486
-  - ref: refs/tags/locking-urgent-2021-03-28
-    old: 0000000000000000000000000000000000000000
-    new: dd23f8c0dd6af9f0c7a4fc26e9d9a6cc9e97b7af
-  - ref: refs/tags/perf-urgent-2021-03-28
-    old: 0000000000000000000000000000000000000000
-    new: 7be7bcec7be2a30dd4a6154bc564d0276aace7e1
-  - ref: refs/tags/v5.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
-  - ref: refs/tags/v5.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
-  - ref: refs/tags/x86-urgent-2021-03-28
-    old: 0000000000000000000000000000000000000000
-    new: 03ea5f45268fb6b3bec8c269b5246a3838f7c711
