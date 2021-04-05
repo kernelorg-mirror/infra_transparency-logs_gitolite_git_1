@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6806701513380064389=="
+Content-Type: multipart/mixed; boundary="===============7319077848981714932=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 05 Apr 2021 11:17:40 -0000
-Message-Id: <161762146011.17727.11367762449781184042@gitolite.kernel.org>
+Date: Mon, 05 Apr 2021 11:18:14 -0000
+Message-Id: <161762149442.17980.16400149943843419371@gitolite.kernel.org>
 
---===============6806701513380064389==
+--===============7319077848981714932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: d46f3e3ed5276e756caf40f760d4902d15c12dcb
-    new: 72a91f192da032b68519fafaecce03fd002d669a
+    old: 72a91f192da032b68519fafaecce03fd002d669a
+    new: c8a9c285f136f0cc65ac8328cd1710b155ad3df8
     log: |
-         72a91f192da032b68519fafaecce03fd002d669a driver core: add helper for deferred probe reason setting
+         c8a9c285f136f0cc65ac8328cd1710b155ad3df8 debugfs: drop pointless nul-termination in debugfs_read_file_bool()
          
 
---===============6806701513380064389==
+--===============7319077848981714932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617621454 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617621489 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1617621454-22103edf64491c922357c688d8b3165e9acdd670
+nonce 1617621488-0b349aa6a715500b815bdf8125e495616114a95a
 
-d46f3e3ed5276e756caf40f760d4902d15c12dcb 72a91f192da032b68519fafaecce03fd002d669a refs/heads/driver-core-testing
+72a91f192da032b68519fafaecce03fd002d669a c8a9c285f136f0cc65ac8328cd1710b155ad3df8 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBq8c8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/FoQAKbD4ENhX3bT5o7g0r0n
-tKoNsVa+l4qcOHKpeKnYOa+QDQI/94qnAIFyBzxS3Tin2Htl11oKVX8fyLvsaaed
-p2S79V25VrtOIS6EhAPtL56x2/cKF3ESNVWehS58R+46EFZhzBH/B2QTJHaioDrH
-ATNAFsQayVM342L8EiJ+Bl3ILKqWlL4PxP8iYc0aiHp/6rf4Ulcf2aXcXXhCa/yB
-sTTaSgS1lUuoamYBpd0LHtQm5BsVo5uyO8evxVsj2duh0/4xgt6AyvgE+sa1XLcX
-ZQ31ksrTHkNBTqDWbhWQ1JHD7owD/JrWCHzZ+aTb+caZB39H6mDbIwJyxjtOQizc
-sdFzmJuXf8o3+X2WUSfCspTJ8GlA/TUIoJ4OrklYuYDJw8yL/GIQ+mw5Ek5xGKgF
-397O1M4PCw5JBjHwnFFe+4skMiDsFhJMUxJeGEghbO+UhRCsHmlb6u+qI5fIq6sM
-xv91zbubcYz/EWWfszEISJgqxjwiDNJeb6iHhUM0WQq7iARUzEoDGnnRmsHs8UOr
-9EVKfeLY6P6VIUE/BVJ3HhBO5KALAVoRVGGNpS+2568WBRC2hwketytYVLuRCsXs
-wYU6dBJNvP035iWB7OPUJ4hl1jResJtGJ5KU74xRC31z+pDD4Cy8QGPSWOqcZT9M
-hVbCaTU8oLtzO+7sO0QNJCW1
-=njSw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBq8fEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TH0QALp1xPlHup6t941+Ilbr
+w/biif2YOiFFgbp9e/Ta4Y5JC5bF+U1PZrLN0UmMIKSGKdW+fPk2w50TMyH/sDKf
+PKUM3shnR+xTDfdR9Qbicw8uPTQ9ggohasf3njg4bG03M0XzB9K+dztI9jlPxoeq
+CmIamE3l9kK9KJ6ydFXSxacpHhYj5l4fxAVcjmrmkRS0i/PSJ6aRRUa5PNeaSLsK
+8AOq7IU2anoEdvSfHJ0krFyLd7fG8dOC11zMB3WZ4punctxMKd0x3WWBmSFBDCWc
+QRfxrf1lz9BCyGNuFO9jdZCTqeWkoRpsgY0mljn+UXeR8bskS2A+mHMHhjfctobS
+5YckHyVcU/PYTFxCCz/QmRLxMg1xZrVMI3Uf9hICGm9VSI1nzfNdZw0BuL+4VN8Y
++DXA46BM6664YYb8tymstqqVk8clt3JtIyt8uwwkMBIC1VxFVS2Y/RuhyO+PgdSg
+vVu6vDqU+INwPm4C2TKXZVXxXO2JNzRQkux3mIarg99QFzDEKUos6QywCp/I7hj6
+OzH20SX0ZlodmIn6djIdZB2yahP93oQY5RNJNf3mCEzy2Ql72/LgVyGIAVmp7j0x
+VjoYU4wCu53J7wYxoV0efQJX+uvlQMQTbV1FyGvnfm0V8Z7wK37F5/Ts2WZrA9TJ
+nSB4pEWkH2lDIj4zmM4VdK2H
+=1fr9
 -----END PGP SIGNATURE-----
 
---===============6806701513380064389==--
+--===============7319077848981714932==--
