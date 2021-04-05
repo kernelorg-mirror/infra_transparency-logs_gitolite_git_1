@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0475572037749586622=="
+Content-Type: multipart/mixed; boundary="===============6848489005392745048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 05 Apr 2021 07:00:12 -0000
-Message-Id: <161760601206.2687.15007998273193784825@gitolite.kernel.org>
+Date: Mon, 05 Apr 2021 07:00:25 -0000
+Message-Id: <161760602589.2831.14765071785481588558@gitolite.kernel.org>
 
---===============0475572037749586622==
+--===============6848489005392745048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
+  - ref: refs/heads/tty-linus
+    old: 29d96eb261345c8d888e248ae79484e681be2faa
     new: e49d033bddf5b565044e2abe4241353959bc9120
-    log: revlist-1e28eed17697-e49d033bddf5.txt
+    log: revlist-29d96eb26134-e49d033bddf5.txt
 
---===============0475572037749586622==
+--===============6848489005392745048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617606007 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617606021 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1617606006-89369298789777fab59bb80c58683027e2ad3e5d
+nonce 1617606019-31ef7f25c54db67929bc604361f9661b0607f48b
 
-1e28eed17697bcf343c6743f0028cc3b5dd88bf0 e49d033bddf5b565044e2abe4241353959bc9120 refs/heads/main
+29d96eb261345c8d888e248ae79484e681be2faa e49d033bddf5b565044e2abe4241353959bc9120 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBqtXcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1wEQAMhAzLpw0bo3r7bC+hqp
-dfXFLVU+wUjkznUIor/9Hie8nfNGBW7wJ91BsC0dScKnjrGZS7hPPxouCTr+eVIz
-2Rq0orECbGOXjLpmOjL/Y5hfDqSIxOgHfy1kfeFviwPL27QKdSTJ+AmERsiMc20I
-AeCbhX2mYhsnHMA77GmNz1HrGxj/8fcgz+INRijUBo7PFyEPwG5Gcb31Yqx2X8OM
-jDA8z+iFty8v+z/AqkQVu0OntHITwxstsVbfBCObgnZSmOskf78StC6YwNw6vLS4
-F16bHaCxayl+6pG6oH7vBp1mrTxwae/mbuupdW4JTaVIMV2iLMvYBzyCJqRQq7nc
-vRdOqryTAnOgv9m8jRL1VSYt1kHAgnTnh8Ag5B4wxyfmU1eTduDoOW039D+LkWws
-0NHsTcq+mXKAa/JkctPEVsvYFdk2s0mY3WtrKkZZtuA+WNHCgCnsVrbcTUgAxEv6
-v1YFwutjlstSWTZOjKgib3JNUt7FssuuRQ7bVger4Wrv7GzyFaRpbUEz5roW+HtT
-6iVWABIzrHqHyLpAjFHQBBz52A1nFM8Qn7tA0g88pKKZ/0GO2srwGNA9kDWNs4At
-t4SU0MaDNVzOVgWQOOIqT8JtGo31OA44H6+BSeSAhw5JhDiUyPvVtFVcDe34kMBm
-0+PUtn0LNnW5Wdf6ZD+5EEuD
-=M2Tv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBqtYUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QEAQALFb3nTeWlSagbGA/sSE
+p1ddEWgjvz8uLS4/uxO8yYI7vLw8C4TlfO9tI5yi1kxDCXbx9A2H6WQdF1A6licP
+Ad1a0Ww06KZhxWkGJ00P95LCBMRSbFBFjyZdO+OS1GjpAZ+9oh28Wfs4/i64zvj7
+LeZMaHQIjbX6fKKsHlM1xXrDydH2/Yr04e0WPOvcfbjjFOOY2YjaqrfgPicjnOKM
+Lk5+IVbfc7uPdVN7VEK4s5/TgdbgAq0Zx36qr1GTymjOJmKJX6avx0OvtITIHKIx
+R18FbH2feQ07OmiHZVMLlhT/Yk28SU8ME9DjguWhcAYLnmK5dOsfOFsU6HXx/k1a
+lM93d9t9nfVzrpO+Y+jgvX4E1xVAbBLOEFNCZfL8nrKpXuVTdNu4UZydfRc9w+oA
+CjPlOEXCPkZ4vEvUAov2evx9RGOoEIdt1+UQTTGrd2NpnTaylOmQLd9CYrmK9LkT
+yfuai7/Gv5ekEbOwKwWBc0IAsnmuHJZ51FY4rFyGsx87Rc9I38+BcdyC94ubg9I4
+uV9DuzdbeF3hn9yql0cgHgC2P/3qKUA8iWsXDBsjdCusb3wthSKAeX4XcKbbUddI
+4noanPwkpIQu21mdqdYTu1jGeWCfQWC0brQeaTkkhvnx/uOX0ImjAkUeJPE899hU
+TqHABDtjjHq0Uj8mkyubacR4
+=HrkD
 -----END PGP SIGNATURE-----
 
---===============0475572037749586622==
+--===============6848489005392745048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e28eed17697-e49d033bddf5.txt
+Content-Disposition: attachment; filename=revlist-29d96eb26134-e49d033bddf5.txt
 
 7d200b283aa049fcda0d43dd6e03e9e783d2799c iio:adc:qcom-spmi-vadc: add default scale to LR_MUX2_BAT_ID channel
 d68c592e02f6f49a88e705f13dfc1883432cf300 iio: hid-sensor-prox: Fix scale not correct issue
@@ -800,7 +800,6 @@ db24726bfefa68c606947a86132591568a06bfb4 Merge tag 'integrity-v5.12-fix' of git:
 92af4fc6ec331228aca322ca37c8aea7b150a151 usb: musb: Fix suspend with devices connected for a64
 5e3bbae8ee3d677a0aa2919dc62b5c60ea01ba61 usb: dwc2: Fix HPRT0.PrtSusp bit setting for HiKey 960 board.
 93f672804bf2d7a49ef3fd96827ea6290ca1841e usb: dwc2: Prevent core suspend when port connection flag is 0
-29d96eb261345c8d888e248ae79484e681be2faa soc: qcom-geni-se: Cleanup the code to remove proxy votes
 a846738f8c3788d846ed1f587270d2f2e3d32432 xen-blkback: don't leak persistent grants from xen_blkbk_map()
 6f3a283c2f6bbbb5a9a6801a0befa61cb60195f1 Merge branch 'pm-em'
 e1db18b59729e24f001459b98955019344d5b12b Merge branches 'acpi-video' and 'acpi-scan'
@@ -957,4 +956,4 @@ d83e98f9d8c88cbae1b05fa5751bddfcf0e222b2 Merge tag 'io_uring-5.12-2021-04-03' of
 829933ef05a951c8ff140e814656d73e74915faf firewire: nosy: Fix a use-after-free bug in nosy_ioctl()
 e49d033bddf5b565044e2abe4241353959bc9120 Linux 5.12-rc6
 
---===============0475572037749586622==--
+--===============6848489005392745048==--
