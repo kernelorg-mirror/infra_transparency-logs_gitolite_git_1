@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3519250714227559516=="
+Content-Type: multipart/mixed; boundary="===============7124767109733962937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 05 Apr 2021 06:58:42 -0000
-Message-Id: <161760592291.32647.10922400714953876887@gitolite.kernel.org>
+Date: Mon, 05 Apr 2021 06:58:55 -0000
+Message-Id: <161760593505.321.7102419086450749591@gitolite.kernel.org>
 
---===============3519250714227559516==
+--===============7124767109733962937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
+  - ref: refs/heads/staging-linus
+    old: e78836ae76d20f38eed8c8c67f21db97529949da
     new: e49d033bddf5b565044e2abe4241353959bc9120
-    log: revlist-0d02ec6b3136-e49d033bddf5.txt
+    log: revlist-e78836ae76d2-e49d033bddf5.txt
 
---===============3519250714227559516==
+--===============7124767109733962937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617605918 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617605930 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1617605917-2299645b7704a4f8e8e541f7bc52c9061f2b7487
+nonce 1617605929-e73433a2ea41aa0e10a6e4a5a2e7b831ad343b9a
 
-0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b e49d033bddf5b565044e2abe4241353959bc9120 refs/heads/main
+e78836ae76d20f38eed8c8c67f21db97529949da e49d033bddf5b565044e2abe4241353959bc9120 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBqtR4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8cwP/0drLoEct3DwM3k0IjxB
-8MvC+hi3ilVPIkPRHI7XQsR117WW60vY2QQnlYdJ+eqNnPB/HELjQTeu8YYAQNd4
-Na7UIfR+FmfjZWHIllf15ecqV88UXSGtHfkvj6/EBJyz/XiORIxuErlz5JESPSHX
-bTdopdQqUjqDLrtbUsZZw1cuV0lVHbOz5zm6RbYai1toEN6/wqJkKpUghlcuRuDZ
-wi5iFa4Dzjd2x9ij7j5wzURZxjkvrZ+WoTXy9AlX2900V0q0t1byyFOLL5J+nm09
-re3uOem7JgvKUc9SrhwdEYW+oCQICnweySM8iYt2Z2XQKqt4/vCrm8c2k3Nz1f0g
-tFWjOfmvbQ1MCLXSBchSy2b6sLJ4DHVDmFFvhNJkZD5qrfPYs0ZwJsd3gfPr+kyE
-y6QmlinW93uJOnzlKEFZw8PZGrOT7nkEkCmw1PFvEtRVbEza9Sexe2d2SPpIDYhA
-6tNXIwMlY0E6hJ8zvMpkzRCScNbQM3EI1VjJLC30uijqU/l0+jLCc86ab+GnN6zp
-7Dgn/XslVD62D1DbxYUGHZFnyazqYm8ksb0SKNDY7f7sVOOy05gkTZdSBDmhN94t
-6GAvGpDZac+bm9nR/6YdxZsjZ5KIbMHI76R1EikGxQfjW5PJG1dP4rUj0xzNd+Qg
-Rh8KNzSxCyk/SoPzue7MbF5u
-=+WIO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBqtSobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CSEQAJw5l/KIxSaBvpsduOS3
+OmiNB92GNhgHys0w+jBzRKEVKXzi9VPT6em5vonPRXlhRcPNtIT7tAXTjF5R/rGu
+AZ3+M4oj9axcspwjI4wDbSIa8Jgd3pkBN+PNdhqRvTmRhDAdBAPoajzeCKjTM+PI
+ZUS515Sa+Bc/bng/7Ml10/OBfeqXUE0FeBLNSqzZ2mPlLE4K7nbyojsgClhRFpcl
+02kglWVYng5GrNqQdqOAcDG3wyOKTdvtytlk9OdD8CBpZO/fYNUXLLNlNNOcUlX/
+D5mixptkP/Q+Dxree1nT4tVqJYhr/Rg8owjvwQ9Ld2ZgtVgn5C73cBfURHG7IeTp
+MU5yPgp97wAc0CMooUpAnZifAIxPfSLMqudlpleRA70cM/6849DjmijAZL4iDiAB
+nNC8j+ILr1lYTL/GaKAxYQdfiBFnzWgAXaNzL4IXL8xzH5nhCZXKO5uwcGbO40Io
+NAe/NZnK3xyI5qhrwM7fAYRqFsU5rpYphc6i3L5z9Hc/INZnXqMA3lJ93AvUrXKf
+aKr3OmmaKNFSLIvhthrvuflzX3k20OJxNONqxVydnYRGvlt5MfGuXoGHoSkWGdpE
+RLhnIw7RD9dIfX8t5sKjFtuJ4KDAoHrWzOxJ1SxcdygNVl7GdMsC2n2tyXXtexae
+xpnKKBUeXaaNCHeGLZLkC7Yh
+=RviB
 -----END PGP SIGNATURE-----
 
---===============3519250714227559516==
+--===============7124767109733962937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d02ec6b3136-e49d033bddf5.txt
+Content-Disposition: attachment; filename=revlist-e78836ae76d2-e49d033bddf5.txt
 
 7d7275b3e866cf8092bd12553ec53ba26864f7bb bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
 9bbce32a20d6a72c767a7f85fd6127babd1410ac ARM: dts: am33xx: add aliases for mmc interfaces
@@ -394,8 +394,6 @@ f8255ee192e92fdb885a9ff6bc90d74f5bfb7cd6 USB: cdc-acm: use negation for NULL che
 0b2b23ca20ac9329d91bdba713028cf279423383 USB: cdc-acm: always claim data interface
 79579411826647fd573dbe301c4d933bc90e4be7 USB: cdc-acm: do not log successful probe on later errors
 0bd860493f81eb2a46173f6f5e44cc38331c8dbd USB: quirks: ignore remote wake-up on Fibocom L850-GL LTE modem
-72ad25fbbb78930f892b191637359ab5b94b3190 staging: rtl8192e: Fix incorrect source in memcpy()
-e78836ae76d20f38eed8c8c67f21db97529949da staging: rtl8192e: Change state information from u16 to u8
 9d03730ecbc5afabfda26d4dbb014310bc4ea4d9 drm/amd/pm: workaround for audio noise issue
 f0acf637d60ffcef3ccb6e279f743e587b3c7359 driver core: clear deferred probe reason on probe retry
 903079a54cac47ab115fa5abbde6860cf94e258f MAINTAINERS: Add linux-phy list and patchwork
@@ -656,4 +654,4 @@ d83e98f9d8c88cbae1b05fa5751bddfcf0e222b2 Merge tag 'io_uring-5.12-2021-04-03' of
 829933ef05a951c8ff140e814656d73e74915faf firewire: nosy: Fix a use-after-free bug in nosy_ioctl()
 e49d033bddf5b565044e2abe4241353959bc9120 Linux 5.12-rc6
 
---===============3519250714227559516==--
+--===============7124767109733962937==--
