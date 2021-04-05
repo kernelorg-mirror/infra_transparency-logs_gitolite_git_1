@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6410046423611150454=="
+Content-Type: multipart/mixed; boundary="===============5437877143018617695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 05 Apr 2021 22:33:56 -0000
-Message-Id: <161766203673.8686.15058584329889200987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 05 Apr 2021 22:34:02 -0000
+Message-Id: <161766204209.8770.2827154835727837373@gitolite.kernel.org>
 
---===============6410046423611150454==
+--===============5437877143018617695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
 
---===============6410046423611150454==
+--===============5437877143018617695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -210,4 +210,4 @@ d83e98f9d8c88cbae1b05fa5751bddfcf0e222b2 Merge tag 'io_uring-5.12-2021-04-03' of
 e49d033bddf5b565044e2abe4241353959bc9120 Linux 5.12-rc6
 0a50438c84363bd37fe18fe432888ae9a074dcab Merge branch 'for-5.12-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 
---===============6410046423611150454==--
+--===============5437877143018617695==--
