@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 05 Apr 2021 18:57:44 -0000
-Message-Id: <161764906493.9491.11699743346793347720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 05 Apr 2021 19:16:42 -0000
+Message-Id: <161765020269.20229.16689263627402048998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 514e1150da9cd8d7978d990a353636cf1a7a87c2
-    new: c438a801e0bb2a4db1d3183a9482af891577a281
+  - ref: refs/heads/net-next-mlx5
+    old: bdb9cdf903c0cb91de3fa3413dd05beae0db6cd5
+    new: 218af43e59ad39ff0fdde005034e8ce4f154066b
     log: |
-         0282bc6ae86d84b035afac792b5d5ff67707cdd2 net: ag71xx: Slightly simplify 'ag71xx_rx_packets()'
-         c3105f8485775943b2ccde09c7163510c161c965 ibmvnic: Use 'skb_frag_address()' instead of hand coding it
-         c438a801e0bb2a4db1d3183a9482af891577a281 sfc: Use 'skb_add_rx_frag()' instead of hand coding it
+         514e1150da9cd8d7978d990a353636cf1a7a87c2 net: x25: Queue received packets in the drivers instead of per-CPU queues
+         2a868aded267faf5bf1839704a04cc457a3c786d Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
+         d70008b8d7a68b34a1706692aae30814463e6fbe Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux into net-next
+         8b04a331a79c9939b50071f927e1c9a3797ee590 net/mlx5: Fix devlink reload LOCKDEP warning
+         d64f42dfd69ff60e405864457bed0b704b7772ef net/mlx5: Don't allow health work when device is probing
+         218af43e59ad39ff0fdde005034e8ce4f154066b Revert "net/mlx5: Fix fatal error handling during device load"
          
