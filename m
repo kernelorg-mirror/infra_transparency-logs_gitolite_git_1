@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Mon, 05 Apr 2021 15:33:06 -0000
-Message-Id: <161763678656.14730.6586456286626951048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Mon, 05 Apr 2021 15:41:10 -0000
+Message-Id: <161763727036.19677.9007091613340011054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: wagi
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/master
-    old: ac25945c7a2cdf891cb3aaf386ea7d829add9ad0
-    new: 90f0e412569b327d8b25b834623b814f1fddbd19
-    log: |
-         3dbcc963a66d43e4ac51c97de4fe116ec72eb9f6 ethernet: Copy interfance names obeying lengths rules
-         90f0e412569b327d8b25b834623b814f1fddbd19 wireguard: Copy interfance names obeying lengths rules
-         
+  - ref: refs/tags/socfpga_update_for_v5.13_part2
+    old: 0000000000000000000000000000000000000000
+    new: eacb54774769f8720d1f19cc38595ded21a4aed7
