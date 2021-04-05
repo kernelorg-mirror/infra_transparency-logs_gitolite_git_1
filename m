@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2415519541268979006=="
+Content-Type: multipart/mixed; boundary="===============0818309315667041887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 05 Apr 2021 07:05:25 -0000
-Message-Id: <161760632554.6070.7533298869952417312@gitolite.kernel.org>
+Date: Mon, 05 Apr 2021 07:06:00 -0000
+Message-Id: <161760636098.6295.16494437499080913236@gitolite.kernel.org>
 
---===============2415519541268979006==
+--===============0818309315667041887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: e49d033bddf5b565044e2abe4241353959bc9120
-    new: 3004fcba01b4adb3d2ff48c7eead8763fb837556
+    old: 3004fcba01b4adb3d2ff48c7eead8763fb837556
+    new: 363eaa3a450abb4e63bd6e3ad79d1f7a0f717814
     log: |
-         cf97d7af246831ea23c216f17205f91319afc85f usb: cdnsp: Fixes issue with dequeuing requests after disabling endpoint
-         3004fcba01b4adb3d2ff48c7eead8763fb837556 Merge tag 'v5.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
+         4e9c93af7279b059faf5bb1897ee90512b258a12 usbip: add sysfs_lock to synchronize sysfs code paths
+         9dbf34a834563dada91366c2ac266f32ff34641a usbip: stub-dev synchronize sysfs code paths
+         bd8b82042269a95db48074b8bb400678dbac1815 usbip: vudc synchronize sysfs code paths
+         363eaa3a450abb4e63bd6e3ad79d1f7a0f717814 usbip: synchronize event handler with sysfs code paths
          
 
---===============2415519541268979006==
+--===============0818309315667041887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617606320 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617606355 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1617606319-24711f5efadaa53e236078c316b05f3b8fc8c4a1
+nonce 1617606355-b184bad94eca81b30a26912adce5460c8749c185
 
-e49d033bddf5b565044e2abe4241353959bc9120 3004fcba01b4adb3d2ff48c7eead8763fb837556 refs/heads/usb-linus
+3004fcba01b4adb3d2ff48c7eead8763fb837556 363eaa3a450abb4e63bd6e3ad79d1f7a0f717814 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBqtrAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TTUP/jiRkpu4LbAOT8HWcseB
-QqM9de8zrN2vK1amlnp87XhlyeUN8QnPk34MSvvctrvcyj5AaplLrj70c9JLcSaZ
-7rQ9EA6nxliVU5ft+IAc4qXOdyE3WytwP42hVzqmJ7GeTSqrJhbVQm72Z6uNzozD
-0yWk7nLW+e1VAIJ4IOgy8W72puCNgoAxqbT1pjvZoNhFFjFuU9Cjy1tKFhCNHYgW
-PBUXdG4IHIasEyMCPOHjM5tmYA3ETiJv+SCPsUG2XsWs5y2aEkEmZzsjrElml2Qk
-U6UUDqchGTj7Wcxbi8MjbiZhZOjMZq/WSmxN4XjbQERgply/8GzXzd9L1dM4cBVF
-R+ShUnKLW9DINZ0rbmzUVKorksd/42ud8fMcQMZyP3IjtsVGlsAOUW3d93RQY5Lz
-Mnj888iugIOXRL4jHWl9hYOQardk6G2W7SS1IpIJMYVJNdXs5W7C0xtB1vIv2vD/
-3bpcRj69EX5mG0blE/To1pGYPPWoL4tcE3TGvKhCGc6gXPGEp+TV9kYhjd79Ubci
-FlGS/CfvsAYr0hxxUZI8T5OWmvu/O99q9IvJzgoxbOmz8s7ywKqv5uO4WQCfehkI
-5pFO22oR85iJxvAAVLxESexumOr7NnP69kl2tGlPb6pvNiPz4FUBIL1MbOnBaFR0
-ivHDRBYVw80wYKWoCuKrMFCW
-=DRzr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBqttMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ygAP/AziLyZlXZzSBNnh6LKD
+fIPZ4u5ZCKCHQUIcoRoXAdlzcYeAxQtnWLSnQZs3/kOamSvooRPRSfDcnyLMXS6/
+EoUeGHarYz+CFZ3EPz4sHKAsTXCuzDUdnqZU2DdGwQzM0sLz+qXM4Y8Y5027D8NB
+SMRC+5H9xQz7Z4DSLHmkfz2LDFHP26dHZ/h7WFCyz6ZuZo1boUWCYmqbLo3/pPH9
+lKP2a/ltXNTaXOUhIb/9Ni5Wge1o+qv9/CqMorIrK58le/jGsUjALLH2yOQUIxzJ
+1w9zujOJQLqNQZc88yuvaazYVXa0VQigmhnHN5QkrnVjUd9PoJ0GtJcprElj9L4h
+PqtRO2wsfDNip7qzu2g9kLDwrCjEjCnEFxDV0LDLVf7DpLzxnn8DkoFfTwH9ihBg
+ZNyLoEvC5ohETZAEC4rJ9zc+4IyMpmmhX/BEJKj+l7TT41KLbR4XXusQCLJ4cTww
+tPUC1DO3WzzywDIAI0OBGuCUeFdFbk5iJdDuzJ2alU2IByAwvvTynz6ZWMBHliOO
+icVaV5k+lF3MB3nJYYP9ksqZvKasSxo7EgVuXYnK2BknZ+MMkjcsNwQry7qgkI0B
+ExSo7xchmaWjJT3Sb/q/zyD0aIgnb0xaMBc9UHA2J6VIfBpi4t+CRKhRd3pIqmaf
+2LqlNDlNmcAhpIhDONl+e3n1
+=VUJF
 -----END PGP SIGNATURE-----
 
---===============2415519541268979006==--
+--===============0818309315667041887==--
