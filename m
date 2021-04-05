@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 05 Apr 2021 22:11:02 -0000
-Message-Id: <161766066266.27876.5839439982575869342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 05 Apr 2021 22:24:26 -0000
+Message-Id: <161766146651.3347.11821884416108099239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 22f69de18ee86e81dc41253869e5dd963ccea429
-    new: 08c27f3322fec11950b8f1384aa0f3b11d028528
+    old: 1c0b001b53831ea8e598a3105f34855594c6f776
+    new: fc4739f2db23cfb5d6d98af3fdeae4b56702be1d
     log: |
-         08c27f3322fec11950b8f1384aa0f3b11d028528 batman-adv: initialize "struct batadv_tvlv_tt_vlan_data"->reserved field
+         d008b93444fccb751efaff67d4baa1a6db020f5a netdev: add check for running work item in netdev_disconnect
+         fc4739f2db23cfb5d6d98af3fdeae4b56702be1d netdev: fix crash from carefully timed Connect()
          
