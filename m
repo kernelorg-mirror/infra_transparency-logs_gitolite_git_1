@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7298944997292260449=="
+Content-Type: multipart/mixed; boundary="===============6166208831667699320=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 05 Apr 2021 06:57:03 -0000
-Message-Id: <161760582308.31695.1859929591272496002@gitolite.kernel.org>
+Date: Mon, 05 Apr 2021 06:57:15 -0000
+Message-Id: <161760583511.31812.7763940990076656772@gitolite.kernel.org>
 
---===============7298944997292260449==
+--===============6166208831667699320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
+  - ref: refs/heads/usb-linus
+    old: 93f672804bf2d7a49ef3fd96827ea6290ca1841e
     new: e49d033bddf5b565044e2abe4241353959bc9120
-    log: revlist-0d02ec6b3136-e49d033bddf5.txt
+    log: revlist-93f672804bf2-e49d033bddf5.txt
 
---===============7298944997292260449==
+--===============6166208831667699320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617605818 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617605830 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1617605817-f9dc7e553b5a90843cae57cef27fde4f68ff26fc
+nonce 1617605829-0acb3ee611a5d0923186d8b4d64d116f04791f8a
 
-0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b e49d033bddf5b565044e2abe4241353959bc9120 refs/heads/main
+93f672804bf2d7a49ef3fd96827ea6290ca1841e e49d033bddf5b565044e2abe4241353959bc9120 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBqtLobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OBoP/Rktnhw1ZSSgfMGjg0D0
-AsyLion2ML7FCFOeCsWvVaiNCseMUBoQ7N37FhNDqOAJ+EDb4IAtM1Kmbq60CIr8
-QRUtcyJpHrwdRDiYcQM4Y37oQnHj4hOEY3U7ASfTfUmma1cGHDzdfI3Eli2pqFg0
-qBaTDlnK9c2McYNaQcc7mpvHAnQbyoPoduQzmD12CTPjlAfbjOrTs+2u11opoHGc
-YbuhXeoqkO9Aw1NRdBlDshU22YS16aK6hWUiHtcpF1anszBovZWEQ9N00BtCOYju
-gcoktBrT4X59Z/L4GBOy1WH7zDCacbNBLzBOh/MWb+bP0+QneOcoaBv2qJ+UVO9t
-8vNa+Xi1qoXMdbFTTUWUld9IZsmD6v+85XB5i4qXjUBMH651dSmi4XhHhnN2muOt
-7TvpTpkmfR/r9tMOvAysVQrDDUsGIpCInJnZ5Csb/eQ3DEqYi6P7svmeuTLkuajw
-VF9IZTCCkY8Jfalj5iYNVnZ/iOiHId22vSQ9ZcoewSQifYOXx1FRoOnScZO104et
-N5NTTlrM9mE8XWN2d/soD4474B9LLeHroi7d+trjCVqAdIOYFp7CipZT2mLBX3eX
-GvW8sFiwy6cECwu7UxydZprQAzuooyVu8HaqwwIJEqTG6rZXzPRnc2cyTIWojWQK
-ZYjWo1idfgkAWHZTZXbeLiHL
-=2mpV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBqtMYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xfcP/08sKIbmIhQO22swVKvM
+dYnaxVeyTa31tCzQBhuEJT8Ibppi6AqIyMD1rl8I1ZFTCIce4ilEXtAKMtdnPq7+
+5I4KeYWHrYUXTfL2sl1j7IHtis1jqoQyyquXPmlTVjVoFNpsvmBU1IjSKJH6arwC
+o6S3jelOVny+BKg+yocpV9ZpKm+21g6JmirZ8MXmFpKW+Eu7cgZhOCQF5siLv2vF
+xAHnXuQwrIcrWNa9myaWkzGr0msvnMig65b3d+q1sbvGQ/GmOOydPWbubYYlpXkz
+zzqd8NcMJPD48qd5Zp3QoqW+Yh0iIjsKD9yK0bjLqSbvXB4rBEXOR+62tu1jcQEh
+QgE/c0lxzVYGiPUP51ouFVeXd/nZedvpeAwDnUHEg1zVj4qf3u5Ebb2bopKlDhuP
+bWtUnTBDrt3IEjeJyaBs01s3VYRivwni/mbrrQxRSCiWfAkLfbqSG04+4xp+7L16
+K0I1R2xbpNI7U3cLXxaUMSDe4hmJWFspRx8RhzCYnv65YpLw2nZcPSgT7DqZZ9U2
+PeM//MJwpwjC3fRpyUi2bcounTsscj2j4lRxJ/2/z8yjEkZ+qN4ORgQ5oTc1Acun
+kcuBEcuRjbmMlvpIPGOXLnZLcoomR97PeNrQjZ6EfZ3BSKkQxTPDFw9CIHxKbydr
+vyO2wnc5KC6zMMwMBfeG0r/P
+=ABkl
 -----END PGP SIGNATURE-----
 
---===============7298944997292260449==
+--===============6166208831667699320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d02ec6b3136-e49d033bddf5.txt
+Content-Disposition: attachment; filename=revlist-93f672804bf2-e49d033bddf5.txt
 
 7d7275b3e866cf8092bd12553ec53ba26864f7bb bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
 9bbce32a20d6a72c767a7f85fd6127babd1410ac ARM: dts: am33xx: add aliases for mmc interfaces
@@ -372,28 +372,11 @@ e0c755a45f6fb6e81e3a62a94db0400ef0cdc046 net: dsa: don't assign an error value t
 a61f4661fba404418a7c77e86586dc52a58a93c6 mfd: intel_quark_i2c_gpio: Revert "Constify static struct resources"
 8249d17d3194eac064a8ca5bc5ca0abc86feecde x86/mem_encrypt: Correct physical address calculation in __set_clr_pte_enc()
 291da9d4a9eb3a1cb0610b7f4480f5b52b1825e7 locking/mutex: Fix non debug version of mutex_lock_io_nested()
-5e4010e36a58978e42b2ee13739ff9b50209c830 usb: dwc3: qcom: skip interconnect init for ACPI probe
-cdb651b6021ee091abc24e9fbd9774d318ab96a6 usb: dwc3: gadget: Set gadget_max_speed when set ssp_rate
-93f1d43c5767d70a1af89f54ef16a7d3e99af048 usb: dwc3: gadget: Use max speed if unspecified
-b522f830d35189e0283fa4d5b4b3ef8d7a78cfcb usb: dwc3: pci: Enable dis_uX_susphy_quirk for Intel Merrifield
-72035f4954f0bca2d8c47cf31b3629c42116f5b7 usb: gadget: udc: amd5536udc_pci fix null-ptr-dereference
-08dff274edda54310d6f1cf27b62fddf0f8d146e cdc-acm: fix BREAK rx code path adding necessary calls
-6069e3e927c8fb3a1947b07d1a561644ea960248 USB: cdc-acm: untangle a circular dependency between callback and softint
-e4c77070ad45fc940af1d7fb1e637c349e848951 USB: cdc-acm: downgrade message to debug
 3f3a9bc1f6df5a1a9ec39e3a5bee420328811be4 drm/i915/ilk-glk: Fix link training on links with LTTPRs
 7dffbdedb96a076843719d4ea5b2cd666481c416 drm/i915: Disable LTTPR support when the DPCD rev < 1.4
 ab03631087f5c296030dd86265ea02dcdacc6802 drm/i915: Disable LTTPR support when the LTTPR rev < 1.4
 ff2628ed95e42d5245119eed3c1f669db9222285 drm/i915: Fix enabled_planes bitmask
 b61fde1beb6b1847f1743e75f4d9839acebad76a drm/i915/dsc: fix DSS CTL register usage for ICL DSI transcoders
-7180495cb3d0e2a2860d282a468b4146c21da78f USB: cdc-acm: fix double free on probe failure
-4e49bf376c0451ad2eae2592e093659cde12be9a USB: cdc-acm: fix use-after-free after probe failure
-8111a8cbd5dde0b6ea8c388ff4840d4e465b5edd USB: cdc-acm: drop redundant driver-data assignment
-dda6faaa2bdadc56b9ad034602307a51d11e26a7 USB: cdc-acm: drop redundant driver-data reset
-4cde059acd11e79b205525e5fd66175d8576ec88 USB: cdc-acm: clean up probe error labels
-f8255ee192e92fdb885a9ff6bc90d74f5bfb7cd6 USB: cdc-acm: use negation for NULL checks
-0b2b23ca20ac9329d91bdba713028cf279423383 USB: cdc-acm: always claim data interface
-79579411826647fd573dbe301c4d933bc90e4be7 USB: cdc-acm: do not log successful probe on later errors
-0bd860493f81eb2a46173f6f5e44cc38331c8dbd USB: quirks: ignore remote wake-up on Fibocom L850-GL LTE modem
 72ad25fbbb78930f892b191637359ab5b94b3190 staging: rtl8192e: Fix incorrect source in memcpy()
 e78836ae76d20f38eed8c8c67f21db97529949da staging: rtl8192e: Change state information from u16 to u8
 9d03730ecbc5afabfda26d4dbb014310bc4ea4d9 drm/amd/pm: workaround for audio noise issue
@@ -493,12 +476,6 @@ db24726bfefa68c606947a86132591568a06bfb4 Merge tag 'integrity-v5.12-fix' of git:
 53f1d31708f6240e4615b0927df31f182e389e2f powerpc/mm/book3s64: Use the correct storage key value when calling H_PROTECT
 1dc481c0b0cf18d3952d93a73c4ece90dec277f0 perf test: Change to use bash for daemon test
 45a4546c6167a2da348a31ca439d8a8ff773b6ea cifs: Adjust key sizes and key generation routines for AES256 encryption
-1cc5ed25bdade86de2650a82b2730108a76de20c usbip: vhci_hcd fix shift out-of-bounds in vhci_hub_control()
-5aef629704ad4d983ecf5c8a25840f16e45b6d59 usb: dwc3: gadget: Clear DEP flags after stop transfers in ep disable
-6f978a30c9bb12dab1302d0f06951ee290f5e600 usb: xhci-mtk: fix broken streams issue on 0.96 xHCI
-92af4fc6ec331228aca322ca37c8aea7b150a151 usb: musb: Fix suspend with devices connected for a64
-5e3bbae8ee3d677a0aa2919dc62b5c60ea01ba61 usb: dwc2: Fix HPRT0.PrtSusp bit setting for HiKey 960 board.
-93f672804bf2d7a49ef3fd96827ea6290ca1841e usb: dwc2: Prevent core suspend when port connection flag is 0
 29d96eb261345c8d888e248ae79484e681be2faa soc: qcom-geni-se: Cleanup the code to remove proxy votes
 a846738f8c3788d846ed1f587270d2f2e3d32432 xen-blkback: don't leak persistent grants from xen_blkbk_map()
 6f3a283c2f6bbbb5a9a6801a0befa61cb60195f1 Merge branch 'pm-em'
@@ -656,4 +633,4 @@ d83e98f9d8c88cbae1b05fa5751bddfcf0e222b2 Merge tag 'io_uring-5.12-2021-04-03' of
 829933ef05a951c8ff140e814656d73e74915faf firewire: nosy: Fix a use-after-free bug in nosy_ioctl()
 e49d033bddf5b565044e2abe4241353959bc9120 Linux 5.12-rc6
 
---===============7298944997292260449==--
+--===============6166208831667699320==--
