@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8254794480872392562=="
+Content-Type: multipart/mixed; boundary="===============8075573536185474360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 05 Apr 2021 16:29:05 -0000
-Message-Id: <161764014596.15799.14189238315848234293@gitolite.kernel.org>
+Date: Mon, 05 Apr 2021 16:29:46 -0000
+Message-Id: <161764018693.16037.8072223175827658244@gitolite.kernel.org>
 
---===============8254794480872392562==
+--===============8075573536185474360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-rc
     old: a5e13c6df0e41702d2b2c77c8ad41677ebb065b3
     new: e49d033bddf5b565044e2abe4241353959bc9120
     log: revlist-a5e13c6df0e4-e49d033bddf5.txt
 
---===============8254794480872392562==
+--===============8075573536185474360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -211,4 +211,4 @@ d83e98f9d8c88cbae1b05fa5751bddfcf0e222b2 Merge tag 'io_uring-5.12-2021-04-03' of
 829933ef05a951c8ff140e814656d73e74915faf firewire: nosy: Fix a use-after-free bug in nosy_ioctl()
 e49d033bddf5b565044e2abe4241353959bc9120 Linux 5.12-rc6
 
---===============8254794480872392562==--
+--===============8075573536185474360==--
