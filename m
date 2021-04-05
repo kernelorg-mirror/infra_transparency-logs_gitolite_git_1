@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3841246416531343917=="
+Content-Type: multipart/mixed; boundary="===============8036551528143394758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 05 Apr 2021 06:44:38 -0000
-Message-Id: <161760507842.21568.9501753688442100026@gitolite.kernel.org>
+Date: Mon, 05 Apr 2021 06:44:50 -0000
+Message-Id: <161760509024.21710.9129888273629759193@gitolite.kernel.org>
 
---===============3841246416531343917==
+--===============8036551528143394758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 1e28eed17697bcf343c6743f0028cc3b5dd88bf0
+  - ref: refs/heads/char-misc-linus
+    old: 3756b6578709c55819742f6ba0c18f93e8901397
     new: e49d033bddf5b565044e2abe4241353959bc9120
-    log: revlist-1e28eed17697-e49d033bddf5.txt
+    log: revlist-3756b6578709-e49d033bddf5.txt
 
---===============3841246416531343917==
+--===============8036551528143394758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617605073 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617605085 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1617605073-51a8cc1b8e3d156ed20ee6f3364c8fbdb7eaf9a8
+nonce 1617605084-ebdfe90310d3f0c03dad6a0ce86702715257ad6d
 
-1e28eed17697bcf343c6743f0028cc3b5dd88bf0 e49d033bddf5b565044e2abe4241353959bc9120 refs/heads/main
+3756b6578709c55819742f6ba0c18f93e8901397 e49d033bddf5b565044e2abe4241353959bc9120 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBqsdEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PRYP/3LdRWRpu8KRh+tShnFd
-vM+UbhnsZ1l711NIlSb0XYv6ZxMxARH7nfP2HqmA4s65ZVpcqkskn806DCB65Cbl
-noCUvzxd6lWdlJWfCVt84asqmJcVXA9YOCIO72t5pU38WbclCWwd3kB4HQmE8nt8
-FKBjuG76dmRNtjRq1fhAcTY9TWSYT4PulCFIuE0fRbE3YMmyLz5/+YUsbKHTkasI
-9yijpgKRgaMuUun3fj/Qc/SV9uC32sMHES2Y2XFJPnwGvi1Oxw4jc/y5oTvtdl3X
-gJJUcj22OIYBkTxOTjCn4ictwRi1i719qNJa6YMCsjLN/wi8+VHASg4jTdlCM/ZU
-xU08s9iHaosNf5Cd9tO/TToN4o6fbke33NtdbMn4DkY1c/wLiYI2OzhtfdVIYR6t
-EpHEAnHwUsNcHf5PAF33clOskVcDv0vG0rMvk4NgCKnIvmd2O+jXhk/9/Ncjfqct
-+bszFMnd6AGP765ZyNUWum4ZNz10TnIG0z9KcuQZAGetuthxMFLdvfQ8cM1t77q9
-2Wkc7ZU5JBP61sSvsw0GrcHtxDn3k9fIHk5Q92gwNGOyvgAnKhxHw0uS+2HDgG6q
-/6Fdu1DOK8XJXyYRx+VX80Ny0nv23qEbuv5mkqWf7IzOXmCmiSikiVMevWQ2ZUNx
-9XSBuBE3wsKpuug9mDH/argS
-=T5GI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBqsd0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pfEP/j953VtUiR3lro5GzVoV
+tjXgeQKKM0Ds3hXJFolEHHXCEiCsbEBMC4dJrnwYLYdBDpJILeSKZRlMiaJ1jEg6
+AOydA2Fn5QtD/DjmB9MhdBb09fRTsFXjF+5x/Jgd8JJk1pcLEgEoqO9w31A8Uh/l
+7kcoVxEOGx3xy4dc5SrT4413PQoRhOSdY6/CbDAjege2BQH+ccwG7j2zRTucz0cE
+bKpq+9FJnhM0P+ryfJwUkZ+fMC6usQEeJb+ZesKjpnoUDhmZG47LBregL0UfzaDl
+IQULVhhVGW4GVoEH2oOWuwkZgdbQ8KbsgtPq9eAtjo/+5DuhEM6z3OHKsmsREnb4
+rJamWWN0o0btsGt0WNzrd0G05u6lYIIM190eVszQEfal8CzSd36vaW/MakX3DUwS
+3zKOSORT93N4FoJs7cfabYQbGnpTggy5Nh+RJA7VD3mOrcEXzsoEPDdOXhQoi5Kb
+hQgTwdwUBONqlvBUpY4+QkbpfwkOQY6fNHJIwP7be1oTjyY+yVZpTH/g/ELitASO
+t/VtjY9IV+06QQHSyl6E0hH7S5Xt/pwp9lEeFmhQN+XhCVVQwBDNb3DisNaWqMiT
+k1Q1MoakRX9Y/yoPTkqUMyae/3hLhIn1lHIS/jP4cLg6YnwIWYkMktL9I6lulKzH
+YAd+x2TIpWZQvXCHvIVgcrh5
+=9+r9
 -----END PGP SIGNATURE-----
 
---===============3841246416531343917==
+--===============8036551528143394758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e28eed17697-e49d033bddf5.txt
+Content-Disposition: attachment; filename=revlist-3756b6578709-e49d033bddf5.txt
 
 7d200b283aa049fcda0d43dd6e03e9e783d2799c iio:adc:qcom-spmi-vadc: add default scale to LR_MUX2_BAT_ID channel
 d68c592e02f6f49a88e705f13dfc1883432cf300 iio: hid-sensor-prox: Fix scale not correct issue
@@ -101,8 +101,6 @@ f1442d6349a2e7bb7a6134791bdc26cb776c79af sunrpc: fix refcount leak for rpc auth 
 781e14eaa7d168dc07d2a2eea5c55831a5bb46f3 thunderbolt: Initialize HopID IDAs in tb_switch_alloc()
 c94732bda079ee66b5c3904cbb628d0cb218ab39 thunderbolt: Increase runtime PM reference count on DP tunnel discovery
 350a5c4dd2452ea999cc5e1d4a8dbf12de2f97ef bpf: Dont allow vmlinux BTF to be used in map_create and prog_load.
-7c911f9de7abb89f46254d2fecb11dcb4a7a6c30 interconnect: qcom: msm8939: remove rpm-ids from non-RPM nodes
-715ea61532e731c62392221238906704e63d75b6 interconnect: core: fix error return code of icc_link_destroy()
 769c18b254ca191b45047e1fcb3b2ce56fada0b6 bpf: Change inode_storage's lookup_elem return value from NULL to -EBADF
 77e141266c8e72e4a586fe42eaab1b4b047655ed pinctrl: intel: Show the GPIO base calculation explicitly
 e7fb6465d4c8e767e39cbee72464e0060ab3d20c libbpf: Fix INSTALL flag order
@@ -268,15 +266,12 @@ f6bbf0010ba004f5e90c7aefdebc0ee4bd3283b9 vhost-vdpa: fix use-after-free of v->co
 0bde59c1723a29e294765c96dbe5c7fb639c2f96 vhost-vdpa: set v->config_ctx to NULL if eventfd_ctx_fdget() fails
 5171317dfd9afcf729799d31fffdbb9e71e45402 cifs: update new ACE pointer after populate_new_aces.
 05946d4b7a7349ae58bfa2d51ae832e64a394c2d cifs: Fix preauth hash corruption
-c9570d4a5efd04479b3cd09c39b571eb031d94f4 extcon: Add stubs for extcon_register_notifier_all() functions
-d3bdd1c3140724967ca4136755538fa7c05c2b4e extcon: Fix error handling in extcon_dev_register
 e2c1b0ff38c961d49ce34efda48fa45eb1cb5f19 ARM: imx: avic: Convert to using IRQCHIP_DECLARE
 9c3a16f88385e671b63a0de7b82b85e604a80f42 arm64: dts: ls1046a: mark crypto engine dma coherent
 4fb3a074755b7737c4081cffe0ccfa08c2f2d29d arm64: dts: ls1043a: mark crypto engine dma coherent
 ba8da03fa7dff59d9400250aebd38f94cde3cb0f arm64: dts: ls1012a: mark crypto engine dma coherent
 412627f6ffe32211863e1dcd76dab98c90556fc7 arm64: dts: imx8mp-phyboard-pollux-rdk: Add missing pinctrl entry
 69cbbf6be5d5c25deeddd9450ae538e769480dc3 ARM: imx6ul-14x14-evk: Do not reset the Ethernet PHYs independently
-e01b7d04a61cf9684cc4145ddfc32f3010f6c03d Merge tag 'extcon-fixes-for-5.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
 0710442a88d1c646d37ac83c52de85f456e99171 arm64: csum: cast to the proper type
 689bb69093d7ac9e12ab058ba2611ad5eb9347c3 Merge remote-tracking branch 'torvalds/master' into perf/urgent
 132da018fa3290addede3b269100efb1b7d74c92 Merge tag 'thunderbolt-for-v5.12-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
@@ -488,7 +483,6 @@ de75a3d3f5a14c9ab3c4883de3471d3c92a8ee78 io_uring: don't leak creds on SQO attac
 0bb788300990d3eb5582d3301a720f846c78925c btrfs: fix sleep while in non-sleep context during qgroup removal
 9d3fcb28f9b9750b474811a2964ce022df56336e Revert "PM: ACPI: reboot: Use S5 for reboot"
 eddbe8e6521401003e37e7848ef72e75c10ee2aa selftest/bpf: Add a test to check trampoline freeing logic.
-2e8496f31d0be8f43849b2980b069f3a9805d047 firmware: stratix10-svc: reset COMMAND_RECONFIG_FLAG_PARTIAL to 0
 83b62687a05205847d627f29126a8fee3c644335 workqueue/tracing: Copy workqueue name to buffer in trace event
 77a3aa26a00fe55325ae2a51d80a56836d1edce8 selftests: kvm: add get_msr_index_features
 8ff0f3bf5d6513dfb7462246d9c656da7c02b37e Merge branch 'iomap-5.12-fixes' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
@@ -515,7 +509,6 @@ f12098ce9b43e1a6fcaa524acbd90f9118a74c0a octeontx2-pf: Clear RSS enable flag on 
 6f7c7e22a2b6d0a834c8d2c76e652fc883e89937 Merge branch 'octeontx2-fixes'
 600cc3c9c62defd920da07bc585eb739247bb732 net: marvell: Remove reference to CONFIG_MV64X60
 6c015a2256801597fadcbc11d287774c9c512fa5 net: check all name nodes in __dev_alloc_name
-491aef7caeb345ccfd658a7fc8a42944a7f82494 interconnect: Fix kerneldoc warning
 a21ddeb227b115bc7945d5af66c0d167359c8c31 MAINTAINERS: Update some st.com email addresses to foss.st.com
 7a2e796173fbb17635c5ce822ede0ace8843209d MAINTAINERS: Remove Vincent Abriou for STM/STI DRM drivers.
 303a91f15f3499e47b256dc8647e3e0cfa0ff7b5 MAINTAINERS: Add Alain Volmat as STM32 I2C/SMBUS maintainer
@@ -699,9 +692,6 @@ f8255ee192e92fdb885a9ff6bc90d74f5bfb7cd6 USB: cdc-acm: use negation for NULL che
 e78836ae76d20f38eed8c8c67f21db97529949da staging: rtl8192e: Change state information from u16 to u8
 9d03730ecbc5afabfda26d4dbb014310bc4ea4d9 drm/amd/pm: workaround for audio noise issue
 f0acf637d60ffcef3ccb6e279f743e587b3c7359 driver core: clear deferred probe reason on probe retry
-903079a54cac47ab115fa5abbde6860cf94e258f MAINTAINERS: Add linux-phy list and patchwork
-ce068bc7da473e39b64d130101e178406023df0c mei: allow map and unmap of client dma buffer only for disconnected client
-01faae5193d6190b7b3aa93dae43f514e866d652 drivers: video: fbcon: fix NULL dereference in fbcon_cursor()
 9fcb51c14da2953de585c5c6e50697b8a6e91a7b x86/build: Turn off -fcf-protection for realmode targets
 5116784039f0421e9a619023cfba3e302c3d9adc block: clear GD_NEED_PART_SCAN later in bdev_disk_changed
 a958937ff166fc60d1c3a721036f6ff41bfa2821 block: recalculate segment count for multi-segment discards correctly
@@ -818,8 +808,6 @@ eb3991ef2c0ebb7dc49c260e12ae1575d1e153b2 Merge tag 'soc-fixes-5.12' of git://git
 cee8f4f6fcabfdf229542926128e9874d19016d5 cifs: revalidate mapping when we open files for SMB1 POSIX
 219481a8f90ec3a5eed9638fb35609e4b1aeece7 cifs: Silently ignore unknown oplock break handle
 cfc63fc8126a93cbf95379bc4cad79a7b15b6ece smb3: fix cached file size problems in duplicate extents (reflink)
-53e7bf507ac583bc41cec0a8429158d6fe546798 Merge tag 'fpga-fixes-for-5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/mdf/linux-fpga into char-misc-linus
-3756b6578709c55819742f6ba0c18f93e8901397 Merge tag 'icc-5.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 e82fc7855749aa197740a60ef22c492c41ea5d5f block: don't create too many partitions
 dbe1bdbb39db7dfe80a903f0d267f62cf3f093d2 io_uring: handle signals for IO threads like a normal thread
 b16b3855d89fba640996fefdd3a113c0aa0e380d kernel: stop masking signals in create_io_thread()
@@ -957,4 +945,4 @@ d83e98f9d8c88cbae1b05fa5751bddfcf0e222b2 Merge tag 'io_uring-5.12-2021-04-03' of
 829933ef05a951c8ff140e814656d73e74915faf firewire: nosy: Fix a use-after-free bug in nosy_ioctl()
 e49d033bddf5b565044e2abe4241353959bc9120 Linux 5.12-rc6
 
---===============3841246416531343917==--
+--===============8036551528143394758==--
