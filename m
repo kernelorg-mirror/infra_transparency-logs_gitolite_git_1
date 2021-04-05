@@ -1,57 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============3892297414367576816=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 05 Apr 2021 10:32:18 -0000
-Message-Id: <161761873898.23523.7633766735753998642@gitolite.kernel.org>
-
---===============3892297414367576816==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Mon, 05 Apr 2021 10:42:02 -0000
+Message-Id: <161761932282.28911.7533188467681576427@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 422d2245136a2c49550dc83ca9735dd4d8ea71f7
-    new: b2192cfeba8481224da0a4ec3b4a7ccd80b1623b
+  - ref: refs/heads/for-next
+    old: 25faa935f9e0bd5aba34a820defb982d43bb4a77
+    new: 2509555070acb863920b3c89bb678e1a2c7d0c00
     log: |
-         376565b9717c30cd58ad33860fa42697615fa2e4 misc: vmw_vmci: explicitly initialize vmci_notify_bm_set_msg struct
-         b2192cfeba8481224da0a4ec3b4a7ccd80b1623b misc: vmw_vmci: explicitly initialize vmci_datagram payload
+         53207aa1a73e3e52b14c432b04d342c2b3af2e1c power: ab8500: Require device tree
+         417c0fc24dd4dbd60d94fa8deb36bf1176930e06 mfd/power: ab8500: Push data to power supply code
+         a65aa0ce23bd3bc29c9f3a6a90fe032e1dbd8f34 mfd/power: ab8500: Push algorithm to power supply code
+         ee0975c3089e1c3357ccc3ada7a94a95b61e708c mfd/power: ab8500: Push data to power supply code
+         2509555070acb863920b3c89bb678e1a2c7d0c00 Merge tag 'ib-mfd-power-v5.13' into psy-next
          
-
---===============3892297414367576816==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617618733 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1617618733-f44dfe1367557b41c496ae708f5b2888dc8354d1
-
-422d2245136a2c49550dc83ca9735dd4d8ea71f7 b2192cfeba8481224da0a4ec3b4a7ccd80b1623b refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBq5y0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k80P/2Raslhpi4+0Y4SjEKx+
-FmJsOWXqrWSWHXGqGm2yU2q5nUd1yao7g7SN/SGz2UlXlCYWAmJ31Yn+K3c3jVvW
-Esb5KZf07uoiTpq0NaMPtvQirKjcSvGOo2PsaC2kGYisvsYt556wTywZqQ0LhszU
-3JF4xoSOmN11hmqxd5qlHXrl3f7aunkrPhQs9tN97SEQ+hMIFXiD6h6vguO9aEqW
-PVG5r4Q94sOIQg6hhmVSScZmdYRKYyf9hrPYIQCgAHOnCdY56XJrLD2U5nu/O1yV
-vErfKcu5P9Wb3XfpcQiIVjlzd4h8jtYruueQx8+EanZOB1jw8J+h7BAUj5J2yniR
-k8kAy1MTz2J0B6RgbV5GwbHW8iQACo+I2qkTwTUx9XUuhD3skt+FFtXxQDZf6W/2
-SpHj+4iRlH8Q2dvXXcRDVE8Rvf9o5Nov+N+1WfsJqsCBRhpCjAi9t/uxRorUqnXx
-8ZNM+9b9I9U18LYD27tlicF4Nmpc+LBHcrAnhAHLh4kyWhzdwx3iV5zYJNuHSPvJ
-4ZBVpfYdj6ZmQ/CmXCHrQYcts8gfXqt6kIEyiEtcch0yhT7mw3WwraCnbilXH+rn
-3YVFjIkmtDIVeVh9EY868nhfXZfZ5kVvatICWLFkkI7LwIzdoiuOKvnX8B0QMrnE
-LmdWB5pFVybQ8WFa/ANjIfUe
-=xD0I
------END PGP SIGNATURE-----
-
---===============3892297414367576816==--
