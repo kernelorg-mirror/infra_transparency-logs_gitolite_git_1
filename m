@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6208877550028299784=="
+Content-Type: multipart/mixed; boundary="===============8968858979233137372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 05 Apr 2021 08:26:14 -0000
-Message-Id: <161761117465.25778.1805039881292421450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 05 Apr 2021 08:27:36 -0000
+Message-Id: <161761125634.26267.5883166330323872879@gitolite.kernel.org>
 
---===============6208877550028299784==
+--===============8968858979233137372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 18e408ec5fcd21960a62448c6eaeeb3e8825e7ef
-    new: a60b5d45e76cb663e95b5ce54164b89399a362bc
-    log: revlist-18e408ec5fcd-a60b5d45e76c.txt
+    old: 0dc883453bcf84eb6a3eb756a19b59b255a013b0
+    new: 2fa29faae52feee1374cd587c0cc9d3310eeb532
+    log: |
+         2fa29faae52feee1374cd587c0cc9d3310eeb532 5.10-stable patches
+         
 
---===============6208877550028299784==
+--===============8968858979233137372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18e408ec5fcd-a60b5d45e76c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f5270fe6f864f37ed9cabf545d111b27141ff599 dup.2: Rewrite the description of dup() somewhat
-5c3611aa446d09464366e1c403c32c77ac0895c5 open.2: Make it clearer that an FD is an index into the process's FD table
-8b339e35faf125ed7d4a6f271212106018c541a1 dup.2: Clarify what silent closing means
-b96ad91c7c5f7760d56d1db260e25277ed00a752 dup.2: Further clarify the effect of dup2()
-737a840daa49f0311546534fc6dc9bf4953173b9 _exit.2: Add a little more detail on the raw _exit() system cal
-46b470231f02e0e4a30a3599a35f884c4c98a8c4 listen.2: wfix
-1f72eb7511efe63235d23b3142c3dbc51c5c613f write.2: wfix
-285a7373e7c3d40870551e1afccf422fda696300 mmap.2: Clarify that MAP_POPULATE is best-effort
-3333af873d4d58b840ea02eac408932d7ed6d8cd environ.7: Remove obsolete admonishment of the GZIP environment variable
-2fd8db84bf1eb9c0fe5ddc1683dfd252dae611da printf.3: Add overall structure of format string
-01926df072900538560f4e9fc7f70b87ad6635a6 printf.3: Minor wording tweaks to Utkarsh's patch
-a1984535713c228f06f30f193eb0881debe078b5 exec.3: Fix description of 'e' variants
-5858ad9ca8cd27a32e310a122679f55dabd6dabb set_mempolicy.2: Add mode flag MPOL_F_NUMA_BALANCING
-8e2cab90e132b3b29633004064a891fb3bc23c24 set_mempolicy.2: srcfix
-21bc0c8713bfc7801c8230da51692d0a1cd0d739 exec.3: Clarify that execvpe uses PATH from the caller, not envp
-a60b5d45e76cb663e95b5ce54164b89399a362bc errno.3: Fix ENODATA text
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617611255 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1617611254-e390d7016ff76cf4459e308a39d49524952891bf
 
---===============6208877550028299784==--
+0dc883453bcf84eb6a3eb756a19b59b255a013b0 2fa29faae52feee1374cd587c0cc9d3310eeb532 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBqyfcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JvwQAM4OAHed427c3n6C5qBL
+LpeoTlzuJh5Cxk+RnxKHg9rLb5hg7Z/8UVMgBQ93xuHxNqgWog9+gPgGb+VjkSQE
+MqOaG9ACnN+oKk7GBD2RHi+QDOqeqPFg7Bw+HK1euZJH0KejEfgh1+LzHOBXMP8m
+nNuZrC0wIvLQ7O7Uwv1fvKyVozSfjesxu+roooSwq7y3Ce5jaWypWGThBtrF4tFu
+zGkg9GsAEiZAcVIgs0UhwTCfoQla3vLISU1is0FBDR0AT2hcze/Zow6K6mvZUU7f
+KQMo1rfMAeNXaV51eyIkXgyr5CpYarw/28mAnbCbL7MlQHY6uolYsMZgUvnZeuv8
+uXASVBINGLZEgFztscLHkwEGeF5ZWLYdRLeHeXOTRPIm5+S2J5EMFaeHFA99UZr8
+R60IzvZtqBg3Mdt13OiThGFOvt4q8gQwzPpfHRrgDG6Z4kBoe2AAwMqvfHRUwZNI
+YTEiKqYIcIDOAgpUYdKnCoSc0wR9Gr8UtkQ7ZiwX94T/b1Xy98H3yvXX0e84y6NP
+uCoRS6oB8doS2RKBFIng5qByICiw/Nfm31GVE/+M0lwa/NNvpIJCTYbYOlPqUgtg
+LMJCszO82q+EaJ073Xn9M/0avb+oZ2aAbGHdpSLe/TwKSMSLq/NyqvfwCMFE8+9Q
+sLb6+PPyU5QFCBMq3pk15YFx
+=5SiA
+-----END PGP SIGNATURE-----
+
+--===============8968858979233137372==--
