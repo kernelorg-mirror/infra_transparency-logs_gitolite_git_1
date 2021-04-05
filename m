@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3369865547039574243=="
+Content-Type: multipart/mixed; boundary="===============2098537510966226653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 05 Apr 2021 06:52:44 -0000
-Message-Id: <161760556472.28636.6915385397907306244@gitolite.kernel.org>
+Date: Mon, 05 Apr 2021 06:52:56 -0000
+Message-Id: <161760557629.28777.13456238604168000974@gitolite.kernel.org>
 
---===============3369865547039574243==
+--===============2098537510966226653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b
+  - ref: refs/heads/driver-core-linus
+    old: f0acf637d60ffcef3ccb6e279f743e587b3c7359
     new: e49d033bddf5b565044e2abe4241353959bc9120
-    log: revlist-0d02ec6b3136-e49d033bddf5.txt
+    log: revlist-f0acf637d60f-e49d033bddf5.txt
 
---===============3369865547039574243==
+--===============2098537510966226653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617605559 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617605571 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1617605559-0c7a96092fbeb403fc04aaeb5b97e0afa0701fcc
+nonce 1617605571-312ce5ef7f0b9bf4758b37076c12a0cbf161d184
 
-0d02ec6b3136c73c09e7859f0d0e4e2c4c07b49b e49d033bddf5b565044e2abe4241353959bc9120 refs/heads/main
+f0acf637d60ffcef3ccb6e279f743e587b3c7359 e49d033bddf5b565044e2abe4241353959bc9120 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBqs7cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TMMP+wdv3SXun14D69OPK0MM
-B+n86g/70OnYQx0i2v7uZEoQz6rd4gAdBtpHPzkG2nzcrQ+IwPMDWRrupHZISJ+R
-u6gdiI9pZdyTfFvQ4bm4GoEMwfLyzd9rFOvf9CWeWLjVtpZUrpQ+uPJw081NRDjR
-XqZ6T/ddDgc24oyJXbEdHuLBGp2OyKQCL6AgeV4FodggIm9NLfjzDVrS8dpS/uiK
-pGSKWNmGILt7A71s/BK9z5J6pFUigpQqF0GeJKSyTOT1bh+D/qu3yAXHvlmwyBDF
-Ve6D05l4okM8+N+sgj7EHGGpJnLxrPvpHFuaLkaIa5xhusgX39UBRuKCFJVsrr+q
-SX3LAavUaDKjp4BtPDNzp0flh01TeOGBAeOkyJxnpM0r0BMA5CSgo5HI8I2W5xLi
-Z9Er10JY2oH83QmJzWPPUi6xddpYumA6OxBm4sGBHz8cVa6lGA2dl4AFokE3bYwK
-2iOEQ7XXdPHz112cVlr7ul1Y0p+ZxpiuleWkHcJPrmoj9i95Yc3yi3ZcpqUtOdwT
-1csR9s0iLocjgzOWrEPDkuaf597yqQ5bI2OGRHYBK6L3IdG8PZAyHaLPw9WkJk84
-tcuWO7KUZrANRtLwR3MPK7KvepFi8l/WrpNp0oNnOOoHcujCB8J1ogCzNwhd8iy7
-kqKPx1kv+xgMi8dCvJPDn0C2
-=9Eom
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBqs8MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MWgP/REsvXNhRrxUEkiFT6IW
+glCoss+6tqPBeZayjk3EQDn8L7fIFPVoJLqqOziNxxGq7mnfbI143+xnfcjTnkAe
+b0a8OmoztwVAadCoRRqOmg2CJ5HOtpoFY3Cr1X/CZ5ABEJgs9j8pWSDo5OoggomN
+/kglCmWE5mS4m/StX59ccI2OICnBqxML8tJYK3ZkQm09DuS5CM+1jLfcPiOSLjam
+xqlWYL4iv3JRaW4a46MaFMHhpnxCqr19Zh855KpNqG8Be1A0FEiicz/z5GlPB4N2
+a52/hUFxC/lxMbl6rN6KlZ7pkb9vR9Cx08yoZPUq/sTvUvSLa8I6QDTB5u1PcESw
+KWL+qKaxPsj4x/k8u6zd7nJaOl84CuZ1lLBLCufDgGc996jpIFKa0VM5weJ7kwFN
++B+pz/jFWGF3bDjvcp42iAjrk7wuZL5Pu7pyhbamOVgfZgEXXd2kaed1Sb4OWVWl
+9LmJ9ShQDUEmeh/YC/d0UETJNdQAN341mNmDEemzUCbgx6oWeXMalLtq1s3ZB+PC
+uvBPTicmcUgitSjUk/AhMOBUhzSspRc2PJQ+NqYtnKx6lNX8Nbyzs3klLfiTSRDs
+XVmqOKW7W4R9eHSyg+dcKaxk5YsoFZOzt6M2aXnCzR8/He6STFKJEOjYUtB5natU
+Q+4IZfyumFGignYKZIEgjtdI
+=OlVG
 -----END PGP SIGNATURE-----
 
---===============3369865547039574243==
+--===============2098537510966226653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d02ec6b3136-e49d033bddf5.txt
+Content-Disposition: attachment; filename=revlist-f0acf637d60f-e49d033bddf5.txt
 
 7d7275b3e866cf8092bd12553ec53ba26864f7bb bus: omap_l3_noc: mark l3 irqs as IRQF_NO_THREAD
 9bbce32a20d6a72c767a7f85fd6127babd1410ac ARM: dts: am33xx: add aliases for mmc interfaces
@@ -397,7 +397,6 @@ f8255ee192e92fdb885a9ff6bc90d74f5bfb7cd6 USB: cdc-acm: use negation for NULL che
 72ad25fbbb78930f892b191637359ab5b94b3190 staging: rtl8192e: Fix incorrect source in memcpy()
 e78836ae76d20f38eed8c8c67f21db97529949da staging: rtl8192e: Change state information from u16 to u8
 9d03730ecbc5afabfda26d4dbb014310bc4ea4d9 drm/amd/pm: workaround for audio noise issue
-f0acf637d60ffcef3ccb6e279f743e587b3c7359 driver core: clear deferred probe reason on probe retry
 903079a54cac47ab115fa5abbde6860cf94e258f MAINTAINERS: Add linux-phy list and patchwork
 ce068bc7da473e39b64d130101e178406023df0c mei: allow map and unmap of client dma buffer only for disconnected client
 01faae5193d6190b7b3aa93dae43f514e866d652 drivers: video: fbcon: fix NULL dereference in fbcon_cursor()
@@ -656,4 +655,4 @@ d83e98f9d8c88cbae1b05fa5751bddfcf0e222b2 Merge tag 'io_uring-5.12-2021-04-03' of
 829933ef05a951c8ff140e814656d73e74915faf firewire: nosy: Fix a use-after-free bug in nosy_ioctl()
 e49d033bddf5b565044e2abe4241353959bc9120 Linux 5.12-rc6
 
---===============3369865547039574243==--
+--===============2098537510966226653==--
