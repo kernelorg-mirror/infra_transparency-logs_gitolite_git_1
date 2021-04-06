@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 06 Apr 2021 17:10:06 -0000
-Message-Id: <161772900603.1989.9958238057307296435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Tue, 06 Apr 2021 17:11:19 -0000
+Message-Id: <161772907922.2434.15582827688367800076@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/for-next
-    old: bea906ee1624aeb34ea2c5acca84728de4185726
-    new: 7d6eec37a105e0466356884d2bf8d1a7e7c74fa2
+  - ref: refs/heads/fixes
+    old: 7f6c411c9b50cfab41cc798e003eff27608c7016
+    new: 7d01ef7585c07afaf487759a48486228cd065726
     log: |
-         7d6eec37a105e0466356884d2bf8d1a7e7c74fa2 gfs2: Allocate bufdata object before taking log lock
+         7d01ef7585c07afaf487759a48486228cd065726 Make sure nd->path.mnt and nd->path.dentry are always valid pointers
          
