@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2166496540754108280=="
+Content-Type: multipart/mixed; boundary="===============6838818607390903133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Tue, 06 Apr 2021 10:32:44 -0000
-Message-Id: <161770516494.13672.13251419204782074806@gitolite.kernel.org>
+Date: Tue, 06 Apr 2021 10:32:56 -0000
+Message-Id: <161770517608.13820.3369915154091836541@gitolite.kernel.org>
 
---===============2166496540754108280==
+--===============6838818607390903133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 6e5a03bcba44e080a6bf300194a68ce9bb1e5184
-    new: 08c27f3322fec11950b8f1384aa0f3b11d028528
-    log: revlist-6e5a03bcba44-08c27f3322fe.txt
+  - ref: refs/heads/testing
+    old: f2b3345d15a73c651f04020c7cb97e2e739857fe
+    new: 617085fca6375e2c1667d1fbfc6adc4034c85f04
+    log: revlist-f2b3345d15a7-617085fca637.txt
 
---===============2166496540754108280==
+--===============6838818607390903133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1617705161 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1617705172 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1617705161-4e97129a862e3b1c9b723be15544f3c8a50462f5
+nonce 1617705172-4e1c881aec7c5e2d52dca53d9fe1959d92e8d9b4
 
-6e5a03bcba44e080a6bf300194a68ce9bb1e5184 08c27f3322fec11950b8f1384aa0f3b11d028528 refs/heads/master
+f2b3345d15a73c651f04020c7cb97e2e739857fe 617085fca6375e2c1667d1fbfc6adc4034c85f04 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmBsOMkTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqbHYCACisccjoWKoroOkEcObVX7p23a3cCsv
-2GtS1Tq1l4w/N4di3lE7LSzvTnKpyWi/lIyy8Wu+Xs83ZSQMJEWavpKPFC+dDSzz
-anowuLIuFdnziHGbzqAXLs8TfNVhyhwiURBwaGgOIPvh73iukty4zoYjgawfS9r3
-8wdgBw1BiPCCVDTP9UsFnyZYWxlZe6soJfKVj3eGQsJBxpq1E5ADbT8Si8d1b1dX
-+tdt1PZDLbVTW0gmhq2rYchh5hYjozxANbCtEbzdvOLHE2vAJV6qSwp+qzNqDQel
-7G6lGeRL4rZpiLVAfNlEN3UMH39MIPysFVgNcbOCe+YNMy6cmV2ZNaqU
-=g9mM
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmBsONQTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqVEQB/4ktLTK/g8BM731+vGvVk5qMhXyMx6c
+F3rjj4ydUOOGDJfFLYe1TTP28khowuOdxcE+2wbmQkuXWnwAvWzn/2ONMY4YmWw/
+z4X6bszXrET2Eb7ql7ptYkpXiGpvYxjhbVieOMdllgusZvXrAq0e0LRAoVyOjpM3
+9Tn1UHHDsjHgZNYhgTkgxyA1CDCS9bUiy2pQmvQJ+SVqkSrnRzg5lgMtsdal1J73
+h5EvRnr2TH1mnteyr/llbgJFRP/PVOhP27NtlDk/gLxDNUukjUCvaz3xG0Jjpx9m
+bF/Xohwq+sUwRIZA47ii3IS3g5oOiKbn+dZZmcFOV4N0+1H8k+LXxELD
+=Id+g
 -----END PGP SIGNATURE-----
 
---===============2166496540754108280==
+--===============6838818607390903133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e5a03bcba44-08c27f3322fe.txt
+Content-Disposition: attachment; filename=revlist-f2b3345d15a7-617085fca637.txt
 
 8fc0e3b6a8666d656923d214e4dc791e9a17164a xfrm: interface: fix ipv4 pmtu check to honor ip header df
 c7c1abfd6d42be8f09d390ab912cd84983000fa2 vti: fix ipv4 pmtu check to honor ip header df
@@ -116,5 +116,6 @@ a14d273ba15968495896a38b7b3399dba66d0270 net: macb: restore cmp registers on res
 0600771fa6b231e801ba1ff5d7adfcf7659dbbf3 net: hns3: Remove un-necessary 'else-if' in the hclge_reset_event()
 22f69de18ee86e81dc41253869e5dd963ccea429 Merge branch 'hns3-fixes'
 08c27f3322fec11950b8f1384aa0f3b11d028528 batman-adv: initialize "struct batadv_tvlv_tt_vlan_data"->reserved field
+617085fca6375e2c1667d1fbfc6adc4034c85f04 can: mcp251x: fix support for half duplex SPI host controllers
 
---===============2166496540754108280==--
+--===============6838818607390903133==--
