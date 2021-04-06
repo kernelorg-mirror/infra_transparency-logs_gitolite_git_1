@@ -1,25 +1,38 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 06 Apr 2021 11:49:06 -0000
-Message-Id: <161770974649.27735.3885083722586539016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 06 Apr 2021 12:02:41 -0000
+Message-Id: <161771056134.4613.6900447755576951198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: mtk
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 99880a6727e250f45723b4fe1e29d6958cac5f01
-    new: 2673a70a57adb0acfe39416de245b357e7f1bcd4
+  - ref: refs/heads/for-linus
+    old: 417eadfdd9e25188465280edf3668ed163fda2d0
+    new: c6423ed2da6214a68527446b5f8e09cf7162b2ce
     log: |
-         241c425113d45833ec7f61374ed989d8ba5752d8 vsock.7: ffix
-         88b0e0e01d6d6cfaad1dc45272ac6e6965b55113 mount_namespaces.7, namespaces.7: Relocate reference to pam_namespace(8)
-         1cf1ada55ab506d603710d9cd190a6de79f1fec0 ioctl_userfaultfd.2: tfix
-         9ae36f1824fa9b557e5661bf4e25b2e7ae7aed9c userfaultfd.2: tfix
-         3ab99460dba029b7028be69980c2a41a08f4fbe9 mount.2: ffix
-         92a4b0935661bc42366511c47d8511ce2982922b pipe.2: Rearrange SYNOPSIS so that minority version pipe() is at end
-         2673a70a57adb0acfe39416de245b357e7f1bcd4 get_mempolicy.2, mq_getsetattr.2, poll.2: ffix
+         c6423ed2da6214a68527446b5f8e09cf7162b2ce ALSA: hda/conexant: Apply quirk for another HP ZBook G5 model
+         
+  - ref: refs/heads/for-next
+    old: 1678320e74d32054942182b19b1e9b42aaba8b29
+    new: 53cc2643c1498779c86ee8e038273c2b2d9c8126
+    log: |
+         53cc2643c1498779c86ee8e038273c2b2d9c8126 ALSA: control - off by one in store_mode()
+         
+  - ref: refs/heads/master
+    old: 2658c6beb1b726103649e311ec298224ed5abefa
+    new: 34026427f0a6febac2cee1629dd6e125daa27438
+    log: |
+         016c20506d5c30151196ab28c694ab10bc3604e6 ALSA: control - add the missing prev_lops2 initialization
+         62327ebbdf0097cda25579522424b350c65422a4 ALSA: control led - improve the set_led_id() parser
+         1678320e74d32054942182b19b1e9b42aaba8b29 Merge branch 'topic/mute-led' into for-next
+         53cc2643c1498779c86ee8e038273c2b2d9c8126 ALSA: control - off by one in store_mode()
+         0bb80dcfe5242da13fe9af29796d903a32245494 Merge branch 'for-next'
+         de1d6a504d064b5d05461163ab0ee892008da29c ALSA: usb-audio: Drop implicit fb quirk entries dubbed for capture
+         c6423ed2da6214a68527446b5f8e09cf7162b2ce ALSA: hda/conexant: Apply quirk for another HP ZBook G5 model
+         34026427f0a6febac2cee1629dd6e125daa27438 Merge branch 'for-linus'
          
