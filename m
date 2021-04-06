@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 06 Apr 2021 23:20:04 -0000
-Message-Id: <161775120421.31486.3498832411698076245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 06 Apr 2021 23:21:10 -0000
+Message-Id: <161775127032.32200.9773822273250075319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: b25b343db0526669947a427e9a31bac91d29bb06
-    new: 0f6925b3e8da0dbbb52447ca8a8b42b371aac7db
+    old: cc0626c2aaed8e475efdd85fa374b497a7192e35
+    new: e880f8b3a24a73704731a7227ed5fee14bd90192
     log: |
-         0f6925b3e8da0dbbb52447ca8a8b42b371aac7db virtio_net: Do not pull payload in skb->head
+         e880f8b3a24a73704731a7227ed5fee14bd90192 tcp: Reset tcp connections in SYN-SENT state
          
