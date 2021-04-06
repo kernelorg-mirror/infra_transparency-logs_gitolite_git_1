@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0697485553427626284=="
+Content-Type: multipart/mixed; boundary="===============2227834865761132238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Tue, 06 Apr 2021 10:44:04 -0000
-Message-Id: <161770584494.20076.1392103500400921792@gitolite.kernel.org>
+Date: Tue, 06 Apr 2021 10:44:14 -0000
+Message-Id: <161770585479.20207.240084329681119196@gitolite.kernel.org>
 
---===============0697485553427626284==
+--===============2227834865761132238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 132f2d45fb2302a582aef617ea766f3fa52a084c
-    new: d7d83b96021f8c4404fa9563677709051fb5394c
-    log: revlist-132f2d45fb23-d7d83b96021f.txt
+  - ref: refs/heads/master
+    old: d0922bf7981799fd86e248de330fb4152399d6c2
+    new: cc0626c2aaed8e475efdd85fa374b497a7192e35
+    log: revlist-d0922bf79817-cc0626c2aaed.txt
 
---===============0697485553427626284==
+--===============2227834865761132238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1617705840 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1617705851 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1617705839-0e9ca746e41ca24621e8df298baf6695b535149a
+nonce 1617705851-238ae434a66011f2d4f96bbdde53719ffbbe5cd1
 
-132f2d45fb2302a582aef617ea766f3fa52a084c d7d83b96021f8c4404fa9563677709051fb5394c refs/heads/testing
+d0922bf7981799fd86e248de330fb4152399d6c2 cc0626c2aaed8e475efdd85fa374b497a7192e35 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmBsO3ATHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqaVyB/9R3yBSM6dNwKHofC22JKfA5ALay6Ps
-5JoHPGtidbqm5Ep/2feurJqZn1On/WAbRpUcoyNDQqx6/lyZFd1JdqSpX4/+25bp
-cTGR8WLGspzuI5u1nLGDBxo+6mtHJieKSfe9XtcVvZr8iGW4M2wNA11061BiZ+qY
-Jw/WsNehQSDLzmr5PBcciWfh8y3POogtP4OsJIgbhH8pHC3GfaYao4ARENp3lOB+
-NGsX9jZf3mCZ3Y4h4yjP0GU2COeFRNtLK7jEJYsc6fmyoBT3pI9QCuz64xjqOf2Z
-Xv/85I0BO5Ev4wEDAzQh42xTQ11tuk7gkIvfgI9kVVfiobiaJu3GjFhx
-=nF6A
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmBsO3sTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqd19CACeDAmVYk2VBsjfFr71mDLLPnugpkt4
+ZznQKggYRrmvO5kjSf1Wj3fQIzz2bZreDls9sfQtgQ1V8wHheo7doC28UH61Tg4C
+IK8EYgRZQInk043q+g7MvYNgBCYu3mkMxpMI9nkFxgZVK/AtCqRPc4Qs+IUbPD4n
+hIPeewjVogFFJJ4Bv6uLKyI7lFaxtJWYOdf0PYNCLnUq4COFPpsYXGIPzF47eL2a
+tfTdjgL6PKfT3WF54aj32qlr+ZwT+/HvLINVKicx8k7Xy8jVT5qUTZWD+pc6ApYr
+uIKrFAi6Of3vMeJlr7fpdl4nxAAWcFKS3lkciEmfw5EN/PB8Sg5pb7Bc
+=fCgH
 -----END PGP SIGNATURE-----
 
---===============0697485553427626284==
+--===============2227834865761132238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-132f2d45fb23-d7d83b96021f.txt
+Content-Disposition: attachment; filename=revlist-d0922bf79817-cc0626c2aaed.txt
 
 80847a71b270b172814dc7562f3eb59507fca61e bpf: Undo ptr_to_map_key alu sanitation for now
 5d9034938720a15fa0f62db3e195c0c473c72c1b bpf: Fix typo 'accesible' into 'accessible'
@@ -93,6 +93,45 @@ c809cf665e28449ba7fec93089718bc8751a52cc net/mlx5e: Cleanup Flow Steering level
 e5fe49465d463ca6c029869e42e9ba5e895cce02 net/mlx5e: Add PTP Flow Steering support
 960fbfe222a490622cfb3949061b20f83ef46fb0 net/mlx5e: Allow coexistence of CQE compression and HW TS PTP
 885b8cfb161ed3d8f41e7b37e14d35bd8d3aaf6b net/mlx5e: Update ethtool setting of CQE compression
+8560b0e7633b97be53a7209fb1ca3efeaae7aa88 MAINTAINERS: remove Dan Murphy from m_can and tcan4x5x
+ba23dc6dcab5da1d421a8811f7ed0bc40a4efabb MAINTAINERS: Update MCAN MMIO device driver maintainer
+7119d7864bc5a02e1ec31497a16666ffafcc2465 can: dev: always create TX echo skb
+4168d079aa41498639b2c64b4583375bcdf360d9 can: dev: can_free_echo_skb(): don't crash the kernel if can_priv::echo_skb is accessed out of bounds
+f318482a1c57315d0efccd2861f153f55c2117c6 can: dev: can_free_echo_skb(): extend to return can frame length
+289ea9e4ae595545e736a63ccaadba65f880e9a4 can: add new CAN FD bittiming parameters: Transmitter Delay Compensation (TDC)
+4c9258dd26fdb3bacb35e767fa55c9a03a78a08e can: dev: reorder struct can_priv members for better packing
+cfd98c838cbea6d084830d841f06ebaf0bea36de can: netlink: move '=' operators back to previous line (checkpatch fix)
+c25cc7993243fdc00ab7e608e3764819538015ab can: bittiming: add calculation for CAN FD Transmitter Delay Compensation (TDC)
+1d7750760b70ba8b0e641146eee1b3a343d1b292 can: bittiming: add CAN_KBPS, CAN_MBPS and CAN_MHZ macros
+51894cbae49e8c8dba01ee9f7f5030d1f81f4fa9 can: grcan: add missing Kconfig dependency to HAS_IOMEM
+a3497afbe9268cf64e431e9808916f1318d26b3d can: xilinx_can: Simplify code by using dev_err_probe()
+27868a8fc1d0ba7abeac3e24b1a723c21c76581b can: ucan: fix alignment constraints
+cfe2a4ca1e0691c3e1f899e04e883c3d584e89fd can: peak_usb: pcan_usb_pro_encode_msg(): use macros for flags instead of plain integers
+a7e8511ffda6a81ba6b49c22d0ed296caeff438c can: peak_usb: add support of ethtool set_phys_id()
+58b29aa9d47128ec6ee8fd731b0f137a82f0b9ea can: peak_usb: add support of ONE_SHOT mode
+8fa12201b6521a8752a2474229a81b0aa09c2b93 can: m_can: m_can_class_allocate_dev(): remove impossible error return judgment
+17447f08202d7599a61bc218343b8e7da0a23fa6 can: m_can: add infrastructure for internal timestamps
+df06fd678260bca919ea894281ec54ce10e45ce6 can: m_can: m_can_chip_config(): enable and configure internal timestamps
+1be37d3b0414e3db47f6fcba6c16286bbae0cb65 can: m_can: fix periph RX path: use rx-offload to ensure skbs are sent from softirq context
+6c23fe67e8dc825ef2fd34d1dac12fc970140a8b can: tcan4x5x: remove duplicate include of regmap.h
+e0ab3dd5f98fcca95a8290578833552e496fabaf can: mcp251xfd: add dev coredump support
+eb94b74ccda607f3c0e441d793ff9f90fc3b09ea can: mcp251xfd: simplify UINC handling
+ae2e9940112064ca21a807f543822a1eea2731d6 can: mcp251xfd: move netdevice.h to mcp251xfd.h
+dc09e7e37152d1d18511cd590980d3982a3a0daa can: mcp251xfd: mcp251xfd_get_timestamp(): move to mcp251xfd.h
+efd8d98dfb900f96370cc7722ccb7959e58557c7 can: mcp251xfd: add HW timestamp infrastructure
+5f02a49c6605fbd85c00acd19a10e149bba5c162 can: mcp251xfd: add HW timestamp to RX, TX and error CAN frames
+172f6d3a031b5ecb22e7dd8c4462f4eeabde3d63 can: c_can: convert block comments to network style comments
+beb7e88a2650ae7bb8ec6e4b73d2de816893d68e can: c_can: remove unnecessary blank lines and add suggested ones
+2de0ea97ade0d087699af329ecd212b2967bcf58 can: c_can: fix indention
+0c1b0138d641316bba1871e127fc1c7ef0e029e3 can: c_can: fix print formating string
+995380f3fbfbce3d700293f375aae0a1ddad3266 can: c_can: replace double assignments by two single ones
+dd477500c70b9e721bcf612bce1ddf5752a2de2b can: c_can: fix remaining checkpatch warnings
+f65735c203d5af0c32f0c89d6a431900fb8b83e2 can: c_can: remove unused code
+c8a6b44388cb60a3851520902e286c202fc5c725 can: c_can: fix indentation
+eddf67115040b9e875e8a153816df89f66b4c5b6 can: c_can: add a comment about IF_RX interface's use
+fcbded019855136a3d99d74ef8b44e8f87120fb2 can: c_can: use 32-bit write to set arbitration register
+13831ce69c775fb8186275fdeb91fa6daff2196c can: c_can: prepare to up the message objects number
+132f2d45fb2302a582aef617ea766f3fa52a084c can: c_can: add support to 64 message objects
 5bdca94ff30d99168c3c09394da664c3c37c6834 bpf: Update bpf_design_QA.rst to clarify the kfunc call is not ABI
 2ba4badca9977b64c966b0177920daadbd5501fe bpf: selftests: Update clang requirement in README.rst for testing kfunc call
 b83fd195c228bdb7b45f3933919296fa6511fcf5 Merge branch 'bpf: Update doc about calling kernel function'
@@ -327,10 +366,5 @@ d3295869c40cb69a2c599000009b3fde43cec2ec net: nfc: Fix spelling errors in net/nf
 eeb85a14ee3494febb85ccfbee0772eda0823b13 net: Allow to specify ifindex when device is moved to another namespace
 d392ecd1bc29ae15b0e284d5f732c2d36f244271 net: hns3: Limiting the scope of vector_ring_chain variable
 cc0626c2aaed8e475efdd85fa374b497a7192e35 net: smsc911x: skip acpi_device_id table when !CONFIG_ACPI
-cfff2fc621ddcdcd5905556b65677cd20ad8648f can: m_can: m_can_receive_skb(): add missing error handling to can_rx_offload_queue_sorted() call
-d5eaf82a04ba73097ee6ce9a05fb55b6325abd07 can: c_can: remove unused enum BOSCH_C_CAN_PLATFORM
-eccfa7c93f77cf044b83ab584844b06883c19113 can: mcp251xfd: add BQL support
-94af28b9b2b18527462d5dac3d13961c3593e9dd can: mcp251xfd: mcp251xfd_regmap_crc_read_one(): Factor out crc check into separate function
-d7d83b96021f8c4404fa9563677709051fb5394c can: mcp251xfd: mcp251xfd_regmap_crc_read(): work around broken CRC on TBC register
 
---===============0697485553427626284==--
+--===============2227834865761132238==--
