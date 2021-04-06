@@ -1,57 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3382397107969521023=="
+Content-Type: multipart/mixed; boundary="===============2691071525897071750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 06 Apr 2021 05:20:03 -0000
-Message-Id: <161768640330.1871.18222158584253500593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 06 Apr 2021 05:20:32 -0000
+Message-Id: <161768643243.2492.11777240970054381415@gitolite.kernel.org>
 
---===============3382397107969521023==
+--===============2691071525897071750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: de800f290dfaa341f22acac22bc454ea2bbf8f71
-    new: f70d436f000101876439ce25527a9939628c9518
+  - ref: refs/heads/char-misc-next
+    old: 422d2245136a2c49550dc83ca9735dd4d8ea71f7
+    new: 177260a705a9c45efa55345881724208421f7f3e
     log: |
-         1e2ed7b222b83795152cbbb78d6465033b20b252 usb: typec: Organize the private headers properly
-         f70d436f000101876439ce25527a9939628c9518 usb: typec: Declare the typec_class static
+         376565b9717c30cd58ad33860fa42697615fa2e4 misc: vmw_vmci: explicitly initialize vmci_notify_bm_set_msg struct
+         b2192cfeba8481224da0a4ec3b4a7ccd80b1623b misc: vmw_vmci: explicitly initialize vmci_datagram payload
+         e8a30eef6ef6da4998fcdaaffaaf8d29777c5d7d misc: Add Synopsys DesignWare xData IP driver
+         e1181b5bbc3c3b6a16a0a80a870279ad1dccfeea Documentation: misc-devices: Add Documentation for dw-xdata-pcie driver
+         49917294ab29bc0d06177049955eceb3ee53c1c6 MAINTAINERS: Add Synopsys xData IP driver maintainer
+         177260a705a9c45efa55345881724208421f7f3e docs: ABI: Add sysfs documentation interface of dw-xdata-pcie driver
          
 
---===============3382397107969521023==
+--===============2691071525897071750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617686398 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1617686398-f84c958146b6eb74fb768a5082b6b0009e8a022a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617686427 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1617686427-c8a086484c542d085c8be6026c7ebb2b284c95e5
 
-de800f290dfaa341f22acac22bc454ea2bbf8f71 f70d436f000101876439ce25527a9939628c9518 refs/heads/usb-next
+422d2245136a2c49550dc83ca9735dd4d8ea71f7 177260a705a9c45efa55345881724208421f7f3e refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBr734bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9awP/1vb//alYKI1AZ6zZUyE
-K/TdBNBaZ7beeAPg57l43iBzirct2x1gZxoOTJbobUuj+oSum2Gs8u1vPTWyCJ8C
-DcIpLOYinLK4YYgsWbgiXpNAq5AKHbNGmIefjC0sGv9gOL+yBmk72+FtAgodrQs5
-RhCWOl85anN6vHTaHrDBUwIm2UfJ+t4YGOxDlYQOuco6Nmt/1tzod04AK7W8zDr8
-fECSV6sSQG+7bmUpXeme8ui0v/9tmB2IjnfhQnrfioGobRHbyBuTh66/13nH+eY5
-chbhDmvYmsuzE0w7HAj3rxglYhcdvxGvoqEg8FocrPQ+wgt3ky2oWZS1AjwuCAHM
-4ddxqig2koZ9lViedmdO+FQm+aoXvcQLCHdQQCt5FDEI6DzCSOvTmCxtOAP9U+v+
-qwhTdnfHrrYTQBoKkvoGF31vhdhSLQ/wzWFp53c86pjsSPxxYf2dDIf/T53cpOLW
-z5Bmh3/hdPOzvLf/5ELmu/BmHWVu1Zcbzafss0YidHEGBAfTo9VJLDXMxorBJ4Pj
-3G3+USXJJs9jDTNIRaynYEBf/nYVArKyXgvlqvwOvI8yWI1ncoXqNieucx1r693/
-czMdA5bCbjfOVKrboS4FHYpa9uzUQdQygpw7YSho5ub/1VlPi9m0A+XF4+8nii0c
-BF825Mx99/s8Eb7qZ0RcMAcv
-=c58a
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBr75sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Zf0P/iFnTqLSN9EasZWLNu/c
+nqKdsT6DneaFWtTAJZF+XT+quemDaqEAEZsqrO+706g/qnoaTgzuKK/1E/hjSFRD
+HjU6dagqecJlT6vTnzVoXAAC7yC2/2hKFKgdCz7jmZwdwZnFJMYbDlMaKhSoblgq
+sj7zpgm/5N9bDTuYTQJWoCjJhELl+9cxKYX/eGoD4H9oUcoFf+NupwrLP8nOfh2Z
+LhXj4rnhszVF/z/KlfQss/fn9ksofJr+IzEiz+ZbVTMSZQfVUIsUHC9us7oM+FuE
+UNRccFbMqWY89cUgfDAeSfOW8qpA9VlTmEG/BkOB06KYNrphRWiI44p4cs7VW35K
+oCfqkoa9TusO79UQK0O9NXB3xl3wxEq42zToBt9LLwfK5T8D+UbtXBnHLUmGGo+S
++io6G7CbJQF4LNIqKT/EGLgstFC5AsJYYlYmQnBmf+sAhxynOV1Mh6lrsFzd5MPW
+cohws74+QRd9YANSYIPwuZywR/6gxRggYWCWY1UmrHYuDfnHr1nRmDde2l7MA+D6
+IR5+ugbHfHS6mbaXSoxFi6yLEQ2NfuL/17TJ7cSK1SxXpoJvoT8KBk+sj8QbL1L8
+OINv8gX+hlss1HiQfKrpcW77irKIw/QZ+z4zPcBg13HEet6HDe2HrtJGIE67FmiX
+SiI8Q1p5L9iCz0RsDIBNC4q/
+=4kUX
 -----END PGP SIGNATURE-----
 
---===============3382397107969521023==--
+--===============2691071525897071750==--
