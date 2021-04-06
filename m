@@ -1,61 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2691071525897071750=="
+Content-Type: multipart/mixed; boundary="===============1081884990608131125=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 06 Apr 2021 05:20:32 -0000
-Message-Id: <161768643243.2492.11777240970054381415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Tue, 06 Apr 2021 05:20:56 -0000
+Message-Id: <161768645674.2800.18035844053364529369@gitolite.kernel.org>
 
---===============2691071525897071750==
+--===============1081884990608131125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 422d2245136a2c49550dc83ca9735dd4d8ea71f7
-    new: 177260a705a9c45efa55345881724208421f7f3e
+  - ref: refs/heads/tty-next
+    old: 9594408763d439287742d5582842db6a476bbd71
+    new: 158e800e0fde91014812f5cdfb92ce812e3a33b4
     log: |
-         376565b9717c30cd58ad33860fa42697615fa2e4 misc: vmw_vmci: explicitly initialize vmci_notify_bm_set_msg struct
-         b2192cfeba8481224da0a4ec3b4a7ccd80b1623b misc: vmw_vmci: explicitly initialize vmci_datagram payload
-         e8a30eef6ef6da4998fcdaaffaaf8d29777c5d7d misc: Add Synopsys DesignWare xData IP driver
-         e1181b5bbc3c3b6a16a0a80a870279ad1dccfeea Documentation: misc-devices: Add Documentation for dw-xdata-pcie driver
-         49917294ab29bc0d06177049955eceb3ee53c1c6 MAINTAINERS: Add Synopsys xData IP driver maintainer
-         177260a705a9c45efa55345881724208421f7f3e docs: ABI: Add sysfs documentation interface of dw-xdata-pcie driver
+         1b8dc3988dd204aef296047a02364b5ad823f1b4 dt-bindings: serial: Add rx-tx-swap to stm32-usart
+         3cd66593725a234662955baaf78d2ce5333de56d tty/serial: Add rx-tx-swap OF option to stm32-usart
+         158e800e0fde91014812f5cdfb92ce812e3a33b4 sc16is7xx: Defer probe if device read fails
          
 
---===============2691071525897071750==
+--===============1081884990608131125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617686427 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1617686427-c8a086484c542d085c8be6026c7ebb2b284c95e5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617686452 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1617686451-ee0272439560359f06b037e910d6bb39e9320d70
 
-422d2245136a2c49550dc83ca9735dd4d8ea71f7 177260a705a9c45efa55345881724208421f7f3e refs/heads/char-misc-next
+9594408763d439287742d5582842db6a476bbd71 158e800e0fde91014812f5cdfb92ce812e3a33b4 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBr75sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Zf0P/iFnTqLSN9EasZWLNu/c
-nqKdsT6DneaFWtTAJZF+XT+quemDaqEAEZsqrO+706g/qnoaTgzuKK/1E/hjSFRD
-HjU6dagqecJlT6vTnzVoXAAC7yC2/2hKFKgdCz7jmZwdwZnFJMYbDlMaKhSoblgq
-sj7zpgm/5N9bDTuYTQJWoCjJhELl+9cxKYX/eGoD4H9oUcoFf+NupwrLP8nOfh2Z
-LhXj4rnhszVF/z/KlfQss/fn9ksofJr+IzEiz+ZbVTMSZQfVUIsUHC9us7oM+FuE
-UNRccFbMqWY89cUgfDAeSfOW8qpA9VlTmEG/BkOB06KYNrphRWiI44p4cs7VW35K
-oCfqkoa9TusO79UQK0O9NXB3xl3wxEq42zToBt9LLwfK5T8D+UbtXBnHLUmGGo+S
-+io6G7CbJQF4LNIqKT/EGLgstFC5AsJYYlYmQnBmf+sAhxynOV1Mh6lrsFzd5MPW
-cohws74+QRd9YANSYIPwuZywR/6gxRggYWCWY1UmrHYuDfnHr1nRmDde2l7MA+D6
-IR5+ugbHfHS6mbaXSoxFi6yLEQ2NfuL/17TJ7cSK1SxXpoJvoT8KBk+sj8QbL1L8
-OINv8gX+hlss1HiQfKrpcW77irKIw/QZ+z4zPcBg13HEet6HDe2HrtJGIE67FmiX
-SiI8Q1p5L9iCz0RsDIBNC4q/
-=4kUX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBr77QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TKYP/0+6DI03T0bflj1BZaD+
+6WbkQ5VKee4OoKbDpubHfqfK6BACHv87UxEp2azdV3+CBprLui9+z3dxOY1PiIaW
+5N98Pkvk3G0z5yph6JYUCKliD3pLyqboD2LMNBe2vCOPzml9om9/jVjOBC7YA9IP
+WN+niENItYvRwgiW9xhzm9GKnz9d+jf4twc1gw8bikuZHggKb/ccAtUNfLafNgCL
+8VzSaqV77G1UOfqHHRDJBH+6dfh/F5iMBjTH9q8WrBi6SAYDQFhW3VH2+FFv5IWE
+5O1ZY2pZbWxOqpXQaNgeryOJl3OeeEJ46PbMoOZ3mLXUMwQga3eXc2HpXCZ0VlxV
+QVwJMu1DS8E9qDAdvMaDDdxHMpUWIBsDKB25bTNp85bDNL5MZDZi4Ubu6ZsaqcqE
+wZRRrSDNArXocfLlgvTbeyeHV4yYG7j70cyjlpFGDpk0EcsKhnYq3mArLKWRP8hr
+4HOspy1xhqVRSdysZXeyvDD0LvUHwy0hHoyy2cG9byUExuNngJ/k+fLbVzNeUqTO
+nJwg6LdlU6t5SljzCet7xOnlXxaL6MJ3Ov7WKTlxJTXV1VAcrZGpDy5WDAdQ2XkK
+fT0hFQOkd3EwhoOKkKVEWuiQS3BKBzakpqcUzforhDS6rbmdWKDKBVAv7iDbStg2
+ZJyviTErrOGXyIOhyoND/tcD
+=sDcy
 -----END PGP SIGNATURE-----
 
---===============2691071525897071750==--
+--===============1081884990608131125==--
