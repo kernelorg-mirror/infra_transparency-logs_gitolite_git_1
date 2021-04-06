@@ -1,55 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0479630130913454345=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 06 Apr 2021 04:51:09 -0000
-Message-Id: <161768466911.16843.15294743368740675132@gitolite.kernel.org>
-
---===============0479630130913454345==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Tue, 06 Apr 2021 05:03:13 -0000
+Message-Id: <161768539363.23159.13499798065106974551@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
+user: vkoul
 changes:
-  - ref: refs/heads/for-next
-    old: ce502031e492b3c971c9c00ddccd6e9a4841d474
-    new: 857a80bbd7321161f986588160d97815d1b1206a
+  - ref: refs/heads/next
+    old: 221b14f733fea5e38b45d56cb3764a227b9ecda1
+    new: 14968dd36a507866be0edfc2a05d48c997da5d99
     log: |
-         857a80bbd7321161f986588160d97815d1b1206a scsi: libsas: Clean up whitespace
+         48f17f96a81763c7c8bf5500460a359b9939359f soundwire: stream: fix memory leak in stream config error path
+         f4022062e5417ab7228e95aec1a8687059a19db7 soundwire: add static port mapping support
+         650dfdb894f0f2bc568a29ab91c704dca587458b soundwire: qcom: update port map allocation bit mask
+         eb5a909441a896fe9e230086363284a09c23e5df soundwire: qcom: add static port map support
+         a661308c34de8cbd22165edf63dbd24ccb914981 soundwire: qcom: wait for fifo space to be available before read/write
+         9916c02ccd74e672b62dd1a9017ac2f237ebf512 soundwire: qcom: cleanup internal port config indexing
+         e729e0fdc63d8f22cbce61159cee88c04e42b3e2 soundwire: qcom: handle return correctly in qcom_swrm_transport_params
+         14968dd36a507866be0edfc2a05d48c997da5d99 soundwire: intel_init: test link->cdns
          
-
---===============0479630130913454345==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1617684667 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1617684667-1dfbf2cc4b9a134b6ef169b9e6bb5b37036e8080
-
-ce502031e492b3c971c9c00ddccd6e9a4841d474 857a80bbd7321161f986588160d97815d1b1206a refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBr6LsACgkQ7ulgGnXF
-3j0EwRAAiKMNSwHFe0KPwxWC9WiORquoUQV4IaL1uZjTbtcAXVzCJdVGHxk4a5dm
-dywFBNnQokT4e8Y+tFpcrV+kywz+6JEIgygZRk7muO9KNDzJd8OS+viXjOKaIz0a
-bl70HHYybMWos70WVmO44lkxw9eLEjHOTOu/OWER1Otx3Yw/j2JaD8BODKSwR24W
-ecaVz63vbspiPwBLBb/gjp1lngD8Nvud/BbKekiRUB8U1+cPE46gzfL0eaQGbu7+
-2Z8QD3x3CJA50tZYIlbFrbCcu4oCNMjUk7gya2is72gvj/Sp19olvYFJXTzRNevZ
-qJukii498oOmSBuYJYTIkcPwlGuSD7YUz3YZuCkwJ0bSMMQPiry6+1DuoUejQgBA
-aUZlJntpBgngDqew3wqPU5ML37JKSQe1Y1NyxVI9ic06Gp2I1tiHcxooZcdOOwyQ
-v/jkq2MX3QmmqMXof7bEoXSOzlQ7otmFjfgB4cbuq6T4KmTEW9OJ1xlCTrXc1s/Q
-4++pnFh+K4nHgYXziIAsfwdEnMDPIzk9SSCS6VrV+4uw5Mox2iqLt1dMm7IOdJnG
-9PmOTQWJlzoQunUNvX7wlBrtBYQBa5mW7tPfP/HZNx09NQb5dBRH7AAjAeiaxeHB
-088Q7r9H9RCy2hdqZxqV65020H1EPFP6KZQ5X2ZDn/bLb/18X98=
-=eozd
------END PGP SIGNATURE-----
-
---===============0479630130913454345==--
