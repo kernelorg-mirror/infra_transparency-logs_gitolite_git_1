@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1534691607073727391=="
+Content-Type: multipart/mixed; boundary="===============6207622443575583843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Tue, 06 Apr 2021 07:35:47 -0000
-Message-Id: <161769454774.18767.12251112876822277351@gitolite.kernel.org>
+Date: Tue, 06 Apr 2021 07:35:54 -0000
+Message-Id: <161769455431.18909.3928036516503758402@gitolite.kernel.org>
 
---===============1534691607073727391==
+--===============6207622443575583843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 2eb05a181bda0875199521407134f6b98109d0a9
-    new: 2a87461a35b76691d4e7577bf28fff7f99208719
-    log: revlist-2eb05a181bda-2a87461a35b7.txt
+  - ref: refs/heads/for-next
+    old: 152ec0d0d0e1643cd6392b691c3dd6d1fb0fe391
+    new: 7accea0c95a1ce4cf1bbf622c42b00c27a2dd51d
+    log: |
+         b19df649adcba4f934a1438dbb21f5f1cb883608 m68k: mm: Fix flatmem memory model setup
+         efdf262e11437f1bb6bcb35c16ac5c3c4cd07c67 m68k: defconfig: Update defconfigs for v5.12-rc1
+         8e4633daccf8706ef80f31e528dad69938460126 m68k: syscalls: switch to generic syscalltbl.sh
+         cbfa72b57747f8b87df16396d85e832c8bf03811 m68k: syscalls: switch to generic syscallhdr.sh
+         43262178c043032e7c42d00de44c818ba05f9967 m68k: mvme147,mvme16x: Don't wipe PCC timer config bits
+         418db20a82a48b8aa08a8f0691125384e2cbc290 m68k: fpsp040: Remove meaningless $(OS_OBJS)
+         7accea0c95a1ce4cf1bbf622c42b00c27a2dd51d m68k: fpsp040,ifpsp060: Remove meaningless EXTRA_LDFLAGS
+         
+  - ref: refs/heads/m68k-queue
+    old: 32b06d2b83993b1146cae6c176724b4c3495d4b8
+    new: a5523382a4e15e56cdd6d4e3249074aff4f5a577
+    log: revlist-32b06d2b8399-a5523382a4e1.txt
 
---===============1534691607073727391==
+--===============6207622443575583843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2eb05a181bda-2a87461a35b7.txt
+Content-Disposition: attachment; filename=revlist-32b06d2b8399-a5523382a4e1.txt
 
 7c911f9de7abb89f46254d2fecb11dcb4a7a6c30 interconnect: qcom: msm8939: remove rpm-ids from non-RPM nodes
 715ea61532e731c62392221238906704e63d75b6 interconnect: core: fix error return code of icc_link_destroy()
@@ -210,10 +222,14 @@ d83e98f9d8c88cbae1b05fa5751bddfcf0e222b2 Merge tag 'io_uring-5.12-2021-04-03' of
 2023a53bdf41b7646b1d384b6816af06309f73a5 Merge tag 'for-linus' of git://github.com/openrisc/linux
 829933ef05a951c8ff140e814656d73e74915faf firewire: nosy: Fix a use-after-free bug in nosy_ioctl()
 e49d033bddf5b565044e2abe4241353959bc9120 Linux 5.12-rc6
-14996ee7a864db88b6949699ec3d5e1623494af1 Merge tag 'v5.12-rc6'
-86777c80b75c3a9db01c58f29c241554f993de18 m68k: mm: Fix flatmem memory model setup
-73b02a65c846030d12754bcce2bfd24656d51c84 m68k: mvme147,mvme16x: Don't wipe PCC timer config bits
-6373b506ef625aefea6ec3565520079dec94f9d1 m68k: fpsp040: Remove meaningless $(OS_OBJS)
-2a87461a35b76691d4e7577bf28fff7f99208719 m68k: fpsp040,ifpsp060: Remove meaningless EXTRA_LDFLAGS
+4e6b4fe47a4b9c7043ac8d296fdfcf7a305d5cca m68k: mm: Fix flatmem memory model setup
+38f810f18b7910d929f1fb16f8884cedcc351ff7 m68k: syscalls: switch to generic syscalltbl.sh
+8df37ac60a62ea5d04da944681d0456fb347fa96 m68k: syscalls: switch to generic syscallhdr.sh
+e5749f264b2c47349bc0620cf8e301231384eebb m68k: atari: usb: Add ISP1160 USB host controller support
+42b58005f2d81fdd5c2acc43319c77c72d07511c m68k: atari: Update Kconfig.bus help text
+c975d02623e83c54c3f9ce763d91189febfd790a m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+f4f10b60a9fbd69d291612fb55203800a7a400b6 m68k: mvme147,mvme16x: Don't wipe PCC timer config bits
+b91bd2946936a30ab8a644a02af5ecb1d59ad1ee m68k: fpsp040: Remove meaningless $(OS_OBJS)
+a5523382a4e15e56cdd6d4e3249074aff4f5a577 m68k: fpsp040,ifpsp060: Remove meaningless EXTRA_LDFLAGS
 
---===============1534691607073727391==--
+--===============6207622443575583843==--
