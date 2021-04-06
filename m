@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 06 Apr 2021 20:14:14 -0000
-Message-Id: <161774005435.14594.10185544458871587961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 06 Apr 2021 20:30:43 -0000
+Message-Id: <161774104311.26007.14022013388828747358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: 0a50438c84363bd37fe18fe432888ae9a074dcab
-    new: 2d743660786ec51f5c1fefd5782bbdee7b227db0
+  - ref: refs/heads/for-next
+    old: d3971413327e22c9e22ab99894e0e4c17fc32ba9
+    new: 8a4d4cd15c393963ab07cddb699ee0ced2792899
     log: |
-         7f6c411c9b50cfab41cc798e003eff27608c7016 hostfs: fix memory handling in follow_link()
-         7d01ef7585c07afaf487759a48486228cd065726 Make sure nd->path.mnt and nd->path.dentry are always valid pointers
-         2d743660786ec51f5c1fefd5782bbdee7b227db0 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+         6031008780efaada18087eba7ec84fe149f124a9 ARM: exynos: correct kernel doc in platsmp
+         8a4d4cd15c393963ab07cddb699ee0ced2792899 Merge branch 'next/soc' into for-next
+         
+  - ref: refs/heads/next/soc
+    old: 19f5027e0394d2f3e1766200b6bbde660f0b7848
+    new: 6031008780efaada18087eba7ec84fe149f124a9
+    log: |
+         6031008780efaada18087eba7ec84fe149f124a9 ARM: exynos: correct kernel doc in platsmp
          
