@@ -1,50 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8633923142204823366=="
+Content-Type: multipart/mixed; boundary="===============7220583495105311540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 07 Apr 2021 20:22:10 -0000
-Message-Id: <161782693069.2710.12437431928584027830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 07 Apr 2021 20:22:17 -0000
+Message-Id: <161782693777.2807.5684067026069116211@gitolite.kernel.org>
 
---===============8633923142204823366==
+--===============7220583495105311540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-5.13
-    old: 394409aafd017adfcffd075595cb01cc456a9327
-    new: 14e13b1ce92ea278fc0d7bb95b340b46cff624ab
+  - ref: refs/heads/for-5.13
+    old: d6644a1c2e17febf261fd692bb32271e5779bbd2
+    new: 0e6521f13c297de32906ad7f691905803b2b2880
     log: |
-         14e13b1ce92ea278fc0d7bb95b340b46cff624ab regmap-irq: Fix dereference of a potentially null d->virt_buf
+         9a446cf97af70ee81ba177703b67ac4955a5edcc spi: hisi-kunpeng: Fix Woverflow warning on conversion
+         0e6521f13c297de32906ad7f691905803b2b2880 spi: orion: Use device_get_match_data() helper
          
 
---===============8633923142204823366==
+--===============7220583495105311540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1617826913 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1617826928-658db43d0a49f4720ff9127ab1d603c482962b92
+pusher C3F436CA30F5D8EB 1617826920 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1617826935-f76c849670725dbbcf8bbff9c6adfb56e572ef37
 
-394409aafd017adfcffd075595cb01cc456a9327 14e13b1ce92ea278fc0d7bb95b340b46cff624ab refs/heads/regmap-5.13
+d6644a1c2e17febf261fd692bb32271e5779bbd2 0e6521f13c297de32906ad7f691905803b2b2880 refs/heads/for-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBuFGEACgkQJNaLcl1U
-h9Bs4Qf/Vcgtto1kl7T0X3L0syircIvYLIvuOH9jo4U7u3CFdlZ+JhetWMDJMMqL
-YEbKz1eINXFhXLx8/GlhSf+UYhr7ksWR9b+ot3IBCf7+E7i4pvI6qArlWoc7UmWu
-z187K+aBhW51FmpDemZpBr0sfecBYigSpZX5HFDuEyyTpPMV89sDnWHDfM8vVkgP
-xSjI7vMNNFbZLFkjHXm8BhtUw4p6HAhUFR4Q4wEgWnGcoXu5NDi9SW0hfn+/v8ya
-eLEJnyrbQI9LLWPAxG03jSnUp1VQwlrtS4mKA7uir4e6R+L17l8VKDFtrlY/C+N6
-97oWV1TMD1I7TD+lVb5fNi+EdZl6vg==
-=0vWH
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBuFGgACgkQJNaLcl1U
+h9CyNAf+LxMzc+0Cu4tDg6dzjwO2Cr5jIIVlYiWPGuQGIv5g3uG++DXSukjJvY8D
+lPcNqWaOw+ifhmAXT32Gzzv2DkYjKA1OLWq0+URde8DFG7YTOOYuCgJp+GjVAnHo
+hDwX8DIwWnM2gtOPDTwj2ejSNUKABDx9bBSRs/v7WHFPa1Zv29wJgS1NWl/MdNRh
+JhGlR0OMFyUPUB9miO3bt/Z3O6iJvNqO0fpzLFVcq6X8v3ieCXgFAbGjYQF1onhL
+qZ599cYb0hLsXcsUU8wjGgQccD6J89lqBcS0GEvN0+yXGJM9ZS+uZP5gFJqohFYx
+kfLyVB/x51tjXWsD52OYXWkZo4ZaBg==
+=IwYy
 -----END PGP SIGNATURE-----
 
---===============8633923142204823366==--
+--===============7220583495105311540==--
