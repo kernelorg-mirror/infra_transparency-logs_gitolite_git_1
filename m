@@ -1,43 +1,100 @@
-Content-Type: multipart/mixed; boundary="===============1157402064746676524=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 07 Apr 2021 14:33:55 -0000
-Message-Id: <161780603547.12793.13371928052370133022@gitolite.kernel.org>
-
---===============1157402064746676524==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan
+Date: Wed, 07 Apr 2021 14:47:46 -0000
+Message-Id: <161780686696.20696.4844995032344680143@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/sschmidt/wpan
+user: sschmidt
 changes:
-  - ref: refs/heads/for-next
-    old: 3dcf76cc87458d87fff0b32f5a2f6074ca10adfa
-    new: 5b00d3923d4d7dfc971349be21070768e90c0722
-    log: revlist-3dcf76cc8745-5b00d3923d4d.txt
-
---===============1157402064746676524==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3dcf76cc8745-5b00d3923d4d.txt
-
-06aa9d31afad665e095fce207ad50c8999be2486 kconfig: streamline_config.pl: Couple of typo fixes
-1957ddc177ee0d3ff06fb36f0149b198472a2b46 kconfig: lxdialog: A spello fix and a punctuation added
-fdac8b8ac095b8994cc9aed401ff8a088bdc2127 scripts: modpost.c: Fix a few typos
-2361c6287090b9f5fa9c071e3468d884631619b2 kbuild: remove unneeded mkdir for external modules_install
-c963f5bfc53e6293fff62d2d69ced4e0885ec901 kbuild: unify modules(_install) for in-tree and external modules
-515045ed86cb4cf46012b6fca8e85e382b99ebf1 kbuild: show the target directory for depmod log
-afd16418b5e3903d397b3eabab6572541fab814f kbuild: check module name conflict for external modules as well
-b6b4cb69935644726d982a69aafee962baa089ca kbuild: rename extmod-prefix to extmod_prefix
-f3fdc209ec47e5a1e073b1086d387e417795c523 kbuild: refactor scripts/Makefile.modinst
-2f8864dbe6689af0728ca0d80e63055bb6e638a9 kbuild: move module strip/compression code into scripts/Makefile.modinst
-0f82c48372dea6d125cf841513c67a9744a97aae kbuild: merge scripts/Makefile.modsign to scripts/Makefile.modinst
-610eb48a84bde2336d48ef5f4954b7b8d2308ea5 kbuild: remove CONFIG_MODULE_COMPRESS
-5b00d3923d4d7dfc971349be21070768e90c0722 Merge remote-tracking branch 'origin/kconfig' into for-next
-
---===============1157402064746676524==--
+  - ref: refs/tags/ieee802154-for-davem-2021-04-07
+    old: 0000000000000000000000000000000000000000
+    new: 1165affd484889d4986cf3b724318935a0b120d8
+  - ref: refs/tags/net-5.10-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a5eed745c966c31895689f57c3b6b8cb73d7f52e
+  - ref: refs/tags/net-5.10-rc7
+    old: 0000000000000000000000000000000000000000
+    new: e6a9e3fe2a8fa7b7a3b6259a5883d32a92f59278
+  - ref: refs/tags/v5.10
+    old: 0000000000000000000000000000000000000000
+    new: 3f995f8e0b540342612d3f6b1fc299f5bf486987
+  - ref: refs/tags/v5.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 8ccd3b86485397172cf41d07ede9c26fc8bf9d88
+  - ref: refs/tags/v5.10-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 27598e7e73260ed0b2917eb02d4a515ebb578313
+  - ref: refs/tags/v5.10-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 4d3d761b5b27bb33a731e8df51b7fb6a6c565804
+  - ref: refs/tags/v5.10-rc4
+    old: 0000000000000000000000000000000000000000
+    new: a93711503472d4c89977ce2c80dcd4b75e36cc45
+  - ref: refs/tags/v5.10-rc5
+    old: 0000000000000000000000000000000000000000
+    new: af69a948d2ce48f8bfe9935958d12f86fb50326b
+  - ref: refs/tags/v5.10-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 2884f0b6b25db35053dd51e8e1839696746d8321
+  - ref: refs/tags/v5.10-rc7
+    old: 0000000000000000000000000000000000000000
+    new: dd0039844c8b2b960d0e0175923da0135f87c392
+  - ref: refs/tags/v5.11
+    old: 0000000000000000000000000000000000000000
+    new: 2d073d933799ffaa046c773bfffa01f3aa461701
+  - ref: refs/tags/v5.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 4a191eab42bda9fba2742d8d538609c737b8194e
+  - ref: refs/tags/v5.11-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 8abc7aa5d31067372903fb523ed96e8470b92d50
+  - ref: refs/tags/v5.11-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5b7c653871ad14d6b0fb53fabd8152ea70ad545e
+  - ref: refs/tags/v5.11-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 7341df6992e7840498cff6ad21380aa7dd97870b
+  - ref: refs/tags/v5.11-rc5
+    old: 0000000000000000000000000000000000000000
+    new: ccc5e9edc1b189a5c49dc8ac5751f95dc6d83564
+  - ref: refs/tags/v5.11-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 45e6659327a54b98d7715964f2993e44dfb2c318
+  - ref: refs/tags/v5.11-rc7
+    old: 0000000000000000000000000000000000000000
+    new: d61728d5dac3c065b21f39249b406988aaefa193
+  - ref: refs/tags/v5.12-rc1-dontuse
+    old: 0000000000000000000000000000000000000000
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v5.12-rc2
+    old: 0000000000000000000000000000000000000000
+    new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
+  - ref: refs/tags/v5.12-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a6d574dee98b6bc676391ba747e348b7705732c0
+  - ref: refs/tags/v5.12-rc4
+    old: 0000000000000000000000000000000000000000
+    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
+  - ref: refs/tags/v5.9
+    old: 0000000000000000000000000000000000000000
+    new: 0ed79c602730cb0e73f78dcd503aca452f0d414b
+  - ref: refs/tags/v5.9-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 58c26e62f075825dc598345e31f0afbcb1da48ef
+  - ref: refs/tags/v5.9-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 43b10d5a9053d0111bb547ea09abe5e102355d06
+  - ref: refs/tags/v5.9-rc6
+    old: 0000000000000000000000000000000000000000
+    new: df38e3687160a8a22016c8e41b481de779945364
+  - ref: refs/tags/v5.9-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 050e12cdf1da07b944898cf2e27472c3e8d1d185
+  - ref: refs/tags/v5.9-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 11c2a51a0844833eee4356f86cf4555eafaf010b
