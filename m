@@ -1,41 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============8692033123238412857=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 07 Apr 2021 12:32:51 -0000
-Message-Id: <161779877139.5512.521423850554300829@gitolite.kernel.org>
-
---===============8692033123238412857==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 07 Apr 2021 12:35:13 -0000
+Message-Id: <161779891376.7596.2511583714865087352@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: 5fbecd2389f48e1415799c63130d0cdce1cf3f60
-    new: ea4aeaa5c88906eb3ca3d7d3d17a45605d2dd0de
-    log: revlist-5fbecd2389f4-ea4aeaa5c889.txt
-
---===============8692033123238412857==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5fbecd2389f4-ea4aeaa5c889.txt
-
-eef56c3a0492e4c1bc2a081da8f402a26d882489 sh: intc: Drop the use of irq_create_identity_mapping()
-4a35d6a03744ded782c9301f5f5d78ad68ce680f irqdomain: Get rid of irq_create_identity_mapping()
-bd781ae53fac31acea9dec594d62a1424952dd4c mips: netlogic: Use irq_domain_simple_ops for XLP PIC
-64ec2ad3b84d43926e618bb515f2382c266535ee irqchip/hisi: Use the correct HiSilicon copyright
-e03b7c1bcbfad6f27b4682f638b98627c4e416ba irqchip/sifive-plic: Mark two global variables __ro_after_init
-8e13d96670a4c050d4883e6743a9e9858e5cfe10 irqchip/gic-v3: Fix OF_BAD_ADDR error handling
-e12c455055e9abc7403ce532616c0124a9d85ee7 irqchip/stm32: Add usart instances exti direct event support
-5deaa1d7c49151988b0bf919eeea6ad5535a29a2 dt-bindings: qcom,pdc: Add compatible for sc7280
-7c18715546203a09f859dac2fe3ea8aceec5f235 dt-bindings: interrupt-controller: Add nuvoton, wpcm450-aic
-fead4dd496631707549f414b4059afb86ea8fb80 irqchip: Add driver for WPCM450 interrupt controller
-ea4aeaa5c88906eb3ca3d7d3d17a45605d2dd0de irqchip/irq-mst: Support polarity configuration
-
---===============8692033123238412857==--
+  - ref: refs/heads/review-hans
+    old: 66b17e95c017b0163ff57d92ec704e67312665a9
+    new: 9126e1e57a2bec4b50cfd11ac74626a203688a7f
+    log: |
+         b04bd7c5c20f42b613014d06b703bb9a02d1e765 tools/power/x86/intel-speed-select: Increase string size
+         7f71d3c9c079fc4d0e10fd2c5753eef2b733a31f tools/power/x86/intel-speed-select: Process mailbox read error for core-power
+         863301feefa244a30faba5dd1c5c6f7d78f18f1b tools/power/x86/intel-speed-select: Add options to force online
+         f2181d24a526533fe764ed62dd26b9988ca5596a tools/power/x86/intel-speed-select: Drop __DATE__ and __TIME__ macros
+         9126e1e57a2bec4b50cfd11ac74626a203688a7f tools/power/x86/intel-speed-select: v1.9 release
+         
