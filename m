@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 07 Apr 2021 23:25:07 -0000
-Message-Id: <161783790729.18423.4661899381169692832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Wed, 07 Apr 2021 23:29:23 -0000
+Message-Id: <161783816330.19765.5558947675156853935@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 704d68f5f2df46f7195a62bc21014e71a7f67a99
-    new: fdde1aa09a82992cb09af8082d50afae5d22bfa4
+  - ref: refs/heads/fscache-netfs-lib
+    old: 2ca2efab02e26ded48531cfd8375a844c517c275
+    new: dc3f818465bf40363c007660a0ea13b0615b1663
     log: |
-         4bd00b55c978017aad10f0ff3e45525cd62cca07 IB/hfi1: Add AIP tx traces
-         042a00f93aad5874937e00f36e68301f7e3a0af1 IB/{ipoib,hfi1}: Add a timeout handler for rdma_netdev
-         b536d4b2a279733f440c911dc831764690b90050 IB/hfi1: Correct oversized ring allocation
-         70d44c18a7b32fcaa14d165b2004d7e5ba21f5ed IB/hfi1: Use napi_schedule_irqoff() for tx napi
-         326a23930793ae9711363922ec0f331e29c47f63 IB/hfi1: Remove indirect call to hfi1_ipoib_send_dma()
-         6b13215df1d37f5be23fc4a01a915a287b25ce15 IB/hfi1: Add additional usdma traces
-         ca5f72568e034e1295a7ae350b1f786fcbfb2848 IB/hfi1: Use kzalloc() for mmu_rb_handler allocation
-         fdde1aa09a82992cb09af8082d50afae5d22bfa4 IB/hfi1: Remove unused function
+         788abcfb66c10d83d02634795764c29e9536b043 iov_iter: Add ITER_XARRAY
+         9d56878a25b4be61d39c8cddaae1c3bcdf49a53e mm: Add set/end/wait functions for PG_private_2
+         2347f5e22e8d39d0df373d0ba7916214a2b5e99b mm/filemap: Pass the file_ra_state in the ractl
+         821f27a5e23bb8a7ee2a6cbb12a6a166f12ea5ee fs: Document file_ra_state
+         dc3f818465bf40363c007660a0ea13b0615b1663 mm: Implement readahead_control pageset expansion
          
