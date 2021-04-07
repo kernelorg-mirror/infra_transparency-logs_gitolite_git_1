@@ -1,31 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 07 Apr 2021 10:46:55 -0000
-Message-Id: <161779241520.26585.16422238104888597124@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7529228307177609221=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 07 Apr 2021 10:48:08 -0000
+Message-Id: <161779248865.27054.8291561328032974708@gitolite.kernel.org>
+
+--===============7529228307177609221==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13/thrustmaster
-    old: dfe74f550810cf7480d8759956d850ce40512f7a
-    new: 66ff89946e6a71e48acaecfd5190038922b8e96a
+  - ref: refs/heads/master
+    old: e293111c39a151abc62747090eaf41453ede6941
+    new: cfd939dc2e857eea1de126618c89ddaa6ad66234
     log: |
-         66ff89946e6a71e48acaecfd5190038922b8e96a HID: fix memdup.cocci warnings
+         cfd939dc2e857eea1de126618c89ddaa6ad66234 Linux 4.14.229
          
-  - ref: refs/heads/for-next
-    old: 16546ac007c3beb7f12650ad22c307e222098d7a
-    new: 5c3938a7e3888d4420db4aac294011515596320f
-    log: |
-         efb618fba54d7df0414f395b6213a469c075f859 HID: elan: Silence mute LED errors being logged when the device is unplugged
-         2601371e1082ca30577556d381afacc11a11157b HID: elan: Set default_trigger for the mute LED
-         ba3f92938f2c01623546d4570ecc19a8b7786fa7 HID: elan: Remove elan_mute_led_get_brigtness()
-         5c3938a7e3888d4420db4aac294011515596320f Merge branch 'for-5.13/elan' into for-next
-         
-  - ref: refs/heads/for-5.13/elan
-    old: 0000000000000000000000000000000000000000
-    new: ba3f92938f2c01623546d4570ecc19a8b7786fa7
+
+--===============7529228307177609221==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617792487 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1617792485-fdc7a546b240f8b427d8d290716a7a34e573a02f
+
+e293111c39a151abc62747090eaf41453ede6941 cfd939dc2e857eea1de126618c89ddaa6ad66234 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBtjecbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Lq8P/1DlBpfL/R8Xm6SE9KXX
+CGZwI/wcCoGt82r7mW7W0I+eoFlGSBTKMwTYGWwXtHuFmfNxPiTrcddd1efHWT1k
+cwUoHpdslk4k2Y9D/73k1IjrKsjlqXAfxVhCYalg0bsIRXtDOBIxQF7AEv0BVrgM
+G2DrwVT+gjyauWxLNsrm+vVVeicLMkFsth8MQjzQTJQTfRO4bKaQ/hqbxCUxAOwN
+SJ6NIAM4o/yADRfibucLrz2IJnkf9PhMrBHY3wB9eQPxloZHlYlmO1dA3LoOdG5H
+Qc3wDBlBoMzUE4CTInWYkUiJuFny/A7G/v36spsXuIIyFo7yP31H6I6GWNAMZn8J
+uc1NlrDlY8+T5IDsExuIF88s+DSem8wPJgtpv07SR0qvBUsRtYkwhsuAuBr5phlr
+5x2zk7YH+aARHDJ8j0eA+oEIcC2lv86F5xAJ7ScGYfSBMTQxkg1HDpqyp4I6rSUu
+fm8oRjSOf2zpTFSAfmW0D3aRnW5B7K2KWO9XDQBobqcd9E5us3qzAKi2T3w/fa0w
+p4wxdkRjYXH+fYtkOskYEB8bH+n8SLK/Yj8YrBuqyADiXRENFbiSmVhBuJiUHzFa
+hSg7HsQdhdimCHYaK60pFbz+My/snk0JHECIpeOclSsLzKHTX4EPUAjdpvRe+z5w
+u6fe4KQ7mA4ZJ//kKuWkp/Ml
+=fqSV
+-----END PGP SIGNATURE-----
+
+--===============7529228307177609221==--
