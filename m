@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4394257221916558561=="
+Content-Type: multipart/mixed; boundary="===============7716054157565012403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 07 Apr 2021 16:57:20 -0000
-Message-Id: <161781464050.6212.1388354907932027597@gitolite.kernel.org>
+Date: Wed, 07 Apr 2021 16:59:17 -0000
+Message-Id: <161781475718.6865.13326853288048674041@gitolite.kernel.org>
 
---===============4394257221916558561==
+--===============7716054157565012403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,37 +17,48 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-test
-    old: 0000000000000000000000000000000000000000
-    new: 223eff42207e203c9e04840786ecfbf32ad4352d
+    old: 223eff42207e203c9e04840786ecfbf32ad4352d
+    new: bb57c5de81c6feaad869acce7c38b1049115ac75
+    log: |
+         00bf6c8d824d59b458efd9b988d02436263d1fb0 tty: create internal tty.h file
+         989b98227c5c684f2218bd0dee9b67d0026d575d tty: tty.h: remove tty_info()
+         85ea719950a7ba4eac7d53dd96a9f8fb8453049b tty: remove tty_err()
+         1e9cdc19dde3270891d223d8b48041e644de14a4 tty: remove tty_notice()
+         d096202919ce84c910b646370255482a1521f82f tty: remove tty_warn()
+         4e889e98fb80c82ebbeb2bf532b686144888a930 tty: remove tty_info_ratelimited()
+         4017bdf9df9629722c611419b5e5fc3173fd3afd tty: remove tty_debug()
+         61db6a7fb7aa0686a4c64b283e3c7737d989dbd9 tty: audit: move some local functions out of tty.h
+         bb57c5de81c6feaad869acce7c38b1049115ac75 tty: move some internal tty lock enums and functions out of tty.h
+         
 
---===============4394257221916558561==
+--===============7716054157565012403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617814630 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617814752 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1617814630-082f0a2c64264aa06b61ba100ef9cc0153c80af1
+nonce 1617814751-1e9ff400c5a1159bbe96b770d1f934249c6cbc94
 
-0000000000000000000000000000000000000000 223eff42207e203c9e04840786ecfbf32ad4352d refs/heads/tty-test
+223eff42207e203c9e04840786ecfbf32ad4352d bb57c5de81c6feaad869acce7c38b1049115ac75 refs/heads/tty-test
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBt5GYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W4UQAK1JvAL3tpuCFi8JqTjd
-bHxn9J+i8QaknxxiVXN2q7Ad8x0AGLgxC9Xe46zpNk1etenNJENCq6ja+IEkvqJw
-EU+kZLnFr13RZF/0rV1mWJu7XnFiJG7sUEoDBsIAyFvCSECqcBxz58ogPAmPgnVw
-l74xfisz97C2m36tLlAETEdZkKi5tDatj8Rxmv4q+2uWU5zeRmceVxnGGXGLDDmJ
-pxIpjj1bRJIXcHP/45259ANjyiueGQnvWFDhQ+XV6snkAt2TX7jL0MGtc+Na/pui
-bMngPTV5miZdv78n70+LkoKeKRKzBrv9DOlXVydf8dwVFX9jaSJRlo+RHB5PrRiX
-3crMUlkxTqvz2IeW7SbDcI1zR7Eq4opgBvjTsTzfEcrbZnsrhFfpi2DP9MZUCDPX
-yTXTSs/D3kV+rh7lr8v8oF0891Kb9EvRRy8AYplV5nFfvSZ37FL9BOngNp2X5pun
-gjFGGbKCFhmoDudhXk9VCSvykdh8r39rcrbIz3oKSA7ymK5INd8+pXswNdkDfnGO
-eeoiI1RsbNY+b2lVWMc5DA9MyzaZ0KNQj2ldmqQUlg3hdywkzH7bbXYB/5vu6iUc
-4izv+3vULV4HboiQ8iqcjIm0wVbXAZajrnzW/yunsYK3+mMM2a2FEGJeQlN8yAjb
-MyWeIDsC1ioZ/5GIqRjEVDF2
-=1d2I
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBt5OAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SdkP/23Aa85eaMf439OOIQ0f
+Uvvmmk4fr6HV9AEx1hmrHQ/yfpF6lSDqOTlwOg9SrBaXBlfL0gobhBArgPF0U1g2
+exAn98acf45hYFCMxdMBDzn5T42nff+P+XI+PEGqJ4RG4XpYLFmH3vlREuroMH/9
+PuTJAhEBg/YIOm79Ly7DCZJ4IicozF+mJtjxuYnBglWz7wD1411ucHeipIzdpElq
+iQcenqwnOeoq9dqpqzU/MRkbZByzUqQcXq4igVd+FcinDRaCyRaKbLaBfGNMLkIB
+pmPvGYL2HTSOpsJWc2Sca2rvoFd5EQYm+lapecs4uNcDEQa1TeKCz5DkxUG8ilUn
+UY7ussv0zKpQfZ4xu+nqBZDNRoBcD6fifas4S0U8jSFk9vKwkGY6bIVXE6wEPVRn
+czYGy+xGcIRvuFcQHg0mQYG087UcGt0MZbEFTn9g81GEn1WVae1xSKychGy3hd1z
+gaTyMUomKdTl6Ndn6+NqFK8TU4KlFs39++vJ3R+NBeLyII0XAAM/LCGPk4zWTJuE
+WWLmac/njJMufVzY61P5DCVjqmg8hkc0X2HjObx0Z6EQ/oS8Bqi5lG1A8mL57CSt
+LJIUgwWvyQHs+NOdO38SZ8DN9KuKcQr4w+PLB8HqK8Q7RYwxHTVLKPjZi+Wr47+U
+4E4i0vrOXxLKO/nwFGQrVxOf
+=KNwk
 -----END PGP SIGNATURE-----
 
---===============4394257221916558561==--
+--===============7716054157565012403==--
