@@ -1,29 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 07 Apr 2021 13:31:41 -0000
-Message-Id: <161780230168.16630.16411354897831758401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Wed, 07 Apr 2021 13:34:56 -0000
+Message-Id: <161780249651.17668.13838051861009868125@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/xen/tip
+user: ostr
 changes:
-  - ref: refs/heads/features
-    old: 327580f9b8a1b5982069ff3bbbfcd244df19a7fc
-    new: 8bc00c04d87ee151fb8fe18ed7e7af8c785843f2
+  - ref: refs/heads/linux-next
+    old: 66bc13252090e14b9100adfea746bbb1ce396cb7
+    new: d120198bd5ff1d41808b6914e1eb89aff937415c
     log: |
-         7dd8ed09430465d137330e0810a2a90e06770898 s390: use DEFINE_SPINLOCK for initialization
-         8bc00c04d87ee151fb8fe18ed7e7af8c785843f2 s390/sclp: use LIST_HEAD for Initialization
-         
-  - ref: refs/heads/for-next
-    old: 3271c3ca2a1dc424512fe20c38364eca9121257e
-    new: 46c48eb6d500dd97390cf4e39db48397034ec4e6
-    log: |
-         7dd8ed09430465d137330e0810a2a90e06770898 s390: use DEFINE_SPINLOCK for initialization
-         8bc00c04d87ee151fb8fe18ed7e7af8c785843f2 s390/sclp: use LIST_HEAD for Initialization
-         3cce09f5eac7498218c0174b7e16fb6b8b540291 Merge branch 'fixes' into for-next
-         46c48eb6d500dd97390cf4e39db48397034ec4e6 Merge branch 'features' into for-next
+         d120198bd5ff1d41808b6914e1eb89aff937415c xen/evtchn: Change irq_info lock to raw_spinlock_t
          
