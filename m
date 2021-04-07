@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 07 Apr 2021 18:09:09 -0000
-Message-Id: <161781894974.18048.4384043123858783924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 07 Apr 2021 18:15:04 -0000
+Message-Id: <161781930416.22119.9657553635503342562@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-next
-    old: 8d3a1cb32124eaeb3f2efe4889de214d3b658d8d
-    new: 56ddc4cd4c8f9d65c0ac5544df4645376b327cbc
+  - ref: refs/heads/kvm-arm64/misc-5.13
+    old: 94ded03411a3c03987d611c48fe1ee4855c22737
+    new: d402e55bcac7b4864a2cf100e61387eb946f72b4
     log: |
-         56ddc4cd4c8f9d65c0ac5544df4645376b327cbc docs: dt: update writing-schema.rst references
+         d402e55bcac7b4864a2cf100e61387eb946f72b4 KVM: arm64: Fully zero the vcpu state on reset
          
