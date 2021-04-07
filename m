@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 07 Apr 2021 11:43:58 -0000
-Message-Id: <161779583896.6911.13041564409998041202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Wed, 07 Apr 2021 11:44:41 -0000
+Message-Id: <161779588132.7227.13980275164381414027@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: mripard
 changes:
-  - ref: refs/heads/renesas/dt-2
+  - ref: refs/tags/sunxi-fixes-for-5.12-1
     old: 0000000000000000000000000000000000000000
-    new: 2b35ca2fe605f85aa1a52c713571baf04a5f434a
+    new: 5532971c3dd960268eaeb4536988e773d0531574
