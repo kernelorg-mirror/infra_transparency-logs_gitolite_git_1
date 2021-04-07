@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 07 Apr 2021 04:44:42 -0000
-Message-Id: <161777068206.6404.15433197827749153689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 07 Apr 2021 05:00:45 -0000
+Message-Id: <161777164522.17952.7379623245248617207@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/dev
-    old: b0a94d39a06badbdcacd45e372f85297fa7068c5
-    new: 1fea5f479eea34d50629535dfacf8577e8006b45
+  - ref: refs/heads/master
+    old: 8ce85ada0a05e21a5386ba5c417c52ab00fcd0d1
+    new: dc800a9106573bc39d15990ce57f1454d76c79cc
     log: |
-         54e0b6c873dcbd02b9b479c893f6fba8fcbc6a9c erofs: reserve physical_clusterbits[]
-         91a196935395c194f8249898388cadd96044536a erofs: introduce multipage per-CPU buffers
-         71bcabacff82dc8b17669276e63cd9f5062dbbad erofs: introduce physical cluster slab pools
-         4282a83dd1f80d86dea53983bb5e211ce6ac08d3 erofs: fix up inplace I/O pointer for big pcluster
-         6e185e38690029192c4b8e33020cd8b09452bdbf erofs: add big physical cluster definition
-         b9f0e996f0f5822a55a3aa502fc09d98efb0139a erofs: adjust per-CPU buffers according to max_pclusterblks
-         4b6e9b03c780d5bb815ac4cd4e124ac5df3c8812 erofs: support parsing big pcluster compress indexes
-         c0b1c8e60876bccf68d7d9d8cbd59eeeb4033c58 erofs: support parsing big pcluster compact indexes
-         7f06450e4e23c4d4546c4960a254f8b10d772534 erofs: support decompress big pcluster for lz4 backend
-         1fea5f479eea34d50629535dfacf8577e8006b45 erofs: enable big pcluster feature
+         f67743f9e03a67dbbf931d1787e6faf50766e521 Bluetooth: Add support for reading AOSP vendor capabilities
+         148a48f61393977fbeb2b9d41ac6ad3866a6990c Bluetooth: Add support for virtio transport driver
+         26f2a77422fcd0a0de0d7c9037674b1cc3ca145b Bluetooth: Fix default values for advertising interval
+         5841b42e9bd935d50ee9f117240973687693acf3 Bluetooth: Set defaults for le_scan_{int,window}_adv_monitor
+         dc800a9106573bc39d15990ce57f1454d76c79cc Bluetooth: Allow Microsoft extension to indicate curve validation
          
