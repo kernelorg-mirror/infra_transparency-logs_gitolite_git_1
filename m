@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6923346575010394627=="
+Content-Type: multipart/mixed; boundary="===============1184458167046846242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 07 Apr 2021 10:50:35 -0000
-Message-Id: <161779263500.14077.15912288528879731695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 07 Apr 2021 10:50:51 -0000
+Message-Id: <161779265138.18809.8924148784581526136@gitolite.kernel.org>
 
---===============6923346575010394627==
+--===============1184458167046846242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 9fe61c5d30e4480a5d38f396e8546967ea28dfe1
-    new: 7051152078fc6e72085b6772b3594fbf5a80bccd
-    log: |
-         7051152078fc6e72085b6772b3594fbf5a80bccd Notes added by 'git notes add'
-         
+  - ref: refs/heads/for-next
+    old: 5c3938a7e3888d4420db4aac294011515596320f
+    new: f9cd0a6218948e17d4182000eb7734e4fa0218bd
+    log: revlist-5c3938a7e388-f9cd0a621894.txt
+  - ref: refs/heads/for-5.13/lenovo
+    old: 0000000000000000000000000000000000000000
+    new: c158c2afc99f9d1086f6d53b9c6c9813fcac1a10
 
---===============6923346575010394627==
+--===============1184458167046846242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5c3938a7e388-f9cd0a621894.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617792633 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1617792632-a5fc6bf009913db15b04eff13e90058beb103fb3
+bbf62645255f120bc2e7488c237e3f04da42ec70 HID: lenovo: Use brightness_set_blocking callback for setting LEDs brightness
+658d04e6eb6be1601ae95d7bee92bbf4096cdc1e HID: lenovo: Fix lenovo_led_set_tp10ubkbd() error handling
+34348a8661e3cd67dcf6938f08c8bb77522301f7 HID: lenovo: Check hid_get_drvdata() returns non NULL in lenovo_event()
+033c978680255a81c6284cb6ea4de20bd2bdbe5c HID: lenovo: Remove lenovo_led_brightness_get()
+8744eeec539aa760c41a64b3efbb77868b1d700a HID: lenovo: Set LEDs max_brightness value
+617103246cfd19af837e4cb614ba9f877c4f7779 HID: lenovo: Map mic-mute button to KEY_F20 instead of KEY_MICMUTE
+e2da5ff435d64b59880648269c136484bea5c312 HID: lenovo: Set default_triggers for the mute and micmute LEDs
+2d0f1c071ab1ce2f75ac3e52b99775ce574f6416 HID: lenovo: Rework how the tp10ubkbd code decides which USB interface to use
+c158c2afc99f9d1086f6d53b9c6c9813fcac1a10 HID: lenovo: Add support for Thinkpad X1 Tablet Thin keyboard
+f9cd0a6218948e17d4182000eb7734e4fa0218bd Merge branch 'for-5.13/lenovo' into for-next
 
-9fe61c5d30e4480a5d38f396e8546967ea28dfe1 7051152078fc6e72085b6772b3594fbf5a80bccd refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBtjnkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GkoQAMWSf0IpcvL/wNpmkhfW
-MI399ae3bOl/pn3MZY/kRz/y2DTtz9feh/Fbv3OMyH2Z6svXf9LybQX6HBB4vWRZ
-4kslNwm5be6HdSSTNVML+kwbOekB4aV9nzGotTw1KTDVdD/LthML3vPHPT9xWIe8
-weYcfMT/6QGR5XpTA9QtA3ZGbWaA0R4dCnEy7qKeuQdVspi3PeKgfql3CleI3LOj
-8Rl2+11kIGb50zT/nwRZxv7ruB0oEz2SIxdkf8M1m+GQ2mj9ZgXnd7StuVeEbFEx
-RXm72jfGJawljNMEna6BNrcRe6x66ep988vEV0qsJim8NAT/9kCb1KcjAMQlzzHD
-mRvS+iqNcwJ2AomA5MqgrTvTwHDWjnLEfnDUhB21h/rTvjliVpQrK9mWi2YmXcXz
-xwobUjkX7Vl1lFp7UbQLFoKayF1VfPKr8mfsDqNtDDf4vsykw8fXMNDD8kxapLns
-YFte+l1YnyE0qbF2pp+xXWTadtviQ6bw4/CBF8fcdfL5EfDbfIOH3KZOI10vYFA2
-kxsyofWBOMtb1IpHijleC9z1UNR1X4jlijGRwWPWXr1B0hqG471aUO2FZxpEwhhD
-gX+MUqQvLZiK+9CALT58ltDpoEB9zkpkqtnWK4gIB4GsczzUDnB4Q6GdT1cKESMa
-bXGkBWkpKcH7CwOpnQd9U/d5
-=dFi4
------END PGP SIGNATURE-----
-
---===============6923346575010394627==--
+--===============1184458167046846242==--
