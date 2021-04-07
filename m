@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2631400652818669243=="
+Content-Type: multipart/mixed; boundary="===============0016838963550824775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 07 Apr 2021 09:56:46 -0000
-Message-Id: <161778940634.20150.13118965134110161884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 07 Apr 2021 09:57:42 -0000
+Message-Id: <161778946223.20514.13151035566679482045@gitolite.kernel.org>
 
---===============2631400652818669243==
+--===============0016838963550824775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/x86/sgx
-    old: 633b0616cfe085679471a4c0fae02e8c3a1a9866
-    new: b3754e5d3da320af2bebb7a690002685c7f5c15c
-    log: revlist-633b0616cfe0-b3754e5d3da3.txt
+  - ref: refs/heads/driver-core-next
+    old: 6e11b376fd74356e32d842be588e12dc9bf6e197
+    new: c2f3f755f5c717f3621b33ef06d974b9cec4a104
+    log: |
+         c2f3f755f5c717f3621b33ef06d974b9cec4a104 Revert "driver core: platform: Make platform_get_irq_optional() optional"
+         
 
---===============2631400652818669243==
+--===============0016838963550824775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-633b0616cfe0-b3754e5d3da3.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e9a15a40e857fc6ccfbb05fec7b184e9003057df x86/cpufeatures: Make SGX_LC feature bit depend on SGX bit
-b8921dccf3b25798409d35155b5d127085de72c2 x86/cpufeatures: Add SGX1 and SGX2 sub-features
-b0c7459be0670fabe080e30906ba9fe62df5e02c x86/sgx: Wipe out EREMOVE from sgx_free_epc_page()
-231d3dbdda192e3b3c7b79f4c3b0616f6c7f31b7 x86/sgx: Add SGX_CHILD_PRESENT hardware error code
-540745ddbc70eabdc7dbd3fcc00fe4fb17cd59ba x86/sgx: Introduce virtual EPC for use by KVM guests
-332bfc7becf479de8a55864cc5ed0024baea28aa x86/cpu/intel: Allow SGX virtualization without Launch Control support
-faa7d3e6f3b983a28bf0f88f82dcb1c162e61105 x86/sgx: Initialize virtual EPC driver even when SGX driver is disabled
-8ca52cc38dc8fdcbdbd0c23eafb19db5e5f5c8d0 x86/sgx: Expose SGX architectural definitions to the kernel
-9c55c78a73ce6e62a1d46ba6e4f242c23c29b812 x86/sgx: Move ENCLS leaf definitions to sgx.h
-32ddda8e445df3de477db14d386fb3518042224a x86/sgx: Add SGX2 ENCLS leaf definitions (EAUG, EMODPR and EMODT)
-a67136b458e5e63822b19c35794451122fe2bf3e x86/sgx: Add encls_faulted() helper
-73916b6a0c714258f9c2619408a66c6696a761a7 x86/sgx: Add helper to update SGX_LEPUBKEYHASHn MSRs
-d155030b1e7c0e448aab22a803f7a71ea2e117d7 x86/sgx: Add helpers to expose ECREATE and EINIT to KVM
-b3754e5d3da320af2bebb7a690002685c7f5c15c x86/sgx: Move provisioning device creation out of SGX driver
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617789457 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1617789456-81ec8c5a7a0346245d419f3d2b3e560276c17bc8
 
---===============2631400652818669243==--
+6e11b376fd74356e32d842be588e12dc9bf6e197 c2f3f755f5c717f3621b33ef06d974b9cec4a104 refs/heads/driver-core-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBtghEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++bUQAJvYJobfvpwRkl/QWYd0
+VOK3n2Mh5bxa0Fi8B7oNBjRKSsukrk5SaYb50BThtfMVNBhVBUO4n5Evt2mUVImO
+g0mto3YR/BIbGIAVSl1l8PePZ95hlFpuaqhWjZqAPigUwJSiXtLrkm4j+mUhdnD1
+wczr+yxyh0yPjq34CNDwrOGhPPeOUD2l/r8waieh8FudtUH8me0VaXUjgxIXfXqC
+by5M8DoCpVFLyr9z6WN6lovTXCA7jR3ri0lFkQJX9U5rNN1BB/Tu2LdioITs9yN5
+ubQQnwe/rKOr/S/zeeIkGmU2rnhBL1wWTzU4Gvfvh8dI5JtCOHyCiftM//M/f15t
+OZTxgYrAG9vWZ/C1m3I/yv5bwYUxbt7Gv4ooSaVQd++B8CObLr4c/bU/mhn4sSR0
+3Sm7dgtJQ6WtIrKAQvzDv2wP7oM6NNlniJ6t6kp9pt3UADnu+YVOVkHQSSEBqAC5
+mII5aWCtszE6b5RJ+Sf+6ujHBT9P06Exu3IE9qq0SDm+4ygRwAMKNwrwOggVRbKT
+FkwrRtrepSH7FkX/ks1ZLOlRlagJSO9SxoLeFglAJy9obWEoYfO/k3OtY4ndYj7W
+ZXaTtAHzuGwa7GThqTpSMyqzlGxpfVIZEIbYv28rDtcHVV5YX+XoNBOPckLS2NMq
+bBoltxjBNZjMVYObBtOW5onZ
+=l65+
+-----END PGP SIGNATURE-----
+
+--===============0016838963550824775==--
