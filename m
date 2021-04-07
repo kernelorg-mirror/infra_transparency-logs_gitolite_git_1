@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============0500341371068290476=="
+Content-Type: multipart/mixed; boundary="===============2458774083179911881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 07 Apr 2021 20:21:49 -0000
-Message-Id: <161782690990.2343.16990451594255149349@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 07 Apr 2021 20:21:57 -0000
+Message-Id: <161782691720.2438.14633383047726777908@gitolite.kernel.org>
 
---===============0500341371068290476==
+--===============2458774083179911881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 1ca1156cfd69530e6b7cb99943baf90c8bd871a5
     new: 6f68accaa8641b70b698da659216f82f87537869
     log: |
          6f68accaa8641b70b698da659216f82f87537869 ASoC: meson: axg-frddr: set fifo depth according to the period
          
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 34c79fe9e267250597a6ccec50d3b780c15c023d
     new: 8361c6da77b7d267707da9ff3b94458e018dd3da
     log: |
@@ -36,29 +36,29 @@ changes:
          8361c6da77b7d267707da9ff3b94458e018dd3da Merge series "Adds SPI support" from Jiri Prchal <jiri.prchal@aksignal.cz>:
          
 
---===============0500341371068290476==
+--===============2458774083179911881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1617826892 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1617826907-f78b974a320dcbef09ccde345c94bfba3c722d0f
+pusher C3F436CA30F5D8EB 1617826899 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1617826914-0a26081c4c45c87c7ba722cb3964c08577b272b0
 
-1ca1156cfd69530e6b7cb99943baf90c8bd871a5 6f68accaa8641b70b698da659216f82f87537869 refs/heads/for-5.12
-34c79fe9e267250597a6ccec50d3b780c15c023d 8361c6da77b7d267707da9ff3b94458e018dd3da refs/heads/for-5.13
+1ca1156cfd69530e6b7cb99943baf90c8bd871a5 6f68accaa8641b70b698da659216f82f87537869 refs/heads/asoc-5.12
+34c79fe9e267250597a6ccec50d3b780c15c023d 8361c6da77b7d267707da9ff3b94458e018dd3da refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBuFEwACgkQJNaLcl1U
-h9CnUgf/Qk8PlCp3SJQZwrKfpDUS4XrJFf3g7gXfLFFbg7AqoXfVH8NQSCSq12Wf
-I0udbeNWoN0Am/aUlOLkqeBM/GIACwKp6Ns1hMS+LsBXtRNMkC67yjPoqCVhONtS
-pvTsTffgIbb7Sp6hd9mRsScF+TeMqIG1rLK2kTrvCQDtUuyh6D8AOCRVTtuj6arL
-n3Y2tdQPpEdAyvhnRzwkNesfbdK52xG4NniY6Yoq+jL6ewssmkZ13BDz8Pi/u5OC
-RgbC65Qw0+O1oBXHYzjHj4fXcPAZCPYLR4IRHF84FDCnDjWutN2/KlYa7cBSmTuj
-ebYEPt6krvK5OVqvEzw8ZLY/GfWFXg==
-=oAaa
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBuFFMACgkQJNaLcl1U
+h9D7Pwf9Hg4OjSHj7xfedga2fwutjGjAGCn/2+D+Wz3ZQHccRQoGk+XcXK3SCThs
+Ys2KwOV/+kTZNeAWqtocEX+d6B61wWEo1UCSZnKWDupxopQ5wk832v3v0usteo/i
+SWJi/jWSMAdDM1Nhr/AevHeA84tHXEh2MzolGOdEyT9vL8eQ/SX4kgB4l8U6/YXX
+HJz5CyvUk6bMOGdIdOWHJxvRsu69J+t7Tx5nd0788IXMNbyR5x1cuDKERwPICVs2
+370sOjQOOW2VzUTjpEzsmX3+hx1P/EwZJJDdK3+t+aJ8miTOIMKb+nwXRnny+pnp
+8xIEkCeHxJ2FSAnPbpVWP1ahq4/l+A==
+=OgBV
 -----END PGP SIGNATURE-----
 
---===============0500341371068290476==--
+--===============2458774083179911881==--
