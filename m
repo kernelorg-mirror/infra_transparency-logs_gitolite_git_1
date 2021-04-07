@@ -1,41 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============0499959111327332087=="
+Content-Type: multipart/mixed; boundary="===============2202965221362769443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 07 Apr 2021 22:03:32 -0000
-Message-Id: <161783301240.31811.3465044899632419811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 07 Apr 2021 22:03:41 -0000
+Message-Id: <161783302152.31975.12645533435535718827@gitolite.kernel.org>
 
---===============0499959111327332087==
+--===============2202965221362769443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 7e4a51319d3a71ac8002c96f817bcbeb36789b07
-    new: a18f19e912014782c6ec67038e07f2dfea81625b
-    log: revlist-7e4a51319d3a-a18f19e91201.txt
+    old: bb58023bee8b08c329c161c2f20b157db8a5ba96
+    new: 107adc694558dd51c35fca07b025c2fe2168afb5
+    log: revlist-bb58023bee8b-107adc694558.txt
 
---===============0499959111327332087==
+--===============2202965221362769443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e4a51319d3a-a18f19e91201.txt
+Content-Disposition: attachment; filename=revlist-bb58023bee8b-107adc694558.txt
 
-c8129487441e11617fab9770d9f98d9ae8fc7b3a can: skb: alloc_can{,fd}_skb(): set "cf" to NULL if skb allocation fails
-644022b1de9efc901494b8931c78700d49d35d3d can: m_can: m_can_receive_skb(): add missing error handling to can_rx_offload_queue_sorted() call
-8dc987519ae97fd3b994871720ae5f089654b599 can: c_can: remove unused enum BOSCH_C_CAN_PLATFORM
-0084e298acfe643c68daf0a316bb27618ec2a852 can: mcp251xfd: add BQL support
-ef7a8c3e75994f2bdaa27b481de39ea000119d11 can: mcp251xfd: mcp251xfd_regmap_crc_read_one(): Factor out crc check into separate function
-c7eb923c3caf4c6a183465cc012dc368b199a4b2 can: mcp251xfd: mcp251xfd_regmap_crc_read(): work around broken CRC on TBC register
-0854fa82c96ca37a35e954b7079c0bfd795affb1 net: remove the new_ifindex argument from dev_change_net_namespace
-33b32a2984269706449ff4702682cac2dda01c7e Merge tag 'linux-can-next-for-5.13-20210407' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
-7b3ae17f0f681027a5de532c6a94d99334d97633 xircom: remove redundant error check on variable err
-298b58f00c0f86868ea717426beb5c1198772f81 liquidio: Fix unintented sign extension of a left shift of a u16
-a18f19e912014782c6ec67038e07f2dfea81625b net: wan: z85230: drop unused async state
+2800aadc18a64c96b051bcb7da8a7df7d505db3f iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+8f6a70fd71a3d7a6b120f83681263fc370eb52ba mt76: mt7921: fix airtime reporting
+bd83a2fc05ed323d7ae38443a6d2e253ef1c4237 brcmfmac: p2p: Fix recently introduced deadlock issue
+07cc40fec9a85e669ea12e161a438d2cbd76f1ed iwlwifi: fix 11ax disabled bit in the regulatory capability flags
+25628bc08d4526d3673ca7d039eb636aa9006076 iwlwifi: pcie: properly set LTR workarounds on 22000 devices
+97195d3cad852063208a1cd4f4d073459547a415 iwlwifi: add support for Qu with AX201 device
+9c04fd95fa830d60e5bdb08bcd7ff68d7e120e5b iwlwifi: fw: fix notification wait locking
+08f4b0b1c07bcb70247931d81233fb9c59f50c35 iwlwifi: pcie: add support for So-F devices
+39fb06f791429eaee8374ef12634c0fbf68a5a9f iwlwifi: mvm: rfi: don't lock mvm->mutex when sending config command
+65db391dd874db42279713405f29f4ac93682d13 iwlwifi: mvm: fix beacon protection checks
+a975d7d8a356ce92872af0b007b101183f0224e2 ethtool: Remove link_mode param and derive link params from driver
+fde32dbe712bc7cea61d8c5ed14e10e17eec8257 ethtool: Add lanes parameter for ETHTOOL_LINK_MODE_10000baseR_FEC_BIT
+3cf1482852825bdf8cc4e4f09346262c80ad5cbe Merge branch 'ethtool-link_mode'
+107adc694558dd51c35fca07b025c2fe2168afb5 Merge tag 'wireless-drivers-2021-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
 
---===============0499959111327332087==--
+--===============2202965221362769443==--
