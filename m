@@ -1,18 +1,18 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Wed, 07 Apr 2021 04:43:34 -0000
-Message-Id: <161777061443.5906.7134733287850545110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 07 Apr 2021 04:44:14 -0000
+Message-Id: <161777065466.6183.14196289012732469125@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
+repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/tags/erofs/bigpcluster_v3
-    old: b0b677fd35ce614933b5dc6cc61cddcd2bcba673
+  - ref: refs/heads/dev-test
+    old: b0a94d39a06badbdcacd45e372f85297fa7068c5
     new: 1fea5f479eea34d50629535dfacf8577e8006b45
     log: |
          54e0b6c873dcbd02b9b479c893f6fba8fcbc6a9c erofs: reserve physical_clusterbits[]
