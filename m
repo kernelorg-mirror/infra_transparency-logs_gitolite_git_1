@@ -1,59 +1,88 @@
-Content-Type: multipart/mixed; boundary="===============1319301567685741160=="
+Content-Type: multipart/mixed; boundary="===============0276069347894928425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 07 Apr 2021 05:07:30 -0000
-Message-Id: <161777205051.21518.166254591216819482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 07 Apr 2021 05:08:04 -0000
+Message-Id: <161777208409.21772.6590658294068147946@gitolite.kernel.org>
 
---===============1319301567685741160==
+--===============0276069347894928425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: f70d436f000101876439ce25527a9939628c9518
-    new: e9fcb07704fcef6fa6d0333fd2b3a62442eaf45b
-    log: |
-         8a157d2ff104d2849c58226a1fd02365d7d60150 xhci: check port array allocation was successful before dereferencing it
-         597899d2f7c5619c87185ee7953d004bd37fd0eb xhci: check control context is valid before dereferencing it.
-         286fd02fd54b6acab65809549cf5fb3f2a886696 xhci: fix potential array out of bounds with several interrupters
-         e9fcb07704fcef6fa6d0333fd2b3a62442eaf45b xhci: prevent double-fetch of transfer and transfer event TRBs
-         
+  - ref: refs/heads/staging-next
+    old: 001c6bb6b62656e29e3b353242b5c955a1d94212
+    new: e91cafdf3c18b927e61eb4ee18e4865b8485f24f
+    log: revlist-001c6bb6b626-e91cafdf3c18.txt
 
---===============1319301567685741160==
+--===============0276069347894928425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617772045 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1617772045-98563968175d1c7db32e0ff224878cb48683241d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617772079 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1617772078-88bc998a6e1433181ce92a1dc70d6f1f878e0891
 
-f70d436f000101876439ce25527a9939628c9518 e9fcb07704fcef6fa6d0333fd2b3a62442eaf45b refs/heads/usb-next
+001c6bb6b62656e29e3b353242b5c955a1d94212 e91cafdf3c18b927e61eb4ee18e4865b8485f24f refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBtPg0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nmUQAL/F1KAZ1LBwTnGleNXf
-BwM7QQ+uMzPlW0Ay2SQT5ZUTJ85enBeMgkRBsrwTf5aCjOaVEoB5U3MVoP1YQyU9
-LdiSOrOuM4MU/UMeMRW+CADPPXSHM7WNnI09NDA9isY1zKAa+79wH+V9o03WQjgH
-GqfPulI0gfja3IBBMDAnSyZJWn5VijItOULrBvV2C6w+oKLxSR7znUdIqlB9dDMY
-qt7AnGJmu3DmeZyTF8ijBRxzRXZ7Ji72vHX75qokrK6u9T9cNp8wcTk+GDW04SLM
-8n3DELF8tN/YK09zI+UOtxAARgT1aAr1znJNrUGiwEzRdxfjbr012X9oE+ZcRaVg
-p5HlJnrpuWErjsycharej0zJu2D+vQatfHVPq3sEtBVj2P3U12TSrHlfmj5hLgpB
-FyHFvp2HxrJwIF5UWPvfV7c4UeYRuWhjFN83vjsFGH8pZWOpgTfwiWWMVK9SUvvp
-/1/YtPDClHLNXUpeylbrA7txgDQcwCiAQ8Jriq4CeZZRLrdirCUbLSLAvnqbI1Sg
-KNRSqqJ7u2jFH0MrRhTlPjQGcfqe/VYSTbGf3zjw9QQu2N60o0rDmpy0EFY7S1mn
-VcwUO8Y2MyvPD2LPVb4jDtrtsAvylnM/TCOboOdUrhGozY/1BrZuzA6CHvhFxMfm
-1+dCRJ3qFdutEXHpuvYOL4Fn
-=h7kh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBtPi8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tr8P/0dir9FdZZWWRd2BbYAV
+nZvY801tqbBIq5Et+EMXKsHb0KQ62DPuEpo0CdIYZHK4KzP85iHBnb5yeEx9X9ng
+FZ3VQhdjjP+UWDrL4siLaJXO49m245L7cLtlAtR1+8UmXAa7mD0cIC0hufHxjdX5
+R608EGNEJbTUlsdK7HYuOjj3c+2TjsMFJUHFf0Jo0YRrrRa7EdRb1e5zomVbgCy9
+ODIM7XDXcNJrcZZkVpNmXah7T2eVQoOLQ65kPPqG475h52sBuMYyBXTF56AU8rtn
+EC8wgFAp1eEu9eVJseYBktQ6ISgYYeNpu8vdvgo4oasIkrWXtIx2d4At2ulnJ4V4
+AU+c8fZlNE2d3i4i8p/YQMU/BP3FKlew85WTN741lbM+bMgSWBG19Xj8RtZoYUSK
+5TpWtVyloYT2i9+Phs6RVRtyy0ewrAfGiJ0kA5MnxCJYUndmRxoROO/JSN8EhK7J
+mLgT4RyArZJpeI09MrR9MBD5oUEOzLzxXzD23Vt9HTqJHj02ZGq+A/k7RyBSrgZC
+9E5/dN5qCDVCAfEbt/nDL0oy3LFwqd/lKj39wuNCkQ32N+OCDoRu1bjM0O0KD6Z7
+QAJm3JceD+M+aU4JF1eea+2AbLNv519CLTQoi0TuEZ9MjjXxzS5NGCFRETjqJ8MM
+apIn311kVgYvldDOWUnqryTJ
+=Vxj+
 -----END PGP SIGNATURE-----
 
---===============1319301567685741160==--
+--===============0276069347894928425==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-001c6bb6b626-e91cafdf3c18.txt
+
+c1314fe4d28f31498a49af4d34b1771dad5c85ae staging: rtl8723bs: remove all RT_TRACE logs in hal/ and os_dep/
+6544c672ee1d250cb55efb750b4cd529e97615f4 staging: rtl8723bs: remove commented out RT_TRACE logs in hal/ and os_dep/
+b5223939ff8205bb5988bd272f9e95d79a4dbccd staging: rtl8723bs: remove RT_TRACE log definitions
+a6f242ad1e2bbd9b24ed33a31203f1366a74fce9 staging: rtl8723bs: remove empty if, else blocks after RT_TRACE deletion
+54bb1f37594d053edfc47b61b1ce249b5343ce4d staging: rtl8723bs: remove empty #ifdef blocks after RT_TRACE deletion
+0b0029ed4d4c835710f5f5d5e56cb5205c2cead2 staging: rtl8723bs: remove unnecessary bracks after RT_TRACE deletion
+e153092677b9161c142580e9c0dd07cc64a7bc85 staging: rtl8723bs: place constant on the right side of the test
+6212607eed24ce33310bbe5138db185d0efc9643 staging: rtl8723bs: rewrite comparisons to null
+90179b3f7a8145a091655707026d11228f2660d7 staging: rtl8723bs: remove empty for cycles
+bcc84e52bcc5a9e76102b76b9d442a290a408574 staging: rtl8723bs: remove commented code block
+49e07427c5cc79b209baaea96f0f1ac4d57e6e6f staging: rtl8723bs: remove unused dvobj_priv members
+801adee270ba39f633844a1e5aa99175a17f2af3 staging: kpc2000: pcie.h: Remove extra blank line
+cf447efc6cdf0e17d7f0d03fa2b58e7860396a9d staging: rtl8723bs: remove unused variable from rtw_os_recv_indicate_pkt
+4f085fedea9b506da92609460910686561b56220 staging: rtl8723bs: core: Removed extra blank line
+b321be064426f9a2aae66e83a298a4ff3a032806 staging: rtl8723bs: core: Ending line with argument
+85c7bef4197eb96e88366cefaabfd01a0ddc7933 staging: rtl8723bs: core: align arguments with open parenthesis
+cc7790d14f2964e2a39dc028993fdaf671a7163b staging: rtl8712: add period within a comment
+483a0f6d9d5d7f37db84792cc9815c75a1c4e99a staging: rtl8712: remove a blank line
+fe6ed4e02b8fdba905ba2774f576b7871f1c66c3 staging: rtl8712: remove space after cast
+5fd0241d66d2d0e76fa2cd68b0e1c79f1bf2a21a staging: rtl8712: add space before binary operator
+59184278ee664396a34b0c808a8485aa034e5a39 staging: rtl8712: add spaces around operators
+7b2ede0bde67f0ecd41da0792242060f7a7bfe8b staging: rtl8712: match parentheses alignment
+431c052b6ee0b371be3b3f2bf61d972f5086b710 staging: rtl8712: remove extra blank lines
+5e1e55bc78ee75ac8cbb55fbf3683162fcf62bb4 staging: rtl8712: Remove spaces after a cast
+a11fbe6bf1ae780d4e813b8afec37d1d37f2fa80 drivers: staging: rtl8712: align arguments with open parenthesis
+b0a7b3aee5c19ba0b295a37bc633ddf50fe0bccd staging: rtl8712: Rewrite NULL comparisons
+e91cafdf3c18b927e61eb4ee18e4865b8485f24f staging: rtl8712: Remove extra blank lines
+
+--===============0276069347894928425==--
