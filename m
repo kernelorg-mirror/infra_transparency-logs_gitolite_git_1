@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============7064464624786487547=="
+Content-Type: multipart/mixed; boundary="===============7200831167826070212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Wed, 07 Apr 2021 20:23:03 -0000
-Message-Id: <161782698368.3529.861724589410880470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 07 Apr 2021 20:23:22 -0000
+Message-Id: <161782700231.3801.9986651299616062351@gitolite.kernel.org>
 
---===============7064464624786487547==
+--===============7200831167826070212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: f5148babb3cd30939788a0f5743908e7601bb77c
-    new: 78d889705732ba856feee4d7bfa74a12fe48c480
-    log: revlist-f5148babb3cd-78d889705732.txt
+    old: aee1cf9f09fad9618dc182cf45063fdbe3f31881
+    new: 10cba9666c4e63e9cd73af2620b9b48b8634f210
+    log: revlist-aee1cf9f09fa-10cba9666c4e.txt
   - ref: refs/heads/for-next
-    old: 2d2070490a13207c014008b993b2ba2edc48d733
-    new: ccac12acc0c0d66b26ce7834e2dcf54ae159e63a
-    log: revlist-2d2070490a13-ccac12acc0c0.txt
+    old: 4438fb942495b8a962dca2f469e7d007b93984ed
+    new: edf47ef9faaf8ee100526572f5e08ad744368796
+    log: revlist-4438fb942495-edf47ef9faaf.txt
 
---===============7064464624786487547==
+--===============7200831167826070212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5148babb3cd-78d889705732.txt
+Content-Disposition: attachment; filename=revlist-aee1cf9f09fa-10cba9666c4e.txt
 
 7c911f9de7abb89f46254d2fecb11dcb4a7a6c30 interconnect: qcom: msm8939: remove rpm-ids from non-RPM nodes
 715ea61532e731c62392221238906704e63d75b6 interconnect: core: fix error return code of icc_link_destroy()
@@ -214,13 +214,13 @@ d83e98f9d8c88cbae1b05fa5751bddfcf0e222b2 Merge tag 'io_uring-5.12-2021-04-03' of
 2023a53bdf41b7646b1d384b6816af06309f73a5 Merge tag 'for-linus' of git://github.com/openrisc/linux
 829933ef05a951c8ff140e814656d73e74915faf firewire: nosy: Fix a use-after-free bug in nosy_ioctl()
 e49d033bddf5b565044e2abe4241353959bc9120 Linux 5.12-rc6
-78d889705732ba856feee4d7bfa74a12fe48c480 Merge remote-tracking branch 'regmap/for-5.12' into regmap-linus
+10cba9666c4e63e9cd73af2620b9b48b8634f210 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
 
---===============7064464624786487547==
+--===============7200831167826070212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d2070490a13-ccac12acc0c0.txt
+Content-Disposition: attachment; filename=revlist-4438fb942495-edf47ef9faaf.txt
 
 7c911f9de7abb89f46254d2fecb11dcb4a7a6c30 interconnect: qcom: msm8939: remove rpm-ids from non-RPM nodes
 715ea61532e731c62392221238906704e63d75b6 interconnect: core: fix error return code of icc_link_destroy()
@@ -406,8 +406,9 @@ d83e98f9d8c88cbae1b05fa5751bddfcf0e222b2 Merge tag 'io_uring-5.12-2021-04-03' of
 2023a53bdf41b7646b1d384b6816af06309f73a5 Merge tag 'for-linus' of git://github.com/openrisc/linux
 829933ef05a951c8ff140e814656d73e74915faf firewire: nosy: Fix a use-after-free bug in nosy_ioctl()
 e49d033bddf5b565044e2abe4241353959bc9120 Linux 5.12-rc6
-14e13b1ce92ea278fc0d7bb95b340b46cff624ab regmap-irq: Fix dereference of a potentially null d->virt_buf
-78d889705732ba856feee4d7bfa74a12fe48c480 Merge remote-tracking branch 'regmap/for-5.12' into regmap-linus
-ccac12acc0c0d66b26ce7834e2dcf54ae159e63a Merge remote-tracking branch 'regmap/for-5.13' into regmap-next
+9a446cf97af70ee81ba177703b67ac4955a5edcc spi: hisi-kunpeng: Fix Woverflow warning on conversion
+0e6521f13c297de32906ad7f691905803b2b2880 spi: orion: Use device_get_match_data() helper
+10cba9666c4e63e9cd73af2620b9b48b8634f210 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+edf47ef9faaf8ee100526572f5e08ad744368796 Merge remote-tracking branch 'spi/for-5.13' into spi-next
 
---===============7064464624786487547==--
+--===============7200831167826070212==--
