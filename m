@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 07 Apr 2021 21:38:12 -0000
-Message-Id: <161783149243.16095.32136934721994794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Wed, 07 Apr 2021 21:42:21 -0000
+Message-Id: <161783174107.18660.17382578040072168214@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/xen/tip
+user: ostr
 changes:
-  - ref: refs/heads/master
-    old: 56f15e2cb1f77fbcf9df38de7e5dcb4b37070196
-    new: 872fff333fb1a100a54dfb7fd20fb418bb7e1ba5
+  - ref: refs/heads/for-linus-5.12b
+    old: a846738f8c3788d846ed1f587270d2f2e3d32432
+    new: d120198bd5ff1d41808b6914e1eb89aff937415c
     log: |
-         017d6250ad719d3ddab9070446db1e9fd4ba4a65 stmmac: intel: Enable SERDES PHY rx clk for PSE
-         d567fd6e82faa61756810b9b0dfd9d0da11e960e mlxsw: core: Remove critical trip points from thermal zones
-         872fff333fb1a100a54dfb7fd20fb418bb7e1ba5 nfc/fdp: remove unnecessary assignment and label
+         d120198bd5ff1d41808b6914e1eb89aff937415c xen/evtchn: Change irq_info lock to raw_spinlock_t
          
