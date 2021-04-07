@@ -1,43 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============0160416000966480942=="
+Content-Type: multipart/mixed; boundary="===============3294340522598504386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Wed, 07 Apr 2021 04:15:49 -0000
-Message-Id: <161776894929.21443.7277715018661568033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 07 Apr 2021 04:32:12 -0000
+Message-Id: <161776993277.31392.2861214911559291832@gitolite.kernel.org>
 
---===============0160416000966480942==
+--===============3294340522598504386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
+repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/queue-rc
-    old: 58580c14fd193fe34f8e12a70a8faf786b84d71a
-    new: f53ba622abe74d142e84035f0387ab44a7db4b31
-    log: revlist-58580c14fd19-f53ba622abe7.txt
+  - ref: refs/heads/mlx5-queue
+    old: 98e65a71b065d7e628fcac50734cfa29444f051f
+    new: 847b6b4d5fbff6b3edd4efd35581de2ef5ded137
+    log: revlist-98e65a71b065-847b6b4d5fbf.txt
 
---===============0160416000966480942==
+--===============3294340522598504386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58580c14fd19-f53ba622abe7.txt
+Content-Disposition: attachment; filename=revlist-98e65a71b065-847b6b4d5fbf.txt
 
-dad9bd718dbc500d86e9d8bbcd8f8f3ad2c45151 net/mlx4: Fix EEPROM dump support
-b469598f1f0ff6b82ea78ffb3e85fec5355e8118 net/mlx5: Fix HW spec violation configuring uplink
-3658a02f09085c7e50a3b341ca0ca99d02220cd9 net/mlx5: Fix placement of log_max_flow_counter
-0d56cb57ee10dc8d2a4c6cab6516013f25d48d86 net/mlx5: Fix PPLM register mapping
-12fc85bd039eede8d9142e4e404cffd50b110b4b net/mlx5: Fix PBMC register mapping
-cb55b2f6caafc0e3bfd10c995e2b3eec3271d52b Merge branch 'patchq/368852' into mlx5-for-net
-d214d0b7f2b0f1c997021e9299e497a42416962e Revert "vsock: fix the race conditions in multi-transport support"
-0e2fdad03c78e30fec9c12c882671bfd7e5952bb Merge branch 'patchq/387439' into mlx5-for-net
-e3eef5a9825db0157e320e6f95f7e1042fc718eb Merge branch 'patchq/385612' into mlx5-for-net
-586399c1e1c18280111588c61d5d328f0e03fbaf Merge branch 'mlx4-for-net' into net-rc
-0b1b9a417d218cb8b533d789cd3ccf310f9c80d4 Merge branch 'mlx5-for-net' into net-rc
-2091dd8f47709fc677047091ce11809d53965661 Merge branch 'net-rc' into queue-rc
-f53ba622abe74d142e84035f0387ab44a7db4b31 Merge branch 'testing/rdma-rc' into queue-rc
+a45b2b42a3db41bf42c984c1d5389da8dc79934d net/mlx5: DR, Use variably sized data structures for different actions
+e14b2dc86e217fd5d1a3e7780bc0f93e8c7dfa9f net/mlx5: E-Switch, let user to enable disable metadata
+83554b357202fbadf460e0ee319c1d6b38d3353a net/mlx5: E-Switch, Skip querying SF enabled bits
+4789eacdfebe2c57211d65c4bbd6b9e530a4a46c net/mlx5: Expose mlx5_core_is_sf() to other drivers
+f876b1769f040c0b2facaf3b9d96501083a04396 net/mlx5: E-Switch, Make vport number u16
+1e6359301223013a5075a70a70d5b67769a90e55 net/mlx5: E-Switch Make cleanup sequence mirror of init
+d2a23f690e31fb30ae66e649b744f7b8e8c7e967 net/mlx5: E-Switch, Convert a macro to a helper routine
+03b57a4a3779e44d82c9d93fa8da168ddc18a1a7 net/mlx5: E-Switch, Move legacy code to a individual file
+705a14c582716344bc1fa7d2c7fe91f6d2ca6460 net/mlx5: E-Switch, Initialize eswitch acls ns when eswitch is enabled
+6bad6a86fc83e2b41ada77431c0db3b86526aa48 net/mlx5: SF, Use device pointer directly
+2d6b5d137d51da3f9a4f5576916dcb109c307b5e net/mlx5: SF, Reuse stored hardware function id
+feeec3ff2438146db747fc3a86e1f55222eea1f7 Merge branch 'patchq/356881' into mlx5-queue
+9ef607c862360b63d0f25a1c3c69c053daa4e9c2 net/mlx5: DR, Alloc cmd buffer with kvzalloc() instead of kzalloc()
+42bf28db3af51340154265cfb0ab55e86dcfaeb9 Merge branch 'patchq/385878' into mlx5-queue
+81095720b04adcb0751a10ab067e270ad485e439 Merge branch 'patchq/382403' into mlx5-queue
+847b6b4d5fbff6b3edd4efd35581de2ef5ded137 Merge branch 'patchq/382907' into mlx5-queue
 
---===============0160416000966480942==--
+--===============3294340522598504386==--
