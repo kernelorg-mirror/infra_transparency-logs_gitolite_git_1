@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0809426243737762743=="
+Content-Type: multipart/mixed; boundary="===============6677864703849496392=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Thu, 08 Apr 2021 16:21:29 -0000
-Message-Id: <161789888968.10316.8507938519991542572@gitolite.kernel.org>
+Date: Thu, 08 Apr 2021 16:22:00 -0000
+Message-Id: <161789892055.10510.14696839857983388925@gitolite.kernel.org>
 
---===============0809426243737762743==
+--===============6677864703849496392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: a5e13c6df0e41702d2b2c77c8ad41677ebb065b3
-    new: 454859c552da78b0f587205d308401922b56863e
-    log: revlist-a5e13c6df0e4-454859c552da.txt
+  - ref: refs/heads/nvdimm-meta
+    old: be0f72faa6d269aa7d824296859cd055f0ba61a0
+    new: 722ffe14d3ec1009a9245b0f0ba49805643d92bb
+    log: revlist-be0f72faa6d2-722ffe14d3ec.txt
 
---===============0809426243737762743==
+--===============6677864703849496392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5e13c6df0e4-454859c552da.txt
+Content-Disposition: attachment; filename=revlist-be0f72faa6d2-722ffe14d3ec.txt
 
 443f0bb8e29fa031ec4d5beb3c3143350438dc97 Revert "ARM: dts: bcm2711: Add the BSC interrupt controller"
 140a776833957539c84301dbdb4c3013876de118 ARM: dts: Drop duplicate sha2md5_fck to fix clk_disable race
@@ -252,5 +252,21 @@ e3bb2f4f96a653f85b3bf19bc482064d47cdb98c Merge tag 'regulator-fix-v5.12-rc6' of 
 dbaa5d1c254e1b565caee9ac7b526a9b7267d4c4 Merge branch 'parisc-5.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 3a22981230f997846d1cfeb8eadcda8bcc0f7ea8 Merge tag 'arm-fixes-5.11-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 454859c552da78b0f587205d308401922b56863e Merge tag 'arc-5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
+d153233acfbcb744a0d53aa59f097ec19436c04e bcache: add initial data structures for nvm pages
+089e7925b87fe55b929d6065d9bf97cd45dcd69d bcache: initialize the nvm pages allocator
+52de756545e36ffc08a08523f90d658f3a0c7c2b bcache: initialization of the buddy
+c2386126950a955729b750b9d52f662066aae032 bcache: bch_nvm_alloc_pages() of the buddy
+8d13b4e8f689f992183c75c5da64b1ab928860a8 bcache: bch_nvm_free_pages() of the buddy
+c6d23df5d9a6999d94533c95808ff0edf7b54a9a bcache: get allocated pages from specific owner
+4c000518736d1525070df1f0d7006b2c4c85124c bcache: nvm-pages fixes for bcache integration testing
+5f2fd12a033abb59498144601f438e7f5a1f9138 bcache: use bucket index to set GC_MARK_METADATA for journal buckets in bch_btree_gc_finish()
+bf692a085d713233e82f07be8d9209169e0bf077 bcache: add BCH_FEATURE_INCOMPAT_NVDIMM_META into incompat feature set
+acd989a3fb3b4a2b414cb5eecdae3ef43bf1c175 bcache: initialize bcache journal for NVDIMM meta device
+20a01bce9e4b922773f6943d8f41cadef6673ffc bcache: support storing bcache journal into NVDIMM meta device
+8836d1a30b3db2ed5dd77ee22fab7391de639409 bcache: read jset from NVDIMM pages for journal replay
+509f4b0fbff96de6f6871e8ce58ea886dd45d83e bcache: add sysfs interface register_nvdimm_meta to register NVDIMM meta device
+7787deb860343a9cd07f457450c03b60bfedcf6f bcache: use div_u64() in init_owner_info()
+67594a418973299a36ef5da4de45ada719b4baf5 bcache: fix BCACHE_NVM_PAGES' dependences in Kconfig
+722ffe14d3ec1009a9245b0f0ba49805643d92bb bcache: more fix for compiling error when BCACHE_NVM_PAGES disabled
 
---===============0809426243737762743==--
+--===============6677864703849496392==--
