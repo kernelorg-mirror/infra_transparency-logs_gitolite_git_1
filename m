@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Thu, 08 Apr 2021 02:44:05 -0000
-Message-Id: <161784984511.14302.8534851646239226110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 08 Apr 2021 03:03:32 -0000
+Message-Id: <161785101212.26621.3696174078315562461@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
-user: chanwoo
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/v5.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
-  - ref: refs/tags/v5.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
+  - ref: refs/heads/dev
+    old: 1d8a9ede0f9d0c1fc188af518debcdc622f8e428
+    new: 8c48d20c1a2c321743134dd9918e1873d3deee3c
+    log: |
+         8c48d20c1a2c321743134dd9918e1873d3deee3c rcutorture: Consolidate rcu_torture_boost() timing and statistics
+         
