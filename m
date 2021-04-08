@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
-Date: Thu, 08 Apr 2021 18:19:36 -0000
-Message-Id: <161790597676.17513.5815612464527099044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 08 Apr 2021 18:21:01 -0000
+Message-Id: <161790606180.20335.4293823410022849527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rt-tests/rt-tests
-user: jkacur
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/unstable/devel/latest
-    old: c378082ff1c632d100c3d609a7b5e08c0540e2d4
-    new: 6af88067da16c6e69243b376c3b6454ec694460b
+  - ref: refs/heads/master
+    old: e0a472fffe435af52ea4e21e1e0001c5c8ffc6c7
+    new: 3fb4f979b4fa1f92a02b538ae86e725b73e703d0
     log: |
-         8d6c2947d5622116a1982aa56dc248a7df24df42 cyclicdeadline: Remove unused include header
-         6af88067da16c6e69243b376c3b6454ec694460b signaltest: Add missing --output usage info
+         7a2f91441b2c1d81b77c1cd816a4659f4abc9cbe s390/cpcmd: fix inline assembly register clobbering
+         08edb9683e47f5183aed9aa3f926292b54c278c1 s390/unwind: add machine check handler stack
+         85012e764d3a1be02297b23c1aa3467f0df212aa s390/irq: fix reading of ext_params2 field from lowcore
+         ad31a8c05196a3dc5283b193e9c74a72022d3c65 s390/setup: use memblock_free_late() to free old stack
+         3fb4f979b4fa1f92a02b538ae86e725b73e703d0 Merge tag 's390-5.12-6' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
          
