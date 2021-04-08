@@ -1,59 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============0229963627470972912=="
+Content-Type: multipart/mixed; boundary="===============1096068338699415619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 08 Apr 2021 16:40:55 -0000
-Message-Id: <161790005560.21874.16898685617644117687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 08 Apr 2021 16:41:16 -0000
+Message-Id: <161790007607.22100.11096468551563939820@gitolite.kernel.org>
 
---===============0229963627470972912==
+--===============1096068338699415619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.12
-    old: 5ac1b909e5b60cc2735bd9174f631dc2c7f44c5a
-    new: 794aaf01444d4e765e2b067cba01cc69c1c68ed9
+  - ref: refs/heads/for-linus
+    old: a07a4db9b2a7dfb3109fda61b5e353ad34b65f86
+    new: 5247caa0b3b4cd1a1a6bec73c1475731af08e969
     log: |
-         a21fbc42807b15b74b0891bd557063e6acf4fcae spi: spi-zynqmp-gqspi: Fix runtime PM imbalance in zynqmp_qspi_probe
-         794aaf01444d4e765e2b067cba01cc69c1c68ed9 spi: Fix use-after-free with devm_spi_alloc_*
+         44de8d80dba4e65f4fe7c17ea4be75e3cf9a902c ASoC: rt1011: remove pack_id check in rt1011
+         7b3f5b207da5116add56c335c5fb92cee140dc63 ASoC: codecs: Fix runtime PM imbalance in tas2552_probe
+         5247caa0b3b4cd1a1a6bec73c1475731af08e969 Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
          
-  - ref: refs/heads/spi-5.13
-    old: 0e6521f13c297de32906ad7f691905803b2b2880
-    new: 5fed9fe5b41aea58e5b32be506dc50c9ab9a0e4d
-    log: |
-         d570838efb6fb3154cbd08ab1b22d1f6442b1e78 ARM/spi: spear: Drop PL022 num_chipselect
-         5fed9fe5b41aea58e5b32be506dc50c9ab9a0e4d spi: fsl: add missing iounmap() on error in of_fsl_spi_probe()
-         
+  - ref: refs/heads/for-next
+    old: 1faa37b8f4789efe1e6af9d203957b158dd1887c
+    new: d965e63e98eeaf511179cd17c42125a8384d7c3c
+    log: revlist-1faa37b8f478-d965e63e98ee.txt
 
---===============0229963627470972912==
+--===============1096068338699415619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1faa37b8f478-d965e63e98ee.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1617900038 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1617900053-329e87ffd99e04e03fed68c7a07c545584798a24
+44de8d80dba4e65f4fe7c17ea4be75e3cf9a902c ASoC: rt1011: remove pack_id check in rt1011
+7b3f5b207da5116add56c335c5fb92cee140dc63 ASoC: codecs: Fix runtime PM imbalance in tas2552_probe
+f2138aed231c88d5c4fa8d06aa15ad19685087c2 ASoC: simple-card-utils: enable flexible CPU/Codec/Platform
+205eb17eddb473c3159743c7d3aaf68db37b7231 ASoC: simple-card-utils: share dummy DAI and reduce memory
+f985838003ee618daba7a38da3efe27c639575e2 ASoC: codecs: wsa881x: constify static struct snd_soc_dai_ops
+a0bc855ffdb55cbb9fbf7fa9611d17f19db889a8 ASoC: codecs: tlv320aic3x: add AIC3106
+b186e7c17d9f2c2bc9cd0bd362402eddbea7749b ASoC: tas2764: constify static struct snd_soc_dai_ops
+38ec3006eccb46a6db6f4a36536f78db8e9042ac ASoC: codecs: tlv320aic3x: add SPI to the DT binding
+a93799d55fd479f540ed97066e69114aa7709787 ASoC: fsl: sunxi: remove redundant dev_err call
+5e71e9c14db4e49cca56354c95ce10e0e00214d1 ASoC: rt1019: constify static struct snd_soc_dai_ops
+e9a216d8f14ac4d926078885e7e772db08e6aad9 ASoC: cx2072x: constify static struct snd_soc_dai_ops
+f2ec1ebb257155fb534cad390575d696dfd567fb ASoC: tas2770: Constify static struct snd_soc_dai_ops
+703fe25d11ae613c77b8e72bb06efc06de871648 Merge series "ASoC: simple-card-utils: prepare for multi support" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
+5247caa0b3b4cd1a1a6bec73c1475731af08e969 Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+d965e63e98eeaf511179cd17c42125a8384d7c3c Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
 
-5ac1b909e5b60cc2735bd9174f631dc2c7f44c5a 794aaf01444d4e765e2b067cba01cc69c1c68ed9 refs/heads/spi-5.12
-0e6521f13c297de32906ad7f691905803b2b2880 5fed9fe5b41aea58e5b32be506dc50c9ab9a0e4d refs/heads/spi-5.13
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBvMgYACgkQJNaLcl1U
-h9AqSgf/arACDNBJvcMmSNg9vGsiCyxbuS7Jc3ZijP0hC1xyxNYtS4TFTxmKsMtM
-0BQCFRLzz5p9GOsNbl/eBkfM6rQg0kUN5B4zaDS4QNRUCmO9y/A7rfbnBAW6SQ1Z
-KdwHwMGEuiNemQb4JyenUcS7WwRAdKyKF3NpJHFe7kX/Wi6EIsVqXSFXSED29h8d
-9mqwaFaEpg318VjQ5JH1+LLRbTLZruRD/jzJbwv8bQ/lND8dnTqDE5E1YquwH+Bi
-56MKdEi4Eesa16GbGsLHyI+IvrdkleBfPIVe6kICEtkSwg98N5zCzDzmjHzbjjbT
-Im9Gj9xaxKiD5KUHqh8xDaa2fHKmkQ==
-=T+bp
------END PGP SIGNATURE-----
-
---===============0229963627470972912==--
+--===============1096068338699415619==--
