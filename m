@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 08 Apr 2021 12:26:45 -0000
-Message-Id: <161788480565.19983.7549974300704778049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Thu, 08 Apr 2021 12:32:23 -0000
+Message-Id: <161788514393.23074.8349748449829918785@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/x86/core
-    old: 9bc0bb50727c8ac69fbb33fb937431cf3518ff37
-    new: 53375a5a218e7ea0ac18087946b5391f749b764f
+  - ref: refs/heads/master
+    old: 30846980605b472869b977ab12f83c30b8c9e27f
+    new: eb63fb88512fdb567262b78e930e8dd3441efa34
     log: |
-         53375a5a218e7ea0ac18087946b5391f749b764f x86/cpu: Resort and comment Intel models
+         eb63fb88512fdb567262b78e930e8dd3441efa34 gpioset: fix a segfault with default mode
          
