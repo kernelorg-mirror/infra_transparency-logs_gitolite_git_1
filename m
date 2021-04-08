@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4895376624947794483=="
+Content-Type: multipart/mixed; boundary="===============3823707381083970516=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Thu, 08 Apr 2021 09:28:38 -0000
-Message-Id: <161787411826.7642.8450529726987719598@gitolite.kernel.org>
+Date: Thu, 08 Apr 2021 09:28:58 -0000
+Message-Id: <161787413809.7797.12923655463558484072@gitolite.kernel.org>
 
---===============4895376624947794483==
+--===============3823707381083970516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-testing
-    old: 7af64936e31b7bbedf07f13908b5809e037fe852
-    new: 895f8a299561d781be57b61d27c5bacd467dff56
-    log: revlist-7af64936e31b-895f8a299561.txt
+  - ref: refs/heads/extcon-fixes
+    old: d3bdd1c3140724967ca4136755538fa7c05c2b4e
+    new: e49d033bddf5b565044e2abe4241353959bc9120
+    log: revlist-d3bdd1c31407-e49d033bddf5.txt
 
---===============4895376624947794483==
+--===============3823707381083970516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7af64936e31b-895f8a299561.txt
+Content-Disposition: attachment; filename=revlist-d3bdd1c31407-e49d033bddf5.txt
 
 7d200b283aa049fcda0d43dd6e03e9e783d2799c iio:adc:qcom-spmi-vadc: add default scale to LR_MUX2_BAT_ID channel
 d68c592e02f6f49a88e705f13dfc1883432cf300 iio: hid-sensor-prox: Fix scale not correct issue
@@ -923,11 +923,5 @@ d83e98f9d8c88cbae1b05fa5751bddfcf0e222b2 Merge tag 'io_uring-5.12-2021-04-03' of
 2023a53bdf41b7646b1d384b6816af06309f73a5 Merge tag 'for-linus' of git://github.com/openrisc/linux
 829933ef05a951c8ff140e814656d73e74915faf firewire: nosy: Fix a use-after-free bug in nosy_ioctl()
 e49d033bddf5b565044e2abe4241353959bc9120 Linux 5.12-rc6
-17e8ff013e3e82a66d239777d113b2aaa97a77d4 extcon: max8997: Add CHGINS and CHGRM interrupt handling
-e3f60329097be9e6c314de36c8dd0c7c5c2c0c7b extcon: sm5502: Detect OTG when USB_ID is connected to ground
-dd6f5afb1c2db352f8dd2d181597b3835f132657 bindings: pm8941-misc: Convert bindings to YAML
-4fcdd677c4ea0f57eda1be6fcd965ddd7d9551d6 bindings: pm8941-misc: Add support for VBUS detection
-7b1222b224aff41739319ae81cd266825464ad8f extcon: qcom-spmi: Add support for VBUS detection
-895f8a299561d781be57b61d27c5bacd467dff56 extcon: Add support of multiple external connector on a device
 
---===============4895376624947794483==--
+--===============3823707381083970516==--
