@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5564981271099000017=="
+Content-Type: multipart/mixed; boundary="===============0778898119069388370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 08 Apr 2021 06:43:19 -0000
-Message-Id: <161786419986.32392.13154284422206497212@gitolite.kernel.org>
+Date: Thu, 08 Apr 2021 06:45:57 -0000
+Message-Id: <161786435777.2439.2986214219870953707@gitolite.kernel.org>
 
---===============5564981271099000017==
+--===============0778898119069388370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,45 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: e76e8b56fe1ab1e9d28e341fac614ddb1a82f8e5
-    new: d7ea31ca4de2c52e7488043c82159227e2bf81e9
+    old: d7ea31ca4de2c52e7488043c82159227e2bf81e9
+    new: b195b20b7145bcae22ad261abc52d68336f5e913
     log: |
-         484a58607a808c3721917f5ca5fba7eff809e4df fpga: fpga-mgr: xilinx-spi: fix error messages on -EPROBE_DEFER
-         2d6e820c4e9e7a6d681a413cca6c7dc53b420c97 fpga: xilinx-pr-decoupler: Simplify code by using dev_err_probe()
-         71c3980b8cc8ddaa523a3061392f5298c4798206 dt-bindings: fpga: Add compatible value for Xilinx DFX AXI shutdown manager
-         6f1e376cfc6864a2f46538db909bbd5253c3c146 fpga: Add support for Xilinx DFX AXI Shutdown manager
-         9a8d3cda8daf54b1f8e67ccb360876379b7e7895 fpga: dfl: afu: harden port enable logic
-         f9d2d86dc52118bc237ed081128df30faa4a5761 dt-bindings: fpga: fpga-region: Convert to sugar syntax
-         a78a51a851ed3edc83264a67e2ba77a34f27965f fpga: dfl: pci: add DID for D5005 PAC cards
-         d7ea31ca4de2c52e7488043c82159227e2bf81e9 Merge tag 'fpga-late-for-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/mdf/linux-fpga into char-misc-next
+         17e8ff013e3e82a66d239777d113b2aaa97a77d4 extcon: max8997: Add CHGINS and CHGRM interrupt handling
+         e3f60329097be9e6c314de36c8dd0c7c5c2c0c7b extcon: sm5502: Detect OTG when USB_ID is connected to ground
+         dd6f5afb1c2db352f8dd2d181597b3835f132657 bindings: pm8941-misc: Convert bindings to YAML
+         4fcdd677c4ea0f57eda1be6fcd965ddd7d9551d6 bindings: pm8941-misc: Add support for VBUS detection
+         7b1222b224aff41739319ae81cd266825464ad8f extcon: qcom-spmi: Add support for VBUS detection
+         b195b20b7145bcae22ad261abc52d68336f5e913 Merge tag 'extcon-next-for-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
          
 
---===============5564981271099000017==
+--===============0778898119069388370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617864194 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617864352 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1617864193-1d6907a750e00d189712e6331bb30b9c66c6c60d
+nonce 1617864351-bd7fdfcb716ba75e2e1fe0505eee9016d10685c1
 
-e76e8b56fe1ab1e9d28e341fac614ddb1a82f8e5 d7ea31ca4de2c52e7488043c82159227e2bf81e9 refs/heads/char-misc-testing
+d7ea31ca4de2c52e7488043c82159227e2bf81e9 b195b20b7145bcae22ad261abc52d68336f5e913 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBupgIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CqQQAK67UpUeOxijCWhvIJUY
-PFe56YZBFfoAYx/oQ4fLuplfocHMTM3w80JylPDA5D878uClaN/5dXw+VJC5I7Hg
-3clT384QzYOd5Lnd9biDLBw2Zhm3/it3MGIIu+LL1AflAUZH0NNdyJ1i1ddlnhCd
-wIpL1/YKleFbQYXF51hUFRAyBC2KjIJjcHLvOLMUBd+b2X1IZuz8xJHzVdq3ZOI6
-Qo4gvyUM6bzXbrsONOxp3y4sScFuynQrfzM2H4zhYym1Nbvf94ExNf/cksMe9GMG
-BGMrTkc9gre7K2BFoAshGs3FJISKjbmyMRtsGzChjuGGMT+Sf/E4JRlfsA/nGEmi
-U5THWHMNHxI0oIcoHnNo16z3Aw2kSXI8qh6UlQ4IvFdCm/UGKgV+TcNPjROlgVrc
-lIUbf3B/JPGYk4z0AwGXKTz66xw5ryadKi3RPc3873VB2gMOjinOUehuq0isNqVV
-GrVBoYqZhQKcnPgAFWxG22pb0791+d0edoDalbBVxN8kUmSu/UtS//mhH62Na/H+
-zZ9wpb5Y0ncI5m4jTOahzYAegdCW9Aj8bcoPe0FHe/LXFFZ4G9zGFadgsRMQCAix
-DmhcfdevuEru/7wsMUw4lXHP59Tfq06hIy5nxJ9BghnGA5a9AoeZURAUh29zRmRw
-SqG2xu2LKEcC7ogtSF2pPNJ8
-=9SPZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBupqAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VKgQAKZoRs7PcMuJxPF3qBjK
+cX6vZLY0edWuiQuEiofyT4F+eTmVBGb0AtoDeQWCQtdkIVR7CRc5dChZ3DktIUNV
+qizT3GLhN8AD3ZfqywnZVYW1gPlhYgiz5KUzyPcy0E2097Q1bIMjEvB1y7lHrQJr
+mqCWc6cw5nVoIqg2KKevAUY5J1mb9fSu5lriz+2hpL5kpjJ5oXxphvsa6CXONBw/
+bLzNTFsw12tsi9wTh0HU2c7YM9hVsV5wwB/kx7chfJZeqYVdqTzta+82zFE0CHBT
+dkEfAYsPUy3lkORlM8YXPMJ4rWuJZckvq3NjW1Yx8hy9GH7BtCgLA5Ltp2HcanCO
+jiQ8lRdWv2oJML1vMUF2gcDCFwcOC1wFP/vzcjevCSd+17mYva3NxXn2CkjfXB4x
+eNFIN0HzB8dbZ+wMWf0Pzlih5LSxUcMwI52e9Go7zHfji0d1q/izz0LfLQCsexn/
+axF1r9dzfbMn0wEpYlxw8PTeIDyhO6n1qwwbKpxCKFCSl9CS7uz9zXXq85okUzGT
+GnsQJPXjpIdO/3yZkspJncTfjKfK3ffQSt1hfci7lOyOJYE9P0GwW15SHNmpr1rY
+CG/8wCgqasC5FyRbLHHuSKemonz9vzD11Xgblbd3aQWHnjuezhkQL7ekPFaswRGj
+N+yFUrEP3Ud7buj92Y6Rx0yO
+=WbBZ
 -----END PGP SIGNATURE-----
 
---===============5564981271099000017==--
+--===============0778898119069388370==--
