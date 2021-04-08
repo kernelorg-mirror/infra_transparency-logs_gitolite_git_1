@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3835445707298177311=="
+Content-Type: multipart/mixed; boundary="===============6284610616006684861=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 08 Apr 2021 18:46:03 -0000
-Message-Id: <161790756311.2385.16295781276312236950@gitolite.kernel.org>
+Date: Thu, 08 Apr 2021 18:49:01 -0000
+Message-Id: <161790774102.3515.18377269122953300453@gitolite.kernel.org>
 
---===============3835445707298177311==
+--===============6284610616006684861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,208 +16,216 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: c2165cf198e687cf2226d460737d89e40da871b7
-    new: b03953cf94f597be1ad9eab82dda3043a73cd1a6
-    log: revlist-c2165cf198e6-b03953cf94f5.txt
+    old: b03953cf94f597be1ad9eab82dda3043a73cd1a6
+    new: 801b34b86d8d964fae6929b1ac19fe591b79bc83
+    log: revlist-b03953cf94f5-801b34b86d8d.txt
   - ref: refs/heads/queue/4.19
-    old: d1dc9a8decf7cb79c9812559f3274c50d409c89f
-    new: 629eb850d24422adde45856ac3bc80c4a626e745
-    log: revlist-d1dc9a8decf7-629eb850d244.txt
+    old: 629eb850d24422adde45856ac3bc80c4a626e745
+    new: a471142e51bfe5251d3042ebd0741351269639ee
+    log: revlist-629eb850d244-a471142e51bf.txt
   - ref: refs/heads/queue/4.4
-    old: ea01bdbb5254556aa0c20ab6e906753c0670e704
-    new: 89e057e37756ecfd1d29a10d3016fb975462c236
+    old: 89e057e37756ecfd1d29a10d3016fb975462c236
+    new: e6c81be557844aff5d532195a5a4c3f97a20ac9f
     log: |
-         e2cc16f1324070aed9d8f16017e0989feb06ad4f net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
-         74133573a976382876c1c1849309ba3559784369 mISDN: fix crash in fritzpci
-         26a99a600519fe0056432a418c5eba4645d6ed29 mac80211: choose first enabled channel for monitor
-         649f62561644ba5106f10211f60390d9b4062230 x86/build: Turn off -fcf-protection for realmode targets
-         5a9cd078e77eaffdb790e6aefc804c84b48f2271 ia64: mca: allocate early mca with GFP_ATOMIC
-         148010eaceb346e3dfb96903054736fc44cd9580 cifs: revalidate mapping when we open files for SMB1 POSIX
-         89e057e37756ecfd1d29a10d3016fb975462c236 cifs: Silently ignore unknown oplock break handle
+         493c9c843fd46c415fb2b3fed1650b703f59a2a8 net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
+         81e7263044961915e3e0a0249c4980b81ac535ff mISDN: fix crash in fritzpci
+         2b4b082eb029358410a4e7a2d1e41c6ae42271ca mac80211: choose first enabled channel for monitor
+         1e4bd0e54a9f6a39e9616fbf574a7e5d20218509 x86/build: Turn off -fcf-protection for realmode targets
+         d09a66b61ca3644eac3568507c640a4479e85caf ia64: mca: allocate early mca with GFP_ATOMIC
+         f0cab056282438a069d57fc5a34318eee820f069 cifs: revalidate mapping when we open files for SMB1 POSIX
+         e6c81be557844aff5d532195a5a4c3f97a20ac9f cifs: Silently ignore unknown oplock break handle
          
   - ref: refs/heads/queue/4.9
-    old: 25e87fb503152152fb9a0a08db947ef3718bd46d
-    new: 9bf6d8431ef4780baee900b0ec7746ce7e880697
+    old: 9bf6d8431ef4780baee900b0ec7746ce7e880697
+    new: 0f636bc664c60e017283914f59897de4d6f640c8
     log: |
-         57dd629eee58a2e4464ea4ef3967e0e49ceea00c net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
-         167a6533e3052ebe22f75a7d409402c2671aedde mISDN: fix crash in fritzpci
-         eeb349ce1669896cb4e0d5a11ffc002b56810bfc mac80211: choose first enabled channel for monitor
-         a1d1095cf329c22d967299fce7c21b194d1e7272 drm/msm: Ratelimit invalid-fence message
-         a61a255fae2d4645f71e7672903f497824c9b997 x86/build: Turn off -fcf-protection for realmode targets
-         84f159433d385fbc8ef4672e4b667bf1a7ad6e50 scsi: target: pscsi: Clean up after failure in pscsi_map_sg()
-         9cdea3c6d528380e8fa86576798222829706a501 ia64: mca: allocate early mca with GFP_ATOMIC
-         ac2a7fab9b79ef18649a62128819d1ad1ae85c9a cifs: revalidate mapping when we open files for SMB1 POSIX
-         9bf6d8431ef4780baee900b0ec7746ce7e880697 cifs: Silently ignore unknown oplock break handle
+         7464e45fc486cd593967f4d3106df114f42b3c89 net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
+         4cb81201e3adb2b5e505b1ed2e095b19fbc63a83 mISDN: fix crash in fritzpci
+         86dea1c2f40fba29f1e5611e49c25b4302e0919f mac80211: choose first enabled channel for monitor
+         231d7864017739cc758024f3e6716cf8f2de87d8 drm/msm: Ratelimit invalid-fence message
+         bafc8d223b5c060f3420d8e97639c220ef0abf2b x86/build: Turn off -fcf-protection for realmode targets
+         e648673d452a5bac1befbf8080b05d411c01a47c scsi: target: pscsi: Clean up after failure in pscsi_map_sg()
+         0f98534021d50ab6951d1dc28e47ed4272fa20c2 ia64: mca: allocate early mca with GFP_ATOMIC
+         0c73c2cd55a9e46a3dc39a6b4b7484d896fe3537 cifs: revalidate mapping when we open files for SMB1 POSIX
+         0f636bc664c60e017283914f59897de4d6f640c8 cifs: Silently ignore unknown oplock break handle
          
   - ref: refs/heads/queue/5.10
-    old: 50cf9f5be4974524e0d5017daf9b100118147698
-    new: 7d95cdd838fc7bdddf7a784b1f34134679c61d9a
-    log: revlist-50cf9f5be497-7d95cdd838fc.txt
+    old: 7d95cdd838fc7bdddf7a784b1f34134679c61d9a
+    new: a28313e8cc8a8549957823f47f52ce0654d4d7f9
+    log: revlist-7d95cdd838fc-a28313e8cc8a.txt
   - ref: refs/heads/queue/5.11
-    old: 09fbf5d2404521447fa85ea6bdc7739a8b2f17b8
-    new: 5006234c534fa82f722bf085d45e74ba5eef385c
-    log: revlist-09fbf5d24045-5006234c534f.txt
+    old: 5006234c534fa82f722bf085d45e74ba5eef385c
+    new: 4ed80e0b0c05ac66af7bd39a92210558725f4fee
+    log: revlist-5006234c534f-4ed80e0b0c05.txt
   - ref: refs/heads/queue/5.4
-    old: 0a436f7554f19be83a75fee79c70509c507848f2
-    new: a30aac31ec59cce4ea540bd43801b0918ae29b1a
-    log: revlist-0a436f7554f1-a30aac31ec59.txt
+    old: a30aac31ec59cce4ea540bd43801b0918ae29b1a
+    new: 533fad4fe3df2ef171d308d59a043f7cacfb4686
+    log: revlist-a30aac31ec59-533fad4fe3df.txt
 
---===============3835445707298177311==
+--===============6284610616006684861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2165cf198e6-b03953cf94f5.txt
+Content-Disposition: attachment; filename=revlist-b03953cf94f5-801b34b86d8d.txt
 
-6eeae897485764d2d70a6d64723ebf24e51eab0e ARM: dts: am33xx: add aliases for mmc interfaces
-815bb337fd5e06fa0c5cd8e176f1c200b210ec70 net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
-9e7f5d16398e87227a9c55c1c723349253f6eac2 mISDN: fix crash in fritzpci
-80cb6acbde9908c2f11f523eb4e4a61847fa04f9 mac80211: choose first enabled channel for monitor
-79ec15b318c00d0f92a1e7668a3e8815629a5493 drm/msm: Ratelimit invalid-fence message
-3ad43b0157d570f8043a0a09817e6ce6b2cf2cea platform/x86: thinkpad_acpi: Allow the FnLock LED to change state
-312862c2c7f0c8c1d3e5e8508198b7699de702b0 x86/build: Turn off -fcf-protection for realmode targets
-4825ef34f4bb3898f1bc281e2b8b94df443ede90 scsi: target: pscsi: Clean up after failure in pscsi_map_sg()
-0655b53b803db665c2bff0427904b63a7451f112 ia64: mca: allocate early mca with GFP_ATOMIC
-e06b76be000f6cab90a918c5e1dcbe6f39aee362 cifs: revalidate mapping when we open files for SMB1 POSIX
-8c7d826b002561ee0c7103734e4064844d8a86ef cifs: Silently ignore unknown oplock break handle
-b03953cf94f597be1ad9eab82dda3043a73cd1a6 bpf, x86: Validate computation of branch displacements for x86-64
+5d1332e308f65916358d20a5edd8662e01d09743 ARM: dts: am33xx: add aliases for mmc interfaces
+684bbdb12a7438c81c41ae3e98df17adde6c0b21 net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
+0a882e88f2dfd695d9c5e947efd07c55bebed917 mISDN: fix crash in fritzpci
+5fb3820be412ff22c0bd81da866748f98ca844fa mac80211: choose first enabled channel for monitor
+e25c2a043005a960db4c101d7e75d311c50f73d9 drm/msm: Ratelimit invalid-fence message
+09ebb603d0e095c52260b0b63d781aeca9fca5a9 platform/x86: thinkpad_acpi: Allow the FnLock LED to change state
+53dc6de6a93bb021bbdcb66487682de8c74d251d x86/build: Turn off -fcf-protection for realmode targets
+61a6a7a853932e9aab3f3e3d0b9927438aba9ce7 scsi: target: pscsi: Clean up after failure in pscsi_map_sg()
+e5b07cec4c32c05f7cdca330c8b5e9a780d59fb3 ia64: mca: allocate early mca with GFP_ATOMIC
+41aebd37c02d919db6f83d01a2019452bb16c149 cifs: revalidate mapping when we open files for SMB1 POSIX
+30923f38e7f08b2de0b113ea8b42b49182a63dd8 cifs: Silently ignore unknown oplock break handle
+801b34b86d8d964fae6929b1ac19fe591b79bc83 bpf, x86: Validate computation of branch displacements for x86-64
 
---===============3835445707298177311==
+--===============6284610616006684861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1dc9a8decf7-629eb850d244.txt
+Content-Disposition: attachment; filename=revlist-629eb850d244-a471142e51bf.txt
 
-2b5690a4647a1873e15dd1cc859cb9d0b678d0a0 ARM: dts: am33xx: add aliases for mmc interfaces
-b675ed2aaee24574988e45139290cd52ea4d63e6 bus: ti-sysc: Fix warning on unbind if reset is not deasserted
-6afd17c1c46000d948652ebefd9ff5d34c346ecd platform/x86: intel-hid: Support Lenovo ThinkPad X1 Tablet Gen 2
-d0fc3738df754344f0c7ccbc6cd622e62cfbe4cd net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
-d0a6ebdfc3de40481781928882433b4ef4357553 mISDN: fix crash in fritzpci
-93f72eadf29aa83ec09108a543e21c4544f65cea mac80211: choose first enabled channel for monitor
-addb2774eb26496bac6ca59a04fd90425eccc37d drm/msm: Ratelimit invalid-fence message
-dac0e1f01d7717252ae344feeebaa299a2e944a0 platform/x86: thinkpad_acpi: Allow the FnLock LED to change state
-2f94f1cc250acdf635a2e5eecd286ecd45bc104c x86/build: Turn off -fcf-protection for realmode targets
-6c35868da6a3fab47051d1660e10272419fb6544 scsi: target: pscsi: Clean up after failure in pscsi_map_sg()
-d3fc74f8de2a37b1cbbdbfea46580f429790073a ia64: mca: allocate early mca with GFP_ATOMIC
-fae430c1800e54461d044bce808bfce6d6597234 ia64: fix format strings for err_inject
-f552c6f905abff477ff85f653486e19b6882780a cifs: revalidate mapping when we open files for SMB1 POSIX
-629eb850d24422adde45856ac3bc80c4a626e745 cifs: Silently ignore unknown oplock break handle
+2fe2ee83db8f3a9b7fd1f19b32ca971d11989005 ARM: dts: am33xx: add aliases for mmc interfaces
+42db5e1b5d15ed5af1e5a6f9d503f4b1bda1d8c9 bus: ti-sysc: Fix warning on unbind if reset is not deasserted
+717ecca18863841c9bfb462c1a062982c609660d platform/x86: intel-hid: Support Lenovo ThinkPad X1 Tablet Gen 2
+cf769cdecdb2bee8c221e18dd2bab45661df3d25 net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
+e00f9d5d2586f44e5ddcd60dfa11820e4caaabf4 mISDN: fix crash in fritzpci
+72029526fb4532933c66d6e89bb85755e8d59253 mac80211: choose first enabled channel for monitor
+d9500dcba0eba8e42a7ce4c4ccb2501b23130060 drm/msm: Ratelimit invalid-fence message
+bbd9b5d475bc667028ffa2eba248190bb8c84b5e platform/x86: thinkpad_acpi: Allow the FnLock LED to change state
+f65eeede4677759456eae5f64169aa11f113fe36 x86/build: Turn off -fcf-protection for realmode targets
+d0d7271183f04fe756141e34f6ca55e95b97c0a2 scsi: target: pscsi: Clean up after failure in pscsi_map_sg()
+b2241ba5cf4eeba9ef8604e563113309f5d953af ia64: mca: allocate early mca with GFP_ATOMIC
+a13267b56e757810cdab269ee1655316632bb796 ia64: fix format strings for err_inject
+3df6754776c031482937ecbef548e269ce89a6fb cifs: revalidate mapping when we open files for SMB1 POSIX
+7a02e12fa6e9ed703ac6af92a9100938ca47dafe cifs: Silently ignore unknown oplock break handle
+9ac33adff746cd42e712e49763178e75d45382bd bpf, x86: Validate computation of branch displacements for x86-64
+a471142e51bfe5251d3042ebd0741351269639ee bpf, x86: Validate computation of branch displacements for x86-32
 
---===============3835445707298177311==
+--===============6284610616006684861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50cf9f5be497-7d95cdd838fc.txt
+Content-Disposition: attachment; filename=revlist-7d95cdd838fc-a28313e8cc8a.txt
 
-a0c8f4f9783b374af98b37097417c73bc9099d07 ARM: dts: am33xx: add aliases for mmc interfaces
-a2d3eb9603d1b8637b188957a22256394ea12ede bus: ti-sysc: Fix warning on unbind if reset is not deasserted
-da5175cd72a1598b2de1f05babfeb1eff5de8ceb platform/x86: intel-hid: Support Lenovo ThinkPad X1 Tablet Gen 2
-255f939357a25f1aefb72de2bf3f8e40347893d5 bpf, x86: Use kvmalloc_array instead kmalloc_array in bpf_jit_comp
-efddec3da7c38bc16664fcca648eb4018c3477ae net/mlx5e: Enforce minimum value check for ICOSQ size
-0e3b1b9440a7ef67d22460037cdb586c60fa3fab net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
-5489c3fb415ffe328fb79d7b818dd6abee78789b kunit: tool: Fix a python tuple typing error
-239adfc27f62159d5e65f3434244d1e0eed00ecd mISDN: fix crash in fritzpci
-99e10e8a0e665b012a1c3976a2fed8d82ba71097 mac80211: Check crypto_aead_encrypt for errors
-599f6d9135290d88a1552a765d251cceb9f7ebf7 mac80211: choose first enabled channel for monitor
-a83734e2103ca8304ab7d0f3ec49d1c550a463f2 drm/msm/dsi_pll_7nm: Fix variable usage for pll_lockdet_rate
-fc007d2267b2b6dd8cd1c079fc94e053afe8e51d drm/msm/adreno: a5xx_power: Don't apply A540 lm_setup to other GPUs
-71d326753fb7df0a26b5e5162e4efc68a71a5b66 drm/msm: Ratelimit invalid-fence message
-d8b665d6d6a1979b5d012e7da56dd7f52e63d76d netfilter: conntrack: Fix gre tunneling over ipv6
-dbb166c8d222fa6c412d63a1266ea44bafa927d5 netfilter: nftables: skip hook overlap logic if flowtable is stale
-c0277414623ed39eaefb73e9a80c58e674c16be1 net: ipa: fix init header command validation
-2e5f01a7f7346727d3866a5346796d84b4b0739c platform/x86: thinkpad_acpi: Allow the FnLock LED to change state
-e6c675860ec514a690547d17fae31cf2e8446376 kselftest/arm64: sve: Do not use non-canonical FFR register value
-f3834e204fa25052612cddc222b8c39d677e0771 drm/msm/disp/dpu1: icc path needs to be set before dpu runtime resume
-50021c1117a7f48af2a5e313da58481e9d475355 x86/build: Turn off -fcf-protection for realmode targets
-5802f0ffb1054c73a78ad1ae687dd2fbb0304793 block: clear GD_NEED_PART_SCAN later in bdev_disk_changed
-fb12d680fc775b0cf9a4259d909eeacc74a298d7 platform/x86: intel_pmc_core: Ignore GBE LTR on Tiger Lake platforms
-e9bfdf6fd0f40b139579eb3d88cb33143e757de4 ptp_qoriq: fix overflow in ptp_qoriq_adjfine() u64 calcalation
-ce76676a8f7d22030c9a1d0f8d70dd847faa9d9b scsi: target: pscsi: Clean up after failure in pscsi_map_sg()
-96a76fc8d41b8c11e0306401e411ae087898c512 selftests/vm: fix out-of-tree build
-4d235ba27694749e23ac89ee983841044129ad3f ia64: mca: allocate early mca with GFP_ATOMIC
-dc04a6ba5af76cbf22812f79d52aea1d5884e9e7 ia64: fix format strings for err_inject
-48dca3b01fa1601558e3573b2d348046e7434ea5 cifs: revalidate mapping when we open files for SMB1 POSIX
-fb82aeb6b874b11ea176ca0db0e37ceb72c03921 cifs: Silently ignore unknown oplock break handle
-c0037b9f508df80688975e78df13349e420b6e4c io_uring: fix timeout cancel return code
-32f50e2c83ccbdef6365602f340b1771b1427a24 math: Export mul_u64_u64_div_u64
-bcb13e740cb4229c6ffcdd892a858134d339b371 tools/resolve_btfids: Build libbpf and libsubcmd in separate directories
-77ee24a547fc4d633963d5747fd6962994d370ed tools/resolve_btfids: Check objects before removing
-680726907cab03eac079a8c494ad29e258397caa tools/resolve_btfids: Set srctree variable unconditionally
-6708585edc8ea56374aee8bad4acdfc50fb54dff kbuild: Add resolve_btfids clean to root clean target
-a8241e974f99b2be8ab4f242fe6ed6d96f355049 kbuild: Do not clean resolve_btfids if the output does not exist
-7d95cdd838fc7bdddf7a784b1f34134679c61d9a tools/resolve_btfids: Add /libbpf to .gitignore
+9d98db022ffd4fa17e81d73dffa3849c52fc15da ARM: dts: am33xx: add aliases for mmc interfaces
+b313dec52dd0f3918b4830071f3e29c37e3fa71c bus: ti-sysc: Fix warning on unbind if reset is not deasserted
+93177dd793fb8edf1b44bf11ecf6fc16f2d3083f platform/x86: intel-hid: Support Lenovo ThinkPad X1 Tablet Gen 2
+eb23a118da15e3716f40efa426a6d64d531e6566 bpf, x86: Use kvmalloc_array instead kmalloc_array in bpf_jit_comp
+dbeabd10b61752099bc0a2750f7bd1e9ae1d806e net/mlx5e: Enforce minimum value check for ICOSQ size
+cb0a8f1402dafc4270bc349fd313c040786eb5d7 net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
+87c4cd491a98baf169733b06ef7932714d37e682 kunit: tool: Fix a python tuple typing error
+a141efb27ce4ba3a1e4d7197edf029b4bbff7d2a mISDN: fix crash in fritzpci
+3350cec6eaf7d8a408210ef1b8bd6c0130c22c92 mac80211: Check crypto_aead_encrypt for errors
+252f0457d81c04832f086ae40a06737e4518673c mac80211: choose first enabled channel for monitor
+3513616835b6ca52154157e0eca032e75ffd6aa2 drm/msm/dsi_pll_7nm: Fix variable usage for pll_lockdet_rate
+c8a353ecefda9410974e82d96795c6d5a7e84143 drm/msm/adreno: a5xx_power: Don't apply A540 lm_setup to other GPUs
+993c7ef86edfb89be8b00f6d672f60807af6fc23 drm/msm: Ratelimit invalid-fence message
+89f1fbe18b794f6076375626a75af52f6f979a04 netfilter: conntrack: Fix gre tunneling over ipv6
+609f1d9f704e447dbd01ab15420a7b712f8195d7 netfilter: nftables: skip hook overlap logic if flowtable is stale
+51497079583a7d82af3517ba8b2d28936301777e net: ipa: fix init header command validation
+9f5ce2137773cab8a7dd7f561d57e43a18ebac5b platform/x86: thinkpad_acpi: Allow the FnLock LED to change state
+a2dde77ec5293d154d92f043ce56e8373a128f00 kselftest/arm64: sve: Do not use non-canonical FFR register value
+c02428332053dcfba2ee123729e2c51fcc3bac3e drm/msm/disp/dpu1: icc path needs to be set before dpu runtime resume
+1bd2aa6a209899faa5256f52144fa2af87099bfd x86/build: Turn off -fcf-protection for realmode targets
+a614856c3be200de7d9e80d50e7c8f6948170ed7 block: clear GD_NEED_PART_SCAN later in bdev_disk_changed
+21f85d3c64c8377103f40018c33aafd2beeaf276 platform/x86: intel_pmc_core: Ignore GBE LTR on Tiger Lake platforms
+5bf358c118d05e9a7b9a98797cb2734549f436aa ptp_qoriq: fix overflow in ptp_qoriq_adjfine() u64 calcalation
+b1de0567ef6dc6dfa2eaecf34aaaaa487618ffbc scsi: target: pscsi: Clean up after failure in pscsi_map_sg()
+fbbb5ced0b4a7733d93ad42eec7e319c44825536 selftests/vm: fix out-of-tree build
+cec73560a7c549a4461f8577d4b1b92e8b88dd71 ia64: mca: allocate early mca with GFP_ATOMIC
+c62668e82ff1ca1fc31153b608e365380aca91f4 ia64: fix format strings for err_inject
+b6cc4b31826cd90d2094e16b84594ce53be00c6d cifs: revalidate mapping when we open files for SMB1 POSIX
+4415cafd063efee580f4b13a4dc1b1976dd3570b cifs: Silently ignore unknown oplock break handle
+4ac562cef9ed2a261875fa79d69e432f99c7ba3f io_uring: fix timeout cancel return code
+85b2703a11251e6f89ec41c1c0f8ed7dd15b56b9 math: Export mul_u64_u64_div_u64
+13560eb5d48378541d2015dfb391d6740c1da63c tools/resolve_btfids: Build libbpf and libsubcmd in separate directories
+0a9a9fdb94541232ebc85aeaab1e5b40f8605f3c tools/resolve_btfids: Check objects before removing
+f102e12bb2421eca1b6d9b086e9b79f4bdb30c9b tools/resolve_btfids: Set srctree variable unconditionally
+aac218dc646a785ad69b35ca9c98510d6b8650eb kbuild: Add resolve_btfids clean to root clean target
+5f63302350630a27d49fa43875a7f1553f9ce7c5 kbuild: Do not clean resolve_btfids if the output does not exist
+9a703cdebbced3d0c40ef299a364ad4a5566d521 tools/resolve_btfids: Add /libbpf to .gitignore
+66e2d9d4e589efd33ab0411b082d384b111a2f1e bpf, x86: Validate computation of branch displacements for x86-64
+a28313e8cc8a8549957823f47f52ce0654d4d7f9 bpf, x86: Validate computation of branch displacements for x86-32
 
---===============3835445707298177311==
+--===============6284610616006684861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09fbf5d24045-5006234c534f.txt
+Content-Disposition: attachment; filename=revlist-5006234c534f-4ed80e0b0c05.txt
 
-0cc170917c201c6a2d6963817fa1e9f326ddbfa9 ARM: dts: am33xx: add aliases for mmc interfaces
-d01f37a4f8e5cc0a3fd6cceaec318b5bf5f7dd83 bus: ti-sysc: Fix warning on unbind if reset is not deasserted
-d75b2c171926120461cba2a828195a022f8cbc21 drm/msm: a6xx: Make sure the SQE microcode is safe
-da1aa5e7044a87a06748fcb73e0485b86529c9bb platform/x86: intel-hid: Support Lenovo ThinkPad X1 Tablet Gen 2
-1c344027eb9f21131e6533c4e942542894b507fd bpf, x86: Use kvmalloc_array instead kmalloc_array in bpf_jit_comp
-cd330c5f3c7b1ebde92e57f9c406d9e4a41bec03 net/mlx5e: Enforce minimum value check for ICOSQ size
-e1b8c29e536b2d5fdd1a46d85077565cc826de74 net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
-aefd18f32f388d573c8b2fba1b5198d01c2b2dc6 kunit: tool: Fix a python tuple typing error
-032e565ef20e9b4b65808de13860892b46188b10 mISDN: fix crash in fritzpci
-a1420102ed0668bb89a35ac361ac484d9f0f2b52 net: arcnet: com20020 fix error handling
-2fc6fb47fa07c1af903c33c2e83dcb863c15f1bf can: kvaser_usb: Add support for USBcan Pro 4xHS
-eddd881664d24642c88610898ba3b5f71cbd0c01 mac80211: Check crypto_aead_encrypt for errors
-a44ec02cf8ee47a023e48702afce2df4cb4bfb99 mac80211: choose first enabled channel for monitor
-59ce6b6c21edae2d2291c87e9961de4a4b21715f drm/msm/dsi_pll_7nm: Fix variable usage for pll_lockdet_rate
-833865dab9a68b89fd510ea9d732ebb45458a87f drm/msm/adreno: a5xx_power: Don't apply A540 lm_setup to other GPUs
-68be4be5e0035793692cc2385cf92bbc2f91667c drm/msm: Ratelimit invalid-fence message
-df11802ebf8336a33ef9825bc4f42e7a90a3ba1d netfilter: conntrack: Fix gre tunneling over ipv6
-1dcd846d2022fd8324a6bbd2702fca97d16bc0ca netfilter: nftables: skip hook overlap logic if flowtable is stale
-9a2c9de99174f5ba0e8079bdc650fdc3fa7d5b34 net: ipa: fix init header command validation
-370b291859745bc7b2f7d999bd552d8b78795fad platform/x86: thinkpad_acpi: Allow the FnLock LED to change state
-edeb3ded42466ee03d494dd412b99fa4fb1f9e55 kselftest/arm64: sve: Do not use non-canonical FFR register value
-578e0505e9c8d0c5d8299a81a3fd8a3cb777edea drm/msm/disp/dpu1: icc path needs to be set before dpu runtime resume
-008ae9e272b8d58c241a3552fc477da0b1f95320 x86/build: Turn off -fcf-protection for realmode targets
-f0deb2ad30e75c8dd3fd1df0181a749736dfb788 block: clear GD_NEED_PART_SCAN later in bdev_disk_changed
-8d5232fd8ef77a1deb81d1bc8274120a0f269af4 platform/x86: intel_pmt_class: Initial resource to 0
-f0f3fb1b5713f6f3440cfbc745bdc16709723486 platform/x86: intel_pmc_core: Ignore GBE LTR on Tiger Lake platforms
-148b4e80f3f0b6b04533e3dd67a2454928848926 ptp_qoriq: fix overflow in ptp_qoriq_adjfine() u64 calcalation
-541217d56632867ee2b07663ee39fa141d8a0b8c scsi: target: pscsi: Clean up after failure in pscsi_map_sg()
-a3ed3dde8cdc9c4c4e98fc603428c7ef181d59ca arm64: kernel: disable CNP on Carmel
-b102ada2f5fa09acc305d8cfe3547ce7f2cca477 selftests/vm: fix out-of-tree build
-a591433fa0e904b6f77d8e3629387ff4c3b0a53b ia64: mca: allocate early mca with GFP_ATOMIC
-2dbac8afdf6382cab293582a30d85e528b090e9d ia64: fix format strings for err_inject
-3ca095df17cc193116df0854d5816f0afb38999a cifs: revalidate mapping when we open files for SMB1 POSIX
-6d490ad03814db8ee4bb5ef821584609214d8f46 cifs: Silently ignore unknown oplock break handle
-c5568bf0f25653e0f5d8ba8442e22ba7c11e76e7 io_uring: fix timeout cancel return code
-0bc13c5dc73b70ab4c7755224b662042997cbb1e math: Export mul_u64_u64_div_u64
-af5cd8bb3dae82f81b6678617229efeaf15ab49b tools/resolve_btfids: Build libbpf and libsubcmd in separate directories
-a2841a7f693ed40275d0a455e8a378c60868e206 tools/resolve_btfids: Check objects before removing
-0ddff6cc200d4f732855ea7edb0611d2e2d90574 tools/resolve_btfids: Set srctree variable unconditionally
-bbee54a1a7d720baff1f577f840a26a1b7391eba kbuild: Add resolve_btfids clean to root clean target
-e4193ce36b65593b8bbdd5d8469c82ccc1d16324 kbuild: Do not clean resolve_btfids if the output does not exist
-5006234c534fa82f722bf085d45e74ba5eef385c tools/resolve_btfids: Add /libbpf to .gitignore
+90e3e37d6c08ce8e20415db6d195ff453877b75e ARM: dts: am33xx: add aliases for mmc interfaces
+eb9111ba92b48cdf72e4a15e409334f3d5822223 bus: ti-sysc: Fix warning on unbind if reset is not deasserted
+21958252bfc8823d84387d98212ccfcac6ad4d27 drm/msm: a6xx: Make sure the SQE microcode is safe
+b39f939abf78ce875edddf12fa1e597be15fc358 platform/x86: intel-hid: Support Lenovo ThinkPad X1 Tablet Gen 2
+16b298db6813f094a6a23b0ce47564532ded57a1 bpf, x86: Use kvmalloc_array instead kmalloc_array in bpf_jit_comp
+f137b3ac61227f9a2de5d8c52005761433efe03a net/mlx5e: Enforce minimum value check for ICOSQ size
+12dafceebb2060824100469c738cd36e66eef802 net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
+f2d2ec491d94c3e8c1a45f08699c14375789b6fa kunit: tool: Fix a python tuple typing error
+f06f26c9206be175d3378055ae0e631803c4658b mISDN: fix crash in fritzpci
+a92cebe8262d21cf3d24bd2984416982f7aea9f3 net: arcnet: com20020 fix error handling
+5860c327711542176b95301775e044a609b50cc4 can: kvaser_usb: Add support for USBcan Pro 4xHS
+c29b857d6a17eab81704d883fd9ae9080c56a618 mac80211: Check crypto_aead_encrypt for errors
+cd045043fb854611c54e165a195d73038738300f mac80211: choose first enabled channel for monitor
+2565782e54cd3cf94d0da917b2499ea5821577c8 drm/msm/dsi_pll_7nm: Fix variable usage for pll_lockdet_rate
+5e879746bc152e93b478b9f41fa89c4944c2c140 drm/msm/adreno: a5xx_power: Don't apply A540 lm_setup to other GPUs
+a9dce34d11454ec7465e39f163926d8951283319 drm/msm: Ratelimit invalid-fence message
+e3b39ce787ed821a97687247e0c8fcdc3f39eed0 netfilter: conntrack: Fix gre tunneling over ipv6
+36ac402c16c6b8048f561b3c75fdb7a2cf5ada48 netfilter: nftables: skip hook overlap logic if flowtable is stale
+cb261d316c6d734986d8b15af70c5a7e0631fece net: ipa: fix init header command validation
+fbd164b7f27ec4edd601ebbd46a2d80c0bc798f0 platform/x86: thinkpad_acpi: Allow the FnLock LED to change state
+660fb76217b28cacab7345a42ef6c4efd265e74f kselftest/arm64: sve: Do not use non-canonical FFR register value
+ae95170429e84f1ed91009f7b7d9811f7291ddce drm/msm/disp/dpu1: icc path needs to be set before dpu runtime resume
+d0db96166ace0b862883d430a58b347b7288a482 x86/build: Turn off -fcf-protection for realmode targets
+ba32c18e0959ea990271192b4b3cc242be49f936 block: clear GD_NEED_PART_SCAN later in bdev_disk_changed
+2b00be95a562118095f569179eeaebab81bbbd9b platform/x86: intel_pmt_class: Initial resource to 0
+0ad32c231961aa3eebf5c3fdb28c3281f5a6c92f platform/x86: intel_pmc_core: Ignore GBE LTR on Tiger Lake platforms
+15955ae4b8d5e830ab2f12f9d1a1957ec2840c66 ptp_qoriq: fix overflow in ptp_qoriq_adjfine() u64 calcalation
+2a7edbd6926ffa25957d59a08ad70a5665d39d05 scsi: target: pscsi: Clean up after failure in pscsi_map_sg()
+2584659b5ecd4e27543788acec7372f4a32e36f7 arm64: kernel: disable CNP on Carmel
+6d613181b85e1db3202913e9978a1760aa8628bc selftests/vm: fix out-of-tree build
+c557430f7434e65ae4ff18cb3e8e727d84f11351 ia64: mca: allocate early mca with GFP_ATOMIC
+00de376f6ab44ddcf3ef2b297570732b58116d5f ia64: fix format strings for err_inject
+268e643792fef88ace577dd81fa73e0682f8bb1b cifs: revalidate mapping when we open files for SMB1 POSIX
+2011e852b264a3c9ecc1621f6258a574f2a66358 cifs: Silently ignore unknown oplock break handle
+fcfeeb7de502101b214506387a5d21f80e43c91b io_uring: fix timeout cancel return code
+335fd2027ed14c367e4e927561f42201f5538987 math: Export mul_u64_u64_div_u64
+2c235659d20b4483071b3ed0158e8ab818b47d18 tools/resolve_btfids: Build libbpf and libsubcmd in separate directories
+0d3648b7a5046cedc2141bee6b753933f7035b75 tools/resolve_btfids: Check objects before removing
+0ca35250d2c91f0bc82e1d21075c7fb0b0a0b63d tools/resolve_btfids: Set srctree variable unconditionally
+0438159303c28bb8b1addcc6d2683506b16dc03b kbuild: Add resolve_btfids clean to root clean target
+7f353bc1339d2e9a90343f5e173b9a078045b006 kbuild: Do not clean resolve_btfids if the output does not exist
+1b60fcc647a9cb993bcaa3a69efbd303925beb3d tools/resolve_btfids: Add /libbpf to .gitignore
+83c6968d8dcaaf526890b7333b080f4f2f862b8f bpf, x86: Validate computation of branch displacements for x86-64
+4ed80e0b0c05ac66af7bd39a92210558725f4fee bpf, x86: Validate computation of branch displacements for x86-32
 
---===============3835445707298177311==
+--===============6284610616006684861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a436f7554f1-a30aac31ec59.txt
+Content-Disposition: attachment; filename=revlist-a30aac31ec59-533fad4fe3df.txt
 
-22cb37cb16b5ae4232a80058da179b579a7d8d3e ARM: dts: am33xx: add aliases for mmc interfaces
-3d54adadfd0c1741a59e5193e6f4589b45adb193 bus: ti-sysc: Fix warning on unbind if reset is not deasserted
-e5b8a9deff12c61f66994d0824b0bbee3b0453e2 platform/x86: intel-hid: Support Lenovo ThinkPad X1 Tablet Gen 2
-69b69984601c23e9ebbff9bd38a0f1c378b8facc bpf, x86: Use kvmalloc_array instead kmalloc_array in bpf_jit_comp
-2fa2ac03151e93dc39175e21eb319648f1a7e780 net/mlx5e: Enforce minimum value check for ICOSQ size
-50c828aafb3bdc58b12fda26d23eaa2c568c90e1 net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
-835da6c0585519387021884f1d40dee23456ba9c mISDN: fix crash in fritzpci
-32528aac9f136973af8976cff809d343603b3a47 mac80211: choose first enabled channel for monitor
-69c63092b866cb9051daf2f0d0419931d6407e73 drm/msm/adreno: a5xx_power: Don't apply A540 lm_setup to other GPUs
-b144ba692d8c8721abf7ed5ccb4e2468060f354e drm/msm: Ratelimit invalid-fence message
-11c84deeca7cff5335924042c1af978afccceddd netfilter: conntrack: Fix gre tunneling over ipv6
-f6fd829b2c8c0483827feccbd37ca99b55e726eb platform/x86: thinkpad_acpi: Allow the FnLock LED to change state
-47e62dd0d8c0e96e4f04c6f6d023feb5dc67b9f2 x86/build: Turn off -fcf-protection for realmode targets
-08635b590298e6b0adc03ceb713207a894009705 scsi: target: pscsi: Clean up after failure in pscsi_map_sg()
-42ef1b28c2a31f568d31e6f3c3bf2a654b4c2f55 ia64: mca: allocate early mca with GFP_ATOMIC
-f737c2e3ebbaea7b945b89e6eb85f5cb507360f8 ia64: fix format strings for err_inject
-f85ec5f8ff6ca2bd018ab2ef305cd2bbbc89ba2e cifs: revalidate mapping when we open files for SMB1 POSIX
-a30aac31ec59cce4ea540bd43801b0918ae29b1a cifs: Silently ignore unknown oplock break handle
+ee6231363712e64f38c01ea4cf43c5989a1439c6 ARM: dts: am33xx: add aliases for mmc interfaces
+f2fbeb3b3155145d805dca9324efc38a701bc762 bus: ti-sysc: Fix warning on unbind if reset is not deasserted
+1e9a7923a69787d17876c3f2cf7b92432b31cf1e platform/x86: intel-hid: Support Lenovo ThinkPad X1 Tablet Gen 2
+aed79a2c17c8142aaf11d17b8e42da0be545c966 bpf, x86: Use kvmalloc_array instead kmalloc_array in bpf_jit_comp
+9796ce013bc3238f17e289d531a36d24c0df1965 net/mlx5e: Enforce minimum value check for ICOSQ size
+1b59f5659acdf343acdc4d404f0b7ff9f4e862e1 net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
+e161cb161efc2bf13a2077571946b49ef01d0d4c mISDN: fix crash in fritzpci
+7c7de8eeb35ebc6859172167d79024f1e7280b80 mac80211: choose first enabled channel for monitor
+847e1144d97e6850987f9904fbcb102c6a384c12 drm/msm/adreno: a5xx_power: Don't apply A540 lm_setup to other GPUs
+c85e43751a66e82b70f389aa0726337355e3a6f6 drm/msm: Ratelimit invalid-fence message
+e93eab299f4e9b6cabb2613f1f9eceb49672b1cc netfilter: conntrack: Fix gre tunneling over ipv6
+d9918e7231ad3cd167d175c3010d669af1175abf platform/x86: thinkpad_acpi: Allow the FnLock LED to change state
+3002867a5dd853fb47ff535f1cfa831d46e83847 x86/build: Turn off -fcf-protection for realmode targets
+2a9c9f486f843191a148afe4a04fd0568df70bbd scsi: target: pscsi: Clean up after failure in pscsi_map_sg()
+46d2c1d92b572276d4952f8e81e2fb42349d2a3c ia64: mca: allocate early mca with GFP_ATOMIC
+14121aeacbd1c32381b314dc2813f94796c3422c ia64: fix format strings for err_inject
+579ffb6c0ec2a772ee65cc74f34a10161a2a7c1f cifs: revalidate mapping when we open files for SMB1 POSIX
+3f63750b5624251ec0f447d8946793c3d2c6a875 cifs: Silently ignore unknown oplock break handle
+fab8beb2117f13b1e85d854c5d8887ca8330de29 bpf, x86: Validate computation of branch displacements for x86-64
+533fad4fe3df2ef171d308d59a043f7cacfb4686 bpf, x86: Validate computation of branch displacements for x86-32
 
---===============3835445707298177311==--
+--===============6284610616006684861==--
