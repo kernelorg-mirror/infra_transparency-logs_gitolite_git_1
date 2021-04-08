@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 08 Apr 2021 15:23:55 -0000
-Message-Id: <161789543557.5061.7383488438442957928@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Thu, 08 Apr 2021 15:26:26 -0000
+Message-Id: <161789558600.7157.16765078581209796181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/arm64-for-5.13
-    old: d38db5182343cbed92cc4709ba0e427d2788253f
-    new: 7178d4cc0702bfe6a7e0f21e37d6e3dfe8e40f11
+  - ref: refs/heads/habanalabs-next
+    old: f48e01ac0bbbdb9fa289a9141bdbc2a03d4b5c0f
+    new: 79fa1417939e5908864e6a0eb59c8bdb672e0bf8
     log: |
-         8385119b3295fa87c43a80faed5644bbdab02b8c arm64: dts: qcom: msm8916: Add GICv2 hypervisor registers/interrupt
-         7178d4cc0702bfe6a7e0f21e37d6e3dfe8e40f11 arm64: dts: qcom: update usb qmp phy clock-cells property
+         ea9f377cc3d8bfca2b5d21ca6d58489cd0b01248 habanalabs/gaudi: clear QM errors only if not in stop_on_err mode
+         657d2b96fb08bffd80e541256762099328214013 habanalabs: send dynamic msi-x indexes to f/w
+         cad8198fdc149eafd876e29eee3e7117ebd07776 habanalabs: move dram scrub to free sequence
+         874acc0497da1ee31790394d47fb1dd69ac1b825 habanalabs/gaudi: derive security status from pci id
+         412de2f3aceb286c007969006abc5faa3623aed0 habanalabs/gaudi: skip iATU if F/W security is enabled
+         0ac6c4734898f3a8004ed98817cb643fa97a6e9b habanalabs: print on f/w boot unknown error
+         79fa1417939e5908864e6a0eb59c8bdb672e0bf8 habanalabs: update to latest F/W communication header
          
