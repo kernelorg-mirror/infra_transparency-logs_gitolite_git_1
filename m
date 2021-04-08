@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3387292475225344649=="
+Content-Type: multipart/mixed; boundary="===============2030582382482831266=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 08 Apr 2021 01:55:23 -0000
-Message-Id: <161784692370.19422.5190647542705246921@gitolite.kernel.org>
+Date: Thu, 08 Apr 2021 01:55:28 -0000
+Message-Id: <161784692862.19498.6121455919452807124@gitolite.kernel.org>
 
---===============3387292475225344649==
+--===============2030582382482831266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 19ca6fd50bb165e2d445b61de793c6f2be345c66
-    new: 17ec23ea8c51e7e8913cced9ed2a8378248481a4
-    log: revlist-19ca6fd50bb1-17ec23ea8c51.txt
+  - ref: refs/heads/5.13/scsi-queue
+    old: 4e2e619f3c9e3c49859f085995554a53e9fc0e02
+    new: 857a80bbd7321161f986588160d97815d1b1206a
+    log: revlist-4e2e619f3c9e-857a80bbd732.txt
 
---===============3387292475225344649==
+--===============2030582382482831266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1617846922 -0400
+pusher 75C5DE3D 1617846927 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1617846921-1790962e905c376c646da91c46feb56093cbac67
+nonce 1617846926-d01900a3e2e0647b14808c463f40e6596f26cfee
 
-19ca6fd50bb165e2d445b61de793c6f2be345c66 17ec23ea8c51e7e8913cced9ed2a8378248481a4 refs/tags/mkp-scsi-queue
+4e2e619f3c9e3c49859f085995554a53e9fc0e02 857a80bbd7321161f986588160d97815d1b1206a refs/heads/5.13/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBuYooACgkQ7ulgGnXF
-3j1ilhAAtB4fC69TvAOXgUFWbKvXhTs/UWa+WnbUnvrbtGN6kFfuvyxFusmNsv14
-LbBOJljah/dHplq7dNrDcZvnAdSlyJPCgCXYyX1RSNV/P4CBeBazoq6O2EBTE61D
-ZV2q0O+1F/rVyGUbiOx/4kHKZW4ervUzxjnnfsv/dcIR1AYEVMuUBcRKbq/jiqjO
-/gHI4EPhRhfPRkOcBVGHiDxcstfxqXbqPGG89E0Th+6TGBlqDYuiogghkwgQLiCm
-UiwuaE09ccXz/QhBjMNBPNZ52rd+BVtTnPE9+3fqI+eWB1CihDPD7QR5q4pcb2YD
-vVr6Kuy/lcCYDB4Qg9+IxwByEa3eF7S+BQy2AtlMrcLVfLZqUIcRGTox/DGXAOlE
-wIOD0+f4b+/X1iV3ci6stJNNukB1K1vsTr9F+Zk/Tiuwzc20AFCG3CjDjgVUrH2F
-1TOuoYcbxPyN4bbY/U4DMaz+WdfoZRYbf7ZYl2W0mpdJ5AhO1/SKQZCaX+l5Hsv9
-hyoiB2SB6fvNRt1HNkelUOUF0bySz3daETmfgVF/mPADh1twO0nAlatFU/S6OMfd
-uLwrTIKiLz9lrbv5yMmQla4Ew46LFzMhgYDcjTDGudFJusfUodJvwOrSXIUd7cJd
-6aLgYlI4kIzEnR4pqr3c/xOLEjhM1CplbcvMIvfhHwWxEE/MaY4=
-=02dq
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmBuYo8ACgkQ7ulgGnXF
+3j0FOQ/9FXgW+1zqS0nDLBcfZ/o6UqGzr5ia96GI50aC5RAuaLy2ZGNf/6Fms67O
+jUCJM4W68ZkOZVII7FHUH2vHYGexw5kyja36LDsv7lLpXJgQUmMQWjDIOcBx5fQe
+MQVUzuiSUbzSnpse15noM8KQwGjDe3WU4iNxBXShcBOnixRsXvRQeKmlGLWhZbKC
+6J2BCSTpT15h42z3BW2w2Feuue98yLvP3wDxsfJnnwQB6zgIp/s3n+yeMgAqxL2M
+sFRgBqV4ZzP3hSdGCNhk4zECmF/XBbhNl8MVvjwEyllpYCT601Ka6gWjqPSKdtmj
+FW8HzRGiOXl23Csv3aFcgXqk3a4MWiH0z7JZybowcfhv/R2HsCzf4n87x5ZmqNbo
+yfZmkuG0fxSkS91UOalh5ck1aRk3QXuJ54/GNcEZobHT2wUGp2PjaYQNqgFIan/k
+tsRzgkZAdhQVXs37QZArVXWtJzPiTnj5e0PDwyvPh1JwiXtHU+mDLWgqA5CD0dhg
+sYVFBcZE4VpDrmY1gio4/lmoMou49QGUcap7L8Eij+HSzRQeueQgpt5MD9czYraT
+gUaxwCn7vF4Se02MVkwt1zap2l7FyK4NphuSAi/UtLFgc28m3WPMmLXmy6HIt3x8
+O7Bjjd8HGFA6r6BSTpfp3tNv5v9IKG/6NV/fjdxyNbN+1+8NbG8=
+=CWEP
 -----END PGP SIGNATURE-----
 
---===============3387292475225344649==
+--===============2030582382482831266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19ca6fd50bb1-17ec23ea8c51.txt
+Content-Disposition: attachment; filename=revlist-4e2e619f3c9e-857a80bbd732.txt
 
 443cc4b45c1be0b25313c9a507b033074334b490 scsi: ibmvfc: Simplify handling of sub-CRQ initialization
 5cf529649be20dc27500c1141d58ba57131e2530 scsi: ibmvfc: Fix invalid sub-CRQ handles after hard reset
@@ -129,4 +129,4 @@ a1e9981ba528d002cdf323dc8d535bc919a981a0 scsi: qedf: Remove unused include of li
 c03f2422b9f5918ba76c86ae69a02217ea791825 scsi: libsas: Correctly indent statements in sas_to_ata_err()
 857a80bbd7321161f986588160d97815d1b1206a scsi: libsas: Clean up whitespace
 
---===============3387292475225344649==--
+--===============2030582382482831266==--
