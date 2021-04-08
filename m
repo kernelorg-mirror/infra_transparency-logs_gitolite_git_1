@@ -1,49 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============1909349444220847434=="
+Content-Type: multipart/mixed; boundary="===============1155927342719237312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 08 Apr 2021 07:22:53 -0000
-Message-Id: <161786657341.13050.13151712458116716618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 08 Apr 2021 07:27:37 -0000
+Message-Id: <161786685757.15772.2204211026252683021@gitolite.kernel.org>
 
---===============1909349444220847434==
+--===============1155927342719237312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 0dbed2a2774fedaf52e1fc6ddb4106f9e53bc7f3
-    new: 1dabdd67370e1fec904b39f82401a16f678df565
-    log: revlist-0dbed2a2774f-1dabdd67370e.txt
+  - ref: refs/heads/staging-testing
+    old: f9b9263a25dc3d2eaaa829e207434db6951ca7bc
+    new: c82b130616e3aed2ff8c635353360978716c5762
+    log: revlist-f9b9263a25dc-c82b130616e3.txt
 
---===============1909349444220847434==
+--===============1155927342719237312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0dbed2a2774f-1dabdd67370e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e9a15a40e857fc6ccfbb05fec7b184e9003057df x86/cpufeatures: Make SGX_LC feature bit depend on SGX bit
-b8921dccf3b25798409d35155b5d127085de72c2 x86/cpufeatures: Add SGX1 and SGX2 sub-features
-b0c7459be0670fabe080e30906ba9fe62df5e02c x86/sgx: Wipe out EREMOVE from sgx_free_epc_page()
-231d3dbdda192e3b3c7b79f4c3b0616f6c7f31b7 x86/sgx: Add SGX_CHILD_PRESENT hardware error code
-540745ddbc70eabdc7dbd3fcc00fe4fb17cd59ba x86/sgx: Introduce virtual EPC for use by KVM guests
-332bfc7becf479de8a55864cc5ed0024baea28aa x86/cpu/intel: Allow SGX virtualization without Launch Control support
-faa7d3e6f3b983a28bf0f88f82dcb1c162e61105 x86/sgx: Initialize virtual EPC driver even when SGX driver is disabled
-8ca52cc38dc8fdcbdbd0c23eafb19db5e5f5c8d0 x86/sgx: Expose SGX architectural definitions to the kernel
-9c55c78a73ce6e62a1d46ba6e4f242c23c29b812 x86/sgx: Move ENCLS leaf definitions to sgx.h
-32ddda8e445df3de477db14d386fb3518042224a x86/sgx: Add SGX2 ENCLS leaf definitions (EAUG, EMODPR and EMODT)
-a67136b458e5e63822b19c35794451122fe2bf3e x86/sgx: Add encls_faulted() helper
-73916b6a0c714258f9c2619408a66c6696a761a7 x86/sgx: Add helper to update SGX_LEPUBKEYHASHn MSRs
-d155030b1e7c0e448aab22a803f7a71ea2e117d7 x86/sgx: Add helpers to expose ECREATE and EINIT to KVM
-b3754e5d3da320af2bebb7a690002685c7f5c15c x86/sgx: Move provisioning device creation out of SGX driver
-3a62583c2853b0ab37a57dde79decea210b5fb89 RAS/CEC: Correct ce_add_elem()'s returned values
-dda451f391eee5d68db3ca87fd8b2a42c8c2b507 x86/cacheinfo: Remove unneeded dead-store initialization
-e3bbd78a14c1f603d782ad1684c5d146e1ee3ba6 Merge remote-tracking branch 'tip/x86/cleanups' into tip-master
-c6a72eafa7e364cd3bf64bbec9cd6918c964a51c Merge remote-tracking branch 'tip/x86/sgx' into tip-master
-1dabdd67370e1fec904b39f82401a16f678df565 Merge remote-tracking branch 'tip/x86/urgent' into tip-master
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617866852 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1617866851-35cefb50eb34a58bd2e88ba459a95e83ad1b3abb
 
---===============1909349444220847434==--
+f9b9263a25dc3d2eaaa829e207434db6951ca7bc c82b130616e3aed2ff8c635353360978716c5762 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBusGQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pLAP/3mC/TpzbGcg1yyOPcJy
+Ge1EnZSqi1b3to+Zwf7d9eY2LhtXN8f+zMk0L3Ctnye2c8SRDHOxbMp1N2HvYTmm
+wnL2vDeFGhRTLEm/bW10YrwNbDdiPp2/HhGNDYY1BXxuFoDBJZdS+ir9JyNHQp0K
+xjV/DpBpzfucXfYk0YSy2/Ihz+M4nBDbGMgZqkymG+O9zRS2tZ3E5m8KfmGDotvM
+pteGCcgd1sIknMeZymj075XReBbYLruIvO+V4U8Sy29qUhASh67A9Dv/Y75Xj034
+xBSmVkdBIdnup3ufAEuS+EWL1DDWU7dV/Y2jE+DUBqU83rAXfQbnhq/YtME1ZZwa
+QARIh4eQIVyTzBE5DOOVkP+OZwE1yI8RWXTmbjMwZhidT3loqsf4hHN3zAVIc2So
+MT+822k+xV+hYDL/3udJgwxEMyG+9qvRfS9pmF9N4YTv0392sspGkApOolas4kKC
+0Kq5cVnChsEy5+Ib84rab8IjeiXVnQxBiCSQSXZwSavj4rQYKG/crP/W2dWf/+Am
+yQTvL54qLmWGt2XLZx+2h9aEgmnydFZ04XFhHhYGqi4WrdPUI04nVZk9LzZO7MS+
+A4+UkoqTFbs0fqcQd/THLGryPukLGMgLhpOB5WZylRBhG63E5/nIN4+7Tjix2uNJ
+g+/tGHBoKTQY1uRmvV6uN137
+=qVYv
+-----END PGP SIGNATURE-----
+
+--===============1155927342719237312==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f9b9263a25dc-c82b130616e3.txt
+
+1c4282349223269b086d6de908e80636aa01ec5d staging: axis-fifo: remove redundant dev_err call
+46694b686d4a0360acb7aa4329ff73754049596f staging: rtl8188eu: remove unused macros
+5c422a42d1a625eef0fb12bb7466b8b67b8acc21 staging: rtl8188eu: remove unnecessary brackets
+cf862de40b35d725b60f4800bc795e72e9549fdf staging: rtl8188eu: remove unused defines
+b048a8db29446bbf898c496b228be546c6cdcf21 staging: rtl8188eu: move defines into the .c file
+889ed8b5e374780560d778677ba68e6956204101 staging: rtl8188eu: set pipe only once
+6b1164553276fbecf587eb1ffb802b7c0288d5ed staging: rtl8188eu: clean up rtw_recv_entry
+78ea2e24470e744b8ccb8d2c4b05105bfb571cf9 staging: rtl8188eu: remove unnecessary variable
+57ae96149e8967ab1043dc1351966ac61b620978 staging: rtl8188eu: rtw_usb_if1_init needs no dvobj parameter
+7a267097504f68ca4cd64fb1a80902a113230e1e staging: rtl8188eu: make usb_dvobj_init return a status
+3fca1c763ed186bd84bc65c43bfcf9fea0eb91d0 staging: rtl8188eu: make rtw_usb_if1_init return a status
+7a1de298de04c2db2c32c862618ddc9ba749deae staging: comedi: tests: ni_routes_test: Reduce stack usage
+31f218546e54b38fee185d871639f823a5f7856c staging: comedi: tests: ni_route_tests: Declare functions static
+30c1b1a22cc389b0bddfc2ae3e39260333fc4085 staging: comedi: tests: example_test: Reduce stack usage
+9a457447b3268c7e3b21020c0ba3e626df125a15 staging: comedi: tests: example_test: Declare functions static
+5b7b4ce1d1163beb41b7c76db428c285d6989a62 staging: comedi: tests: example_test: Rename to 'comedi_example_test'
+c82b130616e3aed2ff8c635353360978716c5762 staging: comedi: Add Kconfig options to build unit test modules
+
+--===============1155927342719237312==--
