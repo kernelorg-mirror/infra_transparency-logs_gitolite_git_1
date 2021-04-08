@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maks/linux-firmware
-Date: Thu, 08 Apr 2021 15:41:25 -0000
-Message-Id: <161789648549.15941.5826729888286978749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 08 Apr 2021 15:43:54 -0000
+Message-Id: <161789663428.16774.1883944982812639695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maks/linux-firmware
-user: maks
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/qcom/drivers
     old: 0000000000000000000000000000000000000000
-    new: af1ca28f03287b0c60682ab37cc684c773de853f
+    new: ac6ad7c2a862d682bb584a4bc904d89fa7721af8
