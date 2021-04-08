@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 08 Apr 2021 14:28:13 -0000
-Message-Id: <161789209344.2883.6963777987936998362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 08 Apr 2021 14:28:53 -0000
+Message-Id: <161789213320.3174.9994699124653518463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: e7d720a27b69527406a5cd137323e6bbc5cab7ff
-    new: 507cf5a2f1e2cd32feaee6e931e18dd74cfe60ce
+  - ref: refs/heads/master
+    old: 144748eb0c445091466c9b741ebd0bfcc5914f3d
+    new: 26f55a59dc65ff77cd1c4b37991e26497fc68049
     log: |
-         cbe16f35bee6880becca6f20d2ebf6b457148552 genirq: Add IRQF_NO_AUTOEN for request_irq/nmi()
-         bbca17c0ada71c652df497bdad7ec9edeacac844 Merge tag 'irq-no-autoen-2021-03-25' into review-hans
-         bee3ecfed0fc9ad104722c501aac1e892b53d1e3 platform/mellanox: mlxreg-hotplug: move to use request_irq by IRQF_NO_AUTOEN flag
-         507cf5a2f1e2cd32feaee6e931e18dd74cfe60ce platform/surface: aggregator: move to use request_irq by IRQF_NO_AUTOEN flag
+         e4d4d456436bfb2fe412ee2cd489f7658449b098 bpf, x86: Validate computation of branch displacements for x86-64
+         26f55a59dc65ff77cd1c4b37991e26497fc68049 bpf, x86: Validate computation of branch displacements for x86-32
          
