@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Thu, 08 Apr 2021 16:56:25 -0000
-Message-Id: <161790098580.32242.2404379912808191213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Thu, 08 Apr 2021 17:05:44 -0000
+Message-Id: <161790154499.5619.15725059888898942463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/master
-    old: 931796b57bc287aefc2d5515cc24abb2d0a65464
-    new: ae89b8866cf69ab07c385f0b71ff6e07cae8a2a4
+  - ref: refs/heads/pci/tegra
+    old: 10739e2a5e83ecac6a7d2422369c5fe8a1a72b04
+    new: 571cdd529493e98b78b3e21861886cf6549958f7
     log: |
-         7bd9c59324d59f9fb96524990b12661d56202032 Makefile: Disable qqzbg in -nq builds
-         ae89b8866cf69ab07c385f0b71ff6e07cae8a2a4 qqz: Suppress possible orphan heading
+         571cdd529493e98b78b3e21861886cf6549958f7 PCI: tegra: Fix runtime PM imbalance in pex_ep_event_pex_rst_deassert
          
