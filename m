@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 08 Apr 2021 11:34:29 -0000
-Message-Id: <161788166917.19220.17659903110047452935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 08 Apr 2021 11:34:43 -0000
+Message-Id: <161788168343.19376.1206604095951708025@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: 884c7094a272fb674423bd5a473caa3c714045fe
-    new: 66c6d1ef86ff3c1466e646d94c8eb3dcc9ccf873
-    log: |
-         66c6d1ef86ff3c1466e646d94c8eb3dcc9ccf873 ALSA: control: Add memory consumption limit to user controls
-         
   - ref: refs/heads/master
-    old: 35abf6d015e5a2e9c4ef6b7886978455501a15c9
-    new: 58d1eda6a346ce5aaed4b60d93743a3896099056
+    old: 22a900a90fd7d1bd0792cc773fdc36b5fcc45f63
+    new: 6b160f5acd0d5457d3c3ee409e57ab63b1a05488
     log: |
-         66c6d1ef86ff3c1466e646d94c8eb3dcc9ccf873 ALSA: control: Add memory consumption limit to user controls
-         58d1eda6a346ce5aaed4b60d93743a3896099056 Merge branch 'for-next'
+         a970c2dd51aee3b680f91acdb5b5c4d038834f2c fdisk: always skips zeros in dumps
+         6b160f5acd0d5457d3c3ee409e57ab63b1a05488 tests: update fdisk dumps
          
