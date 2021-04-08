@@ -1,56 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============3614691667332789810=="
+Content-Type: multipart/mixed; boundary="===============4609247935332147482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 08 Apr 2021 17:52:19 -0000
-Message-Id: <161790433997.1945.2988882773654103559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 08 Apr 2021 17:59:14 -0000
+Message-Id: <161790475466.5279.13781498014388348620@gitolite.kernel.org>
 
---===============3614691667332789810==
+--===============4609247935332147482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/tty-test
-    old: 8a67b4c2f3f14e73a8ddfbef9c032d9f2fa6979a
-    new: b01048f3d4ffec7ece16d4250d8eb2e13a5ce06a
+  - ref: refs/heads/for-next/core
+    old: a4fa7f23457671a4d4c2a2fc971ec7293db35ce6
+    new: 54cf7c56e4226083bc7fba55d8e6d4958ee84c1b
+    log: revlist-a4fa7f234576-54cf7c56e422.txt
+  - ref: refs/heads/for-next/misc
+    old: 68f638a432dff4ed3e053cde2bd23ed36b4c057c
+    new: df652a16a65735c228c88e5fb75a938614f1368b
     log: |
-         b01048f3d4ffec7ece16d4250d8eb2e13a5ce06a tty: clean include/linux/tty.h up
+         cccb78ce89c45a4414db712be4986edfb92434bd arm64/sve: Rework SVE access trap to convert state in registers
+         a7dcf58ae5d2f7c6f1bbe13290897f539f9cd75b arm64: Add __init section marker to some functions
+         df652a16a65735c228c88e5fb75a938614f1368b arm64: mte: Remove unused mte_assign_mem_tag_range()
          
+  - ref: refs/heads/for-next/fgt-boot-init
+    old: 0000000000000000000000000000000000000000
+    new: 230800cd315cd5e2093e603cf7ee150b7591ce1a
+  - ref: refs/heads/for-next/vhe-only
+    old: 0000000000000000000000000000000000000000
+    new: 2d726d0db6ac479d91bf74490455badd34af6b1d
 
---===============3614691667332789810==
+--===============4609247935332147482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a4fa7f234576-54cf7c56e422.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617904332 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1617904332-40589105312858a3df28eccb51ec3c3343086c67
+cccb78ce89c45a4414db712be4986edfb92434bd arm64/sve: Rework SVE access trap to convert state in registers
+a7dcf58ae5d2f7c6f1bbe13290897f539f9cd75b arm64: Add __init section marker to some functions
+df652a16a65735c228c88e5fb75a938614f1368b arm64: mte: Remove unused mte_assign_mem_tag_range()
+3e237387bb76cbbd254e82fb1e996e2f3af9e6a7 arm64: Document requirements for fine grained traps at boot
+31c00d2aeaa2da89361f5b64a64ca831433be5fc arm64: Disable fine grained traps on boot
+230800cd315cd5e2093e603cf7ee150b7591ce1a arm64: Require that system registers at all visible ELs be initialized
+cac642c12a805ae7565a263b59fb94ad19e81952 arm64: cpufeature: Allow early filtering of feature override
+31a32b49b80f79cbb84a9c948c5609c6fc044443 arm64: Cope with CPUs stuck in VHE mode
+2d726d0db6ac479d91bf74490455badd34af6b1d arm64: Get rid of CONFIG_ARM64_VHE
+54cf7c56e4226083bc7fba55d8e6d4958ee84c1b Merge branches 'for-next/misc', 'for-next/kselftest', 'for-next/xntable', 'for-next/vdso', 'for-next/fiq', 'for-next/epan', 'for-next/kasan-vmalloc', 'for-next/fgt-boot-init' and 'for-next/vhe-only' into for-next/core
 
-8a67b4c2f3f14e73a8ddfbef9c032d9f2fa6979a b01048f3d4ffec7ece16d4250d8eb2e13a5ce06a refs/heads/tty-test
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBvQswbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9dwP/1hFjMjlanV2KlqzZJNp
-P29zMtCtroolVuDp07D7iz9qvncHaNEai5J+btCYw/4Q+LmbbrouJRAzk9s3bYgU
-kCEpu706nE3HpenFyReFTJBsNAXpoq2GQCgyr9W+VdI5qEkp3rMZxZ3z04Y+12SD
-y8g68xCDzKYVf2qD/ZRiSZehE9k4kz3vG+Kv3qtiP3rrVLWbXz4urJEvWs9xKiFg
-ZpXRuZ7J9II2T+qH55NNehVR1P7fb0WE9UmEy+o+ht0vijjayCM+XNAXYWPszPf9
-SWYTHCrewNDKiGHlOMBk1QkEupDxz/xSJRhRSbuQC1tlQuFecBLpaAQYjAm6daNJ
-LxPDTpPaQJMmTJyMq+B855i2347Q3KiCEB1mh1bjGm5zFEpsF3oMWVUrnysa9gCt
-IkcUblLDq9E2vQjw+BVQPzaVJQQwl5abOLxk1j5D+lXIQePv+XzKOzZgv6+UZR39
-pLi3+++vrZsrheKkT3aLGzuUtbH2/SKfLYxy2lHc10S+wKLqIU8bHBa3BHu6ElVa
-yyKg0/eRQcR5NeKgABXrwoeU3nV2ILSbRuXu4EbgoLnU1UZNjH1DG39+KFm7OsB0
-SJxFLISDKySBenZ0HuOLrBoOhLQAeuDDO28R6jndE7Q5VJuxlSjkKQflg35weVBb
-rGooLqpOGp7/s48jsNj4WoXZ
-=BmF6
------END PGP SIGNATURE-----
-
---===============3614691667332789810==--
+--===============4609247935332147482==--
