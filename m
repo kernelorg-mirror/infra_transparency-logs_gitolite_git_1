@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 08 Apr 2021 13:07:39 -0000
-Message-Id: <161788725960.14210.7471994243431645300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 08 Apr 2021 13:14:52 -0000
+Message-Id: <161788769233.17750.17737304087214705884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-next
-    old: bea906ee1624aeb34ea2c5acca84728de4185726
-    new: a4122a95ce6a6058a75266a3603f0e27721e5dd3
+  - ref: refs/heads/kvm-arm64/misc-5.13
+    old: d402e55bcac7b4864a2cf100e61387eb946f72b4
+    new: 3cc6463d3fc748693bbbeda6b17520adc12a7103
     log: |
-         9f9eb5a516e3750aec9342427457c6da849838cd gfs2: Add new sysfs file for gfs2 status
-         a4122a95ce6a6058a75266a3603f0e27721e5dd3 gfs2: Make gfs2_setattr_simple static
+         8d3c156eae271c1f0880e0f6fc473201826fe295 KVM: arm64: Fully zero the vcpu state on reset
+         3cc6463d3fc748693bbbeda6b17520adc12a7103 KVM: arm64: Clarify vcpu reset behaviour
          
