@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 08 Apr 2021 18:15:09 -0000
-Message-Id: <161790570970.15871.11803009246717346589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
+Date: Thu, 08 Apr 2021 18:19:36 -0000
+Message-Id: <161790597676.17513.5815612464527099044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/utils/rt-tests/rt-tests
+user: jkacur
 changes:
-  - ref: refs/heads/master
-    old: 44b82b959d02dfbdd8a592036e8aa14a0872755c
-    new: b5b7e6203b9303b20751f4ef0ad2d6a01a671ae9
+  - ref: refs/heads/unstable/devel/latest
+    old: c378082ff1c632d100c3d609a7b5e08c0540e2d4
+    new: 6af88067da16c6e69243b376c3b6454ec694460b
     log: |
-         a3fa743e8f4d9e4fda0186e3f7709711a70be961 btdev: Fix invalid BIG Complete event
-         d971ca5ca318d8a48d4cfedfd36ff6a2641a12e2 input/hog-lib: add error handling when calling into gatt
-         8f15296d8b3e6f2a42e7bc92fc2c9e6b218f360e input/hog-lib: avoid scanning characteristics too early
-         b5b7e6203b9303b20751f4ef0ad2d6a01a671ae9 input/hog-lib: do not silently ignore missing connection in read_char()
+         8d6c2947d5622116a1982aa56dc248a7df24df42 cyclicdeadline: Remove unused include header
+         6af88067da16c6e69243b376c3b6454ec694460b signaltest: Add missing --output usage info
          
