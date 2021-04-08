@@ -1,27 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
-Date: Thu, 08 Apr 2021 11:05:50 -0000
-Message-Id: <161787995032.2261.8284803302699959897@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5316985237825971312=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/balbi/usb
+Date: Thu, 08 Apr 2021 11:11:43 -0000
+Message-Id: <161788030378.5264.17153991407640060760@gitolite.kernel.org>
+
+--===============5316985237825971312==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211-next
-user: jberg
+repo: pub/scm/linux/kernel/git/balbi/usb
+user: balbi
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 3cd52c1e32fe7dfee09815ced702db9ee9f84ec9
-    new: 0750cfd8b7fd491c9d7c8bd19d9ac380cd3c84ee
-    log: |
-         ed7247f30982bbc6f8bffd12a0c76398b90ec319 rfkill: use DEFINE_SPINLOCK() for spinlock
-         30a70d18e862d505a34f2b21ccb83f5d4792e2d5 mac80211_hwsim: use DEFINE_SPINLOCK() for spinlock
-         81d94f47beaa561840776087d22a809b17c11033 cfg80211: regulatory: use DEFINE_SPINLOCK() for spinlock
-         026dfac85f0a70cd1fd00181f1079b2c256b0e12 mac80211: minstrel_ht: remove unused variable 'mg' in minstrel_ht_next_jump_rate()
-         958574cbcc3ae31f18bbe0b1d7f3ab3f2bd109f1 mac80211: remove redundant assignment of variable result
-         272cd0e8d4a639a87fe2fa40323871043ad9876e nl80211: Add missing line in nl80211_fils_discovery_policy
-         73bc9e0af5945d03d398668dd97885742a5e85f7 mac80211: don't apply flow control on management frames
-         196900fd97e26292f0bb90758690db4cd5e64e98 mac80211: set sk_pacing_shift for 802.3 txpath
-         0750cfd8b7fd491c9d7c8bd19d9ac380cd3c84ee nl80211: better document CMD_ROAM behavior
-         
+  - ref: refs/heads/surface-duo
+    old: 0000000000000000000000000000000000000000
+    new: 9516a2b66a1231172e905362f363865210548a51
+
+--===============5316985237825971312==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x35CAA444 1617880299 +0300
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/balbi/usb.git
+nonce 1617880298-46a25c80f0a34c836f9d96527e3cd673b7d14448
+
+0000000000000000000000000000000000000000 9516a2b66a1231172e905362f363865210548a51 refs/heads/surface-duo
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEElLzh7wn96CXwjh2IzL64meEamQYFAmBu5OsACgkQzL64meEa
+mQZumhAAzGnk2UF/7j62rdsliRsiuiUxCcZr3jChsrN9ll+vofDVLrpYThG1Pu5T
+D199Gm639bYEf4cE858r5bh8V2VjVT6fPiAInl1qoO5gQBVf7CUx1DQxbMcznVwe
+nI1pOF90caC/kW86CjOgNWtRPxiU1JVzMZJ0HLeDH2YIshju19DndBGbC4t9ieyT
+sDoD9lRJxrXngHgm4yC4VPT0RA5PlOYnUB7gXg0VKbNCNJfueQcEGBB3Qik90gqo
+5yPgSDrmOsvwt99JzYCOkHhnmcMLnQgBoFhfAHxSoRfau15J3Ldy7BjFjXOF2Iz1
+u18qtbaQ5HFhQ/pazpGPdV3VpCkeywS7YBNZGw/+Hh+qwLT+EcHJrrlPhthDzNXn
+j+tH6epMuv6GyqiYyOvcFtWJnbyPegMwNJm/UU4In0EmuMp/Jyt5u9t4YYwwm3Co
+RN6MkbLMaIWGXsCiWgjal3E9EQtjEgTFKuvfZDiHgQU/FjXjsR8gTo1xhzVV4NS/
+jzEdzbUPB0trtvvAyXwPd0XHHL8Z9sxUsEFXFEpANaLmbJ1sYZPO1S8FmQIB2d1C
+3AQjh40Fg+DzFBVwBXxBL5yPO5LP35R+xFaG0otu1VlyV6A53A65Sm1GW2gY0wFo
+caT6ZkrmjcuiiGsr0o3KuFK7IksIDC5borrR33+f1ZlwJj3UTTo=
+=poMC
+-----END PGP SIGNATURE-----
+
+--===============5316985237825971312==--
