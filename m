@@ -1,78 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1539766289503471868=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Thu, 08 Apr 2021 13:53:21 -0000
-Message-Id: <161789000119.10196.14934208592966942325@gitolite.kernel.org>
-
---===============1539766289503471868==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 08 Apr 2021 13:59:30 -0000
+Message-Id: <161789037013.13436.5473101502876101362@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/queue-next
-    old: ba91b69a8a5f62e911923b0ecfdff6c9d899dc58
-    new: 641fb779c15b86a7591c9c01c755534ce550f961
-    log: revlist-ba91b69a8a5f-641fb779c15b.txt
-  - ref: refs/heads/queue-rc
-    old: 9c9f50303e178b59c7f2480656bcdb3ec3ac6616
-    new: 05058311b607098eb56d0d9add0b635dff53e4bc
+  - ref: refs/heads/for-next
+    old: 704d68f5f2df46f7195a62bc21014e71a7f67a99
+    new: 7d8f346504ebde71d92905e3055d40ea8f34416e
     log: |
-         12e34a674d4fcf90294f5b36fa4d294117d74fce Merge branch 'master' into testing/rdma-rc
-         05058311b607098eb56d0d9add0b635dff53e4bc Merge branch 'testing/rdma-rc' into queue-rc
+         4bd00b55c978017aad10f0ff3e45525cd62cca07 IB/hfi1: Add AIP tx traces
+         042a00f93aad5874937e00f36e68301f7e3a0af1 IB/{ipoib,hfi1}: Add a timeout handler for rdma_netdev
+         b536d4b2a279733f440c911dc831764690b90050 IB/hfi1: Correct oversized ring allocation
+         70d44c18a7b32fcaa14d165b2004d7e5ba21f5ed IB/hfi1: Use napi_schedule_irqoff() for tx napi
+         326a23930793ae9711363922ec0f331e29c47f63 IB/hfi1: Remove indirect call to hfi1_ipoib_send_dma()
+         6b13215df1d37f5be23fc4a01a915a287b25ce15 IB/hfi1: Add additional usdma traces
+         ca5f72568e034e1295a7ae350b1f786fcbfb2848 IB/hfi1: Use kzalloc() for mmu_rb_handler allocation
+         fdde1aa09a82992cb09af8082d50afae5d22bfa4 IB/hfi1: Remove unused function
+         7e111bbff92620f56609a81353bba5bd1944851b IB/mlx5: Reduce max order of memory allocated for xlt update
+         2abb7431736be539b2e0926388c7c2602a68a178 RDMA/hns: Use GFP_ATOMIC under spin lock
+         7d8f346504ebde71d92905e3055d40ea8f34416e RDMA/core: Make the wc status prompt message clearer
          
-
---===============1539766289503471868==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba91b69a8a5f-641fb779c15b.txt
-
-e83726e2c640ce254e003ca442bda6e10bddbf65 net/mlx5: Add MEMIC operations related bits
-10bf5da4e020657315c2ccff00529a8b89ee8ad4 RDMA/uverbs: Make UVERBS_OBJECT_METHODS to consider line number
-d6f1ed764f78c430281a21e668692b6ed25a1fe0 RDMA/mlx5: Move all DM logic to separate file
-e5948615dd6f56176b2976d22740f053c9a56601 RDMA/mlx5: Re-organize the DM code
-0dda1e705db0cb6fe3aed059174fe9200eae307a RDMA/mlx5: Add support to MODIFY_MEMIC command
-516d20940508ec69c867effc7becdf9a85053b86 RDMA/mlx5: Add support in MEMIC operations
-330ecba3490b6a45387bc9bfd18e379e86f81ff0 RDMA/mlx5: Expose UAPI to query DM
-c3e835aea28de61aea6470df843de070dd730fe5 RDMA/mlx5: Expose private query port
-d846f8c5c506a1b2019da76fd209aeb92d955ba1 module: remove never implemented MODULE_SUPPORTED_DEVICE
-c2882723682cb6d9737ce4c02665f6191cfb640c RDMA: Add access flags to ib_alloc_mr() and ib_mr_pool_init()
-83c6765e3e1d23bebb0e23b07ac24f12a23e5143 RDMA/core: Enable Relaxed Ordering in __ib_alloc_pd()
-0691b58b8c204043d5714933539436553709b2b1 RDMA/iser: Enable Relaxed Ordering
-f4341112dd19ad977d63f9e65321ad4217aa7547 RDMA/rtrs: Enable Relaxed Ordering
-09c8d0a228d4680e9d5186e0bae75ff9ce6a8564 RDMA/srp: Enable Relaxed Ordering
-f540ef5e4008d127d39e6857c9587f906d27f57f nvme-rdma: Enable Relaxed Ordering
-748b5c4ba3ee51000e7dc5aa935bfc11a5c49ac0 cifs: smbd: Enable Relaxed Ordering
-856cc0cbcdfe16f7ec2bf1df4a84a698508ac8c7 net/rds: Enable Relaxed Ordering
-ed8df4708aa521a0ba53b7504852a9ea4c0befb8 net/smc: Enable Relaxed Ordering
-a4647eb09749840c4628f04f5788493406c5526b xprtrdma: Enable Relaxed Ordering
-3665ec2e6132976306a59364e78f42983d2c1a95 RDMA/core: Check if client supports IB device or not
-43701a9b43d7cbaf88fa5ea9863c2b3e5e95b0de RDMA/cma: Skip device which doesn't support CM
-f2efd6427c948502394b7e0ce76de6138ad679c7 IB/cm: Skip device which doesn't support IB CM
-f1082e6488c9a8bc433ea6e7cda45cec862131da IB/core: Skip device which doesn't have necessary capabilities
-0045ef15f1e79e2dcb4ded713c2f6e78738f4aa7 IB/IPoIB: Skip device which doesn't have InfiniBand port
-d1d4c50ef58ade5f7d8880b890fb68e67d8645a4 IB/opa_vnic: Move to client_supported callback
-17dd35a90929977c6759a0ad5239450841e22b0c net/smc: Move to client_supported callback
-8a36c48b7a51451104d154872833b516111fd389 net/rds: Move to client_supported callback
-7e6a03c4086a2ea5462f699d8527e77a933f8ca1 RDMA/restrack: Delay QP deletion till all users are gone
-ec7af6ed2a4d55df0d0195b9d803b297a739023b RDMA/bnxt_re: Depend on bnxt ethernet driver and not blindly select it
-59be524bc895242f00ab801a941d7f7f401cb1ea RDMA/bnxt_re: Create direct symbolic link between bnxt modules
-a46265e2b677abc8f0060168b4d1ce68d4e06313 RDMA/bnxt_re: Get rid of custom module reference counting
-2b8a22bcd022a472967fbc7f4c035d6a78917e2c net/bnxt: Remove useless check of non-existent ULP id
-87d9ccfa074b92e67aaae35cd7b1c2d63c7b23b4 net/bnxt: Use direct API instead of useless indirection
-b5da174c6fcd12bc3f4165efbee35f3e06f05323 RDMA/addr: Be strict with gid size
-e322a68ed0b7559eafd08358f1bbd35306c07e1f RDMA/nldev: Return context information
-6f33ab0964324c9ebc0f8d8c036c90466865fb81 RDMA/restrack: Add support to get resource tracking for SRQ
-c9c1bf9a272c5cc8522e1b1565a809d64d386505 RDMA/nldev: Return SRQ information
-a3c37e94ddaa17610a25cac372e28c8206203b3c RDMA/nldev: Add QP numbers to SRQ information
-12e34a674d4fcf90294f5b36fa4d294117d74fce Merge branch 'master' into testing/rdma-rc
-3b45c0939df8dd00facc738cee5f839a4286b715 Merge branch 'rdma-next' into testing/rdma-next
-641fb779c15b86a7591c9c01c755534ce550f961 Merge branch 'testing/rdma-next' into queue-next
-
---===============1539766289503471868==--
