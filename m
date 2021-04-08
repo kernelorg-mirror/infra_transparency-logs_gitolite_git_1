@@ -1,53 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============1096068338699415619=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 08 Apr 2021 16:41:16 -0000
-Message-Id: <161790007607.22100.11096468551563939820@gitolite.kernel.org>
-
---===============1096068338699415619==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 08 Apr 2021 16:41:37 -0000
+Message-Id: <161790009753.22346.13831769074434935956@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: a07a4db9b2a7dfb3109fda61b5e353ad34b65f86
-    new: 5247caa0b3b4cd1a1a6bec73c1475731af08e969
+    old: 10cba9666c4e63e9cd73af2620b9b48b8634f210
+    new: f7fa12400777c82653e2ecfa8aec767c16e3d5e0
     log: |
-         44de8d80dba4e65f4fe7c17ea4be75e3cf9a902c ASoC: rt1011: remove pack_id check in rt1011
-         7b3f5b207da5116add56c335c5fb92cee140dc63 ASoC: codecs: Fix runtime PM imbalance in tas2552_probe
-         5247caa0b3b4cd1a1a6bec73c1475731af08e969 Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+         a21fbc42807b15b74b0891bd557063e6acf4fcae spi: spi-zynqmp-gqspi: Fix runtime PM imbalance in zynqmp_qspi_probe
+         794aaf01444d4e765e2b067cba01cc69c1c68ed9 spi: Fix use-after-free with devm_spi_alloc_*
+         f7fa12400777c82653e2ecfa8aec767c16e3d5e0 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 1faa37b8f4789efe1e6af9d203957b158dd1887c
-    new: d965e63e98eeaf511179cd17c42125a8384d7c3c
-    log: revlist-1faa37b8f478-d965e63e98ee.txt
-
---===============1096068338699415619==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1faa37b8f478-d965e63e98ee.txt
-
-44de8d80dba4e65f4fe7c17ea4be75e3cf9a902c ASoC: rt1011: remove pack_id check in rt1011
-7b3f5b207da5116add56c335c5fb92cee140dc63 ASoC: codecs: Fix runtime PM imbalance in tas2552_probe
-f2138aed231c88d5c4fa8d06aa15ad19685087c2 ASoC: simple-card-utils: enable flexible CPU/Codec/Platform
-205eb17eddb473c3159743c7d3aaf68db37b7231 ASoC: simple-card-utils: share dummy DAI and reduce memory
-f985838003ee618daba7a38da3efe27c639575e2 ASoC: codecs: wsa881x: constify static struct snd_soc_dai_ops
-a0bc855ffdb55cbb9fbf7fa9611d17f19db889a8 ASoC: codecs: tlv320aic3x: add AIC3106
-b186e7c17d9f2c2bc9cd0bd362402eddbea7749b ASoC: tas2764: constify static struct snd_soc_dai_ops
-38ec3006eccb46a6db6f4a36536f78db8e9042ac ASoC: codecs: tlv320aic3x: add SPI to the DT binding
-a93799d55fd479f540ed97066e69114aa7709787 ASoC: fsl: sunxi: remove redundant dev_err call
-5e71e9c14db4e49cca56354c95ce10e0e00214d1 ASoC: rt1019: constify static struct snd_soc_dai_ops
-e9a216d8f14ac4d926078885e7e772db08e6aad9 ASoC: cx2072x: constify static struct snd_soc_dai_ops
-f2ec1ebb257155fb534cad390575d696dfd567fb ASoC: tas2770: Constify static struct snd_soc_dai_ops
-703fe25d11ae613c77b8e72bb06efc06de871648 Merge series "ASoC: simple-card-utils: prepare for multi support" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
-5247caa0b3b4cd1a1a6bec73c1475731af08e969 Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
-d965e63e98eeaf511179cd17c42125a8384d7c3c Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
-
---===============1096068338699415619==--
+    old: edf47ef9faaf8ee100526572f5e08ad744368796
+    new: 9cd38950dce86cabd8c262fd2f437743882cfeea
+    log: |
+         a21fbc42807b15b74b0891bd557063e6acf4fcae spi: spi-zynqmp-gqspi: Fix runtime PM imbalance in zynqmp_qspi_probe
+         794aaf01444d4e765e2b067cba01cc69c1c68ed9 spi: Fix use-after-free with devm_spi_alloc_*
+         d570838efb6fb3154cbd08ab1b22d1f6442b1e78 ARM/spi: spear: Drop PL022 num_chipselect
+         5fed9fe5b41aea58e5b32be506dc50c9ab9a0e4d spi: fsl: add missing iounmap() on error in of_fsl_spi_probe()
+         f7fa12400777c82653e2ecfa8aec767c16e3d5e0 Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+         9cd38950dce86cabd8c262fd2f437743882cfeea Merge remote-tracking branch 'spi/for-5.13' into spi-next
+         
