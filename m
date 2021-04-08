@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
-Date: Thu, 08 Apr 2021 12:51:27 -0000
-Message-Id: <161788628792.5090.11158099775153427785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 08 Apr 2021 12:58:06 -0000
+Message-Id: <161788668649.8396.13438212743959391091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211
-user: jberg
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/mac80211-for-net-2021-04-08
+  - ref: refs/tags/sound-5.12-rc7
     old: 0000000000000000000000000000000000000000
-    new: 522c3e4b2d56b4fb7046888940fd8ce7f6302a7a
+    new: dad6a58f4a368ccfe603a72aef6152a9b3ee90cd
