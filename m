@@ -1,24 +1,55 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 08 Apr 2021 14:14:27 -0000
-Message-Id: <161789126716.25565.6713276170788667258@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0195222282988970898=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/balbi/usb
+Date: Thu, 08 Apr 2021 14:27:10 -0000
+Message-Id: <161789203087.2379.3879531515014105303@gitolite.kernel.org>
+
+--===============0195222282988970898==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/balbi/usb
+user: balbi
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 24bba04a7f2c23657efd9d643c8195084e16ef3e
-    new: 36d258101574b3c95edbfa95102b0dfedbc54169
+  - ref: refs/heads/surface-duo
+    old: d438e6bca2774d7611e7f4e9c76dbda09a0d292e
+    new: 5356276f9d4e6cb623d09fada4f6f096c2e9d0b8
     log: |
-         ac4feab47e81e541cb267b577320a24e48ba01f3 software node: Introduce software_node_alloc()/software_node_free()
-         dd0468ddc99c8e643fed312a50da0ff2c2a637ca software node: Deduplicate code in fwnode_create_software_node()
-         beb0669f2c8c36efafd21967d57303f5362b50df software node: Imply kobj_to_swnode() to be no-op
-         9d510dba10d405a8f657c5aae89c48d24e65fe30 software node: Introduce SOFTWARE_NODE_REFERENCE() helper macro
-         fa65a6736a6d27d3482cd2b804d80cf1b7d0aa2d media: ipu3-cio2: Switch to use SOFTWARE_NODE_REFERENCE()
-         36d258101574b3c95edbfa95102b0dfedbc54169 Merge branch 'devprop' into bleeding-edge
+         5356276f9d4e6cb623d09fada4f6f096c2e9d0b8 arm64: dts: qcom: add initial device-tree for Microsoft Surface Duo
          
+
+--===============0195222282988970898==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x35CAA444 1617892026 +0300
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/balbi/usb.git
+nonce 1617892026-f074db59bfc7171169c7ee6595dbdb09f243feaa
+
+d438e6bca2774d7611e7f4e9c76dbda09a0d292e 5356276f9d4e6cb623d09fada4f6f096c2e9d0b8 refs/heads/surface-duo
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEElLzh7wn96CXwjh2IzL64meEamQYFAmBvEroACgkQzL64meEa
+mQZ9vQ//eN1KMVvriCllmCYNkeasoE3yvGe9QIy5RPSqUGu1hf2l+l51eUpXcRwY
+kHUv73ODy0fyGrVVN5GG40Dbd4gZqe2lymm8e8+VbsoVQ4bvHPQUuDUH4QVhj3fz
+GQzvnkv0QEBD/9ffOULE8FjqnmwJvHk0EOTik9QlqOxR6lP07UuHraLiZB6YQLPP
+m4NQu16Xm+6wCOYgbWXdyX3W6wZpitFjac6Upy+EhQ03EAco2D3+IcHVxmCDRHQU
+PlHd84Re1df+Mm+MRc+VBIYn3DbyowU7GtPAmuCTKst3OWRUww1Ldpbbi29qExZ6
+2O4jp8XHF/H+233aI6b0rsfBX54oq5jdnA9lXhbO7vTiU9JmeK9iDXWMYM4dTCAT
+guntyjfjxUSQ8iXlJhE9NnyfEHPl+OIhQxmau3UvDTuUu1r3oMGurFHfrAXTiQ/x
+tdsbsfisVAPf6+KMgDhlgtAcFshmXzyA1toOi0qdTwfjp7D+KteHZ/5cODEHxz+2
+OEOkrZRF1zmK196wNy+JwHIU34foLedH+pgPgnVXveReVv9QFPBXRksMCEQSEYFI
+38kjEBhyMxKECiAZ3xmYj9YTCsy35IVEV2ZQd7W0JiqsNmJFOLZ+Ixkg4mJUpoP6
+/wiHI4t8h4R5qRWm/x6x/Kl67I6J43bvl3nn12WQcAZJlCbCbJ4=
+=Z8Dr
+-----END PGP SIGNATURE-----
+
+--===============0195222282988970898==--
