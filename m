@@ -1,50 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============6185220224338363370=="
+Content-Type: multipart/mixed; boundary="===============1909349444220847434=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Thu, 08 Apr 2021 07:11:45 -0000
-Message-Id: <161786590574.5759.12995900798789990831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 08 Apr 2021 07:22:53 -0000
+Message-Id: <161786657341.13050.13151712458116716618@gitolite.kernel.org>
 
---===============6185220224338363370==
+--===============1909349444220847434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: 4e1477482f9346bb7fdd87b1ee2a131baf4b0c7b
-    new: 8ac3cd5faed558b9ff5162d9d3dae51e0ed76c89
-    log: revlist-4e1477482f93-8ac3cd5faed5.txt
+  - ref: refs/heads/master
+    old: 0dbed2a2774fedaf52e1fc6ddb4106f9e53bc7f3
+    new: 1dabdd67370e1fec904b39f82401a16f678df565
+    log: revlist-0dbed2a2774f-1dabdd67370e.txt
 
---===============6185220224338363370==
+--===============1909349444220847434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e1477482f93-8ac3cd5faed5.txt
+Content-Disposition: attachment; filename=revlist-0dbed2a2774f-1dabdd67370e.txt
 
-e1fad9f1e5b7db357c3dec1c3c26ade2ad349746 ipv4: lock mtu in fnhe when received PMTU < net.ipv4.route.min_pmtu
-f73dd7d1551b00b71cb62e564c4af3d650955fc4 ip_tunnel: don't force DF when MTU is locked
-d175fd8215f5c57d647220240404bd969f031750 tg3: Add PHY reset for 5717/5719/5720 in change ring and flow control paths
-ff129a66c0822c727c29d2ae15cb94c0e0eb7a0f kbuild: Add better clang cross build support
-9bb8d1470ebdd77a36a85d49c62fa0f61f4f66b2 kbuild: clang: add -no-integrated-as to KBUILD_[AC]FLAGS
-c3deb09a9d93d8632c8348f82e8c21ec0b802902 kbuild: drop -Wno-unknown-warning-option from clang options
-9d75c5de47ef66bfe33ec608a09b7c92385ccdb2 kbuild, LLVMLinux: Add -Werror to cc-option to support clang
-9360d61c31e0908f62125e388df112a45967d7c0 kbuild: use -Oz instead of -Os when using clang
-7482f8e8d8847842d5876ef0f792b246791747a7 kbuild: Add support to generate LLVM assembly files
-509a9f0faec572f7b815db93e2113a92a1b37428 kbuild: clang: Disable 'address-of-packed-member' warning
-6767162028d0739bc77900000771f51cc861eabe efi/libstub/arm64: Set -fpie when building the EFI stub
-0abe85df562eb0269381b8b72e0ea7093c253ae4 kbuild: fix linker feature test macros when cross compiling with Clang
-d2ebbdb4fbbfba45c2d43ff0bf71dcdfd8f2f881 kbuild: clang: remove crufty HOSTCFLAGS
-e6cf3ab6db10e8907395230180dda9c600152208 kbuild: clang: disable unused variable warnings only when constant
-f902911a6f42961aeee7c6b6b6a39ab74b410f84 crypto, x86: aesni - fix token pasting for clang
-a8691d5369bc3ae51434d7548e9d26e50af0a571 x86/mm/kaslr: Use the _ASM_MUL macro for multiplication to work around Clang incompatibility
-91ce551b11f6f4339754a71d2cbb27600236b2ad kbuild: Add __cc-option macro
-305593b9bd542b39cc75277dd54609580072d73e x86/build: Use __cc-option for boot code compiler options
-f7d6108d1bb537e58c235408b66146e9dbe153bd x86/build: Specify stack alignment for clang
-8ac3cd5faed558b9ff5162d9d3dae51e0ed76c89 x86/boot: #undef memcpy() et al in string.c
+e9a15a40e857fc6ccfbb05fec7b184e9003057df x86/cpufeatures: Make SGX_LC feature bit depend on SGX bit
+b8921dccf3b25798409d35155b5d127085de72c2 x86/cpufeatures: Add SGX1 and SGX2 sub-features
+b0c7459be0670fabe080e30906ba9fe62df5e02c x86/sgx: Wipe out EREMOVE from sgx_free_epc_page()
+231d3dbdda192e3b3c7b79f4c3b0616f6c7f31b7 x86/sgx: Add SGX_CHILD_PRESENT hardware error code
+540745ddbc70eabdc7dbd3fcc00fe4fb17cd59ba x86/sgx: Introduce virtual EPC for use by KVM guests
+332bfc7becf479de8a55864cc5ed0024baea28aa x86/cpu/intel: Allow SGX virtualization without Launch Control support
+faa7d3e6f3b983a28bf0f88f82dcb1c162e61105 x86/sgx: Initialize virtual EPC driver even when SGX driver is disabled
+8ca52cc38dc8fdcbdbd0c23eafb19db5e5f5c8d0 x86/sgx: Expose SGX architectural definitions to the kernel
+9c55c78a73ce6e62a1d46ba6e4f242c23c29b812 x86/sgx: Move ENCLS leaf definitions to sgx.h
+32ddda8e445df3de477db14d386fb3518042224a x86/sgx: Add SGX2 ENCLS leaf definitions (EAUG, EMODPR and EMODT)
+a67136b458e5e63822b19c35794451122fe2bf3e x86/sgx: Add encls_faulted() helper
+73916b6a0c714258f9c2619408a66c6696a761a7 x86/sgx: Add helper to update SGX_LEPUBKEYHASHn MSRs
+d155030b1e7c0e448aab22a803f7a71ea2e117d7 x86/sgx: Add helpers to expose ECREATE and EINIT to KVM
+b3754e5d3da320af2bebb7a690002685c7f5c15c x86/sgx: Move provisioning device creation out of SGX driver
+3a62583c2853b0ab37a57dde79decea210b5fb89 RAS/CEC: Correct ce_add_elem()'s returned values
+dda451f391eee5d68db3ca87fd8b2a42c8c2b507 x86/cacheinfo: Remove unneeded dead-store initialization
+e3bbd78a14c1f603d782ad1684c5d146e1ee3ba6 Merge remote-tracking branch 'tip/x86/cleanups' into tip-master
+c6a72eafa7e364cd3bf64bbec9cd6918c964a51c Merge remote-tracking branch 'tip/x86/sgx' into tip-master
+1dabdd67370e1fec904b39f82401a16f678df565 Merge remote-tracking branch 'tip/x86/urgent' into tip-master
 
---===============6185220224338363370==--
+--===============1909349444220847434==--
