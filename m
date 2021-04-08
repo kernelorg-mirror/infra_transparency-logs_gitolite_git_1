@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5370487510363356184=="
+Content-Type: multipart/mixed; boundary="===============1078527544988039003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Thu, 08 Apr 2021 14:57:59 -0000
-Message-Id: <161789387932.21207.12898225760019481435@gitolite.kernel.org>
+Date: Thu, 08 Apr 2021 15:02:54 -0000
+Message-Id: <161789417459.24216.12183280311626723536@gitolite.kernel.org>
 
---===============5370487510363356184==
+--===============1078527544988039003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/habanalabs-next
+  - ref: refs/heads/next
     old: 3636ab2082a13d6da4fcb77a9832b9ca52719086
     new: f48e01ac0bbbdb9fa289a9141bdbc2a03d4b5c0f
     log: revlist-3636ab2082a1-f48e01ac0bbb.txt
 
---===============5370487510363356184==
+--===============1078527544988039003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b5343074a6f074b3f093b82782cf6f5957c91722 habanalabs: remove the store jobs array
 72bf2a225dd61edcf1c096a1128680048e351df7 habanalabs: use strscpy instead of sprintf and strlcpy
 f48e01ac0bbbdb9fa289a9141bdbc2a03d4b5c0f habanalabs: support DEVICE_UNUSABLE error indication from FW
 
---===============5370487510363356184==--
+--===============1078527544988039003==--
