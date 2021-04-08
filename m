@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 08 Apr 2021 10:38:26 -0000
-Message-Id: <161787830658.17129.9813262500646762435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 08 Apr 2021 10:44:36 -0000
+Message-Id: <161787867616.20289.12811864936857424191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: 384cf046e474b40db4773e9358241a5de11ed8a7
-    new: 94bc94209a66f05532c065279f4a719058d447e4
+  - ref: refs/heads/x86/cleanups
+    old: dda451f391eee5d68db3ca87fd8b2a42c8c2b507
+    new: 3e7bbe15ed84e3baa7dfab3aebed3a06fd39b806
     log: |
-         94bc94209a66f05532c065279f4a719058d447e4 irqchip/wpcm450: Drop COMPILE_TEST
+         3e7bbe15ed84e3baa7dfab3aebed3a06fd39b806 x86/msr: Make locally used functions static
          
