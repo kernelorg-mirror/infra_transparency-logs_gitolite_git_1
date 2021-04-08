@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
-Date: Thu, 08 Apr 2021 14:43:38 -0000
-Message-Id: <161789301812.11630.12973359087567843129@gitolite.kernel.org>
+Date: Thu, 08 Apr 2021 14:44:56 -0000
+Message-Id: <161789309693.12072.6715509209242591789@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jberg/mac80211
 user: jberg
 changes:
-  - ref: refs/heads/master
-    old: abaf94ecc9c356d0b885a84edef4905cdd89cfdd
-    new: 9a6847ba1747858ccac53c5aba3e25c54fbdf846
-    log: |
-         9a6847ba1747858ccac53c5aba3e25c54fbdf846 nl80211: fix beacon head validation
-         
+  - ref: refs/tags/mac80211-for-net-2021-04-08.2
+    old: 0000000000000000000000000000000000000000
+    new: c5aa097bc1ecd682a6e3904b841d18fe1ffdb8ca
