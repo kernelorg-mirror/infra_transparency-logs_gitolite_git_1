@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 09 Apr 2021 16:08:05 -0000
-Message-Id: <161798448577.24639.2313280715511520843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
+Date: Fri, 09 Apr 2021 16:10:01 -0000
+Message-Id: <161798460139.25260.6371097121466818485@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/andersson/remoteproc
+user: andersson
 changes:
-  - ref: refs/heads/sched/core
-    old: 816969e4af7a56bfd284d2e0fa11511900ab93e3
-    new: 4aed8aa41524a1fc6439171881c2bb7ace197528
+  - ref: refs/heads/rpmsg-next
+    old: 964e8bedd5a13a662e8e418ed763351c07d0dac7
+    new: 26594c6bbb60c6bc87e3762a86ceece57d164c66
     log: |
-         c722f35b513f807629603bbf24640b1a48be21b5 sched/fair: Bring back select_idle_smt(), but differently
-         9bcb959d05eeb564dfc9cac13a59843a4fb2edf2 sched/fair: Ignore percpu threads for imbalance pulls
-         23fb06d9602b0fcfa1a16357a5d7a7f7076a39e2 sched/fair: Clean up active balance nr_balance_failed trickery
-         4aed8aa41524a1fc6439171881c2bb7ace197528 sched/fair: Introduce a CPU capacity comparison helper
+         26594c6bbb60c6bc87e3762a86ceece57d164c66 rpmsg: qcom_glink_native: fix error return code of qcom_glink_rx_data()
          
