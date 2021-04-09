@@ -1,51 +1,90 @@
-Content-Type: multipart/mixed; boundary="===============1422147471639833346=="
+Content-Type: multipart/mixed; boundary="===============2858322915657281326=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/linux
-Date: Fri, 09 Apr 2021 14:28:15 -0000
-Message-Id: <161797849559.27886.16141667463149412364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 09 Apr 2021 14:50:03 -0000
+Message-Id: <161797980398.9168.15400488434668669279@gitolite.kernel.org>
 
---===============1422147471639833346==
+--===============2858322915657281326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/linux
-user: lee
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/android-3.18-preview
-    old: e9fc33125a4d09c6247e830df66b2aba6488c797
-    new: 87c53b28e3055829858dd178cf920a081042be3b
-    log: revlist-e9fc33125a4d-87c53b28e305.txt
+  - ref: refs/heads/for-5.13/libata
+    old: 868ed7311cd81ef2fffa2cd36e72c44f226b0085
+    new: 152cad51a418bc88f45bc34ed94101c96a056966
+    log: |
+         6fa6517fe62ed58621bd577ebced9fdd347a589c ata: ahci_tegra: call tegra_powergate_power_off only when PM domain is not present
+         152cad51a418bc88f45bc34ed94101c96a056966 pata_ipx4xx_cf: Fix unsigned comparison with less than zero
+         
+  - ref: refs/heads/for-next
+    old: cc2234bec65c5b753301d8c63b66219532c53100
+    new: 09634ed25ad20c5ee94c55479a710a5d3a1e4826
+    log: |
+         6fa6517fe62ed58621bd577ebced9fdd347a589c ata: ahci_tegra: call tegra_powergate_power_off only when PM domain is not present
+         152cad51a418bc88f45bc34ed94101c96a056966 pata_ipx4xx_cf: Fix unsigned comparison with less than zero
+         09634ed25ad20c5ee94c55479a710a5d3a1e4826 Merge branch 'for-5.13/libata' into for-next
+         
+  - ref: refs/heads/master
+    old: 454859c552da78b0f587205d308401922b56863e
+    new: 17e7124aad766b3f158943acb51467f86220afe9
+    log: revlist-454859c552da-17e7124aad76.txt
 
---===============1422147471639833346==
+--===============2858322915657281326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9fc33125a4d-87c53b28e305.txt
+Content-Disposition: attachment; filename=revlist-454859c552da-17e7124aad76.txt
 
-654baee5d4ca1220b2b4eda430d95ebacddf765e sched: Use replace normalize_task() with __sched_setscheduler()
-d7b9da634012a876e34f6ed1152ec1bd0b181d07 Btrfs: fix race between transaction commit and empty block group removal
-2dcb9056e4a209223b4f78ea0a458d9b4e60f388 GFS2: Don't brelse rgrp buffer_heads every allocation
-79963450aec0023732a1c599dec321868b27c6f8 x86/build: Fix stack alignment for CLang
-44b5e6c1f743d04331653add1d2d89d1fed9db05 x86/build: Use cc-option to validate stack alignment parameter
-068b1369a2e78f7dac792b91045fcf694e8d7c17 netfilter: ipset: actually allow allowable CIDR 0 in hash:net,port,net
-5ba4b5cf44956d417efcaee4baedf5b735e8f6c5 netfilter: xt_IDLETIMER: add sysfs filename checking routine
-ee9eeb4aad7d758ed567583781fc730d749bd51a gfs2: Put bitmap buffers in put_super
-392186179d18300002ba52df9b49abb39fa59764 btrfs: fix pinned underflow after transaction aborted
-7a4067200faaa29be1bcfd3ac09e1d06e813b202 drivers/misc/sgi-gru: fix Spectre v1 vulnerability
-7fd01a95f0db9f6c280c844a50f1d92e1ee43555 xhci: Fix USB3 NULL pointer dereference at logical disconnect.
-c49ce6d4829cc9192c5e4a023b2ba2a1ef672d9b usb: xhci: fix timeout for transition from RExit to U0
-43f23b454f380df10201f9524a47f0c8685b0622 MAINTAINERS: Add Sasha as a stable branch maintainer
-92b069849249ab90fbfe4255ad898a9c2bdb94d3 usb: xhci: Prevent bus suspend if a port connect change or polling state is detected
-f20a8e05e7973a60238ff15462968d9482505f77 of: add helper to lookup compatible child node
-9a4ba2049ec3ebe57c66238ec7fa1f00b6365f47 ath10k: fix kernel panic due to race in accessing arvif list
-25ddc23f7b077209b2ad6fbb2264a0e399185ef8 mwifiex: Fix NULL pointer dereference in skb_dequeue()
-75a7a62ff72e39fe90aade52bf6aa3b4a653f5aa netfilter: nf_tables: fix oops when inserting an element into a verdict map
-68f2473a9715ec07cc0a5a19684b012da4c3988b usb: xhci: fix uninitialized completion when USB3 port got wrong status
-161aa73de72f1503915c6cd9c50eb43f232e9886 btrfs: Ensure btrfs_trim_fs can trim the whole filesystem
-87c53b28e3055829858dd178cf920a081042be3b sched/core: Allow __sched_setscheduler() in interrupts when PI is not used
+927280909fa7d8e61596800d82f18047c6cfbbe4 ASoC: SOF: Intel: HDA: fix core status verification
+91ec48f540f83022377723a774a0a37a630801af ASoC: SOF: core: harden shutdown helper
+3c429f861ed483517a0a352281a16503bcc60b55 ASoC: SOF: Intel: TGL: fix EHL ops
+22aa9e021ad1ee7ce640270e75f4bdccff65d287 ASoC: SOF: Intel: TGL: set shutdown callback to hda_dsp_shutdown
+4939e49ea5804f89941df86d35f1a1e1cd8b435b ASoC: SOF: Intel: ICL: set shutdown callback to hda_dsp_shutdown
+b0503e8410e5ee43da116772576dbdeb2a414e0b ASoC: SOF: Intel: CNL: set shutdown callback to hda_dsp_shutdown
+d3aa96bf349882763b9903e5800d2e83fc086886 ASoC: SOF: Intel: APL: set shutdown callback to hda_dsp_shutdown
+8bb84ca873d2222ca220e58a097090775b1fd8df ASoC: SOF: Intel: move ELH chip info
+16b82e75c15a7dbd564ea3654f3feb61df9e1e6f ASoC: wm8960: Fix wrong bclk and lrclk with pll enabled for some chips
+2c0d7f9186d06f1f3f6c52387195c8f89070af93 Merge series "ASoC: SOF: Intel: shutdown and core handling corrections" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
+aa65bacdb70e549a81de03ec72338e1047842883 ASoC: intel: atom: Stop advertising non working S24LE support
+632aeebe1b7a3a8b193d71942a10e66919bebfb8 ASoC: intel: atom: Remove 44100 sample-rate from the media and deep-buffer DAI descriptions
+a23f9099ff1541f15704e96b784d3846d2a4483d ASoC: max98373: Changed amp shutdown register as volatile
+3a27875e91fb9c29de436199d20b33f9413aea77 ASoC: max98373: Added 30ms turn on/off time delay
+aa320c7cd45647b75af2233430d36a8d154703d4 ASoC: cygnus: fix for_each_child.cocci warnings
+7c0d6e482062eb5c06ecccfab340abc523bdca00 ASoC: sunxi: sun4i-codec: fill ASoC card owner
+b861106f3cd693f944ba46d9ea8744a3fbfd14db ASoC: codecs: lpass-tx-macro: set npl clock rate correctly
+adfc3ed7dcb98f7411d3632e3bdf81690294fe7d ASoC: codecs: lpass-rx-macro: set npl clock rate correctly
+7582207b1059129e59eb92026fca2cfc088a74fc RDMA/rtrs-clt: Close rtrs client conn before destroying rtrs clt session files
+9b5b872215fe6d1ca6a1ef411f130bd58e269012 file: fix close_range() for unshare+cloexec
+e7a48c710defa0e0fef54d42b7d9e4ab596e2761 ASoC: fsl_esai: Fix TDM slot setup for I2S mode
+7a2f91441b2c1d81b77c1cd816a4659f4abc9cbe s390/cpcmd: fix inline assembly register clobbering
+08edb9683e47f5183aed9aa3f926292b54c278c1 s390/unwind: add machine check handler stack
+85012e764d3a1be02297b23c1aa3467f0df212aa s390/irq: fix reading of ext_params2 field from lowcore
+c6423ed2da6214a68527446b5f8e09cf7162b2ce ALSA: hda/conexant: Apply quirk for another HP ZBook G5 model
+4f0ed93fb92d3528c73c80317509df3f800a222b LOOKUP_MOUNTPOINT: we are cleaning "jumped" flag too late
+168632a495f49f33a18c2d502fc249d7610375e9 ALSA: aloop: Fix initialization of controls
+ad31a8c05196a3dc5283b193e9c74a72022d3c65 s390/setup: use memblock_free_late() to free old stack
+9c3195778c71d7f0795d48e2f04a12c9d80d8b98 Merge tag 'asoc-fix-v5.12-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+603c4690b01aaffe3a6c3605a429f6dac39852ae RDMA/cxgb4: check for ipv6 address properly while destroying listener
+5de61a47eb9064cbbc5f3360d639e8e34a690a54 IB/hfi1: Fix probe time panic when AIP is enabled with a buggy BIOS
+e1ad897b9c738d5550be6762bf3a6ef1672259a4 RDMA/qedr: Fix kernel panic when trying to access recv_cq
+4e456b30f78c429b183db420e23b26cde7e03a78 cifs: On cifs_reconnect, resolve the hostname again.
+d135be0a7fb83f4dd68721b3355fec6de686834c fs: cifs: Remove unnecessary struct declaration
+0fc9322ab5e1fe6910c9673e1a7ff29f7dd72611 cifs: escape spaces in share names
+c8426b2700b57d2760ff335840a02f66a64b6044 ALSA: hda/realtek: Fix speaker amp setup on Acer Aspire E1
+315f02c60d9425b38eb8ad7f21b8a35e40db23f9 KVM: x86/mmu: preserve pending TLB flush across calls to kvm_tdp_mmu_zap_sp
+035d80695fae55ed3e788cd8a62525657a43b924 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+4ea51e0e37c890847eb2b402b01389ae099efec1 Merge tag 'for-linus-2021-04-08' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
+d381b05e8605f8b11913831e7f3c00e700e97bbc Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+e0a472fffe435af52ea4e21e1e0001c5c8ffc6c7 Merge tag 'sound-5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+3fb4f979b4fa1f92a02b538ae86e725b73e703d0 Merge tag 's390-5.12-6' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+d1c803a9ccd7bd3aff5e989ccfb39ed3b799b975 RDMA/addr: Be strict with gid size
+4fa56ad0d12e24df768c98bffe9039f915d1bc02 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+17e7124aad766b3f158943acb51467f86220afe9 Merge tag '5.12-rc6-smb3' of git://git.samba.org/sfrench/cifs-2.6
 
---===============1422147471639833346==--
+--===============2858322915657281326==--
