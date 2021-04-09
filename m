@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 09 Apr 2021 11:50:30 -0000
-Message-Id: <161796903043.4865.16725030873968442697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Fri, 09 Apr 2021 11:51:19 -0000
+Message-Id: <161796907942.5398.6219764625309103038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/master
-    old: a67ffcf8a092e19d62de65b3dbd600d9df97cb9d
-    new: aa886e839b9d95a3384dd1322211f67208762ea4
+  - ref: refs/heads/for-next
+    old: 68ae256945d2abe9036a7b68af4cc65aff79d5b7
+    new: 2d54a2222c4ad03b5a5e86fc77c053053ef921c7
     log: |
-         632a1c209b8773cb0119fe3aada9f1db14fa357c x86/traps: Correct exc_general_protection() and math_error() return paths
-         aa886e839b9d95a3384dd1322211f67208762ea4 Merge branch 'tip-x86-urgent' into tip-master
+         2d54a2222c4ad03b5a5e86fc77c053053ef921c7 power: reset: hisi-reboot: add missing MODULE_DEVICE_TABLE
          
