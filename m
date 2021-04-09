@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2543703294882249513=="
+Content-Type: multipart/mixed; boundary="===============1620871500272965694=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 09 Apr 2021 14:08:06 -0000
-Message-Id: <161797728631.14694.5709797426841198514@gitolite.kernel.org>
+Date: Fri, 09 Apr 2021 14:08:47 -0000
+Message-Id: <161797732760.14983.3706021574724974972@gitolite.kernel.org>
 
---===============2543703294882249513==
+--===============1620871500272965694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 3a2a91a2d51761557843996a66098eb7182b48b4
-    new: 3d28466e5f4f8110da44ebad6a3054ec3020cdc4
+    old: 3d28466e5f4f8110da44ebad6a3054ec3020cdc4
+    new: 496960274153bdeb9d1f904ff1ea875cef8232c1
     log: |
-         7b458a4c5d7302947556e12c83cfe4da769665d0 usb: typec: Add typec_port_register_altmodes()
-         55d8b34772e0728a224198ba605eed8cfc570aa0 usb: typec: tcpm: Add support for altmodes
-         3d28466e5f4f8110da44ebad6a3054ec3020cdc4 platform/x86/intel_cht_int33fe: Add displayport altmode fwnode to the connector fwnode
+         729f7955cb987c5b7d7e54c87c5ad71c789934f7 Revert "USB: cdc-acm: fix rounding error in TIOCSSERIAL"
+         dd5619582d60007139f0447382d2839f4f9e339b USB: cdc-acm: fix unprivileged TIOCCSERIAL
+         496960274153bdeb9d1f904ff1ea875cef8232c1 USB: cdc-acm: fix TIOCGSERIAL implementation
          
 
---===============2543703294882249513==
+--===============1620871500272965694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617977280 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617977322 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1617977280-2c16d45834631a3112c769b08e8a8d02e4320f24
+nonce 1617977322-84fb3c2bf6e19da6267056c3992d0b7719b8f73a
 
-3a2a91a2d51761557843996a66098eb7182b48b4 3d28466e5f4f8110da44ebad6a3054ec3020cdc4 refs/heads/usb-testing
+3d28466e5f4f8110da44ebad6a3054ec3020cdc4 496960274153bdeb9d1f904ff1ea875cef8232c1 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBwX8AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GhYQAJA92udAcZTirXGSBuKf
-ttR3zYE0tL9aNshrDcwjS0igKd9ryfsgn6W3mMN0DtcXl5Z3SpFLZZRMvmQAggF4
-wFEGjabxp3BIcUn4m66kDDVbU2uBpoiqTM/meDXgFIa1C5qRET21/8FtKiwLLe2G
-0nQzB6qxLjLTDGGXveWM8ot8fiofPpwIhFc/zdMZJf07gqN5lN2ADM76BYskD7W8
-PXCanof/E7LhVWRd7aY+9OHN2PSA/QcqR7m9y+VvgD0ZW+YIQSLvKJDcHzI6lgdQ
-ONoUvWi+w3pLE38/7iGxnLX4Bgsd5fwr4qMd9XsiyNke8l/lavDSHrASLKuWSvjC
-zU9EFdlkk9ORwH0lb2pP2Eq5ynzC9OPIBuQsRFmngl6ayD25fqwWw3wfX9mzM52i
-pDeKwBKnXGeFKx1R7hDOONsnni3+PfqXpZnTAfXT5sfAL+PcmPtSXKMOJedCPYpe
-FAF3QoakTRV6FbfakjbzKbLAcQa6HD61snO0vaasC5rfB3l50gcHMizcrZtXZmrV
-3N3trLPeq6BycMhORx7VbbLms3c/7j9hcfyP0GMG4SA7OZS2IPf/aKdGyTJC+EL4
-f+rJSocgO611zI0Xhxq3sgdPlJR+kQ1rS9F+7obcJcV8JW7an421svr/papuQszb
-Ou8uIo8Ekg/icK7+WwZaKzz+
-=zWPw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBwX+obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NB8QAMaQ2UgNKmPfGU9TbF9l
++kzfh6Wvq1/tHGLXRlFgrU4h+5u3p0q9LTaHxJNpgQO4kNCEN4BWoRWNpHzDJ7/r
+KqMb1FCLu5geLHo30y5alwfnPrPaotoCvE58F48bpNST+xDikSaUVafG6SGaLkfM
+5TsPOrj6gO30UZTEY0BYRdC5XNhOAv8sC4+F16t70+itPF0mBhsqoXVfEG+/f7LY
+AL2FzanbIloH1wXGUyqzs4UWPV5goG1l+3JjAXRpdExzRHHrpAtDdYIdZ3UqRI7h
+GW3zZ2HlG43T6sd4mfaAigxtfE+GVOnbJnTB5tU1Tk0RBfh22OhJmz+x32/fZ5Gv
+CmriXeQGyVQTOP8E6KWTwu1Ma33AqfprKVMBf4Qlq536Yw3jKzSf3m+aTt3fLu7n
+kjXmvwNJ5bcfX1n52k3XJrODEJNlEQ3RXTecS9dSvkeKSMeZMbP84pLNkaSD7Rgv
+/4Vc/RSGNmmsIioGmBNvANf3g7J558sesLQvKjjglcSkSHMapQtFIyhXU8P8F7Ou
+xMalBwl4ar0rl3ChpqR39+Bo8kr+OINR9VD8gXUNi3cgiKRIXz7jvn9ke7z4hvYi
+GUpRipCypnOYWZzFQQFMPCQr8PsEPfq7qQhqa9Cn6dL5amRf6tsgRjRJa+2S+PRL
+m3METG5BLzC3ZUDXz1kRaWdx
+=/Vfy
 -----END PGP SIGNATURE-----
 
---===============2543703294882249513==--
+--===============1620871500272965694==--
