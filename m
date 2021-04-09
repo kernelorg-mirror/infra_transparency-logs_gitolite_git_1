@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6978616662833714991=="
+Content-Type: multipart/mixed; boundary="===============1360562501466009925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 09 Apr 2021 15:49:21 -0000
-Message-Id: <161798336189.12119.2664106755351864687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 09 Apr 2021 15:49:29 -0000
+Message-Id: <161798336921.12234.10795701571589819008@gitolite.kernel.org>
 
---===============6978616662833714991==
+--===============1360562501466009925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/spi-5.13
     old: 5fed9fe5b41aea58e5b32be506dc50c9ab9a0e4d
     new: 828b480977421e9fbe93ecbdc65689ec7cc1e834
     log: revlist-5fed9fe5b41a-828b48097742.txt
 
---===============6978616662833714991==
+--===============1360562501466009925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1617983343 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1617983359-95538fd2e8fb5a3fbf99b3b44bd8f11cbfa3afc3
+pusher C3F436CA30F5D8EB 1617983351 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1617983366-891c9943ca27ffe0dc48c73ccd103bf0c6cbe458
 
-5fed9fe5b41aea58e5b32be506dc50c9ab9a0e4d 828b480977421e9fbe93ecbdc65689ec7cc1e834 refs/heads/for-5.13
+5fed9fe5b41aea58e5b32be506dc50c9ab9a0e4d 828b480977421e9fbe93ecbdc65689ec7cc1e834 refs/heads/spi-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBwd28ACgkQJNaLcl1U
-h9D8Jgf9EZhQYXmB8cIJwvvNvNCv/H4awepaVzNwoE0jUr2rauq9PRqVHx4mDVZB
-kcJkEIQ9EGYFfsKrb4RdrZjV1zUr8Gjsf2e5lfVNiKANiLpZZf4x0xZrDrKOrR89
-o/bCBYY+gnrHB0RW8C3O1tipuwy/SF+nWx7FYcb2xcyWtyekgvbKHun/cXnrBasJ
-excCSMC+XDMBdZnjTTYaLxGhYICxCsN+e59c0wXmCtZCKjJqHnNP8H/crYTY1GQw
-Kz2D0C8IJ2mhTGa8pY5LhbL09saq9gh6T4lbnMB8dzGpbG9SDpw1C8fH620A43LE
-wPxUPNfwvuw2Hi1HlKh9220Q7f3aOQ==
-=gtgV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmBwd3cACgkQJNaLcl1U
+h9Bfigf+PEEoPh032Y+j6ZZX00nPHrDBAzGkUNXDNDo2GTQjI7fNJr9Z/WnVlWev
+3b575n/pd7jVDyC2TnC0Feqb+NbQ9mWRX5l3i61ph5wF/5me1qBXKMAxJ09iO5B8
+SahUWnNFi+quBBdPtYZlaCSA++WPgHbBD1sVLz/cMwIErJG7zYRwIle6M3HvnLdh
+bWUvhbwYHzGQD+qnladaOa5FxVRyN0RwBbQFa1ylSJoIG/CIK98JPsFFZwYcBiCk
+eqYvU+PL8j4Z6zYzZs2BKR7WhhteY5l7OWaQ1bUf3JO9Zc4biA00+cfuIU1KlQ0/
+/9Gz4XIhlXyYlOS1BsDt/KJ4O3agpw==
+=zh6g
 -----END PGP SIGNATURE-----
 
---===============6978616662833714991==
+--===============1360562501466009925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ cec77e0a249892ceb10061bf17b63f9fb111d870 spi: qup: fix PM reference leak in spi_
 30700a057ce84e6f18f4cc3627570f8b2ae3c17f spi: davinci: Use device_get_match_data() helper
 828b480977421e9fbe93ecbdc65689ec7cc1e834 Merge series "spi: spi-zynqmp-gpspi: fix some issues" from quanyang.wang@windriver.com Quanyang Wang <quanyang.wang@windriver.com>:
 
---===============6978616662833714991==--
+--===============1360562501466009925==--
