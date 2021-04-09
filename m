@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8956161526371889328=="
+Content-Type: multipart/mixed; boundary="===============5192299754135321314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 09 Apr 2021 09:53:03 -0000
-Message-Id: <161796198327.27913.5973383719720998138@gitolite.kernel.org>
+Date: Fri, 09 Apr 2021 09:53:05 -0000
+Message-Id: <161796198545.28063.17564034187171983666@gitolite.kernel.org>
 
---===============8956161526371889328==
+--===============5192299754135321314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,67 +16,65 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: a0c646821e9dedc5368abd2f71f50ebe2c351d19
-    new: 52dca0094c23c3f6c73da63a8861764f778940d5
-    log: revlist-a0c646821e9d-52dca0094c23.txt
+  - ref: refs/heads/linux-4.19.y
+    old: b4454811f122c6a0a330ced6b854e6ef32c37857
+    new: 6aba908ea95f2196c499c922cfae662412d5040a
+    log: revlist-b4454811f122-6aba908ea95f.txt
 
---===============8956161526371889328==
+--===============5192299754135321314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617961982 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617961983 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1617961981-2d0f2da2617a4ae9d9257f4f44aed2f6f04a3d06
+nonce 1617961982-369551f44246443d02362cc81c10d8062ecca544
 
-a0c646821e9dedc5368abd2f71f50ebe2c351d19 52dca0094c23c3f6c73da63a8861764f778940d5 refs/heads/linux-4.4.y
+b4454811f122c6a0a330ced6b854e6ef32c37857 6aba908ea95f2196c499c922cfae662412d5040a refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBwI/4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I38QALCrQYCCJ84xosFdJJvD
-obYi4S1ZUYSmteqoAmHqmy87Upcf+ToCLDanXz1AZPokKcsnWJZoIyjWlVo/0rZ/
-7U9ka5SPIPIh7Lrn/x+EeRlWgDxim9sve9yl1H+qR7IiFOmI1x/ZHb7srU+Ztf+c
-wMg1TU3epGh7Ja6w05IItKVwasPkXIxRaH4FBwf6HDzgueZQ4QDRb+yav9GRVM+Q
-u9eFVSHSnDytzj1L/54Cu/R11D2ccqOHARPxF3auMuVOxjhmSg1h+BBbBPf/8rXT
-Yt9AdsguqZGfj5weDYQowK3xVEP/jOIWQpfkK2pG/X9xkVxGrIlgrdG7JSsu6dcH
-H4z/O2mRo6Q8zHWppi0PVX1w2bnBFolCs0N+V2/kNeF/jiiWcWizb6x+HsZAQGHH
-4CdGMlKDcw5Hcg8+CTRVO1i5qVYCReWCmdIplhwcMPm644E0m5bkdXKgU+mWR+J2
-ZZRZkRlTaKad/i9hemygIIDApJDCOO19DUjTsNgc176JnE3Sn/Xj0WCR73j+RE6f
-a7WwLOqoqEYM7Vvrg7yqv01uvYRGF+Q4fF7k6i4pKYzzWjxotFjtI6gp1YYex6Jf
-VSZMQMah+4KFGhsONGkZhm/qMHsUev2IP/d6SRpIFCJkU9+NQas5ZeDsxZz2lMKS
-9s6x89GIgx30F+fYgHbkJW2E
-=Pm9I
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBwI/8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HDAP/0oyAGPuIwEmmITwuwsU
+KmRG4Ha30kuZyUGYETYWLZHvIfNB1tumyjpnpKGyazMLKWur6fNFMF2c9Y6dar2H
+DFzrGcXbzmN1VsQaVPRr40VHVXC2LfUDctSIpUH1H8IYRVnuM/sm+Xa8SKqjyDZ3
+yca2LFDGC3kWC77+elF1LvvQngHmUQoSYTqueh1HB5IgXJDMAiaP+rMpUiWXiySN
+1CRS6a8eZmSEE08pLLg9E8XxziivJGtjRhxzZMV6ZThc9D5CIDVIR4OOkmUUpY6a
+QqJgfs52fNIbnapssXILvcaGtje+DVuxGkWozTrm+GkQNqrS4aOntH1t8oTAhtHd
+nL4B+FabGH5Vv9/qhlQR/NP8ltxz0clNYIMlU8+VE8lGgduWqkq08xgNzN1TFEv2
+ZQmSQ3p46l6KLrudEGHaTuUm4QGKW6MCbPTrJI0Lv8zzxlk2mXG0OmZDQch03A1w
+c2mz/IV76jsByq8zny/spPS5fqvXz9Z3PnqE2yY9v47zhgLw/oU/sdUzHAz8VE8W
+nKNXC66PvKboaLBRkA09XZ9+L4ecARyleVWbf0rUm8XXJ+LAMd8UlpInTJmyv9rt
+qkpdIRrYlXOrsiqnM8DRkJ8sgv9UX3b5LF6s05B+aGNZlakPHHfijZOPZcOjzsLP
+8g7hJE19qtKfkFq0rgWodBbm
+=jugq
 -----END PGP SIGNATURE-----
 
---===============8956161526371889328==
+--===============5192299754135321314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0c646821e9d-52dca0094c23.txt
+Content-Disposition: attachment; filename=revlist-b4454811f122-6aba908ea95f.txt
 
-26b9b4adb832f90a8de3be1f1a39cc08112b7424 net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
-7df2984737ce567e2769c647c71c0158d921843e mISDN: fix crash in fritzpci
-3db050bcfb67a9d9119b0e32aae8a8a627cf34d5 mac80211: choose first enabled channel for monitor
-89abd090b81d25fcb1d5261a291b99c7db8cfe57 x86/build: Turn off -fcf-protection for realmode targets
-213cbee37bc84544b851b71e5e83dff2fb3c17c9 ia64: mca: allocate early mca with GFP_ATOMIC
-936f7532a3428b654b8da7aa33b25cf963905d86 cifs: revalidate mapping when we open files for SMB1 POSIX
-9e4b20cd0bd9e5113a2f5249f3ac797fe3ae8388 cifs: Silently ignore unknown oplock break handle
-9088116c3b4952ef579ca08e1c9f3cc82c50cb32 bpf, x86: Validate computation of branch displacements for x86-64
-a6420b19ddd40e190ab810e6e7361ba0d336eeaa ALSA: hda/realtek - Fix pincfg for Dell XPS 13 9370
-ef9a87a7736ff7ce3a09bf4f5ed1c148ee97769a mtd: rawnand: tmio: Fix the probe error path
-1d07e76737d3506703e37a70aa9118485c6e9e3a mtd: rawnand: socrates: Fix the probe error path
-2f8659c865ab95ae40399576ba5d24c1fa067f8c mtd: rawnand: sharpsl: Fix the probe error path
-6e165119b3d0eb845b9866c436f7c1ebd6060cc0 mtd: rawnand: plat_nand: Fix the probe error path
-e2657a9a7d3f0fc818068bc94eb3bf6197c0247b mtd: rawnand: pasemi: Fix the probe error path
-7b9c26a203609efd0aaf709e830e2e84d004194e mtd: rawnand: orion: Fix the probe error path
-933e193574a80a593d34099ebf7d349a3936e842 mtd: rawnand: diskonchip: Fix the probe error path
-ef8e1c7a995a01e82930d28926225d7c7925d27e tracing: Add a vmalloc_sync_mappings() for safe measure
-a4eae7e8580173ce9f901ae4ffd7cde56c851e74 init/Kconfig: make COMPILE_TEST depend on !UML
-ac88b1949bf0575b8a231228f68283c309b51aaf init/Kconfig: make COMPILE_TEST depend on !S390
-ae11a8b3fdbcda7e418bab99b5e053571d74f99c init/Kconfig: make COMPILE_TEST depend on HAS_IOMEM
-52dca0094c23c3f6c73da63a8861764f778940d5 Linux 4.4.266-rc1
+25d007fb1e5cd699aff468dbccfbc24e83af60cf ARM: dts: am33xx: add aliases for mmc interfaces
+412fd86da9ca256cb5849877a38a307bc04e642b bus: ti-sysc: Fix warning on unbind if reset is not deasserted
+ef9fc96ac9277cce0b773ea9897d61c79f71008c platform/x86: intel-hid: Support Lenovo ThinkPad X1 Tablet Gen 2
+31ff8fcf0fe9a39cb27dee0880872250e441eeac net: pxa168_eth: Fix a potential data race in pxa168_eth_remove
+71240cef89f6798ed9041a75b478560423bc5ca0 mISDN: fix crash in fritzpci
+2d07245eebcb182201cc3d85ab3e7a7b8eec7eac mac80211: choose first enabled channel for monitor
+2e61314304e13b281a35508686108255957bb3b7 drm/msm: Ratelimit invalid-fence message
+31c96a803270404e76b27b760fad3f63816f8408 platform/x86: thinkpad_acpi: Allow the FnLock LED to change state
+6b293508c0447798e36e34870b36b61f1bd21c16 x86/build: Turn off -fcf-protection for realmode targets
+7a6717aebaa47b5d52903fed88b1d9cdd5e1addf scsi: target: pscsi: Clean up after failure in pscsi_map_sg()
+bd21ef2b6dc9b6b498fd70009ac76ded484ddce0 ia64: mca: allocate early mca with GFP_ATOMIC
+be2a79899fe57164968889f029c977cde3234557 ia64: fix format strings for err_inject
+727c8c0b9e9c68db7a8f8568a847b616047294fa cifs: revalidate mapping when we open files for SMB1 POSIX
+8271579a2decfb65cf54bcaa9d1f486173b0c0e1 cifs: Silently ignore unknown oplock break handle
+2695c388fb705c38562cdd95a50bd3ea926f684d bpf, x86: Validate computation of branch displacements for x86-64
+aa490bac3f110bcbba5a034cce0eb76d7991a0f8 bpf, x86: Validate computation of branch displacements for x86-32
+799fb4c4745ab26a46f00144bbb397b752057d3f init/Kconfig: make COMPILE_TEST depend on !S390
+48161914d761c2d56cc3d6d61b62161223f715cd init/Kconfig: make COMPILE_TEST depend on HAS_IOMEM
+6aba908ea95f2196c499c922cfae662412d5040a Linux 4.19.186-rc1
 
---===============8956161526371889328==--
+--===============5192299754135321314==--
