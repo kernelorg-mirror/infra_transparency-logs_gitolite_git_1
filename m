@@ -1,89 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============7703158422598575061=="
+Content-Type: multipart/mixed; boundary="===============2573624591663397692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 09 Apr 2021 19:57:10 -0000
-Message-Id: <161799823070.9928.8093271247668623686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 09 Apr 2021 19:58:32 -0000
+Message-Id: <161799831220.10436.6888262753539954383@gitolite.kernel.org>
 
---===============7703158422598575061==
+--===============2573624591663397692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: f0e6103e023e0ede67848ddcd6b07044574f4fd3
-    new: 76c46d152106e594926a21e40c95ec58d80ec264
-    log: revlist-f0e6103e023e-76c46d152106.txt
+  - ref: refs/heads/master
+    old: 17e7124aad766b3f158943acb51467f86220afe9
+    new: a85f165e1f38c0a5a6e671ce8126a8cafe35af09
+    log: revlist-17e7124aad76-a85f165e1f38.txt
 
---===============7703158422598575061==
+--===============2573624591663397692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0e6103e023e-76c46d152106.txt
+Content-Disposition: attachment; filename=revlist-17e7124aad76-a85f165e1f38.txt
 
-888771a9d04ff7bf96e5ecad37969002c88a95d7 arm64: dts: qcom: sm8250: fix display nodes
-9cf3ebd16eae7957d15e1c08944054fe9035ca8b arm64: dts: qcom: sm8150: add other QUP nodes and iommus
-81bee6953b581cf35f9a2cd7944dc220630df441 arm64: dts: qcom: sm8150: add i2c nodes
-20f9d94e680fb976eb0d7ed253bf791ef3bfc4c9 arm64: dts: qcom: sm8350: Add thermal zones and throttling support
-99d52c872d34b9d75fccab1782474cde45426708 MAINTAINERS: add another entry for ARM/QUALCOMM SUPPORT
-8058dfa05ab765153f20020fc4ea3b296e391a00 soc: qcom: address kernel-doc warnings
-73c9729f0fb5dffd853e2534432d78c9b173b713 ARM: dts: qcom: msm8974-hammerhead: add mount matrix for IMU
-9d816b423dab5b59beec5e39b97428feac599ba7 ARM: dts: qcom: msm8974-lge-nexus5: correct fuel gauge interrupt trigger level
-5fde3361ba57a9b4eb560dabf859176909d61004 ARM: dts: qcom: msm8974-samsung-klte: correct fuel gauge interrupt trigger level
-644e4d972d148628b6094258af913b6b38f4da81 arm64: dts: qcom: sdm845: add required clocks on the gcc
-60eb631f5d6eb52fbb5ee257017fb622bc60915f arm64: dts: qcom: sc7280: Add RPMh regulators for sc7280-idp
-24e3eb2e32c688c2c5f6b92bc899b22eea5d5f60 arm64: dts: qcom: sm8350: Add support for PRNG EE
-da6b24828d5734128b872dc5319e34d764449098 arm64: dts: qcom: sm8350: Add interconnects
-5b9ec225d4ed222c411c7fbd9b6c781448aa8576 arm64: dts: qcom: sm8250: Add videocc DT node
-fa245b3f06cd0d3f47799d3fddd1b124806bfa06 arm64: dts: qcom: sm8250: Add venus DT node
-5aa0d1becd5b3e010302ab1c703fe3357cc44f2e arm64: dts: qcom: sm8250: switch usb1 qmp phy to USB3+DP mode
-9b3153248fbac78fdaaa6e154dadb1f29fcbb81c arm64: dts: qcom: use dp_phy to provide clocks to dispcc
-29bd62ee951b6ee8c0f20f924b80523cf4f179c0 arm64: dts: qcom: sc7180-trogdor: Add lpass dai link for I2S driver
-f158e7a378f2b375c19cda6a1f35783b7c0615ad arm64: dts: qcom: Add sound node for sc7180-trogdor-coachz
-f66965b06b15a02c0c7da3e5424b029a094a4862 arm64: dts: qcom: Move rmtfs memory region
-03041cd25d9858649accab60395c613aa97b7d5b arm64: dts: qcom: msm8998: Disable MSS remoteproc by default
-47498916afea14cee97d8ff137ad68ea67c15784 arm64: dts: qcom: Add support for OnePlus 5/5T
-0392968dbe099d343c676ea8fd1e878f1fd4682a arm64: dts: qcom: sc7280: Add device tree node for LLCC
-2257fac94bc24d502fca8487517d4cf617f7041b arm64: dts: qcom: sc7280: Add IPCC for SC7280 SoC
-208979a8f9cb8ea2a453f043b4a91cf753a98e37 arm64: dts: qcom: sc7280: Add AOSS QMP node
-544cebe1895638a95ec0cd9e046e707a622592df arm64: dts: qcom: sc7280: Add Coresight support
-0e5a6f27036e93110d3710d489fcc1408a674e62 arm64: dts: qcom: sdm845-xiaomi-beryllium: Add DSI and panel bits
-f553ba158109a4c5b2e0f704fe5b9316375a1a9a dt-bindings: soc: qcom: wcnss: Add firmware-name property
-ac3f2784200d490558882c83c25a2d38270b02a2 soc: qcom: wcnss_ctrl: Introduce local variable "dev"
-82ec0c290d1a731a2b33b8a713c5bc96b03fb2d3 soc: qcom: wcnss_ctrl: Allow reading firmware-name from DT
-7443ff06da45aa68d63dd8c9c173470ba971c56a arm64: dts: sdm845-db845c: make firmware filenames follow linux-firmware
-83bbdec03fad56c0fad7dab10c9124c2d2999526 ARM: dts: qcom: msm8974: add blsp2_uart8
-885aae6860fae1eed38f5cc1ac09a40e4896a38c ARM: dts: qcom: msm8974-klte: Add bluetooth support
-9d11af8b06a811c5c4878625f51ce109e2af4e80 firmware: qcom_scm: Make __qcom_scm_is_call_available() return bool
-f6ea568f0ddcdfad52807110ed8983e610f0e03b firmware: qcom_scm: Reduce locking section for __get_convention()
-257f2935cbbf14b16912c635fcd8ff43345c953b firmware: qcom_scm: Workaround lack of "is available" call on SC7180
-87abf2ba3846d28e4b5f0e5f9cef873b4352a0a9 firmware: qcom_scm: Suppress sysfs bind attributes
-e1cd92da0b33212de5a3da3e913767bd1666dc43 firmware: qcom_scm: Fix kernel-doc function names to match
-7d9158bcb34adf5134a8704928722b6b0bac691d arm64: dts: meson: remove extra tab from ODROID N2/N2+ ext_mdio node
-cfa303d99e0692179d2bfbb3287a9176bc1cef1e arm64: dts: meson: add saradc node to ODROID N2/N2+
-412c8fa8c3748cc0500b4c86a47dd28254f015f1 arm64: dts: meson: add GPIO line names to ODROID N2/N2+
-769738fc49bb578e05d404b481a9241d18147d86 soc: qcom: pdr: Fix error return code in pdr_register_listener
-8385119b3295fa87c43a80faed5644bbdab02b8c arm64: dts: qcom: msm8916: Add GICv2 hypervisor registers/interrupt
-7178d4cc0702bfe6a7e0f21e37d6e3dfe8e40f11 arm64: dts: qcom: update usb qmp phy clock-cells property
-84168d1b54e76a1bcb5192991adde5176abe02e3 soc: qcom: mdt_loader: Validate that p_filesz < p_memsz
-0648c55e3a21ccd816e99b6600d6199fbf39d23a soc: qcom: mdt_loader: Detect truncated read of segments
-36841008059caec9667459a7e126efac6379676b clk: socfpga: fix iomem pointer cast on 64-bit
-7d0b91147c91296187e59ca8211612be0b8728c3 MAINTAINERS: Update BCM2711/BCM2335 maintainer's mail
-0072f6c37f02071821eb2135b80daa404d783704 mailmap: Update email address for Nicolas Saenz
-e8adf27e9766525ebedb8e6607c023997f93c353 Merge tag 'qcom-dts-for-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/dt
-a8f6ba28257ab6fcf08138496afdcb2d6de3955c Merge tag 'qcom-arm64-for-5.13-2' of git://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/dt
-db7a033f2b1f54c46244efe54687fe8f4b9b7c21 Merge tag 'amlogic-dt64-2' of git://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-amlogic into arm/dt
-30be8446db39be8dc52fc8cd2cb601d3d6319e9d Merge tag 'qcom-drivers-for-5.13-2' of git://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/drivers
-f72de385f8c38bc76269205d3a7d09d446829d02 MAINTAINERS: Update ARM/UniPhier SoCs maintainers and status
-d92e5e32fb4fce7ae939ad322aad77955dd5dcda Merge tag 'arm-soc/for-5.13/maintainers' of https://github.com/Broadcom/stblinux into arm/soc
-33e53444933f1c433cfa15bafa04fc81753f95fc Merge branch 'arm/dt' into for-next
-75914eda8c94a649fa6121b07c138658d347302f Merge branch 'arm/drivers' into for-next
-ad44da3b4db5e087cf0197724a72792bad72ff4e Merge branch 'arm/soc' into for-next
-76c46d152106e594926a21e40c95ec58d80ec264 soc: document merges
+7029e783027706b427bbfbdf8558252c1dac6fa0 remoteproc: qcom: pil_info: avoid 64-bit division
+5f140174988edc739530ed9f2220e458a488b10a MAINTAINERS: Add co-maintainer for remoteproc/RPMSG subsystems
+e6d9423d31b2f9bdd0220fd0584e3bb6ed2c4e52 remoteproc: pru: Fix loading of GNU Binutils ELF
+9afeefcf06fc7b4bdab06a6e2cb06745bded34dd remoteproc: pru: Fix firmware loading crashes on K3 SoCs
+52762efa2b256ed1c5274e5177cbd52ee11a2f6a gpu/xen: Fix a use after free in xen_drm_drv_init
+014305d001987a0eeada6bac610a8665f92aae24 drivers: gpu: drm: xen_drm_front_drm_info is declared twice
+5620b135aea49a8f41c86aaecfcb1598a7774121 drm/msm: Set drvdata to NULL when msm_drm_init() fails
+2b0b219e5ff8bcc673d3a2cb6f327b3c62c5637d drm/msm: Fix removal of valid error case when checking speed_bin
+9fbd3088351b92e8c2cef6e37a39decb12a8d5bb drm/msm: Fix a5xx/a6xx timestamps
+6ddbfa1f5adbd5dea14ff66778ca58257f09f17d drm/msm: a6xx: fix version check for the A650 SQE microcode
+12aca1ce9ee33af3751aec5e55a5900747cbdd4b drm/msm/disp/dpu1: program 3d_merge only if block is attached
+442dc00f82a9727dc0c48c44f792c168f593c6df selinux: make nslot handling in avtab more robust
+d8f5f0ea5b86300390b026b6c6e7836b7150814a selinux: fix cond_list corruption when changing booleans
+3b943360a20f3e4b2e0133c7cd7138b51fd93de6 drm/panel: panel-dsi-cm: disable TE for now
+d120198bd5ff1d41808b6914e1eb89aff937415c xen/evtchn: Change irq_info lock to raw_spinlock_t
+fa26d0c778b432d3d9814ea82552e813b33eeb5c ACPI: processor: Fix build when CONFIG_ACPI_PROCESSOR=m
+df7232c4c676be29f1cf45058ec156c1183539ff drm/amd/display: Add missing mask for DCN3
+b6a37a93c9ac3900987c79b726d0bb3699d8db4e drm/i915: Fix invalid access to ACPI _DSM objects
+9ad6e9cb39c66366bf7b9aece114aca277981a1f selinux: fix race between old and new sidtab
+1b0b6e939f112949089e32ec89fd27796677263a drm/amdgpu: Fix size overflow
+2efc021060c2aa55e1e8f7b98249d3ea63232fc7 drm/radeon: Fix size overflow
+cdcc108a2aced5f9cbc45920e29bf49819e5477f drm/amdgpu/smu7: fix CAC setting on TOPAZ
+2bbbb07da802a5b5e2252841b754292cc834e8c9 Merge tag 'amd-drm-fixes-5.12-2021-04-08' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+35d65ab3fdba1bdecde9ac3424d6d634ea038729 drm/vc4: plane: Remove redundant assignment
+eb9dfdd1ed40357b99a4201c8534c58c562e48c9 drm/vc4: crtc: Reduce PV fifo threshold on hvs4
+2e99cd7a313a0d97b62ccf320c72ef70179dc3f3 Merge tag 'drm-msm-fixes-2021-04-02' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
+895915226a598394fe9bf57fe97612bdfcb2fb86 Bluetooth: btusb: Revert Fix the autosuspend enable and disable
+d084d996aaf53c0cc583dc75a4fc2a67fe485846 vdpa/mlx5: should exclude header length and fcs from mtu
+d13a15d544ce51c0d83744ccb638c954e645feea vdpa/mlx5: Use the correct dma device when registering memory
+b2ae0a2db8a2d42a643590c4935faf61fedf553b vdpa/mlx5: Retrieve BAR address suitable any function
+4b454a82418dd76d8c0590bb3f7a99a63ea57dc5 vdpa/mlx5: Fix wrong use of bit numbers
+bc04d93ea30a0a8eb2a2648b848cef35d1f6f798 vdpa/mlx5: Fix suspend/resume index restoration
+ccd6c35c72c771616c37d1978e02a982da0678ef Merge tag 'acpi-5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+0b76088799cc8db1ea9c626e54e7bc65f605e65f Merge tag 'for-linus-5.12b-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+3766fcf5d318046e0ae58659e03ead35d40cb9dd Merge tag 'rproc-v5.12-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/andersson/remoteproc
+189fefc7a4f0401d0f799de96b772319a6541fc1 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+60144b23c94216b4aca6fba90dca9349183f39e1 Merge tag 'selinux-pr-20210409' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+d416bd0bf7efc733f80cbd9b1e387368965ef121 Merge tag 'drm-misc-fixes-2021-04-09' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
+bd119f471299c8692a00b2f5e9bba8e3b81c3466 Merge tag 'drm-intel-fixes-2021-04-09' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+a85f165e1f38c0a5a6e671ce8126a8cafe35af09 Merge tag 'drm-fixes-2021-04-10' of git://anongit.freedesktop.org/drm/drm
 
---===============7703158422598575061==--
+--===============2573624591663397692==--
