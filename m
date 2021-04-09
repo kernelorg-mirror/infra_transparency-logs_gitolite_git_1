@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 09 Apr 2021 17:49:20 -0000
-Message-Id: <161799056087.26413.4875035563135585809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
+Date: Fri, 09 Apr 2021 17:53:51 -0000
+Message-Id: <161799083181.30279.10680603957255617091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/khilman/linux
+user: khilman
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 02bb6badc9fb03056eb405e189efa62b1825782b
-    new: e13013d489cfaee08021fe566a48da8aef4a060d
+  - ref: refs/heads/to-build
+    old: b8d4083299478ad156a864c1e416124472272899
+    new: 6373d6d2ee83f097e83a29710d130dd27e3f8b04
     log: |
-         314630017b3ebb04c89f0b1d1acf8392dd092391 hwmon: (amd_energy) Use unified function to read energy data
-         e13013d489cfaee08021fe566a48da8aef4a060d hwmon: (amd_energy) Restore visibility of energy counters
+         6373d6d2ee83f097e83a29710d130dd27e3f8b04 Merge branch 'v5.13/dt64' into tmp/aml-rebuild
          
