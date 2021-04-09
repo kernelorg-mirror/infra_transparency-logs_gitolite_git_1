@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 09 Apr 2021 11:22:45 -0000
-Message-Id: <161796736537.19296.9464216967746273001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 09 Apr 2021 11:24:53 -0000
+Message-Id: <161796749312.20030.6179586274609973408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: af00704e3cc082e51ce61dbeba41fc3ae97788dc
-    new: fae3d1ad47ad243e622e1c258387da9226a3247e
+  - ref: refs/heads/locking/core
+    old: a51a327f3bcdcb1a37ed9325ad07e1456cd4d426
+    new: 9432bbd969c667fc9c4b1c140c5a745ff2a7b540
     log: |
-         fae3d1ad47ad243e622e1c258387da9226a3247e Fri 09 Apr 2021 11:22:21 AM UTC
+         7d95f22798ecea513f37b792b39fec4bcf20fec3 static_call: Fix unused variable warn w/o MODULE
+         9432bbd969c667fc9c4b1c140c5a745ff2a7b540 static_call: Relax static_call_update() function argument type
          
