@@ -1,50 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4196243833797422415=="
+Content-Type: multipart/mixed; boundary="===============7363948745212866551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 09 Apr 2021 15:49:50 -0000
-Message-Id: <161798339074.12773.6894400228732739207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 09 Apr 2021 15:50:12 -0000
+Message-Id: <161798341250.15087.18052336476272240290@gitolite.kernel.org>
 
---===============4196243833797422415==
+--===============7363948745212866551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 5247caa0b3b4cd1a1a6bec73c1475731af08e969
-    new: 7a418ec64bc236ec91626eb0739e8a70cdf896fb
+    old: f7fa12400777c82653e2ecfa8aec767c16e3d5e0
+    new: 9d32476c4a3f4c7d3abbf0ca38a827c307ebaf6f
     log: |
-         7a418ec64bc236ec91626eb0739e8a70cdf896fb Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+         9d32476c4a3f4c7d3abbf0ca38a827c307ebaf6f Merge remote-tracking branch 'spi/for-5.12' into spi-linus
          
   - ref: refs/heads/for-next
-    old: d965e63e98eeaf511179cd17c42125a8384d7c3c
-    new: d16cca79705eb84d13a536ed439f61debaf8ab61
-    log: revlist-d965e63e98ee-d16cca79705e.txt
+    old: 9cd38950dce86cabd8c262fd2f437743882cfeea
+    new: b716a5a87afa6d80693a58476b689703aa890605
+    log: revlist-9cd38950dce8-b716a5a87afa.txt
 
---===============4196243833797422415==
+--===============7363948745212866551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d965e63e98ee-d16cca79705e.txt
+Content-Disposition: attachment; filename=revlist-9cd38950dce8-b716a5a87afa.txt
 
-3e075e842899779bd321520a3524a278442467d0 ASoC: amd: raven: acp3x-i2s: Constify static struct snd_soc_dai_ops
-45475bf60cc1d42da229a0aa757180c88bab8d22 ASoC: soc-compress: lock pcm_mutex to resolve lockdep error
-857b602a3424a7d9ef875f8f137ddcb68de41c6f ASoC: codecs: lpass-rx-macro: constify static struct snd_soc_dai_ops
-a457dd92d14acdf3dd64285f04ed9225d14d195a ASoC: Intel: KMB: Constify static struct snd_soc_dai_ops
-1f34084cc85d654a542c547df6714dae8a32d3c9 ASoC: rt715-sdca: Constify static struct snd_soc_dai_ops
-e994cf82689465ddae2dfa9c9bc69616a0003649 ASoC: wcd934x: constify static struct snd_soc_dai_ops
-3cab801e8b94280264ba23ab0683cd3a9c13ca9f ASoC: rt711-sdca: Constify static struct snd_soc_dai_ops
-4f3b0f8e364029f2674875396f0e65a98ef84498 ASoC: rt1019: remove registers to sync with rt1019 datasheet
-a893a666b5b9a8c9d331df4afa72f23f4d4f83fd ASoC: codecs: lpass-wsa-macro: constify static struct snd_soc_dai_ops
-4150cc7306fa84577dd0c33f158949b0f085aea0 ASoC: amd: renoir: acp3x-pdm-dma: constify static struct snd_soc_dai_ops
-81df40a0807fed36f0f1f1eaeef2a780773934c2 ASoC: codecs: lpass-tx-macro: constify static struct snd_soc_dai_ops
-33e12dea130d4b0abbaa9ae944e696d1a9d5261b ASoC: wcd9335: constify static struct snd_soc_dai_ops
-7a418ec64bc236ec91626eb0739e8a70cdf896fb Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
-d16cca79705eb84d13a536ed439f61debaf8ab61 Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
+a16bff68b75fd082d36aa0b14b540bd7a3ebebbd spi: spi-zynqmp-gqspi: use wait_for_completion_timeout to make zynqmp_qspi_exec_op not interruptible
+a0f65be6e880a14d3445b75e7dc03d7d015fc922 spi: spi-zynqmp-gqspi: add mutex locking for exec_op
+8ad07d79bd56a531990a1a3f3f1c0eb19d2de806 spi: spi-zynqmp-gqspi: transmit dummy circles by using the controller's internal functionality
+41d310930084502433fcb3c4baf219e7424b7734 spi: spi-zynqmp-gqspi: fix incorrect operating mode in zynqmp_qspi_read_op
+9b844b087124c1538d05f40fda8a4fec75af55be spi: dln2: Fix reference leak to master
+59ebbe40fb51e307032ae7f63b2749fad2d4635a spi: simplify devm_spi_register_controller
+a03675497970a93fcf25d81d9d92a59c2d7377a7 spi: fsl-lpspi: Fix PM reference leak in lpspi_prepare_xfer_hardware()
+a23faea76d4cf5f75decb574491e66f9ecd707e7 spi: omap-100k: Fix reference leak to master
+4df2f5e1372e9eec8f9e1b4a3025b9be23487d36 spi: imx: add a check for speed_hz before calculating the clock
+e980048263ba72dcdbbf45d59e84c02001340f75 spi: orion: set devdata properly as it is being used later
+cec77e0a249892ceb10061bf17b63f9fb111d870 spi: qup: fix PM reference leak in spi_qup_remove()
+30700a057ce84e6f18f4cc3627570f8b2ae3c17f spi: davinci: Use device_get_match_data() helper
+828b480977421e9fbe93ecbdc65689ec7cc1e834 Merge series "spi: spi-zynqmp-gpspi: fix some issues" from quanyang.wang@windriver.com Quanyang Wang <quanyang.wang@windriver.com>:
+9d32476c4a3f4c7d3abbf0ca38a827c307ebaf6f Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+b716a5a87afa6d80693a58476b689703aa890605 Merge remote-tracking branch 'spi/for-5.13' into spi-next
 
---===============4196243833797422415==--
+--===============7363948745212866551==--
