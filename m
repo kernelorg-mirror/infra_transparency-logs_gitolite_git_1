@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 09 Apr 2021 19:11:41 -0000
-Message-Id: <161799550106.12885.3613381420951778011@gitolite.kernel.org>
+Date: Fri, 09 Apr 2021 19:13:03 -0000
+Message-Id: <161799558386.13364.14799785408638529477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: 3798ea1d52484e5e3ecf015126a97850268e8fd4
+  - ref: refs/heads/dev
+    old: df7bb621ce5ad12c32e2518f8a564d3ea29149c7
     new: aa16e72985bbcce5895a7ca85aa2f42805b4365c
     log: |
          d52925fcbbe422b474a12ce4a231a97a50386fcb erofs: introduce multipage per-CPU buffers
