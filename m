@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Fri, 09 Apr 2021 18:20:55 -0000
-Message-Id: <161799245522.15339.4151555531409361890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Fri, 09 Apr 2021 18:33:21 -0000
+Message-Id: <161799320188.21629.6041916515633273173@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
-user: khilman
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: vishal
 changes:
-  - ref: refs/heads/integ
-    old: b8d4083299478ad156a864c1e416124472272899
-    new: 6373d6d2ee83f097e83a29710d130dd27e3f8b04
-    log: |
-         6373d6d2ee83f097e83a29710d130dd27e3f8b04 Merge branch 'v5.13/dt64' into tmp/aml-rebuild
-         
+  - ref: refs/heads/vv/test/cxl_acpi
+    old: 0000000000000000000000000000000000000000
+    new: b79693c72d199c8f92f59d06edbd53f25b6f3a17
