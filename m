@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtracefs
-Date: Fri, 09 Apr 2021 22:23:39 -0000
-Message-Id: <161800701960.1077.6077949810920250542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Fri, 09 Apr 2021 22:24:52 -0000
+Message-Id: <161800709265.1559.1658905315388097220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtracefs
+repo: pub/scm/utils/trace-cmd/trace-cmd
 user: rostedt
 changes:
-  - ref: refs/heads/libtracefs
-    old: e7d5fad186f9e5ad8875e4a1ad85afac04f8718c
-    new: 056a26a6f23eee895db6258d96baa27f60490ad4
+  - ref: refs/heads/master
+    old: 74c24e51d5e275b185ef123dbe58f69cd52dc395
+    new: d306516a966d19453c8b19519cbe3404bdb08873
     log: |
-         056a26a6f23eee895db6258d96baa27f60490ad4 libtracefs: Update libtracefs.pc when version changes
+         d306516a966d19453c8b19519cbe3404bdb08873 libtracecmd: Update libtracecmd.pc when version changes
          
