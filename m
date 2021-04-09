@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============7368330782432137380=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 09 Apr 2021 09:46:37 -0000
-Message-Id: <161796159739.22190.9516187340201196056@gitolite.kernel.org>
-
---===============7368330782432137380==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Fri, 09 Apr 2021 09:48:40 -0000
+Message-Id: <161796172047.22911.10627945802716027160@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: 465d6327f76ac351ba46a6579938709d8ea5efca
-    new: df2a22db3702b242cbbdfec814566a45622cd533
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: c3135d28a1e099bcc12c2c2a2a154275f49ce86b
+    new: dbbd49bade0548db87ceb1943951dea456af2e22
     log: |
-         df2a22db3702b242cbbdfec814566a45622cd533 4.9-stable patches
+         22592df194e31baf371906cc720da38fa0ab68f5 cpufreq: armada-37xx: Fix setting TBG parent for load levels
+         4e435a9dd26c46ac018997cc0562d50b1a96f372 clk: mvebu: armada-37xx-periph: remove .set_parent method for CPU PM clock
+         d118ac2062b5b8331c8768ac81e016617e0996ee cpufreq: armada-37xx: Fix the AVS value for load L1
+         4decb9187589f61fe9fc2bc4d9b01160b0a610c5 clk: mvebu: armada-37xx-periph: Fix switching CPU freq from 250 Mhz to 1 GHz
+         e93033aff684641f71a436ca7a9d2a742126baaf clk: mvebu: armada-37xx-periph: Fix workaround for switching from L1 to L0
+         92963903a8e11b9576eb7249f8e81eefa93b6f96 cpufreq: armada-37xx: Fix driver cleanup when registration failed
+         8bad3bf23cbc40abe1d24cec08a114df6facf858 cpufreq: armada-37xx: Fix determining base CPU frequency
+         5f23eb9dc0cd2a58bbfe887f335ad632368e530a cpufreq: armada-37xx: Remove cur_frequency variable
+         dbbd49bade0548db87ceb1943951dea456af2e22 cpufreq: armada-37xx: Fix module unloading
          
-
---===============7368330782432137380==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617961596 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1617961595-2088ea1a5ed35d049d27089df2c78e3b630354f2
-
-465d6327f76ac351ba46a6579938709d8ea5efca df2a22db3702b242cbbdfec814566a45622cd533 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBwInwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F2sP/0S9R86Nu1gKR24QK5ZW
-rn8pDsn8bSg8XushWWlX2D4FYUXDdIy4N4l+VnuzzAxmwM6vtF809WvNB5L8DNJz
-YJ9NL1uEKqVlKj1sf3zHgl/SLocUiQ4+9pTFtGketh6pPaCYKVrtHckuyepvG6gj
-TuRc17VFCW5A0+u49TiPbCp4f9I7xgB+ftttuuyaglY859KixQ/pJB5RV+r7SuIS
-FfUh6ywuWuHUY7kIUlj/ZxwrAjShSv141bSADNxtyQGYtbVgteq5VXC0pisNNGQd
-3kQDPGHkChZbH68h6VlRGlbDwmhaZZ5/0vQjEeq9uAJ/Spmr6T6x3zwK+koV42fi
-Z1fZyiF3reucNxsqNEOnJANxp79CYhP/F902raPsWbTMnzsXFK1I5Ta+YfNlhlt6
-TYgijFbTeV4hLmz8RkAReC7dJ+fLB0DoWEZDDRCJFpZzhoepzYT38e2S9A4x+RzQ
-vLvYWNe6jkJ34Fn3+oAlHntvid4Vs2VJHez74anPdwgY8WAkGq29RRNlsP6aALwE
-G7j6Kj1pmOqam9lnvyNSsdEPL/wxzVewZyTP9gz6zBQq8kzXX6BRceUNKKKPqEzr
-e9bQhPaAL8kkdfgk7rgrqp1bZQnMTmNjCrwe1mKzv1vuh+zCebK2ciCbQ89PvznN
-ILrnGPndREldoL1NPbcFo8Cn
-=9tqj
------END PGP SIGNATURE-----
-
---===============7368330782432137380==--
