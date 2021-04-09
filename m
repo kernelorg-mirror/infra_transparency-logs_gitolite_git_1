@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Fri, 09 Apr 2021 18:43:12 -0000
-Message-Id: <161799379254.27561.12672129047292793574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Fri, 09 Apr 2021 18:51:36 -0000
+Message-Id: <161799429633.1897.11360826898122225931@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/next-integrity
-    old: 5d5ef1af839d1188f0b97ca11e5e0aeab3925578
-    new: 282c0a4d15b6d44b4684e2a4e19785c9fbcc102f
+  - ref: refs/heads/erofs/bigpcluster
+    old: 3798ea1d52484e5e3ecf015126a97850268e8fd4
+    new: cc654497dbf4ccf27f4f849f84b5aaeb619d1fa7
     log: |
-         b31f2a495debc71bdfefefea8056ade429f79c4b keys: cleanup build time module signing keys
-         0165f4ca223b04bb032095753fadd28816dc435f ima: enable signing of modules with build time generated key
-         6cbdfb3d91bab122033bd2ecae8c259cb6e4f7d0 ima: enable loading of build time generated key on .ima keyring
-         60c8eb38c1b75e83194a07ec7acfe85852fcc0d8 Merge branch 'ima-module-signing-v4' into next-integrity
-         41d75dd96205ef409f20556021f6e44860f2acce ima: Fix function name error in comment.
-         282c0a4d15b6d44b4684e2a4e19785c9fbcc102f integrity: Add declarations to init_once void arguments.
+         7aef51a4363cc9505591780c845b99cae9f2afc5 erofs: introduce multipage per-CPU buffers
+         4eecc0400abacee46c7355e6444729d3bfe9fe3e erofs: introduce physical cluster slab pools
+         aad778a4e02990b5c3f8e7cef7c511a6e968a314 erofs: fix up inplace I/O pointer for big pcluster
+         193e20e0406f4e7915fc04435b594603626734fa erofs: add big physical cluster definition
+         8a9b95f189c3e53e0be70cede527be02a6ae563d erofs: adjust per-CPU buffers according to max_pclusterblks
+         bb25d5dd59bccc3fb2fcc43759faa2a31dc9327e erofs: support parsing big pcluster compress indexes
+         1b404afe4d0853cbd079aac065e6e1e82229354a erofs: support parsing big pcluster compact indexes
+         adb1e8c8afbd8178a94cfd80b8b47ddd673b5a41 erofs: support decompress big pcluster for lz4 backend
+         cc654497dbf4ccf27f4f849f84b5aaeb619d1fa7 erofs: enable big pcluster feature
          
