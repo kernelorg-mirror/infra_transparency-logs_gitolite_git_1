@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Fri, 09 Apr 2021 16:21:15 -0000
-Message-Id: <161798527557.1827.16107399423571324839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Fri, 09 Apr 2021 16:23:40 -0000
+Message-Id: <161798542030.2580.10586741432795136870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/tags/for-linus-5.12b-rc7-tag
+  - ref: refs/tags/qcom-dts-for-5.13
     old: 0000000000000000000000000000000000000000
-    new: da64f3a41f2e47804f8c453e9033928a1114f19f
+    new: a15472c5b6fc72ec5b2c3951e4021afda86ad789
