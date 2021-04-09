@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 09 Apr 2021 19:32:36 -0000
-Message-Id: <161799675654.26349.16804193265158401161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 09 Apr 2021 19:41:36 -0000
+Message-Id: <161799729612.31541.15428432217822076042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/devicetree-fixes-for-5.12-2
+  - ref: refs/heads/qcom/dt-2
     old: 0000000000000000000000000000000000000000
-    new: e867be7b73d124d1110ff6d60da10374a5bcbf0f
+    new: 885aae6860fae1eed38f5cc1ac09a40e4896a38c
