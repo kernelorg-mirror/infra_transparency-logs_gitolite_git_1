@@ -1,75 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============2401739432468533915=="
+Content-Type: multipart/mixed; boundary="===============6700590490541426959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 09 Apr 2021 06:30:52 -0000
-Message-Id: <161794985206.16907.11825999332664445311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 09 Apr 2021 06:31:35 -0000
+Message-Id: <161794989563.17189.5965406705057176916@gitolite.kernel.org>
 
---===============2401739432468533915==
+--===============6700590490541426959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: e76e8b56fe1ab1e9d28e341fac614ddb1a82f8e5
-    new: b195b20b7145bcae22ad261abc52d68336f5e913
-    log: revlist-e76e8b56fe1a-b195b20b7145.txt
+  - ref: refs/heads/staging-next
+    old: f9b9263a25dc3d2eaaa829e207434db6951ca7bc
+    new: 4e35b91390fcd13bf46e12acd3b6f94a082a6cf3
+    log: revlist-f9b9263a25dc-4e35b91390fc.txt
 
---===============2401739432468533915==
+--===============6700590490541426959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617949847 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1617949847-fbe5699a958c5c9547aa2a67f162ca423a39d093
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617949890 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1617949890-c65b242db3240adf472fe59560339295b2313c86
 
-e76e8b56fe1ab1e9d28e341fac614ddb1a82f8e5 b195b20b7145bcae22ad261abc52d68336f5e913 refs/heads/char-misc-next
+f9b9263a25dc3d2eaaa829e207434db6951ca7bc 4e35b91390fcd13bf46e12acd3b6f94a082a6cf3 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBv9JcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7fAP/jGLcjqRni/6pJWI9R9g
-54TxFlhD/kHBz6A4Rsti7df6xasiTInY5sz/eLwdFjcvYqnF4gcBM4ibQDuTKT/Q
-O2mUQjjzQJSBYGN0VfkknlmQL/73YCgbjU2LaBsMp40ErKB1QYDNLoDxr1bKZbId
-RD25YvRU1dn9ZCXOiapJ5zDPYHECFmwdPP9vWh3Px2eG2ZUCx/1SDIWidJr/EgmJ
-ESzboKtASRXkWGQBWxft97gnv9e20ufq8B97o54duhAWNAA/EYwmHTfXwYh2km+4
-ROAjCK96yq5wlBt1N6ZdA0OWcFKCqgCdrCrk8v0YWfvBJGMtv4PEjCj1pZpRyJap
-PPWjwUvhITrXWBFLUZv5HP0YQ70ECFlIaE8SRuVtcGQ+3nRcLTyxBBOSC+mmSo1/
-Hpgwj37EUfSVXot/BdciHolDqK6kp9bez3f5Epu6gZBxvy4AJcaJcmlas4daMjlc
-2FOA/S0K3JaLE7uzDRZINjN4HetW4TV2nWY4XORRF0e40D4VlOxxogzviZT/W9Uw
-jHyLrOiZsF3AnsD31DbA837UUP9MJ3fPed7JW6eJUC4uHqaaLxZIces1psPFNYJe
-BGbMDPqFyla8o0cAkByOo4fS84Nq/xCF9iDpmSQBWkdtfSqwcV+2wzvg8FSIWDlb
-fCryoeaEQH7LeqvIVkPhBTCX
-=s3Ra
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBv9MIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fMYP/1pvCr/B+JgSyzaFsu4l
++wO2e2cTrXqTDkh15Xm/eS0ZrziwTnFw0m8Zg6AvCiBq2sa+imrnmpQ9IJ2wKkI0
+Bo+YBl5DjvDh1caxEGXrkqVhVU9TvGy2g3ZO7MkpBdCzshpXw/JTvUMI1fNHD18+
+SSZwPf2Qh/9QCkxLMPNPislusbVAWcdrP/iM3Kfk31drODRraIiqSGcJZd/saun9
+N7Pdlzkr4Y+xrHu0+USe+NIgxagG58DvDCtmCgfLaJxeb+1sqRpffI4dr6f6TScH
+C9UOZFoOpikNvfLy/uD5Iy/ivsMGyvpGIKlzDhBBs4plG9NJDfTinSJ9t3V2kVpi
+jSFqPmSFr8bnUysU5r3vlYPIcw4qCw/LCAq2F+PqYRITO2vRy3THDQiL7B/PQ6rx
+vRV9j8X1imq1zCW++0r14PdBi87WHyVaUkgEmAisOsxS5VwShJ7VA5m7qPU7pM4Q
+0q9OWIwSqgfuPUKDbZjoogJC5l5pZeINLGHSASA936bnNLRvxbPo5N01PFpmmBSQ
+yQJb12l6N9zwvcg1jRssmpRYclYQ9xS5z2grO7Zf1x43UZBKUd3s4ft7+MIZI8D+
+VF3mxWtCi43DkVXSx7WsEIUoGWfpb+/Ei1Vt9jApIQmxUVcb+/iiIfoMoM4A6h/Z
+53Y6MfcqKr7pUjEYImma4Mji
+=/qWN
 -----END PGP SIGNATURE-----
 
---===============2401739432468533915==
+--===============6700590490541426959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e76e8b56fe1a-b195b20b7145.txt
+Content-Disposition: attachment; filename=revlist-f9b9263a25dc-4e35b91390fc.txt
 
-484a58607a808c3721917f5ca5fba7eff809e4df fpga: fpga-mgr: xilinx-spi: fix error messages on -EPROBE_DEFER
-2d6e820c4e9e7a6d681a413cca6c7dc53b420c97 fpga: xilinx-pr-decoupler: Simplify code by using dev_err_probe()
-71c3980b8cc8ddaa523a3061392f5298c4798206 dt-bindings: fpga: Add compatible value for Xilinx DFX AXI shutdown manager
-6f1e376cfc6864a2f46538db909bbd5253c3c146 fpga: Add support for Xilinx DFX AXI Shutdown manager
-9a8d3cda8daf54b1f8e67ccb360876379b7e7895 fpga: dfl: afu: harden port enable logic
-f9d2d86dc52118bc237ed081128df30faa4a5761 dt-bindings: fpga: fpga-region: Convert to sugar syntax
-a78a51a851ed3edc83264a67e2ba77a34f27965f fpga: dfl: pci: add DID for D5005 PAC cards
-17e8ff013e3e82a66d239777d113b2aaa97a77d4 extcon: max8997: Add CHGINS and CHGRM interrupt handling
-e3f60329097be9e6c314de36c8dd0c7c5c2c0c7b extcon: sm5502: Detect OTG when USB_ID is connected to ground
-dd6f5afb1c2db352f8dd2d181597b3835f132657 bindings: pm8941-misc: Convert bindings to YAML
-4fcdd677c4ea0f57eda1be6fcd965ddd7d9551d6 bindings: pm8941-misc: Add support for VBUS detection
-7b1222b224aff41739319ae81cd266825464ad8f extcon: qcom-spmi: Add support for VBUS detection
-d7ea31ca4de2c52e7488043c82159227e2bf81e9 Merge tag 'fpga-late-for-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/mdf/linux-fpga into char-misc-next
-b195b20b7145bcae22ad261abc52d68336f5e913 Merge tag 'extcon-next-for-5.13' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
+1c4282349223269b086d6de908e80636aa01ec5d staging: axis-fifo: remove redundant dev_err call
+46694b686d4a0360acb7aa4329ff73754049596f staging: rtl8188eu: remove unused macros
+5c422a42d1a625eef0fb12bb7466b8b67b8acc21 staging: rtl8188eu: remove unnecessary brackets
+cf862de40b35d725b60f4800bc795e72e9549fdf staging: rtl8188eu: remove unused defines
+b048a8db29446bbf898c496b228be546c6cdcf21 staging: rtl8188eu: move defines into the .c file
+889ed8b5e374780560d778677ba68e6956204101 staging: rtl8188eu: set pipe only once
+6b1164553276fbecf587eb1ffb802b7c0288d5ed staging: rtl8188eu: clean up rtw_recv_entry
+78ea2e24470e744b8ccb8d2c4b05105bfb571cf9 staging: rtl8188eu: remove unnecessary variable
+57ae96149e8967ab1043dc1351966ac61b620978 staging: rtl8188eu: rtw_usb_if1_init needs no dvobj parameter
+7a267097504f68ca4cd64fb1a80902a113230e1e staging: rtl8188eu: make usb_dvobj_init return a status
+3fca1c763ed186bd84bc65c43bfcf9fea0eb91d0 staging: rtl8188eu: make rtw_usb_if1_init return a status
+7a1de298de04c2db2c32c862618ddc9ba749deae staging: comedi: tests: ni_routes_test: Reduce stack usage
+31f218546e54b38fee185d871639f823a5f7856c staging: comedi: tests: ni_route_tests: Declare functions static
+30c1b1a22cc389b0bddfc2ae3e39260333fc4085 staging: comedi: tests: example_test: Reduce stack usage
+9a457447b3268c7e3b21020c0ba3e626df125a15 staging: comedi: tests: example_test: Declare functions static
+5b7b4ce1d1163beb41b7c76db428c285d6989a62 staging: comedi: tests: example_test: Rename to 'comedi_example_test'
+c82b130616e3aed2ff8c635353360978716c5762 staging: comedi: Add Kconfig options to build unit test modules
+5f0bf36ed66e111936a518daddb79b8a8d269f7a staging: rtl8723bs: hal: Remove camelcase in sdio_ops.c
+d03f499e6453abeeb231c4af5e518c787a9bd557 staging: rtl8712: matched alignment with open parenthesis
+73aba1b5f0afccdd41e5dec2002f3bd79e33636e staging: rtl8712: removed extra blank line
+4e35b91390fcd13bf46e12acd3b6f94a082a6cf3 staging: rtl8723bs: remove extra indent
 
---===============2401739432468533915==--
+--===============6700590490541426959==--
