@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 09 Apr 2021 08:31:53 -0000
-Message-Id: <161795711322.25365.690369291633335717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Fri, 09 Apr 2021 08:52:18 -0000
+Message-Id: <161795833839.5800.11925741377315362687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/master
-    old: 1dabdd67370e1fec904b39f82401a16f678df565
-    new: ed10ce8fb9cd791acafb6bff93eacc89aa6ea73e
+  - ref: refs/heads/pci/dwc
+    old: 3d0b2a3a87ce5ae85de46c4241afd52ab8b566fe
+    new: 327c333a79081f2df9ea7dbb89f9c9668092640a
     log: |
-         3e7bbe15ed84e3baa7dfab3aebed3a06fd39b806 x86/msr: Make locally used functions static
-         ae40aaf6bdbf0354a75b8284a0de453fcf5f4d32 x86/sgx: Do not update sgx_nr_free_pages in sgx_setup_epc_section()
-         f096ffcdff89065a1d06a24a5af3105baad2a9fc Merge branch 'x86/sgx'
-         ed10ce8fb9cd791acafb6bff93eacc89aa6ea73e Merge branch 'x86/cleanups'
+         f3ce593b1a743b86c34e8d80b649f4a5040dd775 clk: sifive: Add pcie_aux clock in prci driver for PCIe driver
+         0a78fcfd3d952b65e6b3dc6cb24d31a93f372e59 clk: sifive: Use reset-simple in prci driver for PCIe driver
+         8bb1c66a90d4ac2a769684551608fa61c5096cad MAINTAINERS: Add maintainers for SiFive FU740 PCIe driver
+         b86d55c10776e1e1fb8e8c597e5b3d27e5c05a03 dt-bindings: PCI: Add SiFive FU740 PCIe host controller
+         327c333a79081f2df9ea7dbb89f9c9668092640a PCI: fu740: Add SiFive FU740 PCIe host controller driver
          
