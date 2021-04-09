@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 09 Apr 2021 21:41:48 -0000
-Message-Id: <161800450885.8097.14857606114307861088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
+Date: Fri, 09 Apr 2021 22:22:24 -0000
+Message-Id: <161800694464.560.10258752710397560030@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/libs/libtrace/libtraceevent
+user: rostedt
 changes:
-  - ref: refs/tags/net-5.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: a3304e8fd62c519c70bcd8dc17a91f980ccc73df
+  - ref: refs/heads/libtraceevent
+    old: 6e4e9c04a4a9c0ad8f26beb2f11b8af62290c326
+    new: 21da6e13761c3e0b88d88a98b308657ae9694d79
+    log: |
+         21da6e13761c3e0b88d88a98b308657ae9694d79 libtraceevent: Update libtraceevent.pc when version changes
+         
