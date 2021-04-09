@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3008057908607310976=="
+Content-Type: multipart/mixed; boundary="===============0816960612224353458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 09 Apr 2021 16:29:42 -0000
-Message-Id: <161798578254.5756.16911884032890815323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Fri, 09 Apr 2021 16:29:47 -0000
+Message-Id: <161798578798.5887.17977914686527897536@gitolite.kernel.org>
 
---===============3008057908607310976==
+--===============0816960612224353458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 17e7124aad766b3f158943acb51467f86220afe9
     log: revlist-2d743660786e-17e7124aad76.txt
 
---===============3008057908607310976==
+--===============0816960612224353458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -108,4 +108,4 @@ d1c803a9ccd7bd3aff5e989ccfb39ed3b799b975 RDMA/addr: Be strict with gid size
 4fa56ad0d12e24df768c98bffe9039f915d1bc02 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 17e7124aad766b3f158943acb51467f86220afe9 Merge tag '5.12-rc6-smb3' of git://git.samba.org/sfrench/cifs-2.6
 
---===============3008057908607310976==--
+--===============0816960612224353458==--
