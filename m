@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0473961099080435426=="
+Content-Type: multipart/mixed; boundary="===============1306695332080760968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 09 Apr 2021 05:58:40 -0000
-Message-Id: <161794792040.28673.15712926495714005718@gitolite.kernel.org>
+Date: Fri, 09 Apr 2021 06:00:04 -0000
+Message-Id: <161794800428.30060.8219491955882439293@gitolite.kernel.org>
 
---===============0473961099080435426==
+--===============1306695332080760968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: a5fa204a654b5f15b44d592df946d391d502a580
+  - ref: refs/heads/next
+    old: 8b12a62a4e3ed4ae99c715034f557eb391d6b196
     new: 289b91ab1891ce9188e7dc253367e6326e3f74c1
-    log: revlist-a5fa204a654b-289b91ab1891.txt
+    log: revlist-8b12a62a4e3e-289b91ab1891.txt
 
---===============0473961099080435426==
+--===============1306695332080760968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5fa204a654b-289b91ab1891.txt
+Content-Disposition: attachment; filename=revlist-8b12a62a4e3e-289b91ab1891.txt
 
 7d200b283aa049fcda0d43dd6e03e9e783d2799c iio:adc:qcom-spmi-vadc: add default scale to LR_MUX2_BAT_ID channel
 d68c592e02f6f49a88e705f13dfc1883432cf300 iio: hid-sensor-prox: Fix scale not correct issue
@@ -956,4 +956,4 @@ d31ce6573346ba2dd883902dd566a4211337d21a security: keys: trusted: fix TPM2 autho
 2ee55787f818da75cfb591d998ece52420814bb5 MAINTAINERS: Add entry for TEE based Trusted Keys
 289b91ab1891ce9188e7dc253367e6326e3f74c1 char: tpm: fix error return code in tpm_cr50_i2c_tis_recv()
 
---===============0473961099080435426==--
+--===============1306695332080760968==--
