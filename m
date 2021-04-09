@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4461480226874125016=="
+Content-Type: multipart/mixed; boundary="===============8360251432998355370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 09 Apr 2021 15:00:14 -0000
-Message-Id: <161798041484.15557.9988680368173683684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 09 Apr 2021 15:00:54 -0000
+Message-Id: <161798045450.15884.5419777923980440473@gitolite.kernel.org>
 
---===============4461480226874125016==
+--===============8360251432998355370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: c2f3f755f5c717f3621b33ef06d974b9cec4a104
-    new: 312723a0b34d6d110aa4427a982536bb36ab8471
+  - ref: refs/heads/tty-testing
+    old: 88d8cb7b5f2177dfec9f12377762534dd7c64005
+    new: 903a0e76aa01f78782bb32b6202dc066c3fde8f1
     log: |
-         312723a0b34d6d110aa4427a982536bb36ab8471 debugfs: Make debugfs_allow RO after init
+         903a0e76aa01f78782bb32b6202dc066c3fde8f1 tty: pti: Remove Kconfig leftovers
          
 
---===============4461480226874125016==
+--===============8360251432998355370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617980409 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1617980409-8e8169d660ece15f88f2e6a756bc56f5b1c5665d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617980449 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1617980448-f6255206fc8493abbfd2e1f9f50cc7b0962c5a01
 
-c2f3f755f5c717f3621b33ef06d974b9cec4a104 312723a0b34d6d110aa4427a982536bb36ab8471 refs/heads/driver-core-testing
+88d8cb7b5f2177dfec9f12377762534dd7c64005 903a0e76aa01f78782bb32b6202dc066c3fde8f1 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBwa/kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mpoQAJov8Dn89kh9PlOWmtGg
-DpeOwQw3kbP6o0PBjkYNBBT03lFeAC1sEg3JS1vgkTVRRWXMHaWQDwBj1TESU9EC
-9MZONP5Xj/hzfNEwCeoclZMvZxKVkUY8xR+K9vjX5N96xO+8C+OZZ0zQP4hNmSlB
-VwuStfb6ZQ8qjycNbBmOPtMPZIDjv3qaJ5Je9Jy3fcouwm3FMN54U6gRneEvMoEo
-0OfdU4c97hwZz3Y0WnvVOkvqwotAMqpVV7naG+F+2zej3zYh6nZqR0vLbUcSUVBu
-8eaw65G+/2rvNKRaS0akj1q5aQvtjpkDH4951GAGw0hTBtQS0nQ0bgy57QiXBczA
-B5EQoJCXzwPgkW0QIMKCIjr7EYbWI8mRiMUvMzFW7mIxi/g/I1e4b02wdFHs5yme
-G8jKjhYlw9svypiOAjLhQxHNjReeERusZu6of0G0y708mN3hrMWQEoE9nM+QjRif
-9YwlgiO6lLUAtsoWkBjWAH4C0rM1Depalvx5XeBaNqdFWisFfLLmmFAhitHImfGa
-njW/dlaUd2eH0ALH6ayGBALRf8ilTvLIpYdi0NdjEeKL2ogBOmQiq4bIXpuhqj9+
-y4Odd9/FNbQqDF+gtLUCRAj/oSJQsvm/2mRbD+l3xrM8krGYTcLebjAIzclRzJ4D
-RU1kOzsiBa1fHc4kTcrCQLLy
-=dSbU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBwbCEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eI8P/2G1CR4ALGmKcBnmCtIZ
+DvR+O6Fwz5MYW8hdK9rDPmrE+KIluPljFYM1G3/1jLFyJV0Rs+fNHwmhWeXh6RF7
+HhwIxP+vv2xRWRsageMlqapbIs2mZme3OsZkjxdfaCJBn9QSXwhptEQRsNZnQ0Zu
+SiRyJz92x/DUTR1aq1xpyKUgt1OrU5sL0jiT6jWYqLC/hH57S9y9/U9lRZxrCav6
+Kjc+T3YDlp1CMWWiRd3IfH6LZ+cXnV5Ny6X5Nk0XT2PVytNy0938GmDjmAcoAIJd
+Th3Y8kP4mwhAdmKdSuIxDF1s87PgKisbx/fCczmi6KcAol2otsSUpVUUBZdxkcG9
+6zlDjEJKlooIqRW+iUVeQ0gphf4YVJbVUS+Z6I/8tDOKGIH7bcJh0cO6quMURbfI
+0ZMOfijAmxqiAEnja/6aCw1ALeuyx1tuPqXs2EFH1d8QEuKdFp+gPjkRX52M/pra
+LzsvTZS26NpgTtIAPsv60aqvjQG07cSaNDdedawAYEf7aNnmehcUk1aYxtsH+WuG
+YjkusizAgFjYp+grPKyKb02tcIMVMsTRrt7rp/vYEb7yuflkGASKDM0h64h/bdXX
+Ec1nOizWwI2CGG434RhUbgNjdK8eJVLY7fgHqfZl5PyXJPQpRNwr5wwA3Ct9iEDH
+HIcfHvlQ+1bjy6jn6+sda5PR
+=THIS
 -----END PGP SIGNATURE-----
 
---===============4461480226874125016==--
+--===============8360251432998355370==--
