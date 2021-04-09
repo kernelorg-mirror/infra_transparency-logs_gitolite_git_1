@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Fri, 09 Apr 2021 11:51:19 -0000
-Message-Id: <161796907942.5398.6219764625309103038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 09 Apr 2021 11:51:58 -0000
+Message-Id: <161796911849.5622.14164106059780204019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: 68ae256945d2abe9036a7b68af4cc65aff79d5b7
-    new: 2d54a2222c4ad03b5a5e86fc77c053053ef921c7
+  - ref: refs/heads/auto-latest
+    old: a67ffcf8a092e19d62de65b3dbd600d9df97cb9d
+    new: e83c495972867aa63d72f03845a1331b8428dfe2
     log: |
-         2d54a2222c4ad03b5a5e86fc77c053053ef921c7 power: reset: hisi-reboot: add missing MODULE_DEVICE_TABLE
+         632a1c209b8773cb0119fe3aada9f1db14fa357c x86/traps: Correct exc_general_protection() and math_error() return paths
+         e83c495972867aa63d72f03845a1331b8428dfe2 Merge branch 'tip-x86-urgent' into tip-auto-latest
          
