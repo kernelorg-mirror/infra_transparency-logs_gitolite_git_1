@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6990777594490866303=="
+Content-Type: multipart/mixed; boundary="===============2543703294882249513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 09 Apr 2021 14:07:28 -0000
-Message-Id: <161797724802.14416.18297875694877027034@gitolite.kernel.org>
+Date: Fri, 09 Apr 2021 14:08:06 -0000
+Message-Id: <161797728631.14694.5709797426841198514@gitolite.kernel.org>
 
---===============6990777594490866303==
+--===============2543703294882249513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 17af793217a68ce344c46e1f96c86587011d6785
-    new: 3a2a91a2d51761557843996a66098eb7182b48b4
+    old: 3a2a91a2d51761557843996a66098eb7182b48b4
+    new: 3d28466e5f4f8110da44ebad6a3054ec3020cdc4
     log: |
-         3a2a68ecb25ec743004af6930bcdb9a3ae3ff217 usb: dwc3: Resolve kernel-doc warning for Xilinx DWC3 driver
-         124b11cc4f6276e9e435802b160c368f35f59e1a usb: dwc3: xilinx: Remove the extra freeing of clocks
-         3a2a91a2d51761557843996a66098eb7182b48b4 usb: roles: Call try_module_get() from usb_role_switch_find_by_fwnode()
+         7b458a4c5d7302947556e12c83cfe4da769665d0 usb: typec: Add typec_port_register_altmodes()
+         55d8b34772e0728a224198ba605eed8cfc570aa0 usb: typec: tcpm: Add support for altmodes
+         3d28466e5f4f8110da44ebad6a3054ec3020cdc4 platform/x86/intel_cht_int33fe: Add displayport altmode fwnode to the connector fwnode
          
 
---===============6990777594490866303==
+--===============2543703294882249513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617977243 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1617977280 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1617977242-bc7646298a17dfacbf7d1b4932e4523e9c1bc1d7
+nonce 1617977280-2c16d45834631a3112c769b08e8a8d02e4320f24
 
-17af793217a68ce344c46e1f96c86587011d6785 3a2a91a2d51761557843996a66098eb7182b48b4 refs/heads/usb-testing
+3a2a91a2d51761557843996a66098eb7182b48b4 3d28466e5f4f8110da44ebad6a3054ec3020cdc4 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBwX5sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EyEP/RWChfJHXANOfe2/oogt
-wRtREP3v+zyiqmtNlyjhdIvCO2fc7FBhLv7TNDTpYn8UqpEz9OBnAmLNavtD2fkw
-5Sbi+XnuCnu2f+pBUt7Pt7dMI+zMDgQzlzCZMX4bvmAxyRZMrUQm7jfBpwwM2Gdf
-B7zFqkHUwGt4Zmab2oJovyfmTr5mf8k8S93BzpOleLoEerLj+YxgdkScm111zbpx
-MTlA3PxoJ5ffLAVZ9bUWxuJfDS2QpMwsF1Upl8MZOMgGAAF4cUZc462ri5mrT+br
-juPQ4W4OH+1c/W432+MXevcs2g4juThVnPlbXqUSp8ZClTwklBO0HDXKQcO5Vnqs
-GgJdKZ9GoiiGQN2HO1jZ7xnKPdhrZVFtRV1S8k8f5z3WE3E1esiPLA5slkM4dNzj
-GBAM0xsFQDyfLR8cmddz6MYAZgjOcwWLAHe02wizXLmbylttjGeHnp9228b2lztG
-VJ9g8Lw3hhnLmlO11lYTyMut5YKO60J8AmJnWiwkQeByi5vVaTvETALpNx1wdFuy
-lCUM2NtrQ0Z0B7PYE7sM1y1jwnBeMXCcbV83SUwLlO+sAbpfVtZ0VQrBb5DvHTbt
-RPS0uEYPjcb7NROhvJjL+xtQ9Xyk4vQ44MS2+pWs5CzXWMw3/hxau+PlaE9U2PzP
-2Ch+r1AacesctSDlJ73+ZjZv
-=4iAs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBwX8AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GhYQAJA92udAcZTirXGSBuKf
+ttR3zYE0tL9aNshrDcwjS0igKd9ryfsgn6W3mMN0DtcXl5Z3SpFLZZRMvmQAggF4
+wFEGjabxp3BIcUn4m66kDDVbU2uBpoiqTM/meDXgFIa1C5qRET21/8FtKiwLLe2G
+0nQzB6qxLjLTDGGXveWM8ot8fiofPpwIhFc/zdMZJf07gqN5lN2ADM76BYskD7W8
+PXCanof/E7LhVWRd7aY+9OHN2PSA/QcqR7m9y+VvgD0ZW+YIQSLvKJDcHzI6lgdQ
+ONoUvWi+w3pLE38/7iGxnLX4Bgsd5fwr4qMd9XsiyNke8l/lavDSHrASLKuWSvjC
+zU9EFdlkk9ORwH0lb2pP2Eq5ynzC9OPIBuQsRFmngl6ayD25fqwWw3wfX9mzM52i
+pDeKwBKnXGeFKx1R7hDOONsnni3+PfqXpZnTAfXT5sfAL+PcmPtSXKMOJedCPYpe
+FAF3QoakTRV6FbfakjbzKbLAcQa6HD61snO0vaasC5rfB3l50gcHMizcrZtXZmrV
+3N3trLPeq6BycMhORx7VbbLms3c/7j9hcfyP0GMG4SA7OZS2IPf/aKdGyTJC+EL4
+f+rJSocgO611zI0Xhxq3sgdPlJR+kQ1rS9F+7obcJcV8JW7an421svr/papuQszb
+Ou8uIo8Ekg/icK7+WwZaKzz+
+=zWPw
 -----END PGP SIGNATURE-----
 
---===============6990777594490866303==--
+--===============2543703294882249513==--
