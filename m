@@ -1,242 +1,112 @@
-Content-Type: multipart/mixed; boundary="===============4707494826859024665=="
+Content-Type: multipart/mixed; boundary="===============7084844348598094913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 09 Apr 2021 22:33:44 -0000
-Message-Id: <161800762460.7092.12488280830351372128@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 09 Apr 2021 22:58:40 -0000
+Message-Id: <161800912029.22122.1783357014818632074@gitolite.kernel.org>
 
---===============4707494826859024665==
+--===============7084844348598094913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: a2521822bdfd73bd40d7cd81dfa89cc922b1cff4
-    new: 4e04e7513b0fa2fe8966a1c83fb473f1667e2810
-    log: revlist-a2521822bdfd-4e04e7513b0f.txt
+  - ref: refs/heads/next
+    old: be11c130afeab11780014fb555625b10f13c8463
+    new: 7d1e84936f59976b1fce260a447d8781a07cd620
+    log: revlist-be11c130afea-7d1e84936f59.txt
+  - ref: refs/heads/seen
+    old: b911d4703932863ac644b5d303ffbffd1412df6b
+    new: cc42f43761c9012d70832866a76ac7ae8008816e
+    log: revlist-b911d4703932-cc42f43761c9.txt
 
---===============4707494826859024665==
+--===============7084844348598094913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2521822bdfd-4e04e7513b0f.txt
+Content-Disposition: attachment; filename=revlist-be11c130afea-7d1e84936f59.txt
 
-04052a318fb93491f1f3b4d282cb806f588e9326 net/ieee802154: remove unused macros to tame gcc
-8fc0e3b6a8666d656923d214e4dc791e9a17164a xfrm: interface: fix ipv4 pmtu check to honor ip header df
-cdd38c5f1ce4398ec58fec95904b75824daab7b5 Merge remote-tracking branch 'net/master'
-37feaaf5ceb2245e474369312bb7b922ce7bce69 net: ieee802154: fix nl802154 del llsec key
-3d1eac2f45585690d942cf47fd7fbd04093ebd1b net: ieee802154: fix nl802154 del llsec dev
-20d5fe2d7103f5c43ad11a3d6d259e9d61165c35 net: ieee802154: fix nl802154 add llsec key
-27c746869e1a135dffc2f2a80715bb7aa00445b4 net: ieee802154: fix nl802154 del llsec devkey
-6f7f657f24405f426212c09260bf7fe8a52cef33 net: ieee802154: nl-mac: fix check on panid
-c7c1abfd6d42be8f09d390ab912cd84983000fa2 vti: fix ipv4 pmtu check to honor ip header df
-4c38255892c06b9de2fb3bf6aea63f4ebdff3d11 vti6: fix ipv4 pmtu check to honor ip header df
-9ab1265d52314fce1b51e8665ea6dbc9ac1a027c xfrm: Use actual socket sk instead of skb socket for xfrm_output_resume
-e88add19f68191448427a6e4eb059664650a837f net: xfrm: Localize sequence counter per network namespace
-bc8e0adff343d992ca76d871e8b5e6cb86e1fad9 net: xfrm: Use sequence counter with associated spinlock
-154deab6a3ba47792936edf77f2f13a1cbc4351d esp: delete NETIF_F_SCTP_CRC bit from features for esp offload
-2800aadc18a64c96b051bcb7da8a7df7d505db3f iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-8f6a70fd71a3d7a6b120f83681263fc370eb52ba mt76: mt7921: fix airtime reporting
-bd83a2fc05ed323d7ae38443a6d2e253ef1c4237 brcmfmac: p2p: Fix recently introduced deadlock issue
-68dc022d04eb0fd60a540e242dcb11ec1bee07e2 xfrm: BEET mode doesn't support fragments for inner packets
-b1e3a5607034aa0a481c6f69a6893049406665fb xfrm: Fix NULL pointer dereference on policy lookup
-22f8b5df881e9f1302514bbbbbb8649c2051de55 virtchnl: Fix layout of RSS structures
-90449e98c265296329446c7abcd2aae3b20c0bc9 i40e: Added Asym_Pause to supported link modes
-347b5650cd158d1d953487cc2bec567af5c5bf96 i40e: Fix kernel oops when i40e driver removes VF's
-f2916ae9a1bc80aa8e9e8a00b75682f5df6fd59c i40e: Fix oops at i40e_rebuild()
-479dc497db8322ae486f8ee49020f5600a77a680 net: dsa: only unset VLAN filtering when last port leaves last VLAN-aware bridge
-de9c7854e6e1589f639c6352112956d08243b659 net: axienet: allow setups without MDIO
-3ed14d8d47bff8cd70c357da9b72b1f698bf553b dt-bindings: net: micrel-ksz90x1.txt: correct documentation
-3e6fdeb28f4c331acbd27bdb0effc4befd4ef8e8 net: dsa: lantiq_gswip: Let GSWIP automatically set the xMII clock
-d75135082698140a26a56defe1bbc1b06f26a41f amd-xgbe: Update DMA coherency values
-c33b1cc62ac05c1dbb1cdafe2eb66da01c76ca8d nfc: fix refcount leak in llcp_sock_bind()
-8a4cd82d62b5ec7e5482333a72b58a4eea4979f0 nfc: fix refcount leak in llcp_sock_connect()
-7574fcdbdcb335763b6b322f6928dc0fd5730451 nfc: fix memory leak in llcp_sock_connect()
-4b5db93e7f2afbdfe3b78e37879a85290187e6f1 nfc: Avoid endless loops caused by repeated llcp_sock_connect()
-aa5a5b7ae5b2598538dd91a55ae1db7779675a16 Merge branch 'nfc-fixes'
-30a93d2b7d5a7cbb53ac19c9364a256d1aa6c08a vxlan: do not modify the shared tunnel info when PMTU triggers an ICMP reply
-68c1a943ef37bafde5ea2383e8ca224c7169ee31 geneve: do not modify the shared tunnel info when PMTU triggers an ICMP reply
-3cec1921a199ba52fa8c7239755c58107842dd65 Merge branch 'tunnel-shinfo'
-3a87571f0ffc51ba3bf3ecdb6032861d0154b164 sch_red: fix off-by-one checks in red_check_params()
-75887e881b19c903d34b7cc33e7e6188679d9752 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-6032ebb54c60cae24329f6aba3ce0c1ca8ad6abe libbpf: Fix bail out from 'ringbuf_process_ring()' on error
-12aa8a9467b354ef893ce0fc5719a4de4949a9fb bpf: Enforce that struct_ops programs be GPL-only
-d8e8052e42d0f8ff59898b9b4142b16958627ac9 bpf/selftests: Test that kernel rejects a TCP CC with an invalid license
-d6fe1cf89026d3111112ee29ef8d93cd7a8aaa24 bpf: Fix a spelling typo in bpf_atomic_alu_string disasm
-861de02e5f3f2a104eecc5af1d248cb7bf8c5f75 bpf: Take module reference for trampoline in module
-1b479fb801602b22512f53c19b1f93a4fc5d5d9d drivers/net/wan/hdlc_fr: Fix a double free in pvc_xmit
-c7dbf4c08868d9db89b8bfe8f8245ca61b01ed2f xfrm: Provide private skb extensions for segmented and hw offloaded ESP packets
-9e9714742fb70467464359693a73b911a630226f can: bcm/raw: fix msg_namelen values depending on CAN_REQUIRED_SIZE
-f522d9559b07854c231cf8f0b8cb5a3578f8b44e can: isotp: fix msg_namelen values depending on CAN_REQUIRED_SIZE
-f5076c6ba02e8e24c61c40bbf48078929bc0fc79 can: uapi: can.h: mark union inside struct can_frame packed
-08771bce330036d473be6ce851cd00bcd351ebf6 ice: Continue probe on link/PHY errors
-f88c529ac77b3c21819d2cf1dfcfae1937849743 ice: Increase control queue timeout
-aeac8ce864d9c0836e12ed5b5cc80f62f3cccb7c ice: Recognize 860 as iSCSI port in CEE mode
-e95fc8573e07c5e4825df4650fd8b8c93fad27a7 ice: prevent ice_open and ice_stop during reset
-59df14f9cc2326bd6432d60eca0df8201d9d3d4b ice: fix memory allocation call
-741b7b743bbcb5a3848e4e55982064214f900d2f ice: remove DCBNL_DEVRESET bit from PF state
-7a91d3f02b04b2fb18c2dfa8b6c4e5a40a2753f5 ice: Fix for dereference of NULL pointer
-3176551979b92b02756979c0f1e2d03d1fc82b1e ice: Use port number instead of PF ID for WoL
-b7eeb52721fe417730fc5adc5cbeeb5fe349ab26 ice: Cleanup fltr list in case of allocation issues
-66167c310deb4ac1725f81004fb4b504676ad0bf mlxsw: spectrum: Fix ECN marking in tunnel decapsulation
-4bfd0de590300d3e3889ee9833bec8cc4059fae6 selftests: forwarding: vxlan_bridge_1d: Add more ECN decap test cases
-2dce6987a66d292ab08fcde9e65ae34d5d2f1a94 Merge branch 'mlxsw-ecn-marking'
-f4c848db16bed96734d8074d60047226978276ee Merge tag 'linux-can-fixes-for-5.12-20210329' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-5954846d09e4a210b6c761ab09388cfd41f58342 MAINTAINERS: Add entry for Qualcomm IPC Router (QRTR) driver
-63415767a2446136372e777cde5bb351f21ec21d ethernet: myri10ge: Fix a use after free in myri10ge_sw_tso
-bff5b62585123823842833ab20b1c0a7fa437f8c gianfar: Handle error code at MAC address change
-fb6ec87f7229b92baa81b35cbc76f2626d5bfadb net: dsa: Fix type was not set for devlink port
-1bfb3dea965ff9f6226fd1709338f227363b6061 cxgb4: avoid collecting SGE_QBASE regs during traffic
-6bf24dc0cc0cc43b29ba344b66d78590e687e046 net:tipc: Fix a double free in tipc_sk_mcast_rcv
-af9d316f3dd6d1385fbd1631b5103e620fc4298a dt-bindings: net: ethernet-controller: fix typo in NVMEM
-4cd7bd599e273bb75804a406b50cd2c58c40e2e0 dt-bindings: net: bcm4908-enet: fix Ethernet generic properties
-ca441a7129904a62fbc5692bb202e4694097bd45 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-6e5a03bcba44e080a6bf300194a68ce9bb1e5184 ethernet/netronome/nfp: Fix a use after free in nfp_bpf_ctrl_msg_rx
-ef19e111337f6c3dca7019a8bad5fbc6fb18d635 xfrm/compat: Cleanup WARN()s that can be user-triggered
-03cb4d05b4ea9a3491674ca40952adb708d549fa net/ncsi: Avoid channel_monitor hrtimer deadlock
-6855e8213e06efcaf7c02a15e12b1ae64b9a7149 net: sched: bump refcount for new action in ACT replace mode
-8a03dd925786bdc3834d56ccc980bb70668efa35 net: qrtr: Fix memory leak on qrtr_tx_wait failure
-ae81feb7338c89cee4e6aa0424bdab2ce2b52da2 sch_htb: fix null pointer dereference on a null new_q
-9adc89af724f12a03b47099cd943ed54e877cd59 net: let skb_orphan_partial wake-up waiters.
-2ea538dbee1c79f6f6c24a6f2f82986e4b7ccb78 nfp: flower: ignore duplicate merge hints from FW
-c056d480b40a68f2520ccc156c7fae672d69d57d net: phy: broadcom: Only advertise EEE for supported modes
-61431a5907fc36d0738e9a547c7e1556349a03e9 net: ensure mac header is set in virtio_net_hdr_to_skb()
-d24f847e54214049814b9515771622eaab3f42ab net/mlx5e: Fix mapping of ct_label zero
-1f90aedfb496ccccf862c7b7c0889af20c2fc61a net/mlx5: Delete auxiliary bus driver eth-rep first
-3211434dfe7a66fcf55e43961ea524b78336c04c net/mlx5e: Fix ethtool indication of connector type
-e929e3da537e3c2d97aabbd00530040997dde9ce net/mlx5: E-switch, Create vport miss group only if src rewrite is supported
-a51bce9698e951fec3fc0624060f124794ec3558 net/mlx5e: kTLS, Fix TX counters atomicity
-6f4fdd530a09c8e2c7368ba5a5b1711e6e5ced10 net/mlx5e: kTLS, Fix RX counters atomicity
-a7b76002ae78cd230ee652ccdfedf21aa94fcecc net/mlx5: Don't request more than supported EQs
-929a2faddd55290fbb0b73f453b200ed1b2b2947 net/mlx5e: Consider geneve_opts for encap contexts
-3ff3874fa0b261ef74f2bfb008a82ab1601c11eb net/mlx5e: Guarantee room for XSK wakeup NOP on async ICOSQ
-d47ec7a0a7271dda08932d6208e4ab65ab0c987c neighbour: Disregard DEAD dst in neigh_update
-bdc2ab5c61a5c07388f4820ff21e787b4dfd1ced net/rds: Fix a use after free in rds_message_map_pages
-c9170f132178cdafefcff7d16434ff3c1b13a988 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-9dc22c0d04a2f9734146e6f1e757160d78800e3c Merge tag 'mlx5-fixes-2021-03-31' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-c609e6aae4efcf383fe86b195d1b060befcb3666 Revert "net: correct sk_acceptq_is_full()"
-622d13694b5f048c01caa7ba548498d9880d4cb0 xdp: fix xdp_return_frame() kernel BUG throw for page_pool memory model
-7a75a8412fdd52a64ee860bd9708d16b1b2aa77a i40e: Fix inconsistent indenting
-528060ef3e1105c5c3eba66ffbfc80e0825e2cce i40e: fix receiving of single packets in xsk zero-copy mode
-c3214de929dbf1b7374add8bbed30ce82b197bbb i40e: Fix display statistics for veb_tc
-06ab134ce8ecfa5a69e850f88f81c8a4c3fa91df bpf: Refcount task stack in bpf_get_task_stack
-25fc94b2f02d832fa8e29419699dcc20b0b05c6a bpf: link: Refuse non-O_RDWR flags in BPF_OBJ_GET
-d37300ed182131f1757895a62e556332857417e5 bpf: program: Refuse non-O_RDWR flags in BPF_OBJ_GET
-df662016310aa4475d7986fd726af45c8fe4f362 libbpf: Ensure umem pointer is non-NULL before dereferencing
-43f1bc1efff16f553dd573d02eb7a15750925568 libbpf: Restore umem state after socket create failure
-ca7a83e2487ad0bc9a3e0e7a8645354aa1782f13 libbpf: Only create rx and tx XDP rings when necessary
-6dcc4e38386950abf9060784631622dfc4df9577 Merge branch 'AF_XDP Socket Creation Fixes'
-6b9fbe16955152626557ec6f439f3407b7769941 drivers: net: fix memory leak in atusb_probe
-98184612aca0a9ee42b8eb0262a49900ee9eef0d net: udp: Add support for getsockopt(..., ..., UDP_GRO, ..., ...);
-a0b96b4a62745397aee662670cfc2157bac03f55 drivers: net: fix memory leak in peak_usb_create_dev
-86581852d7710990d8af9dadfe9a661f0abf2114 mptcp: forbit mcast-related sockopt on MPTCP sockets
-0a3cc57978d1d1448312f8973bd84dca4a71433a mptcp: revert "mptcp: provide subflow aware release function"
-efd2e92dd2fba35802fefffa776cf9151270d41d Merge branch 'mptcp-deadlock'
-9256ce33110174decc04caf6ef733409012e5b1c Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-29684d802e4ab484c679859217c1588c199f1d4f Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-990b03b05b2fba79de2a1ee9dc359fc552d95ba6 net: cls_api: Fix uninitialised struct field bo->unlocked_driver_cb
-a14d273ba15968495896a38b7b3399dba66d0270 net: macb: restore cmp registers on resume path
-4d51419d49930be2701c2633ae271b350397c3ca openvswitch: fix send of uninitialized stack memory in ct limit reply
-630e4576f83accf90366686f39808d665d8dbecc net-ipv6: bugfix - raw & sctp - switch to ipv6_can_nonlocal_bind()
-9a6aaf61487e6d96ce0bf9b84a784c528dbf6e5e net: hns3: Remove the left over redundant check & assignment
-0600771fa6b231e801ba1ff5d7adfcf7659dbbf3 net: hns3: Remove un-necessary 'else-if' in the hclge_reset_event()
-22f69de18ee86e81dc41253869e5dd963ccea429 Merge branch 'hns3-fixes'
-08c27f3322fec11950b8f1384aa0f3b11d028528 batman-adv: initialize "struct batadv_tvlv_tt_vlan_data"->reserved field
-07cc40fec9a85e669ea12e161a438d2cbd76f1ed iwlwifi: fix 11ax disabled bit in the regulatory capability flags
-25628bc08d4526d3673ca7d039eb636aa9006076 iwlwifi: pcie: properly set LTR workarounds on 22000 devices
-97195d3cad852063208a1cd4f4d073459547a415 iwlwifi: add support for Qu with AX201 device
-9c04fd95fa830d60e5bdb08bcd7ff68d7e120e5b iwlwifi: fw: fix notification wait locking
-08f4b0b1c07bcb70247931d81233fb9c59f50c35 iwlwifi: pcie: add support for So-F devices
-39fb06f791429eaee8374ef12634c0fbf68a5a9f iwlwifi: mvm: rfi: don't lock mvm->mutex when sending config command
-65db391dd874db42279713405f29f4ac93682d13 iwlwifi: mvm: fix beacon protection checks
-617085fca6375e2c1667d1fbfc6adc4034c85f04 can: mcp251x: fix support for half duplex SPI host controllers
-88c17855ac4291fb462e13a86b7516773b6c932e net: ieee802154: forbid monitor for set llsec params
-fb3c5cdf88cd504ef11d59e8d656f4bc896c6922 net: ieee802154: stop dump llsec keys for monitors
-08470c5453339369bd3d590c4cbb0b5961cdcbb6 net: ieee802154: forbid monitor for add llsec key
-b6e2949544a183f590ae6f3ef2d1aaaa2c44e38a net: ieee802154: forbid monitor for del llsec key
-5582d641e6740839c9b83efd1fbf9bcd00b6f5fc net: ieee802154: stop dump llsec devs for monitors
-5303f956b05a2886ff42890908156afaec0f95ac net: ieee802154: forbid monitor for add llsec dev
-ad8f9de1f3566686af35b1c6b43240726541da61 net: ieee802154: forbid monitor for del llsec dev
-080d1a57a94d93e70f84b7a360baa351388c574f net: ieee802154: stop dump llsec devkeys for monitors
-a347b3b394868fef15b16f143719df56184be81d net: ieee802154: forbid monitor for add llsec devkey
-6fb8045319ef172dc88a8142e7f8b58c7608137e net: ieee802154: forbid monitor for del llsec devkey
-4c9b4f55ad1f5a4b6206ac4ea58f273126d21925 net: ieee802154: stop dump llsec seclevels for monitors
-9ec87e322428d4734ac647d1a8e507434086993d net: ieee802154: forbid monitor for add llsec seclevel
-9dde130937e95b72adfae64ab21d6e7e707e2dac net: ieee802154: forbid monitor for del llsec seclevel
-1534efc7bbc1121e92c86c2dabebaf2c9dcece19 net: ieee802154: stop dump llsec params for monitors
-1165affd484889d4986cf3b724318935a0b120d8 net: mac802154: Fix general protection fault
-b25b343db0526669947a427e9a31bac91d29bb06 net: broadcom: bcm4908enet: Fix a double free in bcm4908_enet_dma_alloc
-0f6925b3e8da0dbbb52447ca8a8b42b371aac7db virtio_net: Do not pull payload in skb->head
-2a2403ca3add03f542f6b34bef9f74649969b06d tipc: increment the tmp aead refcnt before attaching it
-1c84b33101c82683dee8b06761ca1f69e78c8ee7 bpf, sockmap: Fix sk->prot unhash op reset
-144748eb0c445091466c9b741ebd0bfcc5914f3d bpf, sockmap: Fix incorrect fwd_alloc accounting
-66c3f05ddc538ee796321210c906b6ae6fc0792a pcnet32: Use pci_resource_len to validate PCI resource
-f57796a4b80be8450a5e8cca1a5f55379cbee328 Merge tag 'linux-can-fixes-for-5.12-20210406' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-ed7bedd2c3ca040f1e8ea02c6590a93116b1ec78 net: hns3: clear VF down state bit before request link status
-63cf32389925e234d166fb1a336b46de7f846003 ethtool: fix incorrect datatype in set_eee ops
-cca8ea3b05c972ffb5295367e6c544369b45fbdd net: tun: set tun->dev->addr_len during TUNSETLINK processing
-5219d6012d46ec1fa3397e50bfeb7b8c16df72cf docs: ethtool: fix some copy-paste errors
-1a73704c82ed4ee95532ac04645d02075bd1ce3d net/mlx5: Fix HW spec violation configuring uplink
-a14587dfc5ad2312dabdd42a610d80ecd0dc8bea net/mlx5: Fix placement of log_max_flow_counter
-ce28f0fd670ddffcd564ce7119bdefbaf08f02d3 net/mlx5: Fix PPLM register mapping
-534b1204ca4694db1093b15cf3e79a99fcb6a6da net/mlx5: Fix PBMC register mapping
-d5f9b005c3062d6d96872896b695e5116b921f52 net/mlx5: fix kfree mismatch in indir_table.c
-0c85a7e87465f2d4cbc768e245f4f45b2f299b05 net/rds: Avoid potential use after free in rds_send_remove_from_sock
-f0ebc2b6b7df7716749445cda26734b3826a48cf ethtool: un-kdocify extended link state
-83e5feeb385e6d69ae95dd30e0c424afaa17cc6b ethtool: document reserved fields in the uAPI
-d9c65de0c1e1574d2cc8007dbe02291fe47db1d9 ethtool: fix kdoc in headers
-cd90437399a24ae783b9a3a1a50fe8ee2b717355 Merge branch 'ethtool-doc'
-9d6803921a16f4d768dc41a75375629828f4d91e net: hsr: Reset MAC header for Tx path
-a79ace4b312953c5835fafb12adc3cb6878b26bd net: tipc: Fix spelling errors in net/tipc module
-bb58023bee8b08c329c161c2f20b157db8a5ba96 Merge tag 'mlx5-fixes-2021-04-06' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-a975d7d8a356ce92872af0b007b101183f0224e2 ethtool: Remove link_mode param and derive link params from driver
-fde32dbe712bc7cea61d8c5ed14e10e17eec8257 ethtool: Add lanes parameter for ETHTOOL_LINK_MODE_10000baseR_FEC_BIT
-3cf1482852825bdf8cc4e4f09346262c80ad5cbe Merge branch 'ethtool-link_mode'
-107adc694558dd51c35fca07b025c2fe2168afb5 Merge tag 'wireless-drivers-2021-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
-5d1dbacde1a2770fda1d80d6423e08365c8d6e9a Merge tag 'ieee802154-for-davem-2021-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan
-8a12f8836145ffe37e9c8733dce18c22fb668b66 net: hso: fix null-ptr-deref during tty device unregistration
-6ad7f2332e84c46f0c94e73e05b5b7c2bc1a6b74 io_uring: clear F_REISSUE right after getting it
-dd0b45538146cb6a54d6da7663b8c3afd16ebcfd mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
-71826654ce40112f0651b6f4e94c422354f4adb6 rfkill: revert back to old userspace API by default
-1153a74768a9212daadbb50767aa400bc6a0c9b0 mac80211: fix TXQ AC confusion
-7d73cd946d4bc7d44cdc5121b1c61d5d71425dea mac80211: fix time-is-after bug in mlme
-1b5ab825d9acc0f27d2f25c6252f3526832a9626 cfg80211: remove WARN_ON() in cfg80211_sme_connect
-b57aa17f07c9270e576ef7df09f142978b5a75f0 virt_wifi: Return micros for BSS TSF values
-b5ac0146492fc5c199de767e492be8a66471011a cfg80211: check S1G beacon compat element length
-abaf94ecc9c356d0b885a84edef4905cdd89cfdd nl80211: fix potential leak of ACL params
-e4d4d456436bfb2fe412ee2cd489f7658449b098 bpf, x86: Validate computation of branch displacements for x86-64
-26f55a59dc65ff77cd1c4b37991e26497fc68049 bpf, x86: Validate computation of branch displacements for x86-32
-9a6847ba1747858ccac53c5aba3e25c54fbdf846 nl80211: fix beacon head validation
-b2d0efc4be7ed320e33eaa9b6dd6f3f6011ffb8e i40e: Fix parameters in aq_get_phy_register()
-12738ac4754ec92a6a45bf3677d8da780a1412b3 i40e: Fix sparse errors in i40e_txrx.c
-d6d04ee6d2c9bb5084c8f6074195d6aa0024e825 i40e: Fix sparse error: uninitialized symbol 'ring'
-6b5674fe6b9bf05394886ebcec62b2d7dae88c42 i40e: Fix sparse error: 'vsi->netdev' could be null
-8a1e918d833ca5c391c4ded5dc006e2d1ce6d37c i40e: Fix sparse warning: missing error code 'err'
-1831da7ea5bdf5531d78bcf81f526faa4c4375fa ice: fix memory leak of aRFS after resuming from suspend
-9728463737db027557e8ba315cbbca6b81122c04 io_uring: fix rw req completion
-c60eb049f4a19ddddcd3ee97a9c79ab8066a6a03 io-wq: cancel unbounded works on io-wq destroy
-4ba86128ba077fbb7d86516ae24ed642e6c3adef Revert "net: sched: bump refcount for new action in ACT replace mode"
-87c750e8c38bce706eb32e4d8f1e3402f2cebbd4 net: sched: fix action overwrite reference counting
-b3650bf76a32380d4d80a3e21b5583e7303f216c net: sched: fix err handler in tcf_action_init()
-f2fbd0aacdaf10cef961750af55d895b8a455b12 Merge branch 'net-sched-action-init-fixes'
-3583a4e8d77d44697a21437227dd53fc6e7b2cb5 ipv6: report errors for iftoken via netlink extack
-ac075bdd6899b03785d7fbe3abed1cdf13162726 Merge tag 'mac80211-for-net-2021-04-08.2' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211
-971e3057113d5eb25597af1ae61450c0b87c5287 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-1ffbc7ea91606e4abd10eb60de5367f1c86daf5e net: sched: sch_teql: fix null-pointer dereference
-6494d15fd643ed24e0603e52923ee64ed1cfa00e Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-3e9005be87777afc902b9f5497495898202d335d net: dsa: lantiq_gswip: Don't use PHY auto polling
-4b5923249b8fa427943b50b8f35265176472be38 net: dsa: lantiq_gswip: Configure all remaining GSWIP_MII_CFG bits
-2d1b50abf8d4964b14705bfec253be6e80c22099 Merge branch 'lantiq-GSWIP-fixes'
-864db232dc7036aa2de19749c3d5be0143b24f8f net: ipv6: check for validity before dereferencing cfg->fc_nlinfo.nlh
-3bc41d6d2721d5168a8f7fea34028a5332068f5e lan743x: fix ethernet frame cutoff issue
-cd7e963d2f0875789ddb5c3746b628716bd0a8c9 net: hns3: Trivial spell fix in hns3 driver
-27f0ad71699de41bae013c367b95a6b319cc46a9 net: fix hangup on napi_disable for threaded napi
-3b9784350f990d8fe2ca08978dc25cd5180d5c21 Merge tag 'io_uring-5.12-2021-04-09' of git://git.kernel.dk/linux-block
-4e04e7513b0fa2fe8966a1c83fb473f1667e2810 Merge tag 'net-5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+72b3091040f8d2784225527ebecfc3c2a56fe196 merge-ort: use STABLE_QSORT instead of QSORT where required
+ea305a68fd7427f84f90709e598624341f5627c8 merge-ort: add a special minimal index just for renormalization
+1218b3ab86ddeea7c10ea3da0a1cdd5c026d1252 merge-ort: have ll_merge() use a special attr_index for renormalization
+3860220bfa594a56daa801aaedbdf8ac75b62bb6 merge-ort: let renormalization change modify/delete into clean delete
+3639dfb3a8ea6935a7863fcbcc1c7a6c9104980e merge-ort: support subtree shifting
+8ddc20b8969120329a9369e19816aa9088c9550e t6428: new test for SKIP_WORKTREE handling and conflicts
+66b209b86ad3b79728d3f0f22e1bdef6b17a12c1 merge-ort: implement CE_SKIP_WORKTREE handling with conflicted entries
+aa2faac03ad646873ebac2b230581d1d26dd1b99 t: mark several submodule merging tests as fixed under merge-ort
+5291828df8386ebeb01039d1403d9f845d2f6e20 merge-ort: write $GIT_DIR/AUTO_MERGE whenever we hit a conflict
+816147e7bab0c7e9c3a578ce166c55d5f7a64a8a merge-recursive: add a bunch of FIXME comments documenting known bugs
+41376b58e6332796343a76b222334901207065ae Revert "merge-ort: ignore the directory rename split conflict for now"
+259490e572b630c15c882d964b146424cc26614d t6423: mark remaining expected failure under merge-ort as such
+f3b964a07ef70eee6bacefd1ed5f94eb871be902 Add testing with merge-ort merge strategy
+923cd87ac8550a8e277bfeb19198a11b6a8ed854 git-apply: try threeway first when "--3way" is used
+3994ae510ea8f828a1175392e85d387fe0e77682 bash completion: complete CHERRY_PICK_HEAD
+c0c2a37ac2b9338c3a93340cbcbab69690da4df0 git-apply: allow simultaneous --cached and --3way options
+c5c0548d793edf4a6e319f237f3a01a1f093bbd7 completion: audit and guard $GIT_* against unset use
+39e12650d71d5ecf195a31eb096ff1d140be2467 config.c: remove last remnant of GIT_TEST_GETTEXT_POISON
+0996dd3d6dbcc132cf212f3420b89947fd9cc2ba gitweb: add "e-mail privacy" feature to redact e-mail addresses
+20283a3f109fc7ebdae0e0d58ae0b1de32b85fdf Merge branch 'en/ort-readiness' into next
+f826bcc6b86dde7c40b4b4f2b7a3f3b8f4e88d2b Merge branch 'jz/apply-run-3way-first' into next
+8a19c3cd6ed8355ddcc0a009d26356f2d320ab86 Merge branch 'gk/gitweb-redacted-email' into next
+01d6ff5069ceccd3a39dc464be5bd666f50e1ade Merge branch 'ab/detox-config-gettext' into next
+b9b8bde89d5a90fc4a755fd5b1b2d6962b817fa9 Merge branch 'vs/completion-with-set-u' into next
+5810d0e2c21667d8533a7f16f96e2cd0abdd872e Merge branch 'ab/complete-cherry-pick-head' into next
+7d1e84936f59976b1fce260a447d8781a07cd620 Merge branch 'jz/apply-3way-cached' into next
 
---===============4707494826859024665==--
+--===============7084844348598094913==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b911d4703932-cc42f43761c9.txt
+
+0996dd3d6dbcc132cf212f3420b89947fd9cc2ba gitweb: add "e-mail privacy" feature to redact e-mail addresses
+81ed96a9b2c5ad8a3b1ea04fd6cd273557b76c58 fetch-pack: buffer object-format with other args
+6db01a73085b8f34d958dd537bbca82a39187885 Merge branch 'jt/fetch-pack-request-fix' into jt/push-negotiation
+8102570374a87c032bff2d7114c67390f55f9a1b fetch-pack: refactor process_acks()
+57c3451b2e36d003aa7fc398c644ce71ab668b5e fetch-pack: refactor add_haves()
+6871d0cec62dc12d0c5f7390eee8a80614919578 fetch-pack: refactor command and capability write
+3ebe4ada2829844e4bed416890d6c8a64a191167 fetch: teach independent negotiation (no packfile)
+bd55d6ba36a81de8a7cb30e0f96681582f6b94cd send-pack: support push negotiation
+9955a48066bfa86d3100938ed4c3a783cf3286d5 bisect--helper: reimplement `bisect_run` shell function in C
+d5d3d2eed2b451fc199ca3456f9c5c7e9105c423 bisect--helper: retire `--bisect-next-check` subcommand
+be84ab1e3f13673d90fad0f4d4e609956edcee15 Merge branch 'dl/complete-stash' into jch
+6485251124ab6fa806a46033b52dc1a3e10a7ea5 Merge branch 'jk/ref-filter-segfault-fix' into jch
+56a0ee9c0f6cf56470e0dbad5955475323707bca Merge branch 'tb/pack-preferred-tips-to-give-bitmap' into jch
+fcef6350d0d0ecde2840fe9845abe2e57edf045f Merge branch 'ab/perl-do-not-abuse-map' into jch
+fd81f77681ec11f27635fa056be52b14c5b0a1f9 Merge branch 'fm/user-manual-use-preface' into jch
+8f69d97d63ca6ab60341c1b00dbe402baf8541f5 Merge branch 'tb/precompose-prefix-simplify' into jch
+46082ea0f8a943f0fd217a6089e228ecf89c42c0 Merge branch 'ab/send-email-validate-errors' into jch
+530d6af9c26138fccde17f5c03fa1e2fc5da04b9 Merge branch 'cc/test-helper-bloom-usage-fix' into jch
+83a0b4d5cc46a91c6688f69a52e36c15133eb5f4 Merge branch 'ds/sparse-index' into jch
+0104f536438ed82d8f70a8088877dd85046d4ef6 Merge branch 'en/ort-perf-batch-10' into jch
+ed9ef8f77a842a687cbf9b89ac4cef04cb9b5212 Merge branch 'en/ort-readiness' into jch
+7030a6e45dc0993a1b391e36f13f01d80963f819 Merge branch 'jz/apply-run-3way-first' into jch
+2d5e496cb3f38972b09f69f0f407cacd5a65d74c Merge branch 'gk/gitweb-redacted-email' into jch
+52c8569006a07dd2e6e8a6216e09808c8d7ddb80 Merge branch 'ab/detox-config-gettext' into jch
+a2b58bb0c60d313c80ec2d9f196a73f56bf35737 Merge branch 'vs/completion-with-set-u' into jch
+9d9aca921acd3f3be62752f13890f9c373b21054 Merge branch 'ab/complete-cherry-pick-head' into jch
+cf2f309a6fa3c16962a7bdad0cbba103d0156f0e Merge branch 'jz/apply-3way-cached' into jch
+95de7034de562b89658e4c0f329e82b6ae17de22 ### match next
+c9359f386129b94595ff82690fb8e814912a835f Merge branch 'ar/userdiff-scheme' into jch
+4a412a270f7bd1800076b89d761c0cd7451ab7fb Merge branch 'ab/userdiff-tests' into jch
+6a2d86c967a67bbc3d6df2e32f63fa507cfd49fd Merge branch 'ds/maintenance-prefetch-fix' into seen
+df8f9adb25e429c8b7ad868b1b478430987291ac Merge branch 'zh/trailer-cmd' into seen
+dd9f62b439dcbb8d7d08c7af098a655cb8fe4aea Merge branch 'ab/describe-tests-fix' into seen
+c9bba46e3890a170c79b9059480124761c267175 Merge branch 'ab/pickaxe-pcre2' into seen
+cda40066a390a489e5a0a9b9b60a5ce1db11707a Merge branch 'ag/merge-strategies-in-c' into seen
+e5be97aa9131fdf046f439e9255a72e734ab0fb6 Merge branch 'hn/reftable' into seen
+d631609be0cca2f73a2a2443825ca553c58f8ca3 Merge branch 'mt/parallel-checkout-part-2' into seen
+96dfe6259b5fc9447e1a47f1cbaf76d98dd48aaa Merge branch 'ab/unexpected-object-type' into seen
+1667201b7b684ddaccfcec3e0e6ec93bdd20342d Merge branch 'ab/tests-cleanup-around-sha1' into seen
+4875655fb67d30365c703ee83f6d44be705c064d Merge branch 'ds/sparse-index-protections' into seen
+6a39f7dcd7b6d27c39be8f2843d63d135e8e87ce Merge branch 'mr/bisect-in-c-4' into seen
+6d83ff7d0a777b1f8bc6a4092b9d613f934006f1 Merge branch 'mt/add-rm-in-sparse-checkout' into seen
+584b365076d092e7680cc744cf8c8becae098288 Merge branch 'jh/rfc-builtin-fsmonitor' into seen
+a7e3b7deedbba09c616a61b8d4ea4c5b955fefda Merge branch 'sg/bugreport-fixes' into seen
+cc42f43761c9012d70832866a76ac7ae8008816e Merge branch 'jt/push-negotiation' into seen
+
+--===============7084844348598094913==--
