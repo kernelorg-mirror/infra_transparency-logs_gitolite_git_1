@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4242419871386123153=="
+Content-Type: multipart/mixed; boundary="===============0010845063765053804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 09 Apr 2021 15:12:33 -0000
-Message-Id: <161798115324.21949.14014528900638083915@gitolite.kernel.org>
+Date: Fri, 09 Apr 2021 15:14:48 -0000
+Message-Id: <161798128876.22718.5137803295333999533@gitolite.kernel.org>
 
---===============4242419871386123153==
+--===============0010845063765053804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 8a12f8836145ffe37e9c8733dce18c22fb668b66
-    new: 864db232dc7036aa2de19749c3d5be0143b24f8f
-    log: revlist-8a12f8836145-864db232dc70.txt
+  - ref: refs/heads/dev-queue
+    old: d28345b73719e670f23795148e133424df6e7021
+    new: 6e5a31eefee39d26cff3058589418250e35a46d9
+    log: revlist-d28345b73719-6e5a31eefee3.txt
 
---===============4242419871386123153==
+--===============0010845063765053804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a12f8836145-864db232dc70.txt
+Content-Disposition: attachment; filename=revlist-d28345b73719-6e5a31eefee3.txt
 
 1c84b33101c82683dee8b06761ca1f69e78c8ee7 bpf, sockmap: Fix sk->prot unhash op reset
 144748eb0c445091466c9b741ebd0bfcc5914f3d bpf, sockmap: Fix incorrect fwd_alloc accounting
@@ -58,5 +58,22 @@ ac075bdd6899b03785d7fbe3abed1cdf13162726 Merge tag 'mac80211-for-net-2021-04-08.
 4b5923249b8fa427943b50b8f35265176472be38 net: dsa: lantiq_gswip: Configure all remaining GSWIP_MII_CFG bits
 2d1b50abf8d4964b14705bfec253be6e80c22099 Merge branch 'lantiq-GSWIP-fixes'
 864db232dc7036aa2de19749c3d5be0143b24f8f net: ipv6: check for validity before dereferencing cfg->fc_nlinfo.nlh
+344c590611e91fda632840216e76a2f994130094 checkpatch: Fix warnings when --no-tree is used
+da3127b07dcc48a008793e08f5c6127ac96caf4b checkpatch.pl: seed camelcase from the provided kernel tree root
+a5a8d4eff46b087570525c8510472a7b254c86a4 ice: Fix a couple off by one bugs
+d93a40d6ec6b88643780bb4221549f48e252fd03 iavf: Fix asynchronous tasks during driver remove
+bd9ecb80f1378d99b3562b3a4fb59e30fc4fb004 i40e: Fix correct max_pkt_size on VF RX queue
+b5d8bbf31a75c2c94e7d026ddb84cb09239b5058 iavf: Fix return of set the new channel count
+633e49a0e935da1713631fd83dcc1266b3a14ea6 i40e: Fix NULL ptr dereference on VSI filter sync
+183fb711ed3e4c66d0e1f3845606b9e712072744 ice: Fix allowing VF to request more/less queues via virtchnl
+248257af15b9ea44d18973753d5825f7ae6b584f ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
+83c6d4d3379d5bafe45b72249781cc28dfc0cd3c ice: Fix VF true promiscuous mode
+f64f5c27f3a8f6425734f33c5124627f267f40a4 ice: handle the VF VSI rebuild failure
+088005965153d22887ba97ccc301d69afd7d7727 i40e: Fix error handling in i40e_vsi_open
+a2159a41156588148fb18bf796d18057f92faf8a i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+14b2e56fe290bab9083c8fcebb9c37ff0583d7e9 i40e: improve locking of mac_filter_hash
+1970bff8a24ff2d59a27ff060c8e4a2da562bc5c ixgbe: Fix NULL pointer dereference in ethtool loopback test
+b56f4d62b2d94ea5f0806b8533b23beb6357fad7 i40e: Fix autoneg disabling for non-10GBaseT links
+6e5a31eefee39d26cff3058589418250e35a46d9 ixgbe: fix unbalanced device enable/disable in suspend/resume
 
---===============4242419871386123153==--
+--===============0010845063765053804==--
