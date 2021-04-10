@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4362821756021160867=="
+Content-Type: multipart/mixed; boundary="===============8067737498545831155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 10 Apr 2021 08:58:44 -0000
-Message-Id: <161804512476.592.2837060846342072518@gitolite.kernel.org>
+Date: Sat, 10 Apr 2021 08:59:08 -0000
+Message-Id: <161804514831.854.14936533435595106715@gitolite.kernel.org>
 
---===============4362821756021160867==
+--===============8067737498545831155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: a7dc1e6f99df59799ab0128d9c4e47bbeceb934d
-    new: 6c00365d531163a44ce57d862883db9424bd19ab
+    old: 6c00365d531163a44ce57d862883db9424bd19ab
+    new: 0d5cf954656387a595a8d5bb7e376f31829aae4d
     log: |
-         88adcd66108eae9d96aac7e38686a77fcb4cde24 w1: ds2805: Use module_w1_family to simplify the code
-         6c00365d531163a44ce57d862883db9424bd19ab w1: ds28e17: Use module_w1_family to simplify the code
+         0d5cf954656387a595a8d5bb7e376f31829aae4d speakup: i18n: Switch to kmemdup_nul() in spk_msg_set()
          
 
---===============4362821756021160867==
+--===============8067737498545831155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618045119 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618045143 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1618045119-fbeae3a698e651125fae33b91de7612dbb0aa8a2
+nonce 1618045143-03731057577baaaf2647727d7a6ac8b277fbe560
 
-a7dc1e6f99df59799ab0128d9c4e47bbeceb934d 6c00365d531163a44ce57d862883db9424bd19ab refs/heads/char-misc-testing
+6c00365d531163a44ce57d862883db9424bd19ab 0d5cf954656387a595a8d5bb7e376f31829aae4d refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxaL8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kWQP/i8T/1vSVl2to3Eav6JZ
-4gucCVcHp3FnqQWwpgqdrpWaLp++mu0Beardpg3fDaCTriHGVKJg0j2beSltmL39
-ngkTkHf2Krey8Wg0EKCuwT5VnOf0pA1WBWq/w9MmazqGDLrGXOKyeC7RAOS0ojeM
-JFq9GkPBk2Yzukgay3+75UFmdHoyM6h633EyYr8OjEmW7nOkHrqDy0R/4rp/JZUh
-uoODlyeTPBagI4ekysUOoRt2iBks8uN65jiqi95CVQIlqmaNh6DqIqUvQ4VykMq2
-fNbdBAWqHLWqgn0+qbWX8+XNHrqgImDDwhxlPHog4P8RqYO3ck8CAHqtLGFUrsps
-JHPCZzjkq1Yd8htTMo02r1xvnXmw82byutXzNxByU2hVYBDHvivpZav3MWll9xlk
-soRBloccQkOkZKeKBdnUPuACLhmzhp+9YenyLdIf0tnQqWeCycQT8AGIOpGIkK2s
-eBYIwbGpHwcY8O/mPjvxzSDss/tsTxuAtJIaCoE6mHzLUeJIOXSRDZ7jlHIdVjY/
-CzXvXN2wtnNiMemRB+JTeOBRkgdpdTRJOfeCzwLd2fKaxWIObxJgjGwFrudF/6a2
-7JdxbLWLQ4aQys5hfM7gQNXukH/wRh07LtaRmHI2sTEO0bNIpxGK35LB8fBGocz5
-zI15wLSAtIXTRO/Crg3PRi8F
-=J4sw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxaNcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AQsP/0on0NilW/2UP9nHc4Eb
+P7ZqL7frr8frurw5N0K0gsWB/hh8z/OxhKJSuXPNBp8OWizbHS8I0wdBdcwDTykS
+VSUm4HYTNZzND0Q2nk+ekksnynD4Mp+STdl4Wwje8Mwny2cWLnFmT/cqs7iE2+aj
+dtp3SK/PiskrPaeJnq33P7PCbzslZFpkYBzW3CX3tfAl7ENZQ46SnuBcMrqEbBAC
+Bfogf7zuKiBo1sFqzpu0EXO9Xs7q+Z6qgbg0uMu52RfSdouP0j2N4wG3MP8jWTHw
+a+5mduEjAoG9djklwIiOyNWJ6yWnog5CRp7VOj05hVdz9BngVkpav+3Q8GHiXu8N
+mSc+mMz2p+6K24UyrsVLPbukNT5LU1sPIC7DFjECxtursKkKmngBMXfkbUZQtl6Y
+uYkRLy/LFW2Br9GsiBercmPMYMXktdfHXMoVlUxmEZ+QsaGiss2ZKYUc66d/Dpbc
+mQEIwuPAKl+lyLDsUBED15I3cVG9bOLRk2tXCHgrJ4jDaW21mrLhX6i+V3kAu4DX
+l1qcDvEBkZSNiXJx/Zk4ZHMJTKyDg45uGVpTTe6KXbyKZB0t9O4dKMGVMA8C41x1
+In1FMHb0Aj1dNkQxvlw6YOxcMARSwQ48Db71lJNAH/0lYKvsYQ1g0CnT6f++Nw0z
+feRC6/8NZwGDDHH095ZWTioh
+=9OtG
 -----END PGP SIGNATURE-----
 
---===============4362821756021160867==--
+--===============8067737498545831155==--
