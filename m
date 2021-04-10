@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8067737498545831155=="
+Content-Type: multipart/mixed; boundary="===============4295749603818240710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 10 Apr 2021 08:59:08 -0000
-Message-Id: <161804514831.854.14936533435595106715@gitolite.kernel.org>
+Date: Sat, 10 Apr 2021 09:01:39 -0000
+Message-Id: <161804529932.28847.2196996407447951493@gitolite.kernel.org>
 
---===============8067737498545831155==
+--===============4295749603818240710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 6c00365d531163a44ce57d862883db9424bd19ab
-    new: 0d5cf954656387a595a8d5bb7e376f31829aae4d
+    old: 0d5cf954656387a595a8d5bb7e376f31829aae4d
+    new: 2954a6f12f250890ec2433cec03ba92784d613e8
     log: |
-         0d5cf954656387a595a8d5bb7e376f31829aae4d speakup: i18n: Switch to kmemdup_nul() in spk_msg_set()
+         2954a6f12f250890ec2433cec03ba92784d613e8 firmware: qcom-scm: Fix QCOM_SCM configuration
          
 
---===============8067737498545831155==
+--===============4295749603818240710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618045143 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618045294 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1618045143-03731057577baaaf2647727d7a6ac8b277fbe560
+nonce 1618045293-fac356f20fd5609e8866406b6b57442d3f31ce1f
 
-6c00365d531163a44ce57d862883db9424bd19ab 0d5cf954656387a595a8d5bb7e376f31829aae4d refs/heads/char-misc-testing
+0d5cf954656387a595a8d5bb7e376f31829aae4d 2954a6f12f250890ec2433cec03ba92784d613e8 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxaNcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AQsP/0on0NilW/2UP9nHc4Eb
-P7ZqL7frr8frurw5N0K0gsWB/hh8z/OxhKJSuXPNBp8OWizbHS8I0wdBdcwDTykS
-VSUm4HYTNZzND0Q2nk+ekksnynD4Mp+STdl4Wwje8Mwny2cWLnFmT/cqs7iE2+aj
-dtp3SK/PiskrPaeJnq33P7PCbzslZFpkYBzW3CX3tfAl7ENZQ46SnuBcMrqEbBAC
-Bfogf7zuKiBo1sFqzpu0EXO9Xs7q+Z6qgbg0uMu52RfSdouP0j2N4wG3MP8jWTHw
-a+5mduEjAoG9djklwIiOyNWJ6yWnog5CRp7VOj05hVdz9BngVkpav+3Q8GHiXu8N
-mSc+mMz2p+6K24UyrsVLPbukNT5LU1sPIC7DFjECxtursKkKmngBMXfkbUZQtl6Y
-uYkRLy/LFW2Br9GsiBercmPMYMXktdfHXMoVlUxmEZ+QsaGiss2ZKYUc66d/Dpbc
-mQEIwuPAKl+lyLDsUBED15I3cVG9bOLRk2tXCHgrJ4jDaW21mrLhX6i+V3kAu4DX
-l1qcDvEBkZSNiXJx/Zk4ZHMJTKyDg45uGVpTTe6KXbyKZB0t9O4dKMGVMA8C41x1
-In1FMHb0Aj1dNkQxvlw6YOxcMARSwQ48Db71lJNAH/0lYKvsYQ1g0CnT6f++Nw0z
-feRC6/8NZwGDDHH095ZWTioh
-=9OtG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxaW4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q7wP/iBOtrM2My33ogwdNzf3
+uMRXwZARgmVKb7KH5b/daTZ82utj+4tm5lcmcSnVHLCNnTgw7nx60Lct2SX7KlT+
+lztloKHV3w7plwPrA3GT/PNoHKHeLNdPNxzJBEBJjURKv2MnHMfY5OVDTF58tiFm
+thAgoi4EtDOFsgIXkt14awIzbIvr+In55EpkVWoO6/5FW9F+rcEi0JEjbC+vwaUV
+rGJSdm79ZZwyzlAv96Xj6owwwVRraNN/b/yi9wcuaaYTU5xHQmmQmNTPcRSlx3Yk
+FWE6ZDblSe6d1IR7IZqdvp1jhF92PMAU/bs6DEp6sC+2OSgnE6cfRW1pNBrI5RbX
+XKjer3MdO1x6zw1/W53Qua47/+JBeLl9V92Aq/yi7SSu5Kp54vJipHEeDuIZd8dv
+JAgOeUniB0Tty87uvvrKLB82lnaXAEKvAdUaR+IJxlM6T5/KdSDwIbaEZpFC8FMj
+khcQVwCeWE533rr7p3o2r60/RTX3fl1X+Uf1ZbflAm5+1c34IXZ1yQIX7+dOJnie
+5eHs/PmyXzzP11ZDxVszlyngEifqk0ND0AjoQ9gVf5DrHL+PrAUVr/VR6SNCGet3
+4sDgdJHzmiHL4cUmFkV4jbSyZucl3SRUcZGyJ65jDVm/3TqPz7DpEJxqbtx7BO3W
+Al9CoeywbOXjbK2dLaur8gpM
+=aA5a
 -----END PGP SIGNATURE-----
 
---===============8067737498545831155==--
+--===============4295749603818240710==--
