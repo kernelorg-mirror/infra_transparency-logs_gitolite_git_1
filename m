@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1262008359598375712=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 10 Apr 2021 11:40:14 -0000
-Message-Id: <161805481460.8907.14699990787256301881@gitolite.kernel.org>
-
---===============1262008359598375712==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sat, 10 Apr 2021 11:41:02 -0000
+Message-Id: <161805486231.25503.14372168979215184450@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 3c7aecf09a7500b687b47141247c79afa993c034
-    new: 03067dce2649c5574c1b650effe330a4b24b1871
+  - ref: refs/heads/queue/4.4
+    old: 97014e912216f6bcad7c6fdf19fa2c4852f4a410
+    new: 890a3948fd4a7eea23e24d65071ed6ee95ea9e5c
     log: |
-         03067dce2649c5574c1b650effe330a4b24b1871 5.4-stable patches
+         890a3948fd4a7eea23e24d65071ed6ee95ea9e5c iio: hid-sensor-prox: Fix scale not correct issue
          
-
---===============1262008359598375712==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618054813 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1618054813-b16cd626f0c50e2f3a950e9f34f65ffdff5eac26
-
-3c7aecf09a7500b687b47141247c79afa993c034 03067dce2649c5574c1b650effe330a4b24b1871 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxjp0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ftcQAIm7w82nCZTGKKA0/Zyj
-Yo+t9MXqPVVRVLg46C24txKk2X6cwqWBCA1baGIX5kfHK2VjwYN38Mtm5MWodfPm
-zU8RlVR1ccF74Bhnf0Bf9MrTimBm6ka6NJsgsbNApyUVNjAsjOtRUN/aNrxVNHQn
-W6iGq9h1hUIK1jLOeaIDn2y87p/f6h/ZhGCoec7jShzCINXNyGHUgT0TyNLlvhGS
-ki5phznezq6D/ToTIk5buLDF9p7Io64oU7fH2tivlm+bD5TT9je/Enx7JYIfFkP7
-Ne5EWOj1TXTmTSDZ+RQb9ZmpcQXRgmjM63lvtpxMcBk95GmZYBTbcqiMh4D7TbnV
-AcJ+LdfGYmX2o6Tw4dHZbsZpZOqE7itSVsZ15it03pbfMhnNz8QKbzWuH4o3SeMo
-Vwt5YBxfeBoq3FucJCnWjfPIGBPN1uYnE1Lg+Hb9gXClNG27eP/Ptdh32n7OfAAj
-BqCZ3IXrD2XRTpRvdi3dx9PI7xHna5vBki7qr9jOuuaSd3yNJLK2q1+hNyIUf5tn
-W6/ir9+YD+bzMKL3Y1/ZyfK4mISafjCYUoRG8ipkXWQq8Vk8hEUhn4eqMTY6Txej
-4broo7J/xK9Hqp3bEVK4Y7KLO0t4KGlbHjHrkow5TFtEwaWqJvqqppT0NInQDCCc
-BZEg9+zRSt2PLav8kRc+EI1y
-=VKzB
------END PGP SIGNATURE-----
-
---===============1262008359598375712==--
+  - ref: refs/heads/queue/4.9
+    old: e9fb304621757529aab03b7989ea8190bb910de7
+    new: 0b2c64407f8dc43b7a12f5e5cc7914f13ed2ca3f
+    log: |
+         8fcc3d4317c5aba697e6cd2f8edb39d54fc04326 ARM: 8723/2: always assume the "unified" syntax for assembly code
+         0b2c64407f8dc43b7a12f5e5cc7914f13ed2ca3f iio: hid-sensor-prox: Fix scale not correct issue
+         
