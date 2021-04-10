@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3861743408776095074=="
+Content-Type: multipart/mixed; boundary="===============4546741278535921080=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 10 Apr 2021 05:59:09 -0000
-Message-Id: <161803434907.22602.5983008440104471986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 10 Apr 2021 05:59:24 -0000
+Message-Id: <161803436491.22755.9223993000316085253@gitolite.kernel.org>
 
---===============3861743408776095074==
+--===============4546741278535921080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 88d8cb7b5f2177dfec9f12377762534dd7c64005
-    new: 903a0e76aa01f78782bb32b6202dc066c3fde8f1
+  - ref: refs/heads/driver-core-next
+    old: c2f3f755f5c717f3621b33ef06d974b9cec4a104
+    new: 312723a0b34d6d110aa4427a982536bb36ab8471
     log: |
-         903a0e76aa01f78782bb32b6202dc066c3fde8f1 tty: pti: Remove Kconfig leftovers
+         312723a0b34d6d110aa4427a982536bb36ab8471 debugfs: Make debugfs_allow RO after init
          
 
---===============3861743408776095074==
+--===============4546741278535921080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618034344 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1618034343-63c75422f0bff2adf40273abd48c5a50a68ac907
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618034360 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1618034359-d13a993afd5a270730a8b1fe344e63e91d2d6d49
 
-88d8cb7b5f2177dfec9f12377762534dd7c64005 903a0e76aa01f78782bb32b6202dc066c3fde8f1 refs/heads/tty-next
+c2f3f755f5c717f3621b33ef06d974b9cec4a104 312723a0b34d6d110aa4427a982536bb36ab8471 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxPqgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yx8P/2lWw1iZy8woABPZB8Yz
-tjBasd0wVw8cn2hSZ8tpjbrJkv/yJruknXAO+tVTYZtU/uwAkRNRkr6c+z2Eexnr
-72Uz0Z2fUTKulK2gtxuGPG4i0P5gQ74FydsMb9ItadOJVzAzHS1bNNJb+JV5Tqpd
-woKttZ+aAjIPpzesDvQ/yCHtR4ILEN1/Azvpdqg+5WFEK830bYj4jdUyoQ+2tPmh
-Ei75kYAmd4thAaAmjMnr88XCCSH9s66zS4Yb76dj7s5IYHE+lLucHnNh9EsKjwao
-64WqXVzOy9X/OCMdWDDVO7EoQ/Cgzqi7dqgjhlvFMGNWw/2GXv8ZDGPMl7WKmXCQ
-Z3J2hWbzRcYq0NTxsq5iYyRdPE65XfT/c3eldAPiGBV/oKwoirMuyOiO4lSEJaOj
-wPy55YU484pZOxpjbbu3DlKFUETm9wl8uBBw693EslmzSGxa9hSa6cGkRcyXSZFl
-7/QPj1NOaqjaH0wA9Bcwz0zfzFi4POIKWnGoUbnuMwulon71Cm+fx0l9icSVHFwn
-h+mTFLwJupymANMGRoDeLlIz6iitpLbudrzLLBadXX/CGb6JuKyNrf1FENJpRLW9
-V0g/ZqOUB1x8cWzR383zrbme5QX4f+vOSVj+l1I9p8xzjLW5+Mo9ifxfm77VepSy
-XzuTVo7EK2TvDsCLujr+cVtp
-=QSPf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxPrgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ws4P/193ukotynS7rFCVM+Yy
+YDPtCbE5xbGHhwwLfaVEoihsMWSF+P0EW9bJzfwxvStygOP6Thwfj7TJ1Q0aTAT0
+FDsCslvimnqru9pdeNbKAGlr87RqXt2TTwEY9oWq4yOtxzn+V+6owh4V4Q11MOkM
+Xv/EDFQh6EaB28+jj+XcCBr0ttHzX9TkXEfIbOZhUt7MjZoZ7n+9uEzaJQ86OUbx
+tuZ/i/SBNsw9ElfdwH+EI4U+8jdkJdTL5qaLCXjdbjaW6r8VBJH3Vcg0gQ7K4K/J
+l29uP7tFIYqjP6v9E8bnPt8D9pjU5Vg5flPjRJ2uspLo4NjqGCiSYFTtceBYFJd0
+tut9YK0gTQuGM09p6rLlbx9tpfrANQEwNmtjx6fRQNvlnXNI+4svy3pCpxA4ZIna
+mO0wdwj4RsSnc+NjSh8TIAyf2Zr+02y1DYfGGaEF6y31LUOdMM/RttJzj2m3gEho
+TiSDnvdqiYq8pQ9rdKITuxUJduk/n0eH7AvL4DcpbF4XTCDLnaYVbsE+eo9BwPnc
+yGnd4YaDVUI+glHGgIJA7hywVmuNtLTZna9pbwnCeu1Y7LKAM3WLmnPoo1HP8iNq
+FrWjMIK8Oa3Emcl4gX61+TEHqLh5e67CWdpf8UjKT9wI4kcziYFPVDvwGnu8SBLV
+603NC9dx/abm0Iehge4jvW+S
+=eEcj
 -----END PGP SIGNATURE-----
 
---===============3861743408776095074==--
+--===============4546741278535921080==--
