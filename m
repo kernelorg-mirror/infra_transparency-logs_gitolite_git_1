@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1938345772473412230=="
+Content-Type: multipart/mixed; boundary="===============2266852260105939440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Sat, 10 Apr 2021 02:55:18 -0000
-Message-Id: <161802331895.2097.16369890468606841773@gitolite.kernel.org>
+Date: Sat, 10 Apr 2021 02:58:00 -0000
+Message-Id: <161802348047.2857.4156964576097012789@gitolite.kernel.org>
 
---===============1938345772473412230==
+--===============2266852260105939440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/nvdimm-meta
-    old: 722ffe14d3ec1009a9245b0f0ba49805643d92bb
-    new: eff89ef1681f077540f75b3561bb532573c44458
-    log: revlist-722ffe14d3ec-eff89ef1681f.txt
+  - ref: refs/heads/master
+    old: 454859c552da78b0f587205d308401922b56863e
+    new: 9288e1f7d396b7702649d78f2c711c3e0020c71d
+    log: revlist-454859c552da-9288e1f7d396.txt
 
---===============1938345772473412230==
+--===============2266852260105939440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-722ffe14d3ec-eff89ef1681f.txt
+Content-Disposition: attachment; filename=revlist-454859c552da-9288e1f7d396.txt
 
 04052a318fb93491f1f3b4d282cb806f588e9326 net/ieee802154: remove unused macros to tame gcc
 8fc0e3b6a8666d656923d214e4dc791e9a17164a xfrm: interface: fix ipv4 pmtu check to honor ip header df
@@ -349,21 +349,5 @@ e156656717b810202914b77557de8112df4dad0d lib/test_kasan_module.c: suppress unuse
 4e04e7513b0fa2fe8966a1c83fb473f1667e2810 Merge tag 'net-5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 adb2c4174fb2294bfed3b161174e8d79743f0167 Merge branch 'akpm' (patches from Andrew)
 9288e1f7d396b7702649d78f2c711c3e0020c71d Merge tag 'perf-tools-fixes-for-v5.12-2020-04-09' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-a6537a7045a9cf64f5bbb3c77b863fb200e0d958 bcache: add initial data structures for nvm pages
-86aa4ba303d2c4034704cf1741e403954d00bbf3 bcache: initialize the nvm pages allocator
-93b1d08c73e436299e353b7ef028b4ce59a3915e bcache: initialization of the buddy
-7d56ad4c64cf2003f43534c85c6c821e95cebc19 bcache: bch_nvm_alloc_pages() of the buddy
-c7a2bd57b117750c38a7569108648d5f64bd0155 bcache: bch_nvm_free_pages() of the buddy
-d0d3e6072cc0db43e8f50fdea2bb83731378df4d bcache: get allocated pages from specific owner
-fe342197cb0c0929ea289958cf57773afc4af8d8 bcache: nvm-pages fixes for bcache integration testing
-fcd7cd215104b91da9ce7df944508200fa4dc148 bcache: use bucket index to set GC_MARK_METADATA for journal buckets in bch_btree_gc_finish()
-36d73f0e1b7595566a6dddd9c0afe41a96a4e759 bcache: add BCH_FEATURE_INCOMPAT_NVDIMM_META into incompat feature set
-27082b6f9a79bd4b6486a031899ea10d83d939ad bcache: initialize bcache journal for NVDIMM meta device
-c81edb7ca0622f8b6e9b0677191950cf53f33c4c bcache: support storing bcache journal into NVDIMM meta device
-a753bb9c78b1a8dc118e42008b0ccc4615ebfdce bcache: read jset from NVDIMM pages for journal replay
-b61809c3abf650091dd66d1afda9c967bec4a733 bcache: add sysfs interface register_nvdimm_meta to register NVDIMM meta device
-bcb4aaf18fc265d5548f762fb73c9d1f893008f9 bcache: use div_u64() in init_owner_info()
-7769cb9e0d610add6ef9690f3bd7e8261ae8fec2 bcache: fix BCACHE_NVM_PAGES' dependences in Kconfig
-eff89ef1681f077540f75b3561bb532573c44458 bcache: more fix for compiling error when BCACHE_NVM_PAGES disabled
 
---===============1938345772473412230==--
+--===============2266852260105939440==--
