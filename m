@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse-dev
-Date: Sat, 10 Apr 2021 13:38:49 -0000
-Message-Id: <161806192942.18643.7818211028298807051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse
+Date: Sat, 10 Apr 2021 13:38:56 -0000
+Message-Id: <161806193692.18734.5233968427232109970@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse-dev
+repo: pub/scm/devel/sparse/sparse
 user: lucvoo
 changes:
   - ref: refs/heads/master
