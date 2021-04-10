@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8180097825273742228=="
+Content-Type: multipart/mixed; boundary="===============4362821756021160867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 10 Apr 2021 08:52:40 -0000
-Message-Id: <161804476056.29987.4770078104931926065@gitolite.kernel.org>
+Date: Sat, 10 Apr 2021 08:58:44 -0000
+Message-Id: <161804512476.592.2837060846342072518@gitolite.kernel.org>
 
---===============8180097825273742228==
+--===============4362821756021160867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: b195b20b7145bcae22ad261abc52d68336f5e913
-    new: a7dc1e6f99df59799ab0128d9c4e47bbeceb934d
+    old: a7dc1e6f99df59799ab0128d9c4e47bbeceb934d
+    new: 6c00365d531163a44ce57d862883db9424bd19ab
     log: |
-         005169157448ca41eff8716d79dc1b8f158229d2 binder: fix the missing BR_FROZEN_REPLY in binder_return_strings
-         a7dc1e6f99df59799ab0128d9c4e47bbeceb934d binder: tell userspace to dump current backtrace when detected oneway spamming
+         88adcd66108eae9d96aac7e38686a77fcb4cde24 w1: ds2805: Use module_w1_family to simplify the code
+         6c00365d531163a44ce57d862883db9424bd19ab w1: ds28e17: Use module_w1_family to simplify the code
          
 
---===============8180097825273742228==
+--===============4362821756021160867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618044753 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618045119 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1618044752-48a74eb71376f07953178e7c1da8028df5bfa0bb
+nonce 1618045119-fbeae3a698e651125fae33b91de7612dbb0aa8a2
 
-b195b20b7145bcae22ad261abc52d68336f5e913 a7dc1e6f99df59799ab0128d9c4e47bbeceb934d refs/heads/char-misc-testing
+a7dc1e6f99df59799ab0128d9c4e47bbeceb934d 6c00365d531163a44ce57d862883db9424bd19ab refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxZ1EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/rcQAI2bLb8fZBer7suPNFi0
-oWvoS8nh6TQ9kGJaj++Gb9+ZGJlvdEQ2oQVaryHo1tE/UiYec3TVwaUsCBQUQ2js
-QR5LRj3//SJK475Wz86oUVLHhdlX1dwDViGv754UXW63GjF3ReNBf/O4GCBTLGwP
-9zzRvrCSIBMkyHGpAjiSgbD1wPIhldciR5VZRcbFmx9v2ykxe0a3zZIUwAgm1rj3
-S+eB3dteMxe2yp6oz2CJQsPRQFxir1weF2lDZM57OVgPDQuBOhQ61auxSGISFNCq
-AiyJuVrXVQ+fHqxHhDlvVTyWZaq4EcZuEDyNrFQ4cf7zXeLZpFol70chXRw0oU2C
-N+U0KIAJWjYDwxTm71EHqPxt7l4ETO9vmubP07ketwIo7KIKsvk1sx5juhN5C4KT
-C4czF/OEUTQJrBLN58JP4OTgcscIOjcTHCps+ilZXithzWV9hANbT1ftfqr4JfAB
-KXKL0LbWuxOvm80IYpA/Iza4noqXsNVCCe/H/DFxFwkJZSTON5IOyOf8quBcICB9
-7xY2KeWOOgkzKd4dKA+JOuv5Ex4NHV7pSxE9iw53kWxMbnZJhi79o8edgP1wchBT
-ucnNMzc3B5RQ/G/lGPTZ9+HhDMp0KBEbB7HHFE3pRK2kNUpPBAA/wQZokZst42Ge
-QUAAPKKujOReY4t46Zq1Q8dI
-=7vaL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxaL8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kWQP/i8T/1vSVl2to3Eav6JZ
+4gucCVcHp3FnqQWwpgqdrpWaLp++mu0Beardpg3fDaCTriHGVKJg0j2beSltmL39
+ngkTkHf2Krey8Wg0EKCuwT5VnOf0pA1WBWq/w9MmazqGDLrGXOKyeC7RAOS0ojeM
+JFq9GkPBk2Yzukgay3+75UFmdHoyM6h633EyYr8OjEmW7nOkHrqDy0R/4rp/JZUh
+uoODlyeTPBagI4ekysUOoRt2iBks8uN65jiqi95CVQIlqmaNh6DqIqUvQ4VykMq2
+fNbdBAWqHLWqgn0+qbWX8+XNHrqgImDDwhxlPHog4P8RqYO3ck8CAHqtLGFUrsps
+JHPCZzjkq1Yd8htTMo02r1xvnXmw82byutXzNxByU2hVYBDHvivpZav3MWll9xlk
+soRBloccQkOkZKeKBdnUPuACLhmzhp+9YenyLdIf0tnQqWeCycQT8AGIOpGIkK2s
+eBYIwbGpHwcY8O/mPjvxzSDss/tsTxuAtJIaCoE6mHzLUeJIOXSRDZ7jlHIdVjY/
+CzXvXN2wtnNiMemRB+JTeOBRkgdpdTRJOfeCzwLd2fKaxWIObxJgjGwFrudF/6a2
+7JdxbLWLQ4aQys5hfM7gQNXukH/wRh07LtaRmHI2sTEO0bNIpxGK35LB8fBGocz5
+zI15wLSAtIXTRO/Crg3PRi8F
+=J4sw
 -----END PGP SIGNATURE-----
 
---===============8180097825273742228==--
+--===============4362821756021160867==--
