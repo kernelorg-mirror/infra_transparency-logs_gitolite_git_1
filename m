@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pablo/nf
-Date: Sat, 10 Apr 2021 19:17:33 -0000
-Message-Id: <161808225383.20989.18155286411206265355@gitolite.kernel.org>
+Date: Sat, 10 Apr 2021 19:18:37 -0000
+Message-Id: <161808231799.21392.8759985641959473971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/pablo/nf
 user: pablo
 changes:
   - ref: refs/heads/master
-    old: b895bdf5d643b6feb7c60856326dd4feb6981560
-    new: 440d3db19aed3addc119a475f9efab798ccba663
+    old: 440d3db19aed3addc119a475f9efab798ccba663
+    new: d163a925ebbc6eb5b562b0f1d72c7e817aa75c40
     log: |
-         7ee3c61dcd28bf6e290e06ad382f13511dc790e9 netfilter: bridge: add pre_exit hooks for ebtable unregistration
-         440d3db19aed3addc119a475f9efab798ccba663 netfilter: arp_tables: netfilter: bridge: add pre_exit hook for table unregister
+         d163a925ebbc6eb5b562b0f1d72c7e817aa75c40 netfilter: arp_tables: add pre_exit hook for table unregister
          
