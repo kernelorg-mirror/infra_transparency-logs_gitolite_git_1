@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7071213301268997468=="
+Content-Type: multipart/mixed; boundary="===============4061055809296482332=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 10 Apr 2021 09:10:05 -0000
-Message-Id: <161804580539.12365.3056674548921531936@gitolite.kernel.org>
+Date: Sat, 10 Apr 2021 09:10:59 -0000
+Message-Id: <161804585946.12670.7282522417914349622@gitolite.kernel.org>
 
---===============7071213301268997468==
+--===============4061055809296482332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 312723a0b34d6d110aa4427a982536bb36ab8471
-    new: b4104180a2efb85f55e1ba1407885c9421970338
+    old: b4104180a2efb85f55e1ba1407885c9421970338
+    new: 4ce535ec0084f0d712317cb99d383cad3288e713
     log: |
-         b4104180a2efb85f55e1ba1407885c9421970338 kobject_uevent: remove warning in init_uevent_argv()
+         4ce535ec0084f0d712317cb99d383cad3288e713 node: fix device cleanups in error handling code
          
 
---===============7071213301268997468==
+--===============4061055809296482332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618045800 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618045854 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1618045799-ff5f1bb8d31b60d9dc3a403a345013cef8e4b3c9
+nonce 1618045854-569958a9c252b8b94b5a32df1bc92cc29b9dcfce
 
-312723a0b34d6d110aa4427a982536bb36ab8471 b4104180a2efb85f55e1ba1407885c9421970338 refs/heads/driver-core-testing
+b4104180a2efb85f55e1ba1407885c9421970338 4ce535ec0084f0d712317cb99d383cad3288e713 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxa2gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cvkQAMihIKpjcAAaDzqZxYc+
-58ghDhph/5qcshhOjMw0patE3D6Xh+wa6rmW4UQVfrWXgktV48tcXD1MiynAWaAA
-m0T6Rj/2xkPRSx5eR9yOG6RdBV+089r/Js57wTJi8DDxuV2reMLpaglYni3GhtuI
-nP8OxnxZ7X9OpQx0BhDdPUiWOPJun8Di5+AXV5gADZBr57lB3+tZXDlFWy1cXmFv
-xJQNNL1zlm8yCmbY4p4lRYZ2Hae3uSoKJS01Cp8qcfJ90Re1/Qfx1p1aR0vX70N0
-YzXPgAD4NYrYqxkSlIl+B446gZvbeUyaVNu2YtVS+dqqzBvmS2pViG5cs/2vSYbq
-5WVZzJ3b7XQT1XxtCbhUKBCkQy6oh/qHi2gJoS1dL3kp4f7uqbcdMWNEAomJOU+n
-eaq0yFmQkl12x66cawam0AM2VANX0KcYkgt4o6dsPNfGhKbkEBdB1RFLLDAAJQve
-sH9/Q3oC0XL2QQmIoqI7Gpi2NWrpsGfJzlnxuDGuPPBhtEnWXiWo6oh9w86lif7h
-rhmbmgHsDQvhkrt5pVbl6Gbyj0sElSs8UX9TV7Pz3pgx04vmXHbvTVN1WJTiXsJZ
-56AugiDcRb+2x0SNqnuFCerZ6r6oyJrAg4nTriuTZC+cnsvnCs9MZbBKM3U+Zspt
-2agliLWoQbKumMPPaegFOC7E
-=yN9J
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxa54bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r3YQAK0aatCxJgp0yvtFZyco
+QCbaY+5jhdqF1DV/Hs6LO8t9F4x/FxqjaGH0qx3m8yEoCF7Xco0UsXjpztlLdtSm
+TRIoI9bItlhKNf1s1gZD4aSNwGJVsxK67oK5Z1yqqERGX9DMUzrR+2hnZVVfsT/R
+MhrHnbLOjaVpmMaVLsvo3hsOeHLjjhhUYtQjtYWJoZh9Pu4885WNq9E+9XgVPaOq
+RydYvXlc9ME3bYRKJdicowNdj4r9LB3bx3vP1+LoE7aNsvLf9ri+Ld62JHYXM0bh
+1J8Hi7fW/jNuo/NXZY6nSsyZEZHAh4De5EqSLWSouno8jP/9uCpHOqvpceW4J9ST
+A1WMu9QVnSys4UqN2lwIZotqrZ62l3Y6Fo6G1M/2LaJQq4WvBo8Lr8hZVQ6BdThe
+yQT7WFLFonB1aD9HfbZt6JF1BWkqO/TvYzM5OoSuQ8yi0cb+np3sFlVRY8n1pxyq
+g4uWW1J80lMEmCmHvJJYG/TCeuvipkDKlEscTbnxXgmociksJRGcgVQpvN8av1xO
+LQUypUZAF/TNMigvnGsku1LwBPp2R083yxGMuepFCPAu2NoZj8P6uBBJAiWfxJ50
+AGDxxiPCd+hISS7CvuXbqWPt0IY69S9TPtgcTCit04Qj44kJ2u58cVwH4OVmG5WT
+40LzUdzn6t3Z2IwDnmCimh/U
+=kB6W
 -----END PGP SIGNATURE-----
 
---===============7071213301268997468==--
+--===============4061055809296482332==--
