@@ -1,60 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============1530740669230878610=="
+Content-Type: multipart/mixed; boundary="===============2187315335558214708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 10 Apr 2021 08:32:08 -0000
-Message-Id: <161804352893.16969.17329104439197620366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 10 Apr 2021 08:33:28 -0000
+Message-Id: <161804360807.17415.11774485352389016596@gitolite.kernel.org>
 
---===============1530740669230878610==
+--===============2187315335558214708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: d55c46f360279862d62dc03b8de3104e2786f026
-    new: 32abcac8037da5dc570c22abf266cbb92eee9fc9
+  - ref: refs/heads/tty-testing
+    old: 903a0e76aa01f78782bb32b6202dc066c3fde8f1
+    new: b89585461834e317f447dcdb14bdb8d27af40ce4
     log: |
-         98a847ae5d5d3eab47983898363b34def5b3318d staging: rtl8723bs: remove redundant initialization
-         92172da23c56faefca9a8790d441010bfa74bb20 staging: rtl8192e: replace comparison to NULL by bool
-         08aa09135c969b4a512f00bb0551acd1b7143a1c staging: rtl8192e: remove unnecesasry f-trace like logging
-         3eea531bcc24aee8f93b206adfde605fdd6f3d44 staging: ralink-gdma: Add missing MODULE_DEVICE_TABLE
-         32abcac8037da5dc570c22abf266cbb92eee9fc9 staging: comedi: tests: ni_routes_test: Remove unused variable 'olddevroutes'
+         2c4a4cded5ea68212244a74fb9f721665a12006c tty/sysrq: Add a blank line after declarations
+         149ad2c67b39b7200d330d13556394332440c88c tty/sysrq: Fix issues of code indent should use tabs
+         d4e1d903a31e6551fff224628c65e4c923799ba6 tty: tty_jobctrl: Add a blank line after declarations
+         63eeafd43951fd3f07c5b83366e3eaac810ca72b tty: tty_jobctrl: Fix coding style issues of block comments
+         96d508259c188862b92db4142bfb235058636664 tty: tty_jobctrl: Remove spaces before tabs
+         5d3945e84b801a1fe068e0e98a0ca38b84d7d0b5 tty: tty_ldisc: Fix an issue of code indent should use tabs
+         d72383591d36b6e8b7398d36b9cc1d39bfc75e68 tty: tty_ldisc: Add a blank line after declarations
+         72a8dcd7bb9163cbdaabbd50541e2ded2347835e tty: tty_ldisc: Fix coding style issues of block comments
+         408795b0252fe3b060c3c62b630f5419db415adf tty: tty_ldisc: Do not use assignment in if condition
+         b89585461834e317f447dcdb14bdb8d27af40ce4 tty: tty_ldisc: Remove the repeated word 'the'
          
 
---===============1530740669230878610==
+--===============2187315335558214708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618043523 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1618043523-194e62827a0ec8723a4fc668ee8008ed0468f3f1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618043602 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1618043602-e9ab34fc8eb274abc3a83a40952d0c2cf104945d
 
-d55c46f360279862d62dc03b8de3104e2786f026 32abcac8037da5dc570c22abf266cbb92eee9fc9 refs/heads/staging-testing
+903a0e76aa01f78782bb32b6202dc066c3fde8f1 b89585461834e317f447dcdb14bdb8d27af40ce4 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxYoMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YKoP/316ss4lnBb/6EhQmYNB
-+ZegMEcm2WEwNt7hu/jF/OaSEwHdfDxzsHm07CQdqnaNrzBXXug3/R3LHC4lHTsF
-PVjNt0yuHqx58fInueXOmc5NtRB0F9Aix70I92IxbWT8YDqCZcXI8Fh4fiudkmhw
-s9CwKOZE6M+WWZg0GzoKH8M+S2hI55xriTEsKDP/Yt1xoXW1HzLN/f+becpZE2/4
-9QMj7OcrQi0kePteqH1OiJU+JnUu6pZkcNcrdPcXKTru+17PPsmQseNUT3kbACW7
-bn29O2/naJEnv408hOdawsaPun2+5wODT924lz8Rqp4Sxz5vLdS906LEIWnNCp4g
-Cv7muiNPUTeROuwDX25mSRZakTr+XQbK8bcXOya10Z4U77OC6jZVgQGVjqzD5wny
-3QpyqCaW/7x99mgpy9iRv7GPQX7PVbRlobgVCSgqdP0Eq1kWTKMXvHOZ8ZyvItlh
-wzxlsFkNHeWbi0Bt1MnSMiEFq0PVRfhvTPn7190kmmXS/hLxBVUacR3qEBKHZcfr
-VhFJ+TR/7pc40yuOE+g4ioaT2dpkvBR6hqfF8+RYmIETRjxmiHJk1Gx9Uo7vpV1d
-Cc06v7ETVskPxHK4HxKFQmI2rExXgcyZXf4/98Me5hOV8G07To3wKDAfHsv3XA44
-3g11HQasi9KCuQxOBRRCWlsz
-=Bk8F
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxYtIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jZoP/iOg4TSkL6e4Lg63R+P/
+6/UaItgVRvHYCV/cEAsw8yUJtyAxTdW+Qmu6NsY9PVkvEYCrvtJF7qgVMep5xgsX
+L/qsqd2ualuPQepfIiylduW4bd+Mhbvm6uAIkMX0PAttJXFVPYT5BVP3x5GAJlTs
++X3KLIDBZku4XCNuWv4vvjEBUZZKr708Q7enAL4sQNJVafdAckKSDF/iLSRV/ZtV
+V36ZrtytYm11Aay7Rp2K4PjMHjcSzpV887hLH0PFrnTa4KE+K/u658mnB1/fHxQB
+iu3MywMFMKbot4zUTl7Jan2CrGad+gHrjHoXyA4a5F2rfJmJrhLSlUvLthz1SFQk
+6Ek37uPuuamuVLbPE2QQ+QZepc9SVhuRhdyztd4RYEL9BE1Vq9hPkXzHU0tyY35E
+tFoeFnj/EAMwvMupcGDlZFsCSF8je6E7D5lXjL/uRtfXgEGa5RhzMkQZ5PY3vp54
+VJ8PqXu2zEzPdx7ZgA7ZQTGTlpgj0gKPOCbyfkxFzF/NmST/Uaje/VscrV5X4im9
+UFMosCsT3262z7VXw97yBa8Cf1Ocv/fDRg5SvadWCTS2mevzYXyORbaMUYa/eK7+
+0YX1SeA1KvIcxqM0q+C/gc4E0peWSGR35wBMWoW1GywZk89l8zsSXW7CySprq3yj
+55AgFypVoHUbLfwdUxek9v2g
+=0+0d
 -----END PGP SIGNATURE-----
 
---===============1530740669230878610==--
+--===============2187315335558214708==--
