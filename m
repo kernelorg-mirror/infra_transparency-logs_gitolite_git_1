@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2187315335558214708=="
+Content-Type: multipart/mixed; boundary="===============1750996358799285955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 10 Apr 2021 08:33:28 -0000
-Message-Id: <161804360807.17415.11774485352389016596@gitolite.kernel.org>
+Date: Sat, 10 Apr 2021 08:37:19 -0000
+Message-Id: <161804383966.19918.2733377325180887600@gitolite.kernel.org>
 
---===============2187315335558214708==
+--===============1750996358799285955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,49 +17,48 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 903a0e76aa01f78782bb32b6202dc066c3fde8f1
-    new: b89585461834e317f447dcdb14bdb8d27af40ce4
+    old: b89585461834e317f447dcdb14bdb8d27af40ce4
+    new: e7d1737c2a16b671828847ad364cbf7c1117944a
     log: |
-         2c4a4cded5ea68212244a74fb9f721665a12006c tty/sysrq: Add a blank line after declarations
-         149ad2c67b39b7200d330d13556394332440c88c tty/sysrq: Fix issues of code indent should use tabs
-         d4e1d903a31e6551fff224628c65e4c923799ba6 tty: tty_jobctrl: Add a blank line after declarations
-         63eeafd43951fd3f07c5b83366e3eaac810ca72b tty: tty_jobctrl: Fix coding style issues of block comments
-         96d508259c188862b92db4142bfb235058636664 tty: tty_jobctrl: Remove spaces before tabs
-         5d3945e84b801a1fe068e0e98a0ca38b84d7d0b5 tty: tty_ldisc: Fix an issue of code indent should use tabs
-         d72383591d36b6e8b7398d36b9cc1d39bfc75e68 tty: tty_ldisc: Add a blank line after declarations
-         72a8dcd7bb9163cbdaabbd50541e2ded2347835e tty: tty_ldisc: Fix coding style issues of block comments
-         408795b0252fe3b060c3c62b630f5419db415adf tty: tty_ldisc: Do not use assignment in if condition
-         b89585461834e317f447dcdb14bdb8d27af40ce4 tty: tty_ldisc: Remove the repeated word 'the'
+         d09845e98a05850a8094ea8fd6dd09a8e6824fff tty: actually undefine superseded ASYNC flags
+         1b8b20868a6d64cfe8174a21b25b74367bdf0560 tty: fix return value for unsupported ioctls
+         8871de06ff78e9333d86c87d7071452b690e7c9b tty: fix return value for unsupported termiox ioctls
+         1b7bc6b10a7eab0f5f9d7d8ee5a4b230a9dcb487 tty: use pr_warn_ratelimited() for deprecated serial flags
+         885c77d528e14df86c1e146541c57f1c0ce0708e tty: refactor TIOCSSERIAL handling
+         5a35b040d0567f9dce6e801e6e3b575b9c463028 tty: add ASYNC_SPLIT_TERMIOS to deprecation mask
+         8b57b3a123718c6fe95f83f3881b7d8eca623764 serial: core: drop redundant TIOCGSERIAL memset
+         79c5966cec7b148199386ef9933c31b999379065 serial: core: return early on unsupported ioctls
+         e7d1737c2a16b671828847ad364cbf7c1117944a dt-bindings: serial: samsung: include generic dtschema to match bluetooth child
          
 
---===============2187315335558214708==
+--===============1750996358799285955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618043602 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618043834 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1618043602-e9ab34fc8eb274abc3a83a40952d0c2cf104945d
+nonce 1618043833-a19715a9ee7c3f0f47b3282f2a0751c1543ca2aa
 
-903a0e76aa01f78782bb32b6202dc066c3fde8f1 b89585461834e317f447dcdb14bdb8d27af40ce4 refs/heads/tty-testing
+b89585461834e317f447dcdb14bdb8d27af40ce4 e7d1737c2a16b671828847ad364cbf7c1117944a refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxYtIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jZoP/iOg4TSkL6e4Lg63R+P/
-6/UaItgVRvHYCV/cEAsw8yUJtyAxTdW+Qmu6NsY9PVkvEYCrvtJF7qgVMep5xgsX
-L/qsqd2ualuPQepfIiylduW4bd+Mhbvm6uAIkMX0PAttJXFVPYT5BVP3x5GAJlTs
-+X3KLIDBZku4XCNuWv4vvjEBUZZKr708Q7enAL4sQNJVafdAckKSDF/iLSRV/ZtV
-V36ZrtytYm11Aay7Rp2K4PjMHjcSzpV887hLH0PFrnTa4KE+K/u658mnB1/fHxQB
-iu3MywMFMKbot4zUTl7Jan2CrGad+gHrjHoXyA4a5F2rfJmJrhLSlUvLthz1SFQk
-6Ek37uPuuamuVLbPE2QQ+QZepc9SVhuRhdyztd4RYEL9BE1Vq9hPkXzHU0tyY35E
-tFoeFnj/EAMwvMupcGDlZFsCSF8je6E7D5lXjL/uRtfXgEGa5RhzMkQZ5PY3vp54
-VJ8PqXu2zEzPdx7ZgA7ZQTGTlpgj0gKPOCbyfkxFzF/NmST/Uaje/VscrV5X4im9
-UFMosCsT3262z7VXw97yBa8Cf1Ocv/fDRg5SvadWCTS2mevzYXyORbaMUYa/eK7+
-0YX1SeA1KvIcxqM0q+C/gc4E0peWSGR35wBMWoW1GywZk89l8zsSXW7CySprq3yj
-55AgFypVoHUbLfwdUxek9v2g
-=0+0d
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBxY7obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Yw0P/iFZc/k20U6gJCODYVix
+E4++lObWbOwZAsdvJUZ5GYBEaiYJJA7Mp9zviQkX+o9KkDtjLQSkN3G2VoKahsf0
+4HexWg5xMkQ78O/embtxPo9cff0vsSmLh7t5zN7zAgqPDh7Rpn3P+FsCzzv6yk1V
+ecoWU1Oe5+GmFLdla+XGgOWGLK2p6rvIGB6howKXA0N1YKMqjyRsnaa4fgXZfwGQ
+dwLaIEYrfl8l1mr4u0sl/2+6hxMaVl4xHh8nB4qfbUnLsFKt+bSiNmslB2jj/vq8
+6gkYyYVi+S+wE1kT5Krv7pD9rYfIgRa/J7nZVC40zz43XFbACnP7/W9llK7wQGHf
+eO51n3NJtXxa/5LaXekPvHNCUQB0Mne8KsKie+o6DUK67mK9auFAQ8Y3AZJx3CTE
+oYnxVf1nOquzvTcSDA6+Naj4UGN5lRfoXdxa3ph5IRjgUiWg4cPKnf82Csu3zqDu
+PToqf7SrCzft2MOyHF3Lhh3Nt54g+Ur+1+snTbo79YSOi7mFlKBJs8aDBBrIJ7fg
+LwO+oTRriRs28DTjTAXC9VSkGQIpA/52UMulndorGidMMTWgPdOAQLklwDICwKZe
+AuPk8oSuW+acG/QOJPm5LEfjTB+YPnwufGQTkbSm1ZPv212cQDvHHWWJb5nkCiuG
+ZyviYAHAohhHBsbVmLxOMIQa
+=sToM
 -----END PGP SIGNATURE-----
 
---===============2187315335558214708==--
+--===============1750996358799285955==--
