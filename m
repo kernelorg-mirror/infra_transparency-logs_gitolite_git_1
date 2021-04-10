@@ -1,32 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Sat, 10 Apr 2021 00:13:06 -0000
-Message-Id: <161801358685.735.4663322274583306316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-documentation
+Date: Sat, 10 Apr 2021 00:15:16 -0000
+Message-Id: <161801371665.2981.13369026099514401043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/fs/xfs/xfs-documentation
+user: djwong
 changes:
-  - ref: refs/heads/devel
-    old: 775c93a7c5b4d31f716db21fd097a64e9b5bf3b7
-    new: 2cfebcb2a22f4b41726e6a134fbd66e74ed0f49f
+  - ref: refs/heads/master
+    old: 443df980c3d6256f4c58613ac4f898d9cec2f415
+    new: 11ab62f4b81ce003ed0962405033eb32be7d8f88
     log: |
-         18d2719f46bc1cbbc17673b6a0f7576c622e5694 dt-bindings: pinctrl: qcom-pmic-gpio: Add pm8008 support
-         ea119e5a482aaf08dd22cf53400c29cb16af8416 pinctrl: qcom-pmic-gpio: Add support for pm8008
-         fa0c10a5f3a49130dd11281aa27e7e1c8654abc7 pinctrl: samsung: use 'int' for register masks in Exynos
-         2cfebcb2a22f4b41726e6a134fbd66e74ed0f49f pinctrl: at91-pio4: Fix slew rate disablement
+         e01cf4812b742171a5f918f77ed1da2a7e6d2c29 xfsdocs: Small fix to correct first free inode to be 5847 not 5856.
+         be855b314f76942e216fee236242d393c78847e2 design: document the new inode btree counter feature
+         11ab62f4b81ce003ed0962405033eb32be7d8f88 design: document changes for the bigtime feature
          
-  - ref: refs/heads/for-next
-    old: e36b61872bdf704c3cc0b4daa8808067891ded79
-    new: 2421dc2a76384e9236f2a8cee31549fc47910eab
-    log: |
-         18d2719f46bc1cbbc17673b6a0f7576c622e5694 dt-bindings: pinctrl: qcom-pmic-gpio: Add pm8008 support
-         ea119e5a482aaf08dd22cf53400c29cb16af8416 pinctrl: qcom-pmic-gpio: Add support for pm8008
-         fa0c10a5f3a49130dd11281aa27e7e1c8654abc7 pinctrl: samsung: use 'int' for register masks in Exynos
-         2cfebcb2a22f4b41726e6a134fbd66e74ed0f49f pinctrl: at91-pio4: Fix slew rate disablement
-         2421dc2a76384e9236f2a8cee31549fc47910eab Merge branch 'devel' into for-next
-         
+  - ref: refs/tags/2021-04-09
+    old: 0000000000000000000000000000000000000000
+    new: bebcb69acb28b53b36c7551413e1492cf956d4fb
