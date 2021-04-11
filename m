@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7016780354023530497=="
+Content-Type: multipart/mixed; boundary="===============8669268626302615097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 11 Apr 2021 06:37:37 -0000
-Message-Id: <161812305776.3125.9675841327109854863@gitolite.kernel.org>
+Date: Sun, 11 Apr 2021 06:38:51 -0000
+Message-Id: <161812313155.3586.18267355991001273684@gitolite.kernel.org>
 
---===============7016780354023530497==
+--===============8669268626302615097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 32abcac8037da5dc570c22abf266cbb92eee9fc9
+  - ref: refs/heads/staging-next
+    old: d55c46f360279862d62dc03b8de3104e2786f026
     new: 26be3a5d845312bae0397b1008e766340945cb53
     log: |
+         98a847ae5d5d3eab47983898363b34def5b3318d staging: rtl8723bs: remove redundant initialization
+         92172da23c56faefca9a8790d441010bfa74bb20 staging: rtl8192e: replace comparison to NULL by bool
+         08aa09135c969b4a512f00bb0551acd1b7143a1c staging: rtl8192e: remove unnecesasry f-trace like logging
+         3eea531bcc24aee8f93b206adfde605fdd6f3d44 staging: ralink-gdma: Add missing MODULE_DEVICE_TABLE
+         32abcac8037da5dc570c22abf266cbb92eee9fc9 staging: comedi: tests: ni_routes_test: Remove unused variable 'olddevroutes'
          26be3a5d845312bae0397b1008e766340945cb53 staging: rtl8192e: Fix incorrect pointer check
          
 
---===============7016780354023530497==
+--===============8669268626302615097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618123052 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618123126 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1618123052-e365d83c3b4485b5ed0d46d1f6dbbe0ee856b502
+nonce 1618123126-773b63938158074a7cd2431a83fdf002005cac0c
 
-32abcac8037da5dc570c22abf266cbb92eee9fc9 26be3a5d845312bae0397b1008e766340945cb53 refs/heads/staging-testing
+d55c46f360279862d62dc03b8de3104e2786f026 26be3a5d845312bae0397b1008e766340945cb53 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBymSwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uVIP/jUFItxC8RCTUPv5MvY/
-rzkl2Cx9ur5NMDAuYem6QcmEdpIHyclSpDGiPe21VkEsnyeB3OenWY/fciEn04rV
-nXioeo3o44dLxg82wYYZn1mmAYlIsfkhhOzEIAmn/9/qMh+yRihX2k2iNbIlXb5r
-LT1RzHQcN+nIQLct9z8vKaw7gOjT9LsuO35A72HUKX2E6apad8Ct+v4G3esVnH9x
-IYeIudxjadL7mD+94zRJ2HbNf9LuXGjfEYA+IYOqRGtch1ZWA5j/OWierQNi3+ul
-1EUxprWLJ37N75rKMhflKUfVognqRa1YCXChI9iyL6HF7MFBAl/q7FfAvUIamMnm
-F/RvSakc9bMZrRyL3kWZ1ojFBtBgBUEYFJwtieE1TUWaeO5nH1Zt9oACdbK0N0cW
-O4UbQcE+sHkFuIKLawWxihq0g894p3wtBMwGUxyXXDPsQ94Bj34c+ZaGTspm7XI0
-bV5WL6R9+YPjGyn/rqtfUS2ulrh8WugZISrgmkD4dXTw3gm32iDmJJq4EuRZrDS5
-Amnm0eGAmsol4gvCCUmhorpecOo9aM/01UIsrIRYTiwUfHGRS2WYMPjUIjdAH+2l
-3mH3BcDo+YjKUx+Sz9EerrDMLDhUIAK6m/etj7QUhAWnAdeX5Sts98yGKy2lIoRk
-9oTX0O6SSi/ce2PsueJf1G6C
-=uGzK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBymXYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WjoP/1uesMfCWzORW92eCP/7
+6qw+lgotn+LiFtvB0KjQvQV3PpAUsIN22ARLg4KyrOgNt0Ip7A0v4RpxgxUKq6lQ
+2wKVYk8+TZKrszemRoXDrje6rAUhOpm/Iyi7d78yxh7KmCRokrZ/6tqMJ1wVPZXR
+r52Vgf1HMWHkZxexgM9NE2IpHBt2+8uwqSxtXg8QbKd2GRnb5tjUv9VfIE+C2V6V
+e5zEX54Wtjj1Ey/xj9c7XLqEu0sE0ekW8ptOD8DJ88u/y0ybrvu2fVy2MLZsnkfC
+GEWFfsrMnOyVMYRu9Z1xtetd44EwgUnChBm6bPBFE5AiiV9afw0mcANnLNGFUE7G
++bE+iFTqCUoCWlQc4dC6qP8KNGQqzHnxyoZewWvV0uxF3yyoogRTZyvNfnhLrcPg
+DenUM1CqEN//wggxkb112QwdQ/rh661w2mPZbliRg5F/KOLIRFyanLO6yFJ6FL1C
+4YyzLjznQPshFr85PxCuysxHjxBxX09iXTh8hhi4Va9krBrpA+0m48CPUJpW/V+e
+TGI+8xe9Bs3x7KwjE+xR4V7PAo0J0IJc77AAkciT6WOMIAvfH9bIYSfA0OG7Xr85
+MVf2aReyOzzXG0Lbr7nRt85TBvzRNnbPE7Ky5zcS9InZdAmjS4qzzzZnodMD6X/d
+lPdwwTYCqGZSp2pRga2Zvsqx
+=IhY1
 -----END PGP SIGNATURE-----
 
---===============7016780354023530497==--
+--===============8669268626302615097==--
