@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Sun, 11 Apr 2021 21:55:28 -0000
-Message-Id: <161817812825.12334.4768945905055401019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Sun, 11 Apr 2021 22:12:46 -0000
+Message-Id: <161817916662.21036.11809431875218538728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/fs/ext2/xfstests-bld
+user: tytso
 changes:
-  - ref: refs/heads/next
-    old: ad18860bf40d45922dcf9c482b744d74107554f1
-    new: e41ef43db37e730e129f4d53238ad77a6248e629
+  - ref: refs/heads/master
+    old: 0eab7628c2bea213824d33fef0431c63c676a963
+    new: b55b2872b4162837b89120d66e7856b794913baa
     log: |
-         7cffabd7ddff8aa762256fc6195e2d8b656ab6f2 Version: 3.0.1
-         989984514ccd9f27a25dc838666b8ef6c4b7ecb2 intel-tss: Fix wrong written length in the Marshal commands
-         505479dedf49bc6b02701df9b2b9d4ef6a945972 create_tpm2_key: Add PCR policy option to key creation
-         a0b0a5cf6ea9fb0ac356f8564f8417f491f62b8c Add tests for the new --pcr-lock option
-         e41ef43db37e730e129f4d53238ad77a6248e629 seal_unseal: add --pcr-lock for easy policy
+         eb5c31baaae231448fd052b71917d2080a7de446 {android,gce,kvm}-xfstests: add the kbuild command
+         a29e4846173b472ada4a18f1e7f3b86e32dd1654 test-appliance: retry installing the kernel debian package if it fails
+         8ef5754219fd3ae652ca0b74113ada88dacb1c31 go server: change the KCS server to build a debian package
+         bc7843392d3d21c06499b19cec52e14c0e0e04b5 test-appliance: fix typo which broke launching the KCS server
+         f5561bb8d06a44e4e0e0a5b792ecfc7cc4305378 gce-xfstests: fix gce-xfstests when running on the kcs/ltm server
+         b55b2872b4162837b89120d66e7856b794913baa gce-xfstests: launch the ltm server using an e2-small instance type
          
