@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 11 Apr 2021 14:57:22 -0000
-Message-Id: <161815304226.21798.1732661263245782299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sun, 11 Apr 2021 15:02:10 -0000
+Message-Id: <161815333062.24814.10334511623650621595@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: a32548a639e0a25db8e1f1e98fe22569b05b143b
-    new: 52e44129fba5cfc4e351fdb5e45849afc74d9a53
+  - ref: refs/heads/experimental
+    old: b4752cadcca9c48490e2fc17cf8a9d88456be44b
+    new: 1c2659e285d853767fb203ed9291c070813afb8a
+    log: |
+         1c2659e285d853767fb203ed9291c070813afb8a erofs-utils: use qsort() to sort dir->i_subdirs
+         
