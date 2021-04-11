@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1313305166979844841=="
+Content-Type: multipart/mixed; boundary="===============2108713422048308743=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 11 Apr 2021 13:39:12 -0000
-Message-Id: <161814835240.1529.1153644399706895143@gitolite.kernel.org>
+Date: Sun, 11 Apr 2021 13:39:24 -0000
+Message-Id: <161814836406.1723.12299960761597166697@gitolite.kernel.org>
 
---===============1313305166979844841==
+--===============2108713422048308743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 06c8e2e37a4f3c604c268b1a04b72b51ba81b767
     new: 3f29baf9d62e86e5af51c8d1087ec78bf436e923
     log: revlist-06c8e2e37a4f-3f29baf9d62e.txt
 
---===============1313305166979844841==
+--===============2108713422048308743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -117,4 +117,4 @@ c9450f728cfba0613163ed85f8c26eeeeed9def2 Merge branch 'for-mingo-lkmm' of git://
 fefa9c624885a088501523ad8f10850b7d2c01b8 Merge branch 'locking/core'
 3f29baf9d62e86e5af51c8d1087ec78bf436e923 Merge branch 'core/rcu'
 
---===============1313305166979844841==--
+--===============2108713422048308743==--
