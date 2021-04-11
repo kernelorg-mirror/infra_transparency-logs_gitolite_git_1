@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Sun, 11 Apr 2021 18:21:08 -0000
-Message-Id: <161816526814.14486.9907924521545225653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 11 Apr 2021 18:23:46 -0000
+Message-Id: <161816542628.15237.3017798781123052420@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 7cffabd7ddff8aa762256fc6195e2d8b656ab6f2
-    new: 989984514ccd9f27a25dc838666b8ef6c4b7ecb2
+    old: 32782915ade490428d1bd4125d359493c2f30434
+    new: b6a151ff649f7e322edd23baa02564dd35067fc2
     log: |
-         989984514ccd9f27a25dc838666b8ef6c4b7ecb2 intel-tss: Fix wrong written length in the Marshal commands
+         232846413eef66050351f6eb3cbf624139b6ea49 Fixes for 5.11
+         3c40906631b8ba17bee2398fd75b12ebb75fce27 Fixes for 5.10
+         e1018b73a20af3cdce352fa8000b01ade2fe98fc Fixes for 5.4
+         b6a151ff649f7e322edd23baa02564dd35067fc2 Fixes for 4.19
          
