@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============8020386031607437774=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sun, 11 Apr 2021 20:14:46 -0000
-Message-Id: <161817208652.15301.701789217450343940@gitolite.kernel.org>
-
---===============8020386031607437774==
-Content-Type: text/plain; charset="us-ascii"
+Date: Sun, 11 Apr 2021 20:25:38 -0000
+Message-Id: <161817273856.23773.4309508336018639245@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,53 +12,44 @@ repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
   - ref: refs/heads/queue-4.14
-    old: c8a9b58a348f17b4e96015b407a05f4ad169fe95
-    new: 2864bb34ba9772695ae4c745b48458dd81059fce
+    old: 2864bb34ba9772695ae4c745b48458dd81059fce
+    new: 055f959c075b54e3c03bb95baabea1fd0a06ade0
     log: |
-         a4458acaa09675ca268856b2c5afaf99250ebeda regulator: bd9571mwv: Fix AVS and DVFS voltage range
-         4cda41c5e46a990321c733720c53486061991bc4 ASoC: wm8960: Fix wrong bclk and lrclk with pll enabled for some chips
-         92df72aae5f718e3b9f65fdeb9735018fdb539f8 amd-xgbe: Update DMA coherency values
-         826d585831038b405aa6ed60439bb791dc21f2ad sch_red: fix off-by-one checks in red_check_params()
-         13d2a66f67d23030b5a46240ce955a85b93f3148 gianfar: Handle error code at MAC address change
-         9ebd733d6aee10847e3007ce37f2661c3cf3750e net:tipc: Fix a double free in tipc_sk_mcast_rcv
-         e02a98d3040e5e300b859a7f3f3f50b7a8edd814 ARM: dts: imx6: pbab01: Set vmmc supply for both SD interfaces
-         86a2441dd24df95ccf777fddfe1a64ebedb2971b net/ncsi: Avoid channel_monitor hrtimer deadlock
-         2864bb34ba9772695ae4c745b48458dd81059fce net: phy: broadcom: Only advertise EEE for supported modes
+         95d316f9e7937e62d80c7cd1f45239ef9424d36c ASoC: sunxi: sun4i-codec: fill ASoC card owner
+         f28ca2c764ca51eb62c2f6a4acb4de1446979f2c soc/fsl: qbman: fix conflicting alignment attributes
+         6e218a454398ea73d56039a16d2b6272c5b9b42d clk: fix invalid usage of list cursor in register
+         e97e0281db7170fb4915c1066abf379ef0e11a7c clk: fix invalid usage of list cursor in unregister
+         9f784ba95949e3e4c97b2775ee0f40c51c3c983e workqueue: Move the position of debug_work_activate() in __queue_work()
+         87132caa0a9d68f03f0b798b741f06a900d2a0de s390/cpcmd: fix inline assembly register clobbering
+         1688bf7bd51f6d3341b2496ca69ec33de491f12a i2c: designware: Adjust bus_freq_hz when refuse high speed mode set
+         848dc300e22c7174f05b5e6c61cac0f318767df4 net/mlx5: Fix placement of log_max_flow_counter
+         d70ff371075222e0ac7df3ad8299a03483483a00 RDMA/cxgb4: check for ipv6 address properly while destroying listener
+         055f959c075b54e3c03bb95baabea1fd0a06ade0 RDMA/addr: Be strict with gid size
          
-  - ref: refs/heads/queue-4.19
-    old: 1cbe7f6f57a11f69fa4e489d83d494d31862ab25
-    new: bbc85d2b667f3a28287a29b047b0dea746bf621a
-    log: revlist-1cbe7f6f57a1-bbc85d2b667f.txt
-
---===============8020386031607437774==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1cbe7f6f57a1-bbc85d2b667f.txt
-
-0b90307b8a19c5dcaf1682c438c8cc4457aa742c regulator: bd9571mwv: Fix AVS and DVFS voltage range
-4f8bec8378035d1eb5e771f868e83f9573b13619 net: xfrm: Localize sequence counter per network namespace
-c1171ae2e6ddb8ab9323c1f6fe7da2ca6e5d240b ASoC: wm8960: Fix wrong bclk and lrclk with pll enabled for some chips
-855e899e956b50f377dd55688c32a41942e3ec13 i40e: Added Asym_Pause to supported link modes
-fc1330662f31bb0c56d96935964f4e36d69e9025 i40e: Fix kernel oops when i40e driver removes VF's
-4de8f54ec8207075ead632c34ca6ef8f1ad99433 amd-xgbe: Update DMA coherency values
-fff80e7b189d3d7c401120c8b4c9459c30a73c7f sch_red: fix off-by-one checks in red_check_params()
-c0e2ae8c77b0471ef95a1e5c5fa4aa64acefdf5f gianfar: Handle error code at MAC address change
-85801dbd06868b1db1e42144f39a9039d608012f cxgb4: avoid collecting SGE_QBASE regs during traffic
-a1a47b595a0107d047b39795dfc0be6fbcc75c0d net:tipc: Fix a double free in tipc_sk_mcast_rcv
-48f968d2302118192fc8dc46089c6e69d0dabcc7 ARM: dts: imx6: pbab01: Set vmmc supply for both SD interfaces
-2f919ca63377e150bc0decc8b04db433701c78de net/ncsi: Avoid channel_monitor hrtimer deadlock
-c13bb77e9c8e944abdf4db485db885530a3caed1 net: phy: broadcom: Only advertise EEE for supported modes
-1538ac2edfbef4d67efe6d66f00a52d238ac9428 ASoC: sunxi: sun4i-codec: fill ASoC card owner
-5f851dfa65315c01480df30be81565c013f8b7ae soc/fsl: qbman: fix conflicting alignment attributes
-11a0413f791ba7901dc749672abe366741f4f928 clk: fix invalid usage of list cursor in register
-3e3bbc521b84f8e49d25f6488633a62c471a48e2 clk: fix invalid usage of list cursor in unregister
-0b211303476f4cdee815e63a1c0a7119df5cec55 workqueue: Move the position of debug_work_activate() in __queue_work()
-7b9a7a9322f3037996622686c47b8fedeb01e3b8 s390/cpcmd: fix inline assembly register clobbering
-246f23e343ef1014bff297930a4c062425d2b879 i2c: designware: Adjust bus_freq_hz when refuse high speed mode set
-75a66f7dada7f7b8525d629045b7aa2880659604 net/mlx5: Fix placement of log_max_flow_counter
-0be4bef2874431fa2c938b7834a50d151531fd87 net/mlx5: Fix PBMC register mapping
-9509d0d7495686a222add0a341147030d84940fe RDMA/cxgb4: check for ipv6 address properly while destroying listener
-bbc85d2b667f3a28287a29b047b0dea746bf621a RDMA/addr: Be strict with gid size
-
---===============8020386031607437774==--
+  - ref: refs/heads/queue-4.4
+    old: 682341a203aa2738f9ebf1592b678b2779c4eb9e
+    new: 7303abe03bf44626465292d01afa599db776bfba
+    log: |
+         af2a29d26ce154b29a59cafab60f6830b4ff0944 sch_red: fix off-by-one checks in red_check_params()
+         5ea125477d875794e6c11558a47611b253698a70 gianfar: Handle error code at MAC address change
+         9da68c1139b5f1fadef6ea6e77a5a4af7effb9ac net:tipc: Fix a double free in tipc_sk_mcast_rcv
+         79b5501b2062061fecf8c61855cc5602c6a68982 clk: fix invalid usage of list cursor in unregister
+         bffc26734265faf35f2fc20c4005e43c5c3f8a01 workqueue: Move the position of debug_work_activate() in __queue_work()
+         41728420e02b9b843269721fdbe35abd71e5548d s390/cpcmd: fix inline assembly register clobbering
+         7303abe03bf44626465292d01afa599db776bfba RDMA/cxgb4: check for ipv6 address properly while destroying listener
+         
+  - ref: refs/heads/queue-4.9
+    old: 9910dac7f9f5f6b8766e2a91db9dc5e17ac504c7
+    new: 86939dc341d2ca7dcb02f5eb6dafe4c36cb5ec5a
+    log: |
+         05b2b1247d4c2f922ee8960131b378a1dccfeba1 sch_red: fix off-by-one checks in red_check_params()
+         aef3e49d487c022dfac91122d57c63f4bc3a37a4 gianfar: Handle error code at MAC address change
+         031cac7b373a0deb06352d62e4726b4651bd9bf6 net:tipc: Fix a double free in tipc_sk_mcast_rcv
+         54a2020d218dbbb311a2680aef5e94d4e8b01255 soc/fsl: qbman: fix conflicting alignment attributes
+         351e8dcefd148a56ec50993cd46035d86c885b8c clk: fix invalid usage of list cursor in unregister
+         678be0e8b383ccccb6fa9458fa9136ba3d046dc6 workqueue: Move the position of debug_work_activate() in __queue_work()
+         f8aac1727ee7a19587b3a0251eb8346bbf868948 s390/cpcmd: fix inline assembly register clobbering
+         876ca6f21f4a2e0ac06bc4266d756934742012bb i2c: designware: Adjust bus_freq_hz when refuse high speed mode set
+         74026bf4425dbd6bb1e459f9509b5abafae3f727 RDMA/cxgb4: check for ipv6 address properly while destroying listener
+         86939dc341d2ca7dcb02f5eb6dafe4c36cb5ec5a RDMA/addr: Be strict with gid size
+         
