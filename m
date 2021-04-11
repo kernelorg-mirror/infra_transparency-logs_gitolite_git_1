@@ -1,87 +1,103 @@
-Content-Type: multipart/mixed; boundary="===============7585436188174613801=="
+Content-Type: multipart/mixed; boundary="===============8600009690192329307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 11 Apr 2021 06:45:34 -0000
-Message-Id: <161812353404.8331.8790151098754407206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sun, 11 Apr 2021 06:53:02 -0000
+Message-Id: <161812398240.13118.7622826465897454200@gitolite.kernel.org>
 
---===============7585436188174613801==
+--===============8600009690192329307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 4e63e9b77449371fc42c8b0763502f6a6e6b6951
-    new: 1b9e18de8d43bf798622cc365f99b41f180b446f
-    log: revlist-4e63e9b77449-1b9e18de8d43.txt
+  - ref: refs/heads/char-misc-testing
+    old: 19ab233989d0f7ab1de19a036e247afa4a0a1e9c
+    new: aa87e31757e82f686bb07544a2dec845bd700e5e
+    log: revlist-19ab233989d0-aa87e31757e8.txt
 
---===============7585436188174613801==
+--===============8600009690192329307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618123528 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1618123527-eb3d5326342f68b03f5a26de5b5fc0e53d33303d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618123976 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1618123976-132e320f223cc9c8e340d46b1bd620c1d0ba6760
 
-4e63e9b77449371fc42c8b0763502f6a6e6b6951 1b9e18de8d43bf798622cc365f99b41f180b446f refs/heads/staging-testing
+19ab233989d0f7ab1de19a036e247afa4a0a1e9c aa87e31757e82f686bb07544a2dec845bd700e5e refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBymwgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p7IP/0yerkErAF7Xu4Q7RJrl
-UZyjjV6p/KNHJjFMe88IZ+lrXK6ib2PmUCwR/euHe1e3guMr3EMGgchBmx5C4tAP
-QJ2R22ziVXqQJzsRUCnv0RHZHE0qsK9axg/aPLOk9jl2Rj08w/6ADo3kwDjLzEjq
-FJrIUOsAxWFXAS6wbcbm5ll66HR+p6huXYanYupzp+Y6SDw1Oht5g7BlaFkA9zqw
-R7lRYNwN03IRZZ2/ucE4xFUnlLDmr0s7ArnS1ZH2Q1YlPoZ5FuWSobms24zdDvG9
-yuO/HuvN4vc2XKCZKh0O2F4UmLm0AyyLZvKIT8jibvcc6Ip6La98IWFE5/Cbxe0v
-CkoZ8NTjHN+1b3qhlu2ihHyugoP5sAGf78aE8uPtLw8vRgbEwCE2A6fguWj+CJIt
-xH6uMe6ueUMFknjYrF3715CJRFncjbCRakGvzEWlrqneRuhMcReQw4xeqmbExjoQ
-nv8vYhujxdezwtiOC47ffJNjW6F1SF2J8otZfPs2+/Ah62spgr/aRMM5Qo9AaX3q
-CkvCrje6m2n7eEMT6HxVKb0glVvp2UCVyLlGYplP4A2r7IuNqJu2HR77ppRvou+I
-mhs0sNVCwapMMleymYTDelLecY4XH1tbz/xY4PnWffrI2gk9PsvBDCVmK/53rKhb
-T5rlpN6bGSy9jSWNwCze7Laj
-=hob9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBynMgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tMoQAL67djGFnvGNn9hr59kr
+FtnVnsRMqyfkMTIOkf4JrM92HEX2wViwmZ6xNBAcAor3bbCAw3ZfTWkiTU0Kn1/N
+X3vgQMHDMvCqvPWHrqn/tD9+vV/op3YAKt8dyxJuaJuNSVrWxHyjATjs4Vvm0obB
+n3V5ucbjlHg45IXmOd/3AWok8RmddXEFOFgdQ1Yu8MPpfcdGTnQLDWwI6xFQ7EW5
+UIVD3LkCLrBAVwzbqraBwXLEcf/G/ak7DjA8Uqa+VuLNkGvlpUUZYU+p6pAnFiAf
+LVy1o1rvy5SlHgN3bdUGIiAFOic7y+2l+LDTPoxdMOLIXVdr5ySYgEZ1LA2fnekk
+DYdQ0qC4hcTYiDwnkcwwTtV8lgl5I1pz/q2BH7L2yX7/mUnpofBS6GamjcnqihJX
+xoHERu0Yv+LAwPiCNAk9O0Hb0WkOGTZYR8GoH6Mc1ESOe7QjSWJDoxxidm8y7jjB
+blxxgU9GL+r8gIaGLIvk4XH4NF/46HQZzTjolvn05uYL2djrQpSyzD0+KPnLzCEF
+MrBCOk2ZYuQpClTaWCqZZKNHb5kMc5VIEu+FKubk3j6f3uSusHFVQDB6TUYcTNBD
+j3TGIBsA/MT1Fl2IkiZLHY4IIEZhwh6OB/wnlaZpK24rSxshzbGkgXJiVhVxvLcc
+j3Q2arEhhCaB4cbqWSxeI+cs
+=7yhl
 -----END PGP SIGNATURE-----
 
---===============7585436188174613801==
+--===============8600009690192329307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e63e9b77449-1b9e18de8d43.txt
+Content-Disposition: attachment; filename=revlist-19ab233989d0-aa87e31757e8.txt
 
-426ceac43197bee3b1466d6f52527d5394638352 staging: mt7621-pci: stop using of_pci_range_to_resource
-dcc48e0837493db429cc22511c11e62912ee930d staging: rtl8723bs: remove all DBG_8192C logs
-334ef6ab8f44dd01bbf8f11467a59643be237d13 staging: rtl8723bs: remove all commented out DBG_8192C logs
-7519f4f89692e2a312a990580278e97bb1a91609 staging: rtl8723bs: remove DBG_8192C macro definitions
-edf3967a8d95bd276319d240e56aab14bf126b4d staging: rtl8723bs: remove all if-blocks left empty by DBG_8192C-remove coccinelle script
-fa50dda745be62b542ed75d45918c7ccfe0b937a staging: rtl8723bs: put spaces around operators
-0a62cc7a5ac5832060bf11103d676abb1bd73c72 staging: rtl8723bs: remove unused code blocks guarded by DEBUG_RTL871X
-aaf2a07724dae8dba0fab83204b4a72218f8562e staging: rtl8723bs: remove commented out DEBUG_RTL871X definition
-0268c26750a9ba0c262ed487e55b1b3294c6e3b1 staging: rtl8723bs: remove code blocks guarded by DEBUG symbol
-96efb46098422c67b9693ee776b01c1528252c96 staging: rtl8723bs: remove empty code block guarded by DBG_CCX
-add69c59ebb23b834dce2fbf95c1036b635fe259 staging: rtl8723bs: remove code block guarded by undefined SDIO_DEBUG_IO
-8a095d44d88b996f319fac166711b04edd300e79 staging: rtl8723bs: remove commented out SDIO_DEBUG_IO symbol definition
-5ffbfcf38b800911dbc6516605391fd46188ef32 staging: rtl8723bs: remove empty ifdef blocks conditioned to DEBUG_CFG80211 definition
-8f32a6c89ce45b21b886a2a93947d5befb52fab2 staging: rtl8723bs: remove commented out DEBUG_CFG80211 symbol definition
-04c35396c5c6c68d131fb61c39460cba351d0af7 staging: rtl8723bs: remove unnecessary bracks
-71839eac6bbc0784cca71b152d509172b707d67b staging: rtl8723bs: fix comparison to null
-9d5ed87234ae9557692ed867f248720b29f22dba staging: rtl8723bs: put spaces around operators
-4ca39cd7459da838a0301c9eab86307015bfd877 staging: rtl8723bs: split long line
-d290bb31a718baf53e5c0e32c195b1013cfdedc5 staging: rtl8723bs: put constant on the right side of the test
-da742b02a1e5079e53d3ecf6bffcb20eea4c5e16 staging: rtl8723bs: remove empty if and else blocks
-5bb62a191be0ee516bb5314554fa14498d9eba53 staging: rtl8723bs: put constant on the right side of a test in os_dep/ioctl_cfg80211.c
-279fa77760fb621694769cdde27f7bd54e686a95 staging: rtl8723bs: remove unnecessary parentheses in os_dep/ioctl_cfg80211.c
-05c19e212a5d46c40ec0542d68bb1b2814c87af0 staging: rtl8723bs: remove empty else block in os_dep/ioctl_cfg80211.c
-1e95e1e49aee7305e110e999d5314bc7116c02c2 staging: rtl8723bs: fix comparison to true issue
-d6b08255f8fb0084ea78f8358b529d6d27e9c103 staging: rtl8723bs: remove more unnecessary parentheses
-1b9e18de8d43bf798622cc365f99b41f180b446f staging: rtl8723bs: remove more empty if blocks after DBG_8192C deletion
+b6821b3c65c80f11f92f1abb27be2ad9683acefc habanalabs: set max asid to 2
+8e9445a678cab4478aa90a5f8898ba093371e30f habanalabs: add reset support when user closes FD
+35862d1c99471e3a03175e94d267815a0921e9ca habanalabs: reset after device is actually released
+23c3efd1fb0eb19b9e39eeb07515b167f6d4517a habanalabs: fail reset if device is not idle
+d3ee681afd7dcf62b592d343d8091c0361efc07a habanalabs: reset_upon_device_release is for bring-up
+278b5f7acbe1ae299aae8b9669a3e67d5a2635ff habanalabs: print if device is used on FD close
+17b59dd3399c45d8e96dcc2c7d1761231dc638b6 habanalabs: change default CS timeout to 30 seconds
+5d6a198f9dba12c78f82a0436d64bd683c031b13 habanalabs: reset device in case of sync error
+2d44c6f6b3a10c1d82d667b92a39621c3753b229 habanalabs: enable all IRQs for user interrupt support
+ab5f5c3089a2c9b863ad0b67e89f168ec7e8f7e5 habanalabs: wait for interrupt support
+366addb0c3c582bf7b9a2162bb398eb450b17218 habanalabs: use correct define for 32-bit max value
+6a2f5d7098c868eeb9349ed02210ca1c04aa5cfb habanalabs: use a single FW loading bringup flag
+a4371c1a1ec150bc8bb87333e0a59935c4a630e2 habanalabs: support HW blocks vm show
+586f2caf0ef952ca5e0f38a00b7ba8d945345cf7 habanalabs: return current power via INFO IOCTL
+f209e5ad1848828474c46a357441505078cca5c0 habanalabs/gaudi: update extended async event header
+d5eb8373b2cee72a6f1f2157130b56e6a88894dc habanalabs: replace GFP_ATOMIC with GFP_KERNEL
+e42a6400fb381060c4a18ab76648ff542e7d4566 habanalabs: skip DISABLE PCI packet to FW on heartbeat
+99cb017e728227f5c046a044a6acec088f68a1c8 habanalabs: update hl_boot_if.h
+dd0a25c77a00e2b10d7520af31cfac949e51bbba habanalabs: Switch to using the new API kobj_to_dev()
+a5778d10a12da26de55f88a9d03cbea78f73f8c4 habanalabs: debugfs access to user mapped host addresses
+2ea09537ad7747944c20ff70078be304a71b3e33 habanalabs/gaudi: reset device upon BMC request
+12e66a172773320e66df29908d7533f4f4663938 habanalabs/gaudi: always use single-msi mode
+f951eb08a96b43fd2a8c3e9c6293fc2e7b6750bb habanalabs/gaudi: unsecure TPC cfg status registers
+d661d79930b41d3103c0cc959757deec4421e8ff habanalabs/gaudi: Update async events header
+2f6274e4773570ab763d5a588504ff35b908b2cf habanalabs: avoid soft lockup bug upon mapping error
+8445dde1b9fb8025ef05c148966f384a4d014824 habanalabs: move relevant datapath work outside cs lock
+e8f9392a5c7fabe0fdeb33b354b489c8c4b236bc habanalabs: support legacy and new pll indexes
+cd5def8020637836b7836fc8228b70cdc9af4ea1 habanalabs: improve utilization calculation
+cf39395034c6b927d49abe554fb4e93730d00543 habanalabs: add custom timeout flag per cs
+e65448faf4cfeddd95a0e661aabf2fae1efc9831 habanalabs/gaudi: sync stream add protection to SOB reset flow
+639781dcab8261f39c7028db4ed4fd0e760d69fa habanalabs/gaudi: add debugfs to DMA from the device
+131d1ba1304a9a2040648cb03309d9444e7fe45f habanalabs: remove the store jobs array from CS IOCTL
+ae382c22fc06058b24bb49c92f3b0af653499589 habanalabs: use strscpy instead of sprintf and strlcpy
+7d21114b03618a1b528804a631098b471eac6481 habanalabs: support DEVICE_UNUSABLE error indication from FW
+1b4971573fde0c4d4ed7de70c3a9cfd08330a541 habanalabs/gaudi: clear QM errors only if not in stop_on_err mode
+e9c2003be4d4809c7e3bf17167ef08a3be7b43d2 habanalabs: send dynamic msi-x indexes to f/w
+d4b1e5da54c067ca248191aaee5f531c4d30ba29 habanalabs: move dram scrub to free sequence
+e5042a6fa6d4aa1168b3521298c92a53978c9d99 habanalabs/gaudi: derive security status from pci id
+41f458f205a508dcdce58bdaa0af35bb6ef6efdb habanalabs/gaudi: skip iATU if F/W security is enabled
+669b018835326b3caa42572ba7cb31f84fa22f9d habanalabs: update to latest F/W communication header
+b575a7673e3d0396992fc72fce850723d39264e3 habanalabs: print f/w boot unknown error
+aa87e31757e82f686bb07544a2dec845bd700e5e Merge tag 'misc-habanalabs-next-2021-04-10' of https://git.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-next
 
---===============7585436188174613801==--
+--===============8600009690192329307==--
