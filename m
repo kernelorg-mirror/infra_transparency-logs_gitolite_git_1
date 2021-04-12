@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 12 Apr 2021 14:22:18 -0000
-Message-Id: <161823733859.17061.8377089746067828116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 12 Apr 2021 14:27:01 -0000
+Message-Id: <161823762102.19714.2446184429418474671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 331584dbbf206d1adac66979946a2817d9f30abb
-    new: a96932103e6e1d124c86911d894268a0eff2c152
+  - ref: refs/heads/hwmon-next
+    old: 31106c948299bae1288cfa9c946fae3ca38b6f6f
+    new: 796870070200c0717b7ec58a3685656dcaae0d85
     log: |
-         e51c9822a9d068fa822cc8333f5c24ee380b5a54 lslogins: non-Linux fix
-         a96932103e6e1d124c86911d894268a0eff2c152 chrt: non-Linux fix
+         55a0bd4de2f5740baa7908704f56b57859d5cb19 hwmon: (amd_energy) Use unified function to read energy data
+         935f6562d263a03297f154e5ef434bb6b216870d hwmon: (amd_energy) Restore visibility of energy counters
+         9d88ddfd506bf53b3d1e2c5f345247146130d322 MAINTAINERS: Add keyword pattern for hwmon registration functions
+         796870070200c0717b7ec58a3685656dcaae0d85 hwmon: (dell-smm) Add Dell Latitude E7440 to fan control whitelist
          
