@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 12 Apr 2021 17:47:49 -0000
-Message-Id: <161824966974.14221.220127685248032506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 12 Apr 2021 17:55:39 -0000
+Message-Id: <161825013929.20704.16665036686370561582@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 3bf8ef9db35001dd1aede362ee0cf26bdd11412b
-    new: bca172fee41f4efa5357ea8e70e5d57f4191798c
+  - ref: refs/heads/x86/sgx
+    old: ae40aaf6bdbf0354a75b8284a0de453fcf5f4d32
+    new: 523caed9efbb049339706b124185c9358c1b6477
     log: |
-         020505581119d191ee8da478783e2465d7f5fa8e ACPI: scan: Utilize match_string() API
-         bca172fee41f4efa5357ea8e70e5d57f4191798c Merge branch 'acpi-scan' into bleeding-edge
+         523caed9efbb049339706b124185c9358c1b6477 x86/sgx: Mark sgx_vepc_vm_ops static
          
