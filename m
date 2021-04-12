@@ -1,28 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 12 Apr 2021 19:01:06 -0000
-Message-Id: <161825406645.28778.17580361646030909505@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5166607071012161181=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
+Date: Mon, 12 Apr 2021 19:13:06 -0000
+Message-Id: <161825478661.2506.15323913471690563840@gitolite.kernel.org>
+
+--===============5166607071012161181==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/djiang/linux
+user: djiang
 changes:
-  - ref: refs/heads/perf/core
-    old: b2281d4bf09c636f170e18962698b8c5c3802ea3
-    new: da66658638c947cab0fb157289f03698453ff8d5
-    log: |
-         dedb76d3598618e67b3a9af89bf4f418430acbe4 perf metricgroup: Make find_metric() public with name change
-         a48a995edcde832f2d4c4ec1bfb73e0da93810fb perf test: Handle metric reuse in pmu-events parsing test
-         e126bef55f1dfb44440d632f9aae66af3240a435 perf pmu: Add pmu_events_map__find() function to find the common PMU map for the system
-         c4e1dc4a94931805fd4c69de71117dc040d8db2a perf vendor events arm64: Add Hisi hip08 L1 metrics
-         03837173487a1c664b71f047e97209112be37dd5 perf vendor events arm64: Add Hisi hip08 L2 metrics
-         0cc177cfc95d565e1a458136a592b0bd6d487db0 perf vendor events arm64: Add Hisi hip08 L3 metrics
-         86c2bc3da769124e3e856b6e9457be3667c30919 perf vendor events amd: Fix broken L2 Cache Hits from L2 HWPF metric
-         ff64c98195c5c48c4cd98ff1347543cdb0631433 perf vendor events amd: Use lowercases for all the eventcodes and umasks
-         e5f2b4e1b8b1c709d32e895c9ca77845b8e71ee3 perf vendor events amd: Use 0x%02x format for event code and umask
-         da66658638c947cab0fb157289f03698453ff8d5 perf vendor events amd: Add Zen3 events
-         
+  - ref: refs/heads/idxd-upstream-fixes
+    old: 63722c1ae258e09160bf40a45300eaaf574aad1b
+    new: 2bb1f70195a9226698877f5351d118c7f7ed80ab
+    log: revlist-63722c1ae258-2bb1f70195a9.txt
+
+--===============5166607071012161181==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-63722c1ae258-2bb1f70195a9.txt
+
+6df0e6c57dfc064af330071f372f11aa8c584997 dmaengine: idxd: clear MSIX permission entry on shutdown
+ea9aadc06a9f10ad20a90edc0a484f1147d88a7a dmaengine: idxd: fix wq cleanup of WQCFG registers
+6da35109469127a1f41e379f42f15a6a4614da9c Merge remote-tracking branch 'dmaengine/fixes' into djiang5/idxd-upstream-fixes
+210efcaccddfe15c7ccdc81dce7a53199408b87b dmaengine: idxd: fix dma device lifetime
+f263814fabd07659fa7062b709b0f23173687372 dmaengine: idxd: cleanup pci interrupt vector allocation management
+acd303cc89b41325480a850bdbb037ed2abb81da dmaengine: idxd: removal of pcim managed mmio mapping
+778930407d0b340c138cf100f75d4fb72fda33d7 dmaengine: idxd: use ida for device instance enumeration
+5993dbc2829435c26bdd9c004422d0f2eda4d7a3 dmaengine: idxd: fix idxd conf_dev 'struct device' lifetime
+a5fae30fd2086b69129863b096a075293fa3201b dmaengine: idxd: fix wq conf_dev 'struct device' lifetime
+a56502504b04a5d27cafece416eebc03ab502350 dmaengine: idxd: fix engine conf_dev lifetime
+6d7904e34c34ad504ffb90fa4072bb1c6dae291f dmaengine: idxd: fix group conf_dev lifetime
+b5292d4461c1c623f65547a17e6a035d9d4657a8 dmaengine: idxd: fix cdev setup and free device lifetime issues
+f46224e5f1404418b846ee740fd4283b76db7ae8 dmaengine: idxd: iax bus removal
+172e4a9b5e5e13c38f1b772e64cd58bcd54bd9fe dmaengine: idxd: remove detection of device type
+2bb1f70195a9226698877f5351d118c7f7ed80ab dmaengine: idxd: remove msix masking
+
+--===============5166607071012161181==--
