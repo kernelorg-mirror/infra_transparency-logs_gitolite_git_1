@@ -1,30 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 12 Apr 2021 02:50:03 -0000
-Message-Id: <161819580371.31870.10605737646669615574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 12 Apr 2021 03:51:31 -0000
+Message-Id: <161819949105.3291.11030866828140248393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-5.13/libata
-    old: 152cad51a418bc88f45bc34ed94101c96a056966
-    new: c38ae56ee034623c59e39c0130ca0dec086c1a39
+  - ref: refs/heads/master
+    old: b6a151ff649f7e322edd23baa02564dd35067fc2
+    new: e74ea1b0eddb8e9e07498c6872fe2684e5c9c564
     log: |
-         8b625d01fd503d08005eaff68d05a39d3e1f80e4 ata: ahci_tegra: call tegra_powergate_power_off only when PM domain is not present
-         c38ae56ee034623c59e39c0130ca0dec086c1a39 pata_ipx4xx_cf: Fix unsigned comparison with less than zero
-         
-  - ref: refs/heads/for-next
-    old: 1e7393e0919c815ee2112a0e14a28b5ab5bbf147
-    new: 8274ff0b834627a5e3f0c0ca06ddf85c726d72bb
-    log: |
-         8b625d01fd503d08005eaff68d05a39d3e1f80e4 ata: ahci_tegra: call tegra_powergate_power_off only when PM domain is not present
-         c38ae56ee034623c59e39c0130ca0dec086c1a39 pata_ipx4xx_cf: Fix unsigned comparison with less than zero
-         1c61de8cfc89256a895720f483aafc89c3a51b82 Merge branch 'for-5.13/libata' into for-next
-         954062e1af8bbf4acdc47b93fd438c3871e4f556 Merge branch 'for-5.13/io_uring' into for-next
-         8274ff0b834627a5e3f0c0ca06ddf85c726d72bb Merge branch 'for-5.13/drivers' into for-next
+         9d1480fcadfbb26c7fc066df92b6de8edd3374f1 Fixes for 5.11
+         3f05bd05cbe6f673433ba7108c7fccd499d891e4 Fixes for 5.10
+         571a475790b15bbb9ba3eab59baac9b6b293beaa Fixes for 5.4
+         ee6a84176f91fb7b14dd5f2efbfb66d83d430727 Fixes for 4.19
+         57f9b84dacdbd2506ae908f1f2914063445c148d Fixes for 4.14
+         715433d060ed8422ae8f9102c0c99b9f8ab47c8e Fixes for 4.9
+         e74ea1b0eddb8e9e07498c6872fe2684e5c9c564 Fixes for 4.4
          
