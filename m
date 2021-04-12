@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1945265401070089681=="
+Content-Type: multipart/mixed; boundary="===============6042523358528743905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/usb
-Date: Mon, 12 Apr 2021 13:16:06 -0000
-Message-Id: <161823336603.4772.2808345782810206705@gitolite.kernel.org>
+Date: Mon, 12 Apr 2021 13:31:51 -0000
+Message-Id: <161823431110.14612.858195378539129134@gitolite.kernel.org>
 
---===============1945265401070089681==
+--===============6042523358528743905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peter.chen/usb
 user: peter.chen
 changes:
-  - ref: refs/heads/for-usb-next
-    old: 6ef82c8acf5ca40d8912947696e9d52956a03cec
-    new: 10076de33b5ed5b1e049593a611d2fd9eba60565
-    log: revlist-6ef82c8acf5c-10076de33b5e.txt
+  - ref: refs/tags/usb-v5.13-rc1
+    old: 5d90b0423cc8d0125c29b9022d3691add510b313
+    new: 1578a60d9ff42df5f294845b765ee5c43a24e217
+    log: revlist-5d90b0423cc8-1578a60d9ff4.txt
 
---===============1945265401070089681==
+--===============6042523358528743905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ef82c8acf5c-10076de33b5e.txt
+Content-Disposition: attachment; filename=revlist-5d90b0423cc8-1578a60d9ff4.txt
 
 ee53fb2b197b72b126ca0387ae636da75d969428 io_uring: use typesafe pointers in io_uring_task
 de75a3d3f5a14c9ab3c4883de3471d3c92a8ee78 io_uring: don't leak creds on SQO attach error
@@ -1051,4 +1051,4 @@ b9b1eae761eeae665824ca6ef7f91da4fc798ebb usb: cdns3: Use dma_pool_* api to alloc
 9ecc3eb03c37b54c507ba5127a4c781d36b0c121 usb: cdnsp: remove redundant initialization of variable ret
 10076de33b5ed5b1e049593a611d2fd9eba60565 usb: cdnsp: Fixes issue with Configure Endpoint command
 
---===============1945265401070089681==--
+--===============6042523358528743905==--
