@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7086112294196839206=="
+Content-Type: multipart/mixed; boundary="===============4863082486039858115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 12 Apr 2021 12:35:12 -0000
-Message-Id: <161823091296.11851.2458783065753990693@gitolite.kernel.org>
+Date: Mon, 12 Apr 2021 12:37:03 -0000
+Message-Id: <161823102358.12414.14856960554012869854@gitolite.kernel.org>
 
---===============7086112294196839206==
+--===============4863082486039858115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 14d34d2dbbe2d9144a65bae1549202d1717062e2
-    new: 1d08ed588c6a85a35a24c82eb4cf0807ec2b366a
+  - ref: refs/heads/usb-testing
+    old: 1d08ed588c6a85a35a24c82eb4cf0807ec2b366a
+    new: 5bdb080f9603c5db51597ee7bda457a153106a9a
     log: |
-         1d08ed588c6a85a35a24c82eb4cf0807ec2b366a usbip: vudc: fix missing unlock on error in usbip_sockfd_store()
+         5bdb080f9603c5db51597ee7bda457a153106a9a Revert "usb: Link the ports to the connectors they are attached to"
          
 
---===============7086112294196839206==
+--===============4863082486039858115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618230908 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618231018 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1618230906-ef7b769b2f9df7653e6ccd0641236a612527a19c
+nonce 1618231017-b82cba1494757f3ed54589cf414e0b75fb33aee3
 
-14d34d2dbbe2d9144a65bae1549202d1717062e2 1d08ed588c6a85a35a24c82eb4cf0807ec2b366a refs/heads/usb-next
+1d08ed588c6a85a35a24c82eb4cf0807ec2b366a 5bdb080f9603c5db51597ee7bda457a153106a9a refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB0PnwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y0EP/j3G3/Ev/AoY8sk/4rGM
-fESJftmIucmYvQZsSAqaqfIB3l6zuMVzaMTLCXwsK5RKCtR9otE0OlNRtj2Wyn2v
-nZvX1JBH0FeNR6g9WKERpO5v15NpMGNQCQaadLjPaHRRuqHGN1iJrXaEt/4+68mI
-zx8zdssI1ZR5JhKWPWFm7kie/J3pDRrJ2PBBmFaShjcYXaYUhD29TpoDplBpideY
-NhdiqK1cEpU3+lPxhSFOdozSOScyDdTE/JBZ7v1MNvmJvzEvJ0EXwCzuDQzu3Z94
-xs/8Dj9kcQvKyiF0ddlCYgiEgyTDcYk+PCnuRqOU8aH7QF3wG0e7zIIwGLJmaQRb
-RXzi6RQk3LPnZYUr46iiSMmMgF2+nvwTROwdux+yOhLdVqmISOaO+s1c61zXsaJb
-DFF0O52nz2N45M11icjuX1SxeSKpHqRdljgRdNY4dwH2APjBsLGmGKW2tJcSzIGA
-MjpnIk1g09lS1MWQnLTZ2PUqDQR4U6ect1KZz7gZw2ABqH7/nswpuhG1fEuoCqsE
-O3HyOk2iszLIAjUl0rK0EwfVESTtNV60XbnIKNLJGjtTAzCLmSIDa342+onrRhlG
-FNXF2dKPck1+ca15VwFxDfS5EKHleJkAUFN6Tp2NZFqY1VCKd3Cjlm408TZzAwRK
-p+U2eLgY3A3SPLzm4fyuOvmW
-=PxJe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB0PuobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wL0P+wfvZQyIzGxuPn/gFzBT
+HhBsR7ULu9ZjHwVS4gdG7PG8L2+ST2vgnOja8zWAJ9/7BDoKofsrYnXap7dxXAeg
+QiGqn6U2WVJSjsUWpEq88WyClOY9JAjemZGQDTrw0awzSxCSgQE9JaPfboX+Qipe
+aJK498skgfdeUdAvvs28Q5sgf+wcokMhP156vVVKg8nIrgyM02AQoGGMfasFmV5v
+UQwJ4kML2rwHb83k5Yuib1X7VX/kksbJXvGoIzsvFLymgDGdOeitCeXohFEwfaNF
+diBKqZ603PgeKTmR9pnOlEwvBKuYL5ww9As6zIBLL2Eu4t3KaepqrcB673ASbDbj
+I7IDzoTTXntUFuG6WYTJ5L7EGhZh367oQMUscCDTv/hQf3/4Wyp7a5nXqQFBSbLr
+TODvR8P6OIjYeSgmUdCMJNBH2MLz4nuO9nknxM0pAW4C4sEURTniGQEqe/qKP3SY
+S15Valz9rRjNmwhoVr5XDB/izQ3IfrynS41XJrdsUyrqho4rOgvt/0GYuliy3Mce
+Vd5qCRFg6dbYvoY9SbUvCaLmnVxH7XpyOvF//JAfzCq6EDFKyueojSp4as5RKvw7
+ZJKJoRSt9TI1DAQdEyMAVPKCCZZiUPLPWaZrlJirT0SRLpbDWSYc4hu1db8VhFBE
+30lH6jqgnj435r4Ef5qBCjz6
+=qpde
 -----END PGP SIGNATURE-----
 
---===============7086112294196839206==--
+--===============4863082486039858115==--
