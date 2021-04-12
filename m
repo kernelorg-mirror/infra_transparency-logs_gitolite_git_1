@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
-Date: Mon, 12 Apr 2021 11:51:44 -0000
-Message-Id: <161822830418.17752.9746262042539844256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Mon, 12 Apr 2021 11:53:41 -0000
+Message-Id: <161822842196.18422.13288037777149802691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211-next
-user: jberg
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/master
-    old: 0750cfd8b7fd491c9d7c8bd19d9ac380cd3c84ee
-    new: 8a16ffdc4cf37c1e6204054b0fb44052c8a48f0d
+  - ref: refs/heads/next
+    old: b51fcd4c89c6615b4b2ae90b4bbbcd07e5cf5f5b
+    new: 50eae6bada81d287d7d2105dac5fe66f182a2b6f
     log: |
-         6f779a66dc84450ceb4825024d3e337f42e633de cfg80211: allow specifying a reason for hw_rfkill
-         d84d13d6f6e03a7aaac9e7d064a11cf6f5087da6 nl80211: Add interface to indicate TDLS peer's HE capability
-         55f8205e7dddb2151def733cefbbf63deba9e1a5 mac80211: Allow concurrent monitor iface and ethernet rx decap
-         96a7109a16665255b65d021e24141c2edae0e202 mac80211: Set priority and queue mapping for injected frames
-         d6843d1ee283137723b4a8c76244607ce6db1951 mac80211: clear the beacon's CRC after channel switch
-         db878e27a98106a70315d264cc92230d84009e72 mac80211: bail out if cipher schemes are invalid
-         8a16ffdc4cf37c1e6204054b0fb44052c8a48f0d cfg80211: Remove wrong RNR IE validation check
+         5ec6fa5a6dc5e42a4aa782f3a81d5f08b0fac1e6 mmc: sdhci-tegra: Add required callbacks to set/clear CQE_EN bit
+         87e985aea2bef73242cf2a7d2ef81f950d677361 mmc: renesas_sdhi: enable WAIT_WHILE_BUSY
+         489702f450360f82c6bae0bb2852c56a4d490b1d mmc: owl-mmc: Remove unnecessary error log
+         ffa4877c0a291c9d6798faa48cdcf1e863f5df68 mmc: sdhci-msm: Remove unnecessary error log
+         50eae6bada81d287d7d2105dac5fe66f182a2b6f mmc: sdhci-st: Remove unnecessary error log
          
