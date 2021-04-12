@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4457102717385430542=="
+Content-Type: multipart/mixed; boundary="===============0470720385861658577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 12 Apr 2021 06:16:19 -0000
-Message-Id: <161820817983.13152.12218274565367157192@gitolite.kernel.org>
+Date: Mon, 12 Apr 2021 06:16:32 -0000
+Message-Id: <161820819227.13240.4158160086873416328@gitolite.kernel.org>
 
---===============4457102717385430542==
+--===============0470720385861658577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e49d033bddf5b565044e2abe4241353959bc9120
+  - ref: refs/heads/usb-linus
+    old: bc2f3e4c662841dc19f7e7efae87782b9f3c0831
     new: d434405aaab7d0ebc516b68a8fc4100922d7f5ef
-    log: revlist-e49d033bddf5-d434405aaab7.txt
+    log: revlist-bc2f3e4c6628-d434405aaab7.txt
 
---===============4457102717385430542==
+--===============0470720385861658577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618208174 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618208187 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1618208174-dbcfa1bb8f46c88b9eb0636eaaa95f9c0cc4500c
+nonce 1618208186-cb65587e4ac7795b1af26ed304a8ba7471e036a9
 
-e49d033bddf5b565044e2abe4241353959bc9120 d434405aaab7d0ebc516b68a8fc4100922d7f5ef refs/heads/main
+bc2f3e4c662841dc19f7e7efae87782b9f3c0831 d434405aaab7d0ebc516b68a8fc4100922d7f5ef refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBz5a4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UJ0P/j2+ZjmukGqKtSc4JQ/E
-9RKWlcjgw4dRF2r+ZdNbvr6hVSg6CZLVLKNJcwx5oNj0mJ/jpphXte37wONtP5KO
-UfnDNguzMqHKjzraj8q6XnoqsxAEL0ALSMVQ0eIpEjQel4/wD0MdobzrcthZ86HR
-kf7YtP6hPXuAfCrj59+V3LolA9KqUFGAO9IUHfBFFCtZBOBck4Xs+wsoewy6xsV5
-NVjqkYJ/TCcLnq8lzrod2+2QTyogww7fbbsLWATU+jcs+nNJAcLgYB4810S3nzfW
-c7tdDxlMJMuAxyYLlOw9Jpd89WWLPn1Xf2di+phhRzSd51QwS/2SYBqPB0cegPeD
-nFfByOIjxHmhTUSXZVF+/YNCrXUXR7r30RLRTEPmAESDgenUwh7+UY+m8QkyXhPI
-ybJTBFIaiL4XigQtF09gqPbncDCPV2ZFFlySXrBx5D0ExlB3e/df47g0ZlbnZFbM
-UMTlqvPenO7snGez443l9aGUR/g7+igY7P2LiJFHuMhTkN0T1/idj4qAKHHnBIve
-N5iRmFU7OJCVLXZBXnmZpsGRI5TkRZtsX46Q7uWXDGw3g6CR3RABSwPZZJxG2wne
-QI33jtigoeNT4qJC64Zva5N7MM7Kx9ohSS4wXe/tK/eObj30VPr2CVaQ5OoMFL5Z
-nnEsOaXFE5cuqBIaJ4RA/Hde
-=hjq6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmBz5bsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3QoP/3KgmNDMCYfMkfD1tgzH
+wjGIGV1g6Jt1lcN+OlZrNZQavhLiqLXyfiniX8F7iZb8CPO8RbC3U1Vft4Rvqldb
+tP0XOZgYeZ9jJWHxXAkEKGvaPriZbNOayejXiLoPoIRMxMsEtgDArpRWypDKweYb
+Ft2iQr+1k71dMNXYPv8aBvDalWvKI1mLdWuVKfz3h7sSvR9zU7YPD8EiRi7mUdLk
+Fk/3fVxE8xxEGORv1niCs8QASOlhvyLUyU/eaAP/tzubucsqDnXZ9+/sdXiE/lya
+iotfpoz/01M1qlxfYQ21/WhnlxpTS2Lm6bOeaGCWh+02MMvVCQr1k8lwm9KCFovK
+wzThlRqPmv1qwhYShOyC6AMldaK2FZgQxktPa47n9FrEagoKGP5xxy6cfw00E2iB
+b5zBaAGEDTsbWeev34sONJUfMIqMk9d/h4XyE2zWLYmLuEGij6NZHanmj0NhBPEI
+sZjB7/7POtpr0ZRadQDST0j7HMXuN9TsQbptsh4Ehi0VxOq2hTLTzzR2Lyaxvlmw
+q7iS9TD+11kLcyM8yqKfF6NF9/YFY/6j/3XDZ+quThh8sZ8mvdB5CWFUMDtweluh
+6uwMFxdHCZABr6FWDz9/LzFzcCl/CNo+Lln3A93kBavK5HJ3jVUV1GA7zopFmn8l
+1GswaierMU3kYz+n4YJDVJ+N
+=Q8wu
 -----END PGP SIGNATURE-----
 
---===============4457102717385430542==
+--===============0470720385861658577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e49d033bddf5-d434405aaab7.txt
+Content-Disposition: attachment; filename=revlist-bc2f3e4c6628-d434405aaab7.txt
 
 04052a318fb93491f1f3b4d282cb806f588e9326 net/ieee802154: remove unused macros to tame gcc
 443f0bb8e29fa031ec4d5beb3c3143350438dc97 Revert "ARM: dts: bcm2711: Add the BSC interrupt controller"
@@ -135,7 +135,6 @@ aa5a5b7ae5b2598538dd91a55ae1db7779675a16 Merge branch 'nfc-fixes'
 12aa8a9467b354ef893ce0fc5719a4de4949a9fb bpf: Enforce that struct_ops programs be GPL-only
 d8e8052e42d0f8ff59898b9b4142b16958627ac9 bpf/selftests: Test that kernel rejects a TCP CC with an invalid license
 d6fe1cf89026d3111112ee29ef8d93cd7a8aaa24 bpf: Fix a spelling typo in bpf_atomic_alu_string disasm
-cf97d7af246831ea23c216f17205f91319afc85f usb: cdnsp: Fixes issue with dequeuing requests after disabling endpoint
 861de02e5f3f2a104eecc5af1d248cb7bf8c5f75 bpf: Take module reference for trampoline in module
 1b479fb801602b22512f53c19b1f93a4fc5d5d9d drivers/net/wan/hdlc_fr: Fix a double free in pvc_xmit
 5cfad4f45806f6f898b63b8c77cea7452c704cb3 arm64: dts: imx8mm/q: Fix pad control of SD1_DATA0
@@ -171,8 +170,6 @@ ca441a7129904a62fbc5692bb202e4694097bd45 Merge branch '100GbE' of git://git.kern
 6e5a03bcba44e080a6bf300194a68ce9bb1e5184 ethernet/netronome/nfp: Fix a use after free in nfp_bpf_ctrl_msg_rx
 ef19e111337f6c3dca7019a8bad5fbc6fb18d635 xfrm/compat: Cleanup WARN()s that can be user-triggered
 f57011e72f5fe0421ec7a812beb1b57bdf4bb47f ARM: dts: imx6: pbab01: Set vmmc supply for both SD interfaces
-bec4d7c93afc07dd0454ae41c559513f858cfb83 thunderbolt: Fix a leak in tb_retimer_add()
-08fe7ae1857080f5075df5ac7fef2ecd4e289117 thunderbolt: Fix off by one in tb_port_find_retimer()
 03cb4d05b4ea9a3491674ca40952adb708d549fa net/ncsi: Avoid channel_monitor hrtimer deadlock
 6855e8213e06efcaf7c02a15e12b1ae64b9a7149 net: sched: bump refcount for new action in ACT replace mode
 8a03dd925786bdc3834d56ccc980bb70668efa35 net: qrtr: Fix memory leak on qrtr_tx_wait failure
@@ -257,11 +254,6 @@ a14d273ba15968495896a38b7b3399dba66d0270 net: macb: restore cmp registers on res
 7045465500e465b09f09d6e5bdc260a9f1aab97b clk: fix invalid usage of list cursor in unregister
 0687c66b5f666b5ad433f4e94251590d9bc9d10e workqueue: Move the position of debug_work_activate() in __queue_work()
 89e28ce60cb65971c73359c66d076aa20a395cd5 workqueue/watchdog: Make unbound workqueues aware of touch_softlockup_watchdog() 84;0;0c84;0;0c There are two workqueue-specific watchdog timestamps:
-3004fcba01b4adb3d2ff48c7eead8763fb837556 Merge tag 'v5.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-linus
-4e9c93af7279b059faf5bb1897ee90512b258a12 usbip: add sysfs_lock to synchronize sysfs code paths
-9dbf34a834563dada91366c2ac266f32ff34641a usbip: stub-dev synchronize sysfs code paths
-bd8b82042269a95db48074b8bb400678dbac1815 usbip: vudc synchronize sysfs code paths
-363eaa3a450abb4e63bd6e3ad79d1f7a0f717814 usbip: synchronize event handler with sysfs code paths
 eed6e41813deb9ee622cd9242341f21430d7789f driver core: Fix locking bug in deferred_probe_timeout_work_func()
 7a2f91441b2c1d81b77c1cd816a4659f4abc9cbe s390/cpcmd: fix inline assembly register clobbering
 08edb9683e47f5183aed9aa3f926292b54c278c1 s390/unwind: add machine check handler stack
@@ -379,7 +371,6 @@ dd0b45538146cb6a54d6da7663b8c3afd16ebcfd mac80211: clear sta->fast_rx when STA r
 7d73cd946d4bc7d44cdc5121b1c61d5d71425dea mac80211: fix time-is-after bug in mlme
 1b5ab825d9acc0f27d2f25c6252f3526832a9626 cfg80211: remove WARN_ON() in cfg80211_sme_connect
 b57aa17f07c9270e576ef7df09f142978b5a75f0 virt_wifi: Return micros for BSS TSF values
-bc2f3e4c662841dc19f7e7efae87782b9f3c0831 Merge tag 'thunderbolt-for-v5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 315f02c60d9425b38eb8ad7f21b8a35e40db23f9 KVM: x86/mmu: preserve pending TLB flush across calls to kvm_tdp_mmu_zap_sp
 b5ac0146492fc5c199de767e492be8a66471011a cfg80211: check S1G beacon compat element length
 abaf94ecc9c356d0b885a84edef4905cdd89cfdd nl80211: fix potential leak of ACL params
@@ -475,4 +466,4 @@ add6b92660b3dca65465d3bd7710b4b1338f34f0 Merge tag 'locking-urgent-2021-04-11' o
 7d900724913cb293620a05c5a3134710db95d0d9 Merge tag 'for-5.12-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 d434405aaab7d0ebc516b68a8fc4100922d7f5ef Linux 5.12-rc7
 
---===============4457102717385430542==--
+--===============0470720385861658577==--
