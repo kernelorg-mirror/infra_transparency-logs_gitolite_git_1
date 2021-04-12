@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 12 Apr 2021 14:48:05 -0000
-Message-Id: <161823888583.31590.4406783366284430238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Mon, 12 Apr 2021 14:54:25 -0000
+Message-Id: <161823926573.3971.17081727277484577625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 796870070200c0717b7ec58a3685656dcaae0d85
-    new: 37c8f621125f74e606208368358c77000f39ba18
+  - ref: refs/heads/master
+    old: c3ee1fcd498348df11ac7a30896235434e0194f4
+    new: 25ad41e7b52e3ad677ad4c016698e71079403b3f
     log: |
-         5682b5c9445f12f1b03a0b8ac7b0faf0b7dfa933 MAINTAINERS: Add keyword pattern for hwmon registration functions
-         37c8f621125f74e606208368358c77000f39ba18 hwmon: (dell-smm) Add Dell Latitude E7440 to fan control whitelist
+         25ad41e7b52e3ad677ad4c016698e71079403b3f pahole: Prep 1.21
          
