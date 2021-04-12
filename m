@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Mon, 12 Apr 2021 01:33:46 -0000
-Message-Id: <161819122613.16655.6749169404400104413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 12 Apr 2021 01:42:41 -0000
+Message-Id: <161819176107.21880.12953746241151239808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: b55b2872b4162837b89120d66e7856b794913baa
-    new: 7a512eb13af74b06a1ef76b189d81d4814a8ad19
+    old: 232f0af7ea11e22a04ad0877cfb8ce332ee4c056
+    new: 388585718f903ee15205b2ff89a0c5f2a9b9b13e
     log: |
-         96154d28e0d12ff7f06fabc3349f71afa4613d94 test-appliance: don't copy over the go packages used by the GCE test appliance
-         7a512eb13af74b06a1ef76b189d81d4814a8ad19 Delete the generated libinih.a file from the repository
+         388585718f903ee15205b2ff89a0c5f2a9b9b13e Mon 12 Apr 2021 01:41:59 AM UTC
          
