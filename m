@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5596962409513049567=="
+Content-Type: multipart/mixed; boundary="===============4900972704693394821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 12 Apr 2021 18:57:22 -0000
-Message-Id: <161825384211.25593.17769659810098780595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 12 Apr 2021 18:57:29 -0000
+Message-Id: <161825384961.25713.2646768939209186265@gitolite.kernel.org>
 
---===============5596962409513049567==
+--===============4900972704693394821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/spi-5.13
     old: 828b480977421e9fbe93ecbdc65689ec7cc1e834
     new: 089cde07977cccbc6a0729485a9bee04fb86c9ea
     log: |
@@ -26,28 +26,28 @@ changes:
          089cde07977cccbc6a0729485a9bee04fb86c9ea Merge series "Minor updates for hisi-sfc-v3xx" from Yicong Yang <yangyicong@hisilicon.com>:
          
 
---===============5596962409513049567==
+--===============4900972704693394821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1618253822 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1618253839-f1741cc39e4aae3e63fdf3e29dfb0b2dfce82bdb
+pusher C3F436CA30F5D8EB 1618253830 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1618253847-8a009fd750643d46d65673de177df2fd651a2516
 
-828b480977421e9fbe93ecbdc65689ec7cc1e834 089cde07977cccbc6a0729485a9bee04fb86c9ea refs/heads/for-5.13
+828b480977421e9fbe93ecbdc65689ec7cc1e834 089cde07977cccbc6a0729485a9bee04fb86c9ea refs/heads/spi-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB0l/4ACgkQJNaLcl1U
-h9ADbAf/aVvEXVydqplhIX/T/W3IPWm2ZjyrjMbea5gdh08QTTj+8N+ba3n6J34V
-vIpp4vO8xhDuINK1a3Xv4NAsLJP3BPMkJDohl09TTZMT4FCjVBckQwNfMfsI2xwv
-UR5GYsC+TOA9Psm/YbF53iR3lpGK8sT+RjMGtK1Mkf/vITp0T9NNLRjjs17ON+0d
-U/rg1rHXo323iYPNm4Ze6jo78XyxuYVqLvkF48GizwU/QUK1spsHhU25NewPq0EF
-ZkAwmfPLMmbkij1Yt/69lZEJKYK2ANsyXFy8Bp+mEQ327fuiPCXZl1jn0afXhwfq
-VmYaCXzfG9UoPbqaKf4k9ybq3XqHwA==
-=WksP
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB0mAYACgkQJNaLcl1U
+h9DIQAf9EsgOk6yp+s865A1Ntm9phT+xBI4Shghs4FrgpBYhkQE8rd+e+4Mm325F
+KadvQpRxBUkZ20/lyK1Gp8svrg44rbLdnmO42dkI5U1WO48cNc4fx5LiFtFV+P+w
+M56UXxTv1Q2XDBOrm8P5MFnnTMe+0QK86McOof+8miT7O/gIa99mIobviFfyWpN9
+fBEKK9VK4k1WgYYgOIpl1SqYgHyxytaFdoHhqbNRThS+1XmA7pGdziCeyuDNCIqy
+DdzwDnWFJJhMESbOYnN3V0xWj1zO5D3y5mOKpzFVMN0qIPHZbLr07FurBA2uQ+Np
+1YzA07XmwqjqdVz8twaSWcFHTnLcUw==
+=J190
 -----END PGP SIGNATURE-----
 
---===============5596962409513049567==--
+--===============4900972704693394821==--
