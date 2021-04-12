@@ -1,52 +1,72 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Mon, 12 Apr 2021 14:11:47 -0000
-Message-Id: <161823670789.9807.12302773810883328291@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2184811882263742222=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 12 Apr 2021 14:22:05 -0000
+Message-Id: <161823732577.16902.16149031984378377492@gitolite.kernel.org>
+
+--===============2184811882263742222==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.11
-    old: 0000000000000000000000000000000000000000
-    new: 2d073d933799ffaa046c773bfffa01f3aa461701
-  - ref: refs/tags/v5.11-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 7341df6992e7840498cff6ad21380aa7dd97870b
-  - ref: refs/tags/v5.11-rc5
-    old: 0000000000000000000000000000000000000000
-    new: ccc5e9edc1b189a5c49dc8ac5751f95dc6d83564
-  - ref: refs/tags/v5.11-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 45e6659327a54b98d7715964f2993e44dfb2c318
-  - ref: refs/tags/v5.11-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d61728d5dac3c065b21f39249b406988aaefa193
-  - ref: refs/tags/v5.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d1da37c58e65c4800cce768533c563fa3c89c62f
-  - ref: refs/tags/v5.12-rc1-dontuse
-    old: 0000000000000000000000000000000000000000
-    new: d1da37c58e65c4800cce768533c563fa3c89c62f
-  - ref: refs/tags/v5.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
-  - ref: refs/tags/v5.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: a6d574dee98b6bc676391ba747e348b7705732c0
-  - ref: refs/tags/v5.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
-  - ref: refs/tags/v5.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
-  - ref: refs/tags/v5.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
-  - ref: refs/tags/v5.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 33bc861b3af62f4d44957319d850f1767d16ab84
+  - ref: refs/heads/usb-testing
+    old: 5bdb080f9603c5db51597ee7bda457a153106a9a
+    new: 9bc46a12c53d8268392774172742aa9e5dd6953d
+    log: revlist-5bdb080f9603-9bc46a12c53d.txt
+
+--===============2184811882263742222==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618237320 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1618237319-cfd02ed1baa970e9527537d1133444ccf1e486c7
+
+5bdb080f9603c5db51597ee7bda457a153106a9a 9bc46a12c53d8268392774172742aa9e5dd6953d refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB0V4gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uLgQALlZAuGXEn41qmF+Tx+L
+sFveN/9rk951pJhsp9AuW2W4tdXxeK4fqry7OTGm+saDy0aPrGu8qgq980XPMrD/
+J/edHSu/aLu2xlPZ6sBcfbrjZet6xzDOrqqAYyyOLXUmOvQ9/i0XajMhPV0KXP3I
+YIjoVd/Up/ZXTBXPsM0LiRT6iTzWpQ2+KCjSmOyatJ/nleMygmw8auLaWdgt2vXx
+evcIoQ+9P9Fc9hKq1CPYZXXor4geE7wG9vXROpkk3LD9ElLwfnrOG7ubEuepq1t5
+/JuHACx5kKk4vseTnAElhtl7gRc89vW0BdTzcTWnQgtq9m0C2pwfJe3GPywvJKgq
+QKv4+n5BywwR/eFANkhCrYj1O8a41xhP9dTN5sOmdbhjYlNUwnGKFwQS1BASEPsS
+N0Y23TDCR/fEt95+IwZMM71EAuvp82LmbaHMmdV7N08K5ABf5rRcPR2qaDcLtQFG
+OZ+pgXNOFfyJjiH1Onj3tv9EgffeXHiBPlLY8UzIa+YXkDCe1ZoG/FhvN+fZh3MQ
+7uNsvMWSqqSoAz4jO8VGt1ewj39qy4w1KdxqaHZGYNfyRa8e6mtSnyaTtJJu/hO6
+iSw4/g5U0dD7txFyPeDV5OJSZcSUWAb8ApZvUN9oWUftmDTxKxqoD8blMGHMV26H
+x0XufMhLI+3K8bkwKT6vvHGn
+=03q6
+-----END PGP SIGNATURE-----
+
+--===============2184811882263742222==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5bdb080f9603-9bc46a12c53d.txt
+
+2cf2581cd2290ccef674f1be5f7977d66702eedb usb: cdns3: add power lost support for system resume
+2fd69eca06333a4c1170e81bedf2736548ccb63d usb: cdns3: imx: add power lost support for system resume
+39be23f4f16f5e743471c87c1e04bc90fc6d100a usb: cdns3: trace: delete the trace parameter for request->trb
+ef32e0513a130945a08debbbc6d126b54c59fa58 usb: cdns3: imx: mark cdns_imx_system_resume as __maybe_unused
+575dd7ece61fa93270cb5749708b140a9c9cf947 usb: cdns3: fix static checker warning.
+b9b1eae761eeae665824ca6ef7f91da4fc798ebb usb: cdns3: Use dma_pool_* api to alloc trb pool
+8430e98f2c877e2034e5a5adaa6bf0b4a3041e1d usb: cdns3: Optimize DMA request buffer allocation
+8079ebf5ff51503574b5e6fd8d141de80032d761 usb: cdns3: delete repeated clear operations
+9ecc3eb03c37b54c507ba5127a4c781d36b0c121 usb: cdnsp: remove redundant initialization of variable ret
+10076de33b5ed5b1e049593a611d2fd9eba60565 usb: cdnsp: Fixes issue with Configure Endpoint command
+9bc46a12c53d8268392774172742aa9e5dd6953d Merge tag 'usb-v5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-next
+
+--===============2184811882263742222==--
