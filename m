@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 12 Apr 2021 10:02:44 -0000
-Message-Id: <161822176498.13984.3460751168471714538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Mon, 12 Apr 2021 10:12:51 -0000
+Message-Id: <161822237184.19495.10879530071187433090@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/usb-next
-    old: 07125072b0a08a13331b46990ea48997fa0c64b4
-    new: d07082277f55cb395be00c813c62f3c956d1edb6
+  - ref: refs/heads/for-next/core
+    old: ca8faf817f2ae1d084632d18b019f8fa5f665d5e
+    new: fc4a03f6dc700ebed7b7b233096da96eba8f07f5
     log: |
-         b979248d16d12b913501dacd61bddc7a36aac886 USB: serial: cp210x: provide gpio valid mask
-         d07082277f55cb395be00c813c62f3c956d1edb6 USB: serial: cp210x: add gpio-configuration debug printk
+         fc4a03f6dc700ebed7b7b233096da96eba8f07f5 Merge branches 'for-next/misc', 'for-next/kselftest', 'for-next/xntable', 'for-next/vdso', 'for-next/fiq', 'for-next/epan', 'for-next/kasan-vmalloc', 'for-next/fgt-boot-init' and 'for-next/vhe-only', remote-tracking branch 'arm64/for-next/perf' into for-next/core
          
