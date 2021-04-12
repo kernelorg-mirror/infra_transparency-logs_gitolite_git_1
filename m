@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Mon, 12 Apr 2021 21:42:11 -0000
-Message-Id: <161826373116.29202.2505240123071617121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
+Date: Mon, 12 Apr 2021 21:46:27 -0000
+Message-Id: <161826398735.31925.17468725721077604749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
+user: zx2c4
 changes:
-  - ref: refs/heads/bpf/ftrace
-    old: 0000000000000000000000000000000000000000
-    new: f6ca0faab8697bc6a3a6e4ffcb72b8a0a0a66558
+  - ref: refs/heads/master
+    old: e5b6cae576aa371050c454f6e06927ad5ad956ea
+    new: 122f06bfd8fc7b06a0899fa9adc4ce8e06900d98
