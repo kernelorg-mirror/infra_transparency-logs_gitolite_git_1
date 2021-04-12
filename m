@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7246212660196664558=="
+Content-Type: multipart/mixed; boundary="===============3679729827776917872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 12 Apr 2021 18:57:06 -0000
-Message-Id: <161825382696.25360.5899552004459048815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 12 Apr 2021 18:57:14 -0000
+Message-Id: <161825383459.25458.4535987118536001914@gitolite.kernel.org>
 
---===============7246212660196664558==
+--===============3679729827776917872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 26e33ed9f18475ebdc981d45150ac9a019e69f07
     new: 13a9e21b80abf7956f8127304a07863ff2476828
     log: revlist-26e33ed9f184-13a9e21b80ab.txt
 
---===============7246212660196664558==
+--===============3679729827776917872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1618253807 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1618253824-a34df9cbefd1ee8856b5003fb0e2f444ad81ba4b
+pusher C3F436CA30F5D8EB 1618253814 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1618253832-16204c779a0285f2298c1624a494cf0b0e81fc46
 
-26e33ed9f18475ebdc981d45150ac9a019e69f07 13a9e21b80abf7956f8127304a07863ff2476828 refs/heads/for-5.13
+26e33ed9f18475ebdc981d45150ac9a019e69f07 13a9e21b80abf7956f8127304a07863ff2476828 refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB0l+8ACgkQJNaLcl1U
-h9DiMgf/X2NPm6sPgwrMTgAZPGV30k+jHMn/s3tzorz1ImXwTBu0K1P/Zrr82dXj
-/pWdEQ06M+A0356nZ4MUxI4YdGQSZcgR9pI4QpN2a9tBHTl6zH8UQUKZBtEzKtFI
-X69oDJfEU1pId7+04ynhitYv9oaaPEvCaUtynsD+2En9pM4Meyy0K1XY2YdvyGMR
-5eJ6v7RBfYYotgSEOmvjTqBSH6/9W01lCLloLRG6SrNq1pMMcPjqbkxvzbiLkzY+
-VMRY+0BPnwIZbgisZmxI7HihdWDp/dzbqi8AQpfnsHz51pHZ+5Gb5QpdPIpu3SMA
-wGg5XhIpCjfnuLJ0Vx2anpoJJrVbhg==
-=79i/
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB0l/YACgkQJNaLcl1U
+h9Bbzwf+LdyP3Ecgzc8yVQpxbMqfp7TbhpO7bq0S5lGxJl4vZ+sPYLvPI0EoRBbW
+bk5EJPs9ro4E2tkKN0xUnzSrM1dfc8Ctktmt0Qhjr4qCPYXCiSYd9wwHXa4VBku9
+lvOyKsFPk571ZAhwyibgkcpcGunT/RmC8mPzKUxBJVSOANWUrCA0Be0flsX96iw6
+Qb70UFeAQt/fIxd8FfLO8Fz/l3uHYR2URnuI2I4HbMB8EGIWFEu4LS3Dallv8xXq
+PRDqRt0/dzP3og9l5Zaigb3WEzAygMWYA++ZdXTUXeHMBlvp+qODltSKbrXLO7gN
+/uF3D8rx1ovL8nSllwvH/UFuOx+4jg==
+=s007
 -----END PGP SIGNATURE-----
 
---===============7246212660196664558==
+--===============3679729827776917872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ b2fe85790d8d67ae25af58ff94673afc6cb081d9 ASoC: SOF: Kconfig: fix typo of SND_SOC
 2976eef29ec5875e42418dd90d71f7654aec8362 Merge series "ASoC: SOF: simplify probe and report errors" from Ranjani Sridharan <ranjani.sridharan@linux.intel.com>:
 13a9e21b80abf7956f8127304a07863ff2476828 Merge series "ASoC: SOF: Intel: descriptor corrections for TGL and ADL" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 
---===============7246212660196664558==--
+--===============3679729827776917872==--
