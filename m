@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8731932494107326108=="
+Content-Type: multipart/mixed; boundary="===============6495759707665850761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 13 Apr 2021 14:33:14 -0000
-Message-Id: <161832439447.25630.11702333331473205063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 13 Apr 2021 14:33:21 -0000
+Message-Id: <161832440185.25782.1248666230197933483@gitolite.kernel.org>
 
---===============8731932494107326108==
+--===============6495759707665850761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 7b3f5b207da5116add56c335c5fb92cee140dc63
     new: 858066864a6383d1eecd2fa96a0b8e69935632f8
     log: |
          858066864a6383d1eecd2fa96a0b8e69935632f8 ASoC: meson: axg-frddr: fix fifo depth on g12 and sm1
          
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 13a9e21b80abf7956f8127304a07863ff2476828
     new: cdf20c3ef0e90b962e62ae7d835d7f46333285bc
     log: revlist-13a9e21b80ab-cdf20c3ef0e9.txt
 
---===============8731932494107326108==
+--===============6495759707665850761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1618324373 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1618324391-05462902748790af79a7fb6b4040f6d1851b3e81
+pusher C3F436CA30F5D8EB 1618324380 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1618324399-206b7164c316492a9807a8def2e06a3e4f5dbce5
 
-7b3f5b207da5116add56c335c5fb92cee140dc63 858066864a6383d1eecd2fa96a0b8e69935632f8 refs/heads/for-5.12
-13a9e21b80abf7956f8127304a07863ff2476828 cdf20c3ef0e90b962e62ae7d835d7f46333285bc refs/heads/for-5.13
+7b3f5b207da5116add56c335c5fb92cee140dc63 858066864a6383d1eecd2fa96a0b8e69935632f8 refs/heads/asoc-5.12
+13a9e21b80abf7956f8127304a07863ff2476828 cdf20c3ef0e90b962e62ae7d835d7f46333285bc refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB1q5UACgkQJNaLcl1U
-h9C/ygf+LXvRTmnWdyFdEKN15EP+i3rWci1lqFiwyNaM5bBpnK9sm+ZPnxXRszmn
-CZ7XPlQKLFdojb+hinqrJiTFCO3rMIfPQh/Q/Y3TLt4d65+uAFLoofzWlrwj75Yv
-dPXNAHohpoLdANZBe72qZPHfR1wP4mHNSbSbivV8MGDzzJ2/rmWXb5Sr62fy4z69
-U/kncJC7sm/Fo2Sk9/40djqcQu58KiISxo4tQu+tZznjlmoTwqxz/yzPPU5V3bfK
-YFg81Dt/ftD/3s/n5t+n2DmNz6bELkqddu37A01GpYW9KgjpVJND9pzEf7Oeq4LW
-uVBAYa+7fpZZcQbJ+32KLXzUGqg1wA==
-=0d7K
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB1q5wACgkQJNaLcl1U
+h9CGVQf/ZqhfjVnPnUwR/c2jOcqSFtnnWYg2IdpfiBsq5BGWlfC2fCN3jblFn4z1
+Vmb9yqFWkkMrpIKUUkJlKvJeKRJUqWKMjknrn2TeqMB55TDFEa1cZDswPSpkIEj4
+PD9SVAUsTKxIgto3RPdzMPM0hvOLRdTrDoe4MH4QguF+xX4Y530bfH0LvYBDESaI
+iq0SkyH1pHt8FsNhDj6fmYgZfcoljF1OeVVdiSfyuUWSSQkFGwAXqL85fNzf4Rad
+uwr+5u61mjkBcw0mluJDz+9Y5PI7ZsmsifwDHA7kWYw81TD+KNOz/wscmUgTuhzx
+/esekvyWT04OX+VRboNxkPK/oQIliA==
+=TnzW
 -----END PGP SIGNATURE-----
 
---===============8731932494107326108==
+--===============6495759707665850761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ fcfd763bef4ff7f6371790979a6ceac9c4ac425a ASoC: simple-card-utils: tidyup asoc_si
 38c694e98f6a6c8dfa48f2ba6f442363ed836efb ASoC: cs35l35: Fix an error handling path in 'cs35l35_i2c_probe()'
 cdf20c3ef0e90b962e62ae7d835d7f46333285bc ASoC: cs35l36: Fix an error handling path in 'cs35l36_i2c_probe()'
 
---===============8731932494107326108==--
+--===============6495759707665850761==--
