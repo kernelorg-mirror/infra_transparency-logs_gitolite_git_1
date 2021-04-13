@@ -1,121 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0854660771852465952=="
+Content-Type: multipart/mixed; boundary="===============0085103185942250560=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 13 Apr 2021 05:46:01 -0000
-Message-Id: <161829276120.4709.12118715861522783079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+Date: Tue, 13 Apr 2021 05:51:04 -0000
+Message-Id: <161829306460.8940.2070744288847658401@gitolite.kernel.org>
 
---===============0854660771852465952==
+--===============0085103185942250560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+user: kvalo
 changes:
-  - ref: refs/heads/for-next
-    old: 857a80bbd7321161f986588160d97815d1b1206a
-    new: 15cfef8623a449d40d16541687afd58e78033be3
-    log: revlist-857a80bbd732-15cfef8623a4.txt
+  - ref: refs/heads/pending
+    old: 19091b803d3735a84b9eaadd3b79e32c9731eed8
+    new: 2e968e5426d088facf247a8fff76a941f226384b
+    log: revlist-19091b803d37-2e968e5426d0.txt
 
---===============0854660771852465952==
+--===============0085103185942250560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-19091b803d37-2e968e5426d0.txt
 
-certificate version 0.1
-pusher 75C5DE3D 1618292759 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1618292759-6897e6b5f3c50a9e2544f1167e54e4715c917a58
+e230f0c44f011f3270680a506b19b7e84c5e8923 mt76: mt7921: fix kernel crash when the firmware fails to download
+49897c529f85504139a6e54417a65f26a07492d2 mt76: mt7921: fix the insmod hangs
+4da64fe086d95daa66d0def40fbd1b02d4f813fd mt76: mt7921: reduce the data latency during hw scan
+b4403cee6400c5f679e9c4a82b91d61aa961eccf mt76: fix potential DMA mapping leak
+92e916362ba58e080a8b8e97556d11670ea6ce3d mt76: mt7921: remove 80+80 MHz support capabilities
+0fda6d7bb5a29b241fba8d37b92567c6bec79655 mt76: report Rx timestamp
+6d88629e158dc1a3f58a0f9b528fe0057d44e8f6 mt76: mt7915: add mmio.c
+30ad36214ab52a5eb3475e012e6bf327f843aa48 mt76: mt7615: add missing SPDX tag in mmio.c
+66978204f71b36c2c0240e50c5789fae2d8b87a6 mt76: mt7615: always add rx header translation tlv when adding stations
+2afd17b4d0fc15cba0144e7a4c26549b0e829ce9 mt76: mt7921: introduce MCU_EVENT_LP_INFO event parsing
+481fc927c8289919cc0be58666fcd1b7da187a0c mt76: mt7921: add rcu section in mt7921_mcu_tx_rate_report
+2e968e5426d088facf247a8fff76a941f226384b Merge tag 'mt76-for-kvalo-2021-04-12' of https://github.com/nbd168/wireless into pending
 
-857a80bbd7321161f986588160d97815d1b1206a 15cfef8623a449d40d16541687afd58e78033be3 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmB1MBcACgkQ7ulgGnXF
-3j3exA/+Nouky7dvPp8MP9tOjSEDWt04sAOIILKTuzBQaeE6yMa+vSUGM1UFHLDX
-bcwOusYpGweciEMn+UDu6vjULnEZ8wm9gpxrC2KZRuUX5EcBBa+iNAsuIFJeNAd5
-u4N+6l+rq4UAVzhLWKHjIO8nv/XHBzIySaLWZ5hQ0MC6c3VPd23L9j5PQ7LmBw13
-0xeKqn/UzsVtT5ur20yBFz0FJDPkgom64BkT6IERzk6hC35WO6XSlcQIHungJPxe
-4HUwQj7QTabO/LnvF4gSnTwUIv1R0LvvT5zYa/xAoLjKj7Wt/RAmxcxiXzw3kRiF
-G5+ZmuUQQtRw4sWOLbLXOmkunxE8Q1ebd7g6uVIO/RX5VDVJg5jOZ0vvZ7YM2B0V
-1uzGdgKAYEtLMh3af6zSIh9PZCpdnW7wyyHlura/z4wtgx6LBPRgbYXIkOzXJV7B
-TpVQBQxNgeThj2TUTdB+N7mzXcZAvZdBKZRZ244a6Pyz2QHUEsAdYKhdAJcJVGkQ
-lGb9bGDpxCq5E+1cbHVTzmdsIt6llNSd4VAJgojrFy75YbQrCIuMriSwu4dewxqh
-fsPMHNj7nUqlVibkG8NczCnG3366+S8waiLxOE4f8KMLrHnKP5q6EdKSyX9tlO6J
-liEhj9/RYjOtoe+uLEd737Nt1ZSR9mUMB1Pw+23hazHEvrAVhpQ=
-=tXus
------END PGP SIGNATURE-----
-
---===============0854660771852465952==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-857a80bbd732-15cfef8623a4.txt
-
-5482a9a1a8fd23fbb57afc6d409e12713aa93fa5 scsi: hpsa: Use __packed on individual structs, not header-wide
-02ec144292bc424a5800d45d4cb472c66e97c520 scsi: hpsa: Fix boot on ia64 (atomic_t alignment)
-e01a00ff62adca8ec464f3c8d82cfa0e8d8728dd scsi: hpsa: Add an assert to prevent __packed reintroduction
-1235fc569e0bf541ddda0a1224d4c6fa6d914890 scsi: ufs: core: Fix task management request completion timeout
-4b42d557a8add52b9a9924fb31e40a218aab7801 scsi: ufs: core: Fix wrong Task Tag used in task management request UPIUs
-65df7d1986a1909a0869419919e7d9c78d70407e scsi: pm80xx: Fix chip initialization failure
-0352c3d3959a6cf543075b88c7e662fd3546f12e scsi: target: iscsi: Fix zero tag inside a trace event
-5cd0f6f57639c5afbb36100c69281fee82c95ee7 scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
-84b20b8062e76a0290aee7360c8238df681c106e Merge branch '5.12/scsi-fixes' into 5.13/scsi-staging
-ecddbb7e945daabdf28a29b95c4a2d88d166a891 scsi: target: tcmu: Adjust names of variables and definitions
-8b084d9dfb0158362c3be6ee7fdc8c8320a0ba30 scsi: target: tcmu: Prepare for PAGE_SIZE != DATA_BLOCK_SIZE
-f5ce815f34bc97b92f5605eced806f1d32e1d602 scsi: target: tcmu: Support DATA_BLOCK_SIZE = N * PAGE_SIZE
-3722e36c4ea4b9e39fe468dd1776b43c61a0c459 scsi: target: tcmu: Remove function tcmu_get_block_page()
-e719afdcf6911425c404ec50403a9aa116b2b616 scsi: target: tcmu: Replace block size definitions with new udev members
-08976cb548d67d8a492d75c9202fde28e21915e2 scsi: target: tcmu: Make data_pages_per_blk changeable via configfs
-3f744a14f331f56703a9d74e86520db045f11831 scsi: pm80xx: Increase timeout for pm80xx mpi_uninit_check()
-6f305bf699fe233ef27d80cc29fd1650423c8e74 scsi: pm80xx: Remove busy wait from mpi_uninit_check()
-40fa7394a1ad5706e795823276f2e394cca145d0 scsi: pm80xx: Fix potential infinite loop
-8a23dbc600895694b7deb4302b735f2b8d274a5d scsi: pm8001: Clean up white space
-fa5ac2beabadc2ef5eaae0f99407e708bd5dbd66 scsi: pm8001: Clean up open braces
-2843d2fb42254ac443c83e5e0b97e1cae6b7a4de scsi: hisi_sas: Delete some unused callbacks
-4da0b7f6fac331f2d2336df3ca88a335f545b4dc scsi: hisi_sas: Print SAS address for v3 hw erroneous completion print
-f467666504bf0c7eae95b929d0c86f77ff9b4356 scsi: hisi_sas: Call sas_unregister_ha() to roll back if .hw_init() fails
-2c74cb1f9222ebfcc204c02018275ad167d25212 scsi: hisi_sas: Directly snapshot registers when executing a reset
-2d31cb20a3cd611a9a544f9586eb3908ee2085cf scsi: hisi_sas: Warn in v3 hw channel interrupt handler when status reg cleared
-f4df167ad5a2274c12680ba3e7d816d32d1fc375 scsi: hisi_sas: Print SATA device SAS address for soft reset failure
-790f9a48abd0e4cd1b202b6093055c295d4b8e3d scsi: ufs: ufs-qcom: Remove redundant dev_err() call in ufs_qcom_init()
-54300bfd738b649004793ce138a29c30e900ec21 scsi: snic: Convert to DEFINE_SHOW_ATTRIBUTE()
-339c9b63cc7ce779ce45c675bf709cb58b807fc3 scsi: ufs: ufshcd-pltfrm: Fix deferred probing
-6c11dc060427e07ca144eacaccd696106b361b06 scsi: hisi_sas: Fix IRQ checks
-38fca15c29db6ed06e894ac194502633e2a7d1fb scsi: jazz_esp: Add IRQ check
-14b321380eb333c82853d7d612d0995f05f88fdc scsi: sun3x_esp: Add IRQ check
-1160d61bc51e87e509cfaf9da50a0060f67b6de4 scsi: sni_53c710: Add IRQ check
-4aab946f789ed7c2e44481f395ab2eab0b63824a scsi: qedf: Enable devlink support
-9d6f87c25ad57b52a4dc8c2d904ead37fe829512 scsi: qedf: Use devlink to report errors and recovery
-16660db3fc2af8664af5e0a3cac69c4a54bfb794 scsi: mpt3sas: Fix out-of-bounds warnings in _ctl_addnl_diag_query
-efd2617100d9c6a49c8cd27160a2353b04844d78 scsi: qla2xxx: Remove unneeded if-null-free check
-5dc3468888f8ba54c3a2fdd38b13288f6b8daed2 scsi: qla2xxx: Reuse existing error handling path
-eb5a3e3b75fe31a5ce53ad632bbc96c76c63d3e9 scsi: qla4xxx: Remove unneeded if-null-free check
-039cf38166486ac42ce54df3c4cb951561e91617 scsi: message: fusion: Remove unused local variable 'time_count'
-30264737bd954a2af6361316b862afeed579d103 scsi: message: fusion: Remove unused local variable 'port'
-c436b41a99b74936eb0a0ff34c42696ae36da156 scsi: message: fusion: Remove unused local variable 'status'
-cf17ff2678806780ddfe33cf3e9457f369170661 scsi: message: fusion: Remove unused local variable 'vtarget'
-8350e19658c1632874888971052a5ace92dae7c5 scsi: isci: Remove unnecessary struct declaration
-078c68b87a717b9fcd8e0f2109f73456fbc55490 scsi: lpfc: Fix rmmod crash due to bad ring pointers to abort_iotag
-fffd18ec6579c2d9c72b212169259062fe747888 scsi: lpfc: Fix crash when a REG_RPI mailbox fails triggering a LOGO response
-f866eb06c087125619457b53e9211a9e758f64f7 scsi: lpfc: Fix reference counting errors in lpfc_cmpl_els_rsp()
-a789241e49b6adce84cdba7a24c92ecc845aface scsi: lpfc: Fix NMI crash during rmmod due to circular hbalock dependency
-4e76d4a9a226e3c7d453675f22359aba34e73ec4 scsi: lpfc: Fix lack of device removal on port swaps with PRLIs
-304ee43238fed517faa123e034b593905b8679f8 scsi: lpfc: Fix error handling for mailboxes completed in MBX_POLL mode
-724f6b43a3492b02e2ebc88f9fb749d1405098e2 scsi: lpfc: Fix use-after-free on unused nodes after port swap
-a1a553e31a994be6f68d3123c0546a84c04a7f6c scsi: lpfc: Fix silent memory allocation failure in lpfc_sli4_bsg_link_diag_test()
-a314dec37c0e3879e964b574564b205b3529daa5 scsi: lpfc: Fix missing FDMI registrations after Mgmt Svc login
-d3de0d11a219f32b185d525cca2568817e22d3a1 scsi: lpfc: Fix lpfc_hdw_queue attribute being ignored
-b62232ba8caccaf1954e197058104a6478fac1af scsi: lpfc: Remove unsupported mbox PORT_CAPABILITIES logic
-3bfab8a026b393d5836e6e5abdc201d510dda857 scsi: lpfc: Fix various trivial errors in comments and log messages
-f115612528b8e25ff01b6749e0ac61ff6a0f51a0 scsi: lpfc: Standardize discovery object logging format
-5b1f5089b6e65a8a146ae9d0c69708d369c349e4 scsi: lpfc: Eliminate use of LPFC_DRIVER_NAME in lpfc_attr.c
-3ebd25b0a44359befbbfb17c545d96a10d84e77a scsi: lpfc: Update lpfc version to 12.8.0.9
-cf270817cafb394547b1d301edfda8222030a26e scsi: lpfc: Copyright updates for 12.8.0.9 patches
-15cfef8623a449d40d16541687afd58e78033be3 scsi: ibmvfc: Fix invalid state machine BUG_ON()
-
---===============0854660771852465952==--
+--===============0085103185942250560==--
