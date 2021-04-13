@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Tue, 13 Apr 2021 11:10:08 -0000
-Message-Id: <161831220888.25655.12791305353268893712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Tue, 13 Apr 2021 11:11:53 -0000
+Message-Id: <161831231309.26208.13106973372091853611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/fs.clone_private_mount.ecryptfs.v1
-    old: 0000000000000000000000000000000000000000
-    new: 28165c23694c248d80ef52121a9eaa539918c9ca
+  - ref: refs/heads/fixes
+    old: 39c1f1bd8adf29840ef52225ce95f390e3d7b2cf
+    new: 196d941753297d0ca73c563ccd7d00be049ec226
+    log: |
+         196d941753297d0ca73c563ccd7d00be049ec226 pinctrl: lewisburg: Update number of pins in community
+         
