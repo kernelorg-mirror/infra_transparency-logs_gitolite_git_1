@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Tue, 13 Apr 2021 10:47:58 -0000
-Message-Id: <161831087868.11159.15593254438406227660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Tue, 13 Apr 2021 11:10:08 -0000
+Message-Id: <161831220888.25655.12791305353268893712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/pci/mediatek
-    old: 31ec9c2746467a372b009940ce7b722055daaf6a
-    new: 87db343f809d611405c45cbb691657e7df5c047d
-    log: |
-         87db343f809d611405c45cbb691657e7df5c047d PCI: mediatek: Add missing MODULE_DEVICE_TABLE
-         
+  - ref: refs/heads/fs.clone_private_mount.ecryptfs.v1
+    old: 0000000000000000000000000000000000000000
+    new: 28165c23694c248d80ef52121a9eaa539918c9ca
