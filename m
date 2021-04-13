@@ -1,79 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============1574569722505199076=="
+Content-Type: multipart/mixed; boundary="===============1088579266722497136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 13 Apr 2021 07:20:53 -0000
-Message-Id: <161829845350.30907.5874199205498794399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 13 Apr 2021 07:21:17 -0000
+Message-Id: <161829847710.31194.4620494029624294696@gitolite.kernel.org>
 
---===============1574569722505199076==
+--===============1088579266722497136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 1b9e18de8d43bf798622cc365f99b41f180b446f
-    new: f2f560e1bdc055a6a306e6b7823ba589794e6564
-    log: revlist-1b9e18de8d43-f2f560e1bdc0.txt
+  - ref: refs/heads/usb-next
+    old: 5bdb080f9603c5db51597ee7bda457a153106a9a
+    new: 9bc46a12c53d8268392774172742aa9e5dd6953d
+    log: revlist-5bdb080f9603-9bc46a12c53d.txt
 
---===============1574569722505199076==
+--===============1088579266722497136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618298448 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1618298448-48bb479d1d24436761157ca27c355233e81066e7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618298472 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1618298472-8c752ebf96181c3b8456ac2aa4602f2d1e4f0cef
 
-1b9e18de8d43bf798622cc365f99b41f180b446f f2f560e1bdc055a6a306e6b7823ba589794e6564 refs/heads/staging-next
+5bdb080f9603c5db51597ee7bda457a153106a9a 9bc46a12c53d8268392774172742aa9e5dd6953d refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB1RlAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xLsQAMDQciQthyh/GSbtFR0u
-FRp6ClUCDO7xU4gGT15rJEx6/pIrZ4zRsGo0tZWbuAyHKbvfWfE0R/3QmLpuTq9g
-LANuFivoH7IE1XvxhWqdJbMUKTHhTGn7vY8MRFcEun3oTb2kGHafZbwLMVPUZBs9
-fiu9UcSZZkk/u9JFulMGTFh/f6wBBsZOnzZhCSCJXRitLO76jbX5DTh+cASrVRit
-zI+N651gXDCWRTuzSMroBmv1nMJLJOICcZ2Vh5pG7Q0vcipm1nLko4Qx4jzZShe3
-8J6kDqYbtiP5IBvesiob7j4XhFQSFVldg9/n2j9OtLHAxly2oqE/FeSN+ej3f/I2
-qdmWFZQc0s00jGtMofssqLBiaMvMEI2fbDh4OX2voet9FNT3CwIwIaK1DVPcGdtc
-Z+DfCn3NbPgxk7Mu1+V/ObVrVlaKefiFk+Nyt4wAt+ri86DM4c2HVJqwkNlsG4xX
-umFuhdfjs3sII8jT0OJptoyEVg6JiRSNgTSFqoCnWwWWFYhkLvVBN+s99DJbNosL
-tSGUIF7ofIae1t8fOFA46Eqxo+QJD6A06mC0Q/uT60f3bro7S8xdL3tjZWLqXoZp
-uE4q/2q0ESgRFbYWJXlqj51DDSHvhZw+W6ZkmSpDSjDXDBcE5kCCHIEMIFODwFDE
-IAHtyGY9tjwYXJ6EQ6oCVY3b
-=+eFz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB1RmgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KNMQAJzcaxgn1kH8I1f7FQVW
+olx6wBcVGnia0J5zAJKo7dMosn4i1sXWnTC4p8TY//yRjLi1Y1JX0+5LTdo36BJA
+UdpzLHJbJAVVGkVF+wa9Kqp+aBVM+pB+qZ3hmX8eJXIDm6/WK/GPWp3RheOiQjWY
+FaOqNebhB7vi/0Avx5D+Uf5sdEpu2wXEBJDzV0tanum1Ea6BdkyREk1ISfdx8dQU
+w4BJpXt20ubNJ9EDpDo+WPemUB+ote8z7monmL/3KgI6pT2EnRy/Jz5W6riqh6e2
+W07Gaf/uOALOObGH8s729o2RPm+UWonLoKCi3utn9Zju1P02NE5dzhHN+wfR21vi
+Q0nujJ3ZnOliapWN3cRoiCqgixGTodERjt77Nwgkt8dE/W++/OUNamvb73CA5A+3
+Sn3EqbrNMrE/fsOfgnXJRU7jXOrYhJmMps5Ih6PNALSvu1nuThc9PA2p8W2EH/tY
+dw23yEwQVeh9gy3Xt2GrcGCodCD/caN9qRhuvanLvG1HAJJq9PPfbi5D7sWC2nTk
+kEIgAwfpV03MdmA5yDKqjt65j4y9sdTvY/1M2lzCSkysI47b0Z/MVdDkMohYucYW
+DFQXYhC/ujw+kxrofnid5foG8AM94MdrJOVMUJK+xfqxuM8VN9h7uiZJv5pm4Q+Q
+YnSY6bBX5BgYUmT+Mc3ijP4j
+=0xWn
 -----END PGP SIGNATURE-----
 
---===============1574569722505199076==
+--===============1088579266722497136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b9e18de8d43-f2f560e1bdc0.txt
+Content-Disposition: attachment; filename=revlist-5bdb080f9603-9bc46a12c53d.txt
 
-90b69822a5cb6bb9d1f2fe385dc6f6ec453c294f staging: rtl8723bs: Remove camelcase in several files
-97f136ec590aa281bcd2c470f248a3d47d0e7ee1 staging: rtl8723bs: include: Fix misspelled words in comments
-13c57439feccdf77f4755e7762e610a138fb75c3 staging: rtl8723bs: include: Change the type of a variable
-16ae2044e91e186d69390a8e67bc16141c3c406f staging: rtl8723bs: Change controlling expressions
-9e74999b1a68ca17f985e65e007eda2bb5167931 Staging: rtl8192u: ieee80211: remove odd backslash.
-a2e2a05d5d57c08d70ed86c68b5c684246eb4e08 staging: rtl8723bs: remove unnecessary goto jumps
-5a04ad1d1d4327498a9516e981eb27aee0a6509b staging: rtl8723bs: remove unused variable 'start' in hal/sdio_halinit.c
-8333e5a95855163600a5cc6b4d7ea1ccf0542de3 staging: rts5208: remove unnecessary ftrace-like logging
-acdb1d908fdb31970569e3e65aaea05845c5001e staging: vchiq_core: Simplify vchiq_send_remote_use*
-e04e90083007275ba5b2f2be6baa399a5a60841f staging: vchiq_core: Shorten var name for service quota
-32129ec093ed96d156e0bbb5ce83d550646c96ef staging: vchiq_core: Get the rid off curly braces around cases
-b3582ed4269d1654680ee9daafc1976ca1d9c119 staging: vchiq_core: Exit early in 2 functions
-63276d45bac52bd0ecfc35f613b81522fadf26c1 staging: vchiq_core: introduce service skip
-0e345d97730678d526bed36947beda4eb15642de staging: vchiq_core: improve readability of request_poll
-7a4da84ce81810eb6f9f0842c7199f1d57fbca79 staging: vchiq_core: use BITSET_WORD macro
-a8def5034a277e312e2ac6ec82a862aa5f1323ec staging: vchiq_core: introduce SLOT_QUEUE_INDEX_FROM_POS_MASKED
-fa80183c5513528ad21be719f761cc505ef43949 staging: vchiq_core: fix if alignments
-f2f560e1bdc055a6a306e6b7823ba589794e6564 staging: vchiq_core: split exit conditions
+2cf2581cd2290ccef674f1be5f7977d66702eedb usb: cdns3: add power lost support for system resume
+2fd69eca06333a4c1170e81bedf2736548ccb63d usb: cdns3: imx: add power lost support for system resume
+39be23f4f16f5e743471c87c1e04bc90fc6d100a usb: cdns3: trace: delete the trace parameter for request->trb
+ef32e0513a130945a08debbbc6d126b54c59fa58 usb: cdns3: imx: mark cdns_imx_system_resume as __maybe_unused
+575dd7ece61fa93270cb5749708b140a9c9cf947 usb: cdns3: fix static checker warning.
+b9b1eae761eeae665824ca6ef7f91da4fc798ebb usb: cdns3: Use dma_pool_* api to alloc trb pool
+8430e98f2c877e2034e5a5adaa6bf0b4a3041e1d usb: cdns3: Optimize DMA request buffer allocation
+8079ebf5ff51503574b5e6fd8d141de80032d761 usb: cdns3: delete repeated clear operations
+9ecc3eb03c37b54c507ba5127a4c781d36b0c121 usb: cdnsp: remove redundant initialization of variable ret
+10076de33b5ed5b1e049593a611d2fd9eba60565 usb: cdnsp: Fixes issue with Configure Endpoint command
+9bc46a12c53d8268392774172742aa9e5dd6953d Merge tag 'usb-v5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb into usb-next
 
---===============1574569722505199076==--
+--===============1088579266722497136==--
