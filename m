@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 13 Apr 2021 18:34:33 -0000
-Message-Id: <161833887364.13371.14637600211511719022@gitolite.kernel.org>
+Date: Tue, 13 Apr 2021 18:40:20 -0000
+Message-Id: <161833922059.17699.373576015205227463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 13e66a52f780fd5523c5b27fda9c00c570f1b11e
-    new: 8ee70469f035d7e99644b492f6a8485c22a5f366
+    old: 8ee70469f035d7e99644b492f6a8485c22a5f366
+    new: 1c55c39f8232f02a742e6e84c812574f7c460a7b
     log: |
-         8ee70469f035d7e99644b492f6a8485c22a5f366 Bluetooth: btusb: fix memory leak
+         1c55c39f8232f02a742e6e84c812574f7c460a7b Bluetooth: cmtp: fix file refcount when cmtp_attach_device fails
          
