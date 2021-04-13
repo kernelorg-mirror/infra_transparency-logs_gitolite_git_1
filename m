@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5840287478486875617=="
+Content-Type: multipart/mixed; boundary="===============5821764635477804504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 13 Apr 2021 16:26:35 -0000
-Message-Id: <161833119597.31357.11163815708667900336@gitolite.kernel.org>
+Date: Tue, 13 Apr 2021 16:55:48 -0000
+Message-Id: <161833294854.17343.9496967531539779853@gitolite.kernel.org>
 
---===============5840287478486875617==
+--===============5821764635477804504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,29 +16,27 @@ repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
   - ref: refs/heads/usb-next
-    old: d07082277f55cb395be00c813c62f3c956d1edb6
-    new: 4ef8f235778716476528a0ca270a4783ef6a40bb
-    log: revlist-d07082277f55-4ef8f2357787.txt
+    old: 4ef8f235778716476528a0ca270a4783ef6a40bb
+    new: 039b81d50a4822edfc07a7c2e6963823e993b2f0
+    log: revlist-4ef8f2357787-039b81d50a48.txt
 
---===============5840287478486875617==
+--===============5821764635477804504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d07082277f55-4ef8f2357787.txt
+Content-Disposition: attachment; filename=revlist-4ef8f2357787-039b81d50a48.txt
 
-8674cabe052b9ce23f72abb83058fc1d545e257a USB: serial: f81232: drop time-based drain delay
-4b8e07951ff53e702bd5d6d21450b17152d124d7 USB: serial: io_ti: document reason for drain delay
-c505b8b2ef274ce60a79f18a33bf23efd17a04de USB: serial: ti_usb_3410_5052: reduce drain delay to one char
-bd49224a2ecf19bf5ce9128d8175fa69eeb952b5 USB: serial: ti_usb_3410_5052: drop drain delay for 3410
-e8d89db01a97be04050fb2bc74ed6b6f01ed9169 USB: serial: io_ti: clean up vendor-request helpers
-7a14fac0c94472ad2d11ac14cefbeab5bf98e303 USB: serial: io_ti: add send-port-command helper
-13c613393cee59a6f6fd4627f7003606392690d1 USB: serial: io_ti: add read-port-command helper
-35aeb1b31b73359902d8c8031c8dae5d390fd14f USB: serial: io_ti: use kernel types consistently
-46388e865273bc67dc29fee9772e1b8b59eaafd3 USB: serial: io_ti: drop unnecessary packed attributes
-a1db84f6cab79780954ffd55bb114c52b867d81d USB: serial: ti_usb_3410_5052: drop unnecessary packed attributes
-d24223367d21240c1985456859daddb5e7d227b8 USB: serial: ti_usb_3410_5052: clean up vendor-request helpers
-3bfe43988c93ada8c8fc8fb16c95271381606289 USB: serial: ti_usb_3410_5052: add port-command helpers
-b7cff0c412dcb31961e4b536cddd9ffa7a76c225 USB: serial: ti_usb_3410_5052: use kernel types consistently
-4ef8f235778716476528a0ca270a4783ef6a40bb USB: serial: ti_usb_3410_5052: clean up termios CSIZE handling
+23b7998e81aa37d97897aa236bdcfba3f6edeb66 USB: serial: xr: add support for XR21V1412 and XR21V1414
+3c369a850d3f30ff258ed9b9982b6d06a6232985 USB: serial: xr: rename GPIO-mode defines
+5f70fe320e47de0611150dd4628c86eb9212eb00 USB: serial: xr: rename GPIO-pin defines
+49036fd021ce77764bc8059166f646c9768a1b26 USB: serial: xr: move pin configuration to probe
+958d6b958574a7b609982f1499bf3d792284ce7b USB: serial: xr: drop type prefix from shared defines
+f865e614604cb6b5ea76462ad314c90a62b918c4 USB: serial: xr: add type abstraction
+607f67183742eeb45e316e89dc7fec64d6288308 USB: serial: xr: add support for XR21B1421, XR21B1422 and XR21B1424
+4099d4ba476325100fcafb139fc6c49d0441bc7c USB: serial: xr: add support for XR21B1411
+6da99f9de5feb25b01cbe37fdb15f26a2d7d64a9 USB: serial: xr: add support for XR22801, XR22802, XR22804
+06f79d57f4f572395082da07d663fef91c9bb891 USB: serial: xr: reset FIFOs on open
+d801c8d438b3e8f2b6d2f79e3c75b8e0c5dd86df USB: serial: xr: add copyright notice
+039b81d50a4822edfc07a7c2e6963823e993b2f0 USB: cdc-acm: add more Maxlinear/Exar models to ignore list
 
---===============5840287478486875617==--
+--===============5821764635477804504==--
