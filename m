@@ -1,63 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============6495759707665850761=="
+Content-Type: multipart/mixed; boundary="===============0868555509570530580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 13 Apr 2021 14:33:21 -0000
-Message-Id: <161832440185.25782.1248666230197933483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 13 Apr 2021 14:33:44 -0000
+Message-Id: <161832442432.26007.8628867463020394494@gitolite.kernel.org>
 
---===============6495759707665850761==
+--===============0868555509570530580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.12
-    old: 7b3f5b207da5116add56c335c5fb92cee140dc63
-    new: 858066864a6383d1eecd2fa96a0b8e69935632f8
+  - ref: refs/heads/for-linus
+    old: 49065ed5ad5bbc1c02f48cb73af3fb46effd7d02
+    new: 357505e41fb097551df013c040b41d828571152d
     log: |
          858066864a6383d1eecd2fa96a0b8e69935632f8 ASoC: meson: axg-frddr: fix fifo depth on g12 and sm1
+         357505e41fb097551df013c040b41d828571152d Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
          
-  - ref: refs/heads/asoc-5.13
-    old: 13a9e21b80abf7956f8127304a07863ff2476828
-    new: cdf20c3ef0e90b962e62ae7d835d7f46333285bc
-    log: revlist-13a9e21b80ab-cdf20c3ef0e9.txt
+  - ref: refs/heads/for-next
+    old: 00ed80f00d1dde5789f583938de934f159cdf37f
+    new: 993afe97fc05aedd53d6d598b3bcacf69797b3da
+    log: revlist-00ed80f00d1d-993afe97fc05.txt
 
---===============6495759707665850761==
+--===============0868555509570530580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-00ed80f00d1d-993afe97fc05.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1618324380 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1618324399-206b7164c316492a9807a8def2e06a3e4f5dbce5
-
-7b3f5b207da5116add56c335c5fb92cee140dc63 858066864a6383d1eecd2fa96a0b8e69935632f8 refs/heads/asoc-5.12
-13a9e21b80abf7956f8127304a07863ff2476828 cdf20c3ef0e90b962e62ae7d835d7f46333285bc refs/heads/asoc-5.13
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB1q5wACgkQJNaLcl1U
-h9CGVQf/ZqhfjVnPnUwR/c2jOcqSFtnnWYg2IdpfiBsq5BGWlfC2fCN3jblFn4z1
-Vmb9yqFWkkMrpIKUUkJlKvJeKRJUqWKMjknrn2TeqMB55TDFEa1cZDswPSpkIEj4
-PD9SVAUsTKxIgto3RPdzMPM0hvOLRdTrDoe4MH4QguF+xX4Y530bfH0LvYBDESaI
-iq0SkyH1pHt8FsNhDj6fmYgZfcoljF1OeVVdiSfyuUWSSQkFGwAXqL85fNzf4Rad
-uwr+5u61mjkBcw0mluJDz+9Y5PI7ZsmsifwDHA7kWYw81TD+KNOz/wscmUgTuhzx
-/esekvyWT04OX+VRboNxkPK/oQIliA==
-=TnzW
------END PGP SIGNATURE-----
-
---===============6495759707665850761==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13a9e21b80ab-cdf20c3ef0e9.txt
-
+858066864a6383d1eecd2fa96a0b8e69935632f8 ASoC: meson: axg-frddr: fix fifo depth on g12 and sm1
 59f5cd96e9b9e1025ab0a9dc4ce9dd8633190794 ASoC: simple-card-utils: setup dai_props cpu_dai/codec_dai at initial timing
 f899006d558546a8ee39c93f816eb3847c5bc6c0 ASoC: simple-card-utils: remove li->dais/li->conf
 fafc05aadd4b6ce5c161135de9d3a653fc054543 ASoC: simple-card-utils: use for_each_prop_xxx()
@@ -74,5 +50,7 @@ fcfd763bef4ff7f6371790979a6ceac9c4ac425a ASoC: simple-card-utils: tidyup asoc_si
 637251bcfe649cd0cff4bc60cfb29ae0ddf333ca Merge series "ASoC: simple-card-utils: prepare for multi support" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 38c694e98f6a6c8dfa48f2ba6f442363ed836efb ASoC: cs35l35: Fix an error handling path in 'cs35l35_i2c_probe()'
 cdf20c3ef0e90b962e62ae7d835d7f46333285bc ASoC: cs35l36: Fix an error handling path in 'cs35l36_i2c_probe()'
+357505e41fb097551df013c040b41d828571152d Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+993afe97fc05aedd53d6d598b3bcacf69797b3da Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
 
---===============6495759707665850761==--
+--===============0868555509570530580==--
