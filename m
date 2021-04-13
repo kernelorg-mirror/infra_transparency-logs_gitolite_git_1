@@ -1,52 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3264832204703704436=="
+Content-Type: multipart/mixed; boundary="===============4735097639602851665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Tue, 13 Apr 2021 13:05:15 -0000
-Message-Id: <161831911518.31603.11882233308920313281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Tue, 13 Apr 2021 13:09:48 -0000
+Message-Id: <161831938800.634.14886361693405228161@gitolite.kernel.org>
 
---===============3264832204703704436==
+--===============4735097639602851665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/linux-bcache
-user: colyli
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/for-next
-    old: 834ee4a8205afbeaf702d417f5cede5498bafe71
-    new: a9fa7bd8a55a485f9e8efccfd200de3a72341fa4
-    log: revlist-834ee4a8205a-a9fa7bd8a55a.txt
+  - ref: refs/heads/kconfig
+    old: aaaa83b9aab30fe2edf423f27b5a8edb07c2e963
+    new: 33a07abc43d9e6340400acbe994ca7096db5d546
+    log: revlist-aaaa83b9aab3-33a07abc43d9.txt
 
---===============3264832204703704436==
+--===============4735097639602851665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-834ee4a8205a-a9fa7bd8a55a.txt
+Content-Disposition: attachment; filename=revlist-aaaa83b9aab3-33a07abc43d9.txt
 
-3a85969e9d912d5dd85362ee37b5f81266e00e77 lockdep: Add a missing initialization hint to the "INFO: Trying to register non-static key" message
-6d48b7912cc72275dc7c59ff961c8bac7ef66a92 lockdep: Address clang -Wformat warning printing for %hd
-3a62583c2853b0ab37a57dde79decea210b5fb89 RAS/CEC: Correct ce_add_elem()'s returned values
-632a1c209b8773cb0119fe3aada9f1db14fa357c x86/traps: Correct exc_general_protection() and math_error() return paths
-53b74fa990bf76f290aa5930abfcf37424a1a865 btrfs: zoned: move superblock logging zone location
-06f838e02d3b6e161df08c910e12e8366f1cb465 Merge tag 'x86_urgent_for_v5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-add6b92660b3dca65465d3bd7710b4b1338f34f0 Merge tag 'locking-urgent-2021-04-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-7d900724913cb293620a05c5a3134710db95d0d9 Merge tag 'for-5.12-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-d434405aaab7d0ebc516b68a8fc4100922d7f5ef Linux 5.12-rc7
-49d68d428c3a05e24f24c47fcb7f34c40e738f31 bcache: add initial data structures for nvm pages
-bdfe537529aa9e6327961cf7d04a5a447773eb4d bcache: initialize the nvm pages allocator
-e9a7b0ad1165089ba798049a9f93c678af030868 bcache: initialization of the buddy
-9d581b82fb8271bcc502764c074b34b1f7314572 bcache: bch_nvm_alloc_pages() of the buddy
-334c0ce41d2260dfc529e5471e7a0f230de9b72f bcache: bch_nvm_free_pages() of the buddy
-ec777a8b40322113747572ba430407984f08dbff bcache: get allocated pages from specific owner
-d4e0fc677e07e939b324ee48a49884bbd5a51cd5 bcache: use bucket index to set GC_MARK_METADATA for journal buckets in bch_btree_gc_finish()
-09111ace8ad3deccfc407c301115d31c7efd81c6 bcache: add BCH_FEATURE_INCOMPAT_NVDIMM_META into incompat feature set
-66f726352810795cf3bad0d74f86c8fe449eb81f bcache: initialize bcache journal for NVDIMM meta device
-5dbb05cdd87cc99b4c6ef5a1fe60ec079b40a8d3 bcache: support storing bcache journal into NVDIMM meta device
-13b6d169b41d58dab87d8328fb416fe2516b165b bcache: read jset from NVDIMM pages for journal replay
-f6ac772cbe5207775a55c77bb278c7772c8ace27 bcache: add sysfs interface register_nvdimm_meta to register NVDIMM meta device
-a9fa7bd8a55a485f9e8efccfd200de3a72341fa4 bcache: use div_u64() in init_owner_info()
+67934e5daee7ef0e25ae46d802c0ddbbbb254b8a kconfig: move conf_set_all_new_symbols() to conf.c
+0be1ff86061cbe9b23b700418c59669c4c022e47 kconfig: move JUMP_NB to mconf.c
+349fd7497b3abc3045fcceff319d53a8fb064be0 kconfig: change defconfig_list option to environment variable
+624e6f21e4a6d62f6d0166fab7b0d84feb6f80d2 kconfig: move default KBUILD_DEFCONFIG back to scripts/kconfig/Makefile
+1370b9b9adae5ed1b822683ef1da3df90b3dd8c4 kconfig: do not use allnoconfig_y option
+2b44d8bd9db01964e3fecc4e0e94a867f7524a17 kconfig: remove allnoconfig_y option
+d648fb2eb1f1e67efc24dbeb8da63490658525e7 kconfig: change "modules" from sub-option to first-level attribute
+98bf4aa48fc1b006b0c3866680f9ce73345bf10e kconfig: use true and false for bool variable
+085b2911965c83c8ae2c7942baa707b46cf6d23e kconfig: streamline_config.pl: Couple of typo fixes
+089385c2143c7d045c8ec2d38b22b5039c2eb6bc kconfig: lxdialog: A spello fix and a punctuation added
+8fbd92844a5602e976a392e336099d43d97bae19 kconfig: nconf: fix core dump when searching in empty menu
+2da8fccd76da4d786a3008de6966976f46008f4d kconfig: change sym_change_count to a boolean flag
+7467069dc50fc8b235a35d805c76f4551263bfb0 kconfig: use /boot/config-* etc. as DEFCONFIG_LIST only for native build
+bf304db049bc104ee3f5284472e0dd1392e7d5a5 kconfig: mconf,nconf: remove unneeded '\0' termination after snprintf()
+52fbc0fc5c5b4ebe928596f9d0c7ec300bc58b95 kconfig: nconf: fix NORMAL attributes
+390b424a394111410cf20935858a373f8ad3eec0 kconfig: nconf: get rid of (void) casts from wattrset() calls
+3499b82ced5564f8ee56992ad5ef838f1ae9b391 kconfig: nconf: remove unneeded default for menu prompt
+47b89cf5eb7767e63a59c055563aa289936a332e kconfig: nconf: refactor attributes setup code
+eef9bc57af2b7da91afb702e5689cc7c0f8510c7 kconfig: nconf: change set_config_filename() to void function
+5f8e2875efa7d48a040be4e2b1e93855ef59b474 kconfig: nconf: remove meaningless wattrset() call from show_menu()
+33a07abc43d9e6340400acbe994ca7096db5d546 kconfig: nconf: refactor in print_in_middle()
 
---===============3264832204703704436==--
+--===============4735097639602851665==--
