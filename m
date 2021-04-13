@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 13 Apr 2021 04:29:00 -0000
-Message-Id: <161828814076.21591.13581793993291234371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+Date: Tue, 13 Apr 2021 05:30:48 -0000
+Message-Id: <161829184809.28115.5652727264735602938@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+user: kvalo
 changes:
-  - ref: refs/heads/for-next
-    old: aadb2bb83ff789de63b48b4edeab7329423a50d3
-    new: 5c507329000e282dce91e6c98ee6ffa61a8a5e49
-    log: |
-         5c507329000e282dce91e6c98ee6ffa61a8a5e49 libbpf: Clarify flags in ringbuf helpers
-         
+  - ref: refs/tags/wireless-drivers-next-2021-04-13
+    old: 0000000000000000000000000000000000000000
+    new: c51d0bc5910697bb0038a62c2cf5ee35243c9b6d
