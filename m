@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtracefs
-Date: Tue, 13 Apr 2021 15:58:14 -0000
-Message-Id: <161832949433.13302.9258642055794881322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Tue, 13 Apr 2021 16:03:29 -0000
+Message-Id: <161832980918.16338.16774655831311548822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtracefs
-user: rostedt
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: mjp
 changes:
-  - ref: refs/heads/libtracefs
-    old: e6e0f3dac22810c8d0153134acf41f8e0a6c600c
-    new: 54c0e6f06ead83ce6026ab6884b96db631133360
+  - ref: refs/heads/next-ETE-TRBE
+    old: 4fb13790417a7bf726f3867a5d2b9723efde488b
+    new: 68d400c079978f649e7f63aba966d219743edd64
     log: |
-         a263e1fff95014340f889a3c5e76fd332de92982 libtracefs: Fix trace options unit test
-         8775d9f2d01ae6fa3d6913d85822a66c44fa85e6 libtracefs: Fix loading of saved maps
-         ba1e8e084d96749a00eb608d9ceef981b804e503 libtracefs: Fixed trace marker unit test
-         a9f4539e247f429f8af71f4200aeab6e2651fb98 libtracefs: Free the allocated kbuffer in tracefs_interate_raw_events()
-         54c0e6f06ead83ce6026ab6884b96db631133360 libtracefs: Have tracefs_instance_destroy() match the man page
+         d19dea75b9920cfd78df397e836d5b885b4fcc37 coresight: core: Make symbol 'csdev_sink' static
+         68d400c079978f649e7f63aba966d219743edd64 coresight: trbe: Fix return value check in arm_trbe_register_coresight_cpu()
          
