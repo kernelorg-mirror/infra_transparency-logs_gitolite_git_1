@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8789078786290810677=="
+Content-Type: multipart/mixed; boundary="===============7412704198966493183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Tue, 13 Apr 2021 06:39:32 -0000
-Message-Id: <161829597239.3899.8204517521613064922@gitolite.kernel.org>
+Date: Tue, 13 Apr 2021 06:40:04 -0000
+Message-Id: <161829600474.5474.9931055014004645184@gitolite.kernel.org>
 
---===============8789078786290810677==
+--===============7412704198966493183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 7accea0c95a1ce4cf1bbf622c42b00c27a2dd51d
+  - ref: refs/heads/for-v5.13
+    old: 152ec0d0d0e1643cd6392b691c3dd6d1fb0fe391
     new: f829b4b212a315b912cb23fd10aaf30534bb5ce9
     log: |
+         b19df649adcba4f934a1438dbb21f5f1cb883608 m68k: mm: Fix flatmem memory model setup
+         efdf262e11437f1bb6bcb35c16ac5c3c4cd07c67 m68k: defconfig: Update defconfigs for v5.12-rc1
+         8e4633daccf8706ef80f31e528dad69938460126 m68k: syscalls: switch to generic syscalltbl.sh
+         cbfa72b57747f8b87df16396d85e832c8bf03811 m68k: syscalls: switch to generic syscallhdr.sh
+         43262178c043032e7c42d00de44c818ba05f9967 m68k: mvme147,mvme16x: Don't wipe PCC timer config bits
+         418db20a82a48b8aa08a8f0691125384e2cbc290 m68k: fpsp040: Remove meaningless $(OS_OBJS)
+         7accea0c95a1ce4cf1bbf622c42b00c27a2dd51d m68k: fpsp040,ifpsp060: Remove meaningless EXTRA_LDFLAGS
          f829b4b212a315b912cb23fd10aaf30534bb5ce9 m68k: Add missing mmap_read_lock() to sys_cacheflush()
          
-  - ref: refs/heads/master
-    old: 2a87461a35b76691d4e7577bf28fff7f99208719
-    new: f6e3956c365be3777473a2b6a999ec21e4a74d1c
-    log: revlist-2a87461a35b7-f6e3956c365b.txt
+  - ref: refs/heads/m68k-queue
+    old: a5523382a4e15e56cdd6d4e3249074aff4f5a577
+    new: 796d9f6fd1fd3f4f1ee96841a8ac0fd4bf85e551
+    log: revlist-a5523382a4e1-796d9f6fd1fd.txt
 
---===============8789078786290810677==
+--===============7412704198966493183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a87461a35b7-f6e3956c365b.txt
+Content-Disposition: attachment; filename=revlist-a5523382a4e1-796d9f6fd1fd.txt
 
 04052a318fb93491f1f3b4d282cb806f588e9326 net/ieee802154: remove unused macros to tame gcc
 443f0bb8e29fa031ec4d5beb3c3143350438dc97 Revert "ARM: dts: bcm2711: Add the BSC interrupt controller"
@@ -449,7 +456,15 @@ efc2da9241e643cb90897ac4ed3542daa3edf3bc Merge tag 'scsi-fixes' of git://git.ker
 add6b92660b3dca65465d3bd7710b4b1338f34f0 Merge tag 'locking-urgent-2021-04-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7d900724913cb293620a05c5a3134710db95d0d9 Merge tag 'for-5.12-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 d434405aaab7d0ebc516b68a8fc4100922d7f5ef Linux 5.12-rc7
-d3e6f92c11a1cc829e442b7dbdf64828d98c194c m68k: Add missing mmap_read_lock() to sys_cacheflush()
-f6e3956c365be3777473a2b6a999ec21e4a74d1c Merge tag 'v5.12-rc7'
+139152588b2649c0626c06033b5357471b164e06 m68k: mm: Fix flatmem memory model setup
+e526bf2c927610c80198bb17b4e26778520da8fe m68k: syscalls: switch to generic syscalltbl.sh
+3b4413ae5864aeca566eb7895d78c94ce99b7390 m68k: syscalls: switch to generic syscallhdr.sh
+457500c409de973f8eb2c9505f48f70099c0292e m68k: Add missing mmap_read_lock() to sys_cacheflush()
+f2eceaed3821af5848e8ef19d43d312048f30451 m68k: atari: usb: Add ISP1160 USB host controller support
+a1c3237f051156f45e4f98c4dffbf4cd039a9fe3 m68k: atari: Update Kconfig.bus help text
+84d989cd5d0cf62600b7736a5ac0864dac7e6bc1 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+e16df72f90fd36994477dc9b4ef5a9eab3db8c55 m68k: mvme147,mvme16x: Don't wipe PCC timer config bits
+84b30d07bb55390d719504001e07b9af12807c98 m68k: fpsp040: Remove meaningless $(OS_OBJS)
+796d9f6fd1fd3f4f1ee96841a8ac0fd4bf85e551 m68k: fpsp040,ifpsp060: Remove meaningless EXTRA_LDFLAGS
 
---===============8789078786290810677==--
+--===============7412704198966493183==--
