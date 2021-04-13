@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 13 Apr 2021 11:13:16 -0000
-Message-Id: <161831239613.26682.7833651537970918537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Tue, 13 Apr 2021 11:18:55 -0000
+Message-Id: <161831273598.29845.2276094103362198961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/tags/intel-pinctrl-v5.12-4
-    old: 0000000000000000000000000000000000000000
-    new: e82f4b3c1903bd1afcc4eb1594bd5551558785dd
+  - ref: refs/heads/linux-4.19.y-cip
+    old: 6aacc392bf723d573084332054aa3070424576fe
+    new: 4c2cb7ba796b4f3ff79d51be8980b1e148581d8c
+    log: |
+         4c2cb7ba796b4f3ff79d51be8980b1e148581d8c drm: rcar-du: Fix crash when using LVDS1 clock for CRTC
+         
