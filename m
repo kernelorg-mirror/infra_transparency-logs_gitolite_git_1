@@ -1,57 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============5138022232230479502=="
+Content-Type: multipart/mixed; boundary="===============5591838612208541381=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 14 Apr 2021 13:20:41 -0000
-Message-Id: <161840644116.28560.8859218048180655121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 14 Apr 2021 13:20:53 -0000
+Message-Id: <161840645355.28715.3884845650065311947@gitolite.kernel.org>
 
---===============5138022232230479502==
+--===============5591838612208541381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/usb-testing
-    old: 401411bbc4e62bcbcc020c2c458ecb90843140a8
-    new: 8f23fe35ff1e5491b4d279323a8209a31f03ae65
-    log: |
-         434438d8f9d3f2bc8f404b937f87a70da3fbc7fb usb: typec: silence a static checker warning
-         8f23fe35ff1e5491b4d279323a8209a31f03ae65 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-         
+  - ref: refs/heads/net-rc
+    old: fd351cb568da0acbe2dee2167dd31c0ab5324fea
+    new: a08342b9c7de83a50ef648519f8effd49ebcad97
+    log: revlist-fd351cb568da-a08342b9c7de.txt
 
---===============5138022232230479502==
+--===============5591838612208541381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-fd351cb568da-a08342b9c7de.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618406435 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1618406435-417995e1a34196cae127e27218d325192da839e7
+b656b594da29ebcca7069406c7f0db96f89adb53 net/mlx4: Fix EEPROM dump support
+1aaa6357a62d1cf9b2e26526c3951782876d3cec net/mlx5: Fix setting of devlink traps in switchdev mode
+cf793fca6aa029ab10f53742bf490a6a176955e1 net/mlx5e: reset XPS on error flow if netdev isn't registered yet
+2adf43cbca4fff095fc342b52a939b82ccd67b0b net/mlx5e: Fix setting of RS FEC mode
+395834b82b7b89c351c57d5853521b4f092da639 net/mlx5: Optimize mlx5e_feature_checks for non IPsec packet.
+fe29764224ee344d9f14103e563d4734989b29ea net/xfrm: Add inner_ipproto into sec_path.
+4c427ba4457d3776d9c308fd75f84789d27cd59b net/mlx5: Fix checksum issue of VXLAN and IPsec crypto offload.
+af6745a400ada7a0a9e24be3c96dffb469543be6 Merge branch 'patchq/378253' into mlx5-for-net
+1bdd6bf3fe35972237126d79d352904107b49554 Merge branch 'patchq/389254' into mlx5-for-net
+b1f33fbc5328e985b2682d998f21e11b447e8ec1 Revert "vsock: fix the race conditions in multi-transport support"
+f210650bcbdaf0331d832799b97c6d5608e0858f Merge branch 'patchq/379085' into mlx5-for-net
+82311ac8e4ff866e55c8dd93f7c444681be79cb7 Merge branch 'patchq/385612' into mlx5-for-net
+a3d573c2ecdafd3eadf49d4aaff12456dcbfff70 Merge branch 'mlx4-for-net' into net-rc
+a08342b9c7de83a50ef648519f8effd49ebcad97 Merge branch 'mlx5-for-net' into net-rc
 
-401411bbc4e62bcbcc020c2c458ecb90843140a8 8f23fe35ff1e5491b4d279323a8209a31f03ae65 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB27CQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eNgP/1mC4LwvxadNRlWFLGXX
-KRP/hKKm4E+9laZYt7ImYwfQgxxQflilCy5RTaEVh93FQzAPBi0UZaZmySFZbbTR
-tKvvk322g9dc5R8S1Rwi9f/h0P2niYqUhNDVQ6hT7uPjfU5Vf85pxQ9y5pQ/frXq
-nsrrIYPcQQHIXCdm1y660pue4S8BsYAvx91+xmoNoEU7TROwdtVRjWHuxsmeUAy3
-Blg5QyF4KTPt6/sPYJdNJbVbggt+UXsG9H+1n9CsGcQnQLWNQ1PA7L1fSGnhClx7
-c2C8KTvbFQSoYmFXilVY+m2v4uOIwH6XMj4iqS6360O/946oF2BQT7nQPulzuJwk
-VXXqTX0LSTCKUJNT/aFxONtbn5YJdjQNQLYz7NhOu+19bXdeiDEGJBCzQHNRAWe8
-sbwocwLX+QBhULea5PCfrgsKahrlvT3vZOHOF/I2pl+qCp5QPlox6sDVt058Y4aJ
-+unoKHWFfOe5CBYG225jKFEE9Z1L21yjROYHR/8xpzlFb4EXu01wzSzknmFuUBxB
-hkEJdcLXwuzIAQ4IXjSyOy13bLqFHotv2oZJy2qOSK4AUNdD94PhU7RSsKEEgUlV
-Vrbr5qKKRjrNL1hWwa6SXgW7m7vuyL3Ltkeu6dR06pL2zBcYD8yVxO+Lsmky4SGk
-TPffIJVjniVRYWdQd2CHnRHl
-=rOQo
------END PGP SIGNATURE-----
-
---===============5138022232230479502==--
+--===============5591838612208541381==--
