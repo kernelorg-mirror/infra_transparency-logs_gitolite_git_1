@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7544589878629760828=="
+Content-Type: multipart/mixed; boundary="===============7826497456445690628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andersson/remoteproc
-Date: Wed, 14 Apr 2021 02:10:57 -0000
-Message-Id: <161836625728.3983.13940139787907762030@gitolite.kernel.org>
+Date: Wed, 14 Apr 2021 02:10:59 -0000
+Message-Id: <161836625957.4046.17454268986874042780@gitolite.kernel.org>
 
---===============7544589878629760828==
+--===============7826497456445690628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andersson/remoteproc
 user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: 48073935b9a4f820733937bd40a74c1c389caee6
-    new: 5e4c1243071d29ed5511121d044116b942ba6a7b
-    log: revlist-48073935b9a4-5e4c1243071d.txt
+  - ref: refs/heads/for-next
+    old: bb74f3a3646b263908341b163bf32b8c5f0f24ce
+    new: 6bb9d98d929ccd76891b2c3257e820b486e96e29
+    log: revlist-bb74f3a3646b-6bb9d98d929c.txt
 
---===============7544589878629760828==
+--===============7826497456445690628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48073935b9a4-5e4c1243071d.txt
+Content-Disposition: attachment; filename=revlist-bb74f3a3646b-6bb9d98d929c.txt
 
 6d1f2803cb6b414c2e45fa64d1fdad6b581e1e88 remoteproc: pru: Fixup interrupt-parent logic for fw events
 1fe72bcfac087dba5ab52778e0646ed9e145cd32 remoteproc: pru: Fix wrong success return value for fw events
@@ -39,5 +39,6 @@ ca0e89406ba18e9ba98d28413b50469f631bb583 remoteproc: qcom: wcss: Fix wrong point
 f638a19775ae60ae919ff604fdc04362ff4f817f remoteproc: imx_rproc: enlarge IMX7D_RPROC_MEM_MAX
 10a3d4079eaea06472f1981152e2840e7232ffa9 remoteproc: imx_rproc: move memory parsing to rproc_ops
 5e4c1243071d29ed5511121d044116b942ba6a7b remoteproc: imx_rproc: support remote cores booted before Linux Kernel
+6bb9d98d929ccd76891b2c3257e820b486e96e29 Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
 
---===============7544589878629760828==--
+--===============7826497456445690628==--
