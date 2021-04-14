@@ -1,46 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============2178792647204471994=="
+Content-Type: multipart/mixed; boundary="===============0921744864223381181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Wed, 14 Apr 2021 08:29:30 -0000
-Message-Id: <161838897091.2902.13793654210613262278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 14 Apr 2021 08:30:24 -0000
+Message-Id: <161838902411.4700.10093282227206798081@gitolite.kernel.org>
 
---===============2178792647204471994==
+--===============0921744864223381181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/i2c/for-next
-    old: bb90758e672076332279416ddbc18c226ee8dd3e
-    new: 42a65e6bcd40683edd1cfecd2a4369367276e417
-    log: revlist-bb90758e6720-42a65e6bcd40.txt
+  - ref: refs/heads/staging-testing
+    old: c3db59cfe16ad81d691904d9420fdefa34063b29
+    new: f013209cbf8ef24142617803f56b52d59a31ef63
+    log: |
+         3d7ac0402907012c8a62ab9a83f12199ed2d0087 staging: rtl8723bs: core: Remove unused but set variable
+         69c3331aa099af811f85b1f8d3ae9df194c56531 staging: rtl8723bs: replace dump_drv_version() usage with netdev_dbg()
+         ee31d57e4022855307dc7199a2b9c169c4ceea37 staging: rtl8723bs: remove unnecessary dump_drv_version() usage
+         77e14dfe53c033f60bfa92606d81c7e6b8a1ba9d staging: rtl8723bs: remove two unused functions
+         f013209cbf8ef24142617803f56b52d59a31ef63 staging: rtl8723bs: hal: Remove four set but not used variables
+         
 
---===============2178792647204471994==
+--===============0921744864223381181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb90758e6720-42a65e6bcd40.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-23ceb8462dc6f4b4decdb5536a7e5fc477cdf0b6 i2c: cadence: fix reference leak when pm_runtime_get_sync fails
-223125e37af8a641ea4a09747a6a52172fc4b903 i2c: img-scb: fix reference leak when pm_runtime_get_sync fails
-278e5bbdb9a94fa063c0f9bcde2479d0b8042462 i2c: imx-lpi2c: fix reference leak when pm_runtime_get_sync fails
-47ff617217ca6a13194fcb35c6c3a0c57c080693 i2c: imx: fix reference leak when pm_runtime_get_sync fails
-780f629741257ed6c54bd3eb53b57f648eabf200 i2c: omap: fix reference leak when pm_runtime_get_sync fails
-3a4f326463117cee3adcb72999ca34a9aaafda93 i2c: sprd: fix reference leak when pm_runtime_get_sync fails
-2c662660ce2bd3b09dae21a9a9ac9395e1e6c00b i2c: stm32f7: fix reference leak when pm_runtime_get_sync fails
-a85c5c7a3aa8041777ff691400b4046e56149fd3 i2c: xiic: fix reference leak when pm_runtime_get_sync fails
-c4b1fcc310e655fa8414696c38a84d36c00684c8 i2c: imx: Fix PM reference leak in i2c_imx_reg_slave()
-5581c2c5d02bc63a0edb53e061c8e97cd490646e i2c: cadence: add IRQ check
-bb6129c32867baa7988f7fd2066cf18ed662d240 i2c: emev2: add IRQ check
-c5e5f7a8d931fb4beba245bdbc94734175fda9de i2c: jz4780: add IRQ check
-0d3bf53e897dce943b98d975bbde77156af6cd81 i2c: mlxbf: add IRQ check
-147178cf03a6dcb337e703d4dacd008683022a58 i2c: rcar: add IRQ check
-e5b2e3e742015dd2aa6bc7bcef2cb59b2de1221c i2c: sh7760: add IRQ check
-42a65e6bcd40683edd1cfecd2a4369367276e417 Merge branch 'i2c/for-5.13' into i2c/for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618389017 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1618389016-69941dbc353c8055b3c4bb2ded90f74a0750018a
 
---===============2178792647204471994==--
+c3db59cfe16ad81d691904d9420fdefa34063b29 f013209cbf8ef24142617803f56b52d59a31ef63 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB2qBkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KYIQAJ7pUPUBwCUHaEMPTDZ+
+7P9h5swtEp8vNdI3WknKRSKXML3Qs4ul6VnI7BrgBXG5XiYFDJzRbUlSZr0Vwpgj
+BOum/RFEbHEZ431eFGskuIK7kqfeb7I3By7rJqJmE6iXrwkGO25+J8jfS8had1lS
+Jz/OYIncAJtazH3/jGUMUYQ4KNF5gYtD8075vfo24god56c3lQi/xEqH9Va0yxlm
+ckOlSew8bxXhXvwpQePTG7IscxGcV2EfJa6EhHYK+YX8HyYJEIa9xS/DcOMe8cNZ
+CWhUURjKE0/KeHForp5EQFeY66WRTotAtf4Z9h5jeNBzy/U8uKTaQDAr6X3K8zFs
+CwWodp4BH7Z+qJqQfi6u+GIfignQZVxohN0LtOr6rFN4AATJe1hLIOXfp+hxYUsM
+J6CO7LnJ6n6nIP/L98pSUNxCk90ttABJIuD1ySt3RjiTS6+qRwUtUZF/veuUsuCh
+01uOOshJFgT/ljfUSamHEStC/STcnbIY2tAcgfcTobmKxff94gwymFatlCUupWnL
+W8pQU/vx5vsc5nvlUuCQUDwM56B5uAb6jWTAxMb+2CCDrkT70vYXgCswh8W7nz//
+XM+cmjIMno5zYLgLRZYzksGqfWqdFE3VG83Uxn9/TD86NhH4h2dNSCcMV4fqvdg4
+D5D9mcCXTWgdYb7YELSTYHZ7
+=95By
+-----END PGP SIGNATURE-----
+
+--===============0921744864223381181==--
