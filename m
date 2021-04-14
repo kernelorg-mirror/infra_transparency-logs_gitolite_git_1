@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 14 Apr 2021 17:30:54 -0000
-Message-Id: <161842145415.26428.6865581473498767799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Wed, 14 Apr 2021 17:34:44 -0000
+Message-Id: <161842168466.27618.7616707823834399014@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/kvm-arm64/nvhe-panic-info
-    old: aec0fae62e47050019474936248a311a0ab08705
-    new: 882ff4062169d5914ad7ed88c9138a90e485c05e
-    log: |
-         882ff4062169d5914ad7ed88c9138a90e485c05e bug: Provide dummy version of bug_get_file_line() when !GENERIC_BUG
-         
+  - ref: refs/tags/s390-5.12-7
+    old: 0000000000000000000000000000000000000000
+    new: 332f9d8264eb70fb008d156a0b734bf7a7f8d6cb
