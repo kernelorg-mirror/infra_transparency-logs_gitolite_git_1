@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5591838612208541381=="
+Content-Type: multipart/mixed; boundary="===============6463685722282001111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 14 Apr 2021 13:20:53 -0000
-Message-Id: <161840645355.28715.3884845650065311947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 14 Apr 2021 13:20:59 -0000
+Message-Id: <161840645945.28837.2190334002751068580@gitolite.kernel.org>
 
---===============5591838612208541381==
+--===============6463685722282001111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: fd351cb568da0acbe2dee2167dd31c0ab5324fea
-    new: a08342b9c7de83a50ef648519f8effd49ebcad97
-    log: revlist-fd351cb568da-a08342b9c7de.txt
+  - ref: refs/heads/queue-rc
+    old: c95226fe562e88501f2774ac065f69d551f62207
+    new: d91d6a81f39b51b5669866b3496ae3d304466d47
+    log: revlist-c95226fe562e-d91d6a81f39b.txt
 
---===============5591838612208541381==
+--===============6463685722282001111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd351cb568da-a08342b9c7de.txt
+Content-Disposition: attachment; filename=revlist-c95226fe562e-d91d6a81f39b.txt
 
 b656b594da29ebcca7069406c7f0db96f89adb53 net/mlx4: Fix EEPROM dump support
 1aaa6357a62d1cf9b2e26526c3951782876d3cec net/mlx5: Fix setting of devlink traps in switchdev mode
@@ -40,5 +40,7 @@ f210650bcbdaf0331d832799b97c6d5608e0858f Merge branch 'patchq/379085' into mlx5-
 82311ac8e4ff866e55c8dd93f7c444681be79cb7 Merge branch 'patchq/385612' into mlx5-for-net
 a3d573c2ecdafd3eadf49d4aaff12456dcbfff70 Merge branch 'mlx4-for-net' into net-rc
 a08342b9c7de83a50ef648519f8effd49ebcad97 Merge branch 'mlx5-for-net' into net-rc
+bc508a8aec1b2415f13e180c5648b6549d61b8ec Merge branch 'net-rc' into queue-rc
+d91d6a81f39b51b5669866b3496ae3d304466d47 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============5591838612208541381==--
+--===============6463685722282001111==--
