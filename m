@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Wed, 14 Apr 2021 20:44:50 -0000
-Message-Id: <161843309083.13261.588368227235980826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 14 Apr 2021 21:02:41 -0000
+Message-Id: <161843416173.25225.5212694845810514242@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/pci/vpd
-    old: bb4c0992c232e935499a24dfb1a8a9adb7733d08
-    new: 3eacfbe797a7b738387bb8c6adb703322bb6a944
+  - ref: refs/heads/master
+    old: 2e1534f395e73152e2051332034bff61a56a8368
+    new: a714e27ea8bdee2b238748029d31472d0a65b611
     log: |
-         3eacfbe797a7b738387bb8c6adb703322bb6a944 PCI: Allow VPD access for QLogic ISP2722
+         a714e27ea8bdee2b238748029d31472d0a65b611 net: macb: fix the restore of cmp registers
          
