@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 14 Apr 2021 19:13:24 -0000
-Message-Id: <161842760445.22748.6078564832970993461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Wed, 14 Apr 2021 19:15:47 -0000
+Message-Id: <161842774780.24953.1883002491313504049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 473b2922c7e54260268c9bb037d2ff9f327422ab
-    new: 4c391ea001cb2e7bd9a691a886c0dcb030c1791c
+  - ref: refs/heads/xfs/shrink_ags
+    old: 9ca8cd5820fb81da2a93cdfb1e041c2809b0d0a7
+    new: b4428774b6f983173be679eba1382afe5c003cfc
     log: |
-         5676dba708bbb1fc94a9d3b2e9c114db9e4c6699 perf annotate: Fix sample events lost in stdio mode
-         2adbf9709ad9af62cc35780ec87ddf739ea5cf51 perf evlist: Add a method to return the list of evsels as a string
-         5f8929659a8261a1faae016fab02535169087a27 perf record: Improve 'Workload failed' message printing events + what was exec'ed
-         4c391ea001cb2e7bd9a691a886c0dcb030c1791c perf beauty: Fix fsconfig generator
+         67adc15d609d01c21af956d8be185698f9ee7448 xfs: support deactivating AGs
+         a796c2abb6f7baaf26e82e907d71cfdc30febcce xfs: check ag is empty
+         c0c265578a97071d51ef1284a2c77e9d693e80ea xfs: introduce max_agcount
+         b4428774b6f983173be679eba1382afe5c003cfc xfs: support shrinking empty AGs
          
