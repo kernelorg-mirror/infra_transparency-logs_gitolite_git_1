@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Wed, 14 Apr 2021 16:26:50 -0000
-Message-Id: <161841761060.19739.10717393455769525920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Wed, 14 Apr 2021 16:29:42 -0000
+Message-Id: <161841778201.20595.17321002448827962211@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/xfs/shrink_ags
-    old: ef699e721cbd4ad226c5b07b934c5cddf9a83e4d
-    new: 21d53090df61c47627ae4b8af97d8ccfde32d249
-    log: |
-         21d53090df61c47627ae4b8af97d8ccfde32d249 xfs: shrink empty AGs
-         
+  - ref: refs/tags/dmaengine-fix-5.12
+    old: 0000000000000000000000000000000000000000
+    new: 48a0f1bca88a15312591160aec92b5d2924a0914
