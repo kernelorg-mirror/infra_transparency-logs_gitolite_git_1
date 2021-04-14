@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Wed, 14 Apr 2021 15:36:21 -0000
-Message-Id: <161841458179.18381.1204834664818288342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 14 Apr 2021 15:54:33 -0000
+Message-Id: <161841567363.28912.4994525584915577109@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/bpf/ftrace
-    old: 75bc48cb4414f68f3a427d021860af113920adfd
-    new: 5906e0659463d7c0fbe13a7e097e26f448f54527
+  - ref: refs/heads/master
+    old: fe1706aadcebf9c9d2150c5db3c6c176bfffc557
+    new: 315e6eaef668d925a3ab09d7aba29c9455da713c
     log: |
-         90e85b1aaa96be9be1787fbb56dacb92d19cff2a bpf: Move bpf_prog_start/end functions to generic place
-         3a8b957cba0305fd1d8e68ab50d37a1481b1e39d bpf: Add bpf_functions object
-         d9e5279c64019b04e05525faa74f5407b9f0b943 bpf: Add support to attach program to ftrace probe
-         f2a7958fe001179e4ec1cec9baa2986bd62e706d libbpf: Add btf__find_by_pattern_kind function
-         2fe733b0750f68c76f9d640a42453950a1b182b3 libbpf: Add support to load and attach ftrace probe
-         a969287f43674d88a2afe77b489f82d3267258c9 selftests/bpf: Add ftrace probe to fentry test
-         5906e0659463d7c0fbe13a7e097e26f448f54527 selftests/bpf: Add ftrace probe test
+         61614541187298f2eee5f8c8d724dc476b12df83 Fixes for 5.11
+         1b5c13353e3ed4433eb5891025d92ad1331961a2 Fixes for 5.10
+         cda88b146d0322e4ffbebf3715eafb34b9d1ccb4 Fixes for 5.4
+         5be034796a6bde1a134d0f1173b540148aa37292 Fixes for 4.19
+         e0f5ad1bb6658d2b6462ccb913a3f191e6f74038 Fixes for 4.14
+         2af40b4bfcda2f53a6a27221c13b4874a47c6fc1 Fixes for 4.9
+         315e6eaef668d925a3ab09d7aba29c9455da713c Fixes for 4.4
          
