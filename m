@@ -1,49 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2854558203397204029=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 14 Apr 2021 15:59:44 -0000
-Message-Id: <161841598428.32264.18274574331208590709@gitolite.kernel.org>
-
---===============2854558203397204029==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 14 Apr 2021 16:01:07 -0000
+Message-Id: <161841606786.1992.9091713745028790473@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-linus
-    old: 357505e41fb097551df013c040b41d828571152d
-    new: 2077f55034378758b491be44fab28032fac1b11d
+  - ref: refs/heads/master
+    old: ccb39c6285581992f0225c45e4de704028a8ec17
+    new: 2afeec08ab5c86ae21952151f726bfe184f6b23d
     log: |
-         2077f55034378758b491be44fab28032fac1b11d Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+         610f8c0fc8d46e0933955ce13af3d64484a4630a net: sit: Unregister catch-all devices
+         941ea91e87a6e879ed82dad4949f6234f2702bec net: ip6_tunnel: Unregister catch-all devices
+         61aaa1aa9a8f83dbdc763c6939568952a2a30c90 Merge branch 'catch-all-devices'
+         97684f0970f6e112926de631fdd98d9693c7e5c1 net: Make tcp_allowed_congestion_control readonly in non-init netns
+         ca09bf7bb109a37a7ff05f230bb3fa3627e6625f ibmvnic: correctly use dev_consume/free_skb_irq
+         b166a20b07382b8bc1dcee2a448715c9c2c81b5b net/sctp: fix race condition in sctp_destroy_sock
+         38ec4944b593fd90c5ef42aaaa53e66ae5769d04 gro: ensure frag0 meets IP header alignment
+         2afeec08ab5c86ae21952151f726bfe184f6b23d xen-netback: Check for hotplug-status existence before watching
          
-  - ref: refs/heads/for-next
-    old: 993afe97fc05aedd53d6d598b3bcacf69797b3da
-    new: 6ba95fcc795cba53a13a3fd9b425c61e642d3349
-    log: revlist-993afe97fc05-6ba95fcc795c.txt
-
---===============2854558203397204029==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-993afe97fc05-6ba95fcc795c.txt
-
-a122a116fc6d8fcf2f202dcd185173a54268f239 ASoC: rsnd: call rsnd_ssi_master_clk_start() from rsnd_ssi_init()
-a4856e15e58b54977f1c0c0299309ad4d1f13365 ASoC: rsnd: check all BUSIF status when error
-691b379cbe348fbead33e49d1c1d0f045a2e3446 ASoC: rsnd: add rsnd_ssi_busif_err_status_clear()
-15c57ce07ce207069f1cd57ec117b11871f3afa6 ASoC: rsnd: add rsnd_ssi_busif_err_irq_enable/disable()
-63346d3d2f7cd96746149b9710a4cc5401c0cb5c ASoC: rsnd: add usage for SRC
-0b93bbc977af55fd10687f2c96c807cba95cb927 ASoC: ak5558: correct reset polarity
-4d5d75ce2b32577afef26a233119d8ee1b764ea7 ASoC: ak5558: change function name to ak5558_reset
-e42b6e813f4231d3c38362fd800724bd41040ef9 ASoC: cs35l35: remove unused including <linux/version.h>
-b5fb388da472a69858355560d803602e0ace1006 ASoC: topology: adhere to KUNIT formatting standard
-8577bf61a6359bf2387f85a2fda713a4f05185c3 Merge series "ASoC: rsnd: tidyup Renesas sound" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
-1ceb019e7830fb831dac10b0fe0688dea24687db Merge series "kunit: Fix formatting of KUNIT tests to meet the standard" from Nico Pache <npache@redhat.com>:
-2077f55034378758b491be44fab28032fac1b11d Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
-6ba95fcc795cba53a13a3fd9b425c61e642d3349 Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
-
---===============2854558203397204029==--
