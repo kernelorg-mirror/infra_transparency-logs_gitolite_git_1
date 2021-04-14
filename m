@@ -1,47 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4762807814072039843=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Wed, 14 Apr 2021 20:01:49 -0000
-Message-Id: <161843050959.20678.4419295996211041050@gitolite.kernel.org>
-
---===============4762807814072039843==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 14 Apr 2021 20:02:44 -0000
+Message-Id: <161843056414.20998.10953102791374111814@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can-next
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/tags/linux-can-next-for-5.13-20210414
-    old: 0000000000000000000000000000000000000000
-    new: 6bb10525f066d295ebbbdc0baad86b12a17b5055
-
---===============4762807814072039843==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1618430504 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1618430504-ae3413a4c8f2346557b103f480587d921bc7c908
-
-0000000000000000000000000000000000000000 6bb10525f066d295ebbbdc0baad86b12a17b5055 refs/tags/linux-can-next-for-5.13-20210414
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmB3SigTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqcKRB/4i7saWjqlnry+qOasNC5XPPuyL1vFi
-0GR5wDtsn7UiqJURGGPVEE6qDwc9Sf590toHf/q4DtN0HW8Cn99S6bJfk1hLEhEP
-fDI0X3ze6NUwnpoSZ9sQd+F7HVdin1dstyTI8J83O/7OOcvjWoY7j4r9fu+7hjpY
-Mvva0rCKB7sMoGlZfV8MU7iFyJBdCWxR3cQPgaSmBlaDOCWoiDWqhoLmny/jdZQT
-7TXMumSIvlurneqBE1K3G6CXl0eGaX6DoqxtgxmOqyjnFZqiQXJpmK5Ka3vRyLnM
-Fk4pbccZKokIYRMMvdQ8UCInlS2joLD4NtzGl3rZsu+p1jn2H8famqO1
-=iy6Q
------END PGP SIGNATURE-----
-
---===============4762807814072039843==--
+  - ref: refs/heads/master
+    old: f4da56529da602010979e8497d1f02eaf5df8883
+    new: 1141bfef9c4700488619ef513772701635a6c80c
+    log: |
+         47222864c14bc10c7769378f7601e2a45bd52026 ixgbe: Support external GBE SerDes PHY BCM54616s
+         7eceea90c5427c8a4deed38e67c1250c31df8363 net: intel: Remove unused function pointer typedef ixgbe_mc_addr_itr
+         ce2cb12dccab57179fc97d2c89f872333ff369f0 net: ethernet: intel: Fix a typo in the file ixgbe_dcb_nl.c
+         1141bfef9c4700488619ef513772701635a6c80c Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+         
