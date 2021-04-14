@@ -1,56 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8863689229753625126=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 14 Apr 2021 19:06:22 -0000
-Message-Id: <161842718212.19424.14882279932326842483@gitolite.kernel.org>
-
---===============8863689229753625126==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 14 Apr 2021 19:13:24 -0000
+Message-Id: <161842760445.22748.6078564832970993461@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 23188e0d45c505b9c3175121855b793578ee50f0
-    new: 0df74278faedf20f9696bf2755cf0ce34afa4c3a
+  - ref: refs/heads/tmp.perf/core
+    old: 473b2922c7e54260268c9bb037d2ff9f327422ab
+    new: 4c391ea001cb2e7bd9a691a886c0dcb030c1791c
     log: |
-         0df74278faedf20f9696bf2755cf0ce34afa4c3a mei: me: add Alder Lake P device id.
+         5676dba708bbb1fc94a9d3b2e9c114db9e4c6699 perf annotate: Fix sample events lost in stdio mode
+         2adbf9709ad9af62cc35780ec87ddf739ea5cf51 perf evlist: Add a method to return the list of evsels as a string
+         5f8929659a8261a1faae016fab02535169087a27 perf record: Improve 'Workload failed' message printing events + what was exec'ed
+         4c391ea001cb2e7bd9a691a886c0dcb030c1791c perf beauty: Fix fsconfig generator
          
-
---===============8863689229753625126==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618427177 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1618427176-d3fa4bf9143145d6d102c09b83a18ecaf0e54c86
-
-23188e0d45c505b9c3175121855b793578ee50f0 0df74278faedf20f9696bf2755cf0ce34afa4c3a refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB3PSkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XmwP/jxgqQi0SGbD5rXAdC4W
-mvTb+MsYrZGo/IyIKg9Gmvj1Uu1t6SKijZR2V3K4OnNPpLeaRFZDq+BK2BCFtctZ
-TkLnsJ4sGH/nxab3DFTvhEPZ7HlAwlXurik1jVtsQ/IPsXYtToxScCYqejBeU6y8
-R5L9o0tuWmwFXDIea9ulPKGw3YyzcqIo7SMyWuom8RpGyrO7Rn2gEi6qtaiwbCAd
-iVDpiTkjfHXr4Ob4HTvQo+V9womAX1IM1Bj/Ic4JZxvW4YbnfHbE5S60ye66a9ek
-tLddNQWPfY8ocNpnJh5yyt9enVnv3Z8wk8PmnxLW86eWI7z0fN8G9jJ5vSi5kFUg
-vTmqBoDw3Ug3jeZUgdUsTDzzFZukxjHq48E8J7jRtIG6iFyFHV1q7k3Y7OdM8vd2
-yCn6aoFWan31KVJyxvIpi7xTCvtMcEqfYpk0Dn7tmnRhH+QtefpFaAOS3UpUtTXr
-nhS9grGRRZdYSqyXf9qV0U1V8uNp310MQ00O8EIbfTku4p8JSQt8V1q31RL0TE8+
-kiKcE9WQbZAnYfFjyddNwNNDZzmdFIrMuswEoKle3+PFpDthCqPrHlqpFWV0ct6H
-vyqTtGNMsS8tnbE8qy2fgmBGqDHUCqZMiARkPS8wdNuX4WarhxbAiEwm0CmAHxat
-iLKeS+k0zwqNyBI5GLHOa0EM
-=N/rh
------END PGP SIGNATURE-----
-
---===============8863689229753625126==--
