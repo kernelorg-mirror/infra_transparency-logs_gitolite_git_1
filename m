@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4867700508137977486=="
+Content-Type: multipart/mixed; boundary="===============2370087462116457133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 14 Apr 2021 10:23:40 -0000
-Message-Id: <161839582013.24612.1858105463507829740@gitolite.kernel.org>
+Date: Wed, 14 Apr 2021 10:23:47 -0000
+Message-Id: <161839582762.24713.10854593047970659077@gitolite.kernel.org>
 
---===============4867700508137977486==
+--===============2370087462116457133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/core
+  - ref: refs/heads/tmp.perf/core
     old: da66658638c947cab0fb157289f03698453ff8d5
     new: 473b2922c7e54260268c9bb037d2ff9f327422ab
     log: revlist-da66658638c9-473b2922c7e5.txt
 
---===============4867700508137977486==
+--===============2370087462116457133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -631,4 +631,4 @@ d2bd44c4c05d043fb65cfdf26c54e6d8b94a4b41 m68k: fix flatmem memory model setup
 89698becf06d341a700913c3d89ce2a914af69a2 Merge tag 'm68knommu-for-v5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 473b2922c7e54260268c9bb037d2ff9f327422ab Merge remote-tracking branch 'torvalds/master' into perf/core
 
---===============4867700508137977486==--
+--===============2370087462116457133==--
