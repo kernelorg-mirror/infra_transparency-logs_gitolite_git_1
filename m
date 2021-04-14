@@ -1,63 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2190807513106971319=="
+Content-Type: multipart/mixed; boundary="===============8427860042656940253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 14 Apr 2021 21:25:39 -0000
-Message-Id: <161843553924.7571.519751736856581229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 14 Apr 2021 21:26:26 -0000
+Message-Id: <161843558610.7862.7868771774355472830@gitolite.kernel.org>
 
---===============2190807513106971319==
+--===============8427860042656940253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 0c8b60b2a32d3ad0fbe637744eb13a69202e0055
-    new: 82affc9aef4882d1ddaaa20ba16401c3d32647a1
-    log: revlist-0c8b60b2a32d-82affc9aef48.txt
+  - ref: refs/heads/master
+    old: 5871d0c6b8ea805916c3135d0c53b095315bc674
+    new: 652d3be21dc838f526c01837cbc837894f9c7bc1
+    log: revlist-5871d0c6b8ea-652d3be21dc8.txt
 
---===============2190807513106971319==
+--===============8427860042656940253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c8b60b2a32d-82affc9aef48.txt
+Content-Disposition: attachment; filename=revlist-5871d0c6b8ea-652d3be21dc8.txt
 
-16756d3e77ad58cd07e36cbed724aa13ae5a0278 ethtool: pause: make sure we init driver stats
-453a77894efa4d9b6ef9644d74b9419c47ac427c r8169: don't advertise pause in jumbo mode
-0775ebc4cf8554bdcd2c212669a0868ab68df5c0 ibmvnic: avoid calling napi_disable() twice
-d3a6abccbd272aea7dc2c6f984bb5a2c11278e44 ibmvnic: remove duplicate napi_schedule call in do_reset function
-7c451f3ef676c805a4b77a743a01a5c21a250a73 ibmvnic: remove duplicate napi_schedule call in open function
-49963eed2c239365c12418d07ca9ba621dc69313 Merge branch 'ibmvnic-napi-fixes'
-292ecd9f5a94dd29d09fe03b5b669cb20b44f19e doc: move seg6_flowlabel to seg6-sysctl.rst
-2e1534f395e73152e2051332034bff61a56a8368 vrf: fix a comment about loopback device
-a714e27ea8bdee2b238748029d31472d0a65b611 net: macb: fix the restore of cmp registers
-416dcc5ce9d2a810477171c62ffa061a98f87367 cavium/liquidio: Fix duplicate argument
-00423969d806d7169d16fa6314c570a472ca26c9 Revert "net: stmmac: re-init rx buffers when mac resume back"
-b305a140c0e955f3feafbc402a144f2d7efff653 checkpatch: Fix warnings when --no-tree is used
-ac8f02a1d5e603a10a059b397e5034e9201a450b checkpatch.pl: seed camelcase from the provided kernel tree root
-35c66508595868d2b087de69f988f513ead7fb63 ice: Fix a couple off by one bugs
-7bb84dcbbdb2a83c4bb3326d0fbef95e1c8b43c5 iavf: Fix asynchronous tasks during driver remove
-cd70f998752eeade04551b2fb339e89d285eb1fa i40e: Fix correct max_pkt_size on VF RX queue
-f6270e439ec47f4a0c3afa16866d931e655326ab iavf: Fix return of set the new channel count
-e2c08279f575f07dd7401edd04db599c444d28ab i40e: Fix NULL ptr dereference on VSI filter sync
-d9a713c3f9e85a2c8e01a9125f20cecd7cccd2b5 ice: Fix allowing VF to request more/less queues via virtchnl
-2414adf22e533b1a996656a067324a82b8483127 ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
-3c63a3377033b9a2d2a24c5eb4d0947f5eaa93cb ice: Fix VF true promiscuous mode
-dee74bca20ec4f933f6b6ddf56a7cd9997628b75 ice: handle the VF VSI rebuild failure
-e6e572c78c4979d4c4382e9de77c18c285784ead i40e: Fix error handling in i40e_vsi_open
-a4bea22bdbf5f1be87827dbf223788d07ad85bac i40e: Fix to not show opcode msg on unsuccessful VF MAC change
-70186dcc1f3021fd4ff8beec5f5c337dd055dac7 i40e: improve locking of mac_filter_hash
-11fa8285e9fe9784eafea0c84ec42c9b8502402e ixgbe: Fix NULL pointer dereference in ethtool loopback test
-e97ef779e72bab232e8d9c11376b17adba1fb848 i40e: Fix autoneg disabling for non-10GBaseT links
-ae9a2867eaeb386679aea1c8ee88e60547bd1cb0 ixgbe: fix unbalanced device enable/disable in suspend/resume
-f380f484dfb9297f006988865197b45e1388dd2e i40e: Fix use-after-free in i40e_client_subtask()
-dca218e424f0816d3b3063d346155ad4f6283268 i40e: fix the restart auto-negotiation after FEC modified
-fafd97bd40e5d1b5ac815308e12dae14cd74a13a i40e: Fix PHY type identifiers for 2.5G and 5G adapters
-434c4e4b9c0e52d84255da11f053a07ac02bc655 i40e: fix the panic when running bpf in xdpdrv mode
-82affc9aef4882d1ddaaa20ba16401c3d32647a1 ice: Re-organizes reqstd/avail {R,T}XQ check/code for efficiency+readability
+1d9bfacd52ece918b7861e205202912231ca6166 esp4: Simplify the calculation of variables
+f076835a8bf2aa6ea48f718e4506587c815ab99f esp6: remove a duplicative condition
+6ad2dd6c14d3989b44cdc17f1e7258bf613dd070 ipv6: fix clang Wformat warning
+1b0f14b6c218238de8e1e3ebb06a4efad58043b5 dpaa2-switch: create a central dpaa2_switch_acl_tbl structure
+2bf90ba5100efa2a06eeecda52fec72a2b024d50 dpaa2-switch: install default STP trap rule with the highest priority
+1110318d83e8011c4dfcb2f7dd343bcfb1623c5f dpaa2-switch: add tc flower hardware offload on ingress traffic
+4ba28c1a1aff053e6471151cffee860668ead786 dpaa2-switch: add tc matchall filter support
+166179542e805a793a0337010f95168cfa143a6f dpaa2-switch: reuse dpaa2_switch_acl_entry_add() for STP frames trap
+90a825a47c96e069c880b7dbf96a8cd20deeb99f Merge branch 'dpaa2-switch-tc-hw-offload'
+87b7e5c05c98c5f3947345d7fba68472e43cf611 net: Space: remove hp100 probe
+47222864c14bc10c7769378f7601e2a45bd52026 ixgbe: Support external GBE SerDes PHY BCM54616s
+7eceea90c5427c8a4deed38e67c1250c31df8363 net: intel: Remove unused function pointer typedef ixgbe_mc_addr_itr
+ce2cb12dccab57179fc97d2c89f872333ff369f0 net: ethernet: intel: Fix a typo in the file ixgbe_dcb_nl.c
+58581478a734b07eb27032299fcb36caa4f9988b net: phy: marvell-88x2222: check that link is operational
+473960a7b4434dbda6f628eb9e29e989f730343f net: phy: marvell-88x2222: move read_status after config_aneg
+d7029f55cc46066d833cbf7f532b1ae8d6835859 net: phy: marvell-88x2222: swap 1G/10G modes on autoneg
+945c6ff851d8cc41571a8bb5735fb40a925a7aa2 Merge branch 'marvell-88x2222-improvements'
+f4da56529da602010979e8497d1f02eaf5df8883 net: stmmac: Add support for external trigger timestamping
+1141bfef9c4700488619ef513772701635a6c80c Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+216f78ea8cf6fae5140aeb55657ebdab71a05502 r8169: add support for pause ethtool ops
+8c1186be3f1b02ec85db003506b1aa71d5dc5a1b Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
+73d7de66aa3c76d90092649766278296042ba836 atm: idt77252: remove unused function
+17c3df7078e3742bd9e907f3006a9e3469383007 skbuff: revert "skbuff: remove some unnecessary operation in skb_segment_list()"
+ace8d281aa71ef785d7b58e9c6b0fcc198103606 sfc: Remove duplicate argument
+652d3be21dc838f526c01837cbc837894f9c7bc1 net: enetc: fetch MAC address from device tree
 
---===============2190807513106971319==--
+--===============8427860042656940253==--
