@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 14 Apr 2021 16:13:40 -0000
-Message-Id: <161841682048.10135.16092432587527117220@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Wed, 14 Apr 2021 16:16:30 -0000
+Message-Id: <161841699027.12567.15417534753504205203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 50987beca096a7ed4f453a6da245fd6a2fadedeb
-    new: e70b911acc1687100c31e550251715dbdac96a12
+  - ref: refs/heads/xfs/shrink_ags
+    old: aac7edd2c571fa7ec5061ed0a979c08672357d6f
+    new: ef699e721cbd4ad226c5b07b934c5cddf9a83e4d
     log: |
-         909290786ea335366e21d7f1ed5812b90f2f0a92 vfio/pci: Add missing range check in vfio_pci_mmap
-         04c4f2ee3f68c9a4bf1653d15f1a9a435ae33f7a KVM: VMX: Don't use vcpu->run->internal.ndata as an array index
-         2558258d78873998b8cd81ce7661dc68541b8b51 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-         e70b911acc1687100c31e550251715dbdac96a12 Merge tag 'vfio-v5.12-rc8' of git://github.com/awilliam/linux-vfio
+         b3b309df2deb63093181366a760109d90851fdfd xfs: support deactivating AGs
+         a8dd4088b4f32b8620bdbe384f65aea8ce54da82 xfs: check ag is empty
+         e326657a6e96ed47cda85d75c431c7ecef673581 xfs: introduce max_agcount
+         ef699e721cbd4ad226c5b07b934c5cddf9a83e4d xfs: shrink empty AGs
          
