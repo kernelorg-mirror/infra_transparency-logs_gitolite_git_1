@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 14 Apr 2021 20:25:29 -0000
-Message-Id: <161843192915.3831.546000547536564807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Wed, 14 Apr 2021 20:44:50 -0000
+Message-Id: <161843309083.13261.588368227235980826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 8e2e0104ef78d49a51db9acfd24eaf6d52dc779e
-    new: 7f75285ca572eaabc028cf78c6ab5473d0d160be
+  - ref: refs/heads/pci/vpd
+    old: bb4c0992c232e935499a24dfb1a8a9adb7733d08
+    new: 3eacfbe797a7b738387bb8c6adb703322bb6a944
     log: |
-         8ca7cab82bda4eb0b8064befeeeaa38106cac637 dm verity fec: fix misaligned RS roots IO
-         7f75285ca572eaabc028cf78c6ab5473d0d160be Merge tag 'for-5.12/dm-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+         3eacfbe797a7b738387bb8c6adb703322bb6a944 PCI: Allow VPD access for QLogic ISP2722
          
