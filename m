@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1982208774406820622=="
+Content-Type: multipart/mixed; boundary="===============8788061692993928850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 14 Apr 2021 17:56:04 -0000
-Message-Id: <161842296444.9753.8070348943605696847@gitolite.kernel.org>
+Date: Wed, 14 Apr 2021 17:56:19 -0000
+Message-Id: <161842297980.9896.5335536522831201858@gitolite.kernel.org>
 
---===============1982208774406820622==
+--===============8788061692993928850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e49d033bddf5b565044e2abe4241353959bc9120
-    new: d434405aaab7d0ebc516b68a8fc4100922d7f5ef
-    log: revlist-e49d033bddf5-d434405aaab7.txt
+  - ref: refs/heads/driver-core-next
+    old: 4ce535ec0084f0d712317cb99d383cad3288e713
+    new: a00fcbc115f9c934fe92e96358a7f392bb5549f0
+    log: revlist-4ce535ec0084-a00fcbc115f9.txt
 
---===============1982208774406820622==
+--===============8788061692993928850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618422959 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618422973 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1618422958-ac5f721bfab32cdefe592bc229b5a3414978de3e
+nonce 1618422972-7a97ee10bdc9369f9bea892a2af9cec844d57a3b
 
-e49d033bddf5b565044e2abe4241353959bc9120 d434405aaab7d0ebc516b68a8fc4100922d7f5ef refs/heads/main
+4ce535ec0084f0d712317cb99d383cad3288e713 a00fcbc115f9c934fe92e96358a7f392bb5549f0 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB3LK8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9UYP/0r5HzjkRJqk9Z7pGkco
-FMx53hkYsFrKvEPUuJnfLnpJbGkx8piRZwzGqRoP9GE2+f7GW+9jjTz3hNsVYZBZ
-LK/lRHz0x7eNX7Wx83IicQyhTy0LrTM/uROCquF2WcHg6cO7Dl4yUUGgG7c2dl2w
-76IDFQetOueTQ0I40Fa5QhyD1DW5OQbwViq+hfrOYQVAeC5XnCc54cah+O4IqZXx
-PgtyvEUC1tXHfBIvJtDExUWuQsaz+XypJJ1qT1r4Pi/pFc73/lwfJJY9M766Wub8
-q9RzAa4eJp9p+qI28xtc9kSvfFUAbAYGDHCAScC+7hEk2xJxHSWmZ5ALLHlD2gwB
-Q1wkKALHajryecfa9nGcM3UQD/gmVK2H+qg8RplI84q/qTDqwX32sw4Tk+Pjy85+
-/cfoiw8yBJOb4zdV45h37NOvZFDPcIzT76Qf5CukpMBL30BPMecdnXD6d5h4KU1Z
-xcxNGiJnhoafxlO6aiAnrIkmYKdTp9yS0m83FqENx0F5Nb4P4xBkOEHR08UXp/i2
-tmvsKoZhDpE5fhb19k2+0en0qtsslMlT800GUlFlvEOakxjkjHJb0mmxprRKIhNP
-XOWoizrcW0Lsesn94312Ay4LoWi6yAnRKlltn0wIFxaN3hNEQteXQKUufKwwPCIi
-Mdsz6V173AqnnMWUS3eNduHp
-=z4Ig
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB3LL0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jrsP/RtbB15MVQPvLpB1Gy8j
+579EAQipGQHFJi1xUl3ETNtfQLWipTFdFVdf/2txc3cWda118L1ADWv+timOwCXb
+2zvBkmdUvS/XtVP5gAmLmZg/J/AHnGI2jAvqeKyqx3q6hXPFBvskZwm3+ykN6ie7
+v3Sj6uCTOtXTTOdL4FgSeWTYLqbe+S7uBDjipT1AAlKvldkGOXYobiBLWgoonEPj
+1tE0EQoUqDJo8EpuellZ0N1+Np2bw8mLLncZ01OzAzzaOjj3ioQWyFULGXXf4YwL
+VtyU4jQe7GqdGx7bEhROKQffsfER0tDf2qPVGePD4ah743Zz0VGFmvYCn1XRcXqa
+v7ev9GRrUc4KWdpdt4M9C687d+UEE3XqCQtrGLYFuE870uA/77raBHRg2K+9G3F8
+qQANzA486Lbtu6WpPZZ7yTd61iyBpWDdy0CWxaRc4XsqWR/45AzDvbZPDJfuIrxG
+VJk9rGVyChlcQy8c4FlbLXeb1JtrCUDj8CGqKYKNdUl/yss3+RPraecWvDo3zIEC
+AOst1C/2osoRUvDGv6juzAWoRz6H1x3gg8bt/K+X0lXMfHfCQT/mR47ZT3pfGzPS
+KPYWtESr50olIrkSdNtxtwDLy20keckdgooTwAe0kjfI3JX54XOUB/0nAE2+c1LY
+I69gqFpu05Yr1IL71pYVQBeO
+=2rNg
 -----END PGP SIGNATURE-----
 
---===============1982208774406820622==
+--===============8788061692993928850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e49d033bddf5-d434405aaab7.txt
+Content-Disposition: attachment; filename=revlist-4ce535ec0084-a00fcbc115f9.txt
 
 04052a318fb93491f1f3b4d282cb806f588e9326 net/ieee802154: remove unused macros to tame gcc
 443f0bb8e29fa031ec4d5beb3c3143350438dc97 Revert "ARM: dts: bcm2711: Add the BSC interrupt controller"
@@ -474,5 +474,6 @@ efc2da9241e643cb90897ac4ed3542daa3edf3bc Merge tag 'scsi-fixes' of git://git.ker
 add6b92660b3dca65465d3bd7710b4b1338f34f0 Merge tag 'locking-urgent-2021-04-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7d900724913cb293620a05c5a3134710db95d0d9 Merge tag 'for-5.12-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 d434405aaab7d0ebc516b68a8fc4100922d7f5ef Linux 5.12-rc7
+a00fcbc115f9c934fe92e96358a7f392bb5549f0 Merge tag 'v5.12-rc7' into driver-core-next
 
---===============1982208774406820622==--
+--===============8788061692993928850==--
