@@ -1,57 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5520606028716666859=="
+Content-Type: multipart/mixed; boundary="===============2178792647204471994=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 14 Apr 2021 08:21:41 -0000
-Message-Id: <161838850166.31701.149581033034506977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Wed, 14 Apr 2021 08:29:30 -0000
+Message-Id: <161838897091.2902.13793654210613262278@gitolite.kernel.org>
 
---===============5520606028716666859==
+--===============2178792647204471994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/staging-testing
-    old: 07ff20cf172f31f0dfbc456662f20339767c69fd
-    new: c3db59cfe16ad81d691904d9420fdefa34063b29
-    log: |
-         174250f8d965ac06823e8935917b26cee5bdeac5 staging: comedi: adv_pci_dio: remove whitespace
-         c3db59cfe16ad81d691904d9420fdefa34063b29 staging: rtl8188eu: Move channel_table away from rtw_mlme_ext.h
-         
+  - ref: refs/heads/i2c/for-next
+    old: bb90758e672076332279416ddbc18c226ee8dd3e
+    new: 42a65e6bcd40683edd1cfecd2a4369367276e417
+    log: revlist-bb90758e6720-42a65e6bcd40.txt
 
---===============5520606028716666859==
+--===============2178792647204471994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-bb90758e6720-42a65e6bcd40.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618388496 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1618388494-998ce511945eecc6faed9c85236229d79d4210b9
+23ceb8462dc6f4b4decdb5536a7e5fc477cdf0b6 i2c: cadence: fix reference leak when pm_runtime_get_sync fails
+223125e37af8a641ea4a09747a6a52172fc4b903 i2c: img-scb: fix reference leak when pm_runtime_get_sync fails
+278e5bbdb9a94fa063c0f9bcde2479d0b8042462 i2c: imx-lpi2c: fix reference leak when pm_runtime_get_sync fails
+47ff617217ca6a13194fcb35c6c3a0c57c080693 i2c: imx: fix reference leak when pm_runtime_get_sync fails
+780f629741257ed6c54bd3eb53b57f648eabf200 i2c: omap: fix reference leak when pm_runtime_get_sync fails
+3a4f326463117cee3adcb72999ca34a9aaafda93 i2c: sprd: fix reference leak when pm_runtime_get_sync fails
+2c662660ce2bd3b09dae21a9a9ac9395e1e6c00b i2c: stm32f7: fix reference leak when pm_runtime_get_sync fails
+a85c5c7a3aa8041777ff691400b4046e56149fd3 i2c: xiic: fix reference leak when pm_runtime_get_sync fails
+c4b1fcc310e655fa8414696c38a84d36c00684c8 i2c: imx: Fix PM reference leak in i2c_imx_reg_slave()
+5581c2c5d02bc63a0edb53e061c8e97cd490646e i2c: cadence: add IRQ check
+bb6129c32867baa7988f7fd2066cf18ed662d240 i2c: emev2: add IRQ check
+c5e5f7a8d931fb4beba245bdbc94734175fda9de i2c: jz4780: add IRQ check
+0d3bf53e897dce943b98d975bbde77156af6cd81 i2c: mlxbf: add IRQ check
+147178cf03a6dcb337e703d4dacd008683022a58 i2c: rcar: add IRQ check
+e5b2e3e742015dd2aa6bc7bcef2cb59b2de1221c i2c: sh7760: add IRQ check
+42a65e6bcd40683edd1cfecd2a4369367276e417 Merge branch 'i2c/for-5.13' into i2c/for-next
 
-07ff20cf172f31f0dfbc456662f20339767c69fd c3db59cfe16ad81d691904d9420fdefa34063b29 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB2phAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cTwP/jjFa+uegqgJdLkCw858
-5v1ulf0NKz9jlsnY8+QLCnrAj1joHfUR74H5AL/X2LZuzC7xvdpMLd6eUew/6mzj
-/uEozmM8mQaStm1npXx4ONma2cm7wxfYF1aW8Lib5NguF9kYPnm1ePCXxmDLKgte
-+fT9BTMgVT63ffeiASCfvvILFdKjQ2n20KEsny1UR09DBjWzFZRhiom/gKMpz/sF
-nRJ2n4svC2W+huSoSvlLVt+bKAgxSki/ycX65VKmhglvDZmALx3zC5IsggHaD7Pw
-J8lcN+75UVAqaMSqCAEIlGr9lFIWWVY9FwGqdMRqg2ULVDiRqWi49pi4lRRx9CSV
-ng9rWXMXVXWCTV9mLg8vuUGKTn5MYqmz4eVS5SFAnTXCqKUIk6y7FxjzIrM+l939
-vD/Qxe8xTWvsAg2XkRMTlJ/oxVR25gIKbKmpBKdKZw01XYMES9HWK/fXndGIfFvd
-OvaOxjhdg5+MzyiWDAHhlVymRT4R90SjDvKYPAu2HY17g0xWILz4AxUNWbaEMrLv
-kgfkD8UodUp6Q5+DspZwVFtka8NP64oFEa8iyHBHypk0lCCO61VS5JsPxtfGVFbu
-FUCS9SS/mvXk1/rJG8StgzHChPcnRKGr1WSfTIHhoVCfafjH2L7UpKK6UVoawV4x
-RYWXmpuYmPrCB/CH0A1jLJD1
-=Cy4E
------END PGP SIGNATURE-----
-
---===============5520606028716666859==--
+--===============2178792647204471994==--
