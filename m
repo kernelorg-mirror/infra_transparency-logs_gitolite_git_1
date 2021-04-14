@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4247461138110154366=="
+Content-Type: multipart/mixed; boundary="===============8190770898670343142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 14 Apr 2021 13:38:02 -0000
-Message-Id: <161840748237.5680.1834937359445894415@gitolite.kernel.org>
+Date: Wed, 14 Apr 2021 13:38:15 -0000
+Message-Id: <161840749570.5864.4481775448132905281@gitolite.kernel.org>
 
---===============4247461138110154366==
+--===============8190770898670343142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: 5e46932e6d1423ca07d65d2b2ca59e12aa19daae
     new: aec00aa04b1131e17e6744681b380779f89d77b3
     log: revlist-5e46932e6d14-aec00aa04b11.txt
 
---===============4247461138110154366==
+--===============8190770898670343142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -377,4 +377,4 @@ c429805fdf70cce1d4bd56f1099909acfb45ff12 doc: trusted-encrypted: updates with TE
 3d785d73b4c1014839d9f9af0ee526f8d5706a73 char: tpm: fix error return code in tpm_cr50_i2c_tis_recv()
 aec00aa04b1131e17e6744681b380779f89d77b3 KEYS: trusted: Fix missing null return from kzalloc call
 
---===============4247461138110154366==--
+--===============8190770898670343142==--
