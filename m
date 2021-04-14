@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 14 Apr 2021 16:13:37 -0000
-Message-Id: <161841681711.10061.4069787650517590173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 14 Apr 2021 16:13:40 -0000
+Message-Id: <161841682048.10135.16092432587527117220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 9cf45dd67e7339912e3e45c98937f67c8cda21d8
-    new: fdf70b5de6f3edfc8561d31a6b478592fae4177f
+  - ref: refs/heads/master
+    old: 50987beca096a7ed4f453a6da245fd6a2fadedeb
+    new: e70b911acc1687100c31e550251715dbdac96a12
     log: |
-         3d2c5f06a3c1deda15ef4e7747390a6345c65b15 hwmon: (intel-m10-bmc-hwmon) add sensor support of Intel D5005 card
-         fdf70b5de6f3edfc8561d31a6b478592fae4177f hwmon: Add driver for fsp-3y PSUs and PDUs
+         909290786ea335366e21d7f1ed5812b90f2f0a92 vfio/pci: Add missing range check in vfio_pci_mmap
+         04c4f2ee3f68c9a4bf1653d15f1a9a435ae33f7a KVM: VMX: Don't use vcpu->run->internal.ndata as an array index
+         2558258d78873998b8cd81ce7661dc68541b8b51 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+         e70b911acc1687100c31e550251715dbdac96a12 Merge tag 'vfio-v5.12-rc8' of git://github.com/awilliam/linux-vfio
          
