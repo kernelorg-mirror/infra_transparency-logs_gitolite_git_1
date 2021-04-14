@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 14 Apr 2021 01:24:23 -0000
-Message-Id: <161836346378.8230.54338120681991306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 14 Apr 2021 01:44:08 -0000
+Message-Id: <161836464841.19079.8784791448038644970@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: db16c1fe92d7ba7d39061faef897842baee2c887
-    new: 463c2149ede72b696c42b0d6c5a03c061600d04c
+  - ref: refs/heads/master
+    old: eebe426d32e1a10ac7c35f8ffab5f818c32a2454
+    new: 50987beca096a7ed4f453a6da245fd6a2fadedeb
     log: |
-         441e8c66b23e027c00ccebd70df9fd933918eefe bpf: Return target info when a tracing bpf_link is queried
-         463c2149ede72b696c42b0d6c5a03c061600d04c selftests/bpf: Add tests for target information in bpf_link info queries
+         8db403b9631331ef1d5e302cdf353c48849ca9d5 tracing/dynevent: Fix a memory leak in an error handling path
+         50987beca096a7ed4f453a6da245fd6a2fadedeb Merge tag 'trace-v5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
          
