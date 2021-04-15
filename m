@@ -1,64 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============2701689487298079041=="
+Content-Type: multipart/mixed; boundary="===============7098702722534132112=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 15 Apr 2021 18:24:22 -0000
-Message-Id: <161851106239.21030.729807279875423275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 15 Apr 2021 18:24:30 -0000
+Message-Id: <161851107070.21145.12458286187527786070@gitolite.kernel.org>
 
---===============2701689487298079041==
+--===============7098702722534132112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.12
-    old: 858066864a6383d1eecd2fa96a0b8e69935632f8
-    new: a523ef731ac6674dc07574f31bf44cc5bfa14e4d
+  - ref: refs/heads/for-5.12
+    old: 794aaf01444d4e765e2b067cba01cc69c1c68ed9
+    new: 8c4ffe4d023d7a3153c1d3d1084d98d17bf684b9
     log: |
-         a523ef731ac6674dc07574f31bf44cc5bfa14e4d ASoC: Intel: kbl_da7219_max98927: Fix kabylake_ssp_fixup function
+         8c4ffe4d023d7a3153c1d3d1084d98d17bf684b9 spi: pxa2xx: Add support for Intel Alder Lake PCH-M
          
-  - ref: refs/heads/asoc-5.13
-    old: 1ceb019e7830fb831dac10b0fe0688dea24687db
-    new: eea1d18e9b2d959df908746b193f66dba3078473
+  - ref: refs/heads/for-5.13
+    old: 089cde07977cccbc6a0729485a9bee04fb86c9ea
+    new: 58eaa7b2d07d3c25e1068b0bf42ca7e7464f4bca
     log: |
-         8cbea89e2fba2f92937cd15211490b62f14a46ff ASoC: simple-card: remove unused variable from simple_parse_of()
-         5bb5ac71e3f4f85500b96ea03e54bf6e2d8be3f2 ASoC: simple-card: use asoc_link_to_xxx() macro
-         2c33e20ffd68df097d61fad9b87dc6276354b139 ASoC: simple-card: use simple_props_to_xxx() macro
-         7ed5920995cea34d66e4af00c7f468cc933251cf ASoC: audio-graph: use asoc_link_to_xxx() macro
-         ae0727ab77419d550d6f68b698ce37ef2bf315df ASoC: audio-graph: use simple_props_to_xxx() macro
-         22ff9c4230bd09ade8971c05463b90ec1d513245 ASoC: codecs: wcd934x: Fix missing IRQF_ONESHOT as only threaded handler
-         620f7c08d9852e7972b9935e383904141e55f5bf Merge series "ASoC: simple-card/audio-graph: adjust to multi CPU/Codec" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
-         eea1d18e9b2d959df908746b193f66dba3078473 ASoC: SOF: use current DAI config during resume
+         609a2f9529d3d3e627776614b6cff34b21f64144 spi: s3c64xx: simplify getting of_device_id match data
+         7d712f799a938b37d24359ea836f58866be5e0bb spi: s3c64xx: correct kerneldoc of s3c64xx_spi_port_config
+         d6371415517700ae225dd1aaa8a35a86a659ada6 spi: s3c64xx: constify driver/match data
+         58eaa7b2d07d3c25e1068b0bf42ca7e7464f4bca spi: spi-zynqmp-gqspi: Fix runtime PM imbalance in zynqmp_qspi_probe
          
 
---===============2701689487298079041==
+--===============7098702722534132112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1618511039 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1618511059-b17907e236c01558b0a84b76630652e2dc8c6467
+pusher C3F436CA30F5D8EB 1618511048 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1618511067-afbdba58a08b19ea572d2ae433de366a686be588
 
-858066864a6383d1eecd2fa96a0b8e69935632f8 a523ef731ac6674dc07574f31bf44cc5bfa14e4d refs/heads/asoc-5.12
-1ceb019e7830fb831dac10b0fe0688dea24687db eea1d18e9b2d959df908746b193f66dba3078473 refs/heads/asoc-5.13
+794aaf01444d4e765e2b067cba01cc69c1c68ed9 8c4ffe4d023d7a3153c1d3d1084d98d17bf684b9 refs/heads/for-5.12
+089cde07977cccbc6a0729485a9bee04fb86c9ea 58eaa7b2d07d3c25e1068b0bf42ca7e7464f4bca refs/heads/for-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB4hL8ACgkQJNaLcl1U
-h9CqXgf9GkZ/L8jSBYfF+XWjV+BtFJHX7CxoatT1B2NOhZhQAtTgV/jQaromfIO/
-X36qymwvZEbCFSUmio/e8uZVyExYwJPbiny1tjKhhYDyJ1L2wH6SAcNFhkZOc6du
-/Bhrv66vUpA5XShoKugcFevPI6PCqz2WOLwBe4AozzhzAQZdsMZlu+0cgFidZ6uf
-nd1cVvgu3zanD4304+UuiHKqyFN5qkCx6RucNwLhmN1xvo45prwOpM1ePFdlWlA6
-U4bDtzUPQ+KUT1miX/pHs7OdSXhFEQM3OoFfGkbZ9BHkV/U9KdbgMTdyk9hqseWe
-6+EtLbwqoJ4NLopOz9fZleadnIUTAA==
-=g7UN
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB4hMgACgkQJNaLcl1U
+h9AlJQf+K7E+t+x04jhGvb7Oe6ks8o3eYg6Ze9qlsR9ZTXE0X8VNdfQETTW0EzXH
+gSRqqtx/6DMU4x4bYnvqoqjb/t03M6p2z1WneggaQnFb47ZpoZovH1Q9uf8qlt4w
+aafWDNJNHM9YPtHkjfxOr8Ue1DJBUiKhEn95j/cMhekCx1npoQx9QlKrV8S1Nn0r
+ELFrFvqJGFO9dAZcmVQ4oZXUwAcrklY7rwiYomoOe+8afA/kwaPduH3Q8IhdjP4G
+J58T60RkWxxJwtBPcuYZNZtSBG93lK+SVWYD1Z8bGVHQrLV17lW6lwTlM6tq4IHL
+NpaFXQeysL5Q/yIFVqTNOi+5rcKFZA==
+=wlb0
 -----END PGP SIGNATURE-----
 
---===============2701689487298079041==--
+--===============7098702722534132112==--
