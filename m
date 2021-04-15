@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1960622286414356104=="
+Content-Type: multipart/mixed; boundary="===============1498491506061520172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 15 Apr 2021 09:11:18 -0000
-Message-Id: <161847787898.30866.3843624146111828312@gitolite.kernel.org>
+Date: Thu, 15 Apr 2021 09:12:01 -0000
+Message-Id: <161847792198.31119.6528979710877614396@gitolite.kernel.org>
 
---===============1960622286414356104==
+--===============1498491506061520172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: e49d033bddf5b565044e2abe4241353959bc9120
-    new: d434405aaab7d0ebc516b68a8fc4100922d7f5ef
-    log: revlist-e49d033bddf5-d434405aaab7.txt
+  - ref: refs/heads/debugfs_remove_return_value
+    old: d81855117fe94efcd5de1fcb451a7413152d6b8f
+    new: 940ee39769474654d409e310fb43190221fa0b30
+    log: revlist-d81855117fe9-940ee3976947.txt
 
---===============1960622286414356104==
+--===============1498491506061520172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618477873 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618477916 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1618477873-639dda7d22b4f1a9c97b40bcf4a56141b7b71657
+nonce 1618477915-baf8fe7a61de703ff28cb5e6d2d6c614277ddc98
 
-e49d033bddf5b565044e2abe4241353959bc9120 d434405aaab7d0ebc516b68a8fc4100922d7f5ef refs/heads/debugfs_cleanup
+d81855117fe94efcd5de1fcb451a7413152d6b8f 940ee39769474654d409e310fb43190221fa0b30 refs/heads/debugfs_remove_return_value
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB4AzEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F0sP/jrzBFO5BllcHEfHldj5
-YJXXaWxy7grNmlSHyb8u5v+t8XEcljVxRXtbSIdv+yRkQvkK8rnBQzG6jeOuUJ6K
-ywVZonQN1YrGr2IKqrIyzysOvcJ69MXSnzJiSuODdYDbGW0IIWVeBHA0t5HJZg3l
-Insv/oP9W93WOGG/ie6hkY91lgk/YHjb3NNERzj0yZ1gjVzFo8mSfLBRkH9Q7z/t
-kluEmCrl4mV0LZdm5QpOIYCc/AkxZ4el39RtJ/xH9rqjMZDJ+/9jUJSjrFpy8UT6
-fGxwtziNFx8n8yxUkeCU8p2CJuN4nZ4kFWaYoPBVePttyhVvbcX3hkXIOd64rNGT
-sf6V+jyTUPRvS+jBjW8+Dnk22ohYFY6/hh8eoQ7JQChLfqKOxzRcXxkVt+HpJpy2
-tIc5VvknjsGbE/4xIV1WOV2yw+MxT80rrdLiP9L5TA0vwmQPMeU/d4ZyYgrRmA//
-PpFBsLJ5NiHfgT5gE0lEQKZN/wxCwSvc868EqLHLr5J+/MoThaB9DNPMk1QVQrJh
-LQXyGOiHWHsbwOAh0ElLGylviaEPPlunSCktnfGztx3udgHrgwaFALDBdDS6hoWk
-5A9xbwpQLP25lI/IXjASKWrvofL5VP9pt17KDNpgxNkbIubg/l0Q7T4LBMocFK9z
-r6thfBMEzNZJXkyWc/mZgSKN
-=wbNY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB4A1wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZqUP/A5Sy4dQg2FfW461/FbX
+gIUBfjdoN2mYFsJS/zkplcBn/mRLgYx6ac9t0lRw3K8hhTC3sAb7jkdGiI2yazo/
+CDtdOIWEJQawHmDRGaoUDrdE41ugGy0jX46l2yGj4mq+ejXmIpq2C7eHKBMDxDI0
+mIEOhML0Vnsv4MnJB4cQApLLT/wtb8DMUM8ZhPDtxazj8GuM9yTHG9feYxrPLhAB
+a921lmfErSVGnYzTKecbuiLnpZ6EbOHHG0DcH9fGyCyLM2MukcbOcHT32ZJIKgqP
+b4fPReZ6BBVMNVWrp5ie/JRM6f7+LxjosRdcLrnnS2p5SHC6M/WqI2L4eFhA6yiv
+Z3MDcZr3CGD+sK+W0ohjy0QAkkt4EF0iX0dJxiDCtJgU6kMxV6YxF0U3aRFJPPD4
+aj5FWyxpiX11PbtqNXf8SIqVzQhoOFev08j1vDozIrEj84KwGypayrRut5XW77pt
+mgO3mcly+h5GgXKR07FswsgnLAshK1khkiJTh8M04LRxCBir28IHAMLrwU2/moAi
+wTfEuuHIZdoHXT+KNkeHY2TJZwoZxjiuF4+SII5Jr570X0SPlsDK/oEtBL1H3EiM
+aPSCNrfwACnasTYvDC3SvCz0nuoSekDHB5E34DTlDAgJixJTWmkd2HYY4lyNYOvH
+OP5XORiYo01VVceJb7RWIFV0
+=i5E/
 -----END PGP SIGNATURE-----
 
---===============1960622286414356104==
+--===============1498491506061520172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e49d033bddf5-d434405aaab7.txt
+Content-Disposition: attachment; filename=revlist-d81855117fe9-940ee3976947.txt
 
 04052a318fb93491f1f3b4d282cb806f588e9326 net/ieee802154: remove unused macros to tame gcc
 443f0bb8e29fa031ec4d5beb3c3143350438dc97 Revert "ARM: dts: bcm2711: Add the BSC interrupt controller"
@@ -474,5 +474,29 @@ efc2da9241e643cb90897ac4ed3542daa3edf3bc Merge tag 'scsi-fixes' of git://git.ker
 add6b92660b3dca65465d3bd7710b4b1338f34f0 Merge tag 'locking-urgent-2021-04-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7d900724913cb293620a05c5a3134710db95d0d9 Merge tag 'for-5.12-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 d434405aaab7d0ebc516b68a8fc4100922d7f5ef Linux 5.12-rc7
+ae8b607a633773f530d08d97b4e808933567b7f2 scsi: snic: debugfs: remove local storage of debugfs files
+70cf11d10408a104ec7635fb499aacc53d87bc77 drm/i915/gvt: remove local storage of debugfs file
+9b40f077bb91e7a61e89b24c43e7b5a68f498ab0 debugfs: remove return value of debugfs_create_ulong()
+2bb80aa054e0082162ffa9aead59c0f9367226ab USB: core: no need to save usb_devices_root
+b4833e255ef391928a7e6052a276df8c090b3ad7 USB: gadget: lpc32xx_udc: remove debugfs dentry variable
+8aee05d01744039476cd270506720faeef7f8e52 USB: gadget: pxa25x_udc: remove dentry storage for debugfs file
+a7d50157196d61b79f144c47b13d79b21c6b61eb USB: gadget: s3c2410_udc: remove dentry storage for debugfs file
+35c2b4f1dbc1ed178b807208cd6d408f20c14756 driver core: component: remove dentry pointer in "struct master"
+960f8dc79fe85344de5ac6c261d21895f71da214 driver core: dd: remove deferred_devices variable
+20054101f529766b0c96dec2d589630aaf12c06d USB: host: isp116x: remove dentry pointer for debugfs
+7237d4b5fa46b05d2ec492b8c47b4e71df3abcde USB: host: isp1362: remove dentry pointer for debugfs
+80e92d41da819f6ff94a6ada69cf8d37c9b742eb USB: host: sl811: remove dentry pointer for debugfs
+50d7841d09421f8c598b388477adc4ddf4d3d911 USB: host: uhci: remove dentry pointer for debugfs
+fa7e7c315efcd15a9beafc165c6157a715b6167c USB: typec: fusb302: create debugfs subdir for the driver
+c8077fec3d4abc7d4af08fdd3ffdf08b1edf754b USB: typec: tcpm: create debugfs subdir for the driver
+4466e24960e814333fabd311930326dcbc146e3e tty: serial: pch_uart.c: remove debugfs dentry pointer
+6ce72f5455a962f50ed2bc82a156a3f74b816c7e virtio_console: remove pointless check for debugfs_create_dir()
+4904f64cf17da3078d92d8759299a0400dbb69b8 drivers: vmw_balloon: remove dentry pointer for debugfs
+3cdaad1ae744be183b120efd0d96822d6773c2f2 time: test_udelay:  remove dentry pointer for debugfs
+e2e4dc945251d55c174fd5e64e23b767158d086d wireless: b43: don't save dentries for debugfs
+b19896c3649adee5685fdfe113db580d3eb02c46 wireless: b43legacy: don't save dentries for debugfs
+43bdcfd13833670ea78e88408b53880a893bdd06 debugfs: remove return value of debugfs_create_bool()
+9eaa6cd622ca8f86d4fa2701e80de344d420c0ed x86/tools/relocs: add __printf attribute to die()
+940ee39769474654d409e310fb43190221fa0b30 serial: pch_uart: fix build error with !CONFIG_DEBUG_FS
 
---===============1960622286414356104==--
+--===============1498491506061520172==--
