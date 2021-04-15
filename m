@@ -1,73 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0180879955335918556=="
+Content-Type: multipart/mixed; boundary="===============7450843736845819807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 15 Apr 2021 06:56:03 -0000
-Message-Id: <161846976303.29199.8647389339606756028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 15 Apr 2021 06:56:55 -0000
+Message-Id: <161846981581.29488.11774371464391477753@gitolite.kernel.org>
 
---===============0180879955335918556==
+--===============7450843736845819807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 401411bbc4e62bcbcc020c2c458ecb90843140a8
-    new: 4b853c236c7b5161a2e444bd8b3c76fe5aa5ddcb
-    log: revlist-401411bbc4e6-4b853c236c7b.txt
+  - ref: refs/heads/driver-core-testing
+    old: a00fcbc115f9c934fe92e96358a7f392bb5549f0
+    new: 586c402882069fe835cb9874a72316eaa2923c6f
+    log: |
+         586c402882069fe835cb9874a72316eaa2923c6f kunit: software node: adhear to KUNIT formatting standard
+         
 
---===============0180879955335918556==
+--===============7450843736845819807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618469758 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1618469757-5a22e41d001e3a6d355533d05dc1f7eccd0a8d2b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618469810 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1618469810-f50cb4732bee51fc8efe304aed4a0f20c6d2c26f
 
-401411bbc4e62bcbcc020c2c458ecb90843140a8 4b853c236c7b5161a2e444bd8b3c76fe5aa5ddcb refs/heads/usb-next
+a00fcbc115f9c934fe92e96358a7f392bb5549f0 586c402882069fe835cb9874a72316eaa2923c6f refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB3434bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G3gQALx6fuU6oh1+j/yAB2go
-7/duZQsvReBuzB7twLAnByScOOEnf1VgLpnL5pz72tlU2MWKBIrb9If0m9f9wrah
-+JG3zxAZVRn06rY1X7Nzf/VI/2KWC3VRy3NcEHHvTYzuSDAqjNjTnCtp+a/xGtLl
-+mbhgV51H1ItxFWxYE63TKrxugz3O/i4jlT1fD8l7xKP/f/x+6web4ohbeWStkg3
-cMrET4VT75WAA7uQk2UitSs6D+X8EH9awMs6YhT5/tlCXSZK6tlNSAYugJEzZUsY
-tNhitxBSbE9yVAfbkI3tXYxkEHc9uf1TXp/F0DXYqSQaobvi8HMtMogzsRqgWy2G
-Fc0vtlgZIdvNXu5cNoC5uLjWOAhUavsCCdhm+0HnO1U5Q+VyGZ+KtKKn1CD/X+5e
-EDfLhBYfvt8yZKWI+RybaDULq1BHBxhh/9mkOaJm7oqNFNocBNJSo9kDOSfKgBw8
-zdvc06nuW/grFSkSLwsHfh6XgzXw0xVx+ICSLVA/Si9jzYNe8X+R5m8BkFlKTVxc
-XXOh1Yz9s8QOqH+/uBksV4wrdILPtzkR7F1oO6J9v0+jEoRVvvwK4ZmU40IGCs3S
-Ke9ScUodXwQS61kl4KCfRdLucE/K+23UF84+O6CPfLXMu4VWiaVRkVNHB1bFRuZu
-CJBQ/hFO9eK8VAewQeEBLC/A
-=r+R+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB347IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QDwP/iVWn301EnOkynjMOa7m
+qulY4Q0j7ctuRpJP66qePrA2yPaCohDvK1SlVmgjqJRLC7NkUfRL+SH43ZfkCNum
+iQyrGsV+JrFJbjKq6AcY7sX3HGYBt2sMPvGJcJWWgLtkNUW9x8XUbRa49RM7s5Au
+64AOLI2+WQucyqYeiHz5NAn6HIbdraUoqD8pFrv8NcS45lW3ACecm/D/KQUQufG8
+T+Tc55y/LDa6nBIGH2zyGrtj1UYJ3k5rC7VZLZ4zypsFqK+9qwREzJ9M/rDXoe20
+ZHM/oTycPgkE54Z2dVLH5ShVm5C//DsHX0gHChFPBpJVv+YYxDjFXZmwdcCdJcv0
+FXr6+b7ZIljkjox3ZsKdLSEwvMtY/DPPRbbgkAgNY+XYympeNFQzOJVRHw3bxLE2
+M6Xyg2rVmT5P7Q2mDPvroZsM1SGyx8w5Vr9O8X7NmlKWqfrvh5TCxVYcIDukMVnr
+AEqL5g69cyA0TzG7fmV+J5rtvw0y9TqG+Z2f147iMUs9kseGkOshvbuZEFe2RMms
+xUILTKj1guge0XUrGRqQcdHDIiBOlr4C/eDT3h2vO4dp2ouwMHaPUZ1DtFJEtAOf
+1U0jFR7IYkTRaYB5fceWy1N/ImTbKG8Pk5p6hsMAG0wQNvPa2wvyvQrJcDA/wJS/
+0OovpCA7reJlYvv5gvNJKJTK
+=41Bk
 -----END PGP SIGNATURE-----
 
---===============0180879955335918556==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-401411bbc4e6-4b853c236c7b.txt
-
-434438d8f9d3f2bc8f404b937f87a70da3fbc7fb usb: typec: silence a static checker warning
-8f23fe35ff1e5491b4d279323a8209a31f03ae65 USB: Add LPM quirk for Lenovo ThinkPad USB-C Dock Gen2 Ethernet
-e66bbfb0fbbe53ce0144b6715fa0c4c27e3784ae usb: dwc3: gadget: Ignore Packet Pending bit
-568262bf5492a9bb2fcc4c204b8d38fd6be64e28 usb: dwc3: core: Add shutdown callback for dwc3
-475e8be53d0496f9bc6159f4abb3ff5f9b90e8de usb: dwc3: gadget: Check for disabled LPM quirk
-123086843372bc93d26f52edfb71dbf951cd2f17 usb: typec: tcpm: Honour pSnkStdby requirement during negotiation
-1373fefc6243cc96b3565f0ffffadfac4ccfb977 usb: typec: tcpm: Allow slow charging loops to comply to pSnkStby
-82dad9fb68fbcce4986503ae446e409ba2aad699 usb: xhci-mtk: check return value in suspend/resume hooks
-fe8e488058c47e9a8a2c85321f7198a0a17b0131 dt-bindings: usb: mtk-xhci: add wakeup interrupt
-04284eb74e0c350be5e75eda178b97063343af13 usb: xhci-mtk: add support runtime PM
-7fed6368ebd9de2025e4faf97b82c5f1e1d9097d usb: xhci-mtk: use clock bulk to get clocks
-4b853c236c7b5161a2e444bd8b3c76fe5aa5ddcb usb: xhci-mtk: remove unused members
-
---===============0180879955335918556==--
+--===============7450843736845819807==--
