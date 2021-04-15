@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4121399087212350187=="
+Content-Type: multipart/mixed; boundary="===============1749752926004577993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 15 Apr 2021 09:12:44 -0000
-Message-Id: <161847796489.31426.17030547930619775842@gitolite.kernel.org>
+Date: Thu, 15 Apr 2021 09:13:00 -0000
+Message-Id: <161847798043.31601.13728150629789897987@gitolite.kernel.org>
 
---===============4121399087212350187==
+--===============1749752926004577993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kbuild
-    old: 495abc42c6389715b058a9abd534c966cb6b1f41
-    new: 8e3809e7ff0a623e5cbb7130cd0fdc3507b76442
-    log: revlist-495abc42c638-8e3809e7ff0a.txt
+  - ref: refs/heads/readfile
+    old: 988a63edfccc64b73f380e60a3769a8775ae050e
+    new: 754793e73d5a800eb8bed0dc2068e26529615d07
+    log: revlist-988a63edfccc-754793e73d5a.txt
 
---===============4121399087212350187==
+--===============1749752926004577993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618477959 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618477974 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1618477958-5753dd31d02f2f9ec9da0f79214b038261a6f05f
+nonce 1618477974-436a43bc038d0d04514faf7451e4ee9f12bb5184
 
-495abc42c6389715b058a9abd534c966cb6b1f41 8e3809e7ff0a623e5cbb7130cd0fdc3507b76442 refs/heads/kbuild
+988a63edfccc64b73f380e60a3769a8775ae050e 754793e73d5a800eb8bed0dc2068e26529615d07 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB4A4cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MogQAMGkmqzp4bRB2vLnBTc/
-j7okT+vD0fd0hhPJKw3bUW2+71z/B9k1+yH+J+dUy0uY7haOQpVoaeCApYWSUnWF
-C39yAMsLZBaknZh4796uqUqhhiyploKqWk7OFdsvCVbuxjB+xuir9vO+Ds6WGI7Q
-6fTPDJnyJbZXuOUXnsA4qqyshLnYQXN5NuPMDo2SaABPrS0egtc4WreVAcyCi4dc
-Sp8QArfMU9wFl1/w/Jn63dWPJImSn4Pr1MjtJBSUtZ4Nq6xSFxvZpLDuPVL1vTTN
-RbwJ9dz+YMsE2BcWj3FFzwJVtmC7dLcTEJLILixwR6N7yczblbldi8hjQ2yzu/AH
-7X2CAWTjLblgJ5DqHNqHB/BCZkLZs0DKXHWq75Rq08Bj9iqTdNNLV7+AzXey4uDn
-EjJcECdKG9DH/WPJR8BGEd6SxUWhglpSLu6lnoasSmMVpxFkUCNcOdlbaBzek4uW
-P/KpZwsE44qmkpRivoJ3HBSud8ZuLGJLTT04/sh8BmAXfwkKEwKLbyRvl6337QZ4
-h9vrrSd8iWqwlBx/55ulef0YhrwLYfDHFh8QofTubt4iBGnnw8CzhxEq5PKOktxx
-/Ck/QJw2buDuxOZbgvJFYV/EEiEzZAnIty7zlxbFMnq2q39lKL0UON+9gIiJK4IX
-9OtYH3aw2Eug00r5UMVKOQWa
-=EkZb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB4A5YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+brYP/RuChPfQ/ztj8sEqR+Gy
+pdrppVS7Pu4wLq6x4JyQ9eDTjxw5TZrccViQy/AiD1ODS5U71a3t4Kvkx/j3gKNF
+R5IayNPbksIRPzU4C7eLzuaZ8O1pB6HnSP1JRjJkIFGq9QhhVRQ3+Y/SdyL9JpM6
+3u/91CQDKVxr3xWCCH2lEeftI8ThCTMMFX9ZWPrKun8111ZOywKUFsmIvV1q2KBV
+gZ+0jtAFO8cgTX84j0fXWnLL34o1+6oqaEgzqmg2/Pe0AHMyJrTNHtharB/Lwk2r
+vWaMlGF///vsLyYSKUa8AONeSVLDi+K1lZe2MTTuFX1VtFuUxwOSPXG3RGy9Jjnu
+hsGjohUwe3kXX6BzaAdDx5P1V1NBac1dESqjtQ5j+S5hYAH/0ag+NxAIMGu0Nep/
+IJSGvVgdt55I3jgxkLzIjAnlTSUAcsdwc/X4/jbznDpTgyAz27qs3ne4y7wMgE1p
+QcB5A6RmdiW4gAa3ucqcpF6qeni/OABioZ8C3YnHRHIS4YfChCmgZtjN7bU8Jlcc
+JAczdrW9OTpBJBB3jpv4pl0dtOhGjXwj+q3AWrszu5RT9OxLxaeY+rsXlPGiDd9B
+cBOawl6hP+uiy/v4qqyCUwNe46n0WMz4mtXBWm1lRchC7SWumWYojwH/7HIjey2S
+eEC+OYy2quYo4/ApVvvF1kuC
+=ZhjB
 -----END PGP SIGNATURE-----
 
---===============4121399087212350187==
+--===============1749752926004577993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-495abc42c638-8e3809e7ff0a.txt
+Content-Disposition: attachment; filename=revlist-988a63edfccc-754793e73d5a.txt
 
 04052a318fb93491f1f3b4d282cb806f588e9326 net/ieee802154: remove unused macros to tame gcc
 443f0bb8e29fa031ec4d5beb3c3143350438dc97 Revert "ARM: dts: bcm2711: Add the BSC interrupt controller"
@@ -474,26 +474,9 @@ efc2da9241e643cb90897ac4ed3542daa3edf3bc Merge tag 'scsi-fixes' of git://git.ker
 add6b92660b3dca65465d3bd7710b4b1338f34f0 Merge tag 'locking-urgent-2021-04-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7d900724913cb293620a05c5a3134710db95d0d9 Merge tag 'for-5.12-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 d434405aaab7d0ebc516b68a8fc4100922d7f5ef Linux 5.12-rc7
-63d33acb101dc6628ae03054a60300cafa5bb2d1 kbuild: move x86 install script to scripts/install.sh
-4c0b2e7e1184fc7110227e03e45c73d40a864974 kbuild: scripts/install.sh: properly quote all variables
-8f9932649573514be7705cabc72fec777df60db6 kbuild: scripts/install.sh: provide a "install" function
-1b6f4a5b89b8a36b5b1fe9b7384094dc5a77a91e kbuild: scripts/install.sh: call sync before calling the bootloader installer
-97d6e76f771a250618387b86b4d8c7725e4f157d kbuild: scripts/install.sh: prepare for arch-specific bootloaders
-816b2de0acd0982245f55d2e9fb2be1c13d226c0 kbuild: scripts/install.sh: handle compressed/uncompressed kernel images
-ed46cab7a5629365eb1f147dd67547b4b8e5a70c kbuild: scripts/install.sh: allow for the version number
-7ab4b1dd2fb877eb90bbe0a4d0c17ff6ba582829 kbuild: riscv: use common install script
-02e8ab1730d7bcee241c9ff16506d59194355737 kbuild: arm64: use common install script
-c6000f0e2a0e2e100ccdf98a3a11c6f7b7994b00 kbuild: arm: use common install script
-718f33e0cbf479df88e0f1a9adceec6dac75980e kbuild: ia64: use common install script
-6c49fc86f56f8353939e54fb3163b6f7160158d8 kbuild: m68k: use common install script
-34cae372136eebfee45733cc0b8ab3219457fd47 kbuild: nds32: convert to use the common install scripts
-0b2f252efa907014518183d18d34cf83dbf8aa0d kbuild: nios2: use common install script
-fb9c63b99f23b28caf6d44c39092c9fca6df96f8 kbuild: parisc: use common install script
-fd5b8e62e7c6b1560cfeb568b02dd6ebf8a9519c kbuild: powerpc: use common install script
-231ddc4a75b24ace719440e8486ce99711705396 kbuild: s390: use common install script
-8e552f73c8a6e7521b6d2b91969f824690a9368d kbuild: sh: remove unused install script
-0c86a7e77a745ba27e3f6afee00c2f1a42952c20 kbuild: sparc: use common install script
-fd92fb828ea0948e2466bbd03817c14f601b50e0 kbuild: scripts/install.sh: update documentation
-8e3809e7ff0a623e5cbb7130cd0fdc3507b76442 kbuild: allow arches to have their own "bootloader.sh"
+a90de8a2339dba3246500dc32ee55bba9d4c8e90 readfile: implement readfile syscall
+b0d9f329643292e27477259b6f5ad00982f54a99 arch: wire up the readfile syscall
+c1f4f151ba390c3d8df678a036079fe1295dc25a selftests: add readfile(2) selftests
+754793e73d5a800eb8bed0dc2068e26529615d07 readfile.2: new page describing readfile(2)
 
---===============4121399087212350187==--
+--===============1749752926004577993==--
