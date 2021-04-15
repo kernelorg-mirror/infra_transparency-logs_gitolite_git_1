@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 15 Apr 2021 15:59:05 -0000
-Message-Id: <161850234548.28970.11055719189321505306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 15 Apr 2021 16:04:39 -0000
+Message-Id: <161850267962.32030.6160410717549638059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: a5b1c231c4a84cae19849db076b8a56ffbc8a079
-    new: 82f100a3bced76c3a8a11f4c0e4e8104b95e3993
+  - ref: refs/heads/kvm-arm64/nvhe-panic-info
+    old: 882ff4062169d5914ad7ed88c9138a90e485c05e
+    new: d3debfcc4e3f65f1370ad4ca2ab61e7f0ff683cd
     log: |
-         4da6d76fb43994e558ceb82619a776e300a35e08 PM: wakeup: use dev_set_name() directly
-         82f100a3bced76c3a8a11f4c0e4e8104b95e3993 Merge branch 'pm-sleep' into bleeding-edge
+         d3debfcc4e3f65f1370ad4ca2ab61e7f0ff683cd bug: Provide dummy version of bug_get_file_line() when !GENERIC_BUG
          
