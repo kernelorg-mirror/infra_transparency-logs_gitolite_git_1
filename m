@@ -1,51 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============3481334152733918492=="
+Content-Type: multipart/mixed; boundary="===============6490734788918949142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 15 Apr 2021 18:14:09 -0000
-Message-Id: <161851044944.13924.10032847369941685416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 15 Apr 2021 18:24:14 -0000
+Message-Id: <161851105483.20895.17489198798147040219@gitolite.kernel.org>
 
---===============3481334152733918492==
+--===============6490734788918949142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 7f75285ca572eaabc028cf78c6ab5473d0d160be
-    new: 7e25f40eab52c57ff6772d27d2aef3640a3237d7
-    log: revlist-7f75285ca572-7e25f40eab52.txt
+  - ref: refs/heads/for-5.12
+    old: 858066864a6383d1eecd2fa96a0b8e69935632f8
+    new: a523ef731ac6674dc07574f31bf44cc5bfa14e4d
+    log: |
+         a523ef731ac6674dc07574f31bf44cc5bfa14e4d ASoC: Intel: kbl_da7219_max98927: Fix kabylake_ssp_fixup function
+         
+  - ref: refs/heads/for-5.13
+    old: 1ceb019e7830fb831dac10b0fe0688dea24687db
+    new: eea1d18e9b2d959df908746b193f66dba3078473
+    log: |
+         8cbea89e2fba2f92937cd15211490b62f14a46ff ASoC: simple-card: remove unused variable from simple_parse_of()
+         5bb5ac71e3f4f85500b96ea03e54bf6e2d8be3f2 ASoC: simple-card: use asoc_link_to_xxx() macro
+         2c33e20ffd68df097d61fad9b87dc6276354b139 ASoC: simple-card: use simple_props_to_xxx() macro
+         7ed5920995cea34d66e4af00c7f468cc933251cf ASoC: audio-graph: use asoc_link_to_xxx() macro
+         ae0727ab77419d550d6f68b698ce37ef2bf315df ASoC: audio-graph: use simple_props_to_xxx() macro
+         22ff9c4230bd09ade8971c05463b90ec1d513245 ASoC: codecs: wcd934x: Fix missing IRQF_ONESHOT as only threaded handler
+         620f7c08d9852e7972b9935e383904141e55f5bf Merge series "ASoC: simple-card/audio-graph: adjust to multi CPU/Codec" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
+         eea1d18e9b2d959df908746b193f66dba3078473 ASoC: SOF: use current DAI config during resume
+         
 
---===============3481334152733918492==
+--===============6490734788918949142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f75285ca572-7e25f40eab52.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-30b3f68715595dee7fe4d9bd91a2252c3becdf0a Input: s6sy761 - fix coordinate read bit shift
-36b87cf302a4f13f8b4344bcf98f67405a145e2f HID: google: add don USB id
-9a0b44fbfea1932196a4879b44a37dd182e984c5 HID: asus: Add support for 2021 ASUS N-Key keyboard
-fa8ba6e5dc0e78e409e503ddcfceef5dd96527f4 HID: alps: fix error return code in alps_input_configured()
-2a2b09c867fdac63f430a45051e7bd0c46edc381 HID cp2112: fix support for multiple gpiochips
-e29c62ffb008829dc8bcc0a2ec438adc25a8255e HID: wacom: Assign boolean values to a bool variable
-a9e54f4b62dcfed4432a5a89b1cd5903737f6e83 AMD_SFH: Removed unused activecontrolstatus member from the amd_mp2_dev struct
-952f7d10c6b1685c6700fb24cf4ecbcf26ede77e AMD_SFH: Add sensor_mask module parameter
-25615e454a0ec198254f17d2ed79b607cb755d0e AMD_SFH: Add DMI quirk table for BIOS-es which don't set the activestatus bits
-2d8aaa1720c6128ce263a2afcd3f8ee2e5551af8 Input: n64joy - fix return value check in n64joy_probe()
-276559d8d02c2709281578976ca2f53bc62063d4 HID: wacom: set EV_KEY and EV_ABS only for non-HID_GENERIC type of devices
-daa58c8eec0a65ac8e2e77ff3ea8a233d8eec954 Input: i8042 - fix Pegatron C15B ID entry
-69d5ff3e9e51e23d5d81bf48480aa5671be67a71 Input: nspire-keypad - enable interrupts only when opened
-781bab3238c21c8cc6d1999a6ee43de76252fdfd Input: elants_i2c - fix division by zero if firmware reports zero phys size
-56cfe6f820a6315291eb5a1b82bb49633b993d3b Input: elants_i2c - drop zero-checking of ABS_MT_TOUCH_MAJOR resolution
-23cf00ddd2e1aacf1873e43f5e0c519c120daf7a gpio: sysfs: Obey valid_mask
-6998a8800d73116187aad542391ce3b2dd0f9e30 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-1df01322f00a0aedd4a589597ce9c0b680ae6068 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-e7e3a53b30d6e6f54eef81400ddfe8b32224b77f Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-33f0d9d94a0ef0814d23320c2536c4135d230114 Merge tag 'gpio-fixes-for-v5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-7e25f40eab52c57ff6772d27d2aef3640a3237d7 Merge tag 'acpi-5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1618511032 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1618511052-9906dbf837568d1a75510464e2f04a28c4e9c80b
 
---===============3481334152733918492==--
+858066864a6383d1eecd2fa96a0b8e69935632f8 a523ef731ac6674dc07574f31bf44cc5bfa14e4d refs/heads/for-5.12
+1ceb019e7830fb831dac10b0fe0688dea24687db eea1d18e9b2d959df908746b193f66dba3078473 refs/heads/for-5.13
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB4hLgACgkQJNaLcl1U
+h9DMlwf5Ab5Cbcw5ppqYlgkxmOQapCDuqCTDhbDTXNXzCUsejX0lOx96E0xo8mi9
+9+O/Y/4wtIgHLJ9dB6OJNIpsQARvPvIexGBplzHUKXPdjvJMzEFFUKe+tp+a6WWY
+an7JGLguNwEGy9WeRLYstK3EuQqZ95qaIMcZ63xjDl8IRDPnPZfQMsqRQHKrEG1O
+ypNN7jSo+qq8UoLVwOKPuDc4g0ekr1IchWOaep/xHQA8UB0RxwNkRA9UoNV00hZ3
+lb1icZIHYh+mveOvzaFFIhgUTHvdN1aLZogXWuRb/EwckC/BhLX+H2aP7zGqht7v
+q2sRwXUOagXGKr9Q5ZGHpu9qUKL++Q==
+=/NJE
+-----END PGP SIGNATURE-----
+
+--===============6490734788918949142==--
