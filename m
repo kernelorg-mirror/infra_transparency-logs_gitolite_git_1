@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6113497621046818699=="
+Content-Type: multipart/mixed; boundary="===============7387837747659645550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 15 Apr 2021 07:20:11 -0000
-Message-Id: <161847121102.11901.4267495920711219930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 15 Apr 2021 07:27:00 -0000
+Message-Id: <161847162057.15281.15025878415835340436@gitolite.kernel.org>
 
---===============6113497621046818699==
+--===============7387837747659645550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 215ec9e76edf3d1d1534b02f227ac166970216ed
-    new: 1212e8b67b64312d5d3d915225ac42d5fc0c320c
+  - ref: refs/heads/staging-testing
+    old: 467d98420936009a10ce7f95985dece7150acd36
+    new: 8ffdff6a8cfbdc174a3a390b6f825a277b5bb895
     log: |
-         48a77150ef55695bd8999aaa4877e88d56b00fd8 greybus: es2: fix kernel-doc warnings
-         1212e8b67b64312d5d3d915225ac42d5fc0c320c habanalabs/gaudi: Fix uninitialized return code rc when read size is zero
+         027ffa10b80be722c284067f7eee431ced1db208 staging: rtl8723bs: remove sdio_drv_priv structure
+         8ffdff6a8cfbdc174a3a390b6f825a277b5bb895 staging: comedi: move out of staging directory
          
 
---===============6113497621046818699==
+--===============7387837747659645550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618471205 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1618471205-f1216cc7feccfa962c7fac3bee7c42e14a8516fe
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618471613 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1618471611-cae4a5cc644b9dd43b4dc1715cc8c5b601fe6d20
 
-215ec9e76edf3d1d1534b02f227ac166970216ed 1212e8b67b64312d5d3d915225ac42d5fc0c320c refs/heads/char-misc-testing
+467d98420936009a10ce7f95985dece7150acd36 8ffdff6a8cfbdc174a3a390b6f825a277b5bb895 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB36SUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7R0P/2xrkATlvTfE04agXUSB
-OSt4BH5UhJTPgWpbnC95Ye87gOK4EsC/ks43G2M5MGwJcVmARyeb/xHi5f1+YGeD
-VPNa0jipLXufkc869TvIN07E9D7RLqmKphxR7Uk1ITtJrFrmPj2fMgaNpjlfx0xG
-RmScoKzvN1hywo+xv87CBFEzaBhF74shBeeQP55nK9FFV3miYBjK9tX5W1SEtVwX
-S//53V6u5p/0nCn/sXOGMBUMUxqY9zbcd4EOr1a7POwKyEAtRV/rBNpaMQ/hOIzY
-pBLcfV3Xp7IJG/n+BK2sulQqhWYh/12GlqPLYQgvD8Q9ZTqqDbOve4xuaZjx0V8j
-1YppMtmMeGHZHfYNapOqc1zzFZ3qAfW0ou97JxXzfSZDl6xmWx6GDAGY/YLD39k5
-duntfEO2WIHgVqDLap83/K5ZgDlszjdP+FqCMORa3uDj1iv6+rmsD7Wy+bWcNqto
-VRv+ablytX0DuooFmpQw3IdoHd+hCLfDBp+Q5TAe5UzNrxG2kg2uN9WxFWwymcl8
-OScgVieLDy0hgGZgkjOyafdCzbvT2NjBT6SMDcOtV2199LMEO4XvHiwb/alG5jLb
-PFwHG0E8gVtfDmUQbSarcc+WyoZMtScsxRpnu01GnnMguLyOXRtqOEeL0EblwF01
-F79y20BvhsoC0fknnyJmCSgs
-=wi5s
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB36r0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nS8P/3zjRhEWIXRHlXXEIo0V
+/6e0Udll1j3Hzp0ZjE+/KFbncsq28Jz1aRUH81ZzOJDrZNAo1ABNEfwNiGuNPVUx
++CtPt8qgRO7PjaG4+SEzjn2i6ebTibWpMzXsnVyc8aIOmITHiUq6LbsCjBoFzkhc
+7wdPs3GMKLJvDKZ+D5Axx0ODwsu4JaZfHaKz0gFoD0mPsuoa37UjeQAryHI5YgT5
+8bsLjnpsmn3JT4XU4vlQfvl3BdMWr2o9ieWNgHYBpZLsIFCT1PhInEwlyHvHWJt9
+qvw6hNWHZLUMGKA9TD7Y0LGssp+jry1U/9UTufx8ZW+Y09Nw9pSUn40v/Z7NMuvv
++Ycv9GgKVaqAsj49g4tqiLX7aAFOu+JHy7kj7/mdYVRbhkrlwDriHaaPx1Bpu4cU
+P17QVAT41K2BOMBoKQRsYwBOT/N4K8EIGumgPqgxOqOdloQ6iZG7jcsdmcHL9IZf
+GVcrCzGYcyV/bxl++YqvCKFcVE5IURf58AqC9xih/+vw/a+OuM9AYvXVVemQhgI2
+w143UBRpj5GeqdWdZwk4AKbZCGj+zCQ63R29O1N7nxn4Yf3a4OpfYU3cYJKcrD4Z
+6yaQ4o1JraeIBBWYdToatsXeXLDUQ117epiW2m7itObeyc3ekQr19g2yTQ8y8jtP
+nysRPDBoM+fVOavo7/dNnNey
+=+n0M
 -----END PGP SIGNATURE-----
 
---===============6113497621046818699==--
+--===============7387837747659645550==--
