@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============6490734788918949142=="
+Content-Type: multipart/mixed; boundary="===============2701689487298079041=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 15 Apr 2021 18:24:14 -0000
-Message-Id: <161851105483.20895.17489198798147040219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 15 Apr 2021 18:24:22 -0000
+Message-Id: <161851106239.21030.729807279875423275@gitolite.kernel.org>
 
---===============6490734788918949142==
+--===============2701689487298079041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 858066864a6383d1eecd2fa96a0b8e69935632f8
     new: a523ef731ac6674dc07574f31bf44cc5bfa14e4d
     log: |
          a523ef731ac6674dc07574f31bf44cc5bfa14e4d ASoC: Intel: kbl_da7219_max98927: Fix kabylake_ssp_fixup function
          
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 1ceb019e7830fb831dac10b0fe0688dea24687db
     new: eea1d18e9b2d959df908746b193f66dba3078473
     log: |
@@ -36,29 +36,29 @@ changes:
          eea1d18e9b2d959df908746b193f66dba3078473 ASoC: SOF: use current DAI config during resume
          
 
---===============6490734788918949142==
+--===============2701689487298079041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1618511032 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1618511052-9906dbf837568d1a75510464e2f04a28c4e9c80b
+pusher C3F436CA30F5D8EB 1618511039 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1618511059-b17907e236c01558b0a84b76630652e2dc8c6467
 
-858066864a6383d1eecd2fa96a0b8e69935632f8 a523ef731ac6674dc07574f31bf44cc5bfa14e4d refs/heads/for-5.12
-1ceb019e7830fb831dac10b0fe0688dea24687db eea1d18e9b2d959df908746b193f66dba3078473 refs/heads/for-5.13
+858066864a6383d1eecd2fa96a0b8e69935632f8 a523ef731ac6674dc07574f31bf44cc5bfa14e4d refs/heads/asoc-5.12
+1ceb019e7830fb831dac10b0fe0688dea24687db eea1d18e9b2d959df908746b193f66dba3078473 refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB4hLgACgkQJNaLcl1U
-h9DMlwf5Ab5Cbcw5ppqYlgkxmOQapCDuqCTDhbDTXNXzCUsejX0lOx96E0xo8mi9
-9+O/Y/4wtIgHLJ9dB6OJNIpsQARvPvIexGBplzHUKXPdjvJMzEFFUKe+tp+a6WWY
-an7JGLguNwEGy9WeRLYstK3EuQqZ95qaIMcZ63xjDl8IRDPnPZfQMsqRQHKrEG1O
-ypNN7jSo+qq8UoLVwOKPuDc4g0ekr1IchWOaep/xHQA8UB0RxwNkRA9UoNV00hZ3
-lb1icZIHYh+mveOvzaFFIhgUTHvdN1aLZogXWuRb/EwckC/BhLX+H2aP7zGqht7v
-q2sRwXUOagXGKr9Q5ZGHpu9qUKL++Q==
-=/NJE
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB4hL8ACgkQJNaLcl1U
+h9CqXgf9GkZ/L8jSBYfF+XWjV+BtFJHX7CxoatT1B2NOhZhQAtTgV/jQaromfIO/
+X36qymwvZEbCFSUmio/e8uZVyExYwJPbiny1tjKhhYDyJ1L2wH6SAcNFhkZOc6du
+/Bhrv66vUpA5XShoKugcFevPI6PCqz2WOLwBe4AozzhzAQZdsMZlu+0cgFidZ6uf
+nd1cVvgu3zanD4304+UuiHKqyFN5qkCx6RucNwLhmN1xvo45prwOpM1ePFdlWlA6
+U4bDtzUPQ+KUT1miX/pHs7OdSXhFEQM3OoFfGkbZ9BHkV/U9KdbgMTdyk9hqseWe
+6+EtLbwqoJ4NLopOz9fZleadnIUTAA==
+=g7UN
 -----END PGP SIGNATURE-----
 
---===============6490734788918949142==--
+--===============2701689487298079041==--
