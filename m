@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8486499875579650918=="
+Content-Type: multipart/mixed; boundary="===============6490224330982839534=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 15 Apr 2021 14:03:49 -0000
-Message-Id: <161849542934.21638.15059004311441161759@gitolite.kernel.org>
+Date: Thu, 15 Apr 2021 14:03:51 -0000
+Message-Id: <161849543172.21738.1725861487956794081@gitolite.kernel.org>
 
---===============8486499875579650918==
+--===============6490224330982839534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,94 +16,115 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: b76c99cf586bd7e2078de72e6ca5195be58b0dbf
-    new: 1119128d0d73be68051af08b43877eb5ab507d2d
-    log: revlist-b76c99cf586b-1119128d0d73.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 958e517f4e16952e9a2e2d58fd32d28ae4e23dda
+    new: eb36e4b0c58925ce42007664f6e7a8e51cca1141
+    log: revlist-958e517f4e16-eb36e4b0c589.txt
 
---===============8486499875579650918==
+--===============6490224330982839534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618495427 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618495429 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1618495426-c2870ce568ceb25d6a9238fdab984b3dd6ec0220
+nonce 1618495428-7efe0f1e0a247413c30353104e594c2a2f53cecd
 
-b76c99cf586bd7e2078de72e6ca5195be58b0dbf 1119128d0d73be68051af08b43877eb5ab507d2d refs/heads/linux-4.9.y
+958e517f4e16952e9a2e2d58fd32d28ae4e23dda eb36e4b0c58925ce42007664f6e7a8e51cca1141 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB4R8MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ye0P/0YjLAz7ugylSgCvZBB+
-2/RDDyQzZZZr2LDLtz8LwkrCzAvZu9bqms5QHzixe/u8kxHC3e+FVL0MpKNtANz7
-zmEx1Uha+HOpVRnSXWvGcoLWnTa7t3l54wq+tmsfC+Cn7fC2zPMT0I4OH77xjKst
-rvlEfu8DD7lHcNR3Xu8tx7rXMha8vOX7V4nlEbCc7awDGRzl2iDtPgFvnWH1IjjA
-kg2lTgI5kL/EMwguiOFXgJSA97VkKvCJWLUAfd0AO066YDCqKXeD14HSynXWiMXY
-hZCBx8GmXSFKizAqBNRM0PLrVUmBnG8PmIfxpJ0JFQF/GfgKWUaUdpD1OuiSlrKR
-gtkqr3FzMlQ6OaVGmcHz5p7GdMnVENFEuS+JvkSZvds8/0nT3ZXwAS8y7mwTrm/2
-4FeXG7P/W55Hyy1MX0RReEkMTyKQujjeKNg41TlV0iSMdVmIiOKPkvDi/zcHlivj
-qlcvIt9LOP7qVjYK3zcwB7ovNo0qaaE6KTE5QOFbirfn5ZuW7T4gocmnk1E6o9gm
-Va9QGGo+bfBaHiAS0l3lseqXi/L597J6HnityHj/evlVtbmKTw9WDmCYAkwkNDOi
-0/kMvswv+TpP8nXGoT2i9a5ppSI19vVnVZOa1rAXxT9C50BkNHXWHgy77emYp4IV
-RBDbpkjWuVxp8iTaXqIfuRzx
-=C05W
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB4R8UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5RIP/24p5aUlzVydTORbUkD5
+JLIz2uJu9LwCsz4lLMoZobgqgJVNLdmOjnn7qskuMXNA/mE2UtAxt4pPpyHgy1LP
+G3C/JOp2d4m6ekWqZMB9An+vshw6o3TCTzxOmN0mQbG5TQS3nsfbUfj8N6SuaL4v
+BAs/ymC8skG3S7xyl2sCohBpDpNUOFbYAY2+NNP59kwfGAYEEKGzitvqgAE2QU1j
+4tcTxTFFyRX1+njcSre2NBasv2xg4X49qyn4dk3nfVGc7ajnhytUL3AXDY/YG1Ps
+m0xcGXIXa+wGkpZ0Ft0/RPa17pk4tx4aifWgZUkLZNxpJRaQW+vkjQWQ9XwseBb2
+rsIxg36cWZWw/bwoz5ZmvC6qeYx4bv8t+f9sNPPOeub8D33jK8CIJ4fOpqUxd4C/
+QToMdCo5xQYTeGFVvvHfbykOAw16W4ycogXxdles2m5Y84lwhUzxgkwk4Eo09Qq0
+PzpTZZgbMBvLZxSuV6cKbLCgY6jHoPKVFnvYtcaBr9oW/jYI0y5kjmAVE0f7s9jv
+v+7tn/dm+m0LexItTfFyl2Iwf7x0hdrbYJ5JXVW/wwBDD7N7EL34urDOv1QOfcun
+mCGvH14DeYpCeCezKT1tnUkhoi2veeCNTuRApQTINH+A/S4VA5mri0vwsvXyiNu0
+MwiFy8JWWlnfdQug/uJSRVhC
+=CLqL
 -----END PGP SIGNATURE-----
 
---===============8486499875579650918==
+--===============6490224330982839534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b76c99cf586b-1119128d0d73.txt
+Content-Disposition: attachment; filename=revlist-958e517f4e16-eb36e4b0c589.txt
 
-6516f8516fabfeb01a8dd060c0d81f1e3d0276d0 ARM: 8723/2: always assume the "unified" syntax for assembly code
-624b7e2cdfd597267f5e9f92137164bfbac9f758 iio: hid-sensor-prox: Fix scale not correct issue
-b9142b182d0f4be36709632d569581fa38194438 ALSA: aloop: Fix initialization of controls
-371878b992cbb5a9630752add8bd6ace77d30f6f ASoC: intel: atom: Stop advertising non working S24LE support
-e652d6b930881c4c231eaef5002303bf9378e49d nfc: fix refcount leak in llcp_sock_bind()
-28110232671e764d98c45f07a32b7db1a5224b77 nfc: fix refcount leak in llcp_sock_connect()
-40d00f90d08779999032265a0bc1b9863ca55d2d nfc: fix memory leak in llcp_sock_connect()
-c58fb716172c1f0e6e1e650aea3cd0fec094baa5 nfc: Avoid endless loops caused by repeated llcp_sock_connect()
-7e37470811f0d571e5d7e13fdb22bd8994de381d xen/evtchn: Change irq_info lock to raw_spinlock_t
-75eb4cc1968afb4644f78a454fc64cb397d18d9d net: ipv6: check for validity before dereferencing cfg->fc_nlinfo.nlh
-cb9ca9ef8df64cc66d8f2ec71094de3aaa2409a0 ia64: fix user_stack_pointer() for ptrace()
-6b9e6a12d32d2bb76d800d9ddb02493793240f6d ocfs2: fix deadlock between setattr and dio_end_io_write
-c44245a65fb62b27c9270a992e21ef686750dc19 fs: direct-io: fix missing sdio->boundary
-642319c0998ee69bdda0ef4dedf3dabc2bd8efbf parisc: parisc-agp requires SBA IOMMU driver
-7d60d5b5b34248a349d130d9f32317b46317a53b parisc: avoid a warning on u8 cast for cmpxchg on u8 pointers
-3061cae61cb8912d72c74aedac595157a698d79e batman-adv: initialize "struct batadv_tvlv_tt_vlan_data"->reserved field
-a12eb3c7f21bebf24792ec682d36833e56addabe net: sched: sch_teql: fix null-pointer dereference
-cfd216f3a13b620071b58f0c548d76714258aa51 sch_red: fix off-by-one checks in red_check_params()
-7da1adf77f045e793cb551d4cb14c5ae4052c61e gianfar: Handle error code at MAC address change
-bcf5b6811c706f84a1e08b8f5d576fde220732e9 net:tipc: Fix a double free in tipc_sk_mcast_rcv
-a023fafd4fca17b1f59746223b00d730c067884f soc/fsl: qbman: fix conflicting alignment attributes
-f0f2d72aebedf56fc293e9766ea4e5af105f885d clk: fix invalid usage of list cursor in unregister
-4dafd731c2aa1d9b38a84eba4beebc5ad48461a6 workqueue: Move the position of debug_work_activate() in __queue_work()
-580ed6d063480a4d8cc47a3447e972cf4b6907b1 s390/cpcmd: fix inline assembly register clobbering
-63b0ed11a9ce1550ca1cfc72301edaf0f262090e RDMA/cxgb4: check for ipv6 address properly while destroying listener
-a8a8167f4dc23d677e946163f2b1c33224731b97 clk: socfpga: fix iomem pointer cast on 64-bit
-8b02c2fa3d7ea3ef9524c0cb0d97304ccdd2ca3b mm: add cond_resched() in gather_pte_stats()
-7f190d96ade24e32257de064c737fb99baf8a277 usbip: fix vudc usbip_sockfd_store races leading to gpf
-9f9c046713a82f5ea58eefc3988e64fb60e647e6 cfg80211: remove WARN_ON() in cfg80211_sme_connect
-67bca170d464c0f2e8ff1bcf5325799f9064c80b net: tun: set tun->dev->addr_len during TUNSETLINK processing
-61677262af3b881c3c17aca36181f43119d666bc drivers: net: fix memory leak in atusb_probe
-fbd468b7e8bac3a4580bb2c5e2bbef96bf0b387f drivers: net: fix memory leak in peak_usb_create_dev
-52904254a8e98e7e928a64db0c1f0d7f69906f0c net: mac802154: Fix general protection fault
-fd9f03fd4c932a43b743291e4ddd9755321e5703 net: ieee802154: nl-mac: fix check on panid
-40c4c33bd1028e64f2a104eb471b209cad4c8aa1 net: ieee802154: fix nl802154 del llsec key
-aa14ee17cdb032d52bfe60ace07ee2a2dc6d9124 net: ieee802154: fix nl802154 del llsec dev
-9159a0e01aadcf6747facc1b79d9383d4f564880 net: ieee802154: fix nl802154 add llsec key
-11d30a176a51d0eec99857d4db93c6956b86ba8b net: ieee802154: fix nl802154 del llsec devkey
-59a9dbe1a5c3a68280d22325148c9a7a9cbb60fc net: ieee802154: forbid monitor for set llsec params
-b8728b9ea424ece84af68c79e6de1072ceae27e0 net: ieee802154: forbid monitor for del llsec seclevel
-0857d8b6940909ba9f40b29b6e20f69960266551 net: ieee802154: stop dump llsec params for monitors
-7db92816ba9138932e2112ce8416bc9c911101ba Revert "cifs: Set CIFS_MOUNT_USE_PREFIX_PATH flag on setting cifs_sb->prepath."
-4a3eb96c06002e944397f55ddc0ad31c3a93cf22 drm/imx: imx-ldb: fix out of bounds array access warning
-ebec2bc4d76a16fefb125bd4e47fd13a57e49852 gfs2: report "already frozen/thawed" errors
-95ebc0542b4ecaf78149d7900693ece02862133e netfilter: x_tables: fix compat match/target pad out-of-bound write
-df1f630b9c01f9fcdfcd0a7c5e84e3de15b42c97 perf map: Tighten snprintf() string precision to pass gcc check on some 32-bit arches
-64879f833c8977d6e3f7d4b2652cff0387c5f00e xen/events: fix setting irq affinity
-1119128d0d73be68051af08b43877eb5ab507d2d Linux 4.9.267-rc1
+e437c9cc0f67ffb1d3d3192b64ab92f316319c7c ALSA: aloop: Fix initialization of controls
+a7c97761d35016533d33018452372731857df3f9 ASoC: intel: atom: Stop advertising non working S24LE support
+a9c1464b080c672d97752d8d09e63418529fa0f4 nfc: fix refcount leak in llcp_sock_bind()
+4bcadd48dca7360140700e748a011c16930a573a nfc: fix refcount leak in llcp_sock_connect()
+0fc22ee6f12685506f253d58a4e15b248c984c10 nfc: fix memory leak in llcp_sock_connect()
+547cb13a3a70f8571fd77e809f9bb6dd1b5c00ae nfc: Avoid endless loops caused by repeated llcp_sock_connect()
+ab666abe0b9fbc5877e3ca321ecfa860294b9db8 xen/evtchn: Change irq_info lock to raw_spinlock_t
+7ffa8d447955a1d0bb6224e3ed2e6f816f7b348c net: ipv6: check for validity before dereferencing cfg->fc_nlinfo.nlh
+7c4ceba73186eafdd843ba126f67974662970f27 ia64: fix user_stack_pointer() for ptrace()
+d3c27bf4b1d5da1c061cbe78c3deeecf8f98e0d7 ocfs2: fix deadlock between setattr and dio_end_io_write
+d7297aef4f3b4587a69ea85cc4ae31ff5196dee6 fs: direct-io: fix missing sdio->boundary
+1194bd77fee5c0b7037583ffa65de8c3eebf228f parisc: parisc-agp requires SBA IOMMU driver
+40dd0a5f6c3706364b6bff10be15fdf6c82b71db parisc: avoid a warning on u8 cast for cmpxchg on u8 pointers
+0c86f516b85bf083aaeb5dba899ae189fe32182a ARM: dts: turris-omnia: configure LED[2]/INTn pin as interrupt pin
+9f38879e8bcc6616e38445a9e3815b392c551eea batman-adv: initialize "struct batadv_tvlv_tt_vlan_data"->reserved field
+f2a78527c753201183bddd84b0f21fe16468d86e net: ensure mac header is set in virtio_net_hdr_to_skb()
+2a64e1640eed3b8f2754bb3c8774fcfd92020415 net: sched: sch_teql: fix null-pointer dereference
+93f000b0747d85e35c752d997fe12fdad4592418 usbip: add sysfs_lock to synchronize sysfs code paths
+b61029677e7416d759580ca5121332068cd14ccb usbip: stub-dev synchronize sysfs code paths
+f24deb865823722d1e02738e5bc3112143bc57aa usbip: synchronize event handler with sysfs code paths
+1a8e2c12d269275c952ad36291eb819d042f4b93 i2c: turn recovery error on init to debug
+ffeefd6c6eda260398384bbbfc00b562257bdf4c regulator: bd9571mwv: Fix AVS and DVFS voltage range
+26d5bd476863f878bf523fd26d4e71ee60fb1489 ASoC: wm8960: Fix wrong bclk and lrclk with pll enabled for some chips
+619bc45dee2b9cf1d80422a8951a214baf13ff28 amd-xgbe: Update DMA coherency values
+0936c3cfe630365f568de641831c60975bb8288b sch_red: fix off-by-one checks in red_check_params()
+149f48975447122615300eb147d452e302a9d630 gianfar: Handle error code at MAC address change
+9bd402cfd9cb95073f51244409dd479f662efc15 net:tipc: Fix a double free in tipc_sk_mcast_rcv
+51bec293ad5dc919984ffd043c922ce24f3b14dc ARM: dts: imx6: pbab01: Set vmmc supply for both SD interfaces
+e35c9075199cea1e26c14439a1629491051fa2c8 net/ncsi: Avoid channel_monitor hrtimer deadlock
+63c8be6ca750201359c3d4eeb819ef5cc92bf49f ASoC: sunxi: sun4i-codec: fill ASoC card owner
+282327f021106f466c313c44b4d293f8d8976dfe soc/fsl: qbman: fix conflicting alignment attributes
+57e76623db5ff6691e7fe67698401124e9f969f7 clk: fix invalid usage of list cursor in register
+76f2ce27fddddb1551802685186eb860a2d8ae7e clk: fix invalid usage of list cursor in unregister
+44ec02069a26f1cf56f6f35d32e66f5c30eae7ed workqueue: Move the position of debug_work_activate() in __queue_work()
+ec87f27ca79b3906555d9e4c2163a5f80e1d3903 s390/cpcmd: fix inline assembly register clobbering
+a0a5130574a7b25f2accc2042a2c16248014721f net/mlx5: Fix placement of log_max_flow_counter
+854adf3825d93e3cb9e7919835143716e9167c0f RDMA/cxgb4: check for ipv6 address properly while destroying listener
+d80fdd967b5c8a8b6294e39b4b39680cf4775202 clk: socfpga: fix iomem pointer cast on 64-bit
+cc9bae69068a13524766fba1292d8eb0e71f1b23 net/ncsi: Make local function ncsi_get_filter() static
+6c5f83729db88578b0b9683313655b407764efe7 net/ncsi: Improve general state logging
+8bbd0a97b06b57d267022856f4a1c8f3cff80abc net/ncsi: Don't return error on normal response
+109cdc6ab75f1cae765f9832ed267c68012ec3e8 net/ncsi: Add generic netlink family
+c5fe6463fdc12568219c9cd5f6fcdc769a978f38 net/ncsi: Refactor MAC, VLAN filters
+d04a0df194f4b83e9bcf2fcdc692a6cf05003a2b net/ncsi: Avoid GFP_KERNEL in response handler
+302c0d49ae1281b0b094676d160ac50b34580213 usbip: fix vudc usbip_sockfd_store races leading to gpf
+baa1a0e6f7aa9c55e424f53022dd88377b2ab1ce cfg80211: remove WARN_ON() in cfg80211_sme_connect
+77478d35ea33be07db23dcd87c612d6258d50e96 net: tun: set tun->dev->addr_len during TUNSETLINK processing
+2651f5945646f65f4d805c703f76821dfab310c0 drivers: net: fix memory leak in atusb_probe
+c2f195c551ba9f6d42fe2034919ba9fb2b156a61 drivers: net: fix memory leak in peak_usb_create_dev
+2eeedbd1cb6fcb31b44dd77b1aaf59f1f23c8ca3 net: mac802154: Fix general protection fault
+12eba3f44f41a525d7a23fddb9b22372c2da1049 net: ieee802154: nl-mac: fix check on panid
+ca26c6885355e8df0bd4dee387b8fde77b59cdb6 net: ieee802154: fix nl802154 del llsec key
+66f460d2a35faf66c562edbbc5cb8cac41f29179 net: ieee802154: fix nl802154 del llsec dev
+5fb6b1d18b0771cfa1bdec2b33dee9020093b830 net: ieee802154: fix nl802154 add llsec key
+cd754c6fca7151f38d2a13bf144ac5bcb659d817 net: ieee802154: fix nl802154 del llsec devkey
+1279813d770172581d853cf017e62ef6ec93bf71 net: ieee802154: forbid monitor for set llsec params
+998c1245959552456006c953443c4e1beb336cae net: ieee802154: forbid monitor for del llsec seclevel
+929b6708f1455fd13dbcb661176e207fb85a60d9 net: ieee802154: stop dump llsec params for monitors
+3e251c5ad9076cbec21c5f6b74ca92048678ae06 Revert "cifs: Set CIFS_MOUNT_USE_PREFIX_PATH flag on setting cifs_sb->prepath."
+a6aeaff2d7520f24680c73c536ee0a8d6e988843 KVM: arm64: Hide system instruction access to Trace registers
+c06747493c80d98b1d7b3adf4cf321427a8e3cd7 KVM: arm64: Disable guest access to trace filter controls
+7e1491154c31851ea369d55f501f7c5eb911d4be drm/imx: imx-ldb: fix out of bounds array access warning
+f9bf2fbae991e4e866d30425a4127cb696563cdd gfs2: report "already frozen/thawed" errors
+3b1e1b26e60c878443647eecc480cc1449693c6f block: only update parent bi_status when bio fail
+3da4805bd25eab8772741141d828a2e120062015 net: phy: broadcom: Only advertise EEE for supported modes
+fb1b89a3be0fc21320ca6034207850e834dc1f22 netfilter: x_tables: fix compat match/target pad out-of-bound write
+aee6e8032b2b539c44adb1bc25773bb70afa08fd perf map: Tighten snprintf() string precision to pass gcc check on some 32-bit arches
+5a2a2469b3efc6064f0614f760961d8c71dd8b5e xen/events: fix setting irq affinity
+eb36e4b0c58925ce42007664f6e7a8e51cca1141 Linux 4.14.231-rc1
 
---===============8486499875579650918==--
+--===============6490224330982839534==--
