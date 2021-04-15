@@ -1,31 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 15 Apr 2021 23:50:04 -0000
-Message-Id: <161853060451.24445.12333202425815161213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 15 Apr 2021 23:53:40 -0000
+Message-Id: <161853082009.25974.15305714950497763591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-5.13/io_uring
-    old: 745f0e2c658132fead72deff96022a8651902b89
-    new: c0d4e1fd259f778da8c28954281373f889ea8eab
+  - ref: refs/heads/master
+    old: c329e5afb42ff0a88285eb4d8a391a18793e4777
+    new: b6faf160d0dac3c8654aa911e6e281541628d304
     log: |
-         6d0302d2550fb41844fa8b3916ace10168094eea io_uring: put flag checking for needing req cleanup in one spot
-         28471fdc3d70f7645cb353fbdcf49cb692374139 io_uring: tie req->apoll to request lifetime
-         c0d4e1fd259f778da8c28954281373f889ea8eab io_uring: fix merge error for async resubmit
-         
-  - ref: refs/heads/for-next
-    old: 9d3c9bd39df75e90b2d08cbe0119034b45f2981b
-    new: 9c421ce64de4908805328109ba8ed7a2cfe9efae
-    log: |
-         6d0302d2550fb41844fa8b3916ace10168094eea io_uring: put flag checking for needing req cleanup in one spot
-         28471fdc3d70f7645cb353fbdcf49cb692374139 io_uring: tie req->apoll to request lifetime
-         c0d4e1fd259f778da8c28954281373f889ea8eab io_uring: fix merge error for async resubmit
-         59fd1dc6694eff432f453b80616052736246db3d Merge branch 'for-5.13/io_uring' into for-next
-         9c421ce64de4908805328109ba8ed7a2cfe9efae Merge branch 'for-5.13/drivers' into for-next
+         18b6e31f8bf4ac7af7b057228f38a5a530378e4e net: hns3: PF add support for pushing link status to VFs
+         01305e16ebe7791e7a1b97485f83999f48cd79d0 net: hns3: VF not request link status when PF support push link status feature
+         8f571c4cad55a32db2fba1f6d7477bfd646c376a Merge branch 'hns3-next'
+         b6faf160d0dac3c8654aa911e6e281541628d304 enetc: convert to schedule_work()
          
