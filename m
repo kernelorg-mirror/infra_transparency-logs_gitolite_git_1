@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1256868204781598603=="
+Content-Type: multipart/mixed; boundary="===============4569211617982564966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 15 Apr 2021 09:07:38 -0000
-Message-Id: <161847765839.28287.5866994013514619533@gitolite.kernel.org>
+Date: Thu, 15 Apr 2021 09:08:02 -0000
+Message-Id: <161847768228.28463.11867901207693003391@gitolite.kernel.org>
 
---===============1256868204781598603==
+--===============4569211617982564966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 0df74278faedf20f9696bf2755cf0ce34afa4c3a
-    new: 4615df5df23031120637baf0c4e4a20b1459737e
-    log: revlist-0df74278faed-4615df5df230.txt
+  - ref: refs/heads/char-misc-testing
+    old: 1044f1e46f3122e46f39e6604a40d275f1f0f755
+    new: 5d7f935be28c11fa585da2146f225a0a19dddabc
+    log: revlist-1044f1e46f31-5d7f935be28c.txt
 
---===============1256868204781598603==
+--===============4569211617982564966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618477652 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618477677 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1618477652-70eabf83a696c2b06c9327d9517764e4705e23f3
+nonce 1618477676-8cd3971f8ac38b2e471ab2a648ee089e447dcac2
 
-0df74278faedf20f9696bf2755cf0ce34afa4c3a 4615df5df23031120637baf0c4e4a20b1459737e refs/heads/char-misc-next
+1044f1e46f3122e46f39e6604a40d275f1f0f755 5d7f935be28c11fa585da2146f225a0a19dddabc refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB4AlQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zcMP/3CgzdbLYck8SSbJMLvN
-aniDb+Yw5xaNcNrBVzOxozGAxajeVxm75s8HSctQTz3cA3fgUnahXgZzPNvkjgsg
-Y1l33c/4uvoIEObjOp3uBRfKEpI1hTJ4vF0KCUgOBJcX43m2slhnKR8y2xXpMGXN
-s9zVwE1hkA3Eaz6JFJVqGIYAXc30vKnQ5d3GrsLjLNg8oi8gMI0O4T8CMajc+Wsq
-AIF34SgKIDaS22T4bJtnPpJ0DJnWGqGXJBdRC/FxDQ+R4dN6FKn7u3gwifSGJhTk
-yl+5pRe2Iikl1M25aFyNE2c11yzFf1IVzCmXPmn2AL5Y/rXzE4gDLIkKzcxmyPmO
-xlELdohwswh0EXP9z6KMmFO5K83kfxjy4T0G4a9rNWeaGATJ2YogQWQEYkHkwS4W
-Olw105t3BXkMmhDVCWONQ847/5OAh70M5a9pN8Hy9WDVshZwpeelwI3u5rYZQT1b
-/ljMojl34uDE39TzCxC4XwNDnUH4DAUXpS6P0UDTFFG/K0JPEYeebU4zWc67uWXH
-BKJyapQT2M5/NitfOq05lYa+808MWIBUDkZwnkoPFmD5CUoDfpiHszGUoy8dsTgp
-rFVHQj4/s9NJ5hWjrzZRcjvjGYMfEVPS6wZnF2SfIlx4mQKGevNCoRaim/seVsLQ
-ku2C9Khx/QvgLsdSIvQeKKIP
-=urUx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB4Am0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+trAP/jbSCb+uzdw9McGqOK0Y
+zwPUhz4hoeukQ2XKWtDsLUBjKDOGbzBRVTSIzwKTErOqjQUvRSfZrRErhaaCBYGs
+e9Jj8deogT2n2p29ZH+03AQme8FKc7kmdP2WtX6w11GLxTRe4CxIGy6dRDZeK+lX
+ocY7pxGp7rhbCEnjPCP0trJjw96beNU7dVHoJRSnoDCEFa0O+XDPtrFl0mPsurJj
+ry+n2B+BZpCx8Lwe8o4xhbWLpKJ8ye2YM4mOyMStjUVXthXy/dhHQUkvVvIUUt4e
+TTU5MUhSAczPCvET4fRc0poKg9cIN1e88Omm1uUqanC/Rm+YGWcX4/+yYzGIdp51
+DtNkAYJKPynILrzvs/6W6luhdxR4yibJdAve58SF9c2mQOlrBiRgIrpBWAv9J6Wz
+Tmm469exSd3sC1Wmocjhk4SPl7hxc8rVAAdpIMsHBZq7q1YSTs4A9kiqhLzyXuM4
+fVBEUTNPChtRt1yBok1h8gO2ZVKlt6fHL12Dhs6Latj3Ie0DGAuWPQ8RXOzItSrl
+gHs8f/Ee7XCjcPZCAYIgsCTHKIjCwmd0yqCRreWwsmwbX6aCUTZqyXaCuZaDcQro
+BQF3G/W3hb04j9tTj9jZaS9qEHf4PmAXbY996wQK3BiKBGsA0E1Eww77KQDvh5c/
+H5XH+aJmxeuZjDSrbd4uwiTS
+=pvpu
 -----END PGP SIGNATURE-----
 
---===============1256868204781598603==
+--===============4569211617982564966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0df74278faed-4615df5df230.txt
+Content-Disposition: attachment; filename=revlist-1044f1e46f31-5d7f935be28c.txt
 
 33ad2800348e6c20f05b86ef01e8216fc3e3c762 dt-bindings: interconnect: Add bindings for Qualcomm SDM660 NoC
 f80a1d41432869dd78dfe8373060371918a05326 interconnect: qcom: Add SDM660 interconnect provider driver
@@ -69,5 +69,16 @@ d26a56674497dd12a0ac378203cf058b7a984124 interconnect: qcom: Add SM8350 intercon
 9e856a74bd02db82c57ad416dd50f91666178499 Merge branch 'icc-sdm660' into icc-next
 c1de07884f2bafa11ad3780cf08b234c88c2cc9d Merge branch 'icc-sm8350' into icc-next
 4615df5df23031120637baf0c4e4a20b1459737e Merge tag 'icc-5.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
+b04a842114a5435af6dc2e6d4d808286dd13b9a1 phy: phy-twl4030-usb: Fix possible use-after-free in twl4030_usb_remove()
+dedab534314695af71c51bb1184d800515903422 phy: ti: j721e-wiz: Add missing include linux/slab.h
+3069f930ba5db3f18682e4d3ac4a5e7b0c0a9712 phy: Revert "phy: ti: j721e-wiz: add missing of_node_put"
+4b3aa07926e02153a47154b57da6d2f42e3f6e1c greybus: es2: fix kernel-doc warnings
+ba3ceb4ab7906aad8795ee352638242675e7ada5 habanalabs/gaudi: Fix uninitialized return code rc when read size is zero
+6ac09fdec7cd69b9be886e298389d3350500451c stm class: Remove an unused function
+64f12d6917ee36f05b205c5344b99fbed81f4918 intel_th: Constify all drvdata references
+ceb55e062e8072720243ad55634be212e2d35a86 intel_th: Constify attribute_group structs
+395b66da3771eacda1f3490aadfdb131f2089e7a intel_th: Consistency and off-by-one fix
+dba7ee1fac5b1e165ae7a413834de2edfd0f9ce6 intel_th: pci: Add Rocket Lake CPU support
+5d7f935be28c11fa585da2146f225a0a19dddabc intel_th: pci: Add Alder Lake-M support
 
---===============1256868204781598603==--
+--===============4569211617982564966==--
