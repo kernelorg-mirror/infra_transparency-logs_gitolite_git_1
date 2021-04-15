@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0689377371806996892=="
+Content-Type: multipart/mixed; boundary="===============8486499875579650918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 15 Apr 2021 14:03:48 -0000
-Message-Id: <161849542814.21507.15858471927386666582@gitolite.kernel.org>
+Date: Thu, 15 Apr 2021 14:03:49 -0000
+Message-Id: <161849542934.21638.15059004311441161759@gitolite.kernel.org>
 
---===============0689377371806996892==
+--===============8486499875579650918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,94 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.11.y
-    old: dfe7059bf16bca04a2d68a6381fe959cda58b8a5
-    new: ee26faa71f9dbe27a8564a67183699819706c0d5
-    log: revlist-dfe7059bf16b-ee26faa71f9d.txt
+  - ref: refs/heads/linux-4.9.y
+    old: b76c99cf586bd7e2078de72e6ca5195be58b0dbf
+    new: 1119128d0d73be68051af08b43877eb5ab507d2d
+    log: revlist-b76c99cf586b-1119128d0d73.txt
 
---===============0689377371806996892==
+--===============8486499875579650918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618495426 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618495427 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1618495424-73fc2e47a98db04997d24409b694a9485f57994b
+nonce 1618495426-c2870ce568ceb25d6a9238fdab984b3dd6ec0220
 
-dfe7059bf16bca04a2d68a6381fe959cda58b8a5 ee26faa71f9dbe27a8564a67183699819706c0d5 refs/heads/linux-5.11.y
+b76c99cf586bd7e2078de72e6ca5195be58b0dbf 1119128d0d73be68051af08b43877eb5ab507d2d refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB4R8IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FQsQAKMIidd/bFI+SdzvIl1f
-1syERR5EAiOXf0CqNkAmPOuxRdLQbmVR9dPjLzn00bM9a0zjFTWgHRtrFhRKTckC
-LIjPxSHoT3MuR8XA7bEJx6NxjTG/E8ere7V2PzerPtH/bLVEyZg+u769AWp4otdm
-SXsw6edPTaU20UBE2mZMnhKRL2vSE4saYF7KFquDhwfvN65TMTYwuey3gGfbBY8C
-zAro6Mt6GsFc2hxVlEU8QU1yhEwPSvcn0UjRESKHwve0+RDvj0ejcfeO71zl96wx
-y+T9lj3AJ/oHjAgG82eDfQgP91fP33FHKu3qpPcEF87F1lvOJkqwiq8atgcNCqDb
-nhD8HeqbyAtTXh1Rvr83F7+9SXcYFBC9P7+EO9GkZRS5OmPr9OPoTsxlWq7gnjKr
-oOe/vd9WGSFSjVXzB5fd+q0RQ+fzPkHyhyuG2c4S5wsahiWtsotyk1Yy3G0QX/4H
-VYGylSWWbgVKt8sJCTNM1SxdU4Q2J1fk2ofDmvsw1PCZkOhByX5kbDVPXgFvbBRm
-qDFGXQuKE+OZQcGgTXCYkEgydigcqLqUJeP0l1VUogYLhK7pvhbtuJZShW4PffsZ
-aXP/5eomUYzEKfmwIJq/8C/wPPrAGK2LfKBPxFbdHOmG+Lky5vRonl/wOfw/Q0OL
-MIXEj8rcX3pwNvZUQsWBUPjG
-=LCqC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB4R8MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ye0P/0YjLAz7ugylSgCvZBB+
+2/RDDyQzZZZr2LDLtz8LwkrCzAvZu9bqms5QHzixe/u8kxHC3e+FVL0MpKNtANz7
+zmEx1Uha+HOpVRnSXWvGcoLWnTa7t3l54wq+tmsfC+Cn7fC2zPMT0I4OH77xjKst
+rvlEfu8DD7lHcNR3Xu8tx7rXMha8vOX7V4nlEbCc7awDGRzl2iDtPgFvnWH1IjjA
+kg2lTgI5kL/EMwguiOFXgJSA97VkKvCJWLUAfd0AO066YDCqKXeD14HSynXWiMXY
+hZCBx8GmXSFKizAqBNRM0PLrVUmBnG8PmIfxpJ0JFQF/GfgKWUaUdpD1OuiSlrKR
+gtkqr3FzMlQ6OaVGmcHz5p7GdMnVENFEuS+JvkSZvds8/0nT3ZXwAS8y7mwTrm/2
+4FeXG7P/W55Hyy1MX0RReEkMTyKQujjeKNg41TlV0iSMdVmIiOKPkvDi/zcHlivj
+qlcvIt9LOP7qVjYK3zcwB7ovNo0qaaE6KTE5QOFbirfn5ZuW7T4gocmnk1E6o9gm
+Va9QGGo+bfBaHiAS0l3lseqXi/L597J6HnityHj/evlVtbmKTw9WDmCYAkwkNDOi
+0/kMvswv+TpP8nXGoT2i9a5ppSI19vVnVZOa1rAXxT9C50BkNHXWHgy77emYp4IV
+RBDbpkjWuVxp8iTaXqIfuRzx
+=C05W
 -----END PGP SIGNATURE-----
 
---===============0689377371806996892==
+--===============8486499875579650918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dfe7059bf16b-ee26faa71f9d.txt
+Content-Disposition: attachment; filename=revlist-b76c99cf586b-1119128d0d73.txt
 
-6731e6bbe4e42e09029623ae946d60e051563a43 interconnect: core: fix error return code of icc_link_destroy()
-25c4d4d098d0bf02e60bdcaa4126bce65038840c gfs2: Flag a withdraw if init_threads() fails
-d3df9cfc194c6786031192a90207820a5ddb7789 KVM: arm64: Hide system instruction access to Trace registers
-de60006ec67630e561bf7f09dd3b9aab452ff74a KVM: arm64: Disable guest access to trace filter controls
-b93a129c40fd418b0105ffa1d5b49f3c3710878b drm/imx: imx-ldb: fix out of bounds array access warning
-0858e93ab22ebf91b8251368145e997d9b597c26 gfs2: report "already frozen/thawed" errors
-0a52f7a4cd3f6272ffb41aa18d3557641c063fdd ftrace: Check if pages were allocated before calling free_pages()
-f65b45353935d053bc6c168a393e1483a935b07b tools/kvm_stat: Add restart delay
-b6cec2e38faaf1d04943e3ae6c1646eca8442cc3 drm/tegra: dc: Don't set PLL clock to 0Hz
-f64322e43980888f7f96f2d277ec30e921ad6747 gpu: host1x: Use different lock classes for each client
-a538c48446303ddfe554ec89cab7daead271871c XArray: Fix splitting to non-zero orders
-41d216748cdec3f4a938335da128ed1878d3c53e radix tree test suite: Fix compilation
-64eeceb974f6a03fbc7b929b225b84652ee843f3 block: only update parent bi_status when bio fail
-baeff36201273645702b3c9f88f196acfbf29637 radix tree test suite: Register the main thread with the RCU library
-8b71871753eb07063947d4637d1184b7b2736c0e idr test suite: Take RCU read lock in idr_find_test_1
-0867e4c0a7fed6287834921fd67583eaf0cdf613 idr test suite: Create anchor before launching throbber
-6aac9cbeea34ca005778ad0e33570b443c8658e4 null_blk: fix command timeout completion handling
-5c72f8a673ad7b2599836c9baa923fc202b6b300 io_uring: don't mark S_ISBLK async work as unbounded
-a428965b5edeea35d2de0cada2ff1fe0b8c5f84d riscv,entry: fix misaligned base for excp_vect_table
-19dd0ecc81daab9e5c17d6112ce7fac1d7fd5216 block: don't ignore REQ_NOWAIT for direct IO
-081a406514097efeab2f4327255b91d4d63791aa netfilter: x_tables: fix compat match/target pad out-of-bound write
-4a237730d9bceebf94a59754987fa3ebfd54bbce perf map: Tighten snprintf() string precision to pass gcc check on some 32-bit arches
-3ffdc0eefb91eab27c70e835c2bb782c3e5f542c net: sfp: cope with SFPs that set both LOS normal and LOS inverted
-ee26faa71f9dbe27a8564a67183699819706c0d5 Linux 5.11.15-rc1
+6516f8516fabfeb01a8dd060c0d81f1e3d0276d0 ARM: 8723/2: always assume the "unified" syntax for assembly code
+624b7e2cdfd597267f5e9f92137164bfbac9f758 iio: hid-sensor-prox: Fix scale not correct issue
+b9142b182d0f4be36709632d569581fa38194438 ALSA: aloop: Fix initialization of controls
+371878b992cbb5a9630752add8bd6ace77d30f6f ASoC: intel: atom: Stop advertising non working S24LE support
+e652d6b930881c4c231eaef5002303bf9378e49d nfc: fix refcount leak in llcp_sock_bind()
+28110232671e764d98c45f07a32b7db1a5224b77 nfc: fix refcount leak in llcp_sock_connect()
+40d00f90d08779999032265a0bc1b9863ca55d2d nfc: fix memory leak in llcp_sock_connect()
+c58fb716172c1f0e6e1e650aea3cd0fec094baa5 nfc: Avoid endless loops caused by repeated llcp_sock_connect()
+7e37470811f0d571e5d7e13fdb22bd8994de381d xen/evtchn: Change irq_info lock to raw_spinlock_t
+75eb4cc1968afb4644f78a454fc64cb397d18d9d net: ipv6: check for validity before dereferencing cfg->fc_nlinfo.nlh
+cb9ca9ef8df64cc66d8f2ec71094de3aaa2409a0 ia64: fix user_stack_pointer() for ptrace()
+6b9e6a12d32d2bb76d800d9ddb02493793240f6d ocfs2: fix deadlock between setattr and dio_end_io_write
+c44245a65fb62b27c9270a992e21ef686750dc19 fs: direct-io: fix missing sdio->boundary
+642319c0998ee69bdda0ef4dedf3dabc2bd8efbf parisc: parisc-agp requires SBA IOMMU driver
+7d60d5b5b34248a349d130d9f32317b46317a53b parisc: avoid a warning on u8 cast for cmpxchg on u8 pointers
+3061cae61cb8912d72c74aedac595157a698d79e batman-adv: initialize "struct batadv_tvlv_tt_vlan_data"->reserved field
+a12eb3c7f21bebf24792ec682d36833e56addabe net: sched: sch_teql: fix null-pointer dereference
+cfd216f3a13b620071b58f0c548d76714258aa51 sch_red: fix off-by-one checks in red_check_params()
+7da1adf77f045e793cb551d4cb14c5ae4052c61e gianfar: Handle error code at MAC address change
+bcf5b6811c706f84a1e08b8f5d576fde220732e9 net:tipc: Fix a double free in tipc_sk_mcast_rcv
+a023fafd4fca17b1f59746223b00d730c067884f soc/fsl: qbman: fix conflicting alignment attributes
+f0f2d72aebedf56fc293e9766ea4e5af105f885d clk: fix invalid usage of list cursor in unregister
+4dafd731c2aa1d9b38a84eba4beebc5ad48461a6 workqueue: Move the position of debug_work_activate() in __queue_work()
+580ed6d063480a4d8cc47a3447e972cf4b6907b1 s390/cpcmd: fix inline assembly register clobbering
+63b0ed11a9ce1550ca1cfc72301edaf0f262090e RDMA/cxgb4: check for ipv6 address properly while destroying listener
+a8a8167f4dc23d677e946163f2b1c33224731b97 clk: socfpga: fix iomem pointer cast on 64-bit
+8b02c2fa3d7ea3ef9524c0cb0d97304ccdd2ca3b mm: add cond_resched() in gather_pte_stats()
+7f190d96ade24e32257de064c737fb99baf8a277 usbip: fix vudc usbip_sockfd_store races leading to gpf
+9f9c046713a82f5ea58eefc3988e64fb60e647e6 cfg80211: remove WARN_ON() in cfg80211_sme_connect
+67bca170d464c0f2e8ff1bcf5325799f9064c80b net: tun: set tun->dev->addr_len during TUNSETLINK processing
+61677262af3b881c3c17aca36181f43119d666bc drivers: net: fix memory leak in atusb_probe
+fbd468b7e8bac3a4580bb2c5e2bbef96bf0b387f drivers: net: fix memory leak in peak_usb_create_dev
+52904254a8e98e7e928a64db0c1f0d7f69906f0c net: mac802154: Fix general protection fault
+fd9f03fd4c932a43b743291e4ddd9755321e5703 net: ieee802154: nl-mac: fix check on panid
+40c4c33bd1028e64f2a104eb471b209cad4c8aa1 net: ieee802154: fix nl802154 del llsec key
+aa14ee17cdb032d52bfe60ace07ee2a2dc6d9124 net: ieee802154: fix nl802154 del llsec dev
+9159a0e01aadcf6747facc1b79d9383d4f564880 net: ieee802154: fix nl802154 add llsec key
+11d30a176a51d0eec99857d4db93c6956b86ba8b net: ieee802154: fix nl802154 del llsec devkey
+59a9dbe1a5c3a68280d22325148c9a7a9cbb60fc net: ieee802154: forbid monitor for set llsec params
+b8728b9ea424ece84af68c79e6de1072ceae27e0 net: ieee802154: forbid monitor for del llsec seclevel
+0857d8b6940909ba9f40b29b6e20f69960266551 net: ieee802154: stop dump llsec params for monitors
+7db92816ba9138932e2112ce8416bc9c911101ba Revert "cifs: Set CIFS_MOUNT_USE_PREFIX_PATH flag on setting cifs_sb->prepath."
+4a3eb96c06002e944397f55ddc0ad31c3a93cf22 drm/imx: imx-ldb: fix out of bounds array access warning
+ebec2bc4d76a16fefb125bd4e47fd13a57e49852 gfs2: report "already frozen/thawed" errors
+95ebc0542b4ecaf78149d7900693ece02862133e netfilter: x_tables: fix compat match/target pad out-of-bound write
+df1f630b9c01f9fcdfcd0a7c5e84e3de15b42c97 perf map: Tighten snprintf() string precision to pass gcc check on some 32-bit arches
+64879f833c8977d6e3f7d4b2652cff0387c5f00e xen/events: fix setting irq affinity
+1119128d0d73be68051af08b43877eb5ab507d2d Linux 4.9.267-rc1
 
---===============0689377371806996892==--
+--===============8486499875579650918==--
