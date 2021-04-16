@@ -1,66 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8353814942277328859=="
+Content-Type: multipart/mixed; boundary="===============2518668756781896257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 16 Apr 2021 15:57:10 -0000
-Message-Id: <161858863092.22561.1184677416592238638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 16 Apr 2021 15:57:33 -0000
+Message-Id: <161858865307.22787.5420527149890138249@gitolite.kernel.org>
 
---===============8353814942277328859==
+--===============2518668756781896257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.13
-    old: 58eaa7b2d07d3c25e1068b0bf42ca7e7464f4bca
-    new: 126bdb606fd2802454e6048caef1be3e25dd121e
-    log: revlist-58eaa7b2d07d-126bdb606fd2.txt
+  - ref: refs/heads/for-linus
+    old: f655ede26d664a82d8485d57ec037a70cf3e1f4c
+    new: 9b8c5554e2872dfedd05a694ab69ece08b16034c
+    log: |
+         9b8c5554e2872dfedd05a694ab69ece08b16034c Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 0f3475ef251d9402510ed03bde9e6de20d5fe216
+    new: 5f594b1621a7fe1ce0a546bed7d7199b68edfeda
+    log: revlist-0f3475ef251d-5f594b1621a7.txt
 
---===============8353814942277328859==
+--===============2518668756781896257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0f3475ef251d-5f594b1621a7.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1618588607 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1618588628-eff0f03095474789556cba21a78e818fd04354a2
+093b9dcb597611ce65f8c5610ee446616c0be304 ASoC: Intel: soc-acpi: add ADL SoundWire base configurations
+870dc42fe8311ef5b291ccb21eda3f7069b6f599 ASoC: Intel: soc-acpi: add ADL jack-less SoundWire configurations
+d25bbe80485f8bcbbeb91a2a6cd8798c124b27b7 ASoC: Intel: sof_sdw: add quirk for new ADL-P Rvp
+d97140033948363ffdf5ed71dd2366f717e120e7 ASoC: core: Don't set platform name when of_node is set
+1cacbac447d9b29a4057d7bbffe8c3d4125ec82a ASoC: soc-pcm: don't use "name" on __soc_pcm_params_symmetry() macro
+ee39d77ed91f220b1458137118dea158a095d5c5 ASoC: soc-pcm: indicate DAI name if soc_pcm_params_symmetry() failed
+8f1a16818a08047c83bc6e29efc07b15fd11fa29 ASoC: soc-utils: add snd_soc_component_is_dummy()
+9c2ae363f3347baacd2353a017eb62363420a1ea ASoC: soc-pcm: ignore dummy-DAI at soc_pcm_params_symmetry()
+0f687d826736a5b4eee03170382fe54d413b912a ASoC: simple-card-utils: Propagate errors on too many links
+343e55e71877415a23372388b3e0c59a9bba42f6 ASoC: simple-card-utils: Increase maximum number of links to 128
+ac22cf52523a6a71fd8866e8c9d3ae1e79663381 Merge series "ASoC: soc-pcm: ignore dummy-DAI at soc_pcm_params_symmetry()" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
+7ae6af41317416565951cb7dd035ce32c7d56782 Merge series "ASoC: Intel: add new TGL/ADL configurations" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
+9b8c5554e2872dfedd05a694ab69ece08b16034c Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+5f594b1621a7fe1ce0a546bed7d7199b68edfeda Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
 
-58eaa7b2d07d3c25e1068b0bf42ca7e7464f4bca 126bdb606fd2802454e6048caef1be3e25dd121e refs/heads/spi-5.13
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB5s78ACgkQJNaLcl1U
-h9Dl2gf+MLyjrIq+K/gKQWhEfyReuVQC4Pop6spXan5m0rFzomb4M+Yqg8LDRgs2
-7ZGck/+eDyU0679ySFQE6qp+iF+WJuVJEZCocJawEbxjIPUzd4MdQ7a/jbPUYrAv
-4dsaC5Mv4hmybDGm4hsBOn+fyBljWYBCaQuIbZ/wHeDQCTJb0Yrm6ZrgF+X5LpKk
-HHaVeJLEVatlr9n/spKFa8vUIB231asq/z7w68BbyPp32YcRX8EWBwhsH6ei/ni2
-cji96J5A7TBSx8i5sv+U11je2pqOzMUkAvLP7UjStomWfWEnjN2bhi8aO8NXTjLi
-RPEGp/v9yBUPfeMVli0vgR3l/KKaMw==
-=0WN0
------END PGP SIGNATURE-----
-
---===============8353814942277328859==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58eaa7b2d07d-126bdb606fd2.txt
-
-8d559a64f00b59af9cc02b803ff52f6e6880a651 spi: stm32: drop devres version of spi_register_master
-5ac1b909e5b60cc2735bd9174f631dc2c7f44c5a dt-bindings: spi: Add compatible for Mediatek MT8195
-a21fbc42807b15b74b0891bd557063e6acf4fcae spi: spi-zynqmp-gqspi: Fix runtime PM imbalance in zynqmp_qspi_probe
-794aaf01444d4e765e2b067cba01cc69c1c68ed9 spi: Fix use-after-free with devm_spi_alloc_*
-8c4ffe4d023d7a3153c1d3d1084d98d17bf684b9 spi: pxa2xx: Add support for Intel Alder Lake PCH-M
-c7ed5fd5fbb279a75a58cf641b873f57ef906ac7 Merge branch 'for-5.12' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi into spi-5.13
-c6bdae08012b2ca3e94f3a41ef4ca8cfe7c9ab6f spi: spi-zynqmp-gqspi: fix clk_enable/disable imbalance issue
-799f923f0a66a9c99f0a3eaa078b306db7a8b33a spi: spi-zynqmp-gqspi: fix hang issue when suspend/resume
-2530b3df4326023a171977ab46fdfeac0340f5b2 spi: spi-zynqmp-gqspi: Resolved slab-out-of-bounds bug
-a2c5bedb2d55dd27c642c7b9fb6886d7ad7bdb58 spi: spi-zynqmp-gqspi: fix use-after-free in zynqmp_qspi_exec_op
-126bdb606fd2802454e6048caef1be3e25dd121e spi: spi-zynqmp-gqspi: return -ENOMEM if dma_map_single fails
-
---===============8353814942277328859==--
+--===============2518668756781896257==--
