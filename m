@@ -1,58 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============1902916219181300108=="
+Content-Type: multipart/mixed; boundary="===============0049258196151546121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 16 Apr 2021 05:24:41 -0000
-Message-Id: <161855068139.3811.15402566576447113964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 16 Apr 2021 05:28:07 -0000
+Message-Id: <161855088712.6128.13177809144103982446@gitolite.kernel.org>
 
---===============1902916219181300108==
+--===============0049258196151546121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 467d98420936009a10ce7f95985dece7150acd36
-    new: 71d3edc61e29e45b613b841108688d711846f969
-    log: |
-         027ffa10b80be722c284067f7eee431ced1db208 staging: rtl8723bs: remove sdio_drv_priv structure
-         8ffdff6a8cfbdc174a3a390b6f825a277b5bb895 staging: comedi: move out of staging directory
-         71d3edc61e29e45b613b841108688d711846f969 staging: rtl8723bs: Remove led_blink_hdl() and everything related
-         
+  - ref: refs/heads/char-misc-next
+    old: 4615df5df23031120637baf0c4e4a20b1459737e
+    new: ed917b028d0cea5d6f81472a9b7c3266feb9dd42
+    log: revlist-4615df5df230-ed917b028d0c.txt
 
---===============1902916219181300108==
+--===============0049258196151546121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618550676 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1618550676-92103fc911084c1f2219856c7472163321100e99
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618550882 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1618550881-7fc00243537e4dcf93c0008d9ace42edc88d1c6e
 
-467d98420936009a10ce7f95985dece7150acd36 71d3edc61e29e45b613b841108688d711846f969 refs/heads/staging-next
+4615df5df23031120637baf0c4e4a20b1459737e ed917b028d0cea5d6f81472a9b7c3266feb9dd42 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB5H5QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+geIP/3SKxSHJYHcRvk6iUdo4
-0IeSNGDbfy5xwB6uM+A8tzmPWRR5M/YBIFvpg2uTWRWJOCktjMft+Y0S9ObTq2Gl
-5/jw7ZXX7BTmQ4sWXUG/kt3XH75gFyqrMCA0wnsqdN5XEnlTEhYFLhMSkWqSLg7P
-1gJdFsP6WuSbBVPfQZ0CycIuenp/+SFc4o9qoUThTjCYTYCYMQSCc4OVWIljbxjI
-v9P/13Bq8KBYgarecMAPi20zgyuaL7Po/CkUXK5bx7SLmMNcjGjcRHaT7Osaku62
-3ldBfv/63GoSbZ8BwH1fk0EkOZ4AA3P3jcieFRA7s1wJZ4Z3Nk4co5XlPq2S2xxf
-iMOhkhR6vo55QB8kDm0xFeem18jFPSqcwdqG1SemGkd4KcM+hZbuymZCldMd5pTh
-tORr6AczNMRQuSoZKbsDSu+DPMHJlz3sQ58dH8q/Gm/YjI03hTlsBe2sEbVo3ZMG
-WMPe3j49PlRRprITJ9XylKc9yo0ynxYJ3BUo/sDGcb4GeTM5YNav2uZTx/B94XGS
-xI6gPOTbuejOiWUOwwgXv9qOe7yiopV//6Wh7G/rA9xsAfahLRIdJzBjX3uw4AMW
-YZylVNPndLWBUhpjnYxo62C+1YF4QIC0l3okvV5O0KwOFLnlb/4ClEY0NyrRciiC
-vtfMYsdsV00y7QHQjmycOrWk
-=Tk6p
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB5IGIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ow4P/3lDRCSq9jI2kYIVETgW
+41vMOwqaHoBycP8Fpjo9Dpv4SLg7pwdPJtzbRDLVtuDq8ODzuz/RL0pXbtX8pYfc
+SaY5XiSZPCcrE/bOabarVNkVG3a5O5rQmBC6K11LJrdguDAd62H2KAvLEH2EhZBu
+mW5Mj6ajjTsT2knLsEwkOKwUk23V76ljECWWM1HgkUln7clF0pR8Q7DjWeQ90Sba
+xwDIUPNxHiO3SGOx5lTH8uat+ffZ1HZMUW/2ghyBgJTd3xlV6mQfuSb40WNXlBkJ
+U2yLON3peAoHHWz3EmsmuDCgqv50EDd6cHmBkedQ0gFRecCRkOanLE3KC8281QWr
+/BgGzbCM6+Iiq2hBFRo9bSnrxST1qXlPFLh0Vu0Fo7iWalsbuVpJnIYJlv5haY7v
+e72oguoYez+4RAE0YsAZEhF7BMKHyL9wEJYzH3zxqYWCS3A8hwPv6JYEe5NTQ01D
+fzRO8BPD5G+6sd4LFQaF4HOsZ2V4LOXLpFKYpQzimB1Gpuz4iO7lHcTaaNcwDq4I
+4M2OWoZWftaxwpkM7WWJY9gRBHhnvKnNfLzx3PuutfYWHZzTlLvFb/TH6x8ghPpO
+9Q7+eEyFnZqR2H94bZY8+KmOdskVVsfZ6h5jbgMgLKpfdBXcDLnQKwnC7PdN+6mS
+1y4d2c7WLyx8el50ZxOhl2FA
+=eih/
 -----END PGP SIGNATURE-----
 
---===============1902916219181300108==--
+--===============0049258196151546121==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4615df5df230-ed917b028d0c.txt
+
+39d2a7898d7fb61276ec766046940dda9080fd4b greybus: es2: fix kernel-doc warnings
+b4e964f84c1a44b0c63a5036efb24cf0f938db0a habanalabs/gaudi: Fix uninitialized return code rc when read size is zero
+3fae829eac71a1a1e3265337b3d25eaf80d41d9b stm class: Remove an unused function
+a525ed1787abfc007eb892c38b098352707137bc intel_th: Constify all drvdata references
+d9962f6f428449fe227f1c88c65ac3fffdf7dceb intel_th: Constify attribute_group structs
+18ffbc47d45a1489b664dd68fb3a7610a6e1dea3 intel_th: Consistency and off-by-one fix
+9f7f2a5e01ab4ee56b6d9c0572536fe5fd56e376 intel_th: pci: Add Rocket Lake CPU support
+48cb17531b15967d9d3f34c770a25cc6c4ca6ad1 intel_th: pci: Add Alder Lake-M support
+41c9f7fb64f8423750b0ccd916a8a3cf4f5c99c1 stm class: Use correct UUID APIs
+e1723d8b87b73ab363256e7ca3af3ddb75855680 phy: phy-twl4030-usb: Fix possible use-after-free in twl4030_usb_remove()
+76b453873628946d4794964fee75835114e5f35b phy: ti: j721e-wiz: Add missing include linux/slab.h
+ed917b028d0cea5d6f81472a9b7c3266feb9dd42 phy: Revert "phy: ti: j721e-wiz: add missing of_node_put"
+
+--===============0049258196151546121==--
