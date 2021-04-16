@@ -1,59 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0873619100571231847=="
+Content-Type: multipart/mixed; boundary="===============2706593063158182775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 16 Apr 2021 15:27:39 -0000
-Message-Id: <161858685924.3957.991029974347321091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
+Date: Fri, 16 Apr 2021 15:34:57 -0000
+Message-Id: <161858729736.7454.6259847444163182961@gitolite.kernel.org>
 
---===============0873619100571231847==
+--===============2706593063158182775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/kas/linux
+user: kas
 changes:
-  - ref: refs/heads/master
-    old: 3a1aa533f7f676aad68f8dbbbba10b9502903770
-    new: 392c36e5be1dee19ffce8c8ba8f07f90f5aa3f7c
-    log: revlist-3a1aa533f7f6-392c36e5be1d.txt
+  - ref: refs/heads/kvm-unmapped-poison
+    old: ae109e3c954a5d9a8e9c3991511905d32e6b702f
+    new: 1fe82d8c40614bc69af370e8f5f0116cea1b02f2
+    log: revlist-ae109e3c954a-1fe82d8c4061.txt
 
---===============0873619100571231847==
+--===============2706593063158182775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a1aa533f7f6-392c36e5be1d.txt
+Content-Disposition: attachment; filename=revlist-ae109e3c954a-1fe82d8c4061.txt
 
-d41f26b5ef8fb4d5ae6f9b51526eefa62ec53348 ice: use kernel definitions for IANA protocol ports and ether-types
-7e408e07b42dceba4bc6630ff9ce9a55fcb043e0 ice: Drop leading underscores in enum ice_pf_state
-a476d72abe6cdd2cccc3dbf5a844286cfe9684ed ice: Add new VSI states to track netdev alloc/registration
-b8b4772377dd8a916479796c8a8c5425f937fcaf ice: refactor interrupt moderation writes
-cdf1f1f169179659621bb540575b3a9d1cd38072 ice: replace custom AIM algorithm with kernel's DIM library
-b7306b42beaf6abdbcb49849b5254ad06321abd1 ice: manage interrupts during poll exit
-d59684a07e37b06295e314301c9d0c04915a52f7 ice: refactor ITR data structures
-e9c9692c8a81aacf0854f68ab54dc182f8be38e8 ice: Reimplement module reads used by ethtool
-80ad6dde61894dd880c3690b33eebbbc813e0276 ice: print name in /proc/iomem
-58623c52b4278de6ed462e6f25402457ffbdd63f ice: use local for consistency
-1cdea9a7eae3a976adc2735bc7ce62ac07cafcdb ice: remove unused struct member
-c931c782d8465c0408e14bf031e951134c30b059 ice: Set vsi->vf_id as ICE_INVAL_VFID for non VF VSI types
-b370245b4b95a07433a03e06eb3d32a01ded2c5d ice: suppress false cppcheck issues
-4fe36226943b9ca99cf51573297b39644a1946d6 ice: remove return variable
-4c26f69d0cf966044ef0c31a87c2da68fc6d066a ice: reduce scope of variable
-bd363f5493965e9c4d37cad1ec3fbf26ab1df647 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-c329e5afb42ff0a88285eb4d8a391a18793e4777 net: phy: at803x: select correct page on config init
-18b6e31f8bf4ac7af7b057228f38a5a530378e4e net: hns3: PF add support for pushing link status to VFs
-01305e16ebe7791e7a1b97485f83999f48cd79d0 net: hns3: VF not request link status when PF support push link status feature
-8f571c4cad55a32db2fba1f6d7477bfd646c376a Merge branch 'hns3-next'
-b6faf160d0dac3c8654aa911e6e281541628d304 enetc: convert to schedule_work()
-38ebcf5096a86762b82262e96b2c8b170fe79040 scm: optimize put_cmsg()
-c5797f8a64158f724238d13fa5a4b351b03fe42d ethtool: move ethtool_stats_init
-3d7cc109ecf76afc74f40eb71d5c9baa03c167a3 ethtool: fec_prepare_data() - jump to error handling
-be85dbfeb37c8c4d4344da2ee594d78034b82489 ethtool: add FEC statistics
-c9ca5c3aabafcaa934731b8a841f28f8df990b7f bnxt: implement ethtool::get_fec_stats
-cab351be53c263c857563eb56b2bbfe67e8a12a0 sfc: ef10: implement ethtool::get_fec_stats
-1703bb50df0e4248b8def88fc6dd43a505479c66 mlx5: implement ethtool::get_fec_stats
-392c36e5be1dee19ffce8c8ba8f07f90f5aa3f7c Merge branch 'ehtool-fec-stats'
+50f6137461259ae28ae16805a10d4615dfec824c x86/kvm: Introduce KVM memory protection feature
+5fcd2c49c1dbe91125dd2c74dff06e67601d3258 x86/kvm: Make DMA pages shared
+4342c511635750d5f4ac5faf68a4bbf50a290272 x86/kvm: Use bounce buffers for KVM memory protection
+3efed033381e5781a344fa754d79a5aed5d98f45 x86/kvmclock: Share hvclock memory with the host
+338c2137f0c8dd77dca95140cd25ee7e3c6ee40a x86/realmode: Share trampoline area if KVM memory protection enabled
+4f151a4b6570aa00a77651ba9e4965790c07c853 mm: Add hwpoison_entry_to_pfn() and hwpoison_entry_to_page()
+84409690b21743fb5ca00618a353df1e42e9c5c0 mm/gup: Add FOLL_ALLOW_POISONED
+c1243068e04ecbee9991979b0bf76886bf97cc1a shmem: Fail shmem_getpage_gfp() on poisoned pages
+724160fde984208f9dc20a974cc15611dd4668b4 mm: Keep page reference for hwpoison entries
+f6128e99419f89caac3b2927996f995496a1211c mm: Replace hwpoison entry with present PTE if page got unpoisoned
+ba4c10dfa41427075dec630ade78eb4cf8dabd5e KVM: passdown struct kvm to hva_to_pfn_slow()
+1fe82d8c40614bc69af370e8f5f0116cea1b02f2 KVM: unmap guest memory using poisoned pages
 
---===============0873619100571231847==--
+--===============2706593063158182775==--
