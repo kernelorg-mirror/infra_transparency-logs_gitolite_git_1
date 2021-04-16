@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Fri, 16 Apr 2021 23:16:49 -0000
-Message-Id: <161861500934.2073.12433298188643235694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 16 Apr 2021 23:26:46 -0000
+Message-Id: <161861560667.8875.11639103341563180693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/rtc-next
-    old: 199bb382375ad1b2178e250f82f6d95f8d6f7709
-    new: ef062a45ec9c2b6d15ddd9f76f897219334c7cd2
+  - ref: refs/heads/master
+    old: 151501160401e2dc669ea7dac2c599b53f220c33
+    new: 9cdbf6467424045617cd6e79dcaad06bb8efa31c
     log: |
-         ef062a45ec9c2b6d15ddd9f76f897219334c7cd2 rtc: ds1511: remove unused function
+         c7d95613c7d6e003969722a290397b8271bdad17 io_uring: fix early sqd_list removal sqpoll hangs
+         9cdbf6467424045617cd6e79dcaad06bb8efa31c Merge tag 'io_uring-5.12-2021-04-16' of git://git.kernel.dk/linux-block
          
