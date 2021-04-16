@@ -1,15 +1,15 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 16 Apr 2021 15:14:16 -0000
-Message-Id: <161858605602.26733.18346337445423895857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 16 Apr 2021 15:23:19 -0000
+Message-Id: <161858659955.1078.5894074128369348275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
   - ref: refs/heads/master
     old: 7e25f40eab52c57ff6772d27d2aef3640a3237d7
