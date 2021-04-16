@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Fri, 16 Apr 2021 12:26:59 -0000
-Message-Id: <161857601908.32309.8871023704735415750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 16 Apr 2021 12:41:42 -0000
+Message-Id: <161857690213.8162.8410643174861260964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/testing/warray-bounds
-    old: 8bd0f043b3e94069930bec5cb3fbb5c857748c80
-    new: f26f5c4b90b01bfc415b38f9246b0a36d63b9aaa
+  - ref: refs/heads/experimental
+    old: 044ccdb761346adbadbbb27719f81af922ee5c01
+    new: 2f871035cca6e03836f69be235387c9fcd0c344a
     log: |
-         f26f5c4b90b01bfc415b38f9246b0a36d63b9aaa sctp: Fix out-of-bounds warning in sctp_process_asconf_param()
+         68102c671d04841641dddb266abb6e4e968af05e erofs-utils: support adjust lz4 history window size
+         a70f35adc1b0eec1870f00e79a14c1d02b597ac6 erofs-utils: introduce ondisk compression cfgs
+         00e056e10e7c389935197c4d9927668c6efd41fb erofs-utils: add -C# for the maximum size of pclusters
+         1f074e6bd77574e742342ce2772cbeeebd7a87b6 erofs-utils: add big physical cluster definition
+         7efbb1000253f18e0e70c22669bd3cfa0efe6c56 erofs-utils: fuse: support multiple block compression
+         b71dc92df6f1034b7f30703c891c18fea6a427f7 erofs-utils: mkfs: support multiple block compression
+         418fb683fd960a66bd82deae0ca761586eb58cb2 erofs-utils: fuse: support compact indexes for bigpcluster
+         2f871035cca6e03836f69be235387c9fcd0c344a erofs-utils: mkfs: support compact indexes for bigpcluster
          
