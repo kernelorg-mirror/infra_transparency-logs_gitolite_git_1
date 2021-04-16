@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1092589441705554071=="
+Content-Type: multipart/mixed; boundary="===============7143154131631370550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 16 Apr 2021 15:56:48 -0000
-Message-Id: <161858860894.22212.15824420988460054422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 16 Apr 2021 15:56:56 -0000
+Message-Id: <161858861639.22314.16124156716134079607@gitolite.kernel.org>
 
---===============1092589441705554071==
+--===============7143154131631370550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: eea1d18e9b2d959df908746b193f66dba3078473
     new: 7ae6af41317416565951cb7dd035ce32c7d56782
     log: revlist-eea1d18e9b2d-7ae6af413174.txt
 
---===============1092589441705554071==
+--===============7143154131631370550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1618588585 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1618588606-1121b73b2acb6925931eede7023264b86a4bd53c
+pusher C3F436CA30F5D8EB 1618588593 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1618588613-afa3b35de340a69d28aeba33d29543b3ca130b94
 
-eea1d18e9b2d959df908746b193f66dba3078473 7ae6af41317416565951cb7dd035ce32c7d56782 refs/heads/for-5.13
+eea1d18e9b2d959df908746b193f66dba3078473 7ae6af41317416565951cb7dd035ce32c7d56782 refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB5s6kACgkQJNaLcl1U
-h9BbeAf/ZKbeqp1Cuin9qyJluiHvw+lcKwZO7qc1bZKLbdgDrSGqASKDrueMZXNY
-TASjINMnSeWVdZs+ttqf/xvMn8tvs9cuLGqlJxtUJVrcy3P0LfnpIiev+d6LmD7T
-VEYFnbrOWM5nP5gax2I8xmKyTHi0DrLApldoBMJp0NzE9+48lCroiy5V+s4wEFqa
-knagihvA908YvzA7aZ3ovELGp3X3vEZ24tQqD5XAvdmI2lBQPKIQ+/bnCo7PP38Q
-5xn1fyxM4FSs/Di0MfptB79m04PxueGtv+FXF6S9n83+rXS5P+ULKYJrtKYtT414
-tby5wBAMi1BUf8fLIL/z0VT5TTv6uA==
-=z9+f
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB5s7EACgkQJNaLcl1U
+h9BEjwf/SieqorBCSL/O87pDMqMdswyz9fey9Tqsia9msLtt/iopZTpmkOS81MwU
+hQD5F7LC413F3TKYr6O83b8/lR6f7SvkZ8XqjSPgrK1yBZGOD7MHO3yttEKsLah1
+cVHvcIB56jstoCPd8rBkPgrybsGtutCvgJMAimwxuXpo0U4R0WJX08FGCSvn15cO
+TuDEZN+IlANPqaxKmcC5JpGS8Ag6sZR68MUyjcxChgv2uSP1iEu8hVavR82CfLn7
+ayDsFfDPCsVeNOR5Gvhq5p4bmhtC5RRXvK12hT/u3ebZV2xly92a3wXiRjXL2AcY
+Fyg3Sa9xbb9ubnNDrtad4wijn07NWQ==
+=FS9n
 -----END PGP SIGNATURE-----
 
---===============1092589441705554071==
+--===============7143154131631370550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ ee39d77ed91f220b1458137118dea158a095d5c5 ASoC: soc-pcm: indicate DAI name if soc
 ac22cf52523a6a71fd8866e8c9d3ae1e79663381 Merge series "ASoC: soc-pcm: ignore dummy-DAI at soc_pcm_params_symmetry()" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
 7ae6af41317416565951cb7dd035ce32c7d56782 Merge series "ASoC: Intel: add new TGL/ADL configurations" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 
---===============1092589441705554071==--
+--===============7143154131631370550==--
