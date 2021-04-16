@@ -1,33 +1,121 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 16 Apr 2021 02:50:04 -0000
-Message-Id: <161854140487.8828.5094923349519648024@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2328066185097664610=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Fri, 16 Apr 2021 02:50:42 -0000
+Message-Id: <161854144280.9276.2648795837819523129@gitolite.kernel.org>
+
+--===============2328066185097664610==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13/io_uring
-    old: 6b9ae4fa0e2c5059ac0fec12910f1e2d83933526
-    new: f31f95c77e692938ddec5dc90fddbe8117163cd9
-    log: |
-         ea6a693d862d4f0edd748a1fa3fc6faf2c39afb2 io_uring: disable multishot poll for double poll add cases
-         386375a8a4481c0cc08c14414b3a56e7a3bcd594 io_uring: put flag checking for needing req cleanup in one spot
-         ed9645b19b76f106de77b9ed2701bc08844e00e8 io_uring: tie req->apoll to request lifetime
-         f31f95c77e692938ddec5dc90fddbe8117163cd9 io_uring: fix merge error for async resubmit
-         
-  - ref: refs/heads/for-next
-    old: edd7216260c8dbf96208a082aba127d1866feb53
-    new: 307f05465aafd5b71155c69c7105cb650203c0a5
-    log: |
-         ea6a693d862d4f0edd748a1fa3fc6faf2c39afb2 io_uring: disable multishot poll for double poll add cases
-         386375a8a4481c0cc08c14414b3a56e7a3bcd594 io_uring: put flag checking for needing req cleanup in one spot
-         ed9645b19b76f106de77b9ed2701bc08844e00e8 io_uring: tie req->apoll to request lifetime
-         f31f95c77e692938ddec5dc90fddbe8117163cd9 io_uring: fix merge error for async resubmit
-         5285cde704930c1a8b14592a5ae825a2b3aa9634 Merge branch 'for-5.13/drivers' into for-next
-         307f05465aafd5b71155c69c7105cb650203c0a5 Merge branch 'for-5.13/io_uring' into for-next
-         
+  - ref: refs/tags/mkp-scsi-queue
+    old: 17ec23ea8c51e7e8913cced9ed2a8378248481a4
+    new: 22c673410d529c02a59dbd7b45d4c7baccae71f2
+    log: revlist-17ec23ea8c51-22c673410d52.txt
+
+--===============2328066185097664610==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 75C5DE3D 1618541441 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1618541440-b476bdf97ac246a0a16c3c88af9d75e7d9a5f8da
+
+17ec23ea8c51e7e8913cced9ed2a8378248481a4 22c673410d529c02a59dbd7b45d4c7baccae71f2 refs/tags/mkp-scsi-queue
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmB4+4EACgkQ7ulgGnXF
+3j2MrA/+KkgI4TLpplk+AIOuGcgrmlSM1kSb5VHBac9KksFahgUQ6reu6QqHalda
+bRZCkjpObd7DxlMaJr3RxCVXp6j+CNGvq3kBsGRB6EaL8UEZ1h4Soud0qYBAAknF
+4ONPrHdO63/bHlZ/YvB3fLQOt2Mn0NYgZKtI/1YZ6Tszhobm0hXEK+nC4T/cU49h
+HP8gm/4m6SELOUYh/UMHJYwqnFPFUUpIccZ3ihIi93JzgGJ6jtkFJD0ZpQduxteg
+fH9FDsyxvrKiorC0faCMBCOfFIapKZhPvdjfSOqYZM0f3Kd2PBXjwBwNhUenyWeU
+nkfdqp+i2xrKuPrGchh2R5ZCsIYoNxRDuZQ2t2wFTsur6l0ntWw6K55bNo3oW9OO
+Jd/LLKEGWr4zmW7E0/3eY5EA4YFXYt06/Vd1dnmhbC3b28ZweTo9Co9nPGCvYan/
+yQuJNISdubk0fjkqrElZmWXB0U3vAikA6ngZieEK6xEE927DJt2rw1uxMvB3BAor
+cdS/j2ZGR9CKb9h4ieU9oGCL4zV5GHmDuExQ3bsov/wsHeo3cozBKkzm+w6D2jfr
+7hk/nZw9dqKU4R7zhubWOm7Qzj407N4RXRhYPosuTYtnErN30OYtEDZfUjuMPkNg
+KC9M0ka4XMLC8siPlrT/ZNJCt+w1zvCJ8gtfXv15pczS0yR0Wwk=
+=K+mH
+-----END PGP SIGNATURE-----
+
+--===============2328066185097664610==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-17ec23ea8c51-22c673410d52.txt
+
+5482a9a1a8fd23fbb57afc6d409e12713aa93fa5 scsi: hpsa: Use __packed on individual structs, not header-wide
+02ec144292bc424a5800d45d4cb472c66e97c520 scsi: hpsa: Fix boot on ia64 (atomic_t alignment)
+e01a00ff62adca8ec464f3c8d82cfa0e8d8728dd scsi: hpsa: Add an assert to prevent __packed reintroduction
+1235fc569e0bf541ddda0a1224d4c6fa6d914890 scsi: ufs: core: Fix task management request completion timeout
+4b42d557a8add52b9a9924fb31e40a218aab7801 scsi: ufs: core: Fix wrong Task Tag used in task management request UPIUs
+65df7d1986a1909a0869419919e7d9c78d70407e scsi: pm80xx: Fix chip initialization failure
+0352c3d3959a6cf543075b88c7e662fd3546f12e scsi: target: iscsi: Fix zero tag inside a trace event
+5cd0f6f57639c5afbb36100c69281fee82c95ee7 scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
+84b20b8062e76a0290aee7360c8238df681c106e Merge branch '5.12/scsi-fixes' into 5.13/scsi-staging
+ecddbb7e945daabdf28a29b95c4a2d88d166a891 scsi: target: tcmu: Adjust names of variables and definitions
+8b084d9dfb0158362c3be6ee7fdc8c8320a0ba30 scsi: target: tcmu: Prepare for PAGE_SIZE != DATA_BLOCK_SIZE
+f5ce815f34bc97b92f5605eced806f1d32e1d602 scsi: target: tcmu: Support DATA_BLOCK_SIZE = N * PAGE_SIZE
+3722e36c4ea4b9e39fe468dd1776b43c61a0c459 scsi: target: tcmu: Remove function tcmu_get_block_page()
+e719afdcf6911425c404ec50403a9aa116b2b616 scsi: target: tcmu: Replace block size definitions with new udev members
+08976cb548d67d8a492d75c9202fde28e21915e2 scsi: target: tcmu: Make data_pages_per_blk changeable via configfs
+3f744a14f331f56703a9d74e86520db045f11831 scsi: pm80xx: Increase timeout for pm80xx mpi_uninit_check()
+6f305bf699fe233ef27d80cc29fd1650423c8e74 scsi: pm80xx: Remove busy wait from mpi_uninit_check()
+40fa7394a1ad5706e795823276f2e394cca145d0 scsi: pm80xx: Fix potential infinite loop
+8a23dbc600895694b7deb4302b735f2b8d274a5d scsi: pm8001: Clean up white space
+fa5ac2beabadc2ef5eaae0f99407e708bd5dbd66 scsi: pm8001: Clean up open braces
+2843d2fb42254ac443c83e5e0b97e1cae6b7a4de scsi: hisi_sas: Delete some unused callbacks
+4da0b7f6fac331f2d2336df3ca88a335f545b4dc scsi: hisi_sas: Print SAS address for v3 hw erroneous completion print
+f467666504bf0c7eae95b929d0c86f77ff9b4356 scsi: hisi_sas: Call sas_unregister_ha() to roll back if .hw_init() fails
+2c74cb1f9222ebfcc204c02018275ad167d25212 scsi: hisi_sas: Directly snapshot registers when executing a reset
+2d31cb20a3cd611a9a544f9586eb3908ee2085cf scsi: hisi_sas: Warn in v3 hw channel interrupt handler when status reg cleared
+f4df167ad5a2274c12680ba3e7d816d32d1fc375 scsi: hisi_sas: Print SATA device SAS address for soft reset failure
+790f9a48abd0e4cd1b202b6093055c295d4b8e3d scsi: ufs: ufs-qcom: Remove redundant dev_err() call in ufs_qcom_init()
+54300bfd738b649004793ce138a29c30e900ec21 scsi: snic: Convert to DEFINE_SHOW_ATTRIBUTE()
+339c9b63cc7ce779ce45c675bf709cb58b807fc3 scsi: ufs: ufshcd-pltfrm: Fix deferred probing
+6c11dc060427e07ca144eacaccd696106b361b06 scsi: hisi_sas: Fix IRQ checks
+38fca15c29db6ed06e894ac194502633e2a7d1fb scsi: jazz_esp: Add IRQ check
+14b321380eb333c82853d7d612d0995f05f88fdc scsi: sun3x_esp: Add IRQ check
+1160d61bc51e87e509cfaf9da50a0060f67b6de4 scsi: sni_53c710: Add IRQ check
+4aab946f789ed7c2e44481f395ab2eab0b63824a scsi: qedf: Enable devlink support
+9d6f87c25ad57b52a4dc8c2d904ead37fe829512 scsi: qedf: Use devlink to report errors and recovery
+16660db3fc2af8664af5e0a3cac69c4a54bfb794 scsi: mpt3sas: Fix out-of-bounds warnings in _ctl_addnl_diag_query
+efd2617100d9c6a49c8cd27160a2353b04844d78 scsi: qla2xxx: Remove unneeded if-null-free check
+5dc3468888f8ba54c3a2fdd38b13288f6b8daed2 scsi: qla2xxx: Reuse existing error handling path
+eb5a3e3b75fe31a5ce53ad632bbc96c76c63d3e9 scsi: qla4xxx: Remove unneeded if-null-free check
+039cf38166486ac42ce54df3c4cb951561e91617 scsi: message: fusion: Remove unused local variable 'time_count'
+30264737bd954a2af6361316b862afeed579d103 scsi: message: fusion: Remove unused local variable 'port'
+c436b41a99b74936eb0a0ff34c42696ae36da156 scsi: message: fusion: Remove unused local variable 'status'
+cf17ff2678806780ddfe33cf3e9457f369170661 scsi: message: fusion: Remove unused local variable 'vtarget'
+8350e19658c1632874888971052a5ace92dae7c5 scsi: isci: Remove unnecessary struct declaration
+078c68b87a717b9fcd8e0f2109f73456fbc55490 scsi: lpfc: Fix rmmod crash due to bad ring pointers to abort_iotag
+fffd18ec6579c2d9c72b212169259062fe747888 scsi: lpfc: Fix crash when a REG_RPI mailbox fails triggering a LOGO response
+f866eb06c087125619457b53e9211a9e758f64f7 scsi: lpfc: Fix reference counting errors in lpfc_cmpl_els_rsp()
+a789241e49b6adce84cdba7a24c92ecc845aface scsi: lpfc: Fix NMI crash during rmmod due to circular hbalock dependency
+4e76d4a9a226e3c7d453675f22359aba34e73ec4 scsi: lpfc: Fix lack of device removal on port swaps with PRLIs
+304ee43238fed517faa123e034b593905b8679f8 scsi: lpfc: Fix error handling for mailboxes completed in MBX_POLL mode
+724f6b43a3492b02e2ebc88f9fb749d1405098e2 scsi: lpfc: Fix use-after-free on unused nodes after port swap
+a1a553e31a994be6f68d3123c0546a84c04a7f6c scsi: lpfc: Fix silent memory allocation failure in lpfc_sli4_bsg_link_diag_test()
+a314dec37c0e3879e964b574564b205b3529daa5 scsi: lpfc: Fix missing FDMI registrations after Mgmt Svc login
+d3de0d11a219f32b185d525cca2568817e22d3a1 scsi: lpfc: Fix lpfc_hdw_queue attribute being ignored
+b62232ba8caccaf1954e197058104a6478fac1af scsi: lpfc: Remove unsupported mbox PORT_CAPABILITIES logic
+3bfab8a026b393d5836e6e5abdc201d510dda857 scsi: lpfc: Fix various trivial errors in comments and log messages
+f115612528b8e25ff01b6749e0ac61ff6a0f51a0 scsi: lpfc: Standardize discovery object logging format
+5b1f5089b6e65a8a146ae9d0c69708d369c349e4 scsi: lpfc: Eliminate use of LPFC_DRIVER_NAME in lpfc_attr.c
+3ebd25b0a44359befbbfb17c545d96a10d84e77a scsi: lpfc: Update lpfc version to 12.8.0.9
+cf270817cafb394547b1d301edfda8222030a26e scsi: lpfc: Copyright updates for 12.8.0.9 patches
+15cfef8623a449d40d16541687afd58e78033be3 scsi: ibmvfc: Fix invalid state machine BUG_ON()
+
+--===============2328066185097664610==--
