@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtracefs
-Date: Fri, 16 Apr 2021 19:17:10 -0000
-Message-Id: <161860063072.18501.2490968030361423932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 16 Apr 2021 19:29:54 -0000
+Message-Id: <161860139451.26242.10477892141430747356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtracefs
-user: rostedt
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/libtracefs
-    old: 2e7af334af1820cba0f7478616f2d1a70aecb79b
-    new: 1403a4f5f642406ebe8fab0e2ad85d28ab5d08fe
+  - ref: refs/heads/master
+    old: 2a4d2ed44159f701efc142233d9568fb2653ce9a
+    new: 7d0927533e3f4dba2215036ab7a446cbc2d67d3a
     log: |
-         2180509ecfeb358ba1e111811ecb8e07ab758d81 libtracefs: Add more methods for writing to files
-         749283b51adcbfd664137b330938439351102405 libtracefs: Add tests for the new methods for writing
-         1403a4f5f642406ebe8fab0e2ad85d28ab5d08fe libtracefs: Document the new methods for writing to file.
+         7d0927533e3f4dba2215036ab7a446cbc2d67d3a Fri 16 Apr 2021 07:29:29 PM UTC
          
