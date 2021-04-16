@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 16 Apr 2021 00:17:39 -0000
-Message-Id: <161853225942.7512.13882169787281133352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 16 Apr 2021 00:29:19 -0000
+Message-Id: <161853295949.14786.9104133176493891386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 38ebcf5096a86762b82262e96b2c8b170fe79040
-    new: 392c36e5be1dee19ffce8c8ba8f07f90f5aa3f7c
+  - ref: refs/heads/net-next-mlx5
+    old: f9cc264aae8682bf6c662baacb20541e2a0f4c31
+    new: 30cddf9f110f8990602ebdab495cb684b9aa2df4
     log: |
-         c5797f8a64158f724238d13fa5a4b351b03fe42d ethtool: move ethtool_stats_init
-         3d7cc109ecf76afc74f40eb71d5c9baa03c167a3 ethtool: fec_prepare_data() - jump to error handling
-         be85dbfeb37c8c4d4344da2ee594d78034b82489 ethtool: add FEC statistics
-         c9ca5c3aabafcaa934731b8a841f28f8df990b7f bnxt: implement ethtool::get_fec_stats
-         cab351be53c263c857563eb56b2bbfe67e8a12a0 sfc: ef10: implement ethtool::get_fec_stats
-         1703bb50df0e4248b8def88fc6dd43a505479c66 mlx5: implement ethtool::get_fec_stats
-         392c36e5be1dee19ffce8c8ba8f07f90f5aa3f7c Merge branch 'ehtool-fec-stats'
+         906449522764aae9e85508b46dcbfa88ee626cb9 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux into net-next
+         9c1d76c2a483e5f11a64416599aa585c9a6d8e2e Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux into net-next
+         a11bb55d7906ed1f69c4c5137dea8e6c5e2a1391 net/mlx5: Fix devlink reload LOCKDEP warning
+         fe3708bbde8191d878397ad47cbef3cbf88f14f3 net/mlx5: Don't allow health work when device is probing
+         f6aabd2a4b17275dcc2193c5367f70de8d9328ae Revert "net/mlx5: Fix fatal error handling during device load"
+         30cddf9f110f8990602ebdab495cb684b9aa2df4 netfilter: flowtable: Make sure dst_cache is valid before using it
          
