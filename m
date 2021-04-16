@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 16 Apr 2021 19:16:44 -0000
-Message-Id: <161860060407.18304.3441260744071278326@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Fri, 16 Apr 2021 19:17:10 -0000
+Message-Id: <161860063072.18501.2490968030361423932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/libs/libtrace/libtracefs
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 2f7b98d1e55ccd34e4998bf5f321ec7b9d6b451b
-    new: 151501160401e2dc669ea7dac2c599b53f220c33
+  - ref: refs/heads/libtracefs
+    old: 2e7af334af1820cba0f7478616f2d1a70aecb79b
+    new: 1403a4f5f642406ebe8fab0e2ad85d28ab5d08fe
     log: |
-         22315a2296f4c251fa92aec45fbbae37e9301b6c arm64: alternatives: Move length validation in alternative_{insn, endif}
-         199fc6b8dee7d6d50467a57e0dc7e3e1b7d59966 riscv: Fix spelling mistake "SPARSEMEM" to "SPARSMEM"
-         2349a3b26e29b8d860466bafda2e02b4b87a9e40 riscv: add do_page_fault and do_trap_break into the kprobes blacklist
-         e31be8d343e64e7ab17aef55c1d1b36dc504da67 riscv: kprobes/ftrace: Add recursion protection to the ftrace callback
-         7ae11635ec90072083503c6b6485cdffe46203b3 riscv: keep interrupts disabled for BREAKPOINT exception
-         06c2aac4014c38247256fe49c61b7f55890271e7 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-         151501160401e2dc669ea7dac2c599b53f220c33 Merge tag 'riscv-for-linus-5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+         2180509ecfeb358ba1e111811ecb8e07ab758d81 libtracefs: Add more methods for writing to files
+         749283b51adcbfd664137b330938439351102405 libtracefs: Add tests for the new methods for writing
+         1403a4f5f642406ebe8fab0e2ad85d28ab5d08fe libtracefs: Document the new methods for writing to file.
          
