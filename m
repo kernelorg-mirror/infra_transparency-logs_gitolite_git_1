@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9186248743080451041=="
+Content-Type: multipart/mixed; boundary="===============6283320510343075186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
-Date: Fri, 16 Apr 2021 19:08:26 -0000
-Message-Id: <161860010687.12712.10363745167825883951@gitolite.kernel.org>
+Date: Fri, 16 Apr 2021 19:09:03 -0000
+Message-Id: <161860014399.13126.14478214621111827032@gitolite.kernel.org>
 
---===============9186248743080451041==
+--===============6283320510343075186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,316 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pali/linux
 user: pali
 changes:
-  - ref: refs/heads/pci-aardvark
-    old: 9170f2d04034498c69996110469d7ec7cee54e50
-    new: 911562bbba7ced68c7d9d41b4e7456e54ead24e2
-    log: revlist-9170f2d04034-911562bbba7c.txt
+  - ref: refs/heads/master
+    old: a38fd8748464831584a19438cbb3082b5a2dab15
+    new: 7e25f40eab52c57ff6772d27d2aef3640a3237d7
+    log: revlist-a38fd8748464-7e25f40eab52.txt
+  - ref: refs/tags/v4.14.222
+    old: 0000000000000000000000000000000000000000
+    new: 60a77113b06505239ecaa826265ede83dda5ecef
+  - ref: refs/tags/v4.14.223
+    old: 0000000000000000000000000000000000000000
+    new: ccec28c0704985d4add4a3f3c9978aaa8e416b6a
+  - ref: refs/tags/v4.14.224
+    old: 0000000000000000000000000000000000000000
+    new: fddb3beee1853dcc354c049f90a91313ab9673f3
+  - ref: refs/tags/v4.14.225
+    old: 0000000000000000000000000000000000000000
+    new: e2f598a8731eb4051ce4b7351d298eed6bfab3ea
+  - ref: refs/tags/v4.14.226
+    old: 0000000000000000000000000000000000000000
+    new: 13902e320f6775c32beb72ffa84641d0883c61e7
+  - ref: refs/tags/v4.14.227
+    old: 0000000000000000000000000000000000000000
+    new: 68c974fd1b94c41bbc9d5316cd2b984e6be3d953
+  - ref: refs/tags/v4.14.228
+    old: 0000000000000000000000000000000000000000
+    new: 47c30ee815cd30a43816e4c4a3cfdae597c0be58
+  - ref: refs/tags/v4.14.229
+    old: 0000000000000000000000000000000000000000
+    new: 7387eec0e567c09d7362b5cc3b932f44d7fb5313
+  - ref: refs/tags/v4.14.230
+    old: 0000000000000000000000000000000000000000
+    new: 5e4b831556053ee05c1e438a3bfc3d05a92fb20a
+  - ref: refs/tags/v4.19.177
+    old: 0000000000000000000000000000000000000000
+    new: ee16436d6c52fc62bb5195ffb93153c27e9a91bc
+  - ref: refs/tags/v4.19.178
+    old: 0000000000000000000000000000000000000000
+    new: 4fc37b8c5b18fc4040c81b738c3a3609b4725e97
+  - ref: refs/tags/v4.19.179
+    old: 0000000000000000000000000000000000000000
+    new: 6cfda77eefee2d58a3a5f0e5dcc1b259311beea5
+  - ref: refs/tags/v4.19.180
+    old: 0000000000000000000000000000000000000000
+    new: 0e393abc9980e57962bc3952cca9931ddf0f66b9
+  - ref: refs/tags/v4.19.181
+    old: 0000000000000000000000000000000000000000
+    new: 7aa34551c9600a8f5765627b9147d88b325dc1d1
+  - ref: refs/tags/v4.19.182
+    old: 0000000000000000000000000000000000000000
+    new: 3b8a21de98cacfb5620fe726d2468f1ca19f6512
+  - ref: refs/tags/v4.19.183
+    old: 0000000000000000000000000000000000000000
+    new: 3303d5107be6dd6d10f67f95decbe731c1fa1c74
+  - ref: refs/tags/v4.19.184
+    old: 0000000000000000000000000000000000000000
+    new: 34da252e89041e71e670874a8be3ac1dff185755
+  - ref: refs/tags/v4.19.185
+    old: 0000000000000000000000000000000000000000
+    new: f36af9cdbec6ce5414ce8f1fbf85e1ce03d5f214
+  - ref: refs/tags/v4.19.186
+    old: 0000000000000000000000000000000000000000
+    new: 7626db3aca680600f064eea9bb8220c3778e25fb
+  - ref: refs/tags/v4.19.187
+    old: 0000000000000000000000000000000000000000
+    new: d5f16f0b073a460a0333b806654925eca02997f8
+  - ref: refs/tags/v4.4.258
+    old: 0000000000000000000000000000000000000000
+    new: 3bc962a9c9ec92df45e23f159b8d28feca14f347
+  - ref: refs/tags/v4.4.259
+    old: 0000000000000000000000000000000000000000
+    new: 0581bf2538bbb2518ea3402d723095170b22197d
+  - ref: refs/tags/v4.4.260
+    old: 0000000000000000000000000000000000000000
+    new: a5625972900e987ee082a07472dd68b637bf0fd4
+  - ref: refs/tags/v4.4.261
+    old: 0000000000000000000000000000000000000000
+    new: d9a3ed5c2d9338327331daac4926e004542abde3
+  - ref: refs/tags/v4.4.262
+    old: 0000000000000000000000000000000000000000
+    new: a61419c73ae8a25915a2ef6159a3a2146a728329
+  - ref: refs/tags/v4.4.263
+    old: 0000000000000000000000000000000000000000
+    new: 1fdb216734897441fe2393e6ce02762de2ce50a8
+  - ref: refs/tags/v4.4.264
+    old: 0000000000000000000000000000000000000000
+    new: e2136d076a4db9cd1665c21a0ca2d35d5f8699a2
+  - ref: refs/tags/v4.4.265
+    old: 0000000000000000000000000000000000000000
+    new: 2726b7dc70dfec608ba9e4b194bd9b9f084895d4
+  - ref: refs/tags/v4.4.266
+    old: 0000000000000000000000000000000000000000
+    new: 3c3fc83327d3ccb56c1b18e34b31943ff55da170
+  - ref: refs/tags/v4.9.258
+    old: 0000000000000000000000000000000000000000
+    new: 401075e99f97d4c1dc724caf3e788c2260c062a8
+  - ref: refs/tags/v4.9.259
+    old: 0000000000000000000000000000000000000000
+    new: 7ec3947bd1ac11dd0f61596eacd767d38312802f
+  - ref: refs/tags/v4.9.260
+    old: 0000000000000000000000000000000000000000
+    new: 13bdf4cb7795e70a1baa87d9f87a925e5fe47074
+  - ref: refs/tags/v4.9.261
+    old: 0000000000000000000000000000000000000000
+    new: 6e1ed937e2602b2ca8591f9e5eab2805fd217693
+  - ref: refs/tags/v4.9.262
+    old: 0000000000000000000000000000000000000000
+    new: 1b6947532ca7afd6eba704a0cf6464ae737adc19
+  - ref: refs/tags/v4.9.263
+    old: 0000000000000000000000000000000000000000
+    new: 49de6cf2e410d1c8b31423772cc4a95a23a9b586
+  - ref: refs/tags/v4.9.264
+    old: 0000000000000000000000000000000000000000
+    new: 26f5be9efdc81fdbd456855b1736b09eb5db63e6
+  - ref: refs/tags/v4.9.265
+    old: 0000000000000000000000000000000000000000
+    new: 43b323df42f06667464c9b0bcf9d486b5d843c9f
+  - ref: refs/tags/v4.9.266
+    old: 0000000000000000000000000000000000000000
+    new: 4f8ca41e4d962a2ec37af34873269ddb92967350
+  - ref: refs/tags/v5.10.17
+    old: 0000000000000000000000000000000000000000
+    new: 2cb2bc6111d2169b5c58a5c0d6147702c0510360
+  - ref: refs/tags/v5.10.18
+    old: 0000000000000000000000000000000000000000
+    new: e649d2d24e886d30edc3672ebf43c694b4ee2230
+  - ref: refs/tags/v5.10.19
+    old: 0000000000000000000000000000000000000000
+    new: ae6a359f10b0a3c4bad5c91b927c5d0f2246b4b0
+  - ref: refs/tags/v5.10.20
+    old: 0000000000000000000000000000000000000000
+    new: 502b1e6e233b4d71f29ef19f9b08338be824ab96
+  - ref: refs/tags/v5.10.21
+    old: 0000000000000000000000000000000000000000
+    new: ca664480a5bdc6dff3662eea0ba374b425ec988b
+  - ref: refs/tags/v5.10.22
+    old: 0000000000000000000000000000000000000000
+    new: 068fcb4af9360bac1e393fd7a81851fe3c221410
+  - ref: refs/tags/v5.10.23
+    old: 0000000000000000000000000000000000000000
+    new: 9b6a106f851e0b2b14c526ad9fdbafd23418278a
+  - ref: refs/tags/v5.10.24
+    old: 0000000000000000000000000000000000000000
+    new: acd07024f1263e0fef9df79bebf71cd8f7160e3a
+  - ref: refs/tags/v5.10.25
+    old: 0000000000000000000000000000000000000000
+    new: bfea799d50ea54d9dbeb917ec31b6a4d948f5d5d
+  - ref: refs/tags/v5.10.26
+    old: 0000000000000000000000000000000000000000
+    new: d21c465def321e984b0663d79da034d799089b3a
+  - ref: refs/tags/v5.10.27
+    old: 0000000000000000000000000000000000000000
+    new: ff8a6edb748c3f307f6782ca4bf9c46f30c134cc
+  - ref: refs/tags/v5.10.28
+    old: 0000000000000000000000000000000000000000
+    new: 6f6d9038ac966ec6b70e72a707cb9b76213fe864
+  - ref: refs/tags/v5.10.29
+    old: 0000000000000000000000000000000000000000
+    new: dfaff3ae33d46cf92cdfa22d6088dc94a919a6d2
+  - ref: refs/tags/v5.10.30
+    old: 0000000000000000000000000000000000000000
+    new: 8597904f495bfcf9117074336da60eec58d3d0d6
+  - ref: refs/tags/v5.11.1
+    old: 0000000000000000000000000000000000000000
+    new: d59d107f188995f3860d1d3238cb02f0d86c069d
+  - ref: refs/tags/v5.11.10
+    old: 0000000000000000000000000000000000000000
+    new: de0e07d2c370815e93a5aac9068e697e1749cf14
+  - ref: refs/tags/v5.11.11
+    old: 0000000000000000000000000000000000000000
+    new: 4e9f68f80660439e2796da321af7b53f8dbe8336
+  - ref: refs/tags/v5.11.12
+    old: 0000000000000000000000000000000000000000
+    new: 6ce42885152b1120e1b27c25ac1a25aff8eea068
+  - ref: refs/tags/v5.11.13
+    old: 0000000000000000000000000000000000000000
+    new: f65e70c392afb09700082a559920aa49441c510c
+  - ref: refs/tags/v5.11.14
+    old: 0000000000000000000000000000000000000000
+    new: d7ffec53a8332eb43e7d91226cb6b788fd9351e0
+  - ref: refs/tags/v5.11.2
+    old: 0000000000000000000000000000000000000000
+    new: 2539d1a8665ed6e4e7ad766383347f7ec4e1ce21
+  - ref: refs/tags/v5.11.3
+    old: 0000000000000000000000000000000000000000
+    new: 11838854ed44e02b23c6dc4d4840edae2e9defbd
+  - ref: refs/tags/v5.11.4
+    old: 0000000000000000000000000000000000000000
+    new: 72df56a7240fea60881c12f68442530d1fba1878
+  - ref: refs/tags/v5.11.5
+    old: 0000000000000000000000000000000000000000
+    new: 09940d016c3a7b3ec9881096f6e9bb5ec8d90961
+  - ref: refs/tags/v5.11.6
+    old: 0000000000000000000000000000000000000000
+    new: 6c72c5786c4202670ccb3ec788ba655e5c86e006
+  - ref: refs/tags/v5.11.7
+    old: 0000000000000000000000000000000000000000
+    new: 47aa4cec1382eee90fd554cc00f2530ad85f0956
+  - ref: refs/tags/v5.11.8
+    old: 0000000000000000000000000000000000000000
+    new: 9313ba2fc042646c6edf1a7a132f223f282ad191
+  - ref: refs/tags/v5.11.9
+    old: 0000000000000000000000000000000000000000
+    new: 1bcbc9009e75a1990b29c9e774f243ef1c425a4c
+  - ref: refs/tags/v5.12-rc1-dontuse
+    old: 0000000000000000000000000000000000000000
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v5.12-rc3
+    old: 0000000000000000000000000000000000000000
+    new: a6d574dee98b6bc676391ba747e348b7705732c0
+  - ref: refs/tags/v5.12-rc4
+    old: 0000000000000000000000000000000000000000
+    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
+  - ref: refs/tags/v5.12-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
+  - ref: refs/tags/v5.12-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
+  - ref: refs/tags/v5.12-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 33bc861b3af62f4d44957319d850f1767d16ab84
+  - ref: refs/tags/v5.4.100
+    old: 0000000000000000000000000000000000000000
+    new: 58760e9343aa777b458655852e22ae0fe1a9dac1
+  - ref: refs/tags/v5.4.101
+    old: 0000000000000000000000000000000000000000
+    new: c00bc3b5c84c2eff03b381ecd4aa945699a5b968
+  - ref: refs/tags/v5.4.102
+    old: 0000000000000000000000000000000000000000
+    new: 96d4ca76c5b21a087e7400c5ca9e659028269533
+  - ref: refs/tags/v5.4.103
+    old: 0000000000000000000000000000000000000000
+    new: 430ee6701bad39695f33644d00081c16c5a68421
+  - ref: refs/tags/v5.4.104
+    old: 0000000000000000000000000000000000000000
+    new: 57b773384fec75c246990327d0d05cb5a70c5dc6
+  - ref: refs/tags/v5.4.105
+    old: 0000000000000000000000000000000000000000
+    new: 189819e6ef41709d77536e34f91e62b20e2ce852
+  - ref: refs/tags/v5.4.106
+    old: 0000000000000000000000000000000000000000
+    new: 82f76fa87c220106cb2a83459ecc0fdc2ee2a9b8
+  - ref: refs/tags/v5.4.107
+    old: 0000000000000000000000000000000000000000
+    new: df69557459b661373e0c9b1bb02dcbe3d399234f
+  - ref: refs/tags/v5.4.108
+    old: 0000000000000000000000000000000000000000
+    new: aaf14ab5e5c9022510f6409efad93604728857c2
+  - ref: refs/tags/v5.4.109
+    old: 0000000000000000000000000000000000000000
+    new: 04b95d0e35e7aa78b55b3c0a4bdf2f7c3702aad2
+  - ref: refs/tags/v5.4.110
+    old: 0000000000000000000000000000000000000000
+    new: 315072677f84c8fcd892e751ff36036f206c01c6
+  - ref: refs/tags/v5.4.111
+    old: 0000000000000000000000000000000000000000
+    new: a023060eb2ee05a6a1b0088b200cc599f8d7f857
+  - ref: refs/tags/v5.4.112
+    old: 0000000000000000000000000000000000000000
+    new: edfea43203b4ebac0f0a68b700e2d1ab5702a7a8
+  - ref: refs/tags/v5.4.99
+    old: 0000000000000000000000000000000000000000
+    new: 8a928b8db0189c38c62074f1ba83221d7d69ac68
 
---===============9186248743080451041==
+--===============6283320510343075186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9170f2d04034-911562bbba7c.txt
+Content-Disposition: attachment; filename=revlist-a38fd8748464-7e25f40eab52.txt
 
+08889894cc82bc3b213bdb192f274358e5a6b78d KVM: x86/mmu: Store the address space ID in the TDP iterator
+34e49994d0dcdb2d31d4d2908d04f4e9ce57e4d7 btrfs: fix slab cache flags for free space tree bitmap
+dbcc7d57bffc0c8cac9dac11bec548597d59a6a5 btrfs: fix race when cloning extent buffer during rewind of an old root
+485df75554257e883d0ce39bb886e8212349748e btrfs: always pin deleted leaves when there are active tree mod log users
+1944015fe9c1d9fa5e9eb7ffbbb5ef8954d6753b mac80211: fix rate mask reset
+3bd801b14e0c5d29eeddc7336558beb3344efaa3 mac80211: fix double free in ibss_leave
+29175be06d2f7d0e694bbdd086644dc15db66d60 mac80211: minstrel_ht: remove unused variable 'mg'
+0f7e90faddeef53a3568f449a0c3992d77510b66 mac80211: Allow HE operation to be longer than expected.
+58d25626f6f0ea5bcec3c13387b9f835d188723d mac80211: Check crypto_aead_encrypt for errors
+77cbf790e5b482256662e14c8b6ef4fecb07d06d nl80211: fix locking for wireless device netns change
+041c881a0ba8a75f71118bd9766b78f04beed469 mac80211: choose first enabled channel for monitor
+239729a21e528466d02f5558936306ffa9314ad1 wireless/nl80211: fix wdev_id may be used uninitialized
+d88d05a9e0b6d9356e97129d4ff9942d765f46ea perf/x86/intel: Fix a crash caused by zero PEBS status
+2dc0572f2cef87425147658698dce2600b799bd3 perf/x86/intel: Fix unchecked MSR access error caused by VLBR_EVENT
+5abbe51a526253b9f003e9a0a195638dc882d660 kernel, fs: Introduce and use set_restart_fn() and arch_set_restart_data()
+66c1b6d74cd7035e85c426f0af4aede19e805c8a x86: Move TS_COMPAT back to asm/thread_info.h
+8c150ba2fb5995c84a7a43848250d444a3329a7d x86: Introduce TS_COMPAT_RESTART to fix get_nr_restart_syscall()
+b2e9df850c58c2b36e915e7d3bed3f6107cccba6 x86: Introduce restart_block->arch_data to remove TS_COMPAT_RESTART
+3f6c515d723480bc8afd456b0a52438fe79128a8 MIPS: vmlinux.lds.S: Fix appended dtb not properly aligned
+81f711d67a973bf8a6db9556faf299b4074d536e selftests/net: fix warnings on reuseaddr_ports_exhausted
+8a4452ca29f9dc6a65e45a38c96af83b8ecb27fc docs: net: ena: Fix ena_start_xmit() function name typo
+ce225298a0cde9e64494292bf34422553a22b68c Merge tag 'linux-can-fixes-for-5.12-20210316' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+d29334c15d33a6a92d2043ca88f84cd5ad026c57 net/sched: act_api: fix miss set post_ct for ovs after do conntrack in act_ct
+a3bc483216650a7232559bf0a1debfbabff3e12c net: broadcom: BCM4908_ENET should not default to y, unconditionally
+982e5ee23d764fe6158f67a7813d416335e978b0 nfp: flower: fix unsupported pre_tunnel flows
+5c4f5e19d6a8e159127b9d653bb67e0dc7a28047 nfp: flower: add ipv6 bit to pre_tunnel control message
+d8ce0275e45ec809a33f98fc080fe7921b720dfb nfp: flower: fix pre_tun mask id allocation
+7a2bb0f0b201fa37c9b2fa2fcfa013739723fc1c Merge branch 'nfp-fixes'
+fc649670ba50160dd29280c0d91c1635623e88e1 MAINTAINERS: Update Spidernet network driver
+8a141dd7f7060d1e64c14a5257e0babae20ac99b ftrace: Fix modify_ftrace_direct.
+6980d29ce4da223ad7f0751c7f1d61d3c6b54ab3 zonefs: fix to update .i_wr_refcnt correctly in zonefs_open_zone()
+2db4215f47557703dade2baccfa8da7b7e42a7e4 scsi: sd_zbc: Update write pointer offset cache
+0fdc7d5d8f3719950478cca452cf7f0f1355be10 scsi: ufs: ufs-mediatek: Correct operator & -> &&
+cc7a0bb058b85ea03db87169c60c7cfdd5d34678 PCI: rpadlpar: Fix potential drc_name corruption in store functions
+a50bd64616907ed126ffbdbaa06c5ce708c4a404 scsi: mpt3sas: Do not use GFP_KERNEL in atomic context
+6e9070dc2e847ef77aa1c581252a1b97eb2225b9 riscv: fix bugon.cocci warnings
+bab1770a2ce00bf201c6ac5a013a7195db2e02b7 ftrace: Fix spelling mistake "disabed" -> "disabled"
+fa59030bf8555a4eb83342fd23c32e30d4f2fe7a riscv: Fix compilation error with Canaan SoC
+ce989f1472ae350e844b10c880b22543168fbc92 RISC-V: Fix out-of-bounds accesses in init_resources()
+f3773dd031de7b283227f6104049688f77074a2d riscv: Ensure page table writes are flushed when initializing KASAN vmalloc
+78947bdfd75211cc9482cad01f95fe103a863110 RISC-V: kasan: Declare kasan_shallow_populate() static
 a5406a7ff56e63376c210b06072aa0ef23473366 riscv: Correct SPARSEMEM configuration
 d2547cf59793168b564372d75620897416cbaf87 KVM: x86: hyper-v: Limit guest to writing zero to HV_X64_MSR_TSC_EMULATION_STATUS
 e880c6ea55b9805294ecc100ee95e0c9860ae90e KVM: x86: hyper-v: Prevent using not-yet-updated TSC page by secondary CPUs
@@ -1009,46 +1308,5 @@ ec97a7296ad1ca3ccb8bca1e72739cb8262686f1 Merge tag 'arm64-fixes' of git://git.ke
 e7e3a53b30d6e6f54eef81400ddfe8b32224b77f Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 33f0d9d94a0ef0814d23320c2536c4135d230114 Merge tag 'gpio-fixes-for-v5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 7e25f40eab52c57ff6772d27d2aef3640a3237d7 Merge tag 'acpi-5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-ff898f7719c01ce4b4c323e0ef54695afe22e082 PCI: Add PCI_EXP_DEVCTL_PAYLOAD_* macros
-9706d24075f231a2a0eee3c3b7975e66859124e4 PCI: aardvark: Fix PCIe Max Payload Size setting
-5400db96cb67522f1afc93a439bf1e2da57e9723 PCI: aardvark: Implement workaround for the readback value of VEND_ID
-84109db2e1a9f0922046ce82d525f79d5ff19c1f PCI: aardvark: Fix link training
-1c7ab59a0e7a5180ca07998b117b616b4dbfde57 PCI: aardvark: Fix checking for PIO Non-posted Request
-8e537f68903464bea85f1b86530b9f5238fb6b09 PCI: aardvark: Fix checking for PIO status
-c463e7f89d83279ea25ad939e83a26ad88d0e73e PCI: aardvark: Increase polling delay to 1.5s while waiting for PIO response
-0bf2d893225dc44d61754755017d8a63ef54e9c4 PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
-8c2bba538517636e87d535d6ca846cec6ee8eb40 PCI: aardvark: Fix reporting CRS Software Visibility on emulated bridge
-ba7c0e7075ee3db3c86f3c837bdb259c981d4542 PCI: aardvark: Do not touch status bits of masked interrupts in interrupt handler
-17d35afa7f4039fa8554e24ba6394857e4996978 PCI: aardvark: When processing INTx IRQ check that it has virq mapping
-2c60f5b7486181850c67f02f97a08cb3432592e2 PCI: aardvark: Remove irq_mask_ack callback for INTx interrupts
-6e1431ef1b8b19e3cbca761b317cdfbdd4babbb9 PCI: aardvark: Remove calling advk_pcie_irq_mask() during advk_pcie_irq_map()
-1766d277a76a32a098a2a0d61301d403e7489a58 PCI: aardvark: Change name of INTx irq_chip to advk-INT
-b5b441c550fc8c0d349185ddb0acef4fa56e4d8b PCI: aardvark: Remove goto from advk_pcie_init_irq_domain()
-b5dc122bdf4e9efe38d37299d1dddb1ab90ee297 PCI: aardvark: Fix support for MSI interrupts
-b8f2fbd7c184b3976cc7bb33ed6befab00a286de PCI: aardvark: Correctly clear and unmask all MSI interrupts
-1946f36abf8a9ecc0288b80df2be676d357550d1 PCI: aardvark: Fix setting MSI address
-8399ba46cd2ebbccd34f5dbd89dd642fcdfa9819 PCI: aardvark: Add support for more than 32 MSI interrupts
-1ca897c5f5e7c22b31bccaf3c4a2b4d80f10e2d1 PCI: aardvark: Add support for masking MSI interrupts
-2db82e6bff781471158a271d54ba5d318facace9 PCI: aardvark: Enable MSI-X support
-5eacb995fa87fb6782e3aef6e4bf9a070aa8b7ab PCI: aardvark: Fix support for ERR interrupt on emulated bridge
-280b66c92a0148c4df0e3ab69d3de012ab626f30 PCI: aardvark: Fix support for PME on emulated bridge
-24356bb2c71f6851ec87ae74c7365203cd91d1cf PCI: aardvark: Fix support for PME requester on emulated bridge
-ccf277bb586a8ee83f869b27dc6da3e1b76cfa1a PCI: aardvark: Fix support for bus mastering and PCI_COMMAND on emulated bridge
-04f228cf4e3f8fcaa4de927fb7bbd18c98e6a1ca PCI: aardvark: Disable bus mastering and mask all interrupts when unbinding driver
-197c93533aa016506b4760c3afd47b7b57602d8b PCI: aardvark: Free config space for emulated root bridge when unbinding driver to fix memory leak
-e9b30b654d4b21e1a7be15422d3dec187d50780e PCI: aardvark: Reset PCIe card and disable PHY when unbinding driver
-1caa5f95744a4c94465d68ee9728690c1822074e PCI: aardvark: Rewrite irq code to chained irq handler
-29f8ca56a03b0848e780ecdab814620d3cf316a9 PCI: aardvark: Use separate INTA interrupt for emulated root bridge
-c67c602fc74183a2e4a86ea748ba3ceb05071c89 PCI: pci-bridge-emul: Add description for class_revision field
-46cd82fae2dd1c7589f11ec4a377fb9cf9b0fdf4 PCI: pci-bridge-emul: Add definitions for missing capabilities registers
-6d6df3be59160174cfb87bc9de64b5d614e0eafe PCI: aardvark: Add support for DEVCAP2, DEVCTL2, LNKCAP2 and LNKCTL2 registers on emulated bridge
-08d1186e8062e5f4c1e9d8b8dfe129806c6cf2a9 PCI: aardvark: Add support for PCI_BRIDGE_CTL_BUS_RESET on emulated bridge
-4904b3ae976f9fae8e461ffd909a86e936c03487 PCI: aardvark: Replace custom PCIE_CORE_ERR_CAPCTL_* macros by linux/pci_regs.h macros
-3628a63eb71d65f42cbf3c36fd4acd30b5a7487e PCI: aardvark: Replace custom PCIE_CORE_INT_* macros by linux PCI_INTERRUPT_* values
-08321f5b00aacd3e53b07d2c39f4d5b42d40fb0c PCI: aardvark: Cleanup some register macros
-207f433996fe8c023f84abefd631f7374393e6bc PCI: aardvark: Add comments for OB_WIN_ENABLE and ADDR_WIN_DISABLE
-abe56659c55a7d86bb35fc55186865297411a009 PCI: pci-bridge-emul: re-arrange register tests
-d5f75f32b97a8781d68c00399bd044eb5c08b56b PCI: pci-bridge-emul: add support for PCIe extended capabilities
-911562bbba7ced68c7d9d41b4e7456e54ead24e2 PCI: aardvark: Add support for Advanced Error Reporting registers on emulated bridge
 
---===============9186248743080451041==--
+--===============6283320510343075186==--
