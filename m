@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Sat, 17 Apr 2021 09:06:01 -0000
-Message-Id: <161865036153.20102.10751207544983512002@gitolite.kernel.org>
+Date: Sat, 17 Apr 2021 09:07:11 -0000
+Message-Id: <161865043169.20562.17843986478710231408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ogabbay/linux
 user: ogabbay
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/habanalabs-next
     old: 9204ff94868496f2d9b8b173af52ec455160c364
     new: 174ac039ed2dc30409cf54c5db9bf79b213390d4
     log: |
