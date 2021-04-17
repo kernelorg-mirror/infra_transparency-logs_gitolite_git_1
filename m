@@ -1,202 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============6896788425234238244=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Sat, 17 Apr 2021 00:30:21 -0000
-Message-Id: <161861942172.15445.9211159423877566211@gitolite.kernel.org>
-
---===============6896788425234238244==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Sat, 17 Apr 2021 00:48:54 -0000
+Message-Id: <161862053433.24602.9280951334999841910@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/fs/xfs/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/dev-queue
-    old: 3fa588b1e85280e2d391faacf9cbfb9846967720
-    new: c12132158f1b93af7365c6cc0357e8784c604c38
-    log: revlist-3fa588b1e852-c12132158f1b.txt
-
---===============6896788425234238244==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3fa588b1e852-c12132158f1b.txt
-
-26b67f5a1e067605d5db3062090618ca542115b8 igb: Redistribute memory for transmit packet buffers when in Qav mode
-e7ad33fa7bc5f788cdb14eea68c65c4da0f06edf scm: fix a typo in put_cmsg()
-2f014f4016db44103864d295ba427eb1e0086551 net/mlx5e: Remove non-essential TLS SQ state bit
-8668587a33b99492b73fd4dbec432f793853376d net/mlx5e: Cleanup unused function parameter
-b6b3ad2175c852557c06fb52ed533e35a143fb72 net/mlx5e: TX, Inline TLS skb check
-72f6f2f8d6aa213a85b69a0f0ca2c6f4f80aa85e net/mlx5e: TX, Inline function mlx5e_tls_handle_tx_wqe()
-e9ce991bce5bacf71641bd0f72f4b7c589529f40 net/mlx5e: kTLS, Add resiliency to RX resync failures
-6cad120d9e621a4eeff1d45dca41416a1e0b77d5 net/mlx5e: Allow mlx5e_safe_switch_channels to work with channels closed
-69cc4185dcbaaedc52d5d8d13b4aac2a3836a874 net/mlx5e: Use mlx5e_safe_switch_channels when channels are closed
-b3b886cf965d5f8d8e51f9481ce60ee8f9548580 net/mlx5e: Refactor on-the-fly configuration changes
-94872d4ef9c09cb0938595b473c68f4a5fb138f6 net/mlx5e: Cleanup safe switch channels API by passing params
-5cec6de0ae09457bdab2308e9fbac962dd7be3db net/mlx5: Allocate FC bulk structs with kvzalloc() instead of kzalloc()
-36830159acbeb9896d7684b5f52db7b22efa197f net/mlx5: Add register layout to support extended link state
-b3446acb2b9ae6128587cd2d311214950adfb68b net/mlx5e: Add ethtool extended link state
-302522e67c70c57bd35c2793d419dba457871ca0 net/mlx5: Add helper to initialize 1PPS
-95742c1cc59d0a6aa2ca9e75bd21f2a8721f5129 net/mlx5: Enhance diagnostics info for TX/RX reporters
-1d3cb90cb0101bb44254d295a421a89f3b73f6e8 igb: Add double-check MTA_REGISTER for i210 and i211
-64433e5bf40abf893c7edbc60899bdcdd7c70b76 igc: Enable internal i225 PPS
-87938851b6efb6d5b44ae93c83226c6f991d5cc1 igc: enable auxiliary PHC functions for the i225
-b3d4f405620a7c9f3f601329e9a55e6133b15aca igc: Fix overwrites return value
-1feaf60ff26086d4ae212c0fd61ff5755e1fd10c igc: Expose LPI counters
-e5b4b8988b7a1348790caf6f7e593a4541eafb2c net: bridge: switchdev: refactor br_switchdev_fdb_notify
-2c4eca3ef7161f6632959c00c8eae182f4398901 net: bridge: switchdev: include local flag in FDB notifications
-2576e5d31f0df37c8d2f037f2d6f9f0a73c45a7a Merge branch 'BR_FDB_LOCAL'
-a1150a04b7e8caee235e38996e042e1bcb1a6574 atl1c: move tx cleanup processing out of interrupt
-bd005f53862b9e840977907e14e28cbcc10c6d51 mptcp: revert "mptcp: forbit mcast-related sockopt on MPTCP sockets"
-0abdde82b163600dcafb80da6e155dbf60c331bc mptcp: move sockopt function into a new file
-d9e4c129181004ec94b315b0c9db5eeb09da75e6 mptcp: only admit explicitly supported sockopt
-7896248983ef4eec18c8bd301a81d8672dbc9955 mptcp: add skeleton to sync msk socket options to subflows
-df00b087da24c0b5341178bbd5353101c7cef98f mptcp: tag sequence_seq with socket state
-1b3e7ede1365a24db1b4fd837e58a595f52fa4ad mptcp: setsockopt: handle SO_KEEPALIVE and SO_PRIORITY
-5d0a6bc82d38d773c20b44aa1b9f312c4294b594 mptcp: setsockopt: handle receive/send buffer and device bind
-268b1238746086f3608daa20b068182ddc2b0128 mptcp: setsockopt: support SO_LINGER
-36704413db79127f6716ea402f85f85465fba165 mptcp: setsockopt: add SO_MARK support
-6f0d7198084c4096794ae58b9cf5d30c79eea222 mptcp: setsockopt: add SO_INCOMING_CPU
-a03c99b253c232d7d305c9dd476b5b120841dff7 mptcp: setsockopt: SO_DEBUG and no-op options
-aa1fbd94e5c7d3a356058b4ee4a455d952dd48aa mptcp: sockopt: add TCP_CONGESTION and TCP_INFO
-dc65fe82fb07e610e03a9b05bd445f46f93175f5 selftests: mptcp: add packet mark test case
-c133acf38ca4ab498d0bfa25f3c218c263f6664a Merge branch 'mptcp-socket-options'
-c5d66587b8900201e1530b7c18d41e87bd5812f4 net: ethernet: mediatek: ppe: fix busy wait loop
-5133bcc7481528e36fff0a3b056601efb704fb32 r8152: set inter fram gap time depending on speed
-a8a7be178e81a3d4b6972cbeb0ccd091ca2f9f89 r8152: adjust rtl8152_check_firmware function
-67ce1a806f164e59a074fea8809725d3411eaa20 r8152: add help function to change mtu
-195aae321c829dd1945900d75561e6aa79cce208 r8152: support new chips
-4a51b0e8a0143b0e83d51d9c58c6416c3818a9f2 r8152: support PHY firmware for RTL8156 series
-c2198943e33b100ed21dfb636c8fa6baef841e9d r8152: search the configuration of vendor mode
-af1fa6b696cca5c559ed6d38cad0213544f299a0 Merge branch 'r8152--new-chips'
-4ad29b1a484e0c58acfffdcd87172ed17f35c1dd net: mvpp2: Add parsing support for different IPv4 IHL values
-9a44c1cc63887627284ae232a9626a9f1cd066fc net: Add a WWAN subsystem
-fa588eba632df14d296436995e6bbea0c146ae77 net: Add Qcom WWAN control driver
-fb32856b16ad9d5bcd75b76a274e2c515ac7b9d7 virtio-net: page_to_skb() use build_skb when there's sufficient tailroom
-d8604b209e9b3762280b8321162f0f64219d51c9 dt-bindings: net: qcom,ipa: add firmware-name property
-9ce062ba6a8d0a22e873e6b8cf068bf278adb5e7 net: ipa: optionally define firmware name via DT
-d8214c7aae6166137a2509053e793434e8dfb2c5 Merge branch 'ipa-fw-names'
-aa8caa767e319bad34a82bfce7da1ed2b9c0ed6f mld: fix suspicious RCU usage in __ipv6_dev_mc_dec()
-0e672f306a28ddd55d2fb2ab89afdc615b5324a4 veth: check for NAPI instead of xdp_prog before xmit of XDP frame
-8eda54c5e6c4eb3f3a9b70fdea278f4e0f8496b2 gianfar: Drop GFAR_MQ_POLLING support
-221e8c126b7810c1d8d90286cb0c279071be6843 powerpc: dts: fsl: Drop obsolete fsl,rx-bit-map and fsl,tx-bit-map properties
-70c183759b2cece2f9ba82e63e38fa32bebc9db2 Merge branch 'gianfar-mq-polling'
-03e481e88b194296defdff3600b2fcebb04bd6cf Merge tag 'mlx5-updates-2021-04-16' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-e5272ad4aab347dde5610c0aedb786219e3ff793 sctp: Fix out-of-bounds warning in sctp_process_asconf_param()
-f117c48c0dc88a50dc2f761fd3df25bd6f9b6c6f docs: networking: extend the statistics documentation
-ddc78b3621242dd691ef4c234a80e316422c2876 docs: ethtool: document standard statistics
-f09ea6fb12723d6726293d68de00b6307368bd76 ethtool: add a new command for reading standard stats
-ca2244547ec7505d1cf61d43f5e76e3ffd99cf77 ethtool: add interface to read standard MAC stats
-bfad2b979ddcc330c08bb071eb3c3f7b3411a681 ethtool: add interface to read standard MAC Ctrl stats
-a8b06e9d40d8b18c41c8ce060e8dc004fa59e708 ethtool: add interface to read RMON stats
-c1912ab0eeba6ba7fbf601bad9c2992d5f528672 mlxsw: implement ethtool standard stats
-782bc00affcd63dacaa34e9ab6da588605423312 bnxt: implement ethtool standard stats
-b572ec9ff087eb71a857d5af277480818f6a1c59 mlx5: implement ethtool standard stats
-1c86514d7fda55c5311c6b75aacb8c41b2e83999 Merge branch 'ethtool-stats'
-1e3d976dbb23b3fce544752b434bdc32ce64aabc flow_dissector: Fix out-of-bounds warning in __skb_flow_bpf_to_target()
-bc45f524d90ffd7f3d4fb48f273046adb1ce5d2b Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-e9e49ae88ec86c370aae56700c9ff7421dcf91fe net: enetc: remove redundant clearing of skb/xdp_frame pointer in TX conf path
-6b04830d5e0d7cbe137310527e9ad114686edef7 net: enetc: rename the buffer reuse helpers
-672f9a21989e56c8233d1d8daab3e5eecf76c59e net: enetc: recycle buffers for frames with RX errors
-8f50d8bb3f1c173492d1d224bce99486fd6ccd32 net: enetc: stop XDP NAPI processing when build_skb() fails
-a6369fe6e07d7e45aa5e73eccc6d426e92525e5c net: enetc: remove unneeded xdp_do_flush_map()
-ee3e875f10fca68fb7478c23c75b553e56da319c net: enetc: increase TX ring size
-7eab503b11ee1c4bb4a28866a6b029b0bbbeadfe net: enetc: use dedicated TX rings for XDP
-975acc833c9f34d784075815a8374760d1c6358b net: enetc: handle the invalid XDP action the same way as XDP_DROP
-92ff9a6e578dc32950567efaf987328c32fefdc6 net: enetc: fix buffer leaks with XDP_TX enqueue rejections
-24e393097171719e3a64abb8f4cc7bf8fbce2ac4 net: enetc: apply the MDIO workaround for XDP_REDIRECT too
-820dd7a244fe2d990d414172110f36cf5e8a936a Merge branch 'enetc-xdp-fixes'
-3fcc8a25e39171a48b8025835942571b84455fd9 kunit: mptcp: adhere to KUNIT formatting standard
-e4b6135134a75f530bd634ea7c168efaf0f9dff3 mptcp: fix format specifiers for unsigned int
-43f1140b9678e0fd9dcddd96faee8fad86a70061 mptcp: export mptcp_subflow_active
-e10a9892097672b62be4ea265a9eb48f698ca3b8 mptcp: add tracepoint in mptcp_subflow_get_send
-0918e34b85c7e125f531caaf3d2918baf2b1a5f9 mptcp: add tracepoint in get_mapping_status
-ed66bfb4ce34a94174bb755eeaca85d1661d36ad mptcp: add tracepoint in ack_update_msk
-d96a838a7ce2772ed181f89becd79b72d267f93a mptcp: add tracepoint in subflow_check_data_avail
-442279154c73bc681e5346bdd1270a628dfdfdc7 mptcp: use mptcp_for_each_subflow in mptcp_close
-474f459360399c5becfd0f189a8894e9e17ad3d3 Merge branch 'mptcp-fixes-and-tracepoints'
-5ee652989447d34f1f8b5607d04798b02f736fd0 i40e/i40evf: cleanup i40e_update_nvm_checksum()
-13a78f5c4a3a4382de0064f71163b9e133e10606 igc: Add UDP segmentation offload support
-0cdaa007f238c893692e3a3f5c5cd8627e60fcb0 ice: remove redundant assignment to pointer vsi
-fca1760800dffa0f476312d83d4fecee5a9fac08 ixgbe: fix XDP redirect on archs with PAGE_SIZE above 4K
-e2bb76bc133715f8819b3ee7682f96d48b237785 virtchnl: Use pad byte in virtchnl_ether_addr to specify MAC type
-6a98a00bcaf976c9dfad19224f8e2855d0ad05df ice: Manage VF's MAC address for both legacy and new cases
-9addcee2fdefdea493e64df04ad4d34e664692f9 ice: Save VF's MAC across reboot
-9f11f93caf2691df15334b4a9b7f9fe7f8f5b11a ice: Refactor ice_setup_rx_ctx
-22d182ba6e6b9f0dbc86887e11a68c8eea1a9bb9 i40e: add support for PTP external synchronization clock
-5ad623bfdcda01ab23ba1e7535a60af5d1d96ce1 iavf: Fix asynchronous tasks during driver remove
-76674f5ffb776f428a2674e62ed50356811b7b68 i40e: Fix correct max_pkt_size on VF RX queue
-5c0c61def90fafad2690006ebf50008346123483 i40e: refactor repeated link state reporting code
-f95bb5cfc1113ccefbae01b520b0c33b7dbd3d0b iavf: Fix return of set the new channel count
-cf348b82b674c62189a2ea4b6f659f0b5f19ec1a i40e: Fix NULL ptr dereference on VSI filter sync
-f945c6b6ddb80aabd697bbae0da3417ec49ede0e ice: report hash type such as L2/L3/L4
-0d30ee53010f0df6f5c1af566584869880e057c9 ice: Fix allowing VF to request more/less queues via virtchnl
-3aed492fd3e15f54f252853e43a9ee7dd243825c ice: Fix VFR issues for AVF drivers that expect ATQLEN cleared
-fe0631bc4e2e52889c3e3427575399fc1920359b ice: Fix VF true promiscuous mode
-a21fff0297d14ad996b3fe3a38d5e04bce00a9e0 ice: handle the VF VSI rebuild failure
-94cdfce2463af3ffb353f40df28ccc9ddba28756 i40e: clean up packet type lookup table
-bdc67d1b0f94daf58b33839b52936dc7922d1a85 iavf: clean up packet type lookup table
-b484c199f22ae74c285e721874bfa8037687ec69 igc: Move igc_xdp_is_enabled()
-69c1ba4fcab6fd980267626e3485eb63ca8da94b igc: Refactor __igc_xdp_run_prog()
-541e4fd63115e9f7b2d92a7ef088d05e53d8cee4 igc: Refactor igc_clean_rx_ring()
-ddd749c3122c102f48eec980116e20505acc00a5 igc: Refactor XDP rxq info registration
-bbf7a8af49347c23d4b0a9f41c13fbff32be7f13 igc: Introduce TX/RX stats helpers
-b2f58da88b7bfd66cc92831801bb135ebced0c5c igc: Introduce igc_unmap_tx_buffer() helper
-c2d3b0031a702a94f0f4f6de0cd35ac3478ea28c igc: Replace IGC_TX_FLAGS_XDP flag by an enum
-37b3903704e603b7882e87c0d5cdb2751de0984a igc: Enable RX via AF_XDP zero-copy
-c09063928291594b77bcc15ff2e27b1f1dde8958 igc: Enable TX via AF_XDP zero-copy
-367ed1c871ad851800bedd0af2a5c7b9092b648c igb: unbreak I2C bit-banging on i350
-6d6d2d722e41b88665d675a2cd8b05abafabfcb4 i40e: Fix error handling in i40e_vsi_open
-80f33c76fd1dd38cd2da15e59d3a2280d9f3d024 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
-041526aab622fa8029833d4d1a596c37bc87e55f ice: warn about potentially malicious VFs
-b96b71ce3afbaa6bebe20b813efafbe67e8d2166 ice: Allow ignoring opcodes on specific VF
-0db31046d512b3f0b4e744d5acfa69775c4201fc ice: Advertise virtchnl UDP segmentation offload capability
-d694ddce5f90c60789926df58342393c0ea9402a iavf: add support for UDP Segmentation Offload
-936b2764f914011084cb03d1f108dbce4387a08d ice: Refactor promiscuous functions
-b3c99eaa29990289e6984290c269c24f0cf8c2d5 ice: Add helper function to get the VF's VSI
-cbb94426d5a7f270f088a095d36c1cb2da3e22b9 ice: Refactor VIRTCHNL_OP_CONFIG_VSI_QUEUES handling
-7daf023af4d2518a5c30018b964cd4421f52f88b i40e: improve locking of mac_filter_hash
-4700fde8206468739f229e650f564356667ec409 i40e: use minimal tx and rx pairs for kdump
-10ccf93b1837f13fe82255a932662136c2a2e93a i40e: use minimal rx and tx ring buffers for kdump
-cb8ae64d1310ce878ba4780162001c395e71cc00 i40e: use minimal admin queue for kdump
-149a4f2c35b3d06d7e7ff59ae3b1d26e8412bc30 e1000e: Add support for Lunar Lake
-1c1bae4eab8c9316937bf88d0d2f4fcca07e3f6c ixgbe: Fix NULL pointer dereference in ethtool loopback test
-b993f3487fc4c3f2a472f983572dc9a3914c70a8 iavf: remove duplicate free resources calls
-65a50737e96186d6b2d5810d492a679e9af80610 i40e: Fix autoneg disabling for non-10GBaseT links
-e417ab0f5dc761e526c0d2dc9681c122b2adc158 ixgbe: fix unbalanced device enable/disable in suspend/resume
-e33408c54f5263091d09b264f125b9fb8e5e80e3 e100: handle eeprom as little endian
-a95fbc22f8a4591c7617aa725d99a0fb002ef18e intel: remove checker warning
-457c1f2c984441985392c663fffa45cd7d303616 fm10k: move error check
-cb8bb68f4c49212d4cd764682e192562572c70ed igb/igc: use strongly typed pointer
-ea6929839afb848b147bfede4e20855d343d8d88 igb: handle vlan types with checker enabled
-4c5244b0f26f0178325c06a2e61882ab0f1d878b igb: fix assignment on big endian machines
-15c3de268b25af821a4fc4b7cbf79644aad6053a igb: override two checker warnings
-d1ab6ff3ea906f0a0c4a2af74031cb784d3f0085 intel: call csum functions with well formatted arguments
-b5731b9f9bb636d706a9d6e709fba5f229d5ce38 igbvf: convert to strongly typed descriptors
-4bef75c78fd5d519f4019641cb1c270c90bcc74d ixgbe: use checker safe conversions
-930567d9a75641d2da943976ae9b560bcdb09e1b ixgbe: reduce checker warnings
-a9c870cebe6eb1a5116974d377bf2e1d97225aad iavf: do not override the adapter state in the watchdog task
-07740f7e1251a74101f5098c5b3a4df39ddc45b8 iavf: change the flex-byte support number to macro definition
-3ded2ec8de07bb404e0fbef614e39abe25e88f1f iavf: enhance the duplicated FDIR list scan handling
-aa56978c0cdb51e78a7d91706c7be7ba5c39e77a iavf: redefine the magic number for FDIR GTP-U header fields
-c6e5b14a2173d59ff2988ebcecb9bfe1bf8c3735 ice: Fix potential infinite loop when using u8 loop counter
-cf66e2f852666b4fe2ec2143ff4c871d54b271c5 ice: fix clang warning regarding deadcode.DeadStores
-a10156a404cdaec96fcad2f88356057228f6d64e ice: Enable RSS configure for AVF
-b624eecf85f3b82e890e8c80015f1bece7b58eb2 ice: Support RSS configure removal for AVF
-7c406ed6a2b99171f9b00559eb335da05418ae08 iavf: Add framework to enable ethtool RSS config
-36c638bef72d02b42cc35ac787cf1ce48b2eff38 iavf: Support for modifying TCP RSS flow hashing
-be454f41a97e4fb689b3b129af963218f1e2cbd1 iavf: Support for modifying UDP RSS flow hashing
-78e722e806f8d0d06d6c51e76ffe74060c2374f6 iavf: Support for modifying SCTP RSS flow hashing
-76965ab66dcb3b1ba4802e1eb8c42208ffebdfc4 i40e: Fix use-after-free in i40e_client_subtask()
-806f177c5f4cd3ddb30de0612277dfac28bf5760 igc: Update driver to use ethtool_sprintf
-ca253025943370a0dc12281d1a22938c75b4d829 i40e: fix the restart auto-negotiation after FEC modified
-665f04542882a7b23cd461308bd98458bd5007dd i40e: Fix PHY type identifiers for 2.5G and 5G adapters
-ceece17400894daee509c2268fb372ca5cbda0c9 i40e: fix the panic when running bpf in xdpdrv mode
-dddea90fd7042fb872689afef229b9d4a6f529e6 ice: Re-organizes reqstd/avail {R,T}XQ check/code for efficiency+readability
-c12132158f1b93af7365c6cc0357e8784c604c38 ixgbe: Fix out-bounds warning in ixgbe_host_interface_command()
-
---===============6896788425234238244==--
+  - ref: refs/heads/for-next
+    old: e7a3d7e792a5ad50583a2e6c35e72bd2ca6096f4
+    new: 76adf92a30f3b92a7f91bb00b28ea80efccd0f01
+    log: |
+         862a804aae3031e91bd0ae0b13c90a1b13d77af3 xfs: move the XFS_IFEXTENTS check into xfs_iread_extents
+         2ac131df03d4f06bb0d825335663cc5064421993 xfs: rename and simplify xfs_bmap_one_block
+         605e74e29218bb22edd5ddcf90a4d37df00446cc xfs: simplify xfs_attr_remove_args
+         0eba048dd3b73fab6c97742468176dff58650860 xfs: only look at the fork format in xfs_idestroy_fork
+         ac1e067211d1476dae304e8881c10b40c90614d5 xfs: remove XFS_IFBROOT
+         0779f4a68d4df539a7ea624f7e1560f48aa46ad9 xfs: remove XFS_IFINLINE
+         b2197a36c0ef5b35a0ed83de744610a462da1ad3 xfs: remove XFS_IFEXTENTS
+         76adf92a30f3b92a7f91bb00b28ea80efccd0f01 xfs: remove xfs_quiesce_attr declaration
+         
+  - ref: refs/heads/xfs-5.13-merge
+    old: e7a3d7e792a5ad50583a2e6c35e72bd2ca6096f4
+    new: 76adf92a30f3b92a7f91bb00b28ea80efccd0f01
+    log: |
+         862a804aae3031e91bd0ae0b13c90a1b13d77af3 xfs: move the XFS_IFEXTENTS check into xfs_iread_extents
+         2ac131df03d4f06bb0d825335663cc5064421993 xfs: rename and simplify xfs_bmap_one_block
+         605e74e29218bb22edd5ddcf90a4d37df00446cc xfs: simplify xfs_attr_remove_args
+         0eba048dd3b73fab6c97742468176dff58650860 xfs: only look at the fork format in xfs_idestroy_fork
+         ac1e067211d1476dae304e8881c10b40c90614d5 xfs: remove XFS_IFBROOT
+         0779f4a68d4df539a7ea624f7e1560f48aa46ad9 xfs: remove XFS_IFINLINE
+         b2197a36c0ef5b35a0ed83de744610a462da1ad3 xfs: remove XFS_IFEXTENTS
+         76adf92a30f3b92a7f91bb00b28ea80efccd0f01 xfs: remove xfs_quiesce_attr declaration
+         
+  - ref: refs/tags/xfs-5.13-merge-3
+    old: 0000000000000000000000000000000000000000
+    new: d7d84f2e642c105046d008e79dec9b0ea2a7cd20
