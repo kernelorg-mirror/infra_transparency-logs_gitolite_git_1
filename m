@@ -1,33 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Sat, 17 Apr 2021 19:33:13 -0000
-Message-Id: <161868799335.12003.16551250987533430107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sat, 17 Apr 2021 20:11:46 -0000
+Message-Id: <161869030639.2618.3647818051552324573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: zanussi
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/v5.4-rt
-    old: 209aee2366649eebf5b3881f73199cc78d4700f3
-    new: a84a83ce44cafc96cb9cf419378a713dcdea00ac
+  - ref: refs/heads/i2c/for-next
+    old: d1820965ffa631d5853b6b964a4ae10c0db56542
+    new: f9743e4d0a62adce1356b351a3d8a586097220c3
     log: |
-         9d26fa644eb5b623a0ed52441b2891dad978dd45 mm: slub: Don't resize the location tracking cache on PREEMPT_RT
-         a84a83ce44cafc96cb9cf419378a713dcdea00ac Linux 5.4.109-rt56
+         92dfb27240fea2776f61c5422472cb6defca7767 i2c: sh7760: fix IRQ error path
+         63ce8e3df8f6deca2da52eaf064751ad4018b46e i2c: mediatek: Fix send master code at more than 1MHz
+         3186b880447ad3cc9b6487fa626a71d64b831524 i2c: mediatek: Fix wrong dma sync flag
+         a80f24945fcfdff31bdf04837145e56570741a67 i2c: mediatek: Use scl_int_delay_ns to compensate clock-stretching
+         f9743e4d0a62adce1356b351a3d8a586097220c3 Merge branch 'i2c/for-5.13' into i2c/for-next
          
-  - ref: refs/heads/v5.4-rt-rebase
-    old: 0dc167c2b216e5a830b7a981a3ea3fdcf3974fd1
-    new: c3ea79bafe0b25d4cae7eca36c2a65539eade30c
-    log: |
-         eaf604f21f62163789db8672e5ee9f702cfd1ef4 mm: slub: Don't resize the location tracking cache on PREEMPT_RT
-         c3ea79bafe0b25d4cae7eca36c2a65539eade30c Linux 5.4.109-rt56 REBASE
-         
-  - ref: refs/tags/v5.4.109-rt56
-    old: 0000000000000000000000000000000000000000
-    new: 627d5d9517e78230784bc66b5a27e9f7817f480e
-  - ref: refs/tags/v5.4.109-rt56-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 067a389c472708795d9fac1c587aa242948e1b83
