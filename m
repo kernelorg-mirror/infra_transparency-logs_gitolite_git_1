@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Sat, 17 Apr 2021 13:28:07 -0000
-Message-Id: <161866608718.14903.15562624360338073905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse-dev
+Date: Sat, 17 Apr 2021 13:29:16 -0000
+Message-Id: <161866615687.15281.7107521697750843321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/devel/sparse/sparse-dev
+user: lucvoo
 changes:
-  - ref: refs/heads/for-next
-    old: ceaaa12904df07d07ea8975abbf04c4d60e46956
-    new: e1db6338d6fa0d409e45cf20ab5aeaca704f68e7
+  - ref: refs/heads/master
+    old: 2cd6d34e815a7442b0b113f395504131b3a92e77
+    new: bb4239aafe31493a395d7777de5b3c33ea06a98d
     log: |
-         eaa7a897206ac5bfa7da3f647686209ada1984d0 tracing: Define static void trace_print_time()
-         f689e4f280b69cd7341743c2ecacd1b13528a0d8 tracing: Define new ftrace event "func_repeats"
-         20344c54d1c7ab7428e312bbe9b0097750875002 tracing: Add "last_func_repeats" to struct trace_array
-         c658797f1a70561205a224be0c8be64977ed64e8 tracing: Add method for recording "func_repeats" events
-         4994891ebbb89b18903637dc1c8f27b42cb8b8b2 tracing: Unify the logic for function tracing options
-         22db095d57b51ff71aaa8ddba515180399f54334 tracing: Add "func_no_repeats" option for function tracing
-         e1db6338d6fa0d409e45cf20ab5aeaca704f68e7 ftrace: Reuse the output of the function tracer for func_repeats
+         8fd2c0b489d3fe371081ceddb1637713a452eefd export declare_builtins()
+         f7eb2ea83b2ba26032ad0f9d216dda8780165b95 builtin: define a symbol_op for a generic op acting on integer
+         4806f30a473ca70ffee3b10136f7ee8ea2b36f6f .gitignore is a bit too greedy
+         7a9fab6984f7bce3fd52809ecf6e21b79f115be3 scheck: add a symbolic checker
+         d1ab4c40982ffcfadebf3155f498469aeb1355b0 scheck: assert_eq()
+         75e72f82c8645db0f8cf6954ce3beb18a00dee37 scheck: allow multiple assertions
+         0b0805cf17aeb6a6cd0a7ed3f47ad8f0b4a3407b scheck: assert_const()
+         2e3c2464ca3522fe0a6dfc93ea36c88cbe7bf117 scheck: support pre-conditions via __assume()
+         15806a1f68178a278c7a297b163d5692fe71cbf2 scheck: predefine __SYMBOLIC_CHECKER__
+         bb4239aafe31493a395d7777de5b3c33ea06a98d Merge branch 'schecker'
          
