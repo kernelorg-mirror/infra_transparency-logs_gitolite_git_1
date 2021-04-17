@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 16 Apr 2021 23:58:33 -0000
-Message-Id: <161861751396.27792.8919372947719045017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 17 Apr 2021 00:01:29 -0000
+Message-Id: <161861768964.30102.17863372020554715743@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/dev
-    old: d42c7a8d68038bc07b4760f4556f7bbf2cac318c
-    new: 431ded55d9d86084c398c33d900356a7d1587f78
+  - ref: refs/heads/master
+    old: b02265429681c9c827c45978a61a9f00be5ea9aa
+    new: f2764bd4f6a8dffaec3e220728385d9756b3c2cb
     log: |
-         6c52b5f3cfefd6e429efc4413fd25e3c394e959f clocksource: Reduce WATCHDOG_THRESHOLD
-         431ded55d9d86084c398c33d900356a7d1587f78 rcu: Point to documentation of ordering guarantees
+         f2764bd4f6a8dffaec3e220728385d9756b3c2cb netlink: don't call ->netlink_bind with table lock held
          
