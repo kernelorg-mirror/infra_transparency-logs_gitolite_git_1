@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 17 Apr 2021 02:30:37 -0000
-Message-Id: <161862663733.22561.17989318050426769562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sergeh/linux
+Date: Sat, 17 Apr 2021 02:31:32 -0000
+Message-Id: <161862669282.22884.13535120704155165437@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/sergeh/linux
+user: sergeh
 changes:
-  - ref: refs/heads/master
-    old: 9d975a108045749e30abcb8993388f588755e95c
-    new: 94c7397eab49630c72603268ac4e36b9833e0e3f
+  - ref: refs/heads/2021-04-15/setfcap-nsfscaps-v4
+    old: 92b521736f5322e1e861445dee18208e2f3dfb6d
+    new: 7261101c747aa0370535a76aec517d0b083fdf45
     log: |
-         94c7397eab49630c72603268ac4e36b9833e0e3f Sat 17 Apr 2021 02:30:12 AM UTC
+         7261101c747aa0370535a76aec517d0b083fdf45 capabilities: prevent by-passing lack of CAP_SETFCAP (v4)
          
