@@ -1,116 +1,168 @@
-Content-Type: multipart/mixed; boundary="===============6601976450206953302=="
+Content-Type: multipart/mixed; boundary="===============0427789239424610306=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 17 Apr 2021 17:01:04 -0000
-Message-Id: <161867886428.17117.2647547416963189776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+Date: Sat, 17 Apr 2021 17:12:05 -0000
+Message-Id: <161867952584.22907.4962107788473982935@gitolite.kernel.org>
 
---===============6601976450206953302==
+--===============0427789239424610306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: 9cdbf6467424045617cd6e79dcaad06bb8efa31c
-    new: 88a5af943985fb43b4c9472b5abd9c0b9705533d
-    log: revlist-9cdbf6467424-88a5af943985.txt
+  - ref: refs/heads/pending
+    old: a6c34cb6110dfe978d2336bd34448e85d4896180
+    new: ef2c0c3ce050ced96206de8c1e43359a44d1090b
+    log: revlist-a6c34cb6110d-ef2c0c3ce050.txt
 
---===============6601976450206953302==
+--===============0427789239424610306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9cdbf6467424-88a5af943985.txt
+Content-Disposition: attachment; filename=revlist-a6c34cb6110d-ef2c0c3ce050.txt
 
-9de82caad0282205d4c38a39456bce58e3219540 dax: avoid -Wempty-body warnings
-0e07e25b481aa021e4b48085ecb8a049e9614510 netfilter: flowtable: fix NAT IPv6 offload mangling
-fbea31808ca124dd73ff6bb1e67c9af4607c3e32 netfilter: conntrack: do not print icmpv6 as unknown via /proc
-6eff5721933c08c3b76d6126aee24d8f134518ef cxl/mem: Use sysfs_emit() for attribute show routines
-5877515912cc4f0d67071b7cee15076ebef24708 cxl/mem: Fix synchronization mechanism for device removal vs ioctl operations
-1c3333a28d4532cfc37d4d25bfc76654a0c76643 cxl/mem: Do not rely on device_add() side effects for dev_set_name() failures
-7eda6457a9ca4dc9754e1158c3794e4487ea4392 cxl/mem: Disable cxl device power management
-392be0bda730df3c71241b2a16bbecac78ee627d cxl/mem: Force array size of mem_commands[] to CXL_MEM_COMMAND_ID_MAX
-afd0be7299533bb2e2b09104399d8a467ecbd2c5 libbpf: Fix potential NULL pointer dereference
-2361db89aaadfb671db6911b0063e01ec8922c28 libnvdimm: Notify disk drivers to revalidate region read-only
-a2948b17f6b936fc52f86c0f92c46d2f91928b79 libnvdimm/region: Fix nvdimm_has_flush() to handle ND_REGION_ASYNC
-11d2498f1568a0f923dc8ef7621de15a9e89267f Merge branch 'for-5.12/dax' into libnvdimm-fixes
-b895bdf5d643b6feb7c60856326dd4feb6981560 netfilter: nft_limit: avoid possible divide error in nft_limit_init
-7ee3c61dcd28bf6e290e06ad382f13511dc790e9 netfilter: bridge: add pre_exit hooks for ebtable unregistration
-d163a925ebbc6eb5b562b0f1d72c7e817aa75c40 netfilter: arp_tables: add pre_exit hook for table unregister
-4af2178ac605faf32ebe638f7ac17d841d40ea9b MAINTAINERS: update maintainer entry for freescale fec driver
-31457db3750c0b0ed229d836f2609fdb8a5b790e net: davicom: Fix regulator not turned off on failed probe
-6628ddfec7580882f11fdc5c194a8ea781fdadfa net: geneve: check skb is large enough for IPv4/IPv6 header
-1fe976d308acb6374c899a4ee8025a0a016e453e net: phy: marvell: fix detection of PHY on Topaz switches
-f33b0e196ed7aa3dc285b26db7768c1db1eb3a41 ethtool: fix kdoc attr name
-b29c457a6511435960115c0f548c4360d5f4801d netfilter: x_tables: fix compat match/target pad out-of-bound write
-4d8f9065830e526c83199186c5f56a6514f457d2 netfilter: nftables: clone set element expression template
-ccb39c6285581992f0225c45e4de704028a8ec17 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
-31166efb1cee348eb6314e9c0095d84cbeb66b9d ixgbe: Fix NULL pointer dereference in ethtool loopback test
-debb9df311582c83fe369baa35fa4b92e8a9c58a ixgbe: fix unbalanced device enable/disable in suspend/resume
-ef963ae427aa4669905e0a96b3bd9d44dc85db32 ice: Fix potential infinite loop when using u8 loop counter
-610f8c0fc8d46e0933955ce13af3d64484a4630a net: sit: Unregister catch-all devices
-941ea91e87a6e879ed82dad4949f6234f2702bec net: ip6_tunnel: Unregister catch-all devices
-61aaa1aa9a8f83dbdc763c6939568952a2a30c90 Merge branch 'catch-all-devices'
-97684f0970f6e112926de631fdd98d9693c7e5c1 net: Make tcp_allowed_congestion_control readonly in non-init netns
-ca09bf7bb109a37a7ff05f230bb3fa3627e6625f ibmvnic: correctly use dev_consume/free_skb_irq
-b166a20b07382b8bc1dcee2a448715c9c2c81b5b net/sctp: fix race condition in sctp_destroy_sock
-38ec4944b593fd90c5ef42aaaa53e66ae5769d04 gro: ensure frag0 meets IP header alignment
-2afeec08ab5c86ae21952151f726bfe184f6b23d xen-netback: Check for hotplug-status existence before watching
-16756d3e77ad58cd07e36cbed724aa13ae5a0278 ethtool: pause: make sure we init driver stats
-453a77894efa4d9b6ef9644d74b9419c47ac427c r8169: don't advertise pause in jumbo mode
-0775ebc4cf8554bdcd2c212669a0868ab68df5c0 ibmvnic: avoid calling napi_disable() twice
-d3a6abccbd272aea7dc2c6f984bb5a2c11278e44 ibmvnic: remove duplicate napi_schedule call in do_reset function
-7c451f3ef676c805a4b77a743a01a5c21a250a73 ibmvnic: remove duplicate napi_schedule call in open function
-49963eed2c239365c12418d07ca9ba621dc69313 Merge branch 'ibmvnic-napi-fixes'
-292ecd9f5a94dd29d09fe03b5b669cb20b44f19e doc: move seg6_flowlabel to seg6-sysctl.rst
-2e1534f395e73152e2051332034bff61a56a8368 vrf: fix a comment about loopback device
-a714e27ea8bdee2b238748029d31472d0a65b611 net: macb: fix the restore of cmp registers
-416dcc5ce9d2a810477171c62ffa061a98f87367 cavium/liquidio: Fix duplicate argument
-00423969d806d7169d16fa6314c570a472ca26c9 Revert "net: stmmac: re-init rx buffers when mac resume back"
-9e196e4398869e4dfe3f49f7f3e0935e07b1d1b9 Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-41bafb31dcd58d834bdffa5db703f94fd2cec727 net/mlx5: Fix setting of devlink traps in switchdev mode
-7a320c9db3e73fb6c4f9a331087df9df18767221 net/mlx5e: Fix setting of RS FEC mode
-e3e0f9b279705154b951d579dc3d8b7041710e24 net/mlx5e: fix ingress_ifindex check in mlx5e_flower_parse_meta
-4e39a072a6a0fc422ba7da5e4336bdc295d70211 i40e: fix the panic when running bpf in xdpdrv mode
-61d773586eba5c102bcb2cccdd88239227ce8b26 Merge tag 'mlx5-fixes-2021-04-14' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-1a73e427b824133940c2dd95ebe26b6dce1cbf10 ch_ktls: Fix kernel panic
-bc16efd2430652f894ae34b1de5eccc3bf0d2810 ch_ktls: fix device connection close
-21d8c25e3f4b9052a471ced8f47b531956eb9963 ch_ktls: tcb close causes tls connection failure
-e8a4155567b3c903f49cbf89b8017e9cc22c4fe4 ch_ktls: do not send snd_una update to TCB in middle
-0e0704bb9ea00813dd3d5405516089fee286079b Merge branch 'ch_tlss-fixes'
-b21bb4cd1102dd9e24a169d09cf4e6f3c8a46bcf cxl/mem: Fix register block offset calculation
-9601148392520e2e134936e76788fc2a6371e7be bpf: Use correct permission flag for mixed signed bounds arithmetic
-6f55b2f2a1178856c19bbce2f71449926e731914 bpf: Move off_reg into sanitize_ptr_alu
-24c109bb1537c12c02aeed2d51a347b4d6a9b76e bpf: Ensure off_reg has no mixed signed bounds for all types
-b658bbb844e28f1862867f37e8ca11a8e2aa94a3 bpf: Rework ptr_limit into alu_limit and add common error path
-a6aaece00a57fa6f22575364b3903dfbccf5345d bpf: Improve verifier error messages for users
-073815b756c51ba9d8384d924c5d1c03ca3d1ae4 bpf: Refactor and streamline bounds check into helper
-f528819334881fd622fdadeddb3f7edaed8b7c9b bpf: Move sanitize_val_alu out of op switch
-7fedb63a8307dda0ec3b8969a3b233a1dd7ea8e0 bpf: Tighten speculative pointer arithmetic mask
-d7a5091351756d0ae8e63134313c455624e36a13 bpf: Update selftests to reflect new error states
-6b389c16378a03fe71f3b1365b593ba41d2dd8ec MAINTAINERS: update my email
-b02265429681c9c827c45978a61a9f00be5ea9aa Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-845be1cd34464620861b457b808e5fb2115d06b0 mm: eliminate "expecting prototype" kernel-doc warnings
-5c595ac4c776c44b5c59de22ab43b3fe256d9fbb kasan: fix hwasan build for gcc
-02c587733c8161355a43e6e110c2e29bd0acff72 kasan: remove redundant config option
-d199161653d612b8fb96ac51bfd5b2d2782ecef3 csky: change a Kconfig symbol name to fix e1000 build error
-19d000d93303e05bd7b1326e3de9df05a41b25b5 ia64: remove duplicate entries in generic_defconfig
-e2af9da4f867a1a54f1252bf3abc1a5c63951778 ia64: fix discontig.c section mismatches
-17786fea414393813b56e33a1a01b2dfa03c0915 ia64: tools: remove inclusion of ia64-specific version of errno.h header
-f4bf09dc3aaa4b07cd15630f2023f68cb2668809 ia64: tools: remove duplicate definition of ia64_mf() on ia64
-94036f4c884377bdf2da1ba7666c9599d6df0191 mm/mapping_dirty_helpers: guard hugepage pud's usage
-458376913d86bed2fb781b4952eb6861675ef3be mm: ptdump: fix build failure
-04c53de57cb6435738961dace8b1b71d3ecd3c39 gcov: clang: fix clang-11+ build
-c95c2d328cd051484bea161e66dfa715c02a7d7e lib: remove "expecting prototype" kernel-doc warnings
-f2764bd4f6a8dffaec3e220728385d9756b3c2cb netlink: don't call ->netlink_bind with table lock held
-fae8817ae804a682c6823ad1672438f39fc46c28 cxl/mem: Fix memory device capacity probing
-fdb5d6cab638a2881687b59b27817c74d8efac76 Merge branch 'akpm' (patches from Andrew)
-7c22677407243d63df3aee1bb2f6d9aa12c01a24 Merge tag 'cxl-fixes-for-5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-bdfd99e6d6bd690b47bd1d45dad218bf08be1dde Merge tag 'libnvdimm-fixes-for-5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
-88a5af943985fb43b4c9472b5abd9c0b9705533d Merge tag 'net-5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+e195dad1411594809cb955c96a7a514bcc4ad638 mt76: add support for 802.3 rx frames
+cc4b3c139ad308fcd0086baa9dc13bf60e1b802f mt76: mt7915: enable hw rx-amsdu de-aggregation
+94244d2ea503455cddec5a4de28d59c74e1aaf47 mt76: mt7915: add rx checksum offload support
+90e3abf07c80a70f31227eea861f306312d5dbea mt76: mt7915: add support for rx decapsulation offload
+730d6d0da8d8f5905faafe645a5b3c08ac3f5a8f mt76: mt7615: fix key set/delete issues
+ebee7885bb12a8fe2c2f9bac87dbd87a05b645f9 mt76: mt7615: fix tx skb dma unmap
+7dcf3c04f0aca746517a77433b33d40868ca4749 mt76: mt7915: fix tx skb dma unmap
+858ebf446bee7d5077bd99488aae617908c3f4fe mt76: mt7615: support loading EEPROM for MT7613BE
+c1941b8902794c55328a220c5bf3654b1b54ba09 mt76: mt7921: enable random mac addr during scanning
+c2fa8edcca3b87c1d5cd6b9de00cb649abd636f5 mt76: mt7921: remove unnecessary variable
+00ac71ff8dc8b8b9ea07947164e8e5e06c520807 mt76: mt7921: removed unused definitions in mcu.h
+be2a2872d0b1db26222cfcd829f2d9e08f4c84c9 mt76: always use WTBL_MAX_SIZE for tlv allocation
+4b36cc6b390f18dbc59a45fb4141f90d7dfe2b23 mt76: mt76x0: disable GTK offloading
+baa3afb39e94965f4ca5b5d3d274379504b8fa24 mt76: connac: always check return value from mt76_connac_mcu_alloc_wtbl_req
+45f93e368211fbbd247e1ece254ffb121e20fa10 mt76: mt7915: always check return value from mt7915_mcu_alloc_wtbl_req
+7715a1d54bdf47f89194b0a088e07dcd76820f51 mt76: use PCI_VENDOR_ID_MEDIATEK to avoid open coded
+5e30931494b4940ba74fa5796ca0b6d7e4c84e88 mt76: mt7921: fix suspend/resume sequence
+782b3e86ea970e899f8e723db9f64708a15ca30e mt76: mt7921: fix memory leak in mt7921_coredump_work
+159f6dd619d953e2a137bfb42cbce7cbed621c76 mt76: mt7921: switch to new api for hardware beacon filter
+a7e3033fcdb60ad51b03896ae99ad9447389bed0 mt76: connac: fix up the setting for ht40 mode in mt76_connac_mcu_uni_add_bss
+0940605a2a70803fc3362eeccba4c31adf4e70e7 mt76: mt7921: fixup rx bitrate statistics
+9dfd2785ac730f617b06b572683d76bfc51b67c2 mt76: mt7921: add flush operation
+7139b5c0c98af1e2a04bd9ff09d2c01c40f1da41 mt76: connac: update sched_scan cmd usage
+aa40528a5bca990ef8f6a82eb26d23c81b4b3cff mt76: use threaded NAPI
+e78d73e01db3309bbc099be87a5157d3c710fcc8 mt76: mt7615: enable hw rx-amsdu de-aggregation
+2122dfbfd0bd951a6bded5fbd9a1e87b37c41caa mt76: mt7615: add rx checksum offload support
+d4b98c63d7a772cfc2ed68c646915d5b3988e934 mt76: mt7615: add support for rx decapsulation offload
+49cc85059a2cb656f96ff3693f891e8fe8f669a9 mt76: mt7615: fix memory leak in mt7615_coredump_work
+461e3b7f45766f38eeb24ca7354ff01d993b5b47 mt76: mt7921: fix aggr length histogram
+9fb9d755fae20b5ad62ef8b4e9289e5baea2c6fc mt76: mt7915: fix aggr len debugfs node
+8e84836283f18c8a408c422794a9d4ec1412f3c6 mt76: mt7921: remove unneeded semicolon
+f76e9019913bffee0e49b096068e6f6b12f9b0e0 mt76: mt7921: fix stats register definitions
+a4a5a430b076860691e95337787bc666c8ab28ff mt76: mt7615: fix TSF configuration
+d43c7301d3308828220ad733043e53254fb98cd7 mt76: mt7615: remove hdr->fw_ver check
+2eb6f6c437745bce46bd7a8f3a22a732d5b9becb mt76: mt7615: fix mib stats counter reporting to mac80211
+2b35050a321865859fd2f12a3c18ed7be27858c9 mt76: mt7915: fix mib stats counter reporting to mac80211
+c996f0346e40e3b1ac2ebaf0681df898fb157f60 mt76: connac: fix kernel warning adding monitor interface
+57b8b57516c5108b0078051a31c68dc9dfcbf68f mt76: check return value of mt76_txq_send_burst in mt76_txq_schedule_list
+3ab0269d75cd4800750f7e3e1b037db144f9d034 mt76: mt7921: get rid of mt7921_sta_rc_update routine
+23c1d2dc9ed5be1d0df7987335f5646e3826a461 mt76: mt7921: fix the base of PCIe interrupt
+53a8fb4afdc877f8f2d5e1e15cc5ad66155987a6 mt76: mt7921: fix the base of the dynamic remap
+f92f81d35ac26f8a519866f1b561743fe70e33a5 mt76: mt7921: check mcu returned values in mt7921_start
+e268fcaa67b855af41c5eb4c641288a2bef05b17 mt76: mt7915: add missing capabilities for DBDC
+402a695b1ae69b1cc2e445b2258841fd39f92780 mt76: mt7615: fix CSA notification for DBDC
+62da7a38e04131178e1344f080a7d02f76f9c149 mt76: mt7615: stop ext_phy queue when mac reset happens
+b6d20ce433c97fa995d7ec067e642cfdf02c0aac mt76: mt7915: fix CSA notification for DBDC
+6636539283780a0c34880e43a2f4ada561509f61 mt76: mt7915: stop ext_phy queue when mac reset happens
+1623474167f83252576c90b1df42292c6a99ccb7 mt76: mt7915: fix PHY mode for DBDC
+51bf9d60fb927b850ec2abdc1f9f72de523098a3 mt76: mt76x0u: Add support for TP-Link T2UHP(UN) v1
+7883906d22c1e73f1f316bd84fc4a7ff8edd12aa mt76: mt7915: fix rxrate reporting
+f43b941fd61003659a3f0e039595e5e525917aa8 mt76: mt7915: fix txrate reporting
+b1bed649ad0378afc01226c89d7e89f0580788ba mt76: mt7915: check mcu returned values in mt7915_ops
+c3800cc2919721640021c00e5845c32c2e7ad24d mt76: mt7615: check mcu returned values in mt7615_ops
+4bec61d9fb9629c21e60cd24a97235ea1f6020ec mt76: mt7663: fix when beacon filter is being applied
+455ae5aabcc72fed7e5c803d59d122415500dc08 mt76: mt7663s: make all of packets 4-bytes aligned in sdio tx aggregation
+45247a85614b49b07b9dc59a4e6783b17e766ff2 mt76: mt7663s: fix the possible device hang in high traffic
+dc0a108bb060e3023090f97149e0ca81a2636e36 mt76: mt7615: add missing capabilities for DBDC
+782018391748f3547d44c76341ef89a2118ffe32 mt76: mt7915: fix possible deadlock while mt7915_register_ext_phy()
+a2a6cd54eec4649c7cefd00ddb58f55a98c6d951 mt76: mt7921: reduce mcu timeouts for suspend, offload and hif_ctrl msg
+acf337c33de55dbeb25a8c34fa2051d42d77aecc mt76: introduce mcu_reset function pointer in mt76_mcu_ops structure
+d32464e68ffc9cbec4960cd06f05bf48b3b3703f mt76: mt7921: introduce mt7921_run_firmware utility routine.
+1f7396acfef4691b8cf4a3e631fd3f59d779c0f2 mt76: mt7921: introduce __mt7921_start utility routine
+3990465db6829c91e8ebfde51ba2d98885020249 mt76: dma: introduce mt76_dma_queue_reset routine
+c001df978e4cb88975147ddd2c829c9e12a55076 mt76: dma: export mt76_dma_rx_cleanup routine
+0c1ce988460765ece1ba8eacd00533eefb6e666a mt76: mt7921: add wifi reset support
+de29d0afebad775910b428816427b55ba2bea50b mt76: mt7921: remove leftovers from dbdc configuration
+1921b8925c6f2a171af6294bba6af733da2409b9 mt76: mt7921: remove redundant check on type
+12f4be0e6a68650dbc9b73a047748431b2253904 mt76: mt7921: remove duplicated macros in mcu.h
+1da4fd48d28436f8b690cdc2879603dede6d8355 mt76: mt7915: fix key set/delete issue
+9add4bf2b81eb32754a6b34f7e12c0ecd2009cfc mt76: mt7915: refresh repeater entry MAC address when setting BSSID
+14edf1093836e53804c2c6d7699b4ddcbe40c27f mt76: mt7921: get rid of mt7921_mac_wtbl_lmac_addr
+5802106f8bc710cac0e2db6d5d2d219d5f9490b1 mt76: connac: introduce mt76_sta_cmd_info data structure
+93c81df520a1ba506757a47c6e4a148f4372a282 mt76: mt7921: properly configure rcpi adding a sta to the fw
+6104edf9e8a364c9fc586f88867850887524ca04 mt76: mt7615: only enable DFS test knobs for mt7615
+69e74d7f23d515fb559b2e0bebfdf4c458d9507d mt76: mt7615: cleanup mcu tx queue in mt7615_dma_reset()
+ad2a1ea49f631bb739116e9839b6f65231053112 mt76: mt7622: trigger hif interrupt for system reset
+d9852ab2f362fc4fcf501f4350d007b08559ccc1 mt76: mt7615: keep mcu_add_bss_info enabled till interface removal
+a9bae3f5361487c9b3859f288e112ad045973a4a mt76: mt7915: keep mcu_add_bss_info enabled till interface removal
+1ebea45ef027ee31cd50ed92903071391e792edb mt76: mt7915: cleanup mcu tx queue in mt7915_dma_reset()
+1cb7ea2acb725bf8752dc765c1c1645c7ecc23bb mt76: mt7615: fix chip reset on MT7622 and MT7663e
+d76d6c3ba2b0addbf8398641f406b339d91b4fbc mt76: mt7615: limit firmware log message printk to buffer length
+665b2c780d63762349646e9abaea507192c6666a mt76: mt7915: limit firmware log message printk to buffer length
+7c82bbb1acc04ef38698582f6ae6c13358563406 dt-bindings:net:wireless:ieee80211: txt to yaml conversion
+1735e44dddc04e27860b6fc5099a64e4866115b7 dt-bindings:net:wireless:mediatek,mt76: txt to yaml conversion
+2df51a2b7a256b242a91450325c143faae13f234 mt76: mt7615: remove redundant dev_err call in mt7622_wmac_probe()
+a226ccd04c479ccd23d6927c64bad1b441707f70 mt76: mt7915: fix txpower init for TSSI off chips
+60468f7fd7072c804b2613f1cadabace8d77d311 mt76: mt7921: fix key set/delete issue
+859c85fd19715349ce01539459095fd5fc7e483a mt76: mt7921: always wake the device in mt7921_remove_interface
+c7cc5ec5730321ea6c86f0f87cb562fc3827b0d3 mt76: mt7921: rework mt7921_mcu_debug_msg_event routine
+8a5a5dbfc18c667832e1f73b436dc324659fbbf8 mt76: mt7615: fix .add_beacon_offload()
+ac15f9b6da3957b360c356a3a6bb74f5727e433e mt76: mt7915: fix mt7915_mcu_add_beacon
+e07419a7dca97dd9bddfe5d099380857c19535f3 mt76: mt7915: add wifi subsystem reset
+f2d167c7dd2c0bc444e2d5639bcf856d0ea09a71 mt76: mt7921: introduce MT_WFDMA_DUMMY_CR definition
+9c9d83213424679b087267600d53a35acfa0201f mt76: mt7921: fix inappropriate WoW setup with the missing ARP informaiton
+9db419f0cb39a63fb2f645a846cae17b81cd5c96 mt76: mt7921: fix the dwell time control
+e230f0c44f011f3270680a506b19b7e84c5e8923 mt76: mt7921: fix kernel crash when the firmware fails to download
+49897c529f85504139a6e54417a65f26a07492d2 mt76: mt7921: fix the insmod hangs
+4da64fe086d95daa66d0def40fbd1b02d4f813fd mt76: mt7921: reduce the data latency during hw scan
+b4403cee6400c5f679e9c4a82b91d61aa961eccf mt76: fix potential DMA mapping leak
+92e916362ba58e080a8b8e97556d11670ea6ce3d mt76: mt7921: remove 80+80 MHz support capabilities
+0fda6d7bb5a29b241fba8d37b92567c6bec79655 mt76: report Rx timestamp
+6d88629e158dc1a3f58a0f9b528fe0057d44e8f6 mt76: mt7915: add mmio.c
+30ad36214ab52a5eb3475e012e6bf327f843aa48 mt76: mt7615: add missing SPDX tag in mmio.c
+66978204f71b36c2c0240e50c5789fae2d8b87a6 mt76: mt7615: always add rx header translation tlv when adding stations
+2afd17b4d0fc15cba0144e7a4c26549b0e829ce9 mt76: mt7921: introduce MCU_EVENT_LP_INFO event parsing
+481fc927c8289919cc0be58666fcd1b7da187a0c mt76: mt7921: add rcu section in mt7921_mcu_tx_rate_report
+961b27ffc58efbcccce0c275cce9a8f70e064d0f Merge tag 'mt76-for-kvalo-2021-04-12' of https://github.com/nbd168/wireless
+197b9c152badc4003b1e10837f4536cb66a50f3c Merge tag 'iwlwifi-next-for-kalle-2021-04-12-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+b809d226cbc74da442e54d96b37a26c7d900b5df mt76: testmode: add support to send larger packet
+19ee9298b88f04bafc39692dcd8a9257a887eb58 mt76: mt7915: rework mt7915_tm_set_tx_len()
+88631d762bb4b1db413fcf537856929f6b08d9b0 mt76: mt7915: fix rate setting of tx descriptor in testmode
+f1a532479b604509cc09cd20da820028fa698507 mt76: mt7615: fix memleak when mt7615_unregister_device()
+ef222c4d61043943925d2a30262cfd7735465f13 mt76: mt7915: fix memleak when mt7915_unregister_device()
+4d2ef9e6821f174fb3a5c59047f79a6b647fe45b mt76: mt7915: only free skbs after mt7915_dma_reset() when reset happens
+220a8a2284c8c0f5f958f8e168bc9ace3bd0fde2 mt76: mt7615: only free skbs after mt7615_dma_reset() when reset happens
+095260b736a2cd794344608af753d231fdf3e4ae mt76: mt7615: use ieee80211_free_txskb() in mt7615_tx_token_put()
+c95f849c9876771a261f98f814328159c48c9808 mt76: mt7921: add mt7921_dma_cleanup in mt7921_unregister_device
+cb9c43270c8057ac7975413e41c346788fe3f077 mt76: flush tx status queue on DMA reset
+cc01340f97c3750b4412a694fd2f6b4da7de6931 dt-bindings:net:wireless:mediatek,mt76: introduce power-limits node
+92a0480f91c2064a4bd1bb49417876c48f7e37e8 mt76: add functions for parsing rate power limits from DT
+89882d91994b5c178fa95c7f0c598353fccbe9d6 mt76: extend DT rate power limits to support 11ax devices
+a965908a1a4cfb1bb84640e301e058fd2cc98d51 mt76: mt7615: implement support for using DT rate power limits
+26aa68d02d7b50f8bca675249b2422932ac4b714 mt76: mt7615: do not use mt7615 single-sku values for mt7663
+dee8493fb1974ef677a1de5ff4b187d799357fba mt76: introduce single-sku support for mt7663/mt7921
+8156d764137026160869cdf80694308735187bc7 mt76: mt7921: add dumping Tx power table
+708a0c9115fca820dc9b868d69ffc6c26b58a740 mt76: mt7615: fix hardware error recovery for mt7663
+7ccdb3fcb95764242c6f4b1c15d778666ae1b175 mt76: mt7615: fix entering driver-own state on mt7663
+11f0ca5c80c0b46857134f4f9feb1704e4080ae9 mt76: mt7615: load ROM patch before checking patch semaphore status
+5fc5effadbf85123c0572ad9ff7d906db743b649 mt76: mt7915: add support for applying pre-calibration data
+74c9919746ca3901673622732f221fd78a69e587 mt76: mt7921: move hw configuration in mt7921_register_device
+1951cf4d0306051c217dfe20f1984d23ef9728e4 mt76: improve mcu error logging
+2a0adaf650889b591a8ca7cd363ba393f1429d00 mt76: mt7921: run mt7921_mcu_fw_log_2_host holding mt76 mutex
+6902bf93a0c4f75268f7735a5f104f35b51d4373 mt76: mt7921: add wifisys reset support in debugfs
+c670350a12e3ddf9b1408e5ee63e1493f19f1e5f mt76: mt7921: abort uncompleted scan by wifi reset
+a6049bddb4d9d608e389350481265c535bfc0115 mt76: mt7915: add support for DT rate power limits
+df43968b19cd7e7f739504977bd06b62e0fd6d0f mt76: mt7915: rework the flow of txpower setting
+6d1139807236382f2722da43f3c2b89de51b55cd mt76: mt7915: directly read per-rate tx power from registers
+ef2c0c3ce050ced96206de8c1e43359a44d1090b Merge tag 'mt76-for-kvalo-2021-04-17' of https://github.com/nbd168/wireless into pending
 
---===============6601976450206953302==--
+--===============0427789239424610306==--
