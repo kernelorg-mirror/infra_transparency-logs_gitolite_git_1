@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 18 Apr 2021 21:47:36 -0000
-Message-Id: <161878245605.15660.3473472159507936976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bwh/linux-stable-rt
+Date: Sun, 18 Apr 2021 21:52:56 -0000
+Message-Id: <161878277685.19919.4548864762847736169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/bwh/linux-stable-rt
+user: bwh
 changes:
-  - ref: refs/heads/master
-    old: 5ffe04ccd69ae56af304ff7f98fbdaa4478ed47e
-    new: bf05bf16c76bb44ab5156223e1e58e26dfe30a88
+  - ref: refs/heads/v4.9-rt
+    old: 35149e17e6832cf94a4c078fafb0ab3d8794e11f
+    new: 088e72478300f9e08d9cc24d9e8088cd42175135
     log: |
-         bf05bf16c76bb44ab5156223e1e58e26dfe30a88 Linux 5.12-rc8
+         088e72478300f9e08d9cc24d9e8088cd42175135 futex: Fix mis-merge of 4.9-stable changes with 4.9-rt
          
-  - ref: refs/tags/v5.12-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 939326287f7e63045200ed4ee1653029a7aa8065
