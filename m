@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2511014527150735599=="
+Content-Type: multipart/mixed; boundary="===============3965547863354582817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 18 Apr 2021 12:55:41 -0000
-Message-Id: <161875054135.25214.4789850547201555536@gitolite.kernel.org>
+Date: Sun, 18 Apr 2021 12:55:42 -0000
+Message-Id: <161875054237.25277.5562889141695894952@gitolite.kernel.org>
 
---===============2511014527150735599==
+--===============3965547863354582817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,81 +16,88 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 8de1de75e25f595c13acda583ff433e2a3144936
-    new: cc452f42be3421a000cd76d57ebd739a034a4936
-    log: revlist-8de1de75e25f-cc452f42be34.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 1a5bf329d8cfd20c4e3fb26844a2fa32f61b8469
+    new: da54c8927dbd495958a09d2ef45ca5f1afb7d037
+    log: revlist-1a5bf329d8cf-da54c8927dbd.txt
 
---===============2511014527150735599==
+--===============3965547863354582817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618750539 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618750541 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1618750539-94959fcb03e1720899c61237847abe3ed97c36b0
+nonce 1618750540-354a1d54b5b95c7d3cab6eb51762dddc734f8dd8
 
-8de1de75e25f595c13acda583ff433e2a3144936 cc452f42be3421a000cd76d57ebd739a034a4936 refs/heads/linux-4.14.y
+1a5bf329d8cfd20c4e3fb26844a2fa32f61b8469 da54c8927dbd495958a09d2ef45ca5f1afb7d037 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB8LEsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VusQAKqUxOH/j+f+rXaTy+pB
-Cpwz3bfJt/IeomEsPJufQk45ylUMMTKQZamDyHjrjZS3XYu/VoV1e72wykCO/v47
-WrJMrPqdpoqf4Keb2FPKz6/Npr13hzPSP53UWRt3jBRKMB+UKpaKculrYTeVF6B5
-MQUxwbUooWBlttoPsb0VwigrP6DZK2IC7Mvwmjg5MtDPWi6txvqG6HDhzq1zTGNb
-E2Hz6MBNMmPwojhUrzshFRxCOqrAS8uihV+qyJzFxfzYgRlgWSbPuUOXkGHi+KnR
-sSZIswUzpplQsIK34VjFy+zxpXWdGmncQ0ZHi3fAY9Tc7CfxWmLzgZ+2UU5bd9OL
-b1Hp87dkeK7sh0pdYJ4WKRAutXlW92BgmTOMSeMJPzcTInAtbbhDgaDddd7UnfgZ
-uEXlaxMFRcZhZBpasNB2mWrtkVzjFlWaJZPlFZtCX5mw3XDAZT8RilClOf4buj+w
-whxiRHbjIj/ByEfei5G7K57tu9iJPMxqqhNgAEP7w3TrLmotUX9r6NVNTGXNRb16
-UR/HwwPgJiJbfXZYqIA2AfqavBmKHhd4fp3YbAUt8t/76ukseTR1LQZd7HP3dU7b
-V21iOcDHnB+6X7dyrWI80HuaDdXFKyPEtO94LnjGgF+im9TfbNHiUrOS1TpoKyX/
-0ZZYClbl8sl51QhJaWqJbIUe
-=szH7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB8LE0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x+sQAKFjZMGczDxdbF/JVmm/
+5hgbQTG+T00jJvgpz7fpLExMKKsjl7k8TPkRy+QWMD5TTgOzBM3t7bnn8xOTnr+o
+SVyoyJ3irw8FIXMDSLnydUCyu+VkF+NY07XpsB80ONeq8rY2x8kK/p8UXxziZe4x
+FyjIvbPoew1rX7Jc8Ft8Rn+frDLX2WGxjwKUxHeuzvhmg/vTXBSTswukUO1QXvIE
+MfFPeDvUzr6eUrwQ5sZFSVlrSEowW4r1cY962tql3tAKWBaQKtxaVn3yeh13R2I+
+Rdg4RvpcChtd9INPmuHRKeDeTGUh+YGNzhJDZBiLTDKnTwQO6T278T4B2FWQf+vm
+mf26rbJrHm8/l8EK10ztJof4xk/OvA9cLMPUfPCHz51HfiIAv9sF9j2BbcpVVEBp
+xf/lErgeEXXGWv0lvGrn76ay0/mt1DhypoV1C+yeskNgkOamHOeiou7byl7wkxQ0
+v7t7nfof26BnXobYwU41siuSQ81iNPJTaG8JUsw64MfVAsQaK+ghGPFob0ZIP7VL
+B80RfRde/3k5JMZ3P7AJ4wuafBPCuQinZ2iTcAJDrdCDN6pj+YGjDUfizWy9IfXG
+HBHX5Filj/ETx+hosX+TRwziSawfsRu333tWH7tj1ZLoF6yxUwyCTrXDQdJLo85D
+nEZCJpmp9M4y1+SCq7TfaRKk
+=49b2
 -----END PGP SIGNATURE-----
 
---===============2511014527150735599==
+--===============3965547863354582817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8de1de75e25f-cc452f42be34.txt
+Content-Disposition: attachment; filename=revlist-1a5bf329d8cf-da54c8927dbd.txt
 
-ed8043d7dbf6b6d1508c828b8dca3ace0354719e net/sctp: fix race condition in sctp_destroy_sock
-1d1f0a75e7dd49dc6e595b511212b8aa820739d8 Input: nspire-keypad - enable interrupts only when opened
-327d4badd27f99fd11e12d9e44386abc7d017ed2 dmaengine: dw: Make it dependent to HAS_IOMEM
-e16c6fcce92fdccf476dcbbd8f98690d1d569480 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
-2e0fed27742e960524cde9a29f38963c35477795 arc: kernel: Return -EFAULT if copy_to_user() fails
-c9a6d4df4fbe4aaaaa84d0d8a59ad2fb4e3f6807 neighbour: Disregard DEAD dst in neigh_update
-d6e416af89f5ca0211dae8b10067634ad4dd077e ARM: keystone: fix integer overflow warning
-0847fe8cbd57ad75a3a435247a07d5afd41cfa3b ASoC: fsl_esai: Fix TDM slot setup for I2S mode
-c52e97e2d184cceed99f322e184845f7803e8849 scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
-56701ec73d83b9588562e4757af934b8e0d9db2e net: ieee802154: stop dump llsec keys for monitors
-f1e0c55009d2980ee583a7e5b18ea66acf884645 net: ieee802154: stop dump llsec devs for monitors
-8a31d10640d401331ecc34c1569f361a04d2ad23 net: ieee802154: forbid monitor for add llsec dev
-6e3fced5d97f05a8369ef99afbe04d7423a8edda net: ieee802154: stop dump llsec devkeys for monitors
-9a099ba0d25c1ffec2c1b5032dc6495cb8702909 net: ieee802154: forbid monitor for add llsec devkey
-a30e1ba15425fca629b2305e35bf45741b4c6d19 net: ieee802154: stop dump llsec seclevels for monitors
-e16e30e0ddf90b819faefd285c5eb5cda792eead net: ieee802154: forbid monitor for add llsec seclevel
-58ab58789ad127373de8bf721eeab8db6e438784 pcnet32: Use pci_resource_len to validate PCI resource
-6e32f1003d4da95db6d131e48a3c2d4108d04989 net/rds: Avoid potential use after free in rds_send_remove_from_sock
-3dae53387ad3d4a3ce547d8d6c0ac382a50fa0e4 net: tipc: Fix spelling errors in net/tipc module
-635c23a054dd8a3f9c403877f5fc1d3f6ca27303 mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
-60c9bd93dc1533032128ce7b3bc1d0d0ffc24372 Input: i8042 - fix Pegatron C15B ID entry
-b92deeaaea3e564c2d1311ae00fca857330e32fe HID: wacom: set EV_KEY and EV_ABS only for non-HID_GENERIC type of devices
-6fb769e395d74ce39a5f2c44a79352125a53c176 readdir: make sure to verify directory entry for legacy interfaces too
-931ef5266df7443f2a9a0d9dad4089d64a231237 arm64: fix inline asm in load_unaligned_zeropad()
-df37354bc7105435193b83c98d51570dd5158c07 arm64: alternatives: Move length validation in alternative_{insn, endif}
-96e6995c700357c39c8f732b00b65d62878382b6 scsi: libsas: Reset num_scatter if libata marks qc as NODATA
-625dbfc17a4f5a8dbed9b7bf958a09b90ea6bf59 netfilter: conntrack: do not print icmpv6 as unknown via /proc
-b1a6c94ff5fc3b7c67f5ec3de228271c8f4b5510 netfilter: nft_limit: avoid possible divide error in nft_limit_init
-a7e4ef283963412ac8e6a739a10bbdb648ac59d0 net: davicom: Fix regulator not turned off on failed probe
-559949c87bf4fcceb6ee0dfc844e0d1eedca86a9 net: sit: Unregister catch-all devices
-a88346db2cc95464e1173fcfd96d77415ceb491b i40e: fix the panic when running bpf in xdpdrv mode
-e2ea61ecf23a215e4bbf0f7437e06e0f16ac460c ibmvnic: avoid calling napi_disable() twice
-bd7844e298ddedb9c049a70e5d53cf040d8cfac6 ibmvnic: remove duplicate napi_schedule call in do_reset function
-934e5be1ce91ceb03adf4485eac653c30c7efdd2 ibmvnic: remove duplicate napi_schedule call in open function
-cc452f42be3421a000cd76d57ebd739a034a4936 Linux 4.14.232-rc1
+10eee23e733db9842abb932809c059a53f9ca7b8 net/sctp: fix race condition in sctp_destroy_sock
+6e39960dbb7f8b1ab84765aa3136af258c29f9b7 Input: nspire-keypad - enable interrupts only when opened
+ec36fdb8e377c3f735672b31c1e0f738c903e813 gpio: sysfs: Obey valid_mask
+df2cdc30505e7d2a4634ca734404f73a20aca8a2 dmaengine: dw: Make it dependent to HAS_IOMEM
+1b3e2f2ddcd0a2259dc5abecaf842533c08f088f ARM: dts: Drop duplicate sha2md5_fck to fix clk_disable race
+2f72322174650570c1f37388ee8a403396c7be5f ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
+6f0ba13003680b80e21462f79975d10ff3f1bf0e lockdep: Add a missing initialization hint to the "INFO: Trying to register non-static key" message
+3578d48d6e8bcdaec2e250b0c339e7278f394216 arc: kernel: Return -EFAULT if copy_to_user() fails
+e1149692a0917fffc7db7f7b25c368d775b1c635 neighbour: Disregard DEAD dst in neigh_update
+b126a68543dbe77ead9543b63835397e47cde120 ARM: keystone: fix integer overflow warning
+0cf70e40cc13aff95f26e85fcae7a26bd2cf1f28 drm/msm: Fix a5xx/a6xx timestamps
+1510456708ecff2ce65efc5dd52ba4335ed2968b ASoC: fsl_esai: Fix TDM slot setup for I2S mode
+365ec5d45df965cd6981c8f0db8b7168ea305b2e scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
+33686d0c5b015b34ab403ee5fc89835888ecf697 net: ieee802154: stop dump llsec keys for monitors
+b98f828c2798241d92ff7cf312154ae2ea346979 net: ieee802154: stop dump llsec devs for monitors
+91b6fee8572c3f1ac51203971adc8d1284ae6122 net: ieee802154: forbid monitor for add llsec dev
+a8dfdde61c5bc773a6190825f5e246815a841708 net: ieee802154: stop dump llsec devkeys for monitors
+506b4f24ef0dde4ef9b1e5b5c2d9946dbfb99e9f net: ieee802154: forbid monitor for add llsec devkey
+7ef11cf24efbb43305a410661d977cb84d7d306b net: ieee802154: stop dump llsec seclevels for monitors
+25bbe2ddbea785fdb6d5b4a044c199509dfc6e0e net: ieee802154: forbid monitor for add llsec seclevel
+468f8c0c1f72ebdcdaa2556ac70babd61780a869 pcnet32: Use pci_resource_len to validate PCI resource
+db47528e3d80dcbdac131f5a6cf6ccde963ed6a2 net/rds: Avoid potential use after free in rds_send_remove_from_sock
+8202cddcb77b57af22f0b8500be83af9ba5678f0 net: tipc: Fix spelling errors in net/tipc module
+094a2a54fa29b94a5681c6bad73a33fc258f268d mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
+adeb0057184395bb1f7c417179bb50330c7fa922 Input: s6sy761 - fix coordinate read bit shift
+50e00291ee42299b2910bfc3597c902b2b202c34 Input: i8042 - fix Pegatron C15B ID entry
+3464f1a628d976c636e98784629b973e8cd1e179 HID: wacom: set EV_KEY and EV_ABS only for non-HID_GENERIC type of devices
+03064812f12f2a38495f2e6c733cbb99ebda24fd dm verity fec: fix misaligned RS roots IO
+77cb6429d7f6a4ac27e86f4588631900754993fd readdir: make sure to verify directory entry for legacy interfaces too
+fbdb6954e9372cd70b8accb004687ea500406936 arm64: fix inline asm in load_unaligned_zeropad()
+546ff2bebc82a23897e36ed786d8144d69ee022c arm64: alternatives: Move length validation in alternative_{insn, endif}
+cb74e7c60cb85126d55e6203e78ec7807915c169 scsi: libsas: Reset num_scatter if libata marks qc as NODATA
+3eccf55f5c1d0667b780c84a8480a0552111434b netfilter: conntrack: do not print icmpv6 as unknown via /proc
+4bfc8db3733c1248eb94296dd86da5c137c18482 netfilter: nft_limit: avoid possible divide error in nft_limit_init
+28ecf24a1cc4def6c3ca865eed95e710cb8d2964 net: davicom: Fix regulator not turned off on failed probe
+536a4d68fb8134a9f5c9f92668faf8b986bf52a7 net: sit: Unregister catch-all devices
+06180f06181273f606ae9ceb875f87877e75b8c0 net: ip6_tunnel: Unregister catch-all devices
+729fffbce2bfada00175ae18409eade1fcd7ddfb i40e: fix the panic when running bpf in xdpdrv mode
+864c102275c6c05ab709574a8e6857b50cba2e19 ibmvnic: avoid calling napi_disable() twice
+0595933640391eefe488c3644428e50d6021e658 ibmvnic: remove duplicate napi_schedule call in do_reset function
+b944401d2b359fa91c97f0a34e774618c2bb995f ibmvnic: remove duplicate napi_schedule call in open function
+da54c8927dbd495958a09d2ef45ca5f1afb7d037 Linux 4.19.189-rc1
 
---===============2511014527150735599==--
+--===============3965547863354582817==--
