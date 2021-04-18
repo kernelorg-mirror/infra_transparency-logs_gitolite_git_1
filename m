@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8984436632382529682=="
+Content-Type: multipart/mixed; boundary="===============7557998049792594833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 18 Apr 2021 12:08:16 -0000
-Message-Id: <161874769643.5481.15699690712159843206@gitolite.kernel.org>
+Date: Sun, 18 Apr 2021 12:08:18 -0000
+Message-Id: <161874769820.5592.5954584542688982720@gitolite.kernel.org>
 
---===============8984436632382529682==
+--===============7557998049792594833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,102 +16,113 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 65f1995ea1e930674e76c5888b4643581e11434c
-    new: 86a799ba8d60e05de27a3f3bf140dd6bad5e8db4
-    log: revlist-65f1995ea1e9-86a799ba8d60.txt
+  - ref: refs/heads/linux-5.11.y
+    old: 2aa8861eab092599ad566c5b20d7452d9ec0ca8e
+    new: dccd4a2beb3e6ade1ed8c5d62d939c284aa58a93
+    log: revlist-2aa8861eab09-dccd4a2beb3e.txt
 
---===============8984436632382529682==
+--===============7557998049792594833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618747694 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618747696 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1618747694-01afb6b2c6f5c56d02861bb2805c3266ca061eae
+nonce 1618747695-029c42511ca3878651487f7153262629af7b8431
 
-65f1995ea1e930674e76c5888b4643581e11434c 86a799ba8d60e05de27a3f3bf140dd6bad5e8db4 refs/heads/linux-5.10.y
+2aa8861eab092599ad566c5b20d7452d9ec0ca8e dccd4a2beb3e6ade1ed8c5d62d939c284aa58a93 refs/heads/linux-5.11.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB8IS4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MpAQAJ+XVDuOIKO4AumXrIHV
-avRIW32FKiygGwK0pRG1wSD3hfqgUOwL2118zP+h0TIy5VRMCEwKVAZiJ8LAv5w0
-LDmO47niesLR1p7qVjlGnfjsUIlY9/r7kf3BhkQOwgOoZzugZrCHbWTPt3/NkynB
-3OLlhRnHeXNUZrP6QZ1A3pHCfNW9DPCXbaTmOrs5pynv7uIHgIqMuCbTV5pfF0He
-DCpEHYxEMeM7nSJ8SCt3v5oFTiBAjswLN2FBvVwIw+oUKfmYJOlrYqpDt2kqhnCg
-LOAof2XnGkDoiaOQTaxWFWX5funU9pmDNlWdUUsjHJ5UCLdPfBxxhHGHBJ9VwOFD
-JM2suU1TiSb34QBbMVjAbEP1eOYKc4pB0zeoWwPXXGzJO5j0UC3xx898r0vjvh9x
-v+C/La+ixxogrmhg75+JW5/dbHHUtmnfBbW3hhjYPkUpFW2RDNtwh5bGT+B6e+t1
-9/1WheZ71BF3fIGoVZaaEi9I9qZcgfI1GEtDkX9ClrKfqh07mwhJ+Wo5Fpb1QMun
-MY+ahj2uDUUhVNZai7kP+kaKLAm26nrNOQfQzIqeMBhUdDI3fMgHqsaBPEdIQD8r
-xEQazMzJYJF+enXHB9YBXaQy0NUztDC1f98Q3rbYqcF0qX3cezEwTIvCDBDGhnJd
-m0dezDCxz568lrzUUxLSevoe
-=1ijU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB8ITAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U8sP/R9AK0sKYSYyvrbQVvFa
+jlGGmXlZZtEc1oDoGepYLq25JbOJ1tWm0buEacYfFroGil8OgO+ea/PZkZ/jgF7e
+rep3fj/LwBxoqkhTbB3kAwuT7oxK9RFyxEWpz9q49bqE01c7ddGDiLD8grsz/OyB
+MdAo7OZV9Rp365PZRbJdFi3yKXxuYLUo/TgcpUqkMnktn4mJiEBVl+i34+yu1LiD
+IXYdBQ8KRYfqlln43fsGTGrzjbgXDYUrWum0kNdvCCvw0kUG+LX2UY2lovClK6+f
+0t8wNtJ3ulg1uZPjDMHa6i+s6wJeWYWK7eFb7giGErRvfuvRLjqEBwTPqaD4WGtS
+zaVJAHUMey0qhpVchdOshBSHttgy7wrebq+weAREdIitVkaFu7Zj2XfMgheT6hsH
+AmQZ6PjE7xCCirNwyw5N6d7OiMQNNj6ZX7t3lPWsAQwpz1gl9hAk+vI8r3aO4wHn
+ZgC3oRW4AG9wHFa3J78AYQkc0dE1H+EtGjNWdPbA3Z2GDqNe6OJrZXKWxCcpJExb
+sZVz1zv2YOunOWMw1y0972vFZAd64HXS2nE4j1piCY0bI/GXyPytoT5I5lXFdGrk
+PVy7WPDtGadWJLGQy+aFm2XpDy1J4OJWsxluSVVc6etcYPD6GIiDlviaWJ+jp1L/
+AqZFv8535bqYdznGYfMkkOsr
+=t1Zl
 -----END PGP SIGNATURE-----
 
---===============8984436632382529682==
+--===============7557998049792594833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65f1995ea1e9-86a799ba8d60.txt
+Content-Disposition: attachment; filename=revlist-2aa8861eab09-dccd4a2beb3e.txt
 
-3fd350ac0ab77ccb791b5b979560c692e5098948 net/sctp: fix race condition in sctp_destroy_sock
-a49165e7f0b43707ac89d5c04e425b5c4285e94b mtd: rawnand: mtk: Fix WAITRDY break condition and timeout
-5bb59da8a3f1b8f27bcb5f6ada09ee2479541a3f Input: nspire-keypad - enable interrupts only when opened
-a75d5a2b1c8df325a91430e96bc11561a0925244 gpio: sysfs: Obey valid_mask
-38fbd25af31ee00846b5750e1fea922e351d7b21 dmaengine: idxd: Fix clobbering of SWERR overflow bit on writeback
-d2f149ce0c19286dd94d797657080cb9b13ef2a3 dmaengine: idxd: fix delta_rec and crc size field for completion record
-0341f09339f597afa7fb732ae5dde3391949aabf dmaengine: idxd: fix opcap sysfs attribute output
-24acb42f092ec73593cc15c90b67115ffa8cce15 dmaengine: idxd: fix wq size store permission state
-b85ff9b4531f1413c0f0409bd85b47528d5b75bb dmaengine: dw: Make it dependent to HAS_IOMEM
-65cb5db03345c2be2cc580f469c654c9b0beca6b dmaengine: Fix a double free in dma_async_device_register
-b9a539ef1cf33ba1af05db3a993506df18a33d7d dmaengine: plx_dma: add a missing put_device() on error path
-ef6f1c0f789afcbef3956729ff43036ac69ee37c dmaengine: idxd: fix wq cleanup of WQCFG registers
-0dfa1f7de58f97f67278a42af8254f948088e5a9 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-61b24149783d8bffd82acf0eecd6b25d028342de ARM: dts: Drop duplicate sha2md5_fck to fix clk_disable race
-3e1dbec38cb8c68a1c4af8e562d3480412ba2e07 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
-e4c685e481777b0313c9a8edc75f424f82bcc358 lockdep: Add a missing initialization hint to the "INFO: Trying to register non-static key" message
-4518d78b4f7cbc6613e62760bd428e7702950096 arc: kernel: Return -EFAULT if copy_to_user() fails
-454a7f84425de49886b05575dbfa21761de3383c iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-d1b66ffa8a27e933c727664a3db7d93c8b2e6442 xfrm: BEET mode doesn't support fragments for inner packets
-05a9dc6f70dc685a4bd3d2f29cda6c43625025ee ASoC: max98373: Changed amp shutdown register as volatile
-5f387cdbbcdf4da8ade34172e296cf075f3a52e0 ASoC: max98373: Added 30ms turn on/off time delay
-0e086a081a59250f8214a592a1a3665c4b59a634 gpu/xen: Fix a use after free in xen_drm_drv_init
-020f827f43149fc283505519728a3b09b8a0a343 neighbour: Disregard DEAD dst in neigh_update
-2cd5bacc2c885591e61d0dd7228aa3a34754b8be ARM: keystone: fix integer overflow warning
-9141a5768abd57028f5dfbcf9c0499b599c4b6ef ARM: omap1: fix building with clang IAS
-a03afe3bf149e1efe4cb37c7c25d813849eada61 drm/msm: Fix a5xx/a6xx timestamps
-6c379d45c83ea4a4fbac22be8703711864aad713 ASoC: fsl_esai: Fix TDM slot setup for I2S mode
-8a48f48e4099e23848d37443bce9f6fe9d5f0b58 scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
-49992d4a21f878f6da1a8d30f854b91be1f40afc iwlwifi: add support for Qu with AX201 device
-661b9f5e370f73d09d0a42185ea4e477151c0cca net: ieee802154: stop dump llsec keys for monitors
-67b636cb8c90977b1e91e61c9a511be292ca4cca net: ieee802154: forbid monitor for add llsec key
-acb52e7f502cc81cb6067911b34ea5fae1cca4a0 net: ieee802154: forbid monitor for del llsec key
-c680112e14e84deb27e56d149038be21aa84c52a net: ieee802154: stop dump llsec devs for monitors
-3908c1f84a361d26141a266bca95069fcde185d8 net: ieee802154: forbid monitor for add llsec dev
-b1fc2aea331b73a610878ece31b4c5cec284cfb0 net: ieee802154: forbid monitor for del llsec dev
-d46bf4b59df04a4f73fbd7ed908b78e51e95f4ae net: ieee802154: stop dump llsec devkeys for monitors
-0e9f19e33fbde462589540a8e0d26c94d3c111f0 net: ieee802154: forbid monitor for add llsec devkey
-c52335a346a15c0696201063d1d40487b3ba677f net: ieee802154: forbid monitor for del llsec devkey
-8c7280ce3c5e02fdb835e4423a75f6036b3674a3 net: ieee802154: stop dump llsec seclevels for monitors
-77d5278b8afb05dd90cdfe1989d555b834848dfc net: ieee802154: forbid monitor for add llsec seclevel
-7bb88123d368a1fd8f7927f9431ebcd5d346ed03 pcnet32: Use pci_resource_len to validate PCI resource
-b8e88f56ce5686e12c617c9d72b4401cf9019003 net/rds: Avoid potential use after free in rds_send_remove_from_sock
-7eb40ae0637b6b41a077eee7509ac62c33e38e12 net: tipc: Fix spelling errors in net/tipc module
-3466ef7479758cfe43b072c8c50c711f6869ab98 mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
-0e0c99a56c62750fca07a6de41fc4a642f1c60a0 virt_wifi: Return micros for BSS TSF values
-0d87fe8987d3919dae2e6737125b561b79abf539 lib: fix kconfig dependency on ARCH_WANT_FRAME_POINTERS
-28caa84acc073095ac1cd778776209e477c16c8d Input: s6sy761 - fix coordinate read bit shift
-b84e624d62ffefcdb2a40034388427816d826e7b Input: i8042 - fix Pegatron C15B ID entry
-3c12d7e18af8d69a4a3778697c19a6a2ae0e643c HID: wacom: set EV_KEY and EV_ABS only for non-HID_GENERIC type of devices
-d9470e7a70078616a9ecc2a1426f05a3469fe9e6 dm verity fec: fix misaligned RS roots IO
-57335a6c13175b1c20ab4304c204e920508bd6dd readdir: make sure to verify directory entry for legacy interfaces too
-fb0e28c210f2a477dcc2e929d8d62694192825d7 arm64: fix inline asm in load_unaligned_zeropad()
-3f23c17db29cfa037a16e3532dc937f1d9c0081d arm64: alternatives: Move length validation in alternative_{insn, endif}
-5b58de3ed6939395a7280884d8f6af51ae03c549 vfio/pci: Add missing range check in vfio_pci_mmap
-54fab7920a8b306d6950bab6a7dbd607b01f6a6c riscv: Fix spelling mistake "SPARSEMEM" to "SPARSMEM"
-86a799ba8d60e05de27a3f3bf140dd6bad5e8db4 Linux 5.10.32-rc1
+e19b4bb861011befe2cb9d22008b9d6b8b58ea40 AMD_SFH: Removed unused activecontrolstatus member from the amd_mp2_dev struct
+9eaa8ccd6f4510e6463053f680adc7b1f97ee3b5 AMD_SFH: Add sensor_mask module parameter
+bee312fdd39ed629e494b95ac5d9fd822e554846 AMD_SFH: Add DMI quirk table for BIOS-es which don't set the activestatus bits
+bd433e2c9b42fcc81b5d5caf11475d6afaeca126 mtd: rawnand: mtk: Fix WAITRDY break condition and timeout
+30c85fbae56161252eafe6fa0000011c817a4670 Input: nspire-keypad - enable interrupts only when opened
+c3366976deaeb4597c86f85328a1800d3bf899f7 gpio: sysfs: Obey valid_mask
+0537250667a32462f5ad84248ce3d16a4b28becb dmaengine: idxd: Fix clobbering of SWERR overflow bit on writeback
+159c04c6eddc79e74d1fd42be4f958b336439e0c dmaengine: idxd: fix delta_rec and crc size field for completion record
+1e677f05f0f05f3024103523b3e4f96c56f54948 dmaengine: idxd: fix opcap sysfs attribute output
+71f3364860a6a14b3fc291d2ff1acb21200416a5 dmaengine: idxd: fix wq size store permission state
+4c270cfee18d3abcd84b934a6a8d018e0fdb0abf dmaengine: dw: Make it dependent to HAS_IOMEM
+ddd279acad5463bb7dc6345bd8a3b376c8164e3f dmaengine: Fix a double free in dma_async_device_register
+387ccda18bd870e60accca7f1861eebe3edcbfd6 dmaengine: plx_dma: add a missing put_device() on error path
+a991104e6be506abdba9cbe11e2ca14826687466 dmaengine: idxd: clear MSIX permission entry on shutdown
+5b0cbbbb0e95f735e74843d98e91fc005a9426ff dmaengine: idxd: fix wq cleanup of WQCFG registers
+710b8228caffc5257ae10ffaa10b0da959d88d90 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
+a835806b0a768ba9db1792c44572f9cc3754c73b ARM: dts: Drop duplicate sha2md5_fck to fix clk_disable race
+40ed266ac78b154005633b693dc817f3dad6d1dc ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
+7b82655287ef95a0b629f1708aa895f56c46b8e8 remoteproc: pru: Fix loading of GNU Binutils ELF
+b2f27d1c428ee0ddcbbaabb095b31522492be641 lockdep: Add a missing initialization hint to the "INFO: Trying to register non-static key" message
+20963da1b3fc8d29bf6ad5ca0fe1c6443b1c1a06 arc: kernel: Return -EFAULT if copy_to_user() fails
+f52ded92cfcd9a2f85d3a73bc718077af1a8c24c iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+2c3e0be5c31c546f645ef1fdea673a4adec8de49 xfrm: BEET mode doesn't support fragments for inner packets
+0a72fd20f83aed1b16a425fe2e759318fc7c1510 ASoC: max98373: Changed amp shutdown register as volatile
+fecdda01e837079fef3af151d030f2aebb40643d ASoC: max98373: Added 30ms turn on/off time delay
+2862c1fdb0edaae63f16d4a7a7bee404c7b4a760 net: axienet: allow setups without MDIO
+3ed68c31d001a9f629a131c971c9d5bcd203d7ad gpu/xen: Fix a use after free in xen_drm_drv_init
+d6bc4a83f1073b9ba90391fe012fa7c8bf5a4a56 bpf: Take module reference for trampoline in module
+9f940177064db4d4ee24c8141648dcc0ef16ec51 neighbour: Disregard DEAD dst in neigh_update
+1ead8d5b14d0b3606324791c82360d005fb7b943 powerpc/signal32: Fix Oops on sigreturn with unmapped VDSO
+97dc1a5d46a36480b99f3bab29f3c2aa0735ed09 ARM: keystone: fix integer overflow warning
+c53fc9eb1a4cf5f248360cfabd209fe6c53a63dc ARM: omap1: fix building with clang IAS
+d8f91f131ca50d935f3815ee06a712fe7f44fde6 drm/msm: Fix a5xx/a6xx timestamps
+81455c0aae1d2d57bb2aa1f084fe4bae581c971a ASoC: fsl_esai: Fix TDM slot setup for I2S mode
+f85eaaaea71bbad8b21f1c0603be9d7231c32cd4 scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
+fbca5ea47cabdb06783d5575d84c6950551be5b3 iwlwifi: add support for Qu with AX201 device
+42cb2e1ff7465a0bb7f1b2eea9be2217d878f959 net: ieee802154: stop dump llsec keys for monitors
+44da0f99a564971771d0bf07e536f8732aa12eb6 net: ieee802154: forbid monitor for add llsec key
+c3a5417c707345e46cf7ac1013b26d6b6ae18325 net: ieee802154: forbid monitor for del llsec key
+f5e277eda04210e4fb7dde780d509c1b87e35e52 net: ieee802154: stop dump llsec devs for monitors
+78e6ae8ca23fdfeabc086424a2e2a07bb82c1020 net: ieee802154: forbid monitor for add llsec dev
+ce99bc53e43e92377f73c849fbed6172ffa19134 net: ieee802154: forbid monitor for del llsec dev
+1f666ac07ef7ff4faea01e878815221184d85451 net: ieee802154: stop dump llsec devkeys for monitors
+83dcf3ba1cdc3adaf2157dbc7ce79f5d1656485c net: ieee802154: forbid monitor for add llsec devkey
+8f775b8ca9c8cdfa769d8f3d995a9109abdc93ac net: ieee802154: forbid monitor for del llsec devkey
+2b5a670674ca499ce4c5b59180655f99189be02d net: ieee802154: stop dump llsec seclevels for monitors
+3723e17dd51a079bd6b45a823ccf5e65f042a5fb net: ieee802154: forbid monitor for add llsec seclevel
+db104e53f3b73e6c5702810309b23d2a505ad837 pcnet32: Use pci_resource_len to validate PCI resource
+77b5e78544c4df337301e1e70497e9071d523dd2 net/rds: Avoid potential use after free in rds_send_remove_from_sock
+50d7a1eb9d4fdc9cf697cbeeb2654cd58da3067f net: tipc: Fix spelling errors in net/tipc module
+c5fda0318f580c321620aa28f8b27c42042aa20e drm/amd/display: Add missing mask for DCN3
+80cabe8b7c2861afb454815067e353b32b2b0ba5 mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
+7dfca9802de58e53355a3dc879974288e89cda8b virt_wifi: Return micros for BSS TSF values
+3ea3c4456d110b10a3f80396c43d0182f32f65bd lib: fix kconfig dependency on ARCH_WANT_FRAME_POINTERS
+d760685ca1b1cda0f5fa18a2e67662a5d0efe3ca net/sctp: fix race condition in sctp_destroy_sock
+f8d1c6e87586247d53e409a06cd696754a199160 Input: s6sy761 - fix coordinate read bit shift
+1f7d1d3996279d53da19301dc7f9cb43400f5f7f Input: i8042 - fix Pegatron C15B ID entry
+177424946151120153dbd9c49a9e281fa58334d7 HID: wacom: set EV_KEY and EV_ABS only for non-HID_GENERIC type of devices
+f961421edc91d97202bfd950cf6148057766b31d dm verity fec: fix misaligned RS roots IO
+b8f878b006e3b155e2be45ea93550dca93acb84d readdir: make sure to verify directory entry for legacy interfaces too
+1aec34906c28c6270fa1f4262bd9f27590dbb335 drm/i915: Don't zero out the Y plane's watermarks
+98259d0acef9575f99bc2aa439acc3426f059128 arm64: fix inline asm in load_unaligned_zeropad()
+31834f3a882ee641add69fad0c4764608147b81a arm64: mte: Ensure TIF_MTE_ASYNC_FAULT is set atomically
+e74dc6404509f91cb397fbccf12d467c837ba541 arm64: alternatives: Move length validation in alternative_{insn, endif}
+1c9269c2600e6759bbe48f1d988d7c89ed6f70c8 vfio/pci: Add missing range check in vfio_pci_mmap
+3e3e1699f99fdc322e03eaeda18c5316e1334527 riscv: Fix spelling mistake "SPARSEMEM" to "SPARSMEM"
+dccd4a2beb3e6ade1ed8c5d62d939c284aa58a93 Linux 5.11.16-rc1
 
---===============8984436632382529682==--
+--===============7557998049792594833==--
