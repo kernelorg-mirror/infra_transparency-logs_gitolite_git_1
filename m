@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7209876689617896763=="
+Content-Type: multipart/mixed; boundary="===============6977824976738837408=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sun, 18 Apr 2021 12:08:12 -0000
-Message-Id: <161874769201.5187.5997213530423293495@gitolite.kernel.org>
+Message-Id: <161874769249.5224.14085302763632261227@gitolite.kernel.org>
 
---===============7209876689617896763==
+--===============6977824976738837408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,66 +16,72 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: b43e96dcd58b454757a1af4180c9ed3b8ae4071d
-    new: f9de4d17683def2cb0a68600562d41e0fe981e11
-    log: revlist-b43e96dcd58b-f9de4d17683d.txt
+  - ref: refs/heads/linux-4.14.y
+    old: cf256fbcbe347b7d0ff58fe2dfa382a156bd3694
+    new: 8de1de75e25f595c13acda583ff433e2a3144936
+    log: revlist-cf256fbcbe34-8de1de75e25f.txt
 
---===============7209876689617896763==
+--===============6977824976738837408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618747690 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618747691 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1618747690-505e4df10761dbfd743e05e98870709df95d0eca
 
-b43e96dcd58b454757a1af4180c9ed3b8ae4071d f9de4d17683def2cb0a68600562d41e0fe981e11 refs/heads/linux-4.9.y
+cf256fbcbe347b7d0ff58fe2dfa382a156bd3694 8de1de75e25f595c13acda583ff433e2a3144936 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB8ISobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+exkP/jm5u/iRRzl/XbSXau+w
-jhnTEr/ojLGnRdyOZCjD3nxSJ4Ntb6+1rc4SO0jLd48SMOLqNMx9NUkXZ0lBz6V5
-xkEQLLeUPt33K+99CGrYB1GNmVfGtpAfLoWsOSHVL0XcPOw+tU18GAFJAX+bYgRc
-ht4zbPD7EvDNS+TDqOKLi0sD4f1YvkwnbspvcJZPgnaIWeIiCys7sdSOlDGR8Vjw
-2G1vEY8Ig9t7xCQjyNSEjGIm20exikMrzkoD9bocxthOvZ4K+ZcOI6gRn75MPzqj
-ZknwnYjHok284+ClzS3ApGDywuWzaABkX6OiowoUDEtXTEsBr6smV2jYlhBetui7
-cHwB5rSSVlYrTpEzcZ3rKbqn9hLWKQf3o6xfNHuN54qZ7bDSxeT53omqfZYXp45g
-FI8mH6WPOYJic7xClHdCgfbGchKO7JegwiUG3qTRte/oX34xBRjrnV/8kzspi5rJ
-PD/VVPpk1Wn7IFT1AGgNoeaUHMx+CPP10qqd0nGguRZSzojSI6T4SPZHp0iFyI/o
-jW8s5I5NpvrAVLmxzrkubCMsU97SBvpL0Sc/pmWmJnPUNGw6j84oBhf7dLzyRTWx
-qH6+HhH714AMhhdX/w56zfPq/3DSrPx50aMXvrGWjneSQ7AMRs8oUqoTVVrm3cgX
-xAe5VaLW6zY+/D5u2yZmJ11v
-=0nR3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB8ISsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o0cQAJXVXRZORHHqubkqev4B
+AIAOHBIJn5ioU/mwqtt/B9YmrBdz8yfXCUVcObStZxpApfgv1mis5rhhYL+r7h7h
+uTfBNltf/UJES8IKhMqpb8bbUQaWMQd6uLHsnuIgLTinZDr5zD2g3QFsbNYxui69
+tMN1ATyFEnojFasuRt0C4wkZW+1L3uR3KIDfjjcHw9noBHEUAwng9p/bTGfVs426
+e8fd6W2l8w1Y9RGlJ+kmREIryFYk2RqEl7k9jc2u+ADxolhKuuQ6B6uhJkSyNdAx
+yZv3kg33h/5HEjrOcA/POiVHKoJS7jPpROr/AJGS7LWaj90754iFlgMp5cltjXnp
+Qst4dvYA5+fMltJhPISu9v5USuO8n7eA3ZbkS18GSNbFQy8GvrXC/9jEUWZLslrL
+P6Ho9zDDN/Z5gU6XFdZDdOFCJwg8O5ReM82ZHGXkHcKNjDWYenDvVjH3f/uO8ItF
+pO0Cfl47mxJsW3stgEcxInPAY4BHP9OTf+JfaUCDVajSArpSCg1apx/MrlF4Z8QP
+z+xcoWbQsDWbaoTEx73P2MfVkTHZuUEmxrO0sa/KpVQwMRYfXduZsi66YtcDAzBA
+iqQByDhihZ6YHRMjBva8j4UxGwRloRoFbIiffkgCqwi6pfRDyLkMFQT3ZrMeUVKO
+AgskR2Zh9gz8Hl+cd7dmoHU3
+=6FPX
 -----END PGP SIGNATURE-----
 
---===============7209876689617896763==
+--===============6977824976738837408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b43e96dcd58b-f9de4d17683d.txt
+Content-Disposition: attachment; filename=revlist-cf256fbcbe34-8de1de75e25f.txt
 
-55aa46d79c8326a0739da5e00d9159ee095d88f0 net/sctp: fix race condition in sctp_destroy_sock
-bcf700e4284cccafbcde58843dbd56161113999e Input: nspire-keypad - enable interrupts only when opened
-6ab39f2b37f82b4b884b718f20ab5b3f05ad1268 dmaengine: dw: Make it dependent to HAS_IOMEM
-a730905752c483a401d68784d8f43a00414a4823 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
-7d5557b7d3370a9aef1134736b876a52644c762e arc: kernel: Return -EFAULT if copy_to_user() fails
-278db5860fa1c147a572945c55ceeff2af789202 neighbour: Disregard DEAD dst in neigh_update
-22fd90ea295fec254e34415d82c7357ea41d831a ARM: keystone: fix integer overflow warning
-1f2ecbbc893701d4bfabf3ff6f2414de1f3b0f8d ASoC: fsl_esai: Fix TDM slot setup for I2S mode
-5bc2999b9c6238e2f6e5fd7983cc5c6bc80f1c89 net: ieee802154: stop dump llsec keys for monitors
-7636f7c00deb3b2b8e1946568583924588a5d6ee net: ieee802154: stop dump llsec devs for monitors
-3fa687e0c45cd368285cf10383d683f7945772c7 net: ieee802154: forbid monitor for add llsec dev
-79ff215905e1d36261bf668fdde4755757a4bd24 net: ieee802154: stop dump llsec devkeys for monitors
-033f49ecedf1b7e5ace36856c2c22c2be7d32d4f net: ieee802154: forbid monitor for add llsec devkey
-b4753ae69137bba41d44ec3781eb091368dd669e net: ieee802154: stop dump llsec seclevels for monitors
-f7e8565fe91ddaaf473588095d86294a369d18b9 net: ieee802154: forbid monitor for add llsec seclevel
-feda2a3dc87df774e529ac2f1077ec042e34108a pcnet32: Use pci_resource_len to validate PCI resource
-c45482c04ae5937f5f47a858101b679b8c1f4e1b net/rds: Avoid potential use after free in rds_send_remove_from_sock
-71eddbe20a78294bc2ca0af74fc424da5f9ac99e net: tipc: Fix spelling errors in net/tipc module
-5c82d8145b568ed7f3e5331fa7946aef9b353b1a Input: i8042 - fix Pegatron C15B ID entry
-f9de4d17683def2cb0a68600562d41e0fe981e11 Linux 4.9.268-rc1
+47dc3c5df52566b641b276b0c0018a3b078f195a net/sctp: fix race condition in sctp_destroy_sock
+ffe4bafb94ac734c344554ee054bb9b9ac2474f8 Input: nspire-keypad - enable interrupts only when opened
+73f85bc2f3c699f0ae65d65442f885313330b9e3 dmaengine: dw: Make it dependent to HAS_IOMEM
+a42316b99cd1c088499fca182dc5cc21678c1272 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
+c4b00100a1f1737984fe7ce0474c387bc51b4280 arc: kernel: Return -EFAULT if copy_to_user() fails
+ad0edaae41e61a2c871b09f5807453041d9fb9f4 neighbour: Disregard DEAD dst in neigh_update
+029ec3f4ab86bc70a3ec28ab58980ae892a62cc5 ARM: keystone: fix integer overflow warning
+ca434c5ba79de4fa01169a2974f124a5e91b9591 ASoC: fsl_esai: Fix TDM slot setup for I2S mode
+bc5bba854be545cd9bd74ea7fbe901987c458076 scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
+2a1f707a03571c2dda297463ab13b88ce415928e net: ieee802154: stop dump llsec keys for monitors
+7ab36a9402b35710061a237a20ce2ce964a8fc96 net: ieee802154: stop dump llsec devs for monitors
+c7a381c07f62c30016e73995ac04a4aa9d760769 net: ieee802154: forbid monitor for add llsec dev
+2f7a7f593b4c8ca644b30028fbdd38735773b4ee net: ieee802154: stop dump llsec devkeys for monitors
+d313c29a0e5b3b8718d3fd92dca2ebd64fed9625 net: ieee802154: forbid monitor for add llsec devkey
+53b1f8c3a2ad3ca3f2a8ccad76f9783b4c69a6c7 net: ieee802154: stop dump llsec seclevels for monitors
+661e26bdc35e0f3b8713c0c4923aa4d1b9775f26 net: ieee802154: forbid monitor for add llsec seclevel
+8e65fad5ed68381ea12f3ee0f2b43b5c6625facd pcnet32: Use pci_resource_len to validate PCI resource
+9f5ec30bfd5961a0d8edc92902f10511628bb143 net/rds: Avoid potential use after free in rds_send_remove_from_sock
+b405d74c65cb7593d84de4a6e135928bac7e73cf net: tipc: Fix spelling errors in net/tipc module
+926675976c92b8aee62743f89b6778ae1e6b1f4f mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
+620bb9e82d816dfb82a2a8363492cafeb6248928 Input: i8042 - fix Pegatron C15B ID entry
+89a4a1ca1ed2eeca942b2b8dc1334c86899d1f07 HID: wacom: set EV_KEY and EV_ABS only for non-HID_GENERIC type of devices
+71b3382d4bc2489190676ffa046b4b9612389764 readdir: make sure to verify directory entry for legacy interfaces too
+dc61acf77e69e0ea3ba210f833944460d7ba2fde arm64: fix inline asm in load_unaligned_zeropad()
+de6da301cdec021064f4744a684359a35189733e arm64: alternatives: Move length validation in alternative_{insn, endif}
+8de1de75e25f595c13acda583ff433e2a3144936 Linux 4.14.232-rc1
 
---===============7209876689617896763==--
+--===============6977824976738837408==--
