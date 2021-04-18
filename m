@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Sun, 18 Apr 2021 13:04:24 -0000
-Message-Id: <161875106455.29922.1854659701309206892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 18 Apr 2021 13:07:50 -0000
+Message-Id: <161875127051.32328.8974281245346328075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: wagi
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/v4.4.263-rt220
-    old: 0000000000000000000000000000000000000000
-    new: 0b899d77e4bc82994416297070636f20eb0ef495
-  - ref: refs/tags/v4.4.263-rt220-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 250ad91e29aef6a9aec1287c04f50ad8d713a41e
+  - ref: refs/heads/master
+    old: c7d42800f50d14056dcc531380e45fbdbb22c335
+    new: 29659a17e4598a6ca4087347d7f68a77c3fe3d85
+    log: |
+         29659a17e4598a6ca4087347d7f68a77c3fe3d85 Sun 18 Apr 2021 01:07:24 PM UTC
+         
