@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 18 Apr 2021 19:41:58 -0000
-Message-Id: <161877491823.7538.16688836341867490203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pablo/nf-next
+Date: Sun, 18 Apr 2021 20:06:54 -0000
+Message-Id: <161877641405.22316.15357658548139901105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/pablo/nf-next
+user: pablo
 changes:
   - ref: refs/heads/master
-    old: 29659a17e4598a6ca4087347d7f68a77c3fe3d85
-    new: 49198c1415052bde20550eeaf6878c34dc4edec9
+    old: 78ed0a9bc6db76f8e5f5f4cb0d2b2f0d1bb21b24
+    new: b72920f6e4a9d6607b723d69b7f412c829769c75
     log: |
-         49198c1415052bde20550eeaf6878c34dc4edec9 Sun 18 Apr 2021 07:41:34 PM UTC
+         14c20643ef9457679cc6934d77adc24296505214 netfilter: nft_payload: fix C-VLAN offload support
+         ff4d90a89d3d4d9814e0a2696509a7d495be4163 netfilter: nftables_offload: VLAN id needs host byteorder in flow dissector
+         783003f3bb8a565326e89d18bbd948ad8ffc816a netfilter: nftables_offload: special ethertype handling for VLAN
+         812fa71f0d967dea7616810f27e98135d410b27e netfilter: Dissect flow after packet mangling
+         8826218215de1aae9d89a6ea8d3786f224711334 selftests: fib_tests: Add test cases for interaction with mangling
+         b72920f6e4a9d6607b723d69b7f412c829769c75 netfilter: nftables: counter hardware offload support
          
