@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Sun, 18 Apr 2021 13:11:34 -0000
-Message-Id: <161875149424.2439.1054812223197117787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Sun, 18 Apr 2021 13:15:17 -0000
+Message-Id: <161875171766.4909.2822809124274292649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/network/connman/connman
+user: wagi
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 3e9bf43f7f7a46f21ec071cb47be92d0874c48da
-    new: b635ccc1ec26b9b6e2cb1495c3d9d903e0b4f95a
+  - ref: refs/heads/master
+    old: 561f318003c14fff56720309b6c9dfdbceb8dd87
+    new: 8b660d3afd84d2d50a49c24ea9ee1ee4faaded6e
     log: |
-         1df53d212c803c0e11a2b10d47ec830d3576b972 Drivers: hv: vmbus: Introduce and negotiate VMBus protocol version 5.3
-         870ced0548c895eb0bf8d982400344e5a9b2df00 Drivers: hv: vmbus: Drivers: hv: vmbus: Introduce CHANNELMSG_MODIFYCHANNEL_RESPONSE
-         b635ccc1ec26b9b6e2cb1495c3d9d903e0b4f95a Drivers: hv: vmbus: Check for pending channel interrupts before taking a CPU offline
+         17c13bb84972b0ac7bbf4332b09874ad6c59144f Rewrite openconnect plugin to use libopenconnect
+         75e748b3fd5c0632dca1bd5861270769c2207834 wifi: Open code g_memdup
+         8b660d3afd84d2d50a49c24ea9ee1ee4faaded6e peer: Open code g_memdup
          
