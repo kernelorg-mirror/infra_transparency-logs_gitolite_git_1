@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7412132717772382009=="
+Content-Type: multipart/mixed; boundary="===============1532265703487418062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse-dev
-Date: Sun, 18 Apr 2021 15:34:20 -0000
-Message-Id: <161876006010.25155.12176681607803560716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse
+Date: Sun, 18 Apr 2021 15:34:28 -0000
+Message-Id: <161876006899.25261.1636371140963057904@gitolite.kernel.org>
 
---===============7412132717772382009==
+--===============1532265703487418062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse-dev
+repo: pub/scm/devel/sparse/sparse
 user: lucvoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 09ec74f6acaf6837e18157f5b9588bb08971aafb
     log: revlist-e19144ebc795-09ec74f6acaf.txt
 
---===============7412132717772382009==
+--===============1532265703487418062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ b91ba64904a6a05d619a27a17545163eac97c2ca memops: avoid using first_pseudo()
 ee17130837d9cef3e587d6dea7533903c277718c memops: we can kill addresses unconditionally
 09ec74f6acaf6837e18157f5b9588bb08971aafb Merge branches 'fix-phisrc' and 'insert-last-insn' into memops-prep
 
---===============7412132717772382009==--
+--===============1532265703487418062==--
