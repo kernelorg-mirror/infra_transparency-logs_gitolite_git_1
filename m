@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8206315908586778221=="
+Content-Type: multipart/mixed; boundary="===============5151646274227567339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 18 Apr 2021 10:31:32 -0000
-Message-Id: <161874189266.9838.3471195792857179026@gitolite.kernel.org>
+Date: Sun, 18 Apr 2021 10:33:45 -0000
+Message-Id: <161874202550.10680.3893820544273277060@gitolite.kernel.org>
 
---===============8206315908586778221==
+--===============5151646274227567339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,295 +16,301 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: db4e5e7f1d82598b800c400da9e2356da33d86e2
-    new: c868f0775c4e608a6cedbf7a7c6a6dfbdb794a7a
-    log: revlist-db4e5e7f1d82-c868f0775c4e.txt
+    old: c868f0775c4e608a6cedbf7a7c6a6dfbdb794a7a
+    new: 815fb18f1ad990a2df30112d7f8d80ce4e81051f
+    log: revlist-c868f0775c4e-815fb18f1ad9.txt
   - ref: refs/heads/queue/4.19
-    old: f9bcc90e902ef07dc5f35dfd7291cad88c7594bb
-    new: c959537d9abda88795ec630d8f7d360d03841f28
-    log: revlist-f9bcc90e902e-c959537d9abd.txt
+    old: c959537d9abda88795ec630d8f7d360d03841f28
+    new: f7703618faf40dd6c77b2955c0bcae3f992f6f5b
+    log: revlist-c959537d9abd-f7703618faf4.txt
   - ref: refs/heads/queue/4.4
-    old: 41cdd0ef763a660099b102a4726b6b64d932f1f4
-    new: 0e6772bd52dfe2eea9517757e2edef0972cb44d0
-    log: revlist-41cdd0ef763a-0e6772bd52df.txt
+    old: 0e6772bd52dfe2eea9517757e2edef0972cb44d0
+    new: 42b3db81423c7bcbc288ffe726280b79da987e13
+    log: revlist-0e6772bd52df-42b3db81423c.txt
   - ref: refs/heads/queue/4.9
-    old: e0b4ecae19839e192be517398197da281acccfdf
-    new: 7db65ead5b0a45937e286743bf554672a820f260
-    log: revlist-e0b4ecae1983-7db65ead5b0a.txt
+    old: 7db65ead5b0a45937e286743bf554672a820f260
+    new: 7db30d3f18fe33f64da3fc20bbaf5e5d43000bed
+    log: revlist-7db65ead5b0a-7db30d3f18fe.txt
   - ref: refs/heads/queue/5.10
-    old: 3f647a31342195eb87dc3d908785e88b47712245
-    new: d9f7352cfd7178455edcd598b4009437d66ff203
-    log: revlist-3f647a313421-d9f7352cfd71.txt
+    old: d9f7352cfd7178455edcd598b4009437d66ff203
+    new: 43afa2c83831abf38b97e33cb9e4946aed3b259b
+    log: revlist-d9f7352cfd71-43afa2c83831.txt
   - ref: refs/heads/queue/5.11
-    old: a6fd4ab8f1effebf2770770431f6b98edbab44b4
-    new: dd7fbf08ddb0acbe1bf0d4359567e839cf08f28a
-    log: revlist-a6fd4ab8f1ef-dd7fbf08ddb0.txt
+    old: dd7fbf08ddb0acbe1bf0d4359567e839cf08f28a
+    new: b2b2a738f20ff69b3b54e8654aff694f23814a7b
+    log: revlist-dd7fbf08ddb0-b2b2a738f20f.txt
   - ref: refs/heads/queue/5.4
-    old: 56050c1e54d78910ab31ff92e8c4dcaf601cc50f
-    new: d62f09f39bfe7311d38cfb5e58815c32ddc3ed8d
-    log: revlist-56050c1e54d7-d62f09f39bfe.txt
+    old: d62f09f39bfe7311d38cfb5e58815c32ddc3ed8d
+    new: 44b4dfabcfe4b76ee64be76c1fae86e50d4ec2d9
+    log: revlist-d62f09f39bfe-44b4dfabcfe4.txt
 
---===============8206315908586778221==
+--===============5151646274227567339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db4e5e7f1d82-c868f0775c4e.txt
+Content-Disposition: attachment; filename=revlist-c868f0775c4e-815fb18f1ad9.txt
 
-3ac811b45332f5277563ab7c537448aa2f1f40be Input: nspire-keypad - enable interrupts only when opened
-d4d315b4afd16b3783959a33e7b9a45a54007524 dmaengine: dw: Make it dependent to HAS_IOMEM
-3a3606e883a91ff67323b898fb5f50b7888b9dd7 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
-a988245807b604e71d5a68fa19c41d9bc4bff9bf arc: kernel: Return -EFAULT if copy_to_user() fails
-b06f455429b08d9161b977b939b00f3089e25ae3 neighbour: Disregard DEAD dst in neigh_update
-76f02a4817ab0b641a87d007374f42d924aae9e3 ARM: keystone: fix integer overflow warning
-1fae77e63632c3104db9350baebf3e3367d06b00 ASoC: fsl_esai: Fix TDM slot setup for I2S mode
-03068dede5daf81677fd9159a205c5031efdc5f8 scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
-06817d2e59477abcb07e279720e854cdd450f4a8 net: ieee802154: stop dump llsec keys for monitors
-77110cdd47ca2d626878e7a0ec38b7343e354c83 net: ieee802154: stop dump llsec devs for monitors
-e3a1decdf11ae8691f5631dd1fa7deae05629899 net: ieee802154: forbid monitor for add llsec dev
-da1610b2b66c03c564907825c57ddacc21ef29a7 net: ieee802154: stop dump llsec devkeys for monitors
-f3c2fa40c5c729356ef0c11fb769b5dae4ba497c net: ieee802154: forbid monitor for add llsec devkey
-460c77c721e7a66ac30538d50f8568c57de03cd9 net: ieee802154: stop dump llsec seclevels for monitors
-fb8e3837a8b3103ccfa97f74adbc12385b586774 net: ieee802154: forbid monitor for add llsec seclevel
-19bb3586a7fbeed1e8acb3df67dfe9b2e75cf14c pcnet32: Use pci_resource_len to validate PCI resource
-71d5621c60cfac00b43c06a64303d46e28326e4c net/rds: Avoid potential use after free in rds_send_remove_from_sock
-6c81823f6eb71d97f6fad4a4e626186dce31d5e2 net: tipc: Fix spelling errors in net/tipc module
-c868f0775c4e608a6cedbf7a7c6a6dfbdb794a7a mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
+e192972a9153671aeb42e75a180d15ca6cd55f5e net/sctp: fix race condition in sctp_destroy_sock
+15376ff1cbc3e0bfa2afd84b5ad9f652b32e1c89 Input: nspire-keypad - enable interrupts only when opened
+422f7cc44251f722273acf2b5007468785c8bf3e dmaengine: dw: Make it dependent to HAS_IOMEM
+a6eb0990bfb7ce7f1c93350a8fea41e4978e8643 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
+8cc029f9ff632bc9034de64b4346a2d2f4aadb3f arc: kernel: Return -EFAULT if copy_to_user() fails
+36b265966eb8dc2886c5ceca037837af491f5553 neighbour: Disregard DEAD dst in neigh_update
+cd49033747c3932aa53fd00917183daec422c0c8 ARM: keystone: fix integer overflow warning
+6d5beb682129e00dc5f6ff96f0d9ba3401a74c1d ASoC: fsl_esai: Fix TDM slot setup for I2S mode
+54f276b2649ecad33e3e32d6535d2e74ecc208bd scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
+b7143a092e10bb0dcaeb5a862ccaf4c01552e019 net: ieee802154: stop dump llsec keys for monitors
+efdeae7cc2c4559011dc8734b596e68f7ec9c05a net: ieee802154: stop dump llsec devs for monitors
+811d2d7d4a12727040fea672ab466d57ef60159a net: ieee802154: forbid monitor for add llsec dev
+a000bab9c343b8d52a6430afbc223aece11681ef net: ieee802154: stop dump llsec devkeys for monitors
+c80330f64d0125083f956c505a200a6c46bd3b46 net: ieee802154: forbid monitor for add llsec devkey
+e1a3dd101e2318eb2767f36199da5d7647023bbf net: ieee802154: stop dump llsec seclevels for monitors
+2aef891128c9da02780b26c8178f6e686ea371dd net: ieee802154: forbid monitor for add llsec seclevel
+69435ed5465330a5e6388be1055c5f541ad1241b pcnet32: Use pci_resource_len to validate PCI resource
+b77f7c4d8d15bc5c071f7287fedf3c85f2c8efc4 net/rds: Avoid potential use after free in rds_send_remove_from_sock
+36f12fe3615cae2eaac9a56c0ef44d0578617593 net: tipc: Fix spelling errors in net/tipc module
+815fb18f1ad990a2df30112d7f8d80ce4e81051f mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
 
---===============8206315908586778221==
+--===============5151646274227567339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9bcc90e902e-c959537d9abd.txt
+Content-Disposition: attachment; filename=revlist-c959537d9abd-f7703618faf4.txt
 
-70f501c2f41c2350780ab330ec087c5da14f001a Input: nspire-keypad - enable interrupts only when opened
-fbed668a0e3506005e92c1202115e48df66230f9 gpio: sysfs: Obey valid_mask
-07d11fe79e4583c50dfbcfda3e1a1402005037eb dmaengine: dw: Make it dependent to HAS_IOMEM
-104d184f7dcfa7ed4e4c402b38dffa4f284d3753 ARM: dts: Drop duplicate sha2md5_fck to fix clk_disable race
-2cdbd346b2c745aef8df672699e4d9a5f36f3d71 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
-55ba166f07cb6143284031fce2b1402775201711 lockdep: Add a missing initialization hint to the "INFO: Trying to register non-static key" message
-16d0bfc60931d9f9f671a1d5b31720064f879eb1 arc: kernel: Return -EFAULT if copy_to_user() fails
-1f6e02bfbb4fc4711a07c0fa1db041c2056672f2 neighbour: Disregard DEAD dst in neigh_update
-a0ec637572df74c344a027d7482e38a2b4743e5a ARM: keystone: fix integer overflow warning
-724bd8e195b4e86f20e328560c2352cb3e4d18dc drm/msm: Fix a5xx/a6xx timestamps
-98d1828177791ea9803f9405d91b623c34be84a7 ASoC: fsl_esai: Fix TDM slot setup for I2S mode
-9be7d412bfda6259b64208d9cfe2837990b367bc scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
-1089be42ac3106bd8940eb385ba868de09a542f6 net: ieee802154: stop dump llsec keys for monitors
-0c35b10f407fb0d9f40d068a033f92cea64a04ee net: ieee802154: stop dump llsec devs for monitors
-04ebbe3e9ab99c36f485cc5a4a2e2145d29b2ec4 net: ieee802154: forbid monitor for add llsec dev
-ddecddc311aeb340ba182d4ed34c6b8c4da873ca net: ieee802154: stop dump llsec devkeys for monitors
-636f11341c93b8b663f3bd43bdd08d6a1ad05c30 net: ieee802154: forbid monitor for add llsec devkey
-3eeee7bf3d4c6d2f9e6e0809c6b24d1d73421d15 net: ieee802154: stop dump llsec seclevels for monitors
-212bf3f283ffa0321025fcc1be6bf326af8df2bb net: ieee802154: forbid monitor for add llsec seclevel
-c0887133f7a255804b571a10e263f32a6b72820a pcnet32: Use pci_resource_len to validate PCI resource
-d3cda5a419809acfb0b343950164b9a3b8fa2e82 net/rds: Avoid potential use after free in rds_send_remove_from_sock
-1fb119a9b534de8aba40f6b5310258b5cbad64c5 net: tipc: Fix spelling errors in net/tipc module
-c959537d9abda88795ec630d8f7d360d03841f28 mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
+d70ec4a25df2411f56e8b436a2442c2269caff94 net/sctp: fix race condition in sctp_destroy_sock
+f727fa78d4ad0b6a926e3353a956d22b7be4104d Input: nspire-keypad - enable interrupts only when opened
+963172d6fd75b155a2ef729d5c44a3a5c9474a2d gpio: sysfs: Obey valid_mask
+338782b6fce590806f98c5e87bd92e859deff2d8 dmaengine: dw: Make it dependent to HAS_IOMEM
+da187cef51432d0a983a8c6b9ef573e0faf4733a ARM: dts: Drop duplicate sha2md5_fck to fix clk_disable race
+c7bf0e85cabcfcb14d8330e7b64b4a9538241365 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
+06e6c5c6df8e6b7ab2e9ce9607e78e14766917c2 lockdep: Add a missing initialization hint to the "INFO: Trying to register non-static key" message
+b46c241d1b5ea18550d2bacd1b8a54cec1da8312 arc: kernel: Return -EFAULT if copy_to_user() fails
+d7091e14a77e398c2f589fd32635c3ade67f225c neighbour: Disregard DEAD dst in neigh_update
+73da09afec71b4f570766ccc54d03cb5ce74997c ARM: keystone: fix integer overflow warning
+d9dbf46b14fdf4289a45ba6f10d56a736d6e1e6b drm/msm: Fix a5xx/a6xx timestamps
+b513037898c93a9a698329d285a986ffb46e43a4 ASoC: fsl_esai: Fix TDM slot setup for I2S mode
+6cc71fc8bc4b91f707b2974d79332aac89344cb7 scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
+009ffa9935bebd78dd60da4f9f1c87ace04321da net: ieee802154: stop dump llsec keys for monitors
+c9df0e5d8b07181bcd4387467f9b1c459f7ef8d6 net: ieee802154: stop dump llsec devs for monitors
+9fea9d691323566ddb867a970c455ebabb8f28ea net: ieee802154: forbid monitor for add llsec dev
+38b91ad3827e7dd8101ff45730b384e8f6fe8657 net: ieee802154: stop dump llsec devkeys for monitors
+8675cf80ef94d175c32e3e43b3468b62831d850c net: ieee802154: forbid monitor for add llsec devkey
+98a99abcc3701736842a88c4551e7294b165c980 net: ieee802154: stop dump llsec seclevels for monitors
+77989e9a4afa5f755a472cfb2e737b28c939dd0f net: ieee802154: forbid monitor for add llsec seclevel
+ae4d19ae58288d8bdabfb60274fee6ff4306da55 pcnet32: Use pci_resource_len to validate PCI resource
+71a5e90613a5f41ee25c610518df7bd5d159e003 net/rds: Avoid potential use after free in rds_send_remove_from_sock
+0ff9a9df2e98ab2797ecf164b91b9860bacb1f1d net: tipc: Fix spelling errors in net/tipc module
+f7703618faf40dd6c77b2955c0bcae3f992f6f5b mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
 
---===============8206315908586778221==
+--===============5151646274227567339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41cdd0ef763a-0e6772bd52df.txt
+Content-Disposition: attachment; filename=revlist-0e6772bd52df-42b3db81423c.txt
 
-b8aaeca1f1de0fd54b33782831a6f2b5e6382c97 net/sctp: fix race condition in sctp_destroy_sock
-11901033c9cf9f31a7d5855bb436c25374e6ed17 Input: nspire-keypad - enable interrupts only when opened
-6c2e631df1cb7fdc6343e3b7f495bae087578353 dmaengine: dw: Make it dependent to HAS_IOMEM
-d66e7697f1186564a397656906e3615ac859d533 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
-f4e1e7ac4f99c4ce030ac5ff4d14032d33e0eb5f arc: kernel: Return -EFAULT if copy_to_user() fails
-04d1b999c15a2c35b18e266ee4f2d5316d141f83 neighbour: Disregard DEAD dst in neigh_update
-c704104a8c90a9c397b12b9c11575571fccfb31a ARM: keystone: fix integer overflow warning
-575ff61103fc13983020dde60b2bfd412fc25e2a ASoC: fsl_esai: Fix TDM slot setup for I2S mode
-713729d5acd9d1a3c914a506640122a948cac319 net: ieee802154: stop dump llsec keys for monitors
-e48cf8fdfd471034302248ef1a3c47181bb108a7 net: ieee802154: stop dump llsec devs for monitors
-a80f387900908e98290f1b406b34ba22f6e664bb net: ieee802154: forbid monitor for add llsec dev
-816a2546eeb7081d686507bacaf2b7df306b7e24 net: ieee802154: stop dump llsec devkeys for monitors
-a2ececd99c72f7dc980de6e937fc4433ef1edb58 net: ieee802154: forbid monitor for add llsec devkey
-3105ae4e35eb23db5c1e32a6b38baa66f4b3d1a4 net: ieee802154: stop dump llsec seclevels for monitors
-33b2428aeb443c29a65eff07fc54debbc381356e net: ieee802154: forbid monitor for add llsec seclevel
-59fa055756bd2b18b54351e8bae97db75380ecd6 pcnet32: Use pci_resource_len to validate PCI resource
-52528449c8b5dff5f3ce44f3245157d85c64d1c1 net/rds: Avoid potential use after free in rds_send_remove_from_sock
-0e6772bd52dfe2eea9517757e2edef0972cb44d0 net: tipc: Fix spelling errors in net/tipc module
+a550a72ae50e3b30ec2437be38028c8cff964251 net/sctp: fix race condition in sctp_destroy_sock
+5cd8fb0190b04eb72139c0276781f9b8241d3318 Input: nspire-keypad - enable interrupts only when opened
+3ab5b7d0f4d77cf9867a0d29192de2d7446b4945 dmaengine: dw: Make it dependent to HAS_IOMEM
+b4bf57a93eef47dd963448065d23e80ef5e048f7 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
+bf95be5f696a2dd477c08644e65acd61a2d39f4b arc: kernel: Return -EFAULT if copy_to_user() fails
+2a817c32b27ca1f025e086c6ff8765cfc841bfbd neighbour: Disregard DEAD dst in neigh_update
+9d6d367bfd8dd2bf57ea6fd867605a3376ac6d35 ARM: keystone: fix integer overflow warning
+58ef6599de6ba3a967dad4ffa71be61355bf3ec7 ASoC: fsl_esai: Fix TDM slot setup for I2S mode
+baaa672b2f24af7a8ed1f3a8785c75dfb2bc45db net: ieee802154: stop dump llsec keys for monitors
+9e29625816b7cff8a9be91e5a547eb759cdc7e99 net: ieee802154: stop dump llsec devs for monitors
+dd9c7c389bd7e323dc3c33d2fd6fa513659ff932 net: ieee802154: forbid monitor for add llsec dev
+69cbcf6f9f9afeb056a54db956603ebfb13597f7 net: ieee802154: stop dump llsec devkeys for monitors
+e4f288507a35b0aa2ff8459abbee008438ffaa72 net: ieee802154: forbid monitor for add llsec devkey
+297a8b55ef35b80ec8c087e885efb660b3d5135d net: ieee802154: stop dump llsec seclevels for monitors
+92acfee96962aacc0c9b15a040f4fbe026488218 net: ieee802154: forbid monitor for add llsec seclevel
+48848a88ba1c3ad64574bc1d01b73e71396c87d5 pcnet32: Use pci_resource_len to validate PCI resource
+66c34cd5bcfb743dc616f70406d9e86bbdc7732c net/rds: Avoid potential use after free in rds_send_remove_from_sock
+42b3db81423c7bcbc288ffe726280b79da987e13 net: tipc: Fix spelling errors in net/tipc module
 
---===============8206315908586778221==
+--===============5151646274227567339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0b4ecae1983-7db65ead5b0a.txt
+Content-Disposition: attachment; filename=revlist-7db65ead5b0a-7db30d3f18fe.txt
 
-35632b3d5e5d08d3bbf5b634ab9d2c12f246fe24 Input: nspire-keypad - enable interrupts only when opened
-1a4c1ff39f84c44609122815089bc068396e57bc dmaengine: dw: Make it dependent to HAS_IOMEM
-ed7716558e79b071cee92147360304e7aa00a294 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
-141a112c4989de7406818c4b3ddc82877dfc72ad arc: kernel: Return -EFAULT if copy_to_user() fails
-b1ae92960255b5d0dc1e8098a4901ef4c26228ee neighbour: Disregard DEAD dst in neigh_update
-c2553fccd1d1b8cd4f1f27a5f3f9627feec9f582 ARM: keystone: fix integer overflow warning
-22cc65e0ee0b41bdacba542ed48cd4f155aa8d1a ASoC: fsl_esai: Fix TDM slot setup for I2S mode
-a5c15abcd2324cc97ef299b6edb78428d15852de net: ieee802154: stop dump llsec keys for monitors
-4090266ff7bce53f0b9dfc4edfa4eb04d8bdbd49 net: ieee802154: stop dump llsec devs for monitors
-9b43a53a00fd6f98cd71f64629c43aa2a807222f net: ieee802154: forbid monitor for add llsec dev
-f68953529b23c98b9eeef9ec3e15dcffa8ce8b66 net: ieee802154: stop dump llsec devkeys for monitors
-671714b3e887c6ed43d7f8646e7a9894c3824bd3 net: ieee802154: forbid monitor for add llsec devkey
-39daf775658a8efe3e667d4b05f719bbdcd84227 net: ieee802154: stop dump llsec seclevels for monitors
-9a318b9eb71e3d95b20fa4ea6d56804b595972f9 net: ieee802154: forbid monitor for add llsec seclevel
-d15feece37135ba029adbe9999caa73eb92581b7 pcnet32: Use pci_resource_len to validate PCI resource
-f50fd82dd8c611f041cf15a985ccce261a13cebd net/rds: Avoid potential use after free in rds_send_remove_from_sock
-7db65ead5b0a45937e286743bf554672a820f260 net: tipc: Fix spelling errors in net/tipc module
+e760a393f0a61731ea2579a536122d0970e49721 net/sctp: fix race condition in sctp_destroy_sock
+d65c7a50615c670d9a58634a3b1fdccfebac4090 Input: nspire-keypad - enable interrupts only when opened
+312e9466c79fac7cbb7f22c291eb7e48cec1c54e dmaengine: dw: Make it dependent to HAS_IOMEM
+8991305041931f16c62aaeccebce5b21f459fd21 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
+6089e7969dcae7d2344cc960004f92b960bc3c38 arc: kernel: Return -EFAULT if copy_to_user() fails
+e6a4f9a96ea80a7d4dd994a9a546edb4f951c7a6 neighbour: Disregard DEAD dst in neigh_update
+ee4d15f50d6c7b6697446e4bbd8c53dae28571b6 ARM: keystone: fix integer overflow warning
+a61da700e6f9ccf33864b68135df6f3d2dbdb78f ASoC: fsl_esai: Fix TDM slot setup for I2S mode
+b614a4cd03b840f72805e5ad6b5f04a3f1bf5f03 net: ieee802154: stop dump llsec keys for monitors
+4ad935de0012d67970c3947cd66139f379c2472e net: ieee802154: stop dump llsec devs for monitors
+2e1c0630fbc87092fed9543e8fe41d141b70fb20 net: ieee802154: forbid monitor for add llsec dev
+921ae19c75611b2f1cbb5ff47b30b37d3b58efcb net: ieee802154: stop dump llsec devkeys for monitors
+8fc61b5c8a0f927d319b02e2285ec681c988a0cb net: ieee802154: forbid monitor for add llsec devkey
+be459e87585687638858136cca0c37a550f32052 net: ieee802154: stop dump llsec seclevels for monitors
+497e62decc64beb8bbacba33238b19a1b81191f9 net: ieee802154: forbid monitor for add llsec seclevel
+279a930259786943d66018790662f6a9afeb13c6 pcnet32: Use pci_resource_len to validate PCI resource
+d11a45767e1321685df6b577e7fff8da47b692a2 net/rds: Avoid potential use after free in rds_send_remove_from_sock
+7db30d3f18fe33f64da3fc20bbaf5e5d43000bed net: tipc: Fix spelling errors in net/tipc module
 
---===============8206315908586778221==
+--===============5151646274227567339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3f647a313421-d9f7352cfd71.txt
+Content-Disposition: attachment; filename=revlist-d9f7352cfd71-43afa2c83831.txt
 
-e16eeaec2d05fe84fee483e4ac5183c9f8f5228f mtd: rawnand: mtk: Fix WAITRDY break condition and timeout
-ef6700b9aae6e610d7c26e3956ccca8044aafbde Input: nspire-keypad - enable interrupts only when opened
-108064636835b1b2780ad827351ba9bec05c0f37 gpio: sysfs: Obey valid_mask
-3ef203d5dc6bc10a2d62de799e37a9ef4f5573fb dmaengine: idxd: Fix clobbering of SWERR overflow bit on writeback
-6651db333c13d2e9b2a0e1356205d5e91e467579 dmaengine: idxd: fix delta_rec and crc size field for completion record
-8d5d0bb8dde620b857505191373b668e6d673e59 dmaengine: idxd: fix opcap sysfs attribute output
-771c86a55db138916f845716cc4af620c473e9bc dmaengine: idxd: fix wq size store permission state
-ee4eadbdd57277593ac57db989cf9588f1239994 dmaengine: dw: Make it dependent to HAS_IOMEM
-e6deaadb99ba5cd2176a51915b93d65123c6a938 dmaengine: Fix a double free in dma_async_device_register
-13b5d5f825e3c2d1a086e2777ebb24b15f21fe67 dmaengine: plx_dma: add a missing put_device() on error path
-b706731eb1d6823df8e42490430581d12178fb5e dmaengine: idxd: fix wq cleanup of WQCFG registers
-b94edb1aefa616e230b360ca55b97bccfa921436 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-ebe17ae2284f5c5e97af8c90e84eb7045ee03534 ARM: dts: Drop duplicate sha2md5_fck to fix clk_disable race
-050eae8640afdb82c6d3cbbe6a115f1c4e1bb711 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
-777a2f89a106c0b9638e3007738aa6bc3bcb9c4d lockdep: Add a missing initialization hint to the "INFO: Trying to register non-static key" message
-bf1e0d4835de67f4b3cd58de36c2c6d3bb5038fe arc: kernel: Return -EFAULT if copy_to_user() fails
-69b6cb025fa15eeef485833ef55407778d02ed13 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-0afe1b7623aa8d9dccbf60366bbaef9fa804fc30 xfrm: BEET mode doesn't support fragments for inner packets
-d29fc2f59762ad9efec9bad1cea0873a97de1530 ASoC: max98373: Changed amp shutdown register as volatile
-6ab4cc0fbed8f9a0d664b07d14236a03a5b9e989 ASoC: max98373: Added 30ms turn on/off time delay
-4de5278c632762059c62245e97c21909217dadcf gpu/xen: Fix a use after free in xen_drm_drv_init
-1232745615bdb4cf4dc002db9309e1a6701166d1 neighbour: Disregard DEAD dst in neigh_update
-51b440188781c109e0d0b7e8b4657bba7a8b44c5 ARM: keystone: fix integer overflow warning
-1ff0354ae3dcdf0516691d95dfd1cfab8f2639b9 ARM: omap1: fix building with clang IAS
-128cf1ee6706ac27606b2c65f71d3aca80a12977 drm/msm: Fix a5xx/a6xx timestamps
-b5fc92f8bfda649ebe2531e3187a178520e26191 ASoC: fsl_esai: Fix TDM slot setup for I2S mode
-ff1a97825ad88a962a73714a526c3ca720ae7715 scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
-8540d856a76f1c6ed55f8af5104316f8d8571f7e iwlwifi: add support for Qu with AX201 device
-5dfc876fa4281f83596a764914dc15e1442b5ba6 net: ieee802154: stop dump llsec keys for monitors
-5d0e565616e92b7ddd0412b5e3b1d289e6b4e7f0 net: ieee802154: forbid monitor for add llsec key
-68e310f9a7c8563b25a38221d085247f93863d48 net: ieee802154: forbid monitor for del llsec key
-ba927acc2ed29f4c69c962c1256f60ef9d69a93e net: ieee802154: stop dump llsec devs for monitors
-28cd0aef5750b297c2858eb251a08da14d3cef4f net: ieee802154: forbid monitor for add llsec dev
-8ed3f284f304442d94344b16c5e3302921b152a3 net: ieee802154: forbid monitor for del llsec dev
-97fc2ea4f883aa77131741a2787c34b2d68f8900 net: ieee802154: stop dump llsec devkeys for monitors
-bff6169341a652dcf901db47ff1565e965780b8c net: ieee802154: forbid monitor for add llsec devkey
-3bf67e27d23c89fa2dfb149d41cafca64bf36ac0 net: ieee802154: forbid monitor for del llsec devkey
-56d2e3deab12f9ee2612fb34fd4c7b4a7992b69d net: ieee802154: stop dump llsec seclevels for monitors
-15d5b896539c6ddac0af3a29d6cf0a825b0099f7 net: ieee802154: forbid monitor for add llsec seclevel
-3bce3cf950c9fa7e8486e503c6c439f37403c572 pcnet32: Use pci_resource_len to validate PCI resource
-0cf7c7d788694136885d5a8bbedbb7753796b3a2 net/rds: Avoid potential use after free in rds_send_remove_from_sock
-cb5ba87dc31b19547d4fd41d9761f7db98eb4850 net: tipc: Fix spelling errors in net/tipc module
-1ea2cf6f662092ee2fffa17e121786f2ea8946bf mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
-7eb926258c3d8d75868911cc1c80efb8ae4da399 virt_wifi: Return micros for BSS TSF values
-d9f7352cfd7178455edcd598b4009437d66ff203 lib: fix kconfig dependency on ARCH_WANT_FRAME_POINTERS
+144beaffb6cda61ae45b927f6eadac3c8ca180e8 net/sctp: fix race condition in sctp_destroy_sock
+96278fc1c61c50b763dc307f92c62974a368f67c mtd: rawnand: mtk: Fix WAITRDY break condition and timeout
+aaae5e4fdf4f6b5bfc1c74ad1824655aae6b72a1 Input: nspire-keypad - enable interrupts only when opened
+e364e9a586667a4dd3689162c3260ce6ee138943 gpio: sysfs: Obey valid_mask
+5b59e3e97129f8cc46a476ecc245e9e4572dee4e dmaengine: idxd: Fix clobbering of SWERR overflow bit on writeback
+ecdd23c6aae890d844a7329a8b1933d3551d2aba dmaengine: idxd: fix delta_rec and crc size field for completion record
+63b2e7d4447255ff2e6eeae1b28bda2f16f7f168 dmaengine: idxd: fix opcap sysfs attribute output
+9ff8a1b057a8aaf64123f8af1b7a71a806498844 dmaengine: idxd: fix wq size store permission state
+6e97db0c7fb4145617ade846d18928eb4d3dbbbf dmaengine: dw: Make it dependent to HAS_IOMEM
+974577bd9b6f3256047ff917a5ba8a444491b73b dmaengine: Fix a double free in dma_async_device_register
+9bf4a133e5d3cf741a131c018f0b6293436f3d2a dmaengine: plx_dma: add a missing put_device() on error path
+2621d754ccf026905318ef1f762cdc14ed785d07 dmaengine: idxd: fix wq cleanup of WQCFG registers
+094cf31307b97c519b668460c1e329aa8acf6687 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
+c9e08948dee5c1cb04f0545416a5e0a0bb9e983b ARM: dts: Drop duplicate sha2md5_fck to fix clk_disable race
+aaabc0a35c2d5a153f676bc35c4701d02f2d3e2b ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
+882eb989ec028386aaf8fd6309216b11ae5a4745 lockdep: Add a missing initialization hint to the "INFO: Trying to register non-static key" message
+e128d2cfa4e1b5601393509e36cc5a2543599355 arc: kernel: Return -EFAULT if copy_to_user() fails
+7074450194484afe0f2e6f11dea1dcb99c52ea5a iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+cc3ebd87752813ec16aa6f177664b6e7a5bc6988 xfrm: BEET mode doesn't support fragments for inner packets
+13e14fb2a976f12e44f917bc71e28dd5c936fcd9 ASoC: max98373: Changed amp shutdown register as volatile
+525e05eccbb15e891be3299d769597051c49f835 ASoC: max98373: Added 30ms turn on/off time delay
+f126729b6cf27780a9195ac5fe6fc2c60a1404bd gpu/xen: Fix a use after free in xen_drm_drv_init
+64ca9d50e01249746015fb2f07fe40a8071826b3 neighbour: Disregard DEAD dst in neigh_update
+2bfc67e7df06072a23d24c77e15dddbc6e88f732 ARM: keystone: fix integer overflow warning
+34bcb41e4122d0b8f7b5d065dca39575c1b884f1 ARM: omap1: fix building with clang IAS
+488217f908bf8b8b1edb26d81393c95d57302f43 drm/msm: Fix a5xx/a6xx timestamps
+40d952755571af32206bb00b33c4f1a11ab43dd6 ASoC: fsl_esai: Fix TDM slot setup for I2S mode
+26c55b357e693468d51eb6dec875f73606bf70df scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
+025c9bc56f8d7ed8397d9b5907be1e245dfdfaeb iwlwifi: add support for Qu with AX201 device
+0769036912e3fc266b1ef68a93890c9a7209afac net: ieee802154: stop dump llsec keys for monitors
+dcfdc237ee41cfc54c46f5ee9709beda928fc678 net: ieee802154: forbid monitor for add llsec key
+0fc73eff707e7847442f1befcb177398713d106b net: ieee802154: forbid monitor for del llsec key
+eec4c95c70591fe296152af466c477bb875e2b5f net: ieee802154: stop dump llsec devs for monitors
+f61912cfb7773013ea01705d82516f03c02883ec net: ieee802154: forbid monitor for add llsec dev
+9d430dcc03d978bb0af60f442098bc6c5075800e net: ieee802154: forbid monitor for del llsec dev
+c8911ae14ccda67292727a1bae0580594ab55d16 net: ieee802154: stop dump llsec devkeys for monitors
+afb92d9722cc13022224c11dacba9c2a0aa3fdf0 net: ieee802154: forbid monitor for add llsec devkey
+3dcf23899217efa697593fa648c461c6bfaa78f6 net: ieee802154: forbid monitor for del llsec devkey
+783fb04d1bcd38149eaf4701ba78f9f00186751c net: ieee802154: stop dump llsec seclevels for monitors
+d0d9f51267a0edf27c0848350c647930d062bc98 net: ieee802154: forbid monitor for add llsec seclevel
+6d59af16fb9302d14d4f99a88315f7f483364921 pcnet32: Use pci_resource_len to validate PCI resource
+fc715ccdf94e39a3f479d1dd2c38185dfb75cada net/rds: Avoid potential use after free in rds_send_remove_from_sock
+49985fa8ceb02c4f92b2114be575e88467359a31 net: tipc: Fix spelling errors in net/tipc module
+1d8a312b2de424b330b3c61bc4b65805c918000b mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
+3bb155e344e011e97be1d94cfc4e89288c1a5b42 virt_wifi: Return micros for BSS TSF values
+43afa2c83831abf38b97e33cb9e4946aed3b259b lib: fix kconfig dependency on ARCH_WANT_FRAME_POINTERS
 
---===============8206315908586778221==
+--===============5151646274227567339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6fd4ab8f1ef-dd7fbf08ddb0.txt
+Content-Disposition: attachment; filename=revlist-dd7fbf08ddb0-b2b2a738f20f.txt
 
-d1b6b0792b6cdba5062b8245e1452af10ebb755c AMD_SFH: Removed unused activecontrolstatus member from the amd_mp2_dev struct
-87504e71d0660fcf90adf66a46a23d773c48ed0c AMD_SFH: Add sensor_mask module parameter
-279864a71a9c2ebb3a65ab5b984fce6817ea49ad AMD_SFH: Add DMI quirk table for BIOS-es which don't set the activestatus bits
-9bea88ae21f9dd346d2bd0f74e4c86839df1c4d8 mtd: rawnand: mtk: Fix WAITRDY break condition and timeout
-dac6d6961eb18bd0211c414e17e838ed3323ea9b Input: nspire-keypad - enable interrupts only when opened
-6095386acebb5654f761653f0a3fbdfe86290da6 gpio: sysfs: Obey valid_mask
-0d236ba9937c284fb33d71ffc906cefca4b2ffdb dmaengine: idxd: Fix clobbering of SWERR overflow bit on writeback
-ac7ba5bd484dc0b42f0780a133cc08cb9af23382 dmaengine: idxd: fix delta_rec and crc size field for completion record
-10944d4a12a695fd58f3dfe47c1127b6d66ab6ea dmaengine: idxd: fix opcap sysfs attribute output
-bccc1d0f9339c23b82a21ea580f51f8d5ee680f8 dmaengine: idxd: fix wq size store permission state
-c8b8922ad592cdaaf381cc1afca1d010160aff77 dmaengine: dw: Make it dependent to HAS_IOMEM
-2883dfd5c008d2035e5784638c9fe717247a2fee dmaengine: Fix a double free in dma_async_device_register
-3516baf0e68532081dd21f384ca14044b1fa9701 dmaengine: plx_dma: add a missing put_device() on error path
-d847e13f4b4a32019d57fd11ccfd7a66875fac72 dmaengine: idxd: clear MSIX permission entry on shutdown
-962b827324a79575aae90faa07bc4cb11ee7c8b1 dmaengine: idxd: fix wq cleanup of WQCFG registers
-d1e630157a5aa5613ffe092f2a9aacafa80d889c ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
-4d6c09e2fe4487729ccab9bd297997d96f1f761c ARM: dts: Drop duplicate sha2md5_fck to fix clk_disable race
-1b8a57cf473f2c31fc057ba9c62cbce98c4595f2 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
-c296f6175db8cdcf4e8a953774a015bd15cf880c remoteproc: pru: Fix loading of GNU Binutils ELF
-1a4139a2e9a727d0ce197a7d27b3712c25b19c31 lockdep: Add a missing initialization hint to the "INFO: Trying to register non-static key" message
-e738cfd933330abbe3bcdcdfb1d33f893dd11173 arc: kernel: Return -EFAULT if copy_to_user() fails
-c6f4c06c18d303ca62e879e508ce9fa2dc729314 iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
-eebf4d8c45bb1e7684465aaf4e8d3875026d40d4 xfrm: BEET mode doesn't support fragments for inner packets
-6a929236035e34cd526fd92e23961ef30c6188f9 ASoC: max98373: Changed amp shutdown register as volatile
-81493a61e28e9e8d36820628beb2e55c9737b296 ASoC: max98373: Added 30ms turn on/off time delay
-20ced21be98c351ac0ed6431265a170bd5f9981a net: axienet: allow setups without MDIO
-5625de75a383a9388ba22a766371ac1ed8395533 gpu/xen: Fix a use after free in xen_drm_drv_init
-61789d17187fb6ff86349c0eee4ff97c00831f59 bpf: Take module reference for trampoline in module
-1e711110018f32a3b643cfc109875f9abfbc9cf9 neighbour: Disregard DEAD dst in neigh_update
-d2bf782b8c41e34a46b43bb16c7f3c45300fbd28 powerpc/signal32: Fix Oops on sigreturn with unmapped VDSO
-654c11b63157677ede95879da8634073f4e1bf92 ARM: keystone: fix integer overflow warning
-6dde162ceed6339f6d2460f22093accf9dbab8ac ARM: omap1: fix building with clang IAS
-2dd5b0ee5ed59a5f04ff77af5faae9ff66eeca7e drm/msm: Fix a5xx/a6xx timestamps
-ea13ce2d2d4faba327dda7c922c922303a767ede ASoC: fsl_esai: Fix TDM slot setup for I2S mode
-cdf765980707309ec35d994c977c9423e1b2b82b scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
-353c3bb02a2fe64bb4af2ff13e2671487c126673 iwlwifi: add support for Qu with AX201 device
-1dd97497bf2fb43dc6245a3f6ab4233591a43adf net: ieee802154: stop dump llsec keys for monitors
-90ed1d803a538bb2f15b15784fd02d60ff99961d net: ieee802154: forbid monitor for add llsec key
-908c11d9eede57132f57c133522b459804d75661 net: ieee802154: forbid monitor for del llsec key
-dc119c1e160084d780feb6e851f2b33bb1e6bb6a net: ieee802154: stop dump llsec devs for monitors
-e302f0b2e9abe47bad808465f781aede819b0423 net: ieee802154: forbid monitor for add llsec dev
-95919d3bad0510dbd252abb41b62aa311b6563ab net: ieee802154: forbid monitor for del llsec dev
-ff0569eb3cbc357adbb01baded212df7c8bb08ab net: ieee802154: stop dump llsec devkeys for monitors
-7b71df987508759a89cba5a84b16f4215b1c07fb net: ieee802154: forbid monitor for add llsec devkey
-34f91ddc8482809d02363ba69b648f027afa2feb net: ieee802154: forbid monitor for del llsec devkey
-48d56cf9d517352e3fc19a445c164fde98da2f91 net: ieee802154: stop dump llsec seclevels for monitors
-fbba2c3d8d70cf0476a131b474cd643def19623a net: ieee802154: forbid monitor for add llsec seclevel
-c5d464d97a1b9e9a6c7a0beef24cd9d61e650e16 pcnet32: Use pci_resource_len to validate PCI resource
-77d555e6cbb825a7a1b399239766297010a36e67 net/rds: Avoid potential use after free in rds_send_remove_from_sock
-a43e0baded96feb260b81186b4e8889a80b44642 net: tipc: Fix spelling errors in net/tipc module
-06f2d1437f3eb7f2910dc6a1cca022a84157f5f1 drm/amd/display: Add missing mask for DCN3
-3332b2548641e4402654b80714d45a7ee7f8d0e7 mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
-718a8a33bae167692fcc9645ef2a900c3a20656b virt_wifi: Return micros for BSS TSF values
-dd7fbf08ddb0acbe1bf0d4359567e839cf08f28a lib: fix kconfig dependency on ARCH_WANT_FRAME_POINTERS
+24a2da39f84b41c1b19187bbaf1f5f33ce6d0cd9 AMD_SFH: Removed unused activecontrolstatus member from the amd_mp2_dev struct
+eb79e68fd8fc56a0b3cb14a8e1d3883ca3669f25 AMD_SFH: Add sensor_mask module parameter
+dbb4f726503416b7f4d314d6700d8ce07fb0a5ca AMD_SFH: Add DMI quirk table for BIOS-es which don't set the activestatus bits
+eb79d07ac46ed9f7a31eebe35b7a1145c038253d mtd: rawnand: mtk: Fix WAITRDY break condition and timeout
+0d3913204a53792c43f445f49a4ec9d6c678e963 Input: nspire-keypad - enable interrupts only when opened
+22dcb3066e296c18eb54dd4610e0ff9b277ce45c gpio: sysfs: Obey valid_mask
+a622b6eead810bdea2d97d0631b6d62e26caba36 dmaengine: idxd: Fix clobbering of SWERR overflow bit on writeback
+cdee670422e261ade4fc720429db2dd4712acadf dmaengine: idxd: fix delta_rec and crc size field for completion record
+ff4ad8ca9aa394dab12770c7678e6890a474118b dmaengine: idxd: fix opcap sysfs attribute output
+303d795fff2a198e23d4c262a49ab3494f98addc dmaengine: idxd: fix wq size store permission state
+8800c5d34676b2c85b7b561151567d4ad20f27dc dmaengine: dw: Make it dependent to HAS_IOMEM
+9f3a82795945afdfd14f685f7e9e9582c5d4af63 dmaengine: Fix a double free in dma_async_device_register
+dca8dfc439918ee6f9aeb9b9072319d85f636850 dmaengine: plx_dma: add a missing put_device() on error path
+74b21a08b53baa0aea6aecd02b4c403872489a96 dmaengine: idxd: clear MSIX permission entry on shutdown
+446a0b08b2c432772ac27c74ca94bf4a418f571f dmaengine: idxd: fix wq cleanup of WQCFG registers
+ddcb63dcabf0df30fa331fc45de4bd997e74307c ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
+1367ad0c58580064c99db37593ebbc9b95a3d7ac ARM: dts: Drop duplicate sha2md5_fck to fix clk_disable race
+15e7c5b854aea8180a843d1883f21d327f2b2f3d ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
+f8e7364aacfaa6fb997b606f7d7530f49db0aebd remoteproc: pru: Fix loading of GNU Binutils ELF
+b2ad59f09f4a7ef33880d0e9a126d31142a29ad4 lockdep: Add a missing initialization hint to the "INFO: Trying to register non-static key" message
+0ae1e6a287574e5be5f57f48cbd0c23f34b34cdf arc: kernel: Return -EFAULT if copy_to_user() fails
+08e74c5599bf230474089b20c1206b3b9c926f3b iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_enqueue_hcmd()
+0b23edf553793dfae3b71dbab0b5c744c9dc6398 xfrm: BEET mode doesn't support fragments for inner packets
+a2f293d3be843acccb7776e002bde494307d65ec ASoC: max98373: Changed amp shutdown register as volatile
+846946cfbca2300af3bed501c14ba66496290617 ASoC: max98373: Added 30ms turn on/off time delay
+ea23d703f35b8cceb8bce083354edcb20c7a5cad net: axienet: allow setups without MDIO
+0422df80734a94d7b3fb55c34276b1481dd8a844 gpu/xen: Fix a use after free in xen_drm_drv_init
+d74f746af4731220ef558e24541d69cbdb1b8370 bpf: Take module reference for trampoline in module
+c8441b3d91db29c8af490955150ca085a262ed77 neighbour: Disregard DEAD dst in neigh_update
+a261048dec2e17f64c3084e3456683129494037d powerpc/signal32: Fix Oops on sigreturn with unmapped VDSO
+23a1241e62bf190cf3571fc0cae7285cc2d8cda1 ARM: keystone: fix integer overflow warning
+dd85970cefaebb2863a7221a38ef5c835df9e7ae ARM: omap1: fix building with clang IAS
+e287520c318345701476d789e6e04ce24aaeedeb drm/msm: Fix a5xx/a6xx timestamps
+c80de947ea5d9e97420d4450804d4760832aeecd ASoC: fsl_esai: Fix TDM slot setup for I2S mode
+70a8aabf76318a66ddb4fafddac6855728feae46 scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
+6820d9b694e1ab46aced3072fd13668db1a83a53 iwlwifi: add support for Qu with AX201 device
+b152a6a62ddbc82f116c883bcac4f8ec0d158906 net: ieee802154: stop dump llsec keys for monitors
+96392fef1a56df654156f0383ad54600ea2e0f9a net: ieee802154: forbid monitor for add llsec key
+86fcd8ae9ff9333e863a69a20502761ee02806c5 net: ieee802154: forbid monitor for del llsec key
+a7ff0072d58c59550a31348a61f2377688bed866 net: ieee802154: stop dump llsec devs for monitors
+93961a2f0878510ea3b48563a536cf9a05cb522f net: ieee802154: forbid monitor for add llsec dev
+dc12d2d808ff20ed4ee98dd1b256511168b92c72 net: ieee802154: forbid monitor for del llsec dev
+7c5a0b49d2354142c47346fe4edabdec0c156023 net: ieee802154: stop dump llsec devkeys for monitors
+4a3477c4ed95770f106e1fcf59360666da72d55e net: ieee802154: forbid monitor for add llsec devkey
+5ae7ab5ef25cc42c36e294892d7d600f9b17ebdb net: ieee802154: forbid monitor for del llsec devkey
+dd82856ed128404caa74041b36622688f1ee59fd net: ieee802154: stop dump llsec seclevels for monitors
+712cd7d61ba694db65b3d02b0b449db7e8e1dedd net: ieee802154: forbid monitor for add llsec seclevel
+625c5f2aa89b97bcc871bf3f85399c67b822d966 pcnet32: Use pci_resource_len to validate PCI resource
+bad8a52a6d1953b9ebe2154b3b95de12f705fcfe net/rds: Avoid potential use after free in rds_send_remove_from_sock
+fdaef6113448e136fe344c544a0279fb16b51e2f net: tipc: Fix spelling errors in net/tipc module
+00fd52f29b89b26142423210eb727ff5616cb4bf drm/amd/display: Add missing mask for DCN3
+633f4f88c203b1d502618f210210e06552a619f3 mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
+e3ac2d9fb7c8ec4fbb6a8647e20526b7491233f2 virt_wifi: Return micros for BSS TSF values
+d47bca461295b4e8bb99ee74edc912485f32bd6e lib: fix kconfig dependency on ARCH_WANT_FRAME_POINTERS
+b2b2a738f20ff69b3b54e8654aff694f23814a7b net/sctp: fix race condition in sctp_destroy_sock
 
---===============8206315908586778221==
+--===============5151646274227567339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56050c1e54d7-d62f09f39bfe.txt
+Content-Disposition: attachment; filename=revlist-d62f09f39bfe-44b4dfabcfe4.txt
 
-140198caae0348c61c66ed9b875bf88585cf514d Revert "scsi: qla2xxx: Retry PLOGI on FC-NVMe PRLI failure"
-8b3805719cef5d6b8e45d073f6f778ceb558f012 Revert "scsi: qla2xxx: Fix stuck login session using prli_pend_timer"
-9a1f1740f7ce2249e8ea0e81cd1f455405924ba8 scsi: qla2xxx: Dual FCP-NVMe target port support
-672c8545cf49f032ca17b0b43e71449889bec29e scsi: qla2xxx: Fix device connect issues in P2P configuration
-a3033ef519d0fb92e9dff7c7122db0dac4ed2c95 scsi: qla2xxx: Retry PLOGI on FC-NVMe PRLI failure
-f8b125d48ec9d10c96b2be7392a63d7839b1e1c5 scsi: qla2xxx: Add a shadow variable to hold disc_state history of fcport
-93b4ef6e22ccedff018db333242bdff62d782459 scsi: qla2xxx: Fix stuck login session using prli_pend_timer
-2f4449040be87ba4d5339e1d2b7aa64c2ed15bf9 scsi: qla2xxx: Fix fabric scan hang
-c2b76f9b473b20af5cfae793ed854d99d3107b10 Input: nspire-keypad - enable interrupts only when opened
-0bd734065e99f60c37e6c587a9473efb945206ca gpio: sysfs: Obey valid_mask
-9b3d1f8a2159daa7676dcb2293905055103af087 dmaengine: dw: Make it dependent to HAS_IOMEM
-ceb091487538575291a8368dad40c3456756cfd5 ARM: dts: Drop duplicate sha2md5_fck to fix clk_disable race
-03a858afaed6a76dd02f2ce4cb903598e3f46cb8 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
-fbc98aa67ae36efa9c7ea489e277cfa647f0a1b3 lockdep: Add a missing initialization hint to the "INFO: Trying to register non-static key" message
-d865337f83c8629373bb5c155ce2a756890b16bc arc: kernel: Return -EFAULT if copy_to_user() fails
-2838b6c9c088d30ecc7a9c7a5471ca5923e81288 ASoC: max98373: Added 30ms turn on/off time delay
-82c96b797eb928199c5bb71e80287b1456dabf3a neighbour: Disregard DEAD dst in neigh_update
-57f17ea1eb4a2492648add7926d69bc6bc3a3088 ARM: keystone: fix integer overflow warning
-3bbfc6c389eee8ccea7862b29315e8dd4751c2eb ARM: omap1: fix building with clang IAS
-3836ced03a5b0a26b511bb9c5f08491a95f9ee9c drm/msm: Fix a5xx/a6xx timestamps
-9dff5b563844329e3c23aff4a51884efbeb059ae ASoC: fsl_esai: Fix TDM slot setup for I2S mode
-10bfe873798994d2ab05f1f83388e3311a5f038e scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
-395c179157464280b7ebd1aa67e948cdbd506933 net: ieee802154: stop dump llsec keys for monitors
-774620ffd3f4294a11f019335ed218c99b8b20d5 net: ieee802154: forbid monitor for add llsec key
-01e1c354cdfad20ef38f6b138f506c198c905cab net: ieee802154: forbid monitor for del llsec key
-94d1cc2e4390defce0dc31a5692065de13d71bbb net: ieee802154: stop dump llsec devs for monitors
-661031296263f678517101416802228df9e41158 net: ieee802154: forbid monitor for add llsec dev
-3c0e053d253386ac67fa3b03caa9ebaa0e3c9d3e net: ieee802154: forbid monitor for del llsec dev
-bc31908f064c445b2fc8051821c86b0be80eea7a net: ieee802154: stop dump llsec devkeys for monitors
-9e864af88e595ce5a15d7890f5557dead6b228e7 net: ieee802154: forbid monitor for add llsec devkey
-250e8b7ca2e251484cf4776d0cd83ea1175b06c7 net: ieee802154: forbid monitor for del llsec devkey
-35294ea5df1100f57de8db11439d4c477291ca94 net: ieee802154: stop dump llsec seclevels for monitors
-e406f7db3e6163421b2b7ea1cb067f3064534adf net: ieee802154: forbid monitor for add llsec seclevel
-665cc34de9615c3ca79461721022efe85f744e92 pcnet32: Use pci_resource_len to validate PCI resource
-be19a5b26310230d2194acbe3d4c11d8d4afb2e1 net/rds: Avoid potential use after free in rds_send_remove_from_sock
-8eada49070e626cf335e37385545bc1961d0174f net: tipc: Fix spelling errors in net/tipc module
-8f56a9161930c7a3795f17670feb7b5f954b2c6f mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
-d62f09f39bfe7311d38cfb5e58815c32ddc3ed8d virt_wifi: Return micros for BSS TSF values
+76e88a24cab8c5e946a472bde103956e98d67e41 Revert "scsi: qla2xxx: Retry PLOGI on FC-NVMe PRLI failure"
+80116f133fde1a1a827a542cd1959f50aae0bd15 Revert "scsi: qla2xxx: Fix stuck login session using prli_pend_timer"
+c9fca9cd875b2a575ff50111f046f3d95867f263 scsi: qla2xxx: Dual FCP-NVMe target port support
+6dcda10f118c2e89107a0a47f73f065165a2e5ce scsi: qla2xxx: Fix device connect issues in P2P configuration
+6915adda1e27c95cf473dba9cccd4c479bd7e85a scsi: qla2xxx: Retry PLOGI on FC-NVMe PRLI failure
+7204286fdad022ff61d9a882081ce3aa1753c48a scsi: qla2xxx: Add a shadow variable to hold disc_state history of fcport
+e7333b7892a34554234c1612da3ec9fa1f0e56c8 scsi: qla2xxx: Fix stuck login session using prli_pend_timer
+96344ca0e18a637c9697f1e9c5631c308ffe5597 scsi: qla2xxx: Fix fabric scan hang
+29f3aa2c327013514c1777311eff3bd72cd8b771 net/sctp: fix race condition in sctp_destroy_sock
+86657cdf723db1cea4aa9274b7d45c620ddd395a Input: nspire-keypad - enable interrupts only when opened
+3187671cc13ab5a39dd061d1b3f0f7eca94728b2 gpio: sysfs: Obey valid_mask
+7063df647d6c1abb730658164919b7d50fb43864 dmaengine: dw: Make it dependent to HAS_IOMEM
+c0e0fdc561e620e8b761fc85cfbcb9136115d56e ARM: dts: Drop duplicate sha2md5_fck to fix clk_disable race
+19a8df2b8dac6a54be2bf959fbbdffadd1acf529 ARM: dts: Fix moving mmc devices with aliases for omap4 & 5
+8afda5f1774f5af4011aae0da9df3cad8ae64e77 lockdep: Add a missing initialization hint to the "INFO: Trying to register non-static key" message
+8ee6e17ca40028a4ebbc7744acf9b520298d7b05 arc: kernel: Return -EFAULT if copy_to_user() fails
+776e2a2a39ff32756052f0cb32e2480c45672ab7 ASoC: max98373: Added 30ms turn on/off time delay
+d509c384eb796edcab7a5e03452930f2582c6a93 neighbour: Disregard DEAD dst in neigh_update
+5021c98dc78edeb7d85b1f4a34b4a2bfcd2d787b ARM: keystone: fix integer overflow warning
+d827de53f9296dd909a060f6a1697c330e956fcd ARM: omap1: fix building with clang IAS
+5868471330db2d247482c9c7473183d583a539f8 drm/msm: Fix a5xx/a6xx timestamps
+77a300d9e2bea758e0da5f7c71a7f31c6aa7e3e7 ASoC: fsl_esai: Fix TDM slot setup for I2S mode
+0a2b0cf2b7ee0d42dc941a46c433778a7c080337 scsi: scsi_transport_srp: Don't block target in SRP_PORT_LOST state
+e862737c0c826ebda39866b9e93879c2d715e98c net: ieee802154: stop dump llsec keys for monitors
+1f1b2c1be7a0e73f2b0461fd75751fe25d2be943 net: ieee802154: forbid monitor for add llsec key
+49832838b5bcc4c66f21a0bfe498a6fd9a04010c net: ieee802154: forbid monitor for del llsec key
+fc214e8cb7d73fad6bfb154948f5e4beef4115bd net: ieee802154: stop dump llsec devs for monitors
+4ddac6b0d0be90534c47d2c99a93937a25496374 net: ieee802154: forbid monitor for add llsec dev
+d97562532178f9d03f9a1c34e1b9f73425424510 net: ieee802154: forbid monitor for del llsec dev
+6ce61af0db72ab15defc15bfe9c8377a12f52e2f net: ieee802154: stop dump llsec devkeys for monitors
+d11121a0db703c66b9967ce5b4ccafcbd47fb94b net: ieee802154: forbid monitor for add llsec devkey
+84740cbe54609ca9cb1a9f9c584fc55166741070 net: ieee802154: forbid monitor for del llsec devkey
+50d07347a37c5fc1e9d7c23012f6528370fba8a6 net: ieee802154: stop dump llsec seclevels for monitors
+694049a66e490b2a7de7a0db956a0b6b68c55b87 net: ieee802154: forbid monitor for add llsec seclevel
+00c8614c0f4b7b0b0c509ea213dd74d58a977141 pcnet32: Use pci_resource_len to validate PCI resource
+fe75a48942d3da350001205444278bee6b58c5d9 net/rds: Avoid potential use after free in rds_send_remove_from_sock
+71ae49b7af7f3c3f17c277d7f58d0e7c80572a46 net: tipc: Fix spelling errors in net/tipc module
+b4aeccafe633e5bebb59a954a0d5a3ed8ce6bd36 mac80211: clear sta->fast_rx when STA removed from 4-addr VLAN
+44b4dfabcfe4b76ee64be76c1fae86e50d4ec2d9 virt_wifi: Return micros for BSS TSF values
 
---===============8206315908586778221==--
+--===============5151646274227567339==--
