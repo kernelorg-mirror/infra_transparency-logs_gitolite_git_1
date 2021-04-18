@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sat, 17 Apr 2021 23:52:26 -0000
-Message-Id: <161870354691.5995.17373388899831077324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sergeh/linux
+Date: Sun, 18 Apr 2021 01:36:34 -0000
+Message-Id: <161870979467.2001.2385062581505074349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/sergeh/linux
+user: sergeh
 changes:
-  - ref: refs/heads/master
-    old: 1eb64332b1e6cde634b78d6f15f5ae98e6cfac99
-    new: 13b97f953cb9a4bf50527b1d5c1d98ec96fb8ef4
+  - ref: refs/heads/2021-04-15/setfcap-nsfscaps-v3
+    old: 6003e1039977ef300a276e01566856ae83732280
+    new: eb1fe067eef6f2aaee443ef1bdd68227e0a1009a
     log: |
-         13b97f953cb9a4bf50527b1d5c1d98ec96fb8ef4 Add some documentation for capsh --explain=cap_foo
+         eb1fe067eef6f2aaee443ef1bdd68227e0a1009a capabilities: require CAP_SETFCAP to map uid 0 (v3.2)
          
