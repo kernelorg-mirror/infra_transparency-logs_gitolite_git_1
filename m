@@ -1,62 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============6575059318032628404=="
+Content-Type: multipart/mixed; boundary="===============0566380327166137844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 19 Apr 2021 23:07:45 -0000
-Message-Id: <161887366598.11282.16150249771109956875@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
+Date: Mon, 19 Apr 2021 23:07:57 -0000
+Message-Id: <161887367770.11448.7622672282030172080@gitolite.kernel.org>
 
---===============6575059318032628404==
+--===============0566380327166137844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/next/linux-next
+user: sfr
 changes:
-  - ref: refs/heads/master
-    old: 6ecaf81d4ac6365f9284f9d68d74f7c209e74f98
-    new: d7f576dc98364fcb076234f76b54d07cdeca54eb
-    log: revlist-6ecaf81d4ac6-d7f576dc9836.txt
+  - ref: refs/heads/pending-fixes
+    old: 1bb411107ee3911c88497d899279c75d7cbc591f
+    new: 9cb58cd2220c30d3488ac1eb37327d0825d45028
+    log: revlist-1bb411107ee3-9cb58cd2220c.txt
 
---===============6575059318032628404==
+--===============0566380327166137844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ecaf81d4ac6-d7f576dc9836.txt
+Content-Disposition: attachment; filename=revlist-1bb411107ee3-9cb58cd2220c.txt
 
-3e1b0c168f6c8648f217c78ed6a4135af8c9d830 netfilter: flowtable: add vlan match offload support
-efce49dfe6a8ec491759ad9eaa85fadbf26654c5 netfilter: flowtable: add vlan pop action offload support
-098b5d3565e2391ca260964807e7324d489dd10b netfilter: conntrack: move autoassign warning member to net_generic data
-67f28216ca04b9ba965cd652fea08f670b99a0c6 netfilter: conntrack: move autoassign_helper sysctl to net_generic data
-f6f2e580d5f7152fb5ab11232edecb7fbeca3759 netfilter: conntrack: move expect counter to net_generic data
-c53bd0e96662c2f77109e08a9889c9e1ee86c52d netfilter: conntrack: move ct counter to net_generic data
-9b1a4d0f914b1186248fc88b1cb6ee49e336a2b2 netfilter: conntrack: convert sysctls to u8
-78ed0a9bc6db76f8e5f5f4cb0d2b2f0d1bb21b24 netfilter: flowtable: Add FLOW_OFFLOAD_XMIT_UNSPEC xmit type
-14c20643ef9457679cc6934d77adc24296505214 netfilter: nft_payload: fix C-VLAN offload support
-ff4d90a89d3d4d9814e0a2696509a7d495be4163 netfilter: nftables_offload: VLAN id needs host byteorder in flow dissector
-783003f3bb8a565326e89d18bbd948ad8ffc816a netfilter: nftables_offload: special ethertype handling for VLAN
-812fa71f0d967dea7616810f27e98135d410b27e netfilter: Dissect flow after packet mangling
-8826218215de1aae9d89a6ea8d3786f224711334 selftests: fib_tests: Add test cases for interaction with mangling
-b72920f6e4a9d6607b723d69b7f412c829769c75 netfilter: nftables: counter hardware offload support
-c6400e3fc3fa821a26a58cf867331e0877a4c56b netlink: simplify nl_set_extack_cookie_u64(), nl_set_extack_cookie_u32()
-6dd06ec7c13bc970edb0729221a47bf6368e2b9e Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf-next
-0e389028ad75412ff624b304913bba14f8d46ec4 net: ethernet: mtk_eth_soc: fix undefined reference to `dsa_port_from_netdev'
-014d029876b23f5963c792c4622eb0eaea930f19 net: ethernet: mtk_eth_soc: missing mutex
-f5c2cb583abe8a5049a32c7b093e2852f344a3e9 net: ethernet: mtk_eth_soc: handle VLAN pop action
-9652168304b10126fbe21695f267fb43e4054fef Merge branch 'mtk_ppe_offload-fixes'
-89f9d5400b53bedbeb8f1d7854abe6f7412251da net: korina: Fix MDIO functions
-b4cd249a8cc017e0f7910baf6b7cdc282fe8c4e5 net: korina: Use devres functions
-e42f10533d7c8a512399571804c59b0dc862eefe net: korina: Remove not needed cache flushes
-0fe632471aeb0b0b6cc9150c5c43780d58975988 net: korina: Remove nested helpers
-0fc96939a97ffd4929b19a3e2d1b3858ab9efa8b net: korina: Use DMA API
-af80425e05b23e937e4a3490442f37eedb5242f6 net: korina: Only pass mac address via platform data
-10b26f0781511dc5c1b29303ee431cad08aa9944 net: korina: Add support for device tree
-e4cd854ec487fde631fe57049f588d2396da281c net: korina: Get mdio input clock via common clock framework
-6ef92063bf94cd8a6fa9fea3a82596955eb25424 net: korina: Make driver COMPILE_TESTable
-d1a2c2315cc90f7220da8975b79349cf727334ec dt-bindings: net: korina: Add DT bindings for IDT 79RC3243x SoCs
-a2a12d3ae24d54c2488d06bd290e24e83eded22b Merge branch 'korina-next'
-d7f576dc98364fcb076234f76b54d07cdeca54eb net: stmmac: fix memory leak during driver probe
+92b9f4d145ef184a6209c0efe7fcbaa4716cb518 usb: cdns3: Fix runtime PM imbalance on error
+7412dee9f1fd3e224202b633fdfa6eeaebe0307e mmc: meson-gx: replace WARN_ONCE with dev_warn_once about scatterlist size alignment in block mode
+dfa7b01dbdc9723ced606425b47005bb583a8778 ASoC: rt286: Fix upper byte in DMIC2 configuration
+cd8499d5c03ba260e3191e90236d0e5f6b147563 ASoC: rt286: Make RT286_SET_GPIO_* readable and writable
+1fa27f35ee23b52e0bd708d00c272c5df805afc8 Merge series "ASoC: rt286/rt298: Fixes for DMIC2 config and combo jack" from David Ward <david.ward@gatech.edu>:
+d28addbcaf3f04e12543eb943f301537d24ef806 Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+088a84700d27baefb3e1b81eefad600bb5ddb92b Merge remote-tracking branch 'spi/for-5.12' into spi-linus
+e7020bb068d8be50a92f48e36b236a1a1ef9282e iwlwifi: Fix softirq/hardirq disabling in iwl_pcie_gen2_enqueue_hcmd()
+d2b9935d65dab6e92beb33c150c1a6ded14ab670 drm/i915: Fix modesetting in case of unexpected AUX timeouts
+e16edc99d658cd41c60a44cc14d170697aa3271f vsock/vmci: log once the failed queue pair allocation
+7af08140979a6e7e12b78c93b8625c8d25b084e2 Revert "gcov: clang: fix clang-11+ build"
+ed8157f1ebf1ae81a8fa2653e3f20d2076fad1c9 net: sched: tapr: prevent cycle_time == 0 in parse_taprio_schedule
+8d892d60941b00c86d2029c8a99db24ab4979673 net: ethernet: ixp4xx: Set the DMA masks explicitly
+0a60778f6a121a12de0d46982105f4ccdd3406ee Merge remote-tracking branch 'arc-current/for-curr'
+611920a482857d1f7cd4b9ce172ed492d39bd442 Merge remote-tracking branch 'net/master'
+c0877ca66fd2e5c42c6d4b5c96994d86047afb65 Merge remote-tracking branch 'wireless-drivers/master'
+923be3e04a1e47cd8bff43b22586e3a495ae192c Merge remote-tracking branch 'sound-asoc-fixes/for-linus'
+af17a16d3cf483154adb49c101e16225a0dd0d0c Merge remote-tracking branch 'regmap-fixes/for-linus'
+e55001546c646825241c25e03e25eee5b6589aa4 Merge remote-tracking branch 'regulator-fixes/for-linus'
+29fad7a8b374d345d58c0d68b4f543e8395710f7 Merge remote-tracking branch 'spi-fixes/for-linus'
+4d299e5a53db7417ca5e7c39e74c117ce17b06e6 Merge remote-tracking branch 'pci-current/for-linus'
+77abc229f0b17b3deef33aeaf3e6e4d168ccf364 Merge remote-tracking branch 'usb-chipidea-fixes/for-usb-fixes'
+cf341664f50bb8faefed27ee4f0ae9ceff7c606f Merge remote-tracking branch 'phy/fixes'
+f965c0fab24a0afb85b35b5aec4fc4d3e6ca4c44 Merge remote-tracking branch 'iio-fixes/fixes-togreg'
+8b73e341f893e7210fe6581948185eb2a721efa4 Merge remote-tracking branch 'soundwire-fixes/fixes'
+bbe724d05829c9c862e4427fd5958650347ce363 Merge remote-tracking branch 'ide/master'
+551ea2fc262803bfd93b99732ba9be9043b47710 Merge remote-tracking branch 'v4l-dvb-fixes/fixes'
+e74c6e96726bfef207f981f93f216953071c81eb Merge remote-tracking branch 'nvdimm-fixes/libnvdimm-fixes'
+3876c1323d8de3a2a9e364987c96ca4a8f3a81c9 Merge remote-tracking branch 'btrfs-fixes/next-fixes'
+ba3855044b18f064e2406c9d81d07d8de6a65b36 Merge remote-tracking branch 'vfs-fixes/fixes'
+6167fd877478186809be33a08d1b4d6a53e2cd51 Merge remote-tracking branch 'drm-intel-fixes/for-linux-next-fixes'
+10603b7b3c2db9bf42e50c9669255ec50f2b56fe Merge remote-tracking branch 'mmc-fixes/fixes'
+1079c3658c968ed12939036c68d8b92355e0b6a0 Merge remote-tracking branch 'rtc-fixes/rtc-fixes'
+cb8ee982c520af9add4b7f502f5a233ea9984096 Merge remote-tracking branch 'pidfd-fixes/fixes'
+6ac29a72b96d0f17f4143d826ca9e756053acce2 Merge remote-tracking branch 'pinctrl-intel-fixes/fixes'
+9cb58cd2220c30d3488ac1eb37327d0825d45028 Merge remote-tracking branch 'drm-misc-fixes/for-linux-next-fixes'
 
---===============6575059318032628404==--
+--===============0566380327166137844==--
