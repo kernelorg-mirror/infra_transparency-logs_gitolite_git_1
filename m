@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2752326413864242499=="
+Content-Type: multipart/mixed; boundary="===============2323702130401842306=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 19 Apr 2021 10:29:57 -0000
-Message-Id: <161882819786.26504.9725155428379648926@gitolite.kernel.org>
+Date: Mon, 19 Apr 2021 10:30:23 -0000
+Message-Id: <161882822367.28129.9770485163338423602@gitolite.kernel.org>
 
---===============2752326413864242499==
+--===============2323702130401842306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 6628ddfec7580882f11fdc5c194a8ea781fdadfa
     new: 88a5af943985fb43b4c9472b5abd9c0b9705533d
     log: revlist-6628ddfec758-88a5af943985.txt
 
---===============2752326413864242499==
+--===============2323702130401842306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -248,4 +248,4 @@ fdb5d6cab638a2881687b59b27817c74d8efac76 Merge branch 'akpm' (patches from Andre
 bdfd99e6d6bd690b47bd1d45dad218bf08be1dde Merge tag 'libnvdimm-fixes-for-5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 88a5af943985fb43b4c9472b5abd9c0b9705533d Merge tag 'net-5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============2752326413864242499==--
+--===============2323702130401842306==--
