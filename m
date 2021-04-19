@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0543821735127518781=="
+Content-Type: multipart/mixed; boundary="===============0815109008635363780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 19 Apr 2021 06:38:47 -0000
-Message-Id: <161881432727.30712.1806441481458663845@gitolite.kernel.org>
+Date: Mon, 19 Apr 2021 06:39:21 -0000
+Message-Id: <161881436140.30951.7507651505118994711@gitolite.kernel.org>
 
---===============0543821735127518781==
+--===============0815109008635363780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 6ad2dd6c14d3989b44cdc17f1e7258bf613dd070
     new: 392c36e5be1dee19ffce8c8ba8f07f90f5aa3f7c
     log: revlist-6ad2dd6c14d3-392c36e5be1d.txt
 
---===============0543821735127518781==
+--===============0815109008635363780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cab351be53c263c857563eb56b2bbfe67e8a12a0 sfc: ef10: implement ethtool::get_fec_s
 1703bb50df0e4248b8def88fc6dd43a505479c66 mlx5: implement ethtool::get_fec_stats
 392c36e5be1dee19ffce8c8ba8f07f90f5aa3f7c Merge branch 'ehtool-fec-stats'
 
---===============0543821735127518781==--
+--===============0815109008635363780==--
