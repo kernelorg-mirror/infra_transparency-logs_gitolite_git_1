@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 19 Apr 2021 13:48:45 -0000
-Message-Id: <161884012518.19829.1599376088807952516@gitolite.kernel.org>
+Date: Mon, 19 Apr 2021 13:49:36 -0000
+Message-Id: <161884017689.20513.11498045717280027513@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: af1ca28f03287b0c60682ab37cc684c773de853f
-    new: 8ab7abaf63e95c29e04e5811cb24730a81486096
+    old: 8ab7abaf63e95c29e04e5811cb24730a81486096
+    new: 73144e02dcff54529ab42d951de682740d204180
     log: |
-         4fe6e53b96095101eebe4639cd2e2b6ecd84650d amdgpu: update navi10 SMC firmware
-         8ab7abaf63e95c29e04e5811cb24730a81486096 amdgpu: update navi14 smc firmware
+         73144e02dcff54529ab42d951de682740d204180 linux-firmware: Update firmware file for Intel Bluetooth AX201
          
