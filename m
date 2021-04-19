@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
-Date: Mon, 19 Apr 2021 02:40:41 -0000
-Message-Id: <161880004151.32274.7967022126951131166@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/usb
+Date: Mon, 19 Apr 2021 03:53:43 -0000
+Message-Id: <161880442349.9929.5518905969463029781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
-user: zx2c4
+repo: pub/scm/linux/kernel/git/peter.chen/usb
+user: peter.chen
 changes:
-  - ref: refs/heads/master
-    old: 163cef8b9013898bbe0d0b8d4afd25264e999858
-    new: 3124afbea3c7e04e89ad98db4d1d621f491b531a
+  - ref: refs/heads/for-usb-fixes
+    old: cf97d7af246831ea23c216f17205f91319afc85f
+    new: 92b9f4d145ef184a6209c0efe7fcbaa4716cb518
     log: |
-         3124afbea3c7e04e89ad98db4d1d621f491b531a wg-quick: freebsd: use ifconfig for determining if interface is up
+         92b9f4d145ef184a6209c0efe7fcbaa4716cb518 usb: cdns3: Fix runtime PM imbalance on error
          
