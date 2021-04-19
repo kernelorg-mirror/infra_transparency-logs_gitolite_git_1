@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 19 Apr 2021 06:44:16 -0000
-Message-Id: <161881465667.1565.10335109998283309505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs-next
+Date: Mon, 19 Apr 2021 06:52:56 -0000
+Message-Id: <161881517688.8387.7886022930679173159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/horms/ipvs-next
+user: horms
 changes:
-  - ref: refs/heads/for-next
-    old: fbd1f2e62746b4252a76d73f2c900116c97a0e41
-    new: 41d9d7e059e85bbb014d1dd793a9af45c0ef95a3
+  - ref: refs/heads/master
+    old: 78ed0a9bc6db76f8e5f5f4cb0d2b2f0d1bb21b24
+    new: b72920f6e4a9d6607b723d69b7f412c829769c75
     log: |
-         989e5d4b576f010de4bacb9fdad0cb879c75e9d7 kconfig: remove unused PACKAGE definition
-         ed63ef7796979835d7cfb4dc2d108b6eeeb2b7c2 kconfig: gconf: remove unused code
-         5fb35ec10bb0665080c8de8a360fb4dba9a0f73f kconfig: highlight gconfig 'comment' lines with '***'
-         92f8a9217a1215cc3d71e82d5d1cde0793cf0501 kconfig: highlight xconfig 'comment' lines with '***'
-         41d9d7e059e85bbb014d1dd793a9af45c0ef95a3 Merge branch 'kconfig' into for-next
+         14c20643ef9457679cc6934d77adc24296505214 netfilter: nft_payload: fix C-VLAN offload support
+         ff4d90a89d3d4d9814e0a2696509a7d495be4163 netfilter: nftables_offload: VLAN id needs host byteorder in flow dissector
+         783003f3bb8a565326e89d18bbd948ad8ffc816a netfilter: nftables_offload: special ethertype handling for VLAN
+         812fa71f0d967dea7616810f27e98135d410b27e netfilter: Dissect flow after packet mangling
+         8826218215de1aae9d89a6ea8d3786f224711334 selftests: fib_tests: Add test cases for interaction with mangling
+         b72920f6e4a9d6607b723d69b7f412c829769c75 netfilter: nftables: counter hardware offload support
          
