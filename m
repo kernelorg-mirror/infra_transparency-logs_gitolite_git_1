@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4874909788829752392=="
+Content-Type: multipart/mixed; boundary="===============6382885667581995083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 19 Apr 2021 10:12:30 -0000
-Message-Id: <161882715090.15416.12500849124131019973@gitolite.kernel.org>
+Date: Mon, 19 Apr 2021 10:12:51 -0000
+Message-Id: <161882717186.15645.15425687089393636381@gitolite.kernel.org>
 
---===============4874909788829752392==
+--===============6382885667581995083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: f829b4b212a315b912cb23fd10aaf30534bb5ce9
-    new: 34e5269bf987aff9a33ad3ab4f5d65c02913cbc1
-    log: |
-         34e5269bf987aff9a33ad3ab4f5d65c02913cbc1 m68k: sun3x: Remove unneeded semicolon
-         
-  - ref: refs/heads/for-v5.13
-    old: f829b4b212a315b912cb23fd10aaf30534bb5ce9
-    new: 34e5269bf987aff9a33ad3ab4f5d65c02913cbc1
-    log: |
-         34e5269bf987aff9a33ad3ab4f5d65c02913cbc1 m68k: sun3x: Remove unneeded semicolon
-         
-  - ref: refs/heads/master
-    old: f6e3956c365be3777473a2b6a999ec21e4a74d1c
-    new: 116a46c3f0cf8a2053aef36d5e59fc3dea7da0d5
-    log: revlist-f6e3956c365b-116a46c3f0cf.txt
+  - ref: refs/heads/m68k-queue
+    old: 796d9f6fd1fd3f4f1ee96841a8ac0fd4bf85e551
+    new: 91b99d00567cb37d381fbe3c30ba6571aa565cba
+    log: revlist-796d9f6fd1fd-91b99d00567c.txt
 
---===============4874909788829752392==
+--===============6382885667581995083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6e3956c365b-116a46c3f0cf.txt
+Content-Disposition: attachment; filename=revlist-796d9f6fd1fd-91b99d00567c.txt
 
 30b3f68715595dee7fe4d9bd91a2252c3becdf0a Input: s6sy761 - fix coordinate read bit shift
 36b87cf302a4f13f8b4344bcf98f67405a145e2f HID: google: add don USB id
@@ -221,7 +209,15 @@ d2f7eca60b29006285d57c7035539e33300e89e5 ARM: 9071/1: uprobes: Don't hook on thu
 f5ce0466dc96326e07b52b8fc170c91bc234beb3 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
 5ffe04ccd69ae56af304ff7f98fbdaa4478ed47e Merge tag 'arm-fixes-5.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 bf05bf16c76bb44ab5156223e1e58e26dfe30a88 Linux 5.12-rc8
-fa034685ee0c5c77033d4c173b1dcf45e2d2322a Merge tag 'v5.12-rc8'
-116a46c3f0cf8a2053aef36d5e59fc3dea7da0d5 m68k: sun3x: Remove unneeded semicolon
+35ef15fd04d472ac3387a35ec64c211caa94a2c3 m68k: syscalls: switch to generic syscalltbl.sh
+198e9426269f4c5c7be3b2b1a55663facd63ee4e m68k: syscalls: switch to generic syscallhdr.sh
+38f29e1fa6feac68d3d19f6daa92db42ae7e5eb9 m68k: Add missing mmap_read_lock() to sys_cacheflush()
+c98365f8746b70c583e029d85eec09a8d0281246 m68k: sun3x: Remove unneeded semicolon
+9ca6a8fa28a5e417fe936ac320f5e340f7c84187 m68k: atari: usb: Add ISP1160 USB host controller support
+7e6e4be63215974a9635550af683c03424cab9f8 m68k: atari: Update Kconfig.bus help text
+ad8741c69f11c0d7737385bc790b846becd2341a m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+dbe3158a18b0341588a1dd17d3d7fe25cb1ca9b1 m68k: mvme147,mvme16x: Don't wipe PCC timer config bits
+668d7ddf1e3efd5532371fb8f35260af0a087c2d m68k: fpsp040: Remove meaningless $(OS_OBJS)
+91b99d00567cb37d381fbe3c30ba6571aa565cba m68k: fpsp040,ifpsp060: Remove meaningless EXTRA_LDFLAGS
 
---===============4874909788829752392==--
+--===============6382885667581995083==--
