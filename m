@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2768744058033798578=="
+Content-Type: multipart/mixed; boundary="===============8254855745802087739=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 19 Apr 2021 08:37:59 -0000
-Message-Id: <161882147938.6772.17694515027334975383@gitolite.kernel.org>
+Date: Mon, 19 Apr 2021 08:38:09 -0000
+Message-Id: <161882148943.6902.11203003787093986151@gitolite.kernel.org>
 
---===============2768744058033798578==
+--===============8254855745802087739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-linux-next
     old: 7e25f40eab52c57ff6772d27d2aef3640a3237d7
     new: bf05bf16c76bb44ab5156223e1e58e26dfe30a88
     log: revlist-7e25f40eab52-bf05bf16c76b.txt
 
---===============2768744058033798578==
+--===============8254855745802087739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -157,4 +157,4 @@ f5ce0466dc96326e07b52b8fc170c91bc234beb3 Merge tag 'for-linus' of git://git.arml
 5ffe04ccd69ae56af304ff7f98fbdaa4478ed47e Merge tag 'arm-fixes-5.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 bf05bf16c76bb44ab5156223e1e58e26dfe30a88 Linux 5.12-rc8
 
---===============2768744058033798578==--
+--===============8254855745802087739==--
