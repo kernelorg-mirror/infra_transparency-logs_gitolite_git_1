@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2771723439569050360=="
+Content-Type: multipart/mixed; boundary="===============9072518324019354764=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 19 Apr 2021 17:21:46 -0000
-Message-Id: <161885290679.29666.13861957483169674738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 19 Apr 2021 17:21:54 -0000
+Message-Id: <161885291428.29833.6007116026732415953@gitolite.kernel.org>
 
---===============2771723439569050360==
+--===============9072518324019354764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/spi-5.13
     old: 126bdb606fd2802454e6048caef1be3e25dd121e
     new: 2e9f02689e4d7f248b491171cabc7b3a33e421ee
     log: |
@@ -28,28 +28,28 @@ changes:
          2e9f02689e4d7f248b491171cabc7b3a33e421ee Merge series "spi: stm32-qspi: Fix and update" from <patrice.chotard@foss.st.com> Patrice Chotard <patrice.chotard@foss.st.com>:
          
 
---===============2771723439569050360==
+--===============9072518324019354764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1618852882 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1618852904-778984dc08b7442644fc7ba76a15cb7761b5d2c2
+pusher C3F436CA30F5D8EB 1618852889 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1618852911-f793ff2c74cef1cf41be84956be0972bf99eb16a
 
-126bdb606fd2802454e6048caef1be3e25dd121e 2e9f02689e4d7f248b491171cabc7b3a33e421ee refs/heads/for-5.13
+126bdb606fd2802454e6048caef1be3e25dd121e 2e9f02689e4d7f248b491171cabc7b3a33e421ee refs/heads/spi-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB9vBIACgkQJNaLcl1U
-h9Alrwf+LArehWMzQSpMqkOysCPTl30r0XAMpNpHoy3vNUEW6X2DqdAEOjPJzUm8
-8mN9T9zzLvVevTDq8TryEOaW5l1HgmRBDAqmDM9OlAPEe0CXZ/mAP6Xv6S9mPbZB
-vZv3Y3oIaCUeXXmLize5xzKxQYduCtsPpWc590ssmz2xP04Qhr8/QG3lcAnW/fEf
-JRMrBLTUsnsr8R8kHDNdRp2gZlgxBTO3+j+NsJvbCswtJz1n48htWXtcle+dr2vX
-T8QmawKPSHRETH0vQsq4qurr0/BEHSRykPimPkxFxsDJ7Oinh3+bEUj4LXmQux7M
-vRSE0iCKGpNNdodFobw7EzDJteJbPQ==
-=Ommz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB9vBkACgkQJNaLcl1U
+h9BtaAf/dZvwtNPBt8ebeXHm29YY8aNEl+v4yX2cSSTo22zj+5h5eWmnGHwqF1/9
+Ihf3FWZlhOmiEbRsXMwMcW7UTdtGpy7Faq7+aVSqlffc+f1WKXjP6BqqdGsvpuwA
+UDo7AMuil9Xrs4VjQzZ8WZTEBNamuxrlktEDN/JyZ31zDXtC35HDGs3y9FgYPcCx
+SdSvckUHILPtfgh0aPz7jQfH3ZIBIwrb+P+vLJol5nH1UsWNoQsNR/TgqC/2BWcJ
+PVslITF0AvWkzUbBFJJBva/KFUkQoicBsc4332CG8LccuTl/8ukLKJHdEnxnysR0
+IIJJYCXYIBu+iVdnKi/Zmb42DPcXdg==
+=XN8N
 -----END PGP SIGNATURE-----
 
---===============2771723439569050360==--
+--===============9072518324019354764==--
