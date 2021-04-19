@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 19 Apr 2021 15:34:45 -0000
-Message-Id: <161884648547.26523.15930000738403079415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 19 Apr 2021 15:38:37 -0000
+Message-Id: <161884671704.29297.5916938964228293295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: f66adc3cde7ee0607ea9198ca460031d3564fb33
-    new: 85286184d9df1b03bb76049edcfd87c39ce46e94
-    log: |
-         940b7f42d45de247eb9a2c4874985a400cb936c4 cxgb4: Update firmware to revision 1.25.4.0
-         85286184d9df1b03bb76049edcfd87c39ce46e94 Merge branch 'for-upstream' of git://git.chelsio.net/pub/git/linux-firmware into main
-         
+  - ref: refs/heads/qcom/dt-4
+    old: 0000000000000000000000000000000000000000
+    new: 1b86cc7330895b11df0a7dc15fbbbef60be9f7bb
