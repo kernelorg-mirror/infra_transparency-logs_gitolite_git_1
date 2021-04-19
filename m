@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1213145695359566788=="
+Content-Type: multipart/mixed; boundary="===============0194705268560535168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Mon, 19 Apr 2021 17:20:35 -0000
-Message-Id: <161885283536.28833.11511408938538539189@gitolite.kernel.org>
+Date: Mon, 19 Apr 2021 17:20:41 -0000
+Message-Id: <161885284161.28919.15540655128901319370@gitolite.kernel.org>
 
---===============1213145695359566788==
+--===============0194705268560535168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
-  - ref: refs/heads/v5.13/integ
+  - ref: refs/heads/integ
     old: 6373d6d2ee83f097e83a29710d130dd27e3f8b04
     new: 3547c07972592512efec28dd43e516d9a9837b6b
     log: revlist-6373d6d2ee83-3547c0797259.txt
 
---===============1213145695359566788==
+--===============0194705268560535168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -628,4 +628,4 @@ f5ce0466dc96326e07b52b8fc170c91bc234beb3 Merge tag 'for-linus' of git://git.arml
 bf05bf16c76bb44ab5156223e1e58e26dfe30a88 Linux 5.12-rc8
 3547c07972592512efec28dd43e516d9a9837b6b Merge branch 'v5.13/dt64' into tmp/aml-rebuild
 
---===============1213145695359566788==--
+--===============0194705268560535168==--
