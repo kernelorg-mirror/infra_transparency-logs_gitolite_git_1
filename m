@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 19 Apr 2021 14:08:59 -0000
-Message-Id: <161884133981.5784.16923432825705785657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Mon, 19 Apr 2021 14:10:34 -0000
+Message-Id: <161884143433.7962.13544238455127383975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/master
-    old: 9bc1bcc6dea70cee8ee78aebfb63c622f6007d3d
-    new: f66adc3cde7ee0607ea9198ca460031d3564fb33
+  - ref: refs/heads/fsnotify
+    old: db93035ad25a2cca0e32a269b526a3670e072a63
+    new: 59cda49ecf6c9a32fae4942420701b6e087204f6
     log: |
-         d6a18e90f8acbd324428df15701d089d532716e7 WHENCE: link to similar config file for rtl8821a support
-         c2968499147efaa071536c81c8c426d36325059a QCA: Update Bluetooth firmware for QCA6174
-         f350e917333fb11a90a12b662fa22c9a58c9554f Merge https://github.com/rjliao-qca/qca-btfw into main
-         f66adc3cde7ee0607ea9198ca460031d3564fb33 Merge branch 'main' of gitolite.kernel.org:/pub/scm/linux/kernel/git/maks/linux-firmware into main
+         9591c3a34f7722bd77f42c98d76fd5a5bad465f0 fs: introduce a wrapper uuid_to_fsid()
+         59cda49ecf6c9a32fae4942420701b6e087204f6 shmem: allow reporting fanotify events with file handles on tmpfs
          
