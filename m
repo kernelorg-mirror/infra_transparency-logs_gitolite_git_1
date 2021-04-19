@@ -1,38 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============0362840361511285765=="
+Content-Type: multipart/mixed; boundary="===============0917343713734287731=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 19 Apr 2021 07:57:02 -0000
-Message-Id: <161881902277.14912.1293869691093685516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 19 Apr 2021 07:57:11 -0000
+Message-Id: <161881903159.15068.16038917343131770232@gitolite.kernel.org>
 
---===============0362840361511285765==
+--===============0917343713734287731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: d434405aaab7d0ebc516b68a8fc4100922d7f5ef
     new: bf05bf16c76bb44ab5156223e1e58e26dfe30a88
     log: revlist-d434405aaab7-bf05bf16c76b.txt
-  - ref: refs/heads/rdma-next
-    old: 19a9f89a56a88339392efbb66e0e791002c9f2a7
-    new: 3ef90c9ecd27aebcd3cae1d0f34b162d24afef1c
-    log: revlist-19a9f89a56a8-3ef90c9ecd27.txt
-  - ref: refs/heads/testing/rdma-next
-    old: 203ac2aa1f214d1b0fc22618ceab73f393352fdf
-    new: 0df32dc935042475ab8d04063c7eede3ccc0a3fc
-    log: revlist-203ac2aa1f21-0df32dc93504.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: b0609002ed25e229ebdbab53dd11878b579e74ca
-    new: e6b00e92a6093f52efaa2a9a2b7ee52604568711
-    log: revlist-b0609002ed25-e6b00e92a609.txt
+  - ref: refs/heads/queue-next
+    old: ee36f4157102ec4796b9ed36a1a003ff2b8f5777
+    new: a5b99d67f25e054f8acc43371af0a622f87483b2
+    log: revlist-ee36f4157102-a5b99d67f25e.txt
+  - ref: refs/heads/queue-rc
+    old: a43c87b0351568f9e7ee7872e23d92c0b900d613
+    new: 70b088afd8fded1cee96a18ac8e33fd14c7e26e1
+    log: revlist-a43c87b03515-70b088afd8fd.txt
 
---===============0362840361511285765==
+--===============0917343713734287731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -222,44 +218,11 @@ f5ce0466dc96326e07b52b8fc170c91bc234beb3 Merge tag 'for-linus' of git://git.arml
 5ffe04ccd69ae56af304ff7f98fbdaa4478ed47e Merge tag 'arm-fixes-5.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 bf05bf16c76bb44ab5156223e1e58e26dfe30a88 Linux 5.12-rc8
 
---===============0362840361511285765==
+--===============0917343713734287731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19a9f89a56a8-3ef90c9ecd27.txt
-
-e220f0a2555bacef5eee6ee2a1574009a8514544 IB/cm: Pair cm_alloc_response_msg() with a cm_free_response_msg()
-d5e55778683991655fda88078464511b071164af IB/cm: Split cm_alloc_msg()
-fa2de383fb22afef1a3e7f5d2f9859a0d6d19120 IB/cm: Call the correct message free functions in cm_send_handler()
-6846c00f13aa1fa16350add4543a540cf631889c IB/cm: Tidy remaining cm_msg free paths
-73d82f19088d24b86b4f168905177eb7a96e85f7 Revert "IB/cm: Mark stale CM id's whenever the mad agent was unregistered"
-5765db395769c1a673582c40c76e24a4f68d0afe IB/cm: Simplify ib_cancel_mad() and ib_modify_mad() calls
-d913ddffbbd83981b2b61be02ccee1a7c893140e IB/cm: Clear all associated AV's ports when remove a cm device
-4adced42af5dc2972f1093c6ae9836787f1445ed IB/cm: Add lock protection when access av/alt_av's port of a cm_id
-b0a53fc02f5f9f689883295cb693fd86eda51e0c IB/cm: Initialize av before aquire the spin lock in cm_lap_handler
-9aab3f9ec79fadf3dc9bce90570959b4c7f6b801 RDMA/mlx5: Expose private query port
-c860d2bb06ef6cba7b81980c70f4ecbe38962127 RDMA/restrack: Delay QP deletion till all users are gone
-62f96200b8d1433e741c190dcce8be612457ff17 RDMA/bnxt_re: Depend on bnxt ethernet driver and not blindly select it
-c83e920b971ad82f2696b742418819d4e37725c1 RDMA/bnxt_re: Create direct symbolic link between bnxt modules
-4ad2fd0a03fc305bd338bcdec1beb1e581c360d1 RDMA/bnxt_re: Get rid of custom module reference counting
-4617261f0721ea550c7a4c5ece817840639f23bc net/bnxt: Remove useless check of non-existent ULP id
-4290f8acb68ba331cccb49957680678dbde66d7a net/bnxt: Use direct API instead of useless indirection
-4a72585dddd26521f7802a5d681b933e7f0ad400 RDMA/nldev: Return context information
-0e2df6fce0d3abbf1233dc9e3829dabab7072563 RDMA/restrack: Add support to get resource tracking for SRQ
-3d75d1d7ca86414354095dcb2ab67b7efd289c2c RDMA/nldev: Return SRQ information
-d198f3a91e07e0a3122a1e716231fdb5867ef184 RDMA/nldev: Add QP numbers to SRQ information
-1fbc5b77ba76421ceec0590b70f27778a2c443bc IB/mlx5: Set right RoCE l3 type and roce version while deleting GID
-332f8d149ac3f0a99d6c200db94c82e05ad382f2 RDMA/mlx5: Fix type assignment for ICM DM
-7b6d3f1eef810432dabc1658fc985f4b7d58327e RDMA/cma: Skip device which doesn't support CM
-77851abdf15ffa15208eec843561dbdea116dc42 RDMA/core: Fix check of device in rdma_listen()
-20363eef87225ee545dfaf7c49749fdbc296fee6 RDMA/core: Add CM to restrack after successful attachment to a device
-3ef90c9ecd27aebcd3cae1d0f34b162d24afef1c RDMA/core: Introduce peer memory interface
-
---===============0362840361511285765==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-203ac2aa1f21-0df32dc93504.txt
+Content-Disposition: attachment; filename=revlist-ee36f4157102-a5b99d67f25e.txt
 
 30b3f68715595dee7fe4d9bd91a2252c3becdf0a Input: s6sy761 - fix coordinate read bit shift
 36b87cf302a4f13f8b4344bcf98f67405a145e2f HID: google: add don USB id
@@ -286,8 +249,6 @@ d624833f5984d484c5e3196f34b926f9e71dafee ARM: 9063/1: mm: reduce maximum number 
 30e3b4f256b4e366a61658c294f6a21b8626dda7 ARM: footbridge: fix PCI interrupt mapping
 781bab3238c21c8cc6d1999a6ee43de76252fdfd Input: elants_i2c - fix division by zero if firmware reports zero phys size
 56cfe6f820a6315291eb5a1b82bb49633b993d3b Input: elants_i2c - drop zero-checking of ABS_MT_TOUCH_MAJOR resolution
-0e07e25b481aa021e4b48085ecb8a049e9614510 netfilter: flowtable: fix NAT IPv6 offload mangling
-fbea31808ca124dd73ff6bb1e67c9af4607c3e32 netfilter: conntrack: do not print icmpv6 as unknown via /proc
 fc85dc42a38405099f97aa2af709fe9504a82508 ARM: OMAP2+: Fix uninitialized sr_inst
 23cf00ddd2e1aacf1873e43f5e0c519c120daf7a gpio: sysfs: Obey valid_mask
 185f2e5f51c2029efd9dd26cceb968a44fe053c6 arm64: fix inline asm in load_unaligned_zeropad()
@@ -310,13 +271,7 @@ afd0be7299533bb2e2b09104399d8a467ecbd2c5 libbpf: Fix potential NULL pointer dere
 2361db89aaadfb671db6911b0063e01ec8922c28 libnvdimm: Notify disk drivers to revalidate region read-only
 a2948b17f6b936fc52f86c0f92c46d2f91928b79 libnvdimm/region: Fix nvdimm_has_flush() to handle ND_REGION_ASYNC
 11d2498f1568a0f923dc8ef7621de15a9e89267f Merge branch 'for-5.12/dax' into libnvdimm-fixes
-b895bdf5d643b6feb7c60856326dd4feb6981560 netfilter: nft_limit: avoid possible divide error in nft_limit_init
-7ee3c61dcd28bf6e290e06ad382f13511dc790e9 netfilter: bridge: add pre_exit hooks for ebtable unregistration
-d163a925ebbc6eb5b562b0f1d72c7e817aa75c40 netfilter: arp_tables: add pre_exit hook for table unregister
 d2bd44c4c05d043fb65cfdf26c54e6d8b94a4b41 m68k: fix flatmem memory model setup
-4af2178ac605faf32ebe638f7ac17d841d40ea9b MAINTAINERS: update maintainer entry for freescale fec driver
-31457db3750c0b0ed229d836f2609fdb8a5b790e net: davicom: Fix regulator not turned off on failed probe
-6628ddfec7580882f11fdc5c194a8ea781fdadfa net: geneve: check skb is large enough for IPv4/IPv6 header
 ea941ac294d75d0ace50797aebf0056f6f8f7a7f dmaengine: idxd: Fix clobbering of SWERR overflow bit on writeback
 4ac823e9cd85f66da274c951d21bf9f6b714b729 dmaengine: idxd: fix delta_rec and crc size field for completion record
 ea6a5735d2a61b938a302eb3629272342a9e7c46 dmaengine: idxd: fix opcap sysfs attribute output
@@ -334,11 +289,6 @@ aee6f25e9c911323aa89a200e1bb160c1613ed3d drm/i915/display/vlv_dsi: Do not skip p
 89698becf06d341a700913c3d89ce2a914af69a2 Merge tag 'm68knommu-for-v5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 6df0e6c57dfc064af330071f372f11aa8c584997 dmaengine: idxd: clear MSIX permission entry on shutdown
 ea9aadc06a9f10ad20a90edc0a484f1147d88a7a dmaengine: idxd: fix wq cleanup of WQCFG registers
-1fe976d308acb6374c899a4ee8025a0a016e453e net: phy: marvell: fix detection of PHY on Topaz switches
-f33b0e196ed7aa3dc285b26db7768c1db1eb3a41 ethtool: fix kdoc attr name
-b29c457a6511435960115c0f548c4360d5f4801d netfilter: x_tables: fix compat match/target pad out-of-bound write
-4d8f9065830e526c83199186c5f56a6514f457d2 netfilter: nftables: clone set element expression template
-ccb39c6285581992f0225c45e4de704028a8ec17 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
 738fa58ee1328481d1d7889e7c430b3401c571b9 arm64: kprobes: Restore local irqflag if kprobes is cancelled
 6998a8800d73116187aad542391ce3b2dd0f9e30 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
 909290786ea335366e21d7f1ed5812b90f2f0a92 vfio/pci: Add missing range check in vfio_pci_mmap
@@ -472,12 +422,14 @@ d198f3a91e07e0a3122a1e716231fdb5867ef184 RDMA/nldev: Add QP numbers to SRQ infor
 3ef90c9ecd27aebcd3cae1d0f34b162d24afef1c RDMA/core: Introduce peer memory interface
 e6b00e92a6093f52efaa2a9a2b7ee52604568711 Merge branch 'master' into testing/rdma-rc
 0df32dc935042475ab8d04063c7eede3ccc0a3fc Merge branch 'rdma-next' into testing/rdma-next
+d34e166173a860a965a442a4f517c2ed95b9c23f Merge branch 'testing/rdma-next' into queue-next
+a5b99d67f25e054f8acc43371af0a622f87483b2 Fix for "netfilter: bridge: add pre_exit hooks for ebtable unregistration"
 
---===============0362840361511285765==
+--===============0917343713734287731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b0609002ed25-e6b00e92a609.txt
+Content-Disposition: attachment; filename=revlist-a43c87b03515-70b088afd8fd.txt
 
 30b3f68715595dee7fe4d9bd91a2252c3becdf0a Input: s6sy761 - fix coordinate read bit shift
 36b87cf302a4f13f8b4344bcf98f67405a145e2f HID: google: add don USB id
@@ -504,8 +456,6 @@ d624833f5984d484c5e3196f34b926f9e71dafee ARM: 9063/1: mm: reduce maximum number 
 30e3b4f256b4e366a61658c294f6a21b8626dda7 ARM: footbridge: fix PCI interrupt mapping
 781bab3238c21c8cc6d1999a6ee43de76252fdfd Input: elants_i2c - fix division by zero if firmware reports zero phys size
 56cfe6f820a6315291eb5a1b82bb49633b993d3b Input: elants_i2c - drop zero-checking of ABS_MT_TOUCH_MAJOR resolution
-0e07e25b481aa021e4b48085ecb8a049e9614510 netfilter: flowtable: fix NAT IPv6 offload mangling
-fbea31808ca124dd73ff6bb1e67c9af4607c3e32 netfilter: conntrack: do not print icmpv6 as unknown via /proc
 fc85dc42a38405099f97aa2af709fe9504a82508 ARM: OMAP2+: Fix uninitialized sr_inst
 23cf00ddd2e1aacf1873e43f5e0c519c120daf7a gpio: sysfs: Obey valid_mask
 185f2e5f51c2029efd9dd26cceb968a44fe053c6 arm64: fix inline asm in load_unaligned_zeropad()
@@ -528,13 +478,7 @@ afd0be7299533bb2e2b09104399d8a467ecbd2c5 libbpf: Fix potential NULL pointer dere
 2361db89aaadfb671db6911b0063e01ec8922c28 libnvdimm: Notify disk drivers to revalidate region read-only
 a2948b17f6b936fc52f86c0f92c46d2f91928b79 libnvdimm/region: Fix nvdimm_has_flush() to handle ND_REGION_ASYNC
 11d2498f1568a0f923dc8ef7621de15a9e89267f Merge branch 'for-5.12/dax' into libnvdimm-fixes
-b895bdf5d643b6feb7c60856326dd4feb6981560 netfilter: nft_limit: avoid possible divide error in nft_limit_init
-7ee3c61dcd28bf6e290e06ad382f13511dc790e9 netfilter: bridge: add pre_exit hooks for ebtable unregistration
-d163a925ebbc6eb5b562b0f1d72c7e817aa75c40 netfilter: arp_tables: add pre_exit hook for table unregister
 d2bd44c4c05d043fb65cfdf26c54e6d8b94a4b41 m68k: fix flatmem memory model setup
-4af2178ac605faf32ebe638f7ac17d841d40ea9b MAINTAINERS: update maintainer entry for freescale fec driver
-31457db3750c0b0ed229d836f2609fdb8a5b790e net: davicom: Fix regulator not turned off on failed probe
-6628ddfec7580882f11fdc5c194a8ea781fdadfa net: geneve: check skb is large enough for IPv4/IPv6 header
 ea941ac294d75d0ace50797aebf0056f6f8f7a7f dmaengine: idxd: Fix clobbering of SWERR overflow bit on writeback
 4ac823e9cd85f66da274c951d21bf9f6b714b729 dmaengine: idxd: fix delta_rec and crc size field for completion record
 ea6a5735d2a61b938a302eb3629272342a9e7c46 dmaengine: idxd: fix opcap sysfs attribute output
@@ -552,11 +496,6 @@ aee6f25e9c911323aa89a200e1bb160c1613ed3d drm/i915/display/vlv_dsi: Do not skip p
 89698becf06d341a700913c3d89ce2a914af69a2 Merge tag 'm68knommu-for-v5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 6df0e6c57dfc064af330071f372f11aa8c584997 dmaengine: idxd: clear MSIX permission entry on shutdown
 ea9aadc06a9f10ad20a90edc0a484f1147d88a7a dmaengine: idxd: fix wq cleanup of WQCFG registers
-1fe976d308acb6374c899a4ee8025a0a016e453e net: phy: marvell: fix detection of PHY on Topaz switches
-f33b0e196ed7aa3dc285b26db7768c1db1eb3a41 ethtool: fix kdoc attr name
-b29c457a6511435960115c0f548c4360d5f4801d netfilter: x_tables: fix compat match/target pad out-of-bound write
-4d8f9065830e526c83199186c5f56a6514f457d2 netfilter: nftables: clone set element expression template
-ccb39c6285581992f0225c45e4de704028a8ec17 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
 738fa58ee1328481d1d7889e7c430b3401c571b9 arm64: kprobes: Restore local irqflag if kprobes is cancelled
 6998a8800d73116187aad542391ce3b2dd0f9e30 ACPI: x86: Call acpi_boot_table_init() after acpi_table_upgrade()
 909290786ea335366e21d7f1ed5812b90f2f0a92 vfio/pci: Add missing range check in vfio_pci_mmap
@@ -565,15 +504,7 @@ ccb39c6285581992f0225c45e4de704028a8ec17 Merge git://git.kernel.org/pub/scm/linu
 debb9df311582c83fe369baa35fa4b92e8a9c58a ixgbe: fix unbalanced device enable/disable in suspend/resume
 ef963ae427aa4669905e0a96b3bd9d44dc85db32 ice: Fix potential infinite loop when using u8 loop counter
 eebe426d32e1a10ac7c35f8ffab5f818c32a2454 Merge tag 'fixes-for-5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
-610f8c0fc8d46e0933955ce13af3d64484a4630a net: sit: Unregister catch-all devices
-941ea91e87a6e879ed82dad4949f6234f2702bec net: ip6_tunnel: Unregister catch-all devices
-61aaa1aa9a8f83dbdc763c6939568952a2a30c90 Merge branch 'catch-all-devices'
-97684f0970f6e112926de631fdd98d9693c7e5c1 net: Make tcp_allowed_congestion_control readonly in non-init netns
-ca09bf7bb109a37a7ff05f230bb3fa3627e6625f ibmvnic: correctly use dev_consume/free_skb_irq
-b166a20b07382b8bc1dcee2a448715c9c2c81b5b net/sctp: fix race condition in sctp_destroy_sock
-38ec4944b593fd90c5ef42aaaa53e66ae5769d04 gro: ensure frag0 meets IP header alignment
 04c4f2ee3f68c9a4bf1653d15f1a9a435ae33f7a KVM: VMX: Don't use vcpu->run->internal.ndata as an array index
-2afeec08ab5c86ae21952151f726bfe184f6b23d xen-netback: Check for hotplug-status existence before watching
 50987beca096a7ed4f453a6da245fd6a2fadedeb Merge tag 'trace-v5.12-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 2558258d78873998b8cd81ce7661dc68541b8b51 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 e70b911acc1687100c31e550251715dbdac96a12 Merge tag 'vfio-v5.12-rc8' of git://github.com/awilliam/linux-vfio
@@ -663,5 +594,6 @@ f5ce0466dc96326e07b52b8fc170c91bc234beb3 Merge tag 'for-linus' of git://git.arml
 5ffe04ccd69ae56af304ff7f98fbdaa4478ed47e Merge tag 'arm-fixes-5.12-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 bf05bf16c76bb44ab5156223e1e58e26dfe30a88 Linux 5.12-rc8
 e6b00e92a6093f52efaa2a9a2b7ee52604568711 Merge branch 'master' into testing/rdma-rc
+70b088afd8fded1cee96a18ac8e33fd14c7e26e1 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============0362840361511285765==--
+--===============0917343713734287731==--
