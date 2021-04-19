@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 19 Apr 2021 12:03:28 -0000
-Message-Id: <161883380889.19367.10775113884561263109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sergeh/linux
+Date: Mon, 19 Apr 2021 12:03:29 -0000
+Message-Id: <161883380977.19407.16843497679807598491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/sergeh/linux
+user: sergeh
 changes:
-  - ref: refs/heads/x86/build
-    old: 58d746c119dfa28e72fc35aacaf3d2a3ac625cd0
-    new: 0ef3439cd80ba7770723edb0470d15815914bb62
+  - ref: refs/heads/2021-04-15/setfcap-nsfscaps-v3
+    old: 11ed147317110e2a847bd5d92e94abcab4d65691
+    new: c3c4b0457ec904038b781bb1db30a22d0e761880
     log: |
-         0ef3439cd80ba7770723edb0470d15815914bb62 x86/build: Disable HIGHMEM64G selection for M486SX
+         c3c4b0457ec904038b781bb1db30a22d0e761880 capabilities: require CAP_SETFCAP to map uid 0 (v3.3)
          
