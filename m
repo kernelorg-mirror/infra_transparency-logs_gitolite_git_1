@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ak/linux-misc
-Date: Tue, 20 Apr 2021 05:23:08 -0000
-Message-Id: <161889618834.16227.7787278160236595377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Tue, 20 Apr 2021 06:03:55 -0000
+Message-Id: <161889863598.7389.11515236695321121219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ak/linux-misc
-user: ak
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/lto-5.12-2-wip
-    old: 5fb6ae36c71270391163fd440803514f18610301
-    new: 465e3a9380fff2a677c16731099ae42012126bff
+  - ref: refs/heads/hwmon-next
+    old: 789a4623bb12af51a6c05e188ba302f7d162ff04
+    new: 97e48cd40a4b17234c831de04c33c767116870f0
     log: |
-         f554ca2e9974b42a73a7a02bd14c6248694c9cb4 fixup! Kbuild, lto: Add Link Time Optimization support
-         465e3a9380fff2a677c16731099ae42012126bff Kbuild, lto: Don't include weak source file symbols in System.map
+         97e48cd40a4b17234c831de04c33c767116870f0 hwmon: (pmbus) Add pmbus driver for MAX15301
          
