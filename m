@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 20 Apr 2021 17:56:19 -0000
-Message-Id: <161894137973.28491.13662282793105140579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 20 Apr 2021 18:02:47 -0000
+Message-Id: <161894176758.31752.12247476788411274003@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/x86/urgent
-    old: bf05bf16c76bb44ab5156223e1e58e26dfe30a88
-    new: 5849cdf8c120e3979c57d34be55b92d90a77a47e
+  - ref: refs/heads/dev
+    old: 429f7c8f275519c2c00b8e161e250f807ef608a9
+    new: a1ec494e1eef0c72d8f89bbf916a4b291273d2e5
     log: |
-         5849cdf8c120e3979c57d34be55b92d90a77a47e x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
+         a1ec494e1eef0c72d8f89bbf916a4b291273d2e5 tasks-rcu: Make show_rcu_tasks_gp_kthreads() be static inline
          
+  - ref: refs/heads/dev.2021.04.19a
+    old: 0000000000000000000000000000000000000000
+    new: 429f7c8f275519c2c00b8e161e250f807ef608a9
