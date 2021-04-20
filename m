@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 20 Apr 2021 12:52:14 -0000
-Message-Id: <161892313473.1800.4036049665956842215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Tue, 20 Apr 2021 13:03:32 -0000
+Message-Id: <161892381222.7752.8352598427319726812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/for-next
-    old: 420c35134b07870ada6084887989059899f7a647
-    new: 9a49a5aca54bfcd559168754311bc51248f3f769
-    log: |
-         81bbf03905aae47a80fd05604cc9b0d1ca20e30a s390/pci: expose a PCI device's UID as its index
-         b3a6d48df96da9d07f3eedd7f5479502462f76fc Merge branch 'fixes' into for-next
-         9a49a5aca54bfcd559168754311bc51248f3f769 Merge branch 'features' into for-next
-         
+  - ref: refs/heads/memfd-secret/v19
+    old: 0000000000000000000000000000000000000000
+    new: bcbc02be96efb4ff8c84c420373f6f5d1fefbdab
