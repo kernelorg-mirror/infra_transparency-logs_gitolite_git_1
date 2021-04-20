@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 20 Apr 2021 06:03:55 -0000
-Message-Id: <161889863598.7389.11515236695321121219@gitolite.kernel.org>
+Date: Tue, 20 Apr 2021 06:20:23 -0000
+Message-Id: <161889962353.18770.6982599442690140296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
   - ref: refs/heads/hwmon-next
-    old: 789a4623bb12af51a6c05e188ba302f7d162ff04
-    new: 97e48cd40a4b17234c831de04c33c767116870f0
+    old: 97e48cd40a4b17234c831de04c33c767116870f0
+    new: 3ab263ab41a7b77366fdd281e06d1079412a06c1
     log: |
-         97e48cd40a4b17234c831de04c33c767116870f0 hwmon: (pmbus) Add pmbus driver for MAX15301
+         8182cd602ca5ada802b6cbe7cbf4f6ce6e8763c9 hwmon: (pmbus) Introduce PMBUS symbol namespace
+         3ab263ab41a7b77366fdd281e06d1079412a06c1 hwmon: Clarify scope of attribute access
          
