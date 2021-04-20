@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 20 Apr 2021 21:42:04 -0000
-Message-Id: <161895492427.4778.414764159993988920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 20 Apr 2021 21:48:15 -0000
+Message-Id: <161895529563.7956.7754547981763494692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 7af08140979a6e7e12b78c93b8625c8d25b084e2
-    new: 1fe5501ba1abf2b7e78295df73675423bd6899a0
+  - ref: refs/heads/dev-queue
+    old: 7bb8bbcda9f48613392d85a396cb4e7174a4d99c
+    new: f6f45daf1523ad6131bed37d9d875e0c01c4ec86
     log: |
-         0e1e71d34901a633825cd5ae78efaf8abd9215c6 tracing: Fix checking event hash pointer logic when tp_printk is enabled
-         db2e718a47984b9d71ed890eb2ea36ecf150de18 capabilities: require CAP_SETFCAP to map uid 0
-         1fe5501ba1abf2b7e78295df73675423bd6899a0 Merge tag 'trace-v5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+         4c894c53b97781f4bb69351ee3196780eb798f9b i40e: Remove LLDP frame filters
+         f6f45daf1523ad6131bed37d9d875e0c01c4ec86 igc: Remove unused asymmetric pause bit from igc defines
          
