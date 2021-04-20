@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Tue, 20 Apr 2021 14:23:33 -0000
-Message-Id: <161892861350.27800.2496533296316000957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 20 Apr 2021 14:39:54 -0000
+Message-Id: <161892959488.4103.494558883535579627@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: a4d5ed3b54f0c66b331d81bebb2ba4a92abc43a3
-    new: 43d8766372f49a2f40339e4e95abaa63bcc10905
+  - ref: refs/heads/master
+    old: 9bbe14e7a31803bb481825cd615e52f138a06a5a
+    new: 61d0abe910cd25c07f0eee75dc29dc3ca3e8c413
     log: |
-         01dcfe7849875db439d24600d6d89ef40ae97eac power: supply: max14577: remove unneeded variable initialization
-         a837f35c5ae0b0fb2b2b6bc1765b7be5a44b0a19 power: supply: max17040: handle device_property_read_u8_array() failure
-         6dfbb2cece78fc54a3f8bd116dbe20cf3bc63df1 power: supply: max17040: remove unneeded double cast
-         4667d52fad3b1c99ac6c9271a49d84c92a14cbc2 power: supply: act8945a: correct kerneldoc
-         43d8766372f49a2f40339e4e95abaa63bcc10905 power: supply: bq256xx: add kerneldoc for structure members
+         d3eef8b56a2745edb8c2bbc3198c3b8305365c92 netdev: Move netdev finding to a common function
+         89b3d34dd3fc05ee11dcfc204b48971619969659 ie: Fix IE_AKM_IS_FILS macro
+         6096d8895d970713fde76d0a34afa434a3cad4bd netdev: Mirror nl80211.h iftype enum values
+         61d0abe910cd25c07f0eee75dc29dc3ca3e8c413 netdev: Move iftype_to_string utility
          
