@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Tue, 20 Apr 2021 22:49:59 -0000
-Message-Id: <161895899979.13408.16506631698886959353@gitolite.kernel.org>
+Date: Tue, 20 Apr 2021 22:50:05 -0000
+Message-Id: <161895900524.15081.13507061757281006178@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/v5.13/integ
     old: 3547c07972592512efec28dd43e516d9a9837b6b
     new: 6a7570d2351c7426096e9359bfae7081f09e5fa6
     log: |
