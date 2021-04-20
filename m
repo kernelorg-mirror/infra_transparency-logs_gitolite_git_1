@@ -1,56 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6750366339497525408=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 20 Apr 2021 11:54:32 -0000
-Message-Id: <161891967281.10035.5577276968443178167@gitolite.kernel.org>
-
---===============6750366339497525408==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Tue, 20 Apr 2021 11:55:31 -0000
+Message-Id: <161891973143.11684.1847092555333538566@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
   - ref: refs/heads/master
-    old: d6199a99d8eb284e1bb93131ea641e3cc44222d6
-    new: c60fc055ddf527938e6ada5b239b0e101e37b9be
+    old: 392c36e5be1dee19ffce8c8ba8f07f90f5aa3f7c
+    new: 747b67088f8d34b3ec64d31447a1044be92dd348
     log: |
-         c60fc055ddf527938e6ada5b239b0e101e37b9be 4.14-stable patches
+         b07dd26f07af294ceed9715fd11e312ff8de6138 flow: remove spi key from flowi struct
+         7baf867fef7cc65d666792e9d1b911beffe74ad7 xfrm: remove stray synchronize_rcu from xfrm_init
+         6218fe186109b93a2fa2343e13981e016e9961ab xfrm: avoid synchronize_rcu during netns destruction
+         747b67088f8d34b3ec64d31447a1044be92dd348 xfrm: ipcomp: remove unnecessary get_cpu()
          
-
---===============6750366339497525408==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1618919671 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1618919670-68ef815a3d1de671e017c1d7d3ea2ab6071c620b
-
-d6199a99d8eb284e1bb93131ea641e3cc44222d6 c60fc055ddf527938e6ada5b239b0e101e37b9be refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmB+wPcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/IsQAIkLgnWZCzxsNAKhaBrA
-r9XqfuFNYTLLm8KbAisDSWlmIxJbayfyCF0xTziQVhrJygBJmPiZlTUpmwIrghwV
-cIvUkJ5WaYQmdgAFzU9c1msIg5Sm0OcaH8sy617D8mGoY28E6u7Fnbp0ErQZCgip
-WflP3u4mMSF68TdDzZVH8dgCslmmhMxOLnEabwMjSnymPy5jon0CSoJAJr4wPp5+
-DNRnMh66dxuIDQyIBe0nR5FLKTn6FxU/V5/j7CvAq4TGfzho50/phWe2DTEqa3sk
-GBOvCtG+7xoJMCVCR8l8eFOJRE5/mt7Uv9nMGp9M8Ou0t8SYzonvi3pYn0gbfaNA
-mFQTTerdWYE5ncB7xy1d7kZbPtVlEpshS5zYkFG9ZsMs1HLezdOMMVa7dmVNj7gD
-ig5g7ZIfewqJPs/RuM33Pe+IXG8ANwUxALag+pXBud/UTSeJgJH8FH4h4wFCjtFF
-22lqIKSBFsZJrz4x74bEAXmAHnnWWMGsd8fzMiSznAq6cIOAdfna4uacpu9kY3xB
-mURHiq7f1HZrauOkHjrFbnYXpWlesSuZza2EbNtOER/eO1cKiGcnv9dpw78tbw2X
-LxYGokQbvDN6eQZhZIw+izYCfhyGFUPAZEQwOMX2ikpMlfR88QPkuJGtjQeOrKq8
-THLcp3SbRVAZB+gVuuOjzMXr
-=CwEB
------END PGP SIGNATURE-----
-
---===============6750366339497525408==--
