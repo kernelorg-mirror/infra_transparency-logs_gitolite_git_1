@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 20 Apr 2021 12:38:50 -0000
-Message-Id: <161892233040.24682.17616798598918160849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 20 Apr 2021 12:40:08 -0000
+Message-Id: <161892240849.26438.15213532164418275756@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: 1c9d9dfd2d254211cb37b1513b1da3e6835b8f00
-    new: bd15b15523fd3197d1bb46403e02e92877a4f412
-    log: |
-         bd15b15523fd3197d1bb46403e02e92877a4f412 ALSA: hda/realtek: Enable mute/micmute LEDs and limit mic boost on EliteBook 845 G8
-         
   - ref: refs/heads/master
-    old: 8b2cbb23fad29741b6e82fcb5aec60042bfc2e68
-    new: 394662e562bf376aa845429161331dab51095ff3
+    old: 0216836e8b8529421385e6f1072c8bff20f51445
+    new: e5bde19ae29c3f0459a5934f1c6f3d5982dcbaad
     log: |
-         bd15b15523fd3197d1bb46403e02e92877a4f412 ALSA: hda/realtek: Enable mute/micmute LEDs and limit mic boost on EliteBook 845 G8
-         394662e562bf376aa845429161331dab51095ff3 Merge branch 'for-next'
+         e5bde19ae29c3f0459a5934f1c6f3d5982dcbaad build-sys: cleanup Makefiles
          
