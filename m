@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
-Date: Tue, 20 Apr 2021 22:47:48 -0000
-Message-Id: <161895886807.11642.3182196121395336035@gitolite.kernel.org>
+Date: Tue, 20 Apr 2021 22:49:36 -0000
+Message-Id: <161895897650.12487.14039863180229802890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
-  - ref: refs/heads/master
-    old: bf05bf16c76bb44ab5156223e1e58e26dfe30a88
-    new: 1fe5501ba1abf2b7e78295df73675423bd6899a0
+  - ref: refs/heads/v5.13/dt64
+    old: 412c8fa8c3748cc0500b4c86a47dd28254f015f1
+    new: 15b348702edba767b6925fdac56c2087ee0ad8ed
     log: |
-         7af08140979a6e7e12b78c93b8625c8d25b084e2 Revert "gcov: clang: fix clang-11+ build"
-         0e1e71d34901a633825cd5ae78efaf8abd9215c6 tracing: Fix checking event hash pointer logic when tp_printk is enabled
-         db2e718a47984b9d71ed890eb2ea36ecf150de18 capabilities: require CAP_SETFCAP to map uid 0
-         1fe5501ba1abf2b7e78295df73675423bd6899a0 Merge tag 'trace-v5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+         15b348702edba767b6925fdac56c2087ee0ad8ed arm64: dts: amlogic: misc DT schema fixups
          
