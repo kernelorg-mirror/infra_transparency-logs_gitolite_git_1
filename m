@@ -1,57 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============0663181990438381173=="
+Content-Type: multipart/mixed; boundary="===============7388378081915539212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 20 Apr 2021 18:31:37 -0000
-Message-Id: <161894349713.17291.17315346472300778487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 20 Apr 2021 18:31:46 -0000
+Message-Id: <161894350650.17383.7446059848880104849@gitolite.kernel.org>
 
---===============0663181990438381173==
+--===============7388378081915539212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.13
-    old: ec1af6c64db94e4f24e53011a77b2bf2220ae000
-    new: 23b16df6c9c91f70df070be43c5b13ef4016c1e7
+  - ref: refs/heads/for-5.13
+    old: 1b8a7d4282c038b3846f2485d86cb990c55c38d9
+    new: 1799bb1065ba6e9be0a1562400cd0b9afdcf65e7
     log: |
-         1a456b1c6be13514a8fc5c1a99e6763f491d17e9 ASoC: audio-graph: move audio_graph_card_probe() to simple-card-utils.c
-         f6fcc820e0c96664e2f21c0d6bb60630243ef36a ASoC: audio-graph: move audio_graph_remove() to simple-card-utils.c
-         6769ea1e4315999624ce4637c9c338b9d88a85e6 ASoC: audio-graph: check ports if exists
-         14d78d74d7bc47c6ff3a66fb9d405084de7b6b02 ASoC: audio-graph: remove "audio-graph-card, " preix support
-         67800ae93982eb4496f446cfd06f98ba7382ce36 ASoC: audio-graph: remove unused "node" from graph_parse_mclk_fs()
-         63f2f9cceb09f8e5f668e36c1cf764eea468ebed ASoC: audio-graph: remove Platform support
-         7342db3cddcd1d8ff54f4dff8c942e04232f1d6d ASoC: ak4458: enable daisy chain
-         23b16df6c9c91f70df070be43c5b13ef4016c1e7 Merge series "ASoC: audio-graph: cleanups" from Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>:
+         b0c3d9354de1f87eebc00694d5218b6611265933 spi: altera: separate core code from platform code
+         ba2fc167e9447596a812e828842d0130ea9cd0e4 spi: altera: Add DFL bus driver for Altera API Controller
+         7d82f89c39ad3193893d36924fc1f8d44f3dc612 spi: brcm,spi-bcm-qspi: convert to the json-schema
+         3a1634daf8cbf7d1e76b120fea9665325557be8c spidev: Add Micron SPI NOR Authenta device compatible
+         1799bb1065ba6e9be0a1562400cd0b9afdcf65e7 Merge series "spi: altera: Add DFL bus support for Altera SPI" from matthew.gerlach@linux.intel.com Matthew Gerlach <matthew.gerlach@linux.intel.com>:
          
 
---===============0663181990438381173==
+--===============7388378081915539212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1618943471 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1618943493-af03821317d15680620b719c9d1ce6529919d3b6
+pusher C3F436CA30F5D8EB 1618943480 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1618943503-1cc50802f5588bd3e739f33c18082ec857acf165
 
-ec1af6c64db94e4f24e53011a77b2bf2220ae000 23b16df6c9c91f70df070be43c5b13ef4016c1e7 refs/heads/asoc-5.13
+1b8a7d4282c038b3846f2485d86cb990c55c38d9 1799bb1065ba6e9be0a1562400cd0b9afdcf65e7 refs/heads/for-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB/He8ACgkQJNaLcl1U
-h9Bv+Af/SVaj0SvJJ+T6KxKifKMB+Pz4HF7T0rZoypKCkb/pM/ySrsCKbnwv9RSY
-McpS+KJiBwy9K1qcFrCHGNOxVg4r6tRLRoRgyCgmS+KoHkH9fKWuFnyBOV2oSd7v
-M0zSyhlsUW3FKs/MLLNsLCdEwzsFw76D3W59QCb8qO64pofpFJwtFrvRZMlh+9+a
-VpwSzYxyB0UkdjKMNPK//3CHvmpayvEIB31kB+wvEASlG5/qSYyWTNMuUFVIdreq
-BkfwilWcWia6lvdCG77f0xqveZ7NWG7pUglNbxICk7doYwGvL3fT0+l3mvh8jLTA
-ucZk4w3mrD0fdLVfJcCiPZTkZ5yZtw==
-=XPDP
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmB/HfgACgkQJNaLcl1U
+h9BxUgf/dFOQ99iAxN7FqSSv6vpmVqWGe9xas9TlQCTpvM5HTaO16/XorFztdXs4
+g4xUP3jh63dr7bDKFCPEUcd1xNVv9wBAV1PTp6ayRwql0IhVca8yspz05gRXxphi
+8cvRVWvg/RQdJXFGLyjeuKanFqv7+ikIHrgk9HOz5T0WC9BmFPn/OPnUlU7y1Ffi
+CttFZQPhzIzekHaTH6NpU0HZKdgo+BJYuaCHJyWemXq+/NsOJO28eSjyms3uUx9o
+GDbUCiOvf2P8Bb85db4U5L6N3VqftpBLHrU0qHYvi8hiqWuh7zpZZlzBa2upOjYm
+DgpVN5TD50EKU49t8uSxcaDO0eKKOg==
+=Wm03
 -----END PGP SIGNATURE-----
 
---===============0663181990438381173==--
+--===============7388378081915539212==--
