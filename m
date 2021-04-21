@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Wed, 21 Apr 2021 09:50:17 -0000
-Message-Id: <161899861782.13357.3572126543930901881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Wed, 21 Apr 2021 10:10:08 -0000
+Message-Id: <161899980887.24630.11475140493021677760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: eballetbo
 changes:
-  - ref: refs/heads/hyperv-next
-    old: aa5b7d11c7cb87c266d705b237368985e7171958
-    new: 753ed9c95c37d058e50e7d42bbe296ee0bf6670d
+  - ref: refs/heads/for-kernelci
+    old: 35ebd68db54d8c3e3fd4fe5eb867dc9e035efd6e
+    new: 106db9667aa1d2b938a0e27a22554f6b7abb3d63
     log: |
-         6523592cee4650c6aa997d69cd0045a01e07a1ef x86/hyperv: Move hv_do_rep_hypercall to asm-generic
-         753ed9c95c37d058e50e7d42bbe296ee0bf6670d drivers: hv: Create a consistent pattern for checking Hyper-V hypercall status
+         4423ee65f76818c8a8994e6f5821372661ea7f89 platform/chrome: cros_usbpd_notify: Listen to EC_HOST_EVENT_USB_MUX host event
+         d61b3f9b91be32f714b218377ab5081932e3ebc2 platform/chrome: cros_ec_lpc: Use DEFINE_MUTEX() for mutex lock
+         106db9667aa1d2b938a0e27a22554f6b7abb3d63 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
          
