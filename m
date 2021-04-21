@@ -1,67 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1363125004518101884=="
+Content-Type: multipart/mixed; boundary="===============7512745625891671492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
-Date: Wed, 21 Apr 2021 23:44:00 -0000
-Message-Id: <161904864092.18398.14073220776391247491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
+Date: Wed, 21 Apr 2021 23:56:11 -0000
+Message-Id: <161904937136.27167.14598486524567680202@gitolite.kernel.org>
 
---===============1363125004518101884==
+--===============7512745625891671492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pali/linux
-user: pali
+repo: pub/scm/linux/kernel/git/ast/bpf
+user: ast
 changes:
-  - ref: refs/heads/pci-aardvark
-    old: 3ff6e169d8497893a2cc31458c834138e853a944
-    new: a8dfb03dac8cac5f772c28c61f2b0078ede74a3e
-    log: revlist-3ff6e169d849-a8dfb03dac8c.txt
+  - ref: refs/heads/syscall
+    old: d0034c6090b7347591bb7ba134f697b91a65756d
+    new: a6cb229df8e2f8b8f7df5ba23a6429f2b9f90acb
+    log: revlist-d0034c6090b7-a6cb229df8e2.txt
 
---===============1363125004518101884==
+--===============7512745625891671492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ff6e169d849-a8dfb03dac8c.txt
+Content-Disposition: attachment; filename=revlist-d0034c6090b7-a6cb229df8e2.txt
 
-dc95e05390b6516202004e849e2322d9a41405f4 PCI: aardvark: Fix checking for PIO status
-41e3eef52446e47d48f527544d20e00250b984a4 PCI: aardvark: Increase polling delay to 1.5s while waiting for PIO response
-670afe4ef45a033c59d0a158e8caca89b6b8dab4 PCI: aardvark: Fix kernel panic during PIO transfer
-5b7e657054b6731b9bc54f60dc58e6a814d4b1b8 PCI: pci-bridge-emul: Add PCIe Root Capabilities Register
-27f89800f3e23af54668f05d3437000838b7db2d PCI: aardvark: Fix reporting CRS Software Visibility on emulated bridge
-87624ff47712b9a54ed38b1e2ba57d736d8e7d59 PCI: aardvark: Do not touch status bits of masked interrupts in interrupt handler
-3f15b2a873f795a1a71c7a1831d8297fde13cb49 PCI: aardvark: When processing INTx IRQ check that it has virq mapping
-2946d4438546f162c2474a972a8cd58e37541263 PCI: aardvark: Remove irq_mask_ack callback for INTx interrupts
-bc6de3f70a54d6327e2c44d58f082d146c4ab661 PCI: aardvark: Remove calling advk_pcie_irq_mask() during advk_pcie_irq_map()
-9ed019ebe50b16ba380803f5bf6720dac2a9895f PCI: aardvark: Change name of INTx irq_chip to advk-INT
-feb83aae7790f46a31fefdb3dbea38ac5f420410 PCI: aardvark: Remove goto from advk_pcie_init_irq_domain()
-314d3ed52e5c01136a5e74653a061c07df32e95c PCI: aardvark: Fix support for MSI interrupts
-f107d4a4cdb2828e55f0ca27fd6f26540b0c4f28 PCI: aardvark: Correctly clear and unmask all MSI interrupts
-a0c8fc3b59b3e5d02a43aecdf3fdf6a5ea32d48e PCI: aardvark: Fix setting MSI address
-1387911334af1bd00e30da3f29a0468dea472dc2 PCI: aardvark: Add support for more than 32 MSI interrupts
-82b83ae7dca6cd353257dea3be9a5d1ab7877bdb PCI: aardvark: Add support for masking MSI interrupts
-7ed9dd7d87799d5119381b39f5f9f77fe39fca7f PCI: aardvark: Enable MSI-X support
-62ab31cffa48c01198c9134406c5ce936ffa3d21 PCI: aardvark: Fix support for ERR interrupt on emulated bridge
-b5ca9fc52f421ac7d92b613ad1256bfbadfbe3dd PCI: aardvark: Fix support for PME on emulated bridge
-813d849a612da4b75f958eaf630b2b39fb6ec0e3 PCI: aardvark: Fix support for PME requester on emulated bridge
-6fbe3d67f0a340d315143da7d6a2e9b0fba936fa PCI: aardvark: Fix support for bus mastering and PCI_COMMAND on emulated bridge
-49b91aa5a9b1e189176494380f817dfdaef02674 PCI: aardvark: Disable bus mastering and mask all interrupts when unbinding driver
-4dbff0c8f9b9905b3c71a324527e8c4439741918 PCI: aardvark: Free config space for emulated root bridge when unbinding driver to fix memory leak
-f9cc69ffd5a0174689dac5831bcaecb5faa8fcdb PCI: aardvark: Reset PCIe card and disable PHY when unbinding driver
-9b1474fd92de9e7f49b6119b902d9b9a2bb04045 PCI: aardvark: Rewrite irq code to chained irq handler
-d20df540178833f592f1eeb16e8083e55532adb1 PCI: aardvark: Use separate INTA interrupt for emulated root bridge
-69f3a8df225d59ed1e86a881a9fc9fbb7f6c2b54 PCI: pci-bridge-emul: Add description for class_revision field
-726067beed2c494b4dd6d0b3e844e058d6b2a996 PCI: pci-bridge-emul: Add definitions for missing capabilities registers
-c24af2c35794ed5dda51f79ba534b5ce8f41224f PCI: aardvark: Add support for DEVCAP2, DEVCTL2, LNKCAP2 and LNKCTL2 registers on emulated bridge
-061f580ad2662422d6fed7b9c29d9d8ebe45b8fe PCI: aardvark: Add support for PCI_BRIDGE_CTL_BUS_RESET on emulated bridge
-671e25d9967399a899bad30f779a59223b86993c PCI: aardvark: Replace custom PCIE_CORE_ERR_CAPCTL_* macros by linux/pci_regs.h macros
-5c578cdd89b390f73f08e88d748271be356c4b7f PCI: aardvark: Replace custom PCIE_CORE_INT_* macros by linux PCI_INTERRUPT_* values
-2b3e6a70b2ef2b01d54789f7face8d29e4ebd766 PCI: aardvark: Cleanup some register macros
-acb61961c76bc51db5388b7cab7b7da674df0e04 PCI: aardvark: Add comments for OB_WIN_ENABLE and ADDR_WIN_DISABLE
-88365a9abd9414343ecb330e610da4164592b2de PCI: pci-bridge-emul: re-arrange register tests
-27c75b34e07ce02cc4e3d81095dca434a64ee1bf PCI: pci-bridge-emul: add support for PCIe extended capabilities
-a8dfb03dac8cac5f772c28c61f2b0078ede74a3e PCI: aardvark: Add support for Advanced Error Reporting registers on emulated bridge
+d9c9e4db186ab4d81f84e6f22b225d333b9424e3 bpf: Factorize bpf_trace_printk and bpf_seq_printf
+fff13c4bb646ef849fd74ced87eef54340d28c21 bpf: Add a ARG_PTR_TO_CONST_STR argument type
+7b15523a989b63927c2bb08e9b5b0bbc10b58bef bpf: Add a bpf_snprintf helper
+83cd92b46484aa8f64cdc0bff8ac6940d1f78519 libbpf: Initialize the bpf_seq_printf parameters array field by field
+58c2b1f5e0121efd698b6ec8e45e47e58ca9caee libbpf: Introduce a BPF_SNPRINTF helper macro
+c2e39c6bdc7eb48459ec1d34d4f27eb82299f4b7 selftests/bpf: Add a series of tests for bpf_snprintf
+900367b208ee04768bb4323d0051ba11c434bafc Merge branch 'Add a snprintf eBPF helper'
+137733d08f4ab14a354dacaa9a8fc35217747605 samples/bpf: Fix broken tracex1 due to kprobe argument change
+fd0b88f73f5372c08ceff5cc7ddd8ceac502679c bpf: Refine retval for bpf_get_task_stack helper
+bdc4e369454fcae108e18feb0fcbb6f06815f94b bpf/selftests: Add bpf_get_task_stack retval bounds verifier test
+c77cec5c207b68a3cbc2af2f81070ec428f41145 bpf/selftests: Add bpf_get_task_stack retval bounds test_prog
+69443c47305e541f5bf8b5a26f442c0c7f34cafe Merge branch 'bpf: refine retval for bpf_get_task_stack helper'
+d044d9fc1380b66917dcb418ef4ec7e59dd6e597 selftests/bpf: Add docs target as all dependency
+731dd912dfae6c1408ffe0a824d4791cf0d498cd bpf: Introduce bpf_sys_bpf() helper and program type.
+8479b670acf3207f0b96e7f5beff76bc4bf004fb bpf: Introduce bpfptr_t user/kernel pointer.
+d64d9f54a83d1a3f3fce336b9f96b12921c62c12 bpf: Prepare bpf syscall to be used from kernel and user space.
+f864bec24febd0a1f83712ea7f6d8a28252f9ecd libbpf: Support for syscall program type
+009a3dea22f31fff17a913da12fead6a1d42ccd2 selftests/bpf: Test for syscall program type
+b391f6b5f679e8403b14bf8be3f985b1efafb379 bpf: Make btf_load command to be bpfptr_t compatible.
+dfc08a591117d5ccb4a4e0be9e1cd109607188cb selftests/bpf: Test for btf_load command.
+db2f5290b5ea5f765cdf52a25be9e09d8386d368 bpf: Introduce fd_idx
+e189aa9df6a8eab98843a8ecc53f0386398c6aec libbpf: Support for fd_idx
+ba3a811f1be057485c77c0d338a4df8c2237f230 bpf: Add bpf_btf_find_by_name_kind() helper.
+a3f39ee2091ca1dcad2e6278fb02101b81e52a81 bpf: Add bpf_sys_close() helper.
+fed670f78e7cd146f8d3729efd450cf3e8f7cabd libbpf: Change the order of data and text relocations.
+dc10be5cd0d4bdac87ade5f77260656c4a8849f6 libbpf: Generate loader program out of BPF ELF file.
+6a2812c6811058fd1b67065ef360eba1b7b42c17 bpftool: Use syscall/loader program in "prog load" and "gen skeleton" command.
+a6cb229df8e2f8b8f7df5ba23a6429f2b9f90acb selftests/bpf: Convert few tests to light skeleton.
 
---===============1363125004518101884==--
+--===============7512745625891671492==--
