@@ -1,62 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============6230101069107164698=="
+Content-Type: multipart/mixed; boundary="===============3433589465531286043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 21 Apr 2021 18:35:51 -0000
-Message-Id: <161903015110.29812.5907865130147852846@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 21 Apr 2021 18:35:59 -0000
+Message-Id: <161903015944.29908.3779318906052044797@gitolite.kernel.org>
 
---===============6230101069107164698==
+--===============3433589465531286043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.12
-    old: 1fa27f35ee23b52e0bd708d00c272c5df805afc8
-    new: 62bad12bceebd7d336ced4e44f408b702c151ba0
+  - ref: refs/heads/for-5.12
+    old: 1deceabbdc0dd3162def1e26acb2e57a93275909
+    new: 013592be146a10d3567c0062cd1416faab060704
     log: |
-         1300c7037f0f08692008053e4b12a2fb6fbd185a ASoC: amd: drop S24_LE format support
-         62bad12bceebd7d336ced4e44f408b702c151ba0 ASoC: Intel: KMB: Fix random noise at the HDMI output
+         013592be146a10d3567c0062cd1416faab060704 regulator: da9121: automotive variants identity fix
          
-  - ref: refs/heads/asoc-5.13
-    old: 23b16df6c9c91f70df070be43c5b13ef4016c1e7
-    new: 73371bacf0475a20ab6f3e7b6310e378ec5b3023
+  - ref: refs/heads/for-5.13
+    old: aaa8c4e05e3295d5c62163ca25776c83541764ef
+    new: 823543b739c89cd232a6c6815362f32ed81a679e
     log: |
-         8859f809c7d5813c28ab90f5335f182e634d77af ASoC: audio-graph: add graph_parse_node()
-         e51237b8d3052251421770468903fa6e4446d158 ASoC: audio-graph: add graph_link_init()
-         59c35c44a9cf89a83a92a8d26749e59497d0317d ASoC: simple-card: add simple_parse_node()
-         434392271afcff350fe11730f12b831fffaf33eb ASoC: simple-card: add simple_link_init()
-         73371bacf0475a20ab6f3e7b6310e378ec5b3023 ASoC: audio-graph: tidyup graph_dai_link_of_dpcm()
+         378b40ae1a8639f03192711573e478a367ccb6e1 regulator: s2mpa01: Drop initialization via platform data
+         beeab9bc8e85de6cacbbb2124a464166f2f5043d regulator: s2mps11: Drop initialization via platform data
+         69b8821e293aa823ba8184c80370e7e21bde81e6 regulator: core.c: Fix indentation of comment
+         8a065ce92b218e453742b745162d75a6f86fb768 regulator: Avoid a double 'of_node_get' in 'regulator_of_get_init_node()'
+         72241e3190f2be668d60493cf0343ec535357b5e regulator: core.c: Improve a comment
+         823543b739c89cd232a6c6815362f32ed81a679e Merge series "mfd/rtc/regulator: Drop board file support for Samsung PMIC" from Krzysztof Kozlowski <krzysztof.kozlowski@canonical.com>:
          
 
---===============6230101069107164698==
+--===============3433589465531286043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1619030124 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1619030148-d51a5e3e61e0deeabb22ad2ee75c17ce8f22dcf0
+pusher C3F436CA30F5D8EB 1619030133 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1619030156-0da9b53368ef22dbeb1e3464eb54c5053a20ec17
 
-1fa27f35ee23b52e0bd708d00c272c5df805afc8 62bad12bceebd7d336ced4e44f408b702c151ba0 refs/heads/asoc-5.12
-23b16df6c9c91f70df070be43c5b13ef4016c1e7 73371bacf0475a20ab6f3e7b6310e378ec5b3023 refs/heads/asoc-5.13
+1deceabbdc0dd3162def1e26acb2e57a93275909 013592be146a10d3567c0062cd1416faab060704 refs/heads/for-5.12
+aaa8c4e05e3295d5c62163ca25776c83541764ef 823543b739c89cd232a6c6815362f32ed81a679e refs/heads/for-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCAcGwACgkQJNaLcl1U
-h9Bk0gf/cbsBEZtqiegL4H9TlrkM+O+I+kZSbTWJVajAw5H6DWBxB+Pp6RgYFRNm
-VeIhS0rsKqhVL0aw9WYhGfZF9un9mpaiPQ4hok9SsHtNvAC/lzf4ZesQlMnyrnUJ
-Mp27CASgg8+Rfe6X3J4yS2vS2W5YYGj9sWoj5KYZn8xH88zycj8+c8nPlA6IIhK1
-O9yMVwfigzDoczkSrxZoUsieuQUn66wgTEDWxpYXm4iDdSuf/ZeAk7jGHhU5pjP0
-yB+5JlhT94HxdwvhT1RgwvUIcA54BtkF14TJUXv2wrFvESw49oOji5g3mCaQOIdu
-2QeR19clAxhARHxSOY/wPNMckeej9w==
-=Ao3+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCAcHUACgkQJNaLcl1U
+h9Bmfwf+OveKq/ZeSQx8U9Z+cIycQ45+rmIr6DWO4bbQADNduuOVno0ZdpWJ4FX1
+UM2QGTP7I0k4LnvCPQD+V560kmGElbWkMo/fs8cPrChXD3goEUjVs7i6tY+AK+JU
+skZaIuwrQZjUNI2MtIOG3kh6JBOYS2k8lfKhiethq0fJPDxC+laweZR2/+CcJ2pa
+UKQsbqlTvWrwD7XCu3otXm+cn3fKquGTQJR/isBUT8wbazT54LeGuWEPDReXACdW
+GQSDuMQezpz6NfluFHgWkIKpwTPFT9BjuGTdW3gXlxCo5I6aglpO03ySYJDZEcJB
+EzXI/NvpEOYrTc35c5tu0SO68jgV8g==
+=ibgn
 -----END PGP SIGNATURE-----
 
---===============6230101069107164698==--
+--===============3433589465531286043==--
