@@ -1,73 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============0774917109951809458=="
+Content-Type: multipart/mixed; boundary="===============1938509400654390690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Wed, 21 Apr 2021 06:28:27 -0000
-Message-Id: <161898650787.3208.9548579780595007700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 21 Apr 2021 07:02:11 -0000
+Message-Id: <161898853177.23277.15010218263249972829@gitolite.kernel.org>
 
---===============0774917109951809458==
+--===============1938509400654390690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/queue-next
-    old: a5b99d67f25e054f8acc43371af0a622f87483b2
-    new: 12481f34a10b2cffb9ac5bf6a5e484f3c70e6ce0
-    log: revlist-a5b99d67f25e-12481f34a10b.txt
-  - ref: refs/heads/queue-rc
-    old: 70b088afd8fded1cee96a18ac8e33fd14c7e26e1
-    new: 6b866db9f26093ccab21398e2214e3c9b9fa5683
-    log: |
-         43514b4a7abb04a7f3f52beebd43c8d59dd1e2c5 Merge branch 'master' into testing/rdma-rc
-         6b866db9f26093ccab21398e2214e3c9b9fa5683 Merge branch 'testing/rdma-rc' into queue-rc
-         
+  - ref: refs/heads/master
+    old: bc9940eb3a4c7a8e4cbaa3fafcaa356b13cb6ba3
+    new: e14b64081d4d27b26812c2dbd427b93074a842b6
+    log: revlist-bc9940eb3a4c-e14b64081d4d.txt
 
---===============0774917109951809458==
+--===============1938509400654390690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5b99d67f25e-12481f34a10b.txt
+Content-Disposition: attachment; filename=revlist-bc9940eb3a4c-e14b64081d4d.txt
 
-65d4801ae44e842cddca60278cfe299e1c2417c3 RDMA/core: Unify RoCE check and re-factor code
-338a010cb616b6b257bd7fe615bd4a87ca575c3a IB/ipoib: Improve latency in ipoib/cm connection formation
-f06f72c8e6b40bdea7c471b944819b7006b64cf7 RDMA/bnxt_re: Depend on bnxt ethernet driver and not blindly select it
-31bc048d92ae4dc7eb2de83d678710261facb5d0 RDMA/bnxt_re: Create direct symbol link between bnxt modules
-534d6ed5ad2a7d28a531c5c078ce33d21d27d9f9 RDMA/bnxt_re: Get rid of custom module reference counting
-98a2acd14158bfa48189f4e9b9a7ed8ccebe7f4c IB/ipoib: Remove unnecessary struct declaration
-86a6752aca0c14dc9ef615a8487503e74468f77e RDMA/cxgb4: add missing qpid increment
-dcb82528d665aa67b4ecba95246e61d543bcc356 RDMA/i40iw: Fix error unwinding when i40iw_hmc_sd_one fails
-fcbcef0ebd30de3c15b5fbb77370a8c6657676c4 IB/mlx5: Set right RoCE l3 type and roce version while deleting GID
-04d64b2b08b740cb41ee98ef59340ff377dbd1f6 RDMA/mlx5: Fix type assignment for ICM DM
-326bc273dfd52ead9f58ab328bb17f0de738bc3d net/sched: Don't print dump stack in event of transmission timeout
-2a05f17d4ab55932c61ac4e9c716c7a5730ec2e1 IB/cm: Pair cm_alloc_response_msg() with a cm_free_response_msg()
-8f616c054841398c8a3bfbd0ff33f4a663ff32be IB/cm: Split cm_alloc_msg()
-6438dcc0d26e2d46fae28a6dee0f7bfa68de1eff IB/cm: Call the correct message free functions in cm_send_handler()
-901cbc6554280835b040dac51afdf840d0e8e4a2 IB/cm: Tidy remaining cm_msg free paths
-189ba87a9f6183a5e2874e6f30d755772c40e58f Revert "IB/cm: Mark stale CM id's whenever the mad agent was unregistered"
-788a5154c70f095b0b38ac70898622eb3012909f IB/cm: Simplify ib_cancel_mad() and ib_modify_mad() calls
-00c97755c41b06af84f621a1b3e0e8adfe0771cc IB/cm: Clear all associated AV's ports when remove a cm device
-a50fca26e37799491778e5efbf6b6ef21f1c3fbe IB/cm: Add lock protection when access av/alt_av's port of a cm_id
-b9e7450ec77df754f6e68e5a2c0eccb816eec2ab IB/cm: Initialize av before aquire the spin lock in cm_lap_handler
-bfd1a97087f7d28aca80f021cb6d1e64d86910ce RDMA/mlx5: Expose private query port
-38187f99a6dd0014f453ba804f0bb9bf2194139a RDMA/restrack: Delay QP deletion till all users are gone
-b4e18c5b7006a98b0bcc644fe642f47ba43d7fa2 net/bnxt: Remove useless check of non-existent ULP id
-b5a231af671fde8128d75335a2b3efbec57ee333 net/bnxt: Use direct API instead of useless indirection
-b9e7b375f4a88794097d06ed33bd415a1d52a54b RDMA/nldev: Return context information
-56509969efccd9d2e54ae94dcd74d6697ce3372a RDMA/restrack: Add support to get resource tracking for SRQ
-c09edf9ee88eee39bee2d3b5c312a7339cea2433 RDMA/nldev: Return SRQ information
-ce31a5c165f480bb20c2e150c2cd02f6d4768813 RDMA/nldev: Add QP numbers to SRQ information
-327e107764d563db2ab4195aeb7cf60c86f876e9 RDMA/cma: Skip device which doesn't support CM
-4e815310665311e3fcd03e19983eee1bb9d40e99 RDMA/core: Fix check of device in rdma_listen()
-0be4ed25e63904c88fdc6f2b6cd4d8cc5c75ccf4 RDMA/core: Add CM to restrack after successful attachment to a device
-ee4111729e2e1c03aab5e90e74402a0cbba8f51c RDMA/core: Introduce peer memory interface
-43514b4a7abb04a7f3f52beebd43c8d59dd1e2c5 Merge branch 'master' into testing/rdma-rc
-d2a90428c0cb434b8c2b91d692000a35089bea45 Merge branch 'rdma-next' into testing/rdma-next
-912de9a505a7895a6c3bd68c8d1e8668d8d11e10 Merge branch 'testing/rdma-next' into queue-next
-12481f34a10b2cffb9ac5bf6a5e484f3c70e6ce0 Fix for "netfilter: bridge: add pre_exit hooks for ebtable unregistration"
+99033461e685b48549ec77608b4bda75ddf772ce objtool: Support asm jump tables
+4f08300916e882a0c34a2f325ff3fea2be2e57b3 x86/crypto/aesni-intel_avx: Remove unused macros
+ff5796b6dbea4763fdca002101e32b60aa17f8e8 x86/crypto/aesni-intel_avx: Fix register usage comments
+e163be86fff3deec70f63330fc43fedf892c9aee x86/crypto/aesni-intel_avx: Standardize stack alignment prologue
+dabe5167a3cbb4bf16b20c0e5b6497513e2e3a08 x86/crypto/camellia-aesni-avx2: Unconditionally allocate stack buffer
+2b02ed55482a1c5c310a7f53707292fcf1601e7a x86/crypto/crc32c-pcl-intel: Standardize jump table
+35a0067d2c02a7c35466db5f207b7b9265de84d9 x86/crypto/sha_ni: Standardize stack alignment prologue
+20114c899cafa8313534a841cab0ab1f7ab09672 x86/crypto/sha1_avx2: Standardize stack alignment prologue
+ce5846668076aa76a17ab559f0296374e3611fec x86/crypto/sha256-avx2: Standardize stack alignment prologue
+d61684b56edf369f0a6d388088d7c9d59f1618d4 x86/crypto/sha512-avx: Standardize stack alignment prologue
+ec063e090bd6487097d459bb4272508b78448270 x86/crypto/sha512-avx2: Standardize stack alignment prologue
+27d26793f2105281d9374928448142777cef6f74 x86/crypto/sha512-ssse3: Standardize stack alignment prologue
+7d3d10e0e85fb7c23a86a70f795b1eabd2bc030b x86/crypto: Enable objtool in crypto code
+0c89d87d1d43d9fa268d1dc489518564d58bf497 preempt/dynamic: Fix typo in macro conditional statement
+a161545ab53b174c016b0eb63c2895266665d2f6 x86/cpufeatures: Enumerate Intel Hybrid Technology feature bit
+250b3c0d79d1f4a55e54d8a9ef48058660483fef x86/cpu: Add helper function to get the type of the current hybrid CPU
+61e76d53c39bb768ad264d379837cfc56b9e35b4 perf/x86: Track pmu in per-CPU cpu_hw_events
+d0946a882e6220229a29f9031641e54379be5a1e perf/x86/intel: Hybrid PMU support for perf capabilities
+fc4b8fca2d8fc8aecd58508e81d55afe4ed76344 perf/x86: Hybrid PMU support for intel_ctrl
+d4b294bf84db7a84e295ddf19cb8e7f71b7bd045 perf/x86: Hybrid PMU support for counters
+eaacf07d1116f6bf3b93b265515fccf2301097f2 perf/x86: Hybrid PMU support for unconstrained
+0d18f2dfead8dd63bf1186c9ef38528d6a615a55 perf/x86: Hybrid PMU support for hardware cache event
+24ee38ffe61a68fc35065fcab1908883a34c866b perf/x86: Hybrid PMU support for event constraints
+183af7366b4e813ee4e0b995ff731e3ac28251f0 perf/x86: Hybrid PMU support for extra_regs
+b8c4d1a87610ba20da1abddb7aacbde0b2817c1a perf/x86/intel: Factor out intel_pmu_check_num_counters
+bc14fe1beeec1d80ee39f03019c10e130c8d376b perf/x86/intel: Factor out intel_pmu_check_event_constraints
+34d5b61f29eea656be4283213273c33d5987e4d2 perf/x86/intel: Factor out intel_pmu_check_extra_regs
+b98567298bad891774054113690b30bd90d5738d perf/x86: Remove temporary pmu assignment in event_init
+e11c1a7eb302ac8f6f47c18fa662546405a5fd83 perf/x86: Factor out x86_pmu_show_pmu_cap
+d9977c43bff895ed49a9d25e1f382b0a98bb271f perf/x86: Register hybrid PMUs
+a9c81ccdf52dd73a20178c40bca34cf52991fdea perf/x86: Add structures for the attributes of Hybrid PMUs
+58ae30c29a370c09eb49e0007d881a9aed13c5a3 perf/x86/intel: Add attr_update for Hybrid PMUs
+3e9a8b219e4cc897dba20e19185d0471f129f6f3 perf/x86: Support filter_match callback
+f83d2f91d2590318e083d05bd7b1beda2489050e perf/x86/intel: Add Alder Lake Hybrid support
+55bcf6ef314ae8ba81bcd74aa760247b635ed47b perf: Extend PERF_TYPE_HARDWARE and PERF_TYPE_HW_CACHE
+772ed05f3c5ce722b9de6c4c2dd87538a33fb8d3 perf/x86/intel/uncore: Add Alder Lake support
+19d3a81fd92dc9b73950564955164ecfd0dfbea1 perf/x86/msr: Add Alder Lake CPU support
+d0ca946bcf84e1f9847571923bb1e6bd1264f424 perf/x86/cstate: Add Alder Lake CPU support
+6a5f4386798d81f7f413e93c87e2b6de7439beea perf/x86/rapl: Add support for Intel Alder Lake
+5849cdf8c120e3979c57d34be55b92d90a77a47e x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
+7288ce1d5fc6af4dcdfdf372ae6a43dcdf208fc9 Merge branch 'x86/urgent'
+ea36c4ce8235c48c2e411cdbccb76fd93e67746e Merge branch 'sched/urgent'
+0dac0cc4d185c0238a977c7e4fd7c0dc6e9b13e9 Merge branch 'perf/core'
+e14b64081d4d27b26812c2dbd427b93074a842b6 Merge branch 'objtool/core'
 
---===============0774917109951809458==--
+--===============1938509400654390690==--
