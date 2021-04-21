@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3433589465531286043=="
+Content-Type: multipart/mixed; boundary="===============7544434071555011859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 21 Apr 2021 18:35:59 -0000
-Message-Id: <161903015944.29908.3779318906052044797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 21 Apr 2021 18:36:07 -0000
+Message-Id: <161903016753.30075.1511204544495632899@gitolite.kernel.org>
 
---===============3433589465531286043==
+--===============7544434071555011859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/regulator-5.12
     old: 1deceabbdc0dd3162def1e26acb2e57a93275909
     new: 013592be146a10d3567c0062cd1416faab060704
     log: |
          013592be146a10d3567c0062cd1416faab060704 regulator: da9121: automotive variants identity fix
          
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/regulator-5.13
     old: aaa8c4e05e3295d5c62163ca25776c83541764ef
     new: 823543b739c89cd232a6c6815362f32ed81a679e
     log: |
@@ -34,29 +34,29 @@ changes:
          823543b739c89cd232a6c6815362f32ed81a679e Merge series "mfd/rtc/regulator: Drop board file support for Samsung PMIC" from Krzysztof Kozlowski <krzysztof.kozlowski@canonical.com>:
          
 
---===============3433589465531286043==
+--===============7544434071555011859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1619030133 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1619030156-0da9b53368ef22dbeb1e3464eb54c5053a20ec17
+pusher C3F436CA30F5D8EB 1619030141 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1619030164-05203633d296501315624128aa4a56b9cb681618
 
-1deceabbdc0dd3162def1e26acb2e57a93275909 013592be146a10d3567c0062cd1416faab060704 refs/heads/for-5.12
-aaa8c4e05e3295d5c62163ca25776c83541764ef 823543b739c89cd232a6c6815362f32ed81a679e refs/heads/for-5.13
+1deceabbdc0dd3162def1e26acb2e57a93275909 013592be146a10d3567c0062cd1416faab060704 refs/heads/regulator-5.12
+aaa8c4e05e3295d5c62163ca25776c83541764ef 823543b739c89cd232a6c6815362f32ed81a679e refs/heads/regulator-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCAcHUACgkQJNaLcl1U
-h9Bmfwf+OveKq/ZeSQx8U9Z+cIycQ45+rmIr6DWO4bbQADNduuOVno0ZdpWJ4FX1
-UM2QGTP7I0k4LnvCPQD+V560kmGElbWkMo/fs8cPrChXD3goEUjVs7i6tY+AK+JU
-skZaIuwrQZjUNI2MtIOG3kh6JBOYS2k8lfKhiethq0fJPDxC+laweZR2/+CcJ2pa
-UKQsbqlTvWrwD7XCu3otXm+cn3fKquGTQJR/isBUT8wbazT54LeGuWEPDReXACdW
-GQSDuMQezpz6NfluFHgWkIKpwTPFT9BjuGTdW3gXlxCo5I6aglpO03ySYJDZEcJB
-EzXI/NvpEOYrTc35c5tu0SO68jgV8g==
-=ibgn
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCAcH0ACgkQJNaLcl1U
+h9DNWQf/X4MFCOYENDIuiShNOxRjf+KLv0lCfwUzq/psyQ22zSab+VyXyqJ8tF9b
+2BbyGM0PMLgsrx3LSjj+ocIU1yHl4LYv2Jcra7JvTb71SgeiIjpvb+JbMLqKX0Bo
+3gL/8hZ3Wl9Sv8JazM6zRjYSGGrDbG4CPaKdYUHALPLt9CIZgPfxcnY/xadiIX13
+hvRF47SVtJXGyXiwH1ZORBOYnLGYBD4y2pzb98iyXa7HvTyC+MkM7XUdQkrryOEO
++NQU1ltSV3tTETr6PdPa+RhLXuMNOCi1LwUWSpzOfI3GZykBy2p0Wsd6DorkJ4zo
+VrysSuwE2pVnp1a9j+peZaH4716xtw==
+=8eAu
 -----END PGP SIGNATURE-----
 
---===============3433589465531286043==--
+--===============7544434071555011859==--
