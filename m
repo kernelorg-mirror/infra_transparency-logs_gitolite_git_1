@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sforshee/wireless-regdb
-Date: Wed, 21 Apr 2021 16:01:47 -0000
-Message-Id: <161902090772.1787.16760292581939408279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 21 Apr 2021 16:05:35 -0000
+Message-Id: <161902113576.4261.14466489621495405491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sforshee/wireless-regdb
-user: sforshee
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: a5f08ffca9d1e2994e798b59f7b1cf5bdeb76a48
-    new: 04f3e5411b1cdc59292775e7b8e05a5d35ea4a80
+    old: 1b0f24a2833d695b626365c86acf0ee310795d45
+    new: 45dd5d2f7cbf05c3a3df82bf01a3f39a57c59fd6
     log: |
-         04f3e5411b1cdc59292775e7b8e05a5d35ea4a80 wireless-regdb: update regulatory database based on preceding changes
+         45dd5d2f7cbf05c3a3df82bf01a3f39a57c59fd6 frame-xchg: Make debugs a bit more useful
          
-  - ref: refs/tags/master-2021-04-21
-    old: 0000000000000000000000000000000000000000
-    new: 67c888c8ba1f5beeaa3112b1325451de08cd4597
