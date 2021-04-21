@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Wed, 21 Apr 2021 15:53:05 -0000
-Message-Id: <161902038558.28781.13864272764312188642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 21 Apr 2021 15:56:27 -0000
+Message-Id: <161902058766.31039.13021707731594804332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/pfn_valid/arm64/v1
-    old: 8144ff737ea0d8b06682249e698ff4c921aab699
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/acpi/gtdt-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 5de2f0491ec65a1f6e0ee4a0e02a45438a3202b2
