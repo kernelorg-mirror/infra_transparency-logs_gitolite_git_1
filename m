@@ -1,29 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0153295178291118522=="
+Content-Type: multipart/mixed; boundary="===============6230101069107164698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 21 Apr 2021 18:35:43 -0000
-Message-Id: <161903014302.29674.7728997523539902703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 21 Apr 2021 18:35:51 -0000
+Message-Id: <161903015110.29812.5907865130147852846@gitolite.kernel.org>
 
---===============0153295178291118522==
+--===============6230101069107164698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.12
+  - ref: refs/heads/asoc-5.12
     old: 1fa27f35ee23b52e0bd708d00c272c5df805afc8
     new: 62bad12bceebd7d336ced4e44f408b702c151ba0
     log: |
          1300c7037f0f08692008053e4b12a2fb6fbd185a ASoC: amd: drop S24_LE format support
          62bad12bceebd7d336ced4e44f408b702c151ba0 ASoC: Intel: KMB: Fix random noise at the HDMI output
          
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/asoc-5.13
     old: 23b16df6c9c91f70df070be43c5b13ef4016c1e7
     new: 73371bacf0475a20ab6f3e7b6310e378ec5b3023
     log: |
@@ -34,29 +34,29 @@ changes:
          73371bacf0475a20ab6f3e7b6310e378ec5b3023 ASoC: audio-graph: tidyup graph_dai_link_of_dpcm()
          
 
---===============0153295178291118522==
+--===============6230101069107164698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1619030116 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1619030140-82e44fce33579a3f459a3816cd6a1085c8ae2da1
+pusher C3F436CA30F5D8EB 1619030124 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1619030148-d51a5e3e61e0deeabb22ad2ee75c17ce8f22dcf0
 
-1fa27f35ee23b52e0bd708d00c272c5df805afc8 62bad12bceebd7d336ced4e44f408b702c151ba0 refs/heads/for-5.12
-23b16df6c9c91f70df070be43c5b13ef4016c1e7 73371bacf0475a20ab6f3e7b6310e378ec5b3023 refs/heads/for-5.13
+1fa27f35ee23b52e0bd708d00c272c5df805afc8 62bad12bceebd7d336ced4e44f408b702c151ba0 refs/heads/asoc-5.12
+23b16df6c9c91f70df070be43c5b13ef4016c1e7 73371bacf0475a20ab6f3e7b6310e378ec5b3023 refs/heads/asoc-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCAcGQACgkQJNaLcl1U
-h9Df2Af+IyljGnYhvpXgWLOtZrNrXkq60wCX+fe3buFQZ3RNaD1FzT9tDi+E1C5M
-VMtmM7odq8RI9Pg/oAihUEAN776MQewejJ8Wo6M3PeAMm4XytYpOCMbWPLpdttVA
-YgSz/MxJPj5kZSPikuQfdZMMYTP6NAFEaHTE6YYWeRD8S7KukbktA5oQN8A0QbnN
-N9JXeMbsx6If/KY/VQplaTd/NhvdakhFYPfqwkxbC7KUtI24h80piIBVg+NXGOo+
-PDVfoDgJE7NuQUjoUtyD9lBdHwY9sWq6gc5JWYvpC+DJvpLK8vNMSfAt1WDiX21H
-emE48/J9sth2gIAPQth8h7XkxkgVtQ==
-=DOju
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCAcGwACgkQJNaLcl1U
+h9Bk0gf/cbsBEZtqiegL4H9TlrkM+O+I+kZSbTWJVajAw5H6DWBxB+Pp6RgYFRNm
+VeIhS0rsKqhVL0aw9WYhGfZF9un9mpaiPQ4hok9SsHtNvAC/lzf4ZesQlMnyrnUJ
+Mp27CASgg8+Rfe6X3J4yS2vS2W5YYGj9sWoj5KYZn8xH88zycj8+c8nPlA6IIhK1
+O9yMVwfigzDoczkSrxZoUsieuQUn66wgTEDWxpYXm4iDdSuf/ZeAk7jGHhU5pjP0
+yB+5JlhT94HxdwvhT1RgwvUIcA54BtkF14TJUXv2wrFvESw49oOji5g3mCaQOIdu
+2QeR19clAxhARHxSOY/wPNMckeej9w==
+=Ao3+
 -----END PGP SIGNATURE-----
 
---===============0153295178291118522==--
+--===============6230101069107164698==--
