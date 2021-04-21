@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 21 Apr 2021 17:28:15 -0000
-Message-Id: <161902609592.20424.5164335539652906407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 21 Apr 2021 17:36:57 -0000
+Message-Id: <161902661719.25491.16816690921433111769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 2acf63c16a3b8d7a8f11d9d6f9ef49b9771c1aee
-    new: 53e35ebb9a17fd953d9b8fe059aaf4282fa524f2
+    old: 1fe5501ba1abf2b7e78295df73675423bd6899a0
+    new: 16fc44d6387e260f4932e9248b985837324705d8
     log: |
-         53e35ebb9a17fd953d9b8fe059aaf4282fa524f2 stmmac: intel: unlock on error path in intel_crosststamp()
+         7412dee9f1fd3e224202b633fdfa6eeaebe0307e mmc: meson-gx: replace WARN_ONCE with dev_warn_once about scatterlist size alignment in block mode
+         16fc44d6387e260f4932e9248b985837324705d8 Merge tag 'mmc-v5.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
          
