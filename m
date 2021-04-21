@@ -1,60 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============3540442481109492936=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 21 Apr 2021 18:36:27 -0000
-Message-Id: <161903018730.30330.2446637328034604638@gitolite.kernel.org>
-
---===============3540442481109492936==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 21 Apr 2021 18:36:49 -0000
+Message-Id: <161903020997.30619.10035370160466812971@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.12
-    old: 8c4ffe4d023d7a3153c1d3d1084d98d17bf684b9
-    new: f60d7270c8a3d2beb1c23ae0da42497afa3584c2
+  - ref: refs/heads/for-linus
+    old: afb96645d8ed1d6acd6f4847b2cf0b32af8686a4
+    new: a5a7236ac6dbc6dde1b79bd6b5f19fa99e70179f
     log: |
-         0e793ba77c18382f08e440260fe72bc6fce2a3cb spi: Make of_register_spi_device also set the fwnode
-         dbaca8e56ea3f23fa215f48c2d46dd03ede06e02 spi: Allow to have all native CSs in use along with GPIOs
-         f60d7270c8a3d2beb1c23ae0da42497afa3584c2 spi: Avoid undefined behaviour when counting unused native CSs
+         1300c7037f0f08692008053e4b12a2fb6fbd185a ASoC: amd: drop S24_LE format support
+         62bad12bceebd7d336ced4e44f408b702c151ba0 ASoC: Intel: KMB: Fix random noise at the HDMI output
+         a5a7236ac6dbc6dde1b79bd6b5f19fa99e70179f Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
          
-  - ref: refs/heads/spi-5.13
-    old: 1799bb1065ba6e9be0a1562400cd0b9afdcf65e7
-    new: 24b5515aa3ac075880be776bf36553ff7f9712c7
+  - ref: refs/heads/for-next
+    old: 0388a5eed8d3f4f44a064457a93a8214f95cc71f
+    new: 80e0ab4291498248157d2801c994dfaa09ef3082
     log: |
-         31ed8ebc7a27c1937184b956727bf71d4adc7df3 spi: Make error handling of gpiod_count() call cleaner
-         24b5515aa3ac075880be776bf36553ff7f9712c7 spi: fsi: add a missing of_node_put
+         1300c7037f0f08692008053e4b12a2fb6fbd185a ASoC: amd: drop S24_LE format support
+         62bad12bceebd7d336ced4e44f408b702c151ba0 ASoC: Intel: KMB: Fix random noise at the HDMI output
+         8859f809c7d5813c28ab90f5335f182e634d77af ASoC: audio-graph: add graph_parse_node()
+         e51237b8d3052251421770468903fa6e4446d158 ASoC: audio-graph: add graph_link_init()
+         59c35c44a9cf89a83a92a8d26749e59497d0317d ASoC: simple-card: add simple_parse_node()
+         434392271afcff350fe11730f12b831fffaf33eb ASoC: simple-card: add simple_link_init()
+         73371bacf0475a20ab6f3e7b6310e378ec5b3023 ASoC: audio-graph: tidyup graph_dai_link_of_dpcm()
+         a5a7236ac6dbc6dde1b79bd6b5f19fa99e70179f Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+         80e0ab4291498248157d2801c994dfaa09ef3082 Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
          
-
---===============3540442481109492936==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1619030160 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1619030184-303685c1fdf4c7ad8fc718bf3a6c53335ee6337f
-
-8c4ffe4d023d7a3153c1d3d1084d98d17bf684b9 f60d7270c8a3d2beb1c23ae0da42497afa3584c2 refs/heads/spi-5.12
-1799bb1065ba6e9be0a1562400cd0b9afdcf65e7 24b5515aa3ac075880be776bf36553ff7f9712c7 refs/heads/spi-5.13
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCAcJAACgkQJNaLcl1U
-h9CeHgf/UgL952KVQwuSZSMS6CcfFeb0oU4KeWpsSohkpM1F+Iol+Py8QciDVvlS
-5kX2sgJ7KN+NW3tYfSRpELZ0hA0doghPwlobfZLIEjaeLdlh0S6YrI0QrkfJBTa3
-K3JBbo4UUAjc+c7gMNDGh/K4RppgJTLYiXhglVuGhuxYsPt6xIEKmfTfqBYthA4Q
-VU89hGs7PYNihuYgM/6SZ7yrzUyt9mozouv7u6Fj6rE4PSkD9zqE0eE6VcQXzgNb
-nLvJ3opLfRvC8qMNTYlIIEhN1+hWcN2jpPhkxLh5yOPGizYZw5actshpXNlT0mK0
-wDuE+Hy42H0ZQO0mHhxQLojnejDJ+Q==
-=ri5T
------END PGP SIGNATURE-----
-
---===============3540442481109492936==--
