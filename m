@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 20 Apr 2021 23:59:04 -0000
-Message-Id: <161896314426.24213.12621932061536356222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 21 Apr 2021 00:01:17 -0000
+Message-Id: <161896327774.26282.11607877354792271871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 1b8caefaf4f063fdc43e4078384d38ce96147b35
-    new: 6b3a63100dedfa1f0887eb316110d5d7b0c51ed4
+    old: cfeaa68713d0fdbce59559b296753298d26dd09b
+    new: fba79d573c21aba871a5ce337cd98e0f1b7b448f
     log: |
-         6b3a63100dedfa1f0887eb316110d5d7b0c51ed4 phy: nxp-c45-tja11xx: fix phase offset calculation
+         fba79d573c21aba871a5ce337cd98e0f1b7b448f device: Reply to connect request if SDP search failed
          
