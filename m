@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mel/linux
-Date: Wed, 21 Apr 2021 07:14:30 -0000
-Message-Id: <161898927045.29726.14080796395914926460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Wed, 21 Apr 2021 07:34:13 -0000
+Message-Id: <161899045358.9980.9760592638359675816@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mel/linux
-user: mel
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: eballetbo
 changes:
-  - ref: refs/heads/mm-percpu-local_lock-v1r15
-    old: 8b5bc8f29efe2261a6de9a147c4f1fe775a3d138
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mm-percpu-local_lock-v1r16
-    old: cb9fa338e16260f05c662d3ca65222e6cc1023f7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mm-percpu-local_lock-v2r10
-    old: b8efa6ccf5201b31394f5bb090ebe2e5a6c8e5cb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mm-percpu-local_lock-v2r9
-    old: 5666503b295153e96e0aa9c7452a09627a3b4b93
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mm-percpu-local_lock-v3r6
-    old: 2423ba04f7d02fa8173bf002517fd7136a2018ae
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-kernelci
+    old: 251999aa6645d68d93ea3ce16225211a419f10be
+    new: 35ebd68db54d8c3e3fd4fe5eb867dc9e035efd6e
+    log: |
+         c5bb32f57bf3a30ed03be51f7be0840325ba8b4a platform/chrome: cros_ec_typec: Add DP mode check
+         35ebd68db54d8c3e3fd4fe5eb867dc9e035efd6e KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
+         
