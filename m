@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Wed, 21 Apr 2021 10:10:08 -0000
-Message-Id: <161899980887.24630.11475140493021677760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Wed, 21 Apr 2021 10:36:42 -0000
+Message-Id: <161900140200.7651.14391883389393270439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: eballetbo
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 35ebd68db54d8c3e3fd4fe5eb867dc9e035efd6e
-    new: 106db9667aa1d2b938a0e27a22554f6b7abb3d63
+  - ref: refs/heads/features
+    old: 81bbf03905aae47a80fd05604cc9b0d1ca20e30a
+    new: 6f3353c2d2b3eb4de52e9704cb962712033db181
     log: |
-         4423ee65f76818c8a8994e6f5821372661ea7f89 platform/chrome: cros_usbpd_notify: Listen to EC_HOST_EVENT_USB_MUX host event
-         d61b3f9b91be32f714b218377ab5081932e3ebc2 platform/chrome: cros_ec_lpc: Use DEFINE_MUTEX() for mutex lock
-         106db9667aa1d2b938a0e27a22554f6b7abb3d63 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
+         70fac8088cfad9f3b379c9082832b4d7532c16c2 s390/zcrypt: fix zcard and zqueue hot-unplug memleak
+         28096067686c5a5cbd4c35b079749bd805df5010 s390/archrandom: add parameter check for s390_arch_random_generate
+         6f3353c2d2b3eb4de52e9704cb962712033db181 s390/disassembler: increase ebpf disasm buffer size
          
