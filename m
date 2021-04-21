@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 21 Apr 2021 19:35:59 -0000
-Message-Id: <161903375965.1989.11785199356502277160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 21 Apr 2021 20:13:54 -0000
+Message-Id: <161903603444.22727.1155931844673431511@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: f75bf693c919438cbe44717d63aa11856a062b9a
-    new: 37bd59d3cef8e90055dc26e25d9aba00f06f5f9f
+  - ref: refs/heads/master
+    old: 36e69da892f1224dabc4a5d0a5948764c318b117
+    new: 68f5c12abbc9b6f8c5eea16c62f8b7be70793163
     log: |
-         37bd59d3cef8e90055dc26e25d9aba00f06f5f9f platform/x86: intel_pmc_core: Uninitialized data in pmc_core_lpm_latch_mode_write()
+         68f5c12abbc9b6f8c5eea16c62f8b7be70793163 net: bridge: fix error in br_multicast_add_port when CONFIG_NET_SWITCHDEV=n
          
