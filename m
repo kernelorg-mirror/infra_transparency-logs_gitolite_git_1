@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1938509400654390690=="
+Content-Type: multipart/mixed; boundary="===============4543960118125667720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 21 Apr 2021 07:02:11 -0000
-Message-Id: <161898853177.23277.15010218263249972829@gitolite.kernel.org>
+Date: Wed, 21 Apr 2021 07:03:02 -0000
+Message-Id: <161898858268.23635.17122640250171514625@gitolite.kernel.org>
 
---===============1938509400654390690==
+--===============4543960118125667720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: bc9940eb3a4c7a8e4cbaa3fafcaa356b13cb6ba3
     new: e14b64081d4d27b26812c2dbd427b93074a842b6
     log: revlist-bc9940eb3a4c-e14b64081d4d.txt
+  - ref: refs/heads/master
+    old: e14b64081d4d27b26812c2dbd427b93074a842b6
+    new: c1d2a603724a0c05e09d41753ff4b0409c1e2d56
+    log: |
+         0e1e71d34901a633825cd5ae78efaf8abd9215c6 tracing: Fix checking event hash pointer logic when tp_printk is enabled
+         db2e718a47984b9d71ed890eb2ea36ecf150de18 capabilities: require CAP_SETFCAP to map uid 0
+         1fe5501ba1abf2b7e78295df73675423bd6899a0 Merge tag 'trace-v5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+         c1d2a603724a0c05e09d41753ff4b0409c1e2d56 Merge branch 'linus'
+         
 
---===============1938509400654390690==
+--===============4543960118125667720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +80,4 @@ ea36c4ce8235c48c2e411cdbccb76fd93e67746e Merge branch 'sched/urgent'
 0dac0cc4d185c0238a977c7e4fd7c0dc6e9b13e9 Merge branch 'perf/core'
 e14b64081d4d27b26812c2dbd427b93074a842b6 Merge branch 'objtool/core'
 
---===============1938509400654390690==--
+--===============4543960118125667720==--
