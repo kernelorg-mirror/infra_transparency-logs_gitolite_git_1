@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 21 Apr 2021 17:27:13 -0000
-Message-Id: <161902603335.20038.44092392253284040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 21 Apr 2021 17:28:15 -0000
+Message-Id: <161902609592.20424.5164335539652906407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 542c40957c0557f0b3ec326579a57c143412d0e4
-    new: 90b669d65d99a3ee6965275269967cdee4da106e
+    old: 2acf63c16a3b8d7a8f11d9d6f9ef49b9771c1aee
+    new: 53e35ebb9a17fd953d9b8fe059aaf4282fa524f2
     log: |
-         90b669d65d99a3ee6965275269967cdee4da106e nfp: devlink: initialize the devlink port attribute "lanes"
+         53e35ebb9a17fd953d9b8fe059aaf4282fa524f2 stmmac: intel: unlock on error path in intel_crosststamp()
          
