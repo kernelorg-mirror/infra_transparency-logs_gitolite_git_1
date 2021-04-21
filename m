@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 21 Apr 2021 00:05:05 -0000
-Message-Id: <161896350563.28855.12438090059962993052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 21 Apr 2021 00:05:50 -0000
+Message-Id: <161896355054.29147.5687310582012571750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 4acd47644ef1e1c8f8f5bc40b7cf1c5b9bcbbc4e
-    new: eeddfd8e8d392bc94968d87e7a408ba9e9be4722
+    old: af39c8f72301b268ad8b04bae646b6025918b82b
+    new: 55cdc26a91ac270887583945aef2bd460a2805f7
     log: |
-         5b1faa92289b53cad654123ed2bc8e10f6ddd4ac sfc: farch: fix TX queue lookup in TX flush done handling
-         83b09a1807415608b387c7bc748d329fefc5617e sfc: farch: fix TX queue lookup in TX event handling
-         172e269edfce34bac7c61c15551816bda4b0f140 sfc: ef10: fix TX queue lookup in TX event handling
-         eeddfd8e8d392bc94968d87e7a408ba9e9be4722 Merge branch 'sfc-txq-lookups'
+         55cdc26a91ac270887583945aef2bd460a2805f7 net: mana: remove redundant initialization of variable err
          
