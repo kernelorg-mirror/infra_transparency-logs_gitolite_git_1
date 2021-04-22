@@ -1,28 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 22 Apr 2021 16:30:48 -0000
-Message-Id: <161910904861.30972.3320069243791775657@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4166376544172897371=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 22 Apr 2021 16:43:20 -0000
+Message-Id: <161910980052.4725.4615537016271211547@gitolite.kernel.org>
+
+--===============4166376544172897371==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev
-    old: 0bc5db666120c8fb604520853b30c351a9659c82
-    new: 91f774b41a8f99c950a5e6af1f7c372fa9613420
+  - ref: refs/heads/for-5.12
+    old: 62bad12bceebd7d336ced4e44f408b702c151ba0
+    new: a89f3a93cd20f77ac1f84089297258d4b409e280
     log: |
-         b6927957c07389e84e9c7edca1c7d726ee25b2ea kcsan: Fix printk format string
-         d59602f7914700bd5d437228353289d9cc04daa3 bitmap_parse: Support 'all' semantics
-         9b7dd9fc8562d7b82ad0c551ba0d111c29498b45 rcu/tree_plugin: Don't handle the case of 'all' CPU range
-         7ea3e6c75f8e32e8a455f2c66e54f951aa908088 rcu: Create an unrcu_pointer() to remove __rcu from a pointer
-         d6b730aa3f36de2abf6fd2df771a24122d2c1626 sched/isolation: reconcile rcu_nocbs= and nohz_full=
-         c4e7a64ec101cfcf13e0442d103bc3ccd47f1038 EXP timer: Report ignored local enqueue in nohz mode
-         91f774b41a8f99c950a5e6af1f7c372fa9613420 tasks-rcu: Make show_rcu_tasks_gp_kthreads() be static inline
+         a89f3a93cd20f77ac1f84089297258d4b409e280 ASoC: adau17x1: Avoid overwriting CHPF
          
-  - ref: refs/heads/dev.2021.04.21a
-    old: 0000000000000000000000000000000000000000
-    new: ca43769e4b4a1ad85f952edd20fd3757da7a46b5
+  - ref: refs/heads/for-5.13
+    old: 73371bacf0475a20ab6f3e7b6310e378ec5b3023
+    new: ccd4cc3ed0692aef8a3b4566391c37eb168d8d32
+    log: |
+         ccd4cc3ed0692aef8a3b4566391c37eb168d8d32 ASoC: tegra: mark runtime-pm functions as __maybe_unused
+         
+
+--===============4166376544172897371==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1619109773 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1619109797-d57e32b58a542435cb4705810d165322645128a8
+
+62bad12bceebd7d336ced4e44f408b702c151ba0 a89f3a93cd20f77ac1f84089297258d4b409e280 refs/heads/for-5.12
+73371bacf0475a20ab6f3e7b6310e378ec5b3023 ccd4cc3ed0692aef8a3b4566391c37eb168d8d32 refs/heads/for-5.13
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCBp40ACgkQJNaLcl1U
+h9D+yQf9G2tCiXMDomPELZgn4o5+0taTjQP+P4D9RMKvsFt5vQWVDURf4XhcjeoS
+AuhTLBPRhBPrN3hmMTNvSDva8fpE25B+73k0MhdCugq8M6TeUCLg0tpXCEf2UqzK
+Xx6w5MJSsbf8ck2MzIkOKjcoIYSMiJ/m75jWspfYAop3TbcvdUifIkVcElu5i5UA
+WEb3cN81ucAvnQYa2UJIECAmsRKTOTGxm2FXR7WIkp21kaiRcuGbPBUZ3hkOie6p
+iRw9NXnnU29KQgkxxsi8YQLh9mv3xpNaUz/sa+9tt7mBS1VYCfB+4mdC1JSXx5q4
+4Rt/+sqIpTk4aesP5czPUIYy1Y5llQ==
+=IlRQ
+-----END PGP SIGNATURE-----
+
+--===============4166376544172897371==--
