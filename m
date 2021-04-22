@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0261082599140688141=="
+Content-Type: multipart/mixed; boundary="===============3987325394109188070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Thu, 22 Apr 2021 12:13:26 -0000
-Message-Id: <161909360666.709.10117231965627497884@gitolite.kernel.org>
+Date: Thu, 22 Apr 2021 12:14:45 -0000
+Message-Id: <161909368527.1235.2971331830093933321@gitolite.kernel.org>
 
---===============0261082599140688141==
+--===============3987325394109188070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thermal/linux
 user: daniel.lezcano
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/thermal/linux-next
     old: fc88f7ad763a8ef2a20f8904bd241930b7696f86
     new: 4e1de36ef598c806b9e4fa668b5f14de6f317fb7
     log: revlist-fc88f7ad763a-4e1de36ef598.txt
 
---===============0261082599140688141==
+--===============3987325394109188070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ b70dbf40eb075c596d86c42d93b86ff502290fc5 thermal/core: Create a helper __thermal
 5a015faf21c4397ae8683fb703f5c7f9f1abc34e thermal/core/power_allocator: Maintain the device statistics from going stale
 4e1de36ef598c806b9e4fa668b5f14de6f317fb7 thermal/core/power_allocator: Update once cooling devices when temp is low
 
---===============0261082599140688141==--
+--===============3987325394109188070==--
