@@ -1,41 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4015450516601211110=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 22 Apr 2021 15:03:37 -0000
-Message-Id: <161910381795.10445.13566749117069306851@gitolite.kernel.org>
-
---===============4015450516601211110==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 22 Apr 2021 15:04:01 -0000
+Message-Id: <161910384146.10620.9208404450905199434@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 7cb88bf45e588520c8743125cfda21d74de95639
-    new: 1ed223fea00a1da6211f0c2cdb39a76d0f9203ca
-    log: revlist-7cb88bf45e58-1ed223fea00a.txt
-
---===============4015450516601211110==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cb88bf45e58-1ed223fea00a.txt
-
-01f9fc0791121be06a2e8094a9f178851d2daf6d net/mlx5e: Fix select queue to consider SKBTX_HW_TSTAMP
-9b8e4c82e30fc8cf288618ff00d1bd79138b084a net/mlx5: Add case for FS_FT_NIC_TX FT in MLX5_CAP_FLOWTABLE_TYPE
-415fc49e4abb74da18f20dad4df116ed8ed58c19 net/mlx5e: Check for needed capability for cvlan matching
-64a0c23434e758f1952b58b5c7c7887bde576f08 net/mlx5: Move table size calculation to steering cmd layer
-08be2c2dcb9a009594e7966925acd02d11feebb0 net/mlx5: Move chains ft pool to be used by all firmware steering
-6ea743216a84440b0eaf748012a0898a7547f6e3 net/mlx5: DR, Set max table size to 2G entries
-2bf24899ffc16c7b1aa3b1c3e7f7a2321654d6a9 net/mlx5: Cap the maximum flow group size to 16M entries
-65458f2a043f8be6e02d10dba6c2730bfcb4a176 net-mlx5e: Enahnce diagnostics info for TX/RX reporters
-53e02749367af73658279d3bb67afa35cb986e08 Merge branch 'patchq/390017' into mlx5-queue
-5062f00d776135fd241b00ac06347c69b7ba2d16 Merge branch 'patchq/382160' into mlx5-queue
-1ed223fea00a1da6211f0c2cdb39a76d0f9203ca Merge branch 'patchq/380912' into mlx5-queue
-
---===============4015450516601211110==--
+  - ref: refs/heads/irq/irqchip-next
+    old: b6d513c7c1467ed9213badb74911a8ee9d88b7be
+    new: 05d7bf817019890e4d049e0b851940c596adbd9b
+    log: |
+         46135d6f878ab00261d4a2082d620bfb41019aab irqchip/gic-v4.1: Disable vSGI upon (GIC CPUIF < v4.1) detection
+         b68761da01114a64b9c521975c3bca6d10eeb950 ARM: PXA: Kill use of irq_create_strict_mappings()
+         5f8b938bd790cff6542c7fe3c1495c71f89fef1b irqchip/jcore-aic: Kill use of irq_create_strict_mappings()
+         1a0b05e435544cd53cd3936bdab425d88784b71a irqdomain: Get rid of irq_create_strict_mappings()
+         817aad5d08d2ee61de7353ecb4593b0df495b12e irqdomain: Drop references to recusive irqdomain setup
+         529ea36818112530791a2ec083a1a3066be6174c irqchip: Add support for IDT 79rc3243x interrupt controller
+         05d7bf817019890e4d049e0b851940c596adbd9b dt-bindings: interrupt-controller: Add IDT 79RC3243x Interrupt Controller
+         
