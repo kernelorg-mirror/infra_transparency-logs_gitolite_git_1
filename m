@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 22 Apr 2021 18:26:51 -0000
-Message-Id: <161911601122.2920.10592721979173661836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 22 Apr 2021 19:01:40 -0000
+Message-Id: <161911810054.22865.11827380336407085022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: d4e27b8ee2c9badd1a3e4d791dd159914ab59c84
-    new: d42549e46dd6696102ec44a7546c7fceae2ad6ab
+  - ref: refs/heads/dev
+    old: 91f774b41a8f99c950a5e6af1f7c372fa9613420
+    new: 25b32f751979781114749af7b10645a7d8c118b5
     log: |
-         709c86086f236e3859909680b122c879f9638a67 test-runner: fix process cleanup loop
-         d11974c71786ba4d210fe053b2a5203546228a9d test-runner: add timeout for waiting for process to finish
-         8aac527e293711e8277eff3a072844e2c5734c34 test-runner: fix process output truncation
-         1f4d73ab73f851fe15211ced4b560c21f094eeb1 auto-t: add more cleanup to ofono based tests (again)
-         cb6faed69af4b89965266e14db5fd7cb653d4d81 auto-t: properly print wait_for_object_change exception
-         f98ddf2201ac0b82b91f24194f39e2e8236cddcc netdev: print error number on CMD_FRAME failure
-         d42549e46dd6696102ec44a7546c7fceae2ad6ab netdev: move prepare_ft call which broke FT
+         25b32f751979781114749af7b10645a7d8c118b5 tools/rcu: Add drgn script to dump number of RCU callbacks
+         
+  - ref: refs/heads/rcu/next
+    old: bbc440a9296b59b7264d827c3a33936b672afa5a
+    new: 9b7dd9fc8562d7b82ad0c551ba0d111c29498b45
+    log: |
+         b6927957c07389e84e9c7edca1c7d726ee25b2ea kcsan: Fix printk format string
+         d59602f7914700bd5d437228353289d9cc04daa3 bitmap_parse: Support 'all' semantics
+         9b7dd9fc8562d7b82ad0c551ba0d111c29498b45 rcu/tree_plugin: Don't handle the case of 'all' CPU range
          
