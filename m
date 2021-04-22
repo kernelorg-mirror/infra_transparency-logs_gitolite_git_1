@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2171677467293649149=="
+Content-Type: multipart/mixed; boundary="===============1392799206350623658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Thu, 22 Apr 2021 23:34:40 -0000
-Message-Id: <161913448012.24505.15827202784744173278@gitolite.kernel.org>
+Date: Thu, 22 Apr 2021 23:42:38 -0000
+Message-Id: <161913495802.29817.13234640471212244449@gitolite.kernel.org>
 
---===============2171677467293649149==
+--===============1392799206350623658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/main
-    old: bdaeede1915a23a323efb8e2b18afa17f8aa729a
-    new: cbf26118fbc8b035c9f03ea5d3b41ffb9cbf44eb
-    log: revlist-bdaeede1915a-cbf26118fbc8.txt
+  - ref: refs/heads/mapcount_deshare
+    old: 9146521a0b44fed7bcc3026cd105e5dcb58db360
+    new: d151b0688c593ec93d0bb4b3d403c8b6a4600ce7
+    log: revlist-9146521a0b44-d151b0688c59.txt
 
---===============2171677467293649149==
+--===============1392799206350623658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bdaeede1915a-cbf26118fbc8.txt
+Content-Disposition: attachment; filename=revlist-9146521a0b44-d151b0688c59.txt
 
+db3f0d8ee9bf4b9fb7f9c8bbea3e5fad0cd9b66e Merge tag 'drm-misc-fixes-2021-03-18' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
+a97fdabcf2b4ff78b03951529dc77469f3646fd3 Merge tag 'amd-drm-fixes-5.12-2021-03-18' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+0677170bcf5c3aba0cde1a7b9e405532b7441bf4 Merge tag 'drm-intel-fixes-2021-03-18' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+e94c55b8e0a0bbe9a026250cf31e2fa45957d776 nouveau: Skip unvailable ttm page entries
+8b12a62a4e3ed4ae99c715034f557eb391d6b196 Merge tag 'drm-fixes-2021-03-19' of git://anongit.freedesktop.org/drm/drm
+84f4aced67b102c2f2631c2a48332fcabc826ed2 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
+c79a707072fe3fea0e3c92edee6ca85c1e53c29f net: cdc-phonet: fix data-interface release on probe failure
+519dad3bcd809dc1523bf80ab0310ddb3bf00ade selinux: don't log MAC_POLICY_LOAD record on failed policy load
+6406887a12ee5dcdaffff1a8508d91113d545559 selinux: fix variable scope issue in live sidtab conversion
+ee5de60a08b7d8d255722662da461ea159c15538 selinuxfs: unify policy load error reporting
+403dba003d17b3f0c1627b355cec2d74041cf648 fs/cifs/: fix misspellings using codespell tool
+af3ef3b1031634724a3763606695ebcd113d782b cifs: warn and fail if trying to use rootfs without the config option
 9ceee7d0841a8f7d7644021ba7d4cc1fbc7966e3 firmware/efi: Fix a use after bug in efi_mem_reserve_persistent
 fb98cc0b3af2ba4d87301dff2b381b12eee35d7d efi: use 32-bit alignment for efi_guid_t literals
 9ce3746d64132a561bceab6421715e7c04e85074 documentation/kvm: additional explanations on KVM_SET_BOOT_CPU_ID
@@ -1037,18 +1049,6 @@ c4106bb09c8a8a3ebe033adc31f7e23f5f41748c mm: thp: page_mapcount_lock: optimize t
 a044ddafd64979c84a3e167ec640fc25571f0109 mm: thp: page_mapcount_lock: optimize the lock_page_memcg
 468c22e9153812fc0d9cf35faa8eb74558d6c622 mm: thp: optimize total_mapcount() with head_compound_mapcount
 c0f091097c8bb1c17c61eb033f4f6a09545255cc mm: thp: cleanup and optimize compound_nr
-25ea34354323420a50c9fc5c69ee8667cb8ce752 x86: restore the write back cache of reserved RAM in iounmap()
-f7c3e6b7ef9decceeb6c69db2397b5962b796c5c x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
-2d8e001321ac306f1d7d1280de68f2fe093564cb x86: deduplicate the spectre_v2_user documentation
-7b8b39808e9561c68001a9dc0d6f67785283a231 x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
-40e51f486e22b247258b5fd451bd9490fe1b13db x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
-9649c220bd33ded8b716c93cd26313feb807c183 mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
-23f2cd313e892d963842f970185fc4e275ee0352 sched/fair: skip select_idle_sibling() in presence of sync wakeups
-69579e45e1cda2249760e754d8f01e27538d5a87 userfaultfd: UFFDIO_REMAP: rmap preparation
-03c41c75436e81fef83da7b78f09f11d6fddc203 userfaultfd: UFFDIO_REMAP uABI
-a9ccb686596848a5f5658c52a0ce7125bde510a8 mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
-ed1a6bab11bfd34ece44c0756eb1e8c702298a6b arm64: select CPUMASK_OFFSTACK if NUMA
-453509adb9ca9a9fae2bb653ab462bb044bbcc8c arm64: tlb: skip tlbi broadcast
-cbf26118fbc8b035c9f03ea5d3b41ffb9cbf44eb Merge remote-tracking branch 'gitlab/main' into main
+d151b0688c593ec93d0bb4b3d403c8b6a4600ce7 Merge remote-tracking branch 'gitlab/mapcount_deshare' into mapcount_deshare
 
---===============2171677467293649149==--
+--===============1392799206350623658==--
