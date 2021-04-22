@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Thu, 22 Apr 2021 01:44:04 -0000
-Message-Id: <161905584480.29565.5903194163600546542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/tpmdd
+Date: Thu, 22 Apr 2021 02:46:09 -0000
+Message-Id: <161905956956.2169.9449732784318142681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/jejb/tpmdd
+user: jejb
 changes:
-  - ref: refs/tags/wt-2021-04-21
-    old: 0000000000000000000000000000000000000000
-    new: cc3bc2b420a75378db7fd08b74b1e25aae0fdfe7
+  - ref: refs/heads/for-next
+    old: 74061d5368657b78d4488a276680450bc6e6c06e
+    new: 69977d1aeeca7b18001ef462002f20b5f0e89e8b
+    log: |
+         69977d1aeeca7b18001ef462002f20b5f0e89e8b Merge branch 'tpmdd-fixes' into tpmdd-for-next
+         
