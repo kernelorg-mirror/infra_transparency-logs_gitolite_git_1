@@ -1,49 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3987325394109188070=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Thu, 22 Apr 2021 12:14:45 -0000
-Message-Id: <161909368527.1235.2971331830093933321@gitolite.kernel.org>
-
---===============3987325394109188070==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
+Date: Thu, 22 Apr 2021 12:17:45 -0000
+Message-Id: <161909386545.3589.8422050877177058677@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/legion/linux
+user: legion
 changes:
-  - ref: refs/heads/thermal/linux-next
-    old: fc88f7ad763a8ef2a20f8904bd241930b7696f86
-    new: 4e1de36ef598c806b9e4fa668b5f14de6f317fb7
-    log: revlist-fc88f7ad763a-4e1de36ef598.txt
-
---===============3987325394109188070==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc88f7ad763a-4e1de36ef598.txt
-
-5a4a8235fee69b5a31cf1c56a9fa14b0d21a930c thermal/drivers/ti-soc-thermal/ti-bandgap: Rearrange all the included header files alphabetically
-bd5d553653e4151030ad2a94ef39a46b40c75a9b dt-bindings: thermal: thermal-sensor: require "#thermal-sensor-cells"
-d473327f8f53418691cb2944a45da3e9ea51f9bf thermal/drivers/ti-soc-thermal/bandgap Remove unused variable 'val'
-08e9fdfbb2248e93bbfaeb9cde284776085466cd dt-bindings: thermal: brcm,ns-thermal: Convert to the json-schema
-93effd83b6927c0252bb1e35aa3e116d3e2527bb iwlwifi: mvm: tt: Replace thermal_notify_framework
-d60d6e7adfc3814f6de03c978ff1daab21478f87 thermal/core: Remove thermal_notify_framework
-a5655d90cf508598b5f5bbccd911924cf8dc9060 Documentation: driver-api: thermal: Remove thermal_notify_framework from documentation
-9d51769b2e75bb33c56c8f9ee933eca2d92b375b thermal/drivers/tsens: Don't hardcode sensor slope
-a0ed1411278db902a043e584c8ed320fe34346b6 thermal/drivers/tsens: Convert msm8960 to reg_field
-53e2a20e4c41683b695145436b34aa4a14bbcd8c thermal/drivers/tsens: Add VER_0 tsens version
-fdda131f8fbadee2dfc21f0787d11547b42a961e thermal/drivers/tsens: Use init_common for msm8960
-3d08f029fdbbd29c8b363ef4c8c4bfe3b8f79ad0 thermal/drivers/tsens: Fix bug in sensor enable for msm8960
-dfc1193d4dbd6c3cb68c944413146c940bde290a thermal/drivers/tsens: Replace custom 8960 apis with generic apis
-2ebd0982e6ba69d9f9c02a4a0aab705a5526283e thermal/drivers/tsens: Drop unused define for msm8960
-6b3aeafbc12c18036809108e301efe8056249233 thermal/drivers/tsens: Add support for ipq8064-tsens
-26b2f03d2adf43d0dc9aeeb3fff54dcc9fcdb1f4 dt-bindings: thermal: tsens: Document ipq8064 bindings
-b70dbf40eb075c596d86c42d93b86ff502290fc5 thermal/core: Create a helper __thermal_cdev_update() without a lock
-5a015faf21c4397ae8683fb703f5c7f9f1abc34e thermal/core/power_allocator: Maintain the device statistics from going stale
-4e1de36ef598c806b9e4fa668b5f14de6f317fb7 thermal/core/power_allocator: Update once cooling devices when temp is low
-
---===============3987325394109188070==--
+  - ref: refs/heads/patchset/per-userspace-rlimit/v11.0
+    old: 10c97d750d85a57e58b70eaedad19109433ac66f
+    new: 760d35032281189561e9614a82f19b5f919a68ba
+    log: |
+         257aa5fb1a7d81cf0f4c34f39ada2320c4284771 Increase size of ucounts to atomic_long_t
+         b37aaef28d8b9b0d757e07ba6dd27281bbe39259 Add a reference to ucounts for each cred
+         94d1dbecab060a6b116b0a2d1accd8ca1bbb4f5f Use atomic_t for ucounts reference counting
+         c5286a8aa16d2d698c222f7532f3d735c82bc6bc Reimplement RLIMIT_NPROC on top of ucounts
+         2531f42f7884bbfee56a978040b3e0d25cdf6cde Reimplement RLIMIT_MSGQUEUE on top of ucounts
+         d2cdbccf7efcfa60562c91a30db1f7de2f144e77 Reimplement RLIMIT_SIGPENDING on top of ucounts
+         8c635f922c7b6429dcad69bc536b639ccfff58a9 Reimplement RLIMIT_MEMLOCK on top of ucounts
+         8cd70dbb58513d49d037858459df9db11308f25e kselftests: Add test to check for rlimit changes in different user namespaces
+         760d35032281189561e9614a82f19b5f919a68ba ucounts: Set ucount_max to the largest positive value the type can hold
+         
