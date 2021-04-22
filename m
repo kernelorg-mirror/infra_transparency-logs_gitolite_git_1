@@ -1,50 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7563493884635975827=="
+Content-Type: multipart/mixed; boundary="===============2689574443130247395=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 22 Apr 2021 16:43:44 -0000
-Message-Id: <161910982417.5110.14456672800516694508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 22 Apr 2021 16:43:52 -0000
+Message-Id: <161910983268.5253.17627160222624229000@gitolite.kernel.org>
 
---===============7563493884635975827==
+--===============2689574443130247395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.12
-    old: 013592be146a10d3567c0062cd1416faab060704
-    new: a5ccccb3ec0b052804d03df90c0d08689be54170
+  - ref: refs/heads/for-5.13
+    old: 24b5515aa3ac075880be776bf36553ff7f9712c7
+    new: 14ef64ebdc2a4564893022780907747567452f6c
     log: |
-         a5ccccb3ec0b052804d03df90c0d08689be54170 regulator: core: Respect off_on_delay at startup
+         bc2e9578baed90f36abe6bb922b9598a327b0555 spi: tools: make a symbolic link to the header file spi.h
+         14ef64ebdc2a4564893022780907747567452f6c spi: stm32-qspi: fix debug format string
          
 
---===============7563493884635975827==
+--===============2689574443130247395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1619109797 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1619109822-43a4cbb705b6d4b758f54fb698b07c033f21d713
+pusher C3F436CA30F5D8EB 1619109805 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1619109829-2be0aac2e8e70475bb9e1b14c975f16959ba4d64
 
-013592be146a10d3567c0062cd1416faab060704 a5ccccb3ec0b052804d03df90c0d08689be54170 refs/heads/regulator-5.12
+24b5515aa3ac075880be776bf36553ff7f9712c7 14ef64ebdc2a4564893022780907747567452f6c refs/heads/for-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCBp6UACgkQJNaLcl1U
-h9DTmgf9HPFCvOY+d0VcUE6PPOUzGAjPpMYgTAnP7ilTeEDpNe+s7/u0eiZm6sr4
-XmTkMXyvg3FrCQz8uNy3EnPgz0Vg7lex9r0eXAm+Mv9KMFFUcGKZcyjb+u+DS0JZ
-Vt4ep+UG6Z1c4o+zrhGIksMeGNvJW6GN3zxrI8xddvSJN1UcjuUAB4wqXstsPYCi
-Sm0s1IH3f/VeQoJS3NrVjwWmf+Uz6VAIigSxmJSfzIh7LLOqiRxxrAh3/tgAPfM9
-WRSbLiNftHpCTbyBsSMuUYl9M5Hff0BMp0qmQ7gS8XaRh5ahfYVssBk5/1dPBY1l
-mvlmuz5y12aomoFhMJUHbwEDmUU25w==
-=w09b
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCBp60ACgkQJNaLcl1U
+h9DBEwf8CZoz6hJjmDDUMicDYimU+IJN9Ea3iZ7S/nhFl9i/4yp7LsYg/+JzpLyp
+aHbkYX8+9P4iI2MbsryBTFljKV6kMk2af3xToJqeI3lfYaLv1GrLhNYJ0HRL7ewz
+Bb445mFBX4OXLsYPivKGC1+Q3cQpge3AGcvdZz0ccJXFY0OmiEiAoT6xojJaw9bJ
+pWG5IJHLB8gC0a5v2ZkcH74zgS0rXSpRdVrFAIRvICc1QN/OltYxszVLoiXXGsSf
+oYkZfopYAEEc/SOLEAADM0KAma4Lsxv73EZpRmHFXuvF6mo5uV1GLZckIzCKJ7Ii
+ozvq4b97BOc/6RXc7X4takGonMFj5g==
+=jtSE
 -----END PGP SIGNATURE-----
 
---===============7563493884635975827==--
+--===============2689574443130247395==--
