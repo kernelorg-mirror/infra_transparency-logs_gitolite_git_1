@@ -1,29 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 22 Apr 2021 16:44:22 -0000
-Message-Id: <161910986251.5587.10142397437061413306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 22 Apr 2021 16:44:41 -0000
+Message-Id: <161910988122.5843.16880270867219043358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: a5a7236ac6dbc6dde1b79bd6b5f19fa99e70179f
-    new: 2934db281d58dc35fe8c1a27b9ca490e02b62008
+    old: 1ac6259a230610751c680473e79c0bf7a39aed1d
+    new: 3e191356dc1915e88cf90613423d548fe39aab44
     log: |
-         a89f3a93cd20f77ac1f84089297258d4b409e280 ASoC: adau17x1: Avoid overwriting CHPF
-         2934db281d58dc35fe8c1a27b9ca490e02b62008 Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
+         a5ccccb3ec0b052804d03df90c0d08689be54170 regulator: core: Respect off_on_delay at startup
+         3e191356dc1915e88cf90613423d548fe39aab44 Merge remote-tracking branch 'regulator/for-5.12' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: 80e0ab4291498248157d2801c994dfaa09ef3082
-    new: 2f31abf1847eb6fc5c0118ed6c6775de5c925301
+    old: dcf0e405bba05b548c49a71073ede6f90ca04298
+    new: f3f0a837a0ccc1292ec0a427bda03a42aae44513
     log: |
-         a89f3a93cd20f77ac1f84089297258d4b409e280 ASoC: adau17x1: Avoid overwriting CHPF
-         ccd4cc3ed0692aef8a3b4566391c37eb168d8d32 ASoC: tegra: mark runtime-pm functions as __maybe_unused
-         2934db281d58dc35fe8c1a27b9ca490e02b62008 Merge remote-tracking branch 'asoc/for-5.12' into asoc-linus
-         2f31abf1847eb6fc5c0118ed6c6775de5c925301 Merge remote-tracking branch 'asoc/for-5.13' into asoc-next
+         a5ccccb3ec0b052804d03df90c0d08689be54170 regulator: core: Respect off_on_delay at startup
+         3e191356dc1915e88cf90613423d548fe39aab44 Merge remote-tracking branch 'regulator/for-5.12' into regulator-linus
+         f3f0a837a0ccc1292ec0a427bda03a42aae44513 Merge remote-tracking branch 'regulator/for-5.13' into regulator-next
          
