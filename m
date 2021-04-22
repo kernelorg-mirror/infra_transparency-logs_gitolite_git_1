@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 22 Apr 2021 21:19:27 -0000
-Message-Id: <161912636713.5535.9204343450071151973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 22 Apr 2021 21:23:05 -0000
+Message-Id: <161912658568.9179.337332890282405193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/arm/fixes
-    old: b9a9786a13ea158ee3b23614217f2e3158178421
-    new: 450225a402e5b2b4c7ddef7ec54f797868d0f583
+  - ref: refs/heads/master
+    old: d044d9fc1380b66917dcb418ef4ec7e59dd6e597
+    new: 22b6034323fd736f260e00b9ea85c634abeb3446
     log: |
-         4d09ccc4a81e7de6b002482af554d8b5626f5041 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
-         450225a402e5b2b4c7ddef7ec54f797868d0f583 Merge tag 'sunxi-fixes-for-5.12-2' of git://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
+         22b6034323fd736f260e00b9ea85c634abeb3446 net, xdp: Update pkt_type if generic XDP changes unicast MAC
          
