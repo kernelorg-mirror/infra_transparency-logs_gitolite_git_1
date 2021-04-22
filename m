@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6861569125004509009=="
+Content-Type: multipart/mixed; boundary="===============2086080822346464401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 22 Apr 2021 10:01:48 -0000
-Message-Id: <161908570891.20275.13017395384893234872@gitolite.kernel.org>
+Date: Thu, 22 Apr 2021 10:05:03 -0000
+Message-Id: <161908590384.22232.6258596968613869791@gitolite.kernel.org>
 
---===============6861569125004509009==
+--===============2086080822346464401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: f9f54983005cdd1060b85b16933677442139d88d
-    new: c0070e1e60270f6a1e09442a9ab2335f3eaeaad2
+    old: c0070e1e60270f6a1e09442a9ab2335f3eaeaad2
+    new: cea37afd28f1bb7ca09a0c27e75f89cf2df9147d
     log: |
-         c0070e1e60270f6a1e09442a9ab2335f3eaeaad2 ttyprintk: Add TTY hangup callback.
+         86eb032675766e633ba1ad2902776533e8dd576b tty: synclink_gt: remove redundant initialization of variable count
+         75f4e830fa9c47637054a3b7201765f2a314bda2 serial: do not restore interrupt state in sysrq helper
+         e359b4411c2836cf87c8776682d1b594635570de serial: stm32: fix threaded interrupt handling
+         cea37afd28f1bb7ca09a0c27e75f89cf2df9147d serial: stm32: defer sysrq processing
          
 
---===============6861569125004509009==
+--===============2086080822346464401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619085703 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619085897 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1619085702-fc9fb1cc253d732af6c8a50e8eb9ebff82d27052
+nonce 1619085896-071180ae014dbb71e5fcdbe4d84c6bcf99a0adcb
 
-f9f54983005cdd1060b85b16933677442139d88d c0070e1e60270f6a1e09442a9ab2335f3eaeaad2 refs/heads/tty-testing
+c0070e1e60270f6a1e09442a9ab2335f3eaeaad2 cea37afd28f1bb7ca09a0c27e75f89cf2df9147d refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCBSYcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MzAP/2E9f3u+PIcd24QmBbGU
-ovilh8j27z8SFDpEpp6k8i0hXCLsDoI5BsUxd8enCzpBV+lMsz+Xy+P/yDRtvfWY
-ySssiQmVyv2F/XN7J4utHf/d+OWuKW4nP9VJH+lG4wWTZ7MuPFhtehAwckG9Elya
-I9PFYk943eK+msViPa8ls7tKon66EzxX1q6gNwQEpcaimPT13yExVWE/ymmgIZUG
-Rkzo+vL1CBxO8/IVKbIpV+kRD+HgxLokDdNQjuZxjO40NXur8GxYCg4TLT0oBa0O
-G9rma6/ZuxnfbUmP05fd2h7UtBujkGkZYqRGrSo3IiPBxE4TL8RB0pRqZxvPKE+Q
-oDKSKkq59vR9EQLWNLiwOR39f26qH6hDTQVldrHOkaOKGXUypEVzJoirbLDJj9jP
-PEhEKgL+IUlJFRD6Ca0/m6hmqKGHQWZJWNbPk03ONa7yVkNUCd664BZh/KxdsP4b
-UTak/iVROnpa1okTWC4PPhlqwyRGygBCJl5h+R37MOty2SE6JjMcDyplka0ExWno
-NjTpMHEyuPLF5A3nWNfcueGxm1kkD2sBYMqM4xhX+y1zcPskTuajq4bW2B9C4rZ/
-W9JACLLQfheKqU3CKy/zQF7m7ObDhAokQGqFVa7y/D7KfKDWSNbpMtxKO1nr5RNo
-72vWgn28Bwg3Xn2kfnaXxH78
-=hgo8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCBSkkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j2oP/3PdigzoHGqn8Y9CdHHN
++kE0X06bWEqsHrZA1Ua8+jFusPdOzd/zE4v9YX02+ISK/QJGYFwp+9TCqMn07r2k
+qS0EEDgMEFmLkyzIAHj7T9acDSvZ4BypT0nla8TYsx5S4zBqoM0XT+/eNkgdTpPY
++g+JmZK8VJrMGrpyItRhorLUOxNwufxljFV+wrLLrXxbtntsVFr7/hPVKXuwLSUm
+yEDSlU6y7LywHi+Ygj8Sr4OpBgMKQU+gS4SVdonon9/opABq/MR1t0MMZ8muDkCo
+tWbGf1BpbIQTTK/rqzNJZpLWvoG9LajDbXsj+CwAUgRz+t0oHlmNKMSYJuvef1jz
+aFd6VkeMGBc5nbSbnvdKsG15BXct/kDZ/jQednL4P31hzWMaTnFft1A1TXMSZ5lp
+bss7HUpF7PEn/zXErPR+INLcVC1gt1tfjzsoWjezf+ZkNMF4LpMigJ6jwVG3m+mf
+B+s5RAYgKB2nF+m0jT38Ps3JSVuy5olqZfWoGvu+8owwKGB6v5IJvc+YbSQddQo4
+q+AUxCfocleP5gzwoWEfASTE1xAB+rVSxgYQM27PybI1j/smZUNnXpYqaPwHhS8B
+TdzycxzEWZg8WPV0U7hbqmshX9H055oOqoznUtRnjRFF/DGac97pwSvDougxte8j
+MWFKQZlCTQcjksbJ6G4XCaGK
+=WaxM
 -----END PGP SIGNATURE-----
 
---===============6861569125004509009==--
+--===============2086080822346464401==--
