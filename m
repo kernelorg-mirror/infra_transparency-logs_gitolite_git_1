@@ -1,56 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============8700921328815572075=="
+Content-Type: multipart/mixed; boundary="===============5207824708766458104=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 22 Apr 2021 09:04:50 -0000
-Message-Id: <161908229046.17209.3619537256626096889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 22 Apr 2021 09:13:03 -0000
+Message-Id: <161908278314.22128.7172823873714232181@gitolite.kernel.org>
 
---===============8700921328815572075==
+--===============5207824708766458104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/usb-testing
-    old: 5951b7c20f1121d94cd8a3ef102b63863c955025
-    new: 3232a3ce55edfc0d7f8904543b4088a5339c2b2b
+  - ref: refs/heads/auto-latest
+    old: c1d2a603724a0c05e09d41753ff4b0409c1e2d56
+    new: fb9daa6b26d01dbfb28b5306cc3ef6c6976dd72b
+    log: revlist-c1d2a603724a-fb9daa6b26d0.txt
+  - ref: refs/heads/master
+    old: cf072d8ed1d82133bc8d746b9fca69846dc61cd8
+    new: fb9daa6b26d01dbfb28b5306cc3ef6c6976dd72b
     log: |
-         3232a3ce55edfc0d7f8904543b4088a5339c2b2b usb: dwc3: gadget: Remove FS bInterval_m1 limitation
+         9d480158ee86ad606d3a8baaf81e6b71acbfd7d5 perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
+         c006fac556e401a62054d065da168099ea5a5b10 sched: Warn on long periods of pending need_resched
+         9d10a13d1e4c349b76f1c675a874a7f981d6d3b4 sched,psi: Handle potential task count underflow bugs more gracefully
+         ad789f84c9a145f8a18744c0387cec22ec51651e sched/debug: Fix cgroup_path[] serialization
+         3a7956e25e1d7b3c148569e78895e1f3178122a9 kthread: Fix PF_KTHREAD vs to_kthread() race
+         2ea46c6fc9452ac100ad907b051d797225847e33 cpumask/hotplug: Fix cpu_dying() state tracking
+         0746fe77304f358d5af31c36f50248da66123b50 Merge branch 'sched/core'
+         fb9daa6b26d01dbfb28b5306cc3ef6c6976dd72b Merge branch 'perf/urgent'
          
 
---===============8700921328815572075==
+--===============5207824708766458104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c1d2a603724a-fb9daa6b26d0.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619082285 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1619082283-87604365a87fddb49645862c51c1e1957a248942
+7412dee9f1fd3e224202b633fdfa6eeaebe0307e mmc: meson-gx: replace WARN_ONCE with dev_warn_once about scatterlist size alignment in block mode
+9d480158ee86ad606d3a8baaf81e6b71acbfd7d5 perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
+c006fac556e401a62054d065da168099ea5a5b10 sched: Warn on long periods of pending need_resched
+9d10a13d1e4c349b76f1c675a874a7f981d6d3b4 sched,psi: Handle potential task count underflow bugs more gracefully
+ad789f84c9a145f8a18744c0387cec22ec51651e sched/debug: Fix cgroup_path[] serialization
+3a7956e25e1d7b3c148569e78895e1f3178122a9 kthread: Fix PF_KTHREAD vs to_kthread() race
+2ea46c6fc9452ac100ad907b051d797225847e33 cpumask/hotplug: Fix cpu_dying() state tracking
+16fc44d6387e260f4932e9248b985837324705d8 Merge tag 'mmc-v5.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+cf072d8ed1d82133bc8d746b9fca69846dc61cd8 Merge branch 'linus'
+0746fe77304f358d5af31c36f50248da66123b50 Merge branch 'sched/core'
+fb9daa6b26d01dbfb28b5306cc3ef6c6976dd72b Merge branch 'perf/urgent'
 
-5951b7c20f1121d94cd8a3ef102b63863c955025 3232a3ce55edfc0d7f8904543b4088a5339c2b2b refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCBPC0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hmUP/jvIw0O80UxxM3a/B+ow
-bNhWNpz78GjnKmf7RBTuvwf7Th2NMLBTFT5THxE1JnDTs8JvHriKjG1U/2OqZdxc
-KffROFh3nXqcbTMmCRaHbtmt0lR30uOut3ow+7/J/vGyt/psb0/6iGDd6uWTebGy
-XxRrjLgJ43FualfcTlRAXojjVc8LtGtphpmt5YoRYSFGTqK226UeBdvfqN+vPZmf
-beiB4rXkIPDzNmvHAWMV9tqZeRvqL8UN0ZjtE5hSPcj2Tb1M50hvRZWoaKZ7+p5u
-dcsMuvFJSWG3SD1GGeNipfUAN9eJFClE5iDN5lFZHT6vUVOocx4bFTgbGIsy7Ukr
-wHRoe0/eRqNCKPOcUawbhiBTP0b66Ns2px9XXG+03LfwDLNX7mVmRvTlqVapYHu0
-N3kH/9+tjPN14BO/d2rVYk5VEgsy1f7YbzytEdbHAl+agxhLTekvmUSmuCWSmoco
-dHPNJl83E2B+KwHusq92t+8BokUv1e7TJv8MO4r+hVT7TJ9kgIMH6l8p8Q7aZHnB
-TbCt8PVmM+6CBYd8VqgZkcEYvR/3pMU5LzPb7VJqJ5xDYP648AFB5rCqxuz9HyEC
-7tuHHRDDo79DzJmW0Wy/OVeydY/7GQxb8TRAq2p1MULdMy/ONcfKw1FMLj86+gAt
-9L3Ufa+Q8526MLFB/wLFjXhe
-=ba/I
------END PGP SIGNATURE-----
-
---===============8700921328815572075==--
+--===============5207824708766458104==--
