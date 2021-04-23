@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1125873133782611355=="
+Content-Type: multipart/mixed; boundary="===============6694613161881116734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 23 Apr 2021 18:00:48 -0000
-Message-Id: <161920084886.31282.7041496019033982747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 23 Apr 2021 18:00:56 -0000
+Message-Id: <161920085687.31380.17667223287411512755@gitolite.kernel.org>
 
---===============1125873133782611355==
+--===============6694613161881116734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.13
+  - ref: refs/heads/regulator-5.13
     old: 823543b739c89cd232a6c6815362f32ed81a679e
     new: f80505fdff771c89c9350895e99140ffc824e564
     log: |
@@ -32,28 +32,28 @@ changes:
          f80505fdff771c89c9350895e99140ffc824e564 regulator: Add binding for TCS4525
          
 
---===============1125873133782611355==
+--===============6694613161881116734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1619200821 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1619200845-d358ee2a4b9fde4fb52159d634295b82d511cb31
+pusher C3F436CA30F5D8EB 1619200829 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1619200854-69bbde9710eab4ffa486393d1d10c481b8571c2d
 
-823543b739c89cd232a6c6815362f32ed81a679e f80505fdff771c89c9350895e99140ffc824e564 refs/heads/for-5.13
+823543b739c89cd232a6c6815362f32ed81a679e f80505fdff771c89c9350895e99140ffc824e564 refs/heads/regulator-5.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCDCzUACgkQJNaLcl1U
-h9DFbQgAg1THqNCROJK6KC3ttempLJ5qBi04HhlHeXTcALoc9aiyatFSLxstSRtY
-5Y9qxgTc50p/In9txK7+EP1cGE+vDstJS5T72Wzhvd94E2MOtRhzZ+XiYhuzwKY/
-xla1gg2cdYOUZiRWjUkHiCoOII5yUYQzAzeAJHAn3ZROwn7KY37+DNqBMitp2we8
-p4GJ7TY8SJYkI0CpzjWrXbsm+E4PjjNyB903CyGK4AvMXrvxl+xWxwMZG0el1cdC
-PtdQyvWc39o2XCbefT+BhJPnTSu80FlHiV5bCkTPV48BcdYqYLwavDZ4brgOhZrj
-f6BzjW4JFsENJNqpzLOlo3e5pBg1PA==
-=bJeV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmCDCz0ACgkQJNaLcl1U
+h9D3ogf/YtnQ3OMKU4ucNiJsswwfH/sRJX68PFy3KExMJ3+tsFc9hbKMGWHco6iy
+FygBAEh9EMejAhoXOI3SiZqwefvl+yuC0dCql093XJAMkr0JZ+0G7GGsKUo+T8Rm
+/bvZw6CtThBhu9N0Poc/lueYMU0o2wlodbhBMK6NUHtmKicOaSHW/XMeHYrPs/zM
+5mMUoeCQys4z27Wtok9nengK+rVmpRKDvhYTxPSAmzVCwBW36MYuhRdoQA3uozaj
+Xjcn/0Ss5yu17zYjKnAtj8YLA6cU78tk1dgBWJVog20ti6yUA4XMv+tZ2OekjzOo
+7oU7jRCNxqkoA1ALfcodY4JsIi4Uiw==
+=ZxfH
 -----END PGP SIGNATURE-----
 
---===============1125873133782611355==--
+--===============6694613161881116734==--
