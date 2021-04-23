@@ -1,28 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Fri, 23 Apr 2021 17:48:00 -0000
-Message-Id: <161920008066.21785.4913925952349056288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 23 Apr 2021 17:50:04 -0000
+Message-Id: <161920020495.25074.2437455014249614129@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/next
-    old: 435b512dbc0dac42b34348393049b386bb1a19bd
-    new: e1ffa5e77bdea2828ff295357f1282e043441cdf
+  - ref: refs/heads/for-5.13/drivers
+    old: 87d9ad028975e8f47a980fffa9196b426f69f258
+    new: b8417f7237655907df263db7f9fe5ebdf13917b6
     log: |
-         93a40a6d7428921897bb7fed5ffb4ce83df05432 dmaengine: idxd: add percpu_ref to descriptor submission path
-         8c66bbdc4fbf3c297ebc8edf71f359e4a132c9db dmaengine: idxd: add support for readonly config mode
-         eb15e7154fbfa3e61c777704b2ff28eb3a0d4796 dmaengine: idxd: add interrupt handle request and release support
-         8241571fac9eeb7f3424ad343369eaa411919da3 dmaengine: idxd: convert sprintf() to sysfs_emit() for all usages
-         cf5f86a7d47df149857ba2fb72f9c6c9da46af2e dmaengine: idxd: enable SVA feature for IOMMU
-         5b0c68c473a131c2acb21abad44b0047b200e185 dmaengine: idxd: support reporting of halt interrupt
-         53b2ee7f637c4f1fa2f50dbdb210088e30c11d2b dmaengine: idxd: device cmd should use dedicated lock
-         a16104617d212d4b482568847b25172972b87e60 dmaengine: idxd: remove MSIX masking for interrupt handlers
-         ae82e2ffd8d542b3b3cc87e9136cf915f82237c8 dmaengine: idxd: Add IDXD performance monitor support
-         e1ffa5e77bdea2828ff295357f1282e043441cdf dmaengine: idxd: Enable IDXD performance monitor support
+         f7c7a2f9a23e5b6e0f5251f29648d0238bb7757e md-cluster: fix use-after-free issue when removing rdev
+         2417b9869b81882ab90fd5ed1081a1cb2d4db1dd md/raid1: properly indicate failure when ending a failed write request
+         b8417f7237655907df263db7f9fe5ebdf13917b6 Merge branch 'md-next' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-5.13/drivers
+         
+  - ref: refs/heads/for-next
+    old: 41273e28bbf5a87eeb3c661b6236ee21783db7f3
+    new: e62a826b235f3a3d3d80ce694ea258c60b4f0378
+    log: |
+         f7c7a2f9a23e5b6e0f5251f29648d0238bb7757e md-cluster: fix use-after-free issue when removing rdev
+         2417b9869b81882ab90fd5ed1081a1cb2d4db1dd md/raid1: properly indicate failure when ending a failed write request
+         b8417f7237655907df263db7f9fe5ebdf13917b6 Merge branch 'md-next' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-5.13/drivers
+         e62a826b235f3a3d3d80ce694ea258c60b4f0378 Merge branch 'for-5.13/drivers' into for-next
          
