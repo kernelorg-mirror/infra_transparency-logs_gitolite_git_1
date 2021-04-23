@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 23 Apr 2021 20:10:34 -0000
-Message-Id: <161920863425.11913.12039360113674032161@gitolite.kernel.org>
+Date: Fri, 23 Apr 2021 20:11:32 -0000
+Message-Id: <161920869298.12289.9426851381105519316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: cad4162a90aeff737a16c0286987f51e927f003a
-    new: ed744d819379ddeec5744b0bfc7eb6d0a8ac4e46
+    old: ed744d819379ddeec5744b0bfc7eb6d0a8ac4e46
+    new: f80bd740cb7c954791279590b2e810ba6c214e52
     log: |
-         ed744d819379ddeec5744b0bfc7eb6d0a8ac4e46 net: sock: remove the unnecessary check in proto_register
+         f80bd740cb7c954791279590b2e810ba6c214e52 virtio-net: fix use-after-free in skb_gro_receive
          
