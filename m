@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5082658198330680168=="
+Content-Type: multipart/mixed; boundary="===============0928923636844091936=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 23 Apr 2021 21:20:42 -0000
-Message-Id: <161921284234.23836.7399506127155705360@gitolite.kernel.org>
+Date: Fri, 23 Apr 2021 21:20:50 -0000
+Message-Id: <161921285020.23983.3309602502900609877@gitolite.kernel.org>
 
---===============5082658198330680168==
+--===============0928923636844091936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b1b9f535c48f5c20a0f6c218c11199b64347c0a6
     new: 7d3c10770603570081289511c8ce112696fb1d55
     log: revlist-b1b9f535c48f-7d3c10770603.txt
 
---===============5082658198330680168==
+--===============0928923636844091936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ f2644fb44de9abd54e57b55f584c7c67526f7c02 selftests/bpf: Add function linking sel
 a9dab4e4569425e26cd9c2d8bdcc74bd12fcb8bf selftests/bpf: Document latest Clang fix expectations for linking tests
 7d3c10770603570081289511c8ce112696fb1d55 Merge branch 'BPF static linker: support externs'
 
---===============5082658198330680168==--
+--===============0928923636844091936==--
