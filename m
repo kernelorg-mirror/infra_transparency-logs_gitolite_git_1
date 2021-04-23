@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 23 Apr 2021 06:51:10 -0000
-Message-Id: <161916067077.3492.9843288882834990216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Fri, 23 Apr 2021 06:53:30 -0000
+Message-Id: <161916081096.4260.5198465228185942457@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/locking/core
-    old: c9450f728cfba0613163ed85f8c26eeeeed9def2
-    new: f4abe9967c6fdb511ee567e129a014b60945ab93
+  - ref: refs/heads/next
+    old: 174ac039ed2dc30409cf54c5db9bf79b213390d4
+    new: 8c483e7e5a8b654fd71a739aa5610920797038ee
     log: |
-         f4abe9967c6fdb511ee567e129a014b60945ab93 kcsan: Fix printk format string
+         711a54220b4c889404d576c07714b0d60988f793 habanalabs: use common fw_version read
+         8c483e7e5a8b654fd71a739aa5610920797038ee habanalabs: dynamic fw load reset protocol
          
