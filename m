@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 23 Apr 2021 11:04:42 -0000
-Message-Id: <161917588217.30221.15296481852525992106@gitolite.kernel.org>
+Date: Fri, 23 Apr 2021 11:06:10 -0000
+Message-Id: <161917597075.32347.13183668501538479717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: cfa004c7d82e1903cc88a918ee9b270fb8f47b28
-    new: 0b558e8a7b27a0fc8cf515adfba430a89d9e9586
+    old: 0b558e8a7b27a0fc8cf515adfba430a89d9e9586
+    new: bdf929da38adb269289a750b60004841a5c55479
     log: |
-         0b558e8a7b27a0fc8cf515adfba430a89d9e9586 brcm: add missing symlink for Pi Zero W NVRAM file
+         bdf929da38adb269289a750b60004841a5c55479 rtw88: 8822c: Update normal firmware to v9.9.9
          
