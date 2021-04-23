@@ -1,64 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3426711201541196238=="
+Content-Type: multipart/mixed; boundary="===============6118415852511328928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Fri, 23 Apr 2021 04:29:45 -0000
-Message-Id: <161915218556.13770.15885305438726758533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 23 Apr 2021 04:30:49 -0000
+Message-Id: <161915224980.15577.5361754014412789161@gitolite.kernel.org>
 
---===============3426711201541196238==
+--===============6118415852511328928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/testing/clang/Wimplicit-fallthrough
-    old: 2cf26ee5fd5aadefb7355c940bb6b482cfbfcc3d
-    new: 60f1be5acf34a695cece2452558271f02310de29
-    log: revlist-2cf26ee5fd5a-60f1be5acf34.txt
+  - ref: refs/heads/for-next
+    old: 03f7d0c7619373c19f8d390a5e247725dadd1420
+    new: 3c7c475023e8903bc0e634500dbb884678965051
+    log: revlist-03f7d0c76193-3c7c475023e8.txt
 
---===============3426711201541196238==
+--===============6118415852511328928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2cf26ee5fd5a-60f1be5acf34.txt
+Content-Disposition: attachment; filename=revlist-03f7d0c76193-3c7c475023e8.txt
 
-cb5b7ace926840341d1730238435d72fb0f959bf Makefile: Enable -Wimplicit-fallthrough for Clang
-5e6c6bc71c198a40222648ef2b590dcfa64c4a6b xfs: Fix fall-through warnings for Clang
-b93636a4718125ef576d8a11cb711714f7900d4d afs: Fix fall-through warnings for Clang
-37f98d6373d050d1f17b41ad85343ccbef5d7c39 ipv4: Fix fall-through warnings for Clang
-d8ed3d568f9bbd09a59cd73f0a5dde8eb81d97fa qlcnic: Fix fall-through warnings for Clang
-ab4fd2a3150e42f21799d1a8cd95f07d9a305e7c bnxt_en: Fix fall-through warnings for Clang
-84b49ce7e7f24d46b331f8e5a4251c89ebc52ec5 ceph: Fix fall-through warnings for Clang
-0e6e369a1f0cdb9d8b550195e6ea523ee94ffeb4 floppy: Fix fall-through warnings for Clang
-7f03ef33e29f38779cd04b5d88d1acf05f45a7fb net/mlx4: Fix fall-through warnings for Clang
-177acdc69d0bf591e28e84455a606506be3c96a0 netxen_nic: Fix fall-through warnings for Clang
-1821f96a9cc571a4359f7e8ca5b65dc0c2b237ee nfp: Fix fall-through warnings for Clang
-d920f89fc099070bc58d21d9da84afb5fbd4c53e reiserfs: Fix fall-through warnings for Clang
-f11ee9fe7d925f4bcf81022612faee39bd2e2e0b vxge: Fix fall-through warnings for Clang
-dcbe47c6b0ee36cd08318a5dfeea14759311046c watchdog: Fix fall-through warnings for Clang
-1e560716f93485ca8634792733af3f62548e9590 tee: Fix fall-through warnings for Clang
-920c8f71fe1dcf30033fb85e46ea7233a3084f02 ACPI: Fix fall-through warnings for Clang
-3cf83aa43ac443ab43c4e7069ce906f97db07de0 atm: fore200e: Fix fall-through warnings for Clang
-559b790a70d74e2fa8dec074cf0d9c7b16cfdf9e braille_console: Fix fall-through warnings for Clang
-83a8aa61f6b8a447f30be32219e661ed70363e1a drm/i915/gem: Fix fall-through warnings for Clang
-c0a5f837b1ff7cce90ac0432ad232a0c9ff90022 drm/nouveau/clk: Fix fall-through warnings for Clang
-317c4a6fc8c44d5c1c33dfd8798d2bffe6e87d9c drm/nouveau: Fix fall-through warnings for Clang
-49904acbe4599fae8b186887abd9c3ccf1ac8e90 drm/nouveau/therm: Fix fall-through warnings for Clang
-8247f056454115014f6eceacbdac4113f90229f1 firewire: core: Fix fall-through warnings for Clang
-0003634fb84672e9c13e84d21f050178485b8294 hwmon: (corsair-cpro) Fix fall-through warnings for Clang
-943b7fc921480946e050b8de90d6080bdcbcf392 hwmon: (max6621) Fix fall-through warnings for Clang
-4290466c766cbed421a792c901661c4cd3f2b20a i3c: master: cdns: Fix fall-through warnings for Clang
-178072662be9454fa71bd961e36b22e20f0e34f7 ide: Fix fall-through warnings for Clang
-948b9b0846631c9955a1cb596c656e8b6b5b65dd net: netrom: Fix fall-through warnings for Clang
-0b055f5176d93cb34871dbcc8333cf96cd4055fa net/packet: Fix fall-through warnings for Clang
-c2b1d9dfa6e8d610bc7a546ad5f38ba884f64d2d rds: Fix fall-through warnings for Clang
-068b338496c6add09b10d9b654773571bddbcb94 rxrpc: Fix fall-through warnings for Clang
-d362c8576de47f973df9c6664b756a86ba32a881 sctp: Fix fall-through warnings for Clang
-9eef5fd603f0e9f8d77b08bb8a49a8c8437aa13a tipc: Fix fall-through warnings for Clang
-60f1be5acf34a695cece2452558271f02310de29 xfrm: Fix fall-through warnings for Clang
+da00b302a472e95caf1de7358a06a90b5a996611 riscv: Move kernel mapping outside of linear mapping
+987bb562f725d309a84ea326b5506070111e3d47 Documentation: riscv: Add documentation that describes the VM layout
+a6eedf738ba55e07b18c0f65bd849db90bf81de4 riscv: Prepare ptdump for vm layout dynamic addresses
+3b615875f45084ef5787910d8c58187a925cfaf2 riscv: add __init section marker to some functions
+92084049c59b6cf79aa0d7f0e39e48e1e239add6 riscv: Mark some global variables __ro_after_init
+8c423a3b08c8f82bac4701e100165b22212c73dd riscv: Constify sys_call_table
+382de6f3bf2e64fb1890691c3bf53a5e6b006cbc riscv: Constify sbi_ipi_ops
+ae13f8e37ee4560b7588db116448578916cc0c62 riscv: kprobes: Implement alloc_insn_page()
+9ec82deb7c6dd43e566e8c432b8b191acfcff0c9 riscv: bpf: Move bpf_jit_alloc_exec() and bpf_jit_free_exec() to core
+e857c29d6f77e9758430c897917a55737584774e riscv: bpf: Avoid breaking W^X
+dbf05dae53b690d21f2d1adb6da495ab17cc07d8 riscv: module: Create module allocations without exec permissions
+613b362b6db7595b29f7f5ddb01e0c0ef5b4f0be riscv: Set ARCH_HAS_STRICT_MODULE_RWX if MMU
+89846eb08c95cce8b5dd0a147a685677194fda42 riscv/kprobe: fix kernel panic when invoking sys_read traced by kprobe
+cc1a4d1548a85d4ba4de1f76915e2b8d6bb0f67f riscv/mm: Use BUG_ON instead of if condition followed by BUG.
+cd2186d3edd2b57616657b7220df1c66c6141a60 riscv: vdso: fix and clean-up Makefile
+c4bbce9bb3a8544890de994b2e4c58a82bb6aae2 RISC-V: Add EM_RISCV to kexec UAPI header
+aec5f5b8c57a2a96e5ed2aef0aa8d785327a4697 RISC-V: Add kexec support
+fc504352a69922e556b00f7331fcc7f4f851a1c6 RISC-V: Improve init_resources()
+074f1b6e65852a8eb1fe9741977da6bb83aadd99 RISC-V: Add kdump support
+1db76355b2e6beb9f2a0ac847534b958bc42702b RISC-V: Add crash kernel support
+3c7c475023e8903bc0e634500dbb884678965051 RISC-V: enable XIP
 
---===============3426711201541196238==--
+--===============6118415852511328928==--
