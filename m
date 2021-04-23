@@ -1,82 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ido/linux
-Date: Fri, 23 Apr 2021 06:54:11 -0000
-Message-Id: <161916085113.4733.1460540373204801351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 23 Apr 2021 07:04:56 -0000
+Message-Id: <161916149644.10556.2576315555998238706@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ido/linux
-user: ido
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/tags/v4.14.230
-    old: 0000000000000000000000000000000000000000
-    new: 5e4b831556053ee05c1e438a3bfc3d05a92fb20a
-  - ref: refs/tags/v4.14.231
-    old: 0000000000000000000000000000000000000000
-    new: 04cc99803f94a8b18c3401f4970f08abda181327
-  - ref: refs/tags/v4.19.186
-    old: 0000000000000000000000000000000000000000
-    new: 7626db3aca680600f064eea9bb8220c3778e25fb
-  - ref: refs/tags/v4.19.187
-    old: 0000000000000000000000000000000000000000
-    new: d5f16f0b073a460a0333b806654925eca02997f8
-  - ref: refs/tags/v4.19.188
-    old: 0000000000000000000000000000000000000000
-    new: 868e76a47c59e03ccba13d1199cbc42108f55cff
-  - ref: refs/tags/v4.4.266
-    old: 0000000000000000000000000000000000000000
-    new: 3c3fc83327d3ccb56c1b18e34b31943ff55da170
-  - ref: refs/tags/v4.4.267
-    old: 0000000000000000000000000000000000000000
-    new: a2b279c57cde05434bedcf91be7d052ddd87ec0d
-  - ref: refs/tags/v4.9.266
-    old: 0000000000000000000000000000000000000000
-    new: 4f8ca41e4d962a2ec37af34873269ddb92967350
-  - ref: refs/tags/v4.9.267
-    old: 0000000000000000000000000000000000000000
-    new: 6e54dbbf33591249ac3e275823bc9b4c016e3c1a
-  - ref: refs/tags/v5.10.29
-    old: 0000000000000000000000000000000000000000
-    new: dfaff3ae33d46cf92cdfa22d6088dc94a919a6d2
-  - ref: refs/tags/v5.10.30
-    old: 0000000000000000000000000000000000000000
-    new: 8597904f495bfcf9117074336da60eec58d3d0d6
-  - ref: refs/tags/v5.10.31
-    old: 0000000000000000000000000000000000000000
-    new: 5b6eca85dc65609fa71587745e2de04cbbd2564d
-  - ref: refs/tags/v5.10.32
-    old: 0000000000000000000000000000000000000000
-    new: e1b81efb14dd2c7d31e2317c0a19c545e9f47cc2
-  - ref: refs/tags/v5.11.13
-    old: 0000000000000000000000000000000000000000
-    new: f65e70c392afb09700082a559920aa49441c510c
-  - ref: refs/tags/v5.11.14
-    old: 0000000000000000000000000000000000000000
-    new: d7ffec53a8332eb43e7d91226cb6b788fd9351e0
-  - ref: refs/tags/v5.11.15
-    old: 0000000000000000000000000000000000000000
-    new: cfbb95400b5609745b9016ae8a041635b86e489d
-  - ref: refs/tags/v5.11.16
-    old: 0000000000000000000000000000000000000000
-    new: 52bf244f8ccd8c9695096dbc1c14f386b9c230c5
-  - ref: refs/tags/v5.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 33bc861b3af62f4d44957319d850f1767d16ab84
-  - ref: refs/tags/v5.12-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 939326287f7e63045200ed4ee1653029a7aa8065
-  - ref: refs/tags/v5.4.111
-    old: 0000000000000000000000000000000000000000
-    new: a023060eb2ee05a6a1b0088b200cc599f8d7f857
-  - ref: refs/tags/v5.4.112
-    old: 0000000000000000000000000000000000000000
-    new: edfea43203b4ebac0f0a68b700e2d1ab5702a7a8
-  - ref: refs/tags/v5.4.113
-    old: 0000000000000000000000000000000000000000
-    new: 2834c69f7adf1e1d9e9aca8c32c5e5d7cf588ae3
-  - ref: refs/tags/v5.4.114
-    old: 0000000000000000000000000000000000000000
-    new: de968c0c35d0cb90449f6984fab027879f9d7ceb
+  - ref: refs/heads/perf/core
+    old: 6a5f4386798d81f7f413e93c87e2b6de7439beea
+    new: ed8e50800bf4c2d904db9c75408a67085e6cca3d
+    log: |
+         32d35c4a96ec79446f0d7be308a6eb248b507a0b perf/x86: Allow for 8<num_fixed_counters<16
+         3ddb3fd8cdb0a6c11b7c8d91ba42d84c4ea3cc43 signal, perf: Fix siginfo_t by avoiding u64 on 32-bit architectures
+         ed8e50800bf4c2d904db9c75408a67085e6cca3d signal, perf: Add missing TRAP_PERF case in siginfo_layout()
+         
