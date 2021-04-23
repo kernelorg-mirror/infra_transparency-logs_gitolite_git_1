@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Fri, 23 Apr 2021 08:11:52 -0000
-Message-Id: <161916551264.19395.12082881695885103569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 23 Apr 2021 08:43:40 -0000
+Message-Id: <161916742095.5347.16473930556825194355@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/next
-    old: edd602146507532c1714d8428f654b87205f492e
-    new: aea0440ad023ab0662299326f941214b0d7480bd
+  - ref: refs/heads/master
+    old: a73035dc74f8f65c5e0becac265fda5c98142608
+    new: 638d1277cc3859a61697928e68f5c9b042b04285
     log: |
-         aea0440ad023ab0662299326f941214b0d7480bd mmc: block: Update ext_csd.cache_ctrl if it was written
+         5e42ec32fbbbf54e77ed5c082747cf1be1b97f42 build-sys: fix typo
+         da5d1468c1797a0c1fb735fe9983f23cea9d6ffd build-sys: add .stamp to gitignore
+         638d1277cc3859a61697928e68f5c9b042b04285 docs: update TODO
          
