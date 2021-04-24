@@ -1,50 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sat, 24 Apr 2021 14:22:41 -0000
-Message-Id: <161927416171.30868.11879913059480590310@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6054502515936852258=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 24 Apr 2021 14:40:03 -0000
+Message-Id: <161927520331.7927.14860149586611603683@gitolite.kernel.org>
+
+--===============6054502515936852258==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue-4.14
-    old: 7be22f206b75c2ecb440b001a6c49295d3cf2e9d
-    new: 3e6263a528167e8da8846bfb9de9fab4fe352974
+  - ref: refs/heads/master
+    old: f24450a790581ecb30724bed220ea6c967967985
+    new: 1d00dd2549dc498d0401f757b494c56d1f4173e0
     log: |
-         3e6263a528167e8da8846bfb9de9fab4fe352974 pinctrl: lewisburg: Update number of pins in community
+         1d00dd2549dc498d0401f757b494c56d1f4173e0 5.11-stable patches
          
-  - ref: refs/heads/queue-4.19
-    old: 23fe94bbc4d2c585f634b09166e722abfc700398
-    new: c0971814e83790be7bd9e3f2224f254abbae8d40
-    log: |
-         c0971814e83790be7bd9e3f2224f254abbae8d40 pinctrl: lewisburg: Update number of pins in community
-         
-  - ref: refs/heads/queue-5.10
-    old: f58dae82e955ad7d14b1c6775caba7d56d8bf8b8
-    new: 39289ba3581e33ee657d8d106f959d3cde90f3c8
-    log: |
-         6473ed3823c076a11343ac953cf5903b1449ddda pinctrl: lewisburg: Update number of pins in community
-         4f7eb1151883b50e358339016b0410ddb1f315b1 block: return -EBUSY when there are open partitions in blkdev_reread_part
-         611633bae3fdcf88aee225aecc4482b79b379f6d pinctrl: core: Show pin numbers for the controllers with base = 0
-         39289ba3581e33ee657d8d106f959d3cde90f3c8 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
-         
-  - ref: refs/heads/queue-5.11
-    old: f220a2816d170d307f281c7ddcc58d8c93d42c71
-    new: 554f1540eff41759edf9bde80acfc3fd17b5b705
-    log: |
-         9896211a22479bdcd9c78a6e6234e388b488cd41 pinctrl: lewisburg: Update number of pins in community
-         d566f0d302bac089e259c8426168db6f1d3a47cd block: return -EBUSY when there are open partitions in blkdev_reread_part
-         1c7830316cd391c8667d73003347922a05b66bf8 pinctrl: core: Show pin numbers for the controllers with base = 0
-         554f1540eff41759edf9bde80acfc3fd17b5b705 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
-         
-  - ref: refs/heads/queue-5.4
-    old: 9ec4462f01add77004f893a74d6583b7681d0c11
-    new: 0daaed37e4ac1b79c34021ee75883d80c86abc92
-    log: |
-         5316bb0e2d8325a613e57fe6d84bc865d935ba79 pinctrl: lewisburg: Update number of pins in community
-         0daaed37e4ac1b79c34021ee75883d80c86abc92 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
-         
+
+--===============6054502515936852258==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619275202 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1619275201-8d9aa40a499a6ff62ea8e556be300bd916af87f0
+
+f24450a790581ecb30724bed220ea6c967967985 1d00dd2549dc498d0401f757b494c56d1f4173e0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCELcIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8vQP/2cA5Ty6MzXTVU140EpI
+dviAQFn+Sqx2kyk4bpqXbCL2EHM63UE33rZzLvihwWJguyMnNklK2yTxEWTJN4qx
+ijQWHTCZCaRzV6u6YTNVfrMmlqE0kvv/MnZPL8FR0VUR9JJLGqdBpF0A3tGoBYK8
++p2qxMbsJTcbKjGXnS59t5A6K8nEm+rBtTT3ZkEL4mfGJlOtyvwDyM/jA/ahfTHc
+ugkzw1b/oq/JCgEExZSnET1AgUp7bDTsGd+XMTpdDG08mMu4sHIJ68I7egbvSWJY
+1mOLgz5qguimJAmpXCwTBGP5Ozc9ejbpka9Y36ICdIMRHYA63fwXpS+GwY2oW2ek
+ha0J6I7tFuiLfT2Ulk5jLVw7R6N/eTsHQozrGpkJgUw55Hfj2NbB7LKl9dFP51hp
+mnww4+OaLBHCvsMaHpuV5fTFv/fQH6l3krG4WaQgXOnzulnlMjp6n065fzsg0W5M
+pFTOcOf8G7R9mvdRV9G2rQ5CzjjjAYbkzC9vqX8dexUd+FI1HC+bJycBCXWlFFgV
+YO/u8XycQnTAm9okANyMH8qDUhXVc9t06a+lFlHzOBX3hzvwU4vBK0pup8r+AV/a
+Tzd8v2hptR8kSNLNgAk9EPOQaIVT3D868I3EI0UpFzlUfgQ3xoQaaailvfVxEHC6
+LTec3sahyaPq9bwUitsad7iN
+=wyzd
+-----END PGP SIGNATURE-----
+
+--===============6054502515936852258==--
