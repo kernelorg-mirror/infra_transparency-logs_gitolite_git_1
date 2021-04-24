@@ -1,25 +1,50 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 24 Apr 2021 14:14:24 -0000
-Message-Id: <161927366488.24317.13769413676086058454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Sat, 24 Apr 2021 14:22:41 -0000
+Message-Id: <161927416171.30868.11879913059480590310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/testing
-    old: 368d56086c706c08c24e926be85a3b8ca7da1bde
-    new: 4ca457dd397ae9f2bf25e0c099016d28f073cda7
+  - ref: refs/heads/queue-4.14
+    old: 7be22f206b75c2ecb440b001a6c49295d3cf2e9d
+    new: 3e6263a528167e8da8846bfb9de9fab4fe352974
     log: |
-         2cf13035fb36b34e2ea087508df6fde2c61478fc iio: adc: adi-axi-adc: simplify devm_adi_axi_adc_conv_register()
-         41522da91c9c138cd8948a32b24ada125d5659ce iio: buffer-dmaengine: simplify __devm_iio_dmaengine_buffer_free()
-         c3080b42e93c7dcd3a9d6aaf1fcb44bf66f77f54 iio: hw_consumer: simplify devm_iio_hw_consumer_alloc()
-         225fb6feec94930edc000cdd7eb411cf99f0b98d iio: triggered-buffer: simplify devm_iio_triggered_buffer_setup_ext()
-         6e36b09b0c2db4df079e9c99e9ad05027256aab4 iio: core: simplify some devm functions
-         e680c4e88a688638b0c140a605e2b65b64ee6cda iio: trigger: simplify __devm_iio_trigger_register
-         4ca457dd397ae9f2bf25e0c099016d28f073cda7 iio: inkern: simplify some devm functions
+         3e6263a528167e8da8846bfb9de9fab4fe352974 pinctrl: lewisburg: Update number of pins in community
+         
+  - ref: refs/heads/queue-4.19
+    old: 23fe94bbc4d2c585f634b09166e722abfc700398
+    new: c0971814e83790be7bd9e3f2224f254abbae8d40
+    log: |
+         c0971814e83790be7bd9e3f2224f254abbae8d40 pinctrl: lewisburg: Update number of pins in community
+         
+  - ref: refs/heads/queue-5.10
+    old: f58dae82e955ad7d14b1c6775caba7d56d8bf8b8
+    new: 39289ba3581e33ee657d8d106f959d3cde90f3c8
+    log: |
+         6473ed3823c076a11343ac953cf5903b1449ddda pinctrl: lewisburg: Update number of pins in community
+         4f7eb1151883b50e358339016b0410ddb1f315b1 block: return -EBUSY when there are open partitions in blkdev_reread_part
+         611633bae3fdcf88aee225aecc4482b79b379f6d pinctrl: core: Show pin numbers for the controllers with base = 0
+         39289ba3581e33ee657d8d106f959d3cde90f3c8 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
+         
+  - ref: refs/heads/queue-5.11
+    old: f220a2816d170d307f281c7ddcc58d8c93d42c71
+    new: 554f1540eff41759edf9bde80acfc3fd17b5b705
+    log: |
+         9896211a22479bdcd9c78a6e6234e388b488cd41 pinctrl: lewisburg: Update number of pins in community
+         d566f0d302bac089e259c8426168db6f1d3a47cd block: return -EBUSY when there are open partitions in blkdev_reread_part
+         1c7830316cd391c8667d73003347922a05b66bf8 pinctrl: core: Show pin numbers for the controllers with base = 0
+         554f1540eff41759edf9bde80acfc3fd17b5b705 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
+         
+  - ref: refs/heads/queue-5.4
+    old: 9ec4462f01add77004f893a74d6583b7681d0c11
+    new: 0daaed37e4ac1b79c34021ee75883d80c86abc92
+    log: |
+         5316bb0e2d8325a613e57fe6d84bc865d935ba79 pinctrl: lewisburg: Update number of pins in community
+         0daaed37e4ac1b79c34021ee75883d80c86abc92 arm64: dts: allwinner: Revert SD card CD GPIO for Pine64-LTS
          
