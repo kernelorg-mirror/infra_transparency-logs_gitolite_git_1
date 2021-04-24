@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
-Date: Sat, 24 Apr 2021 20:43:44 -0000
-Message-Id: <161929702435.31483.14059402677734358902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
+Date: Sat, 24 Apr 2021 20:49:53 -0000
+Message-Id: <161929739359.3167.14421776653518500281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
 user: zx2c4
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 9d94183e6f71be5091cca1b75a91caeaa181558f
-    new: 1ca4d1763f0f255d71dd7a0be2debc8e72df33cd
+  - ref: refs/heads/master
+    old: 1edffe201ad08d70fe74290b657a929cd4229df5
+    new: e67b7226a3b2be2156a480cfe2d5a12c80fcdec1
     log: |
-         1ca4d1763f0f255d71dd7a0be2debc8e72df33cd Notes added by 'git notes add'
+         e67b7226a3b2be2156a480cfe2d5a12c80fcdec1 version: bump
          
