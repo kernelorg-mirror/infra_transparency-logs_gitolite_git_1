@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3951242121955062929=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 24 Apr 2021 14:02:26 -0000
-Message-Id: <161927294607.14728.5577754784295225233@gitolite.kernel.org>
-
---===============3951242121955062929==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 24 Apr 2021 14:14:24 -0000
+Message-Id: <161927366488.24317.13769413676086058454@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/usb-next
-    old: ddae7979cdd5ed417f2b3ebdc5742e2a600b5ad5
-    new: caa93d9bd2d7ca7ffe5a23df9f003b81721c8e1b
+  - ref: refs/heads/testing
+    old: 368d56086c706c08c24e926be85a3b8ca7da1bde
+    new: 4ca457dd397ae9f2bf25e0c099016d28f073cda7
     log: |
-         caa93d9bd2d7ca7ffe5a23df9f003b81721c8e1b usb: Fix up movement of USB core kerneldoc location
+         2cf13035fb36b34e2ea087508df6fde2c61478fc iio: adc: adi-axi-adc: simplify devm_adi_axi_adc_conv_register()
+         41522da91c9c138cd8948a32b24ada125d5659ce iio: buffer-dmaengine: simplify __devm_iio_dmaengine_buffer_free()
+         c3080b42e93c7dcd3a9d6aaf1fcb44bf66f77f54 iio: hw_consumer: simplify devm_iio_hw_consumer_alloc()
+         225fb6feec94930edc000cdd7eb411cf99f0b98d iio: triggered-buffer: simplify devm_iio_triggered_buffer_setup_ext()
+         6e36b09b0c2db4df079e9c99e9ad05027256aab4 iio: core: simplify some devm functions
+         e680c4e88a688638b0c140a605e2b65b64ee6cda iio: trigger: simplify __devm_iio_trigger_register
+         4ca457dd397ae9f2bf25e0c099016d28f073cda7 iio: inkern: simplify some devm functions
          
-
---===============3951242121955062929==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1619272941 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1619272940-91bfda53d175faed9b33e06f8192e0c8f4723433
-
-ddae7979cdd5ed417f2b3ebdc5742e2a600b5ad5 caa93d9bd2d7ca7ffe5a23df9f003b81721c8e1b refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmCEJO0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4GkQAJ1TlSeaeYbGdVaAAulL
-rOEGlB+pwPNjRsj9kuwfzeVfi+AMzYBDLMu7ixa3vaFagmThUrMfoWE8Fx/yP+P+
-hO9ABxY2R9agi6IUnCXQuzSL9zFwYr673apSLZALciYV4wYMhIl+cXQX83AGQF/j
-mBLaC+hxzMnfAJhGfZvqPHP2IqSNMPOoTjldwjPa9hGhlkmHCLH3n6FJfQu/53Wg
-/LcJLa7QViyvpXas7bhA3JezFfMlwZp7ZrEeW0xyZSmKZY6o/0bvwLaUuw9xy7yR
-/EM/iz6MboWAldi2k/vaXFaXIPuilFQ7LmoRTm6EKv5Vd5r3rQ6I54dsFyysh2q0
-FHKwBG6qrBYDXfSX7MQV12qBCMQ+Eo7cFTQajSw5zwSv/u6MYqimsyAK8hGVBpPh
-TteGevdwZghtObSpjpqxzyBe2efN+Mfh/K9fZaN7rcu974MBhZDSMSX8jsdLrKMH
-rSuJAiafVdVhCXkWSz4mof0syR0aDIkU2pXiUayeqo0C4QoZ4Dvk3Azl161V2XJp
-+6fFX2coqgt7c1jNIyOLJAydn9RLni75DXEoi03XQR1iOSOio5prbA2nX7CARom1
-N11NfiyMIvxCLzGilUw7e1gR7ORQwvhVu+X4cKznpikxxxlyrSuVctd+6Q2a9+8Y
-zknDkXRfUtj6sEN0+LqiEfD5
-=D5Ah
------END PGP SIGNATURE-----
-
---===============3951242121955062929==--
