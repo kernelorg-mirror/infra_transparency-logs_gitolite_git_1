@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Sun, 25 Apr 2021 16:16:43 -0000
-Message-Id: <161936740366.16073.3350039141686820420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Sun, 25 Apr 2021 16:24:30 -0000
+Message-Id: <161936787066.20910.13024338709276884198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/next
-    old: a16104617d212d4b482568847b25172972b87e60
-    new: 0bde4444ec44b8e64bbd4af72fcaef58bcdbd4ce
+  - ref: refs/heads/master
+    old: 14691a4df98b85621b07dd2bdc0f0a960acbb8ba
+    new: 13169d44d3725847858a7c817965d2cac5abd8f8
     log: |
-         81dd4d4d6178306ab31db91bdc7353d485bdafce dmaengine: idxd: Add IDXD performance monitor support
-         0bde4444ec44b8e64bbd4af72fcaef58bcdbd4ce dmaengine: idxd: Enable IDXD performance monitor support
+         e9d2a04d1278ce02140a8b8da4d5aede7a6ad39d gettime: Fix compilation on non-Linux with pthread_getaffinity_np()
+         13169d44d3725847858a7c817965d2cac5abd8f8 Merge branch 'pthread_getaffinity_1' of https://github.com/kusumi/fio
          
