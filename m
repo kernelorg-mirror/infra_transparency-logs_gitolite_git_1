@@ -1,87 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============4715965473489454557=="
+Content-Type: multipart/mixed; boundary="===============7003108917989068369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sun, 25 Apr 2021 16:50:05 -0000
-Message-Id: <161936940516.4795.6918894903251487714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 25 Apr 2021 16:51:29 -0000
+Message-Id: <161936948951.5378.5666742489893886712@gitolite.kernel.org>
 
---===============4715965473489454557==
+--===============7003108917989068369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-5.13/block
-    old: ccfba5ac18aa04388839aae38738d66845f29985
-    new: df5fee3dd99886be6fa0b25ca8102859c1ada4b5
-    log: |
-         42fb54fbc7072da505c1c59cbe9f8417feb37c27 bio: limit bio max size
-         df5fee3dd99886be6fa0b25ca8102859c1ada4b5 blk-iocost: don't ignore vrate_min on QD contention
-         
-  - ref: refs/heads/for-5.13/io_uring
-    old: 724cb4f9ec905173f32c5bd08fec26abaecc6a1d
-    new: a2a7cc32a5e8cd983912f25a242820107e5613dc
-    log: revlist-724cb4f9ec90-a2a7cc32a5e8.txt
-  - ref: refs/heads/for-next
-    old: e62a826b235f3a3d3d80ce694ea258c60b4f0378
-    new: ffa77af5731dbb8f97fadada00da1fdd9b87e92a
-    log: revlist-e62a826b235f-ffa77af5731d.txt
+  - ref: refs/heads/master
+    old: 2a1d7946fa53cea2083e5981ff55a8176ab2be6b
+    new: d2d09fbe33f80ec17536b6a687ac5274feb927c7
+    log: revlist-2a1d7946fa53-d2d09fbe33f8.txt
 
---===============4715965473489454557==
+--===============7003108917989068369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-724cb4f9ec90-a2a7cc32a5e8.txt
+Content-Disposition: attachment; filename=revlist-2a1d7946fa53-d2d09fbe33f8.txt
 
-fff4db76be297bd4124a503948435a3917d7a702 io_uring: move __io_sqe_files_unregister
-44b31f2fa2c4b6479a578e74e4ed6bf7ad243955 io_uring: return back rsrc data free helper
-d4d19c19d6ae93f99a57c50ccf6d084213e964bd io_uring: decouple CQE filling from requests
-b60c8dce33895f79cbb54700fbeffc7db8aee3f7 io_uring: preparation for rsrc tagging
-98f0b3b4f1d51911492b9d6eda4add0ec562179b io_uring: add generic path for rsrc update
-fdecb66281e165927059419c3b1de09ffe4f8369 io_uring: enumerate dynamic resources
-792e35824be9af9fb4dac956229fb97bda04e25e io_uring: add IORING_REGISTER_RSRC
-c3bdad0271834214be01c1d687c262bf80da6eb0 io_uring: add generic rsrc update with tags
-41edf1a5ec967bf4bddedb83c48e02dfea8315b4 io_uring: keep table of pointers to ubufs
-eae071c9b4cefbcc3f985c5abf9a6e32c1608ca9 io_uring: prepare fixed rw for dynanic buffers
-bd54b6fe3316ec1d469513b888ced31eec20032a io_uring: implement fixed buffers registration similar to fixed files
-634d00df5e1cfc4a707b629a814bd607f726bd52 io_uring: add full-fledged dynamic buffers support
-2b4ae19c6d4842dc24d9e0cbec5c98d2766643d5 io_uring: update sq_thread_idle after ctx deleted
-ff244303301f6f2ac90107c61d18826efd0af822 kernel: always initialize task->pf_io_worker to NULL
-a2a7cc32a5e8cd983912f25a242820107e5613dc io_uring: io_sq_thread() no longer needs to reset current->pf_io_worker
+84a24bf8c52e66b7ac89ada5e3cfbe72d65c1896 locking/qrwlock: Fix ordering in queued_write_lock_slowpath()
+0c89d87d1d43d9fa268d1dc489518564d58bf497 preempt/dynamic: Fix typo in macro conditional statement
+5849cdf8c120e3979c57d34be55b92d90a77a47e x86/crash: Fix crash_setup_memmap_entries() out-of-bounds access
+f2211881e737cade55e0ee07cf6a26d91a35a6fe perf data: Fix error return code in perf_data__create_dir()
+9d480158ee86ad606d3a8baaf81e6b71acbfd7d5 perf/x86/intel/uncore: Remove uncore extra PCI dev HSWEP_PCI_PCU_3
+4b2f1e59229b9da319d358828cdfa4ddbc140769 perf/x86/kvm: Fix Broadwell Xeon stepping in isolation_ucodes[]
+b14585d9f18dc617e975815570fe836be656b1da perf auxtrace: Fix potential NULL pointer dereference
+671b60cb6a897a5b3832fe57657152f2c3995e25 perf ftrace: Fix access to pid in array when setting a pid filter
+c6f87141254d16e281e4b4431af7316895207b8f perf map: Fix error return code in maps__clone()
+11fac7a004113466b7155e9b0d836156cf8a7e8d Merge tag 'x86_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+682b26bd80f96c2e4da3eb6dcec8bf684b79151c Merge tag 'sched_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+0146da0d4cecad571f69f02fe35d75d6dba9723c Merge tag 'locking_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+24dfc390079c5bda43a689d8b83812ce308e1e07 Merge tag 'perf_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d2d09fbe33f80ec17536b6a687ac5274feb927c7 Merge tag 'perf-tools-fixes-for-v5.12-2021-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============4715965473489454557==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e62a826b235f-ffa77af5731d.txt
-
-7412dee9f1fd3e224202b633fdfa6eeaebe0307e mmc: meson-gx: replace WARN_ONCE with dev_warn_once about scatterlist size alignment in block mode
-0e1e71d34901a633825cd5ae78efaf8abd9215c6 tracing: Fix checking event hash pointer logic when tp_printk is enabled
-db2e718a47984b9d71ed890eb2ea36ecf150de18 capabilities: require CAP_SETFCAP to map uid 0
-1fe5501ba1abf2b7e78295df73675423bd6899a0 Merge tag 'trace-v5.12-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
-16fc44d6387e260f4932e9248b985837324705d8 Merge tag 'mmc-v5.12-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-fff4db76be297bd4124a503948435a3917d7a702 io_uring: move __io_sqe_files_unregister
-44b31f2fa2c4b6479a578e74e4ed6bf7ad243955 io_uring: return back rsrc data free helper
-d4d19c19d6ae93f99a57c50ccf6d084213e964bd io_uring: decouple CQE filling from requests
-b60c8dce33895f79cbb54700fbeffc7db8aee3f7 io_uring: preparation for rsrc tagging
-98f0b3b4f1d51911492b9d6eda4add0ec562179b io_uring: add generic path for rsrc update
-fdecb66281e165927059419c3b1de09ffe4f8369 io_uring: enumerate dynamic resources
-792e35824be9af9fb4dac956229fb97bda04e25e io_uring: add IORING_REGISTER_RSRC
-c3bdad0271834214be01c1d687c262bf80da6eb0 io_uring: add generic rsrc update with tags
-41edf1a5ec967bf4bddedb83c48e02dfea8315b4 io_uring: keep table of pointers to ubufs
-eae071c9b4cefbcc3f985c5abf9a6e32c1608ca9 io_uring: prepare fixed rw for dynanic buffers
-bd54b6fe3316ec1d469513b888ced31eec20032a io_uring: implement fixed buffers registration similar to fixed files
-634d00df5e1cfc4a707b629a814bd607f726bd52 io_uring: add full-fledged dynamic buffers support
-2b4ae19c6d4842dc24d9e0cbec5c98d2766643d5 io_uring: update sq_thread_idle after ctx deleted
-42fb54fbc7072da505c1c59cbe9f8417feb37c27 bio: limit bio max size
-df5fee3dd99886be6fa0b25ca8102859c1ada4b5 blk-iocost: don't ignore vrate_min on QD contention
-f58ceb2c1907a6ac1887465a662ea9d1c40d6ffd Merge branch 'for-5.13/block' into for-next
-8fd84c2b7d48557755f2e03872642ee0610fb49c Merge branch 'for-5.13/drivers' into for-next
-1f6ac434dfff4753351949896ad975074cfbe41a Merge branch 'for-5.13/libata' into for-next
-ffa77af5731dbb8f97fadada00da1fdd9b87e92a Merge branch 'for-5.13/io_uring' into for-next
-
---===============4715965473489454557==--
+--===============7003108917989068369==--
