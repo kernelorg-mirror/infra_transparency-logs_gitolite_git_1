@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1396868540626195268=="
+Content-Type: multipart/mixed; boundary="===============6712180989836002792=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 26 Apr 2021 08:38:08 -0000
-Message-Id: <161942628839.713.17473276502412349471@gitolite.kernel.org>
+Date: Mon, 26 Apr 2021 08:38:28 -0000
+Message-Id: <161942630801.946.17674903833581764791@gitolite.kernel.org>
 
---===============1396868540626195268==
+--===============6712180989836002792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-linus
-    old: a65a802aadba072ca7514fc0c301fd7fdc6fc6cb
-    new: 34e5269bf987aff9a33ad3ab4f5d65c02913cbc1
-    log: |
-         b19df649adcba4f934a1438dbb21f5f1cb883608 m68k: mm: Fix flatmem memory model setup
-         efdf262e11437f1bb6bcb35c16ac5c3c4cd07c67 m68k: defconfig: Update defconfigs for v5.12-rc1
-         8e4633daccf8706ef80f31e528dad69938460126 m68k: syscalls: switch to generic syscalltbl.sh
-         cbfa72b57747f8b87df16396d85e832c8bf03811 m68k: syscalls: switch to generic syscallhdr.sh
-         43262178c043032e7c42d00de44c818ba05f9967 m68k: mvme147,mvme16x: Don't wipe PCC timer config bits
-         418db20a82a48b8aa08a8f0691125384e2cbc290 m68k: fpsp040: Remove meaningless $(OS_OBJS)
-         7accea0c95a1ce4cf1bbf622c42b00c27a2dd51d m68k: fpsp040,ifpsp060: Remove meaningless EXTRA_LDFLAGS
-         f829b4b212a315b912cb23fd10aaf30534bb5ce9 m68k: Add missing mmap_read_lock() to sys_cacheflush()
-         34e5269bf987aff9a33ad3ab4f5d65c02913cbc1 m68k: sun3x: Remove unneeded semicolon
-         
-  - ref: refs/heads/master
-    old: 116a46c3f0cf8a2053aef36d5e59fc3dea7da0d5
-    new: 69e46b7756691bcf1c63c369852c42d792a172c8
-    log: revlist-116a46c3f0cf-69e46b775669.txt
+  - ref: refs/heads/m68k-queue
+    old: 91b99d00567cb37d381fbe3c30ba6571aa565cba
+    new: 52d5c056e366b87429b53dffe3875a090f6ddcbb
+    log: revlist-91b99d00567c-52d5c056e366.txt
 
---===============1396868540626195268==
+--===============6712180989836002792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-116a46c3f0cf-69e46b775669.txt
+Content-Disposition: attachment; filename=revlist-91b99d00567c-52d5c056e366.txt
 
 4b154b941f0ed49f901ac2f96e92ee07ff81d8d8 arm64: tegra: Add unit-address for ACONNECT on Tegra186
 75c82a25b59576c4b5a3fd0073744af865b1571f arm64: tegra: Set fw_devlink=on for Jetson TX2
@@ -101,6 +87,15 @@ e77a830c8297c088f80e337cf888af7d014a16d7 Merge branch 'akpm' (patches from Andre
 24dfc390079c5bda43a689d8b83812ce308e1e07 Merge tag 'perf_urgent_for_v5.12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d2d09fbe33f80ec17536b6a687ac5274feb927c7 Merge tag 'perf-tools-fixes-for-v5.12-2021-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 9f4ad9e425a1d3b6a34617b8ea226d56a119a717 Linux 5.12
-69e46b7756691bcf1c63c369852c42d792a172c8 Merge tag 'v5.12'
+c05d818cfd22f0bd5972025fc7c108610897bd99 m68k: syscalls: switch to generic syscalltbl.sh
+1f8870d38f5e6f346b5a5b2213f8e502038c5e8e m68k: syscalls: switch to generic syscallhdr.sh
+802609e8052e60554f722caf3ac392531fcfde1c m68k: mvme147,mvme16x: Don't wipe PCC timer config bits
+9796f6f10c838d4236eef40e6619c9481f60114c m68k: fpsp040: Remove meaningless $(OS_OBJS)
+c0e836dc72342b3ef6932475055c3c517d4a1c62 m68k: fpsp040,ifpsp060: Remove meaningless EXTRA_LDFLAGS
+9a3026250dbd2a00a41ef085a5d29414ea5e5ae0 m68k: Add missing mmap_read_lock() to sys_cacheflush()
+2cc8e5b4ad72cd160ab9ae610be2cd7278a0b8ee m68k: sun3x: Remove unneeded semicolon
+510c84e446c9a16a96bc4f32eb4e9e60e006a85e m68k: atari: usb: Add ISP1160 USB host controller support
+ee1458613312f54109ce5018e8c2110f92baab41 m68k: atari: Update Kconfig.bus help text
+52d5c056e366b87429b53dffe3875a090f6ddcbb m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1396868540626195268==--
+--===============6712180989836002792==--
