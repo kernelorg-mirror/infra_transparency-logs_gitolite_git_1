@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Mon, 26 Apr 2021 22:35:10 -0000
-Message-Id: <161947651032.12829.3561585699409428775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Mon, 26 Apr 2021 22:37:42 -0000
+Message-Id: <161947666249.13550.9404029910887162965@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/miklos.fileattr
-    old: 0000000000000000000000000000000000000000
-    new: c4fe8aef2f07c8a41169bcb2c925f6a3a6818ca3
+  - ref: refs/tags/netfs-lib-20210426
+    old: b257f2331f586124134b96bf09807a5c2502e222
+    new: e661215c9959367de9925c377cf0247a99bffb81
+    log: |
+         53b776c77aca99b663a5512a04abc27670d61058 netfs: Miscellaneous fixes
+         
