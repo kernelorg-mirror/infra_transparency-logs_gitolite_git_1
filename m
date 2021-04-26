@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6180847917795536302=="
+Content-Type: multipart/mixed; boundary="===============8268812583527877358=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 26 Apr 2021 14:31:13 -0000
-Message-Id: <161944747395.10275.6901891688555929302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-amlogic
+Date: Mon, 26 Apr 2021 14:31:19 -0000
+Message-Id: <161944747940.10405.17300262148199789927@gitolite.kernel.org>
 
---===============6180847917795536302==
+--===============8268812583527877358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-amlogic
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
 
---===============6180847917795536302==
+--===============8268812583527877358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -85,4 +85,4 @@ e77a830c8297c088f80e337cf888af7d014a16d7 Merge branch 'akpm' (patches from Andre
 d2d09fbe33f80ec17536b6a687ac5274feb927c7 Merge tag 'perf-tools-fixes-for-v5.12-2021-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 9f4ad9e425a1d3b6a34617b8ea226d56a119a717 Linux 5.12
 
---===============6180847917795536302==--
+--===============8268812583527877358==--
